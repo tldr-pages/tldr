@@ -26,7 +26,7 @@ $ npm install -g tldr
 
 Your favourite command isn't covered? You can think of more examples?
 
-Just [open an issue](http://github.com/rprieto/tldr/issues) or [send a pull request](http://github.com/rprieto/tldr/pullrequest), it's all **Markdown** stored right here on Github.
+Just [open an issue](http://github.com/rprieto/tldr/issues) or [send a pull request](https://github.com/rprieto/tldr/pulls), it's all **Markdown** stored right here on Github.
 
 The rough guidelines are:
 
