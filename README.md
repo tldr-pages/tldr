@@ -2,7 +2,6 @@
 
 New to the command-line world? Or just a little rusty?
 Or like me you can't always remember the arguments to `lsof` or `tar`?
-
 Maybe it doesn't help that the first option explained in `man tar` is:
 
 ```
@@ -15,7 +14,7 @@ Maybe it doesn't help that the first option explained in `man tar` is:
 I'm sure people could benefit from simplified "teach me the basics" man pages.
 What about:
 
-[tldr screenshot](http://raw.github.com/rprieto/tldr/master/screenshot.png)!
+![tldr screenshot](http://raw.github.com/rprieto/tldr/master/screenshot.png)
 
 # Installing
 
