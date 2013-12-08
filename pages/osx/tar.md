@@ -1,7 +1,7 @@
 # tar
 
 - Archiving utility
-- Supports tar / gzip / bzip
+- Optional compression with gzip / bzip
 
 ## create an archive from files
 
