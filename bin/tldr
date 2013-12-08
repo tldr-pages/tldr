@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+var util = require('util');
+var tldr = require('../lib/tldr');
+
+if (process.argv.length != 3) {
+  util.log('Usage: tldr <command>');
+  process.exit(1);
+} else {
+  tldr.get(process.argv[2]);
+}

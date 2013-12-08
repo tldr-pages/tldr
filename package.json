@@ -1,0 +1,40 @@
+{
+  "name": "tldr",
+  "version": "0.0.1",
+  "description": "Simplified and community-driven man pages",
+  "author": "Romain Prieto",
+  "license": "BSD",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rprieto/tldr.git"
+  },
+  "keywords": [
+    "tldr",
+    "man",
+    "unix",
+    "commands"
+  ],
+  "main": "./bin/tldr",
+  "bin": {
+    "tldr": "./bin/tldr"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "NODE_ENV=development node server.js",
+    "example": "NODE_ENV=development node ./bin/tldr tar",
+    "test": "./node_modules/.bin/mocha"
+  },
+  "dependencies": {
+    "request": "~2.29.0",
+    "markit": "~0.1.0",
+    "ansicolors": "~0.3.2",
+    "ansistyles": "~0.1.3"
+  },
+  "devDependencies": {
+    "mocha": "~1.15.1",
+    "connect": "~2.11.2",
+    "should": "~2.1.1"
+  }
+}
