@@ -2,7 +2,12 @@ var should = require('should');
 var output = require('../lib/output');
 
 describe('Console output from Markdown', function() {
-  
+
+  it('surrounds the output with blank lines', function() {
+    var o = output.fromMarkdown('');
+    o.should.eql('\n\n');
+  });
+    
   it('strips paragraph tags', function() {
     var o = output.fromMarkdown(
       '\nline 1' +
@@ -10,7 +15,7 @@ describe('Console output from Markdown', function() {
       '\nline 2' +
       '\n'
     );
-    o.should.eql('line 1line 2');
+    o.should.eql('\nline 1line 2\n');
   });
 
   it('command description is in a block quote', function() {
@@ -20,16 +25,8 @@ describe('Console output from Markdown', function() {
     );
     o.should.include('archiving utility');
     o.should.include('supports optional compression');
-    o.should.startWith('\n  \u001b[3m\u001b[1m');
-    o.should.endWith('\u001b[22m\u001b[23m\n\n');
-  });
-  
-  it('surrounds the command description with line breaks', function() {
-    var o = output.fromMarkdown(
-      '\n> archiving utility' +
-      '\n> supports optional compression'
-    );
-    o.should.endWith('\n\n');
+    o.should.startWith('\n  \u001b[3m');
+    o.should.endWith('\u001b[23m\n');
   });
   
   it('ignores all other Markdown syntax', function() {
@@ -44,7 +41,7 @@ describe('Console output from Markdown', function() {
       '\ncode block' +
       '\n```'
     );
-    o.should.eql('');
+    o.should.eql('\n\n');
   });
   
 });
