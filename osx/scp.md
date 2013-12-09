@@ -1,20 +1,18 @@
 # scp
 
-- Copies files between hosts on a network
-- Works over a secure connection (SSH)
+> Copies files between hosts on a network
+> Works over a secure connection (SSH)
 
-## Uploading a file
+- upload a file or directory
 
-`scp local_file 10.0.0.1:/remote/path/filename`
+`scp {{/local/file}} {{10.0.0.1}}:{{/remote/path/}}`
+`scp {{/local/file}} {{10.0.0.1}}:{{/remote/path/newname}}`
+`scp -r {{/local/folder}} {{10.0.0.1}}:{{/remote/path/}}`
 
-## Uploading a directory
+- download a file (reversed)
 
-`scp -r local_folder 10.0.0.1:/remote/path/`
+`scp {{10.0.0.1}}:{{/remote/path/filename}} {{/local/file}}`
 
-## Downloading a file
+- specify credentials
 
-`scp 10.0.0.1:/remote/path/filename local_file`
-
-## Specifying credentials
-
-`scp local_file my_user@10.0.0.1:/remote/path`
+`scp {{/local/file}} {{my_user}}@{{10.0.0.1}}:{{/remote/path/}}`

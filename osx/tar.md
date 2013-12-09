@@ -1,16 +1,16 @@
 # tar
 
-- Archiving utility
-- Optional compression with gzip / bzip
+> Archiving utility
+> Optional compression with gzip / bzip
 
-## create an archive from files
+- create an archive from files
 
-`tar cf target.tar file1 file2 file3`
+`tar cf {{target.tar}} {{file1 file2 file3}}`
 
-## create a gzipped archive
+- create a gzipped archive
 
-`tar cfz target.tar.gz file1 file2 file3`
+`tar cfz {{target.tar.gz}} {{file1 file2 file3}}`
 
-## extract an archive in a target folder
+- extract an archive in a target folder
 
-`tar xf source.tar -C folder`
+`tar xf {{source.tar}} -C {{folder}}`

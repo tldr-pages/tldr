@@ -1,20 +1,20 @@
 # curl
 
-- Transfers data from or to a server
-- Supports most protocols including HTTP, FTP, POP
+> Transfers data from or to a server
+> Supports most protocols including HTTP, FTP, POP
 
-## Head request
+- send form-encoded data
 
-`curl --head http://localhost`
+`curl --data {{name=bob}} {{http://localhost/form}}`
 
-## Send form-encoded data
+- send JSON data
 
-`curl --data name=bob http://localhost/form`
+`curl -X POST -H "Content-Type: application/json" -d {{'{"name":"bob"}'}} {{http://localhost/login}}`
 
-## Send JSON data
+- specify an HTTP method
 
-`curl -X POST -H "Content-Type: application/json" -d '{"name":"bob"}' http://localhost/login`
+`curl -X {{DELETE}} {{http://localhost/item/123}}`
 
-## Specify an HTTP method
+- head request
 
-`curl -X DELETE http://localhost/item/123`
+`curl --head {{http://localhost}}`
