@@ -1,23 +1,24 @@
 # grep
 
-- Matches patterns in input text
-- Supports simple patterns and regular expressions
+> Matches patterns in input text
+> Supports simple patterns and regular expressions
 
-## Search for an exact string
-`grep something FILE`
+- search for an exact string
+ 
+`grep {{something}} {{file_path}}`
 
-## Use a regex instead of a word
+- use a regex
 
-`grep -e ^regex$ FILE`
+`grep -e {{^regex$}} {{file_path}}`
 
-## See 3 lines of context
+- see 3 lines of context
 
-`grep -C 3 something FILE`
+`grep -C 3 {{something}} {{file_path}}`
 
-## Print the count of matches
+- print the number of matches
 
-`grep -c something FILE`
+`grep -c {{something}} {{file_path}}`
 
-## Use the standard input instead
+- use the standard input instead of a file
 
-`cat FILE | grep something`
+`cat {{file_path}} | grep {{something}}`

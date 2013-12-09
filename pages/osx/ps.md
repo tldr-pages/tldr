@@ -1,7 +1,7 @@
 # ps
 
-- Information about running processes
+> Information about running processes
 
-## List all running processes
+- list all running processes
 
 `ps aux`

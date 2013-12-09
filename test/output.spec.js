@@ -13,20 +13,21 @@ describe('Console output from Markdown', function() {
     o.should.eql('line 1line 2');
   });
 
-  it('prints bullet points in bold (command description)', function() {
+  it('command description is in a block quote', function() {
     var o = output.fromMarkdown(
-      '\n- archiving utility' +
-      '\n- supports optional compression'
+      '\n> archiving utility' +
+      '\n> supports optional compression'
     );
-    o.should.startWith('  ');
-    o.should.include('\u001b[3m\u001b[1marchiving utility\u001b[22m\u001b[23m');
-    o.should.include('\u001b[3m\u001b[1msupports optional compression\u001b[22m\u001b[23m');
+    o.should.include('archiving utility');
+    o.should.include('supports optional compression');
+    o.should.startWith('\n  \u001b[3m\u001b[1m');
+    o.should.endWith('\u001b[22m\u001b[23m\n\n');
   });
   
-  it('adds a line break after the main description', function() {
+  it('surrounds the command description with line breaks', function() {
     var o = output.fromMarkdown(
-      '\n- archiving utility' +
-      '\n- supports optional compression'
+      '\n> archiving utility' +
+      '\n> supports optional compression'
     );
     o.should.endWith('\n\n');
   });
@@ -35,9 +36,9 @@ describe('Console output from Markdown', function() {
     var o = output.fromMarkdown(
       '\n# heading 1' +
       '\n' +
-      '\n### heading 3' +
+      '\n## heading 2' +
       '\n' +
-      '\n> quote' +
+      '\n[link](http://link)' +
       '\n' +
       '\n```' +
       '\ncode block' +
@@ -45,7 +46,5 @@ describe('Console output from Markdown', function() {
     );
     o.should.eql('');
   });
-
-
   
 });
