@@ -30,7 +30,9 @@
     "request": "~2.29.0",
     "markit": "~0.1.0",
     "ansicolors": "~0.3.2",
-    "ansistyles": "~0.1.3"
+    "ansistyles": "~0.1.3",
+    "async": "~0.2.9",
+    "mkdirp": "~0.3.5"
   },
   "devDependencies": {
     "mocha": "~1.15.1",
