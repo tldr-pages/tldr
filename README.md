@@ -30,6 +30,6 @@ Just [open an issue](http://github.com/rprieto/tldr/issues) or [send a pull requ
 
 The rough guidelines are:
 
-- the main description is 2 or 3 bullet points (80 columns)
+- each command's description should short and sweet
 - give around 5 examples of the most common usages
 - when in doubt, keep new command-line users in mind
