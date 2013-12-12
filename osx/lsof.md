@@ -1,6 +1,6 @@
 # lsof
 
-> Lists open files and the correspondig processes
+> Lists open files and the corresponding processes
 
 - find the processes that have a given file open
 
