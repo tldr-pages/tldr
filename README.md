@@ -33,3 +33,18 @@ The rough guidelines are:
 - each command's description should short and sweet
 - give around 5 examples of the most common usages
 - when in doubt, keep new command-line users in mind
+
+# Dev notes
+
+- To run the tests:
+
+```
+npm test
+```
+
+- To try out new fetching/rendering logic locally
+
+```
+npm start
+npm run example
+```
