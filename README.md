@@ -11,7 +11,7 @@ Maybe it doesn't help that the first option explained in `man tar` is:
    and usually not even then as the default block size of 20 records (10240 bytes) is very common.
 ```
 
-I'm sure people could benefit from simplified "teach me the basics" man pages.
+I'm sure people could benefit from simplified "show me the common usages" man pages.
 What about:
 
 ![tldr screenshot](http://raw.github.com/rprieto/tldr/master/screenshot.png)
