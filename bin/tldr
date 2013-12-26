@@ -7,5 +7,10 @@ if (process.argv.length != 3) {
   util.log('Usage: tldr <command>');
   process.exit(1);
 } else {
-  tldr.get(process.argv[2]);
+  try {
+    tldr.get(process.argv[2]);
+  } catch (ex) {
+    util.error(ex);
+    process.exit(1);
+  }
 }
