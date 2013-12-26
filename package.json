@@ -33,7 +33,8 @@
     "ansistyles": "~0.1.3",
     "async": "~0.2.9",
     "mkdirp": "~0.3.5",
-    "unhtml": "~0.1.0"
+    "unhtml": "~0.1.0",
+    "ms": "~0.6.2"
   },
   "devDependencies": {
     "mocha": "~1.15.1",

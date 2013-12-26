@@ -1,0 +1,6 @@
+{
+  "remote": {
+    "url": "http://raw.github.com/rprieto/tldr/master/pages",
+    "maxAge": "30 days"
+  }
+}
