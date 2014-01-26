@@ -2,7 +2,7 @@
 
 > Creates a directory
 
-- creates a diroctory in current folder or given path
+- creates a directory in current folder or given path
 
 `mkdir {{directory}}`
 
