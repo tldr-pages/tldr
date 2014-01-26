@@ -14,3 +14,7 @@
 - find files modified since a certain time
 
 `find {{root_path}} -name {{'*.py'}} -mtime {{-1d}}`
+
+- remove files recursively
+
+`find {{root_path}} -name {{'*.py'}} -exec rm {} \;`
