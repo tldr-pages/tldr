@@ -2,13 +2,14 @@
 
 var util = require('util');
 var tldr = require('../lib/tldr');
+var argv = require('optimist').argv;
 
-if (process.argv.length != 3) {
+if (argv._.length != 1) {
   util.log('Usage: tldr <command>');
   process.exit(1);
 } else {
   try {
-    tldr.get(process.argv[2]);
+    tldr.get(argv._[0], argv);
   } catch (ex) {
     util.error(ex);
     process.exit(1);
