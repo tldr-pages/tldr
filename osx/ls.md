@@ -16,7 +16,7 @@
 
 - List all files with a prefix/suffix
 
-`ls {prefix*}` or `ls {*suffix}`
+`ls {prefix}*` or `ls *{suffix}`
 
 - Sort files by time
 
