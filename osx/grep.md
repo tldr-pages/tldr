@@ -7,6 +7,10 @@
  
 `grep {{something}} {{file_path}}`
 
+- search recursively in current directory for an exact string
+
+`grep -r {{something}} .`
+
 - use a regex
 
 `grep -e {{^regex$}} {{file_path}}`
