@@ -10,7 +10,7 @@
 
 - transfer file from remote host to local
 
-`rsync {{remote_host_name}}:{{remote_file_location} {{local_file_location}}`
+`rsync {{remote_host_name}}:{{remote_file_location}} {{local_file_location}}`
 
 - transfer all *.js files in current directory to host 'devbox' as user 'mike'
 
