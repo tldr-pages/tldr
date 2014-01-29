@@ -2,10 +2,10 @@
 
 > Copies a file
 
-- make a duplicate in the same directory
+- copy files in arbitrary locations
 
-`cp {{filename}} {{new_filename}}`
+`cp {{/path/to/original}} {{/path/to/copy}}`
 
 - copy a file to a parent directory
 
-`cp {{filename}} /{{new_filename}}`
+`cp {{/path/to/original}} /{{/path/to/copy}}`
