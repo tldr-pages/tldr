@@ -20,7 +20,7 @@
 
 - Sort files by time
 
-`-t` for last modified 
+`-t` for last modified
 `-U` for date of creation
 `-r` reverses the list
 `ls -tr`
