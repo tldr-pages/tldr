@@ -16,7 +16,6 @@ What about:
 
 ![tldr screenshot](http://raw.github.com/rprieto/tldr/master/screenshot.png)
 
-*Note:* sorry for now there are no Linux entries. Please come contribute [over here](https://github.com/rprieto/tldr/issues/21) if you have ideas how we can handle multiple platforms efficiently!
 
 # Installing
 
