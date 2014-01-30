@@ -11,7 +11,7 @@
 
 `scp {{/local/file.txt}} {{10.0.0.1}}:{{/remote/path/newname.txt}}`
 
-- upload a folder
+- upload a directory
 
 `scp -r {{/local/folder}} {{10.0.0.1}}:{{/remote/path/}}`
 
@@ -19,11 +19,11 @@
 
 `scp {{10.0.0.1}}:{{/remote/path/file.txt}} {{/local/folder}}`
 
-- download a folder
+- download a directory
 
 `scp -r {{10.0.0.1}}:{{/remote/path}} {{/local/folder}}`
 
-- specify credentials
+- specify username on host
 
 `scp {{/local/file.txt}} {{my_user}}@{{10.0.0.1}}:{{/remote/path}}`
 
