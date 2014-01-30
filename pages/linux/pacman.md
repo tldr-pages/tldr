@@ -10,7 +10,7 @@
 
 `pacman -S package-name`
 
-- remove a package and it's dependencies
+- remove a package and its dependencies
  
 `pacman -Rs package-name`
 
