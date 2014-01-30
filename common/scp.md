@@ -3,16 +3,30 @@
 > Copies files between hosts on a network
 > Works over a secure connection (SSH)
 
-- upload a file or directory
+- upload a file
 
-`scp {{/local/file}} {{10.0.0.1}}:{{/remote/path/}}`
-`scp {{/local/file}} {{10.0.0.1}}:{{/remote/path/newname}}`
+`scp {{/local/file.txt}} {{10.0.0.1}}:{{/remote/path/}}`
+
+- upload a file and change its name
+
+`scp {{/local/file.txt}} {{10.0.0.1}}:{{/remote/path/newname.txt}}`
+
+- upload a folder
+
 `scp -r {{/local/folder}} {{10.0.0.1}}:{{/remote/path/}}`
 
-- download a file (reversed)
+- download a file
 
-`scp {{10.0.0.1}}:{{/remote/path/filename}} {{/local/file}}`
+`scp {{10.0.0.1}}:{{/remote/path/file.txt}} {{/local/folder}}`
+
+- download a folder
+
+`scp -r {{10.0.0.1}}:{{/remote/path}} {{/local/folder}}`
 
 - specify credentials
 
-`scp {{/local/file}} {{my_user}}@{{10.0.0.1}}:{{/remote/path/}}`
+`scp {{/local/file.txt}} {{my_user}}@{{10.0.0.1}}:{{/remote/path}}`
+
+- copy a file from one host to another
+
+`scp {{10.0.0.1}}:{{/remote/path/file.txt}} {{20.0.0.2}}:{{/other/remote/path}}`
