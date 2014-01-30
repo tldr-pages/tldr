@@ -8,4 +8,4 @@
 
 - copy a file to a parent directory
 
-`cp {{/path/to/original}} /{{/path/to/copy}}`
+`cp {{/path/to/original}} ../{{/path/to/copy}}`
