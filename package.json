@@ -3,7 +3,7 @@
   "version": "0.0.5",
   "description": "Simplified and community-driven man pages",
   "author": "Romain Prieto",
-  "license": "BSD",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/rprieto/tldr.git"

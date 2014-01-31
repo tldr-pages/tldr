@@ -25,7 +25,9 @@ $ npm install -g tldr
 
 # Contributing
 
-Your favourite command isn't covered? You can think of more examples?
+Your favourite command isn't covered? You can think of more examples? New features?
+
+`tldr` is under [MIT license](http://opensource.org/licenses/MIT). You're free to modify or redistribute the source and content, but why not contribute over here? :)
 
 Just [open an issue](http://github.com/rprieto/tldr/issues) or [send a pull request](https://github.com/rprieto/tldr/pulls), it's all **Markdown** stored right here on Github.
 
