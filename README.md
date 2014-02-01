@@ -1,7 +1,7 @@
 # What is this?
 
 New to the command-line world? Or just a little rusty?
-Or like me you can't always remember the arguments to `lsof` or `tar`?
+Or, like me, you can't always remember the arguments to `lsof` or `tar`?
 Maybe it doesn't help that the first option explained in `man tar` is:
 
 ```
@@ -33,7 +33,7 @@ Just [open an issue](http://github.com/rprieto/tldr/issues) or [send a pull requ
 
 The rough guidelines are:
 
-- each command's description should short and sweet
+- each command's description should be short and sweet
 - give around 5 examples of the most common usages
 - when in doubt, keep new command-line users in mind
 
