@@ -1,7 +1,6 @@
 # pbcopy
 
 > Place standard output in the clipboard
-> (OS X only)
 
 - Place the contents of a file in the clipboard.
 
