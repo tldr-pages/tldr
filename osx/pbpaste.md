@@ -1,7 +1,6 @@
 # pbpaste
 
 > Send the contents of the clipboard to standard output
-> (OS X only)
 
 - Write the contents of the clipboard to a file.
 
