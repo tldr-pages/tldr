@@ -24,4 +24,4 @@
 
 - Switch version of formula
 
-`brew switch {{[formula]}} {{version}}`
+`brew switch {{formula}} {{version}}`
