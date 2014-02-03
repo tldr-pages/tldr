@@ -21,3 +21,7 @@
 - Update brew
 
 `brew update`
+
+- Switch version of formula
+
+`brew switch {{[formula]}} {{[version]}}`
