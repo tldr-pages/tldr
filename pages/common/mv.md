@@ -1,0 +1,19 @@
+# mv
+
+> Move or rename files and directories
+
+- Move files in abitrary locations
+
+`mv {{source}} {{target}}`
+
+- Do not promt for confirmation before overwriting existing files
+
+`mv -f {{source}} {{target}}`
+
+- Do not promt for confirmation before overwriting existing files but write to standard error before overriding
+
+`mv -fi {{source}} {{target}}`
+
+- Move files in verbose mode, showing files after they are moved
+
+`mv -v {{source}} {{target}}`
