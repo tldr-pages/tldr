@@ -14,3 +14,7 @@
 - extract an archive in a target folder
 
 `tar xf {{source.tar}} -C {{folder}}`
+
+- extract a gzipped archive in the current directory
+
+`tar xzf {{source.tar.gz}}`
