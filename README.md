@@ -51,3 +51,7 @@ npm test
 npm start
 npm run example
 ```
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/rprieto/tldr/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
