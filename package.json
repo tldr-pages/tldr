@@ -27,19 +27,19 @@
     "test": "./node_modules/.bin/mocha"
   },
   "dependencies": {
-    "request": "~2.29.0",
-    "markit": "~0.1.0",
     "ansicolors": "~0.3.2",
     "ansistyles": "~0.1.3",
     "async": "~0.2.9",
+    "markit": "~0.1.0",
     "mkdirp": "~0.3.5",
-    "unhtml": "~0.1.0",
     "ms": "~0.6.2",
-    "optimist": "~0.6.0"
+    "optimist": "~0.6.0",
+    "request": "~2.33.0",
+    "unhtml": "~0.1.0"
   },
   "devDependencies": {
-    "mocha": "~1.15.1",
     "connect": "~2.11.2",
+    "mocha": "~1.15.1",
     "should": "~2.1.1"
   }
 }
