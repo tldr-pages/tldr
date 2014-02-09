@@ -1,17 +1,37 @@
 #!/usr/bin/env node
 
-var util = require('util');
-var tldr = require('../lib/tldr');
-var argv = require('optimist').argv;
+var util    = require('util');
+var tldr    = require('../lib/tldr');
+var pkg     = require('../package');
+var program = require('commander');
 
-if (argv._.length != 1) {
-  util.log('Usage: tldr <command>');
-  process.exit(1);
-} else {
+program
+  .version(pkg.version)
+  .usage('commandName [options]')
+  .option('-o, --os [type]', 'Override the operating system [linux, osx, sunos]')
+  .option('-c, --clear-cache', 'Clear the local cache');
+
+program.on('--help', function() {
+  console.log('  Examples:');
+  console.log('');
+  console.log('    $ tldr tar');
+  console.log('    $ tldr svcs --os sunos');
+  console.log('    $ tldr --clear-cache')
+  console.log('');
+});
+
+program.parse(process.argv);
+
+if (program.clearCache) {
+  tldr.clearCache();
+} else if (program.args.length == 1) {
   try {
-    tldr.get(argv._[0], argv);
+    tldr.get(program.args[0], program);
   } catch (ex) {
     util.error(ex);
     process.exit(1);
   }
+} else {
+  util.log('Usage: tldr <command>');
+  process.exit(1);
 }
