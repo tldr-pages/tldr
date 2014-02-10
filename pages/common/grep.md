@@ -19,7 +19,7 @@
 
 `grep -C 3 {{something}} {{file_path}}`
 
-- print the number of matches
+- print the count of matches instead of the matching text 
 
 `grep -c {{something}} {{file_path}}`
 
