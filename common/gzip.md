@@ -4,19 +4,19 @@
 
 - compress a file, replacing it with a gzipped compressed version
 
-`gzip {{file.ext}}
+`gzip {{file.ext}}`
 
 - decompress a file, replacing it with the original uncomrpessed version
 
-`gzip -d {{file.ext.gz}}
+`gzip -d {{file.ext.gz}}`
 
 - compress a file specifying the output filename
 
-`gzip -c {{file.ext}} > compressed-file.ext.gz
+`gzip -c {{file.ext}} > compressed-file.ext.gz`
 
 - uncompress a gzipped file specifying the output filename
 
-`gzip -c -d {{file.ext.gz}} > uncompressed-file.ext
+`gzip -c -d {{file.ext.gz}} > uncompressed-file.ext`
 
 - specify the compression level. 1=Fastest (Worst), 9=Slowest (Best), Default level is 6
 
