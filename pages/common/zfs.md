@@ -16,12 +16,12 @@
 
 - Create a Snapshot of a ZFS filesystem
 
-`zfs snapshot {{poolname/filesystem@snapshot-name}}
+`zfs snapshot {{poolname/filesystem@snapshot-name}}`
 
 - Enable compression on a filesystem
 
-`zfs set compression=on {{poolname/fileystem}}
+`zfs set compression=on {{poolname/fileystem}}`
 
 - Change mountpoint for a filesytem
 
-`zfs set mountpoint={{/my/mount/path}} {{poolname/filesystem}}
+`zfs set mountpoint={{/my/mount/path}} {{poolname/filesystem}}`

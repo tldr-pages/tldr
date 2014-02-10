@@ -8,4 +8,4 @@
 
 - Compute 300px wide PNG thumbnails of all JPEGs in the current directory and put them in a directory.
 
-`quicklook *.jpg -t -s 300 {{/existing//thumbnail/directory}}
+`quicklook *.jpg -t -s 300 {{/existing//thumbnail/directory}}`

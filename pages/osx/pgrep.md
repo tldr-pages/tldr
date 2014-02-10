@@ -8,8 +8,8 @@
 
 - case insensitive greping
 
-`pgrep -i {{fireFOx}}
+`pgrep -i {{fireFOx}}`
 
 - kill all processes which match
 
-`pkill -9 {{Finder}}
+`pkill -9 {{Finder}}`
