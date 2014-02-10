@@ -6,11 +6,11 @@
 
 `mv {{source}} {{target}}`
 
-- Do not promt for confirmation before overwriting existing files
+- Do not prompt for confirmation before overwriting existing files
 
 `mv -f {{source}} {{target}}`
 
-- Do not promt for confirmation before overwriting existing files but write to standard error before overriding
+- Do not prompt for confirmation before overwriting existing files but write to standard error before overriding
 
 `mv -fi {{source}} {{target}}`
 
