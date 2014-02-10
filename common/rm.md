@@ -2,7 +2,7 @@
 
 > Remove files or directories
 
-- Remove files from arbitrary 
+- Remove files from arbitrary locations
 
 `rm {{/path/to/file}} {{/otherpath/to/file2}}`
 
@@ -12,4 +12,4 @@
 
 - Prompt before every removal
 
-`rm -i *`
+`rm -i {{\*}}`

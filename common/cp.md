@@ -10,10 +10,12 @@
 
 `cp {{/path/to/original}} ../{{/path/to/copy}}`
 
-- Copy directories recursive using the option -r.
+- Copy directories recursive using the option -r. Optionally showing files as they are copied.
 
 `cp -r {{/path/to/original}} {{/path/to/copy}}`
-
-- Copy files in verbose mode, showing files as they are copied. (Mostly interesting with -r option).
-
 `cp -vr {{/path/to/original}} {{/path/to/copy}}`
+
+- Make a copy of a file adding and extension or changing an extension  
+
+`cp {{file.html}}\{,.backup\}`
+`cp file.\{html,backup\}`
