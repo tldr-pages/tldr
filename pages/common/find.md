@@ -18,4 +18,4 @@
 
 - find files using case insensitive name matching, of a certain size
 
-`find {{root_path}} -size +500k -size +10MB -iname {{'*.TaR.gZ'}}`
+`find {{root_path}} -size +500k -size -10MB -iname {{'*.TaR.gZ'}}`
