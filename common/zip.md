@@ -1,6 +1,6 @@
 # zip
 
-> package and compress (archive) files into zip file
+> Package and compress (archive) files into zip file
 
 - package and compress multiple directories & files
 
