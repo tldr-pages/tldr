@@ -9,3 +9,7 @@
 - extract zip files(s) to given path
 
 `unzip {{files(s)}} -d {{/path/to/put/extracted/files}}`
+
+- list the contents of a zip file without extracting
+
+`unzip -l {{file}}

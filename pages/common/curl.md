@@ -3,6 +3,10 @@
 > Transfers data from or to a server
 > Supports most protocols including HTTP, FTP, POP
 
+- Download a URL to a file
+
+`curl "{{URL}}" -o filename` 
+
 - send form-encoded data
 
 `curl --data {{name=bob}} {{http://localhost/form}}`

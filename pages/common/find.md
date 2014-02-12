@@ -15,3 +15,7 @@
 - find files modified since a certain time
 
 `find {{root_path}} -name {{'*.py'}} -mtime {{-1d}}`
+
+- find files using case insensitive name matching, of a certain size
+
+`find {{root_path}} -size +500k -size -10MB -iname {{'*.TaR.gZ'}}`
