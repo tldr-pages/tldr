@@ -12,7 +12,7 @@
 
 - Repair the file system data structures of a volume
 
-`diskutil repairVolume {{/dev/diskX}}
+`diskutil repairVolume {{/dev/diskX}}`
 
 - Unmount a volume
 
