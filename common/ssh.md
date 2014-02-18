@@ -11,6 +11,10 @@
 
 `ssh {{username}}@{{remote_host}} -P {{2222}}`
 
+- run a command on a remote server
+ 
+`ssh {{remote_host}} "{{command -with -flags}}"`
+
 - ssh tunneling: dynamic port forwarding (SOCKS proxy on localhost:9999) 
 
 `ssh -D {{9999}} -C {{username}}@{{remote_host}}`
