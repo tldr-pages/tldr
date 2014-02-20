@@ -4,15 +4,15 @@
 
 - Create a new wallet
 
-`electrum -w new-wallet.dat create`
+`electrum -w {{new-wallet.dat}} create`
 
 - Restore an existing wallet from seed offline
 
-`electrum -w recovery-wallet.dat restore -o`
+`electrum -w {{recovery-wallet.dat}} restore -o`
 
 - Create a signed transaction offline
 
-`electrum mktx {{RECIPIENT}} {{AMOUNT}} -f 0.0000001 -F {{FROM}} -o`
+`electrum mktx {{recipient}} {{amount}} -f 0.0000001 -F {{from}} -o`
 
 - Display all wallet receiving addresses
 
@@ -20,12 +20,12 @@
 
 - Sign a message
 
-`electrum signmessage {{ADDRESS}} {{MESSAGE}}`
+`electrum signmessage {{address}} {{message}}`
 
 - Verify a message
 
-`electrum verifymessage {{ADDRESS}} {{SIGNATURE}} {{MESSAGE}}`
+`electrum verifymessage {{address}} {{signature}} {{message}}`
 
 - Connect only to a specific electrum-server instance
 
-`electrum -p socks5:127.0.0.1:9050 -s 56ckl5obj37gypcu.onion:50001:t -1`
+`electrum -p socks5:{{127.0.0.1}}:9050 -s {{56ckl5obj37gypcu.onion}}:50001:t -1`
