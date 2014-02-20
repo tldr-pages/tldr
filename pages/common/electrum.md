@@ -1,7 +1,6 @@
 # electrum
 
-> Bitcoin thin client
-> Wallet and private key management
+> Ergonomic Bitcoin wallet and private key management
 
 - Create a new wallet
 
