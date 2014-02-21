@@ -24,3 +24,7 @@
 `-U` for date of creation
 `-r` reverses the list
 `ls -tr`
+
+- List all filenames (one per line) without extra stuff like sizes and dates
+
+`ls -A1`
