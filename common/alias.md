@@ -15,8 +15,6 @@
 
 `alias -p`
 
-> Some usefull alias commands
-
 - turning rm an interative command
 
 `alias {{rm}}="{{rm -i}}"`
