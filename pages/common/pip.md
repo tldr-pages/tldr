@@ -4,11 +4,11 @@
 
 - Install a package
 
-`pip install {{somepackage}}
+`pip install {{somepackage}}`
 
 - Upgrade a package
 
-`pip install -U {{somepackage}}
+`pip install -U {{somepackage}}`
 
 - Uninstall a package
 
