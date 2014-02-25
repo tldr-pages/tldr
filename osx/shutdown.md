@@ -16,4 +16,4 @@
 
 - Reboot in 5 minutes
 
-`shutodwn -r +{{5}}`
+`shutdown -r +{{5}}`
