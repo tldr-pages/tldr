@@ -2,14 +2,17 @@
 
 > Shutdown and reboot the system
 
-- Reboot or poweroff (halt) the system immediately
+- Power off (halt) immediately
 
-`shutdown -r now`
 `shutdown -h now`
 
-- Reboot in 5 minutes.
+- Reboot immediately
 
-`shutdown -r +5 &`
+`shutdown -r now`
+
+- Reboot in 5 minutes
+
+`shutdown -r +{{5}} &`
 
 - Cancel a pending shutdown/reboot operation
 
