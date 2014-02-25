@@ -16,7 +16,7 @@
 
 - Add/Delete an ip address to an interface
 
-`ip addr add {{ip}}/{{mask}} dev {{interface}}`
+`ip addr add/del {{ip}}/{{mask}} dev {{interface}}`
 
 - Add an default route
 
