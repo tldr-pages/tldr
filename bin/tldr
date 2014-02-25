@@ -9,14 +9,22 @@ program
   .version(pkg.version)
   .usage('commandName [options]')
   .option('-o, --os [type]', 'Override the operating system [linux, osx, sunos]')
-  .option('-c, --clear-cache', 'Clear the local cache');
+  .option('-c, --clear-cache', 'Clear the local cache')
+  .option('-u, --update [types]', 'Update the local cache for the comma separated [types], eg: --update all, --update osx, --update common,osx')
+  .option('-g, --github [user:pass]', 'Set github user to [user] and the github password to [pass] (used for updating)')
+  .option('-l, --list', 'List the commands in the local cache')
+  .option('-r --random', 'Show a random command');
 
 program.on('--help', function() {
   console.log('  Examples:');
   console.log('');
   console.log('    $ tldr tar');
   console.log('    $ tldr svcs --os sunos');
-  console.log('    $ tldr --clear-cache')
+  console.log('    $ tldr --clear-cache');
+  console.log('    $ tldr --update');
+  console.log('    $ tldr --update -g cats:meow');
+  console.log('    $ tldr --list');
+  console.log('    $ tldr --random');
   console.log('');
 });
 
@@ -24,6 +32,19 @@ program.parse(process.argv);
 
 if (program.clearCache) {
   tldr.clearCache();
+} else if (program.update) {
+  tldr.updateCache(program);
+} else if (program.list) {
+  tldr.listCache();
+} else if (program.random) {
+  try {
+    var rander = tldr.getRandom();
+    console.log(rander + ":");
+    tldr.get(rander, program);
+  } catch (ex) {
+    util.error(ex);
+    process.exit(1);
+  }
 } else if (program.args.length == 1) {
   try {
     tldr.get(program.args[0], program);
