@@ -1,3 +1,5 @@
+[![Dependency Status](https://david-dm.org/rprieto/tldr.png?theme=shields.io)](https://david-dm.org/rprieto/tldr) [![devDependency Status](https://david-dm.org/rprieto/tldr/dev-status.png?theme=shields.io)](https://david-dm.org/rprieto/tldr#info=devDependencies)
+
 # What is this?
 
 New to the command-line world? Or just a little rusty?
