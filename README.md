@@ -1,4 +1,4 @@
-[![Dependency Status](https://david-dm.org/rprieto/tldr.png?theme=shields.io)](https://david-dm.org/rprieto/tldr) [![devDependency Status](https://david-dm.org/rprieto/tldr/dev-status.png?theme=shields.io)](https://david-dm.org/rprieto/tldr#info=devDependencies)
+[![Travis CI](https://api.travis-ci.org/rprieto/tldr.png)](https://travis-ci.org/rprieto/tldr) [![Dependency Status](https://david-dm.org/rprieto/tldr.png?theme=shields.io)](https://david-dm.org/rprieto/tldr) [![devDependency Status](https://david-dm.org/rprieto/tldr/dev-status.png?theme=shields.io)](https://david-dm.org/rprieto/tldr#info=devDependencies)
 
 # What is this?
 
@@ -20,6 +20,8 @@ What about:
 
 
 # Installing
+
+[![NPM](https://nodei.co/npm/tldr.png)](https://www.npmjs.org/package/tldr)
 
 ```bash
 $ npm install -g tldr
@@ -53,7 +55,3 @@ npm test
 npm start
 npm run example
 ```
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/rprieto/tldr/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
