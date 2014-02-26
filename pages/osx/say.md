@@ -13,3 +13,7 @@
 - Create an AAC compressed audio file with the spoken text
 
 `say -o {{filename.m4a}} "Everyone loves iTunes"`
+
+- List the available voices
+
+`say -v ?`
