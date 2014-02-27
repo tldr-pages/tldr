@@ -6,6 +6,7 @@
 
 `zfs list`
 `zfs create {{pool/filesystem}}`
+`zfs create {{pool/filesystem}} {{-o caseinsensitivity=insensitive}}`
 `zfs destroy {{pool/filesystem}}`
 `zfs rename {{pool/filesystem}} {{pool/filesystem2}}`
 
@@ -19,5 +20,5 @@
 - List/Get/Set properties
 
 `zfs get all`
-`zfs get {{mountpoint,available,compression,compressratio}} {{pool/filesystem}}`
-`zfs set {{mountpoint=/path/dir}},{{compression=on}},{{atime=off}} {{pool/filesystem}}`
+`zfs get {{mountpoint,compression,compressratio}} {{pool/filesystem}}`
+`zfs set {{mountpoint=/path/dir}},{{compression=lz4}} {{pool/filesystem}}`
