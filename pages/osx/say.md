@@ -4,7 +4,7 @@
 
 - Speak a phrase aloud
 
-`say "I like to ride my bike.`
+`say "I like to ride my bike."`
 
 - Speak a file aloud
 
