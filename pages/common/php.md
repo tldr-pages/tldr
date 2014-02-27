@@ -6,6 +6,10 @@
 
 `php {{file}}`
 
+- Check syntax (lint)
+
+`php -l {{file}}`
+
 - Run PHP interactively
 
 `php -a`
