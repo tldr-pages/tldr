@@ -11,6 +11,6 @@
 
 `umount path_to_mounted_directory`
 
-- Unmount all filesystems described in /etc/mtab (dangerous!)
+- Unmount all mounted filesystems (dangerous!)
 
 `umount -a`
