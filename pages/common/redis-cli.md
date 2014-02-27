@@ -14,3 +14,7 @@
 - Specify a password
 
 `redis-cli -a {{password}}`
+
+- Executes Redis command
+
+`redis-cli {{redis command}}`
