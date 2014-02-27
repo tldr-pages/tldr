@@ -20,7 +20,7 @@
 
 `zfs list -t snapshot {{pool/filesystem}}`
 `zfs snapshot {{pool/filesystem@snapname}}`
-`zfs clone {{pool/filesystem@snapname}} {{pool/filesystem2}}
+`zfs clone {{pool/filesystem@snapname}} {{pool/filesystem2}}`
 
 - List/Get/Set various properties
 
