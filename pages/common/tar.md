@@ -9,7 +9,7 @@
 
 - create a gzipped archive
 
-`tar cfz {{target.tar.gz}} {{file1 file2 file3}}`
+`tar czf {{target.tar.gz}} {{file1 file2 file3}}`
 
 - extract an archive in a target folder
 
