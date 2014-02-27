@@ -12,4 +12,4 @@
 
 - list the contents of a zip file without extracting
 
-`unzip -l {{file}}
+`unzip -l {{file}}`
