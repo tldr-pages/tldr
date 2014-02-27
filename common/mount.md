@@ -10,7 +10,7 @@
 
 `mount -t {{filesystem_type}} {{path_to_device_file}} {{directory_to_mount_to}}`
 
-- Mount a CD-ROM device (with the filetype ISO9660) to /cdrom
+- Mount a CD-ROM device (with the filetype ISO9660) to /cdrom (readonly)
 
 `mount -t {{iso9660}} -o ro {{/dev/cdrom}} {{/cdrom}}`
 
