@@ -1,27 +1,30 @@
 # zfs
 
-> Manage ZFS filesystems
+> Manipulate ZFS filesystems
 
-- List all available zfs filesystems
+- List all ZFS fileystems 
 
 `zfs list`
 
-- Create a new ZFS filesystem
+- Create filesystems, optionally specifying properties
 
-`zfs create poolname/newfsname`
+`zfs create {{pool/filesystem}}`
+`zfs create {{-o mountpoint=/path/dir}} {{pool/fileystsem}}`
 
-- Delete a ZFS filesystem
+- Destroy or rename a filesystem/snapshot 
 
-`zfs destroy {{poolname/newfsname}}`
+`zfs destroy {{pool/filesystem@snapshot}}`
+`zfs rename {{pool/filesystem}} {{pool/filesystem2}}`
 
-- Create a Snapshot of a ZFS filesystem
+- List snapshots, create a snapshot, clone a snapshot to a new filesystem
 
-`zfs snapshot {{poolname/filesystem@snapshot-name}}`
+`zfs list -t snapshot {{pool/filesystem}}`
+`zfs snapshot {{pool/filesystem@snapname}}`
+`zfs clone {{pool/filesystem@snapname}} {{pool/filesystem2}}
 
-- Enable compression on a filesystem
+- List/Get/Set various properties
 
-`zfs set compression=on {{poolname/fileystem}}`
-
-- Change mountpoint for a filesytem
-
-`zfs set mountpoint={{/my/mount/path}} {{poolname/filesystem}}`
+`zfs get all`
+`zfs get {{mountpoint,available,compression,compressratio}} {{pool/filesystem}}`
+`zfs set {{mountpoint=/path/dir}}`
+`zfs set {{compression=on}},{{atime=off}} {{pool/filesystem}}`
