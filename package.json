@@ -25,6 +25,7 @@
     "example": "NODE_ENV=development node ./bin/tldr tar",
     "test": "./node_modules/.bin/mocha"
   },
+  "os": ["!win32"],
   "dependencies": {
     "ansicolors": "~0.3.2",
     "ansistyles": "~0.1.3",
