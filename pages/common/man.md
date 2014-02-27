@@ -6,7 +6,7 @@
 
 `man {{command}}`
 
-- Display folders searched for manpages
+- Display path searched for manpages
 
 `man --path`
 
