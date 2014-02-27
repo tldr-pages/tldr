@@ -45,8 +45,7 @@ npm test              # run the unit tests
 npm start             # start a local server for TLDR pages
 npm run example       # try out local fetching/rendering logic
 ```
-```
 
----
+---------------------------------------
 
 **Footnote:** tldr is under MIT license. You're free to modify or redistribute the source and content. That being said, but why not contribute over here? :)
