@@ -10,6 +10,14 @@
 
 `pgrep -i {{fireFOx}}`
 
+- search full command line with parameters instead of just the process name
+
+`pgrep -f {{ssh root}}`
+
+- search for process run by a specific user
+
+`pgrep -u root {{firefox}}`
+
 - kill all processes which match
 
 `pkill -9 {{Finder}}`
