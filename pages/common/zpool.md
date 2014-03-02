@@ -6,16 +6,13 @@
 
 `zpool status [{{poolname}}]`
 
-- Check a ZFS pool for errors (verifies the checksum of EVERY block). Very CPU and disk intensive.
+- Check a ZFS pool for errors (reads and verifies the checksum of EVERY block).
 
 `zpool scrub {{poolname}}`
 
-- List zpools available for import
+- List available zpools, import a zpool, import optionally specifying a new name.
 
 `zpool import`
-
-- Import a zpool, optionally specifying a new name
-
 `zpool import {{poolname}}`
 `zpool import {{poolname}} {{newpoolname}}`
 
