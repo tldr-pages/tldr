@@ -30,10 +30,6 @@
 
 `git log`
 
-- Show what revision and author last modified each line of a file
-
-`git blame {{file}}`
-
 - Clone an existing repository
 
 `git clone {{remote-repository-location}}`
@@ -65,14 +61,6 @@
 - Merge a branch with your current HEAD branch
 
 `git merge {{branch-name}}`
-
-- Reset current HEAD to the previous commit and preserve all unstaged changes
-
-`git reset {{commit}}`
-
-- Discard all local uncommitted changes
-
-`git reset --hard HEAD`
 
 - Calling help
 
