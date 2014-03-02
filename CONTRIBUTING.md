@@ -8,14 +8,14 @@ Contribution are most welcome!
 
 ## Contributing content
 
-All `tldr` pages are stored in Markdown right here on Github.
-Just open an issue or send a pull request and we'll merge it ASAP.
+All `tldr` pages are stored in Markdown right here on GitHub.
+Just open an issue or send a pull request and we'll merge it as soon as possible.
 
 Note that `tldr` is focussed on concrete examples. Pages should not try to cover all possible examples and combinations of flags. Instead, focus on the 5 or 6 most common usages. When in doubt, keep new command-line users in mind.
 
 For now, the format of each page has to match the following:
 
-```md
+```
 # command-name
 
 > Short description
@@ -50,9 +50,9 @@ That being said, if it's something sizeable or a brand new feature, it's a good 
 *Quick dev notes:*
 
 ```bash
-npm test              # run the unit tests
-npm start             # start a local server for TLDR pages
-npm run example       # try out local fetching/rendering logic
+$ npm test        # run the unit tests
+$ npm start       # start a local server for TLDR pages
+$ npm run example # try out local fetching/rendering logic
 ```
 
 ---------------------------------------
