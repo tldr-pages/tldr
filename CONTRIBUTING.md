@@ -8,8 +8,8 @@ Contribution are most welcome!
 
 ## Contributing content
 
-All `tldr` pages are stored in Markdown right here on Github.
-Just open an issue or send a pull request and we'll merge it ASAP.
+All `tldr` pages are stored in Markdown right here on GitHub.
+Just open an issue or send a pull request and we'll merge it as soon as possible.
 
 Note that `tldr` is focussed on concrete examples. Pages should not try to cover all possible examples and combinations of flags. Instead, focus on the 5 or 6 most common usages. When in doubt, keep new command-line users in mind.
 
