@@ -7,6 +7,10 @@
 
 `ssh {{username}}@{{remote_host}}`
 
+- connecting to a remote server with a specific identity (private key)
+
+`ssh -i {{/path/to/key_file}} {{username}}@{{remote_host}}`
+
 - connecting to a remote server with specific port
 
 `ssh {{username}}@{{remote_host}} -P {{2222}}`
