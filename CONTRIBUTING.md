@@ -32,6 +32,15 @@ For now, the format of each page has to match the following:
 
 Eventually we might relax the format to accept any Markdown, but for now this has the advantage of adding some consitency between all pages, and making sure we focus on concrete examples rather than lengthy explanation of the different flags.
 
+In the odd case you need a few examples grouped together, the convention so far is:
+
+```
+- example description
+
+`command -arg1`
+`command -arg2`
+```
+
 ## Contributing code
 
 We also welcome code contributions! `tldr` is definitely open to new ideas, and have already accepted a lot of new features, new flags, and general bug fixes.
