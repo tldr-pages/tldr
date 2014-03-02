@@ -15,7 +15,7 @@ Note that `tldr` is focussed on concrete examples. Pages should not try to cover
 
 For now, the format of each page has to match the following:
 
-```md
+```
 # command-name
 
 > Short description
