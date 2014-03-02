@@ -6,9 +6,9 @@
 
 `ls -a`
 
-- Sorting by size
+- List all file names (no extra info)
 
-`ls -s`
+`ls -A1`
 
 - List all files with their rights, groups, owner
 
@@ -16,11 +16,15 @@
 
 - List all files with a prefix/suffix
 
-`ls {{prefix}}*` or `ls *{{suffix}}`
+`ls {{prefix}}*`
+`ls *{{suffix}}`
 
-- Sort files by time
+- Sort the results size
 
-`-t` for last modified
-`-U` for date of creation
-`-r` reverses the list
-`ls -tr`
+`ls -s   # by size`
+`ls -t   # by last modified date`
+`ls -U   # by creation date`
+
+- Reverse the order of the results
+
+`ls -r`

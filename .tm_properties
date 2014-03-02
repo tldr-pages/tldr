@@ -1,6 +1,0 @@
-exclude = '{$exclude,node_modules,.git}'
-include = '{$include,.gitignore}'
-
-softWrap = true
-tabSize = 2
-softTabs = true

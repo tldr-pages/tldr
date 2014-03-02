@@ -4,7 +4,7 @@
 
 - Speak a phrase aloud
 
-`say "I like to ride my bike.`
+`say "I like to ride my bike."`
 
 - Speak a file aloud
 
@@ -13,3 +13,7 @@
 - Create an AAC compressed audio file with the spoken text
 
 `say -o {{filename.m4a}} "Everyone loves iTunes"`
+
+- List the available voices
+
+`say -v '?'`

@@ -1,3 +1,5 @@
+[![Travis CI](https://api.travis-ci.org/rprieto/tldr.png)](https://travis-ci.org/rprieto/tldr) [![Dependency Status](https://david-dm.org/rprieto/tldr.png?theme=shields.io)](https://david-dm.org/rprieto/tldr) [![devDependency Status](https://david-dm.org/rprieto/tldr/dev-status.png?theme=shields.io)](https://david-dm.org/rprieto/tldr#info=devDependencies)
+
 # What is this?
 
 New to the command-line world? Or just a little rusty?
@@ -19,39 +21,19 @@ What about:
 
 # Installing
 
+[![NPM](https://nodei.co/npm/tldr.png)](https://www.npmjs.org/package/tldr)
+
 ```bash
 $ npm install -g tldr
 ```
 
+*Note: TLDR is still in early versions. We try to minimise breaking changes, but if you run into issues please try to download the latest package again.*
+
 # Contributing
 
-Your favourite command isn't covered? You can think of more examples? New features?
+- Your favourite command isn't covered?
+- You can think of more examples?
+- New features?
 
-`tldr` is under [MIT license](http://opensource.org/licenses/MIT). You're free to modify or redistribute the source and content, but why not contribute over here? :)
-
-Just [open an issue](http://github.com/rprieto/tldr/issues) or [send a pull request](https://github.com/rprieto/tldr/pulls), it's all **Markdown** stored right here on Github.
-
-The rough guidelines are:
-
-- each command's description should be short and sweet
-- give around 5 examples of the most common usages
-- when in doubt, keep new command-line users in mind
-
-# Dev notes
-
-- To run the tests:
-
-```
-npm test
-```
-
-- To try out new fetching/rendering logic locally
-
-```
-npm start
-npm run example
-```
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/rprieto/tldr/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+Contribution are most welcome! Have a look [over here](https://github.com/rprieto/tldr/blob/master/CONTRIBUTING.md) for a few rough guidelines.
 
