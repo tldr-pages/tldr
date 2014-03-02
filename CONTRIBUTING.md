@@ -50,9 +50,9 @@ That being said, if it's something sizeable or a brand new feature, it's a good 
 *Quick dev notes:*
 
 ```bash
-npm test              # run the unit tests
-npm start             # start a local server for TLDR pages
-npm run example       # try out local fetching/rendering logic
+$ npm test        # run the unit tests
+$ npm start       # start a local server for TLDR pages
+$ npm run example # try out local fetching/rendering logic
 ```
 
 ---------------------------------------
