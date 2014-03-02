@@ -2,22 +2,36 @@
 
 > Change the permission of a file or directory
 
-- Give the user (owner) rights to execute a file/directory
+- Give the user rights to execute a file/directory
 
 `chmod u+x {{file}}`
 
-- Give the user (owner) rights to read and write to a file/directory
+- Give the user rights to read and write to a file/directory
 
 `chmod u+wr {{file}}`
 
-- Change a file/directory to be readable/writable/executable for user (owner) and group, but only readable/executable for everyone else
+- Removes executable rights from group
 
-`chmod 775 {{file}}`
+`chmod g-x {{file}}`
 
-- Change a file/directory to be readable/writable/executable for user (owner), but deny group and other (everyone else) read, write and execution rights.
+- Gives the user, group and owner rights to execute and read
 
-`chmod 700 {{file}}`
+`chmod ugo+xr {{file}}`
 
-- Change a file/directory to be readable/writable/executable for user (owner) and readable by group and other, but deny group and other (everyone else) write and execution rights.
+- Formula for chmod
 
-`chmod 744 {{file}}`
+`chmod {{who}} {{operation}} {{perm}} {{file}}`
+
+*{{who}} is any combination of `u` (user), `g` (group), `o` (owner)
+*{{operation}} is either `+` or `-`
+*{{perm}} is any combination of `r` (read), `w` (write), `x` (execute)
+
+- Changing permissions alternate form
+
+*{executable} = 1
+*{write} = 2
+*{read} = 4
+*{read + executable} = 5
+*{rwx} = 7
+
+- Example: `chmod 755 {{file}}`
