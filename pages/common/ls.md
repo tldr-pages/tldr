@@ -16,7 +16,8 @@
 
 - List all files with a prefix/suffix
 
-`ls {{prefix}}*` or `ls *{{suffix}}`
+`ls {{prefix}}*`
+`ls *{{suffix}}`
 
 - Sort the results size
 
