@@ -12,7 +12,7 @@
 
 - capture the traffic from or to a host
 
-`tcpdump host www.example.com`
+`tcpdump host {{www.example.com}}`
 
 - capture the traffic from a specific interface, source, destination and port
 
