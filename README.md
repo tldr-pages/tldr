@@ -29,6 +29,25 @@ $ npm install -g tldr
 
 *Note: TLDR is still in early versions. We try to minimise breaking changes, but if you run into issues please try to download the latest package again.*
 
+# Configuration
+
+You can configure the `tldr` client by adding a `.tldrrc` file in your HOME directory. This file has to be valid JSON.
+
+```json
+{
+  "remote": {
+    "url": "http://raw.github.com/rprieto/tldr/master/pages",
+    "cache": "30 days"
+  },
+  "colors": {
+    "text": "green",
+    "command-background": "black",
+    "command-foreground": "red",
+    "command-token": "white"
+  }
+}
+```
+
 # Contributing
 
 - Your favourite command isn't covered?

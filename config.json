@@ -1,0 +1,12 @@
+{
+  "remote": {
+    "url": "http://raw.github.com/rprieto/tldr/master/pages",
+    "cache": "30 days"
+  },
+  "colors": {
+    "text": "green",
+    "command-background": "black",
+    "command-foreground": "red",
+    "command-token": "white"
+  }
+}

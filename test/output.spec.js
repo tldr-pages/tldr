@@ -1,5 +1,4 @@
 var should = require('should');
-var colors = require('ansicolors');
 var output = require('../lib/output');
 
 describe('Console output from Markdown', function() {
@@ -26,8 +25,6 @@ describe('Console output from Markdown', function() {
     );
     o.should.include('archiving utility');
     o.should.include('supports optional compression');
-    o.should.startWith('\n  \u001b[3m');
-    o.should.endWith('\u001b[23m\n');
   });
   
   it('ignores all other Markdown syntax', function() {
@@ -47,10 +44,9 @@ describe('Console output from Markdown', function() {
 
   it('highlights replaceable {{tokens}}', function() {
     var o = output.fromMarkdown('`hello {{token}} bye`');
-    o.should.include(
-      colors.open.red   + 'hello ' +
-      colors.open.white + 'token'  +
-      colors.open.red   + ' bye');
+    o.should.include('hello '.blackBG.red);
+    o.should.include('token'.blackBG.white);
+    o.should.include(' bye'.blackBG.red);
   });
 
 });
