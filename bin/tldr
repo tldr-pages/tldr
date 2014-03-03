@@ -39,8 +39,9 @@ if (program.clearCache) {
 } else if (program.random) {
   try {
     var rander = tldr.getRandom();
-    console.log(rander + ":");
-    tldr.get(rander, program);
+    console.log(rander.file + ":");
+    program.os = rander.os;
+    tldr.get(rander.file, program);
   } catch (ex) {
     util.error(ex);
     process.exit(1);
