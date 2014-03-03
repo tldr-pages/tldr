@@ -10,10 +10,11 @@ program
   .usage('commandName [options]')
   .option('-o, --os [type]', 'Override the operating system [linux, osx, sunos]')
   .option('-c, --clear-cache', 'Clear the local cache')
-  .option('-u, --update [types]', 'Update the local cache for the comma separated [types], eg: --update all, --update osx, --update common,osx')
-  .option('-g, --github [user:pass]', 'Set github user to [user] and the github password to [pass] (used for updating)')
+  .option('-u, --update', 'Update the local cache')
+  .option('-g, --github [user:pass]', 'Set github user to [user] and the github password to [pass] (used for updating, only necessary if updating more than 30 times in an hour)')
   .option('-l, --list', 'List the commands in the local cache')
-  .option('-r --random', 'Show a random command');
+  .option('-r, --random', 'Show a random command')
+  .option('-t, --tag [tag]', 'Update from the specified tag. Defaults to the newest tag');
 
 program.on('--help', function() {
   console.log('  Examples:');

@@ -25,10 +25,10 @@
     "example": "NODE_ENV=development node ./bin/tldr tar",
     "test": "./node_modules/.bin/mocha"
   },
-  "os": ["!win32"],
+  "os": [
+    "!win32"
+  ],
   "dependencies": {
-    "ansicolors": "~0.3.2",
-    "ansistyles": "~0.1.3",
     "async": "~0.2.9",
     "commander": "~2.1.0",
     "markit": "~0.1.0",
@@ -37,11 +37,15 @@
     "request": "~2.34.0",
     "rimraf": "~2.2.6",
     "unhtml": "~0.1.0",
-    "unzip": "~0.1.9"
+    "unzip": "~0.1.9",
+    "lodash": "~2.4.1",
+    "deep-extend": "~0.2.8",
+    "colors": "~0.6.2"
   },
   "devDependencies": {
     "connect": "~2.11.2",
     "mocha": "~1.15.1",
-    "should": "~2.1.1"
+    "should": "~2.1.1",
+    "sinon": "~1.8.2"
   }
 }
