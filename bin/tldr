@@ -14,7 +14,8 @@ program
   .option('-g, --github [user:pass]', 'Set github user to [user] and the github password to [pass] (used for updating, only necessary if updating more than 30 times in an hour)')
   .option('-l, --list', 'List the commands in the local cache')
   .option('-r, --random', 'Show a random command')
-  .option('-t, --tag [tag]', 'Update from the specified tag. Defaults to the newest tag');
+  .option('-t, --tag [tag]', 'Update from the specified tag. Defaults to the newest tag')
+  .option('-b, --branch [branch]', 'Update from [branch] of the updateRepo specified in your .tldrrc. This overrides the tag option. Defaults to using \'master\' if --branch is specified, otherwise uses tags');
 
 program.on('--help', function() {
   console.log('  Examples:');
@@ -24,6 +25,8 @@ program.on('--help', function() {
   console.log('    $ tldr --clear-cache');
   console.log('    $ tldr --update');
   console.log('    $ tldr --update -g cats:meow');
+  console.log('    $ tldr --update -t 0.1');
+  console.log('    $ tldr --update --branch somebranch');
   console.log('    $ tldr --list');
   console.log('    $ tldr --random');
   console.log('');

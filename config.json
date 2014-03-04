@@ -1,9 +1,5 @@
 {
-  "remote": {
-    "url": "http://raw.github.com/rprieto/tldr/master/pages",
-    "cache": "30 days"
-  },
-  "updateRepo" : "danzimm/tldr-pages",
+  "updateRepo" : "rprieto/tldr",
   "colors": {
     "text": "green",
     "command-background": "black",
