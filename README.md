@@ -26,7 +26,9 @@ You can access these pages on your computer using one of the following clients:
 
 [![NPM](https://nodei.co/npm/tldr.png)](https://www.npmjs.org/package/tldr)
 
-There are other clients in the works... let us know if you built one and we can add it to this list!
+- [Python client](https://github.com/felixonmars/tldr-python-client)
+
+Let us know if you are building one and we can add it to this list!
 
 ## Contributing
 
