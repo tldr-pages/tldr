@@ -22,10 +22,7 @@ This repository is just that: an ever-growing collection of examples for the mos
 
 You can access these pages on your computer using one of the following clients:
 
-- [Node.js client](https://github.com/rprieto/tldr-node-client)
-
-[![NPM](https://nodei.co/npm/tldr.png)](https://www.npmjs.org/package/tldr)
-
+- [Node.js client](https://github.com/rprieto/tldr-node-client) : `npm install -g tldr`
 - [Python client](https://github.com/felixonmars/tldr-python-client)
 
 Let us know if you are building one and we can add it to this list!
