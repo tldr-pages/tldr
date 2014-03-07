@@ -7,6 +7,10 @@
 
 `sudo route add {{dest_ip_address}} {{gateway_address}}`
 
+- add a route to a /24 subnet through a gateway
+
+`sudo route add {{subnet_ip_address}}/24 {{gateway_address}}`
+
 - run in test mode (does not do anything, just print)
 
 `sudo route -t add {{dest_ip_address}}/24 {{gateway_address}}`
