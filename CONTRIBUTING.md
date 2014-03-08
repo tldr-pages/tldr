@@ -16,8 +16,8 @@ Here's a few guidelines to get started:
 
 Token formatting:
 
-- Highlight user-provided values using the `{{token}}` syntax (e.g. `tar cf {{my_file}}`)
-- For consistency, use plain text description for the tokens (`source_file` instead of `../my/awesome/example`)
+- Highlight user-provided values using the `{{token}}` syntax, for example `tar cf {{file}}`
+- For consistency in the tokens, use plain text descriptions (`{{source_file}}`) or short descriptive examples (`{{wallet.txt}}`)
 
 Common pitfalls / "donts"
 
@@ -49,14 +49,7 @@ For now, the format of each page has to match the following:
 
 Eventually we might relax the format to accept any Markdown, but for now this has the advantage of adding some consitency between all pages, and making sure we focus on concrete examples rather than lengthy explanation of the different flags.
 
-In the odd case you need a few examples grouped together, the convention so far is:
-
-```
-- example description
-
-`command -arg1`
-`command -arg2`
-```
+The current format also works well for command-line clients that need to extract a single description/example.
 
 ---------------------------------------
 
