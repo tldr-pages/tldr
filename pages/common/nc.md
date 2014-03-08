@@ -26,6 +26,6 @@
 
 `nc -k -l {{port}}`
 
--- client stay up after EOF
+- client stay up after EOF
 
 `nc -q {{timeout}} {{ip_address}}`
