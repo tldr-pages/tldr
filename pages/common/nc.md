@@ -21,3 +21,11 @@
 - receive a file
 
 `nc {{ip_address}} {{port}} > somefile.txt`
+
+- server stay up after client detach
+
+`nc -k -l {{port}}`
+
+-- client stay up after EOF
+
+`nc -q {{timeout}} {{ip_address}}`
