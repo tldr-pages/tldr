@@ -62,6 +62,26 @@
 
 `git merge {{branch-name}}`
 
+- stash current local changes in a temporary area
+
+`git stash {{optional_stash_name}}`
+
+- include new files in the stash (leaves the index completely clean)
+
+`git stash -u {{optional_stash_name}}`
+
+- list all stashes
+
+`git stash list`
+
+- re-apply the latest stash
+
+`git stash pop`
+
+- re-apply a stash by name
+
+`git stash apply {{stash_name}}`
+
 - Calling help
 
 `git --help`
