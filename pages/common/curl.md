@@ -22,3 +22,7 @@
 - head request
 
 `curl --head {{http://localhost}}`
+
+- pass a user name and password for server authentication
+
+`curl -u myusername:mypassword {{http://localhost}}`
