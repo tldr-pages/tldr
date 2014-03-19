@@ -6,6 +6,10 @@
 
 `tail -n {{num}} {{file}}`
 
+- show all file since line 'num'
+
+`tail -n +{{num}} {{file}}`
+
 - show last 'num' bytes in file
 
 `tail -c {{num}} {{file}}`
