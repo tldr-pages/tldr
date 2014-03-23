@@ -1,2 +1,8 @@
 .DS_Store
 .md~
+
+# JetBrains #
+.idea/
+
+# Linux #
+*~
