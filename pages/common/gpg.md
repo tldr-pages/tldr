@@ -23,11 +23,11 @@
 `gpg --armor --output {{output_file}} --export {{user_id}}`
 `gpg --armor --output {{output_file}} --export-secret-keys`
 
-- upload publich key to server
+- upload public key to server
 
 `gpg --send-keys --keyserver {{key_server}}`
 
-- generate publich key fingerprint
+- generate public key fingerprint
 
 `gpg --fingerprint {{user_id}}`
 
