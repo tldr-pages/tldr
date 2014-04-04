@@ -4,7 +4,10 @@
 > only available to super-user
 
 - send a message
-`wall {{message}}`
+`echo "{{message}}" | wall`
+
+- send a message from a file
+`wall {{file}}`
 
 - send a message with timeout (default 300)
-`wall -t {{seconds}} {{message}}`
+`wall -t {{seconds}} {{file}}`
