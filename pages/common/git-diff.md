@@ -5,3 +5,11 @@
 - Show changes to tracked files
 
 `git diff {{PATHSPEC}}`
+
+- Show only names of changed files.
+
+`git diff --names-only {{PATHSPEC}}`
+
+- Output a condensed summary of extended header information.
+
+`git diff --summary {{PATHSPEC}}`
