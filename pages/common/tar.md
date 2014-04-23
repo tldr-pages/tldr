@@ -18,3 +18,7 @@
 - extract a gzipped archive in the current directory
 
 `tar xzf {{source.tar.gz}}`
+
+- extract a bzipped archive in the current directory
+
+`tar xjf {{source.tar.bz2}}`
