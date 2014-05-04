@@ -12,4 +12,4 @@
 
 - monitor "node" processes, refreshing every 3 seconds
 
-`watch -n {{3}} "{{ps aux | grep node}}"
+`watch -n {{3}} "{{ps aux | grep node}}"`
