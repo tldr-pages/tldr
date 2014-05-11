@@ -2,12 +2,10 @@
 
 > Print given arguments
 
-- Print text message. Note: quots are optional
+- Print a text message. Note: quotes are optional.
 
-`echo Hello World`
-or
-`echo "Hello World"`
+`echo {{"Hello World"}}`
 
-- Print message with variable $PATH
+- Print a message with environment variables
 
-`echo "My path is $PATH"`
+`echo {{"My path is $PATH"}}`
