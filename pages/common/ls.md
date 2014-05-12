@@ -14,6 +14,10 @@
 
 `ls -ls`
 
+- List all files and display the file size in a human readable format
+
+`ls -lh`
+
 - List all files with a prefix/suffix
 
 `ls {{prefix}}*`
