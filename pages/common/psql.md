@@ -14,6 +14,6 @@
 
 `psql -c '{{query}}' {{database}}`
 
-- Run semicolon-separated *queries* against the given *database*. Note: useful in shell scripts
+- Run several queries against the given *database*. Note: useful in shell scripts
 
-`echo '{{queries}}' | psql {{database}}`
+`psql {{database}} <<< "{{query1}}; {{query2}}"`
