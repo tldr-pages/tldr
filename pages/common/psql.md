@@ -16,4 +16,4 @@
 
 - Run several queries against the given *database*. Note: useful in shell scripts
 
-`psql {{database}} <<< "{{query1}}; {{query2}}"`
+`echo '{{query1}}; {{query2}}' | psql {{database}}`
