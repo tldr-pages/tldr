@@ -16,6 +16,7 @@
 `sed -E 's/{{regex}}/{{replace}}/g' {{filename}}`
 
 - replace all occurrences of multiple strings in a file
+
 `sed -e 's/{{find}}/{{replace}}/g' -e 's/{{find}}/{{replace}}/g' {{filename}}`
 
 
