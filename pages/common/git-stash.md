@@ -21,3 +21,7 @@
 - re-apply a stash by name
 
 `git stash apply {{stash_name}}`
+
+- drop a stash by an index
+
+`git stash drop stash@{index}`
