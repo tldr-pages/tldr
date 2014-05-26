@@ -21,6 +21,10 @@
 
 `scp {{/local/file.txt}} {{my_user}}@{{10.0.0.1}}:{{/remote/path}}`
 
+- specify port on host
+
+`scp -P {{port}} {{/local/file.txt}} {{10.0.0.1}}:{{/remote/path}}`
+
 - copy a file from one host to another
 
 `scp {{10.0.0.1}}:{{/remote/path/file.txt}} {{20.0.0.2}}:{{/other/remote/path}}`
