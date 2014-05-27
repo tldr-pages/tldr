@@ -4,11 +4,11 @@
 
 - stash current changes (except new files)
 
-`git stash {{optional_stash_name}}`
+`git stash save {{optional_stash_name}}`
 
 - include new files in the stash (leaves the index completely clean)
 
-`git stash -u {{optional_stash_name}}`
+`git stash save -u {{optional_stash_name}}`
 
 - list all stashes
 
