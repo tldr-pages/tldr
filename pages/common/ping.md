@@ -13,3 +13,7 @@
 - Ping host, waiting for 0.5 s between each request (default is 1 s)
 
 `ping -i 0.5 {{host}}`
+
+- Ping host without trying to lookup symbolic names for addresses
+
+`ping -n {{host}}`
