@@ -26,3 +26,7 @@
 - use the standard input instead of a file
 
 `cat {{file_path}} | grep {{something}}`
+
+- invert match for excluding specific strings
+
+`grep -v {{something}}`
