@@ -29,4 +29,4 @@
 
 - invert match for excluding specific strings
 
-`grep -v {something}`
+`grep -v {{something}}`
