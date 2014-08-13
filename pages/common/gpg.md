@@ -17,3 +17,7 @@
 - decrypt doc.txt.gpg (output to STDOUT)
 
 `gpg --decrypt {{doc.txt.gpg}}`
+
+- Import a public key
+
+`gpg --import {{public.gpg}}` 
