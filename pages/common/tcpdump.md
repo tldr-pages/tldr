@@ -24,6 +24,5 @@
 
 - capture all traffic except traffic over port 22 and save to a dump file with today's date
 
-```
-tcpdump -w dumpfile.`date +%Y.%m.%d-%H.%M`.pcap not port 22
-```
+`tcpdump -w dumpfile.`date +%Y.%m.%d-%H.%M`.pcap not port 22`
+
