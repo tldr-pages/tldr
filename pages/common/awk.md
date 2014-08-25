@@ -2,11 +2,11 @@
 
 > A versatile programming language for working on files
 
-- Print the fifth column in a space sepearted file
+- Print the fifth column in a space separated file
 
 `awk '{print $5}' {{filename}}`
 
-- Print the third column in a comma sepearted file
+- Print the third column in a comma separated file
 
 `awk -F ',' '{print $3}' {{filename}}`
 
