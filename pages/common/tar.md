@@ -26,3 +26,7 @@
 - create a compressed archive, using archive suffix to determine the compression programm
 
 `tar caf {{target.tar.xz}} {{file1 file2 file3}}`
+
+- list the contents of a tar file
+
+`tar -tvf {{source.tar}}`
