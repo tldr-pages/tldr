@@ -8,7 +8,7 @@
 
 - generate random numbers in range
 
-`shuf -i LO-HI`
+`shuf -i {{low}}-{{high}}`
 
 - take first n results from output
 
