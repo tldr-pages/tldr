@@ -12,15 +12,15 @@
 
 - mark disk as failed
 
-`mdadm {{/path/to/raid_device_file}} -f {/path/to/disk_device_file{}}`
+`mdadm {{/path/to/raid_device_file}} -f {{/path/to/disk_device_file}}`
 
 - remove disk
 
-`mdadm {{/path/to/raid_device_file}} -r {/path/to/disk_device_file{}}`
+`mdadm {{/path/to/raid_device_file}} -r {{/path/to/disk_device_file}}`
 
 - add disk to array
 
-`mdadm {{/path/to/raid_device_file}} -a {/path/to/disk_device_file{}}`
+`mdadm {{/path/to/raid_device_file}} -a {{/path/to/disk_device_file}}`
 
 - show RAID info
 
