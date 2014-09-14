@@ -10,7 +10,7 @@
 
 `split -n 5 {{filename}}`
 
-- Split a file with atmost 512 bytes of lines in each split.
+- Split a file with at most 512 bytes of lines in each split.
 
 `split -C 512 {{filename}}`
 
