@@ -5,16 +5,16 @@
 
 - search a single directory
 
-`fdupe {{directory}}`
+`fdupes {{directory}}`
 
 - search multiple directories
 
-`fdupe {{directory1}} {{directory2}}`
+`fdupes {{directory1}} {{directory2}}`
 
 - search all directories recursively
 
-`fdupe -r {{directory}}`
+`fdupes -r {{directory}}`
 
 - search multiple directories, one recursively
 
-`fdupe {{directory1}} -R {{directory2}}`
+`fdupes {{directory1}} -R {{directory2}}`
