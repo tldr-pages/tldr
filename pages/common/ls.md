@@ -23,11 +23,11 @@
 `ls {{prefix}}*`
 `ls *{{suffix}}`
 
-- Sort the results size
+- Sort the results by size, last modified date, or creation date
 
-`ls -s   # by size`
-`ls -t   # by last modified date`
-`ls -U   # by creation date`
+`ls -S`
+`ls -t`
+`ls -U`
 
 - Reverse the order of the results
 
