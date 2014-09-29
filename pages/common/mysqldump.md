@@ -4,7 +4,7 @@
 
 - creating a backup
 
-`mysqldump -u {{user}} -p{{password}} {{database_name]}} > {{filename.sql}}`
+`mysqldump -u {{user}} -p{{password}} {{database_name}} > {{filename.sql}}`
 
 - restoring a backup
 
