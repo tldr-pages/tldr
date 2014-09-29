@@ -6,7 +6,7 @@
 
 - Merge two audio files into one
 
-`sox -m {{audiofile1}} {{audiofile2}} {{output_filename}}`
+`sox -m {{input_audiofile1}} {{input_audiofile2}} {{output_audiofile}}`
 
 - Trim an audio file to the specified times
 
@@ -22,4 +22,4 @@
 
 - Print statistical data of an audio file
 
-`sox {{audiofile}} -n stat`
+`sox {{input_audiofile}} -n stat`
