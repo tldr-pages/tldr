@@ -19,6 +19,6 @@
 
 `apt-get upgrade`
 
-- Upgrade installed packages (like `apt-get upgrade`) including removing obsolete packages and installing additional packages to meet new package dependencies. 
+- Upgrade installed packages (like "upgrade"), but remove obsolete packages and install additional packages to meet new dependencies
 
 `apt-get dist-upgrade`
