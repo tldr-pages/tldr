@@ -27,6 +27,7 @@ You can access these pages on your computer using one of the following clients:
 - [Go client](https://github.com/pranavraja/tldr) : `go get github.com/pranavraja/tldr` or [platform binaries](https://github.com/pranavraja/tldr/releases)
 - [Exilir client](https://github.com/edgurgel/tldr): binaries available soon
 - [C++ client](https://github.com/tldr-pages/tldr-cpp-client): `brew tap tldr-pages/tldr && brew install tldr`
+- [Android client](https://github.com/gianasista/tldr-viewer): available on [Google Play](https://play.google.com/store/apps/details?id=de.gianasista.tldr_viewer)
 
 Let us know if you are building one and we can add it to this list!
 
