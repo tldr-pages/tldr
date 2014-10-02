@@ -17,3 +17,7 @@
 - change the owner of a symbolic link
  
 `chown -h {{user}} {{path/to/symlink}}`
+
+- use the owner and group of a reference file and apply those values to another file
+
+`chown --reference={{reference-file}} {{path/to/file}}`
