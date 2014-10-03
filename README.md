@@ -1,4 +1,5 @@
 # What is this?
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/tldr-pages/tldr?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 New to the command-line world? Or just a little rusty?
 Or, like me, you can't always remember the arguments to `lsof` or `tar`?
