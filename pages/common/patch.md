@@ -11,6 +11,6 @@
 
 `patch -p1 < {{patchfile}}.diff`
 
-- reverse a patch
+- apply the reverse of a patch
 
 `patch -R < {{patchfile}}.diff`
