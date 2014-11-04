@@ -20,7 +20,7 @@
 
 - Attach to a named session
 
-`tmux a -t {{name}}
+`tmux a -t {{name}}`
 
 - Detach from session
 
@@ -28,4 +28,4 @@
 
 - Kill session
 
-`tmux kill-session -t {{name}}
+`tmux kill-session -t {{name}}`
