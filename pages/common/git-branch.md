@@ -8,7 +8,7 @@
 
 - Create new branch based on current branch
 
-`git branch {{BRANCH-NAME}}
+`git branch {{BRANCH-NAME}}`
 
 - Delete a local branch
 
