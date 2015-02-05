@@ -6,9 +6,13 @@
  
 `sestatus`
 
-- Change SELinux enforcing status
+- Set SELinux to enforcing
 
-`setenforce {{enforcing|permissive}}`
+`setenforce {{Enforcing}}`
+
+- Set SELinux to permissive
+
+`setenforce {{Permissive}}`
 
 - Check a file's SELinux context
 
