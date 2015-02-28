@@ -19,3 +19,7 @@
 - transfer a directory and all its children from a remote to local
 
 `rsync -r mike@devbox:~/projects/cakeStore /Users/mike/devProjects/`
+
+- transfer directory over SSH and show progress 
+
+`rsync -azer ssh --progress {{remote_host_name}}:{{remote_directory}} {{local_directory}}`
