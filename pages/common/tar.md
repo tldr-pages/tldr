@@ -23,7 +23,7 @@
 
 `tar xjf {{source.tar.bz2}}`
 
-- create a compressed archive, using archive suffix to determine the compression programm
+- create a compressed archive, using archive suffix to determine the compression program
 
 `tar caf {{target.tar.xz}} {{file1 file2 file3}}`
 
