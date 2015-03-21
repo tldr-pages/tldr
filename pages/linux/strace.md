@@ -2,15 +2,15 @@
 
 > Troubleshooting tool for tracing system calls
 
-- Start tracing a specific PID 
+- Start tracing a specific process by its PID 
 
 `strace -p {{pid}}`
 
 - Trace a process and filter output by system call
 
-`strace -e {{system call name}} -p {{pid}}`
+`strace -p {{pid}} -e {{system call name}}`
 
-- Start tracing and produce a summary of system calls at the end, instead of showing individual calls.
+- Count time, calls, and errors for each system call and report a summary on program exit.
 
-`strace -c -p {{pid}}`
+`strace -p {{pid}} -c`
 
