@@ -10,9 +10,9 @@
 
 `git remote add {{remote_name}} {{remote_url}}`
 
-- Add a remote and run fetch on it
+- Change the URL of a remote
 
-`git remote add -f {{remote_name}} {{remote_url}}`
+`git remote set-url {{remote_name}} {{new_url}}`
 
 - Remove a remote
 
