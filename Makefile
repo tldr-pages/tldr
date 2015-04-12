@@ -5,3 +5,6 @@ setup:
 
 index:
 	@scripts/build_index.rb
+
+backticks:
+	@scripts/backticks.rb
