@@ -4,11 +4,10 @@ require "json"
 
 commands = {}
 
-Dir["#{ENV["TLDRHOME"]}/pages/**/*.md"].each do |file|
-    # "./pages/osx/xsltproc.md",
-    file = file.split("/")
-    name = file.pop().gsub(".md","")
-    platform = file.pop()
+Dir["pages/**/*.md"].each do |file|
+    path = file.split("/")
+    name = path.pop().gsub(".md", "")
+    platform = path.pop()
 
     unless commands.key?(name)
         commands[name] = {
@@ -20,6 +19,6 @@ Dir["#{ENV["TLDRHOME"]}/pages/**/*.md"].each do |file|
     end
 end
 
-commands = commands.map do |k,v| v end
+File.write("pages/index.json", {commands: commands.values}.to_json)
 
-File.write("#{ENV["TLDRHOME"]}/pages/index.json", {commands: commands}.to_json)
+puts "Index rebuilt."
