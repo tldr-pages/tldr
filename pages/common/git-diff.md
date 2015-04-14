@@ -8,7 +8,7 @@
 
 - Show only names of changed files.
 
-`git diff --names-only {{PATHSPEC}}`
+`git diff --name-only {{PATHSPEC}}`
 
 - Output a condensed summary of extended header information.
 
