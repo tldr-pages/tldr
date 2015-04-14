@@ -1,6 +1,9 @@
 .DS_Store
 .md~
 
+# Local Ruby gems #
+.gem/
+
 # JetBrains #
 .idea/
 
