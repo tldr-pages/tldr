@@ -1,0 +1,16 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    kramdown (1.7.0)
+    mdl (0.2.1)
+      kramdown (~> 1.5, >= 1.5.0)
+      mixlib-cli (~> 1.5, >= 1.5.0)
+      mixlib-config (~> 2.1, >= 2.1.0)
+    mixlib-cli (1.5.0)
+    mixlib-config (2.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  mdl
