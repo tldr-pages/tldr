@@ -1,5 +1,9 @@
 # This gitignore file is for this projects concerns.
-# Please set swap files and system folder files for your operating system and editors to be ignored in
+# Please set swap files and system folder files for your operating system and
+# editors to be ignored in
 # the 'global ignore file'.
 # See: http://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
 #    : search for "global .gitignore"
+
+# bundler specific
+.gem
