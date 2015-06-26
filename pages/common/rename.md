@@ -2,7 +2,7 @@
 
 > renames multiple files
 
-- Change foo to bar in matching files
+- Change foo to bar in matching filenames
 
 `rename {{'s/foo/bar/'}} {{*.txt}}`
 
@@ -12,4 +12,9 @@
 
 - Replace whitespace with underscores
 
-`rename --nows {{*.txt}}`
+`rename --nows {{*.txt}}`    
+`rename 's/\s+/_/g' {{*.txt}}`
+
+- No action, just show what renames would occur
+
+`rename -n {{'s/foo/bar/'}} {{*.txt}}`
