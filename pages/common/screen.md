@@ -6,6 +6,10 @@
 
 `screen`
 
+- Start a new named screen session
+
+`screen -S {{name}}`
+
 - Show open screen sessions
 
 `screen -ls`
