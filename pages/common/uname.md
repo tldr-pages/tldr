@@ -6,9 +6,9 @@
 
 `uname -a`
 
-- Print the current operating system name (e.g. Linux, Darwin, SunOS, etc)
+- Print the system (kernel) name, release and version (e.g. Linux, Darwin, SunOS, etc.)
 
-`uname -s`
+`uname -srv`
 
 - Print the nodename (hostname) of the system
 
