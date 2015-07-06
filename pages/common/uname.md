@@ -6,7 +6,7 @@
 
 `uname -a`
 
-- Print the system (kernel) name, release and version (e.g. Linux, Darwin, SunOS, etc.)
+- Print the system name (Linux, Darwin...), release number, and version details
 
 `uname -srv`
 
