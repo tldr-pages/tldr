@@ -1,12 +1,12 @@
 # uname
 
-> Print operating system name
+> Print details about the current machine and the operating system running on it
 
-- Print all available operating system and kernel information
+- Print hardware-related information: machine and processor
 
-`uname -a`
+`uname -mp`
 
-- Print the system name (Linux, Darwin...), release number, and version details
+- Print software-related information: system name (Linux, Darwin...), release number, and version
 
 `uname -srv`
 
