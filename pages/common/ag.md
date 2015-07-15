@@ -14,6 +14,10 @@
 
 `ag '^ba(r|z)$'`
 
+- Find files whose contents match a literal expression, not a regular expression:
+
+`ag -Q '.bar'`
+
 - Find files with a name matching "foo"
 
 `ag -g foo`
