@@ -12,4 +12,4 @@
 
 - Decrease time photo taken by 1 day and 2 hours on jpg's only
 
-`exiftool "-AllDates-=0:0:1 2:0:0" -verbose {{*.jpg}}`
+`exiftool "-AllDates-=0:0:1 2:0:0" {{*.jpg}}`
