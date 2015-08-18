@@ -5,7 +5,7 @@
 
 - Download a URL to a file
 
-`curl "{{URL}}" -o filename` 
+`curl "{{URL}}" -o filename`
 
 - send form-encoded data
 
@@ -22,6 +22,10 @@
 - head request
 
 `curl --head {{http://localhost}}`
+
+- print only the response headers of a request
+
+`curl -s -D - -o /dev/null {{http://localhost}}`
 
 - pass a user name and password for server authentication
 
