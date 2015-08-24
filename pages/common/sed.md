@@ -6,10 +6,9 @@
 
 `sed 's/{{find}}/{{replace}}/' {{filename}}`
 
-- replace all occurrences of a string in a file, overwriting the file
-  contents
+- replace all occurrences of a string in a file, overwriting the file (i.e. in-place)
 
-`sed --in-place 's/{{find}}/{{replace}}/g' {{filename}}`
+`sed -i 's/{{find}}/{{replace}}/g' {{filename}}`
 
 - replace all occurrences of an extended regular expression in a file
 
