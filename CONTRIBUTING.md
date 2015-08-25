@@ -1,6 +1,6 @@
 # Contributing
 
-- Your favorite command isn't covered?
+- Your favourite command isn't covered?
 - You can think of more examples?
 
 Contribution are most welcome! All `tldr` pages are stored in Markdown right here on GitHub. Just open an issue or send a pull request and we'll merge it as soon as possible.
@@ -27,7 +27,7 @@ The best way to be consistent is to have a look at a few existing pages :)
 
 ## Markdown format
 
-For now, the format of each page has to match the following:
+The format of each page should match the following:
 
 ```
 # command-name
@@ -46,9 +46,7 @@ For now, the format of each page has to match the following:
 
 User-provided values should use the `{{token}}` syntax, to allow clients to highlight them. For example: `tar cf {{file}}`
 
-Eventually we might relax the format to accept any Markdown, but for now this has the advantage of adding some consistency between all pages, and making sure we focus on concrete examples rather than lengthy explanation of the different flags.
-
-The current format also works well for command-line clients that need to extract a single description/example.
+One of the reasons for this format is that it's well suited for command-line clients that need to extract a single description/example.
 
 ---------------------------------------
 
