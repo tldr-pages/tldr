@@ -14,12 +14,12 @@ Dir["#{ENV["TLDRHOME"]}/pages/**/*.md"].each do |file|
         commands[name] = {
             name: name,
             platform: [platform]
-        } 
+        }
     else
         commands[name][:platform] << platform
     end
 end
 
-commands = commands.map do |k,v| v end
+commands = commands.sort.map do |k,v| v end
 
 File.write("#{ENV["TLDRHOME"]}/pages/index.json", {commands: commands}.to_json)
