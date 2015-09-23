@@ -12,7 +12,7 @@
 
 - list installed packages
 
-`dpkg -l {{pattertn}}`
+`dpkg -l {{pattern}}`
 
 - list package contents
 
