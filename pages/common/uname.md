@@ -6,7 +6,7 @@
 
 `uname -mp`
 
-- Print software-related information: system name (Linux, Darwin...), release number, and version
+- Print software-related information: operating system, release number, and version
 
 `uname -srv`
 
