@@ -1,16 +1,18 @@
 # transcode
 
-> Video stream processing tool that can change size of video or remove shaking
-> and more
+> Suite of command line utilities for transcoding video and audio codecs
+> and converting between formats.
 
-- Create transformation file (to remove camera shaking).
+- Remove camera shaking and convert to MPEG4 (using xvid). The first command
 
-`transcode -J stabilize -i {{inputfile}}`
+    creates a transformation-file that is needed for stabilization. The second
+    command then transforms the video using xvid.
 
-- Remove camera shaking (needs transformation file from step above).
+```
+transcode -J stabilize -i {{inputfile}}`
+transcode -J transform -i {{inputfile}} -y xvid -o {{outputfile}}
+```
 
-`transcode -J transform -i {{inputfile}} -y xvid -o {{outputfile}}`
-
-- Video resizing
+- Resize the video to 640x480 Pixels and convert to MPEG4 codec using xvid.
 
 `transcode -Z 640x480 -i {{inputfile}} -y xvid -o {{outputfile}}`
