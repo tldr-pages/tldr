@@ -1,14 +1,16 @@
 # transcode
 
-> Video stream processing with huge number of options.
+> Video stream processing tool that can change size of video or remove shaking
+> and more
 
-- remove shaking from videos
+- Create transformation file (to remove camera shaking).
 
-```
-transcode -J stabilize -i {{source}}
-transcode -J transform -i {{source}} -y xvid -o {{target}}
-```
+`transcode -J stabilize -i {{inputfile}}`
 
-- video resizing
+- Remove camera shaking (needs transformation file from step above).
 
-`transcode -Z 640x480 -i {{source}} -y xvid -o {{target}}`
+`transcode -J transform -i {{inputfile}} -y xvid -o {{outputfile}}`
+
+- Video resizing
+
+`transcode -Z 640x480 -i {{inputfile}} -y xvid -o {{outputfile}}`
