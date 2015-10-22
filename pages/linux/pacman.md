@@ -3,7 +3,7 @@
 > Arch Linux package manager utility
 
 - synchronize and update all packages
- 
+
 `pacman -Syyu`
 
 - install a new package
@@ -11,7 +11,7 @@
 `pacman -S package-name`
 
 - remove a package and its dependencies
- 
+
 `pacman -Rs package-name`
 
 - search the package database for a keyword

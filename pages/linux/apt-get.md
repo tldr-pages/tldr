@@ -3,16 +3,15 @@
 > Debian and Ubuntu package management utility
 
 - Synchronize list of packages and versions available. This should be run first, before running subsequent apt-get commands.
- 
+
 `apt-get update`
 
 - install a new package
 
 `apt-get install {{package}}`
 
-
 - remove a package
- 
+
 `apt-get remove {{package}}`
 
 - Upgrade installed packages to newest available versions

@@ -1,8 +1,8 @@
-# strace 
+# strace
 
 > Troubleshooting tool for tracing system calls
 
-- Start tracing a specific process by its PID 
+- Start tracing a specific process by its PID
 
 `strace -p {{pid}}`
 
@@ -13,4 +13,3 @@
 - Count time, calls, and errors for each system call and report a summary on program exit.
 
 `strace -p {{pid}} -c`
-

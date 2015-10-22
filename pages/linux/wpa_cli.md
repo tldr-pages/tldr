@@ -16,7 +16,7 @@
 `wpa_cli set_network {{number}} ssid {{SSID}}`
 `wpa_cli set_network {{number}} psk {{passkey}}`
 
-- enable network 
+- enable network
 
 `wpa_cli enable_network {{number}}`
 

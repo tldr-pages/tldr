@@ -10,7 +10,7 @@
 
 `ip r`
 
-- Make an interface up/down 
+- Make an interface up/down
 
 `ip link set {{interface}} up/down`
 
