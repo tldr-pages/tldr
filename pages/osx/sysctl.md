@@ -18,7 +18,7 @@
 
 `sysctl -n machdep.cpu.feature`
 
-- Set a changeable kernel state variable 
+- Set a changeable kernel state variable
 
 `sysctl -w name=value`
 `sysctl -w kern.maxfiles=15000`

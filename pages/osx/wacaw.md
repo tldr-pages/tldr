@@ -1,4 +1,4 @@
-#WACAW
+# wacaw
 
 > a little command-line tool for Mac OS X that allows you to capture both still pictures and video from an attached camera.
 
