@@ -1,4 +1,4 @@
-#mdadm
+# mdadm
 
 > RAID management utility
 
