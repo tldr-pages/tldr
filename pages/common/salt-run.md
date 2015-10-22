@@ -1,4 +1,4 @@
-#salt-run
+# salt-run
 
 >Frontend for executing salt-runners on minions
 

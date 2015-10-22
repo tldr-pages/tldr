@@ -20,4 +20,4 @@
 
 - Import a public key
 
-`gpg --import {{public.gpg}}` 
+`gpg --import {{public.gpg}}`

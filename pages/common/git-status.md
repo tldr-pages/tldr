@@ -1,4 +1,4 @@
-#git status
+# git status
 
 > Show the index (changed files)
 

@@ -1,4 +1,4 @@
-#git add
+# git add
 
 > Adds changed files to the index
 

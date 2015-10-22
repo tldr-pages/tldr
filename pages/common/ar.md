@@ -1,4 +1,4 @@
-#ar
+# ar
 
 > Create, modify, and extract from archives (.a .so .o)
 

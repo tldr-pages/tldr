@@ -18,6 +18,6 @@
 
 `diff -r {{directory1}} {{directory2}}`
 
-- Compare directories, only showing the names of files that differ 
+- Compare directories, only showing the names of files that differ
 
 `diff -rq {{directory1}} {{directory2}}`

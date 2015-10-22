@@ -1,4 +1,4 @@
-#git
+# git
 
 > Main command for all `git` commands
 

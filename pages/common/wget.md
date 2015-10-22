@@ -11,7 +11,7 @@
 
 `wget --limit-rate={{200k}} {{url}}`
 
-- Continue an incomplete download 
+- Continue an incomplete download
 
 `wget -c {{url}}`
 

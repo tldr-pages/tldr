@@ -20,6 +20,6 @@
 
 `rsync -r mike@devbox:~/projects/cakeStore /Users/mike/devProjects/`
 
-- transfer file over SSH and show progress 
+- transfer file over SSH and show progress
 
 `rsync -e ssh --progress {{remote_host_name}}:{{remote_file}} {{local_file}}`

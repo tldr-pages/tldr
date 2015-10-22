@@ -16,10 +16,10 @@
 `ssh {{username}}@{{remote_host}} -p {{2222}}`
 
 - run a command on a remote server
- 
+
 `ssh {{remote_host}} "{{command -with -flags}}"`
 
-- ssh tunneling: dynamic port forwarding (SOCKS proxy on localhost:9999) 
+- ssh tunneling: dynamic port forwarding (SOCKS proxy on localhost:9999)
 
 `ssh -D {{9999}} -C {{username}}@{{remote_host}}`
 
@@ -27,6 +27,6 @@
 
 `ssh -L {{9999}}:slashdot.org:80 {{username}}@{{remote_host}}`
 
-- ssh enable agent forward 
+- ssh enable agent forward
 
 `ssh -A {{username}}@{{remote_host}}`

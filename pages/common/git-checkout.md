@@ -1,4 +1,4 @@
-#git checkout
+# git checkout
 
 > Checkout a branch or paths to the working tree
 

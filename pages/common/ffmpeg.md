@@ -6,7 +6,7 @@
 
 `ffmpeg -i {{video-filename}} -vn -ar 44100 -ac 2 -ab 192 -f mp3 {{sound.mp3}}`
 
-- Convert frames from a video into individual numbered images 
+- Convert frames from a video into individual numbered images
 
 `ffmpeg -i {{video-filename}} {{image%d.png}}`
 

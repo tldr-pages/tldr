@@ -10,7 +10,7 @@
 
 `chmod u+rw {{file}}`
 
-- Remove executable rights from the (g)roup 
+- Remove executable rights from the (g)roup
 
 `chmod g-x {{file}}`
 

@@ -4,7 +4,7 @@
 > Supports simple patterns and regular expressions
 
 - search for an exact string
- 
+
 `grep {{something}} {{file_path}}`
 
 - search recursively in current directory for an exact string
@@ -19,7 +19,7 @@
 
 `grep -C 3 {{something}} {{file_path}}`
 
-- print the count of matches instead of the matching text 
+- print the count of matches instead of the matching text
 
 `grep -c {{something}} {{file_path}}`
 

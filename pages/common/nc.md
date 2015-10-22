@@ -10,7 +10,7 @@
 
 `nc {{ip_address}} {{port}}`
 
-- set a timeout 
+- set a timeout
 
 `nc -w {{timeout_in_seconds}} {{ipaddress}} {{port}}`
 

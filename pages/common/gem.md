@@ -1,4 +1,4 @@
-#gem
+# gem
 
 > Interact with the package manager for the Ruby programming language.
 

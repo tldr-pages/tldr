@@ -7,6 +7,6 @@
 `which {{ls}}`
 `which {{executable}}`
 
-- If there are multiple executables which match, display all 
+- If there are multiple executables which match, display all
 
 `which -a {{executable}}`

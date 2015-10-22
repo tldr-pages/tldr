@@ -1,6 +1,6 @@
 # gzip
 
-> Compress/uncompress files with gzip compression (LZ77)   
+> Compress/uncompress files with gzip compression (LZ77)
 
 - compress a file, replacing it with a gzipped compressed version
 

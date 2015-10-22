@@ -1,4 +1,4 @@
-#git diff
+# git diff
 
 > Show changes to tracked files
 
