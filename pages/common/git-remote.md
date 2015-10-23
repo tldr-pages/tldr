@@ -1,4 +1,4 @@
-#git remote
+# git remote
 
 > Manage set of tracked repositories (“remotes”)
 

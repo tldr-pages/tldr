@@ -1,4 +1,4 @@
-#git clone
+# git clone
 
 > Clone an existing repository
 

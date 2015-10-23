@@ -1,4 +1,4 @@
-#git log
+# git log
 
 >Show a history of commits
 

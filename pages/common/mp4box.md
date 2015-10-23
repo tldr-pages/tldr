@@ -6,7 +6,7 @@
 
 `MP4Box -info {{filename}}`
 
-- Add an SRT subtitle file into an MP4 file 
+- Add an SRT subtitle file into an MP4 file
 
 `MP4Box -add {{input-subs.srt}}:lang=eng -add {{input.mp4}} {{output.mp4}}`
 

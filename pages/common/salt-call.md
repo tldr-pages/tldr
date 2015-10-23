@@ -1,4 +1,5 @@
 # salt-key
+
 > Invoke salt locally on a salt minion.
 
 - Perform a highstate on this minion

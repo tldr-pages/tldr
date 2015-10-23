@@ -1,6 +1,6 @@
 # alias
 
-> Creates an alias for a word when used 
+> Creates an alias for a word when used
 > as the first word of a command
 
 - creating a generic alias

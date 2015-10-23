@@ -1,4 +1,4 @@
-#CHSH
+# chsh
 
 > Change user's login shell
 

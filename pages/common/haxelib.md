@@ -10,7 +10,7 @@
 
 `haxelib install {{libname}}`
 
-- Upgrade all installed Haxe libraries  
+- Upgrade all installed Haxe libraries
 
 `haxelib upgrade`
 

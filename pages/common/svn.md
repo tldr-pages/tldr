@@ -2,7 +2,7 @@
 
 > Subversion command line client tool
 
--  Check out a working copy from a repository
+- Check out a working copy from a repository
 
 `svn co {{url/to/repository}}`
 
@@ -16,7 +16,7 @@
 
 - Send changes from your working copy to the repository
 
-`svn ci -m {{commit log message}} {{[PATH...]}}` 
+`svn ci -m {{commit log message}} {{[PATH...]}}`
 
 - Show detailed help
 

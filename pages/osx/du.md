@@ -14,6 +14,6 @@
 
 `du -ah {{directory}}`
 
-- list the KB sizes of directories for N levels below the specified directory 
+- list the KB sizes of directories for N levels below the specified directory
 
 `du -k -depth=1 {{directory}}`

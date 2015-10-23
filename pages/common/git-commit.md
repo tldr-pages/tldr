@@ -1,4 +1,4 @@
-#git commit
+# git commit
 
 >Commit staged files to the repository
 

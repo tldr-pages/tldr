@@ -6,7 +6,6 @@
 
 `sudo {{ls}} {{/usr/local/scrt}}`
 
-
 - To edit a file as user www:
 
 `sudo -u {{www}} {{vi}} {{/var/www/index.html}}`

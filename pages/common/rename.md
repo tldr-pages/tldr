@@ -12,7 +12,7 @@
 
 - Replace whitespace with underscores
 
-`rename --nows {{*.txt}}`    
+`rename --nows {{*.txt}}`
 `rename 's/\s+/_/g' {{*.txt}}`
 
 - No action, just show what renames would occur

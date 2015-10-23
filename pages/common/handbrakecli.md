@@ -10,10 +10,10 @@
 
 `HandBrakeCLI -i {{input.mp4}} -o {{output.mp4} -w 320 -l 240`
 
-- List available presets  
+- List available presets
 
 `HandBrakeCLI --preset-list`
 
 - Convert an AVI video to MP4 using the Android preset
 
-`HandBrakeCLI --preset="Android" -i {{input.ext}} -o {{output.mp4}}` 
+`HandBrakeCLI --preset="Android" -i {{input.ext}} -o {{output.mp4}}`

@@ -2,7 +2,7 @@
 
 > Find or signal process by name
 
-- return PIDs of any running processes with a matching command string 
+- return PIDs of any running processes with a matching command string
 
 `pgrep {{Finder}}`
 

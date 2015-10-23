@@ -1,4 +1,4 @@
-#FSWEBCAM
+# fswebcam
 
 > small and simple webcam for *nix
 

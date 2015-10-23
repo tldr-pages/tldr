@@ -1,6 +1,6 @@
 # mysqldump
 
-> Backups mysql databases 
+> Backups mysql databases
 
 - creating a backup
 

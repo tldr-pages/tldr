@@ -1,6 +1,6 @@
 # fdupes
 
-> Finds duplicate files in a given 
+> Finds duplicate files in a given
 > set of directories
 
 - search a single directory

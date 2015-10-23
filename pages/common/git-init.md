@@ -1,4 +1,4 @@
-#git init
+# git init
 
 > Initializes a new local Git repository
 

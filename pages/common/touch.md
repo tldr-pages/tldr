@@ -6,7 +6,7 @@
 
 `touch {{filename}}`
 
-- Set the times on a file to those specified 
+- Set the times on a file to those specified
 
 `touch -t 201412250801.59 {{filename}}
 `touch -t {{YYYYMMDDHHMM.SS}} {{filename}}

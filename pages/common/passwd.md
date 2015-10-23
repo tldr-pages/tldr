@@ -1,4 +1,4 @@
-#passwd
+# passwd
 
 > passwd is a tool used to change a user's password.
 

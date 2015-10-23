@@ -15,7 +15,7 @@
 `cp -r {{/path/to/original}} {{/path/to/copy}}`
 `cp -vr {{/path/to/original}} {{/path/to/copy}}`
 
-- Make a copy of a file adding and extension or changing an extension  
+- Make a copy of a file adding and extension or changing an extension
 
 `cp {{file.html}}\{,.backup\}`
 `cp file.\{html,backup\}`

@@ -10,7 +10,7 @@
 
 `mtr -n {{host}}`
 
-- Generate output after pinging each hop 10 times  
+- Generate output after pinging each hop 10 times
 
 `mtr -w {{host}}`
 
