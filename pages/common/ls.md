@@ -21,12 +21,15 @@
 - List all files with a prefix/suffix
 
 `ls {{prefix}}*`
+
 `ls *{{suffix}}`
 
 - Sort the results by size, last modified date, or creation date
 
 `ls -S`
+
 `ls -t`
+
 `ls -U`
 
 - Reverse the order of the results
