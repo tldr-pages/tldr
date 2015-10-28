@@ -9,4 +9,3 @@
 - display all file systems and their disk usage in human readable form
 
 `df -h`
-

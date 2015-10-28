@@ -17,5 +17,3 @@
 - Sum the values in the first column and pretty-print the values and then the total
 
 `awk '{s+=$1; print $1} END {print "--------"; print s}' {{filename}}`
-
-

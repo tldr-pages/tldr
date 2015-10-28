@@ -13,4 +13,3 @@
 - Also add ignored files
 
 `git add -f`
-

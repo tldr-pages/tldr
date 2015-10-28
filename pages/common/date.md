@@ -9,4 +9,3 @@
 - Display the date using a custom format
 
 `date +"%d/%m/%Y %H:%M:%S"`
-

@@ -19,5 +19,3 @@
 - Play the given audio in reverse
 
 `play {{audiofile}} reverse`
-
-
