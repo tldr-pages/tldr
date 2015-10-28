@@ -9,4 +9,3 @@
 - Print OSX Build
 
 `sw_vers -buildVersion`
-

@@ -13,4 +13,3 @@
 - Combine audio from one file and video from another
 
 `MP4Box -add {{input1.mp4}}#audio -add {{input2.mp4}}#video {{output.mp4}`
-

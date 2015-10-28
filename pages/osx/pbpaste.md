@@ -9,4 +9,3 @@
 - Use the contents of the clipboard as input to a command.
 
 `pbpaste | grep foo`
-

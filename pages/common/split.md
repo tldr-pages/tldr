@@ -13,4 +13,3 @@
 - Split a file with at most 512 bytes of lines in each split.
 
 `split -C 512 {{filename}}`
-

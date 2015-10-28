@@ -25,4 +25,3 @@
 - capture all traffic except traffic over port 22 and save to a dump file
 
 `tcpdump -w dumpfile.pcap not port 22`
-

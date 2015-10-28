@@ -13,4 +13,3 @@
 - count characters in file (taking multi-byte character sets into account)
 
 `wc -m {{file}}`
-

@@ -13,5 +13,3 @@
 - Include libraries from a different path
 
 `gcc {{source.c}} -o {{executable}} -I{{header_path}} -L{{library_path}} -l{{library_name}}`
-
-

@@ -9,4 +9,3 @@
 - Place the results of a command in the clipboard
 
 `find . -type t -name "*.png" | pbcopy`
-

@@ -9,5 +9,3 @@
 - Prevent mac from sleeping until a command completes
 
 `caffeinate -s {{command}}`
-
-
