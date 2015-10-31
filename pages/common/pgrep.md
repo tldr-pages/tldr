@@ -6,10 +6,6 @@
 
 `pgrep {{Finder}}`
 
-- case insensitive greping
-
-`pgrep -i {{fireFOx}}`
-
 - search full command line with parameters instead of just the process name
 
 `pgrep -f "{{ssh root}}"`
