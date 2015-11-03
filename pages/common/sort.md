@@ -12,4 +12,4 @@
 
 - Sort passwd file by the 3rd field
 
-`sort -t: -k 3n /etc/passwd `
+`sort -t: -k 3n /etc/passwd`

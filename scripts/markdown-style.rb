@@ -2,4 +2,3 @@
 all
 
 exclude_rule 'MD013'	# Lengthy lines (80+ chars)
-exclude_rule 'MD038'	# Spaces inside code backticks
