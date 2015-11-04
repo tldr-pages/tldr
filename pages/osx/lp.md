@@ -10,6 +10,6 @@
 
 'lp -n 2 {{path/to/filename}}'
 
-- print only certain pages to the default printer (print pages 1, 3-5, and 16)
+- print only certain pages to the default printer -m is not necessary in this case. (print pages 1, 3-5, and 16)
 
 'lp -P 1,3-5,16'
