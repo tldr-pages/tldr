@@ -12,4 +12,4 @@
 
 - print only certain pages to the default printer (print pages 1, 3-5, and 16)
 
-'lp -n -P 1,3-5,16'
+'lp -P 1,3-5,16'
