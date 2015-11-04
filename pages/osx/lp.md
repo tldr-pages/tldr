@@ -1,4 +1,4 @@
-#lp
+# lp
 > print files
 - print a file to a named printer (found in Printers & Scanners --> Options and Supplies)
 'lp -d {{device_name}} {{path/to/filename}}
