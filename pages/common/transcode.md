@@ -11,6 +11,6 @@
 
 `transcode -J transform -i {{inputfile}} -y xvid -o {{outputfile}}`
 
-- Resize the video to 640x480 Pixels and convert to MPEG4 codec using xvid.
+- Resize the video to 640x480 pixels and convert to MPEG4 codec using xvid.
 
 `transcode -Z 640x480 -i {{inputfile}} -y xvid -o {{outputfile}}`
