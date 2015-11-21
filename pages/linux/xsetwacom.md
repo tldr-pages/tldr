@@ -14,7 +14,7 @@
 
 `xsetwacom set "{{device name}}" Mode "{{Relative|Absolute}}"`
 
-- Rotate the input (good for tablet-PC) by 0|90|180|270 degree from "natural" rotation.
+- Rotate the input (good for tablet-PC) by 0|90|180|270 degrees from "natural" rotation.
 
 `xsetwacom set "{{device name}}" Rotate {{none|half|cw|ccw}}`
 
