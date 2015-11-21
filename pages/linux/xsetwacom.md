@@ -18,6 +18,6 @@
 
 `xsetwacom set "{{device name}}" Rotate {{none|half|cw|ccw}}`
 
-- Set button to only work when Tip is touching the tablet.
+- Set button to only work when the tip of the pen is touching the tablet.
 
 `xsetwacom set "{{device name}}" TabletPCButton "on"`
