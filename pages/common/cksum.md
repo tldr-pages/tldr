@@ -5,4 +5,4 @@
 
 - Display a 32 bit checksum, size in bytes and filename
 
-`chksum {{filename}}`
+`cksum {{filename}}`
