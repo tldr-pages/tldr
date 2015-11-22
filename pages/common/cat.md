@@ -6,6 +6,6 @@
 
 `cat {{file1}}`
 
-- Sequentially print the contents of *file1* and *file2* to the file *file3*.
+- Concatenate several files into the target file.
 
-`cat {{file1}} {{file2}} > {{file3}}`
+`cat {{file1}} {{file2}} {{file3}} > {{target-file}}`
