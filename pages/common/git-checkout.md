@@ -9,3 +9,7 @@
 - Create and switch to a new branch
 
 `git checkout -b {{BRANCH-NAME}}`
+
+- Undo unstaged local modification
+
+`git checkout .`
