@@ -13,7 +13,7 @@
 
 - Search for just ids of ebooks.
 
-`calibredb search {{search term}}
+`calibredb search {{search term}}`
 
 - Add one or more ebooks to the library.
 
