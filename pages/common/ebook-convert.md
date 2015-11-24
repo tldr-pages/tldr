@@ -5,4 +5,4 @@
 
 - Convert an ebook into another format.
 
-`ebook-convert {{source}} {{destination}}
+`ebook-convert {{source}} {{destination}}`
