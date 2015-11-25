@@ -2,6 +2,6 @@
 
 > General markup converter
 
-- Convert file to pdf
+- Convert file to pdf (the output format is automatically determined from the output file's extension)
 
-`pandoc -o {{output.pdf}} {{input.md}}`
+`pandoc {{input.md}} -o {{output.pdf}}`
