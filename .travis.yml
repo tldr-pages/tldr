@@ -1,0 +1,16 @@
+language: ruby
+rvm:
+  - 2.2.2
+
+gemfile:
+  - Gemfile
+
+script:
+  - make check
+
+after_success:
+  - bash scripts/build.sh
+
+env:
+  global:
+    secure: PC9nFPE034jPsF0nUn7phCt0RgVouIvd0HsQkOonNSiElh+pkFyaVvDIsQR8lF4x1AxFjz9Yo3qnNGM3txvOMiNqfReDRINfnpvLDkumCeXuKYNO8XyacTHyxMWp0sZM/YhHhJ8qhroSbNOcYYduSW+fTAoyILieRNg+Wwx7b/rdybVKW7d45GDhjmxvx0/cVhLgghXZr7SRMRh89xrGRkT8vRY7xwlmMs83YRSEcs9pkBrdAfSG/16yOCAQVUS1z10zXk/SsRZlNGKzSWsvb1H/OlkHZpxpnawJhmn2iNIy25acqRdyLwv5Oy5P2sQDBjNenTmiv0JL9v7ks5uNtXaIimvSieLKn/vLmGmW/8ArifqwPpEcL/ZmoCH5SzNrvtO06TfuYPCWGrfLKBxySh4jnza8y8YruKlQfjWDm/o5MmiJWvM1mVtIRozO9hDYZ1EMf4e8qlT7K6Y3alWbl3PqZ/DnLHYIUEvtYv5M0H2Ydtqh5JIWj/XRaNSwwmL4Lpcz3AKavP93N4tYAoGIWO9hkVpwCYz3qNH9dIxQJ7ancj01FWVFqqbLcBLPk8MaQsuFSBZpIz9PTLFdtso/YnviqSu5I7GMsFQdvGY8Mth207dMCVs7DRYe9QCjpboQoiCPY8ckmVYvlYdrDMjnfkhQC/OfZLitVLBe6zyEwTs=

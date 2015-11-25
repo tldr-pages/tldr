@@ -1,3 +1,5 @@
+default: check
+
 all: setup index
 
 index:
@@ -14,10 +16,13 @@ hooks:
 deps:
 	@bundle
 	@echo "OK"
-	
+
+check:
+	@bundle exec mdl --style ./scripts/markdown-style.rb pages
+
 lint:
-	@GEM_PATH=.gem find pages -exec .gem/bin/mdl {} --style ./scripts/markdown-style.rb 1>&2 \;
-	
+	@GEM_PATH=.gem find pages -exec mdl {} --style ./scripts/markdown-style.rb 1>&2 \;
+
 lint-changed:
 	@./scripts/lint-changed.sh
 
