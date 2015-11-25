@@ -14,10 +14,10 @@ hooks:
 deps:
 	@bundle
 	@echo "OK"
-	
+
 lint:
-	@GEM_PATH=.gem find pages -exec .gem/bin/mdl {} --style ./scripts/markdown-style.rb 1>&2 \;
-	
+	@find pages -exec mdl {} --style ./scripts/markdown-style.rb 1>&2 \;
+
 lint-changed:
 	@./scripts/lint-changed.sh
 
