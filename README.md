@@ -1,4 +1,4 @@
-# What is this?
+# TLDR [![Gitter][chat-img]][chat]
 
 New to the command-line world? Or just a little rusty?
 Or, like me, you can't always remember the arguments to `lsof` or `tar`?
