@@ -1,4 +1,4 @@
-# TLDR [![Gitter][chat-img]][chat]
+# TLDR [![Gitter](https://badges.gitter.im/tldr-pages/tldr.svg)](https://gitter.im/tldr-pages/tldr)
 
 New to the command-line world? Or just a little rusty?
 Or, like me, you can't always remember the arguments to `lsof` or `tar`?
