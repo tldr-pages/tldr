@@ -1,6 +1,6 @@
 # git
 
-> Main command for all `git` commands
+> Main command for all git commands
 
 - Check the Git version
 
