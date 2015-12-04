@@ -23,7 +23,7 @@ function rebuild_index {
 
 function build_archive {
   echo "Removing $TLDR_ARCHIVE if it exists"
-  rm -f $TLDR_ARCHIVE || true
+  rm -f $TLDR_ARCHIVE
 
   echo "Creating an archive $TLDR_ARCHIVE"
   cd $TLDRHOME/
@@ -40,13 +40,15 @@ function upload_assets {
   cd $SITE_HOME
   git add -A .
   git commit -m "[TravisCI] uploaded assets after commits ${TRAVIS_COMMIT_RANGE}"
-  git push -q > /dev/null
-
-  echo "Assets deployed"
+  if [[ ! `git push -q` ]]; then
+    echo "Cannot push to a static site"
+  else
+    echo "Assets deployed"
+  fi
 }
 
 ###################################
-# BEGINNING
+# MAIN
 ###################################
 
 if [ ! "$TRAVIS_PULL_REQUEST" == "false" ]; then
