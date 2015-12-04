@@ -18,21 +18,16 @@ function initialize {
 
 function rebuild_index {
   $TLDRHOME/scripts/build_index.rb
-  echo "Rebuilding index is done"
 }
 
 function build_archive {
-  echo "Removing $TLDR_ARCHIVE if it exists"
   rm -f $TLDR_ARCHIVE
 
-  echo "Creating an archive $TLDR_ARCHIVE"
   cd $TLDRHOME/
   zip -r $TLDR_ARCHIVE pages/ LICENSE.md
 }
 
 function upload_assets {
-  echo "Uploading assets to static site"
-
   git clone --quiet --depth 1 https://${GH_TOKEN}@${SITE_URL} $SITE_HOME
   mv -f $TLDR_ARCHIVE $SITE_HOME/assets/
   cp -f $TLDRHOME/pages/index.json $SITE_HOME/assets/
@@ -40,11 +35,7 @@ function upload_assets {
   cd $SITE_HOME
   git add -A .
   git commit -m "[TravisCI] uploaded assets after commits ${TRAVIS_COMMIT_RANGE}"
-  if [[ ! `git push -q` ]]; then
-    echo "Cannot push to a static site"
-  else
-    echo "Assets deployed"
-  fi
+  git push -q
 }
 
 ###################################
@@ -57,7 +48,7 @@ elif [ ! "$TRAVIS_BRANCH" == "master" ]; then
   echo "This is not a master branch, no index rebuild needed"
 else
   initialize
-  rebuild_index
-  build_archive
-  upload_assets
+  rebuild_index && echo "Rebuilding index is done"
+  build_archive && echo "Pages archive is created"
+  upload_assets && echo "Assets (pages archive, index) deployed to static site"
 fi
