@@ -1,3 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'mdl'
+group :development, :test do
+  gem 'mdl'
+end
