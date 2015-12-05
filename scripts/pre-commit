@@ -1,5 +1,3 @@
 #!/bin/sh
 
-make index
-git add ./pages/index.json
 make lint-changed
