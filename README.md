@@ -1,4 +1,15 @@
-# TLDR [![Gitter](https://badges.gitter.im/tldr-pages/tldr.svg)](https://gitter.im/tldr-pages/tldr)
+# tldr
+
+[![Build Status][travis-image]][travis-url]
+[![Gitter chat][gitter-image]][gitter-url]
+[travis-url]: https://travis-ci.org/tldr-pages/tldr
+[travis-image]: https://img.shields.io/travis/tldr-pages/tldr.svg
+[gitter-url]: https://gitter.im/tldr-pages/tldr
+[gitter-image]: https://img.shields.io/gitter/room/tldr-pages/tldr.svg
+
+*tldr* is a collection of simplified and community-driven man pages.
+
+## Why is tldr?
 
 New to the command-line world? Or just a little rusty?
 Or, like me, you can't always remember the arguments to `lsof` or `tar`?
@@ -14,7 +25,7 @@ Maybe it doesn't help that the first option explained in `man tar` is:
 
 I'm sure people could benefit from simplified "show me the common usages" man pages. What about:
 
-![tldr screenshot](http://raw.github.com/rprieto/tldr/master/screenshot.png)
+![tldr screenshot](http://raw.github.com/tldr-pages/tldr/master/screenshot.png)
 
 This repository is just that: an ever-growing collection of examples for the most common UNIX / Linux / OSX / SunOS commands.
 
@@ -39,4 +50,4 @@ Let us know if you are building one and we can add it to this list!
 - Your favourite command isn't covered?
 - You can think of more examples?
 
-Contribution are most welcome! Have a look [over here](https://github.com/rprieto/tldr/blob/master/CONTRIBUTING.md) for some rough guidelines.
+Contribution are most welcome! Have a look here for some rough [contributing guidelines](https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md).
