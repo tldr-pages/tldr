@@ -8,4 +8,8 @@
 
 - Show the history of a particular file or directory, including differences
 
-`git log -p PATH`
+`git log -p {{path}}`
+
+- Show only the first line of each commits
+
+`git log --oneline`
