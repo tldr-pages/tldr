@@ -11,7 +11,7 @@ gemfile:
 - Gemfile
 
 script:
-- make check
+- make lint
 
 after_success:
 - bash scripts/build.sh
