@@ -6,6 +6,6 @@
 
 `date +"%c"`
 
-- Display the date using a custom format
+- Display the date in UTC and ISO 8601 format
 
-`date +"%d/%m/%Y %H:%M:%S"`
+`date -u +"%Y-%m-%dT%H:%M:%SZ"`
