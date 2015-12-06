@@ -1,6 +1,6 @@
 # mdfind
 
-> List files matching a query
+> List files matching a given query
 
 - Find a file by it's name
 
