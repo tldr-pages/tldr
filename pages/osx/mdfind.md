@@ -2,14 +2,14 @@
 
 > List files matching a query
 
-- Find a file named **"Inception"**
+- Find a file by it's name
 
-`mdfind -name inception`
+`mdfind -name {{file}}`
 
-- Find a file containing **"football"**
+- Find a file by it's content
 
-`mdfind football`
+`mdfind {{query}}`
 
-- Find a file containing **"football"**, in the directory **"~/Documents"**
+- Find a file containing a string, in a given directory
 
-`mdfind -onlyin ~/Documents football`
+`mdfind -onlyin {{directory}} {{query}}`
