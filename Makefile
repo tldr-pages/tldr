@@ -20,7 +20,4 @@ deps:
 lint:
 	@bundle exec mdl --style ./scripts/markdown-style.rb pages
 
-lint-changed:
-	@./scripts/lint-changed.sh
-
-.PHONY: default index setup hooks deps lint lint-changed
+.PHONY: default index setup hooks deps lint
