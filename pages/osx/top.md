@@ -18,10 +18,6 @@
 
 `top -user {{user-name}}`
 
-- Run top in logging (batch) mode and update information 5 times
-
-`top -l 5`
-
 - Get help about interactive commands
 
 `?`
