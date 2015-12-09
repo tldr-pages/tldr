@@ -13,3 +13,7 @@
 - Execute Python language single command
 
 `python -c {{command}}`
+
+- Execute a Python module (SimpleHTTPServer, json.tool, etc)
+
+`python -m {{moduleName}} {{parameters}}`
