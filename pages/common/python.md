@@ -14,6 +14,6 @@
 
 `python -c {{command}}`
 
-- Execute a Python module (SimpleHTTPServer, json.tool, etc)
+- Run library module as a script (terminates option list)
 
-`python -m {{moduleName}} {{parameters}}`
+`python -m {{module}} {{arguments}}`
