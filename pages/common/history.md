@@ -2,10 +2,10 @@
 
 > Command Line history.
 
-- Display the history list with line number
+- Display the commands history list with line numbers
 
 `history`
 
-- Clear the history list
+- Clear the commands history list
 
 `history -c`
