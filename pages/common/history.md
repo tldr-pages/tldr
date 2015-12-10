@@ -6,6 +6,6 @@
 
 `history`
 
-- Clear the commands history list
+- Clear the commands history list (only for `bash`)
 
 `history -c`
