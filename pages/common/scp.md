@@ -6,6 +6,7 @@
 - upload a file, or upload and rename a file
 
 `scp {{/local/file.txt}} {{10.0.0.1}}:{{/remote/path/}}`
+
 `scp {{/local/file.txt}} {{10.0.0.1}}:{{/remote/path/newname.txt}}`
 
 - download a file
@@ -15,6 +16,7 @@
 - upload or download a directory
 
 `scp -r {{/local/folder}} {{10.0.0.1}}:{{/remote/path/}}`
+
 `scp -r {{10.0.0.1}}:{{/remote/path}} {{/local/folder}}`
 
 - specify username on host
