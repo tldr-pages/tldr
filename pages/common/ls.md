@@ -12,7 +12,7 @@
 
 - List all files with their rights, groups, owner
 
-`ls -ls`
+`ls -l`
 
 - List all files and display the file size in a human readable format
 
