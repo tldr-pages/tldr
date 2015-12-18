@@ -17,3 +17,7 @@
 - Remove remote branches which don't exist locally
 
 `git push --prune {{REMOTE-NAME}}`
+
+- Publish tags
+
+`git push --tags`
