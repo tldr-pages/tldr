@@ -1,6 +1,6 @@
 # nginx
 
-> Nginx is a web server with a strong focus on high concurrency, performance and low memory usage.
+> nginx web server
 
 - Start server with default config
 
