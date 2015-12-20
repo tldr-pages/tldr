@@ -6,6 +6,10 @@
 
 `nginx`
 
-- Start server with custom config and custom relative path base directory
+- Start server with custom config file
 
-`nginx -c {{path to config}} -p {{relative path base dir}}`
+`nginx -c {{config_file}}`
+
+- Start server with a prefix for all relative paths in config file
+
+`nginx -c {{config_file}} -p {{prefix/for/relative/paths}}`
