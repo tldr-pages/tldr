@@ -16,4 +16,4 @@
 
 - list the KB sizes of directories for N levels below the specified directory
 
-`du --max-depth=1`
+`du --max-depth=N`
