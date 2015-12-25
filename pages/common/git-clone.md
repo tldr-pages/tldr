@@ -13,3 +13,7 @@
 - Do it quietly
 
 `git clone -q`
+
+- Clone an existing repository, and truncate to the specified number of revisions, save your time mostly
+
+`git clone --depth 10 {{REMOTE-REPOSITORY-LOCATION}}`
