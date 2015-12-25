@@ -33,11 +33,11 @@ This repository is just that: an ever-growing collection of examples for the mos
 
 You can access these pages on your computer using one of the following clients:
 
-- [Node.js client](https://github.com/rprieto/tldr-node-client) : `npm install -g tldr`
-- [Python client](https://github.com/felixonmars/tldr-python-client) : `pip install tldr`
+- [Node.js client](https://github.com/tldr-pages/tldr-node-client) : `npm install -g tldr`
+- [Python client](https://github.com/tldr-pages/tldr-python-client) : `pip install tldr`
 - [Python client](https://github.com/lord63/tldr.py): `pip install tldr.py`
 - [Go client](https://github.com/pranavraja/tldr) : `go get github.com/pranavraja/tldr` or [platform binaries](https://github.com/pranavraja/tldr/releases)
-- [Elixir client](https://github.com/edgurgel/tldr): binaries available soon
+- [Elixir client](https://github.com/tldr-pages/tldr_elixir_client): binaries available soon
 - [C++ client](https://github.com/tldr-pages/tldr-cpp-client): `brew tap tldr-pages/tldr && brew install tldr`
 - [Android client](https://github.com/gianasista/tldr-viewer): available on [Google Play](https://play.google.com/store/apps/details?id=de.gianasista.tldr_viewer)
 - [Ruby client](https://github.com/YellowApple/tldrb): `gem install tldrb`
