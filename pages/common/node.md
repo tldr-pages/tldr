@@ -1,11 +1,15 @@
 # node
 
->Main node command
+> Server-side JavaScript platform (Node.js)
 
-- Call an interactive node shell
+- Run a JavaScript file
+
+`node {{file}}.js`
+
+- Start a REPL loop (interactive shell)
 
 `node`
 
-- Execute node on a JS file
+- Evaluate JavaScript by passing it in the command
 
-`node {{FILENAME}}.js`
+`node -e "{{code}}"`
