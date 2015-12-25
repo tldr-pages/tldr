@@ -16,12 +16,12 @@ When setting up a brand new fork, run `make setup` to install the git pre-commit
 Note that `tldr` is focused on concrete examples.
 Here's a few guidelines to get started:
 
-- Focus on the 5 or 6 most common usages. It's OK if the page doesn't cover everything; that's what `man` is for.
-- When in doubt, keep new command-line users in mind. Err on the side of clarity rather than terseness.
-- Try to incorporate the spelled-out version of single-letter options in the example's description.
-- Introduce options gradually, starting with the simplest commands and using more complex examples progressively.
-- Use short but descriptive values for the tokens, ex. `{{source_file}}` or `{{wallet.txt}}`.
-- Be specific: avoid explaining general UNIX concepts that could apply to any command (ex: relative/absolute paths, brace expansion, character escaping...)
+1. Focus on the 5 or 6 most common usages. It's OK if the page doesn't cover everything; that's what `man` is for.
+2. When in doubt, keep new command-line users in mind. Err on the side of clarity rather than terseness.
+3. Try to incorporate the spelled-out version of single-letter options in the example's description.
+4. Introduce options gradually, starting with the simplest commands and using more complex examples progressively.
+5. Use short but descriptive values for the tokens, ex. `{{source_file}}` or `{{wallet.txt}}`.
+6. Be specific: avoid explaining general UNIX concepts that could apply to any command (ex: relative/absolute paths, brace expansion, character escaping...)
 
 The best way to be consistent is to have a look at a few existing pages :)
 
