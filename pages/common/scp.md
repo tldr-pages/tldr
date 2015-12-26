@@ -30,3 +30,7 @@
 - copy a file from one host to another
 
 `scp {{10.0.0.1}}:{{/remote/path/file.txt}} {{20.0.0.2}}:{{/other/remote/path}}`
+
+- download a file with ssh key
+
+`scp -i {{/local/key}} {{10.0.0.1}}:{{/remote/path/file.txt}} {{/local/folder}}`
