@@ -9,7 +9,7 @@ Contribution are most welcome! All `tldr` pages are stored in Markdown right her
 
 ## Setup
 
-When setting up a brand new fork, run `make setup` to install the git pre-commit hook that will rebuild the index every time you commit your changes. You can also rebuild it manually by running `make index`. The script requires Ruby to run. Make sure you have the index in place as we will need it as part of your commit in order to pull in your changes.
+When setting up a brand new fork, run `make setup` to install the git pre-commit hook that will check errors in your changes with Markdown linter.
 
 ## Guidelines
 

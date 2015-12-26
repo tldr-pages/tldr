@@ -3,6 +3,10 @@ default: lint
 all: setup index
 
 index:
+	@echo "WARNING!"
+	@echo "Index rebuilding is deprecated."
+	@echo "You should not do it, unless you understand why you doing this."
+	@echo
 	@TLDRHOME=`pwd` ./scripts/build_index.rb
 	@echo "Index rebuilt."
 
