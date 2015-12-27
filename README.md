@@ -9,7 +9,7 @@
 
 *tldr* is a collection of simplified and community-driven man pages.
 
-## What tldr means?
+## What does tldr mean?
 TL;DR stands for Too Long; Didn't Read. It originates in Internet slang, where it is used to indicate parts of the text skipped as too lengthy. Read more on [TLDR page from Wikipedia](https://en.wikipedia.org/wiki/TL;DR).
 
 ## What is tldr?
