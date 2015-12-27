@@ -6,9 +6,13 @@
 
 `git add {{PATHSPEC}}`
 
-- Add all current changes to the index
+- Add all files (tracked and untracked)
 
 `git add .`
+
+- Only add already tracked files
+
+`git add -u`
 
 - Also add ignored files
 
