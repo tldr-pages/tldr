@@ -13,3 +13,7 @@
 - Start server with a prefix for all relative paths in config file
 
 `nginx -c {{config_file}} -p {{prefix/for/relative/paths}}`
+
+- Test server configuration without affecting the running server
+
+`nginx -t`
