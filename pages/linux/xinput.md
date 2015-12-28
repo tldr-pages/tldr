@@ -6,10 +6,10 @@
 
 `xinput list`
 
-- Disconnect an input from a master.
+- Disconnect an input from its master.
 
 `xinput float {{id}}`
 
 - Reattach an input as slave to a master
 
-`xinput float {{id}} {{master id}}`
+`xinput float {{id}} {{master_id}}`
