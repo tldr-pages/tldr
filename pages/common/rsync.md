@@ -12,7 +12,7 @@
 
 `rsync {{remote_host_name}}:{{remote_file_location}} {{local_file_location}}`
 
-- transfer file in archive and compress mode, it ensures symbolic link, device, attr, permissions, are preserved, and reduce the size.
+- transfer file in archive and compress mode, it keeps attribute and reduces the size.
 
 `rsync -avz {{path_to_file}} {{remote_host_name}}:{{remote_host_location}}`
 
