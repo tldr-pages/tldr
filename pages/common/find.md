@@ -6,11 +6,9 @@
 
 `find {{root_path}} -name {{'*.py'}}`
 
-- run a command for each file
-- use {} within the command to access the filename
+- run a command for each file, use {} within the command to access the filename
 
 `find {{root_path}} -name {{'*.py'}} -exec {{wc -l {} }}\;`
-`find {{root_path}} -name {{'*.py'}} -exec {{rm {} }}\;`
 
 - find files modified since a certain time
 
