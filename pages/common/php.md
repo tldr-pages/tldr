@@ -17,3 +17,7 @@
 - Run PHP code. Notes: a) Don't use <? ?> tags; b) Escape double quotes with backslash
 
 `php -r "{{code}}"`
+
+- Start a PHP built-in web server in the current directory.
+
+`php -S {{host:port}}`
