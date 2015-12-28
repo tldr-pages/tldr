@@ -17,3 +17,7 @@
 - keep reading file until ctrl-c
 
 `tail -f {{file}}`
+
+- show last 100 lines of file and keep reading file until ctrl-c
+ 
+`tail -100f {{file}}`
