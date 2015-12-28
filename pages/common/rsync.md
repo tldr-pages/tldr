@@ -4,7 +4,7 @@
 > Does not allow transfer between two remote hosts
 > Can transfer single files or files matched by pattern
 
-- transfer file from local to remote host
+- transfer file from local to remote host, it supports regex.
 
 `rsync {{path_to_file}} {{remote_host_name}}:{{remote_host_location}}`
 
@@ -12,13 +12,13 @@
 
 `rsync {{remote_host_name}}:{{remote_file_location}} {{local_file_location}}`
 
-- transfer all *.js files in current directory to host 'devbox' as user 'mike'
+- transfer file in archive and compress mode, it ensures symbolic link, device, attr, permissions, are preserved, and reduce the size.
 
-`rsync *.js mike@devbox:~/projects/cakeStore/styles/`
+`rsync -avz {{path_to_file}} {{remote_host_name}}:{{remote_host_location}}`
 
 - transfer a directory and all its children from a remote to local
 
-`rsync -r mike@devbox:~/projects/cakeStore /Users/mike/devProjects/`
+`rsync -r {{remote_host_name}}:{{remote_folder_location}} {{local_folder_location}}`
 
 - transfer file over SSH and show progress
 
