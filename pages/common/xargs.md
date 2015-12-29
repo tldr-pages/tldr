@@ -13,3 +13,7 @@
 - Example: list unneeded packages with deborphan and remove them with apt-get:
 
 `sudo deborphan | xargs sudo apt-get remove`
+
+- creating variables: copy all files that start with 'M' to the Desktop
+
+`ls M* | xargs -J % cp % ~/Desktop`
