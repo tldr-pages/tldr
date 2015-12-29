@@ -29,4 +29,4 @@
 
 - list the contents of a tar file
 
-`tar -tvf {{source.tar}}`
+`tar tvf {{source.tar}}`
