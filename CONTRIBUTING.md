@@ -82,7 +82,11 @@ Detailed explanation:
    git checkout -b <topic-branch-name>
    ```
 
+<<<<<<< HEAD
 5. Run `make lint` to check that your page(s) are correct. Try to run the commands you are describing to ensure the syntax is correct.
+=======
+5. Run `make lint` to check that your page(s) are correct.
+>>>>>>> Improve Contributing Guidelines:
 
 6. Please use the following commit message format: 
    `<command>: type of change`.
@@ -102,14 +106,18 @@ Detailed explanation:
 
 8. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/)
     with a clear title and description.
+<<<<<<< HEAD
     
     If page is not about a standard Unix/Linux tool, please include a link to the tool home page.
     
     If you are changing something non-trivial, not just adding a page for a new tool, please describe why you are doing this.
+=======
+>>>>>>> Improve Contributing Guidelines:
 
 9. Use Git's
    [interactive rebase](https://help.github.com/articles/interactive-rebase)
    feature to tidy up your commits before making them public.
+<<<<<<< HEAD
    
    If you are not familiar with `git rebase`, it might be helpful to check out these video tutorials:
    - [Git Rebase: squash last commits](https://www.youtube.com/watch?v=qh9KtjfjzCU)
@@ -127,6 +135,13 @@ Detailed explanation:
    git commit --amend     # Do amended commit
    git push --force       # Overwrite your branch
    ```
+=======
+   In most cases it is better to squash commits before submitting a pull request.
+
+10. If you are asked to amend your changes before they can be merged in, please
+   use `git commit --amend` and force push to your remote feature branch.
+   You may also be asked to squash commits.
+>>>>>>> Improve Contributing Guidelines:
 
 
 ## Licensing
