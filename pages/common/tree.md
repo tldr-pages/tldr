@@ -17,3 +17,11 @@
 - Print human readable size of files
 
 `tree -h`
+
+- Print the full path for each file
+
+`tree -f`
+
+- Print the tree without lines and indentation. Useful when used with -f
+
+`tree -i`
