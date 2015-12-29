@@ -16,4 +16,16 @@
 
 - Exit vim:
 
-`[Esc] (to switch to normal mode), then :q`
+`[Esc] (to switch to command mode), then :q`
+
+- save file in vim
+
+`[Esc] (to switch to command mode), then :w`
+
+- save file then exit vim
+
+`[Esc] (to switch to command mode), then :wq`
+
+- switch to edit (insert) mode
+
+`[Esc] (to switch to command mode), then i`
