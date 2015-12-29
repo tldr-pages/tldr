@@ -11,6 +11,3 @@
 
 `w -h`
 
-- Show info about logged-in users, sorted by their idle time
-
-`w -i`
