@@ -10,3 +10,7 @@
 - Show logged-in users info without a header
 
 `w -h`
+
+- Show info about logged-in users, sorted their idle time
+
+`w -i`
