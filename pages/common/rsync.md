@@ -4,9 +4,9 @@
 > Does not allow transfer between two remote hosts
 > Can transfer single files or files matched by pattern
 
-- transfer file from local to remote host, it supports regex.
+- transfer file from local to remote host, filename supports regex.
 
-`rsync {{path_to_file}} {{remote_host_name}}:{{remote_host_location}}`
+`rsync {{path/to/file}} {{remote_host_name}}:{{remote_host_location}}`
 
 - transfer file from remote host to local
 
@@ -14,7 +14,7 @@
 
 - transfer file in archive (to preserve attributes) and compressed (zipped) mode
 
-`rsync -az {{path_to_file}} {{remote_host_name}}:{{remote_host_location}}`
+`rsync -az {{path/to/file}} {{remote_host_name}}:{{remote_host_location}}`
 
 - transfer a directory and all its children from a remote to local
 
