@@ -2,9 +2,13 @@
 
 > Main command for working with branches
 
-- List all existing branches
+- List local branches. The current branch is highlighted by `*`.
 
 `git branch`
+
+- List all local and remote branches
+
+`git branch -a`
 
 - Create new branch based on current branch
 
