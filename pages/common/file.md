@@ -9,7 +9,3 @@
 - Look inside a zipped file and determine the file type(s) inside
 
 `file -z {{foo.zip}}`
-
-- Display a quick guide to various flags that can be used
-
-`file --help`
