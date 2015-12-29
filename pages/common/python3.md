@@ -6,11 +6,11 @@
 
 `python`
 
-- Execute a given Python file
+- Execute a given Python 3 file
 
 `python {{script.py}}`
 
-- Execute Python language single command
+- Execute Python 3 language single command
 
 `python -c {{command}}`
 
