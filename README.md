@@ -50,6 +50,7 @@ You can access these pages on your computer using one of the following clients:
 - [Android client](https://github.com/gianasista/tldr-viewer): available on
   [Google Play](https://play.google.com/store/apps/details?id=de.gianasista.tldr_viewer)
 - [Ruby client](https://github.com/YellowApple/tldrb): `gem install tldrb`
+- [R client](https://github.com/kirillseva/tldrrr): `devtools::install_github('kirillseva/tldrrr')`
 - [Web client](https://github.com/ostera/tldr.js): try tldr on your browser
   [here](https://ostera.github.io/tldr.js)!
 
