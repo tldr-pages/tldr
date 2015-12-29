@@ -17,3 +17,15 @@
 - exiting vim
 
 `[Esc] (to switch to normal mode), then :q`
+
+- saving in vim
+
+`[Esc] (to switch to command mode), then :w`
+
+- save and exit vim
+
+`[Esc] (to switch to command mode), then :wq`
+
+- to enter insert mode
+
+`[Esc] (to switch to command mode), then i`
