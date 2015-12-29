@@ -36,7 +36,7 @@
 
 `ls -r`
 
-- List folders only without their contents in the current folder
+- List folders only, without their contents
 
 `ls -d */`
 
