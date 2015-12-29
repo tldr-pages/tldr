@@ -14,3 +14,7 @@
 - Print the nodename (hostname) of the system
 
 `uname -n`
+
+- Print all available system information (hardware, software, nodename)
+
+`uname -a`
