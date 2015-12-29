@@ -22,6 +22,6 @@
 
 `cordova plugin add {{pluginid}}`
 
-- Remove a cordova plutin
+- Remove a cordova plugin
 
 `cordova plugin remove {{pluginid}}`
