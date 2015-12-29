@@ -1,6 +1,6 @@
 # seq
 
-> Output a sequence of numbers to stdout
+> Print a sequence of numbers
 
 - Sequence from 1 to 10
 
