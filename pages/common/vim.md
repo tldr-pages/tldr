@@ -14,6 +14,10 @@
 
 `view {{file}}`
 
+- open up to 4 files in diff mode 
+
+`vim -d {{file1}}  {{file2}}  ......  {{file4}}`
+
 - exiting vim
 
 `[Esc] (to switch to normal mode), then :q`
