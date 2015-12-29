@@ -35,3 +35,11 @@
 - Reverse the order of the results
 
 `ls -r`
+
+- List folders only without their contents in the current folder
+
+`ls -d */`
+
+- List all the hidden files & folders in the current directory
+
+`ls -d .*`
