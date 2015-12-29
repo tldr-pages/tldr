@@ -21,3 +21,7 @@
 - list installed packages and versions
 
 `pacman -Q`
+
+- list only the explicitly installed packages and versions
+
+`pacman -Qe`
