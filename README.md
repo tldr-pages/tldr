@@ -47,8 +47,10 @@ You can access these pages on your computer using one of the following clients:
   or [platform binaries](https://github.com/pranavraja/tldr/releases)
 - [Elixir client](https://github.com/tldr-pages/tldr_elixir_client): binaries available soon
 - [C++ client](https://github.com/tldr-pages/tldr-cpp-client): `brew tap tldr-pages/tldr && brew install tldr`
-- [Android client](https://github.com/gianasista/tldr-viewer): available on
+- Android client:
+  - [tldr-viewer](https://github.com/gianasista/tldr-viewer), available on
   [Google Play](https://play.google.com/store/apps/details?id=de.gianasista.tldr_viewer)
+  - [tldroid](https://github.com/hidroh/tldroid), available on [Google Play](https://play.google.com/store/apps/details?id=io.github.hidroh.tldroid)
 - [Ruby client](https://github.com/YellowApple/tldrb): `gem install tldrb`
 - [R client](https://github.com/kirillseva/tldrrr): `devtools::install_github('kirillseva/tldrrr')`
 - [Web client](https://github.com/ostera/tldr.js): try tldr on your browser
