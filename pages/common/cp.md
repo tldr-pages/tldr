@@ -8,14 +8,20 @@
 
 - Copy a file to a parent directory
 
-`cp {{/path/to/original}} ../{{/path/to/copy}}`
+`cp {{/path/to/original}} ../{{path/to/copy}}`
 
-- Copy directories recursive using the option -r. Optionally showing files as they are copied.
+- Copy directories recursive using the option -r
 
 `cp -r {{/path/to/original}} {{/path/to/copy}}`
+
+- Show files as they are copied
+
 `cp -vr {{/path/to/original}} {{/path/to/copy}}`
 
-- Make a copy of a file adding and extension or changing an extension
+- Make a copy of a file, adding an extension
 
-`cp {{file.html}}\{,.backup\}`
-`cp file.\{html,backup\}`
+`cp {{file.html}}{,.backup}`
+
+- Make a copy of a file, changing the extension
+
+`cp {{file.}}{html,backup}`
