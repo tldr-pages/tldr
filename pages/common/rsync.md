@@ -20,6 +20,10 @@
 
 `rsync -r mike@devbox:~/projects/cakeStore /Users/mike/devProjects/`
 
+- transfer only updated files from remote host
+
+`rsync -ru mike@devbox:~/projects/ ./projects/`
+
 - transfer file over SSH and show progress
 
 `rsync -e ssh --progress {{remote_host_name}}:{{remote_file}} {{local_file}}`
