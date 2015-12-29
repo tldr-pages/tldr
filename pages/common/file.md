@@ -2,14 +2,13 @@
 
 > Determine file type
 
-- Give a description of the type of the specified file
+- Give a description of the type of the specified file.  Works fine for files with no file extension.
 
-`file {{readme}}`
-`file {{python3.so.1}}`
+`file {{filename}}`
 
 - Look inside a zipped file and determine the file type(s) inside
 
-`file -z foo.zip`
+`file -z {{foo.zip}}`
 
 - Display a quick guide to various flags that can be used
 
