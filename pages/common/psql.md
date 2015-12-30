@@ -6,9 +6,13 @@
 
 `psql {{database}}`
 
-- Connect to *database* on given server *host* running on given *port* with *username* given
+- Connect to *database* on given server *host* running on given *port* with *username* given, no password prompt
 
 `psql -h {{host}} -p {{port}} -U {{username}} {{database}}`
+
+- Connect to *database*, user will be prompted for password
+
+`psql -h {{host}} -p {{port}} -U {{username}} -W {{database}}`
 
 - Run single *query* against the given *database*. Note: useful in shell scripts
 
