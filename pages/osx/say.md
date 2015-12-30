@@ -1,6 +1,6 @@
 # say
 
-> Uses text to speech to speak through the default sound device
+> Uses text-to-speech to speak through the default sound device
 
 - Speak a phrase aloud
 
