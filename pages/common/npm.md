@@ -10,6 +10,10 @@
 
 `npm install`
 
+- Download and install a module globally
+
+`npm install -g {{module_name}}`
+
 - Download a given dependency, and add it to the package.json
 
 `npm install {{module_name}}@{{version}} --save`
