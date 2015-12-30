@@ -6,9 +6,9 @@
 
 `find {{root_path}} -name {{'*.py'}}`
 
-- find files matching path pattern		
-		
-`find {{root_path}} -path {{'**/lib/**/*.py'}}`		
+- find files matching path pattern
+
+`find {{root_path}} -path {{'**/lib/**/*.py'}}`
 
 - run a command for each file, use {} within the command to access the filename
 
