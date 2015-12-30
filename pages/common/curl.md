@@ -25,4 +25,4 @@
 
 - pass a user name and password for server authentication
 
-`curl -u myusername:mypassword {{http://localhost}}`
+`curl -u {{username:password}} {{http://localhost}}`
