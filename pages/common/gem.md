@@ -8,7 +8,7 @@
 
 - Install specific version of a gem
 
-`gem install -v={{0.0.15}}`
+`gem install {{gemname}} -v {{1.0.0}}
 
 - Update a gem
 
