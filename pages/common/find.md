@@ -25,3 +25,11 @@
 - delete files by name, older than a certain number of days
 
 `find {{root_path}} -name {{'*.py'}} -mtime {{-180d}} -delete`
+
+- find empty files
+
+`find -empty`
+
+- find files matching more than one search criteria
+
+`find {{root_path}} -name {{'*.py'}} -or -name {{'*.rb'}}
