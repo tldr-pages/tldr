@@ -11,6 +11,7 @@
 `dnf install {{package}}`
 
 - Install a new package and assume yes to all questions
+- Includes local package files; no need to specify 'localinstall' as required in yum
 
 `dnf -y install {{package}}`
 
