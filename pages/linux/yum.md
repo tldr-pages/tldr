@@ -11,7 +11,7 @@
 `yum install {{package}}`
 
 - Install a new package and assume yes to all questions (Also works with update, great for automated updates)
- 
+
 `yum -y install {{package}}`
 
 - Remove a package

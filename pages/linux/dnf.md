@@ -11,7 +11,7 @@
 `dnf install {{package}}`
 
 - Install a new package and assume yes to all questions
- 
+
 `dnf -y install {{package}}`
 
 - Remove a package
