@@ -21,3 +21,7 @@
 - Publish the current project
 
 `npm publish`
+
+- Cleanup packages (removes packages, which are installed but are not listed in `package.json`)
+
+`npm prune`
