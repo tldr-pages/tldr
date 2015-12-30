@@ -6,6 +6,6 @@
 
 `git init`
 
-- Initialize a barebones repository
+- Initialize a barebones repository, suitable for use as a remote over ssh
 
 `git init --bare`
