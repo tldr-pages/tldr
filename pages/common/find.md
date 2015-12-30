@@ -26,9 +26,9 @@
 
 `find {{root_path}} -name {{'*.py'}} -mtime {{-180d}} -delete`
 
-- find empty files
+- find empty files or directories
 
-`find -empty`
+`find {{root_path}} -empty`
 
 - find files matching more than one search criteria
 
