@@ -26,3 +26,11 @@
 - pass a user name and password for server authentication
 
 `curl -u myusername:mypassword {{http://localhost}}`
+
+- dump HTTP response headers to a specific file
+
+`curl -D {{headers-file}} {{http://example.com/resource}}
+
+- look up a dictionary word
+
+`curl dict://dict.org/d:book`
