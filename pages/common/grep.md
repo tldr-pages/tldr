@@ -11,13 +11,25 @@
 
 `grep -r {{something}} .`
 
+- perform a case insensitive search 
+
+`grep -r {{match}}
+
 - use a regex
 
 `grep -e {{^regex$}} {{file_path}}`
 
-- see 3 lines of context
+- see 3 lines of context before and after the match
 
 `grep -C 3 {{something}} {{file_path}}`
+
+- see 3 lines of context before the match 
+
+`grep -A 3 {{something}} {{file_path}}`
+
+- see 3 lines of context after the match
+
+`grep -B 3 {{something}} {{file_path}}`
 
 - print the count of matches instead of the matching text
 

@@ -6,10 +6,6 @@
 
 `find {{root_path}} -name {{'*.py'}}`
 
-- find files matching path pattern
-
-`find {{root_path}} -path {{'**/lib/**/*.py'}}`
-
 - run a command for each file, use {} within the command to access the filename
 
 `find {{root_path}} -name {{'*.py'}} -exec {{wc -l {} }}\;`
@@ -25,3 +21,11 @@
 - delete files by name, older than a certain number of days
 
 `find {{root_path}} -name {{'*.py'}} -mtime {{-180d}} -delete`
+
+- find empty files
+
+`find -empty`
+
+- find files matching more than one search criteria
+
+`find {{root_path}} -name {{'*.py'}} -or -name {{'*.rb'}}
