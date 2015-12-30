@@ -56,6 +56,7 @@ You can access these pages on your computer using one of the following clients:
 - [R client](https://github.com/kirillseva/tldrrr): `devtools::install_github('kirillseva/tldrrr')`
 - [Web client](https://github.com/ostera/tldr.js): try tldr on your browser
   [here](https://ostera.github.io/tldr.js)!
+- [Crystal client](https://github.com/porras/tlcr): easy to build from source, binaries available soon
 
 Let us know if you are building one and we can add it to this list!
 
