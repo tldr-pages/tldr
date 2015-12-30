@@ -1,6 +1,6 @@
 # espeak
 
-> Uses text to speech to speak through the default sound device
+> Uses text-to-speech to speak through the default sound device
 
 - Speak a phrase aloud
 
@@ -10,7 +10,7 @@
 
 `espeak -f {{filename}}`
 
-- Write speech to a WAV audio file, rather than speaking it directly
+- Save output to a WAV audio file, rather than speaking it directly
 
 `espeak -w {{filename.wav}} "It's GNU plus Linux"`
 
