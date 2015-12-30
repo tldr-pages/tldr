@@ -11,11 +11,15 @@
 
 `grep -r {{something}} .`
 
+- perform a case insensitive search 
+
+`grep -r {{match}}
+
 - use a regex
 
 `grep -e {{^regex$}} {{file_path}}`
 
-- see 3 lines of context
+- see 3 lines of context before and after the match
 
 `grep -C 3 {{something}} {{file_path}}`
 
