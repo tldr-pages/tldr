@@ -12,7 +12,7 @@
 
 - compress to zip format
 
-`7za a  -tzip {{compressed.zip}} {{directory_or_file}}`
+`7za a -tzip {{compressed.zip}} {{directory_or_file}}`
 
 - create multipart 7zip file
 
