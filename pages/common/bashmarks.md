@@ -6,18 +6,18 @@
 
 `l`
 
-- Saves the current directory as "bookmark_name"
+- Save the current folder as "bookmark_name"
 
 `s {{bookmark_name}}`
 
-- Goes (cd) to the directory associated with "bookmark_name"
+- Go to a bookmarked folder
 
 `g {{bookmark_name}}`
 
-- Prints the directory associated with "bookmark_name"
+- Print a bookmarked folder's contents
 
 `p {{bookmark_name}}`
 
-- Deletes the bookmark
+- Delete a bookmark
 
 `d {{bookmark_name}}`
