@@ -10,6 +10,6 @@
 
 `nano -S {{filename}}`
 
-- Indent new lines to the previous lines' indentation
+- Indent new lines to the previous lines' indentation.
 
 `nano -i {{filename}}`
