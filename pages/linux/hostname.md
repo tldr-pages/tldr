@@ -1,6 +1,6 @@
 # hostname
 
-Show or set the system's host name
+> Show or set the system's host name
 
 - Show current host name
 
