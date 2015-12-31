@@ -1,6 +1,6 @@
 # host
 
-Lookup Domain Name Server
+> Lookup Domain Name Server
 
 - Lookup A, AAAA, and MX records of a domain
 
