@@ -10,6 +10,10 @@
 
 `convert {{image.png}} -resize 50% {{image2.png}}`
 
+- Scale an image keeping the original aspect ratio to a maximum dimension of 640x480.
+
+`convert {{image.png}} -resize 640x480 {{image2.png}}`
+
 - Horizontally append images
 
 `convert {{image1.png}} {{image2.png}} {{image3.png}} +append {{image123.png}}`
