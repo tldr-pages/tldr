@@ -2,10 +2,6 @@
 
 > Extract RAR archives
 
-- show help
-
-`unrar`
-
 - extract files with full path
 
 `unrar x {{compressed.rar}}`
