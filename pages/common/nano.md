@@ -4,12 +4,12 @@
 
 - Start nano in terminal with {filename}
 
-`nano {filename}`
+`nano {{filename}}`
 
-- Save and then exit nano
+- Enable smooth scrolling.
 
-`ctrl-x`
+`nano -S {{filename}}`
 
-- Save file without exitting
+- Indent new lines to the previous lines' indentation
 
-`ctrl-o`
+`nano -i {{filename}}`
