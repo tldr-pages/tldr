@@ -13,3 +13,7 @@
 - Output a condensed summary of extended header information.
 
 `git diff --summary {{PATHSPEC}}`
+
+- Show staged (added, but not yet committed) changes only.
+
+`git diff --staged`

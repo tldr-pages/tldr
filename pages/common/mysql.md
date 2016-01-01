@@ -6,9 +6,9 @@
 
 `mysql {{database_name}}`
 
-- Connect to a database using credentials
+- Connect to a database, user will be prompted for a password
 
-`mysql -u {{user}} -p{{password}} {{database_name}}`
+`mysql -u {{user}} --password {{database_name}}`
 
 - Execute SQL statements in a script file (batch file)
 

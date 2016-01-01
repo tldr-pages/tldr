@@ -4,11 +4,11 @@
 
 - Open a file with the associated application
 
-`open filename.ext`
+`open {{file.ext}}`
 
 - Run a graphical MacOSX application
 
-`open /Applications/iTunes.app`
+`open /Applications/{{Application.app}}`
 
 - Open the current directory in Finder
 
@@ -16,8 +16,8 @@
 
 - Reveal a file in finder
 
-`open -R /path/dir/file`
+`open -R /path/dir/{{file}}`
 
-- Open all the word docs in the current directory with Microsoft Word
+- Open all the files of a given extension in the current directory with the associated application
 
-`open *.doc`
+`open {{*.ext}}`

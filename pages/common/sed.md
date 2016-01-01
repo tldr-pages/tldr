@@ -6,8 +6,7 @@
 
 `sed 's/{{find}}/{{replace}}/g' {{filename}}`
 
-- replace all occurrences of a string in a file, and overwrite the file
-  contents
+- replace all occurrences of a string in a file, and overwrite the file contents
 
 `sed -i 's/{{find}}/{{replace}}/g' {{filename}}`
 
