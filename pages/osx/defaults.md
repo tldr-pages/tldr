@@ -16,4 +16,4 @@
 
 - delete all defaults
 
-`defaults write -app {{app-name}}`
+`defaults delete -app {{app-name}}`
