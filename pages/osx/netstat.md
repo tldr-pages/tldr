@@ -18,6 +18,6 @@
 
 `netstat -p {PROTOCOL}`
 
-- List information continiously
+- List information continuously
 
 `netstat -c`
