@@ -2,11 +2,11 @@
 
 > List files matching a given query
 
-- Find a file by its name
+- Find a file by it's name
 
 `mdfind -name {{file}}`
 
-- Find a file by its content
+- Find a file by it's content
 
 `mdfind {{query}}`
 

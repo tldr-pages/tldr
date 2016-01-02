@@ -6,6 +6,10 @@
 
 `top`
 
+- Start top ignoring all idle or zombie processes.
+
+`top -i`
+
 - Start top sorting processes by internal memory size (default order - process ID)
 
 `top -o mem`
