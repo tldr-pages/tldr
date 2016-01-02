@@ -1,4 +1,4 @@
-# last 
+# last
 
 > View the last logged in users
 
@@ -10,7 +10,7 @@
 
 `last -n {{login_count}}`
 
-- view full login times and dates 
+- view full login times and dates
 
 `last -F`
 
