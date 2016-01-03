@@ -13,3 +13,7 @@
 - Count time, calls, and errors for each system call and report a summary on program exit.
 
 `strace -p {{pid}} -c`
+
+- Show the time spent in every system call
+
+`strace -p {{pid}} -T`
