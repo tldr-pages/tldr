@@ -25,3 +25,7 @@
 - list only the explicitly installed packages and versions
 
 `pacman -Qe`
+
+- delete all downloaded packages' cache
+
+`pacman -Scc`
