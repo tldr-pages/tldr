@@ -10,6 +10,10 @@
 
 `npm install`
 
+- Download and install a module globally
+
+`npm install -g {{module_name}}`
+
 - Download a given dependency, and add it to the package.json
 
 `npm install {{module_name}}@{{version}} --save`
@@ -21,3 +25,7 @@
 - Publish the current project
 
 `npm publish`
+
+- Cleanup packages (removes packages which are installed but are not listed in `package.json`)
+
+`npm prune`

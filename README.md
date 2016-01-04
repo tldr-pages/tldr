@@ -41,21 +41,23 @@ for the most common UNIX / Linux / OSX / SunOS commands.
 You can access these pages on your computer using one of the following clients:
 
 - [Node.js client](https://github.com/tldr-pages/tldr-node-client) : `npm install -g tldr`
-- [Python client](https://github.com/tldr-pages/tldr-python-client) : `pip install tldr`
-- [Python client](https://github.com/lord63/tldr.py): `pip install tldr.py`
+- Python clients:
+  - [tldr-python-client](https://github.com/tldr-pages/tldr-python-client) : `pip install tldr`
+  - [tldr.py](https://github.com/lord63/tldr.py): `pip install tldr.py`
 - [Go client](https://github.com/pranavraja/tldr): `go get github.com/pranavraja/tldr`
-  or [platform binaries](https://github.com/pranavraja/tldr/releases)
-- [Elixir client](https://github.com/tldr-pages/tldr_elixir_client): binaries available soon
+  (or [platform binaries](https://github.com/pranavraja/tldr/releases))
+- [Elixir client](https://github.com/tldr-pages/tldr_elixir_client) (binaries not yet available)
 - [C++ client](https://github.com/tldr-pages/tldr-cpp-client): `brew tap tldr-pages/tldr && brew install tldr`
-- Android client:
+- Android clients:
   - [tldr-viewer](https://github.com/gianasista/tldr-viewer), available on
     [Google Play](https://play.google.com/store/apps/details?id=de.gianasista.tldr_viewer)
   - [tldroid](https://github.com/hidroh/tldroid), available on
     [Google Play](https://play.google.com/store/apps/details?id=io.github.hidroh.tldroid)
 - [Ruby client](https://github.com/YellowApple/tldrb): `gem install tldrb`
+- [Rust client](https://github.com/rilut/rust-tldr): `cargo install tldr`
 - [R client](https://github.com/kirillseva/tldrrr): `devtools::install_github('kirillseva/tldrrr')`
-- [Web client](https://github.com/ostera/tldr.js): try tldr on your browser
-  [here](https://ostera.github.io/tldr.js)!
+- [Dart client](https://github.com/hterkelsen/tldr): `pub global activate tldr`
+- [Web client](https://github.com/ostera/tldr.jsx): https://ostera.github.io/tldr.jsx
 
 Let us know if you are building one and we can add it to this list!
 
