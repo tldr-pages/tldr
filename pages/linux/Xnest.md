@@ -2,7 +2,7 @@
 
 > Start a nested x-server
 
-- Start nested x-server as :1 and start a terminal inside
+- Start nested x-server as and start a terminal inside
 
 `Xnest :1 -ac &`
 
