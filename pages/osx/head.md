@@ -4,8 +4,8 @@
 
 - Output the first few lines of a file
 
-`head -n {{count of lines}} {{filename}}`
+`head -n {{count_of_lines}} {{filename}}`
 
 - Output the first few bytes of a file
 
-`head -c {{number in kilobytes}} {{filename}}`
+`head -c {{number_in_bytes}} {{filename}}`
