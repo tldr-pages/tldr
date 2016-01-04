@@ -1,7 +1,7 @@
 # Sass
 
 > Converts SCSS or Sass files to CSS
-> .scss and .sass can be used interchangeably in below examples depending on your preferred syntax
+> .scss and .sass can be used interchangeably in below examples depending on your preference
 
 - Immediately one time convert SCSS or Sass file to CSS
 
