@@ -4,11 +4,11 @@
 
 - Build Workspace (ps: CocoaPods Generate Project)
 
-`xcodebuild -workspace workspacename -scheme schemename -configuration [-configuration configurationname] clean build SYMROOT=(SYMROOT)`
+`xcodebuild -workspace {{YourWorkspace.workspace}} -scheme {{SchemeName}} -configuration {{YourConfiguration}} clean build SYMROOT={{YourSYMROOTPath}}`
 
 - Build Project
 
-`xcodebuild -target targetname -configuration [-configuration configurationname] clean build SYMROOT=(SYMROOT)`
+`xcodebuild -target {{targetname}} -configuration {{YourConfiguration}} clean build SYMROOT={{YourSYMROOTPath}}`
 
 - View Sdks
 
@@ -16,4 +16,4 @@
 
 - xcrun Generate ipa file 
 
-`xcrun -sdk iphoneos PackageApplication -v projectName.app -o ipaName.ipa`
+`xcrun -sdk iphoneos PackageApplication -v {{projectName.app}} -o {{ipaName.ipa}}`
