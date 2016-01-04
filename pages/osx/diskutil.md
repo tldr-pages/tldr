@@ -6,10 +6,6 @@
 
 `diskutil list`
 
-- Repair permissions on a volume
-
-`diskutil repairPermissions {{/Volumes/Name}}`
-
 - Repair the file system data structures of a volume
 
 `diskutil repairVolume {{/dev/diskX}}`
