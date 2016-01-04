@@ -30,3 +30,15 @@
 - ssh enable agent forward
 
 `ssh -A {{username}}@{{remote_host}}`
+
+- use a jump box as a proxy to log in to a server (not accessible from a public subnet)
+
+`ssh -t {{proxy_host}} ssh {{username}}@{{remote_host}}`
+
+- copy your ssh public key to a server for password-less login without ssh-copy-id
+
+`cat ~/.ssh/id_rsa.pub | ssh {{username}}@{{remote_host}} "mkdir ~/.ssh; cat >> ~/.ssh/authorized_keys"`
+
+- execute list of cmds in a cmd.txt file over ssh
+
+```ssh {{username}}@{{remote_host}} {{user}} "`cat cmd.txt`"```
