@@ -1,6 +1,6 @@
 # convmv
 
-> Converts filenames from one encoding to another
+> Converts filenames (NOT file content) from one encoding to another
 
 - convert encoding, dry run (without actually changes filename)
 
