@@ -6,7 +6,7 @@
 
 `gzip {{file.ext}}`
 
-- decompress a file, replacing it with the original uncomrpessed version
+- decompress a file, replacing it with the original uncompressed version
 
 `gzip -d {{file.ext.gz}}`
 
