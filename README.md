@@ -58,6 +58,7 @@ You can access these pages on your computer using one of the following clients:
 - [R client](https://github.com/kirillseva/tldrrr): `devtools::install_github('kirillseva/tldrrr')`
 - [Dart client](https://github.com/hterkelsen/tldr): `pub global activate tldr`
 - [Web client](https://github.com/ostera/tldr.jsx): https://ostera.github.io/tldr.jsx
+- [Perl5 client](https://github.com/shoichikaji/perl-tldr): `cpanm App::tldr`
 
 Let us know if you are building one and we can add it to this list!
 
