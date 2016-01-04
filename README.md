@@ -70,3 +70,9 @@ Let us know if you are building one and we can add it to this list!
 Contributions are most welcome!
 Have a look at the [contributing guidelines](https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md)
 and go ahead!
+
+## Similar projects
+
+- [Cheat](https://github.com/chrisallenlane/cheat) allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind *nix system administrators of options for commands that they use frequently, but not frequently enough to remember.
+
+- [Bro pages](http://bropages.org/) are a highly readable supplement to man pages. Bro pages show concise, common-case examples for Unix commands.
