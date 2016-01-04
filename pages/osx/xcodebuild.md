@@ -16,4 +16,4 @@
 
 - xcrun Generate ipa file 
 
-`xcrun -sdk iphoneos PackageApplication -v {{projectName.app}} -o {{ipaName.ipa}}`
+`xcrun -sdk {{sdk}} PackageApplication -v {{projectName.app}} -o {{ipaName.ipa}}`
