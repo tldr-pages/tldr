@@ -30,6 +30,9 @@ deps:
 	@bundle
 	@echo "OK"
 
+test:
+	@echo "Oops"
+
 lint:
 	@bundle exec mdl --style ./scripts/markdown-style.rb pages
 
