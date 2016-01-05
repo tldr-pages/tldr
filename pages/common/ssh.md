@@ -3,17 +3,13 @@
 > Secure Shell is a protocol used to securely log onto remote systems.
 > It can be used for logging or executing commands on a remote server.
 
-- connecting to a remote server
+- connect to an SSH server
 
 `ssh {{username}}@{{remote_host}}`
 
-- connecting to a remote server with a specific identity (private key)
+- connect on a specific port and with specific key file
 
-`ssh -i {{/path/to/key_file}} {{username}}@{{remote_host}}`
-
-- connecting to a remote server with specific port
-
-`ssh {{username}}@{{remote_host}} -p {{2222}}`
+`ssh -p {{2222}} -i {{/path/to/key_file}} {{remote_host}}`
 
 - run a command on a remote server
 
@@ -21,12 +17,8 @@
 
 - ssh tunneling: dynamic port forwarding (SOCKS proxy on localhost:9999)
 
-`ssh -D {{9999}} -C {{username}}@{{remote_host}}`
+`ssh -D {{9999}} {{remote_host}}`
 
-- ssh tunneling: forward a specific port (localhost:9999 to slashdot.org:80)
+- ssh tunneling: access Slashdot as if on remote_host by connecting to localhost:9999 (To access Slashdot as if on localhost by connecting to remote_host:9999, use -R instead of -L)
 
-`ssh -L {{9999}}:slashdot.org:80 {{username}}@{{remote_host}}`
-
-- ssh enable agent forward
-
-`ssh -A {{username}}@{{remote_host}}`
+`ssh -L {{9999}}:slashdot.org:80 {{remote_host}}`
