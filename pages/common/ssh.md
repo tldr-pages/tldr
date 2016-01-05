@@ -21,11 +21,11 @@
 
 - ssh tunneling: dynamic port forwarding (SOCKS proxy on localhost:9999)
 
-`ssh -D {{9999}} -C {{username}}@{{remote_host}}`
+`ssh -D {{9999}} -C {{username}}@{{remote_host}} -N`
 
 - ssh tunneling: forward a specific port (localhost:9999 to slashdot.org:80)
 
-`ssh -L {{9999}}:slashdot.org:80 {{username}}@{{remote_host}}`
+`ssh -L {{9999}}:slashdot.org:80 {{username}}@{{remote_host}} -N`
 
 - ssh enable agent forward
 
