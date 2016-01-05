@@ -4,7 +4,7 @@
 
 - Check an SSL connection
 
-`openssl s_client -connect {{url}}:443`
+`openssl s_client -connect {{domain}}:{{port}}`
 
 - Generate new private key and CSR
 
