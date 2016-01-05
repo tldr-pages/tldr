@@ -9,7 +9,7 @@
 
 - find the process that opened a local internet port
 
-`lsof -i :{{8080}}`
+`lsof -i :{{port}}`
 
 - only output the process PID (e.g. to pipe into kill)
 
