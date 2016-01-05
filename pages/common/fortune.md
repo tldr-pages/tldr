@@ -6,14 +6,6 @@
 
 `fortune`
 
-- Print a quotation from a given database:
-
-`fortune {{database}}`
-
-- Print a list of quotation databases:
-
-`fortune -f`
-
 - Print an offensive quotation:
 
 `fortune -o`
@@ -25,3 +17,11 @@
 - Print a short quotation:
 
 `fortune -s`
+
+- List the available quotation database files:
+
+`fortune -f`
+
+- Print a quotation from one of the database files listed by `fortune -f`:
+
+`fortune {{filename}}`
