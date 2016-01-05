@@ -14,6 +14,6 @@
 
 `ln -sfT {{path/to/new/original/file}} {{path/to/folder/link}}`
 
-- create a hard link to a file or folder
+- create a hard link to a file
 
 `ln {{path/to/original/file}} {{path/to/link}}`
