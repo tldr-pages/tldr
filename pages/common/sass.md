@@ -1,7 +1,6 @@
 # Sass
 
 > Converts SCSS or Sass files to CSS
-> .scss and .sass can be used interchangeably in below examples depending on your preference
 
 - Output converted file to stdout
 
