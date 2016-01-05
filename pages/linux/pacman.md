@@ -4,7 +4,7 @@
 
 - synchronize and update all packages
 
-`pacman -Syyu`
+`pacman -Syu`
 
 - install a new package
 
