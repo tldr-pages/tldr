@@ -13,7 +13,7 @@
 
 - only output the process PID (e.g. to pipe into kill)
 
-`lsof -t {{/path/to/file}} | xargs kill -9`
+`lsof -t {{/path/to/file}}`
 
 - list files opened by user
 
