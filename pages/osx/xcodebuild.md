@@ -13,7 +13,3 @@
 - View Sdks
 
 `xcodebuild -showsdks`
-
-- xcrun Generate ipa file 
-
-`xcrun -sdk {{sdk}} PackageApplication -v {{projectName.app}} -o {{ipaName.ipa}}`
