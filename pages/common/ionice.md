@@ -1,15 +1,17 @@
 # ionice
 
-> get/set program io scheduling class and priority
+> Get or set program I/O scheduling class and priority.
+> Scheduling classes: 1(realtime), 2(best-effort), 3(idle).
+> Priority levels: 0(the highest) - 7(the lowest).
 
-- sets process with PID 89 as an idle io process
+- Set I/O scheduling class of a running process
 
-`ionice -c 3 -p 89`
+`ionice -c {{scheduling_class}} -p {{pid}}`
 
-- runs 'bash' as a best-effort program with highest priority
+- Run a command with altered I/O scheduling class and priority
 
-`ionice -c 2 -n 0 bash`
+`ionice -c {{scheduling_class}} -n {{priority}} {{command}}`
 
-- prints the class and priority of the processes with PID 89
+- Print the I/O scheduling class and priority of a running process
 
-`ionice -p 89`
+`ionice -p {{pid}}`
