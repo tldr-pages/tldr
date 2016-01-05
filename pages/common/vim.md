@@ -1,6 +1,6 @@
 # vim
 
-> Vi IMproved, a programmers text editor
+> Vi IMproved, a programmer's text editor
 
 - open a file with cursor at the given line number
 
