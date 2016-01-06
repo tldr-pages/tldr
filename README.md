@@ -47,7 +47,7 @@ You can access these pages on your computer using one of the following clients:
 - [Go client](https://github.com/pranavraja/tldr): `go get github.com/pranavraja/tldr`
   (or [platform binaries](https://github.com/pranavraja/tldr/releases))
 - [Elixir client](https://github.com/tldr-pages/tldr_elixir_client) (binaries not yet available)
-- [C++ client](https://github.com/tldr-pages/tldr-cpp-client): `brew tap tldr-pages/tldr && brew install tldr`
+- [C++ client](https://github.com/tldr-pages/tldr-cpp-client): `brew install tldr-pages/tldr/tldr`
 - Android clients:
   - [tldr-viewer](https://github.com/gianasista/tldr-viewer), available on
     [Google Play](https://play.google.com/store/apps/details?id=de.gianasista.tldr_viewer)
