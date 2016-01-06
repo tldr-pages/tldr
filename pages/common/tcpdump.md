@@ -14,9 +14,9 @@
 
 `tcpdump host {{www.example.com}}`
 
-- capture the traffic from a specific interface, source, destination and port
+- capture the traffic from a specific interface, source, destination and destination port
 
-`tcpdump -i {{eth0}} src {{192.168.1.1}} dest {{192.168.1.2}} and port 80`
+`tcpdump -i {{eth0}} src {{192.168.1.1}} and dst {{192.168.1.2}} and dst port 80`
 
 - capture the traffic of a network
 
