@@ -7,16 +7,16 @@ Contribution are most welcome! All `tldr` pages are stored in Markdown right her
 ## Guidelines
 
 Note that `tldr` is focused on concrete examples.
-Here's a few guidelines to get started:
+Here are a few guidelines to get started:
 
 1. Focus on the 5 or 6 most common usages. It's OK if the page doesn't cover everything; that's what `man` is for.
 2. When in doubt, keep new command-line users in mind. Err on the side of clarity rather than terseness.
 3. Try to incorporate the spelled-out version of single-letter options in the example's description.
 4. Introduce options gradually, starting with the simplest commands and using more complex examples progressively.
 5. Use short but descriptive values for the tokens, ex. `{{source_file}}` or `{{wallet.txt}}`.
-6. Be specific: avoid explaining general UNIX concepts that could apply to any command (ex: relative/absolute paths, brace expansion, character escaping...)
+6. Be specific: avoid explaining general UNIX concepts that could apply to any command (ex: relative/absolute paths, brace expansion, character escaping...).
 
-The best way to be consistent is to have a look at a few existing pages :)
+The best way to be consistent is to have a look at a few existing pages :).
 
 ## Markdown format
 
@@ -25,21 +25,35 @@ The format of each page should match the following:
 ```
 # command-name
 
-> Short description
-> Max 1 or 2 lines
+> Short, snappy description.
+> Preferably one line, we can work with two.
 
-- example description
+- Example description:
 
 `command -opt1 -opt2 -arg1 {{arg_value}}`
 
-- example description
+- Example description:
 
 `command -opt1 -opt2`
 ```
 
-User-provided values should use the `{{token}}` syntax, to allow clients to highlight them. For example: `tar cf {{file}}`
+### Token Syntax
+User-provided values should use the `{{token}}` syntax in order to allow clients
+to highlight them. 
 
-One of the reasons for this format is that it's well suited for command-line clients that need to extract a single description/example.
+Some examples: 
+- `tar cf {{file}}`
+- `ln -s {{path/to/original/file}} {{path/to/link}}`
+- `mysql {{database_name}}`
+- `unrar x {{compressed.rar}}`
+
+In short, make it as intuitive as possible for the user to figure out how to use
+the command and fill it in with values. Stick to `snake_case` where possible. In
+some situations a command works with typical file extensions (like the `unrar`
+example above); you are encouraged to add these for demonstration.
+
+One of the reasons for this format is that it's well suited for command-line
+clients that need to extract a single description/example.
 
 ## Submitting a pull request
 
