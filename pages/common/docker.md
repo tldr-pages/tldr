@@ -18,3 +18,11 @@
 - Stop a container
 
 `docker stop {{container}}`
+
+- Start a container from an image and get a shell inside of it
+
+`docker run -it {{image}} bash`
+
+- Run a command inside of an already running container
+
+`docker exec {{container}} {{command}}`

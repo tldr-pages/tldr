@@ -2,7 +2,7 @@
 
 > Change a file access and modification times (atime, mtime)
 
-- Create a new empty file(s) or change the times for existing file(s) to current time.
+- Create a new empty file(s) or change the times for existing file(s) to current time
 
 `touch {{filename}}`
 

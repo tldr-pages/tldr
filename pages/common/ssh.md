@@ -17,7 +17,7 @@
 
 - run a command on a remote server
 
-`ssh {{remote_host}} "{{command -with -flags}}"`
+`ssh {{remote_host}} {{command -with -flags}}`
 
 - ssh tunneling: dynamic port forwarding (SOCKS proxy on localhost:9999)
 

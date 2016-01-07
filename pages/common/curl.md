@@ -5,7 +5,7 @@
 
 - Download a URL to a file
 
-`curl "{{URL}}" -o filename`
+`curl "{{URL}}" -o {{filename}}`
 
 - send form-encoded data
 

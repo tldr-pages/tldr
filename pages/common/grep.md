@@ -23,6 +23,10 @@
 
 `grep -c {{something}} {{file_path}}`
 
+- print line number for each match
+
+`grep -n {{something}} {{file_path}}`
+
 - use the standard input instead of a file
 
 `cat {{file_path}} | grep {{something}}`

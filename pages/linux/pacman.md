@@ -4,7 +4,7 @@
 
 - synchronize and update all packages
 
-`pacman -Syyu`
+`pacman -Syu`
 
 - install a new package
 
@@ -25,3 +25,11 @@
 - list only the explicitly installed packages and versions
 
 `pacman -Qe`
+
+- find which package owns a certain file
+
+`pacman -Qo filename`
+
+- empty package cache to free up space
+
+`pacman -Scc`
