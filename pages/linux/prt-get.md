@@ -1,6 +1,6 @@
 # prt-get
 
-> The advanced CRUX package manager 
+> The advanced CRUX package manager
 
 - install a package
 
@@ -14,11 +14,11 @@
 
 `prt-get upgrade {{package-name}}`
 
-- remove a package 
+- remove a package
 
 `prt-get remove {{package-name}}`
 
-- upgrade the system from the local ports tree 
+- upgrade the system from the local ports tree
 
 `prt-get sysup`
 

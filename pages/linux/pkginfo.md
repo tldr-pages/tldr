@@ -10,7 +10,7 @@
 
 `pkginfo -l {{package-name}}`
 
-- list the owner(s) of a file matching a pattern
+- list the owner(s) of files matching a pattern
 
 `pkginfo -o {{pattern}}`
 

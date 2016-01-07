@@ -6,10 +6,6 @@
 
 `pkgadd {{package-name}}`
 
-- update a already installed package from a local package
+- update an already installed package from a local package
 
 `pkgadd -u {{package-name}}`
-
-- force installation of a package
-
-`pkgadd -f {{package-name}}`

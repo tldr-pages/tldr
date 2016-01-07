@@ -10,7 +10,7 @@
 
 `pkgmk -d -i`
 
-- upgrade the package after making it 
+- upgrade the package after making it
 
 `pkgmk -d -u`
 
