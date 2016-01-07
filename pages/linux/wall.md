@@ -1,16 +1,16 @@
 # wall
 
-> write a message on the terminals of users currently logged in
-> only available to super-user
+> Write a message on the terminals of users currently logged in.
+> Only available to super-user.
 
-- send a message
+- Send a message:
 
 `echo "{{message}}" | wall`
 
-- send a message from a file
+- Send a message from a file:
 
 `wall {{file}}`
 
-- send a message with timeout (default 300)
+- Send a message with timeout (default 300):
 
 `wall -t {{seconds}} {{file}}`

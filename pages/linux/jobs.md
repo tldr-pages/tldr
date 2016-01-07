@@ -2,26 +2,26 @@
 
 > BASH builtin for viewing information about processes spawned by the current shell.
 
-- view jobs spawned by the current shell
+- View jobs spawned by the current shell:
 
 `jobs`
 
-- list jobs and their process ids
+- List jobs and their process ids:
 
 `jobs -l`
 
-- display information about jobs with changed status
+- Display information about jobs with changed status:
 
 `jobs -n`
 
-- display process id of process group leader
+- Display process id of process group leader:
 
 `jobs -p`
 
-- display running processes
+- Display running processes:
 
 `jobs -r`
 
-- display stopped processes
+- Display stopped processes:
 
 `jobs -s`

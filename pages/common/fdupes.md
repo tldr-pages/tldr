@@ -1,20 +1,20 @@
 # fdupes
 
-> Finds duplicate files in a given
-> set of directories
+> Finds duplicate files in a given.
+> Set of directories.
 
-- search a single directory
+- Search a single directory:
 
 `fdupes {{directory}}`
 
-- search multiple directories
+- Search multiple directories:
 
 `fdupes {{directory1}} {{directory2}}`
 
-- search all directories recursively
+- Search all directories recursively:
 
 `fdupes -r {{directory}}`
 
-- search multiple directories, one recursively
+- Search multiple directories, one recursively:
 
 `fdupes {{directory1}} -R {{directory2}}`

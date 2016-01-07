@@ -1,7 +1,7 @@
 # zbarimg
 
-> scan and decode bar codes from image file(s)
+> Scan and decode bar codes from image file(s).
 
-- process an image file
+- Process an image file:
 
 `zbarimg {{image file}}`

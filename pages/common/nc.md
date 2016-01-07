@@ -1,31 +1,31 @@
 # nc
 
-> reads and writes tcp or udp data
+> Reads and writes tcp or udp data.
 
-- listen on a specified port
+- Listen on a specified port:
 
 `nc  -l {{port}}`
 
-- connect to a certain port (you can then write to this port)
+- Connect to a certain port (you can then write to this port):
 
 `nc {{ip_address}} {{port}}`
 
-- set a timeout
+- Set a timeout:
 
 `nc -w {{timeout_in_seconds}} {{ipaddress}} {{port}}`
 
-- serve a file
+- Serve a file:
 
 `cat somefile.txt | nc -l {{port}}`
 
-- receive a file
+- Receive a file:
 
 `nc {{ip_address}} {{port}} > somefile.txt`
 
-- server stay up after client detach
+- Server stay up after client detach:
 
 `nc -k -l {{port}}`
 
-- client stay up after EOF
+- Client stay up after EOF:
 
 `nc -q {{timeout}} {{ip_address}}`

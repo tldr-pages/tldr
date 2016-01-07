@@ -1,15 +1,15 @@
 # Gradle
 
-> Gradle is the official build system for Android Studio
+> Gradle is the official build system for Android Studio.
 
-- Compile a package
+- Compile a package:
 
 `gradle build`
 
-- Clear the build folder
+- Clear the build folder:
 
 `gradle clean`
 
-- Compile and Release package
+- Compile and Release package:
 
 `gradle assembleRelease`
