@@ -10,6 +10,10 @@
 
 `{{arguments_null_terminated}} | xargs -0 {{command}}`
 
-- example: list unneeded packages with deborphan and remove them with apt-get
+- find all zip files and extract with unzip function
 
-`sudo deborphan | xargs sudo apt-get remove`
+`find . -type f -name "*.zip" | xargs unzip`
+
+- find all text files containing the string 'foo'
+
+`find . -name '*.txt' | xargs grep 'foo'`
