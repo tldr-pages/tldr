@@ -14,9 +14,8 @@
 
 `zpool import`
 
-- Import a zpool, optionally specifying a new name
+- Import a zpool(optionally specifying a new name)
 
-`zpool import {{poolname}}`
 `zpool import {{poolname}} {{newpoolname}}`
 
 - Export a zpool (unmount all filesystems)
@@ -30,4 +29,3 @@
 - Create a mirrored pool.
 
 `zpool create {{poolname}} mirror {{disk1}} {{disk2}}`
-`zpool create {{poolname}} mirror {{disk1}} {{disk2}} mirror {{disk3}} {{disk4}}`
