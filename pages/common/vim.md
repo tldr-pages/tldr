@@ -1,19 +1,19 @@
 # vim
 
-> Vi IMproved, a programmer's text editor
+> Vi IMproved, a programmer's text editor.
 
-- open a file with cursor at the given line number
+- Open a file with cursor at the given line number:
 
 `vim {{file}} +{{linenumber}}`
 
-- open multiple files at once, each file in it's own tab page
+- Open multiple files at once, each file in it's own tab page:
 
 `vim -p {{file1}} {{file2}} {{file3}}`
 
-- open a file in read-only mode
+- Open a file in read-only mode:
 
 `view {{file}}`
 
-- exiting vim
+- Exiting vim:
 
 `[Esc] (to switch to normal mode), then :q`

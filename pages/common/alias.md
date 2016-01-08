@@ -1,24 +1,24 @@
 # alias
 
-> Creates an alias for a word when used
-> as the first word of a command
+> Creates an alias for a word when used.
+> As the first word of a command.
 
-- creating a generic alias
+- Creating a generic alias:
 
 `alias {{word}}="{{command}}"`
 
-- remove an aliased command
+- Remove an aliased command:
 
 `unalias {{word}}`
 
-- full list of aliased words
+- Full list of aliased words:
 
 `alias -p`
 
-- turning rm an interative command
+- Turning rm an interative command:
 
 `alias {{rm}}="{{rm -i}}"`
 
-- overriding la as ls -a
+- Overriding la as ls -a:
 
 `alias {{la}}="{{ls -a}}"`

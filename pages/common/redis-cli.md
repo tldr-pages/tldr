@@ -1,20 +1,20 @@
 # redis-cli
 
-> Opens a connection to a Redis server
+> Opens a connection to a Redis server.
 
-- Connect to the local server
+- Connect to the local server:
 
 `redis-cli`
 
-- Connect to a remote server
+- Connect to a remote server:
 
 `redis-cli -h {{host}}`
 `redis-cli -h {{host}} -p {{port}}`
 
-- Specify a password
+- Specify a password:
 
 `redis-cli -a {{password}}`
 
-- Executes Redis command
+- Executes Redis command:
 
 `redis-cli {{redis command}}`

@@ -3,18 +3,18 @@
 > Create, list, delete or verify tags.
 > Tag is reference to specific commit.
 
-- List all tags
+- List all tags:
 
 `git tag`
 
-- Create a tag with the given name pointing to the current commit
+- Create a tag with the given name pointing to the current commit:
 
 `git tag {{tag_name}}`
 
-- Create a tag with the given message
+- Create a tag with the given message:
 
 `git tag {{tag_name}} -m {{tag_message}}`
 
-- Delete the tag with the given name
+- Delete the tag with the given name:
 
 `git tag -d {{tag_name}}`

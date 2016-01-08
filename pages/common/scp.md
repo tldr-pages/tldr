@@ -1,32 +1,30 @@
 # scp
 
-> Copies files between hosts on a network
-> Works over a secure connection (SSH)
+> Copies files between hosts on a network.
+> Works over a secure connection (SSH).
 
-- upload a file, or upload and rename a file
+- Upload a file, or upload and rename a file:
 
 `scp {{/local/file.txt}} {{10.0.0.1}}:{{/remote/path/}}`
-
 `scp {{/local/file.txt}} {{10.0.0.1}}:{{/remote/path/newname.txt}}`
 
-- download a file
+- Download a file:
 
 `scp {{10.0.0.1}}:{{/remote/path/file.txt}} {{/local/folder}}`
 
-- upload or download a directory
+- Upload or download a directory:
 
 `scp -r {{/local/folder}} {{10.0.0.1}}:{{/remote/path/}}`
-
 `scp -r {{10.0.0.1}}:{{/remote/path}} {{/local/folder}}`
 
-- specify username on host
+- Specify username on host:
 
 `scp {{/local/file.txt}} {{my_user}}@{{10.0.0.1}}:{{/remote/path}}`
 
-- copy a file from one host to another
+- Copy a file from one host to another:
 
 `scp {{10.0.0.1}}:{{/remote/path/file.txt}} {{20.0.0.2}}:{{/other/remote/path}}`
 
-- download a file with ssh key
+- Download a file with ssh key:
 
 `scp -i {{/local/key}} {{10.0.0.1}}:{{/remote/path/file.txt}} {{/local/folder}}`

@@ -1,23 +1,23 @@
 # findmnt
 
-> Find your filesystem
+> Find your filesystem.
 
-- List all mounted filesystems
+- List all mounted filesystems:
 
 `findmnt`
 
-- Search for a device
+- Search for a device:
 
 `findmnt {{/dev/sdb1}}`
 
-- Search for a mountpoint
+- Search for a mountpoint:
 
 `findmnt {{/}}`
 
-- Find filesystems in specific type
+- Find filesystems in specific type:
 
 `findmnt -t {{ext4}}`
 
-- Find filesystems with specific label
+- Find filesystems with specific label:
 
 `findmnt LABEL={{BigStorage}}`

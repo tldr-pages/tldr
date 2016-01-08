@@ -1,19 +1,19 @@
 # dpkg
 
-> debian package manager
+> Debian package manager.
 
-- install a package
+- Install a package:
 
 `dpkg -i {{/path/to/file}}`
 
-- remove a package
+- Remove a package:
 
 `dpkg -r {{package_name}}`
 
-- list installed packages
+- List installed packages:
 
 `dpkg -l {{pattern}}`
 
-- list package contents
+- List package contents:
 
 `dpkg -L {{package_name}}`

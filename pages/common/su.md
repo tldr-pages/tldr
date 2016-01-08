@@ -1,6 +1,6 @@
 # su
 
-> switch shell to another user
+> Switch shell to another user.
 
 - Switch to user {{username}} (password required):
 

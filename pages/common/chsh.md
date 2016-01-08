@@ -1,7 +1,7 @@
 # chsh
 
-> Change user's login shell
+> Change user's login shell.
 
-- change shell
+- Change shell:
 
 `chsh -s {{path/to/shell_binary}} {{username}}`
