@@ -63,6 +63,7 @@ You can access these pages on your computer using one of the following clients:
 - [Perl5 client](https://github.com/shoichikaji/perl-tldr): `cpanm App::tldr`
 - [Emacs client](https://github.com/kuanyui/tldr.el)
 - [Bash client](https://github.com/raylee/tldr)
+- [Crystal client](https://github.com/porras/tlcr): `brew install porras/tap/tlcr`
 
 Let us know if you are building one and we can add it to this list!
 
