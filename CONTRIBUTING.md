@@ -26,7 +26,7 @@ The format of each page should match the following:
 # command-name
 
 > Short, snappy description.
-> Preferably one line, we can work with two.
+> Preferably one line; two are acceptable if necessary.
 
 - Example description:
 
@@ -47,10 +47,11 @@ Some examples:
 - `mysql {{database_name}}`
 - `unrar x {{compressed.rar}}`
 
-In short, make it as intuitive as possible for the user to figure out how to use
-the command and fill it in with values. Stick to `snake_case` where possible. In
-some situations a command works with typical file extensions (like the `unrar`
-example above); you are encouraged to add these for demonstration.
+In short, make it as intuitive as possible for the user to figure out
+how to use the command and fill it in with values.
+Stick to [`snake_case`](https://en.wikipedia.org/wiki/Snake_case) where possible.
+In some situations a command works with typical file extensions
+(like the `unrar` example above); you are encouraged to add these for demonstration.
 
 One of the reasons for this format is that it's well suited for command-line
 clients that need to extract a single description/example.
