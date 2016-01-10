@@ -1,6 +1,7 @@
 # lsof
 
-> Lists open files and the corresponding processes.
+> Lists open files and the corresponding processes
+> Note: In most cases, you need root privilege (or use sudo) because you want to list files opened by others
 
 - Find the processes that have a given file open:
 
@@ -8,8 +9,16 @@
 
 - Find the process that opened a local internet port:
 
-`lsof -i :{{8080}}`
+`lsof -i :{{port}}`
 
-- Only output the process PID (e.g. to pipe into kill):
+- only output the process PID
 
-`lsof -t {{/path/to/file}} | xargs kill -9`
+`lsof -t {{/path/to/file}}`
+
+- list files opened by the given user
+
+`lsof -u {{username}}`
+
+- list files opened by the given command or process
+
+`lsof -c {{process_or_command_name}}`
