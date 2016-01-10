@@ -11,7 +11,7 @@
 
 `lsof -i :{{port}}`
 
-- only output the process PID (e.g. to pipe into kill)
+- only output the process PID
 
 `lsof -t {{/path/to/file}}`
 
@@ -19,6 +19,6 @@
 
 `lsof -u {{username}}`
 
-- list files opened by the given command or process (e.x nginx)
+- list files opened by the given command or process
 
 `lsof -c {{process_or_command_name}}`
