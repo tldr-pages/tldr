@@ -2,11 +2,11 @@
 
 > The Silver Searcher. Like ack, but faster.
 
-- Find files containing "foo"
+- Find files containing "foo":
 
 `ag foo`
 
-- Find "foo" in files with a name matching "bar"
+- Find "foo" in files with a name matching "bar":
 
 `ag foo -G bar`
 
@@ -14,6 +14,6 @@
 
 `ag '^ba(r|z)$'`
 
-- Find files with a name matching "foo"
+- Find files with a name matching "foo":
 
 `ag -g foo`

@@ -3,11 +3,11 @@
 > Lists open files and the corresponding processes
 > Note: In most cases, you need root privilege (or use sudo) because you want to list files opened by others
 
-- find the processes that have a given file open
+- Find the processes that have a given file open:
 
 `lsof {{/path/to/file}}`
 
-- find the process that opened a local internet port
+- Find the process that opened a local internet port:
 
 `lsof -i :{{port}}`
 

@@ -47,17 +47,23 @@ You can access these pages on your computer using one of the following clients:
 - [Go client](https://github.com/pranavraja/tldr): `go get github.com/pranavraja/tldr`
   (or [platform binaries](https://github.com/pranavraja/tldr/releases))
 - [Elixir client](https://github.com/tldr-pages/tldr_elixir_client) (binaries not yet available)
-- [C++ client](https://github.com/tldr-pages/tldr-cpp-client): `brew tap tldr-pages/tldr && brew install tldr`
+- [C++ client](https://github.com/tldr-pages/tldr-cpp-client): `brew install tldr-pages/tldr/tldr`
 - Android clients:
   - [tldr-viewer](https://github.com/gianasista/tldr-viewer), available on
     [Google Play](https://play.google.com/store/apps/details?id=de.gianasista.tldr_viewer)
   - [tldroid](https://github.com/hidroh/tldroid), available on
     [Google Play](https://play.google.com/store/apps/details?id=io.github.hidroh.tldroid)
 - [Ruby client](https://github.com/YellowApple/tldrb): `gem install tldrb`
-- [Rust client](https://github.com/rilut/rust-tldr): `cargo install tldr`
+- Rust clients:
+    - [rust-tldr](https://github.com/rilut/rust-tldr) (online lookup): `cargo install tldr`
+    - [tldr-rs](https://github.com/dbrgn/tldr-rs) (offline caching, not yet published)
 - [R client](https://github.com/kirillseva/tldrrr): `devtools::install_github('kirillseva/tldrrr')`
 - [Dart client](https://github.com/hterkelsen/tldr): `pub global activate tldr`
 - [Web client](https://github.com/ostera/tldr.jsx): https://ostera.github.io/tldr.jsx
+- [Perl5 client](https://github.com/shoichikaji/perl-tldr): `cpanm App::tldr`
+- [Emacs client](https://github.com/kuanyui/tldr.el)
+- [Bash client](https://github.com/raylee/tldr)
+- [Crystal client](https://github.com/porras/tlcr): `brew install porras/tap/tlcr`
 
 Let us know if you are building one and we can add it to this list!
 
@@ -69,3 +75,9 @@ Let us know if you are building one and we can add it to this list!
 Contributions are most welcome!
 Have a look at the [contributing guidelines](https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md)
 and go ahead!
+
+## Similar projects
+
+- [Cheat](https://github.com/chrisallenlane/cheat) allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind *nix system administrators of options for commands that they use frequently, but not frequently enough to remember.
+
+- [Bro pages](http://bropages.org/) are a highly readable supplement to man pages. Bro pages show concise, common-case examples for Unix commands.

@@ -1,19 +1,19 @@
 # traceroute
 
-> Print the route packets trace to network host
+> Print the route packets trace to network host.
 
-- Traceroute to a host
+- Traceroute to a host:
 
 `traceroute {{host}}`
 
-- Disable IP address and host name mapping
+- Disable IP address and host name mapping:
 
 `traceroute -n {{host}}`
 
-- Specify wait time for response
+- Specify wait time for response:
 
 `traceroute -w 0.5 {{host}}`
 
-- Specify number of queries per hop
+- Specify number of queries per hop:
 
 `traceroute -q 5 {{host}}`

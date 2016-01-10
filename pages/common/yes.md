@@ -1,11 +1,11 @@
 # yes
 
-> Output something repeatedly
+> Output something repeatedly.
 
-- Repeatedly output "message"
+- Repeatedly output "message":
 
 `yes {{message}}`
 
-- Repeatedly output "y"
+- Repeatedly output "y":
 
 `yes`

@@ -7,16 +7,16 @@ Contribution are most welcome! All `tldr` pages are stored in Markdown right her
 ## Guidelines
 
 Note that `tldr` is focused on concrete examples.
-Here's a few guidelines to get started:
+Here are a few guidelines to get started:
 
 1. Focus on the 5 or 6 most common usages. It's OK if the page doesn't cover everything; that's what `man` is for.
 2. When in doubt, keep new command-line users in mind. Err on the side of clarity rather than terseness.
 3. Try to incorporate the spelled-out version of single-letter options in the example's description.
 4. Introduce options gradually, starting with the simplest commands and using more complex examples progressively.
 5. Use short but descriptive values for the tokens, ex. `{{source_file}}` or `{{wallet.txt}}`.
-6. Be specific: avoid explaining general UNIX concepts that could apply to any command (ex: relative/absolute paths, brace expansion, character escaping...)
+6. Be specific: avoid explaining general UNIX concepts that could apply to any command (ex: relative/absolute paths, brace expansion, character escaping...).
 
-The best way to be consistent is to have a look at a few existing pages :)
+The best way to be consistent is to have a look at a few existing pages :).
 
 ## Markdown format
 
@@ -25,21 +25,36 @@ The format of each page should match the following:
 ```
 # command-name
 
-> Short description
-> Max 1 or 2 lines
+> Short, snappy description.
+> Preferably one line; two are acceptable if necessary.
 
-- example description
+- Example description:
 
 `command -opt1 -opt2 -arg1 {{arg_value}}`
 
-- example description
+- Example description:
 
 `command -opt1 -opt2`
 ```
 
-User-provided values should use the `{{token}}` syntax, to allow clients to highlight them. For example: `tar cf {{file}}`
+### Token Syntax
+User-provided values should use the `{{token}}` syntax in order to allow clients
+to highlight them. 
 
-One of the reasons for this format is that it's well suited for command-line clients that need to extract a single description/example.
+Some examples: 
+- `tar cf {{file}}`
+- `ln -s {{path/to/original/file}} {{path/to/link}}`
+- `mysql {{database_name}}`
+- `unrar x {{compressed.rar}}`
+
+In short, make it as intuitive as possible for the user to figure out
+how to use the command and fill it in with values.
+Stick to [`snake_case`](https://en.wikipedia.org/wiki/Snake_case) where possible.
+In some situations a command works with typical file extensions
+(like the `unrar` example above); you are encouraged to add these for demonstration.
+
+One of the reasons for this format is that it's well suited for command-line
+clients that need to extract a single description/example.
 
 ## Submitting a pull request
 
@@ -82,7 +97,7 @@ Detailed explanation:
    git checkout -b <topic-branch-name>
    ```
 
-5. Run `make lint` to check that your page(s) are correct.
+5. Run `make lint` to check that your page(s) are correct. Try to run the commands you are describing to ensure the syntax is correct.
 
 6. Please use the following commit message format: 
    `<command>: type of change`.
@@ -102,15 +117,31 @@ Detailed explanation:
 
 8. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/)
     with a clear title and description.
+    
+    If page is not about a standard Unix/Linux tool, please include a link to the tool home page.
+    
+    If you are changing something non-trivial, not just adding a page for a new tool, please describe why you are doing this.
 
 9. Use Git's
    [interactive rebase](https://help.github.com/articles/interactive-rebase)
    feature to tidy up your commits before making them public.
+   
+   If you are not familiar with `git rebase`, it might be helpful to check out these video tutorials:
+   - [Git Rebase: squash last commits](https://www.youtube.com/watch?v=qh9KtjfjzCU)
+   - [Learning Git Tutorial: Interactive Rebasing](https://www.youtube.com/watch?v=NW46XmvJh5Q)
+   
    In most cases it is better to squash commits before submitting a pull request.
 
-10. If you are asked to amend your changes before they can be merged in, please
-   use `git commit --amend` and force push to your remote feature branch.
-   You may also be asked to squash commits.
+10. If you do not want to do a rebasing, you can overwrite your last commit in pull request, while you have only a single commit. You can achieve this with `git commit --amend` command.
+
+   ```bash
+   # When you are on topic branch of your pull request
+   # Fix your files
+   
+   git add .              # Register edited files
+   git commit --amend     # Do amended commit
+   git push --force       # Overwrite your branch
+   ```
 
 
 ## Licensing

@@ -1,12 +1,12 @@
 # kill
 
-> Sends a signal to a process
-> Mostly used for stopping processes
+> Sends a signal to a process.
+> Mostly used for stopping processes.
 
-- kill the process
+- Kill the process:
 
 `kill {{process_id}}`
 
-- list signal names
+- List signal names:
 
 `kill -l`

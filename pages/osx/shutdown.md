@@ -1,19 +1,19 @@
 # shutdown
 
-> Shutdown and reboot the system
+> Shutdown and reboot the system.
 
-- Power off (halt) immediately
+- Power off (halt) immediately:
 
 `shutdown -h now`
 
-- Sleep immediately
+- Sleep immediately:
 
 `shutdown -s now`
 
-- Reboot immediately
+- Reboot immediately:
 
 `shutdown -r now`
 
-- Reboot in 5 minutes
+- Reboot in 5 minutes:
 
 `shutdown -r +{{5}}`
