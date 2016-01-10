@@ -17,3 +17,19 @@
 - Test configuration without affecting the running server:
 
 `nginx -t`
+
+- Reload configuration, gracefully shut down old worker processes
+
+`nginx -s reload`
+
+- Shut down quickly
+
+`nginx -s stop`
+
+- Shut down gracefully
+
+`nginx -s quit`
+
+- Reopen log files
+
+`nginx -s reopen`
