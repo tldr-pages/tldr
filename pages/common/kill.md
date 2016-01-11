@@ -15,7 +15,7 @@
 
 `kill [-1][-SIGHUP] {{process_id}}`
 
-- [ctrl]-c
+- interrupt, program can handle SIGINT
 
 `kill [-2][-SIGINT] {{process_id}}`
 
@@ -27,6 +27,6 @@
 
 `kill [-15][-SIGTERM] {{process_id}}`
 
-- [ctrl]-z
+- stop program 
 
 `kill [-17][-SIGSTOP] {{process_id}}`
