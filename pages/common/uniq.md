@@ -10,10 +10,10 @@
 
 `uniq -c {{file}}`
 
-- Display each duplicate line once.
+- Display only duplicate lines.
 
 `uniq -d {{file}}`
 
-- Display unique lines.
+- Display only unique lines.
 
 `uniq -u {{file}}`
