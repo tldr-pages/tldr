@@ -6,15 +6,15 @@
 
 `yaourt -Syua`
 
-- install a new package
+- install a new package (including AUR packages)
 
 `yaourt -S package-name`
 
-- remove a package and its dependencies
+- remove a package and its dependencies (including AUR packages)
 
 `yaourt -Rs package-name`
 
-- search the package database for a keyword
+- search the package database for a keyword (including AUR)
 
 `yaourt -Ss package-name`
 
