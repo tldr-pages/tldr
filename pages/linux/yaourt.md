@@ -20,4 +20,4 @@
 
 - list installed packages, versions, and repositories (AUR packages will be listed under the repository name 'local')
 
-`pacman -Q`
+`yaourt -Q`
