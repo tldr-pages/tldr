@@ -8,3 +8,6 @@
 # bundler specific
 .gem
 .bundle
+
+# npm specific
+node_modules

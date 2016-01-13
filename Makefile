@@ -19,6 +19,7 @@ prerequisites:
 	@echo "TL;DR:"
 	@echo "1. Install Ruby suitable for your system"
 	@echo "2. Run 'gem install bundler'"
+	@echo "3. Install npm for your system"
 	@echo
 
 hooks:
@@ -28,9 +29,11 @@ hooks:
 
 deps:
 	@bundle
+	@npm install tldr-lint
 	@echo "OK"
 
 lint:
 	@bundle exec mdl --style ./scripts/markdown-style.rb pages
+	@`pwd`/node_modules/.bin/tldr-lint ./pages
 
 .PHONY: default index setup prerequisites hooks deps lint
