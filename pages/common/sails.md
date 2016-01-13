@@ -2,22 +2,22 @@
 
 > Sails.js is a realtime enterprise level MVC framework built on top of Node.js.
 
-- Start Sails
+- Start Sail:
 
 `sails lift`
 
-- Create new Sails project
+- Create new Sails projec:
 
 `sails new {{projectName}}`
 
-- Generate Sails API
+- Generate Sails AP:
 
 `sails generate {{name}}`
 
-- Generate Sails Controller
+- Generate Sails Controlle:
 
 `sails generate controller {{name}}`
 
-- Generate Sails Model
+- Generate Sails Mode:
 
 `sails generate model {{name}}`
