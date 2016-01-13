@@ -12,7 +12,7 @@
 
 - Default escape character:
 
-`CTRL` + `]`
+`CTRL + ]`
 
 - Specify an escape character (x is the escape character):
 
