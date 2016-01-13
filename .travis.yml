@@ -12,7 +12,7 @@ install:
 - . $HOME/.nvm/nvm.sh
 - nvm install 5.0
 - nvm use 5.0
-- npm install tldr-lint
+- npm install rubenvereecken/tldr-lint
 
 gemfile:
 - Gemfile
