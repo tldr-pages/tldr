@@ -34,7 +34,7 @@ deps:
 	@echo "OK"
 
 lint:
-	@bundle exec mdl --style ./scripts/markdown-style.rb pages
 	@`pwd`/node_modules/.bin/tldr-lint ./pages
+	@bundle exec mdl --style ./scripts/markdown-style.rb pages
 
 .PHONY: default index setup prerequisites hooks deps lint
