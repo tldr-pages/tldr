@@ -15,7 +15,7 @@
 
 `autossh -f -M {{monitor_port}} -N {{ssh_command}}`
 
-- Run autossh in the background, with no monitoring port instead relying on SSH keep-alives every 10secs to detect failure:
+- Run autossh in the background, with no monitoring port, instead relying on SSH keep-alives every 10 seconds to detect failure:
 
 `autossh -f -M 0 -N -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3"  {{ssh_command}}`
 
@@ -23,6 +23,6 @@
 
 `autossh -f -M 0 -N -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3" -o ExitOnForwardFailure=yes -L {{local_port}}:localhost:{{remote_port}} {{user}}@{{host}}`
 
-- Run autossh in the background with debug output logged to a file, ssh verbose output logged to a second file:
+- Run autossh in the background with debug output logged to a file and ssh verbose output logged to a second file:
 
 `AUTOSSH_DEBUG=1 AUTOSSH_LOGFILE={{log_file}} autossh -f -M {{monitor_port}} -v -E {{ssh_logfile}} {{ssh_command}}`
