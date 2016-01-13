@@ -2,10 +2,10 @@
 
 > Run command or interactive shell with special root directory.
 
-- Run command as new root directory
+- Run command as new root director:
 
 `chroot {{/path/to/new/root}} {{command}}`
 
-- specify user and group (ID or name) to use
+- Specify user and group (ID or name) to us:
 
 `chroot −−userspec={{user:group}}`

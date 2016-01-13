@@ -1,27 +1,27 @@
 # lsblk
 
-> lists information about devices
+> Lists information about devices.
 
-- list all storage devices in a tree-like format.
+- List all storage devices in a tree-like format:
 
 `lsblk`
 
-- Also list empty devices.
+- Also list empty devices:
 
 `lsblk −a`
 
-- Print the SIZE column in bytes rather than in a human-readable format.
+- Print the SIZE column in bytes rather than in a human-readable format:
 
 `lsblk −b`
 
-- Output info about filesystems.
+- Output info about filesystems:
 
 `lsblk −f`
 
-- Use ASCII characters for tree formatting.
+- Use ASCII characters for tree formatting:
 
 `lsblk −i`
 
-- Output info about block-device topology.
+- Output info about block-device topology:
 
 `lsblk −t`

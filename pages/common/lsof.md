@@ -1,7 +1,7 @@
 # lsof
 
-> Lists open files and the corresponding processes
-> Note: In most cases, you need root privilege (or use sudo) because you want to list files opened by others
+> Lists open files and the corresponding processes.
+> Note: In most cases, you need root privilege (or use sudo) because you want to list files opened by others.
 
 - Find the processes that have a given file open:
 
@@ -11,14 +11,14 @@
 
 `lsof -i :{{port}}`
 
-- only output the process PID
+- Only output the process PI:
 
 `lsof -t {{/path/to/file}}`
 
-- list files opened by the given user
+- List files opened by the given use:
 
 `lsof -u {{username}}`
 
-- list files opened by the given command or process
+- List files opened by the given command or proces:
 
 `lsof -c {{process_or_command_name}}`

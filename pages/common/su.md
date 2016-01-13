@@ -10,6 +10,6 @@
 
 `su`
 
-- Switch to user {{username}} and simulate a full login shell
+- Switch to user {{username}} and simulate a full login shel:
 
 `su - {{username}}`

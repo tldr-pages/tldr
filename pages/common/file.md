@@ -10,10 +10,10 @@
 
 `file -z {{foo.zip}}`
 
-- Allow file to work with special or device files.
+- Allow file to work with special or device files:
 
 `file -s {{filename}}`
 
-- Don't stop at first file type match; keep going until the end of the file.
+- Don't stop at first file type match; keep going until the end of the file:
 
 `file -k {{filename}}`

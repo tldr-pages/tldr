@@ -1,6 +1,6 @@
 # pg_dump
 
-> Extract a PostgreSQL database into a script file or other archive file
+> Extract a PostgreSQL database into a script file or other archive file.
 
 - Dump database into a SQL-script file:
 
