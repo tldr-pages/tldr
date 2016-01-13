@@ -1,13 +1,11 @@
 # crontab
 
-> A crontab file contains instructions for running a command at a recurring date and time.  
-> field         allowed values
-> -----         --------------
-> minute        0-59
-> hour          0-23
-> day of month  1-31
-> month         1-12 (or use names: jan, feb, etc)
-> day of week   0-7 (0 or 7 is Sun, or use names: mon, tue, etc)
+> A crontab file contains instructions for running a command at a recurring date and time.
+> Minute (0-59).
+> Hour (0-23).
+> Day of month (1-31).
+> Month (1-12, or use short names: jan, feb, etc).
+> Day of week (0-7, 0 or 7 is Sunday, or use short names: mon, tue, etc).
 
 - Run daily, at 8:05am:
 
