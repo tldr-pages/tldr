@@ -10,6 +10,10 @@
 
 `{{arguments_null_terminated}} | xargs -0 {{command}}`
 
-- Example: list unneeded packages with deborphan and remove them with apt-get:
+- delete all files that start with 'M'
 
-`sudo deborphan | xargs sudo apt-get remove`
+`ls M* | xargs rm`
+
+- assign incoming arguments to a variable so that they may be used in the middle of a command
+
+`ls M* | xargs -J % cp % ~/Desktop`
