@@ -11,7 +11,7 @@
 
 `git tag {{tag_name}}`
 
-- Create a tag with the given message:
+- Create an annotated tag with the given message:
 
 `git tag {{tag_name}} -m {{tag_message}}`
 
