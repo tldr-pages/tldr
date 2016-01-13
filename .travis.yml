@@ -7,6 +7,13 @@ language: ruby
 rvm:
 - 2.2.2
 
+install:
+- bundle  
+- . $HOME/.nvm/nvm.sh
+- nvm install 5.0
+- nvm use 5.0
+- npm install tldr-lint
+
 gemfile:
 - Gemfile
 
