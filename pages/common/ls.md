@@ -23,7 +23,7 @@
 `ls {{prefix}}*`
 `ls *{{suffix}}`
 
-- List only directory:
+- List only directories:
 
 `ls -d */`
 
