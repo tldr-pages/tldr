@@ -22,6 +22,6 @@
 
 `netstat -c`
 
-- List routes (-r) without resolve ip to hostname (-n):
+- List routes (-r) without resolving ip to hostname (-n):
 
 `netstat -rn`
