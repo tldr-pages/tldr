@@ -10,6 +10,10 @@
 
 `rm -r {{/path/to/folder}}`
 
+- Remove file/directory without prompt:
+
+`rm -rf {{/path/to/folder}}`
+
 - Prompt before every removal:
 
 `rm -i {{\*}}`
