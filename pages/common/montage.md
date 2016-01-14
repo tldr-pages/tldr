@@ -11,7 +11,7 @@
 
 `montage {{image1.png}} {{image2.jpg}} {{imageN.png}} -geometry +0+0 montage.jpg`
 
-- Set the grid cell size and resize images to fit before tiling:
+- Set the grid cell size and resize images to fit it before tiling:
 
 `montage {{image1.png}} {{image2.jpg}} {{imageN.png}} -geometry 640x480+0+0 montage.jpg`
 
