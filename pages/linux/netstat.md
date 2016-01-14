@@ -24,4 +24,4 @@
 
 - List routes (-r) without resolve ip to hostname (-n):
 
-`netstat -nr`
+`netstat -rn`
