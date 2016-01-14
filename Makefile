@@ -30,7 +30,7 @@ hooks:
 
 deps:
 	@bundle
-	@npm install tldr-lint
+	@npm install rubenvereecken/tldr-lint
 	@echo "OK"
 
 lint:
