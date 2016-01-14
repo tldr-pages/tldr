@@ -21,3 +21,7 @@
 - List information continuously:
 
 `netstat -c`
+
+- List routes (-r) without resolve ip to hostname (-n):
+
+`netstat -nr`
