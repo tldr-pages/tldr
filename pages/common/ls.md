@@ -23,6 +23,10 @@
 `ls {{prefix}}*`
 `ls *{{suffix}}`
 
+- List all directory:
+
+`ls -d */`
+
 - Sort the results by size, last modified date, or creation date:
 
 `ls -S`
