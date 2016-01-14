@@ -6,9 +6,12 @@
 
 `du -sh {{file/directory}}`
 
-- List file sizes of a directory and any subdirectories in KB/MB:
+- List file sizes of a directory and any subdirectories in KB:
 
 `du -k {{file/directory}}`
+
+- List file sizes of a directory and any subdirectories in MB:
+
 `du -m {{file/directory}}`
 
 - Get recursively, individual file/folder sizes in human readable form:
