@@ -10,7 +10,7 @@
 
 `rm -r {{/path/to/folder}}`
 
-- Remove file/directory without prompt:
+- Remove directory without prompt:
 
 `rm -rf {{/path/to/folder}}`
 
