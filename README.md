@@ -70,6 +70,8 @@ You can access these pages on your computer using one of the following clients:
 
 Let us know if you are building one and we can add it to this list!
 
+There is also a comprehensive [list of clients in Wiki](https://github.com/tldr-pages/tldr/wiki/TLDR-clients).
+
 ## Contributing
 
 - Your favourite command isn't covered?
