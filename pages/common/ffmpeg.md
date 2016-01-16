@@ -20,4 +20,4 @@
 
 - Extract part of a video between given timestamps. `-t` for length instead of end time.  Omit to copy through end.
 
-`ffmpeg -i {{in.mp4}} -ss 1:30 -to 2:45 -acodec copy {{out.mp4}}`
+`ffmpeg -i {{in.mp4}} -ss {{1:30}} -to {{2:45}} -acodec copy {{out.mp4}}`
