@@ -18,6 +18,6 @@
 
 `ffmpeg -i {{in.avi}} -acodec libfaac -ab 128k -vcodec mpeg4 -b 1250K {{out.mp4}}`
 
-- Extract part of a video between given timestamps. `-t` for length instead of end time.  Omit to copy through end.
+- Extract part of a video between given timestamps. Replace `-to` with `-t` for length instead of end time.  Omit `-to` to copy through end.
 
 `ffmpeg -i {{in.mp4}} -ss {{1:30}} -to {{2:45}} -acodec copy {{out.mp4}}`
