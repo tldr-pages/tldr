@@ -1,6 +1,6 @@
-# Notify-send
+# notify-send
 
-Uses the current desktop environment's notification system to create a notification. This should work on many modern desktop environments such as XFCE, GNOME, and Cinnamon.
+Uses the current desktop environment's notification system to create a notification.
 
 - Sends out a notification with the title "Test" and the content "This is a test"
 
