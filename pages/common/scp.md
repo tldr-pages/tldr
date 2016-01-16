@@ -1,30 +1,28 @@
 # scp
 
-> Copies files between hosts on a network.
-> Works over a secure connection (SSH).
+> Secure copy.
+> Copy files between hosts using Secure Copy Protocol over SSH.
 
-- Upload a file, or upload and rename a file:
+- Copy a local file to a remote host:
 
-`scp {{/local/file.txt}} {{10.0.0.1}}:{{/remote/path/}}`
-`scp {{/local/file.txt}} {{10.0.0.1}}:{{/remote/path/newname.txt}}`
+`scp {{local_file}} {{remote_host}}:{{/path/remote_file}}`
 
-- Download a file:
+- Copy a file from a remote host to a local folder:
 
-`scp {{10.0.0.1}}:{{/remote/path/file.txt}} {{/local/folder}}`
+`scp {{remote_host}}:{{/path/remote_file}} {{/path/local_dir}}`
 
-- Upload or download a directory:
+- Recursively copy the contents of a directory on a remote host to a local directory:
 
-`scp -r {{/local/folder}} {{10.0.0.1}}:{{/remote/path/}}`
-`scp -r {{10.0.0.1}}:{{/remote/path}} {{/local/folder}}`
+`scp -r {{remote_host}}:{{/path/remote_dir}} {{/path/local_dir}}`
 
-- Specify username on host:
+- Copy a file between two remote hosts transferring through the local host:
 
-`scp {{/local/file.txt}} {{my_user}}@{{10.0.0.1}}:{{/remote/path}}`
+`scp -3 {{host1}}:{{/path/remote_file.ext}} {{host2}}:{{/path/remote_dir}}`
 
-- Copy a file from one host to another:
+- Use a specific username when connecting to the remote host:
 
-`scp {{10.0.0.1}}:{{/remote/path/file.txt}} {{20.0.0.2}}:{{/other/remote/path}}`
+`scp {{local_file}} {{remote_username}}@{{remote_host}}:{{/remote/path}}`
 
-- Download a file with ssh key:
+- Use a specific ssh private key for authentication with the remote host:
 
-`scp -i {{/local/key}} {{10.0.0.1}}:{{/remote/path/file.txt}} {{/local/folder}}`
+`scp -i {{~/.ssh/id_rsa}} {{local_file}} {{remote_host}}:{{/path/remote_file}}`
