@@ -17,3 +17,7 @@
 - Convert AVI video to MP4. AAC Audio @ 128kbit, Video @ 1250Kbit:
 
 `ffmpeg -i {{in.avi}} -acodec libfaac -ab 128k -vcodec mpeg4 -b 1250K {{out.mp4}}`
+
+- Extract part of a video between given timestamps. `-t` for length instead of end time.  Omit to copy through end.
+
+`ffmpeg -i {{in.mp4}} -ss 1:30 -to 2:45 -acodec copy {{out.mp4}}`
