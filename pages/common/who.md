@@ -2,11 +2,11 @@
 
 > Display who is logged in and related data (processes, boot time).
 
-- Displays the username, line, and time of all currently logged-in sessions:
+- Display the username, line, and time of all currently logged-in sessions:
 
 `who`
 
-- Displays information only for the current terminal session:
+- Display information only for the current terminal session:
 
 `who am i`
 

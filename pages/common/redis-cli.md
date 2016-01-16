@@ -15,6 +15,6 @@
 
 `redis-cli -a {{password}}`
 
-- Executes Redis command:
+- Execute Redis command:
 
 `redis-cli {{redis command}}`

@@ -3,7 +3,7 @@
 > Securely remove files or directories.
 > Overwrites the existing data one or multiple. Drop in replacement for rm.
 
-- Removes a file after overwriting (single pass, 7 pass, 35 pass):
+- Remove a file after overwriting (single pass, 7 pass, 35 pass):
 
 `srm -s {{/path/to/file}}`
 `srm -m {{/path/to/file}}`

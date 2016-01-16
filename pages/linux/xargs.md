@@ -6,7 +6,7 @@
 
 `{{arguments}} | xargs {{command}}`
 
-- Handling whitespace in arguments:
+- Handle whitespace in arguments:
 
 `{{arguments_null_terminated}} | xargs -0 {{command}}`
 

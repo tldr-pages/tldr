@@ -2,7 +2,7 @@
 
 > QuickLook server tool.
 
-- Displays QuickLook for one or multiple files:
+- Display QuickLook for one or multiple files:
 
 `quicklook -p {{filename}} {{filename2}}`
 
