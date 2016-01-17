@@ -1,6 +1,6 @@
 # rpm
 
-> RPM Package Manager
+> RPM Package Manager.
 
 - Show version of httpd package:
 
@@ -23,7 +23,7 @@
 `rpm -qlc {{httpd}}`
 `rpm -qld {{httpd}}`
 
-- show contents of an RPM file:
+- Show contents of an RPM file:
 
 `rpm -qlp {{some.rpm}}`
 
@@ -31,11 +31,11 @@
 
 `rpm -qp --scripts {{some.rpm}}`
 
-- Show capabilities provided by an RPM file
+- Show capabilities provided by an RPM file:
 
 `rpm -qp --provides {{some.rpm}}`
 
-- Show capabilities needed by an RPM file
+- Show capabilities needed by an RPM file:
 
 `rpm -qp --requires {{some.rpm}}`
 
