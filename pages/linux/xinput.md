@@ -1,15 +1,15 @@
 # xinput
 
-> a utility to list available input devices, query information about a device and change input device settings
+> List available input devices, query information about a device and change input device settings.
 
-- List all input devices.
+- List all input devices:
 
 `xinput list`
 
-- Disconnect an input from its master.
+- Disconnect an input from its master:
 
 `xinput float {{id}}`
 
-- Reattach an input as slave to a master
+- Reattach an input as slave to a master:
 
 `xinput float {{id}} {{master_id}}`
