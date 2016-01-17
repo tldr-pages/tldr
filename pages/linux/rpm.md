@@ -41,7 +41,7 @@
 
 - Show changed, missing and/or incorrectly installed files of matching packages:
 
-`rpm -Va '{{php-*}}'`A
+`rpm -Va '{{php-*}}'`
 
 - Show metadata about a package's files "intended" properties:
 
