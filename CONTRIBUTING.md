@@ -97,6 +97,11 @@ Detailed explanation:
 
 5. Run `make lint` to check that your page(s) are correct. Try to run the commands you are describing to ensure the syntax is correct.
 
+   You can use the formatting features of [tldr-lint](https://github.com/tldr-pages/tldr-lint)
+   (installed through `make setup` or alternatively `npm install tldr-lint`)
+   to automatically fix any mistakes you may have missed.
+   Try `tldr tldr-lint` for a quick how-to.
+
 6. Please use the following commit message format: 
    `<command>: type of change`.
 
