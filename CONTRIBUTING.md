@@ -74,13 +74,11 @@ Detailed explanation:
    git remote add upstream https://github.com/tldr-pages/tldr
    ```
 
-2. Setup Ruby, Rubygems, bundler, Git pre-commit hooks with Markdown linter.
+2. Setup pre-commit hooks with Markdown and TLDR linter.
 
    ```bash
-   # Assuming Ruby is set up
-   # Install bundler Ruby gem
-   gem install bundler
-   make setup
+   # Assuming you have NodeJS
+   npm install
    ```
 
 3. If you cloned a while ago, get the latest changes from upstream:
