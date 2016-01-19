@@ -34,3 +34,6 @@
 - Retrieve verbose output for a cURL request:
 
 `curl -v {{http://localhost}}`
+
+- Retrieve super verbose output for a cURL request:
+`curl -vvv {{http://localhost}}`
