@@ -21,7 +21,7 @@
 
 - Head request:
 
-`curl -H {{http://localhost}}`
+`curl -I {{http://localhost}}`
 
 - Include an extra header:
 
