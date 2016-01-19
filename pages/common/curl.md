@@ -21,12 +21,16 @@
 
 - Head request:
 
-`curl --head {{http://localhost}}`
+`curl -H {{http://localhost}}`
 
 - Include an extra header:
 
-`curl --header "{{X-MyHeader: 123}}" {{http://localhost}}`
+`curl -H "{{X-MyHeader: 123}}" {{http://localhost}}`
 
 - Pass a user name and password for server authentication:
 
 `curl -u myusername:mypassword {{http://localhost}}`
+
+- Retrieve verbose output for a cURL request:
+
+`curl -v {{http://localhost}}`
