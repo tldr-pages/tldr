@@ -10,9 +10,13 @@
 
 `cal -m {{month_number}}`
 
-- Display all 12 months of calendar for a specific year:
+- Display a 12 month calendar for the current year:
 
-`cal 2013`
+`cal -y`
+
+- Display a 12 month calendar for a specific year:
+
+`cal 2016`
 
 - Display date of Easter (western churches):
 

@@ -6,7 +6,7 @@
 
 `rename {{'s/foo/bar/'}} {{\*}}`
 
-- Dry-run, display which renames would occur without performing them:
+- Dry-run - display which renames would occur without performing them:
 
 `rename -n {{'s/foo/bar/'}} {{\*}}`
 
