@@ -2,33 +2,22 @@
 
 > List directory contents.
 
-- List all files, even hidden:
+- List files one per line:
+
+`ls -1`
+
+- List all files, including hidden files:
 
 `ls -a`
 
-- List all file names (no extra info):
+- Long format list (permissions, ownership, size and modification date) of all files:
 
-`ls -A1`
+`ls -la`
 
-- List all files with their rights, groups, owner:
-
-`ls -l`
-
-- List all files and display the file size in a human readable format:
+- Long format list with size displayed using human readable units (KB, MB, GB):
 
 `ls -lh`
 
-- List all files with a prefix/suffix:
+- Long format list sorted by size (descending):
 
-`ls {{prefix}}*`
-`ls *{{suffix}}`
-
-- Sort the results by size, last modified date, or creation date:
-
-`ls -S`
-`ls -t`
-`ls -U`
-
-- Reverse the order of the results:
-
-`ls -r`
+`ls -lS`

@@ -6,9 +6,12 @@
 
 `redis-cli`
 
-- Connect to a remote server:
+- Connect to a remote server on the default port (6379):
 
 `redis-cli -h {{host}}`
+
+- Connect to a remote server specifying a port number:
+
 `redis-cli -h {{host}} -p {{port}}`
 
 - Specify a password:
