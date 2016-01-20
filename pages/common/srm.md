@@ -11,7 +11,7 @@
 
 `srm -m {{/path/to/file}}`
 
-- Recursively remove a directory and contents overwriting each file with a single pass of random data.
+- Recursively remove a directory and contents overwriting each file with a single pass of random data:
 
 `srm -r -s {{/path/to/folder}}`
 

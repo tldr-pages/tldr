@@ -18,6 +18,6 @@
 
 `systemsetup -liststartupdisks`
 
-- Specify a new startup disk
+- Specify a new startup disk:
 
 `systemsetup -setstartupdisk {{path}}`
