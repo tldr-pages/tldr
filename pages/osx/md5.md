@@ -2,14 +2,13 @@
 
 > Calculate MD5 cryptographic checksums.
 
-- Print MD5 checksum for a file:
+- Calculate the MD5 checksum for a file:
 
 `md5 {{filename}}`
 
-- Print MD5 checksum for each file in a list or directory:
+- Calculate MD5 checksums for multiple files:
 
 `md5 {{filename1}} {{filename2}}`
-`md5 {{directory/\*}}`
 
 - Output only the md5 checksum (no filename):
 
