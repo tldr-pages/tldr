@@ -2,18 +2,18 @@
 
 > Prints calendar information.
 
-- Display a calendar for the current month or specified month:
+- Display a calendar for the current month:
 
 `cal`
-`cal -m {{12}}`
-`cal -m {{Dec}}`
 
-- Display a calendar for the current year or a specified year:
+- Display a calendar for a specific month:
 
-`cal -y`
+`cal -m {{month_number}}`
+
+- Display all 12 months of calendar for a specific year:
+
 `cal 2013`
 
 - Display date of Easter (western churches):
 
-`ncal -e`
-`ncal -e 2013`
+`ncal -e {{year}}`
