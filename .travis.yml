@@ -1,24 +1,13 @@
 sudo: false
 
-cache: bundler
+language: node_js
 
-language: ruby
+node_js:
+  - 'stable'
 
-rvm:
-- 2.2.2
-
-install:
-- bundle  
-- . $HOME/.nvm/nvm.sh
-- nvm install 5.0
-- nvm use 5.0
-- npm install rubenvereecken/tldr-lint
-
-gemfile:
-- Gemfile
-
-script:
-- make lint
+cache:
+  directories:
+    - node_modules
 
 after_success:
 - bash scripts/build.sh
