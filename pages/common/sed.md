@@ -2,18 +2,18 @@
 
 > Run replacements based on regular expressions.
 
-- Replace all occurrences of a string in a file, and print the result:
+- Replace the first occurrence of a string in a file, and print the result:
 
-`sed 's/{{find}}/{{replace}}/g' {{filename}}`
+`sed 's/{{find}}/{{replace}}/' {{filename}}`
 
-- Replace all occurrences of a string in a file, and overwrite the file contents:
+- Replace all occurrences of a string in a file, overwriting the file (i.e. in-place):
 
 `sed -i 's/{{find}}/{{replace}}/g' {{filename}}`
 
 - Replace all occurrences of an extended regular expression in a file:
 
-`sed -E 's/{{regex}}/{{replace}}/g' {{filename}}`
+`sed -r 's/{{regex}}/{{replace}}/g' {{filename}}`
 
-- Replace all occurrences of multiple strings in a file:
+- Apply multiple find-replace expressions to a file:
 
-`sed -e 's/{{find}}/{{replace}}/g' -e 's/{{find}}/{{replace}}/g' {{filename}}`
+`sed -e 's/{{find}}/{{replace}}/' -e 's/{{find}}/{{replace}}/' {{filename}}`
