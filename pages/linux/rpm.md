@@ -18,31 +18,10 @@
 
 `rpm -ql {{kernel}}`
 
-- List configuration, then only documentation files of httpd:
-
-`rpm -qlc {{httpd}}`
-`rpm -qld {{httpd}}`
-
-- Show contents of an RPM file:
-
-`rpm -qlp {{some.rpm}}`
-
 - Show scriptlets from an RPM file:
 
 `rpm -qp --scripts {{some.rpm}}`
 
-- Show capabilities provided by an RPM file:
-
-`rpm -qp --provides {{some.rpm}}`
-
-- Show capabilities needed by an RPM file:
-
-`rpm -qp --requires {{some.rpm}}`
-
 - Show changed, missing and/or incorrectly installed files of matching packages:
 
 `rpm -Va '{{php-*}}'`
-
-- Show metadata about a package's files "intended" properties:
-
-`rpm --dump -q {{php-pear}}`
