@@ -11,7 +11,7 @@
 
 `csvsort -r -c {{name}} {{data.csv}}`
 
-- Sort a CSV file by columns 2, then by column 4:
+- Sort a CSV file by column 2, then by column 4:
 
 `csvsort -c {{2,4}} {{data.csv}}`
 
