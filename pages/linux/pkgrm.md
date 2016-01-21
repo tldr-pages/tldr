@@ -1,7 +1,7 @@
 # pkgrm
 
-> Remove a package from a CRUX system
+> Remove a package from a CRUX system.
 
-- remove an installed package
+- Remove an installed package:
 
 `pkgrm {{package-name}}`
