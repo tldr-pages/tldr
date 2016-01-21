@@ -11,11 +11,11 @@
 
 `nmap {{ip_or_hostname}} {{optional_another_address}}`
 
-- Also enable service detection, OS fingerprinting and traceroute:
+- Also enable scripts, service detection, OS fingerprinting and traceroute.
 
 `nmap -A {{address_or_addresses}}`
 
-- Assume good network connection and speed up execution:
+- Assume good network connection and speed up execution.
 
 `nmap -T4 {{address_or_addresses}}`
 
@@ -23,6 +23,6 @@
 
 `nmap -p {{port1,port2,...,portN}} {{address_or_addresses}}`
 
-- Perform TCP and UDP scanning (use -sU for UDP only, -sZ for SCTP, -sO for IP):
+- Perform TCP and UDP scanning (use -sU for UDP only, -sZ for SCTP, -sO for IP).
 
 `nmap -sSU {{address_or_addresses}}`
