@@ -1,6 +1,6 @@
 # archey
 
-> System information tool for Mac OS X
+> System information tool for Mac OS X.
 
 - Show system information in stylish output:
 
