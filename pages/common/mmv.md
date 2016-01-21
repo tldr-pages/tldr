@@ -16,4 +16,4 @@
 
 - Convert dates in filenames between "M-D-Y" format and "D-M-Y" format:
 
-`mmv -c "[0-1][0-9]-[0-3][0-9]-[0-9][0-9][0-9][0-9].txt" "#3#4-#1#2-#5#6#7#8.txt"
+`mmv -c "[0-1][0-9]-[0-3][0-9]-[0-9][0-9][0-9][0-9].txt" "#3#4-#1#2-#5#6#7#8.txt"`
