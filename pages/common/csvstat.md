@@ -15,13 +15,9 @@
 
 `csvstat --sum {{data.csv}}`
 
-- Show averages for all columns:
-
-`csvstat --mean {{data.csv}}`
-
 - Show the max value length for column 3:
 
-`csvstat -c {{1}} --len {{data.csv}}`
+`csvstat -c {{3}} --len {{data.csv}}`
 
 - Show the number of unique values in the "name" column:
 
