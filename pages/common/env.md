@@ -6,6 +6,10 @@
 
 `env`
 
+- Run a program. Often used in scripts after the shebang (#!) for looking up the path to the program:
+
+`env {{program}}`
+
 - Clear the environment and run a program:
 
 `env -i {{program}}`
