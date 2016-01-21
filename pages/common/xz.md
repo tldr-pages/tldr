@@ -1,6 +1,6 @@
 # xz
 
-> Compress or decompress .xz and .lzma files
+> Compress or decompress .xz and .lzma files.
 
 - Compress a file:
 

@@ -1,6 +1,6 @@
 # lwp-request
 
-> Simple Perl-based command-line HTTP client
+> Simple Perl-based command-line HTTP client.
 
 - Make a simple GET request:
 

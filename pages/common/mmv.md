@@ -1,6 +1,6 @@
 # mmv
 
-> Move and rename files in bulk
+> Move and rename files in bulk.
 
 - Rename all files with a certain extension to a different extension:
 

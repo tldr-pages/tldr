@@ -1,6 +1,6 @@
 # in2csv
 
-> Converts various tabular data formats into CSV.  
+> Converts various tabular data formats into CSV.
 > Included in csvkit.
 
 - Convert an XLS file to CSV:

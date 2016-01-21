@@ -1,6 +1,6 @@
 # csvstat
 
-> Print descriptive statistics for all columns in a CSV file.  
+> Print descriptive statistics for all columns in a CSV file.
 > Included in csvkit.
 
 - Show all stats for all columns:

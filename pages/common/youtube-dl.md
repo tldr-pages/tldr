@@ -1,6 +1,6 @@
 # youtube-dl
 
-> Download videos from YouTube and other websites
+> Download videos from YouTube and other websites.
 
 - Download a video or playlist:
 

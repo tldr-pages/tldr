@@ -1,6 +1,6 @@
 # csvcut
 
-> Filter and truncate CSV files. Like unix "cut" command, but for tabular data.  
+> Filter and truncate CSV files. Like unix "cut" command, but for tabular data.
 > Included in csvkit.
 
 - Print indices and names of all columns:

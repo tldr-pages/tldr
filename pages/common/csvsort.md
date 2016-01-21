@@ -1,6 +1,6 @@
 # csvsort
 
-> Sorts CSV files.  
+> Sorts CSV files.
 > Included in csvkit.
 
 - Sort a CSV file by column 9:

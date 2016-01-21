@@ -1,6 +1,6 @@
 # csvpy
 
-> Loads a CSV file into a Python shell.  
+> Loads a CSV file into a Python shell.
 > Included in csvkit.
 
 - Load a CSV file into a _CSVKitReader_ object:

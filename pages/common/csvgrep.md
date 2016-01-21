@@ -1,6 +1,6 @@
 # csvgrep
 
-> Filter CSV rows with string and pattern matching. 
+> Filter CSV rows with string and pattern matching.
 > Included in csvkit.
 
 - Find rows that have a certain string in column 1:

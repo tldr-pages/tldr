@@ -1,6 +1,6 @@
 # csvformat
 
-> Convert a CSV file to a custom output format.  
+> Convert a CSV file to a custom output format.
 > Included in csvkit.
 
 - Convert to a tab-delimited file:

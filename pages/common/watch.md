@@ -1,6 +1,6 @@
 # watch
 
-> Execute a program periodically, showing output fullscreen
+> Execute a program periodically, showing output fullscreen.
 
 - Repeatedly run a command and show the result:
 

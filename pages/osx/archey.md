@@ -6,11 +6,11 @@
 
 `archey`
 
-- Show system information without colored output
+- Show system information without colored output:
 
 `archey -b`
 
-- Show system information, using MacPorts instead of Homebrew as the package manager
+- Show system information, using MacPorts instead of Homebrew as the package manager:
 
 `archey -m`
 

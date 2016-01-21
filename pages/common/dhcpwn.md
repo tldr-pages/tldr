@@ -6,10 +6,10 @@
 
 `dhcpwn --interface {{network_interface}} flood --count {{number_of_requests}}`
 
-- Sniff local DHCP traffic
+- Sniff local DHCP traffic:
 
 `dhcpwn --interface {{network_interface}} sniff`
 
-- Get additional help
+- Get additional help:
 
 `dhcpwn -h`
