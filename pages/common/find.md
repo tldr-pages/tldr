@@ -26,10 +26,10 @@
 
 `find {{root_path}} -name {{'*.py'}} -mtime {{-180d}} -delete`
 
-- find empty files or directories
+- Find empty files or directories:
 
 `find {{root_path}} -empty`
 
-- find files matching more than one search criteria
+- Find files matching more than one search criteria:
 
-`find {{root_path}} -name {{'*.py'}} -or -name {{'*.rb'}}
+`find {{root_path}} -name {{'*.py'}} -or -name {{'*.r}}`
