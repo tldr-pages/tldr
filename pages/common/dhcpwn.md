@@ -8,7 +8,7 @@
 
 - Sniff local DHCP traffic
 
-`dhcpwn --interface {{network_interface}} sniff
+`dhcpwn --interface {{network_interface}} sniff`
 
 - Get additional help
 
