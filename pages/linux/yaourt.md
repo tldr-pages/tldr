@@ -1,4 +1,4 @@
- yaourt
+# yaourt
 
 > Arch Linux utility for building packages from the Arch User Repository
 
