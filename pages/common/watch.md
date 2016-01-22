@@ -10,6 +10,6 @@
 
 `watch -n {{60}} {{command}}`
 
-- Monitor the contents of a directory, highlighting changes as they appear:
+- Monitor the contents of a directory, highlighting differences as they appear:
 
 `watch -d {{ls -l}}`
