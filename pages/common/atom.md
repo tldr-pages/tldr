@@ -1,6 +1,6 @@
 # atom
 
-> A hackable text editor for the 21st century.
+> A cross-platform text editor.
 
 - Open a file or folder:
 
