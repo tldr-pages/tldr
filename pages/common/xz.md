@@ -21,7 +21,3 @@
 - Compress a file and attempt to improve compression ratio by using more CPU time:
 
 `xz -e {{file}}`
-
-- Test integrity of an XZ file:
-
-`xz -t {{file.xz}}`
