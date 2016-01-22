@@ -2,7 +2,7 @@
 
 > Simple tool for stylishly displaying system information.
 
-- Show system information in stylish output:
+- Show system information:
 
 `archey`
 
