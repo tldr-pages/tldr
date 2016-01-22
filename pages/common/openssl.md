@@ -10,9 +10,9 @@
 
 `openssl req -new -sha256 -key {{filename.key}} -out {{filename.csr}}`
 
-- Read contents of a signed certificate:
+- Generate a self-signed certificate from a certificate signing request valid for some number of days:
 
-`openssl x509 -text -noout -in {{certificate.crt}}`
+`openssl x509 -req -days {{days}} -in {{filename.csr}} -signkey {{filename.key}} -out {{filename.crt}}`
 
 - Display the certificate presented by an SSL/TLS server:
 
