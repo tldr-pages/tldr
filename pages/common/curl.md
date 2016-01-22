@@ -21,7 +21,7 @@
 
 - Head request:
 
-`curl -I {{http://localhost}}`
+`curl --head {{http://localhost}}`
 
 - Include an extra header:
 
@@ -30,11 +30,3 @@
 - Pass a user name and password for server authentication:
 
 `curl -u myusername:mypassword {{http://localhost}}`
-
-- Retrieve verbose output for a cURL request:
-
-`curl -v {{http://localhost}}`
-
-- Retrieve super verbose output for a cURL request:
-
-`curl -vvv {{http://localhost}}`
