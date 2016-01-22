@@ -18,10 +18,6 @@
 
 `redshift -g {{red}}:{{green}}:{{blue}}`
 
-- Turn on Redshift with temperature transitions disabled:
-
-`redshift -r`
-
 - Turn on Redshift with a constant unchanging color temperature:
 
 `redshift -O {{temperature}}`
