@@ -12,4 +12,4 @@
 
 - View a CSV file with unconventional delimiters:
 
-`x_x --delimiter={{';'}} --quotechar={{'|'}} {{file.csv}}
+`x_x --delimiter={{';'}} --quotechar={{'|'}} {{file.csv}}`
