@@ -1,6 +1,6 @@
 # skicka
 
-> Command-line utility for Google Drive.
+> Manage your Google Drive.
 
 - Upload a file/folder to Google Drive:
 
