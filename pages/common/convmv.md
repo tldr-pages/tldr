@@ -1,11 +1,11 @@
 # convmv
 
-> Converts filenames (NOT file content) from one encoding to another
+> Convert filenames (NOT file content) from one encoding to another.
 
-- convert encoding, dry run (without actually changes filename)
+- Test filename encoding conversion (don't actually change the filename):
 
 `convmv -f {{from_encoding}} -t {{to_encoding}} {{input_file}}`
 
-- convert encoding, not dry run (actually rename the file)
+- Convert filename encoding and rename the file to the new enconding:
 
 `convmv -f {{from_encoding}} -t {{to_encoding}} --notest {{input_file}}`
