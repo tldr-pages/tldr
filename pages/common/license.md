@@ -16,4 +16,4 @@
 
 - Create a license with explicitly-set name and year:
 
-`license --name {{custom_name}} --year {{custom_year}} {{license_name}}`
+`license --name {{author}} --year {{release_year}} {{license_name}}`
