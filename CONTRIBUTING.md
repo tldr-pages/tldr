@@ -37,6 +37,14 @@ The format of each page should match the following:
 `command -opt1 -opt2`
 ```
 
+We actually have a linter/formatter that enforces our format.
+It even automatically cleans up your pages for you! Installing it is easy:
+
+```
+npm install
+tldr tldrl
+```
+
 ### Token Syntax
 User-provided values should use the `{{token}}` syntax in order to allow clients
 to highlight them. 
