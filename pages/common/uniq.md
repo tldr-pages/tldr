@@ -1,6 +1,6 @@
 # uniq
 
-> Report or omit repeated lines.
+> Output the unique lines from the given input or file.
 
 - Display each line once:
 
