@@ -4,7 +4,7 @@
 
 - Show all TCP/UDP/RAW/UNIX sockets:
 
-`ss -a {{-t/-u/-w/-x}}`
+`ss -a -{{t|u|w|x}}`
 
 - Filter TCP sockets by states, only/exclude:
 
