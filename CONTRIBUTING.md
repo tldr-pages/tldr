@@ -66,7 +66,7 @@ clients that need to extract a single description/example.
 
 ## Submitting a pull request
 
-TL;DR: fork, `make setup`, feature branch, commit, push, pull request.
+TL;DR: fork, `make setup`, feature branch, commit, push, pull request, check Travis.
 
 Detailed explanation:
 
@@ -133,7 +133,10 @@ Detailed explanation:
     
     If you are changing something non-trivial, not just adding a page for a new tool, please describe why you are doing this.
 
-9. Use Git's
+9. Verify that the automatically ran Travis CI build passed. 
+   You can check this on your Pull Request; look for a green :heavy_check_mark: or red :x:.
+
+10. Use Git's
    [interactive rebase](https://help.github.com/articles/interactive-rebase)
    feature to tidy up your commits before making them public.
    
@@ -143,7 +146,7 @@ Detailed explanation:
    
    In most cases it is better to squash commits before submitting a pull request.
 
-10. If you do not want to do a rebasing, you can overwrite your last commit in pull request, while you have only a single commit. You can achieve this with `git commit --amend` command.
+11. If you do not want to do a rebasing, you can overwrite your last commit in pull request, while you have only a single commit. You can achieve this with `git commit --amend` command.
 
    ```bash
    # When you are on topic branch of your pull request
