@@ -5,16 +5,18 @@
 - Scan for available networks:
 
 `wpa_cli scan`
+
+- Show scan results:
+
 `wpa_cli scan_results`
 
 - Add a network:
 
 `wpa_cli add_network {{number}}`
 
-- Configure the network, e.g. set SSID and passkey:
+- Set a network's SSID:
 
-`wpa_cli set_network {{number}} ssid {{SSID}}`
-`wpa_cli set_network {{number}} psk {{passkey}}`
+`wpa_cli set_network {{number}} ssid "{{SSID}}"`
 
 - Enable network:
 
