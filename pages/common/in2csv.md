@@ -15,6 +15,6 @@
 
 `in2csv --sheet={{sheet_name}} {{data.xlsx}}`
 
-- Fetch csvkit's open issues from GitHub's JSON API, and convert them to CSV:
+- Pipe a JSON file to in2csv:
 
-`curl https://api.github.com/repos/onyxfish/csvkit/issues?state=open | in2csv -f json > issues.csv`
+`cat {{data.json}} | in2csv -f json > {{data.csv}}`
