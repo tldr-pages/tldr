@@ -10,7 +10,7 @@
 
 `ss {{state/exclude}} {{bucket/big/connected/synchronized/...}}`
 
-- Show all TCP sockets connected to the local HTTPS port:
+- Show all TCP sockets connected to the local HTTPS port (443):
 
 `ss -t src :{{443}}`
 
@@ -18,10 +18,10 @@
 
 `ss -pt dst :{{ssh}}`
 
-- Show all UDP sockets connected on a local port within a range:
+- Show all UDP sockets connected on specific source and destination ports:
 
-`ss -u 'sport >= :{{lowest_port}} and sport <= :{{highest_port}}'`
+`ss -u 'sport == :{{source_port}} and dport == :{{destination_port}}'`
 
 - Show all TCP IPv4 sockets locally connected on the subnet 192.168.0.0/16:
 
-`ss -4t {{192.168/16}}`
+`ss -4t src {{192.168/16}}`
