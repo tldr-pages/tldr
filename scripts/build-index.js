@@ -37,7 +37,10 @@ function buildPagesIndex(shortIndex) {
 }
 
 function saveIndex(index) {
-  console.log(JSON.stringify(index));
+  var indexFile = {
+    commands: index
+  };
+  console.log(JSON.stringify(indexFile));
 }
 
 glob("pages/**/*.md", function (er, files) {
