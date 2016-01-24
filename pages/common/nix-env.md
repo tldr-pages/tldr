@@ -1,39 +1,27 @@
 # nix-env
 
-> Manipulate or query Nix user environments
+> Manipulate or query Nix user environments.
 
-- Show available package with name or without name
+- Show available package with name or without name:
 
 `nix-env -qa {{pkg_name}}`
 
-- Show the status of available packages
+- Show the status of available packages:
 
-`nix-env -qas`                             
+`nix-env -qas`
 
-- Install package
+- Install package:
 
 `nix-env -i {{pkg_name}}`
 
-- Uninstall package
+- Uninstall package:
 
 `nix-env -e {{pkg_name}}`
 
-- Upgrade one package
+- Upgrade one package:
 
 `nix-env -u {{pkg_name}}`
 
-- Upgrade all packages
+- Upgrade all packages:
 
 `nix-env -u`
-
-- Rollback changes
-    
-`nix-env --rollback`
-
-- List all profiles
-
-`nix-env --list-generations`
-
-- Switch to specific profile
-
-`nix-env --switch-generation {{profile_number}}`
