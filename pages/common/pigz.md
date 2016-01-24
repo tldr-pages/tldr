@@ -4,11 +4,15 @@
 
 - Compress a file with default options:
 
-`pigz {{filename.ext}}`
+`pigz {{filename}}`
 
-- Compress a file using compression method [1-9] and number of processors [-pN]:
+- Compress a file using the best compression method:
 
-`pigz -9 -p8 {{filename.ext}}`
+`pigz -9 {{filename}}`
+
+- Compress a file using no compression and 4 processors:
+
+`pigz -0 -p{{4}} {{filename}}`
 
 - Decompress a file:
 
@@ -17,7 +21,3 @@
 - List the contents of an archive:
 
 `pigz -l {{archive.tar.gz}}`
-
-- Create an compressed archive when piped with tar:
-
-`tar cvf - {{directory/to/archive}} | pigz -9 -p8 > {{archive.tar.gz}}`
