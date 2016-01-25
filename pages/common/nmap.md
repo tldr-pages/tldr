@@ -1,19 +1,28 @@
 # nmap
 
-> Network exploration tool and security / port scanner
+> Network exploration tool and security / port scanner.
+> Some features only activate when Nmap is run with privileges.
 
-- scan open ports of a single host
+- Try to determine whether the specified hosts are up and what are their names:
 
-`nmap {{192.168.0.1}}`
+`nmap -sn {{ip_or_hostname}} {{optional_another_address}}`
 
-- discover hosts in the 192.168.0.X area (no port scan)
+- Like above, but also run a default 1000-port TCP scan if host seems up:
 
-`nmap -sn {{192.168.0.1/24}}`
+`nmap {{ip_or_hostname}} {{optional_another_address}}`
 
-- faster scan of a single host (scans for common ports)
+- Also enable scripts, service detection, OS fingerprinting and traceroute:
 
-`nmap -F {{192.168.0.1}}`
+`nmap -A {{address_or_addresses}}`
 
-- faster scan of a subnet (scans for common ports)
+- Assume good network connection and speed up execution:
 
-`nmap -F {{192.168.0.1/24}}`
+`nmap -T4 {{address_or_addresses}}`
+
+- Scan a specific list of ports (use -p- for all ports 1-65535):
+
+`nmap -p {{port1,port2,...,portN}} {{address_or_addresses}}`
+
+- Perform TCP and UDP scanning (use -sU for UDP only, -sZ for SCTP, -sO for IP):
+
+`nmap -sSU {{address_or_addresses}}`

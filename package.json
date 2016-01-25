@@ -1,0 +1,29 @@
+{
+  "name": "tldr",
+  "version": "1.0.0",
+  "description": "Simplified, community-driven man pages",
+  "dependencies": {
+    "glob": "^6.0.4",
+    "markdownlint-cli": "^0.0.2",
+    "tldr-lint": "^0.0.7",
+    "husky": "^0.10.2"
+  },
+  "scripts": {
+    "precommit": "npm test",
+    "lint-markdown": "markdownlint pages/**/*.md",
+    "lint-tldr": "tldr-lint ./pages",
+    "test": "markdownlint pages/**/*.md && tldr-lint ./pages",
+    "build-index": "node ./scripts/build-index.js > pages/index.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tldr-pages/tldr.git"
+  },
+  "author": "Romain Prieto",
+  "private": true,
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tldr-pages/tldr/issues"
+  },
+  "homepage": "http://tldr-pages.github.io"
+}

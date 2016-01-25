@@ -1,19 +1,15 @@
 # ln
 
-> Creates links to files and folders
+> Creates links to files and folders.
 
-- create a symbolic link to a file or folder
+- Create a symbolic link to a file (or folder):
 
-`ln -s {{path/to/original/file}} {{path/to/link}}`
+`ln -s {{path/to/file}} {{path/to/symlink}}`
 
-- overwrite a symbolic link to a file
+- Overwrite an existing symbolic to point to a different file:
 
-`ln -sf {{path/to/new/original/file}} {{path/to/file/link}}`
+`ln -sf {{path/to/new/file}} {{path/to/symlink}}`
 
-- overwrite a symbolic link to a folder
+- Create a hard link to a file:
 
-`ln -sfT {{path/to/new/original/file}} {{path/to/folder/link}}`
-
-- create a hard link to a file or folder
-
-`ln {{path/to/original/file}} {{path/to/link}}`
+`ln {{path/to/file}} {{path/to/hardlink}}`

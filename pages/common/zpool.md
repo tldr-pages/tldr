@@ -1,33 +1,31 @@
 # zpool
 
-> Manage ZFS pools
+> Manage ZFS pools.
 
-- Show the configuration and status of all ZFS zpools
+- Show the configuration and status of all ZFS zpools:
 
-`zpool status [{{poolname}}]`
+`zpool status`
 
-- Check a ZFS pool for errors (verifies the checksum of EVERY block). Very CPU and disk intensive.
+- Check a ZFS pool for errors (verifies the checksum of EVERY block). Very CPU and disk intensive:
 
-`zpool scrub {{poolname}}`
+`zpool scrub {{pool_name}}`
 
-- List zpools available for import
+- List zpools available for import:
 
 `zpool import`
 
-- Import a zpool, optionally specifying a new name
+- Import a zpool:
 
-`zpool import {{poolname}}`
-`zpool import {{poolname}} {{newpoolname}}`
+`zpool import {{pool_name}}`
 
-- Export a zpool (unmount all filesystems)
+- Export a zpool (unmount all filesystems):
 
-`zpool export {{poolname}}`
+`zpool export {{pool_name}}`
 
-- Show the history of all pool operations
+- Show the history of all pool operations:
 
-`zpool histrory {{poolname}}`
+`zpool histrory {{pool_name}}`
 
-- Create a mirrored pool.
+- Create a mirrored pool:
 
-`zpool create {{poolname}} mirror {{disk1}} {{disk2}}`
-`zpool create {{poolname}} mirror {{disk1}} {{disk2}} mirror {{disk3}} {{disk4}}`
+`zpool create {{pool_name}} mirror {{disk1}} {{disk2}} mirror {{disk3}} {{disk4}}`

@@ -1,15 +1,15 @@
 # iconv
 
-> Converts text from one encoding to another
+> Converts text from one encoding to another.
 
-- convert file and print to stdout
+- Convert file and print to stdout:
 
 `iconv -f {{from_encoding}} -t {{to_encoding}} {{input_file}}`
 
-- convert file to current locale
+- Convert file to current locale:
 
 `iconv -f {{from_encoding}} {{input_file}} > {{output_file}}`
 
-- list supported encodings
+- List supported encodings:
 
 `iconv -l`

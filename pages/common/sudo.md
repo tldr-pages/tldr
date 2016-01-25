@@ -1,8 +1,8 @@
 # sudo
 
-> execute a command as another user
+> Execute a command as another user.
 
-- Listing of an unreadable directory:
+- List of an unreadable directory:
 
 `sudo {{ls}} {{/usr/local/scrt}}`
 
@@ -14,6 +14,6 @@
 
 `sudo {{shutdown}} -r +10 {{"Cya soon!"}}`
 
-- To repeat the last command as sudo
+- To repeat the last command as sudo:
 
 `sudo {{!!}}`

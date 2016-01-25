@@ -1,12 +1,11 @@
 # which
 
-> Locate the a program in the user's path
+> Locate the a program in the user's path.
 
-- Display the path of an executable program
+- Search the PATH environment variable and display the location of any matching executables:
 
-`which {{ls}}`
 `which {{executable}}`
 
-- If there are multiple executables which match, display all
+- If there are multiple executables which match, display all:
 
 `which -a {{executable}}`

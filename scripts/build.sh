@@ -17,7 +17,7 @@ function initialize {
 }
 
 function rebuild_index {
-  $TLDRHOME/scripts/build_index.rb
+  npm run build-index
 }
 
 function build_archive {

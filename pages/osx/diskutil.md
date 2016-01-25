@@ -1,23 +1,19 @@
 # diskutil
 
-> Utility to manage local disks and volumes
+> Utility to manage local disks and volumes.
 
-- List all currently available disks, partitions and mounted volumes.
+- List all currently available disks, partitions and mounted volumes:
 
 `diskutil list`
 
-- Repair permissions on a volume
-
-`diskutil repairPermissions {{/Volumes/Name}}`
-
-- Repair the file system data structures of a volume
+- Repair the file system data structures of a volume:
 
 `diskutil repairVolume {{/dev/diskX}}`
 
-- Unmount a volume
+- Unmount a volume:
 
 `diskutil unmountDisk {{/dev/diskX}}`
 
-- Eject a CD/DVD (unmount first)
+- Eject a CD/DVD (unmount first):
 
 `diskutil eject {{/dev/disk1}}`

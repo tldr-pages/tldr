@@ -1,29 +1,29 @@
 # rsync
 
-> Transfers a file either to or from a remote host
-> Does not allow transfer between two remote hosts
-> Can transfer single files or files matched by pattern
+> Transfers a file either to or from a remote host.
+> Does not allow transfer between two remote hosts.
+> Can transfer single files or files matched by pattern.
 
-- transfer file from local to remote host
+- Transfer file from local to remote host:
 
-`rsync {{path_to_file}} {{remote_host_name}}:{{remote_host_location}}`
+`rsync {{path/to/file}} {{remote_host_name}}:{{remote_host_location}}`
 
-- transfer file from remote host to local
+- Transfer file from remote host to local:
 
 `rsync {{remote_host_name}}:{{remote_file_location}} {{local_file_location}}`
 
-- transfer all *.js files in current directory to host 'devbox' as user 'mike'
+- Transfer file in archive (to preserve attributes) and compressed (zipped) mode:
 
-`rsync *.js mike@devbox:~/projects/cakeStore/styles/`
+`rsync -az {{path/to/file}} {{remote_host_name}}:{{remote_host_location}}`
 
-- transfer a directory and all its children from a remote to local
+- Transfer a directory and all its children from a remote to local:
 
-`rsync -r mike@devbox:~/projects/cakeStore /Users/mike/devProjects/`
+`rsync -r {{remote_host_name}}:{{remote_folder_location}} {{local_folder_location}}`
 
-- transfer only updated files from remote host
+- Transfer only updated files from remote host:
 
-`rsync -ru mike@devbox:~/projects/ ./projects/`
+`rsync -ru {{remote_host_name}}:{{remote_folder_location}} {{local_folder_location}}`
 
-- transfer file over SSH and show progress
+- Transfer file over SSH and show progress:
 
 `rsync -e ssh --progress {{remote_host_name}}:{{remote_file}} {{local_file}}`

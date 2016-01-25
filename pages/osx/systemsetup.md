@@ -1,29 +1,23 @@
 # systemsetup
 
-> Configure System Preferences machine settings
+> Configure System Preferences machine settings.
 
-- Enable remote login (SSH)
+- Enable remote login (SSH):
 
 `systemsetup -setremotelogin on`
 
-- Specify TimeZone, NTP Server and enable network time
+- Specify TimeZone, NTP Server and enable network time:
 
-`systemsetup -settimezone {{US/Pacific}}`
+`systemsetup -settimezone {{US/Pacific}} -setnetworktimeserver {{us.pool.ntp.org}} -setusingnetworktime on`
 
-`systemsetup -setnetworktimeserver {{us.pool.ntp.org}}`
+- Make the machine never sleep and automatically restart on power failure or kernel panic:
 
-`systemsetup -setusingnetworktime on`
+`systemsetup -setsleep off -setrestartpowerfailure on -setrestartfreeze on`
 
-- Make the machine never sleep; restart on freeze & power failure
-
-`systemsetup -setsleep off`
-
-`systemsetup -setrestartpowerfailure on`
-
-`systemsetup -setrestartfreeze on`
-
-- List valid startup disks, specify a new startup disk
+- List valid startup disks:
 
 `systemsetup -liststartupdisks`
+
+- Specify a new startup disk:
 
 `systemsetup -setstartupdisk {{path}}`
