@@ -10,6 +10,6 @@
 
 `mkdir -p {{path}}`
 
-- Create multiple directories recursively (note the curly braces, marking directory set):
+- Create complex directory structure:
 
-`mkdir -p dir1/dir2/{dir3/{dir4,dir5},dir6,dir7}`
+`mkdir -p dir1/{sub_dir2/{sub_sub_dir3,sub_sub_dir4},sub_dir4,sub_dir6}`
