@@ -1,6 +1,6 @@
 # notify-send
 
-Uses the current desktop environment's notification system to create a notification.
+> Uses the current desktop environment's notification system to create a notification.
 
 - Send out a notification with the title "Test" and the content "This is a test":
 
