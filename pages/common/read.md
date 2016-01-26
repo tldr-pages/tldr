@@ -2,6 +2,7 @@
 
 > BASH builtin for retrieving data from standard input
 
+<<<<<<< HEAD
 - Store data that you type from the keyboard:
 
 `read {{variable}}`
@@ -19,5 +20,24 @@
 `read -n {{character_count}} {{variable}}
 
 - Use a specific character as a delimiter instead of a new line:
+=======
+- store data that you type from the keyboard
+
+`read {{variable}}`
+
+- store each of the next lines you enter as values of an array
+
+`read -a {{array}}
+
+- enable backspace and GNU readline hotkeys when entering input with read
+
+`read -e {{variable}}
+
+- specify the number of maximum characters to be read
+
+`read -n {{character_count}} {{variable}}
+
+- use a specific character as a delimiter instead of a new line
+>>>>>>> fd0bcd16816af623482a28042bded704fc203620
 
 `read -d {{delimiter}} {{variable}}
