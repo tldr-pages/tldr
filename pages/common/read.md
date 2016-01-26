@@ -2,7 +2,6 @@
 
 > BASH builtin for retrieving data from standard input
 
-<<<<<<< HEAD
 - Store data that you type from the keyboard:
 
 `read {{variable}}`
