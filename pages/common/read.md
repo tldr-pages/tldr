@@ -20,7 +20,7 @@
 `read -n {{character_count}} {{variable}}
 
 - Use a specific character as a delimiter instead of a new line:
-=======
+
 - store data that you type from the keyboard
 
 `read {{variable}}`
@@ -38,6 +38,5 @@
 `read -n {{character_count}} {{variable}}
 
 - use a specific character as a delimiter instead of a new line
->>>>>>> fd0bcd16816af623482a28042bded704fc203620
 
 `read -d {{delimiter}} {{variable}}
