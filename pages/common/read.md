@@ -20,6 +20,4 @@
 
 - Use a specific character as a delimiter instead of a new line:
 
-- Store data that you type from the keyboard:
-
-`read -d {{delimiter}} {{variable}}`
+`read -d {{new_delimiter}} {{variable}}`
