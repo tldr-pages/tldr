@@ -18,6 +18,10 @@
 
 `xz -k {{file}}`
 
-- Compress a file and attempt to improve compression ratio by using more CPU time:
+- Compress a file using fastest compression:
 
-`xz -e {{file}}`
+`xz -0 {{file}}`
+
+- Compress a file using best compression:
+
+`xz -9 {{file}}`
