@@ -11,14 +11,14 @@
 
 `lsof -i :{{port}}`
 
-- Only output the process PI:
+- Only output the process PID:
 
 `lsof -t {{/path/to/file}}`
 
-- List files opened by the given use:
+- List files opened by the given user:
 
 `lsof -u {{username}}`
 
-- List files opened by the given command or proces:
+- List files opened by the given command or process:
 
 `lsof -c {{process_or_command_name}}`
