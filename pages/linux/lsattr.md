@@ -14,10 +14,10 @@
 
 `lsattr -R`
 
-- Show attributes of all the files in the directory, including hidden ones:
+- Show attributes of all the files in the current directory, including hidden ones:
 
 `lsattr -a`
 
-- Display attributes of directories:
+- Display attributes of directories in the current directory:
 
 `lsattr -d`
