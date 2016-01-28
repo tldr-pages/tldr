@@ -1,6 +1,6 @@
-# Airport
+# airport
 
-> Airport utility.
+> Wireless network configuration utility.
 
 - Create a symlink so you can easily run 'airport' without specifying a path:
 
