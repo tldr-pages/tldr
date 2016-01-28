@@ -6,11 +6,11 @@
 
 `optipng {{file.png}}`
 
-- Compress a PNG as optimally (but slowly) as possible:
+- Compress a PNG with best compression:
 
 `optipng -o{{7}} {{file.png}}`
 
-- Compress a PNG as quickly (but non-optimally) as possible:
+- Compress a PNG with fastest compression:
 
 `optipng -o{{0}} {{file.png}}`
 
