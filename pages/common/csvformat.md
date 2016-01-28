@@ -3,7 +3,7 @@
 > Convert a CSV file to a custom output format.
 > Included in csvkit.
 
-- Convert to a tab-delimited file:
+- Convert to a tab-delimited file (TSV):
 
 `csvformat -T {{data.csv}}`
 
@@ -11,14 +11,14 @@
 
 `csvformat -D "{{custom_character}}" {{data.csv}}`
 
-- Convert line endings to carriage return + line feed:
+- Convert line endings to carriage return (^M) + line feed:
 
 `csvformat -M "{{\r\n}}" {{data.csv}}`
 
-- Convert to minimal use of quote characters:
+- Minimize use of quote characters:
 
 `csvformat -U 0 {{data.csv}}`
 
-- Convert to maximum use of quote characters:
+- Maximize use of quote characters:
 
 `csvformat -U 1 {{data.csv}}`
