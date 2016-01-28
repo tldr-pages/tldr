@@ -2,18 +2,18 @@
 
 > Generate ssh keys user for authentication, password-less logins, and other things.
 
-- Generate a key interactivel:
+- Generate a key interactively:
 
 `ssh-keygen`
 
-- Generate a DSA 2048 bit (default) ke:
+- Generate a DSA 2048 bit (default) key:
 
 `ssh-keygen -t dsa`
 
-- Generate an RSA 4096 bit key with your email as a commen:
+- Generate an RSA 4096 bit key with your email as a comment:
 
 `ssh-keygen -t rsa -b 4096 -C "{{email}}"`
 
-- Retrieve the key fingerprint from a host (useful for confirming the authenticity of the host when first connecting to it via SSH:
+- Retrieve the key fingerprint from a host (useful for confirming the authenticity of the host when first connecting to it via SSH):
 
 `ssh-keygen -l -F {{remote_host}}`
