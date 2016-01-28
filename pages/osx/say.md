@@ -8,7 +8,7 @@
 
 - Speak a file aloud:
 
-`say -f {{filename}}`
+`say -f {{filename.txt}}`
 
 - Speak a phrase with a custom voice and speech rate:
 
