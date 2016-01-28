@@ -10,6 +10,6 @@
 
 `pngcrush -d {{path/to/output}} *.png`
 
-- Compress PNG file with best (but slowest) possible compression:
+- Compress PNG file with best compression:
 
 `pngcrush -rem allb -brute -reduce {{in.png}} {{out.png}}`
