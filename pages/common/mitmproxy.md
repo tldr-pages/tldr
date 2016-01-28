@@ -6,6 +6,6 @@
 
 `mitmproxy`
 
-- Start mitmproxy binded to custom address and port:
+- Start mitmproxy bound to custom address and port:
 
 `mitmproxy -b {{ip_address}} -p {{port}}`
