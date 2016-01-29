@@ -66,7 +66,7 @@ clients that need to extract a single description/example.
 
 ## Submitting a pull request
 
-TL;DR: fork, `make setup`, feature branch, commit, push, pull request, check Travis.
+TL;DR: fork, clone, `npm install`, feature branch, commit, push, pull request, check Travis.
 
 Detailed explanation:
 
@@ -103,10 +103,10 @@ Detailed explanation:
    git checkout -b <topic-branch-name>
    ```
 
-5. Run `make lint` to check that your page(s) are correct. Try to run the commands you are describing to ensure the syntax is correct.
+5. Run `npm test` to check that your page(s) are correct. Try to run the commands you are describing to ensure the syntax is correct.
 
    You can use the formatting features of [tldr-lint](https://github.com/tldr-pages/tldr-lint)
-   (installed through `make setup` or alternatively `npm install tldr-lint`)
+   (installed through `npm install`)
    to automatically fix any mistakes you may have missed.
    Try `tldr tldrl` for a quick how-to.
 
