@@ -3,13 +3,13 @@
 > JavaScript and Node.js package manager.
 > Manage Node.js projects and their module dependencies.
 
-- Download all dependencies referenced in package.json:
-
-`npm install`
-
 - Download and install a module globally:
 
 `npm install -g {{module_name}}`
+
+- Download all dependencies referenced in package.json:
+
+`npm install`
 
 - Download a given dependency, and add it to the package.json:
 
