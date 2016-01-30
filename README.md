@@ -56,6 +56,8 @@ You can access these pages on your computer using one of the following clients:
 - iOS client:
   - [tldr-man-page](https://github.com/freesuraj/TLDR), available on
     [App Store](https://appsto.re/sg/IQ0-_.i)
+  - [tldr-pages](https://github.com/mflint/ios-tldr-viewer), available on
+  [App Store](https://itunes.apple.com/us/app/tldr-pages/id1071725095?ls=1&mt=8)
 - [Ruby client](https://github.com/YellowApple/tldrb): `gem install tldrb`
 - Rust clients:
     - [rust-tldr](https://github.com/rilut/rust-tldr) (online lookup): `cargo install tldr`
