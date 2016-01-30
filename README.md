@@ -53,7 +53,7 @@ You can access these pages on your computer using one of the following clients:
     [Google Play](https://play.google.com/store/apps/details?id=de.gianasista.tldr_viewer)
   - [tldroid](https://github.com/hidroh/tldroid), available on
     [Google Play](https://play.google.com/store/apps/details?id=io.github.hidroh.tldroid)
-- iOS client:
+- iOS clients:
   - [tldr-man-page](https://github.com/freesuraj/TLDR), available on
     [App Store](https://appsto.re/sg/IQ0-_.i)
   - [tldr-pages](https://github.com/mflint/ios-tldr-viewer), available on
