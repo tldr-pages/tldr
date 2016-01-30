@@ -1,10 +1,7 @@
 # npm
 
-> Node package manager, to manage Node.js projects and install module dependencies.
-
-- Create a new project in the current folder:
-
-`npm init`
+> JavaScript and Node.js package manager.
+> Manage Node.js projects and their module dependencies.
 
 - Download all dependencies referenced in package.json:
 
@@ -18,14 +15,14 @@
 
 `npm install {{module_name}}@{{version}} --save`
 
-- Set the version of the current project:
+- Uninstall a module:
 
-`npm version {{1.2.3}}`
+`npm uninstall {{module_name}}`
 
-- Publish the current project:
+- List a tree of installed modules:
 
-`npm publish`
+`npm list`
 
-- Cleanup packages (removes packages which are installed but are not listed in `package.json`):
+- Interactively create a package.json file:
 
-`npm prune`
+`npm init`
