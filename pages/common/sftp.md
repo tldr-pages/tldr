@@ -1,7 +1,8 @@
 # sftp
 
-> Secure file transfer program.
-> Copy files between hosts using Secure File Transfer Protocol over SSH.
+> Secure File Transfer Program.
+> Interactive program to copy files between hosts over SSH.
+> For non-interactive file transfers, see `scp` or `rsync`.
 
 - Connect to a remote server and enter an interactive command mode:
 
@@ -9,12 +10,20 @@
 
 - Connect using an alternate port:
 
-`sftp -P {{remote_port}} {{remote_host}}`
+`sftp -P {{remote_port}} {{remote_user}}@{{remote_host}}`
 
-- Copy a local file to a remote host:
+- Transfer remote file to the local system:
 
-`sftp {{local_file}} {{remote_host}}:{{/path/remote_file}}`
+`get {{/path/remote_file}}`
 
-- Copy a remote file to the local host:
+- Transfer local file to the remote system:
 
-`sftp {{remote_host}}:{{/path/remote_file}} {{local_file}}`
+`put {{/path/local_file}}`
+
+- Get list of files on local machine:
+
+`lls`
+
+- Get list of files on remote machine:
+
+`ls`
