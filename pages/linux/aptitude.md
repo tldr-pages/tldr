@@ -6,7 +6,7 @@
 
 `aptitude update`
 
-- Install a new package:
+- Install a new package and its dependencies:
 
 `aptitude install {{package}}`
 
@@ -14,9 +14,13 @@
 
 `aptitude search {{package}}`
 
-- Remove a package:
+- Remove a package and all packages depending on it:
 
 `aptitude remove {{package}}`
+
+- Do an `aptitude remove {{package}}` and remove all config files:
+
+`aptitude purge {{package}}`
 
 - Upgrade installed packages to newest available versions:
 
