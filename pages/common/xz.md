@@ -18,10 +18,10 @@
 
 `xz -k {{file}}`
 
-- Compress a file using fastest compression:
+- Compress a file using the fastest compression:
 
 `xz -0 {{file}}`
 
-- Compress a file using best compression:
+- Compress a file using the best compression:
 
 `xz -9 {{file}}`
