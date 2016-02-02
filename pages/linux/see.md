@@ -6,10 +6,10 @@
 
 `see {{filename}}`
 
-- See action can be used to view any file (usually image) on default mailcap explorer:
+- see action can be used to view any file (usually image) on default mailcap explorer
 
 `see {{filename}}`
 
-- Using with run-mailcap.
+- using with run-mailcap
 
 `run-mailcap --action=view {{filename}}`
