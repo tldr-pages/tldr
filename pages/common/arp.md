@@ -4,9 +4,13 @@
 
 - Show current arp table:
 
-`arp`
+`arp -a`
 
-- Delete an entry:
+- Clear the entire cache:
+
+`sudo arp -a -d`
+
+- Delete a specific entry:
 
 `arp -d {{address}}`
 
