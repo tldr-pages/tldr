@@ -11,15 +11,14 @@
 
 `run-mailcap --action=ACTION {{filename}}`
 
-- Turns on extra information to find out what is happening:
+- Turn on extra information:
 
 `run-mailcap --debug --action=ACTION {{options}}`
 
-- Ignores  any  "copiousoutput" directive and sends output to STD‐OUT:
+- Ignore any "copiousoutput" directive and forward output to STD‐OUT:
 
 `--nopager`
 
-- Displays the found command without actually executing it:
+- Display the found command without actually executing it:
 
 `--norun`
-
