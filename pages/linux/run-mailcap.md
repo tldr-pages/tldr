@@ -2,9 +2,7 @@
 
 > Run MailCap Programs ( set of essential tools with minimal features )
 
-> run-mailcap,  view,  see,  edit,  compose, print - execute programs via entries in the mailcap file
-
-- run-mailcap (or any of its  aliases)  will  use  the  given  action  to process  each  mime-type/file
+- run-mailcap view,  see,  edit,  compose, print - execute programs via entries in the mailcap file (or any of its  aliases)  will  use  the  given  action  to process  each  mime-type/file.
 
 - Individual actions/programs on run-mailcap can be invoked with action flag
 
