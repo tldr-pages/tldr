@@ -11,7 +11,7 @@
 
 `run-mailcap --action=ACTION {{filename}}`
 
-- You might see some commands invoking run-mailcap's actions directly like see , print , compose these all are aliases to some of run-mailcap's actions.
+- You might see some commands invoking run-mailcap's actions directly like see , print , compose these all are aliases to some of run-mailcap's actions:
 
 - Turns on extra information to find out what is happening:
 
