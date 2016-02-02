@@ -1,11 +1,11 @@
 # see
 
-> Alias to run-mailcap's view
+> Alias to run-mailcap's view.
 
-- See action can be used to view any file (usually image) on default mailcap explorer
+- See action can be used to view any file (usually image) on default mailcap explorer:
 
 `see {{filename}}`
 
-- with run-mailcap
+- Using with run-mailcap:
 
 `run-mailcap --action=view {{filename}}`
