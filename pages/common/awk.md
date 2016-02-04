@@ -6,6 +6,10 @@
 
 `awk '{print $5}' {{filename}}`
 
+- Print the second column of the lines containing "something" in a space separated file:
+
+`awk '/{{something}}/ {print $2}' {{filename}}`
+
 - Print the third column in a comma separated file:
 
 `awk -F ',' '{print $3}' {{filename}}`
