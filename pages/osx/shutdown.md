@@ -4,16 +4,16 @@
 
 - Power off (halt) immediately:
 
-`shutdown -h now`
+    shutdown -h now
 
 - Sleep immediately:
 
-`shutdown -s now`
+    shutdown -s now
 
 - Reboot immediately:
 
-`shutdown -r now`
+    shutdown -r now
 
 - Reboot in 5 minutes:
 
-`shutdown -r +{{5}}`
+    shutdown -r +{{5}}

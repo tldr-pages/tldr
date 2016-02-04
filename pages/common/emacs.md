@@ -4,12 +4,12 @@
 
 - Open emacs in console mode (without X window):
 
-`emacs -nw`
+    emacs -nw
 
 - Open a file in emacs:
 
-`emacs {{filename}}`
+    emacs {{filename}}
 
 - Exit emacs:
 
-`C-x C-c`
+    C-x C-c

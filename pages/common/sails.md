@@ -4,20 +4,20 @@
 
 - Start Sails:
 
-`sails lift`
+    sails lift
 
 - Create new Sails project:
 
-`sails new {{projectName}}`
+    sails new {{projectName}}
 
 - Generate Sails API:
 
-`sails generate {{name}}`
+    sails generate {{name}}
 
 - Generate Sails Controller:
 
-`sails generate controller {{name}}`
+    sails generate controller {{name}}
 
 - Generate Sails Model:
 
-`sails generate model {{name}}`
+    sails generate model {{name}}

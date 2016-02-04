@@ -4,12 +4,12 @@
 
 - Find a file by its name:
 
-`mdfind -name {{file}}`
+    mdfind -name {{file}}
 
 - Find a file by its content:
 
-`mdfind {{query}}`
+    mdfind {{query}}
 
 - Find a file containing a string, in a given directory:
 
-`mdfind -onlyin {{directory}} {{query}}`
+    mdfind -onlyin {{directory}} {{query}}

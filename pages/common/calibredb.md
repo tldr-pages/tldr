@@ -5,20 +5,20 @@
 
 - List ebooks in the library with additional information:
 
-`calibredb list`
+    calibredb list
 
 - Search for ebooks displaying additional information:
 
-`calibredb list --search {{search-term}}`
+    calibredb list --search {{search-term}}
 
 - Search for just ids of ebooks:
 
-`calibredb search {{search term}}`
+    calibredb search {{search term}}
 
 - Add one or more ebooks to the library:
 
-`calibredb add {{file1 file2 …}}`
+    calibredb add {{file1 file2 …}}
 
 - Remove one or more ebooks from the library. You need ebook-ids (see above):
 
-`calibredb remove {{id1 id2 …}}`
+    calibredb remove {{id1 id2 …}}

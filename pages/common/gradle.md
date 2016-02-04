@@ -4,12 +4,12 @@
 
 - Compile a package:
 
-`gradle build`
+    gradle build
 
 - Clear the build folder:
 
-`gradle clean`
+    gradle clean
 
 - Compile and Release package:
 
-`gradle assembleRelease`
+    gradle assembleRelease

@@ -4,28 +4,28 @@
 
 - Synchronize all packages:
 
-`emerge --sync`
+    emerge --sync
 
 - Update all packages, including dependencies:
 
-`emerge -uDNav @world`
+    emerge -uDNav @world
 
 - Resume a failed updated, skipping the failing package:
 
-`emerge --resume --skipfirst`
+    emerge --resume --skipfirst
 
 - Install a new package, with confirmation:
 
-`emerge -av {{package-name}}`
+    emerge -av {{package-name}}
 
 - Remove a package, with confirmation:
 
-`emerge -Cav {{package-name}}`
+    emerge -Cav {{package-name}}
 
 - Remove orphaned packages (that were installed only as dependencies):
 
-`emerge -avc`
+    emerge -avc
 
 - Search the package database for a keyword:
 
-`emerge -S {{keyword}}`
+    emerge -S {{keyword}}

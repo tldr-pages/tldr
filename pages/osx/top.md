@@ -4,20 +4,20 @@
 
 - Start top, all options are available in the interface:
 
-`top`
+    top
 
 - Start top sorting processes by internal memory size (default order - process ID):
 
-`top -o mem`
+    top -o mem
 
 - Start top sorting processes first by CPU, then by running time:
 
-`top -o cpu -O time`
+    top -o cpu -O time
 
 - Start top displaying only processes owned by given user:
 
-`top -user {{user-name}}`
+    top -user {{user-name}}
 
 - Get help about interactive commands:
 
-`?`
+    ?

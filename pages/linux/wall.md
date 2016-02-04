@@ -5,12 +5,12 @@
 
 - Send a message:
 
-`echo "{{message}}" | wall`
+    echo "{{message}}" | wall
 
 - Send a message from a file:
 
-`wall {{file}}`
+    wall {{file}}
 
 - Send a message with timeout (default 300):
 
-`wall -t {{seconds}} {{file}}`
+    wall -t {{seconds}} {{file}}

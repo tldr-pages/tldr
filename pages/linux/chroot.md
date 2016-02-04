@@ -4,8 +4,8 @@
 
 - Run command as new root directory:
 
-`chroot {{/path/to/new/root}} {{command}}`
+    chroot {{/path/to/new/root}} {{command}}
 
 - Specify user and group (ID or name) to use:
 
-`chroot −−userspec={{user:group}}`
+    chroot −−userspec={{user:group}}

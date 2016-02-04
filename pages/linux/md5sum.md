@@ -4,12 +4,12 @@
 
 - Calculate the MD5 checksum for a file:
 
-`md5sum {{filename1}}`
+    md5sum {{filename1}}
 
 - Calculate MD5 checksums for multiple files:
 
-`md5sum {{filename1}} {{filename2}}`
+    md5sum {{filename1}} {{filename2}}
 
 - Read a file of MD5SUMs and verify all files have matching checksums:
 
-`md5sum -c {{filename.md5}}`
+    md5sum -c {{filename.md5}}

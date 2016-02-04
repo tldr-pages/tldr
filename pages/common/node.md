@@ -4,12 +4,12 @@
 
 - Run a JavaScript file:
 
-`node {{file}}.js`
+    node {{file}}.js
 
 - Start a REPL loop (interactive shell):
 
-`node`
+    node
 
 - Evaluate JavaScript by passing it in the command:
 
-`node -e "{{code}}"`
+    node -e "{{code}}"

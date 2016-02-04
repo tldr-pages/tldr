@@ -4,20 +4,20 @@
 
 - List available bookmarks:
 
-`l`
+    l
 
 - Save the current folder as "bookmark_name":
 
-`s {{bookmark_name}}`
+    s {{bookmark_name}}
 
 - Go to a bookmarked folder:
 
-`g {{bookmark_name}}`
+    g {{bookmark_name}}
 
 - Print a bookmarked folder's contents:
 
-`p {{bookmark_name}}`
+    p {{bookmark_name}}
 
 - Delete a bookmark:
 
-`d {{bookmark_name}}`
+    d {{bookmark_name}}

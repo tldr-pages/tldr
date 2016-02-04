@@ -4,12 +4,12 @@
 
 - Switch to directory and push it on the stack:
 
-`pushd < {{directory}}`
+    pushd < {{directory}}
 
 - Switch first and second directories on the stack:
 
-`pushd`
+    pushd
 
 - Rotate stack by making the 5th element the top of the stack:
 
-`pushd +4`
+    pushd +4

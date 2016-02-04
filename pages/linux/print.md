@@ -5,8 +5,8 @@
 
 - Print action can be used to print any file on default run-mailcap tool:
 
-`print {{filename}}`
+    print {{filename}}
 
 - With `run-mailcap`:
 
-`run-mailcap --action=print {{filename}}`
+    run-mailcap --action=print {{filename}}

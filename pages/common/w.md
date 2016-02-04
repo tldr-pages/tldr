@@ -5,8 +5,8 @@
 
 - Show logged-in users info:
 
-`w`
+    w
 
 - Show logged-in users info without a header:
 
-`w -h`
+    w -h

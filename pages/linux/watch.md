@@ -4,12 +4,12 @@
 
 - Monitor files in the current folder:
 
-`watch {{ls}}`
+    watch {{ls}}
 
 - Monitor disk space and highlight the changes:
 
-`watch -d {{df}}`
+    watch -d {{df}}
 
 - Monitor "node" processes, refreshing every 3 seconds:
 
-`watch -n {{3}} "{{ps aux | grep node}}"`
+    watch -n {{3}} "{{ps aux | grep node}}"

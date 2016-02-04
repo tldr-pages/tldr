@@ -4,12 +4,12 @@
 
 - List all input devices:
 
-`xinput list`
+    xinput list
 
 - Disconnect an input from its master:
 
-`xinput float {{id}}`
+    xinput float {{id}}
 
 - Reattach an input as slave to a master:
 
-`xinput float {{id}} {{master_id}}`
+    xinput float {{id}} {{master_id}}

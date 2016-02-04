@@ -4,12 +4,12 @@
 
 - Change priority of a running process:
 
-`renice -n {{niceness_value}} -p {{pid}}`
+    renice -n {{niceness_value}} -p {{pid}}
 
 - Change priority of all processes owned by a user:
 
-`renice -n {{niceness_value}} -u {{user}}`
+    renice -n {{niceness_value}} -u {{user}}
 
 - Change priority of all processes that belongs to a group:
 
-`renice -n {{niceness_value}} -g {{group}}`
+    renice -n {{niceness_value}} -g {{group}}

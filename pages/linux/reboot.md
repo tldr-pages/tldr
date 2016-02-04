@@ -4,8 +4,8 @@
 
 - Reboot immediately:
 
-`reboot`
+    reboot
 
 - Reboot immediately without gracefully shutdown:
 
-`reboot -f`
+    reboot -f

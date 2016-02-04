@@ -5,8 +5,8 @@
 
 - Kill the process:
 
-`kill {{process_id}}`
+    kill {{process_id}}
 
 - List signal names:
 
-`kill -l`
+    kill -l

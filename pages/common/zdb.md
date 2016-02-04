@@ -4,12 +4,12 @@
 
 - Show detailed configuration of all mounted ZFS zpools:
 
-`zdb`
+    zdb
 
 - Show detailed configuration for a specific ZFS pool:
 
-`zdb -C {{poolname}}`
+    zdb -C {{poolname}}
 
 - Show statistics about number, size and deduplication of blocks:
 
-`zdb -b {{poolname}}`
+    zdb -b {{poolname}}

@@ -4,12 +4,12 @@
 
 - Extract zip file(s) (for multiple files, seperate file paths by spaces):
 
-`unzip {{file(s)}}`
+    unzip {{file(s)}}
 
 - Extract zip files(s) to given path:
 
-`unzip {{files(s)}} -d {{/path/to/put/extracted/files}}`
+    unzip {{files(s)}} -d {{/path/to/put/extracted/files}}
 
 - List the contents of a zip file without extracting:
 
-`unzip -l {{file}}`
+    unzip -l {{file}}

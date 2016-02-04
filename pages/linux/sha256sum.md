@@ -4,12 +4,12 @@
 
 - Calculate the SHA256 checksum for a file:
 
-`sha256sum {{filename1}}`
+    sha256sum {{filename1}}
 
 - Calculate SHA224 checksums for multiple files:
 
-`sha256sum {{filename1}} {{filename2}}`
+    sha256sum {{filename1}} {{filename2}}
 
 - Read a file of SHA256 sums and verify all files have matching checksums:
 
-`sha256sum -c {{filename.sha256}}`
+    sha256sum -c {{filename.sha256}}

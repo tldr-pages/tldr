@@ -5,16 +5,16 @@
 
 - Print indices and names of all columns:
 
-`csvcut -n {{data.csv}}`
+    csvcut -n {{data.csv}}
 
 - Extract the first and third columns:
 
-`csvcut -c {{1,3}} {{data.csv}}`
+    csvcut -c {{1,3}} {{data.csv}}
 
 - Extract all columns **except** the fourth one:
 
-`csvcut -C {{4}} {{data.csv}}`
+    csvcut -C {{4}} {{data.csv}}
 
 - Extract the columns named "id" and "first name" (in that order):
 
-`csvcut -c {{id,"first name"}} {{data.csv}}`
+    csvcut -c {{id,"first name"}} {{data.csv}}

@@ -5,4 +5,4 @@
 
 - View a CSV file:
 
-`csvlook {{data.csv}}`
+    csvlook {{data.csv}}

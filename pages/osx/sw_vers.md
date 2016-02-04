@@ -4,8 +4,8 @@
 
 - Print OSX Version:
 
-`sw_vers -productVersion`
+    sw_vers -productVersion
 
 - Print OSX Build:
 
-`sw_vers -buildVersion`
+    sw_vers -buildVersion

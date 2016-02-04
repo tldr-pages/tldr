@@ -4,4 +4,4 @@
 
 - Remove all EXIF metadata from the given files:
 
-`exiftool -All= {{file}}`
+    exiftool -All= {{file}}

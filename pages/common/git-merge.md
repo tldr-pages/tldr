@@ -4,8 +4,8 @@
 
 - Merge a branch with your current branch:
 
-`git merge {{BRANCH-NAME}}`
+    git merge {{BRANCH-NAME}}
 
 - Edit the merge message:
 
-`git merge -e {{BRANCH-NAME}}`
+    git merge -e {{BRANCH-NAME}}

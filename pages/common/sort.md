@@ -4,12 +4,12 @@
 
 - Sort a file in ascending order:
 
-`sort {{filename}}`
+    sort {{filename}}
 
 - Sort a file in descending order:
 
-`sort -r {{filename}}`
+    sort -r {{filename}}
 
 - Sort passwd file by the 3rd field:
 
-`sort -t: -k 3n /etc/passwd`
+    sort -t: -k 3n /etc/passwd

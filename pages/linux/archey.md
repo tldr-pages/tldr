@@ -4,4 +4,4 @@
 
 - Show system information:
 
-`archey`
+    archey

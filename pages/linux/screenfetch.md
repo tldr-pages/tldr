@@ -4,20 +4,20 @@
 
 - Start screenfetch:
 
-`screenfetch`
+    screenfetch
 
 - Take a screenshot (requires 'scrot'):
 
-`screenfetch -s`
+    screenfetch -s
 
 - Specify distribution logo:
 
-`screenfetch -A '{{distribution_name}}'`
+    screenfetch -A '{{distribution_name}}'
 
 - Specify distribution logo and text:
 
-`screenfetch -D '{{distribution_name}}'`
+    screenfetch -D '{{distribution_name}}'
 
 - Strip all color:
 
-`screenfetch -N`
+    screenfetch -N

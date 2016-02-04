@@ -4,20 +4,20 @@
 
 - Synchronize and update all packages (including AUR):
 
-`yaourt -Syua`
+    yaourt -Syua
 
 - Install a new package (includes AUR):
 
-`yaourt -S package-name`
+    yaourt -S package-name
 
 - Remove a package and its dependencies (includes AUR packages):
 
-`yaourt -Rs package-name`
+    yaourt -Rs package-name
 
 - Search the package database for a keyword (including AUR):
 
-`yaourt -Ss package-name`
+    yaourt -Ss package-name
 
 - List installed packages, versions, and repositories (AUR packages will be listed under the repository name 'local'):
 
-`yaourt -Q`
+    yaourt -Q

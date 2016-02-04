@@ -4,24 +4,24 @@
 
 - List all storage devices in a tree-like format:
 
-`lsblk`
+    lsblk
 
 - Also list empty devices:
 
-`lsblk −a`
+    lsblk −a
 
 - Print the SIZE column in bytes rather than in a human-readable format:
 
-`lsblk −b`
+    lsblk −b
 
 - Output info about filesystems:
 
-`lsblk −f`
+    lsblk −f
 
 - Use ASCII characters for tree formatting:
 
-`lsblk −i`
+    lsblk −i
 
 - Output info about block-device topology:
 
-`lsblk −t`
+    lsblk −t

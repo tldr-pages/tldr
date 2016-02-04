@@ -4,8 +4,8 @@
 
 - Launch the vim tutor using the given language (en, fr, de, ...):
 
-`vimtutor {{language}}`
+    vimtutor {{language}}
 
 - Exit the tutor:
 
-`[Esc] (to switch to normal mode), then :q`
+    [Esc] (to switch to normal mode), then :q

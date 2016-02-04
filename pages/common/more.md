@@ -6,16 +6,16 @@
 
 - Open a file:
 
-`more {{source_file}}`
+    more {{source_file}}
 
 - Page down:
 
-`d (next)`
+    d (next)
 
 - Search for a string:
 
-`/{{something}}   then   n (next)`
+    /{{something}}   then   n (next)
 
 - Exit:
 
-`q`
+    q

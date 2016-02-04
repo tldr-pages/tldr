@@ -4,16 +4,16 @@
 
 - Show current arp table:
 
-`arp -a`
+    arp -a
 
 - Clear the entire cache:
 
-`sudo arp -a -d`
+    sudo arp -a -d
 
 - Delete a specific entry:
 
-`arp -d {{address}}`
+    arp -d {{address}}
 
 - Create an entry:
 
-`arp -s {{address}} {{mac address}}`
+    arp -s {{address}} {{mac address}}

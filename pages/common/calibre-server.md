@@ -6,12 +6,12 @@
 
 - Start a server to distribute ebooks. Access at http://localhost:8080:
 
-`calibre-server`
+    calibre-server
 
 - Start server on different port. Access at http://localhost:port:
 
-`calibre-server --port {{port}}`
+    calibre-server --port {{port}}
 
 - Password protect the server:
 
-`calibre-server --username {{username}} --password {{password}}`
+    calibre-server --username {{username}} --password {{password}}

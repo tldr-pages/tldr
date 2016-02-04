@@ -4,20 +4,20 @@
 
 - List all ports:
 
-`netstat -a`
+    netstat -a
 
 - List all listening ports:
 
-`netstat -l`
+    netstat -l
 
 - List listening TCP ports:
 
-`netstat -t`
+    netstat -t
 
 - Display PID and program names for a specific port:
 
-`netstat -p {PROTOCOL}`
+    netstat -p {PROTOCOL}
 
 - List information continuously:
 
-`netstat -c`
+    netstat -c

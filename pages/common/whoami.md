@@ -4,4 +4,4 @@
 
 - Display currently logged user name:
 
-`whoami`
+    whoami

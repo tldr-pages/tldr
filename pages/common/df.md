@@ -4,8 +4,8 @@
 
 - Display all file systems and their disk usage:
 
-`df`
+    df
 
 - Display all file systems and their disk usage in human readable form:
 
-`df -h`
+    df -h

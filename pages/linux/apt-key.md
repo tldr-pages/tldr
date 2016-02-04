@@ -4,16 +4,16 @@
 
 - List trusted keys:
 
-`apt-key list`
+    apt-key list
 
 - Add a key to the trusted keystore:
 
-`apt-key add {{public_key_file.asc}}`
+    apt-key add {{public_key_file.asc}}
 
 - Delete a key from the trusted keystore:
 
-`apt-key del {{key_id}}`
+    apt-key del {{key_id}}
 
 - Add a remote key to the trusted keystore:
 
-`wget -qO - {{https://host.tld/filename.key}} | apt-key add -`
+    wget -qO - {{https://host.tld/filename.key}} | apt-key add -

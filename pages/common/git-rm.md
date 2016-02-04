@@ -4,12 +4,12 @@
 
 - Remove file from repository index and filesystem:
 
-`git rm {{file}}`
+    git rm {{file}}
 
 - Remove directory:
 
-`git rm -r {{directory}}`
+    git rm -r {{directory}}
 
 - Remove file from repository index but keep it untouched locally:
 
-`git rm --cached {{file}}`
+    git rm --cached {{file}}

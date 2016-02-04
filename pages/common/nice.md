@@ -5,4 +5,4 @@
 
 - Launch a program with altered priority:
 
-`nice -n {{niceness_value}} {{command}}`
+    nice -n {{niceness_value}} {{command}}

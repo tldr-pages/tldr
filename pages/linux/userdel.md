@@ -4,4 +4,4 @@
 
 - Remove a user and their home directory:
 
-`userdel -r {{name}}`
+    userdel -r {{name}}

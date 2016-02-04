@@ -4,16 +4,16 @@
 
 - To check the current system clock time:
 
-`timedatectl`
+    timedatectl
 
 - To set the local time of the system clock directly:
 
-`timedatectl set-time {{"yyyy-MM-dd hh:mm:ss"}}`
+    timedatectl set-time {{"yyyy-MM-dd hh:mm:ss"}}
 
 - To list available timezones:
 
-`timedatectl list-timezones`
+    timedatectl list-timezones
 
 - To change timezones:
 
-`timedatectl set-timezone {{timezone}}`
+    timedatectl set-timezone {{timezone}}

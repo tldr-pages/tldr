@@ -4,4 +4,4 @@
 
 - Create a Minix filesystem inside partition 1 on device b (`sdb1`):
 
-`mkfs.minix {{/dev/sdb1}}`
+    mkfs.minix {{/dev/sdb1}}

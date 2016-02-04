@@ -4,24 +4,24 @@
 
 - Start a new screen session:
 
-`screen`
+    screen
 
 - Start a new named screen session:
 
-`screen -S {{name}}`
+    screen -S {{name}}
 
 - Show open screen sessions:
 
-`screen -ls`
+    screen -ls
 
 - Reattach to an open screen:
 
-`screen -r {{screen id}}`
+    screen -r {{screen id}}
 
 - Detach from inside a screen:
 
-`ctrl+A D`
+    ctrl+A D
 
 - Kill a detached screen:
 
-`screen -X -S {{screen id}} quit`
+    screen -X -S {{screen id}} quit

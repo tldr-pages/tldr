@@ -4,12 +4,12 @@
 
 - Compile a source code file into an executable binary:
 
-`clang {{input_source.c}} -o {{output_executable}}`
+    clang {{input_source.c}} -o {{output_executable}}
 
 - Activate output of all errors and warnings:
 
-`clang {{input_source.c}} -Wall -o {{output_executable}}`
+    clang {{input_source.c}} -Wall -o {{output_executable}}
 
 - Include libraries located at a different path than the source file:
 
-`clang {{input_source.c}} -o {{output_executable}} -I{{header_path}} -L{{library_path}} -l{{library_name}}`
+    clang {{input_source.c}} -o {{output_executable}} -I{{header_path}} -L{{library_path}} -l{{library_name}}

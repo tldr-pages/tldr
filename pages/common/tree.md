@@ -4,24 +4,24 @@
 
 - Show files and directories with a depth of 'num':
 
-`tree -L {{num}}`
+    tree -L {{num}}
 
 - Show directories only:
 
-`tree -d`
+    tree -d
 
 - Show hidden files too:
 
-`tree -a`
+    tree -a
 
 - Print human readable size of files:
 
-`tree -h`
+    tree -h
 
 - Print the full path for each file:
 
-`tree -f`
+    tree -f
 
 - Print the tree without lines and indentation. Useful when used with -f:
 
-`tree -i`
+    tree -i
