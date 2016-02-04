@@ -4,16 +4,16 @@
 
 - Print the contents of a file to the standard output:
 
-`cat {{file}}`
+    cat {{file}}
 
 - Concatenate several files into the target file:
 
-`cat {{file1}} {{file2}} > {{target-file}}`
+    cat {{file1}} {{file2}} > {{target-file}}
 
 - Append several files into the target file:
 
-`cat {{file1}} {{file2}} >> {{target-file}}`
+    cat {{file1}} {{file2}} >> {{target-file}}
 
 - Number all output lines:
 
-`cat -n {{file}}`
+    cat -n {{file}}

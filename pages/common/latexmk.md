@@ -5,24 +5,24 @@
 
 - Compile a dvi (DeVice Independent file) document from every source:
 
-`latexmk`
+    latexmk
 
 - Compile a dvi document from a specific source file:
 
-`latexmk {{source.tex}}`
+    latexmk {{source.tex}}
 
 - Compile a pdf document:
 
-`latexmk -pdf {{source.tex}}`
+    latexmk -pdf {{source.tex}}
 
 - Clean up all temporary tex files in the folder:
 
-`latexmk -c`
+    latexmk -c
 
 - Clean up temporary tex files created for a specific tex file:
 
-`latexmk -c {{source.tex}}`
+    latexmk -c {{source.tex}}
 
 - Clean up temporary tex and output files:
 
-`latexmk -C`
+    latexmk -C

@@ -5,20 +5,20 @@
 
 - Enable ufw:
 
-`ufw enable`
+    ufw enable
 
 - Disable ufw:
 
-`ufw disable`
+    ufw disable
 
 - Add ufw allow rule:
 
-`ufw allow {{port}} {{service_name}}`
+    ufw allow {{port}} {{service_name}}
 
 - Add ufw deny rule:
 
-`ufw deny {{port}} {{service_name}}`
+    ufw deny {{port}} {{service_name}}
 
 - Show ufw rules:
 
-`ufw status`
+    ufw status

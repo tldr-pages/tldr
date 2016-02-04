@@ -5,16 +5,16 @@
 
 - Print hardware-related information: machine and processor:
 
-`uname -mp`
+    uname -mp
 
 - Print software-related information: operating system, release number, and version:
 
-`uname -srv`
+    uname -srv
 
 - Print the nodename (hostname) of the system:
 
-`uname -n`
+    uname -n
 
 - Print all available system information (hardware, software, nodename):
 
-`uname -a`
+    uname -a

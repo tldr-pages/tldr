@@ -4,16 +4,16 @@
 
 - Encode a file:
 
-`base64 -i {{plain_file}}`
+    base64 -i {{plain_file}}
 
 - Decode a file:
 
-`base64 -D -i {{base64_file}}`
+    base64 -D -i {{base64_file}}
 
 - Encode from stdin:
 
-`echo {{plain_text}} | base64`
+    echo {{plain_text}} | base64
 
 - Decode from stdin:
 
-`echo {{base64_text}} | base64 -D`
+    echo {{base64_text}} | base64 -D

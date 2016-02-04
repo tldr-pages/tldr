@@ -4,12 +4,12 @@
 
 - Update the ports tree:
 
-`ports -u`
+    ports -u
 
 - List the ports in the current tree:
 
-`ports -l`
+    ports -l
 
 - Check the differences between installed packages and the ports tree:
 
-`ports -d`
+    ports -d

@@ -5,16 +5,16 @@
 
 - List all tags:
 
-`git tag`
+    git tag
 
 - Create a tag with the given name pointing to the current commit:
 
-`git tag {{tag_name}}`
+    git tag {{tag_name}}
 
 - Create an annotated tag with the given message:
 
-`git tag {{tag_name}} -m {{tag_message}}`
+    git tag {{tag_name}} -m {{tag_message}}
 
 - Delete the tag with the given name:
 
-`git tag -d {{tag_name}}`
+    git tag -d {{tag_name}}

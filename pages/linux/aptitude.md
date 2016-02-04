@@ -4,28 +4,28 @@
 
 - Synchronize list of packages and versions available. This should be run first, before running subsequent aptitude commands:
 
-`aptitude update`
+    aptitude update
 
 - Install a new package and its dependencies:
 
-`aptitude install {{package}}`
+    aptitude install {{package}}
 
 - Search for a package:
 
-`aptitude search {{package}}`
+    aptitude search {{package}}
 
 - Remove a package and all packages depending on it:
 
-`aptitude remove {{package}}`
+    aptitude remove {{package}}
 
 - Do an `aptitude remove {{package}}` and remove all config files:
 
-`aptitude purge {{package}}`
+    aptitude purge {{package}}
 
 - Upgrade installed packages to newest available versions:
 
-`aptitude upgrade`
+    aptitude upgrade
 
 - Upgrade installed packages (like `aptitude upgrade`) including removing obsolete packages and installing additional packages to meet new package dependencies:
 
-`aptitude full-upgrade`
+    aptitude full-upgrade

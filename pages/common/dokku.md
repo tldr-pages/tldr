@@ -5,20 +5,20 @@
 
 - List runinng apps:
 
-`dokku apps`
+    dokku apps
 
 - Create an app:
 
-`dokku apps:create {{app_name}}`
+    dokku apps:create {{app_name}}
 
 - Remove an app:
 
-`dokku apps:destroy {{app_name}}`
+    dokku apps:destroy {{app_name}}
 
 - Install plugin:
 
-`dokku plugin:install {{full_repo_url}}`
+    dokku plugin:install {{full_repo_url}}
 
 - Link database to an app:
 
-`dokku {{db}}:link {{db_name}} {{app_name}}`
+    dokku {{db}}:link {{db_name}} {{app_name}}

@@ -4,16 +4,16 @@
 
 - Connect to a database:
 
-`mysql {{database_name}}`
+    mysql {{database_name}}
 
 - Connect to a database, user will be prompted for a password:
 
-`mysql -u {{user}} --password {{database_name}}`
+    mysql -u {{user}} --password {{database_name}}
 
 - Connect to a database on another host:
 
-`mysql -h {{database_host}} {{database_name}}`
+    mysql -h {{database_host}} {{database_name}}
 
 - Execute SQL statements in a script file (batch file):
 
-`mysql {{database_name}} < {{script.sql}}`
+    mysql {{database_name}} < {{script.sql}}

@@ -4,8 +4,8 @@
 
 - Place the contents of a file in the clipboard:
 
-`pbcopy < {{file}}`
+    pbcopy < {{file}}
 
 - Place the results of a command in the clipboard:
 
-`find . -type t -name "*.png" | pbcopy`
+    find . -type t -name "*.png" | pbcopy

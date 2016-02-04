@@ -4,16 +4,16 @@
 
 - Display system memory:
 
-`free`
+    free
 
 - Display memory in Bytes/KB/MB/GB:
 
-`free {{-b/-k/-m/-g}}`
+    free {{-b/-k/-m/-g}}
 
 - Display memory in human readable units:
 
-`free -h`
+    free -h
 
 - Continuous monitor memory (refresh every X seconds):
 
-`free -s {{X}}`
+    free -s {{X}}

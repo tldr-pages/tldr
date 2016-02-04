@@ -4,32 +4,32 @@
 
 - Synchronize and update all packages:
 
-`pacman -Syu`
+    pacman -Syu
 
 - Install a new package:
 
-`pacman -S package-name`
+    pacman -S package-name
 
 - Remove a package and its dependencies:
 
-`pacman -Rs package-name`
+    pacman -Rs package-name
 
 - Search the package database for a keyword:
 
-`pacman -Ss icon theme`
+    pacman -Ss icon theme
 
 - List installed packages and versions:
 
-`pacman -Q`
+    pacman -Q
 
 - List only the explicitly installed packages and versions:
 
-`pacman -Qe`
+    pacman -Qe
 
 - Find which package owns a certain file:
 
-`pacman -Qo filename`
+    pacman -Qo filename
 
 - Empty package cache to free up space:
 
-`pacman -Scc`
+    pacman -Scc

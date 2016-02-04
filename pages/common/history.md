@@ -4,8 +4,8 @@
 
 - Display the commands history list with line numbers:
 
-`history`
+    history
 
 - Clear the commands history list (only for `bash`):
 
-`history -c`
+    history -c

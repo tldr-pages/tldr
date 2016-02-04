@@ -4,8 +4,8 @@
 
 - Print a text message. Note: quotes are optional:
 
-`echo {{"Hello World"}}`
+    echo {{"Hello World"}}
 
 - Print a message with environment variables:
 
-`echo {{"My path is $PATH"}}`
+    echo {{"My path is $PATH"}}

@@ -4,16 +4,16 @@
 
 - Check the Git version:
 
-`git --version`
+    git --version
 
 - Call general help:
 
-`git --help`
+    git --help
 
 - Call help on a command:
 
-`git help {{COMMAND}}`
+    git help {{COMMAND}}
 
 - Execute Git command:
 
-`git {{COMMAND}}`
+    git {{COMMAND}}

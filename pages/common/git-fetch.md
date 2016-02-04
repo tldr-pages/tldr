@@ -4,8 +4,8 @@
 
 - Fetch new branches and update remote-tracking branches:
 
-`git fetch {{remote_name}}`
+    git fetch {{remote_name}}
 
 - Fetch the latest changes from all remote git servers:
 
-`git fetch --all`
+    git fetch --all

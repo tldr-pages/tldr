@@ -4,20 +4,20 @@
 
 - List all mounted filesystems:
 
-`findmnt`
+    findmnt
 
 - Search for a device:
 
-`findmnt {{/dev/sdb1}}`
+    findmnt {{/dev/sdb1}}
 
 - Search for a mountpoint:
 
-`findmnt {{/}}`
+    findmnt {{/}}
 
 - Find filesystems in specific type:
 
-`findmnt -t {{ext4}}`
+    findmnt -t {{ext4}}
 
 - Find filesystems with specific label:
 
-`findmnt LABEL={{BigStorage}}`
+    findmnt LABEL={{BigStorage}}

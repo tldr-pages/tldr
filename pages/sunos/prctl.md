@@ -5,12 +5,12 @@
 
 - Examine process limits and permissions:
 
-`prctl {{PID}}`
+    prctl {{PID}}
 
 - Examine process limits and permissions in machine parseable format:
 
-`prctl -P {{PID}}`
+    prctl -P {{PID}}
 
 - Get specific limit for a running process:
 
-`prctl -n process.max-file-descriptor {{PID}}`
+    prctl -n process.max-file-descriptor {{PID}}

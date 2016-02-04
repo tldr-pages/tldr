@@ -5,12 +5,12 @@
 
 - Show logged-in users info:
 
-`w`
+    w
 
 - Show logged-in users info without a header:
 
-`w -h`
+    w -h
 
 - Show info about logged-in users, sorted by their idle time:
 
-`w -i`
+    w -i

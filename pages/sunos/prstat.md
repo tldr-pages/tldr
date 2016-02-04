@@ -4,20 +4,20 @@
 
 - Examine all processes and reports statistics sorted by CPU usage:
 
-`prstat`
+    prstat
 
 - Examine all processes and reports statistics sorted by memory usage:
 
-`prstat -s rss`
+    prstat -s rss
 
 - Report total usage summary for each user:
 
-`prstat -t`
+    prstat -t
 
 - Report microstate process accounting information:
 
-`prstat -m`
+    prstat -m
 
 - Print out a list of top 5 cpu using processes every second:
 
-`prstat -c -n 5 -s cpu 1`
+    prstat -c -n 5 -s cpu 1

@@ -4,12 +4,12 @@
 
 - Download changes from default remote repository and merge it:
 
-`git pull`
+    git pull
 
 - Download changes from default remote repository and use fast forward:
 
-`git pull --rebase`
+    git pull --rebase
 
 - Download changes from given remote repository and branch, then merge them into HEAD:
 
-`git pull {{remote_name}} {{branch}}`
+    git pull {{remote_name}} {{branch}}

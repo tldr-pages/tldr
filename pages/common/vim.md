@@ -4,16 +4,16 @@
 
 - Open a file with cursor at the given line number:
 
-`vim {{file}} +{{linenumber}}`
+    vim {{file}} +{{linenumber}}
 
 - Open multiple files at once, each file in it's own tab page:
 
-`vim -p {{file1}} {{file2}} {{file3}}`
+    vim -p {{file1}} {{file2}} {{file3}}
 
 - Open a file in read-only mode:
 
-`view {{file}}`
+    view {{file}}
 
 - Exit vim:
 
-`[Esc] (to switch to normal mode), then :q`
+    [Esc] (to switch to normal mode), then :q

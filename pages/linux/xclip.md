@@ -4,8 +4,8 @@
 
 - Copy output to clipboard:
 
-`echo 123 | xclip -i`
+    echo 123 | xclip -i
 
 - Paste clipboard:
 
-`xclip -o > file.txt`
+    xclip -o > file.txt

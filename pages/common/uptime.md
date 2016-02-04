@@ -4,4 +4,4 @@
 
 - Print current time, uptime, number of logged-in users and other information:
 
-`uptime`
+    uptime

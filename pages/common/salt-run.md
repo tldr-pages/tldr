@@ -4,8 +4,8 @@
 
 - Show status of all minions:
 
-`salt-run manage.status`
+    salt-run manage.status
 
 - Show all minions which are disconnected:
 
-`salt-run manage.up`
+    salt-run manage.up

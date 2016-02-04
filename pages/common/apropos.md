@@ -5,8 +5,8 @@
 
 - Search for keyword:
 
-`apropos {{regular_expression}}`
+    apropos {{regular_expression}}
 
 - Search without restricting output to terminal width:
 
-`apropos -l {{regular_expression}}`
+    apropos -l {{regular_expression}}

@@ -4,16 +4,16 @@
 
 - Find files containing "foo":
 
-`ag foo`
+    ag foo
 
 - Find "foo" in files with a name matching "bar":
 
-`ag foo -G bar`
+    ag foo -G bar
 
 - Find files whose contents match a regular expression:
 
-`ag '^ba(r|z)$'`
+    ag '^ba(r|z)$'
 
 - Find files with a name matching "foo":
 
-`ag -g foo`
+    ag -g foo

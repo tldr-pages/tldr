@@ -4,16 +4,16 @@
 
 - Telnet to a certain port:
 
-`telnet  {{ip_address}} {{port}}`
+    telnet  {{ip_address}} {{port}}
 
 - To exit a telnet session:
 
-`quit`
+    quit
 
 - Default escape character:
 
-`CTRL + ]`
+    CTRL + ]
 
 - Specify an escape character (x is the escape character):
 
-`telnet -e x {{ip_address}} {{port}}`
+    telnet -e x {{ip_address}} {{port}}

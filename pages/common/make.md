@@ -5,16 +5,16 @@
 
 - Call the all rule:
 
-`make`
+    make
 
 - Call a specific rule:
 
-`make {{rule}}`
+    make {{rule}}
 
 - Use specific Makefile:
 
-`make -f {{file}}`
+    make -f {{file}}
 
 - Execute make from another directory:
 
-`make -C {{directory}}`
+    make -C {{directory}}

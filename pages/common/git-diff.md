@@ -4,16 +4,16 @@
 
 - Show changes to tracked files:
 
-`git diff {{PATHSPEC}}`
+    git diff {{PATHSPEC}}
 
 - Show only names of changed files:
 
-`git diff --name-only {{PATHSPEC}}`
+    git diff --name-only {{PATHSPEC}}
 
 - Output a condensed summary of extended header information:
 
-`git diff --summary {{PATHSPEC}}`
+    git diff --summary {{PATHSPEC}}
 
 - Show staged (added, but not yet committed) changes only:
 
-`git diff --staged`
+    git diff --staged

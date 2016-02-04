@@ -4,16 +4,16 @@
 
 - Show current wireless status information:
 
-`airport -I`
+    airport -I
 
 - Sniff wireless traffic on channel 1:
 
-`airport sniff {{1}}`
+    airport sniff {{1}}
 
 - Scan for available wireless networks:
 
-`airport -s`
+    airport -s
 
 - Disassociate from current airport network:
 
-`sudo airport -z`
+    sudo airport -z

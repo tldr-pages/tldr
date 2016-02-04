@@ -4,8 +4,8 @@
 
 - Print the current directory:
 
-`pwd`
+    pwd
 
 - Print the current directory, and resolve all symlinks (e.g. show the "physical" path):
 
-`pwd -P`
+    pwd -P

@@ -5,16 +5,16 @@
 
 - Convert an XLS file to CSV:
 
-`in2csv {{data.xls}}`
+    in2csv {{data.xls}}
 
 - Convert a DBF file to a CSV file:
 
-`in2csv {{data.dbf}} > {{data.csv}}`
+    in2csv {{data.dbf}} > {{data.csv}}
 
 - Convert a specific sheet from an XLSX file to CSV:
 
-`in2csv --sheet={{sheet_name}} {{data.xlsx}}`
+    in2csv --sheet={{sheet_name}} {{data.xlsx}}
 
 - Pipe a JSON file to in2csv:
 
-`cat {{data.json}} | in2csv -f json > {{data.csv}}`
+    cat {{data.json}} | in2csv -f json > {{data.csv}}

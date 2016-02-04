@@ -4,16 +4,16 @@
 
 - Display disk statistics with disk IDs in human readable format:
 
-`iostat -h`
+    iostat -h
 
 - Display disk statistics with disk names (including LVM) in human readable format:
 
-`iostat -Nh`
+    iostat -Nh
 
 - Display CPU statistics:
 
-`iostat -c`
+    iostat -c
 
 - Display extended disk statistics with disk names:
 
-`iostat -xN`
+    iostat -xN

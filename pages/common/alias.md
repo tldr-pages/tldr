@@ -5,20 +5,20 @@
 
 - Create a generic alias:
 
-`alias {{word}}="{{command}}"`
+    alias {{word}}="{{command}}"
 
 - Remove an aliased command:
 
-`unalias {{word}}`
+    unalias {{word}}
 
 - Full list of aliased words:
 
-`alias -p`
+    alias -p
 
 - Turn rm an interative command:
 
-`alias {{rm}}="{{rm -i}}"`
+    alias {{rm}}="{{rm -i}}"
 
 - Override la as ls -a:
 
-`alias {{la}}="{{ls -a}}"`
+    alias {{la}}="{{ls -a}}"

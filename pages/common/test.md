@@ -5,20 +5,20 @@
 
 - Test if given variable is equal to given string:
 
-`test $MY_VAR == '/bin/zsh'`
+    test $MY_VAR == '/bin/zsh'
 
 - Test if given variable is empty:
 
-`test -z $GIT_BRANCH`
+    test -z $GIT_BRANCH
 
 - Test if file exists:
 
-`test -e {{filename}}`
+    test -e {{filename}}
 
 - Test if directory not exists:
 
-`test ! -d {{path/to/directory}}`
+    test ! -d {{path/to/directory}}
 
 - If-else statement:
 
-`test {{condition}} && echo "true" || echo "false"`
+    test {{condition}} && echo "true" || echo "false"

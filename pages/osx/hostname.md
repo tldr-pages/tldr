@@ -4,8 +4,8 @@
 
 - Show current host name:
 
-`hostname`
+    hostname
 
 - Set current host name:
 
-`hostname {{new_hostname}}`
+    hostname {{new_hostname}}

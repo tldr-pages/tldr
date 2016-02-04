@@ -5,16 +5,16 @@
 
 - Start interactive command line interpreter:
 
-`bash`
+    bash
 
 - Execute command passed as parameter:
 
-`bash -c {{command}}`
+    bash -c {{command}}
 
 - Run commands from file (script):
 
-`bash {{file}}`
+    bash {{file}}
 
 - Run commands from file and print them as they are executed:
 
-`bash -x {{file}}`
+    bash -x {{file}}

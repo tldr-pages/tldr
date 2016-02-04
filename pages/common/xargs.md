@@ -4,12 +4,12 @@
 
 - Main use:
 
-`{{arguments}} | xargs {{command}}`
+    {{arguments}} | xargs {{command}}
 
 - Handle whitespace in arguments:
 
-`{{arguments_null_terminated}} | xargs -0 {{command}}`
+    {{arguments_null_terminated}} | xargs -0 {{command}}
 
 - Delete all files that start with 'M':
 
-`ls M* | xargs rm`
+    ls M* | xargs rm

@@ -4,20 +4,20 @@
 
 - Synchronize list of packages and versions available. This should be run first, before running subsequent yum commands:
 
-`yum update`
+    yum update
 
 - Install a new package:
 
-`yum install {{package}}`
+    yum install {{package}}
 
 - Install a new package and assume yes to all questions (also works with update, great for automated updates):
 
-`yum -y install {{package}}`
+    yum -y install {{package}}
 
 - Remove a package:
 
-`yum remove {{package}}`
+    yum remove {{package}}
 
 - Upgrade installed packages to newest available versions:
 
-`yum upgrade`
+    yum upgrade

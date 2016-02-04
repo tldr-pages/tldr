@@ -4,16 +4,16 @@
 
 - Encode a file:
 
-`base64 {{filename}}`
+    base64 {{filename}}
 
 - Decode a file:
 
-`base64 -d {{filename}}`
+    base64 -d {{filename}}
 
 - Encode from stdin:
 
-`{{somecommand}} | base64`
+    {{somecommand}} | base64
 
 - Decode from stdin:
 
-`{{somecommand}} | base64 -d`
+    {{somecommand}} | base64 -d

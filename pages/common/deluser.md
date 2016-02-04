@@ -4,12 +4,12 @@
 
 - Remove a user:
 
-`deluser {{name}}`
+    deluser {{name}}
 
 - Remove a user along with their home directory and mail spool:
 
-`deluser -r {{name}}`
+    deluser -r {{name}}
 
 - Remove a user from a group:
 
-`deluser {{name}} {{group}}`
+    deluser {{name}} {{group}}

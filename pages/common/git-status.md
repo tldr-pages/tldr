@@ -4,8 +4,8 @@
 
 - Show changed files which are not yet added for commit:
 
-`git status`
+    git status
 
 - Give output in short format:
 
-`git status -s`
+    git status -s

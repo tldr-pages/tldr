@@ -4,8 +4,8 @@
 
 - Display the date using the default locale:
 
-`date +"%c"`
+    date +"%c"
 
 - Display the date in UTC and ISO 8601 format:
 
-`date -u +"%Y-%m-%dT%H:%M:%SZ"`
+    date -u +"%Y-%m-%dT%H:%M:%SZ"

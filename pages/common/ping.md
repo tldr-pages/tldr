@@ -4,16 +4,16 @@
 
 - Ping host:
 
-`ping {{host}}`
+    ping {{host}}
 
 - Ping a host only a specific number of times:
 
-`ping -c {{count}} {{host}}`
+    ping -c {{count}} {{host}}
 
 - Ping host, specifying the interval in seconds between requests (default is 1 second):
 
-`ping -i {{seconds}} {{host}}`
+    ping -i {{seconds}} {{host}}
 
 - Ping host without trying to lookup symbolic names for addresses:
 
-`ping -n {{host}}`
+    ping -n {{host}}

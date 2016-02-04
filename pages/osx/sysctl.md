@@ -4,20 +4,20 @@
 
 - Show all available variables and their values:
 
-`sysctl -a`
+    sysctl -a
 
 - Show Apple model identifier:
 
-`sysctl -n hw.model`
+    sysctl -n hw.model
 
 - Show CPU model:
 
-`sysctl -n machdep.cpu.brand_string`
+    sysctl -n machdep.cpu.brand_string
 
 - Show available CPU features (MMX, SSE, SSE2, SSE3, AES, etc):
 
-`sysctl -n machdep.cpu.feature`
+    sysctl -n machdep.cpu.feature
 
 - Set a changeable kernel state variable:
 
-`sysctl -w {{section.tunable}}={{value}}`
+    sysctl -w {{section.tunable}}={{value}}

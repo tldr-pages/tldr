@@ -4,8 +4,8 @@
 
 - Repeatedly output "message":
 
-`yes {{message}}`
+    yes {{message}}
 
 - Repeatedly output "y":
 
-`yes`
+    yes

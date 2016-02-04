@@ -4,8 +4,8 @@
 
 - Eject a disk from the drive:
 
-`drutil eject`
+    drutil eject
 
 - Burn a folder as an ISO9660 filesystem onto a DVD. Don't verify and eject when complete:
 
-`drutil burn -noverify -eject -iso9660`
+    drutil burn -noverify -eject -iso9660

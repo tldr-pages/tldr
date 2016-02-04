@@ -4,20 +4,20 @@
 
 - Parse and execute a file:
 
-`php {{file}}`
+    php {{file}}
 
 - Check syntax (lint):
 
-`php -l {{file}}`
+    php -l {{file}}
 
 - Run PHP interactively:
 
-`php -a`
+    php -a
 
 - Run PHP code. Notes: a) Don't use <? ?> tags; b) Escape double quotes with backslash:
 
-`php -r "{{code}}"`
+    php -r "{{code}}"
 
 - Start a PHP built-in web server in the current directory:
 
-`php -S {{host:port}}`
+    php -S {{host:port}}
