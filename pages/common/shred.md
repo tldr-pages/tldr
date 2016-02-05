@@ -1,6 +1,6 @@
 # shred
 
-> Overwrite files to securely delete data
+> Overwrite files to securely delete data.
 
 - Overwrite a file:
 
