@@ -12,4 +12,4 @@
 
 - Delete all files that start with 'M':
 
-`ls M* | xargs rm`
+`find . -name 'M*' | xargs rm`
