@@ -7,12 +7,9 @@
 [gitter-url]: https://gitter.im/tldr-pages/tldr
 [gitter-image]: https://img.shields.io/gitter/room/tldr-pages/tldr.svg
 
-*tldr* is a collection of simplified and community-driven man pages.
+A collection of simplified and community-driven man pages.
 
-## What does tldr mean?
-TL;DR stands for "Too Long; Didn't Read".
-It originates in Internet slang, where it is used to indicate parts of the text skipped as too lengthy.
-Read more in the [TLDR article on Wikipedia](https://en.wikipedia.org/wiki/TL;DR).
+Install it with `npm install -g tldr` or [try the web client](https://ostera.github.io/tldr.jsx).
 
 ## What is tldr?
 
@@ -86,3 +83,9 @@ and go ahead!
 - [Cheat](https://github.com/chrisallenlane/cheat) allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind *nix system administrators of options for commands that they use frequently, but not frequently enough to remember.
 
 - [Bro pages](http://bropages.org/) are a highly readable supplement to man pages. Bro pages show concise, common-case examples for Unix commands.
+
+## What does tldr mean?
+
+TL;DR stands for "Too Long; Didn't Read".
+It originates in Internet slang, where it is used to indicate parts of the text skipped as too lengthy.
+Read more in the [TLDR article on Wikipedia](https://en.wikipedia.org/wiki/TL;DR).
