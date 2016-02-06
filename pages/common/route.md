@@ -13,5 +13,3 @@
 - Delete route rule:
 
 `sudo route del -net {{ip_address}} netmask {{netmask_address}} dev {{gw_address}}`
-
-
