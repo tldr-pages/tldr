@@ -7,6 +7,6 @@
 
 `sum {{file}}`
 
-- Compute a checksum with System V-compatible algorithm and 512-byte blocks
+- Compute a checksum with System V-compatible algorithm and 512-byte blocks:
 
 `sum --sysv {{file}}`
