@@ -2,10 +2,11 @@
 
 [![Build Status][travis-image]][travis-url]
 [![Gitter chat][gitter-image]][gitter-url]
+
 [travis-url]: https://travis-ci.org/tldr-pages/tldr
 [travis-image]: https://img.shields.io/travis/tldr-pages/tldr.svg
 [gitter-url]: https://gitter.im/tldr-pages/tldr
-[gitter-image]: https://img.shields.io/gitter/room/tldr-pages/tldr.svg
+[gitter-image]: https://badges.gitter.im/tldr-pages/tldr.svg
 
 A collection of simplified and community-driven man pages.
 
