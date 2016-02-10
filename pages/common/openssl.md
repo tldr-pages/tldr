@@ -20,4 +20,4 @@
 
 - Display the complete certificate chain of an HTTPS server:
 
-`openssl s_client -connect {{google.com}}:{{443}} -showcerts </dev/null`
+`openssl s_client -connect {{host}}:443 -showcerts </dev/null`
