@@ -1,7 +1,15 @@
 # pwgen
 
-> Generate passwords.
+> Generate pronounceable passwords.
 
-- Generate 8 characters long random passwords with symbols :
+- Generate random password with symbols:
 
-`pwgen -sy`
+`pwgen -y {{length}}`
+
+- Generate hard-to-memorize passwords:
+
+`pwgen -s {{length}}`
+
+- Generate password with at least one capital letter in them:
+
+`pwgen -c {{length}}`
