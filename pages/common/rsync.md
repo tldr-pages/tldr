@@ -31,4 +31,3 @@
 - Transfer a directory and all its children from a remote to local and respect all excludes defined in a file:
 
 `rsync -r --exclude-from=/path/to/exclude.list {remote_host_name}}:{{remote_folder_location}} {{local_folder_location}}`
-
