@@ -12,8 +12,8 @@
 
 - Append all .txt files into one file:
 
-`mmv -a "*.txt" {{"all.txt"}}`
+`mmv -a {{"*.txt"}} {{"all.txt"}}`
 
 - Convert dates in filenames from "M-D-Y" format to "D-M-Y" format:
 
-`mmv "[0-1][0-9]-[0-3][0-9]-[0-9][0-9][0-9][0-9].txt" "#3#4-#1#2-#5#6#7#8.txt"`
+`mmv {{"[0-1][0-9]-[0-3][0-9]-[0-9][0-9][0-9][0-9].txt"}} {{"#3#4-#1#2-#5#6#7#8.txt"}}`
