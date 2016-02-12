@@ -4,7 +4,7 @@
 [![Gitter chat][gitter-image]][gitter-url]
 
 [travis-url]: https://travis-ci.org/tldr-pages/tldr
-[travis-image]: https://img.shields.io/travis/tldr-pages/tldr.svg
+[travis-image]: https://travis-ci.org/tldr-pages/tldr.svg?branch=master
 [gitter-url]: https://gitter.im/tldr-pages/tldr
 [gitter-image]: https://badges.gitter.im/tldr-pages/tldr.svg
 
