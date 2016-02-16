@@ -21,3 +21,7 @@
 - Long format list sorted by size (descending):
 
 `ls -lS`
+
+- Long format list of all files, sorted by modification date (oldest first):
+
+`ls -ltr`
