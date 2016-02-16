@@ -8,7 +8,7 @@
 
 - Print heap summary information:
 
-`java -heap {{filename.jar}} {{java_pid}}`
+`jmap -heap {{filename.jar}} {{java_pid}}`
 
 - Print histogram of heap usage by type:
 

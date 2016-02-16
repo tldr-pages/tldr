@@ -8,7 +8,7 @@
 
 - Print mixed mode (java/c++) stack traces for all threads in a java process:
 
-`jstack {{java_pid}}`
+`jstack -m {{java_pid}}`
 
 - Print stack traces from java core dump:
 
