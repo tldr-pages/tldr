@@ -1,6 +1,6 @@
 # visudo 
 
-> Safely edit the sudoers file. Command requires super user privilegies.
+> Safely edit the sudoers file.
 
 - Edit sudoers file:
 
