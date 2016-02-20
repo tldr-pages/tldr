@@ -13,3 +13,7 @@
 - Remove unwanted files from an existing zip file:
 
 `zip -d {{compressed.zip}} "{{foo/*.tmp}}"`
+
+- Remove unwanted pattern files from target dirs:
+
+`zip -r {{compressed.zip}} {{target_dirs}} -x \*.git\* \*node_modules\* ...`
