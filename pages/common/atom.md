@@ -10,14 +10,14 @@
 
 `atom -n {{path/to/file/or/folder}}`
 
-- Install packages from http://atom.io/packages and themes from http://atom.io/themes
+- Install packages from http://atom.io/packages and themes from http://atom.io/themes:
 
 `apm install {{package_name}}`
 
-- Remove packages/themes
+- Remove packages/themes:
 
 `apm remove {{package_name}}`
 
-- Upgrade packages/themes
+- Upgrade packages/themes:
 
 `apm upgrade {{package_name}}`
