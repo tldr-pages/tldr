@@ -14,6 +14,6 @@
 
 `zip -d {{compressed.zip}} "{{foo/*.tmp}}"`
 
-- Remove unwanted files from target dirs:
+- Exclude unwanted files from being added to the compressed archive:
 
-`zip -r {{compressed.zip}} {{target_dirs}} -x \*.git\* \*node_modules\* ...`
+`zip -r {{compressed.zip}} {{path/to/dir}} -x \*.git\* \*node_modules\* ...`
