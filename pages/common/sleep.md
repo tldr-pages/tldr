@@ -1,6 +1,6 @@
 # sleep
 
-> Delay for a specified amount of time
+> Delay for a specified amount of time.
 
 - Delay in seconds:
 
