@@ -1,6 +1,7 @@
 # 7za
 
 > A file archiver with high compression ratio.
+> A standalone version of `7z` with support for fewer archive types.
 
 - Compress directory or file:
 
