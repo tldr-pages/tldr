@@ -10,6 +10,10 @@
 
 `jobs {{job_id}}`
 
-- Print process IDs of all jobs:
+- Show status and process IDs of all jobs:
+
+`jobs -l`
+
+- Show process IDs of all jobs:
 
 `jobs -p`
