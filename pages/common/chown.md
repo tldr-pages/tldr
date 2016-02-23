@@ -2,7 +2,7 @@
 
 > Change user and group ownership of files and folders.
 
-- Change the owner user of a file/folder
+- Change the owner user of a file/folder:
 
 `chown {{user}} {{path/to/file}}`
 
@@ -10,7 +10,7 @@
 
 `chown {{user}}:{{group}} {{path/to/file}}`
 
-- Recursively change the owner of a folder and its contents
+- Recursively change the owner of a folder and its contents:
 
 `chown -R {{user}} {{path/to/folder}}`
 

@@ -16,4 +16,4 @@
 
 - Change the owner of a file/folder to match a reference file:
 
-`chgrp --reference={{path/to/reference_file}} {{path/to/file}}
+`chgrp --reference={{path/to/reference_file}} {{path/to/file}}`
