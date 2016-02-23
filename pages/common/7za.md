@@ -13,7 +13,11 @@
 
 - Archive using a specific archive type:
 
-`7za a -t{{7z|zip|gzip|bzip2|tar}} {{compressed}} {{path/to/file}}`
+`7za a -t{{zip|gzip|bzip2|tar|...}} {{compressed}} {{path/to/file}}`
+
+- List available archive types:
+
+`7za i`
 
 - List the contents of an archive file:
 
