@@ -17,4 +17,4 @@
 
 - List the contents of an archive file:
 
-`7z l {{compressed}}`
+`7za l {{compressed}}`
