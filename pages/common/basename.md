@@ -8,4 +8,4 @@
 
 - Show only the file name from a path, with a suffix removed:
 
-`basename {{path/to/file}} {{suffix}}
+`basename {{path/to/file}} {{suffix}}`
