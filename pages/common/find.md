@@ -32,4 +32,4 @@
 
 - Find files matching more than one search criteria:
 
-`find {{root_path}} -name {{'*.py'}} -or -name {{'*.r}}`
+`find {{root_path}} -name {{'*.py'}} -or -name {{'*.r'}}`
