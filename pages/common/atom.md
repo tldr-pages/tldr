@@ -1,6 +1,7 @@
 # atom
 
-> A cross-platform text editor.
+> A cross-platform pluggable text editor.
+> Plugins are managed by `apm`.
 
 - Open a file or folder:
 
