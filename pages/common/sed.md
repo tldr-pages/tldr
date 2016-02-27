@@ -18,8 +18,6 @@
 
 `sed -e 's/{{find}}/{{replace}}/' -e 's/{{find}}/{{replace}}/' {{filename}}`
 
-- Use a alternative separators:
+- Replace separator / by any other character not used in your string (potential chars '|', ';', '#', ' '), e.g., #:
 
-`sed 's|{{find}}|{{replace}}|' {{filename}}`
 `sed 's#{{find}}#{{replace}}#' {{filename}}`
-`sed 's;{{find}};{{replace}};' {{filename}}`
