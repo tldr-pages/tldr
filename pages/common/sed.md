@@ -6,6 +6,10 @@
 
 `sed 's/{{find}}/{{replace}}/' {{filename}}`
 
+- Replace the first occurrence on all lines matching a pattern:
+
+`sed '/{{line_pattern}}/s/{{find}}/{{replace}}/'`
+
 - Replace all occurrences of a string in a file, overwriting the file (i.e. in-place):
 
 `sed -i 's/{{find}}/{{replace}}/g' {{filename}}`
