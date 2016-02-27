@@ -17,3 +17,9 @@
 - Apply multiple find-replace expressions to a file:
 
 `sed -e 's/{{find}}/{{replace}}/' -e 's/{{find}}/{{replace}}/' {{filename}}`
+
+- Use a alternative separators:
+
+`sed 's|{{find}}|{{replace}}|' {{filename}}`
+`sed 's#{{find}}#{{replace}}#' {{filename}}`
+`sed 's;{{find}};{{replace}};' {{filename}}`
