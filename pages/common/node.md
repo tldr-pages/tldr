@@ -6,7 +6,7 @@
 
 `node {{file}}.js`
 
-- Start a REPL loop (interactive shell):
+- Start a REPL (interactive shell):
 
 `node`
 
