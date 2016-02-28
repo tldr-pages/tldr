@@ -29,11 +29,3 @@
 - Specify raw request body via stdin:
 
 `cat data.txt | http PUT example.org`
-
-- View both the response and the request being sent:
-
-`http -v {{example.org}}`
-
-- Send JSON object with non-string fields:
-
-`http {{example.org}} {{name='bob'}} {{age:=29}} {{married:=false}} hobbies:='["http", "pies"]`
