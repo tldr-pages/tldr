@@ -25,3 +25,7 @@
 - Pass a user name and password for server authentication:
 
 `http -a {{username:password}} {{example.org}}`
+
+- Specify raw request body via stdin:
+
+`cat data.txt | http PUT example.org`
