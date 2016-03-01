@@ -6,7 +6,7 @@
 
 `sed 's/{{find}}/{{replace}}/' {{filename}}`
 
-- Replace the first occurrence on all lines matching a pattern:
+- Replace only on lines matching the line pattern:
 
 `sed '/{{line_pattern}}/s/{{find}}/{{replace}}/'`
 
