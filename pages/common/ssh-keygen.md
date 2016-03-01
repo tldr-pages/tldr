@@ -6,6 +6,10 @@
 
 `ssh-keygen`
 
+- Specify file in which to save the key:
+
+`ssh-keygen -f ~/.ssh/{{filename}}`
+
 - Generate a DSA 2048 bit (default) key:
 
 `ssh-keygen -t dsa`
