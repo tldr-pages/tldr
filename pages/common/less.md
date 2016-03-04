@@ -16,9 +16,13 @@
 
 `g (start), G (end)`
 
-- Search for a string:
+- Forward search for a string:
 
 `/{{something}}   then   n (next), N (previous)`
+
+- Backward search for a string:
+
+`?{{something}}   then   n (next), N (previous)`
 
 - Exit:
 
