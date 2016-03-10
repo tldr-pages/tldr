@@ -14,10 +14,6 @@
 
 `pv -cN in {{big_text_file}} | grep {{pattern}} | pv -cN out > {{filtered_file}}`
 
-- Attach to an already running process and see its file reading progress:
-
-`pv -d {{PID}}`
-
 - Read an erroneous file, skip errors as `dd conv=sync,noerror` would:
 
 `pv -EE {{path_to_faulty_media}} > image.img`
