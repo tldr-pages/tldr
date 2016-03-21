@@ -33,7 +33,7 @@
 
 - Use the standard input instead of a file:
 
-`cat {{file_path}} | grep {{something}}`
+`cat - | grep {{something}}`
 
 - Invert match for excluding specific strings:
 
