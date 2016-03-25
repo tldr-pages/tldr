@@ -6,7 +6,7 @@
 
 `rm {{/path/to/file}} {{/otherpath/to/file2}}`
 
-- Remove recursively a directory and all it's subdirectories:
+- Remove recursively a directory and all its subdirectories:
 
 `rm -r {{/path/to/folder}}`
 
