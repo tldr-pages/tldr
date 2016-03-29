@@ -12,4 +12,4 @@
 
 - Reattach an input as slave to a master:
 
-`xinput float {{id}} {{master_id}}`
+`xinput reattach {{id}} {{master_id}}`
