@@ -13,4 +13,3 @@
 - Paste clipboard:
 
 `xclip -o > file.txt`
-
