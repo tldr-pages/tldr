@@ -20,9 +20,9 @@
 
 `put {{/path/local_file}}`
 
-- Transfer remote file to the local system recursively (works with `put` too):
+- Transfer remote folder to the local system recursively (works with `put` too):
 
-`get -R {{/path/remote_file}}`
+`get -R {{/path/remote_folder}}`
 
 - Get list of files on local machine:
 
