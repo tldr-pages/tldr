@@ -6,7 +6,7 @@
 
 `systemctl --failed`
 
-- Start/Stop/Restart/Reloadconfiguration a service:
+- Start/Stop/Restart/Reload a service:
 
 `systemctl start/stop/restart/reload {{unit}}`
 

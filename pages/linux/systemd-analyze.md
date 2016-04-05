@@ -1,6 +1,6 @@
 # systemd-analyze
 
-> Show timing details about the boot process.
+> Show timing details about the boot process(services, mount points, devices, sockets).
 
 - List time of each unit to start up:
 
