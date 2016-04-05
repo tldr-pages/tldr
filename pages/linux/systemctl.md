@@ -6,9 +6,9 @@
 
 `systemctl --failed`
 
-- Start/Stop/Restart a service:
+- Start/Stop/Restart/Reloadconfiguration a service:
 
-`systemctl start/stop/restart {{unit}}`
+`systemctl start/stop/restart/reload {{unit}}`
 
 - Show the status of a unit:
 
@@ -17,6 +17,10 @@
 - Enable/Disable a unit to be started on bootup:
 
 `systemctl enable/disable {{unit}}`
+
+- Mask/Unmask a unit, make it impossible to start it:
+
+`systemctl mask/unmask {{unit}}`
 
 - Reload systemd, scanning for new or changed units:
 
