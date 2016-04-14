@@ -7,6 +7,10 @@
 
 `grep {{something}} {{file_path}}`
 
+- Search without case-sensitivity:
+
+`grep -i {{something}} {{file_path}}`
+
 - Search recursively in current directory for an exact string:
 
 `grep -r {{something}} .`

@@ -21,3 +21,11 @@
 - List information continuously:
 
 `netstat -c`
+
+- List routes and do not resolve IP to hostname:
+
+`netstat -rn`
+
+- List listening TCP and UDP ports (+ user and process if you're root):
+
+`netstat -lepunt`

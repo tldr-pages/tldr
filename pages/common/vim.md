@@ -14,6 +14,6 @@
 
 `view {{file}}`
 
-- Exiting vim:
+- Exit vim:
 
 `[Esc] (to switch to normal mode), then :q`

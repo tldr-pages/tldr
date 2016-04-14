@@ -2,7 +2,7 @@
 
 > Dependency manager for the Ruby programming language.
 
-- Installs all gems defined in the gemfile expected in the working directory:
+- Install all gems defined in the gemfile expected in the working directory:
 
 `bundle install`
 

@@ -1,7 +1,6 @@
 # docker
 
-> Docker allows you to package an application with all of its.
-> Dependencies into a standardized unit for software development.
+> Manage Docker containers and images.
 
 - List of running docker containers:
 

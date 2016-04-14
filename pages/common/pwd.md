@@ -6,6 +6,6 @@
 
 `pwd`
 
-- Print the current directory, and resolve all symlinks (e.g. show the "physical" path):
+- Print the current directory, and resolve all symlinks (i.e. show the "physical" path):
 
 `pwd -P`

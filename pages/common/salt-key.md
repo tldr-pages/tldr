@@ -7,9 +7,12 @@
 
 `salt-key -L`
 
-- Accept or reject a minion key by name:
+- Accept a minion key by name:
 
 `salt-key -a {{MINION_ID}}`
+
+- Reject a minion key by name:
+
 `salt-key -r {{MINION_ID}}`
 
 - Print fingerprints of all public keys:

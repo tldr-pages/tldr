@@ -2,7 +2,7 @@
 
 > Copy files and folders.
 
-- Overwrites contents of destination folder with contents of source folder:
+- Overwrite contents of destination folder with contents of source folder:
 
 `ditto {{path/to/source}} {{path/to/destination}}`
 

@@ -13,3 +13,11 @@
 - Sort passwd file by the 3rd field:
 
 `sort -t: -k 3n /etc/passwd`
+
+- Sort a file as number in ascending order:
+
+`sort -n {{filename}}`
+
+- Sort a file preserving only unique lines:
+
+`sort -u {{filename}}`

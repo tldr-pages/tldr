@@ -1,17 +1,13 @@
 sudo: false
 
-cache: bundler
+language: node_js
 
-language: ruby
+node_js:
+  - 'stable'
 
-rvm:
-- 2.2.2
-
-gemfile:
-- Gemfile
-
-script:
-- make lint
+cache:
+  directories:
+    - node_modules
 
 after_success:
 - bash scripts/build.sh

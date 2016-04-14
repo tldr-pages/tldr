@@ -18,18 +18,6 @@
 
 `nginx -t`
 
-- Reload configuration, gracefully shut down old worker processes
+- Reload configuration by sending a signal with no downtime:
 
 `nginx -s reload`
-
-- Shut down quickly
-
-`nginx -s stop`
-
-- Shut down gracefully
-
-`nginx -s quit`
-
-- Reopen log files
-
-`nginx -s reopen`

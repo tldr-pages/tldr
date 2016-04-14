@@ -10,6 +10,10 @@
 
 `mysql -u {{user}} --password {{database_name}}`
 
+- Connect to a database on another host:
+
+`mysql -h {{database_host}} {{database_name}}`
+
 - Execute SQL statements in a script file (batch file):
 
 `mysql {{database_name}} < {{script.sql}}`

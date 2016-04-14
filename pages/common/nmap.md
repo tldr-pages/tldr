@@ -11,7 +11,7 @@
 
 `nmap {{ip_or_hostname}} {{optional_another_address}}`
 
-- Also enable service detection, OS fingerprinting and traceroute:
+- Also enable scripts, service detection, OS fingerprinting and traceroute:
 
 `nmap -A {{address_or_addresses}}`
 

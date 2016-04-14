@@ -2,11 +2,11 @@
 
 > Create gifs.
 
-- Making a GIF animation with gifsicle:
+- Make a GIF animation with gifsicle:
 
 `gifsicle --delay={{10}} --loop *.gif > {{anim.gif}}`
 
-- Extracting frames from an animation:
+- Extract frames from an animation:
 
 `gifsicle {{anim.gif}} '#0' > {{firstframe.gif}}`
 

@@ -8,20 +8,20 @@
 
 - Create a new ZFS filesystem:
 
-`zfs create poolname/newfsname`
+`zfs create {{pool_name/filesystem_name}}`
 
 - Delete a ZFS filesystem:
 
-`zfs destroy {{poolname/newfsname}}`
+`zfs destroy {{pool_name/filesystem_name}}`
 
 - Create a Snapshot of a ZFS filesystem:
 
-`zfs snapshot {{poolname/filesystem@snapshot-name}}`
+`zfs snapshot {{pool_name/filesystem_name}}@{{snapshot_name}}`
 
 - Enable compression on a filesystem:
 
-`zfs set compression=on {{poolname/fileystem}}`
+`zfs set compression=on {{pool_name/filesystem_name}}`
 
 - Change mountpoint for a filesytem:
 
-`zfs set mountpoint={{/my/mount/path}} {{poolname/filesystem}}`
+`zfs set mountpoint={{/my/mount/path}} {{pool_name/filesystem_name}}`

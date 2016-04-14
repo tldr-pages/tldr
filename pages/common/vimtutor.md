@@ -6,6 +6,6 @@
 
 `vimtutor {{language}}`
 
-- Exiting the tutor:
+- Exit the tutor:
 
 `[Esc] (to switch to normal mode), then :q`

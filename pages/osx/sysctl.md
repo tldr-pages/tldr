@@ -20,5 +20,4 @@
 
 - Set a changeable kernel state variable:
 
-`sysctl -w name=value`
-`sysctl -w kern.maxfiles=15000`
+`sysctl -w {{section.tunable}}={{value}}`

@@ -2,7 +2,7 @@
 
 > Execute a command as another user.
 
-- Listing of an unreadable directory:
+- List of an unreadable directory:
 
 `sudo {{ls}} {{/usr/local/scrt}}`
 

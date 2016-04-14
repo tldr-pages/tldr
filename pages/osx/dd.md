@@ -10,7 +10,7 @@
 
 `dd if=/dev/{{source_drive}} of=/dev/{{dest_drive}} bs=4m conv=noerror`
 
-- Generating a file of 100 random bytes by using kernel random driver:
+- Generate a file of 100 random bytes by using kernel random driver:
 
 `dd if=/dev/urandom of={{random_file}} bs=100 count=1`
 

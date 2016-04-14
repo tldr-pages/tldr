@@ -10,6 +10,10 @@
 
 `cat {{file1}} {{file2}} > {{target-file}}`
 
-- Append serveral files into the target file:
+- Append several files into the target file:
 
 `cat {{file1}} {{file2}} >> {{target-file}}`
+
+- Number all output lines:
+
+`cat -n {{file}}`
