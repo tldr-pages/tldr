@@ -2,11 +2,13 @@
 
 > Calculate SHA384 cryptographic checksums.
 
-- Calculate the SHA384 checksum for file(s) or files in a directory, one checksum per file:
+- Calculate the SHA384 checksum for a file:
 
 `sha384sum {{filename1}}`
+
+- Calculate SHA384 checksums for multiple files:
+
 `sha384sum {{filename1}} {{filename2}}`
-`sha384sum {{directory/\*}}`
 
 - Read a file of SHA384 sums and verify all files have matching checksums:
 

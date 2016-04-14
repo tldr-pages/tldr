@@ -2,7 +2,7 @@
 
 > Move or rename files and directories.
 
-- Move files in abitrary locations:
+- Move files in arbitrary locations:
 
 `mv {{source}} {{target}}`
 

@@ -6,6 +6,10 @@
 
 `history`
 
-- Clear the commands history list (only for `bash`):
+- Clear the commands history list (only for current `bash` shell):
 
 `history -c`
+
+- Overwrite history file with history of current `bash` shell (often combined with `history -c` to purge history):
+
+`history -w`

@@ -3,7 +3,7 @@
 > Creates an alias for a word when used.
 > As the first word of a command.
 
-- Creating a generic alias:
+- Create a generic alias:
 
 `alias {{word}}="{{command}}"`
 
@@ -15,10 +15,10 @@
 
 `alias -p`
 
-- Turning rm an interative command:
+- Turn rm an interative command:
 
 `alias {{rm}}="{{rm -i}}"`
 
-- Overriding la as ls -a:
+- Override la as ls -a:
 
 `alias {{la}}="{{ls -a}}"`

@@ -6,11 +6,10 @@
 
 `touch {{filename}}`
 
-- Set the times on a file to those specified:
+- Set the times on a file to a specific date and time:
 
-`touch -t 201412250801.59 {{filename}}`
 `touch -t {{YYYYMMDDHHMM.SS}} {{filename}}`
 
-- Set the times on a file to match those on second file:
+- Use the times from a file to set the times on a second file:
 
-`touch -r {{filename2}} {{filename}}`
+`touch -r {{filename}} {{filename2}}`

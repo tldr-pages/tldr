@@ -6,13 +6,13 @@
 
 `ping {{host}}`
 
-- Ping host limiting the number of packages to be send to four:
+- Ping a host only a specific number of times:
 
-`ping -c 4 {{host}}`
+`ping -c {{count}} {{host}}`
 
-- Ping host, waiting for 0.5 s between each request (default is 1 s):
+- Ping host, specifying the interval in seconds between requests (default is 1 second):
 
-`ping -i 0.5 {{host}}`
+`ping -i {{seconds}} {{host}}`
 
 - Ping host without trying to lookup symbolic names for addresses:
 

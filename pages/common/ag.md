@@ -6,6 +6,10 @@
 
 `ag foo`
 
+- Find files containing "FOO" case-insensitively:
+
+`ag -i FOO`
+
 - Find "foo" in files with a name matching "bar":
 
 `ag foo -G bar`

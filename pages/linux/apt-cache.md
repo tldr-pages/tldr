@@ -13,3 +13,11 @@
 - Show whether a package is installed and up to date:
 
 `apt-cache policy {{package}}`
+
+- Show dependencies for a package:
+
+`apt-cache depends {{package}}`
+
+- Show packages that depend on a particular package:
+
+`apt-cache rdepends {{package}}`

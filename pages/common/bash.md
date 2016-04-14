@@ -3,18 +3,18 @@
 > Bourne-Again SHell.
 > `sh`-compatible command line interpreter.
 
-- Start interactive command line interpreter:
+- Start interactive shell:
 
 `bash`
 
-- Execute command passed as parameter:
+- Execute a command:
 
 `bash -c {{command}}`
 
-- Run commands from file (script):
+- Run commands from a file:
 
-`bash {{file}}`
+`bash {{file.sh}}`
 
-- Run commands from file and print them as they are executed:
+- Run commands from STDIN:
 
-`bash -x {{file}}`
+`bash -s`

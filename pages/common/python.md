@@ -1,6 +1,6 @@
 # Python
 
-> Python language interpeter.
+> Python language interpreter.
 
 - Call a Python interactive shell (REPL):
 
