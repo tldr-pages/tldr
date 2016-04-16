@@ -24,6 +24,10 @@
 
 `?{{something}}   then   n (next), N (previous)`
 
+- Enable output of ANSI colors:
+
+`less -R {{source_file}}`
+
 - Exit:
 
 `q`
