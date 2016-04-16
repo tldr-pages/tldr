@@ -62,7 +62,7 @@ You can access these pages on your computer using one of the following clients:
 - [Ruby client](https://github.com/YellowApple/tldrb): `gem install tldrb`
 - Rust clients:
     - [rust-tldr](https://github.com/rilut/rust-tldr) (online lookup): `cargo install tldr`
-    - [tldr-rs](https://github.com/dbrgn/tldr-rs) (offline caching, not yet published)
+    - [tealdeer](https://github.com/dbrgn/tealdeer) (fully featured client with offline cache): `cargo install tealdeer`
 - [Web client](https://github.com/ostera/tldr.jsx): https://ostera.github.io/tldr.jsx
 
 There is also a comprehensive [list of clients in our Wiki](https://github.com/tldr-pages/tldr/wiki/TLDR-clients).
