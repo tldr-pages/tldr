@@ -26,7 +26,7 @@
 
 - Enable output of ANSI colors:
 
-`less -R {{source_file}}`
+`{{something}} | less -R`
 
 - Exit:
 
