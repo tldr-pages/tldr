@@ -1,15 +1,19 @@
 # umask
 
-> Display file creation mask or set file creation mask to octal value.
+> Set permission for newly created files for current user.
 
-- Display current value as octal:
+- Display mask value as octal:
 
 `umask`
 
-- Display current value symbolically:
+- Set the mask using octal notation:
+
+`umask {{nnnn}}`
+
+- Display mask value in human-readable mode:
 
 `umask -S`
 
-- Turn off permission bits with octal value 'nnnn':
+- Set the mask using symbolic notation:
 
-`umask {{nnnn}}`
+`umask {{ u - user | g - groups | o - others | a - all }}{{ + enable | - disable | = enable specified }}{{ r - read | w -write | x- execute }}`
