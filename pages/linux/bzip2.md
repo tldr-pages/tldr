@@ -10,6 +10,6 @@
 
 `bzip2 -d {{path/to/compressed_file.bz2}}`
 
-- Decompress to STDOUT:
+- Decompress to console:
 
 `bzip2 -dc {{path/to/compressed_file.bz2}}`
