@@ -6,9 +6,9 @@
 
 `expr length {{string}}`
 
-- Evaluate logical or math expression with an operator( '+', '-', '*', '&', '|', etc. ). Special symbols should be escaped:
+- Evaluate logical or math expression with an operator ('+', '-', '*', '&', '|', etc.). Special symbols should be escaped:
 
-`expr {{ARG1}} {{operator}} {{ARG2}}`
+`expr {{first_argument}} {{operator}} {{second_argument}}`
 
 - Get position of the first character in 'string' that matches 'substring':
 
