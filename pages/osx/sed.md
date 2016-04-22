@@ -6,18 +6,22 @@
 
 `sed 's/{{find}}/{{replace}}/' {{filename}}`
 
-- Replace only on lines matching the line pattern:
+- Replace all occurrences of an extended regular expression in a file:
 
-`sed '/{{line_pattern}}/s/{{find}}/{{replace}}/'`
+`sed -E 's/{{regex}}/{{replace}}/g' {{filename}}`
 
 - Replace all occurrences of a string in a file, overwriting the file (i.e. in-place):
 
 `sed -i '' 's/{{find}}/{{replace}}/g' {{filename}}`
 
-- Replace all occurrences of an extended regular expression in a file:
+- Replace only on lines matching the line pattern:
 
-`sed -E 's/{{regex}}/{{replace}}/g' {{filename}}`
+`sed '/{{line_pattern}}/s/{{find}}/{{replace}}/'`
 
 - Apply multiple find-replace expressions to a file:
 
 `sed -e 's/{{find}}/{{replace}}/' -e 's/{{find}}/{{replace}}/' {{filename}}`
+
+- Replace separator / by any other character not used in the find or replace patterns, e.g., #:
+
+`sed 's#{{find}}#{{replace}}#' {{filename}}`
