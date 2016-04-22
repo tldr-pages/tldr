@@ -15,7 +15,7 @@
 
 `grep -r {{something}} .`
 
-- Use a regular expression (`-E` for extended regex, supporting `?`, `+`, `{`, `|`, `(`, and `)`):
+- Use a regular expression (`-E` for extended regex, supporting `?`, `+`, `{}`, `()` and `|`):
 
 `grep -e {{^regex$}} {{path/to/file}}`
 
