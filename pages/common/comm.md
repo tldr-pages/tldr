@@ -10,14 +10,14 @@
 
 `comm -12 {{file1}} {{file2}}`
 
-- Print only lines common to both files, read one file from stdin:
+- Print only lines common to both files, reading one file from stdin:
 
 `cat {{file1}} | comm -12 - {{file2}}`
 
-- Print lines only found in first file:
+- Get lines only found in first file, saving the result to a third file:
 
-`comm -23 {{file1}} {{file2}}`
+`comm -23 {{file1}} {{file2}} > file1-only.txt`
 
-- Print lines only found in second file:
+- Print lines only found in second file, when the files aren't sorted:
 
-`comm -13 {{file1}} {{file2}}`
+`comm -13 <(sort {{file1}}) <(sort {{file2}})`
