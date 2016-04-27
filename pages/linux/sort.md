@@ -1,6 +1,6 @@
 # sort
 
-> Sort lines of text files:
+> Sort lines of text files.
 
 - Sort a file in ascending order:
 
