@@ -16,7 +16,7 @@
 
 - Reattach to an open screen:
 
-`screen -r {{screen id}}`
+`screen -r {{name}}`
 
 - Detach from inside a screen:
 
@@ -24,4 +24,4 @@
 
 - Kill a detached screen:
 
-`screen -X -S {{screen id}} quit`
+`screen -X -S {{name}} quit`
