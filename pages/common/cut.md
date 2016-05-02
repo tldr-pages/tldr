@@ -14,14 +14,14 @@
 
 `cut -c{{3-}}`
 
-- Cut out the fifth field, split on the colon character of each line:
+- Cut out the fifth field, split on the colon characters of each line:
 
 `cut -d'{{:}}' -f{{5}}`
 
-- Cut out the fields five and 10, split on the colon character of each line:
+- Cut out the fields five and 10, split on the semicolon characters of each line:
 
-`cut -d'{{:}}' -f{{5,10}}`
+`cut -d'{{;}}' -f{{5,10}}`
 
-- Cut out the fields five through 10, split on the colon character of each line:
+- Cut out the fields five through 10, split on the space characters of each line:
 
-`cut -d'{{:}}' -f{{5-10}}`
+`cut -d'{{ }}' -f{{5-10}}`
