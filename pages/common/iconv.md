@@ -2,11 +2,11 @@
 
 > Converts text from one encoding to another.
 
-- Convert file and print to stdout:
+- Convert file to a specific encoding, and print to stdout:
 
 `iconv -f {{from_encoding}} -t {{to_encoding}} {{input_file}}`
 
-- Convert file to current locale:
+- Convert file to the current locale's encoding, and output to a file:
 
 `iconv -f {{from_encoding}} {{input_file}} > {{output_file}}`
 
