@@ -1,6 +1,7 @@
 # rustc
 
 > The Rust compiler.
+> Processes, compiles and links Rust language source files.
 
 - Compile a single file:
 
