@@ -1,6 +1,7 @@
 # ghc
 
-> The Glassgow Haskell Compiler, compiles and links Haskell source files.
+> The Glasgow Haskell Compiler.
+> Compiles and links Haskell source files.
 
 - Find and compile all modules in the current directory:
 
@@ -10,14 +11,14 @@
 
 `ghc {{file.hs}}`
 
-- Compile using optimization, for faster code:
+- Compile using extra optimization:
 
 `ghc -O {{file.hs}}`
 
-- Stop after generating object files:
+- Stop compilation after generating object files (.o):
 
 `ghc -c {{file.hs}}`
 
-- Run in interactive mode (REPL):
+- Run Haskell interactive interpreter (REPL):
 
 `ghci`
