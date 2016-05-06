@@ -1,9 +1,9 @@
 # mpc
 
 > Music Player Client.
-> Program for controlling Music Player Daemon (MPD).
+> Program for controlling the Music Player Daemon (MPD).
 
-- Toggle between play and pause:
+- Toggle play/pause:
 
 `mpc toggle`
 
@@ -11,7 +11,7 @@
 
 `mpc stop`
 
-- Show information about currently playing song:
+- Show information about the currently playing song:
 
 `mpc status`
 
@@ -23,6 +23,6 @@
 
 `mpc prev`
 
-- Seek playing song:
+- Forward/Rewind the currently playing song:
 
 `mpc [+-]{{seconds}}`
