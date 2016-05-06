@@ -1,8 +1,8 @@
 # mdp
 
-> A command-line, ncurses based tool to make presentations from markdown files.
+> A command-line based tool to make presentations from markdown files.
 
-- Launch a presentation from a markdown file:
+- Launch a presentation from a markdown file in the terminal:
 
 `mdp {{presentation.md}}`
 
@@ -10,7 +10,7 @@
 
 `mdp --nofade {{presentation.md}}`
 
-- Invert colors for light background:
+- Invert font colors tu use within a light background terminal:
 
 `mdp --invert {{presentation.md}}`
 
