@@ -12,4 +12,4 @@
 
 - Compare 2 directory sturctures and count the differences between them:
 
-`cloc --diff {{/path/to/directoryone}} {{/path/to/directorytwo}}`
+`cloc --diff {{/directory/one}} {{/directory/two}}`
