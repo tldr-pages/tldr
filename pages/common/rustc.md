@@ -14,7 +14,3 @@
 - Compile with debugging information:
 
 `rustc -g {{file.rs}}`
-
-- Build a test harness:
-
-`rustc --test {{file.rs}}`
