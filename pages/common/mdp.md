@@ -1,8 +1,8 @@
 # mdp
 
-> A command-line based tool to make presentations from markdown formatted files.
+> A command-line, ncurses based tool to make presentations from markdown files.
 
-- Start a presentation from a markdown file:
+- Launch a presentation from a markdown file:
 
 `mdp {{presentation.md}}`
 
@@ -14,6 +14,6 @@
 
 `mdp --invert {{presentation.md}}`
 
-- Disable transparency in transparent terminal:
+- Disable transparency in transparent terminals:
 
 `mdp --notrans {{presentation.md}}`
