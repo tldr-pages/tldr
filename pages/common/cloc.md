@@ -8,7 +8,7 @@
 
 - Count all the lines of code in a directory, displaying a progress bar during the counting process:
 
-`cloc --progress 1 {{directory}}`
+`cloc --progress=1 {{directory}}`
 
 - Compare 2 directory sturctures and count the differences between them:
 
