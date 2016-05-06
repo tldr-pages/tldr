@@ -10,7 +10,7 @@
 
 `mdp --nofade {{presentation.md}}`
 
-- Invert font colors tu use within a light background terminal:
+- Invert font colors to use in terminals with light background:
 
 `mdp --invert {{presentation.md}}`
 
