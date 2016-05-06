@@ -4,12 +4,12 @@
 
 - Count all the lines of code in a directory:
 
-`cloc {{/path/to/base/directory}}`
+`cloc {{directory}}`
 
 - Count all the lines of code in a directory, displaying a progress bar during the counting process:
 
-`cloc --progress 1 {{/path/to/base/directory}}`
+`cloc --progress 1 {{directory}}`
 
 - Compare 2 directory sturctures and count the differences between them:
 
-`cloc --diff {{/path/to/dir/one}} {{/path/to/dir/two}}`
+`cloc --diff {{directoryone}} {{directorytwo}}`
