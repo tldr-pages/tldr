@@ -23,6 +23,6 @@
 
 `mpc prev`
 
-- Forward/Rewind the currently playing song:
+- Forward or rewind the currently playing song:
 
 `mpc [+-]{{seconds}}`
