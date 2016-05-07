@@ -2,7 +2,7 @@
 
 > A command-line based tool to make presentations from markdown files.
 
-- Launch a presentation from a markdown file in the terminal:
+- Launch a presentation in the terminal from a markdown file:
 
 `mdp {{presentation.md}}`
 
