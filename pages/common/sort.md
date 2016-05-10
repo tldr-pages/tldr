@@ -10,11 +10,11 @@
 
 `sort -r {{filename}}`
 
-- Sort passwd file by the 3rd field:
+- Sort the passwd file by the 3rd field, numerically:
 
 `sort -t: -k 3n /etc/passwd`
 
-- Sort a file as number in ascending order:
+- Sort a file using numeric rather than alphabetic order:
 
 `sort -n {{filename}}`
 
