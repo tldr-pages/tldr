@@ -26,7 +26,7 @@
 
 - Enable output of ANSI colors:
 
-`{{something}} | less -R`
+`git diff --color | less -R`
 
 - Exit:
 
