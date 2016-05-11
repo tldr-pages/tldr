@@ -14,14 +14,14 @@
 
 `show tables;`
 
+- Describe a table:
+
+`desc {{table_name}};`
+
 - Show table partitions:
 
 `show partitions {{table_name}};`
 
-- Describe table partition:
+- Describe a partition:
 
 `desc {{table_name}} partition ({{partition_spec}});`
-
-- Create a partitiond table with lifecycle:
-
-`create table {{name}} ({{col}} {{type}}) partitioned by ({{col}} {{type}}) lifecycle {{days}};`
