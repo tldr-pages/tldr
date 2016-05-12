@@ -3,13 +3,33 @@
 > Selection manipulation tool.
 > For example, xsel can copy STDIN to clipboard, or print clipboard to STDOUT.
 
-- Copy output to clipboard:
+- Clipboard selection:
+
+`-b or --clipboard`
+
+- Primary selection:
+
+`-p or --primary`
+
+- Secndary selection:
+
+`-s or --secondary`
+
+- Copy output of a command into the clipboard:
 
 `echo 123 | xclip -bi`
 
-- Paste clipboard:
+- Copy contents of a file into the clipboard:
 
-`xsel -bo > file.txt`
+`cat {{file}} | xsel -bo`
+
+- Print the clipboard to STDOUT:
+
+`xsel -bo`
+
+- Print the clipboard into a file:
+
+`xsel -bo > {{file}}`
 
 - Clear the clipboard:
 
