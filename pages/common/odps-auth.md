@@ -1,4 +1,4 @@
-# odps authority
+# odps auth
 
 > Manaage authorities in ODPS (Open Data Processing Service).
 
