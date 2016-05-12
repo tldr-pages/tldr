@@ -4,7 +4,7 @@
 
 - Start the command line with a custom configuration file:
 
-`odpscmd --config {{odps_config.ini}}`
+`odpscmd --config={{odps_config.ini}}`
 
 - Switch current project:
 
