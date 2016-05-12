@@ -1,6 +1,6 @@
 # odps ddl
 
-> Run ddl task in odps.
+> Run ddl task in ODPS (Open Data Processing Service).
 
 - Create a table with partition and lifecycle:
 
@@ -10,7 +10,7 @@
 
 `create table {{table_name}} like {{another_table}};`
 
-- Add parition to a table:
+- Add partition to a table:
 
 `alter table {{table_name}} add parition ({{partition_spec}});`
 
