@@ -4,15 +4,15 @@
 
 - Show authorities of a user:
 
-`show grants for {{account_name}};`
+`show grants for {{user_name}};`
 
 - Add user to current project:
 
-`add user {{account_name}};`
+`add user {{user_name}};`
 
 - Grant a set of authorities to a user:
 
-`grant {{action_list}} on {{object}} {{object_name}} to user {{account_name}};`
+`grant {{action_list}} on {{object}} {{object_name}} to user {{user_name}};`
 
 - Create a role:
 
