@@ -6,7 +6,7 @@
 
 `tunnel download {{table_name}} {{file}};`
 
-- Upload local file to a table parition:
+- Upload local file to a table partition:
 
 `tunnel upload {{file}} {{table_name}}/{{partition_spec};`
 
