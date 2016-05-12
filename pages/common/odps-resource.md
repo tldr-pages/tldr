@@ -1,25 +1,26 @@
 # odps resource
 
-> Manage resources in odps.
+> Manage resources in ODPS (Open Data Processing Service).
 
 - Show resources in the current project:
 
 `list resources;`
 
-- Add local file as odps resource (overwrite if it already exists):
+- Add file or archive:
 
-`add file {{file}} as {{alias}} -f;`
-`add archive {{file}} as {{alias}} -f;`
-`add jar {{file.jar}} -f;`
-`add py {{file.py}} -f;`
+`add file {{file_name}} as {{alias}};`
 
-- Add odps table as odps resource  (overwrite if it already exists):
+- Add archive:
 
-`add table {{table_name}} partition ({{partition_spec}}) as {{as alias}} -f;`
+`add archive {{archive.tar.gz}} as {{alias}}`
 
-- Download odps resource to local file:
+- Add Jar package:
 
-`get resource {{project_name}}:{{resource_name}} {{file}};`
+`add jar {{package.jar}};`
+
+- Add Python script:
+
+`add py {{script.py}};`
 
 - Delete resource:
 
