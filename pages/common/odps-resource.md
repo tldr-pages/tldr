@@ -6,19 +6,19 @@
 
 `list resources;`
 
-- Add file or archive:
+- Add file resource:
 
 `add file {{file_name}} as {{alias}};`
 
-- Add archive:
+- Add archive resource:
 
 `add archive {{archive.tar.gz}} as {{alias}};`
 
-- Add Jar package:
+- Add .jar resource:
 
 `add jar {{package.jar}};`
 
-- Add Python script:
+- Add .py resource:
 
 `add py {{script.py}};`
 
