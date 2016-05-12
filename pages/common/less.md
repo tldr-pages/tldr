@@ -24,6 +24,10 @@
 
 `?{{something}}   then   n (next), N (previous)`
 
+- Enable output of ANSI colors:
+
+`git diff --color | less -R`
+
 - Exit:
 
 `q`
