@@ -1,6 +1,6 @@
 # odps auth
 
-> Manaage authorities in ODPS (Open Data Processing Service).
+> Manage authorities in ODPS (Open Data Processing Service).
 
 - Show authorities of a user:
 
