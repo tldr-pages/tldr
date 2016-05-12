@@ -12,7 +12,7 @@
 
 - Add archive:
 
-`add archive {{archive.tar.gz}} as {{alias}}`
+`add archive {{archive.tar.gz}} as {{alias}};`
 
 - Add Jar package:
 
