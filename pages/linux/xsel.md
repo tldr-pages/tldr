@@ -1,7 +1,7 @@
 # xsel
 
 > Selection manipulation tool.
-> For example xsel can copy STDIN to clipboard or print clipboard to STDOUT.
+> For example, xsel can copy STDIN to clipboard, or print clipboard to STDOUT.
 
 - Copy output to clipboard:
 
