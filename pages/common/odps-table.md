@@ -1,6 +1,6 @@
-# odps ddl
+# odps table
 
-> Run ddl task in ODPS (Open Data Processing Service).
+> Create and modify tables in ODPS (Open Data Processing Service).
 
 - Create a table with partition and lifecycle:
 
