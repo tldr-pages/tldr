@@ -26,12 +26,11 @@ Maybe it doesn't help that the first option explained in `man tar` is:
    and usually not even then as the default block size of 20 records (10240 bytes) is very common.
 ```
 
-Surely people could benefit from simplified "show me the common usages" man pages. What about:
+Surely people could benefit from simplified man pages focused on practical examples. How about:
 
 ![tldr screenshot](http://raw.github.com/tldr-pages/tldr/master/screenshot.png)
 
-This repository is just that:
-an ever-growing collection of examples
+This repository is just that: an ever-growing collection of examples
 for the most common UNIX / Linux / OSX / SunOS commands.
 
 ## Clients
@@ -62,7 +61,7 @@ You can access these pages on your computer using one of the following clients:
 - [Ruby client](https://github.com/YellowApple/tldrb): `gem install tldrb`
 - Rust clients:
     - [rust-tldr](https://github.com/rilut/rust-tldr) (online lookup): `cargo install tldr`
-    - [tldr-rs](https://github.com/dbrgn/tldr-rs) (offline caching, not yet published)
+    - [tealdeer](https://github.com/dbrgn/tealdeer) (fully featured client with offline cache): `cargo install tealdeer`
 - [Web client](https://github.com/ostera/tldr.jsx): https://ostera.github.io/tldr.jsx
 
 There is also a comprehensive [list of clients in our Wiki](https://github.com/tldr-pages/tldr/wiki/TLDR-clients).
@@ -78,11 +77,13 @@ and go ahead!
 
 ## Similar projects
 
-- [Cheat](https://github.com/chrisallenlane/cheat) allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind *nix system administrators of options for commands that they use frequently, but not frequently enough to remember.
+- [Cheat](https://github.com/chrisallenlane/cheat) allows you to create and view interactive cheatsheets on the command-line.
+  It was designed to help remind *nix system administrators of options for commands that they use frequently, but not frequently enough to remember.
 
-- [Bro pages](http://bropages.org/) are a highly readable supplement to man pages. Bro pages show concise, common-case examples for Unix commands.
+- [Bro pages](http://bropages.org/) are a highly readable supplement to man pages.
+  Bro pages show concise, common-case examples for Unix commands.
 
-## What does tldr mean?
+## What does "tldr" mean?
 
 TL;DR stands for "Too Long; Didn't Read".
 It originates in Internet slang, where it is used to indicate parts of the text skipped as too lengthy.

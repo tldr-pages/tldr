@@ -22,6 +22,6 @@
 
 `sudo iptables -D {{chain}} {{rule_line_number}}`
 
-- Savin iptables configuration:
+- Save iptables configuration:
 
 `sudo iptables-save > {{path_to_iptables_file}}`

@@ -2,13 +2,13 @@
 
 > Convert and copy a file.
 
-- Make a bootable usb drive from an isohybrid file (such like archlinux-xxx.iso):
+- Make a bootable usb drive from an isohybrid file (such like archlinux-xxx.iso) and show the progress:
 
-`dd if={{file.iso}} of=/dev/{{usb_drive}}`
+`dd if={{file.iso}} of=/dev/{{usb_drive}} status=progress`
 
-- Clone a drive to another drive with 4MB block and ignore error:
+- Clone a drive to another drive with 4MB block, ignore error and show progress:
 
-`dd if=/dev/{{source_drive}} of=/dev/{{dest_drive}} bs=4M conv=noerror`
+`dd if=/dev/{{source_drive}} of=/dev/{{dest_drive}} bs=4M conv=noerror status=progress`
 
 - Generate a file of 100 random bytes by using kernel random driver:
 

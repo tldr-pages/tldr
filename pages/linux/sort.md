@@ -18,6 +18,6 @@
 
 `sort -t: -k 3n /etc/passwd`
 
-- Sort a file preserving only unique lines:
+- Sort human-readable numbers (in this case the 5th field of `ls -lh`):
 
-`sort -u {{filename}}`
+`ls -lh | sort -h -k 5`

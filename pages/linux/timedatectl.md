@@ -17,3 +17,7 @@
 - To change timezones:
 
 `timedatectl set-timezone {{timezone}}`
+
+- To enable Network Time Protocol (NTP) syncing:
+
+`timedatectl set-ntp on`
