@@ -8,12 +8,12 @@
 
 - Upload local file to a table partition:
 
-`tunnel upload {{file}} {{table_name}}/{{partition_spec};`
+`tunnel upload {{file}} {{table_name}}/{{partition_spec}};`
 
-- Upload table with specifying field and record delimiters:
+- Upload table specifying field and record delimiters:
 
 `tunnel upload {{file}} {{table_name}} -fd {{field_delim}} -rd {{record_delim}};`
 
-- Upload table using multi-threads:
+- Upload table using multiple threads:
 
 `tunnel upload {{file}} {{table_name}} -threads {{num}};`
