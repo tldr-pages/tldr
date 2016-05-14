@@ -14,7 +14,7 @@
 
 `status {{instance_id}};`
 
-- Wait on the termination of an instance and print its logview:
+- Wait on the termination of an instance:
 
 `wait {{instance_id}};`
 
