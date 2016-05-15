@@ -85,6 +85,7 @@ and go ahead!
 
 - [Bro pages](http://bropages.org/) are a highly readable supplement to man pages.
   Bro pages show concise, common-case examples for Unix commands.
+  The examples are submitted by the user base, and can be voted up or down; the best entries are what people see first when they look up a command.
 
 ## What does "tldr" mean?
 
