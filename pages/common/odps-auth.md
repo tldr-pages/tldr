@@ -6,7 +6,7 @@
 
 `show grants for {{user_name}};`
 
-- Add user to current project:
+- Add a user to the current project:
 
 `add user {{user_name}};`
 
