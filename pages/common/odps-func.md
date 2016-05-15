@@ -12,7 +12,7 @@
 
 - Create a Python function using a .py resource:
 
-`create function {{func_name}} as {{script.Func}} using 'script.py';`
+`create function {{func_name}} as {{script.Func}} using '{{script.py}}';`
 
 - Delete a function:
 
