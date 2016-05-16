@@ -14,6 +14,6 @@
 
 `find . -name 'M*' | xargs rm`
 
-- Insert arguments at chosen position:
+- Insert arguments at chosen position, using '%' as the placeholder marker:
 
-`{{arguments}} | xargs -I piped_arguments {{command}} piped_arguments {{rest_of_arguments}}`
+`{{arguments}} | xargs -I % {{command}} % {{extra_arguments}}`
