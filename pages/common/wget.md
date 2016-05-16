@@ -23,6 +23,6 @@
 
 `wget --ftp-user={{username}} --ftp-password={{password}} {{url}}`
 
-- Set maximum number of retry time:
+- Set maximum number of retries:
 
-`wget -t {{number_of_retry_time}} {{url}}`
+`wget -t {{number_of_retries}} {{url}}`
