@@ -1,6 +1,6 @@
 # odps auth
 
-> Manage authorities in ODPS (Open Data Processing Service).
+> User authorities in ODPS (Open Data Processing Service).
 
 - Show authorities of a user:
 
@@ -18,10 +18,14 @@
 
 `create role {{role_name}};`
 
+- Describe authorities of a role:
+
+`desc role {{role_name}};`
+
 - Grant a role to a user:
 
 `grant {{role_name}} to {{user_name}};`
 
-- Grant a set of authorities to a user role:
+- Grant a set of authorities to a role:
 
 `grant {{action_list}} on {{object_type}} {{object_name}} to role {{role_name}};`
