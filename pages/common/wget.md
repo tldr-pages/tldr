@@ -23,6 +23,6 @@
 
 `wget --ftp-user={{username}} --ftp-password={{password}} {{url}}`
 
-- Set maximum number of retries:
+- Retry a given number of times if the download doesn't succeed at first:
 
 `wget -t {{number_of_retries}} {{url}}`
