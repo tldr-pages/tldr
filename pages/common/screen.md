@@ -8,7 +8,7 @@
 
 - Start a new named screen session:
 
-`screen -S {{name}}`
+`screen -S {{session name}}`
 
 - Show open screen sessions:
 
@@ -16,7 +16,7 @@
 
 - Reattach to an open screen:
 
-`screen -r {{name}}`
+`screen -r {{session name}}`
 
 - Detach from inside a screen:
 
@@ -24,4 +24,4 @@
 
 - Kill a detached screen:
 
-`screen -X -S {{name}} quit`
+`screen -X -S {{session name}} quit`
