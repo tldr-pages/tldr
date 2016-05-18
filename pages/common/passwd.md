@@ -10,7 +10,7 @@
 
 `passwd {{username}} {{new password}}`
 
-- Get the current statuts of the user:
+- Get the current status of the user:
 
 `passwd -S`
 
