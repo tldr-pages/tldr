@@ -1,6 +1,6 @@
 # hwclock
 
-> Used for reading or changing the hardware clock.  Usually requires root.
+> Used for reading or changing the hardware clock. Usually requires root.
 
 - Display the current time as reported by the hardware clock:
 
