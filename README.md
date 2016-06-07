@@ -50,7 +50,7 @@ You can access these pages on your computer using one of the following clients:
 - [Crystal client](https://github.com/porras/tlcr): `brew install porras/tap/tlcr`
 - [Dart client](https://github.com/hterkelsen/tldr): `pub global activate tldr`
 - [Elixir client](https://github.com/tldr-pages/tldr_elixir_client) (binaries not yet available)
-- [Emacs client](https://github.com/kuanyui/tldr.el)
+- [Emacs client](https://github.com/kuanyui/tldr.el), available on [MELPA](https://github.com/melpa/melpa)
 - [Go client](https://github.com/pranavraja/tldr): `go get github.com/pranavraja/tldr` (or [platform binaries](https://github.com/pranavraja/tldr/releases))
 - iOS clients:
   - [tldr-man-page](https://github.com/freesuraj/TLDR), available on [App Store](https://appsto.re/sg/IQ0-_.i)
