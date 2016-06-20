@@ -10,6 +10,10 @@
 
 `screen -S {{session_name}}`
 
+- Start a new deamon and log the output to scrrenlog.x:
+
+`screen -dmLS {{session_name}} {{command}}`
+
 - Show open screen sessions:
 
 `screen -ls`
