@@ -1,6 +1,6 @@
 # xattr
 
-> Utility for use with extended filesystem attributes.
+> Utility to work with extended filesystem attributes.
 
 - List key:value extended attributes for a given file:
 
