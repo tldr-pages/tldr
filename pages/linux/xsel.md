@@ -17,11 +17,11 @@
 
 - Copy output of a command into the clipboard:
 
-`echo 123 | xclip -bi`
+`echo 123 | xsel -bi`
 
 - Copy contents of a file into the clipboard:
 
-`cat {{file}} | xsel -bo`
+`cat {{file}} | xsel -bi`
 
 - Print the clipboard to STDOUT:
 
