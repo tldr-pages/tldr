@@ -11,7 +11,7 @@
 
 `-p or --primary`
 
-- Secndary selection:
+- Secondary selection:
 
 `-s or --secondary`
 
