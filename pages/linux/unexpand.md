@@ -2,9 +2,9 @@
 
 > Convert spaces to tabs.
 
-- Convert blanks in each FILE to tabs, writing to standard output:
+- Convert blanks in each file to tabs, writing to standard output:
 
-`unexpand {{FILE}}`
+`unexpand {{file}}`
 
 - Convert blanks to tabs, reading from standard output:
 
@@ -12,12 +12,12 @@
 
 - Convert all blanks, instead of just initial blanks:
 
-`unexpand -a {{FILE}}`
+`unexpand -a {{file}}`
 
 - Convert only leading sequences of blanks (overrides -a):
 
-`unexpand --first-only {{FILE}}`
+`unexpand --first-only {{file}}`
 
-- Have tabs NUMBER characters apart, not 8 (enables -a):
+- Have tabs a certain number of characters apart, not 8 (enables -a):
 
-`unexpand -t {{NUMBER}} {{FILE}}`
+`unexpand -t {{number}} {{file}}`
