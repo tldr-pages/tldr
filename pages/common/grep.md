@@ -19,14 +19,6 @@
 
 `grep -e {{^regex$}} {{path/to/file}}`
 
-- Print 3 lines of trailing context after each match
-
-`grep -A 3 {{something}} {{path/to/file}}`
-
-- Print 3 lines of leading context before each match
-
-`grep -B 3 {{something}} {{path/to/file}}`
-
 - Print 3 lines of context around each match:
 
 `grep -C 3 {{something}} {{path/to/file}}`
