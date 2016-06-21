@@ -31,6 +31,10 @@
 
 `grep -n {{something}} {{path/to/file}}`
 
+- Print file names with matches:
+
+`grep -rl {{something}} .`
+
 - Use the standard input instead of a file:
 
 `cat {{path/to/file}} | grep {{something}}`
