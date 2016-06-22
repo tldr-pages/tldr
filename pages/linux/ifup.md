@@ -1,6 +1,6 @@
 # ifup
 
-> Tool used to bring up interfaces.
+> Tool used to enable network interfaces, allowing it to transfer data.
 
 - Bring up interface eth0:
 
