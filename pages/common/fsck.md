@@ -4,7 +4,7 @@
 
 - Check filesystem /dev/sdX, reporting any damaged blocks:
 
-`fsck {/{dev/sdX}}`
+`fsck {{/dev/sdX}}`
 
 - Check filesystem /dev/sdX, reporting any damaged blocks and interactively letting the user choose to repair each one:
 
