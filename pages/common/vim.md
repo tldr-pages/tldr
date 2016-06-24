@@ -1,6 +1,6 @@
 # vim
 
-> Vi IMproved, a programmer's text editor.
+> Vi IMproved, a programmers text editor.
 
 - Open a file with cursor at the given line number:
 
@@ -14,22 +14,28 @@
 
 `view {{file}}`
 
-- Switch to normal mode:
+- Save and Exit vim:
 
-`<esc>`
+`<Esc>:wq<Cr>`
 
-- Switch to insert mode:
+- Enter insert mode:
 
-`<esc> i`
+`<Esc>i`
 
-- Exit vim:
+- Search in file:
 
-`<esc> :q <enter>`
+`/{{search_string}}<Cr>`
 
-- Save file in vim:
+- Run a command mode from normal mode:
 
-`<esc> :w <enter>`
+`:{{command}}<Cr>`
 
-- Save file then exit vim:
+- Common commands:
 
-`<esc> :wq <enter>`
+`w             save the current file`
+`q             quit (might prompt to save first)`
+`sav {{path}}  save to a new file`
+`e {{path}}    edit a file`
+`help          show the help`
+`!{{command}}  execute an external shell command`
+`s/{{a}}/{{b}} replace {{a}} with {{b}}`
