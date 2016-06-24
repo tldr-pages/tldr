@@ -33,7 +33,7 @@
 
 - Print file names with matches:
 
-`grep -rl {{search_string}} .`
+`grep -l {{search_string}} {{path/to/file}}`
 
 - Use the standard input instead of a file:
 
