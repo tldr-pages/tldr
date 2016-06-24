@@ -6,6 +6,10 @@
 
 `echo 123 | xclip -i`
 
+- Copy output to system clipboard:
+
+`echo 123 | xclip -sel clip`
+
 - Paste clipboard:
 
 `xclip -o > file.txt`
