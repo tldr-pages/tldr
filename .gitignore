@@ -1,12 +1,15 @@
+# OS X filesystem custom folder attributes
 .DS_Store
 
-# bundler specific
+# Bundler-specific files
 .gem
 .bundle
 
-# npm specific
+# NPM-specific files
 node_modules
 npm-debug.log
 
-# No index, no cry
+# We used to have an index file in the repository,
+# but it's been superseded by a static asset
+# hosted at https://tldr-pages.github.io/assets/index.json
 pages/index.json
