@@ -7,3 +7,6 @@
 # npm specific
 node_modules
 npm-debug.log
+
+# No index, no cry
+pages/index.json
