@@ -6,11 +6,11 @@
 
 `quota`
 
-- Verbose output (also display quotas on filesystems where no storage is allocated)
+- Verbose output (also display quotas on filesystems where no storage is allocated):
 
 `quota -v`
 
-- Quiet output (only display quotas on filesystems where usage is over quota)
+- Quiet output (only display quotas on filesystems where usage is over quota):
 
 `quota -q`
 
