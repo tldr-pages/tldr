@@ -22,6 +22,6 @@
 
 `xsel -cb`
 
-- Output the X11 primary selection's contents into the terminal (equivalent to a mouse middle-click)
+- Output the X11 primary selection's contents into the terminal (equivalent to a mouse middle-click):
 
 `xsel -op`
