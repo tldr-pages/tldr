@@ -22,3 +22,7 @@
 - FTP download with username and password:
 
 `wget --ftp-user={{username}} --ftp-password={{password}} {{url}}`
+
+- Retry a given number of times if the download doesn't succeed at first:
+
+`wget -t {{number_of_retries}} {{url}}`

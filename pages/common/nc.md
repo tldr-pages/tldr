@@ -29,3 +29,11 @@
 - Client stay up after EOF:
 
 `nc -q {{timeout}} {{ip_address}}`
+
+- Port scanning:
+
+`nc -v -z {{ip_address}} {{port}}`
+
+- Proxy and port forwarding:
+
+`nc -l {{ port }} | nc {{ hostname }} {{ port }}`

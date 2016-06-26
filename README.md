@@ -2,11 +2,14 @@
 
 [![Build Status][travis-image]][travis-url]
 [![Gitter chat][gitter-image]][gitter-url]
+[![Issue Stats][issuestats-image]][issuestats-url]
 
 [travis-url]: https://travis-ci.org/tldr-pages/tldr
 [travis-image]: https://travis-ci.org/tldr-pages/tldr.svg?branch=master
 [gitter-url]: https://gitter.im/tldr-pages/tldr
 [gitter-image]: https://badges.gitter.im/tldr-pages/tldr.svg
+[issuestats-url]: http://issuestats.com/github/tldr-pages/tldr
+[issuestats-image]: http://issuestats.com/github/tldr-pages/tldr/badge/pr?style=flat
 
 A collection of simplified and community-driven man pages.
 
@@ -26,12 +29,11 @@ Maybe it doesn't help that the first option explained in `man tar` is:
    and usually not even then as the default block size of 20 records (10240 bytes) is very common.
 ```
 
-Surely people could benefit from simplified "show me the common usages" man pages. What about:
+Surely people could benefit from simplified man pages focused on practical examples. How about:
 
 ![tldr screenshot](http://raw.github.com/tldr-pages/tldr/master/screenshot.png)
 
-This repository is just that:
-an ever-growing collection of examples
+This repository is just that: an ever-growing collection of examples
 for the most common UNIX / Linux / OSX / SunOS commands.
 
 ## Clients
@@ -48,7 +50,7 @@ You can access these pages on your computer using one of the following clients:
 - [Crystal client](https://github.com/porras/tlcr): `brew install porras/tap/tlcr`
 - [Dart client](https://github.com/hterkelsen/tldr): `pub global activate tldr`
 - [Elixir client](https://github.com/tldr-pages/tldr_elixir_client) (binaries not yet available)
-- [Emacs client](https://github.com/kuanyui/tldr.el)
+- [Emacs client](https://github.com/kuanyui/tldr.el), available on [MELPA](https://github.com/melpa/melpa)
 - [Go client](https://github.com/pranavraja/tldr): `go get github.com/pranavraja/tldr` (or [platform binaries](https://github.com/pranavraja/tldr/releases))
 - iOS clients:
   - [tldr-man-page](https://github.com/freesuraj/TLDR), available on [App Store](https://appsto.re/sg/IQ0-_.i)
@@ -62,7 +64,7 @@ You can access these pages on your computer using one of the following clients:
 - [Ruby client](https://github.com/YellowApple/tldrb): `gem install tldrb`
 - Rust clients:
     - [rust-tldr](https://github.com/rilut/rust-tldr) (online lookup): `cargo install tldr`
-    - [tldr-rs](https://github.com/dbrgn/tldr-rs) (offline caching, not yet published)
+    - [tealdeer](https://github.com/dbrgn/tealdeer) (fully featured client with offline cache): `cargo install tealdeer`
 - [Web client](https://github.com/ostera/tldr.jsx): https://ostera.github.io/tldr.jsx
 
 There is also a comprehensive [list of clients in our Wiki](https://github.com/tldr-pages/tldr/wiki/TLDR-clients).
@@ -78,11 +80,14 @@ and go ahead!
 
 ## Similar projects
 
-- [Cheat](https://github.com/chrisallenlane/cheat) allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind *nix system administrators of options for commands that they use frequently, but not frequently enough to remember.
+- [Cheat](https://github.com/chrisallenlane/cheat) allows you to create and view interactive cheatsheets on the command-line.
+  It was designed to help remind *nix system administrators of options for commands that they use frequently, but not frequently enough to remember.
 
-- [Bro pages](http://bropages.org/) are a highly readable supplement to man pages. Bro pages show concise, common-case examples for Unix commands.
+- [Bro pages](http://bropages.org/) are a highly readable supplement to man pages.
+  Bro pages show concise, common-case examples for Unix commands.
+  The examples are submitted by the user base, and can be voted up or down; the best entries are what people see first when they look up a command.
 
-## What does tldr mean?
+## What does "tldr" mean?
 
 TL;DR stands for "Too Long; Didn't Read".
 It originates in Internet slang, where it is used to indicate parts of the text skipped as too lengthy.

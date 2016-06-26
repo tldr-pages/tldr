@@ -6,13 +6,17 @@
 
 `top`
 
-- Start top ignoring any idle or zombie processes:
+- Do not show any idle or zombie processes:
 
 `top -i`
 
-- Start top displaying only processes owned by given user:
+- Show only processes owned by given user:
 
-`top -u {{user-name}}`
+`top -u {{user_name}}`
+
+- Show only the processes with the given PID(s), passed as a comma-separated list. (Normally you wouldn't know PIDs off hand. This example picks the PIDs from the process name):
+
+`top -p $(pgrep -d ',' {{process_name}})`
 
 - Get help about interactive commands:
 

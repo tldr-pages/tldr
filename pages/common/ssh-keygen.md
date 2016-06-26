@@ -21,3 +21,7 @@
 - Retrieve the key fingerprint from a host (useful for confirming the authenticity of the host when first connecting to it via SSH):
 
 `ssh-keygen -l -F {{remote_host}}`
+
+- Change the password of a key:
+
+`ssh-keygen -p -f ~/.ssh/{{filename}}`

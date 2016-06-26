@@ -11,9 +11,13 @@
 
 `npm install`
 
-- Download a given dependency, and add it to the package.json:
+- Download a given dependency required for the application to run, and add it to the package.json:
 
 `npm install {{module_name}}@{{version}} --save`
+
+- Download a given dependency for development purposes, and add it to the package.json:
+
+`npm install {{module_name}}@{{version}} --save-dev`
 
 - Uninstall a module:
 

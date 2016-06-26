@@ -17,3 +17,7 @@
 - Show staged (added, but not yet committed) changes only:
 
 `git diff --staged`
+
+- Create a patch file:
+
+`git diff > {{target-file.patch}}`
