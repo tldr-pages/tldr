@@ -66,6 +66,7 @@ You can access these pages on your computer using one of the following clients:
     - [rust-tldr](https://github.com/rilut/rust-tldr) (online lookup): `cargo install tldr`
     - [tealdeer](https://github.com/dbrgn/tealdeer) (fully featured client with offline cache): `cargo install tealdeer`
 - [Web client](https://github.com/ostera/tldr.jsx): https://ostera.github.io/tldr.jsx
+- [Alfred Workflow](https://github.com/cs1707/tldr-alfred)
 
 There is also a comprehensive [list of clients in our Wiki](https://github.com/tldr-pages/tldr/wiki/TLDR-clients).
 
