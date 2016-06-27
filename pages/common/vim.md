@@ -1,6 +1,6 @@
 # vim
 
-> Vi IMproved, a programmers text editor.
+> Vi IMproved, a programmer's text editor.
 
 - Open a file with cursor at the given line number:
 
@@ -18,24 +18,10 @@
 
 `<Esc>:wq<Cr>`
 
-- Enter insert mode:
+- Enter normal text editing mode (insert mode):
 
 `<Esc>i`
 
 - Search in file:
 
 `/{{search_string}}<Cr>`
-
-- Run a command mode from normal mode:
-
-`:{{command}}<Cr>`
-
-- Common commands:
-
-`w             save the current file`
-`q             quit (might prompt to save first)`
-`sav {{path}}  save to a new file`
-`e {{path}}    edit a file`
-`help          show the help`
-`!{{command}}  execute an external shell command`
-`s/{{a}}/{{b}} replace {{a}} with {{b}}`
