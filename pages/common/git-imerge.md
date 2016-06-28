@@ -5,7 +5,7 @@
 
 - Start imerge-based rebase (checkout the branch to be rebased, first):
 
-`git imerge rebase {{branch_to_rebase_into}}`
+`git imerge rebase {{branch_to_rebase_onto}}`
 
 - Start imerge-based merge (checkout the branch to merge into, first):
 
