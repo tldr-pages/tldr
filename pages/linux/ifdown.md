@@ -1,6 +1,6 @@
 # ifdown
 
-> Tool used to disable network interfaces.
+> Disable network interfaces.
 
 - Disable interface eth0:
 
