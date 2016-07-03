@@ -13,7 +13,7 @@
 
 A collection of simplified and community-driven man pages.
 
-Install it with `npm install -g tldr` or [try the web client](https://ostera.github.io/tldr.jsx).
+Install it with `npm install -g tldr` or [try the web client](http://tldr.ostera.io).
 
 ## What is tldr?
 
@@ -40,6 +40,7 @@ for the most common UNIX / Linux / OSX / SunOS commands.
 
 You can access these pages on your computer using one of the following clients:
 
+- [Alfred Workflow](https://github.com/cs1707/tldr-alfred)
 - Android clients:
   - [tldr-viewer](https://github.com/gianasista/tldr-viewer), available on
     [Google Play](https://play.google.com/store/apps/details?id=de.gianasista.tldr_viewer)
@@ -65,8 +66,7 @@ You can access these pages on your computer using one of the following clients:
 - Rust clients:
     - [rust-tldr](https://github.com/rilut/rust-tldr) (online lookup): `cargo install tldr`
     - [tealdeer](https://github.com/dbrgn/tealdeer) (fully featured client with offline cache): `cargo install tealdeer`
-- [Web client](https://github.com/ostera/tldr.jsx): https://ostera.github.io/tldr.jsx
-- [Alfred Workflow](https://github.com/cs1707/tldr-alfred)
+- [Web client](https://github.com/ostera/tldr.jsx): http://tldr.ostera.io/
 
 There is also a comprehensive [list of clients in our Wiki](https://github.com/tldr-pages/tldr/wiki/TLDR-clients).
 
