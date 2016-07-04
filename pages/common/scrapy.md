@@ -1,20 +1,20 @@
 # scrapy
 
-> Open Source framework for crawling websites written in python.
+> Web-crawling Framework.
 
 - Create a project:
 
 `scrapy startproject {{project_name}}`
 
-- Create a spider:
+- Create a spider (in project directory):
 
 `scrapy genspider {{spider_name}} {{website_domain}}`
 
-- Edit spider:
+- Edit spider (in project directory):
 
 `scrapy edit {{spider_name}}`
 
-- Run spider:
+- Run spider (in project directory):
 
 `scrapy crawl {{spider_name}}`
 
@@ -22,10 +22,10 @@
 
 `scrapy fetch {{url}}`
 
-- View a webpage as scrapy sees it, opens it in browser(disable javascript before):
+- View a webpage as scrapy sees it, opens it in default browser (recommended: to disable javascript beforehand):
 
 `scrapy view {{url}}`
 
-- Open scrapy shell for url, which allows you to interact with the page source in python shell:
+- Open scrapy shell for url, which allows interaction with the page source in ipython or python shell:
 
 `scrapy shell {{url}}`
