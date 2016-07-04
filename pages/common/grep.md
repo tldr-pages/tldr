@@ -15,9 +15,9 @@
 
 `grep -rI {{search_string}} .`
 
-- Use a regular expression (`-E` for extended regex, supporting `?`, `+`, `{}`, `()` and `|`):
+- Use extended regular expressions (supporting `?`, `+`, `{}`, `()` and `|`):
 
-`grep -e {{^regex$}} {{path/to/file}}`
+`grep -E {{^regex$}} {{path/to/file}}`
 
 - Print 3 lines of context around each match:
 
