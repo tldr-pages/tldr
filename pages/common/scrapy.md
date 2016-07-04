@@ -29,4 +29,3 @@
 - Open scrapy shell for url, which allows you to interact with the page source in python shell:
 
 `scrapy shell {{url}}` 
-
