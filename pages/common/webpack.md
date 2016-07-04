@@ -10,9 +10,9 @@
 
 `webpack {{app.js}} {{bundle.js}} --module-bind 'css=css'`
 
-- Pass a config file and show compilation progress along with colors:
+- Pass a config file and show compilation progress:
 
-`webpack --config {{webpack.config.js}} --progress --colors`
+`webpack --config {{webpack.config.js}} --progress`
 
 - Automatically recompile on file change:
 
