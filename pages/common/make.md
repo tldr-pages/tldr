@@ -18,3 +18,7 @@
 - Execute make from another directory:
 
 `make -C {{directory}}`
+
+- Force making of a rule, even if source files are unchanged
+
+`make -B {{rule}}`
