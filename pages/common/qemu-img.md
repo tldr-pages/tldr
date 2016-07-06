@@ -10,7 +10,7 @@
 
 `qemu-img info {{image_name.img}}`
 
-- Increase/decrease image size:
+- Increase or decrease image size:
 
 `qemu-img resize {{image_name.img}} {{gigabites}}G`
 
