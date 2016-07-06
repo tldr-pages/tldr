@@ -1,6 +1,6 @@
 # qemu-img
 
-> Tool for QEMU Virtual HDD image creation and manipulation
+> Tool for QEMU Virtual HDD image creation and manipulation.
 
 - Create disk image with a specific size (in gigabytes):
 
@@ -8,7 +8,7 @@
 
 - Get information about image:
 
-`qemu-img info {{image_name.img}}
+`qemu-img info {{image_name.img}}`
 
 - Increase/decrease image size:
 
