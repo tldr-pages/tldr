@@ -1,6 +1,6 @@
 # ed
 
-> The original Unix text editor
+> The original Unix text editor.
 
 - Start ed, editing an empty document (which can be saved as a new file in the current directory):
 
