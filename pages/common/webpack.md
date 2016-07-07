@@ -10,7 +10,7 @@
 
 `webpack {{app.js}} {{bundle.js}} --module-bind 'css=css'`
 
-- Pass a config file and show compilation progress. (As an example config, you can export an object containing `entry` and `output.filename` properties, which correspond to the entry and output file names):
+- Pass a config file(with eg. the entry script and the output filename) and show compilation progress:
 
 `webpack --config {{webpack.config.js}} --progress`
 
