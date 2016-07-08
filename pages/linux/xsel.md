@@ -1,36 +1,27 @@
 # xsel
 
-> Selection manipulation tool.
-> For example, xsel can copy STDIN to clipboard, or print clipboard to STDOUT.
+> X11 selection and clipboard manipulation tool.
 
-- Clipboard selection:
+- Use a command's output as input of the clip[b]oard (equivalent to Ctrl+C):
 
-`-b or --clipboard`
+`echo 123 | xsel -ib`
 
-- Primary selection:
+- Use the contents of a file as input of the clipboard:
 
-`-p or --primary`
+`cat {{file}} | xsel -ib`
 
-- Secondary selection:
+- Output the clipboard's contents into the terminal (equivalent to Ctrl+V):
 
-`-s or --secondary`
+`xsel -ob`
 
-- Copy output of a command into the clipboard:
+- Output the clipboard's contents into a file:
 
-`echo 123 | xsel -bi`
-
-- Copy contents of a file into the clipboard:
-
-`cat {{file}} | xsel -bi`
-
-- Print the clipboard to STDOUT:
-
-`xsel -bo`
-
-- Print the clipboard into a file:
-
-`xsel -bo > {{file}}`
+`xsel -ob > {{file}}`
 
 - Clear the clipboard:
 
-`xsel -bc`
+`xsel -cb`
+
+- Output the X11 primary selection's contents into the terminal (equivalent to a mouse middle-click):
+
+`xsel -op`
