@@ -17,3 +17,7 @@
 - Display number of occurences of each line along with that line:
 
 `uniq -c {{file}}`
+
+- Display number of occurences of each line, sorted by the most frequent:
+
+`uniq -c {{file}} | sort -nr`
