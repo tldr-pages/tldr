@@ -6,6 +6,10 @@
 
 `iostat`
 
+- Display a report of CPU and disk statistics since system startup with units converted to megabytes:
+
+`iostat -m`
+
 - Display CPU statistics:
 
 `iostat -c`
@@ -18,6 +22,6 @@
 
 `iostat -xN {{sda}}`
 
-- Display incremental reports of CPU and disk statistics every "interval" second(s) with units converted to megabytes:
+- Display incremental reports of CPU and disk statistics every "2" second(s):
 
-`iostat -m {{interval}}`
+`iostat {{2}}`
