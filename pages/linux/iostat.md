@@ -18,10 +18,10 @@
 
 `iostat -N`
 
-- Display extended disk statistics with disk names for device sda:
+- Display extended disk statistics with disk names for device "sda":
 
 `iostat -xN {{sda}}`
 
-- Display incremental reports of CPU and disk statistics every 2 second(s):
+- Display incremental reports of CPU and disk statistics every 2 seconds:
 
 `iostat {{2}}`
