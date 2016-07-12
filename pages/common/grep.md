@@ -5,7 +5,7 @@
 
 - Search for an exact string:
 
-`grep {{search_string}} {{file_path}}`
+`grep {{search_string}} {{path/to/file}}`
 
 - Search in case-insensitive mode:
 

@@ -24,4 +24,4 @@
 
 - Save iptables configuration:
 
-`sudo iptables-save > {{path_to_iptables_file}}`
+`sudo iptables-save > {{path/to/iptables_file}}`

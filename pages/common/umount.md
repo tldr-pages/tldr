@@ -5,11 +5,11 @@
 
 - Unmount a filesystem:
 
-`umount {{path_to_device_file}}`
+`umount {{path/to/device_file}}`
 
 - OR:
 
-`umount {{path_to_mounted_directory}}`
+`umount {{path/to/mounted_directory}}`
 
 - Unmount all mounted filesystems (dangerous!):
 
