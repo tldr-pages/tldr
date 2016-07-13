@@ -16,7 +16,7 @@
 
 - Reveal a file in finder:
 
-`open -R /path/dir/{{file}}`
+`open -R {{path/to/file}}`
 
 - Open all the files of a given extension in the current directory with the associated application:
 

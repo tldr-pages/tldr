@@ -4,8 +4,8 @@
 
 - Format a drive (or a file) to make it a LUKS volume:
 
-`cryptsetup luksFormat {{path_to_luks_volume_to_be}}`
+`cryptsetup luksFormat {{path/to/luks_volume_to_be}}`
 
 - Open a volume so that you can access it decrypted on the fly at /dev/mapper/{{a}}:
 
-`cryptsetup luksOpen {{path_to_luks_volume_to_be}} {{a}}`
+`cryptsetup luksOpen {{path/to/luks_volume_to_be}} {{a}}`

@@ -20,7 +20,7 @@
 
 - Read an erroneous file, skip errors as `dd conv=sync,noerror` would:
 
-`pv -EE {{path_to_faulty_media}} > image.img`
+`pv -EE {{path/to/faulty_media}} > image.img`
 
 - Stop reading after reading specified amount of data, rate limit to 1K/s:
 

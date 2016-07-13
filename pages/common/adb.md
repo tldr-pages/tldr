@@ -16,4 +16,4 @@
 
 - Push an Android application to an emulator/device:
 
-`adb install -r {{apk.path}}`
+`adb install -r {{path/to/file.apk}}`
