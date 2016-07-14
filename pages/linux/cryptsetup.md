@@ -1,6 +1,6 @@
 # cryptsetup
 
-> Manage plain dm-crypt and LUKS(Linux Unified Key Setup) encrypted volumes.
+> Manage plain dm-crypt and LUKS (Linux Unified Key Setup) encrypted volumes.
 
 - Initialize a LUKS volume (overwrites all data on the partition):
 
