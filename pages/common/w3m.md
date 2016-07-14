@@ -1,6 +1,6 @@
 # w3m
 
-> A text based Web browser and pager.
+> A text-based web browser.
 
 - Open an URL:
 
