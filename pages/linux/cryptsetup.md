@@ -2,10 +2,14 @@
 
 > Manage plain dm-crypt and LUKS encrypted volumes.
 
-- Format a drive (or a file) to make it a LUKS volume:
+- Initialize a LUKS volume (overwrites all data on the partition):
 
-`cryptsetup luksFormat {{path/to/luks_volume_to_be}}`
+`cryptsetup luksFormat {{/dev/sda1}}`
 
-- Open a volume so that you can access it decrypted on the fly at /dev/mapper/{{a}}:
+- Open a LUKS volume and create a mapping at/dev/mapper/{{backup}}:
 
-`cryptsetup luksOpen {{path/to/luks_volume_to_be}} {{a}}`
+`cryptsetup luksOpen {{/dev/sda1}} {{backup}}`
+
+- Remove an existing mapping:
+
+`cryptsetup luksClose {{backup}}`
