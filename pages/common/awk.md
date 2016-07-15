@@ -2,19 +2,19 @@
 
 > A versatile programming language for working on files.
 
-- Print the fifth column in a space separated file:
+- Print the fifth column (a.k.a. field) in a space-separated file:
 
 `awk '{print $5}' {{filename}}`
 
-- Print the second column of the lines containing "something" in a space separated file:
+- Print the second column of the lines containing "something" in a space-separated file:
 
 `awk '/{{something}}/ {print $2}' {{filename}}`
 
-- Print the third column in a comma separated file:
+- Print the last column of each line in a file, using a comma (instead of space) as a field separator:
 
-`awk -F ',' '{print $3}' {{filename}}`
+`awk -F ',' '{print $NF}' {{filename}}`
 
-- Sum the values in the first column and print the total:
+- Sum the values in the first column of a file and print the total:
 
 `awk '{s+=$1} END {print s}' {{filename}}`
 
