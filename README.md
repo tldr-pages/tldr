@@ -31,7 +31,7 @@ Maybe it doesn't help that the first option explained in `man tar` is:
 
 Surely people could benefit from simplified man pages focused on practical examples. How about:
 
-![tldr screenshot](http://raw.github.com/tldr-pages/tldr/master/screenshot.png)
+![tldr screenshot](screenshot.png)
 
 This repository is just that: an ever-growing collection of examples
 for the most common UNIX / Linux / OSX / SunOS commands.
