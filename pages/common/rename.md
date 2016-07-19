@@ -10,6 +10,10 @@
 
 `rename -n {{'s/foo/bar/'}} {{\*}}`
 
+- Force renaming even if the operation would overwrite existing files:
+
+`rename -f {{'s/foo/bar/'}} {{\*}}`
+
 - Convert filenames to lower case (use `-f` in case-insensitive filesystems to prevent "already exists" errors):
 
 `rename 'y/A-Z/a-z/' {{\*}}`
