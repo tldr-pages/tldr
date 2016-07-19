@@ -1,6 +1,6 @@
 # Contributing
 
-Contribution are most welcome! All `tldr` pages are stored in Markdown right here on GitHub. Just open an issue or send a pull request and we'll merge it as soon as possible.
+Contributions are most welcome! All `tldr` pages are stored in Markdown right here on GitHub. Just open an issue or send a pull request and we'll merge it as soon as possible.
 
 *Note*: when submitting a new command, don't forget to check if there's already a pull request in progress.
 
