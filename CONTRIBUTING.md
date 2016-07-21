@@ -42,9 +42,12 @@ It is run automatically on every pull request,
 but you may install it to test your contributions locally before submitting them:
 
 ```
-npm install
-tldr tldrl
+npm install tldr-lint
+tldrl -f {{page.md}}
 ```
+
+For other ways to use `tldrl`, such as linting an entire directory, check out (what else!)
+[`tldr tldrl`](https://github.com/tldr-pages/tldr/blob/master/pages/common/tldrl.md)
 
 ### Token Syntax
 User-provided values should use the `{{token}}` syntax in order to allow clients
