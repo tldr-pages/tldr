@@ -14,6 +14,6 @@
 
 `echo -n {{"Hello World"}}`
 
-- Enable backslash escapes:
+- Enable interpretation of backslash escapes (special characters):
 
 `echo -e {{"Column 1\tColumn 2"}}`
