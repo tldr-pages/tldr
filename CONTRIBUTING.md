@@ -14,7 +14,7 @@ Here are a few guidelines to get started:
 3. Try to incorporate the spelled-out version of single-letter options in the example's description. The goal is to allow people to *understand* the syntax of the commands, not just *memorize* them.
 4. Introduce options gradually, starting with the simplest commands and using more complex examples progressively.
 5. Use short but descriptive values for the tokens, ex. `{{source_file}}` or `{{wallet.txt}}`.
-6. Focus on details specific to the command, and avoid explaining general UNIX concepts that could apply to any command (ex: relative/absolute paths, brace expansion, glob patterns/wildcards, special character escaping...).
+6. Focus on details specific to the command, and avoid explaining general UNIX concepts that could apply to any command (ex: relative/absolute paths, glob patterns/wildcards, special character escaping...).
 
 The best way to be consistent is to have a look at a few existing pages :).
 
