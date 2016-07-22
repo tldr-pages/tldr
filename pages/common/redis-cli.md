@@ -20,4 +20,4 @@
 
 - Execute Redis command:
 
-`redis-cli {{redis command}}`
+`redis-cli {{redis_command}}`
