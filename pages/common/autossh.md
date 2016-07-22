@@ -25,4 +25,4 @@
 
 - Run autossh in the background with debug output logged to a file and ssh verbose output logged to a second file:
 
-`AUTOSSH_DEBUG=1 AUTOSSH_LOGFILE={{log_file}} autossh -f -M {{monitor_port}} -v -E {{ssh_logfile}} {{ssh_command}}`
+`AUTOSSH_DEBUG=1 AUTOSSH_LOGFILE={{log_file}} autossh -f -M {{monitor_port}} -v -E {{ssh_log_file}} {{ssh_command}}`

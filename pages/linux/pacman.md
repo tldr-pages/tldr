@@ -8,11 +8,11 @@
 
 - Install a new package:
 
-`pacman -S package-name`
+`pacman -S {{package_name}}`
 
 - Remove a package and its dependencies:
 
-`pacman -Rs package-name`
+`pacman -Rs {{package_name}}`
 
 - Search the package database for a keyword:
 
@@ -28,7 +28,7 @@
 
 - Find which package owns a certain file:
 
-`pacman -Qo filename`
+`pacman -Qo {{filename}}`
 
 - Empty package cache to free up space:
 

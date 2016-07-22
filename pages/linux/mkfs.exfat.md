@@ -8,8 +8,8 @@
 
 - Create filesystem with a volume-name:
 
-`mkfs.exfat -n {{volume-name}} {{/dev/sdb1}}`
+`mkfs.exfat -n {{volume_name}} {{/dev/sdb1}}`
 
 - Create filesystem with a volume-id:
 
-`mkfs.exfat -i {{volume-id}} {{/dev/sdb1}}`
+`mkfs.exfat -i {{volume_id}} {{/dev/sdb1}}`

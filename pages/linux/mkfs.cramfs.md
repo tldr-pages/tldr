@@ -8,4 +8,4 @@
 
 - Create a ROM filesystem with a volume-name:
 
-`mkfs.cramfs -n {{volume-name}} {{/dev/sdb1}}`
+`mkfs.cramfs -n {{volume_name}} {{/dev/sdb1}}`
