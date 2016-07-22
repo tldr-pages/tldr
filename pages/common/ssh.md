@@ -30,3 +30,7 @@
 - SSH enable agent forward:
 
 `ssh -A {{username}}@{{remote_host}}`
+
+- SSH enable X11 forwarding:
+
+`ssh -X {{username}}@{{remote_host}}`
