@@ -16,11 +16,11 @@
 
 - Serve a file:
 
-`cat somefile.txt | nc -l {{port}}`
+`nc -l {{port}} < {{somefile.txt}}`
 
 - Receive a file:
 
-`nc {{ip_address}} {{port}} > somefile.txt`
+`nc {{ip_address}} {{port}} > {{somefile.txt}}`
 
 - Server stay up after client detach:
 
