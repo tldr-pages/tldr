@@ -20,7 +20,7 @@
 
 - Break stdin into ~1M blocks, feed each block to stdin of new command:
 
-`cat {{bigfile.txt}} | parallel --pipe --block 1M {{command}}`
+`parallel --pipe --block 1M {{command}} < {{path/to/bigfile}}`
 
 - Run on multiple machines via SSH:
 

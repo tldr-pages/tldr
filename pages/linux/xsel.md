@@ -8,7 +8,7 @@
 
 - Use the contents of a file as input of the clipboard:
 
-`cat {{file}} | xsel -ib`
+`xsel -ib < {{file}}`
 
 - Output the clipboard's contents into the terminal (equivalent to Ctrl+V):
 

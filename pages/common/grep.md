@@ -37,7 +37,7 @@
 
 - Use the standard input instead of a file:
 
-`cat {{path/to/file}} | grep {{search_string}}`
+`grep {{search_string}}`
 
 - Invert match for excluding specific strings:
 
