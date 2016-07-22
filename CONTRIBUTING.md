@@ -81,8 +81,7 @@ Alternatively, you can do it using the command line:
 
 - clone your fork locally:
 
-    `git clone https://github.com/{{your_username}}/tldr.git`
-    `cd tldr`
+    `git clone https://github.com/{{your_username}}/tldr.git && cd tldr`
 
 - create a feature branch, e.g. named after the command you plan to edit:
 
