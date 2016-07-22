@@ -36,4 +36,4 @@
 
 - Proxy and port forwarding:
 
-`nc -l {{ port }} | nc {{ hostname }} {{ port }}`
+`nc -l {{port}} | nc {{hostname}} {{port}}`

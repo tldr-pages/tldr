@@ -8,7 +8,7 @@
 
 - Create a license with custom filename:
 
-`license -o {{file}} {{license_name}}`
+`license -o {{filename}} {{license_name}}`
 
 - List all locally available licenses:
 
