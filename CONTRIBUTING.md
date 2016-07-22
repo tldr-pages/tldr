@@ -49,7 +49,7 @@ tldrl -f {{page.md}}
 For other ways to use `tldrl`, such as linting an entire directory, check out (what else!)
 [`tldr tldrl`](https://github.com/tldr-pages/tldr/blob/master/pages/common/tldrl.md)
 
-### Token Syntax
+### Token syntax
 User-provided values should use the `{{token}}` syntax in order to allow clients
 to highlight them. 
 
@@ -101,6 +101,8 @@ Alternatively, you can do it using the command line:
 
 Please send only related changes in the same pull request.
 Typically a pull request will include changes in a single file.
+
+### Commit message
 
 For the commit message, use the following format:
 
