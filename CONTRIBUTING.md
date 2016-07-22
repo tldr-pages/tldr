@@ -116,9 +116,9 @@ Examples:
 
 ## Licensing
 
-`tldr` is under [MIT license](https://github.com/tldr-pages/tldr/blob/master/LICENSE.md).
+`tldr` is licensed under the [MIT license](https://github.com/tldr-pages/tldr/blob/master/LICENSE.md).
 
-**IMPORTANT**: By submitting a patch, you agree to license your work under the
-same license as that used by the project.
+**IMPORTANT**: By submitting a patch, you agree to license your work
+under the same license as that used by the project.
 
 You're free to modify or redistribute the content. That being said, but why not contribute over here? :) Say if you wanted to have `tldr` pages in `groff` format, why not have a client that uses [pandoc](http://johnmacfarlane.net/pandoc/) and periodically updates straight from this repo?
