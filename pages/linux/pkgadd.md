@@ -4,8 +4,8 @@
 
 - Install a local software package:
 
-`pkgadd {{package-name}}`
+`pkgadd {{package_name}}`
 
 - Update an already installed package from a local package:
 
-`pkgadd -u {{package-name}}`
+`pkgadd -u {{package_name}}`
