@@ -8,7 +8,7 @@
 
 - Overwrite an existing symbolic to point to a different file:
 
-`ln -sf {{path/to/new/file}} {{path/to/symlink}}`
+`ln -sf {{path/to/new_file}} {{path/to/symlink}}`
 
 - Create a hard link to a file:
 

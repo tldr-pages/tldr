@@ -28,7 +28,7 @@
 
 - Write the current document to a new file (the filename can be omitted if `ed` was called with an existing file):
 
-`w {{filename.txt}}`
+`w {{filename}}`
 
 - Quit ed:
 
