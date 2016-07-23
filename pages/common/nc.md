@@ -16,11 +16,11 @@
 
 - Serve a file:
 
-`nc -l {{port}} < {{somefile.txt}}`
+`nc -l {{port}} < {{file}}`
 
 - Receive a file:
 
-`nc {{ip_address}} {{port}} > {{somefile.txt}}`
+`nc {{ip_address}} {{port}} > {{file}}`
 
 - Server stay up after client detach:
 
@@ -36,4 +36,4 @@
 
 - Proxy and port forwarding:
 
-`nc -l {{ port }} | nc {{ hostname }} {{ port }}`
+`nc -l {{port}} | nc {{hostname}} {{port}}`
