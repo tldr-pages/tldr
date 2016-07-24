@@ -1,6 +1,6 @@
 # git
 
-> Main command for all git commands.
+> Distributed version control system.
 
 - Check the Git version:
 
