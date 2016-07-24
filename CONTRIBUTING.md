@@ -87,23 +87,19 @@ Alternatively, you can do most of the process using the command line:
 
 - fork the repository on the github web interface
 
-- clone your fork locally:
+- clone your fork locally:  
+  `git clone https://github.com/{{your_username}}/tldr.git && cd tldr`
 
-    `git clone https://github.com/{{your_username}}/tldr.git && cd tldr`
-
-- create a feature branch, e.g. named after the command you plan to edit:
-
-    `git checkout -b {{branch_name}}`
+- create a feature branch, e.g. named after the command you plan to edit:  
+  `git checkout -b {{branch_name}}`
 
 - make your changes (edit existing files or create a new one)
 
-- commit the changes:
-
-    `git commit --all -m "{{commit_message}}"`
+- commit the changes:  
+  `git commit --all -m "{{commit_message}}"`
     
-- push to your fork:
-
-    `git push`
+- push to your fork:  
+  `git push`
     
 - go to the github page for your fork and click the green pull request button.
 
