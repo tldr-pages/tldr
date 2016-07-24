@@ -10,18 +10,18 @@
 
 `meteor create {{path/to/directory}}`
 
-- Display the list of packages your project is currently using:
+- Display the list of packages the project is currently using:
 
 `meteor list`
 
-- Add a package to your project:
+- Add a package to the project:
 
 `meteor add {{package_name}}`
 
-- Remove a package from your project:
+- Remove a package from the project:
 
 `meteor remove {{package_name}}`
 
-- Create a production build of your project under the given directory. (Omit the --directory option if you want to wrap the build inside a tarball instead):
+- Create a production build of the project as a tarball under the given directory:
 
-`meteor build {{path/to/directory}} --directory`
+`meteor build {{path/to/directory}}`
