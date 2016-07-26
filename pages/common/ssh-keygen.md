@@ -22,6 +22,10 @@
 
 `ssh-keygen -l -F {{remote_host}}`
 
+- Retrieve the fingerprint of a key in MD5 Hex:
+
+`ssh-keygen -l -E md5 -f ~/.ssh/{{filename}}`
+
 - Change the password of a key:
 
 `ssh-keygen -p -f ~/.ssh/{{filename}}`
