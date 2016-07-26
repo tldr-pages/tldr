@@ -53,23 +53,59 @@ For other ways to use `tldrl`, such as linting an entire directory, check out (w
 [`tldr tldrl`](https://github.com/tldr-pages/tldr/blob/master/pages/common/tldrl.md)
 
 ### Token syntax
-User-provided values should use the `{{token}}` syntax in order to allow clients
-to highlight them. 
+User-provided values should use the `{{token}}` syntax
+in order to allow clients to highlight them.
+Stick to [`snake_case`](https://en.wikipedia.org/wiki/Snake_case)
+when there are more than a word in the token.
 
-Some examples: 
-- `tar cf {{file}}`
-- `ln -s {{path/to/original/file}} {{path/to/link}}`
-- `mysql {{database_name}}`
-- `unrar x {{compressed.rar}}`
+Some conventions that are followed:
+
+- If the example is clearer with an actual value rather than a generic placeholder, use the actual value
+
+`iostat {{2}}` :white_check_mark:
+
+`iostat {{interval_in_secs}}` :x:
+
+- For any reference to a path or folder, use this
+
+`ln -s {{path/to/file}} {{path/to/symlink}}`
+
+- In case of a possible reference both to a file or a folder, use this
+
+`atom {{path/to/file_or_folder}}`
+
+- If a command expects the file to be in a particular extension, use it
+
+`unrar x {{compressed.rar}}`
+
+- If the example needs a generic extension, use `{{.ext}}`, but **only** if it helps to clarify the command.
+
+```
+Open all the files of a given extension in the current directory with the associated application:
+open {{*.ext}}
+```
+
+Here, its clear that `{{.ext}}` helps to clarify the command. But here, using `{{file}}` makes more sense
+
+`wc -l {{file}}` :white_check_mark:
+
+`wc -l {{file.txt}}` :x:
+
+- If multiple extensions are allowed, use this format
+
+`sass {{inputfile.scss|inputfile.sass}}`
+
+- Lastly, follow the `{{/path/to}}` convention when there is a path related command. Not when the file location is implicit.
+
+`cat {{file}}` :white_check_mark:
+
+`cat {{path/to/file}}` :x:
+
+But of course, use proper judgement, keeping simplicity and user friendliness as the top priority.
 
 In short, make it as intuitive as possible
 for the user to figure out how to use the command
 and fill it in with values.
-
-Stick to [`snake_case`](https://en.wikipedia.org/wiki/Snake_case) where possible.
-In some situations a command works with typical file extensions
-(like the `unrar` example above);
-you are encouraged to add these for demonstration.
 
 ## Submitting a pull request
 
@@ -87,20 +123,20 @@ Alternatively, you can do most of the process using the command line:
 
 - fork the repository on the github web interface
 
-- clone your fork locally:  
+- clone your fork locally:
   `git clone https://github.com/{{your_username}}/tldr.git && cd tldr`
 
-- create a feature branch, e.g. named after the command you plan to edit:  
+- create a feature branch, e.g. named after the command you plan to edit:
   `git checkout -b {{branch_name}}`
 
 - make your changes (edit existing files or create a new one)
 
-- commit the changes:  
+- commit the changes:
   `git commit --all -m "{{commit_message}}"`
-    
-- push to your fork:  
+
+- push to your fork:
   `git push`
-    
+
 - go to the github page for your fork and click the green pull request button.
 
 Please send only related changes in the same pull request.
