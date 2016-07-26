@@ -1,6 +1,7 @@
 # Contributing
 
-Contributions are most welcome! All `tldr` pages are stored in Markdown right here on GitHub. Just open an issue or send a pull request and we'll incorporate it as soon as possible.
+Contributions are most welcome! All `tldr` pages are stored in Markdown right here on GitHub.
+Just open an issue or send a pull request and we'll incorporate it as soon as possible.
 
 *Note*: when submitting a new command, don't forget to check if there's already a pull request in progress for it.
 
@@ -11,10 +12,12 @@ Here are a few guidelines to get started:
 
 1. Focus on the 5 or 6 most common usages. It's OK if the page doesn't cover everything; that's what `man` is for.
 2. When in doubt, keep new command-line users in mind. Err on the side of clarity rather than terseness.
-3. Try to incorporate the spelled-out version of single-letter options in the example's description. The goal is to allow people to *understand* the syntax of the commands, not just *memorize* them.
+3. Try to incorporate the spelled-out version of single-letter options in the example's description.
+   The goal is to allow people to *understand* the syntax of the commands, not just *memorize* it.
 4. Introduce options gradually, starting with the simplest commands and using more complex examples progressively.
 5. Use short but descriptive values for the tokens, ex. `{{source_file}}` or `{{wallet.txt}}`.
-6. Focus on details specific to the command, and avoid explaining general UNIX concepts that could apply to any command (ex: relative/absolute paths, glob patterns/wildcards, special character escaping...).
+6. Focus on details specific to the command, and avoid explaining general UNIX concepts that could apply to any command
+   (ex: relative/absolute paths, glob patterns/wildcards, special character escaping...).
 
 The best way to be consistent is to have a look at a few existing pages :).
 
@@ -59,43 +62,44 @@ Some examples:
 - `mysql {{database_name}}`
 - `unrar x {{compressed.rar}}`
 
-In short, make it as intuitive as possible for the user to figure out
-how to use the command and fill it in with values.
+In short, make it as intuitive as possible
+for the user to figure out how to use the command
+and fill it in with values.
+
 Stick to [`snake_case`](https://en.wikipedia.org/wiki/Snake_case) where possible.
 In some situations a command works with typical file extensions
-(like the `unrar` example above); you are encouraged to add these for demonstration.
-
-One of the reasons for this format is that it's well suited for command-line
-clients that need to extract a single description/example.
+(like the `unrar` example above);
+you are encouraged to add these for demonstration.
 
 ## Submitting a pull request
 
 For submitting changes, you can use whatever workflow you're more comfortable with.
-The easiest way is to just edit the page directly on the Github interface.
+
+### Using Github's web interface
+
+The easiest way to submit a change is to just edit the page directly on the Github interface.
 Check out the step-by-step instructions (with screenshots) on
 [Github Help](https://help.github.com/articles/editing-files-in-another-user-s-repository/).
 
-Alternatively, you can do it using the command line:
+### Using the command line
+
+Alternatively, you can do most of the process using the command line:
 
 - fork the repository on the github web interface
 
-- clone your fork locally:
+- clone your fork locally:  
+  `git clone https://github.com/{{your_username}}/tldr.git && cd tldr`
 
-    `git clone https://github.com/{{your_username}}/tldr.git && cd tldr`
-
-- create a feature branch, e.g. named after the command you plan to edit:
-
-    `git checkout -b {{branch_name}}`
+- create a feature branch, e.g. named after the command you plan to edit:  
+  `git checkout -b {{branch_name}}`
 
 - make your changes (edit existing files or create a new one)
 
-- commit the changes:
-
-    `git commit --all -m "{{commit_message}}"`
+- commit the changes:  
+  `git commit --all -m "{{commit_message}}"`
     
-- push to your fork:
-
-    `git push`
+- push to your fork:  
+  `git push`
     
 - go to the github page for your fork and click the green pull request button.
 
@@ -121,4 +125,8 @@ Examples:
 **IMPORTANT**: By submitting a patch, you agree to license your work
 under the same license as that used by the project.
 
-You're free to modify or redistribute the content. That being said, but why not contribute over here? :) Say if you wanted to have `tldr` pages in `groff` format, why not have a client that uses [pandoc](http://johnmacfarlane.net/pandoc/) and periodically updates straight from this repo?
+You're free to modify or redistribute the content.
+That being said, but why not contribute over here? :)
+Say if you wanted to have `tldr` pages in `groff` format,
+why not have a client that uses [pandoc](http://johnmacfarlane.net/pandoc/)
+and periodically updates straight from this repo?
