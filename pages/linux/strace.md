@@ -18,6 +18,6 @@
 
 `strace -p {{pid}} -T`
 
-- Start tracing a program by executing it
+- Start tracing a program by executing it:
  
- 'strace {{program}}'
+`strace {{program}}`
