@@ -1,6 +1,7 @@
 # quota
 
 > Display users' disk space usage and allocated limits.
+> Quota must be enabled for the file system in the /etc/fstab file.
 
 - Show disk quotas for the current user:
 
