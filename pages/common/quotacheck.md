@@ -1,7 +1,6 @@
 # quotacheck
 
-> Scan a filesystem for disk usage, create, check and repair quota files.
-> Should only be run by super-user. 
+> Scan a filesystem for disk usage, create, check and repair quota files. Should only be run by super-user. 
 
 - Check all mounted non-NFS filesystems:
 
