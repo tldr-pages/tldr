@@ -6,7 +6,7 @@
 
 `vim {{file}} +{{linenumber}}`
 
-- Open multiple files at once, each file in it's own tab page:
+- Open multiple files at once, each file in its own tab page:
 
 `vim -p {{file1}} {{file2}} {{file3}}`
 
