@@ -2,7 +2,7 @@
 
 > PostgreSQL command-line client.
 
-- Connect to database. It connects to localhost using default port 5432 with default user:
+- Connect to database. It connects to localhost using default port 5432 with default user as currently logged in user:
 
 `psql {{database}}`
 
@@ -14,10 +14,10 @@
 
 `psql -h {{host}} -p {{port}} -U {{username}} -W {{database}}`
 
-- Execute a single command (sql or PostgreSQL-specific) against the given database. Note: useful in shell scripts:
+- Execute a single SQL query or PostgreSQL command on the given database. Note: useful in shell scripts:
 
 `psql -c '{{query}}' {{database}}`
 
-- Execute commands from a file against the given database:
+- Execute commands from a file on the given database:
 
 `psql {{database}} -f {{file.sql}}`
