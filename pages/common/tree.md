@@ -2,7 +2,7 @@
 
 > Show the contents of the current directory as a tree.
 
-- Show files and directories with a depth of 'num' (where 1 means the current directory):
+- Show files and directories up to 'num' levels of depth (where 1 means the current directory):
 
 `tree -L {{num}}`
 
