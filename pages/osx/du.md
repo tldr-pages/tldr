@@ -4,16 +4,16 @@
 
 - Get a sum of the total size of a file/folder in human readable units:
 
-`du -sh {{file_or_directory}}`
+`du -sh {{path/to/file_or_folder}}`
 
 - List file sizes of a directory and any subdirectories in KB:
 
-`du -k {{file_or_directory}}`
+`du -k {{path/to/file_or_folder}}`
 
 - Get recursively, individual file/folder sizes in human readable form:
 
-`du -ah {{directory}}`
+`du -ah {{path/to/folder}}`
 
-- List the KB sizes of directories for N levels below the specified directory:
+- List the human-readable sizes of directories for 2 levels of depth below the specified directory:
 
-`du -k -depth=1 {{directory}}`
+`du -h -d 2 {{path/to/folder}}`
