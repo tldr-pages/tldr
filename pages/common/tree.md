@@ -14,14 +14,14 @@
 
 `tree -a`
 
-- Print human readable size of files:
+- Print the tree without indentation lines, showing the full path instead:
 
-`tree -h`
+`tree -i -f`
 
-- Print the full path for each file:
+- Print the size of each node next to it, in human-readable format, with folders displaying their cumulative size (as in the `du` command):
 
-`tree -f`
+`tree -s -h --du`
 
-- Print the tree without lines and indentation. Useful when used with -f:
+- Filter the tree using a wildcard (glob) pattern, showing only the hierarchies leading to the matching entries:
 
-`tree -i`
+`tree -P {{*.txt}} --prune`
