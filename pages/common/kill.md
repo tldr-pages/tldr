@@ -1,32 +1,28 @@
 # kill
 
-> Sends a signal to a process.
-> Mostly used for stopping processes.
+> Sends a signal to a process, usually related to stopping the process.
+> All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit.
 
-- Kill the process:
+- Terminate a program using the default SIGTERM (terminate) signal:
 
 `kill {{process_id}}`
 
-- List signal names:
+- List available signal names (to be used without the `SIG` prefix):
 
 `kill -l`
 
-- read configure file,reload
+- Terminate a program using the SIGHUP (hang up) signal. Many daemons will reload instead of terminating:
 
-`kill [-1][-SIGHUP] {{process_id}}`
+`kill {{1|-HUP}} {{process_id}}`
 
-- interrupt, program can handle SIGINT
+- Terminate a program using the SIGINT (interrupt) signal. This is typically initiated by the user pressing `Ctrl+C`:
 
-`kill [-2][-SIGINT] {{process_id}}`
+`kill {{-2|-INT}} {{process_id}}`
 
-- forced to interrupt a program
+- Signal the operating system to immediately terminate a program (which gets no chance to capture the signal):
 
-`kill [-9][-SIGKILL] {{process_id}}`
+`kill {{-9|-KILL}} {{process_id}}`
 
-- normal interrupt a program
+- Signal the operating system to pause a program, it until a SIGCONT ("continue") signal is received:
 
-`kill [-15][-SIGTERM] {{process_id}}`
-
-- stop program 
-
-`kill [-17][-SIGSTOP] {{process_id}}`
+`kill {{-17|-STOP}} {{process_id}}`
