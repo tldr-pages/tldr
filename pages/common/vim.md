@@ -20,7 +20,7 @@
 
 - Switch to insert mode:
 
-`<esc> i <enter>`
+`<esc> i`
 
 - Exit vim:
 
