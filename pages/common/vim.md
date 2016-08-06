@@ -14,6 +14,22 @@
 
 `view {{file}}`
 
+- Switch to normal mode:
+
+`<esc>`
+
+- Switch to insert mode:
+
+`<esc> i`
+
 - Exit vim:
 
-`[Esc] (to switch to normal mode), then :q`
+`<esc> :q <enter>`
+
+- Save file in vim:
+
+`<esc> :w <enter>`
+
+- Save file then exit vim:
+
+`<esc> :wq <enter>`
