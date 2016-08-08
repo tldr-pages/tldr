@@ -71,9 +71,7 @@ Open all the files of a given extension in the current directory with the associ
 open {{*.ext}}
 ```
 
-Its clear that `{{.ext}}` helps to clarify the command. But here, using `{{file}}` makes more sense
-
-`wc -l {{file}}`
+Its clear that `{{.ext}}` helps to clarify the command. But here - `wc -l {{file}}`, using `{{file}}` makes more sense
 
 - Lastly, follow the `{{/path/to}}` convention when there is a path related command. Not when the file location is implicit. But of course, use proper judgement, keeping simplicity and user friendliness as the top priority.
 
