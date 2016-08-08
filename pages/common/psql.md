@@ -14,7 +14,7 @@
 
 `psql -h {{host}} -p {{port}} -U {{username}} -W {{database}}`
 
-- Execute a single SQL query or PostgreSQL command on the given database. Note: useful in shell scripts:
+- Execute a single SQL query or PostgreSQL command on the given database (useful in shell scripts):
 
 `psql -c '{{query}}' {{database}}`
 
