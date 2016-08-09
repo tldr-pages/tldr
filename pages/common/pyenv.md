@@ -10,18 +10,18 @@
 
 `pyenv versions`
 
-- Install a Python version(eg: 2.7.10, pypy-2.4.0) under the ${PYENV_ROOT}/versions directory:
+- Install a Python version under the ${PYENV_ROOT}/versions directory:
 
-`pyenv install {{version}}`
+`pyenv install {{2.7.10}}`
 
-- Uninstall a Python version(eg: 2.7.10, pypy-2.4.0) under the ${PYENV_ROOT}/versions directory:
+- Uninstall a Python version under the ${PYENV_ROOT}/versions directory:
 
-`pyenv uninstall {{version}}`
+`pyenv uninstall {{2.7.10}}`
 
-- Set Python version(eg: 2.7.10, pypy-2.4.0) to be used globally in the current machine:
+- Set Python version to be used globally in the current machine:
 
-`pyenv global {{version}}`
+`pyenv global {{2.7.10}}`
 
-- Set Python version(eg: 2.7.10, pypy-2.4.0) to be used in the current directory and all directories below it:
+- Set Python version to be used in the current directory and all directories below it:
 
-`pyenv local {{version}}`
+`pyenv local {{2.7.10}}`
