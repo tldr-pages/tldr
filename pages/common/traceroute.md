@@ -17,3 +17,7 @@
 - Specify number of queries per hop:
 
 `traceroute -q 5 {{host}}`
+
+- Specify size in bytes of datagram:
+
+`traceroute {{host}} {{size<=32768}}`
