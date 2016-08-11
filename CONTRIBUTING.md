@@ -58,22 +58,22 @@ in order to allow clients to highlight them.
 Use [`snake_case`](https://en.wikipedia.org/wiki/Snake_case)
 for multi-word tokens.
 
-Keep the following guidelines in mind when writing the tokens:
+Keep the following guidelines in mind when choosing token names:
 
-- If the example is clearer with an actual value rather than a generic placeholder, use the actual value. For example - use `iostat {{2}}` rather than `iostat {{interval_in_secs}}`.
+- If the example is clearer with an actual value rather than a generic placeholder, use the actual value. For example, use `iostat {{2}}` rather than `iostat {{interval_in_secs}}`.
 
-- For any reference to a path or folder, use `{{path/to/<placeholder>}}`. For example - `ln -s {{path/to/file}} {{path/to/symlink}}`. In case of a possible reference both to a file or a folder, use `{{path/to/file_or_folder}}`
+- For any reference to paths to files or folders, use `{{path/to/<placeholder>}}`. For example - `ln -s {{path/to/file}} {{path/to/symlink}}`. In case of a possible reference both to a file or a folder, use `{{path/to/file_or_folder}}`
 
-- If a command expects the file to be in a particular extension, use it. For example - `unrar x {{compressed.rar}}`. In case needs a generic extension, use `{{.ext}}`, but **only** if it helps to clarify the command. For example, here -
+- If a command expects the file to have a particular extension, use it. For example - `unrar x {{compressed.rar}}`. In case needs a generic extension, use `{{.ext}}`, but **only** if it helps to clarify the command. For example, here -
 
-```
-Open all the files of a given extension in the current directory with the associated application:
-open {{*.ext}}
-```
+  ```
+  Open all the files of a given extension in the current directory with the associated application:
+  open {{*.ext}}
+  ```
 
-Its clear that `{{.ext}}` helps to clarify the command. But here - `wc -l {{file}}`, using `{{file}}` makes more sense
+  Here, using `{{.ext}}` helps to clarify the command. But in a command like `wc -l {{file}}`, using `{{file}}` is sufficiently clear.
 
-- Lastly, follow the `{{/path/to}}` convention when there is a path related command. Not when the file location is implicit. But of course, use proper judgement, keeping simplicity and user friendliness as the top priority.
+- Lastly, follow the `{{/path/to}}` convention when there is a path-related command. Not when the file location is implicit. But of course, use proper judgement, keeping simplicity and user friendliness as the top priority.
 
 In short, make it as intuitive as possible
 for the user to figure out how to use the command
