@@ -53,23 +53,31 @@ For other ways to use `tldrl`, such as linting an entire directory, check out (w
 [`tldr tldrl`](https://github.com/tldr-pages/tldr/blob/master/pages/common/tldrl.md)
 
 ### Token syntax
-User-provided values should use the `{{token}}` syntax in order to allow clients
-to highlight them. 
+User-provided values should use the `{{token}}` syntax
+in order to allow clients to highlight them.
+Use [`snake_case`](https://en.wikipedia.org/wiki/Snake_case)
+for multi-word tokens.
 
-Some examples: 
-- `tar cf {{file}}`
-- `ln -s {{path/to/original/file}} {{path/to/link}}`
-- `mysql {{database_name}}`
-- `unrar x {{compressed.rar}}`
+Keep the following guidelines in mind when choosing token names:
+
+- If the example is clearer with an actual value rather than a generic placeholder, use the actual value. For example, use `iostat {{2}}` rather than `iostat {{interval_in_secs}}`.
+
+- For any reference to paths to files or folders, use `{{path/to/<placeholder>}}`. For example, `ln -s {{path/to/file}} {{path/to/symlink}}`. In case of a possible reference both to a file or a folder, use `{{path/to/file_or_folder}}`
+
+- If a command expects the file to have a particular extension, use it. For example, `unrar x {{compressed.rar}}`. In case needs a generic extension, use `{{.ext}}`, but **only** if it helps to clarify the command. For example, here:
+
+  ```
+  Open all the files of a given extension in the current directory with the associated application:
+  open {{*.ext}}
+  ```
+
+  ... using `{{.ext}}` helps to clarify the command. But in a command like `wc -l {{file}}`, using `{{file}}` is sufficiently clear.
+
+- Lastly, follow the `{{path/to/<placeholder>}}` convention when there is a path-related command. Not when the file location is implicit. But of course, use proper judgement, keeping simplicity and user friendliness as the top priority.
 
 In short, make it as intuitive as possible
 for the user to figure out how to use the command
 and fill it in with values.
-
-Stick to [`snake_case`](https://en.wikipedia.org/wiki/Snake_case) where possible.
-In some situations a command works with typical file extensions
-(like the `unrar` example above);
-you are encouraged to add these for demonstration.
 
 ## Submitting a pull request
 
@@ -97,10 +105,10 @@ Alternatively, you can do most of the process using the command line:
 
 - commit the changes:  
   `git commit --all -m "{{commit_message}}"`
-    
+
 - push to your fork:  
   `git push`
-    
+
 - go to the github page for your fork and click the green pull request button.
 
 Please send only related changes in the same pull request.
