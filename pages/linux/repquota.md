@@ -6,7 +6,7 @@
 
 `repquota -all`
 
-- Report  all quotas, even if there is no usage:
+- Report all quotas, even if there is no usage:
 
 `repquota -v`
 
@@ -18,10 +18,10 @@
 
 `repquota --group {{group}}`
 
-- Report on used space and limits in a human readable format:
+- Report on used space and limits in a human-readable format:
 
 `repquota --human-readable {{filesystem}}`
 
-- Report on all quotas for users and groups in a human readable format:
+- Report on all quotas for users and groups in a human-readable format:
 
 `repquota -augs {{filesystem}}`
