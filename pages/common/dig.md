@@ -14,6 +14,6 @@
 
 `dig @8.8.8.8 {{hostname.com}}`
 
-- Perform a reverse DNS lookup on an IP address (PTR records):
+- Perform a reverse DNS lookup on an IP address (PTR record):
 
 `dig -x 8.8.8.8`
