@@ -6,6 +6,10 @@
 
 `fswatch -0 {{path/to/watch}} | xargs -0 {{bash_command}}`
 
+- Watch (multiple) directories or files
+
+`fswatch -0 {{first/path/to/directory}} {{specificWatchedFile.js}} {{watchAllJsFiles/**/*.js}} | xargs -0 {{bash_command}}`
+
 - Use `{}` in your bash command as a placeholder for the absolute path to the file change:
 
 `fswatch -0 {{path/to/watch}} | xargs -0 -I {} {{bash_command}}`
