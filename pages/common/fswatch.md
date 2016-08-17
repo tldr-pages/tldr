@@ -12,4 +12,4 @@
 
 - Filter by certain event type, eg. Updated, Deleted or Created:
 
-`fswatch -0 --event Updated {{path/to/watch}} | xargs -0 {{bash_command}}`
+`fswatch -0 --event {{Updated}} {{path/to/watch}} | xargs -0 {{bash_command}}`
