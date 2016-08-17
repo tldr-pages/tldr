@@ -1,6 +1,6 @@
 # fswatch
 
-> A cross-platform file change monitor. 
+> A cross-platform file change monitor.
 
 - Run a bash command on file creation, update or deletion:
 
