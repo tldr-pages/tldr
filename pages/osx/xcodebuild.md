@@ -1,15 +1,15 @@
 # xcodebuild
 
-> xcodebuild is build xcode project and generate ipa for command line tools
+> Build Xcode projects.
 
-- Build Workspace (ps: CocoaPods Generate Project)
+- Build workspace (CocoaPods Generate Project):
 
 `xcodebuild -workspace {{YourWorkspace.workspace}} -scheme {{SchemeName}} -configuration {{YourConfiguration}} clean build SYMROOT={{YourSYMROOTPath}}`
 
-- Build Project
+- Build project:
 
 `xcodebuild -target {{targetname}} -configuration {{YourConfiguration}} clean build SYMROOT={{YourSYMROOTPath}}`
 
-- View Sdks
+- Show SDKs:
 
 `xcodebuild -showsdks`
