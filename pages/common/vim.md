@@ -33,3 +33,7 @@
 - Save file then exit vim:
 
 `<esc> :wq <enter>`
+
+- Save file that is read only using sudo permissions:
+
+`<esc> :w !sudo tee % <enter>`
