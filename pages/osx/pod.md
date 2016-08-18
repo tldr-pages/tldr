@@ -10,9 +10,9 @@
 
 `pod install`
 
-- Download a new pod for the current project and add it to the Podfile:
+- List all available pods:
 
-`pod install {{pod_name}}`
+`pod list`
 
 - Show the outdated pods in the current `Podfile.lock`:
 
