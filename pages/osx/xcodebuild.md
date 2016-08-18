@@ -4,11 +4,11 @@
 
 - Build workspace (CocoaPods Generate Project):
 
-`xcodebuild -workspace {{YourWorkspace.workspace}} -scheme {{SchemeName}} -configuration {{YourConfiguration}} clean build SYMROOT={{YourSYMROOTPath}}`
+`xcodebuild -workspace {{workspace_name.workspace}} -scheme {{scheme_name}} -configuration {{configuration_name}} clean build SYMROOT={{SYMROOT_path}}`
 
 - Build project:
 
-`xcodebuild -target {{targetname}} -configuration {{YourConfiguration}} clean build SYMROOT={{YourSYMROOTPath}}`
+`xcodebuild -target {{target_name}} -configuration {{configuration_name}} clean build SYMROOT={{SYMROOT_path}}`
 
 - Show SDKs:
 
