@@ -5,12 +5,12 @@
 
 - Archive a file or folder:
 
-`7zr a {{compressed.7z}} {{path/to/file}}`
+`7zr a {{archived.7z}} {{path/to/file}}`
 
 - Extract an existing 7z file with original directory structure:
 
-`7zr x {{compressed.7z}}`
+`7zr x {{archived.7z}}`
 
 - List the contents of an archive file:
 
-`7zr l {{compressed.7z}}`
+`7zr l {{archived.7z}}`
