@@ -1,0 +1,55 @@
+_complete_tldr() 
+{
+    local cur prev opts
+    COMPREPLY=()
+    cur="${COMP_WORDS[COMP_CWORD]}"
+    prev="${COMP_WORDS[COMP_CWORD-1]}"
+    opts="nginx who 7z pngcrush git-config git-checkout find c99 skicka ar srm
+id parallel transcode cloc xcv scp uptime chsh adb git-merge git-log comm enca
+redis-cli npm curl csvclean base32 jar salt-key tac tldr csvpy mp4box readlink
+haxelib subliminal drush while more slackcat mocha ln zsh gem vimtutor crontab
+lwp-request mtr pg_dump openssl nix-env rm php cd csvstat mitmproxy arp gunzip
+route wget patch git-commit socat tee handbrakecli svn mysqldump espeak pushd xz
+java w rsync git-clone cp sed ed zip pyenv awk date git-init cut tail tmux
+git-status iconv pgrep dhcpwn man nohup 7za http ionice mmv ioping git-diff zcat
+nmap odps-auth fswebcam odps-inst apm montage tcpdump cabal emacs autossh
+strings mkfifo sftp exiftool x_x kill touch git-imerge for git-svn env
+ebook-convert tree sshfs psql mv sendmail screen su inkscape git-submodule
+whoami git-rm axel jhat salt-run tr git-rebase pg_restore jstack watch echo sum
+grep gzip bashmarks odps-tunnel basename nvm sh pdflatex gdb convert csvformat
+ack yes git-push visudo csvgrep traceroute git-mv qemu node pandoc rustc
+ifconfig clang wc license lpstat latexmk salt-call git-stash odps-resource
+history pv pigz zbarimg ssh pkill fdupes sails uniq python wait mysql zdb sleep
+mpc base64 virtualenv read nano play vagrant gulp pwd meteor git-blame paste
+csvcut salt fortune sl git sox dokku unzip atom ps odps-table autojump bg ghc
+docker rmdir bundle youtube-dl cal tty odps diff gpg tldrl shred unrar cowsay
+renice sort zless hub which sudo convmv mongo deluser seq git-branch jmap make
+ls git-remote dig git-pull csvlook quota tar gcc electrum ag zfs rename zpool
+gifsicle mdp time pass passwd ufraw-batch odps-func webpack glances chmod nice
+file dirs fsck mailx last csvsort cat chown tput printf javac optipng alias hn
+split lp gradle phpize ipcs if redshift umount bc nc tabula mkdir cksum cargo
+ssh-keygen test uname fg phpunit less host w3m cmp pip mount git-fetch 7zr
+aria2c jobs lsof ping bmaptool mitmdump calibre-server cordova df avrdude ab vim
+git-tag apropos sass chgrp bower xargs telnet fzf calibredb in2csv bash git-add
+ffmpeg umask htop mkfs.minix fuser archey xsetwacom xclip apt-key shutdown mdadm
+run-mailcap top xinput edit dpkg-query sha1sum hostname pkgadd xrandr chattr
+pkginfo dpkg prt-get fc-match ssh-copy-id journalctl equery mkfs.cramfs wall ss
+notify-send iptables getent iostat du sha384sum screenfetch halt usermod userdel
+head chroot watch free see mkfs.exfat dd yum expr strace nm mkfs.fat md5sum
+ltrace expand pacman print unexpand pkgrm systemd-analyze mkfs.vfat ulimit
+mkfs.ntfs xsel sysctl ip sha224sum ports sha512sum yaourt fc-pattern systemctl
+compose cryptsetup at firewall-cmd tcpflow reboot pkgmk sort mke2fs apt-cache
+useradd wpa_cli timedatectl bzip2 locate dnf zypper ufw aptitude findmnt shuf
+lsb_release nethogs ifup lsblk emerge netstat jobs apt-get lsattr pwgen rpm
+sha256sum hwclock ifdown devfsadm svccfg prctl svcs prstat svcadm archey pbpaste
+brew shutdown sw_vers top route qlmanage w xed hostname sed mdfind look
+system_profiler xctool du caffeinate head pbcopy dd nm diskutil wacaw open
+base64 sysctl airport networksetup locate defaults ditto say drutil netstat md5
+systemsetup xsltproc xattr"
+
+    if [[ ${cur} == * ]] ; then
+        COMPREPLY=( $(compgen -W "${opts}" -- ${cur}) )
+        return 0
+    fi  
+}
+complete -F _complete_tldr tldr
