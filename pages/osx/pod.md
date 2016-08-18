@@ -6,7 +6,7 @@
 
 `pod init`
 
-- Download all pod defined in Podfile and create an Xcode Pods library project in `./Pods`:
+- Download and install all pods defined in the Podfile (that haven't been installed before):
 
 `pod install`
 
@@ -14,15 +14,15 @@
 
 `pod list`
 
-- Show the outdated pods in the current `Podfile.lock`:
+- Show the outdated pods (of those currently installed):
 
 `pod outdated`
 
-- Update all pods in the current project to their newest version:
+- Update all currently installed pods to their newest version:
 
 `pod update`
 
-- Update a specific pod in the current project to their newest version:
+- Update a specific (previously installed) pod to its newest version:
 
 `pod update {{pod_name}}`
 
