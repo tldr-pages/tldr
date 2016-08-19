@@ -2,7 +2,7 @@
 
 > Build Xcode projects.
 
-- Build workspace (CocoaPods Generate Project):
+- Build workspace:
 
 `xcodebuild -workspace {{workspace_name.workspace}} -scheme {{scheme_name}} -configuration {{configuration_name}} clean build SYMROOT={{SYMROOT_path}}`
 
