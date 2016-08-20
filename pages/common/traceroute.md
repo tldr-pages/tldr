@@ -18,6 +18,6 @@
 
 `traceroute -q 5 {{host}}`
 
-- Specify size in bytes of datagram:
+- Specify size in bytes of probing packet:
 
-`traceroute {{host}} {{size<=32768}}`
+`traceroute {{host}} 42`
