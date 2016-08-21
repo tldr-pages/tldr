@@ -14,10 +14,6 @@
 
 `view {{file}}`
 
-- Save and Exit vim:
-
-`<Esc> :wq <Enter>`
-
 - Enter normal text editing mode (insert mode):
 
 `<Esc> i`
@@ -26,6 +22,10 @@
 
 `/{{search_string}}<Enter>`
 
-- Open Interactive Help:
+- Save and Exit vim:
+
+`<Esc> :wq <Enter>`
+
+- Open interactive help:
 
 `<Esc> :help <Enter>`
