@@ -16,12 +16,12 @@
 
 - Save and Exit vim:
 
-`<Esc>:wq<Cr>`
+`<Esc> :wq <Enter>`
 
 - Enter normal text editing mode (insert mode):
 
-`<Esc>i`
+`<Esc> i`
 
 - Search in file:
 
-`/{{search_string}}<Cr>`
+`/{{search_string}}<Enter>`

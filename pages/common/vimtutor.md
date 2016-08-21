@@ -8,4 +8,4 @@
 
 - Exit the tutor:
 
-`<Esc>:q<Cr>`
+`<Esc> :q <Enter>`
