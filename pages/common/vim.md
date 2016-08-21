@@ -14,22 +14,18 @@
 
 `view {{file}}`
 
-- Switch to normal mode:
+- Enter normal text editing mode (insert mode):
 
-`<esc>`
+`<Esc> i`
 
-- Switch to insert mode:
+- Search in file:
 
-`<esc> i`
+`/{{search_string}}<Enter>`
 
-- Exit vim:
+- Save and Exit vim:
 
-`<esc> :q <enter>`
+`<Esc> :wq <Enter>`
 
-- Save file in vim:
+- Open interactive help:
 
-`<esc> :w <enter>`
-
-- Save file then exit vim:
-
-`<esc> :wq <enter>`
+`<Esc> :help <Enter>`
