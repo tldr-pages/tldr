@@ -25,3 +25,7 @@
 - Search in file:
 
 `/{{search_string}}<Enter>`
+
+- Open Interactive Help:
+
+`<Esc> :help <Enter>`
