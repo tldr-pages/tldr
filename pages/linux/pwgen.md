@@ -2,11 +2,11 @@
 
 > Generate pronounceable passwords.
 
-- Generate random password with symbols:
+- Generate random password with s[y]mbols:
 
 `pwgen -y {{length}}`
 
-- Generate hard-to-memorize passwords:
+- Generate secure, hard-to-memorize passwords:
 
 `pwgen -s {{length}}`
 
