@@ -17,3 +17,7 @@
 - Show the time spent in every system call:
 
 `strace -p {{pid}} -T`
+
+- Start tracing a program by executing it:
+
+`strace {{program}}`
