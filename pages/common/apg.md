@@ -25,7 +25,3 @@
 - Create a password with 16 chars:
 
 `apg -m 16`
-
-- Create a password with at least 1 of symbol, number, capital and lowercase letters with a length of 16:
-
-`apg -M SNCL -m 16`
