@@ -1,6 +1,6 @@
 # scrapy
 
-> Web-crawling Framework.
+> Web-crawling framework.
 
 - Create a project:
 
