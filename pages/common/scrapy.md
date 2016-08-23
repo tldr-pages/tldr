@@ -22,10 +22,11 @@
 
 `scrapy fetch {{url}}`
 
-- View a webpage as scrapy sees it, opens it in default browser (recommended: to disable javascript beforehand):
+- Open a webpage in the default browser as scrapy sees it (disable javascript for extra fidelity)
 
 `scrapy view {{url}}`
 
-- Open scrapy shell for url, which allows interaction with the page source in ipython or python shell:
+- Open scrapy shell for url, which allows interaction with the page source in python shell(or ipython if available):
 
 `scrapy shell {{url}}`
+
