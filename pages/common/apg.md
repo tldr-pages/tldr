@@ -6,18 +6,18 @@
 
 `apg`
 
-- Create a password with at least 1 symbol (S), 1 number(N), 1 uppercase(C), 1 lowercase(L):
+- Create a password with at least 1 symbol (S), 1 number (N), 1 uppercase (C), 1 lowercase (L):
 
 `apg -M SNCL`
 
-- Create a password with 16 chars:
+- Create a password with 16 characters:
 
-`apg -m 16`
+`apg -m {{16}}`
 
-- Create a password with max length of 16:
+- Create a password with maximum length of 16:
 
-`apg -x 16`
+`apg -x {{16}}`
 
 - Create a password that doesn't appear in a dictionary (you have to provide the dictionary):
 
-`apg -r dictfile`
+`apg -r {{dictionary_file}}`
