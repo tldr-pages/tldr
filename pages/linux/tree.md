@@ -18,10 +18,10 @@
 
 `tree -i -f`
 
-- Print the size of each node next to it, in human-readable format, with folders displaying their cumulative size (as in the `du` command):
+- Print the size of each node next to it, in human-readable format:
 
-`tree -s -h --du`
+`tree -s -h`
 
-- Filter the tree using a wildcard (glob) pattern, showing only the hierarchies leading to the matching entries:
+- Filter the tree using a wildcard (glob) pattern:
 
-`tree -P {{*.txt}} --prune`
+`tree -P {{*.txt}}`
