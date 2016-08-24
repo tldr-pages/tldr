@@ -2,26 +2,22 @@
 
 > Creates arbitrarily complex random passwords.
 
-- Create a password with at least 1 special symbol:
+- Create random passwords (default password length is 8):
 
-`apg -M S`
+`apg`
 
-- Create a password with at least 1 number:
-
-`apg -M N`
-
-- Create a password with at least 1 capital character:
-
-`apg -M C`
-
-- Create a password with at least 1 lowercase character:
-
-`apg -M L`
-
-- Create a password with at least 1 of symbol, number, capital and lowercase letter:
+- Create a password with at least 1 symbol (S), 1 number(N), 1 uppercase(C), 1 lowercase(L):
 
 `apg -M SNCL`
 
 - Create a password with 16 chars:
 
 `apg -m 16`
+
+- Create a password with max length of 16:
+
+`apg -x 16`
+
+- Create a password that doesn't appear in a dictionary (you have to provide the dictionary):
+
+`apg -r dictfile`
