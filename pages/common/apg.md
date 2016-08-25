@@ -18,6 +18,6 @@
 
 `apg -x {{16}}`
 
-- Create a password that doesn't appear in a dictionary (you have to provide the dictionary):
+- Create a password that doesn't appear in a dictionary (the dictionary file has to be provided):
 
 `apg -r {{dictionary_file}}`
