@@ -2,7 +2,7 @@
 
 > Utility to export the contents of a MongoDB instance.
 
-- Take a dump of all databases. (This will place the files inside a folder called "dump"):
+- Create a dump of all databases (This will place the files inside a folder called "dump"):
 
 `mongodump`
 
@@ -10,18 +10,18 @@
 
 `mongodump --out {{path/to/folder}}`
 
-- Take a dump of a given database:
+- Create a dump of a given database:
 
 `mongodump --db {{database_name}}`
 
-- Take a dump of a given collection inside a given database:
+- Create a dump of a given collection within a given database:
 
 `mongodump --collection {{collection_name}} --db {{database_name}}`
 
-- Connect to a given host running on a given port and take a dump:
+- Connect to a given host running on a given port, and take a dump:
 
 `mongodump --host {{host}} --port {{port}}`
 
-- Take a dump of a given database with a given username; user will be prompted for password:
+- Create a dump of a given database with a given username; user will be prompted for password:
 
 `mongodump --username {{username}} {{database}} --password`
