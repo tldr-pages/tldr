@@ -5,7 +5,15 @@
 
 - Download a URL to a file:
 
-`curl "{{URL}}" -o {{filename}}`
+`curl {{http://localhost}} -o {{filename}}`
+
+- Download file using remote name:
+
+`curl -O {{http://localhost/filename}}`
+
+- Automatically continue/resume previous file transfer:
+
+`curl -O -C - {{http://localhost/filename}}`
 
 - Send form-encoded data:
 
