@@ -10,7 +10,7 @@
 
 `composer create-project {{project_name}} {{/path/to/my/project}} {{version}}`
 
-- Install the packages specified in composer.json file in the current directory:
+- Install the packages specified in composer.json file:
 
 `composer install`
 
