@@ -19,9 +19,9 @@
 
 `grep -E {{^regex$}} {{path/to/file}}`
 
-- Print 3 lines of context around each match:
+- Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match:
 
-`grep -C 3 {{search_string}} {{path/to/file}}`
+`grep -{{C|B|A}} 3 {{search_string}} {{path/to/file}}`
 
 - Print the count of matches instead of the matching text:
 
