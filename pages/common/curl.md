@@ -3,13 +3,13 @@
 > Transfers data from or to a server.
 > Supports most protocols including HTTP, FTP, POP.
 
-- Download the contents of an URL to a file:
+- Download the [o]utput of an URL to a file, following [L]ocation redirects:
 
-`curl {{http://example.com}} -o {{filename}}`
+`curl -o {{filename}} -L {{http://example.com}}`
 
-- Download a file saving it under the same name as indicated in the URL, following redirects, and automatically resuming a previous file transfer:
+- Download a file saving the [O]utput under the same filename as indicated in the URL, and automatically [C]ontinuing/resuming a previous file transfer:
 
-`curl -O -L -C - {{http://example.com/filename}}`
+`curl -O -C - {{http://example.com/filename}}`
 
 - Send form-encoded data:
 
