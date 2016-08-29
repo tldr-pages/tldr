@@ -21,7 +21,7 @@
 
 - Export an SVG document to PDF, converting all texts to paths:
 
-`inkscape {{filename.svg}} --export-pdf=={{filename.pdf}} --export-text-to-path`
+`inkscape {{filename.svg}} --export-pdf={{filename.pdf}} --export-text-to-path`
 
 - Duplicate the object with id="path1555", rotate the duplicate 90 degrees, save the SVG, and quit:
 
