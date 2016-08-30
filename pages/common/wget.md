@@ -3,9 +3,9 @@
 > Download files from the Web.
 > Supports HTTP, HTTPS, and FTP.
 
-- Download a URL to a file:
+- Download the contents of an URL to a file:
 
-`wget -O filename "{{url}}"`
+`wget -O {{filename}} {{url}}`
 
 - Limit download speed:
 
