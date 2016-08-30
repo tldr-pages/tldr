@@ -11,9 +11,9 @@
 
 `curl -O {{http://example.com/filename}}`
 
-- Following [L]ocation redirects, download a file using the filename in the URL, and automatically [C]ontinuing/resuming a previous file transfer:
+- Download a file using the filename in the URL, following [L]ocation redirects, and automatically [C]ontinuing/resuming a previous file transfer:
 
-`curl -L -O -C - {{http://example.com/filename}}`
+`curl -O -L -C - {{http://example.com/filename}}`
 
 - POST application/x-www-form-urlencoded data:
 
