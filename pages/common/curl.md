@@ -3,34 +3,34 @@
 > Transfers data from or to a server.
 > Supports most protocols including HTTP, FTP, POP.
 
-- Download a URL to a file:
+- Download the output of an URL to a file:
 
-`curl "{{URL}}" -o {{filename}}`
+`curl {{http://example.com}} -o {{filename}}`
 
-- Send form-encoded data:
+- Download a file saving the output under the same filename as indicated in the URL:
 
-`curl --data {{name=bob}} {{http://localhost/form}}`
+`curl -O {{http://example.com/filename}}`
 
-- Send JSON data:
+- Following [L]ocation redirects, download a file using the filename in the URL, and automatically [C]ontinuing/resuming a previous file transfer:
 
-`curl -X POST -H "Content-Type: application/json" -d {{'{"name":"bob"}'}} {{http://localhost/login}}`
+`curl -L -O -C - {{http://example.com/filename}}`
 
-- Specify an HTTP method:
+- POST application/x-www-form-urlencoded data:
 
-`curl -X {{DELETE}} {{http://localhost/item/123}}`
+`curl -d {{'name=bob'}} {{http://example.com/form}}`
+
+- Send data, specifying a custom HTTP method, and including an extra header:
+
+`curl -d {{'{"name":"bob"}'}} -X {{PUT}} -H {{'Content-Type: application/json'}} {{http://example.com/users/1234}}`
 
 - Head request:
 
-`curl --head {{http://localhost}}`
-
-- Include an extra header:
-
-`curl -H "{{X-MyHeader: 123}}" {{http://localhost}}`
+`curl --head {{http://example.com}}`
 
 - Pass a user name and password for server authentication:
 
-`curl -u myusername:mypassword {{http://localhost}}`
+`curl -u myusername:mypassword {{http://example.com}}`
 
 - Pass client certificate and key for a secure resource:
 
-`curl -v -key {{key.pem}} -cacert {{ca.pem}} -cert {{client.pem}} -k {{https://localhost}}`
+`curl -v -key {{key.pem}} -cacert {{ca.pem}} -cert {{client.pem}} -k {{https://example.com}}`
