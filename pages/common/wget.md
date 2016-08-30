@@ -3,7 +3,7 @@
 > Download files from the Web.
 > Supports HTTP, HTTPS, and FTP.
 
-- Download the output of an URL to a file:
+- Download the contents of an URL to a file:
 
 `wget -O {{filename}} {{url}}`
 
