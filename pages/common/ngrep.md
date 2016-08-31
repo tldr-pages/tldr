@@ -1,23 +1,23 @@
 # ngrep
 
-> Grep traffic on a network.
+> Filter network traffic packets using regular expressions.
 
-- Capture traffic of all interface:
+- Capture traffic of all interfaces:
 
 `ngrep -d any`
 
-- Capture traffic of a specific interface {{dev}}:
+- Capture traffic of a specific interface:
 
-`ngrep -d {{dev}}`
+`ngrep -d eth0`
 
-- Capture traffic crossing {{port}} of interface {{dev}}:
+- Capture traffic crossing port 22 of interface eth0:
 
-`ngrep -d {{dev}} port {{port}}`
+`ngrep -d eth0 port 22`
 
 - Capture traffic from or to a host:
 
-`ngrep host {{host}}`
+`ngrep host www.example.com`
 
-- Grep keyword 'User-Agent:' of interface {{dev}}:
+- Filter keyword 'User-Agent:' of interface eth0:
 
-`ngrep -d {{dev}} 'User-Agent:'`
+`ngrep -d eth0 'User-Agent:'`
