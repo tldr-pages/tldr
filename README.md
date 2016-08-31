@@ -13,7 +13,7 @@
 
 A collection of simplified and community-driven man pages.
 
-Install it with `npm install -g tldr` or [try the web client](https://ostera.github.io/tldr.jsx).
+Install it with `npm install -g tldr` or [try the web client](http://tldr.ostera.io).
 
 ## What is tldr?
 
@@ -40,6 +40,7 @@ for the most common UNIX / Linux / OSX / SunOS commands.
 
 You can access these pages on your computer using one of the following clients:
 
+- [Alfred Workflow](https://github.com/cs1707/tldr-alfred)
 - Android clients:
   - [tldr-viewer](https://github.com/gianasista/tldr-viewer), available on
     [Google Play](https://play.google.com/store/apps/details?id=de.gianasista.tldr_viewer)
@@ -50,7 +51,7 @@ You can access these pages on your computer using one of the following clients:
 - [Crystal client](https://github.com/porras/tlcr): `brew install porras/tap/tlcr`
 - [Dart client](https://github.com/hterkelsen/tldr): `pub global activate tldr`
 - [Elixir client](https://github.com/tldr-pages/tldr_elixir_client) (binaries not yet available)
-- [Emacs client](https://github.com/kuanyui/tldr.el)
+- [Emacs client](https://github.com/kuanyui/tldr.el), available on [MELPA](https://github.com/melpa/melpa)
 - [Go client](https://github.com/pranavraja/tldr): `go get github.com/pranavraja/tldr` (or [platform binaries](https://github.com/pranavraja/tldr/releases))
 - iOS clients:
   - [tldr-man-page](https://github.com/freesuraj/TLDR), available on [App Store](https://appsto.re/sg/IQ0-_.i)
@@ -65,7 +66,7 @@ You can access these pages on your computer using one of the following clients:
 - Rust clients:
     - [rust-tldr](https://github.com/rilut/rust-tldr) (online lookup): `cargo install tldr`
     - [tealdeer](https://github.com/dbrgn/tealdeer) (fully featured client with offline cache): `cargo install tealdeer`
-- [Web client](https://github.com/ostera/tldr.jsx): https://ostera.github.io/tldr.jsx
+- [Web client](https://github.com/ostera/tldr.jsx): http://tldr.ostera.io/
 
 There is also a comprehensive [list of clients in our Wiki](https://github.com/tldr-pages/tldr/wiki/TLDR-clients).
 
