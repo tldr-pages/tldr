@@ -14,7 +14,7 @@
 - Convert a file to one of the supported output formats (see dox_cmd.h for a list of all common parameters):
 
 `assimp export {{input_file.stl}} {{output_file.obj}} {{common_parameters}}`
-    
+
 - Display a summary of a 3D file's contents:
 
 `assimp info {{path/to/file}}`
