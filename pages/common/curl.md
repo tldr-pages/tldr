@@ -1,13 +1,13 @@
 # curl
 
 > Transfers data from or to a server.
-> Supports most protocols including HTTP, FTP, POP.
+> Supports most protocols including HTTP, FTP, POP3.
 
 - Download the contents of an URL to a file:
 
 `curl {{http://example.com}} -o {{filename}}`
 
-- Download a file saving it under the same name as indicated in the URL:
+- Download a file saving the output under the filename indicated by the URL:
 
 `curl -O {{http://example.com/filename}}`
 
@@ -15,17 +15,13 @@
 
 `curl -O -L -C - {{http://example.com/filename}}`
 
-- POST application/x-www-form-urlencoded data:
+- Send form-encoded data (POST request of type application/x-www-form-urlencoded):
 
 `curl -d {{'name=bob'}} {{http://example.com/form}}`
 
 - Send data, specifying a custom HTTP method, and including an extra header:
 
 `curl -d {{'{"name":"bob"}'}} -X {{PUT}} -H {{'Content-Type: application/json'}} {{http://example.com/users/1234}}`
-
-- Head request:
-
-`curl --head {{http://example.com}}`
 
 - Pass a user name and password for server authentication:
 
