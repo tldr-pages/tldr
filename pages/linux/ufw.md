@@ -21,7 +21,7 @@
 
 - Allow only TCP traffic from 192.168.0.4 to any address on this host, on port 22:
 
-`ufw allow from {{192.168.0.4}} to {{any}} port {{22}} proto {{tcp}}`
+`ufw allow proto {{tcp}} from {{192.168.0.4}} to {{any}} port {{22}}`
 
 - Deny traffic on port 80 on this host:
 
@@ -29,7 +29,7 @@
 
 - Deny all UDP traffic to port 22:
 
-`ufw deny from {{any}} to {{any}} port {{22}} proto {{udp}}`
+`ufw deny proto {{udp}} from {{any}} to {{any}} port {{22}}`
 
 - Remove a particular rule. The rule number can be retrieved from the `ufw status numbered` command:
 
