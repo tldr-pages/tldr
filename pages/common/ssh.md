@@ -30,3 +30,7 @@
 - SSH enable agent forward:
 
 `ssh -A {{username}}@{{remote_host}}`
+
+- SSH reverse tunneling: Open a listening port on the remote server to forward it back to localhost (remote-server.com:22 to your-personal-machine:2222)
+
+`ssh -R {{2222}}:localhost:22 {{username}}@{{remote_host}}`
