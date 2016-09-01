@@ -18,6 +18,6 @@
 
 `zip {{compressed.zip}} {{path/to/file}}`
 
-- [D]elete files from an existing zip file:
+- Delete files from an existing zip file:
 
 `zip -d {{compressed.zip}} "{{foo/*.tmp}}"`
