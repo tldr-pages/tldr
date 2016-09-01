@@ -11,14 +11,26 @@
 
 `ufw disable`
 
-- Add ufw allow rule:
+- Show ufw rules, along with their numbers:
 
-`ufw allow {{port}} {{service_name}}`
+`ufw status numbered`
 
-- Add ufw deny rule:
+- Allow incoming traffic on port 5432 on this host:
 
-`ufw deny {{port}} {{service_name}}`
+`ufw allow {{5432}}`
 
-- Show ufw rules:
+- Allow only TCP traffic from 192.168.0.4 to any address on this host, on port 22:
 
-`ufw status`
+`ufw allow proto {{tcp}} from {{192.168.0.4}} to {{any}} port {{22}}`
+
+- Deny traffic on port 80 on this host:
+
+`ufw deny {{80}}`
+
+- Deny all UDP traffic to port 22:
+
+`ufw deny proto {{udp}} from {{any}} to {{any}} port {{22}}`
+
+- Delete a particular rule. The rule number can be retrieved from the `ufw status numbered` command:
+
+`ufw delete {{rule_number}}`
