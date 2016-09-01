@@ -2,15 +2,15 @@
 
 > Stash local Git changes in a temporary area.
 
-- Stash current changes (except new files):
+- Stash current changes, except new files:
 
-`git stash save {{optional_stash_message}}`
+`git stash [save {{optional_stash_message}}]`
 
-- Include new files in the stash (leaves the index completely clean):
+- Stash current changes, including new/untracked files:
 
-`git stash save -u {{optional_stash_message}}`
+`git stash -u`
 
-- List all stashes:
+- List all stashes (shows stash name, related branch and message):
 
 `git stash list`
 
