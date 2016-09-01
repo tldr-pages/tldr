@@ -31,6 +31,6 @@
 
 `ufw deny proto {{udp}} from {{any}} to {{any}} port {{22}}`
 
-- Remove a particular rule. The rule number can be retrieved from the `ufw status numbered` command:
+- Delete a particular rule. The rule number can be retrieved from the `ufw status numbered` command:
 
 `ufw delete {{rule_number}}`
