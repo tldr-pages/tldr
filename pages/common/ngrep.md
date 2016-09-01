@@ -8,16 +8,16 @@
 
 - Capture traffic of a specific interface:
 
-`ngrep -d eth0`
+`ngrep -d {{eth0}}`
 
 - Capture traffic crossing port 22 of interface eth0:
 
-`ngrep -d eth0 port 22`
+`ngrep -d {{eth0}} port {{22}}`
 
 - Capture traffic from or to a host:
 
-`ngrep host www.example.com`
+`ngrep host {{www.example.com}}`
 
 - Filter keyword 'User-Agent:' of interface eth0:
 
-`ngrep -d eth0 'User-Agent:'`
+`ngrep -d {{eth0}} '{{User-Agent:}}'`
