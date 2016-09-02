@@ -2,11 +2,11 @@
 
 > Stash local Git changes in a temporary area.
 
-- Stash current changes, except new files:
+- Stash current changes, except new (untracked) files:
 
 `git stash [save {{optional_stash_message}}]`
 
-- Stash current changes, including new/untracked files:
+- Stash current changes, including new (untracked) files:
 
 `git stash -u`
 
@@ -18,7 +18,7 @@
 
 `git stash apply {{optional_stash_name_or_commit}}`
 
-- Apply a stash (default is stash@{0}), and remove it from the list if applying doesn't cause conflicts:
+- Apply a stash (default is stash@{0}), and remove it from the stash list if applying doesn't cause conflicts:
 
 `git stash pop {{optional_stash_name}}`
 
