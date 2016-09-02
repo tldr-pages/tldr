@@ -21,3 +21,7 @@
 - List the KB sizes of directories for N levels below the specified directory:
 
 `du --max-depth=N`
+
+- Get the total size of .jpg files at any depth within the current directory (requires Bash v4.0+ and `shopt -s globstar`):
+ 
+`du -ch -- **/*.jpg | grep total$`
