@@ -2,26 +2,26 @@
 
 > Stash local Git changes in a temporary area.
 
-- Stash current changes (except new files):
+- Stash current changes, except new (untracked) files:
 
-`git stash save {{optional_stash_name}}`
+`git stash [save {{optional_stash_message}}]`
 
-- Include new files in the stash (leaves the index completely clean):
+- Stash current changes, including new (untracked) files:
 
-`git stash save -u {{optional_stash_name}}`
+`git stash -u`
 
-- List all stashes:
+- List all stashes (shows stash name, related branch and message):
 
 `git stash list`
 
-- Re-apply the latest stash:
+- Apply a stash (default is the latest, named stash@{0}):
 
-`git stash pop`
+`git stash apply {{optional_stash_name_or_commit}}`
 
-- Re-apply a stash by name:
+- Apply a stash (default is stash@{0}), and remove it from the stash list if applying doesn't cause conflicts:
 
-`git stash apply {{stash_name}}`
+`git stash pop {{optional_stash_name}}`
 
-- Drop a stash by an index:
+- Drop a stash (default is stash@{0}):
 
-`git stash drop stash@{index}`
+`git stash drop {{optional_stash_name}}`
