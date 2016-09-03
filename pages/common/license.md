@@ -2,7 +2,7 @@
 
 > Create license files for open-source projects.
 
-- Print a license to stout, using the defaults (auto-detected author name, and current year):
+- Print a license to stdout, using the defaults (auto-detected author name, and current year):
 
 `license {{license_name}}`
 
