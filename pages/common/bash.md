@@ -9,7 +9,7 @@
 
 - Execute a command:
 
-`bash -c {{command}}`
+`bash -c "{{command}}"`
 
 - Run commands from a file:
 
