@@ -17,4 +17,3 @@
 - Import a collection from a .bson file with user authentication:
 
 `mongorestore -h {{database_host}} -d {{database_name}} -u {{username}} -p {{password}} {{path/to/file}}`
-
