@@ -2,7 +2,7 @@
 
 > Utility to import a collection or database from a binary dump into a MongoDB instance.
 
-- Import database from folder containing bson data dump:
+- Import database from folder containing a bson data dump:
 
 `mongorestore -h {{database_host}} -d {{database_name}} {{path/to/folder}}`
 
