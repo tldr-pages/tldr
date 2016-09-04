@@ -9,7 +9,7 @@
 
 - Execute a command:
 
-`bash -c {{command}}`
+`bash -c "{{command}}"`
 
 - Run commands from a file:
 
@@ -18,3 +18,7 @@
 - Run commands from STDIN:
 
 `bash -s`
+
+- Print the version information of bash (use `echo $BASH_VERSION` to show just the version string):
+
+`bash --version`
