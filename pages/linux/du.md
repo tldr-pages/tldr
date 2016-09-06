@@ -1,27 +1,27 @@
 # du
 
-> Estimate file space usage.
+> Disk usage: estimate and summarize file and folder space usage.
 
-- Get a sum of the total size of a file/folder in human readable units:
+- Get a sum of the total size of a file/folder, in human readable units:
 
-`du -sh {{file_or_directory}}`
+`du -sh {{file_or_folder}}`
 
-- List file sizes of a directory and any subdirectories in KB:
+- List file sizes of a folder and any subfolders, in KB:
 
-`du -k {{file_or_directory}}`
+`du -k {{file_or_folder}}`
 
-- List file sizes of a directory and any subdirectories in MB:
+- List file sizes of a folder and any subfolders, in MB:
 
-`du -m {{file_or_directory}}`
+`du -m {{file_or_folder}}`
 
-- Get recursively, individual file/folder sizes in human readable form:
+- Get individual file/folder sizes, recursively, in human readable form:
 
-`du -ah {{directory}}`
+`du -ah {{folder}}`
 
-- List the KB sizes of directories for N levels below the specified directory:
+- List the KB sizes of folders for N levels below the specified folder:
 
 `du --max-depth=N`
 
-- Get the total size of .jpg files at any depth within the current directory (requires Bash v4.0+ and `shopt -s globstar`):
+- Get the total size of all .jpg files in subfolders of the current folder:
 
-`du -ch -- **/*.jpg | grep total$`
+`du -ch */*.jpg`
