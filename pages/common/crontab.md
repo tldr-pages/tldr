@@ -14,15 +14,18 @@
 
 `crontab -r`
 
-- Configuration file:
+- Cron job definition format:
 
-```
-# ┌───────────── min (0 - 59)
-# │ ┌────────────── hour (0 - 23)
-# │ │ ┌─────────────── day of month (1 - 31)
-# │ │ │ ┌──────────────── month (1 - 12)
-# │ │ │ │ ┌───────────────── day of week (0 - 6) (0 to 6 are Sunday to Saturday, or use names; 7 is Sunday, the same as 0)
-# │ │ │ │ │
-# │ │ │ │ │
-# * * * * *  command to execute
-```
+`{{minute}} {{hour}} {{day_of_month}} {{month}} {{day_of_week}} {{command_to_execute}}`
+
+- Sample job which runs at 10:00 every day. * means any value:
+
+`0 10 * * * {{path/to/script.sh}}`
+
+- Sample job which runs every minute on the 3rd of April:
+
+`* * 3 4 * {{path/to/script.sh}}`
+
+- Sample job which runs at 02:30 every friday:
+
+`30 2 * * 5 {{path/to/script.sh}}`
