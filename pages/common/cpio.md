@@ -1,16 +1,15 @@
 # cpio
 
-> Archiving utility.
+> Copies files to and from archives.
 
-- Create an archive from files
+- Take a list of file names from standard input and creates an archive from them:
 
-`echo "{{file1}} {{file2}} {{file3}}" | cpio -ov > {{archive.cpio}}`
+`echo "{{file1}} {{file2}} {{file3}}" | cpio -o > {{[o]utput_archive.cpio}}`
 
-- Create an archive from a directory
+- Create an archive containing all the files and folders in a directory in [v]erbose mode:
 
-`find {{directory}} | cpio -ov > {{archive.cpio}}`
+`find {{path/to/directory}} | cpio -ov > {{[o]utput_archive.cpio}}`
 
-- Extract an archive
+- Extract files from an archive, generating [d]irectories where needed, in [v]erbose mode:
 
-`cpio -idv < {{archive.cpio}}`
-
+`cpio -idv < {{[i]nput_archive.cpio}}`
