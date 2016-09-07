@@ -1,6 +1,6 @@
-# Android Debug Bridge
+# adb
 
-> Communicate with an Android emulator instance or connected Android devices.
+> Android Debug Bridge: communicate with an Android emulator instance or connected Android devices.
 
 - Check whether the adb server process is running and start it:
 
