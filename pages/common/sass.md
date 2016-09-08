@@ -1,19 +1,19 @@
-# Sass
+# sass
 
 > Converts SCSS or Sass files to CSS.
 
-- Output converted file to stdout:
+- Convert a SCSS or Sass file to CSS and print out the result:
 
 `sass {{inputfile.scss|inputfile.sass}}`
 
-- Immediately convert SCSS or Sass file to CSS to specified output file:
+- Convert a SCSS or Sass file to CSS and save the result to a file:
 
 `sass {{inputfile.scss|inputfile.sass}} {{outputfile.css}}`
 
-- Watch SCSS or Sass file for changes and output or update CSS file with same filename:
+- Watch a SCSS or Sass file for changes and output or update the CSS file with same filename:
 
 `sass --watch {{inputfile.scss|inputfile.sass}}`
 
-- Watch SCSS or Sass file for changes and output or update CSS file with specified filename:
+- Watch a SCSS or Sass file for changes and output or update the CSS file with the given filename:
 
 `sass --watch {{inputfile.scss|inputfile.sass}}:{{outputfile.css}}`
