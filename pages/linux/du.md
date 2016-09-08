@@ -2,10 +2,6 @@
 
 > Disk usage: estimate and summarize file and folder space usage.
 
-- List the sizes of the current folder and any subfolders, recursively, in KB (the default unit):
-
-`du {{path/to/folder}}`
-
 - List the sizes of a folder and any subfolders, in the given unit (B/KB/MB):
 
 `du -{{b|k|m}} {{path/to/folder}}`
@@ -22,9 +18,9 @@
 
 `du -ah {{path/to/folder}}`
 
-- List the sizes of a folder and any subfolders, up to N levels deep:
+- List the human-readable sizes of a folder and any subfolders, up to N levels deep:
 
-`du --max-depth=N {{path/to/folder}}`
+`du -h --max-depth=N {{path/to/folder}}`
 
 - List the human-readable size of all .jpg files in subfolders of the current folder, and show a cumulative total at the end:
 
