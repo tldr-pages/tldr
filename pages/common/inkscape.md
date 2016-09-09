@@ -23,6 +23,6 @@
 
 `inkscape {{filename.svg}} --export-pdf={{filename.pdf}} --export-text-to-path`
 
-- Duplicate the object with id="path123", rotate the duplicate 90 degrees, save the SVG file, and close it:
+- Duplicate the object with id="path123", rotate the duplicate 90 degrees, save the file, and quit Inkscape:
 
-`inkscape {{filename.svg}} --select=path123 --verb=EditDuplicate --verb=ObjectRotate90 --verb=FileSave --verb=FileClose`
+`inkscape {{filename.svg}} --select=path123 --verb=EditDuplicate --verb=ObjectRotate90 --verb=FileSave --verb=FileQuit`
