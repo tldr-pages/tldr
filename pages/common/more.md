@@ -10,7 +10,7 @@
 
 - Page down:
 
-`<Space> (next)`
+`<Space>`
 
 - Search for a string:
 
