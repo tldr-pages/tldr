@@ -14,7 +14,7 @@
 
 `du -sh {{path/to/folder}}`
 
-- List the human-readable sizes of a folder and of all the files and folders within it (recursively):
+- List the human-readable sizes of a folder and of all the files and folders within it:
 
 `du -ah {{path/to/folder}}`
 
