@@ -7,17 +7,17 @@
 
 `hub clone {{repo_name}}`
 
-- Clone another user repository:
+- Clone another user's repository:
 
 `hub clone {{github_username}}/{{repo_name}}`
 
-- Fork repository cloned from another user (creates a remote named after your GitHub username):
+- Fork your own copy of a repository cloned from another user (creates a remote named after your GitHub username):
 
 `hub fork`
 
 - Create a pull request from your fork:
 
-`git push {{github_username}} && hub pull-request`
+`git push {{your_github_username}} {{current_branch}} && hub pull-request`
 
 - Open the current project's issues page:
 
