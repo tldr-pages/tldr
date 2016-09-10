@@ -14,7 +14,7 @@
 
 `useradd -s {{/path/to/shell}} {{name}}`
 
-- Create new user with supplementary groups (mind the lack of whitespace):
+- Create new user belonging to additional groups (mind the lack of whitespace):
 
 `useradd -G {{group1,group2}} {{name}}`
 
