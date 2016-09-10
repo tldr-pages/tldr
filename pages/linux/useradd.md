@@ -17,3 +17,7 @@
 - Create new user with supplementary groups (mind the lack of whitespace):
 
 `useradd -G {{group1,group2}} {{name}}`
+
+- Create new system user without a home directory:
+
+`useradd --no-create-home --system {{name}}`
