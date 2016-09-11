@@ -8,7 +8,7 @@
 
 - Add all files (tracked and untracked):
 
-`git add .`
+`git add -A`
 
 - Only add already tracked files:
 
