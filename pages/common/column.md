@@ -1,8 +1,8 @@
 # column
 
-> Format input into multiple columns, rows are filled before columns, empty lines are ignored.
+> Format standard input into multiple columns.
  
-- Output is formatted for a display columns wide.
+- Output is formatted for a display columns wide: 
 
 `printf "header1 header2\nbar foo\n" | column -c 10`
 
