@@ -1,6 +1,6 @@
 # column
 
-> format input into multiple columns, rows are filled before columns, empty lines are ignored.
+> Format input into multiple columns, rows are filled before columns, empty lines are ignored.
  
 - Output is formatted for a display columns wide.
 
