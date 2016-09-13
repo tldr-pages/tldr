@@ -1,7 +1,7 @@
 # tar
 
 > Archiving utility.
-> Optional compression with gzip / bzip.
+> Often combined with a compression method, such as gzip or bzip.
 
 - Create an archive from files:
 
