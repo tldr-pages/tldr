@@ -1,9 +1,9 @@
 # cpio
 
 > Copies files in and out of archives.
-> Supports the following archive formats: custom binary, old ASCII, new ASCII, crc, HPUX binary, HPUX old ASCII, old tar, and POSIX.1 tar.
+> Supports the following archive formats: cpio's custom binary, old ASCII, new ASCII, crc, HPUX binary, HPUX old ASCII, old tar, and POSIX.1 tar.
 
-- Take a list of file names from standard input and add them [o]nto an archive in binary format:
+- Take a list of file names from standard input and add them [o]nto an archive in cpio's binary format:
 
 `echo "{{file1}} {{file2}} {{file3}}" | cpio -o > {{archive.cpio}}`
 
