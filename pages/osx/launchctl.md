@@ -19,7 +19,7 @@
 
 `launchctl list`
 
-- Unload a currently loaded agent, e.g. to make changes (note: the plist is automatically loaded into `launchd` after a reboot and/or logging in):
+- Unload a currently loaded agent, e.g. to make changes (note: the plist file is automatically loaded into `launchd` after a reboot and/or logging in):
 
 `launchctl unload ~/Library/LaunchAgents/{{my_script}}.plist`
 
