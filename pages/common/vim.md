@@ -6,7 +6,7 @@
 
 `vim {{file}} +{{linenumber}}`
 
-- Open multiple files at once, each file in it's own tab page:
+- Open multiple files at once, each file in its own tab page:
 
 `vim -p {{file1}} {{file2}} {{file3}}`
 
@@ -14,6 +14,18 @@
 
 `view {{file}}`
 
-- Exit vim:
+- Enter normal text editing mode (insert mode):
 
-`[Esc] (to switch to normal mode), then :q`
+`<Esc> i`
+
+- Search in file:
+
+`/{{search_string}}<Enter>`
+
+- Save and Exit vim:
+
+`<Esc> :wq <Enter>`
+
+- Open interactive help:
+
+`<Esc> :help <Enter>`

@@ -8,11 +8,11 @@
 
 - Concatenate several files into the target file:
 
-`cat {{file1}} {{file2}} > {{target-file}}`
+`cat {{file1}} {{file2}} > {{target_file}}`
 
 - Append several files into the target file:
 
-`cat {{file1}} {{file2}} >> {{target-file}}`
+`cat {{file1}} {{file2}} >> {{target_file}}`
 
 - Number all output lines:
 

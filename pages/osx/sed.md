@@ -16,7 +16,7 @@
 
 - Replace only on lines matching the line pattern:
 
-`sed '/{{line_pattern}}/s/{{find}}/{{replace}}/'`
+`sed '/{{line_pattern}}/s/{{find}}/{{replace}}/' {{filename}}`
 
 - Apply multiple find-replace expressions to a file:
 

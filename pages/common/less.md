@@ -10,7 +10,7 @@
 
 - Page up / down:
 
-`d (next), D (previous)`
+`<Space> (next), b (previous)`
 
 - Go to start / end of file:
 

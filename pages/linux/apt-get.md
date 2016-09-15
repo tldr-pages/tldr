@@ -18,6 +18,10 @@
 
 `apt-get upgrade`
 
+- Remove no longer needed packages:
+
+`apt-get autoremove`
+
 - Upgrade installed packages (like "upgrade"), but remove obsolete packages and install additional packages to meet new dependencies:
 
 `apt-get dist-upgrade`

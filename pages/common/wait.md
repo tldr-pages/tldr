@@ -2,7 +2,7 @@
 
 > Wait for a process to complete before proceeding.
 
-- Wait for given process id (pid) to finish and return its exit status:
+- Wait for a process to finish given its process ID (PID) and return its exit status:
 
 `wait {{pid}}`
 

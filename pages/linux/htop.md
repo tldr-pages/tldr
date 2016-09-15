@@ -8,7 +8,7 @@
 
 - Start htop displaying only processes owned by given user:
 
-`htop -u {{user-name}}`
+`htop -u {{user_name}}`
 
 - Get help about interactive commands:
 

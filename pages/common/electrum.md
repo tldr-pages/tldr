@@ -4,11 +4,11 @@
 
 - Create a new wallet:
 
-`electrum -w {{new-wallet.dat}} create`
+`electrum -w {{new_wallet.dat}} create`
 
 - Restore an existing wallet from seed offline:
 
-`electrum -w {{recovery-wallet.dat}} restore -o`
+`electrum -w {{recovery_wallet.dat}} restore -o`
 
 - Create a signed transaction offline:
 

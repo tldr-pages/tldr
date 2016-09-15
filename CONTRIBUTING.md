@@ -1,20 +1,23 @@
 # Contributing
 
-Contribution are most welcome! All `tldr` pages are stored in Markdown right here on GitHub. Just open an issue or send a pull request and we'll merge it as soon as possible.
+Contributions are most welcome! All `tldr` pages are stored in Markdown right here on GitHub.
+Just open an issue or send a pull request and we'll incorporate it as soon as possible.
 
-*Note*: when submitting a new command, don't forget to check if there's already a pull request in progress.
+*Note*: when submitting a new command, don't forget to check if there's already a pull request in progress for it.
 
 ## Guidelines
 
-Note that `tldr` is focused on concrete examples.
+The basic format of a `tldr` page is a set of concrete usage examples.
 Here are a few guidelines to get started:
 
 1. Focus on the 5 or 6 most common usages. It's OK if the page doesn't cover everything; that's what `man` is for.
 2. When in doubt, keep new command-line users in mind. Err on the side of clarity rather than terseness.
 3. Try to incorporate the spelled-out version of single-letter options in the example's description.
+   The goal is to allow people to *understand* the syntax of the commands, not just *memorize* it.
 4. Introduce options gradually, starting with the simplest commands and using more complex examples progressively.
 5. Use short but descriptive values for the tokens, ex. `{{source_file}}` or `{{wallet.txt}}`.
-6. Be specific: avoid explaining general UNIX concepts that could apply to any command (ex: relative/absolute paths, brace expansion, character escaping...).
+6. Focus on details specific to the command, and avoid explaining general UNIX concepts that could apply to any command
+   (ex: relative/absolute paths, glob patterns/wildcards, special character escaping...).
 
 The best way to be consistent is to have a look at a few existing pages :).
 
@@ -38,131 +41,100 @@ The format of each page should match the following:
 ```
 
 We actually have a linter/formatter that enforces our format.
-It even automatically cleans up your pages for you! Installing it is easy:
+It is run automatically on every pull request,
+but you may install it to test your contributions locally before submitting them:
 
 ```
-npm install
-tldr tldrl
+npm install tldr-lint
+tldrl -f {{page.md}}
 ```
 
-### Token Syntax
-User-provided values should use the `{{token}}` syntax in order to allow clients
-to highlight them. 
+For other ways to use `tldrl`, such as linting an entire directory, check out (what else!)
+[`tldr tldrl`](https://github.com/tldr-pages/tldr/blob/master/pages/common/tldrl.md)
 
-Some examples: 
-- `tar cf {{file}}`
-- `ln -s {{path/to/original/file}} {{path/to/link}}`
-- `mysql {{database_name}}`
-- `unrar x {{compressed.rar}}`
+### Token syntax
+User-provided values should use the `{{token}}` syntax
+in order to allow clients to highlight them.
+Use [`snake_case`](https://en.wikipedia.org/wiki/Snake_case)
+for multi-word tokens.
 
-In short, make it as intuitive as possible for the user to figure out
-how to use the command and fill it in with values.
-Stick to [`snake_case`](https://en.wikipedia.org/wiki/Snake_case) where possible.
-In some situations a command works with typical file extensions
-(like the `unrar` example above); you are encouraged to add these for demonstration.
+Keep the following guidelines in mind when choosing token names:
 
-One of the reasons for this format is that it's well suited for command-line
-clients that need to extract a single description/example.
+- If the example is clearer with an actual value rather than a generic placeholder, use the actual value. For example, use `iostat {{2}}` rather than `iostat {{interval_in_secs}}`.
+
+- For any reference to paths to files or folders, use `{{path/to/<placeholder>}}`. For example, `ln -s {{path/to/file}} {{path/to/symlink}}`. In case of a possible reference both to a file or a folder, use `{{path/to/file_or_folder}}`
+
+- If a command expects the file to have a particular extension, use it. For example, `unrar x {{compressed.rar}}`. In case needs a generic extension, use `{{.ext}}`, but **only** if it helps to clarify the command. For example, here:
+
+  ```
+  Open all the files of a given extension in the current directory with the associated application:
+  open {{*.ext}}
+  ```
+
+  ... using `{{.ext}}` helps to clarify the command. But in a command like `wc -l {{file}}`, using `{{file}}` is sufficiently clear.
+
+- Lastly, follow the `{{path/to/<placeholder>}}` convention when there is a path-related command. Not when the file location is implicit. But of course, use proper judgement, keeping simplicity and user friendliness as the top priority.
+
+In short, make it as intuitive as possible
+for the user to figure out how to use the command
+and fill it in with values.
 
 ## Submitting a pull request
 
-TL;DR: fork, clone, `npm install`, feature branch, commit, push, pull request, check Travis.
+For submitting changes, you can use whatever workflow you're more comfortable with.
 
-Detailed explanation:
+### Using Github's web interface
 
-1. [Fork](http://help.github.com/fork-a-repo/) the project, clone your fork,
-   and configure the remotes:
+The easiest way to submit a change is to just edit the page directly on the Github interface.
+Check out the step-by-step instructions (with screenshots) on
+[Github Help](https://help.github.com/articles/editing-files-in-another-user-s-repository/).
 
-   ```bash
-   # Clone your fork of the repo into the current directory
-   git clone https://github.com/<your-username>/tldr
-   # Navigate to the newly cloned directory
-   cd tldr
-   # Assign the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/tldr-pages/tldr
-   ```
+### Using the command line
 
-2. Setup pre-commit hooks with Markdown and TLDR linter.
+Alternatively, you can do most of the process using the command line:
 
-   ```bash
-   # Assuming you have NodeJS
-   npm install
-   ```
+- fork the repository on the github web interface
 
-3. If you cloned a while ago, get the latest changes from upstream:
+- clone your fork locally:  
+  `git clone https://github.com/{{your_username}}/tldr.git && cd tldr`
 
-   ```bash
-   git checkout master
-   git pull upstream master
-   ```
+- create a feature branch, e.g. named after the command you plan to edit:  
+  `git checkout -b {{branch_name}}`
 
-4. Create a new topic branch (sometimes they are called feature branches) off
-   the main project development branch:
+- make your changes (edit existing files or create a new one)
 
-   ```bash
-   git checkout -b <topic-branch-name>
-   ```
+- commit the changes:  
+  `git commit --all -m "{{commit_message}}"`
 
-5. Run `npm test` to check that your page(s) are correct. Try to run the commands you are describing to ensure the syntax is correct.
+- push to your fork:  
+  `git push`
 
-   You can use the formatting features of [tldr-lint](https://github.com/tldr-pages/tldr-lint)
-   (installed through `npm install`)
-   to automatically fix any mistakes you may have missed.
-   Try `tldr tldrl` for a quick how-to.
+- go to the github page for your fork and click the green pull request button.
 
-6. Please use the following commit message format: 
-   `<command>: type of change`.
+Please send only related changes in the same pull request.
+Typically a pull request will include changes in a single file.
 
-   Examples:
+### Commit message
 
-   - `ls: add page`
-   - `cat: fix typo`
-   - `git-push: add --force example`
-   - `uname: fix -a example`
+For the commit message, use the following format:
 
-7. Push your topic branch up to your fork:
+    <command>: type of change
 
-   ```bash
-   git push origin <topic-branch-name>
-   ```
-
-8. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/)
-    with a clear title and description.
-    
-    If page is not about a standard Unix/Linux tool, please include a link to the tool home page.
-    
-    If you are changing something non-trivial, not just adding a page for a new tool, please describe why you are doing this.
-
-9. Verify that the automatically ran Travis CI build passed. 
-   You can check this on your Pull Request; look for a green :heavy_check_mark: or red :x:.
-
-10. Use Git's
-   [interactive rebase](https://help.github.com/articles/interactive-rebase)
-   feature to tidy up your commits before making them public.
-   
-   If you are not familiar with `git rebase`, it might be helpful to check out these video tutorials:
-   - [Git Rebase: squash last commits](https://www.youtube.com/watch?v=qh9KtjfjzCU)
-   - [Learning Git Tutorial: Interactive Rebasing](https://www.youtube.com/watch?v=NW46XmvJh5Q)
-   
-   In most cases it is better to squash commits before submitting a pull request.
-
-11. If you do not want to do a rebasing, you can overwrite your last commit in pull request, while you have only a single commit. You can achieve this with `git commit --amend` command.
-
-   ```bash
-   # When you are on topic branch of your pull request
-   # Fix your files
-   
-   git add .              # Register edited files
-   git commit --amend     # Do amended commit
-   git push --force       # Overwrite your branch
-   ```
-
+Examples:
+  - `ls: add page`
+  - `cat: fix typo`
+  - `git-push: add --force example`
+  - `uname: fix -a example`
 
 ## Licensing
 
-`tldr` is under [MIT license](https://github.com/tldr-pages/tldr/blob/master/LICENSE.md).
+`tldr` is licensed under the [MIT license](https://github.com/tldr-pages/tldr/blob/master/LICENSE.md).
 
-**IMPORTANT**: By submitting a patch, you agree to license your work under the
-same license as that used by the project.
+**IMPORTANT**: By submitting a patch, you agree to license your work
+under the same license as that used by the project.
 
-You're free to modify or redistribute the content. That being said, but why not contribute over here? :) Say if you wanted to have `tldr` pages in `groff` format, why not have a client that uses [pandoc](http://johnmacfarlane.net/pandoc/) and periodically updates straight from this repo?
+You're free to modify or redistribute the content.
+That being said, but why not contribute over here? :)
+Say if you wanted to have `tldr` pages in `groff` format,
+why not have a client that uses [pandoc](http://johnmacfarlane.net/pandoc/)
+and periodically updates straight from this repo?

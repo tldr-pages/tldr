@@ -25,4 +25,4 @@
 
 - Run any git command against the underlying store repository:
 
-`pass git {{git-arguments}}`
+`pass git {{git_arguments}}`
