@@ -1,12 +1,12 @@
 # qemu-img
 
-> Tool for QEMU Virtual HDD image creation and manipulation.
+> Tool for Quick Emulator Virtual HDD image creation and manipulation.
 
 - Create disk image with a specific size (in gigabytes):
 
 `qemu-img create {{image_name.img}} {{gigabites}}G`
 
-- Get information about image:
+- Show information about a disk image:
 
 `qemu-img info {{image_name.img}}`
 
