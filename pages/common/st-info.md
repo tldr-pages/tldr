@@ -2,11 +2,11 @@
 
 > Provides information about connected STLink and STM32 devices.
 
-- Display about of program memory available:
+- Display amount of program memory available:
 
 `st-info --flash`
 
-- Display about of sram memory available:
+- Display amount of sram memory available:
 
 `st-info --sram`
 
