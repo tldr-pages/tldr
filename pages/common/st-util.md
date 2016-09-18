@@ -4,7 +4,7 @@
 
 - Run GDB server on port 4500:
 
-`st-util -p 4500`
+`st-util --listen_port {{4500}}`
 
 - Connect to GDB server:
 
