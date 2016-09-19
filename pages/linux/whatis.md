@@ -2,11 +2,11 @@
 
 > Display one-line manual page descriptions.
 
-- Display a description of a man page:
+- Display a description from a man page:
 
 `whatis {{pageName}}`
 
-- Don't cut the description off at the end oof the line:
+- Don't cut the description off at the end of the line:
 
 `whatis --long {{pageName}}`
 
