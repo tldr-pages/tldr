@@ -3,10 +3,6 @@
 > Generic machine emulator and virtualizer.
 > Supports a large variety of CPU architectures.
 
-- Create disk image with a specific size (in gigabytes):
-
-`qemu-img create {{image_name.img}} {{gigabites}}G`
-
 - Boot from image emulating i386 architecture:
 
 `qemu-system-i386 -hda {{image_name.img}}`
