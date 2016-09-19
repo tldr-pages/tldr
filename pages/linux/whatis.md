@@ -1,6 +1,6 @@
 # whatis
 
-> Display one-line manual page descriptions.
+> Display one line descriptions from manual pages
 
 - Display a description from a man page:
 
