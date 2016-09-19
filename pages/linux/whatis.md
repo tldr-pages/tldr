@@ -4,11 +4,11 @@
 
 - Display a description from a man page:
 
-`whatis {{pageName}}`
+`whatis {{command}}`
 
 - Don't cut the description off at the end of the line:
 
-`whatis --long {{pageName}}`
+`whatis --long {{command}}`
 
 - Search man page descriptions with a regular expression:
 
