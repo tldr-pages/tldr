@@ -12,4 +12,4 @@
 
 - Search man page descriptions with a regular expression:
 
-`whatis --regex {{regular expression}}`
+`whatis --regex {{regular_expression}}`
