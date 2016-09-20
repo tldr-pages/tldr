@@ -8,7 +8,7 @@
 
 - Connect to GDB server:
 
-`(gdb) target extended-remote {{localhost}}:4500`
+`(gdb) target extended-remote {{localhost}}:{{4500}}`
 
 - Write firmware to device:
 
