@@ -20,4 +20,4 @@
 
 - Rebase your local branch by specifying new base commit and old base commit:
 
-`git rebase --onto {{NEW-BASE-COMMIT}} {{OLD-BASE-COMMIT}}`
+`git rebase --onto {{new_base_commit}} {{old_base_commit}}`
