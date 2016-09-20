@@ -10,6 +10,10 @@
 
 `git svn rebase`
 
+- Fetch updates from remote SVN repository without changing the GIT HEAD:
+
+`git svn fetch`
+
 - Commit back to SVN repository:
 
 `git svn dcommit`
