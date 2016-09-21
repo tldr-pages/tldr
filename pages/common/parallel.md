@@ -1,6 +1,6 @@
-# GNU Parallel
+# parallel
 
-> Run commands on multiple CPU cores.
+> GNU Parallel: Run commands on multiple CPU cores.
 
 - Gzip several files at once, using all cores:
 
