@@ -12,8 +12,8 @@
 
 - Call help on a command:
 
-`git help {{COMMAND}}`
+`git help {{command}}`
 
 - Execute Git command:
 
-`git {{COMMAND}}`
+`git {{command}}`

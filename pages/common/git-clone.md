@@ -4,7 +4,7 @@
 
 - Clone an existing repository:
 
-`git clone {{REMOTE-REPOSITORY-LOCATION}}`
+`git clone {{remote_repository_location}}`
 
 - For cloning from the local machine:
 
@@ -16,4 +16,4 @@
 
 - Clone an existing repository, and truncate to the specified number of revisions, save your time mostly:
 
-`git clone --depth 10 {{REMOTE-REPOSITORY-LOCATION}}`
+`git clone --depth 10 {{remote_repository_location}}`

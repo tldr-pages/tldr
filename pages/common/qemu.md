@@ -13,7 +13,7 @@
 
 - Boot QEMU instance with a live ISO image:
 
-`qemu-system-i386 -hda {{image_name.img}} -cdrom {{os-image.iso}} -boot d`
+`qemu-system-i386 -hda {{image_name.img}} -cdrom {{os_image.iso}} -boot d`
 
 - Specify amount of RAM for instance:
 

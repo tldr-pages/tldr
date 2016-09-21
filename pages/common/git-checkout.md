@@ -4,11 +4,11 @@
 
 - Switch to another branch:
 
-`git checkout {{BRANCH-NAME}}`
+`git checkout {{branch_name}}`
 
 - Create and switch to a new branch:
 
-`git checkout -b {{BRANCH-NAME}}`
+`git checkout -b {{branch_name}}`
 
 - Undo unstaged local modification:
 
