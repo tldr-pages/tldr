@@ -6,9 +6,13 @@
 
 `git svn clone {{http://example.com/my_subversion_repo}} {{local_dir}}`
 
-- Update local clone from the upstream SVN repository:
+- Update local clone from the remote SVN repository:
 
 `git svn rebase`
+
+- Fetch updates from the remote SVN repository without changing the git HEAD:
+
+`git svn fetch`
 
 - Commit back to SVN repository:
 
