@@ -1,4 +1,4 @@
-# SSH
+# ssh
 
 > Secure Shell is a protocol used to securely log onto remote systems.
 > It can be used for logging or executing commands on a remote server.

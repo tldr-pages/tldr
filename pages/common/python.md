@@ -1,4 +1,4 @@
-# Python
+# python
 
 > Python language interpreter.
 
