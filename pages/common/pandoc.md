@@ -11,5 +11,5 @@
 `pandoc {{input.docx}} -t {{markdown_github}} -o {{output.md}}`
 
 - List all supported input and output formats:
- 
+
 `pandoc --help | head`
