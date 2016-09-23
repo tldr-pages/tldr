@@ -18,6 +18,6 @@
 
 `ping -n {{host}}`
 
-- What about Ping host and ring the bell when a packet is received (if your terminal supports it):
+- Ping host and ring the bell when a packet is received (if your terminal supports it):
 
 `ping -a {{host}}`
