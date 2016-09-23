@@ -17,3 +17,7 @@
 - Ping host without trying to lookup symbolic names for addresses:
 
 `ping -n {{host}}`
+
+- Ping host and ring the bell when a packet is received (if your terminal supports it):
+
+`ping -a {{host}}`
