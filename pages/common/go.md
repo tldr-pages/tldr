@@ -6,7 +6,7 @@
 
 `go get {{package_path}}`
 
-- Compile and run a source file (it has to contain a "main" package):
+- Compile and run a source file (it has to contain a `main` package):
 
 `go run {{file}}.go`
 
@@ -14,7 +14,7 @@
 
 `go build`
 
-- Execute all test cases of the current package (files have to end with "_test.go"):
+- Execute all test cases of the current package (files have to end with `_test.go`):
 
 `go test`
 
