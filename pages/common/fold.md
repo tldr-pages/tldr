@@ -1,6 +1,6 @@
 # fold
 
-> Wraps each line in an input file to fit a specified width.
+> Wraps each line in an input file to fit a specified width and prints it to standard output.
 
 - Wrap each line to default width (80 characters):
 
