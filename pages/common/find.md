@@ -2,8 +2,9 @@
 
 > Find files under the given directory tree, recursively.
 
-- Find Hidden files in curent directory
-  `find . -mindepth 1 -maxdepth 1 -name '.*'`
+- Find Hidden files in curent directory:
+
+`find . -mindepth 1 -maxdepth 1 -name '.*'`
 
 - Find files by extension:
 
