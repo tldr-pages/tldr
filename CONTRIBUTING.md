@@ -2,6 +2,7 @@
 
 Contributions are most welcome! All `tldr` pages are stored in Markdown right here on GitHub.
 Just open an issue or send a pull request and we'll incorporate it as soon as possible.
+To get started, sign the [Contributor License Agreement](https://cla-assistant.io/tldr-pages/tldr).
 
 *Note*: when submitting a new command, don't forget to check if there's already a pull request in progress for it.
 
