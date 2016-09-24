@@ -3,6 +3,26 @@
 > JavaScript and Node.js package manager.
 > Manage Node.js projects and their module dependencies Awesome.
 
+- List all packages install by user
+
+`npm list -depth=0`
+
+- If you'd like to see all available (remote) versions for a particular package:
+  
+`npm view <module_name> versions`
+
+- Search for npm packages:
+
+`npm search {{module_name}}`
+
+- Installing a specific version of a package:
+
+`npm install {{module_name}}@0.3.0`
+
+- View details of a npm package:
+
+`npm view {{module_name}}`
+
 - Download and install a module globally:
 
 `npm install -g {{module_name}}`
