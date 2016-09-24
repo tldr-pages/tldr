@@ -2,9 +2,10 @@
 
 > List directory contents.
 
-- List only hidden files/directory
 
- `ls -ld .?*`
+- List only hidden files/directory:
+
+`ls -ld .?*`
  
 - List files one per line:
 
