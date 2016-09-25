@@ -1,16 +1,16 @@
 # tldr
 
-[![Build Status][travis-image]][travis-url]
+[![Build status][travis-image]][travis-url]
 [![Gitter chat][gitter-image]][gitter-url]
-[![Issue Stats][issuestats-image]][issuestats-url]
+[![Issue stats][issuestats-image]][issuestats-url]
 [![CLA assistant][cla-assistant-image]][cla-assistant-url]
 
 [travis-url]: https://travis-ci.org/tldr-pages/tldr
 [travis-image]: https://travis-ci.org/tldr-pages/tldr.svg?branch=master
 [gitter-url]: https://gitter.im/tldr-pages/tldr
 [gitter-image]: https://badges.gitter.im/tldr-pages/tldr.svg
-[issuestats-url]: http://issuestats.com/github/tldr-pages/tldr
-[issuestats-image]: http://issuestats.com/github/tldr-pages/tldr/badge/pr?style=flat
+[issuestats-url]: http://isitmaintained.com/project/tldr-pages/tldr
+[issuestats-image]: http://isitmaintained.com/badge/resolution/tldr-pages/tldr.svg
 [cla-assistant-url]: https://cla-assistant.io/tldr-pages/tldr
 [cla-assistant-image]: https://cla-assistant.io/readme/badge/tldr-pages/tldr
 
