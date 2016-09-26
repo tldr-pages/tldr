@@ -1,11 +1,11 @@
 # jq
 
 > A lightweight and flexible command-line JSON processor.
- 
+
 - Output JSON file:
 
 `jq '' {{file}}`
- 
+
 - Read JSON stream into array and output:
 
 `jq -s '' {{file}}`
