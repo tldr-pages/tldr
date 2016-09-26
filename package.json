@@ -15,15 +15,10 @@
     "test": "markdownlint pages/ && tldr-lint ./pages",
     "build-index": "node ./scripts/build-index.js > pages/index.json"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tldr-pages/tldr.git"
-  },
+  "repository": "tldr-pages/tldr",
   "author": "Romain Prieto",
   "private": true,
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/tldr-pages/tldr/issues"
-  },
+  "bugs": "https://github.com/tldr-pages/tldr/issues",
   "homepage": "http://tldr-pages.github.io"
 }
