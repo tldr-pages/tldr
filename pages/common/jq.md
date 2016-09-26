@@ -1,6 +1,6 @@
 # jq
 
-> A lightweight and flexible command-line JSON processor
+> A lightweight and flexible command-line JSON processor.
  
 - Output JSON file:
 
