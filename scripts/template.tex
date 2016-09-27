@@ -6,10 +6,10 @@
 % -----------------------------------------------
 
 \documentclass[
-    12pt,    % font size
-    DIV12,   % space / margins
-    a4paper, % paper format
-    oneside, % one-sided document
+  12pt,    % font size
+  DIV12,   % space / margins
+  a4paper, % paper format
+  oneside, % one-sided document
 ]{scrreprt}
 
 % Typography
@@ -36,7 +36,7 @@
 
 % fix for pandoc 1.14 (from https://github.com/mpastell/Pweave/pull/29/)
 \providecommand{\tightlist}{
-    \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
 % Disable section numbers
 \setcounter{secnumdepth}{0}
@@ -50,8 +50,8 @@
 % Decrease indentation of list items
 \usepackage{enumitem}
 \setlist[itemize,1]{
-    leftmargin = 11pt,
-    itemindent = 0pt,
+  leftmargin = 11pt,
+  itemindent = 0pt,
 }
 
 % Align commands with list items
@@ -68,16 +68,16 @@
 \definecolor{tldrBlue}{HTML}{0074d9}
 
 \lstset{
-    moredelim = *[is][\color{tldrBlue}]{\{\{}{\}\}}, % the magic for the blue
-    basicstyle = \ttfamily, % monospace font for code
-    backgroundcolor = \color{white}, % for multiline code samples (there are none atm)
-    extendedchars = true,
-    breaklines = true,
-    keepspaces = true, % if not set to true, the space between two following variables is removed when setting `basicstyle` (why? WHY?)
+  moredelim = *[is][\color{tldrBlue}]{\{\{}{\}\}}, % the magic for the blue
+  basicstyle = \ttfamily, % monospace font for code
+  backgroundcolor = \color{white}, % for multiline code samples (there are none atm)
+  extendedchars = true,
+  breaklines = true,
+  keepspaces = true, % if not set to true, the space between two following variables is removed when setting `basicstyle` (why? WHY?)
 }
 
 \usepackage[
-    linktoc = all % link the text and the page number in the TOC
+  linktoc = all % link the text and the page number in the TOC
 ]{hyperref}
 
 
@@ -87,20 +87,20 @@
 
 \begin{document}
 
-    \thispagestyle{plain}
+  \thispagestyle{plain}
 
-    \begin{titlepage}
-        \begin{center}
-            \vspace*{11em}
-            \huge{\textbf{TLDR Pages}}\\[1em]
-            \LARGE{The Book}\\[3em]
-            \large{Simplified and community-driven man pages}\\[1em]
-            \ttfamily{\href{https://tldr-pages.github.io}{tldr-pages.github.io}}
-        \end{center}
-    \end{titlepage}
+  \begin{titlepage}
+    \begin{center}
+      \vspace*{11em}
+      \huge{\textbf{TLDR Pages}}\\[1em]
+      \LARGE{The Book}\\[3em]
+      \large{Simplified and community-driven man pages}\\[1em]
+      \ttfamily{\href{https://tldr-pages.github.io}{tldr-pages.github.io}}
+    \end{center}
+  \end{titlepage}
 
-    \tableofcontents % Table of Contents #usefulcomments
+  \tableofcontents % Table of Contents #usefulcomments
 
-    $body$ % this is were pandoc hooks in
+  $body$ % this is were pandoc hooks in
 
 \end{document}
