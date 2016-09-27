@@ -49,7 +49,7 @@
 
 - Optimize a file with all plugins disabled except a specific one:
 
-`echo "plugins:" > c && svgo --config=c --enable={{plugin_name}} test.svg`
+`svgo --config='{"full":true}' --enable={{plugin_name}} test.svg`
 
 - Show available plugins:
 
