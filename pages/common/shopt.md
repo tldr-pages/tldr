@@ -1,7 +1,7 @@
 # shopt
 
 > Manage Bash shell options: variables (stored in `$BASHOPTS`) that control behavior specific to the Bash shell.
-> Generic POSIX shell variables (stored in `$SHELLOPTS`) are managed with the `set` command instead. 
+> Generic POSIX shell variables (stored in `$SHELLOPTS`) are managed with the `set` command instead.
 
 - List of all settable options and whether they are set:
 
