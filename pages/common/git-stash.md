@@ -10,7 +10,7 @@
 
 `git stash -u`
 
-- Interactively select hunks for stashing: 
+- Interactively select parts of changed files for stashing: 
 
 `git stash -p`
 
