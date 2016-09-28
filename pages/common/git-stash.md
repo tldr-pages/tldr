@@ -10,6 +10,10 @@
 
 `git stash -u`
 
+- Interactively select parts of changed files for stashing:
+
+`git stash -p`
+
 - List all stashes (shows stash name, related branch and message):
 
 `git stash list`
