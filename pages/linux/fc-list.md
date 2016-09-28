@@ -4,4 +4,4 @@
 
 - Return a list of installed fonts with given name:
 
-`fc-list | grep '{{Font Name}}'`
+`fc-list | grep '{{DejaVu Serif}}'`
