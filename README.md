@@ -2,17 +2,26 @@
 
 [![Build status][travis-image]][travis-url]
 [![Gitter chat][gitter-image]][gitter-url]
+[![Merged PRs][prs-merged-image]][prs-merged-url]
 [![Issue stats][issuestats-image]][issuestats-url]
+[![GitHub contributors][contributors-image]][contributors-url]
 [![CLA assistant][cla-assistant-image]][cla-assistant-url]
+[![license][license-image]][license-url]
 
 [travis-url]: https://travis-ci.org/tldr-pages/tldr
 [travis-image]: https://travis-ci.org/tldr-pages/tldr.svg?branch=master
 [gitter-url]: https://gitter.im/tldr-pages/tldr
 [gitter-image]: https://badges.gitter.im/tldr-pages/tldr.svg
+[prs-merged-url]: https://github.com/tldr-pages/tldr/pulls?q=is:pr+is:merged
+[prs-merged-image]: https://img.shields.io/github/issues-pr-closed-raw/tldr-pages/tldr.svg?label=merged+PRs
 [issuestats-url]: http://isitmaintained.com/project/tldr-pages/tldr
 [issuestats-image]: http://isitmaintained.com/badge/resolution/tldr-pages/tldr.svg
+[contributors-url]: https://github.com/tldr-pages/tldr/graphs/contributors
+[contributors-image]: https://img.shields.io/github/contributors/tldr-pages/tldr.svg
 [cla-assistant-url]: https://cla-assistant.io/tldr-pages/tldr
 [cla-assistant-image]: https://cla-assistant.io/readme/badge/tldr-pages/tldr
+[license-url]: https://github.com/tldr-pages/tldr/blob/master/LICENSE.md
+[license-image]: https://img.shields.io/github/license/tldr-pages/tldr.svg
 
 A collection of simplified and community-driven man pages.
 
