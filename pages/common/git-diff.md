@@ -1,6 +1,7 @@
 # git diff
 
 > What files are changend accros two branches
+
 `git diff --name-status master..{{name of branch}}`
 > Show changes to tracked files.
 
