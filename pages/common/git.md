@@ -2,9 +2,15 @@
 
 > Distributed version control system.
 
-- Reset to the last commit in the HEAD
+- Reset TO the last commit in the HEAD
 
 `git reset --hard HEAD`
+
+- Modify existing, unpushed commits?
+  
+  `git commit --amend -m "New commit message"`
+  
+  `git commit --amend`
 
 - Check the Git version:
 
