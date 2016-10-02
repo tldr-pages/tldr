@@ -1,7 +1,7 @@
 # pmset
 
 > Configure macOS power management settings, as one might do in System Preferences > Energy Saver.
-> Some of these commands must be run as root, i.e. starting with `sudo`.
+> Commands that modify settings must begin with `sudo`.
 
 - Display the current power management settings:
 
