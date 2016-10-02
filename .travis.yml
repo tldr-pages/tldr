@@ -5,9 +5,7 @@ language: node_js
 node_js:
   - 'stable'
 
-cache:
-  directories:
-    - node_modules
+cache: false
 
 after_success:
 - bash scripts/build.sh
