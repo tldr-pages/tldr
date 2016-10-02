@@ -1,5 +1,25 @@
 # Contributing
 
+[![Gitter chat][gitter-image]][gitter-url]
+[![Merged PRs][prs-merged-image]][prs-merged-url]
+[![Issue stats][issuestats-image]][issuestats-url]
+[![GitHub contributors][contributors-image]][contributors-url]
+[![CLA assistant][cla-assistant-image]][cla-assistant-url]
+[![license][license-image]][license-url]
+
+[gitter-url]: https://gitter.im/tldr-pages/tldr
+[gitter-image]: https://badges.gitter.im/tldr-pages/tldr.svg
+[prs-merged-url]: https://github.com/tldr-pages/tldr/pulls?q=is:pr+is:merged
+[prs-merged-image]: https://img.shields.io/github/issues-pr-closed-raw/tldr-pages/tldr.svg?label=merged+PRs
+[issuestats-url]: http://isitmaintained.com/project/tldr-pages/tldr
+[issuestats-image]: http://isitmaintained.com/badge/resolution/tldr-pages/tldr.svg
+[contributors-url]: https://github.com/tldr-pages/tldr/graphs/contributors
+[contributors-image]: https://img.shields.io/github/contributors/tldr-pages/tldr.svg
+[cla-assistant-url]: https://cla-assistant.io/tldr-pages/tldr
+[cla-assistant-image]: https://cla-assistant.io/readme/badge/tldr-pages/tldr
+[license-url]: https://github.com/tldr-pages/tldr/blob/master/LICENSE.md
+[license-image]: https://img.shields.io/github/license/tldr-pages/tldr.svg
+
 Contributions are most welcome! All `tldr` pages are stored in Markdown right here on GitHub.
 Just open an issue or send a pull request and we'll incorporate it as soon as possible.
 To get started, sign the [Contributor License Agreement](https://cla-assistant.io/tldr-pages/tldr).
@@ -64,8 +84,8 @@ Use [`snake_case`](https://en.wikipedia.org/wiki/Snake_case) for multi-word toke
 
 Keep the following guidelines in mind when choosing token names:
 
-- If the example is clearer with an actual value rather than a generic placeholder,
-  use the actual value. For example, use `iostat {{2}}` rather than `iostat {{interval_in_secs}}`.
+- If the example is clearer with an actual value rather than a generic placeholder, use the actual value.
+  For example, use `iostat {{2}}` rather than `iostat {{interval_in_secs}}`.
 
 - For any reference to paths to files or folders, use `{{path/to/<placeholder>}}`.
   For example, `ln -s {{path/to/file}} {{path/to/symlink}}`.
