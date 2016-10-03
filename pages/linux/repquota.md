@@ -2,26 +2,30 @@
 
 > Display a summary of existing file quotas for a filesystem.
 
-- Report on all existing quotas:
+- Report stats for all quotas in use:
 
-`repquota -all`
+`sudo repquota -all`
 
-- Report all quotas, even if there is no usage:
+- Report quota stats for all users, even those who aren't using any of their quota:
 
-`repquota -v`
+`sudo repquota -v`
 
-- Report on quotas for users (default), only super-user may view quotas which are not their own:
+- Report on quotas for current user:
 
-`repquota --user {{user}}`
+`repquota --user {{current_user}}`
+
+- Report on quotas for another user:
+
+`sudo repquota --user {{another_user}}`
 
 - Report on quotas for user groups:
 
-`repquota --group {{group}}`
+`sudo repquota --group {{group}}`
 
-- Report on used space and limits in a human-readable format:
+- Report on used quota and limits in a human-readable format:
 
-`repquota --human-readable {{filesystem}}`
+`sudo repquota --human-readable {{filesystem}}`
 
 - Report on all quotas for users and groups in a human-readable format:
 
-`repquota -augs {{filesystem}}`
+`sudo repquota -augs {{filesystem}}`
