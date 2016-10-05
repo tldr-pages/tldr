@@ -11,7 +11,7 @@
 
 `<Esc> i`
 
-- Copy ("yank") or cut ("delete") the current line (paste it with `p`):
+- Copy ("yank") or cut ("delete") the current line (paste it with `P`):
 
 `<Esc> {{yy|dd}}`
 
