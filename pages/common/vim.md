@@ -1,31 +1,32 @@
 # vim
 
-> Vi IMproved, a programmer's text editor.
+> Vi IMproved, a programmer's text editor, providing several modes for different kinds of text manipulation.
+> Pressing `i` enters edit mode; the normal mode (accessed via `<Esc>`) doesn't allow regular text editing.
 
-- Open a file with cursor at the given line number:
+- Open a file:
 
-`vim {{file}} +{{linenumber}}`
+`vim {{file}}`
 
-- Open multiple files at once, each file in its own tab page:
-
-`vim -p {{file1}} {{file2}} {{file3}}`
-
-- Open a file in read-only mode:
-
-`view {{file}}`
-
-- Enter normal text editing mode (insert mode):
+- Enter text editing mode (insert mode):
 
 `<Esc> i`
 
-- Search in file:
+- Copy ("yank") or cut ("delete") the current line (paste it with `P`):
 
-`/{{search_string}}<Enter>`
+`<Esc> {{yy|dd}}`
 
-- Save and Exit vim:
+- Undo the last operation:
+
+`<Esc> u`
+
+- Search for a pattern in the file (press `n` to go to the next result):
+
+`<Esc> /{{search_pattern}} <Enter>`
+
+- Perform a regex substitution in the whole file (from the start, `1`, to the end, `$`):
+
+`<Esc> :1,$s/{{pattern}}/{{replacement}}/g <Enter>`
+
+- Save (write) the file, and quit vim:
 
 `<Esc> :wq <Enter>`
-
-- Open interactive help:
-
-`<Esc> :help <Enter>`
