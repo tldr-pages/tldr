@@ -2,18 +2,18 @@
 
 > Set or display the system date.
 
-- Display the date using the default locale:
+- Display the current date using the default locale:
 
 `date +"%c"`
 
-- Display the date in UTC and ISO 8601 format:
+- Display the current date in UTC and ISO 8601 format:
 
 `date -u +"%Y-%m-%dT%H:%M:%SZ"`
 
-- Display the number of seconds since the unix epoch:
+- Display the current date as a Unix timestamp (seconds since the Unix epoch):
 
 `date +%s`
 
-- Perform a reverse conversion from a unix timestamp to a date:
+- Display a specific date (represented as a Unix timestamp) using the default format:
 
 `date -r 1473305798`
