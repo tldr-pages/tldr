@@ -14,6 +14,6 @@
 
 `date +%s`
 
-- Juggle a timestamp representing seconds since the Unix expoch to a date:
+- Perform a reverse conversion from a unix timestamp to a date:
 
-`date -j -r 1473305798`
+`date -r 1473305798`
