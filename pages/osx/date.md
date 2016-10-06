@@ -2,7 +2,7 @@
 
 > Set or display the system date.
 
-- Display the current date using the default locale:
+- Display the current date using the default locale's format:
 
 `date +"%c"`
 
