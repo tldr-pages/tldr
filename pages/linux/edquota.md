@@ -3,13 +3,13 @@
 > Edit quota for a user or group. By default it operates on all file systems with quotas.
 > Quota information is stored permanently in the quota.user and quota.group files in the root of the file system.
 
-- Edit quota of current user (default):
+- Edit quota of current user:
 
-`edquota --user {{user}}`
+`edquota {{user}}`
 
 - Edit quota of specific user:
 
-`sudo edquota --user {{user}}`
+`sudo edquota {{user}}`
 
 - Edit the group quota:
 
