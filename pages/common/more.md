@@ -10,9 +10,9 @@
 
 `<Space>`
 
-- Search for a string:
+- Search for a string (press `n` to go to the next match):
 
-`/{{something}}   then   n (next)`
+`/{{something}}`
 
 - Exit:
 
