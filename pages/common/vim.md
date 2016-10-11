@@ -19,13 +19,13 @@
 
 `<Esc>u`
 
-- Search for a pattern in the file:
+- Search for a pattern in the file (press `n`/`N` to go to next/previous match):
 
-`<Esc>/{{search_pattern}}<Enter>   then   n (next), N (previous)`
+`<Esc>/{{search_pattern}}<Enter>`
 
-- Perform a regex substitution in the whole file:
+- Perform a regex substitution in the whole file (from the start, `1`, to the end, `$`):
 
-`<Esc>:%s/{{pattern}}/{{replacement}}/g<Enter>`
+`<Esc>:1,$s/{{pattern}}/{{replacement}}/g<Enter>`
 
 - Save (write) the file, and quit:
 
