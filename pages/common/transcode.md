@@ -1,7 +1,6 @@
 # transcode
 
-> Suite of command line utilities for transcoding video and audio codecs.
-> And converting between formats.
+> Transcode video and audio codecs, and convert between media formats.
 
 - Create stabilisation file to be able to remove camera shakes:
 
