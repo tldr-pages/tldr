@@ -1,8 +1,6 @@
 # more
 
-> Opens a file for reading.
-> Allows movement and search in forward direction only.
-> Doesn't read the entire file (suitable for logs).
+> Open a file for interactive reading, allowing scrolling and search (in forward direction only).
 
 - Open a file:
 
