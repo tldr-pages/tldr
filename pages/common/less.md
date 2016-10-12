@@ -1,8 +1,6 @@
 # less
 
-> Opens a file for reading.
-> Allows movement and search.
-> Doesn't read the entire file (suitable for logs).
+> Open a file for interactive reading, allowing scrolling and search.
 
 - Open a file:
 
