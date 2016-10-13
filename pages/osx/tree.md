@@ -24,7 +24,7 @@
 
 - Find files within the tree hierarchy, using a wildcard (glob) pattern, and pruning out directories that don't contain matching files:
 
-`tree -P {{*.txt}} --prune`
+`tree -P '{{*.txt}}' --prune`
 
 - Find directories within the tree hierarchy, pruning out directories that aren't ancestors of the wanted one:
 
