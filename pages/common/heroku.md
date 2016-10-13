@@ -24,12 +24,8 @@
 
 - Uninstall for Debian/Ubuntu systems.
 
-`sudo apt-get remove heroku-toolbelt`
-
-`sudo rm /etc/apt/sources.list.d/heroku.list`
+`sudo apt-get remove heroku-toolbelt && sudo rm /etc/apt/sources.list.d/heroku.list`
 
 - Uninstall standalone version.
 
-`rm -rf /usr/local/heroku`
-
-`rm -rf ~/.heroku ~/.local/share/heroku ~/.config/heroku ~/.cache/heroku`
+`rm -rf /usr/local/heroku && rm -rf ~/.heroku ~/.local/share/heroku ~/.config/heroku ~/.cache/heroku`
