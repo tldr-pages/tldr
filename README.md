@@ -56,7 +56,7 @@ You can access these pages on your computer using one of the following clients:
   - [tldroid](https://github.com/hidroh/tldroid), available on
     [Google Play](https://play.google.com/store/apps/details?id=io.github.hidroh.tldroid)
 - [Bash client](https://github.com/raylee/tldr)
-- [C++ client](https://github.com/tldr-pages/tldr-cpp-client): `brew install tldr-pages/tldr/tldr`
+- [C++ client](https://github.com/tldr-pages/tldr-cpp-client): `brew install tldr`
 - [Crystal client](https://github.com/porras/tlcr): `brew install porras/tap/tlcr`
 - [Dart client](https://github.com/hterkelsen/tldr): `pub global activate tldr`
 - [Elixir client](https://github.com/tldr-pages/tldr_elixir_client) (binaries not yet available)
