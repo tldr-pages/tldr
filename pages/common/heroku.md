@@ -2,18 +2,6 @@
 
 > A tool for creating and managing Heroku apps from the command line.
 
-- Install for Debian/Ubuntu systems:
-
-`wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh`
-
-- Install standalone version:
-
-`wget -qO- https://toolbelt.heroku.com/install.sh | sh`
-
-- Verify your installation:
-
-`heroku --version`
-
 - Login to your heroku account:
 
 `herolu login`
@@ -22,10 +10,18 @@
 
 `heroku create`
 
-- Uninstall for Debian/Ubuntu systems:
+- Show Logs for an app:
 
-`sudo apt-get remove heroku-toolbelt && sudo rm /etc/apt/sources.list.d/heroku.list`
+`heroku logs --app {{app_name}}`
 
-- Uninstall standalone version:
+- Run a one-off process inside a heroku dyno:
 
-`rm -rf /usr/local/heroku && rm -rf ~/.heroku ~/.local/share/heroku ~/.config/heroku ~/.cache/heroku`
+`heroku run {{process_name}} --app {{app_name}}`
+
+- List dynos for an app:
+
+`heroku ps --app {{app_name}}`
+
+- Permanently destrroy an app:
+
+`heroku destroy --app {{app_name}}`
