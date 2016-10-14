@@ -34,15 +34,14 @@ Here are a few guidelines to get started:
 1. Focus on the 5 or 6 most common usages.
    It's OK if the page doesn't cover everything; that's what `man` is for.
 2. When in doubt, keep new command-line users in mind.
-   Err on the side of clarity rather than terseness.
-3. Commands that require 'sudo' should include it directly in the examples.
-4. Try to incorporate the spelled-out version of single-letter options in the example's description.
+   Err on the side of clarity rather than terseness. For example, commands that require `sudo` should include it directly in the examples.
+3. Try to incorporate the spelled-out version of single-letter options in the example's description.
    The goal is to allow people to *understand* the syntax of the commands, not just *memorize* it.
-5. Introduce options gradually, starting with the simplest command invocations,
+4. Introduce options gradually, starting with the simplest command invocations,
    and using more complex examples progressively.
-6. Use short but descriptive values for the tokens,
+5. Use short but descriptive values for the tokens,
    ex. `{{source_file}}` or `{{wallet.txt}}`.
-7. Focus on details specific to the command, and avoid explaining general UNIX concepts that could apply to any command
+6. Focus on details specific to the command, and avoid explaining general UNIX concepts that could apply to any command
    (ex: relative/absolute paths, glob patterns/wildcards, special character escaping...).
 
 The best way to be consistent is to have a look at a few existing pages :).
