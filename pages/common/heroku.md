@@ -1,6 +1,6 @@
 # heroku
 
-> A tool for creating and managing Heroku apps from the command line.
+> Create and manage Heroku apps from the command line.
 
 - Login to your heroku account:
 
@@ -14,7 +14,7 @@
 
 `heroku logs --app {{app_name}}`
 
-- Run a one-off process inside a heroku dyno:
+- Run a one-off process inside a heroku virtual machine:
 
 `heroku run {{process_name}} --app {{app_name}}`
 
