@@ -35,7 +35,7 @@ Here are a few guidelines to get started:
    It's OK if the page doesn't cover everything; that's what `man` is for.
 2. When in doubt, keep new command-line users in mind.
    Err on the side of clarity rather than terseness.
-3. Commands that require sudo should include it directly in the examples.
+3. Commands that require 'sudo' should include it directly in the examples.
 4. Try to incorporate the spelled-out version of single-letter options in the example's description.
    The goal is to allow people to *understand* the syntax of the commands, not just *memorize* it.
 5. Introduce options gradually, starting with the simplest command invocations,
