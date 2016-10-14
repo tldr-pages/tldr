@@ -4,13 +4,13 @@
 
 - Login to your heroku account:
 
-`herolu login`
+`heroku login`
 
 - Create a heroku app:
 
 `heroku create`
 
-- Show Logs for an app:
+- Show logs for an app:
 
 `heroku logs --app {{app_name}}`
 
