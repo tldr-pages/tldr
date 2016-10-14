@@ -22,6 +22,6 @@
 
 `heroku ps --app {{app_name}}`
 
-- Permanently destrroy an app:
+- Permanently destroy an app:
 
 `heroku destroy --app {{app_name}}`
