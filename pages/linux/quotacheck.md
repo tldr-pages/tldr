@@ -9,20 +9,20 @@
 
 - Force check even if quotas are enabled:
 
-`sudo quotacheck --force {{filesystem}}`
+`sudo quotacheck --force {{mountpoint}}`
 
 - Check quotas on a given filesystem in debug mode:
 
-`sudo quotacheck --debug {{filesystem}}`
+`sudo quotacheck --debug {{mountpoint}}`
 
 - Report progress as quotacheck progresses:
 
-`sudo quotacheck --verbose {{filesystem}}`
+`sudo quotacheck --verbose {{mountpoint}}`
 
 - Check user quotas:
 
-`sudo quotacheck --user {{user}} {{filesystem}}`
+`sudo quotacheck --user {{user}} {{mountpoint}}`
 
 - Check group quotas:
 
-`sudo quotacheck --group {{group}} {{filesystem}}`
+`sudo quotacheck --group {{group}} {{mountpoint}}`
