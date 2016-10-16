@@ -14,11 +14,11 @@
 
 `heroku logs --app {{app_name}}`
 
-- Run a one-off process inside a dyno (heroku virtual machine):
+- Run a one-off process inside a dyno (Heroku virtual machine):
 
 `heroku run {{process_name}} --app {{app_name}}`
 
-- List dynos (heroku virtual machines) for an app:
+- List dynos (Heroku virtual machines) for an app:
 
 `heroku ps --app {{app_name}}`
 
