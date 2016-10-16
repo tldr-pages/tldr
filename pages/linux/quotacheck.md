@@ -3,11 +3,11 @@
 > Scan a filesystem for disk usage; create, check and repair quota files.
 > It is best to run quota check with quotas turned off to prevent damage or loss to quota files.
 
-- Check all mounted non-NFS filesystems:
+- Check quotas on all mounted non-NFS filesystems:
 
 `sudo quotacheck --all`
 
-- Force check even if quotas are enabled:
+- Force check even if quotas are enabled (this can cause damage or loss to quota files):
 
 `sudo quotacheck --force {{mountpoint}}`
 
@@ -15,7 +15,7 @@
 
 `sudo quotacheck --debug {{mountpoint}}`
 
-- Report progress as quotacheck progresses:
+- Check quotas on a given filesystem, displaying the progress:
 
 `sudo quotacheck --verbose {{mountpoint}}`
 
