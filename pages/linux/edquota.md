@@ -1,21 +1,21 @@
 # edquota
 
-> Edit quota for a user or group. By default it operates on all file systems with quotas.
-> Quota information is stored permanently in the quota.user and quota.group files in the root of the file system.
+> Edit quotas for a user or group. By default it operates on all file systems with quotas.
+> Quota information is stored permanently in the `quota.user` and `quota.group` files in the root of the filesystem.
 
-- Edit quota of current user:
+- Edit quota of the current user:
 
-`edquota {{user}}`
+`edquota --user $(whoami)`
 
-- Edit quota of specific user:
+- Edit quota of a specific user:
 
-`sudo edquota {{user}}`
+`sudo edquota --user {{username}}`
 
-- Edit the group quota:
+- Edit quota for a group:
 
 `sudo edquota --group {{group}}`
 
-- Perform operations on given file system ONLY (default is to perform operations on all file systems with quota):
+- Restrict operations to a given filesystem (by default edquota operates on all filesystems with quotas):
 
 `sudo edquota --file-system {{filesystem}}`
 
