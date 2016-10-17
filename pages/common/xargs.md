@@ -11,7 +11,7 @@
 
 `{{find . -name '*.backup'}} | xargs {{rm -v}}`
 
-- Use the NUL (`\0`) character as separator (useful to split the input on newlines but not on spaces):
+- Convert newlines in the input into NUL (`\0`) characters, and split on those only (useful if the input to xargs contains spaces):
 
 `{{arguments_source}} | tr '\n' '\0' | xargs -0 {{command}}`
 
