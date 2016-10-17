@@ -1,6 +1,6 @@
 # dnf
 
-> Package management utility for RHEL, Feodra, and CentOS (replaces yum).
+> Package management utility for RHEL, Fedora, and CentOS (replaces yum).
 
 - Synchronize list of packages and versions available. This should be run first, before running subsequent dnf commands:
 
