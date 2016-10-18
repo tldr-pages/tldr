@@ -9,7 +9,7 @@
 
 - Connect to a remote server with a specific identity (private key):
 
-`ssh -i {{/path/to/key_file}} {{username}}@{{remote_host}}`
+`ssh -i {{path/to/key_file}} {{username}}@{{remote_host}}`
 
 - Connect to a remote server using a specific port:
 
@@ -27,6 +27,6 @@
 
 `ssh -L {{9999}}:slashdot.org:80 {{username}}@{{remote_host}}`
 
-- SSH enable agent forward:
+- Enable the option to forward the authentication information to the remote machine (see `man ssh_config` for available options):
 
-`ssh -A {{username}}@{{remote_host}}`
+`ssh -o "ForwardAgent=yes" {{username}}@{{remote_host}}`
