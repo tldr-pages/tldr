@@ -27,6 +27,6 @@
 
 `ssh -L {{9999}}:slashdot.org:80 {{username}}@{{remote_host}}`
 
-- Forward the authentication information to the remote machine by passing an option (For full list of possible options, try `man ssh_config`):
+- Enable the option to forward the authentication information to the remote machine (see `man ssh_config` for available options):
 
 `ssh -o "ForwardAgent=yes" {{username}}@{{remote_host}}`
