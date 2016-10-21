@@ -28,4 +28,4 @@
 
 - Specify raw request body via stdin:
 
-`cat data.txt | http PUT example.org`
+`cat {{data.txt}} | http PUT {{example.org}}`
