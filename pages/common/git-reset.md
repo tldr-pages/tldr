@@ -19,7 +19,7 @@
 
 `git reset HEAD~`
 
-- Undo the last two commits, adding their changes to the index, i.e. staged for commit (unstaged changes are left alone):
+- Undo the last two commits, adding their changes to the index, i.e. staged for commit:
 
 `git reset --soft HEAD~2`
 
