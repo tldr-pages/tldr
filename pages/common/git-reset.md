@@ -1,4 +1,4 @@
-# git-reset
+# git reset
 
 > Undo commits or unstage changes, by resetting the current git HEAD to the specified state.
 > If a path is passed, it works as "unstage"; if a commit hash or branch is passed, it works as "uncommit".
