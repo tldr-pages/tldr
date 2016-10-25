@@ -2,7 +2,7 @@
 
 > Show a history of commits.
 
-- Show a history of commits:
+- Show the sequence of commits starting from the current one, in reverse chronological order:
 
 `git log`
 
@@ -10,6 +10,10 @@
 
 `git log -p {{path}}`
 
-- Show only the first line of each commits:
+- Show only the first line of each commit message:
 
 `git log --oneline`
+
+- Show only commits whose messages include a given string (case-insensitively):
+
+`git log -i --grep {{search_string}}`
