@@ -24,4 +24,4 @@
 
 - Create a patch file:
 
-`git diff > {{target_file.patch}}`
+`git diff > {{target_file}}.patch`
