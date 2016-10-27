@@ -8,7 +8,7 @@
 
 - Convert a file to a specific output format (useful for when the extension alone is ambiguous):
 
-`pandoc {{input.docx}} -t {{markdown_github}} -o {{output.md}}`
+`pandoc {{input.docx}} --to {{markdown_github}} -o {{output.md}}`
 
 - List all supported input and output formats:
 
