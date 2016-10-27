@@ -18,3 +18,7 @@
 - Delete the tag with the given name:
 
 `git tag -d {{tag_name}}`
+
+- Get updated tags from upstream:
+
+`git fetch --tags`
