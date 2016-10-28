@@ -1,5 +1,6 @@
 import json
 import os
+import sys
 import urllib2
 
 GITHUB_URL = 'https://api.github.com'
@@ -20,6 +21,9 @@ if __name__ == '__main__':
 	REPO_SLUG = os.environ.get('TRAVIS_REPO_SLUG') # owner_name/repo_name
 	TEST_RESULT = os.environ.get('TRAVIS_TEST_RESULT')
 	BOT_TOKEN = os.environ.get('TRAVIS_BOT_GITHUB_TOKEN')
+
+	print PR_NUMBER, REPO_SLUG, TEST_RESULT, BOT_TOKEN
+	sys.exit(1)
 
 	comment = (
         """
