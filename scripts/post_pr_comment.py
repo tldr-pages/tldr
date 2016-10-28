@@ -19,12 +19,8 @@ def post_comment(pr_id, repo_slug, comment_body, user_token):
 if __name__ == '__main__':
 	PR_NUMBER = os.environ.get('TRAVIS_PULL_REQUEST')
 	REPO_SLUG = os.environ.get('TRAVIS_REPO_SLUG') # owner_name/repo_name
-	TEST_RESULT = os.environ.get('TRAVIS_TEST_RESULT')
 	BOT_TOKEN = os.environ.get('TRAVIS_BOT_GITHUB_TOKEN')
-
-	print PR_NUMBER, REPO_SLUG, TEST_RESULT, BOT_TOKEN
-	sys.exit(1)
-
+	test_result = sys.stdin.read().strip()
 	comment = (
         """
 The PR has failed with the following message -
@@ -32,7 +28,7 @@ The PR has failed with the following message -
 {comment_body}
 ```
 Please rectify the error and make another push.
-        """).format(comment_body=TEST_RESULT)
+        """).format(comment_body=test_result)
 
 	if PR_NUMBER != "false":
 		post_comment(PR_NUMBER, REPO_SLUG, comment, BOT_TOKEN)
