@@ -19,6 +19,6 @@
 
 `alias {{rm}}="{{rm -i}}"`
 
-- Create a `la` shortcut for `ls -a`:
+- Create `la` as a shortcut for `ls -a`:
 
 `alias {{la}}="{{ls -a}}"`
