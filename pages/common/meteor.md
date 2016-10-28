@@ -10,7 +10,6 @@
 
 `meteor create {{path/to/directory}}`
 
-- Display the list of packages the project is currently using:
 
 `meteor list`
 
