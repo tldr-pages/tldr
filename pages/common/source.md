@@ -1,11 +1,11 @@
 # Source
 
-> The source command can be used to load any shell file into the current shell script or a command prompt.
+> The source command can be used to load any shell script into the current shell session.
 
-- Load and execute shell file:
+- Read and execute shell file:
 
 `source {{filename}} {{arguments}}`
 
-- Load and execute shell file with the synonym '.':
+- Read and execute shell file with the synonym '.':
 
 `. {{filename}} {{arguments}}`
