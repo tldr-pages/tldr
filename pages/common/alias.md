@@ -1,6 +1,7 @@
 # alias
 
 > Creates an alias for a word when used as the first word of a command.
+> Note that these operations are not permanent, expiring when the current shell session ends.
 
 - Create a generic alias:
 
@@ -10,14 +11,14 @@
 
 `unalias {{word}}`
 
-- Full list of aliased words:
+- List all aliased words:
 
 `alias -p`
 
-- Turn rm an interative command:
+- Turn rm into an interactive command:
 
 `alias {{rm}}="{{rm -i}}"`
 
-- Override la as ls -a:
+- Create `la` as a shortcut for `ls -a`:
 
 `alias {{la}}="{{ls -a}}"`
