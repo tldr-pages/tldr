@@ -6,9 +6,9 @@
 
 `jq '' {{file}}`
 
-- Read JSON stream into array and output:
+- Read JSON objects from file, into array, and output:
 
-`jq -s '' {{file}}`
+`jq '' -s {{file}}`
 
 - Output first element in JSON file:
 
