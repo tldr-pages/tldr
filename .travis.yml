@@ -11,7 +11,7 @@ after_success:
 - bash scripts/build.sh
 
 after_failure:
-- npm test 2>&1 | python scripts/post_pr_comment.py
+- cat test_result | python scripts/post_pr_comment.py
 
 env:
   global:
