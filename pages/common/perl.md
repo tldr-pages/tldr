@@ -1,6 +1,6 @@
 # perl
 
-> The Perl 5 language interpreter 'CLI'
+> The Perl 5 language interpreter 'CLI'.
 
 - Parse and execute a file:
 
@@ -10,7 +10,7 @@
 
 `perl -e {{statement}}`
 
-- Compile but don't execute:
+- Compile without execution:
 
 `perl -c {{file}}`
 
