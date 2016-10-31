@@ -10,14 +10,14 @@
 
 `perl -e {{statement}}`
 
-- Compile without execution:
+- Check syntax error:
 
 `perl -c {{file}}`
 
-- Import module then execute the statement:
+- Import module before execution:
 
 `perl -M{{module}} -e {{statement}}`
 
-- Run under the Perl debugger (perldebug):
+- Run under perl debugger (perldebug):
 
 `perl -d {{file}}`
