@@ -6,6 +6,10 @@
 
 `bc -i`
 
+- Run calculator in interactive mode with floating point support:
+
+`bc -l`
+
 - Calculate the result of an expression:
 
 `bc <<< "(1 + 2) * 2 ^ 2"`
