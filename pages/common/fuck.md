@@ -5,4 +5,3 @@
 - Try to match a rule for the previous command:
 
 `fuck`
-
