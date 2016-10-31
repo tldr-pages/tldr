@@ -17,7 +17,7 @@
 
 - Copy and set permissions to destination:
 
-install -m {{mode}} {{path/to/source}} {{path/to/destination}}`
+`install -m {{mode}} {{path/to/source}} {{path/to/destination}}`
 
 - Copy and apply access/modification times of source to destination:
 
