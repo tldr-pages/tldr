@@ -10,14 +10,14 @@
 
 `unar -o {{path/to/directory}} {{archive}}`
 
-- Force overwrite when file to be unpacked already exists:
+- Force overwrite when file to be unpacked already exist:
 
 `unar -f {{archive}}`
 
-- Force rename when file to be unpacked already exists:
+- Force rename when file to be unpacked already exist:
 
 `unar -r {{archive}}`
 
-- Force skip when file to be unpacked already exists:
+- Force skip when file to be unpacked already exist:
 
 `unar -s {{archive}}`
