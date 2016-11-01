@@ -1,4 +1,4 @@
-# ripgrep (rg)
+# ripgrep
 
 > A fast commandline search tool.
 
