@@ -1,5 +1,9 @@
 # git diff
 
+> Show difference in the current file recursivly, no commit ID needed
+
+`git log -p [--follow] [-1] <path>`
+
 > What files are changend accros two branches
 
 `git diff --name-status master..{{name of branch}}`
