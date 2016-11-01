@@ -6,7 +6,7 @@
 
 `beep -r {{repetitions}}`
 
-- Send a beep at a specified freqency and duration:
+- Send a beep at a specified frequency and duration:
 
 `beep -f {{frequency}} -l {{duration}}`
 
