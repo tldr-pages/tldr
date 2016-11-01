@@ -2,19 +2,19 @@
 
 > Execute SQL-like queries on .csv and .tsv files.
 
-- Query simple .csv file:
+- Query .csv file by specifying the delimeter as ',':
 
-`q -d, "SELECT * from {{path/to/file}}"`
+`q -d',' "SELECT * from {{path/to/file}}"`
 
-- Query simple .tsv file:
+- Query .tsv file:
 
 `q -t "SELECT * from {{path/to/file}}"`
 
 - Query file with header row:
 
-`q -t -H "SELECT * from {{path/to/file}}"`
+`q -d{{delimiter}} -H "SELECT * from {{path/to/file}}"`
 
-- Read data from stdin:
+- Read data from stdin; '-' in the query represents the data from stdin:
 
 `{{output}} | q "select * from -"`
 
@@ -22,6 +22,6 @@
 
 `q "SELECT * FROM {{path/to/file}} f1 JOIN {{path/to/other_file}} f2 ON (f1.c1 = f2.c1)"`
 
-- Format output (output delimiter of space) with output header line (note: will output aliased column names):
+- Format output using an output delimeter with an output header line:
 
-`q -D" " -O "SELECT * from {{path/to/file}}"`
+`q -D{{delimiter}} -O "SELECT * from {{path/to/file}}"`
