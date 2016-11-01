@@ -1,8 +1,8 @@
 # Beep
 
-> A utility to beep the pc speaker
+> A utility to beep the pc speaker.
 
-- Sends a series of beeps to the speaker at a specified freqency and duration:
+- Send a series of beeps to the speaker at a specified freqency and duration:
 
 `beep -f {{frequency}} -l {{duration}} -r {{repetitions}}`
 
