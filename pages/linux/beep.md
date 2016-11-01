@@ -2,7 +2,7 @@
 
 > A utility to beep the pc speaker.
 
-- Send a beep that repeats
+- Send a beep that repeats:
 
 `beep -r {{repetitions}}`
 
