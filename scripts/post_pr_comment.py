@@ -30,7 +30,7 @@ if __name__ == '__main__':
 	# Populate the template text
 	comment = (
         """
-The [build](https://travis-ci.org/tldr-pages/tldr/builds/{build_id}) for this PR has failed with the following message -
+The [build](https://travis-ci.org/tldr-pages/tldr/builds/{build_id}) for this PR has failed with the following message:
 ```
 {comment_body}
 ```
