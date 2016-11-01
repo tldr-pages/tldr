@@ -2,10 +2,14 @@
 
 > A utility to beep the pc speaker.
 
-- Send a series of beeps to the speaker at a specified freqency and duration:
+- Send a beep that repeats
 
-`beep -f {{frequency}} -l {{duration}} -r {{repetitions}}`
+`beep -r {{repetitions}}`
 
-- Play a set of frequencies as distinct beeps:
+- Send a beep at a specified freqency and duration:
 
-`beep -f 1000 -n -f 2000 -n -f 1500`
+`beep -f {{frequency}} -l {{duration}}`
+
+- Play each new frequency as a distinct beep:
+
+`beep -f {{frequency}} -n -f {{frequency} -n -f {{frequency}}`
