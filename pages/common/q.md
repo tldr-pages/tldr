@@ -18,7 +18,7 @@
 
 `{{output}} | q "select * from -"`
 
-- Join two files:
+- Join two files (aliased as `f1` and `f2` in the example) on column `c1`, a common column:
 
 `q "SELECT * FROM {{path/to/file}} f1 JOIN {{path/to/other_file}} f2 ON (f1.c1 = f2.c1)"`
 
