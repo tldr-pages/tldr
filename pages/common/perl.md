@@ -10,7 +10,7 @@
 
 `perl -e {{perl_statement}}`
 
-- Check syntax error:
+- Check syntax errors on `script.pl`:
 
 `perl -c {{script.pl}}`
 
