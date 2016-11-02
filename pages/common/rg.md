@@ -14,6 +14,10 @@
 
 `rg -t {{filetype}} {{pattern}}`
 
+- Search for a pattern only in a subset of directories:
+
+`rg {{pattern}} {{set_of_subdirs}}`
+
 - Search for a pattern in files matching a glob (e.g., `README.*`):
 
 `rg {{pattern}} -g {{glob}}`
