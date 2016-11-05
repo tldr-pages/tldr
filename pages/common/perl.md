@@ -2,22 +2,22 @@
 
 > The Perl 5 language interpreter.
 
-- Parse and execute a `script.pl`:
+- Parse and execute a Perl script:
 
 `perl {{script.pl}}`
 
-- Parse and execute a `perl_statement`:
-
-`perl -e {{perl_statement}}`
-
-- Check syntax errors on `script.pl`:
+- Check syntax errors on a Perl script:
 
 `perl -c {{script.pl}}`
 
-- Import module before execution:
+- Parse and execute a perl statement:
+
+`perl -e {{perl_statement}}`
+
+- Import module before execution of a perl statement:
 
 `perl -M{{module}} -e {{perl_statement}}`
 
-- Run `script.pl` in debug mode using `perldebug`:
+- Run a Perl script in debug mode, using `perldebug`:
 
 `perl -d {{script.pl}}`
