@@ -4,20 +4,20 @@
 
 - Output JSON file:
 
-`jq '' {{file}}`
+`cat {{file}} | jq`
 
 - Read JSON objects from file, into array, and output:
 
-`jq '' -s {{file}}`
+`cat {{file}} | jq --slurp`
 
 - Output first element in JSON file:
 
-`jq '.[0]' {{file}}`
+`cat {{file}} | jq '.[0]'`
 
 - Output "key" of first element in JSON file:
 
-`jq '.[0].{{key}}' {{file}}`
+`cat {{file}} | jq '.[0].{{key}}'`
 
 - Output "key" of each element in JSON file:
 
-`jq 'map(.{{key}})' {{file}}`
+`cat {{file}} | jq 'map(.{{key}})'`
