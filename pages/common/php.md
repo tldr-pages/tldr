@@ -1,6 +1,6 @@
 # php
 
-> PHP Command Line Interface 'CLI'.
+> PHP command line interface.
 
 - Parse and execute a file:
 
