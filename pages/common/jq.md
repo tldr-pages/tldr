@@ -6,7 +6,11 @@
 
 `cat {{file}} | jq`
 
-- Read JSON objects from file, into array, and output:
+- Output all elements from JSON array in file, or all key-value pairs from JSON objects in file:
+
+`cat {{file}} | jq .[]`
+
+- Read JSON objects from file, into array, and output (inverse of `jq .[]`):
 
 `cat {{file}} | jq --slurp`
 
