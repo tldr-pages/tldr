@@ -9,6 +9,10 @@
 node_modules
 npm-debug.log
 
+# A temp file used to store the output from npm test
+# used to update a PR with a comment
+test_result
+
 # We used to have an index file in the repository,
 # but it's been superseded by a static asset
 # hosted at https://tldr-pages.github.io/assets/index.json
