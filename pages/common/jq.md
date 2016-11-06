@@ -16,11 +16,11 @@
 
 - Output first element in JSON file:
 
-`cat {{file}} | jq '.[0]'`
+`cat {{file}} | jq .[0]`
 
 - Output "key" of first element in JSON file:
 
-`cat {{file}} | jq '.[0].{{key}}'`
+`cat {{file}} | jq .[0].{{key}}`
 
 - Output "key" of each element in JSON file:
 
