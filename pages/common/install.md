@@ -15,9 +15,9 @@
 
 `install -g {{user}} {{path/to/source}} {{path/to/destination}}`
 
-- Copy files to destination, setting their permissions:
+- Copy files to destination, setting their `mode`:
 
-`install -m {{mode}} {{path/to/source}} {{path/to/destination}}`
+`install -m {{+x}} {{path/to/source}} {{path/to/destination}}`
 
 - Copy files and apply access/modification times of source to destination:
 
