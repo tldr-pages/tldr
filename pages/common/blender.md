@@ -3,29 +3,29 @@
 > Command-line interface to the Blender 3D computer graphics application.
 > Arguments are executed in the order they are given.
 
-- Render all frames of an animation in the background (without UI):
+- Render all frames of an animation in the background, without loading the UI (output is saved to `/tmp`):
 
-`blender -b {{file.blend}} -a`
+`blender -b {{filename}}.blend -a`
 
-- Render an animation to a specific output path relative to the .blend file:
+- Render an animation using a specific image naming pattern, in a path relative (`//`) to the .blend file:
 
-`blender -b {{file.blend}} -o //{{render/frame_###.png}} -a`
+`blender -b {{filename}}.blend -o //{{render/frame_###.png}} -a`
 
-- Render the 10th frame of an animation as a single image:
+- Render the 10th frame of an animation as a single image, saved to an existing folder (absolute path):
 
-`blender -b {{file.blend}} -f {{10}}`
+`blender -b {{filename}}.blend -o {{/path/to/output_folder}} -f {{10}}`
 
-- Render the second last frame in an animation as a JPEG image:
+- Render the second last frame in an animation as a JPEG image, saved to an existing folder (relative path):
 
-`blender -b {{file.blend}} -F JPEG -f -2`
+`blender -b {{filename}}.blend -o //{{output_folder}} -F {{JPEG}} -f {{-2}}`
 
 - Render the animation of a specific scene, starting at frame 10 and ending at frame 500:
 
-`blender -b {{file.blend}} -S {{scene_name}} -s 10 -e 500 -a`
+`blender -b {{filename}}.blend -S {{scene_name}} -s {{10}} -e {{500}} -a`
 
 - Render an animation at a specific resolution, by passing a Python expression:
 
-`blender -b {{file.blend}} --python-expr '{{import bpy; bpy.data.scenes[0].render.resolution_percentage = 25}}' -a`
+`blender -b {{filename}}.blend --python-expr '{{import bpy; bpy.data.scenes[0].render.resolution_percentage = 25}}' -a`
 
 - Start an interactive Blender session in the terminal with a python console (do `import bpy` after starting):
 
