@@ -1,7 +1,7 @@
 # install
 
 > Copy files and set attributes.
-> Similar to `cp`, as well as control the attributes of destination files.
+> Copy files (often executable) to a system location like `/usr/local/bin`, give them the appropriate permissions/ownership.
 
 - Copy files to destination:
 
