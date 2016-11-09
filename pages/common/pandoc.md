@@ -10,6 +10,10 @@
 
 `pandoc {{input.docx}} --to {{markdown_github}} -o {{output.md}}`
 
-- List all supported input and output formats:
+- List all supported input formats:
 
-`pandoc --help | head`
+`pandoc --list-input-formats`
+
+- List all supported output formats:
+
+`pandoc --list-output-formats`
