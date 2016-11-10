@@ -29,3 +29,7 @@
 - Drop a stash (default is stash@{0}):
 
 `git stash drop {{optional_stash_name}}`
+
+- Drop all stashes:
+
+`git stash clear`
