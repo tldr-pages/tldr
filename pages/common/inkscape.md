@@ -1,4 +1,5 @@
-# inkscape
+inkscape
+========
 
 > An SVG (Scalable Vector Graphics) editing program.
 > Use -z to not open the GUI and only process files in the console.
