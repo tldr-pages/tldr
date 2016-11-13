@@ -10,7 +10,7 @@
 
 `htpasswd {{path/to/file}} {{user_name}}`
 
-- Add user to htpasswd file in batch mode without password verification (for script usage):
+- Add user to htpasswd file in batch mode without an interactive password prompt (for script usage):
 
 `htpasswd -b {{path/to/file}} {{user_name}} {{password}}`
 
