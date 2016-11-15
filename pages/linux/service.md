@@ -1,7 +1,7 @@
 # service
 
 > Manage services by running init scripts.
-> The full script path (usually /etc/init.d/) should be omitted.
+> The full script path should be omitted (/etc/init.d/ is assumed).
 
 - Start/Stop/Restart/Reload service (start/stop should always be available):
 
