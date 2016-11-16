@@ -10,7 +10,7 @@
 
 `echo {{log_entry}} | logger`
 
-- Send the output to a remote syslog server running at a given port. Default port is `syslog`:
+- Send the output to a remote syslog server running at a given port. Default port is 514:
 
 `echo {{log_entry}} | logger --server {{hostname}} --port {{port}}`
 
