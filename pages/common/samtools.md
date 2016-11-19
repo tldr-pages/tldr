@@ -3,15 +3,15 @@
 > Tools for handling high-throughput sequencing (genomics) data.
 > Used for reading/writing/editing/indexing/viewing of data in SAM/BAM/CRAM format.
 
-- Convert a SAM input file (-S) to BAM stream (-b) and save to file:
+- Convert a SAM input file to BAM stream and save to file:
 
-`samtools view -bS {{input.sam}} > {{output.bam}}`
+`samtools view -S -b {{input.sam}} > {{output.bam}}`
 
-- Take input from stdin (-) and output a region, including the file header (-h). Prints to stdout:
+- Take input from stdin (-) and print the SAM header and any reads overlapping a specific region to stdout:
 
 `{{other_command}} | samtools view -h - chromosome:start-end`
 
-- Sort a file and save using -o (format chosen by output file extension):
+- Sort file and save to BAM (the output format is automatically determined from the output file's extension):
 
 `samtools sort {{input}} -o {{output.bam}}`
 
@@ -29,7 +29,7 @@
 
 - Merge multiple files:
 
-`samtools merge {{output}} {{input_1}} [{{input_2}}..{{input_n}}]`
+`samtools merge {{output}} {{input_1}} [{{input_2}}...]`
 
 - Split input file according to read groups:
 
