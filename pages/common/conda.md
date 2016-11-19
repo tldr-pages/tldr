@@ -1,8 +1,8 @@
 # conda
 
-> Package, dependency and environment management for any language.
+> Package, dependency and environment management for any programming language.
 
-- Create a new environment:
+- Create a new environment, installing named packages:
 
 `conda create --name {{environment_name}} {{packages}}`
 
@@ -10,21 +10,25 @@
 
 `conda info --envs`
 
-- Load an environment:
+- Load or unload an environment:
 
-`source activate {{environment_name}}`
+`source {{activate|deactivate}} {{environment_name}}`
 
-- Exit from an environment:
-
-`source deactivate {{environment_name}}`
-
-- Delete an environment:
+- Delete an environment (remove all packages):
 
 `conda remove --name {{environment_name}} --all`
 
-- Install one or more conda packages:
+- Search conda channels for a package by name:
+
+`conda search {{package_name}}`
+
+- Install one or more packages into the current environment:
 
 `conda install {{packages}}`
+
+- List currently installed packages in current environment:
+
+`conda list`
 
 - Delete unused packages and caches:
 
