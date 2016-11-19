@@ -2,6 +2,10 @@
 
 > CLI for AWS S3 - provides storage through web services interfaces.
 
+- Show files in a bucket:
+
+`aws s3 ls {{bucket_name}}`
+
 - Sync files and folders from local to bucket:
 
 `aws s3 sync {{path/to/files}} s3://{{bucket_name}}`
@@ -14,13 +18,9 @@
 
 `aws s3 sync {{path/to/files}} s3://{{bucket_name}} --exclude {{path/to/file}} --exclude {{path/to/folder}}/*`
 
-- Copy from one bucket to another recursively:
-
-`aws s3 cp s3://{{source_bucket}}/{{path/to/file}} s3://{{destination_bucket}} --recursive`
-
 - Remove file from bucket:
 
-`aws s3 rm s3://{{source_bucket}}/{{path/to/file}}`
+`aws s3 rm s3://{{bucket}}/{{path/to/file}}`
 
 - Preview changes only:
 
