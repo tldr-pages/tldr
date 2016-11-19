@@ -31,8 +31,8 @@ To get started, sign the [Contributor License Agreement](https://cla-assistant.i
 The basic format of a `tldr` page is a set of concrete usage examples.
 Here are a few guidelines to get started:
 
-1. Focus on the 5 or 6 most common usages.
-   It's OK if the page doesn't cover everything; that's what `man` is for.
+1. Try to keep pages at around 5 examples. Pages can be longer if needed, but don't exceed 8 examples.
+   Remember, it's OK if the page doesn't cover everything; that's what `man` is for.
 2. When in doubt, keep new command-line users in mind. Err on the side of clarity rather than terseness.
    For example, commands that require `sudo` should include it directly in the examples.
 3. Try to incorporate the spelled-out version of single-letter options in the example's description.
