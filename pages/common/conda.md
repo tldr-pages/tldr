@@ -2,9 +2,9 @@
 
 > Package, dependency and environment management for any programming language.
 
-- Create a new environment, installing named packages (eg. python=2.7):
+- Create a new environment, installing named packages into it:
 
-`conda create --name {{environment_name}} {{packages}}`
+`conda create --name {{environment_name}} {{python=2.7}} {{matplotlib}}`
 
 - List all environments:
 
