@@ -39,9 +39,7 @@ Here are a few guidelines to get started:
    The goal is to allow people to *understand* the syntax of the commands, not just *memorize* it.
 4. Introduce options gradually, starting with the simplest command invocations,
    and using more complex examples progressively.
-5. Use short but descriptive values for the tokens,
-   ex. `{{source_file}}` or `{{wallet.txt}}`.
-6. Focus on details specific to the command, and avoid explaining general UNIX concepts that could apply to any command
+5. Focus on details specific to the command, and avoid explaining general UNIX concepts that could apply to any command
    (ex: relative/absolute paths, glob patterns/wildcards, special character escaping...).
 
 The best way to be consistent is to have a look at a few existing pages :).
@@ -84,32 +82,31 @@ Use [`snake_case`](https://en.wikipedia.org/wiki/Snake_case) for multi-word toke
 
 Keep the following guidelines in mind when choosing token names:
 
-- If the example is clearer with an actual value rather than a generic placeholder, use the actual value.
-  For example, use `iostat {{2}}` rather than `iostat {{interval_in_secs}}`.
+1. Use short but descriptive values for the tokens,
+   ex. `{{source_file}}` or `{{wallet.txt}}`.
+   
+2. If the example is clearer with an actual value rather than a generic placeholder, use the actual value.
+   For example, use `iostat {{2}}` rather than `iostat {{interval_in_secs}}`.
 
-- For any reference to paths to files or folders, use `{{path/to/<placeholder>}}`.
-  For example, `ln -s {{path/to/file}} {{path/to/symlink}}`.
-  In case of a possible reference both to a file or a folder, use `{{path/to/file_or_folder}}`
-
-- If a command expects the file to have a particular extension, use it.
-  For example, `unrar x {{compressed.rar}}`.
-  In case needs a generic extension, use `{{.ext}}`, but **only** if it helps to clarify the command.
-  For example, here:
-
-  ```
-  Open all the files of a given extension in the current directory with the associated application:
-  open {{*.ext}}
-  ```
-
-  ... using `{{.ext}}` helps to clarify the command.
-  But in a command like `wc -l {{file}}`, using `{{file}}` is sufficiently clear.
-
-- Lastly, follow the `{{path/to/<placeholder>}}` convention when there is a path-related command,
+3. For any reference to paths to files or folders, use the format `{{path/to/<placeholder>}}`.
+   For example, `ln -s {{path/to/file}} {{path/to/symlink}}`.
+   In case of a possible reference both to a file or a folder, use `{{path/to/file_or_folder}}`
+   
+4. Follow the `{{path/to/<placeholder>}}` convention when there is a path-related command,
   except when the file location is implicit.
-  But of course, use proper judgement, keeping simplicity and user friendliness as the top priority.
 
-In short, choose tokens that make it as intuitive as possible
-for the user to figure out how to use the command and fill it in with values.
+5. If a command expects the file to have a particular extension, use it.
+   For example, `unrar x {{compressed.rar}}`.
+   In case a generic extension is needed, use `{{.ext}}`, but **only** if an extension is required.
+   For instance, in find.md's example "Find files by extension" (`find {{root_path}} -name '{{*.ext}}'`)
+   using `{{*.ext}}` explains the command without being unnecessarily specific;
+   But in a command like `wc -l {{file}}`, using `{{file}}` (without extension) is sufficient.
+
+
+These are all guidelines, not strict rules.
+In general, tokens should make it as intuitive as possible
+to figure out how to use the command and fill it in with values.
+Use proper judgement, keeping simplicity and user-friendliness as the top priority.
 
 ## Submitting a pull request
 
