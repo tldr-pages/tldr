@@ -2,11 +2,7 @@
 
 > Calculator.
 
-- Run calculator in interactive mode:
-
-`bc -i`
-
-- Run calculator in interactive mode with floating point support:
+- Run calculator in interactive mode using the standard math library:
 
 `bc -l`
 
