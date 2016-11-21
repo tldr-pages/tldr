@@ -1,6 +1,6 @@
-# Beep
+# beep
 
-> A utility to beep the pc speaker.
+> A utility to beep the PC speaker.
 
 - Play a beep:
 
