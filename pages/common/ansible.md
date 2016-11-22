@@ -1,6 +1,6 @@
 # ansible
 
-> Manage groups of computers remotely over SSH
+> Manage groups of computers remotely over SSH. Use the /etc/ansible/hosts file to add new groups/hosts
 
 - List hosts belonging to a group:
 
