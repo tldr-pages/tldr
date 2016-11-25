@@ -20,11 +20,11 @@
 
 - Copy a file/folder from the target device:
 
-`adb pull {{path/to/file.ext}}`
+`adb pull {{path/to/file.ext}} {{destination/path}}`
 
 - Copy a file/folder to the target device:
 
-`adb push {{path/to/file.ext}}`
+`adb push {{path/to/file.ext}} {{destination/path}}`
 
 - Get a list of connected devices:
 
