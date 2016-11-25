@@ -25,3 +25,7 @@
 - Copy a file/folder to the target device:
 
 `adb push {{path/to/file.ext}}`
+
+- Get a list of connected devices:
+
+`adb devices`
