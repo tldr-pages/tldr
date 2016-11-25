@@ -17,3 +17,11 @@
 - Push an Android application to an emulator/device:
 
 `adb install -r {{path/to/file.apk}}`
+
+- Copy a file/folder from the target device:
+
+`adb pull {{path/to/file.ext}}`
+
+- Copy a file/folder to the target device:
+
+`adb push {{path/to/file.ext}}`
