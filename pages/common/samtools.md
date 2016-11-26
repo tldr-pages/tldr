@@ -15,7 +15,7 @@
 
 `samtools sort {{input}} -o {{output.bam}}`
 
-- Index a sorted BAM file (creates {{sorted_input.bai}}):
+- Index a sorted BAM file (creates {{sorted_input.bam.bai}}):
 
 `samtools index {{sorted_input.bam}}`
 
