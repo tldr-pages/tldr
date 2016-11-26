@@ -17,7 +17,7 @@
 
 - Index a sorted BAM file (creates {{sorted_input.bai}}):
 
-`samtools index {{sorted_input}}`
+`samtools index {{sorted_input.bam}}`
 
 - Print alignment statistics about a file:
 
