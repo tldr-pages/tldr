@@ -17,3 +17,15 @@
 - Push an Android application to an emulator/device:
 
 `adb install -r {{path/to/file.apk}}`
+
+- Copy a file/folder from the target device:
+
+`adb pull {{path/to/device_file_or_folder}} {{path/to/local_destination_folder}}`
+
+- Copy a file/folder to the target device:
+
+`adb push {{path/to/local_file_or_folder}} {{path/to/device_destination_folder}}`
+
+- Get a list of connected devices:
+
+`adb devices`
