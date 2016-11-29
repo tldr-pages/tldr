@@ -22,9 +22,9 @@
 
 `conda search {{package_name}}`
 
-- Install one or more packages into the current environment:
+- Install packages into the current environment:
 
-`conda install {{packages}}`
+`conda install {{python=3.4 numpy}}`
 
 - List currently installed packages in current environment:
 
