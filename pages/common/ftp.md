@@ -1,12 +1,12 @@
 # ftp
 
-> Internet File Transfer Protocol
+> Tools to interact with a server via File Transfer Protocol.
 
-- Connect to a FTP server:
+- Connect to an FTP server:
 
 `ftp {{ftp.example.com}}`
 
-- Switch to binary transfer mode (graphics, compressed files etc):
+- Switch to binary transfer mode (graphics, compressed files, etc):
 
 `binary`
 
@@ -22,6 +22,10 @@
 
 `mput {{*.zip}}`
 
-- Delete multiple files on the remote machine (glob expression):
+- Delete a single file on the remote server:
 
-`mdelete {{*.txt}}`
+`delete {{filename}}`
+
+- Rename a file on the remove server:
+
+`rename {{original_filename}} {{new_filename}}`
