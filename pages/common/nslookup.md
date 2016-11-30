@@ -14,9 +14,9 @@
 
 `nslookup -type=PTR 54.240.162.118`
 
-- Query default name server for an IP address (A record) of the domain using TCP protocol (-vc option) instead of the default UDP:
+- Query a given name server for the whole zone file (zone transfer) of the domain using TCP protocol (-vc option) instead of the default UDP:
 
-`nslookup -vc {{example.com}}`
+`nslookup -vc -type=AXFR {{example.com}} {{name_server}}`
 
 - Query default name server for a mail server (MX record) of the domain, showing details of the transaction:
 
