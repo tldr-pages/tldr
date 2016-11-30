@@ -10,7 +10,7 @@
 
 `binary`
 
-- Turn off interactive prompting for multiple file transfers:
+- Transfer multiple files without prompting for confirmation on every file:
 
 `prompt off`
 
@@ -22,9 +22,9 @@
 
 `mput {{*.zip}}`
 
-- Delete a single file on the remote server:
+- Delete multiple files on the remote server:
 
-`delete {{filename}}`
+`mdelete {{*.txt}}`
 
 - Rename a file on the remove server:
 
