@@ -1,23 +1,27 @@
 # ftp
 
-> Internet File Transfer Program
+> Internet File Transfer Protocol
 
 - Connect to a FTP server:
 
-`ftp {{url}}`
+`ftp {{ftp.example.com}}`
 
 - Switch to binary transfer mode (graphics, compressed files etc):
 
 `binary`
 
-- Turn off prompts for each process:
+- Turn off interactive prompting for multiple file transfers:
 
 `prompt off`
 
-- Download multiple files:
+- Download multiple files (glob expression):
 
-`mget {{glob_expression}}`
+`mget {{*.png}}`
 
-- Upload multiple files:
+- Upload multiple files (glob expression):
 
-`mput {{glob_expression}}`
+`mput {{*.zip}}`
+
+- Delete multiple files on the remote machine (glob expression):
+
+`mdelete {{*.txt}}`
