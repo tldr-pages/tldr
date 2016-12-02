@@ -26,6 +26,6 @@
 
 `mdelete {{*.txt}}`
 
-- Rename a file on the remove server:
+- Rename a file on the remote server:
 
 `rename {{original_filename}} {{new_filename}}`
