@@ -15,9 +15,9 @@
 
 `od --address-radix=x --string=5 -v {{/path/to/file}}`
 
-- Read only first {{number_of_bytes}} bytes of a file and display it in the hexadecimal format:
+- Read only given number of first bytes of a file and display it in the hexadecimal format:
 
-`od --address-radix=x --format=x --read-bytes {{number_of_bytes}} -v {{/path/to/file}}`
+`od --address-radix=x --format=x --read-bytes 100 -v {{/path/to/file}}`
 
 - Display file in hexadecimal format along with its character representation, also do not print byte offsets:
 
