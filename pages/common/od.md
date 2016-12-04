@@ -3,7 +3,7 @@
 > Display file contents in hexadecimal, octal, or printable character format.
 > Optionally display the byte offsets into the file.
 
-- Display file in octal format 8 bytes per line with the byte offsets in octal as well replacing duplicate lines with '*':
+- Display file in octal format 8 bytes per line with the byte offsets in octal as well replacing duplicate lines with `*`:
 
 `od {{/path/to/file}}`
 
