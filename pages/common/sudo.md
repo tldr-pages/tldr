@@ -12,7 +12,7 @@
 
 - To shutdown the machine:
 
-`sudo {{shutdown}} -r +10 {{"Cya soon!"}}`
+`sudo {{shutdown}} -h +10 {{"Cya soon!"}}`
 
 - To repeat the last command as sudo:
 
