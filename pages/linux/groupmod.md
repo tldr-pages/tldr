@@ -1,6 +1,6 @@
 # groupmod
 
-> Modify a already existing group.
+> Modify existing user groups in the system.
 
 - Change the group name:
 

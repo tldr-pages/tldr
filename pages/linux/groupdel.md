@@ -1,6 +1,6 @@
 # groupdel
 
-> Delete an existing group.
+> Delete existing user groups from the system.
 
 - Delete an existing group:
 

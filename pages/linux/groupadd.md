@@ -1,6 +1,6 @@
 # groupadd
 
-> Adds groups to the system.
+> Add user groups to the system.
 
 - Create a new Linux group:
 
