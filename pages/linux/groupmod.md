@@ -8,4 +8,4 @@
 
 - Change the group id:
 
-`groupmod -g {{group-id}} {{old_group_name}}`
+`groupmod -g {{new_group_id}} {{old_group_name}}`
