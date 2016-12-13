@@ -4,4 +4,4 @@
 
 - Delete an existing group:
 
-`groupdel {{group-name}}`
+`groupdel {{group_name}}`

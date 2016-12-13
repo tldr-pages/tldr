@@ -4,8 +4,8 @@
 
 - Create a new Linux group:
 
-`groupadd {{group-name}}`
+`groupadd {{group_name}}`
 
 - Create new group with a specific groupid:
 
-`groupadd {{group-name}} -g {{group-id}}`
+`groupadd {{group_name}} -g {{group_id}}`
