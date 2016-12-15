@@ -1,7 +1,7 @@
 # git tag
 
 > Create, list, delete or verify tags.
-> Tag is reference to specific commit.
+> A tag is a static reference to a specific commit.
 
 - List all tags:
 
@@ -22,3 +22,7 @@
 - Get updated tags from upstream:
 
 `git fetch --tags`
+
+- List tags that contain a given commit:
+
+`git tag --contains `
