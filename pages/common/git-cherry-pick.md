@@ -5,7 +5,7 @@
 
 - Apply a commit to the current branch:
 
-`git cherry-pick {{commit_hash}}`
+`git cherry-pick {{commit}}`
 
 - Apply a range of commits to the current branch (see also `git rebase --onto`):
 
