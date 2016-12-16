@@ -25,7 +25,7 @@
 
 - SSH tunneling: Forward a specific port (localhost:9999 to slashdot.org:80):
 
-`ssh -L {{9999}}:slashdot.org:80 {{username}}@{{remote_host}}`
+`ssh -L [bind_address:]{{9999}}:slashdot.org:80 {{username}}@{{remote_host}}`
 
 - Enable the option to forward the authentication information to the remote machine (see `man ssh_config` for available options):
 
