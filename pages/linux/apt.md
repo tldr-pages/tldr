@@ -2,7 +2,7 @@
 
 > Package management utility for Debian based distributions. 
 
-- Synchronize list of packages and versions available. This should be run first, before running subsequent apt commands:
+- Update list of packages and versions available. This should be run before running further apt commands:
 
 `apt update`
 
@@ -14,11 +14,11 @@
 
 `apt install {{package}}`
 
-- Remove a package (using "purge" instead also removes configuration files):
+- Remove a package (using "purge" instead also removes its configuration files):
 
 `apt remove {{package}}`
 
-- Upgrade installed packages to newest available versions:
+- Upgrade installed packages to the newest available versions:
 
 `apt upgrade`
 
@@ -26,6 +26,6 @@
 
 `apt autoremove`
 
-- Upgrade installed packages (like "upgrade"), but remove obsolete packages and install additional packages to meet new dependencies:
+- Upgrade installed packages and remove no longer needed packages:
 
 `apt full-upgrade`
