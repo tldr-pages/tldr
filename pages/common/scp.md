@@ -25,4 +25,4 @@
 
 - Use a specific ssh private key for authentication with the remote host:
 
-`scp -i {{~/.ssh/id_rsa}} {{local_file}} {{remote_host}}:{{/path/remote_file}}`
+`scp -i {{path/to/identity_file}} {{local_file}} {{remote_host}}:{{/path/remote_file}}`
