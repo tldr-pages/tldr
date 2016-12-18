@@ -1,7 +1,7 @@
 # cmus
 
 > Commandline C* Music Player.
-> Arrow keys to navogate, `<enter/return>` to select, numbers 1-8 switch between different views.
+> Use arrow keys to navigate, `<enter/return>` to select, and numbers 1-8 switch between different views.
 
 - Open cmus from specified directory:
 
@@ -15,10 +15,10 @@
 
 `c`
 
-- Toggle shuffle:
+- Toggle shuffle mode on/off:
 
 `s`
 
-- Close cmus:
+- Quit cmus:
 
 `q`
