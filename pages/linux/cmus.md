@@ -1,6 +1,6 @@
 # cmus
 
-> Commandline C* Music Player.
+> Commandline Music Player.
 > Use arrow keys to navigate, `<enter/return>` to select, and numbers 1-8 switch between different views.
 
 - Open cmus from specified directory:
