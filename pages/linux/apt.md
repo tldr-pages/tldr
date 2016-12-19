@@ -1,6 +1,6 @@
 # apt
 
-> Package management utility for Debian based distributions. 
+> Package management utility for Debian based distributions.
 
 - Update list of packages and versions available. This should be run before running further apt commands:
 
