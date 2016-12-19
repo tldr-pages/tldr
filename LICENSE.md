@@ -1,6 +1,7 @@
-The MIT License (MIT)
+## The MIT License (MIT)
 
-Copyright (c) 2014 Romain Prieto and [contributors](https://github.com/tldr-pages/tldr/graphs/contributors)
+Copyright (c) 2014 the [TLDR team](https://github.com/orgs/tldr-pages/people)
+and [contributors](https://github.com/tldr-pages/tldr/graphs/contributors)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
