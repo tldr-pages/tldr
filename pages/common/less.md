@@ -26,6 +26,10 @@
 
 `git diff --color | less -R`
 
+- Open the current file in an editor
+
+`v`
+
 - Exit:
 
 `q`
