@@ -30,3 +30,7 @@
 - Pass client certificate and key for a secure resource:
 
 `curl -v -key {{key.pem}} -cacert {{ca.pem}} -cert {{client.pem}} -k {{https://example.com}}`
+
+- Ignore DNS and access an HTTPS resource by IP address:
+
+`curl {{https://www.example.com}} --resolve {{www.example.com}}:{{443}}:{{192.0.2.10}}`
