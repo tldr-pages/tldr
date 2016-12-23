@@ -12,7 +12,7 @@
 
 - Combine numbered images (image1.jpg, image2.jpg, etc) into a video or GIF:
 
-`ffmpeg -f image2 -i {{image%d.jpg}} {{video.mpg_or_image.gif}}`
+`ffmpeg -f image2 -i {{image%d.jpg}} {{video.mpg_or_video.gif}}`
 
 - Convert AVI video to MP4. AAC Audio @ 128kbit, Video @ 1250Kbit:
 
