@@ -1,12 +1,13 @@
 # gource
 
-> Visualize the history of Git, SVN, Mercurial and Bazaar repositories.
+> Renders an animated tree diagram of Git, SVN, Mercurial and Bazaar repositories.
+> It shows files and folders being created, modified or removed over time.
 
 - Run gource in a directory:
 
 `gource {{/path/to/repository/}}`
 
-- Run gource in fullscreen mode:
+- Run gource in fullscreen mode (assuming the command is run from the project's root directory):
 
 `gource -f`
 
@@ -14,7 +15,7 @@
 
 `gource -{{width}}x{{height}}`
 
-- Set the simulation time scale:
+- Set the animation time scale:
 
 `gource -c {{time_scale_multiplier}}`
 
