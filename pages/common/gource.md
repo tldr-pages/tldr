@@ -3,7 +3,7 @@
 > Renders an animated tree diagram of Git, SVN, Mercurial and Bazaar repositories.
 > It shows files and folders being created, modified or removed over time.
 
-- Run gource in a directory (assuming the command is run from the project's root directory):
+- Run gource in a directory (if it isn't the repository's root directory, the root is seeked up from there):
 
 `gource {{path/to/repository}}`
 
