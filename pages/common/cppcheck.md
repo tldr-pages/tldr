@@ -29,4 +29,4 @@
 
 - Check a Microsoft Visual Studio project (.vcxproj) or solution (.sln):
 
-`cppcheck --project={{project_name.sln}}`
+`cppcheck --project={{path/to/project.sln}}`
