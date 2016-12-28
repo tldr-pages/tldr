@@ -7,15 +7,15 @@
 
 `gource {{path/to/repository}}`
 
-- Set the resolution:
+- Run gource in the current directory, with a custom output resolution:
 
 `gource -{{width}}x{{height}}`
 
-- Set the animation time scale:
+- Run gource with a custom time scale for the animation:
 
 `gource -c {{time_scale_multiplier}}`
 
-- Set the amount of time to display each day:
+- Run gource specifying how long each day should be in the animation:
 
 `gource -s {{seconds}}`
 
@@ -23,6 +23,6 @@
 
 `gource -f -b {{hex_color_code}}`
 
-- Set the title:
+- Run gource providing a title for the animation:
 
 `gource --title {{title}}`
