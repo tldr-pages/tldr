@@ -15,7 +15,7 @@
 
 `gource -c {{time_scale_multiplier}}`
 
-- Run gource specifying how long each day should be in the animation:
+- Run gource specifying how long each day should be in the animation (this combines with -c, if provided):
 
 `gource -s {{seconds}}`
 
