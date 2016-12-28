@@ -17,7 +17,7 @@
 
 - List the current account's starred repos, filtered by a given search string:
 
-`gh starred {{python}}`
+`gh starred "{{python 3}}"`
 
 - View the recent activity feed of a given GitHub repository:
 
