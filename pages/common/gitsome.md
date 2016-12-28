@@ -1,7 +1,7 @@
 # gitsome
 
 > A terminal-based interface for GitHub, accessed via the `gh` command.
-> It also provides menu-style autocomplete suggestions for git commands.
+> It also provides menu-style autocomplete suggestions for `git` commands.
 
 - Enter the gitsome shell (optional), to enable autocompletion and interactive help for git (and gh) commands:
 
@@ -19,10 +19,10 @@
 
 `gh starred {{python}}`
 
-- View the activity feed of a given GitHub repository:
+- View the recent activity feed of a given GitHub repository:
 
-`gh feed tldr-pages/tldr -p`
+`gh feed {{tldr-pages/tldr}}`
 
-- View the activity feed for a given GitHub user:
+- View the recent activity feed for a given GitHub user, using the default pager (e.g. `less`):
 
-`gh feed torvalds -p`
+`gh feed {{torvalds}} -p`
