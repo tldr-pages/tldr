@@ -14,9 +14,9 @@
 
 `pacman -Rs {{package_name}}`
 
-- Search the package database for a keyword:
+- Search the package database for a regular expression or keyword:
 
-`pacman -Ss icon theme`
+`pacman -Ss {{regexp}}`
 
 - List installed packages and versions:
 
