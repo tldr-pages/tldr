@@ -16,7 +16,7 @@
 
 - Search the package database for a regular expression or keyword:
 
-`pacman -Ss {{regexp}}`
+`pacman -Ss "{{search_pattern}}"`
 
 - List installed packages and versions:
 
