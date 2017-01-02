@@ -1,4 +1,4 @@
-# Gradle
+# gradle
 
 > Gradle is the official build system for Android Studio.
 

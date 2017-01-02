@@ -6,13 +6,13 @@
 
 `ffmpeg -i {{video_filename}} -vn -ar 44100 -ac 2 -ab 192 -f mp3 {{sound.mp3}}`
 
-- Convert frames from a video into individual numbered images:
+- Convert frames from a video or GIF into individual numbered images:
 
-`ffmpeg -i {{video_filename}} {{image%d.png}}`
+`ffmpeg -i {{video_or_gif_filename}} {{image%d.png}}`
 
-- Combine numbered images (image1.jpg, image2.jpg, etc) into a video:
+- Combine numbered images (image1.jpg, image2.jpg, etc) into a video or GIF:
 
-`ffmpeg -f image2 -i {{image%d.jpg}} {{video.mpg}}`
+`ffmpeg -f image2 -i {{image%d.jpg}} {{video.mpg_or_video.gif}}`
 
 - Convert AVI video to MP4. AAC Audio @ 128kbit, Video @ 1250Kbit:
 

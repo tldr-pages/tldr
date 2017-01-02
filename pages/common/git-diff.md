@@ -2,22 +2,26 @@
 
 > Show changes to tracked files.
 
-- Show changes to tracked files:
+- Show unstaged, uncommitted changes:
 
-`git diff {{PATHSPEC}}`
+`git diff`
 
-- Show only names of changed files:
+- Show all uncommitted changes (including staged ones):
 
-`git diff --name-only {{PATHSPEC}}`
+`git diff HEAD`
 
-- Output a condensed summary of extended header information:
-
-`git diff --summary {{PATHSPEC}}`
-
-- Show staged (added, but not yet committed) changes only:
+- Show only staged (added, but not yet committed) changes:
 
 `git diff --staged`
 
+- Show only names of changed files since a given commit:
+
+`git diff --name-only {{commit}}`
+
+- Output a summary of file creations, renames and mode changes since a given commit:
+
+`git diff --summary {{commit}}`
+
 - Create a patch file:
 
-`git diff > {{target_file.patch}}`
+`git diff > {{target_file}}.patch`

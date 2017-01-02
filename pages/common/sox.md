@@ -1,8 +1,7 @@
 # sox
 
-> SoX - Sound eXchange.
-> Play, record and convert audio files.
-> Audioformats are identified by extension.
+> Sound eXchange: play, record and convert audio files.
+> Audio formats are identified by the extension.
 
 - Merge two audio files into one:
 

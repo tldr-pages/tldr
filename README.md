@@ -1,17 +1,27 @@
 # tldr
 
-[![Build Status][travis-image]][travis-url]
+[![Build status][travis-image]][travis-url]
 [![Gitter chat][gitter-image]][gitter-url]
-[![Issue Stats][issuestats-image]][issuestats-url]
+[![Merged PRs][prs-merged-image]][prs-merged-url]
+[![Issue stats][issuestats-image]][issuestats-url]
+[![GitHub contributors][contributors-image]][contributors-url]
+[![license][license-image]][license-url]
 
 [travis-url]: https://travis-ci.org/tldr-pages/tldr
 [travis-image]: https://travis-ci.org/tldr-pages/tldr.svg?branch=master
 [gitter-url]: https://gitter.im/tldr-pages/tldr
 [gitter-image]: https://badges.gitter.im/tldr-pages/tldr.svg
-[issuestats-url]: http://issuestats.com/github/tldr-pages/tldr
-[issuestats-image]: http://issuestats.com/github/tldr-pages/tldr/badge/pr?style=flat
+[prs-merged-url]: https://github.com/tldr-pages/tldr/pulls?q=is:pr+is:merged
+[prs-merged-image]: https://img.shields.io/github/issues-pr-closed-raw/tldr-pages/tldr.svg?label=merged+PRs
+[issuestats-url]: http://isitmaintained.com/project/tldr-pages/tldr
+[issuestats-image]: http://isitmaintained.com/badge/resolution/tldr-pages/tldr.svg
+[contributors-url]: https://github.com/tldr-pages/tldr/graphs/contributors
+[contributors-image]: https://img.shields.io/github/contributors/tldr-pages/tldr.svg
+[license-url]: https://github.com/tldr-pages/tldr/blob/master/LICENSE.md
+[license-image]: https://img.shields.io/github/license/tldr-pages/tldr.svg
 
 A collection of simplified and community-driven man pages.
+
 
 Install it with `npm install -g tldr`, `brew install tldr` (on OSX, using [Homebrew](http://brew.sh)), or [try the web client](http://tldr.ostera.io).
 
@@ -50,7 +60,7 @@ You can access these pages on your computer using one of the following clients:
 - [C++ client](https://github.com/tldr-pages/tldr-cpp-client): `brew install tldr`
 - [Crystal client](https://github.com/porras/tlcr): `brew install porras/tap/tlcr`
 - [Dart client](https://github.com/hterkelsen/tldr): `pub global activate tldr`
-- [Elixir client](https://github.com/tldr-pages/tldr_elixir_client) (binaries not yet available)
+- [Elixir client](https://github.com/edgurgel/tldr_elixir_client) (binaries not yet available)
 - [Emacs client](https://github.com/kuanyui/tldr.el), available on [MELPA](https://github.com/melpa/melpa)
 - [Go client](https://github.com/pranavraja/tldr): `go get github.com/pranavraja/tldr` (or [platform binaries](https://github.com/pranavraja/tldr/releases))
 - iOS clients:
