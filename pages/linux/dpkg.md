@@ -18,6 +18,6 @@
 
 `dpkg -L {{package_name}}`
 
-- Find out which package owns a file
+- Find out which package owns a file:
 
 `dpkg -S {{file_name}}`
