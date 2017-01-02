@@ -33,3 +33,7 @@
 - Find files matching more than one search criteria:
 
 `find {{root_path}} -name '{{*.py}}' -or -name '{{*.r}}'`
+
+- Find broken symbolic links:
+
+`find {{root_path}} -xtype l
