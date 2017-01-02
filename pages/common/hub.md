@@ -11,14 +11,14 @@
 
 `hub clone {{username}}/{{repo_name}}`
 
-- Create a fork of the current repository (cloned directly from another user) under your github profile:
+- Create a fork of the current repository (cloned from another user) under your github profile:
 
 `hub fork`
 
-- Create a pull request of the current branch in the upstream project (after sending the changes to your fork on github):
+- Create a PR of the current branch in the original repository (after pushing the branch to github):
 
 `hub pull-request`
 
-- Upload the current repository to your github account:
+- Upload the current (local-only) repository to your github account:
 
 `hub create`
