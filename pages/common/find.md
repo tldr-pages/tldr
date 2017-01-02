@@ -36,4 +36,4 @@
 
 - Find broken symbolic links:
 
-`find {{root_path}} -xtype l
+`find {{root_path}} -xtype l`
