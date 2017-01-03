@@ -25,4 +25,4 @@
 
 - List tags that contain a given commit:
 
-`git tag --contains `
+`git tag --contains {{commit}}`
