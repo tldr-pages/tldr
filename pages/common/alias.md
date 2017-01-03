@@ -1,6 +1,6 @@
 # alias
 
-> Registers words that are replaced by a command string (which can comprise multiple commands, shell functions, etc.)
+> Registers words that are replaced by a command string (which can comprise multiple commands, shell functions, etc).
 > Aliases expire with the current shell session, unless they're defined in the shell's configuration file, e.g. `~/.bashrc`.
 
 - Create a generic alias:
