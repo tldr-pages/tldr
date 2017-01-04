@@ -8,7 +8,7 @@
 
 - Create a new project from a given version of an existing package:
 
-`composer create-project {{project_name}} {{/path/to/my/project}} {{version}}`
+`composer create-project {{project_name}} {{path/to/my/project}} {{version}}`
 
 - Install the packages specified in composer.json file:
 
