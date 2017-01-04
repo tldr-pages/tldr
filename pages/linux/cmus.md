@@ -9,7 +9,7 @@
 
 - Add file/directory to library:
 
-`:add {{/path/to/file_or_directory}}`
+`:add {{path/to/file_or_directory}}`
 
 - Pause/unpause current song:
 
