@@ -18,4 +18,3 @@
 - Skip a commit during a bisect (e.g. one that causes a broken build due to another issue):
 
 `git bisect skip`
-
