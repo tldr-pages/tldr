@@ -11,18 +11,18 @@
 
 `gource -{{width}}x{{height}}`
 
-- Run gource with a custom time scale for the animation:
+- Set a custom time scale for the animation:
 
 `gource -c {{time_scale_multiplier}}`
 
-- Run gource specifying how long each day should be in the animation (this combines with -c, if provided):
+- Set how long each day should be in the animation (this combines with -c, if provided):
 
 `gource -s {{seconds}}`
 
-- Run gource in fullscreen mode and set the background color:
+- Set fullscreen mode and a custom background color:
 
 `gource -f -b {{hex_color_code}}`
 
-- Run gource providing a title for the animation:
+- Set a title for the animation:
 
 `gource --title {{title}}`
