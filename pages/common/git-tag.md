@@ -23,6 +23,6 @@
 
 `git fetch --tags`
 
-- List tags that contain a given commit:
+- List all tags whose ancestors include a given commit:
 
 `git tag --contains {{commit}}`
