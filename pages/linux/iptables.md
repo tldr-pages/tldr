@@ -25,3 +25,7 @@
 - Save iptables configuration:
 
 `sudo iptables-save > {{path/to/iptables_file}}`
+
+
+- 端口转发(将外网访问192.168.75.5的80端口转发到192.168.75.3:8000端口)
+`iptables -t nat -A PREROUTING -d 192.168.75.5 -p tcp --dport 80 -j DNAT --to-destination 192.168.75.3:8000`
