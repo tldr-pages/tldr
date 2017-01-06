@@ -11,7 +11,7 @@
 
 `/r/{{subreddit_name}}`
 
-- Expand/Collapse Comments:
+- Expand/collapse comments:
 
 `[space]`
 
