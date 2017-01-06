@@ -3,10 +3,13 @@
 > Reddit Terminal Viewer.
 > Use arrow keys to navigate. Right and Left to view and return from a submission, respectively.
 
-- Open a subreddit:
+- Open the front page:
 
 `/front`
-`/r/tldr`
+
+- Open a subreddit:
+
+`/r/{{subreddit_name}}`
 
 - Expand/Collapse Comments:
 
