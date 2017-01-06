@@ -15,6 +15,10 @@
 
 `[space]`
 
+- Open link:
+
+`o`
+
 - Login:
 
 `u`
