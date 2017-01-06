@@ -5,7 +5,7 @@
 
 - Start supervisord with specified configuration file:
 
-`supervisord -c {{filepath}}`
+`supervisord -c {{path/to/file}}`
 
 - Run supervisord in the foreground:
 
