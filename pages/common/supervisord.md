@@ -1,7 +1,7 @@
 # supervisord
 
-> Supervisor is a client/server system that allows its users to control a number of processes on UNIX-like operating systems.
-> Supervisord is the server piece of supervisor, Most of supervisord's config should be placed in configuration file, some basic usage will be listed here.
+> Supervisor is a client/server system for controlling some processes on UNIX-like operating systems.
+> Supervisord is the server part of supervisor; it is primarily managed via a configuration file.
 
 - Start supervisord with specified configuration file:
 
