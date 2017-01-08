@@ -6,10 +6,14 @@
 
 `git worktree add {{path/to/folder}} {{branch}}`
 
+- Create a new folder with a new branch checked out into it:
+
+`git worktree add {{path/to/folder}} -b {{new_branch}}`
+
 - List all the working directories attached to this repository:
 
 `git worktree list`
 
-- Create a new folder with a new branch checked out into it:
+- Remove a worktree (after deleting worktree folder): 
 
-`git worktree add -b {{new_branch}} {{path/to/folder}}`
+`git worktree prune`
