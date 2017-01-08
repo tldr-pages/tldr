@@ -18,6 +18,6 @@
 
 `git fetch --tags`
 
-- Delete local remote-tracking branches that have been deleted upstream:
+- Delete local references to remote branches that have been deleted upstream:
 
 `git fetch --prune`
