@@ -14,6 +14,6 @@
 
 `git worktree list`
 
-- Remove a worktree (after deleting worktree folder): 
+- Remove a worktree (after deleting worktree folder):
 
 `git worktree prune`
