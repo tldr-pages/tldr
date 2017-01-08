@@ -14,15 +14,15 @@
 
 `git push {{remote_name}} -u {{remote_branch}}`
 
-- Send changes on all local branches to their remote counterparts:
+- Send changes on all local branches to their counterparts in a given remote repository:
 
-`git push --all`
+`git push --all {{remote_name}}`
 
 - Delete a branch in a remote repository:
 
 `git push {{remote_name}} --delete {{remote_branch}}`
 
-- Remove local references to branches that have been deleted in a remote repository:
+- Remove remote branches that don't have a local counterpart:
 
 `git push --prune {{remote_name}}`
 
