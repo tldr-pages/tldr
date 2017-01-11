@@ -26,6 +26,6 @@
 
 `brew switch {{formula}} {{version}}`
 
-- Display information about formula, which contains formula version, installed path, dependencies, etc.
+- Display information about formula, which contains formula version, installed path, dependencies, etc.:
 
 `brew info {{formula}}`
