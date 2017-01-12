@@ -10,9 +10,9 @@
 
 `brew install {{formula}}`
 
-- List installed files for formulae or list all installed formulae if no formula specified, argument --verbose is to recursively list files of all subdirectories.:
+- List installed formulae, argument `formula` is optional:
 
-`brew list --verbose {{formula}}`
+`brew list {{formula}}`
 
 - Get latest version of installed formula (passing no formula updates all installed formulae):
 
