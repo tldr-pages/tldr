@@ -10,9 +10,9 @@
 
 `brew install {{formula}}`
 
-- List installed formulae, argument `formula` is optional:
+- List all installed formulae:
 
-`brew list {{formula}}`
+`brew list`
 
 - Get latest version of installed formula (passing no formula updates all installed formulae):
 
