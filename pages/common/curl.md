@@ -31,6 +31,6 @@
 
 `curl -v -key {{key.pem}} -cacert {{ca.pem}} -cert {{client.pem}} -k {{https://example.com}}`
 
-- Show headers info only
+- Show headers info only:
 
 `curl -I {{http://example.com/}}`
