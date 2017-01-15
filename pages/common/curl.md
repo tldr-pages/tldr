@@ -23,9 +23,9 @@
 
 `curl -d {{'{"name":"bob"}'}} -X {{PUT}} -H {{'Content-Type: application/json'}} {{http://example.com/users/1234}}`
 
-- Pass a user name and password for server authentication:
+- Pass a user name and password for server authentication and show headers info only:
 
-`curl -u myusername:mypassword {{http://example.com}}`
+`curl -u myusername:mypassword -I {{http://example.com}}`
 
 - Pass client certificate and key for a secure resource:
 
