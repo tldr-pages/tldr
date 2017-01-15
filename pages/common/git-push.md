@@ -1,6 +1,6 @@
 # git push
 
-> Push commits to a remote (upstream) repository.
+> Push commits to a remote repository.
 
 - Send local changes in the current branch to its remote counterpart:
 
@@ -10,7 +10,7 @@
 
 `git push {{remote_name}} {{local_branch}}`
 
-- Publish the current branch to a remote repository, setting the upstream branch name:
+- Publish the current branch to a remote repository, setting the remote branch name:
 
 `git push {{remote_name}} -u {{remote_branch}}`
 
