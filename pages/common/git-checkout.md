@@ -6,7 +6,7 @@
 
 `git checkout -b {{branch_name}}`
 
-- Switch to an existing branch:
+- Switch to an existing local or remote branch:
 
 `git checkout {{branch_name}}`
 
