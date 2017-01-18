@@ -4,8 +4,12 @@
 
 - Generate by directly inputting text:
 
-`figlet {{some_text_you_write}}`
+`figlet {{input_text}}`
 
 - Use a different font file:
 
-`figlet {{some_text_you_write}} -f {{font_file_name}}`
+`figlet {{input_text}} -f {{font_file_name}}`
+
+- Pipe command output through figlet:
+
+`{{command}} | figlet`
