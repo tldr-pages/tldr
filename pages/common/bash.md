@@ -1,5 +1,4 @@
-# bash
-
+# [bash](http://man7.org/linux/man-pages/man1/bash.1.html)
 > Bourne-Again SHell.
 > `sh`-compatible command line interpreter.
 

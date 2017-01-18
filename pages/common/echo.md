@@ -1,5 +1,4 @@
-# echo
-
+# [echo](http://man7.org/linux/man-pages/man1/echo.1.html)
 > Print given arguments.
 
 - Print a text message. Note: quotes are optional:

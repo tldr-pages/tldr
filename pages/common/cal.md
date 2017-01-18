@@ -1,5 +1,4 @@
-# cal
-
+# [cal](http://man7.org/linux/man-pages/man1/cal.1.html)
 > Prints calendar information.
 
 - Display a calendar for the current month:

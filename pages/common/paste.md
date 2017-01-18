@@ -1,5 +1,4 @@
-# paste
-
+# [paste](http://man7.org/linux/man-pages/man1/paste.1.html)
 > Merge lines of files.
 
 - Join all the lines into a single line, using TAB as delimiter:

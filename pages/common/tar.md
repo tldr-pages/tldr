@@ -1,5 +1,4 @@
-# tar
-
+# [tar](http://man7.org/linux/man-pages/man1/tar.1.html)
 > Archiving utility.
 > Often combined with a compression method, such as gzip or bzip.
 

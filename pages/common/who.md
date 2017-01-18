@@ -1,5 +1,4 @@
-# who
-
+# [who](http://man7.org/linux/man-pages/man1/who.1.html)
 > Display who is logged in and related data (processes, boot time).
 
 - Display the username, line, and time of all currently logged-in sessions:

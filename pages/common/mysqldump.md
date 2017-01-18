@@ -1,5 +1,4 @@
-# mysqldump
-
+# [mysqldump](http://man7.org/linux/man-pages/man1/mysqldump.1.html)
 > Backups mysql databases.
 
 - Create a backup, user will be prompted for a password:

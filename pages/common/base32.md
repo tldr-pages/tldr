@@ -1,5 +1,4 @@
-# base32
-
+# [base32](http://man7.org/linux/man-pages/man1/base32.1.html)
 > Encode or decode file or standard input, to standard output.
 
 - Encode a file:

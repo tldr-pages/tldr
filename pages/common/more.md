@@ -1,5 +1,4 @@
-# more
-
+# [more](http://man7.org/linux/man-pages/man1/more.1.html)
 > Open a file for interactive reading, allowing scrolling and search (in forward direction only).
 
 - Open a file:

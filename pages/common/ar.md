@@ -1,5 +1,4 @@
-# ar
-
+# [ar](http://man7.org/linux/man-pages/man1/ar.1.html)
 > Create, modify, and extract from archives (.a, .so, .o).
 
 - Extract all members from an archive:

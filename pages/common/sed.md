@@ -1,5 +1,4 @@
-# sed
-
+# [sed](http://man7.org/linux/man-pages/man1/sed.1.html)
 > Run replacements based on regular expressions.
 
 - Replace the first occurrence of a string in a file, and print the result:

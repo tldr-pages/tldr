@@ -1,5 +1,4 @@
-# xargs
-
+# [xargs](http://man7.org/linux/man-pages/man1/xargs.1.html)
 > Execute a command with piped arguments coming from another command, a file, etc.
 > The input is treated as a single block of text and split into separate arguments on spaces, tabs, newlines and end-of-file.
 

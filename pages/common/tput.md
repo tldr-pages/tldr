@@ -1,5 +1,4 @@
-# tput
-
+# [tput](http://man7.org/linux/man-pages/man1/tput.1.html)
 > View and modify terminal settings and capabilities.
 
 - Move the cursor to a screen location:

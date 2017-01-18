@@ -1,5 +1,4 @@
-# wget
-
+# [wget](http://man7.org/linux/man-pages/man1/wget.1.html)
 > Download files from the Web.
 > Supports HTTP, HTTPS, and FTP.
 

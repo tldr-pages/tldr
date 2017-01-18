@@ -1,5 +1,4 @@
-# kill
-
+# [kill](http://man7.org/linux/man-pages/man1/kill.1.html)
 > Sends a signal to a process, usually related to stopping the process.
 > All signals except for SIGKILL and SIGSTOP can be intercepted by the process to perform a clean exit.
 

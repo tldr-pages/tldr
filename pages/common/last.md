@@ -1,5 +1,4 @@
-# last
-
+# [last](http://man7.org/linux/man-pages/man1/last.1.html)
 > View the last logged in users.
 
 - View last logins, their duration  and other information as read from /var/log/wtmp:

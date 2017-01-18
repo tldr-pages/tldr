@@ -1,5 +1,4 @@
-# quota
-
+# [quota](http://man7.org/linux/man-pages/man1/quota.1.html)
 > Display users' disk space usage and allocated limits.
 
 - Show disk quotas for the current user:

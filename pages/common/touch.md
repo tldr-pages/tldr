@@ -1,5 +1,4 @@
-# touch
-
+# [touch](http://man7.org/linux/man-pages/man1/touch.1.html)
 > Change a file access and modification times (atime, mtime).
 
 - Create a new empty file(s) or change the times for existing file(s) to current time:

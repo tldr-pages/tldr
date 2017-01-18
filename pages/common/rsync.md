@@ -1,5 +1,4 @@
-# rsync
-
+# [rsync](http://man7.org/linux/man-pages/man1/rsync.1.html)
 > Transfer files either to or from a remote host (not between two remote hosts).
 > Can transfer single files, or multiple files matching a pattern.
 

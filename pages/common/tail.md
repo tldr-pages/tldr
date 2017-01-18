@@ -1,5 +1,4 @@
-# tail
-
+# [tail](http://man7.org/linux/man-pages/man1/tail.1.html)
 > Display the last part of a file.
 
 - Show last 'num' lines in file:

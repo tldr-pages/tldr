@@ -1,5 +1,4 @@
-# diff
-
+# [diff](http://man7.org/linux/man-pages/man1/diff.1.html)
 > Compare files and directories.
 
 - Compare files:

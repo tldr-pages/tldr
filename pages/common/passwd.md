@@ -1,5 +1,4 @@
-# passwd
-
+# [passwd](http://man7.org/linux/man-pages/man1/passwd.1.html)
 > Passwd is a tool used to change a user's password.
 
 - Change the password of the current user:

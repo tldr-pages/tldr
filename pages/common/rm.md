@@ -1,5 +1,4 @@
-# rm
-
+# [rm](http://man7.org/linux/man-pages/man1/rm.1.html)
 > Remove files or directories.
 
 - Remove files from arbitrary locations:

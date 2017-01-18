@@ -1,5 +1,4 @@
-# cp
-
+# [cp](http://man7.org/linux/man-pages/man1/cp.1.html)
 > Copy files.
 
 - Copy files in arbitrary locations:

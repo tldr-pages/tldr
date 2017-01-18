@@ -1,5 +1,4 @@
-# ls
-
+# [ls](http://man7.org/linux/man-pages/man1/ls.1.html)
 > List directory contents.
 
 - List files one per line:

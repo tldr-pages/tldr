@@ -1,5 +1,4 @@
-# sum
-
+# [sum](http://man7.org/linux/man-pages/man1/sum.1.html)
 > Compute checksums and the number of blocks for a file.
 > A predecessor to the more modern `cksum`.
 

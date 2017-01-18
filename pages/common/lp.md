@@ -1,5 +1,4 @@
-# lp
-
+# [lp](http://man7.org/linux/man-pages/man1/lp.1.html)
 > Print files.
 
 - Print the output of a command to the default printer (see `lpstat` command):

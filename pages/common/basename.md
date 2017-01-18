@@ -1,5 +1,4 @@
-# basename
-
+# [basename](http://man7.org/linux/man-pages/man1/basename.1.html)
 > Returns non-directory portion of a pathname.
 
 - Show only the file name from a path:

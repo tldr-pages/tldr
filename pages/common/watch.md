@@ -1,5 +1,4 @@
-# watch
-
+# [watch](http://man7.org/linux/man-pages/man1/watch.1.html)
 > Execute a program periodically, showing output fullscreen.
 
 - Repeatedly run a command and show the result:

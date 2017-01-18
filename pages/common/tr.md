@@ -1,5 +1,4 @@
-# tr
-
+# [tr](http://man7.org/linux/man-pages/man1/tr.1.html)
 > Translate characters - run replacements based on single characters and character sets.
 
 - Replace all occurrences of a character in a file, and print the result:

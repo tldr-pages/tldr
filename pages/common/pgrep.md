@@ -1,5 +1,4 @@
-# pgrep
-
+# [pgrep](http://man7.org/linux/man-pages/man1/pgrep.1.html)
 > Find or signal process by name.
 
 - Return PIDs of any running processes with a matching command string:

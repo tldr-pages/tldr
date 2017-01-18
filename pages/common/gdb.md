@@ -1,5 +1,4 @@
-# gdb
-
+# [gdb](http://man7.org/linux/man-pages/man1/gdb.1.html)
 > The GNU Debugger.
 
 - Debug an executable:

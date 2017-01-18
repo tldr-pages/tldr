@@ -1,5 +1,4 @@
-# man
-
+# [man](http://man7.org/linux/man-pages/man1/man.1.html)
 > Format and display manual pages.
 
 - Display man page for a command:
