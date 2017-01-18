@@ -13,3 +13,4 @@
 - Pipe command output through figlet:
 
 `{{command}} | figlet`
+
