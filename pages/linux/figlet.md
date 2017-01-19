@@ -6,7 +6,7 @@
 
 `figlet {{input_text}}`
 
-- Use a different font file:
+- Use a custom font file:
 
 `figlet {{input_text}} -f {{font_file_name}}`
 
