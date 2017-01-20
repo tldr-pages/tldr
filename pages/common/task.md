@@ -10,7 +10,7 @@
 
 `task list`
 
-- Complete task:
+- Mark task as completed:
 
 `task {{task_ID}} done`
 
