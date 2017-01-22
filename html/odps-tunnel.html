@@ -1,14 +1,14 @@
 <h2> odps tunnel</h2><br>
-<b>Description:</b> <b>Data tunnel in ODPS (Open Data Processing Service).</b><br><br>
+<b>Data tunnel in ODPS (Open Data Processing Service).</b><br><br>
 - Download table to local file:
 
-<blockquote>tunnel download {{table_name}} {{file}};</blockquote>
+<blockquote>tunnel download <i>table_name</i> <i>file</i>;</blockquote>
 - Upload local file to a table partition:
 
-<blockquote>tunnel upload {{file}} {{table_name}}/{{partition_spec}};</blockquote>
+<blockquote>tunnel upload <i>file</i> <i>table_name</i>/<i>partition_spec</i>;</blockquote>
 - Upload table specifying field and record delimiters:
 
-<blockquote>tunnel upload {{file}} {{table_name}} -fd {{field_delim}} -rd {{record_delim}};</blockquote>
+<blockquote>tunnel upload <i>file</i> <i>table_name</i> -fd <i>field_delim</i> -rd <i>record_delim</i>;</blockquote>
 - Upload table using multiple threads:
 
-<blockquote>tunnel upload {{file}} {{table_name}} -threads {{num}};</blockquote>
+<blockquote>tunnel upload <i>file</i> <i>table_name</i> -threads <i>num</i>;</blockquote>

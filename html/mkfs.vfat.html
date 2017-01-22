@@ -1,14 +1,14 @@
 <h2> mkfs.vfat</h2><br>
-<b>Description:</b> <b>Creates an MS-DOS filesystem inside a partition.</b><br><br>
+<b>Creates an MS-DOS filesystem inside a partition.</b><br><br>
 - Create a.vfat filesystem inside partition 1 on device b (`sdb1`):
 
-<blockquote>mkfs.vfat {{/dev/sdb1}}</blockquote>
+<blockquote>mkfs.vfat <i>/dev/sdb1</i></blockquote>
 - Create filesystem with a volume-name:
 
-<blockquote>mkfs.vfat -n {{volume_name}} {{/dev/sdb1}}</blockquote>
+<blockquote>mkfs.vfat -n <i>volume_name</i> <i>/dev/sdb1</i></blockquote>
 - Create filesystem with a volume-id:
 
-<blockquote>mkfs.vfat -i {{volume_id}} {{/dev/sdb1}}</blockquote>
+<blockquote>mkfs.vfat -i <i>volume_id</i> <i>/dev/sdb1</i></blockquote>
 - Use 5 instead of 2 file allocation tables:
 
-<blockquote>mkfs.vfat -f 5 {{/dev/sdb1}}</blockquote>
+<blockquote>mkfs.vfat -f 5 <i>/dev/sdb1</i></blockquote>

@@ -1,11 +1,11 @@
 <h2> mkfs.ntfs</h2><br>
-<b>Description:</b> <b>Creates a NTFS filesystem inside a partition.</b><br><br>
+<b>Creates a NTFS filesystem inside a partition.</b><br><br>
 - Create a NTFS filesystem inside partition 1 on device b (`sdb1`):
 
-<blockquote>mkfs.ntfs {{/dev/sdb1}}</blockquote>
+<blockquote>mkfs.ntfs <i>/dev/sdb1</i></blockquote>
 - Create filesystem with a volume-label:
 
-<blockquote>mkfs.ntfs -L {{volume_label}} {{/dev/sdb1}}</blockquote>
+<blockquote>mkfs.ntfs -L <i>volume_label</i> <i>/dev/sdb1</i></blockquote>
 - Create filesystem with specific UUID:
 
-<blockquote>mkfs.ntfs -U {{UUID}} {{/dev/sdb1}}</blockquote>
+<blockquote>mkfs.ntfs -U <i>UUID</i> <i>/dev/sdb1</i></blockquote>

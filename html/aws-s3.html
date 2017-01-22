@@ -1,20 +1,20 @@
 <h2> aws s3</h2><br>
-<b>Description:</b> <b>CLI for AWS S3 - provides storage through web services interfaces.</b><br><br>
+<b>CLI for AWS S3 - provides storage through web services interfaces.</b><br><br>
 - Show files in a bucket:
 
-<blockquote>aws s3 ls {{bucket_name}}</blockquote>
+<blockquote>aws s3 ls <i>bucket_name</i></blockquote>
 - Sync files and folders from local to bucket:
 
-<blockquote>aws s3 sync {{path/to/files}} s3://{{bucket_name}}</blockquote>
+<blockquote>aws s3 sync <i>path/to/files</i> s3://<i>bucket_name</i></blockquote>
 - Sync files and folders from bucket to local:
 
-<blockquote>aws s3 sync s3://{{bucket_name}} {{path/to/target}}</blockquote>
+<blockquote>aws s3 sync s3://<i>bucket_name</i> <i>path/to/target</i></blockquote>
 - Sync files and folders with exclusions:
 
-<blockquote>aws s3 sync {{path/to/files}} s3://{{bucket_name}} --exclude {{path/to/file}} --exclude {{path/to/folder}}/*</blockquote>
+<blockquote>aws s3 sync <i>path/to/files</i> s3://<i>bucket_name</i> --exclude <i>path/to/file</i> --exclude <i>path/to/folder</i>/*</blockquote>
 - Remove file from bucket:
 
-<blockquote>aws s3 rm s3://{{bucket}}/{{path/to/file}}</blockquote>
+<blockquote>aws s3 rm s3://<i>bucket</i>/<i>path/to/file</i></blockquote>
 - Preview changes only:
 
-<blockquote>aws s3 {{any_command}} --dryrun</blockquote>
+<blockquote>aws s3 <i>any_command</i> --dryrun</blockquote>

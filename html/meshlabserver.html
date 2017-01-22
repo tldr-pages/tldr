@@ -1,17 +1,17 @@
 <h2> meshlabserver</h2><br>
-<b>Description:</b> <b>Command line interface for the MeshLab 3D mesh processing software.</b><br><br>
+<b>Command line interface for the MeshLab 3D mesh processing software.</b><br><br>
 - Convert an STL file to an OBJ file:
 
-<blockquote>meshlabserver -i {{input.stl}} -o {{output.obj}}</blockquote>
+<blockquote>meshlabserver -i <i>input.stl</i> -o <i>output.obj</i></blockquote>
 - Convert a WRL file to a OFF file, including the vertex and face normals in the output mesh:
 
-<blockquote>meshlabserver -i {{input.wrl}} -o {{output.off}} -om vn fn</blockquote>
+<blockquote>meshlabserver -i <i>input.wrl</i> -o <i>output.off</i> -om vn fn</blockquote>
 - Dump a list of all the available processing filters into a file:
 
-<blockquote>meshlabserver -d {{filename}}</blockquote>
+<blockquote>meshlabserver -d <i>filename</i></blockquote>
 - Process a 3D file using a filter script created in the MeshLab GUI (Filters > Show current filter script > Save Script):
 
-<blockquote>meshlabserver -i {{input.ply}} -o {{output.ply}} -s {{filter_script.mlx}}</blockquote>
+<blockquote>meshlabserver -i <i>input.ply</i> -o <i>output.ply</i> -s <i>filter_script.mlx</i></blockquote>
 - Process a 3D file using a filter script, writing the output of the filters into a log file:
 
-<blockquote>meshlabserver -i {{input.x3d}} -o {{output.x3d}} -s {{filter_script.mlx}} -l {{logfile}}</blockquote>
+<blockquote>meshlabserver -i <i>input.x3d</i> -o <i>output.x3d</i> -s <i>filter_script.mlx</i> -l <i>logfile</i></blockquote>

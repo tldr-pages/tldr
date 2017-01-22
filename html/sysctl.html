@@ -1,11 +1,11 @@
 <h2> sysctl</h2><br>
-<b>Description:</b> <b>List and change kernel runtime variables.</b><br><br>
+<b>List and change kernel runtime variables.</b><br><br>
 - Show all available variables and their values:
 
 <blockquote>sysctl -a</blockquote>
 - Set a changeable kernel state variable:
 
-<blockquote>sysctl -w {{section.tunable}}={{value}}</blockquote>
+<blockquote>sysctl -w <i>section.tunable</i>=<i>value</i></blockquote>
 - Get currently open file handlers:
 
 <blockquote>sysctl fs.file-nr</blockquote>

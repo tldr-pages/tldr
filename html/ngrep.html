@@ -1,17 +1,17 @@
 <h2> ngrep</h2><br>
-<b>Description:</b> <b>Filter network traffic packets using regular expressions.</b><br><br>
+<b>Filter network traffic packets using regular expressions.</b><br><br>
 - Capture traffic of all interfaces:
 
 <blockquote>ngrep -d any</blockquote>
 - Capture traffic of a specific interface:
 
-<blockquote>ngrep -d {{eth0}}</blockquote>
+<blockquote>ngrep -d <i>eth0</i></blockquote>
 - Capture traffic crossing port 22 of interface eth0:
 
-<blockquote>ngrep -d {{eth0}} port {{22}}</blockquote>
+<blockquote>ngrep -d <i>eth0</i> port <i>22</i></blockquote>
 - Capture traffic from or to a host:
 
-<blockquote>ngrep host {{www.example.com}}</blockquote>
+<blockquote>ngrep host <i>www.example.com</i></blockquote>
 - Filter keyword 'User-Agent:' of interface eth0:
 
-<blockquote>ngrep -d {{eth0}} '{{User-Agent:}}'</blockquote>
+<blockquote>ngrep -d <i>eth0</i> '<i>User-Agent:</i>'</blockquote>

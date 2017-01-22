@@ -1,17 +1,17 @@
 <h2> mount</h2><br>
-<b>Description:</b> <b>Provides access to an entire filesystem in one directory.</b><br><br>
+<b>Provides access to an entire filesystem in one directory.</b><br><br>
 - Show all mounted filesystems:
 
 <blockquote>mount</blockquote>
 - Mount a device to a directory:
 
-<blockquote>mount -t {{filesystem_type}} {{path/to/device_file}} {{path/to/target_directory}}</blockquote>
+<blockquote>mount -t <i>filesystem_type</i> <i>path/to/device_file</i> <i>path/to/target_directory</i></blockquote>
 - Mount a CD-ROM device (with the filetype ISO9660) to /cdrom (readonly):
 
-<blockquote>mount -t {{iso9660}} -o ro {{/dev/cdrom}} {{/cdrom}}</blockquote>
+<blockquote>mount -t <i>iso9660</i> -o ro <i>/dev/cdrom</i> <i>/cdrom</i></blockquote>
 - Mount all the filesystem defined in /etc/fstab:
 
 <blockquote>mount -a</blockquote>
 - Mount a specific filesystem described in /etc/fstab (e.g. "/dev/sda1 /my_drive ext2 defaults 0 2"):
 
-<blockquote>mount {{/my_drive}}</blockquote>
+<blockquote>mount <i>/my_drive</i></blockquote>

@@ -1,5 +1,5 @@
 <h2> top</h2><br>
-<b>Description:</b> <b>Display dynamic real-time information about running processes.</b><br><br>
+<b>Display dynamic real-time information about running processes.</b><br><br>
 - Start top:
 
 <blockquote>top</blockquote>
@@ -8,10 +8,10 @@
 <blockquote>top -i</blockquote>
 - Show only processes owned by given user:
 
-<blockquote>top -u {{user_name}}</blockquote>
+<blockquote>top -u <i>user_name</i></blockquote>
 - Show only the processes with the given PID(s), passed as a comma-separated list. (Normally you wouldn't know PIDs off hand. This example picks the PIDs from the process name):
 
-<blockquote>top -p $(pgrep -d ',' {{process_name}})</blockquote>
+<blockquote>top -p $(pgrep -d ',' <i>process_name</i>)</blockquote>
 - Get help about interactive commands:
 
 <blockquote>?</blockquote>

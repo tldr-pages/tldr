@@ -1,17 +1,17 @@
 <h2> expr</h2><br>
-<b>Description:</b> <b>Evaluate expressions and manipulate strings.</b><br><br>
+<b>Evaluate expressions and manipulate strings.</b><br><br>
 - Get string length:
 
-<blockquote>expr length {{string}}</blockquote>
+<blockquote>expr length <i>string</i></blockquote>
 - Evaluate logical or math expression with an operator ('+', '-', '*', '&', '|', etc.). Special symbols should be escaped:
 
-<blockquote>expr {{first_argument}} {{operator}} {{second_argument}}</blockquote>
+<blockquote>expr <i>first_argument</i> <i>operator</i> <i>second_argument</i></blockquote>
 - Get position of the first character in 'string' that matches 'substring':
 
-<blockquote>echo $(expr index {{string}} {{substring}})</blockquote>
+<blockquote>echo $(expr index <i>string</i> <i>substring</i>)</blockquote>
 - Extract part of the string:
 
-<blockquote>echo $(expr substr {{string}} {{position_to_start}} {{number_of_characters}}</blockquote>
+<blockquote>echo $(expr substr <i>string</i> <i>position_to_start</i> <i>number_of_characters</i></blockquote>
 - Extract part of the string which matches a regular expression:
 
-<blockquote>echo $(expr {{string}} : '\({{regular_expression}}\)')</blockquote>
+<blockquote>echo $(expr <i>string</i> : '\(<i>regular_expression</i>\)')</blockquote>

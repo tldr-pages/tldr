@@ -1,26 +1,26 @@
 <h2> samtools</h2><br>
-<b>Description:</b> <b>Tools for handling high-throughput sequencing (genomics) data.</b><br><br><b>Description:</b> <b>Used for reading/writing/editing/indexing/viewing of data in SAM/BAM/CRAM format.</b><br><br>
+<b>Tools for handling high-throughput sequencing (genomics) data.</b><br><br><b>Used for reading/writing/editing/indexing/viewing of data in SAM/BAM/CRAM format.</b><br><br>
 - Convert a SAM input file to BAM stream and save to file:
 
-<blockquote>samtools view -S -b {{input.sam}} > {{output.bam}}</blockquote>
+<blockquote>samtools view -S -b <i>input.sam</i> > <i>output.bam</i></blockquote>
 - Take input from stdin (-) and print the SAM header and any reads overlapping a specific region to stdout:
 
-<blockquote>{{other_command}} | samtools view -h - chromosome:start-end</blockquote>
+<blockquote><i>other_command</i> | samtools view -h - chromosome:start-end</blockquote>
 - Sort file and save to BAM (the output format is automatically determined from the output file's extension):
 
-<blockquote>samtools sort {{input}} -o {{output.bam}}</blockquote>
-- Index a sorted BAM file (creates {{sorted_input.bam.bai}}):
+<blockquote>samtools sort <i>input</i> -o <i>output.bam</i></blockquote>
+- Index a sorted BAM file (creates <i>sorted_input.bam.bai</i>):
 
-<blockquote>samtools index {{sorted_input.bam}}</blockquote>
+<blockquote>samtools index <i>sorted_input.bam</i></blockquote>
 - Print alignment statistics about a file:
 
-<blockquote>samtools flagstat {{sorted_input}}</blockquote>
+<blockquote>samtools flagstat <i>sorted_input</i></blockquote>
 - Count alignments to each index (chromosome / contig):
 
-<blockquote>samtools idxstats {{sorted_indexed_input}}</blockquote>
+<blockquote>samtools idxstats <i>sorted_indexed_input</i></blockquote>
 - Merge multiple files:
 
-<blockquote>samtools merge {{output}} {{input_1}} [{{input_2}}...]</blockquote>
+<blockquote>samtools merge <i>output</i> <i>input_1</i> [<i>input_2</i>...]</blockquote>
 - Split input file according to read groups:
 
-<blockquote>samtools split {{merged_input}}</blockquote>
+<blockquote>samtools split <i>merged_input</i></blockquote>

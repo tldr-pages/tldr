@@ -1,5 +1,5 @@
 <h2> umask</h2><br>
-<b>Description:</b> <b>Manage the read/write/execute permissions that are masked out (i.e. restricted) for newly created files by the user.</b><br><br>
+<b>Manage the read/write/execute permissions that are masked out (i.e. restricted) for newly created files by the user.</b><br><br>
 - Display the current mask in octal notation:
 
 <blockquote>umask</blockquote>
@@ -8,7 +8,7 @@
 <blockquote>umask -S</blockquote>
 - Change the mask symbolically to allow read permission for all users (the rest of the mask bits are unchanged):
 
-<blockquote>umask {{a+r}}</blockquote>
+<blockquote>umask <i>a+r</i></blockquote>
 - Set the mask (using octal) to restrict no permissions for the file's owner, and restrict all permissions for everyone else:
 
-<blockquote>umask {{077}}</blockquote>
+<blockquote>umask <i>077</i></blockquote>

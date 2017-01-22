@@ -1,23 +1,23 @@
 <h2> odps auth</h2><br>
-<b>Description:</b> <b>User authorities in ODPS (Open Data Processing Service).</b><br><br>
+<b>User authorities in ODPS (Open Data Processing Service).</b><br><br>
 - Add a user to the current project:
 
-<blockquote>add user {{user_name}};</blockquote>
+<blockquote>add user <i>user_name</i>;</blockquote>
 - Grant a set of authorities to a user:
 
-<blockquote>grant {{action_list}} on {{object_type}} {{object_name}} to user {{user_name}};</blockquote>
+<blockquote>grant <i>action_list</i> on <i>object_type</i> <i>object_name</i> to user <i>user_name</i>;</blockquote>
 - Show authorities of a user:
 
-<blockquote>show grants for {{user_name}};</blockquote>
+<blockquote>show grants for <i>user_name</i>;</blockquote>
 - Create a user role:
 
-<blockquote>create role {{role_name}};</blockquote>
+<blockquote>create role <i>role_name</i>;</blockquote>
 - Grant a set of authorities to a role:
 
-<blockquote>grant {{action_list}} on {{object_type}} {{object_name}} to role {{role_name}};</blockquote>
+<blockquote>grant <i>action_list</i> on <i>object_type</i> <i>object_name</i> to role <i>role_name</i>;</blockquote>
 - Describe authorities of a role:
 
-<blockquote>desc role {{role_name}};</blockquote>
+<blockquote>desc role <i>role_name</i>;</blockquote>
 - Grant a role to a user:
 
-<blockquote>grant {{role_name}} to {{user_name}};</blockquote>
+<blockquote>grant <i>role_name</i> to <i>user_name</i>;</blockquote>

@@ -1,11 +1,11 @@
 <h2> csvgrep</h2><br>
-<b>Description:</b> <b>Filter CSV rows with string and pattern matching.</b><br><br><b>Description:</b> <b>Included in csvkit.</b><br><br>
+<b>Filter CSV rows with string and pattern matching.</b><br><br><b>Included in csvkit.</b><br><br>
 - Find rows that have a certain string in column 1:
 
-<blockquote>csvgrep -c {{1}} -m {{string_to_match}} {{data.csv}}</blockquote>
+<blockquote>csvgrep -c <i>1</i> -m <i>string_to_match</i> <i>data.csv</i></blockquote>
 - Find rows in which columns 3 or 4 match a certain regex pattern:
 
-<blockquote>csvgrep -c {{3,4}} -r {{regex_pattern}} {{data.csv}}</blockquote>
+<blockquote>csvgrep -c <i>3,4</i> -r <i>regex_pattern</i> <i>data.csv</i></blockquote>
 - Find rows in which the "name" column does NOT include the string "John Doe":
 
-<blockquote>csvgrep -i -c {{name}} -m {{"John Doe"}} {{data.csv}}</blockquote>
+<blockquote>csvgrep -i -c <i>name</i> -m <i>"John Doe"</i> <i>data.csv</i></blockquote>

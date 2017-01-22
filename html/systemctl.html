@@ -1,20 +1,20 @@
 <h2> systemctl</h2><br>
-<b>Description:</b> <b>Control the systemd system and service manager.</b><br><br>
+<b>Control the systemd system and service manager.</b><br><br>
 - List failed units:
 
 <blockquote>systemctl --failed</blockquote>
 - Start/Stop/Restart/Reload a service:
 
-<blockquote>systemctl start/stop/restart/reload {{unit}}</blockquote>
+<blockquote>systemctl start/stop/restart/reload <i>unit</i></blockquote>
 - Show the status of a unit:
 
-<blockquote>systemctl status {{unit}}</blockquote>
+<blockquote>systemctl status <i>unit</i></blockquote>
 - Enable/Disable a unit to be started on bootup:
 
-<blockquote>systemctl enable/disable {{unit}}</blockquote>
+<blockquote>systemctl enable/disable <i>unit</i></blockquote>
 - Mask/Unmask a unit, prevent it to be started on bootup:
 
-<blockquote>systemctl mask/unmask {{unit}}</blockquote>
+<blockquote>systemctl mask/unmask <i>unit</i></blockquote>
 - Reload systemd, scanning for new or changed units:
 
 <blockquote>systemctl daemon-reload</blockquote>

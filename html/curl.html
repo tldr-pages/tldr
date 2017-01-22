@@ -1,23 +1,23 @@
 <h2> curl</h2><br>
-<b>Description:</b> <b>Transfers data from or to a server.</b><br><br><b>Description:</b> <b>Supports most protocols including HTTP, FTP, POP3.</b><br><br>
+<b>Transfers data from or to a server.</b><br><br><b>Supports most protocols including HTTP, FTP, POP3.</b><br><br>
 - Download the contents of an URL to a file:
 
-<blockquote>curl {{http://example.com}} -o {{filename}}</blockquote>
+<blockquote>curl <i>http://example.com</i> -o <i>filename</i></blockquote>
 - Download a file saving the output under the filename indicated by the URL:
 
-<blockquote>curl -O {{http://example.com/filename}}</blockquote>
+<blockquote>curl -O <i>http://example.com/filename</i></blockquote>
 - Download a file, following [L]ocation redirects, and automatically [C]ontinuing/resuming a previous file transfer:
 
-<blockquote>curl -O -L -C - {{http://example.com/filename}}</blockquote>
+<blockquote>curl -O -L -C - <i>http://example.com/filename</i></blockquote>
 - Send form-encoded data (POST request of type application/x-www-form-urlencoded):
 
-<blockquote>curl -d {{'name=bob'}} {{http://example.com/form}}</blockquote>
+<blockquote>curl -d <i>'name=bob'</i> <i>http://example.com/form</i></blockquote>
 - Send data, specifying a custom HTTP method, and including an extra header:
 
-<blockquote>curl -d {{'{"name":"bob"}'}} -X {{PUT}} -H {{'Content-Type: application/json'}} {{http://example.com/users/1234}}</blockquote>
+<blockquote>curl -d <i>'{"name":"bob"}'</i> -X <i>PUT</i> -H <i>'Content-Type: application/json'</i> <i>http://example.com/users/1234</i></blockquote>
 - Pass a user name and password for server authentication and show headers info only:
 
-<blockquote>curl -u myusername:mypassword -I {{http://example.com}}</blockquote>
+<blockquote>curl -u myusername:mypassword -I <i>http://example.com</i></blockquote>
 - Pass client certificate and key for a secure resource:
 
-<blockquote>curl -v -key {{key.pem}} -cacert {{ca.pem}} -cert {{client.pem}} -k {{https://example.com}}</blockquote>
+<blockquote>curl -v -key <i>key.pem</i> -cacert <i>ca.pem</i> -cert <i>client.pem</i> -k <i>https://example.com</i></blockquote>

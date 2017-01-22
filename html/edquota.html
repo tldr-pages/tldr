@@ -1,20 +1,20 @@
 <h2> edquota</h2><br>
-<b>Description:</b> <b>Edit quotas for a user or group. By default it operates on all file systems with quotas.</b><br><br><b>Description:</b> <b>Quota information is stored permanently in the `quota.user` and `quota.group` files in the root of the filesystem.</b><br><br>
+<b>Edit quotas for a user or group. By default it operates on all file systems with quotas.</b><br><br><b>Quota information is stored permanently in the `quota.user` and `quota.group` files in the root of the filesystem.</b><br><br>
 - Edit quota of the current user:
 
 <blockquote>edquota --user $(whoami)</blockquote>
 - Edit quota of a specific user:
 
-<blockquote>sudo edquota --user {{username}}</blockquote>
+<blockquote>sudo edquota --user <i>username</i></blockquote>
 - Edit quota for a group:
 
-<blockquote>sudo edquota --group {{group}}</blockquote>
+<blockquote>sudo edquota --group <i>group</i></blockquote>
 - Restrict operations to a given filesystem (by default edquota operates on all filesystems with quotas):
 
-<blockquote>sudo edquota --file-system {{filesystem}}</blockquote>
+<blockquote>sudo edquota --file-system <i>filesystem</i></blockquote>
 - Edit the default grace period:
 
 <blockquote>sudo edquota -t</blockquote>
 - Duplicate a quota to other users:
 
-<blockquote>sudo edquota -p {{reference_user}} {{destination_user1}} {{destination_user2}}</blockquote>
+<blockquote>sudo edquota -p <i>reference_user</i> <i>destination_user1</i> <i>destination_user2</i></blockquote>

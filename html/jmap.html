@@ -1,14 +1,14 @@
 <h2> jmap</h2><br>
-<b>Description:</b> <b>Java Memory Map Tool.</b><br><br>
+<b>Java Memory Map Tool.</b><br><br>
 - Print shared object mappings for a java process (output like pmap):
 
-<blockquote>jmap {{java_pid}}</blockquote>
+<blockquote>jmap <i>java_pid</i></blockquote>
 - Print heap summary information:
 
-<blockquote>jmap -heap {{filename.jar}} {{java_pid}}</blockquote>
+<blockquote>jmap -heap <i>filename.jar</i> <i>java_pid</i></blockquote>
 - Print histogram of heap usage by type:
 
-<blockquote>jmap -histo {{java_pid}}</blockquote>
+<blockquote>jmap -histo <i>java_pid</i></blockquote>
 - Dump contents of the heap into a binary file for analysis with jhat:
 
-<blockquote>jmap -dump:format=b,file={{filename}} {{java_pid}}</blockquote>
+<blockquote>jmap -dump:format=b,file=<i>filename</i> <i>java_pid</i></blockquote>

@@ -1,20 +1,20 @@
 <h2> wget</h2><br>
-<b>Description:</b> <b>Download files from the Web.</b><br><br><b>Description:</b> <b>Supports HTTP, HTTPS, and FTP.</b><br><br>
+<b>Download files from the Web.</b><br><br><b>Supports HTTP, HTTPS, and FTP.</b><br><br>
 - Download the contents of an URL to a file:
 
-<blockquote>wget -O {{filename}} {{url}}</blockquote>
+<blockquote>wget -O <i>filename</i> <i>url</i></blockquote>
 - Limit download speed:
 
-<blockquote>wget --limit-rate={{200k}} {{url}}</blockquote>
+<blockquote>wget --limit-rate=<i>200k</i> <i>url</i></blockquote>
 - Continue an incomplete download:
 
-<blockquote>wget -c {{url}}</blockquote>
+<blockquote>wget -c <i>url</i></blockquote>
 - Download a full website:
 
-<blockquote>wget --mirror -p --convert-links -P {{target_folder}} {{url}}</blockquote>
+<blockquote>wget --mirror -p --convert-links -P <i>target_folder</i> <i>url</i></blockquote>
 - FTP download with username and password:
 
-<blockquote>wget --ftp-user={{username}} --ftp-password={{password}} {{url}}</blockquote>
+<blockquote>wget --ftp-user=<i>username</i> --ftp-password=<i>password</i> <i>url</i></blockquote>
 - Retry a given number of times if the download doesn't succeed at first:
 
-<blockquote>wget -t {{number_of_retries}} {{url}}</blockquote>
+<blockquote>wget -t <i>number_of_retries</i> <i>url</i></blockquote>

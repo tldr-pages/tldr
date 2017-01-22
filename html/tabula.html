@@ -1,20 +1,20 @@
 <h2> tabula</h2><br>
-<b>Description:</b> <b>Extract tables from PDF files.</b><br><br>
+<b>Extract tables from PDF files.</b><br><br>
 - Extract all tables from a PDF to a CSV file:
 
-<blockquote>tabula -o {{file.csv}} {{file.pdf}}</blockquote>
+<blockquote>tabula -o <i>file.csv</i> <i>file.pdf</i></blockquote>
 - Extract all tables from a PDF to a JSON file:
 
-<blockquote>tabula --format JSON -o {{file.json}} {{file.pdf}}</blockquote>
+<blockquote>tabula --format JSON -o <i>file.json</i> <i>file.pdf</i></blockquote>
 - Extract tables from pages 1, 2, 3, and 6 of a PDF:
 
-<blockquote>tabula --pages {{1-3,6}} {{file.pdf}}</blockquote>
+<blockquote>tabula --pages <i>1-3,6</i> <i>file.pdf</i></blockquote>
 - Extract tables from page 1 of a PDF, guessing which portion of the page to examine:
 
-<blockquote>tabula --guess --pages {{1}} {{file.pdf}}</blockquote>
+<blockquote>tabula --guess --pages <i>1</i> <i>file.pdf</i></blockquote>
 - Extract all tables from a PDF, using ruling lines to determine cell boundaries:
 
-<blockquote>tabula --spreadsheet {{file.pdf}}</blockquote>
+<blockquote>tabula --spreadsheet <i>file.pdf</i></blockquote>
 - Extract all tables from a PDF, using blank space to determine cell boundaries:
 
-<blockquote>tabula --no-spreadsheet {{file.pdf}}</blockquote>
+<blockquote>tabula --no-spreadsheet <i>file.pdf</i></blockquote>

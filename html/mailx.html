@@ -1,20 +1,20 @@
 <h2> mailx</h2><br>
-<b>Description:</b> <b>Send and receive mail.</b><br><br>
+<b>Send and receive mail.</b><br><br>
 - To send mail, the content is typed after the command and ended with Control-D:
 
-<blockquote>mailx -s "{{subject}}" {{to_addr}}</blockquote>
+<blockquote>mailx -s "<i>subject</i>" <i>to_addr</i></blockquote>
 - Send mail with short content:
 
-<blockquote>echo "{{content}}" | mailx -s "{{subject}}" {{to_addr}}</blockquote>
+<blockquote>echo "<i>content</i>" | mailx -s "<i>subject</i>" <i>to_addr</i></blockquote>
 - Send mail with content which written in a file:
 
-<blockquote>mailx -s "{{subject}}" {{to_addr}} < {{content.txt}}</blockquote>
+<blockquote>mailx -s "<i>subject</i>" <i>to_addr</i> < <i>content.txt</i></blockquote>
 - Send mail to a recipient and CC to another address:
 
-<blockquote>mailx -s "{{subject}}" -c {{cc_addr}} {{to_addr}}</blockquote>
+<blockquote>mailx -s "<i>subject</i>" -c <i>cc_addr</i> <i>to_addr</i></blockquote>
 - Send mail and set sender address:
 
-<blockquote>mailx -s "{{subject}}" -r {{from_addr}} {{to_addr}}</blockquote>
+<blockquote>mailx -s "<i>subject</i>" -r <i>from_addr</i> <i>to_addr</i></blockquote>
 - Send mail with an attachment:
 
-<blockquote>mailx -a {{file}} -s "{{subject}}" {{to_addr}}</blockquote>
+<blockquote>mailx -a <i>file</i> -s "<i>subject</i>" <i>to_addr</i></blockquote>

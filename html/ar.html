@@ -1,17 +1,17 @@
 <h2> ar</h2><br>
-<b>Description:</b> <b>Create, modify, and extract from archives (.a, .so, .o).</b><br><br>
+<b>Create, modify, and extract from archives (.a, .so, .o).</b><br><br>
 - Extract all members from an archive:
 
-<blockquote>ar -x {{libfoo.a}}</blockquote>
+<blockquote>ar -x <i>libfoo.a</i></blockquote>
 - List the members of an archive:
 
-<blockquote>ar -t {{libfoo.a}}</blockquote>
+<blockquote>ar -t <i>libfoo.a</i></blockquote>
 - Replace or add files to an archive:
 
-<blockquote>ar -r {{libfoo.a}} {{foo.o}} {{bar.o}} {{baz.o}}</blockquote>
+<blockquote>ar -r <i>libfoo.a</i> <i>foo.o</i> <i>bar.o</i> <i>baz.o</i></blockquote>
 - Insert an object file index (equivalent to using `ranlib`):
 
-<blockquote>ar -s {{libfoo.a}}</blockquote>
+<blockquote>ar -s <i>libfoo.a</i></blockquote>
 - Create an archive with files and an accompanying object file index:
 
-<blockquote>ar -rs {{libfoo.a}} {{foo.o}} {{bar.o}} {{baz.o}}</blockquote>
+<blockquote>ar -rs <i>libfoo.a</i> <i>foo.o</i> <i>bar.o</i> <i>baz.o</i></blockquote>

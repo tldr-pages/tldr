@@ -1,5 +1,5 @@
 <h2> crontab</h2><br>
-<b>Description:</b> <b>Schedule cron jobs to run on a time interval for the current user.</b><br><br><b>Description:</b> <b>Job definition format: "(min) (hour) (day_of_month) (month) (day_of_week) command_to_execute".</b><br><br>
+<b>Schedule cron jobs to run on a time interval for the current user.</b><br><br><b>Job definition format: "(min) (hour) (day_of_month) (month) (day_of_week) command_to_execute".</b><br><br>
 - Edit the crontab file for the current user:
 
 <blockquote>crontab -e</blockquote>
@@ -11,10 +11,10 @@
 <blockquote>crontab -r</blockquote>
 - Sample job which runs at 10:00 every day. * means any value:
 
-<blockquote>0 10 * * * {{path/to/script.sh}}</blockquote>
+<blockquote>0 10 * * * <i>path/to/script.sh</i></blockquote>
 - Sample job which runs every minute on the 3rd of April:
 
-<blockquote>* * 3 Apr * {{path/to/script.sh}}</blockquote>
+<blockquote>* * 3 Apr * <i>path/to/script.sh</i></blockquote>
 - Sample job which runs at 02:30 every Friday:
 
-<blockquote>30 2 * * Fri {{path/to/script.sh}}</blockquote>
+<blockquote>30 2 * * Fri <i>path/to/script.sh</i></blockquote>

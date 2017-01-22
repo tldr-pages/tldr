@@ -1,8 +1,8 @@
 <h2> git stash</h2><br>
-<b>Description:</b> <b>Stash local Git changes in a temporary area.</b><br><br>
+<b>Stash local Git changes in a temporary area.</b><br><br>
 - Stash current changes, except new (untracked) files:
 
-<blockquote>git stash [save {{optional_stash_message}}]</blockquote>
+<blockquote>git stash [save <i>optional_stash_message</i>]</blockquote>
 - Stash current changes, including new (untracked) files:
 
 <blockquote>git stash -u</blockquote>
@@ -14,13 +14,13 @@
 <blockquote>git stash list</blockquote>
 - Apply a stash (default is the latest, named stash@{0}):
 
-<blockquote>git stash apply {{optional_stash_name_or_commit}}</blockquote>
+<blockquote>git stash apply <i>optional_stash_name_or_commit</i></blockquote>
 - Apply a stash (default is stash@{0}), and remove it from the stash list if applying doesn't cause conflicts:
 
-<blockquote>git stash pop {{optional_stash_name}}</blockquote>
+<blockquote>git stash pop <i>optional_stash_name</i></blockquote>
 - Drop a stash (default is stash@{0}):
 
-<blockquote>git stash drop {{optional_stash_name}}</blockquote>
+<blockquote>git stash drop <i>optional_stash_name</i></blockquote>
 - Drop all stashes:
 
 <blockquote>git stash clear</blockquote>

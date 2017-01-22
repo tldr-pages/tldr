@@ -1,11 +1,11 @@
 <h2> ionice</h2><br>
-<b>Description:</b> <b>Get or set program I/O scheduling class and priority.</b><br><br><b>Description:</b> <b>Scheduling classes: 1 (realtime), 2 (best-effort), 3 (idle).</b><br><br><b>Description:</b> <b>Priority levels: 0 (the highest) - 7 (the lowest).</b><br><br>
+<b>Get or set program I/O scheduling class and priority.</b><br><br><b>Scheduling classes: 1 (realtime), 2 (best-effort), 3 (idle).</b><br><br><b>Priority levels: 0 (the highest) - 7 (the lowest).</b><br><br>
 - Set I/O scheduling class of a running process:
 
-<blockquote>ionice -c {{scheduling_class}} -p {{pid}}</blockquote>
+<blockquote>ionice -c <i>scheduling_class</i> -p <i>pid</i></blockquote>
 - Run a command with custom I/O scheduling class and priority:
 
-<blockquote>ionice -c {{scheduling_class}} -n {{priority}} {{command}}</blockquote>
+<blockquote>ionice -c <i>scheduling_class</i> -n <i>priority</i> <i>command</i></blockquote>
 - Print the I/O scheduling class and priority of a running process:
 
-<blockquote>ionice -p {{pid}}</blockquote>
+<blockquote>ionice -p <i>pid</i></blockquote>

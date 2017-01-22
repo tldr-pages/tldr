@@ -1,14 +1,14 @@
 <h2> mmv</h2><br>
-<b>Description:</b> <b>Move and rename files in bulk.</b><br><br>
+<b>Move and rename files in bulk.</b><br><br>
 - Rename all files with a certain extension to a different extension:
 
-<blockquote>mmv "*{{.old_extension}}" "#1{{.new_extension}}"</blockquote>
+<blockquote>mmv "*<i>.old_extension</i>" "#1<i>.new_extension</i>"</blockquote>
 - Copy report6part4.txt to ./french/rapport6partie4.txt along with all similarly named files:
 
-<blockquote>mmv -c {{"report*part*.txt"}} {{"./french/rapport#1partie#2.txt"}}</blockquote>
+<blockquote>mmv -c <i>"report*part*.txt"</i> <i>"./french/rapport#1partie#2.txt"</i></blockquote>
 - Append all .txt files into one file:
 
-<blockquote>mmv -a {{"*.txt"}} {{"all.txt"}}</blockquote>
+<blockquote>mmv -a <i>"*.txt"</i> <i>"all.txt"</i></blockquote>
 - Convert dates in filenames from "M-D-Y" format to "D-M-Y" format:
 
-<blockquote>mmv {{"[0-1][0-9]-[0-3][0-9]-[0-9][0-9][0-9][0-9].txt"}} {{"#3#4-#1#2-#5#6#7#8.txt"}}</blockquote>
+<blockquote>mmv <i>"[0-1][0-9]-[0-3][0-9]-[0-9][0-9][0-9][0-9].txt"</i> <i>"#3#4-#1#2-#5#6#7#8.txt"</i></blockquote>

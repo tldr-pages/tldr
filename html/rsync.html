@@ -1,20 +1,20 @@
 <h2> rsync</h2><br>
-<b>Description:</b> <b>Transfer files either to or from a remote host (not between two remote hosts).</b><br><br><b>Description:</b> <b>Can transfer single files, or multiple files matching a pattern.</b><br><br>
+<b>Transfer files either to or from a remote host (not between two remote hosts).</b><br><br><b>Can transfer single files, or multiple files matching a pattern.</b><br><br>
 - Transfer file from local to remote host:
 
-<blockquote>rsync {{path/to/file}} {{remote_host_name}}:{{remote_host_location}}</blockquote>
+<blockquote>rsync <i>path/to/file</i> <i>remote_host_name</i>:<i>remote_host_location</i></blockquote>
 - Transfer file from remote host to local:
 
-<blockquote>rsync {{remote_host_name}}:{{remote_file_location}} {{local_file_location}}</blockquote>
+<blockquote>rsync <i>remote_host_name</i>:<i>remote_file_location</i> <i>local_file_location</i></blockquote>
 - Transfer file in archive (to preserve attributes) and compressed (zipped) mode:
 
-<blockquote>rsync -az {{path/to/file}} {{remote_host_name}}:{{remote_host_location}}</blockquote>
+<blockquote>rsync -az <i>path/to/file</i> <i>remote_host_name</i>:<i>remote_host_location</i></blockquote>
 - Transfer a directory and all its children from a remote to local:
 
-<blockquote>rsync -r {{remote_host_name}}:{{remote_folder_location}} {{local_folder_location}}</blockquote>
+<blockquote>rsync -r <i>remote_host_name</i>:<i>remote_folder_location</i> <i>local_folder_location</i></blockquote>
 - Transfer only updated files from remote host:
 
-<blockquote>rsync -ru {{remote_host_name}}:{{remote_folder_location}} {{local_folder_location}}</blockquote>
+<blockquote>rsync -ru <i>remote_host_name</i>:<i>remote_folder_location</i> <i>local_folder_location</i></blockquote>
 - Transfer file over SSH and show progress:
 
-<blockquote>rsync -e ssh --progress {{remote_host_name}}:{{remote_file}} {{local_file}}</blockquote>
+<blockquote>rsync -e ssh --progress <i>remote_host_name</i>:<i>remote_file</i> <i>local_file</i></blockquote>

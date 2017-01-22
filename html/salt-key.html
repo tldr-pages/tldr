@@ -1,14 +1,14 @@
 <h2> salt-key</h2><br>
-<b>Description:</b> <b>Manages salt minion keys on the salt master.</b><br><br><b>Description:</b> <b>Needs to be run on the salt master, likely as root or with sudo.</b><br><br>
+<b>Manages salt minion keys on the salt master.</b><br><br><b>Needs to be run on the salt master, likely as root or with sudo.</b><br><br>
 - List all accepted, unaccepted and rejected minion keys:
 
 <blockquote>salt-key -L</blockquote>
 - Accept a minion key by name:
 
-<blockquote>salt-key -a {{MINION_ID}}</blockquote>
+<blockquote>salt-key -a <i>MINION_ID</i></blockquote>
 - Reject a minion key by name:
 
-<blockquote>salt-key -r {{MINION_ID}}</blockquote>
+<blockquote>salt-key -r <i>MINION_ID</i></blockquote>
 - Print fingerprints of all public keys:
 
 <blockquote>salt-key -F</blockquote>

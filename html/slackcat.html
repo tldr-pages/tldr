@@ -1,14 +1,14 @@
 <h2> slackcat</h2><br>
-<b>Description:</b> <b>Utility for passing files and command output to Slack.</b><br><br>
+<b>Utility for passing files and command output to Slack.</b><br><br>
 - Post a file to Slack:
 
-<blockquote>slackcat --channel {{channel_name}} {{path/to/file}}</blockquote>
+<blockquote>slackcat --channel <i>channel_name</i> <i>path/to/file</i></blockquote>
 - Post a file to Slack with a custom filename:
 
-<blockquote>slackcat --channel {{channel_name}} --filename={{filename}} {{path/to/file}}</blockquote>
+<blockquote>slackcat --channel <i>channel_name</i> --filename=<i>filename</i> <i>path/to/file</i></blockquote>
 - Pipe command output to Slack as a text snippet:
 
-<blockquote>{{command}} | slackcat --channel {{channel_name}} --filename={{snippet_name}}</blockquote>
+<blockquote><i>command</i> | slackcat --channel <i>channel_name</i> --filename=<i>snippet_name</i></blockquote>
 - Stream command output to Slack continuously:
 
-<blockquote>{{command}} | slackcat --channel {{channel_name}} --stream</blockquote>
+<blockquote><i>command</i> | slackcat --channel <i>channel_name</i> --stream</blockquote>

@@ -1,20 +1,20 @@
 <h2> bedtools</h2><br>
-<b>Description:</b> <b>A swiss-army knife of tools for genomic-analysis tasks.</b><br><br><b>Description:</b> <b>Used to intersect, group, convert and count data in  BAM, BED, GFF/GTF, VCF format.</b><br><br>
-- Intersect two files with respect to the sequences' strand and save the result to {{path/to/output_file}}:
+<b>A swiss-army knife of tools for genomic-analysis tasks.</b><br><br><b>Used to intersect, group, convert and count data in  BAM, BED, GFF/GTF, VCF format.</b><br><br>
+- Intersect two files with respect to the sequences' strand and save the result to <i>path/to/output_file</i>:
 
-<blockquote>bedtools intersect -a {{path/to/file_1}} -b {{path/to/file_2}} -s > {{path/to/output_file}}</blockquote>
-- Intersect two files with a left outer join, i.e. report each feature from {{file_1}} and NULL if no overlap with {{file_2}}:
+<blockquote>bedtools intersect -a <i>path/to/file_1</i> -b <i>path/to/file_2</i> -s > <i>path/to/output_file</i></blockquote>
+- Intersect two files with a left outer join, i.e. report each feature from <i>file_1</i> and NULL if no overlap with <i>file_2</i>:
 
-<blockquote>bedtools intersect -a {{path/to/file_1}} -b {{path/to/file_2}} -lof > {{path/to/output_file}}</blockquote>
+<blockquote>bedtools intersect -a <i>path/to/file_1</i> -b <i>path/to/file_2</i> -lof > <i>path/to/output_file</i></blockquote>
 - Using more efficient algorithm to intersect two pre-sorted files:
 
-<blockquote>bedtools intersect -a {{path/to/file_1}} -b {{path/to/file_2}} -sorted > {{path/to/output_file}}</blockquote>
-- Group file {{path/to/file}} based on the first three and the fifth column and summarize the sixth column by summing it up:
+<blockquote>bedtools intersect -a <i>path/to/file_1</i> -b <i>path/to/file_2</i> -sorted > <i>path/to/output_file</i></blockquote>
+- Group file <i>path/to/file</i> based on the first three and the fifth column and summarize the sixth column by summing it up:
 
-<blockquote>bedtools groupby -i {{path/to/file}} -c 1-3,5 -g 6 -o sum</blockquote>
+<blockquote>bedtools groupby -i <i>path/to/file</i> -c 1-3,5 -g 6 -o sum</blockquote>
 - Convert bam-formated file to a bed-formated one:
 
-<blockquote>bedtools bamtobed -i {{path/to/file}}.bam > {{path/to/file}}.bed</blockquote>
-- Find for all features in {{file_1}}.bed the closest one in {{file_2}}.bed and write their distance in an extra column (input files must be sorted):
+<blockquote>bedtools bamtobed -i <i>path/to/file</i>.bam > <i>path/to/file</i>.bed</blockquote>
+- Find for all features in <i>file_1</i>.bed the closest one in <i>file_2</i>.bed and write their distance in an extra column (input files must be sorted):
 
-<blockquote>bedtools closest -a {{path/to/file_1}}.bed -b {{path/to/file_2}}.bed -d</blockquote>
+<blockquote>bedtools closest -a <i>path/to/file_1</i>.bed -b <i>path/to/file_2</i>.bed -d</blockquote>

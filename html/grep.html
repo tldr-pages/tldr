@@ -1,32 +1,32 @@
 <h2> grep</h2><br>
-<b>Description:</b> <b>Matches patterns in input text.</b><br><br><b>Description:</b> <b>Supports simple patterns and regular expressions.</b><br><br>
+<b>Matches patterns in input text.</b><br><br><b>Supports simple patterns and regular expressions.</b><br><br>
 - Search for an exact string:
 
-<blockquote>grep {{search_string}} {{path/to/file}}</blockquote>
+<blockquote>grep <i>search_string</i> <i>path/to/file</i></blockquote>
 - Search in case-insensitive mode:
 
-<blockquote>grep -i {{search_string}} {{path/to/file}}</blockquote>
+<blockquote>grep -i <i>search_string</i> <i>path/to/file</i></blockquote>
 - Search recursively (ignoring non-text files) in current directory for an exact string:
 
-<blockquote>grep -rI {{search_string}} .</blockquote>
+<blockquote>grep -rI <i>search_string</i> .</blockquote>
 - Use extended regular expressions (supporting `?`, `+`, `{}`, `()` and `|`):
 
-<blockquote>grep -E {{^regex$}} {{path/to/file}}</blockquote>
+<blockquote>grep -E <i>^regex$</i> <i>path/to/file</i></blockquote>
 - Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match:
 
-<blockquote>grep -{{C|B|A}} 3 {{search_string}} {{path/to/file}}</blockquote>
+<blockquote>grep -<i>C|B|A</i> 3 <i>search_string</i> <i>path/to/file</i></blockquote>
 - Print the count of matches instead of the matching text:
 
-<blockquote>grep -c {{search_string}} {{path/to/file}}</blockquote>
+<blockquote>grep -c <i>search_string</i> <i>path/to/file</i></blockquote>
 - Print line number for each match:
 
-<blockquote>grep -n {{search_string}} {{path/to/file}}</blockquote>
+<blockquote>grep -n <i>search_string</i> <i>path/to/file</i></blockquote>
 - Print file names with matches:
 
-<blockquote>grep -l {{search_string}} {{path/to/file}}</blockquote>
+<blockquote>grep -l <i>search_string</i> <i>path/to/file</i></blockquote>
 - Use the standard input instead of a file:
 
-<blockquote>cat {{path/to/file}} | grep {{search_string}}</blockquote>
+<blockquote>cat <i>path/to/file</i> | grep <i>search_string</i></blockquote>
 - Invert match for excluding specific strings:
 
-<blockquote>grep -v {{search_string}}</blockquote>
+<blockquote>grep -v <i>search_string</i></blockquote>

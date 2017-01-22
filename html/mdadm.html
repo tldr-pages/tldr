@@ -1,20 +1,20 @@
 <h2> mdadm</h2><br>
-<b>Description:</b> <b>RAID management utility.</b><br><br>
+<b>RAID management utility.</b><br><br>
 - Create array:
 
-<blockquote>mdadm --create {{/path/to/raid_device_file}} --level {{raid_level}} --raid-devices {{number_of_disks}} {{/path/to/disk_device_file}}</blockquote>
+<blockquote>mdadm --create <i>/path/to/raid_device_file</i> --level <i>raid_level</i> --raid-devices <i>number_of_disks</i> <i>/path/to/disk_device_file</i></blockquote>
 - Stop array:
 
-<blockquote>mdadm -S {{/path/to/raid_device_file}}</blockquote>
+<blockquote>mdadm -S <i>/path/to/raid_device_file</i></blockquote>
 - Mark disk as failed:
 
-<blockquote>mdadm {{/path/to/raid_device_file}} -f {{/path/to/disk_device_file}}</blockquote>
+<blockquote>mdadm <i>/path/to/raid_device_file</i> -f <i>/path/to/disk_device_file</i></blockquote>
 - Remove disk:
 
-<blockquote>mdadm {{/path/to/raid_device_file}} -r {{/path/to/disk_device_file}}</blockquote>
+<blockquote>mdadm <i>/path/to/raid_device_file</i> -r <i>/path/to/disk_device_file</i></blockquote>
 - Add disk to array:
 
-<blockquote>mdadm {{/path/to/raid_device_file}} -a {{/path/to/disk_device_file}}</blockquote>
+<blockquote>mdadm <i>/path/to/raid_device_file</i> -a <i>/path/to/disk_device_file</i></blockquote>
 - Show RAID info:
 
-<blockquote>mdadm -D {{/path/to/raid_device_file}}</blockquote>
+<blockquote>mdadm -D <i>/path/to/raid_device_file</i></blockquote>

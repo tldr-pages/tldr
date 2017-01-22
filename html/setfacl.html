@@ -1,14 +1,14 @@
 <h2> setfacl</h2><br>
-<b>Description:</b> <b>Set file access control lists (ACL).</b><br><br>
+<b>Set file access control lists (ACL).</b><br><br>
 - Modify ACL of a file for user with read and write access:
 
-<blockquote>setfacl -m u:{{username}}:rw {{file}}</blockquote>
+<blockquote>setfacl -m u:<i>username</i>:rw <i>file</i></blockquote>
 - Modify default ACL of a file for all users:
 
-<blockquote>setfacl -d -m u::rw {{file}}</blockquote>
+<blockquote>setfacl -d -m u::rw <i>file</i></blockquote>
 - Remove ACL of a file for an user:
 
-<blockquote>setfacl -x u:{{username}} {{file}}</blockquote>
+<blockquote>setfacl -x u:<i>username</i> <i>file</i></blockquote>
 - Remove all ACL entries of a file:
 
-<blockquote>setfacl -b {{file}}</blockquote>
+<blockquote>setfacl -b <i>file</i></blockquote>

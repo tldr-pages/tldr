@@ -1,14 +1,14 @@
 <h2> pg_dump</h2><br>
-<b>Description:</b> <b>Extract a PostgreSQL database into a script file or other archive file.</b><br><br>
+<b>Extract a PostgreSQL database into a script file or other archive file.</b><br><br>
 - Dump database into a SQL-script file:
 
-<blockquote>pg_dump {{db_name}} > {{output_file.sql}}</blockquote>
+<blockquote>pg_dump <i>db_name</i> > <i>output_file.sql</i></blockquote>
 - Same as above, customize username:
 
-<blockquote>pg_dump -U {{username}} {{db_name}} > {{output_file.sql}}</blockquote>
+<blockquote>pg_dump -U <i>username</i> <i>db_name</i> > <i>output_file.sql</i></blockquote>
 - Same as above, customize host and port:
 
-<blockquote>pg_dump -h {{host}} -p {{port}} {{db_name}} > {{output_file.sql}}</blockquote>
+<blockquote>pg_dump -h <i>host</i> -p <i>port</i> <i>db_name</i> > <i>output_file.sql</i></blockquote>
 - Dump a database into a custom-format archive file:
 
-<blockquote>pg_dump -Fc {{db_name}} > {{output_file.dump}}</blockquote>
+<blockquote>pg_dump -Fc <i>db_name</i> > <i>output_file.dump</i></blockquote>

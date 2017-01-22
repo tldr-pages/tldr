@@ -1,5 +1,5 @@
 <h2> journalctl</h2><br>
-<b>Description:</b> <b>Query the systemd journal.</b><br><br>
+<b>Query the systemd journal.</b><br><br>
 - Show all messages from this boot:
 
 <blockquote>journalctl -b</blockquote>
@@ -11,10 +11,10 @@
 <blockquote>journalctl -f</blockquote>
 - Show all messages by a specific unit:
 
-<blockquote>journalctl -u {{unit}}</blockquote>
+<blockquote>journalctl -u <i>unit</i></blockquote>
 - Show all messages by a specific process:
 
-<blockquote>journalctl _PID={{pid}}</blockquote>
+<blockquote>journalctl _PID=<i>pid</i></blockquote>
 - Show all messages by a specific executable:
 
-<blockquote>journalctl {{/path/to/executable}}</blockquote>
+<blockquote>journalctl <i>/path/to/executable</i></blockquote>

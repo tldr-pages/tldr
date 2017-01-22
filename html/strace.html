@@ -1,17 +1,17 @@
 <h2> strace</h2><br>
-<b>Description:</b> <b>Troubleshooting tool for tracing system calls.</b><br><br>
+<b>Troubleshooting tool for tracing system calls.</b><br><br>
 - Start tracing a specific process by its PID:
 
-<blockquote>strace -p {{pid}}</blockquote>
+<blockquote>strace -p <i>pid</i></blockquote>
 - Trace a process and filter output by system call:
 
-<blockquote>strace -p {{pid}} -e {{system call name}}</blockquote>
+<blockquote>strace -p <i>pid</i> -e <i>system call name</i></blockquote>
 - Count time, calls, and errors for each system call and report a summary on program exit:
 
-<blockquote>strace -p {{pid}} -c</blockquote>
+<blockquote>strace -p <i>pid</i> -c</blockquote>
 - Show the time spent in every system call:
 
-<blockquote>strace -p {{pid}} -T</blockquote>
+<blockquote>strace -p <i>pid</i> -T</blockquote>
 - Start tracing a program by executing it:
 
-<blockquote>strace {{program}}</blockquote>
+<blockquote>strace <i>program</i></blockquote>

@@ -1,17 +1,17 @@
 <h2> useradd</h2><br>
-<b>Description:</b> <b>Create a new user.</b><br><br>
+<b>Create a new user.</b><br><br>
 - Create new user:
 
-<blockquote>useradd {{name}}</blockquote>
+<blockquote>useradd <i>name</i></blockquote>
 - Create new user with a default home directory:
 
-<blockquote>useradd --create-home {{name}}</blockquote>
+<blockquote>useradd --create-home <i>name</i></blockquote>
 - Create new user with specified shell:
 
-<blockquote>useradd --shell {{/path/to/shell}} {{name}}</blockquote>
+<blockquote>useradd --shell <i>/path/to/shell</i> <i>name</i></blockquote>
 - Create new user belonging to additional groups (mind the lack of whitespace):
 
-<blockquote>useradd --groups {{group1,group2}} {{name}}</blockquote>
+<blockquote>useradd --groups <i>group1,group2</i> <i>name</i></blockquote>
 - Create new system user without a home directory:
 
-<blockquote>useradd --no-create-home --system {{name}}</blockquote>
+<blockquote>useradd --no-create-home --system <i>name</i></blockquote>

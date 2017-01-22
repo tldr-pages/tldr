@@ -1,20 +1,20 @@
 <h2> tcpdump</h2><br>
-<b>Description:</b> <b>Dump traffic on a network.</b><br><br>
+<b>Dump traffic on a network.</b><br><br>
 - Capture the traffic of a specific interface:
 
-<blockquote>tcpdump -i {{eth0}}</blockquote>
+<blockquote>tcpdump -i <i>eth0</i></blockquote>
 - Capture all TCP traffic showing contents (ASCII) in console:
 
 <blockquote>tcpdump -A tcp</blockquote>
 - Capture the traffic from or to a host:
 
-<blockquote>tcpdump host {{www.example.com}}</blockquote>
+<blockquote>tcpdump host <i>www.example.com</i></blockquote>
 - Capture the traffic from a specific interface, source, destination and destination port:
 
-<blockquote>tcpdump -i {{eth0}} src {{192.168.1.1}} and dst {{192.168.1.2}} and dst port 80</blockquote>
+<blockquote>tcpdump -i <i>eth0</i> src <i>192.168.1.1</i> and dst <i>192.168.1.2</i> and dst port 80</blockquote>
 - Capture the traffic of a network:
 
-<blockquote>tcpdump net {{192.168.1.0/24}}</blockquote>
+<blockquote>tcpdump net <i>192.168.1.0/24</i></blockquote>
 - Capture all traffic except traffic over port 22 and save to a dump file:
 
 <blockquote>tcpdump -w dumpfile.pcap not port 22</blockquote>

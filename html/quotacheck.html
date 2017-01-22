@@ -1,20 +1,20 @@
 <h2> quotacheck</h2><br>
-<b>Description:</b> <b>Scan a filesystem for disk usage; create, check and repair quota files.</b><br><br><b>Description:</b> <b>It is best to run quota check with quotas turned off to prevent damage or loss to quota files.</b><br><br>
+<b>Scan a filesystem for disk usage; create, check and repair quota files.</b><br><br><b>It is best to run quota check with quotas turned off to prevent damage or loss to quota files.</b><br><br>
 - Check quotas on all mounted non-NFS filesystems:
 
 <blockquote>sudo quotacheck --all</blockquote>
 - Force check even if quotas are enabled (this can cause damage or loss to quota files):
 
-<blockquote>sudo quotacheck --force {{mountpoint}}</blockquote>
+<blockquote>sudo quotacheck --force <i>mountpoint</i></blockquote>
 - Check quotas on a given filesystem in debug mode:
 
-<blockquote>sudo quotacheck --debug {{mountpoint}}</blockquote>
+<blockquote>sudo quotacheck --debug <i>mountpoint</i></blockquote>
 - Check quotas on a given filesystem, displaying the progress:
 
-<blockquote>sudo quotacheck --verbose {{mountpoint}}</blockquote>
+<blockquote>sudo quotacheck --verbose <i>mountpoint</i></blockquote>
 - Check user quotas:
 
-<blockquote>sudo quotacheck --user {{user}} {{mountpoint}}</blockquote>
+<blockquote>sudo quotacheck --user <i>user</i> <i>mountpoint</i></blockquote>
 - Check group quotas:
 
-<blockquote>sudo quotacheck --group {{group}} {{mountpoint}}</blockquote>
+<blockquote>sudo quotacheck --group <i>group</i> <i>mountpoint</i></blockquote>

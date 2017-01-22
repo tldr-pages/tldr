@@ -1,20 +1,20 @@
 <h2> rpm</h2><br>
-<b>Description:</b> <b>RPM Package Manager.</b><br><br>
+<b>RPM Package Manager.</b><br><br>
 - Show version of httpd package:
 
-<blockquote>rpm -q {{httpd}}</blockquote>
+<blockquote>rpm -q <i>httpd</i></blockquote>
 - List versions of all matching packages:
 
-<blockquote>rpm -qa '{{mariadb*}}'</blockquote>
+<blockquote>rpm -qa '<i>mariadb*</i>'</blockquote>
 - Identify owner of a file and show version of the package:
 
-<blockquote>rpm -qf {{/etc/postfix/main.cf}}</blockquote>
+<blockquote>rpm -qf <i>/etc/postfix/main.cf</i></blockquote>
 - List package-owned files:
 
-<blockquote>rpm -ql {{kernel}}</blockquote>
+<blockquote>rpm -ql <i>kernel</i></blockquote>
 - Show scriptlets from an RPM file:
 
-<blockquote>rpm -qp --scripts {{some.rpm}}</blockquote>
+<blockquote>rpm -qp --scripts <i>some.rpm</i></blockquote>
 - Show changed, missing and/or incorrectly installed files of matching packages:
 
-<blockquote>rpm -Va '{{php-*}}'</blockquote>
+<blockquote>rpm -Va '<i>php-*</i>'</blockquote>

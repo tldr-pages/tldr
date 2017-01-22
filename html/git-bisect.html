@@ -1,11 +1,11 @@
 <h2> git bisect</h2><br>
-<b>Description:</b> <b>Use binary search to find the commit that introduced a bug.</b><br><br><b>Description:</b> <b>Git automatically jumps back and forth in the commit graph to progressively narrow down the faulty commit.</b><br><br>
+<b>Use binary search to find the commit that introduced a bug.</b><br><br><b>Git automatically jumps back and forth in the commit graph to progressively narrow down the faulty commit.</b><br><br>
 - Start a bisect session on a commit range bounded by a known buggy commit, and a known clean (typically older) one:
 
-<blockquote>git bisect start {{bad_commit}} {{good_commit}}</blockquote>
+<blockquote>git bisect start <i>bad_commit</i> <i>good_commit</i></blockquote>
 - For each commit that `git bisect` selects, mark it as "bad" or "good" after testing it for the issue:
 
-<blockquote>git bisect {{good|bad}}</blockquote>
+<blockquote>git bisect <i>good|bad</i></blockquote>
 - After `git bisect` pinpoints the faulty commit, end the bisect session and return to the previous branch:
 
 <blockquote>git bisect reset</blockquote>

@@ -1,20 +1,20 @@
 <h2> alias</h2><br>
-<b>Description:</b> <b>Creates aliases -- words that are replaced by a command string.</b><br><br><b>Description:</b> <b>Aliases expire with the current shell session, unless they're defined in the shell's configuration file, e.g. `~/.bashrc`.</b><br><br>
+<b>Creates aliases -- words that are replaced by a command string.</b><br><br><b>Aliases expire with the current shell session, unless they're defined in the shell's configuration file, e.g. `~/.bashrc`.</b><br><br>
 - Create a generic alias:
 
-<blockquote>alias {{word}}="{{command}}"</blockquote>
+<blockquote>alias <i>word</i>="<i>command</i>"</blockquote>
 - View the command associated to a given alias:
 
-<blockquote>alias {{word}}</blockquote>
+<blockquote>alias <i>word</i></blockquote>
 - Remove an aliased command:
 
-<blockquote>unalias {{word}}</blockquote>
+<blockquote>unalias <i>word</i></blockquote>
 - List all aliased words:
 
 <blockquote>alias -p</blockquote>
 - Turn rm into an interactive command:
 
-<blockquote>alias {{rm}}="{{rm -i}}"</blockquote>
+<blockquote>alias <i>rm</i>="<i>rm -i</i>"</blockquote>
 - Create `la` as a shortcut for `ls -a`:
 
-<blockquote>alias {{la}}="{{ls -a}}"</blockquote>
+<blockquote>alias <i>la</i>="<i>ls -a</i>"</blockquote>

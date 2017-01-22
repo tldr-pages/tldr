@@ -1,17 +1,17 @@
 <h2> fzf</h2><br>
-<b>Description:</b> <b>Command line fuzzy finder.</b><br><br>
+<b>Command line fuzzy finder.</b><br><br>
 - Start finder on all files from arbitrary locations:
 
-<blockquote>find {{path/to/search}} -type f | fzf</blockquote>
+<blockquote>find <i>path/to/search</i> -type f | fzf</blockquote>
 - Start finder on running processes:
 
 <blockquote>ps axu | fzf</blockquote>
 - Select mutliple files with `Shift-TAB` and write to a file:
 
-<blockquote>find {{path/to/search_files}} -type f | fzf -m > {{filename}}</blockquote>
+<blockquote>find <i>path/to/search_files</i> -type f | fzf -m > <i>filename</i></blockquote>
 - Start finder with a given query:
 
-<blockquote>fzf -q "{{query}}"</blockquote>
+<blockquote>fzf -q "<i>query</i>"</blockquote>
 - Start finder on entries that start with core and end with either go, rb, or py:
 
 <blockquote>fzf -q "^core go$ | rb$ | py$"</blockquote>

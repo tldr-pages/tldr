@@ -1,5 +1,5 @@
 <h2> ed</h2><br>
-<b>Description:</b> <b>The original Unix text editor.</b><br><br>
+<b>The original Unix text editor.</b><br><br>
 - Start ed, editing an empty document (which can be saved as a new file in the current directory):
 
 <blockquote>ed</blockquote>
@@ -8,19 +8,19 @@
 <blockquote>ed -p :</blockquote>
 - Start ed editing an existing file (this shows the byte count of the loaded file):
 
-<blockquote>ed -p : {{path/to/file}}</blockquote>
+<blockquote>ed -p : <i>path/to/file</i></blockquote>
 - Toggle the printing of error explanations. (By default, explanations are not printed and only a `?` appears):
 
 <blockquote>H</blockquote>
 - Add text to the current document. Mark completion by entering a period by itself in a new line:
 
-<blockquote>a<Enter>{{text_to_insert}}<Enter>.</blockquote>
+<blockquote>a<Enter><i>text_to_insert</i><Enter>.</blockquote>
 - Print the entire document (`,` is a shortcut to the range `1,$` which covers the start to the end of the document):
 
 <blockquote>,p</blockquote>
 - Write the current document to a new file (the filename can be omitted if `ed` was called with an existing file):
 
-<blockquote>w {{filename}}</blockquote>
+<blockquote>w <i>filename</i></blockquote>
 - Quit ed:
 
 <blockquote>q</blockquote>

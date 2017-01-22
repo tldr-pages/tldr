@@ -1,11 +1,11 @@
 <h2> jhat</h2><br>
-<b>Description:</b> <b>Java Heap Analysis Tool.</b><br><br>
+<b>Java Heap Analysis Tool.</b><br><br>
 - Analyze a heap dump (from jmap), view via http on port 7000:
 
-<blockquote>jhat {{dump_file.bin}}</blockquote>
+<blockquote>jhat <i>dump_file.bin</i></blockquote>
 - Analyze a heap dump, specifying an alternate port for the http server:
 
-<blockquote>jhat -p {{port}} {{dump_file.bin}}</blockquote>
+<blockquote>jhat -p <i>port</i> <i>dump_file.bin</i></blockquote>
 - Analyze a dump letting jhat use up to 8GB RAM (2-4x dump size recommended):
 
-<blockquote>jhat -J-mx8G {{dump_file.bin}}</blockquote>
+<blockquote>jhat -J-mx8G <i>dump_file.bin</i></blockquote>

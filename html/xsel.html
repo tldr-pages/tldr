@@ -1,17 +1,17 @@
 <h2> xsel</h2><br>
-<b>Description:</b> <b>X11 selection and clipboard manipulation tool.</b><br><br>
+<b>X11 selection and clipboard manipulation tool.</b><br><br>
 - Use a command's output as input of the clip[b]oard (equivalent to Ctrl+C):
 
 <blockquote>echo 123 | xsel -ib</blockquote>
 - Use the contents of a file as input of the clipboard:
 
-<blockquote>cat {{file}} | xsel -ib</blockquote>
+<blockquote>cat <i>file</i> | xsel -ib</blockquote>
 - Output the clipboard's contents into the terminal (equivalent to Ctrl+V):
 
 <blockquote>xsel -ob</blockquote>
 - Output the clipboard's contents into a file:
 
-<blockquote>xsel -ob > {{file}}</blockquote>
+<blockquote>xsel -ob > <i>file</i></blockquote>
 - Clear the clipboard:
 
 <blockquote>xsel -cb</blockquote>

@@ -1,23 +1,23 @@
 <h2> gpg</h2><br>
-<b>Description:</b> <b>Gnu Privacy Guard.</b><br><br>
+<b>Gnu Privacy Guard.</b><br><br>
 - Sign doc.txt without encryption (writes output to doc.txt.asc):
 
-<blockquote>gpg --clearsign {{doc.txt}}</blockquote>
+<blockquote>gpg --clearsign <i>doc.txt</i></blockquote>
 - Encrypt doc.txt for alice@example.com (output to doc.txt.gpg):
 
-<blockquote>gpg --encrypt --recipient {{alice@example.com}} {{doc.txt}}</blockquote>
+<blockquote>gpg --encrypt --recipient <i>alice@example.com</i> <i>doc.txt</i></blockquote>
 - Encrypt doc.txt with only a passphrase (output to doc.txt.gpg):
 
-<blockquote>gpg --symmetric {{doc.txt}}</blockquote>
+<blockquote>gpg --symmetric <i>doc.txt</i></blockquote>
 - Decrypt doc.txt.gpg (output to STDOUT):
 
-<blockquote>gpg --decrypt {{doc.txt.gpg}}</blockquote>
+<blockquote>gpg --decrypt <i>doc.txt.gpg</i></blockquote>
 - Import a public key:
 
-<blockquote>gpg --import {{public.gpg}}</blockquote>
+<blockquote>gpg --import <i>public.gpg</i></blockquote>
 - Export public key for alice@example.com (output to STDOUT):
 
-<blockquote>gpg --export --armor {{alice@example.com}}</blockquote>
+<blockquote>gpg --export --armor <i>alice@example.com</i></blockquote>
 - Export private key for alice@example.com (output to STDOUT):
 
-<blockquote>gpg --export-secret-keys --armor {{alice@example.com}}</blockquote>
+<blockquote>gpg --export-secret-keys --armor <i>alice@example.com</i></blockquote>

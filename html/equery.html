@@ -1,17 +1,17 @@
 <h2> equery</h2><br>
-<b>Description:</b> <b>View information about Portage packages.</b><br><br>
+<b>View information about Portage packages.</b><br><br>
 - List all installed packages:
 
 <blockquote>equery list '*'</blockquote>
 - Search for installed packages in the Portage tree and in overlays:
 
-<blockquote>equery list -po {{package_name}}</blockquote>
+<blockquote>equery list -po <i>package_name</i></blockquote>
 - List all packages that depend on a given package:
 
-<blockquote>equery depends {{package_name}}</blockquote>
+<blockquote>equery depends <i>package_name</i></blockquote>
 - List all packages that a given package depends on:
 
-<blockquote>equery depgraph {{package_name}}</blockquote>
+<blockquote>equery depgraph <i>package_name</i></blockquote>
 - List all files installed by a package:
 
-<blockquote>equery files --tree {{package_name}}</blockquote>
+<blockquote>equery files --tree <i>package_name</i></blockquote>

@@ -1,5 +1,5 @@
 <h2> assimp</h2><br>
-<b>Description:</b> <b>Command-line client for the Open Asset Import Library.</b><br><br><b>Description:</b> <b>Supports loading of 40+ 3D file formats, and exporting to several popular 3D formats.</b><br><br>
+<b>Command-line client for the Open Asset Import Library.</b><br><br><b>Supports loading of 40+ 3D file formats, and exporting to several popular 3D formats.</b><br><br>
 - List all supported import formats:
 
 <blockquote>assimp listext</blockquote>
@@ -8,16 +8,16 @@
 <blockquote>assimp listexport</blockquote>
 - Convert a file to one of the supported output formats, using the default parameters:
 
-<blockquote>assimp export {{input_file.stl}} {{output_file.obj}}</blockquote>
+<blockquote>assimp export <i>input_file.stl</i> <i>output_file.obj</i></blockquote>
 - Convert a file using custom parameters (the dox_cmd.h file in assimp's source code lists available parameters):
 
-<blockquote>assimp export {{input_file.stl}} {{output_file.obj}} {{parameters}}</blockquote>
+<blockquote>assimp export <i>input_file.stl</i> <i>output_file.obj</i> <i>parameters</i></blockquote>
 - Display a summary of a 3D file's contents:
 
-<blockquote>assimp info {{path/to/file}}</blockquote>
+<blockquote>assimp info <i>path/to/file</i></blockquote>
 - List all supported subcommands ("verbs"):
 
 <blockquote>assimp help</blockquote>
 - Get help on a specific subcommand (e.g. the parameters specific to it):
 
-<blockquote>assimp {{subcommand}} --help</blockquote>
+<blockquote>assimp <i>subcommand</i> --help</blockquote>

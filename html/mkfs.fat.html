@@ -1,14 +1,14 @@
 <h2> mkfs.fat</h2><br>
-<b>Description:</b> <b>Creates an MS-DOS filesystem inside a partition.</b><br><br>
+<b>Creates an MS-DOS filesystem inside a partition.</b><br><br>
 - Create a fat filesystem inside partition 1 on device b (`sdb1`):
 
-<blockquote>mkfs.fat {{/dev/sdb1}}</blockquote>
+<blockquote>mkfs.fat <i>/dev/sdb1</i></blockquote>
 - Create filesystem with a volume-name:
 
-<blockquote>mkfs.fat -n {{volume_name}} {{/dev/sdb1}}</blockquote>
+<blockquote>mkfs.fat -n <i>volume_name</i> <i>/dev/sdb1</i></blockquote>
 - Create filesystem with a volume-id:
 
-<blockquote>mkfs.fat -i {{volume_id}} {{/dev/sdb1}}</blockquote>
+<blockquote>mkfs.fat -i <i>volume_id</i> <i>/dev/sdb1</i></blockquote>
 - Use 5 instead of 2 file allocation tables:
 
-<blockquote>mkfs.fat -f 5 {{/dev/sdb1}}</blockquote>
+<blockquote>mkfs.fat -f 5 <i>/dev/sdb1</i></blockquote>

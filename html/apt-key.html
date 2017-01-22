@@ -1,17 +1,17 @@
 <h2> apt-key</h2><br>
-<b>Description:</b> <b>Key management utility for the APT Package Manager on Debian and Ubuntu.</b><br><br>
+<b>Key management utility for the APT Package Manager on Debian and Ubuntu.</b><br><br>
 - List trusted keys:
 
 <blockquote>apt-key list</blockquote>
 - Add a key to the trusted keystore:
 
-<blockquote>apt-key add {{public_key_file.asc}}</blockquote>
+<blockquote>apt-key add <i>public_key_file.asc</i></blockquote>
 - Delete a key from the trusted keystore:
 
-<blockquote>apt-key del {{key_id}}</blockquote>
+<blockquote>apt-key del <i>key_id</i></blockquote>
 - Add a remote key to the trusted keystore:
 
-<blockquote>wget -qO - {{https://host.tld/filename.key}} | apt-key add -</blockquote>
+<blockquote>wget -qO - <i>https://host.tld/filename.key</i> | apt-key add -</blockquote>
 - Add a key from keyserver with only key id:
 
-<blockquote>apt-key adv --keyserver {{pgp.mit.edu}} --recv {{KEYID}}</blockquote>
+<blockquote>apt-key adv --keyserver <i>pgp.mit.edu</i> --recv <i>KEYID</i></blockquote>

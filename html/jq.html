@@ -1,20 +1,20 @@
 <h2> jq</h2><br>
-<b>Description:</b> <b>A lightweight and flexible command-line JSON processor.</b><br><br>
+<b>A lightweight and flexible command-line JSON processor.</b><br><br>
 - Output JSON file:
 
-<blockquote>cat {{file}} | jq</blockquote>
+<blockquote>cat <i>file</i> | jq</blockquote>
 - Output all elements from JSON array in file, or all key-value pairs from JSON objects in file:
 
-<blockquote>cat {{file}} | jq .[]</blockquote>
+<blockquote>cat <i>file</i> | jq .[]</blockquote>
 - Read JSON objects from file, into array, and output (inverse of `jq .[]`):
 
-<blockquote>cat {{file}} | jq --slurp</blockquote>
+<blockquote>cat <i>file</i> | jq --slurp</blockquote>
 - Output first element in JSON file:
 
-<blockquote>cat {{file}} | jq .[0]</blockquote>
+<blockquote>cat <i>file</i> | jq .[0]</blockquote>
 - Output "key" of first element in JSON file:
 
-<blockquote>cat {{file}} | jq .[0].{{key}}</blockquote>
+<blockquote>cat <i>file</i> | jq .[0].<i>key</i></blockquote>
 - Output "key" of each element in JSON file:
 
-<blockquote>cat {{file}} | jq 'map(.{{key}})'</blockquote>
+<blockquote>cat <i>file</i> | jq 'map(.<i>key</i>)'</blockquote>

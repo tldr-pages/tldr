@@ -1,17 +1,17 @@
 <h2> openssl</h2><br>
-<b>Description:</b> <b>OpenSSL cryptographic toolkit.</b><br><br>
+<b>OpenSSL cryptographic toolkit.</b><br><br>
 - Generate a 2048bit RSA private key and save it to a file:
 
-<blockquote>openssl genrsa -out {{filename.key}} 2048</blockquote>
+<blockquote>openssl genrsa -out <i>filename.key</i> 2048</blockquote>
 - Generate a certificate signing request to be sent to a certificate authority:
 
-<blockquote>openssl req -new -sha256 -key {{filename.key}} -out {{filename.csr}}</blockquote>
+<blockquote>openssl req -new -sha256 -key <i>filename.key</i> -out <i>filename.csr</i></blockquote>
 - Generate a self-signed certificate from a certificate signing request valid for some number of days:
 
-<blockquote>openssl x509 -req -days {{days}} -in {{filename.csr}} -signkey {{filename.key}} -out {{filename.crt}}</blockquote>
+<blockquote>openssl x509 -req -days <i>days</i> -in <i>filename.csr</i> -signkey <i>filename.key</i> -out <i>filename.crt</i></blockquote>
 - Display the certificate presented by an SSL/TLS server:
 
-<blockquote>openssl s_client -connect {{host}}:{{port}} </dev/null</blockquote>
+<blockquote>openssl s_client -connect <i>host</i>:<i>port</i> </dev/null</blockquote>
 - Display the complete certificate chain of an HTTPS server:
 
-<blockquote>openssl s_client -connect {{host}}:443 -showcerts </dev/null</blockquote>
+<blockquote>openssl s_client -connect <i>host</i>:443 -showcerts </dev/null</blockquote>

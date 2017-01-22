@@ -1,14 +1,14 @@
 <h2> ffmpeg</h2><br>
-<b>Description:</b> <b>Video conversion tool.</b><br><br>
+<b>Video conversion tool.</b><br><br>
 - Extract the sound from a video and save it as MP3:
 
-<blockquote>ffmpeg -i {{video_filename}} -vn -ar 44100 -ac 2 -ab 192 -f mp3 {{sound.mp3}}</blockquote>
+<blockquote>ffmpeg -i <i>video_filename</i> -vn -ar 44100 -ac 2 -ab 192 -f mp3 <i>sound.mp3</i></blockquote>
 - Convert frames from a video or GIF into individual numbered images:
 
-<blockquote>ffmpeg -i {{video_or_gif_filename}} {{image%d.png}}</blockquote>
+<blockquote>ffmpeg -i <i>video_or_gif_filename</i> <i>image%d.png</i></blockquote>
 - Combine numbered images (image1.jpg, image2.jpg, etc) into a video or GIF:
 
-<blockquote>ffmpeg -f image2 -i {{image%d.jpg}} {{video.mpg_or_video.gif}}</blockquote>
+<blockquote>ffmpeg -f image2 -i <i>image%d.jpg</i> <i>video.mpg_or_video.gif</i></blockquote>
 - Convert AVI video to MP4. AAC Audio @ 128kbit, Video @ 1250Kbit:
 
-<blockquote>ffmpeg -i {{in.avi}} -acodec libfaac -ab 128k -vcodec mpeg4 -b 1250K {{out.mp4}}</blockquote>
+<blockquote>ffmpeg -i <i>in.avi</i> -acodec libfaac -ab 128k -vcodec mpeg4 -b 1250K <i>out.mp4</i></blockquote>

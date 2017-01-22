@@ -39,7 +39,7 @@ while ($input)
    {
       $input = trim($input);
       $output = str_replace('> ', '<b>', $input);
-      $output = '<b>Description:</b> ' . $output . '</b><br><br>';
+      $output = $output . '</b><br><br>';
    }
    else if ($input[0] == '`')
    {
@@ -50,11 +50,14 @@ while ($input)
    else
      $output = $input;
 
+   $output = str_replace('{{', '<i>', $output);
+   $output = str_replace('}}', '</i>', $output);
    fputs($html, $output);
 
    $input = fgets($md);
 }   // end of reading from md file
 
+fputs($html, "\n");
 fclose($md);
 fclose($html);
 

@@ -1,17 +1,17 @@
 <h2> dig</h2><br>
-<b>Description:</b> <b>DNS Lookup utility.</b><br><br>
+<b>DNS Lookup utility.</b><br><br>
 - Lookup the IP(s) associated with a hostname (A records):
 
-<blockquote>dig +short {{hostname.com}}</blockquote>
+<blockquote>dig +short <i>hostname.com</i></blockquote>
 - Lookup the mail server associated with a given domain name (MX record):
 
-<blockquote>dig +short {{hostname.com}} MX</blockquote>
+<blockquote>dig +short <i>hostname.com</i> MX</blockquote>
 - Specify an alternate DNS server to query (8.8.8.8 is google's public DNS):
 
-<blockquote>dig @8.8.8.8 {{hostname.com}}</blockquote>
+<blockquote>dig @8.8.8.8 <i>hostname.com</i></blockquote>
 - Perform a reverse DNS lookup on an IP address (PTR record):
 
 <blockquote>dig -x 8.8.8.8</blockquote>
 - Find authoritative name servers for the zone and display SOA records:
 
-<blockquote>dig +nssearch {{hostname.com}}</blockquote>
+<blockquote>dig +nssearch <i>hostname.com</i></blockquote>

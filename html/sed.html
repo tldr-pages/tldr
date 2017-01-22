@@ -1,20 +1,20 @@
 <h2> sed</h2><br>
-<b>Description:</b> <b>Run replacements based on regular expressions.</b><br><br>
+<b>Run replacements based on regular expressions.</b><br><br>
 - Replace the first occurrence of a string in a file, and print the result:
 
-<blockquote>sed 's/{{find}}/{{replace}}/' {{filename}}</blockquote>
+<blockquote>sed 's/<i>find</i>/<i>replace</i>/' <i>filename</i></blockquote>
 - Replace all occurrences of an extended regular expression in a file:
 
-<blockquote>sed -r 's/{{regex}}/{{replace}}/g' {{filename}}</blockquote>
+<blockquote>sed -r 's/<i>regex</i>/<i>replace</i>/g' <i>filename</i></blockquote>
 - Replace all occurrences of a string in a file, overwriting the file (i.e. in-place):
 
-<blockquote>sed -i 's/{{find}}/{{replace}}/g' {{filename}}</blockquote>
+<blockquote>sed -i 's/<i>find</i>/<i>replace</i>/g' <i>filename</i></blockquote>
 - Replace only on lines matching the line pattern:
 
-<blockquote>sed '/{{line_pattern}}/s/{{find}}/{{replace}}/' {{filename}}</blockquote>
+<blockquote>sed '/<i>line_pattern</i>/s/<i>find</i>/<i>replace</i>/' <i>filename</i></blockquote>
 - Apply multiple find-replace expressions to a file:
 
-<blockquote>sed -e 's/{{find}}/{{replace}}/' -e 's/{{find}}/{{replace}}/' {{filename}}</blockquote>
+<blockquote>sed -e 's/<i>find</i>/<i>replace</i>/' -e 's/<i>find</i>/<i>replace</i>/' <i>filename</i></blockquote>
 - Replace separator / by any other character not used in the find or replace patterns, e.g., #:
 
-<blockquote>sed 's#{{find}}#{{replace}}#' {{filename}}</blockquote>
+<blockquote>sed 's#<i>find</i>#<i>replace</i>#' <i>filename</i></blockquote>

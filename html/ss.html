@@ -1,20 +1,20 @@
 <h2> ss</h2><br>
-<b>Description:</b> <b>Utility to investigate sockets.</b><br><br>
+<b>Utility to investigate sockets.</b><br><br>
 - Show all TCP/UDP/RAW/UNIX sockets:
 
-<blockquote>ss -a {{-t|-u|-w|-x}}</blockquote>
+<blockquote>ss -a <i>-t|-u|-w|-x</i></blockquote>
 - Filter TCP sockets by states, only/exclude:
 
-<blockquote>ss {{state/exclude}} {{bucket/big/connected/synchronized/...}}</blockquote>
+<blockquote>ss <i>state/exclude</i> <i>bucket/big/connected/synchronized/...</i></blockquote>
 - Show all TCP sockets connected to the local HTTPS port (443):
 
-<blockquote>ss -t src :{{443}}</blockquote>
+<blockquote>ss -t src :<i>443</i></blockquote>
 - Show all TCP sockets along with processes connected to a remote ssh port:
 
-<blockquote>ss -pt dst :{{ssh}}</blockquote>
+<blockquote>ss -pt dst :<i>ssh</i></blockquote>
 - Show all UDP sockets connected on specific source and destination ports:
 
-<blockquote>ss -u 'sport == :{{source_port}} and dport == :{{destination_port}}'</blockquote>
+<blockquote>ss -u 'sport == :<i>source_port</i> and dport == :<i>destination_port</i>'</blockquote>
 - Show all TCP IPv4 sockets locally connected on the subnet 192.168.0.0/16:
 
-<blockquote>ss -4t src {{192.168/16}}</blockquote>
+<blockquote>ss -4t src <i>192.168/16</i></blockquote>

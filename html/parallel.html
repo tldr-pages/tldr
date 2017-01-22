@@ -1,8 +1,8 @@
 <h2> parallel</h2><br>
-<b>Description:</b> <b>Run commands on multiple CPU cores.</b><br><br>
+<b>Run commands on multiple CPU cores.</b><br><br>
 - Gzip several files at once, using all cores:
 
-<blockquote>parallel gzip ::: {{file1}} {{file2}} {{file3}}</blockquote>
+<blockquote>parallel gzip ::: <i>file1</i> <i>file2</i> <i>file3</i></blockquote>
 - Read arguments from stdin, run 4 jobs at once:
 
 <blockquote>ls *.txt | parallel -j4 gzip</blockquote>
@@ -11,10 +11,10 @@
 <blockquote>parallel convert {} {.}.png ::: *.jpg</blockquote>
 - Parallel xargs, cram as many args as possible onto one command:
 
-<blockquote>{{args}} | parallel -X {{command}}</blockquote>
+<blockquote><i>args</i> | parallel -X <i>command</i></blockquote>
 - Break stdin into ~1M blocks, feed each block to stdin of new command:
 
-<blockquote>cat {{big_file.txt}} | parallel --pipe --block 1M {{command}}</blockquote>
+<blockquote>cat <i>big_file.txt</i> | parallel --pipe --block 1M <i>command</i></blockquote>
 - Run on multiple machines via SSH:
 
-<blockquote>parallel -S {{machine1}},{{machine2}} {{command}} ::: {{arg1}} {{arg2}}</blockquote>
+<blockquote>parallel -S <i>machine1</i>,<i>machine2</i> <i>command</i> ::: <i>arg1</i> <i>arg2</i></blockquote>

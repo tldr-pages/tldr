@@ -1,11 +1,11 @@
 <h2> transcode</h2><br>
-<b>Description:</b> <b>Transcode video and audio codecs, and convert between media formats.</b><br><br>
+<b>Transcode video and audio codecs, and convert between media formats.</b><br><br>
 - Create stabilisation file to be able to remove camera shakes:
 
-<blockquote>transcode -J stabilize -i {{input_file}}</blockquote>
+<blockquote>transcode -J stabilize -i <i>input_file</i></blockquote>
 - Remove camera shakes after creating stabilisation file, transform video using xvid:
 
-<blockquote>transcode -J transform -i {{input_file}} -y xvid -o {{output_file}}</blockquote>
+<blockquote>transcode -J transform -i <i>input_file</i> -y xvid -o <i>output_file</i></blockquote>
 - Resize the video to 640x480 pixels and convert to MPEG4 codec using xvid:
 
-<blockquote>transcode -Z 640x480 -i {{input_file}} -y xvid -o {{output_file}}</blockquote>
+<blockquote>transcode -Z 640x480 -i <i>input_file</i> -y xvid -o <i>output_file</i></blockquote>
