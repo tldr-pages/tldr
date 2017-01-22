@@ -6,13 +6,13 @@
 
 `nslookup {{example.com}}`
 
-- Query non default name server (here Google DNS 8.8.8.8) for a NS record of the domain:
+- Query a given name server for a NS record of the domain:
 
-`nslookup -type=NS {{example.com}} 8.8.8.8`
+`nslookup -type=NS {{example.com}} {{8.8.8.8}}`
 
 - Query default name server for a reverse lookup (PTR record) of an IP address:
 
-`nslookup -type=PTR 54.240.162.118`
+`nslookup -type=PTR {{54.240.162.118}}`
 
 - Query a given name server for the whole zone file (zone transfer) of the domain using TCP protocol (-vc option) instead of the default UDP:
 
