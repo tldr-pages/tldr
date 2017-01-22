@@ -14,7 +14,11 @@
 
 `nslookup -type=PTR {{54.240.162.118}}`
 
-- Query a given name server for the whole zone file (zone transfer) of the domain using TCP protocol (-vc option) instead of the default UDP:
+- Query your system's default name server for ANY available records using TCP protocol:
+
+`nslookup -vc -type=ANY {{example.com}} `
+
+- Query a given name server for the whole zone file (zone transfer) of the domain using TCP protocol:
 
 `nslookup -vc -type=AXFR {{example.com}} {{name_server}}`
 
