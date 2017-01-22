@@ -1,0 +1,14 @@
+<h2> in2csv</h2><br>
+<b>Description:</b> <b>Converts various tabular data formats into CSV.</b><br><br><b>Description:</b> <b>Included in csvkit.</b><br><br>
+- Convert an XLS file to CSV:
+
+<blockquote>in2csv {{data.xls}}</blockquote>
+- Convert a DBF file to a CSV file:
+
+<blockquote>in2csv {{data.dbf}} > {{data.csv}}</blockquote>
+- Convert a specific sheet from an XLSX file to CSV:
+
+<blockquote>in2csv --sheet={{sheet_name}} {{data.xlsx}}</blockquote>
+- Pipe a JSON file to in2csv:
+
+<blockquote>cat {{data.json}} | in2csv -f json > {{data.csv}}</blockquote>

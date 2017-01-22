@@ -1,0 +1,20 @@
+<h2> tree</h2><br>
+<b>Description:</b> <b>Show the contents of the current directory as a tree.</b><br><br>
+- Show files and directories up to 'num' levels of depth (where 1 means the current directory):
+
+<blockquote>tree -L {{num}}</blockquote>
+- Show directories only:
+
+<blockquote>tree -d</blockquote>
+- Show hidden files too:
+
+<blockquote>tree -a</blockquote>
+- Print the tree without indentation lines, showing the full path instead (use `-N` to not escape whitespace and special characters):
+
+<blockquote>tree -i -f</blockquote>
+- Print the size of each node next to it, in human-readable format:
+
+<blockquote>tree -s -h</blockquote>
+- Filter the tree using a wildcard (glob) pattern:
+
+<blockquote>tree -P {{*.txt}}</blockquote>

@@ -1,0 +1,14 @@
+<h2> file</h2><br>
+<b>Description:</b> <b>Determine file type.</b><br><br>
+- Give a description of the type of the specified file.  Works fine for files with no file extension:
+
+<blockquote>file {{filename}}</blockquote>
+- Look inside a zipped file and determine the file type(s) inside:
+
+<blockquote>file -z {{foo.zip}}</blockquote>
+- Allow file to work with special or device files:
+
+<blockquote>file -s {{filename}}</blockquote>
+- Don't stop at first file type match; keep going until the end of the file:
+
+<blockquote>file -k {{filename}}</blockquote>

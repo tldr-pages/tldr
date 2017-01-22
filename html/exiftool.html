@@ -1,0 +1,17 @@
+<h2> exiftool</h2><br>
+<b>Description:</b> <b>Read and write meta information in files.</b><br><br>
+- Remove all EXIF metadata from the given files:
+
+<blockquote>exiftool -All= {{file}}</blockquote>
+- Increase time photo taken by 1 hour in directory:
+
+<blockquote>exiftool "-AllDates+=0:0:0 1:0:0" {{directory}}</blockquote>
+- Decrease time photo taken by 1 day and 2 hours on JPEGs only:
+
+<blockquote>exiftool "-AllDates-=0:0:1 2:0:0" -ext jpg</blockquote>
+- Change only DateTimeOriginal by -1.5 hours & do not keep backups:
+
+<blockquote>exiftool -DateTimeOriginal-=1.5 -overwrite_original</blockquote>
+- Rename all JPEGs according to a DateTimeOriginal recursively:
+
+<blockquote>exiftool '-filename<DateTimeOriginal' -d %Y-%m-%d_%H-%M-%S%%lc.%%e {{directory}} -r -ext jpg</blockquote>

@@ -1,0 +1,23 @@
+<h2> ftp</h2><br>
+<b>Description:</b> <b>Tools to interact with a server via File Transfer Protocol.</b><br><br>
+- Connect to an FTP server:
+
+<blockquote>ftp {{ftp.example.com}}</blockquote>
+- Switch to binary transfer mode (graphics, compressed files, etc):
+
+<blockquote>binary</blockquote>
+- Transfer multiple files without prompting for confirmation on every file:
+
+<blockquote>prompt off</blockquote>
+- Download multiple files (glob expression):
+
+<blockquote>mget {{*.png}}</blockquote>
+- Upload multiple files (glob expression):
+
+<blockquote>mput {{*.zip}}</blockquote>
+- Delete multiple files on the remote server:
+
+<blockquote>mdelete {{*.txt}}</blockquote>
+- Rename a file on the remote server:
+
+<blockquote>rename {{original_filename}} {{new_filename}}</blockquote>

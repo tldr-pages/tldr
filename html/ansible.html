@@ -1,0 +1,20 @@
+<h2> ansible</h2><br>
+<b>Description:</b> <b>Manage groups of computers remotely over SSH.</b><br><br><b>Description:</b> <b>Use the /etc/ansible/hosts file to add new groups/hosts.</b><br><br>
+- List hosts belonging to a group:
+
+<blockquote>ansible {{group}} --list-hosts</blockquote>
+- Ping a group of hosts by invoking the ping module:
+
+<blockquote>ansible {{group}} -m ping</blockquote>
+- Display facts about a group of hosts by invoking the setup module:
+
+<blockquote>ansible {{group}} -m setup</blockquote>
+- Execute a command on a group of hosts by invoking command module with arguments:
+
+<blockquote>ansible {{group}} -m command -a '{{my command}}'</blockquote>
+- Execute a command with administrative privileges:
+
+<blockquote>ansible {{group}} --become --ask-become-pass -m command -a '{{my command}}'</blockquote>
+- Execute a command using a custom inventory file:
+
+<blockquote>ansible {{group}} -i {{inventory_file}} -m command -a '{{my command}}'</blockquote>

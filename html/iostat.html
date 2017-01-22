@@ -1,0 +1,20 @@
+<h2> iostat</h2><br>
+<b>Description:</b> <b>Report statistics for devices and partitions.</b><br><br>
+- Display a report of CPU and disk statistics since system startup:
+
+<blockquote>iostat</blockquote>
+- Display a report of CPU and disk statistics with units converted to megabytes:
+
+<blockquote>iostat -m</blockquote>
+- Display CPU statistics:
+
+<blockquote>iostat -c</blockquote>
+- Display disk statistics with disk names (including LVM):
+
+<blockquote>iostat -N</blockquote>
+- Display extended disk statistics with disk names for device "sda":
+
+<blockquote>iostat -xN {{sda}}</blockquote>
+- Display incremental reports of CPU and disk statistics every 2 seconds:
+
+<blockquote>iostat {{2}}</blockquote>

@@ -1,0 +1,8 @@
+<h2> mysqldump</h2><br>
+<b>Description:</b> <b>Backups mysql databases.</b><br><br>
+- Create a backup, user will be prompted for a password:
+
+<blockquote>mysqldump -u {{user}} --password {{database_name}} > {{filename.sql}}</blockquote>
+- Restore a backup, user will be prompted for a password:
+
+<blockquote>mysql -u {{user}} --password {{database_name}} < {{filename.sql}}</blockquote>

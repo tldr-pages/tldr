@@ -1,0 +1,20 @@
+<h2> yum</h2><br>
+<b>Description:</b> <b>Package management utility for RHEL, Feodra, and CentOS (for older versions).</b><br><br>
+- Synchronize list of packages and versions available. This should be run first, before running subsequent yum commands:
+
+<blockquote>yum update</blockquote>
+- Install a new package:
+
+<blockquote>yum install {{package}}</blockquote>
+- Install a new package and assume yes to all questions (also works with update, great for automated updates):
+
+<blockquote>yum -y install {{package}}</blockquote>
+- Find the package that provides a particular command:
+
+<blockquote>yum provides {{command}}</blockquote>
+- Remove a package:
+
+<blockquote>yum remove {{package}}</blockquote>
+- Upgrade installed packages to newest available versions:
+
+<blockquote>yum upgrade</blockquote>

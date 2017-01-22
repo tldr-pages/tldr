@@ -1,0 +1,8 @@
+<h2> ssh-copy-id</h2><br>
+<b>Description:</b> <b>Install your public key in a remote machine's authorized_keys.</b><br><br>
+- Copy the given public key to the remote:
+
+<blockquote>ssh-copy-id -i {{path/to/certificate}} {{username}}@{{remote_host}}</blockquote>
+- Copy the given public key to the remote with specific port:
+
+<blockquote>ssh-copy-id -i {{path/to/certificate}} -p {{port}} {{username}}@{{remote_host}}</blockquote>

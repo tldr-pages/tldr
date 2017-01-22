@@ -1,0 +1,14 @@
+<h2> column</h2><br>
+<b>Description:</b> <b>Format standard input or file into multiple columns.</b><br><br><b>Description:</b> <b>Rows are filled before columns; default separator is whitespace.</b><br><br>
+- Format output for a 30 characters wide display:
+
+<blockquote>printf "header1 header2\nbar foo\n" | column -c {{30}}</blockquote>
+- Specify column delimiter character for the -t option (i.e. "," for csv); default is whitespace:
+
+<blockquote>printf "header1,header2\nbar,foo\n" | column -s{{,}}</blockquote>
+- Split columns automatically and auto-align in a tabular format:
+
+<blockquote>printf "header1 header2\nbar foo\n" | column -t</blockquote>
+- Fill columns before filling rows:
+
+<blockquote>printf "header1\nbar\nfoobar\n" | column -c {{30}} -x</blockquote>

@@ -1,0 +1,17 @@
+<h2> sox</h2><br>
+<b>Description:</b> <b>Sound eXchange: play, record and convert audio files.</b><br><br><b>Description:</b> <b>Audio formats are identified by the extension.</b><br><br>
+- Merge two audio files into one:
+
+<blockquote>sox -m {{input_audiofile1}} {{input_audiofile2}} {{output_audiofile}}</blockquote>
+- Trim an audio file to the specified times:
+
+<blockquote>sox {{input_audiofile}} {{output_audiofile}} trim {{start}} {{end}}</blockquote>
+- Normalize an audio file (adjust volume to the maximum peak level, without clipping):
+
+<blockquote>sox --norm {{input_audiofile}} {{output_audiofile}}</blockquote>
+- Reverse and save an audio file:
+
+<blockquote>sox {{input_audiofile}} {{output_audiofile}} reverse</blockquote>
+- Print statistical data of an audio file:
+
+<blockquote>sox {{input_audiofile}} -n stat</blockquote>

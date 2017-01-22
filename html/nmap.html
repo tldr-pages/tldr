@@ -1,0 +1,20 @@
+<h2> nmap</h2><br>
+<b>Description:</b> <b>Network exploration tool and security / port scanner.</b><br><br><b>Description:</b> <b>Some features only activate when Nmap is run with privileges.</b><br><br>
+- Try to determine whether the specified hosts are up and what are their names:
+
+<blockquote>nmap -sn {{ip_or_hostname}} {{optional_another_address}}</blockquote>
+- Like above, but also run a default 1000-port TCP scan if host seems up:
+
+<blockquote>nmap {{ip_or_hostname}} {{optional_another_address}}</blockquote>
+- Also enable scripts, service detection, OS fingerprinting and traceroute:
+
+<blockquote>nmap -A {{address_or_addresses}}</blockquote>
+- Assume good network connection and speed up execution:
+
+<blockquote>nmap -T4 {{address_or_addresses}}</blockquote>
+- Scan a specific list of ports (use -p- for all ports 1-65535):
+
+<blockquote>nmap -p {{port1,port2,...,portN}} {{address_or_addresses}}</blockquote>
+- Perform TCP and UDP scanning (use -sU for UDP only, -sZ for SCTP, -sO for IP):
+
+<blockquote>nmap -sSU {{address_or_addresses}}</blockquote>

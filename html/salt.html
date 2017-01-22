@@ -1,0 +1,14 @@
+<h2> salt</h2><br>
+<b>Description:</b> <b>Execute commands and assert state on remote salt minions.</b><br><br>
+- List connected minions:
+
+<blockquote>salt '*' test.ping</blockquote>
+- Execute a highstate on all connected minions:
+
+<blockquote>salt '*' state.highstate</blockquote>
+- Upgrade packages using the OS package manager (apt, yum, brew) on a subset of minions:
+
+<blockquote>salt '*.domain.com' pkg.upgrade</blockquote>
+- Execute an arbitrary command on a particular minion:
+
+<blockquote>salt '{{minion_id}}' cmd.run "ls "</blockquote>

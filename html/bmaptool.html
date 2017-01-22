@@ -1,0 +1,14 @@
+<h2> bmaptool</h2><br>
+<b>Description:</b> <b>Create or Copy blockmaps intelligently (and therefore faster than `cp` or `dd`).</b><br><br>
+- Create a blockmap from image file:
+
+<blockquote>bmaptool create -o {{blockmap.bmap}} {{source.img}}</blockquote>
+- Copy an image file into sdb:
+
+<blockquote>bmaptool copy --bmap {{blockmap.bmap}} {{source.img}} {{/dev/sdb}}</blockquote>
+- Copy a compressed image file into sdb:
+
+<blockquote>bmaptool copy --bmap {{blockmap.bmap}} {{source.img.gz}} {{/dev/sdb}}</blockquote>
+- Copy an image file into sdb without using a blockmap:
+
+<blockquote>bmaptool copy --nobmap {{source.img}} {{/dev/sdb}}</blockquote>

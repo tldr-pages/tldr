@@ -1,0 +1,20 @@
+<h2> apt-get</h2><br>
+<b>Description:</b> <b>Debian and Ubuntu package management utility.</b><br><br>
+- Synchronize list of packages and versions available. This should be run first, before running subsequent apt-get commands:
+
+<blockquote>apt-get update</blockquote>
+- Install a new package:
+
+<blockquote>apt-get install {{package}}</blockquote>
+- Remove a package:
+
+<blockquote>apt-get remove {{package}}</blockquote>
+- Upgrade installed packages to newest available versions:
+
+<blockquote>apt-get upgrade</blockquote>
+- Remove no longer needed packages:
+
+<blockquote>apt-get autoremove</blockquote>
+- Upgrade installed packages (like "upgrade"), but remove obsolete packages and install additional packages to meet new dependencies:
+
+<blockquote>apt-get dist-upgrade</blockquote>

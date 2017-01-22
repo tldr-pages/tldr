@@ -1,0 +1,23 @@
+<h2> git push</h2><br>
+<b>Description:</b> <b>Push commits to a remote repository.</b><br><br>
+- Send local changes in the current branch to its remote counterpart:
+
+<blockquote>git push</blockquote>
+- Send local changes in a given branch to its remote counterpart:
+
+<blockquote>git push {{remote_name}} {{local_branch}}</blockquote>
+- Publish the current branch to a remote repository, setting the remote branch name:
+
+<blockquote>git push {{remote_name}} -u {{remote_branch}}</blockquote>
+- Send changes on all local branches to their counterparts in a given remote repository:
+
+<blockquote>git push --all {{remote_name}}</blockquote>
+- Delete a branch in a remote repository:
+
+<blockquote>git push {{remote_name}} --delete {{remote_branch}}</blockquote>
+- Remove remote branches that don't have a local counterpart:
+
+<blockquote>git push --prune {{remote_name}}</blockquote>
+- Publish tags that aren't yet in the remote repository:
+
+<blockquote>git push --tags</blockquote>

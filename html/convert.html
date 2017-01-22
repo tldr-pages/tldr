@@ -1,0 +1,14 @@
+<h2> convert</h2><br>
+<b>Description:</b> <b>Imagemagick image conversion tool.</b><br><br>
+- Convert an image from JPG to PNG:
+
+<blockquote>convert {{image.jpg}} {{image.png}}</blockquote>
+- Scale an image 50% it's original size:
+
+<blockquote>convert {{image.png}} -resize 50% {{image2.png}}</blockquote>
+- Scale an image keeping the original aspect ratio to a maximum dimension of 640x480:
+
+<blockquote>convert {{image.png}} -resize 640x480 {{image2.png}}</blockquote>
+- Horizontally append images:
+
+<blockquote>convert {{image1.png}} {{image2.png}} {{image3.png}} +append {{image123.png}}</blockquote>

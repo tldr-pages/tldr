@@ -1,0 +1,11 @@
+<h2> iconv</h2><br>
+<b>Description:</b> <b>Converts text from one encoding to another.</b><br><br>
+- Convert file to a specific encoding, and print to stdout:
+
+<blockquote>iconv -f {{from_encoding}} -t {{to_encoding}} {{input_file}}</blockquote>
+- Convert file to the current locale's encoding, and output to a file:
+
+<blockquote>iconv -f {{from_encoding}} {{input_file}} > {{output_file}}</blockquote>
+- List supported encodings:
+
+<blockquote>iconv -l</blockquote>

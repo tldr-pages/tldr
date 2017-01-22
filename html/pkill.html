@@ -1,0 +1,11 @@
+<h2> pkill</h2><br>
+<b>Description:</b> <b>Signal process by name.</b><br><br><b>Description:</b> <b>Mostly used for stopping processes.</b><br><br>
+- Kill all processes which match:
+
+<blockquote>pkill -9 {{process_name}}</blockquote>
+- Kill all processes which match their full command instead of just the process name:
+
+<blockquote>pkill -9 -f "{{command_name}}"</blockquote>
+- Send SIGUSR1 signal to processes which match:
+
+<blockquote>pkill -USR1 {{process_name}}</blockquote>

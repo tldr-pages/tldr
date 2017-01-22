@@ -1,0 +1,14 @@
+<h2> srm</h2><br>
+<b>Description:</b> <b>Securely remove files or directories.</b><br><br><b>Description:</b> <b>Overwrites the existing data one or multiple times. Drop in replacement for rm.</b><br><br>
+- Remove a file after a single-pass overwriting with random data:
+
+<blockquote>srm -s {{/path/to/file}}</blockquote>
+- Remove a file after seven passes of overwriting with random data:
+
+<blockquote>srm -m {{/path/to/file}}</blockquote>
+- Recursively remove a directory and its contents overwriting each file with a single-pass of random data:
+
+<blockquote>srm -r -s {{/path/to/folder}}</blockquote>
+- Prompt before every removal:
+
+<blockquote>srm -i {{\*}}</blockquote>

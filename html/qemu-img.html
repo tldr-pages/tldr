@@ -1,0 +1,14 @@
+<h2> qemu-img</h2><br>
+<b>Description:</b> <b>Tool for Quick Emulator Virtual HDD image creation and manipulation.</b><br><br>
+- Create disk image with a specific size (in gigabytes):
+
+<blockquote>qemu-img create {{image_name.img}} {{gigabites}}G</blockquote>
+- Show information about a disk image:
+
+<blockquote>qemu-img info {{image_name.img}}</blockquote>
+- Increase or decrease image size:
+
+<blockquote>qemu-img resize {{image_name.img}} {{gigabites}}G</blockquote>
+- Dump the allocation state of every sector of the specified disk image:
+
+<blockquote>qemu-img map {{image_name.img}}</blockquote>

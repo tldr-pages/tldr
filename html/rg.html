@@ -1,0 +1,17 @@
+<h2> ripgrep</h2><br>
+<b>Description:</b> <b>A fast command-line search tool.</b><br><br>
+- Recursively search the current directory for a regex pattern:
+
+<blockquote>rg {{pattern}}</blockquote>
+- Search for pattern including all .gitignored and hidden files:
+
+<blockquote>rg -uu {{pattern}}</blockquote>
+- Search for a pattern only in a certain filetype (e.g., html, css, etc.):
+
+<blockquote>rg -t {{filetype}} {{pattern}}</blockquote>
+- Search for a pattern only in a subset of directories:
+
+<blockquote>rg {{pattern}} {{set_of_subdirs}}</blockquote>
+- Search for a pattern in files matching a glob (e.g., `README.*`):
+
+<blockquote>rg {{pattern}} -g {{glob}}</blockquote>

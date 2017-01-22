@@ -1,0 +1,8 @@
+<h2> mkfs.cramfs</h2><br>
+<b>Description:</b> <b>Creates a ROM filesystem inside a partition.</b><br><br>
+- Create a ROM filesystem inside partition 1 on device b (`sdb1`):
+
+<blockquote>mkfs.cramfs {{/dev/sdb1}}</blockquote>
+- Create a ROM filesystem with a volume-name:
+
+<blockquote>mkfs.cramfs -n {{volume_name}} {{/dev/sdb1}}</blockquote>

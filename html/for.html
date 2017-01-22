@@ -1,0 +1,8 @@
+<h2> for</h2><br>
+<b>Description:</b> <b>Shell loop over parameters.</b><br><br>
+- Perform a command with different arguments:
+
+<blockquote>for argument in 1 2 3; do {{command $argument}}; done</blockquote>
+- Perform a command in every directory:
+
+<blockquote>for d in *; do (cd $d; {{command}}); done</blockquote>

@@ -1,0 +1,20 @@
+<h2> git reset</h2><br>
+<b>Description:</b> <b>Undo commits or unstage changes, by resetting the current git HEAD to the specified state.</b><br><br><b>Description:</b> <b>If a path is passed, it works as "unstage"; if a commit hash or branch is passed, it works as "uncommit".</b><br><br>
+- Unstage everything:
+
+<blockquote>git reset</blockquote>
+- Unstage specific file(s):
+
+<blockquote>git reset {{path/to/file(s)}}</blockquote>
+- Unstage portions of a file:
+
+<blockquote>git reset -p {{path/to/file}}</blockquote>
+- Undo the last commit, keeping its changes (and any further uncommitted changes) in the filesystem:
+
+<blockquote>git reset HEAD~</blockquote>
+- Undo the last two commits, adding their changes to the index, i.e. staged for commit:
+
+<blockquote>git reset --soft HEAD~2</blockquote>
+- Reset the repository to a given commit, discarding committed, staged and uncommitted changes since then:
+
+<blockquote>git reset --hard {{commit}}</blockquote>

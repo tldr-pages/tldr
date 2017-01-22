@@ -1,0 +1,20 @@
+<h2> journalctl</h2><br>
+<b>Description:</b> <b>Query the systemd journal.</b><br><br>
+- Show all messages from this boot:
+
+<blockquote>journalctl -b</blockquote>
+- Show all messages from last boot:
+
+<blockquote>journalctl -b -1</blockquote>
+- Follow new messages (like `tail -f` for traditional syslog):
+
+<blockquote>journalctl -f</blockquote>
+- Show all messages by a specific unit:
+
+<blockquote>journalctl -u {{unit}}</blockquote>
+- Show all messages by a specific process:
+
+<blockquote>journalctl _PID={{pid}}</blockquote>
+- Show all messages by a specific executable:
+
+<blockquote>journalctl {{/path/to/executable}}</blockquote>

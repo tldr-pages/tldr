@@ -1,0 +1,14 @@
+<h2> git worktree</h2><br>
+<b>Description:</b> <b>Manage multiple working trees attached to the same repository.</b><br><br>
+- Create a new folder with the specified branch checked out into it:
+
+<blockquote>git worktree add {{path/to/folder}} {{branch}}</blockquote>
+- Create a new folder with a new branch checked out into it:
+
+<blockquote>git worktree add {{path/to/folder}} -b {{new_branch}}</blockquote>
+- List all the working directories attached to this repository:
+
+<blockquote>git worktree list</blockquote>
+- Remove a worktree (after deleting worktree folder):
+
+<blockquote>git worktree prune</blockquote>

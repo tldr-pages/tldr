@@ -1,0 +1,17 @@
+<h2> comm</h2><br>
+<b>Description:</b> <b>Select or reject lines common to two files. Both files must be sorted.</b><br><br>
+- Produce three tab-separated columns: lines only in first file, lines only in second file and common lines:
+
+<blockquote>comm {{file1}} {{file2}}</blockquote>
+- Print only lines common to both files:
+
+<blockquote>comm -12 {{file1}} {{file2}}</blockquote>
+- Print only lines common to both files, reading one file from stdin:
+
+<blockquote>cat {{file1}} | comm -12 - {{file2}}</blockquote>
+- Get lines only found in first file, saving the result to a third file:
+
+<blockquote>comm -23 {{file1}} {{file2}} > {{file1_only}}</blockquote>
+- Print lines only found in second file, when the files aren't sorted:
+
+<blockquote>comm -13 <(sort {{file1}}) <(sort {{file2}})</blockquote>

@@ -1,0 +1,26 @@
+<h2> git stash</h2><br>
+<b>Description:</b> <b>Stash local Git changes in a temporary area.</b><br><br>
+- Stash current changes, except new (untracked) files:
+
+<blockquote>git stash [save {{optional_stash_message}}]</blockquote>
+- Stash current changes, including new (untracked) files:
+
+<blockquote>git stash -u</blockquote>
+- Interactively select parts of changed files for stashing:
+
+<blockquote>git stash -p</blockquote>
+- List all stashes (shows stash name, related branch and message):
+
+<blockquote>git stash list</blockquote>
+- Apply a stash (default is the latest, named stash@{0}):
+
+<blockquote>git stash apply {{optional_stash_name_or_commit}}</blockquote>
+- Apply a stash (default is stash@{0}), and remove it from the stash list if applying doesn't cause conflicts:
+
+<blockquote>git stash pop {{optional_stash_name}}</blockquote>
+- Drop a stash (default is stash@{0}):
+
+<blockquote>git stash drop {{optional_stash_name}}</blockquote>
+- Drop all stashes:
+
+<blockquote>git stash clear</blockquote>

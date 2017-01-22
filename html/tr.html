@@ -1,0 +1,20 @@
+<h2> tr</h2><br>
+<b>Description:</b> <b>Translate characters - run replacements based on single characters and character sets.</b><br><br>
+- Replace all occurrences of a character in a file, and print the result:
+
+<blockquote>tr {{find_characters}} {{replace_characters}} < {{filename}}</blockquote>
+- Map each character of the first set to the corresponding character of the second set:
+
+<blockquote>tr 'abcd' 'jkmn' < {{filename}}</blockquote>
+- Delete all occurances of the specified set of characters from the input:
+
+<blockquote>tr -d '{{input_characters}}'</blockquote>
+- Compress a series of identical characters to a single character:
+
+<blockquote>tr -s '\n'</blockquote>
+- Translate the contents of the file to upper-case and print result:
+
+<blockquote>tr "[:lower:]" "[:upper:]" < {{filename}}</blockquote>
+- Strip out non-printable characters from the file and print result:
+
+<blockquote>tr -cd "[:print:]" < {{filename}}</blockquote>

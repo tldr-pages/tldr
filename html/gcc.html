@@ -1,0 +1,17 @@
+<h2> gcc</h2><br>
+<b>Description:</b> <b>Preprocesses and compiles C and C++ source files, then assembles and links them together.</b><br><br>
+- Compile multiple source files into executable:
+
+<blockquote>gcc {{source1.c}} {{source2.c}} -o {{executable}}</blockquote>
+- Allow warnings, debug symbols in output:
+
+<blockquote>gcc {{source.c}} -Wall -Og -o {{executable}}</blockquote>
+- Include libraries from a different path:
+
+<blockquote>gcc {{source.c}} -o {{executable}} -I{{header_path}} -L{{library_path}} -l{{library_name}}</blockquote>
+- Compile source code into Assembler instructions:
+
+<blockquote>gcc -S {{source.c}}</blockquote>
+- Compile source code without linking:
+
+<blockquote>gcc -c {{source.c}}</blockquote>

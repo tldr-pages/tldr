@@ -1,0 +1,23 @@
+<h2> electrum</h2><br>
+<b>Description:</b> <b>Ergonomic Bitcoin wallet and private key management.</b><br><br>
+- Create a new wallet:
+
+<blockquote>electrum -w {{new_wallet.dat}} create</blockquote>
+- Restore an existing wallet from seed offline:
+
+<blockquote>electrum -w {{recovery_wallet.dat}} restore -o</blockquote>
+- Create a signed transaction offline:
+
+<blockquote>electrum mktx {{recipient}} {{amount}} -f 0.0000001 -F {{from}} -o</blockquote>
+- Display all wallet receiving addresses:
+
+<blockquote>electrum listaddresses -a</blockquote>
+- Sign a message:
+
+<blockquote>electrum signmessage {{address}} {{message}}</blockquote>
+- Verify a message:
+
+<blockquote>electrum verifymessage {{address}} {{signature}} {{message}}</blockquote>
+- Connect only to a specific electrum-server instance:
+
+<blockquote>electrum -p socks5:{{127.0.0.1}}:9050 -s {{56ckl5obj37gypcu.onion}}:50001:t -1</blockquote>

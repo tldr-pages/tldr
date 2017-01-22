@@ -1,0 +1,17 @@
+<h2> firewall-cmd</h2><br>
+<b>Description:</b> <b>The firewalld command line client.</b><br><br>
+- View the available firewall zones:
+
+<blockquote>firewall-cmd --get-active-zones</blockquote>
+- View the rules which are currently applied:
+
+<blockquote>firewall-cmd --list-all</blockquote>
+- Permanently open the port for a service in the specified zone (like port `443` when in the `public` zone):
+
+<blockquote>firewall-cmd --permanent --zone={{public}} --add-service={{https}}</blockquote>
+- Permanently close the port for a service in the specified zone (like port `80` when in the `public` zone):
+
+<blockquote>firewall-cmd --permanent --zone={{public}} --remove-service={{http}}</blockquote>
+- Reload firewalld to force rule changes to take effect:
+
+<blockquote>firewall-cmd --reload</blockquote>

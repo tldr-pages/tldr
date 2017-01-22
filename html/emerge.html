@@ -1,0 +1,23 @@
+<h2> emerge</h2><br>
+<b>Description:</b> <b>Gentoo Linux package manager utility.</b><br><br>
+- Synchronize all packages:
+
+<blockquote>emerge --sync</blockquote>
+- Update all packages, including dependencies:
+
+<blockquote>emerge -uDNav @world</blockquote>
+- Resume a failed updated, skipping the failing package:
+
+<blockquote>emerge --resume --skipfirst</blockquote>
+- Install a new package, with confirmation:
+
+<blockquote>emerge -av {{package_name}}</blockquote>
+- Remove a package, with confirmation:
+
+<blockquote>emerge -Cav {{package_name}}</blockquote>
+- Remove orphaned packages (that were installed only as dependencies):
+
+<blockquote>emerge -avc</blockquote>
+- Search the package database for a keyword:
+
+<blockquote>emerge -S {{keyword}}</blockquote>

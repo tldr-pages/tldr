@@ -1,0 +1,14 @@
+<h2> salt-key</h2><br>
+<b>Description:</b> <b>Invoke salt locally on a salt minion.</b><br><br>
+- Perform a highstate on this minion:
+
+<blockquote>salt-call state.highstate</blockquote>
+- Perform a highstate dry-run, compute all changes but don't actually perform them:
+
+<blockquote>salt-call state.highstate test=true</blockquote>
+- Perform a highstate with verbose debugging output:
+
+<blockquote>salt-call -l debug state.highstate</blockquote>
+- List this minion's grains:
+
+<blockquote>salt-call grains.items</blockquote>

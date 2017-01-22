@@ -1,0 +1,14 @@
+<h2> handbrakecli</h2><br>
+<b>Description:</b> <b>Command-line interface to the HandBrake video conversion tool.</b><br><br>
+- Convert a video file to MKV (AAC 160kbit audio and x264 CRF20 video):
+
+<blockquote>handbrakecli -i {{input.avi}} -o {{output.mkv}} -e x264 -q 20 -B 160</blockquote>
+- Resize a video file to 320x240:
+
+<blockquote>handbrakecli -i {{input.mp4}} -o {{output.mp4} -w 320 -l 240</blockquote>
+- List available presets:
+
+<blockquote>handbrakecli --preset-list</blockquote>
+- Convert an AVI video to MP4 using the Android preset:
+
+<blockquote>handbrakecli --preset="Android" -i {{input.ext}} -o {{output.mp4}}</blockquote>

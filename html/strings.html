@@ -1,0 +1,14 @@
+<h2> strings</h2><br>
+<b>Description:</b> <b>Find printable strings in an object file or binary.</b><br><br>
+- Print all strings in a binary:
+
+<blockquote>strings {{file}}</blockquote>
+- Limit results to strings at least *length* characters long:
+
+<blockquote>strings -n {{length}} {{file}}</blockquote>
+- Prefix each result with its offset within the file:
+
+<blockquote>strings -t d {{file}}</blockquote>
+- Prefix each result with its offset within the file in hexadecimal:
+
+<blockquote>strings -t x {{file}}</blockquote>

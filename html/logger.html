@@ -1,0 +1,17 @@
+<h2> logger</h2><br>
+<b>Description:</b> <b>Add messages to syslog (/var/log/syslog).</b><br><br>
+- Log a message to syslog:
+
+<blockquote>logger {{message}}</blockquote>
+- Take input from stdin and log to syslog:
+
+<blockquote>echo {{log_entry}} | logger</blockquote>
+- Send the output to a remote syslog server running at a given port. Default port is 514:
+
+<blockquote>echo {{log_entry}} | logger --server {{hostname}} --port {{port}}</blockquote>
+- Use a specific tag for every line logged. Default is the name of logged in user:
+
+<blockquote>echo {{log_entry}} | logger --tag {{tag}}</blockquote>
+- Log messages with a given priority. Default is `user.notice`. See `man logger` for all priority options:
+
+<blockquote>echo {{log_entry}} | logger --priority {{user.warning}}</blockquote>

@@ -1,0 +1,17 @@
+<h2> qemu</h2><br>
+<b>Description:</b> <b>Generic machine emulator and virtualizer.</b><br><br><b>Description:</b> <b>Supports a large variety of CPU architectures.</b><br><br>
+- Boot from image emulating i386 architecture:
+
+<blockquote>qemu-system-i386 -hda {{image_name.img}}</blockquote>
+- Boot from image emulating x64 architecture:
+
+<blockquote>qemu-system-x86_64 -hda {{image_name.img}}</blockquote>
+- Boot QEMU instance with a live ISO image:
+
+<blockquote>qemu-system-i386 -hda {{image_name.img}} -cdrom {{os_image.iso}} -boot d</blockquote>
+- Specify amount of RAM for instance:
+
+<blockquote>qemu-system-i386 -m 256 -hda image_name.img -cdrom os-image.iso -boot d</blockquote>
+- Boot from physical device (e.g. from USB to test bootable medium):
+
+<blockquote>qemu-system-i386 -hda /dev/{{storage_device}}</blockquote>

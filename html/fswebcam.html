@@ -1,0 +1,14 @@
+<h2> fswebcam</h2><br>
+<b>Description:</b> <b>Small and simple webcam for *nix.</b><br><br>
+- Take a picture:
+
+<blockquote>fswebcam {{filename}}</blockquote>
+- Take a picture with custom resolution:
+
+<blockquote>fswebcam -r {{width}}x{{height}} {{filename}}</blockquote>
+- Take a picture from selected device(Default is /dev/vidoe0):
+
+<blockquote>fswebcam -d {{device}} {{filename}}</blockquote>
+- Take a picture with timestamp(timestamp string is formatted by strftime):
+
+<blockquote>fswebcam --timestamp {{timestamp}} {{filename}}</blockquote>

@@ -1,0 +1,17 @@
+<h2> unexpand</h2><br>
+<b>Description:</b> <b>Convert spaces to tabs.</b><br><br>
+- Convert blanks in each file to tabs, writing to standard output:
+
+<blockquote>unexpand {{file}}</blockquote>
+- Convert blanks to tabs, reading from standard output:
+
+<blockquote>unexpand</blockquote>
+- Convert all blanks, instead of just initial blanks:
+
+<blockquote>unexpand -a {{file}}</blockquote>
+- Convert only leading sequences of blanks (overrides -a):
+
+<blockquote>unexpand --first-only {{file}}</blockquote>
+- Have tabs a certain number of characters apart, not 8 (enables -a):
+
+<blockquote>unexpand -t {{number}} {{file}}</blockquote>

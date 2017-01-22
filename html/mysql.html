@@ -1,0 +1,14 @@
+<h2> mysql</h2><br>
+<b>Description:</b> <b>The MySQL command-line tool.</b><br><br>
+- Connect to a database:
+
+<blockquote>mysql {{database_name}}</blockquote>
+- Connect to a database, user will be prompted for a password:
+
+<blockquote>mysql -u {{user}} --password {{database_name}}</blockquote>
+- Connect to a database on another host:
+
+<blockquote>mysql -h {{database_host}} {{database_name}}</blockquote>
+- Execute SQL statements in a script file (batch file):
+
+<blockquote>mysql {{database_name}} < {{script.sql}}</blockquote>

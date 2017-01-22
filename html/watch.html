@@ -1,0 +1,11 @@
+<h2> watch</h2><br>
+<b>Description:</b> <b>Execute a command repeatedly, and monitor the output in full-screen mode.</b><br><br>
+- Monitor files in the current folder:
+
+<blockquote>watch {{ls}}</blockquote>
+- Monitor disk space and highlight the changes:
+
+<blockquote>watch -d {{df}}</blockquote>
+- Monitor "node" processes, refreshing every 3 seconds:
+
+<blockquote>watch -n {{3}} "{{ps aux | grep node}}"</blockquote>

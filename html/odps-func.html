@@ -1,0 +1,14 @@
+<h2> odps func</h2><br>
+<b>Description:</b> <b>Manage functions in ODPS (Open Data Processing Service).</b><br><br>
+- Show functions in the current project:
+
+<blockquote>list functions;</blockquote>
+- Create a Java function using a .jar resource:
+
+<blockquote>create function {{func_name}} as {{path.to.package.Func}} using '{{package.jar}}';</blockquote>
+- Create a Python function using a .py resource:
+
+<blockquote>create function {{func_name}} as {{script.Func}} using '{{script.py}}';</blockquote>
+- Delete a function:
+
+<blockquote>drop function {{func_name}};</blockquote>

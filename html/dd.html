@@ -1,0 +1,14 @@
+<h2> dd</h2><br>
+<b>Description:</b> <b>Convert and copy a file.</b><br><br>
+- Make a bootable usb drive from an isohybrid file (such like archlinux-xxx.iso) and show the progress:
+
+<blockquote>dd if={{file.iso}} of=/dev/{{usb_drive}} status=progress</blockquote>
+- Clone a drive to another drive with 4MB block, ignore error and show progress:
+
+<blockquote>dd if=/dev/{{source_drive}} of=/dev/{{dest_drive}} bs=4M conv=noerror status=progress</blockquote>
+- Generate a file of 100 random bytes by using kernel random driver:
+
+<blockquote>dd if=/dev/urandom of={{random_file}} bs=100 count=1</blockquote>
+- Benchmark the write performance of a disk:
+
+<blockquote>dd if=/dev/zero of={{file_1GB}} bs=1024 count=1000000</blockquote>

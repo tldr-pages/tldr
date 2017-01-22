@@ -1,0 +1,17 @@
+<h2> ip</h2><br>
+<b>Description:</b> <b>Show / manipulate routing, devices, policy routing and tunnels.</b><br><br>
+- List interfaces with detailed info:
+
+<blockquote>ip a</blockquote>
+- Display the routing table:
+
+<blockquote>ip r</blockquote>
+- Make an interface up/down:
+
+<blockquote>ip link set {{interface}} up/down</blockquote>
+- Add/Delete an ip address to an interface:
+
+<blockquote>ip addr add/del {{ip}}/{{mask}} dev {{interface}}</blockquote>
+- Add an default route:
+
+<blockquote>ip route add default via {{ip}} dev {{interface}}</blockquote>

@@ -1,0 +1,20 @@
+<h2> git tag</h2><br>
+<b>Description:</b> <b>Create, list, delete or verify tags.</b><br><br><b>Description:</b> <b>A tag is a static reference to a specific commit.</b><br><br>
+- List all tags:
+
+<blockquote>git tag</blockquote>
+- Create a tag with the given name pointing to the current commit:
+
+<blockquote>git tag {{tag_name}}</blockquote>
+- Create an annotated tag with the given message:
+
+<blockquote>git tag {{tag_name}} -m {{tag_message}}</blockquote>
+- Delete the tag with the given name:
+
+<blockquote>git tag -d {{tag_name}}</blockquote>
+- Get updated tags from upstream:
+
+<blockquote>git fetch --tags</blockquote>
+- List all tags whose ancestors include a given commit:
+
+<blockquote>git tag --contains {{commit}}</blockquote>

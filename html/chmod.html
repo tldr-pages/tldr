@@ -1,0 +1,17 @@
+<h2> chmod</h2><br>
+<b>Description:</b> <b>Change the access permissions of a file or directory.</b><br><br>
+- Give the [u]ser who owns a file the right to e[x]ecute it:
+
+<blockquote>chmod u+x {{file}}</blockquote>
+- Give the user rights to [r]ead and [w]rite to a file/directory:
+
+<blockquote>chmod u+rw {{file}}</blockquote>
+- Remove executable rights from the [g]roup:
+
+<blockquote>chmod g-x {{file}}</blockquote>
+- Give [a]ll users rights to read and execute:
+
+<blockquote>chmod a+rx {{file}}</blockquote>
+- Give [o]thers (not in the file owner's group) the same rights as the group:
+
+<blockquote>chmod o=g {{file}}</blockquote>

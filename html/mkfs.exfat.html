@@ -1,0 +1,11 @@
+<h2> mkfs.exfat</h2><br>
+<b>Description:</b> <b>Creates an exfat filesystem inside a partition.</b><br><br>
+- Create an exfat  filesystem inside partition 1 on device b (`sdb1`):
+
+<blockquote>mkfs.exfat {{/dev/sdb1}}</blockquote>
+- Create filesystem with a volume-name:
+
+<blockquote>mkfs.exfat -n {{volume_name}} {{/dev/sdb1}}</blockquote>
+- Create filesystem with a volume-id:
+
+<blockquote>mkfs.exfat -i {{volume_id}} {{/dev/sdb1}}</blockquote>

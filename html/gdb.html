@@ -1,0 +1,14 @@
+<h2> gdb</h2><br>
+<b>Description:</b> <b>The GNU Debugger.</b><br><br>
+- Debug an executable:
+
+<blockquote>gdb {{executable}}</blockquote>
+- Attach a process to gdb:
+
+<blockquote>gdb -p {{procID}}</blockquote>
+- Execute given GDB commands upon start:
+
+<blockquote>gdb -ex "{{commands}}" {{executable}}</blockquote>
+- Start gdb and pass arguments:
+
+<blockquote>gdb --args {{executable}} {{argument1}} {{argument2}}</blockquote>

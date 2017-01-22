@@ -1,0 +1,20 @@
+<h2> pv</h2><br>
+<b>Description:</b> <b>Monitor the progress of data through a pipe.</b><br><br>
+- Print the contents of the file and display a progress bar:
+
+<blockquote>pv {{file}}</blockquote>
+- Measure the speed and amount of data flow between pipes (`-s` is optional):
+
+<blockquote>command1 | pv -s {{expected_amount_of_data_for_eta}} | command2</blockquote>
+- Filter a file, see both progress and amount of output data:
+
+<blockquote>pv -cN in {{big_text_file}} | grep {{pattern}} | pv -cN out > {{filtered_file}}</blockquote>
+- Attach to an already running process and see its file reading progress:
+
+<blockquote>pv -d {{PID}}</blockquote>
+- Read an erroneous file, skip errors as `dd conv=sync,noerror` would:
+
+<blockquote>pv -EE {{path/to/faulty_media}} > image.img</blockquote>
+- Stop reading after reading specified amount of data, rate limit to 1K/s:
+
+<blockquote>pv -L 1K -S {{maximum_file_size_to_be_read}}</blockquote>

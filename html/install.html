@@ -1,0 +1,17 @@
+<h2> install</h2><br>
+<b>Description:</b> <b>Copy files and set attributes.</b><br><br><b>Description:</b> <b>Copy files (often executable) to a system location like `/usr/local/bin`, give them the appropriate permissions/ownership.</b><br><br>
+- Copy files to destination:
+
+<blockquote>install {{path/to/source}} {{path/to/destination}}</blockquote>
+- Copy files to destination, setting their ownership:
+
+<blockquote>install -o {{user}} {{path/to/source}} {{path/to/destination}}</blockquote>
+- Copy files to destination, setting their group ownership:
+
+<blockquote>install -g {{user}} {{path/to/source}} {{path/to/destination}}</blockquote>
+- Copy files to destination, setting their `mode`:
+
+<blockquote>install -m {{+x}} {{path/to/source}} {{path/to/destination}}</blockquote>
+- Copy files and apply access/modification times of source to destination:
+
+<blockquote>install -p {{path/to/source}} {{path/to/destination}}</blockquote>

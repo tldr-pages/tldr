@@ -1,0 +1,20 @@
+<h2> gitsome</h2><br>
+<b>Description:</b> <b>A terminal-based interface for GitHub, accessed via the `gh` command.</b><br><br><b>Description:</b> <b>It also provides menu-style autocomplete suggestions for `git` commands.</b><br><br>
+- Enter the gitsome shell (optional), to enable autocompletion and interactive help for git (and gh) commands:
+
+<blockquote>gitsome</blockquote>
+- Setup GitHub integration with the current account:
+
+<blockquote>gh configure</blockquote>
+- List notifications for the current account (as would be seen in https://github.com/notifications):
+
+<blockquote>gh notifications</blockquote>
+- List the current account's starred repos, filtered by a given search string:
+
+<blockquote>gh starred "{{python 3}}"</blockquote>
+- View the recent activity feed of a given GitHub repository:
+
+<blockquote>gh feed {{tldr-pages/tldr}}</blockquote>
+- View the recent activity feed for a given GitHub user, using the default pager (e.g. `less`):
+
+<blockquote>gh feed {{torvalds}} -p</blockquote>

@@ -1,0 +1,14 @@
+<h2> mongo</h2><br>
+<b>Description:</b> <b>MongoDB interactive shell client.</b><br><br>
+- Connect to a database:
+
+<blockquote>mongo {{database}}</blockquote>
+- Connect to a database running on a given host on a given port:
+
+<blockquote>mongo --host {{host}} --port {{port}} {{database}}</blockquote>
+- Connect to a database with a given username; user will be prompted for password:
+
+<blockquote>mongo --username {{username}} {{database}} --password</blockquote>
+- Evaluate a javascript expression on the database:
+
+<blockquote>mongo --eval '{{JSON.stringify(db.foo.findOne())}}' {{database}}</blockquote>

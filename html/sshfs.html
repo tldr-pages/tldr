@@ -1,0 +1,14 @@
+<h2> sshfs</h2><br>
+<b>Description:</b> <b>Filesystem client based on ssh.</b><br><br>
+- Mount remote directory:
+
+<blockquote>sshfs {{username}}@{{remote_host}}:{{remote_directory}} {{mountpoint}}</blockquote>
+- Unmount remote directory:
+
+<blockquote>fusermount -u {{mountpoint}}</blockquote>
+- Mount remote directory from server with specific port:
+
+<blockquote>sshfs {{username}}@{{remote_host}}:{{remote_directory}} -p {{2222}}</blockquote>
+- Use compression:
+
+<blockquote>sshfs {{username}}@{{remote_host}}:{{remote_directory}} -C</blockquote>

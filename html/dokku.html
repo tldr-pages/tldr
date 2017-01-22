@@ -1,0 +1,17 @@
+<h2> dokku</h2><br>
+<b>Description:</b> <b>Docker powered mini-Heroku (PaaS).</b><br><br><b>Description:</b> <b>Easily deploy multiple apps to your server in different languages using a single `git-push` command.</b><br><br>
+- List runinng apps:
+
+<blockquote>dokku apps</blockquote>
+- Create an app:
+
+<blockquote>dokku apps:create {{app_name}}</blockquote>
+- Remove an app:
+
+<blockquote>dokku apps:destroy {{app_name}}</blockquote>
+- Install plugin:
+
+<blockquote>dokku plugin:install {{full_repo_url}}</blockquote>
+- Link database to an app:
+
+<blockquote>dokku {{db}}:link {{db_name}} {{app_name}}</blockquote>

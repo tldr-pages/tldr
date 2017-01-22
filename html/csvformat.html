@@ -1,0 +1,17 @@
+<h2> csvformat</h2><br>
+<b>Description:</b> <b>Convert a CSV file to a custom output format.</b><br><br><b>Description:</b> <b>Included in csvkit.</b><br><br>
+- Convert to a tab-delimited file (TSV):
+
+<blockquote>csvformat -T {{data.csv}}</blockquote>
+- Convert delimiters to a custom character:
+
+<blockquote>csvformat -D "{{custom_character}}" {{data.csv}}</blockquote>
+- Convert line endings to carriage return (^M) + line feed:
+
+<blockquote>csvformat -M "{{\r\n}}" {{data.csv}}</blockquote>
+- Minimize use of quote characters:
+
+<blockquote>csvformat -U 0 {{data.csv}}</blockquote>
+- Maximize use of quote characters:
+
+<blockquote>csvformat -U 1 {{data.csv}}</blockquote>

@@ -1,0 +1,26 @@
+<h2> find</h2><br>
+<b>Description:</b> <b>Find files under the given directory tree, recursively.</b><br><br>
+- Find files by extension:
+
+<blockquote>find {{root_path}} -name '{{*.ext}}'</blockquote>
+- Find files matching path pattern:
+
+<blockquote>find {{root_path}} -path '{{**/lib/**/*.ext}}'</blockquote>
+- Run a command for each file, use {} within the command to access the filename:
+
+<blockquote>find {{root_path}} -name '{{*.ext}}' -exec {{wc -l {} }}\;</blockquote>
+- Find files modified since a certain time:
+
+<blockquote>find {{root_path}} -name '{{}}' -mtime {{-1d}}</blockquote>
+- Find files using case insensitive name matching, of a certain size:
+
+<blockquote>find {{root_path}} -size +500k -size -10MB -iname '{{*.TaR.gZ}}'</blockquote>
+- Delete files by name, older than a certain number of days:
+
+<blockquote>find {{root_path}} -name '{{*.ext}}' -mtime {{-180d}} -delete</blockquote>
+- Find empty files or directories:
+
+<blockquote>find {{root_path}} -empty</blockquote>
+- Find files matching more than one search criteria:
+
+<blockquote>find {{root_path}} -name '{{*.py}}' -or -name '{{*.r}}'</blockquote>

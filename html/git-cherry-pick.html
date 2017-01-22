@@ -1,0 +1,11 @@
+<h2> git cherry-pick</h2><br>
+<b>Description:</b> <b>Apply the changes introduced by existing commits to the current branch.</b><br><br><b>Description:</b> <b>To apply changes to another branch, first use git-checkout to switch to the desired branch.</b><br><br>
+- Apply a commit to the current branch:
+
+<blockquote>git cherry-pick {{commit}}</blockquote>
+- Apply a range of commits to the current branch (see also `git rebase --onto`):
+
+<blockquote>git cherry-pick {{start_commit}}~..{{end_commit}}</blockquote>
+- Apply multiple (non-sequential) commits to the current branch:
+
+<blockquote>git cherry-pick {{commit_1}} {{commit_2}}</blockquote>

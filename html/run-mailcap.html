@@ -1,0 +1,17 @@
+<h2> run-mailcap</h2><br>
+<b>Description:</b> <b>Run MailCap Programs.</b><br><br><b>Description:</b> <b>Run mailcap view,  see,  edit,  compose, print - execute programs via entries in the mailcap file (or any of its  aliases)  will  use  the  given  action  to process  each  mime-type/file.</b><br><br>
+- Individual actions/programs on run-mailcap can be invoked with action flag:
+
+<blockquote>run-mailcap --action=ACTION [--option[=value]]</blockquote>
+- In simple language:
+
+<blockquote>run-mailcap --action=ACTION {{filename}}</blockquote>
+- Turn on extra information:
+
+<blockquote>run-mailcap  --action=ACTION --debug {{filename}}</blockquote>
+- Ignore any "copiousoutput" directive and forward output to STD‐OUT:
+
+<blockquote>run-mailcap --action=ACTION --nopager {{filename}}</blockquote>
+- Display the found command without actually executing it:
+
+<blockquote>run-mailcap --action=ACTION --norun {{filename}}</blockquote>

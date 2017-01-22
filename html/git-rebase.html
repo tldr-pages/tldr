@@ -1,0 +1,17 @@
+<h2> git rebase</h2><br>
+<b>Description:</b> <b>Apply local commits on top of another branch's history.</b><br><br>
+- Rebase your local branch interactively with the latest changes in local master:
+
+<blockquote>git rebase -i master</blockquote>
+- Rebase your local branch interactively with the latest changes from upstream:
+
+<blockquote>git fetch origin; git rebase -i origin/master</blockquote>
+- Handle an active rebase merge failure, after editing conflicting file(s):
+
+<blockquote>git rebase --continue</blockquote>
+- Abort a rebase in-progress:
+
+<blockquote>git rebase --abort</blockquote>
+- Rebase your local branch by specifying new base commit and old base commit:
+
+<blockquote>git rebase --onto {{new_base_commit}} {{old_base_commit}}</blockquote>

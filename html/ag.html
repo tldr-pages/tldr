@@ -1,0 +1,20 @@
+<h2> ag</h2><br>
+<b>Description:</b> <b>The Silver Searcher. Like ack, but faster.</b><br><br>
+- Find files containing "foo", and print the line matches in context:
+
+<blockquote>ag foo</blockquote>
+- Find files containing "foo", but only list the filenames:
+
+<blockquote>ag -l foo</blockquote>
+- Find files containing "FOO" case-insensitively, and print only the match, rather than the whole line:
+
+<blockquote>ag -i -o FOO</blockquote>
+- Find "foo" in files with a name matching "bar":
+
+<blockquote>ag foo -G bar</blockquote>
+- Find files whose contents match a regular expression:
+
+<blockquote>ag '^ba(r|z)$'</blockquote>
+- Find files with a name matching "foo":
+
+<blockquote>ag -g foo</blockquote>

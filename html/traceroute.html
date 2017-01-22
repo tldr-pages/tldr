@@ -1,0 +1,17 @@
+<h2> traceroute</h2><br>
+<b>Description:</b> <b>Print the route packets trace to network host.</b><br><br>
+- Traceroute to a host:
+
+<blockquote>traceroute {{host}}</blockquote>
+- Disable IP address and host name mapping:
+
+<blockquote>traceroute -n {{host}}</blockquote>
+- Specify wait time for response:
+
+<blockquote>traceroute -w {{0.5}} {{host}}</blockquote>
+- Specify number of queries per hop:
+
+<blockquote>traceroute -q {{5}} {{host}}</blockquote>
+- Specify size in bytes of probing packet:
+
+<blockquote>traceroute {{host}} {{42}}</blockquote>

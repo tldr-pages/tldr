@@ -1,0 +1,26 @@
+<h2> conda</h2><br>
+<b>Description:</b> <b>Package, dependency and environment management for any programming language.</b><br><br>
+- Create a new environment, installing named packages into it:
+
+<blockquote>conda create --name {{environment_name}} {{python=2.7 matplotlib}}</blockquote>
+- List all environments:
+
+<blockquote>conda info --envs</blockquote>
+- Load or unload an environment:
+
+<blockquote>source {{activate|deactivate}} {{environment_name}}</blockquote>
+- Delete an environment (remove all packages):
+
+<blockquote>conda remove --name {{environment_name}} --all</blockquote>
+- Search conda channels for a package by name:
+
+<blockquote>conda search {{package_name}}</blockquote>
+- Install packages into the current environment:
+
+<blockquote>conda install {{python=3.4 numpy}}</blockquote>
+- List currently installed packages in current environment:
+
+<blockquote>conda list</blockquote>
+- Delete unused packages and caches:
+
+<blockquote>conda clean --all</blockquote>

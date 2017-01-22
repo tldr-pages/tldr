@@ -1,0 +1,17 @@
+<h2> youtube-dl</h2><br>
+<b>Description:</b> <b>Download videos from YouTube and other websites.</b><br><br>
+- Download a video or playlist:
+
+<blockquote>youtube-dl {{https://www.youtube.com/watch?v=oHg5SJYRHA0}}</blockquote>
+- Download the audio from a video and convert it to an MP3:
+
+<blockquote>youtube-dl -x --audio-format {{mp3}} {{url}}</blockquote>
+- Download video(s) as MP4 files with custom filenames:
+
+<blockquote>youtube-dl --format {{mp4}} --output {{"%(title) by %(uploader) on %(upload_date) in %(playlist).%(ext)"}} {{url}}</blockquote>
+- Download a video and save its description, metadata, annotations, subtitles, and thumbnail:
+
+<blockquote>youtube-dl --write-description --write-info-json --write-annotations --write-sub --write-thumbnail {{url}}</blockquote>
+- From a playlist, download all "Let's Play" videos that aren't marked "NSFW" or age-restricted for 7 year-olds:
+
+<blockquote>youtube-dl --match-title {{"let's play"}} --age-limit {{7}} --reject-title {{"nsfw"}} {{playlist_url}}</blockquote>

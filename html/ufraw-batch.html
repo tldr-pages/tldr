@@ -1,0 +1,14 @@
+<h2> ufraw-batch</h2><br>
+<b>Description:</b> <b>Convert RAW files from cameras into standard image files.</b><br><br>
+- Simply convert RAW files to jpg:
+
+<blockquote>ufraw-batch --out-type=jpg {{input_file(s)}}</blockquote>
+- Simply convert RAW files to png:
+
+<blockquote>ufraw-batch --out-type=png {{input_file(s)}}</blockquote>
+- Extract the preview image from the raw file:
+
+<blockquote>ufraw-batch --embedded-image {{input_file(s)}}</blockquote>
+- Save the file with size up to the given maximums MAX1 and MAX2:
+
+<blockquote>ufraw-batch --size=MAX1,MAX2 {{input_file(s)}}</blockquote>

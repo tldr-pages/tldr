@@ -1,0 +1,17 @@
+<h2> zip</h2><br>
+<b>Description:</b> <b>Package and compress (archive) files into zip file.</b><br><br>
+- Package and compress a directory and its contents, [r]ecursively:
+
+<blockquote>zip -r {{compressed.zip}} {{/path/to/dir}}</blockquote>
+- E[x]clude unwanted files from being added to the compressed archive:
+
+<blockquote>zip -r {{compressed.zip}} {{path/to/dir}} -x \*.git\* \*node_modules\* ...</blockquote>
+- Package and compress multiple directories and files:
+
+<blockquote>zip -r {{compressed.zip}} {{/path/to/dir1 /path/to/dir2 /path/to/file}}</blockquote>
+- Add files to an existing zip file:
+
+<blockquote>zip {{compressed.zip}} {{path/to/file}}</blockquote>
+- Delete files from an existing zip file:
+
+<blockquote>zip -d {{compressed.zip}} "{{foo/*.tmp}}"</blockquote>

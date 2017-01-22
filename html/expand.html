@@ -1,0 +1,17 @@
+<h2> expand</h2><br>
+<b>Description:</b> <b>Convert tabs to spaces.</b><br><br>
+- Convert tabs in each file to spaces, writing to standard output:
+
+<blockquote>expand {{file}}</blockquote>
+- Convert tabs to spaces, reading from standard input:
+
+<blockquote>expand</blockquote>
+- Do not convert tabs after non blanks:
+
+<blockquote>expand -i {{file}}</blockquote>
+- Have tabs a certain number of characters apart, not 8:
+
+<blockquote>expand -t={{number}} {{file}}</blockquote>
+- Use comma separated list of explicit tab positions:
+
+<blockquote>expand -t={{list}}</blockquote>

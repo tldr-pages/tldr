@@ -1,0 +1,14 @@
+<h2> ioping</h2><br>
+<b>Description:</b> <b>Monitor I/O latency in real time.</b><br><br>
+- Show disk I/O latency using the default values and the current directory:
+
+<blockquote>ioping .</blockquote>
+- Measure latency on /tmp using 10 requests of 1 megabyte each:
+
+<blockquote>ioping -c 10 -s 1M /tmp</blockquote>
+- Measure disk seek rate on /dev/sda:
+
+<blockquote>ioping -R /dev/sda</blockquote>
+- Measure disk sequential speed on /dev/sda:
+
+<blockquote>ioping -RL /dev/sda</blockquote>

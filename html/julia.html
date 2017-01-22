@@ -1,0 +1,20 @@
+<h2> julia</h2><br>
+<b>Description:</b> <b>A high-level, high-performance dynamic programming language for technical computing.</b><br><br>
+- Start a Julia REPL session:
+
+<blockquote>julia</blockquote>
+- Execute a Julia program and exit:
+
+<blockquote>julia {{program.jl}}</blockquote>
+- Execute a Julia program that takes arguments:
+
+<blockquote>julia {{program.jl}} {{arguments}}</blockquote>
+- Evaluate a string containing Julia code:
+
+<blockquote>julia -e '{{julia_code}}'</blockquote>
+- Evaluate a string of Julia code, passing arguments to it:
+
+<blockquote>julia -e '{{for x in ARGS; println(x); end}}' {{arguments}}</blockquote>
+- Start Julia in parallel mode, using N worker processes:
+
+<blockquote>julia -p {{N}}</blockquote>

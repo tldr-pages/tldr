@@ -1,0 +1,17 @@
+<h2> awk</h2><br>
+<b>Description:</b> <b>A versatile programming language for working on files.</b><br><br>
+- Print the fifth column (a.k.a. field) in a space-separated file:
+
+<blockquote>awk '{print $5}' {{filename}}</blockquote>
+- Print the second column of the lines containing "something" in a space-separated file:
+
+<blockquote>awk '/{{something}}/ {print $2}' {{filename}}</blockquote>
+- Print the last column of each line in a file, using a comma (instead of space) as a field separator:
+
+<blockquote>awk -F ',' '{print $NF}' {{filename}}</blockquote>
+- Sum the values in the first column of a file and print the total:
+
+<blockquote>awk '{s+=$1} END {print s}' {{filename}}</blockquote>
+- Sum the values in the first column and pretty-print the values and then the total:
+
+<blockquote>awk '{s+=$1; print $1} END {print "--------"; print s}' {{filename}}</blockquote>

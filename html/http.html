@@ -1,0 +1,23 @@
+<h2> http</h2><br>
+<b>Description:</b> <b>HTTPie: HTTP client, a user-friendly cURL replacement.</b><br><br>
+- Download a URL to a file:
+
+<blockquote>http -d {{example.org}}</blockquote>
+- Send form-encoded data:
+
+<blockquote>http -f {{example.org}} {{name='bob'}} {{profile_picture@'bob.png'}}</blockquote>
+- Send JSON object:
+
+<blockquote>http {{example.org}} {{name='bob'}}</blockquote>
+- Specify an HTTP method:
+
+<blockquote>http {{HEAD}} {{example.org}}</blockquote>
+- Include an extra header:
+
+<blockquote>http {{example.org}} {{X-MyHeader:123}}</blockquote>
+- Pass a user name and password for server authentication:
+
+<blockquote>http -a {{username:password}} {{example.org}}</blockquote>
+- Specify raw request body via stdin:
+
+<blockquote>cat {{data.txt}} | http PUT {{example.org}}</blockquote>

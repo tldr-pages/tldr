@@ -1,0 +1,14 @@
+<h2> xargs</h2><br>
+<b>Description:</b> <b>Execute a command with piped arguments coming from another command, a file, etc.</b><br><br><b>Description:</b> <b>The input is treated as a single block of text and split into separate arguments on spaces, tabs, newlines and end-of-file.</b><br><br>
+- Main usage pattern:
+
+<blockquote>{{arguments_source}} | xargs {{command}}</blockquote>
+- Delete all files with a `.backup` extension:
+
+<blockquote>{{find . -name '*.backup'}} | xargs {{rm -v}}</blockquote>
+- Convert newlines in the input into NUL (`\0`) characters, and split on those only (useful if the input to xargs contains spaces):
+
+<blockquote>{{arguments_source}} | tr '\n' '\0' | xargs -0 {{command}}</blockquote>
+- Execute the command once for each input line, replacing any occurrences of the placeholder (here marked as `_`) with the input line:
+
+<blockquote>{{arguments_source}} | xargs -I _ {{command}} _ {{optional_extra_arguments}}</blockquote>

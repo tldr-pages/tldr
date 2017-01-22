@@ -1,0 +1,17 @@
+<h2> quota</h2><br>
+<b>Description:</b> <b>Display users' disk space usage and allocated limits.</b><br><br>
+- Show disk quotas for the current user:
+
+<blockquote>quota</blockquote>
+- Verbose output (also display quotas on filesystems where no storage is allocated):
+
+<blockquote>quota -v</blockquote>
+- Quiet output (only display quotas on filesystems where usage is over quota):
+
+<blockquote>quota -q</blockquote>
+- Print quotas for the groups of which the current user is a member:
+
+<blockquote>quota -g</blockquote>
+- Show disk quotas for another user (must be superuser to do this):
+
+<blockquote>sudo quota -u {{username}}</blockquote>

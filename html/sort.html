@@ -1,0 +1,17 @@
+<h2> sort</h2><br>
+<b>Description:</b> <b>Sort lines of text files.</b><br><br>
+- Sort a file in ascending order:
+
+<blockquote>sort {{filename}}</blockquote>
+- Sort a file in descending order:
+
+<blockquote>sort -r {{filename}}</blockquote>
+- Sort a file using numeric rather than alphabetic order:
+
+<blockquote>sort -n {{filename}}</blockquote>
+- Sort the passwd file by the 3rd field, numerically:
+
+<blockquote>sort -t: -k 3n /etc/passwd</blockquote>
+- Sort human-readable numbers (in this case the 5th field of `ls -lh`):
+
+<blockquote>ls -lh | sort -h -k 5</blockquote>

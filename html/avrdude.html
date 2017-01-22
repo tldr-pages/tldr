@@ -1,0 +1,14 @@
+<h2> avrdude</h2><br>
+<b>Description:</b> <b>Driver program for Atmel AVR microcontrollers programming.</b><br><br>
+- Read AVR microcontroller:
+
+<blockquote>avrdude -p {{AVR_device}} -c {{programmer}} -U flash:r:{{file.hex}}:i</blockquote>
+- Write AVR microcontroller:
+
+<blockquote>avrdude -p {{AVR_device}} -c {{programmer}} -U flash:w:{{file.hex}}</blockquote>
+- List available AVR devices:
+
+<blockquote>avrdude -p \?</blockquote>
+- List available AVR programmers:
+
+<blockquote>avrdude -c \?</blockquote>

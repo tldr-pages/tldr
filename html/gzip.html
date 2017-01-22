@@ -1,0 +1,17 @@
+<h2> gzip</h2><br>
+<b>Description:</b> <b>Compress/uncompress files with gzip compression (LZ77).</b><br><br>
+- Compress a file, replacing it with a gzipped compressed version:
+
+<blockquote>gzip {{file.ext}}</blockquote>
+- Decompress a file, replacing it with the original uncompressed version:
+
+<blockquote>gzip -d {{file.ext}}.gz</blockquote>
+- Compress a file specifying the output filename:
+
+<blockquote>gzip -c {{file.ext}} > {{compressed_file.ext}}.gz</blockquote>
+- Uncompress a gzipped file specifying the output filename:
+
+<blockquote>gzip -c -d {{file.ext}}.gz > {{uncompressed_file.ext}}</blockquote>
+- Specify the compression level. 1=Fastest (Worst), 9=Slowest (Best), Default level is 6:
+
+<blockquote>gzip -9 -c {{file.ext}} > {{compressed_file.ext}}.gz</blockquote>

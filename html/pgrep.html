@@ -1,0 +1,11 @@
+<h2> pgrep</h2><br>
+<b>Description:</b> <b>Find or signal process by name.</b><br><br>
+- Return PIDs of any running processes with a matching command string:
+
+<blockquote>pgrep {{process_name}}</blockquote>
+- Search full command line with parameters instead of just the process name:
+
+<blockquote>pgrep -f "{{process_name}} {{parameter}}"</blockquote>
+- Search for process run by a specific user:
+
+<blockquote>pgrep -u root {{process_name}}</blockquote>

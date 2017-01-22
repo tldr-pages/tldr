@@ -1,0 +1,20 @@
+<h2> lwp-request</h2><br>
+<b>Description:</b> <b>Simple command-line HTTP client.</b><br><br><b>Description:</b> <b>Built with libwww-perl.</b><br><br>
+- Make a simple GET request:
+
+<blockquote>lwp-request -m GET {{http://example.com/some/path}}</blockquote>
+- Upload a file with a POST request:
+
+<blockquote>cat {{/path/to/file}} | lwp-request -m POST {{http://example.com/some/path}}</blockquote>
+- Make a request with a custom user agent:
+
+<blockquote>lwp-request -H 'User-Agent: {{user_agent}} -m {{METHOD}} {{http://example.com/some/path}}</blockquote>
+- Make a request with HTTP authentication:
+
+<blockquote>lwp-request -C {{username}}:{{password}} -m {{METHOD}} {{http://example.com/some/path}}</blockquote>
+- Make a request and print request headers:
+
+<blockquote>lwp-request -U -m {{METHOD}} {{http://example.com/some/path}}</blockquote>
+- Make a request and print response headers and status chain:
+
+<blockquote>lwp-request -E -m {{METHOD}} {{http://example.com/some/path}}</blockquote>

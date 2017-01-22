@@ -1,0 +1,17 @@
+<h2> hub</h2><br>
+<b>Description:</b> <b>A wrapper for git that adds commands for working with github-based projects.</b><br><br><b>Description:</b> <b>The commands can also be used using "git" instead of "hub".</b><br><br>
+- Clone a repository you own, using just the repository name rather than the full URL:
+
+<blockquote>hub clone {{repo_name}}</blockquote>
+- Clone another user's repository, using their github username and the repository name:
+
+<blockquote>hub clone {{username}}/{{repo_name}}</blockquote>
+- Create a fork of the current repository (cloned from another user) under your github profile:
+
+<blockquote>hub fork</blockquote>
+- Create a PR of the current branch in the original repository (after pushing the branch to github):
+
+<blockquote>hub pull-request</blockquote>
+- Upload the current (local-only) repository to your github account:
+
+<blockquote>hub create</blockquote>

@@ -1,0 +1,14 @@
+<h2> service</h2><br>
+<b>Description:</b> <b>Manage services by running init scripts.</b><br><br><b>Description:</b> <b>The full script path should be omitted (/etc/init.d/ is assumed).</b><br><br>
+- Start/Stop/Restart/Reload service (start/stop should always be available):
+
+<blockquote>service {{init_script}} {{start|stop|restart|reload}}</blockquote>
+- Do a full restart (runs script twice with start and stop):
+
+<blockquote>service {{init_script}} --full-restart</blockquote>
+- Show the current status of a service:
+
+<blockquote>service {{init_script}} status</blockquote>
+- List the status of all services:
+
+<blockquote>service --status-all</blockquote>

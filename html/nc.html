@@ -1,0 +1,29 @@
+<h2> nc</h2><br>
+<b>Description:</b> <b>Reads and writes tcp or udp data.</b><br><br>
+- Listen on a specified port:
+
+<blockquote>nc  -l {{port}}</blockquote>
+- Connect to a certain port (you can then write to this port):
+
+<blockquote>nc {{ip_address}} {{port}}</blockquote>
+- Set a timeout:
+
+<blockquote>nc -w {{timeout_in_seconds}} {{ipaddress}} {{port}}</blockquote>
+- Serve a file:
+
+<blockquote>nc -l {{port}} < {{file}}</blockquote>
+- Receive a file:
+
+<blockquote>nc {{ip_address}} {{port}} > {{file}}</blockquote>
+- Server stay up after client detach:
+
+<blockquote>nc -k -l {{port}}</blockquote>
+- Client stay up after EOF:
+
+<blockquote>nc -q {{timeout}} {{ip_address}}</blockquote>
+- Port scanning:
+
+<blockquote>nc -v -z {{ip_address}} {{port}}</blockquote>
+- Proxy and port forwarding:
+
+<blockquote>nc -l {{port}} | nc {{hostname}} {{port}}</blockquote>

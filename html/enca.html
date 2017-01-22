@@ -1,0 +1,14 @@
+<h2> enca</h2><br>
+<b>Description:</b> <b>Detect and convert encoding of text files.</b><br><br>
+- Detect file(s) encoding according to your system's locale:
+
+<blockquote>enca {{file(s)}}</blockquote>
+- Detect file(s) encoding; -L option tells enca the current language; language is in the POSIX/C locale format, e.g. zh_CN, en_US etc:
+
+<blockquote>enca -L {{language}} {{file(s)}}</blockquote>
+- Convert file(s) to specified encoding:
+
+<blockquote>enca -L {{language}} -x {{to_encoding}} {{file(s)}}</blockquote>
+- Save original_file as new_file and convert new_file to specified encoding:
+
+<blockquote>enca -L {{language}} -x {{to_encoding}} < {{original_file}} > {{new_file}}</blockquote>

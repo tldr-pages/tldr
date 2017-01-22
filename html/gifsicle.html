@@ -1,0 +1,11 @@
+<h2> gifsicle</h2><br>
+<b>Description:</b> <b>Create gifs.</b><br><br>
+- Make a GIF animation with gifsicle:
+
+<blockquote>gifsicle --delay={{10}} --loop *.gif > {{anim.gif}}</blockquote>
+- Extract frames from an animation:
+
+<blockquote>gifsicle {{anim.gif}} '#0' > {{firstframe.gif}}</blockquote>
+- You can also edit animations by replacing, deleting, or inserting frames:
+
+<blockquote>gifsicle -b {{anim.gif}} --replace '#0' {{new.gif}}</blockquote>

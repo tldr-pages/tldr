@@ -1,0 +1,17 @@
+<h2> montage</h2><br>
+<b>Description:</b> <b>Imagemagick image montage tool.</b><br><br><b>Description:</b> <b>Tiles images into a customisable grid.</b><br><br>
+- Tile images into a grid, automatically resizing images larger than the grid cell size:
+
+<blockquote>montage {{image1.png}} {{image2.jpg}} {{imageN.png}} montage.jpg</blockquote>
+- Tile images into a grid, automatically calculating the grid cell size from the largest image:
+
+<blockquote>montage {{image1.png}} {{image2.jpg}} {{imageN.png}} -geometry +0+0 montage.jpg</blockquote>
+- Set the grid cell size and resize images to fit it before tiling:
+
+<blockquote>montage {{image1.png}} {{image2.jpg}} {{imageN.png}} -geometry 640x480+0+0 montage.jpg</blockquote>
+- Limit the number of rows and columns in the grid, causing input images to overflow into multiple output montages:
+
+<blockquote>montage {{image1.png}} {{image2.jpg}} {{imageN.png}} -geometry +0+0 -tile 2x3 montage_%d.jpg</blockquote>
+- Resize and crop images to completely fill their grid cells before tiling:
+
+<blockquote>montage {{image1.png}} {{image2.jpg}} {{imageN.png}} -geometry +0+0 -resize 640x480^ -gravity center -crop 640x480+0+0 montage.jpg</blockquote>

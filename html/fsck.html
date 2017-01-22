@@ -1,0 +1,11 @@
+<h2> fsck</h2><br>
+<b>Description:</b> <b>Check the integrity of a filesystem or repair it. The filesystem should be unmounted at the time the command is run.</b><br><br>
+- Check filesystem /dev/sda, reporting any damaged blocks:
+
+<blockquote>fsck {{/dev/sda}}</blockquote>
+- Check filesystem /dev/sda, reporting any damaged blocks and interactively letting the user choose to repair each one:
+
+<blockquote>fsck -r {{/dev/sda}}</blockquote>
+- Check filesystem /dev/sda, reporting any damaged blocks and automatically repairing them:
+
+<blockquote>fsck -a {{/dev/sda}}</blockquote>

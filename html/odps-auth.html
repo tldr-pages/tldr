@@ -1,0 +1,23 @@
+<h2> odps auth</h2><br>
+<b>Description:</b> <b>User authorities in ODPS (Open Data Processing Service).</b><br><br>
+- Add a user to the current project:
+
+<blockquote>add user {{user_name}};</blockquote>
+- Grant a set of authorities to a user:
+
+<blockquote>grant {{action_list}} on {{object_type}} {{object_name}} to user {{user_name}};</blockquote>
+- Show authorities of a user:
+
+<blockquote>show grants for {{user_name}};</blockquote>
+- Create a user role:
+
+<blockquote>create role {{role_name}};</blockquote>
+- Grant a set of authorities to a role:
+
+<blockquote>grant {{action_list}} on {{object_type}} {{object_name}} to role {{role_name}};</blockquote>
+- Describe authorities of a role:
+
+<blockquote>desc role {{role_name}};</blockquote>
+- Grant a role to a user:
+
+<blockquote>grant {{role_name}} to {{user_name}};</blockquote>

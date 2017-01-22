@@ -1,0 +1,8 @@
+<h2> convmv</h2><br>
+<b>Description:</b> <b>Convert filenames (NOT file content) from one encoding to another.</b><br><br>
+- Test filename encoding conversion (don't actually change the filename):
+
+<blockquote>convmv -f {{from_encoding}} -t {{to_encoding}} {{input_file}}</blockquote>
+- Convert filename encoding and rename the file to the new enconding:
+
+<blockquote>convmv -f {{from_encoding}} -t {{to_encoding}} --notest {{input_file}}</blockquote>

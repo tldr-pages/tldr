@@ -1,0 +1,17 @@
+<h2> aria2c</h2><br>
+<b>Description:</b> <b>Fast download utility.</b><br><br><b>Description:</b> <b>Supports HTTP(S), FTP, SFTP, BitTorrent, and Metalink.</b><br><br>
+- Download a URI to a file:
+
+<blockquote>aria2c {{url}}</blockquote>
+- Download from multiple sources:
+
+<blockquote>aria2c {{url_1}} {{url_2}}</blockquote>
+- Download the URIs listed in a file:
+
+<blockquote>aria2c -i {{filename}}</blockquote>
+- Download with multiple connections:
+
+<blockquote>aria2c -s {{connections_num}} {{url}}</blockquote>
+- FTP download with username and password:
+
+<blockquote>aria2c --ftp-user={{username}} --ftp-passwd={{password}} {{url}}</blockquote>

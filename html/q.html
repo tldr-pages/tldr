@@ -1,0 +1,20 @@
+<h2> q</h2><br>
+<b>Description:</b> <b>Execute SQL-like queries on .csv and .tsv files.</b><br><br>
+- Query .csv file by specifying the delimeter as ',':
+
+<blockquote>q -d',' "SELECT * from {{path/to/file}}"</blockquote>
+- Query .tsv file:
+
+<blockquote>q -t "SELECT * from {{path/to/file}}"</blockquote>
+- Query file with header row:
+
+<blockquote>q -d{{delimiter}} -H "SELECT * from {{path/to/file}}"</blockquote>
+- Read data from stdin; '-' in the query represents the data from stdin:
+
+<blockquote>{{output}} | q "select * from -"</blockquote>
+- Join two files (aliased as `f1` and `f2` in the example) on column `c1`, a common column:
+
+<blockquote>q "SELECT * FROM {{path/to/file}} f1 JOIN {{path/to/other_file}} f2 ON (f1.c1 = f2.c1)"</blockquote>
+- Format output using an output delimeter with an output header line (note: command will output column names based on the input file header or the column aliases overridden in the query):
+
+<blockquote>q -D{{delimiter}} -O "SELECT {{column}} as {{alias}} from {{path/to/file}}"</blockquote>

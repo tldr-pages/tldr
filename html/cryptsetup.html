@@ -1,0 +1,11 @@
+<h2> cryptsetup</h2><br>
+<b>Description:</b> <b>Manage plain dm-crypt and LUKS (Linux Unified Key Setup) encrypted volumes.</b><br><br>
+- Initialize a LUKS volume (overwrites all data on the partition):
+
+<blockquote>cryptsetup luksFormat {{/dev/sda1}}</blockquote>
+- Open a LUKS volume and create a decrypted mapping at /dev/mapper/{{target}}:
+
+<blockquote>cryptsetup luksOpen {{/dev/sda1}} {{target}}</blockquote>
+- Remove an existing mapping:
+
+<blockquote>cryptsetup luksClose {{target}}</blockquote>

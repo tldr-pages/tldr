@@ -1,0 +1,14 @@
+<h2> csvsort</h2><br>
+<b>Description:</b> <b>Sorts CSV files.</b><br><br><b>Description:</b> <b>Included in csvkit.</b><br><br>
+- Sort a CSV file by column 9:
+
+<blockquote>csvsort -c {{9}} {{data.csv}}</blockquote>
+- Sort a CSV file by the "name" column in descending order:
+
+<blockquote>csvsort -r -c {{name}} {{data.csv}}</blockquote>
+- Sort a CSV file by column 2, then by column 4:
+
+<blockquote>csvsort -c {{2,4}} {{data.csv}}</blockquote>
+- Sort a CSV file without inferring data types:
+
+<blockquote>csvsort --no-inference -c {{columns}} {{data.csv}}</blockquote>

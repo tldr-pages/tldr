@@ -1,0 +1,11 @@
+<h2> wall</h2><br>
+<b>Description:</b> <b>Write a message on the terminals of users currently logged in.</b><br><br><b>Description:</b> <b>Only available to super-user.</b><br><br>
+- Send a message:
+
+<blockquote>echo "{{message}}" | wall</blockquote>
+- Send a message from a file:
+
+<blockquote>wall {{file}}</blockquote>
+- Send a message with timeout (default 300):
+
+<blockquote>wall -t {{seconds}} {{file}}</blockquote>

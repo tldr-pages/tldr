@@ -1,0 +1,17 @@
+<h2> axel</h2><br>
+<b>Description:</b> <b>Download accelerator.</b><br><br><b>Description:</b> <b>Supports HTTP, HTTPS, and FTP.</b><br><br>
+- Download a URL to a file:
+
+<blockquote>axel {{url}}</blockquote>
+- Download and specify filename:
+
+<blockquote>axel {{url}} -o {{filename}}</blockquote>
+- Download with multiple connections:
+
+<blockquote>axel -n {{connections_num}} {{url}}</blockquote>
+- Search for mirrors:
+
+<blockquote>axel -S {{mirrors_num}} {{url}}</blockquote>
+- Limit download speed (bytes per second):
+
+<blockquote>axel -s {{speed}} {{url}}</blockquote>
