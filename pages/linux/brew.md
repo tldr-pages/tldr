@@ -29,3 +29,7 @@
 - Display information about formula, which contains formula version, installed path, dependencies, etc.:
 
 `brew info {{formula}}`
+
+- Check your system for potential problems:
+
+`brew doctor`
