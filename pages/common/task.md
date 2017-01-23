@@ -12,12 +12,12 @@
 
 - Mark task as completed:
 
-`task {{task_ID}} done`
+`task {{task_id}} done`
 
 - Modify task:
 
-`task {{task_ID}} modify {{new_thing_to_do}}`
+`task {{task_id}} modify {{new_thing_to_do}}`
 
 - Delete task:
 
-`task {{task_ID}} delete`
+`task {{task_id}} delete`
