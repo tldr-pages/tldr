@@ -10,11 +10,11 @@
 
 `nslookup -type=NS {{example.com}} {{8.8.8.8}}`
 
-- Query default name server for a reverse lookup (PTR record) of an IP address:
+- Query for a reverse lookup (PTR record) of an IP address:
 
 `nslookup -type=PTR {{54.240.162.118}}`
 
-- Query your system's default name server for ANY available records using TCP protocol:
+- Query for ANY available records using TCP protocol:
 
 `nslookup -vc -type=ANY {{example.com}} `
 
@@ -22,7 +22,7 @@
 
 `nslookup -vc -type=AXFR {{example.com}} {{name_server}}`
 
-- Query default name server for a mail server (MX record) of the domain, showing details of the transaction:
+- Query for a mail server (MX record) of the domain, showing details of the transaction:
 
 `nslookup -type=MX -debug {{example.com}}`
 
