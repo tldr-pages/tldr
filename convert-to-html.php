@@ -23,6 +23,7 @@ if (! $html)
    exit(3);
 }
 
+$block = false;
 $input = fgets($md);
 while ($input)
 {
@@ -41,6 +42,20 @@ while ($input)
       $output = str_replace('> ', '<b>', $input);
       $output = $output . '</b><br><br>';
    }
+   // Handle opening and closing block quotes
+   else if ( strpos($input, '```') !== FALSE)
+   {
+      if ($block)
+      {
+        $output = '</blockquote>';
+        $block = false;
+      }
+      else
+      {
+         $output = "<blockquote>\n";
+         $block = true;
+      }
+   }
    else if ($input[0] == '`')
    {
        $input = trim($input);
@@ -52,6 +67,9 @@ while ($input)
 
    $output = str_replace('{{', '<i>', $output);
    $output = str_replace('}}', '</i>', $output);
+   // When working in a block quote, add a newline
+   if ($block)
+      $output = $output . '<br>';
    fputs($html, $output);
 
    $input = fgets($md);

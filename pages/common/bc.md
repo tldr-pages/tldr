@@ -2,9 +2,9 @@
 
 > Calculator.
 
-- Run calculator in interactive mode:
+- Run calculator in interactive mode using the standard math library:
 
-`bc -i`
+`bc -l`
 
 - Calculate the result of an expression:
 
