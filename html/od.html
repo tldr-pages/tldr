@@ -1,0 +1,18 @@
+<b>od</b><br><br>
+<b>Display file contents in hexadecimal, octal, or printable character format.</b><br><br><b>Optionally display the byte offsets into the file.</b><br><br>
+- Display file in octal format 8 bytes per line with the byte offsets in octal as well replacing duplicate lines with `*`:
+
+<blockquote>od <i>/path/to/file</i></blockquote>
+- Display file in hexadecimal format with byte offsets in hexadecimal, 4 bytes per line with each entry 1 byte long:
+
+<blockquote>od --address-radix=x --format=x1 --width=4 -v <i>/path/to/file</i></blockquote>
+- Display only printable strings of at least 5 characters long in the file along with the byte offsets in hexadecimal:
+
+<blockquote>od --address-radix=x --string=5 -v <i>/path/to/file</i></blockquote>
+- Read only given number of first bytes of a file and display it in the hexadecimal format:
+
+<blockquote>od --address-radix=x --format=x --read-bytes 100 -v <i>/path/to/file</i></blockquote>
+- Display file in hexadecimal format along with its character representation, also do not print byte offsets:
+
+<blockquote>od --address-radix=n --format=xz -v <i>/path/to/file</i></blockquote>
+
