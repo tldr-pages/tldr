@@ -32,8 +32,8 @@ while ($input)
    if ($input[0] == '#')
    {
       $input = trim($input);
-      $output = str_replace('#', '<h2>', $input);
-      $output = $output . '</h2><br>';
+      $output = str_replace('# ', '<b>', $input);
+      $output = $output . '</b><br><br>';
    }
    else if ($input[0] == '>')
    {
