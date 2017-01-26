@@ -10,6 +10,6 @@
 
 `import -window root -display {{remote.host}}:0.0 {{output.png}}`
 
-- Capture specific window with ID as displayed by `xwininfo`
+- Capture specific window with ID as displayed by `xwininfo`:
 
 `import -window {{window_id}} {{output.jpg}}
