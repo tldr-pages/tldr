@@ -16,7 +16,7 @@
 
 - Specify a file to include as the message body:
 
-`mutt -i {{body_file}} {{recipient@example.com}}`
+`mutt -i {{file}} {{recipient@example.com}}`
 
 - Specify a draft file containing the header and the body of the message:
 
