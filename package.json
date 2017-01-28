@@ -12,7 +12,7 @@
     "precommit": "npm test",
     "lint-markdown": "markdownlint pages/**/*.md",
     "lint-tldr": "tldr-lint ./pages",
-    "test": "markdownlint pages/ && tldr-lint ./pages",
+    "test": "markdownlint pages/ && tldr-lint ./pages > test_result 2>&1",
     "build-index": "node ./scripts/build-index.js > pages/index.json"
   },
   "repository": "tldr-pages/tldr",
