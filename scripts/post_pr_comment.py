@@ -21,7 +21,7 @@ def post_comment(pr_id, repo_slug, comment_body, user_token):
 # Get the environment variables
 PR_NUMBER = os.environ.get('TRAVIS_PULL_REQUEST')
 REPO_SLUG = os.environ.get('TRAVIS_REPO_SLUG') # owner_name/repo_name
-BOT_TOKEN = 'fa82308579f8648854eaf44c4875dfa8327f233c' #publicly available because the bot does not have any permissions
+BOT_TOKEN = os.environ.get('TRAVIS_BOT_GITHUB_TOKEN')
 BUILD_ID = os.environ.get('TRAVIS_BUILD_ID')
 
 # Read the test result output from stdin
