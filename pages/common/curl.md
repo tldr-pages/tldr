@@ -11,7 +11,7 @@
 
 `curl -O {{http://example.com/filename}}`
 
-- Download a file, following [L]ocation redirects, and automatically [C]ontinuing/resuming a previous file transfer:
+- Download a file, following [L]ocation redirects, and automatically [C]ontinuing (resuming) a previous file transfer:
 
 `curl -O -L -C - {{http://example.com/filename}}`
 
