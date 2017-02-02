@@ -13,4 +13,4 @@
 
 - Capture specific window with ID as displayed by `xwininfo` into `jpg` format:
 
-`import -window {{window_id}} {{output.jpg}}
+`import -window {{window_id}} {{output.jpg}}`
