@@ -1,6 +1,6 @@
 # xeyes
 
-> Display eyes on the screen that follow the mouese cursor
+> Display eyes on the screen that follow the mouse cursor
 
 - Launch xeyes on local display:
 
@@ -8,4 +8,4 @@
 
 - Launch xeyes on a remote display:
 
-`xeyes -display {{remote.host}}:0.0`
+`xeyes -display {{remote_host}}:0.0`
