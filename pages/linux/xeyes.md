@@ -8,4 +8,4 @@
 
 - Launch xeyes on a remote display:
 
-`xeyes -display {{remote_host}}:0.0`
+`xeyes -display {{remote_host}}:{{display}}.{{screen}}`
