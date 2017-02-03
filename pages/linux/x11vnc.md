@@ -1,6 +1,6 @@
 # x11vnc
 
-> A VNC server for real X Displays.  
+> A VNC server for real X Displays.
 
 - Launch a VNC server that allows multiple clients to connect:
 
