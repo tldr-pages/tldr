@@ -1,7 +1,7 @@
 # import
 
 > Capture some or all of an X server screen and save the image to a file. 
-> Part of ImageMagick library
+> Part of ImageMagick library.
 
 - Capture the entire X server screen in the Postscript image format:
 
