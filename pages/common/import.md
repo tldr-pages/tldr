@@ -12,4 +12,4 @@
 
 - Capture specific window with ID as displayed by `xwininfo`:
 
-`import -window {{window_id}} {{output.jpg}}
+`import -window {{window_id}} {{output.jpg}}`
