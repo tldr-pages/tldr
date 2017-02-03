@@ -22,3 +22,7 @@
 - Print statistical data of an audio file:
 
 `sox {{input_audiofile}} -n stat`
+
+- Increase the volume of an audio file by 2x:
+
+`sox -v 2.0 {{input_audiofile}} {{output_audiofile}}`

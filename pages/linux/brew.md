@@ -10,18 +10,22 @@
 
 `brew install {{formula}}`
 
-- List installed formulae [with matching name]:
+- List all installed formulae:
 
-`brew list {{[text]}}`
+`brew list`
 
 - Get latest version of installed formula (passing no formula updates all installed formulae):
 
-`brew upgrade {{[formula]}}`
+`brew upgrade {{formula}}`
 
 - Update brew:
 
 `brew update`
 
-- Switch version of formula:
+- Display information about formula, which contains formula version, installed path, dependencies, etc.:
 
-`brew switch {{formula}} {{version}}`
+`brew info {{formula}}`
+
+- Check your system for potential problems:
+
+`brew doctor`
