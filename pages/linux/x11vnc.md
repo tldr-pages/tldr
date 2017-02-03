@@ -16,7 +16,7 @@
 
 - Launch a VNC server on screen 2 with the default display:
 
-`x11vnc -display :2
+`x11vnc -display :2`
 
 - Launch a VNC server on the second monitor:
 
