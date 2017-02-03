@@ -1,5 +1,5 @@
 <b>cowsay</b><br><br>
-<b>Generate an ASCII character like a cow or sheep saying or thinking something.</b><br><br>
+<b>Generate an ASCII character like a cow or sheep saying or thinking something.</b><br><br><b>Available characters are stored in the /usr/share/cowsay on Linux.</b><br><br><b>And /usr/local/share/cows/ on Mac. directory.</b><br><br>
 - Print an ASCII cow saying "Hello world!":
 
 <blockquote>cowsay "Hello world!"</blockquote>
@@ -9,3 +9,6 @@
 - Print a stoned thinking ASCII cow:
 
 <blockquote>cowthink -s "I'm just a cow, not a great thinker ..."</blockquote>
+- Print out a list of all characters with cowsay:
+
+<blockquote>ls -1 <i>cowsay_character_directory</i>  | rev | cut -c 5- | rev | xargs -I _ cowsay -f _ cowsay -f _</blockquote>
