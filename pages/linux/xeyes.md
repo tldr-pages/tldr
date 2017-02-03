@@ -1,6 +1,6 @@
 # xeyes
 
-> Display eyes on the screen that follow the mouse cursor
+> Display eyes on the screen that follow the mouse cursor.
 
 - Launch xeyes on local display:
 
