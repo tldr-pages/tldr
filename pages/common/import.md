@@ -9,7 +9,7 @@
 
 - Capture contents of remote x server screen in the `png` image format:
 
-`import -window root -display {{remote_host}}:0.0 {{output.png}}`
+`import -window root -display {{remote_host}}:{screen}.{display} {{output.png}}`
 
 - Capture specific window with ID as displayed by `xwininfo` into `jpg` format:
 
