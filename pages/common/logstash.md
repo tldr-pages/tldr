@@ -1,6 +1,7 @@
 # logstash
 
-> An ETL(extract, transform and load) tool, usually used to ingest data from various sources, like databases and flat log files into elasticsearch.
+> An ETL (extract, transform and load) tool.
+> Commonly used to load data from various sources, like databases and log files, into elasticsearch.
 
 - Check validity of a logstash configuration:
 
