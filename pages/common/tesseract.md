@@ -1,27 +1,22 @@
 # Tesseract
 
-> OCR (Optical Character Recognition) engine
+> OCR (Optical Character Recognition) engine.
 
+- Recognize text in image `image.png` and save to `output.txt` file:
 
-- Recognize text in image `image.png` and save to `content.txt` file:
+`tesseract {{image.png}} {{output}}`
 
-`tesseract {{image.png}} {{content}}`
+- Specify another language than English with a ISO 639-2 code (e.g. deu = Deutsch = German):
 
-
-- Specify another language than English:
-
-`tesseract -l deu {{image.png}} {{content}}`
-
+`tesseract -l deu {{image.png}} {{output}}`
 
 - Specify a different page segmentation mode (e.g. Number 8: Treat image as a single word):
 
-`tesseract -psm {{0_to_10}} {{image.png}} {{content}}`
-
+`tesseract -psm {{0_to_10}} {{image.png}} {{output}}`
 
 - List page segmentation modes:
 
 `tesseract --help-psm`
-
 
 - List available languages:
 
