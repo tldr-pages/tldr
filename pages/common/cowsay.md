@@ -2,7 +2,7 @@
 
 > Generate an ASCII character like a cow or sheep saying or thinking something.
 > Available characters are stored in the /usr/share/cowsay on Linux.
-> And /usr/local/share/cows/ on Mac. directory.
+> And /usr/local/share/cows/ on Mac.
 
 - Print an ASCII cow saying "Hello world!":
 
