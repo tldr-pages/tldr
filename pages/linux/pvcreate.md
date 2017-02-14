@@ -1,6 +1,6 @@
 # pvcreate
 
-> Initialize a disk or partition for use by LVM.
+> Initialize a disk or partition for use by LVM (Logical Volume Manager).
 
 - Initialize /dev/sda1 to use lvm:
 
