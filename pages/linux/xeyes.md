@@ -6,6 +6,6 @@
 
 `xeyes`
 
-- Launch xeyes on a remote display:
+- Launch xeyes on a remote display 0 screen 0:
 
-`xeyes -display {{remote_host}}:{{display}}.{{screen}}`
+`xeyes -display {{remote_host}}:{{0}}.{{0}}`
