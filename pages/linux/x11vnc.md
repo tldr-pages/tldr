@@ -1,7 +1,7 @@
 # x11vnc
 
 > A VNC server that will enable VNC on an existing display.
-
+> By default, once a client disconnects the server will terminate.
 
 - Launch a VNC server that allows multiple clients to connect:
 
