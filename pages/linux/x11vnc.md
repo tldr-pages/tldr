@@ -2,6 +2,7 @@
 
 > A VNC server that will enable VNC on an existing display.
 
+
 - Launch a VNC server that allows multiple clients to connect:
 
 `x11vnc -shared`
@@ -10,7 +11,7 @@
 
 `x11vnc -forever -viewonly`
 
-- Launch a VNC server on a specific display and screen:
+- Launch the server where the user can only view the screen, and will continue to run even after the last client disconnects:
 
 `x11vnc -display :{{screen}}.{{display}}`
 
