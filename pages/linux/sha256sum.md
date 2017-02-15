@@ -6,7 +6,7 @@
 
 `sha256sum {{filename1}}`
 
-- Calculate SHA224 checksums for multiple files:
+- Calculate SHA256 checksums for multiple files:
 
 `sha256sum {{filename1}} {{filename2}}`
 
