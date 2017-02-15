@@ -7,18 +7,18 @@
 
 `x11vnc -shared`
 
-- Launch a VNC server that will not exist after a client disconnects:
+- Launch the server where the user can only view the screen, and will continue to run even after the last client disconnects:
 
 `x11vnc -forever -viewonly`
 
-- Launch the server where the user can only view the screen, and will continue to run even after the last client disconnects:
+- Launch a VNC server on a specific display and screen:
 
 `x11vnc -display :{{screen}}.{{display}}`
 
 - Launch a VNC server on screen 2 with the default display:
 
-`x11vnc -display :2`
+`x11vnc -display :{{2}}`
 
 - Launch a VNC server on the second monitor:
 
-`x11vnc -display :0.1`
+`x11vnc -display :{{0}}.{{1}}`
