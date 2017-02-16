@@ -14,6 +14,11 @@
 
 `git log --oneline`
 
+- Show all commits and branches in a graph format:
+
+`git log --oneline --abbrev-commit --decorate --all --graph`
+
 - Show only commits whose messages include a given string (case-insensitively):
 
 `git log -i --grep {{search_string}}`
+
