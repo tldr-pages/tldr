@@ -21,4 +21,3 @@
 - Show only commits whose messages include a given string (case-insensitively):
 
 `git log -i --grep {{search_string}}`
-
