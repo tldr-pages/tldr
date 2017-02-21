@@ -13,3 +13,7 @@
 - Pipe command output through figlet:
 
 `{{command}} | figlet`
+
+- Show available figlet fonts:
+
+`showfigfonts {{optional_string_to_display}}`
