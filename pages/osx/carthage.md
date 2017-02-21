@@ -10,7 +10,11 @@
 
 `carthage update --platform ios`
 
-- Download and build the current dependency set:
+- Update dependencies but dont bulid:
+
+`carthage update --no-build`
+
+- Download and rebuild the current dependency set with out updating:
 
 `carthage bootstrap`
 
