@@ -10,7 +10,7 @@
 
 `carthage update --platform ios`
 
-- Update dependencies but dont bulid:
+- Update dependencies but don't bulid:
 
 `carthage update --no-build`
 
