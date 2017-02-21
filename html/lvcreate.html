@@ -1,0 +1,14 @@
+<b>lvcreate</b><br><br>
+<b>Creates a logical volume in an existing volume group.</b><br><br>
+- Create a logical volume 10 gigabytes in size in the volume group vg1:
+
+<blockquote>lvcreate -L <i>10G</i> <i>vg1</i></blockquote>
+- Create a 1500 megabyte linear logical volume named mylv in the volume group vg1:
+
+<blockquote>lvcreate -L <i>1500</i> -n <i>mylv</i> <i>vg1</i></blockquote>
+- Create a logical volume called mylv that uses 60% of the total space in volume group vg1:
+
+<blockquote>lvcreate -l <i>60%VG</i> -n <i>mylv</i> <i>vg1</i></blockquote>
+- Create a logical volume called mylv that uses all of the unallocated space in the volume group vg1:
+
+<blockquote>lvcreate -l <i>100%FREE</i> -n <i>mylv</i> <i>vg1</i></blockquote>
