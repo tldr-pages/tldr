@@ -1,6 +1,8 @@
 # carthage
 
-> Carthage is a dependency management tool for Swift and Objective-C.
+> Carthage is a dependency management tool for Cocoa applications.
+> Download and build all dependencies mentioned in Cartfile.
+> Also used to update dependencies to their latest version.
 
 - Update the current set of dependencies:
 
@@ -14,7 +16,7 @@
 
 `carthage update --no-build`
 
-- Download and rebuild the current dependency set with out updating:
+- Download and rebuild the current dependency set without updating:
 
 `carthage bootstrap`
 
