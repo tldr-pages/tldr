@@ -1,17 +1,17 @@
-<b>Tesseract</b><br><br>
+<b>tesseract</b><br><br>
 <b>OCR (Optical Character Recognition) engine.</b><br><br>
-- Recognize text in image `image.png` and save to `output.txt` file:
+- Recognize text in an image and save it to `output.txt`. The file extension MUST not be mentioned:
 
 <blockquote>tesseract <i>image.png</i> <i>output</i></blockquote>
-- Specify another language than English with a ISO 639-2 code (e.g. deu = Deutsch = German):
+- Specify a custom language (default is English) with an ISO 639-2 code (e.g. deu = Deutsch = German):
 
 <blockquote>tesseract -l deu <i>image.png</i> <i>output</i></blockquote>
-- Specify a different page segmentation mode (e.g. Number 8: Treat image as a single word):
-
-<blockquote>tesseract -psm <i>0_to_10</i> <i>image.png</i> <i>output</i></blockquote>
-- List page segmentation modes:
-
-<blockquote>tesseract --help-psm</blockquote>
-- List available languages:
+- List the ISO 639-2 codes of available languages:
 
 <blockquote>tesseract --list-langs</blockquote>
+- Specify a custom page segmentation mode (default is 3):
+
+<blockquote>tesseract -psm <i>0_to_10</i> <i>image.png</i> <i>output</i></blockquote>
+- List page segmentation modes and their descriptions:
+
+<blockquote>tesseract --help-psm</blockquote>
