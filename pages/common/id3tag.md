@@ -1,6 +1,6 @@
 # id3tag
 
-> Tool for reading, writing, and manipulating ID3v1 and ID3v2 tags. 
+> Tool for reading, writing, and manipulating ID3v1 and ID3v2 tags.
 
 - Set artist and title tag of an MP3:
 
