@@ -22,10 +22,6 @@
 
 `?{{something}}`
 
-- Enable output of ANSI colors:
-
-`git diff --color | less -R`
-
 - Open the current file in an editor:
 
 `v`
