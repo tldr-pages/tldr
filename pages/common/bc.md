@@ -10,7 +10,7 @@
 
 `bc <<< "(1 + 2) * 2 ^ 2"`
 
-- Calculate with the given precision:
+- Calculate expression and force number of decimal places to 10:
 
 `bc <<< "scale=10; 5 / 3"`
 
