@@ -4,7 +4,7 @@
 > Download and build all dependencies mentioned in Cartfile.
 > Also used to update dependencies to their latest version.
 
-- Update the current set of dependencies:
+- Fetch and build the current set of dependencies:
 
 `carthage update`
 
