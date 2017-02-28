@@ -2,14 +2,14 @@
 
 > Distributed key-value store with health checking and service discovery.
 
-- Read a value from the key-value store:
+- Check the Consul version:
 
-`consul kv get {{key}}`
+`consul --version`
 
-- Store a new key-value pair:
+- Show general help:
 
-`consul kv put {{key}} {{value}}`
+`consul --help`
 
-- Delete a key-value pair:
+- Show help for a sub-command:
 
-`consul kv delete {{key}}`
+`consul {{sub-command}} --help`
