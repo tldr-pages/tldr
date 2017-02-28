@@ -8,7 +8,7 @@
 
 - Show general help:
 
-`consul --help
+`consul --help`
 
 - Show help for a sub-command:
 
