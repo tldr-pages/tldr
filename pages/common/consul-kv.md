@@ -1,4 +1,4 @@
-# consul
+# consul-kv
 
 > Distributed key-value store with health checking and service discovery.
 
