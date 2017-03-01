@@ -12,7 +12,7 @@
 
 - Archive a directory and its contents with the highest level [9] of compression:
 
-`zip -r -9 {{compressed.zip}} {{/path/to/dir}}`
+`zip -r -{{9}} {{compressed.zip}} {{/path/to/dir}}`
 
 - Package and compress multiple directories and files:
 
