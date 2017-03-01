@@ -10,6 +10,10 @@
 
 `zip -r {{compressed.zip}} {{path/to/dir}} -x \*.git\* \*node_modules\* ...`
 
+- Archive a directory and its contents with the highest level [9] of compression:
+
+`zip -r -9 {{compressed.zip}} {{/path/to/dir}}`
+
 - Package and compress multiple directories and files:
 
 `zip -r {{compressed.zip}} {{/path/to/dir1 /path/to/dir2 /path/to/file}}`
