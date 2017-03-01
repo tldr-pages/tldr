@@ -1,10 +1,8 @@
 # carthage
 
 > Carthage is a dependency management tool for Cocoa applications.
-> Download and build all dependencies mentioned in Cartfile.
-> Also used to update dependencies to their latest version.
 
-- Fetch and build the current set of dependencies:
+- Download and build all dependencies mentioned in Cartfile. Also used to update dependencies to their latest version:
 
 `carthage update`
 
