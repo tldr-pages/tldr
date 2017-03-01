@@ -8,7 +8,7 @@
 
 - Compute 300px wide PNG thumbnails of all JPEGs in the current directory and put them in a directory:
 
-`qlmanage *.jpg -t -s 300 {{/existing//thumbnail/directory}}`
+`qlmanage {{*.jpg}} -t -s {{300}} {{path/to/directory}}`
 
 - Reset Quicklook:
 
