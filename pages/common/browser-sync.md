@@ -1,4 +1,4 @@
-#  browser-sync
+# browser-sync
 
 >  Starts local server that updates browser on file changes  
 
