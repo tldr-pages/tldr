@@ -33,3 +33,7 @@
 - Find files matching more than one search criteria:
 
 `find {{root_path}} -name {{'*.py'}} -or -name {{'*.r'}}`
+
+- Find files matching path pattern while excluding some certain path:
+
+`find {{root_path}} -name {{'*.py'}} -not -path '*/site-packages/*'`
