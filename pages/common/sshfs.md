@@ -1,4 +1,4 @@
-# SSHFS
+# sshfs
 
 > Filesystem client based on ssh.
 

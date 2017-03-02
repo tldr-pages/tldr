@@ -4,4 +4,4 @@
 
 - Display default infomation about a font:
 
-`fc-pattern -d '{{Font Name}}'`
+`fc-pattern -d '{{DejaVu Serif}}'`

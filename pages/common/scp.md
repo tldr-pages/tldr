@@ -5,24 +5,24 @@
 
 - Copy a local file to a remote host:
 
-`scp {{local_file}} {{remote_host}}:{{/path/remote_file}}`
+`scp {{path/to/local_file}} {{remote_host}}:{{path/to/remote_file}}`
 
 - Copy a file from a remote host to a local folder:
 
-`scp {{remote_host}}:{{/path/remote_file}} {{/path/local_dir}}`
+`scp {{remote_host}}:{{path/to/remote_file}} {{path/to/local_dir}}`
 
 - Recursively copy the contents of a directory on a remote host to a local directory:
 
-`scp -r {{/path/local_dir}} {{remote_host}}:{{/path/remote_dir}}`
+`scp -r {{path/to/local_dir}} {{remote_host}}:{{path/to/remote_dir}}`
 
 - Copy a file between two remote hosts transferring through the local host:
 
-`scp -3 {{host1}}:{{/path/remote_file.ext}} {{host2}}:{{/path/remote_dir}}`
+`scp -3 {{host1}}:{{path/to/remote_file}} {{host2}}:{{path/to/remote_dir}}`
 
 - Use a specific username when connecting to the remote host:
 
-`scp {{local_file}} {{remote_username}}@{{remote_host}}:{{/remote/path}}`
+`scp {{path/to/local_file}} {{remote_username}}@{{remote_host}}:{{path/to/remote_dir}}`
 
 - Use a specific ssh private key for authentication with the remote host:
 
-`scp -i {{~/.ssh/id_rsa}} {{local_file}} {{remote_host}}:{{/path/remote_file}}`
+`scp -i {{~/.ssh/private_key}} {{local_file}} {{remote_host}}:{{/path/remote_file}}`

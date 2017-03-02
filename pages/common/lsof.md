@@ -22,3 +22,7 @@
 - List files opened by the given command or process:
 
 `lsof -c {{process_or_command_name}}`
+
+- List files opened by the given PID:
+
+`lsof -p {{PID}}`

@@ -1,4 +1,4 @@
-# GNU Parallel
+# parallel
 
 > Run commands on multiple CPU cores.
 

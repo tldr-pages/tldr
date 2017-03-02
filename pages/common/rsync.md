@@ -1,8 +1,7 @@
 # rsync
 
-> Transfers a file either to or from a remote host.
-> Does not allow transfer between two remote hosts.
-> Can transfer single files or files matched by pattern.
+> Transfer files either to or from a remote host (not between two remote hosts).
+> Can transfer single files, or multiple files matching a pattern.
 
 - Transfer file from local to remote host:
 

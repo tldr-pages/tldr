@@ -1,32 +1,30 @@
 # less
 
-> Opens a file for reading.
-> Allows movement and search.
-> Doesn't read the entire file (suitable for logs).
+> Open a file for interactive reading, allowing scrolling and search.
 
 - Open a file:
 
 `less {{source_file}}`
 
-- Page up / down:
+- Page down / up:
 
-`<Space> (next), b (previous)`
+`<Space> (down), b (up)`
 
-- Go to start / end of file:
+- Go to end / start of file:
 
-`g (start), G (end)`
+`G (end), g (start)`
 
-- Forward search for a string:
+- Forward search for a string (press `n`/`N` to go to next/previous match):
 
-`/{{something}}   then   n (next), N (previous)`
+`/{{something}}`
 
-- Backward search for a string:
+- Backward search for a string (press `n`/`N` to go to next/previous match):
 
-`?{{something}}   then   n (next), N (previous)`
+`?{{something}}`
 
-- Enable output of ANSI colors:
+- Open the current file in an editor:
 
-`git diff --color | less -R`
+`v`
 
 - Exit:
 
