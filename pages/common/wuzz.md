@@ -1,20 +1,19 @@
 # wuzz
 
-> Interactive HTTP Inspection
+> Interactive HTTP Inspection.
 
-- Display Help
+- Display Help:
 
 `F1`
 
-- Send request
+- Send request:
 
 `Ctrl+R`
 
-- Next View
+- Next View:
 
 `Ctrl+J, Tab`
 
-- Previous View
+- Previous View:
 
 `Ctrl+K, Shift+Tab`
-
