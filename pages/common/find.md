@@ -32,4 +32,4 @@
 
 - Find files matching path pattern while excluding some certain path:
 
-`find {{root_path}} -name '{{*.py}}' -not -path '*/site-packages/*'`
+`find {{root_path}} -name '{{*.py}}' -not -path '{{*/site-packages/*}}'`
