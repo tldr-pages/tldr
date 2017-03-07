@@ -4,12 +4,12 @@
 
 - Start hangups:
 
-`hangups
+`hangups`
 
 - View troubeshooting information:
 
-`hangups -h
+`hangups -h`
 
 - Set a refresh token for hangups:
 
-`hangups --token-path {{/path/to/token}}
+`hangups --token-path {{/path/to/token}}`
