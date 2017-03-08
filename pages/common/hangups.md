@@ -1,12 +1,12 @@
 # hangups 
 
-> Third party client for Google Hangouts.
+> Third party command line client for Google Hangouts.
 
 - Start hangups:
 
 `hangups`
 
-- View troubeshooting information:
+- View troubeshooting information and help:
 
 `hangups -h`
 
