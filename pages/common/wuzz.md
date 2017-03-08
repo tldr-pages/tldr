@@ -1,6 +1,6 @@
 # wuzz
 
-> Interactive HTTP Inspection.
+> Tool to interactively inspect HTTP requests and responses.
 
 - Display Help:
 
