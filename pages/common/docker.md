@@ -25,3 +25,7 @@
 - Run a command inside of an already running container:
 
 `docker exec {{container}} {{command}}`
+
+- Copy a file from a docker container:
+
+`docker cp {{container}}:{{src_path}} {{dest_path}}`
