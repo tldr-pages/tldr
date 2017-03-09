@@ -13,4 +13,3 @@
 - Kill an instance of VNC Server running on a specific display:
 
 `vncserver --kill :{{display_number}}`
-
