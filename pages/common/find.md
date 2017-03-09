@@ -16,7 +16,7 @@
 
 - Find files modified since a certain time:
 
-`find {{root_path}} -name '{{}}' -mtime {{-1d}}`
+`find {{root_path}} -name '{{}}' -mtime {{-1}}`
 
 - Find files using case insensitive name matching, of a certain size:
 
@@ -24,7 +24,7 @@
 
 - Delete files by name, older than a certain number of days:
 
-`find {{root_path}} -name '{{*.ext}}' -mtime {{-180d}} -delete`
+`find {{root_path}} -name '{{*.ext}}' -mtime {{-180}} -delete`
 
 - Find empty files or directories:
 
