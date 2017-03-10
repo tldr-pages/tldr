@@ -11,16 +11,16 @@
 <blockquote>find <i>root_path</i> -name '<i>*.ext</i>' -exec <i>wc -l {} </i>\;</blockquote>
 - Find files modified since a certain time:
 
-<blockquote>find <i>root_path</i> -name '<i></i>' -mtime <i>-1</i></blockquote>
+<blockquote>find <i>root_path</i> -name '<i></i>' -mtime <i>-1d</i></blockquote>
 - Find files using case insensitive name matching, of a certain size:
 
 <blockquote>find <i>root_path</i> -size +500k -size -10MB -iname '<i>*.TaR.gZ</i>'</blockquote>
 - Delete files by name, older than a certain number of days:
 
-<blockquote>find <i>root_path</i> -name '<i>*.ext</i>' -mtime <i>-180</i> -delete</blockquote>
-- Find empty files or directories:
-
-<blockquote>find <i>root_path</i> -empty</blockquote>
+<blockquote>find <i>root_path</i> -name '<i>*.ext</i>' -mtime <i>-180d</i> -delete</blockquote>
 - Find files matching more than one search criteria:
 
 <blockquote>find <i>root_path</i> -name '<i>*.py</i>' -or -name '<i>*.r</i>'</blockquote>
+- Find files matching path pattern while excluding some certain path:
+
+<blockquote>find <i>root_path</i> -name '<i>*.py</i>' -not -path '<i>*/site-packages/*</i>'</blockquote>
