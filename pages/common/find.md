@@ -26,10 +26,10 @@
 
 `find {{root_path}} -name '{{*.ext}}' -mtime {{-180}} -delete`
 
-- Find empty files or directories:
-
-`find {{root_path}} -empty`
-
 - Find files matching more than one search criteria:
 
 `find {{root_path}} -name '{{*.py}}' -or -name '{{*.r}}'`
+
+- Find files matching path pattern while excluding some certain path:
+
+`find {{root_path}} -name '{{*.py}}' -not -path '{{*/site-packages/*}}'`
