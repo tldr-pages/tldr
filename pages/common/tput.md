@@ -21,3 +21,11 @@
 - Reset all terminal attributes:
 
 `tput sgr0`
+
+- Disable word wrap:
+
+`tput rmam`
+
+- Enable word wrap:
+
+`tput smam`
