@@ -2,7 +2,7 @@
 
 > Distributed version control system.
 
-- Setup Git global configuration
+- Setup Git global configuration:
 
 `git config --global user.name "{{John Doe}}"`
 `git config --global user.email {{johndoe@example.com}}`
