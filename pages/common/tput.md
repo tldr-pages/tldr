@@ -22,10 +22,6 @@
 
 `tput sgr0`
 
-- Disable word wrap:
+- Enable / Disable word wrap:
 
-`tput rmam`
-
-- Enable word wrap:
-
-`tput smam`
+`tput {{smam|rmam}}`
