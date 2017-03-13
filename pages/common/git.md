@@ -4,9 +4,9 @@
 
 - Setup Git global configuration
 
-`git config --global user.name "John Doe"
-git config --global user.email johndoe@example.com
-git config --global core.editor vim`
+`git config --global user.name "John Doe"`
+`git config --global user.email johndoe@example.com`
+`git config --global core.editor vim`
 
 - Initiate version control in the current directory, creating a .git folder
 
