@@ -4,9 +4,7 @@
 
 - Setup Git global configuration
 
-`git config --global user.name "John Doe"`
-`git config --global user.email johndoe@example.com`
-`git config --global core.editor vim`
+`git config --global user.name "{{John Doe}}"; git config --global user.email {{johndoe@example.com}}; git config --global core.editor {{vim}}`
 
 - Initiate version control in the current directory, creating a .git folder
 
@@ -22,7 +20,7 @@
 
 - Commit changes with a short description
 
-`git commit -m "Fixed something"`
+`git commit -m "{{Fixed something}}"`
 
 - Delete last commit
 
@@ -30,7 +28,7 @@
 
 - Create and checkout a new branch
 
-`git checkout -b mybranch`
+`git checkout -b {{branch_name}}`
 
 - Check the Git version:
 
