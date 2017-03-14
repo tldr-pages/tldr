@@ -1,5 +1,29 @@
 <b>git</b><br><br>
 <b>Distributed version control system.</b><br><br>
+- Setup Git global configuration:
+
+<blockquote>git config --global user.name "<i>John Doe</i>"</blockquote><blockquote>git config --global user.email <i>johndoe@example.com</i></blockquote><blockquote>git config --global core.editor <i>vim</i></blockquote>
+- Initiate version control in the current directory, creating a .git folder:
+
+<blockquote>git init</blockquote>
+- Show the working tree status (modified, added... files):
+
+<blockquote>git status</blockquote>
+- Review unstaged changes (paginate), deciding whether or not to add them to the commit:
+
+<blockquote>git add -p</blockquote>
+- Show diff of staged changes:
+
+<blockquote>git diff --cached</blockquote>
+- Commit changes with a short description:
+
+<blockquote>git commit -m "<i>Fixed something</i>"</blockquote>
+- Delete last commit:
+
+<blockquote>git reset --hard HEAD~1</blockquote>
+- Create and checkout a new branch:
+
+<blockquote>git checkout -b <i>branch_name</i></blockquote>
 - Check the Git version:
 
 <blockquote>git --version</blockquote>
