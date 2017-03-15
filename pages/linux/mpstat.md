@@ -1,11 +1,15 @@
 # mpstat
 
-> Report processors related statistics.
+> Report CPU statistics.
 
-- Display five reports of global statistics among all processors at two second intervals:
+- Display CPU statistics every 2 seconds:
 
-`mpstat 2 5`
+`mpstat {{2}}`
 
-- Display five reports of statistics for all processors at two second intervals:
+- Display 5 reports, one by one, at 2 second intervals:
 
-`mpstat -P ALL 2 5`
+`mpstat {{2}} {{5}}`
+
+- Display 5 reports, one by one, from a given processor, at 2 second intervals:
+
+`mpstat -P {{0}} {{2}} {{5}}`
