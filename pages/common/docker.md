@@ -26,6 +26,6 @@
 
 `docker exec {{container}} {{command}}`
 
-- Copy a file from a docker container:
+- Remove a container:
 
-`docker cp {{container}}:{{src_path}} {{dest_path}}`
+`docker rm {{container}}`
