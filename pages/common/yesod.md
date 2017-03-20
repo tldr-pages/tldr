@@ -1,8 +1,13 @@
 # yesod
 
-> Yesod web framework CLI helper.
+> A framework to develop Haskell web applications.
+> All yesod commands are invoked through the stack project manager.
 
-- Install Yesod CLI tool in a Yesod scaffolding:
+- Create a new scaffolded site:
+
+`stack new my-project yesod-sqlite`
+
+- Install the Yesod CLI tool within a Yesod scaffolded site:
 
 `stack build yesod-bin cabal-install --install-ghc`
 
@@ -14,6 +19,6 @@
 
 `stack -- exec yesod devel`
 
-- Deploy application using Keter:
+- Deploy application using Keter (Yesod's deployment manager):
 
 `stack -- exec yesod keter`
