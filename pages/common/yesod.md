@@ -17,7 +17,7 @@
 
 - Touch files with altered Template Haskell dependencies:
 
-`stack -- exec yesod devel`
+`stack -- exec yesod touch`
 
 - Deploy application using Keter (Yesod's deployment manager):
 
