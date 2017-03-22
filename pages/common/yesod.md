@@ -1,11 +1,11 @@
 # yesod
 
 > A framework to develop Haskell web applications.
-> All yesod commands are invoked through the stack project manager.
+> All yesod commands are invoked through the `stack` project manager.
 
-- Create a new scaffolded site:
+- Create a new scaffolded site with sqlite as backend in `my-project` directory:
 
-`stack new my-project yesod-sqlite`
+`stack new {{my-project}} {{yesod-sqlite}}`
 
 - Install the Yesod CLI tool within a Yesod scaffolded site:
 
