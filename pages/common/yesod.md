@@ -13,12 +13,12 @@
 
 - Start development server:
 
-`stack -- exec yesod devel`
+`stack exec -- yesod devel`
 
 - Touch files with altered Template Haskell dependencies:
 
-`stack -- exec yesod touch`
+`stack exec -- yesod touch`
 
 - Deploy application using Keter (Yesod's deployment manager):
 
-`stack -- exec yesod keter`
+`stack exec -- yesod keter`
