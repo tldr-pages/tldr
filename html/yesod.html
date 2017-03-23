@@ -1,17 +1,17 @@
 <b>yesod</b><br><br>
-<b>A framework to develop Haskell web applications.</b><br><br><b>All yesod commands are invoked through the stack project manager.</b><br><br>
-- Create a new scaffolded site:
+<b>A framework to develop Haskell web applications.</b><br><br><b>All yesod commands are invoked through the `stack` project manager.</b><br><br>
+- Create a new scaffolded site with sqlite as backend in `my-project` directory:
 
-<blockquote>stack new my-project yesod-sqlite</blockquote>
+<blockquote>stack new <i>my-project</i> <i>yesod-sqlite</i></blockquote>
 - Install the Yesod CLI tool within a Yesod scaffolded site:
 
 <blockquote>stack build yesod-bin cabal-install --install-ghc</blockquote>
 - Start development server:
 
-<blockquote>stack -- exec yesod devel</blockquote>
+<blockquote>stack exec -- yesod devel</blockquote>
 - Touch files with altered Template Haskell dependencies:
 
-<blockquote>stack -- exec yesod devel</blockquote>
+<blockquote>stack exec -- yesod touch</blockquote>
 - Deploy application using Keter (Yesod's deployment manager):
 
-<blockquote>stack -- exec yesod keter</blockquote>
+<blockquote>stack exec -- yesod keter</blockquote>
