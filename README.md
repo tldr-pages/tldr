@@ -68,6 +68,7 @@ You can access these pages on your computer using one of the following clients:
 - iOS clients:
   - [tldr-man-page](https://github.com/freesuraj/TLDR), available on [App Store](https://appsto.re/sg/IQ0-_.i)
   - [tldr-pages](https://github.com/mflint/ios-tldr-viewer), available on [App Store](https://itunes.apple.com/us/app/tldt-pages/id1071725095?ls=1&mt=8)
+- [Haskell client](https://github.com/psibi/tldr-hs) : `stack install tldr`
 - [Node.js client](https://github.com/tldr-pages/tldr-node-client) : `npm install -g tldr`
 - [Perl5 client](https://github.com/shoichikaji/perl-tldr): `cpanm App::tldr`
 - Python clients:
