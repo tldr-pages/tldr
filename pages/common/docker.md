@@ -25,3 +25,7 @@
 - Run a command inside of an already running container:
 
 `docker exec {{container}} {{command}}`
+
+- Remove a container:
+
+`docker rm {{container}}`
