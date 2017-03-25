@@ -1,6 +1,6 @@
 # zramctl
 
-> Setup and control zram devices
+> Setup and control zram devices.
 
 - Check if zram is enabled:
 
