@@ -1,0 +1,17 @@
+<b>zramctl</b><br><br>
+<b>Setup and control zram devices.</b><br><br>
+- Check if zram is enabled:
+
+<blockquote>lsmod | grep -i zram</blockquote>
+- Enable zram with 2 devices:
+
+<blockquote>sudo modprobe zram num_devices=<i>2</i></blockquote>
+- Initialise the next free zram device to a 2GB virtual drive:
+
+<blockquote>sudo zramctl --find --streams <i>compression_streams_count</i> --size <i>2GB</i> --algorithm lz4</blockquote>
+- List currently initialised devices:
+
+<blockquote>zramctl</blockquote>
+- Format a zram device to ext4:
+
+<blockquote>sudo mkfs.ext4 <i>/dev/zram0</i></blockquote>
