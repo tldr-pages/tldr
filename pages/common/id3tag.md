@@ -4,7 +4,7 @@
 
 - Set artist and title tag of one MP3 file on the given path:
 
-`id3tag --artist={{artist}} --title={{title}} {{path/to/file}} `
+`id3tag --artist={{artist}} --title={{title}} {{path/to/file}}`
 
 - Set album title of all MP3 files in the current directory:
 
