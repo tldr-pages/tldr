@@ -4,7 +4,7 @@
 
 - Start a new stopwatch:
 
-`timew {{item_to_track} start`
+`timew {{item_to_track}} start`
 
 - View running stopwatches:
 
