@@ -18,6 +18,6 @@
 
 `ip addr add/del {{ip}}/{{mask}} dev {{interface}}`
 
-- Add an default route:
+- Add a default route:
 
 `ip route add default via {{ip}} dev {{interface}}`
