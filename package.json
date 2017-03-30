@@ -13,7 +13,8 @@
     "lint-markdown": "markdownlint pages/**/*.md",
     "lint-tldr": "tldr-lint ./pages",
     "test": "markdownlint pages/ && tldr-lint ./pages",
-    "build-index": "node ./scripts/build-index.js > pages/index.json"
+    "build-index": "node ./scripts/build-index.js > pages/index.json",
+    "postinstall": "tldr --update"
   },
   "repository": "tldr-pages/tldr",
   "author": "Romain Prieto",
