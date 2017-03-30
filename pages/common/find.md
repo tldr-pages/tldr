@@ -10,7 +10,7 @@
 
 `find {{root_path}} -path '{{**/lib/**/*.ext}}'`
 
-- Find directories by name
+- Find directories by name:
 
 `find {{root_path}} -type d -name 'folder_*'`
 
