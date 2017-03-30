@@ -12,7 +12,7 @@
 
 - Find directories by name
 
-`find {{root_path}} -type d -name 'folder_*'
+`find {{root_path}} -type d -name 'folder_*'`
 
 - Run a command for each file, use {} within the command to access the filename:
 
