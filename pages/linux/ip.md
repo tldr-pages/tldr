@@ -14,10 +14,10 @@
 
 `ip link set {{interface}} up/down`
 
-- Add/Delete an ip address to an interface:
+- Add/Delete an IP address to an interface:
 
 `ip addr add/del {{ip}}/{{mask}} dev {{interface}}`
 
-- Add an default route:
+- Add a default route:
 
 `ip route add default via {{ip}} dev {{interface}}`
