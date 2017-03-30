@@ -10,13 +10,17 @@
 
 `find {{root_path}} -path '{{**/lib/**/*.ext}}'`
 
+- Find directories by name
+
+`find {{root_path}} -type d -name 'folder_*'`
+
 - Run a command for each file, use {} within the command to access the filename:
 
 `find {{root_path}} -name '{{*.ext}}' -exec {{wc -l {} }}\;`
 
 - Find files modified since a certain time:
 
-`find {{root_path}} -name '{{}}' -mtime {{-1d}}`
+`find {{root_path}} -name '{{}}' -mtime {{-1}}`
 
 - Find files using case insensitive name matching, of a certain size:
 
@@ -24,7 +28,7 @@
 
 - Delete files by name, older than a certain number of days:
 
-`find {{root_path}} -name '{{*.ext}}' -mtime {{-180d}} -delete`
+`find {{root_path}} -name '{{*.ext}}' -mtime {{-180}} -delete`
 
 - Find files matching more than one search criteria:
 
