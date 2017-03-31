@@ -12,7 +12,7 @@
 
 - Initialise the next free zram device to a 2GB virtual drive:
 
-`sudo zramctl --find --streams {{compression_streams_count}} --size {{2GB}} --algorithm lz4`
+`sudo zramctl --find --streams {{4}} --size {{2GB}} --algorithm lz4`
 
 - List currently initialised devices:
 
