@@ -7,7 +7,7 @@
 
 `pm2 start {{app.js}} --name {{myapp}}`
 
-- List proceses:
+- List processes:
 
 `pm2 list`
 
