@@ -1,9 +1,9 @@
 # lvcreate
 
 > Creates a logical volume in an existing volume group.
-> The Volume Group is the highest level abstraction used within the LVM. It gathers together a collection of Logical Volumes and Physical Volumes into one administrative unit.
+> A volume group is a collection of logical and physical volumes.
 
-- Create a logical volume 10 gigabytes in size in the volume group vg1:
+- Create a logical volume of 10 gigabytes in the volume group vg1:
 
 `lvcreate -L {{10G}} {{vg1}}`
 
