@@ -1,12 +1,13 @@
 # zramctl
 
 > Setup and control zram devices.
+> Use `mke2fs` to format zram devices to partitions.
 
 - Check if zram is enabled:
 
 `lsmod | grep -i zram`
 
-- Enable zram with 2 devices:
+- Enable zram with 2 devices. Use `zramctl` to configure the devices further:
 
 `sudo modprobe zram num_devices={{2}}`
 
