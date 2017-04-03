@@ -18,3 +18,7 @@
 - Stop process:
 
 `pm2 stop {{process_id}}`
+
+- Restart process:
+
+`pm2 restart {{process_name}}`
