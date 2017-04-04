@@ -1,10 +1,10 @@
 # timew
 
-> Time tracker.
+> A time tracking tool used to measure durations.
 
-- Start a new stopwatch:
+- Start a new stopwatch, giving a tag name to the activity being tracked:
 
-`timew start {{item_to_time}}`
+`timew start {{activity_tag}}`
 
 - View running stopwatches:
 
