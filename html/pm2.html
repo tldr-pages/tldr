@@ -1,17 +1,17 @@
 <b>pm2</b><br><br>
-<b>Process manager for Node.js.</b><br><br><b>Log management, monitoring, configuring processes</b><br><br>
-- Start a process:
+<b>Process manager for Node.js.</b><br><br><b>Used for log management, monitoring and configuring processes.</b><br><br>
+- Start a process with a name that can be used for later operations:
 
-<blockquote>pm2 start <i>app.js</i></blockquote>
-- List proceses:
+<blockquote>pm2 start <i>app.js</i> --name <i>myapp</i></blockquote>
+- List processes:
 
 <blockquote>pm2 list</blockquote>
-- Monitor all processes
+- Monitor all processes:
 
 <blockquote>pm2 monit</blockquote>
-- Stop process
+- Stop process:
 
-<blockquote>pm2 stop <i>process_id</i></blockquote>
+<blockquote>pm2 stop <i>myapp</i></blockquote>
 - Restart process:
 
-<blockquote>pm2 restart <i>process_name</i></blockquote>
+<blockquote>pm2 restart <i>myapp</i></blockquote>
