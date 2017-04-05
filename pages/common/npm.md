@@ -3,6 +3,9 @@
 > JavaScript and Node.js package manager.
 > Manage Node.js projects and their module dependencies Awesome.
 
+- Suprsess standard npm progress bar
+`npm set progress=false`
+
 - Find out which npm packages are outdated
 
 `npm outdated`
