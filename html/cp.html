@@ -1,20 +1,26 @@
 <b>cp</b><br><br>
-<b>Copy files.</b><br><br>
-- Copy files in arbitrary locations:
+<b>Copy files and folders.</b><br><br>
+- Copy a file to another location:
 
-<blockquote>cp <i>/path/to/original</i> <i>/path/to/copy</i></blockquote>
-- Copy a file to a parent directory:
+<blockquote>cp <i>/path/to/file.ext</i> <i>/path/to/copy.ext</i></blockquote>
+- Copy a file into another folder, keeping the filename:
 
-<blockquote>cp <i>/path/to/original</i> ../<i>path/to/copy</i></blockquote>
-- Copy directories recursive using the option -r:
+<blockquote>cp <i>/path/to/file.ext</i> <i>path/to/target/parent/folder</i></blockquote>
+- Copy a folder recursively to another location:
 
-<blockquote>cp -r <i>/path/to/original</i> <i>/path/to/copy</i></blockquote>
-- Show files as they are copied:
+<blockquote>cp <i>/path/to/folder</i> <i>/path/to/copy</i></blockquote>
+- Copy a folder recursively into another folder, keeping the folder name:
 
-<blockquote>cp -vr <i>/path/to/original</i> <i>/path/to/copy</i></blockquote>
-- Make a copy of a file, adding an extension:
+<blockquote>cp -r <i>/path/to/folder</i> <i>/path/to/target/parent/folder</i></blockquote>
+- Copy a folder recursively, in verbose mode (shows files as they are copied):
+
+<blockquote>cp -vr <i>/path/to/folder</i> <i>/path/to/copy</i></blockquote>
+- Copy the contents of a folder into another folder:
+
+<blockquote>cp -r <i>/path/to/source/folder/*</i> <i>/path/to/target/folder</i></blockquote>
+- Copy of a file adding an extension:
 
 <blockquote>cp <i>file.html</i>{,.backup}</blockquote>
-- Make a copy of a file, changing the extension:
+- Copy a file, changing the extension:
 
 <blockquote>cp <i>file.</i>{html,backup}</blockquote>

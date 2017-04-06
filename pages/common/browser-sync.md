@@ -1,19 +1,19 @@
 # browser-sync
 
->  Starts local server that updates browser on file changes  
+> Starts local web server that updates browser on file changes.
 
--  Start a server from the DIR directory:
+- Start a server from a specific directory:
 
-`browser-sync start --server {{DIR}} --files {{DIR}}`
+`browser-sync start --server {{path/to/directory}} --files {{path/to/directory}}`
 
--  Start a server from local directory, watching css file in DIR:
+- Start a server from local directory, watching all css files in some directory:
 
-`browser-sync start --server --files {{DIR/style.css}}`
+`browser-sync start --server --files '{{path/to/directory/*.css}}'`
 
--  Create configuration file:
+- Create configuration file:
 
 `browser-sync init`
 
--  Start browser-sync from config file:
+- Start browser-sync from config file:
 
 `browser-sync start --config {{config_file}}`
