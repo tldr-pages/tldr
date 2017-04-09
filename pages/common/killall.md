@@ -5,7 +5,7 @@
 
 - Terminate a process using the default SIGTERM (terminate) signal:
 
-`killall {{exact_process_name}}`
+`killall {{process_name}}`
 
 - List available signal names (to be used without the 'SIG' prefix):
 
@@ -13,12 +13,12 @@
 
 - Interactively ask for confirmation before termination:
 
-`killall -i {{exact_process_name}}`
+`killall -i {{process_name}}`
 
-- Terminate a process using the SIGING (interrupt) signal, which is the same signal sent by pressing `Ctrl+C`:
+- Terminate a process using the SIGINT (interrupt) signal, which is the same signal sent by pressing `Ctrl+C`:
 
-`killall -INT {{exact_process_name}}`
+`killall -INT {{process_name}}`
 
-- Immediately kill a process (signal cannot be intercepted so it's not a clean exit):
+- Force kill a process:
 
-`killall -KILL {{exact_process_name}}`
+`killall -KILL {{process_name}}`
