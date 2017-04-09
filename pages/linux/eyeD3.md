@@ -1,6 +1,6 @@
 # eyeD3
 
-> Manipulate mp3 files.
+> Read and manipulate metadata of mp3 files.
 
 - View information about an mp3 file:
 
