@@ -1,7 +1,6 @@
 # n
 
-> Node version management.
-> Node.js version management: no subshells, no profile setup, no convoluted API, just simple.
+> Tool to manage multiple node versions.
 
 - Install node version:
 
@@ -17,8 +16,8 @@
 
 - Execute node version with [args ...]:
 
-`n use <version> [args ...]`
+`n use {{version}} {{[args ...]}}`
 
 - Output bin path for version:
 
-`n bin <version>`
+`n bin {{version}}`
