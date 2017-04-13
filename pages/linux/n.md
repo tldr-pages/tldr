@@ -2,22 +2,22 @@
 
 > Tool to manage multiple node versions.
 
-- Install node version:
+- Install a given version of node. If the version is already installed, it will be activated:
 
 `n {{version}}`
 
-- Remove some versions:
-
-`n rm {{version ...}}`
-
-- Output versions installed and select the current version:
+- Display installed versions and activate any version:
 
 `n`
 
-- Execute node version with [args ...]:
+- Remove a version:
 
-`n use {{version}} {{[args ...]}}`
+`n rm {{version}}`
 
-- Output bin path for version:
+- Execute a file with a given version:
+
+`n use {{version}} {{file.js}}`
+
+- Output binary path for a version:
 
 `n bin {{version}}`
