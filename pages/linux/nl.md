@@ -4,21 +4,12 @@
 
 - Number lines in a file:
 
-`nl {{source_file}}`
+`nl {{file}}`
 
-- Number lines where there is printable text only:
+- Number only the lines with printable text:
 
-`nl -t {{source_file}}`
+`nl -t {{file}}`
 
-- Number lines that match a regular expression (Starting with a Capital 
-A is Exampled):
+- Number only the body lines that match a basic regular expression (BRE) pattern:
 
-`nl -b p^A {{source_file}}`
-
-- Can be useful as an alternative to grep {{source_file}} -n 
-{{search_term}}:
-
-`nl ./file | grep match` 
-
-Which outputs `{{line_number}} {{search_term}}`
-
+`nl -b p'FooBar[0-9]' {{file}}`

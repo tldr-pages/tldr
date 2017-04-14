@@ -1,11 +1,11 @@
 <b>import</b><br><br>
-<b>Capture some or all of an X server desktop screen and save the image to a file. This command is part of the ImageMagick library.</b><br><br>
-- Capture the entire X server screen in the Postscript image format:
+<b>Capture some or all of an X server screen, and save the image to a file.</b><br><br><b>Part of the ImageMagick library.</b><br><br>
+- Capture the entire X server screen in the PostScript image format:
 
-<blockquote>import -window root <i>filename.postscript</i></blockquote>
-- Capture contents of remote x server screen in the png image format:
+<blockquote>import -window root <i>output.postscript</i></blockquote>
+- Capture contents of a remote X server screen in the PNG image format:
 
-<blockquote>import -window root -display <i>remote.host</i>:0.0 <i>output.png</i></blockquote>
-- Capture specific window with ID as displayed by `xwininfo`:
+<blockquote>import -window root -display <i>remote_host</i>:{screen}.{display} <i>output.png</i></blockquote>
+- Capture a specific window, given its ID as displayed by `xwininfo`, into the JPEG format:
 
 <blockquote>import -window <i>window_id</i> <i>output.jpg</i></blockquote>
