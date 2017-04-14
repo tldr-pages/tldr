@@ -1,13 +1,13 @@
 # x11vnc
 
 > A VNC server that will enable VNC on an existing display.
-> By default, once a client disconnects the server will terminate.
+> By default, the server will automatically terminate once all clients disconnect from it.
 
 - Launch a VNC server that allows multiple clients to connect:
 
 `x11vnc -shared`
 
-- Launch the server where the user can only view the screen, and will continue to run even after the last client disconnects:
+- Launch a VNC server in view-only mode, and which won't terminate once the last client disconnects:
 
 `x11vnc -forever -viewonly`
 
