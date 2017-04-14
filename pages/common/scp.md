@@ -11,7 +11,7 @@
 
 `scp {{remote_host}}:{{path/to/remote_file}} {{path/to/local_dir}}`
 
-- Recursively copy the contents of a directory on a remote host to a local directory:
+- Recursively copy the contents of a directory from a remote host to a local directory:
 
 `scp -r {{remote_host}}:{{path/to/remote_dir}} {{path/to/local_dir}}`
 
