@@ -1,5 +1,5 @@
 <b>svgo</b><br><br>
-<b>SVG Optimizer: a Nodejs-based tool for optimizing SVG vector graphics files.</b><br><br><b>It applies a series of transformation rules (plugins), which can be toggled individually.</b><br><br>
+<b>SVG Optimizer: a Nodejs-based tool for optimizing Scalable Vector Graphics files.</b><br><br><b>It applies a series of transformation rules (plugins), which can be toggled individually.</b><br><br>
 - Optimize a file using the default plugins (overwrites the original file):
 
 <blockquote>svgo <i>test.svg</i></blockquote>
@@ -18,24 +18,9 @@
 - Optimize a file and print out the result:
 
 <blockquote>svgo <i>test.svg</i> -o -</blockquote>
-- Optimize SVG content passed as a string, and save the result to a file:
-
-<blockquote>svgo -s '<i><svg version="1.1">test</svg></i>' -o <i>test.min.svg</i></blockquote>
-- Optimize SVG content passed as a base64 Data URI, and print out the result:
-
-<blockquote>svgo -s '<i>data:image/svg+xml;base64,…</i>' -o -</blockquote>
-- Optimize and compress a file from .svg to .svgz:
-
-<blockquote>svgo test.svg -o - | gzip -cfq9 > test.svgz</blockquote>
 - Optimize a file making sure a given plugin is enabled:
 
 <blockquote>svgo --enable=<i>plugin_name</i></blockquote>
-- Optimize a file using a custom configuration file, to extend or replace the default one (`.svgo.yml`):
-
-<blockquote>svgo --config=<i>myconfig.yml</i> test.svg</blockquote>
-- Optimize a file with all plugins disabled except a specific one:
-
-<blockquote>svgo --config='{"full":true}' --enable=<i>plugin_name</i> test.svg</blockquote>
 - Show available plugins:
 
 <blockquote>svgo --show-plugins</blockquote>
