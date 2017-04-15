@@ -1,25 +1,28 @@
 # od
 
-> Display file contents in hexadecimal, octal, or printable character format.
-> Optionally display the byte offsets into the file.
+> Display file contents in octal, decimal or hexadecimal format.
+> Optionally display the byte offsets and/or printable representation for each line.
 
-- Display file in octal format 8 bytes per line with the byte offsets in octal as well replacing duplicate lines with `*`:
+- Display file using default settings: octal format, 8 bytes per line, byte offsets in octal, and duplicate lines replaced with `*`:
 
-`od {{/path/to/file}}`
+`od {{path/to/file}}`
 
-- Display file in hexadecimal format with byte offsets in hexadecimal, 4 bytes per line with each entry 1 byte long:
+- Display file in verbose mode, i.e. without replacing duplicate lines with `*`:
 
-`od --address-radix=x --format=x1 --width=4 -v {{/path/to/file}}`
+`od -v {{path/to/file}}`
 
-- Display only printable strings of at least 5 characters long in the file along with the byte offsets in hexadecimal:
+- Display file in hexadecimal format (2-byte units), with byte offsets in decimal format:
 
-`od --address-radix=x --string=5 -v {{/path/to/file}}`
+`od --format={{x}} --address-radix={{d}} -v {{path/to/file}}`
 
-- Read only given number of first bytes of a file and display it in the hexadecimal format:
+- Display file in hexadecimal format (1-byte units), and 4 bytes per line:
 
-`od --address-radix=x --format=x --read-bytes 100 -v {{/path/to/file}}`
+`od --format={{x1}} --width={{4}} -v {{path/to/file}}`
 
-- Display file in hexadecimal format along with its character representation, also do not print byte offsets:
+- Display file in hexadecimal format along with its character representation, and do not print byte offsets:
 
-`od --address-radix=n --format=xz -v {{/path/to/file}}`
+`od --format={{xz}} --address-radix={{n}} -v {{path/to/file}}`
 
+- Read only 100 bytes of a file starting from the 500th byte:
+
+`od --read-bytes {{100}} --skip-bytes={{500}} -v {{path/to/file}}`
