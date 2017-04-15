@@ -12,7 +12,7 @@
 
 - Copy a folder recursively to another location:
 
-`cp {{/path/to/folder}} {{/path/to/copy}}`
+`cp -r {{/path/to/folder}} {{/path/to/copy}}`
 
 - Copy a folder recursively into another folder, keeping the folder name:
 
@@ -25,11 +25,3 @@
 - Copy the contents of a folder into another folder:
 
 `cp -r {{/path/to/source/folder/*}} {{/path/to/target/folder}}`
-
-- Copy of a file adding an extension:
-
-`cp {{file.html}}{,.backup}`
-
-- Copy a file, changing the extension:
-
-`cp {{file.}}{html,backup}`
