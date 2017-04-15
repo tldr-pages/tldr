@@ -6,6 +6,6 @@
 
 `git show {{commit}}`
 
-- Show the contents of a file n commits ago on a branch
+- Show the contents of a file n commits ago on a branch:
 
-`git show {{branch}}~{{n}}:{{path}}
+`git show {{branch}}~{{n}}:{{path}}`
