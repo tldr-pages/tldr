@@ -1,6 +1,6 @@
 # composer
 
-> A per-project package manager for PHP.
+> A package-based dependency manager for PHP projects.
 
 - Update composer to the latest version:
 
