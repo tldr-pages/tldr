@@ -4,7 +4,7 @@
 
 - Update list of packages and versions available. This should be run before running further apt commands:
 
-`apt update`
+`sudo apt update`
 
 - Search for packages:
 
@@ -16,12 +16,12 @@
 
 - Install a new package:
 
-`apt install {{package}}`
+`sudo apt install {{package}}`
 
 - Remove a package (using "purge" instead also removes its configuration files):
 
-`apt remove {{package}}`
+`sudo apt remove {{package}}`
 
 - Upgrade installed packages to the newest available versions:
 
-`apt upgrade`
+`sudo apt upgrade`
