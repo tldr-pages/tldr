@@ -1,18 +1,18 @@
 <b>mailx</b><br><br>
 <b>Send and receive mail.</b><br><br>
-- To send mail, the content is typed after the command and ended with Control-D:
+- Send mail (the content should be typed after the command, and ended with Control-D):
 
 <blockquote>mailx -s "<i>subject</i>" <i>to_addr</i></blockquote>
-- Send mail with short content:
+- Send mail with content passed from another command:
 
 <blockquote>echo "<i>content</i>" | mailx -s "<i>subject</i>" <i>to_addr</i></blockquote>
-- Send mail with content which written in a file:
+- Send mail with content read from a file:
 
 <blockquote>mailx -s "<i>subject</i>" <i>to_addr</i> < <i>content.txt</i></blockquote>
 - Send mail to a recipient and CC to another address:
 
 <blockquote>mailx -s "<i>subject</i>" -c <i>cc_addr</i> <i>to_addr</i></blockquote>
-- Send mail and set sender address:
+- Send mail specifying the sender address:
 
 <blockquote>mailx -s "<i>subject</i>" -r <i>from_addr</i> <i>to_addr</i></blockquote>
 - Send mail with an attachment:
