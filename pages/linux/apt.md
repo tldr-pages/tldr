@@ -22,10 +22,6 @@
 
 `apt upgrade`
 
-- Remove no longer needed packages:
-
-`apt autoremove`
-
 - Upgrade installed packages and remove no longer needed packages:
 
 `apt full-upgrade`
