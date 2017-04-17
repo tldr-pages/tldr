@@ -2,6 +2,10 @@
 
 > Gnu Privacy Guard.
 
+- Create a key
+
+`gpg --gen-key`
+
 - Sign doc.txt without encryption (writes output to doc.txt.asc):
 
 `gpg --clearsign {{doc.txt}}`
@@ -29,3 +33,15 @@
 - Export private key for alice@example.com (output to STDOUT):
 
 `gpg --export-secret-keys --armor {{alice@example.com}}`
+
+- To list the keys in your public key ring:
+
+`gpg --list-keys`
+
+- To list the keys in your secret key ring:
+
+`gpg --list-secret-keys`
+
+- To generate a short list of numbers that you can use via an alternative method to verify a public key, use:
+
+`gpg --fingerprint > fingerprint`
