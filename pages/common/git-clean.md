@@ -10,7 +10,7 @@
 
 `git clean -i`
 
-- Shows what files would be deleted without actually deleting them:
+- Show what files would be deleted without actually deleting them:
 
 `git clean --dry-run`
 
