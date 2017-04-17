@@ -25,7 +25,3 @@
 - Upgrade installed packages to the newest available versions:
 
 `apt upgrade`
-
-- Upgrade installed packages and remove no longer needed packages:
-
-`apt full-upgrade`
