@@ -14,7 +14,7 @@
 
 `composer install`
 
-- Remove a package from this project:
+- Uninstall a package from this project, removing it as a dependency:
 
 `composer remove {{user/package-name}}`
 
