@@ -1,5 +1,4 @@
-# wc
-
+# [wc](http://man7.org/linux/man-pages/man1/wc.1.html)
 > Count words, bytes, or lines.
 
 - Count lines in file:

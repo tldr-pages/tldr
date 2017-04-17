@@ -1,5 +1,4 @@
-# cat
-
+# [cat](http://man7.org/linux/man-pages/man1/cat.1.html)
 > Print and concatenate files.
 
 - Print the contents of a file to the standard output:

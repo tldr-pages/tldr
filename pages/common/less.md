@@ -1,5 +1,4 @@
-# less
-
+# [less](http://man7.org/linux/man-pages/man1/less.1.html)
 > Open a file for interactive reading, allowing scrolling and search.
 
 - Open a file:

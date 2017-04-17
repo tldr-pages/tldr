@@ -1,5 +1,4 @@
-# ps
-
+# [ps](http://man7.org/linux/man-pages/man1/ps.1.html)
 > Information about running processes.
 
 - List all running processes:

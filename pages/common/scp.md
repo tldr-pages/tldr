@@ -1,5 +1,4 @@
-# scp
-
+# [scp](http://man7.org/linux/man-pages/man1/scp.1.html)
 > Secure copy.
 > Copy files between hosts using Secure Copy Protocol over SSH.
 

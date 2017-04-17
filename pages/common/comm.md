@@ -1,5 +1,4 @@
-# comm
-
+# [comm](http://man7.org/linux/man-pages/man1/comm.1.html)
 > Select or reject lines common to two files. Both files must be sorted.
 
 - Produce three tab-separated columns: lines only in first file, lines only in second file and common lines:

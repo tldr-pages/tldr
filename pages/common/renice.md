@@ -1,5 +1,4 @@
-# renice
-
+# [renice](http://man7.org/linux/man-pages/man1/renice.1.html)
 > Alters the scheduling priority/nicenesses of one or more running processes. Niceness values range from -20 (most favorable to the process) to 19 (least favorable to the process).
 
 - Change priority of a running process:

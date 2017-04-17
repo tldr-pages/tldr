@@ -1,5 +1,4 @@
-# fold
-
+# [fold](http://man7.org/linux/man-pages/man1/fold.1.html)
 > Wraps each line in an input file to fit a specified width and prints it to the standard output.
 
 - Wrap each line to default width (80 characters):

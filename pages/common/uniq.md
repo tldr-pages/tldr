@@ -1,5 +1,4 @@
-# uniq
-
+# [uniq](http://man7.org/linux/man-pages/man1/uniq.1.html)
 > Output the unique lines from the given input or file.
 > Since it does not detect repeated lines unless they are adjacent, we need to sort them first.
 

@@ -1,5 +1,4 @@
-# chgrp
-
+# [chgrp](http://man7.org/linux/man-pages/man1/chgrp.1.html)
 > Change group ownership of files and folders.
 
 - Change the owner of a file/folder:

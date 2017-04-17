@@ -1,5 +1,4 @@
-# make
-
+# [make](http://man7.org/linux/man-pages/man1/make.1.html)
 > Task runner for targets described in Makefile.
 > Mostly used to control the compilation of an executable from source code.
 

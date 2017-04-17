@@ -1,5 +1,4 @@
-# split
-
+# [split](http://man7.org/linux/man-pages/man1/split.1.html)
 > Split a file into pieces.
 
 - Split a file, each split having 10 lines (except the last split):

@@ -1,5 +1,4 @@
-# mysql
-
+# [mysql](http://man7.org/linux/man-pages/man1/mysql.1.html)
 > The MySQL command-line tool.
 
 - Connect to a database:

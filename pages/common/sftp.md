@@ -1,5 +1,4 @@
-# sftp
-
+# [sftp](http://man7.org/linux/man-pages/man1/sftp.1.html)
 > Secure File Transfer Program.
 > Interactive program to copy files between hosts over SSH.
 > For non-interactive file transfers, see `scp` or `rsync`.

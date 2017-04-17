@@ -1,5 +1,4 @@
-# w
-
+# [w](http://man7.org/linux/man-pages/man1/w.1.html)
 > Show who is logged on and what they are doing.
 > Print user login, TTY, remote host, login time, idle time, current process.
 

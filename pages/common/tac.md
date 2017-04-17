@@ -1,5 +1,4 @@
-# tac
-
+# [tac](http://man7.org/linux/man-pages/man1/tac.1.html)
 > Print and concatenate files in reverse.
 
 - Print the contents of *file1* reversed to the standard output:

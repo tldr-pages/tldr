@@ -1,5 +1,4 @@
-# shred
-
+# [shred](http://man7.org/linux/man-pages/man1/shred.1.html)
 > Overwrite files to securely delete data.
 
 - Overwrite a file:

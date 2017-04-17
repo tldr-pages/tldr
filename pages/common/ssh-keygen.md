@@ -1,5 +1,4 @@
-# ssh-keygen
-
+# [ssh-keygen](http://man7.org/linux/man-pages/man1/ssh-keygen.1.html)
 > Generate ssh keys user for authentication, password-less logins, and other things.
 
 - Generate a key interactively:

@@ -1,5 +1,4 @@
-# patch
-
+# [patch](http://man7.org/linux/man-pages/man1/patch.1.html)
 > Patch a file (or files) with a diff file.
 > Note that diff files contain both the target filenames and list of changes.
 

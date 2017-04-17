@@ -1,5 +1,4 @@
-# chown
-
+# [chown](http://man7.org/linux/man-pages/man1/chown.1.html)
 > Change user and group ownership of files and folders.
 
 - Change the owner user of a file/folder:

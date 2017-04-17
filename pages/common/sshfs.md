@@ -1,5 +1,4 @@
-# sshfs
-
+# [sshfs](http://man7.org/linux/man-pages/man1/sshfs.1.html)
 > Filesystem client based on ssh.
 
 - Mount remote directory:

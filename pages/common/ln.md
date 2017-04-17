@@ -1,5 +1,4 @@
-# ln
-
+# [ln](http://man7.org/linux/man-pages/man1/ln.1.html)
 > Creates links to files and folders.
 
 - Create a symbolic link to a file (or folder):

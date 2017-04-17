@@ -1,5 +1,4 @@
-# lpstat
-
+# [lpstat](http://man7.org/linux/man-pages/man1/lpstat.1.html)
 > Show status information about printers.
 
 - List printers present on the machine and whether they are enabled for printing:

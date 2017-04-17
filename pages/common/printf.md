@@ -1,5 +1,4 @@
-# printf
-
+# [printf](http://man7.org/linux/man-pages/man1/printf.1.html)
 > Format and print text.
 
 - Print a text message:

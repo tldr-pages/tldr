@@ -1,5 +1,4 @@
-# column
-
+# [column](http://man7.org/linux/man-pages/man1/column.1.html)
 > Format standard input or file into multiple columns.
 > Rows are filled before columns; default separator is whitespace.
 

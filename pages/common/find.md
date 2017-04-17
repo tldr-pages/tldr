@@ -1,5 +1,4 @@
-# find
-
+# [find](http://man7.org/linux/man-pages/man1/find.1.html)
 > Find files under the given directory tree, recursively.
 
 - Find files by extension:

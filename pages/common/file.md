@@ -1,5 +1,4 @@
-# file
-
+# [file](http://man7.org/linux/man-pages/man1/file.1.html)
 > Determine file type.
 
 - Give a description of the type of the specified file.  Works fine for files with no file extension:

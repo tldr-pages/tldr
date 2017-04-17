@@ -1,5 +1,4 @@
-# tmux
-
+# [tmux](http://man7.org/linux/man-pages/man1/tmux.1.html)
 > Multiplex several virtual consoles.
 
 - Start a new tmux session:

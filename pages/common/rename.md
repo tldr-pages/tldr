@@ -1,5 +1,4 @@
-# rename
-
+# [rename](http://man7.org/linux/man-pages/man1/rename.1.html)
 > Renames multiple files.
 
 - Rename files using a Perl Common Regular Expression (substitute 'foo' with 'bar' wherever found):

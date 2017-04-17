@@ -1,5 +1,4 @@
-# sort
-
+# [sort](http://man7.org/linux/man-pages/man1/sort.1.html)
 > Sort lines of text files.
 
 - Sort a file in ascending order:

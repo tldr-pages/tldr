@@ -1,5 +1,4 @@
-# rmdir
-
+# [rmdir](http://man7.org/linux/man-pages/man1/rmdir.1.html)
 > Removes a directory.
 
 - Remove directory, provided it is empty. Use `rm` to remove not empty directories:

@@ -1,5 +1,4 @@
-# seq
-
+# [seq](http://man7.org/linux/man-pages/man1/seq.1.html)
 > Output a sequence of numbers to stdout.
 
 - Sequence from 1 to 10:

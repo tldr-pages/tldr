@@ -1,5 +1,4 @@
-# pkill
-
+# [pkill](http://man7.org/linux/man-pages/man1/pkill.1.html)
 > Signal process by name.
 > Mostly used for stopping processes.
 

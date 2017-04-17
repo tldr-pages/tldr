@@ -1,5 +1,4 @@
-# screen
-
+# [screen](http://man7.org/linux/man-pages/man1/screen.1.html)
 > Hold a session open on a remote server. Manage multiple windows with a single SSH connection.
 
 - Start a new screen session:

@@ -1,5 +1,4 @@
-# gcc
-
+# [gcc](http://man7.org/linux/man-pages/man1/gcc.1.html)
 > Preprocesses and compiles C and C++ source files, then assembles and links them together.
 
 - Compile multiple source files into executable:

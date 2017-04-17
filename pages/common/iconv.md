@@ -1,5 +1,4 @@
-# iconv
-
+# [iconv](http://man7.org/linux/man-pages/man1/iconv.1.html)
 > Converts text from one encoding to another.
 
 - Convert file to a specific encoding, and print to stdout:

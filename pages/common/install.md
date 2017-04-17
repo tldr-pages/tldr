@@ -1,5 +1,4 @@
-# install
-
+# [install](http://man7.org/linux/man-pages/man1/install.1.html)
 > Copy files and set attributes.
 > Copy files (often executable) to a system location like `/usr/local/bin`, give them the appropriate permissions/ownership.
 

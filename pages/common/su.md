@@ -1,5 +1,4 @@
-# su
-
+# [su](http://man7.org/linux/man-pages/man1/su.1.html)
 > Switch shell to another user.
 
 - Switch to user {{username}} (password required):
