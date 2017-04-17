@@ -10,6 +10,10 @@
 
 `apt search {{package}}`
 
+- Show information for a package:
+
+`apt show {{package}}`
+
 - Install a new package:
 
 `apt install {{package}}`
