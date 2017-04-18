@@ -26,6 +26,6 @@
 
 `cp -r {{path/to/source/folder/*}} {{path/to/target/folder}}`
 
-- Interactively copy text files in the current directory to another location:
+- Copy text files to another location, in interactive mode (prompts user before overwriting):
 
 `cp -i {{*.txt}} {{path/to/source/}}
