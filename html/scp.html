@@ -6,9 +6,9 @@
 - Copy a file from a remote host to a local folder:
 
 <blockquote>scp <i>remote_host</i>:<i>path/to/remote_file</i> <i>path/to/local_dir</i></blockquote>
-- Recursively copy the contents of a directory on a remote host to a local directory:
+- Recursively copy the contents of a directory from a remote host to a local directory:
 
-<blockquote>scp -r <i>path/to/local_dir</i> <i>remote_host</i>:<i>path/to/remote_dir</i></blockquote>
+<blockquote>scp -r <i>remote_host</i>:<i>path/to/remote_dir</i> <i>path/to/local_dir</i></blockquote>
 - Copy a file between two remote hosts transferring through the local host:
 
 <blockquote>scp -3 <i>host1</i>:<i>path/to/remote_file</i> <i>host2</i>:<i>path/to/remote_dir</i></blockquote>
