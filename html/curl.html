@@ -6,7 +6,7 @@
 - Download a file saving the output under the filename indicated by the URL:
 
 <blockquote>curl -O <i>http://example.com/filename</i></blockquote>
-- Download a file, following [L]ocation redirects, and automatically [C]ontinuing/resuming a previous file transfer:
+- Download a file, following [L]ocation redirects, and automatically [C]ontinuing (resuming) a previous file transfer:
 
 <blockquote>curl -O -L -C - <i>http://example.com/filename</i></blockquote>
 - Send form-encoded data (POST request of type application/x-www-form-urlencoded):
@@ -18,6 +18,6 @@
 - Pass a user name and password for server authentication and show headers info only:
 
 <blockquote>curl -u myusername:mypassword -I <i>http://example.com</i></blockquote>
-- Pass client certificate and key for a secure resource:
+- Pass client certificate and key for a resource, skipping certificate validation:
 
-<blockquote>curl -v -key <i>key.pem</i> -cacert <i>ca.pem</i> -cert <i>client.pem</i> -k <i>https://example.com</i></blockquote>
+<blockquote>curl --cert <i>client.pem</i> --key <i>key.pem</i> --insecure <i>https://example.com</i></blockquote>

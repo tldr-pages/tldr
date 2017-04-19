@@ -1,14 +1,17 @@
 <b>git show</b><br><br>
-<b>Show various types of git objects(commits, tags etc.).</b><br><br>
-- Show changes made in the latest commit:
+<b>Show various types of git objects (commits, tags, etc.).</b><br><br>
+- Show information about the latest commit (message, changes, and other metadata):
 
 <blockquote>git show</blockquote>
-- Show changes made in a given commit:
+- Show information about a given commit:
 
 <blockquote>git show <i>commit</i></blockquote>
-- Show changes made in the commit with a given tag:
+- Show information about the commit associated with a given tag:
 
 <blockquote>git show <i>tag</i></blockquote>
-- Show the changes made n commits ago on a branch:
+- Show information about the 3rd commit from the tip of a branch:
 
-<blockquote>git show <i>branch</i>~<i>n</i></blockquote>
+<blockquote>git show <i>branch</i>~<i>3</i></blockquote>
+- Show a commit's hash and message in a single line, suppressing the diff output:
+
+<blockquote>git show --oneline -s <i>commit</i></blockquote>

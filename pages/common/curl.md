@@ -11,7 +11,7 @@
 
 `curl -O {{http://example.com/filename}}`
 
-- Download a file, following [L]ocation redirects, and automatically [C]ontinuing/resuming a previous file transfer:
+- Download a file, following [L]ocation redirects, and automatically [C]ontinuing (resuming) a previous file transfer:
 
 `curl -O -L -C - {{http://example.com/filename}}`
 
@@ -27,6 +27,6 @@
 
 `curl -u myusername:mypassword -I {{http://example.com}}`
 
-- Pass client certificate and key for a secure resource:
+- Pass client certificate and key for a resource, skipping certificate validation:
 
-`curl -v -key {{key.pem}} -cacert {{ca.pem}} -cert {{client.pem}} -k {{https://example.com}}`
+`curl --cert {{client.pem}} --key {{key.pem}} --insecure {{https://example.com}}`
