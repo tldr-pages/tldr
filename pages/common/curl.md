@@ -27,6 +27,6 @@
 
 `curl -u myusername:mypassword -I {{http://example.com}}`
 
-- Pass client certificate and key for a secure resource:
+- Pass client certificate and key for a (possibly insecure) resource:
 
 `curl --cert {{client.pem}} --key {{key.pem}} --insecure {{https://example.com}}`
