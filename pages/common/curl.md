@@ -29,4 +29,4 @@
 
 - Pass client certificate and key for a secure resource:
 
-`curl --cert {{client.pem}} --key {{key.pem}} -k {{https://example.com}}`
+`curl --cert {{client.pem}} --key {{key.pem}} --insecure {{https://example.com}}`
