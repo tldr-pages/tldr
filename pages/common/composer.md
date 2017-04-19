@@ -2,7 +2,7 @@
 
 > A package-based dependency manager for PHP projects.
 
-- Make a package a dependency for this project:
+- Add a package a dependency for this project:
 
 `composer require {{user/package-name}}`
 
