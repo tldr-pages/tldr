@@ -1,19 +1,23 @@
 # git show
 
-> Show various types of git objects(commits, tags etc.).
+> Show various types of git objects (commits, tags, etc.).
 
-- Show changes made in the latest commit:
+- Show information about the latest commit (message, changes, and other metadata):
 
 `git show`
 
-- Show changes made in a given commit:
+- Show information about a given commit:
 
 `git show {{commit}}`
 
-- Show changes made in the commit with a given tag:
+- Show information about the commit associated with a given tag:
 
 `git show {{tag}}`
 
-- Show the changes made n commits ago on a branch:
+- Show information about the 3rd commit from the tip of a branch:
 
-`git show {{branch}}~{{n}}`
+`git show {{branch}}~{{3}}`
+
+- Show a commit's hash and message in a single line, suppressing the diff output:
+
+`git show --oneline -s {{commit}}`
