@@ -2,7 +2,7 @@
 
 > Show various types of git objects (commits, tags, etc.).
 
-- Show information about the latest commit (message, differences, and other metadata):
+- Show information about the latest commit (message, changes, and other metadata):
 
 `git show`
 
@@ -10,7 +10,7 @@
 
 `git show {{commit}}`
 
-- Show information about the commit associated to a given tag:
+- Show information about the commit associated with a given tag:
 
 `git show {{tag}}`
 
