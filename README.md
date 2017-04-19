@@ -79,7 +79,9 @@ You can access these pages on your computer using one of the following clients:
 - Rust clients:
     - [rust-tldr](https://github.com/rilut/rust-tldr) (online lookup): `cargo install tldr`
     - [tealdeer](https://github.com/dbrgn/tealdeer) (fully featured client with offline cache): `cargo install tealdeer`
-- [Web client](https://github.com/ostera/tldr.jsx): http://tldr.ostera.io/
+- Web clients:
+    - [tldr.jsx](https://github.com/ostera/tldr.jsx): http://tldr.ostera.io/
+    - [DistroWatch](https://distrowatch.com/dwres.php?resource=man-pages)
 
 There is also a comprehensive [list of clients in our Wiki](https://github.com/tldr-pages/tldr/wiki/TLDR-clients).
 
