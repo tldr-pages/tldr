@@ -6,7 +6,7 @@
 
 `composer require {{user/package-name}}`
 
-- Install all dependencies in `composer.json` for this project:
+- Install all the dependencies in this project's `composer.json`:
 
 `composer install`
 
