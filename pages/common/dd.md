@@ -1,6 +1,6 @@
 # dd
 
-> Convert and copy a file.
+> Convert and copy a file. Useful for working directly with storage devices and filesystems.
 
 - Make a bootable usb drive from an isohybrid file (such like archlinux-xxx.iso) and show the progress:
 
