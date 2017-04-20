@@ -10,6 +10,10 @@
 
 `timew`
 
+- Stop a specific stopwatch with a tag name:
+
+`timew stop {{activity_tag}}`
+
 - Stop all running stopwatches:
 
 `timew stop`
