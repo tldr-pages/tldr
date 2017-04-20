@@ -14,7 +14,7 @@
 
 `composer remove {{user/package-name}}`
 
-- Update all the dependencies in `composer.json` for this project:
+- Update all the dependencies in this project's `composer.json`:
 
 `composer update`
 
