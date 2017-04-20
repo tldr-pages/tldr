@@ -1,23 +1,17 @@
 <b>composer</b><br><br>
-<b>Dependency Manager for PHP.</b><br><br>
-- Interactively create a composer.json file defining the project's dependencies:
+<b>A package-based dependency manager for PHP projects.</b><br><br>
+- Add a package as a dependency for this project, adding it to `composer.json`:
 
-<blockquote>composer init</blockquote>
-- Create a new project from a given version of an existing package:
-
-<blockquote>composer create-project <i>project_name</i> <i>path/to/my/project</i> <i>version</i></blockquote>
-- Install the packages specified in composer.json file:
+<blockquote>composer require <i>user/package-name</i></blockquote>
+- Install all the dependencies in this project's `composer.json`:
 
 <blockquote>composer install</blockquote>
-- Add package as a dependency to the project:
+- Uninstall a package from this project, removing it as a dependency from `composer.json`:
 
-<blockquote>composer require "<i>package_name</i>=<i>package_version</i>"</blockquote>
-- List outdated packages:
-
-<blockquote>composer outdated</blockquote>
-- Update all packages specified in composer.json file:
+<blockquote>composer remove <i>user/package-name</i></blockquote>
+- Update all the dependencies in this project's `composer.json`:
 
 <blockquote>composer update</blockquote>
-- Update a single package:
+- Update composer to the latest version:
 
-<blockquote>composer update "<i>package_name</i>"</blockquote>
+<blockquote>composer self-update</blockquote>
