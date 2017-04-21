@@ -25,4 +25,4 @@
 
 - Abort imerge operation, and return to the previous branch:
 
-`git-imerge remove && git checkout {{original_branch}}`
+`git-imerge remove && git checkout {{previous_branch}}`
