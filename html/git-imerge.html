@@ -12,6 +12,9 @@
 - Continue imerge operation after resolving conflicts (`git add` the conflicted files, first):
 
 <blockquote>git imerge continue --no-edit</blockquote>
-- Wrap up the imerge operation, after all conflicts are resolved:
+- Wrap up imerge operation, after all conflicts are resolved:
 
 <blockquote>git imerge finish</blockquote>
+- Abort imerge operation, and return to the previous branch:
+
+<blockquote>git-imerge remove && git checkout <i>previous_branch</i></blockquote>
