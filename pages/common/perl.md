@@ -22,10 +22,10 @@
 
 `perl -d {{script.pl}}`
 
-- Replace all occurrences of a string in a file with another string, overwriting the file in-place:
+- Loo[p] over all lines of a file, editing them [i]n-place using a find/replace [e]xpression:
 
 `perl -p -i -e 's/{{find}}/{{replace}}/g' {{filename}}`
 
-- Same, saving an unmodified copy of the original file with a different extension:
+- Run a find/replace expression on a file, saving the original file with a given extension:
 
 `perl -p -i'.old' -e 's/{{find}}/{{replace}}/g' {{filename}}`
