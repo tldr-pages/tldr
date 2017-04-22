@@ -2,7 +2,7 @@
 
 // Convert a .md file to HTML
 
-if ($argc < 3)
+if ($argc < 2)
 {
    echo "Please provide the name of an .md file and an output/html file.\n";
    echo "usage: $argv[0] file.md newfile.html\n";
@@ -16,10 +16,17 @@ if (! $md)
    exit(2);
 }
 
-$html = fopen($argv[2], "w");
+$base_filename = strrpos($argv[1], "/");
+if ($argv[1][$base_filename] == "/")
+   $base_filename++;
+$new_file = substr($argv[1], $base_filename);
+$new_file = "html/$new_file";
+$new_file = str_replace('.md', '.html', $new_file);
+
+$html = fopen($new_file, "w");
 if (! $html)
 {
-   echo "Was not able to create the html file $argv[2].\n";
+   echo "Was not able to create the html file $new_file.\n";
    exit(3);
 }
 
