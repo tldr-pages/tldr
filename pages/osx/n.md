@@ -6,7 +6,7 @@
 
 `n {{version}}`
 
-- Display installed versions and activate any version:
+- Display installed versions and interactively activate one of them:
 
 `n`
 
