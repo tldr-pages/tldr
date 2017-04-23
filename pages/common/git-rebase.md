@@ -1,7 +1,7 @@
 # git rebase
 
-> Apply local commits on top of another branch's history.
-> This effectively "moves" an entire branch to another base, by creating copies of the commits in the new location.
+> Reapply commits from one branch on top of another branch.
+> Commonly used to "move" an entire branch to another base, creating copies of the commits in the new location.
 
 - Rebase the current branch on top of the master branch:
 
@@ -19,6 +19,10 @@
 
 `git rebase --abort`
 
-- Rebase a branch starting from a specific base commit, rather than the common ancestor shared with the target branch:
+- Move part of the current branch onto a new base, providing the old base to start from:
 
-`git rebase --onto {{new_base_commit}} {{old_base_commit}}`
+`git rebase --onto {{new_base}} {{old_base}}`
+
+- Reapply the last 5 commits in-place, stopping to adjust them (reword, combine, reorder or remove):
+
+`git rebase -i HEAD~5`
