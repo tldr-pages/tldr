@@ -7,10 +7,10 @@
 
 `echo "{{./make_db_backup.sh}}" | batch`
 
-- Execute a commands from a file:
+- Execute commands from a file:
 
-`batch -f {{some_commands_file}}`
+`batch -f {{file_with_commands}}`
 
-- Or just enter batch write commands on separate lines and press CTRL+D:
+- Execute commands from standard input (press CTRL+D when finished):
 
 `batch`
