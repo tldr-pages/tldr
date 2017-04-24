@@ -2,7 +2,7 @@
 
 > Show jobs scheduled by at or batch commands.
 
-- Show current user's scheduled jobs:
+- Show the current user's scheduled jobs:
 
 `atq`
 
