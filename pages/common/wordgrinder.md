@@ -2,14 +2,14 @@
 
 > Command-line Based Word Processor.
 
-- Start wordgrinder in terminal:
+- Start wordgrinder. Loads a blank document by default:
 
 `wordgrinder`
 
-- Start wordgrinder in terminal, opening {filename}:
+- Open a given file:
 
 `wordgrinder {{filename}}`
 
-- Open menu in wordgrinder:
+- Open menu:
 
-`Press Alt + M`
+`Alt + M`
