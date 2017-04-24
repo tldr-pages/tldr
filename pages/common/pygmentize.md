@@ -14,7 +14,7 @@
 
 `pygmentize -L lexers`
 
-- Redirect output to a file in html format:
+- Save output to a file in HTML format:
 
 `pygmentize -f html -o {{file.html}} {{file.py}}`
 
