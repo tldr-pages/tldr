@@ -2,22 +2,19 @@
 <b>Package management utility for Debian based distributions.</b><br><br>
 - Update list of packages and versions available. This should be run before running further apt commands:
 
-<blockquote>apt update</blockquote>
+<blockquote>sudo apt update</blockquote>
 - Search for packages:
 
 <blockquote>apt search <i>package</i></blockquote>
+- Show information for a package:
+
+<blockquote>apt show <i>package</i></blockquote>
 - Install a new package:
 
-<blockquote>apt install <i>package</i></blockquote>
+<blockquote>sudo apt install <i>package</i></blockquote>
 - Remove a package (using "purge" instead also removes its configuration files):
 
-<blockquote>apt remove <i>package</i></blockquote>
+<blockquote>sudo apt remove <i>package</i></blockquote>
 - Upgrade installed packages to the newest available versions:
 
-<blockquote>apt upgrade</blockquote>
-- Remove no longer needed packages:
-
-<blockquote>apt autoremove</blockquote>
-- Upgrade installed packages and remove no longer needed packages:
-
-<blockquote>apt full-upgrade</blockquote>
+<blockquote>sudo apt upgrade</blockquote>
