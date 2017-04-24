@@ -1,11 +1,8 @@
 # mc
 
-> Midnight Commander, Command-Line Based File Manager.
+> Midnight Commander, a terminal based file manager.
+> Navigate the folder structure using the arrow keys,the mouse or by typing the commands into the terminal.
 
-- Start mc in Terminal:
+- Start mc:
 
 `mc`
-
-- Navigate the folder structure using the arrow keys,the mouse or by typing the commands into the terminal:
-
-`cd ..`
