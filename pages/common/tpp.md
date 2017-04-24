@@ -2,10 +2,6 @@
 
 > Command-Line based presentation tool.
 
-- To use `tpp` you need to have a file which the `tpp` will interpret. You can find an example here:
-
-`http://www.ngolde.de/tpp.html`
-
 - View a presentation:
 
 `tpp {{filename}}`
