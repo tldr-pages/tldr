@@ -30,6 +30,6 @@
 
 `find {{root_path}} -name '{{*.py}}' -or -name '{{*.r}}'`
 
-- Find files matching path pattern while excluding some certain path:
+- Find files matching a given pattern, while excluding specific paths:
 
 `find {{root_path}} -name '{{*.py}}' -not -path '{{*/site-packages/*}}'`
