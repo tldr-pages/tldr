@@ -1,26 +1,31 @@
 # tomb
 
-> Manage the creation and access of encrypted storage files.
+> Manage encrypted storage folders that can be safely transported and hidden in a filesystem
 
-- Create a 100Mb tomb, lock it with a key, and mount it at /media/secret:
+- Create a new tomb with an initial size of 100MB:
 
-`tomb dig -s 100 {{secret.tomb}}`
-`tomb forge {{secret.tomb.key}}`
-`tomb lock {{secret.tomb}} -k {{secret.tomb.key}}`
-`tomb open {{secret.tomb}} -k {{secret.tomb.key}}`
+`tomb dig -s 100 {{encrypted_folder.tomb}}`
+
+- Create a new key file that can be used to lock a tomb, and set its password:
+
+`tomb forge {{encrypted_folder.tomb.key}}`
+
+- Initialize and lock an empty tomb using a key made with `forge`:
+
+`tomb lock {{encrypted_folder.tomb}} -k {{encrypted_folder.tomb.key}}`
+
+- Mount a tomb (by default in /media) using its key, making it usable as a regular filesystem folder:
+
+`tomb open {{encrypted_folder.tomb}} -k {{encrypted_folder.tomb.key}}`
+
+- Close a tomb (fails if the tomb is being used by a process):
+
+`tomb close {{encrypted_folder.tomb}}`
+
+- Forcefully close all open tombs, killing any applications using them:
+
+`tomb slam all`
 
 - List all open tombs:
 
 `tomb list`
-
-- Close a tomb:
-
-`tomb close {{secret.tomb}}`
-
-- Open a local tomb using a remote key:
-
-`ssh {{user@server.net}} 'cat {{secret.tomb.key}}' | tomb open {{secret.tomb}} -k -`
-
-- Open a remote tomb with a local key:
-
-`gpd -d {{secret.tomb.key}} | ssh {{user@server.net}} tomb open {{secret.tomb}} -k cleartext --unsafe`
