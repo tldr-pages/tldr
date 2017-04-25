@@ -1,6 +1,6 @@
 # tomb
 
-> Manage encrypted storage folders that can be safely transported and hidden in a filesystem
+> Manage encrypted storage folders that can be safely transported and hidden in a filesystem.
 
 - Create a new tomb with an initial size of 100MB:
 
