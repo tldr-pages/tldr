@@ -5,7 +5,7 @@
 
 - Rebase the current branch on top of the master branch:
 
-`git rebase master`
+`git rebase {{master}}`
 
 - Start an interactive rebase, which allows the commits to be reordered, omitted, combined or modified:
 
@@ -25,4 +25,4 @@
 
 - Reapply the last 5 commits in-place, stopping to allow them to be reordered, omitted, combined or modified:
 
-`git rebase -i HEAD~5`
+`git rebase -i {{HEAD~5}}`
