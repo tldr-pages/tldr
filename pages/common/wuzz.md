@@ -2,18 +2,22 @@
 
 > Tool to interactively inspect HTTP requests and responses.
 
-- Display Help:
+- Start wuzz:
+
+`wuzz`
+
+- Display help information:
 
 `F1`
 
-- Send request:
+- Send an HTTP request:
 
 `Ctrl+R`
 
-- Next View:
+- Switch to the next view:
 
 `Ctrl+J, Tab`
 
-- Previous View:
+- Switch to the previous view:
 
 `Ctrl+K, Shift+Tab`

@@ -1,8 +1,8 @@
 <b>git rebase</b><br><br>
-<b>Apply local commits on top of another branch's history.</b><br><br><b>This effectively "moves" an entire branch to another base, by creating copies of the commits in the new location.</b><br><br>
+<b>Reapply commits from one branch on top of another branch.</b><br><br><b>Commonly used to "move" an entire branch to another base, creating copies of the commits in the new location.</b><br><br>
 - Rebase the current branch on top of the master branch:
 
-<blockquote>git rebase master</blockquote>
+<blockquote>git rebase <i>master</i></blockquote>
 - Start an interactive rebase, which allows the commits to be reordered, omitted, combined or modified:
 
 <blockquote>git rebase -i <i>target_base_branch</i></blockquote>
@@ -12,6 +12,9 @@
 - Abort a rebase in progress (e.g. if it is interrupted by a merge conflict):
 
 <blockquote>git rebase --abort</blockquote>
-- Rebase a branch starting from a specific base commit, rather than the common ancestor shared with the target branch:
+- Move part of the current branch onto a new base, providing the old base to start from:
 
-<blockquote>git rebase --onto <i>new_base_commit</i> <i>old_base_commit</i></blockquote>
+<blockquote>git rebase --onto <i>new_base</i> <i>old_base</i></blockquote>
+- Reapply the last 5 commits in-place, stopping to allow them to be reordered, omitted, combined or modified:
+
+<blockquote>git rebase -i <i>HEAD~5</i></blockquote>

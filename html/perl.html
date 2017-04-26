@@ -15,3 +15,9 @@
 - Run a Perl script in debug mode, using `perldebug`:
 
 <blockquote>perl -d <i>script.pl</i></blockquote>
+- Loo[p] over all lines of a file, editing them [i]n-place using a find/replace [e]xpression:
+
+<blockquote>perl -p -i -e 's/<i>find</i>/<i>replace</i>/g' <i>filename</i></blockquote>
+- Run a find/replace expression on a file, saving the original file with a given extension:
+
+<blockquote>perl -p -i'.old' -e 's/<i>find</i>/<i>replace</i>/g' <i>filename</i></blockquote>
