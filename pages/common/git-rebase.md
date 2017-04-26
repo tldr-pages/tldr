@@ -23,6 +23,6 @@
 
 `git rebase --onto {{new_base}} {{old_base}}`
 
-- Reapply the last 5 commits in-place, stopping to adjust them (reword, combine, reorder or remove):
+- Reapply the last 5 commits in-place, stopping to allow them to be reordered, omitted, combined or modified:
 
 `git rebase -i HEAD~5`
