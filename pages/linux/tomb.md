@@ -4,9 +4,9 @@
 
 - Create a new tomb with an initial size of 100MB:
 
-`tomb dig -s 100 {{encrypted_folder.tomb}}`
+`tomb dig -s {{100}} {{encrypted_folder.tomb}}`
 
-- Create a new key file that can be used to lock a tomb, and set its password:
+- Create a new key file that can be used to lock a tomb; user will be prompted for a password for the key:
 
 `tomb forge {{encrypted_folder.tomb.key}}`
 
