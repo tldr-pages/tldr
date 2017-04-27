@@ -2,14 +2,14 @@
 
 > A text based browser similar to lynx.
 
-- Start the browser:
+- Start elinks:
 
 `elinks`
 
-- Quit the browser:
+- Quit elinks:
 
 `ctrl+c`
 
-- Dump output of webpage to console colorizing the text with ANSI control codes:
+- Dump output of webpage to console, colorizing the text with ANSI control codes:
 
 `elinks -dump -dump-color-mode {{1}} {{url}}`
