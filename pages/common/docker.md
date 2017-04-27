@@ -2,7 +2,7 @@
 
 > Manage Docker containers and images.
 
-- List of running docker containers:
+- List currently running docker containers:
 
 `docker ps`
 
