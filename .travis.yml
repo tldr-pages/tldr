@@ -10,6 +10,9 @@ cache: false
 after_success:
 - bash scripts/build.sh
 
+after_failure:
+- cat test_result | python scripts/send_to_bot.py
+
 env:
   global:
   - secure: ewQMcFd3wH8IHOeGhIkBr2kAgadONmesv2KB+9bPRCZ5gvtFFwlkCMdPnQBR9Kd3GKC8r+EO0JNNFWOvrDjPYhEHi9Ab26Q/qodwfwne9YloKXT+C48Zrbrj8q7kb/FeMYPev+RMuM96j5E5QyqBVohGP7hC2bpU3mvAhQ2wBCE=
