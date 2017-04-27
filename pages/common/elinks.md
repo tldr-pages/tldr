@@ -10,6 +10,6 @@
 
 `ctrl+c`
 
-- Dump output of webpage to console colorizing the text with ANSII control codes:
+- Dump output of webpage to console colorizing the text with ANSI control codes:
 
 `elinks -dump -dump-color-mode {{1}} {{url}}`
