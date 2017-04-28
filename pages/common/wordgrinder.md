@@ -1,8 +1,8 @@
 # wordgrinder
 
-> Command-line Based Word Processor.
+> Command-line word processor.
 
-- Start wordgrinder. Loads a blank document by default:
+- Start wordgrinder (loads a blank document by default):
 
 `wordgrinder`
 
@@ -10,6 +10,6 @@
 
 `wordgrinder {{filename}}`
 
-- Open menu:
+- Show the menu:
 
 `Alt + M`
