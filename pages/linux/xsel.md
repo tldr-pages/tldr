@@ -2,7 +2,7 @@
 
 > X11 selection and clipboard manipulation tool.
 
-- Use a command's output as input of the clip[b]oard (equivalent to `Ctrl+C`):
+- Use a command's output as input of the clip[b]oard (equivalent to `Ctrl + C`):
 
 `echo 123 | xsel -ib`
 
@@ -10,7 +10,7 @@
 
 `cat {{file}} | xsel -ib`
 
-- Output the clipboard's contents into the terminal (equivalent to `Ctrl+V`):
+- Output the clipboard's contents into the terminal (equivalent to `Ctrl + V`):
 
 `xsel -ob`
 

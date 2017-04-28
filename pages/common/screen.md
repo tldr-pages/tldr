@@ -24,7 +24,7 @@
 
 - Detach from inside a screen:
 
-`Ctrl+A D`
+`Ctrl + A, D`
 
 - Kill a detached screen:
 

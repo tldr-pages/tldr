@@ -24,7 +24,7 @@
 
 - Detach from session:
 
-`Ctrl+B D`
+`Ctrl + B, D`
 
 - Kill session:
 
