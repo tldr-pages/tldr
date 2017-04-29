@@ -22,6 +22,6 @@
 
 `pygmentize -L formatters`
 
-- Output to HTML file with line numbers:
+- Output a full (self-contained) HTML file, with line numbers:
 
-`pygmentize -f html -O linenos=1 -o {{output_file.html}} {{input_file}}`
+`pygmentize -f html -O "full,linenos=True" -o {{output_file.html}} {{input_file}}`
