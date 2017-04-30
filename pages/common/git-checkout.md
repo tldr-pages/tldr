@@ -6,9 +6,13 @@
 
 `git checkout -b {{branch_name}}`
 
-- Switch to an existing local or remote branch:
+- Switch to an existing local branch:
 
 `git checkout {{branch_name}}`
+
+- Switch to an existing remote branch:
+
+`git checkout --track {{remote_name}}/{{branch_name}}`
 
 - Undo unstaged local modification:
 
