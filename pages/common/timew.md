@@ -1,6 +1,6 @@
 # timew
 
-> A time tracking tool used to measure durations.
+> A time tracking tool used to measure the duration of activities.
 
 - Start a new stopwatch, giving a tag name to the activity being tracked:
 
@@ -10,7 +10,7 @@
 
 `timew`
 
-- Stop a specific stopwatch with a tag name:
+- Stop the stopwatch with a given tag name:
 
 `timew stop {{activity_tag}}`
 
