@@ -22,8 +22,8 @@
 
 A collection of simplified and community-driven man pages.
 
-Install it with `sudo npm install -g tldr`
-or [try the web client](http://tldr.ostera.io).
+
+Install it with `npm install -g tldr`, `brew install tldr` (on OSX, using [Homebrew](http://brew.sh)), or [try the web client](http://tldr.ostera.io).
 
 ## What is tldr?
 
