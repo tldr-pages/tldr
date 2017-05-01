@@ -1,9 +1,9 @@
 # at
 
 > Execute commands once at a later time.
-> \*Make sure the atd (or atrun) is running.
+> Make sure the atd (or atrun) is running.
 
-- Execute commands from standard input in 5 minutes (press CTRL+D after entering commands):
+- Execute commands from standard input in 5 minutes (press `Ctrl + D` after entering commands):
 
 `at now + 5 min`
 

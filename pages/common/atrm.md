@@ -1,7 +1,7 @@
 # atrm
 
-> Remove jobs scheduled by at or batch commands.
-> To find job numbers use atq.
+> Remove jobs scheduled by `at` or `batch` commands.
+> To find job numbers use `atq`.
 
 - Remove job number 10:
 
