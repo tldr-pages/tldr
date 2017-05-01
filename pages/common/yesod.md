@@ -1,6 +1,6 @@
 # yesod
 
-> Helper tool for the Yesod Haskell-based web framework.
+> Helper tool for Yesod, a Haskell-based web framework.
 > All Yesod commands are invoked through the `stack` project manager.
 
 - Create a new scaffolded site, with sqlite as backend, in the "my-project" directory:
