@@ -1,7 +1,7 @@
 # batch
 
 > Execute commands at a later time when the system load levels permit.
-> Make sure the atd (or atrun) is running.
+> Service atd (or atrun) should be running for the actual executions.
 
 - Execute a command from standard input:
 
@@ -11,6 +11,6 @@
 
 `batch -f {{path/to/file}}`
 
-- Execute commands from standard input (press CTRL+D when finished):
+- Execute commands from standard input (press `Ctrl + D` when finished):
 
 `batch`
