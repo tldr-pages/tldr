@@ -6,7 +6,7 @@
 
 `pygmentize {{file.py}}`
 
-- Highlight syntax for a given language:
+- Explicitly set the language for syntax highlighting:
 
 `pygmentize -l {{javascript}} {{input_file}}`
 
@@ -22,6 +22,6 @@
 
 `pygmentize -L formatters`
 
-- Output a full (self-contained) HTML file, with line numbers:
+- Output an HTML file, with additional formatter options (full page, with line numbers):
 
 `pygmentize -f html -O "full,linenos=True" -o {{output_file.html}} {{input_file}}`
