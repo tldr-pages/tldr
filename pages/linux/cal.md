@@ -1,14 +1,14 @@
 # cal
 
-> Prints calendar information.
+> Prints calendar information, with the current day highlighted.
 
 - Display a calendar for the current month:
 
 `cal`
 
-- Display a calendar for a specific month (1-12 or name):
+- Use monday as the first day of the week:
 
-`cal -m {{month}}`
+`cal -m`
 
 - Display a calendar for the current year:
 
@@ -21,7 +21,3 @@
 - Display a calendar for a specific month and year:
 
 `cal {{month}} {{year}}`
-
-- Display date of Easter (Western Christian churches) in a given year:
-
-`ncal -e {{year}}`
