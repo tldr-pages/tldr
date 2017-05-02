@@ -10,7 +10,7 @@
 
 `pygmentize -l {{javascript}} {{input_file}}`
 
-- List avaliable lexers (processors for input languages):
+- List available lexers (processors for input languages):
 
 `pygmentize -L lexers`
 
@@ -18,7 +18,7 @@
 
 `pygmentize -f html -o {{output_file.html}} {{input_file.py}}`
 
-- List avaliable output formats:
+- List available output formats:
 
 `pygmentize -L formatters`
 
