@@ -10,6 +10,10 @@
 
 `whatis --long {{command}}`
 
+- Display descriptions for all commands matching a glob:
+
+`whatis --wildcard {{command_glob}}`
+
 - Search man page descriptions with a regular expression:
 
 `whatis --regex {{regular_expression}}`
