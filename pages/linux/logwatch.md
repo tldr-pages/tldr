@@ -1,11 +1,7 @@
 # logwatch
 
-> Analyzes and summarizes system logs.
+> Summarizes many different logs for common services (e.g., apache, SSHD, etc.) in single report.
 
-- Analyze yesterday's logs in medium detail:
+- Analyze logs for a range of dates at certain level of detail:
 
-`logwatch --range yesterday --detail med`
-
-- Get the summarized login information for the last 3 weeks:
-
-`logwatch --range 'since 3 weeks ago' --detail low --service pam_unix `
+`logwatch --range {{yesterday|today|all|help}} --detail {{low|medium|others}}'`
