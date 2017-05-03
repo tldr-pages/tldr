@@ -2,7 +2,7 @@
 
 > A lightweight and flexible command-line JSON processor.
 
-- Output an entire JSON file, in pretty-print format:
+- Output a JSON file, in pretty-print format:
 
 `cat {{file}} | jq`
 
