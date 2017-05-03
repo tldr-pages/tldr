@@ -1,26 +1,16 @@
 # cmake
 
-> CMake is a cross-platform build system generator.
+> Cross-platform build system generator.
+> It generates Makefiles, Visual Studio projects or others, depending on the target system.
 
-Make a project in the same directory as the source:
+- Generate a Makefile and use it to compile a project in the same directory as the source:
 
-```
-cmake
-make
-```
+`cmake && make`
 
-Make a project in a subdirectory, required for some projects:
+- Generate a Makefule and use it to compile a project in a separate directory (out-of-source build):
 
-```
-mkdir build
-cd build
-cmake ../
-make
-```
+`cd {{build_dir}} && cmake ../ && make`
 
-To run cmake in interactive mode (It will ask you for each variable, 
-instead of relying on defaults):
+- Run cmake in interactive mode (it will ask for each variable, instead of using defaults):
 
 `cmake -i`
-
-
