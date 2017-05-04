@@ -1,14 +1,17 @@
 <b>telnet</b><br><br>
-<b>Telnet is used to connect to a specified port of a host.</b><br><br>
-- Telnet to a certain port:
+<b>Connect to a specified port of a host using the telnet protocol.</b><br><br>
+- Telnet to the default port of a host:
 
-<blockquote>telnet  <i>ip_address</i> <i>port</i></blockquote>
-- To exit a telnet session:
+<blockquote>telnel <i>host</i></blockquote>
+- Telnet to a specific port of a host:
+
+<blockquote>telnet <i>ip_address</i> <i>port</i></blockquote>
+- Exit a telnet session:
 
 <blockquote>quit</blockquote>
-- Default escape character:
+- Emit the default escape character combination for terminating the session:
 
-<blockquote>CTRL + ]</blockquote>
-- Specify an escape character (x is the escape character):
+<blockquote>Ctrl + ]</blockquote>
+- Start telnet with "x" as the session termination character:
 
-<blockquote>telnet -e x <i>ip_address</i> <i>port</i></blockquote>
+<blockquote>telnet -e <i>x</i> <i>ip_address</i> <i>port</i></blockquote>
