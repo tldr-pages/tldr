@@ -10,6 +10,10 @@
 
 `whatis --long {{command}}`
 
+- Display descriptions for all commands matching a glob:
+
+`whatis --wildcard {{net*}}`
+
 - Search man page descriptions with a regular expression:
 
-`whatis --regex {{regular_expression}}`
+`whatis --regex '{{wish[0-9]\.[0-9]}}'`
