@@ -2,18 +2,22 @@
 
 > Connect to a specified port of a host using the telnet protocol.
 
-- Telnet to a certain port:
+- Telnet to the default port of a host:
 
-`telnet  {{ip_address}} {{port}}`
+`telnel {{host}}`
+
+- Telnet to a specific port of a host:
+
+`telnet {{ip_address}} {{port}}`
 
 - Exit a telnet session:
 
 `quit`
 
-- Emit the default escape character:
+- Emit the default escape character combination for terminating the session:
 
-`CTRL + ]`
+`Ctrl + ]`
 
-- Start telnet with "x" as the escape character:
+- Start telnet with "x" as the session termination character:
 
 `telnet -e {{x}} {{ip_address}} {{port}}`
