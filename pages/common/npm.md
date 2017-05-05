@@ -1,6 +1,6 @@
 # npm
 
-> JavaScript and Node.js package manager.  Manage Node.js projects and their module dependencies.
+> JavaScript and Node.js package manager. Manage Node.js projects and their module dependencies.
 
 - Suppress standard npm progress bar:
 
@@ -20,7 +20,7 @@
 
 - If you'd like to see all available (remote) versions for a particular package:
   
-`npm view <module_name> versions`
+`npm view {{module_name}} versions`
 
 - Search for npm packages:
 
