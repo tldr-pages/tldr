@@ -2,19 +2,19 @@
 
 > JavaScript and Node.js package manager.  Manage Node.js projects and their module dependencies.
 
-- Suppress standard npm progress bar
+- Suppress standard npm progress bar:
 
 `npm set progress=false`
 
-- Find out which npm packages are outdated
+- Find out which npm packages are outdated:
 
 `npm outdated`
 
-- Update npm packages
+- Update npm packages:
 
 `npm update {{module_name}}`
 
-- List all packages install by user
+- List all packages install by user:
 
 `npm list -depth=0`
 
