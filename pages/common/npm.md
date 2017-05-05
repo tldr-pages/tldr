@@ -19,7 +19,7 @@
 `npm list -depth=0`
 
 - If you'd like to see all available (remote) versions for a particular package:
-  
+
 `npm view {{module_name}} versions`
 
 - Search for npm packages:
