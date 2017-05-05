@@ -2,14 +2,6 @@
 
 > Distributed version control system.
 
-- Remove file from the stagining area (when used git add)
-
-`git reset HEAD {{file}}`'
-  
-- Reset TO the last commit in the HEAD
-
-`git reset --hard HEAD`
-
 - Check the Git version:
 
 `git --version`
