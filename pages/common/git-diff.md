@@ -1,5 +1,7 @@
 # git diff
 
+> Show changes to tracked files.
+
 - Show difference in the current file recursively, no commit ID needed
 
 `git log -p [--follow] [-1] <path>`
