@@ -2,7 +2,7 @@
 
 > Remove files or directories.
 
-- Remove files from Trash
+- Remove files from Trash:
 
  `rm -rf ~/.local/share/Trash/*`
 
