@@ -1,13 +1,14 @@
 # git diff
 
-> Show difference in the current file recursivly, no commit ID needed
+- Show difference in the current file recursively, no commit ID needed
 
 `git log -p [--follow] [-1] <path>`
 
-> What files are changend accros two branches
+- What files are changed across two branches
 
 `git diff --name-status master..{{name of branch}}`
-> Show changes to tracked files.
+
+- Show changes to tracked files.
 
 - Show unstaged, uncommitted changes:
 
