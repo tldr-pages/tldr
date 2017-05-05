@@ -4,7 +4,7 @@
 
 - Remove files from Trash:
 
- `rm -rf ~/.local/share/Trash/*`
+`rm -rf ~/.local/share/Trash/*`
 
 - Remove files from arbitrary locations:
 
