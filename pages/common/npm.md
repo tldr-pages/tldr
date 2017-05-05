@@ -1,9 +1,8 @@
 # npm
 
-> JavaScript and Node.js package manager.
-> Manage Node.js projects and their module dependencies Awesome.
+> JavaScript and Node.js package manager.  Manage Node.js projects and their module dependencies.
 
-- Suprsess standard npm progress bar
+- Suppress standard npm progress bar
 
 `npm set progress=false`
 
@@ -26,10 +25,6 @@
 - Search for npm packages:
 
 `npm search {{module_name}}`
-
-- Installing a specific version of a package:
-
-`npm install {{module_name}}@0.3.0`
 
 - View details of a npm package:
 
