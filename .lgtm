@@ -1,2 +1,0 @@
-approvals = 2
-pattern = "(?i):shipit:|:\\+1:|LGTM|:ok_hand:"

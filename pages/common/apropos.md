@@ -1,7 +1,6 @@
 # apropos
 
-> Search in manpages.
-> For example to find a new command.
+> Search in manpages, for example to find a new command.
 
 - Search for keyword:
 

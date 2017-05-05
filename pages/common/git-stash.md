@@ -10,6 +10,10 @@
 
 `git stash -u`
 
+- Interactively select parts of changed files for stashing:
+
+`git stash -p`
+
 - List all stashes (shows stash name, related branch and message):
 
 `git stash list`
@@ -25,3 +29,7 @@
 - Drop a stash (default is stash@{0}):
 
 `git stash drop {{optional_stash_name}}`
+
+- Drop all stashes:
+
+`git stash clear`

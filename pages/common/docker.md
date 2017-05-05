@@ -2,7 +2,7 @@
 
 > Manage Docker containers and images.
 
-- List of running docker containers:
+- List currently running docker containers:
 
 `docker ps`
 
@@ -25,3 +25,7 @@
 - Run a command inside of an already running container:
 
 `docker exec {{container}} {{command}}`
+
+- Remove a container:
+
+`docker rm {{container}}`

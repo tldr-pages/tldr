@@ -17,3 +17,7 @@
 - Don't stop at first file type match; keep going until the end of the file:
 
 `file -k {{filename}}`
+
+- Determine the mime encoding type of a file:
+
+`file -i {{filename}}`
