@@ -10,12 +10,6 @@
 
 `git reset --hard HEAD`
 
-- Modify existing, unpushed commits?
-  
-`git commit --amend -m "New commit message"`
-  
-`git commit --amend`
-
 - Check the Git version:
 
 `git --version`
