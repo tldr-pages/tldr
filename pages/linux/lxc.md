@@ -2,9 +2,9 @@
 
 > Manage Linux containers (using the lxd REST API).
 
-- List all containers:
+- List all containers (does not work on public remotes):
 
-`lxc list [{{remote}}:][{{filter}}]`
+`lxc list [{{private-remote}}:][{{filter}}]`
 
 - List all images:
 
