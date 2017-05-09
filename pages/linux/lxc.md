@@ -1,6 +1,6 @@
 # lxc
 
-> Manages Linux containers (using the lxd REST API).
+> Manage Linux containers (using the lxd REST API).
 
 - List all containers:
 
