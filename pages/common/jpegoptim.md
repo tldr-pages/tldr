@@ -1,12 +1,12 @@
 # jpegoptim
 
-> Optimise jpeg images.
+> Optimise JPEG images.
 
-- Optimise a set of jpeg images:
+- Optimise a set of JPEG images, retaining all associated data:
 
 `jpegoptim {{image1.jpeg}} {{image2.jpeg}} {{imageN.jpeg}}`
 
-- Optimise jpeg images, stripping all non-essential information:
+- Optimise JPEG images, stripping all non-essential data:
 
 `jpegoptim --strip-all {{image1.jpeg}} {{image2.jpeg}} {{imageN.jpeg}}`
 
