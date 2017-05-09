@@ -4,7 +4,7 @@
 
 - Start nethogs as root (default device is eth0):
 
-`sudo nethogs`
+sudo nethogs`
 
 - Monitor bandwidth on specific device:
 
