@@ -5,20 +5,20 @@
 
 - Open files and show the differences:
 
-`vimdiff file1 file2`
+`vimdiff {{file1}} {{file2}}`
 
 - Use horizontal window split instead of the default vertical split:
 
-`vimdiff -o file1 file2`
+`vimdiff -o {{file1}} {{file2}}`
 
 - Close current window without saving changes:
 
-`:q!`
+`<Esc>:q!`
 
 - Save changes in current window:
 
-`:w`
+`<Esc>:w`
 
 - Move cursor to window left|right|up|down:
 
-`Ctrl-w h|l|k|j`
+`<Esc>Ctrl-w {{h|l|k|j}}`
