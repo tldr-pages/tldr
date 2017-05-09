@@ -4,7 +4,7 @@
 
 - List all containers (does not work on public remotes):
 
-`lxc list [{{private-remote}}:][{{filter}}]`
+`lxc list [{{private_remote}}:][{{filter}}]`
 
 - List all images:
 
@@ -12,20 +12,20 @@
 
 - Create a new container from an image (i.e. `ubuntu:16.04`):
 
-`lxc launch [{{remote}}:]{{image}} {{container-name}}`
+`lxc launch [{{remote}}:]{{image}} {{container_name}}`
 
 - Start a container:
 
-`lxc start [{{remote}}:]{{container-name}}`
+`lxc start [{{remote}}:]{{container_name}}`
 
 - Stop a container:
 
-`lxc stop [{{remote}}:]{{container-name}}`
+`lxc stop [{{remote}}:]{{container_name}}`
 
 - Show detailed info about a container:
 
-`lxc info [{{remote}}:]{{container-name}}`
+`lxc info [{{remote}}:]{{container_name}}`
 
 - Take a snapshot of a container:
 
-`lxc snapshot [{{remote}}:]{{container-name}} {{snapshot-name}}`
+`lxc snapshot [{{remote}}:]{{container_name}} {{snapshot_name}}`
