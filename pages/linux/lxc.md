@@ -13,20 +13,20 @@
 
 - Create a new container from an image:
 
-`lxc launch {{remote}}:{{image}} {{container_name}}`
+`lxc launch {{remote}}:{{image}} {{container}}`
 
 - Start a container:
 
-`lxc start {{remote}}:{{container_name}}`
+`lxc start {{remote}}:{{container}}`
 
 - Stop a container:
 
-`lxc stop {{remote}}:{{container_name}}`
+`lxc stop {{remote}}:{{container}}`
 
 - Show detailed info about a container:
 
-`lxc info {{remote}}:{{container_name}}`
+`lxc info {{remote}}:{{container}}`
 
 - Take a snapshot of a container:
 
-`lxc snapshot {{remote}}:{{container_name}} {{snapshot_name}}`
+`lxc snapshot {{remote}}:{{container}} {{snapshot}}`
