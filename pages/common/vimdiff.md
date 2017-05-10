@@ -1,13 +1,13 @@
 # vimdiff
 
-> Open up to four files in Vim and show their differences.
-> See Vim documentation for how to edit and navigate within a window.
+> Open up to four files in vim and show their differences between them.
+> See vim documentation for how to edit and navigate within a window.
 
-- Open files and show the differences:
+- Open two files and show the differences (up to four files can be compared):
 
 `vimdiff {{file1}} {{file2}}`
 
-- Use horizontal window split instead of the default vertical split:
+- Open two files using a horizontal window split instead of the default vertical split:
 
 `vimdiff -o {{file1}} {{file2}}`
 
