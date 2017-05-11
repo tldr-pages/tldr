@@ -15,10 +15,10 @@
 
 `sort {{file}} | uniq -d`
 
-- Display number of occurences of each line along with that line:
+- Display number of occurrences of each line along with that line:
 
 `sort {{file}} | uniq -c`
 
-- Display number of occurences of each line, sorted by the most frequent:
+- Display number of occurrences of each line, sorted by the most frequent:
 
 `sort {{file}} | uniq -c | sort -nr`
