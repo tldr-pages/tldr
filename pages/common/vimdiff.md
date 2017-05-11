@@ -11,14 +11,6 @@
 
 `vimdiff -o {{file1}} {{file2}}`
 
-- Close current window without saving changes:
-
-`<Esc>:q!`
-
-- Save changes in current window:
-
-`<Esc>:w`
-
 - Move cursor to window left|right|up|down:
 
-`<Esc>Ctrl-w {{h|l|k|j}}`
+`Ctrl + w {{h|l|k|j}}`
