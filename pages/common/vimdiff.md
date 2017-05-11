@@ -1,7 +1,7 @@
 # vimdiff
 
 > Open up to four files in vim and show their differences between them.
-> See `vim` documentation for how to edit and navigate within a window.
+> See `vim` documentation for working with files and navigating within a window.
 
 - Open two files and show the differences (up to four files can be compared):
 
