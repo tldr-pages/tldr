@@ -12,6 +12,6 @@
 - Sort the passwd file by the 3rd field, numerically:
 
 <blockquote>sort -t: -k 3n /etc/passwd</blockquote>
-- Sort human-readable numbers (in this case the 5th field of `ls -lh`):
+- Sort a file preserving only unique lines:
 
-<blockquote>ls -lh | sort -h -k 5</blockquote>
+<blockquote>sort -u <i>filename</i></blockquote>
