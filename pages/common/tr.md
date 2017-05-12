@@ -10,7 +10,7 @@
 
 `tr 'abcd' 'jkmn' < {{filename}}`
 
-- Delete all occurances of the specified set of characters from the input:
+- Delete all occurrences of the specified set of characters from the input:
 
 `tr -d '{{input_characters}}'`
 

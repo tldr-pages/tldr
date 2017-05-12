@@ -2,7 +2,7 @@
 
 > Extract compressed files in a ZIP archive.
 
-- Extract zip file(s) (for multiple files, seperate file paths by spaces):
+- Extract zip file(s) (for multiple files, separate file paths by spaces):
 
 `unzip {{file(s)}}`
 
