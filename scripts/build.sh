@@ -38,6 +38,12 @@ function upload_assets {
   git push -q
 }
 
+function update_bash_completion {
+  cd $TLDRHOME
+  commands=`find pages/ -type f -exec basename {} \; | sed 's/\.md//g' | tr '\n' ' '`
+  sed "s/<placeholder>/$commands/g" scripts/bash-complete.template > scripts/tldr
+}
+
 ###################################
 # MAIN
 ###################################
@@ -51,4 +57,5 @@ else
   rebuild_index && echo "Rebuilding index is done"
   build_archive && echo "Pages archive is created"
   upload_assets && echo "Assets (pages archive, index) deployed to static site"
+  update_bash_completion && echo "Updated bash completion page"
 fi
