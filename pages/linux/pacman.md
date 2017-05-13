@@ -30,6 +30,10 @@
 
 `pacman -Qo {{filename}}`
 
+- List all files owned by a given package:
+
+`pacman -Ql {{package_name}}`
+
 - Empty package cache to free up space:
 
 `pacman -Scc`
