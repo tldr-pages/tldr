@@ -22,10 +22,10 @@
 
 `perl -p -i -e 's/{{find}}/{{replace}}/g' {{filename}}`
 
-- Run a multi-line find/replace expression on a file (i.e. including line breaks):
-
-`perl -0 -p -i -e 's/{{foo\nbar}}/{{foobar}}/g' {{filename}}`
-
 - Run a find/replace expression on a file, saving the original file with a given extension:
 
 `perl -p -i'.old' -e 's/{{find}}/{{replace}}/g' {{filename}}`
+
+- Run a multi-line find/replace expression on a file, and save the result in another file:
+
+`perl -p0e 's/{{foo\nbar}}/{{foobar}}/g' {{input_file}} > {{output_file}}`
