@@ -14,10 +14,6 @@
 
 `perl -e {{perl_statement}}`
 
-- Import module before execution of a perl statement:
-
-`perl -M{{module}} -e {{perl_statement}}`
-
 - Run a Perl script in debug mode, using `perldebug`:
 
 `perl -d {{script.pl}}`
@@ -25,6 +21,10 @@
 - Loo[p] over all lines of a file, editing them [i]n-place using a find/replace [e]xpression:
 
 `perl -p -i -e 's/{{find}}/{{replace}}/g' {{filename}}`
+
+- Run a multi-line find/replace expression on a file (i.e. including line breaks):
+
+`perl -0 -p -i -e 's/{{foo\nbar}}/{{foobar}}/g' {{filename}}`
 
 - Run a find/replace expression on a file, saving the original file with a given extension:
 
