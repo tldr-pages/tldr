@@ -1,13 +1,13 @@
 # lxc
 
 > Manage Linux containers using the lxd REST API.
-> 'remote:' refers to the alias for a remote server (i.e. 'ubuntu:') and when omitted will apply locally.
+> Any container names or patterns can be prefixed with the name of a remote server.
 
-- List local containers matching a string. Omit string to list all local containers:
+- List local containers matching a string. Omit the string to list all local containers:
 
 `lxc list {{match_string}}`
 
-- List images matching a string. Omit string to list all images:
+- List images matching a string. Omit the string to list all images:
 
 `lxc image list [{{remote}}:]{{match_string}}`
 
