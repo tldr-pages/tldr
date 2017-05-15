@@ -14,10 +14,14 @@
 
 `git checkout --track {{remote_name}}/{{branch_name}}`
 
-- Undo unstaged local modification:
+- Discard all unstaged modifications in the current folder (see `git reset` for more undo-like commands):
 
 `git checkout .`
 
-- Replace a file in the current working directory with the version of it committed in a given branch:
+- Discard unstaged modifications to a given file:
+
+`git checkout {{file_name}}`
+
+- Replace a file in the current folder with the version of it committed in a given branch:
 
 `git checkout {{branch_name}} -- {{file_name}}`
