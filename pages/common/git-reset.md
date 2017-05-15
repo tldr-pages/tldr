@@ -23,6 +23,10 @@
 
 `git reset --soft HEAD~2`
 
+- Discard any uncommitted changes, staged or not (for only unstaged changes, use `git checkout`):
+
+`git reset --hard`
+
 - Reset the repository to a given commit, discarding committed, staged and uncommitted changes since then:
 
 `git reset --hard {{commit}}`
