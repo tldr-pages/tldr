@@ -14,11 +14,11 @@
 
 `git checkout --track {{remote_name}}/{{branch_name}}`
 
-- Discard all unstaged modifications in the current folder (see `git reset` for more undo-like commands):
+- Discard all unstaged changes in the current folder (see `git reset` for more undo-like commands):
 
 `git checkout .`
 
-- Discard unstaged modifications to a given file:
+- Discard unstaged changes to a given file:
 
 `git checkout {{file_name}}`
 
