@@ -1,0 +1,23 @@
+<b>lxc</b><br><br>
+<b>Manage Linux containers using the lxd REST API.</b><br><br><b>Any container names or patterns can be prefixed with the name of a remote server.</b><br><br>
+- List local containers matching a string. Omit the string to list all local containers:
+
+<blockquote>lxc list <i>match_string</i></blockquote>
+- List images matching a string. Omit the string to list all images:
+
+<blockquote>lxc image list [<i>remote</i>:]<i>match_string</i></blockquote>
+- Create a new container from an image:
+
+<blockquote>lxc launch [<i>remote</i>:]<i>image</i> <i>container</i></blockquote>
+- Start a container:
+
+<blockquote>lxc start [<i>remote</i>:]<i>container</i></blockquote>
+- Stop a container:
+
+<blockquote>lxc stop [<i>remote</i>:]<i>container</i></blockquote>
+- Show detailed info about a container:
+
+<blockquote>lxc info [<i>remote</i>:]<i>container</i></blockquote>
+- Take a snapshot of a container:
+
+<blockquote>lxc snapshot [<i>remote</i>:]<i>container</i> <i>snapshot</i></blockquote>
