@@ -8,4 +8,4 @@
 
 - Perform a calculation in non-interactive mode:
 
-`calc -p '{{85 * (36 / 4)}}'
+`calc -p '{{85 * (36 / 4)}}'`
