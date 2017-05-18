@@ -6,7 +6,7 @@
 
 `sudo prosodyctl status`
 
-- Ask the Prosody server to reload it's configuration files:
+- Reload the server's configuration files:
 
 `sudo prosodyctl reload`
 
