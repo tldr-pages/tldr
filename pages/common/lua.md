@@ -2,14 +2,14 @@
 
 > A powerful, light-weight embeddable programming language.
 
-- Start an interactive lua shell:
+- Start an interactive Lua shell:
 
 `lua`
 
-- Execute a lua expression:
+- Execute a Lua expression:
 
 `lua {{script_name.lua}} {{--optional-argument}}`
 
-- Execute a string of lua:
+- Execute a string of Lua:
 
 `lua -e '{{print( "Hello World" )}}`
