@@ -1,16 +1,16 @@
 # prosodyctl
 
-> The control tool for the prosody XMPP server.
+> The control tool for the Prosody XMPP server.
 
-- Show the status of the prosody server:
+- Show the status of the Prosody server:
 
 `sudo prosodyctl status`
 
-- Ask the prosody server to reload it's configuration files:
+- Ask the Prosody server to reload it's configuration files:
 
 `sudo prosodyctl reload`
 
-- Add a user to the XMPP server:
+- Add a user to the Prosody XMPP server:
 
 `sudo prosodyctl adduser user@example.com`
 
