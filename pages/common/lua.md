@@ -6,10 +6,10 @@
 
 `lua`
 
-- Execute a Lua expression:
+- Execute a Lua script:
 
 `lua {{script_name.lua}} {{--optional-argument}}`
 
-- Execute a string of Lua:
+- Execute a Lua expression:
 
 `lua -e '{{print( "Hello World" )}}`
