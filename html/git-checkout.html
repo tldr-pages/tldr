@@ -9,9 +9,12 @@
 - Switch to an existing remote branch:
 
 <blockquote>git checkout --track <i>remote_name</i>/<i>branch_name</i></blockquote>
-- Undo unstaged local modification:
+- Discard all unstaged changes in the current folder (see `git reset` for more undo-like commands):
 
 <blockquote>git checkout .</blockquote>
-- Replace a file in the current working directory with the version of it committed in a given branch:
+- Discard unstaged changes to a given file:
+
+<blockquote>git checkout <i>file_name</i></blockquote>
+- Replace a file in the current folder with the version of it committed in a given branch:
 
 <blockquote>git checkout <i>branch_name</i> -- <i>file_name</i></blockquote>
