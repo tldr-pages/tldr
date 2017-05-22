@@ -26,7 +26,7 @@ test_result = sys.stdin.read().strip()
 comment = (
 "The [build]"
 "(https://travis-ci.org/tldr-pages/tldr/builds/{build_id})"
-" for this PR has failed with the following message:"
+" for this PR has failed with the following error(s):"
 "\n```\n"
 "{comment_body}"
 "\n```\n"
