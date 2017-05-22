@@ -9,7 +9,7 @@
 
 - Generate a Makefile and use it to compile a project in a separate "build" folder (out-of-source build):
 
-`mkdir -p {{build}} && cd {{build}} && cmake ../ && make`
+`cmake -H. -B{{build}} && make -C {{build}}`
 
 - Run cmake in interactive mode (it will ask for each variable, instead of using defaults):
 
