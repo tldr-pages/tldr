@@ -18,6 +18,6 @@
 
 `mutt -i {{file}} {{recipient@example.com}}`
 
-- Specify a draft file containing the header and the body of the message:
+- Specify a draft file containing the header and the body of the message, in RFC 5322 format:
 
 `mutt -H {{file}} {{recipient@example.com}}`
