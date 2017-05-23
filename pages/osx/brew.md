@@ -2,7 +2,7 @@
 
 > Package manager for OS X.
 
-- Search for a formula:
+- Search for available formulas:
 
 `brew search {{text}}`
 
