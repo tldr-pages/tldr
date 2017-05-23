@@ -18,6 +18,6 @@
 
 `quota -g`
 
-- Show disk quotas for another user (must be superuser to do this):
+- Show disk quotas for another user:
 
 `sudo quota -u {{username}}`
