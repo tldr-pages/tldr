@@ -1,16 +1,11 @@
 # mosh
 
-> Mobile Shell (`mosh`) is remote terminal application that allows roaming.
-> `mosh` is a more robust and responsive replacement for SSH.
-> Visit <https://mosh.org> for more information.
+> Mobile Shell (`mosh`) is a robust and responsive replacement for SSH.
+> `mosh` persists connections to remote servers while roaming between networks.
 
 - Typical usage:
 
 `mosh {{username}}@{{remote_host}}`
-
-- Usage when `mosh-server` binary is outside standard path:
-
-`mosh --server={{/path/to/bin/}}mosh-server {{remote_host}}`
 
 - Connect to a remote server with a specific identity (private key):
 
@@ -28,6 +23,6 @@
 
 `mosh -p {{124}} {{username}}@{{remote_host}}`
 
-- Disable instant echo:
+- Usage when `mosh-server` binary is outside standard path:
 
-`mosh --predict=never {{remote_host}}`
+`mosh --server={{/path/to/bin/}}mosh-server {{remote_host}}`
