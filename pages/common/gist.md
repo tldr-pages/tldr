@@ -1,6 +1,6 @@
 # gist
 
-> Upload code to https://gist.github.com
+> Upload code to https://gist.github.com.
 
 - Upload any number of files:
 
@@ -14,7 +14,7 @@
 
 `{{echo hello world}} | gist -f {{name.rb}}`
 
-- List public and private gists for authed user
+- List public and private gists for authed user:
 
 `gist -l`
 
