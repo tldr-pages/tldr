@@ -7,6 +7,10 @@
 
 `cowsay "Hello world!"`
 
+- List all available characters:
+
+`cowsay -l`
+
 - Print an ASCII dragon saying "Hello!":
 
 `echo "Hello!" | cowsay -f dragon`
