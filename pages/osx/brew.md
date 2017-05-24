@@ -2,11 +2,11 @@
 
 > Package manager for OS X.
 
-- Search formula:
+- Search for available formulas:
 
 `brew search {{text}}`
 
-- Install formula:
+- Install the latest stable version of a formula (use `--devel` for development versions):
 
 `brew install {{formula}}`
 
@@ -14,18 +14,18 @@
 
 `brew list`
 
-- Get latest version of installed formula (passing no formula updates all installed formulae):
+- Update an installed formula (passing no formula updates all installed formulae):
 
 `brew upgrade {{formula}}`
 
-- Update brew:
+- Update brew itself:
 
 `brew update`
 
-- Display information about formula, which contains formula version, installed path, dependencies, etc.:
+- Display information about a formula (version, installation path, dependencies, etc.):
 
 `brew info {{formula}}`
 
-- Check your system for potential problems:
+- Check your Homebrew installation for potential problems:
 
 `brew doctor`
