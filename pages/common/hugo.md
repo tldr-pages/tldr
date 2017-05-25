@@ -1,31 +1,31 @@
 # hugo
 
-> Hugo is a Fast and Flexible Static Site Generator.
+> Hugo is a fast and flexible static site generator.
 
-- Create a new hugo site:
+- Create a new Hugo site:
 
 `hugo new site {{path/to/site}}`
 
-- Create a new hugo theme (you may also download one from [https://themes.gohugo.io/]()):
+- Create a new Hugo theme (you may also download one from https://themes.gohugo.io/):
 
 `hugo new theme {{theme_name}}`
 
 - Create a new page:
 
-`hugo new {{section_name}}/{{filename}}{{.ext}}`
+`hugo new {{section_name}}/{{filename}}`
 
 - Build your site to the `./public/` directory:
 
 `hugo`
 
-- Build your site to a different destination:
+- Build your site including pages that are marked as a "draft":
+
+`hugo --buildDrafts`
+
+- Build your site to a given directory:
 
 `hugo --destination {{path/to/destination}}`
 
-- Build your site, start up a webserver to serve it, and watch for changes:
+- Build your site, start up a webserver to serve it, and automatically reload when pages are edited:
 
 `hugo server`
-
-- Build and serve content marked as draft:
-
-`hugo server --buildDrafts`
