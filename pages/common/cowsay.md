@@ -1,11 +1,14 @@
 # cowsay
 
-> Generate an ASCII character like a cow or sheep saying or thinking something.
-> Available characters are stored in /usr/share/cowsay on Linux, and /usr/local/share/cows/ on Mac.
+> Generate an ASCII character (by default a cow) saying or thinking something.
 
 - Print an ASCII cow saying "Hello world!":
 
 `cowsay "Hello world!"`
+
+- List all available characters:
+
+`cowsay -l`
 
 - Print an ASCII dragon saying "Hello!":
 
