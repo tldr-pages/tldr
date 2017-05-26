@@ -1,11 +1,11 @@
 <b>mktemp</b><br><br>
-<b>Make a temporary file with a unique name.</b><br><br>
-- Create a unique file:
+<b>Create a temporary file or directory.</b><br><br>
+- Create an empty temporary file and return the absolute path to it:
 
 <blockquote>mktemp</blockquote>
-- Create a unique directory:
+- Create a temporary directory and return the absolute path to it:
 
-<blockquote>mktemp -d</blockquote>
-- Create a filename replacing XXXXXX with a unique identifier:
+<blockquote>mktemp --directory</blockquote>
+- Create a temporary file with a specified suffix:
 
-<blockquote>mktemp /tmp/<i>filename</i>.XXXXXX</blockquote>
+<blockquote>mktemp --suffix "<i>.txt</i>"</blockquote>

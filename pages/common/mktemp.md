@@ -1,15 +1,15 @@
 # mktemp
 
-> Make a temporary file with a unique name.
+> Create a temporary file or directory.
 
-- Create a unique file:
+- Create an empty temporary file and return the absolute path to it:
 
 `mktemp`
 
-- Create a unique directory:
+- Create a temporary directory and return the absolute path to it:
 
-`mktemp -d`
+`mktemp --directory`
 
-- Create a filename replacing XXXXXX with a unique identifier:
+- Create a temporary file with a specified suffix:
 
-`mktemp /tmp/{{filename}}.XXXXXX`
+`mktemp --suffix "{{.txt}}"`
