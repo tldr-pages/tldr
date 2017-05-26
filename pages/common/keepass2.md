@@ -10,6 +10,6 @@
 
 `keepass2 "{{/path/to/database.kbdx}}"`
 
-- Use a specific key file to open a password database: 
+- Use a specific key file to open a password database:
 
 `keepass2 "{{/path/to/database.kbdx}}" -keyfile:{{/path/to/key/file.key}}`
