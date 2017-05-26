@@ -12,4 +12,4 @@
 
 - Create a temporary file with a specified suffix:
 
-`mktemp --suffix "{{.txt}}"
+`mktemp --suffix "{{.txt}}"`
