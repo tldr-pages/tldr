@@ -1,6 +1,6 @@
 # keepass2
 
-> A free, open source, light-weight and easy-to-use password manager.
+> A light-weight password manager.
 
 - Start KeePass 2, opening the most recently-opened password database:
 
