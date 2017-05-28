@@ -14,7 +14,7 @@
 
 `{{echo "hello world"}} | gist -f {{name.rb}}`
 
-- List public and private gists for authed user:
+- List your public and private gists:
 
 `gist -l`
 
