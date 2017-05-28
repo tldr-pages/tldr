@@ -12,7 +12,7 @@
 
 - Read contents from STDIN with a name:
 
-`{{echo hello world}} | gist -f {{name.rb}}`
+`{{echo "hello world"}} | gist -f {{name.rb}}`
 
 - List public and private gists for authed user:
 
