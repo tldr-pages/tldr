@@ -8,7 +8,7 @@
 
 - Start KeePass 2, opening a specific password database:
 
-`keepass2 {{path/to/database.kbdx}}
+`keepass2 {{path/to/database.kbdx}}`
 
 - Use a specific key file to open a password database:
 
