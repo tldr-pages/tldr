@@ -2,17 +2,17 @@
 
 > Upload code to https://gist.github.com.
 
-- Upload any number of files:
+- Create a gist from any number of text files:
 
 `gist {{file.txt}} {{file2.txt}}`
 
-- Upload a private file with a description:
+- Create a private gist with a description:
 
-`gist -p {{file.txt}} -d {{"A meaningful description"}}`
+`gist -p -d {{"A meaningful description"}} {{file.txt}} `
 
-- Read contents from STDIN with a name:
+- Read contents from STDIN and create a gist from it:
 
-`{{echo "hello world"}} | gist -f {{name.rb}}`
+`{{echo "hello world"}} | gist`
 
 - List your public and private gists:
 
