@@ -18,6 +18,6 @@
 
 `gist -l`
 
-- Update existing gists with the `GIST_ID` in the URL:
+- Use the id from the gist URL to modify or include a file:
 
 `gist -u {{GIST_ID}} {{file.txt}}`
