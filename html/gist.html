@@ -1,0 +1,17 @@
+<b>gist</b><br><br>
+<b>Upload code to https://gist.github.com.</b><br><br>
+- Create a gist from any number of text files:
+
+<blockquote>gist <i>file.txt</i> <i>file2.txt</i></blockquote>
+- Create a private gist with a description:
+
+<blockquote>gist -p -d <i>"A meaningful description"</i> <i>file.txt</i> </blockquote>
+- Read contents from STDIN and create a gist from it:
+
+<blockquote><i>echo "hello world"</i> | gist</blockquote>
+- List your public and private gists:
+
+<blockquote>gist -l</blockquote>
+- Use the id from the gist URL to modify or include a file:
+
+<blockquote>gist -u <i>GIST_ID</i> <i>file.txt</i></blockquote>
