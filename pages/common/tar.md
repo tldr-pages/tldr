@@ -30,3 +30,7 @@
 - List the contents of a tar file:
 
 `tar tvf {{source.tar}}`
+
+- Change to a different target directory, removing one leading component from file names. Useful in installing archived binary distributions:
+
+`tar -C {{/usr/local}} --strip-components {{1}} -xJf {{source}}.tar.xz`
