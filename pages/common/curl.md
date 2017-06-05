@@ -19,13 +19,13 @@
 
 `curl -d {{'name=bob'}} {{http://example.com/form}}`
 
-- Send a request with an extra [H]eader:
+- Send a request with an extra [H]eader using a custom HTTP method:
 
-`curl -H {{'X-My-Header: 123'}} {{http://example.com}}`
+`curl -H {{'X-My-Header: 123'}} -X {{PUT}} {{http://example.com}}`
 
-- Send [d]ata in JSON format, specifying a custom HTTP method, and including an extra [H]eader:
+- Send [d]ata in JSON format, specifying the appropriate content-type [H]eader:
 
-`curl -d {{'{"name":"bob"}'}} -X {{PUT}} -H {{'Content-Type: application/json'}} {{http://example.com/users/1234}}`
+`curl -d {{'{"name":"bob"}'}} -H {{'Content-Type: application/json'}} {{http://example.com/users/1234}}`
 
 - Pass a user name and password for server authentication and show headers info only:
 
