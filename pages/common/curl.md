@@ -19,7 +19,11 @@
 
 `curl -d {{'name=bob'}} {{http://example.com/form}}`
 
-- Send data, specifying a custom HTTP method, and including an extra header:
+- Send a request with an extra [H]eader:
+
+`curl -H {{'X-My-Header: 123'}} {{http://example.com}}`
+
+- Send [d]ata in JSON format, specifying a custom HTTP method, and including an extra [H]eader:
 
 `curl -d {{'{"name":"bob"}'}} -X {{PUT}} -H {{'Content-Type: application/json'}} {{http://example.com/users/1234}}`
 
