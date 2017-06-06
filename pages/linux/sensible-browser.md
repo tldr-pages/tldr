@@ -2,7 +2,7 @@
 
 > Open the default browser.
 
-- Open a new window of the defaualt browser:
+- Open a new window of the default browser:
 
 `sensible-browser`
 
