@@ -11,6 +11,10 @@
 
 `make {{target}}`
 
+- Call a specific target, executing 4 jobs at a time in parallel:
+
+`make -J{{4}} {{target}}`
+
 - Use a specific Makefile:
 
 `make --file {{file}}`
