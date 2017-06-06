@@ -12,9 +12,12 @@
 - Send form-encoded data (POST request of type application/x-www-form-urlencoded):
 
 <blockquote>curl -d <i>'name=bob'</i> <i>http://example.com/form</i></blockquote>
-- Send data, specifying a custom HTTP method, and including an extra header:
+- Send a request with an extra header using a custom HTTP method:
 
-<blockquote>curl -d <i>'{"name":"bob"}'</i> -X <i>PUT</i> -H <i>'Content-Type: application/json'</i> <i>http://example.com/users/1234</i></blockquote>
+<blockquote>curl -H <i>'X-My-Header: 123'</i> -X <i>PUT</i> <i>http://example.com</i></blockquote>
+- Send data in JSON format, specifying the appropriate content-type header:
+
+<blockquote>curl -d <i>'{"name":"bob"}'</i> -H <i>'Content-Type: application/json'</i> <i>http://example.com/users/1234</i></blockquote>
 - Pass a user name and password for server authentication and show headers info only:
 
 <blockquote>curl -u myusername:mypassword -I <i>http://example.com</i></blockquote>
