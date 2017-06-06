@@ -19,9 +19,13 @@
 
 `curl -d {{'name=bob'}} {{http://example.com/form}}`
 
-- Send data, specifying a custom HTTP method, and including an extra header:
+- Send a request with an extra header using a custom HTTP method:
 
-`curl -d {{'{"name":"bob"}'}} -X {{PUT}} -H {{'Content-Type: application/json'}} {{http://example.com/users/1234}}`
+`curl -H {{'X-My-Header: 123'}} -X {{PUT}} {{http://example.com}}`
+
+- Send data in JSON format, specifying the appropriate content-type header:
+
+`curl -d {{'{"name":"bob"}'}} -H {{'Content-Type: application/json'}} {{http://example.com/users/1234}}`
 
 - Pass a user name and password for server authentication and show headers info only:
 
