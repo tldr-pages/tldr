@@ -6,10 +6,10 @@
 
 `sudo badblocks {{/dev/sda}}`
 
-- Search an unmounted disk for bad blocks with a non-descructive read-write test:
+- Search an unmounted disk for bad blocks with a non-destcructive read-write test:
 
 `sudo badblocks -n {{/dev/sda}}`
 
-- Search an unmounted disk fo r bad blocks with a DESTRUCTIVE write test:
+- Search an unmounted disk for bad blocks with a destructive write test:
 
 `sudo badblocks -w {{/dev/sda}}`
