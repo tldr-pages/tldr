@@ -1,27 +1,28 @@
 # git config
 
-> Get and set repository or global options.
+> Manage custom configuration options for git repositories.
+> These configurations can be local (for the current repository) or global (for the current user).
 
-- Print list of options for current repository:
+- List only local configurations (stored in `.git/config` in the current repository):
 
 `git config --list --local`
 
-- Print global list of options, set in ~/.gitconfig:
+- List only global configurations (stored in `~/.gitconfig`):
 
 `git config --list --global`
 
-- Get full list of options:
+- List all configurations that have been defined either locally or globally:
 
 `git config --list`
 
-- Get value of alias.ls option:
+- Get the local value of a given configuration entry:
 
-`git config alias.st`
+`git config alias.unstage`
 
-- Set option alias.ls=status in file ~/.gitconfig:
+- Set the global value of a given configuration entry:
 
-`git config --global alias.ls "status"`
+`git config --global alias.unstage "reset HEAD --"`
 
-- Remove option alias.st from ~/.gitconfig:
+- Unset a global configuration entry (reverts to git's default behavior):
 
-`git config --global --unset alias.st`
+`git config --global --unset alias.unstage`
