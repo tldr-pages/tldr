@@ -2,7 +2,7 @@
 
 > The Netwide Assembler, a portable 80x86 assembler.
 
-- Assemble raw binary file `source` from `source.asm`:
+- Assemble binary file `source` of raw binary format from `source.asm`:
 
 `nasm {{source.asm}}`
 
