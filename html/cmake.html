@@ -5,7 +5,7 @@
 <blockquote>cmake && make</blockquote>
 - Generate a Makefile and use it to compile a project in a separate "build" folder (out-of-source build):
 
-<blockquote>mkdir -p <i>build</i> && cd <i>build</i> && cmake ../ && make</blockquote>
+<blockquote>cmake -H. -B<i>build</i> && make -C <i>build</i></blockquote>
 - Run cmake in interactive mode (it will ask for each variable, instead of using defaults):
 
 <blockquote>cmake -i</blockquote>
