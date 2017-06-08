@@ -15,7 +15,7 @@
 
 `git config --list`
 
-- Get the local value of a given configuration entry:
+- Get the value of a given configuration entry:
 
 `git config alias.unstage`
 
