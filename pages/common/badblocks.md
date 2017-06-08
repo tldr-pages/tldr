@@ -3,7 +3,7 @@
 > Search a device for bad blocks.
 > Some usages of `badblocks` can be destructive! This means it can erase all the data on a disk!
 
-- Search a disk for bad blocks by using a non-destructive read only test:
+- Search a disk for bad blocks by using a non-destructive read-only test:
 
 `sudo badblocks {{/dev/sda}}`
 
