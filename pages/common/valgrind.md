@@ -6,9 +6,9 @@
 
 `valgrind --tool={{tool_name}} {{program}}`
 
-- Use the (default) Memcheck tool to report memory leaks of `program` in detail:
+- Use the (default) Memcheck tool to report all possible memory leaks of `program` in detail:
 
-`valgrind --leak-check=full --show-reachable=yes {{program}}`
+`valgrind --leak-check=full --show-leak-kinds=all {{program}}`
 
 - Use the Cachegrind tool to profile and log CPU cache operations of `program`:
 
