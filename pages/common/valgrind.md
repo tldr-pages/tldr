@@ -2,7 +2,7 @@
 
 > Wrapper for a set of expert tools for profiling, optimizing and debugging programs.
 
-- Test `program` with a specified Valgrind tool:
+- Test `program` with the specified Valgrind tool. Commonly used tools include `memcheck`, `cachegrind`, `callgrind`, `massif`, `helgrind`, and `drd`:
 
 `valgrind --tool={{tool_name}} {{program}}`
 
