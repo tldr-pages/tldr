@@ -6,7 +6,7 @@
 
 `fping -a -g 192.168.1.0/24`
 
-- List alive hosts within a subnet generated from a IP range:
+- List alive hosts within a subnet generated from an IP range:
 
 `fping -a -g 192.168.1.1 192.168.1.254`
 
