@@ -1,6 +1,6 @@
 # valgrind
 
-> Wrapper to a set of expert tools for profiling, optimizing and debugging your programs.
+> Wrapper for a set of expert tools for profiling, optimizing and debugging programs.
 
 - Test `program` with a specified Valgrind tool:
 
