@@ -1,12 +1,13 @@
 # valgrind
 
 > Wrapper for a set of expert tools for profiling, optimizing and debugging programs.
+> Commonly used tools include `memcheck`, `cachegrind`, `callgrind`, `massif`, `helgrind`, and `drd`.
 
-- Test `program` with the specified Valgrind tool. Commonly used tools include `memcheck`, `cachegrind`, `callgrind`, `massif`, `helgrind`, and `drd`:
+- Use the (default) Memcheck tool to show a diagnostic of memory usage by `program`.
 
-`valgrind --tool={{tool_name}} {{program}}`
+`valgrind {{program}}`
 
-- Use the (default) Memcheck tool to report all possible memory leaks of `program` in detail:
+- Use Memcheck to report all possible memory leaks of `program` in full detail:
 
 `valgrind --leak-check=full --show-leak-kinds=all {{program}}`
 
