@@ -23,6 +23,6 @@
 
 `git config --global alias.unstage "reset HEAD --"`
 
-- Unset a global configuration entry (reverts to git's default behavior):
+- Revert a global configuration entry to its default value:
 
 `git config --global --unset alias.unstage`
