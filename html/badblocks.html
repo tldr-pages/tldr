@@ -1,0 +1,11 @@
+<b>badblocks</b><br><br>
+<b>Search a device for bad blocks.</b><br><br><b>Some usages of badblocks can cause destructive actions, such as erasing all the data on a disk, including the partition table.</b><br><br>
+- Search a disk for bad blocks by using a non-destructive read-only test:
+
+<blockquote>sudo badblocks <i>/dev/sda</i></blockquote>
+- Search an unmounted disk for bad blocks with a non-destructive read-write test:
+
+<blockquote>sudo badblocks -n <i>/dev/sda</i></blockquote>
+- Search an unmounted disk for bad blocks with a destructive write test:
+
+<blockquote>sudo badblocks -w <i>/dev/sda</i></blockquote>
