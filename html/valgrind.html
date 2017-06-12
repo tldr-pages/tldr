@@ -1,0 +1,14 @@
+<b>valgrind</b><br><br>
+<b>Wrapper for a set of expert tools for profiling, optimizing and debugging programs.</b><br><br><b>Commonly used tools include `memcheck`, `cachegrind`, `callgrind`, `massif`, `helgrind`, and `drd`.</b><br><br>
+- Use the (default) Memcheck tool to show a diagnostic of memory usage by `program`:
+
+<blockquote>valgrind <i>program</i></blockquote>
+- Use Memcheck to report all possible memory leaks of `program` in full detail:
+
+<blockquote>valgrind --leak-check=full --show-leak-kinds=all <i>program</i></blockquote>
+- Use the Cachegrind tool to profile and log CPU cache operations of `program`:
+
+<blockquote>valgrind --tool=cachegrind <i>program</i></blockquote>
+- Use the Massif tool to profile and log heap memory and stack usage of `program`:
+
+<blockquote>valgrind --tool=massif --stacks=yes <i>program</i></blockquote>
