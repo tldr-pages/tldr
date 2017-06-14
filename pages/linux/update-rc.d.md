@@ -4,15 +4,15 @@
 
 - Installing a service:
 
- `update-rc.d {{name}} defaults`
+`update-rc.d {{name}} defaults`
 
 - Removing a service forcibly:
 
- `update-rc.d -f {{name}} remove`
+`update-rc.d -f {{name}} remove`
  
 - Disabling a service:
 
- `update-rc.d {{name}} disable`
+`update-rc.d {{name}} disable`
  
 - Enabling a service:
 
