@@ -3,15 +3,15 @@
 > Manage custom configuration options for git repositories.
 > These configurations can be local (for the current repository) or global (for the current user).
 
-- List only local configurations (stored in `.git/config` in the current repository):
+- List only local configuration entries (stored in `.git/config` in the current repository):
 
 `git config --list --local`
 
-- List only global configurations (stored in `~/.gitconfig`):
+- List only global configuration entries (stored in `~/.gitconfig`):
 
 `git config --list --global`
 
-- List all configurations that have been defined either locally or globally:
+- List all configuration entries that have been defined either locally or globally:
 
 `git config --list`
 
