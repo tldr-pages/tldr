@@ -9,11 +9,11 @@
 - Forcibly remove a service:
 
 `update-rc.d -f {{name}} remove`
- 
+
 - Disable a service:
 
 `update-rc.d {{name}} disable`
- 
+
 - Enable a service:
 
 `update-rc.d {{name}} enable`
