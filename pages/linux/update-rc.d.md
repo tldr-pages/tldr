@@ -1,19 +1,19 @@
 # update-rc.d
 
-> Install and remove System-V style init script links
+> Install and remove System-V style init script links.
 
-- Installing a service:
+- Install a service:
 
 `update-rc.d {{name}} defaults`
 
-- Removing a service forcibly:
+- Forcibly remove a service:
 
 `update-rc.d -f {{name}} remove`
  
-- Disabling a service:
+- Disable a service:
 
 `update-rc.d {{name}} disable`
  
-- Enabling a service:
+- Enable a service:
 
 `update-rc.d {{name}} enable`
