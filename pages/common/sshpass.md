@@ -1,7 +1,7 @@
 # sshpass
 
-> ssh password provider.
-> sshpass creates a TTY, feeds the password into it, and then redirects stdin to the ssh session.
+> An ssh password provider.
+> It works by creating a TTY, feeding the password into it, and then redirecting stdin to the ssh session.
 
 - ssh into a remote server using a password supplied on a file descriptor (fd):
 
