@@ -6,14 +6,14 @@
 
 `losetup -a`
 
-- Associate / Attach a device or file to a {{loop}} device:
+- Attach a file to a given loop device:
 
 `sudo losetup /dev/{{loop}} /{{path/to/<file>}}`
 
-- Detach All {{loop}} devices:
+- Detach All loop devices:
 
 `sudo losetup -D`
 
-- Detach a specific {{loop}} device:
+- Detach a given loop device:
 
 `sudo losetup -d /dev/{{loop}}`
