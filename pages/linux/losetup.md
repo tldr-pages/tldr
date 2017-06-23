@@ -17,4 +17,3 @@
 - Detach a specific {{loop}} device:
 
 `sudo losetup -d /dev/{{loop}}`
-
