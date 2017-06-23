@@ -8,7 +8,7 @@
 
 - Associate / Attach a device or file to a {{loop}} device:
 
-`sudo losetup /dev/{{loop}} /{{file}}`
+`sudo losetup /dev/{{loop}} /{{path/to/<file>}}`
 
 - Detach All {{loop}} devices:
 
