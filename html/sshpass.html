@@ -1,0 +1,11 @@
+<b>sshpass</b><br><br>
+<b>An ssh password provider.</b><br><br><b>It works by creating a TTY, feeding the password into it, and then redirecting stdin to the ssh session.</b><br><br>
+- Connect to a remote server using a password supplied on a file descriptor (in this case, stdin):
+
+<blockquote>sshpass -d <i>0</i> ssh <i>user</i>@<i>hostname</i></blockquote>
+- Connect to a remote server with the password supplied as an option, and automatically accept unknown ssh keys:
+
+<blockquote>sshpass -p <i>password</i> ssh -o StrictHostKeyChecking=no <i>user</i>@<i>hostname</i></blockquote>
+- Connect to a remote server using the first line of a file as the password, automatically accept unknown ssh keys, and launch a command:
+
+<blockquote>sshpass -f <i>file</i> ssh -o StrictHostKeyChecking=no <i>user</i>@<i>hostname</i> "<i>command</i>"</blockquote>
