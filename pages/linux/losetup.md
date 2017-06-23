@@ -10,7 +10,7 @@
 
 `sudo losetup /dev/{{loop}} /{{path/to/<file>}}`
 
-- Detach All loop devices:
+- Detach all loop devices:
 
 `sudo losetup -D`
 
