@@ -1,16 +1,16 @@
 # umount
 
-> Revokes access to an entire filesystem mounted to a directory.
+> Unlink a filesystem from its mount point, making it no longer accessible.
 > A filesystem cannot be unmounted when it is busy.
 
-- Unmount a filesystem:
+- Unmount a filesystem, by passing the path to the source it is mounted from:
 
 `umount {{path/to/device_file}}`
 
-- OR:
+- Unmount a filesystem, by passing the path to the target where it is mounted:
 
 `umount {{path/to/mounted_directory}}`
 
-- Unmount all mounted filesystems (dangerous!):
+- Unmount all mounted filesystems (except the `proc` filesystem):
 
 `umount -a`

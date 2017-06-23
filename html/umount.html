@@ -1,11 +1,11 @@
 <b>umount</b><br><br>
-<b>Revokes access to an entire filesystem mounted to a directory.</b><br><br><b>A filesystem cannot be unmounted when it is busy.</b><br><br>
-- Unmount a filesystem:
+<b>Unlink a filesystem from its mount point, making it no longer accessible.</b><br><br><b>A filesystem cannot be unmounted when it is busy.</b><br><br>
+- Unmount a filesystem, by passing the path to the source it is mounted from:
 
 <blockquote>umount <i>path/to/device_file</i></blockquote>
-- OR:
+- Unmount a filesystem, by passing the path to the target where it is mounted:
 
 <blockquote>umount <i>path/to/mounted_directory</i></blockquote>
-- Unmount all mounted filesystems (dangerous!):
+- Unmount all mounted filesystems (except the `proc` filesystem):
 
 <blockquote>umount -a</blockquote>
