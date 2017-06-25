@@ -8,7 +8,7 @@
 
 - Attach a file to a given loop device:
 
-`sudo losetup /dev/{{loop}} /{{path/to/<file>}}`
+`sudo losetup /dev/{{loop}} /{{path/to/file}}`
 
 - Detach all loop devices:
 
