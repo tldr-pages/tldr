@@ -1,7 +1,0 @@
-#!/bin/bash
-
-# Make sure to run this script in the top level directory of the
-# TDLR project.
-
-for i in pages/common/*.md pages/linux/*.md ; do j=`basename $i .md` ; echo $j ; php convert-to-html.php $i html/$j.html ; done
-

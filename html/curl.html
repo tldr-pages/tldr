@@ -1,26 +1,26 @@
 <b>curl</b><br><br>
-<b>Transfers data from or to a server.</b><br><br><b>Supports most protocols including HTTP, FTP, POP3.</b><br><br>
+<b>Transfers data from or to a server.</b><br><br><b>Supports most protocols, including HTTP, FTP, and POP3.</b><br><br>
 - Download the contents of an URL to a file:
 
 <blockquote>curl <i>http://example.com</i> -o <i>filename</i></blockquote>
-- Download a file saving the output under the filename indicated by the URL:
+- Download a file, saving the output under the filename indicated by the URL:
 
 <blockquote>curl -O <i>http://example.com/filename</i></blockquote>
 - Download a file, following [L]ocation redirects, and automatically [C]ontinuing (resuming) a previous file transfer:
 
 <blockquote>curl -O -L -C - <i>http://example.com/filename</i></blockquote>
-- Send form-encoded data (POST request of type application/x-www-form-urlencoded):
+- Send form-encoded data (POST request of type `application/x-www-form-urlencoded`):
 
 <blockquote>curl -d <i>'name=bob'</i> <i>http://example.com/form</i></blockquote>
-- Send a request with an extra header using a custom HTTP method:
+- Send a request with an extra header, using a custom HTTP method:
 
 <blockquote>curl -H <i>'X-My-Header: 123'</i> -X <i>PUT</i> <i>http://example.com</i></blockquote>
 - Send data in JSON format, specifying the appropriate content-type header:
 
 <blockquote>curl -d <i>'{"name":"bob"}'</i> -H <i>'Content-Type: application/json'</i> <i>http://example.com/users/1234</i></blockquote>
-- Pass a user name and password for server authentication and show headers info only:
+- Pass a user name and password for server authentication:
 
-<blockquote>curl -u myusername:mypassword -I <i>http://example.com</i></blockquote>
+<blockquote>curl -u myusername:mypassword <i>http://example.com</i></blockquote>
 - Pass client certificate and key for a resource, skipping certificate validation:
 
 <blockquote>curl --cert <i>client.pem</i> --key <i>key.pem</i> --insecure <i>https://example.com</i></blockquote>

@@ -1,0 +1,14 @@
+<b>losetup</b><br><br>
+<b>Set up and control loop devices.</b><br><br>
+- List loop devices with detailed info:
+
+<blockquote>losetup -a</blockquote>
+- Attach a file to a given loop device:
+
+<blockquote>sudo losetup /dev/<i>loop</i> /<i>path/to/file</i></blockquote>
+- Detach all loop devices:
+
+<blockquote>sudo losetup -D</blockquote>
+- Detach a given loop device:
+
+<blockquote>sudo losetup -d /dev/<i>loop</i></blockquote>
