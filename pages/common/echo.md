@@ -2,7 +2,7 @@
 
 > Print given arguments.
 
-- Print a text message. Note: quotes are optional:
+- Print a text message:
 
 `echo {{"Hello World"}}`
 
