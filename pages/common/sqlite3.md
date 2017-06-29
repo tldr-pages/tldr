@@ -1,7 +1,6 @@
 # sqlite3
 
-> The command-line interface to SQLite 3,
-> which is a self-contained file-based embedded SQL engine.
+> The command-line interface to SQLite 3, which is a self-contained file-based embedded SQL engine.
 
 - Start an interactive shell with a new database:
 
@@ -9,7 +8,7 @@
 
 - Open an interactive shell against an existing database:
 
-`sqlite3 {{path/to/database.sqlite3}}
+`sqlite3 {{path/to/database.sqlite3}}`
 
 - Execute an SQL statement against a database and then exit:
 
