@@ -12,4 +12,4 @@
 
 - Execute an SQL statement against a database and then exit:
 
-`sqlite3 {{path/to/database.sqlite3}} '{{SELECT * FROM some_table;}}`
+`sqlite3 {{path/to/database.sqlite3}} '{{SELECT * FROM some_table;}}'`
