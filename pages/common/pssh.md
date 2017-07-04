@@ -10,7 +10,7 @@
 
 `pssh -H host1 -H host2 -o {{path/to/output_dir}} date`
 
-- Run a command on each host specified in a new-line separated host files:
+- Run a command on each host specified in a new-line separated host file:
 
 `pssh -i -h {{path/to/hosts_file}} date`
 
@@ -20,7 +20,7 @@
 
 - Run a command with extra SSH arguments:
 
-`pssh -i -h {{path/to/hosts_file}} -x "-O StrictHostKeyChecking=no" date`
+`pssh -i -h {{path/to/hosts_file}} -x "{{extra_ssh_args}}" date`
 
 - Run a command using a maximum number of concurrent connections:
 
