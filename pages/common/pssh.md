@@ -2,13 +2,13 @@
 
 > Parallel ssh program.
 
-- Connect to host1 and host2 to print the date on each server inline:
+- Run a common on host1 and host2 to print the date on each server inline:
 
 `pssh -i -H "{{host1}} {{host2}}" date`
 
 - Run a command and save the output to separate files:
 
-`pssh -H host1 -H host2 -o {{path/to/output_dir}} date`
+`pssh -H {{host1}} -H {{host2}} -o {{path/to/output_dir}} date`
 
 - Run a command on each host specified in a new-line separated host file:
 
