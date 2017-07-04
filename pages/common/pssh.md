@@ -20,7 +20,7 @@
 
 - Run a command with extra SSH arguments:
 
-`pssh -i -h {{path/to/hosts_file}} -x "{{extra_ssh_args}}" date`
+`pssh -i -h {{path/to/hosts_file}} -x "{{-O VisualHostKey=yes}}" date`
 
 - Run a command using a maximum number of concurrent connections:
 
