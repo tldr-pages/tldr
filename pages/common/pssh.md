@@ -2,7 +2,7 @@
 
 > Parallel ssh program.
 
-- Run a common on host1 and host2 to print the date on each server inline:
+- Run a command on host1 and host2 to print the date on each server inline:
 
 `pssh -i -H "{{host1}} {{host2}}" date`
 
