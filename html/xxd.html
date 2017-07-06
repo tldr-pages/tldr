@@ -1,0 +1,17 @@
+<b>xxd</b><br><br>
+<b>Create a hexdump from a binary file or vice-versa.</b><br><br>
+- Generate a hexdump from a binary file and display the output to console:
+
+<blockquote>xxd <i>input_file</i></blockquote>
+- Send the hexdump output to a file:
+
+<blockquote>xxd <i>input_file</i> <i>output_file</i></blockquote>
+- Format output in columns of 8 octets per line:
+
+<blockquote>xxd -c <i>8</i> <i>input_file</i></blockquote>
+- Display in plain hex format without any gaps:
+
+<blockquote>xxd -p <i>input_file</i></blockquote>
+- Revert a plaintext hex into binary and store it in an output file:
+
+<blockquote>xxd -r -p <i>input_file</i> <i>output_file</i></blockquote>
