@@ -71,6 +71,7 @@ You can access these pages on your computer using one of the following clients:
 - [Haskell client](https://github.com/psibi/tldr-hs) : `stack install tldr`
 - [Node.js client](https://github.com/tldr-pages/tldr-node-client) : `npm install -g tldr`
 - [Perl5 client](https://github.com/shoichikaji/perl-tldr): `cpanm App::tldr`
+- [PHP client](https://github.com/BrainMaestro/tldr-php): `composer global require brainmaestro/tldr`
 - Python clients:
   - [tldr-python-client](https://github.com/tldr-pages/tldr-python-client) : `pip install tldr`
   - [tldr.py](https://github.com/lord63/tldr.py): `pip install tldr.py`
