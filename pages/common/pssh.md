@@ -24,4 +24,4 @@
 
 - Run a command using a maximum number of concurrent connections:
 
-`pssh -i -h {{path/to/hosts_file}} -p {{42}} '{{cd dir; ./script.sh; exit}}'`
+`pssh -i -h {{path/to/hosts_file}} -p {{10}} '{{cd dir; ./script.sh; exit}}'`
