@@ -14,7 +14,7 @@
 
 `pssh -i -h {{path/to/hosts_file}} {{date}}`
 
-- Run a commond as root, prompting for root's password:
+- Run a command as root; asks for root password:
 
 `pssh -i -h {{path/to/hosts_file}} -A -l {{root}} {{date}}`
 
