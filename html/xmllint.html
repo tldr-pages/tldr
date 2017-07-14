@@ -1,0 +1,20 @@
+<b>xmllint</b><br><br>
+<b>XML parser and linter.</b><br><br>
+- Return all nodes named "foo":
+
+<blockquote>xmllint --xpath "//<i>foo</i>" <i>source_file.xml</i></blockquote>
+- Return as string the contents of first node named "foo":
+
+<blockquote>xmllint --xpath "string//<i>foo</i>" <i>source_file.xml</i></blockquote>
+- Use other xpath (a syntax for navigating xml trees) expressions for more options in navigating xml tree:
+
+<blockquote>xmllint --xpath "<i>xpath_expression</i>" <i>source_file.xml</i></blockquote>
+- Return human-readable (indented) xml from file:
+
+<blockquote>xmllint --format <i>source_file.xml</i></blockquote>
+- Check that XML meets requirements of its built-in doctype. This is the part starting with `<!DOCTYPE...>`:
+
+<blockquote>xmllint --valid <i>source_file.xml</i></blockquote>
+- Validate XML against DTD schema hosted online:
+
+<blockquote>xmllint --dtdvalid <i>URL</i> <i>source_file.xml</i></blockquote>
