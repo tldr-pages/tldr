@@ -18,7 +18,7 @@
 
 `xmllint --format {{source_file.xml}}`
 
-- Check that XML meets requirements of its built-in doctype. This is the part starting with <!DOCTYPE...>:
+- Check that XML meets requirements of its built-in doctype. This is the part starting with `<!DOCTYPE...>`:
 
 `xmllint --valid {{source_file.xml}}`
 
