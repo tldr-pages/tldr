@@ -14,6 +14,6 @@
 
 `latexmk -c`
 
-- Run latexmk with minimal terminal output
+- Run latexmk with minimal terminal output:
 
 `latexmk -silent {{filename.tex}}`
