@@ -1,6 +1,6 @@
 # mysqldump
 
-> Backups mysql databases.
+> Backups MySQL databases.
 
 - Create a backup, user will be prompted for a password:
 
