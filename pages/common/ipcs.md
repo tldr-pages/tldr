@@ -1,6 +1,6 @@
 # ipcs
 
-> Display information about ressources used in IPC (Inter-process Communication).
+> Display information about resources used in IPC (Inter-process Communication).
 
 - Specific information about the Message Queue which has the id 32768:
 

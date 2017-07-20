@@ -33,6 +33,6 @@ comment = (
 "Please fix the error(s) and push again."
 ).format(build_id=BUILD_ID, comment_body=test_result)
 
-# If its a PR, post a comment on it
+# If it's a PR, post a comment on it
 if PR_NUMBER != "false":
   post_comment(PR_NUMBER, comment)
