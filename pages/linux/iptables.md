@@ -1,6 +1,6 @@
 # iptables
 
-> Program that allows to configure tables, chains and rules provided by the Linux kernel firewall.
+> Program that allows configuration of tables, chains and rules provided by the Linux kernel firewall.
 
 - See chains and rules for specific table:
 

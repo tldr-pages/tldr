@@ -1,6 +1,6 @@
 # htop
 
-> Display dynamic real-time information about running processes.  An enchanced version of `top`.
+> Display dynamic real-time information about running processes.  An enhanced version of `top`.
 
 - Start htop:
 
