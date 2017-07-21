@@ -1,6 +1,10 @@
 # dmesg
 
-> Write the kernel messages in Linux and other Unix-like operating systems to standard output.
+> Write the kernel messages to standard output.
+
+- Show kernel messages:
+
+`dmesg`
 
 - Show how much physical memory is available on this system:
 
