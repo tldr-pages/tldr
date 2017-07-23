@@ -1,6 +1,6 @@
 <b>q</b><br><br>
 <b>Execute SQL-like queries on .csv and .tsv files.</b><br><br>
-- Query .csv file by specifying the delimeter as ',':
+- Query .csv file by specifying the delimiter as ',':
 
 <blockquote>q -d',' "SELECT * from <i>path/to/file</i>"</blockquote>
 - Query .tsv file:
@@ -15,6 +15,6 @@
 - Join two files (aliased as `f1` and `f2` in the example) on column `c1`, a common column:
 
 <blockquote>q "SELECT * FROM <i>path/to/file</i> f1 JOIN <i>path/to/other_file</i> f2 ON (f1.c1 = f2.c1)"</blockquote>
-- Format output using an output delimeter with an output header line (note: command will output column names based on the input file header or the column aliases overridden in the query):
+- Format output using an output delimiter with an output header line (note: command will output column names based on the input file header or the column aliases overridden in the query):
 
 <blockquote>q -D<i>delimiter</i> -O "SELECT <i>column</i> as <i>alias</i> from <i>path/to/file</i>"</blockquote>
