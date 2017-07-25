@@ -1,15 +1,15 @@
 # alpine
 
 > A easy-to-use Email and Internet News program.
-> With pico/nano inspired interface and support for most modern Email services through imap.
+> With pico/nano inspired interface and support for most modern Email services through IMAP.
 
 - Open alpine normally:
 
 `alpine`
 
-- Open alpine directly into the message composer to {{address}}:
+- Open alpine directly to the message composition screen to send an email to {{email_address}}:
 
-`alpine {{address}}`
+`alpine {{email_address}}`
 
 - Quit alpine:
 
