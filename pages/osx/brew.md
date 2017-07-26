@@ -1,6 +1,6 @@
 # brew
 
-> Package manager for OS X.
+> Package manager for macOS.
 
 - Search for available formulas:
 
