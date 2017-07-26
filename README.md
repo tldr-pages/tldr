@@ -44,7 +44,7 @@ Surely people could benefit from simplified man pages focused on practical examp
 ![tldr screenshot](screenshot.png)
 
 This repository is just that: an ever-growing collection of examples
-for the most common UNIX / Linux / OSX / SunOS commands.
+for the most common UNIX / Linux / macOS / SunOS commands.
 
 ## Clients
 
