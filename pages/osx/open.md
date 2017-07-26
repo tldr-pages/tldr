@@ -6,9 +6,13 @@
 
 `open {{file.ext}}`
 
-- Run a graphical MacOSX application:
+- Run a graphical macOS application:
 
-`open /Applications/{{Application.app}}`
+`open -a {{Application}}`
+
+- Run a graphical macOS app based on the bundle identifier (refer to osascript for an easy way get this):
+
+`open -b {{com.domain.application}}`
 
 - Open the current directory in Finder:
 
