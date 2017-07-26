@@ -6,7 +6,7 @@
 
 `open {{file.ext}}`
 
-- Run a graphical MacOSX application:
+- Run a graphical macOS application:
 
 `open /Applications/{{Application.app}}`
 
