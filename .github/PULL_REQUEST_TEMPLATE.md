@@ -1,4 +1,4 @@
-Thank you for sending a PR !
+<!-- Thank you for sending a PR !-->
 
 Please perform the following checks and tick mark all the points.
 
