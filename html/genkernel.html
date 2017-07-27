@@ -1,0 +1,17 @@
+<b>genkernel</b><br><br>
+<b>Gentoo Linux utility to compile and install kernels.</b><br><br>
+- Automatically compile and install a generic kernel:
+
+<blockquote>sudo genkernel all</blockquote>
+- Build and install the bzImage|initramfs|kernel|ramdisk only:
+
+<blockquote>sudo genkernel <i>bzImage|initramfs|kernel|ramdisk</i></blockquote>
+- Apply changes to the kernel configuration before compiling and installing:
+
+<blockquote>sudo genkernel --menuconfig all</blockquote>
+- Generate a kernel with a custom name:
+
+<blockquote>sudo genkernel --kernname=<i>custom_name</i> all</blockquote>
+- Use a kernel source outside of the default directory /usr/src/linux:
+
+<blockquote>sudo genkernel --kerneldir=<i>path/to/directory</i> all</blockquote>
