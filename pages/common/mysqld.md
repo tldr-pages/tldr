@@ -15,4 +15,5 @@
 `mysqld --log-error={{file}}`
 
 - Set the port number to use when listening for connections:
+
 `mysqld --port={{number}}`
