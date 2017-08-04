@@ -4,7 +4,7 @@
 > This command is also called cdrecord on some systems, but it is wodim underneath.
 > Some usage of wodim can cause destructive actions, such as erasing all the data on a disc.
 
-- Display optical drives avaliable to wodim:
+- Display optical drives available to wodim:
 
 `wodim --devices`
 
