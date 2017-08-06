@@ -10,7 +10,7 @@
 
 `open -a {{Application}}`
 
-- Run a graphical macOS app based on the bundle identifier (refer to osascript for an easy way get this):
+- Run a graphical macOS app based on the bundle identifier (refer to `osascript` for an easy way get this):
 
 `open -b {{com.domain.application}}`
 
