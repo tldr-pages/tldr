@@ -2,21 +2,21 @@
 
 > Track work time.
 
-- Run moro once right after you start your working day, and when you're leaving:
+- Run moro once right after starting the working day, and when once more before leaving work:
 
 `moro`
 
-- In case you need to adjust the start of your working day, for example if you forgot to run moro in the morning:
+-  To adjust the starting time of the day, for example if one forgets to run moro in the morning:
 
-`moro hi 09:30`
+`moro hi {{09:30}}`
 
-- In case you need to adjust the end of your working day, for example if you forgot to run moro before you ended your working day:
+- To adjust the end of the working day, if needed:
 
-`moro bye 17:30`
+`moro bye {{17:30}}`
 
-- To add notes, for example you like to remember how many hours you have spent on a specific task:
+- To add notes, for example to remember how many hours were spent on a specific task:
 
-`moro note 3 hours on the web project called Foo`
+`moro note {{3 hours on the web project called Foo}}`
 
 - To see the full report of all records and notes:
 
