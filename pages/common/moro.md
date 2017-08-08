@@ -6,7 +6,7 @@
 
 `moro`
 
--  To adjust the starting time of the day, for example if one forgets to run moro in the morning:
+- To adjust the starting time of the day, for example if one forgets to run moro in the morning:
 
 `moro hi {{09:30}}`
 
