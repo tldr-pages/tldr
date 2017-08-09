@@ -1,24 +1,24 @@
 # z
 
-> Tracks your most used directories, based on 'frecency'. After a short learning phase, z will take you to the most 'frecent' directory that matches ALL of the regexes given on the command line, in order.
+> Tracks your most used directories and enable quick jumping using regexes from the CLI.
 
-- Change directory to most frecent dir matching foo:
+- Go to a directory that contains "foo":
 
 `z foo`
 
-- Change directory to most frecent dir matching foo, then bar:
+- Go to a directory that contains "foo" and then "bar":
 
 `z foo bar`
 
-- Change directory to highest ranked dir matching foo:
+- Go to the highest ranked directory matching foo:
 
 `z -r foo`
 
-- Change directory to most recently accessed dir matching foo:
+- Go to the most recently accessed directory matching foo:
 
 `z -t foo`
 
-- List all dirs matching foo (by frecency):
+- List all directories matching foo (from z datafile):
 
 `z -l foo`
 
