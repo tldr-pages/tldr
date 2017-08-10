@@ -2,25 +2,25 @@
 
 > Tracks your most used directories and enable quick jumping using regexes from the command line.
 
-- Go to a directory that contains a regex:
+- Go to a directory that contains foo:
 
-`z {{regexp}}`
+`z {{foo}}`
 
-- Go to a directory that contains regex1 and then regex2:
+- Go to a directory that contains foo and then bar:
 
-`z {{regex1}} {{regex2}}`
+`z {{foo}} {{bar}}`
 
-- Go to the highest ranked directory matching a regex:
+- Go to the highest ranked directory matching foo:
 
-`z -r {{regex}}`
+`z -r {{foo}}`
 
-- Go to the most recently accessed directory matching a regex:
+- Go to the most recently accessed directory matching foo:
 
-`z -t {{regex}}`
+`z -t {{foo}}`
 
-- List all directories matching a {{regex}} (from z database):
+- List all directories matching {{foo}} (from z database):
 
-`z -l regex`
+`z -l foo`
 
 - Remove the current directory from the database:
 
