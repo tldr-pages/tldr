@@ -1,6 +1,6 @@
 # z
 
-> Tracks your most used directories and enable quick jumping using regexes from the CLI.
+> Tracks your most used directories and enable quick jumping using regexes from the command line.
 
 - Go to a directory that contains "foo":
 
