@@ -18,9 +18,9 @@
 
 `z -t {{foo}}`
 
-- List all directories matching {{foo}} (from z database):
+- List all directories matching foo (from z database):
 
-`z -l foo`
+`z -l {{foo}}`
 
 - Remove the current directory from the database:
 
