@@ -18,10 +18,10 @@
 
 `z -t {{regex}}`
 
-- List all directories matching a {{regex}} (from z datafile):
+- List all directories matching a {{regex}} (from z database):
 
 `z -l regex`
 
-- Remove the current directory from the datafile:
+- Remove the current directory from the database:
 
 `z -x .`
