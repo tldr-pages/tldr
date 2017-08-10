@@ -2,25 +2,25 @@
 
 > Tracks your most used directories and enable quick jumping using regexes from the command line.
 
-- Go to a directory that contains "foo":
+- Go to a directory that contains a regex:
 
-`z foo`
+`z {{regexp}}`
 
-- Go to a directory that contains "foo" and then "bar":
+- Go to a directory that contains regex1 and then regex2:
 
-`z foo bar`
+`z {{regex1}} {{regex2}}`
 
-- Go to the highest ranked directory matching foo:
+- Go to the highest ranked directory matching a regex:
 
-`z -r foo`
+`z -r {{regex}}`
 
-- Go to the most recently accessed directory matching foo:
+- Go to the most recently accessed directory matching a regex:
 
-`z -t foo`
+`z -t {{regex}}`
 
-- List all directories matching foo (from z datafile):
+- List all directories matching a {{regex}} (from z datafile):
 
-`z -l foo`
+`z -l regex`
 
 - Remove the current directory from the datafile:
 
