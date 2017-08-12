@@ -12,7 +12,7 @@
 
 - Run an AppleScript file:
 
-`osascript {{path/to/apple.scpt}}`
+`osascript {{path/to/apple}}.scpt`
 
 - Get the bundle identifier of an application (useful for `open -b`):
 
