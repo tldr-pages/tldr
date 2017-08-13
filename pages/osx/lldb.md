@@ -1,6 +1,6 @@
 # lldb
 
-> The LLDB Debugger.
+> The LLVM Low-Level Debugger.
 
 - Debug an executable:
 
@@ -10,6 +10,6 @@
 
 `lldb -p {{pid}}`
 
-- Wait for process to launch and attach to it:
+- Wait for a new process to launch with the given name and attach to it:
 
 `lldb -w -n {{process_name}}`
