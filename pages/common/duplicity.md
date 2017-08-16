@@ -1,6 +1,6 @@
 # duplicity
 
-> Creates incremental, compressed, encrypted, and versioned backups and optionally uploads them to a variety of backend services.
+> Creates incremental, compressed, encrypted and versioned backups and optionally uploads them to a variety of backend services.
 
 - Backup a folder via ftps to a remote machine, encrypting with a password:
 
