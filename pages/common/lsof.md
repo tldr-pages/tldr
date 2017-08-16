@@ -29,4 +29,4 @@
 
 - List opened files in a directory
 
- lsof +D {{/path/to/directory}}
+`lsof +D {{/path/to/directory}}`
