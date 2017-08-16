@@ -20,4 +20,4 @@
 
 - Restore a folder from a gpg-encrypted local backup to a folder:
 
-`PASSPHRASE={{gpg_key_password}} duplicity restore --encrypt-key {{gpg_key_id}} --file-to-restore {{relative/path/restorefolder}} file://{{/path/to/backup/folder}} {{path/to/directory/to/restore/to}}`
+`PASSPHRASE={{gpg_key_password}} duplicity restore --encrypt-key {{gpg_key_id}} --file-to-restore {{relative/path/restorefolder}} file://{{absolute/to/backup/folder}} {{path/to/directory/to/restore/to}}`
