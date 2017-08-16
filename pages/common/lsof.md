@@ -26,3 +26,7 @@
 - List files opened by a specific process, given its PID:
 
 `lsof -p {{PID}}`
+
+- List opened files in a directory
+
+ lsof +D {{/path/to/directory}}
