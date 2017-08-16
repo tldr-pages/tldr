@@ -27,6 +27,6 @@
 
 `lsof -p {{PID}}`
 
-- List opened files in a directory
+- List opened files in a directory:
 
 `lsof +D {{/path/to/directory}}`
