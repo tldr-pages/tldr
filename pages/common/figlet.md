@@ -10,6 +10,6 @@
 
 `figlet -f {{font}} {{Hello Wrld}}`
 
-- Gets its input from a file:
+- Get its input from a file:
 
 `figlet -p < {{file}}`
