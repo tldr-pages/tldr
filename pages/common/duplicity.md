@@ -4,19 +4,19 @@
 
 - Backup a folder via ftps to a remote machine, encrypting with a password:
 
-`FTP_PASSWORD={{ftp_login_password}} PASSPHRASE={{encryption_password}} duplicity {{path/to/source/directory}} {{ftps://user@remotehost.tld/target/directory/path/}}`
+`FTP_PASSWORD={{ftp_login_password}} PASSPHRASE={{encryption_password}} duplicity {{path/to/source/directory}} {{ftps://user@hostname/target/directory/path/}}`
 
 - Backup a folder to Amazon S3, doing a full backup every month:
 
-`duplicity --full-if-older-than 1M --use-new-style s3://{{bucket_name[/prefix]}}`
+`duplicity --full-if-older-than {{1M}} --use-new-style s3://{{bucket_name[/prefix]}}`
 
 - Delete versions older than 1 year from a backup stored on a webdav share:
 
-`FTP_PASSWORD={{webdav_login_password}} duplicity remove-older-than 1Y --force {{webdav[s]://user@remotehost.tld[:port]/some_dir}}`
+`FTP_PASSWORD={{webdav_login_password}} duplicity remove-older-than {{1Y}} --force {{webdav[s]://user@hostname[:port]/some_dir}}`
 
 - List the files in a backup stored on a remote machine via ssh:
 
-`duplicity list-current-files --time {{timespec}} scp://{{user@domain.tld}}/path/to/backup/dir`
+`duplicity list-current-files --time {{timespec}} scp://{{user@hostname}}/path/to/backup/dir`
 
 - Restore a folder from a gpg-encrypted local backup to a folder:
 
