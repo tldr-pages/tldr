@@ -16,7 +16,7 @@
 
 - List the backups available:
 
-`duplicity collection-status "file://{{absolute/path/to/backup/folder}}"
+`duplicity collection-status "file://{{absolute/path/to/backup/folder}}"`
 
 - List the files in a backup stored on a remote machine via ssh:
 
