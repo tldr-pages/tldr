@@ -5,7 +5,7 @@
 
 - Find the processes that have a given file open:
 
-`lsof {{/path/to/file}}`
+`lsof {{path/to/file}}`
 
 - Find the process that opened a local internet port:
 
@@ -13,7 +13,7 @@
 
 - Only output the process ID (PID):
 
-`lsof -t {{/path/to/file}}`
+`lsof -t {{path/to/file}}`
 
 - List files opened by the given user:
 
@@ -26,3 +26,7 @@
 - List files opened by a specific process, given its PID:
 
 `lsof -p {{PID}}`
+
+- List open files in a directory:
+
+`lsof +D {{path/to/directory}}`
