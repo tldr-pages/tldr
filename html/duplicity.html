@@ -1,0 +1,20 @@
+<b>duplicity</b><br><br>
+<b>Creates incremental, compressed, encrypted and versioned backups and optionally uploads them to a variety of backend services.</b><br><br>
+- Backup a folder via ftps to a remote machine, encrypting with a password:
+
+<blockquote>FTP_PASSWORD=<i>ftp_login_password</i> PASSPHRASE=<i>encryption_password</i> duplicity <i>path/to/source/directory</i> <i>ftps://user@hostname/target/directory/path/</i></blockquote>
+- Backup a folder to Amazon S3, doing a full backup every month:
+
+<blockquote>duplicity --full-if-older-than <i>1M</i> --use-new-style s3://<i>bucket_name[/prefix]</i></blockquote>
+- Delete versions older than 1 year from a backup stored on a webdav share:
+
+<blockquote>FTP_PASSWORD=<i>webdav_login_password</i> duplicity remove-older-than <i>1Y</i> --force <i>webdav[s]://user@hostname[:port]/some_dir</i></blockquote>
+- List the backups available:
+
+<blockquote>duplicity collection-status "file://<i>absolute/path/to/backup/folder</i>"</blockquote>
+- List the files in a backup stored on a remote machine via ssh:
+
+<blockquote>duplicity list-current-files --time <i>YYYY-MM-DD</i> scp://<i>user@hostname</i>/path/to/backup/dir</blockquote>
+- Restore a folder from a gpg-encrypted local backup to a folder:
+
+<blockquote>PASSPHRASE=<i>gpg_key_password</i> duplicity restore --encrypt-key <i>gpg_key_id</i> --file-to-restore <i>relative/path/restorefolder</i> file://<i>absolute/path/to/backup/folder</i> <i>path/to/directory/to/restore/to</i></blockquote>
