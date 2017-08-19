@@ -20,7 +20,7 @@
 
 - List the files in a backup stored on a remote machine via ssh:
 
-`duplicity list-current-files --time {{timespec}} scp://{{user@hostname}}/path/to/backup/dir`
+`duplicity list-current-files --time {{YYYY-MM-DD}} scp://{{user@hostname}}/path/to/backup/dir`
 
 - Restore a folder from a gpg-encrypted local backup to a folder:
 
