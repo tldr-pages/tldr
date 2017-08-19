@@ -1,10 +1,17 @@
 <!-- Thank you for sending a PR !-->
 
-Please perform the following checks and tick mark all the points.
+<!-- Please perform the following checks and check all the boxes that apply. If a particular point is not applicable to your PR strike-through the line. -->
 
 - [ ] The page (if new), does not already exist in the repo.
 
-- [ ] The page (if new), is added to the correct platform folder.
-i.e. If it's common to all platforms, it is under `common/` and if it's linux specific, it is under `linux/`. If the tool works on all unix-y platforms, please add multiple copies of the same page under all folders.
+- [ ] The page (if new), has been added to the correct platform folder,
 
-- [ ] The total number of examples in the page are under 8.
+     i.e. `common/` common to all platforms, `linux/` if it's Linux-specific and so on.
+
+- [ ] The page has 8 or fewer examples.
+
+- [ ] The PR is appropriately titled. 
+
+     "command: add page" for new pages, or "command: description of changes" for pages being edited
+
+- [ ] The page follows the [contributing](https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md#contributing) guidelines 
