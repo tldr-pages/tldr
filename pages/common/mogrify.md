@@ -1,6 +1,6 @@
 # mogrify
 
-> Tool that allows making operations on multiple images ie. resizing, cropping, flipping, adding effects. Replaces the original file.
+> Tool that allows making operations on multiple images viz. resizing, cropping, flipping, adding effects. Replaces the original file.
 
 - Resize all jpg images in the folder to 50% of their initial size:
 
