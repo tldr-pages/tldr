@@ -1,6 +1,7 @@
 <!-- Thank you for sending a PR! -->
 <!-- Please perform the following checks and check all the boxes that apply. -->
-<!-- If a particular point is not applicable to your PR, strike-through the line by wrapping the text in ~~double tildes~~. -->
+<!-- If a particular point is not applicable to your PR,
+     strike-through the line by wrapping the text in ~~double tildes~~. -->
 
 - [ ] The page (if new), does not already exist in the repo.
 
