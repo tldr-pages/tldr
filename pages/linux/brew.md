@@ -2,11 +2,11 @@
 
 > The Homebrew package manager for Linux.
 
-- Search formula:
+- Search for available formulas:
 
 `brew search {{text}}`
 
-- Install formula:
+- Install the latest stable version of a formula (use `--devel` for development versions):
 
 `brew install {{formula}}`
 
@@ -14,22 +14,22 @@
 
 `brew list`
 
-- Get latest version of installed formula (passing no formula updates all installed formulae):
+- Update an installed formula (passing no `{{formula}}` updates all installed formulae):
 
 `brew upgrade {{formula}}`
 
-- Update brew:
+- Fetch the newest version of Linuxbrew and all formulae from GitHub:
 
 `brew update`
 
-- Switch version of formula:
+- Show formulae that have an updated version available:
 
-`brew switch {{formula}} {{version}}`
+`brew outdated`
 
-- Display information about formula, which contains formula version, installed path, dependencies, etc.:
+- Display information about a formula (version, installation path, dependencies, etc.):
 
 `brew info {{formula}}`
 
-- Check your system for potential problems:
+- Check your Linuxbrew installation for potential problems:
 
 `brew doctor`
