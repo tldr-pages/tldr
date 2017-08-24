@@ -22,7 +22,7 @@
 
 `gist -l`
 
-- List all gists for user
+- List all gists for user:
 
 `gist -l {{user_name}}`
 
