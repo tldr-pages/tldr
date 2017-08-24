@@ -28,4 +28,4 @@
 
 - Compare a single file between two branches / commits:
 
-`git diff {{branch_1}}..{{branch_2}} [--] {{/path/to/file}}`
+`git diff {{branch_1}}..{{branch_2}} [--] {{path/to/file}}`
