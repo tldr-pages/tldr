@@ -6,7 +6,7 @@
 
 `xmllint --xpath "//{{foo}}" {{source_file.xml}}`
 
-- Return, as a string, the contents of the first node named "foo":
+- Return the contents of the first node named "foo" as a string:
 
 `xmllint --xpath "string(//{{foo}})" {{source_file.xml}}`
 
