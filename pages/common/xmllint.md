@@ -1,24 +1,24 @@
 # xmllint
 
-> XML parser and linter.
+> XML parser and linter that supports XPath, a syntax for navigating XML trees.
 
-- Return all nodes named "foo":
+- Return all nodes (tags) named "foo":
 
 `xmllint --xpath "//{{foo}}" {{source_file.xml}}`
 
-- Return as string the contents of first node named "foo":
+- Return the contents of the first node named "foo" as a string:
 
-`xmllint --xpath "string//{{foo}}" {{source_file.xml}}`
+`xmllint --xpath "string(//{{foo}})" {{source_file.xml}}`
 
-- Use other xpath (a syntax for navigating xml trees) expressions for more options in navigating xml tree:
+- Return the href attribute of the second anchor element in an html file:
 
-`xmllint --xpath "{{xpath_expression}}" {{source_file.xml}}`
+`xmllint --html --xpath "string(//a[2]/@href)" webpage.xhtml`
 
-- Return human-readable (indented) xml from file:
+- Return human-readable (indented) XML from file:
 
 `xmllint --format {{source_file.xml}}`
 
-- Check that XML meets requirements of its built-in doctype. This is the part starting with `<!DOCTYPE...>`:
+- Check that a XML file meets the requirements of its DOCTYPE declaration:
 
 `xmllint --valid {{source_file.xml}}`
 
