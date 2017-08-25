@@ -12,6 +12,6 @@
 - [ ] The page has 8 or fewer examples.
 
 - [ ] The PR is appropriately titled:  
-      "command: add page" for new pages, or "command: description of changes" for pages being edited
+      `<command name>: add page` for new pages, or `<command name>: <description of changes>` for pages being edited
 
 - [ ] The page follows the [contributing](https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md) guidelines 
