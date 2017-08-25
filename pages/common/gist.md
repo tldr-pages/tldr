@@ -2,7 +2,7 @@
 
 > Upload code to https://gist.github.com.
 
-- Authenticate gist on this computer:
+- Login in gist on this computer:
 
 `gist --login`
 
