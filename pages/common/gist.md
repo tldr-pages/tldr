@@ -2,6 +2,10 @@
 
 > Upload code to https://gist.github.com.
 
+- Login in gist on this computer:
+
+`gist --login`
+
 - Create a gist from any number of text files:
 
 `gist {{file.txt}} {{file2.txt}}`
@@ -17,6 +21,10 @@
 - List your public and private gists:
 
 `gist -l`
+
+- List all gists for the currently logged in user:
+
+`gist -l {{user_name}}`
 
 - Use the id from the gist URL to modify or include a file:
 
