@@ -3,6 +3,8 @@
 <!-- Please perform the following checks and check all the boxes that apply. -->
 <!-- If a particular point is not applicable to your PR,
      strike-through the line by wrapping the text in ~~double tildes~~. -->
+<!-- If your PR does not create or edit a command page (e.g. README edits, etc.)
+     you can simply remove the entire checklist. -->
 
 - [ ] The page (if new), does not already exist in the repo.
 
