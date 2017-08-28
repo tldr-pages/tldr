@@ -4,11 +4,7 @@
 
 - Stream a torrent:
 
-`peerflix "{{torrent url|magnet link}}"`
-
-- Stream a torrent to a specific player:
-
-`peerflix "{{torrent url|magnet link}}" --{{player}}`
+`peerflix "magnet:?xt=urn:btih:ef330b39f4801d25b4245212e75a38634bfc856e"`
 
 - Stream a torrent to VLC:
 
@@ -16,4 +12,4 @@
 
 - Stream music from a torrent:
 
-`peerflix "{{torrent url|magnet link}}" -a --{{player}}`
+`peerflix "{{torrent url|magnet link}}" -all --vlc`
