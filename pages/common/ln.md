@@ -8,7 +8,7 @@
 
 - Create several symbolic links to one file (or folder):
 
-`ln -s {{path/to/file}} {{path/to/symlink1}}`
+`ln -s {{path/to/file}} {{path/to/symlink1}} {{path/to/symlink2}} {{path/to/symlink3}}`
 
 - Overwrite an existing symbolic to point to a different file:
 
