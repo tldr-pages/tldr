@@ -2,14 +2,14 @@
 
 > Stream torrents to your favorite player.
 
-- Stream a torrent:
+- Stream a all video-files in a torrent:
 
-`peerflix "magnet:?xt=urn:btih:ef330b39f4801d25b4245212e75a38634bfc856e"`
+`peerflix "magnet:?xt=urn:btih:00112233445566"`
 
 - Stream a torrent to VLC:
 
 `peerflix "{{torrent url|magnet link}}" --vlc`
 
-- Stream music from a torrent:
+- Stream all music music-files from a torrent:
 
-`peerflix "{{torrent url|magnet link}}" -all --vlc`
+`peerflix "{{torrent url|magnet link}}" --all --vlc`
