@@ -23,6 +23,6 @@
 
 `duplicity list-current-files --time {{YYYY-MM-DD}} scp://{{user@hostname}}/path/to/backup/dir`
 
-- Restore a folder from a GnuPG-encrypted local backup to a folder:
+- Restore a subdirectory from a GnuPG-encrypted local backup to a given location:
 
 `PASSPHRASE={{gpg_key_password}} duplicity restore --encrypt-key {{gpg_key_id}} --file-to-restore {{relative/path/restorefolder}} file://{{absolute/path/to/backup/folder}} {{path/to/directory/to/restore/to}}`
