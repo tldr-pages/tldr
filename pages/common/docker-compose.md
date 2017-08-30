@@ -1,6 +1,6 @@
 # docker-compose
 
-> Run and manage multi container docker applications
+> Run and manage multi container docker applications.
 
 - Create and start containers in the background using a local `docker-compose.yml` file:
 
