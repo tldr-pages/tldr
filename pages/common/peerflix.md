@@ -1,6 +1,6 @@
 # peerflix
 
-> Stream torrents to your favorite player.
+> Stream video or audio based torrents to your favorite player.
 
 - Stream a all video-files in a torrent:
 
