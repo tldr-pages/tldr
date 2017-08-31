@@ -10,9 +10,9 @@
 
 `docker-compose up --build`
 
-- Start all containers using a custom configuration file:
+- Start all containers using an alternate compose file:
 
-`docker-compose --file {{path/to/config}} up`
+`docker-compose --file {{path/to/file}} up`
 
 - Stop all running containers:
 
