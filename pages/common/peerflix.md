@@ -8,8 +8,8 @@
 
 - Stream a torrent to VLC:
 
-`peerflix "{{torrent url|magnet link}}" --{{vlc}}`
+`peerflix "{{torrent url|magnet link}}" --vlc`
 
 - Stream all files from a torrent to Airplay:
 
-`peerflix "{{torrent url|magnet link}}" --all --{{airplay}}`
+`peerflix "{{torrent url|magnet link}}" --all --airplay`
