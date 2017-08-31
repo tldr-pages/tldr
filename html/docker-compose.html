@@ -1,0 +1,20 @@
+<b>docker-compose</b><br><br>
+<b>Run and manage multi container docker applications.</b><br><br>
+- Create and start all containers in the background using a `docker-compose.yml` file from the current directory:
+
+<blockquote>docker-compose up -d</blockquote>
+- Start all containers, rebuild if necessary:
+
+<blockquote>docker-compose up --build</blockquote>
+- Start all containers using an alternate compose file:
+
+<blockquote>docker-compose --file <i>path/to/file</i> up</blockquote>
+- Stop all running containers:
+
+<blockquote>docker-compose stop</blockquote>
+- Stop and remove all containers, networks, images, and volumes:
+
+<blockquote>docker-compose down</blockquote>
+- Follow logs for all containers:
+
+<blockquote>docker-compose logs --follow</blockquote>
