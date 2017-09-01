@@ -6,7 +6,7 @@
 
 `dmesg`
 
-- Show kernel messages and follow output(work as `tail -f` | (since kernel 3.5.0)):
+- Show kernel messages and keep reading new ones, similar to `tail -f` (available in kernels 3.5.0 and newer):
 
 `dmesg -w`
 
