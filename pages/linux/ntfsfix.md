@@ -1,7 +1,7 @@
 # ntfsfix
 
-> Fix some common NTFS problems in the situation that you have both Linux and Windows on your machine. You may run ntfsfix on an NTFS volume if you think  it  was  damaged  by Windows or some other way and it cannot be mounted.
+> Fix common problems on an NTFS partition.
 
-- Fix the NTFS partition sdb2:
+- Fix a given NTFS partition:
 
-`sudo ntfsfix /dev/sdb2`
+`sudo ntfsfix {{/dev/sdb2}}`
