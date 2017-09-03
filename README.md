@@ -5,6 +5,7 @@
 [![Merged PRs][prs-merged-image]][prs-merged-url]
 [![Issue stats][issuestats-image]][issuestats-url]
 [![GitHub contributors][contributors-image]][contributors-url]
+[![Number of files][tokei-image]][tokei-url]
 [![license][license-image]][license-url]
 
 [travis-url]: https://travis-ci.org/tldr-pages/tldr
@@ -17,6 +18,8 @@
 [issuestats-image]: http://isitmaintained.com/badge/resolution/tldr-pages/tldr.svg
 [contributors-url]: https://github.com/tldr-pages/tldr/graphs/contributors
 [contributors-image]: https://img.shields.io/github/contributors/tldr-pages/tldr.svg
+[tokei-url]: https://github.com/tldr-pages/tldr/tree/master/pages
+[tokei-image]: https://tokei.rs/b1/github/tldr-pages/tldr?category=files
 [license-url]: https://github.com/tldr-pages/tldr/blob/master/LICENSE.md
 [license-image]: https://img.shields.io/github/license/tldr-pages/tldr.svg
 
