@@ -1,27 +1,27 @@
 # z
 
-> Tracks your most used directories and enable quick jumping using regexes from the command line.
+> Tracks the most used directories and enables quickly navigating to them using string or regex patterns.
 
-- Go to a directory that contains foo:
+- Go to a directory that contains "foo" in the name:
 
 `z {{foo}}`
 
-- Go to a directory that contains foo and then bar:
+- Go to a directory that contains "foo" and then "bar":
 
 `z {{foo}} {{bar}}`
 
-- Go to the highest ranked directory matching foo:
+- Go to the highest-ranked directory matching "foo":
 
 `z -r {{foo}}`
 
-- Go to the most recently accessed directory matching foo:
+- Go to the most recently accessed directory matching "foo":
 
 `z -t {{foo}}`
 
-- List all directories matching foo (from z database):
+- List all directories in `z`'s database matching "foo":
 
 `z -l {{foo}}`
 
-- Remove the current directory from the database:
+- Remove the current directory from `z`'s database:
 
 `z -x .`
