@@ -7,7 +7,7 @@
 
 `wodim --devices`
 
-- Record ("burn") pure CD-DA audio to a disc:
+- Record ("burn") an audio-only disc:
 
 `wodim dev=/dev/{{optical_drive}} -audio {{track*.cdaudio}}`
 
