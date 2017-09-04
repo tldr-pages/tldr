@@ -6,10 +6,10 @@
 
 `lldb {{executable}}`
 
-- Attach lldb to running process with id {{pid}}:
+- Attach `lldb` to a running process with a given PID:
 
 `lldb -p {{pid}}`
 
-- Wait for a new process to launch with the given name and attach to it:
+- Wait for a new process to launch with a given name, and attach to it:
 
 `lldb -w -n {{process_name}}`
