@@ -8,7 +8,7 @@
 [![Number of files][tokei-image]][tokei-url]
 [![license][license-image]][license-url]
 
-[travis-url]: https://travis-ci.org/tldr-pages/tldr
+[travis-url]: https://travis-ci.org/tldr-pages/tldr/builds
 [travis-image]: https://travis-ci.org/tldr-pages/tldr.svg?branch=master
 [gitter-url]: https://gitter.im/tldr-pages/tldr
 [gitter-image]: https://badges.gitter.im/tldr-pages/tldr.svg
