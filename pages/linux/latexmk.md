@@ -2,7 +2,7 @@
 
 > Automated LaTeX document generation.
 
-- Compile a LaTeX file to PDF:
+- Compile a LaTeX file into a PDF file:
 
 `latexmk -pdf {{filename.tex}}`
 
