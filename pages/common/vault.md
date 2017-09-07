@@ -14,13 +14,13 @@
 
 `vault auth {{authentication-token}}`
 
-- Store a new secret in the vault:
+- Store a new secret in the vault using the generic back-end called secret:
 
-`vault write {{secret/hello}} value={{world}}`
+`vault write secret/{{hello}} value={{world}}`
 
-- Read a secret from the vault:
+- Read a value from the vault using the generic back-end called secret:
 
-`vault read {{secret/hello}}`
+`vault read secret/{{hello}}`
 
 - Seal the vault again:
 
