@@ -1,12 +1,12 @@
 # vault
 
-> HashiCorp Vault, a tool for managing secrets.
+> A CLI to interact with HashiCorp Vault.
 
 - Create a new vault, requiring at least 2 out of 5 keyshares to unseal:
 
 `vault init -key-shares={{5}} -key-threshold={{2}}`
 
-- Unseal a vault, by providing one of the keyshares. Repeat with necessary key-shares until unsealed:
+- Unseal the vault:
 
 `vault unseal {{key-share-x}}`
 
@@ -22,6 +22,6 @@
 
 `vault read {{secret/hello}}`
 
-- Seal the vault:
+- Seal the vault again:
 
 `vault seal`
