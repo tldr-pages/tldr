@@ -6,7 +6,7 @@
 
 `vault init -key-shares={{5}} -key-threshold={{2}}`
 
-- Unseal the vault:
+- Unseal the vault by providing one of the keyshares. Repeat with necessary key-shares until unsealed:
 
 `vault unseal {{key-share-x}}`
 
