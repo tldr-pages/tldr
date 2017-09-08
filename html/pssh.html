@@ -1,20 +1,20 @@
 <b>pssh</b><br><br>
-<b>Parallel ssh program.</b><br><br>
-- Run a command on host1 and host2 to print the date on each server inline:
+<b>Parallel SSH program.</b><br><br>
+- Run a command on two hosts, and print its output on each server inline:
 
-<blockquote>pssh -i -H "<i>host1</i> <i>host2</i>" <i>date</i></blockquote>
+<blockquote>pssh -i -H "<i>host1</i> <i>host2</i>" <i>hostname -i</i></blockquote>
 - Run a command and save the output to separate files:
 
-<blockquote>pssh -H <i>host1</i> -H <i>host2</i> -o <i>path/to/output_dir</i> <i>date</i></blockquote>
-- Run a command on each host specified in a new-line separated host file:
+<blockquote>pssh -H <i>host1</i> -H <i>host2</i> -o <i>path/to/output_dir</i> <i>hostname -i</i></blockquote>
+- Run a command on multiple hosts, specified in a new-line separated file:
 
-<blockquote>pssh -i -h <i>path/to/hosts_file</i> <i>date</i></blockquote>
-- Run a command as root; asks for root password:
+<blockquote>pssh -i -h <i>path/to/hosts_file</i> <i>hostname -i</i></blockquote>
+- Run a command as root (this asks for the root password):
 
-<blockquote>pssh -i -h <i>path/to/hosts_file</i> -A -l <i>root</i> <i>date</i></blockquote>
+<blockquote>pssh -i -h <i>path/to/hosts_file</i> -A -l <i>root_username</i> <i>hostname -i</i></blockquote>
 - Run a command with extra SSH arguments:
 
-<blockquote>pssh -i -h <i>path/to/hosts_file</i> -x "<i>-O VisualHostKey=yes</i>" <i>date</i></blockquote>
-- Run a command using a maximum number of concurrent connections:
+<blockquote>pssh -i -h <i>path/to/hosts_file</i> -x "<i>-O VisualHostKey=yes</i>" <i>hostname -i</i></blockquote>
+- Run a command limiting the number of parallel connections to 10:
 
 <blockquote>pssh -i -h <i>path/to/hosts_file</i> -p <i>10</i> '<i>cd dir; ./script.sh; exit</i>'</blockquote>
