@@ -6,22 +6,22 @@
 
 `vault init`
 
-- Unseal or 'unlock' the vault by providing one of the key shares needed to access the encrypted data store:
+- Unseal (unlock) the vault, by providing one of the key shares needed to access the encrypted data store:
 
 `vault unseal {{key-share-x}}`
 
-- Authenticate the CLI client against the Vault server using an authentication token:
+- Authenticate the CLI client against the Vault server, using an authentication token:
 
 `vault auth {{authentication-token}}`
 
-- Store a new secret in the vault using the generic back-end, called 'secret':
+- Store a new secret in the vault, using the generic back-end called "secret":
 
 `vault write secret/{{hello}} value={{world}}`
 
-- Read a value from the vault using the generic back-end, called 'secret':
+- Read a value from the vault, using the generic back-end called "secret":
 
 `vault read secret/{{hello}}`
 
-- Seal or 'lock' the Vault server by removing the encryption key of the data store from memory:
+- Seal (lock) the Vault server, by removing the encryption key of the data store from memory:
 
 `vault seal`
