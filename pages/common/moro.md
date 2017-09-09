@@ -22,9 +22,9 @@
 
 `moro note {{3 hours on project Foo}}`
 
-- Invoke `moro` without parameters a third time, to show a report of the current working day:
+- Show a report of time logs and notes for the current working day:
 
-`moro`
+`moro report`
 
 - Show a report of time logs and notes for all working days on record:
 
