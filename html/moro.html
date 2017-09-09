@@ -1,17 +1,23 @@
-<b>Moro</b><br><br>
+<b>moro</b><br><br>
 <b>Track work time.</b><br><br>
-- Run moro once right after starting the working day, and once more before leaving work:
+- Invoke `moro` without parameters, to set the current time as the start of the working day:
 
 <blockquote>moro</blockquote>
-- To adjust the start of the working day:
+- Specify a custom time for the start of the working day:
 
 <blockquote>moro hi <i>09:30</i></blockquote>
-- To adjust the end of the working day:
+- Invoke `moro` without parameters a second time, to set the current time at the end of the working day:
+
+<blockquote>moro</blockquote>
+- Specify a custom time for the end of the working day:
 
 <blockquote>moro bye <i>17:30</i></blockquote>
-- To add a note on the working day:
+- Add a note on the current working day:
 
 <blockquote>moro note <i>3 hours on project Foo</i></blockquote>
-- To see the full report of all records and notes:
+- Show a report of time logs and notes for the current working day:
+
+<blockquote>moro report</blockquote>
+- Show a report of time logs and notes for all working days on record:
 
 <blockquote>moro report --all</blockquote>
