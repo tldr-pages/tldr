@@ -1,23 +1,31 @@
-# Moro
+# moro
 
 > Track work time.
 
-- Run moro once right after starting the working day, and once more before leaving work:
+- Invoke `moro` without parameters, to set the current time as the start of the working day:
 
 `moro`
 
-- To adjust the start of the working day:
+- Specify a custom time for the start of the working day:
 
 `moro hi {{09:30}}`
 
-- To adjust the end of the working day:
+- Invoke `moro` without parameters a second time, to set the current time at the end of the working day:
+
+`moro`
+
+- Specify a custom time for the end of the working day:
 
 `moro bye {{17:30}}`
 
-- To add a note on the working day:
+- Add a note on the current working day:
 
 `moro note {{3 hours on project Foo}}`
 
-- To see the full report of all records and notes:
+- Show a report of time logs and notes for the current working day:
+
+`moro report`
+
+- Show a report of time logs and notes for all working days on record:
 
 `moro report --all`
