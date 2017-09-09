@@ -19,6 +19,10 @@
 
 `curl -d {{'name=bob'}} {{http://example.com/form}}`
 
+- Only display header information:
+
+`curl -vo /dev/null {{http://example.com}}`
+
 - Send a request with an extra header, using a custom HTTP method:
 
 `curl -H {{'X-My-Header: 123'}} -X {{PUT}} {{http://example.com}}`
