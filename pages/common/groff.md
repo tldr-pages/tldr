@@ -1,7 +1,7 @@
 # groff
 
 > Typesetting program that reads plain text mixed with formatting commands and produces formatted output.
-> It is the GNU replacement for the troff and nroff Unix commands for text formatting.
+> It is the GNU replacement for the `troff` and `nroff` Unix commands for text formatting.
 
 - Render a man page as plain text, and display the result:
 
@@ -13,7 +13,7 @@
 
 - Render a man page into an HTML file:
 
-`groff -man -T html {{manpage.1}} > page.html`
+`groff -man -T html {{manpage.1}} > {{page.html}}`
 
 - Process a roff file using the `tbl` and `pic` preprocessors, and the `me` macro set:
 
