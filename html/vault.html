@@ -1,0 +1,20 @@
+<b>vault</b><br><br>
+<b>A CLI to interact with HashiCorp Vault.</b><br><br>
+- Connect to a Vault server and initialize a new encrypted data store:
+
+<blockquote>vault init</blockquote>
+- Unseal (unlock) the vault, by providing one of the key shares needed to access the encrypted data store:
+
+<blockquote>vault unseal <i>key-share-x</i></blockquote>
+- Authenticate the CLI client against the Vault server, using an authentication token:
+
+<blockquote>vault auth <i>authentication-token</i></blockquote>
+- Store a new secret in the vault, using the generic back-end called "secret":
+
+<blockquote>vault write secret/<i>hello</i> value=<i>world</i></blockquote>
+- Read a value from the vault, using the generic back-end called "secret":
+
+<blockquote>vault read secret/<i>hello</i></blockquote>
+- Seal (lock) the Vault server, by removing the encryption key of the data store from memory:
+
+<blockquote>vault seal</blockquote>
