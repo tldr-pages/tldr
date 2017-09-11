@@ -1,12 +1,13 @@
 # mogrify
 
-> Tool that allows making operations on multiple images ie. resizing, cropping, flipping, adding effects. Replaces the original file.
+> Make operations on multiple images, such as resizing, cropping, flipping, and adding effects.
+> Changes are applied directly to the original file.
 
 - Resize all jpg images in the folder to 50% of their initial size:
 
 `mogrify -resize {{50%}} {{*.jpg}}`
 
-- Resize all images starting with DSC to 800x600:
+- Resize all images starting with "DSC" to 800x600:
 
 `mogrify -resize {{800x600}} {{DSC*}}`
 
@@ -14,10 +15,10 @@
 
 `mogrify -format {{jpg}} {{*.png}}`
 
-- Halve the saturation for all image files in the folder:
+- Halve the saturation of all image files in the folder:
 
 `mogrify -modulate {{100,50}} {{*}}`
 
-- Double the brightness for all image files in the folder:
+- Double the brightness of all image files in the folder:
 
 `mogrify -modulate {{200}} {{*}}`
