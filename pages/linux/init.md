@@ -1,12 +1,12 @@
 # init
 
-> Its primary role is to create processes from a script stored in the file /etc/inittab.
+> Init is a daemon process that start during booting continue to run until the system is shut down.
 
-- Shutsdown the system:
+- Shutdown the system:
 
 `init 0`
 
-- Single user mode or emergency mode:
+- Enter single user mode or emergency mode:
 
 `init 1`
 
@@ -18,6 +18,6 @@
 
 `init -b`
 
-- Tell the init command to enter the maintenance mode:
+- Enter maintenance mode:
 
 `init s`
