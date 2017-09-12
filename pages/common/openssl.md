@@ -14,7 +14,7 @@
 
 `openssl x509 -req -days {{days}} -in {{filename.csr}} -signkey {{filename.key}} -out {{filename.crt}}`
 
-- Only display a domain's certificate's start and end dates:
+- Display the start and end dates for a domain's certificate:
 
 `openssl s_client -connect {{host}}:{{port}} 2>/dev/null | openssl x509 -noout -dates`
 
