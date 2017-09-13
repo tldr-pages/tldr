@@ -8,7 +8,7 @@
 
 - E[x]clude unwanted files from being added to the compressed archive:
 
-`zip -r {{compressed.zip}} {{path/to/dir}} -x \*.git\* \*node_modules\* ...`
+`zip -r {{compressed.zip}} {{path/to/dir}} -x {{path/to/exclude}}`
 
 - Archive a directory and its contents with the highest level [9] of compression:
 
