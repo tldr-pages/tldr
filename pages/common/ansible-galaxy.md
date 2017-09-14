@@ -1,23 +1,23 @@
 # ansible-galaxy
 
-> Create and manage Ansible roles
+> Create and manage Ansible roles.
 
-- Install a role
+- Install a role:
 
 `ansible-galaxy install {{role_name}}`
 
-- Remove a role
+- Remove a role:
 
 `ansible-galaxy remove {{role_name}}`
 
-- List installed roles
+- List installed roles:
 
 `ansible-galaxy list`
 
-- Search for roles
+- Search for roles:
 
 `ansible-galaxy search {{role_name}}`
 
-- Create a new role
+- Create a new role:
 
 `ansible-galaxy init {{role_name}}`
