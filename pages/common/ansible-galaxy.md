@@ -4,17 +4,17 @@
 
 - Install a role:
 
-`ansible-galaxy install {{role_name}}`
+`ansible-galaxy install {{username.role_name}}`
 
 - Remove a role:
 
-`ansible-galaxy remove {{role_name}}`
+`ansible-galaxy remove {{username.role_name}}`
 
 - List installed roles:
 
 `ansible-galaxy list`
 
-- Search for roles:
+- Search for a given role:
 
 `ansible-galaxy search {{role_name}}`
 
