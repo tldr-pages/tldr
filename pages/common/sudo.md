@@ -1,19 +1,19 @@
 # sudo
 
-> Execute a command as another user.
+> Executes a single command as another user.
 
-- List of an unreadable directory:
+- List the contents of an unreadable directory:
 
 `sudo {{ls}} {{/usr/local/scrt}}`
 
-- To edit a file as user www:
+- Edit a file as the user www:
 
 `sudo -u {{www}} {{vi}} {{/var/www/index.html}}`
 
-- To shutdown the machine:
+- Shut down the machine:
 
 `sudo {{shutdown}} -h +10 {{"Cya soon!"}}`
 
-- To repeat the last command as sudo:
+- Repeat the last command as sudo:
 
 `sudo {{!!}}`
