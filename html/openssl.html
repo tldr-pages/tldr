@@ -9,6 +9,9 @@
 - Generate a self-signed certificate from a certificate signing request valid for some number of days:
 
 <blockquote>openssl x509 -req -days <i>days</i> -in <i>filename.csr</i> -signkey <i>filename.key</i> -out <i>filename.crt</i></blockquote>
+- Display the start and expiry dates for a domain's certificate:
+
+<blockquote>openssl s_client -connect <i>host</i>:<i>port</i> 2>/dev/null | openssl x509 -noout -dates</blockquote>
 - Display the certificate presented by an SSL/TLS server:
 
 <blockquote>openssl s_client -connect <i>host</i>:<i>port</i> </dev/null</blockquote>
