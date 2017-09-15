@@ -15,6 +15,10 @@
 
 `bash {{file.sh}}`
 
+- Run commands from a file, logging all commands executed to the terminal:
+
+`bash -x {{file.sh}}`
+
 - Run commands from STDIN:
 
 `bash -s`
