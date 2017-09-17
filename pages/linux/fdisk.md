@@ -14,5 +14,5 @@
 `fdisk /dev/sda`
 
 - Print help and then exit:
-      
+
 `fdisk -h`
