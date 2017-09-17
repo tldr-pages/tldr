@@ -12,8 +12,6 @@
 `fdisk /dev/sda`
 - Create/remove/change partitions in the device.Serveral commands can be list.
 
-- Example lists:
-
       `m`
       print the help menu.
       
