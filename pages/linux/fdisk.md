@@ -1,16 +1,20 @@
 # fdisk
 > Manipulate disk partition table.
 
-Examples:
+- Example description:
 
 `fdisk -l /dev/sda`
-- List  the  partition  tables for the sda disk and then exit.The part of example output can be seen below,
+- List  the  partition  tables for the sda disk and then exit.The part of example output can be seen below.
 The size can ben seen from blocks and the system type is GPT.
 Device Boot      Start         End      Blocks   Id  System
 /dev/sda1               1      218473  1754879999+  ee  GPT
 
+- Example description:
+
 `fdisk -s /dev/sda1`
 - Print the size (in blocks) of /dev/sda1.
+
+- Example description:
 
 `fdisk /dev/sda`
 - Create/remove/change partitions in the device.Serveral commands can be list.for example:
@@ -32,6 +36,8 @@ Device Boot      Start         End      Blocks   Id  System
       
       `d`
       delete a partition    
+      
+- Example description:
 
 `fdisk -h`
 - Print help and then exit
