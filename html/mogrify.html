@@ -1,17 +1,17 @@
 <b>mogrify</b><br><br>
-<b>Tool that allows making operations on multiple images ie. resizing, cropping, flipping, adding effects. Replaces the original file.</b><br><br>
-- Resize all jpg images in the folder to 50% of their initial size:
+<b>Perform operations on multiple images, such as resizing, cropping, flipping, and adding effects.</b><br><br><b>Changes are applied directly to the original file.</b><br><br>
+- Resize all JPEG images in the folder to 50% of their initial size:
 
 <blockquote>mogrify -resize <i>50%</i> <i>*.jpg</i></blockquote>
-- Resize all images starting with DSC to 800x600:
+- Resize all images starting with "DSC" to 800x600:
 
 <blockquote>mogrify -resize <i>800x600</i> <i>DSC*</i></blockquote>
-- Convert all png images in the folder to jpg:
+- Convert all PNG images in the folder to JPEG:
 
 <blockquote>mogrify -format <i>jpg</i> <i>*.png</i></blockquote>
-- Halve the saturation for all image files in the folder:
+- Halve the saturation of all image files in the current directory:
 
 <blockquote>mogrify -modulate <i>100,50</i> <i>*</i></blockquote>
-- Double the brightness for all image files in the folder:
+- Double the brightness of all image files in the current directory:
 
 <blockquote>mogrify -modulate <i>200</i> <i>*</i></blockquote>
