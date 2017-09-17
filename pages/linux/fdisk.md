@@ -4,9 +4,8 @@
 - Example description:
 
 `fdisk -l /dev/sda`
-- List  the  partition  tables for the sda disk and then exit.The part of example output can be seen below. The size can ben seen from blocks and the system type is GPT.
-Device Boot      Start         End      Blocks   Id  System
-/dev/sda1               1      218473  1754879999+  ee  GPT
+- List  the  partition  tables for the sda disk and then exit.
+
 
 - Example description:
 
@@ -16,27 +15,27 @@ Device Boot      Start         End      Blocks   Id  System
 - Example description:
 
 `fdisk /dev/sda`
-- Create/remove/change partitions in the device.Serveral commands can be list.for example:
+- Create/remove/change partitions in the device.Serveral commands can be list,for example.
 
       `m`
-      print the help menu
+      print the help menu.
       
       `n`
-      add new partition, the new partition can be craeted if you type the command as the tips
+      add new partition, the new partition can be craeted if you type the command as the tips.
       
       `l`
       list the known partition types,such as NTFS,GPT,EFI or so.
       
       `p`
-      print the partition table, the function is as same as fdisk /dev/sda -l
+      print the partition table, the function is as same as fdisk /dev/sda -l.
       
       `w`
       write table to disk and exit. The command can be typed after the new partition is created.
       
       `d`
-      delete a partition    
+      delete a partition.    
       
 - Example description:
 
 `fdisk -h`
-- Print help and then exit
+- Print help and then exit.
