@@ -4,13 +4,15 @@
 - Example description:
 
 `fdisk -l /dev/sda`
-- List  the  partition  tables for the sda disk and then exit.
+
+- List  the  partition  tables for the sda disk and then exit:
 
 `fdisk -s /dev/sda1`
-- Print the size (in blocks) of /dev/sda1.
+
+- Print the size (in blocks) of /dev/sda1:
 
 `fdisk /dev/sda`
-- Create/remove/change partitions in the device.Serveral commands can be list.
+- Create/remove/change partitions in the device.Serveral commands can be list:
 
       `m`
       print the help menu.
