@@ -1,18 +1,18 @@
 # fdisk
 > Manipulate disk partition table.
 
-- Example description:
+- List  the  partition  tables for the sda disk and then exit:
 
 `fdisk -l /dev/sda`
 
-- List  the  partition  tables for the sda disk and then exit:
+- Print the size (in blocks) of /dev/sda1:
 
 `fdisk -s /dev/sda1`
 
-- Print the size (in blocks) of /dev/sda1:
+- Create/remove/change partitions in the device:   
 
 `fdisk /dev/sda`
-- Create/remove/change partitions in the device:    
+
+- Print help and then exit: 
       
 `fdisk -h`
-- Print help and then exit.
