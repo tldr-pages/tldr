@@ -11,7 +11,8 @@
 - Print the size (in blocks) of device partition,such as /dev/sda1
 
 `fdisk {{devices}}`
-- Create/remove/change partitions in the device.Serveral commands can be list.
+- Create/remove/change partitions in the device.Serveral commands can be list.for example:
+#fdisk /dev/sda ,which will lead into command line for create/remove/ and so on actions for sda.
 
       `m`
       print the help menu
