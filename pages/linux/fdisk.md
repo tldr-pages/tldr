@@ -12,7 +12,7 @@
 - Print the size (in blocks) of /dev/sda1:
 
 `fdisk /dev/sda`
-- Create/remove/change partitions in the device.Serveral commands can be list:
+- Create/remove/change partitions in the device.
 
       `m`
       print the help menu.
