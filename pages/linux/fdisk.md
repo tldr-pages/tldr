@@ -1,18 +1,19 @@
 # fdisk
 > Manipulate disk partition table.
 
-`fdisk -l {{device}}`
-- List  the  partition  tables for the sda disk and then exit.If no devices are given,
-              those mentioned in /proc/partitions (if that exists) are used:
-              device is usually /dev/sda or /dev/sdb or so. For example: 
-              #fdisk  -l /dev/sda will show the partition tables for sda disk.
+Examples:
 
-`fdisk -s {{device}}`
-- Print the size (in blocks) of device partition,such as /dev/sda1
+`fdisk -l /dev/sda`
+- List  the  partition  tables for the sda disk and then exit.The part of example output can be seen below,
+The size can ben seen from blocks and the system type is GPT.
+Device Boot      Start         End      Blocks   Id  System
+/dev/sda1               1      218473  1754879999+  ee  GPT
 
-`fdisk {{devices}}`
+`fdisk -s /dev/sda1`
+- Print the size (in blocks) of /dev/sda1.
+
+`fdisk /dev/sda`
 - Create/remove/change partitions in the device.Serveral commands can be list.for example:
-#fdisk /dev/sda ,which will lead into command line for create/remove/ and so on actions for sda.
 
       `m`
       print the help menu
