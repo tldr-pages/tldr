@@ -4,8 +4,7 @@
 - Example description:
 
 `fdisk -l /dev/sda`
-- List  the  partition  tables for the sda disk and then exit.The part of example output can be seen below.
-The size can ben seen from blocks and the system type is GPT.
+- List  the  partition  tables for the sda disk and then exit.The part of example output can be seen below. The size can ben seen from blocks and the system type is GPT.
 Device Boot      Start         End      Blocks   Id  System
 /dev/sda1               1      218473  1754879999+  ee  GPT
 
