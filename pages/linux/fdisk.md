@@ -6,7 +6,6 @@
 `fdisk -l /dev/sda`
 - List  the  partition  tables for the sda disk and then exit.
 
-
 - Example description:
 
 `fdisk -s /dev/sda1`
