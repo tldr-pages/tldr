@@ -9,10 +9,10 @@
 
 `fdisk -s /dev/sda1`
 
-- Create/remove/change partitions in the device:   
+- Create/remove/change partitions in the device:
 
 `fdisk /dev/sda`
 
-- Print help and then exit: 
+- Print help and then exit:
       
 `fdisk -h`
