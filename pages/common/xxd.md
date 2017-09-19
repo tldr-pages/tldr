@@ -6,7 +6,7 @@
 
 `xxd {{input_file}}`
 
-- Generate a hexdump from a binary file and save it to a text file:
+- Generate a hexdump from a binary file and save it as a text file:
 
 `xxd {{input_file}} {{output_file}}`
 
@@ -18,6 +18,6 @@
 
 `xxd -p {{input_file}}`
 
-- Revert a plaintext hexdump into binary, and save it to a binary file:
+- Revert a plaintext hexdump back into binary, and save it as a binary file:
 
 `xxd -r -p {{input_file}} {{output_file}}`
