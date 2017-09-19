@@ -1,6 +1,6 @@
 # port
 
-> macOS package manager
+> Package manager for macOS.
 
 - Search for package:
 
