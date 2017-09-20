@@ -2,11 +2,11 @@
 
 > Package manager for macOS.
 
-- Search for package:
+- Search for a package:
 
 `port search {{search_term}}`
 
-- Install package:
+- Install a package:
 
 `sudo port install {{package_name}}`
 
@@ -14,7 +14,7 @@
 
 `port installed`
 
-- Update ports tree:
+- Update port and fetch latest list of available packages:
 
 `sudo port selfupdate`
 
@@ -22,6 +22,6 @@
 
 `sudo port upgrade outdated`
 
-- Remove inactive port versions:
+- Remove inactive package versions:
 
 `sudo port uninstall inactive`
