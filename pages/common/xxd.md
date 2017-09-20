@@ -1,23 +1,23 @@
 # xxd
 
-> Create a hexdump from a binary file or vice-versa.
+> Create a hexadecimal representation (hexdump) from a binary file, or vice-versa.
 
-- Generate a hexdump from a binary file and display the output to console:
+- Generate a hexdump from a binary file and display the output:
 
 `xxd {{input_file}}`
 
-- Send the hexdump output to a file:
+- Generate a hexdump from a binary file and save it as a text file:
 
 `xxd {{input_file}} {{output_file}}`
 
-- Format output in columns of 8 octets per line:
+- Display the output with 10 columns of one octet (byte) each:
 
-`xxd -c {{8}} {{input_file}}`
+`xxd -c {{10}} {{input_file}}`
 
-- Display in plain hex format without any gaps:
+- Display the output in plain mode, without any gaps between the columns:
 
 `xxd -p {{input_file}}`
 
-- Revert a plaintext hex into binary and store it in an output file:
+- Revert a plaintext hexdump back into binary, and save it as a binary file:
 
 `xxd -r -p {{input_file}} {{output_file}}`
