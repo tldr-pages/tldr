@@ -16,4 +16,4 @@
 
 - Repeat the last command as sudo:
 
-`sudo {{!!}}`
+`sudo !!`
