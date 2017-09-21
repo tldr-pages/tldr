@@ -14,9 +14,13 @@
 
 `apt-get remove {{package}}`
 
-- Upgrade installed packages to newest available versions:
+- Upgrade all installed packages to newest available versions:
 
 `apt-get upgrade`
+
+- Upgrade a single package to the newest available version:
+
+`apt-get install --only-upgrade {{package}}`
 
 - Remove no longer needed packages:
 
