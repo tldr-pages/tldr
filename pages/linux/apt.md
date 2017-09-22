@@ -22,6 +22,6 @@
 
 `sudo apt remove {{package}}`
 
-- Upgrade all installed packages to the newest available versions:
+- Upgrade all installed packages to their newest available versions
 
 `sudo apt upgrade`
