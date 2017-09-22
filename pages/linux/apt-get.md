@@ -6,7 +6,7 @@
 
 `apt-get update`
 
-- Install a new package, or update an existing package to its latest available version:
+- Install a package, or update it to the latest available version:
 
 `apt-get install {{package}}`
 
