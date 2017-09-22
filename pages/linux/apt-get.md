@@ -10,13 +10,13 @@
 
 `apt-get install {{package}}`
 
-- Upgrade all installed packages to their newest available versions:
-
-`apt-get upgrade`
-
 - Remove a package:
 
 `apt-get remove {{package}}`
+
+- Upgrade all installed packages to their newest available versions:
+
+`apt-get upgrade`
 
 - Remove all packages that are no longer needed:
 
