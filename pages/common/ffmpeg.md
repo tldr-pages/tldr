@@ -4,7 +4,7 @@
 
 - Extract the sound from a video and save it as MP3:
 
-`ffmpeg -i {{video.mp4}} -vn -ar 44100 -ac 2 -ab 192 -f mp3 {{sound}}.mp3`
+`ffmpeg -i {{video.mp4}} {{sound}}.mp3`
 
 - Convert frames from a video or GIF into individual numbered images:
 
