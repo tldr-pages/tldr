@@ -19,7 +19,7 @@
 
 `wget --ftp-user={{username}} --ftp-password={{password}} {{ftp://example.com}}`
 
-- Limit download speed:
+- Limit download speed to 200 kB/s:
 
 `wget --limit-rate={{200k}} {{https://example.com}}`
 
