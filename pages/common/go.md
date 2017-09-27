@@ -10,13 +10,13 @@
 
 `go run {{file}}.go`
 
+- Compile a source file into a named executable:
+
+`go build -o {{executable}} {{file}}.go`
+
 - Compile the package present in the current directory:
 
 `go build`
-
-- Compile the file source.go into a named executable:
-
-`go build -o executable source.go`
 
 - Execute all test cases of the current package (files have to end with `_test.go`):
 
