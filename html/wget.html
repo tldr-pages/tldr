@@ -1,20 +1,23 @@
 <b>wget</b><br><br>
 <b>Download files from the Web.</b><br><br><b>Supports HTTP, HTTPS, and FTP.</b><br><br>
-- Download the contents of an URL to a file:
+- Download the contents of an URL to a file (named "foo" in this case):
 
-<blockquote>wget -O <i>filename</i> <i>url</i></blockquote>
-- Limit download speed:
+<blockquote>wget <i>https://example.com/foo</i></blockquote>
+- Download a single web page and all its resources (scripts, stylesheets, images, etc.):
 
-<blockquote>wget --limit-rate=<i>200k</i> <i>url</i></blockquote>
+<blockquote>wget --page-requisites --convert-links <i>https://example.com/somepage.html</i></blockquote>
+- Download a full website, with 3-second intervals between requests:
+
+<blockquote>wget --mirror --page-requisites --convert-links --wait=3 <i>https://example.com</i></blockquote>
+- Download the contents of an URL via authenticated FTP:
+
+<blockquote>wget --ftp-user=<i>username</i> --ftp-password=<i>password</i> <i>ftp://example.com</i></blockquote>
+- Limit download speed to 200 kB/s:
+
+<blockquote>wget --limit-rate=<i>200k</i> <i>https://example.com</i></blockquote>
 - Continue an incomplete download:
 
-<blockquote>wget -c <i>url</i></blockquote>
-- Download a full website:
-
-<blockquote>wget --mirror -p --convert-links -P <i>target_folder</i> <i>url</i></blockquote>
-- FTP download with username and password:
-
-<blockquote>wget --ftp-user=<i>username</i> --ftp-password=<i>password</i> <i>url</i></blockquote>
+<blockquote>wget -c <i>https://example.com</i></blockquote>
 - Retry a given number of times if the download doesn't succeed at first:
 
-<blockquote>wget -t <i>number_of_retries</i> <i>url</i></blockquote>
+<blockquote>wget -t <i>number_of_retries</i> <i>https://example.com</i></blockquote>

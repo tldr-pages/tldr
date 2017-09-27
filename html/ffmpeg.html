@@ -2,13 +2,16 @@
 <b>Video conversion tool.</b><br><br>
 - Extract the sound from a video and save it as MP3:
 
-<blockquote>ffmpeg -i <i>video_filename</i> -vn -ar 44100 -ac 2 -ab 192 -f mp3 <i>sound.mp3</i></blockquote>
+<blockquote>ffmpeg -i <i>video.mp4</i> <i>sound</i>.mp3</blockquote>
 - Convert frames from a video or GIF into individual numbered images:
 
-<blockquote>ffmpeg -i <i>video_or_gif_filename</i> <i>image%d.png</i></blockquote>
-- Combine numbered images (image1.jpg, image2.jpg, etc) into a video or GIF:
+<blockquote>ffmpeg -i <i>video.mpg|video.gif</i> <i>frame_%d.png</i></blockquote>
+- Combine numbered images (frame_1.jpg, frame_2.jpg, etc) into a video or GIF:
 
-<blockquote>ffmpeg -f image2 -i <i>image%d.jpg</i> <i>video.mpg_or_video.gif</i></blockquote>
+<blockquote>ffmpeg -i <i>frame_%d.jpg</i> -f image2 <i>video.mpg|video.gif</i></blockquote>
+- Extract a single frame from a video at time mm:ss and save it as a 128x128 resolution image:
+
+<blockquote>ffmpeg -i <i>video.mp4</i> -ss <i>mm:ss</i> -frames 1 -s <i>128x128</i> -f image2 <i>image.png</i></blockquote>
 - Convert AVI video to MP4. AAC Audio @ 128kbit, Video @ 1250Kbit:
 
-<blockquote>ffmpeg -i <i>in.avi</i> -acodec libfaac -ab 128k -vcodec mpeg4 -b 1250K <i>out.mp4</i></blockquote>
+<blockquote>ffmpeg -i <i>input_video</i>.avi -acodec libfaac -ab 128k -vcodec mpeg4 -b 1250K <i>output_video</i>.mp4</blockquote>
