@@ -1,11 +1,11 @@
 # sync
 
-> Synchronises all pending write operations to the appropriate disk.
+> Flushes all pending write operations to the appropriate disks.
 
-- Synchronise all pending write operations on all disks:
+- Flush all pending write operations on all disks:
 
 `sync`
 
-- Synchronise all pending write operations on a single file to disk:
+- Flush all pending write operations on a single file to disk:
 
-`sync {{path/to/file.ext}}`
+`sync {{path/to/file}}`
