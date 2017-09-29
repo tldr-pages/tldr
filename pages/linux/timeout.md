@@ -2,10 +2,10 @@
 
 > Run a command with a time limit.
 
-- Run sleep command (for 10 seconds) but kill it after 3 seconds:
+- Run "sleep 10" with a time limit of 3 seconds:
 
-`timeout 3s sleep 10`
+`timeout {{3s}} {{sleep 10}}`
 
-- Run sleep command (for 10 seconds) but kill it when interruptted or after 5 seconds:
+- Run "sleep 10" with a time limit of 5 seconds or kill it when interruptted:
 
-`timeout --signal INT 5s sleep 10`
+`timeout {{--signal INT}} {{5s}} {{sleep 10}}`
