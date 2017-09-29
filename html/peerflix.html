@@ -1,11 +1,17 @@
 <b>peerflix</b><br><br>
-<b>Stream video or audio based torrents to your favorite player.</b><br><br>
-- Stream a torrent:
+<b>Stream video- or audio-based torrents to a media player.</b><br><br>
+- Stream the largest media file in a torrent:
 
-<blockquote>peerflix "<i>magnet:?xt=urn:btih:00112233445566</i>"</blockquote>
-- Stream a torrent to VLC:
+<blockquote>peerflix "<i>torrent_url|magnet_link</i>"</blockquote>
+- List all streamable files contained in a torrent (given as a magnet link):
 
-<blockquote>peerflix "<i>torrent url|magnet link</i>" --vlc</blockquote>
+<blockquote>peerflix "<i>magnet:?xt=urn:btih:0123456789abcdef0123456789abcdef01234567</i>" --list</blockquote>
+- Stream the largest file in a torrent, given as a torrent URL, to VLC:
+
+<blockquote>peerflix "<i>http://example.net/music.torrent</i>" --vlc</blockquote>
+- Stream the largest file in a torrent to MPlayer, with subtitles:
+
+<blockquote>peerflix "<i>torrent_url|magnet_link</i>" --mplayer --subtitles <i>subtitle-file.srt</i></blockquote>
 - Stream all files from a torrent to Airplay:
 
-<blockquote>peerflix "<i>torrent url|magnet link</i>" --all --airplay</blockquote>
+<blockquote>peerflix "<i>torrent_url|magnet_link</i>" --all --airplay</blockquote>
