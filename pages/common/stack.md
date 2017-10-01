@@ -1,6 +1,6 @@
 # stack
 
-> Tool for managing haskell projects.
+> Tool for managing Haskell projects.
 
 - Create a new project:
 
