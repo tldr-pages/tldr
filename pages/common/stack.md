@@ -25,7 +25,3 @@
 - Compile a project and execute a command after compilation:
 
 `stack build --exec "{{command}}"`
-
-- Compile a project and re-compile every time a file changes and execute a command after compilation:
-
-`stack build --file-watch --exec "{{command}}"`
