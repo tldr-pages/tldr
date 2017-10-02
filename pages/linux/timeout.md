@@ -6,6 +6,6 @@
 
 `timeout {{3s}} {{sleep 10}}`
 
-- Run `sleep 10` with a time limit of 5 seconds or kill it when interruptted:
+- Run `sleep 10` with a time limit of 5 seconds or kill it when interrupted:
 
 `timeout {{--signal INT}} {{5s}} {{sleep 10}}`
