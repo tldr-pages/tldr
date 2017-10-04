@@ -1,7 +1,7 @@
 # bedops
 
-> BEDOPS: A fast, highly scalable, and easily-parallelizable genome analysis toolkit
-> Apply efficient set operations on any number of sorted BED or Starch files such as element-of, intersection, merge, difference, partition, etc. and their logical inverses
+> BEDOPS: A fast, highly scalable, and easily-parallelizable genome analysis toolkit.
+> Apply efficient set operations on any number of sorted BED or Starch files such as element-of, intersection, merge, difference, partition, etc. and their logical inverses.
 
 - Take the multiset union of two or more BED or Starch files and write the sorted result to {{path/to/output_file}}:
 
