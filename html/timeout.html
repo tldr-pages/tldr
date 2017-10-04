@@ -1,0 +1,8 @@
+<b>timeout</b><br><br>
+<b>Run a command with a time limit.</b><br><br>
+- Run `sleep 10` and kill it, if it's running after 3 seconds:
+
+<blockquote>timeout <i>3s</i> <i>sleep 10</i></blockquote>
+- Specify the signal to be sent to the command after the time limit expires. (By default, TERM is sent):
+
+<blockquote>timeout --signal <i>INT</i> <i>5s</i> <i>sleep 10</i></blockquote>
