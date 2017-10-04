@@ -1,6 +1,6 @@
 # traefik
 
-> Traefik HTTP reverse proxy and load balance.
+> A HTTP reverse proxy and load balancer.
 
 - Start server with default config:
 
@@ -10,10 +10,10 @@
 
 `traefik --c {{config_file}}.toml`
 
-- Start server with a cluster mode enabled:
+- Start server with cluster mode enabled:
 
 `traefik --cluster`
 
-- Start server with web ui enabled:
+- Start server with web UI enabled:
 
 `traefik --web`
