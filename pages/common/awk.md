@@ -21,3 +21,11 @@
 - Sum the values in the first column and pretty-print the values and then the total:
 
 `awk '{s+=$1; print $1} END {print "--------"; print s}' {{filename}}`
+
+- Keep the lines where the second column is "Earth"
+
+`awk '($2 == "Earth")' {{filename}}`
+
+- Keep the lines where the second column is greater than 10  or lower than 0
+
+`awk '($2 > 10 || $2 < 0)' {{filename}}`
