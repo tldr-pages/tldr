@@ -12,7 +12,7 @@
 
 - Start server with a cluster mode enabled:
 
-`traefik --cluster
+`traefik --cluster`
 
 - Start server with web ui enabled:
 
