@@ -15,9 +15,9 @@
 
 `ufw status numbered`
 
-- Allow incoming traffic on port 5432 on this host:
+- Allow incoming traffic on port 5432 on this host and an identifing comment:
 
-`ufw allow {{5432}}`
+`ufw allow {{5432}} comment {{"Service"}}`
 
 - Allow only TCP traffic from 192.168.0.4 to any address on this host, on port 22:
 
