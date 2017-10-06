@@ -1,6 +1,6 @@
 # R
 
-> R language interpreter
+> R language interpreter.
 
 - Call a R interactive shell (REPL):
 
@@ -10,6 +10,6 @@
 
 `R --version`
 
-- Run file as input
+- Run file as input:
 
 `R -f file.R`
