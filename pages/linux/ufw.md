@@ -15,7 +15,7 @@
 
 `ufw status numbered`
 
-- Allow incoming traffic on port 5432 on this host and an identifing comment:
+- Allow incoming traffic on port 5432 on this host with a comment identifying the service:
 
 `ufw allow {{5432}} comment {{"Service"}}`
 
