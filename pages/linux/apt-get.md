@@ -14,6 +14,10 @@
 
 `apt-get remove {{package}}`
 
+- Remove a package (like `remove`), but also remove any associated configuration files:
+
+`apt-get purge {{package}}`
+
 - Upgrade all installed packages to their newest available versions:
 
 `apt-get upgrade`
