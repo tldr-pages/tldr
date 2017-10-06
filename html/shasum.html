@@ -1,0 +1,17 @@
+<b>shasum</b><br><br>
+<b>Calculate or check cryptographic SHA checksums.</b><br><br>
+- Calculate the SHA1 checksum for a file:
+
+<blockquote>shasum <i>filename</i></blockquote>
+- Calculate the SHA256 checksum for a file:
+
+<blockquote>shasum --algorithm 256 <i>filename</i></blockquote>
+- Calculate the SHA512 checksum for multiple files:
+
+<blockquote>shasum --algorithm 512 <i>filename1</i> <i>filename2</i></blockquote>
+- Check a file with a list of sums against the directory's files:
+
+<blockquote>shasum --check <i>list_file</i></blockquote>
+- Calculate the SHA1 checksum from stdin:
+
+<blockquote><i>somecommand</i> | shasum</blockquote>
