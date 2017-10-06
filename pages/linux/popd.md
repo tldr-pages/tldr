@@ -1,4 +1,4 @@
-# Popd
+# popd
 
 > Remove a directory placed on the directory stack via the pushd shell built-in.
 
@@ -6,10 +6,10 @@
 
 `popd`
 
-- Remove the Nth directory (starting from zero to the left from the list printed with dirs):
+- Remove the Nth directory (starting from zero to the left from the list printed with `dirs`):
 
 `popd +N`
 
-- Remove the Nth directory (starting from zero to the right from the list printed with dirs):
+- Remove the Nth directory (starting from zero to the right from the list printed with `dirs`):
 
 `popd -N`
