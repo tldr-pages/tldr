@@ -1,6 +1,6 @@
 # codesign
 
-> Sign code for the Mac certificate store. 
+> Sign code for the Mac certificate store.
 
 - Link a certificate to your application:
 
