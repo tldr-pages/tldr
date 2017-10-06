@@ -27,6 +27,10 @@
 
 `curl -d {{'{"name":"bob"}'}} -H {{'Content-Type: application/json'}} {{http://example.com/users/1234}}`
 
+- Pass a custom IP address for a specific host and port pair, and only display header information:
+
+`curl --resolve example.com:443:192.168.0.1 -vo /dev/null https://example.com/filename`
+
 - Pass a user name and password for server authentication:
 
 `curl -u myusername:mypassword {{http://example.com}}`
