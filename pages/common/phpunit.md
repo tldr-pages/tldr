@@ -2,7 +2,7 @@
 
 > PHPUnit command-line test runner.
 
-- Run tests in the current direcotry. Note: Expects you to have a 'phpunit.xml':
+- Run tests in the current directory. Note: Expects you to have a 'phpunit.xml':
 
 `phpunit`
 

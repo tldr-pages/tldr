@@ -1,11 +1,11 @@
 # sw_vers
 
-> Print Mac OSX Software versioning information.
+> Print macOS Software versioning information.
 
-- Print OSX Version:
+- Print macOS Version:
 
 `sw_vers -productVersion`
 
-- Print OSX Build:
+- Print macOS Build:
 
 `sw_vers -buildVersion`

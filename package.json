@@ -12,7 +12,7 @@
     "precommit": "npm test",
     "lint-markdown": "markdownlint pages/**/*.md",
     "lint-tldr": "tldr-lint ./pages",
-    "test": "markdownlint pages/ && tldr-lint ./pages",
+    "test": "bash -c 'markdownlint pages/ && tldr-lint ./pages 2>&1 | tee test_result; test ${PIPESTATUS[0]} -eq 0'",
     "build-index": "node ./scripts/build-index.js > pages/index.json"
   },
   "repository": "tldr-pages/tldr",

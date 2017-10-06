@@ -22,6 +22,6 @@
 
 `zfs set compression=on {{pool_name/filesystem_name}}`
 
-- Change mountpoint for a filesytem:
+- Change mountpoint for a filesystem:
 
 `zfs set mountpoint={{/my/mount/path}} {{pool_name/filesystem_name}}`

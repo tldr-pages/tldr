@@ -1,6 +1,6 @@
 # defaults
 
-> Read and write OS X user configuration for applications.
+> Read and write macOS user configuration for applications.
 
 - Read system defaults for an application option:
 

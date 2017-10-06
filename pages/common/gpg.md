@@ -1,6 +1,6 @@
 # gpg
 
-> Gnu Privacy Guard.
+> GNU Privacy Guard.
 
 - Sign doc.txt without encryption (writes output to doc.txt.asc):
 

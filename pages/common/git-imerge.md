@@ -19,6 +19,10 @@
 
 `git imerge continue --no-edit`
 
-- Wrap up the imerge operation, after all conflicts are resolved:
+- Wrap up imerge operation, after all conflicts are resolved:
 
 `git imerge finish`
+
+- Abort imerge operation, and return to the previous branch:
+
+`git-imerge remove && git checkout {{previous_branch}}`

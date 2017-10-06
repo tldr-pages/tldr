@@ -4,7 +4,7 @@
 
 - Retrieve the X-Windows window ID of the running Firefox window(s):
 
-`xdotool search --onlyvisibile --name {{firefox}}`
+`xdotool search --onlyvisible --name {{firefox}}`
 
 - Click the right mouse button:
 

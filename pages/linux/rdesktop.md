@@ -11,7 +11,7 @@
 
 `rdesktop -u Administrator -p passwd123 192.168.1.111:3389`
 
-- Connect to a remote computer with full screen (press `Ctrl+Alt+Enter` to exist):
+- Connect to a remote computer with full screen (press `Ctrl + Alt + Enter` to exist):
 
 `rdesktop -u {{username}} -p {{password}} -f {{host:port}}`
 

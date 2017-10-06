@@ -2,7 +2,7 @@
 
 > OCR (Optical Character Recognition) engine.
 
-- Recognize text in an image and save it to `output.txt`. The file extension MUST not be mentioned:
+- Recognize text in an image and save it to `output.txt` (the '.txt' extension is added automatically):
 
 `tesseract {{image.png}} {{output}}`
 

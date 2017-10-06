@@ -33,7 +33,7 @@ function upload_assets {
   cp -f $TLDRHOME/pages/index.json $SITE_HOME/assets/
 
   cd $SITE_HOME
-  git add -A .
+  git add -A 
   git commit -m "[TravisCI] uploaded assets after commits ${TRAVIS_COMMIT_RANGE}"
   git push -q
 }

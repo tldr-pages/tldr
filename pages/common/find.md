@@ -14,9 +14,9 @@
 
 `find {{root_path}} -name '{{*.ext}}' -exec {{wc -l {} }}\;`
 
-- Find files modified since a certain time:
+- Find files modified in the last 24-hour period:
 
-`find {{root_path}} -name '{{}}' -mtime {{-1}}`
+`find {{root_path}} -mtime {{-1}}`
 
 - Find files using case insensitive name matching, of a certain size:
 
@@ -30,6 +30,6 @@
 
 `find {{root_path}} -name '{{*.py}}' -or -name '{{*.r}}'`
 
-- Find files matching path pattern while excluding some certain path:
+- Find files matching a given pattern, while excluding specific paths:
 
 `find {{root_path}} -name '{{*.py}}' -not -path '{{*/site-packages/*}}'`
