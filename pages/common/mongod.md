@@ -1,15 +1,15 @@
 # mongod
 
-> The daemon process for MongoDB.
+> The MongoDB database server
 
-- Specify runtime configurations:
+- Specify a config file:
 
-`mongod --config <filename>`
+`mongod --config {{filename}}`
 
-- Specify port for MongoDB to listen to client connections:
+- Specify the port to listen on:
 
-`mongod --port <port>`
+`mongod --port {{port}}`
 
-- Change database profiling level. 0 is off, 1 is only slow operations, 2 is all:
+- Specify database profiling level. 0 is off, 1 is only slow operations, 2 is all:
 
-`mongod --profile <level>`
+`mongod --profile {{0|1|2}}`
