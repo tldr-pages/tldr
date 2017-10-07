@@ -6,6 +6,10 @@
 
 `foreman start`
 
+- Start an application with a specified Procfile:
+
+`foreman start -f {{Procfile}}`
+
 - Start a specific application:
 
 `foreman start {{process}}`
