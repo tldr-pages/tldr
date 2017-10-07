@@ -25,3 +25,11 @@
 - Display the complete certificate chain of an HTTPS server:
 
 `openssl s_client -connect {{host}}:443 -showcerts </dev/null`
+
+- Encrypt a file with des with asciii armored output:
+
+`openssl des  -a -salt -in {{infile-plain}} -k {{key}} -out {{outfile-enc}}`
+
+- Decrypt an ascii armored encrypted with des:
+
+`openssl des -d -a -salt -in {{infile-enc}} -k {{key}} -out {{outfile-plain.}}`
