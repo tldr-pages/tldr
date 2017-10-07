@@ -1,6 +1,6 @@
 # mongod
 
-> The MongoDB database server
+> The MongoDB database server.
 
 - Specify a config file:
 
