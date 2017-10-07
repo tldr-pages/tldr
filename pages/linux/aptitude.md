@@ -18,10 +18,6 @@
 
 `aptitude remove {{package}}`
 
-- Do an `aptitude remove {{package}}` and remove all config files:
-
-`aptitude purge {{package}}`
-
 - Upgrade installed packages to newest available versions:
 
 `aptitude upgrade`
