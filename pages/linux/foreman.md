@@ -2,9 +2,17 @@
 
 > Manage Procfile-based application.
 
-- Start an application:
+- Start an application with Procfile in current directory:
+
+`foreman start`
+
+- Start a specific application:
 
 `foreman start {{process}}`
+
+- Validate Procfile format:
+
+`foreman check`
 
 - Run one-off commands with the process's environment:
 
