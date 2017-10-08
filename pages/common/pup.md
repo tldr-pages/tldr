@@ -20,7 +20,7 @@
 
 - Print all text from selected nodes and children:
 
-`cat {{index.html}} | pup '{{tag}} text{}`
+`cat {{index.html}} | pup '{{tag}} text{}'`
 
 - Print HTML as JSON:
 
