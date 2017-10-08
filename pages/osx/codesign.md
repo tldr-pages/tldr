@@ -1,8 +1,8 @@
 # codesign
 
-> Sign code for the Mac certificate store.
+> Create and manipulate code signatures for macOS.
 
-- Link a certificate to your application:
+- Sign for an application with your certificate:
 
 `codesign -s "My Company Name" /path/to/App.app`
 
