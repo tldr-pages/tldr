@@ -9,9 +9,9 @@
 - Show ufw rules, along with their numbers:
 
 <blockquote>ufw status numbered</blockquote>
-- Allow incoming traffic on port 5432 on this host:
+- Allow incoming traffic on port 5432 on this host with a comment identifying the service:
 
-<blockquote>ufw allow <i>5432</i></blockquote>
+<blockquote>ufw allow <i>5432</i> comment <i>"Service"</i></blockquote>
 - Allow only TCP traffic from 192.168.0.4 to any address on this host, on port 22:
 
 <blockquote>ufw allow proto <i>tcp</i> from <i>192.168.0.4</i> to <i>any</i> port <i>22</i></blockquote>
