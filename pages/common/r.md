@@ -2,7 +2,7 @@
 
 > R language interpreter.
 
-- Call a R interactive shell (REPL):
+- Call an R interactive shell (REPL):
 
 `R`
 
