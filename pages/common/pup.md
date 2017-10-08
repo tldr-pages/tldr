@@ -25,4 +25,3 @@
 - Print HTML as JSON:
 
 `cat {{index.html}} | pup '{{tag}} json{}'`
-
