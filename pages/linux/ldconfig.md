@@ -2,11 +2,11 @@
 
 > Configure symlinks and cache for shared library dependencies.
 
-- Update symlinks and rebuild the cache. (Usually run when a new library is installed):
+- Update symlinks and rebuild the cache (usually run when a new library is installed):
 
 `sudo ldconfig`
 
-- Update symlinks for a given directory:
+- Update the symlinks for a given directory:
 
 `sudo ldconfig -n {{path/to/directory}}`
 
