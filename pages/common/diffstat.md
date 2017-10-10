@@ -1,6 +1,6 @@
 # diffstat
 
-> Make histogram of diff-output
+> Make histogram of diff-output.
 
 - Display changes in a histogram:
 
