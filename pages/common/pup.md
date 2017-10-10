@@ -16,7 +16,7 @@
 
 - Filter HTML by attribute value:
 
-`cat {{index.html}} | pup '{{input[type="text"}}'`
+`cat {{index.html}} | pup '{{input[type="text"}}]'`
 
 - Print all text from the filtered HTML elements and their children:
 
