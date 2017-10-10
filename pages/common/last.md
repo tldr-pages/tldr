@@ -18,10 +18,10 @@
 
 `last {{user_name}} -i`
 
-- View the last reboot (last login of the pseudo user reboot):
+- View all recorded reboots (last logins of the pseudo user reboot):
 
 `last reboot`
 
-- View the last shutdown (last login of the pseudo user shutdown):
+- View all recorded shutdowns (last logins of the pseudo user shutdown):
 
 `last shutdown`
