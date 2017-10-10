@@ -10,9 +10,9 @@
 
 `last -n {{login_count}}`
 
-- View full login times and dates:
+- Print the full date and time for entries and then display the hostname column last to prevent truncation:
 
-`last -F`
+`last -F -a`
 
 - View the last login by a specific user:
 
