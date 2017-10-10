@@ -24,4 +24,4 @@
 
 - Report paging statistics every 5 seconds (press CTRL+C to quit):
 
-`sar -B {{1}}`
+`sar -B {{5}}`
