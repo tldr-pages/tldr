@@ -2,26 +2,26 @@
 
 > Monitor performance of various Linux subsystems.
 
-- Report I/O and Transfer rate every 1 second:
+- Report I/O and transfer rate issued to physical devices, every second (press CTRL+C to quit):
 
-`sar -b 1`
+`sar -b {{1}}`
 
-- Report 10 network statistics every 2 seconds for network devices:
+- Report a total of 10 network device statistics, one per 2 seconds:
 
-`sar -n DEV 2 10`
+`sar -n DEV {{2}} {{10}}`
 
-- Report CPU utilization every 2 seconds:
+- Report CPU utilization every 2 seconds (press CTRL+C to quit):
 
-`sar -u ALL 2`
+`sar -u ALL {{2}}`
 
-- Report 20 memory utilization statistics every 1 second:
+- Report a total of 20 memory utilization statistics,  one per second:
 
-`sar -r 1 20`
+`sar -r ALL {{1}} {{20}}`
 
-- Report queue length and load averages:
+- Report the run queue length and load averages:
 
-`sar -q 1 1`
+`sar -q {{1}} {{1}}`
 
-- Report paging statistics every 1 second:
+- Report paging statistics every 5 seconds (press CTRL+C to quit):
 
-`sar -B 1`
+`sar -B {{1}}`
