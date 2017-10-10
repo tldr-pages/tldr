@@ -14,9 +14,9 @@
 
 `last -F -a`
 
-- View the last login by a specific user:
+- View all logins by a specific user and show the ip address instead of the hostname:
 
-`last {{user_name}}`
+`last {{user_name}} -i`
 
 - View the last reboot (last login of the pseudo user reboot):
 
