@@ -1,6 +1,6 @@
 # popd
 
-> Remove a directory placed on the directory stack via the pushd shell built-in.
+> Remove a directory placed on the directory stack by the `pushd` command.
 
 - Remove the top directory from the stack and cd to it:
 
