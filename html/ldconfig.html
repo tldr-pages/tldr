@@ -1,0 +1,11 @@
+<b>ldconfig</b><br><br>
+<b>Configure symlinks and cache for shared library dependencies.</b><br><br>
+- Update symlinks and rebuild the cache (usually run when a new library is installed):
+
+<blockquote>sudo ldconfig</blockquote>
+- Update the symlinks for a given directory:
+
+<blockquote>sudo ldconfig -n <i>path/to/directory</i></blockquote>
+- Print the libraries in the cache and check whether a given library is present:
+
+<blockquote>ldconfig -p | grep <i>library_name</i></blockquote>

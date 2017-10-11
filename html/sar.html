@@ -1,0 +1,20 @@
+<b>sar</b><br><br>
+<b>Monitor performance of various Linux subsystems.</b><br><br>
+- Report I/O and transfer rate issued to physical devices, one per second (press CTRL+C to quit):
+
+<blockquote>sar -b <i>1</i></blockquote>
+- Report a total of 10 network device statistics, one per 2 seconds:
+
+<blockquote>sar -n DEV <i>2</i> <i>10</i></blockquote>
+- Report CPU utilization, one per 2 seconds:
+
+<blockquote>sar -u ALL <i>2</i></blockquote>
+- Report a total of 20 memory utilization statistics, one per second:
+
+<blockquote>sar -r ALL <i>1</i> <i>20</i></blockquote>
+- Report the run queue length and load averages, one per second:
+
+<blockquote>sar -q <i>1</i></blockquote>
+- Report paging statistics, one per 5 seconds:
+
+<blockquote>sar -B <i>5</i></blockquote>
