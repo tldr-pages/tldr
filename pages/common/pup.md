@@ -8,7 +8,7 @@
 
 - Filter HTML by element tag name:
 
-`cat {{index.html}} | pup '{{div}}'`
+`cat {{index.html}} | pup '{{tag}}'`
 
 - Filter HTML by id:
 
