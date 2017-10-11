@@ -1,0 +1,20 @@
+<b>pup</b><br><br>
+<b>Command line HTML parsing tool.</b><br><br>
+- Transform a raw HTML file into a cleaned, indented, and colored format:
+
+<blockquote>cat <i>index.html</i> | pup --color</blockquote>
+- Filter HTML by element tag name:
+
+<blockquote>cat <i>index.html</i> | pup '<i>tag</i>'</blockquote>
+- Filter HTML by id:
+
+<blockquote>cat <i>index.html</i> | pup '<i>div#id</i>'</blockquote>
+- Filter HTML by attribute value:
+
+<blockquote>cat <i>index.html</i> | pup '<i>input[type="text"]</i>'</blockquote>
+- Print all text from the filtered HTML elements and their children:
+
+<blockquote>cat <i>index.html</i> | pup '<i>div</i> text{}'</blockquote>
+- Print HTML as JSON:
+
+<blockquote>cat <i>index.html</i> | pup '<i>div</i> json{}'</blockquote>
