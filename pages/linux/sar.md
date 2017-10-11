@@ -10,11 +10,11 @@
 
 `sar -n DEV {{2}} {{10}}`
 
-- Report CPU utilization every 2 seconds (press CTRL+C to quit):
+- Report CPU utilization every 2 seconds:
 
 `sar -u ALL {{2}}`
 
-- Report a total of 20 memory utilization statistics,  one per second:
+- Report a total of 20 memory utilization statistics, one per second:
 
 `sar -r ALL {{1}} {{20}}`
 
@@ -22,6 +22,6 @@
 
 `sar -q {{1}} {{1}}`
 
-- Report paging statistics every 5 seconds (press CTRL+C to quit):
+- Report paging statistics every 5 seconds:
 
 `sar -B {{5}}`
