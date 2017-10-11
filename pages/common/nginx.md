@@ -14,7 +14,7 @@
 
 `nginx -c {{config_file}} -p {{prefix/for/relative/paths}}`
 
-- Test the current configuration without affecting the running server:
+- Test the configuration without affecting the running server:
 
 `nginx -t`
 
