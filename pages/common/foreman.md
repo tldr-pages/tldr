@@ -1,7 +1,7 @@
 # foreman
 
 > Foreman manages Procfile-based applications
-> Foreman supports exports to: bluepill, inittab, launchd, runit, supervisord, systemd, and upstart. 
+> Foreman supports exports to: bluepill, inittab, launchd, runit, supervisord, systemd, and upstart
 
 - Run one instance of each type of process defined in your Procfile:
 
