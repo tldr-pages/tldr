@@ -1,7 +1,7 @@
 # astyle
 
 > Source code indenter, formatter, and beautifier for the C, C++, C# and Java programming languages.
-> A copy of the original file is created with an .orig appended to the original file name. 
+> A copy of the original file is created with an dot orig appended to the original file name. 
 
 - Apply default style, 4 spaces per indent and no formatting changes:
 
