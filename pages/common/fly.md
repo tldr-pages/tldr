@@ -2,7 +2,7 @@
 
 > Cli tool for concourse-ci.
 
-- Authenticating with and saving concourse target:
+- Authenticate with and save concourse target:
 
 `fly --target {{example}} login --team-name {{my-team}} -c {{https://ci.example.com}}`
 
