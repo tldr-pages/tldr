@@ -7,11 +7,11 @@
 
 `astyle {source_file}`
 
-- Apply java style with attached braces:
+- Apply the java style with attached braces:
 
 `astyle  --style=java {path/to/file}`
 
-- Apply allman style with broken braces:
+- Apply the allman style with broken braces:
 
 `astyle --style=allman {path/to/file}`
 
