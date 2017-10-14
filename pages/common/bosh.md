@@ -1,6 +1,6 @@
 # bosh
 
-> Cli tool to deploy and manage the bosh director
+> Cli tool to deploy and manage the bosh director.
 
 - Deploy the director:
 
