@@ -17,5 +17,3 @@
 - Print statuses of network interfaces:
 
 `nmcli device status`
-
-
