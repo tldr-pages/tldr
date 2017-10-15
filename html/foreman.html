@@ -1,0 +1,20 @@
+<b>foreman</b><br><br>
+<b>Manage Procfile-based applications.</b><br><br>
+- Start an application with the Procfile in the current directory:
+
+<blockquote>foreman start</blockquote>
+- Start an application with a specified Procfile:
+
+<blockquote>foreman start -f <i>Procfile</i></blockquote>
+- Start a specific application:
+
+<blockquote>foreman start <i>process</i></blockquote>
+- Validate Procfile format:
+
+<blockquote>foreman check</blockquote>
+- Run one-off commands with the process's environment:
+
+<blockquote>foreman run <i>command</i></blockquote>
+- Start all processes except the one named worker:
+
+<blockquote>foreman start -m all=1,worker=0</blockquote>
