@@ -22,6 +22,6 @@
 
 `foreman run {{command}}`
 
-- Start all processes except the one named worker:
+- Start all processes except the one named "worker":
 
-`foreman start -m all=1,worker=0`
+`foreman start -m all=1,{{worker}}=0`
