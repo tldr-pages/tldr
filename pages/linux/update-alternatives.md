@@ -1,12 +1,12 @@
 # update-alternatives
 
-> A convenient tool for maintaining symbolic links determining default commands.
+> A convenient tool for maintaining symbolic links that determining default commands.
 
 - Add a symbolic link:
 
 `sudo update-alternatives --install /usr/bin/java java /opt/java/jdk1.8.0_102/bin/java 300`
 
-- Config a symbolic link:
+- Configure a symbolic link:
 
 `sudo update-alternatives --config java`
 
@@ -14,6 +14,6 @@
 
 `sudo update-alternatives --remove java /usr/bin/java`
 
-- Display information about the link group:
+- Display information about the specified link group:
 
 `update-alternatives --display java`
