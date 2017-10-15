@@ -14,7 +14,7 @@
 
 `fly -t {{example}} pipelines`
 
-- Configure pipeline:
+- Upload/Update pipeline:
 
 `fly -t {{example}} set-pipeline --config {{pipeline.yml}} --pipeline {{my-pipeline}}`
 
