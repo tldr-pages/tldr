@@ -1,8 +1,8 @@
 # foreman
 
-> Manage Procfile-based application.
+> Manage Procfile-based applications.
 
-- Start an application with Procfile in current directory:
+- Start an application with the Procfile in the current directory:
 
 `foreman start`
 
