@@ -2,7 +2,7 @@
 
 > Create and manipulate code signatures for macOS.
 
-- Sign an application with your certificate:
+- Sign an application with a certificate:
 
 `codesign -s {{"My Company Name"}} {{/path/to/App.app}}`
 
