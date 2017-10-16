@@ -6,10 +6,10 @@
 
 `sendmail user_name < message.txt`
 
-- Send an email from you@yourdomain.com (assuming your local mail server is configured for this) to test@gmail.com containing the message in `message.txt`:
+- Send an email from you@yourdomain.com (assuming the mail server is configured for this) to test@gmail.com containing the message in `message.txt`:
 
-`sendmail -f test@gmail.com you@yourdomain.com < message.txt`
+`sendmail -f you@yourdomain.com test@gmail.com < message.txt`
 
-- Send an email from you@yourdomain.com (assuming your local mail server is configured for this) to test@gmail.com containing the file `file.zip`:
+- Send an email from you@yourdomain.com (assuming the mail server is configured for this) to test@gmail.com containing the file `file.zip`:
 
-`sendmail -f test@gmail.com you@yourdomain.com < file.zip`
+`sendmail -f you@yourdomain.com test@gmail.com < file.zip`
