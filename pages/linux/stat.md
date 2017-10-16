@@ -6,11 +6,11 @@
 
 `stat {{file}}`
 
-- Same as a above but in a more concise way:
+- Same as above but in a more concise way:
 
 `stat -t {{file}}`
 
-- Display filesystem information:
+- Show filesystem information:
 
 `stat -f {{file}}`
 
@@ -18,10 +18,10 @@
 
 `stat -c "%a %n" {{file}}`
 
-- Show octal file permissions, name and group of the file owner:
+- Show owner and group of the file:
 
-`stat -c "%a %n %U %G" {{file}}`
+`stat -c "%U %G" {{file}}`
 
-- Show the size in bytes of the file:
+- Show the size of the file in bytes:
 
 `stat -c "%s %n" {{file}}`
