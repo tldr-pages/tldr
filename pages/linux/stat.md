@@ -14,7 +14,7 @@
 
 `stat -f {{file}}`
 
-- Use stat to show only octal file permissions:
+- Show only octal file permissions:
 
 `stat -c "%a %n" {{file}}`
 
