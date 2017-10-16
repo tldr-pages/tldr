@@ -1,12 +1,12 @@
 # nmcli
 
-> Nmcli - command-line tool for controlling NetworkManager.
+> A command line tool for controlling NetworkManager.
 
-- List all NetworkManager connections:
+- List all NetworkManager connections (shows name, uuid, type and device):
 
 `nmcli connection`
 
-- Activate a connection:
+- Activate a connection by specifying an uuid:
 
 `nmcli connection up uuid {{uuid}}`
 
