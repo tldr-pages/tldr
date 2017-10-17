@@ -6,15 +6,15 @@
 - Specify how many of the last logins to show:
 
 <blockquote>last -n <i>login_count</i></blockquote>
-- View full login times and dates:
+- Print the full date and time for entries and then display the hostname column last to prevent truncation:
 
-<blockquote>last -F</blockquote>
-- View the last login by a specific user:
+<blockquote>last -F -a</blockquote>
+- View all logins by a specific user and show the ip address instead of the hostname:
 
-<blockquote>last <i>user_name</i></blockquote>
-- View the last reboot (last login of the pseudo user reboot):
+<blockquote>last <i>user_name</i> -i</blockquote>
+- View all recorded reboots (i.e., the last logins of the pseudo user "reboot"):
 
 <blockquote>last reboot</blockquote>
-- View the last shutdown (last login of the pseudo user shutdown):
+- View all recorded shutdowns (i.e., the last logins of the pseudo user "shutdown"):
 
 <blockquote>last shutdown</blockquote>
