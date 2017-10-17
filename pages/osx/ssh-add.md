@@ -1,9 +1,12 @@
 # ssh-add
 
-> Manage loaded RSA or DSA keys in the ssh-agent.
+> Manage loaded ssh keys in the ssh-agent.
+> Ensure that ssh-agent is up and running for the keys to be loaded in it.
 
-- Add a new key to the ssh-agent:
+- Add the standard ssh key, e.g. {{id_rsa}}, to the ssh-agent:
+`ssh-add`
 
+- Add a specific new key to the ssh-agent:
 `ssh-add {{path/to/private_key}}`
 
 - List fingerprints of currently loaded keys:
@@ -18,6 +21,6 @@
 
 `ssh-add -D`
 
-- For MacOS: Add a key to the ssh-agent and the keychain:
+- Add a key to the ssh-agent and the keychain:
 
 `ssh-add -K {{path/to/private_key}}`
