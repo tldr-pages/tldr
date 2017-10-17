@@ -1,24 +1,24 @@
 # astyle
 
 > Source code indenter, formatter, and beautifier for the C, C++, C# and Java programming languages.
-> A copy of the original file is created with an dot orig appended to the original file name.
+> A copy of the original file is created with an ".orig" appended to the original file name.
 
 - Apply the default style of 4 spaces per indent and no formatting changes:
 
-`astyle {source_file}`
+`astyle {{source_file}}`
 
 - Apply the java style with attached braces:
 
-`astyle  --style=java {path/to/file}`
+`astyle  --style=java {{path/to/file}}`
 
 - Apply the allman style with broken braces:
 
-`astyle --style=allman {path/to/file}`
+`astyle --style=allman {{path/to/file}}`
 
 - Apply a custom indent using spaces. Choose between 2 and 20 spaces:
 
-`astyle --indent=spaces={number_of_spaces} {path/to/file}`
+`astyle --indent=spaces={{number_of_spaces}} {{path/to/file}}`
 
 - Apply a custom indent using tabs. Choose between 2 and 20 tabs:
 
-`astyle --indent=tab={number_of_tabs} {path/to/file}`
+`astyle --indent=tab={{number_of_tabs}} {{path/to/file}}`
