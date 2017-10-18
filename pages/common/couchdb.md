@@ -33,4 +33,3 @@
 - Shutdown the background process:
 
 `couchdb -d`
-
