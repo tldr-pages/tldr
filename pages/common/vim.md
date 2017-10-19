@@ -25,7 +25,7 @@
 
 - Perform a regex substitution in the whole file (from the start to the end(% holds the file name)):
 
-`<Esc>:%/{{pattern}}/{{replacement}}/g<Enter>`
+`<Esc>:%s/{{pattern}}/{{replacement}}/g<Enter>`
 
 - Save (write) the file, and quit:
 
