@@ -2,29 +2,17 @@
 
 > This is the command line interface for Apache CouchDB database server.
 
-- Add a configuration file to chain:
+- Start couchdb:
 
-`couchdb -a {{path/to/file}}`
+`couchdb`
 
-- Add a configuration directory to chain:
-
-`couchdb -A {{path/to/file}}`
-
-- Enter the interactive Erlang shell:
+- Start couchdb interactive shell:
 
 `couchdb -i`
 
-- Redirect output from couchdb.stdout to file:
+- Start couchdb as a background process:
 
-`couchdb -o {{path/to/file}}`
-
-- Redirect errors from couchdb.stderr to file:
-
-`couchdb -e {{path/to/file}}`
-
-- Display the status of the background process:
-
-`couchdb -s`
+`couchdb -b`
 
 - Kill the background process (Note: It will respawn if needed):
 
