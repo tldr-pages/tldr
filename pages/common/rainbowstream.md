@@ -1,13 +1,17 @@
 # rainbowstream
 
-> Terminal-based Twitter Client. Realtime tweetstream, compose, search , favorite … and much more.
-> Online help with `h`, up and down arrow for history, tab auto-complete, 2-tab suggestion.
+> Terminal-based Twitter client supporting realtime tweetstream, trends, sending, search, favorites and user management.
+> Online help with `h`, up and down arrows for history, tab auto-complete, 2-tab suggestion.
 
-- Show your timeline:
+- Open rainbowstream normally:
+
+`rainbowstream`
+
+- Show your timeline (optional number of tweets to display, default is 5):
 
 `home [{{num_of_last_tweets}}]`
 
-- Show profile of given user:
+- Show profile of a given user:
 
 `whois @{{user}}`
 
