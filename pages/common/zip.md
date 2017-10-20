@@ -18,7 +18,7 @@
 
 `zip -r {{compressed.zip}} {{/path/to/dir1 /path/to/dir2 /path/to/file}}`
 
-- Create an encrypted archive:
+- Create an encrypted (password protected) archive:
 
 `zip -e -r {{compressed.zip}} {{path/to/dir}}`
 
