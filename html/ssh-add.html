@@ -1,0 +1,17 @@
+<b>ssh-add</b><br><br>
+<b>Manage loaded ssh keys in the ssh-agent.</b><br><br><b>Ensure that ssh-agent is up and running for the keys to be loaded in it.</b><br><br>
+- Add the default ssh keys in "~/.ssh" to the ssh-agent:
+
+<blockquote>ssh-add</blockquote>
+- Add a specific key to the ssh-agent:
+
+<blockquote>ssh-add <i>path/to/private_key</i></blockquote>
+- List fingerprints of currently loaded keys:
+
+<blockquote>ssh-add -l</blockquote>
+- Delete a key from the ssh-agent:
+
+<blockquote>ssh-add -d <i>path/to/private_key</i></blockquote>
+- Delete all currently loaded keys from the ssh-agent:
+
+<blockquote>ssh-add -D</blockquote>

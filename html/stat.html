@@ -1,0 +1,20 @@
+<b>stat</b><br><br>
+<b>Display file and filesystem information.</b><br><br>
+- Show file properties such as size, permissions, creation and access dates among others:
+
+<blockquote>stat <i>file</i></blockquote>
+- Same as above but in a more concise way:
+
+<blockquote>stat -t <i>file</i></blockquote>
+- Show filesystem information:
+
+<blockquote>stat -f <i>file</i></blockquote>
+- Show only octal file permissions:
+
+<blockquote>stat -c "%a %n" <i>file</i></blockquote>
+- Show owner and group of the file:
+
+<blockquote>stat -c "%U %G" <i>file</i></blockquote>
+- Show the size of the file in bytes:
+
+<blockquote>stat -c "%s %n" <i>file</i></blockquote>
