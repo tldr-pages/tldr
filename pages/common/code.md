@@ -6,7 +6,7 @@
 
 `code`
 
-- Open current diretory in VS Code
+- Open current directory in VS Code
 
 `code .`
 
