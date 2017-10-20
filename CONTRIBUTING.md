@@ -137,7 +137,7 @@ Alternatively, you can do most of the process using the command line:
   `git commit --all -m "{{commit_message}}"`
 
 - push to your fork:  
-  `git push`
+  `git push origin {{branch_name}}`
 
 - go to the github page for your fork and click the green pull request button.
 
