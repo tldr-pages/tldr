@@ -1,7 +1,6 @@
 # code
 
-> Visual Studio Code   
-> Code editing. Redefined.
+> Visual Studio Code
 
 - Open VS Code
 
