@@ -2,18 +2,22 @@
 
 > A simple, fast and user-friendly alternative to find.
 
-- Find files under current dir that match foo:
+- Find files under current dir that match a pattern:
 
-`fd foo`
+`fd {{pattern}}`
 
 - Find files that begin with foo:
 
-`fd '^foo'`
+`fd {{'^foo'}}`
 
-- Find files matching test with a specific extension and under a specific dir:
+- Find files with a specific extension:
 
-`fd --extension js test ./src`
+`fd --extension {{.ext}} {{pattern}}`
 
-- Find files matching config, include ignored and hidden files:
+- Find files under a specific dir:
 
-`fd --hidden --no-ignore config`
+`fd {{pattern}} {{path/to/dir}}`
+
+- Include ignored and hidden files in search:
+
+`fd --hidden --no-ignore {{pattern}}`
