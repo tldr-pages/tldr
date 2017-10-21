@@ -23,7 +23,7 @@
 
 `<Esc>/{{search_pattern}}<Enter>`
 
-- Perform a regex substitution in the whole file (from the start to the end(% holds the file name)):
+- Perform a regex substitution in the whole file:
 
 `<Esc>:%s/{{pattern}}/{{replacement}}/g<Enter>`
 
