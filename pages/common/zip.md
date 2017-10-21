@@ -18,6 +18,10 @@
 
 `zip -r {{compressed.zip}} {{/path/to/dir1 /path/to/dir2 /path/to/file}}`
 
+- Create an encrypted archive (user will be prompted for a password):
+
+`zip -e -r {{compressed.zip}} {{path/to/dir}}`
+
 - Add files to an existing zip file:
 
 `zip {{compressed.zip}} {{path/to/file}}`
