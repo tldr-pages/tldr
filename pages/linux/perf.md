@@ -2,9 +2,9 @@
 
 > Framework for linux performance counter measurements.
 
-- Display basic performance counter stats for a command `gcc -c -O3 hello.c`:
+- Display basic performance counter stats for a command:
 
-`perf stat {{gcc -c -O3 hello.c}}`
+`perf stat {{gcc hello.c}}`
 
 - Display system-wide real time performance counter profile:
 
