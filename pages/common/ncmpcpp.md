@@ -1,6 +1,6 @@
 # ncmpcpp
 
-> ncmpcpp is a command line music player.
+> Ncmpcpp is a command line music player.
 
 - Connects to a music player daemon on a given host and port:
 
