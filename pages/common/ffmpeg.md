@@ -29,4 +29,3 @@
 - Remux MKV video to MP4. No re-encoding of video or audio streams, convert subtitles stream to MP4 compatible codec:
 
 `ffmpeg -i {{inpupt_video}}.mkv -codec:audio copy -codec:video copy -codec:s mov_text --movflags +faststart {{output_video}}.mp4`
-
