@@ -1,6 +1,6 @@
 # update-alternatives
 
-> A convenient tool for maintaining symbolic links to determin default commands.
+> A convenient tool for maintaining symbolic links to determine default commands.
 
 - Add a symbolic link:
 
