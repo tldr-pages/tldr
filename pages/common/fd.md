@@ -2,7 +2,7 @@
 
 > A simple, fast and user-friendly alternative to find.
 
-- Find files under current dir that match a pattern:
+- Find files under current directory that match a pattern:
 
 `fd {{pattern}}`
 
@@ -14,7 +14,7 @@
 
 `fd --extension {{.ext}} {{pattern}}`
 
-- Find files under a specific dir:
+- Find files under a specific directory:
 
 `fd {{pattern}} {{path/to/dir}}`
 
