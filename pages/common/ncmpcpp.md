@@ -1,6 +1,6 @@
 # ncmpcpp
 
-> Ncmpcpp is a command line music player.
+> A command line music player client for the Music Player Daemon?
 
 - Connect to a music player daemon on a given host and port:
 
@@ -10,10 +10,10 @@
 
 `ncmpcpp --current-song`
 
-- Use specific config:
+- Use a specified configuration file:
 
 `ncmpcpp --config {{file}}`
 
-- Use different key bindings:
+- Use a different set of key bindings from a file:
 
 `ncmpcpp --bindings {{file}}`
