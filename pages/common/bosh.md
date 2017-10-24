@@ -1,35 +1,35 @@
 # bosh
 
-> Cli tool to deploy and manage the bosh director.
-
-- Deploy the director:
-
-`bosh create-env {{bosh.yml}} --state={{state.json}} --vars-store={{creds.yml}} -v {{custparam}}`
+> Command line tool to deploy and manage the bosh director.
 
 - Create local alias for director:
 
-`bosh alias-env {{name}} -e {{192.168.1.123}} --ca-cert {{$(bosh int ./creds.yml --path /director_ssl/ca)}}`
-
-- Login to the director:
-
-`bosh login -e {{environment}} --client={{username}} --client-secret={{password}}`
+`bosh alias-env {{environment-name}} -e {{ip address or url}} --ca-cert {{ca_certificate}}`
 
 - List environments:
 
 `bosh environments`
 
-- List environment vm's:
+- Login to the director:
 
-`bosh -e {{environment}} vms`
+`bosh login -e {{environment}} `
 
 - List deployments:
 
 `bosh -e {{environment}} deployments`
 
+- List environment virtual machines:
+
+`bosh -e {{environment}} vms -d {{deployment}}`
+
+- Ssh into virtual machine:
+
+`bosh -e {{environment}} ssh {{virtual machine}} -d {{deployment}}`
+
 - Upload stemcell:
 
-`bosh -e {{environment}} upload-stemcell {{stemcell.tgz|https://bosh.io/d/stemcells/bosh-warden-boshlite-ubuntu-trusty-go_agent}}`
+`bosh -e {{environment}} upload-stemcell {{stemcell file or url}}`
 
-- Upload cloud config:
+- Show current cloud config:
 
-`bosh -e {{environment }}update-cloud-config {{cloud.yml}}`
+`bosh -e {{environment}} cloud-config`
