@@ -1,10 +1,10 @@
 # fly
 
-> Cli tool for concourse-ci.
+> Command line tool for concourse-ci.
 
 - Authenticate with and save concourse target:
 
-`fly --target {{example}} login --team-name {{my-team}} -c {{https://ci.example.com}}`
+`fly --target {{target_name}} login --team-name {{team_name}} -c {{https://ci.example.com}}`
 
 - List targets:
 
@@ -12,24 +12,24 @@
 
 - List pipelines:
 
-`fly -t {{example}} pipelines`
+`fly -t {{target_name}} pipelines`
 
-- Upload/Update pipeline:
+- Upload or update a pipeline:
 
-`fly -t {{example}} set-pipeline --config {{pipeline.yml}} --pipeline {{my-pipeline}}`
+`fly -t {{target_name}} set-pipeline --config {{pipeline.yml}} --pipeline {{pipeline_name}}`
 
 - Unpause pipeline:
 
-`fly -t {{example}} unpause-pipeline --pipeline {{my-pipeline}}`
+`fly -t {{target_name}} unpause-pipeline --pipeline {{pipeline_name}}`
 
 - Show pipeline configuration:
 
-`fly -t {{example}} get-pipeline --pipeline {{my-pipeline}}`
+`fly -t {{target_name}} get-pipeline --pipeline {{pipeline_name}}`
 
 - Update local copy of fly:
 
-`fly -t {{example}} sync`
+`fly -t {{target_name}} sync`
 
 - Destroy pipeline:
 
-`fly -t {{example}} destroy-pipeline --pipeline {{my-pipeline}}`
+`fly -t {{target_name}} destroy-pipeline --pipeline {{pipeline_name}}`
