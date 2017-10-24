@@ -4,20 +4,16 @@
 
 - Add a symbolic link:
 
-`sudo update-alternatives --install {{link}} {{name}} {{path}} {{priority}}`
+`sudo update-alternatives --install {{path/to/symlink}} {{command_name}} {{path/to/command_binary}} {{priority}}`
 
-- Add a symbolic link for "java" with a priority of "300":
+- Configure a symbolic link for "java":
 
-`sudo update-alternatives --install /usr/bin/java java /opt/java/jdk1.8.0_102/bin/java 300`
-
-- Configure a symbolic link:
-
-`sudo update-alternatives --config {{name}}`
+`sudo update-alternatives --config {{java}}`
 
 - Remove a symbolic link:
 
-`sudo update-alternatives --remove {{name}} {{path}}`
+`sudo update-alternatives --remove {{java}} {{/opt/java/jdk1.8.0_102/bin/java}}`
 
 - Display information about a specified command:
 
-`update-alternatives --display {{name}}`
+`update-alternatives --display {{java}}`
