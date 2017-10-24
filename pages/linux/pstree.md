@@ -13,4 +13,3 @@
 - Display all process trees rooted at processes owned by specified user:
 
 `pstree {{user}}`
-
