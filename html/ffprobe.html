@@ -1,0 +1,17 @@
+<b>ffprobe</b><br><br>
+<b>Multimedia stream analyzer.</b><br><br>
+- Display all available stream info for a media file:
+
+<blockquote>ffprobe -v error -show_entries <i>input.mp4</i></blockquote>
+- Display media duration:
+
+<blockquote>ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 <i>input.mp4</i></blockquote>
+- Display the frame rate of a video:
+
+<blockquote>ffprobe -v error -select_streams v:0 -show_entries stream=avg_frame_rate -of default=noprint_wrappers=1:nokey=1 <i>input.mp4</i></blockquote>
+- Display the width or height of a video:
+
+<blockquote>ffprobe -v error -select_streams v:0 -show_entries stream=<i>width|height</i> -of default=noprint_wrappers=1:nokey=1 <i>input.mp4</i></blockquote>
+- Display the average bit rate of a video:
+
+<blockquote>ffprobe -v error -select_streams v:0 -show_entries stream=bit_rate -of default=noprint_wrappers=1:nokey=1 <i>input.mp4</i></blockquote>

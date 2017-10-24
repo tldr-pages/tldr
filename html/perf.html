@@ -1,0 +1,14 @@
+<b>perf</b><br><br>
+<b>Framework for linux performance counter measurements.</b><br><br>
+- Display basic performance counter stats for a command:
+
+<blockquote>perf stat <i>gcc hello.c</i></blockquote>
+- Display system-wide real time performance counter profile:
+
+<blockquote>sudo perf top</blockquote>
+- Run a command and record its profile into "perf.data":
+
+<blockquote>sudo perf record <i>command</i></blockquote>
+- Read "perf.data" (created by `perf record`) and display the profile:
+
+<blockquote>sudo perf report</blockquote>
