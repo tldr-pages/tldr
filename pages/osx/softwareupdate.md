@@ -4,16 +4,17 @@
 
 - List all available updates:
 
-'softwareupdate -l'
+`softwareupdate -l`
 
 - Download and install all updates:
 
-'softwareupdate -ia'
+`softwareupdate -ia`
 
 - Download and install all recommended updates:
 
-'softwareupdate -ir'
+`softwareupdate -ir`
 
 - Download and install a specific app:
 
-'softwareupdate -i {{update_name}}'
+`softwareupdate -i {{update_name}}`
+
