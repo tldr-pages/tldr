@@ -1,0 +1,26 @@
+<b>bosh</b><br><br>
+<b>Command line tool to deploy and manage the bosh director.</b><br><br>
+- Create local alias for director:
+
+<blockquote>bosh alias-env <i>environment-name</i> -e <i>ip address or url</i> --ca-cert <i>ca_certificate</i></blockquote>
+- List environments:
+
+<blockquote>bosh environments</blockquote>
+- Login to the director:
+
+<blockquote>bosh login -e <i>environment</i> </blockquote>
+- List deployments:
+
+<blockquote>bosh -e <i>environment</i> deployments</blockquote>
+- List environment virtual machines:
+
+<blockquote>bosh -e <i>environment</i> vms -d <i>deployment</i></blockquote>
+- Ssh into virtual machine:
+
+<blockquote>bosh -e <i>environment</i> ssh <i>virtual machine</i> -d <i>deployment</i></blockquote>
+- Upload stemcell:
+
+<blockquote>bosh -e <i>environment</i> upload-stemcell <i>stemcell file or url</i></blockquote>
+- Show current cloud config:
+
+<blockquote>bosh -e <i>environment</i> cloud-config</blockquote>
