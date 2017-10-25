@@ -1,0 +1,26 @@
+<b>fly</b><br><br>
+<b>Command line tool for concourse-ci.</b><br><br>
+- Authenticate with and save concourse target:
+
+<blockquote>fly --target <i>target_name</i> login --team-name <i>team_name</i> -c <i>https://ci.example.com</i></blockquote>
+- List targets:
+
+<blockquote>fly targets</blockquote>
+- List pipelines:
+
+<blockquote>fly -t <i>target_name</i> pipelines</blockquote>
+- Upload or update a pipeline:
+
+<blockquote>fly -t <i>target_name</i> set-pipeline --config <i>pipeline.yml</i> --pipeline <i>pipeline_name</i></blockquote>
+- Unpause pipeline:
+
+<blockquote>fly -t <i>target_name</i> unpause-pipeline --pipeline <i>pipeline_name</i></blockquote>
+- Show pipeline configuration:
+
+<blockquote>fly -t <i>target_name</i> get-pipeline --pipeline <i>pipeline_name</i></blockquote>
+- Update local copy of fly:
+
+<blockquote>fly -t <i>target_name</i> sync</blockquote>
+- Destroy pipeline:
+
+<blockquote>fly -t <i>target_name</i> destroy-pipeline --pipeline <i>pipeline_name</i></blockquote>
