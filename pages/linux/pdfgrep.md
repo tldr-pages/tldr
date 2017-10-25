@@ -20,4 +20,4 @@
 
 - Find pattern recursively on files that match a specific glob:
 
-`pdfgrep --recursive --include {{'*book.pdf'}} {{pattern}}'`
+`pdfgrep --recursive --include {{'*book.pdf'}} {{pattern}}`
