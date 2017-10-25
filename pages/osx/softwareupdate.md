@@ -17,4 +17,3 @@
 - Download and install a specific app:
 
 `softwareupdate -i {{update_name}}`
-
