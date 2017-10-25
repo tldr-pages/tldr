@@ -6,7 +6,7 @@
 
 `ncmpcpp --host {{ip}} --port {{port}}`
 
-- Print the current song to stdout:
+- Display meta data of the current song to console:
 
 `ncmpcpp --current-song`
 
