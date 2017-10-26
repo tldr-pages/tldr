@@ -1,6 +1,6 @@
 # bmon
 
-> Monitor bandwidth and capture network related statistics
+> Monitor bandwidth and capture network related statistics.
 
 - Display all interfaces:
 
