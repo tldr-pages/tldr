@@ -10,6 +10,6 @@
 
 `echo "example" | tee -a {{FILE}}`
 
-- Create a folder called "example", print "example" and write "example" to FILE:
+- Create a folder called "example", print "example" and write "example" to the specified file:
 
-`echo "example" | tee >(xargs mkdir) >(cat) >{{FILE}}`
+`echo "example" | tee >(xargs mkdir) >(cat) >path/to/file`
