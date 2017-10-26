@@ -16,4 +16,4 @@
 
 - Set interval in which rate per counter is calculated:
 
-`bmon -R`
+`bmon -R {{rate-interval}}`
