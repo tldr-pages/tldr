@@ -2,7 +2,7 @@
 
 > Monitor bandwidth and capture network related statistics.
 
-- Display all interfaces:
+- Display the list of all the interfaces:
 
 `bmon -a`
 
@@ -10,10 +10,10 @@
 
 `bmon -b`
 
-- Set policy to define which network interfaces are displayed:
+- Set policy to define which network interface(s) is/are displayed:
 
-`bmon -p {{interfaces}}`
+`bmon -p {{interface_1,interface_2,interface_3}}`
 
-- Set interval in which rate per counter is calculated:
+- Set interval (in seconds) in which rate per counter is calculated:
 
-`bmon -R {{rate-interval}}`
+`bmon -R {{2.5}}`
