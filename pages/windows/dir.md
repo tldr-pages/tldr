@@ -14,6 +14,6 @@
 
 `dir /A:H`
 
-- Show hidden contents of any other directory:
+- Show hidden contents of a given directory:
 
 `dir {{path/to/directory}} /A:H`
