@@ -2,18 +2,18 @@
 
 > .NET Command Line Tools
 
-- Initialize a new .NET project
+- Initialize a new .NET project:
 
 `dotnet new project-type`
 
-- Restore nuget packages
+- Restore nuget packages:
 
 `dotnet restore`
 
-- Build and execute the .NET project in the current directory
+- Build and execute the .NET project in the current directory:
 
 `dotnet run`
 
-- Run a packaged dotnet application (only needs the runtime, the rest require the .NET Core SDK installed)
+- Run a packaged dotnet application (only needs the runtime, the rest require the .NET Core SDK installed):
 
 `dotnet {{path/to/application.dll}}`
