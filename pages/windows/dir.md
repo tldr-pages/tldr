@@ -1,19 +1,19 @@
-# DIR 
+# dir
 
-> Displays file and folders in current directory or given directory.
+> List directory contents.
 
-- Show list of files and folder of current directory:
+- Show contents of current directory:
 
 `dir`
 
-- Show list of file and folder in any other directory:
+- Show contents of a given directory:
 
-`dir {{path/to/<placeholder>}}`
+`dir {{path/to/directory}}`
 
-- Show hidden file and folders in current directory:
+- Show hidden contents of current directory:
 
 `dir /A:H`
 
-- Show hidden file and folders in any other directory:
+- Show hidden contents of any other directory:
 
-`dir  {{path/to/<placeholder>}} /A:H`
+`dir  {{path/to/directory}} /A:H`
