@@ -14,6 +14,6 @@
 
 `dotnet run`
 
-- Run a packaged dotnet application (only needs the runtime, the rest require the .NET Core SDK installed):
+- Run a packaged dotnet application (only needs the runtime, the rest of the commands require the .NET Core SDK installed):
 
 `dotnet {{path/to/application.dll}}`
