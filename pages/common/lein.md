@@ -1,6 +1,6 @@
 # lein
 
-> Manage clojure projects with declarative configuration
+> Manage clojure projects with declarative configuration.
 
 - Generate scaffolding for a new project based on a template:
 
@@ -14,7 +14,7 @@
 
 `lein run {{args}}`
 
-- Run the project's tests
+- Run the project's tests:
 
 `lein test`
 
