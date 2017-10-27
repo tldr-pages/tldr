@@ -1,6 +1,6 @@
 # dotnet
 
-> Cross Platform .NET Command Line Tools for .NET Core
+> Cross Platform .NET Command Line Tools for .NET Core.
 
 - Initialize a new .NET project:
 
