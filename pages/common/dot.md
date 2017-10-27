@@ -2,7 +2,7 @@
 
 > A command-line tool to produce layered drawings of directed graphs.
 
-- Use output filenames based on input filename and format:
+- Render an image file and determine output filename based on input filename and selected format:
 
 `dot -Tpng -O {{path/to/file.dot}}`
 
