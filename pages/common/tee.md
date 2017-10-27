@@ -12,4 +12,4 @@
 
 - Create a folder called "example", print "example" and write "example" to the specified file:
 
-`echo "example" | tee >(xargs mkdir) >(cat) >path/to/file`
+`echo "example" | tee >(xargs mkdir) >(cat) >{{path/to/file}}`
