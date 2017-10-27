@@ -5,8 +5,6 @@
 
 - Take the multiset union of two or more BED or Starch files and write the sorted result to "output_file":
 
-`bedops --everything {{path/to/file_1}} {{path/to/file_2}} > {{path/to/output_file}}`
-
 `bedops --everything {{path/to/file_1}} {{path/to/file_2}} [{{path/to/file_3}} ...] > {{path/to/output_file}}`
 
 - Find elements from reference set "reference_file" that overlap one or more query sets by one or more bases:
