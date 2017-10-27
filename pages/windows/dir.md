@@ -10,10 +10,10 @@
 
 `dir {{path/to/directory}}`
 
-- Show hidden contents of current directory:
+- Show contents of current directory including hidden ones:
 
-`dir /A:H`
+`dir /A`
 
-- Show hidden contents of a given directory:
+- Show contents of a given directory including hidden ones:
 
-`dir {{path/to/directory}} /A:H`
+`dir {{path/to/directory}} /A`
