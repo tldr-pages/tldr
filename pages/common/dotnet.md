@@ -4,7 +4,7 @@
 
 - Initialize a new .NET project:
 
-`dotnet new template-short-name`
+`dotnet new {{template_short_name}}`
 
 - Restore nuget packages:
 
