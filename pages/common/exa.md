@@ -1,6 +1,6 @@
 # exa
 
-> A modern replacement for ls (List directory contents).
+> A modern replacement for `ls` (List directory contents).
 
 - List files one per line:
 
@@ -14,14 +14,14 @@
 
 `exa --long --all`
 
-- List of files, with the largest at the top:
+- List files with the largest at the top:
 
-`exa --reverse --sort=size`
+`exa --reverse --sort={{size}}`
 
 - Display a tree of files, three levels deep:
 
-`exa --long --tree --level=3`
+`exa --long --tree --level={{3}}`
 
-- List of files, sorted by modification date (oldest first):
+- List files sorted by modification date (oldest first):
 
-`exa --long --sort=modified`
+`exa --long --sort={{modified}}`
