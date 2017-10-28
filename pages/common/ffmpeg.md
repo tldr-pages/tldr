@@ -22,6 +22,6 @@
 
 `ffmpeg -i {{input_video}}.avi -codec:audio aac -b:audio 128k -codec:video libx264 -crf 23 {{output_video}}.mp4`
 
-- Remux MKV video to MP4. No re-encoding of video or audio streams:
+- Remux MKV video to MP4 without re-encoding audio or video streams:
 
-`ffmpeg -i {{inpupt_video}}.mkv -codec copy  {{output_video}}.mp4`
+`ffmpeg -i {{input_video}}.mkv -codec copy {{output_video}}.mp4`
