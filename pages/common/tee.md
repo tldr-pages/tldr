@@ -10,6 +10,6 @@
 
 `echo "example" | tee -a {{FILE}}`
 
-- Create a folder called "example", count the number of characters in "example and write "example" to the terminal:
+- Create a folder called "example", count the number of characters in "example" and write "example" to the terminal:
 
 `echo "example" | tee >(xargs mkdir) >(wc -c)`
