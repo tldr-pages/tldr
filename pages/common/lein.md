@@ -4,13 +4,13 @@
 
 - Generate scaffolding for a new project based on a template:
 
-`lein new {{template}} {{project_name}}`
+`lein new {{template_name}} {{project_name}}`
 
 - Start a repl session either with the project or standalone:
 
 `lein repl`
 
-- Run the project's -main function with optional args:
+- Run the project's `-main` function with optional args:
 
 `lein run {{args}}`
 
@@ -18,6 +18,6 @@
 
 `lein test`
 
-- Package up the project files and all dependencies into a jar file:
+- Package up the project files and all its dependencies into a jar file:
 
 `lein uberjar`
