@@ -8,7 +8,7 @@
 
 - Install a new package:
 
-`pacman -S {{package_name}}`
+`pacman -Su {{package_name}}`
 
 - Remove a package and its dependencies:
 
