@@ -1,4 +1,4 @@
-# Jekyll
+# jekyll
 
 > A simple, blog-aware, static site generator.
 
@@ -10,6 +10,6 @@
 
 `jekyll serve --incremental`
 
-- Generate the current folder into `./_site:`:
+- Generate the current folder into "./_site":
 
 `jekyll build`
