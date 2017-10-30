@@ -1,19 +1,19 @@
 # eslint
 
-> Find problematic patterns or code that doesn’t adhere to certain style guidelines.
+> A pluggable linting utility for JavaScript and JSX.
 
 - Create eslint config:
 
 `eslint --init`
 
-- Fix lint:
+- Lint on files:
+
+`eslint {{filename}}.js {{filename1}}.js`
+
+- Fix lint issues:
 
 `eslint --fix`
 
-- Lint on files:
-
-`eslint {{filename}}.js`
-
 - Lint with config:
 
-`eslint -c {{path/to/config_file}} {{filename}}.js`
+`eslint -c {{path/to/config_file}} {{app/src}}`
