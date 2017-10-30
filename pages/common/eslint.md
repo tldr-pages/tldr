@@ -1,6 +1,6 @@
 # eslint
 
-> Find problematic patterns or code that doesn’t adhere to certain style guidelines
+> Find problematic patterns or code that doesn’t adhere to certain style guidelines.
 
 - Create eslint config:
 
