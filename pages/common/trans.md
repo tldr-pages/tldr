@@ -1,6 +1,6 @@
 # trans
 
-> **Translate Shell** is a command-line translator.
+> Translate Shell is a command-line translator.
 
 - Translate a word (language is detected automatically):
 
@@ -12,12 +12,12 @@
 
 - Translate a word into french:
 
-`trans :fr {{word}}`
+`trans :{{fr}} {{word}}`
 
-- Translate from a specific language:
+- Translate a word from German to English:
 
-`trans de:en {{handy}}`
+`trans {{de}}:{{en}} {{handy}}`
 
-- Use `trans` as a dictionary:
+- Behave like a dictionary to get the meaning of a word:
 
-`trans -d handy`
+`trans -d {{handy}}`
