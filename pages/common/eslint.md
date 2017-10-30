@@ -12,8 +12,8 @@
 
 - Lint on files:
 
-`eslint {filename}.js`
+`eslint {{filename}}.js`
 
 - Lint with config:
 
-`eslint -c {config file path} {filename}.js`
+`eslint -c {{config file path}} {{filename}}.js`
