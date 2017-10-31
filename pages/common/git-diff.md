@@ -14,6 +14,10 @@
 
 `git diff --staged`
 
+- Show changes from all commits since a given date/time:
+
+`git diff 'HEAD@{3 days ago}'`
+
 - Show only names of changed files since a given commit:
 
 `git diff --name-only {{commit}}`
