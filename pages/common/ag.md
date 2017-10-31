@@ -20,7 +20,7 @@
 
 - Find files whose contents match a regular expression:
 
-`ag '^{{ba}}({{r}}|{{z}})$'`
+`ag '{{^ba(r|z)$}}'`
 
 - Find files with a name matching "foo":
 
