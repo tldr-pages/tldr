@@ -10,14 +10,14 @@
 
 `pdfgrep --with-filename --page-number {{pattern}} {{file.pdf}}`
 
-- Find the first 3 lines that begin with foo case insensitive:
+- Do a case insensitive search for lines that begin with "foo" and return the first 3 matches.
 
 `pdfgrep --max-count {{3}} --ignore-case {{'^foo'}} {{file.pdf}}`
 
-- Find pattern in files with a .pdf extension in the current directory recusively:
+- Find pattern in files with a .pdf extension in the current directory recursively:
 
 `pdfgrep --recursive {{pattern}}`
 
-- Find pattern recursively on files that match a specific glob:
+- Find pattern on files that match a specific glob in the current directory recursively:
 
 `pdfgrep --recursive --include {{'*book.pdf'}} {{pattern}}`
