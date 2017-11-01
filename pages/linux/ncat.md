@@ -1,7 +1,7 @@
 # ncat
 
-> `cat` over networks
-> Use the normal cat functionality over networks
+> `cat` over networks.
+> Use the normal cat functionality over networks.
 
 - Listen for input on the specified port and write it to the specified file:
 
