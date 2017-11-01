@@ -10,7 +10,7 @@
 
 `pdfgrep --with-filename --page-number {{pattern}} {{file.pdf}}`
 
-- Do a case insensitive search for lines that begin with "foo" and return the first 3 matches.
+- Do a case insensitive search for lines that begin with "foo" and return the first 3 matches:
 
 `pdfgrep --max-count {{3}} --ignore-case {{'^foo'}} {{file.pdf}}`
 
