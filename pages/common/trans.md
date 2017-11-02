@@ -16,8 +16,8 @@
 
 - Translate a word from German to English:
 
-`trans {{de}}:{{en}} {{handy}}`
+`trans {{de}}:{{en}} {{Schmetterling}}`
 
 - Behave like a dictionary to get the meaning of a word:
 
-`trans -d {{handy}}`
+`trans -d {{word}}`
