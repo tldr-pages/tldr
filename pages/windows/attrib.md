@@ -2,15 +2,15 @@
 
 > Displays or changes file and directories attributes.
 
-- Display the permission of the files in current directory:
+- Display the attributes of the files in current directory:
 
 `attrib`
 
-- Display the permission of the files in current directory and sub-directories:
+- Display the attributes of the files in current directory and sub-directories:
 
 `attrib /S`
 
-- Display the permission of the files and folders in current directory and sub-directories:
+- Display the attributes of the files and folders in current directory and sub-directories:
 
 `attrib /S /D`
 
