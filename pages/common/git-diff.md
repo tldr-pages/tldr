@@ -30,6 +30,6 @@
 
 `git diff {{branch_1}}..{{branch_2}} [--] {{path/to/file}}`
 
-- Compare different files from current branch to other branch:
+- Compare different files from the current branch to other branch:
 
 `git diff {{branch}}:{{path/to/file2}} {{path/to/file}}`
