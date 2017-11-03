@@ -18,7 +18,7 @@
 
 `attrib +R {{document.txt}}`
 
-- Remove the system and hidden atrtibutes of a file:
+- Remove the system and hidden attributes of a file:
 
 `attrib -S -H {{document.txt}}`
 
