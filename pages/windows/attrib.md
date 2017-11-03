@@ -14,14 +14,14 @@
 
 `attrib /S /D`
 
-- Add read-only attribute to file:
+- Add the read-only attribute to a file:
 
 `attrib +R {{document.txt}}`
 
-- Remove system and hidden atrtibute of a file:
+- Remove the system and hidden atrtibutes of a file:
 
 `attrib -S -H {{document.txt}}`
 
-- Add hidden attribute to a folder:
+- Add the hidden attribute to a folder:
 
 `attrib +H {{path\to\folder}}`
