@@ -33,3 +33,7 @@
 - Compare a single file between two branches or commits:
 
 `git diff {{branch_1}}..{{branch_2}} [--] {{path/to/file}}`
+
+- Compare different files from the current branch to other branch:
+
+`git diff {{branch}}:{{path/to/file2}} {{path/to/file}}`
