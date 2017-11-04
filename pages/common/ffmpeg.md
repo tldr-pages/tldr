@@ -4,7 +4,7 @@
 
 - Extract the sound from a video and save it as MP3:
 
-`ffmpeg -i {{video.mp4}} {{sound}}.mp3`
+`ffmpeg -i {{video.mp4}} -vn {{sound}}.mp3`
 
 - Convert frames from a video or GIF into individual numbered images:
 
@@ -14,10 +14,14 @@
 
 `ffmpeg -i {{frame_%d.jpg}} -f image2 {{video.mpg|video.gif}}`
 
-- Extract a single frame from a video at time mm:ss and save it as a 128x128 resolution image:
+- Quickly extract a single frame from a video at time mm:ss and save it as a 128x128 resolution image:
 
-`ffmpeg -i {{video.mp4}} -ss {{mm:ss}} -frames 1 -s {{128x128}} -f image2 {{image.png}}`
+`ffmpeg -ss {{mm:ss}} -i {{video.mp4}} -frames 1 -s {{128x128}} -f image2 {{image.png}}`
 
-- Convert AVI video to MP4. AAC Audio @ 128kbit, Video @ 1250Kbit:
+- Convert AVI video to MP4. AAC Audio @ 128kbit, h264 Video @ CRF 23:
 
-`ffmpeg -i {{input_video}}.avi -acodec libfaac -ab 128k -vcodec mpeg4 -b 1250K {{output_video}}.mp4`
+`ffmpeg -i {{input_video}}.avi -codec:audio aac -b:audio 128k -codec:video libx264 -crf 23 {{output_video}}.mp4`
+
+- Remux MKV video to MP4 without re-encoding audio or video streams:
+
+`ffmpeg -i {{input_video}}.mkv -codec copy {{output_video}}.mp4`
