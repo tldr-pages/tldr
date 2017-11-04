@@ -9,9 +9,12 @@
 - Combine numbered images (frame_1.jpg, frame_2.jpg, etc) into a video or GIF:
 
 <blockquote>ffmpeg -i <i>frame_%d.jpg</i> -f image2 <i>video.mpg|video.gif</i></blockquote>
-- Extract a single frame from a video at time mm:ss and save it as a 128x128 resolution image:
+- Quickly extract a single frame from a video at time mm:ss and save it as a 128x128 resolution image:
 
-<blockquote>ffmpeg -i <i>video.mp4</i> -ss <i>mm:ss</i> -frames 1 -s <i>128x128</i> -f image2 <i>image.png</i></blockquote>
-- Convert AVI video to MP4. AAC Audio @ 128kbit, Video @ 1250Kbit:
+<blockquote>ffmpeg -ss <i>mm:ss</i> -i <i>video.mp4</i> -frames 1 -s <i>128x128</i> -f image2 <i>image.png</i></blockquote>
+- Convert AVI video to MP4. AAC Audio @ 128kbit, h264 Video @ CRF 23:
 
-<blockquote>ffmpeg -i <i>input_video</i>.avi -acodec libfaac -ab 128k -vcodec mpeg4 -b 1250K <i>output_video</i>.mp4</blockquote>
+<blockquote>ffmpeg -i <i>input_video</i>.avi -codec:audio aac -b:audio 128k -codec:video libx264 -crf 23 <i>output_video</i>.mp4</blockquote>
+- Remux MKV video to MP4 without re-encoding audio or video streams:
+
+<blockquote>ffmpeg -i <i>input_video</i>.mkv -codec copy <i>output_video</i>.mp4</blockquote>

@@ -1,0 +1,17 @@
+<b>pdfgrep</b><br><br>
+<b>Search text in PDF files.</b><br><br>
+- Find lines that match pattern in a PDF:
+
+<blockquote>pdfgrep <i>pattern</i> <i>file.pdf</i></blockquote>
+- Include file name and page number for each matched line:
+
+<blockquote>pdfgrep --with-filename --page-number <i>pattern</i> <i>file.pdf</i></blockquote>
+- Do a case insensitive search for lines that begin with "foo" and return the first 3 matches:
+
+<blockquote>pdfgrep --max-count <i>3</i> --ignore-case <i>'^foo'</i> <i>file.pdf</i></blockquote>
+- Find pattern in files with a .pdf extension in the current directory recursively:
+
+<blockquote>pdfgrep --recursive <i>pattern</i></blockquote>
+- Find pattern on files that match a specific glob in the current directory recursively:
+
+<blockquote>pdfgrep --recursive --include <i>'*book.pdf'</i> <i>pattern</i></blockquote>
