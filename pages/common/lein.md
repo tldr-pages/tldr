@@ -6,11 +6,11 @@
 
 `lein new {{template_name}} {{project_name}}`
 
-- Start a repl session either with the project or standalone:
+- Start a REPL session either with the project or standalone:
 
 `lein repl`
 
-- Run the project's `-main` function with optional args:
+- Run the project's "-main" function with optional args:
 
 `lein run {{args}}`
 

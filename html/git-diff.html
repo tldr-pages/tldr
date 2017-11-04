@@ -9,6 +9,9 @@
 - Show only staged (added, but not yet committed) changes:
 
 <blockquote>git diff --staged</blockquote>
+- Show changes from all commits since a given date/time (a date expression, e.g. "1 week 2 days" or an ISO date):
+
+<blockquote>git diff 'HEAD@{3 months|weeks|days|hours|seconds ago}'</blockquote>
 - Show only names of changed files since a given commit:
 
 <blockquote>git diff --name-only <i>commit</i></blockquote>
