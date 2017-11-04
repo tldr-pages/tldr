@@ -1,9 +1,9 @@
 # rainbowstream
 
 > Terminal-based Twitter client supporting realtime tweetstream, trends, sending, search, favorites and user management.
-> Online help with `h`, up and down arrows for history, tab auto-complete, 2-tab suggestion.
+> Online help with `h`, up and down arrows for history, tab to auto-complete and 2-tab for suggestion.
 
-- Open rainbowstream normally:
+- Open rainbowstream:
 
 `rainbowstream`
 
@@ -19,7 +19,7 @@
 
 `t {{message}}`
 
-- Retweet the tweet with given id (id beside the time):
+- Retweet the tweet with given id (id is beside the time):
 
 `rt {{tweet_id}}`
 
@@ -27,6 +27,6 @@
 
 `fav {{tweet_id}}`
 
-- Perform a search for word (with or without hashtag):
+- Perform a search for a given word (with or without hashtag):
 
 `s {{word}}`
