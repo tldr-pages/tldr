@@ -24,7 +24,7 @@
 
 - Delete files by name, older than a certain number of days:
 
-`find {{root_path}} -name '{{*.ext}}' -mtime {{-180}} -delete`
+`find {{root_path}} -name '{{*.ext}}' -mtime {{+180}} -delete`
 
 - Find files matching more than one search criteria:
 
