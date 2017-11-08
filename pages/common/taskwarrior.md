@@ -2,7 +2,7 @@
 
 > An open source todo application for your terminal.
 
-- Add a Task:
+- Add a task:
 
 `task add {{task}}`
 
