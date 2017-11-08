@@ -14,7 +14,7 @@
 
 `task {{task_id}} done`
 
-- Add a project to a task:
+- Assign task to a project:
 
 `task {{task_id}} modify project:{{project_title}}`
 
