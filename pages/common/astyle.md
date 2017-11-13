@@ -9,7 +9,7 @@
 
 - Apply the java style with attached braces:
 
-`astyle  --style=java {{path/to/file}}`
+`astyle --style=java {{path/to/file}}`
 
 - Apply the allman style with broken braces:
 
