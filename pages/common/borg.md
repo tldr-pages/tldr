@@ -3,11 +3,11 @@
 > Deduplicating backup tool with compression and encryption.
 > Supports local and remote backups, mountable as filesystems.
 
-- 1. Initialise a (local) repository
+- Initialise a (local) repository:
 
 `borg init {{/path/to/repo/folder}}`
 
-- 2. Backup a folder into the repository, creating an archive called Monday:
+- Backup a folder into the repository, creating an archive called Monday:
 
 `borg create --progress {{/path/to/repo/folder::Monday}} {{/path/to/source/folder}}`
 
@@ -23,7 +23,7 @@
 
 `borg prune --keep-within 7d --list {{/path/to/repo/folder}}`
 
-- Mount a repository as a FUSE filesystem
+- Mount a repository as a FUSE filesystem:
 
 `borg mount {{/path/to/repo/folder::Monday}} {{/path/to/mountpoint}}`
 
