@@ -6,6 +6,6 @@
 
 `modinfo {{kernel_module}}`
 
-- List value(s) of the specified field(s) instead of all the fields:
+- List the specified attribute(s) only:
 
 `modinfo -F {{author|description|license|parm|filename}} {{kernel_module}}`
