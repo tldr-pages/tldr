@@ -10,6 +10,6 @@
 
 `df -h`
 
-- Display the file system and its disk usage for the given file or folder:
+- Display the file system and its disk usage containing the given file or folder:
 
-`df {{/path/to/file-or-folder}}`
+`df {{/path/to/file_or_folder}}`
