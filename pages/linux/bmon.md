@@ -6,7 +6,7 @@
 
 `bmon -a`
 
-- Display rates in bits per second:
+- Display data transfer rates in bits per second:
 
 `bmon -b`
 
@@ -16,4 +16,4 @@
 
 - Set interval (in seconds) in which rate per counter is calculated:
 
-`bmon -R {{2.5}}`
+`bmon -R {{2.0}}`
