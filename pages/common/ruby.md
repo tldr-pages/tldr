@@ -14,7 +14,7 @@
 
 `ruby -e {{command}}`
 
-- Check if the given Ruby script is written correctly (Syntax check):
+- Check for syntax errors on a given Ruby script:
 
 `ruby -c {{script.rb}}`
 
