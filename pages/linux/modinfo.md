@@ -6,6 +6,6 @@
 
 `modinfo {{kernel_module}}`
 
-- List the specified attribute(s) only. (You can specify multiple attributes separated by space)
+- List the specified attribute only:
 
 `modinfo -F {{author|description|license|parm|filename}} {{kernel_module}}`
