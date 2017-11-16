@@ -1,14 +1,14 @@
 # rbash
 
-> Restricted Bash shell
-> Restrictions implemented in rbash
-> cd command
-> PATH and ENV (setting/unsetting)
-> Importing function
-> Specifying file name containing argument ‘/’
-> Specifying file name containing argument ‘-‘
-> Redirecting output using ‘>‘, ‘>>‘, ‘>|‘, ‘<>‘, ‘>&‘, ‘&>‘
-> Turning off restriction using ‘set +r‘ or ‘set +o‘
+> Restricted Bash shell.
+> Restrictions implemented in rbash.
+> The cd command is not allowed.
+> PATH and ENV (setting/unsetting).
+> Importing function.
+> Specifying file name containing argument ‘/’.
+> Specifying file name containing argument ‘-‘.
+> Redirecting output using ‘>‘, ‘>>‘, ‘>|‘, ‘<>‘, ‘>&‘, ‘&>‘.
+> Turning off restriction using ‘set +r‘ or ‘set +o‘.
 
 - Start rbash:
 
@@ -25,8 +25,3 @@
 - Print the version information of rbash:
 
 `rbash --version`
-
-
-
-
-
