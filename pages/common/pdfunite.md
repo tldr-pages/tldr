@@ -2,7 +2,7 @@
 
 > PDF merging utility.
 
-- Merge 2 PDFs into a single PDF
+- Merge 2 PDFs into a single PDF:
 
 `pdfunite {{path/to/fileA.pdf}} {{path/to/fileB.pdf}} {{path/to/merged_output.pdf}}`
 
