@@ -1,7 +1,7 @@
 # rbash
 
 > Restricted Bash shell.
-> Restrictions implemented in rbash: the cd command is not allowed,PATH and ENV (setting/unsetting),importing function,specifying file name containing argument ‘/’,specifying file name containing argument ‘-‘,redirecting output using ‘>‘, ‘>>‘, ‘>|‘, ‘<>‘, ‘>&‘, ‘&>‘,turning off restriction using ‘set +r‘ or ‘set +o‘.
+> Restrictions implemented in rbash: the cd command is not allowed,PATH and ENV (setting/unsetting)...
 
 - Start rbash:
 
