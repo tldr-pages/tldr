@@ -4,7 +4,7 @@
 
 - Telnet to the default port of a host:
 
-`telnel {{host}}`
+`telnet {{host}}`
 
 - Telnet to a specific port of a host:
 
