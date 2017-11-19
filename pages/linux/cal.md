@@ -6,7 +6,7 @@
 
 `cal`
 
-- Display previous, current and next month: 
+- Display previous, current and next month:
 
 `cal --three`
 
