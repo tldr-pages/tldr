@@ -1,6 +1,6 @@
 # ac
 
-> A faster version of cat that can strip ANSI color codes
+> A faster version of cat that can strip ANSI color codes.
 
 - Dump a file's contents:
 
