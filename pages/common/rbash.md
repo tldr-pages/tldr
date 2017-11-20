@@ -1,7 +1,7 @@
 # rbash
 
 > Restricted Bash shell.
-> Restrictions implemented in rbash: the cd command is not allowed,PATH and ENV (setting/unsetting)...
+> Similar to `bash` shell with some restrictions like changing directories with `cd`, setting/unsetting of PATH, ENV variables and others.
 
 - Start rbash:
 
