@@ -1,7 +1,7 @@
 # rbash
 
 > Restricted Bash shell.
-> Similar to `bash` shell with some restrictions like changing directories with `cd`, setting/unsetting of PATH, ENV variables and others.
+> Similar to the `bash` shell with some restrictions like changing directories with `cd`, setting/unsetting of PATH, ENV variables and others.
 
 - Start rbash:
 
