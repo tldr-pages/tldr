@@ -1,6 +1,6 @@
 # dash
 
-> Debian Almquist Shell. Roughly 4x times faster than Bash.
+> Debian Almquist Shell.
 > Modern POSIX-compliant implementation of `sh`(isn't Bash compatible).
 
 - Start interactive shell:
