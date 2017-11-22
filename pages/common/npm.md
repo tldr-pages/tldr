@@ -27,7 +27,7 @@
 
 `npm list`
 
-- List a tree of globally installed modules:
+- List globally installed modules:
 
 `npm list -g --depth=0`
 
