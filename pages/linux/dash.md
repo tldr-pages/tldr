@@ -1,7 +1,7 @@
 # dash
 
 > Debian Almquist Shell.
-> Modern POSIX-compliant implementation of `sh`(isn't Bash compatible).
+> Modern POSIX-compliant implementation of `sh` (isn't Bash compatible).
 
 - Start interactive shell:
 
