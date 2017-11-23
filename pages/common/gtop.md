@@ -6,10 +6,6 @@
 
 `gtop`
 
-- Fix question marks or other incorrect characters:
-
-`LANG=en_US.utf8 TERM=xterm-256color gtop`
-
 - Sort by CPU usage:
 
 `c`
