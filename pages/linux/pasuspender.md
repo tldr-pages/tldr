@@ -4,4 +4,4 @@
 
 - Suspend pulseaudio while running `jackd`:
 
-`pasuspender -- jackd -d alsa --device hw:0`
+`pasuspender -- {{jackd -d alsa --device hw:0}}`
