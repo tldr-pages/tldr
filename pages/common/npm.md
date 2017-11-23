@@ -23,13 +23,13 @@
 
 `npm uninstall {{module_name}}`
 
-- List a tree of installed modules:
+- List of tree of installed modules referenced in package.json:
 
 `npm list`
 
-- List globally installed modules:
+- List top-level globally installed modules:
 
-`npm list -g --depth=0`
+`npm list -g --depth={{0}}`
 
 - Interactively create a package.json file:
 
