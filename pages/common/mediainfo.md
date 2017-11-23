@@ -8,7 +8,7 @@
 
 - Store the output to a given file apart from displaying in the console:
 
-`mediainfo --Logfile={{out.txt}}  {{file}}`
+`mediainfo --Logfile={{out.txt}} {{file}}`
 
 - Display the list of metadata attributes that can be extracted:
 
