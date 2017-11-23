@@ -23,7 +23,7 @@
 
 `npm uninstall {{module_name}}`
 
-- List of tree of installed modules referenced in package.json:
+- List a tree of installed modules referenced in package.json:
 
 `npm list`
 
