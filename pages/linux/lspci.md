@@ -16,8 +16,8 @@
 
 - Show a specific device:
 
-`lspci -s {{bus:device.func}}`
+`lspci -s {{00:18.3}}`
 
-- Dump info in readable form:
+- Dump info in a readable form:
 
 `lspci -vm`
