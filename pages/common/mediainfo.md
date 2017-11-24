@@ -6,7 +6,7 @@
 
 `mediainfo {{file}}`
 
-- Store the output to a given file apart from displaying in the console:
+- Store the output to a given file along with displaying in the console:
 
 `mediainfo --Logfile={{out.txt}} {{file}}`
 
