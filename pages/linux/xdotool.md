@@ -14,14 +14,14 @@
 
 `xdotool getactivewindow`
 
-- Focus on window with the id of 12345:
+- Focus on the window with id of 12345:
 
 `xdotool windowfocus --sync 12345`
 
-- Send a Hello World message with 500ms delay for each letter:
+- Type a message, with a 500ms delay for each letter:
 
-`xdotool type --delay 500 "Hello World"`
+`xdotool type --delay 500 "Hello world"`
 
-- Press enter:
+- Press the enter key:
 
 `xdotool key KP_Enter`
