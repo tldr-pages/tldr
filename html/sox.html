@@ -3,9 +3,9 @@
 - Merge two audio files into one:
 
 <blockquote>sox -m <i>input_audiofile1</i> <i>input_audiofile2</i> <i>output_audiofile</i></blockquote>
-- Trim an audio file to the specified times:
+- Trim an audio file, providing the start point and the length of the new clip:
 
-<blockquote>sox <i>input_audiofile</i> <i>output_audiofile</i> trim <i>start</i> <i>end</i></blockquote>
+<blockquote>sox <i>input_audiofile</i> <i>output_audiofile</i> trim <i>start</i> <i>length</i></blockquote>
 - Normalize an audio file (adjust volume to the maximum peak level, without clipping):
 
 <blockquote>sox --norm <i>input_audiofile</i> <i>output_audiofile</i></blockquote>
