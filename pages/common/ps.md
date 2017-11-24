@@ -18,6 +18,6 @@
 
 `ps --user $(id --user) -F`
 
-- List all processes of the current user as ASCII art process hierarchy:
+- List all processes of the current user as a tree:
 
 `ps --user $(id --user) f`
