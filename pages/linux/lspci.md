@@ -14,7 +14,7 @@
 
 `lspci -k`
 
-- Show a specific device: 
+- Show a specific device:
 
 `lspci -s {{bus:device.func}}`
 
