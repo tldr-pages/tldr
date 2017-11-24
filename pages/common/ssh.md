@@ -31,6 +31,6 @@
 
 `ssh -o "ForwardAgent=yes" {{username}}@{{remote_host}}`
 
-- Copy files (preserving links, permissions, etc) between hosts using pipes and tar
+- Copy files (preserving links, permissions, etc) between hosts using pipes and tar:
 
 `ssh {{username}}@{{source_host}} "tar czpf - {{path}}" | ssh {{username}}@{{destination_host}} "tar xzpf - -C {{destination_path}}"`
