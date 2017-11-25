@@ -23,7 +23,7 @@
 
 `ember test`
 
-- Generate files:
+- Run a blueprint to generate something like a route or component:
 
 `ember generate {{type}} {{name}}`
 
