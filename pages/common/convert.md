@@ -6,7 +6,7 @@
 
 `convert {{image.jpg}} {{image.png}}`
 
-- Scale an image 50% it's original size:
+- Scale an image 50% its original size:
 
 `convert {{image.png}} -resize 50% {{image2.png}}`
 
