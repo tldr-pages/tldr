@@ -2,11 +2,11 @@
 
 > Calculate SHA512 cryptographic checksums.
 
-- Calculate the SHA384 checksum for a file:
+- Calculate the SHA512 checksum for a file:
 
 `sha512sum {{filename1}}`
 
-- Calculate SHA384 checksums for multiple files:
+- Calculate SHA512 checksums for multiple files:
 
 `sha512sum {{filename1}} {{filename2}}`
 
