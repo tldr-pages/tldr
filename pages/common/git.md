@@ -8,7 +8,7 @@
 
 - Track file changes:
 
-`git add {{path}}`
+`git add {{file}}`
 
 - Commit file changes:
 
