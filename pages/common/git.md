@@ -12,7 +12,7 @@
 
 - Commit file changes:
 
-`git commit -m "{{Message}}"`
+`git commit -m "{{message}}"`
 
 - Upload changes to remote server:
 
