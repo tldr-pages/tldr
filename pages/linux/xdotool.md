@@ -16,12 +16,12 @@
 
 - Focus on the window with id of 12345:
 
-`xdotool windowfocus --sync 12345`
+`xdotool windowfocus --sync {{12345}}`
 
 - Type a message, with a 500ms delay for each letter:
 
-`xdotool type --delay 500 "Hello world"`
+`xdotool type --delay {{500}} "Hello world"`
 
 - Press the enter key:
 
-`xdotool key KP_Enter`
+`xdotool key {{KP_Enter}}`
