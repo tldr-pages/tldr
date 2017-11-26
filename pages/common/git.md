@@ -2,22 +2,22 @@
 
 > Distributed version control system.
 
-- Show help
+- Show help:
 
 `git --help`
 
-- Show file changes
+- Show file changes:
 
 `git status`
 
-- Track file changes
+- Track file changes:
 
 `git add {{path}}`
 
-- Commit file changes
+- Commit file changes:
 
 `git commit -m "{{Message}}"`
 
-- Upload changes to remote server
+- Upload changes to remote server:
 
 `git push {{remote name}} {{branch}}`
