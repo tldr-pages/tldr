@@ -2,18 +2,22 @@
 
 > Distributed version control system.
 
-- Check the Git version:
-
-`git --version`
-
-- Call general help:
+- Show help
 
 `git --help`
 
-- Call help on a command:
+- Show file changes
 
-`git help {{command}}`
+`git status`
 
-- Execute Git command:
+- Track file changes
 
-`git {{command}}`
+`git add {{path}}`
+
+- Commit file changes
+
+`git commit -m "{{Message}}"`
+
+- Upload changes to remote server
+
+`git push {{remote name}} {{branch}}`
