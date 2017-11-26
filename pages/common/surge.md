@@ -4,11 +4,11 @@
 
 - Upload a new site:
 
-`surge /path/to/my-project`
+`surge {{ /path/to/my-project }}`
 
 - Deploy site to custom domain (note DNS records must be changed on domain):
 
-`surge path/to/my-project my-custom-domain.com`
+`surge {{ path/to/my-project }} {{ my-custom-domain.com }}`
 
 - List your surge projects:
 
@@ -16,4 +16,4 @@
 
 - Remove a project:
 
-`surge teardown your.project-domain.com`
+`surge teardown {{ your.project-domain.com }}`
