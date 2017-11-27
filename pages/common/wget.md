@@ -7,6 +7,10 @@
 
 `wget {{https://example.com/foo}}`
 
+- Mirror all listed files within a directory and its sub-directories only (no parent):
+
+`wget -m -np {{https://example.com/somepath/}}`
+
 - Download a single web page and all its resources (scripts, stylesheets, images, etc.):
 
 `wget --page-requisites --convert-links {{https://example.com/somepage.html}}`
