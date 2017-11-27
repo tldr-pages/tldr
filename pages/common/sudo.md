@@ -20,4 +20,4 @@
 
 - Run an interactive shell as sudo:
 
-`sudo --login`
+`sudo -i`
