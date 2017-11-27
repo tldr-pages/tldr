@@ -1,6 +1,6 @@
 # apachectl
 
-> Apache HTTP Server Control Interface for OSX.
+> Apache HTTP Server control interface for macOS.
 
 - Load the org.apache.httpd launchd job:
 
