@@ -1,7 +1,7 @@
-#CLS
+# CLS
 
-> Clears the screen
+> Clears the screen.
 
-- Clear the screen
+- Clear the screen:
 
 `cls`
