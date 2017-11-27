@@ -14,7 +14,7 @@
 
 `git commit -m "{{message}}"`
 
-- Upload changes to remote server:
+- Upload changes to remote repository:
 
 `git push {{remote repository}} {{branch}}`
 
