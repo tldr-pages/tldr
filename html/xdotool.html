@@ -2,7 +2,19 @@
 <b>Command line automation for X11.</b><br><br>
 - Retrieve the X-Windows window ID of the running Firefox window(s):
 
-<blockquote>xdotool search --onlyvisibile --name <i>firefox</i></blockquote>
+<blockquote>xdotool search --onlyvisible --name <i>firefox</i></blockquote>
 - Click the right mouse button:
 
 <blockquote>xdotool click <i>3</i></blockquote>
+- Get the id of the currently active window:
+
+<blockquote>xdotool getactivewindow</blockquote>
+- Focus on the window with id of 12345:
+
+<blockquote>xdotool windowfocus --sync <i>12345</i></blockquote>
+- Type a message, with a 500ms delay for each letter:
+
+<blockquote>xdotool type --delay <i>500</i> "Hello world"</blockquote>
+- Press the enter key:
+
+<blockquote>xdotool key <i>KP_Enter</i></blockquote>
