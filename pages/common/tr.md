@@ -16,7 +16,7 @@
 
 - Compress a series of identical characters to a single character:
 
-`tr -s '\n'`
+`tr -s '{{input_characters}}'`
 
 - Translate the contents of the file to upper-case and print result:
 
