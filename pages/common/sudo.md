@@ -17,3 +17,7 @@
 - Repeat the last command as sudo:
 
 `sudo !!`
+
+- Run an interactive shell as sudo:
+
+`sudo --login`
