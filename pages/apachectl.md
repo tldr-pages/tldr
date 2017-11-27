@@ -1,16 +1,15 @@
 # apachectl
 
-> Apache HTTP Server Control Interface for OSX
+> Apache HTTP Server Control Interface for OSX.
 
-- Loads the org.apache.httpd launchd job:
+- Load the org.apache.httpd launchd job:
 
 `apachectl start`
 
-- Unloads the org.apache.httpd launchd job:
+- Unload the org.apache.httpd launchd job:
 
 `apachectl stop`
 
-- Unloads, then loads the org.apache.httpd launchd job:
+- Unload, then loads the org.apache.httpd launchd job:
 
 `apachectl restart`
-
