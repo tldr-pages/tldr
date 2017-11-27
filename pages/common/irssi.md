@@ -1,14 +1,14 @@
 # irssi
 
-> Text based IRC client since 1999. See also: https://irssi.org for full documentation.
+> Text based IRC client.
 
 - Open irssi and connect to a server with a nickname:
 
 `irssi -n {{nickname}} -c {{server.name.com}}`
 
-- Open irssi and connect with a specific nickname, server and port:
+- Open irssi and connect with a specific server on a given port:
 
-`irssi -n {{nickname}} -c {{server.name.com}} -p {{port}}`
+`irssi -c {{server.name.com}} -p {{port}}`
 
 - View the help:
 
