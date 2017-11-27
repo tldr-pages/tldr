@@ -6,13 +6,13 @@
 
 `cal`
 
+- Display previous, current and next month:
+
+`cal --three`
+
 - Use monday as the first day of the week:
 
-`cal -m`
-
-- Display a calendar for the current year:
-
-`cal -y`
+`cal --monday`
 
 - Display a calendar for a specific year (4 digits):
 
