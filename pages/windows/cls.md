@@ -1,4 +1,4 @@
-# CLS
+# cls
 
 > Clears the screen.
 
