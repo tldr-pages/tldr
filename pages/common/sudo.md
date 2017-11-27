@@ -17,7 +17,3 @@
 - Repeat the last command as sudo:
 
 `sudo !!`
-
-- Run an interactive shell with superuser privileges
-
-`sudo -i`
