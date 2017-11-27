@@ -29,3 +29,7 @@
 - Remove a stopped container:
 
 `docker container rm {{container}}`
+
+- Fetch and follow the logs of a container:
+
+`docker container logs -f {{container}}`
