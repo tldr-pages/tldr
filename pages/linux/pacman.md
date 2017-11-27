@@ -6,9 +6,9 @@
 
 `pacman -Syu`
 
-- Install a given package and update all other packages to their latest versions according to the local database:
+- Install a new package:
 
-`pacman -Su {{package_name}}`
+`pacman -S {{package_name}}`
 
 - Remove a package and its dependencies:
 
