@@ -6,7 +6,7 @@
 
 `spatial worker build`
 
-- Build workers for local deployment on Unity on on Osx:
+- Build workers for local deployment on Unity on macOS:
 
 `spatial worker build --target=development --target=Osx`
 
