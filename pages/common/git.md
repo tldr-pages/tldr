@@ -16,7 +16,7 @@
 
 - Upload changes to remote server:
 
-`git push {{server name}} {{branch}}`
+`git push {{remote repository}} {{branch}}`
 
 - Switch to a branch:
 
