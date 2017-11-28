@@ -14,7 +14,7 @@
 
 `rails server`
 
-- Start local server for current project on a specified port:
+- Start local server for current project on a specified port (while in projects root directory):
 
 `rails server -p "{{port_number}}"`
 
