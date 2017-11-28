@@ -21,4 +21,4 @@
 
 - Run cargo build with a certain toolchain:
 
-`rustup run {{toolchain name}} cargo build`
+`rustup run {{toolchain_name}} cargo build`
