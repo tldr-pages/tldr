@@ -17,4 +17,3 @@
 - Submit a script with a specified wallclock runtime of 1h 2m 3s to a specific queue. Note that different queues can have different maximum and minimum runtime limits:
 
 `qsub -q QUEUENAME -l walltime=01:02:03 script.sh`
-
