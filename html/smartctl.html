@@ -1,0 +1,17 @@
+<b>smartctl</b><br><br>
+<b>View a disk's SMART data and other information.</b><br><br><b>See https://en.wikipedia.org/wiki/S.M.A.R.T for more information.</b><br><br>
+- View SMART health summary:
+
+<blockquote>sudo smartctl --health <i>/dev/sda</i></blockquote>
+- View device information:
+
+<blockquote>sudo smartctl --info <i>/dev/sda</i></blockquote>
+- Begin a short self-test:
+
+<blockquote>sudo smartctl --test short <i>/dev/sda</i></blockquote>
+- View current/last self-test status and other SMART capabilities:
+
+<blockquote>sudo smartctl --capabilities <i>/dev/sda</i></blockquote>
+- View SMART self-test log (if supported):
+
+<blockquote>sudo smartctl --log selftest <i>/dev/sda</i></blockquote>
