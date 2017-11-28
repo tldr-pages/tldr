@@ -68,6 +68,7 @@ You can access these pages on your computer using one of the following clients:
 - [Elixir client](https://github.com/edgurgel/tldr_elixir_client) (binaries not yet available)
 - [Emacs client](https://github.com/kuanyui/tldr.el), available on [MELPA](https://github.com/melpa/melpa)
 - [Go client](https://github.com/pranavraja/tldr): `go get github.com/pranavraja/tldr` (or [platform binaries](https://github.com/pranavraja/tldr/releases))
+- [Go pre-packaged](https://github.com/leighmcculloch/tldr): `go get 4d63.com/tldr` or `brew install leighmcculloch/tldr/tldr` or [binaries](https://github.com/leighmcculloch/tldr/releases)
 - iOS clients:
   - [tldr-man-page](https://github.com/freesuraj/TLDR), available on [App Store](https://appsto.re/sg/IQ0-_.i)
   - [tldr-pages](https://github.com/mflint/ios-tldr-viewer), available on [App Store](https://itunes.apple.com/us/app/tldt-pages/id1071725095?ls=1&mt=8)
