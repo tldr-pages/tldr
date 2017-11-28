@@ -13,3 +13,8 @@
 - List the contents of a zip file without extracting:
 
 `unzip -l {{file}}`
+
+- Extract the contents of a zip file to the console:
+  - Useful for grepping the contents of a zip.
+
+`unzip -c {{file}}`
