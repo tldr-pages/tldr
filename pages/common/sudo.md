@@ -18,6 +18,6 @@
 
 `sudo !!`
 
-- Run an interactive shell as sudo:
+- Launch a shell with root privileges:
 
 `sudo -i`
