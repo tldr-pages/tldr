@@ -8,16 +8,16 @@
 
 - Display an info dialog displaying the text "Hello!":
 
-`zenity --info --text="Hello!"`
+`zenity --info --text="{{Hello!}}"`
 
 - Display a name/password form and output the data separated by ';':
 
-`zenity --forms --add-entry="Name" --add-password="Password" --separator=";"`
+`zenity --forms --add-entry="{{Name}}" --add-password="{{Password}}" --separator="{{;}}"`
 
-- Display a file selection form where the user can only select directories:
+- Display a file selection form in which the user can only select directories:
 
 `zenity --file-selection --directory`
 
-- Display a progress bar and update it:
+- Display a progress bar and update its text message and progress percent:
 
-`(echo "# First task"; sleep 2s; echo "50"; echo "# Second task"; sleep 2s; echo "100") | zenity --progress`
+`{{(echo "# First task"; sleep 2s; echo "50"; echo "# Second task"; sleep 2s; echo "100")}} | zenity --progress`
