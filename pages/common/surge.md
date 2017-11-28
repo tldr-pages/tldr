@@ -1,14 +1,14 @@
-# Surge
+# surge
 
-> Simple, single-command web publishing.
+> Simple command line web publishing.
 
 - Upload a new site to surge.sh:
 
-`surge {{ /path/to/my-project }}`
+`surge {{path/to/my_project}}`
 
-- Deploy site to custom domain (note that the DNS records must be changed on the domain):
+- Deploy site to custom domain (note that the DNS records must point to the surge.sh subdomain):
 
-`surge {{ path/to/my-project }} {{ my-custom-domain.com }}`
+`surge {{path/to/my_project}} {{my_custom_domain.com}}`
 
 - List your surge projects:
 
@@ -16,4 +16,4 @@
 
 - Remove a project:
 
-`surge teardown {{ your.project-domain.com }}`
+`surge teardown {{my_custom_domain.com}}`
