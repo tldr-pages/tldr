@@ -1,16 +1,17 @@
 # zenity
 
-> Display dialogs from the command line/shell scripts, and return user-inserted values or 1 if error.
+> Display dialogs from the command line/shell scripts.
+> Return user-inserted values or 1 if error.
 
 - Display the default question dialog:
 
-`zenity --quesion`
+`zenity --question`
 
 - Display an info dialog displaying the text "Hello!":
 
 `zenity --info --text="{{Hello!}}"`
 
-- Display a name/password form and output the data separated by ';':
+- Display a name/password form and output the data separated by ";":
 
 `zenity --forms --add-entry="{{Name}}" --add-password="{{Password}}" --separator="{{;}}"`
 
@@ -18,6 +19,6 @@
 
 `zenity --file-selection --directory`
 
-- Display a progress bar and update its text message and progress percent:
+- Display a progress bar which updates its message every second and show a progress percent:
 
-`{{(echo "# First task"; sleep 2s; echo "50"; echo "# Second task"; sleep 2s; echo "100")}} | zenity --progress`
+`{{(echo "#1"; sleep 1; echo "50"; echo "#2"; sleep 1; echo "100")}} | zenity --progress`
