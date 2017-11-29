@@ -21,3 +21,7 @@
 - Use a specific character as a delimiter instead of a new line:
 
 `read -d {{new_delimiter}} {{variable}}`
+
+- Do not let backslash (\) act as an escape character:
+
+`read -r {{variable}}`
