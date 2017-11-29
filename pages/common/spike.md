@@ -2,18 +2,18 @@
 
 > Spike is a full featured static website generator written in JavaScript.
 
-- Creates a new project using the default template:
+- Create a new project using the default template:
 
 `spike new {{project_name}}`
 
-- Compiles your project, watches for changes, and reloads:
+- Compile your project, watche for changes, and reload:
 
 `spike watch`
 
-- Compiles your project once:
+- Compile your project once:
 
 `spike compile`
 
-- Removes the output directory:
+- Remove the output directory:
 
 `spike clean`
