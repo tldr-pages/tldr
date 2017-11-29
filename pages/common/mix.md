@@ -24,4 +24,4 @@
 
 - Run project tests:
 
- `mix test`
+`mix test`
