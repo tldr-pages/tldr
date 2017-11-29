@@ -68,7 +68,7 @@ As a quick reference, the format of each page should match the following templat
 ```
 
 For more detailed page formatting guidelines,
-refer to the [style guide](./STYLEGUIDE.md).
+refer to the [style guide](contributing-guides/style-guide.md).
 
 ## Submitting a pull request
 
