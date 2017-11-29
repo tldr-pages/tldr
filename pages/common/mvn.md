@@ -20,6 +20,6 @@
 
 `mvn -f path/to/other/pom.xml clean`
 
-- Running an spring boot project with remote debug:
+- Run a spring boot project with remote debug:
 
 `mvn spring-boot:run -Drun.jvmArguments="-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005"`
