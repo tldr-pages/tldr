@@ -33,3 +33,19 @@
 - Fetch and follow the logs of a container:
 
 `docker container logs -f {{container}}`
+
+- List all docker images:
+
+`docker images`
+
+- Delete docker image:
+
+`docker rmi {{image}}`
+
+- Pull image from docker-registry:
+
+`docker pull {{image}}`
+
+- Remove unused docker images:
+
+`docker rmi $(docker images | grep none)`
