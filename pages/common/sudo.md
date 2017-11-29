@@ -18,6 +18,6 @@
 
 `sudo !!`
 
-- Launch a shell with root privileges:
+- Launch the default shell with root privileges:
 
 `sudo -i`
