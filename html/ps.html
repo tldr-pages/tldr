@@ -9,3 +9,9 @@
 - Search for a process that matches a string:
 
 <blockquote>ps aux | grep <i>string</i></blockquote>
+- List all processes of the current user in extra full format:
+
+<blockquote>ps --user $(id -u) -F</blockquote>
+- List all processes of the current user as a tree:
+
+<blockquote>ps --user $(id -u) f</blockquote>
