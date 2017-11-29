@@ -24,7 +24,7 @@
 
 - Run a command inside of an already running container:
 
-`docker container exec {{container}} {{command}}`
+`docker container exec -i {{container}} {{command}}`
 
 - Remove a stopped container:
 
@@ -57,7 +57,3 @@
 - Display a live stream of containers' resource usage statistics:
 
 `docker stats $(docker ps -q)`
-
-
-
-
