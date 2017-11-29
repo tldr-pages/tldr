@@ -1,6 +1,6 @@
 # rails
 
-> A server-side MVC framework written in Ruby
+> A server-side MVC framework written in Ruby.
 
 - Create a new rails project:
 
