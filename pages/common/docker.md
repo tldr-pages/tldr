@@ -49,3 +49,15 @@
 - Remove unused docker images:
 
 `docker rmi $(docker images | grep none)`
+
+- Show low-level information about container or image:
+
+`docker inspect {{container|image}}`
+
+- Display a live stream of containers' resource usage statistics:
+
+`docker stats $(docker ps -q)`
+
+
+
+
