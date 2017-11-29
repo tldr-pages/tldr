@@ -4,7 +4,7 @@
 
 - Add a torrent file or magnet to be downloaded:
 
-`rtorrent {{torrent or magnet}}`
+`rtorrent {{torrent_or_magnet}}`
 
 - Start the download:
 
