@@ -14,7 +14,7 @@
 
 `pycodestyle --first {{file}}.py`
 
-- Show the problematic code for each error:
+- Show the source code for each error:
 
 `pycodestyle --show-source {{file}}.py`
 
