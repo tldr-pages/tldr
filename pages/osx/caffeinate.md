@@ -9,3 +9,7 @@
 - Prevent mac from sleeping until a command completes:
 
 `caffeinate -s {{command}}`
+
+- Prevent mac from sleeping until you type Ctrl-C
+
+`caffeinate -i`
