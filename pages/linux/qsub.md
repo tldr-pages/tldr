@@ -1,6 +1,6 @@
 # qsub
 
-> Submits a script to the queue management system TORQUE on High Performance Computing clusters.
+> Submits a script to the queue management system TORQUE.
 
 - Submit a script with default settings (depends on TORQUE settings):
 
