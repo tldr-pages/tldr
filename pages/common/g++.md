@@ -1,4 +1,4 @@
-# Gplusplus
+# gplusplus
 
 > Compiles C++ source files.
 > Part of GCC (GNU Compiler Collection).
@@ -7,7 +7,7 @@
 
 `g++ {{source.cpp}} -o {{output_executable}}`
 
-- Activate output of (almost) all errors and warnings:
+- Display (almost) all errors and warnings:
 
 `g++ {{source.cpp}} -Wall -o {{output_executable}}`
 
