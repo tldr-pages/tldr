@@ -22,6 +22,6 @@
 
 `chmod o=g {{file}}`
 
-- Change permissions [-R]ecursively giving the [u]ser [r]ead, [w]rite, and e[X]ecute rights, and give [g]roup and [o]thers [r]ead and e[X]ecute rights but not [-w]rite rights:
+- Change permissions [-R]ecursively giving [g]roup and [o]thers the abililty to [w]rite:
 
-`chmod -R u+rwX,go+rX,go-w {{directory}}`
+`chmod -R g+w,o+w {{directory}}`
