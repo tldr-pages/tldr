@@ -1,0 +1,17 @@
+<b>zenity</b><br><br>
+<b>Display dialogs from the command line/shell scripts.</b><br><br><b>Return user-inserted values or 1 if error.</b><br><br>
+- Display the default question dialog:
+
+<blockquote>zenity --question</blockquote>
+- Display an info dialog displaying the text "Hello!":
+
+<blockquote>zenity --info --text="<i>Hello!</i>"</blockquote>
+- Display a name/password form and output the data separated by ";":
+
+<blockquote>zenity --forms --add-entry="<i>Name</i>" --add-password="<i>Password</i>" --separator="<i>;</i>"</blockquote>
+- Display a file selection form in which the user can only select directories:
+
+<blockquote>zenity --file-selection --directory</blockquote>
+- Display a progress bar which updates its message every second and show a progress percent:
+
+<blockquote><i>(echo "#1"; sleep 1; echo "50"; echo "#2"; sleep 1; echo "100")</i> | zenity --progress</blockquote>

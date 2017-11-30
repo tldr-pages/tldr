@@ -1,0 +1,11 @@
+<b>protoc</b><br><br>
+<b>Parse Google Protobuf `.proto` files and generate output in the specified language.</b><br><br>
+- Generate Python code from a `.proto` file:
+
+<blockquote>protoc --python_out=<i>path/to/output_directory</i> <i>input_file.proto</i></blockquote>
+- Generate Java code from a `.proto` file that imports other `.proto` files:
+
+<blockquote>protoc --java_out=<i>path/to/output_directory</i> --proto_path=<i>path/to/import_search_path</i> <i>input_file.proto</i></blockquote>
+- Generate code for multiple languages:
+
+<blockquote>protoc --csharp_out=<i>path/to/c#_output_directory</i> --js_out=<i>path/to/js_output_directory</i> <i>input_file.proto</i></blockquote>
