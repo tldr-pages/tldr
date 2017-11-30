@@ -2,11 +2,11 @@
 
 > A tool to check Python code against PEP 8 style conventions.
 
-- Check the styling of a single file:
+- Check the style of a single file:
 
 `pycodestyle {{file}}.py`
 
-- Check the styling of a multiple files:
+- Check the style of a multiple files:
 
 `pycodestyle {{file1}}.py {{file2}}.py {{file3}}.py`
 
