@@ -1,0 +1,23 @@
+# pycodestyle
+
+> A tool to check Python code against PEP 8 style conventions.
+
+- Check the styling of a single file:
+
+`pycodestyle {{file}}`
+
+- Check the styling of a multiple files:
+
+`pycodestyle {{file1}} {{file2}} {{file3}}`
+
+- Show only the first occurrence of an error:
+
+`pycodestyle --first {{file}}`
+
+- Show the problematic code for each error:
+
+`pycodestyle --show-source {{file}}`
+
+- Show the specific PEP 8 text for each error:
+
+`pycodestyle --show-pep8 {{file}}`
