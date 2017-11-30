@@ -7,7 +7,7 @@
 
 `rustup install nightly`
 
-- Switch the default toolchain to nightly so that the cargo and rustc commands will use it:
+- Switch the default toolchain to nightly so that the `cargo` and `rustc` commands will use it:
 
 `rustup default nightly`
 
