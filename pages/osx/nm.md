@@ -1,6 +1,6 @@
 # nm
 
-> List symbol names in object files (see c++filt).
+> List symbol names in object files.
 
 - List global (extern) functions in a file (prefixed with T):
 
@@ -13,3 +13,7 @@
 - List all symbols, even debugging symbols:
 
 `nm -a {{file.o}}`
+
+- Demangle C++ symbols:
+
+`nm {{file.o}} |  c++filt`
