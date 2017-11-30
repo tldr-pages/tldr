@@ -17,3 +17,7 @@
 - Repeat the last command as sudo:
 
 `sudo !!`
+
+- Launch the default shell with root privileges:
+
+`sudo -i`
