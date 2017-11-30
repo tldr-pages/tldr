@@ -4,20 +4,20 @@
 
 - Check the style of a single file:
 
-`pycodestyle {{file}}.py`
+`pycodestyle {{file.py}}`
 
 - Check the style of a multiple files:
 
-`pycodestyle {{file1}}.py {{file2}}.py {{file3}}.py`
+`pycodestyle {{file1.py}} {{file2.py}} {{file3}}`
 
 - Show only the first occurrence of an error:
 
-`pycodestyle --first {{file}}.py`
+`pycodestyle --first {{file.py}}`
 
 - Show the source code for each error:
 
-`pycodestyle --show-source {{file}}.py`
+`pycodestyle --show-source {{file.py}}`
 
 - Show the specific PEP 8 text for each error:
 
-`pycodestyle --show-pep8 {{file}}.py`
+`pycodestyle --show-pep8 {{file.py}}`
