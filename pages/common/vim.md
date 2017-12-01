@@ -1,7 +1,7 @@
 # vim
 
 > Vi IMproved, a programmer's text editor, providing several modes for different kinds of text manipulation.
-> For more information on how to use vim, see [vimtutor](vimtutor.md).
+> For more information on how to use vim, see vimtutor.
 
 - Open a file:
 
