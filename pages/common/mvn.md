@@ -1,12 +1,10 @@
 # mvn
 
-> Runnign Apache Maven.
+> Apache Maven. A build automation tool used for JVM environment projects.
 
 - Most common usage is to invoke a life cicle phase:
 
 `mvn package`
-`mvn install`
-`mvn deploy`
 
 - Invoke more that one phase with arguments:
 
