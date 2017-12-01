@@ -1,19 +1,19 @@
 # gofmt
 
-> Gofmt formats Go programs. It uses tabs for indentation and blanks for alignment.
+> Tool for formatting Go source code.
 
-- Format a file and print it to output:
+- Format a file and display the result to console:
 
 `gofmt {{source.go}}`
 
-- Format a file and rewrite original:
+- Format a file, overwriting the original file in-place:
 
 `gofmt {{source.go}} -w`
+
+- Format a file, and then simplify the code, overwriting the original file:
+
+`gofmt {{source.go}} -s -w`
 
 - Print all (including spurious) errors:
 
 `gofmt {{source.go}} -e`
-
-- Apply custom rule as string "pattern -> replacement":
-
-`gofmt {{source.go}} -r {{rule}}`
