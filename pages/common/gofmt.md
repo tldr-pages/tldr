@@ -2,7 +2,7 @@
 
 > Tool for formatting Go source code.
 
-- Format a file and display the result to console:
+- Format a file and display the result to the console:
 
 `gofmt {{source.go}}`
 
