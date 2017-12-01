@@ -16,12 +16,12 @@
 
 - Specify certain rules as errors (which result in a non-zero exit code):
 
-`csslint --errors={{rule1}},{{rule2}},{{rule3}} {{file.css}}`
+`csslint --errors={{errors,universal-selector,imports,etc.}} {{file.css}}`
 
 - Specify certain rules as warnings:
 
-`csslint --warnings={{rule1}},{{rule2}},{{rule3}} {{file.css}}`
+`csslint --warnings={{box-sizing,selector-max,floats,etc.}} {{file.css}}`
 
 - Specify certain rules to completely ignore:
 
-`csslint --ignore={{rule1}},{{rule2}},{{rule3}} {{file.css}}`
+`csslint --ignore={{ids,rules-count,shorthand,etc.}} {{file.css}}`
