@@ -15,3 +15,6 @@
 - Give [o]thers (not in the file owner's group) the same rights as the group:
 
 <blockquote>chmod o=g <i>file</i></blockquote>
+- Change permissions recursively giving [g]roup and [o]thers the abililty to [w]rite:
+
+<blockquote>chmod -R g+w,o+w <i>directory</i></blockquote>

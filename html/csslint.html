@@ -1,0 +1,20 @@
+<b>csslint</b><br><br>
+<b>A linter for CSS code.</b><br><br>
+- Lint a single CSS file:
+
+<blockquote>csslint <i>file.css</i></blockquote>
+- Lint multiple CSS files:
+
+<blockquote>csslint <i>file1.css</i> <i>file2.css</i> <i>file3.css</i></blockquote>
+- List all possible style rules:
+
+<blockquote>csslint --list-rules</blockquote>
+- Specify certain rules as errors (which result in a non-zero exit code):
+
+<blockquote>csslint --errors=<i>errors,universal-selector,imports</i> <i>file.css</i></blockquote>
+- Specify certain rules as warnings:
+
+<blockquote>csslint --warnings=<i>box-sizing,selector-max,floats</i> <i>file.css</i></blockquote>
+- Specify certain rules to completely ignore:
+
+<blockquote>csslint --ignore=<i>ids,rules-count,shorthand</i> <i>file.css</i></blockquote>
