@@ -2,11 +2,7 @@
 
 > Mix is a build tool that provides tasks for creating, compiling, and testing Elixir projects, managing its dependencies, and more.
 
-- List all mix commands:
-
-`mix help`
-
-- Execute particular file:
+- Execute a particular file:
 
 `mix run {{my_script.exs}}`
 
@@ -18,10 +14,10 @@
 
 `mix compile`
 
-- Start an iex session inside the project:
-
-`iex -S mix`
-
 - Run project tests:
 
 `mix test`
+
+- List all mix commands:
+
+`mix help`
