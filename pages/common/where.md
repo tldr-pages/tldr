@@ -1,7 +1,7 @@
 # where
 
-> Reports all known instances of command.
-> It could be an executable in PATH environment variable, an alias or a shell builtin.
+> Reports all known instances of a command.
+> It could be an executable in the PATH environment variable, an alias, or a shell builtin.
 
 - Find all instances of a command:
 
