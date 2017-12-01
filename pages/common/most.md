@@ -4,11 +4,11 @@
 
 - Open a file:
 
-`most {{source_file}}`
+`most {{path/to/file}}`
 
 - Open several files:
 
-`most {{file1}} {{file2}}`
+`most {{path/to/file1}} {{path/to/file2}}`
 
 - Open a file at the first occurrence of `string`:
 
