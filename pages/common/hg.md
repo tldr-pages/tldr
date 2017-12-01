@@ -1,6 +1,6 @@
 # hg
 
-> Mercurial distributed source control management.
+> The `hg` command provides an interface for Mercurial, a distributed source control management system.
 
 - Check the Mercurial version:
 
