@@ -2,10 +2,23 @@
 
 > Vi IMproved, a programmer's text editor, providing several modes for different kinds of text manipulation.
 > Pressing `i` enters edit mode. `<Esc>` goes back to normal mode, which doesn't allow regular text insertion.
+> For more information on how to use vim, see vimtutor.
 
 - Open a file:
 
 `vim {{file}}`
+
+- Open a file in read-only mode:
+
+`vim -M {{file}}`
+
+- Open in read-only mode (see view):
+
+`vim -R`
+
+- Open with no plugins or custom settings:
+
+`vim -N -u NONE`
 
 - Enter text editing mode (insert mode):
 
