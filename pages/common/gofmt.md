@@ -8,12 +8,12 @@
 
 - Format a file, overwriting the original file in-place:
 
-`gofmt {{source.go}} -w`
+`gofmt -w {{source.go}}`
 
 - Format a file, and then simplify the code, overwriting the original file:
 
-`gofmt {{source.go}} -s -w`
+`gofmt -s -w {{source.go}}`
 
 - Print all (including spurious) errors:
 
-`gofmt {{source.go}} -e`
+`gofmt -e {{source.go}}`
