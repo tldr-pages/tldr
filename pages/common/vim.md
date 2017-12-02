@@ -14,7 +14,7 @@
 
 - Open in read-only mode (see view):
 
-`view -R`
+`vim -R`
 
 - Open with no plugins or custom settings:
 
