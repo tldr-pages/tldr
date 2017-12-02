@@ -1,0 +1,26 @@
+<b>spatial</b><br><br>
+<b>A set of commands for managing and developing SpatialOS projects.</b><br><br>
+- Run this when you use a project for the first time:
+
+<blockquote>spatial worker build</blockquote>
+- Build workers for local deployment on Unity on macOS:
+
+<blockquote>spatial worker build --target=development --target=Osx</blockquote>
+- Build workers for local deployment on Unreal on Windows:
+
+<blockquote>spatial worker build --target=local --target=Windows</blockquote>
+- Deploy locally:
+
+<blockquote>spatial local launch <i>launch_config</i> --snapshot=<i>snapshot_file</i></blockquote>
+- Launch a local worker to connect to your local deployment:
+
+<blockquote>spatial local worker launch <i>worker_type</i> <i>launch_config</i></blockquote>
+- Upload an assembly to use for cloud deployments:
+
+<blockquote>spatial cloud upload <i>assembly_name</i></blockquote>
+- Launch a cloud deployment:
+
+<blockquote>spatial cloud launch <i>assembly_name</i> <i>launch_config</i> <i>deployment_name</i></blockquote>
+- Clean worker directories:
+
+<blockquote>spatial worker clean</blockquote>

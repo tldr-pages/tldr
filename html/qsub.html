@@ -1,0 +1,14 @@
+<b>qsub</b><br><br>
+<b>Submits a script to the queue management system TORQUE.</b><br><br>
+- Submit a script with default settings (depends on TORQUE settings):
+
+<blockquote>qsub <i>script.sh</i></blockquote>
+- Submit a script with a specified wallclock runtime limit of 1 hour, 2 minutes and 3 seconds:
+
+<blockquote>qsub -l walltime=<i>1</i>:<i>2</i>:<i>3</i> <i>script.sh</i></blockquote>
+- Submit a script that is executed on 2 nodes using 4 cores per node:
+
+<blockquote>qsub -l nodes=<i>2</i>:ppn=<i>4</i> <i>script.sh</i></blockquote>
+- Submit a script to a specific queue. Note that different queues can have different maximum and minimum runtime limits:
+
+<blockquote>qsub -q <i>queue_name</i> <i>script.sh</i></blockquote>
