@@ -10,7 +10,7 @@
 
 `most {{path/to/file1}} {{path/to/file2}}`
 
-- Open a file at the first occurrence of `string`:
+- Open a file at the first occurrence of "string":
 
 `most {{file}} +/{{string}}`
 
