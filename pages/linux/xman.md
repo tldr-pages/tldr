@@ -1,6 +1,6 @@
 # xman
 
-> Manual page viewer for X Window System
+> Manual page viewer for X Window System.
 
 - Start xman in three-button window:
 
