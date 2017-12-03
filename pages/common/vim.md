@@ -27,6 +27,10 @@
 
 `<Esc>:%s/{{pattern}}/{{replacement}}/g<Enter>`
 
+- Perform a regex subtitution in the whole file using a Perl regex:
+
+`<Esc>:perldo s/{{search_pattern}}/{{replacement}}/g<Enter>`
+
 - Save (write) the file, and quit:
 
 `<Esc>:wq<Enter>`
@@ -34,3 +38,16 @@
 - Quit without saving:
 
 `<Esc>:q!<Enter>`
+
+- Write to a protected file when you forget to sudo:
+
+`<Esc>:w !sudo tee % >/dev/null<Enter>`
+
+- Edit a file remotely over ssh:
+
+`vim scp://{{username}}@{{hostname}}/{{path/to/file}}
+
+- Open a file into existing gvim:
+
+`gvim --remote-silent {{/path/to/file}}`
+
