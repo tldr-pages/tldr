@@ -45,9 +45,8 @@
 
 - Edit a file remotely over ssh:
 
-`vim scp://{{username}}@{{hostname}}/{{path/to/file}}
+`vim scp://{{username}}@{{hostname}}/{{path/to/file}}`
 
 - Open a file into existing gvim:
 
 `gvim --remote-silent {{/path/to/file}}`
-

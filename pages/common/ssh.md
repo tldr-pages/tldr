@@ -31,6 +31,6 @@
 
 `ssh -o "ForwardAgent=yes" {{username}}@{{remote_host}}`
 
-- Copy files en masse via ssh
+- Copy files en masse via ssh:
 
 `tar czf - {{path/to/dir}} | ssh {{username}}@{{host}} 'tar -C "/" -xzf -'`
