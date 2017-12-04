@@ -13,7 +13,3 @@
 - Show both manual page and directory:
 
 `xman -bothshown`
-
-- Specify the geometry (size and location) of the top menu:
-
-`xman -geometry {{width}}+{{height}}+{{x}}+{{y}}`
