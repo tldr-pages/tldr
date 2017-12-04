@@ -6,9 +6,9 @@
 
 `chage -l {{user_name}}`
 
-- Enable password expiration:
+- Enable password expiration in 10 days:
 
-`sudo chage -M {{days_before_password_change}} {{user_name}}`
+`sudo chage -M {{10}} {{user_name}}`
 
 - Disable password expiration:
 
@@ -18,7 +18,6 @@
 
 `sudo chage -E {{YYYY-MM-DD}}`
 
-- Force user to chage password on next log in:
+- Force user to change password on next log in:
 
 `sudo chage -d 0`
- 
