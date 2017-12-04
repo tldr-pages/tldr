@@ -6,10 +6,6 @@
 
 `git gc`
 
-- View full usage:
-
-`git gc --help`
-
 - Aggressively optimise, takes more time:
 
 `git gc --aggressive`
@@ -21,3 +17,7 @@
 - Suppress all output:
 
 `git gc --quiet`
+
+- View full usage:
+
+`git gc --help`
