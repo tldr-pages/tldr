@@ -3,22 +3,22 @@
 > Tool for managing the *snap* self-contained softwawre packages.
 > Similar to what *apt* is for *.deb*.
 
-- Looking for an app
+- Look for an app:
 
-`snap find someprogram`
+`snap find {{package}}`
 
-- Installing software:
+- Install software:
 
-`snap install tldr`
+`snap install {{package}}`
 
-- Find the installed snap software
+- Find installed *snap* software
 
 `snap list`
 
-- Removing programs:
+- Remove programs:
 
-`snap remove no-good-app`
+`snap remove {{package}}`
 
-- Check for recent system changes
+- Check for recent *snap* changes:
 
 `snap changes`
