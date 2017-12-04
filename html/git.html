@@ -1,38 +1,20 @@
 <b>git</b><br><br>
 <b>Distributed version control system.</b><br><br>
-- Setup Git global configuration:
-
-<blockquote>git config --global user.name "<i>John Doe</i>"</blockquote><blockquote>git config --global user.email <i>johndoe@example.com</i></blockquote><blockquote>git config --global core.editor <i>vim</i></blockquote>
-- Initiate version control in the current directory, creating a .git folder:
-
-<blockquote>git init</blockquote>
-- Show the working tree status (modified, added... files):
+- Show file changes:
 
 <blockquote>git status</blockquote>
-- Review unstaged changes (paginate), deciding whether or not to add them to the commit:
+- Track file changes:
 
-<blockquote>git add -p</blockquote>
-- Show diff of staged changes:
+<blockquote>git add <i>file</i></blockquote>
+- Commit file changes:
 
-<blockquote>git diff --cached</blockquote>
-- Commit changes with a short description:
+<blockquote>git commit -m "<i>message</i>"</blockquote>
+- Upload changes to remote repository:
 
-<blockquote>git commit -m "<i>Fixed something</i>"</blockquote>
-- Delete last commit:
+<blockquote>git push <i>remote repository</i> <i>branch</i></blockquote>
+- Switch to a branch:
 
-<blockquote>git reset --hard HEAD~1</blockquote>
-- Create and checkout a new branch:
+<blockquote>git checkout <i>branch</i></blockquote>
+- Create a new branch:
 
-<blockquote>git checkout -b <i>branch_name</i></blockquote>
-- Check the Git version:
-
-<blockquote>git --version</blockquote>
-- Call general help:
-
-<blockquote>git --help</blockquote>
-- Call help on a command:
-
-<blockquote>git help <i>command</i></blockquote>
-- Execute Git command:
-
-<blockquote>git <i>command</i></blockquote>
+<blockquote>git checkout -b <i>branch</i></blockquote>
