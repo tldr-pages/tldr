@@ -4,7 +4,7 @@
 
 - Call `echo` with the "foo" argument:
 
-`eval "{{echo}}" "{{foo}}"`
+`eval "{{echo foo}}"`
 
 - Set a variable in the current shell:
 
