@@ -11,7 +11,7 @@
 
 `snap install {{package}}`
 
-- Find installed *snap* software
+- Find installed *snap* software:
 
 `snap list`
 
