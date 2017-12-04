@@ -1,6 +1,6 @@
 # hg
 
-> Provides an interface for Mercurial, a distributed source control management system.
+> Provides a command line interface for Mercurial, a distributed source control management system.
 
 - Check the Mercurial version:
 
