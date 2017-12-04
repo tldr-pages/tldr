@@ -2,7 +2,7 @@
 
 > Generate code and documentation for your REST api from a OpenAPI/swagger definition.
 
-- Generate documentation and code from a OpenAPI/swagger file:
+- Generate documentation and code from an OpenAPI/swagger file:
 
 `swagger-codegen generate -i {{swagger_file}} -l {{language}}`
 
