@@ -2,9 +2,9 @@
 
 > Provides a command line interface for Mercurial, a distributed source control management system.
 
-- Check the Mercurial version:
+- Execute Mercurial command:
 
-`hg --version`
+`hg {{command}}`
 
 - Call general help:
 
@@ -14,6 +14,6 @@
 
 `hg help {{command}}`
 
-- Execute Mercurial command:
+- Check the Mercurial version:
 
-`hg {{command}}`
+`hg --version`
