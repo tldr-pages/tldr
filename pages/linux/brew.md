@@ -14,7 +14,7 @@
 
 `brew list`
 
-- Update an installed formula (passing no `{{formula}}` updates all installed formulae):
+- Update an installed formula (if no formula name is given, all installed formulae are updated):
 
 `brew upgrade {{formula}}`
 
@@ -22,7 +22,7 @@
 
 `brew update`
 
-- Show formulae that have an updated version available:
+- Show formulae that have a more recent version available:
 
 `brew outdated`
 

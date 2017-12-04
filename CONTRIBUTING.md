@@ -43,11 +43,14 @@ Here are a few guidelines to get started:
 5. Focus on details specific to the command, and avoid explaining general UNIX concepts that could apply to any command
    (ex: relative/absolute paths, glob patterns/wildcards, special character escaping...).
 
-The best way to be consistent is to have a look at a few existing pages :).
+These are all guidelines, not strict rules.
+Use proper judgement, keeping simplicity and user-friendliness as the top priority.
+
+When in doubt, have a look at a few existing pages :).
 
 ## Markdown format
 
-The format of each page should match the following:
+As a quick reference, the format of each page should match the following template:
 
 ```
 # command-name
@@ -64,85 +67,17 @@ The format of each page should match the following:
 `command -opt1 -opt2`
 ```
 
-There actually is a linter/formatter that enforces the format above.
-It is run automatically on every pull request,
-but you may install it to test your contributions locally before submitting them:
-
-```
-npm install tldr-lint
-tldrl -f {{page.md}}
-```
-
-For other ways to use `tldrl`, such as linting an entire directory, check out (what else!)
-[`tldr tldrl`](https://github.com/tldr-pages/tldr/blob/master/pages/common/tldrl.md)
-
-### Token syntax
-
-User-provided values should use the `{{token}}` syntax in order to allow `tldr` clients to highlight them.
-Use [`snake_case`](https://en.wikipedia.org/wiki/Snake_case) for multi-word tokens.
-
-Keep the following guidelines in mind when choosing token names:
-
-1. Use short but descriptive values for the tokens,
-   ex. `{{source_file}}` or `{{wallet.txt}}`.
-   
-2. If the example is clearer with an actual value rather than a generic placeholder, use the actual value.
-   For example, use `iostat {{2}}` rather than `iostat {{interval_in_secs}}`.
-
-3. For any reference to paths to files or folders, use the format `{{path/to/<placeholder>}}`.
-   For example, `ln -s {{path/to/file}} {{path/to/symlink}}`.
-   In case of a possible reference both to a file or a folder, use `{{path/to/file_or_folder}}`
-   
-4. Follow the `{{path/to/<placeholder>}}` convention when there is a path-related command,
-  except when the file location is implicit.
-
-5. If a command expects the file to have a particular extension, use it.
-   For example, `unrar x {{compressed.rar}}`.
-   In case a generic extension is needed, use `{{.ext}}`, but **only** if an extension is required.
-   For instance, in find.md's example "Find files by extension" (`find {{root_path}} -name '{{*.ext}}'`)
-   using `{{*.ext}}` explains the command without being unnecessarily specific;
-   But in a command like `wc -l {{file}}`, using `{{file}}` (without extension) is sufficient.
-
-
-These are all guidelines, not strict rules.
-In general, tokens should make it as intuitive as possible
-to figure out how to use the command and fill it in with values.
-Use proper judgement, keeping simplicity and user-friendliness as the top priority.
+For more detailed page formatting guidelines,
+refer to the [style guide](contributing-guides/style-guide.md).
 
 ## Submitting a pull request
-
-For submitting changes, you can use whatever workflow you're more comfortable with.
-
-### Using Github's web interface
 
 The easiest way to submit a change is to just edit the page directly on the Github interface.
 Check out the step-by-step instructions (with screenshots) on
 [Github Help](https://help.github.com/articles/editing-files-in-another-user-s-repository/).
 
-### Using the command line
-
-Alternatively, you can do most of the process using the command line:
-
-- fork the repository on the github web interface
-
-- clone your fork locally:  
-  `git clone https://github.com/{{your_username}}/tldr.git && cd tldr`
-
-- create a feature branch, e.g. named after the command you plan to edit:  
-  `git checkout -b {{branch_name}}`
-
-- make your changes (edit existing files or create a new one)
-
-- commit the changes:  
-  `git commit --all -m "{{commit_message}}"`
-
-- push to your fork:  
-  `git push`
-
-- go to the github page for your fork and click the green pull request button.
-
-Please send only related changes in the same pull request.
-Typically a pull request will include changes in a single file.
+Alternatively, you can do most of the process
+[using git on the command line](contributing-guides/git-terminal.md).
 
 ### Commit message
 

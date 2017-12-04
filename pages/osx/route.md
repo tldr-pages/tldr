@@ -22,3 +22,7 @@
 - Delete a specific route:
 
 `sudo route delete {{dest_ip_address}}/24`
+
+- Lookup and display the route for a destination (hostname or IP address):
+
+`sudo route get {{destination}}`

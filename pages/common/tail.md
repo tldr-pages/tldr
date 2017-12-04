@@ -17,3 +17,7 @@
 - Keep reading file until `Ctrl + C`:
 
 `tail -f {{file}}`
+
+- Keep reading file until `Ctrl + C`, even if the file is rotated:
+
+`tail -F {{file}}`

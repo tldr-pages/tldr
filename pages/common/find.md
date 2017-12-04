@@ -14,9 +14,9 @@
 
 `find {{root_path}} -name '{{*.ext}}' -exec {{wc -l {} }}\;`
 
-- Find files modified since a certain time:
+- Find files modified in the last 24-hour period:
 
-`find {{root_path}} -name '{{}}' -mtime {{-1}}`
+`find {{root_path}} -mtime {{-1}}`
 
 - Find files using case insensitive name matching, of a certain size:
 
@@ -24,7 +24,7 @@
 
 - Delete files by name, older than a certain number of days:
 
-`find {{root_path}} -name '{{*.ext}}' -mtime {{-180}} -delete`
+`find {{root_path}} -name '{{*.ext}}' -mtime {{+180}} -delete`
 
 - Find files matching more than one search criteria:
 

@@ -14,6 +14,10 @@
 
 `git diff --staged`
 
+- Show changes from all commits since a given date/time (a date expression, e.g. "1 week 2 days" or an ISO date):
+
+`git diff 'HEAD@{3 months|weeks|days|hours|seconds ago}'`
+
 - Show only names of changed files since a given commit:
 
 `git diff --name-only {{commit}}`
@@ -29,3 +33,7 @@
 - Compare a single file between two branches or commits:
 
 `git diff {{branch_1}}..{{branch_2}} [--] {{path/to/file}}`
+
+- Compare different files from the current branch to other branch:
+
+`git diff {{branch}}:{{path/to/file2}} {{path/to/file}}`
