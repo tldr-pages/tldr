@@ -1,23 +1,23 @@
 # unit-cli
 
-> CLI for unitcluster.com. Update code in local machine and launch it 
+> CLI for unitcluster.com. Update code in local machine and launch it.
 
-- Start CLI with default or saved parameters
+- Start CLI with default or saved parameters:
 
 `unit-cli`
 
-- Create new unit
+- Create new unit:
 
 `new [name] [description]`
 
-- List units
+- List units:
 
 `ls`
 
-- List unitts and files in it
+- List unitts and files in it:
 
 `ls anyarg`
 
-- Runs unit
+- Run unit:
 
 `run [name]`
