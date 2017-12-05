@@ -1,6 +1,6 @@
 # irb
 
-> Interactive Ruby Shell
+> Interactive Ruby Shell.
 
 - Run Ruby Sell with load some gem:
 
