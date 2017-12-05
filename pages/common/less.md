@@ -22,6 +22,10 @@
 
 `?{{something}}`
 
+- Tail currently opened file:
+
+`<Shift> F`
+
 - Open the current file in an editor:
 
 `v`
