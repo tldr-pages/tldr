@@ -29,3 +29,7 @@
 - Kill session:
 
 `tmux kill-session -t {{name}}`
+
+- Use tmux inside tmux:
+
+`Ctrl + B, Ctrl + B`
