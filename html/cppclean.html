@@ -1,0 +1,14 @@
+<b>cppclean</b><br><br>
+<b>Find unused code in C++ projects.</b><br><br>
+- Run in a project's folder:
+
+<blockquote>cppclean <i>path/to/project</i></blockquote>
+- Run on a project where the headers are in the "inc1/" and "inc2/" folders:
+
+<blockquote>cppclean <i>path/to/project</i> --include-path=<i>inc1</i> --include-path=<i>inc2</i></blockquote>
+- Run on a specific file "main.cpp":
+
+<blockquote>cppclean <i>main.cpp</i></blockquote>
+- Run on the current directory, excluding the "build" directory:
+
+<blockquote>cppclean <i>.</i> --exclude=<i>build</i></blockquote>

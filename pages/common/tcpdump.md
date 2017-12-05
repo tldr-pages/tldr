@@ -2,6 +2,10 @@
 
 > Dump traffic on a network.
 
+- List available network interfaces:
+
+`tcpdump -D`
+
 - Capture the traffic of a specific interface:
 
 `tcpdump -i {{eth0}}`
@@ -16,7 +20,7 @@
 
 - Capture the traffic from a specific interface, source, destination and destination port:
 
-`tcpdump -i {{eth0}} src {{192.168.1.1}} and dst {{192.168.1.2}} and dst port 80`
+`tcpdump -i {{eth0}} src {{192.168.1.1}} and dst {{192.168.1.2}} and dst port {{80}}`
 
 - Capture the traffic of a network:
 
@@ -24,4 +28,8 @@
 
 - Capture all traffic except traffic over port 22 and save to a dump file:
 
-`tcpdump -w dumpfile.pcap not port 22`
+`tcpdump -w {{dumpfile.pcap}} not port {{22}}`
+
+- Read from a given dump file:
+
+`tcpdump -r {{dumpfile.pcap}}`
