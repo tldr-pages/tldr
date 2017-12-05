@@ -1,6 +1,6 @@
 # scala
 
-> Scala application launcher and interactive interpreter
+> Scala application launcher and interactive interpreter.
 
 - Call a Scala interactive shell (REPL):
 
@@ -17,8 +17,3 @@
 - Execute a single Scala command in the command line:
 
 `scala -e {{command}}`
-
-
-
-
-
