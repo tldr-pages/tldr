@@ -12,7 +12,7 @@
 
 - Disable password expiration:
 
-`sudo chage -M 99999 {{user_name}}`
+`sudo chage -M -1 {{user_name}}`
 
 - Set account expiration date:
 
