@@ -30,4 +30,3 @@
 - Transfer file over SSH and show global progress:
 
 `rsync -e ssh --info=progress2 {{remote_host_name}}:{{remote_file}} {{local_file}}`
-
