@@ -12,8 +12,8 @@
 
 - List the contents of a zip file without extracting:
 
-`unzip -l {{file}}`
+`unzip -l {{file.zip}}`
 
-- Extract the contents of a zip file to the console:
+- Display (pipe) the contents of the file(s) inside a zip file to the console:
 
-`unzip -c {{file}}`
+`unzip -c {{file.zip}}`
