@@ -1,4 +1,4 @@
-# Scala
+# scala
 
 > Scala application launcher and interactive interpreter
 
