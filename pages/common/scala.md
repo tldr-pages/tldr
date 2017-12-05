@@ -1,6 +1,6 @@
 # Scala
 
-> Scala Application Launcher and interactive interpreter
+> Scala application launcher and interactive interpreter
 
 - Call a Scala interactive shell (REPL):
 
