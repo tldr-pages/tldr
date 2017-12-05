@@ -1,0 +1,14 @@
+<b>swagger-codegen</b><br><br>
+<b>Generate code and documentation for your REST api from a OpenAPI/swagger definition.</b><br><br>
+- Generate documentation and code from an OpenAPI/swagger file:
+
+<blockquote>swagger-codegen generate -i <i>swagger_file</i> -l <i>language</i></blockquote>
+- Generate java code using the library retrofit2 and the option useRxJava2:
+
+<blockquote>swagger-codegen generate -i <i>http://petstore.swagger.io/v2/swagger.json</i> -l <i>java</i> --library <i>retrofit2</i> -D<i>useRxJava2</i>=<i>true</i></blockquote>
+- List available languages:
+
+<blockquote>swagger-codegen langs</blockquote>
+- Display help options for the generate command:
+
+<blockquote>swagger-codegen help <i>generate</i></blockquote>
