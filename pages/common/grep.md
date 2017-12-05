@@ -23,17 +23,9 @@
 
 `grep -{{C|B|A}} 3 {{search_string}} {{path/to/file}}`
 
-- Print the count of matches instead of the matching text:
-
-`grep -c {{search_string}} {{path/to/file}}`
-
 - Print line number for each match:
 
 `grep -n {{search_string}} {{path/to/file}}`
-
-- Print file names with matches:
-
-`grep -l {{search_string}} {{path/to/file}}`
 
 - Use the standard input instead of a file:
 
