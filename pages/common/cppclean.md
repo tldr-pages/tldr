@@ -14,6 +14,6 @@
 
 `cppclean {{main.cpp}}`
 
-- Run on the current directory, excluding the "node_modules" directory:
+- Run on the current directory, excluding the "build" directory:
 
-`cppclean {{.}} --exclude={{node_modules}}`
+`cppclean {{.}} --exclude={{build}}`
