@@ -14,6 +14,6 @@
 
 `unzip -l {{file.zip}}`
 
-- Display (pipe) the contents of the file(s) inside a zip file to the console:
+- Extract the contents of the file(s) to stdout alongside the extracted file names
 
 `unzip -c {{file.zip}}`
