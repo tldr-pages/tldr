@@ -6,7 +6,7 @@
 
 `scala`
 
-- Execute a script in a given Scala file:
+- Execute a Scala script:
 
 `scala {{script.scala}}`
 
