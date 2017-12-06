@@ -22,9 +22,9 @@
 
 `?{{something}}`
 
-- Tail currently opened file:
+- Follow the output of the currently opened file:
 
-`<Shift> F`
+`F`
 
 - Open the current file in an editor:
 
