@@ -7,6 +7,10 @@
 
 `wget {{https://example.com/foo}}`
 
+- Download the contents of an URL to a file (named "bar" in this case):
+
+`wget -O {{bar}} {{https://example.com/foo}}`
+
 - Download a single web page and all its resources (scripts, stylesheets, images, etc.):
 
 `wget --page-requisites --convert-links {{https://example.com/somepage.html}}`
