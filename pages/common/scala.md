@@ -2,7 +2,7 @@
 
 > Scala application launcher and interactive interpreter.
 
-- Call a Scala interactive shell (REPL):
+- Start a Scala interactive shell (REPL):
 
 `scala`
 
