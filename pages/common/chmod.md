@@ -21,3 +21,7 @@
 - Give [o]thers (not in the file owner's group) the same rights as the group:
 
 `chmod o=g {{file}}`
+
+- Change permissions recursively giving [g]roup and [o]thers the abililty to [w]rite:
+
+`chmod -R g+w,o+w {{directory}}`

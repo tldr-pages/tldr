@@ -23,6 +23,10 @@
 
 `rsync -ru {{remote_host_name}}:{{remote_folder_location}} {{local_folder_location}}`
 
-- Transfer file over SSH and show progress:
+- Transfer file over SSH and show progress per file:
 
 `rsync -e ssh --progress {{remote_host_name}}:{{remote_file}} {{local_file}}`
+
+- Transfer file over SSH and show global progress:
+
+`rsync -e ssh --info=progress2 {{remote_host_name}}:{{remote_file}} {{local_file}}`
