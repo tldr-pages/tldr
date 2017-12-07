@@ -15,6 +15,9 @@
 - Transfer only updated files from remote host:
 
 <blockquote>rsync -ru <i>remote_host_name</i>:<i>remote_folder_location</i> <i>local_folder_location</i></blockquote>
-- Transfer file over SSH and show progress:
+- Transfer file over SSH and show progress per file:
 
 <blockquote>rsync -e ssh --progress <i>remote_host_name</i>:<i>remote_file</i> <i>local_file</i></blockquote>
+- Transfer file over SSH and show global progress:
+
+<blockquote>rsync -e ssh --info=progress2 <i>remote_host_name</i>:<i>remote_file</i> <i>local_file</i></blockquote>
