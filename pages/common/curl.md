@@ -15,6 +15,10 @@
 
 `curl -O -L -C - {{http://example.com/filename}}`
 
+- Silent output (useful when piping output to some other command):
+
+`curl -s {{http://example.com}}`
+
 - Send form-encoded data (POST request of type `application/x-www-form-urlencoded`):
 
 `curl -d {{'name=bob'}} {{http://example.com/form}}`
