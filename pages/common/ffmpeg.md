@@ -25,3 +25,7 @@
 - Remux MKV video to MP4 without re-encoding audio or video streams:
 
 `ffmpeg -i {{input_video}}.mkv -codec copy {{output_video}}.mp4`
+
+- Convert MP4 video to VP9 codec. The CRF value can be from 0–63. Lower values mean better quality. -b:v MUST be 0:
+
+`ffmpeg -i {{input_video}}.mp4 -c:v libvpx-vp9 -crf 30 -b:v 0 {{output_video}}.webm`
