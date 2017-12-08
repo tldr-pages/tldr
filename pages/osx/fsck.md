@@ -1,7 +1,6 @@
 # fsck
 
-> Check the integrity of a filesystem or repair it. The filesystem should be unmounted at the time the command is run.
-> fsck is now essentially a wrapper that fsck_hfs, fsck_apfs, fsck_msdos, fsck_exfat, and fsck_udf as needed.
+> Check the integrity of a filesystem or repair it. The filesystem should be unmounted at the time the command is run. fsck is now essentially a wrapper that fsck_hfs, fsck_apfs, fsck_msdos, fsck_exfat, and fsck_udf as needed.
 
 - Check filesystem /dev/sda, reporting any damaged blocks:
 
