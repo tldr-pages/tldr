@@ -15,6 +15,10 @@
 
 `ember build`
 
+- Build the project in production mode:
+
+`ember build -prod`
+
 - Run the development server:
 
 `ember serve`
