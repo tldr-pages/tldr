@@ -1,6 +1,6 @@
 # paci
 
-> Your friendly, lightweight and flexible package manager. Written in Python.
+> A lightweight and flexible package manager for bash scripts.
 
 - Install `paci` and configure it:
 
