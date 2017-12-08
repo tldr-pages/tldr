@@ -2,9 +2,9 @@
 
 > A lightweight and flexible package manager for bash scripts.
 
-- Install `paci` and configure it:
+- Configure it:
 
-`bash <(curl -s https://raw.githubusercontent.com/tradebyte/paci/master/.github/bin/install.sh)`
+`paci configure`
 
 - Search for a given package:
 
