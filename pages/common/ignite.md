@@ -17,4 +17,3 @@
 - Remove an Ignite plugin from the project:
 
 `ignite remove {{plugin-name}}`
-
