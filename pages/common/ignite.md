@@ -10,7 +10,11 @@
 
 `ignite generate {{plugin-name}} {{file-name}}`
 
-- Add/link a plugin/Node.js module to the project:
+- Add an Ignite plugin to the project:
 
-`ignite add {{package-name}}`
+`ignite add {{plugin-name}}`
+
+- Remove an Ignite plugin from the project:
+
+`ignite remove {{plugin-name}}`
 
