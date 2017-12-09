@@ -1,0 +1,14 @@
+<b>kexec</b><br><br>
+<b>Directly reboot into a new kernel.</b><br><br>
+- Load a new kernel:
+
+<blockquote>kexec -l <i>path/to/kernel</i> --initrd=<i>path/to/initrd</i> --command-line=<i>arguments</i></blockquote>
+- Load a new kernel with current boot parameters:
+
+<blockquote>kexec -l <i>path/to/kernel</i> --initrd=<i>path/to/initrd</i> --reuse-cmdline</blockquote>
+- Execute a currently loaded kernel:
+
+<blockquote>kexec -e</blockquote>
+- Unload current kexec target kernel:
+
+<blockquote>kexec -u</blockquote>
