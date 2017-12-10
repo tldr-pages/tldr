@@ -1,6 +1,6 @@
 # ignite
 
-> A CLI for React Native, boilerplates, plugins, generators, and more.
+> A CLI for React Native boilerplates, plugins, generators, and more.
 
 - Create a new React Native project:
 
