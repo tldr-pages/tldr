@@ -1,6 +1,6 @@
 # mvn
 
-> Maven
+> Maven.
 > Tool for building and managing Java-based projects.
 
 - Compile a project:
