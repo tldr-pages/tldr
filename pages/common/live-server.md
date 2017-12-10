@@ -2,7 +2,7 @@
 
 > A simple development http server with live reload capability.
 
-- Serve an index.html file, and reload on changes:
+- Serve an index.html file and reload on changes:
 
 `live-server`
 
@@ -10,7 +10,7 @@
 
 `live-server --port=8081`
 
-- Select file other than index.html to serve:
+- Select file other than index.html to serve: 
 
 `live-server --open=about.html`
 
