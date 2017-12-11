@@ -8,9 +8,9 @@
 
 - Exclude test task:
 
-`gradle build -x test`
+`gradle build -x {{test}}`
 
-- Run in offline mode:
+- Run in offline mode to prevent gradle from accessing the network during builds:
 
 `gradle build --offline`
 
@@ -21,7 +21,3 @@
 - Compile and Release package:
 
 `gradle assembleRelease`
-
-- Create Gradle wrapper:
-
-`gradle wrapper --gradle-version {{gradle_version}}`
