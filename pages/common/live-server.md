@@ -2,18 +2,18 @@
 
 > A simple development http server with live reload capability.
 
-* Serve an index.html file and reload on changes:
+- Serve an index.html file and reload on changes:
 
 `live-server`
 
-* Specify a port from which to serve a file:
+- Specify a port from which to serve a file:
 
 `live-server --port={{8081}}`
 
-* Specify a given file to serve:
+- Specify a given file to serve:
 
 `live-server --open={{about.html}}`
 
-* Proxy all requests for ROUTE to URL:
+- Proxy all requests for ROUTE to URL:
 
 `live-server --proxy={{/}}:{{http:localhost:3000}}`
