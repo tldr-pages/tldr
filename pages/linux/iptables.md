@@ -8,7 +8,7 @@
 
 - Set chain policy rule:
 
-`sudo iptables -p {{chain}} {{rule}}`
+`sudo iptables -P {{chain}} {{rule}}`
 
 - Append rule to chain policy for IP:
 
