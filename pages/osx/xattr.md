@@ -12,11 +12,7 @@
 
 - Delete an attribute from a given file:
 
-`xattr -d {{attribute_key}} {{file}}`
-
-- Delete the quarantine attribute from a given file:
-
-`xattr -d com.apple.quarantine {{file}}`
+`xattr -d {{com.apple.quarantine}} {{file}}`
 
 - Delete all extended attributes from a given file:
 
