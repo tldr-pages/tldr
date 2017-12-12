@@ -5,7 +5,7 @@
 <blockquote><i>arguments_source</i> | xargs <i>command</i></blockquote>
 - Delete all files with a `.backup` extension:
 
-<blockquote><i>find . -name '*.backup'</i> | xargs <i>rm -v</i></blockquote>
+<blockquote>find . -name <i>'*.backup'</i> | xargs rm -v</blockquote>
 - Convert newlines in the input into NUL (`\0`) characters, and split on those only (useful if the input to xargs contains spaces):
 
 <blockquote><i>arguments_source</i> | tr '\n' '\0' | xargs -0 <i>command</i></blockquote>
