@@ -19,6 +19,6 @@
 
 `hg add --subrepos`
 
-- Test-run without performing any actions:
+- Perform a test-run without performing any actions:
 
 `hg add --dry-run`
