@@ -14,7 +14,7 @@
 
 `perl nikto.pl -h 192.168.0.1 -p 443`
 
-- Ports and protocols may also be specified by using a full URL syntax:
+- Scan ports and protocols with full URL syntax:
 
 `perl nikto.pl -h https://192.168.0.1:443/`
 
