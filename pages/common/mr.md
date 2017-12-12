@@ -1,6 +1,6 @@
 # mr
 
-> Myrepos manages all your version control repositories at once
+> Myrepos manages all your version control repositories at once.
 
 - Register repository:
 
@@ -8,12 +8,13 @@
 
 - Update repository in 5 concurent jobs:
 
-`mr -j5 update`
+`mr -j{{5}} update`
 
-- Prints status of my repos:
+- Prints statuses of all repos:
 
 `mr status`
 
-- Checkout my repos to latest version:
+- Checkout repos to latest version:
 
 `mr checkout`
+
