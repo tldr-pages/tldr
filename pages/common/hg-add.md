@@ -11,7 +11,7 @@
 
 `hg add --include {{pattern}}`
 
-- Add all unstaged files excluding those that match a specified pattern:
+- Add all unstaged files, excluding those that match a specified pattern:
 
 `hg add --exclude {{pattern}}`
 
