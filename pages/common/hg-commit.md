@@ -18,7 +18,7 @@
 
 `hg commit -I/--include {{pattern}}`
 
-- Commit all files excluding those that match a specified pattern:
+- Commit all files, excluding those that match a specified pattern:
 
 `hg commit -X/--exclude {{pattern}}`
 
