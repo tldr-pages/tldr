@@ -10,7 +10,7 @@
 
 `mr -j{{5}} update`
 
-- Prints statuses of all repos:
+- Print statuses of all repos:
 
 `mr status`
 
