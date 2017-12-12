@@ -12,16 +12,16 @@
 
 - Commit with a specific message:
 
-`hg commit -m/--message {{message}}`
+`hg commit --message {{message}}`
 
 - Commit all files matching a specified pattern:
 
-`hg commit -I/--include {{pattern}}`
+`hg commit --include {{pattern}}`
 
 - Commit all files, excluding those that match a specified pattern:
 
-`hg commit -X/--exclude {{pattern}}`
+`hg commit --exclude {{pattern}}`
 
 - Commit using the interactive mode:
 
-`hg commit -i/--interactive`
+`hg commit --interactive`
