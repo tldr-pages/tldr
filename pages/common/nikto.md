@@ -2,15 +2,15 @@
 
 > Web server scanner which performs comprehensive tests against web servers for multiple items, including over 6700 potentially dangerous files/programs.
 
-- To update to the latest plugins and databases:
+- Update to to the latest plugins and databases:
 
 `perl nikto.pl -update`
 
-- The most basic Nikto scan requires simply a host to target:
+- Perform a basic Nikto scan against a target host:
 
 `perl nikto.pl -h 192.168.0.1`
 
-- To check on a different port:
+- Specify the port number when performing a basic scan:
 
 `perl nikto.pl -h 192.168.0.1 -p 443`
 
