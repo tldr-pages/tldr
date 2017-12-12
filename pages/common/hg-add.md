@@ -2,15 +2,15 @@
 
 > Adds specified files to the staging area for the next commit in Mercurial.
 
-- Add all files to the index:
+- Add all unstaged files to the index:
 
 `hg add`
 
-- Add all files matching a specified pattern:
+- Add all unstaged files matching a specified pattern:
 
 `hg add --include {{pattern}}`
 
-- Add all files excluding those that match a specified pattern:
+- Add all unstaged files excluding those that match a specified pattern:
 
 `hg add --exclude {{pattern}}`
 
