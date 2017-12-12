@@ -3,7 +3,7 @@
 > Python Development Workflow for Humans.
 > Manages packages and virtual environment for a project.
 
-- Create a new project:"
+- Create a new project:
 
 `pipenv`
 
