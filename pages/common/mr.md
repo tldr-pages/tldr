@@ -17,4 +17,3 @@
 - Checkout repos to latest version:
 
 `mr checkout`
-
