@@ -1,23 +1,24 @@
 # mvn
 
-> Apache Maven. A build automation tool used for JVM environment projects.
+> Apache Maven.
+> Tool for building and managing Java-based projects.
 
-- Most common usage is to invoke a life cicle phase:
+- Compile and build release package:
 
 `mvn package`
 
-- Invoke more that one phase with arguments:
+- Execute with debug information:
 
-`mvn clean -P a_profile package clean`
+`mvn -X package`
 
-- Ouput all debug information:
+- Use an alternative POM(Project Object Model):
 
-`mvn -X clean -P a_profile package clean`
+`mvn -f {{path/to/custom_pom.xml}} compile`
 
-- Use an alternative pom o directory:
+- Invoke more that one Lifecycle phase with arguments:
 
-`mvn -f path/to/other/pom.xml clean`
+`mvn clean -P {{a_profile}} package clean`
 
-- Run a spring boot project with remote debug:
+- Run a class with a main method:
 
-`mvn spring-boot:run -Drun.jvmArguments="-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005"`
+`mvn exec:java -Dexec.mainClass="{{com.example.Main}}" -Dexec.args="{{arg1 arg2}}"`
