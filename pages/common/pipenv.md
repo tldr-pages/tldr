@@ -1,7 +1,7 @@
 # pipenv
 
-> Python Development Workflow for Humans.
-> Manages packages and virtual environment for a project.
+> Python development workflow for humans.
+> Manages packages and the virtual environment for a project.
 
 - Create a new project:
 
@@ -15,7 +15,7 @@
 
 `pipenv install {{package_name}}`
 
-- Install all dependencies for a project (including dev):
+- Install all the dependencies for a project (including dev):
 
 `pipenv install --dev`
 
@@ -23,6 +23,6 @@
 
 `pipenv uninstall {{package_name}}`
 
-- Activate a shell within the created virtual environment:
+- Start a shell within the created virtual environment:
 
 `pipenv shell`
