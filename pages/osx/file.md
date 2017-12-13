@@ -2,7 +2,7 @@
 
 > Determine file type.
 
-- Give a description of the type of the specified file.  Works fine for files with no file extension:
+- Give a description of the type of the specified file.  Works fine for files with no file extension.
 
 `file {{filename}}`
 
@@ -20,4 +20,4 @@
 
 - Determine the mime encoding type of a file:
 
-`file -i {{filename}}`
+`file -I {{filename}}`
