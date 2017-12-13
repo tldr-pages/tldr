@@ -18,6 +18,6 @@
 
 `perl nikto.pl -h {{192.168.0.1}} -p {{80,88,443}}`
 
-- Update to to the latest plugins and databases:
+- Update to the latest plugins and databases:
 
 `perl nikto.pl -update`
