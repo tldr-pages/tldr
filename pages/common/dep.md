@@ -10,13 +10,13 @@
 
 `dep ensure`
 
-- Report the status of the project's depedencies:
+- Report the status of the project's dependencies:
 
 `dep status`
 
 - Add a dependency to the project:
 
-`dep ensure -add {{project_url}}`
+`dep ensure -add {{package_url}}`
 
 - Update the locked versions of all dependencies:
 
