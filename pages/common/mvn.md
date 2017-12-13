@@ -3,21 +3,33 @@
 > Apache Maven.
 > Tool for building and managing Java-based projects.
 
-- Compile and build release package:
+- Compile a project:
+
+`mvn compile`
+
+- Compile and package the compiled code in its distributable format, such as a `jar`:
 
 `mvn package`
 
-- Execute with debug information:
+- Compile and package, skipping unit tests:
 
-`mvn -X package`
+`mvn package -Dmaven.test.skip=true`
 
-- Use an alternative POM(Project Object Model):
+- Install the built package in local maven repository. (This will invoke the compile and package commands too):
 
-`mvn -f {{path/to/custom_pom.xml}} compile`
+`mvn install`
 
-- Invoke more that one Lifecycle phase with arguments:
+- Delete build artifacts from the target folder:
 
-`mvn clean -P {{a_profile}} package clean`
+`mvn clean`
+
+- Do a clean and then invoke the package phase:
+
+`mvn clean package`
+
+- Clean and then package the code with a given build profile:
+
+`mvn clean -P{{profile}} package`
 
 - Run a class with a main method:
 
