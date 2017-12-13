@@ -6,7 +6,7 @@
 
 `live-server`
 
-- Specify a port from which to serve a file:
+- Specify a port (default is 8080) from which to serve a file:
 
 `live-server --port={{8081}}`
 
