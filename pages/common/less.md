@@ -22,6 +22,10 @@
 
 `?{{something}}`
 
+- Follow the output of the currently opened file:
+
+`F`
+
 - Open the current file in an editor:
 
 `v`
