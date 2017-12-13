@@ -1,12 +1,12 @@
 # dep
 
-> Tool for dependency management in the Go ecosystem.
+> Tool for dependency management in Go projects.
 
-- Initialize a directory to be a project:
+- Initialize the current directory as the root of a Go project:
 
 `dep init`
 
-- Install the project dependencies:
+- Install any missing dependencies (Scans Gopkg.toml and your .go files):
 
 `dep ensure`
 
@@ -14,7 +14,7 @@
 
 `dep status`
 
-- Add a new depedency:
+- Add a dependency to the project:
 
 `dep ensure -add {{project_url}}`
 
