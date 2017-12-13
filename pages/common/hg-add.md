@@ -1,7 +1,6 @@
 # hg add
 
 > Adds specified files to the staging area for the next commit in Mercurial.
-> See the `hg` page for additional information.
 
 - Add files or directories to the staging area:
 
