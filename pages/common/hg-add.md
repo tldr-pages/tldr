@@ -15,7 +15,7 @@
 
 `hg add --exclude {{pattern}}`
 
-- Recurse into sub-repositories:
+- Recursively add sub-repositories:
 
 `hg add --subrepos`
 
