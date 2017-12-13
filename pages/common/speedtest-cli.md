@@ -14,6 +14,6 @@
 
 `speedtest-cli --list > speedtest_servers.txt`
 
-- Run a speed test to the given speedtest.net server number:
+- Run a speed test to the given speedtest.net server id:
 
 `speedtest-cli --server {{server_id}}`
