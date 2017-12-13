@@ -1,0 +1,26 @@
+<b>mvn</b><br><br>
+<b>Apache Maven.</b><br><br><b>Tool for building and managing Java-based projects.</b><br><br>
+- Compile a project:
+
+<blockquote>mvn compile</blockquote>
+- Compile and package the compiled code in its distributable format, such as a `jar`:
+
+<blockquote>mvn package</blockquote>
+- Compile and package, skipping unit tests:
+
+<blockquote>mvn package -Dmaven.test.skip=true</blockquote>
+- Install the built package in local maven repository. (This will invoke the compile and package commands too):
+
+<blockquote>mvn install</blockquote>
+- Delete build artifacts from the target folder:
+
+<blockquote>mvn clean</blockquote>
+- Do a clean and then invoke the package phase:
+
+<blockquote>mvn clean package</blockquote>
+- Clean and then package the code with a given build profile:
+
+<blockquote>mvn clean -P<i>profile</i> package</blockquote>
+- Run a class with a main method:
+
+<blockquote>mvn exec:java -Dexec.mainClass="<i>com.example.Main</i>" -Dexec.args="<i>arg1 arg2</i>"</blockquote>

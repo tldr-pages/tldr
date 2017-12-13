@@ -1,0 +1,17 @@
+<b>nikto</b><br><br>
+<b>Web server scanner which performs comprehensive tests against web servers for multiple items.</b><br><br>
+- Perform a basic Nikto scan against a target host:
+
+<blockquote>perl nikto.pl -h <i>192.168.0.1</i></blockquote>
+- Specify the port number when performing a basic scan:
+
+<blockquote>perl nikto.pl -h <i>192.168.0.1</i> -p <i>443</i></blockquote>
+- Scan ports and protocols with full URL syntax:
+
+<blockquote>perl nikto.pl -h <i>https://192.168.0.1:443/</i></blockquote>
+- Scan multiple ports in the same scanning session:
+
+<blockquote>perl nikto.pl -h <i>192.168.0.1</i> -p <i>80,88,443</i></blockquote>
+- Update to the latest plugins and databases:
+
+<blockquote>perl nikto.pl -update</blockquote>

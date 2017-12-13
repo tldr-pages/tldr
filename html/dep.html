@@ -1,0 +1,17 @@
+<b>dep</b><br><br>
+<b>Tool for dependency management in Go projects.</b><br><br>
+- Initialize the current directory as the root of a Go project:
+
+<blockquote>dep init</blockquote>
+- Install any missing dependencies (Scans Gopkg.toml and your .go files):
+
+<blockquote>dep ensure</blockquote>
+- Report the status of the project's dependencies:
+
+<blockquote>dep status</blockquote>
+- Add a dependency to the project:
+
+<blockquote>dep ensure -add <i>package_url</i></blockquote>
+- Update the locked versions of all dependencies:
+
+<blockquote>dep ensure -update</blockquote>
