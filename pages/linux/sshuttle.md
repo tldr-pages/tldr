@@ -13,4 +13,4 @@
 
 - Forward all IPv4 and IPv6 traffic via a remote SSH server:
 
-`sudo sshuttle --remote={{username}}@{{sshserver}} --method=tproxy {{0.0.0.0/0}} {{::/0}} --exclude={{your_local_ip_address}} --exclude={{ssh_server_ip_address}}
+`sudo sshuttle --remote={{username}}@{{sshserver}} --method=tproxy {{0.0.0.0/0}} {{::/0}} --exclude={{your_local_ip_address}} --exclude={{ssh_server_ip_address}}`
