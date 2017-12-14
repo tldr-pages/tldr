@@ -1,6 +1,6 @@
 # pipenv
 
-> Python development workflow for humans.
+> Simple and unified Python development workflow.
 > Manages packages and the virtual environment for a project.
 
 - Create a new project:
