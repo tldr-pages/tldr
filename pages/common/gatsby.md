@@ -10,7 +10,7 @@
 
 `gatsby new {{site_name}} {{url_of_starter_github_repo}}`
 
-- Start a live-reloading developer environment:
+- Start a live-reloading local development server:
 
 `gatsby develop`
 
@@ -18,6 +18,6 @@
 
 `gatsby build`
 
-- Start a local HTML server:
+- Start a local build server:
 
 `gatsby serve`
