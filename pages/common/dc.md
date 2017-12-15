@@ -6,7 +6,7 @@
 
 `dc`
 
-- Calculate 4 times 5 [4 5 *] subtract 17 [17 -] and [p]rint the output :
+- Calculate 4 times 5 [4 5 *], subtract 17 [17 -], and [p]rint the output :
 
 `echo "4 5 * 17 - p"| dc`
 
@@ -14,6 +14,6 @@
 
 `echo "7 k 5 _3 / p" | dc`
 
-- To 100 decimal places [100 k] , calculate the golden ratio, phi, sqrt(5) [5 v] plus 1 [1 +], divided by 2 [2 /] and [p]rint result:
+- To 100 decimal places [100 k], calculate the golden ratio, phi, sqrt(5) [5 v] plus 1 [1 +], divided by 2 [2 /], and [p]rint result:
 
 `echo "100 k 5 v 1 + 2 / p" | dc`
