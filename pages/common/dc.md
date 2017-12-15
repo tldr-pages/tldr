@@ -16,4 +16,4 @@
 
 - To 100 decimal places [100 k] , calculate the golden ratio, phi, sqrt(5) [5 v] plus 1 [1 +], divided by 2 [2 /] and [p]rint result:
 
-`echo "100 k 5 v 1 + 2 / p" | dc` 
+`echo "100 k 5 v 1 + 2 / p" | dc`
