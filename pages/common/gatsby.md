@@ -18,6 +18,6 @@
 
 `gatsby build`
 
-- Start a local build server:
+- Start a local server which serves the production build:
 
 `gatsby serve`
