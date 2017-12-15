@@ -2,7 +2,7 @@
 
 > Commit files to the repository.
 
-- Commit staged files to the repository with comment:
+- Commit staged files to the repository with a message:
 
 `git commit -m {{message}}`
 
@@ -10,6 +10,6 @@
 
 `git commit --amend`
 
-- Auto stage all modified files and commit with comment:
+- Auto stage all modified files and commit with a message:
 
 `git commit -a -m {{message}}`
