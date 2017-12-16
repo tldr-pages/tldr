@@ -14,7 +14,7 @@
 
 `echo "4 5 * 17 - p"| dc`
 
-- Set number of decimal places to 10 [k 7], calculate 5 divided by -3 [5 _3 /] and [p]rint (using dc -e):
+- Set number of decimal places to 7 [7 k], calculate 5 divided by -3 [5 _3 /] and [p]rint (using dc -e):
 
 `dc -e "7 k 5 _3 / p"`
 
