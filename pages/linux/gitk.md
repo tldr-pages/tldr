@@ -12,7 +12,7 @@
 
 - Show commits since 1 week ago:
 
-`gitk --since="1 week ago"` 
+`gitk --since="1 week ago"`
 
 - Show commits older than 1/1/2016
 
