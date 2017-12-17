@@ -18,6 +18,6 @@
 
 `dc -e "7 k 5 _3 / p"`
 
-- To 100 decimal places [100 k], calculate the golden ratio, phi: sqrt(5) [5 v] plus 1 [1 +], divided by 2 [2 /], and [p]rint result:
+- Calculate the golden ratio, phi: Set number of decimal places to 100 [100 k], square root of 5 [5 v] plus 1 [1 +], divided by 2 [2 /], and [p]rint result:
 
 `dc -e "100 k 5 v 1 + 2 / p"`
