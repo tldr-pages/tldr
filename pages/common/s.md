@@ -2,7 +2,7 @@
 
 > Web search from the terminal.
 
-- Search for query on Google(default provider).
+- Search for query on Google(default provider):
 
 `s {{query}}`
 
