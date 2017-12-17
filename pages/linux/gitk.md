@@ -14,7 +14,7 @@
 
 `gitk --since="1 week ago"`
 
-- Show commits older than 1/1/2016
+- Show commits older than 1/1/2016:
 
 `gitk --until="1/1/2015"`
 
