@@ -16,4 +16,4 @@
 
 - Use a specified binary to perform the search query:
 
-`s --binary {{binary}} {{query}}`
+`s --binary "{{binary}} {{arguments}}" {{query}}`
