@@ -10,10 +10,10 @@
 
 `light -S 50`
 
-- Reduce 20 percent from the current backlight value:
+- Reduce 20 percent of the current backlight value:
 
 `light -U 20`
 
-- Add 20 to the current backlight value:
+- Add 20 percent to the current backlight value:
 
 `light -A 20`
