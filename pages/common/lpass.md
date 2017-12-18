@@ -21,4 +21,3 @@
 - Show password for a specified entry (usually the website url):
 
 `lpass show {{gmail.com}} --password`
-
