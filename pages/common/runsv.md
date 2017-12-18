@@ -1,6 +1,6 @@
 # runsv
 
-> Starts and manages a runit service.
+> Start and manage a runit service.
 
 - Start a runit service as yourself.
 
