@@ -2,7 +2,7 @@
 
 > Toolkit for deploying and operating serverless architectures on AWS, Google Cloud, Azure and IBM OpenWhisk.
 
-- Create a serverless project.
+- Create a serverless project:
 
 `sls create`
 
@@ -25,3 +25,4 @@
 - Display metrics for a function:
 
 `sls metrics -f {{function_name}}`
+
