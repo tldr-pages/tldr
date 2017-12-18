@@ -1,6 +1,6 @@
 # light
 
-> CLI to control backlight.
+> CLI to control the backlight of your screen.
 
 - Get the current backlight value in percent:
 
