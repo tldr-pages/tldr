@@ -2,18 +2,18 @@
 
 > Web search from the terminal.
 
-- Search for query on Google(default provider):
+- Search for a query on Google(default provider):
 
 `s {{query}}`
-
-- Search for a query on provider:
-
-`s --provider {{provider}} {{query}}`
 
 - List all providers:
 
 `s --list-providers`
 
-- Search for query in binary:
+- Search for a query with a given provider:
 
-`s --binary "{{binary}}" {{query}}`
+`s --provider {{provider}} {{query}}`
+
+- Use a specified binary to perform the search query:
+
+`s --binary {{binary}} {{query}}`
