@@ -13,3 +13,7 @@
 - Open a file or directory in VS Code:
 
 `code {{path/to/file_or_folder}}`
+
+- Open a file or directory in the currently open VS Code window:
+
+`code --reuse-window {{path/to/file_or_folder}}`
