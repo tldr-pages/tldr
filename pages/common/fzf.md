@@ -8,7 +8,7 @@
 
 - Start finder on running processes:
 
-`ps axu | fzf`
+`ps aux | fzf`
 
 - Select multiple files with `Shift-TAB` and write to a file:
 
