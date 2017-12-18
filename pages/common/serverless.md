@@ -25,4 +25,3 @@
 - Display metrics for a function:
 
 `sls metrics -f {{function_name}}`
-
