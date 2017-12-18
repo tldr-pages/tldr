@@ -1,4 +1,4 @@
-# ligth
+# light
 
 > CLI to control backlight.
 
@@ -6,14 +6,14 @@
 
 `light`
 
-- Set the backlight value to percent:
+- Set the backlight value to a given value in percent:
 
-`light -S {{percent}}`
+`light -S {{value}}`
 
-- Reduce percentage to the current backlight value:
+- Reduce given percentage from the current backlight value in percent:
 
-`light -U {{percent}}`
+`light -U {{value}}`
 
-- Add percentage to the current backlight value:
+- Add given percentage to the current backlight value in percent:
 
-`light -A {{percent}}`
+`light -A {{value}}`
