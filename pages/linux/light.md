@@ -6,14 +6,14 @@
 
 `light`
 
-- Set the backlight value to a given value in percent:
+- Set the backlight value to 50 percent:
 
-`light -S {{value}}`
+`light -S 50`
 
-- Reduce given percentage from the current backlight value in percent:
+- Reduce 20 percent from the current backlight value:
 
-`light -U {{value}}`
+`light -U 20`
 
-- Add given percentage to the current backlight value in percent:
+- Add 20 to the current backlight value:
 
-`light -A {{value}}`
+`light -A 20`
