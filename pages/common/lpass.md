@@ -2,7 +2,7 @@
 
 > Command line interface for LastPass Password Manager.
 
-- Login to your LastPass account, by entering your Master Password when promted:
+- Login to your LastPass account, by entering your Master Password when prompted:
 
 `lpass login {{username}}`
 
@@ -14,10 +14,11 @@
 
 `lpass ls`
 
-- Show password for a specified entry (usually the website url):
-
-`lpass show {{identifier}} --password`
-
 - Generate a new password and add to LastPass:
 
-`lpass generate --username {{username}} --url {{url}} {{identifier}} {{password_lenght}}`
+`lpass generate --username {{username}} --url {{gmail.com}} {{gmail.com}} {{password_length}}`
+
+- Show password for a specified entry (usually the website url):
+
+`lpass show {{gmail.com}} --password`
+
