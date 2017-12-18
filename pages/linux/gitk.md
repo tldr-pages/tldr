@@ -2,7 +2,7 @@
 
 > A graphical git repository browser.
 
-- Show repository browser in current git repository:
+- Show the repository browser for the current git repository:
 
 `gitk`
 
