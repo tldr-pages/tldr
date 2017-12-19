@@ -1,6 +1,6 @@
 # lpass
 
-> Command line interface for LastPass password manager.
+> Command line interface for the LastPass password manager.
 
 - Login to your LastPass account, by entering your master password when prompted:
 
