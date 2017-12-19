@@ -6,7 +6,7 @@
 
 `sls create`
 
-- Create a serverless project from template:
+- Create a serverless project from a template:
 
 `sls create --template {{template_name}}`
 
@@ -18,7 +18,7 @@
 
 `sls info`
 
-- Follow logs for a project:
+- Follow the logs for a project:
 
 `sls logs -t`
 
