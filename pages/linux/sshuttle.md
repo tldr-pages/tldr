@@ -11,6 +11,6 @@
 
 `sshuttle --dns --remote={{username}}@{{sshserver}} {{0.0.0.0/0}}`
 
-- Forward all IPv4 and IPv6 traffic:
+- Use the tproxy method to forward all IPv4 and IPv6 traffic:
 
-`sudo sshuttle --remote={{username}}@{{sshserver}} --method=tproxy {{0.0.0.0/0}} {{::/0}} --exclude={{your_local_ip_address}} --exclude={{ssh_server_ip_address}}`
+`sudo sshuttle --method=tproxy --remote={{username}}@{{sshserver}} {{0.0.0.0/0}} {{::/0}} --exclude={{your_local_ip_address}} --exclude={{ssh_server_ip_address}}`
