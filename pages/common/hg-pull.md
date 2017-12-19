@@ -6,7 +6,7 @@
 
 `hg pull`
 
-- Update the local repository to the head of the remote:
+- Pull from a specified source repository:
 
 `hg pull {{path/to/source/repository}}`
 
