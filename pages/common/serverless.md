@@ -1,27 +1,28 @@
 # serverless
 
 > Toolkit for deploying and operating serverless architectures on AWS, Google Cloud, Azure and IBM OpenWhisk.
+> Commands can be run either using the `serverless` command or it's alias, `sls`. 
 
 - Create a serverless project:
 
-`sls create`
+`serverless create`
 
 - Create a serverless project from a template:
 
-`sls create --template {{template_name}}`
+`serverless create --template {{template_name}}`
 
 - Deploy to a cloud provider:
 
-`sls deploy`
+`serverless deploy`
 
 - Display information about a serverless project:
 
-`sls info`
+`serverless info`
 
 - Follow the logs for a project:
 
-`sls logs -t`
+`serverless logs -t`
 
 - Display metrics for a function:
 
-`sls metrics -f {{function_name}}`
+`serverless metrics -f {{function_name}}`
