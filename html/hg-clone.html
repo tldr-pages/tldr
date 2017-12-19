@@ -1,0 +1,17 @@
+<b>hg clone</b><br><br>
+<b>Create a copy of an existing repository in a new directory.</b><br><br>
+- Clone a repository to a specified directory:
+
+<blockquote>hg clone <i>remote_repository_source</i> <i>destination_path</i></blockquote>
+- Clone a repository to the head of a specific branch, ignoring later commits:
+
+<blockquote>hg clone --branch <i>branch</i> <i>remote_repository_source</i></blockquote>
+- Clone a repository with only the ".hg" directory, without checking out files:
+
+<blockquote>hg clone --noupdate <i>remote_repository_source</i></blockquote>
+- Clone a repository to a specific revision, tag or branch, keeping the entire history:
+
+<blockquote>hg clone --updaterev <i>revision</i> <i>remote_repository_source</i></blockquote>
+- Clone a repository up to a specific revision without any newer history:
+
+<blockquote>hg clone --rev <i>revision</i> <i>remote_repository_source</i></blockquote>

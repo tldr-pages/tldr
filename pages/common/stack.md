@@ -1,6 +1,6 @@
 # stack
 
-> Tool for managing haskell projects.
+> Tool for managing Haskell projects.
 
 - Create a new project:
 
@@ -25,3 +25,7 @@
 - Compile a project and execute a command after compilation:
 
 `stack build --exec "{{command}}"`
+
+- Run a program and pass an argument to it:
+
+`stack exec {{program_name}} -- {{argument}}`
