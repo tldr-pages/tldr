@@ -8,6 +8,10 @@
 
 - Update the local repository to the head of the remote:
 
+`hg pull {{path/to/source/repository}}`
+
+- Update the local repository to the head of the remote:
+
 `hg pull --update`
 
 - Pull changes even when the remote repository is unrelated:
