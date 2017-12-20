@@ -8,7 +8,7 @@
 
 - Launch a session with a given url:
 
-`http-prompt {{http://example.org}}`
+`http-prompt {{http://example.com}}`
 
 - Launch a session with some initial options:
 
