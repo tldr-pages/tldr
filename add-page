@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if [ $# -lt 1 ]
+then
+   echo "Please provide the name of a file we want to edit/create."
+   exit 1
+fi
+
+htmlfile=$(basename $1)
+htmlfile=$(echo $htmlfile | sed 's/.md/.html/g')
+vi "$1"
+echo "$1" $htmlfile
+php convert-to-html.php "$1"
+git add "$1" html/$htmlfile
+scp html/$htmlfile jsmith@distrowatch.com:dww/text/man-pages/
