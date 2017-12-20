@@ -10,7 +10,7 @@
 
 `hg push {{path/to/destination_repository}}`
 
-- Allow pushing a new branch (disabled by default):
+- Push a new branch if it does not exist (disabled by default):
 
 `hg push --new-branch`
 
