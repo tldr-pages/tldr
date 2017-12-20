@@ -4,7 +4,7 @@
 
 - Display the file access control list:
 
-`getfacl -a {{path/to/file_or_folder}}`
+`getfacl {{path/to/file_or_folder}}`
 
 - Display the file access control list with numeric user and group IDs:
 
