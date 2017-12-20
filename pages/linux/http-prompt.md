@@ -2,14 +2,14 @@
 
 > An interactive command-line HTTP client featuring autocomplete and syntax highlighting.
 
-- Start with the last session or http://localhost:8000:
+- Launch a session targeting the default url of http://localhost:8000 or the previous session:
 
 `http-prompt`
 
-- Start with the given URL:
+- Launch a session with a given url:
 
-`http-prompt {{http://httpbin.org}}`
+`http-prompt {{http://example.org}}`
 
-- Start with some initial options:
+- Launch a session with some initial options:
 
-`http-prompt {{localhost:8000/api}} --auth user:pass username={{somebody}}`
+`http-prompt {{localhost:8000/api}} --auth user:pass username={{user}}`
