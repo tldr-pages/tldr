@@ -2,13 +2,13 @@
 
 > Pull changes from a specified repository to the local repository.
 
-- Pull from the `default` source path:
+- Pull from the "default" source path:
 
 `hg pull`
 
 - Pull from a specified source repository:
 
-`hg pull {{path/to/source/repository}}`
+`hg pull {{path/to/source_repository}}`
 
 - Update the local repository to the head of the remote:
 
