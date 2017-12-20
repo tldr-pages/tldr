@@ -2,18 +2,18 @@
 
 > Myrepos manages all your version control repositories at once.
 
-- Register repository:
+- Register a repository:
 
 `mr register`
 
-- Update repository in 5 concurent jobs:
+- Update repositories in 5 concurent jobs:
 
 `mr -j{{5}} update`
 
-- Print statuses of all repos:
+- Print the status of all repositories:
 
 `mr status`
 
-- Checkout repos to latest version:
+- Checkout all repositories to the latest version:
 
 `mr checkout`
