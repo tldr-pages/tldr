@@ -6,10 +6,10 @@
 
 `nmon`
 
-- Save records to file (default args "-s300 -c288" for 300 seconds between refreshing the screen and 288 refreshes):
+- Save records to file ("-s 300 -c 288" by default):
 
 `nmon -f`
 
-- Save records to file with 30 seconds refreshing gap and 240 refreshes:
+- Save records to file with a total of 240 measurements by taking 30 seconds between each measurement:
 
 `nmon -f -s {{30}} -c {{240}}`
