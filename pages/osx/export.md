@@ -12,4 +12,4 @@
 
 - Append something to the PATH variable:
 
-`export PATH=$PATH:{{/path/to/append}}`
+`export PATH=$PATH:{{path/to/append}}`
