@@ -19,10 +19,10 @@
 
 `serverless info`
 
+- Invoke a deployed function:
+
+`serverless invoke -f {{function_name}}`
+
 - Follow the logs for a project:
 
 `serverless logs -t`
-
-- Display metrics for a function:
-
-`serverless metrics -f {{function_name}}`
