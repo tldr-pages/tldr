@@ -22,10 +22,6 @@
 
 `cpufreq-info -l`
 
-- Show the used cpufreq kernel driver:
-
-`cpufreq-info -d`
-
 - Show the currently used cpufreq policy:
 
 `cpufreq-info -p`
