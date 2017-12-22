@@ -1,6 +1,6 @@
 # httpie
 
-> A human-friendly CLI HTTP tool.
+> A user friendly command line HTTP tool.
 
 - Send a GET request (default method with no request data):
 
@@ -14,13 +14,13 @@
 
 `http {{example.org}} < {{file.json}}`
 
-- Send a PUT request:
+- Send a PUT request with a given json body:
 
-`http PUT {{httpbin.org/put}} {{API-Key:foo hello=world}}`
+`http PUT {{httpbin.org/put}} {{hello=world}}`
 
-- Send a DELETE request:
+- Send a DELETE request with a giben header:
 
-`http DELETE {{example.org/todos/7}}`
+`http DELETE {{example.org/todos/7}} {{API-Key:foo}}`
 
 - Show the whole HTTP exchange (both request and response):
 
