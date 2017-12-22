@@ -1,6 +1,6 @@
 # nmon
 
-> A system administrator, tuner, benchmark tool.
+> A system administrator, tuner, and benchmark tool.
 
 - Start nmon:
 
