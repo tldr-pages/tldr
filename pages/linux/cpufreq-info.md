@@ -2,19 +2,19 @@
 
 > A tool to show CPU frequency information.
 
-- Show cpufreq kernel information for all CPUs:
+- Show CPU frequency kernel information for all CPUs:
 
 `cpufreq-info`
 
-- Show cpufreq kernel information for specified CPU:
+- Show CPU frequency kernel information for the specified CPU:
 
 `cpufreq-info -c {{cpu_number}}`
 
-- Show current CPU work frequency in human-readable format, according to the cpufreq core:
+- Show current CPU work frequency in a human-readable format, according to the kernel module:
 
 `cpufreq-info -f -m`
 
-- Show current CPU work frequency in human-readable format, by reading it from hardware (only available to root):
+- Show current CPU work frequency in a human-readable format, by reading it from hardware (only available to root):
 
 `sudo cpufreq-info -w -m`
 
@@ -22,14 +22,14 @@
 
 `cpufreq-info -l`
 
-- Show the currently used cpufreq policy:
+- Show the currently used CPU frequency policy:
 
 `cpufreq-info -p`
 
-- Show available cpufreq policy:
+- Show available CPU frequency policies:
 
 `cpufreq-info -g`
 
-- Show the minimum, maximum CPU frequency and currently used cpufreq policy in table format:
+- Show the minimum, maximum CPU frequency and currently used policy in table format:
 
 `cpufreq-info -o`
