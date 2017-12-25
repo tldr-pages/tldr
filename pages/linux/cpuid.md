@@ -6,7 +6,7 @@
 
 `cpuid`
 
-- Display information only for the first CPU:
+- Display information only for the current CPU:
 
 `cpuid -1`
 
