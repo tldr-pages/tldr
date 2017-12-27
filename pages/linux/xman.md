@@ -6,7 +6,7 @@
 
 `xman`
 
-- Open helpfile other than default:
+- Open the manual page output stored in a given file:
 
 `xman -helpfile {{filename}}`
 
