@@ -8,7 +8,7 @@ for the behavior expected of tldr-pages maintainers:
   **Be welcoming and friendly**, and if you don't know how to answer,
   ping other maintainers who you think might have a say.
 
-- Although push access allows committing directly to master,
+- Although push access allows committing directly to the repository,
   plase **create pull requests for all of your changes**,
   except the simplest ones (e.g. typo fixes).
   This ensures that the entire process other contributors go through
@@ -18,7 +18,7 @@ for the behavior expected of tldr-pages maintainers:
 - Ideally, **every new discussion should receive a response within 24 hours**.
   You can respond yourself or ask other members to provide their thoughts/opinions.
 
-- When mergin PRs, use the strategy that produces a **clean git history** in the repository:
+- When merging PRs, use the strategy that produces a **clean git history** in the repository:
   Use squash if there's a single commit in the PR, or if the multiple commits are not independent changes.
   If the PR author took the time to craft individual, informative commit messages for each commit,
   use regular merge to honor that work and preserve the history of the changes.
