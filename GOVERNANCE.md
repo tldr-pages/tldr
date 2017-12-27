@@ -29,9 +29,10 @@ with no central authority.
 
 - **All communications are public**.
   There are no permanent private channels where maintainers discuss "internal" matters.
-  Occasional private chat messages may be exchanged,
+  Occasional private chat or email messages may be exchanged,
   e.g. when setting up services that require passwords,
-  but otherwise all exchanges that impact the project either happen in issue or PR discussions,
+  but otherwise all communications that impact the project
+  will either happen in issue and PR discussions,
   or in the [Gitter chat room](https://gitter.im/tldr-pages/tldr)
   (which is open to all, and publicly logged).
 
@@ -88,7 +89,7 @@ the metrics used are simple, objective, and publicly available.
   and their name added to the list of former maintainers in the MAINTAINERS.md file.
   Again, this is and merely a reflection of their actual involvement with the project,
   not a demotion or punishment. In fact, if they return to active participation in the project,
-  they should be re-added back to the organization, to reflect that fact.
+  they should be added back to the organization, to reflect that fact.
 
     - This inactivity threshold additionally ensures
       that the list of organization members doesn't grow to unwieldy sizes,
