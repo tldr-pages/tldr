@@ -12,4 +12,4 @@
 
 - Launch a session with some initial options:
 
-`http-prompt {{localhost:8000/api}} --auth user:pass username={{user}}`
+`http-prompt {{localhost:8000/api}} --auth {{username:password}}
