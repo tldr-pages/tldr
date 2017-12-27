@@ -97,8 +97,8 @@ There is also a comprehensive [list of clients in our Wiki](https://github.com/t
 - You can think of more examples for an existing command?
 
 Contributions are most welcome!
-Have a look at the [contributing guidelines](https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md)
-and go ahead!
+We strive to maintain a [welcoming and collaborative](GOVERNANCE.md) community.
+Have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!
 
 ## Similar projects
 
