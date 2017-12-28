@@ -6,6 +6,10 @@
 
 `git clone {{remote_repository_location}}`
 
+- Clone an existing repository and its submodules:
+
+`git clone --recursive {{remote_repository_location}}`
+
 - For cloning from the local machine:
 
 `git clone -l`
