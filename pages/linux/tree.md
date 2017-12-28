@@ -25,3 +25,7 @@
 - Filter the tree using a wildcard (glob) pattern:
 
 `tree -P {{*.txt}}`
+
+- Exclude a directory:
+
+`tree -I node_modules`
