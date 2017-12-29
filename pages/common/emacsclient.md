@@ -6,6 +6,6 @@
 
 `emacsclient -nw {{filename}}`
 
-- Open a file and not wait for it:
+- Open a file in an existing emacs frame and return immediately:
 
 `emacsclient -n {{filename}}`
