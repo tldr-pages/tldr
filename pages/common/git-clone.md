@@ -20,4 +20,4 @@
 
 - Clone an existing repository, and truncate to the specified number of revisions, save your time mostly:
 
-`git clone --depth 10 {{remote_repository_location}}`
+`git clone --depth {{10}} {{remote_repository_location}}`
