@@ -26,6 +26,6 @@
 
 `tree -P {{*.txt}}`
 
-- Ignore files that match a wildcard (glob) pattern:
+- Ignore entries that match a wildcard (glob) pattern:
 
-`tree -I '*.txt'`
+`tree -I {{*.txt}}`
