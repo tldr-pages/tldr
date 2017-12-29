@@ -26,6 +26,6 @@
 
 `tree -P {{*.txt}}`
 
-- Exclude a directory:
+- Ignore files that match a wildcard (glob) pattern:
 
-`tree -I node_modules`
+`tree -I '*.txt'`
