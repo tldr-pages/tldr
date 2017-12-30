@@ -13,3 +13,6 @@
 - Display JDK, JRE and HotSpot versions:
 
 `java -version`
+
+- Custom input and output files. Preferably .txt files
+`java {{classname}} <{{inputfile}}> outputfile`
