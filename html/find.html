@@ -14,8 +14,8 @@
 <blockquote>find <i>root_path</i> -mtime <i>-1</i></blockquote>
 - Find files using case insensitive name matching, of a certain size:
 
-<blockquote>find <i>root_path</i> -size +500k -size -10MB -iname '<i>*.TaR.gZ</i>'</blockquote>
-- Delete files by name, older than a certain number of days:
+<blockquote>find <i>root_path</i> -size <i>+500k</i> -size <i>-10MB</i> -iname '<i>*.TaR.gZ</i>'</blockquote>
+- Delete files by name, older than 180 days:
 
 <blockquote>find <i>root_path</i> -name '<i>*.ext</i>' -mtime <i>+180</i> -delete</blockquote>
 - Find files matching more than one search criteria:
