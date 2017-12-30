@@ -25,3 +25,7 @@
 - Filter the tree using a wildcard (glob) pattern:
 
 `tree -P {{*.txt}}`
+
+- Ignore entries that match a wildcard (glob) pattern:
+
+`tree -I {{*.txt}}`
