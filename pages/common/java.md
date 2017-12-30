@@ -14,5 +14,6 @@
 
 `java -version`
 
-- Custom input and output files. Preferably .txt files
-`java {{classname}} <{{inputfile}}> outputfile`
+- Custom input and output files. Preferably .txt files:
+
+`java {{classname}} <{{path/to/inputfile}}> {{path/to/outputfile}}`
