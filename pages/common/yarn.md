@@ -26,7 +26,7 @@
 
 `yarn why {{module_name}}`
 
-- Lists all packages and their dependencies for the current working directory
+- Lists all packages and their dependencies for the current working directory:
 
 `yarn list`
 
