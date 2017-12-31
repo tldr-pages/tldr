@@ -30,10 +30,10 @@
 
 `yarn list`
 
-- List dependencies with the desired level, e.g the root directories
+- List dependencies with the desired level, e.g the root directories:
 
 `yarn list --depth=0`
 
-- runs a package script defined in package.json file
+- Runs a package script defined in package.json file:
 
 `yarn run {{script_name}}`
