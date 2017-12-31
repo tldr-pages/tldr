@@ -34,6 +34,6 @@
 
 `yarn list --depth=0`
 
-- Runs a package script defined in package.json file:
+- Run a package script defined in package.json file:
 
 `yarn run {{script_name}}`
