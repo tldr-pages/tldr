@@ -25,3 +25,15 @@
 - Identify whether a module is a dependency and list other modules that depend upon it:
 
 `yarn why {{module_name}}`
+
+- List all packages and their dependencies for the current working directory:
+
+`yarn list`
+
+- List dependencies with the desired level, e.g the root directories:
+
+`yarn list --depth=0`
+
+- Run a package script defined in package.json file:
+
+`yarn run {{script_name}}`
