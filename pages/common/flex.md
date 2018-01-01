@@ -1,6 +1,6 @@
 # flex
 
-> Lexical analyser generator. Based on lex.
+> Lexical analyser generator. Based on `lex`.
 > Given the specification for a lexical analyser, generates C code implementing it.
 
 - Generate an analyser from a flex file:
