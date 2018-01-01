@@ -1,6 +1,6 @@
 # dmidecode
 
-> Display the DMI (some say SMBIOS) table contents in a human-readable format as root user.
+> Display the DMI (some say SMBIOS) table contents in a human-readable format with root privilege.
 
 - Show all DMI table contents:
 
@@ -10,14 +10,14 @@
 
 `sudo dmidecode -s bios-version`
 
-- Show the system serial number:
+- Show the system's serial number:
 
-`sudo dmidecode system-serial-number`
+`sudo dmidecode -s system-serial-number`
 
-- Show the whole BIOS information:
+- Show all the BIOS information:
 
 `sudo dmidecode -t bios`
 
-- Show the whole system information:
+- Show all the system information:
 
 `sudo dmidecode -t system`
