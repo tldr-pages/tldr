@@ -1,6 +1,6 @@
 # fish
 
-> A command-line shell for the 90's
+> A command-line shell designed to be user firendly.
 
 - Start interactive shell:
 
