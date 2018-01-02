@@ -22,6 +22,6 @@
 
 `fish --version`
 
-- Enable debug information:
+- Enable debug information (ranges from 0 to 128):
 
-`fish -D {{DEBUG_LEVEL}}`
+`fish -debug-stack-frames={{NUMBER}}`
