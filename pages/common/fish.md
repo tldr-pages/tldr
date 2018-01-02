@@ -24,4 +24,4 @@
 
 - Enable debug information (ranges from 0 to 128):
 
-`fish -debug-stack-frames={{NUMBER}}`
+`fish --debug-stack-frames={{NUMBER}}`
