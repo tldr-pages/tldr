@@ -14,7 +14,7 @@
 
 `qpdf --split-pages=n {{input.pdf}} {{out_%d.pdf}}`
 
-- Rotate and transform the PDF:
+- Rotate certain pages of a pdf with a given angle:
 
 `qpdf --rotate={{90:2,4,6}} --rotate={{180:7-8}} {{input.pdf}} {{output.pdf}}`
 
