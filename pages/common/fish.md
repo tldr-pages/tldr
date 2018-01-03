@@ -1,6 +1,7 @@
 # fish
 
-> A command-line shell designed to be user firendly.
+> Friendly Interactive SHell
+> A command-line interpreter designed to be user firendly.
 
 - Start interactive shell:
 
@@ -21,7 +22,3 @@
 - Display version information and exit:
 
 `fish --version`
-
-- Enable debug information (ranges from 0 to 128):
-
-`fish --debug-stack-frames={{NUMBER}}`
