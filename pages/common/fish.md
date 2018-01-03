@@ -1,6 +1,6 @@
 # fish
 
-> Friendly Interactive SHell
+> The Friendly Interactive SHell.
 > A command-line interpreter designed to be user firendly.
 
 - Start interactive shell:
