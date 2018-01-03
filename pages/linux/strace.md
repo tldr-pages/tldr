@@ -21,3 +21,7 @@
 - Start tracing a program by executing it:
 
 `strace {{program}}`
+
+- Start tracing file operations of a program:
+
+`strace -e trace=file {{program}}`
