@@ -8,7 +8,7 @@
 
 - Want to use multiple binaries, define the package name to be installed, then execute the binaries:
 
-`npx -p {{module_name}}`
+`npx -p {{package_name}} {{module_name}}`
 
 - View help contents:
 
