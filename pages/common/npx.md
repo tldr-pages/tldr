@@ -1,12 +1,12 @@
 # npx
 
-> Execute binaries from `npm` packages(most of the cli tools) .
+> Execute binaries from `npm` packages.
 
-- Execute the npm packages binaries(Package will be installed if it does not exist in node_modules or $PATH):
+- Execute the binary from a given npm module:
 
 `npx {{module_name}}`
 
-- Want to use multiple binaries, define the package name to be installed, then execute the binaries:
+- In case a package has multiple binaries, specify the package name along with the binary:
 
 `npx -p {{package_name}} {{module_name}}`
 
