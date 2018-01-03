@@ -6,7 +6,7 @@
 
 `npx {{module_name}}`
 
-- Define the package name to be installed, then execute the binaries:
+- Want to use multiple binaries, define the package name to be installed, then execute the binaries:
 
 `npx -p {{module_name}}`
 
