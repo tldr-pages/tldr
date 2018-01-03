@@ -1,0 +1,11 @@
+<b>sshuttle</b><br><br>
+<b>Transparent proxy server that tunnels traffic over an SSH connection.</b><br><br><b>Doesn't require admin, or any special setup on the remote SSH server.</b><br><br>
+- Forward all IPv4 TCP traffic via a remote SSH server:
+
+<blockquote>sshuttle --remote=<i>username</i>@<i>sshserver</i> <i>0.0.0.0/0</i></blockquote>
+- Forward all IPv4 TCP and DNS traffic:
+
+<blockquote>sshuttle --dns --remote=<i>username</i>@<i>sshserver</i> <i>0.0.0.0/0</i></blockquote>
+- Use the tproxy method to forward all IPv4 and IPv6 traffic:
+
+<blockquote>sudo sshuttle --method=tproxy --remote=<i>username</i>@<i>sshserver</i> <i>0.0.0.0/0</i> <i>::/0</i> --exclude=<i>your_local_ip_address</i> --exclude=<i>ssh_server_ip_address</i></blockquote>

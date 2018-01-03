@@ -1,0 +1,14 @@
+<b>lshw</b><br><br>
+<b>List detailed information about hardware configurations as root user.</b><br><br>
+- Launch the GUI:
+
+<blockquote>sudo lshw -X</blockquote>
+- List all hardwares in tabular format:
+
+<blockquote>sudo lshw -short</blockquote>
+- List all disks and storage controllers in tabular format:
+
+<blockquote>sudo lshw -class disk -class storage -short</blockquote>
+- Save all network interfaces to an HTML file:
+
+<blockquote>sudo lshw -class network -html > <i>interfaces.html</i></blockquote>

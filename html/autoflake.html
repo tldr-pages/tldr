@@ -1,0 +1,14 @@
+<b>autoflake</b><br><br>
+<b>A tool to remove unused imports and variables from Python code.</b><br><br>
+- Remove unused variables from a single file and display the diff:
+
+<blockquote>autoflake --remove-unused-variables <i>file.py</i></blockquote>
+- Remove unused imports from multiple files and display the diffs:
+
+<blockquote>autoflake --remove-all-unused-imports <i>file1.py</i> <i>file2.py</i> <i>file3.py</i></blockquote>
+- Remove unused variables from a file, overwriting the file:
+
+<blockquote>autoflake --remove-unused-variables --in-place <i>file.py</i></blockquote>
+- Remove unused variables recursively from all files in a directory, overwriting each file:
+
+<blockquote>autoflake --remove-unused-variables --in-place --recursive <i>path/to/directory</i></blockquote>
