@@ -8,4 +8,4 @@
 
 - Create a new branch for the next commit:
 
-`hg branch {{new_branch_name}}`
+`hg branch {{branch_name}}`
