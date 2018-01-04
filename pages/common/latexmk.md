@@ -23,6 +23,6 @@
 
 `latexmk -c {{source.tex}}`
 
-- Clean up all temporary tex and output files in the current directory:
+- Clean up all temporary tex files in the current directory:
 
-`latexmk -C`
+`latexmk -c`
