@@ -15,7 +15,7 @@
 
 `latexmk -pdf {{source.tex}}`
 
-- Force the generation of a document inspite of errors:
+- Force the generation of a document even if there are errors:
 
 `latexmk -f {{source.tex}}`
 
@@ -23,6 +23,6 @@
 
 `latexmk -c {{source.tex}}`
 
-- Clean up temporary tex and output files:
+- Clean up all temporary tex and output files in the current directory:
 
 `latexmk -C`
