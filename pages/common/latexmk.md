@@ -15,9 +15,9 @@
 
 `latexmk -pdf {{source.tex}}`
 
-- Clean up all temporary tex files in the folder:
+- Force the generation of a document inspite of errors:
 
-`latexmk -c`
+`latexmk -f {{source.tex}}`
 
 - Clean up temporary tex files created for a specific tex file:
 
