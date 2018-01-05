@@ -7,10 +7,6 @@
 
 `wget {{https://example.com/foo}}`
 
-- Mirror all listed files within a directory and its sub-directories only (no parent):
-
-`wget -m -np {{https://example.com/somepath/}}`
-
 - Download a single web page and all its resources (scripts, stylesheets, images, etc.):
 
 `wget --page-requisites --convert-links {{https://example.com/somepage.html}}`
@@ -18,6 +14,10 @@
 - Download a full website, with 3-second intervals between requests:
 
 `wget --mirror --page-requisites --convert-links --wait=3 {{https://example.com}}`
+
+- Download all listed files within a directory and its sub-directories (does not download embedded page elements):
+
+`wget --mirror --no-parent {{https://example.com/somepath/}}`
 
 - Download the contents of an URL via authenticated FTP:
 
