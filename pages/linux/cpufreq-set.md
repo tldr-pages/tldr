@@ -1,7 +1,7 @@
 # cpufreq-set
 
 > A tool to modify CPU frequency settings.
-> Requires root privileges. 
+> Requires root privileges.
 
 - Set the CPU frequency policy of CPU 1 to "userspace":
 
