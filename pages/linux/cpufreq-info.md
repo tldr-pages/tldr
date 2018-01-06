@@ -10,11 +10,11 @@
 
 `cpufreq-info -c {{cpu_number}}`
 
-- Show the allowed minimum, maximum CPU frequency:
+- Show the allowed minimum and maximum CPU frequency:
 
 `cpufreq-info -l`
 
-- Show the curcurrent minimum, maximum CPU frequency and policy in table format:
+- Show the current minimum and maximum CPU frequency and policy in table format:
 
 `cpufreq-info -o`
 
