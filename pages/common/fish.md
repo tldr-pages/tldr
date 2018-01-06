@@ -15,7 +15,7 @@
 
 `fish {{file.fish}}`
 
-- Check a file for syntax:
+- Check a file for syntax errors:
 
 `fish --no-execute {{file.fish}}`
 
