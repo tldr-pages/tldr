@@ -3,7 +3,7 @@
 > Calculate the average CPU frequency over a time period.
 > Requires root privileges.
 
-- Start calculating, default for all CPU cores and 1 second refresh interval:
+- Start calculating, default to all CPU cores and 1 second refresh interval:
 
 `sudo cpufreq-aperf`
 
@@ -11,7 +11,7 @@
 
 `sudo cpufreq-aperf -c {{1}}`
 
-- Start calculating with 3 seconds refresh interval for all CPU cores:
+- Start calculating with a 3 seconds refresh interval for all CPU cores:
 
 `sudo cpufreq-aperf -i {{3}}`
 
