@@ -2,7 +2,7 @@
 
 > Run an entire directory of services.
 
-- Start and manage all services in a directory as yourself:
+- Start and manage all services in a directory as the current user:
 
 `runsvdir {{path/to/services}}`
 
@@ -10,6 +10,6 @@
 
 `sudo runsvdir {{path/to/services}}`
 
-- Start services in seperate sessions:
+- Start services in separate sessions:
 
 `runsvdir -P {{path/to/services}}`

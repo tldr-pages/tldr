@@ -4,12 +4,12 @@
 
 - Start a service:
 
-`sv up {{path/to/service}}`
+`sudo sv up {{path/to/service}}`
 
 - Stop a service:
 
-`sv down {{path/to/service}}`
+`sudo sv down {{path/to/service}}`
 
 - Get service status:
 
-`sv status {{path/to/service}}`
+`sudo sv status {{path/to/service}}`

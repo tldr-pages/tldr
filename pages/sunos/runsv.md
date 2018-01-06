@@ -2,7 +2,7 @@
 
 > Start and manage a runit service.
 
-- Start a runit service as yourself:
+- Start a runit service as the current user:
 
 `runsv {{path/to/service}}`
 
