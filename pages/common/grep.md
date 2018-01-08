@@ -45,4 +45,4 @@
 
 - Search through all files in a directory and print file name with the corresponding line number for each match:
 
-`find {{directory}} -type f | xargs grep -Hn`
+`find {{directory}} -type f | xargs grep -Hn {{search_string}}`
