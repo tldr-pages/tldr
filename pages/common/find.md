@@ -33,3 +33,7 @@
 - Find files matching a given pattern, while excluding specific paths:
 
 `find {{root_path}} -name '{{*.py}}' -not -path '{{*/site-packages/*}}'`
+
+- Find files with content matching a given pattern:
+
+`find {{root_path}} -type f | xargs grep -Hn {{search_string}}`
