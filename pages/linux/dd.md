@@ -18,6 +18,6 @@
 
 `dd if=/dev/zero of={{file_1GB}} bs=1024 count=1000000`
 
-- Check dd progress (Run this command in another shell then check dd output):
+- Check progress of an ongoing dd operation (Run this command from another shell):
 
 `kill -USR1 $(pgrep ^dd)`
