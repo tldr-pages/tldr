@@ -1,0 +1,20 @@
+<b>fastboot</b><br><br>
+<b>Communicate with connected Android devices when in bootloader mode (the one place `adb` doesn't work).</b><br><br>
+- Unlock the bootloader:
+
+<blockquote>fastboot oem unlock</blockquote>
+- Relock the bootloader:
+
+<blockquote>fastboot oem lock</blockquote>
+- Reboot the device from fastboot mode into fastboot mode again:
+
+<blockquote>fastboot reboot bootloader</blockquote>
+- Flash a given image:
+
+<blockquote>fastboot flash <i>file.zip</i></blockquote>
+- Flash a custom recovery image:
+
+<blockquote>fastboot flash recovery <i>file.img</i></blockquote>
+- Display connected devices:
+
+<blockquote>fastboot devices</blockquote>
