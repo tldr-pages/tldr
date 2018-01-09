@@ -7,7 +7,7 @@ governance structure.
 To that end, this document describes the principles
 that guide the self-management of the project.
 By having them written down explicitly, and open to scrutiny,
-the entire community can read, improve and adapt them as needed,
+the entire community can read, apply, improve and adapt them as needed,
 with no central authority.
 
 
@@ -22,8 +22,7 @@ with no central authority.
   Please take a look at [CONTRIBUTING.md](CONTRIBUTING.md)
   to get started.
 
-- All members of the community are expected to
-  **be cordial in all communications**.
+- **All discussions should be respectful and cordial**.
   Avoid making assumptions about the others' intentions,
   and make your own intentions clear.
   When in doubt, provide additional context, or ask for clarification.
@@ -41,7 +40,7 @@ with no central authority.
   or in the [Gitter chat room](https://gitter.im/tldr-pages/tldr)
   (which is open to all, and publicly logged).
 
-- **All decisions are made by community consensus.**
+- **All decisions are made by community consensus**.
   This does not mean there has to be unanimity,
   nor that decisions result from vote counts.
   What it means is that
@@ -55,7 +54,7 @@ with no central authority.
 ## II. Role transitions
 
 The main goal of these principles
-is to support a continuous replenishing of the management team
+is to encourage a continuous replenishing of the management team
 via a **smooth transition flow between community roles** —
 from newcomer, to occasional contributor, to regular contributor, to maintainer.
 This way the project can adapt in a flexible way
@@ -69,9 +68,9 @@ Everyone is therefore encouraged to get involved
 and contribute to the project in whatever way they prefer,
 and we will strive to **get barriers out of the way** of these contributions.
 
-To ensure that these processes are
-transparent, predictable, and free from subective judgment,
-the metrics used are simple, objective, and publicly available.
+To ensure that these role transitioning processes are
+straightforward, transparent, predictable, and impartial,
+the metrics used are objective, easy to check, and explicitly described below.
 
 - Regular contributors shall be recognized as collaborators in the organization.
 
@@ -102,13 +101,13 @@ the metrics used are simple, objective, and publicly available.
 
 - If a collaborator or maintainer stops being active in the project
   for more than 6 months,
-  their membership status will be equally deactivated
+  their membership status should be equally ceased
   and their name added to the list of former maintainers
   in the MAINTAINERS.md file.
   Again, this is and merely a reflection
   of their actual involvement with the project,
   not a demotion or punishment.
-  In fact, if they return to active participation in the project,
+  Indeed, if they return to active participation in the project,
   they should be added back to the organization, to reflect that fact.
 
     - This inactivity threshold additionally ensures
