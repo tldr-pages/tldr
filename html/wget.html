@@ -3,15 +3,15 @@
 - Download the contents of an URL to a file (named "foo" in this case):
 
 <blockquote>wget <i>https://example.com/foo</i></blockquote>
-- Download the contents of an URL to a file (named "bar" in this case):
-
-<blockquote>wget -O <i>bar</i> <i>https://example.com/foo</i></blockquote>
 - Download a single web page and all its resources (scripts, stylesheets, images, etc.):
 
 <blockquote>wget --page-requisites --convert-links <i>https://example.com/somepage.html</i></blockquote>
 - Download a full website, with 3-second intervals between requests:
 
 <blockquote>wget --mirror --page-requisites --convert-links --wait=3 <i>https://example.com</i></blockquote>
+- Download all listed files within a directory and its sub-directories (does not download embedded page elements):
+
+<blockquote>wget --mirror --no-parent <i>https://example.com/somepath/</i></blockquote>
 - Download the contents of an URL via authenticated FTP:
 
 <blockquote>wget --ftp-user=<i>username</i> --ftp-password=<i>password</i> <i>ftp://example.com</i></blockquote>
