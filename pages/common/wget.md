@@ -19,6 +19,10 @@
 
 `wget --mirror --page-requisites --convert-links --wait=3 {{https://example.com}}`
 
+- Download all listed files within a directory and its sub-directories (does not download embedded page elements):
+
+`wget --mirror --no-parent {{https://example.com/somepath/}}`
+
 - Download the contents of an URL via authenticated FTP:
 
 `wget --ftp-user={{username}} --ftp-password={{password}} {{ftp://example.com}}`
