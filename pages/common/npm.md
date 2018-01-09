@@ -23,6 +23,10 @@
 
 `npm uninstall {{module_name}}`
 
+- Create a symbolic link for a module in the project directory (i.e., global modules):
+
+`npm link {{module_name}}`
+
 - List a tree of installed modules referenced in package.json:
 
 `npm list`
