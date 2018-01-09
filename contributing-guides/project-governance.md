@@ -1,8 +1,0 @@
-Romain Prieto <romain.prieto@gmail.com> (@rprieto)
-Igor Shubovych <igor.shubovych@gmail.com> (@igorshubovych)
-Ruben Vereecken <rubenvereecken@gmail.com> (@rubenvereecken)
-Waldir Pimenta <waldyrious@gmail.com> (@waldyrious)
-Felix Yan <felixonmars@archlinux.org> (@felixonmars)
-Leandro Ostera <leandro@ostera.io> (@ostera)
-Agniva De Sarker <agnivade@yahoo.co.in> (@agnivade)
-Starbeamrainbowlabs <feedback@starbeamrainbowlabs.com> (@sbrl)
