@@ -2,18 +2,18 @@
 
 > Encodes, decodes and tests flac files.
 
-- Encode a wav file to flac, writing to /path/to/file.flac:
+- Encode a wav file to flac (this will create a flac file in the same location as the wav file):
 
-`flac {{/path/to/file.wav}}`
+`flac {{path/to/file.wav}}`
 
 - Encode a wav file to flac, specifying the output file:
 
-`flac -o {{/path/to/output.flac}} {{/path/to/file.wav}}`
+`flac -o {{path/to/output.flac}} {{path/to/file.wav}}`
 
 - Decode a flac file to wav, specifying the output file:
 
-`flac -d --output-name {{/path/to/output.wav}} {{/path/to/file.flac}}`
+`flac -d -o {{path/to/output.wav}} {{path/to/file.flac}}`
 
 - Test a flac file for correct encoding:
 
-`flac -t {{/path/to/file.flac}}`
+`flac -t {{path/to/file.flac}}`
