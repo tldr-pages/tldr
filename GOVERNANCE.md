@@ -74,7 +74,7 @@ the metrics used are objective, easy to check, and explicitly described below.
 exceptions can always be considered, via open community discussion.)
 
 - **Regular contributors should be added as collaborators in the repository.**
-  Specifically: once a contributor has had _5 pull requests merged_
+  Specifically: once a contributor has had _5 non-trivial pull requests merged_
   on a repository under the tldr-pages organization,
   they should be invited to become
   a **collaborator** in that repository.
