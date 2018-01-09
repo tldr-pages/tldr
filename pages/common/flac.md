@@ -14,6 +14,6 @@
 
 `flac -d -o {{path/to/output.wav}} {{path/to/file.flac}}`
 
-- Test a flac file for correct encoding:
+- Test a flac file for the correct encoding:
 
 `flac -t {{path/to/file.flac}}`
