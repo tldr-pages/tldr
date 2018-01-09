@@ -53,17 +53,16 @@ with no central authority.
 
 ## II. Role transitions
 
-The main goal of these principles
-is to encourage a continuous replenishing of the management team
-via a **smooth transition flow between community roles** —
+The following guidelines aim to keep the project vibrant and responsive,
+by ensuring a **smooth transition flow between community roles** —
 from newcomer, to occasional contributor, to regular contributor, to maintainer.
-This way the project can adapt in a flexible way
-to the the natural variations in availability and interest of its contributors,
-ensuring long-term resilience, and avoiding
+This way, the project should be able to adapt dynamically and flexibly
+to the natural variations in availability and interest of its contributors,
+improving long-term resilience, reducing the risk of burnout, and avoiding
 [single points of failure](https://en.wikipedia.org/wiki/Bus_factor).
 
-To this end, rather than assigning roles and tasks to people,
-these guidelines instead aim to **recognize the work that people already do**.
+To this end, rather than _assigning_ roles and tasks to people,
+these guidelines aim to **recognize the work that people already do**.
 Everyone is therefore encouraged to get involved
 and contribute to the project in whatever way they prefer,
 and we will strive to **get barriers out of the way** of these contributions.
@@ -74,44 +73,54 @@ the metrics used are objective, easy to check, and explicitly described below.
 (That's not to say they're hard-set rules:
 exceptions can always be considered, via open community discussion.)
 
-- Regular contributors shall be recognized as collaborators in the organization.
+- **Regular contributors should be added as collaborators in the repository.**
+  Specifically: once a contributor has had _5 pull requests merged_
+  on a repository under the tldr-pages organization,
+  they should be invited to become
+  a **collaborator** in that repository.
+  This means they will be able to push commits to that repository,
+  as well as merge PRs, label and close issues, among other things.
 
-    - Specifically: once a contributor has had **5 pull requests merged**,
-      they should be invited to become a
-      [**member of the tldr-pages organization**](https://github.com/orgs/tldr-pages/people).
-      This means they will be able to
-      push commits to all of the organization's repositories,
-      merge PRs, label and close issues, among other things.
-      Note: All members of the tldr-pages organization
-      must make their membership public.
+- **Collaborators who perform maintenance tasks should be made org members.**
+  (Maintenance work is understood as facilitating contributions by other people,
+  which in this project consists primarily of reviewing and/or merging PRs.)
+  Specifically: once a repository collaborator has _merged at least 10 PRs_
+  and submitted at least _5 non-trivial reviews to PRs_
+  (either the same or different ones)
+  they should be invited to become a
+  [**member**](https://github.com/orgs/tldr-pages/people)
+  of the tldr-pages organization.
+  This means they will be able to
+  push commits to all of the organization's repositories,
+  merge PRs, label and close issues, among other things.
+  _Note_: All members of the tldr-pages organization
+  must make their membership public.
 
-- Members of the organization
-  who demonstrate interest in performing maintainership tasks,
-  by reviewing and/or merging PRs, responding to and labeling issues,
-  and generally doing project maintenance work,
-  shall be made part of the maintenance team,
-  and their name added to the list of current maintainers
+- **Maintainers who have been helping out for a while should become org owners.**
+  Specifically: members of the tldr-pages organization
+  who remain _active for at least 6 months_
+  should be invited to become an
+  [**owner**](https://help.github.com/articles/permission-levels-for-an-organization/).
+  of the tldr-pages organization.
+  This means they will be able to add people to the organization,
+  manage all the organization's repositories, configure integrations, etc.
+  They should also be added to the list of current maintainers
   in the [MAINTAINERS.md](MAINTAINERS.md) file.
 
-    - Specifically: once a contributor has been an organization member
-      for at least 3 months,
-      and has **reviewed or merged 10 pull requests** by other contributors,
-      they should be invited to become
-      an **owner of the tldr-pages organization**.
-      This means they will be able to add people to the organization,
-      manage all the organization's repositories, configure integrations, etc.
-
-- If a collaborator or maintainer stops being active in the project
-  for more than 6 months,
-  their membership status should be equally ceased
+- **These roles are temporary, and that's OK.**
+  People's interests and availability naturally change over time,
+  so the project should regularly update the list of people in each role,
+  in order to accurately reflect the active team managing the project
+  (and to avoid conveying an undue sense of obligation
+  on people whose priorities have shifted.)
+  Specifically: If an organization member becomes _inactive for over 6 months_,
+  their membership status should be equally deactivated
   and their name added to the list of former maintainers
   in the MAINTAINERS.md file.
+  (They should nevertheless remain as collaborators
+  in the repositories on which they have been active in the past.)
   Again, this is and merely a reflection
   of their actual involvement with the project,
   not a demotion or punishment.
   Indeed, if they return to active participation in the project,
   they should be added back to the organization, to reflect that fact.
-
-    - This inactivity threshold additionally ensures
-      that the list of organization members doesn't grow to unwieldy sizes,
-      and that it accurately reflects the active team managing the project.
