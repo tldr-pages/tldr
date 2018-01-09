@@ -18,6 +18,6 @@
 
 `hg remove --subrepos`
 
-- Record a deletion status for files that have been physically removed, but not from the repository:
+- Remove files from the repository that have been physically removed:
 
 `hg remove --after`
