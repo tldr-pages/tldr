@@ -16,7 +16,7 @@ for the behavior expected of tldr-pages maintainers:
   who can then identify and address bottlenecks or inconveniences.
   Similarly, **avoid merging your own PRs**.
 
-- Ideally, **every new discussion should receive a response within 24 hours**.
+- **Every new discussion should receive a response within 3 days (ideally)**.
   You can respond yourself
   or ask other members to provide their thoughts/opinions.
 
