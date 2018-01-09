@@ -44,11 +44,11 @@ with no central authority.
   This does not mean there has to be unanimity,
   nor that decisions result from vote counts.
   What it means is that
-  every interested member of the community can voice their thoughts,
-  and different positions are ideally resolved via
-  [informed consent](https://en.wikipedia.org/wiki/Sociocracy#Consent_vs._consensus)
-  of the involved people, who accept the collective decision
-  as "good enough for now, safe enough to try".
+  every interested member of the community is welcome to voice their thoughts,
+  and incompatible positions are ideally resolved with involved participants
+  either agreeing with the final decision, or voluntarily
+  [consenting](https://en.wikipedia.org/wiki/Sociocracy#Consent_vs._consensus)
+  to it as "good enough for now, safe enough to try".
 
 
 ## II. Role transitions
