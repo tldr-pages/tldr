@@ -1,6 +1,6 @@
 # airpaste
 
-> Share messages and files locally 
+> Share messages and files locally.
 
 - Send file:
 
