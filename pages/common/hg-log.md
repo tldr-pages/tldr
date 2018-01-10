@@ -2,7 +2,7 @@
 
 > Display the revision history of the repository.
 
-- Display the entire history of the repository:
+- Display the entire revision history of the repository:
 
 `hg log`
 
