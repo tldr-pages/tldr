@@ -1,8 +1,6 @@
 # subl
 
-> Sublime Text
->
-> A sophisticated text editor for code, markup and prose.
+> Sublime Text, a sophisticated text editor for code, markup and prose.
 
 - Open a file or folder:
 
