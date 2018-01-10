@@ -11,6 +11,10 @@
 
 `git tag {{tag_name}}`
 
+- Create a tag with the given name pointing to a given commit:
+
+`git tag {{tag_name}} {{commit}}`
+
 - Create an annotated tag with the given message:
 
 `git tag {{tag_name}} -m {{tag_message}}`
