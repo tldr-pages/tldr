@@ -10,6 +10,6 @@
 
 `airpaste > file.txt`
 
-- Create/Join channel
+- Create/Join channel:
 
 `airpaste 🏀`
