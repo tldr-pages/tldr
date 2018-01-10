@@ -2,9 +2,13 @@
 
 > FTP-like client to access SMB/CIFS resources on servers.
 
-- Connect to a share (`exit` to quit the session):
+- Connect to a share (user will be prompted for password; `exit` to quit the session):
 
 `smbclient {{//server/share}}`
+
+- Connect with a different username:
+
+`smbclient {{//server/share}} --user {{username}}`
 
 - Connect with a username and password:
 
