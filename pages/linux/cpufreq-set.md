@@ -1,7 +1,7 @@
 # cpufreq-set
 
 > A tool to modify CPU frequency settings.
-> New frequency value range between the output of command `cpufreq-info -l`.
+> The frequency value should range between the output of command `cpufreq-info -l`.
 
 - Set the CPU frequency policy of CPU 1 to "userspace":
 
