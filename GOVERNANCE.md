@@ -100,7 +100,7 @@ exceptions can always be considered, via open community discussion.)
   Specifically: members of the tldr-pages organization
   who remain _active for at least 6 months_
   should be invited to become an
-  [**owner**](https://help.github.com/articles/permission-levels-for-an-organization/).
+  [**owner**](https://help.github.com/articles/permission-levels-for-an-organization/)
   of the tldr-pages organization.
   This means they will be able to add people to the organization,
   manage all the organization's repositories, configure integrations, etc.
