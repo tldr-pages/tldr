@@ -1,0 +1,14 @@
+<b>cpufreq-set</b><br><br>
+<b>A tool to modify CPU frequency settings.</b><br><br><b>The frequency value should range between the output of command `cpufreq-info -l`.</b><br><br>
+- Set the CPU frequency policy of CPU 1 to "userspace":
+
+<blockquote>sudo cpufreq-set -c <i>1</i> -g <i>userspace</i></blockquote>
+- Set the current minimum CPU frequency of CPU 1:
+
+<blockquote>sudo cpufreq-set -c <i>1</i> --min <i>min_frequency</i></blockquote>
+- Set the current maximum CPU frequency of CPU 1:
+
+<blockquote>sudo cpufreq-set -c <i>1</i> --max <i>max_frequency</i></blockquote>
+- Set the current work frequency of CPU 1:
+
+<blockquote>sudo cpufreq-set -c <i>1</i> -f <i>work_frequency</i></blockquote>
