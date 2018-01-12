@@ -24,4 +24,4 @@
 
 - Build a singularity image from a recipe file:
 
-- `sudo singularity build {{container.simg}} {{recipe}}`
+`sudo singularity build {{container.simg}} {{recipe}}`
