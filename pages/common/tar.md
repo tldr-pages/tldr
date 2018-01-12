@@ -33,4 +33,4 @@
 
 - Extract files matching a pattern:
 
-`tar xf {{source.tar}} --wildcards "*.html"`
+`tar xf {{source.tar}} --wildcards {{"*.html"}}`
