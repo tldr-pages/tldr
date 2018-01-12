@@ -34,3 +34,7 @@
 - Invert match for excluding specific strings:
 
 `grep -v {{search_string}}`
+
+- Search for either string-1 or string-2
+
+`grep -E "{{search_string1}}|{{search_string2}}" {{/path/to/file}}`
