@@ -27,6 +27,9 @@ for the behavior expected of tldr-pages maintainers:
   informative commit messages for each commit,
   use rebase to honor that work and preserve the history of the changes.
 
+  A simple heuristic to follow is that if there are more "dirty" commits
+  than "clean" commits, then prefer squash, else do a rebase.
+
 - **Know when and how to say no**.
   Sometimes requests or contributions need to be declined,
   at least in their current form.
