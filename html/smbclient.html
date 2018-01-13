@@ -1,0 +1,17 @@
+<b>smbclient</b><br><br>
+<b>FTP-like client to access SMB/CIFS resources on servers.</b><br><br>
+- Connect to a share (user will be prompted for password; `exit` to quit the session):
+
+<blockquote>smbclient <i>//server/share</i></blockquote>
+- Connect with a different username:
+
+<blockquote>smbclient <i>//server/share</i> --user <i>username</i></blockquote>
+- Connect with a username and password:
+
+<blockquote>smbclient <i>//server/share</i> --user <i>username%password</i></blockquote>
+- Download a file from the server:
+
+<blockquote>smbclient <i>//server/share</i> --directory <i>path/to/folder</i> --command "get <i>file.txt</i>"</blockquote>
+- Upload a file to the server:
+
+<blockquote>smbclient <i>//server/share</i> --directory <i>path/to/folder</i> --command "put <i>file.txt</i>"</blockquote>
