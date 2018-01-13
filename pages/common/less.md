@@ -30,6 +30,10 @@
 
 `v`
 
+- Switch to ignore-case mode (after activating all searches will be case-insensitive):
+
+`-i`
+
 - Exit:
 
 `q`
