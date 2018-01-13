@@ -20,7 +20,7 @@
 
 - Set the slideshow cycle delay:
 
-`feh --slideshow-delay {{seconds}} {{/path/to/files}}`
+`feh --slideshow-delay {{seconds}} {{/path/to/images}}`
 
 - Set your wallpaper (centered, filled, maximized, scaled or tiled):
 
