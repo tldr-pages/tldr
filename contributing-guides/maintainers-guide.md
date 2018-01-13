@@ -25,7 +25,10 @@ for the behavior expected of tldr-pages maintainers:
   or if the multiple commits are not independent changes.
   If the PR author took the time to craft individual,
   informative commit messages for each commit,
-  use regular merge to honor that work and preserve the history of the changes.
+  use rebase to honor that work and preserve the history of the changes.
+
+  A simple heuristic to follow is that if there are more "dirty" commits
+  than "clean" commits, then prefer squash, else do a rebase.
 
 - **Know when and how to say no**.
   Sometimes requests or contributions need to be declined,
