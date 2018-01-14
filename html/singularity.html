@@ -1,0 +1,20 @@
+<b>singularity</b><br><br>
+<b>Manage Singularity containers and images.</b><br><br>
+- Download a remote image:
+
+<blockquote>singularity pull --name <i>container.simg</i> <i>shub://vsoch/hello-world</i></blockquote>
+- Rebuild a remote image using latest Singularity image format:
+
+<blockquote>singularity build <i>container.simg</i> <i>docker://godlovedc/lolcow</i></blockquote>
+- Start a container from an image and get a shell inside of it:
+
+<blockquote>singularity shell <i>container.simg</i></blockquote>
+- Start a container from an image and run a command:
+
+<blockquote>singularity exec <i>container.simg</i> <i>command</i></blockquote>
+- Start a container from an image and execute the internal runscript:
+
+<blockquote>singularity run <i>container.simg</i></blockquote>
+- Build a singularity image from a recipe file:
+
+<blockquote>sudo singularity build <i>container.simg</i> <i>recipe</i></blockquote>

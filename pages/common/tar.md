@@ -30,3 +30,7 @@
 - List the contents of a tar file:
 
 `tar tvf {{source.tar}}`
+
+- Extract files matching a pattern:
+
+`tar xf {{source.tar}} --wildcards {{"*.html"}}`
