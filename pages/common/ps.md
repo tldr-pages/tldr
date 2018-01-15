@@ -22,6 +22,6 @@
 
 `ps --user $(id -u) f`
 
-- Get the parent pid of a process
+- Get the parent pid of a process:
 
 `ps -o ppid= -p {{pid}}`
