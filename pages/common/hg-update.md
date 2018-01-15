@@ -16,4 +16,4 @@
 
 - Update to the last commit matching a specified date:
 
-`hg update --date {{date}}`
+`hg update --date {{dd-mm-yyyy}}`
