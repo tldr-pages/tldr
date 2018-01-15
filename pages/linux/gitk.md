@@ -6,11 +6,11 @@
 
 `gitk`
 
-- Show repository browse of a specific file or folder:
+- Show repository browser for a specific file or folder:
 
 `gitk {{path/to/file_or_folder}}`
 
-- Show commits since 1 week ago:
+- Show commits made since 1 week ago:
 
 `gitk --since={{"1 week ago"}}`
 
