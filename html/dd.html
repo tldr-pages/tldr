@@ -12,3 +12,6 @@
 - Benchmark the write performance of a disk:
 
 <blockquote>dd if=/dev/zero of=<i>file_1GB</i> bs=1024 count=1000000</blockquote>
+- Check progress of an ongoing dd operation (Run this command from another shell):
+
+<blockquote>kill -USR1 $(pgrep ^dd)</blockquote>

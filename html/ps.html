@@ -15,3 +15,6 @@
 - List all processes of the current user as a tree:
 
 <blockquote>ps --user $(id -u) f</blockquote>
+- Get the parent pid of a process:
+
+<blockquote>ps -o ppid= -p <i>pid</i></blockquote>
