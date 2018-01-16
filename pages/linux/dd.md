@@ -17,3 +17,7 @@
 - Benchmark the write performance of a disk:
 
 `dd if=/dev/zero of={{file_1GB}} bs=1024 count=1000000`
+
+- Check progress of an ongoing dd operation (Run this command from another shell):
+
+`kill -USR1 $(pgrep ^dd)`
