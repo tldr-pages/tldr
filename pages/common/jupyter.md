@@ -1,10 +1,15 @@
 # jupyter
 
-> Web application for scientific computing and reproducible research.
+> Web application to create and share documents that contain code, visualizations and notes.
+> Primarily used for data analysis, scientific computing and machine learning.
 
 - Start a Jupyter notebook server in the current directory:
 
 `jupyter notebook`
+
+- Open a specific Jupyter notebook:
+
+`jupyter notebook {{example.ipynb}}`
 
 - Start a server on a specific port:
 
