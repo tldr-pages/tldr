@@ -15,6 +15,9 @@ for the behavior expected of tldr-pages maintainers:
   should receive a response within 3 days, ideally.
   You can respond yourself
   or ask other members to provide their thoughts/opinions.
+  In addition, if possible, try to hang around in the
+  [Gitter chat room](https://gitter.im/tldr-pages/tldr)
+  on a regular basis as well, or at least show up every now and then.
 
 - **Know when and how to say no**.
   Sometimes requests or contributions need to be declined,
@@ -32,6 +35,13 @@ for the behavior expected of tldr-pages maintainers:
   is a voluntary gift of time offered to the tldr project
   by someone who cares about it,
   so make sure it's clear that that we don't take it for granted.
+
+- Try to **keep the entire contribution process web-based**, if possible,
+  to ensure it is accessible and straightforward.
+  If you're comfortable with git, consider offering to perform
+  interactive rebases or other command-line operations
+  on behalf of contributors,
+  or assisting them if they want to do it themselves.
 
 ## II. Handling PRs
 
