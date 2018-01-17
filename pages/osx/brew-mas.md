@@ -14,7 +14,7 @@
 
 `mas list`
 
-- List installed apps with pending updates.
+- List installed apps with pending updates:
 
 `mas outdated`
 
@@ -29,4 +29,3 @@
 - Reset mas:
 
 `mas reset`
-
