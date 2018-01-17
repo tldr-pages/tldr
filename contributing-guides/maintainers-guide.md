@@ -45,6 +45,32 @@ for the behavior expected of tldr-pages maintainers:
 
 ## II. Handling PRs
 
+- PRs will be merged once they
+  (1) **pass the automated tests** (Travis CI, CLA signing, etc.),
+  (2) have the **review comments addressed**, and
+  (3) get **approved reviews by two maintainers**
+  (the second maintainer can perform the merge immediately after accepting.)
+
+- If a PR fails to get a review from a second maintainer after a few days,
+  the first maintainer should ping others for review. If it still lingers around
+  for **over a week without a second maintainer’s approval**,
+  the first maintainer can go ahead and merge it.
+
+- If the only issues holding up a merge are **trivial fixes**
+  (typos, syntax errors, etc.), and the author doesn't respond in a day or two,
+  **maintainers can make the necessary changes themselves**,
+  and proceed with the merge process.
+
+- If a PR **stops getting feedback from the submitter** and is marked as stale
+  by [probot-stale](../.github/stale.yml),
+  any maintainer can choose to take over the PR
+  and make the necessary changes to get the content ready for merging.
+
+- During the review process, make sure that contributors, especially new ones,
+  are not **overwhelmed with too many change requests**.
+  Be mindful of signs of fatigue (less enthusiastic responses, slower reactions),
+  and relax review standards if necessary — minor issues can always be fixed later.
+
 - When merging PRs, use the **merge strategy that produces a clean git history**:
   If there's a single commit in the PR,
   or if the multiple commits are not semantically independent changes,
