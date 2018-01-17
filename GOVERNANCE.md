@@ -105,7 +105,7 @@ exceptions can always be considered, via open community discussion.)
   This means they will be able to add people to the organization,
   manage all the organization's repositories, configure integrations, etc.
   They should also be added to the list of current maintainers
-  in the [MAINTAINERS.md](MAINTAINERS.md) file.
+  in the [COMMUNITY-ROLES.md](COMMUNITY-ROLES.md) file.
 
 - **These roles are temporary, and that's OK.**
   People's interests and availability naturally change over time,
@@ -116,7 +116,7 @@ exceptions can always be considered, via open community discussion.)
   Specifically: If an organization member becomes _inactive for over 6 months_,
   their membership status should be equally deactivated
   and their name added to the list of former maintainers
-  in the MAINTAINERS.md file.
+  in the COMMUNITY-ROLES.md file.
   (They should nevertheless remain as collaborators
   in the repositories on which they have been active in the past.)
   Again, this is and merely a reflection
