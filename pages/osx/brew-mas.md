@@ -6,7 +6,7 @@
 
 `mas search {{app_name}}`
 
-- Install or update an application, not for the first time (apps must already be in the Purchased tab of the App Store):
+- Install or update a previously purchased application:
 
 `mas install {{app_name}} {{app_identifier}}`
 
