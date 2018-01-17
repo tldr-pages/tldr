@@ -1,7 +1,16 @@
 # Maintainer's guide
 
 The following guidelines are meant to provide a general basis
-for the behavior expected of tldr-pages maintainers:
+for the behavior expected of tldr-pages maintainers.
+
+*Note:* This text is a living standard;
+that is, it is meant to *describe* the project's maintenance practices,
+rather than *prescribe* them.
+As a maintainer, you're expected to refer to it for clarifications
+about the collaborative workflows of the project,
+but also to propose changes to it
+that you feel would make it more useful
+as a guideline for current and future maintainers.
 
 ## I. Responding to contributions
 
