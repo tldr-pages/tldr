@@ -1,6 +1,6 @@
 # brew mas
 
-> mas is a simple command line interface for the Mac App Store.
+> Mas is a simple command line interface for the Mac App Store.
 
 - Search the Mac App Store by app name and return matching identifiers:
 
