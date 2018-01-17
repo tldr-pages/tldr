@@ -14,7 +14,7 @@
 
 `hg serve --address {{address}}`
 
-- Start a web server instance with a specific name:
+- Start a web server instance with a specific identifier:
 
 `hg serve --name {{name}}`
 
