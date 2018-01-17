@@ -18,7 +18,7 @@
 
 `hg serve --name {{name}}`
 
-- Start a web server instance using the specified theme:
+- Start a web server instance using the specified theme (see the templates directory):
 
 `hg serve --style {{style}}`
 
