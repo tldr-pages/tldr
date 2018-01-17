@@ -1,6 +1,6 @@
 # brew mas
 
-> [mas-cli](https://github.com/mas-cli/mas) is a simple command line interface for the Mac App Store. Designed for scripting and automation.
+> mas is a simple command line interface for the Mac App Store.
 
 - Search the Mac App Store by app name and return matching identifiers:
 
