@@ -22,6 +22,6 @@
 
 `hg serve --style {{style}}`
 
-- Start a web server instance using the specified SSL certificate:
+- Start a web server instance using the specified SSL certificate bundle:
 
 `hg serve --certificate {{path/to/certificate}}`
