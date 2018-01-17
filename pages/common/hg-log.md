@@ -10,11 +10,11 @@
 
 `hg log --graph`
 
-- Display the revision history with names matching a specified pattern:
+- Display the revision history with file names matching a specified pattern:
 
 `hg log --include {{pattern}}`
 
-- Display the revision history, excluding names that match a specified pattern:
+- Display the revision history, excluding file names that match a specified pattern:
 
 `hg log --exclude {{pattern}}`
 
