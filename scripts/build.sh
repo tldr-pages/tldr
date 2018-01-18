@@ -28,6 +28,7 @@ function build_archive {
 }
 
 function upload_assets {
+  # ${GH_TOKEN} is referred from the secure variable inside .travis.yml
   git clone --quiet --depth 1 https://${GH_TOKEN}@${SITE_URL} $SITE_HOME
   mv -f $TLDR_ARCHIVE $SITE_HOME/assets/
   cp -f $TLDRHOME/pages/index.json $SITE_HOME/assets/
