@@ -18,6 +18,6 @@
 
 `nl -b a {{file}}`
 
-- Read from standard output
+- Read from standard output:
 
 `cat {{file}} | nl {{options}} -`
