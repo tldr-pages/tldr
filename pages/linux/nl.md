@@ -13,3 +13,11 @@
 - Number only the body lines that match a basic regular expression (BRE) pattern:
 
 `nl -b p'FooBar[0-9]' {{file}}`
+
+- Number all lines including blank lines:
+
+`nl -b a {{file}}`
+
+- Read from standard output
+
+`cat {{file}} | nl {{options}} -`
