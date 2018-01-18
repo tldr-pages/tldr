@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# This script is executed by Travis CI when a PR is merged (i.e. in the `after_success` step).
 set -ev
 
 function initialize {
@@ -28,6 +29,7 @@ function build_archive {
 }
 
 function upload_assets {
+  # ${GH_TOKEN} is defined as a secure variable inside .travis.yml
   git clone --quiet --depth 1 https://${GH_TOKEN}@${SITE_URL} $SITE_HOME
   mv -f $TLDR_ARCHIVE $SITE_HOME/assets/
   cp -f $TLDRHOME/pages/index.json $SITE_HOME/assets/

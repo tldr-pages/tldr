@@ -13,5 +13,7 @@ after_failure:
 
 env:
   global:
-  - secure: ewQMcFd3wH8IHOeGhIkBr2kAgadONmesv2KB+9bPRCZ5gvtFFwlkCMdPnQBR9Kd3GKC8r+EO0JNNFWOvrDjPYhEHi9Ab26Q/qodwfwne9YloKXT+C48Zrbrj8q7kb/FeMYPev+RMuM96j5E5QyqBVohGP7hC2bpU3mvAhQ2wBCE=
+  # Used to upload the tldr archive to tldr-pages repo.
+  # Achieved via the upload_assets() function of scripts/build.sh
+  # This is an encrypted form of @agnivade's user token.
   - secure: AJPra/q3bCFHzMOam1aFz4tzasYuU261Mk6lISh1VJatibHa7nBErsuA3VbR5qth9LblH5HFmNGl4bwmas/PTD1P3lPAHO19gdlMb1kpS9MhTojQP/0EPCsyMTgnWcmNMU2XMvYGHFT0JFn4vj/0TrM9CUMDoT9WhtnVJfgRrlY=
