@@ -1,6 +1,6 @@
 # gifsicle
 
-> Create gifs.
+> Create GIFs.
 
 - Make a GIF animation with gifsicle:
 
