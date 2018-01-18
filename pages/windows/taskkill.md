@@ -1,16 +1,16 @@
 # taskkill
 
-> Terminate a process by it's process id or name.
+> Terminate a process by its process id or name.
 
 - Display information about the usage of the command:
 
 `taskkill /?`
 
-- Terminate a process by it's id:
+- Terminate a process by its id:
 
 `taskkill /pid {{process_id}}`
 
-- Terminate a process by it's name:
+- Terminate a process by its name:
 
 `taskkill /im {{process_name}}`
 
@@ -18,7 +18,7 @@
 
 `taskkill /f`
 
-- Terminate a process and it's child processes:
+- Terminate a process and its child processes:
 
 `taskkill /t`
 
