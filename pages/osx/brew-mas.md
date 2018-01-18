@@ -25,7 +25,3 @@
 - Install updates for a specific app:
 
 `mas upgrade {{app_identifier}}`
-
-- Reset mas:
-
-`mas reset`
