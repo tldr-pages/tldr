@@ -1,14 +1,23 @@
 # nmtui
 
-> Text user Interface for controlling NetworkManager.
+> Text user interface for controlling NetworkManager.
+> Use arrow keys to navigate, enter to select an option.
 
-- Editing/Adding/Deleting connections:
+- Open the user interface:
 
-`nmtui edit {name | id}`
+`nmtui`
 
 - Show a list of available connections, with the option to activate or deactivate them:
 
-`nmtui connect {name | uuid | device | SSID}`
+`nmtui connect`
+
+- Connect to a given network:
+
+`nmtui connect {{name|uuid|device|SSID}}`
+
+- Edit/Add/Delete a given network:
+
+`nmtui edit {{name|id}}`
 
 - Set the system hostname:
 
