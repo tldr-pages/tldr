@@ -2,10 +2,6 @@
 
 > Terminate a process by its process id or name.
 
-- Display information about the usage of the command:
-
-`taskkill /?`
-
 - Terminate a process by its id:
 
 `taskkill /pid {{process_id}}`
@@ -25,3 +21,7 @@
 - Terminate a process on a remote machine:
 
 `taskkill /s {{remote_name}}`
+
+- Display information about the usage of the command:
+
+`taskkill /?`
