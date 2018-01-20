@@ -17,3 +17,7 @@
 - Show kernel messages 1 page at a time:
 
 `dmesg | less`
+
+- Show kernel error messages:
+
+`dmesg --level err`
