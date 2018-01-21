@@ -10,7 +10,7 @@
 
 `reg query {{key_name}} /v {{value}}`
 
-- Display a specific value of a key and recurse into sub keys:
+- Display all values of a key and its sub keys:
 
 `reg query {{key_name}} /s`
 
