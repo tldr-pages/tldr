@@ -1,0 +1,17 @@
+<b>pulseaudio</b><br><br>
+<b>The pulseaudio sound system daemon and manager.</b><br><br>
+- Check if pulseaudio is running (a non-zero exit code means it is not running):
+
+<blockquote>pulseaudio --check</blockquote>
+- Start the pulseaudio daemon in the background:
+
+<blockquote>pulseaudio --start</blockquote>
+- Kill the running pulseaudio daemon:
+
+<blockquote>pulseaudio --kill</blockquote>
+- List available modules:
+
+<blockquote>pulseaudio --dump-modules</blockquote>
+- Load a module into the currently running daemon with the specified arguments:
+
+<blockquote>pulseaudio --load="<i>module_name</i> <i>arguments</i>"</blockquote>
