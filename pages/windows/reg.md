@@ -7,7 +7,7 @@
 
 `reg {{command}}`
 
-- Call general help:
+- Display general information and list all available commands:
 
 `reg /?`
 
