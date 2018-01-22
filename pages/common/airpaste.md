@@ -12,4 +12,4 @@
 
 - Create/Join channel:
 
-`airpaste 🏀`
+`airpaste {{channelName}}`
