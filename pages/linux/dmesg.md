@@ -6,6 +6,10 @@
 
 `dmesg`
 
+- Show kernel error messages:
+
+`dmesg --level err`
+
 - Show kernel messages and keep reading new ones, similar to `tail -f` (available in kernels 3.5.0 and newer):
 
 `dmesg -w`
