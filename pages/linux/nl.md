@@ -2,7 +2,7 @@
 
 > A utility for numbering lines, either from a file, or from standard input.
 
-- Number lines in a file:
+- Number non-blank lines in a file:
 
 `nl {{file}}`
 
