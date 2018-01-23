@@ -14,10 +14,6 @@
 
 `reg compare {{first_key_name}} {{second_key_name}} /s`
 
-- Only output the differences between the specified keys (default):
-
-`reg compare {{first_key_name}} {{second_key_name}} /od`
-
 - Only output the matches between the specified keys:
 
 `reg compare {{first_key_name}} {{second_key_name}} /os`
