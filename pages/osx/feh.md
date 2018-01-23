@@ -4,24 +4,24 @@
 
 - View images locally or using a URL:
 
-`feh {{/path/to/images}}`
+`feh {{path/to/images}}`
 
 - View images recursively:
 
-`feh --recursive {{/path/to/images}}`
+`feh --recursive {{path/to/images}}`
 
 - View images without window borders:
 
-`feh --borderless {{/path/to/images}}`
+`feh --borderless {{path/to/images}}`
 
 - Exit after the last image:
 
-`feh --cycle-once {{/path/to/images}}`
+`feh --cycle-once {{path/to/images}}`
 
 - Set the slideshow cycle delay:
 
-`feh --slideshow-delay {{seconds}} {{/path/to/images}}`
+`feh --slideshow-delay {{seconds}} {{path/to/images}}`
 
 - Set your wallpaper (centered, filled, maximized, scaled or tiled):
 
-`feh --bg-{{center,fill,max,scale,tile}} {{/path/to/image}}`
+`feh --bg-{{center|fill|max|scale|tile}} {{path/to/image}}`
