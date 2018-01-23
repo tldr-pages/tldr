@@ -12,15 +12,15 @@
 
 - Forcefully terminate a specified process (must be combined with a process id or name):
 
-`taskkill /f`
+`taskkill /pid {{process_id}} /f`
 
 - Terminate a process and its child processes (must be combined with a process id or name):
 
-`taskkill /t`
+`taskkill /im {{process_name}} /t`
 
 - Terminate a process on a remote machine:
 
-`taskkill /s {{remote_name}}`
+`taskkill /pid {{process_id}} /s {{remote_name}}`
 
 - Display information about the usage of the command:
 
