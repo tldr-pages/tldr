@@ -10,11 +10,11 @@
 
 `taskkill /im {{process_name}}`
 
-- Forcefully terminate a specified process (must be combined with a process id or name):
+- Forcefully terminate a specified process:
 
 `taskkill /pid {{process_id}} /f`
 
-- Terminate a process and its child processes (must be combined with a process id or name):
+- Terminate a process and its child processes:
 
 `taskkill /im {{process_name}} /t`
 
