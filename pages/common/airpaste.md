@@ -12,4 +12,4 @@
 
 - Create/Join channel:
 
-`airpaste {{channelName}}`
+`airpaste {{channel_name}}`
