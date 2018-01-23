@@ -14,6 +14,6 @@
 
 `reg delete {{key_name}} /va`
 
-- Forcefully deletes the key or value without a prompt:
+- Forcefully delete all values recursively under a key without a prompt:
 
-`reg delete {{key_name}} /f`
+`reg delete {{key_name}} /f /va`
