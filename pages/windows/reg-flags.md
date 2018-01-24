@@ -12,8 +12,8 @@
 
 - Set specified flags, and unset unmentioned flags, for a specific key:
 
-`reg delete {{key_name}} set {{flag_names}}`
+`reg flags {{key_name}} set {{flag_names}}`
 
 - Set specified flags for a specific key and its sub keys:
 
-`reg delete {{key_name}} set {{flag_names}} /s`
+`reg flags {{key_name}} set {{flag_names}} /s`
