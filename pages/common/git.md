@@ -2,18 +2,26 @@
 
 > Distributed version control system.
 
-- Check the Git version:
+- Show file changes:
 
-`git --version`
+`git status`
 
-- Call general help:
+- Track file changes:
 
-`git --help`
+`git add {{file}}`
 
-- Call help on a command:
+- Commit file changes:
 
-`git help {{command}}`
+`git commit -m "{{message}}"`
 
-- Execute Git command:
+- Upload changes to remote repository:
 
-`git {{command}}`
+`git push {{remote repository}} {{branch}}`
+
+- Switch to a branch:
+
+`git checkout {{branch}}`
+
+- Create a new branch:
+
+`git checkout -b {{branch}}`
