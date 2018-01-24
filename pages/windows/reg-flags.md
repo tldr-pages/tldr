@@ -6,7 +6,7 @@
 
 `reg flags {{key_name}} query`
 
-- Display help and available key types:
+- Display help and available flag types:
 
 `reg flags /?`
 
