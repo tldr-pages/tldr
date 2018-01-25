@@ -10,7 +10,7 @@
 
 `reg flags /?`
 
-- Set specified flags, and unset unmentioned flags, for a specific key:
+- Set specified space-separated flags, and unset unmentioned flags, for a specific key:
 
 `reg flags {{key_name}} set {{flag_names}}`
 
