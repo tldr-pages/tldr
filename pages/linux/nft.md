@@ -7,25 +7,13 @@
 
 `sudo nft list ruleset`
 
-- List tables:
-
-`sudo nft list tables`
-
 - Add a new table:
 
 `sudo nft add table {{family}} {{table}}`
 
-- Delete a table:
-
-`sudo nft delete table {{family}} {{table}}`
-
 - Add a new chain:
 
 `sudo nft add chain {{family}} {{table}} {{chain}} \{ type {{type}} hook {{hook}} priority {{priority}} \; \}`
-
-- Delete a chain:
-
-`sudo nft delete {{family}} {{table}} {{chain}}`
 
 - Add a new rule:
 
@@ -46,7 +34,3 @@
 - Save current configuration:
 
 `sudo nft list ruleset > /etc/nftables.conf`
-
-- Clear current configuration:
-
-`sudo nft flush ruleset`
