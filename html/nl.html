@@ -1,11 +1,17 @@
 <b>nl</b><br><br>
 <b>A utility for numbering lines, either from a file, or from standard input.</b><br><br>
-- Number lines in a file:
+- Number non-blank lines in a file:
 
 <blockquote>nl <i>file</i></blockquote>
+- Read from standard output:
+
+<blockquote>cat <i>file</i> | nl <i>options</i> -</blockquote>
 - Number only the lines with printable text:
 
 <blockquote>nl -t <i>file</i></blockquote>
+- Number all lines including blank lines:
+
+<blockquote>nl -b a <i>file</i></blockquote>
 - Number only the body lines that match a basic regular expression (BRE) pattern:
 
 <blockquote>nl -b p'FooBar[0-9]' <i>file</i></blockquote>
