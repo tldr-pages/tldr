@@ -2,7 +2,7 @@
 
 > Display operating system configuration for a local or remote machine.
 
-- Display standard system configuration for the local machine:
+- Display system configuration for the local machine:
 
 `systeminfo`
 
