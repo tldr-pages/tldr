@@ -10,6 +10,10 @@
 
 `ssh-keygen -f ~/.ssh/{{filename}}`
 
+- Generate an ed25519 key with 100 key derivation function rounds:
+
+`ssh-keygen -t ed25519 -a 100`
+
 - Generate a DSA 2048 bit (default) key:
 
 `ssh-keygen -t dsa`
