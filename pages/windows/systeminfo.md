@@ -12,7 +12,7 @@
 
 - Display system configuration for a remote machine:
 
-`tasklist /s {{remote_name}} /u {{username}} /p {{password}}`
+`systeminfo /s {{remote_name}} /u {{username}} /p {{password}}`
 
 - Display detailed usage information:
 
