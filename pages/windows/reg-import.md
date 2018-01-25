@@ -1,6 +1,6 @@
 # reg import
 
-> Import all available keys, subkeys and values from a file.
+> Import all available keys, subkeys, and values from a file.
 
 - Import all keys, subkeys and values from a file:
 
