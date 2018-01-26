@@ -6,7 +6,7 @@
 
 `tasklist`
 
-- Display running processes in the specified output format (`table`, `list`, or `csv`):
+- Display running processes in a specified output format:
 
 `tasklist /fo {{table|list|csv}}`
 
