@@ -12,7 +12,7 @@
 
 - Display the tree for a directory including files:
 
-`tree /f`
+`tree {{path/to/directory}} /f`
 
 - Display the tree using ASCII characters instead of extended characters:
 
