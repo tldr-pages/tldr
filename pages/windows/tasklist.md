@@ -8,7 +8,7 @@
 
 - Display running processes in the specified output format (`table`, `list`, or `csv`):
 
-`tasklist /fo {{format}}`
+`tasklist /fo {{table|list|csv}}`
 
 - Display running processes using the specified module name:
 
