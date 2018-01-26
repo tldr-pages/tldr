@@ -6,7 +6,7 @@
 
 `systeminfo`
 
-- Display system configuration in the specified output format (`table`, `list`, or `csv`):
+- Display system configuration in a specified output format:
 
 `systeminfo /fo {{table|list|csv}}`
 
