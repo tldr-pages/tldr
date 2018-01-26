@@ -8,7 +8,7 @@
 
 - Display system configuration in the specified output format (`table`, `list`, or `csv`):
 
-`systeminfo /fo {{format}}`
+`systeminfo /fo {{table|list|csv}}`
 
 - Display system configuration for a remote machine:
 
