@@ -4,11 +4,11 @@
 
 - Compile a .scala file:
 
-`scalac {{filename.scala}}`
+`scalac {{file.scala}}`
 
 - Compile several .scala files:
 
-`scalac {{filename1.scala}} {{filename2.scala}} {{filename3.scala}}`
+`scalac {{file1.scala}} {{file2.scala}} {{file3.scala}}`
 
 - Compile all .scala files in the current directory:
 
