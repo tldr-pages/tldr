@@ -2,11 +2,11 @@
 
 > A compiler for writing next generation JavaScript.
 
-- Compile a specified input file, and output to stdout:
+- Compile a specified input file and output to stdout:
 
 `babel {{path/to/file}}`
 
-- Compile a specified input file, and output to a specific file:
+- Compile a specified input file and output to a specific file:
 
 `babel {{path/to/input_file}} --out-file {{path/to/output_file}}`
 
