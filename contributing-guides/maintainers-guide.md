@@ -84,9 +84,10 @@ as a guideline for current and future maintainers.
   If there's a single commit in the PR,
   or if the multiple commits are not semantically independent changes,
   use the `Squash and merge` method.
-  If the PR author took the time to craft
+  (Don't forget to clean up the body of the squashed commit message.)
+  If instead the PR author took the time to craft
   individual, informative messages for each commit,
-  use the `Rebase and merge` method,
+  then use the `Rebase and merge` method,
   to honor that work and preserve the history of the changes.
   For less clear-cut cases, a simple heuristic you can follow
   is that if there are more "dirty" commits than "clean" commits,
