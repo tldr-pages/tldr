@@ -1,6 +1,6 @@
 # babel
 
-> A transpiler for writing next generation JavaScript.
+> A transpiler which converts code from JavaScript ES6/ES7 syntax to ES5 syntax.
 
 - Transpile a specified input file and output to stdout:
 
