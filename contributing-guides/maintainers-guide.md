@@ -54,7 +54,7 @@ as a guideline for current and future maintainers.
 
 ## II. Handling PRs
 
-- PRs will be merged once they
+- PRs should be merged once they
   (1) **pass the automated tests** (Travis CI, CLA signing, etc.),
   (2) have the **review comments addressed**, and
   (3) get **approved reviews by two maintainers**
