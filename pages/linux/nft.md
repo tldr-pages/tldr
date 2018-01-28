@@ -7,17 +7,15 @@
 
 `sudo nft list ruleset`
 
-- Add a new table:
+- Add a new table with family "inet" and table "filter":
 
-`sudo nft add table {{family}} {{table}}`
+`sudo nft add table {{inet}} {{filter}}`
 
-- Add a new chain:
+- Add a new chain to accept all inbound traffic:
 
-`sudo nft add chain {{family}} {{table}} {{chain}} \{ type {{type}} hook {{hook}} priority {{priority}} \; \}`
+`sudo nft add chain {{inet}} {{filter}} {{input}} \{ type {{filter}} hook {{input}} priority {{0}} \; policy {{accept}} \}`
 
-- Add a new rule:
-
-`sudo nft {{[add | insert]}} rule {{family}} {{table}} {{chain}} {{[position]}} {{statement}}`
+- Add a new rule to accept several TCP ports:
 
 `sudo nft add rule {{inet}} {{filter}} {{input}} {{tcp}} {{dport \{ telnet, ssh, http, https \} accept}}`
 
@@ -26,8 +24,6 @@
 `sudo nft --handle --numeric list chain {{family}} {{table}} {{chain}}`
 
 - Delete a rule:
-
-`sudo nft delete rule {{family}} {{table}} {{chain}} handle {{handle}}`
 
 `sudo nft delete rule {{inet}} {{filter}} {{input}} handle {{3}}`
 
