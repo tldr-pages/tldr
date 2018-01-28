@@ -34,3 +34,7 @@
 - Invert match for excluding specific strings:
 
 `grep -v {{search_string}}`
+
+- Show filenames only:
+
+`grep -l {{search_string}}`
