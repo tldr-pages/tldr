@@ -18,6 +18,6 @@
 
 `restic -r {{path/to/repository}} restore {{snapshot_id}} {{path/to/target}}`
 
-- Clean up repository and keep only the most recent snapshot of each unique backup:
+- Clean up the repository and keep only the most recent snapshot of each unique backup:
 
 `restic forget --keep-last 1 --prune`
