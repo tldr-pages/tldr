@@ -19,9 +19,7 @@
 
 `sudo nft {{[add | insert]}} rule {{family}} {{table}} {{chain}} {{[position]}} {{statement}}`
 
-- Example rule:
-
-`sudo nft add rule inet filter input tcp dport \{ telnet, ssh, http, https \} accept`
+`sudo nft add rule {{inet}} {{filter}} {{input}} {{tcp}} {{dport \{ telnet, ssh, http, https \} accept}}`
 
 - Show rule handles:
 
@@ -31,6 +29,8 @@
 
 `sudo nft delete rule {{family}} {{table}} {{chain}} handle {{handle}}`
 
+`sudo nft delete rule {{inet}} {{filter}} {{input}} handle {{3}}`
+
 - Save current configuration:
 
-`sudo nft list ruleset > /etc/nftables.conf`
+`sudo nft list ruleset > {{/etc/nftables.conf}}`
