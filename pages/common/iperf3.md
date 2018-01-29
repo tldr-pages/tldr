@@ -10,14 +10,14 @@
 
 `iperf3 -s -p5209`
 
-- Start bandwidth testing
+- Start bandwidth test
 
 `iperf3 -c {{server}}`
 
-- Start bandwidth testing in 5 threads
+- Start bandwidth test in 5 threads
 
 `iperf3 -c {{server}} -P5`
 
-- Start bandwidth testing in reverse mode
+- Start bandwidth test in reverse mode
 
 `iperf3 -c {{server}} -R`
