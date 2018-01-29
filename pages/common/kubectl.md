@@ -8,7 +8,7 @@
 
 - List all pods with more information (such as node name).
 
-`kubectl get pods -o wide` 
+`kubectl get pods -o wide`
 
 - List all resources with different types.
 
