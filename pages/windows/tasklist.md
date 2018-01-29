@@ -10,7 +10,7 @@
 
 `tasklist /fo {{table|list|csv}}`
 
-- Display running processes using the specified module name:
+- Display running processes using the specified `.exe` or `.dll` file name:
 
 `tasklist /m {{module_pattern}}`
 
