@@ -1,6 +1,6 @@
 # iperf3
 
-> Traffic generator for testing network bandwidth
+> Traffic generator for testing network bandwidth.
 
 - Run iperf3 as a server:
 
