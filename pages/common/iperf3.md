@@ -18,6 +18,6 @@
 
 `iperf3 -c {{server}} -P5`
 
-- Start test in reverse mode
+- Start bandwidth testing in reverse mode
 
 `iperf3 -c {{server}} -R`
