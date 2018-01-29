@@ -1,23 +1,23 @@
 # iperf3
 
-> Iperf3 — traffic generator for testing network bandwidth
+> Traffic generator for testing network bandwidth
 
-- Run iperf3 as a server
+- Run iperf3 as a server:
 
 `iperf3 -s`
 
-- Run iperf3 server on port 5209
+- Run an iperf3 server on a specific port:
 
-`iperf3 -s -p5209`
+`iperf3 -s -p{{port}}`
 
-- Start bandwidth test
+- Start bandwidth test:
 
-`iperf3 -c {{server}}`
+`iperf3 -c{{server}}`
 
-- Start bandwidth test in 5 threads
+- Run iperf3 in multiple threads:
 
-`iperf3 -c {{server}} -P5`
+`iperf3 -c{{server}} -P{{threads}}`
 
-- Start bandwidth test in reverse mode
+- Reverse direction of the test. Server sends data to the client:
 
-`iperf3 -c {{server}} -R`
+`iperf3 -c{{server}} -R`
