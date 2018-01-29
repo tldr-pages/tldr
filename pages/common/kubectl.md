@@ -30,18 +30,3 @@
 
 `kubectl cluster-info`
 
-- Creating objects.
-
-`kubectl create -f {filename}`
-
-- Apply the configuration in file to a pod.
-
-`kubectl apply -f {filename}`
-
-- Start a single instance of specified image.
-
-`kubectl run {label} --image={docker_image}`
-
-- Delete all pods.
-
-`kubectl delete pods --all`
