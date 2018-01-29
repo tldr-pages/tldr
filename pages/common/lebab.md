@@ -10,7 +10,7 @@
 - Transpile using one or more comma-separated transformations:
 
 `lebab --transform {{transformation}}`
-  
+
 - Transpile a file to stdout:
 
 `lebab {{path/to/input_file}}`
