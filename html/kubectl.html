@@ -1,0 +1,23 @@
+<b>kubectl</b><br><br>
+<b>Command line interface for running commands against Kubernetes clusters.</b><br><br>
+- List all pods in all namespaces:
+
+<blockquote>kubectl get pods --all-namespaces</blockquote>
+- List all pods with more information (such as node name):
+
+<blockquote>kubectl get pods -o wide</blockquote>
+- Update specified pod with the label 'unhealthy' and the value 'true':
+
+<blockquote>kubectl label pods <i>name</i> unhealthy=true</blockquote>
+- List all resources with different types:
+
+<blockquote>kubectl get all</blockquote>
+- Show metrics for all nodes:
+
+<blockquote>kubectl top node</blockquote>
+- Show metrics for all pods in the default namespace:
+
+<blockquote>kubectl top pod</blockquote>
+- Print the address of the master and cluster services:
+
+<blockquote>kubectl cluster-info</blockquote>
