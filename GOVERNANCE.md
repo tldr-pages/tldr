@@ -18,10 +18,9 @@ Community members are asked to abide by the following principles:
   [do-ocracy](https://communitywiki.org/wiki/DoOcracy),
   so don't hesitate to get involved
   — we're happy to welcome you into the community!
-  Please take a look at [CONTRIBUTING.md](CONTRIBUTING.md)
-  to get started.
+  Please take a look at [CONTRIBUTING.md](CONTRIBUTING.md) to get started.
 
-- **All discussions should be respectful and cordial**.
+- **All discussions must be respectful and cordial**.
   Avoid making assumptions about the others' intentions,
   and make your own intentions clear.
   When in doubt, provide additional context, or ask for clarification.
@@ -41,15 +40,15 @@ Community members are asked to abide by the following principles:
 
 - **All decisions are made by community consensus**.
   This does not mean there has to be unanimity,
-  nor that decisions result from vote counts.
+  nor that decisions result automatically from vote counts.
   What it means is that
-  every interested member of the community is welcome to voice their thoughts,
-  and incompatible positions are ideally resolved with involved participants
-  either agreeing with the final decision, or voluntarily
+  all interested members of the community are welcome to voice their thoughts,
+  and incompatible positions will ideally be resolved
+  with participants either agreeing with the final decision, or voluntarily
   [consenting](https://en.wikipedia.org/wiki/Sociocracy#Consent_vs._consensus)
-  to it as "good enough for now, safe enough to try".
+  to accept it as "good enough for now, safe enough to try".
 
-- **Community roles reflect actual activity**.
+- **Community roles should reflect actual activity**.
   Community roles in the tldr-project are set up
   to dynamically reflect organizational work performed by community members,
   rather than assigned as authority positions by top-down decision-making.
