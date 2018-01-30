@@ -10,13 +10,13 @@
 
 `kubectl get pods -o wide`
 
+- Update specified pod with the label 'unhealthy' and the value 'true':
+
+`kubectl label pods {{name}} unhealthy=true`
+
 - List all resources with different types:
 
 `kubectl get all`
-
-- Update specified pod with the label 'unhealthy' and the value 'true':
-
-`kubectl label pods {name} unhealthy=true`
 
 - Show metrics for all nodes:
 
