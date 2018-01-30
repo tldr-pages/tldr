@@ -2,7 +2,7 @@
 
 > Arch Linux utility for building packages from the Arch User Repository (AUR).
 
-- Synchronize and update all packages (including AUR):
+- Synchronize and update all AUR packages (excludes non-AUR packages):
 
 `trizen -Syua`
 
@@ -10,7 +10,7 @@
 
 `trizen -S {{package}}`
 
-- Remove a package and its dependencies:
+- Remove a package and its dependencies (includes AUR packages):
 
 `trizen -Rs {{package}}`
 
@@ -18,10 +18,10 @@
 
 `trizen -Ss {{package}}`
 
-- Show information about a package:
+- Show information about a package (includes AUR packages):
 
 `trizen -Si {{package}}`
 
-- List installed packages and versions:
+- List installed packages and versions (includes AUR packages):
 
 `trizen -Qe`
