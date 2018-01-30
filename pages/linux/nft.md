@@ -1,6 +1,6 @@
-# nft
+# nftables
 
-> Allows configuration of tables, chains and rules provided by the Linux kernel firewall.
+> Program that allows configuration of tables, chains and rules provided by the Linux kernel firewall.
 > Nftables replaces iptables.
 
 - View current configuration:
