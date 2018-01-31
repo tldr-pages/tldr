@@ -2,7 +2,7 @@
 
 > Arch Linux utility for building packages from the Arch User Repository (AUR).
 
-- Synchronize and update all AUR packages
+- Synchronize and update all AUR packages:
 
 `trizen -Syua`
 
