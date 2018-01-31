@@ -10,7 +10,7 @@ This directory contains scripts and resources to generate a PDF copy of tldr pag
 
 ## Highlights
 
-- There are no LaTeX dependencies
+- There are no LaTeX dependencies for generating the PDF.
 
 - 3 available color-schemes- *Basic*, *Solarized Light* and *Solarized Dark*. More can be added easily through CSS.
 
@@ -49,3 +49,5 @@ Example - `python3 /home/user/tldr/pages/linux solarized-dark`
 - [ ] Add an index page for easier navigation.
 
 - [ ] Make first argument simpler - Just require the name of the OS, instead of path to directory.
+
+- [ ] Include OS information at the beginning.
