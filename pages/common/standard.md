@@ -25,3 +25,7 @@
 - Use a custom JS parser when linting:
 
 `standard --parser {{parser}}`
+
+- Use a custom ESLint environment when linting:
+
+`standard --env {{environment}}`
