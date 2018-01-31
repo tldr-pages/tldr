@@ -2,12 +2,17 @@
 
 This directory contains scripts and resources to generate a PDF copy of tldr pages. Pre generated PDF copies are also present, ready to be downloaded instantly. If you want to generate a PDF yourself with the latest set of tldr pages, please read further.
 
+## Preview
+
+![aa](https://user-images.githubusercontent.com/29029116/35637791-4e42af80-06db-11e8-8b8e-42ce6c905ff4.jpg)
+![bb](https://user-images.githubusercontent.com/29029116/35637798-51e3784a-06db-11e8-9576-6e57ef5c5c20.jpg)
+![cc](https://user-images.githubusercontent.com/29029116/35637801-54449fce-06db-11e8-93f7-d90cdc34044b.jpg)
 
 ## Highlights
 
 - There are no LaTeX dependencies
 
-- 3 available color-schemes- **Basic**, **Solarized Light** and **Solarized Dark**. More can be added easily through CSS.
+- 3 available color-schemes- *Basic*, *Solarized Light* and *Solarized Dark*. More can be added easily through CSS.
 
 
 ## Requirements
