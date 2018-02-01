@@ -25,3 +25,11 @@
 - Replace separator / by any other character not used in the find or replace patterns, e.g., #:
 
 `sed 's#{{find}}#{{replace}}#' {{filename}}`
+
+- Remove all leading whitespace (spaces, tabs) from front of each line, overwriting the file:
+
+`sed -i 's/^[ \t]*//' {{filename}}`
+
+- Remove trailing whitespace (spaces, tabs) from the end of each line, overwriting the file:
+
+`sed -i 's/[ \t]*$//' {{filename}}`
