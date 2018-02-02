@@ -14,7 +14,7 @@
 
 `del {{file_pattern}} /f`
 
-- Recursively delete files from all subdirectories:
+- Recursively delete file(s) from all subdirectories:
 
 `del {{file_pattern}} /s`
 
