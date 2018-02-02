@@ -6,7 +6,7 @@
 
 `standard`
 
-- Lint specific JavaScript files:
+- Lint specific JavaScript file(s):
 
 `standard {{path/to/file}}`
 
