@@ -14,13 +14,19 @@
 
 `autopkg run {{recipe_identifier}} --pkg {{/path/to/downloaded/pkg_or_dmg}}`
 
-- Update one or more recipe repo:
+- Add a new repo to autopkg:
+
+`autopkg repo-add {{repo_name}}`
+
+- Update one autopkg repo:
 
 `autopkg repo-update {{repo_names}}`
 
+- Update all autopkg repos:
+
 `autopkg repo-update all`
 
-- Search avaible recipes:
+- Search available recipes:
 
 `autopkg search {{application_name}}`
 
