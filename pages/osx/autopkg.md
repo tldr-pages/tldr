@@ -6,13 +6,13 @@
 
 `autopkg run {{recipe_identifier}}`
 
-- Run autopkg with in verbose mode:
+- Run autopkg in verbose mode:
 
 `autopkg run -vvv {{recipe_identifier}}`
 
 - Run autopkg with specified pkg:
 
-`autopkg run {{recipe_identifier}} --pkg {{/path/to/downloaded/pkg_or_dmg}}`
+`autopkg run {{recipe_identifier}} --pkg {{path/to/downloaded/pkg_or_dmg}}`
 
 - Add a new repo to autopkg:
 
