@@ -1,7 +1,7 @@
 # trap
 
 > Automatically execute commands after receiving signals by processes or the operating system.
-> Can be used to perform cleanups for interruptions by the user or other causes.
+> Can be used to perform cleanups for interruptions by the user or other actions.
 
 - List available signals to set traps for:
 
@@ -13,11 +13,11 @@
 
 - Set a trap to execute commands when one or more signals are detected:
 
-`trap '{{shell_commands}}' {{signal_names}}`
+`trap 'echo "Caught signal SIGHUP"' SIGHUP`
 
 - Remove active traps:
 
-`trap - {{signal_names}}`
+`trap - SIGHUP SIGINT`
 
 - Set a trap to delete a file after the user has interrupted a download:
 
