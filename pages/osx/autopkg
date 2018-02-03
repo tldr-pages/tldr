@@ -1,0 +1,28 @@
+# autopkg
+
+> Automation framework for OS X software packaging and distribution
+
+- Run autopkg recipe 
+
+`autipkg run {{recipe_identifier}}`
+
+- Run autopkg with in verbose mode
+
+`autipkg run -vvv {{new_hostname}}`
+
+- Run autopkg with specified pkg:
+
+`autopkg run {{recipe_identifier}} --pkg {{/path/to/downloaded/pkg_or_dmg}}`
+
+- Update one or more recipe repo:
+
+`autopkg repo-update {{repo_names}}`
+`autopkg repo-update all
+
+- Search avaible recipes:
+
+`autopkg search {{application_name}}`
+
+- Display autopkg help
+
+`autopkg help`
