@@ -17,3 +17,7 @@
 - Force IP IPv4 or IPV6:
 
 `mtr -4 {{host}}`
+
+- Define the time to wait before sending another packet to the same hop:
+
+`mtr -i {{seconds}} {{host}}`
