@@ -13,12 +13,8 @@
 
 - Set a trap to execute commands when one or more signals are detected:
 
-`trap 'echo "Caught signal SIGHUP"' SIGHUP`
+`trap 'echo "Caught signal {{SIGHUP}}"' {{SIGHUP}}`
 
 - Remove active traps:
 
-`trap - SIGHUP SIGINT`
-
-- Set a trap to delete a file after the user has interrupted a download:
-
-`trap 'rm -i master.zip' SIGINT ERR`
+`trap - {{SIGHUP}} {{SIGINT}}`
