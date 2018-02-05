@@ -2,7 +2,7 @@
 
 > Tokenize PHP, JavaScript and CSS files to detect violations of a defined set of coding standards.
 
-- Sniff the specified directory for issues:
+- Sniff the specified directory for issues (defaults to PEAR standard):
 
 `phpcs {{path/to/directory}}`
 
