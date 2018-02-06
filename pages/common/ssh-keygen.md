@@ -14,10 +14,6 @@
 
 `ssh-keygen -t ed25519 -a 100`
 
-- Generate a DSA 2048 bit (default) key:
-
-`ssh-keygen -t dsa`
-
 - Generate an RSA 4096 bit key with your email as a comment:
 
 `ssh-keygen -t rsa -b 4096 -C "{{email}}"`
