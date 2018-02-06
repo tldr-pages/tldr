@@ -1,7 +1,7 @@
 # rabin2
 
 > Get information about binary files - symbols, sections, linked libraries, etc.
-> Comes bundled with radare2
+> Comes bundled with radare2.
 
 - Display general information about a binary (architecture, type, endianness):
 
