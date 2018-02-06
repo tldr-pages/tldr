@@ -10,11 +10,11 @@
 
 `postcss {{path/to/file}} --output {{path/to/file}}`
 
-- Parse and transform CSS file(s) and output to a specific directory:
+- Parse and transform a CSS file and output to a specific directory:
 
 `postcss {{path/to/file}} --dir {{path/to/directory}}`
 
-- Parse and transform CSS file(s) in-line:
+- Parse and transform a CSS file in-place:
 
 `postcss {{path/to/file}} --replace`
 
@@ -26,7 +26,7 @@
 
 `postcss {{path/to/file}} --syntax {{syntax}}`
 
-- Parse and transform CSS file(s) by watching for changes:
+- Watch for changes to a CSS file:
 
 `postcss {{path/to/file}} --watch`
 
