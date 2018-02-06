@@ -11,116 +11,122 @@ import re
 import markdown
 from weasyprint import HTML
 
-#Unless specified otherwise, this is the default colorscheme
-colorscheme = "basic"
+def main():
 
-oslist = []
-allmd = []
-group = []
-ap = []
+    #Unless specified otherwise, this is the default colorscheme
+    colorscheme = "basic"
 
-#Checking for no path input
-try:
-    loc = sys.argv[1]
-except IndexError:
-    print("Please specify a directory and try again!", file = sys.stderr)
-    sys.exit(1)
+    oslist = []
+    allmd = []
+    group = []
+    ap = []
 
-#Checking for invalid path input
-if not os.path.isdir(loc):
-    print("Invalid directory. Please try again!", file = sys.stderr)
-    sys.exit(1)
+    #Checking for no path input
+    try:
+        loc = sys.argv[1]
+    except IndexError:
+        print("Please specify a directory and try again!", file = sys.stderr)
+        sys.exit(1)
 
-#Changing colorscheme. Changes are applied only when a valid keyword is received, otherwise
-#default colorscheme is maintained
-if len(sys.argv) == 3:
-    if(sys.argv[2] == "solarized-light" or sys.argv[2] == "solarized-dark"):
-        colorscheme = sys.argv[2]
+    #Checking for invalid path input
+    if not os.path.isdir(loc):
+        print("Invalid directory. Please try again!", file = sys.stderr)
+        sys.exit(1)
 
-if not loc.endswith('/'):
-    loc = loc + "/"
+    #Changing colorscheme. Changes are applied only when a valid keyword is received, otherwise
+    #default colorscheme is maintained
+    if len(sys.argv) == 3:
+        if(sys.argv[2] == "solarized-light" or sys.argv[2] == "solarized-dark"):
+            colorscheme = sys.argv[2]
 
-#Writing names of all directories inside 'pages' to a list
-for os_dir in os.listdir(loc):
-    oslist.append(os_dir)
+    if not loc.endswith('/'):
+        loc = loc + "/"
 
-oslist.sort()
+    #Writing names of all directories inside 'pages' to a list
+    for os_dir in os.listdir(loc):
+        oslist.append(os_dir)
 
-#Required strings to create intermediate HTML files
-header = "<html><head><link rel=\"stylesheet\" type=\"text/css\" href=\"" + colorscheme + ".css\"></head><body>\n"
-footer = "</body></html>"
-title_content = "<h1 class=\"titlemain\">tldr pages</h1><h4 class=\"titlesub\">Simplified and community driven man pages</h4></body></html>"
+    oslist.sort()
 
-#Creating title page
-with open("title.html", 'w') as f:
-    f.write(header + title_content)
+    #Required strings to create intermediate HTML files
+    header = "<html><head><link rel=\"stylesheet\" type=\"text/css\" href=\"" + colorscheme + ".css\"></head><body>\n"
+    footer = "</body></html>"
+    title_content = "<h1 class=\"titlemain\">tldr pages</h1><h4 class=\"titlesub\">Simplified and community driven man pages</h4></body></html>"
 
-group.append(HTML('title.html').render())
+    #Creating title page
+    with open("title.html", 'w') as f:
+        f.write(header + title_content)
 
-for operating_sys in oslist:
+    group.append(HTML('title.html').render())
 
-    i = 1
+    for operating_sys in oslist:
 
-    #Required string to create directory title pages
-    dir_title = "<h2 class=\"titledir\">" + operating_sys.capitalize() + "</h2></body></html>"
+        i = 1
 
-    #Creating directory title page for current directory
-    with open("dir_title.html", 'w') as os_html:
-        os_html.write(header + dir_title)
-    
-    group.append(HTML('dir_title.html').render())
+        #Required string to create directory title pages
+        dir_title = "<h2 class=\"titledir\">" + operating_sys.capitalize() + "</h2></body></html>"
 
-    #Creating a list of all md files in the current directory
-    for temp in glob.glob(os.path.join(loc + operating_sys, '*.md')):
-        allmd.append(temp)
+        #Creating directory title page for current directory
+        with open("dir_title.html", 'w') as os_html:
+            os_html.write(header + dir_title)
+        
+        group.append(HTML('dir_title.html').render())
 
-    #Sorting all filenames in the directory, to maintain the order of the PDF
-    allmd.sort()
+        #Creating a list of all md files in the current directory
+        for temp in glob.glob(os.path.join(loc + operating_sys, '*.md')):
+            allmd.append(temp)
 
-    #Conversion of md to HTML
-    for md in allmd:
+        #Sorting all filenames in the directory, to maintain the order of the PDF
+        allmd.sort()
 
-        output_file = open("htmlout.html", "a")
+        #Conversion of md to HTML
+        for md in allmd:
 
-        with open(md, "r") as inp:
-            text = inp.readlines()
+            output_file = open("htmlout.html", "a")
 
-        purge = open("htmlout.html", "w")
-        purge.close()
+            with open(md, "r") as inp:
+                text = inp.readlines()
 
-        with open("htmlout.html", "a") as out:
-            out.write(header)
+            purge = open("htmlout.html", "w")
+            purge.close()
 
-            for line in text:
-                if re.match(r'^>', line):
-                    line = line[:0] + '####' + line[1:]
+            with open("htmlout.html", "a") as out:
+                out.write(header)
 
-                html = markdown.markdown(line)
-                out.write(html)
+                for line in text:
+                    if re.match(r'^>', line):
+                        line = line[:0] + '####' + line[1:]
 
-            out.write(footer)
+                    html = markdown.markdown(line)
+                    out.write(html)
 
-        group.append(HTML('htmlout.html').render())
-        print("Rendered page " + str(i) + " of the directory " + operating_sys)
-        i += 1
-    
-    allmd.clear()
+                out.write(footer)
 
-#Merging all the documents into a single PDF
-for doc in group:
-    for p in doc.pages:
-        ap.append(p)
+            group.append(HTML('htmlout.html').render())
+            print("Rendered page " + str(i) + " of the directory " + operating_sys)
+            i += 1
+        
+        allmd.clear()
 
-#Writing the PDF to disk, preserving metadata of first tldr page
-group[2].copy(ap).write_pdf('tldr.pdf')
+    #Merging all the documents into a single PDF
+    for doc in group:
+        for p in doc.pages:
+            ap.append(p)
 
-if os.path.exists("tldr.pdf"):
-    print("\nCreated \'tldr.pdf\' in the current directory!\n")
+    #Writing the PDF to disk, preserving metadata of first tldr page
+    group[2].copy(ap).write_pdf('tldr.pdf')
 
-#Removing unnecessary intermediate files
-try:
-    os.remove("htmlout.html")
-    os.remove("title.html")
-    os.remove("dir_title.html")
-except OSError:
-    pass
+    if os.path.exists("tldr.pdf"):
+        print("\nCreated \'tldr.pdf\' in the current directory!\n")
+
+    #Removing unnecessary intermediate files
+    try:
+        os.remove("htmlout.html")
+        os.remove("title.html")
+        os.remove("dir_title.html")
+    except OSError:
+        pass
+
+
+if __name__ == '__main__':
+    main()
