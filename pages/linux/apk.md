@@ -25,4 +25,3 @@
 - List the packages installed in the System:
 
 `apk info {{package}}`
-
