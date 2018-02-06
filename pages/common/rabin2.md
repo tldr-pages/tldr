@@ -1,3 +1,5 @@
+# rabin2
+
 > Get information about binary files - symbols, sections, linked libraries, etc.
 > Comes bundled with radare2
 
