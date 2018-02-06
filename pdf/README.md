@@ -1,6 +1,6 @@
 # pdf
 
-This directory contains scripts and resources to generate a PDF copy of tldr pages. Pre generated PDF copies are also present, ready to be downloaded instantly. If you want to generate a PDF yourself with the latest set of tldr pages, please read further.
+This directory contains the script and resources to generate a PDF copy of tldr pages.
 
 ## Preview
 
@@ -10,7 +10,7 @@ This directory contains scripts and resources to generate a PDF copy of tldr pag
 
 ## Highlights
 
-- There are no LaTeX dependencies for generating the PDF.
+- No LaTeX dependencies for generating the PDF.
 
 - 3 available color-schemes- *Basic*, *Solarized Light* and *Solarized Dark*. More can be added easily through CSS.
 
@@ -31,9 +31,9 @@ Make sure OS specific dependencies for WeasyPrint are installed by following the
 
 ## Usage
 
-Generating the PDF is as simple as running-
+Generating the PDF is as simple as running
 
-    python3 render.py <path-to-directory-with-md-files> <color-scheme>
+    python3 render.py <path-to-pages-directory> <color-scheme>
     
 The first argument is mandatory, while the second argument is optional. The following color-schemes can be specified-
 
@@ -42,12 +42,11 @@ The first argument is mandatory, while the second argument is optional. The foll
     
 If none is specified, the PDF will be rendered with the default color-scheme.
 
-Example - `python3 /home/user/tldr/pages/linux solarized-dark`
+Example - `python3 /home/username/tldr/pages/ solarized-dark`
 
 ## To-do
 
-- [ ] Add an index page for easier navigation.
+- [x] Include OS information
 
-- [ ] Make first argument simpler - Just require the name of the OS, instead of path to directory.
+- [ ] Add an index page for easier navigation
 
-- [ ] Include OS information at the beginning.
