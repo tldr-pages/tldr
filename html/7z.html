@@ -3,18 +3,21 @@
 - Archive a file or folder:
 
 <blockquote>7z a <i>archived.7z</i> <i>path/to/file</i></blockquote>
+- Encrypt an existing archive (including headers):
+
+<blockquote>7z a <i>encrypted.7z</i> -p<i>password</i> -mhe <i>archived.7z</i></blockquote>
 - Extract an existing 7z file with original directory structure:
 
-<blockquote>7z x <i>archived</i></blockquote>
+<blockquote>7z x <i>archived.7z</i></blockquote>
 - Extract an archive with user-defined output path:
 
-<blockquote>7z x <i>archived</i> -o<i>path/to/output</i></blockquote>
+<blockquote>7z x <i>archived.7z</i> -o<i>path/to/output</i></blockquote>
 - Archive using a specific archive type:
 
-<blockquote>7z a -t <i>zip|gzip|bzip2|tar|...</i> <i>archived</i> <i>path/to/file</i></blockquote>
+<blockquote>7z a -t <i>zip|gzip|bzip2|tar|...</i> <i>archived.7z</i> <i>path/to/file</i></blockquote>
 - List available archive types:
 
 <blockquote>7z i</blockquote>
 - List the contents of an archive file:
 
-<blockquote>7z l <i>archived</i></blockquote>
+<blockquote>7z l <i>archived.7z</i></blockquote>

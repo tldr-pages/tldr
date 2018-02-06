@@ -1,0 +1,17 @@
+<b>restic</b><br><br>
+<b>Fast, secure, efficient backup program.</b><br><br>
+- Initialize a backup repository in the specified local directory:
+
+<blockquote>restic init -r <i>path/to/repository</i></blockquote>
+- Backup folder "my_folder" to the repository:
+
+<blockquote>restic -r <i>path/to/repository</i> backup <i>path/to/my_folder</i></blockquote>
+- Show backup snapshots currently stored in the repository:
+
+<blockquote>restic -r <i>path/to/repository</i> snapshots</blockquote>
+- Restore a specific backup snapshot to a target directory:
+
+<blockquote>restic -r <i>path/to/repository</i> restore <i>snapshot_id</i> <i>path/to/target</i></blockquote>
+- Clean up the repository and keep only the most recent snapshot of each unique backup:
+
+<blockquote>restic forget --keep-last 1 --prune</blockquote>

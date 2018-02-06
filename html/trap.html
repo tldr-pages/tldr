@@ -1,0 +1,14 @@
+<b>trap</b><br><br>
+<b>Automatically execute commands after receiving signals by processes or the operating system.</b><br><br><b>Can be used to perform cleanups for interruptions by the user or other actions.</b><br><br>
+- List available signals to set traps for:
+
+<blockquote>trap -l</blockquote>
+- List active traps for the current shell:
+
+<blockquote>trap -p</blockquote>
+- Set a trap to execute commands when one or more signals are detected:
+
+<blockquote>trap 'echo "Caught signal <i>SIGHUP</i>"' <i>SIGHUP</i></blockquote>
+- Remove active traps:
+
+<blockquote>trap - <i>SIGHUP</i> <i>SIGINT</i></blockquote>

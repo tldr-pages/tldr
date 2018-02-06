@@ -10,9 +10,9 @@
 
 `ssh-keygen -f ~/.ssh/{{filename}}`
 
-- Generate a DSA 2048 bit (default) key:
+- Generate an ed25519 key with 100 key derivation function rounds:
 
-`ssh-keygen -t dsa`
+`ssh-keygen -t ed25519 -a 100`
 
 - Generate an RSA 4096 bit key with your email as a comment:
 
