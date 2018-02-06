@@ -11,7 +11,7 @@ code {
     color: #b58900;
 }
 
-h1, h4, ul {
+h1, h2, h4, ul {
     font-family: "PT_Serif-Web-Regular";
     color: #93a1a1;
 }
@@ -21,14 +21,20 @@ body {
 }
 
 
-h1.titlea {
+h1.titlemain {
     text-align: center;
     margin-top: 6em;
     font-size: 350%;
 }
 
-h4.titleb {
+h4.titlesub {
     text-align: center;
     font-size: 120%;
     color: #b58900;
+}
+
+h2.titledir {
+    text-align: center;
+    margin-top: 8.2em;
+    font-size: 300%;
 }

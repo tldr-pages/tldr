@@ -11,18 +11,24 @@ code {
     color: darkslategrey;
 }
 
-h1, h4, ul {
+h1, h4, h2, ul {
     font-family: "PT_Serif-Web-Regular";
 }
 
-h1.titlea {
+h1.titlemain {
     text-align: center;
     margin-top: 6em;
     font-size: 350%;
 }
 
-h4.titleb {
+h4.titlesub {
     text-align: center;
     font-size: 120%;
     color: darkslategrey;
+}
+
+h2.titledir {
+    text-align: center;
+    margin-top: 8.2em;
+    font-size: 300%;
 }
