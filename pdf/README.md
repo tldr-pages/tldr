@@ -1,6 +1,6 @@
 # pdf
 
-This directory contains the script and resources to generate a PDF copy of tldr pages.
+This directory contains the script and related resources to generate a PDF copy of tldr pages.
 
 ## Preview
 
