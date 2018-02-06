@@ -18,6 +18,6 @@
 
 `mtr -4 {{host}}`
 
-- Define the time to wait before sending another packet to the same hop:
+- Wait for a given time (in seconds) before sending another packet to the same hop:
 
 `mtr -i {{seconds}} {{host}}`
