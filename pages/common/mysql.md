@@ -17,3 +17,7 @@
 - Execute SQL statements in a script file (batch file):
 
 `mysql {{database_name}} < {{script.sql}}`
+
+- Connect to a database through a Unix socket:
+
+`mysql --socket {{/path/to/socket.sock}}`
