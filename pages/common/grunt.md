@@ -22,7 +22,7 @@
 
 `grunt --tasks {{path/to/directory}}`
 
-- Specify a local NPM package name to scan for tasks in:
+- Specify a local npm package name to scan for tasks in:
 
 `grunt --npm {{package_name}}`
 
