@@ -20,4 +20,4 @@
 
 - Connect to a database through a Unix socket:
 
-`mysql --socket {{/path/to/socket.sock}}`
+`mysql --socket {{path/to/socket.sock}}`
