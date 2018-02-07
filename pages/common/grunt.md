@@ -22,10 +22,6 @@
 
 `grunt --tasks {{path/to/directory}}`
 
-- Specify a local npm package name to scan for tasks in:
-
-`grunt --npm {{package_name}}`
-
 - Perform a dry-run without writing any files:
 
 `grunt --no-write`
