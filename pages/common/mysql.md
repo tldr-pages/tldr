@@ -14,6 +14,10 @@
 
 `mysql -h {{database_host}} {{database_name}}`
 
+- Connect to a database through a Unix socket:
+
+`mysql --socket {{path/to/socket.sock}}`
+
 - Execute SQL statements in a script file (batch file):
 
 `mysql {{database_name}} < {{script.sql}}`
