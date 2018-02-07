@@ -19,6 +19,6 @@
 
 `rabin2 -z {{path/to/binary}}`
 
-- Display the output in JSON (works for every subcommand):
+- Display the output in JSON:
 
 `rabin2 -j -I {{path/to/binary}}`
