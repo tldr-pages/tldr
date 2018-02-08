@@ -22,6 +22,6 @@
 
 `apk search {{keyword}}`
 
-- List the packages installed in the System:
+- Get info about a specific package:
 
 `apk info {{package}}`
