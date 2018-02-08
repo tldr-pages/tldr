@@ -3,7 +3,7 @@
 > Symlink manager.
 > Often used to manage dotfiles.
 
-- Symlink all files recursively to {{target}}
+- Symlink all files recursively to {{target}}:
 
 `stow --target={{target}} {{file1 folder1 file2 folder2}}`
 
