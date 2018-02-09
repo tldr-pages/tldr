@@ -70,6 +70,8 @@ You can access these pages on your computer using one of the following clients:
   `brew install porras/tap/tlcr`
 - [Dart client](https://github.com/hterkelsen/tldr):
   `pub global activate tldr`
+- [Dash docset](https://github.com/Moddus/tldr-python-dash-docset):
+  Open `Preferences > Downloads > User Contributed` and find `tldr pages` in the list
 - [Elixir client](https://github.com/edgurgel/tldr_elixir_client)
   (binaries not yet available)
 - [Emacs client](https://github.com/kuanyui/tldr.el), available on
