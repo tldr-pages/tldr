@@ -1,0 +1,17 @@
+<b>rabin2</b><br><br>
+<b>Get information about binary files (ELF, PE, Java CLASS, Mach-O) - symbols, sections, linked libraries, etc.</b><br><br><b>Comes bundled with `radare2`.</b><br><br>
+- Display general information about a binary (architecture, type, endianness):
+
+<blockquote>rabin2 -I <i>path/to/binary</i></blockquote>
+- Display linked libraries:
+
+<blockquote>rabin2 -l <i>path/to/binary</i></blockquote>
+- Display symbols imported from libraries:
+
+<blockquote>rabin2 -i <i>path/to/binary</i></blockquote>
+- Display strings contained in the binary:
+
+<blockquote>rabin2 -z <i>path/to/binary</i></blockquote>
+- Display the output in JSON:
+
+<blockquote>rabin2 -j -I <i>path/to/binary</i></blockquote>
