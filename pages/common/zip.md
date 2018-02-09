@@ -30,6 +30,6 @@
 
 `zip -d {{compressed.zip}} "{{foo/*.tmp}}"`
 
-- Archive a directory and its contents to a multi-part [s]plit zip file (i.e. 3GB parts):
+- Archive a directory and its contents to a multi-part [s]plit zip file (e.g. 3GB parts):
 
 `zip -r -s {{3g}} {{compressed.zip}} {{path/to/dir}}`
