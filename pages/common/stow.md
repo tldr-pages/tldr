@@ -3,11 +3,11 @@
 > Symlink manager.
 > Often used to manage dotfiles.
 
-- Symlink all files recursively to {{/path/to/target/directory}}:
+- Symlink all files recursively to {{path/to/target_directory}}:
 
 `stow --target={{directory}} {{file1 folder1 file2 folder2}}`
 
-- Delete symlinks recursively from {{/path/to/target/directory}}:
+- Delete symlinks recursively from {{path/to/target_directory}}:
 
 `stow --delete --target={{directory}} {{file1 folder1 file2 folder2}}`
 
