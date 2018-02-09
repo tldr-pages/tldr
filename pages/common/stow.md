@@ -3,22 +3,22 @@
 > Symlink manager.
 > Often used to manage dotfiles.
 
-- Symlink all files recursively to {{path/to/target_directory}}:
+- Symlink all files recursively to a given directory:
 
-`stow --target={{directory}} {{file1 folder1 file2 folder2}}`
+`stow --target={{path/to/target_directory}} {{file1 folder1 file2 folder2}}`
 
-- Delete symlinks recursively from {{path/to/target_directory}}:
+- Delete symlinks recursively from a given directory:
 
-`stow --delete --target={{directory}} {{file1 folder1 file2 folder2}}`
+`stow --delete --target={{path/to/target_directory}} {{file1 folder1 file2 folder2}}`
 
 - Simulate to see what the result would be like:
 
-`stow --simulate --target={{directory}} {{file1 folder1 file2 folder2}}`
+`stow --simulate --target={{path/to/target_directory}} {{file1 folder1 file2 folder2}}`
 
 - Delete and resymlink:
 
-`stow --restow --target={{directory}} {{file1 folder1 file2 folder2}}`
+`stow --restow --target={{path/to/target_directory}} {{file1 folder1 file2 folder2}}`
 
 - Exclude files matching a regular expression:
 
-`stow --ignore={{regex}} --target={{directory}} {{file1 folder1 file2 folder2}}`
+`stow --ignore={{regex}} --target={{path/to/target_directory}} {{file1 folder1 file2 folder2}}`
