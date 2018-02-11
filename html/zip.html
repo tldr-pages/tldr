@@ -21,3 +21,6 @@
 - Delete files from an existing zip file:
 
 <blockquote>zip -d <i>compressed.zip</i> "<i>foo/*.tmp</i>"</blockquote>
+- Archive a directory and its contents to a multi-part [s]plit zip file (e.g. 3GB parts):
+
+<blockquote>zip -r -s <i>3g</i> <i>compressed.zip</i> <i>path/to/dir</i></blockquote>

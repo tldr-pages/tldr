@@ -1,0 +1,26 @@
+<b>phpcs</b><br><br>
+<b>Tokenize PHP, JavaScript and CSS files to detect violations of a defined set of coding standards.</b><br><br>
+- Sniff the specified directory for issues (defaults to the PEAR standard):
+
+<blockquote>phpcs <i>path/to/directory</i></blockquote>
+- Display a list of installed coding standards:
+
+<blockquote>phpcs -i</blockquote>
+- Specify a coding standard to validate against:
+
+<blockquote>phpcs <i>path/to/directory</i> --standard <i>standard</i></blockquote>
+- Specify file extension(s) to include when sniffing:
+
+<blockquote>phpcs <i>path/to/directory</i> --extensions <i>file_extension(s)</i></blockquote>
+- Specify the format of the output report (e.g. `full`, `xml`, `json`, `summary`):
+
+<blockquote>phpcs <i>path/to/directory</i> --report <i>format</i></blockquote>
+- Set config variables to be used during the process:
+
+<blockquote>phpcs <i>path/to/directory</i> --config-set <i>key</i> <i>value</i></blockquote>
+- A comma-separated list of files to load before processing:
+
+<blockquote>phpcs <i>path/to/directory</i> --bootstrap <i>file(s)</i></blockquote>
+- Don't recurse into subdirectories:
+
+<blockquote>phpcs <i>path/to/directory</i> -l</blockquote>
