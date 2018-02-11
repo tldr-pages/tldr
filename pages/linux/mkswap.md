@@ -1,7 +1,6 @@
 # mkswap
 
-> Set up a Linux swap area.
-> mkswap sets up a Linux swap area on a device or in a file.
+> Sets up a Linux swap area on a device or in a file.
 
 - Setup a disk partition as swap area:
 
