@@ -4,8 +4,16 @@
 
 - Setup a disk partition as swap area:
 
-`sudo mkswap {{partition}}`
+`sudo mkswap {{/dev/sdb7}}`
 
-- Setup a file and use that file as swap space:
+- Use a given file as swap area:
 
-`sudo mkswap {{filename}}`
+`sudo mkswap {{path/to/file}}`
+
+- Check the file or partition for bad blocks before creating the swap area:
+
+`sudo mkswap -c {{/dev/sdb7}}`
+
+- Specify a label for the file or partition:
+
+`sudo mkswap -L {{swap1}} {{/path/to/file}}`
