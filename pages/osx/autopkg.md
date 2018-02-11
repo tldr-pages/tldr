@@ -2,7 +2,7 @@
 
 > Automation framework for macOS software packaging and distribution.
 
-- List available recipe identifier
+- List available recipe identifier:
 `autopkg list-recipes`
 
 - Run autopkg recipe:
