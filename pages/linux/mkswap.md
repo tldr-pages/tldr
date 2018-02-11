@@ -2,7 +2,7 @@
 
 > Sets up a Linux swap area on a device or in a file.
 
-- Setup /dev/sdb7 as swap area:
+- Setup a given partition as swap area:
 
 `sudo mkswap {{/dev/sdb7}}`
 
@@ -10,10 +10,10 @@
 
 `sudo mkswap {{path/to/file}}`
 
-- Check /dev/sdb7 for bad blocks before creating the swap area:
+- Check a partition for bad blocks before creating the swap area:
 
 `sudo mkswap -c {{/dev/sdb7}}`
 
-- Specify a label for the file:
+- Specify a label for the file (to allow `swapon` to use the label):
 
-`sudo mkswap -L {{swap1}} {{/path/to/file}}`
+`sudo mkswap -L {{swap1}} {{path/to/file}}`
