@@ -10,10 +10,6 @@
 
 `autopkg run {{recipe_identifier}}`
 
-- Run autopkg in verbose mode:
-
-`autopkg run -vvv {{recipe_identifier}}`
-
 - Run autopkg with specified pkg:
 
 `autopkg run {{recipe_identifier}} --pkg {{path/to/downloaded_pkg_or_dmg}}`
