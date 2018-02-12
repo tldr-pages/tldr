@@ -8,7 +8,7 @@
 
 - Open a file and Show line numbers
 
-`less -N {{source_file}}`
+`less --LINE-NUMBERS {{source_file}}`
 
 - Page down / up:
 
