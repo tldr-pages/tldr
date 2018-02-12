@@ -6,6 +6,10 @@
 
 `less {{source_file}}`
 
+- Open a file and Show line numbers
+
+`less -N {{source_file}}`
+
 - Page down / up:
 
 `<Space> (down), b (up)`
