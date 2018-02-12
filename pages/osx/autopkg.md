@@ -2,7 +2,7 @@
 
 > Automation framework for macOS software packaging and distribution.
 
-- List available recipe identifier:
+- List available recipe identifiers:
 
 `autopkg list-recipes`
 
@@ -18,9 +18,9 @@
 
 `autopkg repo-add {{repo_name}}`
 
-- Update one autopkg repo:
+- Update an autopkg repo:
 
-`autopkg repo-update {{repo_names}}`
+`autopkg repo-update {{repo_name}}`
 
 - Update all autopkg repos:
 
