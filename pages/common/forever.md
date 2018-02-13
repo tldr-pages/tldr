@@ -1,15 +1,15 @@
-# forever - nodejs tool
+# forever
 
-> Server-side JavaScript application that makes sure node applications run indefinitely (restarts after crash).
+> Server-side JavaScript application that makes sure Node.js applications run indefinitely (restarts after exit).
 
 - Start running a file forever (as a daemon):
 
-`forever {{file}}.js`
+`forever {{script}}`
 
-- List forever running processes:
+- List running "forever" processes (along with IDs and other details of "forever" processes):
 
 `forever list`
 
-- Stop a forever running process:
+- Stop a running "forever" process:
 
-`forever stop {{ID from "forever list"}}`
+`forever stop {{ID|pid|script}}`
