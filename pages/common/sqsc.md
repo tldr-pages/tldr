@@ -18,7 +18,7 @@
 
 `sqsc mv <from-queue-name> <to-queue-name>`
 
-- Descibe a queue:
+- Describe a queue:
 
 `sqsc describe <queue-name>`
 
