@@ -14,6 +14,6 @@
 
 `beanstalkd -b {{path/to/persistence/directory}}`
 
-- Sync to the persistence directory every X milliseconds:
+- Sync to the persistence directory every 500 milliseconds:
 
-`beanstalkd -b {{path/to/persistence/directory}} -f {{X}}`
+`beanstalkd -b {{path/to/persistence/directory}} -f {{500}}`
