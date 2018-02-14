@@ -1,6 +1,6 @@
 # swapon
 
-> Enables device or file for paging or swapping.
+> Enables device or file for swapping.
 
 - Get swap information:
 
