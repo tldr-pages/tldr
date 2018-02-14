@@ -2,9 +2,6 @@
 
 > Renames files to make them easier to work with. It removes spaces 
 > and other such annoyances like duplicate underline characters. 
-> It will also translate or cleanup Latin-1 (ISO 8859-1) characters 
-> encoded in 8-bit ASCII, Unicode characters encoded in UTF-8, 
-> and CGI escaped characters.
 
 - Remove spaces and other undesirable characters from a file's name:
 
