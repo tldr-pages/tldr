@@ -16,7 +16,7 @@
 
 - Move all messages from one queue to another:
 
-`sqsc mv <from-queue-name> <to-queue-name>`
+`sqsc mv <source_queue> <destination_queue>`
 
 - Describe a queue:
 
