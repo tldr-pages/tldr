@@ -21,7 +21,7 @@
 
 - Show CPU information:
 
-`sudo dmidecode -t cpu`
+`sudo dmidecode -t processor`
 
 - Show memory information:
 
