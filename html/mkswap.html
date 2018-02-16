@@ -1,0 +1,14 @@
+<b>mkswap</b><br><br>
+<b>Sets up a Linux swap area on a device or in a file.</b><br><br>
+- Setup a given partition as swap area:
+
+<blockquote>sudo mkswap <i>/dev/sdb7</i></blockquote>
+- Use a given file as swap area:
+
+<blockquote>sudo mkswap <i>path/to/file</i></blockquote>
+- Check a partition for bad blocks before creating the swap area:
+
+<blockquote>sudo mkswap -c <i>/dev/sdb7</i></blockquote>
+- Specify a label for the file (to allow `swapon` to use the label):
+
+<blockquote>sudo mkswap -L <i>swap1</i> <i>path/to/file</i></blockquote>

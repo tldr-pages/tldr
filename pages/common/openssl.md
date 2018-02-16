@@ -14,6 +14,10 @@
 
 `openssl x509 -req -days {{days}} -in {{filename.csr}} -signkey {{filename.key}} -out {{filename.crt}}`
 
+- Display certificate information:
+
+`openssl x509 -in {{filename.crt}} -noout -text`
+
 - Display the start and expiry dates for a domain's certificate:
 
 `openssl s_client -connect {{host}}:{{port}} 2>/dev/null | openssl x509 -noout -dates`
