@@ -7,6 +7,7 @@ cache: false
 
 after_success:
 - bash scripts/build.sh
+- python3 scripts/command_coverage.py
 
 after_failure:
 - cat test_result | python scripts/send_to_bot.py
