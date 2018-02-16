@@ -12,8 +12,8 @@
 
 - Persist work queues by saving them to disk:
 
-`beanstalkd -b {{path/to/persistence/directory}}`
+`beanstalkd -b {{path/to/persistence_directory}}`
 
 - Sync to the persistence directory every 500 milliseconds:
 
-`beanstalkd -b {{path/to/persistence/directory}} -f {{500}}`
+`beanstalkd -b {{path/to/persistence_directory}} -f {{500}}`
