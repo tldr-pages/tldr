@@ -30,6 +30,6 @@
 
 `phar sign -f {{path/to/phar}} -h {{hash}}`
 
-- Sign a Phar file with an OpenSSL private key
+- Sign a Phar file with an OpenSSL private key:
 
 `phar sign -f {{path/to/phar}} -h openssl -y {{path/to/private_key}}`
