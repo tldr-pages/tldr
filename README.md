@@ -5,8 +5,8 @@
 [![Merged PRs][prs-merged-image]][prs-merged-url]
 [![Issue stats][issuestats-image]][issuestats-url]
 [![GitHub contributors][contributors-image]][contributors-url]
-[![license][license-image]][license-url]
-[![Command coverage][command-image]][command-url]
+[![License][license-image]][license-url]
+![Command Coverage][command-image]
 
 [travis-url]: https://travis-ci.org/tldr-pages/tldr/builds
 [travis-image]: https://travis-ci.org/tldr-pages/tldr.svg?branch=master
