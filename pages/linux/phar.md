@@ -2,13 +2,13 @@
 
 > Create, update or extract PHP archives (PHAR).
 
-- Display the contents of a Phar file:
-
-`phar list -f {{path/to/phar_file}}`
-
 - Add space-separated files or directories to a Phar file:
 
 `phar add -f {{path/to/phar_file}} {{files_or_directories}}`
+
+- Display the contents of a Phar file:
+
+`phar list -f {{path/to/phar_file}}`
 
 - Delete the specified file or directory from a Phar file:
 
