@@ -28,7 +28,7 @@
 
 - Sign a Phar file with a specific hash algorithm:
 
-`phar sign -f {{path/to/phar_file}} -h {{hash}}`
+`phar sign -f {{path/to/phar_file}} -h {{algorithm}}`
 
 - Sign a Phar file with an OpenSSL private key:
 
