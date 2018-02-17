@@ -11,6 +11,10 @@
 
 `rustup default nightly`
 
+- Use the nightly toolchain when inside the current project, but leave global settings unchanged:
+
+`rustup override set nightly`
+
 - Update all toolchains:
 
 `rustup update`
