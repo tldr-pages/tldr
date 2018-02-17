@@ -26,7 +26,7 @@
 
 `phar info -f {{path/to/phar_file}}`
 
-- Sign a Phar file with a specific hash:
+- Sign a Phar file with a specific hash algorithm:
 
 `phar sign -f {{path/to/phar_file}} -h {{hash}}`
 
