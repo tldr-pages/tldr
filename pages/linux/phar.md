@@ -2,6 +2,10 @@
 
 > Create, update or extract PHP archives (PHAR).
 
+- Display the contents of a Phar file:
+
+`phar list -f {{path/to/phar_file}}`
+
 - Add space-separated files or directories to a Phar file:
 
 `phar add -f {{path/to/phar_file}} {{files_or_directories}}`
@@ -21,10 +25,6 @@
 - Get information about a Phar file:
 
 `phar info -f {{path/to/phar_file}}`
-
-- Display the contents of a Phar file:
-
-`phar list -f {{path/to/phar_file}}`
 
 - Sign a Phar file with a specific hash:
 
