@@ -4,11 +4,11 @@
 
 - List all queues:
 
-`sqsc lq {{queue-prefix}}`
+`sqsc lq {{queue_prefix}}`
 
 - List all messages in a queue:
 
-`sqsc ls {{queue-name}}`
+`sqsc ls {{queue_name}}`
 
 - Copy all messages from one queue to another:
 
@@ -20,12 +20,12 @@
 
 - Describe a queue:
 
-`sqsc describe {{queue-name}}`
+`sqsc describe {{queue_name}}`
 
 - Query a queue with SQL syntax:
 
-`sqsc query "SELECT body FROM {{queue-name}} WHERE body LIKE '%user%'"`
+`sqsc query "SELECT body FROM {{queue_name}} WHERE body LIKE '%user%'"`
 
 - Pull all messages from a queue into a local sqlite database in your present working directory:
 
-`sqsc pull {{queue-name}}`
+`sqsc pull {{queue_name}}`
