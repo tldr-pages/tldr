@@ -14,9 +14,9 @@
 
 `iperf3 -c{{server}}`
 
-- Run iperf3 in multiple threads:
+- Run iperf3 in multiple parallel streams:
 
-`iperf3 -c{{server}} -P{{threads}}`
+`iperf3 -c{{server}} -P{{streams}}`
 
 - Reverse direction of the test. Server sends data to the client:
 
