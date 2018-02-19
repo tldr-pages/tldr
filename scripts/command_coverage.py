@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 import os
 from enum import Enum
+from xml.dom import minidom
 
 import requests
 from bs4 import BeautifulSoup
+from git import Repo
 
 class DisplayType(Enum):
 	"""
@@ -87,17 +89,46 @@ if __name__ == '__main__':
 	#if os.environ.get('TRAVIS_BRANCH') != "master":
 	#	return
 
+	# do not execute for the commits to update command coverage
+	commit_msg = os.environ.get('TRAVIS_COMMIT_MESSAGE')
+	if commit_msg and commit_msg.startswith('[command coverage]'):
+		os.exit(0)
+
 	# get existing linux pages
 	linux_commands = get_commands(LINUX_FOLDER)
-	# print(linux_commands)
 
 	# get list of all pages
 	wiki_commands = parse_wiki_page()
 
 	# compare
 	diff = len(set(wiki_commands) - set(linux_commands))
-	print('percent covg- ', (diff/len(wiki_commands))*100)
+	print('current count- ', len(set(linux_commands)))
+	print('total count- ', len(set(wiki_commands)))
+	current_percent = int((diff/len(wiki_commands))*100)
 
 	# get number from svg badge
+	svg_dom = minidom.parse('command_coverage.svg')
+	tags = svg_dom.getElementsByTagName('text')
+	existing_percent = int(tags[2].firstChild.nodeValue)
 
 	# update file only if there is a change
+	if current_percent != existing_percent:
+		print('updating the file')
+		tags[2].firstChild.nodeValue = current_percent
+		tags[3].firstChild.nodeValue = current_percent
+
+		print('cwd - ', os.getcwd())
+		# cloning the git repo
+		token = os.environ.get('GH_TOKEN')
+		local_path = os.path.join(os.environ.get('HOME'), 'tldr')
+		repo = Repo.clone_from('https://'+token+'@github.com/tldr-pages/tldr', local_path, depth=1)
+		assert repo.__class__ is Repo
+
+		target_file = os.path.join(local_path, 'command_coverage.svg')
+		with open(target_file, 'w') as f:
+			f.write(svg_dom.toxml())
+
+		repo.index.add([target_file])
+		repo.index.commit('[command coverage] - update coverage')
+
+		repo.remotes.origin.push(refspec=None, progress=None, dry_run=True)
