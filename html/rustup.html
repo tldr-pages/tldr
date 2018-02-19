@@ -6,6 +6,9 @@
 - Switch the default toolchain to nightly so that the `cargo` and `rustc` commands will use it:
 
 <blockquote>rustup default nightly</blockquote>
+- Use the nightly toolchain when inside the current project, but leave global settings unchanged:
+
+<blockquote>rustup override set nightly</blockquote>
 - Update all toolchains:
 
 <blockquote>rustup update</blockquote>

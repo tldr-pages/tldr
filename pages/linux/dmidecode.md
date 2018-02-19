@@ -15,10 +15,14 @@
 
 `sudo dmidecode -s system-serial-number`
 
-- Show all the BIOS information:
+- Show BIOS information:
 
 `sudo dmidecode -t bios`
 
-- Show all the system information:
+- Show CPU information:
 
-`sudo dmidecode -t system`
+`sudo dmidecode -t processor`
+
+- Show memory information:
+
+`sudo dmidecode -t memory`

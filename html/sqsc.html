@@ -1,0 +1,23 @@
+<b>sqsc</b><br><br>
+<b>A command line AWS Simple Queue Service client.</b><br><br>
+- List all queues:
+
+<blockquote>sqsc lq <i>queue_prefix</i></blockquote>
+- List all messages in a queue:
+
+<blockquote>sqsc ls <i>queue_name</i></blockquote>
+- Copy all messages from one queue to another:
+
+<blockquote>sqsc cp <i>source_queue</i> <i>destination_queue</i></blockquote>
+- Move all messages from one queue to another:
+
+<blockquote>sqsc mv <i>source_queue</i> <i>destination_queue</i></blockquote>
+- Describe a queue:
+
+<blockquote>sqsc describe <i>queue_name</i></blockquote>
+- Query a queue with SQL syntax:
+
+<blockquote>sqsc query "SELECT body FROM <i>queue_name</i> WHERE body LIKE '%user%'"</blockquote>
+- Pull all messages from a queue into a local sqlite database in your present working directory:
+
+<blockquote>sqsc pull <i>queue_name</i></blockquote>
