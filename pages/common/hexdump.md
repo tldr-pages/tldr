@@ -1,8 +1,8 @@
 # hexdump
 
-> an ASCII, decimal, hexadecimal, octal dump.
+> An ASCII, decimal, hexadecimal, octal dump.
 
-- Prints the hexadecimal representation of a file:
+- Print the hexadecimal representation of a file:
 
 `hexdump {{file}}`
 
