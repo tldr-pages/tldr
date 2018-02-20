@@ -1,6 +1,6 @@
 # upx
 
-> Compress or expand executables.
+> Compress or decompress executables.
 
 - Compress executable:
 
