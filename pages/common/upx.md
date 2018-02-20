@@ -10,6 +10,6 @@
 
 `upx -d {{file}}`
 
-- Detailed Help
+- Detailed help:
 
 `upx --help`
