@@ -2,11 +2,11 @@
 
 > Compress or expand executables.
 
-- Compress excutable:
+- Compress executable:
 
 `upx {{file}}`
 
-- Decompress excutable:
+- Decompress executable:
 
 `upx -d {{file}}`
 
