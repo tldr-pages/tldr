@@ -27,6 +27,14 @@
 
 `grep -Hn {{search_string}} {{path/to/file}}`
 
+- Print only file names for each match:
+
+`grep -l {{search_string}} {{path/to/file}}`
+
+- Print file names with at least one match:
+
+`grep -l {{search_string}} {{path/to/file}} | uniq`
+
 - Use the standard input instead of a file:
 
 `cat {{path/to/file}} | grep {{search_string}}`
@@ -34,3 +42,7 @@
 - Invert match for excluding specific strings:
 
 `grep -v {{search_string}}`
+
+- Search through all files in a directory and print file name with the corresponding line number for each match:
+
+`find {{directory}} -type f | xargs grep -Hn {{search_string}}`
