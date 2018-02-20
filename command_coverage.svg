@@ -1,13 +1,13 @@
-<?xml version="1.0" ?><svg height="20" width="200" xmlns="http://www.w3.org/2000/svg">
+<?xml version="1.0" ?><svg height="20" width="140" xmlns="http://www.w3.org/2000/svg">
 	<linearGradient id="a" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient>
-	<rect fill="#555" height="20" rx="3" width="200"/>
-	<rect fill="#4c1" height="20" rx="3" width="90" x="110"/>
+	<rect fill="#555" height="20" rx="3" width="140"/>
+	<rect fill="#4c1" height="20" rx="3" width="30" x="110"/>
 	<path d="M110 0h4v20h-4z" fill="#4c1"/>
-	<rect fill="url(#a)" height="20" rx="3" width="90" x="110"/>
+	<rect fill="url(#a)" height="20" rx="3" width="30" x="110"/>
 	<g fill="#fff" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11" text-anchor="middle">
 		<text fill="#010101" fill-opacity=".3" x="55" y="15">command coverage</text>
 		<text x="55" y="14">command coverage</text>
-		<text fill="#010101" fill-opacity=".3" x="155" y="15">30</text>
-		<text x="155" y="14">30</text>
+		<text fill="#010101" fill-opacity=".3" x="125" y="15">30%</text>
+		<text x="125" y="14">30%</text>
 	</g>
 </svg>

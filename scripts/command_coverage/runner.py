@@ -30,13 +30,13 @@ if __name__ == '__main__':
 	# get number from svg badge
 	svg_dom = minidom.parse(SVG_FILE)
 	tags = svg_dom.getElementsByTagName('text')
-	existing_percent = int(tags[2].firstChild.nodeValue)
+	existing_percent = int(tags[2].firstChild.nodeValue[:-1]) # cutting off the trailing percent sign
 
 	# update file only if there is a change
 	if current_percent != existing_percent:
 		print('updating the file')
-		tags[2].firstChild.nodeValue = current_percent
-		tags[3].firstChild.nodeValue = current_percent
+		tags[2].firstChild.nodeValue = str(current_percent) + '%'
+		tags[3].firstChild.nodeValue = str(current_percent) + '%'
 
 		# push the new file to git
 		upload_file(svg_dom, SVG_FILE)
