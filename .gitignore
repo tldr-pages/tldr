@@ -9,6 +9,9 @@
 node_modules
 npm-debug.log
 
+# python files
+__pycache__
+
 # A temp file used to store the output from npm test
 # used to update a PR with a comment
 test_result
