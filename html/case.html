@@ -1,0 +1,8 @@
+<b>case</b><br><br>
+<b>Branch based on the value of an expression.</b><br><br>
+- Match a variable against string literals to decide which command to run:
+
+<blockquote>case <i>$tocount</i> in <i>words</i>) <i>wc -w README</i>; ;; <i>lines</i>) <i>wc -l README</i>; ;; esac</blockquote>
+- Combine patterns with |, use * as a fallback pattern:
+
+<blockquote>case <i>$tocount</i> in <i>[wW]|words</i>) <i>wc -w README</i>; ;; <i>[lL]|lines</i>) <i>wc -l README</i>; ;; *) <i>echo "what?"</i>; ;; esac</blockquote>
