@@ -22,6 +22,6 @@
 
 `awk '{s+=$1; print $1} END {print "--------"; print s}' {{filename}}`
 
-- Print every third line starting from the first line
+- Print every third line starting from the first line:
 
 `awk 'NR%3==1' {{filename}}`
