@@ -1,5 +1,8 @@
 <?xml version="1.0" ?><svg height="20" width="140" xmlns="http://www.w3.org/2000/svg">
-	<linearGradient id="a" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient>
+	<linearGradient id="a" x2="0" y2="100%">
+		<stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
+		<stop offset="1" stop-opacity=".1"/>
+	</linearGradient>
 	<rect fill="#555" height="20" rx="3" width="140"/>
 	<rect fill="#4c1" height="20" rx="3" width="30" x="110"/>
 	<path d="M110 0h4v20h-4z" fill="#4c1"/>
