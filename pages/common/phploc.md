@@ -16,7 +16,7 @@
 
 - Exclude a specific directory from analysis:
 
-`phploc {{path/to/directory}} --exclude {{path/to/directory}}`
+`phploc {{path/to/directory}} --exclude {{path/to/exclude_directory}}`
 
 - Log the results to a specific CSV file:
 
