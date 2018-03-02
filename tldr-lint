@@ -1,0 +1,165 @@
+#!/usr/bin/env bash
+set +vx
+[[ $- = *i* ]] && echo "Don't source this script!" && return 1
+version='0.13'
+# tldr-lint version 0.13
+# Linter for new syntax tldr source files
+# Old syntax files $f can be changed into new syntax files by:
+#  sed -i -e "1s/^# //" -e 's/^- //' -e 's/^`\(.*\)`$/    \1/' "$f"
+#  e=$(sed '1s/./=/g;q' "$f") sed -i "2i$e" "$f"
+# Part of http://github.com/pepa65/tldr-bash-client
+# Requirements: coreutils sed grep find
+
+Help(){  # $1: optional message
+	# Use: self, version
+	cat <<-EOC
+		$B$O $self$X v$version
+		 Usage: $self [-h|--help] [-V|--version] [-q|--quiet] [<dir>] [<file>]
+		        - All *.md files under <dir> and subdirectories are checked
+		        - <file> is checked regardless of extension
+		        -q, --quiet:    No output means check is OK
+		        -V, --version:  Output version
+		        -h, --help:     This help text
+	EOC
+	[[ $1 ]] && echo "$E ERROR:$X $1"
+	exit 1
+}
+
+Flag(){  # $1:message; $2:linenumber (0:not shown, missing:exit)
+	# Use: v, line, W, X, U, XU; Modify: flags
+	((++flags))
+		[[ $2 ]] && (($2)) && echo -e "$W FLAG:$X $1:\n$W$2$X:$U$line$XU" ||
+			echo -e "$W FLAG:$X $1"
+}
+
+Ok(){  # $1:message $2:OK(0),Not-OK(>0)
+	# Use: quiet, E, O, X
+	if (($2>0))
+	then
+		echo "$E NOT-OK:$X $1"
+	else
+		((quiet)) || echo "$O OK:$X $1"
+	fi
+}
+
+Check(){  # $1:filename
+	# Use: quiet, E, O, W, X, U, XU, B, XB; Modify: line, flags
+	local n f lines name len_command check description examples
+	((quiet)) || echo "$B File $O$1$X$XB"
+	IFS= read -rd '' f <"$1"
+	flags=0
+	# general checks
+	lines="$(grep -n $'\r' <<<"$f" |\
+			sed -e "s/^\([^:]*\):/$W\1$X:$U/g" -e "s/\r/$E^M$X/g" -e "s/$/$XU/g")"
+	[[ $lines ]] && Flag "Carriage returns $E^M$X not allowed:\n$lines"
+	lines="$(grep -n $'\t' <<<"$f" |\
+			sed -e "s/^\([^:]*\):/$W\1$X:$U/g" -e "s/\t/$E^T$X/g" -e "s/$/$XU/g")"
+	[[ $lines ]] && Flag "Tabs $E^T$X not allowed:\n$lines"
+	lines="$(grep -n ' $' <<<"$f" |\
+			sed -e "s/^\([^:]*\):/$W\1$X:$U/g" -e "s/$/$XU/g")"
+	[[ $lines ]] && Flag "Trailing spaces $U$E $X$XU not allowed:\n$lines"
+	n=0
+	while true
+	do
+		# header
+		read -r && line=$REPLY && ((++n)) || break
+		check=$flags
+		grep -qn '^[a-zA-Z0-9_]\([a-zA-Z0-9_ .-]*[a-zA-Z0-9_]\)*$' <<<"$line" ||
+			Flag "Command name not well-formed" $n
+		command=${line// /-}
+		name=${1##*/} name=${name%.*}
+		[[ $command = $name ]] ||
+			Flag "Command name different from filename $U$name$XU" $n
+		Ok "Command name" $((flags-check))
+		len_command=${#line}
+		check=$flags
+		read -r && line=$REPLY && ((++n)) || break
+		[[ $line =~ ^=+$ ]] ||
+			Flag "Only equal signs $E=$X must underline the command" $n
+		((${#line}!=len_command)) &&
+			Flag "Command $U$command$XU and underline must have the same length" $n
+		Ok "Underline" $((flags-check))
+		read -r && line=$REPLY && ((++n)) || break
+		[[ $line ]] && Flag "Empty line required after underline" $n
+		read -r && line=$REPLY && ((++n)) || break
+		# description
+		check=$flags
+		description=0
+		while [[ ${line:0:2} = '> ' ]]
+		do
+			((++description))
+			[[ ${line:2:1} =~ [a-z] ]] &&
+				Flag "Not allowed to start a description with lowercase$U a-z$XU" $n
+			[[ ${line:2:1} = ' ' ]] &&
+				Flag "Only 1 space $U$E $X$XU after the greater-than symbol $E>$X allowed" $n
+			[[ ${line: -1} = '.' ]] ||
+				Flag "Must have a dot $E.$X at the end of a command description" $n
+			read -r && line=$REPLY && ((++n)) || break 2
+		done
+		((description)) ||
+			Flag "A command description '$U$E> $X---$E.$X$XU' is missing"
+		Ok "$description Command description lines" $((flags-check+!description))
+		# examples
+		check=$flags
+		examples=0
+		while true
+		do
+			[[ $line ]] && Flag "Empty line required before example description" $n ||
+				read -r && line=$REPLY && ((++n)) || break 2
+			[[ ${line:0:1} =~ [a-z] ]] &&
+				Flag "Not allowed to start an example description with lowercase$U a-z$XU" $n
+			[[ ${line: -1} = ':' ]] ||
+				Flag "A colon $E:$X must end each example description" $n
+			((++examples))
+			read -r && line=$REPLY && ((++n)) || break 2
+			[[ $line ]] && Flag "Empty line required after example description" $n ||
+				read -r && line=$REPLY && ((++n)) || break 2
+			[[ ${line:0:4} = '    ' ]] ||
+				Flag "Four spaces $E$U    $XU$X must precede each example command" $n
+			[[ ${line:4:1} = ' ' ]] &&
+				Flag "No more that 4 spaces $E$U    $XU$X before example commands allowed" $n
+			read -r && line=$REPLY && ((++n)) || break 2
+		done
+	done <<<"$f"
+	[[ $line ]] && Flag "Newline required at the end of a page" $n
+	((examples>8)) && Flag "More than 8 examples"
+	Ok "$examples Examples" $((flags-check+!examples))
+	Ok "$B$1$XB" $flags
+	((flags)) && fail=1
+}
+
+U=$'\e[4m' XU=$'\e[24m' B=$'\e[1m' XB=$'\e[0m'
+E=$'\e[31m' W=$'\e[33m' O=$'\e[32m' X=$'\e[39m'
+self=${0##*/} file='' dir='' line='' flags=0 quiet=0
+
+(($#>2)) && Help "No more than 2 arguments allowed"
+while (($#))
+do
+	case $1 in
+	-V|--version) echo "$version"; exit 0 ;;
+	-h|--help) Help ;;
+	-q|--quiet) quiet=1; shift ;;
+	*) if [[ -f $1 ]]
+		then
+			file=$1
+		elif [[ -d $1 ]]
+		then
+			dir=$1
+		else
+			Help "$U$1$XU is neither a file nor a directory"
+		fi
+		shift ;;
+	esac
+done
+
+fail=0
+[[ $file || $dir ]] || Help "No valid file or directory given"
+[[ $file ]] && Check "$file"
+[[ $dir ]] &&
+	while read -r
+	do
+		Check "$REPLY"
+	done < <(find "$dir" -name '*.md')
+
+((fail)) && exit 2
+exit 0
