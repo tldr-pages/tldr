@@ -1,6 +1,6 @@
 # fdisk
 
-> Manipulate disk partition table
+> Manipulate disk partition table.
 
 - View all available partitions:
 
