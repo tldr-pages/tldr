@@ -4,11 +4,11 @@
 
 - Yank using the default delimiters (\f, \n, \r, \s, \t):
 
-`sudo dmesg | yank`
+`{{sudo dmesg}} | yank`
 
 - Yank an entire line:
 
-`sudo dmesg | yank -l`
+`{{sudo dmesg}} | yank -l`
 
 - Yank using a specific delimiter:
 
@@ -16,4 +16,4 @@
 
 - Only yank fields matching a specific pattern:
 
-`ps ux | yank -g {{"[0-9]+"}}`
+`{{ps ux}} | yank -g {{"[0-9]+"}}`
