@@ -1,7 +1,11 @@
 # fdisk
 
-> Manipulate disk partition table.
+> A program for managing partition tables and partitions on a hard disk.
 
-- View all available partitions:
+- List partitions:
 
 `fdisk -l`
+
+- Start the partition manipulator:
+
+`fdisk {{/dev/sda}}`
