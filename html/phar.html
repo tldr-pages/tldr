@@ -1,0 +1,26 @@
+<b>phar</b><br><br>
+<b>Create, update or extract PHP archives (PHAR).</b><br><br>
+- Add space-separated files or directories to a Phar file:
+
+<blockquote>phar add -f <i>path/to/phar_file</i> <i>files_or_directories</i></blockquote>
+- Display the contents of a Phar file:
+
+<blockquote>phar list -f <i>path/to/phar_file</i></blockquote>
+- Delete the specified file or directory from a Phar file:
+
+<blockquote>phar delete -f <i>path/to/phar_file</i> -e <i>file_or_directory</i></blockquote>
+- Display full usage information and available hashing/compression algorithms:
+
+<blockquote>phar help</blockquote>
+- Compress or uncompress files and directories in a Phar file:
+
+<blockquote>phar compress -f <i>path/to/phar_file</i> -c <i>algorithm</i></blockquote>
+- Get information about a Phar file:
+
+<blockquote>phar info -f <i>path/to/phar_file</i></blockquote>
+- Sign a Phar file with a specific hash algorithm:
+
+<blockquote>phar sign -f <i>path/to/phar_file</i> -h <i>algorithm</i></blockquote>
+- Sign a Phar file with an OpenSSL private key:
+
+<blockquote>phar sign -f <i>path/to/phar_file</i> -h openssl -y <i>path/to/private_key</i></blockquote>

@@ -1,0 +1,14 @@
+<b>yank</b><br><br>
+<b>Read input from stdin and display a selection interface that allows a field to be selected and copied to the clipboard.</b><br><br>
+- Yank using the default delimiters (\f, \n, \r, \s, \t):
+
+<blockquote><i>sudo dmesg</i> | yank</blockquote>
+- Yank an entire line:
+
+<blockquote><i>sudo dmesg</i> | yank -l</blockquote>
+- Yank using a specific delimiter:
+
+<blockquote><i>echo hello=world</i> | yank -d <i>=</i></blockquote>
+- Only yank fields matching a specific pattern:
+
+<blockquote><i>ps ux</i> | yank -g <i>"[0-9]+"</i></blockquote>

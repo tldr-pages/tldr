@@ -1,0 +1,26 @@
+<b>authconfig</b><br><br>
+<b>A CLI interface for configuring system authentication resources.</b><br><br>
+- Display the current configuration (or dry run):
+
+<blockquote>authconfig --test</blockquote>
+- Configure the server to use a different password hashing algorithm:
+
+<blockquote>authconfig --update --passalgo=<i>algorithm</i></blockquote>
+- Enable LDAP authentication:
+
+<blockquote>authconfig --update --enableldapauth</blockquote>
+- Disable LDAP authentication:
+
+<blockquote>authconfig --update --disableldapauth</blockquote>
+- Enable Network Information Service (NIS):
+
+<blockquote>authconfig --update --enablenis</blockquote>
+- Enable Kerberos:
+
+<blockquote>authconfig --update --enablekrb5</blockquote>
+- Enable Winbind (Active Directory) authentication:
+
+<blockquote>authconfig --update --enablewinbindauth</blockquote>
+- Enable local authorization:
+
+<blockquote>authconfig --update --enablelocauthorize</blockquote>

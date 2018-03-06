@@ -15,3 +15,6 @@
 - Sum the values in the first column and pretty-print the values and then the total:
 
 <blockquote>awk '{s+=$1; print $1} END {print "--------"; print s}' <i>filename</i></blockquote>
+- Print every third line starting from the first line:
+
+<blockquote>awk 'NR%3==1' <i>filename</i></blockquote>

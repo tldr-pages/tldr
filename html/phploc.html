@@ -1,0 +1,23 @@
+<b>phploc</b><br><br>
+<b>A tool for quickly measuring the size and analyzing the structure of a PHP project.</b><br><br>
+- Analyse a directory and print the result:
+
+<blockquote>phploc <i>path/to/directory</i></blockquote>
+- Include only specific files from a comma-separated list (globs are allowed):
+
+<blockquote>phploc <i>path/to/directory</i> --names <i>files</i></blockquote>
+- Exclude specific files from a comma-separated list (globs are allowed):
+
+<blockquote>phploc <i>path/to/directory</i> --names-exclude <i>files</i></blockquote>
+- Exclude a specific directory from analysis:
+
+<blockquote>phploc <i>path/to/directory</i> --exclude <i>path/to/exclude_directory</i></blockquote>
+- Log the results to a specific CSV file:
+
+<blockquote>phploc <i>path/to/directory</i> --log-csv <i>path/to/file</i></blockquote>
+- Log the results to a specific XML file:
+
+<blockquote>phploc <i>path/to/directory</i> --log-xml <i>path/to/file</i></blockquote>
+- Count PHPUnit test case classes and test methods:
+
+<blockquote>phploc <i>path/to/directory</i> --count-tests</blockquote>
