@@ -1,6 +1,6 @@
 # laravel
 
-> The PHP Framework For Web Artisans
+> The PHP Framework For Web Artisans.
 
 - Create a new Laravel application:
 
