@@ -11,6 +11,6 @@
 
 `git sizer -v`
 
-- See command line options:
+- See additional options:
 
 `git sizer -h`
