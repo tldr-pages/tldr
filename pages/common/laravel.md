@@ -6,10 +6,10 @@
 
 `new`
 
-- Lists commands:
+- List the available commands:
 
 `list`
 
-- Displays help for a command:
+- Display help for a command:
 
 `help`
