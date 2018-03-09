@@ -1,6 +1,6 @@
 # laravel
 
-> Laravel application installer.
+> A command line installer for the Laravel framework.
 
 - Create a new Laravel application:
 
