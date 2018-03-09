@@ -1,15 +1,19 @@
 # laravel
 
-> The PHP Framework For Web Artisans.
+> Laravel application installer.
 
 - Create a new Laravel application:
 
-`new`
+`laravel new {{name}}`
 
-- List the available commands:
+- Create a new Laravel application even if the directory already exists:
 
-`list`
+`laravel new {{name}} --force`
 
-- Display help for a command:
+- Create a new Laravel application with the latest development release:
 
-`help`
+`laravel new {{name}} --dev`
+
+- List the available installer commands:
+
+`laravel list`
