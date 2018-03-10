@@ -14,7 +14,7 @@
 
 `choco upgrade all`
 
-- Upgrade all except specified comma-seperated packages:
+- Upgrade all except specified comma-separated packages:
 
 `choco upgrade all --except "{{package(s)}}"`
 
