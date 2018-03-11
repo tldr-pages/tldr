@@ -9,35 +9,21 @@ import sys
 import glob
 import re
 import markdown
+import argparse
+
 from weasyprint import HTML
 
-def main():
-
-    #Unless specified otherwise, this is the default colorscheme
-    colorscheme = "basic"
+def main(loc, colorscheme):
 
     oslist = []
     allmd = []
     group = []
     ap = []
 
-    #Checking for no path input
-    try:
-        loc = sys.argv[1]
-    except IndexError:
-        print("Please specify a directory and try again!", file = sys.stderr)
-        sys.exit(1)
-
-    #Checking for invalid path input
+    #Checking correctness of path
     if not os.path.isdir(loc):
         print("Invalid directory. Please try again!", file = sys.stderr)
         sys.exit(1)
-
-    #Changing colorscheme. Changes are applied only when a valid keyword is received, otherwise
-    #default colorscheme is maintained
-    if len(sys.argv) == 3:
-        if(sys.argv[2] == "solarized-light" or sys.argv[2] == "solarized-dark"):
-            colorscheme = sys.argv[2]
 
     if not loc.endswith('/'):
         loc = loc + "/"
@@ -125,8 +111,22 @@ def main():
         os.remove("title.html")
         os.remove("dir_title.html")
     except OSError:
-        pass
+        print("Error removing temporary file(s)")
 
 
 if __name__ == '__main__':
-    main()
+
+    #Unless specified otherwise by the user, this is the default colorscheme
+    colorscheme = "basic"
+
+    #Parsing the arguments
+    parser = argparse.ArgumentParser()
+    parser.add_argument("dir_path", help = "Path to tldr 'pages' directory")
+    parser.add_argument("-c", choices=["solarized-light", "solarized-dark"], help="Color scheme of the PDF")
+    args = parser.parse_args()
+    
+    loc = args.dir_path
+    if args.c == "solarized-light" or args.c == "solarized-dark":
+        colorscheme = args.c
+        
+    main(loc, colorscheme)
