@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'PT_Serif-Web-Regular';
+    src: url('PT_Serif-Web-Regular.ttf')  format('truetype');
+}
+
+p {
+    margin-left: 2.5em;
+}
+
+code {
+    color: #dc322f
+}
+
+h1, h2, h4, ul {
+    font-family: "PT_Serif-Web-Regular";
+    color: #586e75;
+}
+
+body {
+    background-color: #fdf6e3;
+}
+
+h1.titlemain {
+    text-align: center;
+    margin-top: 6em;
+    font-size: 350%;
+}
+
+h4.titlesub {
+    text-align: center;
+    font-size: 120%;
+    color: #dc322f
+}
+
+h2.titledir {
+    text-align: center;
+    margin-top: 8.2em;
+    font-size: 300%;
+}
