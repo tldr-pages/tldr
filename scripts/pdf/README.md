@@ -33,20 +33,16 @@ Make sure OS specific dependencies for WeasyPrint are installed by following the
 
 Generating the PDF is as simple as running
 
-    python3 render.py <path-to-pages-directory> <color-scheme>
+    python3 render.py <path-to-pages-directory> -c <color-scheme>
     
-The first argument is mandatory, while the second argument is optional. The following color-schemes can be specified-
+Complete information about the arguments can be viewed by running 
 
-    solarized-light
-    solarized-dark
+    python3 render.py --help
+
+The color-schemes that can be specified are
+
+* `solarized-light`
+* `solarized-dark`
+
     
-If none is specified, the PDF will be rendered with the default color-scheme.
-
-Example - `python3 /home/username/tldr/pages/ solarized-dark`
-
-## To-do
-
-- [x] Include OS information
-
-- [ ] Add an index page for easier navigation
 
