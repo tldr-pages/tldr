@@ -12,7 +12,7 @@
 
 - Compress a file specifying the output filename:
 
-`gzip -c {{file.ext}} > {{compressed_file.ext}}.gz`
+`gzip -c {{file.ext}} > {{compressed_file.ext.gz}}`
 
 - Uncompress a gzipped file specifying the output filename:
 
@@ -20,4 +20,4 @@
 
 - Specify the compression level. 1=Fastest (Worst), 9=Slowest (Best), Default level is 6:
 
-`gzip -9 -c {{file.ext}} > {{compressed_file.ext}}.gz`
+`gzip -9 -c {{file.ext}} > {{compressed_file.ext.gz}}`
