@@ -39,6 +39,6 @@
 
 `wget -t {{number_of_retries}} {{https://example.com}}`
 
-- Make the progress bar disappear 
+- Make the progress bar disappear:
 
 `wget -q {{https://example.com}}`
