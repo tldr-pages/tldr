@@ -20,7 +20,7 @@
 
 - Specify the number of spaces to indent by (or "t" for tabs):
 
-`json5 --space {{indent_amount}}
+`json5 --space {{indent_amount}}`
 
 - View available options:
 
