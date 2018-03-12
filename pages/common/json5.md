@@ -4,7 +4,7 @@
 
 - Convert JSON5 stdin to JSON stdout:
 
-`{{input}} | json5`
+`echo {{input}} | json5`
 
 - Convert a JSON5 file to JSON and output to stdout:
 
