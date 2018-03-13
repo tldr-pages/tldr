@@ -13,3 +13,11 @@
 - Let the train fly:
 
 `sl -F`
+
+- Make the train small:
+
+`sl -l`
+
+- Let the user quit (CTRL + C)
+
+`sl -e`
