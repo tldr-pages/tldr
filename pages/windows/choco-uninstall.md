@@ -14,10 +14,6 @@
 
 `choco uninstall {{package}} --yes`
 
-- Uninstall all versions of a package:
-
-`choco uninstall {{package}} --all-versions`
-
 - Remove all dependencies when uninstalling:
 
 `choco uninstall {{package}} --remove-dependencies`
