@@ -18,6 +18,6 @@
 
 `sl -l`
 
-- Let the user quit (CTRL + C)
+- Let the user quit (CTRL + C):
 
 `sl -e`
