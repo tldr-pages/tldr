@@ -14,10 +14,10 @@
 
 `sl -F`
 
-- Make the train small:
+- Make the train little:
 
 `sl -l`
 
-- Let the user quit (CTRL + C):
+- Let the user exit (CTRL + C):
 
 `sl -e`
