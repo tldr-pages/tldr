@@ -18,6 +18,10 @@
 
 `top -p $(pgrep -d ',' {{process_name}})`
 
+- Sort by memory usage with memory units (k/M/G):
+
+`top -aM`
+
 - Get help about interactive commands:
 
 `?`
