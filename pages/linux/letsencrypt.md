@@ -6,7 +6,7 @@
 
 `sudo letsencrypt --webroot --webroot-path {{path/to/webroot}} --domain {{subdomain.example.com}}`
 
-- Oobtain an untrusted test certificate instead:
+- Obtain an untrusted test certificate instead:
 
 `sudo letsencrypt --webroot --webroot-path {{path/to/webroot}} --domain {{subdomain.example.com}} --test-cert`
 
