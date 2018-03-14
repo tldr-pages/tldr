@@ -8,9 +8,9 @@
 
 - Open a new VPN connection to a specific host:
 
-`f5fpc --start --host {{host.example.com}}` 
+`f5fpc --start --host {{host.example.com}}`
 
-- Specify a username:
+- Specify a username (prompts you for your password):
 
 `f5fpc --start --host {{host.example.com}} --username {{user}}`
 
