@@ -10,7 +10,7 @@
 
 `f5fpc --start --host {{host.example.com}}`
 
-- Specify a username (prompts you for your password):
+- Specify a username (user will be prompted for a password):
 
 `f5fpc --start --host {{host.example.com}} --username {{user}}`
 
