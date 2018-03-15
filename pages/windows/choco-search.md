@@ -8,7 +8,7 @@
 
 - Search for a package locally:
 
-`choco search {{query}} --local-only
+`choco search {{query}} --local-only`
 
 - Only include exact matches in the results:
 
