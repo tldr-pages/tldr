@@ -27,17 +27,9 @@
 
 `wget --ftp-user={{username}} --ftp-password={{password}} {{ftp://example.com}}`
 
-- Limit download speed to 200 kB/s:
-
-`wget --limit-rate={{200k}} {{https://example.com}}`
-
 - Continue an incomplete download:
 
 `wget -c {{https://example.com}}`
-
-- Retry a given number of times if the download doesn't succeed at first:
-
-`wget -t {{number_of_retries}} {{https://example.com}}`
 
 - Make the progress bar disappear:
 
