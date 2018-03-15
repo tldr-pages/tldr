@@ -21,8 +21,8 @@
 
 - Simulate the obtaining of a new certificate, but don't actually save any new certificates to disk:
 
-`sudo letsencrypt --webroot --webroot-path {{path/to/webroot}} --domain {{subdomain.example.com}} --dry-run`
+`sudo certbot --webroot --webroot-path {{path/to/webroot}} --domain {{subdomain.example.com}} --dry-run`
 
 - Obtain an untrusted test certificate instead:
 
-`sudo letsencrypt --webroot --webroot-path {{path/to/webroot}} --domain {{subdomain.example.com}} --test-cert`
+`sudo certbot --webroot --webroot-path {{path/to/webroot}} --domain {{subdomain.example.com}} --test-cert`
