@@ -31,6 +31,6 @@
 
 `wget -c {{https://example.com}}`
 
-- Make the progress bar disappear:
+- Enable quiet mode to suppress output:
 
 `wget -q {{https://example.com}}`
