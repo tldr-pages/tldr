@@ -5,7 +5,7 @@
 
 - Specify an output directory so that originals do not get modified:
 
-`sips --out /path/to/out ...`
+`sips --out {{/path/to/out}}`
 
 - Resample image at specified size, Image aspect ratio may be altered:
 
