@@ -3,7 +3,7 @@
 > The Let's Encrypt Agent for automatically obtaining and renewing TLS certificates.
 > Successor to `letsencrypt`.
 
-- Obtain a new certificate via webroot authorization:
+- Obtain a new certificate via webroot authorization, but do not install it automatically:
 
 `sudo certbot certonly --webroot --webroot-path {{path/to/webroot}} --domain {{subdomain.example.com}}`
 
@@ -15,7 +15,7 @@
 
 `sudo certbot --apache --domain {{subdomain.example.com}}`
 
-- Renew all Let's Encrypt certificates that expire soon (don't forget to restart any servers that use them afterwards):
+- Renew all Let's Encrypt certificates that in 30 days or less (don't forget to restart any servers that use them afterwards):
 
 `sudo certbot renew`
 
