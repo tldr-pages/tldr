@@ -3,7 +3,7 @@
 > Apple Scriptable Image Processing System.
 > Raster/Query images and ColorSync ICC Profiles.
 
-- Specify an output directory so originals does not get modified:
+- Specify an output directory so that originals do not get modified:
 
 `sips --out /path/to/out ...`
 
