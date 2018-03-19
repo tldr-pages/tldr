@@ -34,3 +34,7 @@
 - Retry a given number of times if the download doesn't succeed at first:
 
 `wget -t {{number_of_retries}} {{https://example.com}}`
+
+- Enable quiet mode to suppress output:
+
+`wget -q {{https://example.com}}`

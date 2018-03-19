@@ -1,0 +1,20 @@
+<b>certbot</b><br><br>
+<b>The Let's Encrypt Agent for automatically obtaining and renewing TLS certificates.</b><br><br><b>Successor to `letsencrypt`.</b><br><br>
+- Obtain a new certificate via webroot authorization, but do not install it automatically:
+
+<blockquote>sudo certbot certonly --webroot --webroot-path <i>path/to/webroot</i> --domain <i>subdomain.example.com</i></blockquote>
+- Obtain a new certificate via nginx authorization, installing the new certificate automatically:
+
+<blockquote>sudo certbot --nginx --domain <i>subdomain.example.com</i></blockquote>
+- Obtain a new certificate via apache authorization, installing the new certificate automatically:
+
+<blockquote>sudo certbot --apache --domain <i>subdomain.example.com</i></blockquote>
+- Renew all Let's Encrypt certificates that in 30 days or less (don't forget to restart any servers that use them afterwards):
+
+<blockquote>sudo certbot renew</blockquote>
+- Simulate the obtaining of a new certificate, but don't actually save any new certificates to disk:
+
+<blockquote>sudo certbot --webroot --webroot-path <i>path/to/webroot</i> --domain <i>subdomain.example.com</i> --dry-run</blockquote>
+- Obtain an untrusted test certificate instead:
+
+<blockquote>sudo certbot --webroot --webroot-path <i>path/to/webroot</i> --domain <i>subdomain.example.com</i> --test-cert</blockquote>
