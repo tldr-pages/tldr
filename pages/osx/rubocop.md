@@ -14,7 +14,7 @@
 
 `rubocop --out /path/to/file`
 
-- View list of cops:
+- View list of cops (linter rules):
 
 `rubocop --show-cops`
 
