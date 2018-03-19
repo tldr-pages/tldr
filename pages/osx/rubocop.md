@@ -8,11 +8,11 @@
 
 - Check one or more specific files or directories:
 
-`rubocop /path/to/file /path/to/directory`
+`rubocop {{/path/to/file}} {{/path/to/directory}}`
 
 - Write output to file:
 
-`rubocop --out /path/to/file`
+`rubocop --out {{/path/to/file}}`
 
 - View list of cops (linter rules):
 
