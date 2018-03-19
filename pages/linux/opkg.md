@@ -14,9 +14,13 @@
 
 `opkg update`
 
-- Upgrade installed packages:
+- Upgrade all the installed packages:
 
 `opkg upgrade`
+
+- Upgrade one or more specific package(s):
+
+`opkg upgrade {{package(s)}}`
 
 - Display informations for a specific package:
 
