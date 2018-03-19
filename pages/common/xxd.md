@@ -14,6 +14,10 @@
 
 `xxd -c {{10}} {{input_file}}`
 
+- Display output only upto a length of 32 bytes:
+
+`xxd -l {{32}} {{input_file}}`
+
 - Display the output in plain mode, without any gaps between the columns:
 
 `xxd -p {{input_file}}`
