@@ -2,17 +2,17 @@
 
 > Lint Ruby files.
 
-- Check all files in the current directory:
+- Check all files in the current directory (including subdirectories):
 
 `rubocop`
 
-- Check specific files or directories:
+- Check one or more specific files or directories:
 
-`rubocop {{path_1}} {{path_2}}`
+`rubocop /path/to/file /path/to/directory`
 
 - Write output to file:
 
-`rubocop --out {{file}}`
+`rubocop --out /path/to/file`
 
 - View list of cops:
 
