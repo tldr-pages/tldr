@@ -1,0 +1,35 @@
+# opkg
+
+> The opkg utility is a lightweight package manager used to install OpenWrt packages.
+
+- Install a package:
+
+`opkg install {{wget}}`
+
+- Remove a package:
+
+`opkg remove {{wget}}`
+
+- Update the list of available packages:
+
+`opkg update`
+
+- Upgrade installed packages:
+
+`opkg upgrade`
+
+- Display informations for a specific package:
+
+`opkg info {{wget}}`
+
+- List all the available packages:
+
+`opkg list`
+
+- List all the installed packages:
+
+`opkg list-installed`
+
+- List all the upgradable packages:
+
+`opkg list-upgradable`
