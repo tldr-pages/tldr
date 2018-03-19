@@ -1,6 +1,6 @@
 # opkg
 
-> The opkg utility is a lightweight package manager used to install OpenWrt packages.
+> A lightweight package manager used to install OpenWrt packages.
 
 - Install a package:
 
