@@ -4,11 +4,11 @@
 
 - Install a package:
 
-`opkg install {{wget}}`
+`opkg install {{package}}`
 
 - Remove a package:
 
-`opkg remove {{wget}}`
+`opkg remove {{package}}`
 
 - Update the list of available packages:
 
@@ -24,7 +24,7 @@
 
 - Display informations for a specific package:
 
-`opkg info {{wget}}`
+`opkg info {{package}}`
 
 - List all the available packages:
 
