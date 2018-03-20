@@ -29,11 +29,3 @@
 - List all the available packages:
 
 `opkg list`
-
-- List all the installed packages:
-
-`opkg list-installed`
-
-- List all the upgradable packages:
-
-`opkg list-upgradable`
