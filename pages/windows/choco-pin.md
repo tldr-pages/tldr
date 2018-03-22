@@ -3,7 +3,7 @@
 > Pin a package at a specific version with Chocolatey.
 > Pinned packages are skipped automatically when upgrading.
 
-- Display a list of pinned packages and their version:
+- Display a list of pinned packages and their versions:
 
 `choco pin list`
 
