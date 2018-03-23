@@ -8,4 +8,4 @@
 
 - View N latest entries in reflog:
 
-`git reflog -n number_of_entries`
+`git reflog -n {{number_of_entries}}`
