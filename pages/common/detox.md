@@ -1,7 +1,7 @@
 # detox
 
-> Renames files to make them easier to work with. 
-> It removes spaces and other such annoyances like duplicate underline characters. 
+> Renames files to make them easier to work with.
+> It removes spaces and other such annoyances like duplicate underline characters.
 
 - Remove spaces and other undesirable characters from a file's name:
 
