@@ -6,10 +6,10 @@
 
 `ncat -l {{port}} > {{/path/to/file}}`
 
-- Write output of specified file to the specified host on the specified port:
-
-`ncat {{address}} {{port}} < {{/path/to/file}}`
-
 - Accept multiple connections and keep them open after they have been closed:
 
 `ncat -lk {{port}}`
+
+- Write output of specified file to the specified host on the specified port:
+
+`ncat {{address}} {{port}} < {{/path/to/file}}`
