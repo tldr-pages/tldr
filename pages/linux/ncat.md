@@ -6,7 +6,7 @@
 
 `ncat -l {{port}} > {{/path/to/file}}`
 
-- Accept multiple connections and keep them open after they have been closed:
+- Accept multiple connections and keep ncat open after they have been closed:
 
 `ncat -lk {{port}}`
 
