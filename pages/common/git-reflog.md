@@ -1,11 +1,11 @@
 # git reflog
 
-> Show when the refs were updated in local repository.
+> Show when the reference logs were updated in local repository.
 
 - View reflog:
 
 `git reflog`
 
-- View N latest entries in reflog:
+- View 5 latest entries in reflog:
 
-`git reflog -n {{number_of_entries}}`
+`git reflog -n 5`
