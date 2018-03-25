@@ -8,4 +8,4 @@
 
 - View 5 latest entries in reflog:
 
-`git reflog -n 5`
+`git reflog -n {{5}}`
