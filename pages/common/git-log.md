@@ -14,7 +14,7 @@
 
 `git log --oneline`
 
-- Show an overview of which file changed in each commit:
+- Show an overview of which file(s) changed in each commit:
 
 `git log --stat`
 
