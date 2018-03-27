@@ -1,6 +1,6 @@
 # git shortlog
 
-> Summarizes the git log output.
+> Summarizes the `git log` output.
 
 - View a summary of all the commits made, grouped alphabetically by author name:
 
@@ -16,4 +16,4 @@
 
 - View a summary of the last 5 commits (i.e. specify a revision range):
 
-`git shortlog HEAD~5..HEAD`
+`git shortlog HEAD~{{5}}..HEAD`
