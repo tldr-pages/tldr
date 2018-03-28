@@ -14,6 +14,10 @@
 
 `git log --oneline`
 
+- Show an overview of which file(s) changed in each commit:
+
+`git log --stat`
+
 - Show all commits, tags and branches for the entire repo in a graph format:
 
 `git log --oneline --decorate --all --graph`
