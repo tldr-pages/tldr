@@ -1,6 +1,6 @@
 # compgen
 
-> Programmable Completion Builtins.
+> A built-in command for auto-completion in bash, which is called when you press TAB key twice.
 
 - List all commands that you could run:
 
@@ -20,4 +20,4 @@
 
 - See all available commands/aliases starting with 'ls':
 
-`compgen -ac ls`
+`compgen -ac {{ls}}`
