@@ -8,11 +8,11 @@
 
 - Do a dry-run renaming a folder of jpegs with a regular expression:
 
-`repren --rename --dry-run --from '{{regular_expression}}' --to '{{replacement_string}}' *.jpg *.jpeg'
+`repren --rename --dry-run --from '{{regular_expression}}' --to '{{replacement_string}}' *.jpg *.jpeg`
 
 - Do a find-and-replace on the contents of a folder of csv files:
 
-`repren --from '{{([0-9]+) example_string}}' --to '{{replacement_string \1}}'
+`repren --from '{{([0-9]+) example_string}}' --to '{{replacement_string \1}}'`
 
 - Do both a find-and-replace and a rename operation at the same time, using a pattern file:
 
