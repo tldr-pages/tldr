@@ -4,7 +4,7 @@
 
 - Do a dry-run renaming a folder of pngs with a literal string replacement:
 
-`repren --dry-run --literal --from '{{find_string}}' --to '{{replacement_string}}' *.png`
+`repren --dry-run --rename --literal --from '{{find_string}}' --to '{{replacement_string}}' *.png`
 
 - Do a dry-run renaming a folder of jpegs with a regular expression:
 
@@ -12,7 +12,7 @@
 
 - Do a find-and-replace on the contents of a folder of csv files:
 
-`repren --from '{{([0-9]+) example_string}}' --to '{{replacement_string \1}}'`
+`repren --from '{{([0-9]+) example_string}}' --to '{{replacement_string \1}}' *.csv`
 
 - Do both a find-and-replace and a rename operation at the same time, using a pattern file:
 
