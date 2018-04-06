@@ -20,7 +20,7 @@
 
 - Upgrade an installed cask to its latest version:
 
-`brew cask reinstall {{cask_name}}`
+`brew cask upgrade {{cask_name}}`
 
 - Uninstall a cask:
 
