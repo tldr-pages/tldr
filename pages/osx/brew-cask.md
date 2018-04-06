@@ -18,9 +18,9 @@
 
 `brew cask outdated`
 
-- Upgrade all installed casks to their latest version:
+- Upgrade an installed cask to its latest version:
 
-`brew cask upgrade`
+`brew cask upgrade {{cask_name}}`
 
 - Uninstall a cask:
 
