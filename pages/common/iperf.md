@@ -10,6 +10,6 @@
 
 `iperf -c {{server_address}}`
 
-- Run 5 parallel threads on client:
+- Run on client with 5 parallel threads:
 
-`iperf -c {{server_address}} -P 5`
+`iperf -c {{server_address}} -P {{5}}`
