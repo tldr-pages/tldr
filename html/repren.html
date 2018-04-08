@@ -1,0 +1,17 @@
+<b>repren</b><br><br>
+<b>Multi-pattern string replacement and file renaming tool.</b><br><br>
+- Do a dry-run renaming a folder of pngs with a literal string replacement:
+
+<blockquote>repren --dry-run --rename --literal --from '<i>find_string</i>' --to '<i>replacement_string</i>' <i>*.png</i></blockquote>
+- Do a dry-run renaming a folder of jpegs with a regular expression:
+
+<blockquote>repren --rename --dry-run --from '<i>regular_expression</i>' --to '<i>replacement_string</i>' <i>*.jpg</i> <i>*.jpeg</i></blockquote>
+- Do a find-and-replace on the contents of a folder of csv files:
+
+<blockquote>repren --from '<i>([0-9]+) example_string</i>' --to '<i>replacement_string \1</i>' <i>*.csv</i></blockquote>
+- Do both a find-and-replace and a rename operation at the same time, using a pattern file:
+
+<blockquote>repren --patterns <i>path/to/patfile.ext</i> --full <i>*.txt</i></blockquote>
+- Do a case-insensitive rename:
+
+<blockquote>repren --rename --insensitive --patterns <i>path/to/patfile.ext</i> *</blockquote>
