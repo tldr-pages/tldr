@@ -8,4 +8,8 @@
 
 - Run on client:
 
-`iperf -c <server's address>`
+`iperf -c {{server_address}}`
+
+- (On client) run 5 parallel threads:
+
+`iperf -c {{server_address}} -P 5`
