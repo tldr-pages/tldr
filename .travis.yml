@@ -1,12 +1,19 @@
-sudo: false
+sudo: required
 language: node_js
 
 node_js:
 - stable
 cache: false
 
+before_script:
+- sudo apt-get install python3-pip
+- sudo pip3 install beautifulsoup4
+- sudo pip3 install requests
+- sudo pip3 install gitpython
+
 after_success:
 - bash scripts/build.sh
+- python3 scripts/command_coverage/runner.py
 
 after_failure:
 - cat test_result | python scripts/send_to_bot.py
