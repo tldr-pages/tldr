@@ -13,7 +13,7 @@
 
 - Replace environment variables in an input file and output to a file:
 
-`envsubst < {{path/to/input}} > {{path/to/output}}` 
+`envsubst < {{path/to/input}} > {{path/to/output}}`
 
 - Replace environment variables in input from a space-separated list:
 
