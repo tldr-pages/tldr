@@ -5,7 +5,7 @@
 
 - Replace environment variables in stdin and output to stdout:
 
-`echo "{{\$HOME}}" | envsubst`
+`echo '{{$HOME}}' | envsubst`
 
 - Replace environment variables in an input file and output to stdout:
 
