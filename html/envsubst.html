@@ -1,0 +1,14 @@
+<b>envsubst</b><br><br>
+<b>Substitutes shell format strings with environment variables in text.</b><br><br><b>Strings to be replaced should be in either `${var}` or `$var` format.</b><br><br>
+- Replace environment variables in stdin and output to stdout:
+
+<blockquote>echo '<i>$HOME</i>' | envsubst</blockquote>
+- Replace environment variables in an input file and output to stdout:
+
+<blockquote>envsubst < <i>path/to/input</i></blockquote>
+- Replace environment variables in an input file and output to a file:
+
+<blockquote>envsubst < <i>path/to/input</i> > <i>path/to/output</i></blockquote>
+- Replace environment variables in input from a space-separated list:
+
+<blockquote>envsubst <i>variables</i> < <i>path/to/input</i></blockquote>
