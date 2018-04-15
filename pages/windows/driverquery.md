@@ -20,7 +20,7 @@
 
 - Display a list of drivers for a remote machine:
 
-`driverquery /s {{remote_name}} /u {{username}} /p {{password}}`
+`driverquery /s {{hostname}} /u {{username}} /p {{password}}`
 
 - Display a list of drivers with verbose information:
 
