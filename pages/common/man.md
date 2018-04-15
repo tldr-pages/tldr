@@ -2,6 +2,10 @@
 
 > Format and display manual pages.
 
+- Display manual page for man:
+
+`man man`
+
 - Display man page for a command:
 
 `man {{command}}`
