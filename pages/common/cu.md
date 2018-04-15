@@ -3,7 +3,7 @@
 > Call up another system.
 > It can also do simple file transfers with no error checking.
 
-- To connect to a remote system venus, enter: 
+- To connect to a remote system venus, enter:
 
 `cu venus`
 
