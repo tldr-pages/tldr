@@ -5,7 +5,7 @@
 
 - To connect to a remote system venus, enter:
 
-`cu venus`
+`cu {{venus}}`
 
 - To log in to a system connected by a hardwired line asynchronous line, enter:
 
