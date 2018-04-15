@@ -10,7 +10,7 @@
 
 `driverquery /fo {{table|list|csv}}`
 
-- Display a list of drivers with a column for if they are signed:
+- Display a list of drivers with a column to indicate if they are signed:
 
 `driverquery /si`
 
