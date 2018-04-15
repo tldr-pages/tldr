@@ -6,7 +6,7 @@
 
 `choco pack {{path/to/specification}}`
 
-- Package a NuGet specification using a specific version:
+- Package a NuGet specification specifying the version of the resulting file:
 
 `choco pack {{path/to/specification}} --version {{version}}`
 
