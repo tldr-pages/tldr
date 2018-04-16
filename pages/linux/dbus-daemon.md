@@ -14,7 +14,7 @@
 
 `dbus-daemon --system`
 
-- Set the address to listen on and ignore the configuration for this:
+- Set the address to listen on and override the configuration value for it:
 
 `dbus-daemon --address {{address}}`
 
@@ -26,6 +26,6 @@
 
 `dbus-daemon --syslog`
 
-- Disable the creation of a pid file and ignore the configuration for this:
+- Disable the creation of a pid file and override the configuration value for it:
 
 `dbus-daemon --nopidfile`
