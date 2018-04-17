@@ -2,19 +2,19 @@
 <b>A lightweight and flexible command-line JSON processor.</b><br><br>
 - Output a JSON file, in pretty-print format:
 
-<blockquote>cat <i>file</i> | jq</blockquote>
+<blockquote>jq . <i>file.json</i></blockquote>
 - Output all elements from arrays (or all key-value pairs from objects) in a JSON file:
 
-<blockquote>cat <i>file</i> | jq .[]</blockquote>
+<blockquote>jq .[] <i>file.json</i></blockquote>
 - Read JSON objects from a file into an array, and output it (inverse of `jq .[]`):
 
-<blockquote>cat <i>file</i> | jq --slurp</blockquote>
+<blockquote>jq --slurp . <i>file.json</i></blockquote>
 - Output the first element in a JSON file:
 
-<blockquote>cat <i>file</i> | jq .[0]</blockquote>
-- Output the value of a given key of the first element in a JSON file:
+<blockquote>jq .[0] <i>file.json</i></blockquote>
+- Output the value of a given key of the first element in a JSON text from stdin:
 
-<blockquote>cat <i>file</i> | jq .[0].<i>key_name</i></blockquote>
-- Output the value of a given key of each element in a JSON file:
+<blockquote>cat <i>file.json</i> | jq .[0].<i>key_name</i></blockquote>
+- Output the value of a given key of each element in a JSON text from stdin:
 
-<blockquote>cat <i>file</i> | jq 'map(.<i>key_name</i>)'</blockquote>
+<blockquote>cat <i>file.json</i> | jq 'map(.<i>key_name</i>)'</blockquote>
