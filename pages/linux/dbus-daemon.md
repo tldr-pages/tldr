@@ -25,7 +25,3 @@
 - Force the message bus to write to the system log for messages:
 
 `dbus-daemon --syslog`
-
-- Disable the creation of a pid file and override the configuration value for it:
-
-`dbus-daemon --nopidfile`
