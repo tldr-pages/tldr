@@ -1,7 +1,7 @@
 # apache2ctl
 
-> The CLI tool apache2ctl (alternatively apachectl)is a front end to the Apache HyperText Transfer Protocol (HTTP) server.  It is designed to help the administrator control the functioning of the Apache apache2 daemon.
-> This commmand comes with Debian based Apache package.
+> The CLI tool to administrate HTTP web server Apache.
+> This commmand comes with Debian based OS, for RHEL based OS see httpd.
 
 - Start the Apache daemon.  Give an error if it is already running:
 
@@ -15,10 +15,10 @@
 
 `apache2ctl restart`
 
-- Check Apache configuration syntax file:
+- Check configuration syntax file:
 
 `apache2ctl -t`
 
-- Print loaded Apache Modules:
+- Print loaded modules list:
 
 `apache2ctl -M`
