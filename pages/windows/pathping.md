@@ -1,6 +1,6 @@
 # pathping
 
-> A trace route tool combining features of Ping and Tracert.
+> A trace route tool combining features of `ping` and `tracert`.
 
 - Ping and trace the route to a host:
 
