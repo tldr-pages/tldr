@@ -6,7 +6,7 @@
 
 `pathping {{hostname}}`
 
-- Do not resolve addresses to host names:
+- Do not perform reverse lookup of ip-address to hostname:
 
 `pathping {{hostname}} -n`
 
