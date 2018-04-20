@@ -1,10 +1,10 @@
 # imgp
 
-> imgp is a command line image resizer and rotator for JPEG and PNG images. 
+> a command line image resizer and rotator for JPEG and PNG images.
 
 - Convert some images and directories:
 
-`imgp -x 1366x1000 ~/downloads ~/specifc.png`
+`imgp -x {{1366x1000}} {{path/to/dir}} {{path/to/file}}`
 
 - Scale an image by 75% and overwrite the source image:
 
@@ -12,5 +12,5 @@
 
 - Rotate an image clockwise by 90 degrees:
 
-`imgp -o 90  ~/image.jpg`
+`imgp -o 90  {{path/to/file}}`
 
