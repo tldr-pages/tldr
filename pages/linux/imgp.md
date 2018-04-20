@@ -1,6 +1,6 @@
 # imgp
 
-> a command line image resizer and rotator for JPEG and PNG images.
+> Command line image resizer and rotator for JPEG and PNG images.
 
 - Convert some images and directories:
 
@@ -13,4 +13,3 @@
 - Rotate an image clockwise by 90 degrees:
 
 `imgp -o 90  {{path/to/file}}`
-
