@@ -2,7 +2,7 @@
 
 > Distributed version control system.
 
-- Clone Git repository
+- Clone Git repository:
 
  git clone {{repository}}
 
