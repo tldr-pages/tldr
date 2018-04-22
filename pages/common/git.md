@@ -3,8 +3,8 @@
 > Distributed version control system.
 
 - Clone Git repository:
-
- `git clone {{repository}}`
+ 
+`git clone repository`
 
 - Check the Git version:
 
