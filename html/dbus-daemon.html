@@ -1,0 +1,20 @@
+<b>dbus-daemon</b><br><br>
+<b>The D-Bus message daemon, allowing multiple programs to exchange messages.</b><br><br>
+- Run the daemon with a configuration file:
+
+<blockquote>dbus-daemon --config-file <i>path/to/file</i></blockquote>
+- Run the daemon with the standard per-login-session message bus configuration:
+
+<blockquote>dbus-daemon --session</blockquote>
+- Run the daemon with the standard systemwide message bus configuration:
+
+<blockquote>dbus-daemon --system</blockquote>
+- Set the address to listen on and override the configuration value for it:
+
+<blockquote>dbus-daemon --address <i>address</i></blockquote>
+- Output the process id to stdout:
+
+<blockquote>dbus-daemon --print-pid</blockquote>
+- Force the message bus to write to the system log for messages:
+
+<blockquote>dbus-daemon --syslog</blockquote>
