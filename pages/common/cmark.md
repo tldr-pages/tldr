@@ -1,0 +1,19 @@
+# cmark
+
+> Converts CommonMark Markdown formatted text to HTML
+
+- Render a Commonmark Markdown file to HTML:
+
+`cmark --to html {{filename.md}}`
+
+- Render the standard input to latex:
+
+`cmark --to latex`
+
+- Convert straight quotes to smart quotes:
+
+`cmark --smart --to html {{filename.md}}
+
+- Validate utf8 characters:
+
+`cmark --validate-utf8 {{filename.md}}`
