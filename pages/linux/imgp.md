@@ -6,10 +6,10 @@
 
 `imgp -x {{1366x1000}} {{path/to/dir}} {{path/to/file}}`
 
-- Scale an image by 75% and overwrite the source image:
+- Scale an image by 75% and overwrite the source image to a target resolution:
 
-`imgp -x {{75}} -w ~/image.jpg`
+`imgp -x {{75}} -w {{path/to/dir}}`
 
 - Rotate an image clockwise by 90 degrees:
 
-`imgp -o {{90}}  {{path/to/file}}`
+`imgp -o {{90}} {{path/to/file}}`
