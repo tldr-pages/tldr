@@ -2,11 +2,11 @@
 
 > Command line image resizer and rotator for JPEG and PNG images.
 
-- Convert some images and directories:
+- Convert single images and/or whole directories containing valid image formats:
 
 `imgp -x {{1366x1000}} {{path/to/dir}} {{path/to/file}}`
 
-- Scale an image by 75% and overwrite the source image:
+- Scale an image by {{75%}} and overwrite the source image:
 
 `imgp -x 75 -w ~/image.jpg`
 
