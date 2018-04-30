@@ -13,7 +13,3 @@
 - Split a file with 512 bytes in each split (except the last split; use 512k for kilobytes and 512m for megabytes):
 
 `split -b {{512}} {{filename}}`
-
-- Split a file with at most 512 bytes in each split without breaking lines:
-
-`split -C {{512}} {{filename}}`
