@@ -2,6 +2,10 @@
 
 > Distributed version control system.
 
+- Clone an existing repository:
+
+`git clone {{remote_repository_location}}`
+
 - Check the Git version:
 
 `git --version`
