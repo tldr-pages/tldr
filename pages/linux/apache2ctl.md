@@ -3,22 +3,22 @@
 > The CLI tool to administrate HTTP web server Apache.
 > This commmand comes with Debian based OS, for RHEL based OS see httpd.
 
-- Start the Apache daemon.  Give an error if it is already running:
+- Start the Apache daemon. Throw an error if it is already running:
 
-`apache2ctl start`
+`sudo apache2ctl start`
 
 - Stop the Apache daemon:
 
-`apache2ctl stop`
+`sudo apache2ctl stop`
 
 - Restart the Apache daemon:
 
-`apache2ctl restart`
+`sudo apache2ctl restart`
 
-- Check configuration syntax file:
+- Test syntax of the configuration file:
 
-`apache2ctl -t`
+`sudo apache2ctl -t`
 
-- Print loaded modules list:
+- List loaded modules:
 
-`apache2ctl -M`
+`sudo apache2ctl -M`
