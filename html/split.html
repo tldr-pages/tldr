@@ -2,10 +2,13 @@
 <b>Split a file into pieces.</b><br><br>
 - Split a file, each split having 10 lines (except the last split):
 
-<blockquote>split -l 10 <i>filename</i></blockquote>
+<blockquote>split -l <i>10</i> <i>filename</i></blockquote>
 - Split a file into 5 files. File is split such that each split has same size (except the last split):
 
-<blockquote>split -n 5 <i>filename</i></blockquote>
-- Split a file with at most 512 bytes of lines in each split:
+<blockquote>split -n <i>5</i> <i>filename</i></blockquote>
+- Split a file with 512 bytes in each split (except the last split; use 512k for kilobytes and 512m for megabytes):
 
-<blockquote>split -C 512 <i>filename</i></blockquote>
+<blockquote>split -b <i>512</i> <i>filename</i></blockquote>
+- Split a file with at most 512 bytes in each split without breaking lines:
+
+<blockquote>split -C <i>512</i> <i>filename</i></blockquote>
