@@ -1,6 +1,6 @@
 # cmark
 
-> Converts CommonMark Markdown formatted text to other formats
+> Converts CommonMark Markdown formatted text to other formats.
 
 - Render a Commonmark Markdown file to HTML:
 
@@ -12,7 +12,7 @@
 
 - Convert straight quotes to smart quotes:
 
-`cmark --smart --to html {{filename.md}}
+`cmark --smart --to html {{filename.md}}`
 
 - Validate utf8 characters:
 
