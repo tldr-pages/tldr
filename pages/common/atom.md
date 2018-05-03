@@ -10,3 +10,11 @@
 - Open a file or folder in a new window:
 
 `atom -n {{path/to/file_or_folder}}`
+
+- Open atom in safe mode (does not load any additional packages):
+
+`atom --safe`
+
+- Prevent atom from forking into the background, keeping atom attached to the terminal:
+
+`atom --foreground`
