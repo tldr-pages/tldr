@@ -18,7 +18,7 @@
 
 `ffmpeg -ss {{mm:ss.S}} -i {{video.mp4}} -frames 1 -s {{128x128}} -f image2 {{image.png}}`
 
-- trim a video from a given time (ss) to (t) seconds from that time or just ommit -t to trim everything before (ss) seconds:
+- trim a video from a given time (ss) to (t) seconds from that time or just omit -t to trim everything before (ss) seconds:
 
 `ffmpeg -ss {{mm:ss.S}} -i {{video.mp4}} -codec copy -t {{mm:ss.S}} {{output.mp4}}`
 
