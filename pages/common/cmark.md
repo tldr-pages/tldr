@@ -6,7 +6,7 @@
 
 `cmark --to html {{filename.md}}`
 
-- Render the standard input to latex:
+- Convert data from standard input to latex:
 
 `cmark --to latex`
 
