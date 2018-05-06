@@ -8,11 +8,11 @@
 `ipfs get {{hash}} -o {{filename}}`
 
 - Add a file from local to the File System with the filename _(-w)_, pin It and print the hash:
- 
+
 `ipfs add {{filename}} -w`
 
 - Add a folder and files in It from local to the File System, pin It and print the hash:
- 
+
 `ipfs add -r {{folder}}`
 
 - Pin a remote file, locally:
