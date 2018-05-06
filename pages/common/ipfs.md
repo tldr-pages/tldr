@@ -27,14 +27,6 @@
 
 `ipfs pin rm {{hash}}`
 
-- Add an hash to the IPNS with the given ID (omit --key for default). If is the hash of a folder, It will add the whole folder with files:
-
-`ipfs name publish --key={{ID}} {{hash}}`
-
-- Print a list of available keys:
-
-`ipfs key list`
-
 - Remove unpinned files from local storage:
 
 `ipfs repo gc`
