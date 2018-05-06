@@ -7,7 +7,7 @@
 
 `rtcwake -m show -v`
 
-- Show if an allarm is set:
+- Show if an alarm is set:
 
 `rtcwake -m show`
 
@@ -17,20 +17,20 @@
 
 - Suspend to ram and wakeup after 10 seconds:
 
-`# rtcwake -m mem -s {{10}}`
+`sudo rtcwake -m mem -s {{10}}`
 
-- Suspend to disk _(higher power saving)_ and wakeup 10 minutes later:
+- Suspend to disk (higher power saving) and wakeup 10 minutes later:
 
-`# rtcwake -m disk --date +{{15}}m`
+`sudo rtcwake -m disk --date +{{15}}m`
 
-- Suspend to disk and wakeup 1 hour later so play some music with mpv:
+- Suspend to disk and wakeup 1 hour later and play some music with mpv:
 
-`# rtcwake -m disk --date +{{1}}h && mpv {{music_folder/*}}`
+`sudo rtcwake -m disk --date +{{1}}h && mpv {{music_folder/*}}`
 
-- Freeze the system _(more efficent than suspend-to-ram but linux > 3.9 required)_ and wakeup at a given date and time:
+- Freeze the system (more efficent than suspend-to-ram but linux > 3.9 required) and wakeup at a given date and time:
 
-`# rtcwake -m freeze --date {{YYYYMMDDhhmm}}`
+`sudo rtcwake -m freeze --date {{YYYYMMDDhhmm}}`
 
-- Run a test _(CTRL-C to abort)_ in which the computer is waked at a given time:
+- Run a test (CTRL-C to abort) in which the computer is waked at a given time:
 
 `rtcwake -m on --date {{hh:ss}}`
