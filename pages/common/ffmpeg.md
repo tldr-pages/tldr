@@ -18,9 +18,9 @@
 
 `ffmpeg -ss {{mm:ss}} -i {{video.mp4}} -frames 1 -s {{128x128}} -f image2 {{image.png}}`
 
-- Trim a video from a given time (ss) to (t) seconds from that time. Just omit the -t flag to only trim everything before (ss) seconds:
+- Trim a video from a given start time mm:ss to a duration of mm2:ss2 from that time. (Omit the -t flag to trim till the end)
 
-`ffmpeg -ss {{mm:ss}} -i {{video.mp4}} -codec copy -t {{mm:ss}} {{output.mp4}}`
+`ffmpeg -ss {{mm:ss}} -i {{video.mp4}} -codec copy -t {{mm2:ss2}} {{output.mp4}}`
 
 - Convert AVI video to MP4. AAC Audio @ 128kbit, h264 Video @ CRF 23:
 
