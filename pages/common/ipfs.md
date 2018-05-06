@@ -3,9 +3,9 @@
 > Inter Planetary File System.
 > A peer-to-peer hypermedia protocol to make the web faster, safer, and more open.
 
-- Save a remote file but not pin It:
+- Save a remote file and give It a name but not pin It:
 
-`ipfs get {{hash}}`
+`ipfs get {{hash}} -o {{filename}}`
 
 - Add a file from local to the File System with the filename _(-w)_, pin It and print the hash:
  
