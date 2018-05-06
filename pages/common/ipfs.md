@@ -7,11 +7,11 @@
 
 `ipfs get {{hash}} -o {{filename}}`
 
-- Add a file from local to the File System with the filename _(-w)_, pin It and print the hash:
+- Add a file from local to the file system with the filename (-w) and pin It:
 
 `ipfs add {{filename}} -w`
 
-- Add a folder and files in It from local to the File System, pin It and print the hash:
+- Add a folder and files in It from local to the File System and pin It:
 
 `ipfs add -r {{folder}}`
 
@@ -27,11 +27,7 @@
 
 `ipfs pin rm {{hash}}`
 
-- Create a new ipfs ID with a given name:
-
-`ifps key gen --type=rsa --size=2048 {{name}}`
-
-- Add an hash to the IPNS with the given ID _(omit --key for default)_. If is the hash of a folder, It will add the whole folder with files:
+- Add an hash to the IPNS with the given ID (omit --key for default). If is the hash of a folder, It will add the whole folder with files:
 
 `ipfs name publish --key={{ID}} {{hash}}`
 
