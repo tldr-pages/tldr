@@ -1,0 +1,11 @@
+<b>fallocate</b><br><br>
+<b>Reserve or deallocate disk space to files.</b><br><br><b>The utility allocates space without zeroing.</b><br><br>
+- Reserve a file taking up 700MB of disk space:
+
+<blockquote>fallocate --length <i>700M</i> <i>path/to/file</i></blockquote>
+- Shrink an already allocated file by 200MB:
+
+<blockquote>fallocate --collapse-range --length <i>200M</i> <i>path/to/file</i></blockquote>
+- Shrink 20MB of space after 100MB in a file:
+
+<blockquote>fallocate --collapse-range --offset <i>100M</i> --length <i>20M</i> <i>path/to/file</i></blockquote>
