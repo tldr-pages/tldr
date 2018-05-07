@@ -17,3 +17,7 @@
 - Extract the contents of the file(s) to stdout alongside the extracted file names:
 
 `unzip -c {{file.zip}}`
+
+- Extract zip file created by windows (you may use the command if there are non-ascii filenames in zip file):
+
+`unzip -O gbk {{file.zip}}`
