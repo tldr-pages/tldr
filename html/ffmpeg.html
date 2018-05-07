@@ -12,6 +12,9 @@
 - Quickly extract a single frame from a video at time mm:ss and save it as a 128x128 resolution image:
 
 <blockquote>ffmpeg -ss <i>mm:ss</i> -i <i>video.mp4</i> -frames 1 -s <i>128x128</i> -f image2 <i>image.png</i></blockquote>
+- Trim a video from a given start time mm:ss to a duration of mm2:ss2 from that time. (Omit the -t flag to trim till the end):
+
+<blockquote>ffmpeg -ss <i>mm:ss</i> -i <i>video.mp4</i> -codec copy -t <i>mm2:ss2</i> <i>output.mp4</i></blockquote>
 - Convert AVI video to MP4. AAC Audio @ 128kbit, h264 Video @ CRF 23:
 
 <blockquote>ffmpeg -i <i>input_video</i>.avi -codec:audio aac -b:audio 128k -codec:video libx264 -crf 23 <i>output_video</i>.mp4</blockquote>
