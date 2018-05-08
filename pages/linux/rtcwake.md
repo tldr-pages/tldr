@@ -1,25 +1,16 @@
 # rtcwake
 
 > Enter a system sleep state until specified wakeup time relative to your bios clock.
-> Commands need to be run as superuser since shutdowns are involved.
 
-- Check your hardware clock info and exit:
+- Show whether an alarm is set or not:
 
-`rtcwake -m show -v`
-
-- Show if an alarm is set:
-
-`rtcwake -m show`
-
-- Disable a previous set alarm:
-
-`rtc -m disable`
+`sudo rtcwake -m show -v`
 
 - Suspend to ram and wakeup after 10 seconds:
 
 `sudo rtcwake -m mem -s {{10}}`
 
-- Suspend to disk (higher power saving) and wakeup 10 minutes later:
+- Suspend to disk (higher power saving) and wakeup 15 minutes later:
 
 `sudo rtcwake -m disk --date +{{15}}m`
 
@@ -31,6 +22,10 @@
 
 `sudo rtcwake -m freeze --date {{YYYYMMDDhhmm}}`
 
+- Disable a previously set alarm:
+
+`sudo rtc -m disable`
+
 - Run a test (CTRL-C to abort) in which the computer is waked at a given time:
 
-`rtcwake -m on --date {{hh:ss}}`
+`sudo rtcwake -m on --date {{hh:ss}}`
