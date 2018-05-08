@@ -8,7 +8,7 @@
 
 - Display man page for a command from section 7:
 
-`man {{command.7}}`
+`man {{command}}.{{7}}`
 
 - Display path searched for manpages:
 
