@@ -2,22 +2,22 @@
 
 > Trash-cli is a less permanent way of removing files via the command line.
 
-- Trash files and directories.
+- Trash files and directories:
 
 `trash-put {{file_name}}`
 
-- Empty the trashcan(s).
+- Empty the trashcan(s):
 
 `trash-empty`
 
-- List trashed files.
+- List trashed files:
 
 `trash-list`
 
-- Restore a trashed file by choosing a number from the list that results from this command.
+- Restore a trashed file by choosing a number from the list that results from this command:
 
 `trash-restore`
 
-- Remove individual files from the trashcan.
+- Remove individual files from the trashcan:
 
 `trash-rm {{file_name}}`
