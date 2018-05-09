@@ -1,6 +1,6 @@
 # jrnl
 
-> jrnl is a simple journal application for your command line.
+> A simple journal application for your command line.
 
 - Insert new entry with your editor:
 
