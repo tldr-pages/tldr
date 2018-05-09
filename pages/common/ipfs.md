@@ -3,11 +3,11 @@
 > Inter Planetary File System.
 > A peer-to-peer hypermedia protocol to make the web faster, safer, and more open.
 
-- Add a file from local to the file system and pin it:
+- Add a file from local to the file system, pin it and print the relative hash:
 
 `ipfs add {{filename}}`
 
-- Add a folder and its files recursively from local to the file system:
+- Add a folder and its files recursively from local to the file system and print the relative hash:
 
 `ipfs add -r {{folder}}`
 
