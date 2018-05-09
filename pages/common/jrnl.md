@@ -8,7 +8,7 @@
 
 - Quickly insert new entry:
 
-`jrnl {{timestamp}}: {{title}}. {{content}}` 
+`jrnl {{timestamp}}: {{title}}. {{content}}`
 
 - View last ten entries:
 
