@@ -2,15 +2,15 @@
 
 > A simple journal application for your command line.
 
-- Insert new entry with your editor:
+- Insert a new entry with your editor:
 
 `jrnl`
 
-- Quickly insert new entry:
+- Quickly insert a new entry:
 
 `jrnl {{timestamp}}: {{title}}. {{content}}`
 
-- View last ten entries:
+- View the last ten entries:
 
 `jrnl -n {{10}}`
 
