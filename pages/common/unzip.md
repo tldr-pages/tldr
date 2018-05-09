@@ -18,6 +18,6 @@
 
 `unzip -c {{file.zip}}`
 
-- Extract zip file created by windows (you may use the command if there are non-ascii filenames in zip file):
+- Extract a zip file created in windows, containing files with non-ascii (chinese) filenames:
 
-`unzip -O gbk {{file.zip}}`
+`unzip -O {{gbk}} {{file.zip}}`
