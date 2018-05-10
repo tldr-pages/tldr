@@ -12,11 +12,7 @@
 
 - Suspend to disk (higher power saving) and wakeup 15 minutes later:
 
-`sudo rtcwake -m disk --date +{{15}}m`
-
-- Suspend to disk and wakeup 1 hour later and play some music with mpv:
-
-`sudo rtcwake -m disk --date +{{1}}h && mpv {{music_folder/*}}`
+`sudo rtcwake -m disk --date +{{15}}min`
 
 - Freeze the system (more efficent than suspend-to-ram but linux > 3.9 required) and wakeup at a given date and time:
 
@@ -26,6 +22,6 @@
 
 `sudo rtc -m disable`
 
-- Run a test (CTRL-C to abort) in which the computer is waked at a given time:
+- Perform a dry run to wakup the computer at a given time. (Press Ctrl + C to abort):
 
 `sudo rtcwake -m on --date {{hh:ss}}`
