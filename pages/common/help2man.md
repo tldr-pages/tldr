@@ -14,18 +14,6 @@
 
 `help2man {{executable}} --section {{section}}`
 
-- Specify the source, or footer, of the man page:
-
-`help2man {{executable}} --source {{source}}`
-
-- Specify a custom `--version` option for the executable:
-
-`help2man {{executable}} --version-string {{version}}`
-
-- Include additional information from a file if it exists:
-
-`help2man {{executable}} --opt-include {{path/to/file}}`
-
 - Output to a file instead of stdout:
 
 `help2man {{executable}} --output {{path/to/file}}`
