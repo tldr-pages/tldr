@@ -1,6 +1,6 @@
 # which
 
-> Locate the a program in the user's path.
+> Locate a program in the user's path.
 
 - Search the PATH environment variable and display the location of any matching executables:
 
