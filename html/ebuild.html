@@ -1,0 +1,26 @@
+<b>ebuild</b><br><br>
+<b>A low level interface to the Gentoo Portage system.</b><br><br>
+- Create or update the package manifest:
+
+<blockquote>ebuild <i>path/to/file.ebuild</i> manifest</blockquote>
+- Clean the temporary build directories for the build file:
+
+<blockquote>ebuild <i>path/to/file.ebuild</i> clean</blockquote>
+- Fetch sources if they do not exist:
+
+<blockquote>ebuild <i>path/to/file.ebuild</i> fetch</blockquote>
+- Extract the sources to a temporary build directory:
+
+<blockquote>ebuild <i>path/to/file.ebuild</i> unpack</blockquote>
+- Compile the extracted sources:
+
+<blockquote>ebuild <i>path/to/file.ebuild</i> compile</blockquote>
+- Install the package to a temporary install directory:
+
+<blockquote>ebuild <i>path/to/file.ebuild</i> install</blockquote>
+- Install the temporary files to the live filesystem:
+
+<blockquote>ebuild <i>path/to/file.ebuild</i> qmerge</blockquote>
+- Fetch, unpack, compile, install and qmerge the specified ebuild file:
+
+<blockquote>ebuild <i>path/to/file.ebuild</i> merge</blockquote>
