@@ -115,6 +115,9 @@ You can access these pages on your computer using one of the following clients:
 - Web clients:
     - [tldr.jsx](https://github.com/ostera/tldr.jsx): http://tldr.ostera.io/
     - [DistroWatch](https://distrowatch.com/dwres.php?resource=man-pages)
+- Docker container:
+    - Add alias on `~/.bashrc` or `~/.zshrc`:
+      `alias tldr='docker run --rm -it -v ~/.tldr/:/root/.tldr/ nutellinoit/tldr'`
 
 There is also a comprehensive
 [list of clients in our Wiki](https://github.com/tldr-pages/tldr/wiki/TLDR-clients).
