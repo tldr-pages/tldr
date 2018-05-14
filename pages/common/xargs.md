@@ -7,9 +7,9 @@
 
 `{{arguments_source}} | xargs {{command}}`
 
-- Delete all files with a `.backup` extension. The `-d` flag changes the delimiter to allow filenames with whitespace:
+- Delete all files with a `.backup` extension. The `--delimiter/-d` flag allows files with whitespace to be read, since only newlines are used to split the output of the `find` command.
 
-`find . -name {{'*.backup'}} | xargs -d '\n' rm -v`
+`find . -name {{'*.backup'}} | xargs --delimiter '\n' rm -v`
 
 - Convert newlines in the input into NUL (`\0`) characters, and split on those only (useful if the input to xargs contains spaces):
 
