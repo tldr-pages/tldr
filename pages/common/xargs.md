@@ -7,9 +7,9 @@
 
 `{{arguments_source}} | xargs {{command}}`
 
-- Delete all files with a `.backup` extension. Use the `--delimiter`/`-d` flag to split based on a specific whitespace character (useful if there's spaces in the filenames):
+- Delete all files with a `.backup` extension. `-print0` on find uses a null character to split the files, and `-0` changes the delimiter to the null character (useful if there's whitespace in filenames):
 
-`find . -name {{'*.backup'}} | xargs --delimiter '\n' rm -v`
+`find . -name {{'*.backup'}} -print0 | xargs -0 rm -v`
 
 - Execute the command once for each input line, replacing any occurrences of the placeholder (here marked as `_`) with the input line:
 
