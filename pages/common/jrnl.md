@@ -8,7 +8,7 @@
 
 - Quickly insert a new entry:
 
-`jrnl {{timestamp}}: {{title}}. {{content}}`
+`jrnl {{today at 3am}}: {{title}}. {{content}}`
 
 - View the last ten entries:
 
@@ -18,6 +18,6 @@
 
 `jrnl -from {{"last year"}} -until {{march}}`
 
-- Edit all entries tagged with @texas and @history:
+- Edit all entries tagged with texas and history:
 
 `jrnl {{@texas}} -and {{@history}} --edit`
