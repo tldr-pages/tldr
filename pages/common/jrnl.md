@@ -18,6 +18,6 @@
 
 `jrnl -from {{"last year"}} -until {{march}}`
 
-- Edit all entries tagged with texas and history:
+- Edit all entries tagged with "texas" and "history":
 
 `jrnl {{@texas}} -and {{@history}} --edit`
