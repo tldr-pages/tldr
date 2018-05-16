@@ -8,4 +8,4 @@
 
 - Restore a backup, user will be prompted for a password:
 
-`mysql -u {{user}} --password {{database_name}} -e "source {{/path/to/backup-file.sql]}" {{database_name}}`
+`mysql -u {{user}} --password -e "source {{filename.sql}}" {{database_name}}`
