@@ -20,4 +20,4 @@
 
 - Execute SQL statements in a script file (batch file):
 
-`mysql {{database_name}} < {{script.sql}}`
+`mysql -h {{database_host}} -u {{user}} --password {{database_name}} -e "source {{/path/to/backup-file.sql]}" {{database_name}}`
