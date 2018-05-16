@@ -1,6 +1,6 @@
 # trash-cli
 
-> Trash-cli is a command line interface to the trashcan APIs.
+> A command line interface to the trashcan APIs.
 
 - Trash files and directories:
 
