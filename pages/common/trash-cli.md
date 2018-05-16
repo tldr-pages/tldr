@@ -1,12 +1,12 @@
 # trash-cli
 
-> Trash-cli is a less permanent way of removing files via the command line.
+> Trash-cli is a command line interface to the trashcan APIs.
 
 - Trash files and directories:
 
 `trash-put {{file_name}}`
 
-- Empty the trashcan(s):
+- Empty the trashcan:
 
 `trash-empty`
 
