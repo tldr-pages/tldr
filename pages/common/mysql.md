@@ -20,4 +20,4 @@
 
 - Execute SQL statements in a script file (batch file), user will be prompted for a password:
 
-`mysql -u {{user}} --password -e "source {{filename.sql}}" {{database_name}}`
+`mysql -e "source {{filename.sql}}" {{database_name}}`
