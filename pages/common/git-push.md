@@ -10,6 +10,10 @@
 
 `git push {{remote_name}} {{local_branch}}`
 
+- Send local changes in a given branch to to a remote repository in a different branch name:
+
+`git push {{remote_name}} {{local_branch}}:{{remote_branch}}`
+
 - Publish the current branch to a remote repository, setting the remote branch name:
 
 `git push {{remote_name}} -u {{remote_branch}}`
