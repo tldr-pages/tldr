@@ -18,6 +18,6 @@
 
 `mysql --socket {{path/to/socket.sock}}`
 
-- Execute SQL statements in a script file (batch file), user will be prompted for a password:
+- Execute SQL statements in a script file (batch file):
 
 `mysql -e "source {{filename.sql}}" {{database_name}}`
