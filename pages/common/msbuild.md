@@ -2,6 +2,10 @@
 
 > The Microsoft build tool for Visual Studio project solutions.
 
+- Build the first project file in the current directory:
+
+`msbuild`
+
 - Build a specific project file:
 
 `msbuild {{path/to/project_file}}`
