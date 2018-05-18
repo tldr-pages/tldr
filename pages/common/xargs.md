@@ -7,13 +7,9 @@
 
 `{{arguments_source}} | xargs {{command}}`
 
-- Delete all files with a `.backup` extension:
+- Delete all files with a `.backup` extension. `-print0` on find uses a null character to split the files, and `-0` changes the delimiter to the null character (useful if there's whitespace in filenames):
 
-`find . -name {{'*.backup'}} | xargs rm -v`
-
-- Convert newlines in the input into NUL (`\0`) characters, and split on those only (useful if the input to xargs contains spaces):
-
-`{{arguments_source}} | tr '\n' '\0' | xargs -0 {{command}}`
+`find . -name {{'*.backup'}} -print0 | xargs -0 rm -v`
 
 - Execute the command once for each input line, replacing any occurrences of the placeholder (here marked as `_`) with the input line:
 
