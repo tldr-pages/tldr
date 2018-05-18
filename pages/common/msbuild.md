@@ -1,6 +1,6 @@
 # msbuild
 
-> The Microsoft build tool for .NET projects.
+> The Microsoft build tool for Visual Studio project solutions.
 
 - Build a specific project file:
 
