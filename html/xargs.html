@@ -3,12 +3,9 @@
 - Main usage pattern:
 
 <blockquote><i>arguments_source</i> | xargs <i>command</i></blockquote>
-- Delete all files with a `.backup` extension:
+- Delete all files with a `.backup` extension. `-print0` on find uses a null character to split the files, and `-0` changes the delimiter to the null character (useful if there's whitespace in filenames):
 
-<blockquote>find . -name <i>'*.backup'</i> | xargs rm -v</blockquote>
-- Convert newlines in the input into NUL (`\0`) characters, and split on those only (useful if the input to xargs contains spaces):
-
-<blockquote><i>arguments_source</i> | tr '\n' '\0' | xargs -0 <i>command</i></blockquote>
+<blockquote>find . -name <i>'*.backup'</i> -print0 | xargs -0 rm -v</blockquote>
 - Execute the command once for each input line, replacing any occurrences of the placeholder (here marked as `_`) with the input line:
 
 <blockquote><i>arguments_source</i> | xargs -I _ <i>command</i> _ <i>optional_extra_arguments</i></blockquote>
