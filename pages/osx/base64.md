@@ -8,7 +8,7 @@
 
 - Decode a file:
 
-`base64 -d -i {{base64_file}}`
+`base64 -D -i {{base64_file}}`
 
 - Encode from stdin:
 
