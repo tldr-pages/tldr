@@ -13,7 +13,7 @@
 
 - Search recursively (ignoring non-text files) in current directory for an exact string:
 
-`grep -rI {{search_string}} .`
+`grep -RI {{search_string}} .`
 
 - Use extended regular expressions (supporting `?`, `+`, `{}`, `()` and `|`):
 
