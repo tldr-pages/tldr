@@ -9,7 +9,7 @@
 
 - Start an interactive rebase, which allows the commits to be reordered, omitted, combined or modified:
 
-`git rebase -i {{target_base_branch}}`
+`git rebase -i {{target_base_branch_or_commit_hash}}`
 
 - Continue a rebase that was interrupted by a merge failure, after editing conflicting files:
 
