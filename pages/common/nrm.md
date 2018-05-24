@@ -12,7 +12,7 @@
 
 - Show the response time for all registries:
 
-`nrm test {{registry}}`
+`nrm test`
 
 - Add one custom registry:
 
