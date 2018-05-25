@@ -1,12 +1,13 @@
 # nrm
 
-> Nrm(npm registry manager) can help you easy and fast switch between different npm registries, now include: npm, cnpm, taobao, nj(nodejitsu), rednpm.
+> NPM registry manager.
+> Helps to easily switch between different npm registries.
 
-- List all the registries:
+- List all registries:
 
 `nrm ls`
 
-- Change registry to registry:
+- Change to a particular registry:
 
 `nrm use {{registry}}`
 
@@ -14,14 +15,10 @@
 
 `nrm test`
 
-- Add one custom registry:
+- Add a custom registry:
 
 `nrm add {{registry}} {{url}}`
 
-- Delete one custom registry:
+- Delete one registry:
 
 `nrm del {{registry}}`
-
-- Open the homepage of registry with default browser:
-
-`nrm home {{registry}}`
