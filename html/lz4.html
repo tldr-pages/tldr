@@ -1,0 +1,20 @@
+<b>lz4</b><br><br>
+<b>Compress or decompress .lz4 files.</b><br><br>
+- Compress a file:
+
+<blockquote>lz4 <i>file</i></blockquote>
+- Decompress a file:
+
+<blockquote>lz4 -d <i>file.lz4</i></blockquote>
+- Decompress a file and write to stdout:
+
+<blockquote>lz4 -dc <i>file.lz4</i></blockquote>
+- Package and compress a directory and its contents:
+
+<blockquote>tar cvf - <i>path/to/dir</i> | lz4 - <i>dir.tar.lz4</i></blockquote>
+- Decompress and unpack a directory and its contents:
+
+<blockquote>lz4 -d <i>dir.tar.lz4</i> | tar -xv</blockquote>
+- Compress a file using the best compression:
+
+<blockquote>lz4 -9 <i>file</i></blockquote>

@@ -2,13 +2,13 @@
 <b>A cross-platform file change monitor.</b><br><br>
 - Run a bash command on file creation, update or deletion:
 
-<blockquote>fswatch -0 <i>path/to/file</i> | xargs -0 <i>bash_command</i></blockquote>
+<blockquote>fswatch <i>path/to/file</i> | xargs -n 1 <i>bash_command</i></blockquote>
 - Watch one or more files and/or directories:
 
-<blockquote>fswatch -0 <i>path/to/file</i> <i>path/to/directory</i> <i>path/to/another_directory/**/*.js</i> | xargs -0 <i>bash_command</i></blockquote>
-- Use `{}` in your bash command as a placeholder for the absolute path to the changed file:
+<blockquote>fswatch <i>path/to/file</i> <i>path/to/directory</i> <i>path/to/another_directory/**/*.js</i> | xargs -n 1 <i>bash_command</i></blockquote>
+- Print the absolute paths of the changed files:
 
-<blockquote>fswatch -0 <i>path/to/directory</i> | xargs -0 -I {} <i>bash_command</i></blockquote>
+<blockquote>fswatch <i>path/to/directory</i> | xargs -n 1 -I {} echo {}</blockquote>
 - Filter by event type, eg. Updated, Deleted or Created:
 
-<blockquote>fswatch -0 --event <i>Updated</i> <i>path/to/directory</i> | xargs -0 <i>bash_command</i></blockquote>
+<blockquote>fswatch --event <i>Updated</i> <i>path/to/directory</i> | xargs -n 1 <i>bash_command</i></blockquote>
