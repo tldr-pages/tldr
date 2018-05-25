@@ -19,6 +19,6 @@
 
 `nrm add {{registry}} {{url}}`
 
-- Delete one registry:
+- Delete a registry:
 
 `nrm del {{registry}}`
