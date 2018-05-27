@@ -6,7 +6,7 @@
 
 `dd if=/dev/sda of=/dev/sdb`
 
-- Backi up a partition to a file:
+- Back up a partition to a file:
 
 `dd if=/dev/sda2 of=~/sdadisk.img`
 
