@@ -1,9 +1,8 @@
 # gcloud
 
 > The official CLI tool for Google Cloud Platform.
-> You can use this tool to perform common platform tasks.
 
-- List all properties in your active configuration. Including: current authorized account, current project, and the default region and zone, if set:
+- List all properties in one's active configuration. 
 
 `gcloud config list`
 
@@ -27,6 +26,6 @@
 
 `gcloud components update`
 
-- Show help:
+- Show help for a given command:
 
 `gcloud help {{command}}`
