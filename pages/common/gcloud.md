@@ -2,7 +2,7 @@
 
 > The official CLI tool for Google Cloud Platform.
 
-- List all properties in one's active configuration: 
+- List all properties in one's active configuration:
 
 `gcloud config list`
 
