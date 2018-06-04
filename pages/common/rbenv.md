@@ -26,6 +26,6 @@
 
 `rbenv uninstall {{version}}`
 
-- List Ruby versions that contain an executable program:
+- Display all ruby versions that contain the specified executable:
 
 `rbenv whence {{executable}}`
