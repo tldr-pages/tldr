@@ -18,7 +18,7 @@
 
 `magento setup:di:compile`
 
-- Deploy static view files:
+- Deploy static assets:
 
 `magento setup:static-content:deploy`
 
