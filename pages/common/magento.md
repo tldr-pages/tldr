@@ -2,6 +2,10 @@
 
 > A CLI for managing the Magento PHP framework.
 
+- Update the database after enabling modules:
+
+`magento setup:upgrade`
+
 - Enable one or more space-separated modules:
 
 `magento module:enable {{module(s)}}`
@@ -10,9 +14,21 @@
 
 `magento module:disable {{module(s)}}`
 
-- Update the database after enabling modules:
+- Update code and dependency injection configuration:
 
-`magento setup:upgrade`
+`magento setup:di:compile`
+
+- Deploy static view files:
+
+`magento setup:static-content:deploy`
+
+- Enable maintenance mode:
+
+`magento maintenance:enable`
+
+- Disable maintenance mode:
+
+`magento maintenance:disable`
 
 - List all available commands:
 
