@@ -10,6 +10,10 @@
 
 `dig +short {{hostname.com}} MX`
 
+- Lookup the text record(s) associated with a given domain name (TXT record):
+
+`dig +short -t TXT {{hostname.com}}`
+
 - Get all types of records for a given domain name:
 
 `dig {{hostname.com}} ANY`
