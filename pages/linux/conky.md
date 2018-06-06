@@ -6,7 +6,7 @@
 
 `conky`
 
-- Create a new, default config:
+- Create a new default config:
 
 `conky -C > ~/.conkyrc`
 
