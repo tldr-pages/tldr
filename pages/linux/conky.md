@@ -10,18 +10,18 @@
 
 `conky -C > ~/.conkyrc`
 
-- Load a config file:
+- Launch conky with a given config file:
 
-`conky -c {{/path/to/config}}`
+`conky -c {{path/to/config}}`
 
 - Start in the background (daemonize):
 
 `conky -d`
 
-- Align specified config file on screen:
+- Align conky on the desktop:
 
-`conky -c {{path/to/config}} -a {{{top,bottom,middle}_{left,right,middle}}}`
+`conky -a {{{top,bottom,middle}_{left,right,middle}}}`
 
-- Wait 5 seconds and launch the conky config in a specified path:
+- Pause for 5 seconds at startup before launching:
 
-`conky -p 5 -c {{path/to/config}}`
+`conky -p {{5}}`
