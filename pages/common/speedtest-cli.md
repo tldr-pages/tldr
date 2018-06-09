@@ -6,7 +6,7 @@
 
 `speedtest-cli`
 
-- Run a speed test and generate a sharable result picture:
+- Run a speed test and generate a shareable result picture:
 
 `speedtest-cli --share`
 
