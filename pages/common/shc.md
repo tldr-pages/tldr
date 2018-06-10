@@ -6,9 +6,9 @@
 
 `shc -f {{script}}`
 
-- Compile a shell script and specify an output:
+- Compile a shell script and specify an output binary file:
 
-`shc -f {{script}} -o {{outputbinary}}`
+`shc -f {{script}} -o {{binary}}`
 
 - Compile a shell script and set an expiration date for the executable:
 
