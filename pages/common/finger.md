@@ -12,6 +12,10 @@
 
 - Prevent the ```-l``` option of finger from displaying the contents of the ".plan", ".project" and ".pgpkey" files:
 
+`finger -p`
+
+- Prevent matching against user's names and only use login names:
+
 `finger -m`
 
 - Display another user's information:
