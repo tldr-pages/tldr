@@ -14,6 +14,4 @@
 
 `gdrive download --p {{path}} {{id}}`
 
-
-Folder/file id can be obtained from the Google Drive link, open it in browser and get {{ID}}: 
-drive.google.com/drive/folders/{{ID}}
+Folder/file id can be obtained from the Google Drive folder or id url.
