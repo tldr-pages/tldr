@@ -2,7 +2,7 @@
 
 > User information lookup program.
 
-- Displays information about currently logged in users:
+- Display information about currently logged in users:
 
 `finger`
 
@@ -14,7 +14,7 @@
 
 `finger -s`
 
-- Produces multi-line format displaying same information as `-s` as well as user's home directory, home phone number, login shell, mail status as well as contents of files ".plan", ".project", ".pgpkey", and ".foward" in their home directory:
+- Produce multi-line format displaying same information as `-s` as well as user's home directory, home phone number, login shell, mail status as well as contents of files ".plan", ".project", ".pgpkey", and ".foward" in their home directory:
 
 `finger -l`
 
