@@ -1,0 +1,11 @@
+<b>complete</b><br><br>
+<b>Provides argument autocompletion to shell commands.</b><br><br>
+- Apply a function that performs autocompletion to a command:
+
+<blockquote>complete -F <i>function</i> <i>command</i></blockquote>
+- Apply a command that performs autocompletion to another command:
+
+<blockquote>complete -C <i>autocomplete_command</i> <i>command</i></blockquote>
+- Apply autocompletion without appending a space to the completed word:
+
+<blockquote>complete -o nospace -F <i>function</i> <i>command</i></blockquote>
