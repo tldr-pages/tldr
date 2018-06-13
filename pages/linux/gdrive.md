@@ -15,6 +15,6 @@
 
 `gdrive download --path {{path/to/file_or_folder}} {{id}}`
 
-- Create a new revision of an id using a given file.
+- Create a new revision of an id using a given file:
 
 `gdrive update {{id}} {{path/to/file_or_folder}}`
