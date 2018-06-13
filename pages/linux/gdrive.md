@@ -7,14 +7,14 @@
 
 `gdrive upload -p {{id}} {{path/to/file_or_folder}}`
 
-- Download file or directory by id to current path:
+- Download file or directory by id to current directory:
 
 `gdrive download {{id}}`
 
-- Download to a given local path by its id to a local path:
+- Download to a given local path by its id to a given local path:
 
 `gdrive download --path {{path/to/file_or_folder}} {{id}}`
 
-- Create revision of id file using file specified by path:
+- Create a new revision of an id using a given file.
 
 `gdrive update {{id}} {{path/to/file_or_folder}}`
