@@ -5,7 +5,7 @@
 
 - Upload a local path to the parent folder with the specified id:
 
-`gdrive upload -p {{id}} {{path}}`
+`gdrive upload -p {{id}} {{path/to/file_or_folder}}`
 
 - Download file or directory by id to current path:
 
@@ -13,8 +13,8 @@
 
 - Download a file or directory by its id to a local path:
 
-`gdrive download --p {{path}} {{id}}`
+`gdrive download --path {{path/to/file_or_folder}} {{id}}`
 
 - Create revision of id file using file specified by path:
 
-`gdrive update {{id}} {{path}}`
+`gdrive update {{id}} {{path/to/file_or_folder}}`
