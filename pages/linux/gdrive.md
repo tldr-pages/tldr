@@ -1,6 +1,6 @@
 # gdrive
 
-> Terminal tool for Google Drive operations. 
+> Terminal tool for Google Drive operations.
 > Folder/file id can be obtained from the Google Drive folder or id url.
 
 - Upload a local path to the parent folder with the specified id:
