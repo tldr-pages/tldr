@@ -18,6 +18,6 @@
 
 `expand {{path/to/file.cab}} {{path/to/directory}} -f:{{file}}`
 
-- Ignore the directory structure when uncompressing:
+- Ignore the directory structure when uncompressing, and add them to a single directory:
 
 `expand {{path/to/file.cab}} {{path/to/directory}} -i`
