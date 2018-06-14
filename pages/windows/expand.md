@@ -6,7 +6,7 @@
 
 `expand {{path/to/file.cab}} {{path/to/directory}}`
 
-- Display a list of files in the source Cabinet file:
+- Display the list of files in a source Cabinet file:
 
 `expand {{path/to/file.cab}} {{path/to/directory}} -d`
 
