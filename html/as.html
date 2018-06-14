@@ -1,0 +1,14 @@
+<b>as</b><br><br>
+<b>Portable GNU assembler.</b><br><br><b>Primarily intended to assemble output from `gcc` to be used by `ld`.</b><br><br>
+- Assemble a file, writing the output to a.out:
+
+<blockquote>as <i>file.s</i></blockquote>
+- Assemble the output to a given file:
+
+<blockquote>as <i>file.s</i> -o <i>out.o</i></blockquote>
+- Generate output faster by skipping whitespace and comment preprocessing. (Should only be used for trusted compilers):
+
+<blockquote>as -f <i>file.s</i></blockquote>
+- Include a given path to the list of directories to search for files specified in .include directives:
+
+<blockquote>as -I <i>path/to/directory</i> <i>file.s</i></blockquote>
