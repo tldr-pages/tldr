@@ -4,16 +4,16 @@
 
 - Check a shell script:
 
-`shellcheck myscript.sh`
+`shellcheck {{file.sh}}`
 
-- Override script's shebang (valid values: sh, bash, and ksh):
+- Override script's shebang:
 
-`shellcheck --shell sh myscript.sh`
+`shellcheck --shell {{sh|bash|ksh}} {{file.sh}}`
 
 - Ignore certain errors:
 
-`shellcheck --exclude SC1009 test.sh`
+`shellcheck --exclude SC1009 {{file.sh}}`
 
 - Ignore multiple errors:
 
-`shellcheck --exclude SC1009,SC1073 test.sh`
+`shellcheck --exclude SC1009,SC1073 {{file.sh}}`
