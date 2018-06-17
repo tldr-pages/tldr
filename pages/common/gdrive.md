@@ -13,7 +13,7 @@
 
 - Download to a given local path by its id to a given local path:
 
-`gdrive download --path {{path/to/file_or_folder}} {{id}}`
+`gdrive download --path {{path/to/folder}} {{id}}`
 
 - Create a new revision of an id using a given file:
 
