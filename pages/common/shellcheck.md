@@ -12,8 +12,8 @@
 
 - Ignore certain errors:
 
-`shellcheck --exclude SC1009 {{file.sh}}`
+`shellcheck --exclude {{SC1009}} {{file.sh}}`
 
 - Ignore multiple errors:
 
-`shellcheck --exclude SC1009,SC1073 {{file.sh}}`
+`shellcheck --exclude {{SC1009,SC1073}} {{file.sh}}`
