@@ -10,11 +10,11 @@
 
 `finger {{username}}`
 
-- Display the user's login name, real name, terminal name and write status (as a "\*" after the terminal name if write permission is denied), idle time, login time, office location and office phone number:
+- Display the user's login name, real name, terminal name, and other information:
 
 `finger -s`
 
-- Produce multi-line format displaying same information as `-s` as well as user's home directory, home phone number, login shell, mail status as well as contents of files ".plan", ".project", ".pgpkey", and ".foward" in their home directory:
+- Produce multi-line output format displaying same information as `-s` as well as user's home directory, home phone number, login shell, mail status, etc.:
 
 `finger -l`
 
