@@ -23,7 +23,7 @@
 
 `ssh -D {{9999}} -C {{username}}@{{remote_host}}`
 
-- SSH tunneling: Forward a specific port (localhost:9999 to slashdot.org:80):
+- SSH tunneling: Forward a specific port (localhost:9999 to slashdot.org:80) `-N`-Do not execute a remote command `-T`-Disable pseudo-tty allocation:
 
 `ssh -L {{9999}}:slashdot.org:80 -N -T {{username}}@{{remote_host}}`
 
