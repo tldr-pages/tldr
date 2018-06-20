@@ -25,7 +25,7 @@
 
 - SSH tunneling: Forward a specific port (localhost:9999 to slashdot.org:80):
 
-`ssh -L {{9999}}:slashdot.org:80 {{username}}@{{remote_host}}`
+`ssh -L {{9999}}:slashdot.org:80 -N {{username}}@{{remote_host}}`
 
 - SSH jumping: Connect through a jumphost to a remote server (Multiple jump hops may be specified separated by comma characters):
 
