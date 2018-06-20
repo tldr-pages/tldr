@@ -31,6 +31,6 @@
 
 `ssh -J {{username}}@{{jump_host}} {{username}}@{{remote_host}}`
 
-- Enable the option to forward the authentication information to the remote machine (see `man ssh_config` for available options):
+- Agent forwarding: Forward the authentication information to the remote machine (see `man ssh_config` for available options):
 
-`ssh -o "ForwardAgent=yes" {{username}}@{{remote_host}}`
+`ssh -A {{username}}@{{remote_host}}`
