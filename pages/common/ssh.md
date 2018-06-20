@@ -27,6 +27,10 @@
 
 `ssh -L {{9999}}:slashdot.org:80 {{username}}@{{remote_host}}`
 
+- SSH jumping: Connect through a jumphost to a remote server (Multiple jump hops may be specified separated by comma characters):
+
+`ssh -J {{username}}@{{jump_host}} {{username}}@{{remote_host}}`
+
 - Enable the option to forward the authentication information to the remote machine (see `man ssh_config` for available options):
 
 `ssh -o "ForwardAgent=yes" {{username}}@{{remote_host}}`
