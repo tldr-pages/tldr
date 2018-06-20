@@ -2,7 +2,7 @@
 
 > CLI system tool to display information about your operating system, software and hardware.
 
-- Call neofetch to return default config. Config file will be created on first run at $HOME/.config/neofetch/config.conf:  
+- Call neofetch to return the default config, and create it if it's the first time the program runs:
 
 `neofetch`
 
@@ -10,7 +10,7 @@
 
 `neofetch --{{opt1}} {{value}} --{{opt2}} {{value}}`
 
-- Enable/disable an info line from appearing in the output. 'infoname' is the function name in the config file, e.g. memory:
+- Trigger an info line from appearing in the output, where 'infoname' is the function name in the config file, e.g. memory:
 
 `neofetch --{{enable|disable}} {{infoname}}`
 
