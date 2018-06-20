@@ -10,8 +10,7 @@
 
 `neofetch --{{opt1}} {{value}} --{{opt2}} {{value}}`
 
-- Enable/disable an info line from appearing in the output:
-> NOTE: 'infoname' is the function name from the 'print_info()' function inside the config file.
+- Enable/disable an info line from appearing in the output. 'infoname' is the function name in the config file, e.g. memory:
 
 `neofetch --{{enable|disable}} {{infoname}}`
 
