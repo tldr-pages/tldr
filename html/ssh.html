@@ -15,9 +15,12 @@
 - SSH tunneling: Dynamic port forwarding (SOCKS proxy on localhost:9999):
 
 <blockquote>ssh -D <i>9999</i> -C <i>username</i>@<i>remote_host</i></blockquote>
-- SSH tunneling: Forward a specific port (localhost:9999 to slashdot.org:80):
+- SSH tunneling: Forward a specific port (localhost:9999 to slashdot.org:80) along with disabling pseudo-[t]ty allocation and executio[n] of remote commands:
 
-<blockquote>ssh -L <i>9999</i>:slashdot.org:80 <i>username</i>@<i>remote_host</i></blockquote>
-- Enable the option to forward the authentication information to the remote machine (see `man ssh_config` for available options):
+<blockquote>ssh -L <i>9999</i>:<i>slashdot.org</i>:<i>80</i> -N -T <i>username</i>@<i>remote_host</i></blockquote>
+- SSH jumping: Connect through a jumphost to a remote server (Multiple jump hops may be specified separated by comma characters):
 
-<blockquote>ssh -o "ForwardAgent=yes" <i>username</i>@<i>remote_host</i></blockquote>
+<blockquote>ssh -J <i>username</i>@<i>jump_host</i> <i>username</i>@<i>remote_host</i></blockquote>
+- Agent forwarding: Forward the authentication information to the remote machine (see `man ssh_config` for available options):
+
+<blockquote>ssh -A <i>username</i>@<i>remote_host</i></blockquote>
