@@ -6,6 +6,6 @@
 
 `mkdir {{directory_name}}`
 
-- Recursively create a nested direcotry tree:
+- Recursively create a nested directory tree:
 
 `mkdir {{path/to/sub_directory_name}}`
