@@ -15,7 +15,7 @@
 
 `sudo certbot --apache --domain {{subdomain.example.com}}`
 
-- Renew all Let's Encrypt certificates that in 30 days or less (don't forget to restart any servers that use them afterwards):
+- Renew all Let's Encrypt certificates that expire in 30 days or less (don't forget to restart any servers that use them afterwards):
 
 `sudo certbot renew`
 
