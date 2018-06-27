@@ -18,13 +18,17 @@
 
 `ftp -s:{{path/to/file}} {{host}}`
 
-- Display a list of available interactive commands (once connected):
+- Download multiple files (glob expression):
 
-`help`
+`mget {{*.png}}`
 
-- Display help for an interactive command (once connected):
+- Upload multiple files (glob expression):
 
-`help {{command}}`
+`mput {{*.zip}}`
+
+- Delete multiple files on the remote server:
+
+`mdelete {{*.txt}}`
 
 - Display detailed help:
 
