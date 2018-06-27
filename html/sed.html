@@ -1,5 +1,5 @@
 <b>sed</b><br><br>
-<b>Run replacements based on regular expressions.</b><br><br>
+<b>Edit text in a scriptable manner.</b><br><br>
 - Replace the first occurrence of a string in a file, and print the result:
 
 <blockquote>sed 's/<i>find</i>/<i>replace</i>/' <i>filename</i></blockquote>
@@ -12,6 +12,9 @@
 - Replace only on lines matching the line pattern:
 
 <blockquote>sed '/<i>line_pattern</i>/s/<i>find</i>/<i>replace</i>/' <i>filename</i></blockquote>
+- Print only text between n-th line till the next empty line:
+
+<blockquote>sed -n '<i>line_number</i>,/^$/p' <i>filename</i></blockquote>
 - Apply multiple find-replace expressions to a file:
 
 <blockquote>sed -e 's/<i>find</i>/<i>replace</i>/' -e 's/<i>find</i>/<i>replace</i>/' <i>filename</i></blockquote>
