@@ -25,3 +25,7 @@
 - Long format list of all files, sorted by modification date (oldest first):
 
 `ls -ltr`
+
+- Quote strange filenames (delete using `rm -- NAME`):
+
+`ls --quoting-style=shell-escape`
