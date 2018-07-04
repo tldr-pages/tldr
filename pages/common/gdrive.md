@@ -11,7 +11,7 @@
 
 `gdrive download {{id}}`
 
-- Download to a given local path by its id to a given local path:
+- Download to a given local path by its id:
 
 `gdrive download --path {{path/to/folder}} {{id}}`
 
