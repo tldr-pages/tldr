@@ -2,7 +2,7 @@
 
 > Add or remove modules from the Linux kernel.
 
-- Pretend to load a module into the Linux kernel, but don't actually do it:
+- Pretend to load a module into the kernel, but don't actually do it:
 
 `sudo modprobe --dry-run {{module_name}}`
 
