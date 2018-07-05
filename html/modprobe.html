@@ -1,0 +1,17 @@
+<b>modprobe</b><br><br>
+<b>Add or remove modules from the Linux kernel.</b><br><br>
+- Pretend to load a module into the kernel, but don't actually do it:
+
+<blockquote>sudo modprobe --dry-run <i>module_name</i></blockquote>
+- Load a module into the kernel:
+
+<blockquote>sudo modprobe <i>module_name</i></blockquote>
+- Remove a module from the kernel:
+
+<blockquote>sudo modprobe --remove <i>module_name</i></blockquote>
+- Remove a module and those that depend on it from the kernel:
+
+<blockquote>sudo modprobe --remove-dependencies <i>module_name</i></blockquote>
+- Show a kernel module's dependencies:
+
+<blockquote>sudo modprobe --show-depends <i>module_name</i></blockquote>
