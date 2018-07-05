@@ -18,6 +18,10 @@
 
 `git clean -f`
 
+- Forcefully delete directories that are not tracked by git:
+
+`git clean -fd`
+
 - Delete untracked files, including ignored files in `.gitignore` and `.git/info/exclude`:
 
 `git clean -x`
