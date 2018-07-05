@@ -2,6 +2,10 @@
 
 > Create GIFs.
 
+- Optimise a GIF:
+
+`gifsicle --batch --optimize=3 {{amin.gif}}`
+
 - Make a GIF animation with gifsicle:
 
 `gifsicle --delay={{10}} --loop *.gif > {{anim.gif}}`
