@@ -1,6 +1,6 @@
 # snapper
 
-> Filesystem snapshot management tool
+> Filesystem snapshot management tool.
 
 - List snapshot configs:
 
