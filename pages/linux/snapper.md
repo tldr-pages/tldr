@@ -22,6 +22,6 @@
 
 `snapper -c {{config}} delete {{snapshot_number}}`
 
-- Delete multiple snapshots:
+- Delete a range of snapshots:
 
-`snapper -c {{config}} delete {{snapshot_1}}-{{snapshot_2}}`
+`snapper -c {{config}} delete {{snapshot_X}}-{{snapshot_Y}}`
