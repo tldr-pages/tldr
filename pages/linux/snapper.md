@@ -8,7 +8,7 @@
 
 - Create snapper config:
 
-`snapper -c {{config}} create-config {{path/to/subvolume}}`
+`snapper -c {{config}} create-config {{path/to/directory}}`
 
 - List snapshots for a config:
 
