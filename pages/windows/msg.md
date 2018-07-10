@@ -8,7 +8,7 @@
 
 - Send a message from stdin:
 
-`{{message}} | msg`
+`echo "{{message}}" | msg`
 
 - Send a message to a specific server:
 
