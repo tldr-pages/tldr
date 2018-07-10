@@ -10,7 +10,7 @@
 
 `logoff {{session_name|session_id}}`
 
-- Terminate a session on a specific RDP server:
+- Terminate a session on a specific server connected through RDP:
 
 `logoff /server:{{servername}}`
 
