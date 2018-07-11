@@ -8,7 +8,7 @@
 
 - Send a message from stdin:
 
-`echo "{{message}}" | msg`
+`echo "{{message}}" | msg {{username|session_name|session_id}}`
 
 - Send a message to a specific server:
 
