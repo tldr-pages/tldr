@@ -14,7 +14,7 @@
 
 `msg /server:{{server_name}} {{username|session_name|session_id}}`
 
-- Send a message to all users:
+- Send a message to all users of the current machine:
 
 `msg *`
 
