@@ -12,7 +12,7 @@
 
 - Send a message to a specific server:
 
-`msg /server:{{server_name}}`
+`msg /server:{{server_name}} {{username|session_name|session_id}}`
 
 - Set a delay in seconds for a message:
 
