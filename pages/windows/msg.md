@@ -14,6 +14,10 @@
 
 `msg /server:{{server_name}} {{username|session_name|session_id}}`
 
+- Send a message to all users:
+
+`msg *`
+
 - Set a delay in seconds for a message:
 
 `msg /time:{{seconds}}`
