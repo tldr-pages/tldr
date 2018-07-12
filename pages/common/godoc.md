@@ -6,7 +6,7 @@
 
 `godoc {{fmt}}`
 
-- Display help for "Printf" name of "fmt" package:
+- Display help for the function "Printf" of "fmt" package:
 
 `godoc {{fmt}} {{Printf}}`
 
