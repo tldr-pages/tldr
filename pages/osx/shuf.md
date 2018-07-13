@@ -6,9 +6,9 @@
 
 `shuf {{filename}}`
 
-- Only output the first n entries of the result:
+- Only output the first 5 entries of the result:
 
-`shuf -n {{n}} {{filename}}`
+`shuf -n 5 {{filename}}`
 
 - Write output to another file:
 
