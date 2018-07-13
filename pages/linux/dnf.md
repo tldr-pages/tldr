@@ -2,10 +2,6 @@
 
 > Package management utility for RHEL, Fedora, and CentOS (replaces yum).
 
-- Synchronize list of packages and versions available. This should be run first, before running subsequent dnf commands:
-
-`dnf update`
-
 - Install a new package:
 
 `dnf install {{package}}`
