@@ -14,6 +14,6 @@
 
 `shuf -o {{another_filename}} {{filename}}`
 
-- Generate random numbers in range:
+- Generate random numbers in range 1-10:
 
-`shuf -i {{low}}-{{high}}`
+`shuf -i 1-10`
