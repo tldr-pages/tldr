@@ -1,6 +1,6 @@
 # ncdu
 
-> Disk usage analyzer with an ncurses interface
+> Disk usage analyzer with an ncurses interface.
 
 - Analyze current working directory:
 
