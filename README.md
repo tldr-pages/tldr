@@ -66,6 +66,8 @@ You can access these pages on your computer using one of the following clients:
   - [tldr-bash-client](https://github.com/pepa65/tldr-bash-client)
 - [C++ client](https://github.com/tldr-pages/tldr-cpp-client):
   `brew install tldr`
+- [Chrome Extension](https://github.com/hill/tldr-chrome) available on
+  [Chrome Web Store](https://chrome.google.com/webstore/detail/tldr-chrome/nnmlddkpgoecicoallmimonoboialpap)
 - [Crystal client](https://github.com/porras/tlcr):
   `brew install porras/tap/tlcr`
 - [Dart client](https://github.com/hterkelsen/tldr):
