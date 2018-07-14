@@ -8,7 +8,7 @@
 
 - Analyze a given directory:
 
-`ncdu {{path/to/directory}}/`
+`ncdu {{path/to/directory}}`
 
 - Save results to a file:
 
