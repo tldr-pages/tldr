@@ -1,9 +1,9 @@
 # subfinder
 
-> SubFinder is a subdomain discovery tool that discovers valid subdomains for websites.
+> A subdomain discovery tool that discovers valid subdomains for websites.
 > Designed as a passive framework to be useful for bug bounties and safe for penetration testing.
 
-- Find subdomains for example.com:
+- Find subdomains for a specific domain:
 
 `subfinder -d {{example.com}}`
 
@@ -11,7 +11,7 @@
 
 `subfinder --silent -d {{example.com}}`
 
-- Use bruteforcing to find subdomainsxample description:
+- Use bruteforcing to find subdomains:
 
 `subfinder -d {{example.com}} -b`
 
@@ -19,6 +19,6 @@
 
 `subfinder -nW -d {{example.com}}`
 
-- Comma-separated list of resolvers to use:
+- Use a given comma-separated list of resolvers:
 
 `subfinder -r {{8.8.8.8}},{{1.1.1.1}} -d {{example.com}}`
