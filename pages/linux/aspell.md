@@ -8,7 +8,7 @@
 
 - List mispelled words from standard input:
 
-`cat file | aspell list`
+`cat {{file}} | aspell list`
 
 - Show available dictionary languages:
 
@@ -20,4 +20,4 @@
 
 - List mispelled words from standard input and ignore words from personal word list:
 
-`cat file | aspell --personal={{personal-word-list.pws}} --dont-suggest {{list}}`
+`cat {{file}} | aspell --personal={{personal-word-list.pws}} --dont-suggest {{list}}`
