@@ -63,7 +63,7 @@ You can access these pages on your computer using one of the following clients:
     [Google Play](https://play.google.com/store/apps/details?id=io.github.hidroh.tldroid)
 - Bash clients:
   - [tldr](https://github.com/raylee/tldr)
-  - [tldr-bash-client](https://github.com/pepa65/tldr-bash-client)
+  - [tldr-bash-client](https://gitlab.com/pepa65/tldr-bash-client)
 - [C++ client](https://github.com/tldr-pages/tldr-cpp-client):
   `brew install tldr`
 - [Chrome Extension](https://github.com/hill/tldr-chrome) available on
