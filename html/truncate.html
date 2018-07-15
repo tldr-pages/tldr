@@ -1,0 +1,11 @@
+<b>truncate</b><br><br>
+<b>Shrink or extend the size of a file to the specified size.</b><br><br>
+- Set a size of 10 GB to an exsting file, or create a new file with the specified size:
+
+<blockquote>truncate -s <i>10G</i> <i>filename</i></blockquote>
+- Extend the file size by 50M, fill with holes (which reads as zero bytes):
+
+<blockquote>truncate -s +<i>50M</i> <i>filename</i></blockquote>
+- Shrink the file by 2GiB, by removing data from the end of file:
+
+<blockquote>truncate -s -<i>2G</i> <i>filename}</blockquote>

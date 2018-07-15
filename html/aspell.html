@@ -1,0 +1,17 @@
+<b>aspell</b><br><br>
+<b>Interactive spell checker.</b><br><br>
+- Spell check a single file:
+
+<blockquote>aspell check <i>path/to/file</i></blockquote>
+- List mispelled words from standard input:
+
+<blockquote>cat <i>file</i> | aspell list</blockquote>
+- Show available dictionary languages:
+
+<blockquote>aspell dicts</blockquote>
+- Run aspell with different language (takes two letter ISO 639 language code):
+
+<blockquote>aspell --lang=<i>cs</i></blockquote>
+- List mispelled words from standard input and ignore words from personal word list:
+
+<blockquote>cat <i>file</i> | aspell --personal=<i>personal-word-list.pws</i> <i>list</i></blockquote>
