@@ -16,7 +16,7 @@
 
 - Run aspell with different language (takes two letter ISO 639 language code):
 
-`aspell --lang=cs`
+`aspell --lang={{cs}}`
 
 - List mispelled words from standard input and ignore words from personal word list:
 
