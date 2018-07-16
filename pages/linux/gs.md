@@ -10,13 +10,13 @@
 
 `gs -dNOPAUSE -dQUIET -dBATCH -sDEVICE=pdfwrite -dPDFSETTINGS=/ebook -sOutputFile={{output.pdf}} {{input.pdf}}`
 
-- Convert PDF file to an image:
+- Convert PDF file (pages 1 through 3) to an image with 150 dpi resolution:
 
-`gs -dQUIET -dBATCH -dNOPAUSE -sDEVICE=jpeg -r150 -dTextAlphaBits=4 -dGraphicsAlphaBits=4 -dFirstPage=1 -dLastPage=3 -sOutputFile={{output_%d.jpg}} {{input.pdf}}`
+`gs -dQUIET -dBATCH -dNOPAUSE -sDEVICE=jpeg -r150 -dFirstPage={{1}} -dLastPage={{3}} -sOutputFile={{output_%d.jpg}} {{input.pdf}}`
 
 - Extract pages from a PDF file:
 
-`gs -dQUIET -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -dFirstPage=1 -dLastPage=3 -sOutputFile={{output.pdf}} {{input.pdf}}`
+`gs -dQUIET -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -sOutputFile={{output.pdf}} {{input.pdf}}`
 
 - Merge PDF files:
 
