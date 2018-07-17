@@ -1,7 +1,7 @@
 # disown
 
 > Allow sub-processes to live beyond the shell that they are attached to.
-> See also the jobs command.
+> See also the `jobs` command.
 
 - Disown the current job:
 
