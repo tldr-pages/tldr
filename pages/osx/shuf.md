@@ -12,7 +12,7 @@
 
 - Write output to another file:
 
-`shuf -o {{filename}} {{output_filename}}`
+`shuf {{filename}} -o {{output_filename}}`
 
 - Generate random numbers in range 1-10:
 
