@@ -1,8 +1,8 @@
 # reset
 
-> Reinitalises the current terminal. Clears the entire terminal screen.
+> Reinitailses the current terminal. Clears the entire terminal screen.
 
-- Reinitalise the current terminal:
+- Reinitailse the current terminal:
 
 `reset`
 
