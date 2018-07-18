@@ -30,6 +30,6 @@
 
 `scoop bucket known`
 
-- Add a bucket ({{bucket}} can be a known bucket or a Git repository URL):
+- Add a bucket by its alias or a Git repository URL:
 
 `scoop bucket add {{bucket}}`
