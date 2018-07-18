@@ -13,3 +13,7 @@
 - Merge a branch and create a merge commit:
 
 `git merge --no-ff {{branch_name}}`
+
+- Abort merge:
+
+`git merge --abort`
