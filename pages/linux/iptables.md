@@ -2,7 +2,11 @@
 
 > Program that allows configuration of tables, chains and rules provided by the Linux kernel firewall.
 
-- See chains and rules for specific table:
+- View chains, rules, and packet/byte counters for all tables:
+
+`sudo iptables -vnL`
+
+- View chains, rules, and packet/byte counters for specific table:
 
 `sudo iptables -t {{table_name}} -vnL`
 
@@ -22,6 +26,14 @@
 
 `sudo iptables -D {{chain}} {{rule_line_number}}`
 
-- Save iptables configuration:
+- Save iptables configuration (all tables):
 
 `sudo iptables-save > {{path/to/iptables_file}}`
+
+- Save iptables configuration (single table):
+
+`sudo iptables-save -t {{tablename}} > {{path/to/iptables_file}}`
+
+- Restore iptables configuration:
+
+`sudo iptables-restore < {{path/to/iptables_file}}`
