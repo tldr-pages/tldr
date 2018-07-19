@@ -14,6 +14,6 @@
 
 `git merge --no-ff {{branch_name}}`
 
-- Abort merge:
+- Abort a merge in case of conflicts:
 
 `git merge --abort`
