@@ -5,7 +5,7 @@
 
 - Execute commands from standard input in 5 minutes (press `Ctrl + D` after entering commands):
 
-`at now + 5 min`
+`at now + 5 minutes`
 
 - Execute a command from standard input at 10:00 AM today:
 
