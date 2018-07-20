@@ -6,10 +6,6 @@
 
 `sudo iptables -vnL`
 
-- View chains, rules, and packet/byte counters for specific table:
-
-`sudo iptables -t {{table_name}} -vnL`
-
 - Set chain policy rule:
 
 `sudo iptables -P {{chain}} {{rule}}`
@@ -26,14 +22,10 @@
 
 `sudo iptables -D {{chain}} {{rule_line_number}}`
 
-- Save iptables configuration (all tables):
-
-`sudo iptables-save > {{path/to/iptables_file}}`
-
-- Save iptables configuration (single table):
+- Save iptables configuration to file (single table):
 
 `sudo iptables-save -t {{tablename}} > {{path/to/iptables_file}}`
 
-- Restore iptables configuration:
+- Restore iptables configuration from file:
 
 `sudo iptables-restore < {{path/to/iptables_file}}`
