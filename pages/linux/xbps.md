@@ -4,19 +4,19 @@
 
 - Install packages:
 
-`xbps-install -S package_name1 package_name2`
+`xbps-install -S {{package_name1}} {{package_name2}}`
 
-- Search a package:
+- Search for a package:
 
-`xbps-query -Rs package_name`
+`xbps-query -Rs {{package_name}}`
 
 - Remove a package, leaving all of its dependencies installed:
 
-`xbps-remove package_name`
+`xbps-remove {{package_name}}`
 
 - Remove a package and all of its dependencies that are not required by other packages:
 
-`xbps-remove -R package_name`
+`xbps-remove -R {{package_name}}`
 
 - Synchronize your repository databases and update your system and dependencies:
 
