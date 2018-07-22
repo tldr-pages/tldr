@@ -6,6 +6,14 @@
 
 `nmcli connection`
 
+- Print the available Wi-Fi access points:
+
+`nmcli device wifi`
+
+- Connect to the Wi-Fi network with a specified name and password:
+
+`nmcli device wifi connect {{name}} {{password}}`
+
 - Activate a connection by specifying an uuid:
 
 `nmcli connection up uuid {{uuid}}`
