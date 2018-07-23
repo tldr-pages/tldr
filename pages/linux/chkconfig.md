@@ -14,7 +14,7 @@
 
 `chkconfig sshd on`
 
-- Enable service at boot at runlevel
+- Enable service at boot at runlevel:
 
 `chkconfig --level 3 sshd on`
 
@@ -22,6 +22,6 @@
 
 `chkconfig ntpd off`
 
-- Disable service at boot at runlevel
+- Disable service at boot at runlevel:
 
 `chkconfig --level 3 ntpd off`
