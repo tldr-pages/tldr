@@ -18,6 +18,6 @@
 
 `flutter {{command}}`
 
-- Show information about the installed tooling.
+- Show information about the installed tooling:
 
 `flutter doctor`
