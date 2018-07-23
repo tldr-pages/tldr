@@ -1,0 +1,20 @@
+<b>chkconfig</b><br><br>
+<b>Manage service runlevel.</b><br><br>
+- List services with runlevel:
+
+<blockquote>chkconfig --list</blockquote>
+- Show a service's runlevel:
+
+<blockquote>chkconfig --list <i>ntpd</i></blockquote>
+- Enable service at boot:
+
+<blockquote>chkconfig <i>sshd</i> on</blockquote>
+- Enable service at boot for runlevels 2, 3, 4, and 5:
+
+<blockquote>chkconfig --level <i>2345</i> <i>sshd</i> on</blockquote>
+- Disable service at boot:
+
+<blockquote>chkconfig <i>ntpd</i> off</blockquote>
+- Disable service at boot for runlevel 3:
+
+<blockquote>chkconfig --level <i>3</i> <i>ntpd</i> off</blockquote>
