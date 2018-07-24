@@ -13,7 +13,7 @@
 
 - Open a file or folder in an existing window:
 
-`atom -a {{path/to/file_or_folder}}`
+`atom --add {{path/to/file_or_folder}}`
 
 - Open atom in safe mode (does not load any additional packages):
 
