@@ -19,10 +19,10 @@
 
 `nimble init`
 
-- Build the Nimble package in the current directory:
+- Build a Nimble package:
 
 `nimble build`
 
-- Install the Nimble package in the current directory:
+- Install a Nimble package:
 
 `nimble install`
