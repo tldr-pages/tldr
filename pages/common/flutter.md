@@ -1,20 +1,20 @@
 # flutter
 
-> Google’s free and open source cross-platform mobile app SDK.
+> Google’s free, open source, and cross-platform mobile app SDK.
 
 - Check the Flutter version:
 
 `flutter --version`
 
-- Call general help:
+- Display general help:
 
 `flutter help`
 
-- Call help on a command:
+- Display help about a specific command:
 
 `flutter help {{command}}`
 
-- Execute Flutter command:
+- Execute a Flutter command:
 
 `flutter {{command}}`
 
