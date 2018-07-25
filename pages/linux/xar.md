@@ -2,14 +2,14 @@
 
 > Manage .xar archives.
 
-- Create a xar archive of all files in {{directory}}:
+- Create a xar archive of all files in a given directory:
 
-`xar -cf sample.xar {{directory}}`
+`xar -cf {{archive.xar}} {{path/to/directory}}`
 
-- List the contents of the xar archive sample.xar:
+- List the contents of a given xar archive:
 
-`xar -tf sample.xar`
+`xar -tf {{archive.xar}}`
 
-- Extract the contents of sample.xar to the current working directory:
+- Extract the contents of a given xar archive to the current directory:
 
-`xar -xf sample.xar`
+`xar -xf {{archive.xar}}`
