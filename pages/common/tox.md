@@ -7,18 +7,18 @@
 
 `tox`
 
-- Create tox.ini configuration:
+- Create a tox.ini configuration:
 
 `tox-quickstart`
 
-- List available environments:
+- List the available environments:
 
 `tox --listenvs-all`
 
 - Run tests on a specific environment (e.g. python 3.6):
 
-`tox -e py36`
+`tox -e {{py36}}`
 
-- Force recreation of virtual environment:
+- Force the virtual environment to be recreated:
 
-`tox --recreate -e py27`
+`tox --recreate -e {{py27}}`
