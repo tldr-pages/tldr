@@ -10,10 +10,10 @@
 
 `shuf -n {{5}} {{filename}}`
 
-- Write output to another file:
+- Write the output to another file:
 
 `shuf {{filename}} -o {{output_filename}}`
 
-- Generate random numbers in range 1-10:
+- Generate random numbers in range:
 
 `shuf -i {{1-10}}`
