@@ -14,9 +14,17 @@
 
 `zypper remove {{package}}`
 
-- Upgrade installed packages to newest available versions:
+- Upgrade installed packages to newest available versions on Leap:
 
 `zypper update`
+
+- Upgrade installed packages to newest available versions on Tumbleweed:
+  
+`zypper dist-upgrade`
+
+  Note: DO NOT update Tumbleweed through the YaST GUI or with `zypper update`
+  
+  Doing so can result in orphaned packages and other problems.
 
 - Search package via keyword:
 
