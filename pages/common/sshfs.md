@@ -8,7 +8,7 @@
 
 - Unmount remote directory:
 
-`fusermount -u {{mountpoint}}`
+`umount {{mountpoint}}`
 
 - Mount remote directory from server with specific port:
 
