@@ -2,22 +2,22 @@
 
 > Executes CoffeeScript scripts or compiles them into JavaScript.
 
-- Run script:
+- Run a script:
 
-`coffee {{filename}}.coffee`
+`coffee {{path/to/filename}}.coffee`
 
-- Compile to JavaScript and save file:
+- Compile to JavaScript and save to a file:
 
-`coffee --compile {{filename}}.coffee`
+`coffee --compile {{path/to/filename}}.coffee`
 
 - Compile to JavaScript and save as file:
 
-`coffee --compile {{filename}}.coffee --output {{filename}}`
+`coffee --compile {{path/to/filename}}.coffee --output {{path/to/filename}}.js`
 
 - Run interactive REPL:
 
 `coffee --interactive`
 
-- Watch script for changes and rerun:
+- Watch script for changes and re-run script:
 
-`coffee --watch {{filename}}.coffee`
+`coffee --watch {{path/to/filename}}.coffee`
