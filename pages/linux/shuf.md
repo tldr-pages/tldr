@@ -6,14 +6,14 @@
 
 `shuf {{filename}}`
 
-- Only output the first n entries of the result:
+- Only output the first 5 entries of the result:
 
-`shuf -n {{n}} {{filename}}`
+`shuf -n {{5}} {{filename}}`
 
-- Write output to another file:
+- Write the output to another file:
 
-`shuf -o {{another_filename}} {{filename}}`
+`shuf {{filename}} -o {{output_filename}}`
 
 - Generate random numbers in range:
 
-`shuf -i {{low}}-{{high}}`
+`shuf -i {{1-10}}`
