@@ -3,12 +3,12 @@
 - Randomize the order of lines in a file and output the result:
 
 <blockquote>shuf <i>filename</i></blockquote>
-- Only output the first n entries of the result:
+- Only output the first 5 entries of the result:
 
-<blockquote>shuf -n <i>n</i> <i>filename</i></blockquote>
-- Write output to another file:
+<blockquote>shuf -n <i>5</i> <i>filename</i></blockquote>
+- Write the output to another file:
 
-<blockquote>shuf -o <i>another_filename</i> <i>filename</i></blockquote>
+<blockquote>shuf <i>filename</i> -o <i>output_filename</i></blockquote>
 - Generate random numbers in range:
 
-<blockquote>shuf -i <i>low</i>-<i>high</i></blockquote>
+<blockquote>shuf -i <i>1-10</i></blockquote>
