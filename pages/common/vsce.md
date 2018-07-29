@@ -10,14 +10,14 @@
 
 `vsce unpublish {{extension_id}}`
 
-- Package current working directory as .vsix file:
+- Package the current working directory as .vsix file:
 
 `vsce package`
 
-- List all extensions by a publisher:
+- List all the extensions created by a publisher:
 
 `vsce list {{publisher}}`
 
-- Show extension metadata:
+- Show the metadata associated with an extension:
 
 `vsce show {{extension_id}}`
