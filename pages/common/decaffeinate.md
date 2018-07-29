@@ -1,19 +1,19 @@
 # decaffeinate
 
-> Move your CoffeeScript source to JavaScript using modern syntax.
+> Move your CoffeeScript source to modern JavaScript.
 
 - Convert a CoffeeScript file to JavaScript:
 
-`decaffeinate {{filename}}.coffee`
+`decaffeinate {{path/to/filename}}.coffee`
 
 - Convert a CoffeeScript v2 file to JavaScript:
 
-`decaffeinate --use-cs2 {{filename}}.coffee`
+`decaffeinate --use-cs2 {{path/to/filename}}.coffee`
 
 - Convert require and module.exports to import and export:
 
-`decaffeinate --use-js-modules {{filename}}.coffee`
+`decaffeinate --use-js-modules {{path/to/filename}}.coffee`
 
-- Convert a CoffeeScript, allow named exports:
+- Convert a CoffeeScript, allowing named exports:
 
-`decaffeinate --loose-js-modules {{filename}}.coffee`
+`decaffeinate --loose-js-modules {{path/to/filename}}.coffee`
