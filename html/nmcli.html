@@ -3,6 +3,12 @@
 - List all NetworkManager connections (shows name, uuid, type and device):
 
 <blockquote>nmcli connection</blockquote>
+- Print the available Wi-Fi access points:
+
+<blockquote>nmcli device wifi</blockquote>
+- Connect to the Wi-Fi network with a specified name and password:
+
+<blockquote>nmcli device wifi connect <i>name</i> <i>password</i></blockquote>
 - Activate a connection by specifying an uuid:
 
 <blockquote>nmcli connection up uuid <i>uuid</i></blockquote>
