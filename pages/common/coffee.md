@@ -4,15 +4,15 @@
 
 - Run a script:
 
-`coffee {{path/to/filename}}.coffee`
+`coffee {{path/to/filename}}`
 
-- Compile to JavaScript and save to a file:
+- Compile to JavaScript and save to a file with the same name:
 
-`coffee --compile {{path/to/filename}}.coffee`
+`coffee --compile {{path/to/filename}}`
 
-- Compile to JavaScript and save as file:
+- Compile to JavaScript and save to a given output file:
 
-`coffee --compile {{path/to/filename}}.coffee --output {{path/to/filename}}.js`
+`coffee --compile {{path/to/filename}} --output {{path/to/filename}}`
 
 - Run interactive REPL:
 
@@ -20,4 +20,4 @@
 
 - Watch script for changes and re-run script:
 
-`coffee --watch {{path/to/filename}}.coffee`
+`coffee --watch {{path/to/filename}}`
