@@ -1,6 +1,7 @@
 # apt-get
 
 > Debian and Ubuntu package management utility.
+> Search for packages using `apt-cache`.
 
 - Update the list of available packages and versions (it's recommended to run this before other `apt-get` commands):
 
@@ -25,7 +26,3 @@
 - Upgrade installed packages (like `upgrade`), but remove obsolete packages and install additional packages to meet new dependencies:
 
 `apt-get dist-upgrade`
-
-- Search for a package (use apt-cache instead):
-
-`tldr apt-cache`
