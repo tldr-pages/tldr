@@ -4,16 +4,16 @@
 
 - Convert a CoffeeScript file to JavaScript:
 
-`decaffeinate {{path/to/filename}}.coffee`
+`decaffeinate {{path/to/filename}}`
 
 - Convert a CoffeeScript v2 file to JavaScript:
 
-`decaffeinate --use-cs2 {{path/to/filename}}.coffee`
+`decaffeinate --use-cs2 {{path/to/filename}}`
 
 - Convert require and module.exports to import and export:
 
-`decaffeinate --use-js-modules {{path/to/filename}}.coffee`
+`decaffeinate --use-js-modules {{path/to/filename}}`
 
 - Convert a CoffeeScript, allowing named exports:
 
-`decaffeinate --loose-js-modules {{path/to/filename}}.coffee`
+`decaffeinate --loose-js-modules {{path/to/filename}}`
