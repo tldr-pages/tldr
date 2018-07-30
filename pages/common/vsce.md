@@ -2,6 +2,10 @@
 
 > Extension manager for Visual Studio Code.
 
+- List all the extensions created by a publisher:
+
+`vsce list {{publisher}}`
+
 - Publish an extension as major, minor or patch version:
 
 `vsce publish {{version}}`
@@ -13,10 +17,6 @@
 - Package the current working directory as .vsix file:
 
 `vsce package`
-
-- List all the extensions created by a publisher:
-
-`vsce list {{publisher}}`
 
 - Show the metadata associated with an extension:
 
