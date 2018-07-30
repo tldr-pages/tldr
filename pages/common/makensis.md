@@ -1,7 +1,7 @@
 # makensis
 
 > Cross-platform compiler for NSIS installers.
-> It compiles a NSIS script into an Windows installer executable.
+> It compiles a NSIS script into a Windows installer executable.
 
 - Compile a NSIS script:
 
