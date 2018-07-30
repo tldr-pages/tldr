@@ -12,7 +12,7 @@
 
 - Compile to JavaScript and save to a given output file:
 
-`coffee --compile {{path/to/file.coffee}} --output {{path/to/file.coffee}}`
+`coffee --compile {{path/to/file.coffee}} --output {{path/to/file.js}}`
 
 - Run interactive REPL:
 
