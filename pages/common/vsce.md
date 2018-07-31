@@ -8,7 +8,7 @@
 
 - Publish an extension as major, minor or patch version:
 
-`vsce publish {{version}}`
+`vsce publish {{major|minor|patch}}`
 
 - Unpublish an extension:
 
