@@ -17,3 +17,7 @@
 - Horizontally append images:
 
 `convert {{image1.png}} {{image2.png}} {{image3.png}} +append {{image123.png}}`
+
+- Create gif from series of images:
+
+ `convert {{image1.png}} {{image2.png}} {{image3.png}} -delay 100 {{animation.gif}}`
