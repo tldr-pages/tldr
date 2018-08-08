@@ -20,4 +20,4 @@
 
 - Create a gif from a series of images with 100ms delay between them:
 
-`convert {{image1.png}} {{image2.png}} {{image3.png}} -delay 100 {{animation.gif}}`
+`convert {{image1.png}} {{image2.png}} {{image3.png}} -delay {{100}} {{animation.gif}}`
