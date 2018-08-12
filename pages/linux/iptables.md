@@ -22,10 +22,10 @@
 
 `sudo iptables -D {{chain}} {{rule_line_number}}`
 
-- Save iptables configuration to file (single table):
+- Save iptables configuration of a given table to a file:
 
 `sudo iptables-save -t {{tablename}} > {{path/to/iptables_file}}`
 
-- Restore iptables configuration from file:
+- Restore iptables configuration from a file:
 
 `sudo iptables-restore < {{path/to/iptables_file}}`
