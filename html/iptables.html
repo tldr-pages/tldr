@@ -1,8 +1,8 @@
 <b>iptables</b><br><br>
 <b>Program that allows configuration of tables, chains and rules provided by the Linux kernel firewall.</b><br><br>
-- See chains and rules for specific table:
+- View chains, rules, and packet/byte counters for all tables:
 
-<blockquote>sudo iptables -t <i>table_name</i> -vnL</blockquote>
+<blockquote>sudo iptables -vnL</blockquote>
 - Set chain policy rule:
 
 <blockquote>sudo iptables -P <i>chain</i> <i>rule</i></blockquote>
@@ -15,6 +15,9 @@
 - Delete chain rule:
 
 <blockquote>sudo iptables -D <i>chain</i> <i>rule_line_number</i></blockquote>
-- Save iptables configuration:
+- Save iptables configuration of a given table to a file:
 
-<blockquote>sudo iptables-save > <i>path/to/iptables_file</i></blockquote>
+<blockquote>sudo iptables-save -t <i>tablename</i> > <i>path/to/iptables_file</i></blockquote>
+- Restore iptables configuration from a file:
+
+<blockquote>sudo iptables-restore < <i>path/to/iptables_file</i></blockquote>
