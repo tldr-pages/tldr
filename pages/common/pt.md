@@ -1,6 +1,6 @@
 # pt
 
-> Platinum Searcher. 
+> Platinum Searcher.
 > A code search tool similar to `ag`.
 
 - Find files containing "foo" and print the files with highlighted matches:
