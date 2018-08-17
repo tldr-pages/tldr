@@ -17,7 +17,7 @@
 
 - Find "foo" in files with a given extension using a regular expression:
 
-`pt -G='{{\.bar}}' {{foo}}`
+`pt -G='{{\.bar$}}' {{foo}}`
 
 - Find files whose contents match the regular expression, up to 2 folders deep:
 
