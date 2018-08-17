@@ -1,6 +1,6 @@
 # gnome-terminal
 
-> The GNOME Terminal emulator
+> The GNOME Terminal emulator.
 
 - Open a new gnome terminal window:
 
