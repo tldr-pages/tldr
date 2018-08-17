@@ -1,6 +1,6 @@
 # add-apt-repository
 
-> Manages apt repository definitions
+> Manages apt repository definitions.
 
 - Add a new apt repository:
 
