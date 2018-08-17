@@ -1,0 +1,17 @@
+<b>pt</b><br><br>
+<b>Platinum Searcher.</b><br><br><b>A code search tool similar to `ag`.</b><br><br>
+- Find files containing "foo" and print the files with highlighted matches:
+
+<blockquote>pt <i>foo</i></blockquote>
+- Find files containing "foo" and display count of matches in each file:
+
+<blockquote>pt -c <i>foo</i></blockquote>
+- Find files containing "foo" as a whole word and ignore its case:
+
+<blockquote>pt -wi <i>foo</i></blockquote>
+- Find "foo" in files with a given extension using a regular expression:
+
+<blockquote>pt -G='<i>\.bar$</i>' <i>foo</i></blockquote>
+- Find files whose contents match the regular expression, up to 2 folders deep:
+
+<blockquote>pt --depth=<i>2</i> -e '<i>^ba[rz]*$</i>'</blockquote>
