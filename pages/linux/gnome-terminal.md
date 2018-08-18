@@ -2,7 +2,7 @@
 
 > The GNOME Terminal emulator.
 
-- Open a new gnome terminal window:
+- Open a new GNOME terminal window:
 
 `gnome-terminal`
 
