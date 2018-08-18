@@ -4,7 +4,7 @@
 
 - Add a new apt repository:
 
-`add-add-repository {{repository_spec}}`
+`add-apt-repository {{repository_spec}}`
 
 - Remove an apt repository:
 
@@ -14,6 +14,6 @@
 
 `add-apt-repository --update {{repository_spec}}`
 
-- Also enable source packages:
+- Enable source packages:
 
 `add-apt-repository --enable-source {{repository_spec}}`
