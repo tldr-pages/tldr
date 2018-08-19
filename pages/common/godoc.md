@@ -18,6 +18,6 @@
 
 `godoc -write_index -index_files={{path/to/file}}`
 
-- Use the index file to enable search through the documentation:
+- Use the given index file to search the docs:
 
 `godoc -http=:{{6060}} -index -index_files={{path/to/file}}`
