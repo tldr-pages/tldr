@@ -13,3 +13,11 @@
 - Serve documentation as a web server on port "6060":
 
 `godoc -http=:{{6060}}`
+
+- Create an index file:
+
+`godoc -write_index -index_files={{path/to/file}}`
+
+- Use the given index file to search the docs:
+
+`godoc -http=:{{6060}} -index -index_files={{path/to/file}}`

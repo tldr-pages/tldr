@@ -9,3 +9,9 @@
 - Serve documentation as a web server on port "6060":
 
 <blockquote>godoc -http=:<i>6060</i></blockquote>
+- Create an index file:
+
+<blockquote>godoc -write_index -index_files=<i>path/to/file</i></blockquote>
+- Use the given index file to search the docs:
+
+<blockquote>godoc -http=:<i>6060</i> -index -index_files=<i>path/to/file</i></blockquote>
