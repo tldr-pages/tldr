@@ -13,7 +13,7 @@ def post_comment(pr_id, comment_body):
   # Making the request
   f = urllib2.urlopen(req)
   if f.getcode() != 200:
-    print f.read()
+    print(f.read())
 
 
 # Get the environment variables
