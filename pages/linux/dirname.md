@@ -8,7 +8,7 @@
 
 - Calculate the parent directory of multiple paths:
 
-`dirname {{path/to/file_a}} {{path/to/file_b}}
+`dirname {{path/to/file_a}} {{path/to/file_b}}`
 
 - Delimit output with a NUL character instead of a newline (useful when combining with `xargs`):
 
