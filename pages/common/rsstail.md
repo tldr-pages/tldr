@@ -2,11 +2,11 @@
 
 > `tail` for RSS feeds.
 
-- Show the feed of a given url and wait for new entries:
+- Show the feed of a given url and wait for new entries appearing at the bottom:
 
 `rsstail -u {{url}}`
 
-- Show the feed in reverse order (newer at the bottom):
+- Show the feed in reverse chronological order (newer at the bottom):
 
 `rsstail -r -u {{url}}`
 
