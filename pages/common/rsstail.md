@@ -6,7 +6,7 @@
 
 `rsstail -u {{url}}`
 
-- Show the feed in reverse order (newer at top):
+- Show the feed in reverse order (newer at the bottom):
 
 `rsstail -r -u {{url}}`
 
