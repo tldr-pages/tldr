@@ -33,3 +33,7 @@
 - Replace separator / by any other character not used in the find or replace patterns, e.g., #:
 
 `sed 's#{{find}}#{{replace}}#' {{filename}}`
+
+- Print only the `N`th line of a file:
+
+`sed '{{N}}q;d' {{filename}}`
