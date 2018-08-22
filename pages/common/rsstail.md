@@ -1,20 +1,20 @@
 # rsstail
 
-> Basically tail for RSS feeds.
+> 'tail' for RSS feeds.
 
 - Show feed of given url and wait for new entries:
 
 `rsstail -u {{url}}`
 
-- Show feed with latest item at the bottom:
+- Reverse feed:
 
 `rsstail -r -u {{url}}`
 
-- Show feed including publication date and link:
+- Include publication date and link:
 
 `rsstail -pl -u {{url}}`
 
-- Show feed and set update interval:
+- Set update interval:
 
 `rsstail -u {{url}} -i {{interval_in_seconds}}`
 
