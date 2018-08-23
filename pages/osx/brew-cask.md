@@ -2,10 +2,6 @@
 
 > Package manager for macOS applications distributed as binaries.
 
-- Search for casks:
-
-`brew cask search {{text}}`
-
 - Install a cask:
 
 `brew cask install {{cask_name}}`
@@ -25,6 +21,10 @@
 - Uninstall a cask:
 
 `brew cask uninstall {{cask_name}}`
+
+- Uninstall a cask and remove related settings and files:
+
+`brew cask zap {{cask_name}}`
 
 - Display information about a given cask:
 
