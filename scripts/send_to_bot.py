@@ -1,7 +1,10 @@
 import json
 import os
 import sys
-import urllib2
+try:
+  import urllib.request as urllib2
+except ImportError:
+  import urllib2
 
 URL = 'https://tldr-bot.starbeamrainbowlabs.com/'
 
