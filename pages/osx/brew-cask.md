@@ -2,7 +2,7 @@
 
 > Package manager for macOS applications distributed as binaries.
 
-- Search for casks:
+- Search for formulas and casks:
 
 `brew search {{text}}`
 
