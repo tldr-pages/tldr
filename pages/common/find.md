@@ -33,3 +33,7 @@
 - Find files matching a given pattern, while excluding specific paths:
 
 `find {{root_path}} -name '{{*.py}}' -not -path '{{*/site-packages/*}}'`
+
+- Find directories matching name:
+
+`find {{root_path}} -type d -name 'httpdocs'`
