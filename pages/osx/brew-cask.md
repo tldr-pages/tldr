@@ -2,6 +2,10 @@
 
 > Package manager for macOS applications distributed as binaries.
 
+- Search for casks:
+
+`brew search {{text}}`
+
 - Install a cask:
 
 `brew cask install {{cask_name}}`
