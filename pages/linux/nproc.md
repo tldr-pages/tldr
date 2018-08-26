@@ -1,6 +1,6 @@
 # nproc
 
-> Print the number of processing units (normally CPUs) available
+> Print the number of processing units (normally CPUs) available.
 
 - Display the number of available processing units:
 
