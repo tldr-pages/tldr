@@ -203,7 +203,7 @@ and are responsible for performing role changes in the community.
 ### Past owners
 
 The following people used to be owners in the tldr-pages organization,
-and have reduced their participation or otherise moved on to other projects.
+and have reduced their participation or otherwise moved on to other projects.
 Their contributions and dedication have ensured the success of the tldr project,
 and for that they'll always be appreciated.
 
