@@ -6,10 +6,10 @@
 
 `git commit -m {{message}}`
 
-- Replace the last commit with currently staged changes:
-
-`git commit --amend`
-
 - Auto stage all modified files and commit with a message:
 
 `git commit -a -m {{message}}`
+
+- Replace the last commit with currently staged changes:
+
+`git commit --amend`
