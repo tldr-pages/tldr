@@ -26,10 +26,6 @@
 
 `find {{root_path}} -name '{{*.ext}}' -mtime {{+180}} -delete`
 
-- Find files matching more than one search criteria:
-
-`find {{root_path}} -name '{{*.py}}' -or -name '{{*.r}}'`
-
 - Find files matching a given pattern, while excluding specific paths:
 
 `find {{root_path}} -name '{{*.py}}' -not -path '{{*/site-packages/*}}'`
