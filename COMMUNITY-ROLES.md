@@ -201,8 +201,6 @@ and are responsible for performing role changes in the community.
 
 - Romain Prieto ([@rprieto](https://github.com/rprieto)):
   created the the project on [8 December 2013](https://github.com/tldr-pages/tldr/commit/11264d9)
-- Waldir Pimenta ([@waldyrious](https://github.com/waldyrious)):
-  3 July 2016 — present
 - Agniva De Sarker ([@agnivade](https://github.com/agnivade)):
   [27 September 2016](https://gitter.im/tldr-pages/tldr?at=57eaedefe4e41c6a4afc2f47) — present
 - Starbeamrainbowlabs ([@sbrl](https://github.com/sbrl)):
@@ -229,3 +227,4 @@ and for that they'll always be appreciated.
   until [18 January 2018](https://github.com/tldr-pages/tldr/issues/1878#issuecomment-358610454)
 - Leandro Ostera ([@ostera](https://github.com/ostera)):
   until [18 January 2018](https://github.com/tldr-pages/tldr/issues/1878#issuecomment-358610454)
+- Waldir Pimenta ([@waldyrious](https://github.com/waldyrious)): until [26 August 2018](https://github.com/tldr-pages/tldr/issues/2257)
