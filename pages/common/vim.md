@@ -1,6 +1,6 @@
 # vim
 
-> Vi IMproved, a programmer's text editor, providing several modes for different kinds of text manipulation.
+> Vi IMproved, a programmer's text editor, provides several modes for different kinds of text manipulation.
 > Pressing `i` enters edit mode. `<Esc>` goes back to normal mode, which doesn't allow regular text insertion.
 
 - Open a file:
