@@ -10,6 +10,10 @@
 
 `git branch -a`
 
+- List unmerged branches (local):
+
+`git branch --no-merged`
+
 - Create new branch based on the current commit:
 
 `git branch {{branch_name}}`
