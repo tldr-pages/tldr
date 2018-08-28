@@ -1,4 +1,4 @@
-# true
+# false
 
 > Does nothing, unsucessfully.
 > Returns an exit code of 1.
