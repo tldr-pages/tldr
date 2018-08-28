@@ -1,8 +1,11 @@
 <b>find</b><br><br>
-<b>Find files under the given directory tree, recursively.</b><br><br>
+<b>Find files or directories under the given directory tree, recursively.</b><br><br>
 - Find files by extension:
 
 <blockquote>find <i>root_path</i> -name '<i>*.ext</i>'</blockquote>
+- Find directories matching a given name:
+
+<blockquote>find <i>root_path</i> -type d -name <i>*lib*</i></blockquote>
 - Find files matching path pattern:
 
 <blockquote>find <i>root_path</i> -path '<i>**/lib/**/*.ext</i>'</blockquote>
@@ -18,9 +21,6 @@
 - Delete files by name, older than 180 days:
 
 <blockquote>find <i>root_path</i> -name '<i>*.ext</i>' -mtime <i>+180</i> -delete</blockquote>
-- Find files matching more than one search criteria:
-
-<blockquote>find <i>root_path</i> -name '<i>*.py</i>' -or -name '<i>*.r</i>'</blockquote>
 - Find files matching a given pattern, while excluding specific paths:
 
 <blockquote>find <i>root_path</i> -name '<i>*.py</i>' -not -path '<i>*/site-packages/*</i>'</blockquote>

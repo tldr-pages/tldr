@@ -1,11 +1,11 @@
-# vim
+# nvim
 
-> Vi IMproved, a programmer's text editor, provides several modes for different kinds of text manipulation.
+> Neovim, a programmer's text editor based on Vim, provides several modes for different kinds of text manipulation.
 > Pressing `i` enters edit mode. `<Esc>` goes back to normal mode, which doesn't allow regular text insertion.
 
 - Open a file:
 
-`vim {{file}}`
+`nvim {{file}}`
 
 - Enter text editing mode (insert mode):
 

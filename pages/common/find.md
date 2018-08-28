@@ -1,10 +1,14 @@
 # find
 
-> Find files under the given directory tree, recursively.
+> Find files or directories under the given directory tree, recursively.
 
 - Find files by extension:
 
 `find {{root_path}} -name '{{*.ext}}'`
+
+- Find directories matching a given name:
+
+`find {{root_path}} -type d -name {{*lib*}}`
 
 - Find files matching path pattern:
 
@@ -25,10 +29,6 @@
 - Delete files by name, older than 180 days:
 
 `find {{root_path}} -name '{{*.ext}}' -mtime {{+180}} -delete`
-
-- Find files matching more than one search criteria:
-
-`find {{root_path}} -name '{{*.py}}' -or -name '{{*.r}}'`
 
 - Find files matching a given pattern, while excluding specific paths:
 
