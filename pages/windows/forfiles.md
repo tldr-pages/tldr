@@ -22,6 +22,6 @@
 
 `forfiles /s`
 
-- Search for files with a last-modified date greater than 5 days old:
+- Search for files older than 5 days:
 
 `forfiles /d {{+5}}`
