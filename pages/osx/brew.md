@@ -2,7 +2,7 @@
 
 > Package manager for macOS.
 
-- Search for available formulas:
+- Search for available formulas and casks:
 
 `brew search {{text}}`
 
