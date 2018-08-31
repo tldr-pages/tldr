@@ -18,3 +18,7 @@
 - Show the entries in the autojump database:
 
 `j -s`
+
+- Open a directory that contains the given pattern in the operating system file manager:
+
+`jo {{pattern}}`
