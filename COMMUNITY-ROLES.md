@@ -180,7 +180,7 @@ as is also described in the guidelines.
 In any case, we wish you the best of luck in your new endeavors!
 
 Once they acknowledge the message (or after a week without any reaction),
-go to github.com/orgs/tldr-pages/people, click the gear icon in their row,
+go to https://github.com/orgs/tldr-pages/people, click the gear icon in their row,
 and select the "Convert to outside collaborator" menu entry.
 
 Afterwards, edit this file to move their name to the "Past owners" section below.
