@@ -185,7 +185,7 @@ and select the "Convert to outside collaborator" menu entry.
 
 Afterwards, edit this file to move their name to the "Past owners" section below.
 
-Finally, once the memnership changes are complete and the lists are updated,
+Finally, once the membership changes are complete and the lists are updated,
 close the issue opened to track this process.
 
 
