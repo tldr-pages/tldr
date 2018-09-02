@@ -2,7 +2,7 @@
 
 > Print user information using the `finger` protocol.
 
-- Display details for the current user:
+- Display details about the current user:
 
 `pinky`
 
