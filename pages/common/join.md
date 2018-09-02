@@ -6,7 +6,7 @@
 
 `join {{file1}} {{file2}}`
 
-- Join filed3 of file1 with field1 of file2:
+- Join field3 of file1 with field1 of file2:
 
 `join -1 3 -2 1 {{file1}} {{file2}}`
 
