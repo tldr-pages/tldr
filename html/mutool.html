@@ -1,0 +1,17 @@
+<b>mutool</b><br><br>
+<b>Convert PDF files, query information and extract data.</b><br><br>
+- Convert pages 1-10 into 10 PNG images:
+
+<blockquote>mutool convert -o <i>image%d.png</i> <i>file.pdf</i> <i>1-10</i></blockquote>
+- Convert pages 2, 3 and 5 of a PDF into text in the standard output:
+
+<blockquote>mutool draw -F <i>txt</i> <i>file.pdf</i> <i>2,3,5</i></blockquote>
+- Concatenate two PDFs:
+
+<blockquote>mutool merge -o <i>output.pdf</i> <i>input1.pdf</i> <i>input2.pdf</i></blockquote>
+- Query information about all content embedded in a PDF:
+
+<blockquote>mutool info <i>input.pdf</i></blockquote>
+- Extract all images, fonts and resources embedded in a PDF out into the current directory:
+
+<blockquote>mutool extract <i>input.pdf</i></blockquote>
