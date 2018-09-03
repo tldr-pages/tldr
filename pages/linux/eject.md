@@ -10,7 +10,7 @@
 
 `eject`
 
-- Eject a specific device:
+- Eject a specific device (the default order is cd-rom, scsi, floppy and tape):
 
 `eject {{name_of_device}}`
 
