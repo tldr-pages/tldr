@@ -2,7 +2,7 @@
 
 > Perform simple operations and calculations on IP addresses and networks.
 
-- Show information about an address or network:
+- Show information about an address or network with a given subnet mask:
 
 `ipcalc {{1.2.3.4}} {{255.255.255.0}}`
 
