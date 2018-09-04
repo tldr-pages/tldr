@@ -1,23 +1,23 @@
 # rpcinfo
 
-> rpcinfo makes an RPC call to an RPC server and reports what it finds.
+> Makes an RPC call to an RPC server and reports what it finds.
 
--Show full table of all RPC services registered on localhost:
+- Show full table of all RPC services registered on localhost:
 
 `rpcinfo;`
 
--Show concise table of all RPC services registered on localhost:
+- Show concise table of all RPC services registered on localhost:
 
 `rpcinfo -s localhost;`
 
--Display table of statistics of rpcbind operations on localhost:
+- Display table of statistics of rpcbind operations on localhost:
 
 `rpcinfo -m;`
 
--Display list of entries of given service name (mountd) and version number (2) on localhost:
+- Display list of entries of given service name (mountd) and version number (2) on localhost:
 
 `rpcinfo -l localhost mountd 2;`
 
--Delete the registration for version 1 of the mountd service for all transports:
+- Delete the registration for version 1 of the mountd service for all transports:
 
 `rpcinfo -d mountd 1;`
