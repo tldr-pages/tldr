@@ -12,7 +12,7 @@
 
 - Eject a specific device (the default order is cd-rom, scsi, floppy and tape):
 
-`eject {{name_of_device}}`
+`eject {{/dev/cdrom}}`
 
 - Toggle whether a device's tray is open or closed:
 
