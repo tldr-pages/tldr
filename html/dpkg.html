@@ -2,7 +2,7 @@
 <b>Debian package manager.</b><br><br>
 - Install a package:
 
-<blockquote>dpkg -i <i>/path/to/file</i></blockquote>
+<blockquote>dpkg -i <i>path/to/file.deb</i></blockquote>
 - Remove a package:
 
 <blockquote>dpkg -r <i>package_name</i></blockquote>
@@ -12,6 +12,9 @@
 - List package contents:
 
 <blockquote>dpkg -L <i>package_name</i></blockquote>
+- List contents of a local package file:
+
+<blockquote>dpkg -c <i>path/to/file.deb</i></blockquote>
 - Find out which package owns a file:
 
 <blockquote>dpkg -S <i>file_name</i></blockquote>
