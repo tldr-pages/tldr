@@ -13,3 +13,7 @@
 - Force the output images to be progressive:
 
 `jpegoptim --all-progressive {{image1.jpeg}} {{image2.jpeg}} {{imageN.jpeg}}`
+
+- Recursive folder optimization:
+
+`find {{.}} -name "{{*.jpg}}" -exec jpegoptim --strip-all --all-progressive {} \;`
