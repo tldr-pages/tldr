@@ -16,16 +16,16 @@
 
 - Toggle whether a device's tray is open or closed:
 
-`eject -T {{name_of_device}}`
+`eject -T {{/dev/cdrom}}`
 
 - Eject a cd drive:
 
-`eject -r {{name_of_device}}`
+`eject -r {{/dev/cdrom}}`
 
 - Eject a floppy drive:
 
-`eject -f {{name_of_device}}`
+`eject -f {{/dev/cdrom}}`
 
 - Eject a tape drive:
 
-`eject -q {{name_of_device}}`
+`eject -q {{/dev/cdrom}}`
