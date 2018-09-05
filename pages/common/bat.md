@@ -1,6 +1,7 @@
 # bat
 
-> Print and concatenate files. A cat(1) clone with syntax highlighting and Git integration.
+> Print and concatenate files.
+> A `cat` clone with syntax highlighting and Git integration.
 
 - Print the contents of a file to the standard output:
 
@@ -21,3 +22,7 @@
 - Syntax highlight a json file:
 
 `bat --language json {{file.json}}`
+
+- Display all supported languages:
+
+`bat --list-language`
