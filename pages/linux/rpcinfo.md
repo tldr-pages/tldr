@@ -2,7 +2,7 @@
 
 > Makes an RPC call to an RPC server and reports what it finds.
 
-- Show full table of all RPC services registered on {{localhost}}:
+- Show full table of all RPC services registered on localhost:
 
 `rpcinfo`
 
