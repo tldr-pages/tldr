@@ -14,6 +14,10 @@
 
 `jpegoptim --all-progressive {{image1.jpeg}} {{image2.jpeg}} {{imageN.jpeg}}`
 
+- Force the output images to be fixed max size:
+
+`jpegoptim --size={{250k}} {{image1.jpeg}} {{image2.jpeg}} {{imageN.jpeg}}`
+
 - Recursive folder optimization:
 
-`find {{.}} -name "{{*.jpg}}" -exec jpegoptim --strip-all --all-progressive {} \;`
+`find {{.}} -name "{{*.jpg}}" -exec jpegoptim --strip-all --all-progressive --size={{250k}} {} \;`
