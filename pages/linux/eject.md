@@ -24,8 +24,8 @@
 
 - Eject a floppy drive:
 
-`eject -f {{/dev/cdrom}}`
+`eject -f {{/mnt/floppy}}`
 
 - Eject a tape drive:
 
-`eject -q {{/dev/cdrom}}`
+`eject -q {{/mnt/tape}}`
