@@ -75,8 +75,7 @@ You can access these pages on your computer using one of the following clients:
 - [Dash docset](https://github.com/Moddus/tldr-python-dash-docset):
   Open `Preferences > Downloads > User Contributed` and find `tldr pages` in the list
 - Docker images:
-    - [tldr-docker](https://github.com/nutellinoit/tldr-docker) run command via docker container
-      `alias tldr='docker run --rm -it -v ~/.tldr/:/root/.tldr/ nutellinoit/tldr'`
+    - [tldr-docker](https://github.com/nutellinoit/tldr-docker)- Run the `tldr` command via a docker container: `alias tldr='docker run --rm -it -v ~/.tldr/:/root/.tldr/ nutellinoit/tldr'`
 - [Elixir client](https://github.com/edgurgel/tldr_elixir_client)
   (binaries not yet available)
 - [Emacs client](https://github.com/kuanyui/tldr.el), available on
