@@ -1,6 +1,6 @@
 # set
 
-> Display, set or unset value of shell attributes and positional parameters.
+> Display, set or unset values of shell attributes and positional parameters.
 
 - Display the names and values of shell variables:
 
