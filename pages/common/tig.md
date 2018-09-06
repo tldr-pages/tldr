@@ -2,7 +2,7 @@
 
 > A text-mode interface for Git.
 
-- Show the sequence of commits starting from the current one, in reverse chronological order:
+- Show the sequence of commits starting from the current one in reverse chronological order:
 
 `tig`
 
@@ -10,7 +10,7 @@
 
 `tig {{branch}}`
 
-- Show the history of specific files/directories:
+- Show the history of specific files or directories:
 
 `tig {{path1}} {{path2}} ...`
 
