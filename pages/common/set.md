@@ -16,4 +16,4 @@
 
 - Set various options, e.g. enable `vi` style line editing:
 
-`set -o vi`
+`set -o {{vi}}`
