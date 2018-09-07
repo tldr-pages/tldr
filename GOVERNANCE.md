@@ -20,7 +20,7 @@ Community members are asked to abide by the following principles:
   — we're happy to welcome you into the community!
   Please take a look at [CONTRIBUTING.md](CONTRIBUTING.md) to get started.
 
-- **All discussions must be respectful and cordial**.
+- **All interactions must be respectful and cordial**.
   Avoid making assumptions about the others' intentions,
   and make your own intentions clear.
   When in doubt, provide additional context, or ask for clarification.
