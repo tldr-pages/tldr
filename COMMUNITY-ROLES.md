@@ -91,7 +91,7 @@ Open an issue with the following message:
 You now have had five distinct pull requests merged (\[LINKS TO THE RELEVANT PRs]),
 which qualifies you to become a collaborator in this repository,
 as explained in our
-\[governance guidelines](https://github.com/tldr-pages/tldr/blob/master/GOVERNANCE.md).
+\[community roles documentation](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md).
 >
 > As a collaborator, you will have commit access
 and can therefore merge pull requests from others, label and close issues,
@@ -116,7 +116,7 @@ Open an issue with the following message:
 > Hi, \@username(s)! After joining as a collaborator in the repository,
 you have been regularly performing maintenance tasks. Thank you for that!
 According to
-\[GOVERNANCE.md](https://github.com/tldr-pages/tldr/blob/master/GOVERNANCE.md),
+\[COMMUNITY-ROLES.md](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md),
 you've now met the thresholds to be effectively considered
 an active maintainer of the project (\[LINKS TO THE RELEVANT PRs]).
 To publicly acknowledge that fact, we'll add you to the tldr-pages organization.
@@ -137,8 +137,8 @@ Open an issue with the following message:
 > Hi, \@username(s)! You've been an active tldr-pages org member for over 6 months.
 Thanks for sticking around this far and helping out!
 According to
-\[GOVERNANCE.md](https://github.com/tldr-pages/tldr/blob/master/GOVERNANCE.md),
-you're now eligible for becoming an owner of the organization.
+\[COMMUNITY-ROLES.md](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md),
+you're now eligible for becoming an owner in the organization.
 >
 > That means you will, from now on, be part of the team
 responsible for performing role changes (like this one!) in the community.
@@ -159,24 +159,24 @@ Afterwards, add their name to the list of current organization owners below.
 Open an issue with the following message:
 
 > Hi, @username(s)! As you know, our
-\[governance guidelines](https://github.com/tldr-pages/tldr/blob/master/GOVERNANCE.md)
-define processes for keeping the list of organization members
+\[community roles documentation](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md)
+defines processes for keeping the list of organization members
 in sync with the actual maintenance team.
 Since you haven't been active in the project for a while now,
-we'll be moving you to the status of former maintainer.
+we'll be relieving you from the maintainer responsibilities.
 >
 > In practice, not much will change on your side,
 since you'll remain a collaborator in the repos you have been active in,
 so \*\*you will keep the ability to commit, merge PRs, label and close issues, etc.\*\*,
-if you feel so inclined. But even if you don't,
-keep in mind that every bit of work you already did for the tldr-pages project
-was a voluntary gift of your time to this community.
+whenever you feel so inclined. If you don't, that's all right too!
+Every bit of work you already did for the tldr-pages project
+was a voluntary gift of your time to this community, which is deeply appreciated.
 Your efforts have contributed to a project
 which helps hundreds of people every day — be proud of it!
 >
-> And of course, you're welcome back anytime as a maintainer, if you so choose
-— in which case we'll re-add you to the organization,
-as is also described in the guidelines.
+> And of course, you're welcome back anytime as an active maintainer, if you so choose
+— in which case, just let us know and we'll re-add you to the organization,
+in accordance to the principles of our governance guidelines.
 In any case, we wish you the best of luck in your new endeavors!
 
 Once they acknowledge the message (or after a week without any reaction),
