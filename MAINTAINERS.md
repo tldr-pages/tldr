@@ -1,6 +1,22 @@
 # Maintainers
 This file contains a list of the maintainers of tldr-pages.
 
+
+## Current collaborators
+The following people are collaborators on this repository, enabling them to label and close issues,
+and review and merge pull requests.
+
+ - Max Xu ([@jsonbruce](https://github.com/jsonbruce))
+ - Jeef ([@jeeftor](https://github.com/jeeftor))
+ - Muhammad Falak R Wani ([@mfrw](https://github.com/mfrw))
+
+
+## Current members
+These people are members of the tldr-pages organization.
+
+ - Owen Voke ([@pxgamer](https://github.com/pxgamer))
+
+
 ## Current owners
 
 The following people are the current owners of the tldr-pages organization,
