@@ -3,8 +3,9 @@ This file contains a list of the maintainers of tldr-pages.
 
 
 ## Current collaborators
-The following people are collaborators on this repository, enabling them to label and close issues,
-and review and merge pull requests. An automated list can be found [here](https://github.com/tldr-pages/tldr/settings/collaboration).
+The following people are collaborators on this repository, enabling them to 
+label and close issues, and review and merge pull requests. An automated list 
+can be found [here](https://github.com/tldr-pages/tldr/settings/collaboration).
 
  - Max Xu ([@jsonbruce](https://github.com/jsonbruce))
  - Jeef ([@jeeftor](https://github.com/jeeftor))
@@ -12,7 +13,8 @@ and review and merge pull requests. An automated list can be found [here](https:
 
 
 ## Current members
-These people are members of the tldr-pages organization. An automated list can be found [here](https://github.com/orgs/tldr-pages/people).
+These people are members of the tldr-pages organization. An automated list can 
+be found [here](https://github.com/orgs/tldr-pages/people).
 
  - Owen Voke ([@pxgamer](https://github.com/pxgamer))
 
@@ -22,6 +24,7 @@ These people are members of the tldr-pages organization. An automated list can b
 The following people are the current owners of the tldr-pages organization,
 have admin access to all of its repositories,
 and are responsible for performing role changes in the community.
+An automated list can be found [here](https://github.com/orgs/tldr-pages/people).
 
 - Romain Prieto ([@rprieto](https://github.com/rprieto)):
   created the the project on [8 December 2013](https://github.com/tldr-pages/tldr/commit/11264d9)
