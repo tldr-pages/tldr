@@ -12,7 +12,7 @@ and review and merge pull requests. An automated list can be found [here](https:
 
 
 ## Current members
-These people are members of the tldr-pages organization.
+These people are members of the tldr-pages organization. An automated list can be found [here](https://github.com/orgs/tldr-pages/people).
 
  - Owen Voke ([@pxgamer](https://github.com/pxgamer))
 
