@@ -4,7 +4,7 @@ This file contains a list of the maintainers of tldr-pages.
 
 ## Current collaborators
 The following people are collaborators on this repository, enabling them to label and close issues,
-and review and merge pull requests.
+and review and merge pull requests. An automated list can be found [here](https://github.com/tldr-pages/tldr/settings/collaboration).
 
  - Max Xu ([@jsonbruce](https://github.com/jsonbruce))
  - Jeef ([@jeeftor](https://github.com/jeeftor))
