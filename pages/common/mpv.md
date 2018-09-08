@@ -1,15 +1,27 @@
 # mpv
 
-> A media player.
+> A audio/video player based on MPlayer.
 
-- Play a video:
+- Play a video or audio file:
 
-`mpv {{video_file}}`
+`mpv {{file}}`
 
-- Play a video at specified speed (0.01 to 100, default 1):
+- Jump backward/forward 5 seconds:
 
-`mpv --speed {{speed}} {{video_file}}`
+`LEFT <or> RIGHT`
 
-- Play a video using a profile defined in your `mpv.conf` file:
+- Jump backward/forward 1 minute:
 
-`mpv --profile {{profile_name}} {{video_file}}`
+`DOWN <or> UP`
+
+- Decrease or increase playback speed by 10 %:
+
+`[ <or> ]`
+
+- Play a file at a specified speed (0.01 to 100, default 1):
+
+`mpv --speed {{speed}} {{file}}`
+
+- Play a file using a profile defined in your `mpv.conf` file:
+
+`mpv --profile {{profile_name}} {{file}}`
