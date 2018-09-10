@@ -1,8 +1,10 @@
 # Maintainers
+
 This file contains a list of the maintainers of tldr-pages.
 
 
 ## Current collaborators
+
 The following people are collaborators on this repository, enabling them to 
 label and close issues, and review and merge pull requests. An automated list 
 can be found [here](https://github.com/tldr-pages/tldr/settings/collaboration).
@@ -13,6 +15,7 @@ can be found [here](https://github.com/tldr-pages/tldr/settings/collaboration).
 
 
 ## Current members
+
 These people are members of the tldr-pages organization. An automated list can 
 be found [here](https://github.com/orgs/tldr-pages/people).
 
@@ -32,6 +35,7 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [27 September 2016](https://gitter.im/tldr-pages/tldr?at=57eaedefe4e41c6a4afc2f47) — present
 - Starbeamrainbowlabs ([@sbrl](https://github.com/sbrl)):
   [23 April 2017](https://gitter.im/tldr-pages/tldr?at=58fc6fce3e27cac331b5c397) — present
+
 
 ## Past owners
 
