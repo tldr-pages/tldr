@@ -14,6 +14,6 @@
 
 `asar extract-file {{archived.asar}} {{file}}`
 
-- List files of an archive:
+- List the contents of an archive file:
 
 `asar list {{archived.asar}}`
