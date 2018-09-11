@@ -2,7 +2,7 @@
 
 > A curses based, vim-like spreadsheet calculator.
 
-- Starting SC-IM:
+- Start SC-IM:
 
 `scim {file name.csv}`
 
