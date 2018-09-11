@@ -30,3 +30,7 @@
 - Perform TLS cipher scan against a host to determine supported ciphers and SSL/TLS protocols:
 
 `nmap --script ssl-enum-ciphers {{address_or_addresses}} -p 443`
+
+- List live hosts with hostnames on a specific network:
+
+`nmap -sn 10.0.0.1/24`
