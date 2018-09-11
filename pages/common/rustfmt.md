@@ -6,7 +6,7 @@
 
 `rustfmt {{source.rs}}`
 
-- Check a file for formatting and display any changes on console:
+- Check a file for formatting and display any changes on the console:
 
 `rustfmt --check {{source.rs}}`
 
