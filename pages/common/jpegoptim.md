@@ -13,3 +13,7 @@
 - Force the output images to be progressive:
 
 `jpegoptim --all-progressive {{image1.jpeg}} {{image2.jpeg}} {{imageN.jpeg}}`
+
+- Force the output images to have a fixed maximum filesize:
+
+`jpegoptim --size={{250k}} {{image1.jpeg}} {{image2.jpeg}} {{imageN.jpeg}}`
