@@ -16,7 +16,9 @@ can be found [here](https://github.com/tldr-pages/tldr/settings/collaboration).
 
 ## Current members
 
-These people are members of the tldr-pages organization. An automated list can 
+These people are members of the tldr-pages organization. As well as doing 
+everything that a contributor can do, a member also has access to all the 
+repositories in the tldr-pages organization. An automated list can 
 be found [here](https://github.com/orgs/tldr-pages/people).
 
  - Owen Voke ([@pxgamer](https://github.com/pxgamer))
