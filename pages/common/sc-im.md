@@ -1,6 +1,6 @@
 # SC-IM
 
-> A curses based, vim-like spreadsheet calculator.
+> A curses based, vim-like spreadsheet calculator.  
 > Use hjkl or arrow keys to navigate.
 
 - Start SC-IM:
@@ -9,7 +9,7 @@
 
 - Enter a string into the current cell:
 
-`{<} or {>}`
+`< or >`
 
 - Enter a numeric constant into the current cell:
 
