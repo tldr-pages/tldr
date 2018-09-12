@@ -6,15 +6,23 @@
 
 `httping -g {{URL}}`
 
-- Measure latency of webserver using a hostname:
+*Example:*
+
+`httping -g google.com`
+
+- Measure latency of a webserver using a hostname:
 
 `httping -h {{hostname}}`
+
+*Example:*
+
+`http -h localhost`
 
 - Measure latency using a specific port:
 
 `httping {{webserver}} -p {{port}}`
 
-- Measure latency only a specific number of times:
+- Measure latency a given number of times:
 
 `httping -c {{count}} {{webserver}}`
 
@@ -22,6 +30,6 @@
 
 `httping -l {{webserver}}`
 
-- Measure latency using authentication:
+- Measure latency use basic authentication mechanism with a username and password:
 
 `httping {{webserver}} -A -U {{username}} -P {{password}}`
