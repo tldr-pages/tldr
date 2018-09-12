@@ -1,6 +1,7 @@
 # SC-IM
 
-> A curses based, vim-like spreadsheet calculator.  
+> A curses based, vim-like spreadsheet calculator.
+
 > Use hjkl or arrow keys to navigate.
 
 - Start SC-IM:
