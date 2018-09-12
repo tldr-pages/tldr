@@ -1,26 +1,28 @@
 # SC-IM
 
 > A curses based, vim-like spreadsheet calculator.
+> Use hjkl or arrow keys to navigate.
 
 - Start SC-IM:
 
-`scim {file name.csv}`
-
-- Move Between Cells:
-
-`h, j, k, l, arrow keys`
+`scim {{file_name}}.csv`
 
 - Enter a string into the current cell:
 
-`<     Right Justify`
-`>     Left Justify`
+`{<} or {>}`
 
 - Enter a numeric constant into the current cell:
 
 `=`
 
-- Edit Cells:
+- Edit String in the current cell:
 
-`E     Edit string`
-`e     Edit numeric value`
-`|     Center the string in the current cell`
+`E`
+
+- Edit Number in the current cell:
+
+`e`
+
+- Center align the current cell:
+
+`|`
