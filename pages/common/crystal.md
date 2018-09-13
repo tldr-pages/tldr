@@ -1,6 +1,6 @@
 # crystal
 
-> Crystal language compiler
+> Crystal language tool for compiling.
 
 - Run a crystal file:
 
@@ -18,6 +18,6 @@
 
 `crystal init app {{name of application}}`
 
-- Display all help options
+- Display all help options:
 
 `crystal help`
