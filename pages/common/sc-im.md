@@ -15,11 +15,11 @@
 
 `=`
 
-- Edit String in the current cell:
+- Edit string in the current cell:
 
 `E`
 
-- Edit Number in the current cell:
+- Edit number in the current cell:
 
 `e`
 
