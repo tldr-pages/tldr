@@ -8,4 +8,4 @@
 
 - Display a list of logged in users according to a specific file:
 
-`users {{path/to/file}}`
+`users {{/var/log/wmtp}}`
