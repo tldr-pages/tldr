@@ -16,7 +16,7 @@
 
 - Create a project directory for a crystal application:
 
-`crystal init app {{name of application}}`
+`crystal init app {{application_name}}`
 
 - Display all help options:
 
