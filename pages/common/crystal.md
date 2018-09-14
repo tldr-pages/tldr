@@ -1,6 +1,6 @@
 # crystal
 
-> Crystal language tool for compiling.
+> Tool for managing crystal source code.
 
 - Run a crystal file:
 
