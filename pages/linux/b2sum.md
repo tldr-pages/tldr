@@ -13,4 +13,3 @@
 - Read a file of BLAKE2 sums and verify all files have matching checksums:
 
 `b2sum -c {{filename.b2}}`
-
