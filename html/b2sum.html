@@ -1,0 +1,14 @@
+<b>b2sum</b><br><br>
+<b>Calculate BLAKE2 cryptographic checksums.</b><br><br>
+- Calculate the BLAKE2 checksum for a file:
+
+<blockquote>b2sum <i>filename1</i></blockquote>
+- Calculate BLAKE2 checksums for multiple files:
+
+<blockquote>b2sum <i>filename1</i> <i>filename2</i></blockquote>
+- Read a file of BLAKE2 sums and filenames and verify all files have matching checksums:
+
+<blockquote>b2sum -c <i>filename.b2</i></blockquote>
+- Calculate the BLAKE2 checksum from stdin:
+
+<blockquote><i>somecommand</i> | shasum</blockquote>
