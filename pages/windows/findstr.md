@@ -6,7 +6,7 @@
 
 `findstr "{{query}}" *`
 
-- Find space-separated string(s) in all files recursively:
+- Find space-separated string(s) in all files recur[s]ively:
 
 `findstr /s "{{query}}" *`
 
@@ -22,7 +22,7 @@
 
 `findstr /c:"{{query}}" *.txt`
 
-- Find only lines that match the query exactly:
+- Find only lines that match the query e[x]actly:
 
 `findstr /x "{{query}}" *`
 
