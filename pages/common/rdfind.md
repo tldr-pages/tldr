@@ -4,7 +4,7 @@
 
 - Identify all duplicates in a given directory and output summary:
 
-`rdfind -n true {{path/to/directory}}`
+`rdfind -dryrun true {{path/to/directory}}`
 
 - Replace all duplicates with hardlinks:
 
