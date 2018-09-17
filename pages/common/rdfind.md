@@ -1,16 +1,16 @@
 # rdfind
 
-> finds duplicate files and gets rid of them
+> Finds duplicate files and gets rid of them.
 
 - Identify all duplicates in a given directory and output summary:
 
 `rdfind -n true {{path/to/directory}}`
 
-- Replace all duplicates with hardlinks
+- Replace all duplicates with hardlinks:
 
 `rdfind -makehardlinks true {{path/to/directory}}`
 
-- Replace all duplicates with symlinks/soft links
+- Replace all duplicates with symlinks/soft links:
 
 `rdfind -makesymlinks true {{path/to/directory}}`
 
