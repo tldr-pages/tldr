@@ -14,6 +14,6 @@
 
 `rdfind -makesymlinks true {{path/to/directory}}`
 
-- Delete all duplicates, and do not ignore empty files:
+- Delete all duplicates and do not ignore empty files:
 
 `rdfind -deleteduplicates true -ignoreempty false {{/mnt/backup}}`
