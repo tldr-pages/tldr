@@ -18,7 +18,7 @@
 
 `vcsh list`
 
-- Push/pull all managed repositories from/to remotes:
+- Push/pull all managed repositories to/from remotes:
 
 `vcsh {{push|pull}}`
 
