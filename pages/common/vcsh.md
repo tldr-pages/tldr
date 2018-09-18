@@ -1,6 +1,6 @@
 # vcsh
 
-> Version Control System for $HOME - multiple Git repositories in $HOME.
+> Version Control System for `$HOME` - multiple Git repositories in `$HOME`.
 
 - Execute git command on managed repository:
 
@@ -18,7 +18,7 @@
 
 `vcsh list`
 
-- Pull/pull all managed repositories from/to remotes:
+- Push/pull all managed repositories from/to remotes:
 
 `vcsh {{push|pull}}`
 
