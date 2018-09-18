@@ -1,20 +1,19 @@
 # terraform
 
-> Create and deploy infrastructure as code to cloud providers
+> Create and deploy infrastructure as code to cloud providers.
 
-- Initialize a new or existing Terraform configuration
+- Initialize a new or existing Terraform configuration:
 
 `terraform init`
 
-- Generate and show an execution plan
+- Generate and show an execution plan:
 
 `terraform plan`
 
-- Builds or changes infrastructure
+- Build or change infrastructure:
 
 `terraform apply`
 
-- Destroy Terraform-managed infrastructure
+- Destroy Terraform-managed infrastructure:
 
 `terraform destroy`
-
