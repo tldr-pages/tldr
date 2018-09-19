@@ -2,7 +2,7 @@
 
 > Find files with duplicate content and get rid of them.
 
-- Identify all duplicates in a given directory and outputs a summary:
+- Identify all duplicates in a given directory and output a summary:
 
 `rdfind -dryrun true {{path/to/directory}}`
 
