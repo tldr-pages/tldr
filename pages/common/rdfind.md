@@ -16,4 +16,4 @@
 
 - Delete all duplicates and do not ignore empty files:
 
-`rdfind -deleteduplicates true -ignoreempty false {{/mnt/backup}}`
+`rdfind -deleteduplicates true -ignoreempty false {{path/to/directory}}`
