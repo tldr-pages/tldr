@@ -1,0 +1,14 @@
+<b>rdfind</b><br><br>
+<b>Finds duplicate files and gets rid of them.</b><br><br>
+- Identify all duplicates in a given directory and outputs a summary:
+
+<blockquote>rdfind -dryrun true <i>path/to/directory</i></blockquote>
+- Replace all duplicates with hardlinks:
+
+<blockquote>rdfind -makehardlinks true <i>path/to/directory</i></blockquote>
+- Replace all duplicates with symlinks/soft links:
+
+<blockquote>rdfind -makesymlinks true <i>path/to/directory</i></blockquote>
+- Delete all duplicates and do not ignore empty files:
+
+<blockquote>rdfind -deleteduplicates true -ignoreempty false <i>/path/to/directory</i></blockquote>
