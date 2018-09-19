@@ -1,8 +1,8 @@
 # rdfind
 
-> Finds duplicate files and gets rid of them.
+> Find files with duplicate content and get rid of them.
 
-- Identify all duplicates in a given directory and outputs a summary:
+- Identify all duplicates in a given directory and output a summary:
 
 `rdfind -dryrun true {{path/to/directory}}`
 
@@ -16,4 +16,4 @@
 
 - Delete all duplicates and do not ignore empty files:
 
-`rdfind -deleteduplicates true -ignoreempty false {{/mnt/backup}}`
+`rdfind -deleteduplicates true -ignoreempty false {{path/to/directory}}`
