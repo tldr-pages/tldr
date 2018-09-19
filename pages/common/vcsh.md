@@ -1,6 +1,6 @@
 # vcsh
 
-> Version Control System for `$HOME` using git repositories.
+> Version Control System for your home directory using git repositories.
 
 - Initialize (empty) repository:
 
