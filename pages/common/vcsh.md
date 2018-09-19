@@ -1,10 +1,6 @@
 # vcsh
 
-> Version Control System for `$HOME` - multiple Git repositories in `$HOME`.
-
-- Execute git command on managed repository:
-
-`vcsh {{repository_name}} {{git_command}}`
+> Version Control System for `$HOME` using git repositories.
 
 - Initialize (empty) repository:
 
@@ -17,6 +13,10 @@
 - List all managed repositories:
 
 `vcsh list`
+
+- Execute git command on managed repository:
+
+`vcsh {{repository_name}} {{git_command}}`
 
 - Push/pull all managed repositories to/from remotes:
 
