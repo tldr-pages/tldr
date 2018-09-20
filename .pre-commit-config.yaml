@@ -1,0 +1,11 @@
+---
+repos:
+  - repo: local
+    hooks:
+      - id: tldr-lint
+        name: tldrl-lint
+        entry: tldrl
+        language: system
+        files: \.(md)$
+        args: ['-style=file', '-i']
+        files: 'pages/.*\.md$'
