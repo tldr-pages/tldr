@@ -2,11 +2,11 @@
 
 > Version Control System for the home directory using git repositories.
 
-- Initialize (empty) repository:
+- Initialize an (empty) repository:
 
 `vcsh init {{repository_name}}`
 
-- Clone repository into custom name:
+- Clone a repository into a custom directory name:
 
 `vcsh clone {{git_url}} {{repository_name}}`
 
@@ -14,7 +14,7 @@
 
 `vcsh list`
 
-- Execute git command on managed repository:
+- Execute a git command on a managed repository:
 
 `vcsh {{repository_name}} {{git_command}}`
 
@@ -22,6 +22,6 @@
 
 `vcsh {{push|pull}}`
 
-- Write custom .gitignore file for managed repository:
+- Write a custom .gitignore file for a managed repository:
 
 `vcsh write-gitignore {{repository_name}}`
