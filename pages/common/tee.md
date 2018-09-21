@@ -10,6 +10,10 @@
 
 `echo "example" | tee -a {{FILE}}`
 
+- Print standard input to the terminal, and also pipe it into another program for further processing:
+
+`echo "example" | tee {{/dev/tty}} | {{xargs printf "[%s]"}}`
+
 - Create a folder called "example", count the number of characters in "example" and write "example" to the terminal:
 
 `echo "example" | tee >(xargs mkdir) >(wc -c)`
