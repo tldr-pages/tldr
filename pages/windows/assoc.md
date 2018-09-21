@@ -10,6 +10,6 @@
 
 `assoc {{.txt}}`
 
-- Modify the associated filetype for a file extension:
+- Modify the associated filetype for a specific extension:
 
 `assoc {{.txt}}={{txtfile}}`
