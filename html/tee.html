@@ -6,6 +6,9 @@
 - Append to the given FILEs, do not overwrite:
 
 <blockquote>echo "example" | tee -a <i>FILE</i></blockquote>
+- Print standard input to the terminal, and also pipe it into another program for further processing:
+
+<blockquote>echo "example" | tee <i>/dev/tty</i> | <i>xargs printf "[%s]"</i></blockquote>
 - Create a folder called "example", count the number of characters in "example" and write "example" to the terminal:
 
 <blockquote>echo "example" | tee >(xargs mkdir) >(wc -c)</blockquote>
