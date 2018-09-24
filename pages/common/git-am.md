@@ -11,6 +11,6 @@
 
 `git am --abort`
 
-- Apply as much fo a patch file as possible, saving failed hunks to reject files:
+- Apply as much of a patch file as possible, saving failed hunks to reject files:
 
 `git am --reject {{path/to/file.patch}}`
