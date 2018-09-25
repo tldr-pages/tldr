@@ -10,7 +10,7 @@
 
 `cmd /c "{{command}}"`
 
-- Run the specified command without terminating:
+- Run the specified command and then enter an interactive shell:
 
 `cmd /k "{{command}}"`
 
