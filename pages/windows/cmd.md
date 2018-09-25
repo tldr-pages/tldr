@@ -6,7 +6,7 @@
 
 `cmd`
 
-- Run the specified command and terminate:
+- Run the specified command and then exit:
 
 `cmd /c "{{command}}"`
 
