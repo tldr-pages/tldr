@@ -1,0 +1,11 @@
+<b>git am</b><br><br>
+<b>Apply patch files. Useful when receiving commits via email.</b><br><br><b>See also `git format-patch`, which can generate patch files.</b><br><br>
+- Apply a patch file:
+
+<blockquote>git am <i>path/to/file.patch</i></blockquote>
+- Abort the process of applying a patch file:
+
+<blockquote>git am --abort</blockquote>
+- Apply as much of a patch file as possible, saving failed hunks to reject files:
+
+<blockquote>git am --reject <i>path/to/file.patch</i></blockquote>

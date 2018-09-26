@@ -1,0 +1,20 @@
+<b>k6</b><br><br>
+<b>A modern load testing tool, using Go and JavaScript.</b><br><br>
+- Run load test locally:
+
+<blockquote>k6 run <i>script.js</i></blockquote>
+- Run load test locally with a given number of virtual users and duration:
+
+<blockquote>k6 run --vus <i>10</i> --duration <i>30s</i> <i>script.js</i></blockquote>
+- Run load test locally with a given environment variable:
+
+<blockquote>k6 run -e <i>HOSTNAME=example.com</i> <i>script.js</i></blockquote>
+- Run load test locally using InfluxDB to store results:
+
+<blockquote>k6 run --out influxdb=<i>http://localhost:8086/k6db</i> <i>script.js</i></blockquote>
+- Login to cloud service using secret token:
+
+<blockquote>k6 login cloud --token <i>secret</i></blockquote>
+- Run load test on cloud infrastructure:
+
+<blockquote>k6 cloud <i>script.js</i></blockquote>
