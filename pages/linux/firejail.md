@@ -1,6 +1,6 @@
 # firejail
 
-> Securely sandbox a process to a container.
+> Securely sandboxes processes to containers using built-in Linux capabilities.
 
 - Integrate firejail with your desktop environment:
 
@@ -10,7 +10,7 @@
 
 `firejail {{firefox}}`
 
-- Starting a restricted Apache server on a known interface and address:
+- Start a restricted Apache server on a known interface and address:
 
 `firejail --net={{eth0}} --ip={{192.168.1.244}} {{/etc/init.d/apache2}} {{start}}`
 
