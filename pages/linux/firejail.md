@@ -1,7 +1,6 @@
 # firejail
 
-> Securely sandboxes processes to containers using built-in Linux capabilities.
-
+> Securely sandbox a process to a container using built-in Linux capabilities.
 
 - Integrate firejail with your desktop environment:
 
