@@ -12,7 +12,7 @@
 
 - Create a new macro for a specific executable:
 
-`doskey /exename={{executable}} {{name}} = "{{command}}"
+`doskey /exename={{executable}} {{name}} = "{{command}}"`
 
 - Remove a macro:
 
