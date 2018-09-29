@@ -14,9 +14,9 @@
 
 `stty cols {{cols}}`
 
-- Get the only actual transfer speed of a device:
+- Get the actual transfer speed of a device:
 
-`stty -f /dev/stdout speed`
+`stty -f {{path/to/device_file}} speed`
 
 - Reset all modes to reasonable values for the current terminal:
 
