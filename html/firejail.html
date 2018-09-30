@@ -1,0 +1,20 @@
+<b>firejail</b><br><br>
+<b>Securely sandboxes processes to containers using built-in Linux capabilities.</b><br><br>
+- Integrate firejail with your desktop environment:
+
+<blockquote>sudo firecfg</blockquote>
+- Open a restricted Mozilla Firefox:
+
+<blockquote>firejail <i>firefox</i></blockquote>
+- Start a restricted Apache server on a known interface and address:
+
+<blockquote>firejail --net=<i>eth0</i> --ip=<i>192.168.1.244</i> <i>/etc/init.d/apache2</i> <i>start</i></blockquote>
+- List running sandboxes:
+
+<blockquote>firejail --list</blockquote>
+- List network activity from running sandboxes:
+
+<blockquote>firejail --netstats</blockquote>
+- Shutdown a running sandbox:
+
+<blockquote>firejail --shutdown=<i>7777</i></blockquote>
