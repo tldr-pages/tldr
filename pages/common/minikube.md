@@ -21,5 +21,7 @@
 - Open kubernetes dashboard in a browser:
  
 `minikube dashboard`
+
+
  
  
