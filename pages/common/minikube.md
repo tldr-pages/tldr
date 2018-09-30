@@ -19,5 +19,5 @@
 `minikube service [-n {{NAMESPACE}}] [--url] {{NAME}}`
 
 - Open kubernetes dashboard in a browser:
- 
+
 `minikube dashboard`
