@@ -6,21 +6,21 @@
 - List all docker containers (running and stopped):
 
 <blockquote>docker container ls -a</blockquote>
-- Start a container:
+- Start a container from an image, with a custom name:
 
-<blockquote>docker container start <i>container</i></blockquote>
-- Stop a container:
+<blockquote>docker container run --name=<i>container_name</i> <i>image</i></blockquote>
+- Start or stop an existing container:
 
-<blockquote>docker container stop <i>container</i></blockquote>
+<blockquote>docker container <i>start|stop</i> <i>container_name</i></blockquote>
 - Start a container from an image and get a shell inside of it:
 
 <blockquote>docker container run -it <i>image</i> bash</blockquote>
 - Run a command inside of an already running container:
 
-<blockquote>docker container exec <i>container</i> <i>command</i></blockquote>
+<blockquote>docker container exec <i>container_name</i> <i>command</i></blockquote>
 - Remove a stopped container:
 
-<blockquote>docker container rm <i>container</i></blockquote>
+<blockquote>docker container rm <i>container_name</i></blockquote>
 - Fetch and follow the logs of a container:
 
-<blockquote>docker container logs -f <i>container</i></blockquote>
+<blockquote>docker container logs -f <i>container_name</i></blockquote>

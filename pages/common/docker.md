@@ -10,13 +10,13 @@
 
 `docker container ls -a`
 
-- Start a container:
+- Start a container from an image, with a custom name:
 
-`docker container start {{container}}`
+`docker container run --name={{container_name}} {{image}}`
 
-- Stop a container:
+- Start or stop an existing container:
 
-`docker container stop {{container}}`
+`docker container {{start|stop}} {{container_name}}`
 
 - Start a container from an image and get a shell inside of it:
 
@@ -24,12 +24,12 @@
 
 - Run a command inside of an already running container:
 
-`docker container exec {{container}} {{command}}`
+`docker container exec {{container_name}} {{command}}`
 
 - Remove a stopped container:
 
-`docker container rm {{container}}`
+`docker container rm {{container_name}}`
 
 - Fetch and follow the logs of a container:
 
-`docker container logs -f {{container}}`
+`docker container logs -f {{container_name}}`

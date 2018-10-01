@@ -1,0 +1,17 @@
+<b>realpath</b><br><br>
+<b>Display the resolved absolute path for a file or directory.</b><br><br>
+- Display the absolute path for a file or directory:
+
+<blockquote>realpath <i>path/to/file_or_directory</i></blockquote>
+- Require all path components to exist:
+
+<blockquote>realpath --canonicalize-existing <i>path/to/file_or_directory</i></blockquote>
+- Resolve ".." components before symlinks:
+
+<blockquote>realpath --logical <i>path/to/file_or_directory</i></blockquote>
+- Disable symlink expansion:
+
+<blockquote>realpath --no-symlinks <i>path/to/file_or_directory</i></blockquote>
+- Suppress error messages:
+
+<blockquote>realpath --quiet <i>path/to/file_or_directory</i></blockquote>
