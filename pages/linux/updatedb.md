@@ -1,8 +1,6 @@
 # updatedb
 
-> Creates or updates the database used by locate
-
-> It usually runs daily by cron to update the default database
+> Creates or updates the database used by locate. It usually runs daily by cron.
 
 - Refreshes database content - required if you added new files since last time `updatedb` ran:
 
