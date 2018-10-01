@@ -10,7 +10,7 @@
 
 `minikube ip`
 
-- Acess a service exposed via a node port:
+- Access a service exposed via a node port:
 
 `minikube service [-n {{NAMESPACE}}] [--url] {{NAME}}`
 
