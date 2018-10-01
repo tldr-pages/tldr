@@ -4,7 +4,7 @@
 
 - Run a basic benchmark:
 
-`hyperine '{{make}}'`
+`hyperfine '{{make}}'`
 
 - Change minimum number of benchmarking runs:
 
