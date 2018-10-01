@@ -1,18 +1,14 @@
 # minikube
 
-> Run Kubernetes on your local machine for free.
+> Tool to run Kubernetes locally.
 
 - Start the cluster:
 
 `minikube start`
 
-- View the cluster details:
+- Get the IP address of the cluster:
 
-`kubectl cluster-info`
-
-- View the nodes in the cluster:
-
-`kubectl get nodes`
+`minikube ip`
 
 - Acess a service exposed via a node port:
 
