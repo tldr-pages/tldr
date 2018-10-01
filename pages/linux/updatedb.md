@@ -1,8 +1,8 @@
 # updatedb
 
-> Creates or updates the database used by locate. It usually runs daily by cron.
+> Create or update the database used by locate. It usually runs daily by cron.
 
-- Refreshes database content - required if you added new files since last time `updatedb` ran:
+- Refresh database content - required if you added new files since last time `updatedb` ran:
 
 `sudo updatedb`
 
