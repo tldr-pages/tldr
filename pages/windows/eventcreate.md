@@ -14,6 +14,6 @@
 
 `eventcreate /so {{source_name}} /t {{type}} /id {{id}} /d "{{message}}"`
 
-- Create an event for a remote machine:
+- Create an event in a remote machine's event log:
 
 `eventcreate /s {{hostname}} /u {{username}} /p {{password}} /t {{type}} /id {{id}} /d "{{message"}}`
