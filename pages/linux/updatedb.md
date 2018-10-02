@@ -1,7 +1,6 @@
 # updatedb
 
 > Create or update the database used by `locate`.
-
 > It usually runs daily by cron.
 
 - Refresh database content:
