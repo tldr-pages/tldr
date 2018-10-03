@@ -2,7 +2,7 @@
 
 > Run and manage programs in Elm programming language.
 
-- Start an interactive Elm shell (repl):
+- Start an interactive Elm shell (REPL):
 
 `elm --repl`
 
