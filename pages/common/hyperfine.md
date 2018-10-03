@@ -2,7 +2,7 @@
 
 > A command-line benchmarking tool.
 
-- Run a basic benchmark:
+- Run a basic benchmark, performing at least 10 runs - Hyperfine determines the number of runs automatically:
 
 `hyperfine '{{make}}'`
 
