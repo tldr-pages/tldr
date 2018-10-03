@@ -6,7 +6,7 @@
 
 `shards init`
 
-- Install dependencies from shard.yml file:
+- Install dependencies from a shard.yml file:
 
 `shards install`
 
