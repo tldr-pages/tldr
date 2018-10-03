@@ -12,7 +12,7 @@
 
 - Write a boilerplate to .gitignore:
 
-`gibo dump {{boilerplate}} >> {{.gitignore}}`
+`gibo dump {{boilerplate}} >>{{.gitignore}}`
 
 - Search for boilerplates containing a given string:
 
