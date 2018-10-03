@@ -6,7 +6,7 @@
 
 `wasm-opt -O {{input.wasm}} -o {{output.wasm}}`
 
-- Apply all optimizations and write to a given file(takes more time, but generates optimal code):
+- Apply all optimizations and write to a given file (takes more time, but generates optimal code):
 
 `wasm-opt -O4 {{input.wasm}} -o {{output.wasm}}`
 
