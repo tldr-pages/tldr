@@ -1,6 +1,6 @@
 # groups
 
-> Print the groups a user is in
+> Print the groups a user is in.
 
 - Display for current user:
 
