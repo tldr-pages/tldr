@@ -12,4 +12,4 @@ vi "$1"
 echo "$1" $htmlfile
 php convert-to-html.php "$1"
 git add "$1" html/$htmlfile
-scp html/$htmlfile jsmith@distrowatch.com:dww/text/man-pages/
+scp html/$htmlfile jsmith@distrowatch.com:dww/text/man-pages/ &

@@ -1,0 +1,14 @@
+<b>wasm-opt</b><br><br>
+<b>Optimize WebAssembly binary files.</b><br><br>
+- Apply default optimizations and write to a given file:
+
+<blockquote>wasm-opt -O <i>input.wasm</i> -o <i>output.wasm</i></blockquote>
+- Apply all optimizations and write to a given file (takes more time, but generates optimal code):
+
+<blockquote>wasm-opt -O4 <i>input.wasm</i> -o <i>output.wasm</i></blockquote>
+- Optimize a file for size:
+
+<blockquote>wasm-opt -Oz <i>input.wasm</i> -o <i>output.wasm</i></blockquote>
+- Print the textual representation of the binary to console:
+
+<blockquote>wasm-opt <i>input.wasm</i> --print</blockquote>

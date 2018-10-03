@@ -1,0 +1,14 @@
+<b>wasm-objdump</b><br><br>
+<b>Display information from WebAssembly binaries.</b><br><br>
+- Display the section headers of a given binary:
+
+<blockquote>wasm-objdump -h <i>file.wasm</i></blockquote>
+- Display the entire disassembled output of a given binary:
+
+<blockquote>wasm-objdump -d <i>file.wasm</i></blockquote>
+- Display the details of each section:
+
+<blockquote>wasm-objdump --details <i>file.wasm</i></blockquote>
+- Display the details of a given section:
+
+<blockquote>wasm-objdump --section '<i>import</i>' --details <i>file.wasm</i></blockquote>

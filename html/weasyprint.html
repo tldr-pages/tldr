@@ -1,0 +1,17 @@
+<b>weasyprint</b><br><br>
+<b>Render HTML to PDF or PNG.</b><br><br>
+- Render a HTML file to PDF:
+
+<blockquote>weasyprint <i>path/to/input.html</i> <i>path/to/output</i>.pdf</blockquote>
+- Render a HTML file to PNG, including an additional user stylesheet:
+
+<blockquote>weasyprint <i>path/to/input.html</i> <i>path/to/output</i>.png --stylesheet <i>path/to/stylesheet.css</i></blockquote>
+- Output additional debugging information when rendering:
+
+<blockquote>weasyprint <i>path/to/input.html</i> <i>path/to/output</i>.pdf --verbose</blockquote>
+- Specify a custom resolution when outputting to PNG:
+
+<blockquote>weasyprint <i>path/to/input.html</i> <i>path/to/output</i>.png --resolution <i>300</i></blockquote>
+- Specify a base url for relative urls in the input HTML file:
+
+<blockquote>weasyprint <i>path/to/input.html</i> <i>path/to/output</i>.png --base-url <i>url_or_filename</i></blockquote>

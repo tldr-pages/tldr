@@ -1,0 +1,17 @@
+<b>hyperfine</b><br><br>
+<b>A command-line benchmarking tool.</b><br><br>
+- Run a basic benchmark:
+
+<blockquote>hyperfine '<i>make</i>'</blockquote>
+- Change minimum number of benchmarking runs:
+
+<blockquote>hyperfine --min-runs <i>7</i> '<i>make</i>'</blockquote>
+- Perform benchmark with warmup:
+
+<blockquote>hyperfine --warmup <i>5</i> '<i>make</i>'</blockquote>
+- Run a command before each benchmark run (to clear caches, etc.):
+
+<blockquote>hyperfine --prepare '<i>make clean</i>' '<i>make</i>'</blockquote>
+- Run a benchmark where a single parameter changes for each run:
+
+<blockquote>hyperfine --prepare '<i>make clean</i>' --parameter-scan num_threads <i>1</i> <i>10</i> '<i>make -j {num_threads</i>}'</blockquote>
