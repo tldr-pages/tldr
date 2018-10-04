@@ -6,6 +6,6 @@
 
 `p4 diff`
 
-- Diff for a particular file
+- Diff for a particular file:
 
-`p4 diff {{fileName}}`
+`p4 diff {{file_name}}`

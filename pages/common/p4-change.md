@@ -8,16 +8,16 @@
 
 - Edit description corresponding to a changelist number:
 
-`p4 change -c {{changelistNumber}}`
+`p4 change -c {{changelist_number}}`
 
 - Checking files modified by changelist:
 
-`p4 change -c {{changelistNumber}}`
+`p4 change -c {{changelist_number}}`
 
 - Deleting a changelist: 
 
-`p4 change -d {{changelistNumber}}`
+`p4 change -d {{changelist_number}}`
 
-- Display list of pending and submitted changelists:
+- Display list of pending and submitted changelists by a user:
 
-`p4 changes`
+`p4 changes -u {{user_name}}`
