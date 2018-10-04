@@ -1,19 +1,19 @@
 # fisher
 
 > Fisher, a fish-shell plugin manager.
-> Install plugins by name or from a managed `fishfile` for bundled installs.
+> Install plugins by name or from a managed 'fishfile' for bundled installs.
 
 - Install one or more plugins:
 
 `fisher {{plugin1}} {{plugin2}}`
 
-- Install from a GitHub gist:
+- Install a plugin from a GitHub gist:
 
 `fisher {{gist_url}}`
 
-- Install multiple plugins from the `fishfile`:
+- Edit 'fishfile' by hand with your favorite editor and install multiple plugins:
 
-`$EDITOR ~/.config/fish/fishfile; fisher`
+`{{editor}} ~/.config/fish/fishfile; fisher`
 
 - List installed plugins:
 
@@ -27,6 +27,6 @@
 
 `fisher up`
 
-- Remove plugins:
+- Remove one or more plugins:
 
 `fisher rm {{plugin1}} {{plugin2}}`
