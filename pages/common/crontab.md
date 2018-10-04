@@ -11,6 +11,10 @@
 
 `crontab -l`
 
+- View a list of existing cron jobs for every user:
+
+`for user in $(cut -f1 -d: /etc/passwd); do echo $user; crontab -u $user -l; done`
+
 - Remove all cron jobs for the current user:
 
 `crontab -r`
