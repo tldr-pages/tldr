@@ -1,8 +1,9 @@
 # eventcreate
 
 > Create custom entries in the event log.
+> Event IDs can be any number between 1 and 1000.
 
-- Create a new event in the log:
+- Create a new event with a given id (1-1000) in the log:
 
 `eventcreate /t {{success|error|warning|information}} /id {{id}} /d "{{message}}"`
 
