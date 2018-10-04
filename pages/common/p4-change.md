@@ -10,14 +10,14 @@
 
 `p4 change -c {{changelist_number}}`
 
-- Checking files modified by changelist:
+- Check files modified by changelist:
 
 `p4 change -c {{changelist_number}}`
 
-- Deleting a changelist: 
+- Delete changelist: 
 
 `p4 change -d {{changelist_number}}`
 
-- Display list of pending and submitted changelists by a user:
+- Display list of pending and submitted changelists by user:
 
 `p4 changes -u {{user_name}}`
