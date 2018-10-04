@@ -1,11 +1,15 @@
 # groups
 
-> Print the groups a user is in.
+> Print group memberships for a user.
 
-- Display for current user:
+- Print group memberships for the current user:
 
 `groups`
 
-- Display for another user:
+- Print group memberships for a specific user:
 
 `groups {{username}}`
+
+- Print group memberships for a list of users:
+
+`groups {{username1}} {{username2}} {{username3}}`
