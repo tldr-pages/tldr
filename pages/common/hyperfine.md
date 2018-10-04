@@ -6,6 +6,10 @@
 
 `hyperfine '{{make}}'`
 
+- Run a comparative benchmark:
+
+`hyperfine '{{cat test}}' '{{bat test}}'`
+
 - Change minimum number of benchmarking runs:
 
 `hyperfine --min-runs {{7}} '{{make}}'`
