@@ -1,6 +1,6 @@
 # numfmt
 
-> Convert numbers from/to human-readable strings.
+> Convert numbers to and from human-readable strings.
 
 - Convert 1.5K (SI Units) to 1500:
 
