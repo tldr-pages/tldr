@@ -2,9 +2,13 @@
 
 > A command-line benchmarking tool.
 
-- Run a basic benchmark:
+- Run a basic benchmark, performing at least 10 runs:
 
 `hyperfine '{{make}}'`
+
+- Run a comparative benchmark:
+
+`hyperfine '{{cat test}}' '{{bat test}}'`
 
 - Change minimum number of benchmarking runs:
 
