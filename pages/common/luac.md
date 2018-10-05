@@ -1,11 +1,11 @@
 # luac
 
-> Lua byte code compiler.
+> Lua bytecode compiler.
 
-- Compile a lua source code to a lua byte code:
+- Compile Lua source file to Lua bytecode:
 
 `luac -o {{byte_code.luac}} {{source.lua}}`
 
-- Don't include a debug information in the byte code:
+- Don't include a debug information in the output:
 
 `luac -s -o {{byte_code.luac}} {{source.lua}}`
