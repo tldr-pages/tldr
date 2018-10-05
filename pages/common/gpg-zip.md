@@ -10,6 +10,6 @@
 
 `gpg-zip --decrypt {{path/to/archive.gpg}}`
 
-- List contents of the encrypted archive.gpg:
+- List the contents of the encrypted archive.gpg:
 
 `gpg-zip --list-archive {{path/to/archive.gpg}}`
