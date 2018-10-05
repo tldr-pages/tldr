@@ -10,6 +10,6 @@
 
 `dirname --zero {{/path/to/file_or_folder}}`
 
-- If no '/' in path, the current directory (.) is printed:
+- If no '/' is in path, the current directory (.) is printed:
 
 `dirname {{file_or_folder}}`
