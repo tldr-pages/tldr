@@ -8,7 +8,7 @@
 
 - Run a comparative benchmark:
 
-`hyperfine '{{cat test}}' '{{bat test}}'`
+`hyperfine '{{make target1}}' '{{make target2}}'`
 
 - Change minimum number of benchmarking runs:
 
