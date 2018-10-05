@@ -8,7 +8,7 @@
 
 - Print pathname without newline:
 
-`dirname -z {{/path/to/file_or_folder}}`
+`dirname --zero {{/path/to/file_or_folder}}`
 
 - If no '/' in path, the current directory (.) is printed:
 
