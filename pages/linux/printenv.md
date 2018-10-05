@@ -1,6 +1,6 @@
 # printenv 
 
-> Print values of all or only specific environment variables.
+> Print values of all or specific environment variables.
 
 - Display key-value pairs of all environment variables:
 
@@ -10,6 +10,6 @@
 
 `printenv {{USERNAME}}`
 
-- End each output line with NUL instead of newline:
+- Display the value of a variable and end with NUL instead of newline:
 
 `printenv --null {{USERNAME}}`
