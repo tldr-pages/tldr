@@ -21,4 +21,3 @@
 - Provide user credentials for HTTP protocol authentication:
 
 `python sqlmap.py -u {{"http://www.target.com/vuln.php"}} --auth-type {{Basic}} --auth-cred {{"testuser:testpass"}}`
-
