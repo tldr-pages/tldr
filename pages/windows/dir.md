@@ -17,3 +17,7 @@
 - Show the contents of a given directory, including hidden ones:
 
 `dir {{path/to/directory}} /A`
+
+- Show the contents of the current directory and all subdirectories:
+
+`dir /S`
