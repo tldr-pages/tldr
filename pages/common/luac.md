@@ -2,7 +2,7 @@
 
 > Lua bytecode compiler.
 
-- Compile Lua source file to Lua bytecode:
+- Compile a Lua source file to Lua bytecode:
 
 `luac -o {{byte_code.luac}} {{source.lua}}`
 
