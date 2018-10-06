@@ -1,7 +1,7 @@
 # logname 
 
-> Shows the users login name.
+> Shows the user's login name.
 
-- Display login user name:
+- Display the currently logged in user's name:
 
 `logname`
