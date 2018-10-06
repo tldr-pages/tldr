@@ -1,30 +1,33 @@
 # Maintainers
 
-This file contains a list of the maintainers of tldr-pages.
+This file contains a list of the maintainers of the tldr-pages project.
+There are three types of maintainers, as described in
+[COMMUNITY-ROLES.md](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md#when-to-change-roles).
 
 
-## Current collaborators
+## Current repository collaborators
 
-The following people are collaborators on this repository, enabling them to
-label and close issues, and review and merge pull requests. If you are an owner
-of the organization, you should be able to see an automated list [here](https://github.com/tldr-pages/tldr/settings/collaboration).
+The following people are collaborators on this repository,
+enabling them to label and close issues, and review and merge pull requests.
+If you are an owner of the organization, you should be able to see an automated list
+[here](https://github.com/tldr-pages/tldr/settings/collaboration).
 
  - Max Xu ([@jsonbruce](https://github.com/jsonbruce))
  - Jeef ([@jeeftor](https://github.com/jeeftor))
  - Muhammad Falak R Wani ([@mfrw](https://github.com/mfrw))
 
 
-## Current members
+## Current organization members
 
-These people are members of the tldr-pages organization. As well as doing 
-everything that a contributor can do, a member also has write access to all the 
-repositories in the tldr-pages organization. An automated list can 
-be found [here](https://github.com/orgs/tldr-pages/people).
+These people are members of the tldr-pages organization.
+As well as doing everything that a contributor can do,
+a member also has write access to all the repositories in the tldr-pages organization.
+An automated list can be found [here](https://github.com/orgs/tldr-pages/people).
 
  - Owen Voke ([@pxgamer](https://github.com/pxgamer))
 
 
-## Current owners
+## Current organization owners
 
 The following people are the current owners of the tldr-pages organization,
 have admin access to all of its repositories,
@@ -39,7 +42,7 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [23 April 2017](https://gitter.im/tldr-pages/tldr?at=58fc6fce3e27cac331b5c397) — present
 
 
-## Past owners
+## Past organization owners
 
 The following people used to be owners in the tldr-pages organization,
 and have reduced their participation or otherwise moved on to other projects.
