@@ -8,8 +8,8 @@
 
 - Display the value of a specific variable:
 
-`printenv {{USERNAME}}`
+`printenv {{HOME}}`
 
 - Display the value of a variable and end with NUL instead of newline:
 
-`printenv --null {{USERNAME}}`
+`printenv --null {{HOME}}`
