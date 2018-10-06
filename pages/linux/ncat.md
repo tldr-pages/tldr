@@ -13,3 +13,7 @@
 - Write output of specified file to the specified host on the specified port:
 
 `ncat {{address}} {{port}} < {{path/to/file}}`
+
+- Connect to the specified host/port using SSL/TLS encryption (e.g., for HTTPS):
+
+`ncat {{address}} {{port}} --ssl`
