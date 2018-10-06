@@ -1,0 +1,11 @@
+<b>numfmt</b><br><br>
+<b>Convert numbers to and from human-readable strings.</b><br><br>
+- Convert 1.5K (SI Units) to 1500:
+
+<blockquote>numfmt --from=<i>si</i> <i>1.5K</i></blockquote>
+- Convert 5th field (1-indexed) to IEC Units without converting header:
+
+<blockquote>ls -l | numfmt --header=<i>1</i> --field=<i>5</i> --to=<i>iec</i></blockquote>
+- Convert to IEC units, pad with 5 characters, left aligned:
+
+<blockquote>du -s * | numfmt --to=<i>iec</i> --format=<i>"%-5f"</i></blockquote>

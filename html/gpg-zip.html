@@ -1,0 +1,11 @@
+<b>gpg-zip</b><br><br>
+<b>Encrypt files and directories in an archive using GPG.</b><br><br>
+- Encrypt a directory into archive.gpg using a passphrase:
+
+<blockquote>gpg-zip --symmetric --output <i>archive.gpg</i> <i>path/to/directory</i></blockquote>
+- Decrypt archive.gpg into a directory of the same name:
+
+<blockquote>gpg-zip --decrypt <i>path/to/archive.gpg</i></blockquote>
+- List the contents of the encrypted archive.gpg:
+
+<blockquote>gpg-zip --list-archive <i>path/to/archive.gpg</i></blockquote>

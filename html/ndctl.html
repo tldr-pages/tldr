@@ -1,0 +1,23 @@
+<b>ndctl</b><br><br>
+<b>Utility for managing Non-Volatile DIMMs.</b><br><br>
+- Create an 'fsdax' mode namespace:
+
+<blockquote>ndctl create-namespace --mode=<i>fsdax</i></blockquote>
+- Change the mode of a namespace to 'raw':
+
+<blockquote>ndctl create-namespace --reconfigure=<i>namespaceX.Y</i> --mode=<i>raw</i></blockquote>
+- Check a sector mode namespace for consistency, and repair if needed:
+
+<blockquote>ndctl check-namespace --repair <i>namespaceX.Y</i></blockquote>
+- List all namespaces, regions, and buses (including disabled ones):
+
+<blockquote>ndctl list --namespaces --regions --buses --idle</blockquote>
+- List a specific namespace and include lots of additional information:
+
+<blockquote>ndctl list -vvv --namespace=<i>namespaceX.Y</i></blockquote>
+- Run a monitor to watch for SMART health events for NVDIMMs on the 'ACPI.NFIT' bus:
+
+<blockquote>ndctl monitor --bus=<i>ACPI.NFIT</i></blockquote>
+- Remove a namespace (when applicable) or reset it to an initial state:
+
+<blockquote>ndctl destroy-namespace --force <i>namespaceX.Y</i></blockquote>

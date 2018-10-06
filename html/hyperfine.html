@@ -1,8 +1,11 @@
 <b>hyperfine</b><br><br>
 <b>A command-line benchmarking tool.</b><br><br>
-- Run a basic benchmark:
+- Run a basic benchmark, performing at least 10 runs:
 
 <blockquote>hyperfine '<i>make</i>'</blockquote>
+- Run a comparative benchmark:
+
+<blockquote>hyperfine '<i>make target1</i>' '<i>make target2</i>'</blockquote>
 - Change minimum number of benchmarking runs:
 
 <blockquote>hyperfine --min-runs <i>7</i> '<i>make</i>'</blockquote>
