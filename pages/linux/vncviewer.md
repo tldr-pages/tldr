@@ -10,7 +10,7 @@
 
 `vncviewer -FullScreen {{host}}:{{display_number}}`
 
-- Launch a VNC client with specific screen geometry:
+- Launch a VNC client with a specific screen geometry:
 
 `vncviewer --geometry {{width}}x{{height}} {{host}}:{{display_number}}`
 
