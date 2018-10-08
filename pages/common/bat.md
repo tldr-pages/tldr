@@ -25,4 +25,4 @@
 
 - Display all supported languages:
 
-`bat --list-language`
+`bat --list-languages`
