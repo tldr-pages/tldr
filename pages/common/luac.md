@@ -6,6 +6,6 @@
 
 `luac -o {{byte_code.luac}} {{source.lua}}`
 
-- Don't include debug information in the output:
+- Do not include debug symbols in the output:
 
 `luac -s -o {{byte_code.luac}} {{source.lua}}`
