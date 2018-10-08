@@ -1,23 +1,23 @@
 # lsusb
 
-> Display info about connected USB devices.
+> Display information about USB buses and devices connected to them.
 
-- List all the USB ports available:
+- List all the USB devices available:
 
 `lsusb`
 
-- Hierarchy view, with each device's supported speed:
+- List the USB hierarchy as a tree:
 
 `lsusb -t`
 
-- Get detailed info of a USB device:
+- List detailed information about a USB device:
 
 `lsusb -D {{device}}`
 
-- Show only devices with the specified vendor and product ID:
+- List devices with a specified vendor and product id only:
 
 `lsusb -d {{vendor}}:{{product}}`
 
-- List all mass storages:
+- List verbose information about connected mass storage devices:
 
 `lsusb -v | grep -Ei '(idVendor|Mass Storage)'`
