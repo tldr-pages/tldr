@@ -10,7 +10,7 @@
 
 `python sqlmap.py -u {{"http://www.target.com/vuln.php" --data={{"id=1"}}`
 
-- Change default parameter delimiter (&):
+- Change default parameter delimiter (& is the default):
 
 `python sqlmap.py -u {{"http://www.target.com/vuln.php"}} --data={{"query=foobar;id=1"}} --param-del={{";"}}`
 
