@@ -24,7 +24,7 @@
 
 - Find files using case insensitive name matching, of a certain size:
 
-`find {{root_path}} -size {{+500k}} -size {{-10MB}} -iname '{{*.TaR.gZ}}'`
+`find {{root_path}} -size {{+500k}} -size {{-10M}} -iname '{{*.TaR.gZ}}'`
 
 - Delete files by name, older than 180 days:
 
