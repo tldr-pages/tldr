@@ -16,7 +16,7 @@
 
 - Output commands to set LS_COLOR for C shell:
 
-`dircolors -c-shell`
+`dircolors --c-shell`
 
 - View the default colors for file types and extensions:
 
