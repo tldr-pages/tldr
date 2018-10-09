@@ -10,6 +10,10 @@
 
 `lsusb -t`
 
+- List verbose information about USB devices:
+
+`lsusb --verbose`
+
 - List detailed information about a USB device:
 
 `lsusb -D {{device}}`
@@ -17,7 +21,3 @@
 - List devices with a specified vendor and product id only:
 
 `lsusb -d {{vendor}}:{{product}}`
-
-- List verbose information about connected mass storage devices:
-
-`lsusb -v | grep -Ei '(idVendor|Mass Storage)'`
