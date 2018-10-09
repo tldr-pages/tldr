@@ -20,4 +20,4 @@
 
 - Also show the contents of all subdirectories:
 
-`dir {{path/to/directory}} /A`
+`dir {{path/to/directory}} /S`
