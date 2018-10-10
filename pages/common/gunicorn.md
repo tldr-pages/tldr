@@ -14,10 +14,10 @@
 
 `gunicorn --reload {{import.path:app_object}}`
 
-- Set the 4 worker processes for handling requests:
+- Use 4 worker processes for handling requests:
 
 `gunicorn --workers {{4}} {{import.path:app_object}}`
 
-- Set the 4 worker threads for handling requests:
+- Use 4 worker threads for handling requests:
 
 `gunicorn --threads {{4}} {{import.path:app_object}}`
