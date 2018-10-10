@@ -20,7 +20,7 @@
 
 - Display the output starting at line 5:
 
-`more {{path/to/file}} +{{5}}
+`more {{path/to/file}} +{{5}}`
 
 - Enable extended interactive mode (see help for usage):
 
