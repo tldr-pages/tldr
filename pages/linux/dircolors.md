@@ -1,6 +1,6 @@
 # dircolors
 
-> Output commands to set the LS_COLOR environment variable and style ls, dir, etc.
+> Output commands to set the LS_COLOR environment variable and style `ls`, `dir`, etc.
 
 - Output commands to set LS_COLOR using default colors:
 
@@ -10,11 +10,11 @@
 
 `dircolors {{file}}`
 
-- Output commands to set LS_COLOR for Bourne shell:
+- Output commands for Bourne shell:
 
 `dircolors --bourne-shell`
 
-- Output commands to set LS_COLOR for C shell:
+- Output commands for C shell:
 
 `dircolors --c-shell`
 
