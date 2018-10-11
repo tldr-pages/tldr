@@ -1,6 +1,6 @@
 # namei
 
-> Follows a pathname (which can be a symbolic link) until a terminal point is found (a file/directory/char device etc).  
+> Follows a pathname (which can be a symbolic link) until a terminal point is found (a file/directory/char device etc).
 > This program is useful for finding "too many levels of symbolic links" problems.
 
 - Resolve the pathnames specified as the argument parameters:
