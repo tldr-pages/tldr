@@ -14,13 +14,13 @@
 
 `kafkacat -G {{group_id}} {{topic}} -b {{brokers}}`
 
+- Produce message, read from stdin:
+
+` echo {{message}} | kafkacat -P -t {{topic}} -b {{brokers}}`
+
 - Produce messages, read from file:
 
 `kafkacat -P -t {{topic}} -b {{brokers}} {{path/to/file}}`
-
-- Produce message, read from STDIN:
-
-` echo {{message}} | kafkacat -P -t {{topic}} -b {{brokers}}`
 
 - List metadata for all topics and brokers:
 
