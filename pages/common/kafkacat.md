@@ -6,7 +6,7 @@
 
 `kafkacat -C -t {{topic}} -b {{brokers}}`
 
-- Consume message, start with the oldest offset, exit when last message received:
+- Consume messages starting with the oldest offset and exit after the last message is received:
 
 `kafkacat -C -t {{topic}} -b {{brokers}} -o beginning -e`
 
