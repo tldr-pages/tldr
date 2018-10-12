@@ -1,0 +1,17 @@
+<b>namei</b><br><br>
+<b>Follows a pathname (which can be a symbolic link) until a terminal point is found (a file/directory/char device etc).</b><br><br><b>This program is useful for finding "too many levels of symbolic links" problems.</b><br><br>
+- Resolve the pathnames specified as the argument parameters:
+
+<blockquote>namei <i>path/to/a</i> <i>path/to/b</i> <i>path/to/c</i></blockquote>
+- Display the results in a long-listing format:
+
+<blockquote>namei --long <i>path/to/a</i> <i>path/to/b</i> <i>path/to/c</i></blockquote>
+- Show the mode bits of each file type in the style of `ls`:
+
+<blockquote>namei --modes <i>path/to/a</i> <i>path/to/b</i> <i>path/to/c</i></blockquote>
+- Show owner and group name of each file:
+
+<blockquote>namei --owners <i>path/to/a</i> <i>path/to/b</i> <i>path/to/c</i></blockquote>
+- Don't follow symlinks while resolving:
+
+<blockquote>namei --nosymlinks <i>path/to/a</i> <i>path/to/b</i> <i>path/to/c</i></blockquote>
