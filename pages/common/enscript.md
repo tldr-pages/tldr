@@ -4,15 +4,15 @@
 
 - Generate PostScript from a file and output to another:
 
-`enscript {{text_file}} --output={{output_file}}`
+`enscript {{path/to/input_file}} --output={{path/to/output_file}}`
 
 - Generate a certain output language (eg. _html_) from a file and output to another:
 
-`enscript {{text_file}} --language={{language}} --output={{output_file}}`
+`enscript {{path/to/input_file}} --language={{language}} --output={{path/to/output_file}}`
 
 - Generate PostScript from a file and output to another with 1 to 9 coloums per page in landscape:
 
-`enscript {{text_file}} --columns={{num}} --landscape --output={{output_file}}`
+`enscript {{path/to/input_file}} --columns={{num}} --landscape --output={{path/to/output_file}}`
 
 - Display avaliable syntax highlighting:
 
@@ -20,4 +20,4 @@
 
 - Genereate PostScript from a file and output to another with syntax highlighting and color for a specified language:
 
-`enscript {{text_file}} --color=1 --highlight={{language}} --output={{output_file}}`
+`enscript {{path/to/input_file}} --color=1 --highlight={{language}} --output={{path/to/output_file}}`
