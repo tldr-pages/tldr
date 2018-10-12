@@ -1,6 +1,6 @@
 # enscript
 
-> A tool to convert text files to PostScript, HTML, RTF, ANSI, and overstrikes
+> A tool to convert text files to PostScript, HTML, RTF, ANSI, and overstrikes.
 
 - Generate PostScript from a file and output to another:
 
