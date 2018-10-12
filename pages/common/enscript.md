@@ -10,7 +10,7 @@
 
 `enscript {{path/to/input_file}} --language={{language}} --output={{path/to/output_file}}`
 
-- Generate PostScript from a file and output to another with 1 to 9 coloums per page in landscape:
+- Generate PostScript from a file and output to another with 1 to 9 column per page in landscape:
 
 `enscript {{path/to/input_file}} --columns={{num}} --landscape --output={{path/to/output_file}}`
 
