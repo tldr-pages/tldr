@@ -14,6 +14,6 @@
 
 `host {{ip_address}}`
 
-- Specify an alternate DNS server to query (8.8.8.8 is google's public DNS):
+- Specify an alternate DNS server to query (8.8.8.8 is Google's public DNS):
 
 `host {{domain}} {{8.8.8.8}}`
