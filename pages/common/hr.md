@@ -12,4 +12,4 @@
 
 - Print a multiline horizontal rule:
 
-`hr {{string}} {{string}} {{string...}}`
+`hr {{string_a}} {{string_b}} {{string_c}}`
