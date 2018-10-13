@@ -18,6 +18,6 @@
 
 `rdpsign {{path/to/file.rdp}} /v`
 
-- Test the signing and output the result without updating the input:
+- Test the signing by displaying the output to console without updating the file:
 
 `rdpsign {{path/to/file.rdp}} /l`
