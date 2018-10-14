@@ -1,6 +1,6 @@
 # banner
 
-> Print large ASCII art version of the given argument.
+> Print the given argument as a large ASCII art.
 
 - Print the text message as a large banner. Note: quotes are optional:
 
