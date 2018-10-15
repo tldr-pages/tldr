@@ -6,10 +6,18 @@
 
 `lrunzip {{filename.lrz}}`
 
-- Decompress a file with more processor threads:
+- Decompress a file, using more processor threads:
 
 `lrunzip -p {{8}} {{filename.lrz}}`
 
 - Decompress a file, silently overwriting files if they exist:
 
 `lrunzip -f {{filename.lrz}}`
+
+- Keep broken or damaged files instead of deleting them when decompressing:
+
+`lrunzip -K {{filename.lrz}}`
+
+- Specify output file name and/or path:
+
+`lrunzip -o {{outfilename}} {{filename.lrz}}`
