@@ -14,7 +14,7 @@
 
 `dig {{hostname.com}} ANY`
 
-- Specify an alternate DNS server to query (8.8.8.8 is google's public DNS):
+- Specify an alternate DNS server to query:
 
 `dig @{{8.8.8.8}} {{hostname.com}}`
 
