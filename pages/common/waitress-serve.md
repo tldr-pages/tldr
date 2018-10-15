@@ -2,7 +2,7 @@
 
 > Pure Python WSGI HTTP Server.
 
-- Run Python web app:
+- Run a Python web app:
 
 `waitress-serve {{import.path:wsgi_func}}`
 
@@ -10,7 +10,7 @@
 
 `waitress-serve --listen={{localhost}}:{{8080}} {{import.path:wsgi_func}}`
 
-- Start waitress on Unix socket:
+- Start waitress on a Unix socket:
 
 `waitress-serve --unix-socket={{path/to/socket}} {{import.path:wsgi_func}}`
 
@@ -22,6 +22,6 @@
 
 `waitress-serve --call {{import.path.wsgi_factory}}`
 
-- Set URL scheme to https:
+- Set the URL scheme to https:
 
 `waitress-serve --url-scheme={{https}} {{import.path:wsgi_func}}`
