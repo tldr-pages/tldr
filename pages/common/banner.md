@@ -10,6 +10,6 @@
 
 `banner -w {{50}} {{"Hello World"}}`
 
-- Read text from stdin and print it as a large banner:
+- Read text from stdin:
 
 `banner`
