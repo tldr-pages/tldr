@@ -2,7 +2,7 @@
 
 > Print the given argument as a large ASCII art.
 
-- Print the text message as a large banner. Note: quotes are optional:
+- Print the text message as a large banner (quotes are optional):
 
 `banner {{"Hello World"}}`
 
