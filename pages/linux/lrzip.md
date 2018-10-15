@@ -1,20 +1,16 @@
 # lrzip
 
-> A large file compression program.
-
-- Compress a directory with LZMA compression:
-
-`lrztar {{directory}}`
-
-- Decompress a directory that used the above:
-
-`lrzuntar {{directory.tar.lrz}}`
+> A large file compression program. See also `lrunzip`, `lrztar`, `lrzuntar`.
 
 - Compress a file with LZMA - slow compression, fast decompression:
 
 `lrzip {{filename}}`
 
-- Compress with ZPAQ - extreme compression, but slow:
+- Compress a file with BZIP2 - good middle ground for compression/speed:
+
+`lrzip -b {{filename}}`
+
+- Compress with ZPAQ - extreme compression, but very slow:
 
 `lrzip -z {{filename}}`
 
@@ -22,6 +18,10 @@
 
 `lrzip -l {{filename}}`
 
-- Decompress archive to file:
+- Compress a file and password protect/encrypt it:
 
-`lrunzip {{filename.lrz}}`
+`lrzip -e {{filename}}`
+
+- Override the number of processor threads to use:
+
+`lrzip -p {{8}} {{filename}}`
