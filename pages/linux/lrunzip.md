@@ -7,11 +7,11 @@
 
 `lrunzip {{filename.lrz}}`
 
-- Decompress a file, using more processor threads:
+- Decompress a file using more processor threads:
 
 `lrunzip -p {{8}} {{filename.lrz}}`
 
-- Decompress a file, silently overwriting files if they exist:
+- Decompress a file and silently overwrite files if they exist:
 
 `lrunzip -f {{filename.lrz}}`
 
