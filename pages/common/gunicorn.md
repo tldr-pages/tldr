@@ -1,6 +1,6 @@
 # gunicorn
 
-> Python WSGI HTTP Server for UNIX.
+> Python WSGI HTTP Server.
 
 - Run Python web app:
 
