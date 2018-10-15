@@ -1,23 +1,27 @@
 # mlr
 
-> Miller is like awk, sed, cut, join, and sort for name-indexed data such as CSV, TSV, and tabular JSON.
+> Miller is like `awk`, `sed`, `cut`, `join`, and `sort` for name-indexed data such as CSV, TSV, and tabular JSON.
 
 - Pretty-print a CSV file in a tabular format:
 
 `mlr --icsv --opprint cat {{example.csv}}`
 
-- Sort first alphabetically on field1, and then sort in descending numerical order on field2:
+- Receive JSON data and pretty print the output:
 
-`mlr --icsv --opprint sort -f {{field1}} -nr {{field2}} {{example.csv}}`
+`echo '{"hello":"world"}' | mlr --ijson --opprint cat`
 
-- Convert CSV to JSON, performing calculations and outputting those calculations:
+- Sort alphabetically on field:
 
-`mlr --icsv --ojson put '${{newField1}} = ${{oldFieldA}}/${{oldFieldB}}; ${{newField2}} = toupper(${{oldFieldC}})' {{example.csv}}`
+`mlr --icsv --opprint sort -f {{field}} {{example.csv}}`
+
+- Sort in descending numerical order on field:
+
+`mlr --icsv --opprint sort -nr {{field}} {{example.csv}}`
+
+- Convert CSV to JSON, performing calculations and display those calculations:
+
+`mlr --icsv --ojson put '${{newField1}} = ${{oldFieldA}}/${{oldFieldB}}' {{example.csv}}`
 
 - Retrieve records from a MySQL database and format the output as vertical JSON:
 
 `mysql --database={{exampledatabase}} -B -e 'show columns in {{exampletable}}' | mlr --itsvlite --ojson --jlistwrap --jvstack cat`
-
-- Retrieve data from an API and pretty print the output:
-
-`curl -s {{http://date.jsontest.com}} | mlr --ijson --opprint cat`
