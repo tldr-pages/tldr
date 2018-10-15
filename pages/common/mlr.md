@@ -22,6 +22,6 @@
 
 `mlr --icsv --ojson put '${{newField1}} = ${{oldFieldA}}/${{oldFieldB}}' {{example.csv}}`
 
-- Retrieve records from a MySQL database and format the output as vertical JSON:
+- Receive JSON and format the output as vertical JSON:
 
-`mysql --database={{exampledatabase}} -B -e 'show columns in {{exampletable}}' | mlr --itsvlite --ojson --jlistwrap --jvstack cat`
+`echo '{"hello":"world", "foo":"bar"}' | mlr --ijson --ojson --jvstack cat`
