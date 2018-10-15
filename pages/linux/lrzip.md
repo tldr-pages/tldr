@@ -1,6 +1,7 @@
 # lrzip
 
-> A large file compression program. See also `lrunzip`, `lrztar`, `lrzuntar`.
+> A large file compression program.
+> See also `lrunzip`, `lrztar`, `lrzuntar`.
 
 - Compress a file with LZMA - slow compression, fast decompression:
 
