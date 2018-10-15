@@ -4,16 +4,16 @@
 
 - Create block device:
 
-`sudo mknod {{/path/to/device_file}} b {{major_device_number}} {{minor_device_number}}`
+`sudo mknod {{path/to/device_file}} b {{major_device_number}} {{minor_device_number}}`
 
 - Create character device:
 
-`sudo mknod {{/path/to/device_file}} c {{major_device_number}} {{minor_device_number}}`
+`sudo mknod {{path/to/device_file}} c {{major_device_number}} {{minor_device_number}}`
 
 - Create FIFO (queue) device:
 
-`sudo mknod {{/path/to/device_file}} p`
+`sudo mknod {{path/to/device_file}} p`
 
 - Create device file with default SELinux security context:
 
-`sudo mknod -Z {{/path/to/device_file}} {{type}} [{{major_device_number}} {{minor_device_number}}]`
+`sudo mknod -Z {{path/to/device_file}} {{type}} [{{major_device_number}} {{minor_device_number}}]`
