@@ -26,7 +26,7 @@
 
 `shutdown /s /c "{{reason}}"`
 
-- Abort a shutdown sequence:
+- Abort a shutdown sequence whose timeout is yet to expire:
 
 `shutdown /a`
 
