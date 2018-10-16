@@ -10,7 +10,7 @@
 
 `bup -d {{path/to/repository}} index {{path/to/my_folder}}`
 
-- Backup folder "my_folder" to the repository:
+- Backup a folder to the repository:
 
 `bup -d {{path/to/repository}} save -n {{backup_name}} {{path/to/my_folder}}`
 
