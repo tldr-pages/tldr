@@ -32,4 +32,4 @@
 
 - Shutdown a remote machine:
 
-`shutdown /m {{\\computer}}`
+`shutdown /m {{\\hostname}}`
