@@ -1,0 +1,20 @@
+<b>waitress-serve</b><br><br>
+<b>Pure Python WSGI HTTP Server.</b><br><br>
+- Run a Python web app:
+
+<blockquote>waitress-serve <i>import.path:wsgi_func</i></blockquote>
+- Listen on port 8080 on localhost:
+
+<blockquote>waitress-serve --listen=<i>localhost</i>:<i>8080</i> <i>import.path:wsgi_func</i></blockquote>
+- Start waitress on a Unix socket:
+
+<blockquote>waitress-serve --unix-socket=<i>path/to/socket</i> <i>import.path:wsgi_func</i></blockquote>
+- Use 4 threads to process requests:
+
+<blockquote>waitress-serve --threads=<i>4</i> <i>import.path:wsgifunc</i></blockquote>
+- Call a factory method that returns a WSGI object:
+
+<blockquote>waitress-serve --call <i>import.path.wsgi_factory</i></blockquote>
+- Set the URL scheme to https:
+
+<blockquote>waitress-serve --url-scheme=<i>https</i> <i>import.path:wsgi_func</i></blockquote>

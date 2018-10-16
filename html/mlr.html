@@ -1,0 +1,20 @@
+<b>mlr</b><br><br>
+<b>Miller is like `awk`, `sed`, `cut`, `join`, and `sort` for name-indexed data such as CSV, TSV, and tabular JSON.</b><br><br>
+- Pretty-print a CSV file in a tabular format:
+
+<blockquote>mlr --icsv --opprint cat <i>example.csv</i></blockquote>
+- Receive JSON data and pretty print the output:
+
+<blockquote>echo '{"hello":"world"}' | mlr --ijson --opprint cat</blockquote>
+- Sort alphabetically on a field:
+
+<blockquote>mlr --icsv --opprint sort -f <i>field</i> <i>example.csv</i></blockquote>
+- Sort in descending numerical order on a field:
+
+<blockquote>mlr --icsv --opprint sort -nr <i>field</i> <i>example.csv</i></blockquote>
+- Convert CSV to JSON, performing calculations and display those calculations:
+
+<blockquote>mlr --icsv --ojson put '$<i>newField1</i> = $<i>oldFieldA</i>/$<i>oldFieldB</i>' <i>example.csv</i></blockquote>
+- Receive JSON and format the output as vertical JSON:
+
+<blockquote>echo '{"hello":"world", "foo":"bar"}' | mlr --ijson --ojson --jvstack cat</blockquote>

@@ -1,0 +1,20 @@
+<b>gunicorn</b><br><br>
+<b>Python WSGI HTTP Server.</b><br><br>
+- Run Python web app:
+
+<blockquote>gunicorn <i>import.path:app_object</i></blockquote>
+- Listen on port 8080 on localhost:
+
+<blockquote>gunicorn --bind <i>localhost</i>:<i>8080</i> <i>import.path:app_object</i></blockquote>
+- Turn on live reload:
+
+<blockquote>gunicorn --reload <i>import.path:app_object</i></blockquote>
+- Use 4 worker processes for handling requests:
+
+<blockquote>gunicorn --workers <i>4</i> <i>import.path:app_object</i></blockquote>
+- Use 4 worker threads for handling requests:
+
+<blockquote>gunicorn --threads <i>4</i> <i>import.path:app_object</i></blockquote>
+- Run app over HTTPS:
+
+<blockquote>gunicorn --certfile <i>cert.pem</i> --keyfile <i>key.pem</i> <i>import.path:app_object</i></blockquote>

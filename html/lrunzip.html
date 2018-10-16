@@ -1,0 +1,17 @@
+<b>lrunzip</b><br><br>
+<b>A large file decompression program.</b><br><br><b>See also `lrzip`, `lrztar`, `lrzuntar`.</b><br><br>
+- Decompress a file:
+
+<blockquote>lrunzip <i>filename.lrz</i></blockquote>
+- Decompress a file using a specific number of processor threads:
+
+<blockquote>lrunzip -p <i>8</i> <i>filename.lrz</i></blockquote>
+- Decompress a file and silently overwrite files if they exist:
+
+<blockquote>lrunzip -f <i>filename.lrz</i></blockquote>
+- Keep broken or damaged files instead of deleting them when decompressing:
+
+<blockquote>lrunzip -K <i>filename.lrz</i></blockquote>
+- Specify output file name and/or path:
+
+<blockquote>lrunzip -o <i>outfilename</i> <i>filename.lrz</i></blockquote>
