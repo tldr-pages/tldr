@@ -10,11 +10,11 @@
 
 `echo '{"hello":"world"}' | mlr --ijson --opprint cat`
 
-- Sort alphabetically on field:
+- Sort alphabetically on a field:
 
 `mlr --icsv --opprint sort -f {{field}} {{example.csv}}`
 
-- Sort in descending numerical order on field:
+- Sort in descending numerical order on a field:
 
 `mlr --icsv --opprint sort -nr {{field}} {{example.csv}}`
 
