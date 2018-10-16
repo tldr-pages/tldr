@@ -14,7 +14,7 @@
 
 `bup -d {{path/to/repository}} save -n {{backup_name}} {{path/to/my_folder}}`
 
-- Show backup snapshots currently stored in the repository:
+- Show the backup snapshots currently stored in the repository:
 
 `bup -d {{path/to/repository}} ls`
 
