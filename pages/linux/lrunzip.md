@@ -7,7 +7,7 @@
 
 `lrunzip {{filename.lrz}}`
 
-- Decompress a file using more processor threads:
+- Decompress a file using a specific number of processor threads:
 
 `lrunzip -p {{8}} {{filename.lrz}}`
 
