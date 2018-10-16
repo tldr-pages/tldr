@@ -6,7 +6,7 @@
 
 `bup -d {{path/to/repository}} init`
 
-- Indexing folder "my_folder" before of backup:
+- Index folder "my_folder" before of backup:
 
 `bup -d {{path/to/repository}} index {{path/to/my_folder}}`
 
