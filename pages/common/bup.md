@@ -1,6 +1,6 @@
 # bup
 
-> Very efficient backup system based on the git packfile format.
+> Backup system based on the git packfile format, providing fast incremental saves and global deduplication.
 
 - Initialize a backup repository in the specified local directory:
 
