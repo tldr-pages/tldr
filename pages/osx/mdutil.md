@@ -6,14 +6,10 @@
 
 `mdutil -s {{/}}`
 
-- Turn off the Spotlight indexing for the volume mounted on /Volumes/Foo:
+- Turn on/off the Spotlight indexing for a given volume:
 
-`mdutil -i off {{/Volumes/Foo}}`
-
-- Turn on the Spotlight indexing:
-
-`mdutil -i on {{/Volumes/Foo}}`
+`mdutil -i {{on|off}} {{path/to/volume}}`
 
 - Erase the metadata stores and restart the indexing process:
 
-`mdutil -E {{/Volumes/Foo}}`
+`mdutil -E {{path/to/volume}}`
