@@ -21,4 +21,3 @@
 - Display the previous, current and next month surrounding today:
 
 `gcal .`
-
