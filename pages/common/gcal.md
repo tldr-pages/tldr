@@ -1,6 +1,6 @@
 # gcal
 
-> Displays calendar
+> Displays calendar.
 
 - Display calendar for the current month:
 
