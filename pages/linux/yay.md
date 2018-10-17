@@ -30,6 +30,6 @@
 
 `yay -Qs`
 
-- Shows statistics for installed packages and system health:
+- Show statistics for installed packages and system health:
 
 `yay -P --stats`
