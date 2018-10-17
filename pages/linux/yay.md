@@ -1,0 +1,35 @@
+# yay
+
+> Yet Another Yogurt - A utility for Arch Linux to build and install packages from the Arch User Repository.
+
+- Search and install from the repos and the AUR using yogurt mode:
+
+`yay {{package_name}}`
+
+- Synchronize and update all packages (includes AUR):
+
+`yay -Syu`
+
+- Synchronize and update only AUR packages:
+
+`yay -Sua`
+
+- Install a new package (includes AUR):
+
+`yay -S {{package_name}}`
+
+- Remove a package and its dependencies (includes AUR packages):
+
+`yay -Rs {{package_name}}`
+
+- Search the package database for a keyword (includes AUR):
+
+`yay -Ss {{keyword}}`
+
+- List all currently installed packages (includes AUR packages):
+
+`yay -Qs`
+
+- Shows statistics for installed packages and system health:
+
+`yay -P --stats`
