@@ -1,9 +1,9 @@
 # lrztar
 
 > A wrapper for `lrzip` to simplify compression of directories.
-> See also: `lrzuntar`, `lrunzip`.
+> See also: `tar`, `lrzuntar`, `lrunzip`.
 
-- Archive a directory with tar, then compress:
+- Archive a directory with `tar`, then compress:
 
 `lrztar {{path/to/directory}}`
 
@@ -11,9 +11,9 @@
 
 `lrztar -z {{path/to/directory}}`
 
-- Specify the output file name and/or path:
+- Specify the output file:
 
-`lrztar -o {{path/to/output_file}} {{path/to/directory}}`
+`lrztar -o {{path/to/file}} {{path/to/directory}}`
 
 - Override the number of processor threads to use:
 
