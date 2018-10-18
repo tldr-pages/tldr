@@ -4,24 +4,24 @@
 
 - Inspect the headers of a file:
 
-`xsv headers {{path/to/worldcities.csv}}`
+`xsv headers {{path/to/file.csv}}`
 
 - Count the number of entries:
 
-`xsv count {{path/to/worldcities.csv}}`
+`xsv count {{path/to/file.csv}}`
 
 - Get an overview of the shape of entries:
 
-`xsv stats {{path/to/worldcities.csv}} | xsv table`
+`xsv stats {{path/to/file.csv}} | xsv table`
 
 - Select a few columns:
 
-`xsv select {{Country,AccentCity}} {{path/to/worldcities.csv}}`
+`xsv select {{Column_A,Column_B}} {{path/to/file.csv}}`
 
 - Show 10 random entries:
 
-`xsv sample {{10}} {{path/to/worldcities.csv}}`
+`xsv sample {{10}} {{path/to/file.csv}}`
 
 - Join a column from one file to another:
 
-`xsv join --no-case {{Country}} {{path/to/worldcities.csv}} {{Abbrev}} {{path/to/countrynames.csv}} | xsv table`
+`xsv join --no-case {{Key_A}} {{path/to/file/a.csv}} {{Column_B}} {{path/to/file/b.csv}} | xsv table`
