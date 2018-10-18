@@ -10,6 +10,6 @@
 
 `mkfile -n {{size}}{{b|k|m|g}} {{file_name}}`
 
-- Create two files of 4 megabytes:
+- Create two files of 4 megabytes each:
 
 `mkfile -n {{4m}} {{first_file_name}} {{second_file_name}}`
