@@ -10,11 +10,11 @@
 
 `diff -w {{file1}} {{file2}}`
 
-- Compare files, showing differences side by side:
+- Compare files, showing the differences side by side:
 
 `diff -y {{file1}} {{file2}}`
 
-- Compare files, showing differences in unified format (as used by `git diff`):
+- Compare files, showing the differences in unified format (as used by `git diff`):
 
 `diff -u {{file1}} {{file2}}`
 
