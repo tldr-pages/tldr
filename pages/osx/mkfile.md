@@ -6,7 +6,7 @@
 
 `mkfile -n {{15k}} {{file_name}}`
 
-- Create a file of a given size and unit (bytes, kB, MB, GB):
+- Create a file of a given size and unit (bytes, KB, MB, GB):
 
 `mkfile -n {{size}}{{b|k|m|g}} {{file_name}}`
 
