@@ -14,6 +14,10 @@
 
 `diff -y {{file1}} {{file2}}`
 
+- Compare files, showing differences in unified format (as used by `git diff`):
+
+`diff -u {{file1}} {{file2}}`
+
 - Compare directories recursively:
 
 `diff -r {{directory1}} {{directory2}}`
