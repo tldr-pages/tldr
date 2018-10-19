@@ -8,7 +8,7 @@
 
 - Set the list of group member, only for system administrotor:
 
-`gpasswd -M {{user1[,user2[...]]}} {{group}}`
+`gpasswd -M {{user1[,user2]}} {{group}}`
 
 - Create password for the named group:
 
