@@ -2,7 +2,7 @@
 
 > Yet Another Yogurt - A utility for Arch Linux to build and install packages from the Arch User Repository.
 
-- Search and install from the repos and the AUR using yogurt mode:
+- Search and install packaged from the repos and the AUR using yogurt mode:
 
 `yay {{package_name}}`
 
