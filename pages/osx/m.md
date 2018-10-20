@@ -1,6 +1,6 @@
 # m
 
-> Swiss Army Knife for macOS
+> Swiss Army Knife for macOS.
 
 - Get the battery status:
 
