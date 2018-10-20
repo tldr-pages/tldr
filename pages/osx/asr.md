@@ -13,7 +13,7 @@
 
 - Skip verification after restoring:
 
-`sudo asr restore --source {{image_name}}.dmg --target {{path/to/volume}} -noverify`
+`sudo asr restore --source {{image_name}}.dmg --target {{path/to/volume}} --noverify`
 
 - Clone volumes without the use of an intermediate disk image:
 
