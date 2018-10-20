@@ -7,9 +7,17 @@
 
 `shutdown /s`
 
+- Shutdown the current machine force-closing all apps:
+
+`shutdown /s /f`
+
 - Restart the current machine:
 
 `shutdown /r`
+
+- Restart the current machine force-closing all apps:
+
+`shutdown /r /f`
 
 - Hibernate the current machine:
 
