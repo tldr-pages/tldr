@@ -1,0 +1,17 @@
+<b>lrzuntar</b><br><br>
+<b>A wrapper for `lrunzip` to simplify decompression of directories.</b><br><br><b>See also: `lrztar`, `lrzip`.</b><br><br>
+- Decompress from a file to the current directory:
+
+<blockquote>lrzuntar <i>path/to/archive.tar.lrz</i></blockquote>
+- Decompress from a file to the current directory using a specific number of processor threads:
+
+<blockquote>lrzuntar -p <i>8</i> <i>path/to/archive.tar.lrz</i></blockquote>
+- Decompress from a file to the current directory and silently overwrite items that already exist:
+
+<blockquote>lrzuntar -f <i>archive.tar.lrz</i></blockquote>
+- Specify the output path:
+
+<blockquote>lrzuntar -O <i>path/to/directory</i> <i>archive.tar.lrz</i></blockquote>
+- Delete the compressed file after decompression:
+
+<blockquote>lrzuntar -D <i>path/to/archive.tar.lrz</i></blockquote>

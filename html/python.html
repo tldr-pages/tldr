@@ -6,9 +6,15 @@
 - Execute script in a given Python file:
 
 <blockquote>python <i>script.py</i></blockquote>
-- Execute Python language single command:
+- Execute script as part of an interactive shell:
 
-<blockquote>python -c <i>command</i></blockquote>
+<blockquote>python -i <i>script.py</i></blockquote>
+- Execute a Python expression:
+
+<blockquote>python -c "<i>expression</i>"</blockquote>
 - Run library module as a script (terminates option list):
 
 <blockquote>python -m <i>module</i> <i>arguments</i></blockquote>
+- Interactively debug a Python script:
+
+<blockquote>python -m pdb <i>script.py</i></blockquote>
