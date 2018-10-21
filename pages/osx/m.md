@@ -6,7 +6,7 @@
 
 `m battery status`
 
-- Turn off the bluetooth:
+- Turn off bluetooth:
 
 `m bluetooth off`
 
@@ -16,7 +16,7 @@
 
 - Enable Dock's auto hide feature:
 
-`m docker autohide YES`
+`m dock autohide YES`
 
 - Disable firewall:
 
