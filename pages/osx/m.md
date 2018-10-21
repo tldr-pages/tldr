@@ -18,6 +18,6 @@
 
 `m dock autohide YES`
 
-- Disable firewall:
+- Disable the firewall:
 
 `m firewall disable`
