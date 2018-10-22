@@ -24,4 +24,4 @@
 
 - Join a column from one file to another:
 
-`xsv join --no-case {{key_a}} {{path/to/file/a.csv}} {{column_b}} {{path/to/file/b.csv}} | xsv table`
+`xsv join --no-case {{column_a}} {{path/to/file/a.csv}} {{column_b}} {{path/to/file/b.csv}} | xsv table`
