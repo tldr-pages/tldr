@@ -1,23 +1,23 @@
 # gpasswd
 
-> Administer /etc/group and /etc/gshadow. Administer linux group.
+> Administer "/etc/group" and "/etc/gshadow". Administer linux group.
 
-- Define group administrotor(s), only for system administrotor:
+- Define group administrator(s):
 
-`gpasswd -A {{user1[,user2]}} {{group}}`
+`sudo gpasswd -A {{user1[,user2]}} {{group}}`
 
-- Set the list of group member, only for system administrotor:
+- Set the list of group member:
 
-`gpasswd -M {{user1[,user2]}} {{group}}`
+`sudo gpasswd -M {{user1[,user2]}} {{group}}`
 
-- Create password for the named group:
+- Create a password for the named group:
 
 `gpasswd {{group}}`
 
-- Add the user to the named group:
+- Add a user to the named group:
 
 `gpasswd -a {{user}} {{group}}`
 
-- Remove the user to the named group:
+- Remove a user to the named group:
 
 `gpasswd -d {{user}} {{group}}`
