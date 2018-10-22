@@ -6,7 +6,7 @@
 
 `yay {{package_name}}`
 
-- Synchronize and update all packages (includes AUR):
+- Synchronize and update all packages from the repos and AUR:
 
 `yay -Syu`
 
@@ -14,19 +14,19 @@
 
 `yay -Sua`
 
-- Install a new package (includes AUR):
+- Install a new package from the repos and AUR:
 
 `yay -S {{package_name}}`
 
-- Remove a package and its dependencies (includes AUR packages):
+- Remove a package and its dependencies:
 
 `yay -Rs {{package_name}}`
 
-- Search the package database for a keyword (includes AUR):
+- Search the package database for a keyword from the repos and AUR:
 
 `yay -Ss {{keyword}}`
 
-- List all currently installed packages (includes AUR packages):
+- List all currently installed packages:
 
 `yay -Qs`
 
