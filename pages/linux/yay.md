@@ -32,4 +32,4 @@
 
 - Show statistics for installed packages and system health:
 
-`yay -P --stats`
+`yay -Ps`
