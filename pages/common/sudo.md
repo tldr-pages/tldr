@@ -4,7 +4,7 @@
 
 - Run a command as the superuser:
 
-`sudo {{shutdown now}}`
+`sudo {{less /var/log/syslog}}`
 
 - Edit a file as the superuser with your default editor:
 
