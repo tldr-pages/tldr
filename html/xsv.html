@@ -1,0 +1,20 @@
+<b>xsv</b><br><br>
+<b>A fast CSV command line toolkit written in Rust.</b><br><br>
+- Inspect the headers of a file:
+
+<blockquote>xsv headers <i>path/to/file.csv</i></blockquote>
+- Count the number of entries:
+
+<blockquote>xsv count <i>path/to/file.csv</i></blockquote>
+- Get an overview of the shape of entries:
+
+<blockquote>xsv stats <i>path/to/file.csv</i> | xsv table</blockquote>
+- Select a few columns:
+
+<blockquote>xsv select <i>column_a,column_b</i> <i>path/to/file.csv</i></blockquote>
+- Show 10 random entries:
+
+<blockquote>xsv sample <i>10</i> <i>path/to/file.csv</i></blockquote>
+- Join a column from one file to another:
+
+<blockquote>xsv join --no-case <i>column_a</i> <i>path/to/file/a.csv</i> <i>column_b</i> <i>path/to/file/b.csv</i> | xsv table</blockquote>
