@@ -10,7 +10,7 @@
 
 `{{npm test}} | gnomon --type=elapsed-total`
 
-- Show an absolute timestamp in UTS:
+- Show an absolute timestamp in UTC:
 
 `{{npm test}} | gnomon --type=absolute`
 
