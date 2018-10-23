@@ -6,7 +6,7 @@
 
 `script logfile.log`
 
-- Stop recording
+- Stop recording:
 
 `exit`
 
@@ -17,4 +17,3 @@
 - Record without start and done messages (quiet):
 
 `script -q logfile.log`
-  
