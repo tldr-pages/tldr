@@ -6,7 +6,7 @@
 
 `pandoc {{input.md}} -o {{output.pdf}}`
 
-- Convert a file to a specific output format when the extension is ambiguous:
+- Force conversion to use a specific format:
 
 `pandoc {{input.docx}} --to {{markdown_github}} -o {{output.md}}`
 
