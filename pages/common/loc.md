@@ -6,7 +6,7 @@
 
 `loc`
 
-- Print lines of code in target dir:
+- Print lines of code in the target directory:
 
 `loc {{path/to/directory}}`
 
