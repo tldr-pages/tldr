@@ -2,7 +2,7 @@
 
 > Apache Kafka producer and consumer tool.
 
-- Consume messages, start with the newest offset:
+- Consume messages starting with the newest offset:
 
 `kafkacat -C -t {{topic}} -b {{brokers}}`
 
@@ -14,11 +14,11 @@
 
 `kafkacat -G {{group_id}} {{topic}} -b {{brokers}}`
 
-- Produce message, read from stdin:
+- Publish message read from stdin:
 
 ` echo {{message}} | kafkacat -P -t {{topic}} -b {{brokers}}`
 
-- Produce messages, read from file:
+- Publish messages by reading from a file:
 
 `kafkacat -P -t {{topic}} -b {{brokers}} {{path/to/file}}`
 
@@ -30,6 +30,6 @@
 
 `kafkacat -L -t {{topic}} -b {{brokers}}`
 
-- Get offset for a topic/partition for specific point in time:
+- Get offset for a topic/partition for a specific point in time:
 
 `kafkacat -Q -t {{topic}:{{partition}}:{{unix_timestamp}} -b {{brokers}}`
