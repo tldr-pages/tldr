@@ -1,6 +1,6 @@
 # script
 
-> Make a typescript file of a terminal session
+> Make a typescript file of a terminal session.
 
 - Start recording in file named "typescript":
 
@@ -20,4 +20,4 @@
 
 - Execute quietly without start and done messages:
 
-`script -q {{logfile.log}}
+`script -q {{logfile.log}}`
