@@ -2,6 +2,6 @@
 
 > Execute commands from a file in the current shell.
 
-- Evaluates contents of file:
+- Evaluate contents of a given file:
 
 `source {{path/to/file}}`
