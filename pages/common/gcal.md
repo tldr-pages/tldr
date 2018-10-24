@@ -16,7 +16,7 @@
 
 - Change starting day of week to 1st day of the week (Monday):
 
-`gcal --starting-day=1`
+`gcal --starting-day={{1}}`
 
 - Display the previous, current and next month surrounding today:
 
