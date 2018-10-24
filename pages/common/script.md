@@ -1,19 +1,23 @@
 # script
 
-> Make typescript of terminal session.
+> Make a typescript file of a terminal session
 
-- Start recording in new file:
+- Start recording in file named "typescript":
 
-`script logfile.log`
+`script`
 
 - Stop recording:
 
 `exit`
 
+- Start recording in file filename:
+
+`script {{filename}}`
+
 - Append to an existing log file:
 
-`command -a logfile.log`
+`script -a logfile.log`
 
-- Record without start and done messages (quiet):
+- Execute quietly without start and done messages:
 
 `script -q logfile.log`
