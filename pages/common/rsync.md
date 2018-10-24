@@ -11,9 +11,9 @@
 
 `rsync {{remote_host_name}}:{{remote_file_location}} {{local_file_location}}`
 
-- Transfer file in archive (to preserve attributes) and compressed (zipped) mode:
+- Transfer file in archive (to preserve attributes) and compressed (zipped) mode with verbose and human-readable progress:
 
-`rsync -az {{path/to/file}} {{remote_host_name}}:{{remote_host_location}}`
+`rsync -azvhP {{path/to/file}} {{remote_host_name}}:{{remote_host_location}}`
 
 - Transfer a directory and all its children from a remote to local:
 
