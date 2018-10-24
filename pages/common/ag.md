@@ -26,6 +26,6 @@
 
 `ag -g {{foo}}`
 
-- Find files containing "foo" on directory bar/baz:
+- Find files containing "foo" in a specific directory:
 
-`ag foo {{bar/baz}}`
+`ag {{foo}} {{path/to/folder}}`
