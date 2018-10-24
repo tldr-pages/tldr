@@ -1,6 +1,6 @@
 # darkhttpd
 
-> darkhttpd web server.
+> Darkhttpd web server.
 
 - Start server serving the specified document root:
 
