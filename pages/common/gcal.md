@@ -8,7 +8,7 @@
 
 - Display calendar for the month of February of the year 2010:
 
-`gcal 2 2010`
+`gcal {{2}} {{2010}}`
 
 - Provide calendar sheet with week numbers:
 
