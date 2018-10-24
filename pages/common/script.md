@@ -16,8 +16,8 @@
 
 - Append to an existing log file:
 
-`script -a logfile.log`
+`script -a {{logfile.log}}`
 
 - Execute quietly without start and done messages:
 
-`script -q logfile.log`
+`script -q {{logfile.log}}
