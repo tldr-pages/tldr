@@ -14,7 +14,7 @@
 
 `kafkacat -G {{group_id}} {{topic}} -b {{brokers}}`
 
-- Publish message read from stdin:
+- Publish message by reading from stdin:
 
 ` echo {{message}} | kafkacat -P -t {{topic}} -b {{brokers}}`
 
