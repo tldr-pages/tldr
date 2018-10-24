@@ -14,10 +14,6 @@
 
 `cp -r {{path/to/folder}} {{path/to/copy}}`
 
-- Copy a folder recursively into another folder, keeping the folder name:
-
-`cp -r {{path/to/folder}} {{path/to/target/parent/folder}}`
-
 - Copy a folder recursively, in verbose mode (shows files as they are copied):
 
 `cp -vr {{path/to/folder}} {{path/to/copy}}`
