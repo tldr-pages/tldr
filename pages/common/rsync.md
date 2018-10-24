@@ -11,7 +11,7 @@
 
 `rsync {{remote_host_name}}:{{remote_file_location}} {{local_file_location}}`
 
-- Transfer file in archive (to preserve attributes) and compressed (zipped) mode with verbose and human-readable progress
+- Transfer file in archive (to preserve attributes) and compressed (zipped) mode with verbose and human-readable progress:
 
 `rsync -azvhP {{path/to/file}} {{remote_host_name}}:{{remote_host_location}}`
 
