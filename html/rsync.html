@@ -6,9 +6,9 @@
 - Transfer file from remote host to local:
 
 <blockquote>rsync <i>remote_host_name</i>:<i>remote_file_location</i> <i>local_file_location</i></blockquote>
-- Transfer file in archive (to preserve attributes) and compressed (zipped) mode:
+- Transfer file in archive (to preserve attributes) and compressed (zipped) mode with verbose and human-readable progress:
 
-<blockquote>rsync -az <i>path/to/file</i> <i>remote_host_name</i>:<i>remote_host_location</i></blockquote>
+<blockquote>rsync -azvhP <i>path/to/file</i> <i>remote_host_name</i>:<i>remote_host_location</i></blockquote>
 - Transfer a directory and all its children from a remote to local:
 
 <blockquote>rsync -r <i>remote_host_name</i>:<i>remote_folder_location</i> <i>local_folder_location</i></blockquote>

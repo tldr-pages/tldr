@@ -6,9 +6,12 @@
 - Do not prompt for confirmation before overwriting existing files:
 
 <blockquote>mv -f <i>source</i> <i>target</i></blockquote>
-- Do not prompt for confirmation before overwriting existing files but write to standard error before overriding:
+- Prompt for confirmation before overwriting existing files, regardless of file permissions:
 
-<blockquote>mv -fi <i>source</i> <i>target</i></blockquote>
+<blockquote>mv -i <i>source</i> <i>target</i></blockquote>
+- Do not overwrite existing files at the target:
+
+<blockquote>mv -n <i>source</i> <i>target</i></blockquote>
 - Move files in verbose mode, showing files after they are moved:
 
 <blockquote>mv -v <i>source</i> <i>target</i></blockquote>

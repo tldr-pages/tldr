@@ -25,3 +25,7 @@
 - Find files with a name matching "foo":
 
 `ag -g {{foo}}`
+
+- Find files containing "foo" in a specific directory:
+
+`ag {{foo}} {{path/to/folder}}`

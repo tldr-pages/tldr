@@ -1,0 +1,17 @@
+<b>gocryptfs</b><br><br>
+<b>Encrypted overlay filesystem written in Go.</b><br><br>
+- Initialize an encrypted filesystem:
+
+<blockquote>gocryptfs -init <i>path/to/cipher_dir</i></blockquote>
+- Mount an encrypted filesystem:
+
+<blockquote>gocryptfs <i>path/to/cipher_dir</i> <i>path/to/mount_point</i></blockquote>
+- Mount with the explicit master key instead of password:
+
+<blockquote>gocryptfs --masterkey <i>path/to/cipher_dir</i> <i>path/to/mount_point</i></blockquote>
+- Change the password:
+
+<blockquote>gocryptfs --passwd <i>path/to/cipher_dir</i></blockquote>
+- Make an encrypted snapshot of a plain directory:
+
+<blockquote>gocryptfs --reverse <i>path/to/plain_dir</i> <i>path/to/cipher_dir</i></blockquote>
