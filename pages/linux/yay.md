@@ -1,7 +1,7 @@
 # yay
 
 > Yet Another Yogurt: A utility for Arch Linux to build and install packages from the Arch User Repository.
-> For other options see `pacman`.
+> Also see `pacman`.
 
 - Interactively search and install packages from the repos and AUR:
 
@@ -9,7 +9,7 @@
 
 - Synchronize and update all packages from the repos and AUR:
 
-`yay -Syu`
+`yay`
 
 - Synchronize and update only AUR packages:
 
