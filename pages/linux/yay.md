@@ -5,7 +5,7 @@
 
 - Interactively search and install packages from the repos and AUR:
 
-`yay {{package_name}}`
+`yay {{package_name|search_term}}`
 
 - Synchronize and update all packages from the repos and AUR:
 
