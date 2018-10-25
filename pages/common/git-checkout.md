@@ -6,6 +6,10 @@
 
 `git checkout -b {{branch_name}}`
 
+- Create and switch to a new branch based on an existing remote branch:
+
+`git checkout -b {{branch_name}} {{remote/source_branch}}`
+
 - Switch to an existing local branch:
 
 `git checkout {{branch_name}}`
