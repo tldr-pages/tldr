@@ -2,7 +2,7 @@
 
 > Administer "/etc/group" and "/etc/gshadow".
 
-- Define group administrator:
+- Define group administrators:
 
 `sudo gpasswd -A {{user1,user2}} {{group}}`
 
