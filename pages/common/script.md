@@ -10,11 +10,11 @@
 
 `exit`
 
-- Start recording in file filename:
+- Start recording in a given file:
 
-`script {{filename}}`
+`script {{logfile.log}}`
 
-- Append to an existing log file:
+- Append to an existing file:
 
 `script -a {{logfile.log}}`
 
