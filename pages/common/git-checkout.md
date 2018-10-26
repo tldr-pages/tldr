@@ -6,9 +6,9 @@
 
 `git checkout -b {{branch_name}}`
 
-- Create and switch to a new branch based on an existing remote branch:
+- Create and switch to a new branch based on a specific reference (branch, remote/branch, tag are examples of valid references):
 
-`git checkout -b {{branch_name}} {{remote/source_branch}}`
+`git checkout -b {{branch_name}} {{reference}}`
 
 - Switch to an existing local branch:
 
