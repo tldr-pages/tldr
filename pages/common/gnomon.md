@@ -14,10 +14,6 @@
 
 `{{npm test}} | gnomon --type=absolute`
 
-- Format the absolute timestamp, using PHP date format strings:
-
-`{{npm test}} | gnomon --type=absolute --format "H:i:s.u 0"`
-
 - High threshold. If the elapsed time for a line is equal to or higher than this value in seconds, then the timestamp will be colored bright red:
 
 `{{npm test}} | gnomon --high 0.5`
