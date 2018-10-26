@@ -4,12 +4,12 @@
 
 - Run an optimization or analysis on a bitcode file:
 
-`opt {{-passname}} {{file.bc}} -S -o {{file_opt.bc}}`
+`opt {{-passname}} {{path/to/file.bc}} -S -o {{file_opt.bc}}`
 
-- Print the Control Flow Graph of a function to a "dot" file:
+- Output the Control Flow Graph of a function to a "dot" file:
 
-`opt {{-dot-cfg}} -S {{file.bc}} -disable-output`
+`opt {{-dot-cfg}} -S {{path/to/file.bc}} -disable-output`
 
-- Optimize the program with "-O2" and write its output to another file:
+- Optimize the program at level 2 and output the result to another file:
 
-`opt -O2 {{file.bc}} -S -o {{file_opt.bc}}`
+`opt -O2 {{path/to/file.bc}} -S -o {{file_opt.bc}}`
