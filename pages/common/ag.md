@@ -6,6 +6,10 @@
 
 `ag {{foo}}`
 
+- Find files containing "foo" in a specific directory:
+
+`ag {{foo}} {{path/to/folder}}`
+
 - Find files containing "foo", but only list the filenames:
 
 `ag -l {{foo}}`
@@ -25,7 +29,3 @@
 - Find files with a name matching "foo":
 
 `ag -g {{foo}}`
-
-- Find files containing "foo" in a specific directory:
-
-`ag {{foo}} {{path/to/folder}}`
