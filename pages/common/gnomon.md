@@ -14,10 +14,10 @@
 
 `{{npm test}} | gnomon --type=absolute`
 
-- High threshold. If the elapsed time for a line is equal to or higher than this value in seconds, then the timestamp will be colored bright red:
+- Set a high threshold of 0.5 seconds for the elapsed time; exceeding which the timestamp will be colored bright red:
 
 `{{npm test}} | gnomon --high {{0.5}}`
 
-- Medium threshold. If the elapsed time for a line is equal to or higher than this value in seconds, then the timestamp will be colored bright yellow:
+- Set a medium threshold of 0.2 seconds. (Timestamp will be colored bright yellow):
 
-`{{npm test}} | gnomon --medium {{0.5}}`
+`{{npm test}} | gnomon --medium {{0.2}}`
