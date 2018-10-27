@@ -16,7 +16,7 @@
 
 - Start top displaying only processes owned by given user:
 
-`top -user {{user_name}}`
+`top -user {{username}}`
 
 - Get help about interactive commands:
 
