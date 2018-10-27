@@ -2,7 +2,7 @@
 
 > Lock X display until user's password is supplied.
 
-- Lock the display and show a padlock instead of your cursor:
+- Lock the display and show a padlock instead of the cursor:
 
 `xtrlock`
 
