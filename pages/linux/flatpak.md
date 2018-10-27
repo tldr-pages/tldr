@@ -20,7 +20,7 @@
 
 - Add a remote source:
 
-`flatpak remote-add --if-not-exists {{remote-name}} {{remote-url}}`
+`flatpak remote-add --if-not-exists {{remote_name}} {{remote_url}}`
 
 - List all configured remote sources:
 
