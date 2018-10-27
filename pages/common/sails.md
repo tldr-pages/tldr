@@ -8,7 +8,7 @@
 
 - Create new Sails project:
 
-`sails new {{projectName}}`
+`sails new {{project_name}}`
 
 - Generate Sails API:
 

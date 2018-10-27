@@ -12,4 +12,4 @@
 
 - Generate a controller, views and related files for the CRUD actions on the specified model class:
 
-`php yii {{gii/crud}} --modelClass={{ModelName}} --controllerClass={{ControllerName}}`
+`php yii {{gii/crud}} --modelClass={{model_name}} --controllerClass={{controller_name}}`
