@@ -1,6 +1,6 @@
 # xtrlock
 
-> Lock X display until user's password is supplied.
+> Lock the X display until the user supplies their password.
 
 - Lock the display and show a padlock instead of the cursor:
 
