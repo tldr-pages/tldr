@@ -4,7 +4,7 @@
 
 - Start a PostgreSQL server:
 
-`pg_ctl -D {{data_directory}} -l {{log_file_name}}`
+`pg_ctl -D {{data_directory}} -l {{log_filename}}`
 
 - Initialize a PostgreSQL database cluster:
 

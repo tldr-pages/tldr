@@ -8,7 +8,7 @@
 
 - Add file resource:
 
-`add file {{file_name}} as {{alias}};`
+`add file {{filename}} as {{alias}};`
 
 - Add archive resource:
 

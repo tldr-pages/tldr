@@ -24,4 +24,4 @@
 
 - Find out which package owns a file:
 
-`dpkg -S {{file_name}}`
+`dpkg -S {{filename}}`

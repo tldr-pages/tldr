@@ -5,7 +5,7 @@
 
 - Start SC-IM:
 
-`scim {{file_name}}.csv`
+`scim {{filename}}.csv`
 
 - Enter a string into the current cell:
 
