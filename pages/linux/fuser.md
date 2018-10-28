@@ -7,18 +7,18 @@
 
 `fuser -n tcp {{port}}`
 
-- Find which process accessing a directory
+- Find which process accessing a directory:
 
 `fuser {{path_to_dir}}`
 
-- Killing and signalling processes
+- Killing and signalling processes:
 
 `fuser -k {{path_to_dir}}`
 
-- Find which process accessing A file
+- Find which process is accessing a file:
 
 `fuser -m {{path_to_dir}}`
 
-- Verbose mode
+- Verbose mode:
 
 `fuser -v`
