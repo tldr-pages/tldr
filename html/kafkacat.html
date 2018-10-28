@@ -1,0 +1,26 @@
+<b>kafkacat</b><br><br>
+<b>Apache Kafka producer and consumer tool.</b><br><br>
+- Consume messages starting with the newest offset:
+
+<blockquote>kafkacat -C -t <i>topic</i> -b <i>brokers</i></blockquote>
+- Consume messages starting with the oldest offset and exit after the last message is received:
+
+<blockquote>kafkacat -C -t <i>topic</i> -b <i>brokers</i> -o beginning -e</blockquote>
+- Consume messages as a Kafka consumer group:
+
+<blockquote>kafkacat -G <i>group_id</i> <i>topic</i> -b <i>brokers</i></blockquote>
+- Publish message by reading from stdin:
+
+<blockquote> echo <i>message</i> | kafkacat -P -t <i>topic</i> -b <i>brokers</i></blockquote>
+- Publish messages by reading from a file:
+
+<blockquote>kafkacat -P -t <i>topic</i> -b <i>brokers</i> <i>path/to/file</i></blockquote>
+- List metadata for all topics and brokers:
+
+<blockquote>kafkacat -L -b <i>brokers</i></blockquote>
+- List metadata for a specific topic:
+
+<blockquote>kafkacat -L -t <i>topic</i> -b <i>brokers</i></blockquote>
+- Get offset for a topic/partition for a specific point in time:
+
+<blockquote>kafkacat -Q -t <i>topic}:<i>partition</i>:<i>unix_timestamp</i> -b <i>brokers</i></blockquote>
