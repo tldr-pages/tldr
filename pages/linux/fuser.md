@@ -11,7 +11,7 @@
 
 `fuser {{path_to_dir}}`
 
-- Killing and signalling processes:
+- Kill and signal processes:
 
 `fuser -k {{path_to_dir}}`
 
