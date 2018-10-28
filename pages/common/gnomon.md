@@ -18,6 +18,6 @@
 
 `{{npm test}} | gnomon --high {{0.5}}`
 
-- Set a medium threshold of 0.2 seconds. (Timestamp will be colored bright yellow):
+- Set a medium threshold of 0.2 seconds (Timestamp will be colored bright yellow):
 
 `{{npm test}} | gnomon --medium {{0.2}}`
