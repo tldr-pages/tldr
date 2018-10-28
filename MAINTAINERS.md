@@ -12,9 +12,12 @@ enabling them to label and close issues, and review and merge pull requests.
 If you are an owner of the organization, you should be able to see an automated list
 [here](https://github.com/tldr-pages/tldr/settings/collaboration).
 
- - Max Xu ([@jsonbruce](https://github.com/jsonbruce))
- - Jeef ([@jeeftor](https://github.com/jeeftor))
- - Muhammad Falak R Wani ([@mfrw](https://github.com/mfrw))
+ - Max Xu ([@jsonbruce](https://github.com/jsonbruce)):
+   [13 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — present
+ - Jeef ([@jeeftor](https://github.com/jeeftor)):
+   [12 March 2017](https://github.com/tldr-pages/tldr/issues/1209#issuecomment-285924778) — present
+ - Muhammad Falak R Wani ([@mfrw](https://github.com/mfrw)):
+   [7 September 2018](https://github.com/tldr-pages/tldr/issues/2306) — present
 
 
 ## Current organization members
@@ -25,6 +28,7 @@ a member also has write access to all the repositories in the tldr-pages organiz
 An automated list can be found [here](https://github.com/orgs/tldr-pages/people).
 
  - Owen Voke ([@pxgamer](https://github.com/pxgamer))
+   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — present
 
 
 ## Current organization owners
