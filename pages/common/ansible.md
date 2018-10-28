@@ -17,12 +17,12 @@
 
 - Execute a command on a group of hosts by invoking command module with arguments:
 
-`ansible {{group}} -m command -a '{{my command}}'`
+`ansible {{group}} -m command -a '{{my_command}}'`
 
 - Execute a command with administrative privileges:
 
-`ansible {{group}} --become --ask-become-pass -m command -a '{{my command}}'`
+`ansible {{group}} --become --ask-become-pass -m command -a '{{my_command}}'`
 
 - Execute a command using a custom inventory file:
 
-`ansible {{group}} -i {{inventory_file}} -m command -a '{{my command}}'`
+`ansible {{group}} -i {{inventory_file}} -m command -a '{{my_command}}'`

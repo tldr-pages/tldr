@@ -17,7 +17,7 @@
 
 - List available tests, filtered by a given search pattern:
 
-`cppcheck --errorlist | grep "{{search pattern}}"`
+`cppcheck --errorlist | grep "{{search_pattern}}"`
 
 - Check a given file, ignoring specific tests:
 
