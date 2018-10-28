@@ -10,10 +10,10 @@
 
 `ab -n 100 -c 10 {{url}}`
 
-- Use keep alive
+- Use keep alive:
 
 `ab -k {{url}}`
 
-- Use time limit. Represents the maximum number of seconds to spend for benchmarking.
+- Set the maximum number of seconds to spend for benchmarking:
 
 `ab -t 60 {{url}}`
