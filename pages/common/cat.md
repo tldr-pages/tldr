@@ -17,3 +17,11 @@
 - Number all output lines:
 
 `cat -n {{file}}`
+
+- Display "$" at end of each line.
+
+`cat -E {{file}}`
+
+- Display TAB characters as ^I.
+
+`cat -T {{file}}`
