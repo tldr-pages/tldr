@@ -25,6 +25,7 @@ exceptions can always be considered, via open community discussion.)
 
 - **Regular contributors should be added as collaborators in the repository.**
   Specifically: once a contributor has had _5 non-trivial pull requests merged_
+  (see `https://github.com/tldr-pages/tldr/commits?author=<username>`)
   on a repository under the tldr-pages organization,
   they should be invited to become
   a **collaborator** in that repository.
@@ -35,8 +36,10 @@ exceptions can always be considered, via open community discussion.)
   (Maintenance work is understood as facilitating contributions by other people,
   which in this project consists primarily of reviewing and/or merging PRs.)
   Specifically: once a repository collaborator has _merged at least 10 PRs_
+  (see `https://github.com/tldr-pages/tldr/commits?committer=<username>`)
   and submitted at least _5 non-trivial reviews to PRs_
-  (either the same or different ones)
+  (see `https://github.com/tldr-pages/tldr/pulls?q=reviewed-by:<username>`),
+  which can overlap with the 10 they merged themselves,
   they should be invited to become a
   [**member**](https://github.com/orgs/tldr-pages/people)
   of the tldr-pages organization.
@@ -49,6 +52,7 @@ exceptions can always be considered, via open community discussion.)
 - **Maintainers who have been helping out for a while should become org owners.**
   Specifically: members of the tldr-pages organization
   who remain _active for at least 6 months_
+  (see `https://github.com/tldr-pages/tldr/blob/master/MAINTAINERS.md#current-organization-members`)
   should be invited to become an
   [**owner**](https://help.github.com/articles/permission-levels-for-an-organization/)
   of the tldr-pages organization.
@@ -190,4 +194,7 @@ close the issue opened to track this process.
 
 
 ## Who can change roles
-Owners of the tldr-pages organization can change roles. A list of these people can be found in [MAINTAINERS.md](https://github.com/tldr-pages/tldr/blob/master/MAINTAINERS.md).
+Any member of the community can (and is encouraged to) propose role changes
+by following the process outlined [above](#how-to-change-roles).
+[Owners of the tldr-pages organization](MAINTAINERS.md#current-organization-owners)
+can then perform the actual role changes.
