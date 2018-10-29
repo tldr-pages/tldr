@@ -2,7 +2,7 @@
 
 > Enable and disable wireless devices.
 
-- List devices
+- List devices:
 
 `rfkill`
 
