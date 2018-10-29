@@ -10,6 +10,6 @@
 
 `renice -n {{niceness_value}} -u {{user}}`
 
-- Change priority of all processes that belongs to a group of processes (PPID):
+- Change priority of all processes that belong to a process group:
 
 `renice -n {{niceness_value}} -g {{PPID}}`
