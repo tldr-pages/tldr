@@ -19,5 +19,5 @@
 `scheme --eval {{"(define foo 'x)"}}`
 
 - Open the REPL in quiet mode:
-  
+
 `scheme --quiet`
