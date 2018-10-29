@@ -8,7 +8,7 @@
 
 - Run a scheme program (with no REPL output):
 
-`scheme --quiet < script.scm`
+`scheme --quiet < {{script.scm}}`
 
 - Load a scheme program into the REPL:
 
@@ -16,8 +16,8 @@
 
 - Load scheme expressions into the REPL:
 
-`scheme --eval "(define foo 'x)"`
+`scheme --eval {{"(define foo 'x)"}}`
 
-- Suppress the startup report of versions and copyrights, and the valediction.
+- Open the REPL in quiet mode:
   
-  `scheme --quiet`
+`scheme --quiet`
