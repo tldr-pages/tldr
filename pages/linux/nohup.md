@@ -4,4 +4,4 @@
 
 - Run COMMAND, ignoring hangup signals:
 
-`nohup command-with-options &`
+`nohup {{command-with-options}} &`
