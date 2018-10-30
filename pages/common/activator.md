@@ -6,7 +6,7 @@
 
 `activator run`
 
-- compile an sbt project:
+- Compile an sbt project:
 
 `activator compile`
 
