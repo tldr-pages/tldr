@@ -1,6 +1,6 @@
 # ffmpeg
 
-> ffmpeg is a very fast video and audio converter.
+> A very fast video and audio converter.
 
 - Convert a video file with 64 kbit/s as bitrate:
 
