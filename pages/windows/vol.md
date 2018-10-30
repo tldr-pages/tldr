@@ -6,6 +6,6 @@
 
 `vol`
 
-- Display the label and serial number for a volume:
+- Display the label and serial number for a specific volume:
 
 `vol {{D:}}`
