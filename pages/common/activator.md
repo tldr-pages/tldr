@@ -14,7 +14,7 @@
 
 `activator -jvm-debug 9999 run`
 
-- to list available feature/options:
+- List available features and options:
 
 `activator help`
 
