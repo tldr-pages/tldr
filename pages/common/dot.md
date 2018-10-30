@@ -8,4 +8,4 @@
 
 - Create an SVG from DOT file:
 
-`dot -Tsvg -o{{path/to/out_file.svg}} {{path/to/file.dot}}`
+`dot -Tsvg -o {{path/to/out_file.svg}} {{path/to/file.dot}}`

@@ -1,0 +1,17 @@
+<b>iperf3</b><br><br>
+<b>Traffic generator for testing network bandwidth.</b><br><br>
+- Run iperf3 as a server:
+
+<blockquote>iperf3 -s</blockquote>
+- Run an iperf3 server on a specific port:
+
+<blockquote>iperf3 -s -p <i>port</i></blockquote>
+- Start bandwidth test:
+
+<blockquote>iperf3 -c <i>server</i></blockquote>
+- Run iperf3 in multiple parallel streams:
+
+<blockquote>iperf3 -c <i>server</i> -P <i>streams</i></blockquote>
+- Reverse direction of the test. Server sends data to the client:
+
+<blockquote>iperf3 -c <i>server</i> -R</blockquote>

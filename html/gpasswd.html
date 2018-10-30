@@ -1,0 +1,17 @@
+<b>gpasswd</b><br><br>
+<b>Administer "/etc/group" and "/etc/gshadow".</b><br><br>
+- Define group administrators:
+
+<blockquote>sudo gpasswd -A <i>user1,user2</i> <i>group</i></blockquote>
+- Set the list of group members:
+
+<blockquote>sudo gpasswd -M <i>user1,user2</i> <i>group</i></blockquote>
+- Create a password for the named group:
+
+<blockquote>gpasswd <i>group</i></blockquote>
+- Add a user to the named group:
+
+<blockquote>gpasswd -a <i>user</i> <i>group</i></blockquote>
+- Remove a user from the named group:
+
+<blockquote>gpasswd -d <i>user</i> <i>group</i></blockquote>

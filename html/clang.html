@@ -9,3 +9,6 @@
 - Include libraries located at a different path than the source file:
 
 <blockquote>clang <i>input_source.c</i> -o <i>output_executable</i> -I<i>header_path</i> -L<i>library_path</i> -l<i>library_name</i></blockquote>
+- Compile source code into LLVM Intermediate Representation (IR):
+
+<blockquote>clang -S -emit-llvm <i>file.c</i> -o <i>file.ll</i></blockquote>

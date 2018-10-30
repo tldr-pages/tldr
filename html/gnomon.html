@@ -1,0 +1,17 @@
+<b>gnomon</b><br><br>
+<b>Utility to annotate console logging statements with timestamps and find slow processes.</b><br><br>
+- Use UNIX (or DOS) pipes to pipe the stdout of any command through gnomon:
+
+<blockquote><i>npm test</i> | gnomon</blockquote>
+- Show number of seconds since the start of the process:
+
+<blockquote><i>npm test</i> | gnomon --type=elapsed-total</blockquote>
+- Show an absolute timestamp in UTC:
+
+<blockquote><i>npm test</i> | gnomon --type=absolute</blockquote>
+- Set a high threshold of 0.5 seconds for the elapsed time; exceeding which the timestamp will be colored bright red:
+
+<blockquote><i>npm test</i> | gnomon --high <i>0.5</i></blockquote>
+- Set a medium threshold of 0.2 seconds (Timestamp will be colored bright yellow):
+
+<blockquote><i>npm test</i> | gnomon --medium <i>0.2</i></blockquote>
