@@ -18,6 +18,6 @@
 
 `activator help`
 
-- build a binary version of your sbt project to deploy :
+- Build a binary version of your sbt project to deploy:
 
 `activator clean compile dist`
