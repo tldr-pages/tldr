@@ -15,10 +15,10 @@
 
 `fuser -k {{path_to_dir}}`
 
-- Find which process is accessing a file:
+- Find which processes are accessing a file:
 
-`fuser -m {{path_to_dir}}`
+`fuser -m {{path_to_file}}`
 
-- Verbose mode:
+- The verbose mode shows the fields USER, PID, ACCESS and COMMAND. The output is similar to ps:
 
 `fuser -v`
