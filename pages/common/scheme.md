@@ -1,6 +1,6 @@
 # scheme
 
-> MIT Scheme language interperter and REPL (interactive shell).
+> MIT Scheme language interpreter and REPL (interactive shell).
 
 - Open an interactive shell (REPL):
 
