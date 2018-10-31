@@ -13,3 +13,7 @@
 - Include libraries located at a different path than the source file:
 
 `clang {{input_source.c}} -o {{output_executable}} -I{{header_path}} -L{{library_path}} -l{{library_name}}`
+
+- Compile source code into LLVM Intermediate Representation (IR):
+
+`clang -S -emit-llvm {{file.c}} -o {{file.ll}}`

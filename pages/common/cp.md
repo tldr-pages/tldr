@@ -8,7 +8,7 @@
 
 - Copy a file into another folder, keeping the filename:
 
-`cp {{path/to/file.ext}} {{path/to/target/parent/folder}}`
+`cp {{path/to/file.ext}} {{path/to/target_parent_folder}}`
 
 - Copy a folder recursively to another location:
 
@@ -20,8 +20,8 @@
 
 - Copy the contents of a folder into another folder:
 
-`cp -r {{path/to/source/folder/*}} {{path/to/target/folder}}`
+`cp -r {{path/to/source_folder/*}} {{path/to/target_folder}}`
 
 - Copy text files to another location, in interactive mode (prompts user before overwriting):
 
-`cp -i {{*.txt}} {{path/to/source/}}`
+`cp -i {{*.txt}} {{path/to/target_folder}}`
