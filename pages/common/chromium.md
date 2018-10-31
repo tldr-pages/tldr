@@ -4,7 +4,7 @@
 
 - Open a file:
 
-`chromium {{file.html}}`
+`chromium {{path/to/file.html}}`
 
 - Open an URL:
 
