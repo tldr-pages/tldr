@@ -1,0 +1,17 @@
+<b>rfkill</b><br><br>
+<b>Enable and disable wireless devices.</b><br><br>
+- List devices:
+
+<blockquote>rfkill</blockquote>
+- Filter by columns:
+
+<blockquote>rfkill -o <i>ID,TYPE,DEVICE</i></blockquote>
+- Block devices by type (e.g. bluetooth, wlan):
+
+<blockquote>rfkill block <i>bluetooth</i></blockquote>
+- Unblock devices by type (e.g. bluetooth, wlan):
+
+<blockquote>rfkill unblock <i>wlan</i></blockquote>
+- Output in JSON format:
+
+<blockquote>rfkill -J</blockquote>

@@ -1,0 +1,23 @@
+<b>kubeadm</b><br><br>
+<b>Command line interface for creating and managing Kubernetes clusters.</b><br><br>
+- Create a Kubernetes master node:
+
+<blockquote>kubeadm init</blockquote>
+- Bootstrap a Kubernetes worker node and join it to a cluster:
+
+<blockquote>kubeadm join --token <i>token</i></blockquote>
+- Create a new bootstrap token with a TTL of 12 hours:
+
+<blockquote>kubeadm token create --ttl <i>12h0m0s</i></blockquote>
+- Check if the Kubernetes cluster is upgradeable and which versions are available:
+
+<blockquote>kubeadm upgrade plan</blockquote>
+- Upgrade Kubernetes cluster to a specified version:
+
+<blockquote>kubeadm upgrade apply <i>version</i></blockquote>
+- View the kubeadm ConfigMap containing the cluster's configuration:
+
+<blockquote>kubeadm config view</blockquote>
+- Revert changes made to the host by 'kubeadm init' or 'kubeadm join':
+
+<blockquote>kubeadm reset</blockquote>
