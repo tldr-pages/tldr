@@ -11,9 +11,9 @@
 
 `fuser {{path_to_dir}}`
 
-- Kill and signal processes:
+- Kill and signal processes accessing a file:
 
-`fuser -k {{path_to_dir}}`
+`fuser -k {{path_to_file}}`
 
 - Find which processes are accessing a file:
 
