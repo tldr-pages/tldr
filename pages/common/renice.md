@@ -12,4 +12,4 @@
 
 - Change priority of all processes that belong to a process group:
 
-`renice -n {{niceness_value}} -g {{PPID}}`
+`renice -n {{niceness_value}} --pgrp {{process_group}}`
