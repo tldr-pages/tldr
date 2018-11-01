@@ -19,6 +19,6 @@
 
 `dirs -c`
 
-- Show indexes
+- Show indexes:
 
 `dirs -v`
