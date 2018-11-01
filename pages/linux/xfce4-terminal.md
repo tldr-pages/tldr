@@ -8,7 +8,7 @@
 
 - Set the initial title:
 
-`xfce4-terminal --initial-title "{{initial_title}}"
+`xfce4-terminal --initial-title "{{initial_title}}"`
 
 - Open a new tab in the current terminal window:
 
