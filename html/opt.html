@@ -1,0 +1,11 @@
+<b>opt</b><br><br>
+<b>A tool that takes LLVM source files and runs specified optimizations and/or analyses on them.</b><br><br>
+- Run an optimization or analysis on a bitcode file:
+
+<blockquote>opt -<i>passname</i> <i>path/to/file.bc</i> -S -o <i>file_opt.bc</i></blockquote>
+- Output the Control Flow Graph of a function to a "dot" file:
+
+<blockquote>opt <i>-dot-cfg</i> -S <i>path/to/file.bc</i> -disable-output</blockquote>
+- Optimize the program at level 2 and output the result to another file:
+
+<blockquote>opt -O2 <i>path/to/file.bc</i> -S -o <i>path/to/output_file.bc</i></blockquote>

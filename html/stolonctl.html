@@ -1,0 +1,14 @@
+<b>Stolon</b><br><br>
+<b>A cloud native PostgreSQL manager for PostgreSQL high availability.</b><br><br>
+- Get cluster status:
+
+<blockquote>stolonctl --cluster-name <i>cluster_name</i> --store-backend <i>store_backend</i> --store-endpoints <i>store_endpoints</i> status</blockquote>
+- Get cluster data:
+
+<blockquote>stolonctl --cluster-name <i>cluster_name</i> --store-backend <i>store_backend</i> --store-endpoints <i>store_endpoints</i> clusterdata</blockquote>
+- Get cluster specification:
+
+<blockquote>stolonctl --cluster-name <i>cluster_name</i> --store-backend <i>store_backend</i> --store-endpoints <i>store_endpoints</i> spec</blockquote>
+- Update cluster specification with a patch in json format:
+
+<blockquote>stolonctl --cluster-name <i>cluster_name</i> --store-backend <i>store_backend</i> --store-endpoints <i>store_endpoints</i> update --patch '<i>cluster_spec</i>'</blockquote>
