@@ -12,7 +12,7 @@
 
 - Convert between units with quantities:
 
-`units {{15 pounds}} {{kilograms}}`
+`units {{"15 pounds"}} {{kilograms}}`
 
 - Show the conversion between two compound units:
 

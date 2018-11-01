@@ -4,7 +4,7 @@
 
 - Create local alias for director:
 
-`bosh alias-env {{environment-name}} -e {{ip address or url}} --ca-cert {{ca_certificate}}`
+`bosh alias-env {{environment_name}} -e {{ip_address|url}} --ca-cert {{ca_certificate}}`
 
 - List environments:
 
@@ -24,11 +24,11 @@
 
 - Ssh into virtual machine:
 
-`bosh -e {{environment}} ssh {{virtual machine}} -d {{deployment}}`
+`bosh -e {{environment}} ssh {{virtual_machine}} -d {{deployment}}`
 
 - Upload stemcell:
 
-`bosh -e {{environment}} upload-stemcell {{stemcell file or url}}`
+`bosh -e {{environment}} upload-stemcell {{stemcell_file|url}}`
 
 - Show current cloud config:
 

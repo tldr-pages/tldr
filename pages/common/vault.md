@@ -12,7 +12,7 @@
 
 - Authenticate the CLI client against the Vault server, using an authentication token:
 
-`vault auth {{authentication-token}}`
+`vault auth {{authentication_token}}`
 
 - Store a new secret in the vault, using the generic back-end called "secret":
 
