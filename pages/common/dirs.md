@@ -18,3 +18,7 @@
 - Clear the directory stack:
 
 `dirs -c`
+
+- Show indexes
+
+`dirs -v`
