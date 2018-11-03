@@ -16,11 +16,11 @@
 
 - Execute a command in a new terminal window:
 
-`xfce4-terminal --command {{command_with_args}}`
+`xfce4-terminal --command "{{command_with_args}}"`
 
 - Keep the terminal around after the executed command finishes executing:
 
-`xfce4-terminal --command {{command}} --hold`
+`xfce4-terminal --command "{{command_with_args}}" --hold`
 
 - Open multiple new tabs, executing a command in each:
 
