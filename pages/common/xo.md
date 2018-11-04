@@ -2,11 +2,11 @@
 
 > A pluggable zero configuration linting utility for JavaScript.
 
-- Lint files in `src`:
+- Lint files in "src":
 
 `xo`
 
-- Lint on files:
+- Lint on a gives set of files:
 
 `xo {{filename}}.js {{filename1}}.js`
 
