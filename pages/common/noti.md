@@ -1,6 +1,6 @@
 # noti
 
-> Monitor a process and trigger a notification.
+> Monitor a process and trigger a banner notification.
 
 - Display a notification when tar finishes compressing files:
 
@@ -10,6 +10,6 @@
 
 `{{command_to_watch}}; noti`
 
-- Monitor a process by PID and trigger a notification when the pid disappears:
+- Monitor a process by PID and trigger a notification when the PID disappears:
 
 `noti -w {{process_id}}`
