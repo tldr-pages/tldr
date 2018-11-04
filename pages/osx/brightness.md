@@ -1,12 +1,12 @@
 # brightness
 
-> Set and obtain the brightness level of all internal and certain external displays.
+> Get and set the brightness level of all internal and certain external displays.
 
-- Set 100% brightness:
+- Set the brightness to 100%::
 
 `brightness {{1}}`
 
-- Set 50% brightness:
+- Set the brightness to 50%::
 
 `brightness {{0.5}}`
 
