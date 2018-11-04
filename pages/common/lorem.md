@@ -2,7 +2,7 @@
 
 > Create more or less random lorem ipsum text.
 
-- Print the number of words you want:
+- Print the specified number of words:
 
 `lorem -n {{20}}`
 
