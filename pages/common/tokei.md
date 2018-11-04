@@ -10,7 +10,7 @@
 
 `tokei {{path/to/folder}} -e {{*.min.js}}`
 
-- Print out statistics on individual files in a folder:
+- Print out statistics for individual files in a folder:
 
 `tokei {{path/to/folder}} --files`
 
