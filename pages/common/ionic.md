@@ -1,6 +1,7 @@
 # ionic
 
 > Ionic project manager and builder.
+> A framework to build hybrid mobile apps.
 
 - Create a new project:
 
@@ -20,7 +21,7 @@
 
 - Run app on an android/ios device:
 
-`ionic cordova run {{android}} --device`
+`ionic cordova run {{android|ios}} --device`
 
 - Check the health of a ionic app:
 
