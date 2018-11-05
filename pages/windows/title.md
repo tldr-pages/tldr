@@ -4,4 +4,4 @@
 
 - Set the title of the current command prompt window:
 
-`title {{new_title}}` 
+`title {{new_title}}`
