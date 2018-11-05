@@ -1,6 +1,6 @@
 # pyenv virtualenv
 
-> Create virtual environments based on your installed Python distributions.
+> Create virtual environments based on one's installed Python distributions.
 
 - Create a new Python 3.6.6 virtual environment:
 
