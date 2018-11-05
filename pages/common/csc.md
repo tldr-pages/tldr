@@ -22,7 +22,7 @@
 
 `csc /resource:{{path/to/input_file.cs}},{{namespace.string.name}}`
 
-- Automatically generate XML documentation: 
+- Automatically generate XML documentation:
 
 `csc /doc:{{path/to/output.xml}} {{path/to/input_file.cs}}`
 
