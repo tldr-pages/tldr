@@ -1,0 +1,17 @@
+<b>bw</b><br><br>
+<b>A CLI to access and manage a Bitwarden vault.</b><br><br>
+- Log in to a Bitwarden user account:
+
+<blockquote>bw login</blockquote>
+- Log out of a Bitwarden user account:
+
+<blockquote>bw logout</blockquote>
+- Search and display items from Bitwarden vault:
+
+<blockquote>bw list items --search <i>github</i></blockquote>
+- Display a particular item from Bitwarden vault:
+
+<blockquote>bw get item <i>github</i></blockquote>
+- Create a folder in Bitwarden vault:
+
+<blockquote><i>echo -n '{"name":"My Folder1"}' | base64</i> | bw create folder</blockquote>

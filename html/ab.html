@@ -2,7 +2,13 @@
 <b>Apache Benchmarking tool. The simplest tool to perform a load testing.</b><br><br>
 - Execute 100 HTTP GET requests to given URL:
 
-<blockquote>ab -n 100 <i>url</i></blockquote>
+<blockquote>ab -n <i>100</i> <i>url</i></blockquote>
 - Execute 100 HTTP GET requests, processing up to 10 requests concurrently, to given URL:
 
-<blockquote>ab -n 100 -c 10 <i>url</i></blockquote>
+<blockquote>ab -n <i>100</i> -c <i>10</i> <i>url</i></blockquote>
+- Use keep alive:
+
+<blockquote>ab -k <i>url</i></blockquote>
+- Set the maximum number of seconds to spend for benchmarking:
+
+<blockquote>ab -t <i>60</i> <i>url</i></blockquote>
