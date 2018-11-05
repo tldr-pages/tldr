@@ -6,7 +6,7 @@
 
 `eslint --init`
 
-- Lint on files:
+- Lint on a given set of files:
 
 `eslint {{filename}}.js {{filename1}}.js`
 
