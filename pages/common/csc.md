@@ -2,7 +2,7 @@
 
 > The Microsoft C# Compiler.
 
-- Compile one or more C# files to a CIL executable
+- Compile one or more C# files to a CIL executable:
 
 `csc {{path/to/input_file_a.cs}} {{path/to/input_file_b.cs}}` 
 
