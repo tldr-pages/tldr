@@ -2,7 +2,7 @@
 
 > A tool for displaying or configuring the system time zone.
 
-- Display the current time zone:
+- Get the current time zone:
 
 `tzutil /g`
 
