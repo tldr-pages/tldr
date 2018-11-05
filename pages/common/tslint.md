@@ -6,7 +6,7 @@
 
 `tslint --init`
 
-- Lint on files:
+- Lint on a given set of files:
 
 `tslint {{filename}}.js {{filename1}}.js`
 
