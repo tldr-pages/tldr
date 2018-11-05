@@ -24,4 +24,4 @@
 
 - Use a proxy server:
 
-`chromium --proxy-server="{{socks5://foobar:66}}" {{example.com}}`
+`chromium --proxy-server="{{socks5://hostname:66}}" {{example.com}}`
