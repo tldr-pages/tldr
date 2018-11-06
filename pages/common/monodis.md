@@ -8,7 +8,7 @@
 
 - Save the output to a file:
 
-`monodis --output={{path/to/output.il}}`
+`monodis --output={{path/to/output.il}} {{path/to/assembly.exe}}`
 
 - Show information about an assembly:
 
