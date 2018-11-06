@@ -14,6 +14,6 @@
 
 `tslint --fix`
 
-- Lint with config in project root:
+- Lint with the config file in the project root:
 
 `tslint --project {{path/to/project_root}}`
