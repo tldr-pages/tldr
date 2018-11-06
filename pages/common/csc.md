@@ -20,7 +20,7 @@
 
 - Embed a resource:
 
-`csc /resource:{{path/to/input_file.cs}},{{namespace.string.name}}`
+`csc /resource:{{path/to/target_file.cs}},{{namespace.string.name}} {{path/to/input_file.cs}}`
 
 - Automatically generate XML documentation:
 
