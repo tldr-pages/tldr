@@ -10,6 +10,10 @@
 
 `export -n {{VARIABLE}}`
 
+- Mark a shell function for export:
+
+`export -f {{FUNCTION_NAME}}`
+
 - Append something to the PATH variable:
 
 `export PATH=$PATH:{{path/to/append}}`

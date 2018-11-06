@@ -1,0 +1,11 @@
+<b>noti</b><br><br>
+<b>Monitor a process and trigger a banner notification.</b><br><br>
+- Display a notification when tar finishes compressing files:
+
+<blockquote>noti <i>tar -cjf example.tar.bz2 example/</i></blockquote>
+- Display a notification even when you put it after the command to watch:
+
+<blockquote><i>command_to_watch</i>; noti</blockquote>
+- Monitor a process by PID and trigger a notification when the PID disappears:
+
+<blockquote>noti -w <i>process_id</i></blockquote>
