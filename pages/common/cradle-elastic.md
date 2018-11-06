@@ -1,6 +1,6 @@
 # cradle elastic
 
-> Manage the ElasticSearch instances.
+> Manage the ElasticSearch instances for a Cradle instance.
 
 - Truncate the ElasticSearch index:
 
