@@ -1,6 +1,5 @@
 # ionic
 
-> Ionic project manager and builder.
 > A framework to build hybrid mobile apps.
 
 - Create a new project:
