@@ -2,7 +2,7 @@
 
 > Record and replay terminal sessions, and optionally share them on asciinema.org.
 
-- Associate the local install of asciinema with an asciinema.org account:
+- Associate the local install of `asciinema` with an asciinema.org account:
 
 `asciinema auth`
 
