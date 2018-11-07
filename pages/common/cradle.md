@@ -5,7 +5,7 @@
 
 - Connect to a server:
 
-`cradle connect {{connection_name}}`
+`cradle connect {{server_name}}`
 
 - Call general help:
 
