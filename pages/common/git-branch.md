@@ -14,6 +14,10 @@
 
 `git branch {{branch_name}}`
 
+- Create new branch based on a specific commit:
+
+`git branch {{branch_name}} {{commit_hash}}`
+
 - Rename a branch (must not have it checked out to do this):
 
 `git branch -m {{old_branch_name}} {{new_branch_name}}`
