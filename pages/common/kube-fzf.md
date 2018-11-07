@@ -1,12 +1,13 @@
 # kube-fzf
 
 > Shell commands for command line fuzzy searching of Kubernetes Pods.
+> See also `kubectl` for related commands.
 
-- Get pod details (searching from current namespace):
+- Get pod details (from current namespace):
 
 `findpod`
 
-- Get pod details (searching from all namespaces):
+- Get pod details (from all namespaces):
 
 `findpod -a`
 
@@ -20,8 +21,8 @@
 
 - Exec into a pod's container:
 
-`execpod`
+`execpod {{shell_command}}`
 
 - Port-forward a pod:
 
-`pfpod`
+`pfpod {{port_number}}`
