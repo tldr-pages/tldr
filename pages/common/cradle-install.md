@@ -2,7 +2,7 @@
 
 > Installs the Cradle PHP framework components.
 
-- Install Cradle's components:
+- Install Cradle's components (User will be prompted for further details):
 
 `cradle install`
 
