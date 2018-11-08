@@ -1,0 +1,23 @@
+<b>monodis</b><br><br>
+<b>The Mono Common Intermediate Language (CIL) disassembler.</b><br><br>
+- Disassemble an assembly to textual CIL:
+
+<blockquote>monodis <i>path/to/assembly.exe</i></blockquote>
+- Save the output to a file:
+
+<blockquote>monodis --output=<i>path/to/output.il</i> <i>path/to/assembly.exe</i></blockquote>
+- Show information about an assembly:
+
+<blockquote>monodis --assembly <i>path/to/assembly.dll</i></blockquote>
+- List the references of an assembly:
+
+<blockquote>monodis --assemblyref <i>path/to/assembly.exe</i></blockquote>
+- List all the methods in an assembly:
+
+<blockquote>monodis --method <i>path/to/assembly.exe</i></blockquote>
+- Show a list of resources embedded within an assembly:
+
+<blockquote>monodis --manifest <i>path/to/assembly.dll</i></blockquote>
+- Extract all the embedded resources to the current directory:
+
+<blockquote>monodis --mresources <i>path/to/assembly.dll</i></blockquote>

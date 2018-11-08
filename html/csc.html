@@ -1,0 +1,26 @@
+<b>csc</b><br><br>
+<b>The Microsoft C# Compiler.</b><br><br>
+- Compile one or more C# files to a CIL executable:
+
+<blockquote>csc <i>path/to/input_file_a.cs</i> <i>path/to/input_file_b.cs</i></blockquote>
+- Specify the output filename:
+
+<blockquote>csc /out:<i>path/to/filename</i> <i>path/to/input_file.cs</i></blockquote>
+- Compile into a '.dll' library instead of an executable:
+
+<blockquote>csc /target:library <i>path/to/input_file.cs</i></blockquote>
+- Reference another assembly:
+
+<blockquote>csc /reference:<i>path/to/library.dll</i> <i>path/to/input_file.cs</i></blockquote>
+- Embed a resource:
+
+<blockquote>csc /resource:<i>path/to/target_file.cs</i>,<i>namespace.string.name</i> <i>path/to/input_file.cs</i></blockquote>
+- Automatically generate XML documentation:
+
+<blockquote>csc /doc:<i>path/to/output.xml</i> <i>path/to/input_file.cs</i></blockquote>
+- Specify an icon:
+
+<blockquote>csc /win32icon:<i>path/to/icon.ico</i> <i>path/to/input_file.cs</i></blockquote>
+- Strongly-name the resulting assembly with a keyfile:
+
+<blockquote>csc /keyfile:<i>path/to/keyfile</i> <i>path/to/input_file.cs</i></blockquote>
