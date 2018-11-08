@@ -21,3 +21,7 @@
 - List information continuously:
 
 `netstat -c`
+
+- Print the route table:
+
+`nestat -nr`
