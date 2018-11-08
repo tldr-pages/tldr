@@ -10,10 +10,10 @@
 
 `cradle deploy s3`
 
-- Deploy static assets including the Yarn directory:
+- Deploy static assets including the Yarn "components" directory:
 
 `cradle deploy s3 --include-yarn`
 
-- Deploy static assets including the upload directory:
+- Deploy static assets including the "upload" directory:
 
 `cradle deploy s3 --include-upload`
