@@ -1,6 +1,6 @@
 # nohup
 
-> Run a command immune to hangups, with output to a non-tty.
+> Run a command immune to hangups, directing output to a non-tty.
 
 - Run COMMAND, ignoring hangup signals:
 
