@@ -2,7 +2,7 @@
 
 > Finds and displays signatures of types and methods inside .NET assemblies.
 
-- Show the structure of a type built-in to the .NET Framework:
+- Show the structure of a type built-in of the .NET Framework:
 
 `monop {{System.String}}`
 
