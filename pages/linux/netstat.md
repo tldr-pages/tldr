@@ -1,6 +1,6 @@
 # netstat
 
-> Displays various networks related information such as open connections, open socket ports etc.
+> Displays network-related information such as open connections, open socket ports etc.
 
 - List all ports:
 
@@ -14,18 +14,14 @@
 
 `netstat -t`
 
-- Display PID and program names:
+- Display PID and program names for a specific port:
 
-`netstat -p`
+`netstat -p {PROTOCOL}`
 
 - List information continuously:
 
 `netstat -c`
 
-- List routes and do not resolve IP to hostname:
+- Print the route table:
 
-`netstat -rn`
-
-- List listening TCP and UDP ports (+ user and process if you're root):
-
-`netstat -lepunt`
+`nestat -nr`
