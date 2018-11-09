@@ -5,4 +5,4 @@
 
 - Poweroff the system:
 
-`sudo poweroff`
+`poweroff`
