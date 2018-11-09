@@ -1,6 +1,6 @@
 # poweroff
 
-> Poweroff the system.
+> Shutdown the system.
 > Require admin privileges.
 
 - Poweroff the system:
