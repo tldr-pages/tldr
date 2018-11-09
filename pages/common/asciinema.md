@@ -6,7 +6,7 @@
 
 `asciinema auth`
 
-- Make a new recording (to be uploaded or saved locally):
+- Make a new recording (once finished, user will be prompted to upload it or save it locally):
 
 `asciinema rec`
 
