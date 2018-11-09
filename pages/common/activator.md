@@ -1,6 +1,6 @@
 # activator
 
-> Activator aims to be a friendly one-stop-shop to bootstrap your Scala.
+> A tool which aims to be a friendly one-stop-shop to bootstrap your Scala projects.
 
 - To start an sbt application:
 
