@@ -25,7 +25,7 @@ function build_archive {
   rm -f $TLDR_ARCHIVE
 
   cd $TLDRHOME/
-  zip -r $TLDR_ARCHIVE pages/ LICENSE.md
+  zip -r $TLDR_ARCHIVE pages*/ LICENSE.md
 }
 
 function upload_assets {
