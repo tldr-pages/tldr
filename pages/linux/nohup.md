@@ -2,6 +2,6 @@
 
 > Run a command immune to hangups, directing output to a non-tty.
 
-- Run COMMAND, ignoring hangup signals:
+- Run a command, ignoring hangup signals:
 
 `nohup {{command-with-options}} &`
