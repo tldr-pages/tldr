@@ -10,9 +10,9 @@
 
 `activator compile`
 
-- Run the sbt application with debug mode:
+- Run the sbt application with debug mode listening at a given port:
 
-`activator -jvm-debug 9999 run`
+`activator -jvm-debug {{portno}} run`
 
 - List available features and options:
 
