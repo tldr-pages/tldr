@@ -1,8 +1,14 @@
 # Maintainers
 
 This file contains a list of the maintainers of the tldr-pages project.
+
 There are three types of maintainers, as described in
-[COMMUNITY-ROLES.md](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md#when-to-change-roles).
+[COMMUNITY-ROLES.md](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md#when-to-change-roles):
+repository collaborators, organization members, and organization owners
+— each having specific roles in maintaining the project, as outlined below.
+
+In general terms, all maintainers are expected to follow the
+[Maintainer's guide](contributing-guides/maintainers-guide.md).
 
 
 ## Current repository collaborators
