@@ -7,11 +7,11 @@
 
 `cradle connect {{server_name}}`
 
-- Call general help:
+- Display general help:
 
 `cradle help`
 
-- Call help on a specific command:
+- Display help for a specific command:
 
 `cradle {{command}} help`
 
