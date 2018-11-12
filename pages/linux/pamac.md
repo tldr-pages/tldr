@@ -8,15 +8,15 @@
 
 - Install a new package:
 
-`pamac install package-name`
+`pamac install {{package_name}}`
 
 - Remove a package and its no longer required dependencies (orphans):
 
-`pamac remove -o package-name`
+`pamac remove -o {{package_name}}`
 
 - Search the package database for a package:
 
-`pamac search package-name`
+`pamac search {{package_name}}`
 
 - List installed packages:
 
