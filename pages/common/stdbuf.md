@@ -2,7 +2,7 @@
 
 > Run a command with modified buffering operations for its standard streams.
 
-- Change the standard input buffer size to 512 kiB:
+- Change the standard input buffer size to 512 KiB:
 
 `stderr --input={{512K}} {{command}}`
 
