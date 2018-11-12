@@ -2,14 +2,14 @@
 
 > Run a command with modified buffering operations for its standard streams.
 
-- Change stdin buffer size to 512 kiB:
+- Change the standard input buffer size to 512 kiB:
 
 `stderr --input={{512K}} {{command}}`
 
-- Change stdout to line-buffering:
+- Change the standard output buffer to line-buffered:
 
 `stdbuf --output={{L}} {{command}}`
 
-- Change stderr to unbuffered:
+- Change the standard error buffer to unbuffered:
 
 `stdbuf --error={{0}} {{command}}`
