@@ -1,10 +1,6 @@
 # pamac
 
-> Command line utility of the GUI package management pamac.
-
-- Check for package updates:
-
-`pamac checkupdates`
+> A command line utility for the GUI package manager pamac.
 
 - Install a new package:
 
@@ -21,3 +17,7 @@
 - List installed packages:
 
 `pamac list -i`
+
+- Check for package updates:
+
+`pamac checkupdates`
