@@ -97,6 +97,7 @@ You can access these pages on your computer using one of the following clients:
   `stack install tldr`
 - [Node.js client](https://github.com/tldr-pages/tldr-node-client):
   `npm install -g tldr`
+- [OCaml client](https://github.com/RosalesJ/tldr-ocaml): `opam install tldr`
 - [Perl5 client](https://github.com/shoichikaji/perl-tldr):
   `cpanm App::tldr`
 - [PHP client](https://github.com/BrainMaestro/tldr-php):
