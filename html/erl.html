@@ -1,0 +1,11 @@
+<b>erl</b><br><br>
+<b>Run and manage programs in the Erlang programming language.</b><br><br>
+- Compile and run sequential Erlang program as a common script and then exit:
+
+<blockquote>erlc <i>files</i> && erl -noshell '<i>mymodule:myfunction(arguments)</i>, init:stop().'</blockquote>
+- Connect to a running Erlang node:
+
+<blockquote>erl -remsh <i>nodename</i>@<i>hostname</i> -sname <i>custom_shortname</i> -hidden -setcookie <i>cookie_of_remote_node</i></blockquote>
+- Tell the Erlang shell to load modules from a directory:
+
+<blockquote>erl -pa <i>directory_with_beam_files</i></blockquote>

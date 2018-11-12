@@ -1,17 +1,17 @@
 <b>sudo</b><br><br>
-<b>Executes a single command as another user.</b><br><br>
-- List the contents of an unreadable directory:
+<b>Executes a single command as the superuser or another user.</b><br><br>
+- Run a command as the superuser:
 
-<blockquote>sudo <i>ls</i> <i>/usr/local/scrt</i></blockquote>
-- Edit a file as the user www:
+<blockquote>sudo <i>less /var/log/syslog</i></blockquote>
+- Edit a file as the superuser with your default editor:
 
-<blockquote>sudo -u <i>www</i> <i>vi</i> <i>/var/www/index.html</i></blockquote>
-- Shut down the machine:
+<blockquote>sudo -e <i>/etc/fstab</i></blockquote>
+- Run a command as another user and/or group:
 
-<blockquote>sudo <i>shutdown</i> -h +10 <i>"Cya soon!"</i></blockquote>
-- Repeat the last command as sudo:
+<blockquote>sudo -u <i>user</i> -g <i>group</i> <i>id</i></blockquote>
+- Repeat the last command prefixed with "sudo" (only in bash, zsh, etc.):
 
 <blockquote>sudo !!</blockquote>
-- Launch the default shell with root privileges:
+- Launch the default shell with superuser privileges:
 
 <blockquote>sudo -i</blockquote>
