@@ -1,27 +1,27 @@
 # ng
 
-> Angular Command Line Interface (CLI) for creating and managing Angular applications
+> Command Line Interface (CLI) for creating and managing Angular applications.
 
-- Check the version of your current Angular Installation
+- Checks the version of your current Angular installation:
 
 `ng version`
 
-- Create a new Angular application folder with all dependencies ready
+- Creates a new Angular application inside a folder:
 
-`ng new {{project-name}}`
+`ng new {{project_name}}`
 
-- Run your application with the following command in its root directory
+- Adds new component to one's application:
 
-`ng {{serve}}`
+`ng generate component {{component_name}}`
 
-- Add new component to your application
+- Adds new class to one's application:
 
-`ng generate component {{component-name}}`
+`ng generate class {{class_name}}`
 
-- Add new class to your application
+- Adds new directive to one's application:
 
-`ng generate class {{class-name}}`
+`ng generate directive {{directive_name}}`
 
-- Add new directive to your application
+- Run your application with the following command in its root directory:
 
-`ng generate directive {{directive-name}}`
+`ng serve`
