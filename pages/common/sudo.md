@@ -12,7 +12,7 @@
 
 - Run a command as another user and/or group:
 
-`sudo -u {{user}} -g {{group}} {{id}}`
+`sudo -u {{user}} -g {{group}} {{id -a}}`
 
 - Repeat the last command prefixed with "sudo" (only in bash, zsh, etc.):
 
