@@ -8,7 +8,7 @@
 
 - Rebuild the database schema for a specific package:
 
-`cradle sql build {{package}}`
+`cradle sql build {{package_name}}`
 
 - Truncate the entire database:
 
@@ -16,7 +16,7 @@
 
 - Truncate the database tables for a specific package:
 
-`cradle sql flush {{package}}`
+`cradle sql flush {{package_name}}`
 
 - Populate the tables for all packages:
 
@@ -24,4 +24,4 @@
 
 - Populate the tables for a specific package:
 
-`cradle sql populate {{package}}`
+`cradle sql populate {{package_name}}`
