@@ -18,7 +18,7 @@
 
 `docker stop {{container}}`
 
-- Pull a image from docker registery:
+- Pull an image from a docker registry:
 
 `docker pull {{image}}`
 
