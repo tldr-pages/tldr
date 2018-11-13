@@ -1,4 +1,4 @@
-# SSHFS
+# sshfs
 
 > Filesystem client based on ssh.
 
@@ -8,7 +8,7 @@
 
 - Unmount remote directory:
 
-`fusermount -u {{mountpoint}}`
+`umount {{mountpoint}}`
 
 - Mount remote directory from server with specific port:
 
@@ -17,3 +17,7 @@
 - Use compression:
 
 `sshfs {{username}}@{{remote_host}}:{{remote_directory}} -C`
+
+- Follow symbolic links:
+
+`sshfs -o follow_symlinks {{username}}@{{remote_host}}:{{remote_directory}} {{mountpoint}}`

@@ -4,7 +4,7 @@
 
 - Create a cordova project:
 
-`cordova create {{path}} {{package.name}} {{project.name}}`
+`cordova create {{path}} {{package_name}} {{project_name}}`
 
 - Display the current workspace status:
 

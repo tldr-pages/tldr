@@ -10,6 +10,10 @@
 
 `ip r`
 
+- Show neighbors (ARP table):
+
+`ip n`
+
 - Make an interface up/down:
 
 `ip link set {{interface}} up/down`
@@ -18,6 +22,6 @@
 
 `ip addr add/del {{ip}}/{{mask}} dev {{interface}}`
 
-- Add an default route:
+- Add a default route:
 
 `ip route add default via {{ip}} dev {{interface}}`

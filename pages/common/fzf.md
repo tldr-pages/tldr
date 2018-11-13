@@ -8,9 +8,9 @@
 
 - Start finder on running processes:
 
-`ps axu | fzf`
+`ps aux | fzf`
 
-- Select mutliple files with `Shift-TAB` and write to a file:
+- Select multiple files with `Shift + Tab` and write to a file:
 
 `find {{path/to/search_files}} -type f | fzf -m > {{filename}}`
 

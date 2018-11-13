@@ -1,6 +1,6 @@
 # ar
 
-> Create, modify, and extract from archives (.a .so .o).
+> Create, modify, and extract from archives (.a, .so, .o).
 
 - Extract all members from an archive:
 

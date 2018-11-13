@@ -11,6 +11,10 @@
 
 `jc {{pattern}}`
 
+- Open a directory that contains the given pattern in the operating system file manager:
+
+`jo {{pattern}}`
+
 - Remove non-existing directories from the autojump database:
 
 `j --purge`

@@ -4,4 +4,4 @@
 
 - Return a sorted list of best matching fonts:
 
-`fc-match -s '{{Font Name}}'`
+`fc-match -s '{{DejaVu Serif}}'`

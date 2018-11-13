@@ -1,6 +1,6 @@
 # ifconfig
 
-> Ifconfig - Interface Configurator, used to configure network interfaces.
+> Network Interface Configurator.
 
 - View network settings of an ethernet adapter:
 

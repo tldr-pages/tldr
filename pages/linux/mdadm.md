@@ -4,7 +4,7 @@
 
 - Create array:
 
-`mdadm --create {{/path/to/raid_device_file}} --level {{ raid level }} --raid-devices {{ number of disks}} {{/path/to/disk_device_file}}`
+`mdadm --create {{/path/to/raid_device_file}} --level {{raid_level}} --raid-devices {{number_of_disks}} {{/path/to/disk_device_file}}`
 
 - Stop array:
 

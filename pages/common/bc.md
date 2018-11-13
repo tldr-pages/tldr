@@ -2,15 +2,15 @@
 
 > Calculator.
 
-- Run calculator in interactive mode:
+- Run calculator in interactive mode using the standard math library:
 
-`bc -i`
+`bc -l`
 
 - Calculate the result of an expression:
 
 `bc <<< "(1 + 2) * 2 ^ 2"`
 
-- Calculate with the given precision:
+- Calculate expression and force number of decimal places to 10:
 
 `bc <<< "scale=10; 5 / 3"`
 

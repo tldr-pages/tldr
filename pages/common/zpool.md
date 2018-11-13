@@ -24,7 +24,7 @@
 
 - Show the history of all pool operations:
 
-`zpool histrory {{pool_name}}`
+`zpool history {{pool_name}}`
 
 - Create a mirrored pool:
 

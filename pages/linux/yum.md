@@ -14,6 +14,10 @@
 
 `yum -y install {{package}}`
 
+- Find the package that provides a particular command:
+
+`yum provides {{command}}`
+
 - Remove a package:
 
 `yum remove {{package}}`

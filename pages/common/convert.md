@@ -6,7 +6,7 @@
 
 `convert {{image.jpg}} {{image.png}}`
 
-- Scale an image 50% it's original size:
+- Scale an image 50% its original size:
 
 `convert {{image.png}} -resize 50% {{image2.png}}`
 
@@ -17,3 +17,7 @@
 - Horizontally append images:
 
 `convert {{image1.png}} {{image2.png}} {{image3.png}} +append {{image123.png}}`
+
+- Create a gif from a series of images with 100ms delay between them:
+
+`convert {{image1.png}} {{image2.png}} {{image3.png}} -delay {{100}} {{animation.gif}}`

@@ -12,8 +12,12 @@
 
 - Specify wait time for response:
 
-`traceroute -w 0.5 {{host}}`
+`traceroute -w {{0.5}} {{host}}`
 
 - Specify number of queries per hop:
 
-`traceroute -q 5 {{host}}`
+`traceroute -q {{5}} {{host}}`
+
+- Specify size in bytes of probing packet:
+
+`traceroute {{host}} {{42}}`

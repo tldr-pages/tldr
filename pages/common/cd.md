@@ -4,7 +4,7 @@
 
 - Go to the given directory:
 
-`cd {{/path/to/directory}}`
+`cd {{path/to/directory}}`
 
 - Go to home directory of current user:
 

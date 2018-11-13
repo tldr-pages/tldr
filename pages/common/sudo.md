@@ -1,19 +1,23 @@
 # sudo
 
-> Execute a command as another user.
+> Executes a single command as the superuser or another user.
 
-- List of an unreadable directory:
+- Run a command as the superuser:
 
-`sudo {{ls}} {{/usr/local/scrt}}`
+`sudo {{less /var/log/syslog}}`
 
-- To edit a file as user www:
+- Edit a file as the superuser with your default editor:
 
-`sudo -u {{www}} {{vi}} {{/var/www/index.html}}`
+`sudo -e {{/etc/fstab}}`
 
-- To shutdown the machine:
+- Run a command as another user and/or group:
 
-`sudo {{shutdown}} -r +10 {{"Cya soon!"}}`
+`sudo -u {{user}} -g {{group}} {{id}}`
 
-- To repeat the last command as sudo:
+- Repeat the last command prefixed with "sudo" (only in bash, zsh, etc.):
 
-`sudo {{!!}}`
+`sudo !!`
+
+- Launch the default shell with superuser privileges:
+
+`sudo -i`

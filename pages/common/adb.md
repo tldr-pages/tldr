@@ -1,6 +1,6 @@
-# Android Debug Bridge
+# adb
 
-> Communicate with an Android emulator instance or connected Android devices.
+> Android Debug Bridge: communicate with an Android emulator instance or connected Android devices.
 
 - Check whether the adb server process is running and start it:
 
@@ -16,4 +16,16 @@
 
 - Push an Android application to an emulator/device:
 
-`adb install -r {{apk.path}}`
+`adb install -r {{path/to/file.apk}}`
+
+- Copy a file/folder from the target device:
+
+`adb pull {{path/to/device_file_or_folder}} {{path/to/local_destination_folder}}`
+
+- Copy a file/folder to the target device:
+
+`adb push {{path/to/local_file_or_folder}} {{path/to/device_destination_folder}}`
+
+- Get a list of connected devices:
+
+`adb devices`

@@ -1,10 +1,10 @@
-# XCTool
+# xctool
 
 > Tool for building Xcode projects.
 
 - Build a single project without any workspace:
 
-`xctool.sh -project {{YourProject.xcodeproj}} -scheme {{YourScheme}} build`
+`xctool -project {{YourProject.xcodeproj}} -scheme {{YourScheme}} build`
 
 - Build a project that is part of a workspace:
 

@@ -1,6 +1,6 @@
 # git remote
 
-> Manage set of tracked repositories (“remotes”).
+> Manage set of tracked repositories ("remotes").
 
 - Show a list of existing remotes, their names and URL:
 

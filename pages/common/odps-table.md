@@ -12,7 +12,7 @@
 
 - Add partition to a table:
 
-`alter table {{table_name}} add parition ({{partition_spec}});`
+`alter table {{table_name}} add partition ({{partition_spec}});`
 
 - Delete partition from a table:
 

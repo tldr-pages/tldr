@@ -1,7 +1,7 @@
 # uname
 
 > Print details about the current machine and the operating system running on it.
-> Note: If you're on Linux, try also the `lsb_release` command.
+> Note: for additional information about the operating system, try the `lsb_release` command.
 
 - Print hardware-related information: machine and processor:
 

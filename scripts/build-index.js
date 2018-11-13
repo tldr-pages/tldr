@@ -1,6 +1,6 @@
 'use strict';
 
-var glob = require("glob");
+var glob = require('glob');
 
 function parsePlatform(pagefile) {
   return pagefile.split(/\//)[1];
@@ -11,7 +11,7 @@ function parsePagename(pagefile) {
 }
 
 function buildShortPagesIndex(files) {
-  var reducer = function(index, file) {
+  var reducer = function (index, file) {
     var os = parsePlatform(file);
     var page = parsePagename(file);
     if (index[page]) {
@@ -28,7 +28,7 @@ function buildShortPagesIndex(files) {
 function buildPagesIndex(shortIndex) {
   return Object.keys(shortIndex)
     .sort()
-    .map(function(page) {
+    .map(function (page) {
       return {
         name: page,
         platform: shortIndex[page]
@@ -43,7 +43,7 @@ function saveIndex(index) {
   console.log(JSON.stringify(indexFile));
 }
 
-glob("pages/**/*.md", function (er, files) {
+glob('pages/**/*.md', function (er, files) {
   var shortIndex = buildShortPagesIndex(files);
   var index = buildPagesIndex(shortIndex);
   saveIndex(index);

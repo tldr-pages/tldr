@@ -4,8 +4,16 @@
 
 - Merge a branch with your current branch:
 
-`git merge {{BRANCH-NAME}}`
+`git merge {{branch_name}}`
 
 - Edit the merge message:
 
-`git merge -e {{BRANCH-NAME}}`
+`git merge -e {{branch_name}}`
+
+- Merge a branch and create a merge commit:
+
+`git merge --no-ff {{branch_name}}`
+
+- Abort a merge in case of conflicts:
+
+`git merge --abort`

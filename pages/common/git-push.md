@@ -2,22 +2,30 @@
 
 > Push commits to a remote repository.
 
-- Publish local changes on a remote branch:
+- Send local changes in the current branch to its remote counterpart:
 
-`git push {{REMOTE-NAME}} {{LOCAL-BRANCH}}`
+`git push`
 
-- Publish local changes on a remote branch of different name:
+- Send local changes in a given branch to its remote counterpart:
 
-`git push {{REMOTE-NAME}} {{LOCAL-BRANCH}}:{{REMOTE-BRANCH}}`
+`git push {{remote_name}} {{local_branch}}`
 
-- Remove remote branch:
+- Publish the current branch to a remote repository, setting the remote branch name:
 
-`git push {{REMOTE-NAME}} :{{REMOTE-BRANCH}}`
+`git push {{remote_name}} -u {{remote_branch}}`
 
-- Remove remote branches which don't exist locally:
+- Send changes on all local branches to their counterparts in a given remote repository:
 
-`git push --prune {{REMOTE-NAME}}`
+`git push --all {{remote_name}}`
 
-- Publish tags:
+- Delete a branch in a remote repository:
+
+`git push {{remote_name}} --delete {{remote_branch}}`
+
+- Remove remote branches that don't have a local counterpart:
+
+`git push --prune {{remote_name}}`
+
+- Publish tags that aren't yet in the remote repository:
 
 `git push --tags`

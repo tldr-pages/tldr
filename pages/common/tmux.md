@@ -24,8 +24,12 @@
 
 - Detach from session:
 
-`ctrl+b d`
+`Ctrl + B, D`
 
 - Kill session:
 
 `tmux kill-session -t {{name}}`
+
+- Kill session when attached:
+
+`Ctrl + B, x (then hit 'y' for yes)`

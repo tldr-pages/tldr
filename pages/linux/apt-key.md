@@ -17,3 +17,7 @@
 - Add a remote key to the trusted keystore:
 
 `wget -qO - {{https://host.tld/filename.key}} | apt-key add -`
+
+- Add a key from keyserver with only key id:
+
+`apt-key adv --keyserver {{pgp.mit.edu}} --recv {{KEYID}}`

@@ -1,19 +1,16 @@
 # xargs
 
-> Execute a command with piped arguments.
+> Execute a command with piped arguments coming from another command, a file, etc.
+> The input is treated as a single block of text and split into separate arguments on spaces, tabs, newlines and end-of-file.
 
-- Main use:
+- Main usage pattern:
 
-`{{arguments}} | xargs {{command}}`
+`{{arguments_source}} | xargs {{command}}`
 
-- Handle whitespace in arguments:
+- Delete all files with a `.backup` extension. `-print0` on find uses a null character to split the files, and `-0` changes the delimiter to the null character (useful if there's whitespace in filenames):
 
-`{{arguments_null_terminated}} | xargs -0 {{command}}`
+`find . -name {{'*.backup'}} -print0 | xargs -0 rm -v`
 
-- Delete all files that start with 'M':
+- Execute the command once for each input line, replacing any occurrences of the placeholder (here marked as `_`) with the input line:
 
-`find . -name 'M*' | xargs rm`
-
-- Insert arguments at chosen position:
-
-`{{arguments}} | xargs -I piped_arguments {{command}} piped_arguments {{rest_of_arguments}}`
+`{{arguments_source}} | xargs -I _ {{command}} _ {{optional_extra_arguments}}`

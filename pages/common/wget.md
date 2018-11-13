@@ -3,22 +3,34 @@
 > Download files from the Web.
 > Supports HTTP, HTTPS, and FTP.
 
-- Download a URL to a file:
+- Download the contents of an URL to a file (named "foo" in this case):
 
-`wget -O filename "{{url}}"`
+`wget {{https://example.com/foo}}`
 
-- Limit download speed:
+- Download the contents of an URL to a file (named "bar" in this case):
 
-`wget --limit-rate={{200k}} {{url}}`
+`wget -O {{bar}} {{https://example.com/foo}}`
+
+- Download a single web page and all its resources (scripts, stylesheets, images, etc.):
+
+`wget --page-requisites --convert-links {{https://example.com/somepage.html}}`
+
+- Download a full website, with 3-second intervals between requests:
+
+`wget --mirror --page-requisites --convert-links --wait=3 {{https://example.com}}`
+
+- Download all listed files within a directory and its sub-directories (does not download embedded page elements):
+
+`wget --mirror --no-parent {{https://example.com/somepath/}}`
+
+- Download the contents of an URL via authenticated FTP:
+
+`wget --ftp-user={{username}} --ftp-password={{password}} {{ftp://example.com}}`
 
 - Continue an incomplete download:
 
-`wget -c {{url}}`
+`wget -c {{https://example.com}}`
 
-- Download a full website:
+- Enable quiet mode to suppress output:
 
-`wget --mirror -p --convert-links -P {{target_folder}} {{url}}`
-
-- FTP download with username and password:
-
-`wget --ftp-user={{username}} --ftp-password={{password}} {{url}}`
+`wget -q {{https://example.com}}`

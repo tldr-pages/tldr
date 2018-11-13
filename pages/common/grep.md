@@ -5,36 +5,32 @@
 
 - Search for an exact string:
 
-`grep {{something}} {{file_path}}`
+`grep {{search_string}} {{path/to/file}}`
 
 - Search in case-insensitive mode:
 
-`grep -i {{something}} {{path/to/file}}`
+`grep -i {{search_string}} {{path/to/file}}`
 
-- Search recursively in current directory for an exact string:
+- Search recursively (ignoring non-text files) in current directory for an exact string:
 
-`grep -r {{something}} .`
+`grep -RI {{search_string}} .`
 
-- Use a regular expression (`-E` for extended regex, supporting `?`, `+`, `{}`, `()` and `|`):
+- Use extended regular expressions (supporting `?`, `+`, `{}`, `()` and `|`):
 
-`grep -e {{^regex$}} {{path/to/file}}`
+`grep -E {{^regex$}} {{path/to/file}}`
 
-- Print 3 lines of context around each match:
+- Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match:
 
-`grep -C 3 {{something}} {{path/to/file}}`
+`grep -{{C|B|A}} 3 {{search_string}} {{path/to/file}}`
 
-- Print the count of matches instead of the matching text:
+- Print file name with the corresponding line number for each match:
 
-`grep -c {{something}} {{path/to/file}}`
-
-- Print line number for each match:
-
-`grep -n {{something}} {{path/to/file}}`
+`grep -Hn {{search_string}} {{path/to/file}}`
 
 - Use the standard input instead of a file:
 
-`cat {{path/to/file}} | grep {{something}}`
+`cat {{path/to/file}} | grep {{search_string}}`
 
 - Invert match for excluding specific strings:
 
-`grep -v {{something}}`
+`grep -v {{search_string}}`

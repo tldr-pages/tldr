@@ -1,8 +1,7 @@
 # rsync
 
-> Transfers a file either to or from a remote host.
-> Does not allow transfer between two remote hosts.
-> Can transfer single files or files matched by pattern.
+> Transfer files either to or from a remote host (not between two remote hosts).
+> Can transfer single files, or multiple files matching a pattern.
 
 - Transfer file from local to remote host:
 
@@ -12,9 +11,9 @@
 
 `rsync {{remote_host_name}}:{{remote_file_location}} {{local_file_location}}`
 
-- Transfer file in archive (to preserve attributes) and compressed (zipped) mode:
+- Transfer file in archive (to preserve attributes) and compressed (zipped) mode with verbose and human-readable progress:
 
-`rsync -az {{path/to/file}} {{remote_host_name}}:{{remote_host_location}}`
+`rsync -azvhP {{path/to/file}} {{remote_host_name}}:{{remote_host_location}}`
 
 - Transfer a directory and all its children from a remote to local:
 
@@ -24,6 +23,10 @@
 
 `rsync -ru {{remote_host_name}}:{{remote_folder_location}} {{local_folder_location}}`
 
-- Transfer file over SSH and show progress:
+- Transfer file over SSH and show progress per file:
 
 `rsync -e ssh --progress {{remote_host_name}}:{{remote_file}} {{local_file}}`
+
+- Transfer file over SSH and show global progress:
+
+`rsync -e ssh --info=progress2 {{remote_host_name}}:{{remote_file}} {{local_file}}`

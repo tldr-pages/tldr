@@ -8,7 +8,7 @@
 
 - List files owned by a package:
 
-`pkginfo -l {{package-name}}`
+`pkginfo -l {{package_name}}`
 
 - List the owner(s) of files matching a pattern:
 

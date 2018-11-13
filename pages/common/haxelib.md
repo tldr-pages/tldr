@@ -16,4 +16,4 @@
 
 - Install the development version of a library from a Git repository:
 
-`haxelib git {{libname}} {{GIT-URL}}`
+`haxelib git {{libname}} {{git_url}}`

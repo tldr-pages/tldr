@@ -2,22 +2,22 @@
 
 > Nginx web server.
 
-- Start server with default config:
+- Start server with the default config file:
 
 `nginx`
 
-- Start server with custom config file:
+- Start server with a custom config file:
 
 `nginx -c {{config_file}}`
 
-- Start server with a prefix for all relative paths in config file:
+- Start server with a prefix for all relative paths in the config file:
 
 `nginx -c {{config_file}} -p {{prefix/for/relative/paths}}`
 
-- Test configuration without affecting the running server:
+- Test the configuration without affecting the running server:
 
 `nginx -t`
 
-- Reload configuration by sending a signal with no downtime:
+- Reload the configuration by sending a signal with no downtime:
 
 `nginx -s reload`

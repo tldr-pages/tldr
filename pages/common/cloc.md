@@ -10,6 +10,6 @@
 
 `cloc --progress=1 {{/path/to/directory}}`
 
-- Compare 2 directory sturctures and count the differences between them:
+- Compare 2 directory structures and count the differences between them:
 
 `cloc --diff {{/directory/one}} {{/directory/two}}`

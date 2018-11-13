@@ -17,3 +17,7 @@
 - Compile source code into Assembler instructions:
 
 `gcc -S {{source.c}}`
+
+- Compile source code without linking:
+
+`gcc -c {{source.c}}`

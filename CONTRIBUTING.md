@@ -1,26 +1,57 @@
 # Contributing
 
-Contribution are most welcome! All `tldr` pages are stored in Markdown right here on GitHub. Just open an issue or send a pull request and we'll merge it as soon as possible.
+[![Gitter chat][gitter-image]][gitter-url]
+[![Merged PRs][prs-merged-image]][prs-merged-url]
+[![Issue stats][issuestats-image]][issuestats-url]
+[![GitHub contributors][contributors-image]][contributors-url]
+[![CLA assistant][cla-assistant-image]][cla-assistant-url]
+[![license][license-image]][license-url]
 
-*Note*: when submitting a new command, don't forget to check if there's already a pull request in progress.
+[gitter-url]: https://gitter.im/tldr-pages/tldr
+[gitter-image]: https://badges.gitter.im/tldr-pages/tldr.svg
+[prs-merged-url]: https://github.com/tldr-pages/tldr/pulls?q=is:pr+is:merged
+[prs-merged-image]: https://img.shields.io/github/issues-pr-closed-raw/tldr-pages/tldr.svg?label=merged+PRs
+[issuestats-url]: http://isitmaintained.com/project/tldr-pages/tldr
+[issuestats-image]: http://isitmaintained.com/badge/resolution/tldr-pages/tldr.svg
+[contributors-url]: https://github.com/tldr-pages/tldr/graphs/contributors
+[contributors-image]: https://img.shields.io/github/contributors/tldr-pages/tldr.svg
+[cla-assistant-url]: https://cla-assistant.io/tldr-pages/tldr
+[cla-assistant-image]: https://cla-assistant.io/readme/badge/tldr-pages/tldr
+[license-url]: https://github.com/tldr-pages/tldr/blob/master/LICENSE.md
+[license-image]: https://img.shields.io/github/license/tldr-pages/tldr.svg
+
+Contributions to the tldr-pages project are [most welcome](GOVERNANCE.md)!
+All `tldr` pages are stored in Markdown right here on GitHub.
+Just open an issue or send a pull request and we'll incorporate it as soon as possible.
+To get started, please [sign](https://cla-assistant.io/tldr-pages/tldr) the
+[Contributor License Agreement](https://gist.github.com/waldyrious/e50feec13683e565769fbd58ce503d4e).
+
+*Note*: when submitting a new command, don't forget to check if there's already a pull request in progress for it.
 
 ## Guidelines
 
-Note that `tldr` is focused on concrete examples.
+The basic format of a `tldr` page is a set of concrete usage examples.
 Here are a few guidelines to get started:
 
-1. Focus on the 5 or 6 most common usages. It's OK if the page doesn't cover everything; that's what `man` is for.
+1. Try to keep pages at around 5 examples. Pages can be longer if needed, but don't exceed 8 examples.
+   Remember, it's OK if the page doesn't cover everything; that's what `man` is for.
 2. When in doubt, keep new command-line users in mind. Err on the side of clarity rather than terseness.
+   For example, commands that require `sudo` should include it directly in the examples.
 3. Try to incorporate the spelled-out version of single-letter options in the example's description.
-4. Introduce options gradually, starting with the simplest commands and using more complex examples progressively.
-5. Use short but descriptive values for the tokens, ex. `{{source_file}}` or `{{wallet.txt}}`.
-6. Be specific: avoid explaining general UNIX concepts that could apply to any command (ex: relative/absolute paths, brace expansion, character escaping...).
+   The goal is to allow people to *understand* the syntax of the commands, not just *memorize* it.
+4. Introduce options gradually, starting with the simplest command invocations,
+   and using more complex examples progressively.
+5. Focus on details specific to the command, and avoid explaining general UNIX concepts that could apply to any command
+   (ex: relative/absolute paths, glob patterns/wildcards, special character escaping...).
 
-The best way to be consistent is to have a look at a few existing pages :).
+These are all guidelines, not strict rules.
+Use proper judgement, keeping simplicity and user-friendliness as the top priority.
+
+When in doubt, have a look at a few existing pages :).
 
 ## Markdown format
 
-The format of each page should match the following:
+As a quick reference, the format of each page should match the following template:
 
 ```
 # command-name
@@ -37,132 +68,32 @@ The format of each page should match the following:
 `command -opt1 -opt2`
 ```
 
-We actually have a linter/formatter that enforces our format.
-It even automatically cleans up your pages for you! Installing it is easy:
-
-```
-npm install
-tldr tldrl
-```
-
-### Token Syntax
-User-provided values should use the `{{token}}` syntax in order to allow clients
-to highlight them. 
-
-Some examples: 
-- `tar cf {{file}}`
-- `ln -s {{path/to/original/file}} {{path/to/link}}`
-- `mysql {{database_name}}`
-- `unrar x {{compressed.rar}}`
-
-In short, make it as intuitive as possible for the user to figure out
-how to use the command and fill it in with values.
-Stick to [`snake_case`](https://en.wikipedia.org/wiki/Snake_case) where possible.
-In some situations a command works with typical file extensions
-(like the `unrar` example above); you are encouraged to add these for demonstration.
-
-One of the reasons for this format is that it's well suited for command-line
-clients that need to extract a single description/example.
+For more detailed page formatting guidelines,
+refer to the [style guide](contributing-guides/style-guide.md).
 
 ## Submitting a pull request
 
-TL;DR: fork, clone, `npm install`, feature branch, commit, push, pull request, check Travis.
+The easiest way to submit a change is to just edit the page directly on the Github interface.
+Check out the step-by-step instructions (with screenshots) on
+[Github Help](https://help.github.com/articles/editing-files-in-another-user-s-repository/).
 
-Detailed explanation:
+Alternatively, you can do most of the process
+[using git on the command line](contributing-guides/git-terminal.md).
 
-1. [Fork](http://help.github.com/fork-a-repo/) the project, clone your fork,
-   and configure the remotes:
+### Commit message
 
-   ```bash
-   # Clone your fork of the repo into the current directory
-   git clone https://github.com/<your-username>/tldr
-   # Navigate to the newly cloned directory
-   cd tldr
-   # Assign the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/tldr-pages/tldr
-   ```
+For the commit message, use the following format:
 
-2. Setup pre-commit hooks with Markdown and TLDR linter.
+    <command>: type of change
 
-   ```bash
-   # Assuming you have NodeJS
-   npm install
-   ```
-
-3. If you cloned a while ago, get the latest changes from upstream:
-
-   ```bash
-   git checkout master
-   git pull upstream master
-   ```
-
-4. Create a new topic branch (sometimes they are called feature branches) off
-   the main project development branch:
-
-   ```bash
-   git checkout -b <topic-branch-name>
-   ```
-
-5. Run `npm test` to check that your page(s) are correct. Try to run the commands you are describing to ensure the syntax is correct.
-
-   You can use the formatting features of [tldr-lint](https://github.com/tldr-pages/tldr-lint)
-   (installed through `npm install`)
-   to automatically fix any mistakes you may have missed.
-   Try `tldr tldrl` for a quick how-to.
-
-6. Please use the following commit message format: 
-   `<command>: type of change`.
-
-   Examples:
-
-   - `ls: add page`
-   - `cat: fix typo`
-   - `git-push: add --force example`
-   - `uname: fix -a example`
-
-7. Push your topic branch up to your fork:
-
-   ```bash
-   git push origin <topic-branch-name>
-   ```
-
-8. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/)
-    with a clear title and description.
-    
-    If page is not about a standard Unix/Linux tool, please include a link to the tool home page.
-    
-    If you are changing something non-trivial, not just adding a page for a new tool, please describe why you are doing this.
-
-9. Verify that the automatically ran Travis CI build passed. 
-   You can check this on your Pull Request; look for a green :heavy_check_mark: or red :x:.
-
-10. Use Git's
-   [interactive rebase](https://help.github.com/articles/interactive-rebase)
-   feature to tidy up your commits before making them public.
-   
-   If you are not familiar with `git rebase`, it might be helpful to check out these video tutorials:
-   - [Git Rebase: squash last commits](https://www.youtube.com/watch?v=qh9KtjfjzCU)
-   - [Learning Git Tutorial: Interactive Rebasing](https://www.youtube.com/watch?v=NW46XmvJh5Q)
-   
-   In most cases it is better to squash commits before submitting a pull request.
-
-11. If you do not want to do a rebasing, you can overwrite your last commit in pull request, while you have only a single commit. You can achieve this with `git commit --amend` command.
-
-   ```bash
-   # When you are on topic branch of your pull request
-   # Fix your files
-   
-   git add .              # Register edited files
-   git commit --amend     # Do amended commit
-   git push --force       # Overwrite your branch
-   ```
-
+Examples:
+  - `ls: add page`
+  - `cat: fix typo`
+  - `git-push: add --force example`
 
 ## Licensing
 
-`tldr` is under [MIT license](https://github.com/tldr-pages/tldr/blob/master/LICENSE.md).
+`tldr` is licensed under the [MIT license](https://github.com/tldr-pages/tldr/blob/master/LICENSE.md).
 
-**IMPORTANT**: By submitting a patch, you agree to license your work under the
-same license as that used by the project.
-
-You're free to modify or redistribute the content. That being said, but why not contribute over here? :) Say if you wanted to have `tldr` pages in `groff` format, why not have a client that uses [pandoc](http://johnmacfarlane.net/pandoc/) and periodically updates straight from this repo?
+Any contributions to this project are governed by the
+[Contributor License Agreement](https://cla-assistant.io/tldr-pages/tldr).

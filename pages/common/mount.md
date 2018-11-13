@@ -6,9 +6,9 @@
 
 `mount`
 
-- Mount a device:
+- Mount a device to a directory:
 
-`mount -t {{filesystem_type}} {{path_to_device_file}} {{directory_to_mount_to}}`
+`mount -t {{filesystem_type}} {{path/to/device_file}} {{path/to/target_directory}}`
 
 - Mount a CD-ROM device (with the filetype ISO9660) to /cdrom (readonly):
 

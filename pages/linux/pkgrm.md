@@ -4,4 +4,4 @@
 
 - Remove an installed package:
 
-`pkgrm {{package-name}}`
+`pkgrm {{package_name}}`

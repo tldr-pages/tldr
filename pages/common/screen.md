@@ -8,7 +8,11 @@
 
 - Start a new named screen session:
 
-`screen -S {{name}}`
+`screen -S {{session_name}}`
+
+- Start a new daemon and log the output to screenlog.x:
+
+`screen -dmLS {{session_name}} {{command}}`
 
 - Show open screen sessions:
 
@@ -16,12 +20,12 @@
 
 - Reattach to an open screen:
 
-`screen -r {{screen id}}`
+`screen -r {{session_name}}`
 
 - Detach from inside a screen:
 
-`ctrl+A D`
+`Ctrl + A, D`
 
 - Kill a detached screen:
 
-`screen -X -S {{screen id}} quit`
+`screen -X -S {{session_name}} quit`

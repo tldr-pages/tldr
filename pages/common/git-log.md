@@ -2,7 +2,7 @@
 
 > Show a history of commits.
 
-- Show a history of commits:
+- Show the sequence of commits starting from the current one, in reverse chronological order:
 
 `git log`
 
@@ -10,10 +10,22 @@
 
 `git log -p {{path}}`
 
-- Show only the first line of each commits:
+- Show only the first line of each commit message:
 
 `git log --oneline`
 
 - Show the graph of commits in the current branch:
 
 `git log --graph`
+
+- Show an overview of which file(s) changed in each commit:
+
+`git log --stat`
+
+- Show all commits, tags and branches for the entire repo in a graph format:
+
+`git log --oneline --decorate --all --graph`
+
+- Show only commits whose messages include a given string (case-insensitively):
+
+`git log -i --grep {{search_string}}`

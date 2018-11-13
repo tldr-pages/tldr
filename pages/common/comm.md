@@ -16,7 +16,7 @@
 
 - Get lines only found in first file, saving the result to a third file:
 
-`comm -23 {{file1}} {{file2}} > file1-only.txt`
+`comm -23 {{file1}} {{file2}} > {{file1_only}}`
 
 - Print lines only found in second file, when the files aren't sorted:
 

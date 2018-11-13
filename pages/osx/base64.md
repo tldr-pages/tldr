@@ -12,8 +12,8 @@
 
 - Encode from stdin:
 
-`echo {{plain_text}} | base64`
+`echo -n {{plain_text}} | base64`
 
 - Decode from stdin:
 
-`echo {{base64_text}} | base64 -D`
+`echo -n {{base64_text}} | base64 -D`

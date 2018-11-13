@@ -1,10 +1,14 @@
 # cowsay
 
-> Generate an ASCII character like a cow or sheep saying or thinking something.
+> Generate an ASCII character (by default a cow) saying or thinking something.
 
 - Print an ASCII cow saying "Hello world!":
 
 `cowsay "Hello world!"`
+
+- List all available characters:
+
+`cowsay -l`
 
 - Print an ASCII dragon saying "Hello!":
 

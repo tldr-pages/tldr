@@ -1,7 +1,7 @@
 # tar
 
 > Archiving utility.
-> Optional compression with gzip / bzip.
+> Often combined with a compression method, such as gzip or bzip.
 
 - Create an archive from files:
 
@@ -30,3 +30,7 @@
 - List the contents of a tar file:
 
 `tar tvf {{source.tar}}`
+
+- Extract files matching a pattern:
+
+`tar xf {{source.tar}} --wildcards {{"*.html"}}`

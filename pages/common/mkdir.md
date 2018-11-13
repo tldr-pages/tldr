@@ -8,4 +8,4 @@
 
 - Create directories recursively (useful for creating nested dirs):
 
-`mkdir -p {{path}}`
+`mkdir -p {{path/to/directory}}`

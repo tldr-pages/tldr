@@ -9,11 +9,11 @@
 
 - Search for ebooks displaying additional information:
 
-`calibredb list --search {{search-term}}`
+`calibredb list --search {{search_term}}`
 
 - Search for just ids of ebooks:
 
-`calibredb search {{search term}}`
+`calibredb search {{search_term}}`
 
 - Add one or more ebooks to the library:
 

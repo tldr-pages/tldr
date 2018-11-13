@@ -1,27 +1,35 @@
 # brew
 
-> Package manager for OS X.
+> Package manager for macOS.
 
-- Search formula:
+- Search for available formulas and casks:
 
 `brew search {{text}}`
 
-- Install formula:
+- Install the latest stable version of a formula (use `--devel` for development versions):
 
 `brew install {{formula}}`
 
-- List installed formulae [with matching name]:
+- List all installed formulae:
 
-`brew list {{[text]}}`
+`brew list`
 
-- Get latest version of installed formula (passing no formula updates all installed formulae):
+- Update an installed formula (if no formula name is given, all installed formulae are updated):
 
-`brew upgrade {{[formula]}}`
+`brew upgrade {{formula}}`
 
-- Update brew:
+- Fetch the newest version of Homebrew and all formulae from GitHub:
 
 `brew update`
 
-- Switch version of formula:
+- Show formulae that have a more recent version available:
 
-`brew switch {{formula}} {{version}}`
+`brew outdated`
+
+- Display information about a formula (version, installation path, dependencies, etc.):
+
+`brew info {{formula}}`
+
+- Check your Homebrew installation for potential problems:
+
+`brew doctor`

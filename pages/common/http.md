@@ -8,7 +8,7 @@
 
 - Send form-encoded data:
 
-`http -f {{example.org}} {{name='bob'}} {{profile-picture@'bob.png'}}`
+`http -f {{example.org}} {{name='bob'}} {{profile_picture@'bob.png'}}`
 
 - Send JSON object:
 
@@ -28,4 +28,4 @@
 
 - Specify raw request body via stdin:
 
-`cat data.txt | http PUT example.org`
+`cat {{data.txt}} | http PUT {{example.org}}`

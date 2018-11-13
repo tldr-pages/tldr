@@ -16,11 +16,11 @@
 
 - Serve a file:
 
-`cat somefile.txt | nc -l {{port}}`
+`nc -l {{port}} < {{file}}`
 
 - Receive a file:
 
-`nc {{ip_address}} {{port}} > somefile.txt`
+`nc {{ip_address}} {{port}} > {{file}}`
 
 - Server stay up after client detach:
 
@@ -29,3 +29,11 @@
 - Client stay up after EOF:
 
 `nc -q {{timeout}} {{ip_address}}`
+
+- Port scanning:
+
+`nc -v -z {{ip_address}} {{port}}`
+
+- Proxy and port forwarding:
+
+`nc -l {{port}} | nc {{hostname}} {{port}}`

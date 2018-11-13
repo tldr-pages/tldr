@@ -5,12 +5,12 @@
 
 - Apply a patch:
 
-`patch < {{patchfile}}.diff`
+`patch < {{patch_file}}.diff`
 
 - Apply a patch to current directory:
 
-`patch -p1 < {{patchfile}}.diff`
+`patch -p1 < {{patch_file}}.diff`
 
 - Apply the reverse of a patch:
 
-`patch -R < {{patchfile}}.diff`
+`patch -R < {{patch_file}}.diff`

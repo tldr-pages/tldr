@@ -10,13 +10,13 @@
 
 `tr 'abcd' 'jkmn' < {{filename}}`
 
-- Delete all occurances of the specified set of characters from the input:
+- Delete all occurrences of the specified set of characters from the input:
 
 `tr -d '{{input_characters}}'`
 
 - Compress a series of identical characters to a single character:
 
-`tr -s '\n'`
+`tr -s '{{input_characters}}'`
 
 - Translate the contents of the file to upper-case and print result:
 

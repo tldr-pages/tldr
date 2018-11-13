@@ -26,3 +26,7 @@
 - Perform TCP and UDP scanning (use -sU for UDP only, -sZ for SCTP, -sO for IP):
 
 `nmap -sSU {{address_or_addresses}}`
+
+- Perform TLS cipher scan against a host to determine supported ciphers and SSL/TLS protocols:
+
+`nmap --script ssl-enum-ciphers {{address_or_addresses}} -p 443`

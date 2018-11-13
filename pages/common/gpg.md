@@ -1,6 +1,6 @@
 # gpg
 
-> Gnu Privacy Guard.
+> GNU Privacy Guard.
 
 - Sign doc.txt without encryption (writes output to doc.txt.asc):
 
@@ -21,3 +21,11 @@
 - Import a public key:
 
 `gpg --import {{public.gpg}}`
+
+- Export public key for alice@example.com (output to STDOUT):
+
+`gpg --export --armor {{alice@example.com}}`
+
+- Export private key for alice@example.com (output to STDOUT):
+
+`gpg --export-secret-keys --armor {{alice@example.com}}`

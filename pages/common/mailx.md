@@ -2,15 +2,15 @@
 
 > Send and receive mail.
 
-- To send mail, the content is typed after the command and ended with Control-D:
+- Send mail (the content should be typed after the command, and ended with `Ctrl+D`):
 
 `mailx -s "{{subject}}" {{to_addr}}`
 
-- Send mail with short content:
+- Send mail with content passed from another command:
 
 `echo "{{content}}" | mailx -s "{{subject}}" {{to_addr}}`
 
-- Send mail with content which written in a file:
+- Send mail with content read from a file:
 
 `mailx -s "{{subject}}" {{to_addr}} < {{content.txt}}`
 
@@ -18,7 +18,7 @@
 
 `mailx -s "{{subject}}" -c {{cc_addr}} {{to_addr}}`
 
-- Send mail and set sender address:
+- Send mail specifying the sender address:
 
 `mailx -s "{{subject}}" -r {{from_addr}} {{to_addr}}`
 

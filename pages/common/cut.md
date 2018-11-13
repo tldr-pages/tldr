@@ -22,6 +22,6 @@
 
 `cut -d'{{;}}' -f{{2,10}}`
 
-- Cut out the fields 3 through 7 of each line, using a space as a delimiter:
+- Cut out the fields 3 through to the end of each line, using a space as a delimiter:
 
-`cut -d'{{ }}' -f{{3-7}}`
+`cut -d'{{ }}' -f{{3-}}`
