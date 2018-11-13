@@ -87,9 +87,10 @@ For the commit message, use the following format:
     <command>: type of change
 
 Examples:
-  - `ls: add page`
-  - `cat: fix typo`
-  - `git-push: add --force example`
+  - For a new page addition: `ls: add page`
+  - For a page edit: `cat: fix typo`, `git-push: add --force example`
+  - For a new translation of an existing page: `cp: add Tamil translation`
+  - For related changes to several pages: `grep, find, locate: synchronize format of wildcards`
 
 ## Licensing
 
