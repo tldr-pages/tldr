@@ -14,6 +14,6 @@
 
 `git log --oneline`
 
-- Show branch graph:
+- Show the graph of commits in the current branch:
 
 `git log --graph`
