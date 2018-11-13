@@ -13,3 +13,7 @@
 - Show only the first line of each commits:
 
 `git log --oneline`
+
+- Show branch graph:
+
+`git log --graph`
