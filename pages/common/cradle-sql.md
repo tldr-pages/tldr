@@ -10,11 +10,11 @@
 
 `cradle sql build {{package_name}}`
 
-- Truncate the entire database:
+- Empty the entire database:
 
 `cradle sql flush`
 
-- Truncate the database tables for a specific package:
+- Empty the database tables for a specific package:
 
 `cradle sql flush {{package_name}}`
 
