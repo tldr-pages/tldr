@@ -18,6 +18,10 @@
 
 `docker stop {{container}}`
 
+- Pull a image from docker registery:
+
+`docker pull {{image}}`
+
 - Start a container from an image and get a shell inside of it:
 
 `docker run -it {{image}} bash`
