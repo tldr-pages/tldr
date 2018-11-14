@@ -18,10 +18,10 @@
 
 `cradle elastic map {{package_name}}`
 
-- Populate the ElasticSearch indexes for all packages:
+- Populate the ElasticSearch indices for all packages:
 
 `cradle elastic populate`
 
-- Populate the ElasticSearch indexes for a specific package:
+- Populate the ElasticSearch indices for a specific package:
 
 `cradle elastic populate {{package_name}}`
