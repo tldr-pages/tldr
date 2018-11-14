@@ -12,16 +12,16 @@
 
 - Cut out everything from the 3rd character to the end of each line:
 
-`cut -c{{3-}}`
+`cut -c {{3-}}`
 
 - Cut out the fifth field of each line, using a colon as a field delimiter (default delimiter is tab):
 
-`cut -d'{{:}}' -f{{5}}`
+`cut -d '{{:}}' -f {{5}}`
 
 - Cut out the 2nd and 10th fields of each line, using a semicolon as a delimiter:
 
-`cut -d'{{;}}' -f{{2,10}}`
+`cut -d' {{;}}' -f {{2,10}}`
 
 - Cut out the fields 3 through to the end of each line, using a space as a delimiter:
 
-`cut -d'{{ }}' -f{{3-7}}`
+`cut -d '{{ }}' -f {{3-7}}`

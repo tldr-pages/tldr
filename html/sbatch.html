@@ -1,0 +1,14 @@
+<b>sbatch</b><br><br>
+<b>Submit a batch job to the SLURM scheduler.</b><br><br>
+- Submit a batch job:
+
+<blockquote>sbatch <i>path/to/job.sh</i></blockquote>
+- Submit a batch job with a custom name:
+
+<blockquote>sbatch --job-name=<i>myjob</i> <i>path/to/job.sh</i></blockquote>
+- Submit a batch job with a time limit of 30 minutes:
+
+<blockquote>sbatch --time=<i>00:30:00</i> <i>path/to/job.sh</i></blockquote>
+- Submit a job and request multiple nodes:
+
+<blockquote>sbatch --nodes=<i>3</i> <i>path/to/job.sh</i></blockquote>
