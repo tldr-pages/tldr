@@ -6,9 +6,9 @@
 
 `find {{root_path}} -name '{{*.ext}}'`
 
-- Find files by multiple search patterns, pattern_1 OR ending with case insensitive pattern_2:
+- Find files by matching multiple patterns:
 
-`find {{root_path}} -name '{{*pattern_1*}}' -or -iname '{{*pattern_2}}'`
+`find {{root_path}} -name '{{*pattern_1*}}' -or -name '{{*pattern_2*}}'`
 
 - Find directories matching a given name:
 
