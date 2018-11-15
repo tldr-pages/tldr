@@ -14,13 +14,13 @@
 
 `git log --oneline`
 
-- Show a graph of commits in the current branch:
-
-`git log --graph`
-
 - Show an overview of which file(s) changed in each commit:
 
 `git log --stat`
+
+- Show a graph of commits in the current branch:
+
+`git log --graph`
 
 - Show all commits, tags and branches for the entire repo in a graph format:
 
