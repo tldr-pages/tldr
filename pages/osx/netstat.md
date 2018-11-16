@@ -1,6 +1,7 @@
 # netstat
 
-> Displays network-related information such as open connections, open socket ports etc.
+> Displays network-related information such as open connections, open socket
+ports, etc.
 
 - List all ports:
 
@@ -24,4 +25,4 @@
 
 - Print the route table:
 
-`nestat -nr`
+`netstat -nr`
