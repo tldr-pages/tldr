@@ -7,7 +7,11 @@
 
 `csplit {{file}} {{5}} {{23}}`
 
-- Split a file every {{5}} lines (-k flag necessary if not divisible by {{5}}):
+- Split a file every {{5}} lines (this will fail if the total number of lines is not divisible by {{5}}):
+
+`csplit {{file}} {{5}} {*}`
+
+- Split a file every {{5}} lines, ignoring exact-division error:
 
 `csplit -k {{file}} {{5}} {*}`
 
