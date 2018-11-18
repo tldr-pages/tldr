@@ -12,6 +12,9 @@
 - Replace only on lines matching the line pattern:
 
 <blockquote>sed '/<i>line_pattern</i>/s/<i>find</i>/<i>replace</i>/' <i>filename</i></blockquote>
+- Delete lines matching the line pattern:
+
+<blockquote>sed '/<i>line_pattern</i>/d' <i>filename</i></blockquote>
 - Print only text between n-th line till the next empty line:
 
 <blockquote>sed -n '<i>line_number</i>,/^$/p' <i>filename</i></blockquote>
