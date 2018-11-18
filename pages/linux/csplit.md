@@ -1,6 +1,7 @@
 # csplit
 
-> Split a file into pieces.
+> Split a file into pieces.  
+> This generates files named "xx00", "xx01", and so on.
 
 - Split a file at lines 5 and 23:
 
