@@ -3,17 +3,17 @@
 > Split a file into pieces.  
 > This generates files named "xx00", "xx01", and so on.
 
-- Split a file at lines 5 and 23:
+- Split a file at lines {{5}} and {{23}}:
 
-`csplit {{file}} 5 23`
+`csplit {{file}} {{5}} {{23}}`
 
-- Split a file every 5 lines (-k flag necessary if not divisible by 5):
+- Split a file every {{5}} lines (-k flag necessary if not divisible by {{5}}):
 
-`csplit -k {{file}} 5 {*}`
+`csplit -k {{file}} {{5}} {*}`
 
-- Split a file and use a given prefix for the output files:
+- Split a file at line {{5}} and use a given prefix for the output files:
 
-`csplit {{file}} 5 -f {{prefix}}`
+`csplit {{file}} {{5}} -f {{prefix}}`
 
 - Split a file at a line matching a regular expression:
 
