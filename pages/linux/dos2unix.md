@@ -2,7 +2,7 @@
 
 > DOS/Mac to UNIX and vice versa text file format converter.
 
-- Convert DOS file format to UNIX format:
+- Convert a file in the DOS format to the UNIX format:
 
 `dos2unix {{filename}}`
 
