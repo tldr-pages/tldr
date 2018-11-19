@@ -22,6 +22,6 @@
 
 `netstat -c`
 
-- Print the route table:
+- Print the routing table:
 
 `netstat -nr`
