@@ -1,4 +1,4 @@
-# squeue
+# sinfo
 
 > View information about SLURM nodes and partitions.
 
@@ -14,7 +14,7 @@
 
 `sinfo -N`
 
-- View info about unavailable nodes:
+- View info about dead nodes:
 
 `sinfo -d`
 
