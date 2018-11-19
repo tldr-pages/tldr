@@ -1,6 +1,6 @@
 # drill
 
-> Get information out of DNS.
+> Perform various DNS queries.
 
 - Lookup the IP(s) associated with a hostname (A records):
 
