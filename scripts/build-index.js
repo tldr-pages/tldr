@@ -24,7 +24,9 @@ function buildPagesIndex(files) {
       if (!index[page].platform.includes(os)) {
         index[page].platform.push(os);
       }
-      index[page].language.push(language);
+      if (!index[page].language.includes(language)) {
+        index[page].language.push(language);
+      }
     } else {
       index[page] = {name: page, platform: [os], language: [language]};
     }
