@@ -1,6 +1,6 @@
 # netstat
 
-> Displays various networks related information such as open connections, open socket ports etc.
+> Displays network-related information such as open connections, open socket ports, etc.
 
 - List all ports:
 
@@ -29,3 +29,7 @@
 - List listening TCP and UDP ports (+ user and process if you're root):
 
 `netstat -lepunt`
+
+- Print the routing table:
+
+`netstat -nr`
