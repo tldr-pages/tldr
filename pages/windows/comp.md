@@ -27,7 +27,7 @@
 
 `comp /l {{path/to/file_1}} {{path/to/file_2}}`
 
-- Use a case-insensitive comparison:
+- Compare files case-insensitively:
 
 `comp /c {{path/to/file_1}} {{path/to/file_2}}`
 
