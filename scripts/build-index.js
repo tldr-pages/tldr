@@ -21,8 +21,9 @@ function buildPagesIndex(files) {
     var page = parsePagename(file);
     var language = parseLanguage(file);
     if (index[page]) {
-      if (!index[page].platform.includes(os))
+      if (!index[page].platform.includes(os)) {
         index[page].platform.push(os);
+      }
       index[page].language.push(language);
     } else {
       index[page] = {name: page, platform: [os], language: [language]};
