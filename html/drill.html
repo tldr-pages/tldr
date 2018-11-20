@@ -1,0 +1,23 @@
+<b>drill</b><br><br>
+<b>Perform various DNS queries.</b><br><br>
+- Lookup the IP(s) associated with a hostname (A records):
+
+<blockquote>drill <i>hostname.com</i></blockquote>
+- Lookup the mail server(s) associated with a given domain name (MX record):
+
+<blockquote>drill mx <i>hostname.com</i></blockquote>
+- Get all types of records for a given domain name:
+
+<blockquote>drill any <i>hostname.com</i></blockquote>
+- Specify an alternate DNS server to query:
+
+<blockquote>drill <i>hostname.com</i> @<i>8.8.8.8</i></blockquote>
+- Perform a reverse DNS lookup on an IP address (PTR record):
+
+<blockquote>drill -x <i>8.8.8.8</i></blockquote>
+- Perform DNSSEC trace from root servers down to a domain name:
+
+<blockquote>drill -TD <i>hostname.com</i></blockquote>
+- Show DNSKEY record(s) for a domain name:
+
+<blockquote>drill -s dnskey <i>hostname.com</i></blockquote>
