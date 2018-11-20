@@ -22,10 +22,10 @@
 
 `drill -x {{8.8.8.8}}`
 
-- Perform DNSSEC trace from root servers down to the domain:
+- Perform DNSSEC trace from root servers down to a domain name:
 
 `drill -TD {{hostname.com}}`
 
-- Show DNSKEY record(s) for domain:
+- Show DNSKEY record(s) for a domain name:
 
 `drill -s dnskey {{hostname.com}}`
