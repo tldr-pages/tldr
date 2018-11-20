@@ -15,7 +15,7 @@
 
 `csplit -k {{file}} {{5}} {*}`
 
-- Split a file at line 5 and use a given prefix for the output files:
+- Split a file at line 5 and use a custom prefix for the output files:
 
 `csplit {{file}} {{5}} -f {{prefix}}`
 
