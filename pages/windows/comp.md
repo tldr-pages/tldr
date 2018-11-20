@@ -11,6 +11,10 @@
 
 `comp {{path/to/file_1}} {{path/to/file_2}}`
 
+- Compare two sets of files:
+
+`comp {{path/to/directory_1/*}} {{path/to/directory_2/*}}`
+
 - Display differences in decimal format:
 
 `comp /d {{path/to/file_1}} {{path/to/file_2}}`
