@@ -1,6 +1,6 @@
 # getmac
 
-> Display the MAC addresses for network controllers on a system.
+> Display the MAC addresses of a system.
 
 - Display the MAC addresses for the current system:
 
