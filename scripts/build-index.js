@@ -11,8 +11,8 @@ function parsePagename(pagefile) {
 }
 
 function parseLanguage(pagefile) {
-  var language = pagefile.split(/\//)[0].replace(/^pages/, '');
-  return language == '' ? 'en' : 'ta';
+  var pagesFolder = pagefile.split(/\//)[0];
+  return pagesFolder == 'pages' ? 'en' : pagesFolder.replace(/^pages./, '');
 }
 
 function buildPagesIndex(files) {
