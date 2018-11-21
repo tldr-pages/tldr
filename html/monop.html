@@ -1,0 +1,23 @@
+<b>monop</b><br><br>
+<b>Finds and displays signatures of Types and methods inside .NET assemblies.</b><br><br>
+- Show the structure of a Type built-in of the .NET Framework:
+
+<blockquote>monop <i>System.String</i></blockquote>
+- List the types in an assembly:
+
+<blockquote>monop -r:<i>path/to/assembly.exe</i></blockquote>
+- Show the structure of a Type in a specific assembly:
+
+<blockquote>monop -r:<i>path/to/assembly.dll</i> <i>Namespace.Path.To.Type</i></blockquote>
+- Only show members defined in the specified Type:
+
+<blockquote>monop -r:<i>path/to/assembly.dll</i> --only-declared <i>Namespace.Path.To.Type</i></blockquote>
+- Show private members:
+
+<blockquote>monop -r:<i>path/to/assembly.dll</i> --private <i>Namespace.Path.To.Type</i></blockquote>
+- Hide obsolete members:
+
+<blockquote>monop -r:<i>path/to/assembly.dll</i> --filter-obsolete <i>Namespace.Path.To.Type</i></blockquote>
+- List the other assemblies that a specified assembly references:
+
+<blockquote>monop -r:<i>path/to/assembly.dll</i> --refs</blockquote>

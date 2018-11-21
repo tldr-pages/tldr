@@ -1,0 +1,11 @@
+<b>ctest</b><br><br>
+<b>CMake test driver program.</b><br><br>
+- Run all tests defined in the CMake project, executing 4 jobs at a time in parallel:
+
+<blockquote>ctest -j<i>4</i> --output-on-failure</blockquote>
+- Show a list of available tests:
+
+<blockquote>ctest -N</blockquote>
+- Run a single test based on its name, or filter on a regular expression:
+
+<blockquote>ctest --output-on-failure -R '^<i>test_name</i>$'</blockquote>
