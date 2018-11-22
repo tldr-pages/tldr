@@ -6,6 +6,10 @@
 
 `find {{root_path}} -name '{{*.ext}}'`
 
+- Find files by matching multiple patterns:
+
+`find {{root_path}} -name '{{*pattern_1*}}' -or -name '{{*pattern_2*}}'`
+
 - Find directories matching a given name:
 
 `find {{root_path}} -type d -name {{*lib*}}`

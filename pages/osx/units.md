@@ -21,3 +21,7 @@
 - Show the conversion between units with different dimensions:
 
 `units {{"acres"}} {{"ft^2"}}`
+
+- Show the conversion of byte multipliers:
+
+`units {{"15 megabytes"}} {{bytes}}`
