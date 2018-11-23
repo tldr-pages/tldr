@@ -2,10 +2,6 @@
 
 > CLI program to copy/sync/move files and directories to and from many cloud services.
 
-- Interactively configure an rclone remote at the cloud service of your choice:
-
-`rclone config`
-
 - List contents of a folder on an rclone remote:
 
 `rclone lsf {{remote_name}}:{{path/to/folder}}`
@@ -29,10 +25,6 @@
 - Delete remote file or folder (use `--dry-run` to test, remove it to actually delete):
 
 `rclone --dry-run delete {{remote_name}}:{{path/to/file_or_folder}}`
-
-- Remove empty remote folder:
-
-`rclone rmdir {{remote_name}}:{{path/to/file_or_folder}}`
 
 - Mount rclone remote (experimental):
 
