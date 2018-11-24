@@ -12,7 +12,7 @@
 
 - Sort a file in case-insensitive way:
 
-`sort -f {{filename}}`
+`sort --ignore-case {{filename}}`
 
 - Sort a file using numeric rather than alphabetic order:
 
