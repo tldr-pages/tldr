@@ -2,7 +2,7 @@
 
 > Open the most recent command and edit it.
 
-- Open normally:
+- Open in the default system editor
 
 `fc`
 
