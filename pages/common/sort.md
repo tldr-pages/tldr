@@ -10,6 +10,10 @@
 
 `sort -r {{filename}}`
 
+- Sort a file in case-insensitive way:
+
+`sort -f {{filename}}`
+
 - Sort a file using numeric rather than alphabetic order:
 
 `sort -n {{filename}}`
