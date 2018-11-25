@@ -14,6 +14,6 @@
 
 `tokei {{path/to/folder}} --files`
 
-- Get a report for all Rust and Markdown files:
+- Get a report for all files of type Rust and Markdown:
 
 `tokei {{path/to/folder}} -t={{Rust}},{{Markdown}}`
