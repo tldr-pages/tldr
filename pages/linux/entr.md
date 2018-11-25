@@ -6,7 +6,7 @@
 
 `ag -l | entr make`
 
-- Rebuild and test with `make` if `.c` sources in current directory changes:
+- Rebuild and test with `make` if any `.c` source files in the current directory change:
 
 `ls *.c | entr 'make && make test'`
 
