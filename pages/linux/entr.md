@@ -18,6 +18,6 @@
 
 `ls *.rb | entr -r ruby main.rb`
 
-- Run a command with the changed file (`/_`) as input:
+- Run a command with the changed file (`/_`) as an argument:
 
 `ls *.sql | entr psql -f /_`
