@@ -10,10 +10,6 @@
 
 `ls *.c | entr 'make && make test'`
 
-- Reload the MuPDF viewer whenever the source `.pdf` changes:
-
-`ls *.pdf | entr pkill -HUP mupdf`
-
 - Reload the spawned childprocess with `SIGTERM` before restarting:
 
 `ls *.rb | entr -r ruby main.rb`
