@@ -6,7 +6,7 @@
 
 `tokei {{path/to/folder}}`
 
-- Get a report for a folder but ignoring `.min.js` files:
+- Get a report for a folder excluding `.min.js` files:
 
 `tokei {{path/to/folder}} -e {{*.min.js}}`
 
