@@ -2,10 +2,6 @@
 
 > Laravel's Artisan command line interface.
 
-- Display a list of all available commands:
-
-`php artisan help`
-
 - Start PHP's built-in web server for the current Laravel application:
 
 `php artisan serve`
@@ -17,3 +13,7 @@
 - Generate a new Eloquent model class with a migration, factory and resource controller:
 
 `php artisan make:model {{ModelName}} --all`
+
+- Display a list of all available commands:
+
+`php artisan help`
