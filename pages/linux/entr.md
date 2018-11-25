@@ -10,7 +10,7 @@
 
 `ls *.c | entr 'make && make test'`
 
-- Reload the spawned childprocess with `SIGTERM` before restarting:
+- Send a `SIGTERM` to any previously spawned ruby subprocesses before executing `ruby main.rb`:
 
 `ls *.rb | entr -r ruby main.rb`
 
