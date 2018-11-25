@@ -6,6 +6,9 @@
 - Sort a file in descending order:
 
 <blockquote>sort -r <i>filename</i></blockquote>
+- Sort a file in case-insensitive way:
+
+<blockquote>sort --ignore-case <i>filename</i></blockquote>
 - Sort a file using numeric rather than alphabetic order:
 
 <blockquote>sort -n <i>filename</i></blockquote>
@@ -15,3 +18,6 @@
 - Sort a file preserving only unique lines:
 
 <blockquote>sort -u <i>filename</i></blockquote>
+- Sort human-readable numbers (in this case the 5th field of `ls -lh`):
+
+<blockquote>ls -lh | sort -h -k 5</blockquote>

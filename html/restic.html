@@ -12,6 +12,9 @@
 - Restore a specific backup snapshot to a target directory:
 
 <blockquote>restic -r <i>path/to/repository</i> restore <i>snapshot_id</i> <i>path/to/target</i></blockquote>
+- Restore a specific path from a specific backup to a target directory:
+
+<blockquote>restic -r <i>path/to/repository</i> --include <i>path/to/restore</i> --target <i>path/to/target</i> restore <i>snapshot_id</i></blockquote>
 - Clean up the repository and keep only the most recent snapshot of each unique backup:
 
 <blockquote>restic forget --keep-last 1 --prune</blockquote>
