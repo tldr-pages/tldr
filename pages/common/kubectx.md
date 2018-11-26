@@ -10,7 +10,7 @@
 
 `kubectx {{name}}`
 
-- Switch to previous context:
+- Switch to the previous context:
 
 `kubectx -`
 
