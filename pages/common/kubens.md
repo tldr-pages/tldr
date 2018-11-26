@@ -1,6 +1,6 @@
 # kubens
 
-> Utility which is able to switch between Kubernetes namespaces.
+> Utility to switch between Kubernetes namespaces.
 
 - List the namespaces:
 
