@@ -1,6 +1,6 @@
 # kubectx
 
-> Utility which is able to manage and switch between kubectl contexts.
+> Utility to manage and switch between `kubectl` contexts.
 
 - List the contexts:
 
