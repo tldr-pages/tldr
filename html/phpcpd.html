@@ -1,0 +1,20 @@
+<b>phpcpd</b><br><br>
+<b>A copy and paste detector for PHP code.</b><br><br>
+- Analyse duplicated code for a specific file or directory:
+
+<blockquote>phpcpd <i>path/to/file_or_directory</i></blockquote>
+- Analyse using fuzzy matching for variable names:
+
+<blockquote>phpcpd --fuzzy <i>path/to/file_or_directory</i></blockquote>
+- Specify a minimum number of identical lines (defaults to 5):
+
+<blockquote>phpcpd --min-lines <i>number_of_lines</i> <i>path/to/file_or_directory</i></blockquote>
+- Specify a minimum number of identical tokens (defaults to 70):
+
+<blockquote>phpcpd --min-tokens <i>number_of_tokens</i> <i>path/to/file_or_directory</i></blockquote>
+- Exclude a directory from analysis (must be relative to the source):
+
+<blockquote>phpcpd --exclude <i>path/to/excluded_directory</i> <i>path/to/file_or_directory</i></blockquote>
+- Output the results to a PHP-CPD XML file:
+
+<blockquote>phpcpd --log-pmd <i>path/to/log_file</i> <i>path/to/file_or_directory</i></blockquote>

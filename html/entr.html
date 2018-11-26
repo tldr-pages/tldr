@@ -1,0 +1,14 @@
+<b>entr</b><br><br>
+<b>Run arbitrary commands when files change.</b><br><br>
+- Rebuild with `make` if any files in any subfolders change:
+
+<blockquote><i>ag -l</i> | entr <i>make</i></blockquote>
+- Rebuild and test with `make` if any `.c` source files in the current directory change:
+
+<blockquote><i>ls *.c</i> | entr <i>'make && make test'</i></blockquote>
+- Send a `SIGTERM` to any previously spawned ruby subprocesses before executing `ruby main.rb`:
+
+<blockquote><i>ls *.rb</i> | entr -r <i>ruby main.rb</i></blockquote>
+- Run a command with the changed file (`/_`) as an argument:
+
+<blockquote><i>ls *.sql</i> | entr <i>psql -f</i> /_</blockquote>
