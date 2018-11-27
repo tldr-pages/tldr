@@ -10,6 +10,6 @@
 
 `kompose down -f {{docker-compose.yml}}`
 
-- Convert a Docker Compose file into Kubernetes resources file: 
+- Convert a Docker Compose file into Kubernetes resources file:
 
 `kompose convert -f {{docker-compose.yml}}`
