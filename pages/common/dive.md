@@ -4,8 +4,8 @@
 
 - Analyze a Docker image:
 
-`dive {{your-image-tag}}`
+`dive {{your_image_tag}}`
 
 - Build an image and start analyzing it:
 
-`dive build -t {{some-tag}}`
+`dive build -t {{some_tag}}`
