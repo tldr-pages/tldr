@@ -32,4 +32,4 @@
 
 - Unmount rclone remote if CTRL-C fails (experimental):
 
-`fusermount -u {{/path/to/mount_point}}`
+`fusermount -u {{path/to/mount_point}}`
