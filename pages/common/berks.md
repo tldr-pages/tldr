@@ -1,0 +1,19 @@
+# berks
+
+> A dependency manager for Chef cookbooks.
+
+- Installs cookbook dependencies into local repo:
+
+`berks install`
+
+- Update a specific cookbook and its dependencies:
+
+`berks update {{cookbook}}`
+
+- Upload a cookbook to the Chef server:
+
+`berks upload {{cookbook}}`
+
+- View the dependencies of a cookbook:
+`berks contingent {{cookbook}}`
+
