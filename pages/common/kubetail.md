@@ -6,7 +6,7 @@
 
 `kubetail {{my_app}}`
 
-- To tail only a specific container from multiple pods:
+- Tail only a specific container from multiple pods:
 
 `kubetail my_app -c {{my_container}}`
 
