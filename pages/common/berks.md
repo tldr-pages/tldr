@@ -1,6 +1,6 @@
 # berks
 
-> A dependency manager for Chef cookbooks.
+> Chef cookbook dependency manager.
 
 - Installs cookbook dependencies into local repo:
 
@@ -17,4 +17,3 @@
 - View the dependencies of a cookbook:
 
 `berks contingent {{cookbook}}`
-
