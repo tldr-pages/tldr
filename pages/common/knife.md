@@ -1,6 +1,6 @@
 # knife
 
-> CLi for interacting with a Chef server from a local Chef repo.
+> CLI for interacting with a Chef server from a local Chef repo.
 
 - Bootstrap a new node:
 
