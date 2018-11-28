@@ -1,15 +1,15 @@
 # kompose
 
-> Kompose is a tool to help users who are familiar with docker-compose move to Kubernetes.
+> Kompose is a tool to convert docker-compose applications to Kubernetes.
 
-- Deploy your Dockerized application to a container orchestrator:
+- Deploy your dockerized application to Kubernetes:
 
 `kompose up -f {{docker-compose.yml}}`
 
-- Delete instantiated services/deployment from kubernetes:
+- Delete instantiated services/deployments from Kubernetes:
 
 `kompose down -f {{docker-compose.yml}}`
 
-- Convert a Docker Compose file into Kubernetes resources file:
+- Convert a docker-compose file into Kubernetes resources file:
 
 `kompose convert -f {{docker-compose.yml}}`
