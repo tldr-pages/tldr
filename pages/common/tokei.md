@@ -1,6 +1,6 @@
 # tokei
 
-> A program that prints out statistics about your code.
+> A program that prints out statistics about code.
 
 - Get a report on the code in a folder and all subfolders:
 
