@@ -2,7 +2,7 @@
 
 > Utility to tail multiple Kubernetes pod logs at the same time.
 
-- To tail the logs of multiple pods (which name starts with "my_app") in one go simply do:
+- Tail the logs of multiple pods (which name starts with "my_app") in one go:
 
 `kubetail {{my_app}}`
 
