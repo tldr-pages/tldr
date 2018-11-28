@@ -15,5 +15,6 @@
 `berks upload {{cookbook}}`
 
 - View the dependencies of a cookbook:
+
 `berks contingent {{cookbook}}`
 
