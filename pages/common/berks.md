@@ -2,7 +2,7 @@
 
 > Chef cookbook dependency manager.
 
-- Install cookbook dependencies into local repo:
+- Install cookbook dependencies into a local repo:
 
 `berks install`
 
