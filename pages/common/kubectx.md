@@ -6,7 +6,7 @@
 
 `kubectx`
 
-- Switch to context:
+- Switch to a named context:
 
 `kubectx {{name}}`
 
@@ -14,6 +14,6 @@
 
 `kubectx -`
 
-- Delete context:
+- Delete a named context:
 
 `kubectx -d {{name}}`
