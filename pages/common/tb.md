@@ -18,7 +18,7 @@
 
 `tb --check {{item_id}}`
 
-- Archive all checked items: 
+- Archive all checked items:
 
 `tb --clear`
 
