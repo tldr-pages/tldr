@@ -25,4 +25,3 @@
 - Move item to a board:
 
 `tb --move @{{item_id}} {{board_name}}`
-
