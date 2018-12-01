@@ -10,7 +10,7 @@
 
 `tb --note {{note description}} @{{board_name}}`
 
-- Edit item priority:
+- Edit item's priority:
 
 `tb --priority @{{item_id}} {{priority}}`
 
