@@ -1,6 +1,6 @@
 # tb
 
-> Effectively manage your tasks and notes across multiple boards from within your terminal.
+> CLI for managing tasks and notes across multiple boards.
 
 - Add a new task to a board:
 
