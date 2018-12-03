@@ -6,7 +6,7 @@
 
 `abduco`
 
-- Attach to a session, create if not exists:
+- Attach to a session, creating it if it doesn't exist:
 
 `abduco -A {{name}} bash`
 
