@@ -14,6 +14,6 @@
 
 `seq -s " " 5 3 20`
 
-- Format the output with (4 digit) zero padding:
+- Format output width to a minimum of 4 digits padding with zeros as necessary:
 
 `seq -f "%04g" 5 3 20`
