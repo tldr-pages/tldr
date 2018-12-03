@@ -14,7 +14,7 @@
 
 `abduco -A {{name}}`
 
-- Detach from session:
+- Detach from a session:
 
 `Ctrl + \`
 
