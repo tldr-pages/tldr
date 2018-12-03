@@ -18,6 +18,6 @@
 
 `Ctrl + \`
 
-- Attach to a session in readonly mode:
+- Attach to a session in read-only mode:
 
 `abduco -Ar {{name}}`
