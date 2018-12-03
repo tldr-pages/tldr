@@ -18,7 +18,7 @@
 
 `phing -f {{path/to/build.xml}} {{task_name}}`
 
-- Specify a log file for output:
+- Specify a log file to output to:
 
 `phing -b {{path/to/log_file}} {{task_name}}`
 
