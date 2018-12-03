@@ -20,4 +20,4 @@
 
 - Compare two files in VS Code:
 
-`code -d {file1} {file2}`
+`code -d {{file1}} {{file2}}`
