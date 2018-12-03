@@ -16,4 +16,4 @@
 
 - Format the output with (4 digit) zero padding:
 
-`seq --format "%04g" 5 3 20`
+`seq -f "%04g" 5 3 20`
