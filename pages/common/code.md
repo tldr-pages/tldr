@@ -17,3 +17,7 @@
 - Open a file or directory in the currently open VS Code window:
 
 `code --reuse-window {{path/to/file_or_folder}}`
+
+- Compare two files in VS Code:
+
+`code -d {{file1}} {{file2}}`
