@@ -4,11 +4,11 @@
 
 - Check a single Python file: 
 
-`pyflakes check {{path/to/python_file}}`
+`pyflakes check {{path/to/file}}.py`
 
 - Check Python files in path:
 
-`pyflakes checkPath {{path/to/check}}`
+`pyflakes checkPath {{path/to/directory}}`
 
 - Check python files in a directory recursively:
 
@@ -16,4 +16,4 @@
 
 - Check all Python files found in multiple paths:
 
-`pyflakes iterSourceCode {{path/to/check}} {{/another/path/to/check}}`
+`pyflakes iterSourceCode {{path/to/directory_1}} {{path/to/directory_2}}`
