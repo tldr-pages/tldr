@@ -10,9 +10,9 @@
 
 `Ctrl+g c`
 
-- Focus the **n**-th window:
+- Focus the n-th window:
 
-`Ctrl+g **n**`
+`Ctrl+g n`
 
 - Close focused window:
 
