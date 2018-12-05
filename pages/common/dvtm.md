@@ -23,7 +23,7 @@
 
 `Ctrl+g Space`
 
-- Toggle dvtm mouse grabbing:
+- Toggle mouse grabbing:
 
 `Ctrl+g M`
 
