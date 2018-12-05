@@ -6,19 +6,19 @@
 
 `yarn global add {{module_name}}`
 
-- Install all dependencies referenced in the package.json file:
+- Install all dependencies referenced in the `package.json` file (the `install` is optional):
 
-`yarn`
+`yarn install`
 
-- Install a module and save it as a dependency to the package.json file (add --dev to save as a dev dependency):
+- Install a module and save it as a dependency to the `package.json` file (add `--dev` to save as a dev dependency):
 
 `yarn add {{module_name}}@{{version}}`
 
-- Uninstall a module and remove it from the package.json file:
+- Uninstall a module and remove it from the `package.json` file:
 
 `yarn remove {{module_name}}`
 
-- Interactively create a package.json file:
+- Interactively create a `package.json` file:
 
 `yarn init`
 

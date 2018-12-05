@@ -1,0 +1,14 @@
+<b>kubetail</b><br><br>
+<b>Utility to tail multiple Kubernetes pod logs at the same time.</b><br><br>
+- Tail the logs of multiple pods (whose name starts with "my_app") in one go:
+
+<blockquote>kubetail <i>my_app</i></blockquote>
+- Tail only a specific container from multiple pods:
+
+<blockquote>kubetail <i>my_app</i> -c <i>my_container</i></blockquote>
+- To tail multiple containers from multiple pods:
+
+<blockquote>kubetail <i>my_app</i> -c <i>my_container_1</i> -c <i>my_container_2</i></blockquote>
+- To tail multiple applications at the same time seperate them by comma:
+
+<blockquote>kubetail <i>my_app_1</i>,<i>my_app_2</i></blockquote>
