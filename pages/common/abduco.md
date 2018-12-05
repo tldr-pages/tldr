@@ -8,9 +8,9 @@
 
 - Attach to a session, creating it if it doesn't exist:
 
-`abduco -A {{name}} bash`
+`abduco -A {{name}} {{bash}}`
 
-- Attach to a session with dvtm, creating it if it doesn't exist:
+- Attach to a session with `dvtm`, creating it if it doesn't exist:
 
 `abduco -A {{name}}`
 
