@@ -12,7 +12,7 @@
 
 - Start a container from an image, with a custom name:
 
-`docker run --name {{container_name}} {{image}}`
+`docker run -it --name {{container_name}} {{image}}`
 
 - Start or stop an existing container:
 
@@ -22,13 +22,9 @@
 
 `docker pull {{image}}`
 
-- Start a container from an image and get a shell inside of it:
-
-`docker run -it {{image}} sh`
-
 - Run a command inside of an already running container:
 
-`docker exec {{container_name}} {{command}}`
+`docker exec -it {{container_name}} {{command}}`
 
 - Remove a stopped container:
 
