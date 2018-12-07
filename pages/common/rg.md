@@ -25,3 +25,7 @@
 - Only list matched files -- useful when piping to other commands:
 
 `rg --files-with-matches {{pattern}}`
+
+- Invert matching. Show lines that do not match the given pattern:
+
+`rg -v {{pattern}}`
