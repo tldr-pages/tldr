@@ -28,4 +28,4 @@
 
 - Invert matching. Show lines that do not match the given pattern:
 
-`rg -v {{pattern}}`
+`rg --invert-match {{pattern}}`
