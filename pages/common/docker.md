@@ -12,7 +12,7 @@
 
 - Start a container from an image, with a custom name:
 
-`docker run -it --name {{container_name}} {{image}}`
+`docker run --name {{container_name}} {{image}}`
 
 - Start or stop an existing container:
 
