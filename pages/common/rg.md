@@ -26,6 +26,6 @@
 
 `rg --files-with-matches {{pattern}}`
 
-- Invert matching. Show lines that do not match the given pattern:
+- Show lines that do not match the given pattern:
 
 `rg --invert-match {{pattern}}`
