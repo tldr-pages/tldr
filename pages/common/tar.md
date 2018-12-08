@@ -34,3 +34,7 @@
 - Extract files matching a pattern:
 
 `tar xf {{source.tar}} --wildcards {{"*.html"}}`
+
+- Extract files inside a nested directory in the tarball:
+
+`tar xfz {{source.tar}} --strip-components={{number_of_nested_dirs}} -C {{folder}}`
