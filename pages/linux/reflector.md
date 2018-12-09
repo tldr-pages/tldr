@@ -6,6 +6,6 @@
 
 `sudo reflector --sort rate --save /etc/pacman.d/mirrorlist`
 
-- only get the 10 recently sync'd German HTTPS mirror sorted
+- only get the 10 recently sync'd German HTTPS mirrors sorted
 
 `reflector --latest 10 --country Germany --protocol https --sort rate`
