@@ -2,7 +2,7 @@
 
 > The official CLI tool for Microsoft Azure.
 
-- Login in to Azure:
+- Login to Azure:
 
 `az login`
 
