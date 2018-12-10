@@ -2,7 +2,7 @@
 
 > The official CLI tool for Microsoft Azure.
 
-- Login to Azure:
+- Log in to Azure:
 
 `az login`
 
@@ -10,18 +10,18 @@
 
 `az account`
 
+- List all Azure Managed Disks:
+
+`az disk list`
+
+- List all Azure virtual machines:
+
+`az vm list`
+
 - Manage Azure Kubernetes Services:
 
 `az aks`
 
-- Display one or many resources:
+- Manage Azure Network resources:
 
-`az get`
-
-- Get all Azure Managed Disks:
-
-`az disk list`
-
-- Get all Azure virtual machines:
-
-`az vm list`
+`az network`
