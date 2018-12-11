@@ -22,9 +22,9 @@
 
 `docker pull {{image}}`
 
-- Run a command inside of an already running container:
+- Open a shell inside of an already running container:
 
-`docker exec -it {{container_name}} {{command}}`
+`docker exec -it {{container_name}} sh`
 
 - Remove a stopped container:
 
