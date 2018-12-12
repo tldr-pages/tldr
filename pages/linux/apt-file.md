@@ -6,7 +6,7 @@
 
 `sudo apt update`
 
-- Search for packages that contain the specified file:
+- Search for packages that contain the specified file or path:
 
 `apt-file search {{part/of/filename/or/path}}`
 
