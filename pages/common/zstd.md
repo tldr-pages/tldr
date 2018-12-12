@@ -1,6 +1,6 @@
 # zstd
 
-> Compress or decompress files with Zstandard compression
+> Compress or decompress files with Zstandard compression.
 
 - Compress a file into a new file with the .zst suffix:
 
