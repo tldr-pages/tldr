@@ -26,6 +26,6 @@
 
 `phpmd {{path/to/file_or_directory}} {{xml|text|html}} {{rulesets}} --reportfile {{path/to/report_file}}`
 
-- Ignore the use of warning-suppression PHPDoc comments:
+- Ignore the use of warning-suppressive PHPDoc comments:
 
 `phpmd {{path/to/file_or_directory}} {{xml|text|html}} {{rulesets}} --strict`
