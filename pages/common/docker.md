@@ -24,7 +24,7 @@
 
 - Open a shell inside of an already running container:
 
-`docker exec -it {{container_name}} sh`
+`docker exec -it {{container_name}} {{sh}}`
 
 - Remove a stopped container:
 
