@@ -1,23 +1,26 @@
 <b>docker</b><br><br>
 <b>Manage Docker containers and images.</b><br><br>
-- List of running docker containers:
+- List currently running docker containers:
 
 <blockquote>docker ps</blockquote>
 - List all docker containers (running and stopped):
 
 <blockquote>docker ps -a</blockquote>
-- Start a container:
+- Start a container from an image, with a custom name:
 
-<blockquote>docker start <i>container</i></blockquote>
-- Stop a container:
+<blockquote>docker run --name <i>container_name</i> <i>image</i></blockquote>
+- Start or stop an existing container:
 
-<blockquote>docker stop <i>container</i></blockquote>
+<blockquote>docker <i>start|stop</i> <i>container_name</i></blockquote>
 - Pull an image from a docker registry:
 
 <blockquote>docker pull <i>image</i></blockquote>
-- Start a container from an image and get a shell inside of it:
+- Open a shell inside of an already running container:
 
-<blockquote>docker run -it <i>image</i> bash</blockquote>
-- Run a command inside of an already running container:
+<blockquote>docker exec -it <i>container_name</i> <i>sh</i></blockquote>
+- Remove a stopped container:
 
-<blockquote>docker exec <i>container</i> <i>command</i></blockquote>
+<blockquote>docker rm <i>container_name</i></blockquote>
+- Fetch and follow the logs of a container:
+
+<blockquote>docker logs -f <i>container_name</i></blockquote>

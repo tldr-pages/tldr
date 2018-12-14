@@ -1,0 +1,23 @@
+<b>phpmd</b><br><br>
+<b>A PHP mess detector that checks for common potential problems.</b><br><br>
+- Display a list of available rulesets and formats:
+
+<blockquote>phpmd</blockquote>
+- Scan a file or directory for problems using comma-separated rulesets:
+
+<blockquote>phpmd <i>path/to/file_or_directory</i> <i>xml|text|html</i> <i>rulesets</i></blockquote>
+- Specify the minimum priority threshold for rules:
+
+<blockquote>phpmd <i>path/to/file_or_directory</i> <i>xml|text|html</i> <i>rulesets</i> --minimumpriority <i>priority</i></blockquote>
+- Include only the specified extensions in analysis:
+
+<blockquote>phpmd <i>path/to/file_or_directory</i> <i>xml|text|html</i> <i>rulesets</i> --suffixes <i>extensions</i></blockquote>
+- Exclude the specified comma-separated directories:
+
+<blockquote>phpmd <i>path/to/file_or_directory</i> <i>xml|text|html</i> <i>rulesets</i> --exclude <i>directory_patterns</i></blockquote>
+- Output the results to a file instead of stdout:
+
+<blockquote>phpmd <i>path/to/file_or_directory</i> <i>xml|text|html</i> <i>rulesets</i> --reportfile <i>path/to/report_file</i></blockquote>
+- Ignore the use of warning-suppressive PHPDoc comments:
+
+<blockquote>phpmd <i>path/to/file_or_directory</i> <i>xml|text|html</i> <i>rulesets</i> --strict</blockquote>
