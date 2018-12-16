@@ -88,6 +88,9 @@ You can access these pages on your computer using one of the following clients:
   - [4d63.com/tldr](https://4d63.com/tldr):
     `go get 4d63.com/tldr` or `brew install 4d63/tldr/tldr`
     (or [platform binaries](https://github.com/leighmcculloch/tldr/releases))
+  - [github.com/elecprog/tldr](https://github.com/elecprog/tldr):
+    `go get github.com/elecprog/tldr`
+    (or [platform binaries](https://github.com/elecprog/tldr/releases))
 - iOS clients:
   - [tldr-man-page](https://github.com/freesuraj/TLDR), available on
     [App Store](https://appsto.re/sg/IQ0-_.i)
