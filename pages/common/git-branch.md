@@ -22,6 +22,6 @@
 
 `git branch -m {{old_branch_name}} {{new_branch_name}}`
 
-- Delete a local branch:
+- Delete a local branch (must not have it checked out to do this):
 
 `git branch -d {{branch_name}}`

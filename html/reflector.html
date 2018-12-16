@@ -1,0 +1,11 @@
+<b>reflector</b><br><br>
+<b>Arch script to fetch and sort mirrorlists.</b><br><br>
+- Get all mirrors, sort for download speed and save them:
+
+<blockquote>sudo reflector --sort <i>rate</i> --save <i>/etc/pacman.d/mirrorlist</i></blockquote>
+- Only get German HTTPS mirrors:
+
+<blockquote>reflector --country <i>Germany</i> --protocol <i>https</i></blockquote>
+- Only get the 10 recently sync'd mirrors:
+
+<blockquote>reflector --latest <i>10</i></blockquote>
