@@ -18,6 +18,6 @@
 
 `aws sns publish --topic-arn {{arn:aws:sns:us-east-1:54633:testTopic}} --message "Message"`
 
-- To see help text for AWS RDS commands:
+- To see help text for the AWS command:
 
-`aws rds help`
+`aws {{command}} help`
