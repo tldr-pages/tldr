@@ -18,6 +18,6 @@
 
 `zstd -{{level}} {{file}}`
 
-- Compress a file with high compression levels, using more memory (Max level is 22):
+- Use more memory (both when compressing and decompressing) to achieve a higher compression ratio:
 
 `zstd --ultra -{{level}} {{file}}`
