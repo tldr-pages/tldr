@@ -2,7 +2,7 @@
 
 > TLP status reports. See also `tlp`.
 
-- Status report with configuration and all active settings:
+- Generate status report with configuration and all active settings:
 
 `sudo tlp-stat`
 
