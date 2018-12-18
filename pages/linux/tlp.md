@@ -1,6 +1,6 @@
 # tlp
 
-> Advanced Power Management for Linux.
+> Advanced power management for Linux.
 
 - Apply settings (according to the actual power source):
 
