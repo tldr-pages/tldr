@@ -6,11 +6,11 @@
 
 `sudo tlp start`
 
-- Apply battery settings (_ignoring_ the actual power source):
+- Apply battery settings (ignoring the actual power source):
 
 `sudo tlp bat`
 
-- Apply AC settings (_ignoring_ the actual power source):
+- Apply AC settings (ignoring the actual power source):
 
 `sudo tlp ac`
 
