@@ -1,16 +1,16 @@
 # terminalizer
 
-> Utility program which records your terminal and generate animated gifs or share a web player.
+> Utility program which records the terminal and generate animated gifs or share a video.
 
 - Create a global config directory:
 
 `terminalizer init`
 
-- Record your terminal and create a recording file:
+- Record the terminal and create a recording file:
 
 `terminalizer record {{file_name}}`
 
-- Play a recorded file on your terminal:
+- Play a recorded file on the terminal:
 
 `terminalizer play {{file_name}}`
 
@@ -18,6 +18,6 @@
 
 `terminalizer render {{file_name}}`
 
-- Upload a recording file and get a link for an online player:
+- Upload a video to terminalizer.com:
 
 `terminalizer share {{file_name}}`
