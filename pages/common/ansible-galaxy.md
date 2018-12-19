@@ -1,7 +1,6 @@
 # ansible-galaxy
 
 > Create and manage Ansible roles.
-> Homepage: <https://www.ansible.com/>.
 
 - Install a role:
 

@@ -1,7 +1,6 @@
 # git
 
 > Distributed version control system.
-> Homepage: <https://git-scm.com/>.
 
 - Check the Git version:
 
