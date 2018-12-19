@@ -1,6 +1,6 @@
 # tlp-stat
 
-> Show configuration, system information, active power saving settings and battery data. See also `tlp`.
+> A tool to generate TLP status reports. See also `tlp`.
 
 - Generate status report with configuration and all active settings:
 
