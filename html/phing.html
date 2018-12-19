@@ -1,0 +1,26 @@
+<b>phing</b><br><br>
+<b>A PHP build tool based on Apache Ant.</b><br><br>
+- Perform the default task in the "build.xml" file:
+
+<blockquote>phing</blockquote>
+- Initialise a new build file:
+
+<blockquote>phing -i <i>path/to/build.xml</i></blockquote>
+- Perform a specific task:
+
+<blockquote>phing <i>task_name</i></blockquote>
+- Specify a custom build file path:
+
+<blockquote>phing -f <i>path/to/build.xml</i> <i>task_name</i></blockquote>
+- Specify a log file to output to:
+
+<blockquote>phing -b <i>path/to/log_file</i> <i>task_name</i></blockquote>
+- Specify custom properties to use in the build:
+
+<blockquote>phing -D<i>property</i>=<i>value</i> <i>task_name</i></blockquote>
+- Specify a custom listener class:
+
+<blockquote>phing -listener <i>class_name</i> <i>task_name</i></blockquote>
+- Build using verbose output:
+
+<blockquote>phing -verbose <i>task_name</i></blockquote>

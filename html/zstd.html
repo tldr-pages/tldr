@@ -1,0 +1,17 @@
+<b>zstd</b><br><br>
+<b>Compress or decompress files with Zstandard compression.</b><br><br>
+- Compress a file into a new file with the .zst suffix:
+
+<blockquote>zstd <i>file</i></blockquote>
+- Decompress a file:
+
+<blockquote>zstd -d <i>file</i>.zst</blockquote>
+- Decompress to stdout:
+
+<blockquote>zstd -dc <i>file</i>.zst</blockquote>
+- Compress a file, while specifing the compression level. 0 = Worst, 19 = Best (Default level is 3):
+
+<blockquote>zstd -<i>level</i> <i>file</i></blockquote>
+- Use more memory (both when compressing and decompressing) to achieve a higher compression ratio:
+
+<blockquote>zstd --ultra -<i>level</i> <i>file</i></blockquote>

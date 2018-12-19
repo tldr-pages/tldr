@@ -1,0 +1,17 @@
+<b>aws</b><br><br>
+<b>The official CLI tool for Amazon Web Services.</b><br><br>
+- List all IAM users:
+
+<blockquote>aws iam list-users</blockquote>
+- List all EC2 instances from a specific region:
+
+<blockquote>aws ec2 describe-instances --region <i>us-east-1</i></blockquote>
+- Receive message from a specific SQS queue:
+
+<blockquote>aws sqs receive-message --queue-url <i>https://queue.amazonaws.com/546123/Test</i></blockquote>
+- Publish message to the specific SNS topic:
+
+<blockquote>aws sns publish --topic-arn <i>arn:aws:sns:us-east-1:54633:testTopic</i> --message "Message"</blockquote>
+- To see help text for the AWS command:
+
+<blockquote>aws <i>command</i> help</blockquote>
