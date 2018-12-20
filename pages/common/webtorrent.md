@@ -7,7 +7,7 @@
 
 `webtorrent download "{{torrent_id}}"`
 
-- Stream a torrent to VLC:
+- Stream a torrent to VLC media player:
 
 `webtorrent download "{{torrent_id}}" --vlc`
 
