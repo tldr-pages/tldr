@@ -1,6 +1,6 @@
 # uprecords
 
-> Displays a summary of historical uptime records
+> Displays a summary of historical uptime records.
 
 - Display a summary of the top 10 historical uptime records:
 
