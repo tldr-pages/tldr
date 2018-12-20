@@ -11,7 +11,7 @@
 
 `webtorrent download "{{torrent_id}}" --vlc`
 
-- Stream a torrent to DLNA:
+- Stream a torrent to a Digital Living Network Alliance (DLNA) device:
 
 `webtorrent download "{{torrent_id}}" --dlna`
 
