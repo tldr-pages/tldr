@@ -33,7 +33,16 @@ function buildPagesIndex(files) {
     return index;
   };
 
-  return Object.values(files.reduce(reducer, {}));
+  var obj = files.reduce(reducer, {});
+  return Object.keys(obj)
+      .sort()
+      .map(function(page) {
+        return {
+          name: page,
+          platform: obj[page]["platform"],
+          language: obj[page]["language"]
+        };
+      });
 }
 
 function saveIndex(index) {
