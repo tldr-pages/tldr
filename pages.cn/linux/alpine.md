@@ -1,16 +1,16 @@
 # alpine
 
-> An email client and Usenet newsgroup program with a pico/nano-inspired interface.
-> Supports most modern email services through IMAP.
+> 一个电子邮件客户端和usenet新闻组程序,具有pico/nano风格的界面
+> 通过IMAP支持大多数现代电子邮件服务
 
-- Open alpine normally:
+- 正常打开alpine:
 
 `alpine`
 
-- Open alpine directly to the message composition screen to send an email to a given email address:
+- 直接打开写信息界面,并指定了电子邮件发送地址
 
 `alpine {{email@example.net}}`
 
-- Quit alpine:
+- 退出alpine:
 
-`'q' then 'y'`
+`'q' 然后 'y'`
