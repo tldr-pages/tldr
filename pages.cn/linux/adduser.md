@@ -1,23 +1,23 @@
 # adduser
 
-> User addition utility.
+> 添加用户的工具.
 
-- Create a new user with a default home directory and prompt the user to set a password:
+- 创建一个新用户,在默认路径创建home目录,并提示用户设置密码
 
 `adduser {{username}}`
 
-- Create a new user without a home directory:
+- 创建一个新用户,不生成home目录:
 
 `adduser --no-create-home {{username}}`
 
-- Create a new user with a home directory at the specified path:
+- 创建一个新用户,并在指定路径下创建home目录
 
 `adduser --home {{path/to/home}} {{username}}`
 
-- Create a new user with the specified shell set as the login shell:
+- 创建一个新用户,并指定登录shell
 
 `adduser --shell {{path/to/shell}} {{username}}`
 
-- Create a new user belonging to the specified group:
+- 创建一个新用户,并指定其用户组
 
 `adduser --ingroup {{group}} {{username}}`
