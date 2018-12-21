@@ -91,6 +91,9 @@ You can access these pages on your computer using one of the following clients:
   - [github.com/elecprog/tldr](https://github.com/elecprog/tldr):
     `go get github.com/elecprog/tldr`
     (or [platform binaries](https://github.com/elecprog/tldr/releases))
+  - [github.com/isacikgoz/tldr](https://github.com/isacikgoz/tldr):
+    `go get github.com/isacikgoz/tldr`
+    (or [platform binaries](https://github.com/isacikgoz/tldr/releases))
 - iOS clients:
   - [tldr-man-page](https://github.com/freesuraj/TLDR), available on
     [App Store](https://appsto.re/sg/IQ0-_.i)
