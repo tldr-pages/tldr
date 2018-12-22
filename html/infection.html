@@ -1,0 +1,26 @@
+<b>infection</b><br><br>
+<b>A mutation testing framework for PHP.</b><br><br>
+- Analyse code using the configuration file (or create one if it does not exist):
+
+<blockquote>infection</blockquote>
+- Use a specific number of threads:
+
+<blockquote>infection --threads <i>number_of_threads</i></blockquote>
+- Specify a minimum Mutation Score Indicator (MSI):
+
+<blockquote>infection --min-msi <i>percentage</i></blockquote>
+- Specify a minimum covered code MSI:
+
+<blockquote>infection --min-covered-msi <i>percentage</i></blockquote>
+- Use a specific test framework (defaults to phpunit):
+
+<blockquote>infection --test-framework <i>phpunit|phpspec</i></blockquote>
+- Only mutate lines of code that are covered by tests:
+
+<blockquote>infection --only-covered</blockquote>
+- Display the mutation code that has been applied:
+
+<blockquote>infection --show-mutations</blockquote>
+- Specify the log verbosity:
+
+<blockquote>infection --log-verbosity <i>default|all|none</i></blockquote>

@@ -1,0 +1,26 @@
+<b>webtorrent</b><br><br>
+<b>The command line interface for WebTorrent.</b><br><br><b>Supports magnets, urls, info hashes and .torrent files.</b><br><br>
+- Download a torrent:
+
+<blockquote>webtorrent download "<i>torrent_id</i>"</blockquote>
+- Stream a torrent to VLC media player:
+
+<blockquote>webtorrent download "<i>torrent_id</i>" --vlc</blockquote>
+- Stream a torrent to a Digital Living Network Alliance (DLNA) device:
+
+<blockquote>webtorrent download "<i>torrent_id</i>" --dlna</blockquote>
+- Display a list of files for a specific torrent:
+
+<blockquote>webtorrent download "<i>torrent_id</i>" --select</blockquote>
+- Specify a file index from the torrent to download:
+
+<blockquote>webtorrent download "<i>torrent_id</i>" --select <i>index</i></blockquote>
+- Seed a specific file or directory:
+
+<blockquote>webtorrent seed <i>path/to/file_or_directory</i></blockquote>
+- Create a new torrent file for the specified file path:
+
+<blockquote>webtorrent create <i>path/to/file</i></blockquote>
+- Display information for a magnet uri or .torrent file:
+
+<blockquote>webtorrent info <i>path/to/file_or_magnet</i></blockquote>
