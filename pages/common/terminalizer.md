@@ -2,7 +2,7 @@
 
 > Utility program which records the terminal and generate animated gifs or share a video.
 
-- Create a global config directory:
+- Create the global config directory:
 
 `terminalizer init`
 
