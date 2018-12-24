@@ -26,10 +26,6 @@
 
 `brew cleanup {{formula}}`
 
-- Show formulae that have a more recent version available:
-
-`brew outdated`
-
 - Display information about a formula (version, installation path, dependencies, etc.):
 
 `brew info {{formula}}`
