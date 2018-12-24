@@ -19,6 +19,5 @@
 `wget -qO - {{https://host.tld/filename.key}} | apt-key add -`
 
 - 指定密钥ID,从密钥服务器中添加一个密钥:
-- Add a key from keyserver with only key id:
 
 `apt-key adv --keyserver {{pgp.mit.edu}} --recv {{KEYID}}`
