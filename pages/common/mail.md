@@ -1,20 +1,11 @@
 # mail
+
 > The command operates on the user's mailbox if no argument is given.
 > To send an email the message body is built from standard input.
 
-- Send a simple message. The below command continues after hitting Enter key. Enter in the message, "Ctrl-D" to end the message.:
+- Send a typed email message. The commandline below continues after pressing Enter key. Input CC email-id (optional) press Enter key. Input message text (can be multi-line). Press "Ctrl-D" key to complete the message text:
 
 `mail -s{{"subject line"}} {{to_user@example.com}}`
-
-`CC:`
-
-`{{Hi Peter,
-`
-`How are you? I am fine.`
-
-`Goodbye,`
-
-`<Ctrl+d>}`
 
 - Send email that contains file content:
 
