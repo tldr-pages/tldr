@@ -3,14 +3,18 @@
 > To send an email the message body is built from standard input.
 
 - Send a simple message. The below command continues after hitting Enter key. Enter in the message, "Ctrl-D" to end the message.:
-```
-mail -s{{"subject line"}} {{to_user@example.com}} 
-CC:
-{{Hi Peter,
-How are you? I am fine.
-Goodbye,
-<Ctrl+d>}
-```
+
+`mail -s{{"subject line"}} {{to_user@example.com}}`
+
+`CC:`
+
+`{{Hi Peter,
+`
+`How are you? I am fine.`
+
+`Goodbye,`
+
+`<Ctrl+d>}`
 
 - Send email that contains file content:
 
