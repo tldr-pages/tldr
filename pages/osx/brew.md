@@ -22,7 +22,7 @@
 
 `brew update`
 
-- Remove old versions of installed formulae. If no formula name is given, all installed formulae are processed (use `-n` for dry run):
+- Remove old versions of installed formulae (if no formula name is given, all installed formulae are processed):
 
 `brew cleanup {{formula}}`
 
