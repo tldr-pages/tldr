@@ -10,11 +10,11 @@
 - Send email that contains file content:
 
 `mail -s {{"$HOSTNAME filename.txt"}} {{to_user@example.com}} <{{filename.txt}}`
- 
+
 - Send email that contains command output:
 
 `cat {{filename.txt}} | mail -s {{"$HOSTNAME filename.txt"}} {{to_user@example.com}}`
- 
+
 - Send email after an end of long running process:
 
 `{{command}} ; echo {{"job done"}} | mail -s{{"job done"}} {{to_user@example.com}}`
