@@ -1,7 +1,7 @@
 # virtualenv
 
 > Create virtual isolated Python environments.
-> Homepage: <https://virtualenv.pypa.io/en/latest/>.
+> Homepage: <https://virtualenv.pypa.io/>.
 
 - Create a new environment:
 
