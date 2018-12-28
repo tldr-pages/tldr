@@ -2,7 +2,7 @@
 
 > JavaScript and Node.js package manager.
 > Manage Node.js projects and their module dependencies.
-> Homepage: <http://npm.org/>.
+> Homepage: <http://npm.com/>.
 
 - Download and install a module globally:
 
