@@ -1,7 +1,6 @@
 # pr
 
 > Format text files for printing.
-> Paginate or columnate FILE(s) for printing.
 
 - Paginate the file for printing:
 
