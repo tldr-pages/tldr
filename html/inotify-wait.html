@@ -1,0 +1,20 @@
+<b>inotifywait</b><br><br>
+<b>Waits for changes to one or more files.</b><br><br>
+- Run a command when a file changes:
+
+<blockquote>while inotifywait <i>path/to/file</i>; do <i>command</i>; done</blockquote>
+- Be quiet about watching for changes:
+
+<blockquote>while inotifywait --quiet <i>path/to/file</i>; do <i>command</i>; done</blockquote>
+- Watch a directory recursively for changes:
+
+<blockquote>while inotifywait --recursive <i>path/to/directory</i>; do <i>command</i>; done</blockquote>
+- Exclude files matching a regular expression:
+
+<blockquote>while inotifywait --recursive <i>path/to/directory</i> --exlude '<i>regex</i>'; do <i>command</i>; done</blockquote>
+- Wait at most 30 seconds:
+
+<blockquote>while inotifywait --timeout <i>30</i> <i>path/to/file</i>; do <i>command</i>; done</blockquote>
+- Only watch for file modification events:
+
+<blockquote>while inotifywait --event <i>modify</i> <i>path/to/file</i>; do <i>command</i>; done</blockquote>
