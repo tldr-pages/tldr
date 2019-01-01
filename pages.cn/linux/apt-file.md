@@ -8,8 +8,8 @@
 
 - 查找包含指定文件或路径的软件包:
 
-`apt-file search {{part/of/filename}}`
+`apt-file search {{文件名或路径}}`
 
 - 列出指定包的内容:
 
-`apt-file list {{package_name}}`
+`apt-file list {{软件包名}}`
