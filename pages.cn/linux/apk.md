@@ -8,20 +8,20 @@
 
 - 安装一个新软件包:
 
-`apk add {{package}}`
+`apk add {{软件包}}`
 
 - 移除一个软件包:
 
-`apk del {{package}}`
+`apk del {{软件包}}`
 
 - 修复或更新软件包而不修改主依赖项:
 
-`apk fix {{package}}`
+`apk fix {{软件包}}`
 
 - 通过关键字查找软件包:
 
-`apk search {{keyword}}`
+`apk search {{关键字}}`
 
 - 获取指定软件包的相关信息:
 
-`apk info {{package}}`
+`apk info {{软件包}}`

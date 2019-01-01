@@ -7,9 +7,9 @@
 
 `alpine`
 
-- 直接打开写信息界面,并指定了电子邮件发送地址:
+- 直接打开写信息界面,并指定电子邮件发送地址:
 
-`alpine {{email@example.net}}`
+`alpine {{邮箱地址}}`
 
 - 退出alpine:
 
