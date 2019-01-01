@@ -24,4 +24,4 @@
 
 - Only watch for file modification events:
 
-`while inotifywait --event modify {{path/to/file}}; do {{command}}; done`
+`while inotifywait --event {{modify}} {{path/to/file}}; do {{command}}; done`
