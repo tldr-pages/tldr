@@ -9,11 +9,11 @@
 
 - 安装一个软件包或更新到最新版本:
 
-`apt-get install {{package}}`
+`apt-get install {{软件包}}`
 
 - 移除一个软件包:
 
-`apt-get remove {{package}}`
+`apt-get remove {{软件包}}`
 
 - 升级所有已安装软件包到最新版本:
 
