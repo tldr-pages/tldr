@@ -6,15 +6,15 @@
 
 `sudo lastb`
 
-- Show a list of all last logged in users since:
+- Show a list of all last logged in users since(use `YYYY-MM-DD` or `hh:mm` as time format):
 
 `sudo lastb --since {{time}}`
 
-- Show a list of all last logged in users until:
+- Show a list of all last logged in users until(use `YYYY-MM-DD` or `hh:mm` as time format):
 
 `sudo lastb --until {{time}}`
 
-- Show a list of all logged in users at a specific time:
+- Show a list of all logged in users at a specific time(use `YYYY-MM-DD` or `hh:mm` as time format):
 
 `sudo lastb --present {{time}}`
 
