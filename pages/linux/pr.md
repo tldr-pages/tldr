@@ -4,7 +4,7 @@
 
 - Paginate a file for printing:
 
-`pr {{filename}} --pages={{FIRST_PAGE}}[:{{LAST_PAGE}}]`
+`pr {{filename}} --pages={{FIRST_PAGE}}:{{LAST_PAGE}}`
 
 - Add line number to each line:
 
