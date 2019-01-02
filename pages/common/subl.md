@@ -17,3 +17,7 @@
 - Open a file or directory in a new window:
 
 `subl -n {{path/to/file}}`
+
+- Open a file and jump to a specific line number:
+
+`subl {{path/to/file}}:{{line_number}}`
