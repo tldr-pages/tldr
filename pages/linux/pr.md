@@ -2,7 +2,7 @@
 
 > Format text files for printing.
 
-- Paginate the file for printing:
+- Paginate a file for printing:
 
 `pr {{filename}} --pages={{FIRST_PAGE}}[:{{LAST_PAGE}}]`
 
