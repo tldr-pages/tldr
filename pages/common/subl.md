@@ -10,6 +10,10 @@
 
 `subl {{path/to/file_or_folder}}`
 
+- Open a file and jump to a specific line number:
+
+`subl {{path/to/file}}:{{line_number}}`
+
 - Open a file or directory in the currently open window:
 
 `subl -a {{path/to/file}}`
