@@ -6,17 +6,17 @@
 
 `sudo lastb`
 
-- Show a list of all last logged in users since(use `YYYY-MM-DD` or `hh:mm` as time format):
+- Show a list of all last logged in users since a given time:
 
-`sudo lastb --since {{time}}`
+`sudo lastb --since {{YYYY-MM-DD}}`
 
-- Show a list of all last logged in users until(use `YYYY-MM-DD` or `hh:mm` as time format):
+- Show a list of all last logged in users until a given time:
 
-`sudo lastb --until {{time}}`
+`sudo lastb --until {{YYYY-MM-DD}}`
 
-- Show a list of all logged in users at a specific time(use `YYYY-MM-DD` or `hh:mm` as time format):
+- Show a list of all logged in users at a specific time:
 
-`sudo lastb --present {{time}}`
+`sudo lastb --present {{hh:mm}}`
 
 - Show a list of all last logged in users and translate the IP into a hostname:
 
