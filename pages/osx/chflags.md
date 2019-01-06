@@ -1,6 +1,6 @@
 # chflags
 
-> Change file flags
+> Change file flags.
 
 - Set the `hidden` flag for a file:
 
