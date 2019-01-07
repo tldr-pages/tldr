@@ -1,6 +1,6 @@
 # elm
 
-> Compile and run Elm source files
+> Compile and run Elm source files.
 
 - Compile an Elm file, output the result to an index.html file:
 
@@ -10,7 +10,7 @@
 
 `elm make {{source}} --output={{destination}}.js`
 
-- Install Elm package from https://package.elm-lang.org
+- Install Elm package from https://package.elm-lang.org:
 
 `elm install {{author}}/{{package}}`
 
