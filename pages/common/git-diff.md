@@ -1,6 +1,7 @@
 # git diff
 
 > Show changes to tracked files.
+> Homepage: <https://git-scm.com/docs/git-diff>.
 
 - Show unstaged, uncommitted changes:
 
@@ -29,7 +30,6 @@
 - Create a patch file:
 
 `git diff > {{target_file}}.patch`
-> Homepage: <https://git-scm.com/docs/git-diff>.
 
 - Compare a single file between two branches or commits:
 
