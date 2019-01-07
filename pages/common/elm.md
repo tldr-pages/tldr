@@ -22,6 +22,6 @@
 
 `elm repl`
 
-- Start local server that compiles Elm files on page load:
+- Start local web server that compiles Elm files on page load:
 
 `elm reactor`
