@@ -1,6 +1,7 @@
 # git stash
 
 > Stash local Git changes in a temporary area.
+> Homepage: <https://git-scm.com/docs/git-stash>.
 
 - Stash current changes, except new (untracked) files:
 
