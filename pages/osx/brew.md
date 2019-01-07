@@ -14,11 +14,11 @@
 
 `brew list`
 
-- Update an installed formula (if no formula name is given, all installed formulae are updated):
+- Upgrade an installed formula (if no formula name is given, all installed formulae are upgraded):
 
 `brew upgrade {{formula}}`
 
-- Fetch the newest version of Homebrew and all formulae from GitHub:
+- Fetch the newest version of Homebrew and of all formulae from GitHub:
 
 `brew update`
 
@@ -30,6 +30,6 @@
 
 `brew info {{formula}}`
 
-- Check your Homebrew installation for potential problems:
+- Check the local Homebrew installation for potential problems:
 
 `brew doctor`
