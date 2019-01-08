@@ -26,3 +26,11 @@
 - Signal the operating system to pause a program until a SIGCONT ("continue") signal is received:
 
 `kill -{{17|STOP}} {{process_id}}`
+
+- Send a signal to all processes with the given GID (group id):
+
+`kill -{{signal_name}} -{{group_id}}`
+
+- Kill every process that can be killed by the current user (except init and kill itself):
+
+`kill -9 -1`
