@@ -27,10 +27,6 @@
 
 `kill -{{17|STOP}} {{process_id}}`
 
-- Send a signal to all processes with the given GID (group id):
+- Send a `SIGUSR1` signal to all processes with the given GID (group id):
 
-`kill -{{signal_name}} -{{group_id}}`
-
-- Kill every process that can be killed by the current user (except init and kill itself):
-
-`kill -9 -1`
+`kill -{{SIGUSR1}} -{{group_id}}`
