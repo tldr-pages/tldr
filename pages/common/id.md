@@ -2,7 +2,7 @@
 
 > Display current user and group identity.
 
-- Display current user id (UID), group id (GID) and groups of which you are a member:
+- Display current user id (UID), group id (GID) and groups to which they belong:
 
 `id`
 
@@ -14,6 +14,6 @@
 
 `id -g`
 
-- Display an arbitrary user's id (UID), group id (GID) and groups of which they are a member:
+- Display an arbitrary user's id (UID), group id (GID) and groups to which they belong:
 
 `id {{username}}`
