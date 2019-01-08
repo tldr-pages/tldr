@@ -13,3 +13,7 @@
 - Overwrite history file with history of current `bash` shell (often combined with `history -c` to purge history):
 
 `history -w`
+
+- Delete the history entry at the specified offset:
+
+`history -d {{offset}}`
