@@ -2,7 +2,7 @@
 
 > Display current user and group identity.
 
-- Display current user id (UID), group id (GID) and groups to which they belong:
+- Display current user's id (UID), group id (GID) and groups to which they belong:
 
 `id`
 
