@@ -2,11 +2,11 @@
 
 > Edit text in a scriptable manner.
 
-- Replace the first occurrence of a string in a file, and print the result:
+- Replace the first occurrence of a regular expression in each line of a file, and print the result:
 
-`sed 's/{{find}}/{{replace}}/' {{filename}}`
+`sed 's/{{regex}}/{{replace}}/' {{filename}}`
 
-- Replace all occurrences of an extended regular expression in a file:
+- Replace all occurrences of an extended regular expression in a file, and print the result:
 
 `sed -r 's/{{regex}}/{{replace}}/g' {{filename}}`
 

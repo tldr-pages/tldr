@@ -1,11 +1,20 @@
 <b>elm</b><br><br>
-<b>Run and manage programs in Elm programming language.</b><br><br>
-- Start an interactive Elm shell (REPL):
+<b>Compile and run Elm source files.</b><br><br>
+- Initialize an Elm project, generates an elm.json file:
 
-<blockquote>elm --repl</blockquote>
-- Initialize an empty Elm project:
+<blockquote>elm init</blockquote>
+- Start interactive Elm shell:
 
-<blockquote>elm --init</blockquote>
-- Compile the current project and serve it via the local web server:
+<blockquote>elm repl</blockquote>
+- Compile an Elm file, output the result to an index.html file:
 
-<blockquote>elm --reactor</blockquote>
+<blockquote>elm make <i>source</i></blockquote>
+- Compile an Elm file, output the result to a Javascript file:
+
+<blockquote>elm make <i>source</i> --output=<i>destination</i>.js</blockquote>
+- Start local web server that compiles Elm files on page load:
+
+<blockquote>elm reactor</blockquote>
+- Install Elm package from https://package.elm-lang.org:
+
+<blockquote>elm install <i>author</i>/<i>package</i></blockquote>
