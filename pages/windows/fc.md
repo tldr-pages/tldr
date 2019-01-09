@@ -3,7 +3,7 @@
 > Compare the differences between two files or sets of files.
 > Use wildcards (*) to compare sets of files.
 
-- Compare two specified files:
+- Compare 2 specified files:
 
 `fc {{path/to/file_1}} {{path/to/file_2}}`
 
