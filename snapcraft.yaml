@@ -1,0 +1,19 @@
+name: tldr
+version: '1.0'
+summary: Simplified and community-driven man pages
+description: |
+  Simplified and community-driven man pages
+grade: stable
+confinement: strict
+base: core18
+parts:
+  tldr:
+    plugin: python
+    python-version: python2
+    source: https://github.com/tldr-pages/tldr-python-client.git
+apps:
+  tldr:
+    command: bin/tldr
+    plugs:
+      - home
+      - network
