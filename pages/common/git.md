@@ -14,6 +14,10 @@
 
 `git help {{command}}`
 
+- Call tldr on a command:
+
+`tldr {{git-command}}`
+
 - Execute Git command:
 
 `git {{command}}`
