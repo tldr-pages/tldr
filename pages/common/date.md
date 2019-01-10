@@ -20,4 +20,4 @@
 
 - Convert a specific date to the unix timestamp
 
-`date -d "2018-09-01 00:00" +%s --utc`
+`date -d "{{2018-09-01 00:00}}" +%s --utc`
