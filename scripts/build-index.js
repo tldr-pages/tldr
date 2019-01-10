@@ -10,30 +10,39 @@ function parsePagename(pagefile) {
   return pagefile.split(/\//)[2].replace(/\.md$/, '');
 }
 
-function buildShortPagesIndex(files) {
+function parseLanguage(pagefile) {
+  var pagesFolder = pagefile.split(/\//)[0];
+  return pagesFolder == 'pages' ? 'en' : pagesFolder.replace(/^pages./, '');
+}
+
+function buildPagesIndex(files) {
   var reducer = function (index, file) {
     var os = parsePlatform(file);
     var page = parsePagename(file);
+    var language = parseLanguage(file);
     if (index[page]) {
-      index[page].push(os);
+      if (!index[page].platform.includes(os)) {
+        index[page].platform.push(os);
+      }
+      if (!index[page].language.includes(language)) {
+        index[page].language.push(language);
+      }
     } else {
-      index[page] = [os];
+      index[page] = {name: page, platform: [os], language: [language]};
     }
     return index;
   };
 
-  return files.reduce(reducer, {});
-}
-
-function buildPagesIndex(shortIndex) {
-  return Object.keys(shortIndex)
-    .sort()
-    .map(function (page) {
-      return {
-        name: page,
-        platform: shortIndex[page]
-      };
-    });
+  var obj = files.reduce(reducer, {});
+  return Object.keys(obj)
+      .sort()
+      .map(function(page) {
+        return {
+          name: page,
+          platform: obj[page]["platform"],
+          language: obj[page]["language"]
+        };
+      });
 }
 
 function saveIndex(index) {
@@ -43,8 +52,7 @@ function saveIndex(index) {
   console.log(JSON.stringify(indexFile));
 }
 
-glob('pages/**/*.md', function (er, files) {
-  var shortIndex = buildShortPagesIndex(files);
-  var index = buildPagesIndex(shortIndex);
+glob('pages*/**/*.md', function (er, files) {
+  var index = buildPagesIndex(files);
   saveIndex(index);
 });
