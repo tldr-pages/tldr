@@ -13,3 +13,7 @@
 - Evaluate JavaScript by passing it in the command:
 
 `node -e "{{code}}"`
+
+- Evaluate and print result, useful to see node's dependencies versions:
+
+`node -p "{{process.versions}}"`
