@@ -89,6 +89,14 @@ Some examples:
 
 You can check the validity of BCP 47 tags [here](http://schneegans.de/lv/).
 
+### Default language for newly added pages
+
+The default language used for pages is English (US). Pages written in English are stored in the default `pages` directory (notice the absence of a specific language tag). Translations should be added only for pages that already exist in the default language. If you'd like to add a new page in a different language, please consider creating the English page first.
+
+### Different regions for the same language
+
+For the same language, if there virtually is no difference in writing between the country of origin and another country in which the language is spoken, then the former should always be preferred. In such cases, please choose the region code of the country of origin, to avoid fragmentation of pages for the same language. As an example, both `fr-FR` and `fr-BE` should fall under the same `pages.fr-FR` directory, since there virtually is no difference in written French between France (country of origin) and Belgium. The same goes for `en-US`, `en-GB`, `en-CA` (and so on), which should all fall under the default `pages` directory.
+
 ## Submitting a pull request
 
 The easiest way to submit a change is to just edit the page directly on the Github interface.
