@@ -71,6 +71,24 @@ As a quick reference, the format of each page should match the following templat
 For more detailed page formatting guidelines,
 refer to the [style guide](contributing-guides/style-guide.md).
 
+## Translations
+
+Translation of pages can be done by simply creating the corresponding page in the appropriate top level language specific directory under the appropriate platform subdirectory.
+When translating a page into a language that is not present yet, a new language specific directory must be created first.
+
+Language specific directories must follow the pattern `pages.<language_tag>`, where `<language_tag>` is a [BCP 47](https://tools.ietf.org/html/bcp47) conforming tag in the form `<language>-<region>`, where:
+
+ - `<language>` is the shortest [ISO 639](https://en.wikipedia.org/wiki/ISO_639) language code for the chosen language (see [here](https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes) for a complete list).
+ - `<region>` is the two-letter [ISO 3166-1](https://en.wikipedia.org/wiki/ISO_3166-1) region code for the chosen region (see [here](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) for a complete list).
+
+Some examples:
+
+ - English (United Kingdom): `pages.en-GB`.
+ - Chinese (Taiwan): `pages.zh-TW`.
+ - Portuguese (Brazil): `pages.pt-BR`.
+
+You can check the validity of BCP 47 tags [here](http://schneegans.de/lv/).
+
 ## Submitting a pull request
 
 The easiest way to submit a change is to just edit the page directly on the Github interface.
