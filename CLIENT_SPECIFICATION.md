@@ -152,7 +152,7 @@ Clients MUST default to displaying tldr-page from the platform upon which the cl
 
 If a page is not available for the host platform, clients MUST fallback to the special `common` platform.
 
-If a page is not available for either the host platform or the `common` platform, then clients SHOULD search other platforms and display a page from there - ideally along with a warning message.
+If a page is not available for either the host platform or the `common` platform, then clients SHOULD search other platforms and display a page from there - along with a warning message.
 
 For example, a user has a client on windows, and requests the `apt` page. The client consults the platforms in the following order:
 
@@ -191,4 +191,4 @@ This section contains a number of other items that don't neatly fit into any of 
 
 If appropriate, it is RECOMMENDED that clients implement a cache of pages. If implemented, clients MUST download the _entire_ archive from **UNKNOWN_LOCATION**.
 
-Additionally, clients MAY automatically the cache on a regular basis.
+Additionally, clients MAY automatically update the cache on a regular basis.
