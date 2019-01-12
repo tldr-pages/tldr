@@ -1,6 +1,6 @@
 # fd
 
-> A simple, fast and user-friendly alternative to "find".
+> A simple, fast and user-friendly alternative to `find`.
 
 - Find files matching the given pattern in the current directory:
 
