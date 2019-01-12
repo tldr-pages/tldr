@@ -73,29 +73,27 @@ refer to the [style guide](contributing-guides/style-guide.md).
 
 ## Translations
 
-Translation of pages can be done by simply creating the corresponding page in the appropriate top level language specific directory under the appropriate platform subdirectory.
-When translating a page into a language that is not present yet, a new language specific directory must be created first.
+Translation of pages can be done by simply creating the corresponding page within the appropriate language-specific directory, creating that as well if it does not already exist.
 
-Language specific directories must follow the pattern `pages.<language_tag>`, where `<language_tag>` is a [BCP 47](https://tools.ietf.org/html/bcp47) conforming tag in the form `<language>-<region>`, where:
+Language specific directories must follow the pattern `pages.<language_tag>`, where `<language_tag>` is a [BCP 47](https://tools.ietf.org/html/bcp47) conforming tag in the form of `<language>[-<region>]`, where:
 
  - `<language>` is the shortest [ISO 639](https://en.wikipedia.org/wiki/ISO_639) language code for the chosen language (see [here](https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes) for a complete list).
  - `<region>` is the two-letter [ISO 3166-1](https://en.wikipedia.org/wiki/ISO_3166-1) region code for the chosen region (see [here](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) for a complete list).
 
-Some examples:
+The `<region>` code is optional and should only be added when it is needed to distinguish between an already existing `<language>` and one of its regional dialects. As an example, both `fr-FR` and `fr-BE` should fall under the same `pages.fr` directory, since there virtually is no difference in writing between standard French and Belgian French.
 
- - English (United Kingdom): `pages.en-GB`.
- - Chinese (Taiwan): `pages.zh-TW`.
- - Portuguese (Brazil): `pages.pt-BR`.
+Some examples of valid BCP 47 tags:
+
+ - French: `fr`.
+ - Chinese: `zh`.
+ - Chinese (Singapore): `zh-SG`.
+ - Portuguese (Brazil): `pt-BR`.
 
 You can check the validity of BCP 47 tags [here](http://schneegans.de/lv/).
 
 ### Default language for newly added pages
 
-The default language used for pages is English (US). Pages written in English are stored in the default `pages` directory (notice the absence of a specific language tag). Translations should be added only for pages that already exist in the default language. If you'd like to add a new page in a different language, please consider creating the English page first.
-
-### Different regions for the same language
-
-For the same language, if there virtually is no difference in writing between the country of origin and another country in which the language is spoken, then the former should always be preferred. In such cases, please choose the region code of the country of origin, to avoid fragmentation of pages for the same language. As an example, both `fr-FR` and `fr-BE` should fall under the same `pages.fr-FR` directory, since there virtually is no difference in written French between France (country of origin) and Belgium. The same goes for `en-US`, `en-GB`, `en-CA` (and so on), which should all fall under the default `pages` directory.
+The default language used for pages is English (US). Pages written in English are stored in the default `pages` directory (notice the absence of a specific language tag). Although not strictly required, if you'd like to add a new page in a different language, please consider creating the English page too.
 
 ## Submitting a pull request
 
