@@ -15,7 +15,7 @@
 
 `kill -{{1|HUP}} {{process_id}}`
 
-- Terminate a program using the SIGINT (interrupt) signal. This is typically initiated by the user pressing `Ctrl+C`:
+- Terminate a program using the SIGINT (interrupt) signal. This is typically initiated by the user pressing `Ctrl + C`:
 
 `kill -{{2|INT}} {{process_id}}`
 
@@ -23,6 +23,10 @@
 
 `kill -{{9|KILL}} {{process_id}}`
 
-- Signal the operating system to pause a program, it until a SIGCONT ("continue") signal is received:
+- Signal the operating system to pause a program until a SIGCONT ("continue") signal is received:
 
 `kill -{{17|STOP}} {{process_id}}`
+
+- Send a `SIGUSR1` signal to all processes with the given GID (group id):
+
+`kill -{{SIGUSR1}} -{{group_id}}`

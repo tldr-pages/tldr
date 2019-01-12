@@ -1,17 +1,23 @@
-<b>date</b><br><br>
-<b>Set or display the system date.</b><br><br>
+# date
+
+> Set or display the system date.
+
 - Display the current date using the default locale's format:
 
-<blockquote>date +"%c"</blockquote>
+`date +"%c"`
+
 - Display the current date in UTC and ISO 8601 format:
 
-<blockquote>date -u +"%Y-%m-%dT%H:%M:%SZ"</blockquote>
+`date -u +"%Y-%m-%dT%H:%M:%SZ"`
+
 - Display the current date as a Unix timestamp (seconds since the Unix epoch):
 
-<blockquote>date +%s</blockquote>
+`date +%s`
+
 - Display a specific date (represented as a Unix timestamp) using the default format:
 
-<blockquote>date -d @1473305798</blockquote>
+`date -d @1473305798`
+
 - Convert a specific date to the Unix timestamp format:
 
-<blockquote>date -d "<i>2018-09-01 00:00</i>" +%s --utc</blockquote>
+`date -d "{{2018-09-01 00:00}}" +%s --utc`

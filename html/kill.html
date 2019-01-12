@@ -9,12 +9,15 @@
 - Terminate a program using the SIGHUP (hang up) signal. Many daemons will reload instead of terminating:
 
 <blockquote>kill -<i>1|HUP</i> <i>process_id</i></blockquote>
-- Terminate a program using the SIGINT (interrupt) signal. This is typically initiated by the user pressing `Ctrl+C`:
+- Terminate a program using the SIGINT (interrupt) signal. This is typically initiated by the user pressing `Ctrl + C`:
 
 <blockquote>kill -<i>2|INT</i> <i>process_id</i></blockquote>
 - Signal the operating system to immediately terminate a program (which gets no chance to capture the signal):
 
 <blockquote>kill -<i>9|KILL</i> <i>process_id</i></blockquote>
-- Signal the operating system to pause a program, it until a SIGCONT ("continue") signal is received:
+- Signal the operating system to pause a program until a SIGCONT ("continue") signal is received:
 
 <blockquote>kill -<i>17|STOP</i> <i>process_id</i></blockquote>
+- Send a `SIGUSR1` signal to all processes with the given GID (group id):
+
+<blockquote>kill -<i>SIGUSR1</i> -<i>group_id</i></blockquote>

@@ -1,0 +1,17 @@
+<b>brctl</b><br><br>
+<b>Ethernet bridge administration.</b><br><br>
+- Show a list with information about currently existing ethernet bridges:
+
+<blockquote>sudo brctl show</blockquote>
+- Create a new ethernet bridge interface:
+
+<blockquote>sudo brctl add <i>bridge_name</i></blockquote>
+- Delete an existing ethernet bridge interface:
+
+<blockquote>sudo brctl del <i>bridge_name</i></blockquote>
+- Add an interface to an existing bridge:
+
+<blockquote>sudo brctl addif <i>bridge_name</i> <i>interface_name</i></blockquote>
+- Remove an interface from an existing bridge:
+
+<blockquote>sudo brctl delif <i>bridge_name</i> <i>interface_name</i></blockquote>

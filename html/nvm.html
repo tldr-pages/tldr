@@ -1,20 +1,23 @@
 <b>nvm</b><br><br>
-<b>Node.js version manager.</b><br><br><b>Switch between NodeJS versions: system, node, 0.10, 0.12, 4.2 etc.</b><br><br>
-- Install a specific version of NodeJS:
+<b>Install, uninstall or switch between Node.js versions.</b><br><br><b>Supports version numbers like "0.12" or "v4.2", and labels like "stable", "system", etc.</b><br><br><b>Homepage: <https://github.com/creationix/nvm>.</b><br><br>
+- Install a specific version of Node.js:
 
 <blockquote>nvm install <i>node_version</i></blockquote>
-- Use a specific version NodeJS in the current shell:
+- Use a specific version of Node.js in the current shell:
 
 <blockquote>nvm use <i>node_version</i></blockquote>
-- Set the default NodeJS version:
+- Set the default Node.js version:
 
 <blockquote>nvm alias default <i>node_version</i></blockquote>
-- List all available NodeJS versions and print the default one:
+- List all available Node.js versions and highlight the default one:
 
 <blockquote>nvm list</blockquote>
-- Run a specific version NodeJS REPL:
+- Uninstall a given Node.js version:
+
+<blockquote>nvm uninstall <i>node_version</i></blockquote>
+- Launch the REPL of a specific version of Node.js:
 
 <blockquote>nvm run <i>node_version</i> --version</blockquote>
-- Run app in a specific version of NodeJS:
+- Execute a script in a specific version of Node.js:
 
 <blockquote>nvm exec <i>node_version</i> node <i>app.js</i></blockquote>

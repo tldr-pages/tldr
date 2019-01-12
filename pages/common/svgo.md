@@ -1,6 +1,6 @@
 # svgo
 
-> SVG Optimizer: a Nodejs-based tool for optimizing Scalable Vector Graphics files.
+> SVG Optimizer: a Node.js-based tool for optimizing Scalable Vector Graphics files.
 > It applies a series of transformation rules (plugins), which can be toggled individually.
 
 - Optimize a file using the default plugins (overwrites the original file):
