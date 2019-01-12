@@ -21,7 +21,7 @@
 
 - Create a new binary or library Rust project in the specified directory:
 
-`cargo new {{crate_name}} --{{bin|lib}}`
+`cargo new {{path}} --{{bin|lib}}`
 
 - Build the Rust project in the current directory:
 
