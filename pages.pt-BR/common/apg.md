@@ -1,23 +1,23 @@
 # apg
 
-> Creates arbitrarily complex random passwords.
+> Criar senhas aleatórias arbitrariamente complexas.
 
-- Create random passwords (default password length is 8):
+- Criar senha aleatória (tamanho padrão para as senhas é 8 caracteres):
 
 `apg`
 
-- Create a password with at least 1 symbol (S), 1 number (N), 1 uppercase (C), 1 lowercase (L):
+- Criar senha com pelo menos 1 simbolo (S), 1 número (N), 1 caractere maiúsculo (C), 1 caractere minúsculo (L):
 
 `apg -M SNCL`
 
-- Create a password with 16 characters:
+- Criar uma senha com 16 caracteres:
 
 `apg -m {{16}}`
 
-- Create a password with maximum length of 16:
+- Criar senha com tamanho máximo de 16 caracteres:
 
 `apg -x {{16}}`
 
-- Create a password that doesn't appear in a dictionary (the dictionary file has to be provided):
+- Criar uma senha que não aparece em um dicionário provido pelo usuário:
 
-`apg -r {{dictionary_file}}`
+`apg -r {{arquivo_de_dicionario}}`
