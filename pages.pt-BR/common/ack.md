@@ -1,0 +1,19 @@
+# ack
+
+> Uma ferramenta de pesquisa similar ao grep, otimizada para programadores.
+
+- Procurar por arquivos que contenham o termo "foo":
+
+`ack {{foo}}`
+
+- Procurar por arquivos em uma linguagem específica:
+
+`ack --ruby {{cada_objeto}}`
+
+- Contar o número total de correspondencias para o termo "foo":
+
+`ack -ch {{foo}}`
+
+- Mostrar o nome dos arquivos contendo o termo "foo" e o número de correspondencias em cada arquivo:
+
+`ack -cl {{foo}}`
