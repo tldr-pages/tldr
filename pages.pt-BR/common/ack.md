@@ -14,6 +14,6 @@
 
 `ack -ch {{foo}}`
 
-- Mostrar o nome dos arquivos contendo o termo "foo" e o número de correspondencias em cada arquivo:
+- Mostrar o nome dos arquivos contendo o termo "foo" e o número de correspondências em cada arquivo:
 
 `ack -cl {{foo}}`
