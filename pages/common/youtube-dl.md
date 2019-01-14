@@ -12,7 +12,7 @@
 
 - Download video(s) as MP4 files with custom filenames:
 
-`youtube-dl --format {{mp4}} --output {{"%(title) by %(uploader) on %(upload_date) in %(playlist).%(ext)"}} {{url}}`
+`youtube-dl --format {{mp4}} -o {{"%(title)s by %(uploader)s on %(upload_date)s in %(playlist)s.%(ext)s"}} {{url}}`
 
 - Download a video and save its description, metadata, annotations, subtitles, and thumbnail:
 
