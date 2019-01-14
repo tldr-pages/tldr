@@ -6,7 +6,7 @@
 
 `apg`
 
-- Criar senha com pelo menos 1 simbolo (S), 1 número (N), 1 caractere maiúsculo (C), 1 caractere minúsculo (L):
+- Criar senha com pelo menos 1 símbolo (S), 1 número (N), 1 caractere maiúsculo (C), 1 caractere minúsculo (L):
 
 `apg -M SNCL`
 
