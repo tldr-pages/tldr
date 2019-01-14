@@ -31,11 +31,11 @@ Pages are grouped by platform. A platform is an operating system. For example, `
 This section describes the standardised command-line interface (CLI) for clients implementing one. Clients that do not provide a CLI can ignore this section.
 
 ### Arguments
-A number of arguments MUST be supported if a CLI is implemented:
+A number of arguments MUST be supported (unless otherwise specified if a CLI is implemented:
 
 Argument		        | Meaning
 ------------------------|--------------------
-`--update`				| Updates the offline cache of pages.
+`--update`				| Updates the offline cache of pages. MUST NOT be implemented if cache is not supported.
 `--version`, `-v`		| Shows the current version of the client, and the version of this specification that it implements.
 `--list-all`, `-a`		| Lists all the pages in the current platform to the standard output. One page name per line. Additional decoration MAY be printed to the standard error.
 
