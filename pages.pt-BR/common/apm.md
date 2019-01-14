@@ -1,7 +1,7 @@
 # apm
 
 > Gerenciador de pacotes do editor de texto Atom.
-> Verificar `atom`.
+> Ver também `atom`.
 
 - Instalar pacotes de http://atom.io/packages e temas de http://atom.io/themes:
 
