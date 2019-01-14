@@ -10,7 +10,7 @@
 
 `ack --ruby {{cada_objeto}}`
 
-- Contar o número total de correspondencias para o termo "foo":
+- Contar o número total de correspondências para o termo "foo":
 
 `ack -ch {{foo}}`
 
