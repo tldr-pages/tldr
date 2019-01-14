@@ -8,7 +8,7 @@
 
 - Enviar texto:
 
-`echo {{textp}} | airpaste`
+`echo {{texto}} | airpaste`
 
 - Enviar arquivo:
 
