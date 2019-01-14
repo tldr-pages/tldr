@@ -8,7 +8,7 @@
 
 - Procurar por arquivos em uma linguagem específica:
 
-`ack --ruby {{cada_objeto}}`
+`ack --ruby {{each_with_object}}`
 
 - Contar o número total de correspondências para o termo "foo":
 
