@@ -2,7 +2,7 @@
 
 > Compartilhar mensagens e arquivos na mesma rede:
 
-- Esperar por mensagens e mostra-las quando recebidas:
+- Esperar por mensagens e mostrá-las quando recebidas:
 
 `airpaste`
 
