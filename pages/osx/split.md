@@ -6,9 +6,9 @@
 
 `split -l {{10}} {{filename}}`
 
-- Split a file into 5 files. File is split such that each split has same size (except the last split):
+- Split a file by a pattern (the pattern is the head of each split):
 
-`split -n {{5}} {{filename}}`
+`split -p {{pattern}} {{filename}}`
 
 - Split a file with 512 bytes in each split (except the last split; use 512k for kilobytes and 512m for megabytes):
 
