@@ -6,9 +6,9 @@
 
 `split -l {{10}} {{filename}}`
 
-- Split a file by a pattern (the pattern is the head of each split):
+- Split a file by a regular expression. The matching line will be the first line of the next output file:
 
-`split -p {{pattern}} {{filename}}`
+`split -p {{regular expression}} {{filename}}`
 
 - Split a file with 512 bytes in each split (except the last split; use 512k for kilobytes and 512m for megabytes):
 
