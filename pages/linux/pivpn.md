@@ -4,10 +4,6 @@
 > Originally designed for the Raspberry Pi, but works on other Linux devices too.
 > Homepage: <http://www.pivpn.io/>.
 
-- Install PiVPN:
-
-`curl -L https://install.pivpn.io | bash`
-
 - Add a new client device:
 
 `sudo pivpn add`
