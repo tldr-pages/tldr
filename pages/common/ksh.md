@@ -7,14 +7,14 @@
 
 `ksh`
 
-- Execute command passed as parameter:
+- Execute a command:
 
 `ksh -c {{command}}`
 
-- Run commands from file (script):
+- Run commands from a file:
 
 `ksh {{file}}`
 
-- Run commands from file and print them as they are executed:
+- Run commands from a file and print them as they are executed:
 
 `ksh -x {{file}}`
