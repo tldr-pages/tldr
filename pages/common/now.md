@@ -1,6 +1,6 @@
 # now
 
-> Cloud platform for serverless deployment
+> Cloud platform for serverless deployment.
 
 - Deploy current directory:
 
