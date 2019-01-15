@@ -35,7 +35,7 @@ A number of arguments MUST be supported (unless otherwise specified if a CLI is 
 
 Argument		        | Meaning
 ------------------------|--------------------
-`--update`				| Updates the offline cache of pages. MUST NOT be implemented if cache is not supported.
+`--update`				| Updates the offline cache of pages. MUST be implemented if cache is supported.
 `--version`, `-v`		| Shows the current version of the client, and the version of this specification that it implements.
 `--list-all`, `-a`		| Lists all the pages in the current platform to the standard output. One page name per line. Additional decoration MAY be printed to the standard error.
 
