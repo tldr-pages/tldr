@@ -2,7 +2,7 @@
 
 > Cloud platform for serverless deployment.
 
-- Deploy current directory:
+- Deploy the current directory:
 
 `now`
 
