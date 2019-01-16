@@ -25,3 +25,7 @@
 - Display date of Easter (Western Christian churches) in a given year:
 
 `ncal -e {{year}}`
+
+- Display three months in a row
+
+`cal -3`
