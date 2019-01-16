@@ -6,7 +6,7 @@
 
 `now`
 
-- List of deployments:
+- Display a list of deployments:
 
 `now list`
 
@@ -18,10 +18,10 @@
 
 `now remove {{deployment_id}}`
 
-- Log in into account or create a new one:
+- Log in into an account or create a new one:
 
 `now login`
 
-- Initialize an example project:
+- Initialize an example project (a new directory will be created):
 
 `now init`
