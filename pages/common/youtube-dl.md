@@ -6,6 +6,10 @@
 
 `youtube-dl {{https://www.youtube.com/watch?v=oHg5SJYRHA0}}`
 
+- Download the specific quality video or playlist:
+
+`youtube-dl -f {{bestvideo+bestaudio}} {{https://www.youtube.com/watch?v=oHg5SJYRHA0}}`
+
 - Download the audio from a video and convert it to an MP3:
 
 `youtube-dl -x --audio-format {{mp3}} {{url}}`
