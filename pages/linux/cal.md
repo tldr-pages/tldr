@@ -8,6 +8,7 @@
 
 - Display previous, current and next month:
 
+`cal -3`
 `cal --three`
 
 - Use monday as the first day of the week:

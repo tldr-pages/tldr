@@ -6,6 +6,11 @@
 
 `cal`
 
+- Display previous, current and next month:
+
+`cal -3`
+`cal --three`
+
 - Display a calendar for a specific month (1-12 or name):
 
 `cal -m {{month}}`
