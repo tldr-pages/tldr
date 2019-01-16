@@ -37,9 +37,9 @@ Argument		        | Meaning
 ------------------------|--------------------
 `--update`				| Updates the offline cache of pages. MUST be implemented if cache is supported.
 `--version`, `-v`		| Shows the current version of the client, and the version of this specification that it implements.
-`--list-all`, `-a`		| Lists all the pages in the current platform to the standard output. One page name per line. Additional decoration MAY be printed to the standard error.
+`--list-all`, `-a`		| Lists all the pages in the current platform to the standard output. Additional decoration MAY be printed if the standard output is a [TTY](http://www.linusakesson.net/programming/tty/index.php). If not, then the output MUST be formatted with 1 page name per line (to enable easy manipulation using standard tools).
 
-Clients MAY support additional custom arguments not documented here.
+Clients MAY support additional custom arguments and syntax not documented here.
 
 Here are some examples invocations using the above flags:
 
