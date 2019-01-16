@@ -8,7 +8,7 @@
 
 - Download the specific quality video or playlist:
 
-`youtube-dl -f {{bestvideo+bestaudio}} {{https://www.youtube.com/watch?v=oHg5SJYRHA0}}`
+`youtube-dl --format {{bestvideo+bestaudio}} {{https://www.youtube.com/watch?v=oHg5SJYRHA0}}`
 
 - Download the audio from a video and convert it to an MP3:
 
