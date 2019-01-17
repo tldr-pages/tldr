@@ -1,20 +1,23 @@
 <b>tr</b><br><br>
-<b>Translate characters - run replacements based on single characters and character sets.</b><br><br>
+<b>Translate characters: run replacements based on single characters and character sets.</b><br><br>
 - Replace all occurrences of a character in a file, and print the result:
 
-<blockquote>tr <i>find_characters</i> <i>replace_characters</i> < <i>filename</i></blockquote>
+<blockquote>tr <i>find_character</i> <i>replace_character</i> < <i>filename</i></blockquote>
+- Replace all occurrences of a character from another command's output:
+
+<blockquote>echo <i>text</i> | tr <i>find_character</i> <i>replace_character</i></blockquote>
 - Map each character of the first set to the corresponding character of the second set:
 
-<blockquote>tr 'abcd' 'jkmn' < <i>filename</i></blockquote>
+<blockquote>tr '<i>abcd</i>' '<i>jkmn</i>' < <i>filename</i></blockquote>
 - Delete all occurrences of the specified set of characters from the input:
 
-<blockquote>tr -d '<i>input_characters</i>'</blockquote>
+<blockquote>tr -d '<i>input_characters</i>' < <i>filename</i></blockquote>
 - Compress a series of identical characters to a single character:
 
-<blockquote>tr -s '<i>input_characters</i>'</blockquote>
-- Translate the contents of the file to upper-case and print result:
+<blockquote>tr -s '<i>input_characters</i>' < <i>filename</i></blockquote>
+- Translate the contents of a file to upper-case:
 
 <blockquote>tr "[:lower:]" "[:upper:]" < <i>filename</i></blockquote>
-- Strip out non-printable characters from the file and print result:
+- Strip out non-printable characters from a file:
 
 <blockquote>tr -cd "[:print:]" < <i>filename</i></blockquote>

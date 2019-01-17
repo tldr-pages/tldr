@@ -21,3 +21,6 @@
 - Create a mirrored pool:
 
 <blockquote>zpool create <i>pool_name</i> mirror <i>disk1</i> <i>disk2</i> mirror <i>disk3</i> <i>disk4</i></blockquote>
+- Add a cache (L2ARC) device to a zpool:
+
+<blockquote>zpool add <i>pool_name</i> cache <i>cache_disk</i></blockquote>
