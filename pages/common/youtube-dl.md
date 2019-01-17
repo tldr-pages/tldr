@@ -6,6 +6,10 @@
 
 `youtube-dl {{https://www.youtube.com/watch?v=oHg5SJYRHA0}}`
 
+- List all formats from a video or playlist:
+
+`youtube-dl --list-formats {{https://www.youtube.com/watch?v=Mwa0_nE9H7A}}`
+
 - Download a video or playlist at a specific quality:
 
 `youtube-dl --format {{bestvideo+bestaudio}} {{https://www.youtube.com/watch?v=oHg5SJYRHA0}}`
