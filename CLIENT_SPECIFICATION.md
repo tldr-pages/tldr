@@ -39,6 +39,7 @@ Argument		        | Meaning
 `--version`, `-v`		| Shows the current version of the client, and the version of this specification that it implements.
 `--list`, `-l`			| Lists all the pages in the current platform to the standard output. If the special platform `all` is specified a list of all pages in all platforms MUST be displayed.
 `--pretty`				| OPTIONAL. Forces the output to contain all additional decorations, even if the standard output is not a TTY.
+`--platform`, `-p`		| Specifies the platform that should be used for resolving page names. If specified, the named platform MUST be checked first instead of the host platform  as described below.
 
 Additional decoration MAY be printed if the standard output is a [TTY](http://www.linusakesson.net/programming/tty/index.php). If not, then the output MUST not contain any additional decorations. For example a page list MUST be formatted with 1 page name per line (to enable easy manipulation using standard CLI tools such as `grep` etc.).
 
@@ -49,7 +50,7 @@ Here are some examples invocations using the above flags:
 ```bash
 tldr --update
 tldr --version
-tldr -a
+tldr -l
 ```
 
 ### Page Names
@@ -75,6 +76,14 @@ tldr eyeD3
 tldr git checkout
 # In the below, "--foo" is a custom argument that takes a parameter.
 tldr --foo bar bash
+```
+
+Furthermore, clients may OPTIONALLY support a colon to specify the platform name in addition to the `--platform`, `-p` syntax described above Here are some examples:
+
+```bash
+tldr platform:page
+tldr windows:type
+tldr common:git checkout
 ```
 
 #### Specifying the Platform
