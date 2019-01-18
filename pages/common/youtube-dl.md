@@ -6,7 +6,7 @@
 
 `youtube-dl {{https://www.youtube.com/watch?v=oHg5SJYRHA0}}`
 
-- List all formats from a video or playlist:
+- List all formats that a video or playlist is available in:
 
 `youtube-dl --list-formats {{https://www.youtube.com/watch?v=Mwa0_nE9H7A}}`
 
