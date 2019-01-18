@@ -37,7 +37,10 @@ Argument		        | Meaning
 ------------------------|--------------------
 `--update`				| Updates the offline cache of pages. MUST be implemented if cache is supported.
 `--version`, `-v`		| Shows the current version of the client, and the version of this specification that it implements.
-`--list-all`, `-a`		| Lists all the pages in the current platform to the standard output. Additional decoration MAY be printed if the standard output is a [TTY](http://www.linusakesson.net/programming/tty/index.php). If not, then the output MUST be formatted with 1 page name per line (to enable easy manipulation using standard tools).
+`--list`, `-l`			| Lists all the pages in the current platform to the standard output. If the special platform `all` is specified a list of all pages in all platforms MUST be displayed.
+`--pretty`				| OPTIONAL. Forces the output to contain all additional decorations, even if the standard output is not a TTY.
+
+Additional decoration MAY be printed if the standard output is a [TTY](http://www.linusakesson.net/programming/tty/index.php). If not, then the output MUST not contain any additional decorations. For example a page list MUST be formatted with 1 page name per line (to enable easy manipulation using standard CLI tools such as `grep` etc.).
 
 Clients MAY support additional custom arguments and syntax not documented here.
 
