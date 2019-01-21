@@ -16,4 +16,4 @@
 
 - Calculate the BLAKE2 checksum from stdin:
 
-`{{somecommand}} | shasum`
+`{{somecommand}} | b2sum`
