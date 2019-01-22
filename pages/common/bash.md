@@ -19,6 +19,10 @@
 
 `bash -x {{file.sh}}`
 
+- Run commands from a file, stopping at the first error:
+
+`bash -e {{file.sh}}`
+
 - Run commands from STDIN:
 
 `bash -s`
