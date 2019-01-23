@@ -25,3 +25,7 @@
 - Do not let backslash (\) act as an escape character:
 
 `read -r {{variable}}`
+
+- Display a prompt before the input:
+
+`read -p {{"Enter your input here: "}} {{variable}}`
