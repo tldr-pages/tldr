@@ -26,6 +26,6 @@
 
 `read -r {{variable}}`
 
-- Display a string before the input:
+- Display a prompt before the input:
 
 `read -p {{"Enter your input here: "}} {{variable}}`
