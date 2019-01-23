@@ -175,6 +175,6 @@ If a page is not available in the user's preferred language, then a client MUST 
 ## Other Considerations
 This section contains a number of other items that don't neatly fit into any of the sections defined above.
 
-If appropriate, it is RECOMMENDED that clients implement a cache of pages. If implemented, clients MUST download the _entire_ archive from **UNKNOWN_LOCATION**.
+If appropriate, it is RECOMMENDED that clients implement a cache of pages. If implemented, clients MUST download the _entire_ archive from **https://github.com/tldr-pages/tldr**.
 
 Additionally, clients MAY automatically update the cache on a regular basis.
