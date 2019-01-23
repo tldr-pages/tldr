@@ -1,6 +1,6 @@
 # base64
 
-> Encode or decode file or standard input, to standard output.
+> Encode or decode file or standard input to/from base64, to standard output.
 
 - Encode a file:
 
