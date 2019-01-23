@@ -33,14 +33,16 @@ Pages are grouped by platform. A platform is an operating system. For example, `
 This section describes the standardised command-line interface (CLI) for clients implementing one. Clients that do not provide a CLI can ignore this section.
 
 ### Arguments
-A number of arguments MUST be supported (unless otherwise specified if a CLI is implemented:
+A number of arguments MUST be supported (unless otherwise specified) if a CLI is implemented:
 
 Argument		       | Meaning
 -------------------|--------------------
-`-u`, `--update`   | Updates the offline cache of pages. MUST be implemented if cache is supported.
 `-v`, `--version`  | Shows the current version of the client, and the version of this specification that it implements.
 `-l`, `--list`     | Lists all the pages in the current platform to the standard output. If the special platform `all` is specified a list of all pages in all platforms MUST be displayed.
 `-p`, `--platform` | Specifies the platform that should be used for resolving page names. If specified, the named platform MUST be checked first instead of the host platform as described below.
+`-u`, `--update`   | Updates the offline cache of pages. MUST be implemented if cache is supported.
+
+Clients MAY NOT implement the long form of an argument (`--update`, `--version`, `--list`, `--platform`).
 
 Additional decoration MAY be printed if the standard output is a [TTY](http://www.linusakesson.net/programming/tty/index.php). If not, then the output MUST not contain any additional decorations. For example a page list MUST be formatted with 1 page name per line (to enable easy manipulation using standard CLI tools such as `grep` etc.).
 
