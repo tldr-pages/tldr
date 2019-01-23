@@ -1,8 +1,8 @@
 # tldr-pages client specification
 
- - **Current Specification Version:** 2.0
+ - **Current Specification Version:** 2.1
 
-This document contains the official specification for tldr-pages clients. It is _not_ a specification of the format of the pages themselves - only a specification of how a user should be able to interface with an official client. 
+This document contains the official specification for tldr-pages clients. It is _not_ a specification of the format of the pages themselves - only a specification of how a user should be able to interface with an official client.
 
 The keywords "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](https://tools.ietf.org/html/rfc2119).
 
@@ -15,6 +15,8 @@ The keywords "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SH
 	 - Ensure the spec specifies the _interface_, not the workings
  - v2.0 (12th January 2019)
 	 - Expanded notes into full sentences
+ - v2.1 (23rd January 2019)
+   - Removed optional parts of specification
 
 
 ## Terminology
@@ -75,37 +77,8 @@ tldr 7za
 tldr eyeD3
 tldr git checkout
 # In the below, "--foo" is a custom argument that takes a parameter.
-tldr --foo bar bash
+tldr --platform osx bash
 ```
-
-Furthermore, clients may OPTIONALLY support a colon to specify the platform name Here are some examples:
-
-```bash
-tldr platform:page
-tldr windows:type
-tldr common:git checkout
-```
-
-#### Specifying the Platform
-As pages are grouped by platform, a user may want to access a platform-specific version of a page. This MAY OPTIONALLY be supported by prefixing the page name as follows, in addition to the `--platform`, `-p` syntax described above:
-
-```
-platform:page
-windows:type
-linux:sh
-osx:brew
-common:git-checkout
-```
-
-Example invocations are as follows:
-
-```bash
-tldr windows:type
-# --foo is a custom argument, as described above
-tldr --foo bar common:git-merge
-tldr linux:notify-send
-```
-
 
 ## Directory Structure
 This section documents the directory structure that contains the pages themselves.
