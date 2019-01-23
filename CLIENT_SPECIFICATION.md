@@ -78,7 +78,7 @@ tldr git checkout
 tldr --foo bar bash
 ```
 
-Furthermore, clients may OPTIONALLY support a colon to specify the platform name in addition to the `--platform`, `-p` syntax described above Here are some examples:
+Furthermore, clients may OPTIONALLY support a colon to specify the platform name Here are some examples:
 
 ```bash
 tldr platform:page
@@ -87,21 +87,23 @@ tldr common:git checkout
 ```
 
 #### Specifying the Platform
-As pages are grouped by platform, a user may want to access a platform-specific version of a page. This MUST be supported by prefixing the page name as follows:
+As pages are grouped by platform, a user may want to access a platform-specific version of a page. This MAY OPTIONALLY be supported by prefixing the page name as follows, in addition to the `--platform`, `-p` syntax described above:
 
 ```
-windows/type
-linux/sh
-osx/brew
+platform:page
+windows:type
+linux:sh
+osx:brew
+common:git checkout
 ```
 
 Example invocations are as follows:
 
 ```bash
-tldr windows/type
+tldr windows:type
 # --foo is a custom argument, as described above
-tldr --foo bar common/git merge
-tldr linux/notify-send
+tldr --foo bar common:git merge
+tldr linux:notify-send
 ```
 
 
