@@ -35,13 +35,12 @@ This section describes the standardised command-line interface (CLI) for clients
 ### Arguments
 A number of arguments MUST be supported (unless otherwise specified if a CLI is implemented:
 
-Argument		        | Meaning
-------------------------|--------------------
-`--update`				| Updates the offline cache of pages. MUST be implemented if cache is supported.
-`--version`, `-v`		| Shows the current version of the client, and the version of this specification that it implements.
-`--list`, `-l`			| Lists all the pages in the current platform to the standard output. If the special platform `all` is specified a list of all pages in all platforms MUST be displayed.
-`--pretty`				| OPTIONAL. Forces the output to contain all additional decorations, even if the standard output is not a TTY.
-`--platform`, `-p`		| Specifies the platform that should be used for resolving page names. If specified, the named platform MUST be checked first instead of the host platform  as described below.
+Argument		       | Meaning
+-------------------|--------------------
+`--update`         | Updates the offline cache of pages. MUST be implemented if cache is supported.
+`--version`, `-v`  | Shows the current version of the client, and the version of this specification that it implements.
+`--list`, `-l`     | Lists all the pages in the current platform to the standard output. If the special platform `all` is specified a list of all pages in all platforms MUST be displayed.
+`--platform`, `-p` | Specifies the platform that should be used for resolving page names. If specified, the named platform MUST be checked first instead of the host platform as described below.
 
 Additional decoration MAY be printed if the standard output is a [TTY](http://www.linusakesson.net/programming/tty/index.php). If not, then the output MUST not contain any additional decorations. For example a page list MUST be formatted with 1 page name per line (to enable easy manipulation using standard CLI tools such as `grep` etc.).
 
@@ -91,16 +90,16 @@ The master version of every page is stored inside (but not directly) the `pages`
 	 + `windows/`
 	 + `osx/`
 	 + .....etc.
-	 
+	
 Additional platforms MAY be added in the future. Clients MAY NOT support new platforms (though such support is RECOMMENDED), but MUST NOT break if additional platforms are added.
-	 
+	
 The pages themselves sit inside the appropriate platform folder, with the extension `.md`. Here are some example mappings:
 
-Command name	|  Mapped name		| Filename
-----------------|-------------------|-------------------
-`7za`			| `7za`				| `7za.md`
+Command name    | Mapped name     | Filename
+----------------|-----------------|-------------------
+`7za`           | `7za`           | `7za.md`
 `git checkout`	| `git-checkout`	| `git-checkout.md`
-`tar`			| `tar`				| `tar.md`
+`tar`           | `tar`           | `tar.md`
 
 
 ### Translations
@@ -133,7 +132,7 @@ After transparently replacing spaces (` `) with dashes (`-`), clients have sever
 
  - The language of a page to display to a client
  - The platform to display a page from
- 
+
 ### Platform
 Clients MUST default to displaying tldr-page from the platform upon which the client is running. For example, a client running on _Windows 10_ will default to displaying pages from the `windows` platform. Clients MAY provide a user-configurable option to override this behaviour, however.
 
