@@ -1,6 +1,6 @@
 # phpenv
 
-> A PHP multi-version manager for development.
+> A PHP version manager for development purposes.
 
 - Install a PHP version globally:
 
