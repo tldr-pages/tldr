@@ -12,7 +12,7 @@
 
 - Show the tar tldr page for linux:
 
-`tldr --platform linux tar`
+`tldr --platform {{linux}} {{tar}}`
 
 - Get help for a command in Chinese:
 
