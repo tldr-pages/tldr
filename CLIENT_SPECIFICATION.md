@@ -94,7 +94,7 @@ platform:page
 windows:type
 linux:sh
 osx:brew
-common:git checkout
+common:git-checkout
 ```
 
 Example invocations are as follows:
@@ -102,7 +102,7 @@ Example invocations are as follows:
 ```bash
 tldr windows:type
 # --foo is a custom argument, as described above
-tldr --foo bar common:git merge
+tldr --foo bar common:git-merge
 tldr linux:notify-send
 ```
 
