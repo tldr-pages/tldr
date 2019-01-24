@@ -1,6 +1,6 @@
 # tldr-pages client specification
 
- - **Current Specification Version:** 2.1
+ - **Current Specification Version:** 1.0
 
 This document contains the official specification for tldr-pages clients. It is _not_ a specification of the format of the pages themselves - only a specification of how a user should be able to interface with an official client.
 
@@ -8,15 +8,8 @@ The keywords "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SH
 
 
 ## Changelog
- - v1.0 (18th December 2018)
-	 - Initial draft
- - v1.1 (18th December 2018)
-	 - Refined bullet points according to comments
-	 - Ensure the spec specifies the _interface_, not the workings
- - v2.0 (12th January 2019)
-	 - Expanded notes into full sentences
- - v2.1 (23rd January 2019)
-   - Removed optional parts of specification
+ - v1.0 (23rd January 2019)
+	 - Initial release
 
 
 ## Terminology
