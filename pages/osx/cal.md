@@ -9,7 +9,6 @@
 - Display previous, current and next month:
 
 `cal -3`
-`cal --three`
 
 - Display a calendar for a specific month (1-12 or name):
 
@@ -30,3 +29,7 @@
 - Display date of Easter (Western Christian churches) in a given year:
 
 `ncal -e {{year}}`
+
+- Display three months in a row
+
+`cal -3`

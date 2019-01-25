@@ -9,7 +9,6 @@
 - Display previous, current and next month:
 
 `cal -3`
-`cal --three`
 
 - Use monday as the first day of the week:
 
@@ -22,3 +21,7 @@
 - Display a calendar for a specific month and year:
 
 `cal {{month}} {{year}}`
+
+- Display three months in a row
+
+`cal -3`
