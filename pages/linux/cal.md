@@ -21,7 +21,3 @@
 - Display a calendar for a specific month and year:
 
 `cal {{month}} {{year}}`
-
-- Display three months in a row
-
-`cal -3`
