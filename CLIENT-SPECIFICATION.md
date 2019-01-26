@@ -70,7 +70,6 @@ Here are some example invocations:
 tldr 7za
 tldr eyeD3
 tldr git checkout
-# In the below, "--foo" is a custom argument that takes a parameter.
 tldr --platform osx bash
 ```
 
