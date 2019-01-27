@@ -33,4 +33,3 @@
 - Colorize output (available in kernels 3.5.0 and newer):
 
 `dmesg -L`
-
