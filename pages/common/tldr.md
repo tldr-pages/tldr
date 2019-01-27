@@ -14,10 +14,6 @@
 
 `tldr --platform {{linux}} {{tar}}`
 
-- Get help for a command in Chinese:
-
-`tldr -t {{zh}} {{command}}`
-
 - Get help for a git subcommand:
 
 `tldr {{git checkout}}`
