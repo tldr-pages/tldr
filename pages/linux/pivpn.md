@@ -16,7 +16,7 @@
 
 `sudo pivpn clients`
 
-- Revoke a previously authed device:
+- Revoke a previously authenticated device:
 
 `sudo pivpn revoke`
 
