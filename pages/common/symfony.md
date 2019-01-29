@@ -14,6 +14,6 @@
 
 `symfony server:stop`
 
-- Check security issues in project dependencies:
+- Check for security issues in the project's dependencies:
 
 `symfony security:check`
