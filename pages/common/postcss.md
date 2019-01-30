@@ -1,7 +1,7 @@
 # postcss
 
 > PostCSS is a tool for transforming styles with JS plugins.
-> Homepage: <https://postcss.org>
+> Homepage: <https://postcss.org>.
 
 - Parse and transform a CSS file:
 
