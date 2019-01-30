@@ -1,7 +1,7 @@
 # php
 
 > PHP command line interface.
-> Homepage: <https://php.net>
+> Homepage: <https://php.net>.
 
 - Parse and execute a php script:
 
