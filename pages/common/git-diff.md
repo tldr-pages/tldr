@@ -1,6 +1,7 @@
 # git diff
 
 > Show changes to tracked files.
+> Homepage: <https://git-scm.com/docs/git-diff>.
 
 - Show unstaged, uncommitted changes:
 

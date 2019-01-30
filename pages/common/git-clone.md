@@ -1,6 +1,7 @@
 # git clone
 
 > Clone an existing repository.
+> Homepage: <https://git-scm.com/docs/git-clone>.
 
 - Clone an existing repository:
 

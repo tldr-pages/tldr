@@ -1,6 +1,7 @@
 # git checkout
 
 > Checkout a branch or paths to the working tree.
+> Homepage: <https://git-scm.com/docs/git-checkout>.
 
 - Create and switch to a new branch:
 

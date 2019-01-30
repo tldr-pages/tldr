@@ -2,6 +2,7 @@
 
 > A file archiver with high compression ratio.
 > A standalone version of `7z` that only supports .7z files.
+> Homepage: <https://www.7-zip.org/>.
 
 - Archive a file or folder:
 
