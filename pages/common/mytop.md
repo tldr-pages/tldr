@@ -7,7 +7,7 @@
 
 `mytop`
 
-- Connect with username and password:
+- Connect with a specified username and password:
 
 `mytop -u {{user}} -p {{password}}`
 
