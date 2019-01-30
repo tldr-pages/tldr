@@ -21,3 +21,15 @@
 - Show kernel messages 1 page at a time:
 
 `dmesg | less`
+
+- Show kernel messages with a timestamp (available in kernels 3.5.0 and newer):
+
+`dmesg -T`
+
+- Show kernel messages in human-readable form (available in kernels 3.5.0 and newer):
+
+`dmesg -H`
+
+- Colorize output (available in kernels 3.5.0 and newer):
+
+`dmesg -L`

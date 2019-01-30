@@ -1,0 +1,26 @@
+<b>rclone</b><br><br>
+<b>CLI program to copy/sync/move files and directories to and from many cloud services.</b><br><br>
+- List contents of a folder on an rclone remote:
+
+<blockquote>rclone lsf <i>remote_name</i>:<i>path/to/folder</i></blockquote>
+- Copy file or folder from local source to remote destination:
+
+<blockquote>rclone copy <i>path/to/source_file_or_folder</i> <i>remote_name</i>:<i>path/to/destination_folder</i></blockquote>
+- Copy file or folder from remote source to local destination:
+
+<blockquote>rclone copy <i>remote_name</i>:<i>path/to/source_file_or_folder</i> <i>path/to/destination_folder</i></blockquote>
+- Sync local source to remote destination, changing the destination only:
+
+<blockquote>rclone sync <i>path/to/file_or_folder</i> <i>remote_name</i>:<i>path/to/folder</i></blockquote>
+- Move file or folder from local source to remote destination:
+
+<blockquote>rclone move <i>path/to/file_or_folder</i> <i>remote_name</i>:<i>path/to/folder</i></blockquote>
+- Delete remote file or folder (use `--dry-run` to test, remove it to actually delete):
+
+<blockquote>rclone --dry-run delete <i>remote_name</i>:<i>path/to/file_or_folder</i></blockquote>
+- Mount rclone remote (experimental):
+
+<blockquote>rclone mount <i>remote_name</i>:<i>path/to/folder</i> <i>path/to/mount_point</i></blockquote>
+- Unmount rclone remote if CTRL-C fails (experimental):
+
+<blockquote>fusermount -u <i>path/to/mount_point</i></blockquote>
