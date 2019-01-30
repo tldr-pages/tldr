@@ -11,7 +11,7 @@
 
 `mytop -u {{user}} -p {{password}}`
 
-- Connect with username, user will be prompted for a password:
+- Connect with a specified username (the user will be prompted for a password):
 
 `mytop -u {{user}} --prompt`
 
