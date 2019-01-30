@@ -1,6 +1,6 @@
 # mytop
 
-> Display MySQL server performance info like `top'
+> Display MySQL server performance info like top.
 > Homepage: <http://www.mysqlfanboy.com/mytop-3/>.
 
 - Start mytop:
