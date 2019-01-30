@@ -1,6 +1,7 @@
 # git merge
 
 > Merge branches.
+> Homepage: <https://git-scm.com/docs/git-merge>.
 
 - Merge a branch with your current branch:
 
