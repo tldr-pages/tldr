@@ -22,7 +22,7 @@
 
 - Scan a specific list of ports (use -p- for all ports 1-65535):
 
-`nmap -p {{port1,port2,...,portN}} {{address_or_addresses}}`
+`nmap -p {{port1,port2,…,portN}} {{address_or_addresses}}`
 
 - Perform TCP and UDP scanning (use -sU for UDP only, -sZ for SCTP, -sO for IP):
 
