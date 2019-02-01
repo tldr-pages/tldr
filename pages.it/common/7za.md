@@ -13,7 +13,7 @@
 
 - Archivia utilizzando uno specifico tipo di archivio:
 
-`7za a -t {{zip|gzip|bzip2|tar|...}} {{archivio.7z}} {{percorso/al/file}}`
+`7za a -t {{zip|gzip|bzip2|tar}} {{archivio.7z}} {{percorso/al/file}}`
 
 - Elenca i tipi di archivio supportati:
 
