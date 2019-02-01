@@ -14,7 +14,7 @@
 
 - Archive using a specific archive type:
 
-`7za a -t{{zip|gzip|bzip2|tar|...}} {{archived}} {{path/to/file}}`
+`7za a -t{{zip|gzip|bzip2|tar}} {{archived}} {{path/to/file}}`
 
 - List available archive types:
 
