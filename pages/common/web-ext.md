@@ -3,11 +3,11 @@
 > A command line tool for managing web extension development.
 > Homepage: <https://www.npmjs.com/package/web-ext>.
 
-- Open the current web extension in Firefox:
+- Run the web extension in the current directory in Firefox:
 
 `web-ext run`
 
-- Open a specific directory's web extension in Firefox:
+- Run a web extension from a specific directory in Firefox:
 
 `web-ext run --source-dir {{path/to/directory}}`
 
@@ -15,7 +15,7 @@
 
 `web-ext run --verbose`
 
-- Open a web extension in Firefox Android:
+- Run a web extension in Firefox Android:
 
 `web-ext run --target firefox-android`
 
