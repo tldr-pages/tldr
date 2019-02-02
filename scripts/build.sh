@@ -30,16 +30,12 @@ function build_archive {
 }
 
 function upload_assets {
-  eval "$(ssh-agent -s)"
-  openssl aes-256-cbc -K $encrypted_973441be79af_key -iv $encrypted_973441be79af_iv -in ./scripts/id_ed25519_tldr_asset_upload.enc -out id_ed25519 -d
-  chmod 600 id_ed25519
-  ssh-add id_ed25519
   git clone --quiet --depth 1 git@github.com:${SITE_REPO_SLUG}.git $SITE_HOME
   mv -f $TLDR_ARCHIVE $SITE_HOME/assets/
   cp -f $TLDRHOME/pages/index.json $SITE_HOME/assets/
 
   cd $SITE_HOME
-  git add -A 
+  git add -A
   git commit -m "[TravisCI] uploaded assets after commits ${TRAVIS_COMMIT_RANGE}"
   git push -q
 }
