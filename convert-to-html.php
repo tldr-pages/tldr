@@ -74,6 +74,8 @@ while ($input)
 
    $output = str_replace('{{', '<i>', $output);
    $output = str_replace('}}', '</i>', $output);
+   $output = str_replace('<http', '<a href="http', $output);
+   $output = str_replace('>.', '">home page</a>', $output);
    // When working in a block quote, add a newline
    if ($block)
       $output = $output . '<br>';
