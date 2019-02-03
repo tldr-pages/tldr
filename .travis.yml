@@ -6,14 +6,11 @@ node_js:
 cache: false
 
 after_success:
+- eval "$(ssh-agent -s)"
+- openssl aes-256-cbc -K $encrypted_973441be79af_key -iv $encrypted_973441be79af_iv -in ./scripts/id_ed25519_tldr_asset_upload.enc -out id_ed25519 -d
+- chmod 600 id_ed25519
+- ssh-add id_ed25519
 - bash scripts/build.sh
 
 after_failure:
 - cat test_result | python scripts/send_to_bot.py
-
-env:
-  global:
-  # Used to upload the tldr archive to tldr-pages repo.
-  # Achieved via the upload_assets() function of scripts/build.sh
-  # This is an encrypted form of @agnivade's user token.
-  - secure: AJPra/q3bCFHzMOam1aFz4tzasYuU261Mk6lISh1VJatibHa7nBErsuA3VbR5qth9LblH5HFmNGl4bwmas/PTD1P3lPAHO19gdlMb1kpS9MhTojQP/0EPCsyMTgnWcmNMU2XMvYGHFT0JFn4vj/0TrM9CUMDoT9WhtnVJfgRrlY=

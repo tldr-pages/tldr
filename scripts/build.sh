@@ -10,6 +10,7 @@ function initialize {
   export TLDR_ARCHIVE="tldr.zip"
   export SITE_HOME="$HOME/site"
   export SITE_URL="github.com/tldr-pages/tldr-pages.github.io"
+  export SITE_REPO_SLUG="tldr-pages/tldr-pages.github.io"
 
   git config --global user.email "travis@travis-ci.org"
   git config --global user.name "Travis CI"
@@ -29,13 +30,12 @@ function build_archive {
 }
 
 function upload_assets {
-  # ${GH_TOKEN} is defined as a secure variable inside .travis.yml
-  git clone --quiet --depth 1 https://${GH_TOKEN}@${SITE_URL} $SITE_HOME
+  git clone --quiet --depth 1 git@github.com:${SITE_REPO_SLUG}.git $SITE_HOME
   mv -f $TLDR_ARCHIVE $SITE_HOME/assets/
   cp -f $TLDRHOME/pages/index.json $SITE_HOME/assets/
 
   cd $SITE_HOME
-  git add -A 
+  git add -A
   git commit -m "[TravisCI] uploaded assets after commits ${TRAVIS_COMMIT_RANGE}"
   git push -q
 }
