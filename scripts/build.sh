@@ -10,7 +10,7 @@ function initialize {
   export TLDR_ARCHIVE="tldr.zip"
   export SITE_HOME="$HOME/site"
   export SITE_URL="github.com/tldr-pages/tldr-pages.github.io"
-  export SITE_REPO_SLOG="tldr-pages/tldr-pages.github.io"
+  export SITE_REPO_SLUG="tldr-pages/tldr-pages.github.io"
 
   git config --global user.email "travis@travis-ci.org"
   git config --global user.name "Travis CI"
