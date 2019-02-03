@@ -9,6 +9,6 @@ after_failure:
 
 deploy:
   provider: script
-  script: bash scripts/build.sh
+  script: bash scripts/deploy.sh
   on:
     branch: master
