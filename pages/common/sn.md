@@ -8,7 +8,7 @@
 
 - Re-sign an assembly with the specified private key:
 
-`sn -R {{path/to/assembly.dll}} {{path/to/keypair.exe}}`
+`sn -R {{path/to/assembly.dll}} {{path/to/keypair.snk}}`
 
 - Show the public key of the private key that was used to sign an assembly:
 
