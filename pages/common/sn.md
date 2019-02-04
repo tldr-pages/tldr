@@ -1,6 +1,6 @@
 # sn
 
-> Mono StrongName utility for signing assemblies.
+> Mono StrongName utility for signing and verifying IL assemblies.
 
 - Generate a new StrongNaming key:
 
