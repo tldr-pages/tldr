@@ -12,7 +12,7 @@
 
 `aria2c {{http://mirror1.org/myLinux.iso}} {{http://mirror2.org/myLinux.iso}}`
 
-- Download using "2" connections per host:
+- Download using 2 connections per host:
 
 `aria2c -x{{2}} {{http://example.org/myLinux.iso}}`
 
