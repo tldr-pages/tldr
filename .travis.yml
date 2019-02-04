@@ -10,5 +10,7 @@ after_failure:
 deploy:
   provider: script
   script: bash scripts/deploy.sh
+  skip_cleanup: true
   on:
+    repo: tldr-pages/tldr
     branch: master
