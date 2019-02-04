@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # This script is executed by Travis CI when a PR is merged (i.e. in the `deploy` step).
-set -ev
+set -ex
 
 function initialize {
   if [ -z "$TLDRHOME" ]; then
@@ -27,12 +27,14 @@ function initialize {
 
 function rebuild_index {
   npm run build-index
+  echo "Rebuilding index done."
 }
 
 function build_archive {
   rm -f $TLDR_ARCHIVE
   cd $TLDRHOME/
   zip -r $TLDR_ARCHIVE pages*/ LICENSE.md
+  echo "Pages archive created."
 }
 
 function upload_assets {
@@ -44,6 +46,8 @@ function upload_assets {
   git add -A
   git commit -m "[TravisCI] uploaded assets after commits ${TRAVIS_COMMIT_RANGE}"
   git push -q
+
+  echo "Assets (pages archive, index) deployed to static site."
 }
 
 ###################################
@@ -51,6 +55,6 @@ function upload_assets {
 ###################################
 
 initialize
-rebuild_index && echo "Rebuilding index done."
-build_archive && echo "Pages archive created."
-upload_assets && echo "Assets (pages archive, index) deployed to static site."
+rebuild_index
+build_archive
+upload_assets
