@@ -1,16 +1,14 @@
 sudo: false
 language: node_js
 
-node_js:
-- stable
+node_js: stable
 cache: false
 
-after_success:
-- eval "$(ssh-agent -s)"
-- openssl aes-256-cbc -K $encrypted_973441be79af_key -iv $encrypted_973441be79af_iv -in ./scripts/id_ed25519_tldr_asset_upload.enc -out id_ed25519 -d
-- chmod 600 id_ed25519
-- ssh-add id_ed25519
-- bash scripts/build.sh
-
 after_failure:
-- cat test_result | python scripts/send_to_bot.py
+  - python scripts/send_to_bot.py < test_result
+
+deploy:
+  provider: script
+  script: bash scripts/deploy.sh
+  on:
+    branch: master
