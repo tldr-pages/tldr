@@ -14,7 +14,7 @@
 
 `gzip -c {{file.ext}} > {{compressed_file.ext.gz}}`
 
-- Uncompress a gzipped file specifying the output filename:
+- Decompress a gzipped file specifying the output filename:
 
 `gzip -c -d {{file.ext}}.gz > {{uncompressed_file.ext}}`
 
