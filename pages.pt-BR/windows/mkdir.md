@@ -1,6 +1,6 @@
 # mkdir
 
-> Cria um diretório.
+> Criar um diretório.
 
 - Criar um diretório:
 
