@@ -6,6 +6,6 @@
 
 `mkdir {{nome_do_diretorio}}`
 
-- Recursivamente cria uma árvore de diretórios aninhados:
+- Criar recursivamente uma árvore de diretórios aninhados:
 
 `mkdir {{caminho/para/subdiretorio}}`
