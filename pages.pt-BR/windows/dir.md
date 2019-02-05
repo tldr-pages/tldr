@@ -14,6 +14,6 @@
 
 `dir /A`
 
-- Mostra o conteúdo do diretório no caminho provido pelo usuário, incluindo arquivos e pastas escondidas:
+- Mostra o conteúdo do diretório provido pelo usuário, incluindo arquivos e pastas escondidas:
 
 `dir {{caminho/para/diretório}}} /A`
