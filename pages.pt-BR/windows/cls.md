@@ -1,7 +1,7 @@
 # cls
 
-> Limpa a tela de saída.
+> Limpar a tela de saída.
 
-- Limpa a tela:
+- Limpar a tela:
 
 `cls`
