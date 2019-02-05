@@ -2,7 +2,7 @@
 
 > Cria um diretório.
 
-- Criar diretório:
+- Criar um diretório:
 
 `mkdir {{nome_do_diretorio}}`
 
