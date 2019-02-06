@@ -10,7 +10,7 @@
 
 `tshark -Y '{{http.request.method == "GET"}}'`
 
-- Decode the current port with a specific protocol (ex: http):
+- Decode a TCP port using a specific protocol (e.g. HTTP):
 
 `tshark -d tcp.port=={{8888}},{{http}}`
 
