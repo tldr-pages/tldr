@@ -6,7 +6,7 @@
 
 `dir`
 
--  Mostrar o conteúdo do diretório no caminho provido pelo usuário:
+- Mostrar o conteúdo do diretório no caminho provido pelo usuário:
 
 `dir {{caminho/para/diretório}}`
 
