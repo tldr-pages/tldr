@@ -14,7 +14,7 @@
 
 `tshark -d tcp.port==8888,http`
 
-- Format of captured output:
+- Specify the format of captured output:
 
 `tshark -T json`
 
