@@ -24,7 +24,7 @@
 
 - Write captured packet to a file:
 
-`tshark -w -> {{file_name}}.pcap`
+`tshark -w {{path/to/file}}`
 
 - Analyze packets from a file:
 
