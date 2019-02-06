@@ -16,7 +16,7 @@
 
 - Specify the format of captured output:
 
-`tshark -T json`
+`tshark -T {{json|text|ps|…}}`
 
 - Display fields to output:
 
