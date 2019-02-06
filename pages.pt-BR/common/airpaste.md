@@ -1,6 +1,6 @@
 # airpaste
 
-> Compartilhar mensagens e arquivos na mesma rede:
+> Compartilhar mensagens e arquivos na mesma rede.
 
 - Esperar por mensagens e mostrá-las quando recebidas:
 
