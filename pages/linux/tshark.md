@@ -12,7 +12,7 @@
 
 - Decode the current port with a specific protocol (ex: http):
 
-`tshark -d tcp.port==8888,http`
+`tshark -d tcp.port=={{8888}},{{http}}`
 
 - Specify the format of captured output:
 
