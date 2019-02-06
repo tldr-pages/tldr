@@ -1,0 +1,14 @@
+<b>sn</b><br><br>
+<b>Mono StrongName utility for signing and verifying IL assemblies.</b><br><br>
+- Generate a new StrongNaming key:
+
+<blockquote>sn -k <i>path/to/key.snk</i></blockquote>
+- Re-sign an assembly with the specified private key:
+
+<blockquote>sn -R <i>path/to/assembly.dll</i> <i>path/to/keypair.snk</i></blockquote>
+- Show the public key of the private key that was used to sign an assembly:
+
+<blockquote>sn -T <i>path/to/assembly.exe</i></blockquote>
+- Extract the public key to a file:
+
+<blockquote>sn -e <i>path/to/assembly.dll</i> <i>path/to/output.pub</i></blockquote>

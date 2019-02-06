@@ -1,0 +1,23 @@
+<b>aria2</b><br><br>
+<b>A lightweight multi-protocol & multi-source command-line download utility.</b><br><br><b>Supports HTTP, HTTPS, FTP, SFTP, BitTorrent and Metalink.</b><br><br><b>Homepage: <a href="https://aria2.github.io/">home page</a></b><br><br>
+- Download a web resource:
+
+<blockquote>aria2c <i>http://example.org/myLinux.iso</i></blockquote>
+- Download a resource from multiple sources:
+
+<blockquote>aria2c <i>http://mirror1.org/myLinux.iso</i> <i>http://mirror2.org/myLinux.iso</i></blockquote>
+- Download using 2 connections per host:
+
+<blockquote>aria2c -x<i>2</i> <i>http://example.org/myLinux.iso</i></blockquote>
+- Download from a Metalink URI:
+
+<blockquote>aria2c <i>http://example.org/myLinux.metalink</i></blockquote>
+- Download from a BitTorrent URI:
+
+<blockquote>aria2c <i>http://example.org/myLinux.torrent</i></blockquote>
+- Download from a BitTorrent Magnet URI:
+
+<blockquote>aria2c <i>'magnet:?xt=urn:btih:248D0A1CD08284299DE78D5C1ED359BB46717D8C'</i></blockquote>
+- Download URIs from a file:
+
+<blockquote>aria2c -i <i>uris.txt</i></blockquote>
