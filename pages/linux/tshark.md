@@ -20,7 +20,7 @@
 
 - Select specific fields to output:
 
-`tshark -T fields -e http.request.method -e http.request.uri -e ip.dst`
+`tshark -T {{fields|ek|json|pdml}} -e {{http.request.method}} -e {{http.request.uri}} -e {{ip.src}} -e {{tcp.srcport}} -e {{ip.dst}} -e {{tcp.dstport}}`
 
 - Write captured packet to a file:
 
