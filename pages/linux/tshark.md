@@ -8,7 +8,7 @@
 
 - Filter captured packets by method:
 
-`tshark -Y 'http.request.method == "GET"'`
+`tshark -Y '{{http.request.method == "GET"}}'`
 
 - Decode the current port with a specific protocol (ex: http):
 
