@@ -6,7 +6,7 @@
 
 `tshark`
 
-- Filter captured packets by method:
+- Only output captured packets matching a specific wireshark filter:
 
 `tshark -Y '{{http.request.method == "GET"}}'`
 
