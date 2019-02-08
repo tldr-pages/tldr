@@ -13,7 +13,7 @@
 
 - Recursively copy the contents of a directory from a remote host to a local directory:
 
-`scp -r {{remote_host}}:{{path/to/remote_dir}} {{path/to/local_dir}}`
+`scp -r {{remote_host}}:{{path/to/remote_directory}} {{path/to/local_directory}}`
 
 - Copy a file between two remote hosts transferring through the local host:
 

@@ -8,11 +8,11 @@
 
 - Recursively remove a directory and all its subdirectories:
 
-`rm -r {{path/to/folder}}`
+`rm -r {{path/to/directory}}`
 
 - Forcibly remove a directory, without prompting for confirmation or showing error messages:
 
-`rm -rf {{path/to/folder}}`
+`rm -rf {{path/to/directory}}`
 
 - Interactively remove multiple files, with a prompt before every removal:
 
@@ -20,4 +20,4 @@
 
 - Remove files in verbose mode, printing a message for each removed file:
 
-`rm -v {{path/to/folder/*}}`
+`rm -v {{path/to/directory/*}}`
