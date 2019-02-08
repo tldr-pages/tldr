@@ -9,7 +9,7 @@
 
 - Show the history of a particular file or directory, including differences:
 
-`git log -p {{path}}`
+`git log -p {{path/to/file_or_directory}}`
 
 - Show only the first line of each commit message:
 

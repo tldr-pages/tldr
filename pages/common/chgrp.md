@@ -2,9 +2,9 @@
 
 > Change group ownership of files and folders.
 
-- Change the owner group of a file/folder:
+- Change the owner group of a file/directory:
 
-`chgrp {{group}} {{path/to/file}}`
+`chgrp {{group}} {{path/to/file_or_directory}}`
 
 - Recursively change the owner group of a folder and its contents:
 
@@ -14,6 +14,6 @@
 
 `chgrp -h {{group}} {{path/to/symlink}}`
 
-- Change the owner group of a file/folder to match a reference file:
+- Change the owner group of a file/directory to match a reference file:
 
-`chgrp --reference={{path/to/reference_file}} {{path/to/file}}`
+`chgrp --reference={{path/to/reference_file}} {{path/to/file_or_directory}}`

@@ -8,7 +8,7 @@
 
 - Commit a specific file or directory:
 
-`hg commit {{path/to/file}}`
+`hg commit {{path/to/file_or_directory}}`
 
 - Commit with a specific message:
 

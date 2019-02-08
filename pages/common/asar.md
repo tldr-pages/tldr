@@ -2,9 +2,9 @@
 
 > A file archiver for the Electron platform.
 
-- Archive a file or folder:
+- Archive a file or directory:
 
-`asar pack {{path/to/file}} {{archived.asar}}`
+`asar pack {{path/to/file_or_directory}} {{archived.asar}}`
 
 - Extract an archive:
 
