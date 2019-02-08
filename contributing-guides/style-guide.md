@@ -49,9 +49,9 @@ Keep the following guidelines in mind when choosing tokens:
 1. Use short but descriptive tokens,
    ex. `{{source_file}}` or `{{wallet.txt}}`.
 2. Use [`snake_case`](https://en.wikipedia.org/wiki/Snake_case) for multi-word tokens.
-3. For any reference to paths to files or folders, use the format `{{path/to/<placeholder>}}`.
+3. For any reference to paths to files or directories, use the format `{{path/to/<placeholder>}}`.
    For example, `ln -s {{path/to/file}} {{path/to/symlink}}`.
-   In case of a possible reference both to a file or a folder, use `{{path/to/file_or_folder}}`
+   In case of a possible reference both to a file or a directory, use `{{path/to/file_or_directory}}`
 4. Follow the `{{path/to/<placeholder>}}` convention for all path-related commands, except when the
    file location is implicit.
 5. If a command expects the file to have a particular extension, use it.
