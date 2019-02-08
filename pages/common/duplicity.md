@@ -3,7 +3,7 @@
 > Creates incremental, compressed, encrypted and versioned backups.
 > Can also upload the backups to a variety of backend services.
 
-- Backup a folder via FTPS to a remote machine, encrypting it with a password:
+- Backup a directory via FTPS to a remote machine, encrypting it with a password:
 
 `FTP_PASSWORD={{ftp_login_password}} PASSPHRASE={{encryption_password}} duplicity {{path/to/source/directory}} {{ftps://user@hostname/target/directory/path/}}`
 
@@ -25,4 +25,4 @@
 
 - Restore a subdirectory from a GnuPG-encrypted local backup to a given location:
 
-`PASSPHRASE={{gpg_key_password}} duplicity restore --encrypt-key {{gpg_key_id}} --file-to-restore {{relative/path/restorefolder}} file://{{absolute/path/to/backup/folder}} {{path/to/directory/to/restore/to}}`
+`PASSPHRASE={{gpg_key_password}} duplicity restore --encrypt-key {{gpg_key_id}} --file-to-restore {{relative/path/restoredirectory}} file://{{absolute/path/to/backup/directory}} {{path/to/directory/to/restore/to}}`

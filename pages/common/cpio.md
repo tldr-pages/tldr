@@ -7,7 +7,7 @@
 
 `echo "{{file1}} {{file2}} {{file3}}" | cpio -o > {{archive.cpio}}`
 
-- Copy all files and folders in a directory and add them [o]nto an archive, in [v]erbose mode:
+- Copy all files and directories in a directory and add them [o]nto an archive, in [v]erbose mode:
 
 `find {{path/to/directory}} | cpio -ov > {{archive.cpio}}`
 
