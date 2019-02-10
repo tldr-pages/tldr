@@ -1,6 +1,4 @@
-> Ping with Http protocol. 
 > Measure the latency and throughput of a webserver.
-> Homepage: <https://www.vanheusden.com/httping/>.
 
 - Ping the webserver on host 'localhost':
 
