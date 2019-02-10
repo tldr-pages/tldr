@@ -17,3 +17,4 @@
 - Ping the webserver on host 'localhost' using the Basic HTTP Authentication:
 
 `httping -g http://localhost/ -U username -P password`
+
