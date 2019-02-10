@@ -1,3 +1,5 @@
+# httping
+
 > Measure the latency and throughput of a webserver.
 
 - Ping the webserver on host 'localhost':
