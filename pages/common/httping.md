@@ -14,6 +14,6 @@
 
 `httping -l -g https://localhost/`
 
-- Ping the webserver on host 'localhost' using the Basic HTTP Authentication:
+- Ping the web server on host 'localhost' using HTTP basic authentication:
 
 `httping -g http://localhost/ -U username -P password`
