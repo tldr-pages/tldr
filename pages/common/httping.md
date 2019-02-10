@@ -1,6 +1,6 @@
 # httping
 
-> Measure the latency and throughput of a webserver.
+> Measure the latency and throughput of a web server.
 
 - Ping the web server on `host`:
 
