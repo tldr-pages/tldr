@@ -2,7 +2,7 @@
 
 > Measure the latency and throughput of a webserver.
 
-- Ping the webserver on `host`:
+- Ping the web server on `host`:
 
 `httping -g {{host}}`
 
