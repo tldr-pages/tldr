@@ -2,18 +2,18 @@
 
 > Measure the latency and throughput of a webserver.
 
-- Ping the webserver on host 'localhost':
+- Ping the webserver on `host`:
 
-`httping -g http://localhost/`
+`httping -g {{host}}`
 
-- Ping the webserver on host 'localhost' and portnumber '1000':
+- Ping the webserver on `host` and `port`:
 
-`httping -h localhost -p 1000`
+`httping -h {{host}} -p {{port}}`
 
-- Ping the webserver on host 'localhost' using an SSL connection:
+- Ping the webserver on `host` using an SSL connection:
 
-`httping -l -g https://localhost/`
+`httping -l -g https://{{host}}`
 
-- Ping the web server on host 'localhost' using HTTP basic authentication:
+- Ping the web server on `host` using HTTP basic authentication:
 
-`httping -g http://localhost/ -U username -P password`
+`httping -g http://{{host}} -U {{username}} -P {{password}}`
