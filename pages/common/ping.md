@@ -22,6 +22,6 @@
 
 `ping -a {{host}}`
 
-- Also display a message if no response was received:
+- Also display a message if no response was received (not working on macOS):
 
 `ping -O {{host}}`
