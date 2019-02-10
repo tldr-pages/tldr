@@ -19,7 +19,7 @@
 
 `rsync -r {{remote_host_name}}:{{remote_folder_location}} {{local_folder_location}}`
 
-- Transfer directory contents (but not the directory itself) from a remote into local:
+- Transfer directory contents (but not the directory itself) from a remote to local:
 
 `rsync -r {{remote_host_name}}:{{remote_folder_location}}/ {{local_folder_location}}`
 
