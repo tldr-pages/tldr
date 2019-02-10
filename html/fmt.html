@@ -1,0 +1,14 @@
+<b>fmt</b><br><br>
+<b>Reformat a text file by joining its paragraphs and limiting the line width to given number of characters (75 by default).</b><br><br>
+- Reformat a file:
+
+<blockquote>fmt <i>path/to/file</i></blockquote>
+- Reformat a file producing output lines of (at most) `n` characters:
+
+<blockquote>fmt -w <i>n</i> <i>path/to/file</i></blockquote>
+- Reformat a file without joining lines shorter than the given width together:
+
+<blockquote>fmt -s <i>path/to/file</i></blockquote>
+- Reformat a file with uniform spacing (1 space between words and 2 spaces between paragraphs):
+
+<blockquote>fmt -u <i>path/to/file</i></blockquote>

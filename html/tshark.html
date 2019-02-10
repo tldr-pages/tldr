@@ -1,0 +1,23 @@
+<b>tshark</b><br><br>
+<b>Packet analysis tool, CLI version of wireshark.</b><br><br>
+- Monitor everything on localhost:
+
+<blockquote>tshark</blockquote>
+- Only output captured packets matching a specific wireshark filter:
+
+<blockquote>tshark -Y '<i>http.request.method == "GET"</i>'</blockquote>
+- Decode a TCP port using a specific protocol (e.g. HTTP):
+
+<blockquote>tshark -d tcp.port==<i>8888</i>,<i>http</i></blockquote>
+- Specify the format of captured output:
+
+<blockquote>tshark -T <i>json|text|ps|…</i></blockquote>
+- Select specific fields to output:
+
+<blockquote>tshark -T <i>fields|ek|json|pdml</i> -e <i>http.request.method</i> -e <i>ip.src</i></blockquote>
+- Write captured packet to a file:
+
+<blockquote>tshark -w <i>path/to/file</i></blockquote>
+- Analyze packets from a file:
+
+<blockquote>tshark -r <i>file_name</i">home page</a>pcap</blockquote>
