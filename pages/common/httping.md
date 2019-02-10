@@ -10,7 +10,7 @@
 
 `httping -h {{host}} -p {{port}}`
 
-- Ping the webserver on `host` using an SSL connection:
+- Ping the web server on `host` using a TLS connection:
 
 `httping -l -g https://{{host}}`
 
