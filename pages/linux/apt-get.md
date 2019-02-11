@@ -15,7 +15,7 @@
 
 `apt-get remove {{package}}`
 
-- Remove a package and configuration files:
+- Remove a package and its configuration files:
 
 `apt-get purge {{package}}`
 
