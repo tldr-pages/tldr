@@ -6,7 +6,7 @@
 
 `virtualboxvm --startvm {{name|uuid}}`
 
-- Start a virtual machine in fullscreen:
+- Start a virtual machine in fullscreen mode:
 
 `virtualboxvm --startvm {{name|uuid}} --fullscreen`
 
