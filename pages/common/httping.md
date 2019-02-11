@@ -2,7 +2,7 @@
 
 > Measure the latency and throughput of a web server.
 
-- Ping the `url`:
+- Ping the `url`, for example: `httping -g http://github.com:80/tldr-pages/tldr`:
 
 `httping -g {{url}}`
 
