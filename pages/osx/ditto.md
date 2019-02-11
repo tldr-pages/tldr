@@ -1,8 +1,8 @@
 # ditto
 
-> Copy files and folders.
+> Copy files and directories.
 
-- Overwrite contents of destination folder with contents of source folder:
+- Overwrite contents of destination directory with contents of source directory:
 
 `ditto {{path/to/source}} {{path/to/destination}}`
 
@@ -10,6 +10,6 @@
 
 `ditto -V {{path/to/source}} {{path/to/destination}}`
 
-- Copy a given file or folder, while retaining the original file permissions:
+- Copy a given file or directory, while retaining the original file permissions:
 
 `ditto -rsrc {{path/to/source}} {{path/to/destination}}`

@@ -1,27 +1,27 @@
 # du
 
-> Disk usage: estimate and summarize file and folder space usage.
+> Disk usage: estimate and summarize file and directory space usage.
 
-- List the sizes of a folder and any subfolders, in the given unit (KB/MB/GB):
+- List the sizes of a directory and any subdirectories, in the given unit (KB/MB/GB):
 
-`du -{{k|m|g}} {{path/to/folder}}`
+`du -{{k|m|g}} {{path/to/directory}}`
 
-- List the sizes of a folder and any subfolders, in human-readable form (i.e. auto-selecting the appropriate unit for each size):
+- List the sizes of a directory and any subdirectories, in human-readable form (i.e. auto-selecting the appropriate unit for each size):
 
-`du -h {{path/to/folder}}`
+`du -h {{path/to/directory}}`
 
-- Show the size of a single folder, in human readable units:
+- Show the size of a single directory, in human readable units:
 
-`du -sh {{path/to/folder}}`
+`du -sh {{path/to/directory}}`
 
-- List the human-readable sizes of a folder and of all the files and folders within it:
+- List the human-readable sizes of a directory and of all the files and directories within it:
 
-`du -ah {{path/to/folder}}`
+`du -ah {{path/to/directory}}`
 
-- List the human-readable sizes of a folder and any subfolders, up to N levels deep:
+- List the human-readable sizes of a directory and any subdirectories, up to N levels deep:
 
-`du -h -d {{N}} {{path/to/folder}}`
+`du -h -d {{N}} {{path/to/directory}}`
 
-- List the human-readable size of all .jpg files in subfolders of the current folder, and show a cumulative total at the end:
+- List the human-readable size of all .jpg files in subdirectories of the current directory, and show a cumulative total at the end:
 
 `du -ch */*.jpg`

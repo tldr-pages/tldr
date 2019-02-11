@@ -10,7 +10,7 @@
 
 `attrib /S`
 
-- Display the attributes of the files and folders in the current directory and sub-directories:
+- Display the attributes of the files and directories in the current directory and sub-directories:
 
 `attrib /S /D`
 
@@ -22,6 +22,6 @@
 
 `attrib -S -H {{document.txt}}`
 
-- Add the hidden attribute to a folder:
+- Add the hidden attribute to a directory:
 
-`attrib +H {{path\to\folder}}`
+`attrib +H {{path\to\directory}}`

@@ -7,7 +7,7 @@
 
 `FTP_PASSWORD={{ftp_login_password}} PASSPHRASE={{encryption_password}} duplicity {{path/to/source/directory}} {{ftps://user@hostname/target/directory/path/}}`
 
-- Backup a folder to Amazon S3, doing a full backup every month:
+- Backup a directory to Amazon S3, doing a full backup every month:
 
 `duplicity --full-if-older-than {{1M}} --use-new-style s3://{{bucket_name[/prefix]}}`
 
@@ -17,7 +17,7 @@
 
 - List the available backups:
 
-`duplicity collection-status "file://{{absolute/path/to/backup/folder}}"`
+`duplicity collection-status "file://{{absolute/path/to/backup/directory}}"`
 
 - List the files in a backup stored on a remote machine, via ssh:
 

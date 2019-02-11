@@ -1,6 +1,6 @@
 # chown
 
-> Change user and group ownership of files and folders.
+> Change user and group ownership of files and directories.
 
 - Change the owner user of a file/directory:
 
@@ -10,9 +10,9 @@
 
 `chown {{user}}:{{group}} {{path/to/file_or_directory}}`
 
-- Recursively change the owner of a folder and its contents:
+- Recursively change the owner of a directory and its contents:
 
-`chown -R {{user}} {{path/to/folder}}`
+`chown -R {{user}} {{path/to/directory}}`
 
 - Change the owner of a symbolic link:
 
