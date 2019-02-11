@@ -2,9 +2,9 @@
 
 > Measure the latency and throughput of a web server.
 
-- Ping the web server on `host`:
+- Ping the specified url:
 
-`httping -g {{host}}`
+`httping -g {{url}}`
 
 - Ping the web server on `host` and `port`:
 
