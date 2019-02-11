@@ -1,6 +1,6 @@
 # ln
 
-> Creates links to files and folders.
+> Creates links to files and directories.
 
 - Create a symbolic link to a file or directory:
 

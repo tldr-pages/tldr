@@ -18,13 +18,13 @@
 
 `adb install -r {{path/to/file.apk}}`
 
-- Copy a file/folder from the target device:
+- Copy a file/directory from the target device:
 
-`adb pull {{path/to/device_file_or_folder}} {{path/to/local_destination_folder}}`
+`adb pull {{path/to/device_file_or_directory}} {{path/to/local_destination_directory}}`
 
-- Copy a file/folder to the target device:
+- Copy a file/directory to the target device:
 
-`adb push {{path/to/local_file_or_folder}} {{path/to/device_destination_folder}}`
+`adb push {{path/to/local_file_or_directory}} {{path/to/device_destination_directory}}`
 
 - Get a list of connected devices:
 

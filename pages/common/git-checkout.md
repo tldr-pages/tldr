@@ -19,7 +19,7 @@
 
 `git checkout --track {{remote_name}}/{{branch_name}}`
 
-- Discard all unstaged changes in the current folder (see `git reset` for more undo-like commands):
+- Discard all unstaged changes in the current directory (see `git reset` for more undo-like commands):
 
 `git checkout .`
 
@@ -27,6 +27,6 @@
 
 `git checkout {{file_name}}`
 
-- Replace a file in the current folder with the version of it committed in a given branch:
+- Replace a file in the current directory with the version of it committed in a given branch:
 
 `git checkout {{branch_name}} -- {{file_name}}`

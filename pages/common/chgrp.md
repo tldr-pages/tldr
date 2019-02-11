@@ -1,14 +1,14 @@
 # chgrp
 
-> Change group ownership of files and folders.
+> Change group ownership of files and directories.
 
 - Change the owner group of a file/directory:
 
 `chgrp {{group}} {{path/to/file_or_directory}}`
 
-- Recursively change the owner group of a folder and its contents:
+- Recursively change the owner group of a directory and its contents:
 
-`chgrp -R {{group}} {{path/to/folder}}`
+`chgrp -R {{group}} {{path/to/directory}}`
 
 - Change the owner group of a symbolic link:
 
