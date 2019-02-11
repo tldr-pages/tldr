@@ -2,7 +2,7 @@
 
 > Send ICMP ECHO_REQUEST packets to network hosts.
 
-- Ping `host`:
+- Ping the specified host:
 
 `ping {{host}}`
 
