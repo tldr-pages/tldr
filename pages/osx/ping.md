@@ -6,7 +6,7 @@
 
 `ping {{host}}`
 
-- Ping a `host` only a specific number of `count`:
+- Ping a host a specific number of times:
 
 `ping -c {{count}} {{host}}`
 
