@@ -10,6 +10,6 @@
 
 `jekyll serve --incremental`
 
-- Generate the current folder into "./_site":
+- Generate the current directory into "./_site":
 
 `jekyll build`

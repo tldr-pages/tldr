@@ -2,33 +2,33 @@
 
 > CLI program to copy/sync/move files and directories to and from many cloud services.
 
-- List contents of a folder on an rclone remote:
+- List contents of a directory on an rclone remote:
 
-`rclone lsf {{remote_name}}:{{path/to/folder}}`
+`rclone lsf {{remote_name}}:{{path/to/directory}}`
 
-- Copy file or folder from local source to remote destination:
+- Copy file or directory from local source to remote destination:
 
-`rclone copy {{path/to/source_file_or_folder}} {{remote_name}}:{{path/to/destination_folder}}`
+`rclone copy {{path/to/source_file_or_directory}} {{remote_name}}:{{path/to/destination_directory}}`
 
-- Copy file or folder from remote source to local destination:
+- Copy file or directory from remote source to local destination:
 
-`rclone copy {{remote_name}}:{{path/to/source_file_or_folder}} {{path/to/destination_folder}}`
+`rclone copy {{remote_name}}:{{path/to/source_file_or_directory}} {{path/to/destination_directory}}`
 
 - Sync local source to remote destination, changing the destination only:
 
-`rclone sync {{path/to/file_or_folder}} {{remote_name}}:{{path/to/folder}}`
+`rclone sync {{path/to/file_or_directory}} {{remote_name}}:{{path/to/directory}}`
 
-- Move file or folder from local source to remote destination:
+- Move file or directory from local source to remote destination:
 
-`rclone move {{path/to/file_or_folder}} {{remote_name}}:{{path/to/folder}}`
+`rclone move {{path/to/file_or_directory}} {{remote_name}}:{{path/to/directory}}`
 
-- Delete remote file or folder (use `--dry-run` to test, remove it to actually delete):
+- Delete remote file or directory (use `--dry-run` to test, remove it to actually delete):
 
-`rclone --dry-run delete {{remote_name}}:{{path/to/file_or_folder}}`
+`rclone --dry-run delete {{remote_name}}:{{path/to/file_or_directory}}`
 
 - Mount rclone remote (experimental):
 
-`rclone mount {{remote_name}}:{{path/to/folder}} {{path/to/mount_point}}`
+`rclone mount {{remote_name}}:{{path/to/directory}} {{path/to/mount_point}}`
 
 - Unmount rclone remote if CTRL-C fails (experimental):
 

@@ -11,9 +11,9 @@
 
 `tar -czf {{target.tar.gz}} {{file1 file2 file3}}`
 
-- Extract an archive in a target folder:
+- Extract an archive in a target directory:
 
-`tar -xf {{source.tar}} -C {{folder}}`
+`tar -xf {{source.tar}} -C {{directory}}`
 
 - Extract a gzipped archive in the current directory:
 

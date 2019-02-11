@@ -2,7 +2,7 @@
 
 > Run arbitrary commands when files change.
 
-- Rebuild with `make` if any files in any subfolders change:
+- Rebuild with `make` if any file in any subdirectory changes:
 
 `{{ag -l}} | entr {{make}}`
 

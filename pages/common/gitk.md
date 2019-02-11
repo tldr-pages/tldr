@@ -7,9 +7,9 @@
 
 `gitk`
 
-- Show repository browser for a specific file or folder:
+- Show repository browser for a specific file or directory:
 
-`gitk {{path/to/file_or_folder}}`
+`gitk {{path/to/file_or_directory}}`
 
 - Show commits made since 1 week ago:
 

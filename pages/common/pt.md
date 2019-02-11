@@ -19,6 +19,6 @@
 
 `pt -G='{{\.bar$}}' {{foo}}`
 
-- Find files whose contents match the regular expression, up to 2 folders deep:
+- Find files whose contents match the regular expression, up to 2 directories deep:
 
 `pt --depth={{2}} -e '{{^ba[rz]*$}}'`

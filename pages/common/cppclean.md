@@ -2,11 +2,11 @@
 
 > Find unused code in C++ projects.
 
-- Run in a project's folder:
+- Run in a project's directory:
 
 `cppclean {{path/to/project}}`
 
-- Run on a project where the headers are in the "inc1/" and "inc2/" folders:
+- Run on a project where the headers are in the "inc1/" and "inc2/" directories:
 
 `cppclean {{path/to/project}} --include-path={{inc1}} --include-path={{inc2}}`
 

@@ -3,17 +3,17 @@
 > A cross-platform pluggable text editor.
 > Plugins are managed by `apm`.
 
-- Open a file or folder:
+- Open a file or directory:
 
-`atom {{path/to/file_or_folder}}`
+`atom {{path/to/file_or_directory}}`
 
-- Open a file or folder in a new window:
+- Open a file or directory in a new window:
 
-`atom -n {{path/to/file_or_folder}}`
+`atom -n {{path/to/file_or_directory}}`
 
-- Open a file or folder in an existing window:
+- Open a file or directory in an existing window:
 
-`atom --add {{path/to/file_or_folder}}`
+`atom --add {{path/to/file_or_directory}}`
 
 - Open atom in safe mode (does not load any additional packages):
 

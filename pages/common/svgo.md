@@ -11,13 +11,13 @@
 
 `svgo {{test.svg}} {{test.min.svg}}`
 
-- Optimize all SVG files within a folder (overwrites the original files):
+- Optimize all SVG files within a directory (overwrites the original files):
 
-`svgo -f {{path/to/folder/with/svg/files}}`
+`svgo -f {{path/to/directory/with/svg/files}}`
 
-- Optimize all SVG files within a folder and save the resulting files to another folder:
+- Optimize all SVG files within a directory and save the resulting files to another directory:
 
-`svgo -f {{path/to/input/folder}} -o {{path/to/output/folder}}`
+`svgo -f {{path/to/input/directory}} -o {{path/to/output/directory}}`
 
 - Optimize SVG content passed from another command, and save the result to a file:
 

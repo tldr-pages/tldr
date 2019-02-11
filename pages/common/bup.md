@@ -6,13 +6,13 @@
 
 `bup -d {{path/to/repository}} init`
 
-- Prepare a given folder before taking a backup:
+- Prepare a given directory before taking a backup:
 
-`bup -d {{path/to/repository}} index {{path/to/folder}}`
+`bup -d {{path/to/repository}} index {{path/to/directory}}`
 
-- Backup a folder to the repository:
+- Backup a directory to the repository:
 
-`bup -d {{path/to/repository}} save -n {{backup_name}} {{path/to/folder}}`
+`bup -d {{path/to/repository}} save -n {{backup_name}} {{path/to/directory}}`
 
 - Show the backup snapshots currently stored in the repository:
 

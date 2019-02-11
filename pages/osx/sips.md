@@ -15,7 +15,7 @@
 
 `sips -Z {{1920}} {{300}} {{image.ext}}`
 
-- Resample all images in a folder to fit a width of 960px (honoring aspect ratio):
+- Resample all images in a directory to fit a width of 960px (honoring aspect ratio):
 
 `sips --resampleWidth {{960}} {{path/to/images}}`
 

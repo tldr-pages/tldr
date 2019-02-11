@@ -14,7 +14,7 @@
 
 `gradle build --offline`
 
-- Clear the build folder:
+- Clear the build directory:
 
 `gradle clean`
 
