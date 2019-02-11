@@ -6,6 +6,7 @@
 
 `httping -g {{url}}`
 
+
 - Ping the web server on `host` and `port`:
 
 `httping -h {{host}} -p {{port}}`
