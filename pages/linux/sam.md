@@ -1,6 +1,6 @@
 # sam
 
-> AWS Serverless Application Model (SAM) CLI
+> AWS Serverless Application Model (SAM) CLI.
 
 - Initialize a serverless application:
 
@@ -10,15 +10,15 @@
 
 `sam init --runtime python3.7`
 
-- Package a SAM application (Alias of *aws cloudformation package*)
+- Package a SAM application (Alias of *aws cloudformation package*):
 
 `sam package`
 
-- Build your Lambda function code
+- Build your Lambda function code:
 
 `sam build`
 
-- Run your serverless application locally
+- Run your serverless application locally:
 
 `sam local start-api`
 
