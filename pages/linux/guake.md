@@ -1,6 +1,6 @@
 # guake
 
->  Drop-down terminal for GNOME
+> Drop-down terminal for GNOME.
 
 - Toggle Guake Visiblity:
 
