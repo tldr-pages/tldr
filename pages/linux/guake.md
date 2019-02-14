@@ -14,7 +14,7 @@
 
 `Ctrl+Shift+T`
 
-- Close Terminal:
+- Close the terminal:
 
 `Super+X`
 
