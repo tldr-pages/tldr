@@ -2,7 +2,7 @@
 
 > A simple MQTT version 3.1.1 client that will subscribe to topics and print the messages that it receives.
 
-- Subscribe to the topic `sensors/temperature` information with Quality of Service (`QoS`) set to 1, by default the hostname resolves to `localhost` and port `1883`:
+- Subscribe to the topic `sensors/temperature` information with Quality of Service (`QoS`) set to 1. (The default hostname is `localhost` and port `1883`):
 
 `mosquitto_sub -t {{sensors/temperature}} -q {{1}}`
 
