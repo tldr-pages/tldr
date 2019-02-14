@@ -22,6 +22,6 @@
 
 `Ctrl+PageUp`
 
-- Search Selected Text in Broswer:
+- Search the selected text in the browser:
 
 `Shift+Ctrl+L`
