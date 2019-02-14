@@ -1,0 +1,11 @@
+<b>mosquitto_sub</b><br><br>
+<b>A simple MQTT version 3.1.1 client that will subscribe to topics and print the messages that it receives.</b><br><br>
+- Subscribe to the topic `sensors/temperature` information with Quality of Service (`QoS`) set to 1. (The default hostname is `localhost` and port `1883`):
+
+<blockquote>mosquitto_sub -t <i>sensors/temperature</i> -q <i>1</i></blockquote>
+- Subscribe to all broker status messages publishing on `iot.eclipse.org` port `1885` and print published messages verbosely:
+
+<blockquote>mosquitto_sub -v -h "iot.eclipse.org" -p 1885 -t <i>\$SYS/#</i></blockquote>
+- Subscribe to multiple topics matching a given pattern. (+ takes any metric name):
+
+<blockquote>mosquitto_sub -t <i>sensors/machines/+/temperature/+</i></blockquote>

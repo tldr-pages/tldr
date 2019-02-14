@@ -1,0 +1,20 @@
+<b>mosquitto_pub</b><br><br>
+<b>A simple MQTT version 3.1.1 client that will publish a single message on a topic and exit.</b><br><br>
+- Publish a temperature value of 32 on the topic `sensors/temperature` to 192.168.1.1 (defaults to `localhost`) with Quality of Service (`QoS`) set to 1:
+
+<blockquote>mosquitto_pub -h <i>192.168.1.1</i> -t <i>sensors/temperature</i> -m <i>32</i> -q <i>1</i></blockquote>
+- Publish timestamp and temperature data on the topic `sensors/temperature` to a remote host on a non-standard port:
+
+<blockquote>mosquitto_pub -h <i>192.168.1.1</i> -p <i>1885</i> -t <i>sensors/temperature</i> -m <i>"1266193804 32"</i></blockquote>
+- Publish light switch status and retain the message on the topic `switches/kitchen_lights/status` to a remote host because there may be a long period of time between light switch events:
+
+<blockquote>mosquitto_pub -r -h <i>"iot.eclipse.org"</i> -t <i>switches/kitchen_lights/status</i> -m <i>"on"</i></blockquote>
+- Send the contents of a file (`data.txt`) as a message and publish it to `sensors/temperature` topic:
+
+<blockquote>mosquitto_pub -t <i>sensors/temperature</i> -f <i>data.txt</i></blockquote>
+- Send the contents of a file (`data.txt`), by reading from `stdin` and send the entire input as a message and publish it to `sensors/temperature` topic:
+
+<blockquote>mosquitto_pub -t <i>sensors/temperature</i> -s < <i>data.txt</i></blockquote>
+- Read newline delimited data from `stdin` as a message and publish it to `sensors/temperature` topic:
+
+<blockquote><i>echo data.txt</i> | mosquitto_pub -t <i>sensors/temperature</i> -l</blockquote>

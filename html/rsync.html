@@ -12,12 +12,15 @@
 - Transfer a directory and all its children from a remote to local:
 
 <blockquote>rsync -r <i>remote_host_name</i>:<i>remote_folder_location</i> <i>local_folder_location</i></blockquote>
+- Transfer directory contents (but not the directory itself) from a remote to local:
+
+<blockquote>rsync -r <i>remote_host_name</i>:<i>remote_folder_location</i>/ <i>local_folder_location</i></blockquote>
 - Transfer only updated files from remote host:
 
 <blockquote>rsync -ru <i>remote_host_name</i>:<i>remote_folder_location</i> <i>local_folder_location</i></blockquote>
-- Transfer file over SSH and show progress per file:
+- Transfer file over SSH and delete local files that do not exist on remote host:
 
-<blockquote>rsync -e ssh --progress <i>remote_host_name</i>:<i>remote_file</i> <i>local_file</i></blockquote>
+<blockquote>rsync -e ssh --delete <i>remote_host_name</i>:<i>remote_file</i> <i>local_file</i></blockquote>
 - Transfer file over SSH and show global progress:
 
 <blockquote>rsync -e ssh --info=progress2 <i>remote_host_name</i>:<i>remote_file</i> <i>local_file</i></blockquote>
