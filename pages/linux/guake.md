@@ -6,7 +6,7 @@
 
 `F12`
 
-- Toggle Fullscreen:
+- Toggle fullscreen mode:
 
 `F11`
 
