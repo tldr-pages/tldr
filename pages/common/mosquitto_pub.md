@@ -2,9 +2,9 @@
 
 > A simple MQTT version 3.1.1 client that will publish a single message on a topic and exit.
 
-- Publish a temperature value of 32 on the topic `sensors/temperature` to `localhost` [default] with Quality of Service (`QoS`) set to 1:
+- Publish a temperature value of 32 on the topic `sensors/temperature` to 192.168.1.1 (defaults to `localhost`) with Quality of Service (`QoS`) set to 1:
 
-`mosquitto_pub -t {{sensors/temperature}} -m {{32}} -q {{1}}`
+`mosquitto_pub -h {{192.168.1.1}} -t {{sensors/temperature}} -m {{32}} -q {{1}}`
 
 - Publish timestamp and temperature data on the topic `sensors/temperature` to a remote host on a non-standard port:
 
