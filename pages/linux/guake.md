@@ -10,7 +10,7 @@
 
 `F11`
 
-- Open New Tab:
+- Open a new tab:
 
 `Ctrl+Shift+T`
 
