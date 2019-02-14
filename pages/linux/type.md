@@ -3,7 +3,7 @@
 > Display the kind of command the shell will execute.
 
 - Display the kind of a command:
- 
+
 `type {{command}}`
 
 - Display all locations containing an executable named {{command}}
