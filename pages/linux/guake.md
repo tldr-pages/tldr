@@ -20,7 +20,7 @@
 
 - Goto Previous Tab:
 
-`Ctrl+Page Up`
+`Ctrl+PageUp`
 
 - Search Selected Text in Broswer:
 
