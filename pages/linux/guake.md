@@ -18,7 +18,7 @@
 
 `Super+X`
 
-- Goto Previous Tab:
+- Go to the previous tab:
 
 `Ctrl+PageUp`
 
