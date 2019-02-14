@@ -6,10 +6,10 @@
 
 `type {{command}}`
 
-- Display all locations containing an executable named {{command}}
+- Display all locations containing an executable named {{command}}:
 
 `type -a {{command}}`
 
-- Display the name of the disk file that would be executed
+- Display the name of the disk file that would be executed:
 
 `type -p {{command}}`
