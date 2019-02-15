@@ -6,7 +6,7 @@
 
 `type {{command}}`
 
-- Display all locations containing an executable named {{command}}:
+- Display all locations containing the specified executable:
 
 `type -a {{command}}`
 
