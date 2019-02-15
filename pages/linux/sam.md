@@ -1,6 +1,7 @@
 # sam
 
 > AWS Serverless Application Model (SAM) CLI.
+> Homepage: <https://github.com/awslabs/aws-sam-cli>
 
 - Initialize a serverless application:
 
@@ -10,7 +11,7 @@
 
 `sam init --runtime {{python3.7}}`
 
-- Package a SAM application (Alias of *aws cloudformation package*):
+- Package a SAM application:
 
 `sam package`
 
@@ -22,6 +23,6 @@
 
 `sam local start-api`
 
-- Deploy an AWS SAM application (Alias of *aws cloudformation deploy*):
+- Deploy an AWS SAM application:
 
 `sam deploy`
