@@ -3,30 +3,30 @@
 > List directory contents.
 > Drop-in replacement for `ls -l`.
 
-- List files in the current directory, one per line, with details:
+- List files and directories in the current directory, one per line, with details:
 
 `vdir`
 
-- List files with sizes displayed in human readable units (KB, MB, GB):
+- List with sizes displayed in human readable units (KB, MB, GB):
 
 `vdir -h`
 
-- List all files, including hidden files (starting with a dot):
+- List including hidden files (starting with a dot):
 
 `vdir -a`
 
-- List files sorting them by size (largest first):
+- List files and directories sorting entries by size (largest first):
 
 `vdir -S`
 
-- List files sorting them by modification time (newest first):
+- List files and directories sorting entries by modification time (newest first):
 
 `vdir -t`
 
-- List files grouping directories first:
+- List grouping directories first:
 
 `vdir --group-directories-first`
 
-- Recursively list files in a specific directory:
+- Recursively list all files and directories in a specific directory:
 
 `vdir --recursive {{path/to/directory}}`
