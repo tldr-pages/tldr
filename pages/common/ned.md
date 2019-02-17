@@ -5,7 +5,7 @@
 
 - Recursively search starting in the current directory, ignoring case:
 
-`ned -iR '{{^[dl]og}}' {{.}}`
+`ned --ignore-case --recursive '{{^[dl]og}}' {{.}}`
 
 - Search always showing colored output:
 
@@ -15,13 +15,13 @@
 
 `ned --colors=never '{{^[dl]og}}' {{.}}`
 
-- Set default arguments in your terminal environment:
-
-`export NED_DEFAULTS='{{-i --colors=always'}}`
-
 - Search ignoring certain files:
 
-`ned -R --exclude '{{*.htm}}' '{{^[dl]og}}' {{.}}`
+`ned --recursive --exclude '{{*.htm}}' '{{^[dl]og}}' {{.}}`
+
+- Simple replace:
+
+`ned '{{dog}}' --replace '{{cat}}' {{.}}`
 
 - Replace using numbered group references:
 
@@ -29,8 +29,8 @@
 
 - Replace changing case:
 
-`ned '{{([a-z]+) dog}}' --case-replacements -r '{{\U$1\E! dog}}' --stdout {{.}}`
+`ned '{{([a-z]+) dog}}' --case-replacements --replace '{{\U$1\E! dog}}' --stdout {{.}}`
 
 - Preview results of a find and replace without updating the target files:
 
-`ned '{{^[sb]ad}}' -r happy --stdout {{.}}`
+`ned '{{^[sb]ad}}' --replace '{{happy}}' --stdout {{.}}`
