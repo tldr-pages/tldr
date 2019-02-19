@@ -5,7 +5,7 @@
 
 - Post changes to Review Board:
 
-`rbt post {{changenum}}`
+`rbt post {{change_num}}`
 
 - Display the diff that will be sent to Review Board:
 
@@ -13,11 +13,11 @@
 
 - Land a change in a local branch or on a review request:
 
-`rbt land {{branchname}}`
+`rbt land {{branch_name}}`
 
-- Patche your tree with a change on a review request:
+- Patch your tree with a change on a review request:
 
-`rbt patch {{reviewrequestid}}`
+`rbt patch {{review_request_id}}`
 
 - Set up RBTool to talk to your repository:
 
