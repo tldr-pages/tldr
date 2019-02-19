@@ -19,6 +19,6 @@
 
 `rbt patch {{review_request_id}}`
 
-- Set up RBTool to talk to your repository:
+- Set up RBTool to talk to a repository:
 
 `rbt setup-repo`
