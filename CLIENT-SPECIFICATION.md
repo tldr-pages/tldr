@@ -32,7 +32,7 @@ Argument			| Required?	| Meaning
 --------------------|--------------------|--------------------
 `-v`, `--version`	| Yes		| Shows the current version of the client, and the version of this specification that it implements.
 `-l`, `--list`		| No		| Lists all the pages in the current platform to the standard output. If the special platform `all` is specified a list of all pages in all platforms MUST be displayed.
-`-p`, `--platform`	| Yes		| Specifies the platform that should be used for resolving page names. If specified, the named platform MUST be checked first instead of the host platform as described below.
+`-p`, `--platform`	| Yes		| Specifies the platform to be used to perform the action (either listing or searching). If this option is specified, the selected platform MUST be checked first instead of the current platform as described below.
 `-u`, `--update`	| Conditional	| Updates the offline cache of pages. MUST be implemented if cache is supported.
 
 Clients MAY NOT implement the long form of an argument (`--update`, `--version`, `--list`, `--platform`).
