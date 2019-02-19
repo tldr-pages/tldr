@@ -29,7 +29,7 @@ This section describes the standardised command-line interface (CLI) for clients
 A number of arguments MUST be supported (unless otherwise specified) if a CLI is implemented:
 
 Argument			| Required?	| Meaning
---------------------|--------------------
+--------------------|--------------------|--------------------
 `-v`, `--version`	| Yes		| Shows the current version of the client, and the version of this specification that it implements.
 `-l`, `--list`		| No		| Lists all the pages in the current platform to the standard output. If the special platform `all` is specified a list of all pages in all platforms MUST be displayed.
 `-p`, `--platform`	| Yes		| Specifies the platform that should be used for resolving page names. If specified, the named platform MUST be checked first instead of the host platform as described below.
