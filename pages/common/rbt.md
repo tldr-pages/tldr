@@ -5,7 +5,7 @@
 
 - Post changes to Review Board:
 
-`rbt post {{change_num}}`
+`rbt post {{change_number}}`
 
 - Display the diff that will be sent to Review Board:
 
