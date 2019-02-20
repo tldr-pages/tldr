@@ -10,10 +10,10 @@
 
 `paccache -rk {{num_versions}}`
 
-- Perform dryrun and show the number of candidate packages:
+- Perform a dry-run and show the number of candidate packages for deletion:
 
 `paccache -d`
 
 - Move candidate packages to a directory instead of deleting them:
 
-`paccache -m {{directory}}`
+`paccache -m {{path/to/directory}}`
