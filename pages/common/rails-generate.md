@@ -1,6 +1,6 @@
 # rails generate
 
-> Generate new rails templates in an existing project
+> Generate new rails templates in an existing project.
 
 - List all available generators:
 
