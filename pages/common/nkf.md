@@ -1,6 +1,6 @@
 # nkf
 
-> Convert charcter code and new line code
+> Convert charcter code and new line code.
 
 - Stdout utf-8 code:
 
