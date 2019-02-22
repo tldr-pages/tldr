@@ -1,6 +1,6 @@
 # nkf
 
-> Convert charcter code and new line code.
+> Convert character code and new line code.
 
 - Stdout utf-8 code:
 
@@ -14,11 +14,11 @@
 
 `nkf -w --overwrite {{path/to/file.txt}}`
 
-- Set new line code to LF and overwrite(unix type):
+- Set new line code to LF and overwrite (unix type):
 
 `nkf -d --overwrite {{path/to/file.txt}}`
 
-- Set new line code to CRLF and overwrite(windows type):
+- Set new line code to CRLF and overwrite (windows type):
 
 `nkf -c --overwrite {{path/to/file.txt}}`
 
