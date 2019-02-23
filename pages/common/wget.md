@@ -23,6 +23,18 @@
 
 `wget --mirror --no-parent {{https://example.com/somepath/}}`
 
+- limit the download speed:
+
+`wget --limit-rate={{300k}} {{https://example.com/somepath/}}`
+
+- Set number of retry attempts to download a file:
+
+`wget -tries={{100}} {{https://example.com/somepath/}}`
+
+- Download a file from a password protected site:
+
+`wget --user={{username}} --password={{password}} {{https://example.com}}`
+
 - Download the contents of an URL via authenticated FTP:
 
 `wget --ftp-user={{username}} --ftp-password={{password}} {{ftp://example.com}}`
@@ -34,3 +46,15 @@
 - Enable quiet mode to suppress output:
 
 `wget -q {{https://example.com}}`
+
+- Download a file in background:
+
+`wget -b {{https://example.com/foo}}`
+
+- Download a file to a specific directory:
+
+`wget -P {{path/to/directory}} {{https://example.com/foo}}`
+
+- Download all URLs stored in a text file:
+
+`wget -i {{URLs.txt}}`
