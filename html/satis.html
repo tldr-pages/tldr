@@ -1,0 +1,17 @@
+<b>satis</b><br><br>
+<b>The command-line utility for the Satis static Composer repository.</b><br><br>
+- Initialise a Satis configuration:
+
+<blockquote>satis init <i>satis.json</i></blockquote>
+- Add a VCS repository to the Satis configuration:
+
+<blockquote>satis add <i>repository_url</i></blockquote>
+- Build the static output from the configuration:
+
+<blockquote>satis build <i>satis.json</i> <i>path/to/output_directory</i></blockquote>
+- Build the static output by updating only the specified repository:
+
+<blockquote>satis build --repository-url <i>repository_url</i> <i>satis.json</i> <i>path/to/output_directory</i></blockquote>
+- Remove useless archive files:
+
+<blockquote>satis purge <i>satis.json</i> <i>path/to/output_directory</i></blockquote>

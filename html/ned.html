@@ -1,0 +1,26 @@
+<b>ned</b><br><br>
+<b>Is like `grep` but with powerful replace capabilities.</b><br><br><b>Unlike `sed`, as it isn't restricted to line oriented editing.</b><br><br>
+- Recursively search starting in the current directory, ignoring case:
+
+<blockquote>ned --ignore-case --recursive '<i>^[dl]og</i>' <i">home page</a></i></blockquote>
+- Search always showing colored output:
+
+<blockquote>ned --colors '<i>^[dl]og</i>' <i">home page</a></i></blockquote>
+- Search never showing colored output:
+
+<blockquote>ned --colors=never '<i>^[dl]og</i>' <i">home page</a></i></blockquote>
+- Search ignoring certain files:
+
+<blockquote>ned --recursive --exclude '<i>*.htm</i>' '<i>^[dl]og</i>' <i">home page</a></i></blockquote>
+- Simple replace:
+
+<blockquote>ned '<i>dog</i>' --replace '<i>cat</i>' <i">home page</a></i></blockquote>
+- Replace using numbered group references:
+
+<blockquote>ned '<i>the ([a-z]+) dog and the ([a-z]+) dog</i>' --replace '<i>the $2 dog and the $1 dog</i>' <i">home page</a></i></blockquote>
+- Replace changing case:
+
+<blockquote>ned '<i>([a-z]+) dog</i>' --case-replacements --replace '<i>\U$1\E! dog</i>' --stdout <i">home page</a></i></blockquote>
+- Preview results of a find and replace without updating the target files:
+
+<blockquote>ned '<i>^[sb]ad</i>' --replace '<i>happy</i>' --stdout <i">home page</a></i></blockquote>

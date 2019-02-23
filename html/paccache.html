@@ -1,0 +1,14 @@
+<b>paccache</b><br><br>
+<b>A flexible pacman cache cleaning utility.</b><br><br>
+- Remove all but the 3 most recent package versions from the pacman cache:
+
+<blockquote>paccache -r</blockquote>
+- Set the number of package versions to keep:
+
+<blockquote>paccache -rk <i>num_versions</i></blockquote>
+- Perform a dry-run and show the number of candidate packages for deletion:
+
+<blockquote>paccache -d</blockquote>
+- Move candidate packages to a directory instead of deleting them:
+
+<blockquote>paccache -m <i>path/to/directory</i></blockquote>
