@@ -23,7 +23,7 @@
 
 `wget --mirror --no-parent {{https://example.com/somepath/}}`
 
-- limit the download speed:
+- Limit the download speed:
 
 `wget --limit-rate={{300k}} {{https://example.com/somepath/}}`
 
