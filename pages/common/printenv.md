@@ -1,4 +1,4 @@
-# printenv 
+# printenv
 
 > Print values of all or specific environment variables.
 

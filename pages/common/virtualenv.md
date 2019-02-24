@@ -9,7 +9,7 @@
 
 - Customize the prompt prefix:
 
-`virtualenv --prompt={{prompt_prefix}}  {{path/to/venv}}`
+`virtualenv --prompt={{prompt_prefix}} {{path/to/venv}}`
 
 - Start (select) the environment:
 

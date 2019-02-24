@@ -1,4 +1,4 @@
-# gnomon 
+# gnomon
 
 > Utility to annotate console logging statements with timestamps and find slow processes.
 
