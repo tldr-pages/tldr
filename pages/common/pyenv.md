@@ -1,4 +1,4 @@
-# pyenv  
+# pyenv
 
 > Switch between multiple versions of Python easily.
 

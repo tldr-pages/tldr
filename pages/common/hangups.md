@@ -1,4 +1,4 @@
-# hangups 
+# hangups
 
 > Third party command line client for Google Hangouts.
 

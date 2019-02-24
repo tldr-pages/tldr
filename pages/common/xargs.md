@@ -15,6 +15,6 @@
 
 `{{arguments_source}} | xargs -I _ {{command}} _ {{optional_extra_arguments}}`
 
-- Parallel runs of up to `max-procs` processes at a time; the default is 1.  If `max-procs` is 0, xargs will run as many processes as possible at a time:
+- Parallel runs of up to `max-procs` processes at a time; the default is 1. If `max-procs` is 0, xargs will run as many processes as possible at a time:
 
 `{{arguments_source}} | xargs -P {{max-procs}} {{command}}`
