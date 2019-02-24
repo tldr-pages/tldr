@@ -2,7 +2,7 @@
 
 > Creates an exfat filesystem inside a partition.
 
-- Create an exfat  filesystem inside partition 1 on device b (`sdb1`):
+- Create an exfat filesystem inside partition 1 on device b (`sdb1`):
 
 `mkfs.exfat {{/dev/sdb1}}`
 

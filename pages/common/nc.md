@@ -4,7 +4,7 @@
 
 - Listen on a specified port:
 
-`nc  -l {{port}}`
+`nc -l {{port}}`
 
 - Connect to a certain port (you can then write to this port):
 
