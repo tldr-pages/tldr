@@ -23,10 +23,10 @@
 
 `launchctl unload ~/Library/LaunchAgents/{{my_script}}.plist`
 
-- Manually run a known (loaded) agent/daemon, even if it isn’t the right time (note: this command uses the agent's label, rather than the filename):
+- Manually run a known (loaded) agent/daemon, even if it is not the right time (note: this command uses the agent's label, rather than the filename):
 
 `launchctl start {{my_script}}`
 
-- Manually kill the process associated with a known agent/daemon, if it's running:
+- Manually kill the process associated with a known agent/daemon, if it is running:
 
 `launchctl stop {{my_script}}`

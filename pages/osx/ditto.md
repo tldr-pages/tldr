@@ -6,7 +6,7 @@
 
 `ditto {{path/to/source}} {{path/to/destination}}`
 
-- Print a line to the Terminal window for every file that’s being copied:
+- Print a line to the Terminal window for every file that's being copied:
 
 `ditto -V {{path/to/source}} {{path/to/destination}}`
 
