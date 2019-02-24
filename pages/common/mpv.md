@@ -24,4 +24,4 @@
 
 - Play a file using a profile defined in the `mpv.conf` file:
 
-`mpv --profile {{profile_name}} {{file}}`
+`mpv --profile {{profile_name}} {{file}}`
