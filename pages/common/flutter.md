@@ -1,6 +1,6 @@
 # flutter
 
-> Google’s free, open source, and cross-platform mobile app SDK.
+> Google's free, open source, and cross-platform mobile app SDK.
 
 - Check the Flutter version:
 
