@@ -15,10 +15,6 @@
 
 `wget --page-requisites --convert-links {{https://example.com/somepage.html}}`
 
-- Download a full website, with 3-second intervals between requests:
-
-`wget --mirror --page-requisites --convert-links --wait=3 {{https://example.com}}`
-
 - Download all listed files within a directory and its sub-directories (does not download embedded page elements):
 
 `wget --mirror --no-parent {{https://example.com/somepath/}}`
@@ -34,10 +30,6 @@
 - Continue an incomplete download:
 
 `wget -c {{https://example.com}}`
-
-- Enable quiet mode to suppress output:
-
-`wget -q {{https://example.com}}`
 
 - Download all URLs stored in a text file to specific directory:
 
