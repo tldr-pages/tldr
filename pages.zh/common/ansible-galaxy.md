@@ -5,11 +5,11 @@
 
 - 安装一个角色:
 
-`ansible-galaxy install {{username.role_name}}`
+`ansible-galaxy install {{用户名.角色名}}`
 
 - 移除一个角色:
 
-`ansible-galaxy remove {{username.role_name}}`
+`ansible-galaxy remove {{用户名.角色名}}`
 
 - 列出已安装的角色:
 
@@ -17,8 +17,8 @@
 
 - 搜索一个指定的角色:
 
-`ansible-galaxy search {{role_name}}`
+`ansible-galaxy search {{角色名}}`
 
 - 创建一个新的角色:
 
-`ansible-galaxy init {{role_name}}`
+`ansible-galaxy init {{角色名}}`
