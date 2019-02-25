@@ -23,7 +23,7 @@
 
 `wget --limit-rate={{300k}} -tries={{100}} {{https://example.com/somepath/}}`
 
-- Download a file from a password protected site and FTP:
+- Download a file from an HTTP server using Basic Auth (also works for FTP):
 
 `wget --user={{username}} --password={{password}} {{https://example.com}}`
 
