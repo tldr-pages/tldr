@@ -6,9 +6,9 @@
 
 `ack {{foo}}`
 
-- 在给定的语言中寻找文件:
+- 在给定文件类型中寻找包含"foo"的文件:
 
-`ack --ruby {{each_with_object}}`
+`ack --ruby {{foo}}`
 
 - 计算匹配到"foo"的总次数:
 
