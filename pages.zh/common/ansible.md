@@ -6,24 +6,24 @@
 
 - 列出给定组下的所有主机:
 
-`ansible {{group}} --list-hosts`
+`ansible {{组}} --list-hosts`
 
 - 调用ping模块来ping一组主机:
 
-`ansible {{group}} -m ping`
+`ansible {{组}} -m ping`
 
 - 通过调用安装模块来显示关于一组主机的信息:
 
-`ansible {{group}} -m setup`
+`ansible {{组}} -m setup`
 
 - 调用命令模块并使用给定的参数来对一组主机执行命令:
 
-`ansible {{group}} -m command -a '{{my_command}}'`
+`ansible {{组}} -m command -a '{{命令}}'`
 
 - 以管理员权限执行一个命令:
 
-`ansible {{group}} --become --ask-become-pass -m command -a '{{my_command}}'`
+`ansible {{组}} --become --ask-become-pass -m command -a '{{命令}}'`
 
 - 使用自定义的清单文件执行一个命令:
 
-`ansible {{group}} -i {{inventory_file}} -m command -a '{{my_command}}'`
+`ansible {{组}} -i {{清单文件}} -m command -a '{{命令}}'`
