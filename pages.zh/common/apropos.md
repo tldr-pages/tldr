@@ -4,8 +4,8 @@
 
 - 搜索关键字:
 
-`apropos {{regular_expression}}`
+`apropos {{正则表达式}}`
 
 - 搜索时不限制输出到终端宽度:
 
-`apropos -l {{regular_expression}}`
+`apropos -l {{正则表达式}}`
