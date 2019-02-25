@@ -12,8 +12,8 @@
 
 - 删除特定条目:
 
-`arp -d {{address}}`
+`arp -d {{地址}}`
 
 - 创建指定条目:
 
-`arp -s {{address}} {{mac_address}}`
+`arp -s {{地址}} {{MAC地址}}`
