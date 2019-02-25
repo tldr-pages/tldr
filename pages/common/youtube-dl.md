@@ -7,6 +7,14 @@
 
 `youtube-dl {{https://www.youtube.com/watch?v=oHg5SJYRHA0}}`
 
+- List all formats that a video or playlist is available in:
+
+`youtube-dl --list-formats {{https://www.youtube.com/watch?v=Mwa0_nE9H7A}}`
+
+- Download a video or playlist at a specific quality:
+
+`youtube-dl --format {{best[height<=480]}} {{https://www.youtube.com/watch?v=oHg5SJYRHA0}}`
+
 - Download the audio from a video and convert it to an MP3:
 
 `youtube-dl -x --audio-format {{mp3}} {{url}}`
