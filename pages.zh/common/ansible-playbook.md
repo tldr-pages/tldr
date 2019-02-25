@@ -9,11 +9,11 @@
 
 - 在给定的主机清单文件中执行playbook中的命令:
 
-`ansible-playbook {{playbook}} -i {{inventory_file}}`
+`ansible-playbook {{playbook}} -i {{清单文件}}`
 
 - 通过定义在命令行中额外的变量执行playbook中的任务:
 
-`ansible-playbook {{playbook}} -e "{{variable1}}={{value1}} {{variable2}}={{value2}}"`
+`ansible-playbook {{playbook}} -e "{{变量1}}={{值1}} {{变量2}}={{值2}}"`
 
 - 通过定义在一个json格式的文件中额外的变量执行playbook中的任务:
 
