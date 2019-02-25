@@ -8,16 +8,16 @@
 
 - 发送文本:
 
-`echo {{text}} | airpaste`
+`echo {{文本}} | airpaste`
 
 - 发送文件:
 
-`airpaste < {{path/to/file}}`
+`airpaste < {{文件的路径}}`
 
 - 接收文件:
 
-`airpaste > {{path/to/file}}`
+`airpaste > {{文件的路径}}`
 
 - 创建/加入频道:
 
-`airpaste {{channel_name}}`
+`airpaste {{频道名}}`
