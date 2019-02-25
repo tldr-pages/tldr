@@ -12,7 +12,7 @@
 
 - Download a video or playlist at a specific quality:
 
-`youtube-dl --format {{worstvideo+worstaudio}} {{https://www.youtube.com/watch?v=oHg5SJYRHA0}}`
+`youtube-dl --format {{best[height<=480]}} {{https://www.youtube.com/watch?v=oHg5SJYRHA0}}`
 
 - Download the audio from a video and convert it to an MP3:
 
