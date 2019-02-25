@@ -31,6 +31,6 @@
 
 `wget -c {{https://example.com}}`
 
-- Download all URLs stored in a text file to specific directory:
+- Download all URLs stored in a text file to a specific directory:
 
 `wget -P {{path/to/directory}} -i {{URLs.txt}}`
