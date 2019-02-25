@@ -13,16 +13,16 @@
 
 - 通过保存在一个文件中的URL列表来下载资源:
 
-`aria2c -i {{filename}}`
+`aria2c -i {{文件名}}`
 
 - 使用多个连接下载资源:
 
-`aria2c -s {{connections_num}} {{url}}`
+`aria2c -s {{连接数量}} {{url}}`
 
 - 通过带用户名密码验证的FTP协议下载资源:
 
-`aria2c --ftp-user={{username}} --ftp-passwd={{password}} {{url}}`
+`aria2c --ftp-user={{用户名}} --ftp-passwd={{密码}} {{url}}`
 
 - 限制下载速度 (bytes/s):
 
-`aria2c --max-download-limit={{speed}} {{url}}`
+`aria2c --max-download-limit={{速度}} {{url}}`
