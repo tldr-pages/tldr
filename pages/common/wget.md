@@ -19,7 +19,7 @@
 
 `wget --mirror --no-parent {{https://example.com/somepath/}}`
 
-- Limit the download speed with specific number of retry:
+- Limit the download speed and the number of connection retries:
 
 `wget --limit-rate={{300k}} -tries={{100}} {{https://example.com/somepath/}}`
 
