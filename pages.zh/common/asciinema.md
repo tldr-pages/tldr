@@ -12,15 +12,15 @@
 
 - 进行新的录制,保存到本地的文件中:
 
-`asciinema rec {{path/to/file}}.cast`
+`asciinema rec {{文件路径}}.cast`
 
 - 从本地文件中播放终端录屏:
 
-`asciinema play {{path/to/file}}.cast`
+`asciinema play {{文件路径}}.cast`
 
 - 在asciinema.org中播放终端录屏:
 
-`asciinema play https://asciinema.org/a/{{cast_id}}`
+`asciinema play https://asciinema.org/a/{{文件ID}}`
 
 - 进行新的录制, 将闲置时间设置为最多 2.5 秒:
 
@@ -28,8 +28,8 @@
 
 - 打印本地保存的录像的完整输出:
 
-`asciinema cat {{path/to/file}}.cast`
+`asciinema cat {{文件路径}}.cast`
 
 - 从本地上传一个录屏到asciinema.org:
 
-`asciinema upload {{path/to/file}}.cast`
+`asciinema upload {{文件路径}}.cast`
