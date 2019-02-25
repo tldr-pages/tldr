@@ -21,7 +21,7 @@
 
 - Limit the download speed and the number of connection retries:
 
-`wget --limit-rate={{300k}} -tries={{100}} {{https://example.com/somepath/}}`
+`wget --limit-rate={{300k}} --tries={{100}} {{https://example.com/somepath/}}`
 
 - Download a file from an HTTP server using Basic Auth (also works for FTP):
 
