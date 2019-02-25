@@ -16,15 +16,15 @@
 
 - 将Android应用程序推送到模拟器/设备 :
 
-`adb install -r {{path/to/file.apk}}`
+`adb install -r {{本地APK的路径}}`
 
 - 从目标设备上拷贝一个文件/目录到本地:
 
-`adb pull {{path/to/device_file_or_directory}} {{path/to/local_destination_directory}}`
+`adb pull {{被拷贝的目标设备上的文件或目录}} {{要保存到本地的文件或目录}}`
 
 - 从本地拷贝一个文件/目录到目标设备:
 
-`adb push {{path/to/local_file_or_directory}} {{path/to/device_destination_directory}}`
+`adb push {{被拷贝的本地文件或目录}} {{要保存到目标设备的文件或目录}}`
 
 - 列出已连接的设备:
 
