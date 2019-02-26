@@ -11,26 +11,26 @@
 
 `wget -O {{bar}} {{https://example.com/foo}}`
 
-- Download a single web page and all its resources (scripts, stylesheets, images, etc.):
+- Download a single web page and all its resources with 3-second intervals between requests (scripts, stylesheets, images, etc.):
 
-`wget --page-requisites --convert-links {{https://example.com/somepage.html}}`
-
-- Download a full website, with 3-second intervals between requests:
-
-`wget --mirror --page-requisites --convert-links --wait=3 {{https://example.com}}`
+`wget --page-requisites --convert-links --wait=3 {{https://example.com/somepage.html}}`
 
 - Download all listed files within a directory and its sub-directories (does not download embedded page elements):
 
 `wget --mirror --no-parent {{https://example.com/somepath/}}`
 
-- Download the contents of an URL via authenticated FTP:
+- Limit the download speed and the number of connection retries:
 
-`wget --ftp-user={{username}} --ftp-password={{password}} {{ftp://example.com}}`
+`wget --limit-rate={{300k}} --tries={{100}} {{https://example.com/somepath/}}`
+
+- Download a file from an HTTP server using Basic Auth (also works for FTP):
+
+`wget --user={{username}} --password={{password}} {{https://example.com}}`
 
 - Continue an incomplete download:
 
 `wget -c {{https://example.com}}`
 
-- Enable quiet mode to suppress output:
+- Download all URLs stored in a text file to a specific directory:
 
-`wget -q {{https://example.com}}`
+`wget -P {{path/to/directory}} -i {{URLs.txt}}`
