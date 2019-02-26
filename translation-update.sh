@@ -28,7 +28,7 @@ done
 
 # Generate POT file, PO files, and pages.XX pages
 echo 'Generating POT file and translated TLDR pages...'
-po4a -k 0 --msgid-bugs-address 'https://github.com/tldr-pages/tldr/issues' po4a.conf
+po4a -k 0 --msgid-bugs-address 'https://github.com/tldr-pages/tldr/issues' $CONFIGFILE
 
 # Beautify translated TLDR pages (remove unneeded new lines)
 for LANG in "${LANGS[@]}"
@@ -36,6 +36,16 @@ do
 	echo "Beautifying TLDR pages ($LANG)..."
 	for FILE in `tree -f -i pages.$LANG | grep ".md"`
 	do
-		sed -i '/[^#|^>|^-|^`].*$/{$!N; s/\n  / /g; }' $FILE
+		# Remove unneeded new lines
+		sed -i '/^[#|>|-].*$/{$!N; s/\n  / /g;ty;P;D;:y}' $FILE
+
+		# Run again for 3-lines strings, as the first run only removes the first new line
+		sed -i '/^[#|>|-].*$/{$!N; s/\n  / /g;ty;P;D;:y}' $FILE
+
+		# Remove unneeded new lines from commands (lines like `...`)
+		sed -i '/^`.*$/{$!N; s/\n\(.\{1,\}\)/ \1/g;ty;P;D;:y}' $FILE
+
+		# Run again for 3-lines commands, as the first run only removes the first new line
+		sed -i '/^`.*$/{$!N; s/\n\(.\{1,\}\)/ \1/g;ty;P;D;:y}' $FILE
 	done
 done
