@@ -34,3 +34,7 @@
 - Invert match for excluding specific strings:
 
 `grep -v {{search_string}}`
+
+- Exclude specific dir and specific files:
+
+`grep -r --exclude-dir {{path/to/skip/dir}} --exclude {{glob/file/pattern}} {{search_string}} {{path/to/dir}}`
