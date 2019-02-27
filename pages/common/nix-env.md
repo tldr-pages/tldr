@@ -2,17 +2,17 @@
 
 > Manipulate or query Nix user environments.
 
-- Show installed packages:
+- List installed packages:
 
 `nix-env -q`
+
+- Query installed packages:
+
+`nix-env -q {{search_term}}`
 
 - Query available packages:
 
 `nix-env -qa {{pkg_name}}`
-
-- Query the status of available packages:
-
-`nix-env -qsa`
 
 - Install package:
 
