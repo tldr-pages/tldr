@@ -6,13 +6,13 @@
 
 `nix-env -q`
 
-- Show available package with name or without name:
+- Query available packages:
 
 `nix-env -qa {{pkg_name}}`
 
-- Show the status of available packages:
+- Query the status of available packages:
 
-`nix-env -qas`
+`nix-env -qsa`
 
 - Install package:
 
