@@ -2,6 +2,10 @@
 
 > Manipulate or query Nix user environments.
 
+- Show installed packages:
+
+`nix-env -q`
+
 - Show available package with name or without name:
 
 `nix-env -qa {{pkg_name}}`
