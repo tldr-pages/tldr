@@ -2,7 +2,7 @@
 
 > Manipulate or query Nix user environments.
 
-- List installed packages:
+- List all installed packages:
 
 `nix-env -q`
 
