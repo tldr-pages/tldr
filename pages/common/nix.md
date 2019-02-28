@@ -5,3 +5,19 @@
 - Search for a package via its name or description:
 
 `nix search {{search_term}}`
+
+- Start a nix shell with the specified packages available:
+
+`nix run {{nixpkgs.pkg_names}}`
+
+- Optimise Nix store disk usage by combining duplicate files:
+
+`nix optimise-store`
+
+- Start an interactive environment for evaluating Nix expressions:
+
+`nix repl`
+
+- Upgrade Nix to the latest stable version:
+
+`nix upgrade-nix`
