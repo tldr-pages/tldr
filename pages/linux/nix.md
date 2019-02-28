@@ -8,7 +8,7 @@
 
 - Start a Nix shell with the specified packages available:
 
-`nix run {{nixpkgs.pkg_names}}`
+`nix run {{nixpkgs.pkg1 nixpkgs.pkg2 nixpkgs.pkg3...}}`
 
 - Optimise Nix store disk usage by combining duplicate files:
 
