@@ -12,7 +12,7 @@
 
 - Query available packages:
 
-`nix-env -qa {{pkg_name}}`
+`nix-env -qa {{search_term}}`
 
 - Install package:
 
