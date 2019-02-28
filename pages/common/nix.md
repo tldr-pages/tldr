@@ -6,7 +6,7 @@
 
 `nix search {{search_term}}`
 
-- Start a nix shell with the specified packages available:
+- Start a Nix shell with the specified packages available:
 
 `nix run {{nixpkgs.pkg_names}}`
 
