@@ -18,7 +18,7 @@
 
 `sudo nixos-rebuild switch --rollback`
 
-- Build the new configuration and make it the boot default:
+- Build the new configuration and make it the boot default without switching to it:
 
 `sudo nixos-rebuild boot`
 
