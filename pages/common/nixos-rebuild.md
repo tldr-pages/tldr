@@ -14,6 +14,10 @@
 
 `sudo nixos-rebuild switch --upgrade`
 
+- Rollback changes to the configuration, switching to the previous generation:
+
+`sudo nixos-rebuild switch --rollback`
+
 - Build the new configuration and make it the boot default:
 
 `sudo nixos-rebuild boot`
