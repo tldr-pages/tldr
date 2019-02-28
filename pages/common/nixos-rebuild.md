@@ -1,6 +1,6 @@
 # nixos-rebuild
 
-> Reconfigure a NixOS machine
+> Reconfigure a NixOS machine.
 
 - Build and switch to the new configuration, making it the boot default:
 
