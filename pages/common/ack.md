@@ -6,9 +6,9 @@
 
 `ack {{foo}}`
 
-- Find files in a specific language:
+- Find files scoped to a specific programming language:
 
-`ack --ruby {{each_with_object}}`
+`ack --ruby {{foo}}`
 
 - Count the total number of matches for the term "foo":
 
