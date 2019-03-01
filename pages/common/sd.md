@@ -12,7 +12,7 @@
 
 - Find and replace in a file:
 
-`sd -i 'window.fetch' 'fetch' http.js`
+`sd -i {{'window.fetch'}} {{'fetch'}} {{http.js}}`
 
 - Find and replace across a project:
 
