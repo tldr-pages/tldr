@@ -16,4 +16,4 @@
 
 - Find and replace across a project:
 
-`sd -i 'from "react"' 'from "preact"' $(fd -t f)`
+`sd -i {{'from "react"'}} {{'from "preact"'}} $(fd -t f)`
