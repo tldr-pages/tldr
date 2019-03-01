@@ -4,7 +4,7 @@
 
 - Trim some whitespace using regex:
 
-`echo 'lorem ipsum 23   ' | sd '\s+$' ''`
+`{{echo 'lorem ipsum 23   '}} | sd '\s+$' ''`
 
 - Replace words using capture groups:
 
