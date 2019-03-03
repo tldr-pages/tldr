@@ -3,12 +3,18 @@
 - Download a video or playlist:
 
 <blockquote>youtube-dl <i>https://www.youtube.com/watch?v=oHg5SJYRHA0</i></blockquote>
+- List all formats that a video or playlist is available in:
+
+<blockquote>youtube-dl --list-formats <i>https://www.youtube.com/watch?v=Mwa0_nE9H7A</i></blockquote>
+- Download a video or playlist at a specific quality:
+
+<blockquote>youtube-dl --format <i>best[height<=480]</i> <i>https://www.youtube.com/watch?v=oHg5SJYRHA0</i></blockquote>
 - Download the audio from a video and convert it to an MP3:
 
 <blockquote>youtube-dl -x --audio-format <i>mp3</i> <i>url</i></blockquote>
 - Download video(s) as MP4 files with custom filenames:
 
-<blockquote>youtube-dl --format <i>mp4</i> -o <i>"%(title)s by %(uploader)s on %(upload_date)s in %(playlist)s.%(ext)s"</i> <i>url</i></blockquote>
+<blockquote>youtube-dl --format <i>mp4</i> --output <i>"%(title) by %(uploader) on %(upload_date) in %(playlist).%(ext)"</i> <i>url</i></blockquote>
 - Download a video and save its description, metadata, annotations, subtitles, and thumbnail:
 
 <blockquote>youtube-dl --write-description --write-info-json --write-annotations --write-sub --write-thumbnail <i>url</i></blockquote>

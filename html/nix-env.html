@@ -1,11 +1,14 @@
 <b>nix-env</b><br><br>
 <b>Manipulate or query Nix user environments.</b><br><br>
-- Show available package with name or without name:
+- List all installed packages:
 
-<blockquote>nix-env -qa <i>pkg_name</i></blockquote>
-- Show the status of available packages:
+<blockquote>nix-env -q</blockquote>
+- Query installed packages:
 
-<blockquote>nix-env -qas</blockquote>
+<blockquote>nix-env -q <i>search_term</i></blockquote>
+- Query available packages:
+
+<blockquote>nix-env -qa <i>search_term</i></blockquote>
 - Install package:
 
 <blockquote>nix-env -i <i>pkg_name</i></blockquote>

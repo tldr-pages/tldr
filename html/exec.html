@@ -1,0 +1,14 @@
+<b>exec</b><br><br>
+<b>Replace the current process with another process.</b><br><br>
+- Replace with the specified command using the current environment variables:
+
+<blockquote>exec <i>command -with -flags</i></blockquote>
+- Replace with the specified command using initialized environment variables:
+
+<blockquote>exec -c <i>command -with -flags</i></blockquote>
+- Replace with the specified command and login to the default shell:
+
+<blockquote>exec -l <i>command -with -flags</i></blockquote>
+- Replace with the specified command and rename the process name:
+
+<blockquote>exec -a <i>process_name</i> <i>command -with -flags</i></blockquote>

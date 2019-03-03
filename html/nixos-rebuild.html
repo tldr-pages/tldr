@@ -1,0 +1,23 @@
+<b>nixos-rebuild</b><br><br>
+<b>Reconfigure a NixOS machine.</b><br><br><b>Documentation: <a href="https://nixos.org/nixos/manual/#sec-changing-config">home page</a></b><br><br>
+- Build and switch to the new configuration, making it the boot default:
+
+<blockquote>sudo nixos-rebuild switch</blockquote>
+- Build and switch to the new configuration, making it the boot default and naming the boot entry:
+
+<blockquote>sudo nixos-rebuild switch -p <i>name</i></blockquote>
+- Build and switch to the new configuration, making it the boot default and installing updates:
+
+<blockquote>sudo nixos-rebuild switch --upgrade</blockquote>
+- Rollback changes to the configuration, switching to the previous generation:
+
+<blockquote>sudo nixos-rebuild switch --rollback</blockquote>
+- Build the new configuration and make it the boot default without switching to it:
+
+<blockquote>sudo nixos-rebuild boot</blockquote>
+- Build and activate the new configuration, but don't make a boot entry (for testing purposes):
+
+<blockquote>sudo nixos-rebuild test</blockquote>
+- Build the configuration and open it in a virtual machine:
+
+<blockquote>sudo nixos-rebuild build-vm</blockquote>
