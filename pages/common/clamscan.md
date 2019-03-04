@@ -19,7 +19,7 @@
 
 `clamscan --database {{path/to/database_file_or_directory}}`
 
-- Output only infected files:
+- Scan the current directory and output only infected files:
 
 `clamscan --infected`
 
