@@ -1,6 +1,6 @@
 # whiptail
 
-> Display text-based dialog boxes from shell scripts
+> Display text-based dialog boxes from shell scripts.
 
 - Display a simple message:
 
@@ -25,4 +25,3 @@
 - Display a multiple-choice menu:
 
 `OPTION=$(whiptail --title "{{title}}" --menu "{{message}}" {{height_in_chars}} {{width_in_chars}} {{menu_display_height}} "{{value_1}}" "{{display_text_1}}" "{{value_n}}" "{{display_text_n}}" ..... 3>&1 1>&2 2>&3)`
-
