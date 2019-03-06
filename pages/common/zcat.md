@@ -6,6 +6,6 @@
 
 `zcat {{file.txt.gz}}`
 
-- Print compressions details of a gzipped file to the standard output:
+- Print compression details of a gzipped file to the standard output:
 
 `zcat -l {{file.txt.gz}}`
