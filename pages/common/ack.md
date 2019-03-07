@@ -6,7 +6,7 @@
 
 `ack {{foo}}`
 
-- Find files scoped to a specific programming language:
+- Find files of a specific type:
 
 `ack --ruby {{foo}}`
 
@@ -17,3 +17,7 @@
 - Show the file names containing "foo" and number of matches in each file:
 
 `ack -cl {{foo}}`
+
+- List all valid types:
+
+`ack --help=types`
