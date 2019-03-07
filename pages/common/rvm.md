@@ -30,6 +30,6 @@
 
 `rvm remove {{version}}`
 
-- Show specific dependencies for your OS
+- Show specific dependencies for your OS:
 
 `rvm requirements`
