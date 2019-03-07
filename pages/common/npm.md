@@ -4,34 +4,34 @@
 > Manage Node.js projects and their module dependencies.
 > Homepage: <https://www.npmjs.com/>.
 
-- Download and install a module globally:
+- Interactively create a package.json file:
 
-`npm install -g {{module_name}}`
+`npm init`
 
-- Download all dependencies referenced in package.json:
+- Download all the packages listed as dependencies in package.json:
 
 `npm install`
 
-- Download a given dependency required for the application to run, and add it to the package.json:
+- Download a specific version of a package and add it to the list of dependencies in package.json:
 
-`npm install {{module_name}}@{{version}} --save`
+`npm install {{module_name}}@{{version}}`
 
-- Download a given dependency for development purposes, and add it to the package.json:
+- Download a package and add it to the list of dev dependencies in package.json:
 
-`npm install {{module_name}}@{{version}} --save-dev`
+`npm install {{module_name}} --save-dev`
 
-- Uninstall a module:
+- Download a package and install it globally:
+
+`npm install -g {{module_name}}`
+
+- Uninstall a package and remove it from the list of dependencies in package.json:
 
 `npm uninstall {{module_name}}`
 
-- List a tree of installed modules referenced in package.json:
+- Print a tree of installed, project-level packages:
 
 `npm list`
 
 - List top-level globally installed modules:
 
 `npm list -g --depth={{0}}`
-
-- Interactively create a package.json file:
-
-`npm init`
