@@ -3,12 +3,15 @@
 - Find files containing "foo":
 
 <blockquote>ack <i>foo</i></blockquote>
-- Find files in a specific language:
+- Find files of a specific type:
 
-<blockquote>ack --ruby <i>each_with_object</i></blockquote>
+<blockquote>ack --ruby <i>foo</i></blockquote>
 - Count the total number of matches for the term "foo":
 
 <blockquote>ack -ch <i>foo</i></blockquote>
 - Show the file names containing "foo" and number of matches in each file:
 
 <blockquote>ack -cl <i>foo</i></blockquote>
+- List all valid types:
+
+<blockquote>ack --help=types</blockquote>

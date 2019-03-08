@@ -1,6 +1,6 @@
 <b>nc</b><br><br>
-<b>Reads and writes tcp or udp data.</b><br><br>
-- Listen on a specified port:
+<b>Netcat is a versatile utility for working with TCP or UDP data.</b><br><br>
+- Listen on a specified port and print any data received:
 
 <blockquote>nc  -l <i>port</i></blockquote>
 - Connect to a certain port (you can then write to this port):
@@ -21,9 +21,9 @@
 - Client stay up after EOF:
 
 <blockquote>nc -q <i>timeout</i> <i>ip_address</i></blockquote>
-- Port scanning:
+- Scan the open ports of a specified host:
 
 <blockquote>nc -v -z <i>ip_address</i> <i>port</i></blockquote>
-- Proxy and port forwarding:
+- Act as proxy and forward data from a local TCP port to the given remote host:
 
-<blockquote>nc -l <i>port</i> | nc <i>hostname</i> <i>port</i></blockquote>
+<blockquote>nc -l <i>local_port</i> | nc <i>hostname</i> <i>remote_port</i></blockquote>

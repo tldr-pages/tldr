@@ -1,0 +1,14 @@
+<b>sd</b><br><br>
+<b>`sd` is an intuitive find & replace CLI.</b><br><br>
+- Trim some whitespace using regex:
+
+<blockquote><i>echo 'lorem ipsum 23   '</i> | sd '\s+$' ''</blockquote>
+- Replace words using capture groups:
+
+<blockquote><i>echo 'cargo +nightly watch'</i> | sd '(\w+)\s+\+(\w+)\s+(\w+)' 'cmd: $1, channel: $2, subcmd: $3'</blockquote>
+- Find and replace in a file:
+
+<blockquote>sd -i <i>'window.fetch'</i> <i>'fetch'</i> <i>http.js</i></blockquote>
+- Find and replace across a project:
+
+<blockquote>sd -i <i>'from "react"'</i> <i>'from "preact"'</i> $(find . -type f)</blockquote>

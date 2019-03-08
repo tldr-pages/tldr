@@ -1,0 +1,20 @@
+<b>whiptail</b><br><br>
+<b>Display text-based dialog boxes from shell scripts.</b><br><br>
+- Display a simple message:
+
+<blockquote>whiptail --title "<i>title</i>" --msgbox "<i>message</i>" <i>height_in_chars</i> <i>width_in_chars</i></blockquote>
+- Display a boolean choice, returning the result through the exit code:
+
+<blockquote>whiptail --title "<i>title</i>" --yesno "<i>message</i>" <i>height_in_chars</i> <i>width_in_chars</i></blockquote>
+- Customise the text on the yes / no buttons:
+
+<blockquote>whiptail --title "<i>title</i>" --yes-button "<i>text</i>" --no-button "<i>text</i>" --yesno "<i>message</i>" <i>height_in_chars</i> <i>width_in_chars</i></blockquote>
+- Display a text input box:
+
+<blockquote><i>result_variable_name</i>="$(whiptail --title "<i>title</i>" --inputbox "<i>message</i>" <i>height_in_chars</i> <i>width_in_chars</i> <i>default_text</i> 3>&1 1>&2 2>&3)"</blockquote>
+- Display a password input box:
+
+<blockquote><i>result_variable_name</i>="$(whiptail --title "<i>title</i>" --passwordbox "<i>message</i>" <i>height_in_chars</i> <i>width_in_chars</i> 3>&1 1>&2 2>&3)"</blockquote>
+- Display a multiple-choice menu:
+
+<blockquote><i>result_variable_name</i>=$(whiptail --title "<i>title</i>" --menu "<i>message</i>" <i>height_in_chars</i> <i>width_in_chars</i> <i>menu_display_height</i> "<i>value_1</i>" "<i>display_text_1</i>" "<i>value_n</i>" "<i>display_text_n</i>" ..... 3>&1 1>&2 2>&3)</blockquote>
