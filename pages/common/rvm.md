@@ -29,3 +29,7 @@
 - Remove a version of Ruby and its sources:
 
 `rvm remove {{version}}`
+
+- Show specific dependencies for your OS:
+
+`rvm requirements`

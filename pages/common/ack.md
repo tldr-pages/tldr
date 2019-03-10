@@ -6,9 +6,9 @@
 
 `ack {{foo}}`
 
-- Find files in a specific language:
+- Find files of a specific type:
 
-`ack --ruby {{each_with_object}}`
+`ack --ruby {{foo}}`
 
 - Count the total number of matches for the term "foo":
 
@@ -17,3 +17,7 @@
 - Show the file names containing "foo" and number of matches in each file:
 
 `ack -cl {{foo}}`
+
+- List all valid types:
+
+`ack --help=types`
