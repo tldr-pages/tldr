@@ -3,11 +3,11 @@
 > Display process IDs currently using files or sockets.
 > Requires admin privileges.
 
-- Identify process using a TCP socket:
+- Identify processes using a TCP socket:
 
 `fuser -n tcp {{port}}`
 
-- Find which process accessing a directory:
+- Find which processes are accessing a directory:
 
 `fuser {{path/to/directory}}`
 
