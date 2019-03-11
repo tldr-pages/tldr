@@ -12,11 +12,11 @@
 
 - 为一个网络适配器重新获取IP地址:
 
-`ipconfig /renew {{adapter}}`
+`ipconfig /renew {{适配器}}`
 
 - 为一个网络适配器释放IP地址:
 
-`ipconfig /release {{adapter}}`
+`ipconfig /release {{适配器}}`
 
 - 清除所有DNS缓存:
 
