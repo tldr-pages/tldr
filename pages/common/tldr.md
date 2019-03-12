@@ -6,10 +6,6 @@
 
 `tldr {{command}}`
 
-- List available pages:
-
-`tldr --list`
-
 - Show the tar tldr page for linux:
 
 `tldr -p {{linux}} {{tar}}`
