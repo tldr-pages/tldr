@@ -112,7 +112,6 @@ You can check the validity of BCP 47 tags [here](http://schneegans.de/lv/).
 
 The structure inside these translation folders is identical to that of the main `pages` folder.
 
-**Note to self: A portion of this section is from [PR #2703](https://github.com/tldr-pages/tldr/pull/2703).**
 
 
 ## Page Structure
