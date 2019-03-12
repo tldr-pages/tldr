@@ -28,7 +28,7 @@
 
 `npm uninstall {{module_name}}`
 
-- Print a tree of installed, project-level packages:
+- Print a tree of locally-installed dependencies:
 
 `npm list`
 
