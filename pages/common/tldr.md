@@ -12,7 +12,7 @@
 
 - Show the tar tldr page for linux:
 
-`tldr --platform {{linux}} {{tar}}`
+`tldr -p {{linux}} {{tar}}`
 
 - Get help for a git subcommand:
 
