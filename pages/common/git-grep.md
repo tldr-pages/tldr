@@ -1,6 +1,6 @@
 # git-grep
 
-> Find strings inside files as they existed anywhere in repo history. Accepts a lot of the same flags as regular grep. Learn more here: https://git-scm.com/docs/git-grep
+> Find strings inside files as they existed anywhere in repo history. Accepts a lot of the same flags as regular grep. Learn more here: https://git-scm.com/docs/git-grep.
 
 - Search for a string in working directory:
 
