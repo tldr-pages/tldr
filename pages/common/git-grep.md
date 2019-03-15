@@ -17,7 +17,3 @@
 - Search for a string in another point in history:
 
 `git grep {{search_string}} HEAD~2`
-
-`git grep {{search_string}} some-branch-name`
-
-`git grep {{search_string}} {{git_ref}}`
