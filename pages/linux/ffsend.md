@@ -2,7 +2,7 @@
 
 > Easy and securely share files from command line.
 
-- Upload a file
+- Upload a file.
 
 `ffsend upload {{file}}`
 
