@@ -16,6 +16,6 @@
 
 `git grep --recurse-submodules {{search_string}}`
 
-- Search for a string in another point in history:
+- Search for a string in at a specific point in history:
 
 `git grep {{search_string}} HEAD~2`
