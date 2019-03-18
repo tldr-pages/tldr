@@ -1,7 +1,6 @@
 # xar
-> Homepage: <https://mackyle.github.io/xar/>.
-
 > Manage .xar archives.
+> Homepage: <https://mackyle.github.io/xar/>.
 
 - Create a xar archive of all files in a given directory:
 
