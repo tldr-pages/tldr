@@ -1,13 +1,13 @@
 # xar
 
 > Manage .xar archives.
-> Homepage: <https://mackyle.github.io/xar/>.
+> Homepage: <https://linux.die.net/man/1/xar>.
 
 - Create a xar archive of all files in a given directory:
 
 `xar -cf {{archive.xar}} {{path/to/directory}}`
 
-- List the contents of a given xar archive:
+- Lis[t] the contents of a given xar archive:
 
 `xar -tf {{archive.xar}}`
 
