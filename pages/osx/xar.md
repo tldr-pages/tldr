@@ -1,4 +1,5 @@
 # xar
+> Homepage: <https://mackyle.github.io/xar/>.
 
 > Manage .xar archives.
 
