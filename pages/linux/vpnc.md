@@ -2,7 +2,7 @@
 
 > A VPN client for the Cisco 3000 VPN Concentrator.
 
-- Connect to a defined configuration file:
+- Connect with a defined configuration file:
 
 `sudo vpnc {{config_file}}`
 
