@@ -1,6 +1,7 @@
 # choco source
 
 > Manage sources for packages with Chocolatey.
+> Homepage: <https://chocolatey.org/docs/commands-source>.
 
 - List currently available sources:
 
