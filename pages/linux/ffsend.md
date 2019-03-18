@@ -1,6 +1,6 @@
 # ffsend
 
-> Easy and securely share files from command line
+> Easy and securely share files from command line.
 
 - upload a file
 
