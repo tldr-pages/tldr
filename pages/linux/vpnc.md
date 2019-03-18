@@ -2,10 +2,10 @@
 
 > A VPN client for the Cisco 3000 VPN Concentrator.
 
-- Connect to a defined configuration file
+- Connect to a defined configuration file:
 
 `sudo vpnc {{config_file}}`
 
-- terminate the previously created connection
+- Terminate the previously created connection:
 
 `sudo vpnc-disconnect`
