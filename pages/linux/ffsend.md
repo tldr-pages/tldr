@@ -1,6 +1,6 @@
 # ffsend
 
-> Easy and securely share files from command line.
+> Easily and securely share files from command line.
 
 - Upload a file:
 
@@ -20,4 +20,4 @@
 
 - Upload a file and allow 4 downloads:
 
-`ffsend upload {{file}} -d 4`
+`ffsend upload {{file}} -d {{4}}`
