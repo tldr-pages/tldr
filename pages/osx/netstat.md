@@ -16,7 +16,7 @@
 
 - Display PID and program names for a specific port:
 
-`netstat -p {PROTOCOL}`
+`netstat -p {{protocol}}`
 
 - List information continuously:
 
