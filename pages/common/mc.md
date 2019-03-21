@@ -7,6 +7,6 @@
 
 `mc`
 
-- Start mc in black and white:
+- Start in black and white:
 
 `mc -b`
