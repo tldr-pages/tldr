@@ -82,9 +82,6 @@ You can access these pages on your computer using one of the following clients:
 - [Emacs client](https://github.com/kuanyui/tldr.el), available on
   [MELPA](https://github.com/melpa/melpa)
 - Go clients:
-  - [github.com/pranavraja/tldr](https://github.com/pranavraja/tldr):
-    `go get github.com/pranavraja/tldr`
-    (or [platform binaries](https://github.com/pranavraja/tldr/releases))
   - [4d63.com/tldr](https://4d63.com/tldr):
     `go get 4d63.com/tldr` or `brew install 4d63/tldr/tldr`
     (or [platform binaries](https://github.com/leighmcculloch/tldr/releases))
