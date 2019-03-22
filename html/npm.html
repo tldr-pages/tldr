@@ -1,26 +1,26 @@
 <b>npm</b><br><br>
-<b>JavaScript and Node.js package manager.</b><br><br><b>Manage Node.js projects and their module dependencies.</b><br><br>
-- Download and install a module globally:
+<b>JavaScript and Node.js package manager.</b><br><br><b>Manage Node.js projects and their module dependencies.</b><br><br><b>Homepage: <a href="https://www.npmjs.com/">home page</a></b><br><br>
+- Interactively create a package.json file:
 
-<blockquote>npm install -g <i>module_name</i></blockquote>
-- Download all dependencies referenced in package.json:
+<blockquote>npm init</blockquote>
+- Download all the packages listed as dependencies in package.json:
 
 <blockquote>npm install</blockquote>
-- Download a given dependency required for the application to run, and add it to the package.json:
+- Download a specific version of a package and add it to the list of dependencies in package.json:
 
-<blockquote>npm install <i>module_name</i>@<i>version</i> --save</blockquote>
-- Download a given dependency for development purposes, and add it to the package.json:
+<blockquote>npm install <i>module_name</i>@<i>version</i></blockquote>
+- Download a package and add it to the list of dev dependencies in package.json:
 
-<blockquote>npm install <i>module_name</i>@<i>version</i> --save-dev</blockquote>
-- Uninstall a module:
+<blockquote>npm install <i>module_name</i> --save-dev</blockquote>
+- Download a package and install it globally:
+
+<blockquote>npm install -g <i>module_name</i></blockquote>
+- Uninstall a package and remove it from the list of dependencies in package.json:
 
 <blockquote>npm uninstall <i>module_name</i></blockquote>
-- List a tree of installed modules referenced in package.json:
+- Print a tree of locally-installed dependencies:
 
 <blockquote>npm list</blockquote>
 - List top-level globally installed modules:
 
 <blockquote>npm list -g --depth=<i>0</i></blockquote>
-- Interactively create a package.json file:
-
-<blockquote>npm init</blockquote>
