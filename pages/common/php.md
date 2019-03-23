@@ -22,3 +22,7 @@
 - Start a PHP built-in web server in the current directory:
 
 `php -S {{host:port}}`
+
+- Get a list of installed PHP extensions:
+
+`php -m`
