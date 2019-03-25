@@ -9,7 +9,7 @@
 
 - Set up the server with Laravel dependencies using a specific PHP version:
 
-`larasail setup php71`
+`larasail setup {{php71}}`
 
 - Add a new Laravel site:
 
