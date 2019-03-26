@@ -27,10 +27,10 @@
 
 `hg status --rev {{revision}}`
 
-- Display only files matching a specified pattern:
+- Display only files matching a specified glob pattern:
 
 `hg status --include {{pattern}}`
 
-- Display files, excluding those that match a specified pattern:
+- Display files, excluding those that match a specified glob pattern:
 
 `hg status --exclude {{pattern}}`
