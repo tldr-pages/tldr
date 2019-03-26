@@ -11,6 +11,10 @@
 
 `virtualenv --prompt={{prompt_prefix}} {{path/to/venv}}`
 
+- Use a different version of Python with virtualenv:
+
+`virtualenv --python={{path/to/pythonbin}} {{path/to/venv}}`
+
 - Start (select) the environment:
 
 `source {{path/to/venv}}/bin/activate`
