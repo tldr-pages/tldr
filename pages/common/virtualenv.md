@@ -12,7 +12,7 @@
 `virtualenv --prompt={{prompt_prefix}} {{path/to/venv}}`
 
 - Use different Python version with virtualenv:
-  
+
 `virtualenv --python={{path/to/pythonbin}} {{path/to/venv}}`
 
 - Start (select) the environment:
