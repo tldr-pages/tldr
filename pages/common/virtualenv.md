@@ -11,7 +11,7 @@
 
 `virtualenv --prompt={{prompt_prefix}} {{path/to/venv}}`
 
-- Use different Python version with virtualenv:
+- Use a different version of Python with virtualenv:
 
 `virtualenv --python={{path/to/pythonbin}} {{path/to/venv}}`
 
