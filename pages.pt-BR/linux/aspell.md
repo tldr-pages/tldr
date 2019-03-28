@@ -1,23 +1,23 @@
 # aspell
 
-> Verificador de excrita interativo.
+> Verificador ortográfico interativo.
 
-- Verifica a corretude de escrita um arquivo:
+- Verificar a ortografia do texto de um arquivo:
 
-`aspell check {{path/to/file}}`
+`aspell check {{arquivo}}`
 
-- Exibe as palavras escritas incorretamente no dispositivo de entrada padrão:
+- Exibir as palavras escritas incorretamente no terminal:
 
-`cat {{file}} | aspell list`
+`cat {{arquivo}} | aspell list`
 
-- Exibe a lista de dicionários disponíveis:
+- Exibir os dicionários disponíveis:
 
 `aspell dicts`
 
-- Executa aspell utilizando um língua diferente (informe o código ISO 639 da língua):
+- Executar aspell utilizando uma língua diferente (informe o código ISO 639 da língua):
 
 `aspell --lang={{cs}}`
 
-- Exibe as palavras escritas incorretamente no dispositivo de entrada padrão e ignora as palavras da lista pessoal:
+- Exibir os erros ortográficos no terminal e ignorando as palavras da lista pessoal:
 
-`cat {{file}} | aspell --personal={{personal-word-list.pws}} {{list}}`
+`cat {{arquivo}} | aspell --personal={{lista_pessoal.pws}} {{list}}`

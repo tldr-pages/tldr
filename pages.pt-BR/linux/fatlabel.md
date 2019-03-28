@@ -1,11 +1,11 @@
 # fatlabel
 
-> Define ou exibe a etiqueta de uma partição FAT32.
+> Define ou exibe o rótulo de uma partição FAT32.
 
-- Exibe a etiqueta de uma partição FAT32:
+- Exibir o rótulo de uma partição FAT32:
 
 `fatlabel {{/dev/sda1}}`
 
-- Define a etiqueta de uma partição FAT32:
+- Definir o rótulo de uma partição FAT32:
 
-`fatlabel {{/dev/sdc3}} "{{new_label}}"`
+`fatlabel {{/dev/sdc3}} "{{rotulo}}"`

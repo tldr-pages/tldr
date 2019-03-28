@@ -1,19 +1,19 @@
 # arp-scan
 
-> Envia pacotes ARP para máquinas (identificadas por endereço IP ou por nomes de domínio) realizarem a varredura da rede local.
+> Envia pacotes ARP para máquinas (identificadas por endereço IP ou por nome de domínio) em uma rede local, identificando as máquinas ativas de acordo com as respostas.
 
-- Realizar a varredura da rede local:
+- Verificar as máquinas da rede local:
 
 `arp-scan --localnet`
 
-- Realizar a varredura baseado no IP da rede com um bitmask customizada:
+- Verificar as máquinas de uma rede IP especificando a máscara de bit:
 
 `arp-scan {{192.168.1.1}}/{{24}}`
 
-- Realizar a varredura baseado em uma faixa de IP em uma rede:
+- Verificar as máquinas de uma rede IP que estejam em uma faixa de valores:
 
 `arp-scan {{127.0.0.0}}-{{127.0.0.31}}`
 
-- Realizar a varredura baseado no IP da rede com uma máscara de rede customizada:
+- Verificar as máquinas de uma rede IP especificando a máscara de rede:
 
 `arp-scan {{10.0.0.0}}:{{255.255.255.0}}`

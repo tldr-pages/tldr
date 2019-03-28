@@ -1,23 +1,23 @@
 # chage
 
-> Gerencia informações de expiração da conta e senha do usuário.
+> Gerencia informações de expiração de conta e senha do usuário.
 
-- Exibe as informações referentes a senha do usuário:
+- Exibir as informações referentes a senha do usuário:
 
-`chage -l {{user_name}}`
+`chage -l {{nome_do_usuario}}`
 
-- Habilita a expiração da senha em 10 dias:
+- Habilitar a expiração da senha do usuário em 10 dias:
 
-`sudo chage -M {{10}} {{user_name}}`
+`sudo chage -M {{10}} {{nome_do_usuario}}`
 
-- Desabilita a expiração de senha:
+- Desabilitar a expiração da senha do usuário:
 
-`sudo chage -M -1 {{user_name}}`
+`sudo chage -M -1 {{nome_do_usuario}}`
 
-- Define a data de expiração da conta:
+- Definir a data de expiração da conta do usuário:
 
 `sudo chage -E {{YYYY-MM-DD}}`
 
-- Obriga o usuário a alterar sua senha no próximo login:
+- Obrigar o usuário a alterar sua senha no próximo login:
 
 `sudo chage -d 0`

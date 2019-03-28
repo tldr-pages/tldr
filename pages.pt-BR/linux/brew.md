@@ -2,15 +2,15 @@
 
 > A versão Linux do gerenciador de pacotes Homebrew.
 
-- Busca por fórmulas disponíoveis:
+- Buscar por fórmulas disponíveis:
 
-`brew search {{text}}`
+`brew search {{termo_da_busca}}`
 
-- Instala a última versão estável de uma fórmula (utilize `--devel` para versões de desenvolvimento):
+- Instalar a última versão estável de uma fórmula (utilizar `--devel` para versões de desenvolvimento):
 
 `brew install {{formula}}`
 
-- Listar todas as fórmulas instaladas:
+- Listar as fórmulas instaladas:
 
 `brew list`
 
@@ -18,18 +18,18 @@
 
 `brew upgrade {{formula}}`
 
-- Recupera a versão mais recente do Linuxbrew e de todas as fórmulas do Github:
+- Recuperar a versão mais recente do Linuxbrew e de todas as fórmulas do Github:
 
 `brew update`
 
-- Exibe as fórmulas que possuem novas versões disponíveis:
+- Exibir as fórmulas que possuem novas versões disponíveis:
 
 `brew outdated`
 
-- Exibe informações sobre uma fórmula (versão, caminho de instalação, dependências, etc.):
+- Exibir informações sobre uma fórmula (versão, caminho de instalação, dependências, etc.):
 
 `brew info {{formula}}`
 
-- Verifica a instalação local em busca de possíveis problemas:
+- Verificar a instalação local em busca de possíveis problemas:
 
 `brew doctor`

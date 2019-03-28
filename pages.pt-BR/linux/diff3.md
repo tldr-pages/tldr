@@ -2,10 +2,10 @@
 
 > Compara 3 arquivos linha por linha.
 
-- Compara os arquivos:
+- Comparar os arquivos:
 
-`diff3 {{file1}} {{file2}} {{file3}}`
+`diff3 {{arquivo1}} {{arquivo2}} {{arquivo3}}`
 
-- Exibe todas as diferenças, destacando os conflitos:
+- Exibir todas as diferenças, destacando os conflitos:
 
-`diff3 --show-all {{file1}} {{file2}} {{file3}}`
+`diff3 --show-all {{arquivo1}} {{arquivo2}} {{arquivo3}}`

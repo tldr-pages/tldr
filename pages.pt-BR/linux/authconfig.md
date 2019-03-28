@@ -1,35 +1,35 @@
 # authconfig
 
-> Uma interface de linhas comando para configurar o systema de autenticação.
+> Interface de linha comandos para configurar o sistema de autenticação.
 
-- Exibe as configurações atuais (ou dry run):
+- Exibir as configurações atuais (ou dry run):
 
 `authconfig --test`
 
-- Configura ao servidor para utilizar diferentes algoritmos de hash para as senhas:
+- Configurar o servidor para utilizar diferentes algoritmos de hash para as senhas:
 
-`authconfig --update --passalgo={{algorithm}}`
+`authconfig --update --passalgo={{algoritmo}}`
 
-- Habilita a autenticação via LDAP:
+- Habilitar a autenticação via LDAP:
 
 `authconfig --update --enableldapauth`
 
-- Desabilita a autenticação via LDAP:
+- Desabilitar a autenticação via LDAP:
 
 `authconfig --update --disableldapauth`
 
-- Habilita o Network Information Service (NIS):
+- Habilitar o Network Information Service (NIS):
 
 `authconfig --update --enablenis`
 
-- Habilita Kerberos:
+- Habilitar Kerberos:
 
 `authconfig --update --enablekrb5`
 
-- Habilita a autenticação Winbind (Active Directory):
+- Habilitar a autenticação Winbind (Active Directory):
 
 `authconfig --update --enablewinbindauth`
 
-- Habilita a autorização local:
+- Habilitar a autorização local:
 
 `authconfig --update --enablelocauthorize`

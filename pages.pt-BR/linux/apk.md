@@ -1,27 +1,27 @@
 # apk
 
-> Feramenta de gerenciamento de pacotes da distribuição Alpine.
+> Gerenciador de pacotes da distribuição Alpine.
 
-- Atualiza os índices dos pacotes disponíveis:
+- Atualizar os índices dos pacotes disponíveis:
 
 `apk update`
 
-- Instala um novo pacote:
+- Instalar um pacote:
 
-`apk add {{package}}`
+`apk add {{pacote}}`
 
-- Remove um pacote:
+- Remover um pacote:
 
-`apk del {{package}}`
+`apk del {{pacote}}`
 
-- Repara ou atualiza um pacote sem modificar as principais dependências:
+- Reparar ou atualizar um pacote sem modificar as principais dependências:
 
-`apk fix {{package}}`
+`apk fix {{pacote}}`
 
-- Procura um pacote especificando alguma palavra-chave:
+- Procurar um pacote especificando alguma palavra-chave:
 
-`apk search {{keyword}}`
+`apk search {{palavra-chave}}`
 
-- Exibe informações sobre um pacote:
+- Exibir informações sobre um pacote:
 
-`apk info {{package}}`
+`apk info {{pacote}}`

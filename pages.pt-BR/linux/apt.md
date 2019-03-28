@@ -1,27 +1,27 @@
 # apt
 
-> Utilitário de gerenciamento de pacotes das distribuições baseadas em Debian.
+> Gerenciador de pacotes das distribuições baseadas em Debian.
 
-- Atualiza a lista de pacotes disponíveis (recomenda-se executá-lo antes de outros comandos `apt`)::
+- Atualizar a lista de pacotes disponíveis (recomenda-se executá-lo antes de outros comandos `apt`):
 
 `sudo apt update`
 
-- Busca por pacotes que atendam o critério de busca:
+- Buscar pacotes correspondentes ao critério de busca:
 
-`apt search {{package}}`
+`apt search {{criterio_de_busca}}`
 
-- Exibe as informações de um determinado pacote:
+- Exibir as informações de pacote:
 
-`apt show {{package}}`
+`apt show {{nome_do_pacote}}`
 
-- Instala um pacote ou o atualiza para a versão mais recente:
+- Instalar um pacote ou atualizá-lo para a versão mais recente:
 
-`sudo apt install {{package}}`
+`sudo apt install {{nome_do_pacote}}`
 
-- Remove um pacote (Para remove os arquivos de configuração então deve-se usar a opção `purge` ao invés do `remove`):
+- Remover um pacote (Para remover os arquivos de configuração deve-se usar a opção `purge` ao invés do `remove`):
 
-`sudo apt remove {{package}}`
+`sudo apt remove {{nome_do_pacote}}`
 
-- Atualiza todos os pacotes instalados para as versões mais recentes:
+- Atualizar os pacotes instalados para as versões mais recentes:
 
 `sudo apt upgrade`

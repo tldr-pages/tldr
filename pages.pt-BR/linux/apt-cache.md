@@ -1,23 +1,23 @@
 # apt-cache
 
-> Buscador de pacotes para distribuições Debian e Ubuntu.
+> Buscador de pacotes para distribuições baseadas no Debian.
 
-- Busca por pacotes, no cache de pacotes APT, que correspondam ao critério de busca informado:
+- Buscar pacotes, no cache de pacotes APT, correspondentes ao critério de busca:
 
-`apt-cache search {{query}}`
+`apt-cache search {{criterio_de_busca}}`
 
-- Exibe informações sobre um pacote:
+- Exibir informações sobre um pacote:
 
-`apt-cache show {{package}}`
+`apt-cache show {{nome_do_pacote}}`
 
-- Exibe se um pacote está instalado e atualizado:
+- Informar a situação de um pacote, se ele está instalado e atualizado:
 
-`apt-cache policy {{package}}`
+`apt-cache policy {{nome_do_pacote}}`
 
-- Exibe as dependências de um pacote:
+- Exibir as dependências de um pacote:
 
-`apt-cache depends {{package}}`
+`apt-cache depends {{nome_do_pacote}}`
 
-- Exibe pacotes que dependem de um pacote em particular:
+- Exibir pacotes dependentes de um determinado pacote:
 
-`apt-cache rdepends {{package}}`
+`apt-cache rdepends {{nome_do_pacote}}`

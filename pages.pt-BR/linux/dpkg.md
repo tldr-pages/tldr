@@ -2,26 +2,26 @@
 
 > Gerenciador de pacotes Debian.
 
-- Instala um pacote:
+- Instalar um pacote:
 
-`dpkg -i {{path/to/file.deb}}`
+`dpkg -i {{arquivo.deb}}`
 
-- Remove um pacote:
+- Remover um pacote:
 
-`dpkg -r {{package_name}}`
+`dpkg -r {{nome_do_pacote}}`
 
-- Exibe os pacotes instalados:
+- Exibir os pacotes correspondentes ao critério de busca:
 
-`dpkg -l {{pattern}}`
+`dpkg -l {{criterio_de_busca}}`
 
 - Exibe o conteúdo do pacote:
 
-`dpkg -L {{package_name}}`
+`dpkg -L {{nome_do_pacote}}`
 
-- Exibe o conteúdo do arquivo de um pacote:
+- Exibir o conteúdo do arquivo de um pacote:
 
-`dpkg -c {{path/to/file.deb}}`
+`dpkg -c {{arquivo.deb}}`
 
-- Apresenta o pacote proprietário de um determinado arquivo:
+- Apresentar o pacote proprietário de um determinado arquivo:
 
-`dpkg -S {{file_name}}`
+`dpkg -S {{nome_do_arquivo}}`
