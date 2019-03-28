@@ -2,22 +2,22 @@
 
 > Utilitário que altera as configurações dos pacotes instalados.
 
-- Marca um pacote como instalado automaticamente:
+- Marcar um pacote como instalado automaticamente:
 
-`sudo apt-mark auto {{package_name}}`
+`sudo apt-mark auto {{nome_do_pacote}}`
 
-- Trava um pacote na sua versão atual impedindo que ele seja atualizado.:
+- Bloquear um pacote na sua versão atual, impedindo que ele seja atualizado:
 
-`sudo apt-mark hold {{package_name}}`
+`sudo apt-mark hold {{nome_do_pacote}}`
 
-- Permite que um pacote seja atualizado novamente:
+- Desbloquear um pacote, permitindo que ele seja atualizado:
 
-`sudo apt-mark unhold {{package_name}}`
+`sudo apt-mark unhold {{nome_do_pacote}}`
 
-- Lista os pacotes instalado manualmente:
+- Listar os pacotes instalados manualmente:
 
 `apt-mark showmanual`
 
-- Lista os pacotes que estão travados e não podem ser atualizados:
+- Listar os pacotes bloqueados:
 
 `apt-mark showhold`

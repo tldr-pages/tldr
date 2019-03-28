@@ -2,18 +2,18 @@
 
 > Ferramenta que mostra informações dos pacotes instalados.
 
-- Exibe todos os pacotes instalados:
+- Exibir os pacotes instalados:
 
 `dpkg-query -l`
 
-- Exibe todos os pacotes instalados que correspondam ao critério de busca informado:
+- Exibir os pacotes instalados correspondentes ao critério de busca:
 
-`dpkg-query -l '{{pattern}}'`
+`dpkg-query -l '{{criterio_de_busca}}'`
 
-- List all files installed by a package:
+- Exibir todos os arquivos instalados por um pacote:
 
-`dpkg-query -L {{package_name}}`
+`dpkg-query -L {{nome_do_pacote}}`
 
-- Show information about a package:
+- Exibir informações sobre um pacote:
 
-`dpkg-query -s {{package_name}}`
+`dpkg-query -s {{nome_do_pacote}}`

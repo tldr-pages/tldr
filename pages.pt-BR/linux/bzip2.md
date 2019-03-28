@@ -1,15 +1,15 @@
 # bzip2
 
-> Um compressor de arquivo que utiliza o algoritmo Burrows–Wheeler.
+> Um compressor de arquivos que utiliza o algoritmo Burrows–Wheeler.
 
-- Compacta um arquivo:
+- Compactar um arquivo:
 
-`bzip2 {{path/to/file_to_compress}}`
+`bzip2 {{arquivo}}`
 
-- Descompacta um arquivo:
+- Descompactar um arquivo:
 
-`bzip2 -d {{path/to/compressed_file.bz2}}`
+`bzip2 -d {{arquivo.bz2}}`
 
-- Descompacta um arquivo:
+- Descompactar um arquivo exibindo o conteúdo no terminal:
 
-`bzip2 -dc {{path/to/compressed_file.bz2}}`
+`bzip2 -dc {{arquivo.bz2}}`

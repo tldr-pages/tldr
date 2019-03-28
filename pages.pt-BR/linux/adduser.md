@@ -2,22 +2,22 @@
 
 > Utilitário para criação de novos usuários.
 
-- Cria um novo usuário, o seu diretório na pasta home e solicita o preenchimento da sua senha:
+- Criar um novo usuário, o seu diretório na pasta home e solicitar o preenchimento da sua senha:
 
-`adduser {{username}}`
+`adduser {{nome_do_usuario}}`
 
-- Cria um novo usuário sem o seu diretório na pasta home:
+- Criar um novo usuário sem o seu diretório na pasta home:
 
-`adduser --no-create-home {{username}}`
+`adduser --no-create-home {{nome_do_usuario}}`
 
-- Cria um novo usuário especificando a localização do seu diretório:
+- Criar um novo usuário especificando a localização do seu diretório:
 
-`adduser --home {{path/to/home}} {{username}}`
+`adduser --home {{caminho_da_pasta_do_usuario}} {{nome_do_usuario}}`
 
-- Cria um novo usuário e configura o seu shell de login:
+- Criar um novo usuário e configurar o seu shell de login:
 
-`adduser --shell {{path/to/shell}} {{username}}`
+`adduser --shell {{caminho_para_o_shell}} {{nome_do_usuario}}`
 
-- Cria um novo usuário e o atribui a um grupo específico:
+- Criar um novo usuário e atribuí-lo a um grupo:
 
-`adduser --ingroup {{group}} {{username}}`
+`adduser --ingroup {{grupo}} {{nome_do_usuario}}`

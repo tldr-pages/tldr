@@ -1,27 +1,27 @@
 # aptitude
 
-> Utilitário de gerenciamento de pacotes das distribuições baseadas em Debian.
+> Gerenciador de pacotes das distribuições baseadas em Debian.
 
-- Sincroniza a lista de pacotes e versões disponíveis. Deve ser executado antes de comandos aptitude subsequentes:
+- Atualizar a lista de pacotes disponíveis (recomenda-se executá-lo antes de outros comandos `aptitude`)::
 
 `aptitude update`
 
-- Instala um novo pacote e suas dependências:
+- Instalar um novo pacote e suas dependências:
 
-`aptitude install {{package}}`
+`aptitude install {{nome_do_pacote}}`
 
-- Busca por pacotes que atendam o critério de busca:
+- Buscar pacotes correspondentes ao critério de busca:
 
-`aptitude search {{package}}`
+`aptitude search {{criterio_de_busca}}`
 
-- Remove um pacote e todos que dependam dele:
+- Remover um pacote e todos que dependam dele:
 
-`aptitude remove {{package}}`
+`aptitude remove {{nome_do_pacote}}`
 
-- Atualiza todos os pacotes instalados para as versões mais recentes:
+- Atualizar os pacotes instalados para as versões mais recentes:
 
 `aptitude upgrade`
 
-- UAtualiza os pacotes instalados (semelhante ao `aptitude upgrade`), porém remove os pacotes obsoletos e instala pacotes adicionais necessários por novas dependências:
+- Atualizar os pacotes instalados (semelhante ao `upgrade`), porém removendo os obsoletos e instalando pacotes solicitados por novas dependências:
 
 `aptitude full-upgrade`

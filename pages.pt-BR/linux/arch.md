@@ -1,8 +1,8 @@
 # arch
 
-> Exibe o nome da arquitetura do sistema.
+> Exibir o nome da arquitetura do sistema.
 > Veja também `uname`.
 
-- Exibe a arquitetura do sistema:
+- Exibir a arquitetura do sistema:
 
 `arch`

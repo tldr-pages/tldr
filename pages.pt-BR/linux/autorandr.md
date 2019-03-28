@@ -2,18 +2,18 @@
 
 > Altera o layout da tela automaticamente.
 
-- Salva o layout da tela em uso:
+- Salvar o layout da tela em uso:
 
-`autorandr -s {{profile_name}}`
+`autorandr -s {{nome_do_perfil}}`
 
-- Exibe os perfis salvos:
+- Exibir os perfis salvos:
 
 `autorandr`
 
-- Altera o perfil:
+- Alterar o perfil:
 
-`autorandr -l {{profile_name}}`
+`autorandr -l {{nome_do_perfil}}`
 
-- Define o perfil padrão:
+- Definir o perfil padrão:
 
-`autorandr -d {{profile_name}}`
+`autorandr -d {{nome_do_perfil}}`

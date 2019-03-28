@@ -1,7 +1,7 @@
 # archey
 
-> Simples ferramenta que exibe informações do sistema de forma estilizada.
+> Ferramenta que exibe informações do sistema de forma estilizada.
 
-- Exibe as informações do sistema:
+- Exibir as informações do sistema:
 
 `archey`

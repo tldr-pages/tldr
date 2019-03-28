@@ -2,6 +2,6 @@
 
 > Exibe todas as fontes disponíveis no sistema.
 
-- Exibe as fontes instaladas que o nome correspondam ao critério de busca informado:
+- Exibir as fontes instaladas correspondentes ao critério de busca:
 
-`fc-list | grep '{{DejaVu Serif}}'`
+`fc-list | grep '{{criterio_de_busca}}'`

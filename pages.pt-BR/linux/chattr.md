@@ -2,14 +2,14 @@
 
 > Altera os atributos de arquivos ou diretórios.
 
-- Bloqueia um arquivo ou diretório para mudanças ou remoção, mesmo para um super usuário:
+- Bloquear um arquivo ou diretório para mudanças ou remoção, mesmo para um super usuário:
 
-`chattr +i {{path/to/file_or_directory}}`
+`chattr +i {{caminho_do_arquivo_ou_diretorio}}`
 
-- Desbloqueia um arquivo ou diretório:
+- Desbloquear um arquivo ou diretório:
 
-`chattr -i {{path/to/file_or_directory}}`
+`chattr -i {{caminho_do_arquivo_ou_diretorio}}`
 
-- Bloqueia diretório e todos os seus arquivos para mudanças ou remoção:
+- Bloquear diretório e todos os seus arquivos para mudanças ou remoção:
 
-`chattr -R +i {{path/to/directory}}`
+`chattr -R +i {{caminho_do_diretorio}}`
