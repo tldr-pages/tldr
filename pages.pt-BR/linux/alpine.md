@@ -1,16 +1,16 @@
 # alpine
 
 > Um cliente de e-mail e programa de newsgroup Usenet com uma interface inspirada no pico e nano.
-> Suporta a maioria dos serviços de e-mail modernos por meio de IMAP.
+> Suporta a maioria dos serviços de e-mail por meio de IMAP.
 
-- Inicia o alpine:
+- Iniciar o alpine:
 
 `alpine`
 
-- Abre o alpine diretamente na tela de composição de mensagem com o e-mail do destinatário já preenchido :
+- Abrir o alpine na tela de composição de mensagem com o e-mail do destinatário preenchido:
 
-`alpine {{email@example.net}}`
+`alpine {{email@exemplo.net}}`
 
-- Encerra o alpine:
+- Encerrar o alpine:
 
-`'q' then 'y'`
+`'q' e 'y'`

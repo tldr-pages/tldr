@@ -1,15 +1,15 @@
 # cmus
 
-> Player de música via linha de comando.
+> Player de música via terminal.
 > Use as setas para navegar, `<enter/return>` para selecionar, e números 1-8 para alterar as telas de opções
 
-- Inicia o cmus em um diretório específico:
+- Iniciar o cmus em um diretório específico:
 
-`cmus {{path/to/directory}}`
+`cmus {{caminho_do_diretorio}}`
 
-- Adiciona arquivo/diretório a biblioteca:
+- Adicionar arquivo/diretório a biblioteca:
 
-`:add {{path/to/file_or_directory}}`
+`:add {{caminho_para_arquivo_ou_diretorio}}`
 
 - Parar/reiniciar a música atual:
 

@@ -1,15 +1,15 @@
 # apt-file
 
-> Busca por arquivos nos pacotes apt, incluindo os não instalados.
+> Buscador de arquivos nos pacotes apt, incluindo os não instalados.
 
-- Atualiza as informações dos pacotes a partir de todos os repositórios remotos:
+- Atualizar as informações dos pacotes a partir de todos os repositórios remotos:
 
 `sudo apt update`
 
-- Busca por pacotes que contêm o arquivo ou caminho especificado:
+- Buscar por pacotes que contêm o arquivo ou caminho especificado:
 
-`apt-file search {{part/of/filename}}`
+`apt-file search {{nome_do_pacote_ou_caminho}}`
 
-- Lista o conteúdo de um pacote específico:
+- Listar o conteúdo de um pacote específico:
 
-`apt-file list {{package_name}}`
+`apt-file list {{nome_do_pacote}}`

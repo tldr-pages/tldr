@@ -1,32 +1,32 @@
 # apt-get
 
-> Utilitário de gerenciamento de pacotes para distribuições Debian e Ubuntu.
+> Gerenciador de pacotes das distribuições baseadas em Debian.
 > Procure por pacotes utilizando o `apt-cache`.
 
-- Atualiza a lista de pacotes disponíveis (recomenda-se executá-lo antes de outros comandos `apt-get`):
+- Atualizar a lista de pacotes disponíveis (recomenda-se executá-lo antes de outros comandos `apt-get`):
 
 `apt-get update`
 
-- Instala um pacote ou o atualiza para a versão mais recente:
+- Instalar um pacote ou atualizá-lo para a versão mais recente:
 
-`apt-get install {{package}}`
+`apt-get install {{nome_do_pacote}}`
 
-- Remove um pacote:
+- Remover um pacote:
 
-`apt-get remove {{package}}`
+`apt-get remove {{nome_do_pacote}}`
 
-- Remove um pacote e os seus arquivos de configuração:
+- Remover um pacote e os seus arquivos de configuração:
 
-`apt-get purge {{package}}`
+`apt-get purge {{nome_do_pacote}}`
 
-- Atualiza todos os pacotes instalados para as versões mais recentes:
+- Atualizar todos os pacotes instalados para as versões mais recentes:
 
 `apt-get upgrade`
 
-- Remove todos os pacotes obsoletos:
+- Remover todos os pacotes obsoletos:
 
 `apt-get autoremove`
 
-- Atualiza os pacotes instalados (semelhante ao `upgrade`), porém remove os pacotes obsoletos e instala pacotes adicionais necessários por novas dependências:
+- Atualizar os pacotes instalados (semelhante ao `upgrade`), porém removendo os obsoletos e instalando pacotes solicitados por novas dependências:
 
 `apt-get dist-upgrade`

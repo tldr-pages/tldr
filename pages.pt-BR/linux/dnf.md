@@ -1,19 +1,19 @@
 # dnf
 
-> > Utilitário de gerenciamento de pacotes das distribuições RHEL, Fedora e CentOS (substituto do yum).
+> Gerenciador de pacotes das distribuições baseadas em RHEL (substituto do yum).
 
-- Instala um novo pacote:
+- Instalar um novo pacote:
 
-`sudo dnf install {{package}}`
+`sudo dnf install {{nome_do_pacote}}`
 
-- Instala um novo pacote e responde sim para todas as questões:
+- Instalar um novo pacote e responder sim para todas as questões:
 
-`sudo dnf -y install {{package}}`
+`sudo dnf -y install {{nome_do_pacote}}`
 
-- Remove um pacote:
+- Remover um pacote:
 
-`sudo dnf remove {{package}}`
+`sudo dnf remove {{nome_do_pacote}}`
 
-- Atualiza todos os pacotes instalados para as versões mais recentes:
+- Atualizar todos os pacotes instalados para as versões mais recentes:
 
 `sudo dnf upgrade`

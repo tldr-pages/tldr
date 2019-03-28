@@ -2,11 +2,11 @@
 
 > Exibe as informações do calendário, destacando o dia atual.
 
-- Exibe o calendário do mês corrente:
+- Exibir o calendário do mês atual:
 
 `cal`
 
-- Exibe o calendário do meses anterior, atual e seguinte:
+- Exibir o calendário do meses anterior, atual e seguinte:
 
 `cal -3`
 
@@ -14,10 +14,10 @@
 
 `cal --monday`
 
-- Exibe o calendário de um ano específico (4 dígitos):
+- Exibir o calendário de um ano específico (4 dígitos):
 
-`cal {{year}}`
+`cal {{ano}}`
 
-- Exibe o calendário para um mês e ano específico:
+- Exibir o calendário para um mês e ano específico:
 
-`cal {{month}} {{year}}`
+`cal {{mes}} {{ano}}`

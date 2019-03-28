@@ -1,23 +1,23 @@
 # brctl
 
-> Administração de bridge ethernet.
+> Administração de pontes de rede.
 
-- Exibe uma lista com informações sobre as ethernet bridges existentes:
+- Exibir uma lista com informações das pontes de rede existentes:
 
 `sudo brctl show`
 
-- Cria uma ethernet bridge:
+- Cria uma ponte de rede:
 
-`sudo brctl add {{bridge_name}}`
+`sudo brctl add {{nome_da_ponte}}`
 
-- Remove uma ethernet bridge:
+- Remover uma ponte de rede:
 
-`sudo brctl del {{bridge_name}}`
+`sudo brctl del {{nome_da_ponte}}`
 
-- Adiciona uma interface de rede a uma ethernet bridge existente:
+- Adicionar uma interface de rede em uma ponte de rede existente:
 
-`sudo brctl addif {{bridge_name}} {{interface_name}}`
+`sudo brctl addif {{nome_da_ponte}} {{nome_da_interface_de_rede}}`
 
-- Remove uma interface de rede a uma ethernet bridge existente:
+- Remover uma interface de rede de uma ponte de rede existente:
 
-`sudo brctl delif {{bridge_name}} {{interface_name}}`
+`sudo brctl delif {{nome_da_ponte}} {{nome_da_interface_de_rede}}`
