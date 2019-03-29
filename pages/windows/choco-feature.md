@@ -1,6 +1,7 @@
 # choco feature
 
 > Interact with features with Chocolatey.
+> Homepage: <https://chocolatey.org/docs/commands-feature>.
 
 - Display a list of available features:
 

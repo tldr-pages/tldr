@@ -6,3 +6,7 @@
 - Start mc:
 
 `mc`
+
+- Start in black and white:
+
+`mc -b`
