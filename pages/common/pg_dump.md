@@ -17,3 +17,11 @@
 - Dump a database into a custom-format archive file:
 
 `pg_dump -Fc {{db_name}} > {{output_file.dump}}`
+
+- Dump only database data into a SQL-script file:
+
+`pg_dump -a {{db_name}} > {{output_file.sql}}`
+
+- Dump only schema (data definitions) into a SQL-script file:
+
+`pg_dump -s {{db_name}} > {{output_file.sql}}`
