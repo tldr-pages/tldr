@@ -1,6 +1,6 @@
 # tldr-pages client specification
 
- - **Current Specification Version:** 1.0
+ - **Current Specification Version:** 1.1
 
 This document contains the official specification for tldr-pages clients. It is _not_ a specification of the format of the pages themselves - only a specification of how a user should be able to interface with an official client.
 
@@ -19,7 +19,11 @@ In order to aid the understanding of this specification document, a number of te
 tldr-pages consists of multiple _pages_ - each of which describes a specific command.
 
 ### Platform
-Pages are grouped by platform. A platform is an operating system. For example, `windows`, `linux`, `osx`. The special platform `common` contains pages for commands that work identically across all platforms.
+Pages are grouped by platform. A platform is an operating system. For example, `windows`, `linux`, `osx`. The special platform `common` contains pages for commands that work identically across more than 1 platform.
+
+If a page is common across multiple platforms, but slightly differently on a given platform, then the page is still stored in `common`, but a copy tailored for the differing platform is placed in that platform's specific folder.
+
+For example, if the command `foo` is common to `mac`, `windows`, and `linux` but functions differently on `windows`, then the main page will be stored in `common`, and a copy will be placed in `windows` that's altered to match the different functionality.
 
 
 ## Command-Line Interface
@@ -29,7 +33,7 @@ This section describes the standardised command-line interface (CLI) for clients
 A number of arguments MUST be supported (unless otherwise specified) if a CLI is implemented:
 
 Argument			| Required?	| Meaning
---------------------|--------------------|--------------------
+--------------------|-----------|--------------------
 `-v`, `--version`	| Yes		| Shows the current version of the client, and the version of this specification that it implements.
 `-p`, `--platform`	| Yes		| Specifies the platform to be used to perform the action (either listing or searching). If this option is specified, the selected platform MUST be checked first instead of the current platform as described below.
 `-u`, `--update`	| Conditional	| Updates the offline cache of pages. MUST be implemented if cache is supported.
