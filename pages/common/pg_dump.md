@@ -24,4 +24,4 @@
 
 - Dump only schema (data definitions) into a SQL-script file:
 
-`pg_dump -s {{db_name}} > {{output_file.sql}}`
+`pg_dump -s {{db_name}} > {{path/to/output_file.sql}}`
