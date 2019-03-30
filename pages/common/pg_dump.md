@@ -18,7 +18,7 @@
 
 `pg_dump -Fc {{db_name}} > {{output_file.dump}}`
 
-- Dump only database data into a SQL-script file:
+- Dump only database data into an SQL-script file:
 
 `pg_dump -a {{db_name}} > {{path/to/output_file.sql}}`
 
