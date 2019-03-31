@@ -1,0 +1,5406 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-26 23:52+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 2.3.0\n"
+
+#: pages/common/7za.md:2
+#, fuzzy
+msgid "# 7za"
+msgstr "# 7za"
+
+#: pages/common/7za.md:4+pages/common/7z.md:4+pages/common/7zr.md:4
+#, fuzzy
+msgid "A file archiver with high compression ratio."
+msgstr "Archiviatore di file con alto fattore di compressione."
+
+#: pages/common/7za.md:5
+#, fuzzy
+msgid "A standalone version of `7z` with support for fewer archive types."
+msgstr "Versione standalone di `7z` con supporto a meno tipi di archivi."
+
+#: pages/common/7za.md:8+pages/common/7z.md:7+pages/common/7zr.md:8+pages/common/asar.md:6
+#, fuzzy
+msgid "Archive a file or directory:"
+msgstr "Archivia un file o una directory:"
+
+#: pages/common/7za.md:10
+#, fuzzy
+msgid "`7za a {{archived.7z}} {{path/to/file_or_directory}}`"
+msgstr "`7za a {{archivio.7z}} {{percorso/a/file_o_directory}}`"
+
+#: pages/common/7za.md:12+pages/common/7z.md:15+pages/common/7zr.md:12
+#, fuzzy
+msgid "Extract an existing 7z file with original directory structure:"
+msgstr "Estrai un archivio mantenendo la gerarchia delle cartelle:"
+
+#: pages/common/7za.md:14
+#, fuzzy
+msgid "`7za x {{archived}}`"
+msgstr "`7za x {{archivio.7z}}`"
+
+#: pages/common/7za.md:16+pages/common/7z.md:23
+#, fuzzy
+msgid "Archive using a specific archive type:"
+msgstr "Archivia utilizzando uno specifico tipo di archivio:"
+
+#: pages/common/7za.md:18
+#, fuzzy
+msgid ""
+"`7za a -t{{zip|gzip|bzip2|tar}} {{archived}} {{path/to/file_or_directory}}`"
+msgstr ""
+"`7za a -t {{zip|gzip|bzip2|tar}} {{archivio.7z}} {{percorso/a/"
+"file_o_directory}}`"
+
+#: pages/common/7za.md:20+pages/common/7z.md:27
+#, fuzzy
+msgid "List available archive types:"
+msgstr "Elenca i tipi di archivio supportati:"
+
+#: pages/common/7za.md:22
+#, fuzzy
+msgid "`7za i`"
+msgstr "`7za i`"
+
+#: pages/common/7za.md:24+pages/common/7z.md:31+pages/common/7zr.md:16+pages/common/asar.md:18
+#, fuzzy
+msgid "List the contents of an archive file:"
+msgstr "Elenca i contenuti in un archivio:"
+
+#: pages/common/7za.md:25
+#, fuzzy
+msgid "`7za l {{archived}}`"
+msgstr "`7za l {{archivio}}`"
+
+#: pages/common/7z.md:2
+#, fuzzy
+msgid "# 7z"
+msgstr "# 7z"
+
+#: pages/common/7z.md:9
+#, fuzzy
+msgid "`7z a {{archived.7z}} {{path/to/file_or_directory}}`"
+msgstr "`7z a {{archivio.7z}} {{percorso/a/file_o_directory}}`"
+
+#: pages/common/7z.md:11
+#, fuzzy
+msgid "Encrypt an existing archive (including headers):"
+msgstr "Cripta un archivio esistente (inclusi gli header):"
+
+#: pages/common/7z.md:13
+#, fuzzy
+msgid "`7z a {{encrypted.7z}} -p{{password}} -mhe {{archived.7z}}`"
+msgstr "`7z a {{archivio_criptato.7z}} -p {{password}} -mhe {{archivio.7z}}`"
+
+#: pages/common/7z.md:17
+#, fuzzy
+msgid "`7z x {{archived.7z}}`"
+msgstr "`7z x {{archivio.7z}}`"
+
+#: pages/common/7z.md:19
+#, fuzzy
+msgid "Extract an archive with user-defined output path:"
+msgstr "Estrai un archivio in una specifica directory:"
+
+#: pages/common/7z.md:21
+#, fuzzy
+msgid "`7z x {{archived.7z}} -o{{path/to/output}}`"
+msgstr "`7z x {{archivio.7z}} -o {{percorso/alla/directory}}`"
+
+#: pages/common/7z.md:25
+#, fuzzy
+msgid ""
+"`7z a -t {{zip|gzip|bzip2|tar}} {{archived.7z}} {{path/to/file_or_directory}}"
+"`"
+msgstr ""
+"`7z a -t {{zip|gzip|bzip2|tar}} {{archivio.7z}} {{percorso/a/"
+"file_o_directory}}`"
+
+#: pages/common/7z.md:29
+#, fuzzy
+msgid "`7z i`"
+msgstr "`7z i`"
+
+#: pages/common/7z.md:32
+#, fuzzy
+msgid "`7z l {{archived.7z}}`"
+msgstr "`7z l {{archivio.7z}}`"
+
+#: pages/common/7zr.md:2
+#, fuzzy
+msgid "# 7zr"
+msgstr "# 7zr"
+
+#: pages/common/7zr.md:5
+#, fuzzy
+msgid "A standalone version of `7z` that only supports .7z files."
+msgstr "Versione standalone di `7z` che supporta solo file .7z."
+
+#: pages/common/7zr.md:10
+#, fuzzy
+msgid "`7zr a {{archived.7z}} {{path/to/file_or_directory}}`"
+msgstr "`7zr a {{archivio.7z}} {{percorso/a/file_o_directory}}`"
+
+#: pages/common/7zr.md:14
+#, fuzzy
+msgid "`7zr x {{archived.7z}}`"
+msgstr "`7zr x {{archivio.7z}}`"
+
+#: pages/common/7zr.md:17
+#, fuzzy
+msgid "`7zr l {{archived.7z}}`"
+msgstr "`7zr l {{archivio}}`"
+
+#: pages/common/abduco.md:2
+#, fuzzy
+msgid "# abduco"
+msgstr "# abduco"
+
+#: pages/common/abduco.md:4
+#, fuzzy
+msgid "Terminal session manager."
+msgstr "Gestore di sessioni di terminale."
+
+#: pages/common/abduco.md:6
+#, fuzzy
+msgid "List sessions:"
+msgstr "List sessioni:"
+
+#: pages/common/abduco.md:8
+#, fuzzy
+msgid "`abduco`"
+msgstr "`abduco`"
+
+#: pages/common/abduco.md:10
+#, fuzzy
+msgid "Attach to a session, creating it if it doesn't exist:"
+msgstr "Entra in una sessione, creandola se non esiste gi:"
+
+#: pages/common/abduco.md:12
+#, fuzzy
+msgid "`abduco -A {{name}} {{bash}}`"
+msgstr "`abduco -A {{nome_sessione}} {{bash}}`"
+
+#: pages/common/abduco.md:14
+#, fuzzy
+msgid "Attach to a session with `dvtm`, creating it if it doesn't exist:"
+msgstr "Entra in una sessione con `dvtm`, creandola se non esiste gi:"
+
+#: pages/common/abduco.md:16
+#, fuzzy
+msgid "`abduco -A {{name}}`"
+msgstr "`abduco -A {{nome_sessione}}`"
+
+#: pages/common/abduco.md:18
+#, fuzzy
+msgid "Detach from a session:"
+msgstr "Esci da una sessione:"
+
+#: pages/common/abduco.md:20
+#, fuzzy
+msgid "`Ctrl + `"
+msgstr "`CTRL + `"
+
+#: pages/common/abduco.md:22
+#, fuzzy
+msgid "Attach to a session in read-only mode:"
+msgstr "Entra in una sessione in modalit sola lettura:"
+
+#: pages/common/abduco.md:23
+#, fuzzy
+msgid "`abduco -Ar {{name}}`"
+msgstr "`abduco -Ar {{nome_sessione}}`"
+
+#: pages/common/ab.md:2
+#, fuzzy
+msgid "# ab"
+msgstr "# ab"
+
+#: pages/common/ab.md:4
+#, fuzzy
+msgid "Apache Benchmarking tool. The simplest tool to perform a load testing."
+msgstr ""
+"Strumento di benchmarking di Apache. Il pi semplice modo per eseguire un "
+"test sul carico del server."
+
+#: pages/common/ab.md:6
+#, fuzzy
+msgid "Execute 100 HTTP GET requests to given URL:"
+msgstr "Esegui 100 richieste HTTP GET ad un dato URL:"
+
+#: pages/common/ab.md:8
+#, fuzzy
+msgid "`ab -n {{100}} {{url}}`"
+msgstr "`ab -n {{100}} {{url}}`"
+
+#: pages/common/ab.md:10
+#, fuzzy
+msgid ""
+"Execute 100 HTTP GET requests, processing up to 10 requests concurrently, to "
+"given URL:"
+msgstr ""
+"Esegui 100 richieste HTTP GET ad un dato url, processandone fino a 10 "
+"requests contemporaneamente:"
+
+#: pages/common/ab.md:12
+#, fuzzy
+msgid "`ab -n {{100}} -c {{10}} {{url}}`"
+msgstr "`ab -n {{100}} -c {{10}} {{url}}`"
+
+#: pages/common/ab.md:14
+#, fuzzy
+msgid "Use keep alive:"
+msgstr "Usa keep alive:"
+
+#: pages/common/ab.md:16
+#, fuzzy
+msgid "`ab -k {{url}}`"
+msgstr "`ab -k {{url}}`"
+
+#: pages/common/ab.md:18
+#, fuzzy
+msgid "Set the maximum number of seconds to spend for benchmarking:"
+msgstr "Setta il massimo numero di secondi per il benchmarking:"
+
+#: pages/common/ab.md:19
+#, fuzzy
+msgid "`ab -t {{60}} {{url}}`"
+msgstr "`ab -t {{secondi}} {{url}}`"
+
+#: pages/common/ack.md:2
+#, fuzzy
+msgid "# ack"
+msgstr "# ack"
+
+#: pages/common/ack.md:4
+#, fuzzy
+msgid "A search tool like grep, optimized for programmers."
+msgstr "Un tool di ricerca simile a `grep`, ottimizzato per programmatori."
+
+#: pages/common/ack.md:6
+#, fuzzy
+msgid "Find files containing \"foo\":"
+msgstr "Trova file contenenti \"foo\":"
+
+#: pages/common/ack.md:8
+#, fuzzy
+msgid "`ack {{foo}}`"
+msgstr "`ack {{foo}}`"
+
+#: pages/common/ack.md:10
+#, fuzzy
+msgid "Find files in a specific language:"
+msgstr "Trova file Ruby contenenti una specifica parola chiave:"
+
+#: pages/common/ack.md:12
+#, fuzzy
+msgid "`ack --ruby {{each_with_object}}`"
+msgstr "`ack --ruby {{each_with_object}}`"
+
+#: pages/common/ack.md:14
+#, fuzzy
+msgid "Count the total number of matches for the term \"foo\":"
+msgstr "Conta il numero di file contenenti \"foo\":"
+
+#: pages/common/ack.md:16
+#, fuzzy
+msgid "`ack -ch {{foo}}`"
+msgstr "`ack -ch {{foo}}`"
+
+#: pages/common/ack.md:18
+#, fuzzy
+msgid ""
+"Show the file names containing \"foo\" and number of matches in each file:"
+msgstr ""
+"Mostra i nomi dei file contenenti \"foo\" insieme al numero di occorrenze "
+"del termine all'interno di essi:"
+
+#: pages/common/ack.md:19
+#, fuzzy
+msgid "`ack -cl {{foo}}`"
+msgstr "`ack -cl {{foo}}`"
+
+#: pages/common/adb.md:2
+#, fuzzy
+msgid "# adb"
+msgstr "# adb"
+
+#: pages/common/adb.md:4
+#, fuzzy
+msgid ""
+"Android Debug Bridge: communicate with an Android emulator instance or "
+"connected Android devices."
+msgstr ""
+"Android Debug Bridge: comunica con un'instanza di un emulatore Android o con "
+"un dispositivo android connesso."
+
+#: pages/common/adb.md:6
+#, fuzzy
+msgid "Check whether the adb server process is running and start it:"
+msgstr "Controlla se il processo server adb  attivo ed avvialo:"
+
+#: pages/common/adb.md:8
+#, fuzzy
+msgid "`adb start-server`"
+msgstr "`adb start-server`"
+
+#: pages/common/adb.md:10
+#, fuzzy
+msgid "Terminate the adb server process:"
+msgstr "Termina il processo server adb:"
+
+#: pages/common/adb.md:12
+#, fuzzy
+msgid "`adb kill-server`"
+msgstr "`adb kill-server`"
+
+#: pages/common/adb.md:14
+#, fuzzy
+msgid "Start a remote shell in the target emulator/device instance:"
+msgstr "Avvia una shell remota nell'emulatore o dispositivo target:"
+
+#: pages/common/adb.md:16
+#, fuzzy
+msgid "`adb shell`"
+msgstr "`adb shell`"
+
+#: pages/common/adb.md:18
+#, fuzzy
+msgid "Push an Android application to an emulator/device:"
+msgstr "Installa un'applicazione Android nell'emulatore o dispositivo target:"
+
+#: pages/common/adb.md:20
+#, fuzzy
+msgid "`adb install -r {{path/to/file.apk}}`"
+msgstr "`adb install -r {{percorso/al/file.apk}}`"
+
+#: pages/common/adb.md:22
+#, fuzzy
+msgid "Copy a file/directory from the target device:"
+msgstr "Copia file o directory dal dispositivo target:"
+
+#: pages/common/adb.md:24
+#, fuzzy
+msgid ""
+"`adb pull {{path/to/device_file_or_directory}} {{path/to/"
+"local_destination_directory}}`"
+msgstr ""
+"`adb pull {{percorso/a/file_o_directory_dispositivo}} {{path/a/"
+"file_o_directory_locale}}`"
+
+#: pages/common/adb.md:26
+#, fuzzy
+msgid "Copy a file/directory to the target device:"
+msgstr "Copia file/directory sul dispositivo target:"
+
+#: pages/common/adb.md:28
+#, fuzzy
+msgid ""
+"`adb push {{path/to/local_file_or_directory}} {{path/to/"
+"device_destination_directory}}`"
+msgstr ""
+"`adb push {{percorso/a/file_o_directory_locale}} {{percorso/a/"
+"directory_destinazione_dispositivo}}`"
+
+#: pages/common/adb.md:30
+#, fuzzy
+msgid "Get a list of connected devices:"
+msgstr "Mostra una lista dei dispositivi connessi:"
+
+#: pages/common/adb.md:31
+#, fuzzy
+msgid "`adb devices`"
+msgstr "`adb devices`"
+
+#: pages/common/ag.md:2
+#, fuzzy
+msgid "# ag"
+msgstr "# ag"
+
+#: pages/common/ag.md:4
+#, fuzzy
+msgid "The Silver Searcher. Like ack, but faster."
+msgstr "The Silver Searcher. Come `ack`, ma pi veloce."
+
+#: pages/common/ag.md:6
+#, fuzzy
+msgid "Find files containing \"foo\", and print the line matches in context:"
+msgstr ""
+"Trova file contenenti \"foo\" e mostra le corrisponenti linee contenenti il "
+"termine:"
+
+#: pages/common/ag.md:8
+#, fuzzy
+msgid "`ag {{foo}}`"
+msgstr "`ag {{foo}}`"
+
+#: pages/common/ag.md:10
+#, fuzzy
+msgid "Find files containing \"foo\" in a specific directory:"
+msgstr "Trova file contenenti \"foo\" in una specifica directory:"
+
+#: pages/common/ag.md:12
+#, fuzzy
+msgid "`ag {{foo}} {{path/to/directory}}`"
+msgstr "`ag {{foo}} {{percorso/alla/directory}}`"
+
+#: pages/common/ag.md:14
+#, fuzzy
+msgid "Find files containing \"foo\", but only list the filenames:"
+msgstr "Trova file contenenti \"foo\" elencandone solamente i nomi:"
+
+#: pages/common/ag.md:16
+#, fuzzy
+msgid "`ag -l {{foo}}`"
+msgstr "`ag -l {{foo}}`"
+
+#: pages/common/ag.md:18
+#, fuzzy
+msgid ""
+"Find files containing \"FOO\" case-insensitively, and print only the match, "
+"rather than the whole line:"
+msgstr ""
+"Trova file contenenti \"FOO\" senza distinguere tra maiuscole e minuscole, e "
+"stampa solo il termine trovato piuttosto che l'intera linea:"
+
+#: pages/common/ag.md:20
+#, fuzzy
+msgid "`ag -i -o {{FOO}}`"
+msgstr "`ag -i -o {{FOO}}`"
+
+#: pages/common/ag.md:22
+#, fuzzy
+msgid "Find \"foo\" in files with a name matching \"bar\":"
+msgstr "Trova \"foo\" in file il quale nome contiene \"bar\":"
+
+#: pages/common/ag.md:24
+#, fuzzy
+msgid "`ag {{foo}} -G {{bar}}`"
+msgstr "`ag {{foo}} -G {{bar}}`"
+
+#: pages/common/ag.md:26
+#, fuzzy
+msgid "Find files whose contents match a regular expression:"
+msgstr ""
+"Trova file il quale contenuto soddisfi una determinata espressione regolare:"
+
+#: pages/common/ag.md:28
+#, fuzzy
+msgid "`ag '{{^ba(r|z)$}}'`"
+msgstr "`ag '{{regexp}}'`"
+
+#: pages/common/ag.md:30
+#, fuzzy
+msgid "Find files with a name matching \"foo\":"
+msgstr "Trova file il quale nome contiene \"foo\":"
+
+#: pages/common/ag.md:31
+#, fuzzy
+msgid "`ag -g {{foo}}`"
+msgstr "`ag -g {{foo}}`"
+
+#: pages/common/airpaste.md:2
+#, fuzzy
+msgid "# airpaste"
+msgstr "# airpaste"
+
+#: pages/common/airpaste.md:4
+#, fuzzy
+msgid "Share messages and files on the same network."
+msgstr "Condividi messaggi e file nella stessa rete."
+
+#: pages/common/airpaste.md:6
+#, fuzzy
+msgid "Wait for message and display when received:"
+msgstr "Aspetta un messaggo e mostralo una volta ricevuto:"
+
+#: pages/common/airpaste.md:8
+#, fuzzy
+msgid "`airpaste`"
+msgstr "`airpaste`"
+
+#: pages/common/airpaste.md:10
+#, fuzzy
+msgid "Send text:"
+msgstr "Invia un messaggio di testo:"
+
+#: pages/common/airpaste.md:12
+#, fuzzy
+msgid "`echo {{text}} | airpaste`"
+msgstr "`echo {{messaggio}} | airpaste`"
+
+#: pages/common/airpaste.md:14
+#, fuzzy
+msgid "Send file:"
+msgstr "Invia un file:"
+
+#: pages/common/airpaste.md:16
+#, fuzzy
+msgid "`airpaste < {{path/to/file}}`"
+msgstr "`airpaste < {{percorso/al/file}}`"
+
+#: pages/common/airpaste.md:18
+#, fuzzy
+msgid "Receive file:"
+msgstr "Ricevi un file:"
+
+#: pages/common/airpaste.md:20
+#, fuzzy
+msgid "`airpaste > {{path/to/file}}`"
+msgstr "`airpaste > {{percorso/al/file}}`"
+
+#: pages/common/airpaste.md:22
+#, fuzzy
+msgid "Create/Join channel:"
+msgstr "Crea o entra in un canale:"
+
+#: pages/common/airpaste.md:23
+#, fuzzy
+msgid "`airpaste {{channel_name}}`"
+msgstr "`airpaste {{nome_canale}}`"
+
+#: pages/common/alias.md:2
+#, fuzzy
+msgid "# alias"
+msgstr "# alias"
+
+#: pages/common/alias.md:4
+#, fuzzy
+msgid "Creates aliases -- words that are replaced by a command string."
+msgstr "Crea alias -- parole che sono sostituite da stringhe di comandi."
+
+#: pages/common/alias.md:5
+#, fuzzy
+msgid ""
+"Aliases expire with the current shell session, unless they're defined in the "
+"shell's configuration file, e.g. `~/.bashrc`."
+msgstr ""
+"Gli alias vengono persi alla chiusura della shell corrente, a meno che non "
+"siano definiti nel file di configurazione della shell (ad esempio `~/."
+"bashrc`)."
+
+#: pages/common/alias.md:7
+#, fuzzy
+msgid "Create a generic alias:"
+msgstr "Crea un alias:"
+
+#: pages/common/alias.md:9
+#, fuzzy
+msgid "`alias {{word}}=\"{{command}}\"`"
+msgstr "`alias {{parola}}=\"{{comando}}\"`"
+
+#: pages/common/alias.md:11
+#, fuzzy
+msgid "View the command associated to a given alias:"
+msgstr "Mostra il comando associato ad un dato alias:"
+
+#: pages/common/alias.md:13
+#, fuzzy
+msgid "`alias {{word}}`"
+msgstr "`alias {{parola}}`"
+
+#: pages/common/alias.md:15
+#, fuzzy
+msgid "Remove an aliased command:"
+msgstr "Rimuovi un alias:"
+
+#: pages/common/alias.md:17
+#, fuzzy
+msgid "`unalias {{word}}`"
+msgstr "`unalias {{parola}}`"
+
+#: pages/common/alias.md:19
+#, fuzzy
+msgid "List all aliased words:"
+msgstr "Elenca tutti gli alias correntemente in uso:"
+
+#: pages/common/alias.md:21
+#, fuzzy
+msgid "`alias -p`"
+msgstr "`alias -p`"
+
+#: pages/common/alias.md:23
+#, fuzzy
+msgid "Turn rm into an interactive command:"
+msgstr "Rendi il comando rm interattivo:"
+
+#: pages/common/alias.md:25
+#, fuzzy
+msgid "`alias {{rm}}=\"{{rm -i}}\"`"
+msgstr "`alias {{rm}}=\"{{rm -i}}\"`"
+
+#: pages/common/alias.md:27
+#, fuzzy
+msgid "Create `la` as a shortcut for `ls -a`:"
+msgstr "Crea un alias `la` come scorciatoia per il comando `ls -a`:"
+
+#: pages/common/alias.md:28
+#, fuzzy
+msgid "`alias {{la}}=\"{{ls -a}}\"`"
+msgstr "`alias {{la}}=\"{{ls -a}}\"`"
+
+#: pages/common/ansible-galaxy.md:2
+#, fuzzy
+msgid "# ansible-galaxy"
+msgstr "# ansible-galaxy"
+
+#: pages/common/ansible-galaxy.md:4
+#, fuzzy
+msgid "Create and manage Ansible roles."
+msgstr "Crea e gestisci ruoli di Ansible."
+
+#: pages/common/ansible-galaxy.md:7
+#, fuzzy
+msgid "Install a role:"
+msgstr "Installa un ruolo:"
+
+#: pages/common/ansible-galaxy.md:9
+#, fuzzy
+msgid "`ansible-galaxy install {{username.role_name}}`"
+msgstr "`ansible-galaxy install {{utente.ruolo}}`"
+
+#: pages/common/ansible-galaxy.md:11
+#, fuzzy
+msgid "Remove a role:"
+msgstr "Rimuovi un ruolo:"
+
+#: pages/common/ansible-galaxy.md:13
+#, fuzzy
+msgid "`ansible-galaxy remove {{username.role_name}}`"
+msgstr "`ansible-galaxy remove {{utente.ruolo}}`"
+
+#: pages/common/ansible-galaxy.md:15
+#, fuzzy
+msgid "List installed roles:"
+msgstr "Elenca i ruoli installati:"
+
+#: pages/common/ansible-galaxy.md:17
+#, fuzzy
+msgid "`ansible-galaxy list`"
+msgstr "`ansible-galaxy list`"
+
+#: pages/common/ansible-galaxy.md:19
+#, fuzzy
+msgid "Search for a given role:"
+msgstr "Cerca un determinato ruolo:"
+
+#: pages/common/ansible-galaxy.md:21
+#, fuzzy
+msgid "`ansible-galaxy search {{role_name}}`"
+msgstr "`ansible-galaxy search {{nome_ruolo}}`"
+
+#: pages/common/ansible-galaxy.md:23
+#, fuzzy
+msgid "Create a new role:"
+msgstr "Crea un nuovo ruolo:"
+
+#: pages/common/ansible-galaxy.md:24
+#, fuzzy
+msgid "`ansible-galaxy init {{role_name}}`"
+msgstr "`ansible-galaxy init {{nome_nuovo_ruolo}}`"
+
+#: pages/common/ansible.md:2
+#, fuzzy
+msgid "# ansible"
+msgstr "# ansible"
+
+#: pages/common/ansible.md:4
+#, fuzzy
+msgid "Manage groups of computers remotely over SSH."
+msgstr "Gestisci gruppi di computer da remoto via SSH."
+
+#: pages/common/ansible.md:5
+#, fuzzy
+msgid "Use the /etc/ansible/hosts file to add new groups/hosts."
+msgstr "Usa il file /etc/ansible/hosts per aggiungere nuovi gruppi/host."
+
+#: pages/common/ansible.md:8
+#, fuzzy
+msgid "List hosts belonging to a group:"
+msgstr "Lista gli host appartenenti ad un gruppo:"
+
+#: pages/common/ansible.md:10
+#, fuzzy
+msgid "`ansible {{group}} --list-hosts`"
+msgstr "`ansible {{gruppo}} --list-hosts`"
+
+#: pages/common/ansible.md:12
+#, fuzzy
+msgid "Ping a group of hosts by invoking the ping module:"
+msgstr "Invia un ping ad un gruppo di host invocando il modulo \"ping\":"
+
+#: pages/common/ansible.md:14
+#, fuzzy
+msgid "`ansible {{group}} -m ping`"
+msgstr "`ansible {{gruppo}} -m ping`"
+
+#: pages/common/ansible.md:16
+#, fuzzy
+msgid "Display facts about a group of hosts by invoking the setup module:"
+msgstr ""
+"Mostra informazioni su di un gruppo di host invocando il modulo \"setup\":"
+
+#: pages/common/ansible.md:18
+#, fuzzy
+msgid "`ansible {{group}} -m setup`"
+msgstr "`ansible {{gruppo}} -m setup`"
+
+#: pages/common/ansible.md:20
+#, fuzzy
+msgid ""
+"Execute a command on a group of hosts by invoking command module with "
+"arguments:"
+msgstr ""
+"Esegui un comando su un gruppo di host invocando il modulo \"command\" con "
+"degli argomenti:"
+
+#: pages/common/ansible.md:22
+#, fuzzy
+msgid "`ansible {{group}} -m command -a '{{my_command}}'`"
+msgstr "`ansible {{gruppo}} -m command -a '{{comando_da_eseguire}}'`"
+
+#: pages/common/ansible.md:24
+#, fuzzy
+msgid "Execute a command with administrative privileges:"
+msgstr "Esegui un comando con privilegi di amministratore:"
+
+#: pages/common/ansible.md:26
+#, fuzzy
+msgid ""
+"`ansible {{group}} --become --ask-become-pass -m command -a '{{my_command}}'`"
+msgstr ""
+"`ansible {{gruppo}} --become --ask-become-pass -m command -a '{{comando}}'`"
+
+#: pages/common/ansible.md:28
+#, fuzzy
+msgid "Execute a command using a custom inventory file:"
+msgstr "Esegui un comando usando un file di inventory personalizzato:"
+
+#: pages/common/ansible.md:29
+#, fuzzy
+msgid ""
+"`ansible {{group}} -i {{inventory_file}} -m command -a '{{my_command}}'`"
+msgstr "`ansible {{gruppo}} -i {{file_inventory}} -m command -a '{{comando}}'`"
+
+#: pages/common/ansible-playbook.md:2
+#, fuzzy
+msgid "# ansible-playbook"
+msgstr "# ansible-playbook"
+
+#: pages/common/ansible-playbook.md:4
+#, fuzzy
+msgid "Execute tasks defined in playbook on remote machines over SSH."
+msgstr "Esegui task definiti nel playbook di un computer remoto via SSH."
+
+#: pages/common/ansible-playbook.md:7
+#, fuzzy
+msgid "Run tasks in playbook:"
+msgstr "Esegui tasks nel playbook:"
+
+#: pages/common/ansible-playbook.md:9
+#, fuzzy
+msgid "`ansible-playbook {{playbook}}`"
+msgstr "`ansible-playbook {{playbook}}`"
+
+#: pages/common/ansible-playbook.md:11
+#, fuzzy
+msgid "Run tasks in playbook with custom host inventory:"
+msgstr "Esegui task nel playbook con un inventory personalizzato:"
+
+#: pages/common/ansible-playbook.md:13
+#, fuzzy
+msgid "`ansible-playbook {{playbook}} -i {{inventory_file}}`"
+msgstr "`ansible-playbook {{playbook}} -i {{inventory}}`"
+
+#: pages/common/ansible-playbook.md:15
+#, fuzzy
+msgid ""
+"Run tasks in playbook with extra variables defined via the command line:"
+msgstr ""
+"Esegui task nel playvook con variabili aggiuntive definite da linea di "
+"comando:"
+
+#: pages/common/ansible-playbook.md:17
+#, fuzzy
+msgid ""
+"`ansible-playbook {{playbook}} -e \"{{variable1}}={{value1}} {{variable2}}"
+"={{value2}}\"`"
+msgstr ""
+"`ansible-playbook {{playbook}} -e \"{{variabile1}}={{valore1}} {{variabile2}}"
+"={{valore2}} ...\"`"
+
+#: pages/common/ansible-playbook.md:19
+#, fuzzy
+msgid "Run tasks in playbook with extra variables defined in a json file:"
+msgstr ""
+"Esegui task nel playbook con variabili aggiuntive definite in un file JSON:"
+
+#: pages/common/ansible-playbook.md:20
+#, fuzzy
+msgid "`ansible-playbook {{playbook}} -e \"@{{variables.json}}\"`"
+msgstr "`ansible-playbook {{playbook}} -e \"@{{variabili.json}}\"`"
+
+#: pages/common/ansiweather.md:2
+#, fuzzy
+msgid "# ansiweather"
+msgstr "# ansiweather"
+
+#: pages/common/ansiweather.md:4
+#, fuzzy
+msgid ""
+"A shell script for displaying the current weather conditions in your "
+"terminal."
+msgstr "Uno script per mostrare le attuali condizioni meteo nel tuo terminale."
+
+#: pages/common/ansiweather.md:6
+#, fuzzy
+msgid ""
+"Display a forecast using metric units for the next five days for Rzeszow, "
+"Poland:"
+msgstr ""
+"Mostra una previsione usando unit SI per i prossimi cinque giorni in Rzeszow "
+"(Polonia):"
+
+#: pages/common/ansiweather.md:8
+#, fuzzy
+msgid "`ansiweather -u {{metric}} -f {{5}} -l {{Rzeszow,PL}}`"
+msgstr "`ansiweather -u {{metric}} -f {{5}} -l {{Rzeszow,PL}}`"
+
+#: pages/common/ansiweather.md:10
+#, fuzzy
+msgid ""
+"Display a forecast showing symbols and daylight data for your current "
+"location:"
+msgstr ""
+"Mostra una previsione con simboli e informazioni sulla luce solare per la "
+"tua posizione attuale:"
+
+#: pages/common/ansiweather.md:12
+#, fuzzy
+msgid "`ansiweather -s {{true}} -d {{true}}`"
+msgstr "`ansiweather -s {{true}} -d {{true}}`"
+
+#: pages/common/ansiweather.md:14
+#, fuzzy
+msgid ""
+"Display a forecast showing wind and humidity data for your current location:"
+msgstr ""
+"Mostra una previsione con informazioni su vento ed umidit per la tua "
+"posizione attuale:"
+
+#: pages/common/ansiweather.md:15
+#, fuzzy
+msgid "`ansiweather -w {{true}} -h {{true}}`"
+msgstr "`ansiweather -w {{true}} -h {{true}}`"
+
+#: pages/common/apg.md:2
+#, fuzzy
+msgid "# apg"
+msgstr "# apg"
+
+#: pages/common/apg.md:4
+#, fuzzy
+msgid "Creates arbitrarily complex random passwords."
+msgstr "Crea password randomiche arbitrariamente complesse."
+
+#: pages/common/apg.md:6
+#, fuzzy
+msgid "Create random passwords (default password length is 8):"
+msgstr "Genera password randomiche (la lunghezza predefinita  8):"
+
+#: pages/common/apg.md:8
+#, fuzzy
+msgid "`apg`"
+msgstr "`apg`"
+
+#: pages/common/apg.md:10
+#, fuzzy
+msgid ""
+"Create a password with at least 1 symbol (S), 1 number (N), 1 uppercase (C), "
+"1 lowercase (L):"
+msgstr ""
+"Crea una password con almeno 1 simbolo (S), 1 numero (N), 1 lettera "
+"maiuscola (C) e una minuscola (L):"
+
+#: pages/common/apg.md:12
+#, fuzzy
+msgid "`apg -M SNCL`"
+msgstr "`apg -M SNCL`"
+
+#: pages/common/apg.md:14
+#, fuzzy
+msgid "Create a password with 16 characters:"
+msgstr "Crea una password di 16 caratteri:"
+
+#: pages/common/apg.md:16
+#, fuzzy
+msgid "`apg -m {{16}}`"
+msgstr "`apg -m {{16}}`"
+
+#: pages/common/apg.md:18
+#, fuzzy
+msgid "Create a password with maximum length of 16:"
+msgstr "Crea una password di massimo 16 caratteri:"
+
+#: pages/common/apg.md:20
+#, fuzzy
+msgid "`apg -x {{16}}`"
+msgstr "`apg -x {{16}}`"
+
+#: pages/common/apg.md:22
+#, fuzzy
+msgid ""
+"Create a password that doesn't appear in a dictionary (the dictionary file "
+"has to be provided):"
+msgstr ""
+"Crea una password che non  gi presente in un dizionario (file dizionario "
+"fornito come argomento):"
+
+#: pages/common/apg.md:23
+#, fuzzy
+msgid "`apg -r {{dictionary_file}}`"
+msgstr "`apg -r {{dizionario}}`"
+
+#: pages/common/apm.md:2
+#, fuzzy
+msgid "# apm"
+msgstr "# apm"
+
+#: pages/common/apm.md:4
+#, fuzzy
+msgid "Atom editor Package Manager."
+msgstr "Manager di pacchetti per l'editor di testo Atom."
+
+#: pages/common/apm.md:5
+#, fuzzy
+msgid "See `atom`."
+msgstr "Vedi `atom`."
+
+#: pages/common/apm.md:7
+#, fuzzy
+msgid ""
+"Install packages from http://atom.io/packages and themes from http://atom.io/"
+"themes:"
+msgstr ""
+"Installa pacchetti da http://atom.io/packages e temi da http://atom.io/"
+"themes:"
+
+#: pages/common/apm.md:9
+#, fuzzy
+msgid "`apm install {{package_name}}`"
+msgstr "`apm install {{nome_pacchetto}}`"
+
+#: pages/common/apm.md:11
+#, fuzzy
+msgid "Remove packages/themes:"
+msgstr "Rimuovi pacchetti/temi:"
+
+#: pages/common/apm.md:13
+#, fuzzy
+msgid "`apm remove {{package_name}}`"
+msgstr "`apm remove {{nome_pacchetto}}`"
+
+#: pages/common/apm.md:15
+#, fuzzy
+msgid "Upgrade packages/themes:"
+msgstr "Aggiorna pacchetti/temi:"
+
+#: pages/common/apm.md:16
+#, fuzzy
+msgid "`apm upgrade {{package_name}}`"
+msgstr "`apm upgrade {{nome_pacchetto}}`"
+
+#: pages/common/apropos.md:2
+#, fuzzy
+msgid "# apropos"
+msgstr "# apropos"
+
+#: pages/common/apropos.md:4
+#, fuzzy
+msgid "Search in manpages, for example to find a new command."
+msgstr ""
+"Cerca nelle pagine di manuale, ad esempio per trovare un nuovo comando."
+
+#: pages/common/apropos.md:6
+#, fuzzy
+msgid "Search for keyword:"
+msgstr "Cerca una parola chiave:"
+
+#: pages/common/apropos.md:8
+#, fuzzy
+msgid "`apropos {{regular_expression}}`"
+msgstr "`apropos {{qualcosa}}`"
+
+#: pages/common/apropos.md:10
+#, fuzzy
+msgid "Search without restricting output to terminal width:"
+msgstr "Cerca senza limitare l'output alla larghezza del terminale:"
+
+#: pages/common/apropos.md:11
+#, fuzzy
+msgid "`apropos -l {{regular_expression}}`"
+msgstr "`apropos -l {{qualcosa}}`"
+
+#: pages/common/aria2c.md:2
+#, fuzzy
+msgid "# aria2c"
+msgstr "# aria2c"
+
+#: pages/common/aria2c.md:4
+#, fuzzy
+msgid "Fast download utility."
+msgstr "Veloce utilit di download."
+
+#: pages/common/aria2c.md:5
+#, fuzzy
+msgid "Supports HTTP(S), FTP, SFTP, BitTorrent, and Metalink."
+msgstr "Supporta HTTP(S), FTP, SFTP, BitTorrent, e Metalink."
+
+#: pages/common/aria2c.md:7
+#, fuzzy
+msgid "Download a URI to a file:"
+msgstr "Scarica un file da un URI:"
+
+#: pages/common/aria2c.md:9
+#, fuzzy
+msgid "`aria2c {{url}}`"
+msgstr "`aria2c {{url}}`"
+
+#: pages/common/aria2c.md:11
+#, fuzzy
+msgid "Download from multiple sources:"
+msgstr "Scarica pi file da diverse sorgenti:"
+
+#: pages/common/aria2c.md:13
+#, fuzzy
+msgid "`aria2c {{url_1}} {{url_2}}`"
+msgstr "`aria2c {{url_1}} {{url_2}}`"
+
+#: pages/common/aria2c.md:15
+#, fuzzy
+msgid "Download the URIs listed in a file:"
+msgstr "Scarica gli URI elencati in un file:"
+
+#: pages/common/aria2c.md:17
+#, fuzzy
+msgid "`aria2c -i {{filename}}`"
+msgstr "`aria2c -i {{filename}}`"
+
+#: pages/common/aria2c.md:19+pages/common/axel.md:15
+#, fuzzy
+msgid "Download with multiple connections:"
+msgstr "Esegui il download con connessioni multiple:"
+
+#: pages/common/aria2c.md:21
+#, fuzzy
+msgid "`aria2c -s {{connections_num}} {{url}}`"
+msgstr "`aria2c -s {{numero_connessioni}} {{url}}`"
+
+#: pages/common/aria2c.md:23
+#, fuzzy
+msgid "FTP download with username and password:"
+msgstr "Scarica via FTP con username e password:"
+
+#: pages/common/aria2c.md:25
+#, fuzzy
+msgid "`aria2c --ftp-user={{username}} --ftp-passwd={{password}} {{url}}`"
+msgstr "`aria2c --ftp-user={{username}} --ftp-passwd={{password}} {{url}}`"
+
+#: pages/common/aria2c.md:27
+#, fuzzy
+msgid "Limit download speed in bytes/s:"
+msgstr "Limita la valocit di download (in byte al secondo):"
+
+#: pages/common/aria2c.md:28
+#, fuzzy
+msgid "`aria2c --max-download-limit={{speed}} {{url}}`"
+msgstr "`aria2c --max-download-limit={{velocit}} {{url}}`"
+
+#: pages/common/ar.md:2
+#, fuzzy
+msgid "# ar"
+msgstr "# ar"
+
+#: pages/common/ar.md:4
+#, fuzzy
+msgid "Create, modify, and extract from archives (.a, .so, .o)."
+msgstr "Crea, modifica ed estrai da archivi (.a, .so, .o)."
+
+#: pages/common/ar.md:6
+#, fuzzy
+msgid "Extract all members from an archive:"
+msgstr "Estrai tutti i membri da un archivio:"
+
+#: pages/common/ar.md:8
+#, fuzzy
+msgid "`ar -x {{libfoo.a}}`"
+msgstr "`ar -x {{libfoo.a}}`"
+
+#: pages/common/ar.md:10
+#, fuzzy
+msgid "List the members of an archive:"
+msgstr "Lista tutti i membri di un archivio:"
+
+#: pages/common/ar.md:12
+#, fuzzy
+msgid "`ar -t {{libfoo.a}}`"
+msgstr "`ar -t {{libfoo.a}}`"
+
+#: pages/common/ar.md:14
+#, fuzzy
+msgid "Replace or add files to an archive:"
+msgstr "Sostituisci o aggiungi file ad un archvio:"
+
+#: pages/common/ar.md:16
+#, fuzzy
+msgid "`ar -r {{libfoo.a}} {{foo.o}} {{bar.o}} {{baz.o}}`"
+msgstr "`ar -r {{libfoo.a}} {{foo.o}} {{bar.o}} {{baz.o}}`"
+
+#: pages/common/ar.md:18
+#, fuzzy
+msgid "Insert an object file index (equivalent to using `ranlib`):"
+msgstr ""
+"Inserisci o sostituisci un indice in un archivio (equivalente ad usare "
+"`ranlib`):"
+
+#: pages/common/ar.md:20
+#, fuzzy
+msgid "`ar -s {{libfoo.a}}`"
+msgstr "`ar -s {{libfoo.a}}`"
+
+#: pages/common/ar.md:22
+#, fuzzy
+msgid "Create an archive with files and an accompanying object file index:"
+msgstr "Crea un archivio con dei file creando anche il relativo indice:"
+
+#: pages/common/ar.md:23
+#, fuzzy
+msgid "`ar -rs {{libfoo.a}} {{foo.o}} {{bar.o}} {{baz.o}}`"
+msgstr "`ar -rs {{libfoo.a}} {{foo.o}} {{bar.o}} {{baz.o}}`"
+
+#: pages/common/arp.md:2
+#, fuzzy
+msgid "# arp"
+msgstr "# arp"
+
+#: pages/common/arp.md:4
+#, fuzzy
+msgid "Show and manipulate your system's ARP cache."
+msgstr "Mostra e gestisci la cache ARP di sistema."
+
+#: pages/common/arp.md:6
+#, fuzzy
+msgid "Show current arp table:"
+msgstr "Mostra la tabella ARP corrente:"
+
+#: pages/common/arp.md:8
+#, fuzzy
+msgid "`arp -a`"
+msgstr "`arp -a`"
+
+#: pages/common/arp.md:10
+#, fuzzy
+msgid "Clear the entire cache:"
+msgstr "Elimina l'intera cache:"
+
+#: pages/common/arp.md:12
+#, fuzzy
+msgid "`sudo arp -a -d`"
+msgstr "`sudo arp -a -d`"
+
+#: pages/common/arp.md:14
+#, fuzzy
+msgid "Delete a specific entry:"
+msgstr "Elimina una specifica voce:"
+
+#: pages/common/arp.md:16
+#, fuzzy
+msgid "`arp -d {{address}}`"
+msgstr "`arp -d {{indirizzo}}`"
+
+#: pages/common/arp.md:18
+#, fuzzy
+msgid "Create an entry:"
+msgstr "Crea una nuova voce:"
+
+#: pages/common/arp.md:19
+#, fuzzy
+msgid "`arp -s {{address}} {{mac_address}}`"
+msgstr "`arp -s {{indirizzo}} {{indirizzo_mac}}`"
+
+#: pages/common/asar.md:2
+#, fuzzy
+msgid "# asar"
+msgstr "# asar"
+
+#: pages/common/asar.md:4
+#, fuzzy
+msgid "A file archiver for the Electron platform."
+msgstr "Gestore di archivi per la piattaforma Electron."
+
+#: pages/common/asar.md:8
+#, fuzzy
+msgid "`asar pack {{path/to/file_or_directory}} {{archived.asar}}`"
+msgstr "`asar pack {{percorso/al/file}} {{archivio.asar}}`"
+
+#: pages/common/asar.md:10
+#, fuzzy
+msgid "Extract an archive:"
+msgstr "Estrai un archivio:"
+
+#: pages/common/asar.md:12
+#, fuzzy
+msgid "`asar extract {{archived.asar}}`"
+msgstr "`asar extract {{archivio.asar}}`"
+
+#: pages/common/asar.md:14
+#, fuzzy
+msgid "Extract a specific file from an archive:"
+msgstr "Estrai uno specifico file da un archivio:"
+
+#: pages/common/asar.md:16
+#, fuzzy
+msgid "`asar extract-file {{archived.asar}} {{file}}`"
+msgstr "`asar extract-file {{archivio.asar}} {{nome_file}}`"
+
+#: pages/common/asar.md:19
+#, fuzzy
+msgid "`asar list {{archived.asar}}`"
+msgstr "`asar list {{archivio.asar}}`"
+
+#: pages/common/asciinema.md:2
+#, fuzzy
+msgid "# asciinema"
+msgstr "# asciinema"
+
+#: pages/common/asciinema.md:4
+#, fuzzy
+msgid ""
+"Record and replay terminal sessions, and optionally share them on asciinema."
+"org."
+msgstr ""
+"Registra e riproduci sessioni di terminale, condividendole opzionalmente su "
+"asciiname.org."
+
+#: pages/common/asciinema.md:6
+#, fuzzy
+msgid ""
+"Associate the local install of `asciinema` with an asciinema.org account:"
+msgstr ""
+"Associa l'installazione locale di `asciiname` ad un account di asciiname.org:"
+
+#: pages/common/asciinema.md:8
+#, fuzzy
+msgid "`asciinema auth`"
+msgstr "`asciinema auth`"
+
+#: pages/common/asciinema.md:10
+#, fuzzy
+msgid ""
+"Make a new recording (once finished, user will be prompted to upload it or "
+"save it locally):"
+msgstr ""
+"Avvia una nuova registrazione (una volta terminata, verr chiesto se "
+"caricarla o salvarla localmente):"
+
+#: pages/common/asciinema.md:12
+#, fuzzy
+msgid "`asciinema rec`"
+msgstr "`asciinema rec`"
+
+#: pages/common/asciinema.md:14
+#, fuzzy
+msgid "Make a new recording and save it to a local file:"
+msgstr "Avvia una nuova registrazione e salvala come file locale:"
+
+#: pages/common/asciinema.md:16
+#, fuzzy
+msgid "`asciinema rec {{path/to/file}}.cast`"
+msgstr "`asciinema rec {{nome_registrazione}}.cast`"
+
+#: pages/common/asciinema.md:18
+#, fuzzy
+msgid "Replay a terminal recording from a local file:"
+msgstr "Riproduci una sessione da un file locale:"
+
+#: pages/common/asciinema.md:20
+#, fuzzy
+msgid "`asciinema play {{path/to/file}}.cast`"
+msgstr "`asciinema play {{percorso/al/file}}.cast`"
+
+#: pages/common/asciinema.md:22
+#, fuzzy
+msgid "Replay a terminal recording hosted on asciinema.org:"
+msgstr "Riproducei una sessione da asciinema.org:"
+
+#: pages/common/asciinema.md:24
+#, fuzzy
+msgid "`asciinema play https://asciinema.org/a/{{cast_id}}`"
+msgstr "`asciinema play https://asciinema.org/a/{{id_registrazione}}`"
+
+#: pages/common/asciinema.md:26
+#, fuzzy
+msgid "Make a new recording, limiting any idle time to at most 2.5 seconds:"
+msgstr ""
+"Avvia una nuova registrazione, limitando qualsiasi periodo di inattivit a "
+"2.5 secondi:"
+
+#: pages/common/asciinema.md:28
+#, fuzzy
+msgid "`asciinema rec -i {{2.5}}`"
+msgstr "`asciinema rec -i {{2.5}}`"
+
+#: pages/common/asciinema.md:30
+#, fuzzy
+msgid "Print the full output of a locally saved recording:"
+msgstr "Stampa l'output completo di una sessione locale:"
+
+#: pages/common/asciinema.md:32
+#, fuzzy
+msgid "`asciinema cat {{path/to/file}}.cast`"
+msgstr "`asciinema cat {{percorso/al/file}}.cast`"
+
+#: pages/common/asciinema.md:34
+#, fuzzy
+msgid "Upload a locally saved terminal session to asciinema.org:"
+msgstr "Carica una sessione locale su asciinama.org:"
+
+#: pages/common/asciinema.md:35
+#, fuzzy
+msgid "`asciinema upload {{path/to/file}}.cast`"
+msgstr "`asciinema upload {{percorso/al/file}}.cast`"
+
+#: pages/common/assimp.md:2
+#, fuzzy
+msgid "# assimp"
+msgstr "# assimp"
+
+#: pages/common/assimp.md:4
+#, fuzzy
+msgid "Command-line client for the Open Asset Import Library."
+msgstr "Client da linea di comando per la Open Asset Import Library."
+
+#: pages/common/assimp.md:5
+#, fuzzy
+msgid ""
+"Supports loading of 40+ 3D file formats, and exporting to several popular 3D "
+"formats."
+msgstr ""
+"Supporta il caricamento di 40+ formati di file per modelli 3D, e "
+"l'espoerazione di diversi formati 3D popolari."
+
+#: pages/common/assimp.md:7
+#, fuzzy
+msgid "List all supported import formats:"
+msgstr "Elenca tutti i formati supportati:"
+
+#: pages/common/assimp.md:9
+#, fuzzy
+msgid "`assimp listext`"
+msgstr "`assimp listext`"
+
+#: pages/common/assimp.md:11
+#, fuzzy
+msgid "List all supported export formats:"
+msgstr "Elenca tutti i formati supportati per l'esportazione:"
+
+#: pages/common/assimp.md:13
+#, fuzzy
+msgid "`assimp listexport`"
+msgstr "`assimp listexport`"
+
+#: pages/common/assimp.md:15
+#, fuzzy
+msgid ""
+"Convert a file to one of the supported output formats, using the default "
+"parameters:"
+msgstr ""
+"Converti un file a uno dei tipi supportati, utilizzando i parametri "
+"predefiniti:"
+
+#: pages/common/assimp.md:17
+#, fuzzy
+msgid "`assimp export {{input_file.stl}} {{output_file.obj}}`"
+msgstr "`assimp export {{file_input.stl}} {{file_output.obj}}`"
+
+#: pages/common/assimp.md:19
+#, fuzzy
+msgid ""
+"Convert a file using custom parameters (the dox_cmd.h file in assimp's "
+"source code lists available parameters):"
+msgstr ""
+"Converti un file utilizzando parametri personalizzati (il file dox_cmd.h nel "
+"source code di assimp contiene una lista di parametri disponibili):"
+
+#: pages/common/assimp.md:21
+#, fuzzy
+msgid "`assimp export {{input_file.stl}} {{output_file.obj}} {{parameters}}`"
+msgstr "`assimp export {{file_input.stl}} {{file_output.obj}} {{parametri}}`"
+
+#: pages/common/assimp.md:23
+#, fuzzy
+msgid "Display a summary of a 3D file's contents:"
+msgstr "Mostra un riepilogo del contenuto di un file:"
+
+#: pages/common/assimp.md:25
+#, fuzzy
+msgid "`assimp info {{path/to/file}}`"
+msgstr "`assimp info {{percordo/al/file}}`"
+
+#: pages/common/assimp.md:27
+#, fuzzy
+msgid "List all supported subcommands (\"verbs\"):"
+msgstr "Elenca tutti i sottocomandi disponibili (detti \"verbs\"):"
+
+#: pages/common/assimp.md:29
+#, fuzzy
+msgid "`assimp help`"
+msgstr "`assimp help`"
+
+#: pages/common/assimp.md:31
+#, fuzzy
+msgid "Get help on a specific subcommand (e.g. the parameters specific to it):"
+msgstr ""
+"Chiedi aiuto per uno specifico sottocomando (ad esempio riguardo i suoi "
+"parametri):"
+
+#: pages/common/assimp.md:32
+#, fuzzy
+msgid "`assimp {{subcommand}} --help`"
+msgstr "`assimp {{sottocomando}} --help`"
+
+#: pages/common/astyle.md:2
+#, fuzzy
+msgid "# astyle"
+msgstr "# astyle"
+
+#: pages/common/astyle.md:4
+#, fuzzy
+msgid ""
+"Source code indenter, formatter, and beautifier for the C, C++, C# and Java "
+"programming languages."
+msgstr ""
+"Identificatore di codice sorgente, formattatore e beautifier per i linguaggi "
+"C, C++, C# e Java."
+
+#: pages/common/astyle.md:5
+#, fuzzy
+msgid ""
+"Upon running, a copy of the original file is created with an \".orig\" "
+"appended to the original file name."
+msgstr ""
+"Quando eseguito, una copia del file originale  creata con l'estensione \"."
+"orig\" aggiunta come suffisso."
+
+#: pages/common/astyle.md:7
+#, fuzzy
+msgid ""
+"Apply the default style of 4 spaces per indent and no formatting changes:"
+msgstr ""
+"Applica lo stile di default di 4 spazi per livello di indentazione e nessun "
+"cambiamento alla formattazione:"
+
+#: pages/common/astyle.md:9
+#, fuzzy
+msgid "`astyle {{source_file}}`"
+msgstr "`astyle {{file_sorgente}}`"
+
+#: pages/common/astyle.md:11
+#, fuzzy
+msgid "Apply the java style with attached braces:"
+msgstr ""
+"Applica lo stile java con parentesi graffe aperte sulla stessa riga "
+"(attached braces):"
+
+#: pages/common/astyle.md:13
+#, fuzzy
+msgid "`astyle --style=java {{path/to/file}}`"
+msgstr "`astyle --style=java {{percorso/al/file}}`"
+
+#: pages/common/astyle.md:15
+#, fuzzy
+msgid "Apply the allman style with broken braces:"
+msgstr ""
+"Applica lo stile allman per parantesi graffe su linee separate (broken "
+"braces):"
+
+#: pages/common/astyle.md:17
+#, fuzzy
+msgid "`astyle --style=allman {{path/to/file}}`"
+msgstr "`astyle --style=allman {{percorso/al/file}}`"
+
+#: pages/common/astyle.md:19
+#, fuzzy
+msgid "Apply a custom indent using spaces. Choose between 2 and 20 spaces:"
+msgstr ""
+"Applica un'indentazione personalizzata utilizzando spazi. Scegli tra 2 e 20 "
+"spazi:"
+
+#: pages/common/astyle.md:21
+#, fuzzy
+msgid "`astyle --indent=spaces={{number_of_spaces}} {{path/to/file}}`"
+msgstr "`astyle --indent=spaces={{numero_spazi}} {{percorso/al/file}}`"
+
+#: pages/common/astyle.md:23
+#, fuzzy
+msgid "Apply a custom indent using tabs. Choose between 2 and 20 tabs:"
+msgstr ""
+"Applica un'indentazione personalizzata utilizzando tab. Scegli tra 2 e 20 "
+"tab:"
+
+#: pages/common/astyle.md:24
+#, fuzzy
+msgid "`astyle --indent=tab={{number_of_tabs}} {{path/to/file}}`"
+msgstr "`astyle --indent=tab={{numero_tab}} {{percorso/al/file}}`"
+
+#: pages/common/at.md:2
+#, fuzzy
+msgid "# at"
+msgstr "# at"
+
+#: pages/common/at.md:4
+#, fuzzy
+msgid "Execute commands once at a later time."
+msgstr "Programma l'esecuzione di comandi nel futuro."
+
+#: pages/common/at.md:5+pages/common/batch.md:5
+#, fuzzy
+msgid "Service atd (or atrun) should be running for the actual executions."
+msgstr "Il servizio atd (o atrun) deve essere attivo per eseguire i comandi."
+
+#: pages/common/at.md:7
+#, fuzzy
+msgid ""
+"Execute commands from standard input in 5 minutes (press `Ctrl + D` when "
+"done):"
+msgstr ""
+"Esegui i comandi inseriti standard input tra 5 minuti (premere `Ctrl + D` "
+"dopo aver inserito i comandi):"
+
+#: pages/common/at.md:9
+#, fuzzy
+msgid "`at now + 5 minutes`"
+msgstr "`at now + 5 minutes`"
+
+#: pages/common/at.md:11
+#, fuzzy
+msgid "Execute a command from standard input at 10:00 AM today:"
+msgstr "Esegui un comando passato da standard input alle 10:00 di mattina:"
+
+#: pages/common/at.md:13
+#, fuzzy
+msgid "`echo \"{{./make_db_backup.sh}}\" | at 1000`"
+msgstr "`echo \"{{./mio_script.sh}}\" | at 1000`"
+
+#: pages/common/at.md:15
+#, fuzzy
+msgid "Execute commands from a given file next Tuesday:"
+msgstr ""
+"Esegui comandi contenuti in un dato file il prossimo marted alle 9:30 di "
+"sera:"
+
+#: pages/common/at.md:16
+#, fuzzy
+msgid "`at -f {{path/to/file}} 9:30 PM Tue`"
+msgstr "`at -f {{percorso/al/file}} 9:30 PM Tue`"
+
+#: pages/common/atom.md:2
+#, fuzzy
+msgid "# atom"
+msgstr "# atom"
+
+#: pages/common/atom.md:4
+#, fuzzy
+msgid "A cross-platform pluggable text editor."
+msgstr "Un editor di testo cross-platform personalizzabile."
+
+#: pages/common/atom.md:5
+#, fuzzy
+msgid "Plugins are managed by `apm`."
+msgstr "I plugin sono gestiti da `apm`."
+
+#: pages/common/atom.md:7
+#, fuzzy
+msgid "Open a file or directory:"
+msgstr "Apri un file o una cartella:"
+
+#: pages/common/atom.md:9
+#, fuzzy
+msgid "`atom {{path/to/file_or_directory}}`"
+msgstr "`atom {{percorso/a/file_o_cartella}}`"
+
+#: pages/common/atom.md:11
+#, fuzzy
+msgid "Open a file or directory in a new window:"
+msgstr "Apri un file o una cartella in una nuova finestra:"
+
+#: pages/common/atom.md:13
+#, fuzzy
+msgid "`atom -n {{path/to/file_or_directory}}`"
+msgstr "`atom -n {{percorso/a/file_o_cartella}}`"
+
+#: pages/common/atom.md:15
+#, fuzzy
+msgid "Open a file or directory in an existing window:"
+msgstr "Apri un file o una cartella in una finestra esistente:"
+
+#: pages/common/atom.md:17
+#, fuzzy
+msgid "`atom --add {{path/to/file_or_directory}}`"
+msgstr "`atom --add {{percorso/a/file_o_cartella}}`"
+
+#: pages/common/atom.md:19
+#, fuzzy
+msgid "Open atom in safe mode (does not load any additional packages):"
+msgstr "Avvia Atom in safe mode (non carica nessun pacchetto):"
+
+#: pages/common/atom.md:21
+#, fuzzy
+msgid "`atom --safe`"
+msgstr "`atom --safe`"
+
+#: pages/common/atom.md:23
+#, fuzzy
+msgid ""
+"Prevent atom from forking into the background, keeping atom attached to the "
+"terminal:"
+msgstr ""
+"Impedisci ad Atom di creare un nuovo processo in background, lasciandolo in "
+"esecuzione nel terminale:"
+
+#: pages/common/atom.md:24
+#, fuzzy
+msgid "`atom --foreground`"
+msgstr "`atom --foreground`"
+
+#: pages/common/atq.md:2
+#, fuzzy
+msgid "# atq"
+msgstr "# atq"
+
+#: pages/common/atq.md:4
+#, fuzzy
+msgid "Show jobs scheduled by `at` or `batch` commands."
+msgstr "Mostra job programmati dai comandi `at` o `batch`."
+
+#: pages/common/atq.md:6
+#, fuzzy
+msgid "Show the current user's scheduled jobs:"
+msgstr "Mostra i job programmati per l'utente corrente:"
+
+#: pages/common/atq.md:8
+#, fuzzy
+msgid "`atq`"
+msgstr "`atq`"
+
+#: pages/common/atq.md:10
+#, fuzzy
+msgid "Show jobs from queue named 'a' (queues have single-character names):"
+msgstr ""
+"Mostra i job della coda 'a' (le code hanno nomi di un singolo carattere):"
+
+#: pages/common/atq.md:12
+#, fuzzy
+msgid "`atq -q {{a}}`"
+msgstr "`atq -q {{a}}`"
+
+#: pages/common/atq.md:14
+#, fuzzy
+msgid "Show jobs of all users (run as super user):"
+msgstr "Mostra i job di tutti gli utenti (da eseguire come super user):"
+
+#: pages/common/atq.md:15
+#, fuzzy
+msgid "`sudo atq`"
+msgstr "`sudo atq`"
+
+#: pages/common/atrm.md:2
+#, fuzzy
+msgid "# atrm"
+msgstr "# atrm"
+
+#: pages/common/atrm.md:4
+#, fuzzy
+msgid "Remove jobs scheduled by `at` or `batch` commands."
+msgstr "Rimuovi job programmati dai comandi `at` o `batch`."
+
+#: pages/common/atrm.md:5
+#, fuzzy
+msgid "To find job numbers use `atq`."
+msgstr "Per trovare i numeri dei job utilizzare `atq`."
+
+#: pages/common/atrm.md:7
+#, fuzzy
+msgid "Remove job number 10:"
+msgstr "Rimuovi il job numero 10:"
+
+#: pages/common/atrm.md:9
+#, fuzzy
+msgid "`atrm {{10}}`"
+msgstr "`atrm {{10}}`"
+
+#: pages/common/atrm.md:11
+#, fuzzy
+msgid "Remove many jobs, separated by spaces:"
+msgstr "Rimuovi pi job, separati da spazi:"
+
+#: pages/common/atrm.md:12
+#, fuzzy
+msgid "`atrm {{15}} {{17}} {{22}}`"
+msgstr "`atrm {{15}} {{17}} {{22}}`"
+
+#: pages/common/autoflake.md:2
+#, fuzzy
+msgid "# autoflake"
+msgstr "# autoflake"
+
+#: pages/common/autoflake.md:4
+#, fuzzy
+msgid "A tool to remove unused imports and variables from Python code."
+msgstr ""
+"Uno strumento per rimuovere import e variabili inutilizzati da codice Python."
+
+#: pages/common/autoflake.md:6
+#, fuzzy
+msgid "Remove unused variables from a single file and display the diff:"
+msgstr "Rimuovi le variabili inutilizzate da un file e mostra la differenza:"
+
+#: pages/common/autoflake.md:8
+#, fuzzy
+msgid "`autoflake --remove-unused-variables {{file.py}}`"
+msgstr "`autoflake --remove-unused-variables {{file.py}}`"
+
+#: pages/common/autoflake.md:10
+#, fuzzy
+msgid "Remove unused imports from multiple files and display the diffs:"
+msgstr ""
+"Rimuovi gli import inutilizzati da multipli file mostrando le differenze:"
+
+#: pages/common/autoflake.md:12
+#, fuzzy
+msgid ""
+"`autoflake --remove-all-unused-imports {{file1.py}} {{file2.py}} {{file3.py}}"
+"`"
+msgstr ""
+"`autoflake --remove-all-unused-imports {{file1.py}} {{file2.py}} {{file3.py}}"
+"`"
+
+#: pages/common/autoflake.md:14
+#, fuzzy
+msgid "Remove unused variables from a file, overwriting the file:"
+msgstr "Rimuovi le variabili inutilizzate da un file, sovrascrivendolo:"
+
+#: pages/common/autoflake.md:16
+#, fuzzy
+msgid "`autoflake --remove-unused-variables --in-place {{file.py}}`"
+msgstr "`autoflake --remove-unused-variables --in-place {{file.py}}`"
+
+#: pages/common/autoflake.md:18
+#, fuzzy
+msgid ""
+"Remove unused variables recursively from all files in a directory, "
+"overwriting each file:"
+msgstr ""
+"Rimuovi le variabili inutilizzate da tutti i file in una cartella, "
+"ricorsivamente e sovrascrivendoli:"
+
+#: pages/common/autoflake.md:19
+#, fuzzy
+msgid ""
+"`autoflake --remove-unused-variables --in-place --recursive {{path/to/"
+"directory}}`"
+msgstr ""
+"`autoflake --remove-unused-variables --in-place --recursive {{percorso/a/"
+"cartella}}`"
+
+#: pages/common/autojump.md:2
+#, fuzzy
+msgid "# autojump"
+msgstr "# autojump"
+
+#: pages/common/autojump.md:4
+#, fuzzy
+msgid "Quickly jump among the directories you visit the most."
+msgstr "Salta velocemente tra le directory che usi pi spesso."
+
+#: pages/common/autojump.md:5
+#, fuzzy
+msgid "Aliases like j or jc are provided for even less typing."
+msgstr ""
+"Alias come j o jc sono disponibili per una maggiore velocit di scrittura."
+
+#: pages/common/autojump.md:7
+#, fuzzy
+msgid "Jump to a directory that contains the given pattern:"
+msgstr "Muoviti in una directory il cui nome contiene una parola chiave:"
+
+#: pages/common/autojump.md:9
+#, fuzzy
+msgid "`j {{pattern}}`"
+msgstr "`j {{parola_chiave}}`"
+
+#: pages/common/autojump.md:11
+#, fuzzy
+msgid ""
+"Jump to a sub-directory (child) of the current directory that contains the "
+"given pattern:"
+msgstr ""
+"Salta in una sotto-directory della directory corrente il quale nome contiene "
+"una parola chiave:"
+
+#: pages/common/autojump.md:13
+#, fuzzy
+msgid "`jc {{pattern}}`"
+msgstr "`jc {{parola_chiave}}`"
+
+#: pages/common/autojump.md:15
+#, fuzzy
+msgid ""
+"Open a directory that contains the given pattern in the operating system "
+"file manager:"
+msgstr ""
+"Apri una directory il cui nome contiene una parola chiave nel gestore file "
+"di sistema:"
+
+#: pages/common/autojump.md:17
+#, fuzzy
+msgid "`jo {{pattern}}`"
+msgstr "`jo {{parola_chiave}}`"
+
+#: pages/common/autojump.md:19
+#, fuzzy
+msgid "Remove non-existing directories from the autojump database:"
+msgstr "Rimuovi directory non esistenti dal database di autojump:"
+
+#: pages/common/autojump.md:21
+#, fuzzy
+msgid "`j --purge`"
+msgstr "`j --purge`"
+
+#: pages/common/autojump.md:23
+#, fuzzy
+msgid "Show the entries in the autojump database:"
+msgstr "Mostra le voci nel database di autojump:"
+
+#: pages/common/autojump.md:24
+#, fuzzy
+msgid "`j -s`"
+msgstr "`j -s`"
+
+#: pages/common/autossh.md:2
+#, fuzzy
+msgid "# autossh"
+msgstr "# autossh"
+
+#: pages/common/autossh.md:4
+#, fuzzy
+msgid "Runs, monitors and restarts SSH connections."
+msgstr "Esegue, monitora e riavvia connessioni SSH."
+
+#: pages/common/autossh.md:5
+#, fuzzy
+msgid ""
+"Auto-reconnects to keep port forwarding tunnels up. Accepts all ssh flags."
+msgstr ""
+"Si riconnette automaticamente per tenere attivi tunnel di port forwarding. "
+"Accetta tutte le flag di ssh."
+
+#: pages/common/autossh.md:7
+#, fuzzy
+msgid ""
+"Open an SSH session, restarting when a monitoring port fails return data:"
+msgstr ""
+"Apri una sessione SSH, riavviandola quando una porta monitorata smette di "
+"rispondere:"
+
+#: pages/common/autossh.md:9
+#, fuzzy
+msgid "`autossh -M {{monitor_port}} {{ssh_command}}`"
+msgstr "`autossh -M {{porta_monitorata}} {{comando_ssh}}`"
+
+#: pages/common/autossh.md:11
+#, fuzzy
+msgid ""
+"Open an SSH session which forwards a local port to a remote one, restarting "
+"if necessary:"
+msgstr ""
+"Apri una sessione ssh che forwarda una porta locale verso una remota, "
+"riavviandola se necessario:"
+
+#: pages/common/autossh.md:13
+#, fuzzy
+msgid ""
+"`autossh -M {{monitor_port}} -L {{local_port}}:localhost:{{remote_port}} "
+"{{user}}@{{host}}`"
+msgstr ""
+"`autossh -M {{porta_monitorata}} -L {{porta_locale}}:localhost:"
+"{{porta_remota}} {{utente}}@{{host}}`"
+
+#: pages/common/autossh.md:15
+#, fuzzy
+msgid ""
+"Fork before executing ssh (runs in the background) and don't open a remote "
+"shell:"
+msgstr ""
+"Forka prima di eseguire il comando ssh (si avvia in background) e non aprire "
+"una shell remota:"
+
+#: pages/common/autossh.md:17
+#, fuzzy
+msgid "`autossh -f -M {{monitor_port}} -N {{ssh_command}}`"
+msgstr "`autossh -f -M {{porta_monitorata}} -N {{comando_ssh}}`"
+
+#: pages/common/autossh.md:19
+#, fuzzy
+msgid ""
+"Run autossh in the background, with no monitoring port, instead relying on "
+"SSH keep-alives every 10 seconds to detect failure:"
+msgstr ""
+"Esegui autossh in background, senza una porta da monitorare, utilizzando i "
+"keep-alive di SSH ogni 10 secondi per rilevare una disconnessione:"
+
+#: pages/common/autossh.md:21
+#, fuzzy
+msgid ""
+"`autossh -f -M 0 -N -o \"ServerAliveInterval 10\" -o \"ServerAliveCountMax "
+"3\" {{ssh_command}}`"
+msgstr ""
+"`autossh -f -M 0 -N -o \"ServerAliveInterval 10\" -o \"ServerAliveCountMax "
+"3\" {{comando_ssh}}`"
+
+#: pages/common/autossh.md:23
+#, fuzzy
+msgid ""
+"Run autossh in the background, with no monitoring port, no remote shell, "
+"exiting if the port forward fails:"
+msgstr ""
+"Esegui autossh in background, senza una porta da monitorare, senza una shell "
+"remota, uscendo se il port forwarding fallisce:"
+
+#: pages/common/autossh.md:25
+#, fuzzy
+msgid ""
+"`autossh -f -M 0 -N -o \"ServerAliveInterval 10\" -o \"ServerAliveCountMax "
+"3\" -o ExitOnForwardFailure=yes -L {{local_port}}:localhost:{{remote_port}} "
+"{{user}}@{{host}}`"
+msgstr ""
+"`autossh -f -M 0 -N -o \"ServerAliveInterval 10\" -o \"ServerAliveCountMax "
+"3\" -o ExitOnForwardFailure=yes -L {{porta_locale}}:localhost:"
+"{{porta_remota}} {{utente}}@{{host}}`"
+
+#: pages/common/autossh.md:27
+#, fuzzy
+msgid ""
+"Run autossh in the background with debug output logged to a file and ssh "
+"verbose output logged to a second file:"
+msgstr ""
+"Esegui autossh in background con output di debug su un file e output verboso "
+"di ssh su un altro file:"
+
+#: pages/common/autossh.md:28
+#, fuzzy
+msgid ""
+"`AUTOSSH_DEBUG=1 AUTOSSH_LOGFILE={{log_file}} autossh -f -M {{monitor_port}} "
+"-v -E {{ssh_log_file}} {{ssh_command}}`"
+msgstr ""
+"`AUTOSSH_DEBUG=1 AUTOSSH_LOGFILE={{file_log}} autossh -f -M "
+"{{porta_monitorata}} -v -E {{file_log_ssh}} {{comando_ssh}}`"
+
+#: pages/common/avrdude.md:2
+#, fuzzy
+msgid "# avrdude"
+msgstr "# avrdude"
+
+#: pages/common/avrdude.md:4
+#, fuzzy
+msgid "Driver program for Atmel AVR microcontrollers programming."
+msgstr "Driver per il programmatore di microcontrollori Atmel AVR."
+
+#: pages/common/avrdude.md:6
+#, fuzzy
+msgid "Read AVR microcontroller:"
+msgstr "Leggi dal microcontrollore AVR:"
+
+#: pages/common/avrdude.md:8
+#, fuzzy
+msgid "`avrdude -p {{AVR_device}} -c {{programmer}} -U flash:r:{{file.hex}}:i`"
+msgstr ""
+"`avrdude -p {{dispositivo_AVR}} -c {{id_programmatore}} -U flash:r:{{file."
+"hex}}:i`"
+
+#: pages/common/avrdude.md:10
+#, fuzzy
+msgid "Write AVR microcontroller:"
+msgstr "Scrivi sul microcontrollore AVR:"
+
+#: pages/common/avrdude.md:12
+#, fuzzy
+msgid "`avrdude -p {{AVR_device}} -c {{programmer}} -U flash:w:{{file.hex}}`"
+msgstr ""
+"`avrdude -p {{dispositivo_AVR}} -c {{id_programmatore}} -U flash:w:{{file."
+"hex}}`"
+
+#: pages/common/avrdude.md:14
+#, fuzzy
+msgid "List available AVR devices:"
+msgstr "Elenca dispositivi AVR disponibili:"
+
+#: pages/common/avrdude.md:16
+#, fuzzy
+msgid "`avrdude -p ?`"
+msgstr "`avrdude -p ?`"
+
+#: pages/common/avrdude.md:18
+#, fuzzy
+msgid "List available AVR programmers:"
+msgstr "Elenca programmatori AVR disponibili:"
+
+#: pages/common/avrdude.md:19
+#, fuzzy
+msgid "`avrdude -c ?`"
+msgstr "`avrdude -c ?`"
+
+#: pages/common/awk.md:2
+#, fuzzy
+msgid "# awk"
+msgstr "# awk"
+
+#: pages/common/awk.md:4
+#, fuzzy
+msgid "A versatile programming language for working on files."
+msgstr "Un versatile linguaggio di programmazione per elaborare file."
+
+#: pages/common/awk.md:6
+#, fuzzy
+msgid "Print the fifth column (a.k.a. field) in a space-separated file:"
+msgstr ""
+"Stampa la quinta colonna (field) in un file di linee separate da spazi:"
+
+#: pages/common/awk.md:8
+#, fuzzy
+msgid "`awk '{print $5}' {{filename}}`"
+msgstr "`awk '{print $5}' {{nome_file}}`"
+
+#: pages/common/awk.md:10
+#, fuzzy
+msgid ""
+"Print the second column of the lines containing \"something\" in a space-"
+"separated file:"
+msgstr "Stampa la seconda colonna delle linee contenenti \"qualcosa\":"
+
+#: pages/common/awk.md:12
+#, fuzzy
+msgid "`awk '/{{something}}/ {print $2}' {{filename}}`"
+msgstr "`awk '/{{qualcosa}}/ {print $2}' {{nome_file}}`"
+
+#: pages/common/awk.md:14
+#, fuzzy
+msgid ""
+"Print the last column of each line in a file, using a comma (instead of "
+"space) as a field separator:"
+msgstr ""
+"Stampa l'ultima colonna di ogni linea di un file, utilizzando la virgola "
+"(invece dello spazio) come separatore di colonne:"
+
+#: pages/common/awk.md:16
+#, fuzzy
+msgid "`awk -F ',' '{print $NF}' {{filename}}`"
+msgstr "`awk -F ',' '{print $NF}' {{nome_file}}`"
+
+#: pages/common/awk.md:18
+#, fuzzy
+msgid "Sum the values in the first column of a file and print the total:"
+msgstr "Somma i valori nella prima colonna di un file e stampa il totale:"
+
+#: pages/common/awk.md:20
+#, fuzzy
+msgid "`awk '{s+=$1} END {print s}' {{filename}}`"
+msgstr "`awk '{s+=$1} END {print s}' {{nome_file}}`"
+
+#: pages/common/awk.md:22
+#, fuzzy
+msgid ""
+"Sum the values in the first column and pretty-print the values and then the "
+"total:"
+msgstr "Somma i valori nella prima colonna e stampali seguiti dal totale:"
+
+#: pages/common/awk.md:24
+#, fuzzy
+msgid ""
+"`awk '{s+=$1; print $1} END {print \"--------\"; print s}' {{filename}}`"
+msgstr ""
+"`awk '{s+=$1; print $1} END {print \"--------\"; print s}' {{nome_file}}`"
+
+#: pages/common/awk.md:26
+#, fuzzy
+msgid "Print every third line starting from the first line:"
+msgstr "Stampa una liena ogni tre iniziando dalla prima:"
+
+#: pages/common/awk.md:27
+#, fuzzy
+msgid "`awk 'NR%3==1' {{filename}}`"
+msgstr "`awk 'NR%3==1' {{nome_file}}`"
+
+#: pages/common/aws.md:2
+#, fuzzy
+msgid "# aws"
+msgstr "# aws"
+
+#: pages/common/aws.md:4
+#, fuzzy
+msgid "The official CLI tool for Amazon Web Services."
+msgstr "Il tool da linea di comando ufficiale per Amazon Web Services."
+
+#: pages/common/aws.md:6
+#, fuzzy
+msgid "List all IAM users:"
+msgstr "Lista tutti gli utenti IAM (Identity and Access Management):"
+
+#: pages/common/aws.md:8
+#, fuzzy
+msgid "`aws iam list-users`"
+msgstr "`aws iam list-users`"
+
+#: pages/common/aws.md:10
+#, fuzzy
+msgid "List all EC2 instances from a specific region:"
+msgstr "Lista tutte le instanze EC2 per una specifica regione:"
+
+#: pages/common/aws.md:12
+#, fuzzy
+msgid "`aws ec2 describe-instances --region {{us-east-1}}`"
+msgstr "`aws ec2 describe-instances --region {{us-east-1}}`"
+
+#: pages/common/aws.md:14
+#, fuzzy
+msgid "Receive message from a specific SQS queue:"
+msgstr "Ricevi un messaggio da una specifica coda SQS:"
+
+#: pages/common/aws.md:16
+#, fuzzy
+msgid ""
+"`aws sqs receive-message --queue-url {{https://queue.amazonaws.com/546123/"
+"Test}}`"
+msgstr ""
+"`aws sqs receive-message --queue-url {{https://queue.amazonaws.com/546123/"
+"Test}}`"
+
+#: pages/common/aws.md:18
+#, fuzzy
+msgid "Publish message to the specific SNS topic:"
+msgstr "Pubblica un messaggio SNS su uno specifico argomento:"
+
+#: pages/common/aws.md:20
+#, fuzzy
+msgid ""
+"`aws sns publish --topic-arn {{arn:aws:sns:us-east-1:54633:testTopic}} --"
+"message \"Message\"`"
+msgstr ""
+"`aws sns publish --topic-arn {{arn:aws:sns:us-east-1:54633:Agomento}} --"
+"message \"Message\"`"
+
+#: pages/common/aws.md:22
+#, fuzzy
+msgid "To see help text for the AWS command:"
+msgstr "Mostra la pagina di aiuto per uno specifico comando AWS:"
+
+#: pages/common/aws.md:23
+#, fuzzy
+msgid "`aws {{command}} help`"
+msgstr "`aws {{comando}} help`"
+
+#: pages/common/aws-s3.md:2
+#, fuzzy
+msgid "# aws s3"
+msgstr "# aws s3"
+
+#: pages/common/aws-s3.md:4
+#, fuzzy
+msgid "CLI for AWS S3 - provides storage through web services interfaces."
+msgstr ""
+"CLI per AWS S3 - fornisce spazio di archiviazione tramite le interfacce di "
+"Amazon Web Services."
+
+#: pages/common/aws-s3.md:6
+#, fuzzy
+msgid "Show files in a bucket:"
+msgstr "Mostra file in un bucket:"
+
+#: pages/common/aws-s3.md:8
+#, fuzzy
+msgid "`aws s3 ls {{bucket_name}}`"
+msgstr "`aws s3 ls {{nome_bucket}}`"
+
+#: pages/common/aws-s3.md:10
+#, fuzzy
+msgid "Sync files and directories from local to bucket:"
+msgstr "Sincronizza file e directory locali su un bucket:"
+
+#: pages/common/aws-s3.md:12
+#, fuzzy
+msgid "`aws s3 sync {{path/to/files}} s3://{{bucket_name}}`"
+msgstr "`aws s3 sync {{percorso/ai/file}} s3://{{nome_bucket}}`"
+
+#: pages/common/aws-s3.md:14
+#, fuzzy
+msgid "Sync files and directories from bucket to local:"
+msgstr "Sincronizza file e directory da un bucket in locle:"
+
+#: pages/common/aws-s3.md:16
+#, fuzzy
+msgid "`aws s3 sync s3://{{bucket_name}} {{path/to/target}}`"
+msgstr "`aws s3 sync s3://{{nome_bucket}} {{path/to/target}}`"
+
+#: pages/common/aws-s3.md:18
+#, fuzzy
+msgid "Sync files and directories with exclusions:"
+msgstr "Sincronizza file e directory escludendo alcuni file o directory:"
+
+#: pages/common/aws-s3.md:20
+#, fuzzy
+msgid ""
+"`aws s3 sync {{path/to/files}} s3://{{bucket_name}} --exclude {{path/to/"
+"file}} --exclude {{path/to/directory}}/*`"
+msgstr ""
+"`aws s3 sync {{percorso/ai/file}} s3://{{nome_bucket}} --exclude {{percorso/"
+"al/file}} --exclude {{directory}}/*`"
+
+#: pages/common/aws-s3.md:22
+#, fuzzy
+msgid "Remove file from bucket:"
+msgstr "Rimuovi un file dal bucket:"
+
+#: pages/common/aws-s3.md:24
+#, fuzzy
+msgid "`aws s3 rm s3://{{bucket}}/{{path/to/file}}`"
+msgstr "`aws s3 rm s3://{{bucket}}/{{percorso/al/file}}`"
+
+#: pages/common/aws-s3.md:26
+#, fuzzy
+msgid "Preview changes only:"
+msgstr "Mostra solo un'anteprima dei cambiamenti:"
+
+#: pages/common/aws-s3.md:27
+#, fuzzy
+msgid "`aws s3 {{any_command}} --dryrun`"
+msgstr "`aws s3 {{qualsiasi_comando}} --dryrun`"
+
+#: pages/common/axel.md:2
+#, fuzzy
+msgid "# axel"
+msgstr "# axel"
+
+#: pages/common/axel.md:4
+#, fuzzy
+msgid "Download accelerator."
+msgstr "Downloader accelerato."
+
+#: pages/common/axel.md:5
+#, fuzzy
+msgid "Supports HTTP, HTTPS, and FTP."
+msgstr "Supporta HTTP, HTTPS e FTP."
+
+#: pages/common/axel.md:7
+#, fuzzy
+msgid "Download a URL to a file:"
+msgstr "Scarica un file da un URL:"
+
+#: pages/common/axel.md:9
+#, fuzzy
+msgid "`axel {{url}}`"
+msgstr "`axel {{url}}`"
+
+#: pages/common/axel.md:11
+#, fuzzy
+msgid "Download and specify filename:"
+msgstr "Scarica specificando il nome del file da creare:"
+
+#: pages/common/axel.md:13
+#, fuzzy
+msgid "`axel {{url}} -o {{filename}}`"
+msgstr "`axel {{url}} -o {{filename}}`"
+
+#: pages/common/axel.md:17
+#, fuzzy
+msgid "`axel -n {{connections_num}} {{url}}`"
+msgstr "`axel -n {{numero_connessioni}} {{url}}`"
+
+#: pages/common/axel.md:19
+#, fuzzy
+msgid "Search for mirrors:"
+msgstr "Cerca dei mirror:"
+
+#: pages/common/axel.md:21
+#, fuzzy
+msgid "`axel -S {{mirrors_num}} {{url}}`"
+msgstr "`axel -S {{numero_mirror}} {{url}}`"
+
+#: pages/common/axel.md:23
+#, fuzzy
+msgid "Limit download speed (bytes per second):"
+msgstr "Limita la velocit di download (in bytes al secondo):"
+
+#: pages/common/axel.md:24
+#, fuzzy
+msgid "`axel -s {{speed}} {{url}}`"
+msgstr "`axel -s {{limite_velocit}} {{url}}`"
+
+#: pages/common/az.md:2
+#, fuzzy
+msgid "# az"
+msgstr "# az"
+
+#: pages/common/az.md:4
+#, fuzzy
+msgid "The official CLI tool for Microsoft Azure."
+msgstr "Strumento ufficiale da linea di comando per Microsoft Azure."
+
+#: pages/common/az.md:6
+#, fuzzy
+msgid "Log in to Azure:"
+msgstr "Effettua il log in ad Azure:"
+
+#: pages/common/az.md:8
+#, fuzzy
+msgid "`az login`"
+msgstr "`az login`"
+
+#: pages/common/az.md:10
+#, fuzzy
+msgid "Manage azure subscription information:"
+msgstr "Gestisci la tua iscrizione ad Azure:"
+
+#: pages/common/az.md:12
+#, fuzzy
+msgid "`az account`"
+msgstr "`az account`"
+
+#: pages/common/az.md:14
+#, fuzzy
+msgid "List all Azure Managed Disks:"
+msgstr "Elenca tutti i dischi Azure Managed Disks:"
+
+#: pages/common/az.md:16
+#, fuzzy
+msgid "`az disk list`"
+msgstr "`az disk list`"
+
+#: pages/common/az.md:18
+#, fuzzy
+msgid "List all Azure virtual machines:"
+msgstr "Elenca tutte le virtual machine Azure:"
+
+#: pages/common/az.md:20
+#, fuzzy
+msgid "`az vm list`"
+msgstr "`az vm list`"
+
+#: pages/common/az.md:22
+#, fuzzy
+msgid "Manage Azure Kubernetes Services:"
+msgstr "Gestisci i servizi Azure Kubernetes:"
+
+#: pages/common/az.md:24
+#, fuzzy
+msgid "`az aks`"
+msgstr "`az aks`"
+
+#: pages/common/az.md:26
+#, fuzzy
+msgid "Manage Azure Network resources:"
+msgstr "Gestisci le risorse della rete di Azure:"
+
+#: pages/common/az.md:27
+#, fuzzy
+msgid "`az network`"
+msgstr "`az network`"
+
+#: pages/common/b2sum.md:2
+#, fuzzy
+msgid "# b2sum"
+msgstr "# b2sum"
+
+#: pages/common/b2sum.md:4
+#, fuzzy
+msgid "Calculate BLAKE2 cryptographic checksums."
+msgstr "Calcola checksum BLAKE2."
+
+#: pages/common/b2sum.md:6
+#, fuzzy
+msgid "Calculate the BLAKE2 checksum for a file:"
+msgstr "Calcola il checksum BLAKE2 per un file:"
+
+#: pages/common/b2sum.md:8
+#, fuzzy
+msgid "`b2sum {{filename1}}`"
+msgstr "`b2sum {{file1}}`"
+
+#: pages/common/b2sum.md:10
+#, fuzzy
+msgid "Calculate BLAKE2 checksums for multiple files:"
+msgstr "Calcola checksum BLAKE2 per pi file:"
+
+#: pages/common/b2sum.md:12
+#, fuzzy
+msgid "`b2sum {{filename1}} {{filename2}}`"
+msgstr "`b2sum {{file1}} {{file2}}`"
+
+#: pages/common/b2sum.md:14
+#, fuzzy
+msgid ""
+"Read a file of BLAKE2 sums and filenames and verify all files have matching "
+"checksums:"
+msgstr ""
+"Leggi un file di checksum BLAKE2 e nomi di file e verifica che tutti i file "
+"abbiano lo stesso checksum:"
+
+#: pages/common/b2sum.md:16
+#, fuzzy
+msgid "`b2sum -c {{filename.b2}}`"
+msgstr "`b2sum -c {{elenco_checksum.b2}}`"
+
+#: pages/common/b2sum.md:18
+#, fuzzy
+msgid "Calculate the BLAKE2 checksum from stdin:"
+msgstr "Calcola il checksum BLAKE2 da standard input:"
+
+#: pages/common/b2sum.md:19
+#, fuzzy
+msgid "`{{somecommand}} | b2sum`"
+msgstr "`{{comando}} | b2sum`"
+
+#: pages/common/babel.md:2
+#, fuzzy
+msgid "# babel"
+msgstr "# babel"
+
+#: pages/common/babel.md:4
+#, fuzzy
+msgid ""
+"A transpiler which converts code from JavaScript ES6/ES7 syntax to ES5 "
+"syntax."
+msgstr ""
+"Un transpiler che converte codice JavaScript da sintassi ES6/ES7 ad ES5."
+
+#: pages/common/babel.md:6
+#, fuzzy
+msgid "Transpile a specified input file and output to stdout:"
+msgstr "Transpila uno specifico file e stampa il risultato su stdout:"
+
+#: pages/common/babel.md:8
+#, fuzzy
+msgid "`babel {{path/to/file}}`"
+msgstr "`babel {{percorso/al/file}}`"
+
+#: pages/common/babel.md:10
+#, fuzzy
+msgid "Transpile a specified input file and output to a specific file:"
+msgstr ""
+"Transpila un file e scrivi il risultato su uno specifico file di output:"
+
+#: pages/common/babel.md:12
+#, fuzzy
+msgid "`babel {{path/to/input_file}} --out-file {{path/to/output_file}}`"
+msgstr ""
+"`babel {{percorso/al/file_input}} --out-file {{percorso/al/file_output}}`"
+
+#: pages/common/babel.md:14
+#, fuzzy
+msgid "Transpile the input file every time it is changed:"
+msgstr "Transpila un file ogni volta che viene modificato:"
+
+#: pages/common/babel.md:16
+#, fuzzy
+msgid "`babel {{path/to/input_file}} --watch`"
+msgstr "`babel {{percorso/al/file}} --watch`"
+
+#: pages/common/babel.md:18
+#, fuzzy
+msgid "Transpile a whole directory of files:"
+msgstr "Transpila un'intera directory di file:"
+
+#: pages/common/babel.md:20
+#, fuzzy
+msgid "`babel {{path/to/input_directory}}`"
+msgstr "`babel {{percorso/a/directory_input}}`"
+
+#: pages/common/babel.md:22
+#, fuzzy
+msgid "Ignore specified comma-separated files in a directory:"
+msgstr ""
+"Transpila un'intera directory ignorando specifici file separati da virgola:"
+
+#: pages/common/babel.md:24
+#, fuzzy
+msgid "`babel {{path/to/input_directory}} --ignore {{ignored_files}}`"
+msgstr "`babel {{percorso/a/directory_input}} --ignore {{file_ignorati}}`"
+
+#: pages/common/babel.md:26
+#, fuzzy
+msgid "Transpile and output as minified JavaScript:"
+msgstr "Transpila minimizzando il codice JavaScript in output:"
+
+#: pages/common/babel.md:28
+#, fuzzy
+msgid "`babel {{path/to/input_file}} --minified`"
+msgstr "`babel {{percorso/al/file_input}} --minified`"
+
+#: pages/common/babel.md:30
+#, fuzzy
+msgid "Choose a set of presets for output formatting:"
+msgstr "Scegli un insieme di preset per formattare l'output:"
+
+#: pages/common/babel.md:32
+#, fuzzy
+msgid "`babel {{path/to/input_file}} --presets {{presets}}`"
+msgstr "`babel {{percorso/al/file_input}} --presets {{preset}}`"
+
+#: pages/common/babel.md:34
+#, fuzzy
+msgid "Output all available options:"
+msgstr "Mostra tutte le opzioni disponibili:"
+
+#: pages/common/babel.md:35
+#, fuzzy
+msgid "`babel --help`"
+msgstr "`babel --help`"
+
+#: pages/common/badblocks.md:2
+#, fuzzy
+msgid "# badblocks"
+msgstr "# badblocks"
+
+#: pages/common/badblocks.md:4
+#, fuzzy
+msgid "Search a device for bad blocks."
+msgstr "Cerca blocchi corrotti in un dispositivo."
+
+#: pages/common/badblocks.md:5
+#, fuzzy
+msgid ""
+"Some usages of badblocks can cause destructive actions, such as erasing all "
+"the data on a disk, including the partition table."
+msgstr ""
+"Alcuni utilizzi di badblocks possono avere esiti non reversibili, come "
+"perdita dei dati o anche della tabella delle partizioni di un disco."
+
+#: pages/common/badblocks.md:7
+#, fuzzy
+msgid "Search a disk for bad blocks by using a non-destructive read-only test:"
+msgstr ""
+"Cerca blocchi corrotti in un disco utilizzando un test non distruttivo in "
+"sola lettura:"
+
+#: pages/common/badblocks.md:9
+#, fuzzy
+msgid "`sudo badblocks {{/dev/sda}}`"
+msgstr "`sudo badblocks {{/dev/sda}}`"
+
+#: pages/common/badblocks.md:11
+#, fuzzy
+msgid ""
+"Search an unmounted disk for bad blocks with a non-destructive read-write "
+"test:"
+msgstr ""
+"Cerca blocchi corrotti in un disco non montato con un test non distruttivo "
+"in lettura e scrittura:"
+
+#: pages/common/badblocks.md:13
+#, fuzzy
+msgid "`sudo badblocks -n {{/dev/sda}}`"
+msgstr "`sudo badblocks -n {{/dev/sda}}`"
+
+#: pages/common/badblocks.md:15
+#, fuzzy
+msgid "Search an unmounted disk for bad blocks with a destructive write test:"
+msgstr ""
+"Cerca blocchi corrotti in un disco non montato con un test distruttivo in "
+"scrittura:"
+
+#: pages/common/badblocks.md:16
+#, fuzzy
+msgid "`sudo badblocks -w {{/dev/sda}}`"
+msgstr "`sudo badblocks -w {{/dev/sda}}`"
+
+#: pages/common/banner.md:2
+#, fuzzy
+msgid "# banner"
+msgstr "# banner"
+
+#: pages/common/banner.md:4
+#, fuzzy
+msgid "Print the given argument as a large ASCII art."
+msgstr ""
+"Stampa il testo fornito per argomento come un grande banner in ASCII art."
+
+#: pages/common/banner.md:6
+#, fuzzy
+msgid "Print the text message as a large banner (quotes are optional):"
+msgstr "Stampa il testo come un grande banner (le virgolette sono opzionali):"
+
+#: pages/common/banner.md:8
+#, fuzzy
+msgid "`banner {{\"Hello World\"}}`"
+msgstr "`banner {{\"Hello World\"}}`"
+
+#: pages/common/banner.md:10
+#, fuzzy
+msgid "Print the text message as a banner with a width of 50 characters:"
+msgstr "Stampa il testo come un banner con una larghezza di 50 caratteri:"
+
+#: pages/common/banner.md:12
+#, fuzzy
+msgid "`banner -w {{50}} {{\"Hello World\"}}`"
+msgstr "`banner -w {{50}} {{\"Hello World\"}}`"
+
+#: pages/common/banner.md:14
+#, fuzzy
+msgid "Read text from stdin:"
+msgstr "Leggi testo da stdin:"
+
+#: pages/common/banner.md:15
+#, fuzzy
+msgid "`banner`"
+msgstr "`banner`"
+
+#: pages/common/base32.md:2
+#, fuzzy
+msgid "# base32"
+msgstr "# base32"
+
+#: pages/common/base32.md:4
+#, fuzzy
+msgid ""
+"Encode or decode file or standard input to/from Base32, to standard output."
+msgstr ""
+"Codifica o decodifica file o standard input in Base32 su standard output."
+
+#: pages/common/base32.md:6+pages/common/base64.md:6
+#, fuzzy
+msgid "Encode a file:"
+msgstr "Codifica un file:"
+
+#: pages/common/base32.md:8
+#, fuzzy
+msgid "`base32 {{filename}}`"
+msgstr "`base32 {{nome_file}}`"
+
+#: pages/common/base32.md:10+pages/common/base64.md:10
+#, fuzzy
+msgid "Decode a file:"
+msgstr "Decodifica un file:"
+
+#: pages/common/base32.md:12
+#, fuzzy
+msgid "`base32 -d {{filename}}`"
+msgstr "`base32 -d {{nome_file}}`"
+
+#: pages/common/base32.md:14+pages/common/base64.md:14
+#, fuzzy
+msgid "Encode from stdin:"
+msgstr "Codifica da stdin:"
+
+#: pages/common/base32.md:16
+#, fuzzy
+msgid "`{{somecommand}} | base32`"
+msgstr "`{{comando}} | base32`"
+
+#: pages/common/base32.md:18+pages/common/base64.md:18
+#, fuzzy
+msgid "Decode from stdin:"
+msgstr "Decodifica da stdin:"
+
+#: pages/common/base32.md:19
+#, fuzzy
+msgid "`{{somecommand}} | base32 -d`"
+msgstr "`{{comando}} | base32 -d`"
+
+#: pages/common/base64.md:2
+#, fuzzy
+msgid "# base64"
+msgstr "# base64"
+
+#: pages/common/base64.md:4
+#, fuzzy
+msgid ""
+"Encode or decode file or standard input to/from Base64, to standard output."
+msgstr ""
+"Codifica o decodifica file o standard input in Base64 su standard output."
+
+#: pages/common/base64.md:8
+#, fuzzy
+msgid "`base64 {{filename}}`"
+msgstr "`base64 {{nome_file}}`"
+
+#: pages/common/base64.md:12
+#, fuzzy
+msgid "`base64 -d {{filename}}`"
+msgstr "`base64 -d {{nome_file}}`"
+
+#: pages/common/base64.md:16
+#, fuzzy
+msgid "`{{somecommand}} | base64`"
+msgstr "`{{comando}} | base64`"
+
+#: pages/common/base64.md:19
+#, fuzzy
+msgid "`{{somecommand}} | base64 -d`"
+msgstr "`{{comando}} | base64 -d`"
+
+#: pages/common/basename.md:2
+#, fuzzy
+msgid "# basename"
+msgstr "# basename"
+
+#: pages/common/basename.md:4
+#, fuzzy
+msgid "Returns non-directory portion of a pathname."
+msgstr "Restituisce la parte finale un percorso."
+
+#: pages/common/basename.md:6
+#, fuzzy
+msgid "Show only the file name from a path:"
+msgstr "Mostra solo il nome del file da un percorso:"
+
+#: pages/common/basename.md:8
+#, fuzzy
+msgid "`basename {{path/to/file}}`"
+msgstr "`basename {{percorso/al/file}}`"
+
+#: pages/common/basename.md:10
+#, fuzzy
+msgid "Show only the file name from a path, with a suffix removed:"
+msgstr "Mostra solo il nome di un file da un percorso, rimuovendo un suffisso:"
+
+#: pages/common/basename.md:11
+#, fuzzy
+msgid "`basename {{path/to/file}} {{suffix}}`"
+msgstr "`basename {{percorso/al/file}} {{suffisso}}`"
+
+#: pages/common/bashmarks.md:2
+#, fuzzy
+msgid "# bashmarks"
+msgstr "# bashmarks"
+
+#: pages/common/bashmarks.md:4
+#, fuzzy
+msgid "Save and jump to commonly used directories using 1 character commands."
+msgstr ""
+"Salva e salta a directory comunemente utilizzate usilizzando comandi di un "
+"carattere."
+
+#: pages/common/bashmarks.md:6
+#, fuzzy
+msgid "List available bookmarks:"
+msgstr "Elenca i segnalibri disponibili:"
+
+#: pages/common/bashmarks.md:8
+#, fuzzy
+msgid "`l`"
+msgstr "`l`"
+
+#: pages/common/bashmarks.md:10
+#, fuzzy
+msgid "Save the current directory as \"bookmark_name\":"
+msgstr "Salva la cartella corrente come segnalibro:"
+
+#: pages/common/bashmarks.md:12
+#, fuzzy
+msgid "`s {{bookmark_name}}`"
+msgstr "`s {{nome_segnalibro}}`"
+
+#: pages/common/bashmarks.md:14
+#, fuzzy
+msgid "Go to a bookmarked directory:"
+msgstr "Vai ad una cartella salvata:"
+
+#: pages/common/bashmarks.md:16
+#, fuzzy
+msgid "`g {{bookmark_name}}`"
+msgstr "`g {{nome_segnalibro}}`"
+
+#: pages/common/bashmarks.md:18
+#, fuzzy
+msgid "Print a bookmarked directory's contents:"
+msgstr "Lista i contenuti di una cartella salvata:"
+
+#: pages/common/bashmarks.md:20
+#, fuzzy
+msgid "`p {{bookmark_name}}`"
+msgstr "`p {{nome_segnalibro}}`"
+
+#: pages/common/bashmarks.md:22
+#, fuzzy
+msgid "Delete a bookmark:"
+msgstr "Elimina un segnalibro:"
+
+#: pages/common/bashmarks.md:23
+#, fuzzy
+msgid "`d {{bookmark_name}}`"
+msgstr "`d {{nome_segnalibro}}`"
+
+#: pages/common/bash.md:2
+#, fuzzy
+msgid "# bash"
+msgstr "# bash"
+
+#: pages/common/bash.md:4
+#, fuzzy
+msgid "Bourne-Again SHell."
+msgstr "Bourne-Again SHell."
+
+#: pages/common/bash.md:5
+#, fuzzy
+msgid "`sh`-compatible command line interpreter."
+msgstr "Interprete da linea di comando compatibile con `sh`."
+
+#: pages/common/bash.md:7
+#, fuzzy
+msgid "Start interactive shell:"
+msgstr "Avvia una shell interattiva:"
+
+#: pages/common/bash.md:9
+#, fuzzy
+msgid "`bash`"
+msgstr "`bash`"
+
+#: pages/common/bash.md:11
+#, fuzzy
+msgid "Execute a command:"
+msgstr "Esegui un comando:"
+
+#: pages/common/bash.md:13
+#, fuzzy
+msgid "`bash -c \"{{command}}\"`"
+msgstr "`bash -c \"{{comando}}\"`"
+
+#: pages/common/bash.md:15
+#, fuzzy
+msgid "Run commands from a file:"
+msgstr "Esegui dei comandi da un file:"
+
+#: pages/common/bash.md:17
+#, fuzzy
+msgid "`bash {{file.sh}}`"
+msgstr "`bash {{file.sh}}`"
+
+#: pages/common/bash.md:19
+#, fuzzy
+msgid ""
+"Run commands from a file, logging all commands executed to the terminal:"
+msgstr ""
+"Esegui dei comandi da un file, loggando tutti i comandi eseguiti nel "
+"terminale:"
+
+#: pages/common/bash.md:21
+#, fuzzy
+msgid "`bash -x {{file.sh}}`"
+msgstr "`bash -x {{file.sh}}`"
+
+#: pages/common/bash.md:27
+#, fuzzy
+msgid "Run commands from STDIN:"
+msgstr "Esegui comandi da standard input:"
+
+#: pages/common/bash.md:29
+#, fuzzy
+msgid "`bash -s`"
+msgstr "`bash -s`"
+
+#: pages/common/bash.md:31
+#, fuzzy
+msgid ""
+"Print the version information of bash (use `echo $BASH_VERSION` to show just "
+"the version string):"
+msgstr ""
+"Stampa informazioni sulla versione di bash (usa `echo $BASH_VERSION` per "
+"mostrare solo la versione):"
+
+#: pages/common/bash.md:32
+#, fuzzy
+msgid "`bash --version`"
+msgstr "`bash --version`"
+
+#: pages/common/batch.md:2
+#, fuzzy
+msgid "# batch"
+msgstr "# batch"
+
+#: pages/common/batch.md:4
+#, fuzzy
+msgid "Execute commands at a later time when the system load levels permit."
+msgstr ""
+"Esegui comandi nel futuro quando il carico di lavoro del sistema lo permette."
+
+#: pages/common/batch.md:7
+#, fuzzy
+msgid "Execute commands from standard input (press `Ctrl + D` when done):"
+msgstr ""
+"Esegui i comandi inseriti standard input (premere `Ctrl + D` dopo aver "
+"inserito i comandi):"
+
+#: pages/common/batch.md:9
+#, fuzzy
+msgid "`batch`"
+msgstr "`batch`"
+
+#: pages/common/batch.md:11
+#, fuzzy
+msgid "Execute a command from standard input:"
+msgstr "Esegui un comando da standard input:"
+
+#: pages/common/batch.md:13
+#, fuzzy
+msgid "`echo \"{{./make_db_backup.sh}}\" | batch`"
+msgstr "`echo \"{{./mio_script.sh}}\" | batch`"
+
+#: pages/common/batch.md:15
+#, fuzzy
+msgid "Execute commands from a given file:"
+msgstr "Esegui comandi contenuti in un dato file:"
+
+#: pages/common/batch.md:16
+#, fuzzy
+msgid "`batch -f {{path/to/file}}`"
+msgstr "`batch -f {{percorso/al/file}}`"
+
+#: pages/common/bat.md:2
+#, fuzzy
+msgid "# bat"
+msgstr "# bat"
+
+#: pages/common/bat.md:4+pages/common/cat.md:4
+#, fuzzy
+msgid "Print and concatenate files."
+msgstr "Stampa e concatena file."
+
+#: pages/common/bat.md:5
+#, fuzzy
+msgid "A `cat` clone with syntax highlighting and Git integration."
+msgstr "Un clone di `cat` con syntax highlighting e integrazione Git."
+
+#: pages/common/bat.md:7+pages/common/cat.md:6
+#, fuzzy
+msgid "Print the contents of a file to the standard output:"
+msgstr "Stampa i contenuti di un file su standard output:"
+
+#: pages/common/bat.md:9
+#, fuzzy
+msgid "`bat {{file}}`"
+msgstr "`bat {{file}}`"
+
+#: pages/common/bat.md:11+pages/common/cat.md:10
+#, fuzzy
+msgid "Concatenate several files into the target file:"
+msgstr "Concatena diversi file in un unico file:"
+
+#: pages/common/bat.md:13
+#, fuzzy
+msgid "`bat {{file1}} {{file2}} > {{target_file}}`"
+msgstr "`bat {{file1}} {{file2}} > {{file_finale}}`"
+
+#: pages/common/bat.md:15+pages/common/cat.md:14
+#, fuzzy
+msgid "Append several files into the target file:"
+msgstr "Aggiungi il contenuto di diversi file alla fine di un file:"
+
+#: pages/common/bat.md:17
+#, fuzzy
+msgid "`bat {{file1}} {{file2}} >> {{target_file}}`"
+msgstr "`bat {{file1}} {{file2}} >> {{file_finale}}`"
+
+#: pages/common/bat.md:19+pages/common/cat.md:18
+#, fuzzy
+msgid "Number all output lines:"
+msgstr "Numera tutte le linee stampate:"
+
+#: pages/common/bat.md:21
+#, fuzzy
+msgid "`bat -n {{file}}`"
+msgstr "`bat -n {{file}}`"
+
+#: pages/common/bat.md:23
+#, fuzzy
+msgid "Syntax highlight a json file:"
+msgstr "Evidenzia la sintassi di un file JSON:"
+
+#: pages/common/bat.md:25
+#, fuzzy
+msgid "`bat --language json {{file.json}}`"
+msgstr "`bat --language json {{file.json}}`"
+
+#: pages/common/bat.md:27
+#, fuzzy
+msgid "Display all supported languages:"
+msgstr "Mostra tutti i linguaggi supportati:"
+
+#: pages/common/bat.md:28
+#, fuzzy
+msgid "`bat --list-languages`"
+msgstr "`bat --list-languages`"
+
+#: pages/common/bc.md:2
+#, fuzzy
+msgid "# bc"
+msgstr "# bc"
+
+#: pages/common/bc.md:4
+#, fuzzy
+msgid "Calculator."
+msgstr "Calcolatore."
+
+#: pages/common/bc.md:6
+#, fuzzy
+msgid "Run calculator in interactive mode using the standard math library:"
+msgstr ""
+"Esegui in modalit interattiva utilizzando la libreria math della standard "
+"library:"
+
+#: pages/common/bc.md:8
+#, fuzzy
+msgid "`bc -l`"
+msgstr "`bc -l`"
+
+#: pages/common/bc.md:10
+#, fuzzy
+msgid "Calculate the result of an expression:"
+msgstr "Calcola il risultato di un'espressione:"
+
+#: pages/common/bc.md:12
+#, fuzzy
+msgid "`bc <<< \"(1 + 2) * 2 ^ 2\"`"
+msgstr "`bc <<< \"(1 + 2) * 2 ^ 2\"`"
+
+#: pages/common/bc.md:14
+#, fuzzy
+msgid "Calculate expression and force number of decimal places to 10:"
+msgstr "Calcola un'espressione forzando il numero di decimali usati a 10:"
+
+#: pages/common/bc.md:16
+#, fuzzy
+msgid "`bc <<< \"scale=10; 5 / 3\"`"
+msgstr "`bc <<< \"scale=10; 5 / 3\"`"
+
+#: pages/common/bc.md:18
+#, fuzzy
+msgid "Calculate expression with sine and cosine using mathlib:"
+msgstr "Calcola un'espressione con seno e coseno utilizzando mathlib:"
+
+#: pages/common/bc.md:19
+#, fuzzy
+msgid "`bc -l <<< \"s(1) + c(1)\"`"
+msgstr "`bc -l <<< \"s(1) + c(1)\"`"
+
+#: pages/common/beanstalkd.md:2
+#, fuzzy
+msgid "# beanstalkd"
+msgstr "# beanstalkd"
+
+#: pages/common/beanstalkd.md:4
+#, fuzzy
+msgid "A simple and generic work-queue server."
+msgstr "Un semplice e generico gestore di code di lavoro."
+
+#: pages/common/beanstalkd.md:6
+#, fuzzy
+msgid "Start beanstalkd, listening on port 11300:"
+msgstr "Avvia beanstalkd, ascoltando sulla porta 11300:"
+
+#: pages/common/beanstalkd.md:8
+#, fuzzy
+msgid "`beanstalkd`"
+msgstr "`beanstalkd`"
+
+#: pages/common/beanstalkd.md:10
+#, fuzzy
+msgid "Start beanstalkd listening on a custom port and address:"
+msgstr "Avvia beanstalkd ascoltando su porta ed un indirizzo dati:"
+
+#: pages/common/beanstalkd.md:12
+#, fuzzy
+msgid "`beanstalkd -l {{ip_address}} -p {{port_number}}`"
+msgstr "`beanstalkd -l {{indirizzo_ip}} -p {{numero_porta}}`"
+
+#: pages/common/beanstalkd.md:14
+#, fuzzy
+msgid "Persist work queues by saving them to disk:"
+msgstr "Rendi le code di lavoro persistenti salvandole su disco:"
+
+#: pages/common/beanstalkd.md:16
+#, fuzzy
+msgid "`beanstalkd -b {{path/to/persistence_directory}}`"
+msgstr "`beanstalkd -b {{percorso/a/directory_persistente}}`"
+
+#: pages/common/beanstalkd.md:18
+#, fuzzy
+msgid "Sync to the persistence directory every 500 milliseconds:"
+msgstr "Sincronizza con una cartella persistente ogni 500 millisecondi:"
+
+#: pages/common/beanstalkd.md:19
+#, fuzzy
+msgid "`beanstalkd -b {{path/to/persistence_directory}} -f {{500}}`"
+msgstr "`beanstalkd -b {{percorso/a/directory_persistente}} -f {{500}}`"
+
+#: pages/common/bedtools.md:2
+#, fuzzy
+msgid "# bedtools"
+msgstr "# bedtools"
+
+#: pages/common/bedtools.md:4
+#, fuzzy
+msgid "A swiss-army knife of tools for genomic-analysis tasks."
+msgstr "Un coltellino svizzero di strumenti per analisi genomica."
+
+#: pages/common/bedtools.md:5
+#, fuzzy
+msgid ""
+"Used to intersect, group, convert and count data in BAM, BED, GFF/GTF, VCF "
+"format."
+msgstr ""
+"Usato per intersecare, raggruppare, convertire e contare dati in formato "
+"BAM, BED, GFF/GTF, VCF."
+
+#: pages/common/bedtools.md:7
+#, fuzzy
+msgid ""
+"Intersect two files with respect to the sequences' strand and save the "
+"result to {{path/to/output_file}}:"
+msgstr ""
+"Interseca i fili genetici delle sequenze contenute in due file diversi e "
+"salva il risultato:"
+
+#: pages/common/bedtools.md:9
+#, fuzzy
+msgid ""
+"`bedtools intersect -a {{path/to/file_1}} -b {{path/to/file_2}} -s > {{path/"
+"to/output_file}}`"
+msgstr ""
+"`bedtools intersect -a {{percorso/al/file_1}} -b {{percorso/al/file_2}} -s > "
+"{{percorso/al/file_output}}`"
+
+#: pages/common/bedtools.md:11
+#, fuzzy
+msgid ""
+"Intersect two files with a left outer join, i.e. report each feature from "
+"{{file_1}} and NULL if no overlap with {{file_2}}:"
+msgstr ""
+"Interseca due file unendo il risultato a sinistra, ovvero riporta ogni "
+"feature da {{file_1}} e NULL dove non c' sovrapposizione con {{file_2}}:"
+
+#: pages/common/bedtools.md:13
+#, fuzzy
+msgid ""
+"`bedtools intersect -a {{path/to/file_1}} -b {{path/to/file_2}} -lof > "
+"{{path/to/output_file}}`"
+msgstr ""
+"`bedtools intersect -a {{percorso/al/file_1}} -b {{percorso/al/file_2}} -lof "
+"> {{percorso/al/file_output}}`"
+
+#: pages/common/bedtools.md:15
+#, fuzzy
+msgid "Using more efficient algorithm to intersect two pre-sorted files:"
+msgstr ""
+"Usa un algoritmo pi efficiente per intersecare due file precedentemente "
+"ordinati:"
+
+#: pages/common/bedtools.md:17
+#, fuzzy
+msgid ""
+"`bedtools intersect -a {{path/to/file_1}} -b {{path/to/file_2}} -sorted > "
+"{{path/to/output_file}}`"
+msgstr ""
+"`bedtools intersect -a {{percorso/al/file_1}} -b {{percorso/al/file_2}} -"
+"sorted > {{percorso/al/file_output}}`"
+
+#: pages/common/bedtools.md:19
+#, fuzzy
+msgid ""
+"Group file {{path/to/file}} based on the first three and the fifth column "
+"and summarize the sixth column by summing it up:"
+msgstr ""
+"Raggruppa file in base alle prime tre e la quinta colonna e raggruppa la "
+"sesta colonna sommandola:"
+
+#: pages/common/bedtools.md:21
+#, fuzzy
+msgid "`bedtools groupby -i {{path/to/file}} -c 1-3,5 -g 6 -o sum`"
+msgstr "`bedtools groupby -i {{percorso/al/file}} -c 1-3,5 -g 6 -o sum`"
+
+#: pages/common/bedtools.md:23
+#, fuzzy
+msgid "Convert bam-formated file to a bed-formated one:"
+msgstr "Converti da formato BAM a BED:"
+
+#: pages/common/bedtools.md:25
+#, fuzzy
+msgid "`bedtools bamtobed -i {{path/to/file}}.bam > {{path/to/file}}.bed`"
+msgstr ""
+"`bedtools bamtobed -i {{percorso/al/file}}.bam > {{percorso/al/file}}.bed`"
+
+#: pages/common/bedtools.md:27
+#, fuzzy
+msgid ""
+"Find for all features in {{file_1}}.bed the closest one in {{file_2}}.bed "
+"and write their distance in an extra column (input files must be sorted):"
+msgstr ""
+"Trova per tutte le propriet in {{file_1}} la pi vicina in {{file_2}} e "
+"scrivi la loro distanza in una ulteriore colonna (i file in input devono "
+"essere ordinati):"
+
+#: pages/common/bedtools.md:28
+#, fuzzy
+msgid ""
+"`bedtools closest -a {{path/to/file_1}}.bed -b {{path/to/file_2}}.bed -d`"
+msgstr ""
+"`bedtools closest -a {{percorso/al/file_1}}.bed -b {{percorso/al/file_2}}."
+"bed -d`"
+
+#: pages/common/berks.md:2
+#, fuzzy
+msgid "# berks"
+msgstr "# berks"
+
+#: pages/common/berks.md:4
+#, fuzzy
+msgid "Chef cookbook dependency manager."
+msgstr "Gestore di dipendenze per Chef cookbooks."
+
+#: pages/common/berks.md:6
+#, fuzzy
+msgid "Install cookbook dependencies into a local repo:"
+msgstr "Installa dipendenze cookbook in una repo locale:"
+
+#: pages/common/berks.md:8
+#, fuzzy
+msgid "`berks install`"
+msgstr "`berks install`"
+
+#: pages/common/berks.md:10
+#, fuzzy
+msgid "Update a specific cookbook and its dependencies:"
+msgstr "Aggiorna uno specifico cookbook e le sue dipendenze:"
+
+#: pages/common/berks.md:12
+#, fuzzy
+msgid "`berks update {{cookbook}}`"
+msgstr "`berks update {{cookbook}}`"
+
+#: pages/common/berks.md:14
+#, fuzzy
+msgid "Upload a cookbook to the Chef server:"
+msgstr "Carica un cookbook sul server di Chef:"
+
+#: pages/common/berks.md:16
+#, fuzzy
+msgid "`berks upload {{cookbook}}`"
+msgstr "`berks upload {{cookbook}}`"
+
+#: pages/common/berks.md:18
+#, fuzzy
+msgid "View the dependencies of a cookbook:"
+msgstr "Mostra le dipendenze di un cookbook:"
+
+#: pages/common/berks.md:19
+#, fuzzy
+msgid "`berks contingent {{cookbook}}`"
+msgstr "`berks contingent {{cookbook}}`"
+
+#: pages/common/bg.md:2
+#, fuzzy
+msgid "# bg"
+msgstr "# bg"
+
+#: pages/common/bg.md:4
+#, fuzzy
+msgid ""
+"Resumes jobs that have been suspended (e.g. using `Ctrl + Z`), and keeps "
+"them running in the background."
+msgstr ""
+"Riprende job che sono stati sospesi (e.g. usando `Ctrl + Z`) mettendoli in "
+"esecuzione in background."
+
+#: pages/common/bg.md:6
+#, fuzzy
+msgid "Resume most recently suspended job and run it in the background:"
+msgstr "Riprendi il job sospeso pi recentemente ed eseguilo in background:"
+
+#: pages/common/bg.md:8
+#, fuzzy
+msgid "`bg`"
+msgstr "`bg`"
+
+#: pages/common/bg.md:10
+#, fuzzy
+msgid ""
+"Resume a specific job (use `jobs -l` to get its ID) and run it in the "
+"background:"
+msgstr ""
+"Riprendi uno specifico job (usa `jobs -l` per trovare l'ID) ed eseguilo in "
+"background:"
+
+#: pages/common/bg.md:11
+#, fuzzy
+msgid "`bg {{job_id}}`"
+msgstr "`bg {{id_job}}`"
+
+#: pages/common/blender.md:2
+#, fuzzy
+msgid "# blender"
+msgstr "# blender"
+
+#: pages/common/blender.md:4
+#, fuzzy
+msgid "Command-line interface to the Blender 3D computer graphics application."
+msgstr ""
+"Interfaccia da linea di comando per il programma di grafica Blender 3D."
+
+#: pages/common/blender.md:5
+#, fuzzy
+msgid "Arguments are executed in the order they are given."
+msgstr "Gli argomenti sono eseguiti nell'ordine in cui sono dati."
+
+#: pages/common/blender.md:7
+#, fuzzy
+msgid ""
+"Render all frames of an animation in the background, without loading the UI "
+"(output is saved to `/tmp`):"
+msgstr ""
+"Renderizza tutti i frame di una animazione in background, senza caricare "
+"l'interfaccia grafica (l'output  salvato in `/tmp`):"
+
+#: pages/common/blender.md:9
+#, fuzzy
+msgid "`blender -b {{filename}}.blend -a`"
+msgstr "`blender -b {{nome_file}}.blend -a`"
+
+#: pages/common/blender.md:11
+#, fuzzy
+msgid ""
+"Render an animation using a specific image naming pattern, in a path "
+"relative (`//`) to the .blend file:"
+msgstr ""
+"Renderizza un'animazione usando uno specifico pattern, in un percorso "
+"relativo (`//`) al file .blend:"
+
+#: pages/common/blender.md:13
+#, fuzzy
+msgid "`blender -b {{filename}}.blend -o //{{render/frame_###.png}} -a`"
+msgstr "`blender -b {{nome_file}}.blend -o //{{render/frame_###.png}} -a`"
+
+#: pages/common/blender.md:15
+#, fuzzy
+msgid ""
+"Render the 10th frame of an animation as a single image, saved to an "
+"existing directory (absolute path):"
+msgstr ""
+"Renderizza il decimo frame di un'animazione come singola immagine, "
+"salvandolo in una cartella esistente (percorso assoluto):"
+
+#: pages/common/blender.md:17
+#, fuzzy
+msgid ""
+"`blender -b {{filename}}.blend -o {{/path/to/output_directory}} -f {{10}}`"
+msgstr ""
+"`blender -b {{nome_file}}.blend -o {{/percorso/a/directory_output}} -f {{10}}"
+"`"
+
+#: pages/common/blender.md:19
+#, fuzzy
+msgid ""
+"Render the second last frame in an animation as a JPEG image, saved to an "
+"existing directory (relative path):"
+msgstr ""
+"Renderizza il penultimo frame di un'animazione come immagine JPEG, "
+"salvandolo in una cartella esistente (path relativa al file):"
+
+#: pages/common/blender.md:21
+#, fuzzy
+msgid ""
+"`blender -b {{filename}}.blend -o //{{output_directory}} -F {{JPEG}} -f "
+"{{-2}}`"
+msgstr ""
+"`blender -b {{nome_file}}.blend -o //{{directory_output}} -F {{JPEG}} -f "
+"{{-2}}`"
+
+#: pages/common/blender.md:23
+#, fuzzy
+msgid ""
+"Render the animation of a specific scene, starting at frame 10 and ending at "
+"frame 500:"
+msgstr "Renderizza l'animazione di una specifica scena, dal frame 10 al 500:"
+
+#: pages/common/blender.md:25
+#, fuzzy
+msgid ""
+"`blender -b {{filename}}.blend -S {{scene_name}} -s {{10}} -e {{500}} -a`"
+msgstr ""
+"`blender -b {{nome_file}}.blend -S {{nome_scena}} -s {{10}} -e {{500}} -a`"
+
+#: pages/common/blender.md:27
+#, fuzzy
+msgid ""
+"Render an animation at a specific resolution, by passing a Python expression:"
+msgstr ""
+"Renderizza un'animazione ad una specifica risoluzione, attraverso l'utilizzo "
+"di uno script python:"
+
+#: pages/common/blender.md:29
+#, fuzzy
+msgid ""
+"`blender -b {{filename}}.blend --python-expr '{{import bpy; bpy.data."
+"scenes[0].render.resolution_percentage = 25}}' -a`"
+msgstr ""
+"`blender -b {{nome_file}}.blend --python-expr '{{import bpy; bpy.data."
+"scenes[0].render.resolution_percentage = 25}}' -a`"
+
+#: pages/common/blender.md:31
+#, fuzzy
+msgid ""
+"Start an interactive Blender session in the terminal with a python console "
+"(do `import bpy` after starting):"
+msgstr ""
+"Avvia una sessione interattiva di Blender nel terminale con una console "
+"python (esegui `import bpy` dopo l'avvio):"
+
+#: pages/common/blender.md:32
+#, fuzzy
+msgid "`blender -b --python-console`"
+msgstr "`blender -b --python-console`"
+
+#: pages/common/bmaptool.md:2
+#, fuzzy
+msgid "# bmaptool"
+msgstr "# bmaptool"
+
+#: pages/common/bmaptool.md:4
+#, fuzzy
+msgid ""
+"Create or Copy blockmaps intelligently (and therefore faster than `cp` or "
+"`dd`)."
+msgstr ""
+"Crea o copia blockmap intelligentemente (e quindi pi velocemente di `cp` o "
+"`dd`)."
+
+#: pages/common/bmaptool.md:6
+#, fuzzy
+msgid "Create a blockmap from image file:"
+msgstr "Crea una blockmap da un file immagine:"
+
+#: pages/common/bmaptool.md:8
+#, fuzzy
+msgid "`bmaptool create -o {{blockmap.bmap}} {{source.img}}`"
+msgstr "`bmaptool create -o {{blockmap.bmap}} {{sorgente.img}}`"
+
+#: pages/common/bmaptool.md:10
+#, fuzzy
+msgid "Copy an image file into sdb:"
+msgstr "Copia un file immagine su sdb:"
+
+#: pages/common/bmaptool.md:12
+#, fuzzy
+msgid "`bmaptool copy --bmap {{blockmap.bmap}} {{source.img}} {{/dev/sdb}}`"
+msgstr "`bmaptool copy --bmap {{blockmap.bmap}} {{sorgente.img}} {{/dev/sdb}}`"
+
+#: pages/common/bmaptool.md:14
+#, fuzzy
+msgid "Copy a compressed image file into sdb:"
+msgstr "Copia un file immagine compresso su sdb:"
+
+#: pages/common/bmaptool.md:16
+#, fuzzy
+msgid "`bmaptool copy --bmap {{blockmap.bmap}} {{source.img.gz}} {{/dev/sdb}}`"
+msgstr ""
+"`bmaptool copy --bmap {{blockmap.bmap}} {{sorgente.img.gz}} {{/dev/sdb}}`"
+
+#: pages/common/bmaptool.md:18
+#, fuzzy
+msgid "Copy an image file into sdb without using a blockmap:"
+msgstr "Copia un file immagine su sdb senza utilizzare una blockmap:"
+
+#: pages/common/bmaptool.md:19
+#, fuzzy
+msgid "`bmaptool copy --nobmap {{source.img}} {{/dev/sdb}}`"
+msgstr "`bmaptool copy --nobmap {{sorgente.img}} {{/dev/sdb}}`"
+
+#: pages/common/boot.md:2
+#, fuzzy
+msgid "# boot"
+msgstr "# boot"
+
+#: pages/common/boot.md:4
+#, fuzzy
+msgid "Build tooling for the Clojure programming language."
+msgstr "Strumenti di build per il linguaggio di programmazione Clojure."
+
+#: pages/common/boot.md:6
+#, fuzzy
+msgid "Start a REPL session either with the project or standalone:"
+msgstr "Avvia una sessione REPL con il progetto o da sola:"
+
+#: pages/common/boot.md:8
+#, fuzzy
+msgid "`boot repl`"
+msgstr "`boot repl`"
+
+#: pages/common/boot.md:10
+#, fuzzy
+msgid "Build a single \"uberjar\":"
+msgstr "Builda un singolo \"uberjar\":"
+
+#: pages/common/boot.md:12
+#, fuzzy
+msgid "`boot jar`"
+msgstr "`boot jar`"
+
+#: pages/common/boot.md:14
+#, fuzzy
+msgid "Learn about a command:"
+msgstr "Mostra aiuto per un comando:"
+
+#: pages/common/boot.md:16
+#, fuzzy
+msgid "`boot cljs --help`"
+msgstr "`boot cljs --help`"
+
+#: pages/common/boot.md:18
+#, fuzzy
+msgid "Generate scaffolding for a new project based on a template:"
+msgstr "Genera le fondamenta per un nuovo progetto basandoti su una template:"
+
+#: pages/common/boot.md:20
+#, fuzzy
+msgid ""
+"`boot --dependencies boot/new new --template {{template_name}} --name "
+"{{project_name}}`"
+msgstr ""
+"`boot --dependencies boot/new new --template {{nome_template}} --name "
+"{{nome_progetto}}`"
+
+#: pages/common/boot.md:22
+#, fuzzy
+msgid "Build for development (if using the boot/new template):"
+msgstr "Builda per development (se si sta utilizzando il template boot/new):"
+
+#: pages/common/boot.md:24
+#, fuzzy
+msgid "`boot dev`"
+msgstr "`boot dev`"
+
+#: pages/common/boot.md:26
+#, fuzzy
+msgid "Build for production (if using the boot/new template):"
+msgstr "BUilda per produzione (se si sta utilizzando il template boot/new):"
+
+#: pages/common/boot.md:27
+#, fuzzy
+msgid "`boot prod`"
+msgstr "`boot prod`"
+
+#: pages/common/borg.md:2
+#, fuzzy
+msgid "# borg"
+msgstr "# borg"
+
+#: pages/common/borg.md:4
+#, fuzzy
+msgid "Deduplicating backup tool."
+msgstr "Strumento di backup con deduplicazione."
+
+#: pages/common/borg.md:5
+#, fuzzy
+msgid "Creates local or remote backups that are mountable as filesystems."
+msgstr "Crea backup locali o remoti che sono montabili come filesystem."
+
+#: pages/common/borg.md:7
+#, fuzzy
+msgid "Initialise a (local) repository:"
+msgstr "Inizializza una repository (locale):"
+
+#: pages/common/borg.md:9
+#, fuzzy
+msgid "`borg init {{/path/to/repo_directory}}`"
+msgstr "`borg init {{/percorso/a/repo_o_directory}}`"
+
+#: pages/common/borg.md:11
+#, fuzzy
+msgid ""
+"Backup a directory into the repository, creating an archive called \"Monday"
+"\":"
+msgstr ""
+"Esegui il backup di una directory nella repository, creando un archivio "
+"chiamato \"Lunedi\":"
+
+#: pages/common/borg.md:13
+#, fuzzy
+msgid ""
+"`borg create --progress {{/path/to/repo_directory}}::{{Monday}} {{/path/to/"
+"source_directory}}`"
+msgstr ""
+"`borg create --progress {{/percorso/a/repo_o_directory}}::{{Lunedi}} {{/"
+"percorso/a/directory_sorgente}}`"
+
+#: pages/common/borg.md:15
+#, fuzzy
+msgid "List all archives in a repository:"
+msgstr "Lista tutti gli archivi in una repository:"
+
+#: pages/common/borg.md:17
+#, fuzzy
+msgid "`borg list {{/path/to/repo_directory}}`"
+msgstr "`borg list {{/percorso/a/repo_o_directory}}`"
+
+#: pages/common/borg.md:19
+#, fuzzy
+msgid ""
+"Extract a specific directory from the \"Monday\" archive in a remote "
+"repository, excluding all *.ext files:"
+msgstr ""
+"Estrai una specifica directory dall'archivio \"Lunedi\" in una repository "
+"remota, escludendo tutti i file .ext:"
+
+#: pages/common/borg.md:21
+#, fuzzy
+msgid ""
+"`borg extract {{user}}@{{host}}:{{/path/to/repo_directory}}::{{Monday}} "
+"{{path/to/target_directory}} --exclude '{{*.ext}}'`"
+msgstr ""
+"`borg extract {{utente}}@{{host}}:{{/percorso/a/repo_o_directory}}::"
+"{{Lunedi}} {{percorso/a/cartella_destinazione}} --exclude '{{*.ext}}'`"
+
+#: pages/common/borg.md:23
+#, fuzzy
+msgid ""
+"Prune a repository by deleting all archives older than 7 days, listing "
+"changes:"
+msgstr ""
+"Riduci una repository eliminando tutti gli archivi pi vecchi di 7 giorni, "
+"elencando i cambiamenti:"
+
+#: pages/common/borg.md:25
+#, fuzzy
+msgid "`borg prune --keep-within {{7d}} --list {{/path/to/repo_directory}}`"
+msgstr ""
+"`borg prune --keep-within {{7d}} --list {{/percorso/a/repo_o_directory}}`"
+
+#: pages/common/borg.md:27
+#, fuzzy
+msgid "Mount a repository as a FUSE filesystem:"
+msgstr "Monta una repository come filesystem FUSE:"
+
+#: pages/common/borg.md:29
+#, fuzzy
+msgid ""
+"`borg mount {{/path/to/repo_directory}}::{{Monday}} {{/path/to/mountpoint}}`"
+msgstr ""
+"`borg mount {{/percorso/a/repo_o_directory}}::{{Lunedi}} {{/percorso/a/"
+"mountpoint}}`"
+
+#: pages/common/borg.md:31
+#, fuzzy
+msgid "Display help on creating archives:"
+msgstr "Mostra aiuto sul come creare archivi:"
+
+#: pages/common/borg.md:32
+#, fuzzy
+msgid "`borg create --help`"
+msgstr "`borg create --help`"
+
+#: pages/common/bosh.md:2
+#, fuzzy
+msgid "# bosh"
+msgstr "# bosh"
+
+#: pages/common/bosh.md:4
+#, fuzzy
+msgid "Command line tool to deploy and manage the bosh director."
+msgstr "Strumento da linea di comando per distribuire e gestire director BOSH."
+
+#: pages/common/bosh.md:6
+#, fuzzy
+msgid "Create local alias for director:"
+msgstr "Crea un alias locale per un director:"
+
+#: pages/common/bosh.md:8
+#, fuzzy
+msgid ""
+"`bosh alias-env {{environment_name}} -e {{ip_address|url}} --ca-cert "
+"{{ca_certificate}}`"
+msgstr ""
+"`bosh alias-env {{nome_ambiente}} -e {{indirizzo_ip|url}} --ca-cert "
+"{{certificato_ca}}`"
+
+#: pages/common/bosh.md:10
+#, fuzzy
+msgid "List environments:"
+msgstr "Elenca ambienti:"
+
+#: pages/common/bosh.md:12
+#, fuzzy
+msgid "`bosh environments`"
+msgstr "`bosh environments`"
+
+#: pages/common/bosh.md:14
+#, fuzzy
+msgid "Login to the director:"
+msgstr "Esegui il login al director:"
+
+#: pages/common/bosh.md:16
+#, fuzzy
+msgid "`bosh login -e {{environment}} `"
+msgstr "`bosh login -e {{ambiente}} `"
+
+#: pages/common/bosh.md:18
+#, fuzzy
+msgid "List deployments:"
+msgstr "Elenca deployment (distribuzioni):"
+
+#: pages/common/bosh.md:20
+#, fuzzy
+msgid "`bosh -e {{environment}} deployments`"
+msgstr "`bosh -e {{ambiente}} deployments`"
+
+#: pages/common/bosh.md:22
+#, fuzzy
+msgid "List environment virtual machines:"
+msgstr "Elenca le macchine virtuali in un ambiente:"
+
+#: pages/common/bosh.md:24
+#, fuzzy
+msgid "`bosh -e {{environment}} vms -d {{deployment}}`"
+msgstr "`bosh -e {{ambiente}} vms -d {{deployment}}`"
+
+#: pages/common/bosh.md:26
+#, fuzzy
+msgid "Ssh into virtual machine:"
+msgstr "Avvia una sessione SSH in una macchina virtuale:"
+
+#: pages/common/bosh.md:28
+#, fuzzy
+msgid "`bosh -e {{environment}} ssh {{virtual_machine}} -d {{deployment}}`"
+msgstr "`bosh -e {{ambiente}} ssh {{macchina_virtuale}} -d {{deployment}}`"
+
+#: pages/common/bosh.md:30
+#, fuzzy
+msgid "Upload stemcell:"
+msgstr "Carica una stemcell:"
+
+#: pages/common/bosh.md:32
+#, fuzzy
+msgid "`bosh -e {{environment}} upload-stemcell {{stemcell_file|url}}`"
+msgstr "`bosh -e {{ambiente}} upload-stemcell {{file_stemcell|url}}`"
+
+#: pages/common/bosh.md:34
+#, fuzzy
+msgid "Show current cloud config:"
+msgstr "Mostra la configurazione cloud attuale:"
+
+#: pages/common/bosh.md:35
+#, fuzzy
+msgid "`bosh -e {{environment}} cloud-config`"
+msgstr "`bosh -e {{ambiente}} cloud-config`"
+
+#: pages/common/bower.md:2
+#, fuzzy
+msgid "# bower"
+msgstr "# bower"
+
+#: pages/common/bower.md:4
+#, fuzzy
+msgid "A package manager optimized for front-end web development."
+msgstr "Un manager di pacchetti ottimizzato per sviluppo web front-end."
+
+#: pages/common/bower.md:5
+#, fuzzy
+msgid ""
+"A package can be a GitHub user/repo shorthand, a Git endpoint, a URL or a "
+"registered package."
+msgstr ""
+"Un pacchetto pu essere una abbreviazione utente/repo GitHub, un endpoint "
+"Git, un URL o un pacchetto registrato."
+
+#: pages/common/bower.md:7
+#, fuzzy
+msgid "Install a project's dependencies, listed in its bower.json:"
+msgstr ""
+"Installa le dipendenze di un progetto, listate nel suo file bower.json:"
+
+#: pages/common/bower.md:9
+#, fuzzy
+msgid "`bower install`"
+msgstr "`bower install`"
+
+#: pages/common/bower.md:11
+#, fuzzy
+msgid "Install one or more packages to the bower_components directory:"
+msgstr "Installa pacchetti nella directory bower_components:"
+
+#: pages/common/bower.md:13
+#, fuzzy
+msgid "`bower install {{package}} {{package}}`"
+msgstr "`bower install {{pacchetto1}} {{pacchetto2}} ...`"
+
+#: pages/common/bower.md:15
+#, fuzzy
+msgid "Uninstall packages locally from the bower_components directory:"
+msgstr ""
+"Disinstalla pacchetti localmente rimuovendolo dalla directory "
+"bower_components:"
+
+#: pages/common/bower.md:17
+#, fuzzy
+msgid "`bower uninstall {{package}} {{package}}`"
+msgstr "`bower uninstall {{pacchetto1}} {{pacchetto2}}`"
+
+#: pages/common/bower.md:19
+#, fuzzy
+msgid "List local packages and possible updates:"
+msgstr "Elenca pacchetti locali e possibili aggiornamenti:"
+
+#: pages/common/bower.md:21
+#, fuzzy
+msgid "`bower list`"
+msgstr "`bower list`"
+
+#: pages/common/bower.md:23
+#, fuzzy
+msgid "Display help information about a bower command:"
+msgstr "Mostra aiuto per un comando di bower:"
+
+#: pages/common/bower.md:25
+#, fuzzy
+msgid "`bower help {{command}}`"
+msgstr "`bower help {{comando}}`"
+
+#: pages/common/bower.md:27
+#, fuzzy
+msgid "Create a bower.json file for your package:"
+msgstr "Crea un file bower.json per i tuoi pacchetti:"
+
+#: pages/common/bower.md:29
+#, fuzzy
+msgid "`bower init`"
+msgstr "`bower init`"
+
+#: pages/common/bower.md:31
+#, fuzzy
+msgid "Install a specific dependency version, and add it to bower.json:"
+msgstr ""
+"Installa unoa specifica versione di una dipendenza ed aggiungila al file "
+"bower.json:"
+
+#: pages/common/bower.md:32
+#, fuzzy
+msgid "`bower install {{local_name}}={{package}}#{{version}} --save`"
+msgstr "`bower install {{nome_locale}}={{pacchetto}}#{{versione}} --save`"
+
+#: pages/common/box.md:2
+#, fuzzy
+msgid "# box"
+msgstr "# box"
+
+#: pages/common/box.md:4
+#, fuzzy
+msgid "A PHP application for building and managing Phars."
+msgstr "Una applicazione PHP per creare e gestire Phars."
+
+#: pages/common/box.md:6
+#, fuzzy
+msgid "Build a new Phar file:"
+msgstr "Crea un nuovo file Phar:"
+
+#: pages/common/box.md:8
+#, fuzzy
+msgid "`box build`"
+msgstr "`box build`"
+
+#: pages/common/box.md:10
+#, fuzzy
+msgid "Build a new Phar file using a specific config file:"
+msgstr "Crea un nuovo file Phar usando uno specifico file di configurazione:"
+
+#: pages/common/box.md:12
+#, fuzzy
+msgid "`box build -c {{path/to/config}}`"
+msgstr "`box build -c {{percorso/a/configurazione}}`"
+
+#: pages/common/box.md:14
+#, fuzzy
+msgid "Display information about the PHAR PHP extension:"
+msgstr "Mostra informazioni sulla estensione PHP PHAR:"
+
+#: pages/common/box.md:16
+#, fuzzy
+msgid "`box info`"
+msgstr "`box info`"
+
+#: pages/common/box.md:18
+#, fuzzy
+msgid "Display information about a specific Phar file:"
+msgstr "Mostra informazioni su di uno specifico file Phar:"
+
+#: pages/common/box.md:20
+#, fuzzy
+msgid "`box info {{path/to/phar_file}}`"
+msgstr "`box info {{percorso/a/file_phar}}`"
+
+#: pages/common/box.md:22
+#, fuzzy
+msgid "Validate the first found config file in the working directory:"
+msgstr ""
+"Valida il primo file di configurazione trovato nella directory corrente:"
+
+#: pages/common/box.md:24
+#, fuzzy
+msgid "`box validate`"
+msgstr "`box validate`"
+
+#: pages/common/box.md:26
+#, fuzzy
+msgid "Verify the signature of a specific Phar file:"
+msgstr "Verifica la firma di uno specifico file Phar:"
+
+#: pages/common/box.md:28
+#, fuzzy
+msgid "`box verify {{path/to/phar_file}}`"
+msgstr "`box verify {{percorso/a/file_phar}}`"
+
+#: pages/common/box.md:30
+#, fuzzy
+msgid "Display all available commands and options:"
+msgstr "Mostra tutti i comandi ed opzioni disponibili:"
+
+#: pages/common/box.md:31
+#, fuzzy
+msgid "`box help`"
+msgstr "`box help`"
+
+#: pages/common/browser-sync.md:2
+#, fuzzy
+msgid "# browser-sync"
+msgstr "# browser-sync"
+
+#: pages/common/browser-sync.md:4
+#, fuzzy
+msgid "Starts local web server that updates browser on file changes."
+msgstr "Avvia un web-server locale che si aggiorna al cambiamento dei file."
+
+#: pages/common/browser-sync.md:6
+#, fuzzy
+msgid "Start a server from a specific directory:"
+msgstr "Avvia un server da una specifica directory:"
+
+#: pages/common/browser-sync.md:8
+#, fuzzy
+msgid ""
+"`browser-sync start --server {{path/to/directory}} --files {{path/to/"
+"directory}}`"
+msgstr ""
+"`browser-sync start --server {{percorso/a/directory}} --files {{percorso/a/"
+"directory}}`"
+
+#: pages/common/browser-sync.md:10
+#, fuzzy
+msgid ""
+"Start a server from local directory, watching all css files in some "
+"directory:"
+msgstr "Avvia un server da una directory locale, monitorando tutti i file CSS:"
+
+#: pages/common/browser-sync.md:12
+#, fuzzy
+msgid "`browser-sync start --server --files '{{path/to/directory/*.css}}'`"
+msgstr "`browser-sync start --server --files '{{percorso/a/directory/*.css}}'`"
+
+#: pages/common/browser-sync.md:14
+#, fuzzy
+msgid "Create configuration file:"
+msgstr "Crea un file di configurazione:"
+
+#: pages/common/browser-sync.md:16
+#, fuzzy
+msgid "`browser-sync init`"
+msgstr "`browser-sync init`"
+
+#: pages/common/browser-sync.md:18
+#, fuzzy
+msgid "Start browser-sync from config file:"
+msgstr "Avvia bower-sync da un file di configurazione:"
+
+#: pages/common/browser-sync.md:19
+#, fuzzy
+msgid "`browser-sync start --config {{config_file}}`"
+msgstr "`browser-sync start --config {{file_di_configurazione}}`"
+
+#: pages/common/bundle.md:2
+#, fuzzy
+msgid "# bundle"
+msgstr "# bundle"
+
+#: pages/common/bundle.md:4
+#, fuzzy
+msgid "Dependency manager for the Ruby programming language."
+msgstr "Gestore di dipendenze per il linguaggio di programmazione Ruby."
+
+#: pages/common/bundle.md:6
+#, fuzzy
+msgid ""
+"Install all gems defined in the gemfile expected in the working directory:"
+msgstr "Installa tutte le gem definite nel gemfile della directory corrente:"
+
+#: pages/common/bundle.md:8
+#, fuzzy
+msgid "`bundle install`"
+msgstr "`bundle install`"
+
+#: pages/common/bundle.md:10
+#, fuzzy
+msgid ""
+"Update all gems by the rules defined in the gemfile and regenerate gemfile."
+"lock:"
+msgstr ""
+"Aggiorna tutte le gem secondo le regole definite nel gemfile e genera un "
+"gemfile.lock:"
+
+#: pages/common/bundle.md:12
+#, fuzzy
+msgid "`bundle update`"
+msgstr "`bundle update`"
+
+#: pages/common/bundle.md:14
+#, fuzzy
+msgid "Update one specific gem defined in the gemfile:"
+msgstr "Aggiorna una specifica gem definita nel gemfile:"
+
+#: pages/common/bundle.md:16
+#, fuzzy
+msgid "`bundle update --source {{gemname}}`"
+msgstr "`bundle update --source {{nome_gem}}`"
+
+#: pages/common/bundle.md:18
+#, fuzzy
+msgid "Create a new gem skeleton:"
+msgstr "Crea un scheletro per una nuova gem:"
+
+#: pages/common/bundle.md:19
+#, fuzzy
+msgid "`bundle gem {{gemname}}`"
+msgstr "`bundle gem {{nome_gem}}`"
+
+#: pages/common/bup.md:2
+#, fuzzy
+msgid "# bup"
+msgstr "# bup"
+
+#: pages/common/bup.md:4
+#, fuzzy
+msgid ""
+"Backup system based on the git packfile format, providing fast incremental "
+"saves and global deduplication."
+msgstr ""
+"Sistema di backup basato sul formato dei packfile git, fornendo salvataggi "
+"incrementali veloci e deduplicazione globale."
+
+#: pages/common/bup.md:6
+#, fuzzy
+msgid "Initialize a backup repository in the specified local directory:"
+msgstr ""
+"Inizializza una repository di backup nella directory locale specificata:"
+
+#: pages/common/bup.md:8
+#, fuzzy
+msgid "`bup -d {{path/to/repository}} init`"
+msgstr "`bup -d {{percorso/a/repository}} init`"
+
+#: pages/common/bup.md:10
+#, fuzzy
+msgid "Prepare a given directory before taking a backup:"
+msgstr "Prepara una certa cartella prima di fare un backup:"
+
+#: pages/common/bup.md:12
+#, fuzzy
+msgid "`bup -d {{path/to/repository}} index {{path/to/directory}}`"
+msgstr "`bup -d {{percorso/a/repository}} index {{percorso/a/directory}}`"
+
+#: pages/common/bup.md:14
+#, fuzzy
+msgid "Backup a directory to the repository:"
+msgstr "Esegui il backup di una cartella in una repository locale:"
+
+#: pages/common/bup.md:16
+#, fuzzy
+msgid ""
+"`bup -d {{path/to/repository}} save -n {{backup_name}} {{path/to/directory}}`"
+msgstr ""
+"`bup -d {{percorso/a/repository}} save -n {{nome_backup}} {{percorso/a/"
+"directory}}`"
+
+#: pages/common/bup.md:18
+#, fuzzy
+msgid "Show the backup snapshots currently stored in the repository:"
+msgstr "Elenca i di backup attualmente nella repository:"
+
+#: pages/common/bup.md:20
+#, fuzzy
+msgid "`bup -d {{path/to/repository}} ls`"
+msgstr "`bup -d {{percorso/a/repository}} ls`"
+
+#: pages/common/bup.md:22
+#, fuzzy
+msgid "Restore a specific backup snapshot to a target directory:"
+msgstr "Ripristina uno specifico backup in una determinata cartella locale:"
+
+#: pages/common/bup.md:23
+#, fuzzy
+msgid ""
+"`bup -d {{path/to/repository}} restore -C {{path/to/target_directory}} "
+"{{backup_name}}`"
+msgstr ""
+"`bup -d {{percorso/a/repository}} restore -C {{percorso/a/destinazione}} "
+"{{nome_backup}}`"
+
+#: pages/common/bw.md:2
+#, fuzzy
+msgid "# bw"
+msgstr "# bw"
+
+#: pages/common/bw.md:4
+#, fuzzy
+msgid "A CLI to access and manage a Bitwarden vault."
+msgstr "CLI per accedere e gestire vault Bitwarden."
+
+#: pages/common/bw.md:6
+#, fuzzy
+msgid "Log in to a Bitwarden user account:"
+msgstr "Esegui il login ad un account Bitwarden:"
+
+#: pages/common/bw.md:8
+#, fuzzy
+msgid "`bw login`"
+msgstr "`bw login`"
+
+#: pages/common/bw.md:10
+#, fuzzy
+msgid "Log out of a Bitwarden user account:"
+msgstr "Esegui il logout da un account Bitwarden:"
+
+#: pages/common/bw.md:12
+#, fuzzy
+msgid "`bw logout`"
+msgstr "`bw logout`"
+
+#: pages/common/bw.md:14
+#, fuzzy
+msgid "Search and display items from Bitwarden vault:"
+msgstr "Cerca e mostra oggetti in un vault Bitwarden:"
+
+#: pages/common/bw.md:16
+#, fuzzy
+msgid "`bw list items --search {{github}}`"
+msgstr "`bw list items --search {{github}}`"
+
+#: pages/common/bw.md:18
+#, fuzzy
+msgid "Display a particular item from Bitwarden vault:"
+msgstr "Mostra un particolare oggetto contenuto in un vault Bitwarden:"
+
+#: pages/common/bw.md:20
+#, fuzzy
+msgid "`bw get item {{github}}`"
+msgstr "`bw get item {{github}}`"
+
+#: pages/common/bw.md:22
+#, fuzzy
+msgid "Create a folder in Bitwarden vault:"
+msgstr "Crea una cartella in un vault bitwarden:"
+
+#: pages/common/bw.md:23
+#, fuzzy
+msgid "`{{echo -n '{\"name\":\"My Folder1\"}' | base64}} | bw create folder`"
+msgstr ""
+"`{{echo -n '{\"name\":\"Nome cartella\"}' | base64}} | bw create folder`"
+
+#: pages/common/c99.md:2
+#, fuzzy
+msgid "# c99"
+msgstr "# c99"
+
+#: pages/common/c99.md:4
+#, fuzzy
+msgid "Compiles C programs according to the ISO C standard."
+msgstr "Compila programmi C secondo lo standard ISO C."
+
+#: pages/common/c99.md:6
+#, fuzzy
+msgid "Compile source file(s) and create an executable:"
+msgstr "Compila file sorgente/i e crea un eseguibile:"
+
+#: pages/common/c99.md:8
+#, fuzzy
+msgid "`c99 {{file.c}}`"
+msgstr "`c99 {{file.c}}`"
+
+#: pages/common/c99.md:10
+#, fuzzy
+msgid "Compile source file(s) and create an executable with a custom name:"
+msgstr ""
+"Compila file sorgente/i e crea un eseguibile con un nome personalizzato:"
+
+#: pages/common/c99.md:12
+#, fuzzy
+msgid "`c99 -o {{executable_name}} {{file.c}}`"
+msgstr "`c99 -o {{nome_eseguibile}} {{file.c}}`"
+
+#: pages/common/c99.md:14
+#, fuzzy
+msgid "Compile source file(s) and create object file(s):"
+msgstr "Compila file sorgente/i e crea file oggetto:"
+
+#: pages/common/c99.md:16
+#, fuzzy
+msgid "`c99 -c {{file.c}}`"
+msgstr "`c99 -c {{file.c}}`"
+
+#: pages/common/c99.md:18
+#, fuzzy
+msgid ""
+"Compile source file(s), link with object file(s), and create an executable:"
+msgstr ""
+"Compila file sorgente/i linkando con file oggetto e crea un eseguibile:"
+
+#: pages/common/c99.md:19
+#, fuzzy
+msgid "`c99 {{file.c}} {{file.o}}`"
+msgstr "`c99 {{file.c}} {{file.o}}`"
+
+#: pages/common/cabal.md:2
+#, fuzzy
+msgid "# cabal"
+msgstr "# cabal"
+
+#: pages/common/cabal.md:4
+#, fuzzy
+msgid "Command line interface to the Haskell package infrastructure (Cabal)."
+msgstr ""
+"Interfaccia da linea di comando per l'infrastruttura di compilazione di "
+"Haskell (Cabal)."
+
+#: pages/common/cabal.md:5
+#, fuzzy
+msgid ""
+"Manage Haskell projects and Cabal packages from the Hackage package "
+"repository."
+msgstr ""
+"Gestisce progetti Haskell e pacchetti Cabal dal repository di pacchetti "
+"Hackage."
+
+#: pages/common/cabal.md:7
+#, fuzzy
+msgid "Search and list packages from Hackage:"
+msgstr "Cerca ed elenca pacchetti da Hackage:"
+
+#: pages/common/cabal.md:9
+#, fuzzy
+msgid "`cabal list {{search_string}}`"
+msgstr "`cabal list {{termine_di_ricerca}}`"
+
+#: pages/common/cabal.md:11
+#, fuzzy
+msgid "Show information about a package:"
+msgstr "Mostra informazioni su di un pacchetto:"
+
+#: pages/common/cabal.md:13
+#, fuzzy
+msgid "`cabal info {{package_name}}`"
+msgstr "`cabal info {{nome_pacchetto}}`"
+
+#: pages/common/cabal.md:15
+#, fuzzy
+msgid "Download and install a package:"
+msgstr "Scarica ed installa un pacchetto:"
+
+#: pages/common/cabal.md:17
+#, fuzzy
+msgid "`cabal install {{package_name}}`"
+msgstr "`cabal install {{nome_pacchetto}}`"
+
+#: pages/common/cabal.md:19
+#, fuzzy
+msgid "Create a new Haskell project in the current directory:"
+msgstr "Crea un nuovo progetto Haskell nella directory corrente:"
+
+#: pages/common/cabal.md:21
+#, fuzzy
+msgid "`cabal init`"
+msgstr "`cabal init`"
+
+#: pages/common/cabal.md:23
+#, fuzzy
+msgid "Build the project in the current directory:"
+msgstr "Compila il progetto nella directory corrente:"
+
+#: pages/common/cabal.md:25
+#, fuzzy
+msgid "`cabal build`"
+msgstr "`cabal build`"
+
+#: pages/common/cabal.md:27
+#, fuzzy
+msgid "Run tests of the project in the current directory:"
+msgstr "Esegui i test del progetto nella directory corrente:"
+
+#: pages/common/cabal.md:28
+#, fuzzy
+msgid "`cabal test`"
+msgstr "`cabal test`"
+
+#: pages/common/calibredb.md:2
+#, fuzzy
+msgid "# calibredb"
+msgstr "# calibredb"
+
+#: pages/common/calibredb.md:4
+#, fuzzy
+msgid "Tool to manipulate the your ebook database."
+msgstr "Strumentoi per gestire il tuo database di ebook."
+
+#: pages/common/calibredb.md:5+pages/common/calibre-server.md:6
+#, fuzzy
+msgid "Part of the Calibre ebook library."
+msgstr "Parte del manager di ebook Calibre."
+
+#: pages/common/calibredb.md:7
+#, fuzzy
+msgid "List ebooks in the library with additional information:"
+msgstr "Elenca gli ebook nella libreria con informazioni aggiuntive:"
+
+#: pages/common/calibredb.md:9
+#, fuzzy
+msgid "`calibredb list`"
+msgstr "`calibredb list`"
+
+#: pages/common/calibredb.md:11
+#, fuzzy
+msgid "Search for ebooks displaying additional information:"
+msgstr "Cerca tra gli ebook mostrando informazioni aggiuntive:"
+
+#: pages/common/calibredb.md:13
+#, fuzzy
+msgid "`calibredb list --search {{search_term}}`"
+msgstr "`calibredb list --search {{termine_di_ricerca}}`"
+
+#: pages/common/calibredb.md:15
+#, fuzzy
+msgid "Search for just ids of ebooks:"
+msgstr "Cerca mostrando solamente gli ID degli ebook:"
+
+#: pages/common/calibredb.md:17
+#, fuzzy
+msgid "`calibredb search {{search_term}}`"
+msgstr "`calibredb search {{termine_di_ricerca}}`"
+
+#: pages/common/calibredb.md:19
+#, fuzzy
+msgid "Add one or more ebooks to the library:"
+msgstr "Aggiungi uno o pi ebook alla libreria:"
+
+#: pages/common/calibredb.md:21
+#, fuzzy
+msgid "`calibredb add {{file1 file2 }}`"
+msgstr "`calibredb add {{file1 file2 }}`"
+
+#: pages/common/calibredb.md:23
+#, fuzzy
+msgid ""
+"Remove one or more ebooks from the library. You need ebook-ids (see above):"
+msgstr ""
+"Rimuovi uno o pi ebook dalla libreria. Sono necessari gli ID (vedi sopra):"
+
+#: pages/common/calibredb.md:24
+#, fuzzy
+msgid "`calibredb remove {{id1 id2 }}`"
+msgstr "`calibredb remove {{id1 id2 }}`"
+
+#: pages/common/calibre-server.md:2
+#, fuzzy
+msgid "# calibre-server"
+msgstr "# calibre-server"
+
+#: pages/common/calibre-server.md:4
+#, fuzzy
+msgid ""
+"A server application that can be used to distribute ebooks over a network."
+msgstr ""
+"Un'applicazione server che pu essere usata per distribuire ebook in una rete."
+
+#: pages/common/calibre-server.md:5
+#, fuzzy
+msgid ""
+"Ebooks must be imported into the library using the GUI or calibredb before."
+msgstr ""
+"Gli ebook devono prima essere importati nella libreria usando la GUI o "
+"calibredb."
+
+#: pages/common/calibre-server.md:8
+#, fuzzy
+msgid "Start a server to distribute ebooks. Access at http://localhost:8080:"
+msgstr ""
+"Avvia un server per distribuire ebook. Accesso a http://localhost:8080:"
+
+#: pages/common/calibre-server.md:10
+#, fuzzy
+msgid "`calibre-server`"
+msgstr "`calibre-server`"
+
+#: pages/common/calibre-server.md:12
+#, fuzzy
+msgid "Start server on different port. Access at http://localhost:port:"
+msgstr ""
+"Avvia il server su una specifica porta. Accesso a http://localhost:porta:"
+
+#: pages/common/calibre-server.md:14
+#, fuzzy
+msgid "`calibre-server --port {{port}}`"
+msgstr "`calibre-server --port {{porta}}`"
+
+#: pages/common/calibre-server.md:16
+#, fuzzy
+msgid "Password protect the server:"
+msgstr "Proteggi il server con username e password:"
+
+#: pages/common/calibre-server.md:17
+#, fuzzy
+msgid "`calibre-server --username {{username}} --password {{password}}`"
+msgstr "`calibre-server --username {{username}} --password {{password}}`"
+
+#: pages/common/cargo.md:2
+#, fuzzy
+msgid "# cargo"
+msgstr "# cargo"
+
+#: pages/common/cargo.md:4
+#, fuzzy
+msgid "Rust package manager."
+msgstr "Gestore di pacchetti di Rust."
+
+#: pages/common/cargo.md:5
+#, fuzzy
+msgid "Manage Rust projects and their module dependencies (crates)."
+msgstr ""
+"Gestisce progetti Rust ed i moduli dai quali sono dipendenti (detti crate)."
+
+#: pages/common/cargo.md:7
+#, fuzzy
+msgid "Search for crates:"
+msgstr "Cerca una crate:"
+
+#: pages/common/cargo.md:9
+#, fuzzy
+msgid "`cargo search {{search_string}}`"
+msgstr "`cargo search {{termine_di_ricerca}}`"
+
+#: pages/common/cargo.md:11
+#, fuzzy
+msgid "Install a crate:"
+msgstr "Installa una crate:"
+
+#: pages/common/cargo.md:13
+#, fuzzy
+msgid "`cargo install {{crate_name}}`"
+msgstr "`cargo install {{nome_crate}}`"
+
+#: pages/common/cargo.md:15
+#, fuzzy
+msgid "List installed crates:"
+msgstr "Elenca crate installate:"
+
+#: pages/common/cargo.md:17
+#, fuzzy
+msgid "`cargo install --list`"
+msgstr "`cargo install --list`"
+
+#: pages/common/cargo.md:19
+#, fuzzy
+msgid "Create a new binary or library Rust project in the current directory:"
+msgstr ""
+"Crea un nuovo progetto Rust binario o di libreria nella directory corrente:"
+
+#: pages/common/cargo.md:21
+#, fuzzy
+msgid "`cargo init --{{bin|lib}}`"
+msgstr "`cargo init --{{bin|lib}}`"
+
+#: pages/common/cargo.md:23
+#, fuzzy
+msgid "Create a new binary or library Rust project in the specified directory:"
+msgstr ""
+"Crea un nuovo progetto Rust binario o di libreria nella directory "
+"specificata:"
+
+#: pages/common/cargo.md:25
+#, fuzzy
+msgid "`cargo new {{path/to/directory}} --{{bin|lib}}`"
+msgstr "`cargo new {{path/a/directory}} --{{bin|lib}}`"
+
+#: pages/common/cargo.md:27
+#, fuzzy
+msgid "Build the Rust project in the current directory:"
+msgstr "Builda il progetto Rust nella cartella corrente:"
+
+#: pages/common/cargo.md:29
+#, fuzzy
+msgid "`cargo build`"
+msgstr "`cargo build`"
+
+#: pages/common/cargo.md:31
+#, fuzzy
+msgid "Build with multiple parallel jobs:"
+msgstr "Builda utilizzando pi job (thread) paralleli:"
+
+#: pages/common/cargo.md:32
+#, fuzzy
+msgid "`cargo build -j {{jobs}}`"
+msgstr "`cargo build -j {{numero_job}}`"
+
+#: pages/common/case.md:2
+#, fuzzy
+msgid "# case"
+msgstr "# case"
+
+#: pages/common/case.md:4
+#, fuzzy
+msgid "Branch based on the value of an expression."
+msgstr "Esegui branch diversi in base al valore di un'espressione."
+
+#: pages/common/case.md:6
+#, fuzzy
+msgid ""
+"Match a variable against string literals to decide which command to run:"
+msgstr ""
+"Esegui il match di una variabile su diverse stringhe per decidere che "
+"comando eseguire:"
+
+#: pages/common/case.md:7
+#, fuzzy
+msgid ""
+"`case {{$tocount}} in {{words}}) {{wc -w README}}; ;; {{lines}}) {{wc -l "
+"README}}; "
+msgstr ""
+"`case {{$metrica}} in {{parole}}) {{wc -w README}}; ;; {{linee}}) {{wc -l "
+"README}}; "
+
+#: pages/common/case.md:8+pages/common/case.md:11
+#, fuzzy
+msgid "esac`"
+msgstr "esac`"
+
+#: pages/common/case.md:10
+#, fuzzy
+msgid "Combine patterns with |, use * as a fallback pattern:"
+msgstr "Combina pattern con |, utilizzando * come pattern di fallback:"
+
+#: pages/common/case.md:11
+#, fuzzy
+msgid ""
+"`case {{$tocount}} in {{[wW]|words}}) {{wc -w README}}; ;; {{[lL]|lines}}) "
+"{{wc -l README}}; ;; *) {{echo \"what?\"}}; "
+msgstr ""
+"`case {{$metrica}} in {{[pP]|parole}}) {{wc -w README}}; ;; {{[lL]|linee}}) "
+"{{wc -l README}}; ;; *) {{echo \"cosa?\"}}; "
+
+#: pages/common/cat.md:2
+#, fuzzy
+msgid "# cat"
+msgstr "# cat"
+
+#: pages/common/cat.md:8
+#, fuzzy
+msgid "`cat {{file}}`"
+msgstr "`cat {{file}}`"
+
+#: pages/common/cat.md:12
+#, fuzzy
+msgid "`cat {{file1}} {{file2}} > {{target_file}}`"
+msgstr "`cat {{file1}} {{file2}} > {{file_finale}}`"
+
+#: pages/common/cat.md:16
+#, fuzzy
+msgid "`cat {{file1}} {{file2}} >> {{target_file}}`"
+msgstr "`cat {{file1}} {{file2}} >> {{file_finale}}`"
+
+#: pages/common/cat.md:19
+#, fuzzy
+msgid "`cat -n {{file}}`"
+msgstr "`cat -n {{file}}`"
+
+#: pages/common/cd.md:2
+#, fuzzy
+msgid "# cd"
+msgstr "# cd"
+
+#: pages/common/cd.md:4
+#, fuzzy
+msgid "Change the current working directory."
+msgstr "Cambia la directory corrente."
+
+#: pages/common/cd.md:6
+#, fuzzy
+msgid "Go to the given directory:"
+msgstr "Vai alla directory specificata:"
+
+#: pages/common/cd.md:8
+#, fuzzy
+msgid "`cd {{path/to/directory}}`"
+msgstr "`cd {{percorso/a/directory}}`"
+
+#: pages/common/cd.md:10
+#, fuzzy
+msgid "Go to home directory of current user:"
+msgstr "Vai alla directory home dell'utente corrente:"
+
+#: pages/common/cd.md:12
+#, fuzzy
+msgid "`cd`"
+msgstr "`cd`"
+
+#: pages/common/cd.md:14
+#, fuzzy
+msgid "Go up to the parent of the current directory:"
+msgstr "Vai alla directory madre della corrente:"
+
+#: pages/common/cd.md:16
+#, fuzzy
+msgid "`cd ..`"
+msgstr "`cd ..`"
+
+#: pages/common/cd.md:18
+#, fuzzy
+msgid "Go to the previously chosen directory:"
+msgstr "Vai alla directory precedentemente scelta:"
+
+#: pages/common/cd.md:19
+#, fuzzy
+msgid "`cd -`"
+msgstr "`cd -`"
+
+#: pages/common/cp.md:2
+#, fuzzy
+msgid "# cp"
+msgstr "# cp"
+
+#: pages/common/cp.md:4
+#, fuzzy
+msgid "Copy files and directories."
+msgstr "Copia file e directory."
+
+#: pages/common/cp.md:6
+#, fuzzy
+msgid "Copy a file to another location:"
+msgstr "Copia un file in un'altra posizione:"
+
+#: pages/common/cp.md:8
+#, fuzzy
+msgid "`cp {{path/to/file.ext}} {{path/to/copy.ext}}`"
+msgstr "`cp {{percorso/al/file}} {{percorso/alla/copia}}`"
+
+#: pages/common/cp.md:10
+#, fuzzy
+msgid "Copy a file into another directory, keeping the filename:"
+msgstr "Copia un file in una directory mantenendo il nome:"
+
+#: pages/common/cp.md:12
+#, fuzzy
+msgid "`cp {{path/to/file.ext}} {{path/to/target_parent_directory}}`"
+msgstr "`cp {{percorso/al/file}} {{percorso/alla/directory}}`"
+
+#: pages/common/cp.md:14
+#, fuzzy
+msgid "Copy a directory recursively to another location:"
+msgstr "Copia una directory ricorsivamente in un'altra posizione:"
+
+#: pages/common/cp.md:16
+#, fuzzy
+msgid "`cp -r {{path/to/directory}} {{path/to/copy}}`"
+msgstr "`cp -r {{percorso/alla/directory}} {{percorso/alla/copia}}`"
+
+#: pages/common/cp.md:18
+#, fuzzy
+msgid ""
+"Copy a directory recursively, in verbose mode (shows files as they are "
+"copied):"
+msgstr ""
+"Copia una directory ricorsivamente in modo verboso (mostra a schermo ogni "
+"file copiato):"
+
+#: pages/common/cp.md:20
+#, fuzzy
+msgid "`cp -vr {{path/to/directory}} {{path/to/copy}}`"
+msgstr "`cp -vr {{percorso/alla/directory}} {{percorso/alla/copia}}`"
+
+#: pages/common/cp.md:22
+#, fuzzy
+msgid "Copy the contents of a directory into another directory:"
+msgstr "Copia i contenuti di una directory in una seconda directory:"
+
+#: pages/common/cp.md:24
+#, fuzzy
+msgid "`cp -r {{path/to/source_directory/*}} {{path/to/target_directory}}`"
+msgstr ""
+"`cp -r {{percorso/alla/directory/*}} {{percorso/alla/seconda/directory}}`"
+
+#: pages/common/cp.md:26
+#, fuzzy
+msgid ""
+"Copy text files to another location, in interactive mode (prompts user "
+"before overwriting):"
+msgstr ""
+"Copia tutti i file di testo in una seconda directory in modo interattivo "
+"(chiede conferma prima di sovrascrivere):"
+
+#: pages/common/cp.md:27
+#, fuzzy
+msgid "`cp -i {{*.txt}} {{path/to/target_directory}}`"
+msgstr "`cp -i {{*.txt}} {{percorso/alla/directory}}`"
+
+#: pages/common/fmt.md:2
+#, fuzzy
+msgid "# fmt"
+msgstr "# fmt"
+
+#: pages/common/fmt.md:4
+#, fuzzy
+msgid ""
+"Reformat a text file by joining its paragraphs and limiting the line width "
+"to given number of characters (75 by default)."
+msgstr ""
+"Riformatta i paragrafi di un file di testo unendoli e limitando la larghezza "
+"delle righe a un dato numero di caratteri (di default 75)."
+
+#: pages/common/fmt.md:6
+#, fuzzy
+msgid "Reformat a file:"
+msgstr "Riformatta un file:"
+
+#: pages/common/fmt.md:8
+#, fuzzy
+msgid "`fmt {{path/to/file}}`"
+msgstr "`fmt {{percorso/al/file}}`"
+
+#: pages/common/fmt.md:10
+#, fuzzy
+msgid "Reformat a file producing output lines of (at most) `n` characters:"
+msgstr "Riformatta un file producendo linee di (al massimo) `n` caratteri:"
+
+#: pages/common/fmt.md:12
+#, fuzzy
+msgid "`fmt -w {{n}} {{path/to/file}}`"
+msgstr "`fmt -w {{n}} {{percorso/al/file}}`"
+
+#: pages/common/fmt.md:14
+#, fuzzy
+msgid ""
+"Reformat a file without joining lines shorter than the given width together:"
+msgstr ""
+"Riformatta un file senza unire assieme le linee pi corte della data "
+"larghezza:"
+
+#: pages/common/fmt.md:16
+#, fuzzy
+msgid "`fmt -s {{path/to/file}}`"
+msgstr "`fmt -s {{percorso/al/file}}`"
+
+#: pages/common/fmt.md:18
+#, fuzzy
+msgid ""
+"Reformat a file with uniform spacing (1 space between words and 2 spaces "
+"between paragraphs):"
+msgstr ""
+"Riformatta un file usando una spaziatura uniforme (1 spazio tra due parole e "
+"2 spazi tra due paragrafi):"
+
+#: pages/common/fmt.md:19
+#, fuzzy
+msgid "`fmt -u {{path/to/file}}`"
+msgstr "`fmt -u {{percorso/al/file}}`"
+
+#: pages/common/head.md:2
+#, fuzzy
+msgid "# head"
+msgstr "# head"
+
+#: pages/common/head.md:4
+#, fuzzy
+msgid "Output the first part of files."
+msgstr "Stampa a schermo le prime linee di un file."
+
+#: pages/common/head.md:6
+#, fuzzy
+msgid "Output the first few lines of a file:"
+msgstr "Stampa a schermo le prime linee di un file:"
+
+#: pages/common/head.md:8
+#, fuzzy
+msgid "`head -n {{count_of_lines}} {{filename}}`"
+msgstr "`head -n {{numero_di_linee}} {{file}}`"
+
+#: pages/common/head.md:10
+#, fuzzy
+msgid "Output the first few bytes of a file:"
+msgstr "Stampa a schermo i primi byte di un file:"
+
+#: pages/common/head.md:12
+#, fuzzy
+msgid "`head -c {{size_in_bytes}} {{filename}}`"
+msgstr "`head -c {{numero_di_byte}} {{file}}`"
+
+#: pages/common/head.md:14
+#, fuzzy
+msgid "Output everything but the last few lines of a file:"
+msgstr "Stampa a schermo tutto il file meno le ultime linee:"
+
+#: pages/common/head.md:16
+#, fuzzy
+msgid "`head -n -{{count_of_lines}} {{filename}}`"
+msgstr "`head -n -{{numero_di_linee}} {{file}}`"
+
+#: pages/common/head.md:18
+#, fuzzy
+msgid "Output everything but the last few bytes of a file:"
+msgstr "Stampa a schermo tutto il file meno gli ultimi byte:"
+
+#: pages/common/head.md:19
+#, fuzzy
+msgid "`head -c -{{size_in_bytes}} {{filename}}`"
+msgstr "`head -c -{{numero_di_byte}} {{file}}`"
+
+#: pages/common/less.md:2
+#, fuzzy
+msgid "# less"
+msgstr "# less"
+
+#: pages/common/less.md:4
+#, fuzzy
+msgid "Open a file for interactive reading, allowing scrolling and search."
+msgstr ""
+"Apri un file per lettura interattiva, permettendo di scorrere e cercare "
+"testo al suo interno."
+
+#: pages/common/less.md:6+pages/common/vim.md:7
+#, fuzzy
+msgid "Open a file:"
+msgstr "Apri un file:"
+
+#: pages/common/less.md:8
+#, fuzzy
+msgid "`less {{source_file}}`"
+msgstr "`less {{file}}`"
+
+#: pages/common/less.md:10
+#, fuzzy
+msgid "Page down / up:"
+msgstr "Muoviti una pagina in gi / su:"
+
+#: pages/common/less.md:12
+#, fuzzy
+msgid "`<Space> (down), b (up)`"
+msgstr "`<Spazio> (gi), b (su)`"
+
+#: pages/common/less.md:14
+#, fuzzy
+msgid "Go to end / start of file:"
+msgstr "Vai alla fine o all'inizio del file:"
+
+#: pages/common/less.md:16
+#, fuzzy
+msgid "`G (end), g (start)`"
+msgstr "`G (fine), g (inizio)`"
+
+#: pages/common/less.md:18
+#, fuzzy
+msgid ""
+"Forward search for a string (press `n`/`N` to go to next/previous match):"
+msgstr ""
+"Cerca una stringa in avanti (usa `n`/`N` per muoverti al risultato "
+"successivo/precedente):"
+
+#: pages/common/less.md:20
+#, fuzzy
+msgid "`/{{something}}`"
+msgstr "`/{{stinga}}`"
+
+#: pages/common/less.md:22
+#, fuzzy
+msgid ""
+"Backward search for a string (press `n`/`N` to go to next/previous match):"
+msgstr ""
+"Cerca una stringa indietro (usa `n`/`N` per muoverti al risultato successivo/"
+"precedente):"
+
+#: pages/common/less.md:24
+#, fuzzy
+msgid "`?{{something}}`"
+msgstr "`?{{stringa}}`"
+
+#: pages/common/less.md:26
+#, fuzzy
+msgid "Follow the output of the currently opened file:"
+msgstr "Aggiorna il file dinamicamente:"
+
+#: pages/common/less.md:28
+#, fuzzy
+msgid "`F`"
+msgstr "`F`"
+
+#: pages/common/less.md:30
+#, fuzzy
+msgid "Open the current file in an editor:"
+msgstr "Apri il file in un editor di testo:"
+
+#: pages/common/less.md:32
+#, fuzzy
+msgid "`v`"
+msgstr "`v`"
+
+#: pages/common/less.md:34
+#, fuzzy
+msgid "Exit:"
+msgstr "Esci:"
+
+#: pages/common/less.md:35
+#, fuzzy
+msgid "`q`"
+msgstr "`q`"
+
+#: pages/common/ln.md:2
+#, fuzzy
+msgid "# ln"
+msgstr "# ln"
+
+#: pages/common/ln.md:4
+#, fuzzy
+msgid "Creates links to files and directories."
+msgstr "Crea un collegamento a un file o a una directory."
+
+#: pages/common/ln.md:6
+#, fuzzy
+msgid "Create a symbolic link to a file or directory:"
+msgstr "Crea un collegamento simbolico a un file (o directory):"
+
+#: pages/common/ln.md:8
+#, fuzzy
+msgid "`ln -s {{path/to/file_or_directory}} {{path/to/symlink}}`"
+msgstr "`ln -s {{percorso/al/file}} {{percorso/al/collegamento}}`"
+
+#: pages/common/ln.md:10
+#, fuzzy
+msgid "Overwrite an existing symbolic to point to a different file:"
+msgstr ""
+"Sovrascrivi un collegamento esistente in modo che punti a un nuovo file:"
+
+#: pages/common/ln.md:12
+#, fuzzy
+msgid "`ln -sf {{path/to/new_file}} {{path/to/symlink}}`"
+msgstr "`ln -sg {{percorso/al/nuovo/file}} {{percorso/al/collegamento}}`"
+
+#: pages/common/ln.md:14
+#, fuzzy
+msgid "Create a hard link to a file:"
+msgstr "Crea un collegamento fisico a un file:"
+
+#: pages/common/ln.md:15
+#, fuzzy
+msgid "`ln {{path/to/file}} {{path/to/hardlink}}`"
+msgstr "`ln {{percorso/al/file}} {{percorso/al/collegamento}}`"
+
+#: pages/common/ls.md:2
+#, fuzzy
+msgid "# ls"
+msgstr "# ls"
+
+#: pages/common/ls.md:4
+#, fuzzy
+msgid "List directory contents."
+msgstr "Elenca i contenuti di una directory."
+
+#: pages/common/ls.md:6
+#, fuzzy
+msgid "List files one per line:"
+msgstr "Elenca i file nella directory corrente, uno per riga:"
+
+#: pages/common/ls.md:8
+#, fuzzy
+msgid "`ls -1`"
+msgstr "`ls -1`"
+
+#: pages/common/ls.md:10
+#, fuzzy
+msgid "List all files, including hidden files:"
+msgstr "Elenca tutti i file, inclusi quelli nascosti:"
+
+#: pages/common/ls.md:12
+#, fuzzy
+msgid "`ls -a`"
+msgstr "`ls -a`"
+
+#: pages/common/ls.md:14
+#, fuzzy
+msgid ""
+"Long format list (permissions, ownership, size and modification date) of all "
+"files:"
+msgstr ""
+"Elenca tutti i file e mostra informazioni (permessi, dimensione e data di "
+"ultima modifica):"
+
+#: pages/common/ls.md:16
+#, fuzzy
+msgid "`ls -la`"
+msgstr "`ls -la`"
+
+#: pages/common/ls.md:18
+#, fuzzy
+msgid ""
+"Long format list with size displayed using human readable units (KB, MB, GB):"
+msgstr ""
+"Elenca tutti i file e mostra informazioni usando un formato facilmente "
+"leggibile (KB, MB, GB):"
+
+#: pages/common/ls.md:20
+#, fuzzy
+msgid "`ls -lh`"
+msgstr "`ls -lh`"
+
+#: pages/common/ls.md:22
+#, fuzzy
+msgid "Long format list sorted by size (descending):"
+msgstr ""
+"Elenca tutti i file e mostra informazioni, ordinandoli per dimensione "
+"decrescente:"
+
+#: pages/common/ls.md:24
+#, fuzzy
+msgid "`ls -lS`"
+msgstr "`ls -lS`"
+
+#: pages/common/ls.md:26
+#, fuzzy
+msgid ""
+"Long format list of all files, sorted by modification date (oldest first):"
+msgstr ""
+"Elenca tutti i file e mostra informazioni, ordinandoli per ultima modifica:"
+
+#: pages/common/ls.md:27
+#, fuzzy
+msgid "`ls -ltr`"
+msgstr "`ls -ltr`"
+
+#: pages/common/mkdir.md:2
+#, fuzzy
+msgid "# mkdir"
+msgstr "# mkdir"
+
+#: pages/common/mkdir.md:4
+#, fuzzy
+msgid "Creates a directory."
+msgstr "Crea directory."
+
+#: pages/common/mkdir.md:6
+#, fuzzy
+msgid "Create a directory in current directory or given path:"
+msgstr "Crea una directory nella directory corrente o in un dato percorso:"
+
+#: pages/common/mkdir.md:8
+#, fuzzy
+msgid "`mkdir {{directory}}`"
+msgstr "`mkdir {{directory}}`"
+
+#: pages/common/mkdir.md:10
+#, fuzzy
+msgid "Create directories recursively (useful for creating nested dirs):"
+msgstr "Crea directory ricorsivamente (utile per creare directory annidate):"
+
+#: pages/common/mkdir.md:11
+#, fuzzy
+msgid "`mkdir -p {{path/to/directory}}`"
+msgstr "`mkdir -p {{percorso/alla/directory}}`"
+
+#: pages/common/mv.md:2
+#, fuzzy
+msgid "# mv"
+msgstr "# mv"
+
+#: pages/common/mv.md:4
+#, fuzzy
+msgid "Move or rename files and directories."
+msgstr "Sposta o rinomina file e directory."
+
+#: pages/common/mv.md:6
+#, fuzzy
+msgid "Move files in arbitrary locations:"
+msgstr "Sposta file:"
+
+#: pages/common/mv.md:8
+#, fuzzy
+msgid "`mv {{source}} {{target}}`"
+msgstr "`mv {{sorgente}} {{destinazione}}`"
+
+#: pages/common/mv.md:10
+#, fuzzy
+msgid "Do not prompt for confirmation before overwriting existing files:"
+msgstr ""
+"Sposta file senza chiedere conferma prima di sovrascrivere file esistenti:"
+
+#: pages/common/mv.md:12
+#, fuzzy
+msgid "`mv -f {{source}} {{target}}`"
+msgstr "`mv -f {{sorgente}} {{destinazione}}`"
+
+#: pages/common/mv.md:14
+#, fuzzy
+msgid ""
+"Prompt for confirmation before overwriting existing files, regardless of "
+"file permissions:"
+msgstr ""
+"Sposta file interattivamente, chiedendo conferma prima di sovrascrivere file "
+"esistenti:"
+
+#: pages/common/mv.md:16
+#, fuzzy
+msgid "`mv -i {{source}} {{target}}`"
+msgstr "`mv -i {{sorgente}} {{destinazione}}`"
+
+#: pages/common/mv.md:18
+#, fuzzy
+msgid "Do not overwrite existing files at the target:"
+msgstr "Sposta file senza sovrascrivere file esistenti:"
+
+#: pages/common/mv.md:20
+#, fuzzy
+msgid "`mv -n {{source}} {{target}}`"
+msgstr "`mv -n {{sorgente}} {{destinazione}}`"
+
+#: pages/common/mv.md:22
+#, fuzzy
+msgid "Move files in verbose mode, showing files after they are moved:"
+msgstr ""
+"Sposta file in modit verbosa, mostrando a schermo ogni file che viene "
+"spostato:"
+
+#: pages/common/mv.md:23
+#, fuzzy
+msgid "`mv -v {{source}} {{target}}`"
+msgstr "`mv -v {{sorgente}} {{destinazione}}`"
+
+#: pages/common/rm.md:2
+#, fuzzy
+msgid "# rm"
+msgstr "# rm"
+
+#: pages/common/rm.md:4
+#, fuzzy
+msgid "Remove files or directories."
+msgstr "Rimuovi file o directory."
+
+#: pages/common/rm.md:6
+#, fuzzy
+msgid "Remove files from arbitrary locations:"
+msgstr "Rimuovi file:"
+
+#: pages/common/rm.md:8
+#, fuzzy
+msgid "`rm {{path/to/file}} {{path/to/another/file}}`"
+msgstr "`rm {{percorso/a/file1 percorso/a/file2 ...}}`"
+
+#: pages/common/rm.md:10
+#, fuzzy
+msgid "Recursively remove a directory and all its subdirectories:"
+msgstr "Rimuovi ricorsivamente una directory e tutti i suoi contenuti:"
+
+#: pages/common/rm.md:12
+#, fuzzy
+msgid "`rm -r {{path/to/directory}}`"
+msgstr "`rm -r {{percorso/alla/directory}}`"
+
+#: pages/common/rm.md:14
+#, fuzzy
+msgid ""
+"Forcibly remove a directory, without prompting for confirmation or showing "
+"error messages:"
+msgstr ""
+"Rimuovi ricorsivamente una directory, senza chiedere conferma o mostrare "
+"messaggi di errore:"
+
+#: pages/common/rm.md:16
+#, fuzzy
+msgid "`rm -rf {{path/to/directory}}`"
+msgstr "`rm -rf {{percorso/alla/directory}}`"
+
+#: pages/common/rm.md:18
+#, fuzzy
+msgid ""
+"Interactively remove multiple files, with a prompt before every removal:"
+msgstr ""
+"Rimuovi file interattivamente, chiedendo conferma prima di rimuovere ogni "
+"file:"
+
+#: pages/common/rm.md:20
+#, fuzzy
+msgid "`rm -i {{file(s)}}`"
+msgstr "`rm -i {{file(s)}}`"
+
+#: pages/common/rm.md:22
+#, fuzzy
+msgid "Remove files in verbose mode, printing a message for each removed file:"
+msgstr ""
+"Rimuovi file in modalit verbosa, scrivendo un messaggio a schermo per ogni "
+"file rimosso:"
+
+#: pages/common/rm.md:23
+#, fuzzy
+msgid "`rm -v {{path/to/directory/*}}`"
+msgstr "`rm -v {{percorso/a/un/file}}`"
+
+#: pages/common/tac.md:2
+#, fuzzy
+msgid "# tac"
+msgstr "# tac"
+
+#: pages/common/tac.md:4
+#, fuzzy
+msgid "Print and concatenate files in reverse."
+msgstr "Stampa e concatena file al contrario."
+
+#: pages/common/tac.md:6
+#, fuzzy
+msgid "Print the contents of *file1* reversed to the standard output:"
+msgstr "Stampa il contenuto di *file1* al contrario su standard output:"
+
+#: pages/common/tac.md:8
+#, fuzzy
+msgid "`tac {{file1}}`"
+msgstr "`tac {{file1}}`"
+
+#: pages/common/tac.md:10
+#, fuzzy
+msgid "Concatenate several files reversed into the target file:"
+msgstr "Concatena multipli file al contrario in un nuovo file:"
+
+#: pages/common/tac.md:11
+#, fuzzy
+msgid "`tac {{file1}} {{file2}} > {{target_file}}`"
+msgstr "`tac {{file1}} {{file2}} > {{nuovo_file}}`"
+
+#: pages/common/vim.md:2
+#, fuzzy
+msgid "# vim"
+msgstr "# vim"
+
+#: pages/common/vim.md:4
+#, fuzzy
+msgid ""
+"Vi IMproved, a programmer's text editor, provides several modes for "
+"different kinds of text manipulation."
+msgstr ""
+"Vi IMproved, un editor di testo per programamtori che fornisce diverse "
+"modalit per modificare testo."
+
+#: pages/common/vim.md:5
+#, fuzzy
+msgid ""
+"Pressing `i` enters edit mode. `<Esc>` goes back to normal mode, which "
+"doesn't allow regular text insertion."
+msgstr ""
+"Premi `i` per entrare in insert mode e `<Esc>` per tornare in normal mode "
+"dove non puoi inserire testo normalmente."
+
+#: pages/common/vim.md:9
+#, fuzzy
+msgid "`vim {{file}}`"
+msgstr "`vim {{file}}`"
+
+#: pages/common/vim.md:11
+#, fuzzy
+msgid "Enter text editing mode (insert mode):"
+msgstr "Vai in insert mode (per inserire testo):"
+
+#: pages/common/vim.md:13
+#, fuzzy
+msgid "`<Esc>i`"
+msgstr "`<Esc>i`"
+
+#: pages/common/vim.md:15
+#, fuzzy
+msgid ""
+"Copy (\"yank\") or cut (\"delete\") the current line (paste it with `P`):"
+msgstr ""
+"Copia (\"yank\") o taglia (\"delete\") la linea corrente (per incollarla poi "
+"con `P`):"
+
+#: pages/common/vim.md:17
+#, fuzzy
+msgid "`<Esc>{{yy|dd}}`"
+msgstr "`<Esc>{{yy|dd}}`"
+
+#: pages/common/vim.md:19
+#, fuzzy
+msgid "Undo the last operation:"
+msgstr "Annulla l'ultima operazione:"
+
+#: pages/common/vim.md:21
+#, fuzzy
+msgid "`<Esc>u`"
+msgstr "`<Esc>u`"
+
+#: pages/common/vim.md:23
+#, fuzzy
+msgid ""
+"Search for a pattern in the file (press `n`/`N` to go to next/previous "
+"match):"
+msgstr ""
+"Cerca un pattern nel file (usa `n`/`N` per spostarti al risultato successivo/"
+"precedente):"
+
+#: pages/common/vim.md:25
+#, fuzzy
+msgid "`<Esc>/{{search_pattern}}<Enter>`"
+msgstr "`<Esc>/{{pattern}}<Invio>`"
+
+#: pages/common/vim.md:27
+#, fuzzy
+msgid "Perform a regex substitution in the whole file:"
+msgstr "Effettua una sostituzione tramite regex nell'intero file:"
+
+#: pages/common/vim.md:29
+#, fuzzy
+msgid "`<Esc>:%s/{{pattern}}/{{replacement}}/g<Enter>`"
+msgstr "`<Esc>:%s/{{pattern}}/{{sostituzione}}/g<Invio>`"
+
+#: pages/common/vim.md:31
+#, fuzzy
+msgid "Save (write) the file, and quit:"
+msgstr "Salva modifiche al file ed esci:"
+
+#: pages/common/vim.md:33
+#, fuzzy
+msgid "`<Esc>:wq<Enter>`"
+msgstr "`<Esc>:wq<Invio>`"
+
+#: pages/common/vim.md:35
+#, fuzzy
+msgid "Quit without saving:"
+msgstr "Esci senza salvare:"
+
+#: pages/common/vim.md:36
+#, fuzzy
+msgid "`<Esc>:q!<Enter>`"
+msgstr "`<Esc>:q!<Invio>`"
