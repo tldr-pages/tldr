@@ -146,6 +146,8 @@ For example, a user has a client on windows, and requests the `apt` page. The cl
 
 Steps #3 and #4 may be done in either order.
 
+It is possible that due to this page resolution logic, the client may show a page which does not belong to the host platform because a page can reside in `common`, and not be present on the host platform. Clients must not assume that a given command is always executable on the host platform.
+
 #### If a page isn't found
 If a page cannot be found in _any_ platform, then it is RECOMMENDED that clients display an error message with a link to create a new issue against the `tldr-pages/tldr` GitHub repository. Said link might take the following form:
 
