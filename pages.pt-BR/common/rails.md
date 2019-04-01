@@ -7,11 +7,11 @@
 
 `rails new "{{nome_do_projeto}}"`
 
-- Iniciar o servidor local, na porta 3000, para o projeto atual:
+- Iniciar o servidor local para o projeto atual na porta 3000:
 
 `rails server`
 
-- Iniciar o servidor local, em um porta específica, para o projeto atual:
+- Iniciar o servidor local para o projeto atual em um porta específica:
 
 `rails server -p "{{porta}}"`
 
