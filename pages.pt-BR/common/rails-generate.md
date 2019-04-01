@@ -1,6 +1,6 @@
 # rails generate
 
-> Gerar artefatos Rails, em um projeto existente, a partir de modelos.
+> Gerar artefatos Rails a partir de um modelo em um projeto existente.
 
 - Exibir todos os geradores disponíveis:
 
