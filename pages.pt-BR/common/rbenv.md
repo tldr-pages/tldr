@@ -14,7 +14,7 @@
 
 `rbenv global {{versao}}`
 
-- Determinar uma versão específica para um projeto, este comando deve ser executado no diretório do projeto:
+- Determinar uma versão específica para um projeto. Este comando deve ser executado no diretório do projeto:
 
 `rbenv local {{versao}}`
 
