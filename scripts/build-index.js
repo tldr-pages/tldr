@@ -12,7 +12,7 @@ function parsePagename(pagefile) {
 
 function parseLanguage(pagefile) {
   let pagesFolder = pagefile.split(/\//)[0];
-  return pagesFolder == 'pages' ? 'en' : pagesFolder.replace(/^pages./, '');
+  return pagesFolder == 'pages' ? 'en' : pagesFolder.replace(/^pages\./, '');
 }
 
 function buildPagesIndex(files) {
@@ -58,6 +58,12 @@ function saveIndex(index) {
 }
 
 glob('pages*/**/*.md', function (er, files) {
+  if (er !== null) {
+    console.error('ERROR finding pages!');
+    console.error(er);
+    return;
+  }
+
   let index = buildPagesIndex(files);
   saveIndex(index);
 });
