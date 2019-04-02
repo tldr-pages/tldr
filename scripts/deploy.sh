@@ -33,14 +33,14 @@ function rebuild_index {
 function build_archive {
   rm -f $TLDR_ARCHIVE
   cd $TLDRHOME/
-  zip -r $TLDR_ARCHIVE pages*/ LICENSE.md
+  zip -r $TLDR_ARCHIVE pages*/ LICENSE.md index.json
   echo "Pages archive created."
 }
 
 function upload_assets {
   git clone --quiet --depth 1 git@github.com:${SITE_REPO_SLUG}.git $SITE_HOME
   mv -f $TLDR_ARCHIVE $SITE_HOME/assets/
-  cp -f $TLDRHOME/pages/index.json $SITE_HOME/assets/
+  cp -f $TLDRHOME/index.json $SITE_HOME/assets/
 
   cd $SITE_HOME
   git add -A
