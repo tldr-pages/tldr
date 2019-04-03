@@ -22,6 +22,6 @@
 
 `convert {{image1.png}} {{image2.png}} {{image3.png}} -delay {{100}} {{animation.gif}}`
 
-- Create an image with nothing but a solid background
+- Create an image with nothing but a solid background:
 
 `convert -size {{800x600}} "xc:{{#ff0000}}" {{image.png}}`
