@@ -4,7 +4,7 @@
 > Combine the best parts of `kubectl top` and `kubectl describe` into a CLI focused on cluster resources.
 > Homepage: <https://github.com/robscott/kube-capacity>.
 
-- Output a list of nodes with the total CPU and Memory resource reqeusts and limits:
+- Output a list of nodes with the total CPU and Memory resource requests and limits:
 
 `kube-capacity`
 
