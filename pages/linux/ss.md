@@ -14,6 +14,10 @@
 
 `ss -t src :{{443}}`
 
+- Show all TCP sockets listening on the local 8080 port:
+
+`ss -lt src :{{8080}}`
+
 - Show all TCP sockets along with processes connected to a remote ssh port:
 
 `ss -pt dst :{{ssh}}`
