@@ -26,6 +26,6 @@
 
 `xfce4-screenshooter --window --clipboard`
 
-- Take a screenshot of the active window, and open it with a choosen program:
+- Take a screenshot of the active window, and open it with a chosen program:
 
 `xfce4-screenshooter --window --open {{gimp}}`

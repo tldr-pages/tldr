@@ -14,6 +14,6 @@
 
 `kubetail {{my_app}} -c {{my_container_1}} -c {{my_container_2}}`
 
-- To tail multiple applications at the same time seperate them by comma:
+- To tail multiple applications at the same time separate them by comma:
 
 `kubetail {{my_app_1}},{{my_app_2}}`
