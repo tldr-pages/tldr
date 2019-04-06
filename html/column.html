@@ -3,7 +3,7 @@
 - Format output for a 30 characters wide display:
 
 <blockquote>printf "header1 header2\nbar foo\n" | column -c <i>30</i></blockquote>
-- Specify column delimiter character for the -t option (i.e. "," for csv); default is whitespace:
+- Specify column delimiter character for the -t option (e.g. "," for csv); default is whitespace:
 
 <blockquote>printf "header1,header2\nbar,foo\n" | column -s<i>,</i></blockquote>
 - Split columns automatically and auto-align in a tabular format:

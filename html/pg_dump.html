@@ -12,3 +12,9 @@
 - Dump a database into a custom-format archive file:
 
 <blockquote>pg_dump -Fc <i>db_name</i> > <i>output_file.dump</i></blockquote>
+- Dump only database data into an SQL-script file:
+
+<blockquote>pg_dump -a <i>db_name</i> > <i>path/to/output_file.sql</i></blockquote>
+- Dump only schema (data definitions) into an SQL-script file:
+
+<blockquote>pg_dump -s <i>db_name</i> > <i>path/to/output_file.sql</i></blockquote>

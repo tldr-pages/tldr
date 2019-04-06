@@ -1,0 +1,20 @@
+<b>pax</b><br><br>
+<b>Archiving and copying utility.</b><br><br>
+- List the contents of an archive:
+
+<blockquote>pax -f <i>archive.tar</i></blockquote>
+- List the contents of a gzipped archive:
+
+<blockquote>pax -zf <i>archive.tar.gz</i></blockquote>
+- Create an archive from files:
+
+<blockquote>pax -wf <i>target.tar</i> <i>path/to/file1</i> <i>path/to/file2</i> <i>path/to/file3</i></blockquote>
+- Create an archive from files, using output redirection:
+
+<blockquote>pax -w <i>path/to/file1</i> <i>path/to/file2</i> <i>path/to/file3</i> > <i>target.tar</i></blockquote>
+- Extract an archive into the current directory:
+
+<blockquote>pax -rf <i>source.tar</i></blockquote>
+- Copy to a directory, while keeping the original metadata; `target/` must exist:
+
+<blockquote>pax -rw <i>path/to/file1</i> <i>path/to/dir1</i> <i>path/to/dir2</i> <i>target/</i></blockquote>

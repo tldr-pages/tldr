@@ -1,0 +1,14 @@
+<b>git-grep</b><br><br>
+<b>Find strings inside files anywhere in a repository's history.</b><br><br><b>Accepts a lot of the same flags as regular `grep`.</b><br><br><b>Documentation: <a href="https://git-scm.com/docs/git-grep">home page</a></b><br><br>
+- Search for a string in tracked files:
+
+<blockquote>git grep <i>search_string</i></blockquote>
+- Search for a string in files matching a pattern in tracked files:
+
+<blockquote>git grep <i>search_string</i> -- <i>file_glob_pattern</i></blockquote>
+- Search for a string in tracked files, including submodules:
+
+<blockquote>git grep --recurse-submodules <i>search_string</i></blockquote>
+- Search for a string at a specific point in history:
+
+<blockquote>git grep <i>search_string</i> <i>HEAD~2</i></blockquote>
