@@ -14,7 +14,7 @@
 
 `xxd -c {{10}} {{input_file}}`
 
-- Display output only upto a length of 32 bytes:
+- Display output only up to a length of 32 bytes:
 
 `xxd -l {{32}} {{input_file}}`
 
