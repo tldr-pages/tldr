@@ -6,6 +6,10 @@
 
 `tshark`
 
+- Capture only specific packets:
+
+`tshark -f 'udp port 53'`
+
 - Only output captured packets matching a specific wireshark filter:
 
 `tshark -Y '{{http.request.method == "GET"}}'`
