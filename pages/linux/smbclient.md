@@ -10,6 +10,10 @@
 
 `smbclient {{//server/share}} --user {{username}}`
 
+- Connect with a different workgroup:
+
+`smbclient {{//server/share}} --workgroup {{domain}} --user {{username}}`
+
 - Connect with a username and password:
 
 `smbclient {{//server/share}} --user {{username%password}}`
