@@ -24,7 +24,7 @@
 
 - Print only text between n-th line till the next empty line:
 
-`sed -n '{{line_number}},/^$/p' {{filename}}`
+`sed -n '{{n}},/^$/p' {{filename}}`
 
 - Apply multiple find-replace expressions to a file:
 
@@ -34,6 +34,6 @@
 
 `sed 's#{{find}}#{{replace}}#' {{filename}}`
 
-- Print only the `N`th line of a file:
+- Print only the n-th line of a file:
 
-`sed '{{N}}q;d' {{filename}}`
+`sed '{{n}}q;d' {{filename}}`
