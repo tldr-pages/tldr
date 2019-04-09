@@ -32,7 +32,7 @@ exceptions can always be considered, via open community discussion.)
   This means they will be able to push commits to that repository,
   as well as merge PRs, label and close issues, among other things.
 
-- **Repo collaborators who show interest in maintenance work should be added as org members.**
+- **Repository collaborators who regularly perform maintenance tasks should be added as organization members.**
   (Maintenance work means facilitating contributions by other people,
   which in this project typically consists in reviewing and/or merging PRs.)
   Specifically: once a repository collaborator has _merged at least 10 PRs_
@@ -49,7 +49,7 @@ exceptions can always be considered, via open community discussion.)
   _Note_: All members of the tldr-pages organization
   must make their membership public.
 
-- **Org members who remain active for a while should become org owners.**
+- **Organization members who remain active for a while should become organization owners.**
   Specifically: members of the tldr-pages organization
   who remain _active for at least 6 months_
   (see `https://github.com/tldr-pages/tldr/blob/master/MAINTAINERS.md#current-organization-members`)
