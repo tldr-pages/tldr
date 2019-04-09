@@ -115,10 +115,10 @@ using one of the template messages below as a base.
    go to https://github.com/tldr-pages/tldr/settings/collaboration
    and add them to the repository as collaborator with write permissions.
 
-3. Afterwards, add their name to the "Current repository collaborators"
+3. Open a PR adding their name to the "Current repository collaborators" section
    in [MAINTAINERS.md](MAINTAINERS.md).
-
-4. Once the steps above are completed, close the issue.
+   Make sure to include "Closes #<issue number>" in the PR description.
+   The issue will then be automatically closed once the PR is merged.
 
 ### For adding new organization members
 
@@ -143,10 +143,10 @@ using one of the template messages below as a base.
    go to https://github.com/orgs/tldr-pages/people
    and add them to the organization as a member.
 
-3. Afterwards, move their name to the "Current organization members" section
+3. Open a PR moving their name to the "Current organization members" section
    in [MAINTAINERS.md](MAINTAINERS.md).
-
-4. Once the steps above are completed, close the issue.
+   Make sure to include "Closes #<issue number>" in the PR description.
+   The issue will then be automatically closed once the PR is merged.
 
 ### For adding new organization owners:
 
@@ -172,10 +172,10 @@ using one of the template messages below as a base.
    go to https://github.com/orgs/tldr-pages/people
    and change their role from "member" to "owner".
 
-3. Afterwards, move their name to the "Current organization owners" section
+3. Open a PR moving their name to the "Current organization owners" section
    in [MAINTAINERS.md](MAINTAINERS.md).
-
-4. Once the steps above are completed, close the issue.
+   Make sure to include "Closes #<issue number>" in the PR description.
+   The issue will then be automatically closed once the PR is merged.
 
 ### For removing inactive organization members:
 
@@ -208,10 +208,10 @@ using one of the template messages below as a base.
    go to https://github.com/orgs/tldr-pages/people, click the gear icon in their row,
    and select the "Convert to outside collaborator" menu entry.
 
-3. Afterwards, move their name to the "Past organization owners" section
+3. Open a PR moving their name to the "Past organization owners" section
    in [MAINTAINERS.md](MAINTAINERS.md).
-
-4. Once the steps above are completed, close the issue.
+   Make sure to include "Closes #<issue number>" in the PR description.
+   The issue will then be automatically closed once the PR is merged.
 
 
 ## Who can change roles
