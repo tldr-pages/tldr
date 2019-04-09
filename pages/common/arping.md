@@ -1,7 +1,7 @@
 # arping
 
 > Discover and probe hosts in a network using the ARP protocol.
-> Useful for MAC addres discovery.
+> Useful for MAC address discovery.
 
 - Ping a host by ARP request packets:
 
@@ -21,8 +21,8 @@
 
 - Broadcast ARP request packets to update neighbours' ARP caches:
 
-`arping -U {{your_ip}}`
+`arping -U {{ip_to_broadcast}}`
 
-- Determine whether an IP address is already in use in the network by sending it ARP requests with a 3 seconds timeout:
+- Detect duplicated IP addresses in the network by sending ARP requests with a 3 seconds timeout:
 
-`arping -D -f -w {{3}} {{target_ip}}`
+`arping -D -w {{3}} {{ip_to_check}}`
