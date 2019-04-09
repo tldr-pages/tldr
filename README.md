@@ -110,7 +110,7 @@ You can access these pages on your computer using one of the following clients:
   `composer global require brainmaestro/tldr`
 - Python clients:
   - [tldr-python-client](https://github.com/tldr-pages/tldr-python-client):
-    `pip install tldr`
+    `pip install tldr` or `pacman -S tldr` on Arch Linux
   - [tldr.py](https://github.com/lord63/tldr.py):
     `pip install tldr.py`
 - [R client](https://github.com/kirillseva/tldrrr):
