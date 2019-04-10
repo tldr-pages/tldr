@@ -2,11 +2,11 @@
 
 > Processador de texto em linha de comando.
 
-- Iniciar wordgrinder (carrega um documento vazio por padrão):
+- Iniciar o wordgrinder (carrega um documento vazio por padrão):
 
 `wordgrinder`
 
-- Abrir arquivo específico:
+- Abrir um arquivo específico:
 
 `wordgrinder {{nome_do_arquivo}}`
 
