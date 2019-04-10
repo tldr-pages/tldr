@@ -15,7 +15,7 @@
 
 `monodevelop {{path/to/file}};{{line_number}};{{column_number}}`
 
-- Force a new window instead of switching to an existing one:
+- Force opening a new window instead of switching to an existing one:
 
 `monodevelop --new-window`
 
