@@ -19,7 +19,7 @@
 
 `alias -p`
 
-- Turn rm into an interactive command:
+- Turn `rm` into an interactive command:
 
 `alias {{rm}}="{{rm -i}}"`
 
