@@ -1,7 +1,6 @@
 # create_ap
 
 > Create an AP (Access Point) at any channel. 
-> For installation instructions refer  [official documentation](https://github.com/oblique/create_ap).
 
 - No passphrase (open network):
 
