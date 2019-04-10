@@ -1,6 +1,6 @@
 # create_ap
 
-> Create an AP (Access Point) at any channel. 
+> Create an AP (Access Point) at any channel.
 
 - No passphrase (open network):
 
