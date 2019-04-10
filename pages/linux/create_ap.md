@@ -1,14 +1,13 @@
 # create_ap
 
 > Create an AP (Access Point) at any channel. 
-> For installation instructions refer  [official documentation](https://github.com/oblique/create_ap)
-
+> For installation instructions refer  [official documentation](https://github.com/oblique/create_ap).
 
 - No passphrase (open network):
 
 `create_ap wlan0 eth0 MyAccessPoint`
 
-- For an example, I have internet access on my eth0 network, and my wireless interface is wlan0, I want the name of my network to be “ubuntuGuide” and the password as “12345678” so,
+- For an example, I have internet access on my eth0 network, and my wireless interface is wlan0, I want the name of my network to be “ubuntuGuide” and the password as “12345678” so:
 
 `create_ap eth0 wlan0 ubuntuGuide 12345678`
 
@@ -32,6 +31,6 @@
 
 `create_ap wlan0 wlan0 MyAccessPoint MyPassPhrase`
 
-- Choose a different WiFi adapter driver
+- Choose a different WiFi adapter driver:
 
 `create_ap --driver rtl871xdrv wlan0 eth0 MyAccessPoint MyPassPhrase`
