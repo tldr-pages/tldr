@@ -11,7 +11,7 @@ For installation instructions refer [official documentation](https://github.com/
 For an example, I have internet access on my eth0 network, and my wireless interface is wlan0, I want the name of my network to be “ubuntuGuide” and the password as “12345678” so,
 
     create_ap eth0 wlan0 ubuntuGuide 12345678
-    
+
 ### WPA + WPA2 passphrase:
     create_ap wlan0 eth0 MyAccessPoint MyPassPhrase
 
@@ -29,15 +29,3 @@ For an example, I have internet access on my eth0 network, and my wireless inter
 
 ### Choose a different WiFi adapter driver
     create_ap --driver rtl871xdrv wlan0 eth0 MyAccessPoint MyPassPhrase
-
-### No passphrase (open network) using pipe:
-    echo -e "MyAccessPoint" | create_ap wlan0 eth0
-
-### WPA + WPA2 passphrase using pipe:
-    echo -e "MyAccessPoint\nMyPassPhrase" | create_ap wlan0 eth0
-
-### Enable IEEE 802.11n
-    create_ap --ieee80211n --ht_capab '[HT40+]' wlan0 eth0 MyAccessPoint MyPassPhrase
-
-### Client Isolation:
-    create_ap --isolate-clients wlan0 eth0 MyAccessPoint MyPassPhrase
