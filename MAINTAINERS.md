@@ -24,8 +24,6 @@ If you are an owner of the organization, you should be able to see an automated 
    [12 March 2017](https://github.com/tldr-pages/tldr/issues/1209#issuecomment-285924778) — present
  - Muhammad Falak R Wani ([@mfrw](https://github.com/mfrw)):
    [7 September 2018](https://github.com/tldr-pages/tldr/issues/2306) — present
- - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
-   [28 January 2019](https://github.com/tldr-pages/tldr/issues/2735) — present
 
 
 ## Current organization members
@@ -37,6 +35,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
 
  - Owen Voke ([@pxgamer](https://github.com/pxgamer))
    [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — present
+ - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
+   [9 April 2019](https://github.com/tldr-pages/tldr/issues/2874) — present
 
 
 ## Current organization owners
