@@ -19,7 +19,7 @@
 
 `alias -p`
 
-- Tornar o comando rm interativo:
+- Tornar o comando `rm` interativo:
 
 `alias {{rm}}="{{rm -i}}"`
 
