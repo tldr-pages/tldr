@@ -87,7 +87,7 @@ according to the criteria defined in the previous section.
 If a role change is warranted, **open a new issue proposing that role change**,
 using one of the template messages below as a base.
 
-### For adding new collaborators
+### Adding new collaborators
 
 1. Open an issue with the following message template (edit it as appropriate):
 
@@ -111,7 +111,7 @@ using one of the template messages below as a base.
    Thanks for all your work so far!
    ```
 
-2. Once they acknowledge the message,
+2. Once they acknowledge the message, and if they accept the invitation,
    go to https://github.com/tldr-pages/tldr/settings/collaboration
    and add them to the repository as collaborator with write permissions.
 
@@ -120,7 +120,7 @@ using one of the template messages below as a base.
    Make sure to include "Closes #<issue number>" in the PR description.
    The issue will then be automatically closed once the PR is merged.
 
-### For adding new organization members
+### Adding new organization members
 
 1. Open an issue with the following message template (edit it as appropriate):
 
@@ -139,7 +139,7 @@ using one of the template messages below as a base.
    Welcome aboard!
    ```
 
-2. Once they acknowledge the message,
+2. Once they acknowledge the message, and if they accept the invitation,
    go to https://github.com/orgs/tldr-pages/people
    and add them to the organization as a member.
 
@@ -148,7 +148,7 @@ using one of the template messages below as a base.
    Make sure to include "Closes #<issue number>" in the PR description.
    The issue will then be automatically closed once the PR is merged.
 
-### For adding new organization owners:
+### Adding new organization owners
 
 1. Open an issue with the following message template (edit it as appropriate):
 
@@ -168,7 +168,7 @@ using one of the template messages below as a base.
    Thanks for all the work you've done so far. You rock!
    ```
 
-2. Once they acknowledge the message,
+2. Once they acknowledge the message, and if they accept the invitation,
    go to https://github.com/orgs/tldr-pages/people
    and change their role from "member" to "owner".
 
@@ -177,7 +177,7 @@ using one of the template messages below as a base.
    Make sure to include "Closes #<issue number>" in the PR description.
    The issue will then be automatically closed once the PR is merged.
 
-### For removing inactive organization members:
+### Removing inactive organization members
 
 1. Open an issue with the following message template (edit it as appropriate):
 
