@@ -2,15 +2,15 @@
 
 > Gerenciador de dependências da linguagem de programação Ruby.
 
-- Instalar todas as gemas definidas no Gemfile:
+- Instalar todas as gemas definidas no `Gemfile`:
 
 `bundle install`
 
-- Atualizar todas as gemas, respeitando as regras definidas no Gemfile, e recriar o arquivo Gemfile.lock:
+- Atualizar todas as gemas, respeitando as regras definidas no `Gemfile`, e recriar o arquivo `Gemfile.lock`:
 
 `bundle update`
 
-- Atualizar uma gema específica definida no Gemfile:
+- Atualizar uma gema específica definida no `Gemfile`:
 
 `bundle update --source {{nome_da_gema}}`
 
