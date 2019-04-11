@@ -108,7 +108,9 @@ using one of the template messages below as a base.
    we only ask you to get familiar with the
    [maintainer's guide](https://github.com/tldr-pages/tldr/blob/master/contributing-guides/maintainers-guide.md).
 
-   Thanks for all your work so far!
+   So, what do you say? Can we add you as a collaborator?
+
+   Either way, thanks for all your work so far!
    ```
 
 2. Once they acknowledge the message, and if they accept the invitation,
@@ -131,12 +133,13 @@ using one of the template messages below as a base.
    [COMMUNITY-ROLES.md](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md),
    you've now met the thresholds to be effectively considered
    an active maintainer of the project ([LINKS TO THE RELEVANT PRs]).
-   To publicly acknowledge that fact, we'll add you to the tldr-pages organization.
+   To publicly acknowledge that fact, we'd like to add you to the tldr-pages organization.
 
    If you accept the invitation, we ask you to make your membership public,
    and (in case you don't already) start hanging out in our Gitter chat room.
    You'll now be one of the public faces of the tldr-pages project.
-   Welcome aboard!
+
+   How does that sound? Are you up for it?
    ```
 
 2. Once they acknowledge the message, and if they accept the invitation,
@@ -164,8 +167,10 @@ using one of the template messages below as a base.
    Before performing such role transitions, make sure to review the
    [COMMUNITY-ROLES.md](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md)
    document.
+   
+   Is that OK with you? Let us know!
 
-   Thanks for all the work you've done so far. You rock!
+   Either way, thanks so much for all the work you've done so far. You rock!
    ```
 
 2. Once they acknowledge the message, and if they accept the invitation,
