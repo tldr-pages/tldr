@@ -1,4 +1,4 @@
-#chcon
+# chcon
 
 > Change SELinux security context of a file or files/directories.
 
