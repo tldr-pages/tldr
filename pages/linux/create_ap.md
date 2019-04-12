@@ -4,7 +4,7 @@
 
 - Create an open network with no passphrase:
 
-`create_ap {{wlan0}} {{eth0}} {{my_access_point}}`
+`create_ap {{wlan0}} {{eth0}} {{access_point_ssid}}`
 
 - Use a WPA + WPA2 passphrase:
 
