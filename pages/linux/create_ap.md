@@ -28,4 +28,4 @@
 
 - Choose a different WiFi adapter driver:
 
-`create_ap --driver {{WifiAdapter}} {{wlan0}} {{eth0}} {{access_point_ssid}} {{passphrase}}`
+`create_ap --driver {{wifi_adapter}} {{wlan0}} {{eth0}} {{access_point_ssid}} {{passphrase}}`
