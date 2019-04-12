@@ -1,7 +1,7 @@
 # smartctl
 
 > View a disk's SMART data and other information.
-> See https://en.wikipedia.org/wiki/S.M.A.R.T for more information.
+> See [en.wikipedia.org/wiki/S.M.A.R.T.](https://en.wikipedia.org/wiki/S.M.A.R.T.) for more information.
 
 - View SMART health summary:
 
