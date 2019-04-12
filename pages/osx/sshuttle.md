@@ -2,6 +2,7 @@
 
 > Transparent proxy server that tunnels traffic over an SSH connection.
 > Doesn't require admin, or any special setup on the remote SSH server.
+> Homepage: <https://github.com/sshuttle/sshuttle>.
 
 - Forward all IPv4 TCP traffic via a remote SSH server:
 
