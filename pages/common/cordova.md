@@ -1,6 +1,7 @@
 # cordova
 
 > Mobile apps with HTML, CSS & JS.
+> Homepage: <https://cordova.apache.org/docs/en/latest/guide/cli/>.
 
 - Create a cordova project:
 
