@@ -1,6 +1,7 @@
 # trawl
 
 > Prints out network interface information to the console, much like ifconfig/ipconfig/ip/ifdata.
+> Homepage: <https://github.com/robphoenix/trawl>.
 
 - Show column names:
 
