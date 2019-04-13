@@ -97,7 +97,7 @@ using one of the template messages below as a base.
    That qualifies you to become a collaborator in this repository, as explained in our [community roles documentation](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md).
 
    As a collaborator, you will have commit access to the repository.
-   That means yoy can merge pull requests, label and close issues, and perform various other maintenance tasks that are needed here and there.
+   That means you can merge pull requests, label and close issues, and perform various other maintenance tasks that are needed here and there.
    Of course, all of this is voluntary — you're welcome to contribute to the project in whatever ways suit your liking.
 
    If you do decide to start performing maintenance tasks, though, we only ask you to get familiar with the [maintainer's guide](https://github.com/tldr-pages/tldr/blob/master/contributing-guides/maintainers-guide.md).
