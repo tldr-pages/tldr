@@ -2,13 +2,21 @@
 
 > Compress or decompress .xz and .lzma files.
 
-- Compress a file:
+- Compress a file to the xz file format:
 
 `xz {{file}}`
 
-- Decompress a file:
+- Decompress a xz file:
 
 `xz -d {{file.xz}}`
+
+- Compress a file to the lzma file format:
+
+`xz --format=lzma {{file}}`
+
+- Decompress a lzma file:
+
+`xz -d --format=lzma {{file.lzma}}`
 
 - Decompress a file and write to stdout:
 
