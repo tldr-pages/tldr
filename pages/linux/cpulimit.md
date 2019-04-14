@@ -9,7 +9,7 @@
 
 - Limit an existing program by its executable name instead of PID number:
 
-`cpulimit -e {{program}} -l 25`
+`cpulimit -e {{program}} -l {{25}}`
 
 - Launch a given program and limit it to only use 50% of the CPU:
 
