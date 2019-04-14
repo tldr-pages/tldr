@@ -6,7 +6,7 @@
 
 `script`
 
-- Record user's session to logfile named "session.out":
+- Record user's session to file named "session.out":
 
 `script session.out`
 
@@ -14,6 +14,6 @@
 
 `script -a session.out`
 
-- Record user's session to logfile for replay later:
+- Record user's session to file for replay later:
 
 `script -t`
