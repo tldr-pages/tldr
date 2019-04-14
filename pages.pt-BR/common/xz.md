@@ -2,13 +2,21 @@
 
 > Compactar ou descompactar arquivos com a extensão .xz ou .lzma.
 
-- Compactar um arquivo:
+- Compactar um arquivo no formato xz:
 
 `xz {{arquivo}}`
 
-- Descompactar um arquivo:
+- Descompactar um arquivo no formato xz:
 
 `xz -d {{arquivo.xz}}`
+
+- Compactar um arquivo no formato lzma:
+
+`xz --format=lzma {{arquivo}}`
+
+- Descompactar um arquivo no formato lzma:
+
+`xz -d --format=lzma {{arquivo.lzma}}`
 
 - Descompactar um arquivo e escrever a saída no terminal:
 
