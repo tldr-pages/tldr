@@ -5,7 +5,7 @@
 
 - Limit an existing process with PID 1234 to only use 25% of the CPU:
 
-`cpulimit -p 1234 -l 25%`
+`cpulimit -p {{1234}} -l {{25%}}`
 
 - Limit an existing program by its executable name instead of PID number:
 
