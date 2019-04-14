@@ -1,0 +1,23 @@
+<b>create_ap</b><br><br>
+<b>Create an AP (Access Point) at any channel.</b><br><br>
+- Create an open network with no passphrase:
+
+<blockquote>create_ap <i>wlan0</i> <i>eth0</i> <i>MyAccessPoint</i></blockquote>
+- Use a WPA + WPA2 passphrase:
+
+<blockquote>create_ap <i>wlan0</i> <i>eth0</i> <i>MyAccessPoint</i> <i>MyPassPhrase</i></blockquote>
+- Create an access point without Internet sharing:
+
+<blockquote>create_ap -n <i>wlan0</i> <i>MyAccessPoint</i> <i>MyPassPhrase</i></blockquote>
+- Create a bridged network with Internet sharing:
+
+<blockquote>create_ap -m bridge <i>wlan0</i> <i>eth0</i> <i>MyAccessPoint</i> <i>MyPassPhrase</i></blockquote>
+- Create a bridged network with Internet sharing and a pre-configured bridge interface:
+
+<blockquote>create_ap -m bridge <i>wlan0</i> <i>br0</i> <i>MyAccessPoint</i> <i>MyPassPhrase</i></blockquote>
+- Create an access port for Internet sharing from the same WiFi interface:
+
+<blockquote>create_ap <i>wlan0</i> <i>wlan0</i> <i>MyAccessPoint</i> <i>MyPassPhrase</i></blockquote>
+- Choose a different WiFi adapter driver:
+
+<blockquote>create_ap --driver <i>WifiAdapter</i> <i>wlan0</i> <i>eth0</i> <i>MyAccessPoint</i> <i>MyPassPhrase</i></blockquote>

@@ -1,0 +1,23 @@
+<b>chcon</b><br><br>
+<b>Change SELinux security context of a file or files/directories.</b><br><br>
+- View security context of a file:
+
+<blockquote>ls -lZ <i>path/to/file</i></blockquote>
+- Change the security context of a target file, using a reference file:
+
+<blockquote>chcon --reference=<i>reference_file</i> <i>target_file</i></blockquote>
+- Change the full SELinux security context of a file:
+
+<blockquote>chcon <i>user</i>:<i>role</i>:<i>type</i>:<i>range/level</i> <i>filename</i></blockquote>
+- Change only the user part of SELinux security context:
+
+<blockquote>chcon -u <i>user</i> <i>filename</i></blockquote>
+- Change only the role part of SELinux security context:
+
+<blockquote>chcon -r <i>role</i> <i>filename</i></blockquote>
+- Change only the type part of SELinux security context:
+
+<blockquote>chcon -t <i>type</i> <i>filename</i></blockquote>
+- Change only the range/level part of SELinux security context:
+
+<blockquote>chcon -l <i>range/level</i> <i>filename</i></blockquote>

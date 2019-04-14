@@ -1,0 +1,20 @@
+<b>arping</b><br><br>
+<b>Discover and probe hosts in a network using the ARP protocol.</b><br><br><b>Useful for MAC address discovery.</b><br><br>
+- Ping a host by ARP request packets:
+
+<blockquote>arping <i>host_ip</i></blockquote>
+- Ping a host on a specific interface:
+
+<blockquote>arping -I <i>interface</i> <i>host_ip</i></blockquote>
+- Ping a host and stop at the first reply:
+
+<blockquote>arping -f <i>host_ip</i></blockquote>
+- Ping a host a specific number of times:
+
+<blockquote>arping -c <i>count</i> <i>host_ip</i></blockquote>
+- Broadcast ARP request packets to update neighbours' ARP caches:
+
+<blockquote>arping -U <i>ip_to_broadcast</i></blockquote>
+- Detect duplicated IP addresses in the network by sending ARP requests with a 3 seconds timeout:
+
+<blockquote>arping -D -w <i>3</i> <i>ip_to_check</i></blockquote>
