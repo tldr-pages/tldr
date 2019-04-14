@@ -14,7 +14,7 @@
 
 `xz --format=lzma {{file}}`
 
-- Decompress a lzma file:
+- Decompress an lzma file:
 
 `xz -d --format=lzma {{file.lzma}}`
 
