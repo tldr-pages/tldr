@@ -93,20 +93,14 @@ using one of the template messages below as a base.
 
    ```
    Hi, @username! You seem to be enjoying contributing to the tldr-pages project.
-   You now have had five distinct pull requests merged ([LINKS TO THE RELEVANT PRs]),
-   which qualifies you to become a collaborator in this repository,
-   as explained in our
-   [community roles documentation](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md).
+   You now have had five distinct pull requests merged ([LINKS TO THE RELEVANT PRs])!
+   That qualifies you to become a collaborator in this repository, as explained in our [community roles documentation](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md).
 
-   As a collaborator, you will have commit access
-   and can therefore merge pull requests from others, label and close issues,
-   and perform various other maintenance tasks that are needed here and there.
-   Of course, all of this is voluntary
-   — you're welcome to contribute to the project in whatever ways suit your liking.
+   As a collaborator, you will have commit access to the repository.
+   That means you can merge pull requests, label and close issues, and perform various other maintenance tasks that are needed here and there.
+   Of course, all of this is voluntary — you're welcome to contribute to the project in whatever ways suit your liking.
 
-   If you do decide to start performing maintenance tasks, though,
-   we only ask you to get familiar with the
-   [maintainer's guide](https://github.com/tldr-pages/tldr/blob/master/contributing-guides/maintainers-guide.md).
+   If you do decide to start performing maintenance tasks, though, we only ask you to get familiar with the [maintainer's guide](https://github.com/tldr-pages/tldr/blob/master/contributing-guides/maintainers-guide.md).
 
    So, what do you say? Can we add you as a collaborator?
 
@@ -127,16 +121,12 @@ using one of the template messages below as a base.
 1. Open an issue with the following message template (edit it as appropriate):
 
    ```
-   Hi, @username! After joining as a collaborator in the repository,
-   you have been regularly performing maintenance tasks. Thank you for that!
-   According to
-   [COMMUNITY-ROLES.md](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md),
-   you've now met the thresholds to be effectively considered
-   an active maintainer of the project ([LINKS TO THE RELEVANT PRs]).
+   Hi, @username! After joining as a collaborator in the repository, you have been regularly performing maintenance tasks.
+   Thank you for that!
+   According to [COMMUNITY-ROLES.md](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md), you've now met the thresholds to be effectively considered an active maintainer of the project ([LINKS TO THE RELEVANT PRs]).
    To publicly acknowledge that fact, we'd like to add you to the tldr-pages organization.
 
-   If you accept the invitation, we ask you to make your membership public,
-   and (in case you don't already) start hanging out in our Gitter chat room.
+   If you accept the invitation, we ask you to make your membership public, and (in case you don't already) start hanging out in our Gitter chat room.
    You'll now be one of the public faces of the tldr-pages project.
 
    How does that sound? Are you up for it?
@@ -158,15 +148,10 @@ using one of the template messages below as a base.
    ```
    Hi, @username! You've been an active tldr-pages org member for over 6 months.
    Thanks for sticking around this far and helping out!
-   According to
-   [COMMUNITY-ROLES.md](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md),
-   you're now eligible for becoming an owner in the organization.
+   According to [COMMUNITY-ROLES.md](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md), you're now eligible for becoming an owner in the organization.
 
-   That means you will, from now on, be part of the team
-   responsible for performing role changes (like this one!) in the community.
-   Before performing such role transitions, make sure to review the
-   [COMMUNITY-ROLES.md](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md)
-   document.
+   That means you will, from now on, be part of the team responsible for performing role changes (like this one!) in the community.
+   Before performing such role transitions, make sure to review the [COMMUNITY-ROLES.md](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md) document.
    
    Is that OK with you? Let us know!
 
@@ -187,25 +172,16 @@ using one of the template messages below as a base.
 1. Open an issue with the following message template (edit it as appropriate):
 
    ```
-   Hi, @username! As you know, our
-   [community roles documentation](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md)
-   defines processes for keeping the list of organization members
-   in sync with the actual maintenance team.
-   Since you haven't been active in the project for a while now,
-   we'll be relieving you from the maintainer responsibilities.
+   Hi, @username! As you know, our [community roles documentation](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md) defines processes for keeping the list of organization members in sync with the actual maintenance team.
+   Since you haven't been active in the project for a while now, we'll be relieving you from the maintainer responsibilities.
 
-   In practice, not much will change on your side,
-   since you'll remain a collaborator in the repos you have been active in,
-   so **you will keep the ability to commit, merge PRs, label and close issues, etc.**,
-   whenever you feel so inclined. If you don't, that's all right too!
-   Every bit of work you already did for the tldr-pages project
-   was a voluntary gift of your time to this community, which is deeply appreciated.
-   Your efforts have contributed to a project
-   which helps hundreds of people every day — be proud of it!
+   In practice, not much will change on your side, since you'll remain a collaborator in the repos you have been active in.
+   That means **you will keep the ability to commit, merge PRs, label and close issues, etc.**, whenever you feel so inclined.
+   If you don't, that's all right too!
+   Every bit of work you already did for the tldr-pages project was a voluntary gift of your time to this community, which is deeply appreciated.
+   Your efforts have contributed to a project which helps hundreds of people every day — be proud of it!
 
-   And of course, you're welcome back anytime as an active maintainer, if you so choose
-   — in which case, just let us know and we'll re-add you to the organization,
-   in accordance to the principles of our governance guidelines.
+   And of course, you're welcome back anytime as an active maintainer, if you so choose — in which case, just let us know and we'll re-add you to the organization, in accordance to the principles of our governance guidelines.
    In any case, we wish you the best of luck in your new endeavors!
    ```
 
