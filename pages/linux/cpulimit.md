@@ -25,4 +25,4 @@
 
 - Launch a program and throttle both it and its child processes so that none go about 25% CPU:
 
-`cpulimit -l 25 -m {{program}}`
+`cpulimit -l {{25}} -m {{program}}`
