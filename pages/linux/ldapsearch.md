@@ -1,6 +1,6 @@
 # ldapsearch
 
-> ldapsearch is a CLI utility for querying an LDAP directory.    
+> CLI utility for querying an LDAP directory.
 
 - Query LDAP for all items that match filter "{{memberOf}}={{group1}}" and return {{displayName}}:
 
