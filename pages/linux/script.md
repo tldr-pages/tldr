@@ -16,4 +16,4 @@
 
 - Record user's session to file for replay later:
 
-`script -t 2> timingfile`
+`script -t 2> {{timingfile}}`
