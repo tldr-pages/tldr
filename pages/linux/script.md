@@ -2,7 +2,7 @@
 
 > Record all terminal output to file.
 
-- Record user's session to a file named "typescript" in current directory:
+- Record a new session to a file named `typescript` in the current directory:
 
 `script`
 
