@@ -30,6 +30,6 @@
 
 `ldapsearch -D '{{admin_DN}}' -w '{{password}}' -h {{ldap_host}} '(|(memberOf=group1)(memberOf=group1)(memberOf=group3))' {{displayName}}`
 
-- Query LDAP for all items that match filter "memberOf=group1 AND memberOf=group2 AND NOT memberOf=group3" and return {{displayName}} value for each item:
+- Combine multiple boolean logic filters:
 
 `ldapsearch -D '{{admin_DN}}' -w '{{password}}' -h {{ldap_host}} '(&(memberOf=group1)(memberOf=group2)(!(memberOf=group3)))' {{displayName}}`
