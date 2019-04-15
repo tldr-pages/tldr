@@ -14,6 +14,6 @@
 
 `script -a session.out`
 
-- Record user's session to file for replay later:
+- Record user's session to a file for replay later:
 
 `script -t 2> {{timingfile}}`
