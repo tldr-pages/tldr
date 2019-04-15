@@ -18,7 +18,7 @@
 
 `ldapsearch -D '{{admin_DN}}' -w '{{password}}' -h {{ldap_host}} -b {{base_ou}} '{{memberOf}}={{group1}}' -l 7 {{displayName}}`
 
-- Query LDAP for all items that DO NOT match filter "{{memberOf}}={{group1}}" and return {{displayName}}:
+- Invert the filter:
 
 `ldapsearch -D '{{admin_DN}}' -w '{{password}}' -h {{ldap_host}} -b {{base_ou}} '(!({{memberOf}}={{group1}}))' {{displayName}}`
 
