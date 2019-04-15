@@ -14,7 +14,7 @@
 
 `ldapsearch -D '{{admin_DN}}' -w '{{password}}' -h {{ldap_host}} -b {{base_ou}} '{{memberOf}}={{group1}}' -z 5 {{displayName}}`
 
-- Query LDAP for up-to 7 seconds for all items that match filter "{{memberOf}}={{group1}}" and return {{displayName}}:
+- Wait up to 7 seconds for a response:
 
 `ldapsearch -D '{{admin_DN}}' -w '{{password}}' -h {{ldap_host}} -b {{base_ou}} '{{memberOf}}={{group1}}' -l 7 {{displayName}}`
 
