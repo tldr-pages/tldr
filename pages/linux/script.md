@@ -8,7 +8,7 @@
 
 - Record user's session to a file named "session.out":
 
-`script session.out`
+`script {{path/to/session.out}}`
 
 - Record user's session, appending to existing "session.out":
 
