@@ -12,7 +12,7 @@
 
 - Record a new session, appending to an existing file:
 
-`script -a session.out`
+`script -a {{path/to/session.out}}`
 
 - Record timing information (data is outputted to the standard error):
 
