@@ -25,3 +25,7 @@
 - Output the value of a given key of each element in a JSON text from stdin:
 
 `cat {{file.json}} | jq 'map(.{{key_name}})'`
+
+- Output the value of a given key to a string:
+
+`cat {{file.json}} | jq --raw-output '"some text: \(.{{key_name}})"'`
