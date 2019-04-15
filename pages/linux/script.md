@@ -6,7 +6,7 @@
 
 `script`
 
-- Record a new session to custom filepath:
+- Record a new session to a custom filepath:
 
 `script {{path/to/session.out}}`
 
