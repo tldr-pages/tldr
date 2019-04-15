@@ -113,7 +113,7 @@ using one of the template messages below as a base.
 
 3. Open a PR adding their name to the "Current repository collaborators" section
    in [MAINTAINERS.md](MAINTAINERS.md).
-   Make sure to include "Closes #<issue number>" in the PR description.
+   Make sure to include `Closes #<issue number>` in the PR description.
    The issue will then be automatically closed once the PR is merged.
 
 ### Adding new organization members
@@ -138,7 +138,7 @@ using one of the template messages below as a base.
 
 3. Open a PR moving their name to the "Current organization members" section
    in [MAINTAINERS.md](MAINTAINERS.md).
-   Make sure to include "Closes #<issue number>" in the PR description.
+   Make sure to include `Closes #<issue number>` in the PR description.
    The issue will then be automatically closed once the PR is merged.
 
 ### Adding new organization owners
@@ -164,7 +164,7 @@ using one of the template messages below as a base.
 
 3. Open a PR moving their name to the "Current organization owners" section
    in [MAINTAINERS.md](MAINTAINERS.md).
-   Make sure to include "Closes #<issue number>" in the PR description.
+   Make sure to include `Closes #<issue number>` in the PR description.
    The issue will then be automatically closed once the PR is merged.
 
 ### Removing inactive organization members
@@ -191,7 +191,7 @@ using one of the template messages below as a base.
 
 3. Open a PR moving their name to the "Past organization owners" section
    in [MAINTAINERS.md](MAINTAINERS.md).
-   Make sure to include "Closes #<issue number>" in the PR description.
+   Make sure to include `Closes #<issue number>` in the PR description.
    The issue will then be automatically closed once the PR is merged.
 
 
