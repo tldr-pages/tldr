@@ -10,7 +10,7 @@
 
 `script {{path/to/session.out}}`
 
-- Record user's session, appending to existing "session.out":
+- Record a new session, appending to an existing file:
 
 `script -a session.out`
 
