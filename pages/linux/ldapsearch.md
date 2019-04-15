@@ -10,7 +10,7 @@
 
 `ldapsearch -D '{{admin_DN}}' -y '{{password_file}}' -h {{ldap_host}} -b {{base_ou}} '{{memberOf}}={{group1}}' {{displayName}}`
 
-- Query LDAP for up-to 5 items that match filter "{{memberOf}}={{group1}}" and return {{displayName}}:
+- Return the first 5 items that match the given filter:
 
 `ldapsearch -D '{{admin_DN}}' -w '{{password}}' -h {{ldap_host}} -b {{base_ou}} '{{memberOf}}={{group1}}' -z 5 {{displayName}}`
 
