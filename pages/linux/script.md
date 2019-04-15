@@ -6,7 +6,7 @@
 
 `script`
 
-- Record user's session to file named "session.out":
+- Record user's session to a file named "session.out":
 
 `script session.out`
 
