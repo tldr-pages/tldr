@@ -6,7 +6,7 @@
 
 `script`
 
-- Record user's session to a file named "session.out":
+- Record a new session to custom filepath:
 
 `script {{path/to/session.out}}`
 
