@@ -16,4 +16,4 @@
 
 - Record timing information (data is outputted to the standard error):
 
-`script -t 2> {{timingfile}}`
+`script -t 2> {{path/to/timingfile}}`
