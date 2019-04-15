@@ -26,7 +26,7 @@
 
 `ldapsearch -D '{{admin_DN}}' -w '{{password}}' -h {{ldap_host}} '(&(memberOf=group1)(memberOf=group2)(memberOf=group3))' "{{displayName}}"`
 
-- Query LDAP for all items that match filter "memberOf=group1 OR memberOf=group2 OR memberOf=group3" and return {{displayName}} value for each item:
+- Return all items that are members of at least 1 of the specified groups:
 
 `ldapsearch -D '{{admin_DN}}' -w '{{password}}' -h {{ldap_host}} '(|(memberOf=group1)(memberOf=group1)(memberOf=group3))' {{displayName}}`
 
