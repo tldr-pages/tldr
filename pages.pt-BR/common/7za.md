@@ -1,7 +1,7 @@
 # 7za
 
 > Um compactador de arquivos com alta taxa de compressão.
-> Versão com menos opções de tipos de arquivamento/compressão em relação ao `7z`.
+> Versão compacta do `7z`, com suporte para menos tipos de arquivamento/compressão.
 > Página oficial: <https://www.7-zip.org/>.
 
 - Compactar um arquivo ou diretório:
