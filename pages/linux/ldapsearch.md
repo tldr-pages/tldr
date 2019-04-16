@@ -6,7 +6,7 @@
 
 `ldapsearch -D '{{admin_DN}}' -w '{{password}}' -h {{ldap_host}} -b {{base_ou}} '{{memberOf}}={{group1}}' {{displayName}}`
 
-- Query an LDAP server with a no-newline password file and return {{displayName}}:
+- Query an LDAP server with a no-newline password file for all items that are a member of the given group and return the object's {{displayName}} value:
 
 `ldapsearch -D '{{admin_DN}}' -y '{{password_file}}' -h {{ldap_host}} -b {{base_ou}} '{{memberOf}}={{group1}}' {{displayName}}`
 
