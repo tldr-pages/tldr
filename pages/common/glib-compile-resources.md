@@ -11,9 +11,9 @@
 
 `glib-compile-resources --generate-source {{file.gresource.xml}}`
 
-- Compile resources in "file.gresource.xml" to a user-named C source file:
+- Compile resources in "file.gresource.xml" to a chosen target file, with .c, .h or .gresource extension:
 
-`glib-compile-resources --generate --target={{file.c}} {{file.gresource.xml}}`
+`glib-compile-resources --generate --target={{file.ext}} {{file.gresource.xml}}`
 
 - Print a list of resource files referenced in "file.gresource.xml":
 
