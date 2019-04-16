@@ -1,7 +1,7 @@
 # 7zr
 
 > Um compactador de arquivos com alta taxa de compressão.
-> Versão do `7z` com suporte apenas para o formato 7z.
+> Versão do `7z` com suporte apenas para o formato .7z.
 > Página oficial: <https://www.7-zip.org/>.
 
 - Compactar um arquivo ou diretório:
