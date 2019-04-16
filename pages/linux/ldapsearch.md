@@ -2,7 +2,7 @@
 
 > CLI utility for querying an LDAP directory.
 
-- Query an LDAP server for all items that match filter "{{memberOf}}={{group1}}" and return the object's {{displayName}} value:
+- Query an LDAP server for all items that are a member of the given group and return the object's {{displayName}} value:
 
 `ldapsearch -D '{{admin_DN}}' -w '{{password}}' -h {{ldap_host}} -b {{base_ou}} '{{memberOf}}={{group1}}' {{displayName}}`
 
