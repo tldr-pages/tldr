@@ -1,9 +1,9 @@
 # fossa
 
-> Fossa CLI - Fast, portable and reliable dependency analysis.
+> Fossa CLI - Integrate realtime license audits, vulnerability scans and reports about dependencies licenses.
 > Homepage: <https://github.com/fossas/fossa-cli>.
 
-- Initialize a .fossa.yml configuration file:
+- Initialize a {{.fossa.yml}} configuration file:
 
 `fossa init`
 
@@ -19,6 +19,6 @@
 
 `fossa report`
 
-- Test current revision against FOSSA scan status and exit with errors if issues are found:
+- Test current revision against the FOSSA scan status and exit with errors if issues are found:
 
 `fossa test`
