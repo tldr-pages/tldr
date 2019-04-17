@@ -1,8 +1,8 @@
 # crystal
 
-> Tool for managing crystal source code.
+> Tool for managing Crystal source code.
 
-- Run a crystal file:
+- Run a Crystal file:
 
 `crystal {{path/to/file.cr}}`
 
@@ -14,7 +14,7 @@
 
 `crystal play`
 
-- Create a project directory for a crystal application:
+- Create a project directory for a Crystal application:
 
 `crystal init app {{application_name}}`
 
