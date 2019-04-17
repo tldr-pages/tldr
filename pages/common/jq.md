@@ -25,3 +25,7 @@
 - Output the value of a given key of each element in a JSON text from stdin:
 
 `cat {{file.json}} | jq 'map(.{{key_name}})'`
+
+- Combine multiple filters:
+
+`cat {{file.json}} | jq 'unique | sort | reverse`
