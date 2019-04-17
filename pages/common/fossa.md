@@ -3,7 +3,7 @@
 > Fossa CLI - Integrate realtime license audits, vulnerability scans and reports about dependencies licenses.
 > Homepage: <https://github.com/fossas/fossa-cli>.
 
-- Initialize a {{.fossa.yml}} configuration file:
+- Initialize a `.fossa.yml` configuration file:
 
 `fossa init`
 
