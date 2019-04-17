@@ -1,12 +1,12 @@
 # 7za
 
 > Um compactador de arquivos com alta taxa de compressão.
-> Versão do `7z` com suporte para poucos tipos de arquivamento/compressão.
+> Versão compacta do `7z`, com suporte para menos tipos de arquivamento/compressão.
 > Página oficial: <https://www.7-zip.org/>.
 
 - Compactar um arquivo ou diretório:
 
-`7za a {{arquivo_compactado.7z}} {{caminho/arquivo_ou_diretorio}}`
+`7za a {{arquivo_compactado.7z}} {{caminho/arquivo_ou_diretório}}`
 
 - Descompactar um arquivo mantendo a estrutura de diretórios original:
 
@@ -14,7 +14,7 @@
 
 - Compactar utilizando um tipo específico de arquivamento/compressão:
 
-`7za a -t{{zip|gzip|bzip2|tar}} {{arquivo_compactado.7z}} {{caminho/arquivo_ou_diretorio}}`
+`7za a -t{{zip|gzip|bzip2|tar}} {{arquivo_compactado.7z}} {{caminho/arquivo_ou_diretório}}`
 
 - Exibir os tipos de arquivamento/compressão disponíveis:
 
