@@ -8,4 +8,4 @@
 
 - Load a previously dumped file into `/var/log/wtmp`:
 
-`utmpdump -r {{dumpfile}} > {{/var/log/wtmp}`
+`utmpdump -r {{dumpfile}} > {{/var/log/wtmp}}`
