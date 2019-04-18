@@ -12,4 +12,4 @@
 
 - Replay {{typescript_file}} at half-speed:
 
-`scriptreplay {{path/to/timingfile}} {{path/to/session.out}} .5`
+`scriptreplay {{path/to/timingfile}} {{path/to/typescript}} 0.5`
