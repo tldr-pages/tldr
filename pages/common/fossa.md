@@ -1,6 +1,6 @@
 # fossa
 
-> Fossa CLI - Integrate realtime license audits, vulnerability scans and reports about dependencies licenses.
+> CLI for the Fossa service - Generate realtime license audits, vulnerability scans and reports about dependencies licenses.
 > Homepage: <https://github.com/fossas/fossa-cli>.
 
 - Initialize a `.fossa.yml` configuration file:
