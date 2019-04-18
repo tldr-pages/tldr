@@ -19,6 +19,6 @@
 
 `gops stack {{pid|addr}}`
 
-- Print the current memory stats:
+- Print the current runtime memory statistics:
 
 `gops memstats {{pid|addr}}`
