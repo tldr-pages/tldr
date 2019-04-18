@@ -6,7 +6,7 @@
 
 `scriptreplay {{path/to/timing_file}} {{path/to/typescript}}`
 
-- Replay {{typescript_file}} at double-speed:
+- Replay a typescript at double the original speed:
 
 `scriptreplay {{path/to/timingfile}} {{path/to/session.out}} 2`
 
