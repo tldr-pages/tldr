@@ -28,4 +28,4 @@
 
 - Combine multiple filters:
 
-`cat {{file.json}} | jq 'unique | sort | reverse`
+`cat {{file.json}} | jq 'unique | sort | reverse'`
