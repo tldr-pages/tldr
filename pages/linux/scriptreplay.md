@@ -4,7 +4,7 @@
 
 - Replay a typescript at the speed it was recorded:
 
-`scriptreplay {{path/to/timingfile}} {{path/to/session.out}}`
+`scriptreplay {{path/to/timing_file}} {{path/to/typescript}}`
 
 - Replay {{typescript_file}} at double-speed:
 
