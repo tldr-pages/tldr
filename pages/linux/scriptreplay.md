@@ -2,7 +2,7 @@
 
 > Output content of session files created by script command to standard output.
 
-- Replay {{path/to/session.out}} at the speed it was recorded:
+- Replay a typescript at the speed it was recorded:
 
 `scriptreplay {{path/to/timingfile}} {{path/to/session.out}}`
 
