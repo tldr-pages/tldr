@@ -6,6 +6,6 @@
 
 `utmpdump {{/var/log/wtmp}}`
 
-- Load previously dumped {{dumpfile}} into {{/var/log/wtmp}:
+- Load a previously dumped file into `/var/log/wtmp`:
 
 `utmpdump -r {{dumpfile}} > {{/var/log/wtmp}`
