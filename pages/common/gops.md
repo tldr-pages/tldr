@@ -17,8 +17,8 @@
 
 - Print the current stack trace from a target program:
 
-`gops stack {{pid}}|{{addr}}`
+`gops stack {{pid|addr}}`
 
 - Print the current memory stats:
 
-`gops memstats {{pid}}|{{addr}}`
+`gops memstats {{pid|addr}}`
