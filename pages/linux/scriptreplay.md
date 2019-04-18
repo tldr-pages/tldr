@@ -1,6 +1,6 @@
 # scriptreplay
 
-> Output content of session files created by script command to standard output.
+> Replay a typescript created by the script command to standard output.
 
 - Replay a typescript at the speed it was recorded:
 
