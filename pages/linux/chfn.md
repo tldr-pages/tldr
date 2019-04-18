@@ -1,6 +1,6 @@
 # chfn
 
-> Update finger info for a user.
+> Update `finger` info for a user.
 
 - Update user's "Name" field in `finger` output:
 
