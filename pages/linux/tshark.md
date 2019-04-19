@@ -8,7 +8,7 @@
 
 - Capture only specific packets:
 
-`tshark -f 'udp port 53'`
+`tshark -f '{{udp port 53}}'`
 
 - Only output captured packets matching a specific wireshark filter:
 
