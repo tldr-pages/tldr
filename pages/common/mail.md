@@ -5,28 +5,28 @@
 
 - Send a typed email message. The commandline below continues after pressing Enter key. Input CC email-id (optional) press Enter key. Input message text (can be multi-line). Press "Ctrl-D" key to complete the message text:
 
-`mail -s{{"subject line"}} {{to_user@example.com}}`
+`mail --subject={{"subject line"}} {{to_user@example.com}}`
 
-- Send email that contains file content:
+- Send an email that contains file content:
 
-`mail -s {{"$HOSTNAME filename.txt"}} {{to_user@example.com}} <{{filename.txt}}`
+`mail --subject={{"$HOSTNAME filename.txt"}} {{to_user@example.com}} < {{path/to/filename.txt}}`
 
-- Send email that contains command output:
+- Send an email that contains command output:
 
-`cat {{filename.txt}} | mail -s {{"$HOSTNAME filename.txt"}} {{to_user@example.com}}`
+`cat {{path/to/filename.txt}} | mail --subject={{"$HOSTNAME path/to/filename.txt"}} {{to_user@example.com}}`
 
-- Send email after an end of long running process:
+- Send an email at the end of a long running process:
 
-`{{command}} ; echo {{"job done"}} | mail -s{{"job done"}} {{to_user@example.com}}`
+`{{command}} ; echo {{"job done"}} | mail --subject={{"job done"}} {{to_user@example.com}}`
 
-- Send email at the end of shell script:
+- Shell function to send a notification email that contains output of a command:
 
-`notifyemail() { echo "$*" | mail -s {{"$*"}} {{to_user@example.com; }}}`
+`notifyemail() { echo "$*" | mail --subject={{"$*"}} {{to_user@example.com; }}}`
 
-- Send SMS remainder after 15 minutes:
+- Send a SMS remainder after 15 minutes:
 
-`echo 'mail -s {{"Call your wife" 13125551234@mobile_carrier.net}}' | at now+15min`
+`echo 'mail --subject={{"Call your wife"}} {{13125551234@mobile_carrier.net}}' | at now+15min`
 
-- Send tar.gz file as an attachment:
+- Send a tar.gz file as an attachment:
 
-`tar cvzf - {{directory1 directory2}} | uuencode {{data.tar.gz}} | mail -s {{data}} {{to_user@example.com}}`
+`tar cvzf - {{path/to/directory1 path/to/directory2}} | uuencode {{data.tar.gz}} | mail --subject={{"subject line"}} {{to_user@example.com}}`
