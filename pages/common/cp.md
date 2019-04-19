@@ -10,17 +10,13 @@
 
 `cp {{path/to/file.ext}} {{path/to/target_parent_directory}}`
 
-- Copy a directory recursively to another location:
+- Recursively copy a directory's contents to another location (if the destination exists, the directory is copied inside it):
 
 `cp -r {{path/to/directory}} {{path/to/copy}}`
 
 - Copy a directory recursively, in verbose mode (shows files as they are copied):
 
 `cp -vr {{path/to/directory}} {{path/to/copy}}`
-
-- Copy the contents of a directory into another directory:
-
-`cp -r {{path/to/source_directory/*}} {{path/to/target_directory}}`
 
 - Copy text files to another location, in interactive mode (prompts user before overwriting):
 
