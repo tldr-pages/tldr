@@ -15,7 +15,7 @@
 
 `mkcert {{example.org}} {{myapp.dev}} {{127.0.0.1}}`
 
-- Generate wildcard certificate and private key for the given domain:
+- Generate wildcard certificate and private key for the given domain and its subdomains:
 
 `mkcert {{"*.example.it"}}`
 
