@@ -10,6 +10,6 @@
 
 `scriptreplay {{path/to/timingfile}} {{path/to/typescript}} 2`
 
-- Replay {{typescript_file}} at half-speed:
+- Replay a typescript at half the original speed:
 
 `scriptreplay {{path/to/timingfile}} {{path/to/typescript}} 0.5`
