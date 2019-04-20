@@ -1,4 +1,4 @@
-# alias
+# mkcert
 
 > Tool for making locally-trusted development certificates.
 > Homepage: <https://github.com/FiloSottile/mkcert>.
