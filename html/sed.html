@@ -1,9 +1,9 @@
 <b>sed</b><br><br>
 <b>Edit text in a scriptable manner.</b><br><br>
-- Replace the first occurrence of a string in a file, and print the result:
+- Replace the first occurrence of a regular expression in each line of a file, and print the result:
 
-<blockquote>sed 's/<i>find</i>/<i>replace</i>/' <i>filename</i></blockquote>
-- Replace all occurrences of an extended regular expression in a file:
+<blockquote>sed 's/<i>regex</i>/<i>replace</i>/' <i>filename</i></blockquote>
+- Replace all occurrences of an extended regular expression in a file, and print the result:
 
 <blockquote>sed -r 's/<i>regex</i>/<i>replace</i>/g' <i>filename</i></blockquote>
 - Replace all occurrences of a string in a file, overwriting the file (i.e. in-place):
@@ -12,6 +12,9 @@
 - Replace only on lines matching the line pattern:
 
 <blockquote>sed '/<i>line_pattern</i>/s/<i>find</i>/<i>replace</i>/' <i>filename</i></blockquote>
+- Delete lines matching the line pattern:
+
+<blockquote>sed '/<i>line_pattern</i>/d' <i>filename</i></blockquote>
 - Print only text between n-th line till the next empty line:
 
 <blockquote>sed -n '<i>n</i>,/^$/p' <i>filename</i></blockquote>

@@ -7,9 +7,9 @@
 
 `sox -m {{input_audiofile1}} {{input_audiofile2}} {{output_audiofile}}`
 
-- Trim an audio file, providing the start point and the length of the new clip:
+- Trim an audio file to the specified times:
 
-`sox {{input_audiofile}} {{output_audiofile}} trim {{start}} {{length}}`
+`sox {{input_audiofile}} {{output_audiofile}} trim {{start}} {{end}}`
 
 - Normalize an audio file (adjust volume to the maximum peak level, without clipping):
 
@@ -23,6 +23,6 @@
 
 `sox {{input_audiofile}} -n stat`
 
-- Increase the volume of an audio file by 2x
+- Increase the volume of an audio file by 2x:
 
 `sox -v 2.0 {{input_audiofile}} {{output_audiofile}}`

@@ -1,20 +1,17 @@
 <b>cp</b><br><br>
-<b>Copy files and folders.</b><br><br>
+<b>Copy files and directories.</b><br><br>
 - Copy a file to another location:
 
 <blockquote>cp <i>path/to/file.ext</i> <i>path/to/copy.ext</i></blockquote>
-- Copy a file into another folder, keeping the filename:
+- Copy a file into another directory, keeping the filename:
 
-<blockquote>cp <i>path/to/file.ext</i> <i>path/to/target_parent_folder</i></blockquote>
-- Copy a folder recursively to another location:
+<blockquote>cp <i>path/to/file.ext</i> <i>path/to/target_parent_directory</i></blockquote>
+- Recursively copy a directory's contents to another location (if the destination exists, the directory is copied inside it):
 
-<blockquote>cp -r <i>path/to/folder</i> <i>path/to/copy</i></blockquote>
-- Copy a folder recursively, in verbose mode (shows files as they are copied):
+<blockquote>cp -r <i>path/to/directory</i> <i>path/to/copy</i></blockquote>
+- Copy a directory recursively, in verbose mode (shows files as they are copied):
 
-<blockquote>cp -vr <i>path/to/folder</i> <i>path/to/copy</i></blockquote>
-- Copy the contents of a folder into another folder:
-
-<blockquote>cp -r <i>path/to/source_folder/*</i> <i>path/to/target_folder</i></blockquote>
+<blockquote>cp -vr <i>path/to/directory</i> <i>path/to/copy</i></blockquote>
 - Copy text files to another location, in interactive mode (prompts user before overwriting):
 
-<blockquote>cp -i <i>*.txt</i> <i>path/to/target_folder</i></blockquote>
+<blockquote>cp -i <i>*.txt</i> <i>path/to/target_directory</i></blockquote>

@@ -6,12 +6,12 @@
 - Optimize a file and save the result to another file:
 
 <blockquote>svgo <i>test.svg</i> <i>test.min.svg</i></blockquote>
-- Optimize all SVG files within a folder (overwrites the original files):
+- Optimize all SVG files within a directory (overwrites the original files):
 
-<blockquote>svgo -f <i>path/to/folder/with/svg/files</i></blockquote>
-- Optimize all SVG files within a folder and save the resulting files to another folder:
+<blockquote>svgo -f <i>path/to/directory/with/svg/files</i></blockquote>
+- Optimize all SVG files within a directory and save the resulting files to another directory:
 
-<blockquote>svgo -f <i>path/to/input/folder</i> -o <i>path/to/output/folder</i></blockquote>
+<blockquote>svgo -f <i>path/to/input/directory</i> -o <i>path/to/output/directory</i></blockquote>
 - Optimize SVG content passed from another command, and save the result to a file:
 
 <blockquote><i>cat test.svg</i> | svgo -i - -o <i>test.min.svg</i></blockquote>

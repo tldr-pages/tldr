@@ -6,9 +6,9 @@
 
 `restic init -r {{path/to/repository}}`
 
-- Backup folder "my_folder" to the repository:
+- Backup a directory to the repository:
 
-`restic -r {{path/to/repository}} backup {{path/to/my_folder}}`
+`restic -r {{path/to/repository}} backup {{path/to/directory}}`
 
 - Show backup snapshots currently stored in the repository:
 

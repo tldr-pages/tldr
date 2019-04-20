@@ -8,7 +8,7 @@
 
 - Give the user rights to [r]ead and [w]rite to a file/directory:
 
-`chmod u+rw {{file}}`
+`chmod u+rw {{file_or_directory}}`
 
 - Remove executable rights from the [g]roup:
 

@@ -10,7 +10,7 @@
 
 `spike watch`
 
-- Compile your project once to the "public" folder:
+- Compile your project once to the "public" directory:
 
 `spike compile`
 

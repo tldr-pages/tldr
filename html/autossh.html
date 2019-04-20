@@ -11,7 +11,7 @@
 <blockquote>autossh -f -M <i>monitor_port</i> -N <i>ssh_command</i></blockquote>
 - Run autossh in the background, with no monitoring port, instead relying on SSH keep-alives every 10 seconds to detect failure:
 
-<blockquote>autossh -f -M 0 -N -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3"  <i>ssh_command</i></blockquote>
+<blockquote>autossh -f -M 0 -N -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3" <i>ssh_command</i></blockquote>
 - Run autossh in the background, with no monitoring port, no remote shell, exiting if the port forward fails:
 
 <blockquote>autossh -f -M 0 -N -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3" -o ExitOnForwardFailure=yes -L <i>local_port</i>:localhost:<i>remote_port</i> <i>user</i>@<i>host</i></blockquote>

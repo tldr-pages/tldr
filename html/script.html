@@ -1,17 +1,14 @@
 <b>script</b><br><br>
-<b>Make a typescript file of a terminal session.</b><br><br>
-- Start recording in file named "typescript":
+<b>Record all terminal output to file.</b><br><br>
+- Record a new session to a file named `typescript` in the current directory:
 
 <blockquote>script</blockquote>
-- Stop recording:
+- Record a new session to a custom filepath:
 
-<blockquote>exit</blockquote>
-- Start recording in a given file:
+<blockquote>script <i>path/to/session.out</i></blockquote>
+- Record a new session, appending to an existing file:
 
-<blockquote>script <i>logfile.log</i></blockquote>
-- Append to an existing file:
+<blockquote>script -a <i>path/to/session.out</i></blockquote>
+- Record timing information (data is outputted to the standard error):
 
-<blockquote>script -a <i>logfile.log</i></blockquote>
-- Execute quietly without start and done messages:
-
-<blockquote>script -q <i>logfile.log</i></blockquote>
+<blockquote>script -t 2> <i>path/to/timingfile</i></blockquote>

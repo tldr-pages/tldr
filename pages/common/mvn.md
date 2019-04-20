@@ -19,7 +19,7 @@
 
 `mvn install`
 
-- Delete build artifacts from the target folder:
+- Delete build artifacts from the target directory:
 
 `mvn clean`
 

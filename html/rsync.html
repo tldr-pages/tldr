@@ -11,13 +11,13 @@
 <blockquote>rsync -azvhP <i>path/to/file</i> <i>remote_host_name</i>:<i>remote_host_location</i></blockquote>
 - Transfer a directory and all its children from a remote to local:
 
-<blockquote>rsync -r <i>remote_host_name</i>:<i>remote_folder_location</i> <i>local_folder_location</i></blockquote>
+<blockquote>rsync -r <i>remote_host_name</i>:<i>remote_directory_location</i> <i>local_directory_location</i></blockquote>
 - Transfer directory contents (but not the directory itself) from a remote to local:
 
 <blockquote>rsync -r <i>remote_host_name</i>:<i>remote_folder_location</i>/ <i>local_folder_location</i></blockquote>
 - Transfer only updated files from remote host:
 
-<blockquote>rsync -ru <i>remote_host_name</i>:<i>remote_folder_location</i> <i>local_folder_location</i></blockquote>
+<blockquote>rsync -ru <i>remote_host_name</i>:<i>remote_directory_location</i> <i>local_directory_location</i></blockquote>
 - Transfer file over SSH and delete local files that do not exist on remote host:
 
 <blockquote>rsync -e ssh --delete <i>remote_host_name</i>:<i>remote_file</i> <i>local_file</i></blockquote>

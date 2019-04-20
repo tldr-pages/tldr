@@ -15,10 +15,10 @@
 
 `pm2 monit`
 
-- Stop process:
+- Stop a process:
 
 `pm2 stop {{myapp}}`
 
-- Restart process:
+- Restart a process:
 
 `pm2 restart {{myapp}}`

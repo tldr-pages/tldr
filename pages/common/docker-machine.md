@@ -1,6 +1,7 @@
 # docker-machine
 
 > Create and manage machines running Docker.
+> Homepage: <https://docs.docker.com/machine/reference/>.
 
 - List currently running docker machines:
 

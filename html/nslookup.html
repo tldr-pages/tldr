@@ -6,16 +6,16 @@
 - Query a given name server for a NS record of the domain:
 
 <blockquote>nslookup -type=NS <i>example.com</i> <i>8.8.8.8</i></blockquote>
-- Query default name server for a reverse lookup (PTR record) of an IP address:
+- Query for a reverse lookup (PTR record) of an IP address:
 
 <blockquote>nslookup -type=PTR <i>54.240.162.118</i></blockquote>
-- Query your system's default name server for ANY available records using TCP protocol:
+- Query for ANY available records using TCP protocol:
 
 <blockquote>nslookup -vc -type=ANY <i>example.com</i> </blockquote>
 - Query a given name server for the whole zone file (zone transfer) of the domain using TCP protocol:
 
 <blockquote>nslookup -vc -type=AXFR <i>example.com</i> <i>name_server</i></blockquote>
-- Query default name server for a mail server (MX record) of the domain, showing details of the transaction:
+- Query for a mail server (MX record) of the domain, showing details of the transaction:
 
 <blockquote>nslookup -type=MX -debug <i>example.com</i></blockquote>
 - Query a given name server on a specific port number for a TXT record of the domain:

@@ -2,13 +2,13 @@
 <b>Lists open files and the corresponding processes.</b><br><br><b>Note: Root privileges (or sudo) is required to list files opened by others.</b><br><br>
 - Find the processes that have a given file open:
 
-<blockquote>lsof <i>/path/to/file</i></blockquote>
+<blockquote>lsof <i>path/to/file</i></blockquote>
 - Find the process that opened a local internet port:
 
 <blockquote>lsof -i :<i>port</i></blockquote>
 - Only output the process ID (PID):
 
-<blockquote>lsof -t <i>/path/to/file</i></blockquote>
+<blockquote>lsof -t <i>path/to/file</i></blockquote>
 - List files opened by the given user:
 
 <blockquote>lsof -u <i>username</i></blockquote>
@@ -18,3 +18,6 @@
 - List files opened by a specific process, given its PID:
 
 <blockquote>lsof -p <i>PID</i></blockquote>
+- List open files in a directory:
+
+<blockquote>lsof +D <i>path/to/directory</i></blockquote>

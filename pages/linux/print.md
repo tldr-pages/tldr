@@ -1,4 +1,4 @@
-# print 
+# print
 
 > An alias to a `run-mailcap`'s action print.
 > Originally `run-mailcap` is used to process mime-type/file.

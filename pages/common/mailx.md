@@ -2,7 +2,7 @@
 
 > Send and receive mail.
 
-- Send mail (the content should be typed after the command, and ended with Control-D):
+- Send mail (the content should be typed after the command, and ended with `Ctrl+D`):
 
 `mailx -s "{{subject}}" {{to_addr}}`
 

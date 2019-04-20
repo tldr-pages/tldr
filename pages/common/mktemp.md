@@ -8,7 +8,7 @@
 
 - Create a temporary directory and return the absolute path to it:
 
-`mktemp --directory`
+`mktemp -d`
 
 - Create a temporary file with a specified suffix:
 

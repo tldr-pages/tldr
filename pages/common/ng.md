@@ -2,7 +2,7 @@
 
 > Command Line Interface (CLI) for creating and managing Angular applications.
 
-- Create a new Angular application inside a folder:
+- Create a new Angular application inside a directory:
 
 `ng new {{project_name}}`
 

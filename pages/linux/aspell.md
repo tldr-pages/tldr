@@ -6,7 +6,7 @@
 
 `aspell check {{path/to/file}}`
 
-- List mispelled words from standard input:
+- List misspelled words from standard input:
 
 `cat {{file}} | aspell list`
 
@@ -18,6 +18,6 @@
 
 `aspell --lang={{cs}}`
 
-- List mispelled words from standard input and ignore words from personal word list:
+- List misspelled words from standard input and ignore words from personal word list:
 
 `cat {{file}} | aspell --personal={{personal-word-list.pws}} {{list}}`

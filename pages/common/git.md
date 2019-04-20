@@ -1,27 +1,20 @@
 # git
 
 > Distributed version control system.
+> Homepage: <https://git-scm.com/>.
 
-- Show file changes:
+- Check the Git version:
 
-`git status`
+`git --version`
 
-- Track file changes:
+- Call general help:
 
-`git add {{file}}`
+`git --help`
 
-- Commit file changes:
+- Call help on a command:
 
-`git commit -m "{{message}}"`
+`git help {{command}}`
 
-- Upload changes to remote repository:
+- Execute Git command:
 
-`git push {{remote repository}} {{branch}}`
-
-- Switch to a branch:
-
-`git checkout {{branch}}`
-
-- Create a new branch:
-
-`git checkout -b {{branch}}`
+`git {{command}}`

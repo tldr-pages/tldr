@@ -1,5 +1,5 @@
 <b>git diff</b><br><br>
-<b>Show changes to tracked files.</b><br><br>
+<b>Show changes to tracked files.</b><br><br><b>Homepage: <a href="https://git-scm.com/docs/git-diff">home page</a></b><br><br>
 - Show unstaged, uncommitted changes:
 
 <blockquote>git diff</blockquote>
@@ -9,6 +9,9 @@
 - Show only staged (added, but not yet committed) changes:
 
 <blockquote>git diff --staged</blockquote>
+- Show changes from all commits since a given date/time (a date expression, e.g. "1 week 2 days" or an ISO date):
+
+<blockquote>git diff 'HEAD@{3 months|weeks|days|hours|seconds ago}'</blockquote>
 - Show only names of changed files since a given commit:
 
 <blockquote>git diff --name-only <i>commit</i></blockquote>
@@ -17,10 +20,10 @@
 <blockquote>git diff --summary <i>commit</i></blockquote>
 - Create a patch file:
 
-<blockquote>git diff > <i>target_file</i>.patch</blockquote>
+<blockquote>git diff > <i>target_file</i">home page</a>patch</blockquote>
 - Compare a single file between two branches or commits:
 
-<blockquote>git diff <i>branch_1</i>..<i>branch_2</i> [--] <i>path/to/file</i></blockquote>
+<blockquote>git diff <i>branch_1</i">home page</a>.<i>branch_2</i> [--] <i>path/to/file</i></blockquote>
 - Compare different files from the current branch to other branch:
 
 <blockquote>git diff <i>branch</i>:<i>path/to/file2</i> <i>path/to/file</i></blockquote>

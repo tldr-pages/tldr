@@ -17,7 +17,7 @@
 
 - Transfer a directory and all its children from a remote to local:
 
-`rsync -r {{remote_host_name}}:{{remote_folder_location}} {{local_folder_location}}`
+`rsync -r {{remote_host_name}}:{{remote_directory_location}} {{local_directory_location}}`
 
 - Transfer directory contents (but not the directory itself) from a remote to local:
 
@@ -25,7 +25,7 @@
 
 - Transfer only updated files from remote host:
 
-`rsync -ru {{remote_host_name}}:{{remote_folder_location}} {{local_folder_location}}`
+`rsync -ru {{remote_host_name}}:{{remote_directory_location}} {{local_directory_location}}`
 
 - Transfer file over SSH and delete local files that do not exist on remote host:
 

@@ -22,3 +22,7 @@
 - Run Haskell interactive interpreter (REPL):
 
 `ghci`
+
+- Evaluate a single expression:
+
+`ghc -e {{expression}}`

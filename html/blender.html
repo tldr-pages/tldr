@@ -1,23 +1,23 @@
 <b>blender</b><br><br>
-<b>Command-line interface to the Blender 3D computer graphics application.</b><br><br><b>Arguments are executed in the order they are given.</b><br><br>
+<b>Command-line interface to the Blender 3D computer graphics application.</b><br><br><b>Arguments are executed in the order they are given.</b><br><br><b>Homepage: <a href="https://docs.blender.org/manual/en/latest/render/workflows/command_line.html">home page</a></b><br><br>
 - Render all frames of an animation in the background, without loading the UI (output is saved to `/tmp`):
 
-<blockquote>blender -b <i>filename</i>.blend -a</blockquote>
+<blockquote>blender -b <i>filename</i">home page</a>blend -a</blockquote>
 - Render an animation using a specific image naming pattern, in a path relative (`//`) to the .blend file:
 
-<blockquote>blender -b <i>filename</i>.blend -o //<i>render/frame_###.png</i> -a</blockquote>
-- Render the 10th frame of an animation as a single image, saved to an existing folder (absolute path):
+<blockquote>blender -b <i>filename</i">home page</a>blend -o //<i>render/frame_###.png</i> -a</blockquote>
+- Render the 10th frame of an animation as a single image, saved to an existing directory (absolute path):
 
-<blockquote>blender -b <i>filename</i>.blend -o <i>/path/to/output_folder</i> -f <i>10</i></blockquote>
-- Render the second last frame in an animation as a JPEG image, saved to an existing folder (relative path):
+<blockquote>blender -b <i>filename</i">home page</a>blend -o <i>/path/to/output_directory</i> -f <i>10</i></blockquote>
+- Render the second last frame in an animation as a JPEG image, saved to an existing directory (relative path):
 
-<blockquote>blender -b <i>filename</i>.blend -o //<i>output_folder</i> -F <i>JPEG</i> -f <i>-2</i></blockquote>
+<blockquote>blender -b <i>filename</i">home page</a>blend -o //<i>output_directory</i> -F <i>JPEG</i> -f <i>-2</i></blockquote>
 - Render the animation of a specific scene, starting at frame 10 and ending at frame 500:
 
-<blockquote>blender -b <i>filename</i>.blend -S <i>scene_name</i> -s <i>10</i> -e <i>500</i> -a</blockquote>
+<blockquote>blender -b <i>filename</i">home page</a>blend -S <i>scene_name</i> -s <i>10</i> -e <i>500</i> -a</blockquote>
 - Render an animation at a specific resolution, by passing a Python expression:
 
-<blockquote>blender -b <i>filename</i>.blend --python-expr '<i>import bpy; bpy.data.scenes[0].render.resolution_percentage = 25</i>' -a</blockquote>
+<blockquote>blender -b <i>filename</i">home page</a>blend --python-expr '<i>import bpy; bpy.data.scenes[0].render.resolution_percentage = 25</i>' -a</blockquote>
 - Start an interactive Blender session in the terminal with a python console (do `import bpy` after starting):
 
 <blockquote>blender -b --python-console</blockquote>

@@ -1,11 +1,11 @@
 <b>watch</b><br><br>
-<b>Execute a program periodically, showing output fullscreen.</b><br><br>
-- Repeatedly run a command and show the result:
+<b>Execute a command repeatedly, and monitor the output in full-screen mode.</b><br><br>
+- Monitor files in the current directory:
 
-<blockquote>watch <i>command</i></blockquote>
-- Re-run a command every 60 seconds:
+<blockquote>watch <i>ls</i></blockquote>
+- Monitor disk space and highlight the changes:
 
-<blockquote>watch -n <i>60</i> <i>command</i></blockquote>
-- Monitor the contents of a directory, highlighting differences as they appear:
+<blockquote>watch -d <i>df</i></blockquote>
+- Monitor "node" processes, refreshing every 3 seconds:
 
-<blockquote>watch -d <i>ls -l</i></blockquote>
+<blockquote>watch -n <i>3</i> "<i>ps aux | grep node</i>"</blockquote>

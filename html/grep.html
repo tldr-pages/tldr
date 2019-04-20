@@ -8,22 +8,16 @@
 <blockquote>grep -i <i>search_string</i> <i>path/to/file</i></blockquote>
 - Search recursively (ignoring non-text files) in current directory for an exact string:
 
-<blockquote>grep -rI <i>search_string</i> .</blockquote>
+<blockquote>grep -RI <i>search_string</i> .</blockquote>
 - Use extended regular expressions (supporting `?`, `+`, `{}`, `()` and `|`):
 
 <blockquote>grep -E <i>^regex$</i> <i>path/to/file</i></blockquote>
 - Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match:
 
 <blockquote>grep -<i>C|B|A</i> 3 <i>search_string</i> <i>path/to/file</i></blockquote>
-- Print the count of matches instead of the matching text:
+- Print file name with the corresponding line number for each match:
 
-<blockquote>grep -c <i>search_string</i> <i>path/to/file</i></blockquote>
-- Print line number for each match:
-
-<blockquote>grep -n <i>search_string</i> <i>path/to/file</i></blockquote>
-- Print file names with matches:
-
-<blockquote>grep -l <i>search_string</i> <i>path/to/file</i></blockquote>
+<blockquote>grep -Hn <i>search_string</i> <i>path/to/file</i></blockquote>
 - Use the standard input instead of a file:
 
 <blockquote>cat <i>path/to/file</i> | grep <i>search_string</i></blockquote>

@@ -6,15 +6,15 @@
 
 `l`
 
-- Save the current folder as "bookmark_name":
+- Save the current directory as "bookmark_name":
 
 `s {{bookmark_name}}`
 
-- Go to a bookmarked folder:
+- Go to a bookmarked directory:
 
 `g {{bookmark_name}}`
 
-- Print a bookmarked folder's contents:
+- Print a bookmarked directory's contents:
 
 `p {{bookmark_name}}`
 

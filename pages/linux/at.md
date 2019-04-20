@@ -2,7 +2,7 @@
 
 > Executes commands at a specified time.
 
-- Open an `at` prompt to create a new set of scheduled commands, press Ctrl+D to save and exit:
+- Open an `at` prompt to create a new set of scheduled commands, press `Ctrl + D` to save and exit:
 
 `at {{hh:mm:ss}}`
 

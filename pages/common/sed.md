@@ -2,11 +2,11 @@
 
 > Edit text in a scriptable manner.
 
-- Replace the first occurrence of a string in a file, and print the result:
+- Replace the first occurrence of a regular expression in each line of a file, and print the result:
 
-`sed 's/{{find}}/{{replace}}/' {{filename}}`
+`sed 's/{{regex}}/{{replace}}/' {{filename}}`
 
-- Replace all occurrences of an extended regular expression in a file:
+- Replace all occurrences of an extended regular expression in a file, and print the result:
 
 `sed -r 's/{{regex}}/{{replace}}/g' {{filename}}`
 
@@ -17,6 +17,10 @@
 - Replace only on lines matching the line pattern:
 
 `sed '/{{line_pattern}}/s/{{find}}/{{replace}}/' {{filename}}`
+
+- Delete lines matching the line pattern:
+
+`sed '/{{line_pattern}}/d' {{filename}}`
 
 - Print only text between n-th line till the next empty line:
 

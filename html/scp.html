@@ -3,18 +3,18 @@
 - Copy a local file to a remote host:
 
 <blockquote>scp <i>path/to/local_file</i> <i>remote_host</i>:<i>path/to/remote_file</i></blockquote>
-- Copy a file from a remote host to a local folder:
+- Copy a file from a remote host to a local directory:
 
-<blockquote>scp <i>remote_host</i>:<i>path/to/remote_file</i> <i>path/to/local_dir</i></blockquote>
+<blockquote>scp <i>remote_host</i>:<i>path/to/remote_file</i> <i>path/to/local_directory</i></blockquote>
 - Recursively copy the contents of a directory from a remote host to a local directory:
 
-<blockquote>scp -r <i>remote_host</i>:<i>path/to/remote_dir</i> <i>path/to/local_dir</i></blockquote>
+<blockquote>scp -r <i>remote_host</i>:<i>path/to/remote_directory</i> <i>path/to/local_directory</i></blockquote>
 - Copy a file between two remote hosts transferring through the local host:
 
-<blockquote>scp -3 <i>host1</i>:<i>path/to/remote_file</i> <i>host2</i>:<i>path/to/remote_dir</i></blockquote>
+<blockquote>scp -3 <i>host1</i>:<i>path/to/remote_file</i> <i>host2</i>:<i>path/to/remote_directory</i></blockquote>
 - Use a specific username when connecting to the remote host:
 
-<blockquote>scp <i>path/to/local_file</i> <i>remote_username</i>@<i>remote_host</i>:<i>path/to/remote_dir</i></blockquote>
+<blockquote>scp <i>path/to/local_file</i> <i>remote_username</i>@<i>remote_host</i>:<i>path/to/remote_directory</i></blockquote>
 - Use a specific ssh private key for authentication with the remote host:
 
 <blockquote>scp -i <i>~/.ssh/private_key</i> <i>local_file</i> <i>remote_host</i>:<i>/path/remote_file</i></blockquote>

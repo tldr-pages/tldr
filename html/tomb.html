@@ -1,20 +1,20 @@
 <b>tomb</b><br><br>
-<b>Manage encrypted storage folders that can be safely transported and hidden in a filesystem.</b><br><br>
+<b>Manage encrypted storage directories that can be safely transported and hidden in a filesystem.</b><br><br>
 - Create a new tomb with an initial size of 100MB:
 
-<blockquote>tomb dig -s <i>100</i> <i>encrypted_folder.tomb</i></blockquote>
+<blockquote>tomb dig -s <i>100</i> <i>encrypted_directory.tomb</i></blockquote>
 - Create a new key file that can be used to lock a tomb; user will be prompted for a password for the key:
 
-<blockquote>tomb forge <i>encrypted_folder.tomb.key</i></blockquote>
+<blockquote>tomb forge <i>encrypted_directory.tomb.key</i></blockquote>
 - Initialize and lock an empty tomb using a key made with `forge`:
 
-<blockquote>tomb lock <i>encrypted_folder.tomb</i> -k <i>encrypted_folder.tomb.key</i></blockquote>
-- Mount a tomb (by default in /media) using its key, making it usable as a regular filesystem folder:
+<blockquote>tomb lock <i>encrypted_directory.tomb</i> -k <i>encrypted_directory.tomb.key</i></blockquote>
+- Mount a tomb (by default in /media) using its key, making it usable as a regular filesystem directory:
 
-<blockquote>tomb open <i>encrypted_folder.tomb</i> -k <i>encrypted_folder.tomb.key</i></blockquote>
+<blockquote>tomb open <i>encrypted_directory.tomb</i> -k <i>encrypted_directory.tomb.key</i></blockquote>
 - Close a tomb (fails if the tomb is being used by a process):
 
-<blockquote>tomb close <i>encrypted_folder.tomb</i></blockquote>
+<blockquote>tomb close <i>encrypted_directory.tomb</i></blockquote>
 - Forcefully close all open tombs, killing any applications using them:
 
 <blockquote>tomb slam all</blockquote>

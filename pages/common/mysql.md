@@ -1,6 +1,7 @@
 # mysql
 
 > The MySQL command-line tool.
+> Homepage: <https://www.mysql.com/>.
 
 - Connect to a database:
 
@@ -20,4 +21,4 @@
 
 - Execute SQL statements in a script file (batch file):
 
-`mysql {{database_name}} < {{script.sql}}`
+`mysql -e "source {{filename.sql}}" {{database_name}}`

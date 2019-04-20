@@ -1,11 +1,17 @@
 <b>xz</b><br><br>
-<b>Compress or decompress .xz and .lzma files.</b><br><br>
-- Compress a file:
+<b>Compress or decompress .xz and .lzma files.</b><br><br><b>Homepage: <a href="https://tukaani.org/xz/format.html">home page</a></b><br><br>
+- Compress a file to the xz file format:
 
 <blockquote>xz <i>file</i></blockquote>
-- Decompress a file:
+- Decompress a xz file:
 
 <blockquote>xz -d <i>file.xz</i></blockquote>
+- Compress a file to the lzma file format:
+
+<blockquote>xz --format=lzma <i>file</i></blockquote>
+- Decompress an lzma file:
+
+<blockquote>xz -d --format=lzma <i>file.lzma</i></blockquote>
 - Decompress a file and write to stdout:
 
 <blockquote>xz -dc <i>file.xz</i></blockquote>

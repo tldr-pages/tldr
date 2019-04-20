@@ -1,11 +1,11 @@
 <b>chattr</b><br><br>
-<b>Change attributes of files or folders.</b><br><br>
-- Make a file or folder immutable to changes and deletion, even by superuser:
+<b>Change attributes of files or directories.</b><br><br>
+- Make a file or directory immutable to changes and deletion, even by superuser:
 
-<blockquote>chattr +i <i>path</i></blockquote>
-- Make a file or folder mutable:
+<blockquote>chattr +i <i>path/to/file_or_directory</i></blockquote>
+- Make a file or directory mutable:
 
-<blockquote>chattr -i <i>path</i></blockquote>
-- Recursively make an entire folder and contents immutable:
+<blockquote>chattr -i <i>path/to/file_or_directory</i></blockquote>
+- Recursively make an entire directory and contents immutable:
 
-<blockquote>chattr -R +i <i>folder</i></blockquote>
+<blockquote>chattr -R +i <i>path/to/directory</i></blockquote>

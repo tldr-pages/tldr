@@ -9,9 +9,6 @@
 - Parse and execute a perl statement:
 
 <blockquote>perl -e <i>perl_statement</i></blockquote>
-- Import module before execution of a perl statement:
-
-<blockquote>perl -M<i>module</i> -e <i>perl_statement</i></blockquote>
 - Run a Perl script in debug mode, using `perldebug`:
 
 <blockquote>perl -d <i>script.pl</i></blockquote>
@@ -21,3 +18,6 @@
 - Run a find/replace expression on a file, saving the original file with a given extension:
 
 <blockquote>perl -p -i'.old' -e 's/<i>find</i>/<i>replace</i>/g' <i>filename</i></blockquote>
+- Run a multi-line find/replace expression on a file, and save the result in another file:
+
+<blockquote>perl -p0e 's/<i>foo\nbar</i>/<i>foobar</i>/g' <i>input_file</i> > <i>output_file</i></blockquote>

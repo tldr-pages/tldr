@@ -1,6 +1,6 @@
 # xfce4-terminal
 
-> The Xfce4 terminal emulator.
+> The XFCE4 terminal emulator.
 
 - Open a new terminal window:
 

@@ -2,7 +2,7 @@
 <b>Video conversion tool.</b><br><br>
 - Extract the sound from a video and save it as MP3:
 
-<blockquote>ffmpeg -i <i>video.mp4</i> <i>sound</i>.mp3</blockquote>
+<blockquote>ffmpeg -i <i>video.mp4</i> -vn <i>sound</i">home page</a>mp3</blockquote>
 - Convert frames from a video or GIF into individual numbered images:
 
 <blockquote>ffmpeg -i <i>video.mpg|video.gif</i> <i>frame_%d.png</i></blockquote>
@@ -12,15 +12,15 @@
 - Quickly extract a single frame from a video at time mm:ss and save it as a 128x128 resolution image:
 
 <blockquote>ffmpeg -ss <i>mm:ss</i> -i <i>video.mp4</i> -frames 1 -s <i>128x128</i> -f image2 <i>image.png</i></blockquote>
-- Trim a video from a given start time mm:ss to a duration of mm2:ss2 from that time. (Omit the -t flag to trim till the end):
+- Trim a video from a given start time mm:ss to an end time mm2:ss2 (omit the -to flag to trim till the end):
 
-<blockquote>ffmpeg -ss <i>mm:ss</i> -i <i>video.mp4</i> -codec copy -t <i>mm2:ss2</i> <i>output.mp4</i></blockquote>
+<blockquote>ffmpeg -ss <i>mm:ss</i> -to <i>mm2:ss2</i> -i <i>video.mp4</i> -codec copy <i>output.mp4</i></blockquote>
 - Convert AVI video to MP4. AAC Audio @ 128kbit, h264 Video @ CRF 23:
 
-<blockquote>ffmpeg -i <i>input_video</i>.avi -codec:audio aac -b:audio 128k -codec:video libx264 -crf 23 <i>output_video</i>.mp4</blockquote>
+<blockquote>ffmpeg -i <i>input_video</i">home page</a>avi -codec:audio aac -b:audio 128k -codec:video libx264 -crf 23 <i>output_video</i">home page</a>mp4</blockquote>
 - Remux MKV video to MP4 without re-encoding audio or video streams:
 
-<blockquote>ffmpeg -i <i>input_video</i>.mkv -codec copy <i>output_video</i>.mp4</blockquote>
+<blockquote>ffmpeg -i <i>input_video</i">home page</a>mkv -codec copy <i>output_video</i">home page</a>mp4</blockquote>
 - Convert MP4 video to VP9 codec. For the best quality, use a CRF value (recommended range 15-35) and -b:video MUST be 0:
 
-<blockquote>ffmpeg -i <i>input_video</i>.mp4 -codec:video libvpx-vp9 -crf <i>30</i> -b:video 0 -codec:audio libopus -vbr on -threads <i>number_of_threads</i> <i>output_video</i>.webm</blockquote>
+<blockquote>ffmpeg -i <i>input_video</i">home page</a>mp4 -codec:video libvpx-vp9 -crf <i>30</i> -b:video 0 -codec:audio libopus -vbr on -threads <i>number_of_threads</i> <i>output_video</i">home page</a>webm</blockquote>

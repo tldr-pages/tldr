@@ -14,15 +14,15 @@
 
 `brew list`
 
-- Update an installed formula (passing no `{{formula}}` updates all installed formulae):
+- Upgrade an installed formula (if no formula name is given, all installed formulae are upgraded):
 
 `brew upgrade {{formula}}`
 
-- Fetch the newest version of Linuxbrew and all formulae from GitHub:
+- Fetch the newest version of Linuxbrew and of all formulae from GitHub:
 
 `brew update`
 
-- Show formulae that have an updated version available:
+- Show formulae that have a more recent version available:
 
 `brew outdated`
 
@@ -30,6 +30,6 @@
 
 `brew info {{formula}}`
 
-- Check your Linuxbrew installation for potential problems:
+- Check the local Linuxbrew installation for potential problems:
 
 `brew doctor`

@@ -1,8 +1,11 @@
 <b>logstash</b><br><br>
-<b>Migrate data from one source into another.</b><br><br><b>Usually used to ingest data from various other data sources into elasticsearch.</b><br><br>
+<b>An ETL (extract, transform and load) tool.</b><br><br><b>Commonly used to load data from various sources, like databases and log files, into elasticsearch.</b><br><br>
 - Check validity of a logstash configuration:
 
-<blockquote>logstash --configtest --config logstash-config.conf</blockquote>
+<blockquote>logstash --configtest --config <i>logstash_config.conf</i></blockquote>
 - Run logstash using configuration:
 
-<blockquote>sudo logstash --config logstash-config.conf</blockquote>
+<blockquote>sudo logstash --config <i>logstash_config.conf</i></blockquote>
+- Run logstash with the most basic inline configuration string:
+
+<blockquote>sudo logstash -e 'input {} filter {} output {}'</blockquote>

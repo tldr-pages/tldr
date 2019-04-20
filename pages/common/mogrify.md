@@ -3,7 +3,7 @@
 > Perform operations on multiple images, such as resizing, cropping, flipping, and adding effects.
 > Changes are applied directly to the original file.
 
-- Resize all JPEG images in the folder to 50% of their initial size:
+- Resize all JPEG images in the directory to 50% of their initial size:
 
 `mogrify -resize {{50%}} {{*.jpg}}`
 
@@ -11,7 +11,7 @@
 
 `mogrify -resize {{800x600}} {{DSC*}}`
 
-- Convert all PNG images in the folder to JPEG:
+- Convert all PNG images in the directory to JPEG:
 
 `mogrify -format {{jpg}} {{*.png}}`
 

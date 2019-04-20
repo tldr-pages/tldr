@@ -8,7 +8,7 @@
 
 - Run tests contained at a specific location:
 
-`mocha {{folder/with/tests}}`
+`mocha {{directory/with/tests}}`
 
 - Run tests that match a specific grep pattern:
 

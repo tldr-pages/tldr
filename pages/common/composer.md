@@ -4,7 +4,7 @@
 
 - Add a package as a dependency for this project, adding it to `composer.json`:
 
-`composer require {{user/package-name}}`
+`composer require {{user/package_name}}`
 
 - Install all the dependencies in this project's `composer.json`:
 
@@ -12,7 +12,7 @@
 
 - Uninstall a package from this project, removing it as a dependency from `composer.json`:
 
-`composer remove {{user/package-name}}`
+`composer remove {{user/package_name}}`
 
 - Update all the dependencies in this project's `composer.json`:
 

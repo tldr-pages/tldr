@@ -18,3 +18,6 @@
 - Output the value of a given key of each element in a JSON text from stdin:
 
 <blockquote>cat <i>file.json</i> | jq 'map(.<i>key_name</i>)'</blockquote>
+- Combine multiple filters:
+
+<blockquote>cat <i>file.json</i> | jq 'unique | sort | reverse'</blockquote>

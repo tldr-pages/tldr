@@ -3,15 +3,15 @@
 - Show files in a bucket:
 
 <blockquote>aws s3 ls <i>bucket_name</i></blockquote>
-- Sync files and folders from local to bucket:
+- Sync files and directories from local to bucket:
 
 <blockquote>aws s3 sync <i>path/to/files</i> s3://<i>bucket_name</i></blockquote>
-- Sync files and folders from bucket to local:
+- Sync files and directories from bucket to local:
 
 <blockquote>aws s3 sync s3://<i>bucket_name</i> <i>path/to/target</i></blockquote>
-- Sync files and folders with exclusions:
+- Sync files and directories with exclusions:
 
-<blockquote>aws s3 sync <i>path/to/files</i> s3://<i>bucket_name</i> --exclude <i>path/to/file</i> --exclude <i>path/to/folder</i>/*</blockquote>
+<blockquote>aws s3 sync <i>path/to/files</i> s3://<i>bucket_name</i> --exclude <i>path/to/file</i> --exclude <i>path/to/directory</i>/*</blockquote>
 - Remove file from bucket:
 
 <blockquote>aws s3 rm s3://<i>bucket</i>/<i>path/to/file</i></blockquote>

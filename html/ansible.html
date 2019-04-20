@@ -1,5 +1,5 @@
 <b>ansible</b><br><br>
-<b>Manage groups of computers remotely over SSH.</b><br><br><b>Use the /etc/ansible/hosts file to add new groups/hosts.</b><br><br>
+<b>Manage groups of computers remotely over SSH.</b><br><br><b>Use the /etc/ansible/hosts file to add new groups/hosts.</b><br><br><b>Homepage: <a href="https://www.ansible.com/">home page</a></b><br><br>
 - List hosts belonging to a group:
 
 <blockquote>ansible <i>group</i> --list-hosts</blockquote>
@@ -11,10 +11,10 @@
 <blockquote>ansible <i>group</i> -m setup</blockquote>
 - Execute a command on a group of hosts by invoking command module with arguments:
 
-<blockquote>ansible <i>group</i> -m command -a '<i>my command</i>'</blockquote>
+<blockquote>ansible <i>group</i> -m command -a '<i>my_command</i>'</blockquote>
 - Execute a command with administrative privileges:
 
-<blockquote>ansible <i>group</i> --become --ask-become-pass -m command -a '<i>my command</i>'</blockquote>
+<blockquote>ansible <i>group</i> --become --ask-become-pass -m command -a '<i>my_command</i>'</blockquote>
 - Execute a command using a custom inventory file:
 
-<blockquote>ansible <i>group</i> -i <i>inventory_file</i> -m command -a '<i>my command</i>'</blockquote>
+<blockquote>ansible <i>group</i> -i <i>inventory_file</i> -m command -a '<i>my_command</i>'</blockquote>

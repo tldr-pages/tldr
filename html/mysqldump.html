@@ -1,8 +1,8 @@
 <b>mysqldump</b><br><br>
-<b>Backups MySQL databases.</b><br><br>
+<b>Backups MySQL databases.</b><br><br><b>Homepage: <a href="https://dev.mysql.com/doc/refman/en/mysqldump.html">home page</a></b><br><br>
 - Create a backup, user will be prompted for a password:
 
-<blockquote>mysqldump -u <i>user</i> --password <i>database_name</i> > <i>filename.sql</i></blockquote>
+<blockquote>mysqldump -u <i>user</i> --password <i>database_name</i> -r <i>filename.sql</i></blockquote>
 - Restore a backup, user will be prompted for a password:
 
-<blockquote>mysql -u <i>user</i> --password <i>database_name</i> < <i>filename.sql</i></blockquote>
+<blockquote>mysql -u <i>user</i> --password -e "source <i>filename.sql</i>" <i>database_name</i></blockquote>
