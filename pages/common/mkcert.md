@@ -7,7 +7,7 @@
 
 `mkcert -install`
 
-- Generate certificate and private key for the given domain:
+- Generate certificate and private key for a given domain:
 
 `mkcert {{example.org}}`
 
@@ -15,7 +15,7 @@
 
 `mkcert {{example.org}} {{myapp.dev}} {{127.0.0.1}}`
 
-- Generate wildcard certificate and private key for the given domain and its subdomains:
+- Generate wildcard certificate and private key for a given domain and its subdomains:
 
 `mkcert {{"*.example.it"}}`
 
