@@ -15,9 +15,9 @@
 
 `cppcheck --enable={{error|warning|style|performance|portability|information|all}} {{path/to/file.cpp}}`
 
-- List available tests, filtered by a given search pattern:
+- List available tests:
 
-`cppcheck --errorlist | grep "{{search_pattern}}"`
+`cppcheck --errorlist`
 
 - Check a given file, ignoring specific tests:
 
