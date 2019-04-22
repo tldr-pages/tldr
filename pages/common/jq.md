@@ -26,6 +26,6 @@
 
 `cat {{file.json}} | jq 'map(.{{key_name}})'`
 
-- Output the value of a given key to a string:
+- Output the value of a given key to a string (and disable JSON output):
 
 `cat {{file.json}} | jq --raw-output '"some text: \(.{{key_name}})"'`
