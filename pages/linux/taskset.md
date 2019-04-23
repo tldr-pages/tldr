@@ -2,7 +2,7 @@
 
 > Get or set a process' CPU affinity or start a new process with a defined CPU affinity.
 
-- Get a running process's CPU affinity by PID:
+- Get a running process' CPU affinity by PID:
 
 `taskset --pid --cpu-list {{pid}}`
 
