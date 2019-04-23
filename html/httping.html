@@ -1,0 +1,14 @@
+<b>httping</b><br><br>
+<b>Measure the latency and throughput of a web server.</b><br><br>
+- Ping the specified url:
+
+<blockquote>httping -g <i>url</i></blockquote>
+- Ping the web server on `host` and `port`:
+
+<blockquote>httping -h <i>host</i> -p <i>port</i></blockquote>
+- Ping the web server on `host` using a TLS connection:
+
+<blockquote>httping -l -g https://<i>host</i></blockquote>
+- Ping the web server on `host` using HTTP basic authentication:
+
+<blockquote>httping -g http://<i>host</i> -U <i>username</i> -P <i>password</i></blockquote>

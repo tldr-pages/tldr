@@ -1,0 +1,26 @@
+<b>ldapsearch</b><br><br>
+<b>CLI utility for querying an LDAP directory.</b><br><br>
+- Query an LDAP server for all items that are a member of the given group and return the object's displayName value:
+
+<blockquote>ldapsearch -D '<i>admin_DN</i>' -w '<i>password</i>' -h <i>ldap_host</i> -b <i>base_ou</i> '<i>memberOf=group1</i>' displayName</blockquote>
+- Query an LDAP server with a no-newline password file for all items that are a member of the given group and return the object's displayName value:
+
+<blockquote>ldapsearch -D '<i>admin_DN</i>' -y '<i>password_file</i>' -h <i>ldap_host</i> -b <i>base_ou</i> '<i>memberOf=group1</i>' displayName</blockquote>
+- Return 5 items that match the given filter:
+
+<blockquote>ldapsearch -D '<i>admin_DN</i>' -w '<i>password</i>' -h <i>ldap_host</i> -b <i>base_ou</i> '<i>memberOf=group1</i>' -z 5 displayName</blockquote>
+- Wait up to 7 seconds for a response:
+
+<blockquote>ldapsearch -D '<i>admin_DN</i>' -w '<i>password</i>' -h <i>ldap_host</i> -b <i>base_ou</i> '<i>memberOf=group1</i>' -l 7 displayName</blockquote>
+- Invert the filter:
+
+<blockquote>ldapsearch -D '<i>admin_DN</i>' -w '<i>password</i>' -h <i>ldap_host</i> -b <i>base_ou</i> '(!(memberOf=<i>group1</i>))' displayName</blockquote>
+- Return all items that are part of multiple groups, returning the display name for each item:
+
+<blockquote>ldapsearch -D '<i>admin_DN</i>' -w '<i>password</i>' -h <i>ldap_host</i> '(&(<i>memberOf=group1</i>)(<i>memberOf=group2</i>)(<i>memberOf=group3</i>))' "displayName"</blockquote>
+- Return all items that are members of at least 1 of the specified groups:
+
+<blockquote>ldapsearch -D '<i>admin_DN</i>' -w '<i>password</i>' -h <i>ldap_host</i> '(|(<i>memberOf=group1</i>)(<i>memberOf=group1</i>)(<i>memberOf=group3</i>))' displayName</blockquote>
+- Combine multiple boolean logic filters:
+
+<blockquote>ldapsearch -D '<i>admin_DN</i>' -w '<i>password</i>' -h <i>ldap_host</i> '(&(<i>memberOf=group1</i>)(<i>memberOf=group2</i>)(!(<i>memberOf=group3</i>)))' displayName</blockquote>

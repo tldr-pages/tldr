@@ -1,0 +1,20 @@
+<b>pygmentize</b><br><br>
+<b>Python-based syntax highlighter.</b><br><br>
+- Highlight file syntax and print to standard output (language is inferred from the file extension):
+
+<blockquote>pygmentize <i>file.py</i></blockquote>
+- Explicitly set the language for syntax highlighting:
+
+<blockquote>pygmentize -l <i>javascript</i> <i>input_file</i></blockquote>
+- List available lexers (processors for input languages):
+
+<blockquote>pygmentize -L lexers</blockquote>
+- Save output to a file in HTML format:
+
+<blockquote>pygmentize -f html -o <i>output_file.html</i> <i>input_file.py</i></blockquote>
+- List available output formats:
+
+<blockquote>pygmentize -L formatters</blockquote>
+- Output an HTML file, with additional formatter options (full page, with line numbers):
+
+<blockquote>pygmentize -f html -O "full,linenos=True" -o <i>output_file.html</i> <i>input_file</i></blockquote>

@@ -1,0 +1,8 @@
+<b>logwatch</b><br><br>
+<b>Summarizes many different logs for common services (e.g., apache, pam_unix, sshd, etc.) in a single report.</b><br><br>
+- Analyze logs for a range of dates at certain level of detail:
+
+<blockquote>logwatch --range <i>yesterday|today|all|help</i> --detail <i>low|medium|others</i>'</blockquote>
+- Restrict report to only include information for a selected service:
+
+<blockquote>logwatch --range <i>all</i> --service <i>apache|pam_unix|etc</i></blockquote>

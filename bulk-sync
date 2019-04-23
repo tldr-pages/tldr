@@ -1,0 +1,12 @@
+#!/bin/bash
+
+cd ../tldr || exit 1
+git pull
+cd -
+rsync -av ../tdlr/pages/common/ pages/common/
+rsync -av ../tdlr/pages/linux/ pages/linux/
+nice ./change-all-md-to-html
+rsync -av html/*.html jsmith@distrowatch.com:dww/text/man-pages/
+nice git add html/* pages/linux/* pages/common/*
+nice git commit -a
+git push

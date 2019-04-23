@@ -1,0 +1,8 @@
+<b>utmpdump</b><br><br>
+<b>Dump and load btmp, utmp and wtmp accounting files.</b><br><br>
+- Dump the `/var/log/wtmp` file to the standard output as plain text:
+
+<blockquote>utmpdump <i>/var/log/wtmp</i></blockquote>
+- Load a previously dumped file into `/var/log/wtmp`:
+
+<blockquote>utmpdump -r <i>dumpfile</i> > <i>/var/log/wtmp</i></blockquote>
