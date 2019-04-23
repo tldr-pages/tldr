@@ -2,6 +2,10 @@
 
 > Join a group or change primary group membership.
 
-- Switch to group wheel:
+- Join a new group:
 
-`newgrp wheel`
+`newgrp {{group_name}}`
+
+- Reset default group membership to user's default group in /etc/passwd:
+
+`newgrp`
