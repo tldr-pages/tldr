@@ -11,7 +11,7 @@
 
 `ab -n {{100}} -c {{10}} {{url}}`
 
-- Utilizar a funcionalidade HTTP _Keep Alive_, permitindo que várias requisições sejam feitas em uma sessão HTTP:
+- Utilizar a funcionalidade HTTP Keep Alive, permitindo que várias requisições sejam feitas em uma sessão HTTP:
 
 `ab -k {{url}}`
 
