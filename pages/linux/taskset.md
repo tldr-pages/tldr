@@ -6,7 +6,7 @@
 
 `taskset --pid --cpu-list {{pid}}`
 
-- Set a running process's CPU affinity by PID:
+- Set a running process' CPU affinity by PID:
 
 `taskset --pid --cpu-list {{cpu_id}} {{pid}}`
 
