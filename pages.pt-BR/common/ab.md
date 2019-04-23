@@ -1,6 +1,6 @@
 # ab
 
-> Ferramenta de _benchmarking_ do servidor Apache. A ferramenta mais simples para realizar testes de carga.
+> Ferramenta de benchmarking do servidor Apache. A ferramenta mais simples para realizar testes de carga.
 > Página oficial: <https://httpd.apache.org/docs/2.4/programs/ab.html>.
 
 - Executar 100 requisições HTTP do tipo GET para uma determinada URL:
