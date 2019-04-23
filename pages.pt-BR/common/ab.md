@@ -15,6 +15,6 @@
 
 `ab -k {{url}}`
 
-- Definir o tempo total do _benchmarking_, em segundos:
+- Definir o tempo total do benchmarking, em segundos:
 
 `ab -t {{60}} {{url}}`
