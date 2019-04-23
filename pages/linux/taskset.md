@@ -1,6 +1,6 @@
 # taskset 
 
-> Get or set a processes CPU affinity or start a new process with a defined CPU affinity.
+> Get or set a process' CPU affinity or start a new process with a defined CPU affinity.
 
 - Get a running process's CPU affinity by PID:
 
