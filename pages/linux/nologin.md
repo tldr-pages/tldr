@@ -1,6 +1,6 @@
 # nologin
 
-> Alternative shell that prevents a user's login.
+> Alternative shell that prevents a user from logging in.
 
 - Set a user's login shell to `nologin` to prevent the user from logging in:
 
