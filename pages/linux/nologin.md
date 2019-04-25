@@ -2,7 +2,7 @@
 
 > Alternative shell that prevents a user's login.
 
-- Set user's login shell to `nologin` to prevent user logging-in:
+- Set a user's login shell to `nologin` to prevent the user from logging in:
 
 `chsh -s {{user}} nologin`
 
