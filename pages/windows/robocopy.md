@@ -10,21 +10,21 @@
 
 `robocopy {{path/to/directory}} {{path/to/destination}} /E`
 
-- Mirror a directory. Same as /E but also deletes anything not in source:
+- Mirror/Sync a directory, deleting anything not in source and include all attributes and permissions:
 
-`robocopy {{path/to/directory}} {{path/to/destination}} /MIR`
+`robocopy {{path/to/directory}} {{path/to/destination}} /MIR /COPYALL`
 
 - Copy all files and subdirectories, excluding older files:
 
 `robocopy {{path/to/file_or_directory}} {{path/to/destination}} /E /XO`
 
-- List all files 50 MBytes or larger in size:
+- List all files (dry run) 50 MBytes or larger in size:
 
 `robocopy {{path/to/file_or_directory}} {{path/to/destination}} /MIN:52428800 /L`
 
-- Allow resuming if network connection is lost:
+- Allow resuming if network connection is lost and limit retries to 5 and wait time to 15 sec:
 
-`robocopy {{path/to/file_or_directory}} {{path/to/destination}} /Z`
+`robocopy {{path/to/file_or_directory}} {{path/to/destination}} /Z /R:5 /W:15`
 
 - Display detailed usage information:
 
