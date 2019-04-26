@@ -10,6 +10,6 @@
 
 `kpartx -d {{whole_disk.img}}`
 
-- List partition mappings that would be added -a:
+- List partition mappings:
 
 `kpartx -l {{whole_disk.img}}`
