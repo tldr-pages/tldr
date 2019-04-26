@@ -12,4 +12,5 @@
 `ect -9 --mt-deflate {{filename.png}}`
 
 - Compress all the files in a directory recursively, keeping the original modification time:
+
 `ect -keep -recurse {{directory}}`
