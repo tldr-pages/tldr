@@ -26,3 +26,7 @@
 - Get a list of installed PHP extensions:
 
 `php -m`
+
+- Display information about the current PHP configuration:
+
+`php -i`
