@@ -1,6 +1,7 @@
 # robocopy
 
-> Robust File and Folder Copy. By default Robocopy will only copy a file if the source and destination have different time stamps or different file sizes.
+> Robust File and Folder Copy.
+> By default files will only be copied if the source and destination have different time stamps or different file sizes.
 
 - Copy all .jpg and .bmp files from one directory to another:
 
