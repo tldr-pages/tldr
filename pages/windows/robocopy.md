@@ -15,11 +15,11 @@
 
 `robocopy {{path/to/source}} {{path/to/destination}} /MIR /COPYALL`
 
-- Copy all files and subdirectories, excluding older files:
+- Copy all files and subdirectories, excluding source files that are older than destination files:
 
 `robocopy {{path/to/source}} {{path/to/destination}} /E /XO`
 
-- List all files (dry run) 50 MBytes or larger in size:
+- List all files (copy dry run) 50 MBytes or larger in size:
 
 `robocopy {{path/to/source}} {{path/to/destination}} /MIN:52428800 /L`
 
