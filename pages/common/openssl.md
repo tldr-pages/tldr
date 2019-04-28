@@ -18,7 +18,7 @@
 
 `openssl x509 -in {{filename.crt}} -noout -text`
 
-- Display certificate expiration date:
+- Display a certificate's expiration date:
 
 `openssl x509 -enddate -noout -in {{filename.pem}}`
 
