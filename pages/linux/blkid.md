@@ -1,6 +1,6 @@
 # blkid
 
-> Lists all recognized partitions and their Universally Unique Identifier (UUID)
+> Lists all recognized partitions and their Universally Unique Identifier (UUID).
 
 - List all partitions:
 
