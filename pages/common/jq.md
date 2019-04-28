@@ -29,3 +29,7 @@
 - Combine multiple filters:
 
 `cat {{file.json}} | jq 'unique | sort | reverse'`
+
+- Output the value of a given key to a string (and disable JSON output):
+
+`cat {{file.json}} | jq --raw-output '"some text: \(.{{key_name}})"'`
