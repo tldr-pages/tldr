@@ -18,6 +18,10 @@
 
 `openssl x509 -in {{filename.crt}} -noout -text`
 
+- Display a certificate's expiration date:
+
+`openssl x509 -enddate -noout -in {{filename.pem}}`
+
 - Display the start and expiry dates for a domain's certificate:
 
 `openssl s_client -connect {{host}}:{{port}} 2>/dev/null | openssl x509 -noout -dates`
