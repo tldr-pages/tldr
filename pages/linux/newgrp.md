@@ -2,7 +2,7 @@
 
 > Switch primary group membership.
 
-- Change primary group membership:
+- Change user's primary group membership:
 
 `newgrp {{group_name}}`
 
