@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Simplified, community-driven man pages",
   "dependencies": {
-    "glob": "7.0.0",
+    "glob": "7.1.3",
     "markdownlint-cli": "0.1.0",
     "tldr-lint": "~0.0.7",
     "husky": "1.3.1"
