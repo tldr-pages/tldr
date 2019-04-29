@@ -1,24 +1,24 @@
 # autojump
 
-> Quickly jump among the directories you visit the most.
-> Aliases like j or jc are provided for even less typing.
+> Tool for easily navigating directories from the command line.
+> Homepage: <https://github.com/wting/autojump>.
 
-- Jump to a directory that contains the given pattern:
+- Jump to a directory with the biggest weight:
 
-`j {{pattern}}`
+`j`
 
-- Jump to a sub-directory (child) of the current directory that contains the given pattern:
+- Jump to a directory that contains `foo`:
 
-`jc {{pattern}}`
+`j {{foo}}`
 
-- Open a directory that contains the given pattern in the operating system file manager:
+- Open file managers of directory that contains `bar`:
 
-`jo {{pattern}}`
+`jo {{bar}}`
 
-- Remove non-existing directories from the autojump database:
+- Jump to a child directory:
 
-`j --purge`
+`jc`
 
-- Show the entries in the autojump database:
+- Show database entries and their key weights:
 
-`j -s`
+`j --stat`
