@@ -7,7 +7,7 @@
 
 `nsenter -t {{pid}} -n {{command}} {{command_arguments}}`
 
-- Run command in existing processes process namespace:
+- Run a new command in an existing processes ps-table namespace:
 
 `nsenter -t {{pid}} -p {{command}} {{command_arguments}}`
 
