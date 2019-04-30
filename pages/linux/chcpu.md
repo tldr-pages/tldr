@@ -2,10 +2,10 @@
 
 > Enable/disable system's CPUs.
 
-- Disable CPUs by list of CPU ID:
+- Disable CPUs via a list of CPU ID numbers:
 
 `chcpu -d 1,3`
 
-- Enable a set of CPUs by range of CPU ID:
+- Enable a set of CPUs via a range of CPU ID numbers:
 
 `chcpu -e 1-10`
