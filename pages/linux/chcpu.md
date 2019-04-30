@@ -4,7 +4,7 @@
 
 - Disable CPUs via a list of CPU ID numbers:
 
-`chcpu -d 1,3`
+`chcpu -d {{1,3}}`
 
 - Enable a set of CPUs via a range of CPU ID numbers:
 
