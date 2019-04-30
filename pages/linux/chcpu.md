@@ -8,4 +8,4 @@
 
 - Enable a set of CPUs via a range of CPU ID numbers:
 
-`chcpu -e 1-10`
+`chcpu -e {{1-10}}`
