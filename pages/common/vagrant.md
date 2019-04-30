@@ -18,6 +18,10 @@
 
 `vagrant suspend`
 
+- Halt the machine:
+
+`vagrant halt`
+
 - Connect to machine via SSH:
 
 `vagrant ssh`
