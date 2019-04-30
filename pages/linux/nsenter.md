@@ -12,6 +12,6 @@
 
 `nsenter -t {{pid}} -p {{command}} {{command_arguments}}`
 
-- Run command in existing processes network namespace:
+- Run command in existing processes IPC namespace:
 
-`nsenter -t {{pid}} -n {{command}} {{command_arguments}}`
+`nsenter -t {{pid}} -i {{command}} {{command_arguments}}`
