@@ -1,4 +1,4 @@
-# route 
+# route
 
 > Use route cmd to set the route table .
 

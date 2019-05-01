@@ -12,7 +12,7 @@
 
 - Convert between units with quantities:
 
-`units {{15 pounds}} {{kilograms}}`
+`units {{"15 pounds"}} {{kilograms}}`
 
 - Show the conversion between two compound units:
 
@@ -21,3 +21,7 @@
 - Show the conversion between units with different dimensions:
 
 `units {{"acres"}} {{"ft^2"}}`
+
+- Show the conversion of byte multipliers:
+
+`units {{"15 megabytes"}} {{bytes}}`

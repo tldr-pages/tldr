@@ -1,8 +1,14 @@
 # Maintainers
 
 This file contains a list of the maintainers of the tldr-pages project.
+
 There are three types of maintainers, as described in
-[COMMUNITY-ROLES.md](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md#when-to-change-roles).
+[COMMUNITY-ROLES.md](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md#when-to-change-roles):
+repository collaborators, organization members, and organization owners
+— each having specific roles in maintaining the project, as outlined below.
+
+In general terms, all maintainers are expected to follow the
+[Maintainer's guide](contributing-guides/maintainers-guide.md).
 
 
 ## Current repository collaborators
@@ -12,10 +18,15 @@ enabling them to label and close issues, and review and merge pull requests.
 If you are an owner of the organization, you should be able to see an automated list
 [here](https://github.com/tldr-pages/tldr/settings/collaboration).
 
- - Max Xu ([@jsonbruce](https://github.com/jsonbruce))
- - Jeef ([@jeeftor](https://github.com/jeeftor))
- - Muhammad Falak R Wani ([@mfrw](https://github.com/mfrw))
-
+ - Max Xu ([@jsonbruce](https://github.com/jsonbruce)):
+   [13 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — present
+ - Jeef ([@jeeftor](https://github.com/jeeftor)):
+   [12 March 2017](https://github.com/tldr-pages/tldr/issues/1209#issuecomment-285924778) — present
+ - Muhammad Falak R Wani ([@mfrw](https://github.com/mfrw)):
+   [7 September 2018](https://github.com/tldr-pages/tldr/issues/2306) — present
+ - Lucas Schneider ([@schneiderl](https://github.com/schneiderl)):
+   [11 April 2019](https://github.com/tldr-pages/tldr/issues/2898) — present
+   
 
 ## Current organization members
 
@@ -25,6 +36,9 @@ a member also has write access to all the repositories in the tldr-pages organiz
 An automated list can be found [here](https://github.com/orgs/tldr-pages/people).
 
  - Owen Voke ([@pxgamer](https://github.com/pxgamer))
+   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — present
+ - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
+   [9 April 2019](https://github.com/tldr-pages/tldr/issues/2874) — present
 
 
 ## Current organization owners

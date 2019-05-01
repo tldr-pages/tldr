@@ -2,7 +2,7 @@
 
 > Manage lightweight, reproducible, and portable development environments.
 
-- Create Vagrantfile in current folder with the base Vagrant box:
+- Create Vagrantfile in current directory with the base Vagrant box:
 
 `vagrant init`
 
@@ -17,6 +17,10 @@
 - Suspend the machine:
 
 `vagrant suspend`
+
+- Halt the machine:
+
+`vagrant halt`
 
 - Connect to machine via SSH:
 

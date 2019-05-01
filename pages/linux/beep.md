@@ -16,7 +16,7 @@
 
 - Play each new frequency and duration as a distinct beep:
 
-`beep -f {{frequency}} -l {{duration}} -n -f {{frequency} -l {{duration}}`
+`beep -f {{frequency}} -l {{duration}} -n -f {{frequency}} -l {{duration}}`
 
 - Play the C major scale:
 

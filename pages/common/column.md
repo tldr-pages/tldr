@@ -7,7 +7,7 @@
 
 `printf "header1 header2\nbar foo\n" | column -c {{30}}`
 
-- Specify column delimiter character for the -t option (i.e. "," for csv); default is whitespace:
+- Specify column delimiter character for the -t option (e.g. "," for csv); default is whitespace:
 
 `printf "header1,header2\nbar,foo\n" | column -s{{,}}`
 

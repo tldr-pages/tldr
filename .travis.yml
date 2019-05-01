@@ -1,19 +1,16 @@
 sudo: false
 language: node_js
 
-node_js:
-- stable
+node_js: stable
 cache: false
 
-after_success:
-- bash scripts/build.sh
-
 after_failure:
-- cat test_result | python scripts/send_to_bot.py
+  - python scripts/send_to_bot.py < test_result
 
-env:
-  global:
-  # Used to upload the tldr archive to tldr-pages repo.
-  # Achieved via the upload_assets() function of scripts/build.sh
-  # This is an encrypted form of @agnivade's user token.
-  - secure: AJPra/q3bCFHzMOam1aFz4tzasYuU261Mk6lISh1VJatibHa7nBErsuA3VbR5qth9LblH5HFmNGl4bwmas/PTD1P3lPAHO19gdlMb1kpS9MhTojQP/0EPCsyMTgnWcmNMU2XMvYGHFT0JFn4vj/0TrM9CUMDoT9WhtnVJfgRrlY=
+deploy:
+  provider: script
+  script: bash scripts/deploy.sh
+  skip_cleanup: true
+  on:
+    repo: tldr-pages/tldr
+    branch: master

@@ -12,7 +12,7 @@
 
 - Show the history of specific files or directories:
 
-`tig {{path1}} {{path2}} ...`
+`tig {{path1 path2 …}}`
 
 - Show the difference between two references (such as branches or tags):
 

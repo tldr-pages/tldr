@@ -8,16 +8,16 @@
 
 - Run an iperf3 server on a specific port:
 
-`iperf3 -s -p{{port}}`
+`iperf3 -s -p {{port}}`
 
 - Start bandwidth test:
 
-`iperf3 -c{{server}}`
+`iperf3 -c {{server}}`
 
 - Run iperf3 in multiple parallel streams:
 
-`iperf3 -c{{server}} -P{{streams}}`
+`iperf3 -c {{server}} -P {{streams}}`
 
 - Reverse direction of the test. Server sends data to the client:
 
-`iperf3 -c{{server}} -R`
+`iperf3 -c {{server}} -R`

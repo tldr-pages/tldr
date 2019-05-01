@@ -1,31 +1,23 @@
 # cp
 
-> Copy files and folders.
+> Copy files and directories.
 
 - Copy a file to another location:
 
 `cp {{path/to/file.ext}} {{path/to/copy.ext}}`
 
-- Copy a file into another folder, keeping the filename:
+- Copy a file into another directory, keeping the filename:
 
-`cp {{path/to/file.ext}} {{path/to/target/parent/folder}}`
+`cp {{path/to/file.ext}} {{path/to/target_parent_directory}}`
 
-- Copy a folder recursively to another location:
+- Recursively copy a directory's contents to another location (if the destination exists, the directory is copied inside it):
 
-`cp -r {{path/to/folder}} {{path/to/copy}}`
+`cp -r {{path/to/directory}} {{path/to/copy}}`
 
-- Copy a folder recursively into another folder, keeping the folder name:
+- Copy a directory recursively, in verbose mode (shows files as they are copied):
 
-`cp -r {{path/to/folder}} {{path/to/target/parent/folder}}`
-
-- Copy a folder recursively, in verbose mode (shows files as they are copied):
-
-`cp -vr {{path/to/folder}} {{path/to/copy}}`
-
-- Copy the contents of a folder into another folder:
-
-`cp -r {{path/to/source/folder/*}} {{path/to/target/folder}}`
+`cp -vr {{path/to/directory}} {{path/to/copy}}`
 
 - Copy text files to another location, in interactive mode (prompts user before overwriting):
 
-`cp -i {{*.txt}} {{path/to/source/}}`
+`cp -i {{*.txt}} {{path/to/target_directory}}`

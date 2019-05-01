@@ -14,7 +14,7 @@
 
 `rbenv global {{version}}`
 
-- Use a specific version of Ruby for an application/project folder:
+- Use a specific version of Ruby for an application/project directory:
 
 `rbenv local {{version}}`
 

@@ -55,3 +55,6 @@ Community members are asked to abide by the following principles:
    The different roles that contributors can take in the community,
    and the principles that guide the transitions among them,
    are described in the [COMMUNITY-ROLES.md](COMMUNITY-ROLES.md) document.
+   A [Maintainer's guide](contributing-guides/maintainers-guide.md) is also available
+   to both help maintainers follow a consistent workflow,
+   and to make this workflow transparent to the whole community.

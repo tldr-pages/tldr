@@ -1,6 +1,7 @@
 # git svn
 
 > Bidirectional operation between a Subversion repository and Git.
+> Homepage: <https://git-scm.com/docs/git-svn>.
 
 - Clone an SVN repository:
 

@@ -64,6 +64,7 @@ You can access these pages on your computer using one of the following clients:
 - Bash clients:
   - [tldr](https://github.com/raylee/tldr)
   - [tldr-bash-client](https://gitlab.com/pepa65/tldr-bash-client)
+- [C# client](https://github.com/principis/tldr-sharp)
 - [C++ client](https://github.com/tldr-pages/tldr-cpp-client):
   `brew install tldr`
 - [Chrome Extension](https://github.com/hill/tldr-chrome) available on
@@ -87,6 +88,12 @@ You can access these pages on your computer using one of the following clients:
   - [4d63.com/tldr](https://4d63.com/tldr):
     `go get 4d63.com/tldr` or `brew install 4d63/tldr/tldr`
     (or [platform binaries](https://github.com/leighmcculloch/tldr/releases))
+  - [github.com/elecprog/tldr](https://github.com/elecprog/tldr):
+    `go get github.com/elecprog/tldr`
+    (or [platform binaries](https://github.com/elecprog/tldr/releases))
+  - [github.com/isacikgoz/tldr](https://github.com/isacikgoz/tldr):
+    `go get github.com/isacikgoz/tldr`
+    (or [platform binaries](https://github.com/isacikgoz/tldr/releases))
 - iOS clients:
   - [tldr-man-page](https://github.com/freesuraj/TLDR), available on
     [App Store](https://appsto.re/sg/IQ0-_.i)
@@ -96,13 +103,14 @@ You can access these pages on your computer using one of the following clients:
   `stack install tldr`
 - [Node.js client](https://github.com/tldr-pages/tldr-node-client):
   `npm install -g tldr`
+- [OCaml client](https://github.com/RosalesJ/tldr-ocaml): `opam install tldr`
 - [Perl5 client](https://github.com/shoichikaji/perl-tldr):
   `cpanm App::tldr`
 - [PHP client](https://github.com/BrainMaestro/tldr-php):
   `composer global require brainmaestro/tldr`
 - Python clients:
   - [tldr-python-client](https://github.com/tldr-pages/tldr-python-client):
-    `pip install tldr`
+    `pip install tldr` or `pacman -S tldr` on Arch Linux
   - [tldr.py](https://github.com/lord63/tldr.py):
     `pip install tldr.py`
 - [R client](https://github.com/kirillseva/tldrrr):

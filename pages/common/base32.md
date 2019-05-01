@@ -1,6 +1,6 @@
 # base32
 
-> Encode or decode file or standard input, to standard output.
+> Encode or decode file or standard input to/from Base32, to standard output.
 
 - Encode a file:
 

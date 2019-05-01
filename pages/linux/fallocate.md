@@ -1,4 +1,4 @@
-# fallocate 
+# fallocate
 
 > Reserve or deallocate disk space to files.
 > The utility allocates space without zeroing.

@@ -13,7 +13,7 @@
 
 - Recursively remove a directory and its contents overwriting each file with a single-pass of random data:
 
-`srm -r -s {{/path/to/folder}}`
+`srm -r -s {{/path/to/directory}}`
 
 - Prompt before every removal:
 

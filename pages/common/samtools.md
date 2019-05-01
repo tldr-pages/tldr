@@ -29,7 +29,7 @@
 
 - Merge multiple files:
 
-`samtools merge {{output}} {{input_1}} [{{input_2}}...]`
+`samtools merge {{output}} {{input1 input2 …}}`
 
 - Split input file according to read groups:
 
