@@ -1,6 +1,6 @@
 # chcpu
 
-> Enable/disable system's CPUs.
+> Enable/disable a system's CPUs.
 
 - Disable CPUs via a list of CPU ID numbers:
 
