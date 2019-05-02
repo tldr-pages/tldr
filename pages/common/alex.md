@@ -1,6 +1,6 @@
 # alex
 
-> Tool that catch insensitive, inconsiderate writing.
+> A tool that catches insensitive, inconsiderate writing.
 > It helps you find gender favouring, polarising, race related, religion inconsiderate, or other unequal phrasing in text.
 > Homepage: <https://github.com/get-alex/alex>.
 
