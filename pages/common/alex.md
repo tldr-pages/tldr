@@ -1,0 +1,21 @@
+# alex
+
+> Tool that catch insensitive, inconsiderate writing.
+> It helps you find gender favouring, polarising, race related, religion inconsiderate, or other unequal phrasing in text.
+> Homepage: <https://github.com/get-alex/alex>.
+
+- Analyze text:
+
+`echo {{His network looks good}} | alex --stdin`
+
+- Analyze all files in the current directory:
+
+`alex`
+
+- Analyze file:
+
+`alex {{textfile.md}}`
+
+- Analyze all markdown files except `example.md`:
+
+`alex *.md !{{example.md}}
