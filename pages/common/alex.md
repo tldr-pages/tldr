@@ -12,7 +12,7 @@
 
 `alex`
 
-- Analyze file:
+- Analyze a specific file:
 
 `alex {{textfile.md}}`
 
