@@ -18,4 +18,4 @@
 
 - Analyze all markdown files except `example.md`:
 
-`alex *.md !{{example.md}}
+`alex *.md !{{example.md}}`
