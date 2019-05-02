@@ -11,7 +11,7 @@
 
 `github-label-sync --access-token {{token}} --labels {{url|path/to/json_file}} {{repository_name}}`
 
-- Synchonise labels with a dry run:
+- Don't actually synchronise labels (i.e. do a dry run):
 
 `github-label-sync --access-token {{token}} --dry-run {{repository_name}}`
 
@@ -19,6 +19,6 @@
 
 `github-label-sync --access-token {{token}} --allow-added-labels {{repository_name}}`
 
-- Synchronise using a `GITHUB_ACCESS_TOKEN` environment:
+- Synchronise using the `GITHUB_ACCESS_TOKEN` environment variable:
 
 `github-label-sync {{repository_name}}`
