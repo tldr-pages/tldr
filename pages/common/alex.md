@@ -4,7 +4,7 @@
 > It helps you find gender favouring, polarising, race related, religion inconsiderate, or other unequal phrasing in text.
 > Homepage: <https://github.com/get-alex/alex>.
 
-- Analyze text:
+- Analyze text from `stdin`:
 
 `echo {{His network looks good}} | alex --stdin`
 
