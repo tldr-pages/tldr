@@ -3,7 +3,7 @@
 > A command line interface for synchronising GitHub labels.
 > Homepage: <https://npmjs.com/package/github-label-sync>.
 
-- Synchronise labels using a local "labels.json" file:
+- Synchronise labels using a local `labels.json` file:
 
 `github-label-sync --access-token {{token}} {{repository_name}}`
 
@@ -15,7 +15,7 @@
 
 `github-label-sync --access-token {{token}} --dry-run {{repository_name}}`
 
-- Keep labels that aren't in "labels.json":
+- Keep labels that aren't in `labels.json`:
 
 `github-label-sync --access-token {{token}} --allow-added-labels {{repository_name}}`
 
