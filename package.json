@@ -9,9 +9,9 @@
     "husky": "^2.2.0"
   },
   "scripts": {
-    "lint-markdown": "markdownlint pages/**/*.md",
+    "lint-markdown": "markdownlint pages*/**/*.md",
     "lint-tldr": "tldr-lint ./pages",
-    "test": "bash -c 'markdownlint pages/ && tldr-lint ./pages 2>&1 | tee test_result; test ${PIPESTATUS[0]} -eq 0'",
+    "test": "bash -c 'markdownlint pages*/**/*.md && tldr-lint ./pages 2>&1 | tee test_result; test ${PIPESTATUS[0]} -eq 0'",
     "build-index": "node ./scripts/build-index.js | tee pages/index.json > index.json"
   },
   "husky": {
