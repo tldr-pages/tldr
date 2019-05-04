@@ -2,7 +2,7 @@
 
 > Find files with SQL-like queries.
 
-- Find temporary or config files (full path and size):
+- Select full path and size from temporary or config files in a given directory.
 
 `fselect size, path from /home/user where name = '*.cfg' or name = '*.tmp'`
 
