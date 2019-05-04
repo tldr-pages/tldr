@@ -1,13 +1,12 @@
 # ab
-
-> Ferramenta de benchmarking do servidor Apache. A ferramenta mais simples para realizar testes de carga.
+> Ferramenta do servidor Apache para realizar benchmarking e testes de carga em servidores web.
 > Página oficial: <https://httpd.apache.org/docs/2.4/programs/ab.html>.
 
 - Executar 100 requisições HTTP do tipo GET para uma determinada URL:
 
 `ab -n {{100}} {{url}}`
 
-- Executar 100 requisições HTTP do tipo GET para uma determinada URL. Sendo que as requisições concorrentes acontecerão em grupos de 10:
+- Executar 100 requisições HTTP do tipo GET para uma determinada URL, executando 10 requisições simultâneas de cada vez:
 
 `ab -n {{100}} -c {{10}} {{url}}`
 
