@@ -21,4 +21,3 @@
 - Generate a permuted index with SYSV-style behaviors:
 
 `ptx --traditional {{path/to/file}}`
-
