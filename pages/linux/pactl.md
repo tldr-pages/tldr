@@ -2,11 +2,11 @@
 
 > Control a running PulseAudio sound server.
 
-- List all sinks (or other types - sinks are your outputs and sink-inputs are your current audio streams):
+- List all sinks (or other types - sinks are outputs and sink-inputs are active audio streams):
 
 `pactl list {{sinks}} short`
 
-- Change the default sink (output) to 1 (you can get the number from the list command):
+- Change the default sink (output) to 1 (the number can be retrieved via the list command):
 
 `pactl set-default-sink {{1}}`
 
