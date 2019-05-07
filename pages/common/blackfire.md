@@ -27,10 +27,10 @@
 
 `blackfire --json run {{php path/to/file.php}}`
 
-- Upload a profiler file:
+- Upload a profiler file to the Blackfire web service:
 
 `blackfire upload {{path/to/file}}`
 
-- View the status of profiles:
+- View the status of profiles on the Blackfire web service:
 
 `blackfire status`
