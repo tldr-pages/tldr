@@ -10,7 +10,7 @@
 
 `pactl set-default-sink {{1}}`
 
-- Move a sink-input 627 to sink 1:
+- Move sink-input 627 to sink 1:
 
 `pactl move-sink-input {{627}} {{1}}`
 
