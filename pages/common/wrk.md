@@ -7,7 +7,7 @@
 
 `wrk -t{{12}} -c{{400}} -d{{30s}} {{http://127.0.0.1:8080/index.html}}`
 
-- Run a benchmark with header:
+- Run a benchmark with a custom header:
 
 `wrk -t{{2}} -c{{5}} -d{{5s}} -H {{‘Host: example.com’}} {{http://example.com/index.html}}`
 
