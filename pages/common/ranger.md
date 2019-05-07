@@ -1,6 +1,6 @@
 # ranger
 
-> Console file manager with VI key bindings
+> Console file manager with VI key bindings.
 > Homepage: <https://github.com/ranger/ranger>.
 
 - Open up file manager:
