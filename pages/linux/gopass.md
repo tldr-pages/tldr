@@ -6,7 +6,7 @@
 
 `gopass init`
 
-- Show all "Keystores":
+- Show all "keystores":
 
 `gopass mounts`
 
@@ -14,7 +14,7 @@
 
 `gopass mounts add keystore_name location_git_repo`
 
-- Search interactive using a keyword:
+- Search interactively using a keyword:
 
 `gopass show keyword`
 
