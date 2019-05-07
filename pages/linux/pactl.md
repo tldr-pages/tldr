@@ -6,7 +6,7 @@
 
 `pactl list {{sinks}} short`
 
-- Change the default sink (output) to 1 (the number can be retrieved via the list command):
+- Change the default sink (output) to 1 (the number can be retrieved via the `list` subcommand):
 
 `pactl set-default-sink {{1}}`
 
