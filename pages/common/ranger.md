@@ -3,7 +3,7 @@
 > Console file manager with VI key bindings.
 > Homepage: <https://github.com/ranger/ranger>.
 
-- Open up file manager:
+- Launch ranger:
 
 `ranger`
 
