@@ -18,6 +18,6 @@
 
 `pactl set-sink-volume {{1}} {{0.75}}`
 
-- Toggle mute on sink 1:
+- Toggle mute on the default sink (using the special name `@DEFAULT_SINK@`):
 
-`pactl set-sink-mute {{1}} toggle`
+`pactl set-sink-mute {{@DEFAULT_SINK@}} toggle`
