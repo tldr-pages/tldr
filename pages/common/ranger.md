@@ -19,6 +19,6 @@
 
 `ranger --datadir={{dir}}`
 
-- Print statistics of CPU usage on exit:
+- Print CPU usage statistics on exit:
 
 `ranger --profile`
