@@ -7,7 +7,7 @@
 
 `ranger`
 
-- Show only directories, no files or links:
+- Show only directories:
 
 `ranger --show-only-dirs`
 
