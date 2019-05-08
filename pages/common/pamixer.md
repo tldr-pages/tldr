@@ -30,6 +30,6 @@
 
 `pamixer --mute`
 
-- Unmute the default sink (if already unmuted it will stay unmuted):
+- Unmute the default sink (if it's already unmuted it will stay unmuted):
 
 `pamixer --unmute`
