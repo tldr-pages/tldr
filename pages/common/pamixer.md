@@ -14,7 +14,7 @@
 
 `pamixer --toggle-mute --sink {{ID}}`
 
-- Increase volume on default sink by 5%:
+- Increase the volume on default sink by 5%:
 
 `pamixer --increase {{5}}`
 
