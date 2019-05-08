@@ -13,11 +13,11 @@
 
 - Change the configuration directory:
 
-`ranger --confdir={{dir}}`
+`ranger --confdir={{path/to/directory}}`
 
 - Change the data directory:
 
-`ranger --datadir={{dir}}`
+`ranger --datadir={{path/to/directory}}`
 
 - Print CPU usage statistics on exit:
 
