@@ -18,7 +18,7 @@
 
 `pamixer --increase {{5}}`
 
-- Decrease volume on a source by 5%:
+- Decrease the volume on a source by 5%:
 
 `pamixer --decrease {{5}} --source {{ID}}`
 
