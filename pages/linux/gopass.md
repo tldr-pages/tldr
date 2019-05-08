@@ -12,7 +12,7 @@
 
 - Mount a shared git store:
 
-`gopass mounts add {{store_name}} {{git_repo_url}}``
+`gopass mounts add {{store_name}} {{git_repo_url}}`
 
 - Search interactively using a keyword:
 
