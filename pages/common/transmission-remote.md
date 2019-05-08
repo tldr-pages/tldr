@@ -8,7 +8,7 @@
 
 - Change the default download directory:
 
-`transmission-remote {{hostname}} -w {{/path/to/download/to}}`
+`transmission-remote {{hostname}} -w {{path/to/download_directory}}`
 
 - List all torrents:
 
