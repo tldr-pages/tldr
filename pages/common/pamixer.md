@@ -2,7 +2,7 @@
 
 > A simple command-line mixer for PulseAudio.
 
-- List all sinks and sources with corresponding IDs:
+- List all sinks and sources with their corresponding IDs:
 
 `pamixer --list-sinks --list-sources`
 
