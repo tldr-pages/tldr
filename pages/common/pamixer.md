@@ -22,7 +22,7 @@
 
 `pamixer --decrease {{5}} --source {{ID}}`
 
-- Use the allow boost option to increase/decrease/set volume above 100%:
+- Use the allow boost option to increase, decrease, or set the volume above 100%:
 
 `pamixer --set-volume {{105}} --allow-boost`
 
