@@ -4,7 +4,7 @@
 
 - Add a torrent file or magnet link to Transmission and download to a specified directory:
 
-`transmission-remote {{hostname}} -a {{torrent|url}} -w {{/path/to/download/to}}`
+`transmission-remote {{hostname}} -a {{torrent|url}} -w {{path/to/download_directory}}`
 
 - Change the default download directory:
 
