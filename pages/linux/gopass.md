@@ -6,29 +6,29 @@
 
 `gopass init`
 
-- Show all "keystores":
+- Show all stores:
 
 `gopass mounts`
 
-- Mount a shared git "keystore":
+- Mount a shared git store:
 
-`gopass mounts add keystore_name location_git_repo`
+`gopass mounts add {{store_name}} {{git_repo_url}}``
 
 - Search interactively using a keyword:
 
-`gopass show keyword`
+`gopass show {{keyword}}`
 
 - Search using a keyword:
 
-`gopass find keyword`
+`gopass find {{keyword}}`
 
-- Sync all mounted "keystores":
+- Sync all mounted stores:
 
 `gopass sync`
 
-- Show particular password entry:
+- Show a particular password entry:
 
-`gopass keystore_name/directory01/dir02/email@email.com`
+`gopass {{store_name}}/{{path/to/directory}}/{{email@email.com}}`
 
 - Create a new entry:
 
