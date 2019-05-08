@@ -5,7 +5,7 @@
 
 - Copy all .jpg and .bmp files from one directory to another:
 
-`robocopy {{path/to/source}} {{path/to/destination}} *.jpg *.bmp`
+`robocopy {{path/to/source}} {{path/to/destination}} {{*.jpg}} {{*.bmp}}`
 
 - Copy all files and subdirectories, including empty ones:
 
@@ -19,7 +19,7 @@
 
 `robocopy {{path/to/source}} {{path/to/destination}} /E /XO`
 
-- List all files (copy dry run) 50 MBytes or larger in size:
+- List all files 50 MBytes or larger in size instead of copying them:
 
 `robocopy {{path/to/source}} {{path/to/destination}} /MIN:52428800 /L`
 
