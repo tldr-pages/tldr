@@ -26,7 +26,7 @@
 
 `pamixer --set-volume {{105}} --allow-boost`
 
-- Mute the default sink (if already muted it will stay muted):
+- Mute the default sink (if it's already muted it will stay muted):
 
 `pamixer --mute`
 
