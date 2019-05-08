@@ -6,7 +6,7 @@
 
 `pamixer --list-sinks --list-sources`
 
-- Set volume to 75% on the default sink:
+- Set the volume to 75% on the default sink:
 
 `pamixer --set-volume {{75}}`
 
