@@ -23,9 +23,9 @@
 
 `ssh -D {{9999}} -C {{username}}@{{remote_host}}`
 
-- SSH tunneling: Forward a specific port (localhost:9999 to slashdot.org:80) along with disabling pseudo-[t]ty allocation and executio[n] of remote commands:
+- SSH tunneling: Forward a specific port (localhost:9999 to example.org:80) along with disabling pseudo-[t]ty allocation and executio[n] of remote commands:
 
-`ssh -L {{9999}}:{{slashdot.org}}:{{80}} -N -T {{username}}@{{remote_host}}`
+`ssh -L {{9999}}:{{example.org}}:{{80}} -N -T {{username}}@{{remote_host}}`
 
 - SSH jumping: Connect through a jumphost to a remote server (Multiple jump hops may be specified separated by comma characters):
 
