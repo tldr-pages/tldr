@@ -8,4 +8,4 @@
 
 - Turn down master volume 10%:
 
-`amixer -D pulse sset Master 10%-`
+`amixer -D pulse sset Master {{10%-}}`
