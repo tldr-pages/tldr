@@ -3,15 +3,15 @@
 > A ferramenta de linha de comando do MySQL.
 > Página oficial: <https://www.mysql.com/>.
 
-- Conectar ao banco de dados informado:
+- Conectar ao banco de dados:
 
 `mysql {{nome_do_banco_de_dados}}`
 
-- Conectar ao banco de dados informado, será solicitada a senha de acesso do usuário informado:
+- Conectar ao banco de dados (será solicitada a senha de acesso do usuário):
 
 `mysql -u {{usuário}} --password {{nome_do_banco_de_dados}}`
 
-- Conectar ao banco de dados informado disponível em um endereço específico:
+- Conectar ao banco de dados disponível em um endereço específico:
 
 `mysql -h {{endereco_do_banco_de_dados}} {{nome_do_banco_de_dados}}`
 
@@ -19,6 +19,6 @@
 
 `mysql --socket {{caminho/para/socket.sock}}`
 
-- Executar, no banco de dados informado, todos os comandos contidos no arquivo SQL:
+- Executar todos os comandos contidos no arquivo SQL no banco de dados:
 
 `mysql -e "source {{nome_do_arquivo.sql}}" {{nome_do_banco_de_dados}}`
