@@ -6,7 +6,7 @@
 
 `sensible-editor %{{file}}`
 
-- Open a file in the default editor, cursor at the end of the file
+- Open a file in the default editor, cursor at the end of the file:
 
 `sensible-editor + %{{file}}`
 
