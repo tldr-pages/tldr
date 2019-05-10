@@ -19,6 +19,6 @@
 
 `ngrok tcp {{22}}`
 
-- Expose TLS traffic for specific host and port:
+- Expose TLS traffic for a specific host and port:
 
 `ngrok tls -hostname={{foo.com}} {{443}}`
