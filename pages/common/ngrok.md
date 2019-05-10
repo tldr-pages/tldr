@@ -11,7 +11,7 @@
 
 `ngrok http {{foo.dev}}:{{80}}`
 
-- Expose a local https server:
+- Expose a local HTTPS server:
 
 `ngrok http https://localhost`
 
