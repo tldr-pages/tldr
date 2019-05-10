@@ -1,6 +1,8 @@
 #calcurse
 
-> A text-based calendar and scheduling application for the command line.
+>A text-based calendar and scheduling application for the command line.
+
+Homepage: <https://www.calcurse.org/>
 
 - Start calcurse on interactive mode:
 
@@ -9,6 +11,10 @@
 - Print the appointments and events for the current day and exit:
 
 `calcurse --appointment`
+
+>Instructions to synchronize calcurse with the CalDAV server.
+
+More at: <https://calcurse.org/files/calcurse-caldav.html>
 
 - Remove all local calcurse items and import remote objects:
 
