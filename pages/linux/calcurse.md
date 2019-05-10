@@ -8,7 +8,7 @@
 
 - Print the appointments and events for the current day and exit:
 
-`calcurse -a` or `calcurse --appointment`
+`calcurse --appointment`
 
 - Remove all local calcurse items and import remote objects:
 
