@@ -7,7 +7,7 @@
 
 `ngrok http {{80}}`
 
-- Expose local http service on specific host:
+- Expose a local HTTP service on a specific host:
 
 `ngrok http {{foo.dev}}:{{80}}`
 
