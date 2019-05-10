@@ -6,7 +6,7 @@
 
 `gox`
 
-- Compile from URL:
+- Download and compile a Go program from a remote URL:
 
 `gox {{url_1}} {{url_2}}`
 
