@@ -1,6 +1,6 @@
 # gox
 
-> A dead simple, no frills Go cross compile tool.
+> A tool for Go cross compilation.
 
 - Compile current Go directory for all OS and arch:
 
