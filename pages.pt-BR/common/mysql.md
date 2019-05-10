@@ -3,22 +3,22 @@
 > A ferramenta de linha de comando do MySQL.
 > Página oficial: <https://www.mysql.com/>.
 
-- Conectar ao banco de dados:
+- Conectar a um banco de dados:
 
 `mysql {{nome_do_banco_de_dados}}`
 
-- Conectar ao banco de dados (será solicitada a senha de acesso do usuário):
+- Conectar a um banco de dados (será solicitada a senha de acesso do usuário):
 
 `mysql -u {{usuário}} --password {{nome_do_banco_de_dados}}`
 
-- Conectar ao banco de dados disponível em um endereço específico:
+- Conectar a um banco de dados disponível em um endereço específico:
 
 `mysql -h {{endereco_do_banco_de_dados}} {{nome_do_banco_de_dados}}`
 
-- Conectar ao banco de dados utilizando um socket Unix:
+- Conectar a um banco de dados utilizando um socket Unix:
 
 `mysql --socket {{caminho/para/socket.sock}}`
 
-- Executar todos os comandos contidos no arquivo SQL no banco de dados:
+- Executar todos os comandos contidos do arquivo SQL no banco de dados:
 
 `mysql -e "source {{nome_do_arquivo.sql}}" {{nome_do_banco_de_dados}}`
