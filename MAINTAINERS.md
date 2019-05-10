@@ -26,6 +26,10 @@ If you are an owner of the organization, you should be able to see an automated 
    [7 September 2018](https://github.com/tldr-pages/tldr/issues/2306) — present
  - Lucas Schneider ([@schneiderl](https://github.com/schneiderl)):
    [11 April 2019](https://github.com/tldr-pages/tldr/issues/2898) — present
+ - Andrik Albuquerque ([@andrik](https://github.com/andrik)):
+   [9 May 2019](https://github.com/tldr-pages/tldr/issues/2988) - present
+ - Ivan Aracki ([@Aracki](https://github.com/Aracki)):
+   [9 May 2019](https://github.com/tldr-pages/tldr/issues/2988) - present
    
 
 ## Current organization members
