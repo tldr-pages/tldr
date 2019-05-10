@@ -14,6 +14,6 @@
 
 `gox -os="{{os}}"`
 
-- Compile current directory for `{{os}}` running `{{arch}}`:
+- Compile current directory for a single operating system and architecture combination:
 
 `gox -osarch="{{os}}/{{arch}}"`
