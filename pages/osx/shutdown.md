@@ -17,3 +17,11 @@
 - Reboot in 5 minutes:
 
 `shutdown -r +{{5}}`
+
+- Power off (halt) today at 23:00
+
+`shutdown -h {{2300}}`
+
+- Reboot on May 10th 2042 at 11:30
+
+`shutdown -r {{4205101130}}`
