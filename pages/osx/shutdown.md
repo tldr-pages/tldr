@@ -18,10 +18,10 @@
 
 `shutdown -r +{{5}}`
 
-- Power off (halt) today at 23:00
+- Power off (halt) at 1:00 pm (Uses 24h clock):
 
-`shutdown -h {{2300}}`
+`shutdown -h {{1300}}`
 
-- Reboot on May 10th 2042 at 11:30
+- Reboot on May 10th 2042 at 11:30 am:
 
 `shutdown -r {{4205101130}}`
