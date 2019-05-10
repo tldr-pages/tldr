@@ -10,7 +10,7 @@
 
 `gox {{url_1}} {{url_2}}`
 
-- Compile current directory for `{{os}}`:
+- Compile current directory for a particular operating system:
 
 `gox -os="{{os}}"`
 
