@@ -14,3 +14,7 @@
 - Disown all jobs:
 
 `disown -a`
+
+- Disown job from current shell (SIGHUP not sent to job on shell exit):
+
+`disown -h %{{job_number}}`
