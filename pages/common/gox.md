@@ -2,7 +2,7 @@
 
 > A tool for cross-compiling Go programs.
 
-- Compile current Go directory for all OS and arch:
+- Compile Go program in the current directory for all operating systems and architecture combinations:
 
 `gox`
 
