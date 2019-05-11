@@ -22,6 +22,6 @@
 
 `shutdown -h {{1300}}`
 
-- Reboot on May 10th 2042 at 11:30 am:
+- Reboot on May 10th 2042 at 11:30 am (Input format: YYMMDDHHMM):
 
 `shutdown -r {{4205101130}}`
