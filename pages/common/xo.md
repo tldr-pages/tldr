@@ -1,23 +1,23 @@
 # xo
 
-> A pluggable zero configuration linting utility for JavaScript.
+> A pluggable, zero-configuration linting utility for JavaScript.
 
-- Lint files in "src":
+- Lint files in the "src" directory:
 
 `xo`
 
-- Lint on a gives set of files:
+- Lint a given set of files:
 
-`xo {{filename}}.js {{filename1}}.js`
+`xo {{file1}}.js {{file2}}.js`
 
-- Fix lint issues:
+- Automatically fix any lint issues found:
 
 `xo --fix`
 
-- Lint with spaces as indentation instead of tabs:
+- Lint using spaces as indentation instead of tabs:
 
 `xo --space`
 
-- Lint with prettier code style:
+- Lint using the "prettier" code style:
 
 `xo --prettier`
