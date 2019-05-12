@@ -15,6 +15,6 @@
 
 `disown -a`
 
-- Keep job (do not disown it), but mark it with SIGHUP so its not removed on shell exit:
+- Keep job (do not disown it), but mark it so that no future SIGHUP is received on shell exit:
 
 `disown -h %{{job_number}}`
