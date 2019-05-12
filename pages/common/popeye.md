@@ -1,13 +1,13 @@
 # popeye
 
-> Utility that reports potential issues with your Kubernetes deployment manifests and configuration.
+> Utility that reports potential issues with Kubernetes deployment manifests.
 > Homepage: <https://github.com/derailed/popeye>.
 
-- Scan your Kubernetes cluster:
+- Scan the current Kubernetes cluster:
 
 `popeye`
 
-- Scan specific namespace:
+- Scan a specific namespace:
 
 `popeye -n {{namespace}}`
 
@@ -15,6 +15,6 @@
 
 `popeye --context={{context}}`
 
-- Use spinach config file for scanning:
+- Use a spinach configuration file for scanning:
 
 `popeye -f {{spinach.yaml}}`
