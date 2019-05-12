@@ -10,7 +10,7 @@
 
 `sensible-editor + %{{file}}`
 
-- Open a file in the default editor, cursor at line 10:
+- Open a file in the default editor, with the cursor at the beginning of line 10:
 
 `sensible-editor +10 %{{file}}`
 
