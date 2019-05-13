@@ -4,7 +4,7 @@
 
 - Open irssi and connect to a server with a nickname:
 
-`irssi -n {{nickname}} -c {{server.example.com}}`
+`irssi -n {{nickname}} -c {{irc.example.com}}`
 
 - Open irssi and connect with a specific server on a given port:
 
