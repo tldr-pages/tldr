@@ -7,6 +7,10 @@
 
 `gopass init`
 
+- Create a new entry:
+
+`gopass new`
+
 - Show all stores:
 
 `gopass mounts`
@@ -29,8 +33,4 @@
 
 - Show a particular password entry:
 
-`gopass {{store_name}}/{{path/to/directory}}/{{email@email.com}}`
-
-- Create a new entry:
-
-`gopass new`
+`gopass {{store_name|path/to/directory|email@email.com}}`
