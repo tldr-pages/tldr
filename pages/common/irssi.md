@@ -8,7 +8,7 @@
 
 - Open irssi and connect with a specific server on a given port:
 
-`irssi -c {{server.example.com}} -p {{port}}`
+`irssi -c {{irc.example.com}} -p {{port}}`
 
 - View the help:
 
