@@ -1,6 +1,7 @@
 # upx
 
 > Compress or decompress executables.
+> Homepage: <https://upx.github.io>.
 
 - Compress executable:
 
