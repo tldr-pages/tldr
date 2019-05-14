@@ -2,6 +2,7 @@
 
 > Downloader accelerato.
 > Supporta HTTP, HTTPS e FTP.
+> Homepage: <https://github.com/axel-download-accelerator/axel>.
 
 - Scarica un file da un URL:
 
