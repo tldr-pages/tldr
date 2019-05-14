@@ -11,6 +11,7 @@ The basic format of each page should match the following template:
 
 > Short, snappy description.
 > Preferably one line; two are acceptable if necessary.
+> Homepage: <https://example.com>.
 
 - Example description:
 
