@@ -2,6 +2,7 @@
 
 > Interfaccia da linea di comando per il programma di grafica Blender 3D.
 > Gli argomenti sono eseguiti nell'ordine in cui sono dati.
+> Homepage: <https://docs.blender.org/manual/en/latest/render/workflows/command_line.html>.
 
 - Renderizza tutti i frame di una animazione in background, senza caricare l'interfaccia grafica (l'output è salvato in `/tmp`):
 
