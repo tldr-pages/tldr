@@ -1,6 +1,7 @@
 # subl
 
 > Sublime Text editor.
+> Homepage: <https://www.sublimetext.com>.
 
 - Open the current directory in Sublime Text:
 
