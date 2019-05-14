@@ -2,6 +2,7 @@
 
 > Z SHell.
 > `bash` and `sh`-compatible command line interpreter.
+> Homepage: <https://www.zsh.org>.
 
 - Start interactive command line interpreter:
 
