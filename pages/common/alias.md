@@ -19,10 +19,6 @@
 
 `unalias {{word}}`
 
-- List all aliased words:
-
-`alias -p`
-
 - Turn `rm` into an interactive command:
 
 `alias {{rm}}="{{rm -i}}"`
