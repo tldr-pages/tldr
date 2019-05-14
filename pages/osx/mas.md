@@ -3,6 +3,10 @@
 > Command line interface for the Mac App Store.
 > Homepage: <https://github.com/mas-cli/mas>.
 
+- Sign into the Mac App Store for the first time:
+
+`mas signin {{user@example.com}}`
+
 - Show all installed applications and their product identifiers:
 
 `mas list`
@@ -18,7 +22,3 @@
 - Install all pending updates:
 
 `mas upgrade`
-
-- Sign into the Mac App Store for the first time:
-
-`mas signin {{user@example.com}}`
