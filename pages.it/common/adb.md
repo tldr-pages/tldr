@@ -1,6 +1,7 @@
 # adb
 
 > Android Debug Bridge: comunica con un'instanza di un emulatore Android o con un dispositivo android connesso.
+> Homepage: <https://developer.android.com/studio/command-line/adb>.
 
 - Controlla se il processo server adb è attivo ed avvialo:
 
