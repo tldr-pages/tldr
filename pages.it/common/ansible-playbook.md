@@ -3,7 +3,6 @@
 > Esegui task definiti nel playbook di un computer remoto via SSH.
 > Homepage: <https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html>.
 
-
 - Esegui tasks nel playbook:
 
 `ansible-playbook {{playbook}}`
