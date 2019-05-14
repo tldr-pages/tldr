@@ -1,6 +1,7 @@
 # bmaptool
 
 > Crea o copia blockmap intelligentemente (e quindi più velocemente di `cp` o `dd`).
+> Homepage: <https://source.tizen.org/documentation/reference/bmaptool>.
 
 - Crea una blockmap da un file immagine:
 
