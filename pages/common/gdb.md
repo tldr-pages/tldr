@@ -10,6 +10,10 @@
 
 `gdb -p {{procID}}`
 
+- Debug with a core file:
+
+`gdb -c {{core}} {{executable}}`
+
 - Execute given GDB commands upon start:
 
 `gdb -ex "{{commands}}" {{executable}}`

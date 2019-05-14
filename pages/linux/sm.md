@@ -1,27 +1,28 @@
 # sm
 
 > Displays a short message fullscreen.
+> Homepage: <https://github.com/nomeata/screen-message>.
 
-- Display a message fullscreen:
+- Display a message in full-screen:
 
-`sm {{Hello World!}}`
+`sm "{{Hello World!}}"`
 
 - Display a message with inverted colors:
 
-`sm -i {{Hello World!}}`
+`sm -i "{{Hello World!}}"`
 
-- Display a message with a foreground color:
+- Display a message with a custom foreground color:
 
-`sm -f {{blue}} {{Hello World!}}`
+`sm -f {{blue}} "{{Hello World!}}"`
 
-- Display a message with a background color:
+- Display a message with a custom background color:
 
-`sm -b {{#008888}} {{Hello World!}}`
+`sm -b {{#008888}} "{{Hello World!}}"`
 
-- Rotate the displayed message by n times 90 degrees:
+- Display a message rotated 3 times (in steps of 90 degrees, counterclockwise):
 
-`sm -r {{3}} {{Hello World!}}`
+`sm -r {{3}} "{{Hello World!}}"`
 
-- Pipe a message to sm:
+- Display a message using the output from another command:
 
-`{{echo Hello World!}} | sm -`
+`{{echo "Hello World!"}} | sm -`
