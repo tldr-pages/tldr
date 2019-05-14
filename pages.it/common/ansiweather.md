@@ -1,6 +1,7 @@
 # ansiweather
 
 > Uno script per mostrare le attuali condizioni meteo nel tuo terminale.
+> Homepage: <https://github.com/fcambus/ansiweather>.
 
 - Mostra una previsione usando unità SI per i prossimi cinque giorni in Rzeszow (Polonia):
 
