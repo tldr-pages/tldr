@@ -1,6 +1,7 @@
 # rdfind
 
 > Find files with duplicate content and get rid of them.
+> Homepage: <https://rdfind.pauldreik.se>.
 
 - Identify all duplicates in a given directory and output a summary:
 
