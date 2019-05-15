@@ -1,6 +1,7 @@
 # salt-key
 
 > Invoke salt locally on a salt minion.
+> Homepage: <https://www.saltstack.com>.
 
 - Perform a highstate on this minion:
 
