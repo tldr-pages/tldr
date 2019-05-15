@@ -1,6 +1,7 @@
 # r
 
 > R language interpreter.
+> Homepage: <https://www.r-project.org>.
 
 - Start an R interactive shell (REPL):
 
