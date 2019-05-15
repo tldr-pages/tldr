@@ -1,6 +1,7 @@
 # ruby
 
 > Ruby programming language interpreter.
+> Homepage: <https://www.ruby-lang.org>.
 
 - Open an Interactive Ruby Shell (REPL):
 
