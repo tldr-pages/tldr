@@ -1,6 +1,7 @@
 # slackcat
 
 > Utility for passing files and command output to Slack.
+> Homepage: <https://github.com/bcicen/slackcat>.
 
 - Post a file to Slack:
 
