@@ -1,6 +1,7 @@
 # sails
 
 > Sails.js is a realtime enterprise level MVC framework built on top of Node.js.
+> Homepage: <https://sailsjs.com>.
 
 - Start Sails:
 
