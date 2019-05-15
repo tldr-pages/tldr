@@ -13,7 +13,7 @@
 
 - Run tests using the specified configuration file:
 
-`atoum -c {{path/to/configuration_file}}`
+`atoum -c {{path/to/file}}`
 
 - Run a specific test file:
 
@@ -33,4 +33,4 @@
 
 - Load a custom bootstrap file before running tests:
 
-`atoum --bootstrap-file {{path/to/bootstrap_file}}`
+`atoum --bootstrap-file {{path/to/file}}`
