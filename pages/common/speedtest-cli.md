@@ -1,6 +1,7 @@
 # speedtest-cli
 
 > Command line interface for testing internet bandwidth using speedtest.net.
+> Homepage: <https://github.com/sivel/speedtest-cli>.
 
 - Run a speed test:
 
