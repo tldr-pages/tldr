@@ -1,6 +1,7 @@
 # salt
 
 > Execute commands and assert state on remote salt minions.
+> Homepage: <https://www.saltstack.com>.
 
 - List connected minions:
 
