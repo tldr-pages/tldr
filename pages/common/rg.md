@@ -1,6 +1,7 @@
 # ripgrep
 
 > A fast command-line search tool.
+> Homepage: <https://github.com/BurntSushi/ripgrep>.
 
 - Recursively search the current directory for a regex pattern:
 
