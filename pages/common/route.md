@@ -1,6 +1,6 @@
 # route
 
-> Use route cmd to set the route table .
+> Use route cmd to set the route table.
 
 - Display the information of route table:
 
