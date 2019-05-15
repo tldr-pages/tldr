@@ -11,7 +11,7 @@
 
 `mas list`
 
-- Search for an application with price included:
+- Search for an application, displaying the price alongside the results:
 
 `mas search {{application}} --price`
 
