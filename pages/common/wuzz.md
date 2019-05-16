@@ -1,6 +1,7 @@
 # wuzz
 
 > Tool to interactively inspect HTTP requests and responses.
+> Homepage: <https://github.com/asciimoo/wuzz>.
 
 - Start wuzz:
 

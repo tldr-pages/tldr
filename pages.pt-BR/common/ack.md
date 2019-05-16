@@ -1,6 +1,7 @@
 # ack
 
 > Uma ferramenta de pesquisa similar ao grep, otimizada para programadores.
+> Homepage: <https://beyondgrep.com/documentation/>.
 
 - Procurar por arquivos que contenham o termo "foo":
 

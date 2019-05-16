@@ -2,6 +2,7 @@
 
 > Archiving utility.
 > Often combined with a compression method, such as gzip or bzip.
+> Homepage: <https://www.gnu.org/software/tar>.
 
 - Create an archive from files:
 

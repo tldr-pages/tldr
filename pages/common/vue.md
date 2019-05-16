@@ -2,6 +2,7 @@
 
 > Simple CLI for scaffolding Vue.js projects.
 > Official templates include: webpack, webpack-simple, browserify, browserify-simple, simple.
+> Homepage: <https://cli.vuejs.org>.
 
 - Create a new vue project:
 

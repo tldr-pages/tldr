@@ -1,6 +1,7 @@
 # haxelib
 
 > Haxe Library Manager.
+> Homepage: <https://lib.haxe.org/>.
 
 - Search for a Haxe library:
 

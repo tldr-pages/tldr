@@ -2,6 +2,7 @@
 
 > Un manager di pacchetti ottimizzato per sviluppo web front-end.
 > Un pacchetto può essere una abbreviazione utente/repo GitHub, un endpoint Git, un URL o un pacchetto registrato.
+> Homepage: <https://bower.io/>.
 
 - Installa le dipendenze di un progetto, listate nel suo file bower.json:
 

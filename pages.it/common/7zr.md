@@ -2,6 +2,7 @@
 
 > Archiviatore di file con alto fattore di compressione.
 > Versione standalone di `7z` che supporta solo file .7z.
+> Homepage: <https://www.7-zip.org/>.
 
 - Archivia un file o una directory:
 

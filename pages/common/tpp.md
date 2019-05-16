@@ -1,6 +1,7 @@
 # tpp
 
 > Command-Line based presentation tool.
+> Homepage: <https://github.com/cbbrowne/tpp>.
 
 - View a presentation:
 

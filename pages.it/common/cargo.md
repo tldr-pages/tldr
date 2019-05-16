@@ -2,6 +2,7 @@
 
 > Gestore di pacchetti di Rust.
 > Gestisce progetti Rust ed i moduli dai quali sono dipendenti (detti crate).
+> Homepage: <https://crates.io/>.
 
 - Cerca una crate:
 

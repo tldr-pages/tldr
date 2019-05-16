@@ -1,6 +1,7 @@
 # xsv
 
 > A fast CSV command line toolkit written in Rust.
+> Homepage: <https://github.com/BurntSushi/xsv>.
 
 - Inspect the headers of a file:
 
