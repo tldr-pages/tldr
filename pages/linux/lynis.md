@@ -1,7 +1,7 @@
 # lynis
 
 > System and security auditing tool.
-> Homepage: <https://cisofy.com/lynis/>.
+> Homepage: <https://cisofy.com/documentation/lynis/>.
 
 - Check that Lynis is up-to-date:
 
