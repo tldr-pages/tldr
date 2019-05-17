@@ -1,7 +1,7 @@
 # write
 
 > Write a message on the terminal of a specified logged in user (ctrl-C to stop writing messages).
-> Use the `who` command to find out all terminal_ids of all active users active on the system.
+> Use the `who` command to find out all terminal_ids of all active users active on the system. See also `mesg`.
 
 - Send a message to a given user on a given terminal id:
 
