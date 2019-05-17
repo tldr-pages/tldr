@@ -13,7 +13,7 @@
 
 - Find old-school rap 320kbps MP3 files:
 
-`fselect path from /home/user/music where genre = Rap and bitrate = 320 and mp3_year lt 2000`
+`fselect path from {{path/to/directory}} where genre = {{Rap}} and bitrate = {{320}} and mp3_year lt {{2000}}`
 
 - Output as json:
 
