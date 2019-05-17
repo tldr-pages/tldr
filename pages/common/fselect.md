@@ -8,7 +8,7 @@
 
 - Find square images:
 
-`fselect path from /home/user/Photos where width = height`
+`fselect path from {{path/to/directory}} where width = height`
 
 - Find old-school rap 320kbps MP3 files:
 
