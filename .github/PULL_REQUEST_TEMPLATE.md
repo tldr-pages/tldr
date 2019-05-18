@@ -7,3 +7,4 @@
 - [ ] The page has 8 or fewer examples.
 - [ ] The PR title conforms to the recommended [templates](/tldr-pages/tldr/blob/master/CONTRIBUTING.md#commit-message).
 - [ ] The page follows the [content guidelines](/tldr-pages/tldr/blob/master/CONTRIBUTING.md#guidelines).
+- [ ] The page description includes a link to documentation or a homepage (if applicable).
