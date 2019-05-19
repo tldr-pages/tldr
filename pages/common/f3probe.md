@@ -6,3 +6,11 @@
 - Probe a block device:
 
 `f3probe {{path/to/block_device}}`
+
+- Use the minimum about of RAM possible: 
+
+`f3probe --min-memory {{path/to/block_device}}`
+
+- Time disk operations:
+
+`f3probe --time-ops {{path/to/block_device}}`
