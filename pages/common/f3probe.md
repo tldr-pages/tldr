@@ -7,7 +7,7 @@
 
 `f3probe {{path/to/block_device}}`
 
-- Use the minimum about of RAM possible: 
+- Use the minimum about of RAM possible:
 
 `f3probe --min-memory {{path/to/block_device}}`
 
