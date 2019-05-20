@@ -10,7 +10,7 @@
 
 `lslocks --output PID,COMMAND,PATH`
 
-- List locks raw output (no columns), and no column headers:
+- List locks producing a raw output (no columns), and without column headers:
 
 `lslocks --raw --noheadings`
 
