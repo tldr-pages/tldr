@@ -1,6 +1,6 @@
 # lslocks
 
-> List all local system locks.
+> List local system locks.
 
 - List all local system locks:
 
