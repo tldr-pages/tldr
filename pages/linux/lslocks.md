@@ -12,7 +12,7 @@
 
 - List locks raw output (no columns), and no column headers:
 
-`lslocks -r -n`
+`lslocks --raw --noheadings`
 
 - Populate a csv file with the information from above command:
 
