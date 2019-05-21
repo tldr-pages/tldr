@@ -14,6 +14,10 @@
 
 `lslocks --raw --noheadings`
 
-- Populate a csv file with the information from above command:
+- List locks by PID input:
 
-`lslocks -r -n | tr ' ' ',' > {{filename.csv}}`
+`lslocks --pid {{PID}}`
+
+- List locks with json output to stdout:
+
+`lslocks --json`
