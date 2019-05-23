@@ -5,32 +5,32 @@
 
 - Transfer file from local to remote host:
 
-`rsync {{path/to/file}} {{remote_host_name}}:{{remote_host_location}}`
+`rsync {{path/to/local_file}} {{remote_host}}:{{path/to/remote_directory}}`
 
 - Transfer file from remote host to local:
 
-`rsync {{remote_host_name}}:{{remote_file_location}} {{local_file_location}}`
+`rsync {{remote_host}}:{{path/to/remote_file}} {{path/to/local_directory}}`
 
 - Transfer file in archive (to preserve attributes) and compressed (zipped) mode with verbose and human-readable progress:
 
-`rsync -azvhP {{path/to/file}} {{remote_host_name}}:{{remote_host_location}}`
+`rsync -azvhP {{path/to/local_file}} {{remote_host}}:{{path/to/remote_directory}}`
 
 - Transfer a directory and all its children from a remote to local:
 
-`rsync -r {{remote_host_name}}:{{remote_directory_location}} {{local_directory_location}}`
+`rsync -r {{remote_host}}:{{path/to/remote_directory}} {{path/to/local_directory}}`
 
 - Transfer directory contents (but not the directory itself) from a remote to local:
 
-`rsync -r {{remote_host_name}}:{{remote_directory_location}}/ {{local_directory_location}}`
+`rsync -r {{remote_host}}:{{path/to/remote_directory}}/ {{path/to/local_directory}}`
 
 - Transfer only updated files from remote host:
 
-`rsync -ru {{remote_host_name}}:{{remote_directory_location}} {{local_directory_location}}`
+`rsync -ru {{remote_host}}:{{path/to/remote_directory}} {{path/to/local_directory}}`
 
 - Transfer file over SSH and delete local files that do not exist on remote host:
 
-`rsync -e ssh --delete {{remote_host_name}}:{{remote_file}} {{local_file}}`
+`rsync -e ssh --delete {{remote_host}}:{{path/to/remote_file}} {{path/to/local_file}}`
 
 - Transfer file over SSH and show global progress:
 
-`rsync -e ssh --info=progress2 {{remote_host_name}}:{{remote_file}} {{local_file}}`
+`rsync -e ssh --info=progress2 {{remote_host}}:{{path/to/remote_file}} {{path/to/local_file}}`
