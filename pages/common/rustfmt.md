@@ -1,7 +1,7 @@
 # rustfmt
 
 > Tool for formatting Rust source code.
-> Homepage: <https://github.com/rust-lang/rustfmt>.
+> More information: <https://github.com/rust-lang/rustfmt>.
 
 - Format a file, overwriting the original file in-place:
 

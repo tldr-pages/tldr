@@ -1,7 +1,7 @@
 # stack
 
 > Tool for managing Haskell projects.
-> Homepage: <https://github.com/commercialhaskell/stack>.
+> More information: <https://github.com/commercialhaskell/stack>.
 
 - Create a new project:
 

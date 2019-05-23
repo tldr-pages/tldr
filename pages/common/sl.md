@@ -1,7 +1,7 @@
 # sl
 
 > Steam locomotive running through your terminal.
-> Homepage: <https://github.com/mtoyoda/sl>.
+> More information: <https://github.com/mtoyoda/sl>.
 
 - Let a steam locomotive run through your terminal:
 
