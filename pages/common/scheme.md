@@ -1,7 +1,7 @@
 # scheme
 
 > MIT Scheme language interperter and REPL (interactive shell).
-> Homepage: <https://www.gnu.org/software/mit-scheme>.
+> More information: <https://www.gnu.org/software/mit-scheme>.
 
 - Open an interactive shell (REPL):
 

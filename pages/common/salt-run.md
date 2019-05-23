@@ -1,7 +1,7 @@
 # salt-run
 
 > Frontend for executing salt-runners on minions.
-> Homepage: <https://docs.saltstack.com/ref/cli/salt-run.html>.
+> More information: <https://docs.saltstack.com/ref/cli/salt-run.html>.
 
 - Show status of all minions:
 

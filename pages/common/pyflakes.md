@@ -1,7 +1,7 @@
 # pyflakes
 
 > Checks Python source code files for errors.
-> Homepage: <https://pypi.org/project/pyflakes>.
+> More information: <https://pypi.org/project/pyflakes>.
 
 - Check a single Python file:
 
