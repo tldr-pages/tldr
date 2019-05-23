@@ -2,7 +2,7 @@
 
 > Print macOS operating system version information.
 
-- Print all available information (OS name, version number and build):
+- Print all available information (OS name, version number, and build):
 
 `sw_vers`
 
