@@ -1,7 +1,7 @@
 # sqsc
 
 > A command line AWS Simple Queue Service client.
-> Homepage: <https://github.com/yongfei25/sqsc>.
+> More information: <https://github.com/yongfei25/sqsc>.
 
 - List all queues:
 

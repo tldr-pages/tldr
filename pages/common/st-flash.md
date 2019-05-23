@@ -1,7 +1,7 @@
 # st-flash
 
 > Flash binary files to STM32 ARM Cortex microcontrollers.
-> Homepage: <https://github.com/texane/stlink>.
+> More information: <https://github.com/texane/stlink>.
 
 - Read 4096 bytes from the device starting from 0x8000000:
 

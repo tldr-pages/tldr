@@ -1,7 +1,7 @@
 # Stolon
 
 > A cloud native PostgreSQL manager for PostgreSQL high availability.
-> Homepage: <https://github.com/sorintlab/stolon>.
+> More information: <https://github.com/sorintlab/stolon>.
 
 - Get cluster status:
 

@@ -2,7 +2,7 @@
 
 > Reddit Terminal Viewer.
 > Use arrow keys to navigate. Right and Left to view and return from a submission, respectively.
-> Homepage: <https://github.com/michael-lazar/rtv>.
+> More information: <https://github.com/michael-lazar/rtv>.
 
 - Open the front page:
 

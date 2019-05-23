@@ -1,7 +1,7 @@
 # satis
 
 > The command-line utility for the Satis static Composer repository.
-> Homepage: <https://github.com/composer/satis>.
+> More information: <https://github.com/composer/satis>.
 
 - Initialise a Satis configuration:
 
