@@ -1,0 +1,14 @@
+<b>ipcmk</b><br><br>
+<b>Create IPC (Inter-process Communication) resources.</b><br><br>
+- Create a shared memory segment:
+
+<blockquote>ipcmk --shmem <i>segment_size_in_bytes</i></blockquote>
+- Create a semaphore:
+
+<blockquote>ipcmk --semaphore <i>element_size</i></blockquote>
+- Create a message queue:
+
+<blockquote>ipcmk --queue</blockquote>
+- Create a shared memory segment with specific permissions (default is 0644):
+
+<blockquote>ipcmk --shmem <i>segment_size_in_bytes</i> <i>octal_permissons</i></blockquote>

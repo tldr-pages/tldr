@@ -9,3 +9,6 @@
 - Disown all jobs:
 
 <blockquote>disown -a</blockquote>
+- Keep job (do not disown it), but mark it so that no future SIGHUP is received on shell exit:
+
+<blockquote>disown -h %<i>job_number</i></blockquote>

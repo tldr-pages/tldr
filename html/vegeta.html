@@ -1,5 +1,5 @@
 <b>vegeta</b><br><br>
-<b>Vegeta is both a command line utility and a library for HTTP load testing.</b><br><br><b>See also `ab`.</b><br><br>
+<b>A command line utility and a library for HTTP load testing.</b><br><br><b>See also `ab`.</b><br><br><b>Homepage: <a href="https://github.com/tsenart/vegeta">home page</a></b><br><br>
 - Launch an attack lasting 30 seconds:
 
 <blockquote>echo "<i>GET https://example.com</i>" | vegeta attack -duration=<i>30s</i></blockquote>
@@ -9,12 +9,12 @@
 - Launch an attack with a rate of 10 requests per second:
 
 <blockquote>echo "<i>GET https://example.com</i>" | vegeta attack -duration=<i>30s</i> -rate=<i>10</i></blockquote>
-- Launch an attack and display for a report:
+- Launch an attack and display a report:
 
 <blockquote>echo "<i>GET https://example.com</i>" | vegeta attack -duration=<i>30s</i> | vegeta report</blockquote>
-- Launch an attack and plot the results on a graph (latency against time):
+- Launch an attack and plot the results on a graph (latency over time):
 
 <blockquote>echo "<i>GET https://example.com</i>" | vegeta attack -duration=<i>30s</i> | vegeta plot > <i>path/to/results.html</i></blockquote>
 - Launch an attack against multiple URLs from a file:
 
-<blockquote>vegeta attack -duration=<i>30s</i> -targets=requests.txt | vegeta report</blockquote>
+<blockquote>vegeta attack -duration=<i>30s</i> -targets=<i>requests.txt</i> | vegeta report</blockquote>

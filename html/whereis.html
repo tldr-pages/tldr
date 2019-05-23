@@ -12,3 +12,9 @@
 - Locate binaries for gcc in /usr/bin/ only:
 
 <blockquote>whereis -b -B <i>/usr/bin/</i> -f <i>gcc</i></blockquote>
+- Locate unusual binaries (those that have more or less than one binary on the system):
+
+<blockquote>whereis -u *</blockquote>
+- Locate binaries that have unusual manual entries (binaries that have more or less than one manual installed):
+
+<blockquote>whereis -u -m *</blockquote>

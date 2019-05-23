@@ -1,6 +1,7 @@
 # vagrant
 
 > Manage lightweight, reproducible, and portable development environments.
+> Homepage: <https://www.vagrantup.com>.
 
 - Create Vagrantfile in current directory with the base Vagrant box:
 
@@ -17,6 +18,10 @@
 - Suspend the machine:
 
 `vagrant suspend`
+
+- Halt the machine:
+
+`vagrant halt`
 
 - Connect to machine via SSH:
 

@@ -1,0 +1,17 @@
+<b>taskset</b><br><br>
+<b>Get or set a process' CPU affinity or start a new process with a defined CPU affinity.</b><br><br>
+- Get a running process' CPU affinity by PID:
+
+<blockquote>taskset --pid --cpu-list <i>pid</i></blockquote>
+- Set a running process' CPU affinity by PID:
+
+<blockquote>taskset --pid --cpu-list <i>cpu_id</i> <i>pid</i></blockquote>
+- Start a new process with affinity for a single CPU:
+
+<blockquote>taskset --cpu-list <i>cpu_id</i> <i>command</i></blockquote>
+- Start a new process with affinity for multiple non-sequential CPUs:
+
+<blockquote>taskset --cpu-list <i>cpu_id_1</i> <i>cpu_id_2</i> <i>cpu_id_3</i></blockquote>
+- Start a new process with affinity for CPUs 1 through 4:
+
+<blockquote>taskset --cpu-list <i>cpu_id_1</i>,<i>cpu_id_4</i></blockquote>

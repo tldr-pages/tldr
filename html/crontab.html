@@ -9,12 +9,12 @@
 - Remove all cron jobs for the current user:
 
 <blockquote>crontab -r</blockquote>
-- Sample job which runs at 10:00 every day. * means any value:
+- Sample job which runs at 10:00 every day (* means any value):
 
-<blockquote>0 10 * * * <i>path/to/script.sh</i></blockquote>
+<blockquote>0 10 * * * <i>command_to_execute</i></blockquote>
 - Sample job which runs every minute on the 3rd of April:
 
-<blockquote>* * 3 Apr * <i>path/to/script.sh</i></blockquote>
-- Sample job which runs at 02:30 every Friday:
+<blockquote>* * 3 Apr * <i>command_to_execute</i></blockquote>
+- Sample job which runs a certain script at 02:30 every Friday:
 
-<blockquote>30 2 * * Fri <i>path/to/script.sh</i></blockquote>
+<blockquote>30 2 * * Fri <i>/absolute/path/to/script.sh</i></blockquote>

@@ -1,0 +1,26 @@
+<b>transmission-cli</b><br><br>
+<b>A lightweight, command-line BitTorrent client.</b><br><br><b>This tool has been deprecated, please see `transmission-remote`.</b><br><br><b>Homepage: <a href="https://transmissionbt.com">home page</a></b><br><br>
+- Download a specific torrent:
+
+<blockquote>transmission-cli <i>url|magnet|path/to/file</i></blockquote>
+- Download a torrent to a specific directory:
+
+<blockquote>transmission-cli --download-dir <i>path/to/download_directory</i> <i>url|magnet|path/to/file</i></blockquote>
+- Create a torrent file from a specific file or directory:
+
+<blockquote>transmission-cli --new <i>path/to/source_file_or_directory</i></blockquote>
+- Set the download speed limit to 50 KB/s:
+
+<blockquote>transmission-cli --downlimit <i>50</i> <i>url|magnet|path/to/file</i></blockquote>
+- Set the upload speed limit to 50 KB/s:
+
+<blockquote>transmission-cli --uplimit <i>50</i> <i>url|magnet|path/to/file</i></blockquote>
+- Use a specific port for connections:
+
+<blockquote>transmission-cli --port <i>port_number</i> <i>url|magnet|path/to/file</i></blockquote>
+- Force encryption for peer connections:
+
+<blockquote>transmission-cli --encryption-required <i>url|magnet|path/to/file</i></blockquote>
+- Use a Bluetack-formatted peer blocklist:
+
+<blockquote>transmission-cli --blocklist <i>blocklist_url|path/to/blocklist</i> <i>url|magnet|path/to/file</i></blockquote>

@@ -1,20 +1,20 @@
 <b>sm</b><br><br>
-<b>Displays a short message fullscreen.</b><br><br>
-- Display a message fullscreen:
+<b>Displays a short message fullscreen.</b><br><br><b>Homepage: <a href="https://github.com/nomeata/screen-message">home page</a></b><br><br>
+- Display a message in full-screen:
 
-<blockquote>sm <i>Hello World!</i></blockquote>
+<blockquote>sm "<i>Hello World!</i>"</blockquote>
 - Display a message with inverted colors:
 
-<blockquote>sm -i <i>Hello World!</i></blockquote>
-- Display a message with a foreground color:
+<blockquote>sm -i "<i>Hello World!</i>"</blockquote>
+- Display a message with a custom foreground color:
 
-<blockquote>sm -f <i>blue</i> <i>Hello World!</i></blockquote>
-- Display a message with a background color:
+<blockquote>sm -f <i>blue</i> "<i>Hello World!</i>"</blockquote>
+- Display a message with a custom background color:
 
-<blockquote>sm -b <i>#008888</i> <i>Hello World!</i></blockquote>
-- Rotate the displayed message by n times 90 degrees:
+<blockquote>sm -b <i>#008888</i> "<i>Hello World!</i>"</blockquote>
+- Display a message rotated 3 times (in steps of 90 degrees, counterclockwise):
 
-<blockquote>sm -r <i>3</i> <i>Hello World!</i></blockquote>
-- Pipe a message to sm:
+<blockquote>sm -r <i>3</i> "<i>Hello World!</i>"</blockquote>
+- Display a message using the output from another command:
 
-<blockquote><i>echo Hello World!</i> | sm -</blockquote>
+<blockquote><i>echo "Hello World!"</i> | sm -</blockquote>

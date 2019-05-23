@@ -1,20 +1,20 @@
 <b>diff</b><br><br>
 <b>Compare files and directories.</b><br><br>
-- Compare files:
+- Compare files (lists changes to turn `old_file` into `new_file`):
 
-<blockquote>diff <i>file1</i> <i>file2</i></blockquote>
+<blockquote>diff <i>old_file</i> <i>new_file</i></blockquote>
 - Compare files, ignoring white spaces:
 
-<blockquote>diff -w <i>file1</i> <i>file2</i></blockquote>
+<blockquote>diff -w <i>old_file</i> <i>new_file</i></blockquote>
 - Compare files, showing the differences side by side:
 
-<blockquote>diff -y <i>file1</i> <i>file2</i></blockquote>
+<blockquote>diff -y <i>old_file</i> <i>new_file</i></blockquote>
 - Compare files, showing the differences in unified format (as used by `git diff`):
 
-<blockquote>diff -u <i>file1</i> <i>file2</i></blockquote>
-- Compare directories recursively:
+<blockquote>diff -u <i>old_file</i> <i>new_file</i></blockquote>
+- Compare directories recursively (shows names for differing files/directories as well as changes made to files):
 
-<blockquote>diff -r <i>directory1</i> <i>directory2</i></blockquote>
+<blockquote>diff -r <i>old_directory</i> <i>new_directory</i></blockquote>
 - Compare directories, only showing the names of files that differ:
 
-<blockquote>diff -rq <i>directory1</i> <i>directory2</i></blockquote>
+<blockquote>diff -rq <i>old_directory</i> <i>new_directory</i></blockquote>

@@ -4,19 +4,19 @@
 
 - Lookup the IP(s) associated with a hostname (A records):
 
-`drill {{hostname.com}}`
+`drill {{example.com}}`
 
 - Lookup the mail server(s) associated with a given domain name (MX record):
 
-`drill mx {{hostname.com}}`
+`drill mx {{example.com}}`
 
 - Get all types of records for a given domain name:
 
-`drill any {{hostname.com}}`
+`drill any {{example.com}}`
 
 - Specify an alternate DNS server to query:
 
-`drill {{hostname.com}} @{{8.8.8.8}}`
+`drill {{example.com}} @{{8.8.8.8}}`
 
 - Perform a reverse DNS lookup on an IP address (PTR record):
 
@@ -24,8 +24,8 @@
 
 - Perform DNSSEC trace from root servers down to a domain name:
 
-`drill -TD {{hostname.com}}`
+`drill -TD {{example.com}}`
 
 - Show DNSKEY record(s) for a domain name:
 
-`drill -s dnskey {{hostname.com}}`
+`drill -s dnskey {{example.com}}`

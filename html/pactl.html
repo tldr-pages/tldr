@@ -1,0 +1,17 @@
+<b>pactl</b><br><br>
+<b>Control a running PulseAudio sound server.</b><br><br>
+- List all sinks (or other types - sinks are outputs and sink-inputs are active audio streams):
+
+<blockquote>pactl list <i>sinks</i> short</blockquote>
+- Change the default sink (output) to 1 (the number can be retrieved via the `list` subcommand):
+
+<blockquote>pactl set-default-sink <i>1</i></blockquote>
+- Move sink-input 627 to sink 1:
+
+<blockquote>pactl move-sink-input <i>627</i> <i>1</i></blockquote>
+- Set the volume of sink 1 to 75%:
+
+<blockquote>pactl set-sink-volume <i>1</i> <i>0.75</i></blockquote>
+- Toggle mute on the default sink (using the special name `@DEFAULT_SINK@`):
+
+<blockquote>pactl set-sink-mute <i>@DEFAULT_SINK@</i> toggle</blockquote>

@@ -1,0 +1,8 @@
+<b>nologin</b><br><br>
+<b>Alternative shell that prevents a user from logging in.</b><br><br>
+- Set a user's login shell to `nologin` to prevent the user from logging in:
+
+<blockquote>chsh -s <i>user</i> nologin</blockquote>
+- Customize message for users with the login shell of `nologin`:
+
+<blockquote>echo "<i>declined_login_message</i>" > /etc/nologin.txt</blockquote>

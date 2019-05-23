@@ -1,0 +1,11 @@
+<b>wrk</b><br><br>
+<b>HTTP benchmarking tool.</b><br><br><b>Homepage: <a href="https://github.com/wg/wrk">home page</a></b><br><br>
+- Run a benchmark for `30` seconds, using `12` threads, and keeping `400` HTTP connections open:
+
+<blockquote>wrk -t<i>12</i> -c<i>400</i> -d<i>30s</i> "<i>http://127.0.0.1:8080/index.html</i>"</blockquote>
+- Run a benchmark with a custom header:
+
+<blockquote>wrk -t<i>2</i> -c<i>5</i> -d<i>5s</i> -H "<i>Host: example.com</i>" "<i>http://example.com/index.html</i>"</blockquote>
+- Run a benchmark with a request timeout of `2` seconds:
+
+<blockquote>wrk -t<i>2</i> -c<i>5</i> -d<i>5s</i> — timeout <i>2s</i> "<i>http://example.com/index.html</i>"</blockquote>

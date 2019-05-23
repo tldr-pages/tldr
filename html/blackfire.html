@@ -1,0 +1,26 @@
+<b>blackfire</b><br><br>
+<b>A command line profiling tool for PHP.</b><br><br><b>Homepage: <a href="https://blackfire.io">home page</a></b><br><br>
+- Initialise and configure the Blackfire client:
+
+<blockquote>blackfire config</blockquote>
+- Launch the Blackfire agent:
+
+<blockquote>blackfire agent</blockquote>
+- Launch the Blackfire agent on a specific socket:
+
+<blockquote>blackfire agent --socket="<i>tcp://127.0.0.1:8307</i>"</blockquote>
+- Run the profiler on a specific program:
+
+<blockquote>blackfire run <i>php path/to/file.php</i></blockquote>
+- Run the profiler and collect 10 samples:
+
+<blockquote>blackfire --samples=<i>10</i> run <i>php path/to/file.php</i></blockquote>
+- Run the profiler and output results as JSON:
+
+<blockquote>blackfire --json run <i>php path/to/file.php</i></blockquote>
+- Upload a profiler file to the Blackfire web service:
+
+<blockquote>blackfire upload <i>path/to/file</i></blockquote>
+- View the status of profiles on the Blackfire web service:
+
+<blockquote>blackfire status</blockquote>

@@ -3,8 +3,8 @@
 cd ../tldr || exit 1
 git pull
 cd -
-rsync -av ../tdlr/pages/common/ pages/common/
-rsync -av ../tdlr/pages/linux/ pages/linux/
+rsync -av ../tldr/pages/common/ pages/common/
+rsync -av ../tldr/pages/linux/ pages/linux/
 nice ./change-all-md-to-html
 nice rsync -av html/*.html jsmith@distrowatch.com:dww/text/man-pages/
 nice git add html/* pages/linux/* pages/common/*

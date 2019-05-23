@@ -11,7 +11,7 @@
 
 `mkcert {{example.org}}`
 
-- Generate certificate and private key for the multiple domains:
+- Generate certificate and private key for multiple domains:
 
 `mkcert {{example.org}} {{myapp.dev}} {{127.0.0.1}}`
 

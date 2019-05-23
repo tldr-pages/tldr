@@ -1,6 +1,7 @@
 # vault
 
 > A CLI to interact with HashiCorp Vault.
+> Homepage: <https://www.vaultproject.io/docs/commands>.
 
 - Connect to a Vault server and initialize a new encrypted data store:
 

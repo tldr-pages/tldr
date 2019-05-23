@@ -1,6 +1,7 @@
 # helm
 
 > Helm is a package manager for Kubernetes.
+> Homepage: <https://helm.sh/>.
 
 - Create a helm chart:
 

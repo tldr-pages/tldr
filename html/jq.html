@@ -21,3 +21,6 @@
 - Combine multiple filters:
 
 <blockquote>cat <i>file.json</i> | jq 'unique | sort | reverse'</blockquote>
+- Output the value of a given key to a string (and disable JSON output):
+
+<blockquote>cat <i>file.json</i> | jq --raw-output '"some text: \(.<i>key_name</i>)"'</blockquote>

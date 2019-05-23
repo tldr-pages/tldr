@@ -1,0 +1,14 @@
+<b>glib-compile-resources</b><br><br>
+<b>Compiles resource files (e.g. images) into a binary resource bundle.</b><br><br><b>These may be linked into GTK applications using the GResource API.</b><br><br>
+- Compile resources referenced in "file.gresource.xml" to a .gresource binary:
+
+<blockquote>glib-compile-resources <i>file.gresource.xml</i></blockquote>
+- Compile resources referenced in "file.gresource.xml" to a C source file:
+
+<blockquote>glib-compile-resources --generate-source <i>file.gresource.xml</i></blockquote>
+- Compile resources in "file.gresource.xml" to a chosen target file, with .c, .h or .gresource extension:
+
+<blockquote>glib-compile-resources --generate --target=<i>file.ext</i> <i>file.gresource.xml</i></blockquote>
+- Print a list of resource files referenced in "file.gresource.xml":
+
+<blockquote>glib-compile-resources --generate-dependencies <i>file.gresource.xml</i></blockquote>

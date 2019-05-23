@@ -9,9 +9,9 @@
 - Check a given file, specifying which tests to perform (by default only errors are shown):
 
 <blockquote>cppcheck --enable=<i>error|warning|style|performance|portability|information|all</i> <i>path/to/file.cpp</i></blockquote>
-- List available tests, filtered by a given search pattern:
+- List available tests:
 
-<blockquote>cppcheck --errorlist | grep "<i>search_pattern</i>"</blockquote>
+<blockquote>cppcheck --errorlist</blockquote>
 - Check a given file, ignoring specific tests:
 
 <blockquote>cppcheck --suppress=<i>test_id1</i> --suppress=<i>test_id2</i> <i>path/to/file.cpp</i></blockquote>
