@@ -30,6 +30,6 @@
 
 `kubectl cluster-info`
 
-- Display an explanation of the fields shown:
+- Display an explanation of the specific field:
 
 `kubectl explain pods.spec.containers`
