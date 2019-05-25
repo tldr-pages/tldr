@@ -30,6 +30,6 @@
 
 `kubectl cluster-info`
 
-- For getting explanations of fields:
+- Display an explanation of the fields shown:
 
 `kubectl explain deployment`
