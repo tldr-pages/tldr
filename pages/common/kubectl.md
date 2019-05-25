@@ -30,10 +30,6 @@
 
 `kubectl cluster-info`
 
-- For getting explanations of fields to create a yaml file
+- For getting explanations of fields:
 
 `kubectl explain deployment`
-
-- To display all of the explanations recursively
-
-`kubectl explain deployment --recursive`
