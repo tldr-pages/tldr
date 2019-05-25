@@ -29,3 +29,11 @@
 - Print the address of the master and cluster services:
 
 `kubectl cluster-info`
+
+- For getting explanations of fields to create a yaml file
+
+`kubectl explain deployment`
+
+- To display all of the explanations recursively
+
+`kubectl explain deployment --recursive`
