@@ -32,4 +32,4 @@
 
 - Display an explanation of the fields shown:
 
-`kubectl explain deployment`
+`kubectl explain pods.spec.containers`
