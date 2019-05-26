@@ -1,6 +1,6 @@
 # behat
 
-> A PHP framework for automatically testing business expectations.
+> A PHP framework for Behaviour-Driven Development.
 > More information: <https://behat.org>.
 
 - Initialise a new Behat project:
