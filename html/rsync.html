@@ -2,25 +2,25 @@
 <b>Transfer files either to or from a remote host (not between two remote hosts).</b><br><br><b>Can transfer single files, or multiple files matching a pattern.</b><br><br>
 - Transfer file from local to remote host:
 
-<blockquote>rsync <i>path/to/file</i> <i>remote_host_name</i>:<i>remote_host_location</i></blockquote>
+<blockquote>rsync <i>path/to/local_file</i> <i>remote_host</i>:<i>path/to/remote_directory</i></blockquote>
 - Transfer file from remote host to local:
 
-<blockquote>rsync <i>remote_host_name</i>:<i>remote_file_location</i> <i>local_file_location</i></blockquote>
+<blockquote>rsync <i>remote_host</i>:<i>path/to/remote_file</i> <i>path/to/local_directory</i></blockquote>
 - Transfer file in archive (to preserve attributes) and compressed (zipped) mode with verbose and human-readable progress:
 
-<blockquote>rsync -azvhP <i>path/to/file</i> <i>remote_host_name</i>:<i>remote_host_location</i></blockquote>
+<blockquote>rsync -azvhP <i>path/to/local_file</i> <i>remote_host</i>:<i>path/to/remote_directory</i></blockquote>
 - Transfer a directory and all its children from a remote to local:
 
-<blockquote>rsync -r <i>remote_host_name</i>:<i>remote_directory_location</i> <i>local_directory_location</i></blockquote>
+<blockquote>rsync -r <i>remote_host</i>:<i>path/to/remote_directory</i> <i>path/to/local_directory</i></blockquote>
 - Transfer directory contents (but not the directory itself) from a remote to local:
 
-<blockquote>rsync -r <i>remote_host_name</i>:<i>remote_folder_location</i>/ <i>local_folder_location</i></blockquote>
+<blockquote>rsync -r <i>remote_host</i>:<i>path/to/remote_directory</i>/ <i>path/to/local_directory</i></blockquote>
 - Transfer only updated files from remote host:
 
-<blockquote>rsync -ru <i>remote_host_name</i>:<i>remote_directory_location</i> <i>local_directory_location</i></blockquote>
+<blockquote>rsync -ru <i>remote_host</i>:<i>path/to/remote_directory</i> <i>path/to/local_directory</i></blockquote>
 - Transfer file over SSH and delete local files that do not exist on remote host:
 
-<blockquote>rsync -e ssh --delete <i>remote_host_name</i>:<i>remote_file</i> <i>local_file</i></blockquote>
+<blockquote>rsync -e ssh --delete <i>remote_host</i>:<i>path/to/remote_file</i> <i>path/to/local_file</i></blockquote>
 - Transfer file over SSH and show global progress:
 
-<blockquote>rsync -e ssh --info=progress2 <i>remote_host_name</i>:<i>remote_file</i> <i>local_file</i></blockquote>
+<blockquote>rsync -e ssh --info=progress2 <i>remote_host</i>:<i>path/to/remote_file</i> <i>path/to/local_file</i></blockquote>
