@@ -29,3 +29,7 @@
 - Print the address of the master and cluster services:
 
 `kubectl cluster-info`
+
+- Display an explanation of the specific field:
+
+`kubectl explain pods.spec.containers`
