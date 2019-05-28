@@ -8,7 +8,7 @@
 
 - List locks with defined column headers:
 
-`lslocks --output PID,COMMAND,PATH`
+`lslocks --output {{PID}},{{COMMAND}},{{PATH}}`
 
 - List locks producing a raw output (no columns), and without column headers:
 
