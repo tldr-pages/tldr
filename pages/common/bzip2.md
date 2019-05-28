@@ -2,14 +2,14 @@
 
 > A block-sorting file compressor.
 
-- Compress file:
+- Compress a file:
 
 `bzip2 {{path/to/file_to_compress}}`
 
-- Decompress file:
+- Decompress a file:
 
 `bzip2 -d {{path/to/compressed_file.bz2}}`
 
-- Decompress to console:
+- Decompress a file to standard output:
 
 `bzip2 -dc {{path/to/compressed_file.bz2}}`
