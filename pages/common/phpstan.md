@@ -1,6 +1,7 @@
 # phpstan
 
 > A PHP static analysis tool to discover bugs in code.
+> More information: <https://github.com/phpstan/phpstan>.
 
 - Display available options for analysis:
 
