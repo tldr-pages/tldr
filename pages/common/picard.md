@@ -1,6 +1,7 @@
 # picard
 
 > Next generation MusicBrainz tagging application.
+> More information: <https://picard.musicbrainz.org/>.
 
 - Start Picard:
 
