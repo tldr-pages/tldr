@@ -23,7 +23,7 @@
 
 `docker container pause`
 
-- Display detailed information on one or more containers
+- Display detailed information on one or more containers:
 
 `docker container inspect`
 
