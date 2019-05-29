@@ -1,6 +1,6 @@
 # rapper
 
-> RDF parser.
+> The Raptor RDF parsing utility.
 > Part of the Raptor RDF Syntax Library.
 > More information: <http://librdf.org/raptor/rapper.html>.
 
