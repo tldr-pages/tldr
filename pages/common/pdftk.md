@@ -1,6 +1,7 @@
 # pdftk
 
 > PDF toolkit.
+> More information: <https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit>.
 
 - Extract pages 1-3, 5 and 6-10 from a PDF file and save them as another one:
 
