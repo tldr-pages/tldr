@@ -1,6 +1,7 @@
 # phploc
 
 > A tool for quickly measuring the size and analyzing the structure of a PHP project.
+> More information: <https://github.com/sebastianbergmann/phploc>.
 
 - Analyse a directory and print the result:
 
