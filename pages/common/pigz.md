@@ -1,6 +1,7 @@
 # pigz
 
 > Multithreaded zlib compression utility.
+> More information: <https://github.com/madler/pigz>.
 
 - Compress a file with default options:
 
