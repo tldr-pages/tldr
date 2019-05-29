@@ -1,6 +1,7 @@
 # phpmd
 
 > A PHP mess detector that checks for common potential problems.
+> More information: <https://github.com/phpmd/phpmd>.
 
 - Display a list of available rulesets and formats:
 
