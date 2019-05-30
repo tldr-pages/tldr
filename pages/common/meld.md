@@ -1,6 +1,7 @@
 # meld
 
 > Graphical diffing and merging tool.
+> Homepage: <https://meldmerge.org/>.
 
 - Start meld:
 
@@ -21,3 +22,7 @@
 - Open a comparison as a new tab in a pre-existing meld instance:
 
 `meld --newtab {{path/to/file_1}} {{path/to/file_2}}`
+
+- Compare multiple sets of files:
+
+`meld --diff {{path/to/file_1}} {{path/to/file_2}} --diff {{path/to/file_3}} {{path/to/file_4}}`
