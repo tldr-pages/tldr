@@ -13,7 +13,7 @@
 
 - Launch a given program and limit it to only use 50% of the CPU:
 
-`cpulimit -l 50 {{program}}`
+`cpulimit -l {{50}} {{program}}`
 
 - Launch a program, limit its CPU usage to 50% and run cpulimit in the background:
 
