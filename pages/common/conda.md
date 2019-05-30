@@ -17,7 +17,7 @@
 
 - Delete an environment (remove all packages):
 
-`conda remove --name {{environment_name}} --all`
+`conda env remove -n {{environment_name}}`
 
 - Search conda channels for a package by name:
 
