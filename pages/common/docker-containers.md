@@ -3,7 +3,7 @@
 > Manage Docker containers.
 > More information: <https://docs.docker.com/engine/reference/commandline/container/>.
 
-- List currently running docker containers:
+- List currently running Docker containers:
 
 `docker container ls`
 
