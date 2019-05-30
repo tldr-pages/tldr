@@ -9,28 +9,28 @@
 
 - Start one or more stopped containers:
 
-`docker container start`
+`docker container start {{container_name}}`
 
 - Kill one or more running containers:
 
-`docker container kill`
+`docker container kill {{container_name}}`
 
 - Stop one or more running containers:
 
-`docker container stop`
+`docker container stop {{container_name}}`
 
 - Pause all processes within one or more containers:
 
-`docker container pause`
+`docker container pause {{container_name}}`
 
 - Display detailed information on one or more containers:
 
-`docker container inspect`
+`docker container inspect {{container_name}}`
 
 - Export a container’s filesystem as a tar archive:
 
-`docker container export`
+`docker container export {{container_name}}`
 
 - Create a new image from a container’s changes:
 
-`docker container commit`
+`docker container commit {{container_name}}`
