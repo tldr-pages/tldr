@@ -11,14 +11,6 @@
 
 `nnn -d`
 
-- Use exiftool instead of mediainfo:
-
-`nnn -e`
-
-- Start in navigate-as-you-type mode:
-
-`nnn -i`
-
 - Start in light mode (fewer details):
 
 `nnn -l`
@@ -38,15 +30,3 @@
 - Start in disk usage analyzer mode:
 
 `nnn -S`
-
-- Show version and exit:
-
-`nnn -v`
-
-- Wild load - entries unsorted on directory load:
-
-`nnn -w`
-
-- Show program help and exit:
-
-`nnn -h`
