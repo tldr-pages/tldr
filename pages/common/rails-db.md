@@ -6,7 +6,7 @@
 
 `rails db`
 
-- Create databases defined in current environment:
+- Create the databases defined in the current environment:
 
 `rails db:create`
 
