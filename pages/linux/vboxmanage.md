@@ -1,6 +1,6 @@
 # VBoxManage
 
-> VBoxManage is the command-line interface to VirtualBox.
+> Command-line interface to VirtualBox.
 > Completely control VirtualBox from CLI, including all actions that the GUI provides and more.
 > More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-intro>.
 
