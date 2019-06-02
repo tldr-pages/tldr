@@ -23,7 +23,7 @@
 
 `gpg2 --import {{public.gpg}}`
 
-- Export public key for alice@example.com (output to STDOUT):
+- Export the public key of alice@example.com to the standard output:
 
 `gpg2 --export --armor {{alice@example.com}}`
 
