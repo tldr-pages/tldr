@@ -24,6 +24,6 @@
 
 `VBoxManage controlvm {{name|uuid}} savestate`
 
-- Shutdown down the virtual machine without saving state:
+- Shutdown down the virtual machine without saving its state:
 
 `VBoxManage controlvm {{name|uuid}} poweroff`
