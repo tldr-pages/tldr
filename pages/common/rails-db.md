@@ -18,7 +18,7 @@
 
 `rails db:migrate`
 
-- View status of each migration file:
+- View the status of each migration file:
 
 `rails db:migrate:status`
 
