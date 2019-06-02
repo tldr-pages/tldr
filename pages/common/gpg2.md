@@ -30,4 +30,3 @@
 - Export private key for alice@example.com (output to STDOUT):
 
 `gpg2 --export-secret-keys --armor {{alice@example.com}}`
-
