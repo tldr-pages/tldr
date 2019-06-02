@@ -1,7 +1,7 @@
 # meld
 
 > Graphical diffing and merging tool.
-> Homepage: <https://meldmerge.org/>.
+> More information: <https://meldmerge.org/>.
 
 - Start meld:
 
