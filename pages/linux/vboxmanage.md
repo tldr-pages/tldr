@@ -4,7 +4,7 @@
 > Completely control VirtualBox from CLI, including all actions that the GUI provides and more.
 > More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-intro>.
 
-- List all Virtualbox virtual machines:
+- List all VirtualBox virtual machines:
 
 `VBoxManage list vms`
 
