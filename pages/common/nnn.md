@@ -1,32 +1,36 @@
 # nnn
 
-> The missing terminal file manager for X.
-> Read more at https://github.com/jarun/nnn.
+> Interactive terminal file manager and fisk analyzer.
+> More information: <https://github.com/jarun/nnn>.
 
-- Specify bookmark key to open:
+- Open file manager at current directory, optional: at given directory from current:
 
-`nnn -b {{key}}`
+`nnn {{path/to/directory}}`
+
+- Open an existing bookmark:
+
+`nnn -b {{bookmark_name}}`
 
 - Show hidden files:
 
 `nnn -d`
 
+- Start in disk usage analyzer mode:
+
+`nnn -S`
+
 - Start in light mode (fewer details):
 
 `nnn -l`
 
-- Use version compare to sort files:
+- Copy selected file path to file_out, or stdout if file_out='-':
 
-`nnn -n`
+`nnn -p {{file_out}}`
 
-- Copy (or pick) selection to file, or stdout if file='-':
-
-`nnn -p {{file}}`
-
-- Use substring match for filters instead of regex:
+- Use substring matching for filters instead of regex:
 
 `nnn -s`
 
-- Start in disk usage analyzer mode:
+- Use version compare to sort files:
 
-`nnn -S`
+`nnn -n`
