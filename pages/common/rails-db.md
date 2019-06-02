@@ -10,7 +10,7 @@
 
 `rails db:create`
 
-- Destroy databases defined in current environment:
+- Destroy the databases defined in the current environment:
 
 `rails db:drop`
 
