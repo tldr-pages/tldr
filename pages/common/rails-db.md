@@ -1,6 +1,6 @@
 # rails db
 
-> Rails database actions.
+> Various database-related subcommands for Ruby on Rails.
 
 - Access database console:
 
