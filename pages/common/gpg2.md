@@ -7,26 +7,26 @@
 
 `gpg2 --list-keys`
 
-- Encrypt doc.txt for alice@example.com (output to doc.txt.gpg):
+- Encrypt a specified file for a specified recipient, writing the output to a new file with `.gpg` appended:
 
-`gpg2 --encrypt --recipient {{alice@example.com}} {{doc.txt}}`
+`gpg2 --encrypt --recipient {{alice@example.com}} {{path/to/doc.txt}}`
 
-- Encrypt doc.txt with only a passphrase (output to doc.txt.gpg):
+- Encrypt a specified file with only a passphrase, writing the output to a new file with `.gpg` appended:
 
-`gpg2 --symmetric {{doc.txt}}`
+`gpg2 --symmetric {{path/to/doc.txt}}`
 
-- Decrypt doc.txt.gpg (output to STDOUT):
+- Decrypt a specified file, writing the result to the standard output:
 
-`gpg2 --decrypt {{doc.txt.gpg}}`
+`gpg2 --decrypt {{path/to/doc.txt.gpg}}`
 
 - Import a public key:
 
-`gpg2 --import {{public.gpg}}`
+`gpg2 --import {{path/to/public-key.gpg}}`
 
 - Export the public key of alice@example.com to the standard output:
 
 `gpg2 --export --armor {{alice@example.com}}`
 
-- Export private key for alice@example.com (output to STDOUT):
+- Export the private key with a specified email address to the standard output:
 
 `gpg2 --export-secret-keys --armor {{alice@example.com}}`
