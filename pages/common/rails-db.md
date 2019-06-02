@@ -2,7 +2,7 @@
 
 > Various database-related subcommands for Ruby on Rails.
 
-- Access database console:
+- Access the database console:
 
 `rails db`
 
