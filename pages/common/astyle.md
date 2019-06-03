@@ -2,7 +2,7 @@
 
 > Source code indenter, formatter, and beautifier for the C, C++, C# and Java programming languages.
 > Upon running, a copy of the original file is created with an ".orig" appended to the original file name.
-> Homepage: <http://astyle.sourceforge.net/>.
+> More information: <http://astyle.sourceforge.net/>.
 
 - Apply the default style of 4 spaces per indent and no formatting changes:
 

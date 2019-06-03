@@ -1,7 +1,7 @@
 # git show
 
 > Show various types of git objects (commits, tags, etc.).
-> Homepage: <https://git-scm.com/docs/git-show>.
+> More information: <https://git-scm.com/docs/git-show>.
 
 - Show information about the latest commit (message, changes, and other metadata):
 

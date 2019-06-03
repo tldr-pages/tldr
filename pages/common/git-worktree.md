@@ -1,7 +1,7 @@
 # git worktree
 
 > Manage multiple working trees attached to the same repository.
-> Homepage: <https://git-scm.com/docs/git-worktree>.
+> More information: <https://git-scm.com/docs/git-worktree>.
 
 - Create a new directory with the specified branch checked out into it:
 

@@ -2,7 +2,7 @@
 
 > A cross-platform pluggable text editor.
 > Plugins are managed by `apm`.
-> Homepage: <https://atom.io/>.
+> More information: <https://atom.io/>.
 
 - Open a file or directory:
 

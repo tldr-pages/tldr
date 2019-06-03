@@ -1,7 +1,7 @@
 # git commit
 
 > Commit files to the repository.
-> Homepage: <https://git-scm.com/docs/git-commit>.
+> More information: <https://git-scm.com/docs/git-commit>.
 
 - Commit staged files to the repository with a message:
 

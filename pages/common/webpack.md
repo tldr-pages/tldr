@@ -1,7 +1,7 @@
 # webpack
 
 > Bundle a web project's js files and other assets into a single output file.
-> Homepage: <https://webpack.js.org>.
+> More information: <https://webpack.js.org>.
 
 - Create a single output file from an entry point file:
 

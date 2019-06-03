@@ -2,7 +2,7 @@
 
 > JavaScript task runner and streaming build system.
 > Tasks are defined within gulpfile.js at the project root.
-> Homepage: <https://github.com/gulpjs/gulp-cli>.
+> More information: <https://github.com/gulpjs/gulp-cli>.
 
 - Run the default task:
 

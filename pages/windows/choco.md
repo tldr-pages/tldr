@@ -2,7 +2,7 @@
 
 > A command line interface for the Chocolatey package manager.
 > See `choco install`, `choco upgrade` and other pages for additional information.
-> Homepage: <https://chocolatey.org>.
+> More information: <https://chocolatey.org>.
 
 - Execute Chocolatey command:
 

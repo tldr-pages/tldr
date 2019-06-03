@@ -2,7 +2,7 @@
 
 > Apply the changes introduced by existing commits to the current branch.
 > To apply changes to another branch, first use git-checkout to switch to the desired branch.
-> Homepage: <https://git-scm.com/docs/git-cherry-pick>.
+> More information: <https://git-scm.com/docs/git-cherry-pick>.
 
 - Apply a commit to the current branch:
 

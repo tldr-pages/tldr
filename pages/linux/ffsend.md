@@ -1,7 +1,7 @@
 # ffsend
 
 > Easily and securely share files from command line.
-> Homepage: <https://gitlab.com/timvisee/ffsend>.
+> More information: <https://gitlab.com/timvisee/ffsend>.
 
 - Upload a file:
 

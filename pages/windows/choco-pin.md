@@ -2,7 +2,7 @@
 
 > Pin a package at a specific version with Chocolatey.
 > Pinned packages are skipped automatically when upgrading.
-> Homepage: <https://chocolatey.org/docs/commands-pin>.
+> More information: <https://chocolatey.org/docs/commands-pin>.
 
 - Display a list of pinned packages and their versions:
 

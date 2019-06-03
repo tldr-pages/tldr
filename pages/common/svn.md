@@ -1,7 +1,7 @@
 # svn
 
 > Subversion command line client tool.
-> Homepage: <https://subversion.apache.org>.
+> More information: <https://subversion.apache.org>.
 
 - Check out a working copy from a repository:
 

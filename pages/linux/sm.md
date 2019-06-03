@@ -1,7 +1,7 @@
 # sm
 
 > Displays a short message fullscreen.
-> Homepage: <https://github.com/nomeata/screen-message>.
+> More information: <https://github.com/nomeata/screen-message>.
 
 - Display a message in full-screen:
 

@@ -1,7 +1,7 @@
 # swift
 
 > Create, run and build Swift projects.
-> Homepage: <https://swift.org>.
+> More information: <https://swift.org>.
 
 - Invoke the interactive interpreter (REPL):
 

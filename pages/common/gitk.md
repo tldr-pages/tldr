@@ -1,7 +1,7 @@
 # gitk
 
 > A graphical git repository browser.
-> Homepage: <https://git-scm.com/docs/gitk>.
+> More information: <https://git-scm.com/docs/gitk>.
 
 - Show the repository browser for the current git repository:
 

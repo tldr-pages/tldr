@@ -1,7 +1,7 @@
 # youtube-dl
 
 > Download videos from YouTube and other websites.
-> Homepage: <http://rg3.github.io/youtube-dl/>.
+> More information: <http://rg3.github.io/youtube-dl/>.
 
 - Download a video or playlist:
 

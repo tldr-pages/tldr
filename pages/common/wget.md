@@ -2,7 +2,7 @@
 
 > Download files from the Web.
 > Supports HTTP, HTTPS, and FTP.
-> Homepage: <https://www.gnu.org/software/wget>.
+> More information: <https://www.gnu.org/software/wget>.
 
 - Download the contents of an URL to a file (named "foo" in this case):
 

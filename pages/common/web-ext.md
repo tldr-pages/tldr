@@ -1,7 +1,7 @@
 # web-ext
 
 > A command line tool for managing web extension development.
-> Homepage: <https://www.npmjs.com/package/web-ext>.
+> More information: <https://www.npmjs.com/package/web-ext>.
 
 - Run the web extension in the current directory in Firefox:
 

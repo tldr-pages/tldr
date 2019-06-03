@@ -1,7 +1,7 @@
 # handbrakecli
 
 > Command-line interface to the HandBrake video conversion tool.
-> Homepage: <https://handbrake.fr/>.
+> More information: <https://handbrake.fr/>.
 
 - Convert a video file to MKV (AAC 160kbit audio and x264 CRF20 video):
 

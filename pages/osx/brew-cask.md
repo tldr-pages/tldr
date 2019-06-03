@@ -1,7 +1,7 @@
 # brew cask
 
 > Package manager for macOS applications distributed as binaries.
-> Homepage: <https://github.com/Homebrew/homebrew-cask>.
+> More information: <https://github.com/Homebrew/homebrew-cask>.
 
 - Search for formulas and casks:
 

@@ -2,7 +2,7 @@
 
 > Cross-platform build system generator.
 > It generates Makefiles, Visual Studio projects or others, depending on the target system.
-> Homepage: <https://cmake.org/cmake/help/v3.2/manual/cmake.1.html>.
+> More information: <https://cmake.org/cmake/help/v3.2/manual/cmake.1.html>.
 
 - Generate a Makefile and use it to compile a project in the same directory as the source:
 

@@ -1,7 +1,7 @@
 # ngrok
 
 > Reverse proxy that creates a secure tunnel from a public endpoint to a locally running web service.
-> Homepage: <https://ngrok.com>.
+> More information: <https://ngrok.com>.
 
 - Expose a local HTTP service on a given port:
 

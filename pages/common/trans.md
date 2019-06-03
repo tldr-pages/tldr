@@ -1,7 +1,7 @@
 # trans
 
 > Translate Shell is a command-line translator.
-> Homepage: <https://github.com/soimort/translate-shell>.
+> More information: <https://github.com/soimort/translate-shell>.
 
 - Translate a word (language is detected automatically):
 

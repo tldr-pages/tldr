@@ -1,7 +1,7 @@
 # repren
 
 > Multi-pattern string replacement and file renaming tool.
-> Homepage: <https://github.com/jlevy/repren>.
+> More information: <https://github.com/jlevy/repren>.
 
 - Do a dry-run renaming a directory of pngs with a literal string replacement:
 

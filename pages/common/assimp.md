@@ -2,7 +2,7 @@
 
 > Command-line client for the Open Asset Import Library.
 > Supports loading of 40+ 3D file formats, and exporting to several popular 3D formats.
-> Homepage: <http://www.assimp.org/>.
+> More information: <http://www.assimp.org/>.
 
 - List all supported import formats:
 

@@ -1,7 +1,7 @@
 # transmission-remote
 
 > Remote control utility for transmission-daemon and transmission.
-> Homepage: <https://transmissionbt.com>.
+> More information: <https://transmissionbt.com>.
 
 - Add a torrent file or magnet link to Transmission and download to a specified directory:
 

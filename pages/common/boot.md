@@ -1,7 +1,7 @@
 # boot
 
 > Build tooling for the Clojure programming language.
-> Homepage: <https://github.com/boot-clj/boot>.
+> More information: <https://github.com/boot-clj/boot>.
 
 - Start a REPL session either with the project or standalone:
 

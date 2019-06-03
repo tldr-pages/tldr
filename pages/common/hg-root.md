@@ -1,7 +1,7 @@
 # hg root
 
 > Display the root location of a Hg repository.
-> Homepage: <https://www.mercurial-scm.org/doc/hg.1.html#root>.
+> More information: <https://www.mercurial-scm.org/doc/hg.1.html#root>.
 
 - Display the root location of the current repository:
 

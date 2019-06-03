@@ -1,7 +1,7 @@
 # docker
 
 > Manage Docker containers and images.
-> Homepage: <https://docs.docker.com/engine/reference/commandline/cli/>.
+> More information: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
 - List currently running docker containers:
 

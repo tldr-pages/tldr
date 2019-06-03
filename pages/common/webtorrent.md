@@ -2,7 +2,7 @@
 
 > The command line interface for WebTorrent.
 > Supports magnets, urls, info hashes and .torrent files.
-> Homepage: <https://github.com/webtorrent/webtorrent-cli>.
+> More information: <https://github.com/webtorrent/webtorrent-cli>.
 
 - Download a torrent:
 

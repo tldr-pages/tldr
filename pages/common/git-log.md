@@ -1,7 +1,7 @@
 # git log
 
 > Show a history of commits.
-> Homepage: <https://git-scm.com/docs/git-log>.
+> More information: <https://git-scm.com/docs/git-log>.
 
 - Show the sequence of commits starting from the current one, in reverse chronological order:
 
