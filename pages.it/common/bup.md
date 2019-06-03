@@ -1,7 +1,7 @@
 # bup
 
 > Sistema di backup basato sul formato dei packfile git, fornendo salvataggi incrementali veloci e deduplicazione globale.
-> Homepage: <https://github.com/bup/bup>.
+> Maggiori informazioni: <https://github.com/bup/bup>.
 
 - Inizializza una repository di backup nella directory locale specificata:
 
