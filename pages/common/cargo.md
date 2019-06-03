@@ -2,7 +2,7 @@
 
 > Rust package manager.
 > Manage Rust projects and their module dependencies (crates).
-> Homepage: <https://crates.io/>.
+> More information: <https://crates.io/>.
 
 - Search for crates:
 

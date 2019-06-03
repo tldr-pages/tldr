@@ -1,7 +1,7 @@
 # ab
 
 > Apache Benchmarking tool. The simplest tool to perform a load testing.
-> Homepage: <https://httpd.apache.org/docs/2.4/programs/ab.html>.
+> More information: <https://httpd.apache.org/docs/2.4/programs/ab.html>.
 
 - Execute 100 HTTP GET requests to given URL:
 

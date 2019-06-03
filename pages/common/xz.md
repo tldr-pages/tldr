@@ -1,7 +1,7 @@
 # xz
 
 > Compress or decompress .xz and .lzma files.
-> Homepage: <https://tukaani.org/xz/format.html>.
+> More information: <https://tukaani.org/xz/format.html>.
 
 - Compress a file to the xz file format:
 

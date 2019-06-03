@@ -1,7 +1,7 @@
 # mas
 
 > Command line interface for the Mac App Store.
-> Homepage: <https://github.com/mas-cli/mas>.
+> More information: <https://github.com/mas-cli/mas>.
 
 - Sign into the Mac App Store for the first time:
 

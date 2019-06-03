@@ -1,7 +1,7 @@
 # popeye
 
 > Utility that reports potential issues with Kubernetes deployment manifests.
-> Homepage: <https://github.com/derailed/popeye>.
+> More information: <https://github.com/derailed/popeye>.
 
 - Scan the current Kubernetes cluster:
 

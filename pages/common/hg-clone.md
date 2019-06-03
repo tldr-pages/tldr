@@ -1,7 +1,7 @@
 # hg clone
 
 > Create a copy of an existing repository in a new directory.
-> Homepage: <https://www.mercurial-scm.org/doc/hg.1.html#clone>.
+> More information: <https://www.mercurial-scm.org/doc/hg.1.html#clone>.
 
 - Clone a repository to a specified directory:
 

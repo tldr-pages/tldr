@@ -1,7 +1,7 @@
 # hg status
 
 > Show files that have changed in the working directory.
-> Homepage: <https://www.mercurial-scm.org/doc/hg.1.html#status>.
+> More information: <https://www.mercurial-scm.org/doc/hg.1.html#status>.
 
 - Display the status of changed files:
 

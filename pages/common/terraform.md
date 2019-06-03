@@ -1,7 +1,7 @@
 # terraform
 
 > Create and deploy infrastructure as code to cloud providers.
-> Homepage: <https://www.terraform.io/>.
+> More information: <https://www.terraform.io/>.
 
 - Initialize a new or existing Terraform configuration:
 

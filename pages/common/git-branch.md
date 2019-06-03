@@ -1,7 +1,7 @@
 # git branch
 
 > Main git command for working with branches.
-> Homepage: <https://git-scm.com/docs/git-branch>.
+> More information: <https://git-scm.com/docs/git-branch>.
 
 - List local branches. The current branch is highlighted by `*`:
 

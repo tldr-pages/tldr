@@ -2,7 +2,7 @@
 
 > Automate Python testing across multiple Python versions.
 > Use tox.ini to configure environments and test command.
-> Homepage: <https://github.com/tox-dev/tox>.
+> More information: <https://github.com/tox-dev/tox>.
 
 - Run tests on all test environments:
 

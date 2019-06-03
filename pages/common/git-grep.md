@@ -2,7 +2,7 @@
 
 > Find strings inside files anywhere in a repository's history.
 > Accepts a lot of the same flags as regular `grep`.
-> Documentation: <https://git-scm.com/docs/git-grep>.
+> More information: <https://git-scm.com/docs/git-grep>.
 
 - Search for a string in tracked files:
 

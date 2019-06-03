@@ -1,7 +1,7 @@
 # heroku
 
 > Create and manage Heroku apps from the command line.
-> Homepage: <https://www.heroku.com/>.
+> More information: <https://www.heroku.com/>.
 
 - Login to your heroku account:
 

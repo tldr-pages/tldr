@@ -2,7 +2,7 @@
 
 > Reapply commits from one branch on top of another branch.
 > Commonly used to "move" an entire branch to another base, creating copies of the commits in the new location.
-> Homepage: <https://git-scm.com/docs/git-rebase>.
+> More information: <https://git-scm.com/docs/git-rebase>.
 
 - Rebase the current branch on top of the master branch:
 

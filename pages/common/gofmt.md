@@ -1,7 +1,7 @@
 # gofmt
 
 > Tool for formatting Go source code.
-> Homepage: <https://golang.org/cmd/gofmt/>.
+> More information: <https://golang.org/cmd/gofmt/>.
 
 - Format a file and display the result to the console:
 

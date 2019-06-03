@@ -1,7 +1,7 @@
 # git remote
 
 > Manage set of tracked repositories ("remotes").
-> Homepage: <https://git-scm.com/docs/git-remote>.
+> More information: <https://git-scm.com/docs/git-remote>.
 
 - Show a list of existing remotes, their names and URL:
 

@@ -1,7 +1,7 @@
 # git pull
 
 > Fetch branch from a remote repository and merge it to local repository.
-> Homepage: <https://git-scm.com/docs/git-pull>.
+> More information: <https://git-scm.com/docs/git-pull>.
 
 - Download changes from default remote repository and merge it:
 

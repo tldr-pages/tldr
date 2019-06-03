@@ -1,7 +1,7 @@
 # vagrant
 
 > Manage lightweight, reproducible, and portable development environments.
-> Homepage: <https://www.vagrantup.com>.
+> More information: <https://www.vagrantup.com>.
 
 - Create Vagrantfile in current directory with the base Vagrant box:
 

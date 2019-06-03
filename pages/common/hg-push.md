@@ -1,7 +1,7 @@
 # hg push
 
 > Push changes from the local repository to a specified destination.
-> Homepage: <https://www.mercurial-scm.org/doc/hg.1.html#push>.
+> More information: <https://www.mercurial-scm.org/doc/hg.1.html#push>.
 
 - Push changes to the "default" remote path:
 

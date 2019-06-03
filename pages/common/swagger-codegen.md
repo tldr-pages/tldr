@@ -1,7 +1,7 @@
 # swagger-codegen
 
 > Generate code and documentation for your REST api from a OpenAPI/swagger definition.
-> Homepage: <https://github.com/swagger-api/swagger-codegen>.
+> More information: <https://github.com/swagger-api/swagger-codegen>.
 
 - Generate documentation and code from an OpenAPI/swagger file:
 

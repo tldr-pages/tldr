@@ -1,7 +1,7 @@
 # tokei
 
 > A program that prints out statistics about code.
-> Homepage: <https://github.com/XAMPPRocky/tokei>.
+> More information: <https://github.com/XAMPPRocky/tokei>.
 
 - Get a report on the code in a directory and all subdirectories:
 

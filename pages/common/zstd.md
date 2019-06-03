@@ -1,7 +1,7 @@
 # zstd
 
 > Compress or decompress files with Zstandard compression.
-> Homepage: <https://github.com/facebook/zstd>.
+> More information: <https://github.com/facebook/zstd>.
 
 - Compress a file into a new file with the .zst suffix:
 

@@ -1,7 +1,7 @@
 # git status
 
 > Show the index (changed files).
-> Homepage: <https://git-scm.com/docs/git-status>.
+> More information: <https://git-scm.com/docs/git-status>.
 
 - Show changed files which are not yet added for commit:
 

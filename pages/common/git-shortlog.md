@@ -1,7 +1,7 @@
 # git shortlog
 
 > Summarizes the `git log` output.
-> Homepage: <https://git-scm.com/docs/git-shortlog>.
+> More information: <https://git-scm.com/docs/git-shortlog>.
 
 - View a summary of all the commits made, grouped alphabetically by author name:
 

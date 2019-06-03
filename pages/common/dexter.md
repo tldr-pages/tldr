@@ -1,7 +1,7 @@
 # dexter
 
 > Tool for authenticating the kubectl users with OpenId Connect.
-> Homepage: <https://github.com/gini/dexter>.
+> More information: <https://github.com/gini/dexter>.
 
 - Create and authenticate a user with Google OIDC:
 

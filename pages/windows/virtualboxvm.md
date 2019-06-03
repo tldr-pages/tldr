@@ -1,7 +1,7 @@
 # virtualboxvm
 
 > The VirtualBox virtual machine management CLI.
-> Homepage: <https://www.virtualbox.org>.
+> More information: <https://www.virtualbox.org>.
 
 - Start a virtual machine:
 

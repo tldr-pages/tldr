@@ -1,7 +1,7 @@
 # docker-compose
 
 > Run and manage multi container docker applications.
-> Homepage: <https://docs.docker.com/compose/reference/overview/>.
+> More information: <https://docs.docker.com/compose/reference/overview/>.
 
 - Create and start all containers in the background using a `docker-compose.yml` file from the current directory:
 

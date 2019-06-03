@@ -1,7 +1,7 @@
 # monodevelop
 
 > Cross platform IDE for C#, F# and more.
-> Homepage: <https://www.monodevelop.com/>.
+> More information: <https://www.monodevelop.com/>.
 
 - Start Monodevelop:
 
