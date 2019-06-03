@@ -1,7 +1,7 @@
 # node
 
 > Server-side JavaScript platform (Node.js).
-> Homepage: <https://nodejs.org>.
+> More information: <https://nodejs.org>.
 
 - Run a JavaScript file:
 

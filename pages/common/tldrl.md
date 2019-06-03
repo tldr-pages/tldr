@@ -1,7 +1,7 @@
 # tldrl
 
 > Lint and format TLDR pages.
-> Homepage: <https://github.com/tldr-pages/tldr-lint>.
+> More information: <https://github.com/tldr-pages/tldr-lint>.
 
 - Lint all pages:
 

@@ -1,7 +1,7 @@
 # clamscan
 
 > A command line virus scanner.
-> Homepage: <https://www.clamav.net>.
+> More information: <https://www.clamav.net>.
 
 - Scan a file for vulnerabilities:
 

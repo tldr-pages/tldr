@@ -2,7 +2,7 @@
 
 > Tool to manipulate the your ebook database.
 > Part of the Calibre ebook library.
-> Homepage: <https://manual.calibre-ebook.com/generated/en/calibredb.html>.
+> More information: <https://manual.calibre-ebook.com/generated/en/calibredb.html>.
 
 - List ebooks in the library with additional information:
 

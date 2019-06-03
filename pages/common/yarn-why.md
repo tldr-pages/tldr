@@ -1,7 +1,7 @@
 # yarn-why
 
 > Identifies why a Yarn package has been installed.
-> Homepage: <https://www.npmjs.com/package/yarn-why>.
+> More information: <https://www.npmjs.com/package/yarn-why>.
 
 - Show why a Yarn package is installed:
 

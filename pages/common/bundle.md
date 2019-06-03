@@ -1,7 +1,7 @@
 # bundle
 
 > Dependency manager for the Ruby programming language.
-> Homepage: <https://bundler.io/man/bundle.1.html>.
+> More information: <https://bundler.io/man/bundle.1.html>.
 
 - Install all gems defined in the `Gemfile` expected in the working directory:
 

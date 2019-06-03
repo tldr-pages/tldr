@@ -1,7 +1,7 @@
 # wrk
 
 > HTTP benchmarking tool.
-> Homepage: <https://github.com/wg/wrk>.
+> More information: <https://github.com/wg/wrk>.
 
 - Run a benchmark for `30` seconds, using `12` threads, and keeping `400` HTTP connections open:
 

@@ -1,7 +1,7 @@
 # x_x
 
 > View Excel and CSV files from the command-line.
-> Homepage: <https://github.com/kristianperkins/x_x>.
+> More information: <https://github.com/kristianperkins/x_x>.
 
 - View an XLSX or CSV file:
 

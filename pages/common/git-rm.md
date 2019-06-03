@@ -1,7 +1,7 @@
 # git rm
 
 > Remove files from repository index and local filesystem.
-> Homepage: <https://git-scm.com/docs/git-rm>.
+> More information: <https://git-scm.com/docs/git-rm>.
 
 - Remove file from repository index and filesystem:
 

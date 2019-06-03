@@ -1,7 +1,7 @@
 # git gc
 
 > Optimise the local repository by cleaning unnecessary files.
-> Homepage: <https://git-scm.com/docs/git-gc>.
+> More information: <https://git-scm.com/docs/git-gc>.
 
 - Optimise the repository:
 

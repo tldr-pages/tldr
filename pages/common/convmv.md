@@ -1,7 +1,7 @@
 # convmv
 
 > Convert filenames (NOT file content) from one encoding to another.
-> Homepage: <https://www.j3e.de/linux/convmv/man/>.
+> More information: <https://www.j3e.de/linux/convmv/man/>.
 
 - Test filename encoding conversion (don't actually change the filename):
 

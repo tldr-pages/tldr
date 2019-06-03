@@ -2,7 +2,7 @@
 
 > A lightweight multi-protocol & multi-source command-line download utility.
 > Supports HTTP, HTTPS, FTP, SFTP, BitTorrent and Metalink.
-> Homepage: <https://aria2.github.io/>.
+> More information: <https://aria2.github.io/>.
 
 - Download a web resource:
 

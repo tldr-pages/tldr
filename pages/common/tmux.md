@@ -1,7 +1,7 @@
 # tmux
 
 > Multiplex several virtual consoles.
-> Homepage: <https://github.com/tmux/tmux>.
+> More information: <https://github.com/tmux/tmux>.
 
 - Start a new tmux session:
 

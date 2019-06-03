@@ -1,7 +1,7 @@
 # subliminal
 
 > Python-based subtitle downloader.
-> Homepage: <https://github.com/Diaoul/subliminal>.
+> More information: <https://github.com/Diaoul/subliminal>.
 
 - Download English subtitles for a video:
 

@@ -1,7 +1,7 @@
 # git blame
 
 > Show commit hash and last author on each line of a file.
-> Homepage: <https://git-scm.com/docs/git-blame>.
+> More information: <https://git-scm.com/docs/git-blame>.
 
 - Print file with author name and commit hash on each line:
 

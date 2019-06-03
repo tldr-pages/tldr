@@ -2,7 +2,7 @@
 
 > Install, uninstall or switch between Node.js versions.
 > Supports version numbers like "0.12" or "v4.2", and labels like "stable", "system", etc.
-> Homepage: <https://github.com/creationix/nvm>.
+> More information: <https://github.com/creationix/nvm>.
 
 - Install a specific version of Node.js:
 

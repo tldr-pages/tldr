@@ -1,7 +1,7 @@
 # bw
 
 > A CLI to access and manage a Bitwarden vault.
-> Homepage: <https://help.bitwarden.com/article/cli/>.
+> More information: <https://help.bitwarden.com/article/cli/>.
 
 - Log in to a Bitwarden user account:
 

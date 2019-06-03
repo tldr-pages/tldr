@@ -1,7 +1,7 @@
 # wat2wasm
 
 > Convert a file from the WebAssembly text format to the binary format.
-> Homepage: <https://github.com/WebAssembly/wabt>.
+> More information: <https://github.com/WebAssembly/wabt>.
 
 - Parse and check a file for errors:
 

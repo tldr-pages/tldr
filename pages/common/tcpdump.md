@@ -1,7 +1,7 @@
 # tcpdump
 
 > Dump traffic on a network.
-> Homepage: <https://www.tcpdump.org>.
+> More information: <https://www.tcpdump.org>.
 
 - List available network interfaces:
 

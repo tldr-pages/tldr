@@ -2,7 +2,7 @@
 
 > A lightweight, command-line BitTorrent client.
 > This tool has been deprecated, please see `transmission-remote`.
-> Homepage: <https://transmissionbt.com>.
+> More information: <https://transmissionbt.com>.
 
 - Download a specific torrent:
 

@@ -2,7 +2,7 @@
 
 > A subdomain discovery tool that discovers valid subdomains for websites.
 > Designed as a passive framework to be useful for bug bounties and safe for penetration testing.
-> Homepage: <https://github.com/subfinder/subfinder>.
+> More information: <https://github.com/subfinder/subfinder>.
 
 - Find subdomains for a specific domain:
 

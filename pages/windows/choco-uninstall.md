@@ -1,7 +1,7 @@
 # choco uninstall
 
 > Uninstall one or more packages with Chocolatey.
-> Homepage: <https://chocolatey.org/docs/commands-uninstall>.
+> More information: <https://chocolatey.org/docs/commands-uninstall>.
 
 - Uninstall one or more space-separated packages:
 

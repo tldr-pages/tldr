@@ -2,7 +2,7 @@
 
 > Wrapper for a set of expert tools for profiling, optimizing and debugging programs.
 > Commonly used tools include `memcheck`, `cachegrind`, `callgrind`, `massif`, `helgrind`, and `drd`.
-> Homepage: <http://www.valgrind.org>.
+> More information: <http://www.valgrind.org>.
 
 - Use the (default) Memcheck tool to show a diagnostic of memory usage by `program`:
 

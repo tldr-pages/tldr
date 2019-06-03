@@ -1,7 +1,7 @@
 # vcsh
 
 > Version Control System for the home directory using git repositories.
-> Homepage: <https://github.com/RichiH/vcsh>.
+> More information: <https://github.com/RichiH/vcsh>.
 
 - Initialize an (empty) repository:
 

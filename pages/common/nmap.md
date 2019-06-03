@@ -2,7 +2,7 @@
 
 > Network exploration tool and security / port scanner.
 > Some features only activate when Nmap is run with privileges.
-> Homepage: <https://nmap.org>.
+> More information: <https://nmap.org>.
 
 - Try to determine whether the specified hosts are up and what are their names:
 

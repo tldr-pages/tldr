@@ -1,7 +1,7 @@
 # clockwork-cli
 
 > A command line interface for the Clockwork PHP debugging framework.
-> Homepage: <https://github.com/ptrofimov/clockwork-cli>.
+> More information: <https://github.com/ptrofimov/clockwork-cli>.
 
 - Monitor Clockwork logs for the current project:
 

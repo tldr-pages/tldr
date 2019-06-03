@@ -1,7 +1,7 @@
 # guetzli
 
 > JPEG image compression utility.
-> Homepage: <https://github.com/google/guetzli>.
+> More information: <https://github.com/google/guetzli>.
 
 - Compress a JPEG image:
 

@@ -1,7 +1,7 @@
 # wifi-password
 
 > Get the password of the wifi.
-> Homepage: <https://github.com/rauchg/wifi-password>.
+> More information: <https://github.com/rauchg/wifi-password>.
 
 - Get the password for the wifi you are currently logged onto:
 
