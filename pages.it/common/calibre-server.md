@@ -3,7 +3,7 @@
 > Un'applicazione server che può essere usata per distribuire ebook in una rete.
 > Gli ebook devono prima essere importati nella libreria usando la GUI o calibredb.
 > Parte del manager di ebook Calibre.
-> Homepage: <https://manual.calibre-ebook.com/generated/en/calibre-server.html>.
+> Maggiori informazioni: <https://manual.calibre-ebook.com/generated/en/calibre-server.html>.
 
 - Avvia un server per distribuire ebook. Accesso a http://localhost:8080:
 

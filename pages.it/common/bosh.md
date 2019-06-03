@@ -1,7 +1,7 @@
 # bosh
 
 > Strumento da linea di comando per distribuire e gestire director BOSH.
-> Homepage: <https://bosh.io/docs/cli-v2/>.
+> Maggiori informazioni: <https://bosh.io/docs/cli-v2/>.
 
 - Crea un alias locale per un director:
 

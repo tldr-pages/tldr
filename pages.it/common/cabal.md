@@ -2,7 +2,7 @@
 
 > Interfaccia da linea di comando per l'infrastruttura di compilazione di Haskell (Cabal).
 > Gestisce progetti Haskell e pacchetti Cabal dal repository di pacchetti Hackage.
-> Homepage: <https://cabal.readthedocs.io/en/latest/intro.html>.
+> Maggiori informazioni: <https://cabal.readthedocs.io/en/latest/intro.html>.
 
 - Cerca ed elenca pacchetti da Hackage:
 

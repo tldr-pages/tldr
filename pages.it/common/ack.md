@@ -1,7 +1,7 @@
 # ack
 
 > Un tool di ricerca simile a `grep`, ottimizzato per programmatori.
-> Homepage: <https://beyondgrep.com/documentation/>.
+> Maggiori informazioni: <https://beyondgrep.com/documentation/>.
 
 - Trova file contenenti "foo":
 

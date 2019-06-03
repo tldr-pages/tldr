@@ -1,7 +1,7 @@
 # browser-sync
 
 > Avvia un web-server locale che si aggiorna al cambiamento dei file.
-> Homepage: <https://browsersync.io/docs/command-line>.
+> Maggiori informazioni: <https://browsersync.io/docs/command-line>.
 
 - Avvia un server da una specifica directory:
 
