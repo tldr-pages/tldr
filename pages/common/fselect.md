@@ -15,10 +15,10 @@
 
 `fselect path from {{path/to/directory}} where genre = {{Rap}} and bitrate = {{320}} and mp3_year lt {{2000}}`
 
-- Output as json:
+- Select only the first 5 results and output as JSON:
 
-`fselect size, path from /home/user limit 5 into json`
+`fselect size, path from {{path/to/directory}} limit {{5}} into json`
 
-- Aggregate functions:
+- Use SQL aggregate functions to calculate minimum, maximum and average size of files in a directory:
 
 `fselect "{{MIN(size), MAX(size), AVG(size), SUM(size), COUNT(*)}} from {{path/to/directory}}"`
