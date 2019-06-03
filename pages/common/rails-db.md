@@ -2,6 +2,10 @@
 
 > Various database-related subcommands for Ruby on Rails.
 
+- Create databases, load the schema, and initialize with seed data:
+
+`rails db:setup`
+
 - Access the database console:
 
 `rails db`
@@ -29,7 +33,3 @@
 - Fill the current database with data defined in db/seeds.rb:
 
 `rails db:seed`
-
-- Create databases, load the schema, and initialize with seed data:
-
-`rails db:setup`
