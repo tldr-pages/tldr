@@ -21,7 +21,7 @@
 
 - Import a public key:
 
-`gpg2 --import {{path/to/public-key.gpg}}`
+`gpg2 --import {{path/to/public_key.gpg}}`
 
 - Export the public key of alice@example.com to the standard output:
 
