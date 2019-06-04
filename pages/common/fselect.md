@@ -1,7 +1,7 @@
 # fselect
 
 > Find files with SQL-like queries.
-> Homepage: <https://github.com/jhspetersson/fselect>.
+> More information: <https://github.com/jhspetersson/fselect>.
 
 - Select full path and size from temporary or config files in a given directory:
 
