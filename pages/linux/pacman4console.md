@@ -4,7 +4,7 @@
 > You play as Pacman (the `C`), avoid the ghosts (the `&`s), and collect all the pellets (the `*`s and `.`s).
 > More information: <https://github.com/YoctoForBeaglebone/pacman4console>.
 
-- Start a game at level 1:
+- Start a game at Level 1:
 
 `pacman4console`
 
@@ -12,10 +12,10 @@
 
 `pacman4console --level={{level_number}}`
 
-- Start the pacman4console editor with a level text-file:
+- Start the pacman4console level editor, saving to a specified text file:
 
-`pacmanforconsoleedit {{level_file}}`
+`pacmanforconsoleedit {{path/to/level_file}}`
 
-- Start a non-standard level (like a custom one):
+- Play a custom level:
 
-`pacman4console --level={{level_file}}`
+`pacman4console --level={{path/to/level_file}}`
