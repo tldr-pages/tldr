@@ -1,6 +1,7 @@
 # nix
 
 > Utilities for the Nix language and store.
+> More information: <https://nixos.org>.
 
 - Search for a package via its name or description:
 
