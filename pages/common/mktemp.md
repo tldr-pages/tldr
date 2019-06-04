@@ -1,6 +1,7 @@
 # mktemp
 
 > Create a temporary file or directory.
+> More information: <https://www.gnu.org/software/autogen/mktemp.html>.
 
 - Create an empty temporary file and return the absolute path to it:
 
