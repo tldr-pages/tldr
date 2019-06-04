@@ -3,7 +3,7 @@
 > A text-based console game inspired by the original Pacman.
 > You play as Pacman (C); avoid the ghosts (&'s); collect all the pellets (*'s and .'s).
 
-- Start a game (at level 1 by default):
+- Start a game at level 1:
 
 `pacman4console`
 
