@@ -1,6 +1,7 @@
 # mitmproxy
 
 > An interactive man-in-the-middle HTTP proxy.
+> More information: <https://mitmproxy.org>.
 
 - Start mitmproxy with default settings:
 
