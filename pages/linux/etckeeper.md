@@ -3,7 +3,7 @@
 > Track system configuration files in git.
 > More information: http://etckeeper.branchable.com/.
 
-- Initialize: Run once from /etc to initialize a new repo, and add package manager hooks for automatic commits when installing and removing packages:
+- First time setup (run from /etc):
 
 `sudo etckeeper init`
 
@@ -13,11 +13,11 @@
 
 - Run arbitrary git commands:
 
-`sudo etckeeper vcs {{command}}`
+`sudo etckeeper vcs {{status}}`
 
-- Check if there are uncommitted changes:
+- Check if there are uncommitted changes (only returns an exit code):
 
-`if (sudo etckeeper unclean); then echo dirty; else echo clean; fi`
+`sudo etckeeper unclean`
 
 - Destroy existing repo and stop tracking changes:
 
