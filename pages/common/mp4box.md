@@ -1,6 +1,7 @@
 # mp4box
 
 > MPEG-4 Systems Toolbox - Muxes streams into MP4 container.
+> More information: <https://gpac.wp.imt.fr/mp4box>.
 
 - Display information about an existing MP4 file:
 
