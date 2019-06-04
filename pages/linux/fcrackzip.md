@@ -1,6 +1,6 @@
 # fcrackzip
 
-> ZIP archive password cracking
+> ZIP archive password cracking.
 
 - Bruteforce password with length 4 to 8 with only lowercase, uppercase and digit characters (order matters):
 
