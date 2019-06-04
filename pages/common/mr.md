@@ -1,6 +1,7 @@
 # mr
 
 > Myrepos manages all your version control repositories at once.
+> More information: <https://myrepos.branchable.com>.
 
 - Register a repository:
 
