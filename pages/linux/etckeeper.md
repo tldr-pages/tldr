@@ -1,9 +1,9 @@
 # etckeeper
 
 > Track system configuration files in git.
-> More information: http://etckeeper.branchable.com/.
+> More information: <http://etckeeper.branchable.com/>.
 
-- First time setup (run from /etc):
+- Set up a git repo and perform various setup tasks (run from /etc):
 
 `sudo etckeeper init`
 
