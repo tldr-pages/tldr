@@ -1,6 +1,7 @@
 # pandoc
 
 > Convert documents between various formats.
+> More information: <https://pandoc.org>.
 
 - Convert file to pdf (the output format is determined by file extension):
 
