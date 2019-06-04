@@ -2,6 +2,7 @@
 
 > Is like `grep` but with powerful replace capabilities.
 > Unlike `sed`, as it isn't restricted to line oriented editing.
+> More information: <https://github.com/nevdelap/ned>.
 
 - Recursively search starting in the current directory, ignoring case:
 
