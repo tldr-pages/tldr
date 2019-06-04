@@ -1,6 +1,7 @@
 # mocha
 
 > Execute Mocha JavaScript test runner.
+> More information: <https://mochajs.org>.
 
 - Run tests with default configuration or as configured in `mocha.opts`:
 
