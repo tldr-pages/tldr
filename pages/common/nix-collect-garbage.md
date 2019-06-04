@@ -2,6 +2,7 @@
 
 > Delete unused and unreachable nix store paths.
 > Generations can be listed using `nix-env --list-generations`.
+> More information: <https://nixos.org/releases/nix/latest/manual/#sec-nix-collect-garbage>.
 
 - Delete all store paths unused by current generations of each profile:
 
