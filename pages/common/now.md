@@ -1,6 +1,7 @@
 # now
 
 > Cloud platform for serverless deployment.
+> More information: <https://zeit.co/now>.
 
 - Deploy the current directory:
 
