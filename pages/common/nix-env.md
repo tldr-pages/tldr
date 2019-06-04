@@ -1,6 +1,7 @@
 # nix-env
 
 > Manipulate or query Nix user environments.
+> More information: <https://nixos.org/releases/nix/latest/manual#sec-nix-env>.
 
 - List all installed packages:
 
