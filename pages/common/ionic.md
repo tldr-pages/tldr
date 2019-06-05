@@ -1,6 +1,7 @@
 # ionic
 
 > A framework to build hybrid mobile apps.
+> More information: <https://ionicframework.com/docs/cli>.
 
 - Create a new project:
 
