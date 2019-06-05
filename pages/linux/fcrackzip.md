@@ -10,7 +10,7 @@
 
 `fcrackzip -v -b -l 3 -c a:$% {{archive}}`
 
-- Bruteforce password with length 4 with only lowercase and special characters:
+- Brute-force a password that contains only lowercase and special characters:
 
 `fcrackzip -b -l 4 -c a! {{archive}}`
 
