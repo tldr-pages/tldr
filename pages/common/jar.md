@@ -1,6 +1,7 @@
 # jar
 
 > Java Applications/Libraries Packager.
+> More information: <https://docs.oracle.com/javase/tutorial/deployment/jar/basicsindex.html>.
 
 - Unzip .jar/.war file to the current directory:
 
