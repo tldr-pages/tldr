@@ -1,6 +1,7 @@
 # ioping
 
 > Monitor I/O latency in real time.
+> More information: <https://github.com/koct9i/ioping>.
 
 - Show disk I/O latency using the default values and the current directory:
 
