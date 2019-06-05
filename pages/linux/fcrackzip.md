@@ -6,7 +6,7 @@
 
 `fcrackzip -b -l 4-8 -c aA1 {{archive}}`
 
-- Bruteforce password with length 3 with only lowercase characters, $ and % (verbose mode):
+- Brute-force a password in verbose mode with a length of 3 characters that only contains lowercase characters, `$` and `%`:
 
 `fcrackzip -v -b -l 3 -c a:$% {{archive}}`
 
