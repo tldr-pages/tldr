@@ -1,6 +1,7 @@
 # kubectl
 
 > Command line interface for running commands against Kubernetes clusters.
+> More information: <https://kubernetes.io/docs/tasks/tools/install-kubectl>.
 
 - List all pods in all namespaces:
 
