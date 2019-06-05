@@ -14,7 +14,7 @@
 
 `fcrackzip -b -l 4 -c a! {{archive}}`
 
-- Bruteforce password with length 5 with only digits starting from password "12345":
+- Brute-force a password containing only digits, starting from the password `12345`:
 
 `fcrackzip -b -l 5 -c 1 -p 12345 {{archive}}`
 
