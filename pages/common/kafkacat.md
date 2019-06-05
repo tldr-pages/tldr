@@ -1,6 +1,7 @@
 # kafkacat
 
 > Apache Kafka producer and consumer tool.
+> More information: <https://github.com/edenhill/kafkacat>.
 
 - Consume messages starting with the newest offset:
 
