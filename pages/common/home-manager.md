@@ -3,7 +3,7 @@
 > Manage a user environment using Nix.
 > More information: <https://github.com/rycee/home-manager>.
 
-- Activate config at ~/.config/nixpkgs/home.nix
+- Activate the configuration defined in `~/.config/nixpkgs/home.nix`:
 
 `home-manager build`
 
