@@ -1,6 +1,7 @@
 # keybase
 
 > Key directory that maps social media identities to encryption keys in a publicly auditable manner.
+> More information: <https://keybase.io/docs/command_line>.
 
 - Follow another user:
 
