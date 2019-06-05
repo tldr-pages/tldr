@@ -18,7 +18,7 @@
 
 `fcrackzip -b -l 5 -c 1 -p 12345 {{archive}}`
 
-- Crack password using a wordlist (verbose mode):
+- Crack a password using a wordlist:
 
 `fcrackzip -v -D -u -p {{wordlist}} {{archive}}`
 
