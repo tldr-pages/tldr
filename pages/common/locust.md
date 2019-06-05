@@ -1,6 +1,7 @@
 # locust
 
 > Load-testing tool to determine number of concurrent users a system can handle.
+> More information: <https://locust.io>.
 
 - Load-test "example.com" with web interface using locustfile.py:
 
