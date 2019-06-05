@@ -1,6 +1,7 @@
 # live-server
 
 > A simple development http server with live reload capability.
+> More information: <https://www.npmjs.com/package/live-server>.
 
 - Serve an index.html file and reload on changes:
 
