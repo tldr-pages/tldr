@@ -2,6 +2,7 @@
 
 > An ETL (extract, transform and load) tool.
 > Commonly used to load data from various sources, like databases and log files, into elasticsearch.
+> More information: <https://www.elastic.co/products/logstash>.
 
 - Check validity of a logstash configuration:
 
