@@ -1,6 +1,7 @@
 # iperf
 
 > Measure network bandwidth between computers.
+> More information: <https://iperf.fr>.
 
 - Run on server:
 
