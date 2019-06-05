@@ -7,6 +7,6 @@
 
 `home-manager build`
 
-- Activate config and switch to it:
+- Activate the configuration and switch to it:
 
 `home-manager switch`
