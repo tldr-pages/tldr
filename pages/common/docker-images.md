@@ -7,11 +7,11 @@
 
 `docker images`
 
-- List all Docker images with intermediate included:
+- List all Docker images including intermediates:
 
 `docker images -a`
 
-- List all Docker images numeric IDs:
+- List the output in quiet mode (only numeric IDs):
 
 `docker images -q`
 
