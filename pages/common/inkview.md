@@ -2,6 +2,7 @@
 
 > Inkscape graphical SVG previewer.
 > Also functions as a slideshow viewer.
+> More information: <http://wiki.inkscape.org/wiki/index.php/Inkview>.
 
 - Preview an SVG:
 
