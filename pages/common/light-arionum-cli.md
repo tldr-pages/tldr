@@ -1,6 +1,7 @@
 # light-arionum-cli
 
 > The PHP light wallet for the Arionum cryptocurrency.
+> More information: <https://github.com/arionum/lightWalletCLI>.
 
 - Generate a new public/private key pair:
 
