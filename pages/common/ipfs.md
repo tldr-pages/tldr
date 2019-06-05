@@ -2,6 +2,7 @@
 
 > Inter Planetary File System.
 > A peer-to-peer hypermedia protocol to make the web faster, safer, and more open.
+> More information: <https://ipfs.io>.
 
 - Add a file from local to the file system, pin it and print the relative hash:
 
