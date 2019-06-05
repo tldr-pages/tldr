@@ -1,6 +1,7 @@
 # julia
 
 > A high-level, high-performance dynamic programming language for technical computing.
+> More information: <https://julialang.org>.
 
 - Start a Julia REPL session:
 
