@@ -15,6 +15,6 @@
 
 `git commit --amend`
 
-- Commit only specific files or folders:
+- Commit only specific (already staged) files:
 
-`git commit -m {{message}} {{path/to/my/file}} {{path/to/my/second_file}}`
+`git commit {{path/to/my/file1}} {{path/to/my/file2}}`
