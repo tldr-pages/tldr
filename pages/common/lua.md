@@ -1,6 +1,7 @@
 # lua
 
 > A powerful, light-weight embeddable programming language.
+> More information: <https://www.lua.org>.
 
 - Start an interactive Lua shell:
 
