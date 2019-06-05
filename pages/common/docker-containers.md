@@ -9,7 +9,7 @@
 
 - Start one or more stopped containers:
 
-`docker container start {{container_name}}`
+`docker container start {{container1_name}} {{container2_name}}`
 
 - Kill one or more running containers:
 
