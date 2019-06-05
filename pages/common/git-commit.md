@@ -17,4 +17,4 @@
 
 - Commit only specific files or folders:
 
-`git commit -m {{message}} {{path/to/my/file.ext}}`
+`git commit -m {{message}} {{path/to/my/file}} {{path/to/my/second_file}}`
