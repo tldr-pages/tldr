@@ -1,6 +1,7 @@
 # infection
 
 > A mutation testing framework for PHP.
+> More information: <https://infection.github.io>.
 
 - Analyse code using the configuration file (or create one if it does not exist):
 
