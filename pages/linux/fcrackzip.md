@@ -2,7 +2,7 @@
 
 > ZIP archive password cracking utility.
 
-- Bruteforce password with length 4 to 8 with only lowercase, uppercase and digit characters (order matters):
+- Brute-force a password with a length of 4 to 8 characters, and contains only alphanumeric characters (order matters):
 
 `fcrackzip -b -l 4-8 -c aA1 {{archive}}`
 
