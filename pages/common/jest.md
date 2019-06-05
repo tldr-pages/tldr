@@ -1,6 +1,7 @@
 # jest
 
 > A zero-configuration JavaScript testing platform.
+> More information: <https://jestjs.io>.
 
 - Run all tests:
 
