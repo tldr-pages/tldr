@@ -2,6 +2,7 @@
 
 > Compile LaTeX source files into finished documents.
 > Automatically does multiple runs when needed.
+> More information: <https://mg.readthedocs.io/latexmk.html>.
 
 - Compile a dvi (DeVice Independent file) document from every source:
 
