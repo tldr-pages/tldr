@@ -1,6 +1,7 @@
 # license
 
 > Create license files for open-source projects.
+> More information: <https://nishanths.github.io/license>.
 
 - Print a license to stdout, using the defaults (auto-detected author name, and current year):
 
