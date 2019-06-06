@@ -14,7 +14,7 @@
 
 - Start the pacman4console level editor, saving to a specified text file:
 
-`pacmanforconsoleedit {{path/to/level_file}}`
+`pacman4consoleedit {{path/to/level_file}}`
 
 - Play a custom level:
 
