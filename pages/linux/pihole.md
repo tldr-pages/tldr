@@ -1,7 +1,7 @@
 # pihole
 
 > Terminal interface for the Pi-Hole ad-blocking DNS server.
-> <https://pi-hole.net>.
+> More information: <https://pi-hole.net>.
 
 - Check status:
 
