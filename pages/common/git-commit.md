@@ -14,3 +14,7 @@
 - Replace the last commit with currently staged changes:
 
 `git commit --amend`
+
+- Commit only specific (already staged) files:
+
+`git commit {{path/to/my/file1}} {{path/to/my/file2}}`
