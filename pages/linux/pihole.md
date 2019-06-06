@@ -21,8 +21,8 @@
 
 - Whitelist or blacklist a domain:
 
-`pihole {{whitelist|blacklist}} {{reddit.com}}`
+`pihole {{whitelist|blacklist}} {{example.com}}`
 
 - Search the lists for a domain:
 
-`pihole query {{reddit.com}}`
+`pihole query {{example.com}}`
