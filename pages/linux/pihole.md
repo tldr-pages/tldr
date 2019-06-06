@@ -3,11 +3,11 @@
 > Terminal interface for the Pi-Hole ad-blocking DNS server.
 > <https://pi-hole.net>.
 
-- Check status:
+- Check the Pi-hole daemon's status:
 
 `pihole status`
 
-- Monitor detailed status:
+- Monitor detailed system status:
 
 `pihole chronometer`
 
