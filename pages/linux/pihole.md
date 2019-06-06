@@ -11,11 +11,11 @@
 
 `pihole chronometer`
 
-- Start or stop the server:
+- Start or stop the daemon:
 
 `pihole {{enable|disable}}`
 
-- Restart:
+- Restart the daemon (not the server itself):
 
 `pihole restartdns`
 
