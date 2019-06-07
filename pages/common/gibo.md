@@ -1,6 +1,7 @@
 # gibo
 
 > Fetch gitignore boilerplates.
+> More information: <https://github.com/simonwhitaker/gibo>.
 
 - List available boilerplates:
 
