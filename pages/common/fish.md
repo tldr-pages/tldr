@@ -2,6 +2,7 @@
 
 > The Friendly Interactive SHell.
 > A command-line interpreter designed to be user friendly.
+> More information: <https://fishshell.com>.
 
 - Start interactive shell:
 
