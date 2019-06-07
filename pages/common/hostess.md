@@ -1,6 +1,7 @@
 # hostess
 
 > An idempotent command-line utility for managing your /etc/hosts file.
+> More information: <https://github.com/cbednarski/hostess>.
 
 - List domains, target ips and on/off status:
 
