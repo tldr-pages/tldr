@@ -1,6 +1,7 @@
 # fswebcam
 
 > Small and simple webcam for *nix.
+> More information: <https://www.sanslogic.co.uk/fswebcam>.
 
 - Take a picture:
 
