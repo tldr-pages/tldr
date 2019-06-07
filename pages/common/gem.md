@@ -1,6 +1,7 @@
 # gem
 
 > Interact with the package manager for the Ruby programming language.
+> More information: <https://rubygems.org>.
 
 - Install latest version of a gem:
 
