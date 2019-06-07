@@ -1,6 +1,7 @@
 # gifsicle
 
 > Create GIFs.
+> More information: <https://www.lcdf.org/gifsicle>.
 
 - Optimise a GIF:
 
