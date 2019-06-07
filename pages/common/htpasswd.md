@@ -1,6 +1,7 @@
 # htpasswd
 
 > Create and manage htpasswd files to protect web server directories using basic authentication.
+> More information: <https://httpd.apache.org/docs/current/programs/htpasswd.html>.
 
 - Create/overwrite htpasswd file:
 
