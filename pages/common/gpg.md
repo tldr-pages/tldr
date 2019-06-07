@@ -1,6 +1,7 @@
 # gpg
 
 > GNU Privacy Guard.
+> More information: <https://gnupg.org>.
 
 - Sign doc.txt without encryption (writes output to doc.txt.asc):
 
