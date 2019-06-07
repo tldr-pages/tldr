@@ -1,6 +1,7 @@
 # ffmpeg
 
 > Video conversion tool.
+> More information: <https://ffmpeg.org>.
 
 - Extract the sound from a video and save it as MP3:
 
