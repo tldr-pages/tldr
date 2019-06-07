@@ -2,6 +2,7 @@
 
 > The Glasgow Haskell Compiler.
 > Compiles and links Haskell source files.
+> More information: <https://www.haskell.org/ghc>.
 
 - Find and compile all modules in the current directory:
 
