@@ -3,9 +3,9 @@
 > Interactive terminal file manager and disk usage nalyzer.
 > More information: <https://github.com/jarun/nnn>.
 
-- Open file manager at current directory, optional: at given directory from current:
+- Open the current directory (or specify one as the first argument):
 
-`nnn {{path/to/directory}}`
+`nnn`
 
 - Open an existing bookmark:
 
