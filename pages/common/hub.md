@@ -2,6 +2,7 @@
 
 > A wrapper for git that adds commands for working with GitHub-based projects.
 > The commands can also be used using "git" instead of "hub".
+> More information: <https://hub.github.com>.
 
 - Clone a repository you own, using just the repository name rather than the full URL:
 
