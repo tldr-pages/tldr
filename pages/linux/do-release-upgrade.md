@@ -1,15 +1,15 @@
-# do-release-upgrade  
+# do-release-upgrade
 
-> The Ubuntu release upgrader. 
+> The Ubuntu release upgrader.
 
-- Upgrade to the latest release: 
+- Upgrade to the latest release:
 
-`sudo do-release-upgrade` 
+`sudo do-release-upgrade`
 
-- Upgrade to the latest development release: 
+- Upgrade to the latest development release:
 
-`sudo do-release-upgrade --devel-release` 
+`sudo do-release-upgrade --devel-release`
 
-- Upgrade to the latest proposed release: 
+- Upgrade to the latest proposed release:
 
-`sudo do-release-upgrade --proposed` 
+`sudo do-release-upgrade --proposed`
