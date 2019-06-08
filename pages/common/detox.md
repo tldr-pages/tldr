@@ -2,6 +2,7 @@
 
 > Renames files to make them easier to work with.
 > It removes spaces and other such annoyances like duplicate underline characters.
+> More information: <https://github.com/dharple/detox>.
 
 - Remove spaces and other undesirable characters from a file's name:
 
