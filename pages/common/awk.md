@@ -1,6 +1,7 @@
 # awk
 
 > A versatile programming language for working on files.
+> More information: <https://github.com/onetrueawk/awk>.
 
 - Print the fifth column (a.k.a. field) in a space-separated file:
 
