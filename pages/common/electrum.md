@@ -1,6 +1,7 @@
 # electrum
 
 > Ergonomic Bitcoin wallet and private key management.
+> More information: <https://electrum.org>.
 
 - Create a new wallet:
 
