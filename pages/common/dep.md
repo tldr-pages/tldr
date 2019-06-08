@@ -1,6 +1,7 @@
 # dep
 
 > Tool for dependency management in Go projects.
+> More information: <https://golang.github.io/dep>.
 
 - Initialize the current directory as the root of a Go project:
 
