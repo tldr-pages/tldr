@@ -1,7 +1,6 @@
 # pacman4console
 
 > A text-based console game inspired by the original Pacman.
-> You play as Pacman (the `C`), avoid the ghosts (the `&`s), and collect all the pellets (the `*`s and `.`s).
 > More information: <https://github.com/YoctoForBeaglebone/pacman4console>.
 
 - Start a game at Level 1:
