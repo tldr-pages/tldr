@@ -2,6 +2,7 @@
 
 > Runs, monitors and restarts SSH connections.
 > Auto-reconnects to keep port forwarding tunnels up. Accepts all ssh flags.
+> More information: <https://harding.motd.ca/autossh>.
 
 - Open an SSH session, restarting when a monitoring port fails return data:
 
