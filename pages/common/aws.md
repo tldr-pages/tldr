@@ -1,6 +1,7 @@
 # aws
 
 > The official CLI tool for Amazon Web Services.
+> More information: <https://aws.amazon.com/cli>.
 
 - List all IAM users:
 
