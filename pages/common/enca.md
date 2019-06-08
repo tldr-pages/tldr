@@ -1,6 +1,7 @@
 # enca
 
 > Detect and convert encoding of text files.
+> More information: <https://github.com/nijel/enca>.
 
 - Detect file(s) encoding according to your system's locale:
 
