@@ -2,6 +2,7 @@
 
 > Convert a CSV file to a custom output format.
 > Included in csvkit.
+> More information: <https://csvkit.readthedocs.io/en/latest/scripts/csvformat.html>.
 
 - Convert to a tab-delimited file (TSV):
 
