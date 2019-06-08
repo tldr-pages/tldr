@@ -1,6 +1,7 @@
 # couchdb
 
 > Command line interface for Apache CouchDB database server.
+> More information: <https://couchdb.apache.org>.
 
 - Start couchdb:
 
