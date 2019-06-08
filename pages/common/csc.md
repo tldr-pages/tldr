@@ -1,6 +1,7 @@
 # csc
 
 > The Microsoft C# Compiler.
+> More information: <https://docs.microsoft.com/dotnet/csharp/language-reference/compiler-options/command-line-building-with-csc-exe>.
 
 - Compile one or more C# files to a CIL executable:
 
