@@ -1,6 +1,7 @@
 # dhcpwn
 
 > Test DHCP IP exhaustion attacks and sniff local DHCP traffic.
+> More information: <https://github.com/mschwager/dhcpwn>.
 
 - Flood the network with IP requests:
 
