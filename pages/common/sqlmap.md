@@ -9,7 +9,7 @@
 
 - Send data in a POST request (`--data` implies POST request):
 
-`python sqlmap.py -u {{"http://www.target.com/vuln.php" --data={{"id=1"}}`
+`python sqlmap.py -u {{"http://www.target.com/vuln.php"}} --data={{"id=1"}}`
 
 - Change the parameter delimiter (& is the default):
 
