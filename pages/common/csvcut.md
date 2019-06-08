@@ -2,6 +2,7 @@
 
 > Filter and truncate CSV files. Like Unix's `cut` command, but for tabular data.
 > Included in csvkit.
+> More information: <https://csvkit.readthedocs.io/en/latest/scripts/csvcut.html>.
 
 - Print indices and names of all columns:
 
