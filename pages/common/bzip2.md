@@ -1,6 +1,7 @@
 # bzip2
 
 > A block-sorting file compressor.
+> More information: <http://bzip.org>.
 
 - Compress a file:
 
