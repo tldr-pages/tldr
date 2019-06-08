@@ -1,6 +1,7 @@
 # aws s3
 
 > CLI for AWS S3 - provides storage through web services interfaces.
+> More information: <https://aws.amazon.com/cli>.
 
 - Show files in a bucket:
 
