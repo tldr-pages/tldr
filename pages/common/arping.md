@@ -2,6 +2,7 @@
 
 > Discover and probe hosts in a network using the ARP protocol.
 > Useful for MAC address discovery.
+> More information: <https://github.com/ThomasHabets/arping>.
 
 - Ping a host by ARP request packets:
 
