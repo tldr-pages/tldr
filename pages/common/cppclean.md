@@ -1,6 +1,7 @@
 # cppclean
 
 > Find unused code in C++ projects.
+> More information: <https://github.com/myint/cppclean>.
 
 - Run in a project's directory:
 
