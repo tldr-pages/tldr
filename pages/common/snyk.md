@@ -3,7 +3,7 @@
 > Find vulnerabilities in your code and remediate risks.
 > More information: <https://snyk.io>.
 
-- Login to your snyk account:
+- Login to your Snyk account:
 
 `snyk auth`
 
@@ -11,7 +11,7 @@
 
 `snyk test`
 
-- Test a local docker image for any known vulnerabilities:
+- Test a local Docker image for any known vulnerabilities:
 
 `snyk --docker {{docker_image}}`
 
