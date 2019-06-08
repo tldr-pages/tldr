@@ -1,6 +1,7 @@
 # az
 
 > The official CLI tool for Microsoft Azure.
+> More information: <https://docs.microsoft.com/cli/azure>.
 
 - Log in to Azure:
 
