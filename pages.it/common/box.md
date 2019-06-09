@@ -1,6 +1,7 @@
 # box
 
 > Una applicazione PHP per creare e gestire Phars.
+> Maggiori informazioni: <https://box-project.github.io/box2>.
 
 - Crea un nuovo file Phar:
 

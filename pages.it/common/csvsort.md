@@ -2,6 +2,7 @@
 
 > Ordina le righe di di file CSV.
 > Incluso in csvkit.
+> Maggiori informazioni: <https://csvkit.readthedocs.io/en/latest/scripts/csvsort.html>.
 
 - Ordina un file CSV secondo la colonna 9:
 

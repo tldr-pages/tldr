@@ -2,6 +2,7 @@
 
 > Filtra righe CSV con stringhe e pattern matching.
 > Incluso in csvkit.
+> Maggiori informazioni: <https://csvkit.readthedocs.io/en/latest/scripts/csvgrep.html>.
 
 - Trova righe contenenti una certa stringa nella colonna 1:
 

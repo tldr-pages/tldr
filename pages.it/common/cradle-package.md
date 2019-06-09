@@ -1,6 +1,7 @@
 # cradle package
 
 > Gestisci pacchetti per un'istanza Cradle.
+> Maggiori informazioni: <https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-Tools.html#package>.
 
 - Mostra una lista dei pacchetti disponibili:
 

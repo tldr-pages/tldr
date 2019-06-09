@@ -1,6 +1,7 @@
 # ctest
 
 > Programma per eseguire test in progetti CMake.
+> Maggiori informazioni: <https://gitlab.kitware.com/cmake/community/wikis/doc/ctest/Testing-With-CTest>.
 
 - Esegui tutti i test definiti nel progetto CMakw, eseguendo 4 job allo stesso tempo in parallelo:
 

@@ -1,6 +1,7 @@
 # awk
 
 > Un versatile linguaggio di programmazione per elaborare file.
+> Maggiori informazioni: <https://github.com/onetrueawk/awk>.
 
 - Stampa la quinta colonna (field) in un file di linee separate da spazi:
 

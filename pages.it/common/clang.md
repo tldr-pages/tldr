@@ -1,6 +1,7 @@
 # clang
 
 > Compilatore per sorgenti C, C++ ed Objective-C. Può essere usato come alternativa a GCC.
+> Maggiori informazioni: <https://clang.llvm.org/docs/ClangCommandLineReference.html>.
 
 - Compila un file sorgente in un binario eseguibile:
 

@@ -1,7 +1,7 @@
 # cordova
 
 > Applicazioni mobile con HTML, CSS e JavaScript.
-> Homepage: <https://cordova.apache.org/docs/en/latest/guide/cli/>.
+> Maggiori informazioni: <https://cordova.apache.org/docs/en/latest/guide/cli/>.
 
 - Crea un progetto Cordova:
 

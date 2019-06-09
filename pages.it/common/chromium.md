@@ -1,6 +1,7 @@
 # chromium
 
 > Browser web open-source di Google.
+> Maggiori informazioni: <https://chromium.org>.
 
 - Apri un file:
 

@@ -1,6 +1,7 @@
 # cradle deploy
 
 > Gestisci distribuzioni Cradle.
+> Maggiori informazioni: <https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-Tools.html#deploy>.
 
 - Distribuisci Cradle su un server:
 

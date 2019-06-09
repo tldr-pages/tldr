@@ -1,6 +1,7 @@
 # conda
 
 > Gestione pacchetti, dipendenze ed ambiente per qualsiasi linguaggio di programmazione.
+> Maggiori informazioni: <https://github.com/conda/conda>.
 
 - Crea un nuovo ambiente, installandovi alcuni pacchetti:
 

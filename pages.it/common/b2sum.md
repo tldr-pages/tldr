@@ -1,6 +1,7 @@
 # b2sum
 
 > Calcola checksum BLAKE2.
+> Maggiori informazioni: <https://blake2.net/#su>.
 
 - Calcola il checksum BLAKE2 per un file:
 

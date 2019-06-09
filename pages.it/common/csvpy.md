@@ -2,6 +2,7 @@
 
 > Carica un file CSV in una shell Python.
 > Incluso in csvkit.
+> Maggiori informazioni: <https://csvkit.readthedocs.io/en/latest/scripts/csvpy.html>.
 
 - Carica un file CSV in un oggetto `CSVKitReader`:
 
