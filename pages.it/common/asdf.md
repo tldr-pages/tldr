@@ -1,7 +1,7 @@
 # asdf
 
 > Interfaccia da linea di comando per gestire le versionai di diversi pacchetti.
-> Homepage: <https://asdf-vm.com>.
+> Maggiori informazioni: <https://asdf-vm.com>.
 
 - Elenca tutti i plugin disponibili:
 

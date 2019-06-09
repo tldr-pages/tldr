@@ -2,6 +2,7 @@
 
 > Filtra e tronca file CSV. Come il comando Unix `cut`, ma per dati tabellari.
 > Incluso in csvkit.
+> Maggiori informazioni: <https://csvkit.readthedocs.io/en/latest/scripts/csvcut.html>.
 
 - Stampa indici e nomi di tutte le colonne:
 

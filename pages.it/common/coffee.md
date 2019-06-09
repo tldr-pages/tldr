@@ -1,6 +1,7 @@
 # coffee
 
 > Esegui script CoffeScript o compilali in JavaScript.
+> Maggiori informazioni: <https://coffeescript.org#cli>.
 
 - Esegui uno script:
 

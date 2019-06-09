@@ -1,6 +1,7 @@
 # cowsay
 
 > Genera un personaggio ASCII (di default una mucca) che dice o pensa qualcosa.
+> Maggiori informazioni: <https://github.com/tnalpgge/rank-amateur-cowsay>.
 
 - Stampa una mucca ASCII che dice "Hello world!":
 

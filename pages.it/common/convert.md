@@ -1,6 +1,7 @@
 # convert
 
 > Strumento della suite immagineMagick per la conversione di immagini.
+> Maggiori informazioni: <https://imagemagick.org/script/convert.php>.
 
 - Converti un'immagine da JPG a PNG:
 

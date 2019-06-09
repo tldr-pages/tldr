@@ -1,7 +1,7 @@
 # clementine
 
 > Un moderno player e gestore di librerie musicali.
-> Homepage: <https://www.clementine-player.org>.
+> Maggiori informazioni: <https://www.clementine-player.org>.
 
 - Apri Clementine:
 

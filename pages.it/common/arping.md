@@ -2,6 +2,7 @@
 
 > Scopri e interroga host in una rete utilizzando il protocollo ARP.
 > Utile per scoprire indirizzi MAC.
+> Maggiori informazioni: <https://github.com/ThomasHabets/arping>.
 
 - Invia un ping ad un host inviando pacchetti ARP request:
 

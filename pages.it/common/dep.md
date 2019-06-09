@@ -1,6 +1,7 @@
 # dep
 
 > Strumento di gestione delle dipendenze per progetti Go.
+> Maggiori informazioni: <https://golang.github.io/dep>.
 
 - Inizializza la directory corrente come radice di un progetto Go:
 

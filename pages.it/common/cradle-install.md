@@ -1,6 +1,7 @@
 # cradle install
 
 > Installa i componenti del framework Cradle per PHP.
+> Maggiori informazioni: <https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-Tools.html#install>.
 
 - Installa i componenti di Cradle (maggiori dettagli verranno richiesti all'utente):
 

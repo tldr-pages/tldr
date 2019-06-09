@@ -2,6 +2,7 @@
 
 > Veloce utilità di download.
 > Supporta HTTP(S), FTP, SFTP, BitTorrent, e Metalink.
+> Maggiori informazioni: <https://aria2.github.io>.
 
 - Scarica un file da un URI:
 

@@ -2,6 +2,7 @@
 
 > Stampa statistiche descrittive per tutte le colonne di un file CSV.
 > Incluso in csvkit.
+> Maggiori informazioni: <https://csvkit.readthedocs.io/en/latest/scripts/csvstat.html>.
 
 - Mostra tutte le statistiche per tutte le colonne:
 

@@ -1,7 +1,7 @@
 # clamscan
 
 > Scanner antivirus da linea di comando.
-> Homepage: <https://www.clamav.net>.
+> Maggiori informazioni: <https://www.clamav.net>.
 
 - Analizza un file cercando vulnerabilità:
 

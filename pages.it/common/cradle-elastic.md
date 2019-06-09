@@ -1,6 +1,7 @@
 # cradle elastic
 
 > Gestisci le istanze ElasticSearch per un'istanza Cradle.
+> Maggiori informazioni: <https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-Tools.html#elastic>.
 
 - Svuota l'indice ElasticSearch:
 
