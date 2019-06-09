@@ -1,6 +1,7 @@
 # aws s3
 
 > CLI per AWS S3 - fornisce spazio di archiviazione tramite le interfacce di Amazon Web Services.
+> Maggiori informazioni: <https://aws.amazon.com/cli>.
 
 - Mostra file in un bucket:
 

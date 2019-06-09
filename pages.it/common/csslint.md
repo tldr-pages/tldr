@@ -1,6 +1,7 @@
 # csslint
 
 > Un linter per codice CSS.
+> Maggiori informazioni: <https://github.com/CSSLint/csslint/wiki/Command-line-interface>.
 
 - Esegui il linting di un singolo file CSS:
 

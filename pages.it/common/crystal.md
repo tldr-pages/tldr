@@ -1,6 +1,7 @@
 # crystal
 
 > Strumento per gestire codice sorgente Crystal.
+> Maggiori informazioni: <https://crystal-lang.org/reference/using_the_compiler>.
 
 - Esegui un file Crystal:
 

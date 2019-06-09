@@ -1,6 +1,7 @@
 # bashmarks
 
 > Salva e salta a directory comunemente utilizzate usilizzando comandi di un carattere.
+> Maggiori informazioni: <https://github.com/huyng/bashmarks>.
 
 - Elenca i segnalibri disponibili:
 

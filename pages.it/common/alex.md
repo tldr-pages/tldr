@@ -2,7 +2,7 @@
 
 > Uno strumento per individuare frasi scritte in modo insensibile o sconsiderato.
 > Aiuta a trovare termini che favoriscono un certo genere, legati alla razza, religiosamente inappropriati, o simili termini non equi in un testo.
-> Homepage: <https://github.com/get-alex/alex>.
+> Maggiori informazioni: <https://github.com/get-alex/alex>.
 
 - Analizza testo da standard input:
 

@@ -1,6 +1,7 @@
 # cradle sql
 
 > Gestisci database SQL di Cradle.
+> Maggiori informazioni: <https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-Tools.html#sql>.
 
 - Ricostruisci lo schema del database:
 

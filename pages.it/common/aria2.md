@@ -2,7 +2,7 @@
 
 > Strumento di download da linea di comando leggero, multi-protocollo e multi-sorgente.
 > Supporta HTTP, HTTPS, FTP, SFTP, BitTorrent e Metalink.
-> Homepage: <https://aria2.github.io/>.
+> Maggiori informazioni: <https://aria2.github.io/>.
 
 - Scarica una risorsa web:
 

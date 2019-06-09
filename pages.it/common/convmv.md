@@ -1,7 +1,7 @@
 # convmv
 
 > Coversione dei nomi dei file (NON del contenuto) da un encoding ad un altro.
-> Homepage: <https://www.j3e.de/linux/convmv/man/>.
+> Maggiori informazioni: <https://www.j3e.de/linux/convmv/man/>.
 
 - Controlla la conversione di encoding (non rinomina realmente il file):
 
