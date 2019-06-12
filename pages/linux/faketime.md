@@ -1,6 +1,7 @@
 # faketime
 
-> Fake this computers time for a given command.
+> Fake the system time for a given command.
+> More information: <https://manpages.ubuntu.com/manpages/trusty/man1/faketime.1.html>.
 
 - Fake the time to this evening, before printing the result of `date`:
 
