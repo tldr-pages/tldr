@@ -3,10 +3,10 @@
 > Fake the system time for a given command.
 > More information: <https://manpages.ubuntu.com/manpages/trusty/man1/faketime.1.html>.
 
-- Fake the time to this evening, before printing the result of {{date}}:
+- Fake the time to this evening, before printing the result of `date`:
 
-`faketime 'today 23:30' date`
+`faketime '{{today 23:30}}' date`
 
-- Open a new {{bash}} shell, which uses yesterday as the current date:
+- Open a new `bash` shell, which uses yesterday as the current date:
 
-`faketime 'yesterday' bash`
+`faketime '{{yesterday}}' bash`
