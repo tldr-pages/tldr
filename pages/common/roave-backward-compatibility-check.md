@@ -17,4 +17,4 @@
 
 - Check for breaking changes and output to markdown:
 
-`roave-backward-compatibility-check --format=markdown > results.md`
+`roave-backward-compatibility-check --format=markdown > {{results.md}}`
