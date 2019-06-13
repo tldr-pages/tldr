@@ -59,8 +59,6 @@ You can access these pages on your computer using one of the following clients:
 - Android clients:
   - [tldr-viewer](https://github.com/gianasista/tldr-viewer), available on
     [Google Play](https://play.google.com/store/apps/details?id=de.gianasista.tldr_viewer)
-  - [tldroid](https://github.com/hidroh/tldroid), available on
-    [Google Play](https://play.google.com/store/apps/details?id=io.github.hidroh.tldroid)
 - Bash clients:
   - [tldr](https://github.com/raylee/tldr)
   - [tldr-bash-client](https://gitlab.com/pepa65/tldr-bash-client)
