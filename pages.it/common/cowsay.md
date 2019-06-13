@@ -13,7 +13,7 @@
 
 - Stampa un drago ASCII che dice "Ciao!":
 
-`echo "Ciao!" | cowsay -f dragon`
+`cowsay -f dragon "Ciao!"`
 
 - Stampa una mucca ASCII sballata che pensa:
 
