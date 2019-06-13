@@ -13,7 +13,7 @@
 
 - Print an ASCII dragon saying "Hello!":
 
-`echo "Hello!" | cowsay -f dragon`
+`cowsay -f dragon "Hello!"`
 
 - Print a stoned thinking ASCII cow:
 
