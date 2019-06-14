@@ -7,6 +7,10 @@
 
 `cowsay "Hello world!"`
 
+- Usa il testo da standard input per il fumetto:
+
+`echo "Ciao!" | cowsay`
+
 - Elenca tutti i personaggi disponibili:
 
 `cowsay -l`
