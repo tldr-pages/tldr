@@ -1,6 +1,6 @@
 # deluge-console
 
-> An interactive BitTorrent client interface that uses curses.
+> An interactive interface for the Deluge BitTorrent client.
 > More information: <https://deluge-torrent.org>.
 
 - Start the interactive console interface:
