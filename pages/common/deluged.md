@@ -1,6 +1,6 @@
 # deluged
 
-> A BitTorrent client daemon process.
+> A daemon process for the Deluge BitTorrent client.
 > More information: <https://deluge-torrent.org>.
 
 - Start the Deluge daemon:
