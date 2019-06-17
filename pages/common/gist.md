@@ -15,7 +15,7 @@
 
 `gist -p -d {{"A meaningful description"}} {{file.txt}} `
 
-- Read contents from STDIN and create a gist from it:
+- Read contents from `stdin` and create a gist from it:
 
 `{{echo "hello world"}} | gist`
 

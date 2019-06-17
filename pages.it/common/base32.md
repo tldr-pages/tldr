@@ -10,10 +10,10 @@
 
 `base32 -d {{nome_file}}`
 
-- Codifica da stdin:
+- Codifica da `stdin`:
 
 `{{comando}} | base32`
 
-- Decodifica da stdin:
+- Decodifica da `stdin`:
 
 `{{comando}} | base32 -d`

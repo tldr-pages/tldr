@@ -10,10 +10,10 @@
 
 `base64 -D -i {{base64_file}}`
 
-- Encode from stdin:
+- Encode from `stdin`:
 
 `echo -n {{plain_text}} | base64`
 
-- Decode from stdin:
+- Decode from `stdin`:
 
 `echo -n {{base64_text}} | base64 -D`
