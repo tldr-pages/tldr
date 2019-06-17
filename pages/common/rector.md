@@ -7,7 +7,7 @@
 
 `rector process {{path/to/directory}}`
 
-- Process a directory using a dry run:
+- Process a directory without applying changes (dry run):
 
 `rector process {{path/to/directory}} --dry-run`
 
