@@ -3,7 +3,7 @@
 > The command line REST tool for the Handshake wallet.
 > More information: <https://npmjs.com/package/hs-client>.
 
-- Unlock the current wallet:
+- Unlock the current wallet (timeout in seconds):
 
 `hsw-cli unlock {{passphrase}} {{timeout}}`
 
@@ -11,23 +11,23 @@
 
 `hsw-cli lock`
 
-- View the current wallets details:
+- View the current wallet's details:
 
 `hsw-cli get`
 
-- View the current wallets balance:
+- View the current wallet's balance:
 
 `hsw-cli balance`
 
-- View the current wallets transaction history:
+- View the current wallet's transaction history:
 
 `hsw-cli history`
 
-- Send a transaction to the specified address:
+- Send a transaction with the specified coin amount to an address:
 
-`hsw-cli send {{address}} {{value}}`
+`hsw-cli send {{address}} {{1.05}}`
 
-- View the current wallets pending transactions:
+- View the current wallet's pending transactions:
 
 `hsw-cli pending`
 
