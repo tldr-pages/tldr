@@ -7,6 +7,10 @@
 
 `rector process {{path/to/directory}}`
 
+- Process a directory using a dry run:
+
+`rector process {{path/to/directory}} --dry-run`
+
 - Process a directory and apply coding standards:
 
 `rector process {{path/to/directory}} --with-style`
@@ -18,7 +22,3 @@
 - Process a directory with a specific level:
 
 `rector process {{path/to/directory}} --level {{level_name}}`
-
-- Process a directory using a dry run:
-
-`rector process {{path/to/directory}} --dry-run`
