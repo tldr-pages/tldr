@@ -1,8 +1,8 @@
 # cut
 
-> Taglia dividendo in campi STDIN o file.
+> Taglia dividendo in campi `stdin` o file.
 
-- Estrai i primi 16 caratteri di ogni riga da STDIN:
+- Estrai i primi 16 caratteri di ogni riga da `stdin`:
 
 `cut -c {{1-16}}`
 

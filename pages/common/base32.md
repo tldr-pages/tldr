@@ -10,10 +10,10 @@
 
 `base32 -d {{filename}}`
 
-- Encode from stdin:
+- Encode from `stdin`:
 
 `{{somecommand}} | base32`
 
-- Decode from stdin:
+- Decode from `stdin`:
 
 `{{somecommand}} | base32 -d`

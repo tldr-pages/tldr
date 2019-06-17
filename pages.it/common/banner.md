@@ -10,6 +10,6 @@
 
 `banner -w {{50}} {{"Hello World"}}`
 
-- Leggi testo da stdin:
+- Leggi testo da `stdin`:
 
 `banner`

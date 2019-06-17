@@ -12,11 +12,11 @@
 
 `supervisorctl {{start|stop|restart}} {{group_name}}:*`
 
-- Show last 100 **bytes** of process stderr:
+- Show last 100 **bytes** of process `stderr`:
 
 `supervisorctl tail -100 {{process_name}} stderr`
 
-- Keep displaying stdout of a process:
+- Keep displaying `stdout` of a process:
 
 `supervisorctl tail -f {{process_name}} stdout`
 
