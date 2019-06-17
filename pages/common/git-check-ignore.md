@@ -1,7 +1,7 @@
 # git check-ignore
 
 > Analyse and debug Git ignore / exclude (".gitignore") files.
-> More information: <https://git-scm.com/docs/git-check-ignore>
+> More information: <https://git-scm.com/docs/git-check-ignore>.
 
 - Check whether one or more space-separated files or directories are ignored:
 
