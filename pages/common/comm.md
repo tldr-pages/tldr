@@ -10,7 +10,7 @@
 
 `comm -12 {{file1}} {{file2}}`
 
-- Print only lines common to both files, reading one file from stdin:
+- Print only lines common to both files, reading one file from `stdin`:
 
 `cat {{file1}} | comm -12 - {{file2}}`
 

@@ -19,11 +19,11 @@
 
 `jq .[0] {{file.json}}`
 
-- Output the value of a given key of the first element in a JSON text from stdin:
+- Output the value of a given key of the first element in a JSON text from `stdin`:
 
 `cat {{file.json}} | jq .[0].{{key_name}}`
 
-- Output the value of a given key of each element in a JSON text from stdin:
+- Output the value of a given key of each element in a JSON text from `stdin`:
 
 `cat {{file.json}} | jq 'map(.{{key_name}})'`
 

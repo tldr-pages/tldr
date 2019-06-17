@@ -1,8 +1,8 @@
 # cut
 
-> Cut out fields from STDIN or files.
+> Cut out fields from `stdin` or files.
 
-- Cut out the first sixteen characters of each line of STDIN:
+- Cut out the first sixteen characters of each line of `stdin`:
 
 `cut -c {{1-16}}`
 
