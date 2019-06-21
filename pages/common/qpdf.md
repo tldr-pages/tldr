@@ -11,6 +11,10 @@
 
 `qpdf --empty --pages {{file1.pdf}} {{1,6-8}} --pages {{file2.pdf}} {{3,4,5}} -- {{output.pdf}}`
 
+- Merge all the pages of a list of PDF files and save the result as another one:
+
+`qpdf --empty --pages {{file1.pdf}} {{file2.pdf}} {{file3.pdf}} -- {{output.pdf}}`
+
 - Write each group of n pages to a separate output file with a given filename pattern:
 
 `qpdf --split-pages=n {{input.pdf}} {{out_%d.pdf}}`
