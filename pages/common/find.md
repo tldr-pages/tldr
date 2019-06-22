@@ -22,7 +22,7 @@
 
 `find {{root_path}} -name '{{*.py}}' -not -path '{{*/site-packages/*}}'`
 
-- Find files of a certain size:
+- Find files matching a given size range:
 
 `find {{root_path}} -size {{+500k}} -size {{-10M}}`
 
