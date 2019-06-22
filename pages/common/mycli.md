@@ -1,6 +1,7 @@
 # mycli
 
 > A command line client for MySQL that can do auto-completion and syntax highlighting.
+> More information: <https://mycli.net>.
 
 - Connect to a local database on port 3306, using the current user's username:
 
