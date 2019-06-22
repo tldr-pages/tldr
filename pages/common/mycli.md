@@ -6,7 +6,7 @@
 
 `mycli {{database_name}}`
 
-- Connect to a database, user will be prompted for a password:
+- Connect to a database (user will be prompted for a password):
 
 `mycli -u {{username}} {{database_name}}`
 
