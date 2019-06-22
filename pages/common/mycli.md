@@ -11,6 +11,6 @@
 
 `mycli -u {{username}} {{database_name}}`
 
-- Connect to a database on other host:
+- Connect to a database on another host:
 
 `mycli -h {{database_host}} -P {{port}} -u {{username}} {{database_name}}`
