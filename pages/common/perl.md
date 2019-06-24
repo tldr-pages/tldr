@@ -31,6 +31,6 @@
 
 `perl -p0e 's/{{foo\nbar}}/{{foobar}}/g' {{input_file}} > {{output_file}}`
 
-- Run a PCRE on a piped input, print out first capture group:
+- Run a regular expression on stdin, printing out first capture group for each line:
 
 `echo "$INPUT" | perl -nle 'if (/.*({{foo}}).*/) {print "$1"; last;}'`
