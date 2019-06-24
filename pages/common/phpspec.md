@@ -1,9 +1,9 @@
 # phpspec
 
-> A SpecBDD testing framework for PHP.
+> A Behaviour Driven Development tool for PHP.
 > More information: <https://phpspec.net>.
 
-- Describe a new class specification:
+- Create a specification for a class:
 
 `phpspec describe {{class_name}}`
 
@@ -11,7 +11,7 @@
 
 `phpspec run`
 
-- Run a specific specification:
+- Run a single specification:
 
 `phpspec run {{path/to/class_specification_file}}`
 
