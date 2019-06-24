@@ -10,30 +10,26 @@
 
 `find {{root_path}} -name '{{*pattern_1*}}' -or -name '{{*pattern_2*}}'`
 
-- Find directories matching a given name:
+- Find directories matching a given name, in case-insensitive mode:
 
-`find {{root_path}} -type d -name {{*lib*}}`
+`find {{root_path}} -type d -iname {{*lib*}}`
 
-- Find files matching path pattern:
+- Find files matching a path pattern:
 
 `find {{root_path}} -path '{{**/lib/**/*.ext}}'`
 
-- Run a command for each file, use {} within the command to access the filename:
+- Find files matching a given pattern, excluding specific paths:
+
+`find {{root_path}} -name '{{*.py}}' -not -path '{{*/site-packages/*}}'`
+
+- Find files matching a given size range:
+
+`find {{root_path}} -size {{+500k}} -size {{-10M}}`
+
+- Run a command for each file (use `{}` within the command to access the filename):
 
 `find {{root_path}} -name '{{*.ext}}' -exec {{wc -l {} }}\;`
 
-- Find files modified in the last 24-hour period:
+- Find files modified in the last 7 days, and delete them:
 
-`find {{root_path}} -mtime {{-1}}`
-
-- Find files using case insensitive name matching, of a certain size:
-
-`find {{root_path}} -size {{+500k}} -size {{-10M}} -iname '{{*.TaR.gZ}}'`
-
-- Delete files by name, older than 180 days:
-
-`find {{root_path}} -name '{{*.ext}}' -mtime {{+180}} -delete`
-
-- Find files matching a given pattern, while excluding specific paths:
-
-`find {{root_path}} -name '{{*.py}}' -not -path '{{*/site-packages/*}}'`
+`find {{root_path}} -mtime {{-7}} -delete`
