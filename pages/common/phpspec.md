@@ -7,7 +7,7 @@
 
 `phpspec describe {{class_name}}`
 
-- Run all specficiations in the "spec" directory:
+- Run all specifications in the "spec" directory:
 
 `phpspec run`
 
