@@ -1,7 +1,7 @@
 # rename
 
 > Renames multiple files.
-> This is the perl version of `rename`, which is the default on Debian. See `rename.ul` for the stand-alone version.
+> This is the Perl version of `rename`, which is the default on Debian. See `rename.ul` for the util-linux version.
 
 - Rename files using a Perl Common Regular Expression (substitute 'foo' with 'bar' wherever found):
 
