@@ -7,6 +7,10 @@
 
 `gcloud config list`
 
+- Login to Google account:
+
+`gcloud auth login`
+
 - Set the active project:
 
 `gcloud config set project {{project_name}}`
