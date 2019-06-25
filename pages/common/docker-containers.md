@@ -27,10 +27,10 @@
 
 `docker container inspect {{container_name}}`
 
-- Export a container’s filesystem as a tar archive:
+- Export a container's filesystem as a tar archive:
 
 `docker container export {{container_name}}`
 
-- Create a new image from a container’s changes:
+- Create a new image from a container's changes:
 
 `docker container commit {{container_name}}`
