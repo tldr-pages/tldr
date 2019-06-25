@@ -7,9 +7,9 @@
 
 `tldr {{command}}`
 
-- Show the tar tldr page for linux:
+- Show the tree tldr page for linux:
 
-`tldr -p {{linux}} {{tar}}`
+`tldr -o {{linux}} {{tree}}`
 
 - Get help for a git subcommand:
 
