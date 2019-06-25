@@ -7,7 +7,7 @@
 
 `parallel-lint {{path/to/directory}}`
 
-- Lint a directory with the specified number of parallel processes:
+- Lint a directory using the specified number of parallel processes:
 
 `parallel-lint -j {{processes}} {{path/to/directory}}`
 
@@ -17,7 +17,7 @@
 
 - Lint a directory of files using a comma-separated list of extension(s):
 
-`parallel-lint -e {{extensions}} {{path/to/directory}}`
+`parallel-lint -e {{php,html,phpt}} {{path/to/directory}}`
 
 - Lint a directory and output the results as JSON:
 
