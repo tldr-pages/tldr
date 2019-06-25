@@ -7,9 +7,9 @@
 
 `jigsaw init`
 
-- Initialise a project with a specific preset:
+- Initialise a project using a starter template:
 
-`jigsaw init {{preset_name}}`
+`jigsaw init {{template_name}}`
 
 - Build the site for development:
 
