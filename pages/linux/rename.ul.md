@@ -2,7 +2,7 @@
 
 > Renames multiple files.
 > This is the util-linux version of `rename`. See `rename` for the perl version which is default on Debian.
-> Warning: This command has no safeguards and will overwrite files without prompting!
+> Warning: This command has no safeguards and will overwrite files without prompting.
 
 - Rename files using simple substitutions (substitute 'foo' with 'bar' wherever found):
 
