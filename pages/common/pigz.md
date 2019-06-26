@@ -17,7 +17,7 @@
 
 - Compress a directory using tar:
 
-`tar cf - {{folder}} | pigz > {{filename}}.tar.gz`
+`tar cf - {{path/to/directory}} | pigz > {{filename}}.tar.gz`
 
 - Decompress a file:
 
