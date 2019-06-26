@@ -15,7 +15,7 @@
 
 `pigz -0 -p{{4}} {{filename}}`
 
-- Compress a folder using tar:
+- Compress a directory using tar:
 
 `tar cf - {{folder}} | pigz > {{filename}}.tar.gz`
 
