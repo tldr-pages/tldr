@@ -15,6 +15,6 @@
 
 `pickle validate {{path/to/directory}}`
 
-- Package a PECL extension for releasing:
+- Package a PECL extension for release:
 
 `pickle release {{path/to/directory}}`
