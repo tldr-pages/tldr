@@ -5,20 +5,20 @@
 
 - Create a cluster from the configuration specification:
 
-`kops create cluster -f {{my-cluster.yaml}}`
+`kops create cluster -f {{cluster_name.yaml}}`
 
-- Create secret from secret spec file:
+- Create a new ssh public key:
 
-`kops create -f {{secret.yaml}}`
+`kops create secret sshpublickey {{key_name}} -i {{~/.ssh/id_rsa.pub}}`
 
-- Export configurations from a cluster:
+- Export the cluster configurations into the ~/.kube/config file:
 
-`kops export kubecfg {{my-cluster}}`
+`kops export kubecfg {{cluster_name}}`
 
 - Get the cluster configuration as yaml:
 
-`kops get cluster {{my-cluster}} -o yaml`
+`kops get cluster {{cluster_name}} -o yaml`
 
-- Delete cluster:
+- Delete a cluster:
 
-`kops delete cluster {{my-cluster}} --yes`
+`kops delete cluster {{cluster_name}} --yes`
