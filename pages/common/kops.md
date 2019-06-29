@@ -1,6 +1,6 @@
 # kops
 
-> A tool that create, destroy, upgrade and maintain production-grade, highly available, Kubernetes clusters from the command line.
+> Create, destroy, upgrade and maintain Kubernetes clusters from the command line.
 > More informations: <https://github.com/kubernetes/kops/>.
 
 - Create a cluster from the configuration specification:
