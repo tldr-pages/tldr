@@ -17,4 +17,4 @@
 
 - Don't create new commits, just change the working tree:
 
-- `git revert -n {{0c01a9}}..{{9a1743}}`
+`git revert -n {{0c01a9}}..{{9a1743}}`
