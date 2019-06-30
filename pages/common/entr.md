@@ -4,7 +4,7 @@
 
 - Rebuild with `make` if any file in any subdirectory changes:
 
-`{{ag -l}} | entr {{make}}`
+`{{find}} | entr {{make}}`
 
 - Rebuild and test with `make` if any `.c` source files in the current directory change:
 
