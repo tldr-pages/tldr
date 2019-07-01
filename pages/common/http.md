@@ -23,7 +23,7 @@
 
 `http {{example.org}} {{X-MyHeader:123}}`
 
-- Include an extra header example: Host header
+- Include an extra header (example with host header:
 
 `http {{http://12.34.56.78}} {{Host:example.org}}`
 
