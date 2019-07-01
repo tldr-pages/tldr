@@ -19,7 +19,7 @@
 
 `stern {{pod_query}} --all-namespaces`
 
-- Tail matched pods from 15m ago:
+- Tail matched pods from 15 minutes ago:
 
 `stern {{pod_query}} --since {{15m}}`
 
