@@ -5,7 +5,7 @@
 
 - Install a specific PHP extension:
 
-`pickle install {{memcache}}`
+`pickle install {{extension_name}}`
 
 - Convert an existing PECL extension configuration to a Pickle configuration file:
 
