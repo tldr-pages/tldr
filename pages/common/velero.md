@@ -17,7 +17,7 @@
 
 - Create a weekly backup, each living for 90 days (2160 hours):
 
-`velero schedule create {{schedule_name}} --schedules="@every 7d" --ttl 2160h0m0s`
+`velero schedule create {{schedule_name}} --schedules="{{@every 7d}}" --ttl {{2160h0m0s}}`
 
 - Create a restore from the latest successful backup triggered by specific schedule:
 
