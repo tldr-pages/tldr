@@ -8,7 +8,7 @@
 
 - Trace a process and filter output by system call:
 
-`strace -p {{pid}} -e {{system call name}}`
+`strace -p {{pid}} -e {{system_call_name}}`
 
 - Count time, calls, and errors for each system call and report a summary on program exit:
 
@@ -21,3 +21,7 @@
 - Start tracing a program by executing it:
 
 `strace {{program}}`
+
+- Start tracing file operations of a program:
+
+`strace -e trace=file {{program}}`

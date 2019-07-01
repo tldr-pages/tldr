@@ -13,3 +13,7 @@
 - Reverse lookup an IP:
 
 `host {{ip_address}}`
+
+- Specify an alternate DNS server to query:
+
+`host {{domain}} {{8.8.8.8}}`

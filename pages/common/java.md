@@ -1,10 +1,11 @@
 # java
 
 > Java Application Launcher.
+> More information: <https://java.com>.
 
 - Execute a java .class file that contains a main method by using just the class name:
 
-`java {{filename}}`
+`java {{classname}}`
 
 - Execute a .jar program:
 

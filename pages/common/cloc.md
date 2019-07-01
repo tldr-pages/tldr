@@ -1,6 +1,7 @@
 # cloc
 
 > Count, and compute differences of, lines of source code and comments.
+> More information: <https://github.com/AlDanial/cloc>.
 
 - Count all the lines of code in a directory:
 

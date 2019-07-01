@@ -1,6 +1,7 @@
 # apt-get
 
 > Debian and Ubuntu package management utility.
+> Search for packages using `apt-cache`.
 
 - Update the list of available packages and versions (it's recommended to run this before other `apt-get` commands):
 
@@ -13,6 +14,10 @@
 - Remove a package:
 
 `apt-get remove {{package}}`
+
+- Remove a package and its configuration files:
+
+`apt-get purge {{package}}`
 
 - Upgrade all installed packages to their newest available versions:
 

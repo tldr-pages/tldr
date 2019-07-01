@@ -25,3 +25,11 @@
 - Upgrade all installed packages to their newest available versions:
 
 `sudo apt upgrade`
+
+- List all packages:
+
+`apt list`
+
+- List installed packages:
+
+`apt list --installed`

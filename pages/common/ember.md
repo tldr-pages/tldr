@@ -2,6 +2,7 @@
 
 > The Ember.js command line utility.
 > Used for creating and maintaining Ember.js applications.
+> More information: <https://cli.emberjs.com>.
 
 - Create a new Ember application:
 
@@ -14,6 +15,10 @@
 - Build the project:
 
 `ember build`
+
+- Build the project in production mode:
+
+`ember build -prod`
 
 - Run the development server:
 

@@ -24,4 +24,4 @@
 
 - Show all messages by a specific executable:
 
-`journalctl {{/path/to/executable}}`
+`journalctl {{path/to/executable}}`

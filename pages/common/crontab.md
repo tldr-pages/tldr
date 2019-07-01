@@ -15,14 +15,14 @@
 
 `crontab -r`
 
-- Sample job which runs at 10:00 every day. * means any value:
+- Sample job which runs at 10:00 every day (* means any value):
 
-`0 10 * * * {{path/to/script.sh}}`
+`0 10 * * * {{command_to_execute}}`
 
 - Sample job which runs every minute on the 3rd of April:
 
-`* * 3 Apr * {{path/to/script.sh}}`
+`* * 3 Apr * {{command_to_execute}}`
 
-- Sample job which runs at 02:30 every Friday:
+- Sample job which runs a certain script at 02:30 every Friday:
 
-`30 2 * * Fri {{path/to/script.sh}}`
+`30 2 * * Fri {{/absolute/path/to/script.sh}}`

@@ -1,6 +1,7 @@
 # mongod
 
 > The MongoDB database server.
+> More information: <https://docs.mongodb.com/manual/reference/program/mongod>.
 
 - Specify a config file:
 

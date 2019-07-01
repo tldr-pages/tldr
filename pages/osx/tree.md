@@ -18,7 +18,7 @@
 
 `tree -i -f`
 
-- Print the size of each node next to it, in human-readable format, with folders displaying their cumulative size (as in the `du` command):
+- Print the size of each node next to it, in human-readable format, with directories displaying their cumulative size (as in the `du` command):
 
 `tree -s -h --du`
 

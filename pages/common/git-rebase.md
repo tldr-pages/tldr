@@ -2,6 +2,7 @@
 
 > Reapply commits from one branch on top of another branch.
 > Commonly used to "move" an entire branch to another base, creating copies of the commits in the new location.
+> More information: <https://git-scm.com/docs/git-rebase>.
 
 - Rebase the current branch on top of the master branch:
 
@@ -9,7 +10,7 @@
 
 - Start an interactive rebase, which allows the commits to be reordered, omitted, combined or modified:
 
-`git rebase -i {{target_base_branch}}`
+`git rebase -i {{target_base_branch_or_commit_hash}}`
 
 - Continue a rebase that was interrupted by a merge failure, after editing conflicting files:
 

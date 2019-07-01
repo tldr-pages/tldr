@@ -20,7 +20,8 @@
 [license-url]: https://github.com/tldr-pages/tldr/blob/master/LICENSE.md
 [license-image]: https://img.shields.io/github/license/tldr-pages/tldr.svg
 
-Contributions are most welcome! All `tldr` pages are stored in Markdown right here on GitHub.
+Contributions to the tldr-pages project are [most welcome](GOVERNANCE.md)!
+All `tldr` pages are stored in Markdown right here on GitHub.
 Just open an issue or send a pull request and we'll incorporate it as soon as possible.
 To get started, please [sign](https://cla-assistant.io/tldr-pages/tldr) the
 [Contributor License Agreement](https://gist.github.com/waldyrious/e50feec13683e565769fbd58ce503d4e).
@@ -70,6 +71,30 @@ As a quick reference, the format of each page should match the following templat
 For more detailed page formatting guidelines,
 refer to the [style guide](contributing-guides/style-guide.md).
 
+## Translations
+
+Translation of pages can be done by simply creating the corresponding page within the appropriate language-specific directory, creating that as well if it does not already exist.
+
+Language specific directories must follow the pattern `pages.<language_tag>`, where `<language_tag>` is a [BCP 47](https://tools.ietf.org/html/bcp47) conforming tag in the form of `<language>[-<region>]`, where:
+
+ - `<language>` is the shortest [ISO 639](https://en.wikipedia.org/wiki/ISO_639) language code for the chosen language (see [here](https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes) for a complete list).
+ - `<region>` is the two-letter [ISO 3166-1](https://en.wikipedia.org/wiki/ISO_3166-1) region code for the chosen region (see [here](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) for a complete list).
+
+The `<region>` code is optional and should only be added when it is needed to distinguish between an already existing `<language>` and one of its regional dialects. As an example, both `fr-FR` and `fr-BE` should fall under the same `pages.fr` directory, since there virtually is no difference in writing between standard French and Belgian French.
+
+Some examples of valid BCP 47 tags:
+
+ - French: `fr`.
+ - Chinese: `zh`.
+ - Chinese (Singapore): `zh-SG`.
+ - Portuguese (Brazil): `pt-BR`.
+
+You can check the validity of BCP 47 tags [here](http://schneegans.de/lv/).
+
+### Default language for newly added pages
+
+The default language used for pages is English (US). Pages written in English are stored in the default `pages` directory (notice the absence of a specific language tag). Although not strictly required, if you'd like to add a new page in a different language, please consider creating the English page too.
+
 ## Submitting a pull request
 
 The easiest way to submit a change is to just edit the page directly on the Github interface.
@@ -86,9 +111,10 @@ For the commit message, use the following format:
     <command>: type of change
 
 Examples:
-  - `ls: add page`
-  - `cat: fix typo`
-  - `git-push: add --force example`
+  - For a new page addition: `ls: add page`
+  - For a page edit: `cat: fix typo`, `git-push: add --force example`
+  - For a new translation of an existing page: `cp: add Tamil translation`
+  - For related changes to several pages: `grep, find, locate: synchronize format of wildcards`
 
 ## Licensing
 

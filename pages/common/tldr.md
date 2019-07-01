@@ -1,11 +1,16 @@
 # tldr
 
 > Simplified man pages.
+> More information: <https://tldr.sh>.
 
 - Get typical usages of a command (hint: this is how you got here!):
 
 `tldr {{command}}`
 
-- Update the local cache of tldr pages:
+- Show the tar tldr page for linux:
 
-`tldr --update`
+`tldr -p {{linux}} {{tar}}`
+
+- Get help for a git subcommand:
+
+`tldr {{git checkout}}`

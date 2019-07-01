@@ -2,31 +2,36 @@
 
 > Download files from the Web.
 > Supports HTTP, HTTPS, and FTP.
+> More information: <https://www.gnu.org/software/wget>.
 
 - Download the contents of an URL to a file (named "foo" in this case):
 
 `wget {{https://example.com/foo}}`
 
-- Download a single web page and all its resources (scripts, stylesheets, images, etc.):
+- Download the contents of an URL to a file (named "bar" in this case):
 
-`wget --page-requisites --convert-links {{https://example.com/somepage.html}}`
+`wget -O {{bar}} {{https://example.com/foo}}`
 
-- Download a full website, with 3-second intervals between requests:
+- Download a single web page and all its resources with 3-second intervals between requests (scripts, stylesheets, images, etc.):
 
-`wget --mirror --page-requisites --convert-links --wait=3 {{https://example.com}}`
+`wget --page-requisites --convert-links --wait=3 {{https://example.com/somepage.html}}`
 
-- Download the contents of an URL via authenticated FTP:
+- Download all listed files within a directory and its sub-directories (does not download embedded page elements):
 
-`wget --ftp-user={{username}} --ftp-password={{password}} {{ftp://example.com}}`
+`wget --mirror --no-parent {{https://example.com/somepath/}}`
 
-- Limit download speed to 200 kB/s:
+- Limit the download speed and the number of connection retries:
 
-`wget --limit-rate={{200k}} {{https://example.com}}`
+`wget --limit-rate={{300k}} --tries={{100}} {{https://example.com/somepath/}}`
+
+- Download a file from an HTTP server using Basic Auth (also works for FTP):
+
+`wget --user={{username}} --password={{password}} {{https://example.com}}`
 
 - Continue an incomplete download:
 
 `wget -c {{https://example.com}}`
 
-- Retry a given number of times if the download doesn't succeed at first:
+- Download all URLs stored in a text file to a specific directory:
 
-`wget -t {{number_of_retries}} {{https://example.com}}`
+`wget -P {{path/to/directory}} -i {{URLs.txt}}`

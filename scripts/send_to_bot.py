@@ -1,7 +1,10 @@
 import json
 import os
 import sys
-import urllib2
+try:
+  import urllib.request as urllib2
+except ImportError:
+  import urllib2
 
 URL = 'https://tldr-bot.starbeamrainbowlabs.com/'
 
@@ -13,7 +16,7 @@ def post_comment(pr_id, comment_body):
   # Making the request
   f = urllib2.urlopen(req)
   if f.getcode() != 200:
-    print f.read()
+    print(f.read())
 
 
 # Get the environment variables

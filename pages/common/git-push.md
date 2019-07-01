@@ -1,6 +1,7 @@
 # git push
 
 > Push commits to a remote repository.
+> More information: <https://git-scm.com/docs/git-push>.
 
 - Send local changes in the current branch to its remote counterpart:
 

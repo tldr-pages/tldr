@@ -14,6 +14,10 @@
 
 `echo -n {{"Hello World"}}`
 
+- Append a message to the file:
+
+`echo {{"Hello World"}} >> {{file.txt}}`
+
 - Enable interpretation of backslash escapes (special characters):
 
 `echo -e {{"Column 1\tColumn 2"}}`

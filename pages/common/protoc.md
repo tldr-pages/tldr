@@ -1,6 +1,7 @@
 # protoc
 
 > Parse Google Protobuf `.proto` files and generate output in the specified language.
+> More information: <https://developers.google.com/protocol-buffers>.
 
 - Generate Python code from a `.proto` file:
 

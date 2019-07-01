@@ -3,17 +3,21 @@
   "version": "1.0.0",
   "description": "Simplified, community-driven man pages",
   "dependencies": {
-    "glob": "7.0.0",
-    "markdownlint-cli": "0.1.0",
+    "glob": "7.1.3",
+    "markdownlint-cli": "0.15.0",
     "tldr-lint": "~0.0.7",
-    "husky": "0.11.3"
+    "husky": "^2.2.0"
   },
   "scripts": {
-    "precommit": "npm test",
-    "lint-markdown": "markdownlint pages/**/*.md",
+    "lint-markdown": "markdownlint pages*/**/*.md",
     "lint-tldr": "tldr-lint ./pages",
-    "test": "bash -c 'markdownlint pages/ && tldr-lint ./pages 2>&1 | tee test_result; test ${PIPESTATUS[0]} -eq 0'",
-    "build-index": "node ./scripts/build-index.js > pages/index.json"
+    "test": "bash -c 'markdownlint pages*/**/*.md && tldr-lint ./pages 2>&1 | tee test_result; test ${PIPESTATUS[0]} -eq 0'",
+    "build-index": "node ./scripts/build-index.js | tee pages/index.json > index.json"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
   },
   "repository": "tldr-pages/tldr",
   "author": "Romain Prieto",

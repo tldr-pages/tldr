@@ -2,6 +2,7 @@
 
 > Print descriptive statistics for all columns in a CSV file.
 > Included in csvkit.
+> More information: <https://csvkit.readthedocs.io/en/latest/scripts/csvstat.html>.
 
 - Show all stats for all columns:
 

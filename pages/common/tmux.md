@@ -1,6 +1,7 @@
 # tmux
 
 > Multiplex several virtual consoles.
+> More information: <https://github.com/tmux/tmux>.
 
 - Start a new tmux session:
 
@@ -29,3 +30,7 @@
 - Kill session:
 
 `tmux kill-session -t {{name}}`
+
+- Kill session when attached:
+
+`Ctrl + B, x (then hit 'y' for yes)`

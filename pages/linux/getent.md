@@ -1,4 +1,4 @@
-# getent  
+# getent
 
 > Get entries from Name Service Switch libraries.
 
@@ -8,7 +8,7 @@
 
 - See the members of a group:
 
-`getenet group {{group_name}}`
+`getent group {{group_name}}`
 
 - Get list of all services:
 

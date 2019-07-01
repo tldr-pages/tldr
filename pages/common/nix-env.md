@@ -1,14 +1,19 @@
 # nix-env
 
 > Manipulate or query Nix user environments.
+> More information: <https://nixos.org/releases/nix/latest/manual#sec-nix-env>.
 
-- Show available package with name or without name:
+- List all installed packages:
 
-`nix-env -qa {{pkg_name}}`
+`nix-env -q`
 
-- Show the status of available packages:
+- Query installed packages:
 
-`nix-env -qas`
+`nix-env -q {{search_term}}`
+
+- Query available packages:
+
+`nix-env -qa {{search_term}}`
 
 - Install package:
 

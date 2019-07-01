@@ -1,6 +1,7 @@
 # http
 
 > HTTPie: HTTP client, a user-friendly cURL replacement.
+> More information: <https://httpie.org>.
 
 - Download a URL to a file:
 
@@ -26,6 +27,6 @@
 
 `http -a {{username:password}} {{example.org}}`
 
-- Specify raw request body via stdin:
+- Specify raw request body via `stdin`:
 
 `cat {{data.txt}} | http PUT {{example.org}}`

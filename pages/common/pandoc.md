@@ -1,14 +1,19 @@
 # pandoc
 
 > Convert documents between various formats.
+> More information: <https://pandoc.org>.
 
-- Convert file to pdf (the output format is automatically determined from the output file's extension):
+- Convert file to pdf (the output format is determined by file extension):
 
 `pandoc {{input.md}} -o {{output.pdf}}`
 
-- Convert a file to a specific output format (useful for when the extension alone is ambiguous):
+- Force conversion to use a specific format:
 
 `pandoc {{input.docx}} --to {{markdown_github}} -o {{output.md}}`
+
+- Convert to a standalone file with the appropriate headers/footers (for LaTeX, HTML, etc.):
+
+`pandoc {{input.md}} -s -o {{output.tex}}`
 
 - List all supported input formats:
 

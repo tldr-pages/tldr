@@ -1,12 +1,21 @@
 # gradle
 
-> Gradle is the official build system for Android Studio.
+> Gradle is an advanced open source build automation system.
+> More information: <https://gradle.org>.
 
 - Compile a package:
 
 `gradle build`
 
-- Clear the build folder:
+- Exclude test task:
+
+`gradle build -x {{test}}`
+
+- Run in offline mode to prevent gradle from accessing the network during builds:
+
+`gradle build --offline`
+
+- Clear the build directory:
 
 `gradle clean`
 

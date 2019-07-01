@@ -1,6 +1,7 @@
 # mysql
 
 > The MySQL command-line tool.
+> More information: <https://www.mysql.com/>.
 
 - Connect to a database:
 
@@ -14,6 +15,10 @@
 
 `mysql -h {{database_host}} {{database_name}}`
 
+- Connect to a database through a Unix socket:
+
+`mysql --socket {{path/to/socket.sock}}`
+
 - Execute SQL statements in a script file (batch file):
 
-`mysql {{database_name}} < {{script.sql}}`
+`mysql -e "source {{filename.sql}}" {{database_name}}`

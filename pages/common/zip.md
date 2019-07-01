@@ -29,3 +29,7 @@
 - Delete files from an existing zip file:
 
 `zip -d {{compressed.zip}} "{{foo/*.tmp}}"`
+
+- Archive a directory and its contents to a multi-part [s]plit zip file (e.g. 3GB parts):
+
+`zip -r -s {{3g}} {{compressed.zip}} {{path/to/dir}}`

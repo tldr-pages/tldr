@@ -2,6 +2,7 @@
 
 > Rust package manager.
 > Manage Rust projects and their module dependencies (crates).
+> More information: <https://crates.io/>.
 
 - Search for crates:
 
@@ -15,13 +16,13 @@
 
 `cargo install --list`
 
-- Create a new binary Rust project in the current directory:
+- Create a new binary or library Rust project in the current directory:
 
-`cargo init --bin`
+`cargo init --{{bin|lib}}`
 
-- Create a new library Rust project in the current directory:
+- Create a new binary or library Rust project in the specified directory:
 
-`cargo init`
+`cargo new {{path/to/directory}} --{{bin|lib}}`
 
 - Build the Rust project in the current directory:
 

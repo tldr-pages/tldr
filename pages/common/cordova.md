@@ -1,10 +1,11 @@
 # cordova
 
 > Mobile apps with HTML, CSS & JS.
+> More information: <https://cordova.apache.org/docs/en/latest/guide/cli/>.
 
 - Create a cordova project:
 
-`cordova create {{path}} {{package.name}} {{project.name}}`
+`cordova create {{path}} {{package_name}} {{project_name}}`
 
 - Display the current workspace status:
 

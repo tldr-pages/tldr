@@ -10,6 +10,6 @@
 
 `renice -n {{niceness_value}} -u {{user}}`
 
-- Change priority of all processes that belongs to a group:
+- Change priority of all processes that belong to a process group:
 
-`renice -n {{niceness_value}} -g {{group}}`
+`renice -n {{niceness_value}} --pgrp {{process_group}}`

@@ -1,6 +1,7 @@
-# hangups 
+# hangups
 
 > Third party command line client for Google Hangouts.
+> More information: <https://github.com/tdryer/hangups>.
 
 - Start hangups:
 

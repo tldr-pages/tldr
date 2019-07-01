@@ -1,10 +1,10 @@
 # ln
 
-> Creates links to files and folders.
+> Creates links to files and directories.
 
-- Create a symbolic link to a file (or folder):
+- Create a symbolic link to a file or directory:
 
-`ln -s {{path/to/file}} {{path/to/symlink}}`
+`ln -s {{path/to/file_or_directory}} {{path/to/symlink}}`
 
 - Overwrite an existing symbolic to point to a different file:
 

@@ -1,6 +1,7 @@
 # lein
 
 > Manage clojure projects with declarative configuration.
+> More information: <https://leiningen.org>.
 
 - Generate scaffolding for a new project based on a template:
 

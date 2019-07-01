@@ -1,6 +1,7 @@
 # surge
 
 > Simple command line web publishing.
+> More information: <https://surge.sh>.
 
 - Upload a new site to surge.sh:
 

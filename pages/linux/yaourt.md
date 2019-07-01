@@ -8,15 +8,15 @@
 
 - Install a new package (includes AUR):
 
-`yaourt -S package-name`
+`yaourt -S {{package_name}}`
 
 - Remove a package and its dependencies (includes AUR packages):
 
-`yaourt -Rs package-name`
+`yaourt -Rs {{package_name}}`
 
 - Search the package database for a keyword (including AUR):
 
-`yaourt -Ss package-name`
+`yaourt -Ss {{package_name}}`
 
 - List installed packages, versions, and repositories (AUR packages will be listed under the repository name 'local'):
 

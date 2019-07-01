@@ -13,3 +13,7 @@
 - Remove an existing mapping:
 
 `cryptsetup luksClose {{target}}`
+
+- Change the LUKS volume's passphrase:
+
+`cryptsetup luksChangeKey {{/dev/sda1}}`

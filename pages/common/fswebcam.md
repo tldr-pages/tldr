@@ -1,6 +1,7 @@
 # fswebcam
 
 > Small and simple webcam for *nix.
+> More information: <https://www.sanslogic.co.uk/fswebcam>.
 
 - Take a picture:
 
@@ -10,7 +11,7 @@
 
 `fswebcam -r {{width}}x{{height}} {{filename}}`
 
-- Take a picture from selected device(Default is /dev/vidoe0):
+- Take a picture from selected device(Default is /dev/video0):
 
 `fswebcam -d {{device}} {{filename}}`
 

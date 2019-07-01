@@ -1,4 +1,4 @@
-# visudo 
+# visudo
 
 > Safely edit the sudoers file.
 

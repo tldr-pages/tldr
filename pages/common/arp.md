@@ -16,4 +16,4 @@
 
 - Create an entry:
 
-`arp -s {{address}} {{mac address}}`
+`arp -s {{address}} {{mac_address}}`

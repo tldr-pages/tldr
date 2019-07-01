@@ -16,4 +16,4 @@
 
 - Demangle C++ symbols:
 
-`nm {{file.o}} |  c++filt`
+`nm {{file.o}} | c++filt`

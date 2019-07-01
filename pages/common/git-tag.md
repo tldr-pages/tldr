@@ -2,6 +2,7 @@
 
 > Create, list, delete or verify tags.
 > A tag is a static reference to a specific commit.
+> More information: <https://git-scm.com/docs/git-tag>.
 
 - List all tags:
 
@@ -10,6 +11,10 @@
 - Create a tag with the given name pointing to the current commit:
 
 `git tag {{tag_name}}`
+
+- Create a tag with the given name pointing to a given commit:
+
+`git tag {{tag_name}} {{commit}}`
 
 - Create an annotated tag with the given message:
 

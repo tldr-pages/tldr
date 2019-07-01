@@ -2,6 +2,7 @@
 
 > Imagemagick image montage tool.
 > Tiles images into a customisable grid.
+> More information: <https://imagemagick.org/script/montage.php>.
 
 - Tile images into a grid, automatically resizing images larger than the grid cell size:
 

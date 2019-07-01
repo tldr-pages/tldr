@@ -1,6 +1,7 @@
 # redis-cli
 
 > Opens a connection to a Redis server.
+> More information: <https://redis.io/topics/rediscli>.
 
 - Connect to the local server:
 

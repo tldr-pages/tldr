@@ -1,6 +1,11 @@
 # gifsicle
 
-> Create gifs.
+> Create GIFs.
+> More information: <https://www.lcdf.org/gifsicle>.
+
+- Optimise a GIF:
+
+`gifsicle --batch --optimize=3 {{amin.gif}}`
 
 - Make a GIF animation with gifsicle:
 

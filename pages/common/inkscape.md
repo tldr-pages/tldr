@@ -2,6 +2,7 @@
 
 > An SVG (Scalable Vector Graphics) editing program.
 > Use -z to not open the GUI and only process files in the console.
+> More information: <https://inkscape.org>.
 
 - Open an SVG file in the Inkscape GUI:
 

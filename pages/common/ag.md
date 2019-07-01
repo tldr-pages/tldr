@@ -1,10 +1,15 @@
 # ag
 
 > The Silver Searcher. Like ack, but faster.
+> More information: <https://github.com/ggreer/the_silver_searcher>.
 
 - Find files containing "foo", and print the line matches in context:
 
 `ag {{foo}}`
+
+- Find files containing "foo" in a specific directory:
+
+`ag {{foo}} {{path/to/directory}}`
 
 - Find files containing "foo", but only list the filenames:
 

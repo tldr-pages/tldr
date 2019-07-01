@@ -1,12 +1,13 @@
 # eslint
 
 > A pluggable linting utility for JavaScript and JSX.
+> More information: <https://eslint.org>.
 
 - Create eslint config:
 
 `eslint --init`
 
-- Lint on files:
+- Lint on a given set of files:
 
 `eslint {{filename}}.js {{filename1}}.js`
 

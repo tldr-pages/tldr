@@ -1,8 +1,9 @@
 # brew
 
 > Package manager for macOS.
+> More information: <https://brew.sh>.
 
-- Search for available formulas:
+- Search for available formulas and casks:
 
 `brew search {{text}}`
 
@@ -14,22 +15,22 @@
 
 `brew list`
 
-- Update an installed formula (if no formula name is given, all installed formulae are updated):
+- Upgrade an installed formula (if no formula name is given, all installed formulae are upgraded):
 
 `brew upgrade {{formula}}`
 
-- Fetch the newest version of Homebrew and all formulae from GitHub:
+- Fetch the newest version of Homebrew and of all formulae from GitHub:
 
 `brew update`
 
-- Show formulae that have a more recent version available:
+- Remove old versions of installed formulae (if no formula name is given, all installed formulae are processed):
 
-`brew outdated`
+`brew cleanup {{formula}}`
 
 - Display information about a formula (version, installation path, dependencies, etc.):
 
 `brew info {{formula}}`
 
-- Check your Homebrew installation for potential problems:
+- Check the local Homebrew installation for potential problems:
 
 `brew doctor`

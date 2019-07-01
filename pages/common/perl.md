@@ -1,6 +1,7 @@
 # perl
 
 > The Perl 5 language interpreter.
+> More information: <https://www.perl.org>.
 
 - Parse and execute a Perl script:
 

@@ -2,6 +2,7 @@
 
 > Command-line interface to the Blender 3D computer graphics application.
 > Arguments are executed in the order they are given.
+> More information: <https://docs.blender.org/manual/en/latest/render/workflows/command_line.html>.
 
 - Render all frames of an animation in the background, without loading the UI (output is saved to `/tmp`):
 
@@ -11,13 +12,13 @@
 
 `blender -b {{filename}}.blend -o //{{render/frame_###.png}} -a`
 
-- Render the 10th frame of an animation as a single image, saved to an existing folder (absolute path):
+- Render the 10th frame of an animation as a single image, saved to an existing directory (absolute path):
 
-`blender -b {{filename}}.blend -o {{/path/to/output_folder}} -f {{10}}`
+`blender -b {{filename}}.blend -o {{/path/to/output_directory}} -f {{10}}`
 
-- Render the second last frame in an animation as a JPEG image, saved to an existing folder (relative path):
+- Render the second last frame in an animation as a JPEG image, saved to an existing directory (relative path):
 
-`blender -b {{filename}}.blend -o //{{output_folder}} -F {{JPEG}} -f {{-2}}`
+`blender -b {{filename}}.blend -o //{{output_directory}} -F {{JPEG}} -f {{-2}}`
 
 - Render the animation of a specific scene, starting at frame 10 and ending at frame 500:
 

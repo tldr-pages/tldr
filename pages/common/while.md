@@ -2,7 +2,7 @@
 
 > Simple shell loop.
 
-- Read stdin and perform an action on every line:
+- Read `stdin` and perform an action on every line:
 
 `while read line; do echo "$line"; done`
 

@@ -8,16 +8,16 @@
 
 - Set Wacom area to specific screen. Get name of the screen with `xrandr`:
 
-`xsetwacom set "{{device name}}" MapToOutput {{screen}}`
+`xsetwacom set "{{device_name}}" MapToOutput {{screen}}`
 
 - Set mode to relative (like a mouse) or absolute (like a pen) mode:
 
-`xsetwacom set "{{device name}}" Mode "{{Relative|Absolute}}"`
+`xsetwacom set "{{device_name}}" Mode "{{Relative|Absolute}}"`
 
 - Rotate the input (useful for tablet-PC when rotating screen) by 0|90|180|270 degrees from "natural" rotation:
 
-`xsetwacom set "{{device name}}" Rotate {{none|half|cw|ccw}}`
+`xsetwacom set "{{device_name}}" Rotate {{none|half|cw|ccw}}`
 
 - Set button to only work when the tip of the pen is touching the tablet:
 
-`xsetwacom set "{{device name}}" TabletPCButton "on"`
+`xsetwacom set "{{device_name}}" TabletPCButton "on"`
