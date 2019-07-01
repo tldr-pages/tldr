@@ -26,4 +26,3 @@
 - Tail matched pods with a specific label:
 
 `stern {{pod_query}} --selector {{release=canary}}`
-
