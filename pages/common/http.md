@@ -23,6 +23,10 @@
 
 `http {{example.org}} {{X-MyHeader:123}}`
 
+- Include an extra header example: Host header
+
+`http {{http://12.34.56.78}} {{Host:example.org}}`
+
 - Pass a user name and password for server authentication:
 
 `http -a {{username:password}} {{example.org}}`
