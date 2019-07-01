@@ -1,7 +1,7 @@
 # velero
 
 > Backup and migrate Kubernetes applications and their persistent volumes.
-> More informations: <https://github.com/heptio/velero>.
+> More information: <https://github.com/heptio/velero>.
 
 - Create a backup containing all resources:
 
