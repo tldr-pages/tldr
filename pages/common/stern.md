@@ -11,7 +11,7 @@
 
 `stern . --container-state {{waiting}}`
 
-- Tail all pods that matches regular expression:
+- Tail all pods that matches a given regular expression:
 
 `stern {{pod_query}}`
 
