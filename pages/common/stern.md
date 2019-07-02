@@ -7,9 +7,9 @@
 
 `stern .`
 
-- Tail all pods with status waiting:
+- Tail all pods with a specific status:
 
-`stern . --container-state {{waiting}}`
+`stern . --container-state {{running|waiting|terminated}}`
 
 - Tail all pods that matches a given regular expression:
 
