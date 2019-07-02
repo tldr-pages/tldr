@@ -1,24 +1,30 @@
 # rename
 
-> Renames multiple files.
-> This is the Perl version of `rename`, which is the default on Debian. See `rename.ul` for the util-linux version.
+> Rename multiple files.
+> NOTE: this page refers to the command from the `util-linux` package.
+> For the Perl version, see `file-rename` or `perl-rename`.
+> Warning: This command has no safeguards and will overwrite files without prompting.
 
-- Rename files using a Perl Common Regular Expression (substitute 'foo' with 'bar' wherever found):
+- Rename files using simple substitutions (substitute 'foo' with 'bar' wherever found):
 
-`rename {{'s/foo/bar/'}} {{*}}`
+`rename {{foo}} {{bar}} {{*}}`
 
 - Dry-run - display which renames would occur without performing them:
 
-`rename -n {{'s/foo/bar/'}} {{*}}`
+`rename -vn {{foo}} {{bar}} {{*}}`
 
-- Force renaming even if the operation would overwrite existing files:
+- Do not overwrite existing files:
 
-`rename -f {{'s/foo/bar/'}} {{*}}`
+`rename -o {{foo}} {{bar}} {{*}}`
 
-- Convert filenames to lower case (use `-f` in case-insensitive filesystems to prevent "already exists" errors):
+- Change file extensions:
 
-`rename 'y/A-Z/a-z/' {{*}}`
+`rename {{.ext}} {{.bak}} {{*.ext}}`
 
-- Replace whitespace with underscores:
+- Prepend "foo" to all filenames in the current directory:
 
-`rename 's/\s+/_/g' {{*}}`
+`rename {{''}} {{'foo'}} {{*}}`
+
+- Rename 'foo1', ..., 'foo10', ..., 'foo100' to 'foo001', ..., 'foo010', ..., 'foo100':
+
+`rename {{foo}} {{foo00}} {{foo?}} && rename {{foo}} {{foo0}} {{foo??}}`
