@@ -11,7 +11,7 @@
 
 `awk '/{{something}}/ {print $2}' {{filename}}`
 
-- Print the last column of each line in a file, using a comma (instead of space) as a field separator:
+- Print the number of columns of each line in a file, using a comma (instead of space) as a field separator:
 
 `awk -F ',' '{print $NF}' {{filename}}`
 
