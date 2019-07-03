@@ -1,6 +1,6 @@
 # tldr-pages client specification
 
- - **Current Specification Version:** 1.1
+ - **Current Specification Version:** 1.2
 
 This document contains the official specification for tldr-pages clients. It is _not_ a specification of the format of the pages themselves - only a specification of how a user should be able to interface with an official client.
 
@@ -8,8 +8,12 @@ The keywords "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SH
 
 
 ## Changelog
- - v1.0 (23rd January 2019)
+ - v1.0 (23rd January 2019, #2706)
 	 - Initial release
+ - v1.1 (1st April 2019, #2859)
+   - Clarified platform section
+ - v1.2 (3rd July 2019)
+   - Added new `--language` required command-line argument
 
 
 ## Terminology
@@ -38,6 +42,7 @@ Argument			| Required?	| Meaning
 `-p`, `--platform`	| Yes		| Specifies the platform to be used to perform the action (either listing or searching). If this option is specified, the selected platform MUST be checked first instead of the current platform as described below.
 `-u`, `--update`	| Conditional	| Updates the offline cache of pages. MUST be implemented if cache is supported.
 `-l`, `--list`		| No		| Lists all the pages in the current platform to the standard output. If the special platform `all` is specified a list of all pages in all platforms MUST be displayed.
+`--language`		| Yes		| Specifies the preferred language for the page returned. Overrides the `LANG` environment variable - see the [section on translations](#translations) for more information.
 
 Clients MAY NOT implement the long form of an argument (`--update`, `--version`, `--list`, `--platform`).
 
