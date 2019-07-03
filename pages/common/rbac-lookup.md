@@ -7,7 +7,7 @@
 
 `rbac-lookup`
 
-- View RBAC bindings that matches a given expression:
+- View RBAC bindings that match a given expression:
 
 `rbac-lookup {{search_term}}`
 
