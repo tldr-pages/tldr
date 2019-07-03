@@ -13,7 +13,7 @@
 
 - Test a local Docker image for any known vulnerabilities:
 
-`snyk --docker {{docker_image}}`
+`snyk test --docker {{docker_image}}`
 
 - Record the state of dependencies and any vulnerabilities on snyk.io:
 
