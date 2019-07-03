@@ -10,7 +10,7 @@
 
 `wc -w {{file}}`
 
-- Count les caractères (octets) d'un fichier:
+- Compte les caractères (octets) d'un fichier:
 
 `wc -c {{file}}`
 
