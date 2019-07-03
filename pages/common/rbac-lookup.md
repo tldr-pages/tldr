@@ -15,7 +15,7 @@
 
 `rbac-lookup -o wide`
 
-- View all RBAC bindings filtered by the kind of Subject:
+- View all RBAC bindings filtered by subject:
 
 `rbac-lookup -k {{user|group|serviceaccount}}`
 
