@@ -22,4 +22,3 @@
 - View all RBAC bindings along with IAM roles (if you are using GKE):
 
 `rbac-lookup --gke`
-
