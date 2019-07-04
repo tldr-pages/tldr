@@ -13,16 +13,16 @@
 
 - Launch a given program and limit it to only use 50% of the CPU:
 
-`cpulimit --limit {{50}} {{program}}`
+`cpulimit --limit {{50}} -- {{program arg1 arg2 ...}}`
 
 - Launch a program, limit its CPU usage to 50% and run cpulimit in the background:
 
-`cpulimit --limit {{50}} --background {{program}}`
+`cpulimit --limit {{50}} --background -- {{program}}`
 
 - Kill its process if the program's CPU usage goes over 50%:
 
-`cpulimit --limit 50 --kill {{program}}`
+`cpulimit --limit 50 --kill -- {{program}}`
 
 - Throttle both it and its child processes so that none go about 25% CPU:
 
-`cpulimit --limit {{25}} --monitor-forks {{program}}`
+`cpulimit --limit {{25}} --monitor-forks -- {{program}}`
