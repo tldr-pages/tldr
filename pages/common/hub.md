@@ -24,6 +24,10 @@
 
 `hub pull-request --no-edit`
 
+- Create a new branch with the contents of the pull request and checkout it for review:
+
+`hub pr checkout {{pr_number}}`
+
 - Upload the current (local-only) repository to your github account:
 
 `hub create`
