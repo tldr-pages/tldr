@@ -2,18 +2,9 @@
 
  - **Current Specification Version:** 1.2
 
-This document contains the official specification for tldr-pages clients. It is _not_ a specification of the format of the pages themselves - only a specification of how a user should be able to interface with an official client.
+This document contains the official specification for tldr-pages clients. It is _not_ a specification of the format of the pages themselves - only a specification of how a user should be able to interface with an official client. For a list of previous versions of the specification, see the [changelog section](#Changelog) below.
 
 The keywords "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](https://tools.ietf.org/html/rfc2119).
-
-
-## Changelog
- - v1.0 (23rd January 2019, #2706)
-	 - Initial release
- - v1.1 (1st April 2019, #2859)
-   - Clarified platform section
- - v1.2 (3rd July 2019)
-   - Added new `--language` required command-line argument
 
 
 ## Terminology
@@ -82,6 +73,7 @@ tldr git checkout
 tldr --platform osx bash
 ```
 
+
 ## Directory Structure
 This section documents the directory structure that contains the pages themselves.
 
@@ -120,7 +112,6 @@ Some examples:
 You can check the validity of BCP 47 tags [here](http://schneegans.de/lv/).
 
 The structure inside these translation folders is identical to that of the main `pages` folder.
-
 
 
 ## Page Structure
@@ -165,6 +156,7 @@ https://github.com/tldr-pages/tldr/issues/new?title=page%20request:%20{command_n
 #### If multiple versions of a page were found
 If multiple versions of a page were found for different platforms, then a client MAY choose to display a notice to the user notifying them of this.
 
+
 ## Language
 Pages can be written in multiple languages. If a client has access to environment variables, several standard ones exist to specify the language in which a client should operate. If not, then clients MUST make reasonable assumptions based on the information provided by the environment in which they operate (e.g. consulting `navigator.languages` in a browser, etc.).
 
@@ -176,9 +168,19 @@ Finally, the [`LANGUAGE` environment variable](https://www.gnu.org/software/gett
 
 If a page is not available in the user's preferred language, then a client MUST respect the user's priority list defined in the `LANGUAGE` variable (if specified), and MAY choose to notify the user that a page in their chosen language couldn't be found (perhaps along with a link to the [translations section of the contributing guide](https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md#translations)).
 
+
 ## Other Considerations
 This section contains a number of other items that don't neatly fit into any of the sections defined above.
 
 If appropriate, it is RECOMMENDED that clients implement a cache of pages. If implemented, clients MUST download the _entire_ archive from **https://github.com/tldr-pages/tldr**.
 
 Additionally, clients MAY automatically update the cache on a regular basis.
+
+
+## Changelog
+ - [v1.2, July 3rd 2019](https://github.com/tldr-pages/tldr/blob/master/CLIENT-SPECIFICATION.md) (#3168)
+   - Added new `-L, --language` recommended command-line argument.
+ - [v1.1, April 1st 2019](https://github.com/tldr-pages/tldr/blob/fbdc06b7425f92cc0d4fc9a5cfc5860ef017251e/CLIENT-SPECIFICATION.md) (#2859)
+   - Clarified platform section.
+ - [v1.0, January 23rd 2019](https://github.com/tldr-pages/tldr/blob/f5be8a2614a455288f26e42953efeb8cb3bc50b0/CLIENT-SPECIFICATION.md) (#2706)
+   - Initial release.
