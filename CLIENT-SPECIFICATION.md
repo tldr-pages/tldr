@@ -42,7 +42,7 @@ Argument			| Required?	| Meaning
 `-p`, `--platform`	| Yes		| Specifies the platform to be used to perform the action (either listing or searching). If this option is specified, the selected platform MUST be checked first instead of the current platform as described below.
 `-u`, `--update`	| Conditional	| Updates the offline cache of pages. MUST be implemented if cache is supported.
 `-l`, `--list`		| No		| Lists all the pages in the current platform to the standard output. If the special platform `all` is specified a list of all pages in all platforms MUST be displayed.
-`--language`		| Yes		| Specifies the preferred language for the page returned. Overrides the `LANG` environment variable - see the [section on translations](#translations) for more information.
+`-L, --language`		| No		| Specifies the preferred language for the page returned. Overrides other language detection mechanisms. See the [language section](#language) for more information.
 
 Clients MAY NOT implement the long form of an argument (`--update`, `--version`, `--list`, `--platform`).
 
