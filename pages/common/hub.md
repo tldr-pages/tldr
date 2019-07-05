@@ -24,7 +24,7 @@
 
 `hub pull-request --no-edit`
 
-- Create a new branch with the contents of the pull request and checkout it for review:
+- Create a new branch with the contents of a pull request and switch to it:
 
 `hub pr checkout {{pr_number}}`
 
