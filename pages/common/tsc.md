@@ -15,14 +15,14 @@
 
 `tsc --outFile {{output.js}} {{input.ts}}`
 
-- Get command line options and files from a file:
-
-`tsc @{{args.txt}}`
-
-- Compile a TypeScript project if outdated:
+- Compile all `.ts` files of a TypeScript project defined in a `tsconfig.json` file:
 
 `tsc --build {{tsconfig.json}}`
 
-- Type-check JavaScript files and output only the errors:
+- Run the compiler using command line options and arguments fetched from a text file:
+
+`tsc @{{args.txt}}`
+
+- Type-check multiple JavaScript files, and output only the errors:
 
 `tsc --allowJs --checkJs --noEmit {{src/**/*.js}}`
