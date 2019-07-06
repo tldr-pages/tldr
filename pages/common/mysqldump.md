@@ -11,10 +11,10 @@
 
 `mysql -u {{user}} --password -e "source {{filename.sql}}" {{database_name}}`
 
-- Backup all databases with compression, user will be prompted for a password:
+- Backup all databases and redirect it to a file, user will be prompted for a password:
 
-`mysqldump -u {{user}} -p --all-databases | gzip > {{filename.sql.gz}}`
+`mysqldump -u {{user}} -p --all-databases > {{filename.sql}}`
 
-- Restore a compressed database backup, user will be prompted for a password:
+- Restore a backup with redirection from a file, user will be prompted for a password:
 
-`gunzip -c {{filename.sql.gz}} | mysql -u {{user}} -p`
+`mysql -u {{user}} -p < {{filename.sql}}`
