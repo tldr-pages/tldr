@@ -1,7 +1,7 @@
 # bitcoin-cli
 
 > Command-line client to interact with the Bitcoin daemon via RPC calls.
-> The client uses the configurations defined in the `bitcoin.conf` file.
+> Uses the configuration defined in `bitcoin.conf`.
 > More information: <https://en.bitcoin.it/wiki/Running_Bitcoin#Command-line_arguments>.
 
 - Send a transaction to a given address:
