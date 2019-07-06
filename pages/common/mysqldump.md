@@ -10,3 +10,11 @@
 - Restore a backup, user will be prompted for a password:
 
 `mysql -u {{user}} --password -e "source {{filename.sql}}" {{database_name}}`
+
+- Backup all databases with compression, user will be prompted for a password:
+
+`mysqldump -u {{user}} -p --all-databases | gzip > {{filename.sql.gz}}`
+
+- Restore a compressed database backup, user will be prompted for a password:
+
+`gunzip -c {{filename.sql.gz}} | mysql -u {{user}} -p`
