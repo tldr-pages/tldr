@@ -24,4 +24,4 @@
 
 - Resume printing a job:
 
-`lp -i {{job id}} -H resume`
+`lp -i {{job_id}} -H resume`
