@@ -22,6 +22,6 @@
 
 `lp -P 1,3-5,16 {{path/to/filename}}`
 
-- Resume printing a job
+- Resume printing a job:
 
 `lp -i {{job id}} -H resume`
