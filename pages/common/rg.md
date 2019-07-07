@@ -19,6 +19,10 @@
 
 `rg {{pattern}} {{set_of_subdirs}}`
 
+- Search for a file with a name matching a pattern (e.g., `*.csv`):
+
+`rg -g {{pattern}} --files`
+
 - Search for a pattern in files matching a glob (e.g., `README.*`):
 
 `rg {{pattern}} -g {{glob}}`
