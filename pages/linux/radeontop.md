@@ -1,6 +1,7 @@
 # radeontop
 
->  Show utilisation of AMD GPUs.
+> Show utilisation of AMD GPUs.
+> More information: <https://github.com/clbr/radeontop>.
 
 - Show the utilisation of the default AMD GPU:
 
