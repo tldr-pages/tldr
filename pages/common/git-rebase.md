@@ -16,6 +16,10 @@
 
 `git rebase --continue`
 
+- Continue a rebase that was paused due to merge conflicts, by skipping the conflicted commit:
+
+`git rebase --skip`
+
 - Abort a rebase in progress (e.g. if it is interrupted by a merge conflict):
 
 `git rebase --abort`
