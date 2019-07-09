@@ -15,6 +15,6 @@
 
 `mysqldump -u {{user}} -p --all-databases > {{filename.sql}}`
 
-- Restore a backup with redirection from a file, user will be prompted for a password:
+- Restore all databases from a backup (user will be prompted for a password):
 
 `mysql -u {{user}} -p < {{filename.sql}}`
