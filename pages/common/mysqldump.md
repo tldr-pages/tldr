@@ -11,7 +11,7 @@
 
 `mysql -u {{user}} --password -e "source {{filename.sql}}" {{database_name}}`
 
-- Backup all databases and redirect it to a file, user will be prompted for a password:
+- Backup all databases redirecting the output to a file (user will be prompted for a password):
 
 `mysqldump -u {{user}} -p --all-databases > {{filename.sql}}`
 
