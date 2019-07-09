@@ -10,3 +10,11 @@
 - Restore a backup, user will be prompted for a password:
 
 `mysql -u {{user}} --password -e "source {{filename.sql}}" {{database_name}}`
+
+- Backup all databases redirecting the output to a file (user will be prompted for a password):
+
+`mysqldump -u {{user}} -p --all-databases > {{filename.sql}}`
+
+- Restore all databases from a backup (user will be prompted for a password):
+
+`mysql -u {{user}} -p < {{filename.sql}}`
