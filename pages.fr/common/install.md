@@ -5,20 +5,20 @@
 
 - Copie des fichiers vers une destination:
 
-`install {{path/to/source}} {{path/to/destination}}`
+`install {{chemin/fichier/source}} {{chemin/repertoire/destination}}`
 
 - Copie des fichiers vers une destination en mettant à jour leur propriétaire:
 
-`install -o {{utilisateur}} {{path/to/source}} {{path/to/destination}}`
+`install -o {{utilisateur}} {{chemin/fichier/source}} {{chemin/repertoire/destination}}`
 
 - Copie des fichiers vers une destination en mettant à jour leur groupe d'appartenance:
 
-`install -g {{utilisateur}} {{path/to/source}} {{path/to/destination}}`
+`install -g {{utilisateur}} {{chemin/fichier/source}} {{chemin/repertoire/destination}}`
 
 - Copie des fichiers vers une destination en mettant à jour leur mode:
 
-`install -m {{+x}} {{path/to/source}} {{path/to/destination}}`
+`install -m {{+x}} {{chemin/fichier/source}} {{chemin/repertoire/destination}}`
 
 - Copie des fichiers et met à jour leur date d'accès et de modification à partir de leur source respective:
 
-`install -p {{path/to/source}} {{path/to/destination}}`
+`install -p {{chemin/fichier/source}} {{chemin/repertoire/destination}}`
