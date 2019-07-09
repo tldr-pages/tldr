@@ -7,6 +7,10 @@
 
 `crontab -e`
 
+- Edit the crontab file for a specific user:
+
+`sudo crontab -e -u {{user}}`
+
 - View a list of existing cron jobs for current user:
 
 `crontab -l`
