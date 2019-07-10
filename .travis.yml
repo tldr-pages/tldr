@@ -4,6 +4,13 @@ language: node_js
 node_js: stable
 cache: false
 
+git:
+  depth: 1
+
+script:
+  - npm test
+  - bash scripts/build.sh
+
 after_failure:
   - python scripts/send_to_bot.py < test_result
 
