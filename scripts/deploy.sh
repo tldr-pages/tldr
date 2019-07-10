@@ -7,9 +7,9 @@ function initialize {
   if [ -z "$TLDRHOME" ]; then
     export TLDRHOME=${TRAVIS_BUILD_DIR:-$(pwd)}
   fi
+
   export TLDR_ARCHIVE="tldr.zip"
   export SITE_HOME="$HOME/site"
-  export SITE_URL="github.com/tldr-pages/tldr-pages.github.io"
   export SITE_REPO_SLUG="tldr-pages/tldr-pages.github.io"
 
   # Configure git.
@@ -23,18 +23,6 @@ function initialize {
   openssl aes-256-cbc -K "$encrypted_973441be79af_key" -iv "$encrypted_973441be79af_iv" -in ./scripts/id_ed25519_tldr_asset_upload.enc -out id_ed25519 -d
   chmod 600 id_ed25519
   ssh-add id_ed25519
-}
-
-function rebuild_index {
-  npm run build-index
-  echo "Rebuilding index done."
-}
-
-function build_archive {
-  rm -f "$TLDR_ARCHIVE"
-  cd "$TLDRHOME/"
-  zip -r "$TLDR_ARCHIVE" pages*/ LICENSE.md index.json
-  echo "Pages archive created."
 }
 
 function upload_assets {
@@ -55,6 +43,4 @@ function upload_assets {
 ###################################
 
 initialize
-rebuild_index
-build_archive
 upload_assets
