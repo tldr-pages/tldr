@@ -18,7 +18,7 @@
 
 `chmod a+rx {{fichier}}`
 
-- Donne aux autres utilisateurs (qui ne sont pas dans le même que le propriétaire du fichier) les même droits que ceux du groupe:
+- Donne aux autres utilisateurs (qui sont dans un autre groupe) les mêmes droits que ceux du groupe propriétaire:
 
 `chmod o=g {{fichier}}`
 
