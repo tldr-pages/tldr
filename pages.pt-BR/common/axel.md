@@ -2,7 +2,7 @@
 
 > Acelerador de downloads.
 > Suporta HTTP, HTTPS, e FTP.
-> Página Oficial: <https://github.com/axel-download-accelerator/axel>.
+> Mais informações: <https://github.com/axel-download-accelerator/axel>.
 
 - Fazer download de uma URL para um arquivo:
 
