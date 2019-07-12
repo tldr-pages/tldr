@@ -12,7 +12,7 @@
 
 `axel {{url}} -o {{nome_do_arquivo}}`
 
-- Fazer download usando multiplas conexões:
+- Fazer download usando múltiplas conexões:
 
 `axel -n {{numero_de_conexoes}} {{url}}`
 
