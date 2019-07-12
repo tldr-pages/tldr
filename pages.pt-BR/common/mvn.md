@@ -1,7 +1,7 @@
 # mvn
 
 > Ferramenta para a criação e gerenciamento de projetos Java.
-> Página Oficial: <https://maven.apache.org/>.
+> Mais informações: <https://maven.apache.org/>.
 
 - Compilar um projeto:
 
