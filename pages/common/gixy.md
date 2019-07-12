@@ -13,7 +13,7 @@
 
 - Analyze nginx configuration with the specific level:
 
-gixy {{-l|-ll|-lll}}
+`gixy {{-l|-ll|-lll}}`
 
 - Analyze nginx configuration on the specific path:
 
