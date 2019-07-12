@@ -18,7 +18,7 @@
 
 - Procurar por mirrors:
 
-`axel -S {{numero_de_mirrors}} {{url}}`
+`axel -S {{número_de_mirrors}} {{url}}`
 
 - Limitar velocidade de download (em bytes por segundo):
 
