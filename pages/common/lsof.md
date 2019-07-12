@@ -30,3 +30,7 @@
 - List open files in a directory:
 
 `lsof +D {{path/to/directory}}`
+
+- Find the process that is listening on a local internet port:
+
+`lsof -iTCP:{{port}} -sTCP:LISTEN`
