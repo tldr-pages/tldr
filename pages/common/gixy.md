@@ -7,7 +7,7 @@
 
 `gixy`
 
-- Analyze nginx configuration but skip specific tests: 
+- Analyze nginx configuration but skip specific tests:
 
 `gixy --skips {{http_splitting}}`
 
