@@ -1,7 +1,7 @@
 # ab
 
 > Ferramenta da Apache para realizar benchmarking e testes de carga em servidores web.
-> Página oficial: <https://httpd.apache.org/docs/2.4/programs/ab.html>.
+> Mais informações: <https://httpd.apache.org/docs/2.4/programs/ab.html>.
 
 - Executar 100 requisições HTTP do tipo GET para uma determinada URL:
 
