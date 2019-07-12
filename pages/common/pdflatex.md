@@ -6,6 +6,10 @@
 
 `pdflatex {{source.tex}}`
 
+- Compile a pdf document specifying an output directory:
+
+`pdflatex -output-directory={{/tmp}} {{source.tex}}`
+
 - Compile a pdf document, halting on each error:
 
 `pdflatex -halt-on-error {{source.tex}}`
