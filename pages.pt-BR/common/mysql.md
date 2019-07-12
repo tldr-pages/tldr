@@ -1,7 +1,7 @@
 # mysql
 
 > A ferramenta de linha de comando do MySQL.
-> Página oficial: <https://www.mysql.com/>.
+> Mais informações: <https://www.mysql.com/>.
 
 - Conectar a um banco de dados:
 
