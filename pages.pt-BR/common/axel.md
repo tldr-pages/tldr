@@ -20,6 +20,6 @@
 
 `axel -S {{numero_de_mirrors}} {{url}}`
 
-- Limitar velocidade de download (bytes por segundo):
+- Limitar velocidade de download (em bytes por segundo):
 
 `axel -s {{velocidade}} {{url}}`
