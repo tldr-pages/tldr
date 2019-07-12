@@ -1,7 +1,7 @@
 # rails
 
 > Framework MVC para o desenvolvimento de aplicações web, desenvolvido em Ruby.
-> Página oficial: <https://guides.rubyonrails.org/command_line.html>.
+> Mais informações: <https://guides.rubyonrails.org/command_line.html>.
 
 - Criar um novo projeto:
 
