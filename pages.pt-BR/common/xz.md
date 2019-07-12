@@ -1,7 +1,7 @@
 # xz
 
 > Compactar ou descompactar arquivos com a extensão .xz ou .lzma.
-> Página oficial: <https://tukaani.org/xz/format.html>.
+> Mais informações: <https://tukaani.org/xz/format.html>.
 
 - Compactar um arquivo no formato xz:
 
