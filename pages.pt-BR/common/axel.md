@@ -14,7 +14,7 @@
 
 - Fazer download usando múltiplas conexões:
 
-`axel -n {{numero_de_conexoes}} {{url}}`
+`axel -n {{número_de_conexões}} {{url}}`
 
 - Procurar por mirrors:
 
