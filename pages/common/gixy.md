@@ -1,6 +1,6 @@
 # gixy
 
-> Analyze Nginx configuration.
+> Analyze nginx configuration.
 > More information: <https://github.com/yandex/gixy>.
 
 - Analyze nginx configuration (default path: /etc/nginx/nginx.conf):
@@ -11,7 +11,7 @@
 
 `gixy --skips {{http_splitting}}`
 
-- Analyze nginx configuration with the specific level:
+- Analyze nginx configuration with the specific severity level:
 
 `gixy {{-l|-ll|-lll}}`
 
