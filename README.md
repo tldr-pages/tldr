@@ -121,6 +121,7 @@ You can access these pages on your computer using one of the following clients:
     - [tealdeer](https://github.com/dbrgn/tealdeer)
       (fully featured client with offline cache):
       `cargo install tealdeer`
+- [Vim Client](https://github.com/wlemuel/vim-tldr)
 - [Visual Studio Code extension](https://github.com/bmuskalla/vscode-tldr) available on [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=bmuskalla.vscode-tldr)
 - Web clients:
     - [tldr.jsx](https://github.com/ostera/tldr.jsx): http://tldr.ostera.io/
