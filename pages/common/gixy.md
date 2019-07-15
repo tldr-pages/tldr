@@ -1,6 +1,6 @@
 # gixy
 
-> Analyze nginx configuration.
+> Analyze nginx configuration file.
 > More information: <https://github.com/yandex/gixy>.
 
 - Analyze nginx configuration (default path: /etc/nginx/nginx.conf):
