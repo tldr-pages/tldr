@@ -8,7 +8,7 @@
 
 - Compile a pdf document specifying an output directory:
 
-`pdflatex -output-directory={{/tmp}} {{source.tex}}`
+`pdflatex -output-directory={{path/to/directory}} {{source.tex}}`
 
 - Compile a pdf document, halting on each error:
 
