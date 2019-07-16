@@ -1,6 +1,6 @@
 # gixy
 
-> Analyze nginx configuration file.
+> Analyze nginx configuration files.
 > More information: <https://github.com/yandex/gixy>.
 
 - Analyze nginx configuration (default path: /etc/nginx/nginx.conf):
@@ -15,6 +15,6 @@
 
 `gixy {{-l|-ll|-lll}}`
 
-- Analyze nginx configuration on the specific path:
+- Analyze nginx configuration files on the specific path:
 
-`gixy {{path/to/configuration_file}}`
+`gixy {{path/to/configuration_file_1}} {{path/to/configuration_file_2}}`
