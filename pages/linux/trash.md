@@ -18,6 +18,6 @@
 
 `trash-empty`
 
-- Empty trash older than {{X}} days:
+- Empty trash, keeping files trashed less than {{X}} days ago:
 
 `trash-empty {{X}}`
