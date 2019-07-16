@@ -1,6 +1,6 @@
 # trash
 
-> A CLI trashcan/recycling bin
+> A CLI trashcan/recycling bin.
 
 - Delete a file (send to trash):
 
