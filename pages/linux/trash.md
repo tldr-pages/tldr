@@ -12,12 +12,12 @@
 
 - Restore file from trash:
 
-'trash-restore'
+`trash-restore`
 
 - Empty trash:
 
-'trash-empty'
+`trash-empty`
 
 - Empty trash older than {{X}} days:
 
-'trash-empty {{X}}'
+`trash-empty {{X}}`
