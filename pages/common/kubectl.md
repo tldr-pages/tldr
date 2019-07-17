@@ -31,4 +31,7 @@
 
 `kubectl logs my-pod`
 
+- Run command in an existing pod
+
+`kubectl exec my-pod -- ls /`
 
