@@ -21,4 +21,4 @@
 
 - Empty trash, keeping files trashed less than {{X}} days ago:
 
-`trash-empty {{X}}`
+`trash-empty {{10}}`
