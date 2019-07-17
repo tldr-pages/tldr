@@ -15,7 +15,7 @@
 
 `kubectl get all`
 
-- Display resource (CPU/Memory/Storage) usage of nodes or pods
+- Display resource (CPU/Memory/Storage) usage of nodes or pods:
 
 `kubectl top pod`
 
