@@ -1,6 +1,7 @@
 # trash
 
 > A CLI trashcan/recycling bin.
+> More information: <https://github.com/andreafrancia/trash-cli>.
 
 - Delete a file (send to trash):
 
