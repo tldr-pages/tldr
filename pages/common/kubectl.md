@@ -15,11 +15,7 @@
 
 `kubectl get all`
 
-- Show metrics for all nodes:
-
-`kubectl top node`
-
-- Show metrics for all pods in the default namespace:
+- Display resource (CPU/Memory/Storage) usage of nodes or pods
 
 `kubectl top pod`
 
