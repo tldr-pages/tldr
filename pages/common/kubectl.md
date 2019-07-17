@@ -27,11 +27,10 @@
 
 `kubectl explain pods.spec.containers`
 
-- Print the logs for a container in a pod or specified resource: 
+- Print the logs for a container in a pod or specified resource:
 
 `kubectl logs my-pod`
 
-- Run command in an existing pod
+- Run command in an existing pod:
 
 `kubectl exec my-pod -- ls /`
-
