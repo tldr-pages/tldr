@@ -3,11 +3,7 @@
 > Command line interface for running commands against Kubernetes clusters.
 > More information: <https://kubernetes.io/docs/reference/kubectl/>.
 
-- List all pods in all namespaces:
-
-`kubectl get pods --all-namespaces`
-
-- List all pods with more information (such as node name):
+- List all information about a resource (pods, deployments, services, ingresses, etc.) with more details:
 
 `kubectl get pods -o wide`
 
