@@ -26,3 +26,9 @@
 - Display an explanation of the specific field:
 
 `kubectl explain pods.spec.containers`
+
+- Print the logs for a container in a pod or specified resource: 
+
+`kubectl logs my-pod`
+
+
