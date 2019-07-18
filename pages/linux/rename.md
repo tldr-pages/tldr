@@ -25,6 +25,6 @@
 
 `rename {{''}} {{'foo'}} {{*}}`
 
-- Rename 'foo1', ..., 'foo10', ..., 'foo100' to 'foo001', ..., 'foo010', ..., 'foo100':
+- Rename a group of increasingly numbered files zero-padding the numbers up to 3 digits:
 
 `rename {{foo}} {{foo00}} {{foo?}} && rename {{foo}} {{foo0}} {{foo??}}`
