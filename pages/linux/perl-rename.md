@@ -1,6 +1,7 @@
 # rename
 
-> Renames multiple files.
+> Rename multiple files.
+> NOTE: this page refers to the command from the `perl-rename` Arch Linux package.
 
 - Rename files using a Perl Common Regular Expression (substitute 'foo' with 'bar' wherever found):
 
@@ -10,7 +11,7 @@
 
 `rename -n {{'s/foo/bar/'}} {{*}}`
 
-- Force renaming even if the operation would overwrite existing files:
+- Force renaming even if the operation would remove existing destination files:
 
 `rename -f {{'s/foo/bar/'}} {{*}}`
 
