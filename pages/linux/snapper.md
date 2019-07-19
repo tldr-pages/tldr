@@ -10,13 +10,13 @@
 
 `snapper -c {{config}} create-config {{path/to/directory}}`
 
+- Create snapshot and give description:
+
+`snapper -c {{config}} create -d {{"snapshot description"}}`
+
 - List snapshots for a config:
 
 `snapper -c {{config}} list`
-
-- Create a new snapshot:
-
-`snapper -c {{config}} snapshot`
 
 - Delete a snapshot:
 
