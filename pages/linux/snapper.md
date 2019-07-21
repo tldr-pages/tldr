@@ -26,4 +26,6 @@
 
 `snapper -c {{config}} delete {{snapshot_X}}-{{snapshot_Y}}`
 
-For a complete list of commands reference to http://snapper.io/manpages/snapper.html
+- For a complete list of commands reference to:
+
+`http://snapper.io/manpages/snapper.html`
