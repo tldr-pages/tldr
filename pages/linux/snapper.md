@@ -1,6 +1,7 @@
 # snapper
 
 > Filesystem snapshot management tool.
+> More information: <http://snapper.io/manpages/snapper.html>.
 
 - List snapshot configs:
 
@@ -25,7 +26,3 @@
 - Delete a range of snapshots:
 
 `snapper -c {{config}} delete {{snapshot_X}}-{{snapshot_Y}}`
-
-- For a complete list of commands reference to:
-
-`http://snapper.io/manpages/snapper.html`
