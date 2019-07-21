@@ -10,7 +10,7 @@
 
 `snapper -c {{config}} create-config {{path/to/directory}}`
 
-- Create snapshot and give description:
+- Create snapshot with a description:
 
 `snapper -c {{config}} create -d {{"snapshot description"}}`
 
@@ -25,3 +25,5 @@
 - Delete a range of snapshots:
 
 `snapper -c {{config}} delete {{snapshot_X}}-{{snapshot_Y}}`
+
+For a more complete list of commands reference to http://snapper.io/manpages/snapper.html
