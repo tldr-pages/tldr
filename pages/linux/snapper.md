@@ -13,7 +13,7 @@
 
 - Create snapshot with a description:
 
-`snapper -c {{config}} create -d {{"snapshot description"}}`
+`snapper -c {{config}} create -d {{"snapshot_description"}}`
 
 - List snapshots for a config:
 
