@@ -18,6 +18,6 @@
 
 `man -w {{command}}`
 
-- Do a keyword search for manpages containing a search string:
+- Search for manpages containing a search string:
 
-`man -k {{keyword}}`
+`man -k "{{search string}}"`
