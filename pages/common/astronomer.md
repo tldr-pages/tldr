@@ -7,7 +7,7 @@
 
 `astronomer {{tldr-pages/tldr-node-client}}`
 
-- Scan maximum amount of stars in the repository:
+- Scan the maximum amount of stars in the repository:
 
 `astronomer {{tldr-pages/tldr-node-client}} --stars {{50}}`
 
