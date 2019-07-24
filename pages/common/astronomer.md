@@ -3,7 +3,7 @@
 > Tool that detects illegitimate stars from bot accounts on Github projects.
 > More information: <https://github.com/Ullaakut/astronomer>.
 
-- Scan repository:
+- Scan a repository:
 
 `astronomer {{tldr-pages/tldr-node-client}}`
 
