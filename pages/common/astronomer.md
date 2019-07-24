@@ -11,6 +11,6 @@
 
 `astronomer {{tldr-pages/tldr-node-client}} --stars {{50}}`
 
-- Scan repository including comparative reports:
+- Scan a repository including comparative reports:
 
 `astronomer {{tldr-pages/tldr-node-client}} --verbose`
