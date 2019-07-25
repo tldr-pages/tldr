@@ -9,3 +9,19 @@
 - Full if syntax:
 
 `if {{condition}}; then echo "true"; else echo "false"; fi`
+
+- Get full list of available if conditions:
+
+`help test`
+
+- If given variable is empty:
+
+`if [[ -z $GIT_BRANCH ]]; then echo "true"; else echo "false"; fi`
+
+- If file exists:
+
+`if [[ -e {{filename}} ]]; then echo "true"; else echo "false"; fi`
+
+- If directory not exists:
+
+`if [[ ! -d {{path/to/directory}} ]]; then echo "true"; else echo "false"; fi`
