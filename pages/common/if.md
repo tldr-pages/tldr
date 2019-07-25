@@ -10,7 +10,7 @@
 
 `if {{condition}}; then echo "true"; else echo "false"; fi`
 
-- Get full list of available if conditions:
+- List available if conditions:
 
 `help test`
 
