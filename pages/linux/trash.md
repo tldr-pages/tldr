@@ -7,10 +7,6 @@
 
 `trash {{path/to/file}}`
 
-or
-
-`trash-put {{path/to/file}}`
-
 - List files in trash:
 
 `trash-list`
