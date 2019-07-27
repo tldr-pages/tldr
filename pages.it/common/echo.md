@@ -2,7 +2,7 @@
 
 > Stampa a schermo gli argomenti forniti.
 
-- Stampa un messaggio di testo. Nota: le virgolette sono opzionali: 
+- Stampa un messaggio di testo. Nota: le virgolette sono opzionali:
 
 `echo {{"Hello World"}}`
 
@@ -14,7 +14,7 @@
 
 `echo -n {{"Hello World"}}`
 
-- Aggiungi un messaggio in coda ad un file
+- Aggiungi un messaggio in coda ad un file:
 
 `echo {{"Hello World"}} >> {{file.txt}}`
 
