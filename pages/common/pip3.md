@@ -13,7 +13,7 @@
 
 - Upgrade a package:
 
-`pip3 install -U {{package_name}}`
+`pip3 install --upgrade {{package_name}}`
 
 - Uninstall a package:
 
@@ -25,7 +25,7 @@
 
 - Install packages from file:
 
-`pip3 install -r {{requirements.txt}}`
+`pip3 install --requirements {{requirements.txt}}`
 
 - Show installed package info:
 
