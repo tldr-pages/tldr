@@ -1,7 +1,7 @@
 # sphinx-build
 
 > Generates documentation from the files in sourcedir and places it in the outputdir.
-> More information: http://www.sphinx-doc.org/en/master/man/sphinx-build.html.
+> More information: <http://www.sphinx-doc.org/en/master/man/sphinx-build.html>.
 
 - Build documentation as "epub" and put it in "builddir":
 
