@@ -5,7 +5,7 @@
 
 - Build documentation as "epub" and put it in "builddir":
 
-`sphinx-build -b {{epub}} {{path/to/sourcedir}} {{path/to/builddir}}`
+`sphinx-build -b {{html|epub|text|...}} {{path/to/source_dir}} {{path/to/build_dir}}`
 
 - Build documentations intended for readthedocs.io:
 
