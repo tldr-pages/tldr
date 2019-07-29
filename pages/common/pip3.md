@@ -23,7 +23,7 @@
 
 `pip3 freeze > {{requirements.txt}}`
 
-- Install packages from file:
+- Save the list of installed packages to a file:
 
 `pip3 install --requirements {{requirements.txt}}`
 
