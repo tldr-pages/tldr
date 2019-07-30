@@ -19,11 +19,11 @@
 
 `pip3 uninstall {{package_name}}`
 
-- Save installed packages to file:
+- Save the list of installed packages to a file:
 
 `pip3 freeze > {{requirements.txt}}`
 
-- Save the list of installed packages to a file:
+- Install packages from a file:
 
 `pip3 install --requirements {{requirements.txt}}`
 
