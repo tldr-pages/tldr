@@ -18,3 +18,11 @@
 - View a summary of the last 5 commits (i.e. specify a revision range):
 
 `git shortlog HEAD~{{5}}..HEAD`
+
+- View all users, emails and the number of commits in the current branch:
+
+`git shortlog -sne`
+
+- View all users, emails and the number of commits in all branches:
+
+`git shortlog -sne --all`
