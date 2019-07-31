@@ -186,14 +186,12 @@ The [`LANGUAGE` environment variable](https://www.gnu.org/software/gettext/manua
 The [`LC_MESSAGES` environment variable](https://www.gnu.org/software/gettext/manual/html_node/Locale-Environment-Variables.html) MAY be present. If the client itself is localized and this environment variable is present, it MUST use its value in order to determine the language in which interface text is shown (separately from the language used for pages). In absence of `LC_MESSAGES`, then `LANG` and `LANGUAGE` MUST be used for this purpose instead.
 
 
-Other Considerations
---------------------
+Caching
+-------
 
-This section contains a number of other items that don't neatly fit into any of the sections defined above.
+If appropriate, it is RECOMMENDED that clients implement a cache of pages. If implemented, clients MUST download the archive either from **[http://tldr.sh/assets/tldr.zip](http://tldr.sh/assets/tldr.zip)** or [https://raw.githubusercontent.com/tldr-pages/tldr-pages.github.io/master/assets/tldr.zip](https://raw.githubusercontent.com/tldr-pages/tldr-pages.github.io/master/assets/tldr.zip) (which is pointed by the first link).
 
-If appropriate, it is RECOMMENDED that clients implement a cache of pages. If implemented, clients MUST download the _entire_ archive from **https://github.com/tldr-pages/tldr**.
-
-Additionally, clients MAY automatically update the cache on a regular basis.
+Caching SHOULD be done according to the user's language configuration (if any), as to not waste unneeded space for unneeded languages. Additionally, clients MAY automatically update the cache on a regular basis.
 
 
 Changelog
@@ -203,6 +201,7 @@ Changelog
    - Addition of a new `-L, --language` recommended command-line argument.
    - Rewording of the language section also encouraging the use of configuration files for language.
    - Shift from BCP-47 to POSIX style locale tags, with consequent **deprecation of previous versions of the spec**.
+   - Clearer clarification about the recommended caching functionality.
 
  - [v1.1, April 1st 2019](https://github.com/tldr-pages/tldr/blob/fbdc06b7425f92cc0d4fc9a5cfc5860ef017251e/CLIENT-SPECIFICATION.md) (deprecated) (#2859)
    - Clarified platform section.
