@@ -13,12 +13,12 @@
 
 - Remove metadata from a file and print detailed output to the console:
 
-`mat2 --verbose {{file_path}}`
+`mat2 --verbose {{path/to/file}}`
 
 - Show metadata in a file without removing it:
 
-`mat2 --show {{file_path}}`
+`mat2 --show {{path/to/file}}`
 
 - Partially remove metadata from a file:
 
-`mat2 --lightweight {{file_path}}`
+`mat2 --lightweight {{path/to/file}}`
