@@ -7,7 +7,7 @@
 
 `enca {{file1 file2 ...}}`
 
-- Detect file(s) encoding specifying a language the POSIX/C locale format (e.g. zh_CN, en_US):
+- Detect file(s) encoding specifying a language in the POSIX/C locale format (e.g. zh_CN, en_US):
 
 `enca -L {{language}} {{file1 file2 ...}}`
 
