@@ -85,9 +85,9 @@ The master version of every page is stored inside (but not directly) the `pages`
 	 + `windows/`
 	 + `osx/`
 	 + .....etc.
-	
+
 Additional platforms MAY be added in the future. Clients MAY NOT support new platforms (though such support is RECOMMENDED), but MUST NOT break if additional platforms are added.
-	
+
 The pages themselves sit inside the appropriate platform folder, with the extension `.md`. Here are some example mappings:
 
 Command name    | Mapped name     | Filename
@@ -158,16 +158,13 @@ If multiple versions of a page were found for different platforms, then a client
 
 
 ## Language
-Pages can be written in multiple languages. If a client has access to environment variables, several standard ones exist to specify the language in which a client should operate. If not, then clients MUST make reasonable assumptions based on the information provided by the environment in which they operate (e.g. consulting `navigator.languages` in a browser, etc.).
+Pages can be written in multiple languages. If a client has access to environment variables, several standard ones exist to specify the language in which a client should operate. If not, then clients MUST make reasonable assumptions based on the information provided by the environment in which they operate (e.g. consulting `navigator.languages` in a browser, etc.). If possible, it is RECOMMENDED to also make language configurable, as to not only rely on the environment. Clients SHOULD therefore offer options to configure or override the language using configuration files or command line arguments (like `-L, --language` suggested in the [arguments section](#Arguments) above).
 
-The [`LANG` environment variable](https://www.gnu.org/software/gettext/manual/html_node/Locale-Environment-Variables.html) MUST be used to determine both the language of a page to display, and the display language of any interface text shown to the user (e.g. things like `Cache updated successfully`, for example).
+The [`LANG` environment variable](https://www.gnu.org/software/gettext/manual/html_node/Locale-Environment-Variables.html), if present, MUST be used to determine the language of pages to display.
 
-Additionally, the [`LC_MESSAGES` environment variable](https://www.gnu.org/software/gettext/manual/html_node/Locale-Environment-Variables.html) MAY be present. If specified, clients MUST use it's value to determine the language in which interface text is shown in (separately from the language to display the page in).
+The [`LANGUAGE` environment variable](https://www.gnu.org/software/gettext/manual/html_node/The-LANGUAGE-variable.html) specifies a priority list of languages that a user wishes to read in. In absence of `LANG` and if this environment variable present, a client MUST use the defined priority list to decide on the language of pages to display. If a page is not available in the user's preferred language, then a client MUST respect the user's priority list defined in the `LANGUAGE` variable, and MAY choose to notify the user that a page in their chosen language couldn't be found (perhaps along with a link to the [translations section of the contributing guide](https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md#translations)).
 
-Finally, the [`LANGUAGE` environment variable](https://www.gnu.org/software/gettext/manual/html_node/The-LANGUAGE-variable.html) specifies a priority list of languages that a user wishes to read in. If present, a client MUST use the defined priority list to decide on the language that to display in.
-
-If a page is not available in the user's preferred language, then a client MUST respect the user's priority list defined in the `LANGUAGE` variable (if specified), and MAY choose to notify the user that a page in their chosen language couldn't be found (perhaps along with a link to the [translations section of the contributing guide](https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md#translations)).
-
+The [`LC_MESSAGES` environment variable](https://www.gnu.org/software/gettext/manual/html_node/Locale-Environment-Variables.html) MAY be present. If the client itself is localized and this environment variable is present, it MUST use its value in order to determine the language in which interface text is shown (separately from the language used for pages). In absence of `LC_MESSAGES`, then `LANG` and `LANGUAGE` MUST be used for this purpose instead.
 
 ## Other Considerations
 This section contains a number of other items that don't neatly fit into any of the sections defined above.
@@ -180,6 +177,7 @@ Additionally, clients MAY automatically update the cache on a regular basis.
 ## Changelog
  - [v1.2, July 3rd 2019](https://github.com/tldr-pages/tldr/blob/master/CLIENT-SPECIFICATION.md) (#3168)
    - Added new `-L, --language` recommended command-line argument.
+   - Reworded the language section also encouraging the use of configuration files for language.
  - [v1.1, April 1st 2019](https://github.com/tldr-pages/tldr/blob/fbdc06b7425f92cc0d4fc9a5cfc5860ef017251e/CLIENT-SPECIFICATION.md) (#2859)
    - Clarified platform section.
  - [v1.0, January 23rd 2019](https://github.com/tldr-pages/tldr/blob/f5be8a2614a455288f26e42953efeb8cb3bc50b0/CLIENT-SPECIFICATION.md) (#2706)
