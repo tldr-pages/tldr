@@ -18,6 +18,14 @@
 
 `journalctl -u {{unit}}`
 
+- Show messages by a specific unit in last 15m:
+
+`journalctl -u {{unit}} --since {{-15m}}`
+
+- Filter messages within a time range (either timestamp or placeholders like "yesterday"):
+
+`journalctl -u {{unit}} --since {{now|today|yesterday|tomorrow}} --until {{YYYY-MM-DD HH:MM:SS}}`
+
 - Show all messages by a specific process:
 
 `journalctl _PID={{pid}}`
