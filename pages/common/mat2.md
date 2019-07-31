@@ -8,7 +8,7 @@
 
 - Remove metadata from a file:
 
-`mat2 {{file_path}}`
+`mat2 {{path/to/file}}`
 
 - Remove metadata from a file and print detailed output to the console:
 
