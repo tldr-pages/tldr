@@ -1,6 +1,7 @@
 # mat2
 
-> Anonymise various file formats by removing metadata. More information: <https://0xacab.org/jvoisin/mat2>.
+> Anonymise various file formats by removing metadata.
+> More information: <https://0xacab.org/jvoisin/mat2>.
 
 - List supported file formats:
 
