@@ -98,18 +98,16 @@ Command name    | Mapped name     | Filename
 
 
 ### Translations
-Other directories sit alongside the main `pages` directory, and contain translations of the master versions of every page - though pages MAY NOT have a translation available for a given language yet. Furthermore, a given language MAY NOT have a folder yet either. The format of these directories is `pages.{language-tag}`, where `{language-tag}` is a [BCP 47](https://tools.ietf.org/html/bcp47) conforming tag  in the form of `<language>-<region>`, where:
+Other directories sit alongside the main `pages` directory, and contain translations of the master versions of every page - though pages MAY NOT have a translation available for a given language yet. Furthermore, a given language MAY NOT have a folder yet either. The format of these directories is `pages.<locale>`, where `<locale>` is a [POSIX Locale Name](https://www.gnu.org/software/gettext/manual/html_node/Locale-Names.html#Locale-Names) in the form of `<language>_<country>`, where:
 
  - `<language>` is the shortest [ISO 639](https://en.wikipedia.org/wiki/ISO_639) language code for the chosen language (see [here](https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes) for a complete list).
- - `<region>` is the two-letter [ISO 3166-1](https://en.wikipedia.org/wiki/ISO_3166-1) region code for the chosen region (see [here](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) for a complete list).
+ - `<country>` is the two-letter [ISO 3166-1](https://en.wikipedia.org/wiki/ISO_3166-1) country code for the chosen region (see [here](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) for a complete list).
 
 Some examples:
 
- - Chinese (Taiwan): `pages.zh-TW`.
- - Portuguese (Brazil): `pages.pt-BR`.
- - German (Germany): `pages.de-DE`.
-
-You can check the validity of BCP 47 tags [here](http://schneegans.de/lv/).
+ - Chinese (Taiwan): `pages.zh_TW`.
+ - Portuguese (Brazil): `pages.pt_BR`.
+ - Italian: `pages.it`.
 
 The structure inside these translation folders is identical to that of the main `pages` folder.
 
@@ -176,9 +174,10 @@ Additionally, clients MAY automatically update the cache on a regular basis.
 
 ## Changelog
  - [v1.2, July 3rd 2019](https://github.com/tldr-pages/tldr/blob/master/CLIENT-SPECIFICATION.md) (#3168)
-   - Added new `-L, --language` recommended command-line argument.
-   - Reworded the language section also encouraging the use of configuration files for language.
- - [v1.1, April 1st 2019](https://github.com/tldr-pages/tldr/blob/fbdc06b7425f92cc0d4fc9a5cfc5860ef017251e/CLIENT-SPECIFICATION.md) (#2859)
+   - Addition of a new `-L, --language` recommended command-line argument.
+   - Rewording of the language section also encouraging the use of configuration files for language.
+   - Shift from BCP-47 to POSIX style locale tags, with consequent **deprecation of previous versions of the spec**.
+ - [v1.1, April 1st 2019](https://github.com/tldr-pages/tldr/blob/fbdc06b7425f92cc0d4fc9a5cfc5860ef017251e/CLIENT-SPECIFICATION.md) (deprecated) (#2859)
    - Clarified platform section.
- - [v1.0, January 23rd 2019](https://github.com/tldr-pages/tldr/blob/f5be8a2614a455288f26e42953efeb8cb3bc50b0/CLIENT-SPECIFICATION.md) (#2706)
+ - [v1.0, January 23rd 2019](https://github.com/tldr-pages/tldr/blob/f5be8a2614a455288f26e42953efeb8cb3bc50b0/CLIENT-SPECIFICATION.md) (deprecated) (#2706)
    - Initial release.
