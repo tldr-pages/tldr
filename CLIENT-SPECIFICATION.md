@@ -33,17 +33,17 @@ This section describes the standardised command-line interface (CLI) for clients
 
 ### Arguments
 
-A number of arguments MUST be supported (unless otherwise specified) if a CLI is implemented:
+A number of command-line options MUST be supported (unless otherwise specified) if a CLI is implemented:
 
-Argument           | Required?   | Meaning
+Option             | Required?   | Meaning
 -------------------|-------------|----------
 `-v`, `--version`  | Yes         | Shows the current version of the client, and the version of this specification that it implements.
-`-p`, `--platform` | Yes         | Specifies the platform to be used to perform the action (either listing or searching). If this option is specified, the selected platform MUST be checked first instead of the current platform as described below.
+`-p`, `--platform` | Yes         | Specifies the platform to be used to perform the action (either listing or searching) as an argument. If this option is specified, the selected platform MUST be checked first instead of the current platform as described below.
 `-u`, `--update`   | Conditional | Updates the offline cache of pages. MUST be implemented if cache is supported.
 `-l`, `--list`     | No          | Lists all the pages in the current platform to the standard output. If the special platform `all` is specified a list of all pages in all platforms MUST be displayed.
 `-L`, `--language` | No          | Specifies the preferred language for the page returned. Overrides other language detection mechanisms. See the [language section](#language) for more information.
 
-Clients MAY NOT implement the long form of an argument (`--update`, `--version`, `--list`, `--platform`).
+Clients MAY choose to only implement the short version of an option, ignoring the long form.
 
 Additional decoration MAY be printed if the standard output is a [TTY](http://www.linusakesson.net/programming/tty/index.php). If not, then the output MUST not contain any additional decorations. For example a page list MUST be formatted with 1 page name per line (to enable easy manipulation using standard CLI tools such as `grep` etc.).
 
@@ -59,7 +59,7 @@ tldr -l
 
 ### Page Names
 
-The first argument that does not start with a dash (`-`) MUST be considered the page name.
+The first argument that does not start with a dash (`-`), MUST be considered the page name.
 
 In addition, page names MAY contain spaces (e.g. `git status`) - such page names MUST be transparently concatenated with dashes (`-`). For example, the page name:
 
@@ -177,7 +177,7 @@ If multiple versions of a page were found for different platforms, then a client
 Language
 --------
 
-Pages can be written in multiple languages. If a client has access to environment variables, several standard ones exist to specify the language in which a client should operate. If not, then clients MUST make reasonable assumptions based on the information provided by the environment in which they operate (e.g. consulting `navigator.languages` in a browser, etc.). If possible, it is RECOMMENDED to also make language configurable, as to not only rely on the environment. Clients SHOULD therefore offer options to configure or override the language using configuration files or command line arguments (like `-L, --language` suggested in the [arguments section](#Arguments) above).
+Pages can be written in multiple languages. If a client has access to environment variables, several standard ones exist to specify the language in which a client should operate. If not, then clients MUST make reasonable assumptions based on the information provided by the environment in which they operate (e.g. consulting `navigator.languages` in a browser, etc.). If possible, it is RECOMMENDED to also make language configurable, as to not only rely on the environment. Clients SHOULD therefore offer options to configure or override the language using configuration files or command line options (like `-L, --language` as suggested in the [options section](#Options) above).
 
 The [`LANG` environment variable](https://www.gnu.org/software/gettext/manual/html_node/Locale-Environment-Variables.html), if present, MUST be used to determine the language of pages to display.
 
@@ -198,10 +198,11 @@ Changelog
 ---------
 
  - [v1.2, July 3rd 2019](https://github.com/tldr-pages/tldr/blob/master/CLIENT-SPECIFICATION.md) (#3168)
-   - Addition of a new `-L, --language` recommended command-line argument.
+   - Addition of a new `-L, --language` recommended command-line option.
    - Rewording of the language section also encouraging the use of configuration files for language.
    - Shift from BCP-47 to POSIX style locale tags, with consequent **deprecation of previous versions of the spec**.
    - Clearer clarification about the recommended caching functionality.
+   - Correction of the usage of the term "arguments" in the homonym section.
 
  - [v1.1, April 1st 2019](https://github.com/tldr-pages/tldr/blob/fbdc06b7425f92cc0d4fc9a5cfc5860ef017251e/CLIENT-SPECIFICATION.md) (deprecated) (#2859)
    - Clarified platform section.
