@@ -3,7 +3,7 @@
 > The extensible, customizable, self-documenting, real-time display editor.
 > More information: <https://www.gnu.org/software/emacs>.
 
-- Open emacs in console mode (without X window):
+- Start emacs in console mode (without X window):
 
 `emacs -nw`
 
@@ -11,6 +11,6 @@
 
 `emacs {{filename}}`
 
-- Exit emacs:
+- Exit emacs (save buffers and terminate):
 
-`C-x C-c`
+`Ctrl + X, Ctrl + C`
