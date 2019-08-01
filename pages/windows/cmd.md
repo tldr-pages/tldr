@@ -32,4 +32,8 @@
 
 - Force output to use unicode encoding:
 
-`cmd /u`
+`cmd /u`  
+
+- Create file with no text inside, similar to "touch" command on linux distros:  
+
+`cmd:>filename.ext`
