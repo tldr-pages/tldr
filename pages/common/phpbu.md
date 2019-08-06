@@ -15,6 +15,6 @@
 
 `phpbu --limit={{backup_task_name}}`
 
-- Don't actually create the backups:
+- Simulate the actions that would have been performed::
 
 `phpbu --simulate`
