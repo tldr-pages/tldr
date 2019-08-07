@@ -7,7 +7,7 @@
 
 `daemonize {{command}} {{command_arguments}}`
 
-- Run command as a daemon, writing its pid to the specified file:
+- Writing the pid to the specified file:
 
 `daemonize -p {{path/to/pidfile}} {{command}} {{command_arguments}}`
 
