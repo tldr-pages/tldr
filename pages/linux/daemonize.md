@@ -15,6 +15,6 @@
 
 `daemonize -l {{path/to/lockfile}} {{command}} {{command_arguments}}`
 
-- Run command as a daemon, as the specified user:
+- Use the specified user account:
 
 `sudo daemonize -u {{user}} {{command}} {{command_arguments}}`
