@@ -3,7 +3,7 @@
 > Run a command (that does not daemonize itself) as a Unix daemon.
 > More information: <http://software.clapper.org/daemonize/>.
 
-- Run command as a daemon:
+- Run a command as a daemon:
 
 `daemonize {{command}} {{command_arguments}}`
 
