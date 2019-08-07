@@ -11,7 +11,7 @@
 
 `daemonize -p {{path/to/pidfile}} {{command}} {{command_arguments}}`
 
-- Run command as a daemon, using a lockfile to ensure only one instance runs at a time:
+- Use a lock file to ensure that only one instance runs at a time:
 
 `daemonize -l {{path/to/lockfile}} {{command}} {{command_arguments}}`
 
