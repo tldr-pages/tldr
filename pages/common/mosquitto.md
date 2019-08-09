@@ -13,7 +13,7 @@
 
 - Listen on a specific port:
 
-`mosquitto --port {{port_number}}`
+`mosquitto --port {{1883}}`
 
 - Daemonize by forking into the background:
 
