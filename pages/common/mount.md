@@ -22,6 +22,6 @@
 
 `mount {{/my_drive}}`
 
-- Mount a directory to another directory (bind mount) \{ --bind || -B \} {{olddir}} {{newdir}}:
+- Mount a directory to another directory:
 
-`mount --bind {{/tmp}} {{/usr/tmp}}`
+`mount --bind {{olddir}} {{newdir}}`
