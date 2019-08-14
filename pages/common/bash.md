@@ -28,6 +28,10 @@
 
 `bash -s`
 
+- Pass arguments behind to the script (can be combined with `-s` to pass arguments to commands/scripts from `stdin`):
+
+`bash {{file.sh}} --`
+
 - Print the version information of bash (use `echo $BASH_VERSION` to show just the version string):
 
 `bash --version`
