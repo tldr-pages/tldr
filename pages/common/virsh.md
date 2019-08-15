@@ -8,7 +8,7 @@
 
 `virsh connect {{qemu://system}}`
 
-- List inactive and active domains:
+- List all domains:
 
 `virsh list --all`
 
