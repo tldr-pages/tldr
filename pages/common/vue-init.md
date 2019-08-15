@@ -1,7 +1,7 @@
 # vue-init
 
 > Simple tool for scaffolding Vue.js projects.
-> Does not ship with the new `@vue/cli` in default, install `@vue/cli-init` to use this tool
+> Does not ship with the new `@vue/cli` in default, install `@vue/cli-init` to use this tool.
 > Official templates include: webpack, webpack-simple, browserify, browserify-simple, simple.
 > More information: <https://cli.vuejs.org/guide/creating-a-project.html#pulling-2-x-templates-legacy>.
 
