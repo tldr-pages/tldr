@@ -30,7 +30,7 @@
 
 - Stop argument processing bash and pass all the following arguments directly to the command:
 
-`bash {{file.sh}} --`
+`bash -c {{ls}} -- -lA`
 
 - Print the version information of bash (use `echo $BASH_VERSION` to show just the version string):
 
