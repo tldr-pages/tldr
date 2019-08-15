@@ -11,4 +11,4 @@
 
 `vue ui`
 
-See also: vue-init, vue-prototyping
+See also: `vue-init`, `vue-prototyping`
