@@ -28,7 +28,7 @@
 
 `bash -s`
 
-- Stop further argument parsing for bash and pass all the following arguments directly to the command:
+- Stop argument processing bash and pass all the following arguments directly to the command:
 
 `bash {{file.sh}} --`
 
