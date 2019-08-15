@@ -2,7 +2,7 @@
 
 > Manage virsh guest domains.
 > More information: <https://libvirt.org/virshcmdref.html>.
-> NOTE: The GuestID can be the id, name or UUID of the guest.
+> NOTE: 'guest_id' can be the id, name or UUID of the guest.
 
 - Connect to a hypervisor session:
 
@@ -14,7 +14,7 @@
 
 - Dump guest configuration file:
 
-`virsh dumpxl {{GuestID}} > {{guest.xml}}`
+`virsh dumpxml {{guest_id}} > {{guest.xml}}`
 
 - Create a guest from a configuration file:
 
@@ -22,16 +22,17 @@
 
 - Edit a guest's configuration file (editor can be changed with $EDITOR):
 
-`virsh edit {{GuestID}}`
+`virsh edit {{guest_id}}`
 
 - Start/reboot/shutdown/suspend/resume a guest:
 
-`virsh {{command}} {{GuestID}}`
+`virsh {{command}} {{guest_id}}`
 
 - Save the current state of a guest to a file:
 
-`virsh save {{GuestID}} {{filename}}`
+`virsh save {{guest_id}} {{filename}}`
 
 - Delete a running guest:
 
-`virsh detroy {{GuestID}} && virsh undefine {{GuestID}}`
+`virsh detroy {{guest_id}} && virsh undefine {{guest_id}}`
+
