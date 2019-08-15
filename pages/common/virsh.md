@@ -28,7 +28,7 @@
 
 `virsh {{command}} {{GuestID}}`
 
-- Save a guest:
+- Save the current state of a guest to a file:
 
 `virsh save {{GuestID}} {{filename}}`
 
