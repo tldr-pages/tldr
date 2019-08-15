@@ -11,4 +11,10 @@
 
 `vue ui`
 
-See also: `vue-init`, `vue-prototyping`
+- `init` command
+
+`See vue-init`
+
+- Prototyping (`build`, `serve` command)
+
+`See vue-prototyping`
