@@ -1,7 +1,7 @@
 # vue-prototyping
 
-> Prototyping tools provided by `@vue/cli`
-> Require `@vue/cli-service-global`
+> Prototyping tools provided by `@vue/cli`.
+> Require `@vue/cli-service-global`.
 > More information: <https://cli.vuejs.org/guide/prototyping.html>.
 
 - Serve a `.js` or `.vue` file in development mode with zero config:
