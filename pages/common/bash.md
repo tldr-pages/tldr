@@ -28,7 +28,7 @@
 
 `bash -s`
 
-- Pass arguments behind to the script (can be combined with `-s` to pass arguments to commands/scripts from `stdin`):
+- Stop further argument parsing for bash and pass all the following arguments directly to the command:
 
 `bash {{file.sh}} --`
 
