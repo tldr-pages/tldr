@@ -35,4 +35,3 @@
 - Delete a running guest:
 
 `virsh detroy {{guest_id}} && virsh undefine {{guest_id}}`
-
