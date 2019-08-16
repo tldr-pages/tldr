@@ -18,7 +18,7 @@
 
 - Create a guest from a configuration file:
 
-`virsh create {{config_file.xml}}`
+`virsh create {{path/to/config_file.xml}}`
 
 - Edit a guest's configuration file (editor can be changed with $EDITOR):
 
