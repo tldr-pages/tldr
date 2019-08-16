@@ -15,11 +15,11 @@
 
 `tldr {{git checkout}}`
 
-- Update the local cache and rebuild index
+- Update the local cache and rebuild index:
 
 `tldr -u`
 
-- Clear the local cache
+- Clear the local cache:
 
 `tldr -c`
 
