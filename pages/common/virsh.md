@@ -14,7 +14,7 @@
 
 - Dump guest configuration file:
 
-`virsh dumpxml {{guest_id}} > {{guest.xml}}`
+`virsh dumpxml {{guest_id}} > {{path/to/guest.xml}}`
 
 - Create a guest from a configuration file:
 
