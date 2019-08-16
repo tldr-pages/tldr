@@ -1,15 +1,11 @@
 # kubectl
 
 > Command line interface for running commands against Kubernetes clusters.
-> More information: <https://kubernetes.io/docs/tasks/tools/install-kubectl>.
+> More information: <https://kubernetes.io/docs/reference/kubectl/>.
 
-- List all pods in all namespaces:
+- List all information about a resource with more details:
 
-`kubectl get pods --all-namespaces`
-
-- List all pods with more information (such as node name):
-
-`kubectl get pods -o wide`
+`kubectl get {{pod|service|deployment|ingress|...}} -o wide`
 
 - Update specified pod with the label 'unhealthy' and the value 'true':
 
@@ -19,18 +15,22 @@
 
 `kubectl get all`
 
-- Show metrics for all nodes:
+- Display resource (CPU/Memory/Storage) usage of nodes or pods:
 
-`kubectl top node`
-
-- Show metrics for all pods in the default namespace:
-
-`kubectl top pod`
+`kubectl top {{pod|node}}`
 
 - Print the address of the master and cluster services:
 
 `kubectl cluster-info`
 
-- Display an explanation of the specific field:
+- Display an explanation of a specific field:
 
-`kubectl explain pods.spec.containers`
+`kubectl explain {{pods.spec.containers}}`
+
+- Print the logs for a container in a pod or specified resource:
+
+`kubectl logs {{pod_name}}`
+
+- Run command in an existing pod:
+
+`kubectl exec {{pod_name}} -- {{ls /}}`
