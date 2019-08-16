@@ -20,15 +20,15 @@
 
 `curl -d {{'name=bob'}} {{http://example.com/form}}`
 
-- Send a request with an extra header, using a custom HTTP method:
+- 发送带有额外请求头, 使用自定义请求方法的请求:
 
 `curl -H {{'X-My-Header: 123'}} -X {{PUT}} {{http://example.com}}`
 
-- Send data in JSON format, specifying the appropriate content-type header:
+- 发送 JSON 格式的数据, 并附加正确的 `Content-Type` 请求头:
 
 `curl -d {{'{"name":"bob"}'}} -H {{'Content-Type: application/json'}} {{http://example.com/users/1234}}`
 
-- Pass a user name and password for server authentication:
+- 为服务器授权传入用户名和密码:
 
 `curl -u myusername:mypassword {{http://example.com}}`
 
