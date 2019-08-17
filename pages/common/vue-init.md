@@ -2,7 +2,7 @@
 
 > Legacy init command.
 > Require `vue-cli@2` or `@vue/cli` with `@vue/cli-init`.
-> Official templates include: webpack, webpack-simple, browserify, browserify-simple, simple.
+> Official templates include `webpack`, `webpack-simple`, `browserify`, `browserify-simple`, and `simple`.
 > More information: <https://cli.vuejs.org/guide/creating-a-project.html#pulling-2-x-templates-legacy>.
 
 - Create a new vue project:
