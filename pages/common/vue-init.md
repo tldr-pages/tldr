@@ -1,4 +1,4 @@
-# vue-init
+# vue init
 
 > Legacy init command.
 > Require `vue-cli@2` or `@vue/cli` with `@vue/cli-init`.
