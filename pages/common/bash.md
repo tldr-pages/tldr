@@ -28,7 +28,7 @@
 
 `bash -s`
 
-- Stop argument processing bash and pass all the following arguments directly to the command:
+- Stop bash argument processing and pass all subsequent arguments directly to the script being executed:
 
 `bash -c {{ls}} -- -lA`
 
