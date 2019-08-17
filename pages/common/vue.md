@@ -1,4 +1,4 @@
-# vue-cli
+# vue
 
 > Multi-purpose CLI for Vue.js.
 > More information: <https://cli.vuejs.org>.
