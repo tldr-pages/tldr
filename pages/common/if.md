@@ -18,7 +18,7 @@
 
 `if [[ -z $GIT_BRANCH ]]; then echo "true"; else echo "false"; fi`
 
-- If file exists:
+- Test if a file exists:
 
 `if [[ -e {{filename}} ]]; then echo "true"; else echo "false"; fi`
 
