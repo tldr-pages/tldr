@@ -14,7 +14,7 @@
 
 `help test`
 
-- If given variable is empty:
+- Test if a given variable is empty:
 
 `if [[ -z $GIT_BRANCH ]]; then echo "true"; else echo "false"; fi`
 
