@@ -23,4 +23,3 @@
 - Automatically merge the old branch and any uncommitted changes into the new branch:
 
 `git switch --merge {{branch_name}}`
-
