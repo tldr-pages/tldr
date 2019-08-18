@@ -12,4 +12,4 @@
 
 - Remove from the 3rd column till the 5th column of each line:
 
-`colrm {3 5}}`
+`colrm {{3 5}}`
