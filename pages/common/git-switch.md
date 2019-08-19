@@ -14,9 +14,9 @@
 
 - Create a new branch based on an existing commit:
 
-`git switch --create {{branch_name}} {{start_point}}`
+`git switch --create {{branch_name}} {{commit}}`
 
-- Also update all submodules:
+- Update all submodules to match the target branch:
 
 `git switch --recurse-submodules`
 
