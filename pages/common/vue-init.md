@@ -4,7 +4,7 @@
 > Official templates include `webpack`, `webpack-simple`, `browserify`, `browserify-simple`, and `simple`.
 > More information: <https://cli.vuejs.org/guide/creating-a-project.html#pulling-2-x-templates-legacy>.
 
-- Create a new vue project:
+- Create a new Vue.js project:
 
 `vue init {{template}} {{project_name}}`
 
