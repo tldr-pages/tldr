@@ -18,8 +18,8 @@
 
 - Update all submodules to match the target branch:
 
-`git switch --recurse-submodules`
+`git switch --recurse-submodules {{branch_name}}`
 
-- Automatically merge the old branch and any uncommitted changes into the new branch:
+- Automatically merge the current branch and any uncommitted changes into the new branch:
 
 `git switch --merge {{branch_name}}`
