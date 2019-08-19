@@ -12,6 +12,6 @@
 
 `vue init {{path/to/template_directory}} {{project_name}}`
 
-- Create project using template on GitHub:
+- Create a project using a template on GitHub:
 
 `vue init {{username}}/{{repo}} {{project_name}}`
