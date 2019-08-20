@@ -4,14 +4,14 @@
 > See also `git checkout`.
 > More information: <https://git-scm.com/docs/git-restore/>.
 
-- Restore a file that was accidentally deleted:
+- Restore a file from the current HEAD that was previously deleted:
 
 `git restore {{path/to/file}}`
 
-- Restore a file to an earlier version:
+- Restore a file to a version from a different commit:
 
 `git restore --source {{commit}} {{path/to/file}}`
 
-- Restore all the files in the current working tree to the last committed version:
+- Undo any uncommitted changes to tracked files, reverting to the current HEAD:
 
 `git restore .`
