@@ -31,6 +31,6 @@
 
 `lsof +D {{path/to/directory}}`
 
-- Find the process that is listening on a local internet port:
+- Find the process that is listening on a local TCP port:
 
 `lsof -iTCP:{{port}} -sTCP:LISTEN`
