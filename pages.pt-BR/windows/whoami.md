@@ -3,7 +3,7 @@
 > Mostra detalhes sobre o usuário atual.
 > Mais informações: <https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/whoami>.
 
-- Mostra o nome de usuário do usário atual:
+Mostra o nome de usuário do usuário atual:
 
 `whoami`
 
