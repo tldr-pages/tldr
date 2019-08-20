@@ -16,7 +16,7 @@
 
 `git switch --create {{branch_name}} {{commit}}`
 
-- Switch to a branch and update all submodules to match the target branch:
+- Switch to a branch and update all submodules to match:
 
 `git switch --recurse-submodules {{branch_name}}`
 
