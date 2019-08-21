@@ -1,7 +1,7 @@
 # mkdir
 
 > Criar um diretório.
-> More information: <https://docs.microsoft.com/pt-br/windows-server/administration/windows-commands/mkdir>.
+> Mais informações: <https://docs.microsoft.com/pt-br/windows-server/administration/windows-commands/mkdir>.
 
 - Criar um diretório:
 
