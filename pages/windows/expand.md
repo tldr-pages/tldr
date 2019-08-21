@@ -1,6 +1,7 @@
 # expand
 
 > Uncompress one or more Windows Cabinet files.
+> More information: <https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/expand>.
 
 - Uncompress a single-file Cabinet file to the specified directory:
 

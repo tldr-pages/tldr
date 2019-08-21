@@ -1,6 +1,7 @@
 # attrib
 
 > Displays or changes file and directory attributes.
+> More information: <https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/attrib>.
 
 - Display the attributes of the files in the current directory:
 

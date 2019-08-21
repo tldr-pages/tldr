@@ -1,6 +1,7 @@
 # fondue
 
 > A command line installer for optional Windows features.
+> More information: <https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/fondue>.
 
 - Enable a specific Windows feature:
 

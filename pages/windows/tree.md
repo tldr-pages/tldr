@@ -1,6 +1,7 @@
 # tree
 
 > Display a graphical tree of the directory structure for a path.
+> More information: <https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/tree>.
 
 - Display the tree for the current directory:
 

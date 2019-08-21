@@ -1,6 +1,7 @@
 # mklink
 
 > Create symbolic links.
+> More information: <https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/mklink>.
 
 - Create a symbolic link to a file:
 
