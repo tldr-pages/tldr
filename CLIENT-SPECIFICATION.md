@@ -185,6 +185,16 @@ The [`LANGUAGE` environment variable](https://www.gnu.org/software/gettext/manua
 
 The [`LC_MESSAGES` environment variable](https://www.gnu.org/software/gettext/manual/html_node/Locale-Environment-Variables.html) MAY be present. If the client itself is localized and this environment variable is present, it MUST use its value in order to determine the language in which interface text is shown (separately from the language used for pages). In absence of `LC_MESSAGES`, then `LANG` and `LANGUAGE` MUST be used for this purpose instead.
 
+**Note that** it is highly RECOMMENDED to give precedence to the platform first, and then the language. In other words, look for a platform under each language, before falling back to the next preferred language. This ensures a meaningful and correct page resolution.
+
+Here's an example of how the lookup should be done on `linux` having set `LANGUAGE="it:fr:en"`:
+
+    1. pages.it/linux/some-page.md  -> does not exist
+    2. pages.fr/linux/some-page.md  -> does not exist
+    3. pages/linux/some-page.md     -> does not exist
+    4. pages.it/common/some-page.md -> does not exist
+    5. pages.fr/common/some-page.md -> does not exist
+    6. pages/common/some-page.md    -> FOUND!
 
 Caching
 -------
