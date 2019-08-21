@@ -24,4 +24,4 @@
 
 - Mount a directory to another directory:
 
-`mount --bind {{olddir}} {{newdir}}`
+`mount --bind {{path/to/old_dir}} {{path/to/new_dir}}`
