@@ -10,6 +10,6 @@
 
 `inxi -Fz`
 
-- Print distro repository information:
+- Print information about the distribution's repository:
 
 `inxi -r`
