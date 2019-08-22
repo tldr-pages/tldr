@@ -1,6 +1,7 @@
 # repair-bde
 
 > Attempt to repair or decrypt a damaged BitLocker-encrypted volume.
+> More information: <https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/repair-bde>.
 
 - Attempt to repair a specified volume:
 

@@ -2,6 +2,7 @@
 
 > Return information about one or more users on a specified system.
 > The remote system must be running the Finger service.
+> More information: <https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/finger>.
 
 - Display information about a specific user:
 

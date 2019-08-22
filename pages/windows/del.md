@@ -1,6 +1,7 @@
 # del
 
 > Delete one or more files.
+> More information: <https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/del>.
 
 - Delete one or more space-separated files or patterns:
 

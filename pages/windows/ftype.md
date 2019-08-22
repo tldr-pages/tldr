@@ -1,6 +1,7 @@
 # ftype
 
 > Display or modify file types used for file extension association.
+> More information: <https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/ftype>.
 
 - Display a list of all file types:
 

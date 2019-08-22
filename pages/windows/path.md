@@ -1,6 +1,7 @@
 # path
 
 > Display or set the search path for executable files.
+> More information: <https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/path>.
 
 - Display the current path:
 
