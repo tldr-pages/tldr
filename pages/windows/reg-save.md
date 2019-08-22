@@ -1,6 +1,7 @@
 # reg save
 
 > Save a registry key, its sub keys and values to a file.
+> More information: <https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/reg-save>.
 
 - Save a registry key, its sub keys and values to a specific file:
 

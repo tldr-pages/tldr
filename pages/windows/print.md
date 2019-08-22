@@ -1,6 +1,7 @@
 # print
 
 > Print a text file to a printer.
+> More information: <https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/print>.
 
 - Print a text file to the default printer:
 

@@ -1,6 +1,7 @@
 # clip
 
 > Copy input content to the Windows clipboard.
+> More information: <https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/clip>.
 
 - Pipe command line output to the Windows clipboard:
 

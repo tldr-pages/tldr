@@ -1,6 +1,7 @@
 # dir
 
 > Listar os conteúdos de um diretório.
+> Mais informações: <https://docs.microsoft.com/pt-br/windows-server/administration/windows-commands/dir>.
 
 - Mostrar o conteúdo do diretório atual:
 
