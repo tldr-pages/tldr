@@ -22,4 +22,4 @@
 
 - Quick-add an event to your calendar:
 
-`gcalcli --calendar {{calendar name}} quick "{{mm/dd}} {{HH:MM}} {{event name}}"`
+`gcalcli --calendar {{calendar_name}} quick "{{mm/dd}} {{HH:MM}} {{event_name}}"`
