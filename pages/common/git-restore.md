@@ -4,7 +4,7 @@
 > See also `git checkout`.
 > More information: <https://git-scm.com/docs/git-restore/>.
 
-- Restore a file from the current HEAD that was previously deleted:
+- Restore a deleted file from the contents of the current commit (HEAD):
 
 `git restore {{path/to/file}}`
 
