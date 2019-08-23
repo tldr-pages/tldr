@@ -9,7 +9,7 @@
 
 - List events from a specific one of your Google Calendars:
 
-`gcalcli --calendar {{calendar name}} agenda`
+`gcalcli --calendar {{calendar_name}} agenda`
 
 - Display an ASCII calendar of events by week:
 
