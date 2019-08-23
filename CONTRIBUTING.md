@@ -75,21 +75,19 @@ refer to the [style guide](contributing-guides/style-guide.md).
 
 Translation of pages can be done by simply creating the corresponding page within the appropriate language-specific directory, creating that as well if it does not already exist.
 
-Language specific directories must follow the pattern `pages.<language_tag>`, where `<language_tag>` is a [BCP 47](https://tools.ietf.org/html/bcp47) conforming tag in the form of `<language>[-<region>]`, where:
+Language specific directories must follow the pattern `pages.<locale>`, where `<locale>` is a [POSIX Locale Name](https://www.gnu.org/software/gettext/manual/html_node/Locale-Names.html#Locale-Names) in the form of `<language>[_<country>]`, where:
 
  - `<language>` is the shortest [ISO 639](https://en.wikipedia.org/wiki/ISO_639) language code for the chosen language (see [here](https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes) for a complete list).
- - `<region>` is the two-letter [ISO 3166-1](https://en.wikipedia.org/wiki/ISO_3166-1) region code for the chosen region (see [here](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) for a complete list).
+ - `<country>` is the two-letter [ISO 3166-1](https://en.wikipedia.org/wiki/ISO_3166-1) country code for the chosen region (see [here](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) for a complete list).
 
-The `<region>` code is optional and should only be added when it is needed to distinguish between an already existing `<language>` and one of its regional dialects. As an example, both `fr-FR` and `fr-BE` should fall under the same `pages.fr` directory, since there virtually is no difference in writing between standard French and Belgian French.
+The `<country>` code is optional and should only be added when it is needed. In other words, only when there is a valid reason to distinguish between a language (`ll`) and its regional dialects (`ll_CC1`, `ll_CC2`, etc.). As an example, both `fr_FR` and `fr_BE` should fall under the same `pages.fr` directory, since there virtually is no difference in writing between standard French and Belgian French.
 
 Some examples of valid BCP 47 tags:
 
  - French: `fr`.
  - Chinese: `zh`.
- - Chinese (Singapore): `zh-SG`.
- - Portuguese (Brazil): `pt-BR`.
-
-You can check the validity of BCP 47 tags [here](http://schneegans.de/lv/).
+ - Chinese (Singapore): `zh_SG`.
+ - Portuguese (Brazil): `pt_BR`.
 
 ### Default language for newly added pages
 
