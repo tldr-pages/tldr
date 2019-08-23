@@ -8,7 +8,11 @@
 
 `gcalcli agenda`
 
-- List events from a specific one of your Google Calendars:
+- Show events starting from or between specific dates (also takes relative dates e.g. "tomorrow"):
+
+`gcalcli agenda {{mm/dd}} [{{mm/dd}}]`
+
+- List events from a specific calendar:
 
 `gcalcli --calendar {{calendar_name}} agenda`
 
@@ -23,3 +27,7 @@
 - Quick-add an event to your calendar:
 
 `gcalcli --calendar {{calendar_name}} quick "{{mm/dd}} {{HH:MM}} {{event_name}}"`
+
+- Add an event to calendar. Triggers interactive prompt:
+
+`gcalcli --calendar "{{calendar_name}}" add`
