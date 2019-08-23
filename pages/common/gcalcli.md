@@ -1,7 +1,8 @@
 # gcalcli
 
 > Command line tool to interact with Google Calendar.
-> First time you run it launches request for API authorization.
+> Requests Google API authorization upon first launch.
+> More information: <https://github.com/insanum/gcalcli>.
 
 - List your events for all your calendars over the next 7 days:
 
