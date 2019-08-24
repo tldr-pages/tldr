@@ -32,6 +32,6 @@
 
 `wget -c {{https://example.com}}`
 
-- 将指定文件中所有列出的URL下载到一个地址中:
+- 将指定文件中所有列出的URL下载到一个目录中:
 
 `wget -P {{path/to/directory}} -i {{URLs.txt}}`
