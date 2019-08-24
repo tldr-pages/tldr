@@ -32,6 +32,6 @@
 
 `curl -u myusername:mypassword {{http://example.com}}`
 
-- Pass client certificate and key for a resource, skipping certificate validation:
+- 为指定资源使用客户端证书和密钥，并且跳过证书验证:
 
 `curl --cert {{client.pem}} --key {{key.pem}} --insecure {{https://example.com}}`
