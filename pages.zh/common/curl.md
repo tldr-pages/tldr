@@ -28,7 +28,7 @@
 
 `curl -d {{'{"name":"bob"}'}} -H {{'Content-Type: application/json'}} {{http://example.com/users/1234}}`
 
-- 为服务器授权传入用户名和密码:
+- 使用用户名和密码，授权访问服务器:
 
 `curl -u myusername:mypassword {{http://example.com}}`
 
