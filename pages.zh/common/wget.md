@@ -24,7 +24,7 @@
 
 `wget --limit-rate={{300k}} --tries={{100}} {{https://example.com/somepath/}}`
 
-- Download a file from an HTTP server using Basic Auth (also works for FTP):
+- 使用基本授权来从HTTP/FTP服务器中下载文件:
 
 `wget --user={{username}} --password={{password}} {{https://example.com}}`
 
