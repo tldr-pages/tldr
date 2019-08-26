@@ -82,7 +82,7 @@ Language specific directories must follow the pattern `pages.<locale>`, where `<
 
 The `<country>` code is optional and should only be added when it is needed. In other words, only when there is a valid reason to distinguish between a language (`ll`) and its regional dialects (`ll_CC1`, `ll_CC2`, etc.). As an example, both `fr_FR` and `fr_BE` should fall under the same `pages.fr` directory, since there virtually is no difference in writing between standard French and Belgian French.
 
-Some examples of valid BCP 47 tags:
+Some examples of valid locale tags:
 
  - French: `fr`.
  - Chinese: `zh`.
