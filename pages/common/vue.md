@@ -1,17 +1,12 @@
-# vue-cli
+# vue
 
-> Simple CLI for scaffolding Vue.js projects.
-> Official templates include: webpack, webpack-simple, browserify, browserify-simple, simple.
+> Multi-purpose CLI for Vue.js.
 > More information: <https://cli.vuejs.org>.
 
-- Create a new vue project:
+- Create a new vue project interactively:
 
-`vue init {{template}} {{project_name}}`
+`vue create {{project_name}}`
 
-- Create a new project with a local template:
+- Create a new project with web UI:
 
-`vue init {{path/to/template_directory}} {{project_name}}`
-
-- Create project using template on GitHub:
-
-`vue init {{username}}/{{repo}} {{project_name}}`
+`vue ui`
