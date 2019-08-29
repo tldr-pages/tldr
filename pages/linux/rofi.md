@@ -1,6 +1,7 @@
 # rofi
 
 > An application launcher and window switcher.
+> More Information: <https://github.com/davatorium/rofi>.
 
 - Show the list of apps:
 
@@ -13,3 +14,7 @@
 - Switch between windows:
 
 `rofi -show window`
+
+- Pipe a list of items to stdin and print the selected item to stdout:
+
+`printf "{{Choice1\nChoice2\nChoice3}}" | rofi -dmenu`
