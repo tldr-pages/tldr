@@ -19,7 +19,7 @@
 
 `act -a {{action_id}}`
 
-- Do not actually run the actions (dry-run):
+- Do not actually run the actions (i.e. dry run):
 
 `act -n`
 
