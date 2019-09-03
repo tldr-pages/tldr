@@ -23,6 +23,6 @@
 
 `act -n`
 
-- Enable verbose logging:
+- Show verbose logs:
 
 `act -v`
