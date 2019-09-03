@@ -7,6 +7,10 @@
 
 `jest`
 
+- Run tests from the test files that match the regex patterns:
+
+`jest {{test_file1}} {{test_file2}}`
+
 - Run tests whose names match the regex pattern:
 
 `jest -t {{spec_name}}`
