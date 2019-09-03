@@ -13,7 +13,7 @@
 
 - Run tests related to uncommitted files:
 
-`jest --onlyChanged`
+`jest -o`
 
 - Watch files for changes and re-run related tests:
 
