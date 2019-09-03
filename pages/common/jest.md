@@ -7,15 +7,15 @@
 
 `jest`
 
-- Run only tests with a name that matches the regex pattern:
+- Run tests whose names match the regex pattern:
 
 `jest -t {{spec_name}}`
 
-- Run only tests relating to uncommitted files:
+- Run tests related to uncommitted files:
 
 `jest --onlyChanged`
 
-- Watch files for changes and rerun related tests:
+- Watch files for changes and re-run related tests:
 
 `jest --watch`
 
