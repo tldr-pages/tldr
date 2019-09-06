@@ -13,11 +13,11 @@
 
 - Run tests whose names match the regex pattern:
 
-`jest -t {{spec_name}}`
+`jest --testNamePattern {{spec_name}}`
 
 - Run tests related to uncommitted files:
 
-`jest -o`
+`jest --onlyChanged`
 
 - Watch files for changes and re-run related tests:
 
