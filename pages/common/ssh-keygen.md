@@ -1,6 +1,6 @@
 # ssh-keygen
 
-> Generate ssh keys user for authentication, password-less logins, and other things.
+> Generate ssh keys used for authentication, password-less logins, and other things.
 
 - Generate a key interactively:
 
