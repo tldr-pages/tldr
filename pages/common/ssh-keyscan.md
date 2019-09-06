@@ -12,4 +12,4 @@
 
 - Retrieve certain types of public ssh keys of a remote host:
 
-`ssh-keyscan -t rsa,dsa,ecdsa,ed25519 {{host}}`
+`ssh-keyscan -t {{rsa,dsa,ecdsa,ed25519}} {{host}}`
