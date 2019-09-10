@@ -1,6 +1,7 @@
 #  firefox
 
 > A free and open source web browser.
+> More information at https://developer.mozilla.org/en-US/docs/Mozilla/Command_Line_Options
 
 - Open firefox at www.duckduckgo.com:
 
