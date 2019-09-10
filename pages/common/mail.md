@@ -15,10 +15,6 @@
 
 `cat {{path/to/filename.txt}} | mail --subject={{"$HOSTNAME path/to/filename.txt"}} {{to_user@example.com}}`
 
-- Send a SMS remainder after 15 minutes:
-
-`echo 'mail --subject={{"Call your wife"}} {{13125551234@mobile_carrier.net}}' | at now+15min`
-
 - Send a tar.gz file as an attachment:
 
 `tar cvzf - {{path/to/directory1 path/to/directory2}} | uuencode {{data.tar.gz}} | mail --subject={{"subject line"}} {{to_user@example.com}}`
