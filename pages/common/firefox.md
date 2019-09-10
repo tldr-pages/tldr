@@ -8,7 +8,7 @@
 `firefox http://www.duckduckgo.com`
 
 - Open it at a new window:
- 
+
 `firefox -new-window http://www.duckduckgo.com`
 
 - Go incognito:
