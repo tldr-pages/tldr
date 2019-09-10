@@ -15,14 +15,6 @@
 
 `cat {{path/to/filename.txt}} | mail --subject={{"$HOSTNAME path/to/filename.txt"}} {{to_user@example.com}}`
 
-- Send an email at the end of a long running process:
-
-`{{command}} ; echo {{"job done"}} | mail --subject={{"job done"}} {{to_user@example.com}}`
-
-- Shell function to send a notification email that contains output of a command:
-
-`notifyemail() { echo "$*" | mail --subject={{"$*"}} {{to_user@example.com; }}}`
-
 - Send a SMS remainder after 15 minutes:
 
 `echo 'mail --subject={{"Call your wife"}} {{13125551234@mobile_carrier.net}}' | at now+15min`
