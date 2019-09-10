@@ -18,3 +18,7 @@
 - List all Docker images not used by any container:
 
 `docker images --filter dangling=true`
+
+- Format the output using a Go template:
+
+`docker images --format "{{.Repository}}"`
