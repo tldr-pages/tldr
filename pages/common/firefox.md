@@ -5,13 +5,13 @@
 
 - Open firefox at www.duckduckgo.com:
 
-`firefox {{http://www.duckduckgo.com}}`
+`firefox {{https://www.duckduckgo.com}}`
 
 - Open it at a new window:
 
-`firefox -new-window {{http://www.duckduckgo.com}}`
+`firefox -new-window {{https://www.duckduckgo.com}}`
 
-- Go incognito:
+- Open an incognito window:
 
 `firefox -private-window`
 
@@ -19,6 +19,6 @@
 
 `firefox -search {{wikipedia}}`
 
-- Launch firefox with no extensions:
+- Launch firefox without extensions:
 
 `firefox -safe-mode`
