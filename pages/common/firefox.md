@@ -5,11 +5,11 @@
 
 - Open firefox at www.duckduckgo.com:
 
-`firefox http://www.duckduckgo.com`
+`firefox {{http://www.duckduckgo.com}}`
 
 - Open it at a new window:
 
-`firefox -new-window http://www.duckduckgo.com`
+`firefox -new-window {{http://www.duckduckgo.com}}`
 
 - Go incognito:
 
@@ -17,7 +17,7 @@
 
 - Search 'wikipedia' on your default search engine:
 
-`firefox -search wikipedia`
+`firefox -search {{wikipedia}}`
 
 - Launch firefox with no extensions:
 
