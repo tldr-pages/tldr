@@ -1,13 +1,13 @@
 # nnn
 
-> Interactive terminal file manager and disk usage nalyzer.
+> Interactive terminal file manager and disk usage analyzer.
 > More information: <https://github.com/jarun/nnn>.
 
 - Open the current directory (or specify one as the first argument):
 
 `nnn`
 
-- Open an existing bookmark:
+- Open an existing bookmark (defined in the `NNN_BMS` environment variable):
 
 `nnn -b {{bookmark_name}}`
 
@@ -23,9 +23,9 @@
 
 `nnn -l`
 
-- Copy selected file path to file_out, or stdout if file_out='-':
+- Copy the selected file path to a specific output file (stdout if output file is `-`):
 
-`nnn -p {{file_out}}`
+`nnn -p {{path/to/output_file}}`
 
 - Use substring matching for filters instead of regex:
 
