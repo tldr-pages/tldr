@@ -23,7 +23,7 @@
 
 `firefox --safe-mode`
 
-- Headlessly take a screenshot of a web page:
+- Take a screenshot of a web page in headless mode:
 
 `firefox --headless --screenshot {{path/to/output_file.png}}  {{https://example.com/}}`
 
