@@ -1,8 +1,9 @@
 # nkf
 
+> Network kanji filter
 > Convert character code and new line code.
 
-- Stdout utf-8 code:
+- Convert to UTF-8 encoding:
 
 `nkf -w {{path/to/file.txt}}`
 
@@ -10,7 +11,7 @@
 
 `nkf -s {{path/to/file.txt}}`
 
-- Overwrite as utf-8 code:
+- Convert to UTF-8 encoding and overwrite the file:
 
 `nkf -w --overwrite {{path/to/file.txt}}`
 
