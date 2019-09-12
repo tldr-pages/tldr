@@ -1,6 +1,6 @@
 # nkf
 
-> Network kanji filter
+> Network kanji filter.
 > Converts kanji code from one encoding to another.
 
 - Convert to UTF-8 encoding:
