@@ -33,4 +33,4 @@
 
 - Run a regular expression on stdin, printing out first capture group for each line:
 
-`echo "$INPUT" | perl -nle 'if (/.*({{foo}}).*/) {print "$1"; last;}'`
+`cat {{path/to/input_file}} | perl -nle 'if (/.*({{foo}}).*/) {print "$1"; last;}'`
