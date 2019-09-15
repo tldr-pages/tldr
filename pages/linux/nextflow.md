@@ -1,6 +1,6 @@
 # nextflow
 
-> Tool for running computational pipelines. https://www.nextflow.io/
+> Tool for running computational pipelines <https://www.nextflow.io>.
 > Mostly used for bioinformatics research workflows.
 
 - Run a pipeline, use cached results from previous runs:
