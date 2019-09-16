@@ -14,6 +14,6 @@
 
 `df {{path/to/file_or_directory}}`
 
-- Display statistics on the number of free inodes.
+- Display statistics on the number of free inodes:
 
 `df -i`
