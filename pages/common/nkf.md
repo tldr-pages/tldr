@@ -7,7 +7,7 @@
 
 `nkf -w {{path/to/file.txt}}`
 
-- Stdout shift_jis code:
+- Convert to SHIFT_JIS encoding:
 
 `nkf -s {{path/to/file.txt}}`
 
