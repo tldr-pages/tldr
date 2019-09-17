@@ -5,4 +5,3 @@
 - Capture system call on ls command:
 
 `LD_PRELOAD=</path/to/shared_object.so> /bin/ls`
-
