@@ -19,6 +19,6 @@
 
 `valet link app-name`
 
-- Share a project via Ngrok tunnel:
+- Share a project via an Ngrok tunnel:
 
 `valet share`
