@@ -7,11 +7,11 @@
 
 `valet start`
 
-- Register your current working directory as a path that Valet should search for sites:
+- Register the current working directory as a path that Valet should search for sites:
 
 `valet park`
 
-- View your 'parked' paths:
+- View 'parked' paths:
 
 `valet paths`
 
