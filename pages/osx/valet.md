@@ -1,6 +1,6 @@
 # valet
 
-> A minimalist Laravel development environment that allows hosting sites via local tunnels on http://<example>.test
+> A minimalist Laravel development environment that allows hosting sites via local tunnels on `http://<example>.test`.
 > More information: <https://laravel.com/docs/5.8/valet>.
 
 - Start the valet daemon:
