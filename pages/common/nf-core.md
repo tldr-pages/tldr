@@ -23,6 +23,6 @@
 
 `nf-core launch {{pipelinename}}`
 
-- Download an existing pipeline  (e.g. {pipelinename}):
+- Download an nf-core pipeline for offline use:
 
 `nf-core download {{pipelinename}}`
