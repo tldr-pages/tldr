@@ -13,7 +13,7 @@
 
 - Lint the pipeline code:
 
-`nf-core lint {path}`
+`nf-core lint {{/path/to/directory}}`
 
 - Bump software versions in pipeline recipe:
 
