@@ -19,7 +19,7 @@
 
 `nf-core bump-version {{/path/to/directory}} {{new_version}}`
 
-- Launch an existing pipeline (e.g. {pipelinename}):
+- Launch an nf-core pipeline:
 
 `nf-core launch {{pipelinename}}`
 
