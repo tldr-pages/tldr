@@ -21,7 +21,7 @@
 
 - Launch an nf-core pipeline:
 
-`nf-core launch {{pipelinename}}`
+`nf-core launch {{pipeline_name}}`
 
 - Download an nf-core pipeline for offline use:
 
