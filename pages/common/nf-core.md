@@ -17,7 +17,7 @@
 
 - Bump software versions in pipeline recipe:
 
-`nf-core bump-version`
+`nf-core bump-version {{/path/to/directory}} {{new_version}}`
 
 - Launch an existing pipeline (e.g. {pipelinename}):
 
