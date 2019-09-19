@@ -25,4 +25,4 @@
 
 - Download an nf-core pipeline for offline use:
 
-`nf-core download {{pipelinename}}`
+`nf-core download {{pipeline_name}}`
