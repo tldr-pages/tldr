@@ -1,0 +1,28 @@
+# nf-core
+
+> The nf-core framework tools, to create, check and develop best-practice guidelines for Nextflow.
+> More information: <https://nf-co.re/tools>.
+
+- List existing pipelines on nf-core:
+
+`nf-core list`
+
+- Create a new pipeline skeleton:
+
+`nf-core create`
+
+- Lint the pipeline code:
+
+`nf-core lint {path}`
+
+- Bump software versions in pipeline recipe:
+
+`nf-core bump-version`
+
+- Launch an existing pipeline (e.g. {pipelinename}):
+
+`nf-core launch {{pipelinename}}`
+
+- Download an existing pipeline  (e.g. {pipelinename}):
+
+`nf-core download {{pipelinename}}`
