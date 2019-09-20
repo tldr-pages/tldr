@@ -14,6 +14,6 @@
 
 `nm -a {{file.o}}`
 
-- Demangle C++ symbols:
+- Demangle C++ symbols (make them readable):
 
-`nm {{file.o}} | c++filt`
+`nm -demangle {{file.o}}`
