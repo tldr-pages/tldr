@@ -3,7 +3,7 @@
 > A free and open source web browser.
 > More information: <https://developer.mozilla.org/en-US/docs/Mozilla/Command_Line_Options>.
 
-- Open Firefox and load www.duckduckgo.com:
+- Launch Firefox and open a web page:
 
 `firefox {{https://www.duckduckgo.com}}`
 
@@ -19,7 +19,7 @@
 
 `firefox --search "{{wikipedia}}"`
 
-- Open Firefox in safe mode, with all extensions disabled:
+- Launch Firefox in safe mode, with all extensions disabled:
 
 `firefox --safe-mode`
 
