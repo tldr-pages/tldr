@@ -15,7 +15,7 @@
 
 `firefox --private-window`
 
-- Open Firefox and search for 'wikipedia' using the default search engine:
+- Search for "wikipedia" using the default search engine:
 
 `firefox --search "{{wikipedia}}"`
 
