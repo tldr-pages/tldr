@@ -19,7 +19,7 @@
 
 `brew cask outdated`
 
-- Upgrade an installed cask to its latest version:
+- Upgrade an installed cask (if no cask name is given, all installed casks are upgraded):
 
 `brew cask upgrade {{cask_name}}`
 
