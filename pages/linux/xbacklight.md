@@ -1,6 +1,6 @@
 # xbacklight
 
-> Utility to adjust backlight brightness using RandR extension.
+> Utility to adjust backlight brightness using the RandR extension.
 > More information: <https://gitlab.freedesktop.org/xorg/app/xbacklight>.
 
 - Get the current screen brightness as a percentage:
