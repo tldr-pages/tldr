@@ -13,11 +13,11 @@
 
 - Lint the pipeline code:
 
-`nf-core lint {{/path/to/directory}}`
+`nf-core lint {{path/to/directory}}`
 
 - Bump software versions in pipeline recipe:
 
-`nf-core bump-version {{/path/to/directory}} {{new_version}}`
+`nf-core bump-version {{path/to/directory}} {{new_version}}`
 
 - Launch an nf-core pipeline:
 
