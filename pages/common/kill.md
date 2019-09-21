@@ -13,7 +13,7 @@
 
 - Terminate a background job using % and job number:
 
-`kill %{{JOB}}`
+`kill %{{job_id}}`
 
 - Terminate a program using the SIGHUP (hang up) signal. Many daemons will reload instead of terminating:
 
