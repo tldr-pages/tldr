@@ -11,7 +11,7 @@
 
 `kill -l`
 
-- Terminate a background job using % and job number:
+- Terminate a background job:
 
 `kill %{{job_id}}`
 
