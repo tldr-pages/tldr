@@ -11,6 +11,10 @@
 
 `kill -l`
 
+- Terminate a background job:
+
+`kill %{{job_id}}`
+
 - Terminate a program using the SIGHUP (hang up) signal. Many daemons will reload instead of terminating:
 
 `kill -{{1|HUP}} {{process_id}}`
