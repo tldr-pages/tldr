@@ -30,3 +30,7 @@
 - Run a multi-line find/replace expression on a file, and save the result in another file:
 
 `perl -p0e 's/{{foo\nbar}}/{{foobar}}/g' {{input_file}} > {{output_file}}`
+
+- Run a regular expression on `stdin`, printing out first capture group for each line:
+
+`cat {{path/to/input_file}} | perl -nle 'if (/.*({{foo}}).*/) {print "$1"; last;}'`
