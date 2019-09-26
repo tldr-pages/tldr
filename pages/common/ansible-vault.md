@@ -12,11 +12,7 @@
 
 `ansible-vault create --vault-password-file={{password_file}} {{vault_file}}`
 
-- Encrypt existing file, using password prompt:
-
-`ansible-vault encrypt {{vault_file}}`
-
-- Encrypt existing file, using password file:
+- Encrypt existing file, using password file (optional):
 
 `ansible-vault encrypt --vault-password-file={{password_file}} {{vault_file}}`
 
@@ -24,21 +20,9 @@
 
 `ansible-vault encrypt_string` 
 
-- Encrypt a string with the string to encrypt and password file as an argument:
-
-`ansible-vault encrypt_string --vault-password-file={{password_file}}'{{string_to_encrypt}}'`
-
-- View an encrypted file, using password prompt:
-
-`ansible-vault view {{vault_file}}`
-
 - View an encrypted file, using password file to decrypt:
 
 `ansible-vault view --vault-password-file={{password_file}} {{vault_file}}`
-
-- Rekey already encrypted file with new password through prompts:
-
-`ansible-vault rekey {{vault_file}}`
 
 - Rekey already encrypted vault file with new password file:
 
