@@ -1,6 +1,6 @@
 # runuser
 
-> Run commands as a specific user and group IDs
+> Run commands as a specific user and group IDs.
 > Do not ask for password. Only useful when run as root user.
 
 - Run 'command' under substitute 'user':
@@ -15,11 +15,10 @@
 
 `runuser {{user}} -l`
 
-- Specific a 'shell' for running or login instead of default shell 
+- Specific a 'shell' for running or login instead of default shell:
 
 `runuser {{user}} -l -s /bin/sh`
 
-- Preserve the entire environment of root (if running by root). Ignore when having option `--login`
+- Preserve the entire environment of root (if running by root). Ignore when having option `--login`:
 
 `runuser {{user}} --preserve-environment -c '{{command}}'`
-
