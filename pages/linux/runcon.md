@@ -17,4 +17,4 @@
 
 - Specify the full context to run a program or script with:
 
-`runcon USER_TYPE_u:ROLE_TYPE_r:CONTEXT_TYPE_t {{command}}
+`runcon USER_TYPE_u:ROLE_TYPE_r:CONTEXT_TYPE_t {{command}}`
