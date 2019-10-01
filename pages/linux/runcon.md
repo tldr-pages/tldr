@@ -1,4 +1,4 @@
-0# runcon
+# runcon
 
 > Run a program in a different SELinux security context.
 > With neither CONTEXT nor COMMAND, print the current security context.
