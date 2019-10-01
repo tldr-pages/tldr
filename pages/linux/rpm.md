@@ -10,6 +10,10 @@
 
 `rpm -qa '{{mariadb*}}'`
 
+- Forcibly install a package regardless of currently installed versions:
+
+`rpm -U {{some.rpm}} --force`
+
 - Identify owner of a file and show version of the package:
 
 `rpm -qf {{/etc/postfix/main.cf}}`
