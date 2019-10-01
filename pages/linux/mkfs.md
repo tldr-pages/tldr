@@ -1,7 +1,7 @@
 # mkfs
 
 > Build a Linux filesystem on a hard disk partition.
-> mkfs is deprecated in favour of filesystem specific mkfs.<type> utils.
+> This mkfs frontend is deprecated in favour of filesystem specific mkfs.<type> utils.
 
 - Build a Linux ext2 filesystem on a partition:
 
