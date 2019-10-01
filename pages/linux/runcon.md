@@ -9,11 +9,11 @@
 
 - Specify the domain that you want to run a program or script in:
 
-`runcon -t CONTEXT-TYPE_t {{command}}` 
+`runcon -t CONTEXT-TYPE_t {{command}}`
 
 - Specify the role type that you want to run a program or script with:
 
-`runcon -r ROLE_TYPE_r {{command}}` 
+`runcon -r ROLE_TYPE_r {{command}}`
 
 - Specify the full context to run a program or script with:
 
