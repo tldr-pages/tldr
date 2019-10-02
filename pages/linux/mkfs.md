@@ -1,7 +1,7 @@
 # mkfs
 
 > Build a Linux filesystem on a hard disk partition.
-> This mkfs frontend is deprecated in favour of filesystem specific mkfs.<type> utils.
+> This command is deprecated in favor of filesystem specific mkfs.<type> utils.
 
 - Build a Linux ext2 filesystem on a partition:
 
@@ -9,8 +9,8 @@
 
 - Build a filesystem of a specified type:
 
-`mkfs -t {{filesystem_type}} {{path/to/partition}}`
+`mkfs -t {{ext4}} {{path/to/partition}}`
 
 - Build a filesystem of a specified type and check for bad blocks:
 
-`mkfs -c -t {{filesystem_type}} {{path/to/partition}}`
+`mkfs -c -t {{ntfs}} {{path/to/partition}}`
