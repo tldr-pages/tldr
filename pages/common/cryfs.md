@@ -11,7 +11,7 @@
 
 `cryfs-unmount {{path/to/mount_point}}`
 
-- Automatically unmount after ten minutes of idle:
+- Automatically unmount after ten minutes of inactivity:
 
 `cryfs --unmount-idle {{10}} {{path/to/cipher_dir}} {{path/to/mount_point}}`
 
