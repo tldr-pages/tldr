@@ -16,6 +16,6 @@
 
 `guacd -C {{my-cert.crt}} -K {{my-key.pem}}`
 
-- Write PID of guacd instance to a file for automating init scripts:
+- Write the PID to a file:
 
 `guacd -p {{path/to/file.pid}}`
