@@ -8,7 +8,7 @@
 
 `guacd -b {{127.0.0.1}} -l {{4823}}`
 
-- Start guacd in debug mode and keep in the foreground for troubleshooting:
+- Start in debug mode, keeping the process in the foreground:
 
 `guacd -f -L {{debug}}`
 
