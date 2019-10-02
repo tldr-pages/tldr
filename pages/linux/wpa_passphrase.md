@@ -1,11 +1,11 @@
 # wpa_passphrase
 
-> Generate a WPA PSK from an ASCII passphrase for a SSID.
+> Generate a WPA-PSK key from an ASCII passphrase for a given SSID.
 
-- Display WPA PSK for a SSID reading passphrase from stdin:
+- Compute and display the WPA-PSK key for a given SSID reading the passphrase from stdin:
 
-`wpa_passphrase {{ssid}}`
+`wpa_passphrase {{SSID}}`
 
-- Display WPA PSK for a SSID with a specified passphrase:
+- Compute and display WPA-PSK key for a given SSID specifying the passphrase as an argument:
 
-`wpa_passphrase {{ssid}} {{passphrase}}`
+`wpa_passphrase {{SSID}} {{passphrase}}`
