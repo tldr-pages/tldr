@@ -7,9 +7,9 @@
 
 `urxvt`
 
-- Run in a specific working directory:
+- Run in a specific directory:
 
-`urxvt -cd {{directory}}`
+`urxvt -cd {{path/to/directory}}`
 
 - Run a command in a new urxvt window:
 
@@ -21,4 +21,4 @@
 
 - Run a command within the "sh" shell:
 
-`urxvt -e sh -c {{command}}`
+`urxvt -e {{sh}} -c {{command}}`
