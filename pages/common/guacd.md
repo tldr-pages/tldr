@@ -4,7 +4,7 @@
 > Support loader for client plugins to interface between the Guacamole protocol and any arbitrary remote desktop protocol (e.g. RDP, VNC, Other).
 > More information: <https://guacamole.apache.org/>.
 
-- Bind guacd at specific port on localhost:
+- Bind to a specific port on localhost:
 
 `guacd -b {{127.0.0.1}} -l {{4823}}`
 
