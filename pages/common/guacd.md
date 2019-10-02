@@ -18,4 +18,4 @@
 
 - Write PID of guacd instance to a file for automating init scripts:
 
-`guacd -p {{/var/run/guacd.pid}}`
+`guacd -p {{path/to/file.pid}}`
