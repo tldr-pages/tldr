@@ -21,4 +21,4 @@
 
 - Start the web interface for managing bookmarks at port 8181:
 
-`shiori serve -p {{8181}}`
+`shiori serve --port {{8181}}`
