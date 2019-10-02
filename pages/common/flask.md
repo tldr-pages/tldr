@@ -11,6 +11,6 @@
 
 `flask routes`
 
-- Run a shell in the app context:
+- Run a Python interactive shell in the app's context:
 
 `flask shell`
