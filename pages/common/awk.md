@@ -31,6 +31,6 @@
 
 `awk '{ s = ""; for (i=3; i <= NF; i++) s = s $i " "; print s }'`
 
-- Print values based on condition:
+- Print different values based on conditions:
 
 `awk '{if ($1 == "foo") print "Exact match foo"; else if ($1 ~ "bar") print "Partial match bar"; else print "Baz"}'`
