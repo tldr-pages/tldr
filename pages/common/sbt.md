@@ -15,6 +15,6 @@
 
 `sbt -sbt-jar {{path}}`
 
-- List all sbt options: 
+- List all sbt options:
 
 `sbt -h`
