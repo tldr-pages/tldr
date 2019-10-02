@@ -3,7 +3,7 @@
 > A cryptographic filesystem for the cloud.
 > More information: <https://www.cryfs.org/>.
 
-- Mount an encrypted file system. If this is the first time, start the initialization wizard:
+- Mount an encrypted file system. The initialization wizard will be started on the first time.
 
 `cryfs {{path/to/cipher_dir}} {{path/to/mount_point}}`
 
