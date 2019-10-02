@@ -11,7 +11,7 @@
 
 `sbt -sbt-version {{version}}`
 
-- Use specified jar as the sbt launcher:
+- Use a specific jar file as the sbt launcher:
 
 `sbt -sbt-jar {{path}}`
 
