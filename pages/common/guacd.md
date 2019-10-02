@@ -12,7 +12,7 @@
 
 `guacd -f -L {{debug}}`
 
-- Use guacd with SSL enabled:
+- Start with TLS support:
 
 `guacd -C {{my-cert.crt}} -K {{my-key.pem}}`
 
