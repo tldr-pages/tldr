@@ -17,7 +17,7 @@
 
 - Compile using Verilog library files from a different path:
 
-`iverilog {{source.v}} -o {{executable}} -I{{library_path}}`
+`iverilog {{source.v}} -o {{executable}} -I{{path/to/library_directory}}`
 
 - Preprocess Verilog code without compiling:
 
