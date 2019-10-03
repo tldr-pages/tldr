@@ -7,7 +7,7 @@
 
 `iverilog {{source.v}} -o {{executable}}`
 
-- Display all warnings in output:
+- Also display all warnings:
 
 `iverilog {{source.v}} -Wall -o {{executable}}`
 
