@@ -5,12 +5,12 @@
 
 - Display diffs instead of rewriting file:
 
-`goimports -d main.go`
+`goimports -d {{file}}.go`
 
 - Write result to (source) file instead of stdout:
 
-`goimports -w main.go`
+`goimports -w {{file}}.go`
 
 - Display diffs and write result to (source) file:
 
-`goimports -w -d main.go`
+`goimports -w -d {{file}}.go`
