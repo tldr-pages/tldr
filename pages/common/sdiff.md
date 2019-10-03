@@ -18,6 +18,6 @@
 
 `sdiff -i {{path/to/first_file}} {{path/to/second_file}}`
 
-- Compare between two files then merge and create new file:
+- Compare 2 files and then merge, creating a new file:
 
 `sdiff -o {{path/to/new_merge_file}} {{path/to/first_file}} {{path/to/second_file}}`
