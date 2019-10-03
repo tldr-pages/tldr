@@ -1,7 +1,7 @@
 # ul
 
 > Performs the underlining of a text.
-> To underline a text is necessary to underline each character separately.
+> Each character in a given string must be underlined separately.
 
 - Display the contents of the file with underlines where applicable:
 
