@@ -1,7 +1,7 @@
 # runuser
 
 > Run commands as a specific user and group IDs.
-> Do not ask for password. Only useful when run as root user.
+> Does not ask for password. Only useful when run as the root user.
 
 - Run 'command' under substitute 'user':
 
