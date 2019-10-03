@@ -1,6 +1,6 @@
 # ac
 
-> Print statistics on how long users have been connected
+> Print statistics on how long users have been connected.
 
 - Print how long the current user has been connected in hours:
 
