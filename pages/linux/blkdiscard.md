@@ -1,6 +1,6 @@
 # blkdiscard
 
-> Discards device sectors on storage devices Useful for SSDs.
+> Discards device sectors on storage devices. Useful for SSDs.
 
 - Discard all sectors on a device, removing all data:
 
