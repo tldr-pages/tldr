@@ -1,6 +1,6 @@
 # runuser
 
-> Run commands as a specific user and group IDs. Does not ask for password. Only useful when run as the root user.
+> Run commands as a specific user and group without asking for password (needs root privileges).
 
 - Run command as a different user:
 
