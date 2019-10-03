@@ -12,4 +12,4 @@
 
 - Discard the first 100MB of a device:
 
-`blkdiscard --length 100MB /dev/{{device}}`
+`blkdiscard --length {{100MB}} /dev/{{device}}`
