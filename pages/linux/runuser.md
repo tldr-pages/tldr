@@ -18,6 +18,6 @@
 
 `runuser {{user}} -l -s /bin/sh`
 
-- Preserve the entire environment of root (if running by root). Ignore when having option `--login`:
+- Preserve the entire environment of root (only if `--login` is not specified):
 
 `runuser {{user}} --preserve-environment -c '{{command}}'`
