@@ -26,3 +26,11 @@
 - Print every third line starting from the first line:
 
 `awk 'NR%3==1' {{filename}}`
+
+- Print all values starting from the third column:
+
+`awk '{ s = ""; for (i=3; i <= NF; i++) s = s $i " "; print s }'`
+
+- Print different values based on conditions:
+
+`awk '{if ($1 == "foo") print "Exact match foo"; else if ($1 ~ "bar") print "Partial match bar"; else print "Baz"}'`
