@@ -16,7 +16,7 @@
 
 - Specify a [s]hell for running instead of default shell (also works for login):
 
-`runuser {{user}} -l -s /bin/sh`
+`runuser {{user}} -s {{/bin/sh}}`
 
 - Preserve the entire environment of root (only if `--login` is not specified):
 
