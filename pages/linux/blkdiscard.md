@@ -1,12 +1,12 @@
 # blkdiscard
 
-> Discards device sectors on storage devices, useful for SSDs. 
+> Discards device sectors on storage devices Useful for SSDs.
 
-- Discard all sectors an a device, removing all data:
+- Discard all sectors on a device, removing all data:
 
 `blkdiscard /dev/{{device}}`
 
-- Securely discards all blocks on a device, removing all data:
+- Securely discard all blocks on a device, removing all data:
 
 `blkdiscard --secure /dev/{{device}}`
 
