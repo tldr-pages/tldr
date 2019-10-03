@@ -4,7 +4,7 @@
 
 - Options:
 
-- Select a file to monitor. You can have multiple -i file parameters. You only need to add -i file in front of a filename if the filename starts with a dash ('-').
+- Select a file to monitor.
 
 `zlug -i file`
 
