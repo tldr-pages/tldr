@@ -4,7 +4,7 @@
 
 - Set the keyboard in French AZERTY:
 
-`setxkbmap fr`
+`setxkbmap {{fr}}`
 
 - Get help:
 
