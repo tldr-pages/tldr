@@ -2,7 +2,7 @@
 
 > Compare the differences and/or merge between two files.
 
-- Compare between two files:
+- Compare 2 files:
 
 `sdiff {{path/to/first_file}} {{path/to/second_file}}`
 
