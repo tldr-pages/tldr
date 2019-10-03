@@ -11,6 +11,6 @@
 
 `sudo sa --print-users`
 
-- List resources used recently per user
+- List resources used recently per user:
 
 `sudo sa --user-summary`
