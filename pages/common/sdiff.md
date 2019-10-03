@@ -6,7 +6,7 @@
 
 `sdiff {{path/to/first_file}} {{path/to/second_file}}`
 
-- Compare between two files, ignore all tabs and white space:
+- Compare 2 files, ignoring all tabs and whitespace:
 
 `sdiff -W {{path/to/first_file}} {{path/to/second_file}}`
 
