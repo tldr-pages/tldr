@@ -14,7 +14,7 @@
 
 `sdiff -Z {{path/to/first_file}} {{path/to/second_file}}`
 
-- Compare between two files, case insensitive:
+- Case insensitively compare 2 files:
 
 `sdiff -i {{path/to/first_file}} {{path/to/second_file}}`
 
