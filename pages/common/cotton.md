@@ -1,9 +1,9 @@
 # cotton
 
 > Markdown test specification runner.
-> More information: https://github.com/chonla/cotton.
+> More information: <https://github.com/chonla/cotton>.
 
-- Specific base url:
+- Use a specific base url:
 
 `cotton -u {{base_url}} {{file}}.md`
 
@@ -11,6 +11,6 @@
 
 `cotton -u {{base_url}} -i {{file}}.md`
 
-- Stop running when failed:
+- Stop running when a test fails:
 
 `cotton -u {{base_url}} -s {{file}}.md`
