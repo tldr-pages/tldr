@@ -15,6 +15,10 @@
 
 `git checkout {{branch_name}}`
 
+- Switch to previous branch:
+
+`git checkout -`
+
 - Switch to an existing remote branch:
 
 `git checkout --track {{remote_name}}/{{branch_name}}`
