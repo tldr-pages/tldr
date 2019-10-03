@@ -11,6 +11,6 @@
 
 `goimports -w {{file}}.go`
 
-- Display diffs and write result to (source) file:
+- Display diffs and write the result to the source file:
 
 `goimports -w -d {{file}}.go`
