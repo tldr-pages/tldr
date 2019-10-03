@@ -9,4 +9,3 @@
 - Monitor file and output to the previous window (so the output is merged).
 
 `multitail -I file`
-
