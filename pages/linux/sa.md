@@ -1,17 +1,15 @@
 # sa
 
-> Summarizes accounting information. Part of the acct package.\
+> Summarizes accounting information. Part of the acct package.
 > Shows commands called by users, including basic info on CPU time spent processing and I/O rates.
 
-- Summary of commands by every user:
+- Display executable invocations by every user:
 
 `sudo sa`
 
-
-- executables invoked by every user:
+- Display executable invocations by every user with username:
 
 `sudo sa --print-users`
-
 
 - List resources used recently per user
 
