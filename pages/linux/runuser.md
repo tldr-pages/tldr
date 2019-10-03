@@ -14,7 +14,7 @@
 
 `runuser {{user}} -l`
 
-- Specify a [s]hell for running instead of default shell (also works for login):
+- Specify a shell for running instead of the default shell (also works for login):
 
 `runuser {{user}} -s {{/bin/sh}}`
 
