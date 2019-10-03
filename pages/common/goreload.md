@@ -1,13 +1,13 @@
 # goreload
 
-> Live reload utility for Go program.
-> More information: https://github.com/acoshift/goreload.
+> Live reload utility for Go programs.
+> More information: <https://github.com/acoshift/goreload>.
 
-- Set name of binary file (default: ".goreload"):
+- Set the name of the binary file to watch:
 
 `goreload -b {{name}} {{file}}.go`
 
-- Set custom log prefix (defailt: "goreload"):
+- Set a custom log prefix (defaults to "goreload"):
 
 `goreload --logPrefix {{prefix}} {{file}}.go`
 
