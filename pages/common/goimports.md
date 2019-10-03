@@ -7,7 +7,7 @@
 
 `goimports -d {{file}}.go`
 
-- Write result to (source) file instead of stdout:
+- Write the result to the source file instead of the standard output:
 
 `goimports -w {{file}}.go`
 
