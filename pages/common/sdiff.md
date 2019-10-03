@@ -10,7 +10,7 @@
 
 `sdiff -W {{path/to/first_file}} {{path/to/second_file}}`
 
-- Compare between two files, ignore white space at the end of the line:
+- Compare 2 files, ignoring whitespace at the end of lines:
 
 `sdiff -Z {{path/to/first_file}} {{path/to/second_file}}`
 
