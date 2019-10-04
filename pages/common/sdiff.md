@@ -14,10 +14,10 @@
 
 `sdiff -Z {{path/to/first_file}} {{path/to/second_file}}`
 
-- Case insensitively compare 2 files:
+- Compare 2 files in a case-insensitive manner:
 
 `sdiff -i {{path/to/first_file}} {{path/to/second_file}}`
 
 - Compare 2 files and then merge, creating a new file:
 
-`sdiff -o {{path/to/new_merge_file}} {{path/to/first_file}} {{path/to/second_file}}`
+`sdiff -o {{path/to/merged_file}} {{path/to/first_file}} {{path/to/second_file}}`
