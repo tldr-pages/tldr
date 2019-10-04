@@ -1,6 +1,6 @@
 # sdiff
 
-> Compare the differences and/or merge between two files.
+> Compare the differences between and optionally merge 2 files.
 
 - Compare 2 files:
 
