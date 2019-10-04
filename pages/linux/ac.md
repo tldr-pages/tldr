@@ -6,7 +6,7 @@
 
 `ac`
 
-- Print how long the current user has been connected in hours:
+- Print how long users have been connected in hours:
 
 `ac --individual-totals`
 
