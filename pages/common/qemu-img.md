@@ -18,6 +18,6 @@
 
 `qemu-img map {{image_name.img}}`
 
-- Convert VMWare .vmdk to KVM .qcow2
+- Convert VMWare .vmdk to KVM .qcow2:
 
-`qemy-img convert -O qcow2 {{/path/to/file/foo.vmdk}} {{/path/to/file/foo.qcow2}}
+`qemy-img convert -O qcow2 {{/path/to/file/foo.vmdk}} {{/path/to/file/foo.qcow2}}`
