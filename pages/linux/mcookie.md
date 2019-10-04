@@ -12,7 +12,7 @@
 
 - Generate random number, read specific number of bytes from destination file and use it as a seed for the randomness:
 
-`mcookie -f {{path/to/file1}} -m {{number_of_bytes}} -f {{path/to/file2}} -m {{number_of_bytes}}`s
+`mcookie -f {{path/to/file1}} -m {{number_of_bytes}} -f {{path/to/file2}} -m {{number_of_bytes}}`
 
 - Print the detials of the randomness such as origin and seed from each sources:
 
