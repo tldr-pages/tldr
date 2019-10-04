@@ -6,7 +6,7 @@
 
 `mcookie`
 
-- Generate random number, use destination file as a seed for the randomness:
+- Generate a random number, using the contents of a file as a seed for the randomness:
 
 `mcookie -f {{path/to/file1}} -f {{path/to/file2}}`
 
