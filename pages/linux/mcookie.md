@@ -2,7 +2,7 @@
 
 > Generate a 128-bit random hexadecimal number.
 
-- Generate random number:
+- Generate a random number:
 
 `mcookie`
 
