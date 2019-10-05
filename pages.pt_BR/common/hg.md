@@ -1,7 +1,7 @@
 # hg
 
 > Uma interface de linha de comando para o Mercurial, uma ferramenta de gerenciamento de código fonte.
-> Veja `hg-add`, `hg-commit` e outras paginas para informações adicionais.
+> Veja `hg-add`, `hg-commit` e outras páginas para informações adicionais.
 > Mais informações: <https://www.mercurial-scm.org>.
 
 - Executar comando do Mercurial:
