@@ -6,7 +6,7 @@
 
 `exec {{command -with -flags}}`
 
-- Replace with the specified command clearing environment variables:
+- Replace with the specified command, clearing environment variables:
 
 `exec -c {{command -with -flags}}`
 
