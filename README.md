@@ -54,8 +54,6 @@ You can access these pages on your computer using one of the following clients:
 
 - [Alfred Workflow](https://github.com/cs1707/tldr-alfred)
 - Android clients:
-  - [tldr-viewer](https://github.com/gianasista/tldr-viewer), available on
-    [Google Play](https://play.google.com/store/apps/details?id=de.gianasista.tldr_viewer)
   - [tldroid](https://github.com/hidroh/tldroid), available on
     [Google Play](https://play.google.com/store/apps/details?id=io.github.hidroh.tldroid) *(outdated)*
 - Bash clients:
