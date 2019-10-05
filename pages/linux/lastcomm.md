@@ -3,7 +3,6 @@
 > Show last commands executed (from acct - GNU Accounting utilities).
 > More information: <https://manpages.debian.org/stable/acct/lastcomm.1.en.html>.
 
-
 - Print informations about all of the commands in the acct (record file):
 
 `lastcomm`
