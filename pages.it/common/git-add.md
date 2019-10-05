@@ -1,9 +1,9 @@
 # git add
 
-> Aggiungi file nuovi o modificati all'indice.
+> Aggiungi file nuovi o modificati all'area di stage.
 > Maggiori informazioni: <https://git-scm.com/docs/git-add>.
 
-- Aggiungi un file all'indice:
+- Aggiungi un file all'area di stage:
 
 `git add {{percorso/al/file}}`
 

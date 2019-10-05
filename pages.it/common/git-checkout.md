@@ -5,28 +5,28 @@
 
 - Crea e passa ad un nuovo ramo:
 
-`git checkout -b {{nome_del_ramo}}`
+`git checkout -b {{nome_ramo}}`
 
-- Crea e passa ad un nuovo ramo a partire dal riferimento specificato (alcuni esempi di riferimenti validi sono rami, rami remoti, tag):
+- Crea e passa ad un nuovo ramo a partire dal riferimento specificato (ramo locale, ramo remoto, tag sono alcuni esempi di riferimenti validi):
 
-`git checkout -b {{nome_del_ramo}} {{riferimento}}`
+`git checkout -b {{nome_ramo}} {{riferimento}}`
 
 - Passa ad un ramo locale esistente:
 
-`git checkout {{nome_del_ramo}}`
+`git checkout {{nome_ramo}}`
 
 - Passa ad un ramo remoto esistente:
 
-`git checkout --track {{nome_repository_remoto}}/{{nome_del_ramo}}`
+`git checkout --track {{nome_repository_remoto}}/{{nome_ramo}}`
 
-- Elimina tutte le modifiche che non sono state aggiunte all'indice (vedi `git reset` per comandi simili):
+- Annulla tutte le modifiche che non sono state aggiunte all'area di stage (vedi `git reset` per più comandi simili):
 
 `git checkout .`
 
-- Elimina da un dato file tutte le modifiche che non sono state aggiunte all'indice:
+- Annulla tutte le modifiche di un dato file non aggiunte all'area di stage:
 
 `git checkout {{nome_file}}`
 
 - Sostituisci un file con il contenuto del suo corrispondente localizzato su un altro ramo:
 
-`git checkout {{nome_del_ramo}} -- {{nome_file}}`
+`git checkout {{nome_ramo}} -- {{nome_file}}`

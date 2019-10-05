@@ -1,28 +1,28 @@
 # git clean
 
-> Rimuovi i file non tracciati dall'albero di lavoro.
+> Elimina i file non tracciati dall'albero di lavoro.
 > Maggiori informazioni: <https://git-scm.com/docs/git-clean>.
 
-- Rimuovi da Git i file non tracciati:
+- Elimina i file che non sono tracciati da git:
 
 `git clean`
 
-- Rimuovi in modo interattivo i file non tracciati:
+- Elimina in modo interattivo i file non tracciati da git:
 
 `git clean -i`
 
-- Mostra quali sono i file non tracciati che sarebbero rimossi, senza però rimuoverli davvero:
+- Mostra quali file non tracciati sarebbero eliminati, senza però eliminarli davvero:
 
 `git clean --dry-run`
 
-- Forza la rimozione dei file non tracciati:
+- Forza l'eliminazione dei file non tracciati da git:
 
 `git clean -f`
 
-- Forza la rimozione delle cartelle non tracciate:
+- Forza l'eliminazione delle cartelle non tracciate da git:
 
 `git clean -fd`
 
-- Rimuovi i file non tracciati, compresi quelli da ignorare elencati in `.gitignore` e `.git/info/exclude`:
+- Elimina i file non tracciati, compresi quelli da ignorare elencati in `.gitignore` e `.git/info/exclude`:
 
 `git clean -x`

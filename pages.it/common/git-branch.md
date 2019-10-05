@@ -1,6 +1,6 @@
 # git branch
 
-> Il principale comando Git per lavorare con i rami.
+> Il principale comando git per lavorare con i rami.
 > Maggiori informazioni: <https://git-scm.com/docs/git-branch>.
 
 - Elenca i rami locali. Il ramo corrente è evidenziato da un `*`:
@@ -13,11 +13,11 @@
 
 - Crea un nuovo ramo a partire dal commit corrente:
 
-`git branch {{nome_del_ramo}}`
+`git branch {{nome_ramo}}`
 
 - Crea un nuovo ramo a partire dal commit specificato:
 
-`git branch {{nome_del_ramo}} {{commit_hash}}`
+`git branch {{nome_ramo}} {{hash_commit}}`
 
 - Rinomina un ramo (non applicabile sul ramo corrente):
 
@@ -25,4 +25,4 @@
 
 - Cancella un ramo locale (non applicabile sul ramo corrente):
 
-`git branch -d {{nome_del_ramo}}`
+`git branch -d {{nome_ramo}}`

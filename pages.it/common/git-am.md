@@ -12,6 +12,6 @@
 
 `git am --abort`
 
-- Applica quanto possibile di un file di patch e salva in *.rej file le parti la cui applicazione non è andata a buon fine:
+- Applica quanto possibile di un file di patch, salvando le parti non applicabili in file .rej:
 
 `git am --reject {{percorso/al/file.patch}}`

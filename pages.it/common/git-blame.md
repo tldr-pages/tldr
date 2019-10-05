@@ -1,12 +1,12 @@
 # git blame
 
-> Annota le righe di un file col loro codice di revisione (commit hash) e con l'autore che le ha modificate per ultimo.
+> Mostra hash del commit ed ultimo autore per ogni riga di un file.
 > Maggiori informazioni: <https://git-scm.com/docs/git-blame>.
 
-- Stampa il contenuto di un file su standard output, precedendo ogni riga con il suo commit hash e con il nome dell'autore:
+- Stampa il contenuto di un file annotando ogni riga con l'hash del commit e il nome dell'autore:
 
 `git blame {{file}}`
 
-- Stampa il contenuto di un file precedendo ogni riga con il suo commit hash e con l'indirizzo email dell'autore:
+- Stampa il contenuto di un file annotando ogni riga con l'hash del commit e l'indirizzo email dell'autore:
 
 `git blame -e {{file}}`

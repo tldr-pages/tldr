@@ -15,10 +15,10 @@
 
 `git check-ignore --stdin < {{percorso/alla/lista_dei_file_o_cartelle}}`
 
-- Non controllare nell'indice (usato per il debug del perché alcuni percorsi non sono ignorati):
+- Non controllare nell'indice (usato per determinare il motivo per cui alcuni percorsi non sono ignorati):
 
 `git check-ignore --no-index {{percorsi/ai/file_o_cartelle}}`
 
-- Includi dettagli sui modelli di corrispondenza per ogni percorso specificato:
+- Includi dettagli sul pattern corrispondente per ogni percorso specificato:
 
 `git check-ignore --verbose {{percorsi/ai/file_o_cartelle}}`

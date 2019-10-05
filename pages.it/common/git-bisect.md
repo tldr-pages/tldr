@@ -1,20 +1,21 @@
 # git bisect
 
 > Usa la ricerca binaria per trovare il commit che ha introdotto un bug.
+> Git salta automaticamente avanti ed indietro nell'albero dei commit per restringere progressivamente il campo fino al commit colpevole.
 > Maggiori informazioni: <https://git-scm.com/docs/git-bisect>.
 
-- Avvia una sessione di bisect su un intervallo di commit limitato da un commit "cattivo", noto per contenere il bug, e un commit "buono", precedente al presentarsi del bug:
+- Avvia una ricerca su un intervallo di commit definito dal commit "cattivo" contenente il bug ed un altro commit "buono" privo del bug (solitamente più vecchio):
 
 `git bisect start {{commit_cattivo}} {{commit_buono}}`
 
-- Per ogni commit selezionato da `git bisect`, contrassegnalo con "bad" (cattivo) o "good" (buono) dopo averlo verificato:
+- Contrassegna ogni commit selezionato da `git bisect` come "bad" (cattivo) o "good" (buono) dopo averlo testato per verificare la presenza del bug:
 
 `git bisect {{good|bad}}`
 
-- Una volta che `git bisect` ha individuato il commit che ha introdotto il bug, termina la sessione di bisect e torna al ramo precedente:
+- Una volta che `git bisect` ha individuato il commit che ha introdotto il bug, termina la sessione di ricerca e torna al ramo precedente:
 
 `git bisect reset`
 
-- Ignora un commit durante la sessione di bisect:
+- Ignora un commit durante la sessione di ricerca (ad esempio uno che fallisce i test per un motivo diverso dal bug ricercato):
 
 `git bisect skip`
