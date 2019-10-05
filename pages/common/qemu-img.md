@@ -17,3 +17,7 @@
 - Dump the allocation state of every sector of the specified disk image:
 
 `qemu-img map {{image_name.img}}`
+
+- Convert a VMWare .vmdk disk image to a KVM .qcow2 disk image:
+
+`qemy-img convert -O qcow2 {{/path/to/file/foo.vmdk}} {{/path/to/file/foo.qcow2}}`
