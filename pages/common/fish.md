@@ -24,6 +24,6 @@
 
 `fish --version`
 
-- Set and export universal environment variables:
+- Set and export environmental variables that persist across restarts:
 
 `set -Ux {{variable_name}} {{variable_value}}`
