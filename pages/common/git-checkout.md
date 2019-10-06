@@ -15,7 +15,7 @@
 
 `git checkout {{branch_name}}`
 
-- Switch to the branch previously checked out:
+- Switch to the previously checked out branch:
 
 `git checkout -`
 
