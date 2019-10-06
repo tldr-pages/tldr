@@ -1,0 +1,32 @@
+# kubectl
+
+> Command line interface tool to manage Kubernetes secrets.
+> More information: <https://github.com/dtan4/k8sec>.
+
+- List all secrets:
+
+`k8sec list`
+
+- List specific secret and decode it with base64:
+
+`k8sec list {{secret_name}} --base64`
+
+- Set secret:
+
+`k8sec set {{secret_name}} {{key=value}}`
+
+- Set base64-encoded value
+
+`k8sec set --base64 {{secret_name}} {{key=encoded_value}}`
+
+- Unset secret:
+
+`k8sec unset {{secret_name}}`
+
+- Load secrets from dotenv file:
+
+`k8sec load -f {{file_name}} {{secret_name}}`
+
+- Dump secrets as dotenv file:
+
+`k8sec dump -f {{file_name}} {{secret_name}}`
