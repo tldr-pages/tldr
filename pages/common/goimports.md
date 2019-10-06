@@ -1,16 +1,16 @@
 # goimports
 
-> Updates your Go import lines, adding missing ones and removing unreferenced ones.
+> Updates Go import lines, adding missing ones and removing unreferenced ones.
 > More information: <https://godoc.org/golang.org/x/tools/cmd/goimports>.
 
-- Display diffs instead of rewriting file:
+- Display your completed import source file.
 
-`goimports -d {{file}}.go`
+`goimports {{file}}.go`
 
-- Write the result to the source file instead of the standard output:
+- Write the result back to the source file instead of the standard output:
 
 `goimports -w {{file}}.go`
 
-- Display diffs and write the result to the source file:
+- Display diffs and write the result back to the source file:
 
 `goimports -w -d {{file}}.go`
