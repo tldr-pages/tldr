@@ -24,6 +24,6 @@
 
 `fish --version`
 
-- Set and export universal environment variables  
+- Set and export universal environment variables:    
 
 `set -Ux {{variable_name}} {{variable_value}}`
