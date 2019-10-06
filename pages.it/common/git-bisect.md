@@ -16,6 +16,6 @@
 
 `git bisect reset`
 
-- Ignora un commit durante la sessione di ricerca (ad esempio uno che fallisce i test per un motivo diverso dal bug ricercato):
+- Ignora un commit durante la ricerca (ad esempio uno che fallisce i test per un motivo diverso dal bug ricercato):
 
 `git bisect skip`
