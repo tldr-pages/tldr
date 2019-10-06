@@ -14,7 +14,7 @@
 
 `powerstat -R {{interval}} {{number_of_samples}}`
 
-- Show histogram of power measurements:
+- Show an histogram of the power measurements:
 
 `powerstat -H {{interval}} {{number_of_samples}}`
 
