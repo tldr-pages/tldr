@@ -14,6 +14,6 @@
 
 `mcookie --file {{path/to/file1}} --max-size {{number_of_bytes}} --file {{path/to/file2}} --max-size {{number_of_bytes}}`
 
-- Print the detials of the randomness such as origin and seed from each sources:
+- Print the details of the randomness used, such as the origin and seed for each source:
 
 `mcookie --verbose`
