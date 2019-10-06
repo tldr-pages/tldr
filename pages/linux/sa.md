@@ -3,11 +3,11 @@
 > Summarizes accounting information. Part of the acct package.
 > Shows commands called by users, including basic info on CPU time spent processing and I/O rates.
 
-- Display executable invocations by every user (username not displayed):
+- Display executable invocations per user (username not displayed):
 
 `sudo sa`
 
-- Display executable invocations by every user with username:
+- Display executable invocations per user, showing responsible usernames:
 
 `sudo sa --print-users`
 
