@@ -1,6 +1,6 @@
 # chisel
 
-> Chisel is a fast and simple tool to create a TCP tunnel. Including both client and server. 
+> Chisel is a fast and simple tool to create a TCP tunnel. Including both client and server.
 > More information: <https://github.com/jpillora/chisel>.
 
 - Run a chisel remote server:
