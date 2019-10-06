@@ -3,7 +3,7 @@
 > Updates Go import lines, adding missing ones and removing unreferenced ones.
 > More information: <https://godoc.org/golang.org/x/tools/cmd/goimports>.
 
-- Display your completed import source file.
+- Display your completed import source file:
 
 `goimports {{file}}.go`
 
