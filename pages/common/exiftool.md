@@ -5,20 +5,20 @@
 
 - Remove all EXIF metadata from the given files:
 
-`exiftool -All= {{file}}`
+`exiftool -All= {{file1 file2 ...}}`
 
-- Increase time photo taken by 1 hour in directory:
+- Move the date at which all photos in a directory were taken 1 hour forward:
 
-`exiftool "-AllDates+=0:0:0 1:0:0" {{directory}}`
+`exiftool "-AllDates+=0:0:0 1:0:0" {{path/to/directory}}`
 
-- Decrease time photo taken by 1 day and 2 hours on JPEGs only:
+- Move the date at which all JPEG photos in the current directory were taken 1 day and 2 hours backward:
 
 `exiftool "-AllDates-=0:0:1 2:0:0" -ext jpg`
 
-- Change only DateTimeOriginal by -1.5 hours & do not keep backups:
+- Only change the `DateTimeOriginal` field subtracting 1.5 hours, without keeping backups:
 
 `exiftool -DateTimeOriginal-=1.5 -overwrite_original`
 
-- Rename all JPEGs according to a DateTimeOriginal recursively:
+- Recursively rename all JPEG photos in a directory based on the `DateTimeOriginal` field:
 
-`exiftool '-filename<DateTimeOriginal' -d %Y-%m-%d_%H-%M-%S%%lc.%%e {{directory}} -r -ext jpg`
+`exiftool '-filename<DateTimeOriginal' -d %Y-%m-%d_%H-%M-%S%%lc.%%e {{path/to/directory}} -r -ext jpg`
