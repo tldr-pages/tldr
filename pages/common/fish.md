@@ -23,3 +23,7 @@
 - Display version information and exit:
 
 `fish --version`
+
+- Set and export universal environment variables  
+
+`set -Ux {{variable_name}} {{variable_value}}`
