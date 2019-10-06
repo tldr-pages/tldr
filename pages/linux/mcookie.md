@@ -1,6 +1,6 @@
 # mcookie
 
-> Generate a 128-bit random hexadecimal number.
+> Generates random 128 bit hexadecimal numbers.
 
 - Generate a random number:
 
