@@ -7,11 +7,11 @@
 
 `exiftool -All= {{file1 file2 ...}}`
 
-- Move the shooting date of all photos in a directory 1 hour forward:
+- Move the date at which all photos in a directory were taken 1 hour forward:
 
 `exiftool "-AllDates+=0:0:0 1:0:0" {{path/to/directory}}`
 
-- Move the shooting date of all JPEG photos in the current directory 1 day and 2 hours backward:
+- Move the date at which all JPEG photos in the current directory were taken 1 day and 2 hours backward:
 
 `exiftool "-AllDates-=0:0:1 2:0:0" -ext jpg`
 
