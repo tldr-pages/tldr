@@ -6,7 +6,7 @@
 
 `powerstat`
 
-- Measure power with custom number of samples and interval size:
+- Measure power with custom number of samples and interval duration:
 
 `powerstat {{interval}} {{number_of_samples}}`
 
