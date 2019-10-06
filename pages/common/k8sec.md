@@ -1,4 +1,4 @@
-# kubectl
+# k8sec
 
 > Command line interface tool to manage Kubernetes secrets.
 > More information: <https://github.com/dtan4/k8sec>.
