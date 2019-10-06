@@ -7,7 +7,7 @@
 
 `git checkout -b {{nome_ramo}}`
 
-- Crea e passa ad un nuovo ramo a partire dal riferimento specificato (ramo locale, ramo remoto, tag sono alcuni esempi di riferimenti validi):
+- Crea e passa ad un nuovo ramo a partire dal riferimento specificato (ramo-locale, remote/ramo-remoto, tag sono alcuni esempi di riferimenti validi):
 
 `git checkout -b {{nome_ramo}} {{riferimento}}`
 
