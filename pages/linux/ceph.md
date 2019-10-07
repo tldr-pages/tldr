@@ -1,6 +1,6 @@
 # ceph
 
-> Ceph is a free-software storage platform, implements object storage on a single distributed computer cluster, and provides interfaces for object, block and file-level storage.
+> Ceph implements object storage on a single distributed computer cluster, and provides interfaces for object, block and file-level storage.
 > More information: <https://ceph.io>.
 
 - Check or watch cluster health:
@@ -27,6 +27,6 @@
 
 `ceph osd pool rename {current-pool-name} {new-pool-name}`
 
-- Self-repairing pool storage:
+- Self-repair pool storage:
 
 `ceph pg repair {pool_name}`
