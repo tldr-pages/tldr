@@ -15,7 +15,7 @@
 
 `alacritty -e {{command}}`
 
-- Specify alternative configuration file [default: $XDG_CONFIG_HOME/alacritty/alacritty.yml]:
+- Specify alternative configuration file (defaults to $XDG_CONFIG_HOME/alacritty/alacritty.yml):
 
 `alacritty --config-file {{path/to/config.yml}}`
 
