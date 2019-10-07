@@ -12,7 +12,7 @@
 
 - List all layouts:
 
-`localectl list-x11-keymap-layouts - gives you layouts`
+`localectl list-x11-keymap-layouts`
 
 - List variants for the layout:
 
