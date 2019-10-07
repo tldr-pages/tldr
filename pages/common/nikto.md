@@ -1,6 +1,6 @@
 # nikto
 
-> Web server scanner which performs comprehensive tests against web servers for multiple items.
+> Web server scanner which performs tests against web servers for multiple items.
 > More information: <https://cirt.net/Nikto2>.
 
 - Perform a basic Nikto scan against a target host:
