@@ -1,6 +1,6 @@
 # explorer
 
-> The Windows file explorer.
+> The Windows File Explorer.
 
 - Open Windows Explorer:
 
