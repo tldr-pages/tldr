@@ -4,9 +4,11 @@
   "description": "Simplified, community-driven man pages",
   "dependencies": {
     "glob": "7.1.3",
+    "husky": "^2.2.0",
     "markdownlint-cli": "0.15.0",
-    "tldr-lint": "~0.0.7",
-    "husky": "^2.2.0"
+    "run": "^1.4.0",
+    "test": "^0.6.0",
+    "tldr-lint": "~0.0.7"
   },
   "scripts": {
     "lint-markdown": "markdownlint pages*/**/*.md",
