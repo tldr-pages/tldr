@@ -1,6 +1,6 @@
 # btrfs
 
-> A modern copy on write (CoW) filesystem for Linux.
+> A filesystem based on the copy-on-write (COW) principle for Linux.
 
 - Create subvolume:
 
@@ -8,7 +8,7 @@
 
 - List subvolume:
 
-`sudo btrfs subvolume list {{path/to/moount_point}}`
+`sudo btrfs subvolume list {{path/to/mount_point}}`
 
 - Show space usage information:
 
