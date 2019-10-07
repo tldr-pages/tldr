@@ -6,6 +6,18 @@
 
 `setxkbmap {{fr}}`
 
-- Get help:
+- Set multiple keyboard layouts, their variants and switching option:
 
-`setxkbmap -help`
+`setxkbmap -layout us,de -variant ,qwerty -option 'grp:alt_caps_toggle'` 
+
+- List all layouts:
+
+`localectl list-x11-keymap-layouts - gives you layouts`
+
+- List variants for the layout:
+
+`localectl list-x11-keymap-variants de`
+
+- List available switching options:
+
+`localectl list-x11-keymap-options | grep grp:`
