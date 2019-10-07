@@ -23,3 +23,7 @@
 - Display version information and exit:
 
 `fish --version`
+
+- Set and export environmental variables that persist across restarts:
+
+`set -Ux {{variable_name}} {{variable_value}}`
