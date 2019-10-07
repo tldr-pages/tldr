@@ -8,7 +8,7 @@
 `ceph {{status | -w}}`
 
 - Check cluster usage stats:
-  
+
 `ceph df`
 
 - Get the statistics for the placement groups in your cluster:
