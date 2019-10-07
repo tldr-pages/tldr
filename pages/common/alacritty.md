@@ -1,7 +1,7 @@
 # alacritty
 
 > Cross-platform, GPU-accelerated terminal emulator.
-> More information: <https://github.com/jwilm/alacritty/>.
+> More information: <https://github.com/jwilm/alacritty>.
 
 - Open a new alacritty window:
 
