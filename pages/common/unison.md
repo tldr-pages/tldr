@@ -5,15 +5,15 @@
 
 - Sync two directories (creates log first time these two directories are synchronised):
 
-`unison root1 root2`
+`unison {{path/to/directory_1}} {{path/to/directory_2}}`
 
 - Automatically accept the (non-conflicting) defaults:
 
-`unison root1 root2 -auto`
+`unison {{path/to/directory_1}} {{path/to/directory_2}} -auto`
 
 - Ignore some files using a pattern:
 
-`unison root1 root2 -ignore {{pattern}}`
+`unison {{path/to/directory_1}} {{path/to/directory_2}} -ignore {{pattern}}`
 
 - Show documentation:
 
