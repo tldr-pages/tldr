@@ -18,4 +18,3 @@
 - Create a 64-bit Debian 8 Droplet named test with 1GB of memory, an SSH key, and backups enabled:
 
 `doctl compute droplet create {{test}} --size {{1gb}} --image {{debian-8-x64}} --region {{nyc1}} --ssh-keys {{4d:23:e6:e4:8c:17:d2:cf:89:47:36:b5:c7:33:40:4e}} --enable-backups`
-
