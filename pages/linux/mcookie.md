@@ -8,11 +8,11 @@
 
 - Generate a random number, using the contents of a file as a seed for the randomness:
 
-`mcookie --file {{path/to/file1}} --file {{path/to/file2}}`
+`mcookie --file {{path/to/file}}`
 
 - Generate a random number, using a specific number of bytes from a file as a seed for the randomness:
 
-`mcookie --file {{path/to/file1}} --max-size {{number_of_bytes}} --file {{path/to/file2}} --max-size {{number_of_bytes}}`
+`mcookie --file {{path/to/file}} --max-size {{number_of_bytes}}`
 
 - Print the details of the randomness used, such as the origin and seed for each source:
 
