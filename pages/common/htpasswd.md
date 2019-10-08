@@ -22,3 +22,7 @@
 - Verify user password:
 
 `htpasswd -v {{path/to/file}} {{user_name}}`
+
+- Generate username/password string (md5) for manual use:
+
+`htpasswd -nbm {{user_name}} {{password}}`
