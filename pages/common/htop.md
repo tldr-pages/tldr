@@ -1,6 +1,6 @@
 # htop
 
-> An interactive process viewer for Unix
+> An interactive process viewer for Unix.
 > More Information: <https://hisham.hm/htop/>
 
 - View the list of processes:
