@@ -1,6 +1,6 @@
 # fd
 
-> A alternative to `find`.
+> An alternative to `find`.
 > More information: <https://github.com/sharkdp/fd>.
 
 - Find files matching the given pattern in the current directory:
