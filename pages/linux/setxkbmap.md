@@ -10,6 +10,10 @@
 
 `setxkbmap -layout us,de -variant ,qwerty -option 'grp:alt_caps_toggle'`
 
+- Get help:
+
+`setxkbmap -help`
+
 - List all layouts:
 
 `localectl list-x11-keymap-layouts`
