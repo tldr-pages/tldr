@@ -1,7 +1,7 @@
 # doctl
 
 > DigitalOcean command line client.
-> More information: <https://github.com/digitalocean/doctl>.
+> More information: <https://github.com/digitalocean/doctl/blob/master/README.md>.
 
 - Get the droplet information in the JSON format:
 
