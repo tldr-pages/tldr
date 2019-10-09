@@ -15,7 +15,7 @@
 
 `k8sec set {{secret_name}} {{key=value}}`
 
-- Set base64-encoded value:
+- Set a base64-encoded value:
 
 `k8sec set --base64 {{secret_name}} {{key=encoded_value}}`
 
