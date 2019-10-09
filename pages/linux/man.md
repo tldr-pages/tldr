@@ -1,6 +1,6 @@
 # man
 
-> the system's manual pager
+> The system's manual pager.
 
 - Display the manual page for the program:
 
@@ -18,6 +18,6 @@
 
 `man -k {{keyword}}`
 
-- Search manpages about a keyword:
+- Search for manpages about a keyword:
 
 `man -f {{keyword}}`
