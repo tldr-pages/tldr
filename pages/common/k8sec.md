@@ -11,7 +11,7 @@
 
 `k8sec list {{secret_name}} --base64`
 
-- Set secret:
+- Set a secret's value:
 
 `k8sec set {{secret_name}} {{key=value}}`
 
