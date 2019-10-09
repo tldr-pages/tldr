@@ -1,8 +1,8 @@
 # mons
 
-> A tool to quickly manage two displays
+> A tool to quickly manage two displays.
 
-- Show primary monitor only;
+- Show primary monitor only:
 
 `mons -o`
 
