@@ -3,7 +3,7 @@
 > Ceph implements object storage on a single distributed computer cluster, and provides interfaces for object, block and file-level storage.
 > More information: <https://ceph.io>.
 
-- Check or watch cluster health:
+- Check cluster health status:
 
 `ceph status`
 
