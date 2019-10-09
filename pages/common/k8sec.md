@@ -29,4 +29,4 @@
 
 - Dump secrets to a file:
 
-`k8sec dump -f {{file_name}} {{secret_name}}`
+`k8sec dump -f {{path/to/file}} {{secret_name}}`
