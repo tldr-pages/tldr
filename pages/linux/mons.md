@@ -1,19 +1,19 @@
 # mons
 
-> quickly manage 2-monitors display
+> A tool to quickly manage two displays
 
-- Primary monitor only
+- Show primary monitor only;
 
 `mons -o`
 
-- Second monitory only
+- Show second monitory only:
 
 `mons -s`
 
-- Duplicates the primary monitor
+- Duplicate the primary monitor:
 
 `mons -d`
 
-- Mirrors the primary monitor
+- Mirror the primary monitor:
 
 `mons -m`
