@@ -27,6 +27,6 @@
 
 `k8sec load -f {{path/to/file}} {{secret_name}}`
 
-- Dump secrets as dotenv file:
+- Dump secrets to a file:
 
 `k8sec dump -f {{file_name}} {{secret_name}}`
