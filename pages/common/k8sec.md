@@ -25,7 +25,7 @@
 
 - Load secrets from a file:
 
-`k8sec load -f {{file_name}} {{secret_name}}`
+`k8sec load -f {{path/to/file}} {{secret_name}}`
 
 - Dump secrets as dotenv file:
 
