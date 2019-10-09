@@ -1,6 +1,5 @@
-
 # fnm
-> Fast and simple Node.js version manager.
+> Fast Node.js version manager.
 > Install, uninstall or switch between Node.js versions.
 > More info: <https://github.com/Schniz/fnm>.
 
