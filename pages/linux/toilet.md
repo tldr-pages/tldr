@@ -1,6 +1,6 @@
 # toilet
 
-> display large colorful characters
+> A tool to display ASCII-art fonts.
 
 - Generate by directly inputting text:
 
