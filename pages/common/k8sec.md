@@ -23,7 +23,7 @@
 
 `k8sec unset {{secret_name}}`
 
-- Load secrets from dotenv file:
+- Load secrets from a file:
 
 `k8sec load -f {{file_name}} {{secret_name}}`
 
