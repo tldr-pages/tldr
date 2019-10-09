@@ -5,7 +5,7 @@
 
 - Check or watch cluster health:
 
-`ceph {{status | -w}}`
+`ceph status`
 
 - Check cluster usage stats:
 
@@ -17,16 +17,16 @@
 
 - Create a storage pool:
 
-`ceph osd pool create {pool_name} {page_number}`
+`ceph osd pool create {{pool_name}} {{page_number}}`
 
 - Delete a storage pool:
 
-`ceph osd pool delete {pool_name} [--yes-i-really-really-mean-it]`
+`ceph osd pool delete {{pool_name}}`
 
 - Rename a storage pool:
 
-`ceph osd pool rename {current-pool-name} {new-pool-name}`
+`ceph osd pool rename {{current-pool-name}} {{new-pool-name}}`
 
 - Self-repair pool storage:
 
-`ceph pg repair {pool_name}`
+`ceph pg repair {{pool_name}}`
