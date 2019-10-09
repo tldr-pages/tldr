@@ -7,14 +7,14 @@
 
 `lastcomm`
 
-- Display commands executed by user:
+- Display commands executed by a given user:
 
 `lastcomm --user {{user}}`
 
-- Display informations about command executed on the system:
+- Display information about a given command executed on the system:
 
 `lastcomm --command {{command}}`
 
-- Display informations about terminal_name activities executed on the system:
+- Display information about commands executed on a given terminal:
 
 `lastcomm --tty {{terminal_name}}`
