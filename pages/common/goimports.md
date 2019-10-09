@@ -14,3 +14,7 @@
 - Display diffs and write the result back to the source file:
 
 `goimports -w -d {{file}}.go`
+
+- Set the import prefix string after 3rd-party packages (comma-separated list):
+
+`goimports -local {{/path/to/package}} {{file}}.go`
