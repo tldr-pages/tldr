@@ -33,4 +33,4 @@
 
 - Get offset for a topic/partition for a specific point in time:
 
-`kafkacat -Q -t {{topic}:{{partition}}:{{unix_timestamp}} -b {{brokers}}`
+`kafkacat -Q -t {{topic}}:{{partition}}:{{unix_timestamp}} -b {{brokers}}`
