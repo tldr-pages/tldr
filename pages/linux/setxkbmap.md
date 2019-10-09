@@ -8,7 +8,7 @@
 
 - Set multiple keyboard layouts, their variants and switching option:
 
-`setxkbmap -layout us,de -variant ,qwerty -option 'grp:alt_caps_toggle'`
+`setxkbmap -layout {{us,de}} -variant {{,qwerty}} -option {{'grp:alt_caps_toggle'}}`
 
 - Get help:
 
@@ -20,7 +20,7 @@
 
 - List variants for the layout:
 
-`localectl list-x11-keymap-variants de`
+`localectl list-x11-keymap-variants {{de}}`
 
 - List available switching options:
 
