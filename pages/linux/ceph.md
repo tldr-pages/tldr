@@ -13,7 +13,7 @@
 
 - Get the statistics for the placement groups in your cluster:
 
-`ceph pg dump [--format {{plain | json}}]`
+`ceph pg dump --format {{plain}}`
 
 - Create a storage pool:
 
