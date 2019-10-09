@@ -19,7 +19,7 @@
 
 `k8sec set --base64 {{secret_name}} {{key=encoded_value}}`
 
-- Unset secret:
+- Unset a secret:
 
 `k8sec unset {{secret_name}}`
 
