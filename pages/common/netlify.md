@@ -1,6 +1,6 @@
 # netlify
 
-> Depoy sites and configure continuous deployment to the Netlify platform.
+> Deploy sites and configure continuous deployment to the Netlify platform.
 > More information: <https://www.netlify.com/docs/cli/>.
 
 - Login to your Netlify account:
