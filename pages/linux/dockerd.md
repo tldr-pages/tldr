@@ -1,6 +1,6 @@
 # dockerd
 
-> Starting docker daemon, persistent process that manages docker containers.
+> A persistent process to start and manage docker containers.
 > More information: <https://docs.docker.com/engine/reference/commandline/dockerd/>.
 
 - Run docker daemon and config it to listening to specific sockets:
