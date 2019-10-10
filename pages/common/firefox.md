@@ -27,10 +27,6 @@
 
 `firefox --headless --screenshot {{path/to/output_file.png}} {{https://example.com/}}`
 
-- Use a specific profile directory to allow multiple separate instances of Firefox to run at once (not available for Windows):
-
-`firefox --new-instance --profile {{path/to/directory}} {{https://example.com/}}`
-
 - Create a new profile in the default directory without starting Firefox:
 
 `firefox --CreateProfile {{profile_name}}`
