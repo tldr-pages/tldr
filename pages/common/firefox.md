@@ -37,4 +37,4 @@
 
 - Set Firefox as default browser:
 
-`firefox --setDefaultBrowser
+`firefox --setDefaultBrowser`
