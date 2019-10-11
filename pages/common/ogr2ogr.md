@@ -9,7 +9,7 @@
 
 - Reproject a GeoPackage transforming coordinates from `EPSG:4326` to `EPSG:3857` :
 
-`ogr2ogr -s_srs {{EPSG:4326}} -t_srs {{EPSG:3857}} -f GPKG {{output.gpkg}} {{input.gpkg`}}
+`ogr2ogr -s_srs {{EPSG:4326}} -t_srs {{EPSG:3857}} -f GPKG {{output.gpkg}} {{input.gpkg}}`
 
 - Convert a CSV file into a GeoPackage, specifying the names of the coordinate columns and assigning a coordinate reference system:
 
