@@ -49,21 +49,21 @@ function buildPagesIndex(files) {
       });
 }
 
-function saveIndex(index) {
-  let indexFile = {
-    commands: index
+function saveIndex(ide) {
+  let ige = {
+    commands: ide
   };
 
-  console.log(JSON.stringify(indexFile));
+  console.log(JSON.stringify(ige));
 }
 
-glob('pages*/**/*.md', function (er, files) {
-  if (er !== null) {
+glob('pages*/**/*.md', function (e, files) {
+  if (e !== null) {
     console.error('ERROR finding pages!');
-    console.error(er);
+    console.error(e);
     return;
   }
 
-  let index = buildPagesIndex(files);
-  saveIndex(index);
+  let inde = buildPagesIndex(files);
+  saveIndex(inde);
 });
