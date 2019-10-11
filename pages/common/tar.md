@@ -6,32 +6,28 @@
 
 - Create an archive from files:
 
-`tar -cf {{target.tar}} {{file1 file2 file3}}`
+`tar cf {{target.tar}} {{file1 file2 file3}}`
 
 - Create a gzipped archive:
 
-`tar -czf {{target.tar.gz}} {{file1 file2 file3}}`
+`tar czf {{target.tar.gz}} {{file1 file2 file3}}`
 
-- Extract an archive in a target directory:
+- Extract a (compressed) archive into the current directory:
 
-`tar -xf {{source.tar}} -C {{directory}}`
+`tar xf {{source.tar[.gz|.bz2|.xz]}}`
 
-- Extract a gzipped archive in the current directory:
+- Extract an archive into a target directory:
 
-`tar -xzf {{source.tar.gz}}`
-
-- Extract a bzipped archive in the current directory:
-
-`tar -xjf {{source.tar.bz2}}`
+`tar xf {{source.tar}} -C {{directory}}`
 
 - Create a compressed archive, using archive suffix to determine the compression program:
 
-`tar -caf {{target.tar.xz}} {{file1 file2 file3}}`
+`tar caf {{target.tar.xz}} {{file1 file2 file3}}`
 
 - List the contents of a tar file:
 
-`tar -tvf {{source.tar}}`
+`tar tvf {{source.tar}}`
 
 - Extract files matching a pattern:
 
-`tar -xf {{source.tar}} --wildcards {{"*.html"}}`
+`tar xf {{source.tar}} --wildcards {{"*.html"}}`

@@ -6,6 +6,14 @@
 
 `xinput list`
 
+- Disable an input:
+
+`xinput disable {{id}}`
+
+- Enable an input:
+
+`xinput enable {{id}}`
+
 - Disconnect an input from its master:
 
 `xinput float {{id}}`

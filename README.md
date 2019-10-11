@@ -54,8 +54,6 @@ You can access these pages on your computer using one of the following clients:
 
 - [Alfred Workflow](https://github.com/cs1707/tldr-alfred)
 - Android clients:
-  - [tldr-viewer](https://github.com/gianasista/tldr-viewer), available on
-    [Google Play](https://play.google.com/store/apps/details?id=de.gianasista.tldr_viewer)
   - [tldroid](https://github.com/hidroh/tldroid), available on
     [Google Play](https://play.google.com/store/apps/details?id=io.github.hidroh.tldroid) *(outdated)*
 - Bash clients:
@@ -114,13 +112,8 @@ You can access these pages on your computer using one of the following clients:
   `devtools::install_github('kirillseva/tldrrr')`
 - [Ruby client](https://github.com/YellowApple/tldrb):
   `gem install tldrb`
-- Rust clients:
-    - [rust-tldr](https://github.com/rilut/rust-tldr)
-      (thin client with online lookup):
-      `cargo install tldr`
-    - [tealdeer](https://github.com/dbrgn/tealdeer)
-      (fully featured client with offline cache):
-      `cargo install tealdeer`
+- [Rust client](https://github.com/dbrgn/tealdeer):
+  `cargo install tealdeer`
 - [Vim Client](https://github.com/wlemuel/vim-tldr)
 - [Visual Studio Code extension](https://github.com/bmuskalla/vscode-tldr) available on [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=bmuskalla.vscode-tldr)
 - Web clients:
