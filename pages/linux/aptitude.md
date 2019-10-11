@@ -14,7 +14,7 @@
 
 `aptitude search {{package}}`
 
-- Search for an installed package. `?installed` is an aptitude search term:
+- Search for an installed package (`?installed` is an aptitude search term):
 
 `aptitude search '?installed({{package}})'`
 
