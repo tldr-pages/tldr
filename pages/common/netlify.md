@@ -3,15 +3,15 @@
 > Deploy sites and configure continuous deployment to the Netlify platform.
 > More information: <https://www.netlify.com/docs/cli/>.
 
-- Login to your Netlify account:
+- Login to a Netlify account:
 
 `netlify login`
 
-- Create a new deploy from the contents of a folder:
+- Create a new deploy from the contents of a directory:
 
 `netlify deploy`
 
-- Configure continuous deployment for a new or existing site:
+- Configure continuous deployment for a new or an existing site:
 
 `netlify init`
 
