@@ -7,7 +7,7 @@
 
 `k8sec list`
 
-- List a specific secret as base64-encoded string:
+- List a specific secret as a base64-encoded string:
 
 `k8sec list {{secret_name}} --base64`
 
