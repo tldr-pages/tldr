@@ -3,18 +3,18 @@
 > A tool to quickly manage two displays.
 > More information: <https://github.com/Ventto/mons>.
 
-- Show primary monitor only:
+- Enable only the primary monitor:
 
 `mons -o`
 
-- Show second monitory only:
+- Enable only the secondary monitor:
 
 `mons -s`
 
-- Duplicate the primary monitor:
+- Duplicate the primary monitor onto the secondary monitor:
 
 `mons -d`
 
-- Mirror the primary monitor:
+- Mirror the primary monitor onto the secondary monitor:
 
 `mons -m`
