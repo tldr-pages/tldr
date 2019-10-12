@@ -1,6 +1,6 @@
 # pywal
 
-> A tool to create colorschemes based on dominant colors of wallpaper.
+> A tool to create colorschemes based on dominant colors of a wallpaper.
 > Read more: https://github.com/dylanaraps/pywal.
 
 - Preview colorscheme:
