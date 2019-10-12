@@ -1,6 +1,6 @@
 # ceph
 
-> Ceph implements object storage on a single distributed computer cluster, and provides interfaces for object, block and file-level storage.
+> A unified storage system
 > More information: <https://ceph.io>.
 
 - Check cluster health status:
@@ -25,7 +25,7 @@
 
 - Rename a storage pool:
 
-`ceph osd pool rename {{current-pool-name}} {{new-pool-name}}`
+`ceph osd pool rename {{current-name}} {{new-name}}`
 
 - Self-repair pool storage:
 
