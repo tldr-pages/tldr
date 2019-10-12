@@ -1,7 +1,7 @@
 # toilet
 
 > A tool to display ASCII-art fonts.
-> <http://caca.zoy.org/wiki/toilet>.
+> More information: <http://caca.zoy.org/wiki/toilet>.
 
 - Generate ASCII art by directly inputting text:
 
