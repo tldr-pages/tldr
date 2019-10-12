@@ -4,15 +4,15 @@
 > For more information see commands: `csvclean`, `csvcut`, `csvformat`, `csvgrep`, `csvlook`, `csvpy`, `csvsort`, `csvstat`.
 > More information: <https://csvkit.readthedocs.io/en/0.9.1/cli.html>.
 
-- Run a command on a CSV file with the non default delimiter:
+- Run a command on a CSV file with a custom delimiter:
 
 `{{cmd}} -d {{delimiter}} {{filename.csv}}`
 
-- Run a command on a CSV file with a tab as a delimiter (overides -d):
+- Run a command on a CSV file with a tab as a delimiter (overrides -d):
 
 `{{cmd}} -t {{filename.csv}}`
 
-- Run a command on a CSV file with the non default quote character:
+- Run a command on a CSV file with a custom quote character:
 
 `{{cmd}} -q {{quote_char}} {{filename.csv}}`
 
