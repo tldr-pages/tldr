@@ -1,6 +1,6 @@
 # ceph
 
-> A unified storage system
+> A unified storage system.
 > More information: <https://ceph.io>.
 
 - Check cluster health status:
