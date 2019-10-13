@@ -20,8 +20,8 @@
 [license-url]: https://github.com/tldr-pages/tldr/blob/master/LICENSE.md
 [license-image]: https://img.shields.io/github/license/tldr-pages/tldr.svg
 
-Contributions to the tldr-pages project are [most welcome](GOVERNANCE.md)!
-All `tldr` pages are stored in Markdown right here on GitHub.
+Contributions to the TLDR-pages project are [most welcome](GOVERNANCE.md)!
+All `TLDR` pages are stored in Markdown right here on GitHub.
 Just open an issue or send a pull request and we'll incorporate it as soon as possible.
 To get started, please [sign](https://cla-assistant.io/tldr-pages/tldr) the
 [Contributor License Agreement](https://gist.github.com/waldyrious/e50feec13683e565769fbd58ce503d4e).
@@ -30,14 +30,14 @@ To get started, please [sign](https://cla-assistant.io/tldr-pages/tldr) the
 
 ## Guidelines
 
-The basic format of a `tldr` page is a set of concrete usage examples.
+The basic format of a `TLDR` page is a set of concrete usage examples.
 Here are a few guidelines to get started:
 
 1. Try to keep pages at around 5 examples. Pages can be longer if needed, but don't exceed 8 examples.
    Remember, it's OK if the page doesn't cover everything; that's what `man` is for.
 2. When in doubt, keep new command-line users in mind. Err on the side of clarity rather than terseness.
    For example, commands that require `sudo` should include it directly in the examples.
-3. Try to incorporate the spelled-out version of single-letter options in the example's description.
+3. Try to incorporate the spelt-out version of single-letter options in the example's description.
    The goal is to allow people to *understand* the syntax of the commands, not just *memorize* it.
 4. Introduce options gradually, starting with the simplest command invocations,
    and using more complex examples progressively.
@@ -91,7 +91,7 @@ Some examples of valid locale tags:
 
 ### Default language for newly added pages
 
-The default language used for pages is English (US). Pages written in English are stored in the default `pages` directory (notice the absence of a specific language tag). Although not strictly required, if you'd like to add a new page in a different language, please consider creating the English page too.
+The default language for pages is English (US). Pages written in English are stored in the default `pages` directory (notice the absence of a specific language tag). Although not strictly required, if you'd like to add a new page in a different language, please consider creating the English page too.
 
 ## Submitting a pull request
 
@@ -116,7 +116,7 @@ Examples:
 
 ## Licensing
 
-`tldr` is licensed under the [MIT license](https://github.com/tldr-pages/tldr/blob/master/LICENSE.md).
+`TLDR` is licensed under the [MIT license](https://github.com/tldr-pages/tldr/blob/master/LICENSE.md).
 
 Any contributions to this project are governed by the
 [Contributor License Agreement](https://cla-assistant.io/tldr-pages/tldr).
