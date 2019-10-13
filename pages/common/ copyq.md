@@ -19,14 +19,14 @@
 
 `copyq add {{firstline\nsecondline}}`
 
-- Print content of the first 3 items on the clipboard history:
+- Print the content of the first 3 items in the clipboard history:
 
 `copyq read 0 1 2`
 
-- Copy file contents into the clipboard:
+- Copy a file's contents into the clipboard:
 
 `copyq copy < file.txt`
 
-- Copy JPEG images into the clipboard:
+- Copy a JPEG image into the clipboard:
 
 `copyq copy image/jpeg < image.jpg`
