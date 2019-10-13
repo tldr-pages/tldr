@@ -23,6 +23,6 @@
 
 `chisel client {{server_ip}}:{{server_port}} {{local_host}}:{{local_port}}:{{remote_server}}:{{remote_port}}`
 
-- Connect to a chisel server using a username and password authentication:
+- Connect to a chisel server using username and password authentication:
 
 `chisel client --auth {{username}}:{{password}} {{server_ip}}:{{server_port}} {{local_port}}:{{remote_server}}:{{remote_port}}`
