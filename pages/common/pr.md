@@ -9,9 +9,9 @@
 
 - Print all files in parallel, one in each column without a header or footer:
 
-`pr -m -t {{file1 file2 file3}}`
+`pr -m -T {{file1 file2 file3}}`
 
-- Print all files beginning at 2 up to 5 with a given page length (including header and footer):
+- Print all files beginning at page 2 up to page 5 with a given page length (including header and footer):
 
 `pr +{{2}}:{{5}} -l {{page_length}} {{file1 file2 file3}}`
 
@@ -21,4 +21,4 @@
 
 - Print files with numbered lines, a custom centered header and date format:
 
-`pr -n -h "{{header}}" -D "{{%Y.%m.%d - %H:%M:%S}}" {{file1 file2 file3}}`
+`pr -n -h "{{header}}" -D "{{format}}" {{file1 file2 file3}}`
