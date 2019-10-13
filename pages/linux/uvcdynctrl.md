@@ -1,6 +1,6 @@
 # uvcdynctrl
 
-> libwebcam command line tool to manage dynamic controls in uvcvideo.
+> A libwebcam command line tool to manage dynamic controls in uvcvideo.
 
 - List all available cameras:
 
