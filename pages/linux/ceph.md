@@ -11,7 +11,7 @@
 
 `ceph df`
 
-- Get the statistics for the placement groups in your cluster:
+- Get the statistics for the placement groups in a cluster:
 
 `ceph pg dump --format {{plain}}`
 
@@ -25,7 +25,7 @@
 
 - Rename a storage pool:
 
-`ceph osd pool rename {{current-name}} {{new-name}}`
+`ceph osd pool rename {{current_name}} {{new_name}}`
 
 - Self-repair pool storage:
 
