@@ -3,18 +3,22 @@
 > A persistent process to start and manage docker containers.
 > More information: <https://docs.docker.com/engine/reference/commandline/dockerd/>.
 
-- Run docker daemon and config it to listening to specific sockets:
+- Run docker daemon:
 
-`dockerd --host {{socket1}} --host {{socket2}}`
+`dockerd`
 
-- Run docker daemon with specific daemon PID file:
+- Run docker daemon and config it to listen to specific sockets(unix,tcp):
+
+`dockerd --host unix://{{path/to/*.sock}} --host tcp://{{IP}}`
+
+- Run with specific daemon PID file:
 
 `dockerd --pidfile {{path/to/pid_file}}`
 
-- Run docker daemon in debug mode:
+- Run in debug mode:
 
-`dockerd --debug={{boolean}}`
+`dockerd --debug`
 
-- Run docker daemon, set it to log only specific log level or more severe events:
+- Run and set a specific log level:
 
-`dockerd --log-level={{log_level}}`
+`dockerd --log-level={{debug|info|warn|error|fatal}}`
