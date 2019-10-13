@@ -6,6 +6,6 @@
 
 `sudo reboot`
 
-- Reboot immediately without shutting down gracefully:
+- Reboot immediately without gracefully shutting down:
 
 `sudo reboot -q`
