@@ -7,7 +7,7 @@
 
 `netlify login`
 
-- Create a new deploy from the contents of a directory:
+- Deploy the contents of a directory to Netlify:
 
 `netlify deploy`
 
