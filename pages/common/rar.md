@@ -18,9 +18,9 @@
 
 `rar a -p{{password}} {{archive_name.rar}} {{path/to/file_or_directory}}`
 
-- Archive with password protected where even file lists are encrypted:
+- Archive, ecrypting file data and headers with password:
 
-`rar a -h{{password}} {{archive_name.rar}} {{path/to/file_or_directory}}`
+`rar a -hp{{password}} {{archive_name.rar}} {{path/to/file_or_directory}}`
 
 - Archive with a specified compression level (0-5):
 
