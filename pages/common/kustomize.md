@@ -7,11 +7,11 @@
 
 `kustomize create --resources {{deployment.yaml,service.yaml}} --namespace {{staging}}`
 
-- Build kustomization file and deploy it with kubectl:
+- Build kustomization file and deploy it with `kubectl`:
 
 `kustomize build . | kubectl apply -f -`
 
-- Set image in the kustomization file:
+- Set an image in the kustomization file:
 
 `kustomize edit set image {{busybox=alpine:3.6}}`
 
