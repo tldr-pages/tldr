@@ -31,6 +31,10 @@
 
 `firefox --CreateProfile {{profile_name}}`
 
+- Use a specific profile to allow multiple separate instances of Firefox to run at once:
+
+`firefox --profile {{path/to/directory}} {{https://example.com/}}`
+
 - Set Firefox as the default browser:
 
 `firefox --setDefaultBrowser`
