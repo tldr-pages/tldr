@@ -1,6 +1,7 @@
 # fd
 
-> A simple, fast and user-friendly alternative to `find`.
+> An alternative to `find`.
+> Aims to be faster and easier to use than `find`.
 > More information: <https://github.com/sharkdp/fd>.
 
 - Find files matching the given pattern in the current directory:

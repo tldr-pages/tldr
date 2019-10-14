@@ -1,0 +1,20 @@
+# toilet
+
+> A tool to display ASCII-art fonts.
+> More information: <http://caca.zoy.org/wiki/toilet>.
+
+- Generate ASCII art by directly inputting text:
+
+`toilet {{input_text}}`
+
+- Generate ASCII art using a custom font file:
+
+`toilet {{input_text}} -f {{font_file_name}}`
+
+- Generate ASCII art using a filter:
+
+`toilet {{input_text}} --filter {{filter_name}}`
+
+- Show available toilet filters:
+
+`toilet --filter list `

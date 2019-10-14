@@ -1,6 +1,6 @@
 # hugo
 
-> Hugo is a fast and flexible static site generator.
+> Template-based static site generator. Uses modules, components, and themes.
 > More information: <https://gohugo.io>.
 
 - Create a new Hugo site:

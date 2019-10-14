@@ -14,3 +14,7 @@
 - Display JDK, JRE and HotSpot versions:
 
 `java -version`
+
+- Display usage information for the java command:
+
+`java -help`
