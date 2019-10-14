@@ -31,6 +31,6 @@
 
 `firefox --CreateProfile {{profile_name}}`
 
-- Set Firefox as default browser:
+- Set Firefox as the default browser:
 
 `firefox --setDefaultBrowser`
