@@ -10,7 +10,7 @@
 
 `rar a {{archive_name.rar}} {{path/to/directory}}`
 
-- Archive and slit the file/files into parts of eqaul size (50M):
+- Archive and split the file/files into parts of equal size (50M):
 
 `rar a -v50M -R {{archive_name.rar}} {{path/to/file_or_directory}}`
 
