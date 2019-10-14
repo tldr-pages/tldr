@@ -11,10 +11,12 @@
 
 `mons -s`
 
-- Duplicate the primary monitor onto the secondary monitor:
+- Duplicate the primary monitor onto the secondary monitor, using the
+    resolution of the primary monitor:
 
 `mons -d`
 
-- Mirror the primary monitor onto the secondary monitor:
+- Mirror the primary monitor onto the secondary monitor, using the resolution
+    of the secondary monitor:
 
 `mons -m`
