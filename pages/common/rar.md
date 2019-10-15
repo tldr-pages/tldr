@@ -18,7 +18,7 @@
 
 `rar a -p{{password}} {{path/to/archive_name.rar}} {{path/to/file_or_directory}}`
 
-- Archive, ecrypting file data and headers with password:
+- Encrypt file data and headers with password:
 
 `rar a -hp{{password}} {{path/to/archive_name.rar}} {{path/to/file_or_directory}}`
 
