@@ -21,7 +21,7 @@
 
 - Destaque de sintaxe em um arquivo json:
 
-`bat --language json {{arquivo.json}}`
+`bat --language json {{caminho/para/arquivo.json}}`
 
 - Mostrar todas as linguagens suportadas:
 
