@@ -2,7 +2,7 @@
 
 > The RAR archiver. Supports multi-volume archives that can be optionally self-extracting.
 
-- Archive file/files:
+- Archive 1 or more files:
 
 `rar a {{path/to/archive_name.rar}} {{path/to/file1}} {{path/to/file2}} {{path/to/file3}}`
 
