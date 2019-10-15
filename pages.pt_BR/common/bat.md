@@ -11,10 +11,6 @@
 
 `bat {{caminho/para/arquivo1}} {{caminho/para/arquivo2}} > {{caminho/para/arquivo_destino}}`
 
-- Concatenar vários arquivos para um arquivo de destino:
-
-`bat {{caminho/para/arquivo1}} {{caminho/para/arquivo2}} >> {{caminho/para/arquivo_destino}}`
-
 - Numerar todas as linhas do output:
 
 `bat -n {{caminho/para/arquivo}}`
