@@ -14,7 +14,7 @@
 
 `rar a -v50M -R {{path/to/archive_name.rar}} {{path/to/file_or_directory}}`
 
-- Archive with password protected:
+- Password protect the resulting archive:
 
 `rar a -p{{password}} {{path/to/archive_name.rar}} {{path/to/file_or_directory}}`
 
