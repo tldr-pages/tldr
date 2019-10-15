@@ -17,7 +17,7 @@
 
 - Numerar todas as linhas do output:
 
-`bat -n {{arquivo}}`
+`bat -n {{caminho/para/arquivo}}`
 
 - Destaque de sintaxe em um arquivo json:
 
