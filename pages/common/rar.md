@@ -1,6 +1,6 @@
 # rar
 
-> An archive manager with compression ratio.
+> The RAR archiver. Supports multi-volume archives that can be optionally self-extracting.
 
 - Archive file/files:
 
