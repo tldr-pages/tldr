@@ -22,6 +22,6 @@
 
 `rar a -hp{{password}} {{path/to/archive_name.rar}} {{path/to/file_or_directory}}`
 
-- Archive with a specified compression level (0-5):
+- Use a specific compression level (0-5):
 
 `rar a -m{{compression_level}} {{path/to/archive_name.rar}} {{path/to/file_or_directory}}`
