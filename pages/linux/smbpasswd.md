@@ -2,11 +2,11 @@
 
 > Change a user's SMB password.
 
-- Change current user's SMB password:
+- Change the current user's SMB password:
 
 `smbpasswd`
 
-- Add specified user to Samba and set password(user should already exist in system):
+- Add a specified user to Samba and set password(user should already exist in system):
 
 `smbpasswd -a {{user_name}}`
 
@@ -14,6 +14,6 @@
 
 `smbpasswd {{user_name}}`
 
-- Delete Samba user:
+- Delete a Samba user:
 
 `smbpasswd -x {{user_name}}`
