@@ -8,4 +8,5 @@
 `whatis {{keyword}}`
 
 - Search for information about a multiple keywords:
+
 `whatis {{first_keyword}} {{second_keyword}}`
