@@ -1,7 +1,7 @@
 # bat
 
 > Imprimir e concatenar arquivos.
-> Um clone de `cat` com destaque de sintaxe e integraço com Git. 
+> Um clone de `cat` com destaque de sintaxe e integração com Git. 
 
 - Imprimir os conteúdos de um arquivo para a standard output:
 
