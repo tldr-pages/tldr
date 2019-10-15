@@ -19,7 +19,7 @@
 
 `bat -n {{arquivo}}`
 
-- Destaque de sintaxe em um arquivo de json:
+- Destaque de sintaxe em um arquivo json:
 
 `bat --language json {{arquivo.json}}`
 
