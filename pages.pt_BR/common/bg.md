@@ -6,6 +6,6 @@
 
 `bg`
 
-- Retomar um processo especifico (utilizando `jobs -l` para obter o seu ID), execuntando-o em fundo: 
+- Retomar um processo especifico (utilizando `jobs -l` para obter o seu ID), executando-o em fundo: 
 
 `bg {{id_processo}}`
