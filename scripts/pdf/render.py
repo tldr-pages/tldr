@@ -22,8 +22,7 @@ def main(loc, colorscheme):
 
     #Checking correctness of path
     if not os.path.isdir(loc):
-        print("Invalid directory. Please try again!", file = sys.stderr)
-        sys.exit(1)
+        raise ValueError("Invalid directory. Please try again!", file=sys.stderr)
 
     #Writing names of all directories inside 'pages' to a list
     for os_dir in os.listdir(loc):

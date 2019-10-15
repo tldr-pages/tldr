@@ -18,11 +18,6 @@ def post_comment(pr_id, comment_body):
   if f.getcode() != 200:
     print(f.read())
 
-
-# Get the environment variables
-PR_NUMBER = os.environ.get('TRAVIS_PULL_REQUEST')
-BUILD_ID = os.environ.get('TRAVIS_BUILD_ID')
-
 # Read the test result output from stdin
 test_result = sys.stdin.read().strip()
 # Populate the template text
@@ -34,8 +29,8 @@ comment = (
 "{comment_body}"
 "\n```\n"
 "Please fix the error(s) and push again."
-).format(build_id=BUILD_ID, comment_body=test_result)
+).format(build_id=os.environ.get('TRAVIS_BUILD_ID'), comment_body=test_result)
 
 # If it's a PR, post a comment on it
-if PR_NUMBER != "false":
-  post_comment(PR_NUMBER, comment)
+if os.environ.get('TRAVIS_PULL_REQUEST') != "false":
+  post_comment(os.environ.get('TRAVIS_PULL_REQUEST'), comment)
