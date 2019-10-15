@@ -13,7 +13,7 @@
 
 - Concatenar vários arquivos para um arquivo de destino:
 
-`bat {{arquivo1}} {{arquivo2}} >> {{arquivo_destino}}`
+`bat {{caminho/para/arquivo1}} {{caminho/para/arquivo2}} >> {{caminho/para/arquivo_destino}}`
 
 - Numerar todas as linhas do output:
 
