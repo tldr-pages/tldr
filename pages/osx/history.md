@@ -1,11 +1,11 @@
 # history
 
-> Shows last n commands in the terminal
+> Shows last n commands in the terminal.
 
-- Show full history
+- Show full history:
 
 `history`
 
-- Show history for n items
+- Show history for n items:
 
 `history n`
