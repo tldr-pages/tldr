@@ -15,7 +15,7 @@
 
 `bat -n {{caminho/para/arquivo}}`
 
-- Destaque de sintaxe em um arquivo json:
+- Ativar destaque de sintaxe em um arquivo json:
 
 `bat --language json {{caminho/para/arquivo.json}}`
 
