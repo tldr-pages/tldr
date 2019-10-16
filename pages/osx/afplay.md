@@ -6,14 +6,14 @@
 
 `afplay {{path/to/file}}`
 
-- Play a sound file at 2x speed:
+- Play a sound file at 2x speed (playback rate):
 
-`afplay -r 2 {{path/to/file}}`
+`afplay --rate 2 {{path/to/file}}`
 
 - Play a sound file at half speed:
 
-`afplay -r 0.5 {{path/to/file}}`
+`afplay --rate 0.5 {{path/to/file}}`
 
 - Play the first N seconds of a sound file:
 
-`afplay -t {{seconds}} {{path/to/file}}`
+`afplay --time {{seconds}} {{path/to/file}}`
