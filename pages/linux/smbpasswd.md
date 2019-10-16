@@ -1,6 +1,7 @@
 # smbpasswd
 
 > Change a user's SMB password.
+> Samba users must also have a local Unix account.
 
 - Change the current user's SMB password:
 
