@@ -3,7 +3,7 @@
 > A tool to display ASCII-art fonts.
 > More information: <http://caca.zoy.org/wiki/toilet>.
 
-- Generate ASCII art by directly inputting text:
+- Generate ASCII art for a given text:
 
 `toilet {{input_text}}`
 
