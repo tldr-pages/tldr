@@ -1,7 +1,7 @@
 # hexyl
 
 > A simple hex viewer for the terminal. Uses colored output to distinguish different categories of bytes.
-> More information: <https://github.com/sharkdp/hexyl>
+> More information: <https://github.com/sharkdp/hexyl>.
 
 - Print the hexadecimal representation of a file:
 
