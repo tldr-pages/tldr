@@ -14,11 +14,11 @@
 
 `uvcdynctrl -c`
 
-- Set a new control value (for negative values: `-s '{{control_name}}' -- -42`):
+- Set a new control value (for negative values, add -- before {{-value}}):
 
 `uvcdynctrl -s {{control_name}} {{value}}`
 
-- Retrieve the current control value:
+- Get the current control value:
 
 `uvcdynctrl -g {{control_name}}`
 
