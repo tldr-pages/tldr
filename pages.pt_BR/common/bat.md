@@ -16,7 +16,7 @@ Mais informações: <https://github.com/sharkdp/bat>.
 
 `bat -n {{caminho/para/arquivo}}`
 
-- Ativar destaque de sintaxe em um arquivo json:
+- Realçar a sintaxe em um arquivo JSON:
 
 `bat --language json {{caminho/para/arquivo.json}}`
 
