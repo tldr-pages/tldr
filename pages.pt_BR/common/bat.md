@@ -1,7 +1,8 @@
 # bat
 
 > Imprimir e concatenar arquivos.
-> Um clone de `cat` com destaque de sintaxe e integração com Git. 
+> Um clone do `cat` com realce de sintaxe e integração com Git. 
+Mais informações: <https://github.com/sharkdp/bat>.
 
 - Imprimir os conteúdos de um arquivo para a standard output:
 
