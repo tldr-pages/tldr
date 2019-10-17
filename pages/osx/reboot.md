@@ -4,8 +4,8 @@
 
 - Reboot immediately:
 
-`reboot`
+`sudo reboot`
 
 - Reboot immediately without gracefully shutting down:
 
-`reboot -f`
+`sudo reboot -q`
