@@ -31,6 +31,10 @@
 
 `docker rm {{container_name}}`
 
+- Remove all stopped containers:
+
+`docker rm $(docker ps -aq)`
+
 - Fetch and follow the logs of a container:
 
 `docker logs -f {{container_name}}`
