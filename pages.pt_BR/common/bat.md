@@ -4,7 +4,7 @@
 > Um clone do `cat` com realce de sintaxe e integração com Git. 
 Mais informações: <https://github.com/sharkdp/bat>.
 
-- Imprimir os conteúdos de um arquivo para a standard output:
+- Imprimir o conteúdo de um arquivo para a saída padrão:
 
 `bat {{arquivo}}`
 
