@@ -11,6 +11,6 @@
 
 `csshX user@hostname1 user@hostname2 '--ssh_args' '-i /path/to/ssh-key.pem'`
 
-- Connect to pre-defined cluster from /etc/clusters
+- Connect to pre-defined cluster from /etc/clusters:
 
 `csshX cluster1`
