@@ -7,9 +7,13 @@
 
 `tmux`
 
-- Start a new named tmux session:
+- Horizontally split the current pane into two terminals:
 
-`tmux new -s {{name}}`
+`Ctrl + B, "`
+
+- Vertically split the current pane into two terminals:
+
+`Ctrl + B, %`
 
 - List sessions:
 
@@ -19,17 +23,13 @@
 
 `tmux a`
 
-- Attach to a named session:
-
-`tmux a -t {{name}}`
-
 - Detach from session:
 
 `Ctrl + B, D`
 
 - Kill session:
 
-`tmux kill-session -t {{name}}`
+`tmux kill-session`
 
 - Kill session when attached:
 
