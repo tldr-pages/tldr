@@ -8,7 +8,7 @@ Mais informações: <https://github.com/sharkdp/bat>.
 
 `bat {{arquivo}}`
 
-- Concatenar vários arquivos para um arquivo de destino:
+- Concatenar vários arquivos em um arquivo de destino:
 
 `bat {{caminho/para/arquivo1}} {{caminho/para/arquivo2}} > {{caminho/para/arquivo_destino}}`
 
