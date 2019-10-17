@@ -1,6 +1,6 @@
 # arc
 
-> Arcanist(Arc) is a command-line interface to Phabricator.
+> Arcanist: A CLI for Phabricator.
 > More information <https://secure.phabricator.com/book/phabricator/article/arcanist/>.
 
 - Send your code to Differential for review:
