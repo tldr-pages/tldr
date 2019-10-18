@@ -3,7 +3,7 @@
 > Arcanist: A CLI for Phabricator.
 > More information <https://secure.phabricator.com/book/phabricator/article/arcanist/>.
 
-- Send your code to Differential for review:
+- Send the changes to Differential for review:
 
 `arc diff`
 
