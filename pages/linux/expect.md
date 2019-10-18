@@ -11,6 +11,6 @@
 
 `expect -c {{commands}}`
 
-- Enter expect interactive mode:
+- Enter expect interactive mode (use "exit" or "EOF" to exit):
 
 `expect -i`
