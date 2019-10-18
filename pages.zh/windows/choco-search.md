@@ -1,6 +1,6 @@
 # choco search
 
-> 使用 Chocolatey 搜索一个本地或远程的包。
+> 使用 Chocolatey 搜索一个本地或远程的包.
 
 - 搜索一个包：
 

@@ -1,8 +1,8 @@
 # dd
 
-> 转换并复制文件。
+> 转换并复制文件.
 
-- 从 isohybrid 文件（如 archlinux-xxx.iso）制作可用于引导系统启动的 USB 驱动器。
+- 从 isohybrid 文件（如 archlinux-xxx.iso）制作可用于引导系统启动的 USB 驱动器.
 
 `dd if={{文件.iso}} of=/dev/{{usb 设备}}`
 

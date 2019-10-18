@@ -1,7 +1,7 @@
 # bash
 
 > Bourne-Again SHell.
-> 兼容`sh`的命令行解释器。
+> 兼容`sh`的命令行解释器.
 > 更多信息 (English): <https://gnu.org/software/bash>.
 
 - 启动交互式 shell:

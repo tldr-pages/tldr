@@ -1,7 +1,7 @@
 # ansible
 
-> 通过 SSH 协议远程管理计算机组。
-> 使用 /etc/ansible/hosts 文件来添加组 / 主机。
+> 通过 SSH 协议远程管理计算机组.
+> 使用 /etc/ansible/hosts 文件来添加组 / 主机.
 > 主页：<https://www.ansible.com/>.
 
 - 列出给定组下的所有主机：

@@ -1,6 +1,6 @@
 # repair-bde
 
-> 尝试修复或解密损坏的 BitLocker 加密卷。
+> 尝试修复或解密损坏的 BitLocker 加密卷.
 
 - 尝试修复一个指定的卷：
 

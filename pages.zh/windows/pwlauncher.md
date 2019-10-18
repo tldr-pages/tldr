@@ -1,6 +1,6 @@
 # pwlauncher
 
-> 用于管理 Windows To Go 启动选项的命令行工具。
+> 用于管理 Windows To Go 启动选项的命令行工具.
 
 - 显示当前 Windows To Go 的状态：
 

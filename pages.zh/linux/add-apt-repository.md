@@ -1,6 +1,6 @@
 # add-apt-repository
 
-> apt 仓库管理。
+> apt 仓库管理.
 
 - 添加一个新的 apt 仓库：
 

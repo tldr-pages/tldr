@@ -1,6 +1,6 @@
 # ansible-playbook
 
-> 通过 SSH 协议在远程计算机上执行 playbook 中定义的任务。
+> 通过 SSH 协议在远程计算机上执行 playbook 中定义的任务.
 > 主页：<https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html>.
 
 - 执行 playbook 中的任务：
