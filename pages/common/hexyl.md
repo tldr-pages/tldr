@@ -9,12 +9,12 @@
 
 - Print the hexadecimal representation of a file, but interpret only n bytes of the input:
 
-`hexyl -n {{bytes_to_read}} {{file}}`
+`hexyl -n {{n}} {{file}}`
 
-- Print bytes N through M of a file:
+- Print bytes 512 through 1024 of a file:
 
-`hexyl -r {{N}}:{{M}} {{file}}`
+`hexyl -r {{512}}:{{1024}} {{file}}`
 
 - Print 512 bytes starting at the 1024th byte:
 
-`hexyl -r 1024:+512 {{file}}`
+`hexyl -r {{1024}}:+{{512}} {{file}}`
