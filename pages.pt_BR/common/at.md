@@ -1,6 +1,6 @@
 # at
 
-> Ferramenta para agendar comandos para o futuro.
+> Ferramenta para o agendamento de comandos.
 > O serviço atd (ou atrun) deve estar sendo executado para as atuais execuções.
 
 - Executar comandos da standard input em 5 minutos (pressionar `Ctrl + D`quando acabar):
