@@ -3,6 +3,10 @@
 > Python package manager.
 > More information: <https://pip.pypa.io>.
 
+- Find available packages:
+
+`pip3 search {{package_name}}`
+
 - Install a package:
 
 `pip3 install {{package_name}}`
