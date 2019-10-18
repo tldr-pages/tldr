@@ -12,7 +12,7 @@
 
 - Split the archive into parts of equal size (50M):
 
-`rar a -v50M -R {{path/to/archive_name.rar}} {{path/to/file_or_directory}}`
+`rar a -v{{50M}} -R {{path/to/archive_name.rar}} {{path/to/file_or_directory}}`
 
 - Password protect the resulting archive:
 
