@@ -1,6 +1,6 @@
 # choco info
 
-> 显示有关 Chocolatey 包的详细信息。
+> 显示有关 Chocolatey 包的详细信息.
 
 - 显示指定包的信息：
 

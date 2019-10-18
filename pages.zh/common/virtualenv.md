@@ -1,6 +1,6 @@
 # virtualenv
 
-> 创建被隔离的的 Python 虚拟环境。
+> 创建被隔离的的 Python 虚拟环境.
 > 更多信息：<https://virtualenv.pypa.io/>.
 
 - 创建新环境：

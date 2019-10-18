@@ -1,6 +1,6 @@
 # pathping
 
-> 一种结合了`ping`和`tracert`功能的跟踪路由工具。
+> 一种结合了`ping`和`tracert`功能的跟踪路由工具.
 
 - Ping 并追踪主机的路由：
 

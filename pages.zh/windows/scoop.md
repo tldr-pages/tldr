@@ -1,6 +1,6 @@
 # scoop
 
-> Windows 的命令行安装程序。
+> Windows 的命令行安装程序.
 
 - 安装一个包：
 

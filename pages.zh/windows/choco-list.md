@@ -1,6 +1,6 @@
 # choco list
 
-> 使用 Chocolatey 显示包列表。
+> 使用 Chocolatey 显示包列表.
 
 - 列出所有可用的包：
 

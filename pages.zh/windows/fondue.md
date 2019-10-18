@@ -1,6 +1,6 @@
 # fondue
 
-> 可选 Windows 功能的命令行安装程序。
+> 可选 Windows 功能的命令行安装程序.
 
 - 启用一个指定的 Windows 功能：
 

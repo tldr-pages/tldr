@@ -1,6 +1,6 @@
 # wget
 
-> 从网络上下载文件。
+> 从网络上下载文件.
 > 支持 HTTP, HTTPS, 和 FTP.
 > 更多信息：<https://www.gnu.org/software/wget>.
 

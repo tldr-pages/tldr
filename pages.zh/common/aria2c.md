@@ -1,6 +1,6 @@
 # aria2c
 
-> 快速下载工具。
+> 快速下载工具.
 > 支持 HTTP(S), FTP, SFTP, BitTorrent, and Metalink.
 
 - 下载一个 URI 到文件：
