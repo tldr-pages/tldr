@@ -11,6 +11,6 @@
 
 `ogrinfo {{input.gpkg}} {{layer_name}}`
 
-- Only show summary information about a specific layer:
+- Show summary information about a specific layer:
 
 `ogrinfo -so {{input.gpkg}} {{layer_name}}`
