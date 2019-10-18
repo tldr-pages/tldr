@@ -1,6 +1,6 @@
 # brew mas
 
-> Mas 是一个简单的 Mac App Store 命令行界面。
+> Mas 是一个简单的 Mac App Store 命令行界面.
 
 - 按应用名称搜索 Mac App Store 并返回匹配的标识符：
 

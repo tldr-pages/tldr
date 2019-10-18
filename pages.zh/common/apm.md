@@ -1,6 +1,6 @@
 # apm
 
-> Atom 编辑器的包管理工具。
+> Atom 编辑器的包管理工具.
 > 参见 `atom`.
 
 - 下载包：http://atom.io/packages 和主题 http://atom.io/themes:

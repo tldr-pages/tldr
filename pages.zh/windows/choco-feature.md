@@ -1,6 +1,6 @@
 # choco feature
 
-> Chocolatey 的交互功能。
+> Chocolatey 的交互功能.
 
 - 显示可用的功能列表：
 

@@ -1,15 +1,15 @@
 # ansible-galaxy
 
-> 创建和管理 Ansible 角色。
+> 创建和管理 Ansible 角色.
 > 主页：<https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html>.
 
 - 安装一个角色：
 
-`ansible-galaxy install {{用户名。角色名}}`
+`ansible-galaxy install {{用户名.角色名}}`
 
 - 移除一个角色：
 
-`ansible-galaxy remove {{用户名。角色名}}`
+`ansible-galaxy remove {{用户名.角色名}}`
 
 - 列出已安装的角色：
 

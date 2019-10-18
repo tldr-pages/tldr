@@ -1,6 +1,6 @@
 # apt-cache
 
-> Debian 和 Ubuntu 的包查询工具。
+> Debian 和 Ubuntu 的包查询工具.
 
 - 在当前的软件源中查找一个软件包：
 

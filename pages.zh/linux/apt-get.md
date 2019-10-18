@@ -1,7 +1,7 @@
 # apt-get
 
-> Debian 和 Ubuntu 的软件包管理工具。
-> 使用`apt-cache`查找包。
+> Debian 和 Ubuntu 的软件包管理工具.
+> 使用`apt-cache`查找包.
 
 - 更新可用软件包及其版本列表（推荐在其他`apt-get`命令运行之前使用）:
 

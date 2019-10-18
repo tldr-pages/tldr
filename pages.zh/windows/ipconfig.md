@@ -1,6 +1,6 @@
 # ipconfig
 
-> 显示和管理 Windows 的网络配置。
+> 显示和管理 Windows 的网络配置.
 
 - 显示网络适配器列表：
 

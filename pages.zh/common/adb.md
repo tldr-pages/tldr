@@ -1,6 +1,6 @@
 # adb
 
-> 安卓调试桥：与 Android 模拟器或已连接的 Android 设备通信。
+> 安卓调试桥：与 Android 模拟器或已连接的 Android 设备通信.
 
 - 检查 adb server 进程的是否在运行，并开启它：
 

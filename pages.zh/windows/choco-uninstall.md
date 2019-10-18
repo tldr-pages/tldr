@@ -1,6 +1,6 @@
 # choco uninstall
 
-> 使用 Chocolatey 卸载一个或多个包。
+> 使用 Chocolatey 卸载一个或多个包.
 
 - 卸载一个或多个用空格分隔的软件包：
 
