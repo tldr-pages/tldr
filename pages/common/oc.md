@@ -1,7 +1,7 @@
 # oc
 
 > The OpenShift Container Platform CLI exposes commands for managing your applications.
-> More information: https://docs.openshift.com/container-platform/3.11/cli_reference/get_started_cli.html.
+> More information: <https://docs.openshift.com/container-platform/3.11/cli_reference/get_started_cli.html>.
 
 - Log in to the OpenShift Container Platform server:
 
