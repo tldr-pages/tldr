@@ -3,7 +3,7 @@
 > Main git command for working with branches.
 > More information: <https://git-scm.com/docs/git-branch>.
 
-- List local branches. The current branch is highlighted by `*`:
+- List local branches. The current branch is highlighted by '*':
 
 `git branch`
 
