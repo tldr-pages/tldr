@@ -20,18 +20,18 @@
 
 `wget --mirror --no-parent {{https://example.com/somepath/}}`
 
-- 限制下载速度和重试次数：
+- 限制下载速度和重试次数:
 
 `wget --limit-rate={{300k}} --tries={{100}} {{https://example.com/somepath/}}`
 
-- 使用基本授权来从 HTTP/FTP 服务器中下载文件：
+- 使用基本授权来从 HTTP/FTP 服务器中下载文件:
 
 `wget --user={{username}} --password={{password}} {{https://example.com}}`
 
-- 继续一个未完成的下载任务：
+- 继续一个未完成的下载任务:
 
 `wget -c {{https://example.com}}`
 
-- 将指定文件中所有列出的 URL 下载到一个目录中：
+- 将指定文件中所有列出的 URL 下载到一个目录中:
 
 `wget -P {{path/to/directory}} -i {{URLs.txt}}`

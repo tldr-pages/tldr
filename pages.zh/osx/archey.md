@@ -14,6 +14,6 @@
 
 `archey --macports`
 
-- 显示系统信息，但不进行 IP 地址获取和验证：
+- 显示系统信息，但不进行 IP 地址获取和验证:
 
 `archey --offline`

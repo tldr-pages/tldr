@@ -3,7 +3,7 @@
 > JavaScript 和 Node.js package manager 的一个替代.
 > 更多信息：<https://yarnpkg.com>.
 
-- 全局安装一个模块：
+- 全局安装一个模块:
 
 `yarn global add {{module_name}}`
 
@@ -15,14 +15,14 @@
 
 `yarn add {{module_name}}@{{version}}`
 
-- 卸载一个模块并将其从 `package.json` 的依赖项中移除：
+- 卸载一个模块并将其从 `package.json` 的依赖项中移除:
 
 `yarn remove {{module_name}}`
 
-- 交互式地创建一个 `package.json` 文件：
+- 交互式地创建一个 `package.json` 文件:
 
 `yarn init`
 
-- 确认一个模块是否是一个依赖项并且列出依赖其的模块：
+- 确认一个模块是否是一个依赖项并且列出依赖其的模块:
 
 `yarn why {{module_name}}`

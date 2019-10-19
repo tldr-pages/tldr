@@ -5,14 +5,14 @@
 > 官方模板包括：webpack, webpack-simple, browserify, browserify-simple, simple.
 > 更多信息：<https://cli.vuejs.org>.
 
-- 从模板创建新项目：
+- 从模板创建新项目:
 
 `vue init {{template}} {{project_name}}`
 
-- 从本地模板创建新项目：
+- 从本地模板创建新项目:
 
 `vue init {{path/to/template_directory}} {{project_name}}`
 
-- 从 Github 上拉取模板并创建新项目：
+- 从 Github 上拉取模板并创建新项目:
 
 `vue init {{username}}/{{repo}} {{project_name}}`
