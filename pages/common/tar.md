@@ -6,11 +6,11 @@
 
 - Create an archive from files:
 
-`tar cf {{target.tar}} {{file1 file2 file3}}`
+`tar cf {{target.tar}} {{file1}} {{file2}} {{file3}}`
 
 - Create a gzipped archive:
 
-`tar czf {{target.tar.gz}} {{file1 file2 file3}}`
+`tar czf {{target.tar.gz}} {{file1}} {{file2}} {{file3}}`
 
 - Extract a (compressed) archive into the current directory:
 
@@ -22,7 +22,7 @@
 
 - Create a compressed archive, using archive suffix to determine the compression program:
 
-`tar caf {{target.tar.xz}} {{file1 file2 file3}}`
+`tar caf {{target.tar.xz}} {{file1}} {{file2}} {{file3}}`
 
 - List the contents of a tar file:
 
