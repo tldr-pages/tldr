@@ -2,7 +2,7 @@
 
 > Cocoa 应用程序的依赖性管理工具
 
-- 下载 Cartfile 中提到的所有依赖项的最新版本，并编译它们：
+- 下载 Cartfile 中提到的所有依赖项的最新版本，并编译它们:
 
 `carthage update`
 
