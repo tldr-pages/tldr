@@ -7,10 +7,10 @@
 
 `tldr {{command}}`
 
-- 展示 linux 下 tar 的 tldr 文档：
+- 展示 linux 下 tar 的 tldr 文档:
 
 `tldr -p {{linux}} {{tar}}`
 
-- 获取一个 git 子命令的帮助：
+- 获取一个 git 子命令的帮助:
 
 `tldr {{git checkout}}`

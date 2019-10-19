@@ -6,6 +6,6 @@
 
 `eval "{{echo foo}}"`
 
-- 在当前 shell 程序中设置变量：
+- 在当前 shell 程序中设置变量:
 
 `eval "{{foo=bar}}"`

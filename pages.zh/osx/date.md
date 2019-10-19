@@ -6,7 +6,7 @@
 
 `date +"%c"`
 
-- 以 UTC 和 ISO 8601 格式显示当前日期：
+- 以 UTC 和 ISO 8601 格式显示当前日期:
 
 `date -u +"%Y-%m-%dT%H:%M:%SZ"`
 

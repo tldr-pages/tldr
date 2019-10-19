@@ -2,7 +2,7 @@
 
 > macOS 上的软件包管理工具.
 
-- 搜索可用的命令行和软件安装包：
+- 搜索可用的命令行和软件安装包:
 
 `brew search {{软件名}}`
 
@@ -10,7 +10,7 @@
 
 `brew install {{软件名}}`
 
-- 列出已（通过 brew) 安装的命令行工具：
+- 列出已（通过 brew) 安装的命令行工具:
 
 `brew list`
 
@@ -18,7 +18,7 @@
 
 `brew upgrade {{软件名}}`
 
-- 从 GitHub 上升级 brew 和软件库到最新：
+- 从 GitHub 上升级 brew 和软件库到最新:
 
 `brew update`
 
@@ -30,7 +30,7 @@
 
 `brew info {{软件名}}`
 
-- 检查本地 Homebrew 安装是否存在潜在问题，并给出一些解决建议：
+- 检查本地 Homebrew 安装是否存在潜在问题，并给出一些解决建议:
 
 `brew doctor`
 
