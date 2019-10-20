@@ -5,7 +5,7 @@
 
 - Connect to multiple hosts:
 
-`csshX hostname1 hostname2`
+`csshX {{hostname1}} {{hostname2}}`
 
 - Connect to multiple hosts with ssh key:
 
