@@ -13,4 +13,4 @@
 
 - Connect to pre-defined cluster from /etc/clusters:
 
-`csshX cluster1`
+`csshX {{cluster1}}`
