@@ -1,16 +1,16 @@
 # expect
 
-> Programmed dialogue with interactive programs.
-> More intermation <https://linux.die.net/man/1/expect>.
+> Script executor that interacts with other programs that require user input.
+> More information: <https://linux.die.net/man/1/expect>.
 
-- Execute expect scripts from file:
+- Execute an expect script from a file:
 
-`expect {{file}}`
+`expect {{/path/to/file}}`
 
-- Execute expect commands from text:
+- Execute a specified expect script:
 
-`expect -c {{commands}}`
+`expect -c "{{commands}}"`
 
-- Enter expect interactive mode (use "exit" or "EOF" to exit):
+- Enter an interactive REPL (use `exit` or Ctrl + D to exit):
 
 `expect -i`
