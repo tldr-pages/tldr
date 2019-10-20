@@ -1,6 +1,6 @@
 # xcodebuild
 
-> 构建Xcode项目.
+> 构建 Xcode 项目.
 
 - 构建工作区:
 
