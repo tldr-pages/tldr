@@ -10,11 +10,11 @@
 
 - 将文件从 URL 保存到由 URL 指示的文件名中:
 
-`curl -O {{http://example.com/ 文件名}}`
+`curl -O {{http://example.com/filename}}`
 
 - 下载文件，跟随 [L] 重定向，并且自动 [C] 续传（恢复）前序文件传输:
 
-`curl -O -L -C - {{http://example.com/ 文件名}}`
+`curl -O -L -C - {{http://example.com/filename}}`
 
 - Send form-encoded data (POST request of type `application/x-www-form-urlencoded`):
 

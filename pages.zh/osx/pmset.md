@@ -11,15 +11,15 @@
 
 `pmset -g batt`
 
-- 当充电器通电时,将显示器设置为从不休眠:
+- 当充电器通电时，将显示器设置为从不休眠:
 
 `sudo pmset -c displaysleep 0`
 
-- 使用电池电源15分钟后将显示器设置为休眠:
+- 使用电池电源 15 分钟后将显示器设置为休眠:
 
 `sudo pmset -b displaysleep 15`
 
-- 安排计算机在每个工作日上午9点自动唤醒:
+- 安排计算机在每个工作日上午 9 点自动唤醒:
 
 `sudo pmset repeat wake MTWRF 09:00:00`
 
