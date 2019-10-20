@@ -22,6 +22,6 @@
 
 `aptitude upgrade`
 
-- 更新已安装的软件包（类似于`aptitude upgrade`), 移除过时的软件包并安装额外的软件包以满足新的软件包依赖项:
+- 更新已安装的软件包（类似于`aptitude upgrade`命令）， 移除过时的软件包并安装额外的软件包以满足新的软件包依赖项:
 
 `aptitude full-upgrade`

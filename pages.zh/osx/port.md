@@ -1,6 +1,6 @@
 # port
 
-> MacOS包管理器软件(类似brew).
+> MacOS 包管理器软件（类似 brew).
 
 - 搜索包:
 
@@ -14,7 +14,7 @@
 
 `port installed`
 
-- 更新 port 自身,并获取可用包的最新列表:
+- 更新 port 自身，并获取可用包的最新列表:
 
 `sudo port selfupdate`
 

@@ -4,11 +4,11 @@
 > 支持 HTTP, HTTPS, 和 FTP.
 > 更多信息：<https://www.gnu.org/software/wget>.
 
-- 将该 URL 的内容下载到文件中 （在这个例子中文件名为 "foo"):
+- 将该 URL 的内容下载到文件中 （在这个例子中文件名为 "foo"）:
 
 `wget {{https://example.com/foo}}`
 
-- 将该 URL 的内容下载到文件中 （在这个例子中文件名为 "bar"):
+- 将该 URL 的内容下载到文件中 （在这个例子中文件名为 "bar"）:
 
 `wget -O {{bar}} {{https://example.com/foo}}`
 
