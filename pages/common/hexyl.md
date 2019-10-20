@@ -7,7 +7,7 @@
 
 `hexyl {{file}}`
 
-- Print the hexadecimal representation of a file, but interpret only n bytes of the input:
+- Print the hexadecimal representation of the first n bytes of a file:
 
 `hexyl -n {{n}} {{file}}`
 
