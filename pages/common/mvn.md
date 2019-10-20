@@ -32,6 +32,14 @@
 
 `mvn clean -P{{profile}} package`
 
+- Run all tests in a project:
+
+`mvn test`
+
+- Run all tests in a class:
+
+`mvn test -Dtest={{classname}}`
+
 - Run a class with a main method:
 
 `mvn exec:java -Dexec.mainClass="{{com.example.Main}}" -Dexec.args="{{arg1 arg2}}"`
