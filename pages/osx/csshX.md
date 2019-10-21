@@ -7,7 +7,7 @@
 
 `csshX {{hostname1}} {{hostname2}}`
 
-- Connect to multiple hosts with ssh key:
+- Connect to multiple hosts with SSH key:
 
 `csshX {{user@hostname1}} {{user@hostname2}} '--ssh_args' '-i {{/path/to/ssh-key.pem}}'`
 
