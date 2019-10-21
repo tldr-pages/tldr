@@ -11,7 +11,7 @@
 
 `iotop -o`
 
-- Logging I/O usage, disable interactive mode:
+- Show I/O usage in non-interactive mode:
 
 `iotop -b`
 
