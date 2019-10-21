@@ -5,7 +5,7 @@
 
 - Execute an expect script from a file:
 
-`expect {{/path/to/file}}`
+`expect {{path/to/file}}`
 
 - Execute a specified expect script:
 
