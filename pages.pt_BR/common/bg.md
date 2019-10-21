@@ -2,7 +2,7 @@
 
 > Retomar a execução, em segundo plano, de processos que foram suspensos (e.g. utilizando `Ctrl + Z`) 
 
-- Retomar o processo que foi suspenso mais recentemente e executá-lo em segundo plano:
+- Retomar a execução, em segundo plano, do processo que foi suspenso mais recentemente:
 
 `bg`
 
