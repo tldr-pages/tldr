@@ -1,6 +1,6 @@
 # wine
 
-> Run Windows programs on Unix
+> Run Windows programs on Unix.
 > More information: <https://wiki.winehq.org/List_of_Commands>.
 
 - Run a program with args:
@@ -27,6 +27,6 @@
 
 `wine msiexec /i {{package}}`
 
-- Run GUI configuration tool for Wine
+- Run GUI configuration tool for Wine:
 
 `wine winecfg`
