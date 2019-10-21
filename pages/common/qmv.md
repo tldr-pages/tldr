@@ -1,13 +1,13 @@
 # qmv
 
 > Move files and directories with your favorite text editor.
-> More information: <https://www.nongnu.org/renameutils/>
+> More information: <https://www.nongnu.org/renameutils/>.
 
 - Move a single file (invoke an editor with source on the left, target on the right):
 
 `qmv {{source_file}}`
 
-- Move multiple JPG files.
+- Move multiple JPG files:
 
 `qmv {{*.jpg}}`
 

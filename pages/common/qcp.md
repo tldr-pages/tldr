@@ -1,7 +1,7 @@
 # qcp
 
 > Copy files with your favorite text editor.
-> More information: <https://www.nongnu.org/renameutils/>
+> More information: <https://www.nongnu.org/renameutils/>.
 
 - Copy a single file (invoke an editor with source on the left, target on the right):
 
