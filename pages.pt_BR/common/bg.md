@@ -6,6 +6,6 @@
 
 `bg`
 
-- Retomar um processo especifico (utilizando `jobs -l` para obter o seu ID), e executá-lo em segundo plano: 
+- Retomar a execução, em segundo plano, de um processo especifico (utilizando `jobs -l` para obter o seu ID): 
 
 `bg {{id_processo}}`
