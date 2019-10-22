@@ -13,11 +13,11 @@
 
 - Move directories:
 
-`qmv --directory {{my_directory/}} {{another_directory/}} {{the_other_directory/}}`
+`qmv -d {{directory/}} {{another_directory/}} {{the_other_directory/}}`
 
 - Move files/directories inside a directory:
 
-`qmv --recursive {{my_directory/}}`
+`qmv -R {{directory/}}`
 
 - Move files, but swap pattern in the editor -- target on the left and source on the right:
 
