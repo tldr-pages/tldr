@@ -7,7 +7,7 @@
 
 `ogr2ogr -f GPKG {{output}}.gpkg {{input}}.shp`
 
-- Change coordinate reference system of a GeoPackage from `EPSG:4326` to `EPSG:3857`
+- Change coordinate reference system of a GeoPackage from `EPSG:4326` to `EPSG:3857`:
 
 `ogr2ogr -s_srs {{EPSG:4326}} -t_srs {{EPSG:3857}} -f GPKG {{output}}.gpkg {{input}}.gpkg`
 
