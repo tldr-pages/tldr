@@ -13,12 +13,12 @@
 
 - Convert a CSV file into a GeoPackage, specifying the names of the coordinate columns and assigning a coordinate reference system:
 
-`ogr2ogr -f GPKG {{output}}.gpkg {{input}}.csv -oo X_POSSIBLE_NAMES={{lon}} -oo Y_POSSIBLE_NAMES={{lat}} -a_srs {{EPSG:4326}}`
+`ogr2ogr -f GPKG {{output}}.gpkg {{input}}.csv -oo X_POSSIBLE_NAMES={{longitude}} -oo Y_POSSIBLE_NAMES={{latitude}} -a_srs {{EPSG:4326}}`
 
 - Load a GeoPackage into a PostGIS database:
 
-`ogr2ogr -f "PostgreSQL" PG:dbname="{{my_database}}" {{input}}.gpkg`
+`ogr2ogr -f "PostgreSQL" PG:dbname="{{database_name}}" {{input}}.gpkg`
 
-- Filter GeoPackage by bounding box (<xmin> <ymin> <xmax> <ymax>):
+- Clip layers of a GeoPackage file to the given bounding box:
 
-`ogr2ogr -spat {{-13.931}} {{34.886}} {{46.23}} {{74.12}} -f GPKG {{output}}.gpkg {{input}}.gpkg`
+`ogr2ogr -spat {{min_x}} {{min_y}} {{max_x}} {{max_y}} -f GPKG {{output}}.gpkg {{input}}.gpkg`
