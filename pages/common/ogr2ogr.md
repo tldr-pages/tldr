@@ -19,6 +19,6 @@
 
 `ogr2ogr -f "PostgreSQL" PG:dbname="{{my_database}}" {{input}}.gpkg`
 
-- Filter GeoPackage by bounding box (<xmin> <ymin> <xmax> <ymax>):
+- Clip layers of a GeoPackage file to the given bounding box:
 
 `ogr2ogr -spat {{-13.931}} {{34.886}} {{46.23}} {{74.12}} -f GPKG {{output}}.gpkg {{input}}.gpkg`
