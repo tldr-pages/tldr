@@ -17,7 +17,7 @@
 
 - Load a GeoPackage into a PostGIS database:
 
-`ogr2ogr -f "PostgreSQL" PG:dbname="{{my_database}}" {{input}}.gpkg`
+`ogr2ogr -f "PostgreSQL" PG:dbname="{{database_name}}" {{input}}.gpkg`
 
 - Clip layers of a GeoPackage file to the given bounding box:
 
