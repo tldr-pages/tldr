@@ -12,18 +12,18 @@
 
 `oc new-project {{project_name}}`
 
-- Add a new app to project:
+- Add a new application to a project:
 
-`oc new-app {{git_link_or_docker_hub}} --name {{app_name}}`
+`oc new-app {{repo_url}} --name {{application}}`
 
 - Open a remote shell session to a container:
 
-`oc rsh {{pod}}`
+`oc rsh {{pod_name}}`
 
-- List pods in project:
+- List pods in a project:
 
 `oc get pods`
 
-- End the current session:
+- Logout from the current session:
 
 `oc logout`
