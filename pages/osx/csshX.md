@@ -7,10 +7,10 @@
 
 `csshX {{hostname1}} {{hostname2}}`
 
-- Connect to multiple hosts with SSH key:
+- Connect to multiple hosts with a given SSH key:
 
-`csshX {{user@hostname1}} {{user@hostname2}} '--ssh_args' '-i {{/path/to/ssh-key.pem}}'`
+`csshX {{user@hostname1}} {{user@hostname2}} '--ssh_args' '-i path/to/ssh-key.pem'`
 
-- Connect to pre-defined cluster from /etc/clusters:
+- Connect to a pre-defined cluster from /etc/clusters:
 
-`csshX {{cluster1}}`
+`csshX cluster1`
