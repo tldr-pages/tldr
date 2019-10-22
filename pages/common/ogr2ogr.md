@@ -13,7 +13,7 @@
 
 - Convert a CSV file into a GeoPackage, specifying the names of the coordinate columns and assigning a coordinate reference system:
 
-`ogr2ogr -f GPKG {{output}}.gpkg {{input}}.csv -oo X_POSSIBLE_NAMES={{lon}} -oo Y_POSSIBLE_NAMES={{lat}} -a_srs {{EPSG:4326}}`
+`ogr2ogr -f GPKG {{output}}.gpkg {{input}}.csv -oo X_POSSIBLE_NAMES={{longitude}} -oo Y_POSSIBLE_NAMES={{latitude}} -a_srs {{EPSG:4326}}`
 
 - Load a GeoPackage into a PostGIS database:
 
