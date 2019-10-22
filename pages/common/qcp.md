@@ -13,4 +13,4 @@
 
 - Copy files, but swap pattern in the editor -- target on the left and source on the right:
 
-`qcp --option swap {{IMG-*.jpg}}`
+`qcp --option swap {{*.jpg}}`
