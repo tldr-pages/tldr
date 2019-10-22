@@ -21,4 +21,4 @@
 
 - Clip layers of a GeoPackage file to the given bounding box:
 
-`ogr2ogr -spat {{-13.931}} {{34.886}} {{46.23}} {{74.12}} -f GPKG {{output}}.gpkg {{input}}.gpkg`
+`ogr2ogr -spat {{min_x}} {{min_y}} {{max_x}} {{max_y}} -f GPKG {{output}}.gpkg {{input}}.gpkg`
