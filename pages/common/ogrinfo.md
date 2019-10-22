@@ -5,7 +5,7 @@
 
 - List layers of a GeoPackage:
 
-`ogrinfo {{input.gpkg}}`
+`ogrinfo {{input}}.gpkg`
 
 - Get detailed information about a layer of a GeoPackage:
 
