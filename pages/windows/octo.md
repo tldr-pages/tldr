@@ -7,7 +7,7 @@
 
 `octo pack --id={{package_name}}`
 
-- Push package to repository on Octopus server:
+- Push a package to a repository on the Octopus server:
 
 `octo push --package={{package_name}}`
 
