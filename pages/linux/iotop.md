@@ -7,7 +7,7 @@
 
 `iotop`
 
-- Only show processes or threads actually doing I/O:
+- Show only processes or threads actually doing I/O:
 
 `iotop -o`
 
@@ -15,7 +15,7 @@
 
 `iotop -b`
 
-- Only I/O usage of processes(Normally iotop shows all threads):
+- Show only I/O usage of processes(Normally iotop shows all threads):
 
 `iotop -P`
 
@@ -23,9 +23,9 @@
 
 `iotop -p {{PID}}`
 
-- Show I/O usage of given USER:
+- Show I/O usage of given user:
 
-`iotop -u {{USER}}`
+`iotop -u {{user}}`
 
 - Show accumulated I/O instead of bandwidth:
 
