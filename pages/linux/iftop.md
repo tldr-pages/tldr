@@ -19,7 +19,7 @@
 
 `sudo iftop -b`
 
-- Show bandwidth usage without looking up hostname:
+- Show bandwidth usage without looking up hostnames:
 
 `sudo iftop -n`
 
