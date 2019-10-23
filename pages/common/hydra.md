@@ -3,26 +3,26 @@
 > Password brute forcing tool.
 > More information: <https://github.com/vanhauser-thc/thc-hydra/>.
 
-- Run hydra against an ftp server with username `user` and a password list `passlist.txt`:
+- Run hydra against an ftp server
 
-`hydra -l user -P passlist.txt ftp://192.168.0.1`
+`hydra -l {{Username}} -P {{Password List}} ftp://{{IP Address}}`
 
-- Run hydra against an imap server with user list `userlist.txt` and password `defaultpw`:
+- Run hydra against an imap server with plain authentication
 
-`hydra -L userlist.txt -p defaultpw imap://192.168.0.1/PLAIN`
+`hydra -L {{Username List}} -p {{Password}} imap://{{IP Address}}/PLAIN`
 
-- Run hydra against a pop3s server. `defaults.txt` should be a list in the form `user:password`:
+- Run hydra against a pop3s server. The credentials file should be a list in the form `user:password`:
 
-`hydra -C defaults.txt -6 pop3s://[2001:db8::1]:143/TLS:DIGEST-MD5`
+`hydra -C {{Credentials File}} -6 pop3s://[{{IP v6 Address}}]:{{Port}}/TLS:DIGEST-MD5`
 
-- Run hydra against all ftp servers in the `192.168.0.0/24` range, testing username `admin` and password `password`:
+- Run hydra against all ftp servers in an ip range, testing a specific username and password:
 
-`hydra -l admin -p password ftp://[192.168.0.0/24]/`
+`hydra -l {{Useaname}} -p {{Password}} ftp://[{{IP Address}}/{{Subnet}}]/`
 
-- Run hydra against ssh on all targets in `targets.txt` with every combination of usernames and passwords in `logins.txt` and `pws.txt`:
+- Run hydra against ssh on all a list of targets with every combination usernames and passwords:
 
-`hydra -L logins.txt -P pws.txt -M targets.txt ssh`
+`hydra -L {{Username List}} -P {{Password List}} -M {{Target list}} ssh`
 
-- Run hydra against an online login form. Put the username in the `username` post parameter and the password in the `password` parameter. Consider the request a failure if the response contains `Login Failed`:
+- Run hydra against an online login post form:
 
-`hydra -L logins.txt -P pws.txt 192.168.0.1 http-post-form "/dvwa/login.php:username=^USER^&password=^PASS^&Login=Login:Login failed"`
+`hydra -L {{Useaname List}} -P {{Password List}} {{IP Address}} http-post-form "/{{Path to login request}}:{{Useaname Parameter}}=^USER^&{{Password Parameter}}=^PASS^&{{Other parameters}}:{{String in failed responce}}"`
