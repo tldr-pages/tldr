@@ -3,11 +3,11 @@
 > Password brute forcing tool.
 > More information: <https://github.com/vanhauser-thc/thc-hydra/>.
 
-- Run hydra against an ftp server
+- Run hydra against an ftp server:
 
 `hydra -l {{Username}} -P {{Password List}} ftp://{{IP Address}}`
 
-- Run hydra against an imap server with plain authentication
+- Run hydra against an imap server with plain authentication:
 
 `hydra -L {{Username List}} -p {{Password}} imap://{{IP Address}}/PLAIN`
 
