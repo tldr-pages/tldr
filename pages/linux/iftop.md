@@ -3,25 +3,25 @@
 > Show bandwidth usage on an interface by host.
 > More information: <https://linux.die.net/man/8/iftop>.
 
-- Start to show the bandwidth usage(sufficient permission needed):
+- Start to show the bandwidth usage:
 
-`iftop`
+`sudo iftop`
 
-- Show bandwidth usage of given interface:
+- Show the bandwidth usage of a given interface:
 
-`iftop -i {{interface}}`
+`sudo iftop -i {{interface}}`
 
 - Show bandwidth usage with port information:
 
-`iftop -P`
+`sudo iftop -P`
 
 - Show bandwidth usage without bar graphs of traffic:
 
-`iftop -b`
+`sudo iftop -b`
 
-- Show bandwidth usage without hostname lookup:
+- Show bandwidth usage without looking up hostname:
 
-`iftop -n`
+`sudo iftop -n`
 
 - Get help about interactive commands:
 
