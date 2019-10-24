@@ -1,6 +1,6 @@
 # man
 
-> Utilitário para exibir páginas do manual
+> Utilitário para exibir páginas do manual.
 
 - Visualizar o manual de um comando:
 
