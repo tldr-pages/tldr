@@ -15,7 +15,7 @@
 
 `code {{caminho/para/arquivo-ou-diretório}}`
 
-- Abrir um arquivo ou diretório numa janela já aberta do VS Code: 
+- Abrir um arquivo ou diretório numa janela já aberta do VS Code:
 
 `code --reuse-window {{caminho/para/arquivo-ou-diretório}}`
 
