@@ -2,7 +2,7 @@
 
 > Outil de sauvegarde avec déduplication.
 > Crée des sauvegardes distantes ou locales qui peuvent être montées comme un système de fichiers.
-> Pour plus d'informations : <https://borgbackup.readthedocs.io/en/stable/usage/general.html>.
+> Plus d'informations : <https://borgbackup.readthedocs.io/en/stable/usage/general.html>.
 
 - Initialise un dépôt local :
 
