@@ -3,7 +3,7 @@
 > Système de gestion de versions décentralisé.
 > Plus d'informations : <https://git-scm.com/>.
 
-- Obtenir la versiond de Git :
+- Obtenir la version de Git :
 
 `git --version`
 
