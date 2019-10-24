@@ -3,7 +3,7 @@
 > Dynamic menu.
 > Creates a menu from a text input with each item on a new line.
 
-- Display a menu of the output of the "ls" command: 
+- Display a menu of the output of the "ls" command:
 
 `{{ls}} | dmenu`
 
