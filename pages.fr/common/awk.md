@@ -1,7 +1,7 @@
 # awk
 
 > Langage de programmation polyvalent pour travailler sur des fichiers.
-> Pour plus d'informations : <https://github.com/onetrueawk/awk>.
+> Plus d'informations : <https://github.com/onetrueawk/awk>.
 
 - Affiche la cinquième colonne (ou le champ) dans un fichier qui utilise des espaces comme séparateur :
 
