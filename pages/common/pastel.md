@@ -3,7 +3,7 @@
 > Generate, analyze, convert and manipulate colors.
 > More information: <https://github.com/sharkdp/pastel>.
 
-- Convert colors from one format to another:
+- Convert colors from one format to another. Here from RGB to HSL:
 
 `pastel format hsl {{ff8000}}`
 
