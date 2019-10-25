@@ -5,7 +5,7 @@
 
 - Convert colors from one format to another. Here from RGB to HSL:
 
-`pastel format hsl {{ff8000}}`
+`pastel format {{hsl}} {{ff8000}}`
 
 - Show and analyze colors on the terminal:
 
