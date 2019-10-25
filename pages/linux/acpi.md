@@ -20,4 +20,4 @@
 
 - Show all information:
 
-`acpi -V` 
+`acpi -V`
