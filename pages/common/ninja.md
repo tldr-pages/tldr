@@ -1,7 +1,7 @@
 # ninja
 
 > Build system designed to be fast.
-  More information: <https://ninja-build.org/manual.html>.
+> More information: <https://ninja-build.org/manual.html>.
 
 - Build in current directory:
 
