@@ -1,7 +1,7 @@
 # git commit
 
 > Commit les fichers dans le repository.
-> Plus d'information: <https://git-scm.com/docs/git-commit>.
+> Plus d'informations : <https://git-scm.com/docs/git-commit>.
 
 - Commit les fichiers en stage dans le repository avec un message :
 
