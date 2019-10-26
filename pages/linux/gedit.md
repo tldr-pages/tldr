@@ -5,16 +5,16 @@
 
 - Open a text file:
 
-`gedit {{file}}`
+`gedit {{path/to/file}}`
 
 - Open multiple text files:
 
-`gedit {{file1 file2}}`
+`gedit {{file1 file2 ...}}`
 
-- Display list of encodings:
+- Display list of supported encodings:
 
 `gedit --list-encodings`
 
-- Open text file with the specified encoding:
+- Open a text file with the specified encoding:
 
-`gedit --encoding={{encoding}} {{file}}`
+`gedit --encoding={{UTF-8}} {{path/to/file}}`
