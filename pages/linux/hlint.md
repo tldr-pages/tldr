@@ -22,5 +22,4 @@
 
 `hlint {{path/to/file}} --default > .hlint.yaml` 
 
-
-## Documentation [here](http://hackage.haskell.org/package/hlint)
+- Documentation [here](http://hackage.haskell.org/package/hlint)
