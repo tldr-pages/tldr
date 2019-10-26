@@ -1,6 +1,6 @@
 # hlint
 
-> Tool for suggesting improvements to Haskell code. These include alternative functions, simplifying code and spotting redundancies. (http://hackage.haskell.org/package/hlint)
+> Tool for suggesting improvements to Haskell code. These include alternative functions, simplifying code and spotting redundancies. (http://hackage.haskell.org/package/hlint).
 
 - To receive suggestions:
 
@@ -20,4 +20,4 @@
 
 - To generate a settings file ignoring all outstanding hints:
 
-`hlint {{path/to/file}} --default > .hlint.yaml` 
+`hlint {{path/to/file}} --default > .hlint.yaml`
