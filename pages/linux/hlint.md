@@ -18,4 +18,4 @@
 
 `hlint {{path/to/file}} --default > .hlint.yaml` (it may be edited)
 
-
+Documentation: http://hackage.haskell.org/package/hlint
