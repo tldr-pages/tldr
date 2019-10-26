@@ -13,11 +13,13 @@
 - To automatically apply most suggestions:
 
 `hlint {{path/to/file}} --refactor`
-(For additional options, do `--refactor-options`)
+
+- For additional options:
+
+`hlint {{path/to/file}} --refactor-options`
 
 - To generate a settings file ignoring all outstanding hints:
 
 `hlint {{path/to/file}} --default > .hlint.yaml` 
-(It may be edited)
 
-Documentation: http://hackage.haskell.org/package/hlint
+Documentation [here](http://hackage.haskell.org/package/hlint)
