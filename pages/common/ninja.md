@@ -11,7 +11,7 @@
 
 `ninja -C path/to/directory`
 
-- Show targets like install or unistall:
+- Show targets (e.g. `install` and `uninstall`):
 
 `ninja -t targets`
 
