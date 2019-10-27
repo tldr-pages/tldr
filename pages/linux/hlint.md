@@ -1,23 +1,24 @@
 # hlint
 
-> Tool for suggesting improvements to Haskell code. These include alternative functions, simplifying code and spotting redundancies. (http://hackage.haskell.org/package/hlint).
+> Tool for suggesting improvements to Haskell code. 
+> More information: <http://hackage.haskell.org/package/hlint>.
 
-- To receive suggestions:
+- Display suggestions for a given file:
 
 `hlint {{path/to/file}} options`
 
-- To check all Haskell files and generate a report:
+- Check all Haskell files and generate a report:
 
-`hlint {{path/to/file}} --report`
+`hlint {{path/to/directory}} --report`
 
-- To automatically apply most suggestions:
+- Automatically apply most suggestions:
 
 `hlint {{path/to/file}} --refactor`
 
-- For additional options:
+- Display additional options:
 
 `hlint {{path/to/file}} --refactor-options`
 
-- To generate a settings file ignoring all outstanding hints:
+- Generate a settings file ignoring all outstanding hints:
 
-`hlint {{path/to/file}} --default > .hlint.yaml`
+`hlint {{path/to/file}} --default > {{.hlint.yaml}}`
