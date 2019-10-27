@@ -1,7 +1,7 @@
 # wine
 
 > Run Windows programs on Unix.
-> More information: <https://www.winehq.org/>.
+> More information: <https://wiki.winehq.org/>.
 
 - Run a program with args:
 
