@@ -1,20 +1,20 @@
 # ninja
 
-> Build system designed to be fast.
+> A Build system designed to be fast.
 > More information: <https://ninja-build.org/manual.html>.
 
-- Build in current directory:
+- Build in the current directory:
 
 `ninja`
 
-- Build a program in DIR:
+- Build a program in a given directory:
 
-`ninja -C DIR`
-
-- Show help:
-
-`ninja -h`
+`ninja -C path/to/directory`
 
 - Show targets like install or unistall:
 
 `ninja -t targets`
+
+- Show help:
+
+`ninja -h`
