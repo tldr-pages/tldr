@@ -11,6 +11,6 @@
 
 `qcp {{*.jpg}}`
 
-- Copy files, but swap pattern in the editor -- target on the left and source on the right:
+- Copy files, but swap the positions of the source and the target in the editor:
 
 `qcp --option swap {{*.jpg}}`

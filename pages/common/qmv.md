@@ -19,6 +19,6 @@
 
 `qmv -R {{path/to/directory}}`
 
-- Move files, but swap pattern in the editor -- target on the left and source on the right:
+- Move files, but swap the positions of the source and the target in the editor:
 
 `qmv --option swap {{*.jpg}}`
