@@ -7,17 +7,9 @@
 
 `wine {{program}} {{program args}}`
 
-- Start a program:
+- Run a program with args in background:
 
 `wine start {{program}} {{program args}}`
-
-- Run Windows command line:
-
-`wine cmd`
-
-- Run Windows-like Task Manager:
-
-`wine taskmgr`
 
 - Run Windows-like Package Manager:
 
@@ -26,7 +18,3 @@
 - Install MSI packages:
 
 `wine msiexec /i {{package}}`
-
-- Run GUI configuration tool for Wine:
-
-`wine winecfg`
