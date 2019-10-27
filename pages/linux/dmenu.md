@@ -19,6 +19,6 @@
 
 `ls | dmenu -m {{1}}`
 
-- Display dmenu at the botton of the screen:
+- Display dmenu at the bottom of the screen:
 
 `ls | dmenu -b`
