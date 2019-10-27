@@ -9,16 +9,16 @@
 
 - Display a menu with custom items seperated by a new line (\n):
 
-`echo -e "{{green}}\n{{blue}}\n{{red}}" | dmenu`
+`echo -e "{{red}}\n{{green}}\n{{blue}}" | dmenu`
 
 - Let the user choose between multiple items and save the selected one into a file:
 
-`echo -e "{{green}}\n{{blue}}\n{{red}}" | dmenu > {{color.txt}}`
+`echo -e "{{red}}\n{{green}}\n{{blue}}" | dmenu > {{color.txt}}`
 
 - Launch dmenu on specific monitor:
 
 `ls | dmenu -m {{1}}`
 
-- Let dmenu appear on the bottom of the screen:
+- Display dmenu at the botton of the screen:
 
 `ls | dmenu -b`
