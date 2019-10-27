@@ -11,13 +11,13 @@
 
 `qmv {{*.jpg}}`
 
-- Move directories:
+- Move 3 directories:
 
-`qmv -d {{directory/}} {{another_directory/}} {{the_other_directory/}}`
+`qmv -d {{path/to/dir_1}} {{path/to/dir_2}} {{path/to/dir_3}}`
 
 - Move files/directories inside a directory:
 
-`qmv -R {{directory/}}`
+`qmv -R {{path/to/directory}}`
 
 - Move files, but swap pattern in the editor -- target on the left and source on the right:
 
