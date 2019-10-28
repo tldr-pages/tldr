@@ -7,6 +7,10 @@
 
 `sbt`
 
+- Create new Scala project from existing template on Github
+
+`sbt new {{scala/hello-world.g8}}`
+
 - Use the specified version of sbt:
 
 `sbt -sbt-version {{version}}`
