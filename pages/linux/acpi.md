@@ -6,7 +6,7 @@
 
 `acpi`
 
-- Show termal information:
+- Show thermal information:
 
 `acpi -t`
 
