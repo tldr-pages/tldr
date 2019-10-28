@@ -17,4 +17,4 @@
 
 - Specify the full context to run a command with:
 
-`runcon {{use}}_u:{{role}}_r:{{domain}}_t {{command}}`
+`runcon {{user}}_u:{{role}}_r:{{domain}}_t {{command}}`
