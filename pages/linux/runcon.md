@@ -1,7 +1,7 @@
 # runcon
 
 > Run a program in a different SELinux security context.
-> With neither CONTEXT nor COMMAND, print the current security context.
+> With neither context nor command, print the current security context.
 
 - Determine the current domain:
 
@@ -9,12 +9,12 @@
 
 - Specify the domain to run a command in:
 
-`runcon -t CONTEXT-TYPE_t {{command}}`
+`runcon -t {{domain}}_t {{command}}`
 
-- Specify the role type to run a command with:
+- Specify the context role to run a command with:
 
-`runcon -r ROLE_TYPE_r {{command}}`
+`runcon -r {{role}}_r {{command}}`
 
 - Specify the full context to run a command with:
 
-`runcon USER_TYPE_u:ROLE_TYPE_r:CONTEXT_TYPE_t {{command}}`
+`runcon {{use}}_u:{{role}}_r:{{domain}}_t {{command}}`
