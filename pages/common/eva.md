@@ -3,7 +3,7 @@
 > Simple calculator REPL, similar to `bc`, with syntax highlighting and persistent history.
 > More information <https://github.com/NerdyPepper/eva>.
 
-- Run calculator in interactive mode:
+- Run the calculator in interactive mode:
 
 `eva`
 
@@ -11,10 +11,10 @@
 
 `eva <<< "{{(1 + 2) * 2 ^ 2}}"`
 
-- Calculate expression and force number of decimal places to 5:
+- Calculate an expression forcing the number of decimal places to 5:
 
 `eva --fix {{5}} <<< "{{5 / 3}}"`
 
-- Calculate expression with sine and cosine:
+- Calculate an expression with sine and cosine:
 
 `eva <<< "{{sin(1) + cos(1)}}"`
