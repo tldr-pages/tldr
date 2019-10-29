@@ -18,6 +18,6 @@
 
 `wc -m {{file}}`
 
-- Omit the filename from the output:
+- Count lines in a file, omitting the filename from the output:
 
 `wc -l < {{file}}`
