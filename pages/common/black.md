@@ -1,6 +1,7 @@
 # black
 
 > A speedy Python auto code formatter.
+> https://github.com/psf/black
 
 
 - Auto-format a file or entire directory:
