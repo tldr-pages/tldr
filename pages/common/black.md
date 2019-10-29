@@ -1,8 +1,7 @@
 # black
 
 > A speedy Python auto code formatter.
-> https://github.com/psf/black
-
+> More information <https://github.com/psf/black>.
 
 - Auto-format a file or entire directory:
 
@@ -20,6 +19,6 @@
 
 `black --check {source_file_or_directory}`
 
-- Don't emit non-error messages to stderr.
+- Don't emit non-error messages to stderr:
 
 `black --quiet {source_file_or_directory}`
