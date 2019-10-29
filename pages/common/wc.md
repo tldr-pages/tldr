@@ -17,3 +17,7 @@
 - Count characters in file (taking multi-byte character sets into account):
 
 `wc -m {{file}}`
+
+- Omit the filename from the output
+
+`wc -l < {{file}}`
