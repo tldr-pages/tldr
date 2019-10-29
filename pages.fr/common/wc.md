@@ -17,4 +17,3 @@
 - Compte les caractères d'un fichier (en prenant en compte l'ensemble des caractères multi-octets) :
 
 `wc -m {{file}}`
-
