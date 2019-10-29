@@ -9,7 +9,7 @@
 
 - Build a program in a given directory:
 
-`ninja -C path/to/directory`
+`ninja -C {{path/to/directory}}`
 
 - Show targets (e.g. `install` and `uninstall`):
 
