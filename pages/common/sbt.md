@@ -7,7 +7,7 @@
 
 `sbt`
 
-- Create new Scala project from existing template on Github:
+- Create new Scala project from an existing Giter8 template hosted on GitHub:
 
 `sbt new {{scala/hello-world.g8}}`
 
