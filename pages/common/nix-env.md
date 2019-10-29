@@ -19,6 +19,10 @@
 
 `nix-env -i {{pkg_name}}`
 
+- Install a package from a URL:
+
+`nix-env -i {{pkg_name}} --file {{example.com}}`
+
 - Uninstall package:
 
 `nix-env -e {{pkg_name}}`
