@@ -33,7 +33,9 @@ If you are an owner of the organization, you should be able to see an automated 
    [9 May 2019](https://github.com/tldr-pages/tldr/issues/2988) - present
  - **Ivan Aracki ([@Aracki](https://github.com/Aracki))**:
    [9 May 2019](https://github.com/tldr-pages/tldr/issues/2988) - present
-   
+ - **Ein Verne ([@einverne](https://github.com/einverne))**:
+   [29 October 2019](https://github.com/tldr-pages/tldr/issues/3488) - present
+
 
 ## Organization members
 
