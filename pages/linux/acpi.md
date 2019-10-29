@@ -14,7 +14,7 @@
 
 `acpi -c`
 
-- Show thermal information using fahrenheit:
+- Show thermal information using Fahrenheit:
 
 `acpi -tf`
 
