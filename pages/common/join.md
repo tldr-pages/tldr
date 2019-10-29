@@ -6,7 +6,7 @@
 
 `join {{file1}} {{file2}}`
 
-- Join two files using a comma (instead of space) as a field separator:
+- Join two files using a comma (instead of a space) as the field separator:
 
 `join -t {{','}} {{file1}} {{file2}}`
 
