@@ -26,3 +26,7 @@
 - Follow logs for all containers:
 
 `docker-compose logs --follow`
+
+- Lists all running containers:
+
+`docker-compose ps`
