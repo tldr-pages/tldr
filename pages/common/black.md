@@ -5,7 +5,7 @@
 
 - Auto-format a file or entire directory:
 
-`black {source_file_or_directory}`
+`black {{path/to/file_or_directory}}`
 
 - Format the code passed in as a string:
 
