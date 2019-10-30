@@ -19,6 +19,6 @@
 
 `black --check {{path/to/file_or_directory}}`
 
-- Don't emit non-error messages to stderr:
+- Auto-format a file or directory without emitting non-error messages to stderr:
 
 `black --quiet {{source_file_or_directory}}`
