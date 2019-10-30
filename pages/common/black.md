@@ -15,7 +15,7 @@
 
 `black --diff {{path/to/file_or_directory}}`
 
-- Don't write the files back, just return the status:
+- Return the status without writing the files back:
 
 `black --check {{path/to/file_or_directory}}`
 
