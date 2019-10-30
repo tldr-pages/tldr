@@ -17,7 +17,7 @@
 
 - Don't write the files back, just return the status:
 
-`black --check {{source_file_or_directory}}`
+`black --check {{path/to/file_or_directory}}`
 
 - Don't emit non-error messages to stderr:
 
