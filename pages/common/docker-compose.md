@@ -3,6 +3,10 @@
 > Run and manage multi container docker applications.
 > More information: <https://docs.docker.com/compose/reference/overview/>.
 
+- List all running containers:
+
+`docker-compose ps`
+
 - Create and start all containers in the background using a `docker-compose.yml` file from the current directory:
 
 `docker-compose up -d`
