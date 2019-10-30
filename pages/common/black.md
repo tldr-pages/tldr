@@ -9,7 +9,7 @@
 
 - Format the code passed in as a string:
 
-`black -c {{source_file_or_directory}}`
+`black -c {{path/to/file_or_directory}}`
 
 - Output a diff for each file on stdout:
 
