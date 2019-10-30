@@ -21,4 +21,4 @@
 
 - Auto-format a file or directory without emitting non-error messages to stderr:
 
-`black --quiet {{source_file_or_directory}}`
+`black --quiet {{path/to/file_or_directory}}`
