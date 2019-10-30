@@ -1,7 +1,7 @@
 # ethtool
 
-> ethtool is a utility for displaying and modifying parameters of network interface controllers (NICs).
+> Displays and modifies Network Interface Controller (NIC) parameters.
 
-- Set the link speed, duplex, and speed autonegotiation
+- Set the link speed, duplex, and speed autonegotiation:
 
-ethtool -s {{interface}} speed {{10/100/1000}} duplex {{half/full}} autoneg {{on/off}}
+`ethtool -s {{interface}} speed {{10/100/1000}} duplex {{half/full}} autoneg {{on/off}}`
