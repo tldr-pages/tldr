@@ -1,17 +1,17 @@
 # git clone
 
-> Clone un repository existant.
+> Clone un dépôt existant.
 > Plus d'informations : <https://git-scm.com/docs/git-clone>.
 
-- Clone un repository existant :
+- Clone un dépôt existant :
 
 `git clone {{remote_repository_location}}`
 
-- Clone un repository existant et ses sous-modules : 
+- Clone un dépôt existant et ses sous-modules :
 
 `git clone --recursive {{remote_repository_location}}`
 
-- Pour cloner depuis une machine local :
+- Clone un dépôt local :
 
 `git clone -l`
 
@@ -19,6 +19,6 @@
 
 `git clone -q`
 
-- Clone un repository existant, et reduit le repository au nombre de revision spécifié :
+- Clone un dépôt existant en ne récupérant que les 10 commits les plus récents sur la branche par défaut (plus rapide) :
 
 `git clone --depth {{10}} {{remote_repository_location}}`

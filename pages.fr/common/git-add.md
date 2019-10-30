@@ -7,11 +7,11 @@
 
 `git add {{path/to/file}}`
 
-- Ajouter tous les fichiers (suivi et non-suivi) :
+- Ajouter tous les fichiers (suivis et non-suivis) :
 
 `git add -A`
 
-- Ajoute les modifications des fichers déjà suivi :
+- Ajoute les modifications des fichers déjà suivis :
 
 `git add -u`
 

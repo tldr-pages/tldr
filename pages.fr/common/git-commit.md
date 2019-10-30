@@ -3,12 +3,11 @@
 > Commit les fichers dans le repository.
 > Plus d'informations : <https://git-scm.com/docs/git-commit>.
 
-- Commit les fichiers en stage dans le repository avec un message :
+- Commit les fichiers en stage dans le dépôt avec un message :
 
 `git commit -m {{message}}`
 
 - Commit tous les fichiers modifiés avec un message :
-- Auto stage all modified files and commit with a message:
 
 `git commit -a -m {{message}}`
 
