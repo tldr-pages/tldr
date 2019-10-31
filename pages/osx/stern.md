@@ -1,20 +1,24 @@
 # Stern
 
-> Tail Logs form multiple pods and multiple containers on Kubernetes.
-> Reference: <https://github.com/wercker/stern>.
+> Tail Logs from multiple pods and multiple containers on Kubernetes.
+> More information: <https://github.com/wercker/stern>.
 
-- Tail logs of container "nginx" inside pod "nginx-pod" from namespace "production":
+- Tail logs from specific namespace:
 
-`stern nginx-pod --container nginx --namespace "production"`
+`stern <POD> --container <CONTAINER> --namespace <NAMESPACE>`
 
-- Tail logs of container "nginx" inside pod "nginx-pod" using particular kubeconfig:
+- Tail logs using particular kubeconfig:
 
-`stern nginx-pod --container nginx --kubeconfig "~/.kube/config_prod"`
+`stern <POD> --container <CONTAINER> --kubeconfig <KUBECONFIG_PATH>`
 
-- Tail logs since last 2 hours from container "nginx" inside pod "nginx-pod" from namespace "production":
+- Tail logs since last 2 hours:
 
-`stern nginx-pod --container nginx --namespace "production" --since 2h`
+`stern <POD> --container <CONTAINER> --since 2h`
 
-- Tail logs of container "nginx" inside pods with label "component=serving,app=nginx" across all namespaces :
+- Tail logs from pods having label "KEY1=VALUE1,KEY2=VALUE2" across all namespaces:
 
-`stern --container nginx -l "component=serving,app=nginx" --all-namespaces`
+`stern --container <CONTAINER> -l "KEY1=VALUE1,KEY2=VALUE2" --all-namespaces`
+
+- Tail logs from containers whose name starts with "XYZ":
+
+`stern <POD> --container "XYZ*"`
