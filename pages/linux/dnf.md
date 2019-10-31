@@ -6,10 +6,6 @@
 
 `sudo dnf install {{package}}`
 
-- Install a new package and assume yes to all questions:
-
-`sudo dnf -y install {{package}}`
-
 - Remove a package:
 
 `sudo dnf remove {{package}}`
@@ -17,3 +13,15 @@
 - Upgrade installed packages to newest available versions:
 
 `sudo dnf upgrade`
+
+- List installed packages:
+
+`dnf list --installed`
+
+- Search packages via keyword:
+
+`sudo dnf search {{keyword}}`
+
+- Find what package provides the given value:
+
+`sudo dnf provides {{value}}`
