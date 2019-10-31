@@ -7,6 +7,10 @@
 
 `spotify play {{song name}}`
 
+- Find a playlist by name and play it:
+
+`spotify play list {{playlist name}}`
+
 - Pause (or resume) playback:
 
 `spotify pause`
