@@ -9,4 +9,12 @@
 
 - Copy the contents of a file to the Windows clipboard:
 
-`clip < {{path/to/file}}`
+`clip < {{path/to/file.ext}}`
+
+- Copy text with a trailing newline to the Windows clipboard:
+
+`echo {{some text}} | clip`
+
+- Copy text without a trailing newline to the Windows clipboard:
+
+`echo | set /p="some text" | clip`
