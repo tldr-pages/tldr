@@ -18,4 +18,3 @@
 - Tail logs of container "nginx" inside pods with label "component=serving,app=nginx" across all namespaces :
 
 `stern --container nginx -l "component=serving,app=nginx" --all-namespaces`
-
