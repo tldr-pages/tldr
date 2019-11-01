@@ -8,7 +8,7 @@
 
 `podman ps`
 
-- List all containers (running and stopped):
+- List all containers (both running and stopped):
 
 `podman ps --all`
 
@@ -20,7 +20,7 @@
 
 `podman stop {{container_name}} {{container_id}}`
 
-- Pull an image from a registry (Docker Hub):
+- Pull an image from a registry (defaults to the Docker Hub):
 
 `podman pull {{image_name}}:{{image_tag}}`
 
