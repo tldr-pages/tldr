@@ -13,7 +13,7 @@
 
 - Display the last 2 hours worth of logs, tailing for newer ones:
 
-`stern {{pod}} --container {{container}} --since {{2h}}`
+`stern {{pod_name}} --container {{container}} --since {{2h}}`
 
 - Tail logs from pods that have specific labels across all namespaces:
 
