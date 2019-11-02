@@ -1,15 +1,15 @@
-# shpotify
+# spotify
 
 > A command-line interface to Spotify.
 > More information: <https://github.com/hnarayanan/shpotify>.
 
 - Find a song by name and play it:
 
-`spotify play {{song name}}`
+`spotify play {{song_name}}`
 
 - Find a playlist by name and play it:
 
-`spotify play list {{playlist name}}`
+`spotify play list {{playlist_name}}`
 
 - Pause (or resume) playback:
 
@@ -23,6 +23,6 @@
 
 `spotify vol {{up|down|value}}`
 
-- Show the play status and song details:
+- Show the playback status and song details:
 
 `spotify status`
