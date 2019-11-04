@@ -1,6 +1,6 @@
 # gcc
 
-> Preprocesses and compiles C and C++ source files, then assembles and links them together.
+> Preprocess and compile C and C++ source files, then assemble and link them together.
 > More information: <https://gcc.gnu.org>.
 
 - Compile multiple source files into executable:
