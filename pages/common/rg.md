@@ -24,7 +24,7 @@
 
 `rg {{pattern}} -g {{glob}}`
 
-- Only list matched files -- useful when piping to other commands:
+- Only list matched files (useful when piping to other commands):
 
 `rg --files-with-matches {{pattern}}`
 
