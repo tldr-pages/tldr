@@ -25,7 +25,7 @@
 
 - Stop and remove all containers, networks, images, and volumes:
 
-`docker-compose down`
+`docker-compose down --rmi all --volumes`
 
 - Follow logs for all containers:
 
