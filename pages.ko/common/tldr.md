@@ -8,7 +8,7 @@
 tldr {{command}}
 ```
 
-- linux에서 tar에 대한 tldr 문서를 표시하기:
+- linux에서 tar에 대한 tldr 문서 표시하기:
 
 ```
 tldr -p {{linux}} {{tar}}
