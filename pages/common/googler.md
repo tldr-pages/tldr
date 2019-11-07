@@ -3,7 +3,7 @@
 > Search Google from command line.
 > More information: <https://github.com/jarun/googler>.
 
-- Search keywords:
+- Search Google for a keyword:
 
 `googler {{keyword}}`
 
@@ -19,7 +19,7 @@
 
 `googler -x {{keyword}}`
 
-- Show Google search result in json format:
+- Show Google search result in JSON format:
 
 `googler --json {{keyword}}`
 
