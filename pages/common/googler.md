@@ -19,6 +19,10 @@
 
 `googler -x {{keyword}}`
 
+- Search one site for a keyword:
+
+`googler -w {{site}} {{keyword}}`
+
 - Show Google search result in JSON format:
 
 `googler --json {{keyword}}`
@@ -26,3 +30,7 @@
 - Perform in-place self-upgrade:
 
 `googler -u`
+
+- For more help in interactive mode:
+
+`?`
