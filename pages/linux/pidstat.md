@@ -2,7 +2,7 @@
 
 > Show system resource usage, including CPU, memory, IO etc.
 
-- Show CPU statistics at two second intervals for 10 times:
+- Show CPU statistics at M second intervals for N times:
 
 `pidstat {{interval}} {{times}}`
 
@@ -10,7 +10,7 @@
 
 `pidstat -r`
 
-- Show io usage per process id:
+- Show input/output usage per process id:
 
 `pidstat -d`
 
@@ -20,4 +20,4 @@
 
 - Show memory statistics for all processes whose command name inclues string "fox" or "bird":
 
-`pidstat -C "fox|bird" -r -p ALL`
+`pidstat -C "{{fox|bird}}" -r -p ALL`
