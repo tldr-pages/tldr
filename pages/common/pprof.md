@@ -1,9 +1,9 @@
 # pprof
 
-> Comand-line tool for visualization and analysis of profiling data.
+> Command-line tool for visualization and analysis analysis of profile data.
 > More information: <https://github.com/google/pprof>.
 
-- Generate a text report from fibbo-profile.pb.gz profile data on fibbo binary:
+- Generate a text report from `fibbo-profile.pb.gz` file, on fibbo binary:
 
 `pprof -top {{./fibbo}} {{./fibbo-profile.pb.gz}}`
 
@@ -11,7 +11,7 @@
 
 `pprof -svg {{./fibbo}} {{./fibbo-profile.pb.gz}}`
 
-- Run pprof on interactive mode and customize your report with pprof command:
+- Run pprof on interactive mode to be able to manually launch pprof command on your file:
 
 `pprof {{./fibbo}} {{./fibbo-profile.pb.gz}}`
 
@@ -21,4 +21,4 @@
 
 - Fetch a profile from an HTTP server and generate a report:
 
-`pprof {{http://localhost:8080/debug/pprof/profile}}`
+`pprof {{http://localhost:8080/debug/pprof}}`
