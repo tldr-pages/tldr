@@ -6,6 +6,10 @@
 
 `sudo dnf install {{package}}`
 
+- Install a new package and assume yes to all questions:
+
+`sudo dnf -y install {{package}}`
+
 - Remove a package:
 
 `sudo dnf remove {{package}}`
