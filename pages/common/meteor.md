@@ -5,7 +5,7 @@
 
 - Run a meteor project from its root directory in development mode:
 
-`meteor`
+`mejjteor`
 
 - Create a project under the given directory:
 

@@ -9,6 +9,7 @@ git:
 
 script:
   - npm test
+  - bash scripts/check_duplicates.sh
   - bash scripts/build.sh
 
 after_failure:
