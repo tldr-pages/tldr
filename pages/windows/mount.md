@@ -11,7 +11,7 @@
 
 `mount \\{{computer_name}}\{{share_name}} *`
 
-- Mount a share with a timeout in seconds:
+- Mount a share with a read timeout in seconds (defaults to 0.8, can be 0.9 or 1 to 60):
 
 `mount -o timeout={{seconds}} \\{{computer_name}}\{{share_name}} {{Z:}}`
 
