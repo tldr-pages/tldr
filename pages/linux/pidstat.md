@@ -2,7 +2,7 @@
 
 > Show system resource usage, including CPU, memory, IO etc.
 
-- Show CPU statistics at M second intervals for N times:
+- Show CPU statistics at a given interval and a given number of times:
 
 `pidstat {{interval}} {{times}}`
 
