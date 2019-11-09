@@ -1,6 +1,7 @@
 # avrdude
 
-> Atmel AVR 마이크로 컨트롤러 프로그래밍을 위한 드라이버 프로그램. 더많은 정보는: https://www.nongnu.org/avrdude/.
+> Atmel AVR 마이크로 컨트롤러 프로그래밍을 위한 드라이버 프로그램.
+> 더많은 정보는: <https://www.nongnu.org/avrdude/>.
 
 - AVR 마이크로 컨트롤러 읽기:
 
