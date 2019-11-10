@@ -1,7 +1,7 @@
 # fdroidcl
 
 > F-Droid CLI client.
-> More information: https://github.com/mvdan/fdroidcl.
+> More information: <https://github.com/mvdan/fdroidcl>.
 
 - Fetch the F-Droid index:
 
