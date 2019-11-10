@@ -2,7 +2,7 @@
 
 > Android Asset Packaging Tool.
 > Tool that compiles and packages Android app’s resources.
-> More information: https://developer.android.com/studio/command-line/aapt2.
+> More information: <https://developer.android.com/studio/command-line/aapt2>.
 
 - List files contained in an APK archive:
 
