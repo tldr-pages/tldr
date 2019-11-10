@@ -26,6 +26,6 @@
 
 `sudo dnf search {{keyword}}`
 
-- Find what package provides the given value:
+- Find which packages provide a given value:
 
 `sudo dnf provides {{value}}`
