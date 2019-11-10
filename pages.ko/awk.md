@@ -7,7 +7,6 @@
 
 `awk '{print $5}' {{filename}}`
 
-
 - 공백으로 구분 된 파일에서 "something"을 포함한 두 번째 열 출력하기:
 
 `awk '/{{something}}/ {print $2}' {{filename}}`
