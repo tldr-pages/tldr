@@ -1,7 +1,7 @@
 # zipalign
 
 > Zip archive alignment tool.
-> More information: https://developer.android.com/studio/command-line/zipalign.
+> More information: <https://developer.android.com/studio/command-line/zipalign>.
 
 - Align the data of a ZIP file on {{number}} bytes:
 
