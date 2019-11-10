@@ -1,7 +1,7 @@
 # androguard
 
 > Python tool to play with Android files.
-> More information: https://github.com/androguard/androguard.
+> More information: <https://github.com/androguard/androguard>.
 
 - Display Android app manifest:
 
