@@ -1,7 +1,7 @@
 # jarsigner
 
-> Signs and verifies Java Archive (JAR) files.
-> More information: https://docs.oracle.com/javase/9/tools/jarsigner.htm.
+> Sign and verify Java Archive (JAR) files.
+> More information: <https://docs.oracle.com/javase/9/tools/jarsigner.htm>.
 
 - Sign a JAR file:
 
