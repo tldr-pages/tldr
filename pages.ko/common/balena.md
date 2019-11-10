@@ -1,6 +1,7 @@
 # balena
 
-> 명령 줄에서 balenaCloud, openBalena 및 balena API와 상호 작용하십시오. 더 많은 정보는: https://www.balena.io/docs/reference/cli/.
+> 명령 줄에서 balenaCloud, openBalena 및 balena API와 상호 작용하십시오.
+> 더 많은 정보는: <https://www.balena.io/docs/reference/cli/>.
 
 - balenaCloud 계정에 로그인:
 

@@ -1,6 +1,7 @@
 # babel
 
-> 코드를 JavaScript ES6/ES7문법에서 ES5문법으로 변환하는 변환기입니다. 더 많은 정보는: https://babeljs.io/.
+> 코드를 JavaScript ES6/ES7문법에서 ES5문법으로 변환하는 변환기입니다.
+> 더 많은 정보는: <https://babeljs.io/>.
 
 - 지정된 입력 파일을 변환하고 `stdout'으로 출력:
 
