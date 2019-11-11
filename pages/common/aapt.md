@@ -1,14 +1,14 @@
 # aapt
 
 > Android Asset Packaging Tool.
-> Tool that compiles and packages Android app’s resources.
+> Compiles and packages an Android app’s resources.
 > More information: <https://developer.android.com/studio/command-line/aapt2>.
 
 - List files contained in an APK archive:
 
 `aapt list {{path/to/app.apk}}`
 
-- Display app metadata (version, permissions, etc.):
+- Display an app's metadata (version, permissions, etc.):
 
 `aapt dump badging {{path/to/app.apk}}`
 
