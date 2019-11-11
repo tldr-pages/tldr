@@ -16,7 +16,7 @@
 
 `fdroid publish {{app_id}}`
 
-- Install the app on a connected device:
+- Install the app on every connected device:
 
 `fdroid install {{app_id}}`
 
