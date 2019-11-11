@@ -17,3 +17,15 @@
 - Upgrade installed packages to newest available versions:
 
 `sudo dnf upgrade`
+
+- List installed packages:
+
+`dnf list --installed`
+
+- Search packages via keyword:
+
+`sudo dnf search {{keyword}}`
+
+- Find which packages provide a given value:
+
+`sudo dnf provides {{value}}`
