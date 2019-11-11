@@ -2,9 +2,9 @@
 
 > Show system resource usage, including CPU, memory, IO etc.
 
-- Show CPU statistics at 2 second interval for 10 times:
+- Show CPU statistics at a 2 second interval for 10 times:
 
-`pidstat 2 10`
+`pidstat {{2}} {{10}}`
 
 - Show page faults and memory utilization:
 
