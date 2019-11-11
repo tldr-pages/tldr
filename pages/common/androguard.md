@@ -1,6 +1,6 @@
 # androguard
 
-> Python tool to play with Android files.
+> Reverse engineering tool for Android applications. Written in Python.
 > More information: <https://github.com/androguard/androguard>.
 
 - Display Android app manifest:
