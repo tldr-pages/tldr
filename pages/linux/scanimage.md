@@ -1,8 +1,9 @@
 # scanimage
 
 > Scan images with the Scanner Access Now Easy API.
+> More information: <http://sane-project.org/>.
 
-- List available scanners to ensure it is connected and recognized:
+- List available scanners to ensure the target device is connected and recognized:
 
 `scanimage -L`
 
