@@ -19,6 +19,6 @@
 
 `fdroidcl search {{regex}}`
 
-- Install an app to a connected device:
+- Install an app on a connected device:
 
 `fdroidcl install {{app_id}}`
