@@ -2,7 +2,7 @@
 
 > Scan images with the Scanner Access Now Easy API.
 
-- List available scanners to ensure yours is connected and recognized:
+- List available scanners to ensure it is connected and recognized:
 
 `scanimage -L`
 
