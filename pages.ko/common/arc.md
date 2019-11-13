@@ -1,7 +1,7 @@
 # arc
 
 > Arcanist: A CLI for Phabricator.
-> 더많은 정보<https://secure.phabricator.com/book/phabricator/article/arcanist/>.
+> 더많은 정보: <https://secure.phabricator.com/book/phabricator/article/arcanist/>.
 
 - 검토에 대한 차이점의 변경을 보냅니다:
 
