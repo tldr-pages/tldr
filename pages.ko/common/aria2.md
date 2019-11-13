@@ -1,7 +1,7 @@
 # aria2
 
 > 경량 멀티 프로토콜 및 멀티 소스 명령줄 다운로드 유틸리티입니다. 
-> HTTP, HTTPS, FTP, SFTP, BitTorrent와 Metalink를 지원합니다
+> HTTP, HTTPS, FTP, SFTP, BitTorrent와 Metalink를 지원합니다.
 > 더 많은 정보: <https://aria2.github.io/>.
 
 - 웹 리소스 다운로드:
