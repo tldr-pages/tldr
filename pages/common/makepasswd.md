@@ -2,7 +2,7 @@
 
 > Generate and encrypt passwords.
 
-- Generate a random password:
+- Generate a random password (8 to 10 characters long, containing letters and numbers):
 
 `makepasswd`
 
