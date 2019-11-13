@@ -1,0 +1,19 @@
+# makepasswd
+
+> Generate and encrypt passwords.
+
+- Generate a random password:
+
+`makepasswd`
+
+- Generate a 10 characters long password:
+
+`makepasswd --chars {{10}}`
+
+- Generate a 5 to 10 characters long password:
+
+`makepasswd --minchars {{5}} --maxchars {{10}}`
+
+- Generate a password containing only the characters "b", "a" or "r":
+
+`makepasswd --string {{bar}}`
