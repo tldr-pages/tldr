@@ -7,6 +7,14 @@
 
 `rtmpdump --rtmp {{rtmp://example.com/path/to/video}} -o {{file.ext}}`
 
-- Download a file that requires specific connection parameters:
+- Download a file from a Flash player:
 
-`rtmpdump --rtmp {{rtmp://example.com/path/to/video}} --app {{app_name}} --pageUrl {{http://example.com/webpage}} --swfVfy {{http://example.com/player}} --flashVer {{LNX 10,0,32,18}} --playpath {{playpath}} -o {{file.ext}}`
+`rtmpdump --rtmp {{rtmp://example.com/path/to/video}} --swfVfy {{http://example.com/player}} --flashVer {{LNX 10,0,32,18}} -o {{file.ext}}`
+
+- Specify connection parameters if rtmpdump does not detect them correctly:
+
+`rtmpdump --rtmp {{rtmp://example.com/path/to/video}} --app {{app_name}} --playpath {{playpath}} -o {{file.ext}}`
+
+- Download a file from a server that requires a referrer:
+
+`rtmpdump --rtmp {{rtmp://example.com/path/to/video}} --pageUrl {{http://example.com/webpage}} -o {{file.ext}}`
