@@ -17,7 +17,7 @@
 
 - Search for an app in the index:
 
-`fdroidcl search {{regex}}`
+`fdroidcl search {{search_pattern}}`
 
 - Install an app on a connected device:
 
