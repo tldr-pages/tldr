@@ -15,7 +15,7 @@
 
 `html5validator --show-warnings {{path/to/file}}`
 
-- Match file patterns using a glob:
+- Match multiple files using a glob pattern:
 
 `html5validator --root {{path/to/directory}} --match "{{*.html *.php}}"`
 
@@ -23,10 +23,10 @@
 
 `html5validator --root {{path/to/directory}} --blacklist {{node_modules}}`
 
-- Output the results to a specific format:
+- Output the results in a specific format:
 
 `html5validator --format {{gnu|xml|json|text}} {{path/to/file}}`
 
-- Output the log using a specific verbosity level:
+- Output the log at a specific verbosity level:
 
 `html5validator --root {{path/to/directory}} --log {{debug|info|warning}}`
