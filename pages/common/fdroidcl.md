@@ -14,3 +14,11 @@
 - Download an APK file:
 
 `fdroidcl download {{app_id}}`
+
+- Search for an app in the index:
+
+`fdroidcl search {{search_pattern}}`
+
+- Install an app on a connected device:
+
+`fdroidcl install {{app_id}}`
