@@ -11,9 +11,9 @@
 
 `rtmpdump --rtmp {{rtmp://example.com/path/to/video}} --swfVfy {{http://example.com/player}} --flashVer {{LNX 10,0,32,18}} -o {{file.ext}}`
 
-- Specify connection parameters if rtmpdump does not detect them correctly:
+- Specify connection parameters if they are not detected correctly:
 
-`rtmpdump --rtmp {{rtmp://example.com/path/to/video}} --app {{app_name}} --playpath {{playpath}} -o {{file.ext}}`
+`rtmpdump --rtmp {{rtmp://example.com/path/to/video}} --app {{app_name}} --playpath {{path/to/video}} -o {{file.ext}}`
 
 - Download a file from a server that requires a referrer:
 
