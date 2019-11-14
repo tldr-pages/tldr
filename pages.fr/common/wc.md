@@ -1,6 +1,6 @@
 # wc
 
-> Compte les mots, les octets ou les lignes.
+> Compte les lignes, les mots ou les octets.
 
 - Compte les lignes d'un fichier :
 
