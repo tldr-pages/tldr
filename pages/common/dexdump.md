@@ -6,7 +6,7 @@
 
 `dexdump {{path/to/file.apk}}`
 
-- Display DEX files header information:
+- Display header information of DEX files contained in an APK file:
 
 `dexdump -f {{path/to/file.apk}}`
 
