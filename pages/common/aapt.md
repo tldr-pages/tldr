@@ -1,7 +1,7 @@
 # aapt
 
 > Android Asset Packaging Tool.
-> Compiles and packages an Android app’s resources.
+> Compile and package an Android app's resources.
 
 - List files contained in an APK archive:
 
