@@ -21,7 +21,7 @@
 
 - Ignore specific directory names:
 
-`html5validator --root {{path/to/directory}} --blacklist {{node_modules}}`
+`html5validator --root {{path/to/directory}} --blacklist "{{node_modules vendor}}"`
 
 - Output the results in a specific format:
 
