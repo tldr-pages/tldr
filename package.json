@@ -11,7 +11,7 @@
   "scripts": {
     "lint-markdown": "markdownlint pages*/**/*.md",
     "lint-tldr": "tldr-lint ./pages",
-    "test": "bash -c 'markdownlint pages*/**/*.md && tldr-lint ./pages 2>&1 | tee test_result; test ${PIPESTATUS[0]} -eq 0'",
+    "test": "bash scripts/test.sh",
     "build-index": "node ./scripts/build-index.js | tee pages/index.json > index.json"
   },
   "husky": {
