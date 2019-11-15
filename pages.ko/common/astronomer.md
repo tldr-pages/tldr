@@ -1,6 +1,6 @@
 # astronomer
 
->  Github 프로젝트의 봇 계정에서 불법적인 star를 탐지하는 도구 
+>  Github 프로젝트의 봇 계정에서 불법적인 star를 탐지하는 도구.
 > 더 많은 정보: <https://github.com/Ullaakut/astronomer>.
 
 - 저장소 스캔:
