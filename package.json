@@ -12,7 +12,7 @@
     "lint-markdown": "markdownlint pages*/**/*.md",
     "lint-tldr": "tldr-lint ./pages",
     "test": "bash scripts/test.sh",
-    "build-index": "node ./scripts/build-index.js | tee pages/index.json > index.json"
+    "build-index": "node ./scripts/build-index.js > index.json"
   },
   "husky": {
     "hooks": {
