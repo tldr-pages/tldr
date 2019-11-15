@@ -13,6 +13,7 @@ function initialize {
 
 function build_index {
   npm run build-index
+  cp index.json pages/
   echo "Pages index succesfully built."
 }
 
