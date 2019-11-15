@@ -6,12 +6,12 @@
 
 - <http://atom.io/packages>으로부터 패키지 설치하고 <http://atom.io/themes>에서 테마 설치:
 
-`apm install {{package_name}}`
+`apm install {{패키지 이름}}`
 
 - 패키지/테마 제거:
 
-`apm remove {{package_name}}`
+`apm remove {{패키지 이름}}`
 
 - 패키지/테마 업그레이드:
 
-`apm upgrade {{package_name}}`
+`apm upgrade {{패키지 }}`
