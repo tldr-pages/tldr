@@ -1,41 +1,94 @@
-import json
+#!/usr/bin/env python3
+
 import os
 import sys
-try:
-  import urllib.request as urllib2
-except ImportError:
-  import urllib2
+import json
+import urllib.request
 
-URL = 'https://tldr-bot.starbeamrainbowlabs.com/'
+BOT_URL = 'https://tldr-bot.starbeamrainbowlabs.com'
 
-def post_comment(pr_id, comment_body):
-  # Constructing the url
-  req = urllib2.Request(URL,
-                       json.dumps({'body': comment_body, 'pr_id': pr_id }),
-                       {'Content-Type': 'application/json'})
-  # Making the request
-  f = urllib2.urlopen(req)
-  if f.getcode() != 200:
-    print(f.read())
+COMMENT_ERROR="""
+The [build](https://travis-ci.org/tldr-pages/tldr/builds/{build_id})
+for this PR failed with the following error(s):
 
+```
+{content}
+```
 
-# Get the environment variables
-PR_NUMBER = os.environ.get('TRAVIS_PULL_REQUEST')
-BUILD_ID = os.environ.get('TRAVIS_BUILD_ID')
+Please fix the error(s) and push again.
+"""
 
-# Read the test result output from stdin
-test_result = sys.stdin.read().strip()
-# Populate the template text
-comment = (
-"The [build]"
-"(https://travis-ci.org/tldr-pages/tldr/builds/{build_id})"
-" for this PR has failed with the following error(s):"
-"\n```\n"
-"{comment_body}"
-"\n```\n"
-"Please fix the error(s) and push again."
-).format(build_id=BUILD_ID, comment_body=test_result)
+COMMENT_CHECK="""
+Hello! I've noticed something unusual when checking this PR:
 
-# If it's a PR, post a comment on it
-if PR_NUMBER != "false":
-  post_comment(PR_NUMBER, comment)
+{content}
+
+Is this intended? If so, just ignore this comment. Otherwise, please
+double-check the commits.
+"""
+
+################################################################################
+
+def post_comment(pr_id, body, once):
+  if once:
+    endpoint = BOT_URL + '/comment/once'
+  else:
+    endpoint = BOT_URL + '/comment'
+
+  headers = {'Content-Type': 'application/json'}
+  data = json.dumps({'pr_id': pr_id, 'body': body})
+  req = urllib.request.Request(endpoint, data.encode(), headers)
+
+  try:
+    resp = urllib.request.urlopen(req)
+    code = resp.getcode()
+  except Exception as e:
+    print('Error sending data to tldr-bot:', str(e), file=sys.stderr)
+    return False
+
+  if code != 200:
+    print('Error: tldr-bot responded with code', code, file=sys.stderr)
+    print(resp.read(), file=sys.stderr)
+    return False
+
+  return True
+
+def main(action):
+  if action not in ('error', 'check'):
+    print('Unknown action:', action, file=sys.stderr)
+    sys.exit(1)
+
+  content = sys.stdin.read().strip()
+
+  if action == 'error':
+    comment_body = COMMENT_ERROR.format(build_id=BUILD_ID, content=content)
+    comment_once = False
+  elif action == 'check':
+    comment_body = COMMENT_CHECK.format(content=content)
+    comment_once = True
+
+  if post_comment(PR_ID, comment_body, comment_once):
+    print('Success.')
+  else:
+    print('Error sending data to tldr-bot!', file=sys.stderr)
+
+################################################################################
+
+if __name__ == '__main__':
+  REPO_SLUG = os.environ.get('TRAVIS_REPO_SLUG')
+  PR_ID = os.environ.get('TRAVIS_PULL_REQUEST')
+  BUILD_ID = os.environ.get('TRAVIS_BUILD_ID')
+
+  if PR_ID is None or BUILD_ID is None or REPO_SLUG is None:
+    print('Needed environment variables are not set.', file=sys.stderr)
+    sys.exit(1)
+
+  if PR_ID is None or PR_ID == 'false':
+    print('Not a pull request, refusing to run.', file=sys.stderr)
+    sys.exit(0)
+
+  if len(sys.argv) != 2:
+    print('Usage:', sys.argv[0], '<ACTION>', file=sys.stderr)
+    sys.exit(1)
+
+  main(sys.argv[1])
