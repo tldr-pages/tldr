@@ -4,12 +4,12 @@
 
 - 키워드 검색:
 
-`apropos {{regular_expression}}`
+`apropos {{정규 표현식}}`
 
 - 출력을 터미널 너비에 제한을 두지 않고 검색:
 
-`apropos -l {{regular_expression}}`
+`apropos -l {{정규 표현식}}`
 
 - 주어진 모든 표현식만 포함하는 페이지 검색(AND 검색):
 
-`apropos {{regular_expression_1}} -a {{regular_expression_2}} -a {{regular_expression_3}`
+`apropos {{정규 표현식_1}} -a {{정규 표현식_2}} -a {{정규 표현식_3}`
