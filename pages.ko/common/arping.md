@@ -1,7 +1,7 @@
 # arping
 
 >  ARP 프로토콜을 사용하여 네트워크에서 호스트를 발견하고 탐색합니다.
->  MAC 주소 검색에 유용합니다. 
+>  MAC 주소 검색에 유용합니다.
 >  더 많은 정보: <https://github.com/ThomasHabets/arping>.
 
 - ARP 요청 패킷으로 호스트 ping 하기:
