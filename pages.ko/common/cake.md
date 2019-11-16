@@ -17,7 +17,7 @@
 
 - 메타데이터 캐시 구축:
 
-`cake schema_cache build --connection {{connection}}`
+`cake schema_cache build --connection {{연결할것}}`
 
 - 메타데이터 캐시 지우기:
 
@@ -25,7 +25,7 @@
 
 - 단일 캐시 테이블 지우기:
 
-`cake schema_cache clear {{table_name}}`
+`cake schema_cache clear {{테이블_이름}}`
 
 - 개발 웹 서버 시작 (포트 기본값 8765):
 
