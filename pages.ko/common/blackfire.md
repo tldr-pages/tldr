@@ -1,7 +1,7 @@
 # blackfire
 
 > PHP용 커맨드라인 프로파일링 도구. 
-> 자세한 정보: [https://blackfire.io](<https://blackfire.io/>).
+> 자세한 정보: <https://blackfire.io/>.
 
 - Blackfire 클라이언트 초기화 및 구성:
 
