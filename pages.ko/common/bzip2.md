@@ -5,12 +5,12 @@
 
 - 파일 압축하기:
 
-`bzip2 {{path/to/file_to_compress}}`
+`bzip2 {{경로/압축할 파일명}}`
 
 - 파일 압축해제하기:
 
-`bzip2 -d {{path/to/compressed_file.bz2}}`
+`bzip2 -d {{경로/압축된.bz2파일}}`
 
 - 파일을 표준 출력으로 압축해제:
 
-`bzip2 -dc {{path/to/compressed_file.bz2}}`
+`bzip2 -dc {{경로/압축된.bz2파일}}`
