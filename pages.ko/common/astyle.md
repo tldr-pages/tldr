@@ -6,20 +6,20 @@
 
 -  들여쓰기 당 4개의 공백의 기본 스타일을 적용하고 형식 변경 없도록 적용:
 
-`astyle {{source_file}}`
+`astyle {{소스파일명}}`
 
 - java 스타일 코드로 적용:
 
-`astyle --style=java {{path/to/file}}`
+`astyle --style=java {{경로/파일명}}`
 
 - allman 스타일 코드로 적용:
 
-`astyle --style=allman {{path/to/file}}`
+`astyle --style=allman {{경로/파일명}}`
 
 - 공간을 사용하여 사용자 지정 들여쓰기를 적용합니다. 2에서 20개 사이의 공간을 선택합니다 :
 
-`astyle --indent=spaces={{number_of_spaces}} {{path/to/file}}`
+`astyle --indent=spaces={{띄어쓸_수}} {{경로/파일명}}`
 
 - 탭을 사용하여 사용자 지정 들여쓰기를 적용합니다. 2에서 20 탭 사이에서 선택합니다:
 
-`astyle --indent=tab={{number_of_tabs}} {{path/to/file}}`
+`astyle --indent=tab={{탭_수}} {{경로/파일명}}`
