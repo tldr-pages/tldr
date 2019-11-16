@@ -6,15 +6,15 @@
 
 - Hackage에서 패키지 검색 및 리스트:
 
-`cabal list {{search_string}}`
+`cabal list {{검색할_문자열}}`
 
 - 패키지에 대한 정보 출력:
 
-`cabal info {{package_name}}`
+`cabal info {{패키지_이름}}`
 
 - 패키지 다운로드 및 설치:
 
-`cabal install {{package_name}}`
+`cabal install {{패키지_이름}}`
 
 - 현재 디렉토리에서 새로운 Haskell 프로젝트 생성:
 
