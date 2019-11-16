@@ -1,7 +1,7 @@
 # bmaptool
 
 > 블록 맵을 지능적으로 생성 및 복사( `cp` 혹은 `dd`보다 빠른 속도).
-> More information: <https://source.tizen.org/documentation/reference/bmaptool>.
+> 자세한 정보는: <https://source.tizen.org/documentation/reference/bmaptool>.
 
 - 이미지 파일에서 블록 맵 생성:
 
