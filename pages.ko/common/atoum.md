@@ -13,15 +13,15 @@
 
 - 특정 설정 파일을 사용한 테스트 실행:
 
-`atoum -c {{path/to/file}}`
+`atoum -c {{경로/파일명}}`
 
 - 특정 테스트파일 실행:
 
-`atoum -f {{path/to/file}}`
+`atoum -f {{경로/파일명}}`
 
 - 특정 테스트 디렉토리 실행:
 
-`atoum -d {{path/to/directory}}`
+`atoum -d {{경로/디렉토리명}}`
 
 - 특정 namespace 아래 있는 모든 테스트 실행:
 
@@ -33,4 +33,4 @@
 
 - 테스트를 실행하기 전에 사용자 지정 부트스트랩 파일을 로드:
 
-`atoum --bootstrap-file {{path/to/file}}`
+`atoum --bootstrap-file {{경로/파일명}}`
