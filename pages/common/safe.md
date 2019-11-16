@@ -15,7 +15,7 @@
 
 `safe env`
 
-- Provide a tree hierarchy listing of all reachable keys in the Vault:
+- Display a tree hierarchy of all reachable keys for a given path:
 
 `safe tree {{path}}`
 
@@ -23,9 +23,9 @@
 
 `safe move {{old_path/secret}} {{new_path/secret}}`
 
-- Generate a new 2048-bit SSH keypair and store it in vault:
+- Generate a new 2048-bit SSH keypair and store it:
 
-`safe ssh 2048 {{path/secret}}`
+`safe ssh {{2048}} {{path/secret}}`
 
 - Set non-sensitive keys for a secret:
 
