@@ -21,16 +21,16 @@
 
 - Move a secret from one path to another:
 
-`safe move {{old_path/secret}} {{new_path/secret}}`
+`safe move {{old/path/to/secret}} {{new/path/to/secret}}`
 
 - Generate a new 2048-bit SSH keypair and store it:
 
-`safe ssh {{2048}} {{path/secret}}`
+`safe ssh {{2048}} {{path/to/secret}}`
 
 - Set non-sensitive keys for a secret:
 
-`safe set {{path/secret}} {{key}}={{value}}`
+`safe set {{path/to/secret}} {{key}}={{value}}`
 
 - Set auto-generated password in a secret:
 
-`safe gen {{path/secret}} {{key}}`
+`safe gen {{path/to/secret}} {{key}}`
