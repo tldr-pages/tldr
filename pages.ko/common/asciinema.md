@@ -33,4 +33,4 @@
 
 - 로컬로 저장된 터미널 세션을 asciinema.org에 업로드하기:
 
-`asciinema upload {{경로/}}.cast`
+`asciinema upload {{경로/파일명}}.cast`
