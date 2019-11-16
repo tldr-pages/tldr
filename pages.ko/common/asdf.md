@@ -9,20 +9,20 @@
 
 - 플러그인 설치:
 
-`asdf plugin-add {{name}}`
+`asdf plugin-add {{이름}}`
 
 - 모든 사용 가능한 패키지 버전 나열:
 
-`asdf list-all {{name}}`
+`asdf list-all {{이름}}`
 
 - 특정 패키지 버전 설치:
 
-`asdf install {{name}} {{version}}`
+`asdf install {{이름}} {{버전}}`
 
 - 글로벌 버전 패키지 설치:
 
-`asdf global {{name}} {{version}}`
+`asdf global {{버전}} {{버전}}`
 
 - 로컬 버전 패키지 설치:
 
-`asdf local {{name}} {{version}}`
+`asdf local {{이름}} {{버전}}`
