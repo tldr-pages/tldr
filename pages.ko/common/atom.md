@@ -6,15 +6,15 @@
 
 - 파일이나 디렉토리 열기:
 
-`atom {{path/to/file_or_directory}}`
+`atom {{경로/파일명_또는_디렉토리명}}`
 
 - 새로운 창에서 파일이나 디렉토리 열기:
 
-`atom -n {{path/to/file_or_directory}}`
+`atom -n {{경로/파일명_또는_디렉토리명}}`
 
 - 현재 창에서 파일이나 디렉토리 열기:
 
-`atom --add {{path/to/file_or_directory}}`
+`atom --add {{경로/파일명_또는_디렉토리명}}`
 
 - 안전모드에서 atom 열기Open atom in safe mode (추가 패키지를 로드하지 마시오):
 
