@@ -13,15 +13,15 @@
 
 - 지정된 suite에서 모든 테스트 실행:
 
-`behat --suite={{suite_name}}`
+`behat --suite={{suite_명}}`
 
 - 특정 출력 formatter로 테스트 실행:
 
-`behat --format {{pretty|progress}}`
+`behat --format {{좋은|진행}}`
 
 - 테스트 실행 및 파일로 결과 출력:
 
-`behat --out {{path/to/file}}`
+`behat --out {{파일/의/경로}}`
 
 - 테스트 suite에 정의 목록 표시:
 
