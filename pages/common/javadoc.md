@@ -9,8 +9,8 @@
 
 - Generate documentation with a specific encoding:
 
-`javadoc -docencoding {{encoding_name}} {{java_source_code}}`
+`javadoc -docencoding {{UTF-8}} {{path/to/java_source_code}}`
 
 - Generate documentation excluding some packages:
 
-`javadoc -exclude {{package_list}} {{java_source_code}}`
+`javadoc -exclude {{package_list}} {{path/to/java_source_code}}`
