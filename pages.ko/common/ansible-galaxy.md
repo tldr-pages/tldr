@@ -5,11 +5,11 @@
 
 - 역할 설치:
 
-`ansible-galaxy install {{username.role_name}}`
+`ansible-galaxy install {{사용자이름.역할_}}`
 
 - 역할 제거:
 
-`ansible-galaxy remove {{username.role_name}}`
+`ansible-galaxy remove {{사용자이름.역할_이름}}`
 
 - 설치된 역할 리스트:
 
@@ -17,8 +17,8 @@
 
 - 주어진 역할에 대해 검색:
 
-`ansible-galaxy search {{role_name}}`
+`ansible-galaxy search {{역할_이름}}`
 
 - 새로운 역할 생성:
 
-`ansible-galaxy init {{role_name}}`
+`ansible-galaxy init {{역할_이름}}`
