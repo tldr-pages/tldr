@@ -5,16 +5,16 @@
 
 - 이미지 파일에서 블록 맵 생성:
 
-`bmaptool create -o {{blockmap.bmap}} {{source.img}}`
+`bmaptool create -o {{블록맵.bmap}} {{이미지 파일}}`
 
 - 이미지 파일을 sdb로 복사:
 
-`bmaptool copy --bmap {{blockmap.bmap}} {{source.img}} {{/dev/sdb}}`
+`bmaptool copy --bmap {{블록맵.bmap}} {{이미지 파일}} {{/dev/sdb}}`
 
 - 압축된 이미지 파일을 sdb로 복사:
 
-`bmaptool copy --bmap {{blockmap.bmap}} {{source.img.gz}} {{/dev/sdb}}`
+`bmaptool copy --bmap {{블록맵.bmap}} {{압축된 이미지 파일}} {{/dev/sdb}}`
 
 - 블록맵을 사용하지 않고 이미지 파일을 sdb로 복사:
 
-`bmaptool copy --nobmap {{source.img}} {{/dev/sdb}}`
+`bmaptool copy --nobmap {{이미지 파일}} {{/dev/sdb}}`
