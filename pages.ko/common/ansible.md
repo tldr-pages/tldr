@@ -6,24 +6,24 @@
 
 - 그룹에 속한 호스트 목록:
 
-`ansible {{group}} --list-hosts`
+`ansible {{그룹명}} --list-hosts`
 
 - 핑 모듈을 호출하여 호스트 그룹 핑:
 
-`ansible {{group}} -m ping`
+`ansible {{그룹명}} -m ping`
 
 - 설정 모듈을 호출하여 호스트 그룹에 대한 사실 표시:
 
-`ansible {{group}} -m setup`
+`ansible {{그룹명}} -m setup`
 
 - 명령 모듈을 인수로 호출하여 호스트 그룹에서 명령어 실행:
 
-`ansible {{group}} -m command -a '{{my_command}}'`
+`ansible {{그룹명}} -m command -a '{{나의_명령어}}'`
 
 - 관리자 권한으로 명령어 실행:
 
-`ansible {{group}} --become --ask-become-pass -m command -a '{{my_command}}'`
+`ansible {{그룹명}} --become --ask-become-pass -m command -a '{{나의_명령어}}'`
 
 - 사용자 정의 인벤토리 파일을 사용하여 명령어 실행:
 
-`ansible {{group}} -i {{inventory_file}} -m command -a '{{my_command}}'`
+`ansible {{그룹}} -i {{인벤토리_파일}} -m command -a '{{나의_}}'`
