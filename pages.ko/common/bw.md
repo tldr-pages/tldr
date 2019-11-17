@@ -7,7 +7,7 @@
 
 `bw login`
 
-- Log out of a Bitwarden 사용자 계정 로그아웃:
+- 사용자 계정 로그아웃:
 
 `bw logout`
 
