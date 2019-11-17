@@ -9,7 +9,7 @@
 
 - Download a file from a Flash player:
 
-`rtmpdump --rtmp {{rtmp://example.com/path/to/video}} --swfVfy {{http://example.com/player}} --flashVer {{LNX 10,0,32,18}} -o {{file.ext}}`
+`rtmpdump --rtmp {{rtmp://example.com/path/to/video}} --swfVfy {{http://example.com/player}} --flashVer "{{LNX 10,0,32,18}}" -o {{file.ext}}`
 
 - Specify connection parameters if they are not detected correctly:
 
