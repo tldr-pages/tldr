@@ -9,15 +9,15 @@
 
 - 일반 별칭 생성:
 
-`alias {{word}}="{{command}}"`
+`alias {{단어}}="{{명령어}}"`
 
 - 주어진 별칭에 연관된 명령어:
 
-`alias {{word}}`
+`alias {{단어}}`
 
 - 별칭 명령어 제거:
 
-`unalias {{word}}`
+`unalias {{단어}}`
 
 -  `rm` 을 대화형 명령어로 전환:
 
