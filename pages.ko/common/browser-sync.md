@@ -1,7 +1,7 @@
 # browser-sync
 
 > 파일 변경에 따라 브라우저를 업데이트 하는 로컬 웹 서버 시작. 
-> 자세한 정보: <https://browsersync.io/docs/command-line>.
+> 더 많은 정보: <https://browsersync.io/docs/command-line>.
 
 - 특정 디렉토리로부터 서버 시작:
 
