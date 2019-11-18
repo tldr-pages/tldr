@@ -11,9 +11,6 @@ script:
   - npm test
   - bash scripts/build.sh
 
-after_failure:
-  - python scripts/send_to_bot.py < test_result
-
 deploy:
   provider: script
   script: bash scripts/deploy.sh
