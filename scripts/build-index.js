@@ -22,6 +22,12 @@ function buildPagesIndex(files) {
     let language = parseLanguage(file);
 
     if (index[page]) {
+      if (!index[page].platform.includes(os)) {
+        index[page].platform.push(os);
+      }
+      if (!index[page].language.includes(language)) {
+        index[page].language.push(language);
+      }
       let targets = index[page].targets;
       let needsPush = true;
       for (const target of targets) {
@@ -35,7 +41,11 @@ function buildPagesIndex(files) {
         index[page].targets = targets;
       }
     } else {
-      index[page] = {name: page, targets: [{"os": os, "language": language}]};
+      index[page] = {name: page,
+        platform: [os],
+        language: [language],
+        targets: [{"os": os, "language": language}]
+      };
     }
 
     return index;
@@ -48,6 +58,8 @@ function buildPagesIndex(files) {
       .map(function(page) {
         return {
           name: page,
+          platform: obj[page]["platform"],
+          language: obj[page]["language"],
           targets: obj[page]["targets"]
         };
       });
