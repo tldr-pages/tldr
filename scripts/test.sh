@@ -22,7 +22,7 @@ function pr_test {
   if [ -n "$errs" ]; then
     echo -e "Test failed!\n$errs\n" >&2
     echo 'Sending errors to tldr-bot.' >&2
-    echo -n "$errs" | python3 scripts/send_to_bot.py error
+    echo -n "$errs" | python3 scripts/send_to_bot.py report-errors
     exit 1
   fi
 }
@@ -35,7 +35,7 @@ function pr_check {
   if [ -n "$msgs" ]; then
     echo -e "\nCheck PR reported the following message(s):\n$msgs\n" >&2
     echo 'Sending check results to tldr-bot.' >&2
-    echo -n "$msgs" | python3 scripts/send_to_bot.py check
+    echo -n "$msgs" | python3 scripts/send_to_bot.py report-check-results
   fi
 }
 
