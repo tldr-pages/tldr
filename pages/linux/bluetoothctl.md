@@ -1,6 +1,6 @@
 # bluetoothctl
 
-> Handling bluetooth devices from the shell
+> Handling bluetooth devices from the shell.
 
 - Enter the bluetoothctl shell:
 
