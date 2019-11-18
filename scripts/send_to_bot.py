@@ -30,10 +30,10 @@ double-check the commits.
 ################################################################################
 
 def post_comment(pr_id, body, once):
+  endpoint = BOT_URL + '/comment'
+
   if once:
-    endpoint = BOT_URL + '/comment/once'
-  else:
-    endpoint = BOT_URL + '/comment'
+    endpoint += '/once'
 
   headers = {'Content-Type': 'application/json'}
   data = json.dumps({'pr_id': pr_id, 'body': body})
@@ -54,16 +54,16 @@ def post_comment(pr_id, body, once):
   return True
 
 def main(action):
-  if action not in ('error', 'check'):
+  if action not in ('report-errors', 'report-check-results'):
     print('Unknown action:', action, file=sys.stderr)
     sys.exit(1)
 
   content = sys.stdin.read().strip()
 
-  if action == 'error':
+  if action == 'report-errors':
     comment_body = COMMENT_ERROR.format(build_id=BUILD_ID, content=content)
     comment_once = False
-  elif action == 'check':
+  elif action == 'report-check-results':
     comment_body = COMMENT_CHECK.format(content=content)
     comment_once = True
 
