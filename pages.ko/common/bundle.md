@@ -1,7 +1,7 @@
 # bundle
 
 > Ruby 프로그래밍 언어의 종속성 관리자. 
-> 자세한 정보: <https://bundler.io/man/bundle.1.html>.
+> 더 많은 정보: <https://bundler.io/man/bundle.1.html>.
 
 - 작업 디렉토리에 있는 `Gemfile`에 정의된 모든 gem을 설치:
 
