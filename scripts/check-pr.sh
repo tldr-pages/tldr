@@ -17,7 +17,6 @@
 
 # Check for duplicated pages.
 function check_duplicates {
-  local msg='The page `%s` already exists under the `%s` platform.\n'
   local page=$1 # page path in the format 'platform/pagename.md'
   local parts
   local other
@@ -29,18 +28,16 @@ function check_duplicates {
 
   case "$platform" in
     common) # check if page already exists in other platforms
-      for other in `ls pages/`; do
-        if [ "$other" != 'common' ]; then
-          if [ -f "pages/$other/$file" ]; then
-            printf "\x2d $msg" "$page" "$other"
-          fi
+      for other in ${PLATFORMS/common/}; do
+        if [ -f "pages/$other/$file" ]; then
+          printf "\x2d $MSG_EXISTS" "$page" "$other"
         fi
       done
       ;;
 
     *) # check if page already exists under common
       if [ -f "pages/common/$file" ]; then
-        printf "\x2d $msg" "$page" 'common'
+        printf "\x2d $MSG_EXISTS" "$page" 'common'
       fi
       ;;
   esac
@@ -48,7 +45,6 @@ function check_duplicates {
 
 # Look at git diff and check for copied/duplicated pages.
 function check_diff {
-  local msg='The page `%s` seems to be a copy of `%s` (%d%% matching).\n'
   local git_diff
   local line
   local entry
@@ -58,7 +54,7 @@ function check_diff {
   if [ -n "$git_diff" ]; then
     echo -e "Check PR: git diff:\n$git_diff" >&2
   else
-    echo 'Check PR: looks fine, no interesting changes detected.' >&2
+    echo 'Check PR: git diff looks fine, no interesting changes detected.' >&2
     return 0
   fi
 
@@ -75,7 +71,7 @@ function check_diff {
         percentage=${percentage#0}
         percentage=${percentage#0}
 
-        printf "\x2d $msg" "$file2" "$file1" "$percentage"
+        printf "\x2d $MSG_IS_COPY" "$file2" "$file1" "$percentage"
         ;;
 
       A) # file1 was newly added
@@ -87,19 +83,15 @@ function check_diff {
 
 # Recursively check the pages/ folder for anomalies.
 function check_structure {
-  local msg_not_dir='The file `%s` does not look like a directory.\n'
-  local msg_not_file='The file `%s` does not look like a regular file.\n'
-  local msg_not_md='The file `%s` does not have a `.md` extension.\n'
-
-  for platform in pages/*; do
-    if [ ! -d "$platform" ]; then
-      printf "\x2d $msg_not_dir" "$platform"
+  for platform in $PLATFORMS; do
+    if [ ! -d "pages/$platform" ]; then
+      printf "\x2d $MSG_NOT_DIR" "pages/$platform"
     else
-      for page in "$platform"/*; do
+      for page in "pages/$platform"/*; do
         if [ ! -f "$page" ]; then
-          printf "\x2d $msg_not_file" "$page"
+          printf "\x2d $MSG_NOT_FILE" "$page"
         elif [ "${page:(-3)}" != ".md" ]; then
-          printf "\x2d $msg_not_md" "$page"
+          printf "\x2d $MSG_NOT_MD" "$page"
         fi
       done
     fi
@@ -109,6 +101,14 @@ function check_structure {
 ###################################
 # MAIN
 ###################################
+
+MSG_EXISTS='The page `%s` already exists under the `%s` platform.\n'
+MSG_IS_COPY='The page `%s` seems to be a copy of `%s` (%d%% matching).\n'
+MSG_NOT_DIR='The file `%s` does not look like a directory.\n'
+MSG_NOT_FILE='The file `%s` does not look like a regular file.\n'
+MSG_NOT_MD='The file `%s` does not have a `.md` extension.\n'
+
+PLATFORMS=`ls pages/`
 
 if [ "$TRAVIS" = "true" ] && [ "$TRAVIS_REPO_SLUG" = "tldr-pages/tldr" ] && [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
   check_diff
