@@ -17,3 +17,4 @@ test_result
 # but it's been superseded by a static asset
 # hosted at https://tldr-pages.github.io/assets/index.json
 pages/index.json
+index.json
