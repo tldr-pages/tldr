@@ -12,16 +12,16 @@
 
 - Pair a device:
 
-`bluetoothctl -- pair {{MAC address}}`
+`bluetoothctl -- pair {{mac_address}}`
 
 - Remove a device:
 
-`bluetoothctl -- remove {{MAC address}}`
+`bluetoothctl -- remove {{mac_address}}`
 
 - Connect a paired device:
 
-`bluetoothctl -- connect {{MAC address}}`
+`bluetoothctl -- connect {{mac_address}}`
 
 - Disconnect a paired device:
 
-`bluetoothctl -- disconnect {{MAC address}}`
+`bluetoothctl -- disconnect {{mac_address}}`
