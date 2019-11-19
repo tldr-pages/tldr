@@ -6,7 +6,7 @@
 
 - 파일이나 디렉토리 압축하기:
 
-`7zr a {{archived.7z}} {{path/to/file_or_directory}}`
+`7zr a {{archived.7z}} {{경로/파일명_또는_디렉토리명}}`
 
 - 기존 디렉토리 경로에 존재하는 7z파일 추출하기:
 
