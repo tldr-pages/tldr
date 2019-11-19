@@ -31,16 +31,16 @@ function buildPagesIndex(files) {
       }
 
       const targets = index[page].targets;
-      const exist = targets.some((t) => {return t.platform === os && t.language === language});
-      if (!exist) {
-        targets.push({"os": os, "language": language})
+      const exists = targets.some((t) => {return t.platform === os && t.language === language});
+      if (!exists) {
+        targets.push({os, language})
       }
     } else {
       index[page] = {
         name: page,
         platform: [os],
         language: [language],
-        targets: [{"os": os, "language": language}]
+        targets: [{os, language}]
       };
     }
 
@@ -54,9 +54,9 @@ function buildPagesIndex(files) {
       .map(function(page) {
         return {
           name: page,
-          platform: obj[page]["platform"],
-          language: obj[page]["language"],
-          targets: obj[page]["targets"]
+          platform: obj[page].platform,
+          language: obj[page].language,
+          targets: obj[page].targets
         };
       });
 }
