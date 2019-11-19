@@ -4,13 +4,13 @@
 > The Drupal CLI. A tool to generate boilerplate code, interact with and debug Drupal.
 > More information: <https://drupalconsole.com/>.
 
-- Install module "foo":
+- Install a module:
 
-`drupal module:install {{foo}}`
+`drupal module:install {{module_name}}`
 
-- Uninstall module "foo":
+- Uninstall a module:
 
-`drupal module:uninstall {{foo}}`
+`drupal module:uninstall {{module_name}}`
 
 - Clear all caches:
 
