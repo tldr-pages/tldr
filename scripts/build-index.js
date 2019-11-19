@@ -25,23 +25,19 @@ function buildPagesIndex(files) {
       if (!index[page].platform.includes(os)) {
         index[page].platform.push(os);
       }
+
       if (!index[page].language.includes(language)) {
         index[page].language.push(language);
       }
-      let targets = index[page].targets;
-      let needsPush = true;
-      for (const target of targets) {
-        if (target.platform === os && target.language === language) {
-          needsPush = false;
-          continue
-        }
-      }
-      if (needsPush) {
+
+      const targets = index[page].targets;
+      const exist = targets.some((t) => {return t.platform === os && t.language === language});
+      if (!exist) {
         targets.push({"os": os, "language": language})
-        index[page].targets = targets;
       }
     } else {
-      index[page] = {name: page,
+      index[page] = {
+        name: page,
         platform: [os],
         language: [language],
         targets: [{"os": os, "language": language}]
