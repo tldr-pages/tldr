@@ -16,6 +16,6 @@
 
 `drupal cache:rebuild`
 
-- View current Drupal Installation status:
+- View current Drupal installation status:
 
 `drupal site:status`
