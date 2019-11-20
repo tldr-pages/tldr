@@ -9,7 +9,7 @@
 
 - 음악 파일을 실행합니다:
 
-`clementine {{url 혹은 경로/파일.ext}}`
+`clementine {{url_혹은_경로/파일.ext}}`
 
 - 정지, 재생 버튼(Toggle):
 
