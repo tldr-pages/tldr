@@ -5,16 +5,16 @@
 
 - 실행 가능한 바이너리 파일로 소스 코드를 컴파일합니다:
 
-`clang {{input_source.c}} -o {{output_executable}}`
+`clang {{입력 소스.c}} -o {{출력 실행가능파일}}`
 
 - 모든 에러와 경고 메시지를 출력하도록 활성화합니다:
 
-`clang {{input_source.c}} -Wall -o {{output_executable}}`
+`clang {{입력 소스.c}} -Wall -o {{출력 실행가능파일}}`
 
 - 소스 파일과 다른 경로에 있는 라이브러리를 포함합니다:
 
-`clang {{input_source.c}} -o {{output_executable}} -I{{header_path}} -L{{library_path}} -l{{library_name}}`
+`clang {{입력 소스.c}} -o {{출력 실행가능파일}} -I{{헤더 경로}} -L{{라이브러리 경로}} -l{{라이브러리명}}`
 
 - 소스 코드를 LLVM Intermediate Representation(IR)로 컴파일 합니다:
 
-`clang -S -emit-llvm {{file.c}} -o {{file.ll}}`
+`clang -S -emit-llvm {{파일.c}} -o {{파일.ll}}`

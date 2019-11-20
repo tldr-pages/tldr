@@ -9,7 +9,7 @@
 
 - 음악 파일을 실행합니다:
 
-`clementine {{url/or/path/to/file.ext}}`
+`clementine {{url 혹은 경로/파일.ext}}`
 
 - 정지, 재생 버튼(Toggle):
 
@@ -29,7 +29,7 @@
 
 - 플레이리스트 파일 불러오기:
 
-`clementine --load {{path/to/playlist.ext}}`
+`clementine --load {{경로/재생리스트.ext}}`
 
 - 현재 불러온 플레이리스트에서 5번째 트랙 재생하기:
 
