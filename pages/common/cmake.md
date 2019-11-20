@@ -10,7 +10,7 @@
 
 - Generate a Makefile and use it to compile a project in a separate "build" directory (out-of-source build):
 
-`cmake -H. -B{{build}} && make -C {{build}}`
+`cmake -B {{build}} && make -C $_`
 
 - Run cmake in interactive mode (it will ask for each variable, instead of using defaults):
 
