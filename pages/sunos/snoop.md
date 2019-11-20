@@ -17,7 +17,7 @@
 
 - Capture network packets that come from hostname and go to port 8000:
 
-`snoop to port 8000 from host {{hostname}}`
+`snoop to port {{port}} from host {{hostname}}`
 
 - Capture and show network packets in hex and ASCII between two IP addresses:
 
