@@ -3,7 +3,7 @@
 > Network packet sniffer.
 > SunOS equivalent of tcpdump.
 
-- Capture packets on network interface e1000g0:
+- Capture packets on a specific network interface:
 
 `snoop -d {{e1000g0}}`
 
