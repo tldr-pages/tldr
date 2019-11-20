@@ -5,12 +5,12 @@
 
 - 디렉토리 안의 모든 코드의 줄 개수를 셉니다:
 
-`cloc {{/path/to/directory}}`
+`cloc {{/경로/디렉토리}}`
 
 - 진행 바로 현재 진행 중인 과정을 보여주면서 디렉토리 안의 모든 코드의 줄 개수를 셉니다:
 
-`cloc --progress=1 {{/path/to/directory}}`
+`cloc --progress=1 {{/경로/디렉토리}}`
 
 - 두 개의 디렉토리 구조를 비교하고 차이의 개수를 셉니다:
 
-`cloc --diff {{/directory/one}} {{/directory/two}}`
+`cloc --diff {{/디렉토리/첫번째}} {{/디렉토리/두번째}}`
