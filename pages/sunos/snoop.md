@@ -15,7 +15,7 @@
 
 `snoop -V -i {{filename}}`
 
-- Capture network packets that come from hostname and go to port 8000:
+- Capture network packets that come from a hostname and go to a given port:
 
 `snoop to port {{port}} from host {{hostname}}`
 
