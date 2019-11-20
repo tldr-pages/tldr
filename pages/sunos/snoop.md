@@ -5,7 +5,7 @@
 
 - Capture packets on network interface e1000g0:
 
-`snoop -d e1000g0`
+`snoop -d {{e1000g0}}`
 
 - Capture packets to a file:
 
