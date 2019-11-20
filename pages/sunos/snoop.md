@@ -21,4 +21,4 @@
 
 - Capture and show network packets in hex and ASCII between two IP addresses:
 
-`snoop -x0 -p4 {{ip address 1}} {{ip address 2}}`
+`snoop -x0 -p4 {{ip_address_1}} {{ip_address_2}}`
