@@ -13,4 +13,4 @@
 
 - 서브 명령어를 위한 도움말을 보여줍니다:
 
-`consul {{sub-command}} --help`
+`consul {{하위-명령어}} --help`

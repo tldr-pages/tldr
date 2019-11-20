@@ -5,12 +5,12 @@
 
 - 키-값(key-value)쌍으로 저장된 값 읽기:
 
-`consul kv get {{key}}`
+`consul kv get {{키}}`
 
 - 새로운 키-값(key-value)쌍으로 저장:
 
-`consul kv put {{key}} {{value}}`
+`consul kv put {{키}} {{값}}`
 
 - 키-값(key-value)쌍 제거:
 
-`consul kv delete {{key}}`
+`consul kv delete {{키}}`
