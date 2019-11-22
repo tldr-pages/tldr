@@ -27,6 +27,6 @@
 
 `bower init`
 
-- 특정 종속 버전을 설치하고,  bower.json에 추가:
+- 특정 종속 버전을 설치하고, bower.json에 추가:
 
 `bower install {{로컬명}}={{패키지}}#{{버젼}} --save`

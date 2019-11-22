@@ -1,6 +1,6 @@
 # csvformat
 
-> csvkit에 포함된 CSV 파일을 사용자 정의 출력으로 변환. 
+> csvkit에 포함된 CSV 파일을 사용자 정의 출력으로 변환.
 > 더 많은 정보: <https://csvkit.readthedocs.io/en/latest/scripts/csvformat.html>.
 
 - 탭으로 구분된 파일(TSV)로 변환:

@@ -1,6 +1,6 @@
 # deluge
 
-> BitTorrent 클라이언트 명령어. 
+> BitTorrent 클라이언트 명령어.
 > 더 많은 정보: <https://deluge-torrent.org/>.
 
 - 토렌트 다운로드:

@@ -1,6 +1,6 @@
 # aria2
 
-> 경량 멀티 프로토콜 및 멀티 소스 명령줄 다운로드 유틸리티입니다. 
+> 경량 멀티 프로토콜 및 멀티 소스 명령줄 다운로드 유틸리티입니다.
 > HTTP, HTTPS, FTP, SFTP, BitTorrent와 Metalink를 지원합니다.
 > 더 많은 정보: <https://aria2.github.io/>.
 
@@ -12,7 +12,7 @@
 
 `aria2c {{http://mirror1.org/myLinux.iso}} {{http://mirror2.org/myLinux.iso}}`
 
--  호스트당 2개의 연결을 사용하여 다운로드 :
+- 호스트당 2개의 연결을 사용하여 다운로드 :
 
 `aria2c -x{{2}} {{http://example.org/myLinux.iso}}`
 

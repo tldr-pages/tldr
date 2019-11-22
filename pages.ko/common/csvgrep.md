@@ -1,6 +1,6 @@
 # csvgrep
 
-> csvkit에 포함된 CSV행의 문자열 및 패턴 매칭 필터링. 
+> csvkit에 포함된 CSV행의 문자열 및 패턴 매칭 필터링.
 > 더 많은 정보: <https://csvkit.readthedocs.io/en/latest/scripts/csvgrep.html>.
 
 - 1 열에 특정 문자열이 있는 행 찾기:
