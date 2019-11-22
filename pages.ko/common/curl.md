@@ -1,8 +1,8 @@
 # curl
 
-> 데이터를 서버에서 혹은 서버로 전송. 
-> HTTP,FTP 및 POP3를 포함한 대부분의 프로토콜 지원. 
-> 더 많은 정보: [https://curl.haxx.se](<https://curl.haxx.se/>).
+> 데이터를 서버에서 혹은 서버로 전송.
+> HTTP,FTP 및 POP3를 포함한 대부분의 프로토콜 지원.
+> 더 많은 정보: <https://curl.haxx.se>.
 
 - URL의 내용을 파일로 다운로드:
 
@@ -34,4 +34,4 @@
 
 - 리소스에 대한 클라이언트 인증서 및 키 전달, 인증서 유효성 검사 스킵:
 
-`curl --cert {{클라이언트.pem}} --key {{키.pem}} --insecure {{http://example.com}}`
+`curl --cert {{클라이언트.pem}} --key {{키.pem}} --insecure {{https://example.com}}`
