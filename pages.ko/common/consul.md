@@ -7,7 +7,7 @@
 
 `consul --version`
 
-- 도움말을 보여줍니다:
+- 일반 도움말을 보여줍니다:
 
 `consul --help`
 
