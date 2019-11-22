@@ -1,6 +1,6 @@
 # csvcut
 
-> 유닉스의 `cut` 명령어와 같이 CSV 파일 필터링 및 잘라내기, tabular 데이터 보존을 위해. csvkit에 포함된 CSV 파일만 해당. 
+> 유닉스의 `cut` 명령어와 같이 CSV 파일 필터링 및 잘라내기, tabular 데이터 보존을 위해. csvkit에 포함된 CSV 파일만 해당.
 > 더 많은 정보: <https://csvkit.readthedocs.io/en/latest/scripts/csvcut.html>.
 
 - 모든 열의 인덱스 및 이름 출력:
