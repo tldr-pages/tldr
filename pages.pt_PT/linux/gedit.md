@@ -1,7 +1,6 @@
 # gedit
 
-> Editor de texto para Desktop de GNOME.
-> Pode ser usado para criar editar todos os tipos de ficheiros de texto.
+> Editor de texto para Desktop do GNOME.
 
 - Abrir ficheiro de texto:
 
@@ -11,10 +10,10 @@
 
 `gedit {{ficheiro1 ficheiro2}}`
 
-- Apresentar lista de formatações de texto:
+- Mostrar a lista de formatações de texto disponíveis:
 
 `gedit --list-encodings`
 
-- Abrir ficheiro de texto com a seguinte formatação especifica:
+- Abrir um ficheiro de texto com uma formatação especifica:
 
 `gedit --encoding={{encoding}} {{ficheiro}}`
