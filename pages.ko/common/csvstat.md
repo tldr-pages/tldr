@@ -1,6 +1,6 @@
 # csvstat
 
-> csvkit에 포함된 CSV 파일의 모든 열에 대한 설명 통계 출력.. 
+> csvkit에 포함된 CSV 파일의 모든 열에 대한 설명 통계 출력.
 > 더 많은 정보: <https://csvkit.readthedocs.io/en/latest/scripts/csvstat.html>.
 
 - 모든 열에 대한 정보 출력:

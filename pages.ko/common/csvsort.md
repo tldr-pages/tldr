@@ -3,7 +3,7 @@
 > csvkit에 포함된 CSV 파일을 정렬. 
 > 더 많은 정보: <https://csvkit.readthedocs.io/en/latest/scripts/csvsort.html>.
 
-- CSV 파일을 9열로 정렬:
+- CSV 파일을 9열을 기준으로 정렬:
 
 `csvsort -c {{9}} {{데이터.csv}}`
 
@@ -11,7 +11,7 @@
 
 `csvsort -r -c {{이름}} {{데이터.csv}}`
 
-- CSV 파일을 2열, 4열로 정렬:
+- CSV 파일을 2열, 4열을 기준으로 정렬:
 
 `csvsort -c {{2,4}} {{데이터.csv}}`
 
