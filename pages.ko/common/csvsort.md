@@ -1,6 +1,6 @@
 # csvsort
 
-> csvkit에 포함된 CSV 파일을 정렬. 
+> csvkit에 포함된 CSV 파일을 정렬.
 > 더 많은 정보: <https://csvkit.readthedocs.io/en/latest/scripts/csvsort.html>.
 
 - CSV 파일을 9열을 기준으로 정렬:
