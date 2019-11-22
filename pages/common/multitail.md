@@ -2,11 +2,11 @@
 
 > Extension of tail.
 
-- Tail all files matching a pattern in a single stream
+- Tail all files matching a pattern in a single stream:
 
 `multitail -Q 1 '{{pattern}}'`
 
-- Tail all files in a directory in a single stream
+- Tail all files in a directory in a single stream:
 
 `multitail -Q 1 '{{directory}}/*'`
 
@@ -18,6 +18,6 @@
 
 `multitail -s 2 -sn 1,3 {{mergefile}} -I {{file1}} {{file2}} {{file3}} {{file4}}`
 
-- More examples
+- More examples:
 
 `https://www.vanheusden.com/multitail/examples.php`
