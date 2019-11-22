@@ -1,6 +1,6 @@
 # csvclean
 
-> csvkit에 포함된 CSV 파일의 공통 문법 오류 찾기 및 정리. 
+> csvkit에 포함된 CSV 파일의 공통 문법 오류 찾기 및 정리.
 > More information: <https://csvkit.readthedocs.io/en/latest/scripts/csvclean.html>.
 
 - CSV 파일 정리:

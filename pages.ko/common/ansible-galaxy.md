@@ -1,6 +1,6 @@
 # ansible-galaxy
 
-> 수용 가능한 역할 생성 및 관리. 
+> 수용 가능한 역할 생성 및 관리.
 > 더 많은 정보: <https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html>.
 
 - 역할 설치:

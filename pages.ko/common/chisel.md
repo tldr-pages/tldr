@@ -1,6 +1,6 @@
 # chisel
 
-> Chisel은 TCP 터널을 생성하는 도구. 
+> Chisel은 TCP 터널을 생성하는 도구.
 > 클라이언트와 서버 모두 포함.
 > 더 많은 정보: <https://github.com/jpillora/chisel>.
 

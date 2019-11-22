@@ -1,6 +1,6 @@
 # csslint
 
-> CSS 코드용 린터. 
+> CSS 코드용 린터.
 > 더 많은 정보: <https://github.com/CSSLint/csslint/wiki/Command-line-interface>.
 
 - 하나의 CSS 파일을 린트::
@@ -26,4 +26,3 @@
 - 완전히 무시할 특정 규칙을 지정:
 
 `csslint --ignore={{ids,규칙-수,속기}} {{파일.css}}`
-

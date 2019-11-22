@@ -1,6 +1,6 @@
 # ansible-playbook
 
-> SSH를 통해 원격 머신에서 playbook에 정의된 작업 실행. 
+> SSH를 통해 원격 머신에서 playbook에 정의된 작업 실행.
 > 더 많은 정보: <https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html>.
 
 - playbook에서 작업 실행:

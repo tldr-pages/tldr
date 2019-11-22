@@ -1,6 +1,6 @@
 # calibredb
 
-> 전자책 데이터베이스를 조작하는 도구. 
+> 전자책 데이터베이스를 조작하는 도구.
 > Calibre 전자책 라이브러리의 일부.
 > 더 많은 정보: <https://manual.calibre-ebook.com/generated/en/calibredb.html>.
 
