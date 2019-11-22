@@ -2,7 +2,7 @@
 
 > Histórico da linha de comandos.
 
-- Apresenta o histórico da linha de comandos por ordem de chamada. 
+- Mostrar o histórico da linha de comandos por ordem de chamada:
 
 `history`
 
