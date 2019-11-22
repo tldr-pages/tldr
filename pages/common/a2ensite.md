@@ -1,0 +1,12 @@
+# a2dissite
+
+> Disable an Apache virtual host.
+> More information: <https://httpd.apache.org/>.
+
+- Disable a virtual host:
+
+`sudo a2dissite {{virtual_host}}`
+
+- Don't show informative messages:
+
+`sudo a2dissite -q {{virtual_host}}`
