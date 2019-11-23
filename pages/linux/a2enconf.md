@@ -1,6 +1,6 @@
 # a2enconf
 
-> Enable an Apache configuration file.
+> Enable an Apache configuration file on Debian-based OSes.
 > More information: <https://httpd.apache.org/>.
 
 - Enable a configuration file:

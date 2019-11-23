@@ -1,6 +1,6 @@
 # a2disconf
 
-> Disable an Apache configuration file.
+> Disable an Apache configuration file on Debian-based OSes.
 > More information: <https://httpd.apache.org/>.
 
 - Disable a configuration file:

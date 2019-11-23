@@ -1,6 +1,6 @@
 # a2enmod
 
-> Enable an Apache module.
+> Enable an Apache module on Debian-based OSes.
 > More information: <https://httpd.apache.org/>.
 
 - Enable a module:

@@ -1,6 +1,6 @@
 # a2dissite
 
-> Disable an Apache virtual host.
+> Disable an Apache virtual host on Debian-based OSes.
 > More information: <https://httpd.apache.org/>.
 
 - Disable a virtual host:

@@ -1,6 +1,6 @@
 # a2ensite
 
-> Enable an Apache virtual host.
+> Enable an Apache virtual host on Debian-based OSes.
 > More information: <https://httpd.apache.org/>.
 
 - Enable a virtual host:

@@ -1,6 +1,6 @@
 # a2dismod
 
-> Disable an Apache module.
+> Disable an Apache module on Debian-based OSes.
 > More information: <https://httpd.apache.org/>.
 
 - Disable a module:
