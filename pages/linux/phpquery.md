@@ -1,6 +1,6 @@
 # phpquery
 
-> PHP extension manager for Debian.
+> PHP extension manager for Debian-based OSes.
 
 - List available PHP versions:
 

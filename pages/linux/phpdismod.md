@@ -1,6 +1,6 @@
 # phpdismod
 
-> Disable PHP extensions on Debian.
+> Disable PHP extensions on Debian-based OSes.
 
 - Disable the json extension for every SAPI of every PHP version:
 
