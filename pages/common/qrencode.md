@@ -5,8 +5,8 @@
 
 - Convert string to QR code and save to output file
 
-`qrencode -o {output_file.png}} {{string}}`
+`qrencode -o {{output_file.png}} {{string}}`
 
 - Convert input file to QR code and save to output file
 
-`qrencode -o {output_file.png}} -r {{input_file}}`
+`qrencode -o {{output_file.png}} -r {{input_file}}`
