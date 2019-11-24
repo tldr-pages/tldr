@@ -13,4 +13,4 @@
 
 - Pass arguments to the Xvfb server:
 
-`xvfb-run --server-args "{{-screen 0 1024x768x24}}"`
+`xvfb-run --server-args "{{-screen 0 1024x768x24}}" {{command}}`
