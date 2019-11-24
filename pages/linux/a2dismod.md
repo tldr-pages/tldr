@@ -9,4 +9,4 @@
 
 - Don't show informative messages:
 
-`sudo a2dismod -q {{module}}`
+`sudo a2dismod --quiet {{module}}`
