@@ -15,7 +15,7 @@
 
 `sudo timeshift --create`
 
-- Restore a snapshot (and select which snapshot to restore interactively):
+- Restore a snapshot (selecting which snapshot to restore interactively):
 
 `sudo timeshift --restore`
 
