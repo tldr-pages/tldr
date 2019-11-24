@@ -7,7 +7,7 @@
 
 `linkchecker {{https://example.com/}}`
 
-- Also check external URLs:
+- Also check URLs that point to external domains:
 
 `linkchecker --check-extern {{https://example.com/}}`
 
