@@ -3,19 +3,15 @@
 > Tool for managing Haskell projects.
 > More information: <https://github.com/commercialhaskell/stack>.
 
-- Create a new project:
+- Create a new package:
 
-`stack new {{project_name}}`
+`stack new {{package_name}} {{template_name}}`
 
-- Install all packages needed by a project:
-
-`stack install`
-
-- Compile a project:
+- Compile a package:
 
 `stack build`
 
-- Run tests inside a project:
+- Run tests inside a package:
 
 `stack test`
 
