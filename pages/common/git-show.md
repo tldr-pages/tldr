@@ -23,6 +23,6 @@
 
 `git show --oneline -s {{commit}}`
 
-- Show the contents of a file as it was at a given branch, tag or commit:
+- Show the contents of a file as it was at a given revision (e.g. branch, tag or commit):
 
-`git show {{commit}}:{{path/to/file}}`
+`git show {{revision}}:{{path/to/file}}`
