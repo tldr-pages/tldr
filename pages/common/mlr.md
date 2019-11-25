@@ -29,4 +29,4 @@
 
 - Filter lines of compressed CSV file (-S ensures numbers are treated as strings to prevent errors):
 
-mlr --prepipe 'gunzip' --csv filter -S '${{fieldName}} =~ "{{regexp}}"' {{example.csv.gz}}
+`mlr --prepipe 'gunzip' --csv filter -S '${{fieldName}} =~ "{{regexp}}"' {{example.csv.gz}}`
