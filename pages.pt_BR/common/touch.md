@@ -1,20 +1,20 @@
 # touch
 
-> Atualizar as timestamps dos ficheiro para a hora atual.
-> Se o ficheiro não existir, cria ficheiro vazio, a menos que seja passado parâmetro -c ou -h.
+> Atualizar as timestamps de um arquivo para a hora atual.
+> Se o arquivo não existir, cria um arquivo vazio, a menos que seja passado parâmetro -c ou -h.
 
-- Cria novo(s) ficheiro(s) vazio ou atualiza as timestamps para a hora atual:
+- Criar um novo arquivo vazio, ou atualizar as timestamps para a hora atual:
 
 `touch {{ficheiro}}`
 
-- Define as timestamps de um ficheiro para a hora especificada:
+- Definir as timestamps de um arquivo para a hora especificada:
 
-`touch -t {{YYYYMMDDHHMM.SS}} {{nome_ficheiro}}`
+`touch -t {{YYYYMMDDHHMM.SS}} {{arquivo}}`
 
-- Usa as timestamps do ficheiro1 para definir as horas do ficheiro2:
+- Usar as timestamps do arquivo1 para definir as timestamps do arquivo2:
 
-`touch -r {{ficheiro1}} {{ficheiro2}}`
+`touch -r {{arquivo1}} {{arquivo2}}`
 
-- Altera as timestamps de um ficheiro. Não cria novo ficheiro se não existir:
+- Alterar as timestamps de um arquivo. Não cria novo arquivo se não existir:
 
-`touch -c {{ficheiro}}`
+`touch -c {{arquivo}}`
