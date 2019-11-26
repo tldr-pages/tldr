@@ -9,4 +9,4 @@
 
 - Run PhotoRec on a disk image (image.dd):
 
-`sudo photorec {{/home/$USER/image.dd}}`
+`sudo photorec {{path/to/image.dd}}`
