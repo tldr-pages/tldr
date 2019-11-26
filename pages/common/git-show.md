@@ -22,3 +22,7 @@
 - Show a commit's hash and message in a single line, suppressing the diff output:
 
 `git show --oneline -s {{commit}}`
+
+- Show the contents of a file as it was at a given revision (e.g. branch, tag or commit):
+
+`git show {{revision}}:{{path/to/file}}`
