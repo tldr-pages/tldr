@@ -9,4 +9,4 @@
 
 - Convert input file to QR code and save to output file:
 
-`qrencode -o {{output_file.png}} -r {{input_file}}`
+`qrencode -o {{path/to/output_file.png}} -r {{path/to/input_file}}`
