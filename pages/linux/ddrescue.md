@@ -4,7 +4,7 @@
 
 - Make an image (image.dd) of /dev/sdb in the current directory, and make a log:
 
-`sudo ddrescue {{/dev/sdb}} {{image.dd}} {{ddrescue.log}}`
+`sudo ddrescue {{/dev/sdb}} {{path/to/image.dd}} {{path/to/ddrescue.log}}`
 
 - Clone Disk A to Disk B, creating a log file:
 
