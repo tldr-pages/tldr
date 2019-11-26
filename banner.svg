@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2200" height="1000">
+  <defs>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#97d6d2"/>
+      <stop offset="1" stop-color="#4d9182"/>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="b" x1="10%" y1="10%" x2="90%" y2="90%"/>
+    <linearGradient xlink:href="#a" id="c" x1="90%" y1="90%" x2="10%" y2="10%"/>
+  </defs>
+  <rect width="100%" height="100%" x="0" y="0" fill="#203050"/>
+  <g transform="translate(200,200)">
+    <rect width="460" height="460" x="70" y="70" rx="50" ry="50" fill="url(#b)"/>
+    <rect width="380" height="380" x="110" y="110" rx="40" ry="40" fill="url(#c)"/>
+    <text x="115" y="390" font-size="300" font-family="Sometype Mono, monospace" fill="#203050">
+      $_
+    </text>
+  </g>
+  <g fill="#7ebfb7" font-family="Sometype Mono, monospace">
+    <text x="840" y="520" font-size="340" font-weight="bold" transform="scale(1, 0.9)">
+      TL;DR
+    </text>
+    <text font-size="62" font-weight="500">
+      <tspan x="860" y="620">
+        A collection of simplified,
+      </tspan>
+      <tspan x="860" y="710">
+        community-driven man pages.
+      </tspan>
+    </text>
+  </g>
+</svg>
