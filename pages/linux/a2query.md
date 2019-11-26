@@ -1,7 +1,7 @@
 # a2query
 
 > Retrieve runtime configuration from Apache on Debian-based OSes.
-> More information: <https://httpd.apache.org/>.
+> More information: <https://manpages.debian.org/buster/apache2/a2query.1.en.html>.
 
 - List enabled Apache modules:
 
