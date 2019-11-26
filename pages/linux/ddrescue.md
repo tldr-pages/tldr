@@ -6,6 +6,6 @@
 
 `sudo ddrescue {{/dev/sdb}} {{image.dd}} {{ddrescue.log}}`
 
-- Clone Disk A to Disk B and make a log:
+- Clone Disk A to Disk B, creating a log file:
 
 `sudo ddrescue -f -n {{/dev/sda}} {{/dev/sdb}} {{/home/$USER/ddrescue.log}}`
