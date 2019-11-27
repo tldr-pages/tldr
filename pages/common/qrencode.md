@@ -1,6 +1,6 @@
 # qrencode
 
-> Encode input data in a QR Code and save as a PNG or EPS image.
+> QR Code generator. Supports PNG and EPS.
 > More information: <https://fukuchi.org/works/qrencode>.
 
 - Convert a string to a QR code and save to an output file:
