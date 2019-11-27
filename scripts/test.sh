@@ -8,16 +8,16 @@
 # NOTE: must be run from the repository root directory to correctly work!
 # NOTE: `set -e` is applied conditionally only if needed.
 
-# Default test.
-function default_test {
+# Default test function, ran by `npm test`.
+function run_tests {
   markdownlint pages*/**/*.md
   tldr-lint ./pages
 }
 
-# Special test for Travis CI pull request builds.
-# Runs default_test collecting errors for tldr-bot.
-function pr_test {
-  errs=`default_test 2>&1`
+# Special test function for Travis CI pull request builds.
+# Runs run_tests collecting errors for tldr-bot.
+function run_tests_pr {
+  errs=`run_tests 2>&1`
 
   if [ -n "$errs" ]; then
     echo -e "Test failed!\n$errs\n" >&2
@@ -29,7 +29,7 @@ function pr_test {
 
 # Additional checks for Travis CI pull request builds.
 # Only taken as suggestions, does not make the build fail.
-function pr_check {
+function run_checks_pr {
   msgs=`bash scripts/check-pr.sh`
 
   if [ -n "$msgs" ]; then
@@ -44,11 +44,11 @@ function pr_check {
 ###################################
 
 if [ "$TRAVIS" = "true" ] && [ "$TRAVIS_REPO_SLUG" = "tldr-pages/tldr" ] && [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
-  pr_check
-  pr_test
+  run_checks_pr
+  run_tests_pr
 else
   set -e
-  default_test
+  run_tests
 fi
 
 echo 'Test ran succesfully!'
