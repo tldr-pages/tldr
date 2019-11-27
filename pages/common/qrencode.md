@@ -7,6 +7,6 @@
 
 `qrencode -o {{path/to/output_file.png}} {{string}}`
 
-- Convert input file to QR code and save to output file:
+- Convert an input file to a QR code and save to an output file:
 
 `qrencode -o {{path/to/output_file.png}} -r {{path/to/input_file}}`
