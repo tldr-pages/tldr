@@ -49,7 +49,7 @@ function check_diff {
   local line
   local entry
 
-  git_diff=`git diff --name-status --find-copies-harder --diff-filter=AC --relative=pages/ master`
+  git_diff=$(git diff --name-status --find-copies-harder --diff-filter=AC --relative=pages/ master)
 
   if [ -n "$git_diff" ]; then
     echo -e "Check PR: git diff:\n$git_diff" >&2
@@ -108,7 +108,7 @@ MSG_NOT_DIR='The file `%s` does not look like a directory.\n'
 MSG_NOT_FILE='The file `%s` does not look like a regular file.\n'
 MSG_NOT_MD='The file `%s` does not have a `.md` extension.\n'
 
-PLATFORMS=`ls pages/`
+PLATFORMS=$(ls pages/)
 
 if [ "$TRAVIS" = "true" ] && [ "$TRAVIS_REPO_SLUG" = "tldr-pages/tldr" ] && [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
   check_diff
