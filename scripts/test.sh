@@ -17,7 +17,7 @@ function run_tests {
 # Special test function for Travis CI pull request builds.
 # Runs run_tests collecting errors for tldr-bot.
 function run_tests_pr {
-  errs=`run_tests 2>&1`
+  errs=$(run_tests 2>&1)
 
   if [ -n "$errs" ]; then
     echo -e "Test failed!\n$errs\n" >&2
@@ -30,7 +30,7 @@ function run_tests_pr {
 # Additional checks for Travis CI pull request builds.
 # Only taken as suggestions, does not make the build fail.
 function run_checks_pr {
-  msgs=`bash scripts/check-pr.sh`
+  msgs=$(bash scripts/check-pr.sh)
 
   if [ -n "$msgs" ]; then
     echo -e "\nCheck PR reported the following message(s):\n$msgs\n" >&2
