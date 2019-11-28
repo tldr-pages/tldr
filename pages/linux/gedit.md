@@ -1,7 +1,6 @@
 # gedit
 
-> Text editor for the GNOME Desktop.
-> It can be used to create and edit all kinds of text files.
+> Text editor of the GNOME Desktop project.
 
 - Open a text file:
 
@@ -11,10 +10,10 @@
 
 `gedit {{file1 file2 ...}}`
 
-- Display list of supported encodings:
-
-`gedit --list-encodings`
-
-- Open a text file with the specified encoding:
+- Open a text file with a specific encoding:
 
 `gedit --encoding={{UTF-8}} {{path/to/file}}`
+
+- Display a list of supported encodings:
+
+`gedit --list-encodings`
