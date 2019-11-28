@@ -14,6 +14,6 @@
 
 `gedit --encoding={{UTF-8}} {{path/to/file}}`
 
-- Display a list of the supported encodings:
+- Display a list of supported encodings:
 
 `gedit --list-encodings`
