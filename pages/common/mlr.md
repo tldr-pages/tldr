@@ -27,6 +27,6 @@
 
 `echo '{"hello":"world", "foo":"bar"}' | mlr --ijson --ojson --jvstack cat`
 
-- Filter lines of compressed CSV file (-S ensures numbers are treated as strings to prevent errors):
+- Filter lines of a compressed CSV file (`-S` ensures numbers are treated as strings to prevent errors):
 
 `mlr --prepipe 'gunzip' --csv filter -S '${{fieldName}} =~ "{{regexp}}"' {{example.csv.gz}}`
