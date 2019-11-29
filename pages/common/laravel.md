@@ -15,6 +15,10 @@
 
 `laravel new {{name}} --force`
 
+- Install the Laravel authentication scaffolding:
+
+`laravel new {{name}} --auth`
+
 - List the available installer commands:
 
 `laravel list`
