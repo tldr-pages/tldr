@@ -15,6 +15,6 @@
 
 `xgettext --join-existing --output {{path/to/output_file}} {{path/to/input_file}}`
 
-- Don't add an header containing metadata to the output file:
+- Don't add a header containing metadata to the output file:
 
 `xgettext --omit-header {{path/to/input_file}}`
