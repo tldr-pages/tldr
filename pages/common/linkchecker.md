@@ -15,6 +15,6 @@
 
 `linkchecker --ignore-url {{regex}} {{https://example.com/}}`
 
-- Output results to a file in the csv format:
+- Output results to a CSV file:
 
 `linkchecker --file-output {{csv}}/{{path/to/file}} {{https://example.com/}}`
