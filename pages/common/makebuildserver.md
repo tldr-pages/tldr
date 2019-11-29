@@ -7,6 +7,6 @@
 
 `makebuildserver`
 
-- Always create a fresh virtual machine:
+- Force creating a fresh virtual machine:
 
 `makebuildserver --clean`
