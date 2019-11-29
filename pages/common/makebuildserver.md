@@ -7,6 +7,6 @@
 
 `makebuildserver`
 
-- Don't try to update an existing virtual machine and always create a new one:
+- Always create a fresh virtual machine:
 
 `makebuildserver --clean`
