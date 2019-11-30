@@ -26,3 +26,7 @@
 - Receive JSON and format the output as vertical JSON:
 
 `echo '{"hello":"world", "foo":"bar"}' | mlr --ijson --ojson --jvstack cat`
+
+- Filter lines of a compressed CSV file treating numbers as strings:
+
+`mlr --prepipe 'gunzip' --csv filter -S '${{fieldName}} =~ "{{regexp}}"' {{example.csv.gz}}`
