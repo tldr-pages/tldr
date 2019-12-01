@@ -1,6 +1,6 @@
 # PhotoRec
 
-> Deleted file recovery tool.
+> Data recovery tool.
 > It is recommended to write recovered files to a disk separate to the one being recovered from.
 > More information: <https://www.cgsecurity.org/wiki/PhotoRec>.
 
