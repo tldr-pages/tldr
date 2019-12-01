@@ -4,4 +4,4 @@
 
 - Change the volume label on a specific partition:
 
-`e2label {{/dev/sda1}} {{"my-label"}}`
+`e2label {{/dev/sda1}} {{"label_name"}}`
