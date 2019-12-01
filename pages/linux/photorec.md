@@ -1,4 +1,4 @@
-# PhotoRec
+# photorec
 
 > Deleted file recovery tool.
 > It is recommended to write recovered files to a disk separate to the one being recovered from.
