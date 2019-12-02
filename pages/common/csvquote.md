@@ -9,7 +9,7 @@
 
 - Replace quoted special characters in normal tsv file:
 
-`csvquote -t {{data.csv}}`
+`csvquote -t {{path/to/data.csv}}`
 
 - Restore quoted special characters from stdin:
 
