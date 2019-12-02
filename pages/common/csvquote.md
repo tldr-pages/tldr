@@ -1,6 +1,6 @@
 # csvquote
 
-> Enables common utilities like `cut` and `awk` to work correctly with CSV data containing quoted delimiters and newlines.
+> Enables common utilities such as `cut` and `awk` to work correctly with CSV files containing quoted delimiters and newlines.
 > More information: <https://github.com/dbro/csvquote>.
 
 - Replace quoted special characters in normal csv file:
@@ -15,6 +15,6 @@
 
 `csvquote -u`
 
-- Most common use case:
+- Quoting an CSV file for `command` and unquoting after processing (Most Common Use Case):
 
 `csvquote {{path/to/data.csv}} | {{command}} | csvquote -u`
