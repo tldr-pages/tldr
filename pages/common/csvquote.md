@@ -17,4 +17,4 @@
 
 - Most common use case:
 
-`csvquote {{data.csv}} | {{do_some_kind_of_processing}} | csvquote -u`
+`csvquote {{path/to/data.csv}} | {{command}} | csvquote -u`
