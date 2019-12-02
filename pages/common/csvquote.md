@@ -5,7 +5,7 @@
 
 - Replace quoted special characters in normal csv file:
 
-`csvquote {{data.csv}}`
+`csvquote {{path/to/data.csv}}`
 
 - Replace quoted special characters in normal tsv file:
 
