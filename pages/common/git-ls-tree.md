@@ -11,6 +11,6 @@
 
 `git ls-tree -r {{commit_hash}}`
 
-- List the contents of the tree on a commit and show only filenames:
+- List the contents of the tree {{N}} commits ago and show only filenames:
 
-`git ls-tree --name-only {{HEAD~3}}`
+`git ls-tree --name-only {{HEAD}}~{{N}}`
