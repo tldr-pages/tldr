@@ -22,6 +22,10 @@
 
 `ssh-keygen -l -F {{remote_host}}`
 
+- Remove the keys of a host from your known_hosts file (useful when a known host has a new key)
+
+`ssh-keygen -R {{myhost.com}}`
+
 - Retrieve the fingerprint of a key in MD5 Hex:
 
 `ssh-keygen -l -E md5 -f ~/.ssh/{{filename}}`
