@@ -5,8 +5,12 @@
 
 - List the contents of the tree on a branch:
 
-`git ls-tree {{master}}`
+`git ls-tree {{branch_name}}`
 
-- List the contents of the tree on a commit, recurse into subtrees, and show only filenames:
+- List the contents of the tree on a commit and recurse into subtrees:
 
-`git ls-tree -r --name-only {{c39ab84d}}`
+`git ls-tree -r {{commit_hash}}`
+
+- List the contents of the tree on a commit and show only filenames:
+
+`git ls-tree --name-only {{HEAD~3}}`
