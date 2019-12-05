@@ -1,7 +1,6 @@
 # IPython
 
-> A Python shell with automatic history, dynamic object introspection, easier
-> configuration, command completion, access to the system shell and more.
+> A Python shell with automatic history, dynamic object introspection, easier configuration, command completion, access to the system shell and more.
 > More information: https://ipython.org/documentation.html
 
 - Start an interactive IPython session:
@@ -20,7 +19,6 @@
 
 `ipython locate profile`
 
-- Clear the IPython history database, deleting all entries.
+- Clear the IPython history database, deleting all entries:
 
 `ipython history clear`
-
