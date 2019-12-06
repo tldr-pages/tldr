@@ -14,7 +14,7 @@
 
 `ssh-keygen -t ed25519 -a 100`
 
-- Generate an RSA 4096 bit key with your email as a comment:
+- Generate an RSA 4096 bit key with email as a comment:
 
 `ssh-keygen -t rsa -b 4096 -C "{{email}}"`
 
@@ -22,7 +22,7 @@
 
 `ssh-keygen -l -F {{remote_host}}`
 
-- Remove the keys of a host from your known_hosts file (useful when a known host has a new key):
+- Remove the keys of a host from the known_hosts file (useful when a known host has a new key):
 
 `ssh-keygen -R {{remote_host}}`
 
