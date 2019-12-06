@@ -1,6 +1,6 @@
 # git rev-list
 
-> Lists commits in reverse chronological order.
+> List revisions (commits) in reverse chronological order.
 > More information: <https://git-scm.com/docs/git-rev-list>.
 
 - List all commits on the current branch:
