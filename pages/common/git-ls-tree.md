@@ -7,7 +7,7 @@
 
 `git ls-tree {{branch_name}}`
 
-- List the contents of the tree on a commit and recurse into subtrees:
+- List the contents of the tree on a commit, recursing into subtrees:
 
 `git ls-tree -r {{commit_hash}}`
 
