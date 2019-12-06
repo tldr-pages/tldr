@@ -3,7 +3,7 @@
 > Lists commits in reverse chronological order.
 > More information: <https://git-scm.com/docs/git-rev-list>.
 
-- List all commits on current branch:
+- List all commits on the current branch:
 
 `git rev-list {{HEAD}}`
 
