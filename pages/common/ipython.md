@@ -7,7 +7,7 @@
 
 `ipython`
 
-- Enter an interactive IPython session after running the Python script:
+- Enter an interactive IPython session after running a Python script:
 
 `ipython -i {{script.py}}`
 
@@ -15,7 +15,7 @@
 
 `ipython profile create`
 
-- Print the path to the directory for default IPython profile:
+- Print the path to the directory for the default IPython profile:
 
 `ipython locate profile`
 
