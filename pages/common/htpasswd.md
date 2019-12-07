@@ -23,6 +23,6 @@
 
 `htpasswd -v {{path/to/file}} {{user_name}}`
 
-- Generate username/password string (md5) for manual use:
+- Display a string with username (plain text) and password (md5):
 
 `htpasswd -nbm {{user_name}} {{password}}`
