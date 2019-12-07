@@ -4,7 +4,7 @@ Most people submit pull requests to the tldr project
 If you prefer, you can do most of the process using the command line instead.
 The overall process should look somewhat like this:
 
-1. Fork the tldr repository on the github web interface.
+1. Fork the tldr repository on the GitHub web interface.
 
 2. Clone your fork locally:  
   `git clone https://github.com/{{your_username}}/tldr.git && cd tldr`
@@ -20,7 +20,7 @@ The overall process should look somewhat like this:
 6. Push the commit(s) to your fork:  
   `git push origin {{branch_name}}`
 
-7. Go to the github page for your fork and click the green "pull request" button.
+7. Go to the GitHub page for your fork and click the green "pull request" button.
 
 Please only send related changes in the same pull request.
 Typically a pull request will include changes in a single file.

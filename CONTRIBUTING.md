@@ -95,9 +95,9 @@ The default language used for pages is English (US). Pages written in English ar
 
 ## Submitting a pull request
 
-The easiest way to submit a change is to just edit the page directly on the Github interface.
+The easiest way to submit a change is to just edit the page directly on the GitHub interface.
 Check out the step-by-step instructions (with screenshots) on
-[Github Help](https://help.github.com/articles/editing-files-in-another-user-s-repository/).
+[GitHub Help](https://help.github.com/articles/editing-files-in-another-user-s-repository/).
 
 Alternatively, you can do most of the process
 [using git on the command line](contributing-guides/git-terminal.md).
