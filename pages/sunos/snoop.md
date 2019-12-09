@@ -19,6 +19,6 @@
 
 `snoop to port {{port}} from host {{hostname}}`
 
-- Capture and show network packets in hex and ASCII between two IP addresses:
+- Capture and show an hex-dump of network packets exchanged between two IP addresses:
 
 `snoop -x0 -p4 {{ip_address_1}} {{ip_address_2}}`
