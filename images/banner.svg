@@ -6,6 +6,19 @@
     </linearGradient>
     <linearGradient xlink:href="#a" id="b" x1="10%" y1="10%" x2="90%" y2="90%"/>
     <linearGradient xlink:href="#a" id="c" x1="90%" y1="90%" x2="10%" y2="10%"/>
+    <style type="text/css">
+      <![CDATA[
+        @font-face {
+          font-family: 'Sometype Mono';
+          src: url('./SometypeMono-Regular.ttf');
+        }
+        @font-face {
+          font-family: 'Sometype Mono';
+          src: url('./SometypeMono-Bold.ttf');
+          font-weight: bold;
+        }
+      ]]>
+    </style>
   </defs>
   <rect width="100%" height="100%" x="0" y="0" fill="#203050"/>
   <g transform="translate(200,200)">
