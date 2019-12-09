@@ -43,7 +43,7 @@ Surely people could benefit from simplified man pages
 focused on practical examples.
 How about:
 
-![tldr screenshot](screenshot.png)
+![tldr screenshot](images/screenshot.png)
 
 This repository is just that: an ever-growing collection of examples
 for the most common UNIX / Linux / macOS / SunOS commands.
