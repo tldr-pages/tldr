@@ -7,7 +7,7 @@
 
 `snoop -d {{e1000g0}}`
 
-- Capture packets to a file:
+- Save captured packets in a file instead of displaying them:
 
 `snoop -o {{filename}}`
 
