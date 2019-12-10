@@ -1,7 +1,7 @@
 # afinfo
 
-> Audio File Metadata Parser
-> `afinfo --help` or `afinfo -h` for full usage
+> Audio file metadata parser for OS X.
+> `afinfo --help` or `afinfo -h` for full usage.
 
 - Display info of given audio file:
 

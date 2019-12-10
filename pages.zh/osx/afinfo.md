@@ -1,6 +1,6 @@
 # afinfo
 
-> 显示音频文件元数据 (Metadata) 详细信息
+> 显示音频文件元数据 (Metadata) 详细信息 (OS X)
 > 用 `afinfo --help` 或者 `afinfo -h` 显示完整用法
 
 - 显示音频文件的详细信息:
