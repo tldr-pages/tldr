@@ -11,7 +11,7 @@
 
 `magick convert -resize 100x100 image.jpg image.jpg`
 
-- Create a gif using images:
+- Create a GIF using images:
 
 `magick *.jpg images.gif`
 
