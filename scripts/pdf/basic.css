@@ -1,34 +1,34 @@
 @font-face {
-    font-family: 'PT_Serif-Web-Regular';
-    src: url('PT_Serif-Web-Regular.ttf')  format('truetype');
+  font-family: "PT Serif";
+  src: url("pt-serif-web-regular.ttf") format("truetype");
 }
 
 p {
-    margin-left: 2.5em;
+  margin-left: 2.5em;
 }
 
 code {
-    color: darkslategrey;
+  color: darkslategrey;
 }
 
-h1, h4, h2, ul {
-    font-family: "PT_Serif-Web-Regular";
+h1, h2, h4, ul {
+  font-family: "PT Serif";
 }
 
-h1.titlemain {
-    text-align: center;
-    margin-top: 6em;
-    font-size: 350%;
+.title-main {
+  text-align: center;
+  margin-top: 6em;
+  font-size: 350%;
 }
 
-h4.titlesub {
-    text-align: center;
-    font-size: 120%;
-    color: darkslategrey;
+.title-sub {
+  text-align: center;
+  font-size: 120%;
+  color: darkslategrey;
 }
 
-h2.titledir {
-    text-align: center;
-    margin-top: 8.2em;
-    font-size: 300%;
+.title-dir {
+  text-align: center;
+  margin-top: 8.2em;
+  font-size: 300%;
 }
