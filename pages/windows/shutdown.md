@@ -15,10 +15,6 @@
 
 `shutdown /r`
 
-- Restart the current machine force-closing all apps:
-
-`shutdown /r /f`
-
 - Hibernate the current machine:
 
 `shutdown /h`
