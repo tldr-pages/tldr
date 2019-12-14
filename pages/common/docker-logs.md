@@ -21,3 +21,5 @@
 
 - Print logs from a certain point in time of container execution (i.e. 23m, 10s, 2013-01-02T13:23:37):
 
+`docker logs {{container_name}} --until {{time}}`
+
