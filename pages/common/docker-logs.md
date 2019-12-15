@@ -11,9 +11,9 @@
 
 `docker logs -f {{container_name}}`
 
-- Print last {{num}} lines:
+- Print last 5 lines:
 
-`docker logs {{container_name}} --tail {{num}}`
+`docker logs {{container_name}} --tail {{5}}`
 
 - Print logs and append them with timestamps:
 
