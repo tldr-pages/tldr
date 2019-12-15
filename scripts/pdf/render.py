@@ -32,12 +32,12 @@ def main(loc, colorscheme):
   oslist.sort()
 
   # Required strings to create intermediate HTML files
-  header = '<!DOCTYPE html><html><head><link rel="stylesheet" href="basic.css">'
+  header = '<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="basic.css">'
   if colorscheme != "basic":
     header += '<link rel="stylesheet" href="' + colorscheme + '.css"></head><body>\n'
   header += "</head><body>\n"
   footer = "</body></html>"
-  title_content = "<h1 class=title-main>tldr pages</h1><h4 class=title-sub>Simplified and community driven man pages</h4></body></html>"
+  title_content = "<h1 class=title-main>tldr pages</h1><h4 class=title-sub>Simplified and community-driven man pages</h4></body></html>"
 
   # Creating title page
   with open("title.html", "w") as f:
