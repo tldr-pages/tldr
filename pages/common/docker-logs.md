@@ -1,7 +1,7 @@
 # docker logs
 
 > Print container logs.
-> More information: https://docs.docker.com/engine/reference/commandline/logs/.
+> More information: <https://docs.docker.com/engine/reference/commandline/logs>.
 
 - Print logs from a container:
 
