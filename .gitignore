@@ -14,3 +14,7 @@ npm-debug.log
 # hosted at https://tldr-pages.github.io/assets/index.json
 pages/index.json
 index.json
+
+# Generated PDF pages
+scripts/pdf/*.html
+scripts/pdf/tldr.pdf
