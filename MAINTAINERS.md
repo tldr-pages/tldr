@@ -40,7 +40,6 @@ If you are an owner of the organization, you should be able to see an automated 
 - **Proscream ([@Proscream](https://github.com/Proscream))**:
   [22 November 2019](https://github.com/tldr-pages/tldr/issues/3592) - present
 - Zlatan Vasović ([@zdroid](https://github.com/zdroid)):
-  [30 November 2019](https://github.com/tldr-pages/tldr/issues/3636) - [17 December 2019](https://github.com/tldr-pages/tldr/issues/3663)
 
 
 ## Organization members
