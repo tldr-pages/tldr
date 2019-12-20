@@ -5,11 +5,11 @@
 
 - Run ipconfig.exe program:
 
-`wine ipconfig /all
+`wine ipconfig /all`
 
 - Run cmd.exe in background:
 
-`wine start cmd 
+`wine start cmd`
 
 - Run Windows-like Package Manager:
 
