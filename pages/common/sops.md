@@ -6,24 +6,24 @@
 
 - Encrypt a file:
 
-`sops -e myfile.json > myfile.enc.json`
+`sops -e {{path/to/myfile.json}} > {{path/to/myfile.enc.json}}`
 
 - To decrypt a file in a `cat` fashion, use the `-d` flag:
 
-`sops -d myfile.enc.json`
+`sops -d {{path/to/myfile.enc.json}}`
 
 - To rotate data keys for a sops file:
 
-`sops -r example.enc.yaml`
+`sops -r {{path/to/myfile.enc.yaml}}`
 
 - Change the extension of the file once encrypted:
 
-`sops -d --input-type json myfile.enc.json`
+`sops -d --input-type json {{path/to/myfile.enc.json}}`
 
 - Extract keys by naming them, and array elements by numbering them:
 
-`sops -d --extract '["an_array"][1]' myfile.enc.json`
+`sops -d --extract '["an_array"][1]' {{path/to/myfile.enc.json}}`
 
 - Diff two sops files:
 
-`diff <(sops -d secret1.enc.yaml) <(sops -d secret2.enc.yaml)`
+`diff <(sops -d {{path/to/secret1.enc.yaml}}) <(sops -d {{path/to/secret2.enc.yaml}})`
