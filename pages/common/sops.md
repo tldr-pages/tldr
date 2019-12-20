@@ -8,11 +8,11 @@
 
 `sops -e {{path/to/myfile.json}} > {{path/to/myfile.enc.json}}`
 
-- To decrypt a file in a `cat` fashion, use the `-d` flag:
+- Decrypt a file in `cat` fashion using the `-d` flag:
 
 `sops -d {{path/to/myfile.enc.json}}`
 
-- To rotate data keys for a sops file:
+- Rotate data keys for a sops file:
 
 `sops -r {{path/to/myfile.enc.yaml}}`
 
