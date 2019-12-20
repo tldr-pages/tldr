@@ -8,7 +8,7 @@
 
 `sops -e {{path/to/myfile.json}} > {{path/to/myfile.enc.json}}`
 
-- Decrypt a file in `cat` fashion using the `-d` flag:
+- Decrypt a file to the standard output:
 
 `sops -d {{path/to/myfile.enc.json}}`
 
