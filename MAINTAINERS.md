@@ -49,7 +49,7 @@ In addition everything that a repository collaborator can do,
 an organization member also has write access to all the repositories in the tldr-pages organization.
 An automated list can be found [here](https://github.com/orgs/tldr-pages/people).
 
-- **Zlatan Vasović ([@zdroid](https://github.com/mebeim))**:
+- **Zlatan Vasović ([@zdroid](https://github.com/zdroid))**:
   [17 December 2019](https://github.com/tldr-pages/tldr/issues/3663) — present
 - Owen Voke ([@pxgamer](https://github.com/pxgamer))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
