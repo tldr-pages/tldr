@@ -9,16 +9,16 @@
 
 - Añade un remoto:
 
-`git remote add {{remote_name}} {{remote_url}}`
+`git remote add {{nombre_remoto}} {{url_remoto}}`
 
 - Cambiar la URL de un remoto (utiliza `--add` para mantener la URL existente):
 
-`git remote set-url {{remote_name}} {{new_url}}`
+`git remote set-url {{nombre_remoto}} {{nueva_url}}`
 
 - Elimina un remoto:
 
-`git remote remove {{remote_name}}`
+`git remote remove {{nombre_remoto}}`
 
 - Renombra un remoto:
 
-`git remote rename {{old_name}} {{new_name}}`
+`git remote rename {{nombre_antiguo}} {{nombre_nuevo}}`
