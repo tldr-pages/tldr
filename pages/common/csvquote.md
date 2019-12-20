@@ -3,7 +3,7 @@
 > Enables common utilities such as `cut` and `awk` to work correctly with CSV files containing quoted delimiters and newlines.
 > More information: <https://github.com/dbro/csvquote>.
 
-- Replace quoted special characters in normal csv file:
+- Replace quoted special characters in a normal CSV file:
 
 `csvquote {{path/to/data.csv}}`
 
