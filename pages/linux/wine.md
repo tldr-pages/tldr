@@ -3,13 +3,13 @@
 > Run Windows programs on Unix.
 > More information: <https://wiki.winehq.org/>.
 
-- Run a program with args:
+- Run ipconfig.exe program:
 
-`wine {{program}} {{program args}}`
+`wine ipconfig /all
 
-- Run a program with args in background:
+- Run cmd.exe in background:
 
-`wine start {{program}} {{program args}}`
+`wine start cmd 
 
 - Run Windows-like Package Manager:
 
