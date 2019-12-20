@@ -24,6 +24,6 @@
 
 `sops -d --extract '["an_array"][1]' {{path/to/myfile.enc.json}}`
 
-- Diff two sops files:
+- Show the difference between two sops files:
 
 `diff <(sops -d {{path/to/secret1.enc.yaml}}) <(sops -d {{path/to/secret2.enc.yaml}})`
