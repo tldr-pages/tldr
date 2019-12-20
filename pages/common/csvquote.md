@@ -15,6 +15,6 @@
 
 `csvquote -u`
 
-- Quoting an CSV file for `command` and unquoting after processing (Most Common Use Case):
+- Quote a CSV file for `command` and unquote after processing:
 
 `csvquote {{path/to/data.csv}} | {{command}} | csvquote -u`
