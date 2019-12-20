@@ -51,10 +51,10 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
 
 - **Zlatan Vasović ([@zdroid](https://github.com/mebeim))**:
   [17 December 2019](https://github.com/tldr-pages/tldr/issues/3663) — present
-- Marco Bonelli ([@mebeim](https://github.com/mebeim)):
-  [9 April 2019](https://github.com/tldr-pages/tldr/issues/2874) — [21 December 2019](https://github.com/tldr-pages/tldr/issues/3672)
 - Owen Voke ([@pxgamer](https://github.com/pxgamer))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
+- Marco Bonelli ([@mebeim](https://github.com/mebeim)):
+  [9 April 2019](https://github.com/tldr-pages/tldr/issues/2874) — [21 December 2019](https://github.com/tldr-pages/tldr/issues/3672)
 
 
 ## Organization owners
