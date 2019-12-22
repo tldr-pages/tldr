@@ -1,7 +1,7 @@
 # conky
 
 > Light-weight system monitor for X.
-> More information: <https://github.com/brndnmtthws/conky>
+> More information: <https://github.com/brndnmtthws/conky>.
 
 - Launch with default, built-in config:
 
