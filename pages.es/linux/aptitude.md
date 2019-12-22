@@ -1,35 +1,35 @@
 # aptitude
 
-> Debian and Ubuntu package management utility.
+> Herramienta de gestión de paquetes para Debian y Ubuntu.
 
-- Synchronize list of packages and versions available. This should be run first, before running subsequent aptitude commands:
+- Sincroniza la lista de paquetes y versiones disponible (se recomienda ejecutar este comando antes que cualquier otro comando `aptitude`):
 
 `aptitude update`
 
-- Install a new package and its dependencies:
+- Instalar un nuevo paquete y sus dependencias:
 
-`aptitude install {{package}}`
+`aptitude install {{paquete}}`
 
-- Search for a package:
+- Buscar un paquete:
 
-`aptitude search {{package}}`
+`aptitude search {{paquete}}`
 
-- Search for an installed package (`?installed` is an aptitude search term):
+- Buscar un paquete instalado (`?installed` es un término de búsqueda de `aptitude`):
 
-`aptitude search '?installed({{package}})'`
+`aptitude search '?installed({{paquete}})'`
 
-- Remove a package and all packages depending on it:
+- Elimina un paquete y todos los paquetes que dependen de él:
 
-`aptitude remove {{package}}`
+`aptitude remove {{paquete}}`
 
-- Upgrade installed packages to newest available versions:
+- Actualiza todos los paquetes sus nuevas versiones disponibles:
 
 `aptitude upgrade`
 
-- Upgrade installed packages (like `aptitude upgrade`) including removing obsolete packages and installing additional packages to meet new package dependencies:
+- Actualiza paquetes instalados (como `aptitude upgrade`), elimina los paquetes obsoletos e instala paquetes adicionales para satisfacer sus dependencias:
 
 `aptitude full-upgrade`
 
-- Put an installed package on hold to prevent it from being automatically upgraded:
+- Mantiente un paquete instalado para que no sea actualizado automáticamente:
 
-`aptitude hold '?installed({{package}})'`
+`aptitude hold '?installed({{paquete}})'`
