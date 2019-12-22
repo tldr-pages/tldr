@@ -88,6 +88,7 @@ Some examples of valid locale tags:
  - Chinese: `zh`.
  - Chinese (Singapore): `zh_SG`.
  - Portuguese (Brazil): `pt_BR`.
+ - Spanish: `es`.
 
 ### Default language for newly added pages
 
