@@ -1,23 +1,23 @@
 # apt-cache
 
-> Debian and Ubuntu package query tool.
+> Herramienta de consulta de paquete de Debian y Ubuntu.
 
-- Search for a package in your current sources:
+- Busca un paquete en tus fuentes actuales:
 
-`apt-cache search {{query}}`
+`apt-cache search {{consulta}}`
 
-- Show information about a package:
+- Muestra información de un paquete:
 
-`apt-cache show {{package}}`
+`apt-cache show {{paquete}}`
 
-- Show whether a package is installed and up to date:
+- Muestra  si un paquete está instalado y actualizado:
 
-`apt-cache policy {{package}}`
+`apt-cache policy {{paquete}}`
 
-- Show dependencies for a package:
+- Muestra las dependencias de un paquete:
 
-`apt-cache depends {{package}}`
+`apt-cache depends {{paquete}}`
 
-- Show packages that depend on a particular package:
+- Muestra los paquetes que dependen de un paquete en particular:
 
-`apt-cache rdepends {{package}}`
+`apt-cache rdepends {{paquete}}`
