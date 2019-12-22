@@ -1,6 +1,7 @@
 # conky
 
 > Monitor de sistema ligero para X.
+> Más información: <https://github.com/brndnmtthws/conky>
 
 - Ejecutar con la configuración por defecto:
 
