@@ -1,23 +1,23 @@
 # apt-key
 
-> Key management utility for the APT Package Manager on Debian and Ubuntu.
+> Herramienta para la gestión de claves para el Gestor de Paquetes APT (APT Package Manager) en Debian y Ubuntu.
 
-- List trusted keys:
+- Muestra las claves de confianza:
 
 `apt-key list`
 
-- Add a key to the trusted keystore:
+- Añade una clave al almacén de claves de confianza):
 
-`apt-key add {{public_key_file.asc}}`
+`apt-key add {{archivo_clave_pública.asc}}`
 
-- Delete a key from the trusted keystore:
+- Borrar una clave del almacén de claves de confianza:
 
-`apt-key del {{key_id}}`
+`apt-key del {{id_clave}}`
 
-- Add a remote key to the trusted keystore:
+- Añadir un clave remota al almacén de claves de confianza:
 
-`wget -qO - {{https://host.tld/filename.key}} | apt-key add -`
+`wget -qO - {{https://host.tld/archivo.clave}} | apt-key add -`
 
-- Add a key from keyserver with only key id:
+- Añadir una clave de un servidor de claves con el identificador de la clave:
 
-`apt-key adv --keyserver {{pgp.mit.edu}} --recv {{KEYID}}`
+`apt-key adv --keyserver {{pgp.mit.edu}} --recv {{id_clave}}
