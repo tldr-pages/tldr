@@ -7,6 +7,10 @@
 
 `git branch`
 
+- Show the name of the current branch:
+
+`git branch --show-current`
+
 - List all branches (local and remote):
 
 `git branch -a`
