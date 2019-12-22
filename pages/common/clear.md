@@ -2,7 +2,7 @@
 
 > Clears the screen of the terminal.
 
-- Clear the screen (equivalent to typing Control-L when using the bash shell):
+- Clear the screen (equivalent to pressing Control-L in Bash shell):
 
 `clear`
 
