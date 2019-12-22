@@ -1,23 +1,23 @@
 # apt-mark
 
-> Utility to change the status of installed packages.
+> Herramienta para cambiar el estado de los paquetes instalados.
 
-- Mark a package as automatically installed:
+- Marca un paquete como instalado automáticamente:
 
-`sudo apt-mark auto {{package_name}}`
+`sudo apt-mark auto {{nombre_paquete}}`
 
-- Hold a package at its current version and prevent updates to it:
+- Mantiene un paquete en su versión actual y evita que se actualice:
 
-`sudo apt-mark hold {{package_name}}`
+`sudo apt-mark hold {{nombre_paquete}}`
 
-- Allow a package to be updated again:
+- Permite que un paquete pueda ser actualizado de nuevo:
 
-`sudo apt-mark unhold {{package_name}}`
+`sudo apt-mark unhold {{nombre_paquete}}`
 
-- Show manually installed packages:
+- Muestra los paquetes instalados manualmente:
 
 `apt-mark showmanual`
 
-- Show held packages that aren't being updated:
+- Muestra los paquetes mantenidos que no son actualizados:
 
 `apt-mark showhold`
