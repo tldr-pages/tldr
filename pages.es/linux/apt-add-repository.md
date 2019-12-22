@@ -1,19 +1,19 @@
 # apt-add-repository
 
-> Manages apt repository definitions.
+> Gestiona las definiciones del repositorio apt.
 
-- Add a new apt repository:
+- Añade un nuevo repositorio apt:
 
-`apt-add-repository {{repository_spec}}`
+`apt-add-repository {{repositorio}}`
 
-- Remove an apt repository:
+- Elimina un repositorio apt:
 
-`apt-add-repository --remove {{repository_spec}}`
+`apt-add-repository --remove {{repositorio}}`
 
-- Update the package cache after adding a repository:
+- Actualiza la caché de paquetes tras añadir un repositorio:
 
-`apt-add-repository --update {{repository_spec}}`
+`apt-add-repository --update {{repositorio}}`
 
-- Enable source packages:
+- Activar las fuentes de paquetes:
 
-`apt-add-repository --enable-source {{repository_spec}}`
+`apt-add-repository --enable-source {{repositorio}}`
