@@ -1,32 +1,32 @@
 # apt-get
 
-> Debian and Ubuntu package management utility.
-> Search for packages using `apt-cache`.
+> Herramienta de gestión de paquete para distribuciones basadas en Debian.
+> Buscar paquetes utilizando `apt-cache`.
 
-- Update the list of available packages and versions (it's recommended to run this before other `apt-get` commands):
+- Actualiza la lista de paquetes y versiones disponibles (se recomienda ejecutar este comando antes que cualquier otro comando `apt-get`):
 
 `apt-get update`
 
-- Install a package, or update it to the latest available version:
+- Instala un paquete o actualizarlo a su última versión disponible:
 
-`apt-get install {{package}}`
+`apt-get install {{paquete}}`
 
-- Remove a package:
+- Elimina un paquete:
 
-`apt-get remove {{package}}`
+`apt-get remove {{paquete}}`
 
-- Remove a package and its configuration files:
+- Elimina un paquete y sus archivos de configuración:
 
-`apt-get purge {{package}}`
+`apt-get purge {{paquete}}`
 
-- Upgrade all installed packages to their newest available versions:
+- Actualizar todos los paquetes instalados a sus nuevas versiones disponibles:
 
 `apt-get upgrade`
 
-- Remove all packages that are no longer needed:
+- Eliminar todos los paquetes innecesarios:
 
 `apt-get autoremove`
 
-- Upgrade installed packages (like `upgrade`), but remove obsolete packages and install additional packages to meet new dependencies:
+- Actualiza paquetes instalados (como `upgrade`), pero elimina paquete obsoletos e instala paquetes adiciones para satisfacer nuevas dependencias:
 
 `apt-get dist-upgrade`
