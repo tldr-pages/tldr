@@ -2,14 +2,14 @@
 
 > Search for files in apt packages, including ones not yet installed.
 
-- Update the metadata database:
+- Actualizas los metadatos de la base de datos:
 
 `sudo apt update`
 
-- Search for packages that contain the specified file or path:
+- Busca paquetes que contengan el archivo o ruta especificada:
 
-`apt-file search {{part/of/filename}}`
+`apt-file search {{ruta/del/archivo}}`
 
-- List the contents of a specific package:
+- Muestra el contenido del paquete especificado:
 
-`apt-file list {{package_name}}`
+`apt-file list {{nombre_paquete}}
