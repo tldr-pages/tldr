@@ -11,6 +11,10 @@
 
 `git branch -a`
 
+- Show the name of the current branch:
+
+`git branch --show-current`
+
 - Create new branch based on the current commit:
 
 `git branch {{branch_name}}`
