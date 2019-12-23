@@ -7,13 +7,13 @@
 
 `git branch`
 
-- Show the name of the current branch:
-
-`git branch --show-current`
-
 - List all branches (local and remote):
 
 `git branch -a`
+
+- Show the name of the current branch:
+
+`git branch --show-current`
 
 - Create new branch based on the current commit:
 
