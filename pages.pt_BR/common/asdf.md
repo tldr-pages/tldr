@@ -1,6 +1,6 @@
 # asdf
 
-> Interface de linha de comando para gestão de versões de diferentes pacotes.
+> Utilitário para a gestão de versões de linguagens e programas.
 > Mais informações: <https://asdf-vm.com>.
 
 - Listar todos os plugins disponíveis:
