@@ -1,11 +1,11 @@
 # touch
 
 > Atualizar as timestamps de um arquivo para a hora atual.
-> Se o arquivo não existir, cria um arquivo vazio, a menos que seja passado parâmetro -c ou -h.
+> Se o arquivo não existir, cria um arquivo vazio, a menos que seja passado o parâmetro -c ou -h.
 
 - Criar um novo arquivo vazio, ou atualizar as timestamps para a hora atual:
 
-`touch {{ficheiro}}`
+`touch {{arquivo}}`
 
 - Definir as timestamps de um arquivo para a hora especificada:
 
