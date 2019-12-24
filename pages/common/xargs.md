@@ -1,13 +1,17 @@
 # xargs
 
 > Execute a command with piped arguments coming from another command, a file, etc.
-> The input is treated as a single block of text and split into separate arguments on spaces, tabs, newlines and end-of-file.
+> The input is treated as a single block of text and split into separate pieces on spaces, tabs, newlines and end-of-file.
 
-- Main usage pattern:
+- Run a command using the input data as arguments:
 
 `{{arguments_source}} | xargs {{command}}`
 
-- Delete all files with a `.backup` extension. `-print0` on find uses a null character to split the files, and `-0` changes the delimiter to the null character (useful if there's whitespace in filenames):
+- Run multiple chained commands on the input data:
+
+`{{arguments_source}} | xargs sh -c "{{command1}} && {{command2}} | {{command3}}"`
+
+- Delete all files with a `.backup` extension (`-print0` uses a null character to split file names, and `-0` uses it as delimiter):
 
 `find . -name {{'*.backup'}} -print0 | xargs -0 rm -v`
 
