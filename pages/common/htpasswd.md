@@ -22,3 +22,7 @@
 - Verify user password:
 
 `htpasswd -v {{path/to/file}} {{user_name}}`
+
+- Display a string with username (plain text) and password (md5):
+
+`htpasswd -nbm {{user_name}} {{password}}`
