@@ -1,11 +1,13 @@
 Copyright © 2014—present the [TLDR team](https://github.com/orgs/tldr-pages/people) and [contributors](https://github.com/tldr-pages/tldr/graphs/contributors).
 
-This work is licensed under a [**Creative Commons Attribution 4.0 International License**](http://creativecommons.org/licenses/by/4.0/).
+### This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+
+----
 
 The contents of the [scripts/](https://github.com/tldr-pages/tldr/tree/master/scripts) directory
 are licensed under the MIT license:
 
-> ## The MIT License
+> **The MIT License**
 >
 > Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
