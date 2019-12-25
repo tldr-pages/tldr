@@ -10,7 +10,7 @@
 
 `clear -x`
 
-- Indicate the type of terminal to clean (normally this option is unnecessary because it is taken from the environment variable `TERM`):
+- Indicate the type of terminal to clean (defaults to the value of the environment variable `TERM`):
 
 `clear -T {{type_of_terminal}}`
 
