@@ -13,7 +13,7 @@
 
 -Ejecuta conky con un archivo de configuración concreto:
 
-`conky -c {{path/to/config}}`
+`conky -c {{ruta/a/la/configuración}}`
 
 - Ejecuta en segundo plano (*daemon*):
 
