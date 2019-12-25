@@ -9,7 +9,7 @@
 
 - Run cmd.exe in background:
 
-`wine start cmd`
+`wine start {{cmd}}`
 
 - Run Windows-like Package Manager:
 
