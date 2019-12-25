@@ -5,7 +5,7 @@
 
 - Run ipconfig.exe program:
 
-`wine ipconfig /all`
+`wine {{ipconfig}} {{/all}}`
 
 - Run cmd.exe in background:
 
