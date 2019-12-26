@@ -27,10 +27,6 @@
 
 `firefox --headless --screenshot {{path/to/output_file.png}} {{https://example.com/}}`
 
-- Create a new profile in the default directory without starting Firefox:
-
-`firefox --CreateProfile {{profile_name}}`
-
 - Use a specific profile to allow multiple separate instances of Firefox to run at once:
 
 `firefox --profile {{path/to/directory}} {{https://example.com/}}`
