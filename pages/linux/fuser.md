@@ -1,24 +1,23 @@
 # fuser
 
 > Display process IDs currently using files or sockets.
-> Requires admin privileges.
+
+- Find which processes are accessing a file or directory:
+
+`fuser {{path/to/file_or_directory}}`
+
+- Show more fields (`USER`, `PID`, `ACCESS` and `COMMAND`):
+
+`fuser --verbose {{path/to/file_or_directory}}`
 
 - Identify processes using a TCP socket:
 
-`fuser -n tcp {{port}}`
+`fuser --namespace tcp {{port}}`
 
-- Find which processes are accessing a directory:
+- Kill all processes accessing a file or directory (sends the `SIGKILL` signal):
 
-`fuser {{path/to/directory}}`
+`fuser --kill {{path/to/file_or_directory}}`
 
-- Kill and signal processes accessing a file:
+- Find which processes are accessing the filesystem containing a specific file or directory:
 
-`fuser -k {{path/to/file}}`
-
-- Find which processes are accessing a file:
-
-`fuser -m {{path/to/file}}`
-
-- The verbose mode shows the fields USER, PID, ACCESS and COMMAND. The output is similar to ps:
-
-`fuser -v`
+`fuser --mount {{path/to/file_or_directory}}`
