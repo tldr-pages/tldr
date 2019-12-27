@@ -2,18 +2,18 @@
 
 > A tool to stress test CPU, memory, and IO on a Linux system.
 
-- Spawn N workers to stress test CPU:
+- Spawn 4 workers to stress test CPU:
 
-`stress -c {{N}}`
+`stress -c {{4}}`
 
-- Spawn N workers to stress test IO and timeout after M seconds:
+- Spawn 2 workers to stress test IO and timeout after 5 seconds:
 
-`stress -i {{N}} -t {{M}}`
+`stress -i {{2}} -t {{5}}`
 
-- Spawn N workers to stress test memory(each worker malloc 256M bytes):
+- Spawn 2 workers to stress test memory(each worker malloc 256M bytes):
 
-`stress -m {{N}} --vm-bytes 256M`
+`stress -m {{2}} --vm-bytes {{256M}}`
 
-- Spawn N workds spinning on write()/unlink()(each worker write 1G bytes):
+- Spawn 2 workers spinning on write()/unlink()(each worker writes 1G bytes):
 
-`stress -d {{N}} --hdd-bytes 1GB`
+`stress -d {{2}} --hdd-bytes {{1GB}}`
