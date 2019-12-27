@@ -1,7 +1,7 @@
 # xdg-user-dirs-update
 
 > Update XDG user directories.
-> More information: <https://manpages.ubuntu.com/manpages/bionic/man1/xdg-user-dirs-update.1.html>
+> More information: <https://manpages.ubuntu.com/manpages/bionic/man1/xdg-user-dirs-update.1.html>.
 
 - Change XDG's DESKTOP directory to the specified directory (must be absolute):
 
