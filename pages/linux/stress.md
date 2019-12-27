@@ -10,7 +10,7 @@
 
 `stress -i {{2}} -t {{5}}`
 
-- Spawn 2 workers to stress test memory (each worker malloc 256M bytes):
+- Spawn 2 workers to stress test memory (each worker allocates 256M bytes):
 
 `stress -m {{2}} --vm-bytes {{256M}}`
 
