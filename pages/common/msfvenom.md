@@ -3,7 +3,7 @@
 > Manually generate payloads for metasploit.
 > More information: <https://github.com/rapid7/metasploit-framework/wiki/How-to-use-msfvenom>.
 
-- List Payloads:
+- List payloads:
 
 `msfvenom -l payloads`
 
