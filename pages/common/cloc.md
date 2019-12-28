@@ -14,3 +14,7 @@
 - Compare 2 directory structures and count the differences between them:
 
 `cloc --diff {{/directory/one}} {{/directory/two}}`
+
+- Ignore files that are ignored by VCS, such as git:
+
+`cloc --vcs git {{/path/to/directory}}`
