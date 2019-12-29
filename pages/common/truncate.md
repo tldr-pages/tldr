@@ -12,4 +12,7 @@
 
 - Shrink the file by 2GiB, by removing data from the end of file:
 
-`truncate -s -{{2G}} {{filename}`
+`truncate -s -{{2G}} {{filename}}`
+
+- Empty a file's content:
+`truncate -s 0 {{filename}}`
