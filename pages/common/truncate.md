@@ -14,5 +14,6 @@
 
 `truncate -s -{{2G}} {{filename}}`
 
-- Empty a file's content:
+- Empty the file's content:
+
 `truncate -s 0 {{filename}}`
