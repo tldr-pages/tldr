@@ -1,5 +1,4 @@
-tldr-pages client specification
-===============================
+# tldr pages client specification
 
 **Current Specification Version:** 1.2
 
@@ -8,8 +7,7 @@ This document contains the official specification for tldr-pages clients. It is 
 The keywords "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](https://tools.ietf.org/html/rfc2119).
 
 
-Terminology
------------
+## Terminology
 
 In order to aid the understanding of this specification document, a number of terms will be defined in this section.
 
@@ -26,8 +24,7 @@ If a page is common across multiple platforms, but slightly differently on a giv
 For example, if the command `foo` is common to `mac`, `windows`, and `linux` but functions differently on `windows`, then the main page will be stored in `common`, and a copy will be placed in `windows` that's altered to match the different functionality.
 
 
-Command-Line Interface
-----------------------
+## Command-line interface
 
 This section describes the standardised command-line interface (CLI) for clients implementing one. Clients that do not provide a CLI can ignore this section.
 
@@ -57,7 +54,7 @@ tldr --version
 tldr -l
 ```
 
-### Page Names
+### Page names
 
 The first argument that does not start with a dash (`-`), MUST be considered the page name.
 
@@ -83,8 +80,7 @@ tldr --platform osx bash
 ```
 
 
-Directory Structure
--------------------
+## Directory structure
 
 This section documents the directory structure that contains the pages themselves.
 
@@ -124,14 +120,12 @@ Some examples:
 The structure inside these translation folders is identical to that of the main `pages` folder.
 
 
-Page Structure
---------------
+## Page structure
 
 Although this specification is about the interface that clients must provide, it is also worth noting that pages are written in standard [CommonMark](https://commonmark.org/), which the exception of the non-standard `{{` and `}}` syntax, which surrounds values in an example that users may edit. Clients MUST NOT break if the page format is changed within the _CommonMark_ specification.
 
 
-Page Resolution
----------------
+## Page resolution
 
 This section defines the algorithm by which a client can decide which page a user has requested.
 
@@ -174,8 +168,7 @@ where `{command_name}` is the name of the command that was not found.
 If multiple versions of a page were found for different platforms, then a client MAY choose to display a notice to the user notifying them of this.
 
 
-Language
---------
+## Language
 
 Pages can be written in multiple languages. If a client has access to environment variables, several standard ones exist to specify the language in which a client should operate. If not, then clients MUST make reasonable assumptions based on the information provided by the environment in which they operate (e.g. consulting `navigator.languages` in a browser, etc.). If possible, it is RECOMMENDED to also make language configurable, as to not only rely on the environment. Clients SHOULD therefore offer options to configure or override the language using configuration files or command line options (like `-L, --language` as suggested in the [options section](#Options) above).
 
@@ -196,16 +189,14 @@ Here's an example of how the lookup should be done on `linux` having set `LANGUA
     5. pages.fr/common/some-page.md -> does not exist
     6. pages/common/some-page.md    -> FOUND!
 
-Caching
--------
+## Caching
 
 If appropriate, it is RECOMMENDED that clients implement a cache of pages. If implemented, clients MUST download the archive either from **[http://tldr.sh/assets/tldr.zip](http://tldr.sh/assets/tldr.zip)** or [https://raw.githubusercontent.com/tldr-pages/tldr-pages.github.io/master/assets/tldr.zip](https://raw.githubusercontent.com/tldr-pages/tldr-pages.github.io/master/assets/tldr.zip) (which is pointed by the first link).
 
 Caching SHOULD be done according to the user's language configuration (if any), as to not waste unneeded space for unneeded languages. Additionally, clients MAY automatically update the cache on a regular basis.
 
 
-Changelog
----------
+## Changelog
 
  - [v1.2, July 3rd 2019](https://github.com/tldr-pages/tldr/blob/master/CLIENT-SPECIFICATION.md) (#3168)
    - Addition of a new `-L, --language` recommended command-line option.
