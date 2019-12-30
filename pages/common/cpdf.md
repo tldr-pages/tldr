@@ -3,7 +3,7 @@
 > CLI to manipulate existing PDF files in a variety of ways.
 > Homepage: <https://www.coherentpdf.com/cpdfmanual/cpdfmanual.html>.
 
-- Select pages 1, 2, 3 and 6 from source document and write those to destination document:
+- Select pages 1, 2, 3 and 6 from source document and write those to a destination document:
 
 `cpdf {{path/to/source_document.pdf}} 1-3,6 -o {{path/to/destination_document.pdf}}`
 
