@@ -14,7 +14,7 @@
 
 `ls -la`
 
-- Listar todos os arquivos, apresentando o tamanho em medidas legíveis por humanos (KB, MB, GB).
+- Listar todos os arquivos, apresentando o tamanho em medidas legíveis por humanos (kB, MB, GB).
 
 `ls -lh`
 
