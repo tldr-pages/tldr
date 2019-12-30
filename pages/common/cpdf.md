@@ -3,7 +3,7 @@
 > CLI to manipulate existing PDF files in a variety of ways.
 > Homepage: <https://www.coherentpdf.com/cpdfmanual/cpdfmanual.html>.
 
--  Select pages 1, 2, 3 and 6 from source document and write those to destination document:
+- Select pages 1, 2, 3 and 6 from source document and write those to destination document:
 
 `cpdf {{path/to/source_document.pdf}} 1-3,6 -o {{path/to/destination_document.pdf}}`
 
@@ -19,11 +19,11 @@
 
 `cpdf -split {{path/to/document.pdf}} -o {{path/to/chunk%%%.pdf}} -chunk 10`
 
--  Encrypt a document using 128bit encryption, providing `fred` as owner password and `joe` as user password:
+- Encrypt a document using 128bit encryption, providing `fred` as owner password and `joe` as user password:
 
 `cpdf -encrypt 128bit fred joe {{path/to/source_document.pdf}} -o {{path/to/encrypted_document.pdf}}`
 
--  Decrypt a document using the owner password `fred`:
+- Decrypt a document using the owner password `fred`:
 
 `cpdf -decrypt {{path/to/encrypted_document.pdf}} owner=fred -o {{path/to/decrypted_document.pdf}}`
 
