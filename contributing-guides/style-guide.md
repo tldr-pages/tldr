@@ -1,4 +1,4 @@
-# Style Guide
+# Style guide
 
 This page lists specific formatting instructions for tldr pages.
 
