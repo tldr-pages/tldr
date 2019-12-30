@@ -13,7 +13,7 @@
 
 - Show the bookmarks of a document:
 
-`cpdf -list-bookmarks {{path/to/document.pdf}}``
+`cpdf -list-bookmarks {{path/to/document.pdf}}`
 
 - Split a document into ten-page chunks, writing them to chunk001.pdf, chunk002.pdf, etc:
 
