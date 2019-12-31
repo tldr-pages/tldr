@@ -2,7 +2,7 @@
 
 > Listar o conteúdo de um diretório.
 
-- Listar um arquivo por linha:
+- Listar todos os arquivos, apresentando um arquivo por linha:
 
 `ls -1`
 
@@ -10,18 +10,18 @@
 
 `ls -a`
 
-- Listar (formato longo) todos os arquivos (permissões, propriedade, tamanho e data de modificação):
+- Listar todos os arquivos, exibindo permissões, propriedade, tamanho e data de modificação:
 
 `ls -la`
 
-- Listar (formato longo) todos os arquivos, apresentando o tamanho usando medidas legíveis por humanos (KB, MB, GB).
+- Listar todos os arquivos, apresentando o tamanho em medidas legíveis por humanos (kB, MB, GB).
 
 `ls -lh`
 
-- Listar (formato longo) todos os arquivos ordenados por tamanho (descendente):
+- Listar todos os arquivos ordenados por tamanho (descendente):
 
 `ls -lS`
 
-- Listar (formato longo) todos os arquivos ordenados por data de modificação (mais antigos primeiro):
+- Listar todos os arquivos ordenados por data de modificação (mais antigos primeiro):
 
 `ls -ltr`
