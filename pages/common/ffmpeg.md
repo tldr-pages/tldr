@@ -35,7 +35,6 @@
 
 `ffmpeg -i {{input_video}}.mp4 -codec:video libvpx-vp9 -crf {{30}} -b:video 0 -codec:audio libopus -vbr on -threads {{number_of_threads}} {{output_video}}.webm`
 
-- Merge audio with video. This command takes in a video file, and an audio file and give out a merged file with both audio and video.
+- Merge audio with video. This command takes in a video file, and an audio file and give out a merged file with both audio and video:
 
-`ffmpeg -i video.mp4 -i audio.wav \
--c:v copy -c:a aac -strict experimental output.mp4`
+`ffmpeg -i video.mp4 -i audio.wav -c:v copy -c:a aac -strict experimental output.mp4`
