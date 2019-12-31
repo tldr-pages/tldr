@@ -1,6 +1,7 @@
 # tldr
 
 > Simplified man pages.
+> More information: <https://tldr.sh>.
 
 - Get typical usages of a command (hint: this is how you got here!):
 

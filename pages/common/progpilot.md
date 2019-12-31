@@ -1,6 +1,7 @@
 # progpilot
 
 > A PHP static analysis tool for detecting security vulnerabilities.
+> More information: <https://github.com/designsecurity/progpilot>.
 
 - Analyse the current directory:
 

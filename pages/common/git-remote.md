@@ -1,7 +1,7 @@
 # git remote
 
 > Manage set of tracked repositories ("remotes").
-> Homepage: <https://git-scm.com/docs/git-remote>.
+> More information: <https://git-scm.com/docs/git-remote>.
 
 - Show a list of existing remotes, their names and URL:
 
@@ -11,7 +11,7 @@
 
 `git remote add {{remote_name}} {{remote_url}}`
 
-- Change the URL of a remote:
+- Change the URL of a remote (use `--add` to keep the existing URL):
 
 `git remote set-url {{remote_name}} {{new_url}}`
 

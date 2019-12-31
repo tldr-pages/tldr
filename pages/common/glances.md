@@ -1,7 +1,7 @@
 # glances
 
 > A cross-platform system monitoring tool.
-> Homepage: <https://nicolargo.github.io/glances/>.
+> More information: <https://nicolargo.github.io/glances/>.
 
 - Run in terminal:
 

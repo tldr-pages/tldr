@@ -1,6 +1,7 @@
 # rclone
 
 > CLI program to copy/sync/move files and directories to and from many cloud services.
+> More information: <https://rclone.org>.
 
 - List contents of a directory on an rclone remote:
 

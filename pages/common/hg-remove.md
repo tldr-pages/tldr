@@ -1,7 +1,7 @@
 # hg remove
 
 > Remove specified files from the staging area.
-> Homepage: <https://www.mercurial-scm.org/doc/hg.1.html#remove>.
+> More information: <https://www.mercurial-scm.org/doc/hg.1.html#remove>.
 
 - Remove files or directories from the staging area:
 

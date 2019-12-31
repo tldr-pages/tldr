@@ -2,6 +2,7 @@
 
 > Safely store and read passwords or other sensitive data easily.
 > All data is GPG-encrypted, and managed with a git repository.
+> More information: <https://www.passwordstore.org>.
 
 - Initialize the storage using a gpg-id for encryption:
 

@@ -1,7 +1,7 @@
 # conda
 
 > Package, dependency and environment management for any programming language.
-> Homepage: <https://github.com/conda/conda>.
+> More information: <https://github.com/conda/conda>.
 
 - Create a new environment, installing named packages into it:
 

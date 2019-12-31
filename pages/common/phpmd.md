@@ -1,6 +1,7 @@
 # phpmd
 
 > A PHP mess detector that checks for common potential problems.
+> More information: <https://github.com/phpmd/phpmd>.
 
 - Display a list of available rulesets and formats:
 
@@ -22,7 +23,7 @@
 
 `phpmd {{path/to/file_or_directory}} {{xml|text|html}} {{rulesets}} --exclude {{directory_patterns}}`
 
-- Output the results to a file instead of stdout:
+- Output the results to a file instead of `stdout`:
 
 `phpmd {{path/to/file_or_directory}} {{xml|text|html}} {{rulesets}} --reportfile {{path/to/report_file}}`
 

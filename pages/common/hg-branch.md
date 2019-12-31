@@ -1,7 +1,7 @@
 # hg branch
 
 > Create or show a branch name.
-> Homepage: <https://www.mercurial-scm.org/doc/hg.1.html#branch>.
+> More information: <https://www.mercurial-scm.org/doc/hg.1.html#branch>.
 
 - Show the name of the currently active branch:
 

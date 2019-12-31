@@ -2,6 +2,7 @@
 
 > Un editor di testo cross-platform personalizzabile.
 > I plugin sono gestiti da `apm`.
+> Maggiori informazioni: <https://atom.io/>.
 
 - Apri un file o una cartella:
 

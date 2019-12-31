@@ -1,7 +1,7 @@
 # clementine
 
 > A modern music player and library organizer.
-> Homepage: <https://www.clementine-player.org>.
+> More information: <https://www.clementine-player.org>.
 
 - Open Clementine:
 

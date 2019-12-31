@@ -1,6 +1,7 @@
 # msbuild
 
 > The Microsoft build tool for Visual Studio project solutions.
+> More information: <https://docs.microsoft.com/visualstudio/msbuild>.
 
 - Build the first project file in the current directory:
 

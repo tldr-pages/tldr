@@ -1,7 +1,8 @@
 # git status
 
-> Show the index (changed files).
-> Homepage: <https://git-scm.com/docs/git-status>.
+> Show the changes to files in a git repository.
+> Lists changed, added and deleted files compared to the currently checked-out commit.
+> More information: <https://git-scm.com/docs/git-status>.
 
 - Show changed files which are not yet added for commit:
 
@@ -10,3 +11,7 @@
 - Give output in short format:
 
 `git status -s`
+
+- Don't show untracked files in the output:
+
+`git status --untracked-files=no`

@@ -20,7 +20,7 @@
 
 - Disable a previously set alarm:
 
-`sudo rtc -m disable`
+`sudo rtcwake -m disable`
 
 - Perform a dry run to wakup the computer at a given time. (Press Ctrl + C to abort):
 

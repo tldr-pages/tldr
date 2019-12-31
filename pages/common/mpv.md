@@ -1,6 +1,7 @@
 # mpv
 
 > A audio/video player based on MPlayer.
+> More information: <https://mpv.io>.
 
 - Play a video or audio file:
 

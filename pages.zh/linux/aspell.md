@@ -14,7 +14,7 @@
 
 `aspell dicts`
 
-- 指定不同的语言(取ISO 639语言代码的2个字母)来运行aspell:
+- 指定不同的语言（取 ISO 639 语言代码的 2 个字母）来运行 aspell:
 
 `aspell --lang={{cs}}`
 

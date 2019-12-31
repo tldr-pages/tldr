@@ -2,7 +2,7 @@
 
 > Manage custom configuration options for git repositories.
 > These configurations can be local (for the current repository) or global (for the current user).
-> Homepage: <https://git-scm.com/docs/git-config>.
+> More information: <https://git-scm.com/docs/git-config>.
 
 - List only local configuration entries (stored in `.git/config` in the current repository):
 

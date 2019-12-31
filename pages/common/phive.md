@@ -1,6 +1,7 @@
 # phive
 
 > The Phar Installation and Verification Environment for secure PHP application deployment.
+> More information: <https://phar.io>.
 
 - Display a list of available aliased Phars:
 

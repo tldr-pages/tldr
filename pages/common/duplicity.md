@@ -2,6 +2,7 @@
 
 > Creates incremental, compressed, encrypted and versioned backups.
 > Can also upload the backups to a variety of backend services.
+> More information: <http://duplicity.nongnu.org>.
 
 - Backup a directory via FTPS to a remote machine, encrypting it with a password:
 

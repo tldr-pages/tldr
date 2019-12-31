@@ -1,6 +1,7 @@
 # openssl
 
 > OpenSSL cryptographic toolkit.
+> More information: <https://www.openssl.org>.
 
 - Generate a 2048bit RSA private key and save it to a file:
 

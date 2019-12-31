@@ -1,6 +1,7 @@
 # reg flags
 
 > Display or set flags on registry keys.
+> More information: <https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/reg-flags>.
 
 - Display current flags for a specific key:
 

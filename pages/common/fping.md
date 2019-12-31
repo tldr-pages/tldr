@@ -1,6 +1,7 @@
 # fping
 
 > A more powerful ping which can ping multiple hosts.
+> More information: <https://fping.org>.
 
 - List alive hosts within a subnet generated from a netmask:
 

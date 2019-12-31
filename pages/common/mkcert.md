@@ -1,7 +1,7 @@
 # mkcert
 
 > Tool for making locally-trusted development certificates.
-> Homepage: <https://github.com/FiloSottile/mkcert>.
+> More information: <https://github.com/FiloSottile/mkcert>.
 
 - Install the local CA in the system trust store:
 

@@ -1,7 +1,7 @@
 # clamscan
 
 > A command line virus scanner.
-> Homepage: <https://www.clamav.net>.
+> More information: <https://www.clamav.net>.
 
 - Scan a file for vulnerabilities:
 
@@ -11,7 +11,7 @@
 
 `clamscan -r {{path/to/directory}}`
 
-- Scan data from stdin:
+- Scan data from `stdin`:
 
 `{{command}} | clamscan -`
 

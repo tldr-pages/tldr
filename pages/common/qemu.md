@@ -2,7 +2,7 @@
 
 > Generic machine emulator and virtualizer.
 > Supports a large variety of CPU architectures.
-> Homepage: <https://www.qemu.org>.
+> More information: <https://www.qemu.org>.
 
 - Boot from image emulating i386 architecture:
 

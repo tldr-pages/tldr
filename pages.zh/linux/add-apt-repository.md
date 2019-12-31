@@ -1,12 +1,12 @@
 # add-apt-repository
 
-> apt仓库管理.
+> apt 仓库管理.
 
-- 添加一个新的apt仓库:
+- 添加一个新的 apt 仓库:
 
 `add-apt-repository {{指定仓库}}`
 
-- 移除一个apt仓库:
+- 移除一个 apt 仓库:
 
 `add-apt-repository --remove {{指定仓库}}`
 

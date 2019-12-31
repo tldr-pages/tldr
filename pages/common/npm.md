@@ -2,7 +2,7 @@
 
 > JavaScript and Node.js package manager.
 > Manage Node.js projects and their module dependencies.
-> Homepage: <https://www.npmjs.com/>.
+> More information: <https://www.npmjs.com/>.
 
 - Interactively create a package.json file:
 

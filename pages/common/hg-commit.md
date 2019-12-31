@@ -1,7 +1,7 @@
 # hg commit
 
 > Commit all staged or specified files to the repository.
-> Homepage: <https://www.mercurial-scm.org/doc/hg.1.html#commit>.
+> More information: <https://www.mercurial-scm.org/doc/hg.1.html#commit>.
 
 - Commit staged files to the repository:
 

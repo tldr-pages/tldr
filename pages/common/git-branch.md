@@ -1,7 +1,7 @@
 # git branch
 
 > Main git command for working with branches.
-> Homepage: <https://git-scm.com/docs/git-branch>.
+> More information: <https://git-scm.com/docs/git-branch>.
 
 - List local branches. The current branch is highlighted by `*`:
 
@@ -10,6 +10,10 @@
 - List all branches (local and remote):
 
 `git branch -a`
+
+- Show the name of the current branch:
+
+`git branch --show-current`
 
 - Create new branch based on the current commit:
 

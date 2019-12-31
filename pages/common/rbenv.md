@@ -1,6 +1,7 @@
 # rbenv
 
 > A tool to easily install Ruby versions and manage application environments.
+> More information: <https://github.com/rbenv/rbenv>.
 
 - Install one or more space-separated versions of Ruby:
 

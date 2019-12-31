@@ -1,7 +1,7 @@
 # hg init
 
 > Create a new repository in the specified directory.
-> Homepage: <https://www.mercurial-scm.org/doc/hg.1.html#init>.
+> More information: <https://www.mercurial-scm.org/doc/hg.1.html#init>.
 
 - Initialise a new repository in the current directory:
 

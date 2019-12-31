@@ -1,7 +1,7 @@
 # hg log
 
 > Display the revision history of the repository.
-> Homepage: <https://www.mercurial-scm.org/doc/hg.1.html#log>.
+> More information: <https://www.mercurial-scm.org/doc/hg.1.html#log>.
 
 - Display the entire revision history of the repository:
 

@@ -1,7 +1,7 @@
 # bosh
 
 > Command line tool to deploy and manage the bosh director.
-> Homepage: <https://bosh.io/docs/cli-v2/>.
+> More information: <https://bosh.io/docs/cli-v2/>.
 
 - Create local alias for director:
 

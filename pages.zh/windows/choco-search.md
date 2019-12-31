@@ -1,6 +1,6 @@
 # choco search
 
-> 使用Chocolatey搜索一个本地或远程的包.
+> 使用 Chocolatey 搜索一个本地或远程的包.
 
 - 搜索一个包:
 
@@ -20,7 +20,7 @@
 
 - 从自定义的源处搜索包:
 
-`choco search {{查询语句}} --source {{源URL|别名}}`
+`choco search {{查询语句}} --source {{源 URL|别名}}`
 
 - 提供一个用户名和密码来进行验证:
 

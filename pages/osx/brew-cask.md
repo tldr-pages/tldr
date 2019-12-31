@@ -1,7 +1,7 @@
 # brew cask
 
 > Package manager for macOS applications distributed as binaries.
-> Homepage: <https://github.com/Homebrew/homebrew-cask>.
+> More information: <https://github.com/Homebrew/homebrew-cask>.
 
 - Search for formulas and casks:
 
@@ -19,7 +19,7 @@
 
 `brew cask outdated`
 
-- Upgrade an installed cask to its latest version:
+- Upgrade an installed cask (if no cask name is given, all installed casks are upgraded):
 
 `brew cask upgrade {{cask_name}}`
 

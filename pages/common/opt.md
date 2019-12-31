@@ -1,6 +1,7 @@
 # opt
 
 > A tool that takes LLVM source files and runs specified optimizations and/or analyses on them.
+> More information: <https://llvm.org/docs/CommandGuide/opt.html>.
 
 - Run an optimization or analysis on a bitcode file:
 

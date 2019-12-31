@@ -2,6 +2,7 @@
 
 > Korn Shell.
 > `bash` and `sh`-compatible command line interpreter.
+> More information: <http://kornshell.com>.
 
 - Start interactive command line interpreter:
 

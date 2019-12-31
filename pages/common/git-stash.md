@@ -1,11 +1,11 @@
 # git stash
 
 > Stash local Git changes in a temporary area.
-> Homepage: <https://git-scm.com/docs/git-stash>.
+> More information: <https://git-scm.com/docs/git-stash>.
 
 - Stash current changes, except new (untracked) files:
 
-`git stash [save {{optional_stash_message}}]`
+`git stash [push -m {{optional_stash_message}}]`
 
 - Stash current changes, including new (untracked) files:
 

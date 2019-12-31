@@ -1,6 +1,7 @@
 # bw
 
 > CLI per accedere e gestire vault Bitwarden.
+> Maggiori informazioni: <https://help.bitwarden.com/article/cli/>.
 
 - Esegui il login ad un account Bitwarden:
 

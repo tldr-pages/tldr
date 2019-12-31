@@ -2,7 +2,7 @@
 
 > Download accelerator.
 > Supports HTTP, HTTPS, and FTP.
-> Homepage: <https://github.com/axel-download-accelerator/axel>.
+> More information: <https://github.com/axel-download-accelerator/axel>.
 
 - Download a URL to a file:
 

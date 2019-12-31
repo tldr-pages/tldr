@@ -2,7 +2,7 @@
 
 > Run a new command in a running process' namespace.
 > Particularly useful for docker images or chroot jails.
-> Homepage: <https://github.com/jpetazzo/nsenter/>.
+> More information: <https://github.com/jpetazzo/nsenter/>.
 
 - Run command in existing processes network namespace:
 

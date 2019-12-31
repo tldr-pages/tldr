@@ -1,6 +1,7 @@
 # asar
 
 > Gestore di archivi per la piattaforma Electron.
+> Maggiori informazioni: <https://github.com/electron/asar>.
 
 - Archivia un file o una cartella:
 

@@ -1,7 +1,11 @@
 # docker-compose
 
 > Run and manage multi container docker applications.
-> Homepage: <https://docs.docker.com/compose/reference/overview/>.
+> More information: <https://docs.docker.com/compose/reference/overview/>.
+
+- List all running containers:
+
+`docker-compose ps`
 
 - Create and start all containers in the background using a `docker-compose.yml` file from the current directory:
 
@@ -21,7 +25,7 @@
 
 - Stop and remove all containers, networks, images, and volumes:
 
-`docker-compose down`
+`docker-compose down --rmi all --volumes`
 
 - Follow logs for all containers:
 

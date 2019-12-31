@@ -1,8 +1,8 @@
 # aptitude
 
-> Debian和Ubuntu上的软件包管理工具.
+> Debian 和 Ubuntu 上的软件包管理工具.
 
-- 同步可用软件包及其版本列表,在运行后续aptitude命令前,应该首先运行该命令:
+- 同步可用软件包及其版本列表，在运行后续 aptitude 命令前，应该首先运行该命令:
 
 `aptitude update`
 
@@ -22,6 +22,6 @@
 
 `aptitude upgrade`
 
-- 更新已安装的软件包(类似于`aptitude upgrade`),移除过时的软件包并安装额外的软件包以满足新的软件包依赖项:
+- 更新已安装的软件包（类似于`aptitude upgrade`命令）， 移除过时的软件包并安装额外的软件包以满足新的软件包依赖项:
 
 `aptitude full-upgrade`

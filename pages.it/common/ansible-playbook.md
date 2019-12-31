@@ -1,6 +1,7 @@
 # ansible-playbook
 
 > Esegui task definiti nel playbook di un computer remoto via SSH.
+> Maggiori informazioni: <https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html>.
 
 - Esegui tasks nel playbook:
 

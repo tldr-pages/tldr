@@ -1,7 +1,7 @@
 # git checkout
 
 > Checkout a branch or paths to the working tree.
-> Homepage: <https://git-scm.com/docs/git-checkout>.
+> More information: <https://git-scm.com/docs/git-checkout>.
 
 - Create and switch to a new branch:
 
@@ -14,6 +14,10 @@
 - Switch to an existing local branch:
 
 `git checkout {{branch_name}}`
+
+- Switch to the previously checked out branch:
+
+`git checkout -`
 
 - Switch to an existing remote branch:
 

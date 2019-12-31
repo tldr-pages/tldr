@@ -1,7 +1,7 @@
 # convert
 
 > Imagemagick image conversion tool.
-> Homepage: <https://imagemagick.org/script/convert.php>.
+> More information: <https://imagemagick.org/script/convert.php>.
 
 - Convert an image from JPG to PNG:
 
@@ -18,6 +18,10 @@
 - Horizontally append images:
 
 `convert {{image1.png}} {{image2.png}} {{image3.png}} +append {{image123.png}}`
+
+- Vertically append images:
+
+`convert {{image1.png}} {{image2.png}} {{image3.png}} -append {{image123.png}}`
 
 - Create a gif from a series of images with 100ms delay between them:
 

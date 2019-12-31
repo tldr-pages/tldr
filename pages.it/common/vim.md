@@ -2,6 +2,7 @@
 
 > Vi IMproved, un editor di testo per programamtori che fornisce diverse modalità per modificare testo.
 > Premi `i` per entrare in insert mode e `<Esc>` per tornare in normal mode dove non puoi inserire testo normalmente.
+> Maggiori informazioni: <https://www.vim.org>.
 
 - Apri un file in vim:
 

@@ -1,6 +1,7 @@
 # terminalizer
 
 > Utility program which records the terminal and generate animated gifs or share a video.
+> More information: <https://terminalizer.com>.
 
 - Create the global config directory:
 

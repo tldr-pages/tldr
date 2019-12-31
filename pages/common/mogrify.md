@@ -2,6 +2,7 @@
 
 > Perform operations on multiple images, such as resizing, cropping, flipping, and adding effects.
 > Changes are applied directly to the original file.
+> More information: <https://imagemagick.org/script/mogrify.php>.
 
 - Resize all JPEG images in the directory to 50% of their initial size:
 

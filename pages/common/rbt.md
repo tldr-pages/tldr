@@ -1,7 +1,7 @@
 # rbt
 
 > RBTools is a set of command line tools for working with Review Board and RBCommons.
-> Homepage: <https://www.reviewboard.org/docs/rbtools/dev/>.
+> More information: <https://www.reviewboard.org/docs/rbtools/dev/>.
 
 - Post changes to Review Board:
 

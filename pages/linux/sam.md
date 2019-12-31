@@ -1,7 +1,7 @@
 # sam
 
 > AWS Serverless Application Model (SAM) CLI.
-> Homepage: <https://github.com/awslabs/aws-sam-cli>.
+> More information: <https://github.com/awslabs/aws-sam-cli>.
 
 - Initialize a serverless application:
 

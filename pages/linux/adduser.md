@@ -21,3 +21,7 @@
 - Create a new user belonging to the specified group:
 
 `adduser --ingroup {{group}} {{username}}`
+
+- Add an existing user to the specified group:
+
+`adduser {{username}} {{group}}`

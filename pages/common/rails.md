@@ -1,7 +1,7 @@
 # rails
 
 > A server-side MVC framework written in Ruby.
-> Homepage: <https://guides.rubyonrails.org/command_line.html>.
+> More information: <https://guides.rubyonrails.org/command_line.html>.
 
 - Create a new rails project:
 

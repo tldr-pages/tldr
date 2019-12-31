@@ -1,7 +1,7 @@
 # hg add
 
 > Adds specified files to the staging area for the next commit in Mercurial.
-> Homepage: <https://www.mercurial-scm.org/doc/hg.1.html#add>.
+> More information: <https://www.mercurial-scm.org/doc/hg.1.html#add>.
 
 - Add files or directories to the staging area:
 

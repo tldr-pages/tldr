@@ -1,6 +1,8 @@
 # ripgrep
 
-> A fast command-line search tool.
+> A recursive line-oriented CLI search tool.
+> Aims to be a faster alternative to `grep`.
+> More information: <https://github.com/BurntSushi/ripgrep>.
 
 - Recursively search the current directory for a regex pattern:
 
@@ -22,7 +24,7 @@
 
 `rg {{pattern}} -g {{glob}}`
 
-- Only list matched files -- useful when piping to other commands:
+- Only list matched files (useful when piping to other commands):
 
 `rg --files-with-matches {{pattern}}`
 

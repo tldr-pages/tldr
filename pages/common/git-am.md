@@ -2,7 +2,7 @@
 
 > Apply patch files. Useful when receiving commits via email.
 > See also `git format-patch`, which can generate patch files.
-> Homepage: <https://git-scm.com/docs/git-am>.
+> More information: <https://git-scm.com/docs/git-am>.
 
 - Apply a patch file:
 

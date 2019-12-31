@@ -4,4 +4,4 @@
 
 - 切换 `runsvdir` 目录:
 
-`sudo runsvchdir {{指定/目录}}`
+`sudo runsvchdir {{指定 / 目录}}`

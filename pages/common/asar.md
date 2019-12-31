@@ -1,7 +1,7 @@
 # asar
 
 > A file archiver for the Electron platform.
-> Homepage: <https://github.com/electron/asar>.
+> More information: <https://github.com/electron/asar>.
 
 - Archive a file or directory:
 

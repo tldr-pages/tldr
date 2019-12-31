@@ -1,6 +1,6 @@
 # wc
 
-> Count words, bytes, or lines.
+> Count lines, words, or bytes.
 
 - Count lines in file:
 

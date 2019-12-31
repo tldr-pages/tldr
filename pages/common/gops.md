@@ -1,7 +1,7 @@
 # gops
 
 > CLI tool which lists and diagnoses Go processes currently running on your system.
-> Homepage: <https://github.com/google/gops>.
+> More information: <https://github.com/google/gops>.
 
 - Print all go processes running locally:
 

@@ -1,6 +1,7 @@
 # pdfposter
 
 > Convert a large-sheeted pdf into multiple A4 pages for printing.
+> More information: <https://pdfposter.readthedocs.io>.
 
 - Convert an A2 poster into 4 A4 pages:
 

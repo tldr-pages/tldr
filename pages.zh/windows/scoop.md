@@ -1,6 +1,6 @@
 # scoop
 
-> Windows的命令行安装程序.
+> Windows 的命令行安装程序.
 
 - 安装一个包:
 
@@ -26,10 +26,10 @@
 
 `scoop search {{包名}}`
 
-- 列出所有已知的桶(“桶”代表程序的仓库):
+- 列出所有已知的桶 (“桶”代表程序的仓库）:
 
 `scoop bucket known`
 
-- 通过别名或Git存储库URL添加存储桶:
+- 通过别名或 Git 存储库 URL 添加存储桶:
 
 `scoop bucket add {{bucket}}`

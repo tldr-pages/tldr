@@ -1,12 +1,17 @@
 # qpdf
 
 > Versatile PDF transformation software.
+> More information: <https://github.com/qpdf/qpdf>.
 
 - Extract pages 1-3, 5 and 6-10 from a PDF file and save them as another one:
 
 `qpdf --empty --pages {{input.pdf}} {{1-3,5,6-10}} -- {{output.pdf}}`
 
-- Merge (concatenate) a list of PDF files and save the result as another one:
+- Merge (concatenate) all the pages of a list of PDF files and save the result as a new PDF:
+
+`qpdf --empty --pages {{file1.pdf}} {{file2.pdf}} {{file3.pdf}} -- {{output.pdf}}`
+
+- Merge (concatenate) given pages from a list of PDF files and save the result as a new PDF:
 
 `qpdf --empty --pages {{file1.pdf}} {{1,6-8}} --pages {{file2.pdf}} {{3,4,5}} -- {{output.pdf}}`
 

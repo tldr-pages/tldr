@@ -7,13 +7,13 @@
 
 `printf "header1 header2\nbar foo\n" | column -c {{30}}`
 
-- Specify column delimiter character for the -t option (e.g. "," for csv); default is whitespace:
-
-`printf "header1,header2\nbar,foo\n" | column -s{{,}}`
-
 - Split columns automatically and auto-align in a tabular format:
 
 `printf "header1 header2\nbar foo\n" | column -t`
+
+- Specify column delimiter character for the -t option (e.g. "," for csv); default is whitespace:
+
+`printf "header1,header2\nbar,foo\n" | column -t -s{{,}}`
 
 - Fill columns before filling rows:
 

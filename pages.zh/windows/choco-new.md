@@ -1,6 +1,6 @@
 # choco new
 
-> 使用Chocolatey生成新的包规范文件.
+> 使用 Chocolatey 生成新的包规范文件.
 
 - 创建一个新的包框架:
 
@@ -18,6 +18,6 @@
 
 `choco new {{包名}} --output-directory {{指定的目录路径}}`
 
-- 创建一个新的包并指定其32位版和64位版的安装URL:
+- 创建一个新的包并指定其 32 位版和 64 位版的安装 URL:
 
 `choco new {{package_name}} url="{{url}}" url64="{{url}}"`

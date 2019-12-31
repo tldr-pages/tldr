@@ -2,7 +2,7 @@
 
 > Use binary search to find the commit that introduced a bug.
 > Git automatically jumps back and forth in the commit graph to progressively narrow down the faulty commit.
-> Homepage: <https://git-scm.com/docs/git-bisect>.
+> More information: <https://git-scm.com/docs/git-bisect>.
 
 - Start a bisect session on a commit range bounded by a known buggy commit, and a known clean (typically older) one:
 

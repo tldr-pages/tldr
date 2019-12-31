@@ -1,7 +1,7 @@
 # clang
 
 > Compiler for C, C++, and Objective-C source files. Can be used as a drop-in replacement for GCC.
-> Homepage: <https://clang.llvm.org/docs/ClangCommandLineReference.html>.
+> More information: <https://clang.llvm.org/docs/ClangCommandLineReference.html>.
 
 - Compile a source code file into an executable binary:
 

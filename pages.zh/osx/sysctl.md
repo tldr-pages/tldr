@@ -14,10 +14,10 @@
 
 `sysctl -n machdep.cpu.brand_string`
 
-- 显示可用的 CPU 功能 (MMX, SSE, SSE2, SSE3, AES, 等):
+- 显示可用的 CPU 功能 (MMX, SSE, SSE2, SSE3, AES, 等）:
 
 `sysctl -n machdep.cpu.feature`
 
 - 设置一个可更改的内核状态变量:
 
-`sysctl -w {{部分.可修改的变量}}={{值}}`
+`sysctl -w {{部分。可修改的变量}}={{值}}`

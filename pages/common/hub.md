@@ -1,7 +1,8 @@
 # hub
 
 > A wrapper for git that adds commands for working with GitHub-based projects.
-> The commands can also be used using "git" instead of "hub".
+> If set up as instructed by `hub alias`, one can use `git` to run `hub` commands.
+> More information: <https://hub.github.com>.
 
 - Clone a repository you own, using just the repository name rather than the full URL:
 
@@ -22,6 +23,10 @@
 - Create a PR of the current (already pushed) branch, reusing the message from the first commit:
 
 `hub pull-request --no-edit`
+
+- Create a new branch with the contents of a pull request and switch to it:
+
+`hub pr checkout {{pr_number}}`
 
 - Upload the current (local-only) repository to your github account:
 

@@ -21,3 +21,7 @@
 - Print only certain pages to the default printer (print pages 1, 3-5, and 16):
 
 `lp -P 1,3-5,16 {{path/to/filename}}`
+
+- Resume printing a job:
+
+`lp -i {{job_id}} -H resume`

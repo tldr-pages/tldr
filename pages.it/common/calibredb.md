@@ -2,6 +2,7 @@
 
 > Strumentoi per gestire il tuo database di ebook.
 > Parte del manager di ebook Calibre.
+> Maggiori informazioni: <https://manual.calibre-ebook.com/generated/en/calibredb.html>.
 
 - Elenca gli ebook nella libreria con informazioni aggiuntive:
 

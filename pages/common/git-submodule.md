@@ -1,7 +1,7 @@
 # git submodule
 
 > Inspects, updates and manages submodules.
-> Homepage: <https://git-scm.com/docs/git-submodule>.
+> More information: <https://git-scm.com/docs/git-submodule>.
 
 - Install a repository's specified submodules:
 

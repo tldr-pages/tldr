@@ -2,6 +2,7 @@
 
 > The Rust compiler.
 > Processes, compiles and links Rust language source files.
+> More information: <https://doc.rust-lang.org/rustc>.
 
 - Compile a single file:
 

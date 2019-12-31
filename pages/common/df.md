@@ -13,3 +13,7 @@
 - Display the file system and its disk usage containing the given file or directory:
 
 `df {{path/to/file_or_directory}}`
+
+- Display statistics on the number of free inodes:
+
+`df -i`

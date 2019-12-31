@@ -1,6 +1,7 @@
 # lz4
 
 > Compress or decompress .lz4 files.
+> More information: <https://github.com/lz4/lz4>.
 
 - Compress a file:
 
@@ -10,7 +11,7 @@
 
 `lz4 -d {{file.lz4}}`
 
-- Decompress a file and write to stdout:
+- Decompress a file and write to `stdout`:
 
 `lz4 -dc {{file.lz4}}`
 

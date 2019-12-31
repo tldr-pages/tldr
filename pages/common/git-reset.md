@@ -2,7 +2,7 @@
 
 > Undo commits or unstage changes, by resetting the current git HEAD to the specified state.
 > If a path is passed, it works as "unstage"; if a commit hash or branch is passed, it works as "uncommit".
-> Homepage: <https://git-scm.com/docs/git-reset>.
+> More information: <https://git-scm.com/docs/git-reset>.
 
 - Unstage everything:
 

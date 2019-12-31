@@ -1,10 +1,10 @@
 # choco install
 
-> 使用Chocolatey下载一个或多个包.
+> 使用 Chocolatey 下载一个或多个包.
 
 - 安装一个或多个用空格分隔的软件包:
 
-`choco install {{包名 [包名] ..}}`
+`choco install {{包名 包名 ..}}`
 
 - 从一个自定义的配置文件中安装包:
 
@@ -28,7 +28,7 @@
 
 - 从自定义的源处获取包:
 
-`choco install {{包名}} --source {{源URL|别名}}`
+`choco install {{包名}} --source {{源 URL|别名}}`
 
 - 提供一个用户名和密码来进行验证:
 

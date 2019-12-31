@@ -1,7 +1,7 @@
 # nixos-rebuild
 
 > Reconfigure a NixOS machine.
-> Documentation: <https://nixos.org/nixos/manual/#sec-changing-config>.
+> More information: <https://nixos.org/nixos/manual/#sec-changing-config>.
 
 - Build and switch to the new configuration, making it the boot default:
 

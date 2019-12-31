@@ -1,6 +1,7 @@
 # tig
 
 > A text-mode interface for Git.
+> More information: <https://github.com/jonas/tig>.
 
 - Show the sequence of commits starting from the current one in reverse chronological order:
 

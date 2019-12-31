@@ -1,7 +1,7 @@
 # godot
 
 > An open source 2D and 3D game engine.
-> Homepage: <https://godotengine.org/>.
+> More information: <https://godotengine.org/>.
 
 - Run a project if the current directory contains a `project.godot` file, otherwise open the project manager:
 

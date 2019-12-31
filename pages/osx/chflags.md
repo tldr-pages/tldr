@@ -8,7 +8,7 @@
 
 - Unset the `hidden` flag for a file:
 
-`chflags {{hidden}} {{path/to/file}}`
+`chflags {{nohidden}} {{path/to/file}}`
 
 - Recursively set the `uchg` flag for a directory:
 

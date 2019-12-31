@@ -1,6 +1,7 @@
 # clockwork-cli
 
 > Una interfaccia da linea di comando per il framework PHP Clockwork.
+> Maggiori informazioni: <https://github.com/ptrofimov/clockwork-cli>.
 
 - Monitora i log di Clockwork per il progetto corrente:
 

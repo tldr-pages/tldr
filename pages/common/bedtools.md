@@ -2,7 +2,7 @@
 
 > A swiss-army knife of tools for genomic-analysis tasks.
 > Used to intersect, group, convert and count data in BAM, BED, GFF/GTF, VCF format.
-> Homepage: <https://bedtools.readthedocs.io/en/latest/>.
+> More information: <https://bedtools.readthedocs.io/en/latest/>.
 
 - Intersect two files with respect to the sequences' strand and save the result to {{path/to/output_file}}:
 

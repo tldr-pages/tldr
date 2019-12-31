@@ -1,6 +1,7 @@
 # cradle package
 
 > Manage packages for a Cradle instance.
+> More information: <https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-Tools.html#package>.
 
 - Display a list of available packages:
 

@@ -1,6 +1,7 @@
 # berks
 
 > Gestore di dipendenze per Chef cookbooks.
+> Maggiori informazioni: <https://docs.chef.io/berkshelf.html>.
 
 - Installa dipendenze cookbook in una repo locale:
 

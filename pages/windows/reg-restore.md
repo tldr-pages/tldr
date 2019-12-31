@@ -2,6 +2,7 @@
 
 > Restore a key and its values from a backup file.
 > See `reg-save` for more information.
+> More information: <https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/reg-restore>.
 
 - Overwrite a specified key with data from a backup file:
 

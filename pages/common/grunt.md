@@ -1,6 +1,7 @@
 # grunt
 
 > A JavaScript task runner for automating processes.
+> More information: <https://github.com/gruntjs/grunt-cli>.
 
 - Run the default task process:
 

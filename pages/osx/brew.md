@@ -1,7 +1,7 @@
 # brew
 
 > Package manager for macOS.
-> Homepage: <https://brew.sh>.
+> More information: <https://brew.sh>.
 
 - Search for available formulas and casks:
 

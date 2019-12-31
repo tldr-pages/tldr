@@ -2,6 +2,7 @@
 
 > Strumento di backup con deduplicazione.
 > Crea backup locali o remoti che sono montabili come filesystem.
+> Maggiori informazioni: <https://borgbackup.readthedocs.io/en/stable/usage/general.html>.
 
 - Inizializza una repository (locale):
 

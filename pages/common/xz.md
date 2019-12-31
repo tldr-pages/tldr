@@ -1,7 +1,7 @@
 # xz
 
 > Compress or decompress .xz and .lzma files.
-> Homepage: <https://tukaani.org/xz/format.html>.
+> More information: <https://tukaani.org/xz/format.html>.
 
 - Compress a file to the xz file format:
 
@@ -19,7 +19,7 @@
 
 `xz -d --format=lzma {{file.lzma}}`
 
-- Decompress a file and write to stdout:
+- Decompress a file and write to `stdout`:
 
 `xz -dc {{file.xz}}`
 

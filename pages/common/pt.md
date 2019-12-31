@@ -2,6 +2,7 @@
 
 > Platinum Searcher.
 > A code search tool similar to `ag`.
+> More information: <https://github.com/monochromegane/the_platinum_searcher>.
 
 - Find files containing "foo" and print the files with highlighted matches:
 

@@ -1,7 +1,7 @@
 # shellcheck
 
 > Shell script static analysis tool.
-> Homepage: <https://www.shellcheck.net/>.
+> More information: <https://www.shellcheck.net/>.
 
 - Check a shell script:
 

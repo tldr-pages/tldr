@@ -2,6 +2,7 @@
 
 > Symlink manager.
 > Often used to manage dotfiles.
+> More information: <https://www.gnu.org/software/stow>.
 
 - Symlink all files recursively to a given directory:
 

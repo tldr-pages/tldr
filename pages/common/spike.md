@@ -1,6 +1,7 @@
 # spike
 
 > A fully featured static website generator written in JavaScript.
+> More information: <https://spike.js.org>.
 
 - Create a new project using the default template:
 

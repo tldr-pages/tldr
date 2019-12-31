@@ -1,7 +1,7 @@
 # monodis
 
 > The Mono Common Intermediate Language (CIL) disassembler.
-> Homepage: <https://www.mono-project.com/docs/tools+libraries/tools/monodis/>.
+> More information: <https://www.mono-project.com/docs/tools+libraries/tools/monodis/>.
 
 - Disassemble an assembly to textual CIL:
 

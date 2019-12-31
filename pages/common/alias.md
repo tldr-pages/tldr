@@ -3,6 +3,10 @@
 > Creates aliases -- words that are replaced by a command string.
 > Aliases expire with the current shell session, unless they're defined in the shell's configuration file, e.g. `~/.bashrc`.
 
+- List all aliases:
+
+`alias`
+
 - Create a generic alias:
 
 `alias {{word}}="{{command}}"`
@@ -14,10 +18,6 @@
 - Remove an aliased command:
 
 `unalias {{word}}`
-
-- List all aliased words:
-
-`alias -p`
 
 - Turn `rm` into an interactive command:
 

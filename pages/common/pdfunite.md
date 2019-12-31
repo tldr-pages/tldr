@@ -1,6 +1,7 @@
 # pdfunite
 
 > PDF merging utility.
+> More information: <https://github.com/mtgrosser/pdfunite>.
 
 - Merge 2 PDFs into a single PDF:
 

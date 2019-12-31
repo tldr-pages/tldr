@@ -1,6 +1,7 @@
 # symfony
 
 > The console component for the Symfony framework.
+> More information: <https://symfony.com>.
 
 - Create a new Symfony project:
 

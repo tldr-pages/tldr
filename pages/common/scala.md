@@ -1,6 +1,7 @@
 # scala
 
 > Scala application launcher and interactive interpreter.
+> More information: <https://scala-lang.org>.
 
 - Start a Scala interactive shell (REPL):
 

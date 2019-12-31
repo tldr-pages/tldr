@@ -1,6 +1,7 @@
 # boot
 
 > Strumenti di build per il linguaggio di programmazione Clojure.
+> Maggiori informazioni: <https://github.com/boot-clj/boot>.
 
 - Avvia una sessione REPL con il progetto o da sola:
 

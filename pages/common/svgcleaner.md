@@ -1,6 +1,7 @@
 # svgcleaner
 
 > SVG image optimizing utility.
+> More information: <https://github.com/RazrFalcon/svgcleaner>.
 
 - Optimize an SVG image:
 

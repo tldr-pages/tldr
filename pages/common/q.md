@@ -1,6 +1,7 @@
 # q
 
 > Execute SQL-like queries on .csv and .tsv files.
+> More information: <https://harelba.github.io/q>.
 
 - Query .csv file by specifying the delimiter as ',':
 
@@ -14,7 +15,7 @@
 
 `q -d{{delimiter}} -H "SELECT * from {{path/to/file}}"`
 
-- Read data from stdin; '-' in the query represents the data from stdin:
+- Read data from stdin; '-' in the query represents the data from `stdin`:
 
 `{{output}} | q "select * from -"`
 

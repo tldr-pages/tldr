@@ -2,26 +2,26 @@
 
 > Compare files and directories.
 
-- Compare files:
+- Compare files (lists changes to turn `old_file` into `new_file`):
 
-`diff {{file1}} {{file2}}`
+`diff {{old_file}} {{new_file}}`
 
 - Compare files, ignoring white spaces:
 
-`diff -w {{file1}} {{file2}}`
+`diff -w {{old_file}} {{new_file}}`
 
 - Compare files, showing the differences side by side:
 
-`diff -y {{file1}} {{file2}}`
+`diff -y {{old_file}} {{new_file}}`
 
 - Compare files, showing the differences in unified format (as used by `git diff`):
 
-`diff -u {{file1}} {{file2}}`
+`diff -u {{old_file}} {{new_file}}`
 
-- Compare directories recursively:
+- Compare directories recursively (shows names for differing files/directories as well as changes made to files):
 
-`diff -r {{directory1}} {{directory2}}`
+`diff -r {{old_directory}} {{new_directory}}`
 
 - Compare directories, only showing the names of files that differ:
 
-`diff -rq {{directory1}} {{directory2}}`
+`diff -rq {{old_directory}} {{new_directory}}`

@@ -1,7 +1,7 @@
 # nginx
 
 > Nginx web server.
-> Homepage: <https://nginx.org/en/>.
+> More information: <https://nginx.org/en/>.
 
 - Start server with the default config file:
 

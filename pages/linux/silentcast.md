@@ -1,7 +1,7 @@
 # silentcast
 
 > Silent screencast creator. Saves in `.mkv` and animated gif formats.
-> Homepage: <https://github.com/colinkeenan/silentcast>.
+> More information: <https://github.com/colinkeenan/silentcast>.
 
 - Launch silentcast:
 

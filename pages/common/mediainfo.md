@@ -1,6 +1,7 @@
 # mediainfo
 
 > Display metadata from video and audio files.
+> More information: <https://mediaarea.net/MediaInfo>.
 
 - Display metadata for a given file in the console:
 

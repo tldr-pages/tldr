@@ -1,8 +1,9 @@
 # gnomon
 
 > Utility to annotate console logging statements with timestamps and find slow processes.
+> More information: <https://github.com/paypal/gnomon>.
 
-- Use UNIX (or DOS) pipes to pipe the stdout of any command through gnomon:
+- Use UNIX (or DOS) pipes to pipe the `stdout` of any command through gnomon:
 
 `{{npm test}} | gnomon`
 

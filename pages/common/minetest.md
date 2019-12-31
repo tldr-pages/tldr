@@ -2,6 +2,7 @@
 
 > Multiplayer infinite-world block sandbox.
 > See also `minetestserver`, the server-only binary.
+> More information: <https://wiki.minetest.net/Minetest>.
 
 - Start minetest in client mode:
 

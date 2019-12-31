@@ -1,7 +1,7 @@
 # prosodyctl
 
 > The control tool for the Prosody XMPP server.
-> Homepage: <https://prosody.im/doc/prosodyctl/>.
+> More information: <https://prosody.im/doc/prosodyctl>.
 
 - Show the status of the Prosody server:
 

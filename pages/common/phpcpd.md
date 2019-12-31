@@ -1,6 +1,7 @@
 # phpcpd
 
 > A copy and paste detector for PHP code.
+> More information: <https://github.com/sebastianbergmann/phpcpd>.
 
 - Analyse duplicated code for a specific file or directory:
 

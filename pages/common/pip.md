@@ -1,7 +1,7 @@
 # pip
 
 > Python package manager.
-> Homepage: <https://pip.pypa.io>.
+> More information: <https://pip.pypa.io>.
 
 - Install a package:
 

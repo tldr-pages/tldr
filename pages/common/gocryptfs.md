@@ -1,7 +1,7 @@
 # gocryptfs
 
 > Encrypted overlay filesystem written in Go.
-> Homepage: <https://github.com/rfjakob/gocryptfs>.
+> More information: <https://github.com/rfjakob/gocryptfs>.
 
 - Initialize an encrypted filesystem:
 

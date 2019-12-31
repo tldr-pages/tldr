@@ -2,7 +2,7 @@
 
 > Rust package manager.
 > Manage Rust projects and their module dependencies (crates).
-> Homepage: <https://crates.io/>.
+> More information: <https://crates.io/>.
 
 - Search for crates:
 
@@ -28,6 +28,6 @@
 
 `cargo build`
 
-- Build with multiple parallel jobs:
+- Build using a specific number of threads (default is the number of CPU cores):
 
 `cargo build -j {{jobs}}`
