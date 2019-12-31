@@ -1,6 +1,7 @@
 # dcfldd
 
 > Enhanced version of dd for forensics and security.
+> More information: <http://dcfldd.sourceforge.net/>.
 
 - Acquire a disk as raw image and hash the image using sha256 algorithm:
 
