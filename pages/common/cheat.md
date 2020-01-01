@@ -3,19 +3,19 @@
 > Create and view interactive cheatsheets on the command-line.
 > More information: <https://github.com/cheat/cheat>.
 
-- See example usage of a command:
+- Show example usage of a command:
 
 `cheat {{command}}`
 
-- Edit cheatsheet of a command:
+- Edit the cheat sheet for a command:
 
 `cheat -e {{command}}`
 
-- List available cheatsheets:
+- List the available cheat sheets:
 
 `cheat -l`
 
-- Search available cheatsheets for a command:
+- Search available the cheat sheets for a specified command name:
 
 `cheat -s {{command}}`
 
