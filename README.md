@@ -20,7 +20,7 @@
 [license-url]: https://github.com/tldr-pages/tldr/blob/master/LICENSE.md
 [license-image]: https://img.shields.io/github/license/tldr-pages/tldr.svg
 
-A collection of simplified and community-driven man pages.
+Simplified and community-driven man pages.
 
 Install it with `npm install -g tldr`
 or [try the web client](http://tldr.ostera.io).
