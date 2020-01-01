@@ -5,7 +5,7 @@
 
 - Selecciona las páginas 1, 2, 3 y 6 del documento fuente y escribirlas en el documento objetivo:
 
-`cpdf {{ruta/del/documento_fuente.pdf}} 1-3,6 -o {{ruta/del/documento_objetivo.pdf}}`
+`cpdf {{ruta/del/documento_fuente.pdf}} {{1-3,6}} -o {{ruta/del/documento_objetivo.pdf}}`
 
 - Fusiona dos documentos en uno nuevo:
 
