@@ -23,7 +23,7 @@
 
 `git show --oneline -s {{commit}}`
 
-- Show only a list of the files changed in a commit:
+- Show only the list of the files changed in a commit:
 
 `git show --stat {{commit}}`
 
