@@ -30,3 +30,7 @@
 - Delete a local branch (must not have it checked out to do this):
 
 `git branch -d {{branch_name}}`
+
+- Create new branch and then checkout said branch:
+
+`git branch -b {{branch_name}}`
