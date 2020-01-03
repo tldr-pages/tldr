@@ -46,7 +46,7 @@ How about:
 ![tldr screenshot](images/screenshot.png)
 
 This repository is just that: an ever-growing collection of examples
-for the most common UNIX, Linux, OS X, SunOS and Windows commands.
+for the most common UNIX, Linux, macOS, SunOS and Windows commands.
 
 ## Clients
 
