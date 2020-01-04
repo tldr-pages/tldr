@@ -10,7 +10,7 @@
 
 - Créer une archive gzip :
 
-`tar czf {{cible.tar.gz}} {{fichier1}} {{fichier2}} {{fichier3}}`
+`tar czf {{cible.tar.gz}} {{fichier1 fichier2 fichier3}}`
 
 - Extraie une archive (compressée) dans le dossier courant :
 
