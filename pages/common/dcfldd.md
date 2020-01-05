@@ -7,6 +7,6 @@
 
 `dcfldd if=/dev/{{disk_device}} of={{file.img}} hash=sha256 hashlog={{file.hash}}`
 
-- Acquire disk as raw and hash each 1GB chunk:
+- Copy a disk to a raw image file, hashing each 1GB chunk:
 
 `dcfldd if=/dev/{{disk_device}} of={{file.img}} hash={{hash_algorithm}} hashlog={{file.hash}} hashwindow={{1G}}`
