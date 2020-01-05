@@ -37,4 +37,4 @@
 
 - Merge audio with video. This command takes in a video file, and an audio file and give out a merged file with both audio and video:
 
-`ffmpeg -i video.mp4 -i audio.wav -c:v copy -c:a aac -strict experimental output.mp4`
+`ffmpeg -i {{video}}.mp4 -i {{audio}}.wav -c:v copy -c:a aac -strict experimental {{output}}.mp4`
