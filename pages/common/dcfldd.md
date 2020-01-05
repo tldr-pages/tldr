@@ -3,7 +3,7 @@
 > Enhanced version of dd for forensics and security.
 > More information: <http://dcfldd.sourceforge.net/>.
 
-- Acquire a disk as raw image and hash the image using sha256 algorithm:
+- Copy a disk to a raw image file and hash the image using SHA256:
 
 `dcfldd if=/dev/{{disk_device}} of={{file.img}} hash=sha256 hashlog={{file.hash}}`
 
