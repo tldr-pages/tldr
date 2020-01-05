@@ -108,7 +108,7 @@ You can access these pages on your computer using one of the following clients:
   - [tldr-python-client](https://github.com/tldr-pages/tldr-python-client):
     `pip install tldr` or `pacman -S tldr` on Arch Linux
   - [tldr.py](https://github.com/lord63/tldr.py):
-    `pip install tldr.py`
+    `pip install tldr.py` or `apt-get install tldr-py` on Ubuntu
 - [R client](https://github.com/kirillseva/tldrrr):
   `devtools::install_github('kirillseva/tldrrr')`
 - [Ruby client](https://github.com/YellowApple/tldrb):
