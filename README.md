@@ -96,7 +96,7 @@ You can access these pages on your computer using one of the following clients:
     [App Store](https://itunes.apple.com/us/app/tldt-pages/id1071725095?ls=1&mt=8)
 - [Haskell client](https://github.com/psibi/tldr-hs):
   `stack install tldr`
-  or `apt-get install tldr` on Debian
+  or `apt-get install tldr` on Debian and Ubuntu
 - [Node.js client](https://github.com/tldr-pages/tldr-node-client):
   `npm install -g tldr`
 - [OCaml client](https://github.com/RosalesJ/tldr-ocaml): `opam install tldr`
