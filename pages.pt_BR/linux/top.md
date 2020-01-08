@@ -14,7 +14,7 @@
 
 `top -u {{user_name}}`
 
-- Mostra processos de um ou mais PID específico(s), separado por vírgula:
+- Exibir o(s) processo(s) de um ou mais PID específico(s), separado(s) por vírgula:
 
 `top -p {{PID1,PID2,PID3}}`
 
