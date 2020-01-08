@@ -6,7 +6,7 @@
 
 `top`
 
-- Esconde processos inativos:
+- Exibir apenas os processos ativos:
 
 `top -i`
 
