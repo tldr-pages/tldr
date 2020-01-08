@@ -10,7 +10,7 @@
 
 `top -i`
 
-- Mostra processos apenas de um usuário específico:
+- Exibir os processos de um usuário específico:
 
 `top -u {{user_name}}`
 
