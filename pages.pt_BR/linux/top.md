@@ -1,6 +1,6 @@
 # top
 
-> Mostra informações em tempo real sobre processos em execução.
+> Utilitário para exibir informações, em tempo real, sobre os processos em execução.
 
 - Iniciar top:
 
