@@ -7,7 +7,7 @@
 
 `{{ls}} | dmenu`
 
-- Display a menu with custom items seperated by a new line (`\n`):
+- Display a menu with custom items separated by a new line (`\n`):
 
 `echo -e "{{red}}\n{{green}}\n{{blue}}" | dmenu`
 
