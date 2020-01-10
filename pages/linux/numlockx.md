@@ -11,7 +11,7 @@
 
 `numlockx on`
 
-- Turn it off:
+- Turn the number lock off:
 
 `numlockx off`
 
