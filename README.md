@@ -119,6 +119,7 @@ You can access these pages on your computer using one of the following clients:
 - Web clients:
     - [tldr.jsx](https://github.com/ostera/tldr.jsx): http://tldr.ostera.io/
     - [DistroWatch](https://distrowatch.com/dwres.php?resource=man-pages)
+    - [tldr.ooops.me](https://tldr.ooops.me): web client with multilingual support
 
 There is also a comprehensive
 [list of clients in our Wiki](https://github.com/tldr-pages/tldr/wiki/TLDR-clients).
