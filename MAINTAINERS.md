@@ -30,19 +30,19 @@ If you are an owner of the organization, you should be able to see an automated 
 - **Lucas Schneider ([@schneiderl](https://github.com/schneiderl))**:
   [11 April 2019](https://github.com/tldr-pages/tldr/issues/2898) — present
 - **Andrik Albuquerque ([@andrik](https://github.com/andrik))**:
-  [9 May 2019](https://github.com/tldr-pages/tldr/issues/2988) - present
+  [9 May 2019](https://github.com/tldr-pages/tldr/issues/2988) — present
 - **Ivan Aracki ([@Aracki](https://github.com/Aracki))**:
-  [9 May 2019](https://github.com/tldr-pages/tldr/issues/2988) - present
+  [9 May 2019](https://github.com/tldr-pages/tldr/issues/2988) — present
 - **Ein Verne ([@einverne](https://github.com/einverne))**:
-  [29 October 2019](https://github.com/tldr-pages/tldr/issues/3488) - present
+  [29 October 2019](https://github.com/tldr-pages/tldr/issues/3488) — present
 - **Pierre Rudloff ([@Rudloff](https://github.com/Rudloff))**:
-  [19 November 2019](https://github.com/tldr-pages/tldr/issues/3580) - present
+  [19 November 2019](https://github.com/tldr-pages/tldr/issues/3580) — present
 - **Proscream ([@Proscream](https://github.com/Proscream))**:
-  [22 November 2019](https://github.com/tldr-pages/tldr/issues/3592) - present
-- **Iván  ([@ivanhercaz](https://github.com/ivanhercaz))**:
-  [24 December 2019](https://github.com/tldr-pages/tldr/issues/3690) - present
+  [22 November 2019](https://github.com/tldr-pages/tldr/issues/3592) — present
 - Zlatan Vasović ([@zdroid](https://github.com/zdroid)):
-  [30 November 2019](https://github.com/tldr-pages/tldr/issues/3636) - [17 December 2019](https://github.com/tldr-pages/tldr/issues/3663)
+  [30 November 2019](https://github.com/tldr-pages/tldr/issues/3636) — [17 December 2019](https://github.com/tldr-pages/tldr/issues/3663)
+- Iván  ([@ivanhercaz](https://github.com/ivanhercaz)):
+  [24 December 2019](https://github.com/tldr-pages/tldr/issues/3690) — [5 January 2020](https://github.com/tldr-pages/tldr/issues/3736)
 
 
 ## Organization members
@@ -53,6 +53,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
 
 - **Zlatan Vasović ([@zdroid](https://github.com/zdroid))**:
   [17 December 2019](https://github.com/tldr-pages/tldr/issues/3663) — present
+- **Iván  ([@ivanhercaz](https://github.com/ivanhercaz))**:
+  [5 January 2020](https://github.com/tldr-pages/tldr/issues/3736) — present
 - Owen Voke ([@pxgamer](https://github.com/pxgamer))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
