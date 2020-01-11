@@ -14,7 +14,7 @@
 
 `top -u {{user_name}}`
 
-- Show individual threads of given process:
+- Show the individual threads of a given process:
 
 `top -Hp {{process_id}}`
 
