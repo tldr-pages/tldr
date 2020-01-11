@@ -15,9 +15,9 @@
 
 `sudo badblocks -w {{/dev/sda}}`
 
-- Search an unmounted disk in desctructive mode and output found blocks to file:
+- Search an unmounted disk in desctructive mode and output found blocks to a file:
 
-`sudo badblocks -o {{badblocks.txt}} -w {{/dev/sda}}`
+`sudo badblocks -o {{/path/to/file}} -w {{/dev/sda}}`
 
 - Search an unmounted disk in desctructive mode with improved speed using 4K block size and 64K block count:
 
