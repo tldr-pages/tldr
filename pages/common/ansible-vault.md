@@ -7,15 +7,15 @@
 
 `ansible-vault create {{vault_file}}`
 
-- Create a new encrypted vault file using vault key file to encrypt it:
+- Create a new encrypted vault file using a vault key file to encrypt it:
 
 `ansible-vault create --vault-password-file={{password_file}} {{vault_file}}`
 
-- Encrypt existing file, using password file (optional):
+- Encrypt an existing file using an optional password file:
 
 `ansible-vault encrypt --vault-password-file={{password_file}} {{vault_file}}`
 
-- Encrypt a string using ansible's encrypted string format using prompts:
+- Encrypt a string using Ansible's encrypted string format, displaying interactive prompts:
 
 `ansible-vault encrypt_string`
 
