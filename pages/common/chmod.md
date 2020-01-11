@@ -22,6 +22,10 @@
 
 `chmod o=g {{file}}`
 
+- Remove all rights from others:
+
+`chmod o= {{file}}`
+
 - Change permissions recursively giving [g]roup and [o]thers the abililty to [w]rite:
 
 `chmod -R g+w,o+w {{directory}}`
