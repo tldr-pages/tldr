@@ -33,8 +33,8 @@ If you are an owner of the organization, you should be able to see an automated 
   [9 May 2019](https://github.com/tldr-pages/tldr/issues/2988) — present
 - **Ivan Aracki ([@Aracki](https://github.com/Aracki))**:
   [9 May 2019](https://github.com/tldr-pages/tldr/issues/2988) — present
-- **Ein Verne ([@einverne](https://github.com/einverne))**:
-  [29 October 2019](https://github.com/tldr-pages/tldr/issues/3488) — present
+- Ein Verne ([@einverne](https://github.com/einverne)):
+  [29 October 2019](https://github.com/tldr-pages/tldr/issues/3488) — [12 January 2020](https://github.com/tldr-pages/tldr/issues/3738)
 - **Pierre Rudloff ([@Rudloff](https://github.com/Rudloff))**:
   [19 November 2019](https://github.com/tldr-pages/tldr/issues/3580) — present
 - **Proscream ([@Proscream](https://github.com/Proscream))**:
@@ -43,7 +43,6 @@ If you are an owner of the organization, you should be able to see an automated 
   [30 November 2019](https://github.com/tldr-pages/tldr/issues/3636) — [17 December 2019](https://github.com/tldr-pages/tldr/issues/3663)
 - Iván  ([@ivanhercaz](https://github.com/ivanhercaz)):
   [24 December 2019](https://github.com/tldr-pages/tldr/issues/3690) — [5 January 2020](https://github.com/tldr-pages/tldr/issues/3736)
-
 
 ## Organization members
 
@@ -55,6 +54,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [17 December 2019](https://github.com/tldr-pages/tldr/issues/3663) — present
 - **Iván  ([@ivanhercaz](https://github.com/ivanhercaz))**:
   [5 January 2020](https://github.com/tldr-pages/tldr/issues/3736) — present
+- **Ein Verne ([@einverne](https://github.com/einverne))**:
+  [12 January 2020](https://github.com/tldr-pages/tldr/issues/3738) — present
 - Owen Voke ([@pxgamer](https://github.com/pxgamer))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
