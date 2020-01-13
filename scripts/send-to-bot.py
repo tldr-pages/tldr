@@ -8,8 +8,7 @@ import urllib.request
 BOT_URL = 'https://tldr-bot.starbeamrainbowlabs.com'
 
 COMMENT_ERROR="""
-The [build](https://travis-ci.org/tldr-pages/tldr/builds/{build_id})
-for this PR failed with the following error(s):
+The [build](https://travis-ci.org/tldr-pages/tldr/builds/{build_id}) for this PR failed with the following error(s):
 
 ```
 {content}
@@ -23,8 +22,7 @@ Hello! I've noticed something unusual when checking this PR:
 
 {content}
 
-Is this intended? If so, just ignore this comment. Otherwise, please
-double-check the commits.
+Is this intended? If so, just ignore this comment. Otherwise, please double-check the commits.
 """
 
 ################################################################################
