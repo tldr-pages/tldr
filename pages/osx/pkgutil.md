@@ -1,0 +1,15 @@
+# pkgutil
+
+> Query and manipulate Mac OS X Installer packages and receipts.
+
+- List package ids for all installed packages:
+
+`pkgutil --pkgs`
+
+- Verify cryptographic signatures of a package file:
+
+`pkgutil --check-signature {{filename.pkg}}`
+
+- List all the files for an installed package:
+
+`pkgutil --files {{com.microsoft.Word}}`
