@@ -10,6 +10,6 @@
 
 `pkgutil --check-signature {{filename.pkg}}`
 
-- List all the files for an installed package:
+- List all the files for an installed package (e.g. Microsoft Word):
 
 `pkgutil --files {{com.microsoft.Word}}`
