@@ -2,7 +2,7 @@
 
 > Query and manipulate Mac OS X Installer packages and receipts.
 
-- List package ids for all installed packages:
+- List package IDs for all installed packages:
 
 `pkgutil --pkgs`
 
