@@ -9,4 +9,4 @@
 
 - Copy a disk to a raw image file, hashing each 1GB chunk:
 
-`dcfldd if=/dev/{{disk_device}} of={{file.img}} hash={{hash_algorithm}} hashlog={{file.hash}} hashwindow={{1G}}`
+`dcfldd if=/dev/{{disk_device}} of={{file.img}} hash={{sha512|sha384|sha256|sha1|md5}} hashlog={{file.hash}} hashwindow={{1G}}`
