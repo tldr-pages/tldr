@@ -41,7 +41,7 @@ If you are an owner of the organization, you should be able to see an automated 
   [22 November 2019](https://github.com/tldr-pages/tldr/issues/3592) — present
 - Zlatan Vasović ([@zdroid](https://github.com/zdroid)):
   [30 November 2019](https://github.com/tldr-pages/tldr/issues/3636) — [17 December 2019](https://github.com/tldr-pages/tldr/issues/3663)
-- Iván  ([@ivanhercaz](https://github.com/ivanhercaz)):
+- Iván Hernández Cazorla ([@ivanhercaz](https://github.com/ivanhercaz)):
   [24 December 2019](https://github.com/tldr-pages/tldr/issues/3690) — [5 January 2020](https://github.com/tldr-pages/tldr/issues/3736)
 
 ## Organization members
@@ -52,7 +52,7 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
 
 - **Zlatan Vasović ([@zdroid](https://github.com/zdroid))**:
   [17 December 2019](https://github.com/tldr-pages/tldr/issues/3663) — present
-- **Iván  ([@ivanhercaz](https://github.com/ivanhercaz))**:
+- **Iván Hernández Cazorla ([@ivanhercaz](https://github.com/ivanhercaz))**:
   [5 January 2020](https://github.com/tldr-pages/tldr/issues/3736) — present
 - **Ein Verne ([@einverne](https://github.com/einverne))**:
   [12 January 2020](https://github.com/tldr-pages/tldr/issues/3738) — present
