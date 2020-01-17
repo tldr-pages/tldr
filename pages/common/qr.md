@@ -5,7 +5,7 @@
 
 - Generate a QR code:
 
-`echo "{{data}}" | qr
+`echo "{{data}}" | qr`
 
 - Specify the error correction level (defaults to M):
 
