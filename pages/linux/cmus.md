@@ -11,6 +11,14 @@
 
 `:add {{path/to/file_or_directory}}`
 
+- next song:
+
+`b`
+
+- previous song:
+
+`z`
+
 - Pause/unpause current song:
 
 `c`
