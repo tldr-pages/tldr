@@ -2,6 +2,7 @@
 
 > Commandline Music Player.
 > Use arrow keys to navigate, `<enter/return>` to select, and numbers 1-8 switch between different views.
+> More information: <https://cmus.github.io/>.
 
 - Open cmus from specified directory:
 
