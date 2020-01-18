@@ -11,11 +11,11 @@
 
 `:add {{path/to/file_or_directory}}`
 
-- next song:
+- Next song:
 
 `b`
 
-- previous song:
+- Previous song:
 
 `z`
 
