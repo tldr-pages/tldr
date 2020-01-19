@@ -27,18 +27,18 @@ If you are an owner of the organization, you should be able to see an automated 
   [12 March 2017](https://github.com/tldr-pages/tldr/issues/1209#issuecomment-285924778) — present
 - **Muhammad Falak R Wani ([@mfrw](https://github.com/mfrw))**:
   [7 September 2018](https://github.com/tldr-pages/tldr/issues/2306) — present
-- **Lucas Schneider ([@schneiderl](https://github.com/schneiderl))**:
-  [11 April 2019](https://github.com/tldr-pages/tldr/issues/2898) — present
 - **Andrik Albuquerque ([@andrik](https://github.com/andrik))**:
   [9 May 2019](https://github.com/tldr-pages/tldr/issues/2988) — present
 - **Ivan Aracki ([@Aracki](https://github.com/Aracki))**:
   [9 May 2019](https://github.com/tldr-pages/tldr/issues/2988) — present
-- Ein Verne ([@einverne](https://github.com/einverne)):
-  [29 October 2019](https://github.com/tldr-pages/tldr/issues/3488) — [12 January 2020](https://github.com/tldr-pages/tldr/issues/3738)
 - **Pierre Rudloff ([@Rudloff](https://github.com/Rudloff))**:
   [19 November 2019](https://github.com/tldr-pages/tldr/issues/3580) — present
 - **Proscream ([@Proscream](https://github.com/Proscream))**:
   [22 November 2019](https://github.com/tldr-pages/tldr/issues/3592) — present
+- Lucas Schneider ([@schneiderl](https://github.com/schneiderl)):
+  [11 April 2019](https://github.com/tldr-pages/tldr/issues/2898) — [17 January 2019](https://github.com/tldr-pages/tldr/issues/3764)
+- Ein Verne ([@einverne](https://github.com/einverne)):
+  [29 October 2019](https://github.com/tldr-pages/tldr/issues/3488) — [12 January 2020](https://github.com/tldr-pages/tldr/issues/3738)
 - Zlatan Vasović ([@zdroid](https://github.com/zdroid)):
   [30 November 2019](https://github.com/tldr-pages/tldr/issues/3636) — [17 December 2019](https://github.com/tldr-pages/tldr/issues/3663)
 - Iván Hernández Cazorla ([@ivanhercaz](https://github.com/ivanhercaz)):
@@ -56,6 +56,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [5 January 2020](https://github.com/tldr-pages/tldr/issues/3736) — present
 - **Ein Verne ([@einverne](https://github.com/einverne))**:
   [12 January 2020](https://github.com/tldr-pages/tldr/issues/3738) — present
+- **Lucas Schneider ([@schneiderl](https://github.com/schneiderl))**:
+  [17 January 2019](https://github.com/tldr-pages/tldr/issues/3764) — present
 - Owen Voke ([@pxgamer](https://github.com/pxgamer))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
