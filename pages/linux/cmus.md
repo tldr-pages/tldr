@@ -4,13 +4,9 @@
 > Use arrow keys to navigate, `<enter/return>` to select, and numbers 1-8 switch between different views.
 > More information: <https://cmus.github.io/>.
 
-- Open cmus from specified directory:
-
-`cmus {{path/to/directory}}`
-
 - Add file/directory to library:
 
-`:add {{path/to/file_or_directory}}`
+`:add {{path/to/directory}}`
 
 - Next song:
 
@@ -27,6 +23,10 @@
 - Toggle shuffle mode on/off:
 
 `s`
+
+- Turn volume up/down and seeking
+
+`arrow keys`
 
 - Quit cmus:
 
