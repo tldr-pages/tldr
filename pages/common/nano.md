@@ -7,6 +7,10 @@
 
 `nano {{filename}}`
 
+- Start nano in terminal with {filename} at line {line}, column {column}:
+
+`nano +{{line}},{{column}} {{filename}}`
+
 - Enable smooth scrolling:
 
 `nano -S {{filename}}`
