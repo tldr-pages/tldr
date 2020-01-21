@@ -7,7 +7,7 @@
 
 `nano {{filename}}`
 
-- Start nano in terminal with filename at line,column:
+- Start nano in terminal with filename at specified line and column:
 
 `nano +{{line}},{{column}} {{filename}}`
 
