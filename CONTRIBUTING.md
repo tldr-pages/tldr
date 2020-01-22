@@ -45,7 +45,7 @@ Here are a few guidelines to get started:
    (ex: relative/absolute paths, glob patterns/wildcards, special character escaping...).
 
 These are all guidelines, not strict rules.
-Use proper judgement, keeping simplicity and user-friendliness as the top priority.
+Use proper judgement, keeping simplicity and user-friendliness as the top priorities.
 
 When in doubt, have a look at a few existing pages :).
 
