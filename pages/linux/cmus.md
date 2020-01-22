@@ -24,7 +24,7 @@
 
 `s`
 
-- Turn volume up/down and seeking
+- Turn volume up/down and seeking:
 
 `arrow keys`
 
