@@ -7,6 +7,10 @@
 
 `find {{path/to/search}} -type f | fzf`
 
+- Start finder on all files tracked by git:
+
+`git ls-files | fzf`
+
 - Start finder on running processes:
 
 `ps aux | fzf`
