@@ -17,7 +17,7 @@
 
 - Publish a feature to the remote server so others can work on it too:
 
-`git flow feature publish <feature>`
+`git flow feature publish {{feature}}`
 
 - Get a feature published by another user:
 
