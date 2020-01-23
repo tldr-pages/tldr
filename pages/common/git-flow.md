@@ -3,7 +3,7 @@
 > A collection of Git extensions to provide high-level repository operations for Vincent Driessen's branching model.
 > More information: <https://github.com/nvie/gitflow>.
 
-- Start using git-flow by initializing it inside an existing git repository:
+- Initialize it inside an existing git repository:
 
 `git flow init`
 
