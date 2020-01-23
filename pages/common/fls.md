@@ -5,7 +5,7 @@
 
 - Built a recursive fls list over a device:
 
-`fls -r -m {{Original_Path}} {{/dev/examplepartition}}`
+`fls -r -m {{original_path}} {{/dev/examplepartition}}`
 
 - Built a recursive fls list over a partition starting at a specific sector using a pre-defined timezone:
 
