@@ -3,9 +3,9 @@
 > List files and directories in an image file or device.
 > Commonly used in digital forensics in combination with mactime.
 
-- Built a recursive fls list over an image:
+- Built a recursive fls list over a device:
 
-`fls -r -m {{Original_Path}} {{Imagefile}}`
+`fls -r -m {{Original_Path}} {{/dev/examplepartition}}`
 
 - The above, for a partition starting at a specific sector using a pre-defined timezone:
 
