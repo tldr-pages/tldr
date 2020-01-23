@@ -8,10 +8,14 @@
 
 `git status`
 
-- Give output in short format:
+- Give output in [s]hort format:
 
 `git status -s`
 
 - Don't show untracked files in the output:
 
 `git status --untracked-files=no`
+
+- Show output in [s]hort format along with [b]ranch info:
+
+`git status -sb`
