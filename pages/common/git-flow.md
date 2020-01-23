@@ -13,7 +13,7 @@
 
 - Finish development of a feature, which will merge it into develop, remove the feature branch and switch to develop:
 
-`git flow feature finish <feature>`
+`git flow feature finish {{feature}}`
 
 - Publish a feature to the remote server so others can work on it too:
 
