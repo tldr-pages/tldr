@@ -18,7 +18,7 @@
 
 `sudo losetup -d /dev/{{loop}}`
 
-- Attach a file to the new free loop device. Scan the device for partitions:
+- Attach a file to a new free loop device and scan the device for partitions:
 
 `sudo losetup --show --partscan -f /{{path/to/file}}`
 
