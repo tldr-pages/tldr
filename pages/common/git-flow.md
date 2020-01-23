@@ -21,4 +21,4 @@
 
 - Get a feature published by another user:
 
-`git flow feature pull origin <feature>`
+`git flow feature pull origin {{feature}}`
