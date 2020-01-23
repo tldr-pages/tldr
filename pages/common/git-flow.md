@@ -11,7 +11,7 @@
 
 `git flow feature start {{feature}}`
 
-- Finish development of a feature, which will merge it into develop, remove the feature branch and switch to develop:
+- Finish development on a feature branch, merging it into the `develop` branch and deleting it:
 
 `git flow feature finish {{feature}}`
 
