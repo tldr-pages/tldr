@@ -23,3 +23,7 @@
 - Prevent atom from forking into the background, keeping atom attached to the terminal:
 
 `atom --foreground`
+
+- Wait for atom window to close before returning (useful for git commit editor):
+
+`atom --wait`
