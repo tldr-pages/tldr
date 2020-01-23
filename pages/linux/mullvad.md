@@ -3,7 +3,7 @@
 > CLI client for Mullvad VPN.
 > More information: <https://mullvad.net/>.
 
-- Link your mullvad account with {account number}:
+- Link your mullvad account with specified account number:
 
 `mullvad account set {account number}`
 
