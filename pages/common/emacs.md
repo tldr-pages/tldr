@@ -11,7 +11,11 @@
 
 `emacs {{path/to/file}}`
 
-- Exit (save buffers and terminate):
+- Save a file:
+
+`Ctrl + X, Ctrl + S`
+
+- Quit:
 
 `Ctrl + X, Ctrl + C`
 
