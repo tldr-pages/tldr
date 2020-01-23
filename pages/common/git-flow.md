@@ -9,7 +9,7 @@
 
 - Start developing a new feature. It creates a new branch based on develop:
 
-`git flow feature start <feature>`
+`git flow feature start {{feature}}`
 
 - Finish development of a feature, which will merge it into develop, remove the feature branch and switch to develop:
 
