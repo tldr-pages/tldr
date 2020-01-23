@@ -13,4 +13,4 @@
 
 - Create a timeline of filesystem changes in ASCII CSV format:
 
-`fls -r -m {{Original_Path}} -z {{timezone}} -o {{sector}} {{imagefile}} | mactime -d -z {{timezone}} > {{outputfile}}`
+`fls -r -m {{original_path}} -z {{timezone}} -o {{sector}} {{imagefile}} | mactime -d -z {{timezone}} > {{outputfile}}`
