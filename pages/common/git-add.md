@@ -19,6 +19,10 @@
 
 `git add -f`
 
-- Add parts of a file interactively:
+- Interactively stage parts of files:
+
+`git add -p`
+
+- Interactively stage parts of a given file:
 
 `git add -p {{path/to/file}}`
