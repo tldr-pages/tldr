@@ -10,28 +10,28 @@
 
 - Save a file:
 
-`:write`
+`:write<Enter>`
 
 - Quit without saving:
 
-`<Esc>:quit!<Enter>`
+`:quit!<Enter>`
 
 - Open a file at a specified line number:
 
 `vim +{{line_number}} {{path/to/file}}`
 
-- View help for setting (such as {{set number}}):
+- View Vim's help manual:
 
-`<Esc>:help '{{setting_name}}'`
+`:help<Enter>`
 
 - Undo the last operation:
 
-`<Esc>u`
+`u`
 
 - Search for a pattern in the file (press `n`/`N` to go to next/previous match):
 
-`<Esc>/{{search_pattern}}<Enter>`
+`/{{search_pattern}}<Enter>`
 
 - Perform a regex substitution in the whole file:
 
-`<Esc>:%s/{{pattern}}/{{replacement}}/g<Enter>`
+`:%s/{{pattern}}/{{replacement}}/g<Enter>`
