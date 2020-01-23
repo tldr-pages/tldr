@@ -3,7 +3,7 @@
 > List files and directories in an image file or device.
 > More information: <https://wiki.sleuthkit.org/index.php?title=Fls>.
 
-- Built a recursive fls list over a device:
+- Build a recursive fls list over a device:
 
 `fls -r -m {{original_path}} {{/dev/examplepartition}}`
 
