@@ -17,4 +17,5 @@
 `git status --untracked-files=no`
 
 - Show output in [s]hort format along with [b]ranch info:
+
 `git status -sb`
