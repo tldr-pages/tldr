@@ -9,7 +9,7 @@
 
 - The above, for a partition starting at a specific sector using a pre-defined timezone:
 
-`fls -r -m {{Original_Path}} -z {{timezone}} -o {{sector}} {{imagefile}}`
+`fls -r -m {{original_path}} -z {{timezone}} -o {{sector}} {{imagefile}}`
 
 - Create a timeline of filesystem changes in ASCII CSV format:
 
