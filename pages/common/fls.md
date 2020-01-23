@@ -7,7 +7,7 @@
 
 `fls -r -m {{original_path}} {{/dev/examplepartition}}`
 
-- Built a recursive fls list over a partition starting at a specific sector using a pre-defined timezone:
+- Build a recursive fls list over a partition starting at a specific sector using a pre-defined timezone:
 
 `fls -r -m {{original_path}} -z {{timezone}} -o {{sector}} {{imagefile}}`
 
