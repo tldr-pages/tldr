@@ -1,7 +1,7 @@
 # fls
 
 > List files and directories in an image file or device.
-> Commonly used in digital forensics in combination with mactime.
+> More information at https://wiki.sleuthkit.org/index.php?title=Fls
 
 - Built a recursive fls list over a device:
 
