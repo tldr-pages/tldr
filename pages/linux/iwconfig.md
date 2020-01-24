@@ -15,6 +15,6 @@
 
 `iwconfig {{interface}} {{new_network_name}}`
 
-- Set the operating mode of an specific interface:
+- Set the operating mode of the specified interface:
 
 `ifconfig {{interface}} mode {{ad hoc|Managed|Master|Repeater|Secondary|Monitor|Auto}}`
