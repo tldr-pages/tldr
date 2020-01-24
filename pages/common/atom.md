@@ -16,10 +16,14 @@
 
 `atom --add {{path/to/file_or_directory}}`
 
-- Open atom in safe mode (does not load any additional packages):
+- Open Atom in safe mode (does not load any additional packages):
 
 `atom --safe`
 
-- Prevent atom from forking into the background, keeping atom attached to the terminal:
+- Prevent Atom from forking into the background, keeping Atom attached to the terminal:
 
 `atom --foreground`
+
+- Wait for Atom window to close before returning (useful for git commit editor):
+
+`atom --wait`
