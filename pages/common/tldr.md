@@ -13,4 +13,4 @@
 
 - Get help for a git subcommand:
 
-`tldr {{git checkout}}`
+`tldr {{git-checkout}}`
