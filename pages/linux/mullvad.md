@@ -3,11 +3,11 @@
 > CLI client for Mullvad VPN.
 > More information: <https://mullvad.net/>.
 
-- Link your mullvad account with specified account number:
+- Link your mullvad account with the specified account number:
 
 `mullvad account set {{account_number}}`
 
-- Enable LAN Access while VPN is on:
+- Enable LAN access while VPN is on:
 
 `mullvad lan set allow`
 
