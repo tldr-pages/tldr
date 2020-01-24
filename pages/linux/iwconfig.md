@@ -7,7 +7,7 @@
 
 `iwconfig`
 
-- Show the parameters and statistics of a specific interface:
+- Show the parameters and statistics of the specified interface:
 
 `iwconfig {{interface}}`
 
