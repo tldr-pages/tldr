@@ -27,3 +27,7 @@
 
 `rc-status --runlevel`
 
+- List all runlevels:
+
+`rc-status --list`
+
