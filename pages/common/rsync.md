@@ -13,7 +13,7 @@
 
 - Worry-free file transfer (handles soft-links, directories, access rights, and previously transferred files):
 
-`rsync -Laura {{from}} {{to}}`
+`rsync -Laura {{remote_host}}:{{path/to/remote_file}} {{path/to/local_directory}}`
 
 - Transfer file in archive (to preserve attributes) and compressed (zipped) mode with verbose and human-readable progress:
 
