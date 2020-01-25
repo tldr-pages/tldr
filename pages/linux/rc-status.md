@@ -1,0 +1,29 @@
+# rc-status
+
+> Show status info about runlevels
+> Part of OpenRC - see also `openrc`.
+
+- Show a summary of services and their status:
+
+`rc-status`
+
+- Include services in all runlevels in the summary:
+
+`rc-status --all`
+
+- List services that have crashed:
+
+`rc-status --crashed`
+
+- List manually started services:
+
+`rc-status --manual`
+
+- List supervised services:
+
+`rc-status --supervised`
+
+- Get the current runlevel:
+
+`rc-status --runlevel`
+
