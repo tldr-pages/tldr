@@ -1,4 +1,4 @@
-# ifconfig
+# iwconfig
 
 > Configure and show the parameters of a wireless network interface.
 > More information: <https://linux.die.net/man/8/iwconfig>.
