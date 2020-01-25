@@ -1,6 +1,6 @@
 # cat
 
-> Ausgabe und Verkettung von einzelnen Dateien
+> Ausgabe und Verkettung von einzelnen Dateien.
 
 - Ausgabe der Inhalte einer Datei an die Standardausgabe:
 

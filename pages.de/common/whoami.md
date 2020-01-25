@@ -1,6 +1,6 @@
 # whoami
 
-> Ausgabe des Benutzernamens des aktuellen Benutzers
+> Ausgabe des Benutzernamens des aktuellen Benutzers.
 
 - Ausgabe des aktiven Benutzernamens:
 
