@@ -11,4 +11,3 @@
 - Change to a specific runlevel, but don't stop any existing services:
 
 `sudo openrc --no-stop {{runlevel_name}}`
-

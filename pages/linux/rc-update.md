@@ -18,4 +18,3 @@
 - Delete a service from all runlevels:
 
 `sudo rc-update --all delete {{service_name}}`
-

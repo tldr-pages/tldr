@@ -30,4 +30,3 @@
 - List all runlevels:
 
 `rc-status --list`
-

@@ -1,6 +1,6 @@
 # rc-service
 
-> Locate and run OpenRC services with arguments
+> Locate and run OpenRC services with arguments.
 > See also `openrc`.
 
 - Show a service's status:
@@ -30,4 +30,3 @@
 - Resolve the location of a service definition on disk:
 
 `sudo rc-service --resolve {{service_name}}`
-
