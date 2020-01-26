@@ -19,6 +19,10 @@
 
 `youtube-dl -x --audio-format {{mp3}} {{url}}`
 
+- Download the best quality audio and video and merge them:
+
+`youtube-dl -f bestvideo+bestaudio {{url}}`
+
 - Download video(s) as MP4 files with custom filenames:
 
 `youtube-dl --format {{mp4}} -o {{"%(title)s by %(uploader)s on %(upload_date)s in %(playlist)s.%(ext)s"}} {{url}}`
