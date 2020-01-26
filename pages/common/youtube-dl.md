@@ -21,7 +21,7 @@
 
 - Download the best quality audio and video and merge them:
 
-`youtube-dl -f {{bestvideo+bestaudio}} {{url}}`
+`youtube-dl -f bestvideo+bestaudio {{url}}`
 
 - Download video(s) as MP4 files with custom filenames:
 
