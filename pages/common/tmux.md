@@ -5,15 +5,15 @@
 > a different terminal.
 > More information: <https://github.com/tmux/tmux>.
 
-- Start a new tmux session:
+- Start a new session:
 
 `tmux`
 
-- Start a new named tmux session:
+- Start a new named session:
 
 `tmux new -s {{name}}`
 
-- List sessions:
+- List existing sessions:
 
 `tmux ls`
 
@@ -25,14 +25,14 @@
 
 `tmux a -t {{name}}`
 
-- Detach from session:
+- Detach from your current session:
 
 `Ctrl + B, D`
 
-- Kill session:
+- Kill a session:
 
 `tmux kill-session -t {{name}}`
 
-- Kill session when attached:
+- Kill your current session (when attached):
 
 `Ctrl + B, x (then hit 'y' for yes)`
