@@ -1,7 +1,7 @@
 # progress
 
 > Progress Viewer displays/monitors the progress of running coreutils.
-> More information: <https://github.com/Xfennec/progress> .
+> More information: <https://github.com/Xfennec/progress>.
 
 - Show the progress of running coreutils once:
 
