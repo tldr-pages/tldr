@@ -1,7 +1,7 @@
 # tmux
 
 > Tmux is a terminal multiplexer. It lets you switch easily between several programs in one terminal, detach them (they keep running in the background) and reattach them to a different terminal.
-> By default, your tmux prefix is Ctrl-b.  In the examples below, it'll mention prefix. If you haven't changed your prefix, use Ctrl-b.  If you have, use your prefix.
+> By default, your tmux prefix is Ctrl-B.  When you see {{prefix}}, use Ctrl-B, if you haven't changed your tmux prefix. If you have, use your prefix.
 > More information: <https://github.com/tmux/tmux>.
 
 - Start a new session:
