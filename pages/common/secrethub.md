@@ -17,7 +17,7 @@
 
 - Store a value supplied on stdin as a new secret (version):
 
-`echo "secret value" | secrethub write {{path/to/secret}}`
+`echo "{{secret_value}}" | secrethub write {{path/to/secret}}`
 
 - Audit a repository or secret:
 
