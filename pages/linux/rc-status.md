@@ -1,7 +1,7 @@
 # rc-status
 
 > Show status info about runlevels.
-> Part of OpenRC - see also `openrc`.
+> See also `openrc`.
 
 - Show a summary of services and their status:
 
