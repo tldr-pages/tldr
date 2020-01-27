@@ -1,6 +1,8 @@
 # tmux
 
-> Multiplex several virtual consoles.
+> Tmux is a terminal multiplexer. It lets you switch easily between several programs in
+> one terminal, detach them (they keep running in the background) and reattach them to
+> a different terminal.
 > More information: <https://github.com/tmux/tmux>.
 
 - Start a new tmux session:
