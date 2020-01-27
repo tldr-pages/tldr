@@ -10,7 +10,7 @@
 
 `sudo efibootmgr -c -d {{esp_blockdevice}} -l {{\path\to\file.efi}} -L "{{Label}}"`
 
-- > Specific Example: Adding UEFI Shell v2 as a Boot Options:
+- Add UEFI Shell v2 as a boot option:
 
 `sudo efibootmgr -c -d /dev/sda1 -l \EFI\tools\Shell.efi -L "UEFI Shell"`
 
