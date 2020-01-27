@@ -4,6 +4,9 @@
 > one terminal, detach them (they keep running in the background) and reattach them to
 > a different terminal.
 > More information: <https://github.com/tmux/tmux>.
+>
+> By default, your tmux prefix is Ctrl-b.  In the examples below, it'll mention {{prefix}}.
+> If you haven't changed your prefix, use Ctrl-b.  If you have, use your prefix.
 
 - Start a new session:
 
@@ -27,12 +30,12 @@
 
 - Detach from your current session:
 
-`Ctrl + B, D`
+`{{prefix}} d`
 
-- Kill a session:
+- Kill a session by name:
 
 `tmux kill-session -t {{name}}`
 
 - Kill your current session (when attached):
 
-`Ctrl + B, x (then hit 'y' for yes)`
+`{{prefix}} :kill-session<Enter>`
