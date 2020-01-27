@@ -14,7 +14,7 @@
 
 - Start a new named session:
 
-`tmux new -s {{name}}`
+`tmux new-session -s {{name}}`
 
 - List existing sessions:
 
