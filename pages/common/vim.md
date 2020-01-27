@@ -8,6 +8,10 @@
 
 `vim {{path/to/file}}`
 
+- View Vim's help manual:
+
+`:help<Enter>`
+
 - Save a file:
 
 `:write<Enter>`
@@ -19,10 +23,6 @@
 - Open a file at a specified line number:
 
 `vim +{{line_number}} {{path/to/file}}`
-
-- View Vim's help manual:
-
-`:help<Enter>`
 
 - Undo the last operation:
 
