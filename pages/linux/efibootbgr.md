@@ -18,6 +18,6 @@
 
 `sudo efibootmgr -o {{0002,0008,0001,0005}}`
 
-- Delete Bootoption:
+- Delete a boot option:
 
 `sudo efibootmgr -b {{bootnum}} -B`
