@@ -5,7 +5,7 @@
 
 - Start nano in terminal with a specified filename:
 
-`nano {{filename}}`
+`nano {{path/to/file}}`
 
 - Open a file positioning the cursor at the specified line and column:
 
