@@ -1,7 +1,7 @@
 # progress
 
-> A lightweight progress monitor. It displays the progress of
-> running coreutils. More information: <https://github.com/Xfennec/progress>.
+> A lightweight progress monitor. It displays the progress of running coreutils. 
+> More information: <https://github.com/Xfennec/progress>.
 
 - List progress of running coreutils once:
 
