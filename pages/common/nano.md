@@ -9,7 +9,7 @@
 
 - Start nano in terminal with filename at specified line and column:
 
-`nano +{{line}},{{column}} {{filename}}`
+`nano +{{line}},{{column}} {{path/to/file}}`
 
 - Enable smooth scrolling:
 
