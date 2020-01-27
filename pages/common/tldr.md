@@ -7,7 +7,7 @@
 
 `tldr {{command}}`
 
-- Show the tar tldr page for linux:
+- Show the tar tldr page for Linux:
 
 `tldr -p {{linux}} {{tar}}`
 
