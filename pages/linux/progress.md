@@ -3,11 +3,11 @@
 > Progress Viewer displays/monitors the progress of running coreutils.
 > More information: <https://github.com/Xfennec/progress> .
 
-- List progress of running coreutils once:
+- Show the progress of running coreutils once:
 
 `progress`
 
-- Continuously monitor progress of running and upcoming coreutils:
+- Continuously monitor the progress of running and upcoming coreutils:
 
 `watch progress -q`
 
