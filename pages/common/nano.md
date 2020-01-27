@@ -1,6 +1,6 @@
 # nano
 
-> Simple, easy to use editor. An enhanced, free Pico clone.
+> Simple, easy to use command-line text editor. An enhanced, free Pico clone.
 > More information: <https://nano-editor.org>.
 
 - Start nano in terminal with a specified filename:
