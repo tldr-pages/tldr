@@ -20,13 +20,13 @@
 
 `tmux ls`
 
-- Attach to a session:
+- Attach to your last used session:
 
-`tmux a`
+`tmux attach-session`
 
 - Attach to a named session:
 
-`tmux a -t {{name}}`
+`tmux attach-session -t {{name}}`
 
 - Detach from your current session:
 
