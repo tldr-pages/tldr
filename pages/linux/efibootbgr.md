@@ -4,7 +4,7 @@
 
 - List the current settings:
 
-`efibootmgr `(`-v` for Filepaths)
+`efibootmgr -v for Filepaths`
 
 - Create new Bootoption:
 
