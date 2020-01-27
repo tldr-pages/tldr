@@ -1,6 +1,6 @@
 # vim
 
-> Vim (Vi IMproved), a programmer's command-line text editor, provides several modes for different kinds of text manipulation.
+> Vim (Vi IMproved), a command-line text editor, provides several modes for different kinds of text manipulation.
 > Pressing `i` enters edit mode. `<Esc>` goes back to normal mode, which doesn't allow regular text insertion.
 > More information: <https://www.vim.org>.
 
