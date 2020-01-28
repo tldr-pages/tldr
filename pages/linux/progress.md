@@ -7,7 +7,7 @@
 
 `progress`
 
-- Show the progress of running coreutils with minimized output:
+- Show the progress of running coreutils in quiet mode:
 
 `progress -q`
 
