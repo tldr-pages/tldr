@@ -1,6 +1,6 @@
 # p7zip
 
-> Wrapper on 7-Zip file archiver with high compression ratio.
+> Wrapper of 7-Zip file archiver with high compression ratio.
 > Internally executes either 7za or 7zr command.
 
 - Archive a file, replacing it with a 7zipped compressed version:
