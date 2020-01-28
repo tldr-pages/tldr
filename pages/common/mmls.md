@@ -5,11 +5,11 @@
 
 - Display the partition table stored in an image file:
 
-`mmls {{imagefile}}`
+`mmls {{/path/to/image_file}}`
 
 - Display the partition table with an additional column for the partition size:
 
-`mmls -B -i {{image}}`
+`mmls -B -i {{/path/to/image_file}}`
 
 - Display the partition table in a splitted EWF image:
 
@@ -17,4 +17,4 @@
 
 - Display nested partition tables:
 
-`mmls -t {{nested_table_type}} -o {{offset}} {{image}}`
+`mmls -t {{nested_table_type}} -o {{offset}} {{/path/to/image_file}}`
