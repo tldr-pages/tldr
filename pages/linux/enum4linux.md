@@ -19,7 +19,6 @@
 
 `enum4liux -S remote_host`
 
-
 - Get OS information:
 
 `enum4liux -o remote_host`
