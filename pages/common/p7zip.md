@@ -13,7 +13,7 @@
 
 - Decompress a file, replacing it with the original uncompressed version:
 
-`p7zip -d {{compressed.ext}}.7z`  
+`p7zip -d {{compressed.ext}}.7z`
 
 - Decompress a file without removing the input file:
 
