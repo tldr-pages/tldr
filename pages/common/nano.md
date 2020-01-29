@@ -1,11 +1,15 @@
 # nano
 
-> Simple, easy to use editor. An enhanced, free Pico clone.
+> Simple, easy to use command-line text editor. An enhanced, free Pico clone.
 > More information: <https://nano-editor.org>.
 
-- Start nano in terminal with {filename}:
+- Open a specific file:
 
-`nano {{filename}}`
+`nano {{path/to/file}}`
+
+- Open a file positioning the cursor at the specified line and column:
+
+`nano +{{line}},{{column}} {{path/to/file}}`
 
 - Enable smooth scrolling:
 
