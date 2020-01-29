@@ -7,10 +7,10 @@
 
 `tldr {{komanda}}`
 
-- Prikaži tar tldr stranicu za Linuks:
+- Prikaži tar tldr stranicu za Linux:
 
 `tldr -p {{linux}} {{tar}}`
 
-- Prikaži pomoć za git podkomandu:
+- Prikaži pomoć za git potkomandu:
 
 `tldr {{git-checkout}}`
