@@ -3,7 +3,7 @@
 > Apache Benchmarking tool. The simplest tool to perform a load testing.
 > More information: <https://httpd.apache.org/docs/2.4/programs/ab.html>.
 
-- Execute 100 HTTP GET requests to given URL:
+- Execute 100 HTTP GET requests to a given URL:
 
 `ab -n {{100}} {{url}}`
 
@@ -18,3 +18,7 @@
 - Set the maximum number of seconds to spend for benchmarking:
 
 `ab -t {{60}} {{url}}`
+
+- Execute 100 HTTP POST requests to a given URL, using a JSON payload from a file:
+
+`ab -n {{100}} -T {{application/json}} -p {{data.json}} {{url}}`
