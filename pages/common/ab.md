@@ -19,6 +19,6 @@
 
 `ab -t {{60}} {{url}}`
 
-- Execute 100 HTTP POST requests to a given URL, using JSON payload stored in data.json file:
+- Execute 100 HTTP POST requests to a given URL, using a JSON payload from a file:
 
 `ab -n {{100}} -T {{application/json}} -p {{data.json}} {{url}}`
