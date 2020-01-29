@@ -1,7 +1,9 @@
 {
-  "name": "tldr",
-  "version": "1.0.0",
-  "description": "Simplified, community-driven man pages",
+  "description": "Simplified and community-driven man pages",
+  "author": "Romain Prieto",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": "tldr-pages/tldr",
+  "homepage": "https://tldr.sh/",
   "dependencies": {
     "glob": "7.1.3",
     "markdownlint-cli": "0.19.0",
@@ -19,9 +21,5 @@
       "pre-commit": "npm test"
     }
   },
-  "repository": "tldr-pages/tldr",
-  "author": "Romain Prieto",
-  "private": true,
-  "license": "MIT",
-  "homepage": "http://tldr-pages.github.io"
+  "private": true
 }
