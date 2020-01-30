@@ -15,7 +15,7 @@
 
 `zstd -dc {{file}}.zst`
 
-- Compress a file, while specifing the compression level. 0 = Worst, 19 = Best (Default level is 3):
+- Compress a file, while specifing the compression level (0 being worst, 19 best, and 3 default):
 
 `zstd -{{level}} {{file}}`
 
