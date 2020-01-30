@@ -7,7 +7,7 @@
 
 `fls -r -m {{original_path}} {{/dev/examplepartition}}`
 
-- Analyse a partition, starting at a specific sector. Interprete timestamps using a defined timezone:
+- Analyse a single partition, providing the timezone of the original system and the sector offset at which the file system starts in the image:
 
 `fls -r -m {{original_path}} -z {{timezone}} -o {{sector}} {{imagefile}}`
 
