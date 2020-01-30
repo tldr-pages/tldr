@@ -15,6 +15,6 @@
 
 `qrencode -t ansiutf8 {{string}}`
 
-- Convert input from pipe to a QR code and print in terminal
+- Convert input from pipe to a QR code and print it in terminal:
 
 `echo {{string}} | qrencode -t ansiutf8`
