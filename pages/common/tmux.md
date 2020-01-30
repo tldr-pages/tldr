@@ -1,6 +1,6 @@
 # tmux
 
-> Tmux is a terminal multiplexer. It allows you to have multiple sessions with windows, panes, and so much more!
+> Tmux is a terminal multiplexer. It allows you to have multiple sessions with windows, panes, and so much more.
 > More information: <https://github.com/tmux/tmux>.
 
 - Start a new session:
