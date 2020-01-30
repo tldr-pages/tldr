@@ -13,4 +13,4 @@
 
 - Run a benchmark with a request timeout of `2` seconds:
 
-`wrk -t{{2}} -c{{5}} -d{{5s}} — timeout {{2s}} "{{http://example.com/index.html}}"`
+`wrk -t{{2}} -c{{5}} -d{{5s}} --timeout {{2s}} "{{http://example.com/index.html}}"`
