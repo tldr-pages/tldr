@@ -11,4 +11,3 @@
 - Limit the write speed:
 
 `f3write --max-write-rate={{kb_per_second}} {{path/to/mount_point}}`
-
