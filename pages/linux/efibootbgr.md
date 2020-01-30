@@ -6,7 +6,7 @@
 
 `efibootmgr -v for Filepaths`
 
-- Create new Bootoption:
+- Create a new boot option:
 
 `sudo efibootmgr -c -d {{esp_blockdevice}} -l {{\path\to\file.efi}} -L "{{Label}}"`
 
