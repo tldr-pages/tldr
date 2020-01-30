@@ -14,7 +14,7 @@
 
 `sudo efibootmgr -c -d /dev/sda1 -l \EFI\tools\Shell.efi -L "UEFI Shell"`
 
-- Change the current Bootorder (you can get the Bootnums from the first command):
+- Change the current boot order (you can get the Bootnums from the first command):
 
 `sudo efibootmgr -o {{0002,0008,0001,0005}}`
 
