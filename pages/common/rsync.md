@@ -11,7 +11,7 @@
 
 `rsync {{remote_host}}:{{path/to/remote_file}} {{path/to/local_directory}}`
 
-- Worry-free file transfer (handles soft-links, directories, access rights, and previously transferred files):
+- Transfer options for most common usage (handles soft-links, directories, access rights, and previously transferred files):
 
 `rsync -Laura {{remote_host}}:{{path/to/remote_file}} {{path/to/local_directory}}`
 
@@ -26,10 +26,6 @@
 - Transfer directory contents (but not the directory itself) from a remote to local:
 
 `rsync -r {{remote_host}}:{{path/to/remote_directory}}/ {{path/to/local_directory}}`
-
-- Transfer only updated files from remote host:
-
-`rsync -ru {{remote_host}}:{{path/to/remote_directory}} {{path/to/local_directory}}`
 
 - Transfer file over SSH and delete local files that do not exist on remote host:
 
