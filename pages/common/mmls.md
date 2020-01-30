@@ -17,4 +17,4 @@
 
 - Display nested partition tables:
 
-`mmls -t {{nested_table_type}} -o {{offset}} {{/path/to/image_file}}`
+`mmls -t {{nested_table_type}} -o {{offset}} {{path/to/image_file}}`
