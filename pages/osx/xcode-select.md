@@ -1,6 +1,6 @@
 # xcode-select
 
-> Switch abetween different versions of Xcode and the included developer tools.
+> Switch between different versions of Xcode and the included developer tools.
 > Also used to update the path to Xcode if it is moved after installation.
 
 - Install Xcode's command line tools:
