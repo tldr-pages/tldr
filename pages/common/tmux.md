@@ -1,7 +1,6 @@
 # tmux
 
-> Tmux is a terminal multiplexer. It lets you switch easily between several programs in one terminal, detach them (they keep running in the background) and reattach them to a different terminal.
-> By default, your tmux prefix is Ctrl-B.  When you see {{prefix}}, use Ctrl-B, if you haven't changed your tmux prefix. If you have, use your prefix.
+> Tmux is a terminal multiplexer. It allows you to have multiple sessions with windows, panes, and so much more!
 > More information: <https://github.com/tmux/tmux>.
 
 - Start a new session:
@@ -24,14 +23,14 @@
 
 `tmux attach-session -t {{name}}`
 
-- Detach from your current session:
+- Detach from your current session (with prefix Ctrl-B):
 
-`{{prefix}} d`
+`Ctrl-B d`
 
 - Kill a session by name:
 
 `tmux kill-session -t {{name}}`
 
-- Kill your current session (when attached):
+- Kill your current session (with prefix Ctrl-B):
 
-`{{prefix}} :kill-session<Enter>`
+`Ctrl-B :kill-session<Enter>`
