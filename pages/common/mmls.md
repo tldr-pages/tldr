@@ -11,7 +11,7 @@
 
 `mmls -B -i {{path/to/image_file}}`
 
-- Display the partition table in a splitted EWF image:
+- Display the partition table in a split EWF image:
 
 `mmls -i ewf {{image.e01}} {{image.e02}}`
 
