@@ -11,7 +11,7 @@
 
 `qrencode -o {{path/to/output_file.png}} -r {{path/to/input_file}}`
 
-- Convert a string to a QR code and print in terminal
+- Convert a string to a QR code and print it in terminal:
 
 `qrencode -t ansiutf8 {{string}}`
 
