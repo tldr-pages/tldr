@@ -2,6 +2,7 @@
 
 > Wrapper of 7-Zip file archiver with high compression ratio.
 > Internally executes either 7za or 7zr command.
+> More information: <http://p7zip.sourceforge.net>.
 
 - Archive a file, replacing it with a 7zipped compressed version:
 
