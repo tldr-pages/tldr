@@ -11,7 +11,7 @@
 
 `rsync {{remote_host}}:{{path/to/remote_file}} {{path/to/local_directory}}`
 
-- Transfer options for most common usage (handles soft-links, directories, access rights, and previously transferred files):
+- Transfer any file or directory, in archive (to preserve attributes), resolving contained softlinks, and ignoring already transferred files (unless newer):
 
 `rsync -Laura {{remote_host}}:{{path/to/remote_file}} {{path/to/local_directory}}`
 
