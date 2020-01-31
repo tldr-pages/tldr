@@ -11,7 +11,7 @@
 
 `rsync {{remote_host}}:{{path/to/remote_file}} {{path/to/local_directory}}`
 
-- Transfer any file or directory, in archive (to preserve attributes), resolving contained softlinks, and ignoring already transferred files (unless newer):
+- Transfer any file or directory \[r\], in archive \[a\] to preserve attributes, resolving contained softlinks \[L\], and ignoring already transferred files \[u\] (unless newer):
 
 `rsync -Laura {{remote_host}}:{{path/to/remote_file}} {{path/to/local_directory}}`
 
