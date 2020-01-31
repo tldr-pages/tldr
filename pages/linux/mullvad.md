@@ -7,7 +7,7 @@
 
 `mullvad account set {{account_number}}`
 
-- Enable LAN access while VPN is on:
+- Establish the VPN tunnel:
 
 `mullvad lan set allow`
 
