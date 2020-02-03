@@ -7,7 +7,7 @@
 
 `poetry new {{project-name}}`
 
-- Install {{dependency}} and its subdependencies:
+- Install a dependency and its subdependencies:
 
 `poetry add {{dependency}}`
 
