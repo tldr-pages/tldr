@@ -5,7 +5,7 @@
 
 - Create a new Poetry project in the directory with a specific name:
 
-`poetry new {{project-name}}`
+`poetry new {{project_name}}`
 
 - Install a dependency and its subdependencies:
 
