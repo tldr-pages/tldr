@@ -5,12 +5,8 @@
 
 - Build a recursive fls list over a device:
 
-`fls -r -m {{original_path}} {{/dev/examplepartition}}`
+`fls -r -m {{original_path}} {{/dev/loop1p1}}`
 
 - Analyse a single partition, providing the timezone of the original system and the sector offset at which the file system starts in the image:
 
-`fls -r -m {{original_path}} -z {{timezone}} -o {{sector}} {{imagefile}}`
-
-- Create a timeline of filesystem changes in ASCII CSV format:
-
-`fls -r -m {{original_path}} -z {{timezone}} -o {{sector}} {{imagefile}} | mactime -d -z {{timezone}} > {{outputfile}}`
+`fls -r -m {{original_path}} -z {{timezone}} -o {{sector}} {{path/to/imagefile}}`
