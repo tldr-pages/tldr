@@ -3,7 +3,7 @@
 > Manage Python packages and dependencies.
 > More information: <https://python-poetry.org/docs>.
 
-- Create a new Poetry project in the directory {{project-name}}:
+- Create a new Poetry project in the directory with a specific name:
 
 `poetry new {{project-name}}`
 
