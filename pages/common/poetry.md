@@ -19,6 +19,6 @@
 
 `poetry update`
 
-- Execute {{command}} inside the project's virtualenv:
+- Execute a command inside the project's virtual environment:
 
 `poetry run {{command}}`
