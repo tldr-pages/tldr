@@ -1,6 +1,6 @@
 # initdb
 
-> Create a PostgreSQL database on Disk.
+> Create a PostgreSQL database on disk.
 > More information: <https://www.postgresql.org/docs/9.5/app-initdb.html>.
 
 - Create a database at /usr/local/var/postgres:
