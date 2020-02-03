@@ -5,4 +5,4 @@
 
 - Create a database at /usr/local/var/postgres:
 
-`initdb -D /usr/local/var/postgres`:
+`initdb -D /usr/local/var/postgres`
