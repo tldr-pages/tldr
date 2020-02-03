@@ -13,4 +13,4 @@
 
 - Analyse a single partition, providing the timezone of the original system:
 
-`fls -r -m {{C:}} -z {{timezone}} {{/Dev/loop1p1}}`
+`fls -r -m {{C:}} -z {{timezone}} {{/dev/loop1p1}}`
