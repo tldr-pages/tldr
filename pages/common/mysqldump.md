@@ -5,11 +5,11 @@
 
 - Create a backup, user will be prompted for a password:
 
-`mysqldump -u {{user}} --password {{database_name}} -r {{filename.sql}}`
+`mysqldump -u {{user}} -p {{database_name}} -r {{filename.sql}}`
 
 - Restore a backup, user will be prompted for a password:
 
-`mysql -u {{user}} --password -e "source {{filename.sql}}" {{database_name}}`
+`mysql -u {{user}} -p {{database_name}} < {{filename.sql}}`
 
 - Backup all databases redirecting the output to a file (user will be prompted for a password):
 
