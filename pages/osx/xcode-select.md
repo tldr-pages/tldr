@@ -9,7 +9,7 @@
 
 - Select a given path as the active developer directory:
 
-`xcode-select -s {{path/to/Xcode.app/Contents/Developer}`
+`xcode-select -s {{path/to/Xcode.app/Contents/Developer}}`
 
 - Select a given Xcode instance and use its developer directory as the active one:
 
