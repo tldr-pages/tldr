@@ -5,7 +5,7 @@
 
 - Try to enumerate using all methods:
 
-`enum4linux -a remote_host`
+`enum4linux -a {{remote_host}}`
 
 - Enumerate using login:
 
