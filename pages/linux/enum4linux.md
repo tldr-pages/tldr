@@ -21,4 +21,4 @@
 
 - Get OS information:
 
-`enum4liux -o remote_host`
+`enum4liux -o {{remote_host}}`
