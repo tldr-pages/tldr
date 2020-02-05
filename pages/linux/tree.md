@@ -30,6 +30,6 @@
 
 `tree -I {{*.txt}}`
 
-- Print the tree with ignoring of specific directories:
+- Print the tree ignoring the given directories:
 
 `tree -I 'vendor|.git|node_modules'`
