@@ -7,7 +7,7 @@
 
 `enum4linux -a {{remote_host}}`
 
-- Enumerate using login:
+- Enumerate using given login credentials:
 
 `enum4liux -u user_name -p password remote_host`
 
