@@ -9,7 +9,7 @@
 
 - Enumerate using given login credentials:
 
-`enum4liux -u user_name -p password remote_host`
+`enum4liux -u {{user_name}} -p {{password}} {{remote_host}}`
 
 - Enumerate host for usernames:
 
