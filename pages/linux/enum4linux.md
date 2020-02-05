@@ -1,6 +1,6 @@
 # enum4linux
 
-> Enum4linux is a tool for enumerating information from Windows and Samba systems.
+> Tool for enumerating Windows and Samba information from remote systems.
 > It attempts to offer similar functionality to enum.exe formerly available from www.bindview.com.
 
 - Try to enumerate using all methods:
