@@ -13,7 +13,7 @@
 
 - List usernames from a given host:
 
-`enum4liux -U remote_host`
+`enum4liux -U {{remote_host}}`
 
 - List shares:
 
