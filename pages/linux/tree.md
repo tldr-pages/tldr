@@ -2,15 +2,15 @@
 
 > Show the contents of the current directory as a tree.
 
-- Show files and directories up to 'num' levels of depth (where 1 means the current directory):
+- Print files and directories up to 'num' levels of depth (where 1 means the current directory):
 
 `tree -L {{num}}`
 
-- Show directories only:
+- Print directories only:
 
 `tree -d`
 
-- Show hidden files too:
+- Print hidden files too:
 
 `tree -a`
 
