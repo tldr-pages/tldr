@@ -11,7 +11,7 @@
 
 `enum4liux -u {{user_name}} -p {{password}} {{remote_host}}`
 
-- Enumerate host for usernames:
+- List usernames from a given host:
 
 `enum4liux -U remote_host`
 
