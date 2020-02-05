@@ -16,4 +16,4 @@
 
 - 提供一个用户名和密码来进行验证:
 
-`choco outdated --user {{username}} --password {{password}}`
+`choco outdated --user {{用户名}} --password {{密码}}`
