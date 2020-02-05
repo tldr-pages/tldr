@@ -12,7 +12,7 @@
 
 - Exibir os processos de um usuário específico:
 
-`top -u {{user_name}}`
+`top -u {{username}}`
 
 - Exibir o(s) processo(s) de um ou mais PID específico(s), separado(s) por vírgula:
 

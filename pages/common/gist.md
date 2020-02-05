@@ -25,7 +25,7 @@
 
 - List all gists for the currently logged in user:
 
-`gist -l {{user_name}}`
+`gist -l {{username}}`
 
 - Use the id from the gist URL to modify or include a file:
 
