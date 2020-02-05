@@ -29,3 +29,7 @@
 - Find directories within the tree hierarchy, pruning out directories that aren't ancestors of the wanted one:
 
 `tree -P {{directory_name}} --matchdirs --prune`
+
+- Print the tree with ignoring of specific directories:
+
+`tree -I 'vendor|.git|node_modules'`

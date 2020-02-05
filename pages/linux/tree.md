@@ -29,3 +29,7 @@
 - Ignore entries that match a wildcard (glob) pattern:
 
 `tree -I {{*.txt}}`
+
+- Print the tree with ignoring of specific directories:
+
+`tree -I 'vendor|.git|node_modules'`
