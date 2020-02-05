@@ -28,4 +28,4 @@
 
 - 提供一个用户名和密码来进行验证:
 
-`choco upgrade {{package}} --user {{username}} --password {{password}}`
+`choco upgrade {{包}} --user {{用户名}} --password {{密码}}`
