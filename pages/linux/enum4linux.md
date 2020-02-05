@@ -17,7 +17,7 @@
 
 - List shares:
 
-`enum4liux -S remote_host`
+`enum4liux -S {{remote_host}}`
 
 - Get OS information:
 
