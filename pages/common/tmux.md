@@ -1,6 +1,6 @@
 # tmux
 
-> Terminal multiplexer. It allows for having multiple sessions with windows, panes, and more.
+> Terminal multiplexer. It allows multiple sessions with windows, panes, and more.
 > More information: <https://github.com/tmux/tmux>.
 
 - Start a new session:
