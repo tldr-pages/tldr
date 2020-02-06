@@ -11,11 +11,7 @@
 
 `rsync {{remote_host}}:{{path/to/remote_file}} {{path/to/local_directory}}`
 
-- Transfer any file or directory \[r\], in archive \[a\] to preserve attributes, resolving contained softlinks \[L\], and ignoring already transferred files \[u\] (unless newer):
-
-`rsync -Laura {{remote_host}}:{{path/to/remote_file}} {{path/to/local_directory}}`
-
-- Transfer file in archive (to preserve attributes) and compressed (zipped) mode with verbose and human-readable progress:
+- Transfer file in [a]rchive (to preserve attributes) and compressed ([z]ipped) mode with [v]erbose and [h]uman-readable [p]rogress:
 
 `rsync -azvhP {{path/to/local_file}} {{remote_host}}:{{path/to/remote_directory}}`
 
@@ -26,6 +22,10 @@
 - Transfer directory contents (but not the directory itself) from a remote to local:
 
 `rsync -r {{remote_host}}:{{path/to/remote_directory}}/ {{path/to/local_directory}}`
+
+- Transfer a directory [r]ecursively, in [a]rchive to preserve attributes, resolving contained soft[l]inks , and ignoring already transferred files [u]nless newer:
+
+`rsync -rauL {{remote_host}}:{{path/to/remote_file}} {{path/to/local_directory}}`
 
 - Transfer file over SSH and delete local files that do not exist on remote host:
 
