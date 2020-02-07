@@ -8,6 +8,6 @@
 
 `ebook-convert {{source}} {{destination}}`
 
-- Convert markdown/HTML to ebook with TOC and title/author:
+- Convert Markdown or HTML to ebook with TOC, title and author:
 
 `ebook-convert {{source}} {{destination}} --level1-toc="//h:h1" --level2-toc="//h:h2" --level3-toc="//h:h3" --title={{title}} --authors={{author}}`
