@@ -1,15 +1,15 @@
 # efibootmgr
 
 > Manipulate the UEFI Boot Manager (the Bootoptions).
-> 
-> More Information: https://linux.die.net/man/8/efibootmgr
+>
+> More Information: https://linux.die.net/man/8/efibootmgr .
 
 - List the current settings / bootnums:
 
 `efibootmgr`
 
 - List the Filepaths:
-  
+
 `efibootmgr -v`
 
 - Add UEFI Shell v2 as a boot option:
