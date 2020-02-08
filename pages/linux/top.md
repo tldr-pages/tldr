@@ -12,7 +12,7 @@
 
 - Show only processes owned by given user:
 
-`top -u {{user_name}}`
+`top -u {{username}}`
 
 - Show the individual threads of a given process:
 
