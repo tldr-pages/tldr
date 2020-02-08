@@ -8,7 +8,7 @@
 
 - Print the contents of the standard input reversed to the standard output:
 
-`{{some_command}} | tac`
+`{{command}} | tac`
 
 - Concatenate several files reversed into the target file:
 
