@@ -9,12 +9,12 @@
 
 - Add a specified user to Samba and set password(user should already exist in system):
 
-`smbpasswd -a {{user_name}}`
+`smbpasswd -a {{username}}`
 
 - Modify an existing Samba user's password:
 
-`smbpasswd {{user_name}}`
+`smbpasswd {{username}}`
 
 - Delete a Samba user:
 
-`smbpasswd -x {{user_name}}`
+`smbpasswd -x {{username}}`
