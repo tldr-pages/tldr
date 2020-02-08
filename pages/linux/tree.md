@@ -32,4 +32,4 @@
 
 - Print the tree ignoring the given directories:
 
-`tree -I 'vendor|.git|node_modules'`
+`tree -I '{{directory_name1|directory_name2}}'`
