@@ -1,6 +1,6 @@
 # yum
 
-> Package management utility for RHEL, Feodra, and CentOS (for older versions).
+> Package management utility for RHEL, Fedora, and CentOS (for older versions).
 
 - Synchronize list of packages and versions available. This should be run first, before running subsequent yum commands:
 
