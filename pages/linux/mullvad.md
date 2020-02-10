@@ -11,7 +11,7 @@
 
 `mullvad lan set allow`
 
-- Command the client to start establishing VPN tunnel:
+- Establish the VPN tunnel:
 
 `mullvad connect`
 
