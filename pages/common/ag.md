@@ -1,6 +1,6 @@
 # ag
 
-> The Silver Searcher. Like ack, but faster.
+> The Silver Searcher. Like ack, but aims to be faster.
 > More information: <https://github.com/ggreer/the_silver_searcher>.
 
 - Find files containing "foo", and print the line matches in context:
