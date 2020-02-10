@@ -7,15 +7,15 @@
 
 `secrethub read {{path/to/secret}}`
 
-- Generate a random value and store it as a new secret (version):
+- Generate a random value and store it as a new or updated secret:
 
 `secrethub generate {{path/to/secret}}`
 
-- Store a value from the clipboard as a new secret (version):
+- Store a value from the clipboard as a new or updated secret:
 
 `secrethub write --clip {{path/to/secret}}`
 
-- Store a value supplied on stdin as a new secret (version):
+- Store a value supplied on stdin as a new or updated secret:
 
 `echo "{{secret_value}}" | secrethub write {{path/to/secret}}`
 
