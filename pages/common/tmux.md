@@ -15,7 +15,7 @@
 
 `tmux ls`
 
-- Attach to your last used session:
+- Attach to the most recently used session:
 
 `tmux attach-session`
 
@@ -23,7 +23,7 @@
 
 `tmux attach-session -t {{name}}`
 
-- Detach from your current session (with prefix Ctrl-B):
+- Detach from the current session (with prefix Ctrl-B):
 
 `Ctrl-B d`
 
@@ -31,6 +31,6 @@
 
 `tmux kill-session -t {{name}}`
 
-- Kill your current session (with prefix Ctrl-B):
+- Kill the current session (with prefix Ctrl-B):
 
 `Ctrl-B :kill-session<Enter>`
