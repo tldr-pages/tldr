@@ -1,6 +1,6 @@
 # restic
 
-> Fast, secure, efficient backup program.
+> A backup program that aims to be fast, secure and efficient.
 > More information: <https://restic.net>.
 
 - Initialize a backup repository in the specified local directory:
