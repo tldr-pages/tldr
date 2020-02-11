@@ -29,7 +29,7 @@
 
 - Print all values starting from the third column:
 
-`awk '{ s = ""; for (i=3; i <= NF; i++) s = s $i " "; print s }'`
+`awk '{for (i=3; i <= NF; i++) printf $i""FS; print""}'`
 
 - Print different values based on conditions:
 
