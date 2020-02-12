@@ -23,6 +23,6 @@
 
 `tcptraceroute {{host}} -w {{wait_time}} -q {{number_of_queries}}`
 
-- Specify interface with HTTP(port 80) as the destination port:
+- Specify interface with HTTP (port 80) as the destination port:
 
 `tcptraceroute {{host}} -i {{interface}} http`
