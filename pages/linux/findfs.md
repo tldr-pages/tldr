@@ -7,14 +7,14 @@
 
 `findfs LABEL={{label}}`
 
-- Search block devices by filesystem UUID:
+- Search by filesystem UUID:
 
-`findfs UUID={{label}}`
+`findfs UUID={{uuid}}`
 
-- Search block devices by partition UUID (GPT or MAC partition table):
+- Search by partition label (GPT or MAC partition table):
 
-`findfs PARTLABEL={{label}}`
+`findfs PARTLABEL={{partition_label}}`
 
-- Search block devices by partition label (GPT partition table only):
+- Search by partition UUID (GPT partition table only):
 
-`findfs PARTUUID={{label}}`
+`findfs PARTUUID={{partition_uuid}}`
