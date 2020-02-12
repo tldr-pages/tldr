@@ -9,7 +9,7 @@
 
 - Display statistics every 5 seconds and 4 updates only:
 
-`dstat 5 4`
+`dstat {{5}} {{4}}`
 
 - Display CPU and memory statistics only:
 
