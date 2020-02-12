@@ -1,36 +1,36 @@
 # tmux
 
-> Multiplex several virtual consoles.
+> Terminal multiplexer. It allows multiple sessions with windows, panes, and more.
 > More information: <https://github.com/tmux/tmux>.
 
-- Start a new tmux session:
+- Start a new session:
 
 `tmux`
 
-- Start a new named tmux session:
+- Start a new named session:
 
-`tmux new -s {{name}}`
+`tmux new-session -s {{name}}`
 
-- List sessions:
+- List existing sessions:
 
 `tmux ls`
 
-- Attach to a session:
+- Attach to the most recently used session:
 
-`tmux a`
+`tmux attach-session`
 
 - Attach to a named session:
 
-`tmux a -t {{name}}`
+`tmux attach-session -t {{name}}`
 
-- Detach from session:
+- Detach from the current session (with prefix Ctrl-B):
 
-`Ctrl + B, D`
+`Ctrl-B d`
 
-- Kill session:
+- Kill a session by name:
 
 `tmux kill-session -t {{name}}`
 
-- Kill session when attached:
+- Kill the current session (with prefix Ctrl-B):
 
-`Ctrl + B, x (then hit 'y' for yes)`
+`Ctrl-B :kill-session<Enter>`
