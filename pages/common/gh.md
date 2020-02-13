@@ -3,7 +3,7 @@
 > Work seamlessly with GitHub from the command line.
 > More information: <https://cli.github.com/>.
 
-- View and filter a repository’s open issues:
+- View and filter repository’s open issues:
 
 `gh issue list`
 
@@ -23,7 +23,7 @@
 
 `gh pr checkout`
 
-- Check on the status of your pull requests:
+- Check the status of your pull requests:
 
 `gh pr status`
 
