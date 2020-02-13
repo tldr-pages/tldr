@@ -3,21 +3,13 @@
 > Work seamlessly with GitHub from the command line.
 > More information: <https://cli.github.com/>.
 
-- View and filter repository’s open issues:
-
-`gh issue list`
-
-- Create a new issue:
-
-`gh issue create`
-
-- View an issue in the browser:
-
-`gh issue view`
-
 - Create a pull request:
 
 `gh pr create`
+
+- View a pull request in the browser:
+
+`gh pr view`
 
 - Check out pull requests locally:
 
@@ -27,6 +19,14 @@
 
 `gh pr status`
 
-- View a pull request in the browser:
+- Create a new issue:
 
-`gh pr view`
+`gh issue create`
+
+- View and filter repository’s open issues:
+
+`gh issue list`
+
+- View an issue in the browser:
+
+`gh issue view`
