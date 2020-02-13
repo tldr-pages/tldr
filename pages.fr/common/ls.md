@@ -18,7 +18,7 @@
 
 `ls -lh`
 
-- Liste les fichier avec un format détaillé en triant par taille décroissante :
+- Liste les fichiers avec un format détaillé en triant par taille décroissante :
 
 `ls -lS`
 
