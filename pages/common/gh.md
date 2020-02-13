@@ -9,11 +9,11 @@
 
 - View a pull request in the browser:
 
-`gh pr view {{1}}`
+`gh pr view {{pr_number}}`
 
 - Check out pull requests locally:
 
-`gh pr checkout {{2}}`
+`gh pr checkout {{pr_number}}`
 
 - Check the status of your pull requests:
 
@@ -29,4 +29,4 @@
 
 - View an issue in the browser:
 
-`gh issue view {{3}}`
+`gh issue view {{issue_number}}`
