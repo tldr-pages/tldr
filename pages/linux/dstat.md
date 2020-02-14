@@ -19,7 +19,7 @@
 
 `dstat --list`
 
-- Display the process using most the memory and most CPU:
+- Display the process using the most memory and most CPU:
 
 `dstat --top-mem --top-cpu`
 
