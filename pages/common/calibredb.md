@@ -20,6 +20,10 @@
 
 `calibredb add {{file1 file2 …}}`
 
+- Add all ebooks under directory recursively to the library:
+
+`calibredb add -r {{path/to/directory}}`
+
 - Remove one or more ebooks from the library. You need ebook-ids (see above):
 
 `calibredb remove {{id1 id2 …}}`
