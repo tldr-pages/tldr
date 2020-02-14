@@ -13,13 +13,13 @@
 
 - Display CPU and memory statistics only:
 
-`dstat -c -m`
+`dstat --cpu --mem`
 
 - List all available dstat plugins:
 
 `dstat --list`
 
-- Display process using most memory and most CPU:
+- Display the process using most the memory and most CPU:
 
 `dstat --top-mem --top-cpu`
 
