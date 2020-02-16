@@ -1,6 +1,6 @@
 # jdupes
 
-> A powerful duplicate file finder and an enhanced fork of 'fdupes'.
+> A powerful duplicate file finder and an enhanced fork of fdupes.
 > More information: <https://github.com/jbruchon/jdupes>.
 
 - Search a single directory:
@@ -19,7 +19,7 @@
 
 `jdupes --delete --recurse {{directory}}`
 
-- Search multiple directories, and follow subdirectores under directory2, not directory1:
+- Search multiple directories and follow subdirectores under directory2, not directory1:
 
 `jdupes {{directory1}} --recurse: {{directory2}}`
 
