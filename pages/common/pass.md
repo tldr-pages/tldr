@@ -1,6 +1,6 @@
 # pass
 
-> Safely store and read passwords or other sensitive data easily.
+> A tool to store and read passwords or other sensitive data easily.
 > All data is GPG-encrypted, and managed with a git repository.
 > More information: <https://www.passwordstore.org>.
 
