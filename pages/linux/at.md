@@ -13,3 +13,7 @@
 - Execute a script at the given time:
 
 `at {{hh:mm:ss}} -f {{path/to/file}}`
+
+- Reboot at 11pm on February 18th
+
+`echo "reboot" | at 11pm Feb 18
