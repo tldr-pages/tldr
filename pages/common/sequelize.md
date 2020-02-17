@@ -3,22 +3,22 @@
 > Promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server.
 > More information: <https://sequelize.org/>.
 
-- Create model and migration file:
+- Create a model and a migration file:
 
 `sequelize model:generate --name {{table_name}}`
 
-- Run migration file:
+- Run the migration file:
 
 `sequelize db:migrate`
 
-- Revert all migration to initial state:
+- Revert all migrations:
 
 `sequelize db:migrate:undo:all`
 
-- Create seed file to populate database:
+- Create a seed file with the specified name to populate the database:
 
-`sequelize seed:generate --name {{example}}`
+`sequelize seed:generate --name {{seed_filename}}`
 
-- Populate database using all seed file:
+- Populate database using all seed files:
 
 `sequelize db:seed:all`
