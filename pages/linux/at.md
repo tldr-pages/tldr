@@ -16,4 +16,4 @@
 
 - Reboot at 11pm on February 18th:
 
-`echo "reboot" | at {{11pm}} {{Feb 18}}
+`echo "reboot" | at {{11pm}} {{Feb 18}}`
