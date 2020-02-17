@@ -1,6 +1,6 @@
 # prt-get
 
-> The advanced CRUX package manager.
+> A CRUX package manager.
 
 - Install a package:
 
