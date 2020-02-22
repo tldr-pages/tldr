@@ -34,3 +34,7 @@
 - Transfer file over SSH and show global progress:
 
 `rsync -e ssh --info=progress2 {{remote_host}}:{{path/to/remote_file}} {{path/to/local_file}}`
+
+- Transfer file over SSH from remote host with non-standard port:
+
+`rsync -e "ssh -p {{remote_port}}" {{remote_host}}:{{path/to/remote_file}} {{path/to/local_file}}`
