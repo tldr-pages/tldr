@@ -1,7 +1,7 @@
 # wormhole
 
->Get things from one computer to another, safely.
->More information: <https://magic-wormhole.readthedocs.io/en/latest/>
+> Get things from one computer to another, safely.
+> More information: <https://magic-wormhole.readthedocs.io/en/latest/>.
 
 - Send a file:
 
