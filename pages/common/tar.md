@@ -32,6 +32,6 @@
 
 `tar xf {{source.tar}} --wildcards {{"*.html"}}`
 
-- Extract a specific file without the folder structure
+- Extract a file without making the folder structure:
 
 `tar xf {{source.tar}} {{source.tar}}/path/to/binary.sh --strip-components={{amount-of-folders-deep}}`
