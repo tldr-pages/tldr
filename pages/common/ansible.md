@@ -3,10 +3,10 @@
 > Ansible installation can be found here.
 > [docs.ansible]<https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html>.
 
-- Ansible install:
+> The following commands are examples of required steps to ensure ansible is installed properly.
+> Ansible may require a separate user account with sudo privs on each node to run system commands.
 
-> The following commands are examples of required steps to ensure ansible is installed properly
-> Ansible may require a separate user account with sudo privs on each node to run system commands
+- Ansible install:
 
 ```sh
 [user@server1] sudo yum install python python-pip python-devel openssl git ansible
