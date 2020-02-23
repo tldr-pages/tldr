@@ -1,10 +1,7 @@
 # ansible
 
-> Ansible installation can be found here.
-> [docs.ansible]<https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html>.
-
 > The following commands are examples of required steps to ensure ansible is installed properly.
-> Ansible may require a separate user account with sudo privs on each node to run system commands.
+> docs.ansible: <https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html>.
 
 - Ansible install:
 
