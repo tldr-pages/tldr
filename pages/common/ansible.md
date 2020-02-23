@@ -1,7 +1,7 @@
 # ansible install and configure
 
 > Ansible installation can be found here
-> https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html
+> [docs.ansible]<https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html>
 
 ## Ansible install
 
