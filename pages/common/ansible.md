@@ -1,13 +1,14 @@
 # ansible install and configure
 
-> Ansible installation can be found here - https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html
+> Ansible installation can be found here
+> https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html
 
 ## Ansible install
 
 > The following commands are examples of required steps to ensure ansible is installed properly
 > Ansible may require a separate user account with sudo privs on each node to run system commands
 
-```
+```sh
 [user@server1] sudo yum install python python-pip python-devel openssl git ansible
 [user@server1] sudo adduser ansible
 [user@server1] sudo passwd ansible
@@ -15,7 +16,7 @@
 
 ## Add user ansible to wheel
 
-```
+```sh
 [user@server1] sudo visudo - %wheel nopasswd
 [user@server1] su - ansible
 [ansible@server1] ssh-keygen
@@ -24,7 +25,7 @@
 
 ## Add user ansible nodes
 
-```
+```sh
 [ansible@server1] ssh-copy-id <nodes>
 [ansible@server1] vim /etc/ansible/ansible.cfg
 sudo_users root
@@ -35,7 +36,7 @@ localhost
 
 ## Ansible Options
 
-```bash
+```sh
 -v    --verbose
 -i    --inventory=Path              # hosts file
       --private-key=Priv_key_file
@@ -85,7 +86,7 @@ localhost
 
 ## ansible modules
 
-```
+```sh
 [user@server1] ansible -m setup all                                 # 'inventory' of all systems
 [user@server1] ansible -m ping all                                  # 'ping' inventory
 [user@server1] ansible -m service -a 'name=httpd state=started'     # 'service'
@@ -95,6 +96,7 @@ localhost
 
 `ansible host -m setup -a 'filter=*ipv4'`
 
-## Q: What does Fact mean in Ansible?
+## Q: What does Fact mean in Ansible
 
-The term “Facts” is commonly used in Ansible environment. They are described in the playbooks areas where it displays known and discovered variables about the system.  Facts are used to implement conditionals executions and also used for getting ad-hoc information of the information.
+> The term “Facts” is commonly used in Ansible environment. They are described in the playbooks areas where it displays known and discovered variables about the system.
+> Facts are used to implement conditionals executions and also used for getting ad-hoc information of the information.
