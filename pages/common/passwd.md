@@ -2,7 +2,7 @@
 
 > Passwd is a tool used to change a user's password.
 
-- Change the password interactively:
+- Change the password of the current user interactively:
 
 `passwd`
 
