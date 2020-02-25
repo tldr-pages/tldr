@@ -7,7 +7,7 @@
 
 `lsmod | grep -i zram`
 
-- Enable zram with a dynamic number of devices (use `zramctl` to configure devices further)
+- Enable zram with a dynamic number of devices (use `zramctl` to configure devices further):
 
 `sudo modprobe zram`
 
