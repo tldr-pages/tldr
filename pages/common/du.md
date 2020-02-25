@@ -14,7 +14,7 @@
 
 `du -sh {{path/to/directory}}`
 
-- (x) is used to exclude NFS or other file types within the partition that is being scanned:
+- The (x) is used to exclude NFS or other file types within the partition that is being scanned:
 
 `du -xsh {{path/to/directory}}`
 
@@ -36,10 +36,8 @@
 
 - Number of files search:
 
-```sh
-echo "Detailed Inode usage for: $(pwd)" ; for d in `find -maxdepth 1 -type d |cut -d\/ -f2 |grep -xv . |sort`; do c=$(find $d |wc -l) ; printf "$c\t\t- $d\n" ; done ; printf "Total: \t\t$(find $(pwd) | wc -l)\n"
+``echo "Detailed Inode usage for: $(pwd)" ; for d in `find -maxdepth 1 -type d |cut -d\/ -f2 |grep -xv . |sort`; do c=$(find $d |wc -l) ; printf "$c\t\t- $d\n" ; done ; printf "Total: \t\t$(find $(pwd) | wc -l)\n"``
 
-find . -printf "%h\n" | cut -d/ -f-2 | sort | uniq -c | sort -rn
+`find . -printf "%h\n" | cut -d/ -f-2 | sort | uniq -c | sort -rn`
 
-find / -xdev -printf '%h\n' | sort | uniq -c | sort -k 1 -n
-```
+`find / -xdev -printf '%h\n' | sort | uniq -c | sort -k 1 -n`
