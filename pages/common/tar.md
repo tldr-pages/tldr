@@ -12,7 +12,7 @@
 
 `tar czf {{target.tar.gz}} {{file1}} {{file2}} {{file3}}`
 
-- Create a gzipped archive from directory using relative paths:
+- Create a gzipped archive from a directory using relative paths:
 
 `tar czf {{target.tar.gz}} -C {{/path/to/directory}} .`
 
