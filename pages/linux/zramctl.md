@@ -7,7 +7,11 @@
 
 `lsmod | grep -i zram`
 
-- Enable zram with 2 devices (use `zramctl` to configure the devices further):
+- Enable zram with a dynamic number of devices (use `zramctl` to configure devices further)
+
+`sudo modprobe zram`
+
+- Enable zram with exactly 2 devices:
 
 `sudo modprobe zram num_devices={{2}}`
 
