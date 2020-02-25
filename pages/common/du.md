@@ -14,9 +14,17 @@
 
 `du -sh {{path/to/directory}}`
 
+- (x) is used to exclude NFS or other file types within the partition that is being scanned:
+
+`du -xsh {{path/to/directory}}`
+
 - List the human-readable sizes of a directory and of all the files and directories within it:
 
 `du -ah {{path/to/directory}}`
+
+- List the top 10 largest files in megabytes, sorted by largest:
+
+`du -Sm /var/log | sort -rn | sed '{11,$D; =}' | sed 'N; s/\n/ /' | awk '{printf $1 ":" "\t" $2 "\t" $3 "\n"}'`
 
 - List the human-readable sizes of a directory and any subdirectories, up to N levels deep:
 
@@ -25,3 +33,13 @@
 - List the human-readable size of all .jpg files in subdirectories of the current directory, and show a cumulative total at the end:
 
 `du -ch */*.jpg`
+
+- Number of files search:
+
+```sh
+echo "Detailed Inode usage for: $(pwd)" ; for d in `find -maxdepth 1 -type d |cut -d\/ -f2 |grep -xv . |sort`; do c=$(find $d |wc -l) ; printf "$c\t\t- $d\n" ; done ; printf "Total: \t\t$(find $(pwd) | wc -l)\n"
+
+find . -printf "%h\n" | cut -d/ -f-2 | sort | uniq -c | sort -rn
+
+find / -xdev -printf '%h\n' | sort | uniq -c | sort -k 1 -n
+```
