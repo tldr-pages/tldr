@@ -14,7 +14,7 @@
 
 - Create a gzipped archive from a directory using relative paths:
 
-`tar czf {{target.tar.gz}} -C {{/path/to/directory}} .`
+`tar czf {{target.tar.gz}} -C {{path/to/directory}} .`
 
 - Extract a (compressed) archive into the current directory:
 
