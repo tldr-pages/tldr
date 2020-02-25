@@ -1,7 +1,7 @@
 # zramctl
 
 > Setup and control zram devices.
-> Use `mke2fs` or `mkswap` to format zram devices to partitions.
+> Use `mkfs` or `mkswap` to format zram devices to partitions.
 
 - Check if zram is enabled:
 
