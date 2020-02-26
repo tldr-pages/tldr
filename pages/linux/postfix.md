@@ -1,7 +1,8 @@
 # postfix
 
 > Postfix mail transfer agent (MTA) control program.
-> More information: <http://postfix.org>
+> See also `dovecot`, a mail delivery agent (MDA) that integrates with Postfix.
+> More information: <http://postfix.org>.
 
 - Check the configuration:
 
