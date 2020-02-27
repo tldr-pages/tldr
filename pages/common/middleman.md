@@ -3,6 +3,10 @@
 > Static site generator written in Ruby.
 > More information: <https://middlemanapp.com/>.
 
+- Install the Middleman gem:
+
+`gem install middleman`
+
 - Create a new Middleman project:
 
 `middleman init "{{project_name}}"`
