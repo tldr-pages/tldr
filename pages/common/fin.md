@@ -19,6 +19,6 @@
 
 `fin logs {{container_name}}`
 
-- Display logs of a specific container and follow log output:
+- Display logs of a specific container and follow the log:
 
 `fin logs -f {{container_name}}`
