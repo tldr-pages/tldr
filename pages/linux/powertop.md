@@ -8,7 +8,7 @@
 
 - Generate HTML power usage report in the current directory:
 
-`sudo powertop --html=powerreport.html`
+`sudo powertop --html={{power_report.html}}`
 
 - Tune to optimal settings:
 
