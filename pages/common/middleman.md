@@ -3,7 +3,7 @@
 > Static site generator written in Ruby.
 > More information: <https://middlemanapp.com/>.
 
-- Create a new middleman project:
+- Create a new Middleman project:
 
 `middleman init "{{project_name}}"`
 
@@ -19,6 +19,6 @@
 
 `bundle exec middleman build`
 
-- Deploy your middleman project:
+- Deploy your Middleman project:
 
 `middleman deploy`
