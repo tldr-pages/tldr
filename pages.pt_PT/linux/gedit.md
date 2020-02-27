@@ -14,6 +14,6 @@
 
 `gedit --list-encodings`
 
-- Abrir um ficheiro de texto com uma formatação especifica:
+- Abrir um ficheiro de texto com uma formatação específica:
 
 `gedit --encoding={{encoding}} {{ficheiro}}`
