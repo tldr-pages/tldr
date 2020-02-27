@@ -6,7 +6,7 @@
 
 `sudo powertop --calibrate`
 
-- Generate HTML power usage report in current directory:
+- Generate HTML power usage report in the current directory:
 
 `sudo powertop --html=powerreport.html`
 
