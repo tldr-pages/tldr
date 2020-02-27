@@ -6,7 +6,7 @@
 
 `gedit {{ficheiro}}`
 
-- Abrir multiplos ficheiros de texto:
+- Abrir múltiplos ficheiros de texto:
 
 `gedit {{ficheiro1 ficheiro2}}`
 
