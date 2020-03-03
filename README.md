@@ -53,6 +53,7 @@ for the most common UNIX, Linux, macOS, SunOS and Windows commands.
 You can access these pages on your computer using one of the following clients:
 
 - [Alfred Workflow](https://github.com/cs1707/tldr-alfred)
+- [Albert Plugin](https://github.com/bergercookie/awesome-albert-plugins/tree/master/plugins/tldr_pages)
 - Android clients:
   - [tldroid](https://github.com/hidroh/tldroid), available on
     [Google Play](https://play.google.com/store/apps/details?id=io.github.hidroh.tldroid) *(outdated)*
