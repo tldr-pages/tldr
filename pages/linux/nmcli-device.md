@@ -2,7 +2,7 @@
 
 > Hardware device management with NetworkManager.
 
-- Print statuses of network interfaces:
+- Print the statuses of all network interfaces:
 
 `nmcli device status`
 
@@ -12,4 +12,4 @@
 
 - Connect to the Wi-Fi network with a specified name and password:
 
-`nmcli device wifi connect {{name}} password {{password}}`
+`nmcli device wifi connect {{ssid}} password {{password}}`

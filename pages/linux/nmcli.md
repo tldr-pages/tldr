@@ -14,6 +14,6 @@
 
 `nmcli {{command}} --help`
 
-- Execute nmcli command:
+- Execute an `nmcli` command:
 
 `nmcli {{command}}`
