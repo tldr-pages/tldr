@@ -9,4 +9,4 @@
 
 - Check the syntax of a Packer image config:
 
-`packer validate {{config.json}}`
+`packer validate {{path/to/config.json}}`
