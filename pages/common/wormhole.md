@@ -5,7 +5,7 @@
 
 - Send a file:
 
-`wormhole send {{file}}`
+`wormhole send {{path/to/file}}`
 
 - Receive a file:
 
