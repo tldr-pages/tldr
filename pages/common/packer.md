@@ -5,7 +5,7 @@
 
 - Build an image:
 
-`packer build {{config.json}}`
+`packer build {{path/to/config.json}}`
 
 - Check the syntax of a Packer image config:
 
