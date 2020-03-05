@@ -1,20 +1,20 @@
 # cd
 
 > Displays the name of or changes the current working directory.
-> More information: https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/cd
+> More information: https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/cd.
 
-- Go to a directory in the same drive.
+- Go to a directory in the same drive:
 
-`cd {{path/to/directory}}
+`cd {{path/to/directory}}`
 
-- Display the name of the current directory.
+- Display the name of the current directory:
 
-`cd
+`cd`
 
-- Go up to the parent of the current directory.
+- Go up to the parent of the current directory:
 
-`cd ..
+`cd ..`
 
-- Go to a directory in a different drive.
+- Go to a directory in a different drive:
 
-`cd {{path/to/directory}} /d
+`cd {{path/to/directory}} /d`
