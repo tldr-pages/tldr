@@ -1,6 +1,6 @@
 # deno
 
-> A secure runtime for JavaScript and TypeScript
+> A secure runtime for JavaScript and TypeScript.
 > More information: <https://deno.land/>.
 
 - Run a JavaScript or TypeScript file:
@@ -22,4 +22,3 @@
 - Install an executable script from a URL:
 
 `deno install --allow-net --allow-read file_server https://deno.land/std/http/file_server.ts`
-
