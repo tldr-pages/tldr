@@ -1,7 +1,7 @@
 # cd
 
 > Displays the name of or changes the current working directory.
-> More information: https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/cd.
+> More information: <https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/cd>.
 
 - Go to a directory in the same drive:
 
