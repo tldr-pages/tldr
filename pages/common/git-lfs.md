@@ -23,11 +23,11 @@
 
 `git lfs ls-files`
 
-- Push all LFS objects to the remote server (useful if errors are encountered):
+- Push all Git LFS objects to the remote server (useful if errors are encountered):
 
 `git lfs push --all {{remote_name}} {{branch_name}}`
 
-- Fetch all LFS objects:
+- Fetch all Git LFS objects:
 
 `git lfs fetch`
 
