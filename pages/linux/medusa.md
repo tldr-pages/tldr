@@ -1,6 +1,6 @@
 # Medusa
 
-> A speedy, parallel, and modular, login brute-forcer.
+> A modular and parallel login brute-forcer for a variety of protocols.
 
 - General:
 
