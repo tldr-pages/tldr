@@ -2,7 +2,7 @@
 
 > A modular and parallel login brute-forcer for a variety of protocols.
 
-- General:
+- Execute brute force using a list of usernames and passwords:
 
 `medusa -M Method -h target -U {{username_file}} -P {{password_file}}`
 
