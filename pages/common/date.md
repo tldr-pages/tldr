@@ -24,4 +24,4 @@
 
 - Display RFC-3339, great for logging and timestamps YYYY-MM-DD hh:mm:ss TZ
 
-`date ---rfc-3339=s`
+`date --rfc-3339=s`
