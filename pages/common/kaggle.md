@@ -1,24 +1,13 @@
-# Kaggle
+# kaggle
 
 > Official API for kaggle accessible using a command line tool implemented in Python 3.
 > More information: <https://www.kaggle.com>.
 
-- Register your API token:
+- View current configuration values:
 
-`spark register {{token}}`
+`kaggle config view`
 
-- Display the currently registered API token:
+- Download file from competition dataset:
 
-`spark token`
+`kaggle competitions download {{competition}} -f {{filename}}`
 
-- Create a new Spark project:
-
-`spark new {{project_name}}`
-
-- Create a new Spark project with Braintree stubs:
-
-`spark new {{project_name}} --braintree`
-
-- Create a new Spark project with team based billing stubs:
-
-`spark new {{project_name}} --team-billing`
