@@ -4,7 +4,7 @@
 
 - Execute brute force against a ftp server using a file containing usernames and a file containing passwords:
 
-`medusa -M ftp -h host -U {{username_file}} -P {{password_file}}`
+`medusa -M ftp -h host -U {{path/to/username_file}} -P {{path/to/password_file}}`
 
 - Execute a login attempt against a HTTP server using the username, password and user-agent specified:
 
