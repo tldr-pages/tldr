@@ -16,4 +16,4 @@
 
 - Execute a brute force against a list of SMB server using a username and a pwdump file:
 
-`medusa -M smbnt -H {{hosts_file}} -C {{pwdump_file}} -u {{user}} -m PASS:HASH`
+`medusa -M smbnt -H {{hosts_file}} -C {{path/to/pwdump_file}} -u {{user}} -m PASS:HASH`
