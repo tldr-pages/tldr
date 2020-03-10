@@ -2,7 +2,7 @@
 
 > A modular and parallel login brute-forcer for a variety of protocols.
 
-- Execute brute force against a ftp server using a file containing usernames and a file containing passwords:
+- Execute brute force against an FTP server using a file containing usernames and a file containing passwords:
 
 `medusa -M ftp -h host -U {{path/to/username_file}} -P {{path/to/password_file}}`
 
