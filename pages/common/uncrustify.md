@@ -15,7 +15,7 @@
 
 `find . -name "*.cpp" | uncrustify -F - --no-backup`
 
-- Use a custom configuration file and write the result to stdout: 
+- Use a custom configuration file and write the result to stdout:
 
 `uncrustify -c {{path/to/uncrustify.cfg}} -f {{path/to/file.cpp}}`
 
