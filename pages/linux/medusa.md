@@ -12,8 +12,8 @@
 
 - Execute a brute force against a MySQL server using a file cointaining usernames and a hash:
 
-`medusa -M mysql -h host -U {{username_file}} -p {{hash}} -m PASS:HASH`
+`medusa -M mysql -h host -U {{path/to/username_file}} -p {{hash}} -m PASS:HASH`
 
-- Execute a brute force against a list of SMB server using a username and a pwdump file:
+- Execute a brute force against a list of SMB servers using a username and a pwdump file:
 
-`medusa -M smbnt -H {{hosts_file}} -C {{path/to/pwdump_file}} -u {{user}} -m PASS:HASH`
+`medusa -M smbnt -H {{path/to/hosts_file}} -C {{path/to/pwdump_file}} -u {{username}} -m PASS:HASH`
