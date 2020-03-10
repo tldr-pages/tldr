@@ -10,4 +10,3 @@
 - Download file from competition dataset:
 
 `kaggle competitions download {{competition}} -f {{filename}}`
-
