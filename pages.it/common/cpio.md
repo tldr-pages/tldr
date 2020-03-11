@@ -12,6 +12,6 @@
 
 `find {{path/to/directory}} | cpio -ov > {{archivio.cpio}}`
 
-- Estrai file da un archivio, generando le directory necessarie, in modalità verbosa:
+- Estrai file da un archivio, generando le directory necessarie, in modalità verbosa, rispetto alla directory corrente:
 
-`cpio -idv < {{archivio.cpio}}`
+`cpio -idv --no-absolute-filenames < {{archivio.cpio}}`

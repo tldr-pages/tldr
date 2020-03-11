@@ -13,4 +13,4 @@
 
 - 아카이브에 모든 파일을 [i]선택하여 필요한 경우 [v]상세모드로 [d]디렉토리를 생성:
 
-`cpio -idv < {{archive.cpio}}`
+`cpio -idv --no-absolute-filenames < {{archive.cpio}}`
