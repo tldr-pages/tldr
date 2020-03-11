@@ -1,6 +1,6 @@
 # beanstalkd
 
-> 단순하고 일반적인 work-queue 서버. 
+> 단순하고 일반적인 work-queue 서버.
 > 자세한 정보:<https://beanstalkd.github.io/>.
 
 - beanstalkd를 시작하고, 11300 포트로 듣기:

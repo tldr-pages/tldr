@@ -1,6 +1,6 @@
 # az
 
-> Microsoft Azure의 공식 CLI tool입니다. 
+> Microsoft Azure의 공식 CLI tool입니다.
 > 더 많은 정보는: <https://docs.microsoft.com/cli/azure>.
 
 - Azure에 로그인:
