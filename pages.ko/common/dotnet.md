@@ -1,6 +1,6 @@
 # dotnet
 
-> .NET Core를 위한 크로스 플랫폼 .NET 명령어 도구. 
+> .NET Core를 위한 크로스 플랫폼 .NET 명령어 도구.
 > 더 많은 정보: <https://docs.microsoft.com/dotnet/core/tools>.
 
 - 새 .NET 프로젝트 초기화하기:

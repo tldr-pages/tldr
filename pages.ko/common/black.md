@@ -1,6 +1,6 @@
 # black
 
-> Python 자동 코드 formatter. 
+> Python 자동 코드 formatter.
 > 자세한 정보: <https://github.com/psf/black>.
 
 - 파일 또는 전체 디렉토리의 자동 포맷:

@@ -1,6 +1,6 @@
 # axel
 
-> 가속기를 다운로드 하십시오. HTTP, HTTPS, FTP를 지원합니다. 
+> 가속기를 다운로드 하십시오. HTTP, HTTPS, FTP를 지원합니다.
 > 더많은 정보는: <https://github.com/axel-download-accelerator/axel>.
 
 - 파일로 URL 다운로드:

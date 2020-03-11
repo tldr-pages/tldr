@@ -1,6 +1,6 @@
 # clang
 
-> C, C++ 그리고 Objective-C 소스 파일을 컴파일합니다.  GCC의 드롭인 대체로 사용할 수 있습니다. 
+> C, C++ 그리고 Objective-C 소스 파일을 컴파일합니다.  GCC의 드롭인 대체로 사용할 수 있습니다.
 > 더 많은 정보: <https://clang.llvm.org/docs/ClangCommandLineReference.html>.
 
 - 실행 가능한 바이너리 파일로 소스 코드를 컴파일합니다:
