@@ -7,6 +7,6 @@
 
 `kaggle config view`
 
-- Download specific file from competition dataset:
+- Download a specific file from a competition dataset:
 
 `kaggle competitions download {{competition}} -f {{filename}}`
