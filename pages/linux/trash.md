@@ -23,7 +23,7 @@
 
 `trash-empty {{10}}`
 
-- Remove all files matching name 'foo' from trash:
+- Remove all files named 'foo' from trash:
 
 `trash-rm foo`
 
