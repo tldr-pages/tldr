@@ -27,6 +27,6 @@
 
 `trash-rm foo`
 
-- Remove all files with exactly '/full/path' as original location:
+- Remove all files with '/full/path' as original location:
 
 `trash-rm /full/path`
