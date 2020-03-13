@@ -16,6 +16,6 @@
 
 `cpio -idv < {{archive.cpio}}`
 
-- Copies files out of the archive relative to current directory, even if they have an absolute file name in the archive:
+- Copy files out of the archive relative to current directory, even if they have an absolute file name in the archive:
 
 `cpio -idv --no-absolute-filenames < {{archive.cpio}}`
