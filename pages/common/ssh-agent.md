@@ -1,8 +1,8 @@
 # ssh-agent
 
-> Spawn an ssh-agent process.
-> The ssh-agent will hold your ssh key decrypted in memory until evicted.
-> Add and manage keys with `ssh-add`.
+> Spawn an SSH Agent process.
+> An SSH Agent holds ssh keys decrypted in memory until removed or the process is killed.
+> See also `ssh-add`, which can add and manage keys held by an SSH Agent.
 
 - Start an SSH Agent for the current shell:
 
@@ -11,8 +11,3 @@
 - Kill the currently running agent:
 
 `ssh-agent -k`
-
-- Manually connect to an existing agent (rare):
-
-`export SSH_AUTH_SOCK={{ssh-agent socket}}`
-`export SSH_AGENT_PID={{ssh-agent pid}}`
