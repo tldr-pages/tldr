@@ -14,4 +14,8 @@
 
 - Estrai file da un archivio, generando le directory necessarie, in modalità verbosa, rispetto alla directory corrente:
 
-`cpio -idv --no-absolute-filenames < {{archivio.cpio}}`
+`cpio -idv < {{archivio.cpio}}`
+
+- Estrarre il contenuto dell'archivio e duplicarlo dalla directory corrente, anche se il nome file è assoluto
+
+`cpio -idv --no-absolute-filenames < {{archive.cpio}}`

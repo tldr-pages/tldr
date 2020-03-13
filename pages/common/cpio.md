@@ -12,6 +12,10 @@
 
 `find {{path/to/directory}} | cpio -ov > {{archive.cpio}}`
 
-- P[i]ck all files from an archive, generating [d]irectories where needed, in [v]erbose mode, relative to the current directory:
+- P[i]ck all files from an archive, generating [d]irectories where needed, in [v]erbose mode:
+
+`cpio -idv < {{archive.cpio}}`
+
+- Copies files out of the archive relative to current directory, even if they have an absolute file name in the archive:
 
 `cpio -idv --no-absolute-filenames < {{archive.cpio}}`
