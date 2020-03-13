@@ -8,7 +8,7 @@
 
 `eval $(ssh-agent)`
 
-- Kill the current agent:
+- Kill the currently running agent:
 
 `ssh-agent -k`
 
