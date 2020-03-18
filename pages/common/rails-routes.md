@@ -1,6 +1,7 @@
 # rails routes
 
-> List routes in a Rails application
+> List routes in a Rails application.
+> More information: <https://guides.rubyonrails.org/routing.html>.
 
 - List all routes:
 
