@@ -15,6 +15,6 @@
 
 `rails routes -g {{posts_path|GET|/posts}}`
 
-- List routes that map to a controller:
+- List routes that map to a specified controller:
 
 `rails routes -c {{posts|Posts|Blogs::PostsController}}`
