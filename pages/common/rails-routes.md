@@ -7,7 +7,7 @@
 
 `rails routes`
 
-- List all routes in expanded format:
+- List all routes in an expanded format:
 
 `rails routes --expanded`
 
