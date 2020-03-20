@@ -14,7 +14,7 @@
 
 `sudo hdparm -B {{1}} /dev/{{device}}`
 
-- Check the current device power mode status:
+- Display the device's current power mode status:
 
 `sudo hdparm -C /dev/{{device}}`
 
