@@ -6,7 +6,7 @@
 
 `sudo hdparm -I /dev/{{device}}`
 
-- Get Advanced Power Management feature, if the drive supports it:
+- Get the Advanced Power Management level:
 
 `sudo hdparm -B /dev/{{device}}`
 
