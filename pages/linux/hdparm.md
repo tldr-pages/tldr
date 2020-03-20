@@ -18,10 +18,10 @@
 
 `sudo hdparm -C /dev/{{device}}`
 
-- Force a drive to immediately enter the standby mode, usually causing it to spin down:
+- Force a drive to immediately enter standby mode (usually causes a drive to spin down):
 
 `sudo hdparm -y /dev/{{device}}`
 
-- Put the drive into idle (low-power) mode, and also set its standby timeout:
+- Put the drive into idle (low-power) mode, also setting its standby timeout:
 
-`sudo hdparm -S {{standby timeout}} {{device}}`
+`sudo hdparm -S {{standby_timeout}} {{device}}`
