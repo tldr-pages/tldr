@@ -10,7 +10,7 @@
 
 `sudo hdparm -B /dev/{{device}}`
 
-- Set Advanced Power Management value. Values 1-127 permit spin-down, and values 128-254 do not:
+- Set the Advanced Power Management value (values 1-127 permit spin-down, and values 128-254 do not):
 
 `sudo hdparm -B {{1}} /dev/{{device}}`
 
