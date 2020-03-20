@@ -2,7 +2,7 @@
 
 > Get and set SATA and IDE hard drive parameters.
 
-- Request identification info of the device directly from the drive:
+- Request the identification info of a given device:
 
 `sudo hdparm -I /dev/{{device}}`
 
