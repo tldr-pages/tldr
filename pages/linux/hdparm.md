@@ -1,6 +1,6 @@
 # hdparm
 
-> Get/set SATA/IDE device (HDD) parameters.
+> Get and set SATA and IDE hard drive parameters.
 
 - Request identification info of the device directly from the drive:
 
