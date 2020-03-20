@@ -41,8 +41,7 @@ function run_checks_pr {
 
 # Scan TLDR for vulnerabilities
 function scan_for_vulns {
-  npm install -g auditjs
-  auditjs ossi
+  npx auditjs@latest ossi
 }
 
 ###################################
