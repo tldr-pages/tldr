@@ -22,3 +22,11 @@
 - Empty trash, keeping files trashed less than {{10}} days ago:
 
 `trash-empty {{10}}`
+
+- Remove all files named 'foo' from the trash:
+
+`trash-rm foo`
+
+- Remove all files with a given original location:
+
+`trash-rm /full/path`
