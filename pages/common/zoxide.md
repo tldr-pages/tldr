@@ -15,7 +15,7 @@
 
 `zoxide query --interactive`
 
-- Add a directory or increment it's rank:
+- Add a directory or increment its rank:
 
 `zoxide add {{path/to/dir}}`
 
