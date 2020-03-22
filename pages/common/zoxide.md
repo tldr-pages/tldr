@@ -11,7 +11,7 @@
 
 `zoxide query {{foo}} {{bar}}`
 
-- Interactive directory search (requires [fzf](https://github.com/junegunn/fzf)):
+- Start an interactive directory search (requires `fzf`):
 
 `zoxide query --interactive`
 
