@@ -1,6 +1,7 @@
 # zoxide
 
-> Keep track of the directories you use most frequently, and use a ranking algorithm to navigate to the best match.
+> Keep track of the most frequently used directories.
+> Uses a ranking algorithm to navigate to the best match.
 > More information: <https://github.com/ajeetdsouza/zoxide>.
 
 - Go to the highest-ranked directory that contains "foo" in the name:
