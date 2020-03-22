@@ -7,13 +7,13 @@
 
 `mktorrent -a {{tracker_announce_url}} -l {{21}} -o {{path/to/example.torrent}} {{path/to/file_or_directory}}`
 
-- Create a private torrent with a 2^21 KB piece:
+- Create a private torrent with a 2^21 KB piece size:
 
 `mktorrent -p -a {{tracker_announce_url}} -l {{21}} -o {{path/to/example.torrent}} {{path/to/file_or_directory}}`
 
 - Create a torrent with a comment:
 
-`mktorrent -c "{{commants}}" -a {{tracker_announce_url}} -l {{21}} -o {{path/to/example.torrent}} {{path/to/file_or_directory}}`
+`mktorrent -c "{{comment}}" -a {{tracker_announce_url}} -l {{21}} -o {{path/to/example.torrent}} {{path/to/file_or_directory}}`
 
 - Create a torrent with multiple trackers:
 
