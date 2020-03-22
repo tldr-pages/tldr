@@ -32,6 +32,6 @@
 
 `tar xf {{source.tar}} --wildcards {{"*.html"}}`
 
-- Extract a file or folder the folder structure in the archive:
+- Extract a specific file without preserving the folder structure:
 
 `tar xf {{source.tar}} {{source.tar/path/to/extract}} --strip-components={{depth_to_strip}}`
