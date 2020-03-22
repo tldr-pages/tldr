@@ -26,4 +26,4 @@
 
 - Generate shell configuration for command aliases (`z`, `za`, `zi`, `zq`, `zr`):
 
-`zoxide init {{shell}}`
+`zoxide init {{bash|fish|zsh}}`
