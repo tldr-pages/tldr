@@ -6,9 +6,9 @@
 
 `lpr {{path/to/file}}`
 
-- Print a certain number of copies:
+- Print 2 copies:
 
-`lpr -# {{copies}} {{path/to/file}}`
+`lpr -# {{2}} {{path/to/file}}`
 
 - Print to a named printer:
 
@@ -16,16 +16,16 @@
 
 - Print double sided in portrait:
 
-`lpr -o sides=two-sided-long-edge {{path/to/file}}`
+`lpr -o sides={{two-sided-long-edge}} {{path/to/file}}`
 
 - Print double sided in landscape:
 
-`lpr -o sides=two-sided-short-edge {{path/to/file}}`
+`lpr -o sides={{two-sided-short-edge}} {{path/to/file}}`
 
-- Set page size (a4, letter, legal, etc):
+- Set page size (more options may be available depending on setup):
 
-`lpr -o media={{paper_type}} {{path/to/file}}`
+`lpr -o media={{a4|letter|legal}} {{path/to/file}}`
 
-- Print multiple pages per sheet (2, 4, 6, 9, or 16):
+- Print multiple pages per sheet:
 
-`lpr -o number-up={{pages_per_sheet}} {{path/to/file}}`
+`lpr -o number-up={{2|4|6|9|16}} {{path/to/file}}`
