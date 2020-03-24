@@ -29,4 +29,4 @@
 
 - Initialize a new module in the current directory:
 
-`go mod init {{module name}}`
+`go mod init {{module_name}}`
