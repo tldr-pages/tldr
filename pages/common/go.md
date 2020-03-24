@@ -27,6 +27,6 @@
 
 `go install`
 
-- Initialize a new module in the current directory
+- Initialize a new module in the current directory:
 
 `go mod init {{module name}}`
