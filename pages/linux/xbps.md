@@ -21,3 +21,11 @@
 - Synchronize your repository databases and update your system and dependencies:
 
 `xbps-install --synchronize -u`
+
+- Remove packages that were installed as dependencies and aren't currently needed:
+
+`xbps-remove --remove-orphans`
+
+- Remove obsolete packages in cachedir:
+
+`xbps-remove --clean-cache`
