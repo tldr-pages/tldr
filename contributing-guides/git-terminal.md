@@ -6,18 +6,18 @@ The overall process should look somewhat like this:
 
 1. Fork the tldr repository on the GitHub web interface.
 
-2. Clone your fork locally:  
+2. Clone your fork locally:
   `git clone https://github.com/{{your_username}}/tldr.git && cd tldr`
 
-3. Create a feature branch, e.g. named after the command you plan to edit:  
+3. Create a feature branch, e.g. named after the command you plan to edit:
   `git checkout -b {{branch_name}}`
 
 4. Make your changes (edit existing files or create new ones)
 
-5. Commit the changes (following the [commit message guidelines][commit-msg]):  
+5. Commit the changes (following the [commit message guidelines][commit-msg]):
   `git commit --all -m "{{commit_message}}"`
 
-6. Push the commit(s) to your fork:  
+6. Push the commit(s) to your fork:
   `git push origin {{branch_name}}`
 
 7. Go to the GitHub page for your fork and click the green "pull request" button.

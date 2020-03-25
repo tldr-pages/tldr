@@ -12,6 +12,10 @@
 
 `tar czf {{target.tar.gz}} {{file1}} {{file2}} {{file3}}`
 
+- Create a gzipped archive from a directory using relative paths:
+
+`tar czf {{target.tar.gz}} -C {{path/to/directory}} .`
+
 - Extract a (compressed) archive into the current directory:
 
 `tar xf {{source.tar[.gz|.bz2|.xz]}}`
@@ -31,3 +35,7 @@
 - Extract files matching a pattern:
 
 `tar xf {{source.tar}} --wildcards {{"*.html"}}`
+
+- Extract a specific file without preserving the folder structure:
+
+`tar xf {{source.tar}} {{source.tar/path/to/extract}} --strip-components={{depth_to_strip}}`

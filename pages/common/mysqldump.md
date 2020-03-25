@@ -1,20 +1,13 @@
 # mysqldump
 
 > Backups MySQL databases.
+> See also `mysql` for restoring databases.
 > More information: <https://dev.mysql.com/doc/refman/en/mysqldump.html>.
 
-- Create a backup, user will be prompted for a password:
+- Create a backup (user will be prompted for a password):
 
-`mysqldump -u {{user}} --password {{database_name}} -r {{filename.sql}}`
-
-- Restore a backup, user will be prompted for a password:
-
-`mysql -u {{user}} --password -e "source {{filename.sql}}" {{database_name}}`
+`mysqldump --user {{user}} --password {{database_name}} -r {{path/to/file.sql}}`
 
 - Backup all databases redirecting the output to a file (user will be prompted for a password):
 
-`mysqldump -u {{user}} -p --all-databases > {{filename.sql}}`
-
-- Restore all databases from a backup (user will be prompted for a password):
-
-`mysql -u {{user}} -p < {{filename.sql}}`
+`mysqldump --user {{user}} --password --all-databases > {{path/to/file.sql}}`

@@ -19,7 +19,7 @@
 
 `tcptraceroute {{host}} -f {{first_ttl} -m {{max_ttl}}`
 
-- Specify the wait time and number of of queries per hop:
+- Specify the wait time and number of queries per hop:
 
 `tcptraceroute {{host}} -w {{wait_time}} -q {{number_of_queries}}`
 

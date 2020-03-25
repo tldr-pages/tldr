@@ -1,6 +1,6 @@
 # borg
 
-> 중복제거 백업 도구. 파일시스템으로 마운트할 수 있는 로컬 또는 원격 저장소를 제작. 
+> 중복제거 백업 도구. 파일시스템으로 마운트할 수 있는 로컬 또는 원격 저장소를 제작.
 > 더 많은 정보: <https://borgbackup.readthedocs.io/en/stable/usage/general.html>.
 
 - (로컬) 저장소 초기화:
