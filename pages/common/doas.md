@@ -1,6 +1,6 @@
 # doas
 
-> Executes a command as another user
+> Executes a command as another user.
 
 - Run a command as root:
 
