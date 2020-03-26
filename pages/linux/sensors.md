@@ -6,6 +6,6 @@
 
 `sensors`
 
-- Show temperatures in degrees fahrenheit:
+- Show temperatures in degrees Fahrenheit:
 
 `sensors --fahrenheit`
