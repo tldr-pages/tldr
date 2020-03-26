@@ -14,10 +14,10 @@
 
 `doas -s`
 
-- Parse and check a config file to check if the command is permited or denied:
+- Parse a config file and check if the command allowed:
 
 `doas -C {{config_file}} {{command}}`
 
-- Make doas request for a password even after supplied earlier:
+- Make doas request for a password even after it was supplied earlier:
 
 `doas -L`
