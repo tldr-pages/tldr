@@ -7,6 +7,10 @@
 
 `terraform init`
 
+- Format configuration according to Terraform language style conventions:
+
+`terraform fmt`
+
 - Generate and show an execution plan:
 
 `terraform plan`
