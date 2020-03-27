@@ -14,6 +14,6 @@
 
 `at {{hh:mm:ss}} -f {{path/to/file}}`
 
-- Reboot at 11pm on February 18th:
+- Reboot at 11pm on February 18th (needs to be executed as root):
 
 `echo "reboot" | at {{11pm}} {{Feb 18}}`
