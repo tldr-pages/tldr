@@ -27,6 +27,6 @@
 
 `xbps-remove --remove-orphans`
 
-- Remove obsolete packages in cache:
+- Remove obsolete packages from the cache:
 
 `xbps-remove --clean-cache`
