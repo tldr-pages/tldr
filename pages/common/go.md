@@ -26,3 +26,7 @@
 - Compile and install the current package:
 
 `go install`
+
+- Initialize a new module in the current directory:
+
+`go mod init {{module_name}}`
