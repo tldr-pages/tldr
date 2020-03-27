@@ -1,6 +1,7 @@
 # xbps
 
-> The X Binary Package System (or xbps) is the binary package system used by Void Linux. More information: https://github.com/void-linux/xbps.
+> The X Binary Package System (or xbps) is the binary package system used by Void Linux.
+> More information: <https://github.com/void-linux/xbps>.
 
 - Install packages and synchronize them with the remote repository:
 
