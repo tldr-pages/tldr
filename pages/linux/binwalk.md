@@ -5,7 +5,7 @@
 
 - Scan a binary file:
 
-`binwalk {{binary}}`
+`binwalk {{path/to/binary}}`
 
 - Extract files from a binary, specifying the output directory:
 
