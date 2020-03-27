@@ -1,6 +1,6 @@
 # doas
 
-> Executes a command as another user.
+> Executes a command as another user. Full documentation: https://man.openbsd.org/doas.
 
 - Run a command as root:
 
