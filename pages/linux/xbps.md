@@ -1,6 +1,7 @@
 # xbps
 
 > The X Binary Package System (or xbps) is the binary package system used by Void Linux.
+> More information: <https://github.com/void-linux/xbps>.
 
 - Install packages and synchronize them with the remote repository:
 
@@ -21,3 +22,11 @@
 - Synchronize your repository databases and update your system and dependencies:
 
 `xbps-install --synchronize -u`
+
+- Remove packages that were installed as dependencies and aren't currently needed:
+
+`xbps-remove --remove-orphans`
+
+- Remove obsolete packages from the cache:
+
+`xbps-remove --clean-cache`
