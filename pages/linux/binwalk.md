@@ -19,7 +19,7 @@
 
 `binwalk --dd '{{png image:png}}' {{path/to/binary}}`
 
-- Analyze entropy of a binary, saving the plot (with the same name as the binary and the PNG extension appended):
+- Analyze the entropy of a binary, saving the plot with the same name as the binary and `.png` extension appended:
 
 `binwalk --entropy --save {{path/to/binary}}`
 
