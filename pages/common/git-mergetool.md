@@ -1,6 +1,6 @@
 # git mergetool
 
-> Run merge conflict resolution tools to resolve merge conflicts
+> Run merge conflict resolution tools to resolve merge conflicts.
 > More information: <https://git-scm.com/docs/git-mergetool>.
 
 - Launch the default merge tool to resolve conflicts:
