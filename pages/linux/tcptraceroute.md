@@ -15,11 +15,11 @@
 
 `tcptraceroute {{host}} -p {{source_port}} -s {{source_address}}`
 
-- Set the initial and maximum TTL:
+- Set the first and maximum TTL:
 
 `tcptraceroute {{host}} -f {{first_ttl} -m {{max_ttl}}`
 
-- Specify the wait time and number of probes for each hop:
+- Specify the wait time and number of queries per hop:
 
 `tcptraceroute {{host}} -w {{wait_time}} -q {{number_of_queries}}`
 
