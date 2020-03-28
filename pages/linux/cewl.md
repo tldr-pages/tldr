@@ -1,6 +1,6 @@
 # cewl
 
-> URL spidering tool for making a cracking wordlist from Web content.
+> URL spidering tool for making a cracking wordlist from web content.
 > More information: <https://digi.ninja/projects/cewl.php>.
 
 - Create a wordlist file from the given URL up to 2 links depth:
