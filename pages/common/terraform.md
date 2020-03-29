@@ -7,7 +7,7 @@
 
 `terraform init`
 
-- Verify that configuration files are syntactically valid:
+- Verify that the configuration files are syntactically valid:
 
 `terraform validate`
 
