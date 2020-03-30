@@ -2,15 +2,15 @@
 
 > Gets the ID of a process using its name.
 
-- List all process ids with given name:
+- List all process IDs with given name:
 
 `pidof {{bash}}`
 
-- List a single process id with given name:
+- List a single process ID with given name:
 
 `pidof -s {{bash}}`
 
-- List process ids including scripts with given name:
+- List process IDs including scripts with given name:
 
 `pidof -x {{script.py}}`
 
