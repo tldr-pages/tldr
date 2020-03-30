@@ -3,23 +3,23 @@
 > Build an image from a Dockerfile.
 > More information: <https://docs.docker.com/engine/reference/commandline/build/>.
 
-- Build an docker image using the Dockerfile in current directory:
+- Build a docker image using the Dockerfile in the current directory:
 
 `docker build .`
 
-- Build an docker image with URL:
+- Build a docker image from a Dockerfile at a specified URL:
 
 `docker build {{github.com/creack/docker-firefox}}`
 
-- Build an docker image and tag it:
+- Build a docker image and tag it:
 
 `docker build --tag {{name:tag}} .`
 
-- Do not use cache when building the image:
+- Do not use the cache when building the image:
 
 `docker build --no-cache --tag {{name:tag}} .`
 
-- Build an docker image using a specific Dockerfile:
+- Build a docker image using a specific Dockerfile:
 
 `docker build -f {{Dockerfile}} .`
 
