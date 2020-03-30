@@ -1,6 +1,6 @@
 # pidof
 
-> Gets the id of a process using it's name.
+> Gets the ID of a process using its name.
 
 - List all process ids with given name:
 
