@@ -1,7 +1,7 @@
 # transcrypt
 
-> Transparently encrypt files within a git repository
-> More information: <https://github.com/elasticdog/transcrypt>
+> Transparently encrypt files within a git repository.
+> More information: <https://github.com/elasticdog/transcrypt>.
 
 - Initialize an unconfigured repository:
 
