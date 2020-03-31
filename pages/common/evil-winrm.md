@@ -1,8 +1,8 @@
 # evil-winrm
 
 > Windows Remote Management (WinRM) shell for pentesting.
-> More information: <https://github.com/Hackplayers/evil-winrm>.
 > Once connected, we get a PowerShell prompt on the target host.
+> More information: <https://github.com/Hackplayers/evil-winrm>.
 
 - Connect to a host:
 
