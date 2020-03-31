@@ -21,7 +21,7 @@
 
 - Build a docker image using a specific Dockerfile:
 
-`docker build -f {{Dockerfile}} .`
+`docker build --file {{Dockerfile}} .`
 
 - Build with custom build-time variables:
 
