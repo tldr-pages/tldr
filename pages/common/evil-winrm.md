@@ -22,16 +22,16 @@
 
 - Upload a file to the host:
 
-`*Evil-WinRM* PS C:\Users\user\Documents> upload {{path/to/local/file}} {{path/to/remote/file}}`
+`PS > upload {{path/to/local/file}} {{path/to/remote/file}}`
 
-- Get the list of loaded PowerShell functions:
+- Get a list of loaded PowerShell functions:
 
-`*Evil-WinRM* PS C:\Users\user\Documents> menu`
+`PS > menu`
 
 - Load a PowerShell script from the `--scripts` folder:
 
-`*Evil-WinRM* PS C:\Users\user\Documents> {{script.ps1}}`
+`PS > {{script.ps1}}`
 
 - Invoke a binary on the host from the `--executables` folder:
 
-`*Evil-WinRM* PS C:\Users\user\Documents> Invoke-Binary {{binary.exe}}`
+`PS > Invoke-Binary {{binary.exe}}`
