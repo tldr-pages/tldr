@@ -3,7 +3,7 @@
 > Steganography tool for JPEG, BMP, WAV and AU file formats.
 > More information: <https://github.com/StefanoDeVuono/steghide>.
 
-- Embed data in a PNG image, getting prompted for a passphrase:
+- Embed data in a PNG image, prompting for a passphrase:
 
 `steghide embed --coverfile {{path/to/image.png}} --embedfile {{path/to/data.txt}}`
 
@@ -23,6 +23,6 @@
 
 `steghide encinfo`
 
-- Embed data in a JPEG image, encrypted with Blowfish in ECB mode:
+- Embed encrypted data in a JPEG image:
 
-`steghide embed --coverfile {{path/to/image.jpg}} --embedfile {{path/to/data.txt}} --encryption {{blowfish|des|...}} {{ecb|cbc|...}}`
+`steghide embed --coverfile {{path/to/image.jpg}} --embedfile {{path/to/data.txt}} --encryption {{algorithm}} {{mode}}`
