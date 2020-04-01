@@ -39,11 +39,6 @@ function run_checks_pr {
   fi
 }
 
-# Scan TLDR for vulnerabilities
-function scan_for_vulns {
-  npx auditjs@latest ossi
-}
-
 ###################################
 # MAIN
 ###################################
@@ -55,7 +50,5 @@ else
   set -e
   run_tests
 fi
-
-scan_for_vulns
 
 echo 'Test ran succesfully!'

@@ -3,6 +3,11 @@
 # This script is executed by Travis CI when a PR is merged (i.e. in the `deploy` step).
 set -ex
 
+# Scan TLDR for vulnerabilities
+function scan_for_vulns {
+  npx auditjs@latest ossi
+}
+
 function initialize {
   if [ -z "$TLDRHOME" ]; then
     export TLDRHOME=${TRAVIS_BUILD_DIR:-$(pwd)}
@@ -43,4 +48,5 @@ function upload_assets {
 ###################################
 
 initialize
+scan_for_vulns
 upload_assets
