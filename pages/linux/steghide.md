@@ -23,6 +23,6 @@
 
 `steghide encinfo`
 
-- Embed encrypted data in a JPEG image:
+- Embed encrypted data in a JPEG image, e.g. with Blowfish in CBC mode:
 
-`steghide embed --coverfile {{path/to/image.jpg}} --embedfile {{path/to/data.txt}} --encryption {{algorithm}} {{mode}}`
+`steghide embed --coverfile {{path/to/image.jpg}} --embedfile {{path/to/data.txt}} --encryption {{blowfish|...}} {{cbc|...}}`
