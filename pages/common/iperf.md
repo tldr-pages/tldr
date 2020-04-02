@@ -11,13 +11,13 @@
 
 `iperf -c {{server_address}}`
 
-- Run on client with 5 parallel threads:
-
-`iperf -c {{server_address}} -P {{5}}`
-
 - Run on client every 2 seconds:
 
 `iperf -c {{server_address}} -i {{2}}`
+
+- Run on client with 5 parallel threads:
+
+`iperf -c {{server_address}} -P {{5}}`
 
 - Run on server using UDP mode and set server port to listen on 5001:
 
