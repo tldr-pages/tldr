@@ -31,3 +31,7 @@
 - Show lines that do not match the given pattern:
 
 `rg --invert-match {{pattern}}`
+
+- Search a literal string pattern:
+
+`rg -F {{string}}`
