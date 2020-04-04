@@ -7,7 +7,7 @@
 
 `terraform fmt`
 
-- Format configuration in current directory and subdirectories:
+- Format the configuration in the current directory and subdirectories:
 
 `terraform fmt -recursive`
 
