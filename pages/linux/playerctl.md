@@ -28,4 +28,4 @@
 
 - Show now playing:
 
-`playerctl metadata --format "Now playing: {{ artist }} - {{ album }} - {{ title }}"` 
+`playerctl metadata --format "Now playing: {{artist}} - {{album}} - {{title}}"` 
