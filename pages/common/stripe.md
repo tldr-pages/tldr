@@ -7,7 +7,7 @@
 
 `stripe logs tail`
 
-- Listen for webhook events for `charge.succeeded` and forward them to localhost:3000/events:
+- Listen for events, filtering on events with the name `charge.succeeded` and forwarding them to localhost:3000/events:
 
 `stripe listen --events="{{charge.succeeded}}" --forward-to="{{localhost:3000/events}}"`
 
@@ -19,6 +19,6 @@
 
 `stripe customers create --email="{{test@example.com}}" --name="{{Jenny Rosen}}"`
 
-- Print to JSON and use jq to parse events:
+- Print to JSON and use `jq` to parse events:
 
 `stripe listen --print-json | jq .type`
