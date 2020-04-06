@@ -20,8 +20,12 @@
 
 - Send a command to a specific player:
 
-`playerctl --player={{player_name}} {{command}}`
+`playerctl --player = {{player_name}} {{command}}`
 
 - Send a command to all players:
 
 `playerctl --all-players {{command}}`
+
+- Show what's playing now:
+
+`playerctl metadata --format "{{artist}} - {{album}} - {{title}}"`
