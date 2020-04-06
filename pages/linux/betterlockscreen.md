@@ -6,14 +6,14 @@
 
 `betterlockscreen --lock`
 
--Change lock screen background:
+- Change the lock screen background:
 
-`betterlockscreen -u path/to/the/image.png`
+`betterlockscreen -u {{path/to/image.png}}`
 
--Lock the screen with custom text:
+- Lock the screen, showing some custom text:
 
-`betterlockscreen -l pixel -t "custom lock screen text"`
+`betterlockscreen -l pixel -t "{{custom lock screen text}}"`
 
--Lock the screeen with custom monitor off timeout:
+- Lock the screen, with a custom monitor off timeout:
 
-`betterlockscreen --off 5 -l`
+`betterlockscreen --off {{5}} -l`
