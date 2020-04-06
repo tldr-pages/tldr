@@ -1,6 +1,6 @@
-#betterlockscreen
+# betterlockscreen
 
->simple, minimal lock screen
+> Simple, minimal lock screen.
 
 - Lock the screen:
 
