@@ -6,7 +6,7 @@
 
 `base64 {{fichier}}`
 
-- Decode a file :
+- Décoder un fichier :
 
 `base64 -d {{fichier}}`
 
