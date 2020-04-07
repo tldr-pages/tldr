@@ -15,10 +15,10 @@
 
 `middleman server -p "{{port}}"`
 
-- Build your project to prepare to deploy:
+- Build the project in the current directory to prepare for deployment:
 
 `bundle exec middleman build`
 
-- Deploy your Middleman project:
+- Deploy the Middleman project in the current directory:
 
 `middleman deploy`
