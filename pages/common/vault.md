@@ -23,6 +23,10 @@
 
 `vault read secret/{{hello}}`
 
+- Read a specific field from the value:
+
+`vault read -field={{field_name}} secret/{{hello}}`
+
 - Seal (lock) the Vault server, by removing the encryption key of the data store from memory:
 
 `vault seal`

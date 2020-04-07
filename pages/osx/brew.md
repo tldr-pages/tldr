@@ -15,6 +15,10 @@
 
 `brew list`
 
+- List installed formulae that are not dependencies of another installed formula:
+
+`brew leaves`
+
 - Upgrade an installed formula (if no formula name is given, all installed formulae are upgraded):
 
 `brew upgrade {{formula}}`

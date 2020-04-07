@@ -2,7 +2,7 @@
 
 > Montre un aperçu de l'utilisation de l'espace disque.
 
-- Afficher tous les systèmes de fichiers et leur utilisation d'espace dique :
+- Afficher tous les systèmes de fichiers et leur utilisation d'espace disque :
 
 `df`
 

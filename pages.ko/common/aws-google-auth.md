@@ -1,6 +1,6 @@
 # aws-google-auth
 
-> Google Apps를 페더레이션(Single Sign-On)공급자로 사용하여 AWS 임시(STS) 자격 증명을 획득하는 명령 줄 도구입니다. 
+> Google Apps를 페더레이션(Single Sign-On)공급자로 사용하여 AWS 임시(STS) 자격 증명을 획득하는 명령 줄 도구입니다.
 > 더 많은 정보는: <https://github.com/cevoaustralia/aws-google-auth>.
 
 - IDP및 식별자를 사용하여 Google SSO에 로그인하고 자격 증명 기간을 1시간으로 설정:

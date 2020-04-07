@@ -1,3 +1,4 @@
+dist: bionic
 sudo: false
 language: node_js
 

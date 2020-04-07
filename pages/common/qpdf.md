@@ -13,7 +13,7 @@
 
 - Merge (concatenate) given pages from a list of PDF files and save the result as a new PDF:
 
-`qpdf --empty --pages {{file1.pdf}} {{1,6-8}} --pages {{file2.pdf}} {{3,4,5}} -- {{output.pdf}}`
+`qpdf --empty --pages {{file1.pdf}} {{1,6-8}} {{file2.pdf}} {{3,4,5}} -- {{output.pdf}}`
 
 - Write each group of n pages to a separate output file with a given filename pattern:
 

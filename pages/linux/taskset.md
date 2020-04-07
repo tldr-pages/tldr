@@ -1,4 +1,4 @@
-# taskset 
+# taskset
 
 > Get or set a process' CPU affinity or start a new process with a defined CPU affinity.
 

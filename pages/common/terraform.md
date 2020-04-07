@@ -7,6 +7,14 @@
 
 `terraform init`
 
+- Verify that the configuration files are syntactically valid:
+
+`terraform validate`
+
+- Format configuration according to Terraform language style conventions:
+
+`terraform fmt`
+
 - Generate and show an execution plan:
 
 `terraform plan`

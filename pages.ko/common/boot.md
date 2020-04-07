@@ -1,6 +1,6 @@
 # boot
 
-> Clojure 프로그래밍 언어를 위한 빌드 
+> Clojure 프로그래밍 언어를 위한 빌드
 > 더 많은 정보: <https://github.com/boot-clj/boot>.
 
 - 프로젝트 혹은 독립으로 REPL 세션 시작:

@@ -25,3 +25,7 @@
 - Send a command to all players:
 
 `playerctl --all-players {{command}}`
+
+- Show now playing:
+
+`playerctl metadata --format "Now playing: {{artist}} - {{album}} - {{title}}"`
