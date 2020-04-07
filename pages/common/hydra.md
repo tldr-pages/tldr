@@ -1,6 +1,7 @@
 # hydra
 
 > Online password guessing tool.
+> It supports various protocols: AFP, CVS, FTP, HTTP(S), POP3, RDP, RTSP, SIP, SMB, SMTP, SNMP, SSH, Telnet, VNC, XMPP, ...
 > More information: <https://github.com/vanhauser-thc/thc-hydra>.
 
 - Start Hydra's wizard:
@@ -11,11 +12,11 @@
 
 `hydra -l {{username}} -P {{path/to/wordlist.txt}} {{host_ip}} {{ssh}}`
 
-- Guess Telnet credentials using a list of usernames and a single password, specifying a non-standard port:
+- Guess Telnet credentials using a list of usernames and a single password, specifying a non-standard port and IPv6:
 
-`hydra -L {{path/to/usernames.txt}} -p {{password}} -s {{port}} {{host_ip}} {{telnet}}`
+`hydra -L {{path/to/usernames.txt}} -p {{password}} -s {{port}} -6 {{host_ip}} {{telnet}}`
 
-- Guess FTP credentials using usernames and passwords lists, specifying the number of tasks:
+- Guess FTP credentials using usernames and passwords lists, specifying the number of threads:
 
 `hydra -L {{path/to/usernames.txt}} -P {{path/to/wordlist.txt}} -t {{n_tasks}} {{host_ip}} {{ftp}}`
 
@@ -23,14 +24,14 @@
 
 `hydra -l {{username}} -P {{path/to/wordlist.txt}} -f {{host_ip}} {{mysql}}`
 
-- Guess RDP credentials using a username and a passwords list, showing each attempts:
+- Guess RDP credentials using a username and a passwords list, showing each attempt:
 
-`hydra -V -l {{username}} -P {{path/to/wordlist.txt}} {{rdp://host_ip}}`
+`hydra -l {{username}} -P {{path/to/wordlist.txt}} -V {{rdp://host_ip}}`
 
-- Guess SSH credentials on a range of hosts using a list of colon-separated username/password pairs:
+- Guess IMAP credentials on a range of hosts using a list of colon-separated username/password pairs:
 
-`hydra -C {{path/to/username_password_pairs.txt}} {{host_range_cidr}} {{ssh}}`
+`hydra -C {{path/to/username_password_pairs.txt}} {{imap://[host_range_cidr]}}`
 
-- Guess FTP credentials on a list of hosts using usernames and passwords lists, exiting when a username/password pair is found:
+- Guess POP3 credentials on a list of hosts using usernames and passwords lists, exiting when a username/password pair is found:
 
-`hydra -L {{path/to/usernames.txt}} -P {{path/to/wordlist.txt}} -M {{path/to/hosts.txt}} {{ftp}}`
+`hydra -L {{path/to/usernames.txt}} -P {{path/to/wordlist.txt}} -M {{path/to/hosts.txt}} -F {{pop3}}`
