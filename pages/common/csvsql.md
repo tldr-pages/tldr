@@ -6,7 +6,7 @@
 
 - Generate a `CREATE TABLE` SQL statement for a CSV file:
 
-`csvsql {{data.csv}}`
+`csvsql {{path/to/data.csv}}`
 
 - Import a CSV file into an SQL database:
 
