@@ -1,0 +1,17 @@
+# csvsql
+
+> Generate SQL statements for a CSV file or execute those statements directly on a database.
+> Included in csvkit.
+> More information: <https://csvkit.readthedocs.io/en/latest/scripts/csvsql.html>.
+
+- Generate a `CREATE TABLE` SQL statement for a CSV file:
+
+`csvsql {{data.csv}}`
+
+- Import a CSV file in an SQL database:
+
+`csvsql --insert --db "{{mysql://user:password@host/database}}" {{data.csv}}`
+
+- Run a SQL query on a CSV file:
+
+`csvsql --query "{{select * from 'data'}}" {{data.csv}}`
