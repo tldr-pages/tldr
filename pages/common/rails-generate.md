@@ -15,7 +15,7 @@
 
 `rails generate controller {{Posts}} {{index}} {{show}} {{new}} {{create}}`
 
-- Generate a new migration that adds a category attribute to an existing Post model:
+- Generate a new migration that adds a category attribute to an existing model called Post:
 
 `rails generate migration {{AddCategoryToPost}} {{category:string}}`
 
