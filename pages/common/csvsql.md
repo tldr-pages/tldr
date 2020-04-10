@@ -8,7 +8,7 @@
 
 `csvsql {{data.csv}}`
 
-- Import a CSV file in an SQL database:
+- Import a CSV file into an SQL database:
 
 `csvsql --insert --db "{{mysql://user:password@host/database}}" {{data.csv}}`
 
