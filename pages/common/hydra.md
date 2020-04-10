@@ -1,7 +1,7 @@
 # hydra
 
 > Online password guessing tool.
-> It supports various protocols: AFP, CVS, FTP, HTTP(S), POP3, RDP, RTSP, SIP, SMB, SMTP, SNMP, SSH, Telnet, VNC, XMPP, ...
+> Protocols supported include FTP, HTTP(S), SMTP, SNMP, XMPP, SSH, and more.
 > More information: <https://github.com/vanhauser-thc/thc-hydra>.
 
 - Start Hydra's wizard:
