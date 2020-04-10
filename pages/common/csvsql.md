@@ -12,6 +12,6 @@
 
 `csvsql --insert --db "{{mysql://user:password@host/database}}" {{data.csv}}`
 
-- Run a SQL query on a CSV file:
+- Run an SQL query on a CSV file:
 
 `csvsql --query "{{select * from 'data'}}" {{data.csv}}`
