@@ -10,6 +10,7 @@
 - Start a new named session:
 
 `tmux new-session -s {{name}}`
+`tmux new -s {{name}}`
 
 - List existing sessions:
 
@@ -18,6 +19,7 @@
 - Attach to the most recently used session:
 
 `tmux attach-session`
+`tmux a`
 
 - Attach to a named session:
 
@@ -34,3 +36,4 @@
 - Kill the current session (with prefix Ctrl-B):
 
 `Ctrl-B :kill-session<Enter>`
+`Ctrl-B + x
