@@ -19,6 +19,6 @@
 
 `rails generate migration {{AddCategoryToPost}} {{category:string}}`
 
-- Generate a scaffold for a model named Post with pre-defined attributes title and body:
+- Generate a scaffold for a model named Post, predefining the attributes title and body:
 
 `rails generate scaffold {{Post}} {{title:string}} {{body:text}}`
