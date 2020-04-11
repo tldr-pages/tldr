@@ -1,7 +1,7 @@
 # manpath
 
-> Determine search path for manual pages.
+> Determine the search path for manual pages.
 
-- Display man path:
+- Display the search path used to find man pages:
 
 `manpath`
