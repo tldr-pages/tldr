@@ -1,4 +1,4 @@
-# lpr (dummy change)
+# lpr
 
 > CUPS tool for printing files.
 > See also `lpstat` and `lpadmin` for listing and configuring printers.
