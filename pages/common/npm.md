@@ -35,3 +35,11 @@
 - List top-level globally installed modules:
 
 `npm list -g --depth={{0}}`
+
+- Print location of the modules installed for the project:
+
+`npm root`
+
+- Print location of the modules installed globally:
+
+`npm root -g`
