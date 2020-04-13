@@ -5,3 +5,7 @@
 - Display the search path used to find man pages:
 
 `manpath`
+
+- Show the entire global manpath:
+
+`manpath --global`
