@@ -9,20 +9,20 @@
 
 - Wykonaj skrypt w danym pliku Python:
 
-`python {{script.py}}`
+`python {{skrypt.py}}`
 
 - Wykonaj skrypt jako część interaktywnej powłoki:
 
-`python -i {{script.py}}`
+`python -i {{skrypt.py}}`
 
 - Wykonaj wyrażenie w języku Python:
 
-`python -c "{{expression}}"`
+`python -c "{{wyrazenie}}"`
 
 - Uruchom moduł biblioteki jako skrypt (kończy listę opcji):
 
-`python -m {{module}} {{arguments}}`
+`python -m {{moduł}} {{argumenty}}`
 
 - Interaktywnie debuguj skrypt w języku Python:
 
-`python -m pdb {{script.py}}`
+`python -m pdb {{skrypt.py}}`
