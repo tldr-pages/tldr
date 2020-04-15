@@ -4,16 +4,16 @@
 
 - Enkoduj plik:
 
-`base32 {{filename}}`
+`base32 {{nazwapliku}}`
 
 - Dekoduj plik:
 
-`base32 -d {{filename}}`
+`base32 -d {{nazwapliku}}`
 
 - Enkoduj z `stdin`:
 
-`{{somecommand}} | base32`
+`{{jakiespolecenie}} | base32`
 
 - Dekoduj z `stdin`:
 
-`{{somecommand}} | base32 -d`
+`{{jakiespolecenie}} | base32 -d`
