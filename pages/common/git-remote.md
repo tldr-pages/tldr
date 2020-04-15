@@ -7,6 +7,10 @@
 
 `git remote -v`
 
+- Show information about a remote:
+
+`git remote show {{remote_name}}`
+
 - Add a remote:
 
 `git remote add {{remote_name}} {{remote_url}}`
