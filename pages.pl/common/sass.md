@@ -1,20 +1,20 @@
 # sass
 
-> Converts SCSS or Sass files to CSS.
-> More information: <https://sass-lang.com/documentation/cli/dart-sass>.
+> Konwertuje pliki SCSS lub Sass na CSS.
+> Więcej informacji: <https://sass-lang.com/documentation/cli/dart-sass>.
 
-- Convert a SCSS or Sass file to CSS and print out the result:
+- Konwertuj plik SCSS lub Sass do CSS i wypisz wynik:
 
 `sass {{inputfile.scss|inputfile.sass}}`
 
-- Convert a SCSS or Sass file to CSS and save the result to a file:
+- Konwertuj plik SCSS lub Sass do CSS i zapisz wynik w pliku:
 
 `sass {{inputfile.scss|inputfile.sass}} {{outputfile.css}}`
 
-- Watch a SCSS or Sass file for changes and output or update the CSS file with same filename:
+- Obejrzyj zmiany w pliku SCSS lub Sass i wyślij lub zaktualizuj plik CSS o tej samej nazwie:
 
 `sass --watch {{inputfile.scss|inputfile.sass}}`
 
-- Watch a SCSS or Sass file for changes and output or update the CSS file with the given filename:
+- Obejrzyj zmiany w pliku SCSS lub Sass i wyślij lub zaktualizuj plik CSS o podanej nazwie:
 
 `sass --watch {{inputfile.scss|inputfile.sass}}:{{outputfile.css}}`
