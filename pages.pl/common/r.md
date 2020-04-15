@@ -1,16 +1,16 @@
 # r
 
-> R language interpreter.
-> More information: <https://www.r-project.org>.
+> Interpreter języka R.
+> Więcej informacji: <https://www.r-project.org>.
 
-- Start an R interactive shell (REPL):
+- Uruchom interaktywną powłokę R (REPL):
 
 `R`
 
-- Check R version:
+- Sprawdź wersję R:
 
 `R --version`
 
-- Execute a file:
+- Uruchom plik:
 
 `R -f {{file.R}}`
