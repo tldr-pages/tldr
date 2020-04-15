@@ -13,4 +13,4 @@
 
 - Uruchom plik:
 
-`R -f {{file.R}}`
+`R -f {{plik.R}}`
