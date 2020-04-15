@@ -1,20 +1,20 @@
 # dotnet
 
-> Cross platform .NET command line tools for .NET Core.
-> More information: <https://docs.microsoft.com/dotnet/core/tools>.
+> Wieloplatformowe narzędzia wiersza polecenia .NET dla platformy .NET Core.
+> Więcej informacji: <https://docs.microsoft.com/dotnet/core/tools>.
 
-- Initialize a new .NET project:
+- Zainicjuj nowy projekt .NET:
 
 `dotnet new {{template_short_name}}`
 
-- Restore nuget packages:
+- Przywróć pakiety nuget:
 
 `dotnet restore`
 
-- Build and execute the .NET project in the current directory:
+- Zbuduj i uruchom projekt .NET w bieżącym katalogu:
 
 `dotnet run`
 
-- Run a packaged dotnet application (only needs the runtime, the rest of the commands require the .NET Core SDK installed):
+- Uruchom pakietową aplikację dotnet (wymaga tylko środowiska wykonawczego, pozostałe polecenia wymagają zainstalowanego zestawu .NET Core SDK):
 
 `dotnet {{path/to/application.dll}}`
