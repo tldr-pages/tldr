@@ -1,28 +1,28 @@
 # csslint
 
-> A linter for CSS code.
-> More information: <https://github.com/CSSLint/csslint/wiki/Command-line-interface>.
+> Linter dla kodu CSS.
+> Więcej informacji: <https://github.com/CSSLint/csslint/wiki/Command-line-interface>.
 
-- Lint a single CSS file:
+- Lintowanie pojedynczego pliku CSS:
 
 `csslint {{file.css}}`
 
-- Lint multiple CSS files:
+- Lintowanie wiele plików CSS:
 
 `csslint {{file1.css}} {{file2.css}} {{file3.css}}`
 
-- List all possible style rules:
+- Wymień wszystkie możliwe reguły stylu:
 
 `csslint --list-rules`
 
-- Specify certain rules as errors (which result in a non-zero exit code):
+- Określ pewne reguły jako błędy (które powodują niezerowy kod wyjścia):
 
 `csslint --errors={{errors,universal-selector,imports}} {{file.css}}`
 
-- Specify certain rules as warnings:
+- Określ pewne reguły jako ostrzeżenia:
 
 `csslint --warnings={{box-sizing,selector-max,floats}} {{file.css}}`
 
-- Specify certain rules to completely ignore:
+- Określ pewne reguły, które będą całkowicie ignorowane:
 
 `csslint --ignore={{ids,rules-count,shorthand}} {{file.css}}`
