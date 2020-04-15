@@ -1,36 +1,36 @@
 # awk
 
-> A versatile programming language for working on files.
-> More information: <https://github.com/onetrueawk/awk>.
+> Wszechstronny język programowania do pracy na plikach.
+> Więcej informacji: <https://github.com/onetrueawk/awk>.
 
-- Print the fifth column (a.k.a. field) in a space-separated file:
+- Wydrukuj piątą kolumnę (aka. pole) w pliku oddzielonym spacjami:
 
 `awk '{print $5}' {{filename}}`
 
-- Print the second column of the lines containing "something" in a space-separated file:
+- Wydrukuj drugą kolumnę wierszy zawierających "something" w pliku oddzielonym spacjami:
 
 `awk '/{{something}}/ {print $2}' {{filename}}`
 
-- Print the last column of each line in a file, using a comma (instead of space) as a field separator:
+- Wydrukuj ostatnią kolumnę każdego wiersza w pliku, używając przecinka (zamiast spacji) jako separatora pola:
 
 `awk -F ',' '{print $NF}' {{filename}}`
 
-- Sum the values in the first column of a file and print the total:
+- Zsumuj wartości w pierwszej kolumnie pliku i wydrukuj sumę:
 
 `awk '{s+=$1} END {print s}' {{filename}}`
 
-- Sum the values in the first column and pretty-print the values and then the total:
+- Zsumuj wartości w pierwszej kolumnie i wydrukuj wartości, a następnie sumę:
 
 `awk '{s+=$1; print $1} END {print "--------"; print s}' {{filename}}`
 
-- Print every third line starting from the first line:
+- Drukuj co trzeci wiersz, zaczynając od pierwszego wiersza:
 
 `awk 'NR%3==1' {{filename}}`
 
-- Print all values starting from the third column:
+- Wydrukuj wszystkie wartości, zaczynając od trzeciej kolumny:
 
 `awk '{for (i=3; i <= NF; i++) printf $i""FS; print""}' {{filename}}`
 
-- Print different values based on conditions:
+- Wydrukuj różne wartości w zależności od warunków:
 
 `awk '{if ($1 == "foo") print "Exact match foo"; else if ($1 ~ "bar") print "Partial match bar"; else print "Baz"}' {{filename}}`
