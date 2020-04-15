@@ -1,23 +1,23 @@
 # sudo
 
-> Executes a single command as the superuser or another user.
+> Wykonuje pojedyncze polecenie jako superuser lub inny użytkownik.
 
-- Run a command as the superuser:
+- Uruchom polecenie jako superuser:
 
 `sudo {{less /var/log/syslog}}`
 
-- Edit a file as the superuser with your default editor:
+- Edytuj plik jako superuser w domyślnym edytorze:
 
 `sudo -e {{/etc/fstab}}`
 
-- Run a command as another user and/or group:
+- Uruchom polecenie jako inny użytkownik i/lub grupa:
 
 `sudo -u {{user}} -g {{group}} {{id -a}}`
 
-- Repeat the last command prefixed with "sudo" (only in bash, zsh, etc.):
+- Powtórz ostatnie polecenie poprzedzone "sudo" (tylko w bash, zsh, etc.):
 
 `sudo !!`
 
-- Launch the default shell with superuser privileges:
+- Uruchom domyślną powłokę z uprawnieniami superuser:
 
 `sudo -i`
