@@ -17,4 +17,4 @@
 
 - Usuń nieużywane zmienne rekurencyjnie ze wszystkich plików w katalogu, nadpisując każdy plik:
 
-`autoflake --remove-unused-variables --in-place --recursive {{path/to/directory}}`
+`autoflake --remove-unused-variables --in-place --recursive {{sciezka/do/katalogu}}`
