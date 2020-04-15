@@ -1,17 +1,17 @@
 # tldr
 
-> Command-line client for tldr pages.
-> Displays simplified and community-driven man pages.
-> More information: <https://tldr.sh>.
+> Klient wiersza polecenia dla stron tldr.
+> Wyświetla uproszczone i obsługiwane przez społeczność strony podręcznika man.
+> Więcej informacji: <https://tldr.sh>.
 
-- Get typical usages of a command (hint: this is how you got here!):
+- Uzyskaj typowe zastosowania polecenia (wskazówka: oto jak się tu dostałeś!):
 
 `tldr {{command}}`
 
-- Show the tar tldr page for Linux:
+- Pokaż tar tldr page dla Linux:
 
 `tldr -p {{linux}} {{tar}}`
 
-- Get help for a git subcommand:
+- Uzyskaj pomoc dotyczącą komendy git:
 
 `tldr {{git-checkout}}`
