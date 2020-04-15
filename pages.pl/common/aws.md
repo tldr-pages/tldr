@@ -1,37 +1,37 @@
 # aws
 
-> The official CLI tool for Amazon Web Services.
-> Wizard, SSO, Resource Autocompletion, and YAML options are v2 only.
-> More information: <https://aws.amazon.com/cli>.
+> Oficjalne narzędzie CLI dla Amazon Web Services.
+> Wizard, SSO, Resource Autocompletion, i opcje YAML są tylko v2.
+> Więcej informacji: <https://aws.amazon.com/cli>.
 
-- Configure the AWS Command Line:
+- Konfiguruj AWS Command Line:
 
 `aws configure wizard`
 
-- Configure the AWS Command Line using SSO:
+- Konfiguruj AWS Command Line używając SSO:
 
 `aws configure sso`
 
-- See help text for the AWS command:
+- Zobacz tekst pomocy dla polecenia AWS:
 
 `aws {{command}} help`
 
-- Get the caller identity (used to troubleshoot permissions):
+- Uzyskaj tożsamość wywołującego (służy do rozwiązywania problemów z uprawnieniami):
 
 `aws sts get-caller-identity`
 
-- List AWS resources in a region and output in yaml:
+- Wyświetla listę zasobów AWS w regionie i wyświetla w yaml:
 
 `aws dynamodb list-tables --region {{us-east-1}} --output yaml`
 
-- Use auto prompt to help with a command:
+- Użyj auto prompt do pomocy z poleceniem:
 
 `aws iam create-user --cli-auto-prompt`
 
-- Get an interactive wizard for an AWS resource:
+- Uzyskaj interaktywnego kreatora dla zasobu AWS:
 
 `aws dynamodb wizard {{new-table}}`
 
-- Generate a JSON CLI Skeleton (useful for infrastructure as code):
+- Generuj JSON CLI Skeleton (przydatne dla infrastruktury jako kodu):
 
 `aws dynamodb update-table --generate-cli-skeleton`
