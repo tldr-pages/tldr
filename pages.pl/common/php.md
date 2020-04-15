@@ -1,32 +1,32 @@
 # php
 
-> PHP command line interface.
-> More information: <https://php.net>.
+> Interfejs wiersza poleceń PHP.
+> Więcej informacji: <https://php.net>.
 
-- Parse and execute a php script:
+- Parsuj i uruchom skrypt php:
 
 `php {{file}}`
 
-- Check syntax on (i.e. lint) a PHP script:
+- Sprawdź składnię skryptu PHP (np. lint):
 
 `php -l {{file}}`
 
-- Run PHP interactively:
+- Uruchom PHP interaktywnie:
 
 `php -a`
 
-- Run PHP code (Notes: Don't use <? ?> tags; escape double quotes with backslash):
+- Uruchom kod PHP (uwagi: nie używaj znaczników <? ?> ; unikaj podwójnych cudzysłowów z odwrotnym ukośnikiem):
 
 `php -r "{{code}}"`
 
-- Start a PHP built-in web server in the current directory:
+- uruchom wbudowany serwer PHP w bieżącym katalogu:
 
 `php -S {{host:port}}`
 
-- Get a list of installed PHP extensions:
+- Uzyskaj listę zainstalowanych rozszerzeń PHP
 
 `php -m`
 
-- Display information about the current PHP configuration:
+- Wyświetl informacje o bieżącej konfiguracji PHP:
 
 `php -i`
