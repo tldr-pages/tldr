@@ -5,7 +5,7 @@
 
 - Utwórz nowy projekt vue interaktywnie:
 
-`vue create {{project_name}}`
+`vue create {{nazwa_projektu}}`
 
 - Utwórz nowy projekt z web UI:
 
