@@ -7,7 +7,7 @@
 
 `git remote -v`
 
-- Show information about a particular remote:
+- Show information about a remote:
 
 `git remote show {{remote_name}}`
 
