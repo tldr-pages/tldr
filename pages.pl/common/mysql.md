@@ -1,32 +1,32 @@
 # mysql
 
-> The MySQL command-line tool.
-> More information: <https://www.mysql.com/>.
+> Narzędzie wiersza polecenia MySQL.
+> Więcej informacji: <https://www.mysql.com/>.
 
-- Connect to a database:
+- Połącz z bazą danych:
 
 `mysql {{database_name}}`
 
-- Connect to a database, user will be prompted for a password:
+- Połącz się z bazą danych, użytkownik zostanie poproszony o podanie hasła:
 
 `mysql -u {{user}} --password {{database_name}}`
 
-- Connect to a database on another host:
+- Połącz się z bazą danych na innym hoście:
 
 `mysql -h {{database_host}} {{database_name}}`
 
-- Connect to a database through a Unix socket:
+- Połącz się z bazą danych przez gniazdo Unix:
 
 `mysql --socket {{path/to/socket.sock}}`
 
-- Execute SQL statements in a script file (batch file):
+- Wykonuj instrukcje SQL w pliku skryptu (plik wsadowy):
 
 `mysql -e "source {{filename.sql}}" {{database_name}}`
 
-- Restore a database from a backup (user will be prompted for a password):
+- Przywróć bazę danych z kopii zapasowej (użytkownik zostanie poproszony o podanie hasła):
 
 `mysql --user {{user}} --password {{database_name}} < {{path/to/backup.sql}}`
 
-- Restore all databases from a backup (user will be prompted for a password):
+- Przywróć wszystkie bazy danych z kopii zapasowej (użytkownik zostanie poproszony o podanie hasła):
 
 `mysql --user {{user}} --password < {{path/to/backup.sql}}`
