@@ -1,28 +1,28 @@
 # python
 
-> Python language interpreter.
-> More information: <https://www.python.org>.
+> Interpreter języka Python.
+> Więcej informacji: <https://www.python.org>.
 
-- Call a Python interactive shell (REPL):
+- Wywołaj interaktywną powłokę Pythona (REPL):
 
 `python`
 
-- Execute script in a given Python file:
+- Wykonaj skrypt w danym pliku Python:
 
 `python {{script.py}}`
 
-- Execute script as part of an interactive shell:
+- Wykonaj skrypt jako część interaktywnej powłoki:
 
 `python -i {{script.py}}`
 
-- Execute a Python expression:
+- Wykonaj wyrażenie w języku Python:
 
 `python -c "{{expression}}"`
 
-- Run library module as a script (terminates option list):
+- Uruchom moduł biblioteki jako skrypt (kończy listę opcji):
 
 `python -m {{module}} {{arguments}}`
 
-- Interactively debug a Python script:
+- Interaktywnie debuguj skrypt w języku Python:
 
 `python -m pdb {{script.py}}`
