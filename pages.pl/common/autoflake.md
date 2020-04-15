@@ -1,20 +1,20 @@
 # autoflake
 
-> A tool to remove unused imports and variables from Python code.
-> More information: <https://github.com/myint/autoflake>.
+> Narzędzie do usuwania nieużywanych importów i zmiennych z kodu Python.
+> Więcej informacji: <https://github.com/myint/autoflake>.
 
-- Remove unused variables from a single file and display the diff:
+- Usuń nieużywane zmienne z jednego pliku i wyświetl różnicę:
 
 `autoflake --remove-unused-variables {{file.py}}`
 
-- Remove unused imports from multiple files and display the diffs:
+- Usuń nieużywane importy z wielu plików i wyświetl różnice:
 
 `autoflake --remove-all-unused-imports {{file1.py}} {{file2.py}} {{file3.py}}`
 
-- Remove unused variables from a file, overwriting the file:
+- Usuń nieużywane zmienne z pliku, zastępując plik:
 
 `autoflake --remove-unused-variables --in-place {{file.py}}`
 
-- Remove unused variables recursively from all files in a directory, overwriting each file:
+- Usuń nieużywane zmienne rekurencyjnie ze wszystkich plików w katalogu, nadpisując każdy plik:
 
 `autoflake --remove-unused-variables --in-place --recursive {{path/to/directory}}`
