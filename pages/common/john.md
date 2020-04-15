@@ -1,7 +1,8 @@
 # john
 
 > Password cracker.
-> More information: <https://www.openwall.com/john/>.
+> More in
+ion: <https://www.openwall.com/john/>.
 
 - Crack password hashes:
 
@@ -25,7 +26,7 @@
 
 - Crack password hashes, using a specific hash format:
 
-`john --format={{md5crypt|...}} {{path/to/hashes.txt}}`
+`john --format={{hash_format}} {{path/to/hashes.txt}}`
 
 - Crack password hashes, enabling word mangling rules:
 
@@ -33,4 +34,4 @@
 
 - Restore an interrupted cracking session from a state file, e.g. `mycrack.rec`:
 
-`john --restore={{mycrack}}`
+`john --restore={{path/to/mycrack.rec}}`
