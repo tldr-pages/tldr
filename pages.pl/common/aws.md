@@ -14,7 +14,7 @@
 
 - Zobacz tekst pomocy dla polecenia AWS:
 
-`aws {{command}} help`
+`aws {{komenda}} help`
 
 - Uzyskaj tożsamość wywołującego (służy do rozwiązywania problemów z uprawnieniami):
 
@@ -30,7 +30,7 @@
 
 - Uzyskaj interaktywnego kreatora dla zasobu AWS:
 
-`aws dynamodb wizard {{new-table}}`
+`aws dynamodb wizard {{nowa-tabela}}`
 
 - Generuj JSON CLI Skeleton (przydatne dla infrastruktury jako kodu):
 
