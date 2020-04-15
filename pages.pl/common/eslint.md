@@ -9,7 +9,7 @@
 
 - Lint na danym zestawie plików:
 
-`eslint {{filename}}.js {{filename1}}.js`
+`eslint {{nazwapliku}}.js {{nazwapliku1}}.js`
 
 - Napraw lint issues:
 
@@ -17,4 +17,4 @@
 
 - Lint z config:
 
-`eslint -c {{path/to/config_file}} {{app/src}}`
+`eslint -c {{sciezka/do/pliku_config}} {{app/src}}`
