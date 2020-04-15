@@ -6,6 +6,6 @@
 
 `mkfs.ext4 {{/dev/sdb1}}`
 
-- Create filesystem with a volume-name:
+- Create an ext4 filesystem with a volume-lable:
 
 `mkfs.ext4 -L {{volume_name}} {{/dev/sdb1}}`
