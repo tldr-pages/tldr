@@ -26,3 +26,7 @@
 - Interactively stage parts of a given file:
 
 `git add -p {{path/to/file}}`
+
+- Interactively stage a file:
+
+`git add -i`
