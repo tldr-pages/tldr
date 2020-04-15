@@ -12,7 +12,7 @@
 
 - Uruchom polecenie jako inny użytkownik i/lub grupa:
 
-`sudo -u {{user}} -g {{group}} {{id -a}}`
+`sudo -u {{uzytkownik}} -g {{grupa}} {{id -a}}`
 
 - Powtórz ostatnie polecenie poprzedzone "sudo" (tylko w bash, zsh, etc.):
 
