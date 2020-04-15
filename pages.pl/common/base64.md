@@ -4,16 +4,16 @@
 
 - Enkoduj plik:
 
-`base64 {{filename}}`
+`base64 {{nazwapliku}}`
 
 - Dekoduj plik:
 
-`base64 -d {{filename}}`
+`base64 -d {{nazwapliku}}`
 
 - Enkoduj z `stdin`:
 
-`{{somecommand}} | base64`
+`{{jakiespolecenie}} | base64`
 
 - Dekoduj z `stdin`:
 
-`{{somecommand}} | base64 -d`
+`{{jakiespolecenie}} | base64 -d`
