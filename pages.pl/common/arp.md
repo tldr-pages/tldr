@@ -12,8 +12,8 @@
 
 - Usuń konkretny wpis:
 
-`arp -d {{address}}`
+`arp -d {{adres}}`
 
 - Utwórz wpis:
 
-`arp -s {{address}} {{mac_address}}`
+`arp -s {{adres}} {{adres_mac}}`
