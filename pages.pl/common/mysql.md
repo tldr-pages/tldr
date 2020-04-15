@@ -5,28 +5,28 @@
 
 - Połącz z bazą danych:
 
-`mysql {{database_name}}`
+`mysql {{nazwa_bazydanych}}`
 
 - Połącz się z bazą danych, użytkownik zostanie poproszony o podanie hasła:
 
-`mysql -u {{user}} --password {{database_name}}`
+`mysql -u {{uzytkownik}} --password {{nazwa_bazydanych}}`
 
 - Połącz się z bazą danych na innym hoście:
 
-`mysql -h {{database_host}} {{database_name}}`
+`mysql -h {{host_bazydanych}} {{nazwa_bazydanych}}`
 
 - Połącz się z bazą danych przez gniazdo Unix:
 
-`mysql --socket {{path/to/socket.sock}}`
+`mysql --socket {{sciezka/do/socket.sock}}`
 
 - Wykonuj instrukcje SQL w pliku skryptu (plik wsadowy):
 
-`mysql -e "source {{filename.sql}}" {{database_name}}`
+`mysql -e "source {{nazwapliku.sql}}" {{nazwa_bazydanych}}`
 
 - Przywróć bazę danych z kopii zapasowej (użytkownik zostanie poproszony o podanie hasła):
 
-`mysql --user {{user}} --password {{database_name}} < {{path/to/backup.sql}}`
+`mysql --user {{uzytkownik}} --password {{nazwa_bazydanych}} < {{sciezka/do/backup.sql}}`
 
 - Przywróć wszystkie bazy danych z kopii zapasowej (użytkownik zostanie poproszony o podanie hasła):
 
-`mysql --user {{user}} --password < {{path/to/backup.sql}}`
+`mysql --user {{uzytkownik}} --password < {{sciezka/do/backup.sql}}`
