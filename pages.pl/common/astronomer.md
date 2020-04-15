@@ -1,16 +1,16 @@
 # astronomer
 
-> Tool that detects illegitimate stars from bot accounts on Github projects.
-> More information: <https://github.com/Ullaakut/astronomer>.
+> Narzędzie wykrywające nielegalne gwiazdki z kont botów w projektach GithHub.
+> Więcej informacji: <https://github.com/Ullaakut/astronomer>.
 
-- Scan a repository:
+- Skanuj repozytorium:
 
 `astronomer {{tldr-pages/tldr-node-client}}`
 
-- Scan the maximum amount of stars in the repository:
+- Zeskanuj maksymalną liczbę gwiazdek w repozytorium:
 
 `astronomer {{tldr-pages/tldr-node-client}} --stars {{50}}`
 
-- Scan a repository including comparative reports:
+- Przeskanuj repozytorium, w tym raporty porównawcze:
 
 `astronomer {{tldr-pages/tldr-node-client}} --verbose`
