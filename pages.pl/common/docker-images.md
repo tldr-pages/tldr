@@ -1,20 +1,20 @@
 # docker images
 
-> Manage Docker images.
-> More information: <https://docs.docker.com/engine/reference/commandline/images/>.
+> Zarządzaj obrazami Dockera.
+> Więcej informacji: <https://docs.docker.com/engine/reference/commandline/images/>.
 
-- List all Docker images:
+- Wyświetl wszystkie obrazy Docker:
 
 `docker images`
 
-- List all Docker images including intermediates:
+- Wyświetl wszystkie obrazy Dockera, w tym intermediates:
 
 `docker images -a`
 
-- List the output in quiet mode (only numeric IDs):
+- Wyświetl dane wyjściowe w trybie quiet (tylko identyfikatory numeryczne):
 
 `docker images -q`
 
-- List all Docker images not used by any container:
+- Wyświetl wszystkie obrazy Docker nieużywane przez żaden kontener:
 
 `docker images --filter dangling=true`
