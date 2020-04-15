@@ -1,8 +1,7 @@
 # john
 
 > Password cracker.
-> More in
-ion: <https://www.openwall.com/john/>.
+> More information: <https://www.openwall.com/john/>.
 
 - Crack password hashes:
 
