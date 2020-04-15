@@ -1,19 +1,19 @@
 # base32
 
-> Encode or decode file or standard input to/from Base32, to standard output.
+> Enkoduj lub dekoduj plik lub standardowe wejście do/z Base32, na standardowe wyjście.
 
-- Encode a file:
+- Enkoduj plik:
 
 `base32 {{filename}}`
 
-- Decode a file:
+- Dekoduj plik:
 
 `base32 -d {{filename}}`
 
-- Encode from `stdin`:
+- Enkoduj z `stdin`:
 
 `{{somecommand}} | base32`
 
-- Decode from `stdin`:
+- Dekoduj z `stdin`:
 
 `{{somecommand}} | base32 -d`
