@@ -5,11 +5,11 @@
 
 - Parsuj i uruchom skrypt php:
 
-`php {{file}}`
+`php {{plik}}`
 
 - Sprawdź składnię skryptu PHP (np. lint):
 
-`php -l {{file}}`
+`php -l {{plik}}`
 
 - Uruchom PHP interaktywnie:
 
@@ -17,7 +17,7 @@
 
 - Uruchom kod PHP (uwagi: nie używaj znaczników <? ?> ; unikaj podwójnych cudzysłowów z odwrotnym ukośnikiem):
 
-`php -r "{{code}}"`
+`php -r "{{kod}}"`
 
 - uruchom wbudowany serwer PHP w bieżącym katalogu:
 
