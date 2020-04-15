@@ -1,12 +1,12 @@
 # vue
 
-> Multi-purpose CLI for Vue.js.
-> More information: <https://cli.vuejs.org>.
+> Wielofunkcyjny interfejs CLI dla Vue.js.
+> Więcej informacji: <https://cli.vuejs.org>.
 
-- Create a new vue project interactively:
+- Utwórz nowy projekt vue interaktywnie:
 
 `vue create {{project_name}}`
 
-- Create a new project with web UI:
+- Utwórz nowy projekt z web UI:
 
 `vue ui`
