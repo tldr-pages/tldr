@@ -5,11 +5,11 @@
 
 - Uruchom plik .class java, który zawiera główną metodę, używając tylko nazwy klasy:
 
-`java {{classname}}`
+`java {{nazwaklasy}}`
 
 - Uruchom program .jar:
 
-`java -jar {{filename.jar}}`
+`java -jar {{nazwapliku.jar}}`
 
 - Wyświetl wersje JDK, JRE i HotSpot:
 
