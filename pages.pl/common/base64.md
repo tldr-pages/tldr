@@ -1,19 +1,19 @@
 # base64
 
-> Encode or decode file or standard input to/from Base64, to standard output.
+> Enkoduj lub dekoduj plik lub standardowe wejście do/z Base64, na standardowe wyjście.
 
-- Encode a file:
+- Enkoduj plik:
 
 `base64 {{filename}}`
 
-- Decode a file:
+- Dekoduj plik:
 
 `base64 -d {{filename}}`
 
-- Encode from `stdin`:
+- Enkoduj z `stdin`:
 
 `{{somecommand}} | base64`
 
-- Decode from `stdin`:
+- Dekoduj z `stdin`:
 
 `{{somecommand}} | base64 -d`
