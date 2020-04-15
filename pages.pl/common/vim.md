@@ -1,37 +1,37 @@
 # vim
 
-> Vim (Vi IMproved), a command-line text editor, provides several modes for different kinds of text manipulation.
-> Pressing `i` enters edit mode. `<Esc>` goes back to normal mode, which doesn't allow regular text insertion.
-> More information: <https://www.vim.org>.
+> Vim (Vi IMproved), edytor tekstu wiersza polecenia, oferuje kilka trybów dla różnych rodzajów manipulacji tekstem.
+> Naciśnięcie przycisku `i` powoduje przejście do trybu edycji. `<Esc>` wraca do normalnego trybu, który nie pozwala na zwykłe wstawianie tekstu.
+> Więcej informacji: <https://www.vim.org>.
 
-- Open a file:
+- Otwórz plik:
 
 `vim {{path/to/file}}`
 
-- View Vim's help manual:
+- Zobacz instrukcję pomocy Vim:
 
 `:help<Enter>`
 
-- Save a file:
+- Zapisz plik:
 
 `:write<Enter>`
 
-- Quit without saving:
+- Wyjdź bez zapisywania:
 
 `:quit!<Enter>`
 
-- Open a file at a specified line number:
+- Otwórz plik pod określonym numerem wiersza:
 
 `vim +{{line_number}} {{path/to/file}}`
 
-- Undo the last operation:
+- Cofnij ostatnią operację:
 
 `u`
 
-- Search for a pattern in the file (press `n`/`N` to go to next/previous match):
+- Wyszukaj wzorzec w pliku (naciśnij `n`/`N` przejść do następnego/poprzedniego dopasowania):
 
 `/{{search_pattern}}<Enter>`
 
-- Perform a regex substitution in the whole file:
+- Wykonaj podstawienie wyrażenia regularnego w całym pliku:
 
 `:%s/{{pattern}}/{{replacement}}/g<Enter>`
