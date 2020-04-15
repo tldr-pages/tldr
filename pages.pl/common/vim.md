@@ -6,7 +6,7 @@
 
 - Otwórz plik:
 
-`vim {{path/to/file}}`
+`vim {{sciezka/do/plik}}`
 
 - Zobacz instrukcję pomocy Vim:
 
@@ -22,7 +22,7 @@
 
 - Otwórz plik pod określonym numerem wiersza:
 
-`vim +{{line_number}} {{path/to/file}}`
+`vim +{{numer_linii}} {{sciezka/do/plik}}`
 
 - Cofnij ostatnią operację:
 
@@ -30,8 +30,8 @@
 
 - Wyszukaj wzorzec w pliku (naciśnij `n`/`N` przejść do następnego/poprzedniego dopasowania):
 
-`/{{search_pattern}}<Enter>`
+`/{{szukaj_wzorca}}<Enter>`
 
 - Wykonaj podstawienie wyrażenia regularnego w całym pliku:
 
-`:%s/{{pattern}}/{{replacement}}/g<Enter>`
+`:%s/{{wzorzec}}/{{zastąpienie}}/g<Enter>`
