@@ -5,28 +5,28 @@
 
 - Pobierz adres URL do pliku:
 
-`http -d {{example.org}}`
+`http -d {{przyklad.org}}`
 
 - Wyślij dane zakodowane w formularzu:
 
-`http -f {{example.org}} {{name='bob'}} {{profile_picture@'bob.png'}}`
+`http -f {{przyklad.org}} {{nazwa='bob'}} {{zdjecie_profilowe@'bob.png'}}`
 
 - Wyślij obiekt JSON:
 
-`http {{example.org}} {{name='bob'}}`
+`http {{przyklad.org}} {{name='bob'}}`
 
 - Określ metodę HTTP:
 
-`http {{HEAD}} {{example.org}}`
+`http {{HEAD}} {{przyklad.org}}`
 
 - Dołącz dodatkowy nagłówek:
 
-`http {{example.org}} {{X-MyHeader:123}}`
+`http {{przyklad.org}} {{X-MyHeader:123}}`
 
 - Podaj nazwę użytkownika i hasło do uwierzytelnienia serwera:
 
-`http -a {{username:password}} {{example.org}}`
+`http -a {{nazwauzytkownika:haslo}} {{przyklad.org}}`
 
 - Określ surowe ciało żądania za pośrednictwem `stdin`:
 
-`cat {{data.txt}} | http PUT {{example.org}}`
+`cat {{dane.txt}} | http PUT {{przyklad.org}}`
