@@ -5,31 +5,31 @@
 
 - Transpiluj określony plik wejściowy i dane wyjściowe do `stdout`:
 
-`babel {{path/to/file}}`
+`babel {{siezka/do/pliku}}`
 
 - Transpiluj określony plik wejściowy i wyjście do określonego pliku:
 
-`babel {{path/to/input_file}} --out-file {{path/to/output_file}}`
+`babel {{sciezka/do/pliku_wejsciowego}} --out-file {{sciezka/do/pliku_wyjsciowego}}`
 
 - Transpiluj plik wejściowy przy każdej zmianie:
 
-`babel {{path/to/input_file}} --watch`
+`babel {{sciezka/do/pliku_wejsciowego}} --watch`
 
 - Transpiluj cały katalog plików:
 
-`babel {{path/to/input_directory}}`
+`babel {{sciezka/do/katalogu_wejsciowego}}`
 
 - Zignoruj określone pliki oddzielone przecinkami w katalogu:
 
-`babel {{path/to/input_directory}} --ignore {{ignored_files}}`
+`babel {{sciezka/do/katalogu_wejsciowego}} --ignore {{ignorowane_pliki}}`
 
 - Transpiluj i wypisz jako zminimalizowany JavaScript:
 
-`babel {{path/to/input_file}} --minified`
+`babel {{sciezka/do/pliku_wejsciowego}} --minified`
 
 - Wybierz zestaw ustawień dla formatowania wyjściowego:
 
-`babel {{path/to/input_file}} --presets {{presets}}`
+`babel {{sciezka/do/pliku_wejsciowego}} --presets {{presets}}`
 
 - Wyświetl wszystkie dostępne opcje:
 
