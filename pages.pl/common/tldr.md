@@ -6,7 +6,7 @@
 
 - Uzyskaj typowe zastosowania polecenia (wskazówka: oto jak się tu dostałeś!):
 
-`tldr {{command}}`
+`tldr {{polecenie}}`
 
 - Pokaż tar tldr page dla Linux:
 
