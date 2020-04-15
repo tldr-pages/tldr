@@ -8,10 +8,10 @@
 
 `avahi-browse --all --resolve --ignore-local`
 
-- Limit your search to a particular domain:
-
-`avahi-browse --all --domain={{domain}}`
-
 - List all domains:
 
 `avahi-browse --browse-domains`
+
+- Limit the search to a particular domain:
+
+`avahi-browse --all --domain={{domain}}`
