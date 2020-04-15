@@ -1,19 +1,19 @@
 # arp
 
-> Show and manipulate your system's ARP cache.
+> Pokaż i manipuluj pamięcią podręczną ARP systemu.
 
-- Show current arp table:
+- Pokaż bieżącą tabelę arp:
 
 `arp -a`
 
-- Clear the entire cache:
+- Wyczyść całość cache:
 
 `sudo arp -a -d`
 
-- Delete a specific entry:
+- Usuń konkretny wpis:
 
 `arp -d {{address}}`
 
-- Create an entry:
+- Utwórz wpis:
 
 `arp -s {{address}} {{mac_address}}`
