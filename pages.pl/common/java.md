@@ -1,20 +1,20 @@
 # java
 
 > Java Application Launcher.
-> More information: <https://java.com>.
+> Więcej informacji: <https://java.com>.
 
-- Execute a java .class file that contains a main method by using just the class name:
+- Uruchom plik .class java, który zawiera główną metodę, używając tylko nazwy klasy:
 
 `java {{classname}}`
 
-- Execute a .jar program:
+- Uruchom program .jar:
 
 `java -jar {{filename.jar}}`
 
-- Display JDK, JRE and HotSpot versions:
+- Wyświetl wersje JDK, JRE i HotSpot:
 
 `java -version`
 
-- Display usage information for the java command:
+- Wyświetl informacje o użyciu polecenia java:
 
 `java -help`
