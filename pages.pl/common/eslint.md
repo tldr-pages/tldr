@@ -1,20 +1,20 @@
 # eslint
 
-> A pluggable linting utility for JavaScript and JSX.
-> More information: <https://eslint.org>.
+> Podłączane narzędzie lintowania dla JavaScript i JSX.
+> Więcej informacji: <https://eslint.org>.
 
-- Create eslint config:
+- Stwórz eslint config:
 
 `eslint --init`
 
-- Lint on a given set of files:
+- Lint na danym zestawie plików:
 
 `eslint {{filename}}.js {{filename1}}.js`
 
-- Fix lint issues:
+- Napraw lint issues:
 
 `eslint --fix`
 
-- Lint with config:
+- Lint z config:
 
 `eslint -c {{path/to/config_file}} {{app/src}}`
