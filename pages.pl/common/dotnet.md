@@ -5,7 +5,7 @@
 
 - Zainicjuj nowy projekt .NET:
 
-`dotnet new {{template_short_name}}`
+`dotnet new {{szablon_krotka_nazwa}}`
 
 - Przywróć pakiety nuget:
 
@@ -17,4 +17,4 @@
 
 - Uruchom pakietową aplikację dotnet (wymaga tylko środowiska wykonawczego, pozostałe polecenia wymagają zainstalowanego zestawu .NET Core SDK):
 
-`dotnet {{path/to/application.dll}}`
+`dotnet {{sciezka/do/aplikacji.dll}}`
