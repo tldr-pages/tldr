@@ -31,6 +31,6 @@
 
 `youtube-dl --list-subs {{https://www.youtube.com/watch?v=Mwa0_nE9H7A}}`
 
-- Download a particular language's subtitles:
+- Download a particular language's subtitles along with the video:
 
-`youtube-dl --sub-lang {{en}} {{https://www.youtube.com/watch?v=Mwa0_nE9H7A}}`
+`youtube-dl --sub-lang {{en}} --write-sub {{https://www.youtube.com/watch?v=Mwa0_nE9H7A}}`
