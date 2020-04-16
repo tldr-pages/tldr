@@ -27,10 +27,10 @@
 
 `youtube-dl --format {{mp4}} -o {{"%(title)s by %(uploader)s on %(upload_date)s in %(playlist)s.%(ext)s"}} {{url}}`
 
-- List available subtitles
+- List available subtitles:
 
 `youtube-dl --list-subs {{https://www.youtube.com/watch?v=Mwa0_nE9H7A}}`
 
-- Download a particular language's subtitles
+- Download a particular language's subtitles:
 
 `youtube-dl --sub-lang {{en}} {{https://www.youtube.com/watch?v=Mwa0_nE9H7A}}`
