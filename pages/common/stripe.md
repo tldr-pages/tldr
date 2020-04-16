@@ -1,9 +1,9 @@
 # stripe
 
-> Interact with your Stripe account.
+> Interact with a Stripe account.
 > More information: <https://github.com/stripe/stripe-cli>.
 
-- Log all activity on your account:
+- Follow the logs of activity on the account:
 
 `stripe logs tail`
 
@@ -19,6 +19,6 @@
 
 `stripe customers create --email="{{test@example.com}}" --name="{{Jenny Rosen}}"`
 
-- Print to JSON and use `jq` to parse events:
+- Print to JSON:
 
-`stripe listen --print-json | jq .type`
+`stripe listen --print-json`
