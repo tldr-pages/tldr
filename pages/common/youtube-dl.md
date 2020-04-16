@@ -34,3 +34,11 @@
 - From a playlist, download all "Let's Play" videos that aren't marked "NSFW" or age-restricted for 7 year-olds:
 
 `youtube-dl --match-title {{"let's play"}} --age-limit {{7}} --reject-title {{"nsfw"}} {{playlist_url}}`
+
+- List available subtitles
+
+`youtube-dl --list-subs {{https://www.youtube.com/watch?v=Mwa0_nE9H7A}}`
+
+- Download a particular language's subtitles
+
+`youtube-dl --sub-lang {{en}} {{https://www.youtube.com/watch?v=Mwa0_nE9H7A}}`
