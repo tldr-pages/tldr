@@ -30,3 +30,7 @@
 - Delete a local branch (must not have it checked out to do this):
 
 `git branch -d {{branch_name}}`
+
+- Delete a remote branch:
+
+`git push {{remote_name}} --delete {{remote_branch_name}}`
