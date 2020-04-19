@@ -5,7 +5,7 @@
 .gem
 .bundle
 
-# NPM-specific files
+# npm-specific files
 node_modules
 npm-debug.log
 
