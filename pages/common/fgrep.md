@@ -7,15 +7,15 @@
 
 `fgrep {{search_string}} {{path/to/file}}`
 
-- Search only lines that match entirely in files: 
+- Search only lines that match entirely in files:
 
 `fgrep -x {{path/to/file1}} {{path/to/file2}}`
 
--Count of number of lines that match the given string in a file:
+- Count the number of lines that match the given string in a file:
 
 `fgrep -c {{search_string}} {{path/to/file}}`
 
-- Shows line number of file with the line matched:
+- Show line number of file with the line matched:
 
 `fgrep -n {{search_string}} {{path/to/file}}`
 
