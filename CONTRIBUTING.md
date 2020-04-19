@@ -18,7 +18,7 @@
 [cla-assistant-url]: https://cla-assistant.io/tldr-pages/tldr
 [cla-assistant-image]: https://cla-assistant.io/readme/badge/tldr-pages/tldr
 [license-url]: https://github.com/tldr-pages/tldr/blob/master/LICENSE.md
-[license-image]: https://img.shields.io/github/license/tldr-pages/tldr.svg
+[license-image]: https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey.svg
 
 Contributions to the tldr-pages project are [most welcome](GOVERNANCE.md)!
 All `tldr` pages are stored in Markdown right here on GitHub.
@@ -116,7 +116,7 @@ Examples:
 
 ## Licensing
 
-`tldr` is licensed under the [MIT license](https://github.com/tldr-pages/tldr/blob/master/LICENSE.md).
+`tldr` is licensed under a [Creative Commons Attribution 4.0 International License](LICENSE.md). The contents of the `scripts/` directory are licensed under the [MIT license](LICENSE.md).
 
 Any contributions to this project are governed by the
 [Contributor License Agreement](https://cla-assistant.io/tldr-pages/tldr).
