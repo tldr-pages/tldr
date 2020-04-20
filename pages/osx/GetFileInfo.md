@@ -2,18 +2,18 @@
 
 > Get information about a file in an HFS+ directory.
 
-- Date of file creation:
+- See date and time of file creation:
 
 `GetFileInfo -d {{filename}}`
 
-- Date of latest file modification:
+- See date and time of latest file modification:
 
 `GetFileInfo -m {{filename}}`
 
-- Creator of the file:
+- See the creator of the file:
 
 `GetFileInfo -c {{filename}}`
 
-- All infomation about the file:
+- See all infomation about the file:
 
 `GetFileInfo {{filename}}`
