@@ -16,7 +16,7 @@
 
 - List the available voices:
 
-`say -v ?`
+`say -v "?"`
 
 - Create an audio file of the spoken text:
 
