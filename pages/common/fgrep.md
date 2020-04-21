@@ -19,7 +19,7 @@
 
 `fgrep -n {{search_string}} {{path/to/file}}`
 
-- Display all lines except those that contain the regular expression:
+- Display all lines except those that contain the given regular expression:
 
 `fgrep -v {{^regex$}} {{path/to/file}}`
 
