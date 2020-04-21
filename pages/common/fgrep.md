@@ -15,7 +15,7 @@
 
 `fgrep -c {{search_string}} {{path/to/file}}`
 
-- Show line number of file with the line matched:
+- Show the line number in the file along with the line matched:
 
 `fgrep -n {{search_string}} {{path/to/file}}`
 
