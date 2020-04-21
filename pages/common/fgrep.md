@@ -23,6 +23,6 @@
 
 `fgrep -v {{^regex$}} {{path/to/file}}`
 
-- Search the file names that match the regular expression:
+- Display filenames whose content matchs the regular expression at least once:
 
 `fgrep -l {{^regex$}} {{path/to/file1}} {{path/to/file2}}`
