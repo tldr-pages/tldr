@@ -18,7 +18,7 @@
 [contributors-url]: https://github.com/tldr-pages/tldr/graphs/contributors
 [contributors-image]: https://img.shields.io/github/contributors/tldr-pages/tldr.svg
 [license-url]: https://github.com/tldr-pages/tldr/blob/master/LICENSE.md
-[license-image]: https://img.shields.io/github/license/tldr-pages/tldr.svg
+[license-image]: https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey.svg
 
 A collection of simplified and community-driven man pages.
 
