@@ -22,3 +22,11 @@
 - List all valid types:
 
 `ack --help=types`
+
+- Search file "my_file" for string "foo bar"
+
+`ack bar "{{foo bar}}" {{my_file}}`
+
+- Search file "my_file" for regex pattern "[bB]ar \d+"
+
+`ack bar "{{[bB]ar \d+}}" {{my_file}}`
