@@ -17,3 +17,7 @@
 - Number all output lines:
 
 `cat -n {{file}}`
+
+- Display non-printable and whitespace characters (with `M-` prefix if non-ASCII):
+
+`cat -v -t -e {{file}}`

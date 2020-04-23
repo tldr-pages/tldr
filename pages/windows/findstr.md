@@ -1,10 +1,15 @@
 # findstr
 
 > Find specified text within one or more files.
+> More information: <https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/findstr>.
 
 - Find space-separated string(s) in all files:
 
 `findstr "{{query}}" *`
+
+- Find space-separated string(s) in a piped command's output:
+
+`{{dir}} | findstr "{{query}}"`
 
 - Find space-separated string(s) in all files recur[s]ively:
 
@@ -21,10 +26,6 @@
 - Find a literal string (containing spaces) in all text files:
 
 `findstr /c:"{{query}}" *.txt`
-
-- Find only lines that match the query e[x]actly:
-
-`findstr /x "{{query}}" *`
 
 - Display the line number before each matching line:
 

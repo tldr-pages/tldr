@@ -6,7 +6,7 @@
 
 `logger {{message}}`
 
-- Take input from stdin and log to syslog:
+- Take input from `stdin` and log to syslog:
 
 `echo {{log_entry}} | logger`
 

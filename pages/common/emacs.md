@@ -1,15 +1,24 @@
 # emacs
 
 > The extensible, customizable, self-documenting, real-time display editor.
+> More information: <https://www.gnu.org/software/emacs>.
 
-- Open emacs in console mode (without X window):
+- Start in console mode (without X window):
 
 `emacs -nw`
 
-- Open a file in emacs:
+- Open a file:
 
-`emacs {{filename}}`
+`emacs {{path/to/file}}`
 
-- Exit emacs:
+- Save a file:
 
-`C-x C-c`
+`Ctrl + X, Ctrl + S`
+
+- Quit:
+
+`Ctrl + X, Ctrl + C`
+
+- Open a file at a specified line number:
+
+`emacs +{{line_number}} {{path/to/file}}`

@@ -1,6 +1,7 @@
 # decaffeinate
 
 > Move your CoffeeScript source to modern JavaScript.
+> More information: <https://decaffeinate-project.org>.
 
 - Convert a CoffeeScript file to JavaScript:
 

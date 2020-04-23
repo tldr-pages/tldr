@@ -6,6 +6,6 @@
 
 `reboot`
 
-- Reboot immediately without gracefully shutdown:
+- Reboot immediately without gracefully shutting down:
 
 `reboot -f`

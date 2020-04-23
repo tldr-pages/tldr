@@ -13,7 +13,7 @@
 
 - Create a new container from an image:
 
-`lxc launch [{{remote}}:]{{image}} {{container}}`
+`lxc init [{{remote}}:]{{image}} {{container}}`
 
 - Start a container:
 

@@ -1,6 +1,7 @@
 # mdp
 
 > A command-line based tool to make presentations from markdown files.
+> More information: <https://github.com/visit1985/mdp>.
 
 - Launch a presentation in the terminal from a markdown file:
 

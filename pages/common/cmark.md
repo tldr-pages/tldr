@@ -1,6 +1,7 @@
 # cmark
 
 > Converts CommonMark Markdown formatted text to other formats.
+> More information: <https://github.com/commonmark/cmark>.
 
 - Render a Commonmark Markdown file to HTML:
 

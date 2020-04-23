@@ -2,7 +2,7 @@
 
 > Run a command with a time limit.
 
-- Run `sleep 10` and kill it, if it's running after 3 seconds:
+- Run `sleep 10` and terminate it, if it runs for more than 3 seconds:
 
 `timeout {{3s}} {{sleep 10}}`
 

@@ -1,6 +1,7 @@
 # tabula
 
 > Extract tables from PDF files.
+> More information: <https://tabula.technology>.
 
 - Extract all tables from a PDF to a CSV file:
 

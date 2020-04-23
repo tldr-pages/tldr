@@ -1,6 +1,7 @@
 # rvm
 
 > A tool for easily installing, managing, and working with multiple ruby environments.
+> More information: <https://rvm.io>.
 
 - Install one or more space-separated versions of Ruby:
 
@@ -29,3 +30,7 @@
 - Remove a version of Ruby and its sources:
 
 `rvm remove {{version}}`
+
+- Show specific dependencies for your OS:
+
+`rvm requirements`

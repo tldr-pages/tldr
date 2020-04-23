@@ -1,6 +1,7 @@
 # hg commit
 
 > Commit all staged or specified files to the repository.
+> More information: <https://www.mercurial-scm.org/doc/hg.1.html#commit>.
 
 - Commit staged files to the repository:
 
@@ -8,7 +9,7 @@
 
 - Commit a specific file or directory:
 
-`hg commit {{path/to/file}}`
+`hg commit {{path/to/file_or_directory}}`
 
 - Commit with a specific message:
 

@@ -2,6 +2,7 @@
 
 > Music Player Client.
 > Program for controlling the Music Player Daemon (MPD).
+> More information: <https://www.musicpd.org/clients/mpc>.
 
 - Toggle play/pause:
 

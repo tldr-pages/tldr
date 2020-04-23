@@ -1,6 +1,7 @@
 # rsstail
 
 > `tail` for RSS feeds.
+> More information: <https://github.com/gvalkov/rsstail.py>.
 
 - Show the feed of a given url and wait for new entries appearing at the bottom:
 

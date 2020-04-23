@@ -1,4 +1,4 @@
-# getent  
+# getent
 
 > Get entries from Name Service Switch libraries.
 

@@ -1,6 +1,7 @@
 # scrapy
 
 > Web-crawling framework.
+> More information: <https://scrapy.org>.
 
 - Create a project:
 
@@ -18,7 +19,7 @@
 
 `scrapy crawl {{spider_name}}`
 
-- Fetch a webpage as scrapy sees it and print source in stdout:
+- Fetch a webpage as scrapy sees it and print source in `stdout`:
 
 `scrapy fetch {{url}}`
 

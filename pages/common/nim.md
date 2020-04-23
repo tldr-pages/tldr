@@ -2,6 +2,7 @@
 
 > The Nim compiler.
 > Processes, compiles and links Nim language source files.
+> More information: <https://nim-lang.org>.
 
 - Compile a source file:
 

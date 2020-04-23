@@ -18,6 +18,6 @@
 
 `expand -t={{number}} {{file}}`
 
-- Use comma separated list of explicit tab positions:
+- Use a comma separated list of explicit tab positions:
 
-`expand -t={{list}}`
+`expand -t={{1,4,6}}`

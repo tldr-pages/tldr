@@ -1,6 +1,7 @@
 # browser-sync
 
 > Starts local web server that updates browser on file changes.
+> More information: <https://browsersync.io/docs/command-line>.
 
 - Start a server from a specific directory:
 

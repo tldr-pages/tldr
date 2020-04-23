@@ -4,15 +4,15 @@
 
 - List password information for the user:
 
-`chage -l {{user_name}}`
+`chage -l {{username}}`
 
 - Enable password expiration in 10 days:
 
-`sudo chage -M {{10}} {{user_name}}`
+`sudo chage -M {{10}} {{username}}`
 
 - Disable password expiration:
 
-`sudo chage -M -1 {{user_name}}`
+`sudo chage -M -1 {{username}}`
 
 - Set account expiration date:
 

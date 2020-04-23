@@ -1,6 +1,7 @@
 # gist
 
 > Upload code to https://gist.github.com.
+> More information: <https://github.com/defunkt/gist>.
 
 - Login in gist on this computer:
 
@@ -14,7 +15,7 @@
 
 `gist -p -d {{"A meaningful description"}} {{file.txt}} `
 
-- Read contents from STDIN and create a gist from it:
+- Read contents from `stdin` and create a gist from it:
 
 `{{echo "hello world"}} | gist`
 
@@ -24,7 +25,7 @@
 
 - List all gists for the currently logged in user:
 
-`gist -l {{user_name}}`
+`gist -l {{username}}`
 
 - Use the id from the gist URL to modify or include a file:
 

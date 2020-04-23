@@ -1,6 +1,7 @@
 # mpv
 
 > A audio/video player based on MPlayer.
+> More information: <https://mpv.io>.
 
 - Play a video or audio file:
 
@@ -24,4 +25,4 @@
 
 - Play a file using a profile defined in the `mpv.conf` file:
 
-`mpv --profile {{profile_name}} {{file}}`
+`mpv --profile {{profile_name}} {{file}}`

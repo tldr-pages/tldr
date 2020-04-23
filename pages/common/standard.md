@@ -1,6 +1,7 @@
 # standard
 
 > The JavaScript Standard Style tool for linting and fixing JavaScript code.
+> More information: <https://standardjs.com>.
 
 - Lint all JavaScript source files in the current directory:
 

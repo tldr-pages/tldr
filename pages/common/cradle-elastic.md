@@ -1,6 +1,7 @@
 # cradle elastic
 
 > Manage the ElasticSearch instances for a Cradle instance.
+> More information: <https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-Tools.html#elastic>.
 
 - Truncate the ElasticSearch index:
 

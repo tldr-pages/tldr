@@ -1,6 +1,6 @@
 # dmesg
 
-> Write the kernel messages to standard output.
+> Write the kernel messages to standard output.
 
 - Show kernel messages:
 

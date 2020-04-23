@@ -2,6 +2,7 @@
 
 > Compiles C++ source files.
 > Part of GCC (GNU Compiler Collection).
+> More information: <https://gcc.gnu.org>.
 
 - Compile a source code file into an executable binary:
 

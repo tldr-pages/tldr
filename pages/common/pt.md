@@ -2,6 +2,7 @@
 
 > Platinum Searcher.
 > A code search tool similar to `ag`.
+> More information: <https://github.com/monochromegane/the_platinum_searcher>.
 
 - Find files containing "foo" and print the files with highlighted matches:
 
@@ -19,6 +20,6 @@
 
 `pt -G='{{\.bar$}}' {{foo}}`
 
-- Find files whose contents match the regular expression, up to 2 folders deep:
+- Find files whose contents match the regular expression, up to 2 directories deep:
 
 `pt --depth={{2}} -e '{{^ba[rz]*$}}'`

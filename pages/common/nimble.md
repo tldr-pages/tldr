@@ -2,6 +2,7 @@
 
 > Package manager for the Nim programming language.
 > Manage Nim projects and their dependencies.
+> More information: <https://github.com/nim-lang/nimble>.
 
 - Search for packages:
 

@@ -1,6 +1,7 @@
 # shards
 
 > Dependency management tool for the Crystal language.
+> More information: <https://crystal-lang.org/reference/the_shards_command>.
 
 - Create a skeleton shard.yml file:
 
@@ -20,4 +21,4 @@
 
 - List version of dependency:
 
-`shards version {{path/to/dependency_folder}}`
+`shards version {{path/to/dependency_directory}}`

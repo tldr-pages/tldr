@@ -1,6 +1,7 @@
 # zopflipng
 
 > PNG image compression utility.
+> More information: <https://github.com/google/zopfli>.
 
 - Optimize a PNG image:
 

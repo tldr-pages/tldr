@@ -1,6 +1,7 @@
 # moro
 
 > Track work time.
+> More information: <https://moro.js.org>.
 
 - Invoke `moro` without parameters, to set the current time as the start of the working day:
 

@@ -1,6 +1,7 @@
 # darkhttpd
 
 > Darkhttpd web server.
+> More information: <https://unix4lyfe.org/darkhttpd>.
 
 - Start server serving the specified document root:
 

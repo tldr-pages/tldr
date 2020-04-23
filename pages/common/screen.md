@@ -26,6 +26,10 @@
 
 `Ctrl + A, D`
 
+- Kill the current screen session:
+
+`Ctrl + A, K`
+
 - Kill a detached screen:
 
 `screen -X -S {{session_name}} quit`

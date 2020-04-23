@@ -2,6 +2,7 @@
 
 > Sorts CSV files.
 > Included in csvkit.
+> More information: <https://csvkit.readthedocs.io/en/latest/scripts/csvsort.html>.
 
 - Sort a CSV file by column 9:
 

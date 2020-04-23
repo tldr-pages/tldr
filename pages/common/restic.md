@@ -1,14 +1,15 @@
 # restic
 
-> Fast, secure, efficient backup program.
+> A backup program that aims to be fast, secure and efficient.
+> More information: <https://restic.net>.
 
 - Initialize a backup repository in the specified local directory:
 
 `restic init -r {{path/to/repository}}`
 
-- Backup folder "my_folder" to the repository:
+- Backup a directory to the repository:
 
-`restic -r {{path/to/repository}} backup {{path/to/my_folder}}`
+`restic -r {{path/to/repository}} backup {{path/to/directory}}`
 
 - Show backup snapshots currently stored in the repository:
 

@@ -1,6 +1,7 @@
 # ffprobe
 
 > Multimedia stream analyzer.
+> More information: <https://ffmpeg.org/ffprobe.html>.
 
 - Display all available stream info for a media file:
 

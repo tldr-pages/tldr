@@ -2,6 +2,7 @@
 
 > Filter CSV rows with string and pattern matching.
 > Included in csvkit.
+> More information: <https://csvkit.readthedocs.io/en/latest/scripts/csvgrep.html>.
 
 - Find rows that have a certain string in column 1:
 

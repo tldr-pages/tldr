@@ -1,6 +1,7 @@
 # mocha
 
 > Execute Mocha JavaScript test runner.
+> More information: <https://mochajs.org>.
 
 - Run tests with default configuration or as configured in `mocha.opts`:
 
@@ -8,7 +9,7 @@
 
 - Run tests contained at a specific location:
 
-`mocha {{folder/with/tests}}`
+`mocha {{directory/with/tests}}`
 
 - Run tests that match a specific grep pattern:
 

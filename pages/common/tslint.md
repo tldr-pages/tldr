@@ -1,6 +1,7 @@
 # tslint
 
 > A pluggable linting utility for TypeScript.
+> More information: <https://palantir.github.io/tslint>.
 
 - Create tslint config:
 

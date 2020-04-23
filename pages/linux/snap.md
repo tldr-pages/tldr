@@ -11,6 +11,10 @@
 
 `snap install {{package_name}}`
 
+- Update a package:
+
+`snap refresh {{package_name}}`
+
 - Update all packages:
 
 `snap refresh`

@@ -1,6 +1,7 @@
 # hyperfine
 
 > A command-line benchmarking tool.
+> More information: <https://github.com/sharkdp/hyperfine/>.
 
 - Run a basic benchmark, performing at least 10 runs:
 
@@ -24,4 +25,4 @@
 
 - Run a benchmark where a single parameter changes for each run:
 
-`hyperfine --prepare '{{make clean}}' --parameter-scan num_threads {{1}} {{10}} '{{make -j {num_threads}}}'`
+`hyperfine --prepare '{{make clean}}' --parameter-scan {{num_threads}} {{1}} {{10}} '{{make -j {num_threads}}}'`

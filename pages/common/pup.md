@@ -1,6 +1,7 @@
 # pup
 
 > Command line HTML parsing tool.
+> More information: <https://github.com/ericchiang/pup>.
 
 - Transform a raw HTML file into a cleaned, indented, and colored format:
 

@@ -1,12 +1,13 @@
 # gibo
 
 > Fetch gitignore boilerplates.
+> More information: <https://github.com/simonwhitaker/gibo>.
 
 - List available boilerplates:
 
 `gibo list`
 
-- Write a boilerplate to stdout:
+- Write a boilerplate to `stdout`:
 
 `gibo dump {{boilerplate}}`
 

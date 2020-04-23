@@ -1,6 +1,7 @@
 # skicka
 
 > Manage your Google Drive.
+> More information: <https://github.com/google/skicka>.
 
 - Upload a file/folder to Google Drive:
 

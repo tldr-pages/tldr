@@ -1,6 +1,7 @@
 # python
 
 > Python language interpreter.
+> More information: <https://www.python.org>.
 
 - Call a Python interactive shell (REPL):
 

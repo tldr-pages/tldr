@@ -1,6 +1,7 @@
 # ctest
 
 > CMake test driver program.
+> More information: <https://gitlab.kitware.com/cmake/community/wikis/doc/ctest/Testing-With-CTest>.
 
 - Run all tests defined in the CMake project, executing 4 jobs at a time in parallel:
 

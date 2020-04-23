@@ -1,6 +1,7 @@
 # git add
 
 > Adds changed files to the index.
+> More information: <https://git-scm.com/docs/git-add>.
 
 - Add a file to the index:
 
@@ -18,6 +19,14 @@
 
 `git add -f`
 
-- Add parts of a file interactively:
+- Interactively stage parts of files:
+
+`git add -p`
+
+- Interactively stage parts of a given file:
 
 `git add -p {{path/to/file}}`
+
+- Interactively stage a file:
+
+`git add -i`

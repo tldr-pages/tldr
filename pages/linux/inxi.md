@@ -9,3 +9,7 @@
 - Print a full description of CPU, memory, disk, network and process information:
 
 `inxi -Fz`
+
+- Print information about the distribution's repository:
+
+`inxi -r`

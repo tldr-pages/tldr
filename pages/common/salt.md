@@ -1,6 +1,7 @@
 # salt
 
 > Execute commands and assert state on remote salt minions.
+> More information: <https://docs.saltstack.com/ref/cli/salt.html>.
 
 - List connected minions:
 
@@ -12,7 +13,7 @@
 
 - Upgrade packages using the OS package manager (apt, yum, brew) on a subset of minions:
 
-`salt '*.domain.com' pkg.upgrade`
+`salt '*.example.com' pkg.upgrade`
 
 - Execute an arbitrary command on a particular minion:
 

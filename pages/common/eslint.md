@@ -1,6 +1,7 @@
 # eslint
 
 > A pluggable linting utility for JavaScript and JSX.
+> More information: <https://eslint.org>.
 
 - Create eslint config:
 

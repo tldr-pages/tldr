@@ -1,6 +1,7 @@
 # choco install
 
 > Install one or more packages with Chocolatey.
+> More information: <https://chocolatey.org/docs/commands-install>.
 
 - Install one or more space-separated packages:
 

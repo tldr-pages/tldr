@@ -2,6 +2,7 @@
 
 > Display the location of files that match the search pattern.
 > Defaults to current work directory and paths in the PATH environment variable.
+> More information: <https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/where>.
 
 - Display the location of file pattern:
 

@@ -1,14 +1,15 @@
 # ack
 
 > A search tool like grep, optimized for programmers.
+> More information: <https://beyondgrep.com/documentation/>.
 
 - Find files containing "foo":
 
 `ack {{foo}}`
 
-- Find files in a specific language:
+- Find files of a specific type:
 
-`ack --ruby {{each_with_object}}`
+`ack --ruby {{foo}}`
 
 - Count the total number of matches for the term "foo":
 
@@ -25,3 +26,7 @@
 - Search file "my_file" for regex pattern "[bB]ar \d+"
 
 `ack bar "{{[bB]ar \d+}}" {{my_file}}`
+
+- List all valid types:
+
+`ack --help=types`

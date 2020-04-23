@@ -1,6 +1,7 @@
 # yarn
 
 > JavaScript and Node.js package manager alternative.
+> More information: <https://yarnpkg.com>.
 
 - Install a module globally:
 

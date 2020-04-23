@@ -7,7 +7,7 @@
 
 `samtools view -S -b {{input.sam}} > {{output.bam}}`
 
-- Take input from stdin (-) and print the SAM header and any reads overlapping a specific region to stdout:
+- Take input from stdin (-) and print the SAM header and any reads overlapping a specific region to `stdout`:
 
 `{{other_command}} | samtools view -h - chromosome:start-end`
 
@@ -29,7 +29,7 @@
 
 - Merge multiple files:
 
-`samtools merge {{output}} {{input_1}} [{{input_2}}...]`
+`samtools merge {{output}} {{input1 input2 …}}`
 
 - Split input file according to read groups:
 

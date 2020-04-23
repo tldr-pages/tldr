@@ -1,10 +1,15 @@
 # gcloud
 
 > The official CLI tool for Google Cloud Platform.
+> More information: <https://cloud.google.com/sdk/gcloud>.
 
 - List all properties in one's active configuration:
 
 `gcloud config list`
+
+- Login to Google account:
+
+`gcloud auth login`
 
 - Set the active project:
 

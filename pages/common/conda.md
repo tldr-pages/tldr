@@ -1,6 +1,7 @@
 # conda
 
 > Package, dependency and environment management for any programming language.
+> More information: <https://github.com/conda/conda>.
 
 - Create a new environment, installing named packages into it:
 
@@ -12,7 +13,7 @@
 
 - Load or unload an environment:
 
-`source {{activate|deactivate}} {{environment_name}}`
+`conda {{activate|deactivate}} {{environment_name}}`
 
 - Delete an environment (remove all packages):
 

@@ -1,14 +1,15 @@
 # gitk
 
 > A graphical git repository browser.
+> More information: <https://git-scm.com/docs/gitk>.
 
 - Show the repository browser for the current git repository:
 
 `gitk`
 
-- Show repository browser for a specific file or folder:
+- Show repository browser for a specific file or directory:
 
-`gitk {{path/to/file_or_folder}}`
+`gitk {{path/to/file_or_directory}}`
 
 - Show commits made since 1 week ago:
 

@@ -1,6 +1,7 @@
 # scoop
 
 > A command-line installer for Windows.
+> More information: <https://scoop.sh>.
 
 - Install a package:
 

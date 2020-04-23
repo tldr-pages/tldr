@@ -2,6 +2,7 @@
 
 > Atom editor Package Manager.
 > See `atom`.
+> More information: <https://github.com/atom/apm>.
 
 - Install packages from http://atom.io/packages and themes from http://atom.io/themes:
 

@@ -1,6 +1,7 @@
 # mongo
 
 > MongoDB interactive shell client.
+> More information: <https://docs.mongodb.com/manual/reference/program/mongo>.
 
 - Connect to a database:
 

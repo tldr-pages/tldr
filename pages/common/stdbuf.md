@@ -4,7 +4,7 @@
 
 - Change the standard input buffer size to 512 KiB:
 
-`stderr --input={{512K}} {{command}}`
+`stdbuf --input={{512K}} {{command}}`
 
 - Change the standard output buffer to line-buffered:
 

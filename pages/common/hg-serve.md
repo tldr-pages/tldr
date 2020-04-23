@@ -1,6 +1,7 @@
 # hg serve
 
 > Start a standalone Mercurial web server for browsing repositories.
+> More information: <https://www.mercurial-scm.org/doc/hg.1.html#serve>.
 
 - Start a web server instance:
 

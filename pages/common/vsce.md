@@ -1,6 +1,7 @@
 # vsce
 
 > Extension manager for Visual Studio Code.
+> More information: <https://github.com/microsoft/vscode-vsce>.
 
 - List all the extensions created by a publisher:
 

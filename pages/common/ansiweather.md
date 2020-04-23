@@ -1,6 +1,7 @@
 # ansiweather
 
 > A shell script for displaying the current weather conditions in your terminal.
+> More information: <https://github.com/fcambus/ansiweather>.
 
 - Display a forecast using metric units for the next five days for Rzeszow, Poland:
 

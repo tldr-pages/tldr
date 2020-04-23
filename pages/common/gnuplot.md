@@ -1,6 +1,7 @@
 # gnuplot
 
 > A graph plotter that outputs in several formats.
+> More information: <http://www.gnuplot.info/>.
 
 - Start the interactive graph plotting shell:
 

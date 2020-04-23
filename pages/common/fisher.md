@@ -2,6 +2,7 @@
 
 > Fisher, a fish-shell plugin manager.
 > Install plugins by name or from a managed 'fishfile' for bundled installs.
+> More information: <https://github.com/jorgebucaran/fisher>.
 
 - Install one or more plugins:
 

@@ -1,6 +1,7 @@
 # jpegoptim
 
 > Optimise JPEG images.
+> More information: <https://github.com/tjko/jpegoptim>.
 
 - Optimise a set of JPEG images, retaining all associated data:
 

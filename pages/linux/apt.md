@@ -1,6 +1,7 @@
 # apt
 
 > Package management utility for Debian based distributions.
+> Recommended replacement for apt-get when used interactively in Ubuntu versions 16.04 and later.
 
 - Update the list of available packages and versions (it's recommended to run this before other `apt` commands):
 
@@ -25,3 +26,11 @@
 - Upgrade all installed packages to their newest available versions:
 
 `sudo apt upgrade`
+
+- List all packages:
+
+`apt list`
+
+- List installed packages:
+
+`apt list --installed`

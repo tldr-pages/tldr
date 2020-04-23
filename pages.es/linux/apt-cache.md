@@ -1,0 +1,23 @@
+# apt-cache
+
+> Herramienta de consulta de paquete de Debian y Ubuntu.
+
+- Busca un paquete en tus fuentes actuales:
+
+`apt-cache search {{consulta}}`
+
+- Muestra información de un paquete:
+
+`apt-cache show {{paquete}}`
+
+- Muestra  si un paquete está instalado y actualizado:
+
+`apt-cache policy {{paquete}}`
+
+- Muestra las dependencias de un paquete:
+
+`apt-cache depends {{paquete}}`
+
+- Muestra los paquetes que dependen de un paquete en particular:
+
+`apt-cache rdepends {{paquete}}`

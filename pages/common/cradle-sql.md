@@ -1,6 +1,7 @@
 # cradle sql
 
 > Manage Cradle SQL databases.
+> More information: <https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-Tools.html#sql>.
 
 - Rebuild the database schema:
 

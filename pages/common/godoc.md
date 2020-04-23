@@ -1,6 +1,7 @@
 # godoc
 
 > Show documentation for go packages.
+> More information: <https://godoc.org/>.
 
 - Display help for package "fmt":
 

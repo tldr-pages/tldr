@@ -1,6 +1,7 @@
 # gdb
 
 > The GNU Debugger.
+> More information: <https://www.gnu.org/software/gdb>.
 
 - Debug an executable:
 
@@ -9,6 +10,10 @@
 - Attach a process to gdb:
 
 `gdb -p {{procID}}`
+
+- Debug with a core file:
+
+`gdb -c {{core}} {{executable}}`
 
 - Execute given GDB commands upon start:
 

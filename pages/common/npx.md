@@ -1,6 +1,7 @@
 # npx
 
 > Execute binaries from `npm` packages.
+> More information: <https://www.npmjs.com/package/npx>.
 
 - Execute the binary from a given npm module:
 

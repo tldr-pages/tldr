@@ -2,6 +2,7 @@
 
 > Simple and unified Python development workflow.
 > Manages packages and the virtual environment for a project.
+> More information: <https://pypi.org/project/pipenv>.
 
 - Create a new project:
 

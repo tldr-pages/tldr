@@ -1,6 +1,7 @@
 # peerflix
 
 > Stream video- or audio-based torrents to a media player.
+> More information: <https://github.com/mafintosh/peerflix>.
 
 - Stream the largest media file in a torrent:
 

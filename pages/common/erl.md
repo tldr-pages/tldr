@@ -1,6 +1,7 @@
 # erl
 
 > Run and manage programs in the Erlang programming language.
+> More information: <https://www.erlang.org>.
 
 - Compile and run sequential Erlang program as a common script and then exit:
 

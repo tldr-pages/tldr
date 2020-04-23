@@ -2,6 +2,7 @@
 
 > Apache Maven.
 > Tool for building and managing Java-based projects.
+> More information: <https://maven.apache.org>.
 
 - Compile a project:
 
@@ -19,7 +20,7 @@
 
 `mvn install`
 
-- Delete build artifacts from the target folder:
+- Delete build artifacts from the target directory:
 
 `mvn clean`
 

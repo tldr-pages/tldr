@@ -1,6 +1,7 @@
 # pdftk
 
 > PDF toolkit.
+> More information: <https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit>.
 
 - Extract pages 1-3, 5 and 6-10 from a PDF file and save them as another one:
 
@@ -8,7 +9,7 @@
 
 - Merge (concatenate) a list of PDF files and save the result as another one:
 
-`pdftk {{file1.pdf}} {{file2.pdf}} ... cat output {{output.pdf}}`
+`pdftk {{file1.pdf file2.pdf …}} cat output {{output.pdf}}`
 
 - Split each page of a PDF file into a separate file, with a given filename output pattern:
 

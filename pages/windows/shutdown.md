@@ -1,10 +1,15 @@
 # shutdown
 
 > A tool for shutting down, restarting or logging off a machine.
+> More information: <https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/shutdown>.
 
 - Shutdown the current machine:
 
 `shutdown /s`
+
+- Shutdown the current machine force-closing all apps:
+
+`shutdown /s /f`
 
 - Restart the current machine:
 

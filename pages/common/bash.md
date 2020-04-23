@@ -2,6 +2,7 @@
 
 > Bourne-Again SHell.
 > `sh`-compatible command line interpreter.
+> More information: <https://gnu.org/software/bash>.
 
 - Start interactive shell:
 
@@ -19,7 +20,11 @@
 
 `bash -x {{file.sh}}`
 
-- Run commands from STDIN:
+- Run commands from a file, stopping at the first error:
+
+`bash -e {{file.sh}}`
+
+- Run commands from `stdin`:
 
 `bash -s`
 

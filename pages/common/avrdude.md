@@ -1,6 +1,7 @@
 # avrdude
 
 > Driver program for Atmel AVR microcontrollers programming.
+> More information: <https://www.nongnu.org/avrdude/>.
 
 - Read AVR microcontroller:
 

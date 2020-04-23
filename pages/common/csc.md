@@ -1,6 +1,7 @@
 # csc
 
 > The Microsoft C# Compiler.
+> More information: <https://docs.microsoft.com/dotnet/csharp/language-reference/compiler-options/command-line-building-with-csc-exe>.
 
 - Compile one or more C# files to a CIL executable:
 
@@ -20,7 +21,7 @@
 
 - Embed a resource:
 
-`csc /resource:{{path/to/target_file.cs}},{{namespace.string.name}} {{path/to/input_file.cs}}`
+`csc /resource:{{path/to/resource_file}} {{path/to/input_file.cs}}`
 
 - Automatically generate XML documentation:
 

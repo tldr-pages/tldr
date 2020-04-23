@@ -1,6 +1,7 @@
 # berks
 
 > Chef cookbook dependency manager.
+> More information: <https://docs.chef.io/berkshelf.html>.
 
 - Install cookbook dependencies into a local repo:
 

@@ -2,6 +2,7 @@
 
 > Fast download utility.
 > Supports HTTP(S), FTP, SFTP, BitTorrent, and Metalink.
+> More information: <https://aria2.github.io>.
 
 - Download a URI to a file:
 

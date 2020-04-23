@@ -2,6 +2,7 @@
 
 > Converts various tabular data formats into CSV.
 > Included in csvkit.
+> More information: <https://csvkit.readthedocs.io/en/latest/scripts/in2csv.html>.
 
 - Convert an XLS file to CSV:
 

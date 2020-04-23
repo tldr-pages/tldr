@@ -1,6 +1,7 @@
 # openssl
 
 > OpenSSL cryptographic toolkit.
+> More information: <https://www.openssl.org>.
 
 - Generate a 2048bit RSA private key and save it to a file:
 
@@ -17,6 +18,10 @@
 - Display certificate information:
 
 `openssl x509 -in {{filename.crt}} -noout -text`
+
+- Display a certificate's expiration date:
+
+`openssl x509 -enddate -noout -in {{filename.pem}}`
 
 - Display the start and expiry dates for a domain's certificate:
 

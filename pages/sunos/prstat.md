@@ -18,6 +18,6 @@
 
 `prstat -m`
 
-- Print out a list of top 5 cpu using processes every second:
+- Print out a list of top 5 CPU using processes every second:
 
 `prstat -c -n 5 -s cpu 1`

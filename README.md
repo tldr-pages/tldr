@@ -5,7 +5,6 @@
 [![Merged PRs][prs-merged-image]][prs-merged-url]
 [![Issue stats][issuestats-image]][issuestats-url]
 [![GitHub contributors][contributors-image]][contributors-url]
-[![Number of files][tokei-image]][tokei-url]
 [![license][license-image]][license-url]
 
 [travis-url]: https://travis-ci.org/tldr-pages/tldr/builds
@@ -18,10 +17,8 @@
 [issuestats-image]: http://isitmaintained.com/badge/resolution/tldr-pages/tldr.svg
 [contributors-url]: https://github.com/tldr-pages/tldr/graphs/contributors
 [contributors-image]: https://img.shields.io/github/contributors/tldr-pages/tldr.svg
-[tokei-url]: https://github.com/tldr-pages/tldr/tree/master/pages
-[tokei-image]: https://tokei.rs/b1/github/tldr-pages/tldr?category=files
 [license-url]: https://github.com/tldr-pages/tldr/blob/master/LICENSE.md
-[license-image]: https://img.shields.io/github/license/tldr-pages/tldr.svg
+[license-image]: https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey.svg
 
 A collection of simplified and community-driven man pages.
 
@@ -46,26 +43,25 @@ Surely people could benefit from simplified man pages
 focused on practical examples.
 How about:
 
-![tldr screenshot](screenshot.png)
+![tldr screenshot](images/screenshot.png)
 
 This repository is just that: an ever-growing collection of examples
-for the most common UNIX / Linux / macOS / SunOS commands.
+for the most common UNIX, Linux, macOS, SunOS and Windows commands.
 
 ## Clients
 
 You can access these pages on your computer using one of the following clients:
 
 - [Alfred Workflow](https://github.com/cs1707/tldr-alfred)
+- [Albert Plugin](https://github.com/bergercookie/awesome-albert-plugins/tree/master/plugins/tldr_pages)
 - Android clients:
-  - [tldr-viewer](https://github.com/gianasista/tldr-viewer), available on
-    [Google Play](https://play.google.com/store/apps/details?id=de.gianasista.tldr_viewer)
   - [tldroid](https://github.com/hidroh/tldroid), available on
-    [Google Play](https://play.google.com/store/apps/details?id=io.github.hidroh.tldroid)
+    [Google Play](https://play.google.com/store/apps/details?id=io.github.hidroh.tldroid) *(outdated)*
 - Bash clients:
   - [tldr](https://github.com/raylee/tldr)
   - [tldr-bash-client](https://gitlab.com/pepa65/tldr-bash-client)
 - [C# client](https://github.com/principis/tldr-sharp)
-- [C++ client](https://github.com/tldr-pages/tldr-cpp-client):
+- [C client](https://github.com/tldr-pages/tldr-cpp-client):
   `brew install tldr`
 - [Chrome Extension](https://github.com/hill/tldr-chrome) available on
   [Chrome Web Store](https://chrome.google.com/webstore/detail/tldr-chrome/nnmlddkpgoecicoallmimonoboialpap)
@@ -74,7 +70,7 @@ You can access these pages on your computer using one of the following clients:
 - [Dart client](https://github.com/hterkelsen/tldr):
   `pub global activate tldr`
 - [Dash docset](https://github.com/Moddus/tldr-python-dash-docset):
-  Open `Preferences > Downloads > User Contributed` and find `tldr pages` in the list
+  Open `Preferences` > `Downloads` > `User Contributed` and find `tldr pages` in the list
 - Docker images:
     - [tldr-docker](https://github.com/nutellinoit/tldr-docker)- Run the `tldr` command via a docker container: `alias tldr='docker run --rm -it -v ~/.tldr/:/root/.tldr/ nutellinoit/tldr'`
 - [Elixir client](https://github.com/edgurgel/tldr_elixir_client)
@@ -88,6 +84,12 @@ You can access these pages on your computer using one of the following clients:
   - [4d63.com/tldr](https://4d63.com/tldr):
     `go get 4d63.com/tldr` or `brew install 4d63/tldr/tldr`
     (or [platform binaries](https://github.com/leighmcculloch/tldr/releases))
+  - [github.com/elecprog/tldr](https://github.com/elecprog/tldr):
+    `go get github.com/elecprog/tldr`
+    (or [platform binaries](https://github.com/elecprog/tldr/releases))
+  - [github.com/isacikgoz/tldr](https://github.com/isacikgoz/tldr):
+    `go get github.com/isacikgoz/tldr`
+    (or [platform binaries](https://github.com/isacikgoz/tldr/releases))
 - iOS clients:
   - [tldr-man-page](https://github.com/freesuraj/TLDR), available on
     [App Store](https://appsto.re/sg/IQ0-_.i)
@@ -95,6 +97,7 @@ You can access these pages on your computer using one of the following clients:
     [App Store](https://itunes.apple.com/us/app/tldt-pages/id1071725095?ls=1&mt=8)
 - [Haskell client](https://github.com/psibi/tldr-hs):
   `stack install tldr`
+  or `apt-get install tldr` on Debian-based distributions
 - [Node.js client](https://github.com/tldr-pages/tldr-node-client):
   `npm install -g tldr`
 - [OCaml client](https://github.com/RosalesJ/tldr-ocaml): `opam install tldr`
@@ -104,23 +107,21 @@ You can access these pages on your computer using one of the following clients:
   `composer global require brainmaestro/tldr`
 - Python clients:
   - [tldr-python-client](https://github.com/tldr-pages/tldr-python-client):
-    `pip install tldr`
+    `pip install tldr` or `pacman -S tldr` on Arch Linux
   - [tldr.py](https://github.com/lord63/tldr.py):
-    `pip install tldr.py`
+    `pip install tldr.py` or `apt-get install tldr-py` on Debian-based distributions
 - [R client](https://github.com/kirillseva/tldrrr):
   `devtools::install_github('kirillseva/tldrrr')`
 - [Ruby client](https://github.com/YellowApple/tldrb):
   `gem install tldrb`
-- Rust clients:
-    - [rust-tldr](https://github.com/rilut/rust-tldr)
-      (thin client with online lookup):
-      `cargo install tldr`
-    - [tealdeer](https://github.com/dbrgn/tealdeer)
-      (fully featured client with offline cache):
-      `cargo install tealdeer`
+- [Rust client](https://github.com/dbrgn/tealdeer):
+  `cargo install tealdeer`
+- [Vim Client](https://github.com/wlemuel/vim-tldr)
+- [Visual Studio Code extension](https://github.com/bmuskalla/vscode-tldr) available on [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=bmuskalla.vscode-tldr)
 - Web clients:
     - [tldr.jsx](https://github.com/ostera/tldr.jsx): http://tldr.ostera.io/
     - [DistroWatch](https://distrowatch.com/dwres.php?resource=man-pages)
+    - [tldr.ooops.me](https://tldr.ooops.me): web client with multilingual support
 
 There is also a comprehensive
 [list of clients in our Wiki](https://github.com/tldr-pages/tldr/wiki/TLDR-clients).
@@ -136,7 +137,7 @@ Have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!
 
 ## Similar projects
 
-- [Cheat](https://github.com/chrisallenlane/cheat)
+- [Cheat](https://github.com/cheat/cheat)
   allows you to create and view interactive cheatsheets on the command-line.
   It was designed to help remind *nix system administrators of options
   for commands that they use frequently, but not frequently enough to remember.

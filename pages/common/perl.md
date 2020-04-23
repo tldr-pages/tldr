@@ -1,6 +1,7 @@
 # perl
 
 > The Perl 5 language interpreter.
+> More information: <https://www.perl.org>.
 
 - Parse and execute a Perl script:
 
@@ -10,7 +11,7 @@
 
 `perl -c {{script.pl}}`
 
-- Parse and execute a perl statement:
+- Parse and execute a Perl statement:
 
 `perl -e {{perl_statement}}`
 
@@ -29,3 +30,7 @@
 - Run a multi-line find/replace expression on a file, and save the result in another file:
 
 `perl -p0e 's/{{foo\nbar}}/{{foobar}}/g' {{input_file}} > {{output_file}}`
+
+- Run a regular expression on `stdin`, printing out the first capture group for each line:
+
+`cat {{path/to/input_file}} | perl -nle 'if (/.*({{foo}}).*/) {print "$1"; last;}'`

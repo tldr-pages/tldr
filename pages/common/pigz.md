@@ -1,6 +1,7 @@
 # pigz
 
 > Multithreaded zlib compression utility.
+> More information: <https://github.com/madler/pigz>.
 
 - Compress a file with default options:
 
@@ -13,6 +14,10 @@
 - Compress a file using no compression and 4 processors:
 
 `pigz -0 -p{{4}} {{filename}}`
+
+- Compress a directory using tar:
+
+`tar cf - {{path/to/directory}} | pigz > {{filename}}.tar.gz`
 
 - Decompress a file:
 

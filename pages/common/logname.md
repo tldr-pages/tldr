@@ -1,4 +1,4 @@
-# logname 
+# logname
 
 > Shows the user's login name.
 

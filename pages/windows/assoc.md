@@ -1,6 +1,7 @@
 # assoc
 
 > Display or modify file extension associations.
+> More information: <https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/assoc>.
 
 - Display all associated filetypes:
 

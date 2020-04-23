@@ -1,6 +1,7 @@
 # emacsclient
 
 > Open files in an existing emacs server.
+> More information: <https://www.emacswiki.org/emacs/EmacsClient>.
 
 - Open files in an existing Emacs server (using GUI if available):
 

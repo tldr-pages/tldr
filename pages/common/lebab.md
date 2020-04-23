@@ -2,6 +2,7 @@
 
 > A JavaScript modernizer for transpiling code to ES6/ES7.
 > Transformations must be provided for all examples.
+> More information: <https://github.com/lebab/lebab>.
 
 - Display a list of the available transformations:
 
@@ -11,7 +12,7 @@
 
 `lebab --transform {{transformation}}`
 
-- Transpile a file to stdout:
+- Transpile a file to `stdout`:
 
 `lebab {{path/to/input_file}}`
 

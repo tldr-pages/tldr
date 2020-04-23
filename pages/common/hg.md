@@ -2,6 +2,7 @@
 
 > A command line interface for Mercurial, a distributed source control management system.
 > See `hg-add`, `hg-commit` and other pages for additional information.
+> More information: <https://www.mercurial-scm.org>.
 
 - Execute Mercurial command:
 

@@ -1,6 +1,7 @@
 # choco search
 
 > Search for a local or remote package with Chocolatey.
+> More information: <https://chocolatey.org/docs/commands-search>.
 
 - Search for a package:
 

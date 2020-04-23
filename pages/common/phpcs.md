@@ -1,6 +1,7 @@
 # phpcs
 
 > Tokenize PHP, JavaScript and CSS files to detect violations of a defined set of coding standards.
+> More information: <https://github.com/squizlabs/PHP_CodeSniffer>.
 
 - Sniff the specified directory for issues (defaults to the PEAR standard):
 

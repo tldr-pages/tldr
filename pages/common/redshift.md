@@ -1,6 +1,7 @@
 # redshift
 
 > Adjust the color temperature of your screen according to your surroundings.
+> More information: <https://jonls.dk/redshift>.
 
 - Turn on Redshift with 5700K temperature during day and 3600K at night:
 

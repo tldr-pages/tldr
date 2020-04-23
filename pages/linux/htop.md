@@ -1,6 +1,6 @@
 # htop
 
-> Display dynamic real-time information about running processes.  An enhanced version of `top`.
+> Display dynamic real-time information about running processes. An enhanced version of `top`.
 
 - Start htop:
 
@@ -8,7 +8,7 @@
 
 - Start htop displaying only processes owned by given user:
 
-`htop -u {{user_name}}`
+`htop -u {{username}}`
 
 - Get help about interactive commands:
 

@@ -1,6 +1,7 @@
 # cmd
 
 > The Windows command interpreter.
+> More information: <https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/cmd>.
 
 - Start a new instance of the command interpreter:
 

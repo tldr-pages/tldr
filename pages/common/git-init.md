@@ -1,6 +1,7 @@
 # git init
 
 > Initializes a new local Git repository.
+> More information: <https://git-scm.com/docs/git-init>.
 
 - Initialize a new local repository:
 

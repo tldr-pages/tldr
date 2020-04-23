@@ -1,6 +1,7 @@
 # rdpsign
 
 > A tool for signing Remote Desktop Protocol (RDP) files.
+> More information: <https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/rdpsign>.
 
 - Sign an RDP file:
 
@@ -18,6 +19,6 @@
 
 `rdpsign {{path/to/file.rdp}} /v`
 
-- Test the signing by displaying the output to stdout without updating the file:
+- Test the signing by displaying the output to `stdout` without updating the file:
 
 `rdpsign {{path/to/file.rdp}} /l`

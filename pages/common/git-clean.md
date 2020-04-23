@@ -1,6 +1,7 @@
 # git clean
 
 > Remove untracked files from the working tree.
+> More information: <https://git-scm.com/docs/git-clean>.
 
 - Delete files that are not tracked by git:
 

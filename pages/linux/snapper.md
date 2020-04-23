@@ -1,6 +1,7 @@
 # snapper
 
 > Filesystem snapshot management tool.
+> More information: <http://snapper.io/manpages/snapper.html>.
 
 - List snapshot configs:
 
@@ -10,13 +11,13 @@
 
 `snapper -c {{config}} create-config {{path/to/directory}}`
 
+- Create a snapshot with a description:
+
+`snapper -c {{config}} create -d {{"snapshot_description"}}`
+
 - List snapshots for a config:
 
 `snapper -c {{config}} list`
-
-- Create a new snapshot:
-
-`snapper -c {{config}} snapshot`
 
 - Delete a snapshot:
 

@@ -2,6 +2,7 @@
 
 > Web application to create and share documents that contain code, visualizations and notes.
 > Primarily used for data analysis, scientific computing and machine learning.
+> More information: <https://jupyter.org>.
 
 - Start a Jupyter notebook server in the current directory:
 
