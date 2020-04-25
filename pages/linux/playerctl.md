@@ -1,6 +1,7 @@
 # playerctl
 
 > Utility to control different media players.
+> More information: <https://github.com/altdesktop/playerctl>.
 
 - Toggle play:
 
@@ -20,7 +21,7 @@
 
 - Send a command to a specific player:
 
-`playerctl --player = {{player_name}} {{command}}`
+`playerctl --player={{player_name}} {{command}}`
 
 - Send a command to all players:
 
