@@ -27,6 +27,6 @@
 
 `playerctl --all-players {{command}}`
 
-- Show what's playing now:
+- Show now playing:
 
-`playerctl metadata --format "{{artist}} - {{album}} - {{title}}"`
+`playerctl metadata --format "Now playing: {{artist}} - {{album}} - {{title}}"`
