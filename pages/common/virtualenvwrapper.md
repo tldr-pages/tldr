@@ -3,17 +3,17 @@
 > Group of simple wrapper commands for Python's `virtualenv` tool.
 > More information: <http://virtualenvwrapper.readthedocs.org>.
 
-- Create a new Python `virtualenv`; It will be created in `$WORKON_HOME`:
+- Create a new Python `virtualenv` in `$WORKON_HOME`:
 
-`mkvirtualenv {{virtual_env_name}}`
+`mkvirtualenv {{virtualenv_name}}`
 
 - Create a `virtualenv` for a specific Python version:
 
-`mkvirtualenv --python {{/usr/local/bin/python2.7}} {{virtual_env_name}}`
+`mkvirtualenv --python {{/usr/local/bin/python2.7}} {{virtualenv_name}}`
 
 - Activate or use a different `virtualenv`:
 
-`workon {{virtual_env_name}}`
+`workon {{virtualenv_name}}`
 
 - Stop the `virtualenv`:
 
@@ -25,7 +25,7 @@
 
 - Remove a `virtualenv`:
 
-`rmvirtualenv {{virtual_env_name}}`
+`rmvirtualenv {{virtualenv_name}}`
 
 - Get summary of all virtualenvwrapper commands:
 
