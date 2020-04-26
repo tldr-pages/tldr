@@ -1,6 +1,6 @@
 # virtualenvwrapper
 
-> Group of simple wrapper commands for Python's `virtualenv` tool. 
+> Group of simple wrapper commands for Python's `virtualenv` tool.
 > More information: <http://virtualenvwrapper.readthedocs.org>.
 
 - Create a new Python `virtualenv`; It will be created in `$WORKON_HOME`:
