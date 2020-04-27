@@ -1,0 +1,23 @@
+# fdesetup
+
+> Set and retrieve FileVault related information. Sudo required for most commands.
+
+- List current FileVault enabled users:
+
+`sudo fdesetup list`
+
+- Get current FileVault status:
+
+`sudo fdesetup status`
+
+- Add fileVault enabled user:
+
+`sudo fdesetup add -usertoadd user1`
+
+- Enable FileVault:
+
+`sudo fdesetup enable' 
+
+- Disable FileVault: 
+
+`sudo fdesetup disable`
