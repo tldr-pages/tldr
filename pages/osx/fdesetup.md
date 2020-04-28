@@ -10,7 +10,7 @@
 
 `sudo fdesetup status`
 
-- Add fileVault enabled user:
+- Add FileVault enabled user:
 
 `sudo fdesetup add -usertoadd user1`
 
