@@ -16,8 +16,8 @@
 
 - Enable FileVault:
 
-`sudo fdesetup enable' 
+`sudo fdesetup enable`
 
-- Disable FileVault: 
+- Disable FileVault:
 
 `sudo fdesetup disable`
