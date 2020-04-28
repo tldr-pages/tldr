@@ -1,6 +1,7 @@
 # fdesetup
 
-> Set and retrieve FileVault related information. Sudo required for most commands.
+> Set and retrieve FileVault related information.
+> Sudo required for most commands.
 
 - List current FileVault enabled users:
 
