@@ -8,7 +8,7 @@
 
 - Get current FileVault status:
 
-`sudo fdesetup status`
+`fdesetup status`
 
 - Add FileVault enabled user:
 
