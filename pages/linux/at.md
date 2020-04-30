@@ -16,4 +16,4 @@
 
 - Display a system notification at 11pm on February 18th:
 
-`echo "notify-send {{Wake up!}}" | at {{11pm}} {{Feb 18}}`
+`echo "notify-send '{{Wake up!}}'" | at {{11pm}} {{Feb 18}}`
