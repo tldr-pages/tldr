@@ -12,16 +12,16 @@
 
 - Display information about a specific network interface:
 
-`ip address show dev {{network_interface}}`
+`ip address show dev {{eth0}}`
 
 - Add an IP address to a network interface:
 
-`ip address add {{ip_address}} dev {{network_interface}}`
+`ip address add {{ip_address}} dev {{eth0}}`
 
 - Remove an IP address from a network interface:
 
-`ip address delete {{ip_address}} dev {{network_interface}}`
+`ip address delete {{ip_address}} dev {{eth0}}`
 
 - Delete all IP addresses in a given scope from a network interface:
 
-`ip address flush dev {{network_interface}} scope {{global|host|link}}`
+`ip address flush dev {{eth0}} scope {{global|host|link}}`
