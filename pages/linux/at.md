@@ -14,6 +14,6 @@
 
 `at {{hh:mm:ss}} -f {{path/to/file}}`
 
-- Send a notification at 11pm on February 18th:
+- Display a system notification at 11pm on February 18th:
 
 `echo "notify-send {{Wake up!}}" | at {{11pm}} {{Feb 18}}`
