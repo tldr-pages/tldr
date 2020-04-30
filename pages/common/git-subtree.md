@@ -11,14 +11,14 @@
 
 `git subtree pull --prefix={{path/to/directory/}} {{repository_url}} {{master}}`
 
-- Merge subtree repository:
+- Merge a subtree repository into master:
 
 `git subtree merge --prefix={{path/to/directory/}} --squash {{repository_url}} {{master}}`
 
-- Push commits to subtree repository:
+- Push commits to a subtree repository:
 
 `git subtree push --prefix={{path/to/directory/}} {{repository_url}} {{master}}`
 
-- Extract a new porject history from the history of subtree:
+- Extract a new project history from the history of subtree:
 
 `git subtree split --prefix={{path/to/directory/}} {{repository_url}} -b {{branch_name}}`
