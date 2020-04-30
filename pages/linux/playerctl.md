@@ -1,6 +1,7 @@
 # playerctl
 
 > Utility to control different media players.
+> More information: <https://github.com/altdesktop/playerctl>.
 
 - Toggle play:
 
