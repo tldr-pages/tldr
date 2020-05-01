@@ -1,6 +1,6 @@
 # git subtree
 
-> Merge subtrees together and split repository into subtrees.
+> Tool to manage project dependencies as subprojects
 > More information: <https://manpages.debian.org/testing/git-man/git-subtree.1.en.html>.
 
 - Add a git repository as a subtree:
@@ -19,6 +19,6 @@
 
 `git subtree push --prefix={{path/to/directory/}} {{repository_url}} {{master}}`
 
-- Extract a new project history from the history of subtree:
+- Extract a new project history from the history of a subtree:
 
 `git subtree split --prefix={{path/to/directory/}} {{repository_url}} -b {{branch_name}}`
