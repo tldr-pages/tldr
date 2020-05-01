@@ -9,7 +9,7 @@
 
 - Create a `virtualenv` for a specific Python version:
 
-`mkvirtualenv --python {{/usr/local/bin/python2.7}} {{virtualenv_name}}`
+`mkvirtualenv --python {{/usr/local/bin/python3.8}} {{virtualenv_name}}`
 
 - Activate or use a different `virtualenv`:
 
