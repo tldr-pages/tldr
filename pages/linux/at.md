@@ -13,3 +13,7 @@
 - Execute a script at the given time:
 
 `at {{hh:mm:ss}} -f {{path/to/file}}`
+
+- Display a system notification at 11pm on February 18th:
+
+`echo "notify-send '{{Wake up!}}'" | at {{11pm}} {{Feb 18}}`
