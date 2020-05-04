@@ -1,6 +1,6 @@
 # git show-branch
 
-> Show branches and their commits
+> Show branches and their commits.
 > More information: <https://git-scm.com/docs/git-show-branch>.
 
 - Show a summary of the latest commit on a branch:
