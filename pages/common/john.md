@@ -25,7 +25,7 @@
 
 - Crack password hashes, using a specific hash format:
 
-`john --format={{hash_format}} {{path/to/hashes.txt}}`
+`john --format={{md5crypt}} {{path/to/hashes.txt}}`
 
 - Crack password hashes, enabling word mangling rules:
 
