@@ -1,6 +1,6 @@
 # git help
 
-> Display help information about Git
+> Display help information about git.
 > More information: <https://git-scm.com/docs/git-help>.
 
 - Display help about a specific git subcommand:
