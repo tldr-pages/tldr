@@ -1,0 +1,16 @@
+# debchange
+
+> Tool for maintenance of the debian/changelog file in a Debian source package.
+> More information: <https://manpages.debian.org/buster/devscripts/debchange.1.en.html>.
+
+- Add a new version for a non-maintainer upload to the changelog:
+
+`debchange --nmu`
+
+- Add a changelog entry to the current version:
+
+`debchange --append`
+
+- Add a changelog entry to close the specified bug number to the current version:
+
+`debchange --closes {{bug_id}}`
