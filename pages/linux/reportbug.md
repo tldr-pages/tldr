@@ -1,4 +1,4 @@
-# bugreport
+# reportbug
 
 > Bug report tool of Debian distribution.
 > More information: <https://manpages.debian.org/buster/reportbug/reportbug.1.en.html>.
