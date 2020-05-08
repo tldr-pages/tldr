@@ -11,6 +11,6 @@
 
 `vlc --fullscreen {{path/to/file}}`
 
-- Mute the audio:
+- Play muted:
 
 `vlc --no-audio {{path/to/file}}`
