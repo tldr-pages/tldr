@@ -3,7 +3,7 @@
 > Cross-platform multimedia player.
 > More information: <https://www.videolan.org/vlc/>.
 
-- Play an audio or video file:
+- Play a file:
 
 `vlc {{path/to/file}}`
 
