@@ -7,10 +7,6 @@
 
 `reportbug {{package}}`
 
-- File a report about a package that does not exist yet (to request it, for example):
-
-`reportbug wnpp`
-
 - Report a bug that is not about a specific package (general problem, infrastructure, etc.):
 
 `reportbug other`
