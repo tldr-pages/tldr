@@ -71,6 +71,20 @@ As a quick reference, the format of each page should match the following templat
 For more detailed page formatting guidelines,
 refer to the [style guide](contributing-guides/style-guide.md).
 
+## Subcommands
+
+Many programs use subcommands for separating functionality, which may require their own separate pages.
+For instance, `git commit` has its own page, as well as `git push` and many others.
+To create a page for a subcommand, the program and subcommand need to be separated with a dash (`-`), so `git-commit.md` is shown when calling `tldr git commit`.
+
+You should always add a base page (e.g. `git`) that describes the program and basic switches like `--version` or `help`.
+See these examples for reference:
+
+* [git](pages/common/git.md)
+* [git-commit](pages/common/git-commit.md)
+* [aws](pages/common/aws.md)
+* [aws-s3](pages/common/aws-s3.md)
+
 ## Translations
 
 Translation of pages can be done by simply creating the corresponding page within the appropriate language-specific directory, creating that as well if it does not already exist.
