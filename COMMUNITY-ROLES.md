@@ -152,7 +152,7 @@ using one of the template messages below as a base.
 
    That means you will, from now on, be part of the team responsible for performing role changes (like this one!) in the community.
    Before performing such role transitions, make sure to review the [COMMUNITY-ROLES.md](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md) document.
-   
+
    Is that OK with you? Let us know!
 
    Either way, thanks so much for all the work you've done so far. You rock!
