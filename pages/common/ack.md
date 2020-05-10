@@ -19,13 +19,13 @@
 
 `ack -cl {{foo}}`
 
-- Search file "my_file" for string "foo bar":
+- Search a file for a specified string:
 
-`ack bar "{{foo bar}}" {{my_file}}`
+`ack bar "{{foo bar}}" {{path/to/file}}`
 
-- Search file "my_file" for regex pattern "[bB]ar \d+":
+- Search a file for the specified regex pattern:
 
-`ack bar "{{[bB]ar \d+}}" {{my_file}}`
+`ack bar "{{[bB]ar \d+}}" {{path/to/file}}`
 
 - List all valid types:
 
