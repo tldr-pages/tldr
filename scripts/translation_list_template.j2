@@ -1,0 +1,12 @@
+<html lang="en">
+<body>
+<title>{% block title %}Files in need of translation{% endblock %}</title>
+
+{% for k in missing_files %}
+<h3> {{ k }} </h3>
+{% for v in missing_files[k] %}
+<ul>{{ v }}</ul>
+{% endfor %}
+{% endfor %}
+</body>
+</html>
