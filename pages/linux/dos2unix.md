@@ -3,7 +3,7 @@
 > Change DOS-style line endings to Unix-style.
 > Replaces CRLF with CR.
 
-- Change line endings of a file:
+- Change the line endings of a file:
 
 `dos2unix {{filename}}`
 
