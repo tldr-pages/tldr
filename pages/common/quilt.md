@@ -15,7 +15,7 @@
 
 `quilt add {{path/to/file}}`
 
-- After you have edited the file, refresh the current patch with your changes:
+- After editing the file, refresh the current patch with the changes:
 
 `quilt refresh`
 
