@@ -41,7 +41,7 @@ as a guideline for current and future maintainers.
   Keep in mind that
   [every form of contribution](https://github.com/kentcdodds/all-contributors)
   (pull request, feature request, bug report, etc.)
-  is a voluntary gift of time offered to the tldr project
+  is a voluntary gift of time offered to the tldr-pages project
   by someone who cares about it,
   so make sure it's clear that that we don't take it for granted.
 

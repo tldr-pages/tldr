@@ -29,14 +29,14 @@
     </text>
   </g>
   <g fill="#7ebfb7" font-family="Sometype Mono, monospace">
-    <text x="840" y="520" font-size="340" font-weight="bold" transform="scale(1, 0.9)">
-      TL;DR
+    <text x="840" y="480" font-size="170" font-weight="bold" transform="scale(1, 0.9)">
+      tldr-pages
     </text>
     <text font-size="62" font-weight="500">
-      <tspan x="860" y="620">
+      <tspan x="860" y="580">
         A collection of simplified,
       </tspan>
-      <tspan x="860" y="710">
+      <tspan x="860" y="670">
         community-driven man pages.
       </tspan>
     </text>

@@ -1,4 +1,4 @@
-Copyright © 2014—present the [TLDR team](https://github.com/orgs/tldr-pages/people) and [contributors](https://github.com/tldr-pages/tldr/graphs/contributors).
+Copyright © 2014—present the [tldr-pages team](https://github.com/orgs/tldr-pages/people) and [contributors](https://github.com/tldr-pages/tldr/graphs/contributors).
 
 ### This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
