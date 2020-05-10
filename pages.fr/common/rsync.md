@@ -1,9 +1,9 @@
 # rsync
 
 > Transférer des fichiers vers ou depuis un hôte distant (pas entre deux hôtes distants).
-> Peut transférer de simples fichiers, ou plusieurs fichiers correspondant à un motif.
+> Peut transférer un ou plusieurs fichiers correspondant à un motif.
 
-- Transférer un fichier de l'hôte actuel vers un serveur distant:
+- Transférer un fichier local vers un serveur distant:
 
 `rsync {{chemin/vers/fichier_local}} {{hote_distant}}:{{chemin/vers/dossier_distant}}`
 
@@ -11,7 +11,7 @@
 
 `rsync {{hote_distant}}:{{chemin/vers/fichier_distant}} {{chemin/vers/dossier_local}}`
 
-- Transférer un fichier sous forme d'[a]rchive (pour conserver les attributs) et compressé ([z]ippé) avec [p]rogrès [v]erbeux et lisible par l'[h]umain:
+- Transférer un fichier sous forme d'[a]rchive (pour conserver les attributs) et compressé ([z]ippé), en mode [v]erbeux, lisible par l'[h]umain et afficher la [p]rogression du transfert:
 
 `rsync -azvhP {{chemin/vers/fichier_local}} {{hote_distant}}:{{chemin/vers/dossier_distant}}`
 
