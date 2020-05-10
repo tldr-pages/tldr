@@ -17,7 +17,8 @@ tldr-pages consists of multiple _pages_ - each of which describes a specific com
 
 ### Platform
 
-Pages are grouped by platform. A platform is an operating system. For example, `windows`, `linux`, `osx`. The special platform `common` contains pages for commands that work identically across more than 1 platform.
+Pages are grouped by platform, i.e. operating systems — for example, `windows`, `linux`, `osx`.
+The special platform `common` contains pages for commands that work identically across more than one platform.
 
 If a page is common across multiple platforms, but slightly differently on a given platform, then the page is still stored in `common`, but a copy tailored for the differing platform is placed in that platform's specific folder.
 
@@ -136,7 +137,9 @@ After transparently replacing spaces (` `) with dashes (`-`), clients have sever
 
 ### Platform
 
-Clients MUST default to displaying tldr-page from the platform upon which the client is running. For example, a client running on _Windows 10_ will default to displaying pages from the `windows` platform. Clients MAY provide a user-configurable option to override this behaviour, however.
+Clients MUST default to displaying the page associated with the platform on which the client is running.
+For example, a client running on _Windows 10_ will default to displaying pages from the `windows` platform.
+Clients MAY provide a user-configurable option to override this behaviour, however.
 
 If a page is not available for the host platform, clients MUST fallback to the special `common` platform.
 
