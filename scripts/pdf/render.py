@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# A Python script to generate a single PDF document with all the tldr pages. It works by generating
+# A Python script to generate a single PDF document with all the `tldr` pages. It works by generating
 # intermediate HTML files from existing md files using Python-markdown, applying desired formatting
 # through CSS, and finally rendering them as PDF. There is no LaTeX dependency for generating the PDF.
 
@@ -92,11 +92,11 @@ def main(loc, colorscheme):
     for p in doc.pages:
       ap.append(p)
 
-  # Writing the PDF to disk, preserving metadata of first tldr page
-  group[2].copy(ap).write_pdf('tldr.pdf')
+  # Writing the PDF to disk, preserving metadata of first `tldr` page
+  group[2].copy(ap).write_pdf('tldr-pages.pdf')
 
-  if os.path.exists("tldr.pdf"):
-    print("\nCreated tldr.pdf in the current directory!\n")
+  if os.path.exists("tldr-pages.pdf"):
+    print("\nCreated tldr-pages.pdf in the current directory!\n")
 
   # Removing unnecessary intermediate files
   try:
@@ -114,7 +114,7 @@ if __name__ == "__main__":
 
   # Parsing the arguments
   parser = argparse.ArgumentParser()
-  parser.add_argument("dir_path", help = "Path to tldr 'pages' directory")
+  parser.add_argument("dir_path", help = "Path to the 'pages' directory")
   parser.add_argument("-c", choices=["solarized-light", "solarized-dark"], help="Color scheme of the PDF")
   args = parser.parse_args()
 

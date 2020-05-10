@@ -1,10 +1,10 @@
-Most people submit pull requests to the tldr project
+Most people submit pull requests to the tldr-pages project
 [using GitHub's web interface][pr-howto].
 
 If you prefer, you can do most of the process using the command line instead.
 The overall process should look somewhat like this:
 
-1. Fork the tldr repository on the GitHub web interface.
+1. Fork the tldr-pages/tldr repository on the GitHub web interface.
 
 2. Clone your fork locally:
   `git clone https://github.com/{{your_username}}/tldr.git && cd tldr`

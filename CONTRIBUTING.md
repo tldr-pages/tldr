@@ -130,7 +130,8 @@ Examples:
 
 ## Licensing
 
-`tldr` is licensed under a [Creative Commons Attribution 4.0 International License](LICENSE.md). The contents of the `scripts/` directory are licensed under the [MIT license](LICENSE.md).
+This repository is licensed under the [Creative Commons Attribution 4.0 International License](LICENSE.md).
+The contents of the `scripts/` directory are licensed under the [MIT license](LICENSE.md).
 
 Any contributions to this project are governed by the
 [Contributor License Agreement](https://cla-assistant.io/tldr-pages/tldr).
