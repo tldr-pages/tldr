@@ -13,7 +13,7 @@
 
 - Show tasks for the next 3 days:
 
-`icalbuddy -n -f tasksDueBefore:today+3`
+`icalBuddy -n -f tasksDueBefore:today+3`
 
 - Show events in a time range:
 
