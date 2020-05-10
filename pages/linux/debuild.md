@@ -7,7 +7,7 @@
 
 `debuild`
 
-- Only build a binary package:
+- Build a binary package only:
 
 `debuild -b`
 
