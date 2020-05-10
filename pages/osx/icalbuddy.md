@@ -5,7 +5,7 @@
 
 - Show events later today:
 
-`icalbuddy -n -f eventsToday`
+`icalBuddy -n -f eventsToday`
 
 - Show uncompleted tasks:
 
