@@ -12,7 +12,7 @@
   },
   "scripts": {
     "lint-markdown": "markdownlint pages*/**/*.md",
-    "lint-tldr": "tldr-lint ./pages",
+    "lint-tldr-pages": "tldr-lint ./pages",
     "test": "bash scripts/test.sh",
     "build-index": "node ./scripts/build-index.js > index.json"
   },

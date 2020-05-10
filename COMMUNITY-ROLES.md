@@ -146,7 +146,7 @@ using one of the template messages below as a base.
 1. Open an issue with the following message template (edit it as appropriate):
 
    ```
-   Hi, @username! You've been an active tldr-pages org member for over 6 months.
+   Hi, @username! You've been an active tldr-pages organization member for over 6 months.
    Thanks for sticking around this far and helping out!
    According to [COMMUNITY-ROLES.md](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md), you're now eligible for becoming an owner in the organization.
 

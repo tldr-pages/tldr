@@ -1,4 +1,4 @@
-# tldr pages client specification
+# tldr-pages client specification
 
 **Current Specification Version:** 1.2
 

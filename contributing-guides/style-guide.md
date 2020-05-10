@@ -1,6 +1,6 @@
 # Style guide
 
-This page lists specific formatting instructions for tldr pages.
+This page lists specific formatting instructions for `tldr` pages.
 
 ## Layout
 
@@ -34,7 +34,7 @@ tldrl -f {{page.md}}
 For other ways to use `tldrl`, such as linting an entire directory, check out (what else!)
 [`tldr tldrl`](https://github.com/tldr-pages/tldr/blob/master/pages/common/tldrl.md)
 
-If you're using the Node.js client of `tldr`, you can preview a page locally using the `-f` flag (aka `--render`):
+If you're using the Node.js client of tldr-pages, you can preview a page locally using the `-f` flag (aka `--render`):
 
 ```
 tldr -f {{page.md}}

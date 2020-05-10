@@ -17,4 +17,4 @@ index.json
 
 # Generated PDF pages
 scripts/pdf/*.html
-scripts/pdf/tldr.pdf
+scripts/pdf/tldr-pages.pdf
