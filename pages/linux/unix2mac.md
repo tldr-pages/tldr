@@ -3,7 +3,7 @@
 > Change Unix-style line endings to macOS-style.
 > Replaces CR with LF.
 
-- Change line endings of a file:
+- Change the line endings of a file:
 
 `unix2mac {{filename}}`
 
