@@ -11,6 +11,6 @@
 
 `debchange --append`
 
-- Add a changelog entry to close the specified bug number to the current version:
+- Add a changelog entry to close the bug with specified ID:
 
 `debchange --closes {{bug_id}}`
