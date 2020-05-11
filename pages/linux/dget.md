@@ -11,6 +11,6 @@
 
 `dget {{http://deb.debian.org/debian/pool/main/h/haskell-tldr/haskell-tldr_0.4.0-2.dsc}}`
 
-- Download a package source tarbal from its .dsc file but don't extract it:
+- Download a package source tarball from its .dsc file but don't extract it:
 
 `dget -d {{http://deb.debian.org/debian/pool/main/h/haskell-tldr/haskell-tldr_0.4.0-2.dsc}}`

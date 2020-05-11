@@ -1,6 +1,6 @@
 # quilt
 
-> Tool to manage series of patches.
+> Tool to manage a series of patches.
 > More information: <https://savannah.nongnu.org/projects/quilt>.
 
 - Import an existing patch from a file:
@@ -19,7 +19,7 @@
 
 `quilt refresh`
 
-- Apply all patches in the series file:
+- Apply all the patches in the series file:
 
 `quilt push -a`
 
