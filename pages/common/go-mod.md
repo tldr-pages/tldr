@@ -1,7 +1,11 @@
 # go mod
 
-> Tool for module maintenance.
-> More information: <https://golang.org/cmd/go/>.
+> Module maintenance.
+> More information: <https://golang.org/cmd/go/#hdr-Module_maintenance>.
+
+- Initialize new module in current directory:
+
+`go mod init {{moduleName}}`
 
 - Download modules to local cache:
 
@@ -11,6 +15,10 @@
 
 `go mod tidy`
 
-- Copy all dependencies into vendor directory:
+- Verify dependencies have expected content:
+
+`go mod verify`
+
+- Copy all dependencies sources into vendor directory:
 
 `go mod vendor`
