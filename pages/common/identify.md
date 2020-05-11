@@ -1,6 +1,6 @@
 # identify
 
-Image magick command.
+> Image magick command.
 
 - Collect dimensions of all jpeg files under current directory:
 
