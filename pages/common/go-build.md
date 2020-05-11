@@ -1,12 +1,20 @@
 # go build
 
-> Tool for compiling packages and dependencies.
-> More information: <https://golang.org/cmd/go/>.
+> Compile Go sources.
+> More information: <https://golang.org/cmd/go/#hdr-Compile_packages_and_dependencies>.
 
-- Compile a source file into a named executable:
+- Compile a file:
 
-`go build -o {{executable}} {{path/to/main/file}}.go`
+`go build path/to/main.go`
 
-- Compile a main package into a named executable:
+- Compile into named output:
 
-`go build -o {{executable}} {{path/to/main/package}}`
+`go build -o {{binary}} path/to/source.go`
+
+- Compile a package:
+
+`go build -o {{binary}} path/to/package`
+
+- Compile a main package into an executable, with data race detection:
+
+`go build -race -o {{executable}} path/to/main/package`
