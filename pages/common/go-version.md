@@ -1,12 +1,12 @@
 # go version
 
 > Print Go version.
-> More information: <https://golang.org/cmd/go/>.
+> More information: <https://golang.org/cmd/go/#hdr-Print_Go_version>.
 
-- Print version:
+- Print Go version:
 
 `go version`
 
-- Report the Go version used to build the named executable file:
+- Print the Go version used to build the named executable file:
 
 `go version {{executable}}`
