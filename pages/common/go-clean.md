@@ -1,24 +1,20 @@
 # go clean
 
-> Tool for removing object files and cached files.
-> More information: <https://golang.org/cmd/go/>.
+> Remove object files and cached files.
+> More information: <https://golang.org/cmd/go/#hdr-Remove_object_files_and_cached_files>.
 
 - Print the remove commands only:
 
 `go clean -n`
 
-- Remove go build cache:
+- Remove build cache:
 
 `go clean -cache`
 
-- Remove all test results in the go build cache :
+- Remove cached test results:
 
 `go clean -testcache`
 
-- Remove go module download cache:
+- Remove module cache:
 
 `go clean -modcache`
-
-- Remove all:
-
-`go clean -cache -testcache -modcache -i -r`
