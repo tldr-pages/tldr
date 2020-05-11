@@ -1,12 +1,24 @@
 # go doc
 
-> Tool for showing documentation for package or symbol.
-> More information: <https://golang.org/cmd/go/>.
+> Show documentation for package or symbol.
+> More information: <https://golang.org/cmd/go/#hdr-Show_documentation_for_package_or_symbol>.
 
-- Show documentation for {{Foo}} in the current package:
+- Show documentation for current package:
 
-`go doc {{Foo}}`
+`go doc`
 
-- Show documentation and method summary for {{json.Number}}:
+- Show package documentation and exported symbols:
 
-`go doc {{json.Number}}`
+`go doc {{encoding/json}}`
+
+- Show also documentation of symbols:
+
+`go doc -all {{encoding/json}}`
+
+- Show also sources:
+
+`go doc -all -src {{encoding/json}}`
+
+- Show a specific symbol:
+
+`go doc -all -src {{encoding/json.Number}}`
