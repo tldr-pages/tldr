@@ -1,6 +1,6 @@
 # wmctrl
 
-> Command line interaction with X Window Manager
+> Command line interaction with X Window Manager.
 
 - List all windows, managed by the window manager:
 
