@@ -7,7 +7,7 @@
 
 `efibootmgr`
 
-- List the Filepaths:
+- List the filepaths:
 
 `efibootmgr -v`
 
