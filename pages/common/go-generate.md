@@ -1,8 +1,8 @@
 # go generate
 
 > Generate Go files by processing source.
-> More information: <https://golang.org/cmd/go/>.
+> More information: <https://golang.org/cmd/go/#hdr-Generate_Go_files_by_processing_source>.
 
-- Scan and generate under current directory:
+- Generate Go files by running commands within source files:
 
-`go generate .`
+`go generate`
