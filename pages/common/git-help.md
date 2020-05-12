@@ -7,7 +7,7 @@
 
 `git help {{subcommand}}`
 
-- Display help about a specific git subcommand in a web browser: 
+- Display help about a specific git subcommand in a web browser:
 
 `git help --web {{subcommand}}`
 
