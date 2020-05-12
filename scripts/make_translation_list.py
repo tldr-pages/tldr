@@ -42,12 +42,19 @@ def get_language_files(dirname: str) -> dict:
 
 
 if __name__ == "__main__":
-    git_dir = run(["git", "rev-parse", "--git-dir"], stdout=PIPE,
-                  stderr=STDOUT).stdout.decode("UTF-8").strip(".git\n")
+    git_dir = (
+        run(["git", "rev-parse", "--git-dir"], stdout=PIPE, stderr=STDOUT)
+        .stdout.decode("UTF-8")
+        .strip(".git\n")
+    )
     lang_files = get_language_files(git_dir)
     all_files = set().union(*lang_files.values())
-    missing_files = {ISO_CODES[k]: all_files.difference(v) for k, v in
-                     lang_files.items()}
+    missing_files = {
+        ISO_CODES[k]: sorted(
+            all_files.difference(v), key=lambda fname: fname.casefold()
+        )
+        for k, v in lang_files.items()
+    }
     with open("translation_list_template.j2", "r") as f:
         template = jinja2.Template(f.read())
     content = template.render(missing_files=missing_files)
