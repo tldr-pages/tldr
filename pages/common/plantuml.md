@@ -5,23 +5,23 @@
 
 - Render diagrams to default format (PNG):
 
-`plantuml {{ diagram1.puml }} {{ diagram2.puml }}`
+`plantuml {{diagram1.puml}} {{diagram2.puml}}`
 
-- Render diagram in given format (e.g. `png`, `pdf`, `svg`, `txt`):
+- Render a diagram in given format (e.g. `png`, `pdf`, `svg`, `txt`):
 
 `plantuml -t{{ format }} {{ diagram.puml }}`
 
-- Render all diagrams of directory:
+- Render all diagrams of a directory:
 
-`plantuml {{ path/to/diagrams }}`
+`plantuml {{path/to/diagrams}}`
 
-- Render diagram to output directory:
+- Render a diagram to the output directory:
 
-`plantuml -o {{ path/to/output }} {{ diagram.puml }}`
+`plantuml -o {{path/to/output}} {{diagram.puml}}`
 
-- Render diagram with configuration file to include before each diagram:
+- Render a diagram with the configuration file:
 
-`plantuml -config {{ config.cfg }} {{ diagram.puml }}`
+`plantuml -config {{config.cfg}} {{diagram.puml}}`
 
 - Display help:
 
