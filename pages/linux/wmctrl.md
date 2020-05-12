@@ -14,7 +14,7 @@
 
 `wmctrl -R {{window_title}}`
 
-- Switch to workspace:
+- Switch to a workspace:
 
 `wmctrl -s {{workspace_number}}`
 
