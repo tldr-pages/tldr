@@ -1,6 +1,6 @@
 # git notes
 
-> Add or inspect object notes
+> Add or inspect object notes.
 > More information: <https://git-scm.com/docs/git-notes>.
 
 - List all notes and the objects they are attached to:
