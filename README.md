@@ -73,7 +73,9 @@ You can access these pages on your computer using one of the following clients:
   Open `Preferences` > `Downloads` > `User Contributed` and find `tldr pages` in the list
 - Docker images:
     - [tldr-docker](https://github.com/nutellinoit/tldr-docker)- Run the `tldr` command via a docker container: `alias tldr='docker run --rm -it -v ~/.tldr/:/root/.tldr/ nutellinoit/tldr'`
-- [Elixir client](https://github.com/edgurgel/tldr_elixir_client)
+- Elixir clients:
+  - [ExTldr](https://github.com/ivanhercaz/extldr).
+  - [TLDR Elixir Client](https://github.com/edgurgel/tldr_elixir_client)
   (binaries not yet available)
 - [Emacs client](https://github.com/kuanyui/tldr.el), available on
   [MELPA](https://github.com/melpa/melpa)
