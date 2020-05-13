@@ -1,7 +1,7 @@
 # dget
 
 > Download Debian packages.
-> More information: <https://manpages.debian.org/buster/devscripts/dget.1.en.html>.
+> More information: <https://manpages.debian.org/dget>.
 
 - Download a binary package:
 

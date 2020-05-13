@@ -1,7 +1,7 @@
 # debuild
 
 > Tool to build a Debian package from source.
-> More information: <https://manpages.debian.org/buster/devscripts/debuild.1.en.html>.
+> More information: <https://manpages.debian.org/debuild>.
 
 - Build the package in the current directory:
 

@@ -1,7 +1,7 @@
 # debchange
 
 > Tool for maintenance of the debian/changelog file in a Debian source package.
-> More information: <https://manpages.debian.org/buster/devscripts/debchange.1.en.html>.
+> More information: <https://manpages.debian.org/debchange>.
 
 - Add a new version for a non-maintainer upload to the changelog:
 
