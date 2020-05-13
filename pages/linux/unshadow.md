@@ -1,6 +1,7 @@
 # unshadow
 
-> Utility provided by the package "john", to combine /etc/passwd and /etc/shadow into a file that can be processed by John the Ripper. More information: <https://www.openwall.com/john/>.
+> Utility provided by the John the Ripper project to obtain the traditional Unix password file if the system uses shadow passwords.
+> More information: <https://www.openwall.com/john/>.
 
 - Combine the /etc/shadow and /etc/passwd of the current system:
 
