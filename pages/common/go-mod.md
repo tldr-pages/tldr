@@ -19,6 +19,6 @@
 
 `go mod verify`
 
-- Copy all dependencies sources into vendor directory:
+- Copy sources of all dependencies into the vendor directory:
 
 `go mod vendor`
