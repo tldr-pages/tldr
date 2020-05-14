@@ -1,15 +1,19 @@
 # jhipster
 
-> Web application generator using either monolithic or microservice architecture
-> More information: <https://www.jhipster.tech/>
+> Web application generator using either monolithic or microservices architecture.
+> More information: <https://www.jhipster.tech/>.
 
 - Generate a simple full-stack project (monolithic or microservices):
 
 `jhipster`
 
-- Generate a simple frontend project with `--skip-server` or a simple backend project with `--skip-client`:
+- Generate a simple frontend project:
 
-`jhipster {{option}}`
+`jhipster --skip-server`
+
+- Generate a simple backend project:
+
+`jhipster --skip-client`
 
 - Apply lastest JHipster updates to the project:
 
@@ -19,7 +23,7 @@
 
 `jhipster entity {{entity_name}}`
 
-- Import a JDL file to configure your applications (see: https://start.jhipster.tech/jdl-studio/):
+- Import a JDL file to configure your application (see: https://start.jhipster.tech/jdl-studio/):
 
 `jhipster import-jdl {{first_file.jh second_file.jh ... n_file.jh}}`
 
@@ -27,10 +31,6 @@
 
 `jhipster ci-cd`
 
-- Generate a docker-compose.yml file for your application(s):
-
-`jhipster docker-compose`
-
-- Generate a Kubernetes configuration for your applications:
+- Generate a Kubernetes configuration for your application:
 
 `jhipster kubernetes`
