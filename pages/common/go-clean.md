@@ -11,7 +11,7 @@
 
 `go clean -cache`
 
-- Remove cached test results:
+- Delete all cached test results:
 
 `go clean -testcache`
 
