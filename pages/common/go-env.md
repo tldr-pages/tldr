@@ -7,7 +7,7 @@
 
 `go env`
 
-- Show an environment variable:
+- Show a specific environment variable:
 
 `go env {{GOPATH}}`
 
