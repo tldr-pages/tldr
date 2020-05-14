@@ -21,7 +21,7 @@
 
 - Import a JDL file to configure your applications (see: https://start.jhipster.tech/jdl-studio/):
 
-`jhipster import-jdl {{first_file.jh}} {{second_file.jh}}... {{n_file.jh}}`
+`jhipster import-jdl {{first_file.jh second_file.jh ... n_file.jh}}`
 
 - Generate a CI/CD pipeline for your application:
 
