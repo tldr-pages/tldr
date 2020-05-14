@@ -9,4 +9,4 @@
 
 - Print the Go version used to build the named executable file:
 
-`go version {{executable}}`
+`go version {{path/to/executable}}`
