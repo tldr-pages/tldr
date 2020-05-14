@@ -1,7 +1,7 @@
 # jhipster
 
-> Generates a monolithic or microservices project after prompting user.
-> More information: <https://www.jhipster.tech/>.
+> Web application generator using either monolithic or microservice architecture
+> More information: <https://www.jhipster.tech/>
 
 - Generate a simple full-stack project (monolithic or microservices):
 
