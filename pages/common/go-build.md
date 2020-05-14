@@ -7,7 +7,7 @@
 
 `go build path/to/main.go`
 
-- Compile into named output:
+- Compile, specifying the output filename:
 
 `go build -o {{binary}} path/to/source.go`
 
