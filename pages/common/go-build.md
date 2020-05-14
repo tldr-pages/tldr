@@ -13,7 +13,7 @@
 
 - Compile a package:
 
-`go build -o {{binary}} path/to/package`
+`go build -o {{path/to/binary}} {{path/to/package}}`
 
 - Compile a main package into an executable, with data race detection:
 
