@@ -7,9 +7,9 @@
 
 `jhipster`
 
-- Generate a simple frontend project (with OPTION = --skip-server) or a simple backend project (with OPTION = --skip-client):
+- Generate a simple frontend project with `--skip-server` or a simple backend project with `--skip-client`:
 
-`jhipster [OPTION]`
+`jhipster {{option}}`
 
 - Upgrade a generated project with the last JHipster updates:
 
