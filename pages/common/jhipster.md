@@ -31,6 +31,6 @@
 
 `jhipster docker-compose`
 
-- Generate a Kubernetes configuration (kubectl-apply.sh and related yml files) for your application(s):
+- Generate a Kubernetes configuration for your applications:
 
 `jhipster kubernetes`
