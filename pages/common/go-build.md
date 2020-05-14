@@ -5,16 +5,16 @@
 
 - Compile a file:
 
-`go build path/to/main.go`
+`go build {{path/to/main.go}}`
 
-- Compile into named output:
+- Compile, specifying the output filename:
 
-`go build -o {{binary}} path/to/source.go`
+`go build -o {{path/to/binary}} {{path/to/source.go}}`
 
 - Compile a package:
 
-`go build -o {{binary}} path/to/package`
+`go build -o {{path/to/binary}} {{path/to/package}}`
 
 - Compile a main package into an executable, with data race detection:
 
-`go build -race -o {{executable}} path/to/main/package`
+`go build -race -o {{path/to/executable}} {{path/to/main/package}}`

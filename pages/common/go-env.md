@@ -7,14 +7,14 @@
 
 `go env`
 
-- Show an environment variable:
+- Show a specific environment variable:
 
 `go env {{GOPATH}}`
 
-- Set an environment value:
+- Set an environment variable to a value:
 
 `go env -w {{GOBIN}}={{path/to/directory}}`
 
-- Reset an environment value:
+- Reset an environment variable's value:
 
 `go env -u {{GOBIN}}`
