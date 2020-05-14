@@ -11,7 +11,7 @@
 
 `go env {{GOPATH}}`
 
-- Set an environment value:
+- Set an environment variable to a value:
 
 `go env -w {{GOBIN}}={{path/to/directory}}`
 
