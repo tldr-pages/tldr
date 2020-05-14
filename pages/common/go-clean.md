@@ -7,7 +7,7 @@
 
 `go clean -n`
 
-- Remove build cache:
+- Delete the build cache:
 
 `go clean -cache`
 
