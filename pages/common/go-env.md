@@ -15,6 +15,6 @@
 
 `go env -w {{GOBIN}}={{path/to/directory}}`
 
-- Reset an environment value:
+- Reset an environment variable's value:
 
 `go env -u {{GOBIN}}`
