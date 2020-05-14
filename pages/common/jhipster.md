@@ -11,7 +11,7 @@
 
 `jhipster {{option}}`
 
-- Upgrade a generated project with the last JHipster updates:
+- Apply lastest JHipster updates to the project:
 
 `jhipster upgrade`
 
