@@ -1,9 +1,9 @@
 # go doc
 
-> Show documentation for package or symbol.
+> Show documentation for a package or symbol.
 > More information: <https://golang.org/cmd/go/#hdr-Show_documentation_for_package_or_symbol>.
 
-- Show documentation for current package:
+- Show documentation for the current package:
 
 `go doc`
 
