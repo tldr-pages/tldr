@@ -1,6 +1,7 @@
 # pkg-config
 
-> Return metainformation about installed libraries.
+> Provide the details of installed libraries for compiling applications.
+> More information: <https://www.freedesktop.org/wiki/Software/pkg-config/>.
 
 - Get the list of libraries and their dependencies:
 
