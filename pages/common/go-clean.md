@@ -15,6 +15,6 @@
 
 `go clean -testcache`
 
-- Remove module cache:
+- Delete the module cache:
 
 `go clean -modcache`
