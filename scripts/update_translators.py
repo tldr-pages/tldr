@@ -55,5 +55,5 @@ def make_translator_comment_body() -> str:
         line = f"* {k}: "
         for contrib in v:
             line += f"@{contrib} "
-        comment_body += line.rstrip()
+        comment_body += line.rstrip() + "\n"
     return comment_body
