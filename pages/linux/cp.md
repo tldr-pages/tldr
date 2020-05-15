@@ -25,3 +25,7 @@
 - Dereference symbolic links before copying:
 
 `cp -L {{link}} {{path/to/copy}}`
+
+- Use the full path of source files, creating any missing intermediate directories when copying:
+
+`cp --parents {{source/path/to/file}} {{path/to/copy}}`
