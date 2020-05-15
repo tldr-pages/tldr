@@ -21,6 +21,14 @@ ISO_CODES = {
 }
 
 
+def get_git_root() -> str:
+    return (
+        run(["git", "rev-parse", "--git-dir"], stdout=PIPE, stderr=STDOUT)
+        .stdout.decode("UTF-8")
+        .strip(".git\n")
+    )
+
+
 def get_language_files(dirname: str) -> dict:
     def make_page_set(subdir):
         pages = set()
@@ -42,12 +50,8 @@ def get_language_files(dirname: str) -> dict:
 
 
 if __name__ == "__main__":
-    git_dir = (
-        run(["git", "rev-parse", "--git-dir"], stdout=PIPE, stderr=STDOUT)
-        .stdout.decode("UTF-8")
-        .strip(".git\n")
-    )
-    lang_files = get_language_files(git_dir)
+    git_root = get_git_root()
+    lang_files = get_language_files(git_root)
     all_files = set().union(*lang_files.values())
     missing_files = {
         ISO_CODES[k]: sorted(
@@ -58,5 +62,5 @@ if __name__ == "__main__":
     with open("translation_list_template.j2", "r") as f:
         template = jinja2.Template(f.read())
     content = template.render(missing_files=missing_files)
-    with open(path.join(git_dir, "NEEDTRANSLATING.md"), "w") as f:
+    with open(path.join(git_root, "NEEDTRANSLATING.md"), "w") as f:
         f.write(content)

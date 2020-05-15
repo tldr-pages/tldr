@@ -4,6 +4,7 @@ import os
 import sys
 import json
 import urllib.request
+from update_translators import make_translator_comment_body
 
 BOT_URL = 'https://tldr-bot.starbeamrainbowlabs.com'
 
@@ -25,6 +26,13 @@ Hello! I've noticed something unusual when checking this PR:
 Is this intended? If so, just ignore this comment. Otherwise, please double-check the commits.
 """
 
+COMMENT_TRANSLATOR_UPDATE="""
+Hello! This comment is to notify those who have translated files affected by this
+commit of its updates.
+
+{content}
+
+"""
 ################################################################################
 
 def post_comment(pr_id, body, once):
@@ -52,11 +60,13 @@ def post_comment(pr_id, body, once):
   return True
 
 def main(action):
-  if action not in ('report-errors', 'report-check-results'):
+  if action not in ('report-errors', 'report-check-results', 'update-translators'):
     print('Unknown action:', action, file=sys.stderr)
     sys.exit(1)
-
-  content = sys.stdin.read().strip()
+  if action == 'update-translators':
+    content = make_translator_comment_body()
+  else:
+    content = sys.stdin.read().strip()
 
   if action == 'report-errors':
     comment_body = COMMENT_ERROR.format(build_id=BUILD_ID, content=content)
@@ -64,6 +74,8 @@ def main(action):
   elif action == 'report-check-results':
     comment_body = COMMENT_CHECK.format(content=content)
     comment_once = True
+  elif action == 'update-translators':
+    comment_body = COMMENT_TRANSLATOR_UPDATE.format(content=content)
 
   if post_comment(PR_ID, comment_body, comment_once):
     print('Success.')
