@@ -14,3 +14,7 @@
 - Play muted:
 
 `vlc --no-audio {{path/to/file}}`
+
+- Play repeatedly:
+
+`vlc --loop {{path/to/file}}`
