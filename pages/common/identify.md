@@ -4,4 +4,4 @@
 
 - Collect dimensions of all jpeg files under current directory:
 
-`identify -format "%f,%w,%h\n" *.jpg > filelist.csv`
+`identify -format "%f,%w,%h\n" *.{{jpg}} > {{filelist.csv}}`
