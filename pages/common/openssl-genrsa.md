@@ -6,10 +6,10 @@
 
 `openssl genrsa`
 
-- Generate an RSA private key of an arbitrary number of bits, and save it to output_file:
+- Generate an RSA private key of an arbitrary number of bits, and save it to {{output_file}}:
 
 `openssl genrsa -out {{output_file.key}} {{1234}}`
 
-- Generate an RSA private key and encrypt it with aes256. You will be prompted for a passphrase.
+- Generate an RSA private key and encrypt it with aes256. You will be prompted for a passphrase:
 
 `openssl genrsa {{-aes256}}`
