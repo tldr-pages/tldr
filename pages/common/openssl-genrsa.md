@@ -10,6 +10,6 @@
 
 `openssl genrsa -out {{output_file.key}} {{1234}}`
 
-- Generate an RSA private key and encrypt it with aes256. You will be prompted for a passphrase:
+- Generate an RSA private key and encrypt it with AES256 (you will be prompted for a passphrase):
 
 `openssl genrsa {{-aes256}}`
