@@ -6,7 +6,7 @@
 
 `openssl genrsa`
 
-- Generate an RSA private key of an arbitrary number of bits, and save it to {{output_file}}:
+- Save an RSA private key of an arbitrary number of bits to the output file:
 
 `openssl genrsa -out {{output_file.key}} {{1234}}`
 
