@@ -1,6 +1,6 @@
 # openssl genrsa
 
-> OpenSSL command to generate RSA private keys. 
+> OpenSSL command to generate RSA private keys.
 
 - Generate an RSA private key of 2048 bits to stdout:
 
