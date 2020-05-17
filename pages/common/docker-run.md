@@ -1,6 +1,6 @@
 # docker run
 
-> Run a command in a new container.
+> Run a command in a new Docker container.
 > More information: <https://docs.docker.com/engine/reference/commandline/run/>.
 
 - Run command in a new container from a tagged image:
@@ -25,4 +25,4 @@
 
 - Run command in a new container with published ports:
 
-`docker run -p {{host port}}:{{container port}} {{image}} {{command}}`
+`docker run -p {{host_port}}:{{container_port}} {{image}} {{command}}`
