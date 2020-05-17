@@ -3,9 +3,9 @@
 > Run a command in a new container
 > More information: <https://docs.docker.com/engine/reference/commandline/run/>.
 
-- Run command in a new container from its image:
+- Run command in a new container from a tagged image:
 
-`docker run {{image}} {{command}}`
+`docker run {{image:tag}} {{command}}`
 
 - Run command in a new container in background and display its ID:
 
