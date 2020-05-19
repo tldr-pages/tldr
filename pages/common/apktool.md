@@ -9,7 +9,7 @@
 
 - Build a folder into an APK file:
 
-`apktool -b {{folder path}}`
+`apktool -b {{path/to/directory}}`
 
 - Install and store frameworks:
 
