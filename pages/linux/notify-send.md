@@ -13,3 +13,7 @@
 - Show a notification for 5 seconds:
 
 `notify-send -t 5000 {{"Test"}} {{"This is a test"}}`
+
+- Show a notification with an app's icon:
+
+`notify-send {{"Test"}} --icon={{google-chrome}}`
