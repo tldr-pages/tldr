@@ -23,7 +23,7 @@
 
 `AdGuardHome --service start`
 
-- Reload the confiuration for the AdGuard Home service:
+- Reload the configuration for the AdGuard Home service:
 
 `AdGuardHome --service reload`
 
