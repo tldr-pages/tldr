@@ -8,7 +8,7 @@
 
 - Use a custom font file:
 
-`figlet {{input_text}} -f {{font_file_name}}`
+`figlet {{input_text}} -f {{font_filename}}`
 
 - Pipe command output through figlet:
 
