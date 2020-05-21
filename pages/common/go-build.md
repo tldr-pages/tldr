@@ -5,7 +5,7 @@
 
 - Compile a file:
 
-`go build path/to/main.go`
+`go build {{path/to/main.go}}`
 
 - Compile, specifying the output filename:
 
