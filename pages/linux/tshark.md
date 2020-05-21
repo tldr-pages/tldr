@@ -32,4 +32,4 @@
 
 - Analyze packets from a file:
 
-`tshark -r {{file_name}}.pcap`
+`tshark -r {{filename}}.pcap`

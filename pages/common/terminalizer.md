@@ -9,16 +9,16 @@
 
 - Record the terminal and create a recording file:
 
-`terminalizer record {{file_name}}`
+`terminalizer record {{filename}}`
 
 - Play a recorded file on the terminal:
 
-`terminalizer play {{file_name}}`
+`terminalizer play {{filename}}`
 
 - Render a recording file as an animated gif image:
 
-`terminalizer render {{file_name}}`
+`terminalizer render {{filename}}`
 
 - Upload a video to terminalizer.com:
 
-`terminalizer share {{file_name}}`
+`terminalizer share {{filename}}`
