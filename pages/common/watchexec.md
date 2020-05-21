@@ -15,6 +15,6 @@
 
 `watchexec --watch {{lib}} --watch {{src}} {{make}}`
 
-- Call/restart `my_server` when any file in the current directory/subdirectories change, sending `SIGKILL` to stop the child process:
+- Call/restart `my_server` when any file in the current directory change, sending `SIGKILL` to stop the child process:
 
 `watchexec --restart --signal {{SIGKILL}} {{my_server}}`
