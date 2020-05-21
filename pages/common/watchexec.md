@@ -3,7 +3,7 @@
 > Run arbitrary commands when files change.
 > More information: <https://github.com/watchexec/watchexec>.
 
-- Call `ls -la` when any file in the current directory/subdirectories changes:
+- Call `ls -la` when any file in the current directory changes:
 
 `watchexec -- {{ls -la}}`
 
