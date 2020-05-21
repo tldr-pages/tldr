@@ -24,6 +24,7 @@
 `julia -e '{{for x in ARGS; println(x); end}}' {{arguments}}`
 
 - Evaluate an expression and print the result:
+
 `julia -E '{{(1 - cos(pi/4))/2}}'`
 
 - Start Julia in parallel mode, using N worker processes:
