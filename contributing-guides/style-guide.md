@@ -50,18 +50,19 @@ Keep the following guidelines in mind when choosing tokens:
 1. Use short but descriptive tokens,
    ex. `{{source_file}}` or `{{wallet.txt}}`.
 2. Use [`snake_case`](https://en.wikipedia.org/wiki/Snake_case) for multi-word tokens.
-3. For any reference to paths to files or directories, use the format `{{path/to/<placeholder>}}`.
+3. Use `{{filename}}` rather than `{{file_name}}`.
+4. For any reference to paths to files or directories, use the format `{{path/to/<placeholder>}}`.
    For example, `ln -s {{path/to/file}} {{path/to/symlink}}`.
    In case of a possible reference both to a file or a directory, use `{{path/to/file_or_directory}}`
-4. Follow the `{{path/to/<placeholder>}}` convention for all path-related commands, except when the
+5. Follow the `{{path/to/<placeholder>}}` convention for all path-related commands, except when the
    file location is implicit.
-5. If a command expects the file to have a particular extension, use it.
+6. If a command expects the file to have a particular extension, use it.
    For example, `unrar x {{compressed.rar}}`.
    In case a generic extension is needed, use `{{.ext}}`, but **only** if an extension is required.
    For instance, in find.md's example "Find files by extension" (`find {{root_path}} -name '{{*.ext}}'`)
    using `{{*.ext}}` explains the command without being unnecessarily specific;
    But in a command like `wc -l {{file}}`, using `{{file}}` (without extension) is sufficient.
-6. If the example is clearer with an actual value rather than a generic placeholder, use the actual value.
+7. If the example is clearer with an actual value rather than a generic placeholder, use the actual value.
    For example, use `iostat {{2}}` rather than `iostat {{interval_in_secs}}`.
 
 In general, tokens should make it as intuitive as possible
