@@ -13,6 +13,6 @@
 
 `vue init {{path/to/template_directory}} {{project_name}}`
 
-- 从 Github 上拉取模板并创建新项目:
+- 从 GitHub 上拉取模板并创建新项目:
 
 `vue init {{username}}/{{repo}} {{project_name}}`
