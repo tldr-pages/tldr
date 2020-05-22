@@ -7,7 +7,7 @@
 
 `watchexec -- {{ls -la}}`
 
-- Run `make` when any JavaScript, CSS and HTML files in the current directory:
+- Run `make` when any JavaScript, CSS and HTML files in the current directory change:
 
 `watchexec --exts {{js,css,html}} make`
 
