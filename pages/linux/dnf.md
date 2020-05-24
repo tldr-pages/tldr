@@ -24,8 +24,8 @@
 
 - Search packages via keyword:
 
-`sudo dnf search {{keyword}}`
+`dnf search {{keyword}}`
 
 - Find which packages provide a given value:
 
-`sudo dnf provides {{value}}`
+`dnf provides {{value}}`
