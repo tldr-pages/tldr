@@ -22,9 +22,9 @@
 
 `dnf list --installed`
 
-- Search packages via keyword:
+- Search packages via keyword(s):
 
-`dnf search {{keyword}}`
+`dnf search {{keywords}}`
 
 - Find which packages provide a given value:
 
