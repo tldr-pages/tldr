@@ -26,6 +26,6 @@
 
 `dnf search {{keywords}}`
 
-- Find which packages provide a given value:
+- Find which packages provide a given file:
 
-`dnf provides {{value}}`
+`dnf provides {{file}}`
