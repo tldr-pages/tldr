@@ -32,4 +32,4 @@
 
 - Display details about a package:
 
-`dnf info {{package}}
+`dnf info {{package}}`
