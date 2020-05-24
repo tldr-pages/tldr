@@ -7,7 +7,7 @@
 
 `sudo dnf upgrade`
 
-- Search packages via keyword(s):
+- Search packages via keywords:
 
 `dnf search {{keywords}}`
 
