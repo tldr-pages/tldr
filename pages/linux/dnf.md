@@ -29,3 +29,7 @@
 - Find which packages provide a given file:
 
 `dnf provides {{file}}`
+
+- Display details about a package:
+
+`dnf info {{package}}
