@@ -2,6 +2,18 @@
 
 > Package management utility for RHEL, Fedora, and CentOS (replaces yum).
 
+- Upgrade installed packages to newest available versions:
+
+`sudo dnf upgrade`
+
+- Search packages via keyword(s):
+
+`dnf search {{keywords}}`
+
+- Display details about a package:
+
+`dnf info {{package}}`
+
 - Install a new package:
 
 `sudo dnf install {{package}}`
@@ -14,22 +26,10 @@
 
 `sudo dnf remove {{package}}`
 
-- Upgrade installed packages to newest available versions:
-
-`sudo dnf upgrade`
-
 - List installed packages:
 
 `dnf list --installed`
 
-- Search packages via keyword(s):
-
-`dnf search {{keywords}}`
-
 - Find which packages provide a given file:
 
 `dnf provides {{file}}`
-
-- Display details about a package:
-
-`dnf info {{package}}`
