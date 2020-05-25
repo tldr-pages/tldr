@@ -1,7 +1,7 @@
 # julia
 
 > A high-level, high-performance dynamic programming language for technical computing.
-> More information: <https://julialang.org>.
+> More information: <https://docs.julialang.org/en/v1/manual/getting-started/>.
 
 - Start a Julia REPL session:
 
@@ -22,6 +22,10 @@
 - Evaluate a string of Julia code, passing arguments to it:
 
 `julia -e '{{for x in ARGS; println(x); end}}' {{arguments}}`
+
+- Evaluate an expression and print the result:
+
+`julia -E '{{(1 - cos(pi/4))/2}}'`
 
 - Start Julia in parallel mode, using N worker processes:
 
