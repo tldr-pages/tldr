@@ -7,7 +7,7 @@
 
 `django-admin startproject {{project_name}}`
 
-- Create a new app for current project:
+- Create a new app for the current project:
 
 `django-admin startapp {{app_name}}`
 
