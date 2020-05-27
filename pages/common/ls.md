@@ -10,6 +10,10 @@
 
 `ls -a`
 
+- List all files with trailing `/` indicates that this is a directory:
+
+`ls -F`
+
 - Long format list (permissions, ownership, size and modification date) of all files:
 
 `ls -la`
