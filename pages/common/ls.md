@@ -10,6 +10,10 @@
 
 `ls -a`
 
+- List all files, with trailing `/` added to directory names:
+
+`ls -F`
+
 - Long format list (permissions, ownership, size and modification date) of all files:
 
 `ls -la`
