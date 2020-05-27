@@ -10,7 +10,7 @@
 
 `ls -a`
 
-- List all files with trailing `/` indicates that this is a directory:
+- List all files, with trailing `/` added to directory names:
 
 `ls -F`
 
