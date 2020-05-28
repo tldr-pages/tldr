@@ -29,4 +29,4 @@
 
 - Remove all files with a given original location:
 
-`trash-rm /full/path`
+`trash-rm {{/absolute/path/to/file_or_directory}}`
