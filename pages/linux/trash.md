@@ -27,6 +27,6 @@
 
 `trash-rm foo`
 
-- Remove all files with a given original location:
+- Remove all files with a given original location
 
 `trash-rm {{/absolute/path/to/file_or_directory}}`
