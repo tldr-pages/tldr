@@ -17,3 +17,7 @@
 - Count characters in file (taking multi-byte character sets into account):
 
 `wc -m {{file}}`
+
+- Use standard input to count lines, words and characters (bytes) in that order:
+
+`{{find .}} | wc`
