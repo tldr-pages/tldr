@@ -20,4 +20,4 @@
 
 - Use standard input to count lines, words and characters (bytes) in that order:
 
-`find . | wc`
+`{{find .}} | wc`
