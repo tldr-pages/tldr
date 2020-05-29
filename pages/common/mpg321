@@ -1,0 +1,32 @@
+# mpg321
+
+> High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+> mpg321 was written to be a drop-in replacement for the (by-then) non-free mpg123 player
+
+- Play an audio source (on repeat) exactly N=3 times:
+
+`mpg321 -l {{3}} {{ file(s) | URL }}`
+
+- Play an audio source (on repeat) forever (0 means until interrupted):
+
+`mpg321 -l 0 {{ file(s) | URL }}`
+
+- Play a whole folder (recursively):
+
+`mpg321 -B {{ folder(s) }}`
+
+- Enable Basic Keys ( * or / - Increase or decrease volume, n - Skip song, m - Mute/unmute.) while playing:
+
+`mpg321 -K {{ file(s) | URL }}`
+
+- Play files randomly until interrupted:
+
+`mpg321 -Z {{ file(s) | URL }}`
+
+- Shuffle list of files before playing the list once:
+
+`mpg321 -z {{ file(s) | URL }}`
+
+- Play all the files in the current folder(s) and subfolders, randomly (until interrupted), with Basic keys enabled:
+
+`mpg321 -B -Z -K *.mp3`
