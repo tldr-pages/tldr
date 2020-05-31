@@ -1,7 +1,6 @@
 # tldr
 
-> Command-line client for tldr-pages.
-> Displays simplified and community-driven man pages.
+> Displays simple help pages for command-line tools, from the tldr-pages project.
 > More information: <https://tldr.sh>.
 
 - Get typical usages of a command (hint: this is how you got here!):
