@@ -23,9 +23,9 @@
 
 `ghost log [name]`
 
-- Run system migrations on a Ghost instance
+- Run a Ghost instance directly (used by process managers and for debugging)
 
-`ghost migrate`
+`ghost run`
 
 - View running ghost processes
 
