@@ -1,13 +1,13 @@
 # ghost
 
-> A blogging platform and headless CMS. 
+> A blogging platform and headless CMS.
 > More information: <https://ghost.org>.
 
-- Installs ghost in the current directory.
+- Install ghost in the current directory:
 
 `ghost install`
 
-- Start an instance of Ghost. 
+- Start an instance of Ghost:
 
 `ghost start`
 
