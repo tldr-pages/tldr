@@ -1,7 +1,7 @@
 # ghost
 
 > A blogging platform and headless CMS. 
-> More information: <https://ghost.org>
+> More information: <https://ghost.org>.
 
 - Installs ghost in the current directory.
 
@@ -11,26 +11,26 @@
 
 `ghost start`
 
-- Restart the Ghost instance
+- Restart the Ghost instance:
 
 `ghost restart`
 
-- Check the system for any potential hiccups when installing/updating Ghost
+- Check the system for any potential hiccups when on install or update of Ghost:
 
 `ghost doctor`
 
-- View the logs of a Ghost instance
+- View the logs of a Ghost instance:
 
 `ghost log [name]`
 
-- Run a Ghost instance directly (used by process managers and for debugging)
+- Run a Ghost instance directly (used by process managers and for debugging):
 
 `ghost run`
 
-- View running ghost processes
+- View running ghost processes:
 
 `ghost ls`
 
-- View or edit Ghost configuration
+- View or edit Ghost configuration:
 
 `ghost config [key] [value]`
