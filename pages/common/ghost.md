@@ -11,6 +11,10 @@
 
 `ghost start`
 
+- Restart the Ghost instance
+
+`ghost restart`
+
 - Check the system for any potential hiccups when installing/updating Ghost
 
 `ghost doctor`
@@ -22,3 +26,11 @@
 - Run system migrations on a Ghost instance
 
 `ghost migrate`
+
+- View running ghost processes
+
+`ghost ls`
+
+- View or edit Ghost configuration
+
+`ghost config [key] [value]`
