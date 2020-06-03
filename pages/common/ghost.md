@@ -21,7 +21,7 @@
 
 - View the logs of a Ghost instance:
 
-`ghost log [name]`
+`ghost log {{name}}`
 
 - Run a Ghost instance directly (used by process managers and for debugging):
 
