@@ -25,3 +25,7 @@
 - Output info about block-device topology:
 
 `lsblk -t`
+
+- Exclude the devices specified by the comma-separated list of major device numbers:
+
+`lsblk -e {{1,7}}`
