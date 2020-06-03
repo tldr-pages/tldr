@@ -1,19 +1,19 @@
 # macchanger
 
-> Command line utility for manipulating network interface MAC addresses.
+> Command-line utility for manipulating network interface MAC addresses.
 
-- View current and permanent MAC address of interface:
+- View the current and permanent MAC addresses of interface:
 
 `macchanger --show {{interface}}`
 
-- Set interface to random MAC:
+- Set interface to a random MAC:
 
 `macchanger --random {{interface}}`
 
-- Set interface to specific MAC:
+- Set interface to a specific MAC:
 
 `macchanger --mac {{XX:XX:XX:XX:XX:XX}} {{interface}}`
 
-- Reset interface to permanent hardware MAC:
+- Reset interface to its permanent hardware MAC:
 
 `macchanger --permanent {{interface}}`
