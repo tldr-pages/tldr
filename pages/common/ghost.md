@@ -33,4 +33,4 @@
 
 - View or edit Ghost configuration:
 
-`ghost config [key] [value]`
+`ghost config {{key}} {{value}}`
