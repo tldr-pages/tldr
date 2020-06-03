@@ -3,7 +3,7 @@
 > A blogging platform and headless CMS.
 > More information: <https://ghost.org>.
 
-- Install ghost in the current directory:
+- Install Ghost in the current directory:
 
 `ghost install`
 
@@ -27,7 +27,7 @@
 
 `ghost run`
 
-- View running ghost processes:
+- View running Ghost processes:
 
 `ghost ls`
 
