@@ -3,18 +3,18 @@
 > A utility to convert the output of many commands to JSON.
 > More information: <https://github.com/kellyjonbrazil/jc>.
 
-- Convert command output to JSON:
+- Convert command output to JSON via pipe:
 
 `ifconfig | jc --ifconfig`
 
-or
+- Convert command output to JSON via magic syntax:
 
 `jc ifconfig`
 
-- Output pretty JSON:
+- Output pretty JSON via pipe:
 
 `ifconfig | jc --ifconfig -p`
 
-or
+- Output pretty JSON via magic syntax:
 
 `jc -p ifconfig`
