@@ -2,7 +2,7 @@
 
 > Command-line utility for manipulating network interface MAC addresses.
 
-- View the current and permanent MAC addresses of interface:
+- View the current and permanent MAC addresses of a interface:
 
 `macchanger --show {{interface}}`
 
