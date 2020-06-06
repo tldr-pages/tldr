@@ -15,7 +15,7 @@
 
 `rsync -azvhP {{chemin/vers/fichier_local}} {{hote_distant}}:{{chemin/vers/dossier_distant}}`
 
--Transférer un dossier et tous ses sous-dossiers d'un hôte distant vers l'hôte local:
+- Transférer un dossier et tous ses sous-dossiers d'un hôte distant vers l'hôte local:
 
 `rsync -r {{hote_distant}}:{{chemin/vers/dossier_distant}} {{chemin/vers/dossier_local}}`
 
