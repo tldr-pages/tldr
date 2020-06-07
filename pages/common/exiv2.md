@@ -15,7 +15,7 @@
 
 `exiv2 -P kv {{filename}}`
 
-- Delete all metadata from image:
+- Delete all metadata from an image:
 
 `exiv2 -d a {{filename}}`
 
@@ -23,6 +23,6 @@
 
 `exiv2 -d a -k {{filename}}`
 
-- Rename the file, prepending the date and time from metadata (not file timestamp):
+- Rename the file, prepending the date and time from metadata (not from the file timestamp):
 
 `exiv2 -r '%Y%m%d_%H%M%S_:basename:' {{filename}}`
