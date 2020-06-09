@@ -1,6 +1,6 @@
 # Homeshick
 
-> Git dotfiles syncronizer written in bash.
+> Synchronize Git dotfiles.
 > More information <https://github.com/andsens/homeshick/wiki>.
 
 - Create a new castle:
