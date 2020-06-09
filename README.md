@@ -1,14 +1,14 @@
 # tldr
 
-[![Build status][travis-image]][travis-url]
+[![Build status][github-actions-image]][github-actions-url]
 [![Gitter chat][gitter-image]][gitter-url]
 [![Merged PRs][prs-merged-image]][prs-merged-url]
 [![Issue stats][issuestats-image]][issuestats-url]
 [![GitHub contributors][contributors-image]][contributors-url]
 [![license][license-image]][license-url]
 
-[travis-url]: https://travis-ci.org/tldr-pages/tldr/builds
-[travis-image]: https://travis-ci.org/tldr-pages/tldr.svg?branch=master
+[github-actions-url]: https://github.com/tldr-pages/tldr/actions
+[github-actions-image]: https://img.shields.io/github/workflow/status/tldr-pages/tldr/CI.svg
 [gitter-url]: https://gitter.im/tldr-pages/tldr
 [gitter-image]: https://badges.gitter.im/tldr-pages/tldr.svg
 [prs-merged-url]: https://github.com/tldr-pages/tldr/pulls?q=is:pr+is:merged
