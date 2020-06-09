@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# This script is executed by Travis CI for every pull request opened.
+# This script is executed by GitHub Actions for every pull request opened.
 # It currently accomplishes the following objectives (for English pages only):
 #
 #  1. Detect pages that were just copied (i.e. cp pages/{common,linux}/7z.md).
@@ -110,7 +110,7 @@ MSG_NOT_MD='The file `%s` does not have a `.md` extension.\n'
 
 PLATFORMS=$(ls pages/)
 
-if [ "$TRAVIS" = "true" ] && [ "$TRAVIS_REPO_SLUG" = "tldr-pages/tldr" ] && [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
+if [ "$CI" = "true" ] && [ "$GITHUB_REPOSITORY" = "tldr-pages/tldr" ] && [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
   check_diff
   check_structure
 else

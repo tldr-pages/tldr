@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# This script is executed by Travis CI for every successful push (on any branch, PR or not).
+# This script is executed by GitHub Actions for every successful push (on any branch, PR or not).
 # It runs some basic tests on pages. If the build is also a PR, additional
 # checks are run through the check-pr script, and any message or error is sent
 # to tldr-bot to be commented on the PR.
@@ -14,7 +14,7 @@ function run_tests {
   tldr-lint ./pages
 }
 
-# Special test function for Travis CI pull request builds.
+# Special test function for GitHub Actions pull request builds.
 # Runs run_tests collecting errors for tldr-bot.
 function run_tests_pr {
   errs=$(run_tests 2>&1)
@@ -27,7 +27,7 @@ function run_tests_pr {
   fi
 }
 
-# Additional checks for Travis CI pull request builds.
+# Additional checks for GitHub Actions pull request builds.
 # Only taken as suggestions, does not make the build fail.
 function run_checks_pr {
   msgs=$(bash scripts/check-pr.sh)
@@ -43,7 +43,7 @@ function run_checks_pr {
 # MAIN
 ###################################
 
-if [ "$TRAVIS" = "true" ] && [ "$TRAVIS_REPO_SLUG" = "tldr-pages/tldr" ] && [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
+if [ "$CI" = "true" ] && [ "$GITHUB_REPOSITORY" = "tldr-pages/tldr" ] && [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
   run_checks_pr
   run_tests_pr
 else
