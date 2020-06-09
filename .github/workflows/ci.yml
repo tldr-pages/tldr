@@ -1,0 +1,27 @@
+name: CI
+
+on: ['push', 'pull_request']
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+
+    name: CI
+
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Install npm dependencies
+      run: npm ci
+
+    - name: Test
+      run: npm test
+
+    - name: Build
+      run: bash scripts/build.sh
+
+    - name: Deploy
+      run: bash scripts/deploy.sh
+      if: github.repository == 'tldr-pages/tldr' && github.branch == 'master'
