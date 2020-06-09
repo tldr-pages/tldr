@@ -3,34 +3,34 @@
 > Matches patterns in input text.
 > Supports simple patterns and regular expressions.
 
+- Search for a pattern within a file:
+
+`grep {{search_pattern}} {{path/to/file}}`
+
 - Search for an exact string:
 
-`grep {{search_string}} {{path/to/file}}`
+`grep -F {{exact_string}} {{path/to/file}}`
 
-- Search in case-insensitive mode:
+- Search for a pattern recursively in the current directory, ignoring non-text files:
 
-`grep -i {{search_string}} {{path/to/file}}`
+`grep -RI {{search_pattern}} .`
 
-- Search recursively (ignoring non-text files) in current directory for an exact string:
+- Use extended regular expressions (supporting `?`, `+`, `{}`, `()` and `|`), in case-insensitive mode:
 
-`grep -RI {{search_string}} .`
-
-- Use extended regular expressions (supporting `?`, `+`, `{}`, `()` and `|`):
-
-`grep -E {{^regex$}} {{path/to/file}}`
+`grep -Ei {{search_pattern}} {{path/to/file}}`
 
 - Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match:
 
-`grep -{{C|B|A}} 3 {{search_string}} {{path/to/file}}`
+`grep -{{C|B|A}} 3 {{search_pattern}} {{path/to/file}}`
 
 - Print file name with the corresponding line number for each match:
 
-`grep -Hn {{search_string}} {{path/to/file}}`
+`grep -Hn {{search_pattern}} {{path/to/file}}`
 
 - Use the standard input instead of a file:
 
-`cat {{path/to/file}} | grep {{search_string}}`
+`cat {{path/to/file}} | grep {{search_pattern}}`
 
 - Invert match for excluding specific strings:
 
-`grep -v {{search_string}}`
+`grep -v {{search_pattern}}`
