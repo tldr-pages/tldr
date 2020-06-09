@@ -8,7 +8,7 @@ import urllib.request
 BOT_URL = 'https://tldr-bot.starbeamrainbowlabs.com'
 
 COMMENT_ERROR="""
-The [build](https://travis-ci.org/tldr-pages/tldr/builds/{build_id}) for this PR failed with the following error(s):
+The [build](https://github.com/tldr-pages/tldr/actions/runs/{build_id}) for this PR failed with the following error(s):
 
 ```
 {content}
@@ -73,9 +73,9 @@ def main(action):
 ################################################################################
 
 if __name__ == '__main__':
-  REPO_SLUG = os.environ.get('TRAVIS_REPO_SLUG')
+  REPO_SLUG = os.environ.get('GITHUB_REPOSITORY')
   PR_ID = os.environ.get('TRAVIS_PULL_REQUEST')
-  BUILD_ID = os.environ.get('TRAVIS_BUILD_ID')
+  BUILD_ID = os.environ.get('GITHUB_RUN_ID')
 
   if PR_ID is None or BUILD_ID is None or REPO_SLUG is None:
     print('Needed environment variables are not set.', file=sys.stderr)
