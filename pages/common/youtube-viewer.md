@@ -7,7 +7,7 @@
 
 `youtube-viewer {{search term}}`
 
-- Login to your youtube account:
+- Login to your YouTube account:
 
 `youtube-viewer --login`
 
