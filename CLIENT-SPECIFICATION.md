@@ -1,6 +1,6 @@
 # tldr-pages client specification
 
-**Current Specification Version:** 1.2
+**Current Specification Version:** 1.3
 
 This document contains the official specification for tldr-pages clients. It is _not_ a specification of the format of the pages themselves - only a specification of how a user should be able to interface with an official client. For a list of previous versions of the specification, see the [changelog section](#Changelog) below.
 
@@ -179,6 +179,8 @@ The [`LANG` environment variable](https://www.gnu.org/software/gettext/manual/ht
 
 The [`LANGUAGE` environment variable](https://www.gnu.org/software/gettext/manual/html_node/The-LANGUAGE-variable.html) specifies a priority list of languages that a user wishes to read in. In absence of `LANG` and if this environment variable is present, a client MUST use the defined priority list to decide on the language of pages to display. If a page is not available in the user's preferred language, then a client MUST respect the user's priority list defined in the `LANGUAGE` variable, and MAY choose to notify the user that a page in their chosen language couldn't be found (perhaps along with a link to the [translations section of the contributing guide](https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md#translations)).
 
+Regardless of the language selected through the above environment variables, clients SHOULD always attempt to fallback to English if the page does not exist in the requested languages. In this case clients REALLY SHOULD tell the user that the page does not exist in their requested language however if it was not English. If the client supports a command line argument for language, the client MUST only attempt to show the page in that language (clients OUGHT TO notify the user that a page is available in other languages if present).
+
 The [`LC_MESSAGES` environment variable](https://www.gnu.org/software/gettext/manual/html_node/Locale-Environment-Variables.html) MAY be present. If the client itself is localized and this environment variable is present, it MUST use its value in order to determine the language in which interface text is shown (separately from the language used for pages). In absence of `LC_MESSAGES`, then `LANG` and `LANGUAGE` MUST be used for this purpose instead.
 
 **Note that** it is highly RECOMMENDED to give precedence to the platform first, and then the language. In other words, look for a platform under each language, before falling back to the next preferred language. This ensures a meaningful and correct page resolution.
@@ -201,7 +203,10 @@ Caching SHOULD be done according to the user's language configuration (if any), 
 
 ## Changelog
 
- - [v1.2, July 3rd 2019](https://github.com/tldr-pages/tldr/blob/master/CLIENT-SPECIFICATION.md) (#3168)
+ - [v1.3, June 11th 2020]()
+   - Clarified fallback to english in the language resolution algorithm. 
+
+ - [v1.2, July 3rd 2019](https://github.com/tldr-pages/tldr/blob/524d44eb13ff6c0ff70089bd152b075418fc71b2/CLIENT-SPECIFICATION.md) (#3168)
    - Addition of a new `-L, --language` recommended command-line option.
    - Rewording of the language section also encouraging the use of configuration files for language.
    - Shift from BCP-47 to POSIX style locale tags, with consequent **deprecation of previous versions of the spec**.
