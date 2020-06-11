@@ -1,24 +1,24 @@
 # icalBuddy
 
-> Command-line utility for prinitng events and tasks from the macOS calendar database.
+> Command-line utility for printing events and tasks from the macOS calendar database.
 > More information: <https://hasseg.org/icalBuddy/>.
 
 - Show events later today:
 
-`icalBuddy -n -f eventsToday`
+`icalBuddy -n eventsToday`
 
 - Show uncompleted tasks:
 
-`icalBuddy -f uncompletedTasks`
+`icalBuddy uncompletedTasks`
 
-- Show tasks for the next 3 days:
+- Show a formated list separated by calendar for all events today:
 
-`icalBuddy -n -f tasksDueBefore:today+3`
+`icalBuddy -f -sc eventsToday`
+
+- Show tasks for a specified number of days:
+
+`icalBuddy -n tasksDueBefore:today+{{days}}`
 
 - Show events in a time range:
 
-`icalBuddy -f eventsFrom:'{{start date}}' to:'{{end date}}'`
-
-- Show custom event list:
-
-`icalBuddy -f -npn -nc -iep "title,datetime" -ps "| : |" -po "datetime,title" -tf "" -df "%RD" -eed eventsToday+10`
+`icalBuddy eventsFrom:'{{start date}}' to:'{{end date}}'`
