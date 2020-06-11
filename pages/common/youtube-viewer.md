@@ -11,7 +11,7 @@
 
 `youtube-viewer --login`
 
-- Watch a video with a specific url in vlc:
+- Watch a video with a specific URL in VLC:
 
 `youtube-viewer --player={{vlc}} {{https://youtube.com/watch?v=1dastnond}}`
 
