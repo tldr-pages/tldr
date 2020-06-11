@@ -1,7 +1,7 @@
 # youtube-viewer
 
 > A command line tool to let you watch youtube.
-> More information: https://github.com/trizen/youtube-viewer.
+> More information: <https://github.com/trizen/youtube-viewer>.
 
 - Search for a video:
 
