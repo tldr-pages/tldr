@@ -15,6 +15,6 @@
 
 `youtube-viewer --player={{vlc}} {{https://youtube.com/watch?v=1dastnond}}`
 
-- Get to a search prompt and play the video that is selected in 720p:
+- Get to a search prompt and play the selected video in 720p:
 
 `youtube-viewer -7`
