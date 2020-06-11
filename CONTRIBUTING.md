@@ -2,7 +2,6 @@
 
 [![Gitter chat][gitter-image]][gitter-url]
 [![Merged PRs][prs-merged-image]][prs-merged-url]
-[![Issue stats][issuestats-image]][issuestats-url]
 [![GitHub contributors][contributors-image]][contributors-url]
 [![CLA assistant][cla-assistant-image]][cla-assistant-url]
 [![license][license-image]][license-url]
@@ -11,8 +10,6 @@
 [gitter-image]: https://badges.gitter.im/tldr-pages/tldr.svg
 [prs-merged-url]: https://github.com/tldr-pages/tldr/pulls?q=is:pr+is:merged
 [prs-merged-image]: https://img.shields.io/github/issues-pr-closed-raw/tldr-pages/tldr.svg?label=merged+PRs
-[issuestats-url]: http://isitmaintained.com/project/tldr-pages/tldr
-[issuestats-image]: http://isitmaintained.com/badge/resolution/tldr-pages/tldr.svg
 [contributors-url]: https://github.com/tldr-pages/tldr/graphs/contributors
 [contributors-image]: https://img.shields.io/github/contributors/tldr-pages/tldr.svg
 [cla-assistant-url]: https://cla-assistant.io/tldr-pages/tldr
