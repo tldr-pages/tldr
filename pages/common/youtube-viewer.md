@@ -5,7 +5,7 @@
 
 - Search for a video:
 
-`youtube-viewer {{search term}}`
+`youtube-viewer {{search_term}}`
 
 - Login to your YouTube account:
 
