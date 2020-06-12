@@ -11,7 +11,7 @@
 
 `multipass launch -n {{instance_name}} --cloud-init {{configuration_file}}`
 
-- Lists all the created instances and some of their properties:
+- List all the created instances and some of their properties:
 
 `multipass list`
 
