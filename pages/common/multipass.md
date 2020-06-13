@@ -7,7 +7,7 @@
 
 `multipass find`
 
-- Launch a new instance, set its name, use a cloud-init configuration file:
+- Launch a new instance, set its name and use a cloud-init configuration file:
 
 `multipass launch -n {{instance_name}} --cloud-init {{configuration_file}}`
 
