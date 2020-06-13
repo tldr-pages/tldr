@@ -1,6 +1,6 @@
 # wipefs
 
-> Wipe filesystem signatures from a device
+> Wipe filesystem signatures from a device.
 
 - Display signatures for specified device:
 
