@@ -17,4 +17,4 @@
 
 - Get to a search prompt and play the selected video in 720p:
 
-`youtube-viewer -7`
+`youtube-viewer -{{7}}`
