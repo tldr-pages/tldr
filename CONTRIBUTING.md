@@ -7,15 +7,15 @@
 [![license][license-image]][license-url]
 
 [gitter-url]: https://gitter.im/tldr-pages/tldr
-[gitter-image]: https://badges.gitter.im/tldr-pages/tldr.svg
+[gitter-image]: https://img.shields.io/badge/chat-on_gitter-deeppink
 [prs-merged-url]: https://github.com/tldr-pages/tldr/pulls?q=is:pr+is:merged
-[prs-merged-image]: https://img.shields.io/github/issues-pr-closed-raw/tldr-pages/tldr.svg?label=merged+PRs
+[prs-merged-image]: https://img.shields.io/github/issues-pr-closed-raw/tldr-pages/tldr.svg?label=merged+PRs&color=green
 [contributors-url]: https://github.com/tldr-pages/tldr/graphs/contributors
 [contributors-image]: https://img.shields.io/github/contributors/tldr-pages/tldr.svg
 [cla-assistant-url]: https://cla-assistant.io/tldr-pages/tldr
 [cla-assistant-image]: https://cla-assistant.io/readme/badge/tldr-pages/tldr
 [license-url]: https://github.com/tldr-pages/tldr/blob/master/LICENSE.md
-[license-image]: https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey.svg
+[license-image]: https://img.shields.io/badge/license-CC_BY_4.0-blue.svg
 
 Contributions to the tldr-pages project are [most welcome](GOVERNANCE.md)!
 All `tldr` pages are stored in Markdown right here on GitHub.
