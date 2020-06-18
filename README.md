@@ -10,13 +10,13 @@
 [travis-url]: https://travis-ci.org/tldr-pages/tldr/builds
 [travis-image]: https://travis-ci.org/tldr-pages/tldr.svg?branch=master
 [gitter-url]: https://gitter.im/tldr-pages/tldr
-[gitter-image]: https://badges.gitter.im/tldr-pages/tldr.svg
+[gitter-image]: https://img.shields.io/badge/chat-on_gitter-deeppink
 [prs-merged-url]: https://github.com/tldr-pages/tldr/pulls?q=is:pr+is:merged
-[prs-merged-image]: https://img.shields.io/github/issues-pr-closed-raw/tldr-pages/tldr.svg?label=merged+PRs
+[prs-merged-image]: https://img.shields.io/github/issues-pr-closed-raw/tldr-pages/tldr.svg?label=merged+PRs&color=green
 [contributors-url]: https://github.com/tldr-pages/tldr/graphs/contributors
 [contributors-image]: https://img.shields.io/github/contributors/tldr-pages/tldr.svg
 [license-url]: https://github.com/tldr-pages/tldr/blob/master/LICENSE.md
-[license-image]: https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey.svg
+[license-image]: https://img.shields.io/badge/license-CC_BY_4.0-blue.svg
 </div>
 
 ## What is tldr-pages?
