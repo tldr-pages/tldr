@@ -25,7 +25,7 @@
 
 - Update composer lock only after updating `composer.json` manually:
 
-`compsoer update --lock`
+`composer update --lock`
 
 - Learn more about why a dependency can't be installed:
 
@@ -34,4 +34,3 @@
 - Update composer to its latest version:
 
 `composer self-update`
-
