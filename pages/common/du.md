@@ -20,7 +20,7 @@
 
 - List the human-readable sizes of a directory and any subdirectories, up to N levels deep:
 
-`du -h --max-depth=N {{path/to/directory}}`
+`du -h -dN {{path/to/directory}}`
 
 - List the human-readable size of all .jpg files in subdirectories of the current directory, and show a cumulative total at the end:
 
