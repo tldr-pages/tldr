@@ -5,12 +5,12 @@
 
 - Verify a signed file:
 
-`gpgv doc.txt`
+`gpgv {{path/to/file}}`
 
 - Verify a signed file using a detached signature:
 
-`gpgv sigfile.asc doc.txt`
+`gpgv {{path/to/signature}} {{path/to/file}}`
 
 - Add a file to the list of keyrings (a single exported key also accounts as a keyring):
 
-`gpgv --keyring ./alice.keyring sigfile.asc doc.txt`
+`gpgv --keyring {{./alice.keyring}} {{path/to/file}} {{path/to/signature}}`
