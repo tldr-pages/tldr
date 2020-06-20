@@ -6,7 +6,7 @@
 
 `unrar x {{compressed.rar}}`
 
-- Extract files to existing path with original directory structure:
+- Extract files to a specified path with the original directory structure:
 
 `unrar x {{compressed.rar}} {{path/to/extract}}`
 
