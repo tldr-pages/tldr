@@ -22,3 +22,7 @@
 - Comparar o conteúdo de dois arquivos no VS Code:
 
 `code -d {{arquivo1}} {{arquivo2}}`
+
+- Iniciar o VS Code com permissão de super usuário (sudo):
+
+`sudo code {{path/to/file_or_directory}} --user-data-dir`
