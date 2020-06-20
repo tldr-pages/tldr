@@ -23,6 +23,6 @@
 
 `code -d {{arquivo1}} {{arquivo2}}`
 
-- Abre VS Code com permissão de super usuário (sudo):
+- Iniciar o VS Code com permissão de super usuário (sudo):
 
 `sudo code {{path/to/file_or_directory}} --user-data-dir`
