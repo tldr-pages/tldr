@@ -13,7 +13,7 @@
 
 - Watch a video with a specific URL in VLC:
 
-`youtube-viewer --player={{vlc}} {{https://youtube.com/watch?v=1dastnond}}`
+`youtube-viewer --player={{vlc}} {{https://youtube.com/watch?v=dQw4w9WgXcQ}}`
 
 - Display a search prompt and play the selected video in 720p:
 
