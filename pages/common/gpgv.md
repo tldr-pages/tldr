@@ -11,6 +11,6 @@
 
 `gpgv {{path/to/signature}} {{path/to/file}}`
 
-- Add a file to the list of keyrings (a single exported key also accounts as a keyring):
+- Add a file to the list of keyrings (a single exported key also counts as a keyring):
 
-`gpgv --keyring {{./alice.keyring}} {{path/to/file}} {{path/to/signature}}`
+`gpgv --keyring {{./alice.keyring}} {{path/to/signature}} {{path/to/file}}`
