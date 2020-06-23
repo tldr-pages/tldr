@@ -15,10 +15,10 @@
 
 `zstd -dc {{file}}.zst`
 
-- Compress a file, while specifing the compression level (0 being worst, 19 best, and 3 default):
+- Compress a file specifying the compression level, where 1=fastest, 19=slowest and 3=default:
 
 `zstd -{{level}} {{file}}`
 
-- Use more memory (both when compressing and decompressing) to achieve a higher compression ratio:
+- Unlock higher compression levels (up to 22) using more memory (both for compression and decompression):
 
 `zstd --ultra -{{level}} {{file}}`
