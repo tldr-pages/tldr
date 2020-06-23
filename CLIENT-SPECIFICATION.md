@@ -180,7 +180,15 @@ The [`LANG` environment variable](https://www.gnu.org/software/gettext/manual/ht
 The [`LANGUAGE` environment variable](https://www.gnu.org/software/gettext/manual/html_node/The-LANGUAGE-variable.html) specifies a priority list of languages that a user wishes to read in. In absence of `LANG` and if this environment variable is present, a client MUST use the defined priority list to decide on the language of pages to display. If a page is not available in the user's preferred language, then a client MUST respect the user's priority list defined in the `LANGUAGE` variable, and MAY choose to notify the user that a page in their chosen language couldn't be found (perhaps along with a link to the [translations section of the contributing guide](https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md#translations)).
 
 Regardless of the language selected through the above environment variables, clients MUST always attempt to fallback to English if the page does not exist in the requested languages. In this case clients REALLY SHOULD tell the user that the page does not exist in their requested language however if it was not English. If the client supports a command-line argument for language, the client MUST only attempt to show the page in that language (clients OUGHT TO notify the user that a page is available in other languages if present).
+LANGUAGE | LANG | Result
+---------|------|-------
+it,cz,de | cz   | it,cz,de,en
+it,de,fr | cz   | it,de,fr,cz,en
+  --     | it   | it,en
+it,cz    | --   | en
+  --     | --   | en
 
+Note: `LANG` or `LANGUAGE` may contain a value of `C` or `POSIX` and this should be treated as ignored.
 The [`LC_MESSAGES` environment variable](https://www.gnu.org/software/gettext/manual/html_node/Locale-Environment-Variables.html) MAY be present. If the client itself is localized and this environment variable is present, it MUST use its value in order to determine the language in which interface text is shown (separately from the language used for pages). In absence of `LC_MESSAGES`, then `LANG` and `LANGUAGE` MUST be used for this purpose instead.
 
 **Note that** it is highly RECOMMENDED to give precedence to the platform first, and then the language. In other words, look for a platform under each language, before falling back to the next preferred language. This ensures a meaningful and correct page resolution.
