@@ -56,7 +56,7 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [12 January 2020](https://github.com/tldr-pages/tldr/issues/3738) — present
 - **Lucas Schneider ([@schneiderl](https://github.com/schneiderl))**:
   [17 January 2019](https://github.com/tldr-pages/tldr/issues/3764) — present
-- Owen Voke ([@pxgamer](https://github.com/pxgamer))
+- Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
   [9 April 2019](https://github.com/tldr-pages/tldr/issues/2874) — [21 December 2019](https://github.com/tldr-pages/tldr/issues/3672)
@@ -76,7 +76,7 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [27 September 2016](https://gitter.im/tldr-pages/tldr?at=57eaedefe4e41c6a4afc2f47) — present
 - **Starbeamrainbowlabs ([@sbrl](https://github.com/sbrl))**:
   [23 April 2017](https://gitter.im/tldr-pages/tldr?at=58fc6fce3e27cac331b5c397) — present
-- **Owen Voke ([@pxgamer](https://github.com/pxgamer))**
+- **Owen Voke ([@owenvoke](https://github.com/owenvoke))**
   [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989) — present
 - **Marco Bonelli ([@mebeim](https://github.com/mebeim))**:
   [21 December 2019](https://github.com/tldr-pages/tldr/issues/3672) — present
