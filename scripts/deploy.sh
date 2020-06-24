@@ -32,7 +32,7 @@ function upload_assets {
 
   cd "$SITE_HOME"
   git add -A
-  git commit -m "[GitHub Actions] uploaded assets after commits ${TRAVIS_COMMIT_RANGE}"
+  git commit -m "[GitHub Actions] uploaded assets after commit ${GITHUB_SHA}"
   git push -q
 
   echo "Assets (pages archive, index) deployed to static site."
