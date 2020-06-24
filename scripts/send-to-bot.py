@@ -74,7 +74,7 @@ def main(action):
 
 if __name__ == '__main__':
   REPO_SLUG = os.environ.get('GITHUB_REPOSITORY')
-  PR_ID = os.environ.get('TRAVIS_PULL_REQUEST')
+  PR_ID = os.environ.get('PULL_REQUEST_ID')
   BUILD_ID = os.environ.get('GITHUB_RUN_ID')
 
   if PR_ID is None or BUILD_ID is None or REPO_SLUG is None:
