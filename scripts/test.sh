@@ -43,7 +43,7 @@ function run_checks_pr {
 # MAIN
 ###################################
 
-if [ "$CI" = "true" ] && [ "$GITHUB_REPOSITORY" = "tldr-pages/tldr" ] && [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
+if [ "$CI" = "true" ] && [ "$GITHUB_REPOSITORY" = "tldr-pages/tldr" ] && [ "$PULL_REQUEST_ID" != "false" ]; then
   run_checks_pr
   run_tests_pr
 else
