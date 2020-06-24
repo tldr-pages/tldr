@@ -20,7 +20,7 @@ function initialize {
 
   # Decrypt and add deploy key.
   eval "$(ssh-agent -s)"
-  openssl aes-256-cbc -K "$encrypted_973441be79af_key" -iv "$encrypted_973441be79af_iv" -in ./scripts/id_ed25519_tldr_asset_upload.enc -out id_ed25519 -d
+  echo "${DEPLOY_KEY}"> id_ed25519
   chmod 600 id_ed25519
   ssh-add id_ed25519
 }
