@@ -13,6 +13,10 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
+    - name: Set up PR environment
+      if: github.event.number != null
+      run: echo "::set-env name=PULL_REQUEST_ID::${{ github.event.number }}"
+
     - name: Install npm dependencies
       run: npm ci
 
