@@ -1,6 +1,6 @@
 # git difftool
 
-> Show changes to files using external diff tools. Takes the same options and arguments as git diff.
+> Show file changes using external diff tools. Accepts the same options and arguments as git diff.
 > More information: <https://git-scm.com/docs/git-difftool>.
 
 - List available diff tools:
