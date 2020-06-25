@@ -38,4 +38,3 @@
 - Capture the traffic from the loopback interface:
 
 `tcpdump -i lo`
-
