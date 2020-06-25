@@ -34,3 +34,8 @@
 - Read from a given dump file:
 
 `tcpdump -r {{dumpfile.pcap}}`
+
+- Capture the traffic from the loopback interface:
+
+`tcpdump -i lo`
+
