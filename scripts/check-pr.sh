@@ -110,7 +110,7 @@ MSG_NOT_MD='The file `%s` does not have a `.md` extension.\n'
 
 PLATFORMS=$(ls pages/)
 
-if [ "$CI" = "true" ] && [ "$GITHUB_REPOSITORY" = "tldr-pages/tldr" ] && [ "$PULL_REQUEST_ID" != "false" ]; then
+if [ "$CI" = "true" ] && [ "$GITHUB_REPOSITORY" = "tldr-pages/tldr" ] && [ "$PULL_REQUEST_ID" != "" ]; then
   check_diff
   check_structure
 else
