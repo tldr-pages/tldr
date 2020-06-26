@@ -27,7 +27,7 @@ jobs:
       run: bash scripts/build.sh
 
     - name: Deploy
-      if: github.repository == 'tldr-pages/tldr' && github.branch == 'master'
+      if: github.repository == 'tldr-pages/tldr' && github.ref == 'master'
       run: bash scripts/deploy.sh
       env:
         DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
