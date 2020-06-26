@@ -19,6 +19,6 @@
 
 `cloc --vcs git {{path/to/directory}}`
 
-- Count all the lines of code in a directory, displaying the results for each file instead of each language
+- Count all the lines of code in a directory, displaying the results for each file instead of each language:
 
 `cloc --by-file {{path/to/directory}}`
