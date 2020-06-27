@@ -1,7 +1,7 @@
 # zgrep
 
-> Grep pattern(s) of text (strings/regex) from files within compressed file (equivalent to grep -Z)
-> Syntax: zgrep [grep_options] pattern file
+> Grep pattern(s) of text (strings/regex) from files within compressed file (equivalent to grep -Z).
+> Syntax: zgrep [grep_options] pattern file.
 
 - Grep pattern from compressed file (case-sensitive):
 
@@ -21,7 +21,7 @@
 
 - Grep compressed file for multiple patterns:
 
-`zgrep -e "pattern_1" -e "pattern_2" path/to/compressed/file
+`zgrep -e "pattern_1" -e "pattern_2" path/to/compressed/file`
 
 - Use extended regular expressions (supporting `?`, `+`, `{}`, `()` and `|`):
 
