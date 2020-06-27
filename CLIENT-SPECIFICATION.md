@@ -181,13 +181,13 @@ The [`LANGUAGE` environment variable](https://www.gnu.org/software/gettext/manua
 
 Regardless of the language selected through the above environment variables, clients MUST always attempt to fallback to English if the page does not exist in the requested languages. In this case clients SHOULD tell the user that the page does not exist in their requested language if it was not English. If the client supports a command-line argument for language, the client MUST only attempt to show the page in that language (clients MAY notify the user that a page is available in other languages if present).
 
-LANGUAGE | LANG | Result
----------|------|-------
-`it:cz:de` | `cz`   | `it`, `cz`, `de`, `en`
-it,de,fr | cz   | it,de,fr,cz,en
-  --     | it   | it,en
-it,cz    | --   | en
-  --     | --   | en
+LANGUAGE	| LANG	| Result
+------------|-------|----------
+`it:cz:de`	| `cz`	| `it`, `cz`, `de`, `en`
+`it:de:fr`	| `cz`	| `it`, `de`, `fr`, `cz`, `en`
+--			| `it`	| `it`, `en`
+`it,cz`		| --	| `en`
+--			| --	| `en`
 
 Note: `LANG` or `LANGUAGE` may contain the values `C` or `POSIX`, which should be ignored.
 
@@ -215,6 +215,7 @@ Caching SHOULD be done according to the user's language configuration (if any), 
 
  - [v1.3, June 11th 2020](https://github.com/tldr-pages/tldr/blob/master/CLIENT-SPECIFICATION.md) (#4101)
    - Clarified fallback to English in the language resolution algorithm. 
+   - Update `LANG` and `LANGUAGE` environment variable to conform to the GNU spec.
 
  - [v1.2, July 3rd 2019](https://github.com/tldr-pages/tldr/blob/524d44eb13ff6c0ff70089bd152b075418fc71b2/CLIENT-SPECIFICATION.md) (#3168)
    - Addition of a new `-L, --language` recommended command-line option.
