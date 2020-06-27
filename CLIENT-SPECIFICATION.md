@@ -186,7 +186,7 @@ LANGUAGE	| LANG	| Result
 `it:cz:de`	| `cz`	| `it`, `cz`, `de`, `en`
 `it:de:fr`	| `cz`	| `it`, `de`, `fr`, `cz`, `en`
 --			| `it`	| `it`, `en`
-`it,cz`		| --	| `en`
+`it:cz`		| --	| `en`
 --			| --	| `en`
 
 Note: `LANG` or `LANGUAGE` may contain the values `C` or `POSIX`, which should be ignored.
