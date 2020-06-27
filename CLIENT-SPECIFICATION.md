@@ -183,7 +183,7 @@ Regardless of the language selected through the above environment variables, cli
 
 LANGUAGE | LANG | Result
 ---------|------|-------
-it,cz,de | cz   | it,cz,de,en
+`it:cz:de` | `cz`   | `it`, `cz`, `de`, `en`
 it,de,fr | cz   | it,de,fr,cz,en
   --     | it   | it,en
 it,cz    | --   | en
