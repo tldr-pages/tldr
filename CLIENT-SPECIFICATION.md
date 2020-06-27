@@ -189,7 +189,8 @@ it,de,fr | cz   | it,de,fr,cz,en
 it,cz    | --   | en
   --     | --   | en
 
-Note: `LANG` or `LANGUAGE` may contain a value of `C` or `POSIX` and this should be treated as ignored.
+Note: `LANG` or `LANGUAGE` may contain the values `C` or `POSIX`, which should be ignored.
+
 The [`LC_MESSAGES` environment variable](https://www.gnu.org/software/gettext/manual/html_node/Locale-Environment-Variables.html) MAY be present. If the client itself is localized and this environment variable is present, it MUST use its value in order to determine the language in which interface text is shown (separately from the language used for pages). In absence of `LC_MESSAGES`, then `LANG` and `LANGUAGE` MUST be used for this purpose instead.
 
 **Note that** it is highly RECOMMENDED to give precedence to the platform first, and then the language. In other words, look for a platform under each language, before falling back to the next preferred language. This ensures a meaningful and correct page resolution.
