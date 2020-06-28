@@ -14,6 +14,6 @@
 
 `cd ..`
 
-- Gehe zum vorher gewählten Verzeichnis: `cd ..`
+- Gehe zum vorher gewählten Verzeichnis:
 
 `cd -`
