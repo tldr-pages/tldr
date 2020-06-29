@@ -17,7 +17,7 @@
 
 - Entferne einen Alias:
 
-`unalias {{word}}`
+`unalias {{wort}}`
 
 - Macht `rm` zu einem interaktiven Befehl:
 
