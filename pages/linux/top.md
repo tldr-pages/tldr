@@ -14,7 +14,7 @@
 
 `top -u {{username}}`
 
-- Sort processes by field:
+- Sort processes by a field:
 
 `top -o {{field_name}}`
 
