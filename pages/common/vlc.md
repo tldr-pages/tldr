@@ -1,7 +1,7 @@
 # vlc
 
 > Cross-platform multimedia player.
-> More information: <https://www.videolan.org/vlc/>.
+> More information: <https://www.videolan.org/vlc/>:
 
 - Play a file:
 
