@@ -3,7 +3,7 @@
 > Imagemagick Bildkonvertierungswerkzeug
 > Mehr Informationen: <https://imagemagick.org/script/convert.php>
 
-- Konvertiere ein Bild von JPG nach PNG:
+- Konvertiert ein Bild von JPG nach PNG:
 
 `convert {{bild.jpg}} {{bild.png}}`
 
@@ -11,7 +11,7 @@
 
 `convert {{bild.png}} -resize 50% {{bild2.png}}`
 
-- Skaliere ein Bild unter Beibehaltung des ursprünglichen Seitenverhältnisses auf eine maximale Größe von 640x480:
+- Skaliert ein Bild unter Beibehaltung des ursprünglichen Seitenverhältnisses auf eine maximale Größe von 640x480:
 
 `convert {{bild.png}} -resize 640x480 {{bild2.png}}`
 
@@ -23,10 +23,10 @@
 
 `convert {{bild1.png}} {{bild2.png}} {{bild3.png}} -append {{bild123.png}}`
 
-- Erstellen Sie ein Gif aus einer Serie von Bildern mit einer Verzögerung von 100 ms zwischen den Bildern:
+- Erstellt ein animiertes Gif-Bild aus einer Serie von Bildern mit einer Verzögerung von 100 ms zwischen den Bildern:
 
 `convert {{bild1.png}} {{bild2.png}} {{bild3.png}} -delay {{10}} {{animation.gif}}`
 
-- Erstellen Sie ein Bild mit nichts als einem festen Hintergrund:
+- Erstellt ein Bild mit nichts als einem festen Hintergrund:
 
 `convert -size {{800x600}} "xc:{{#ff0000}}" {{bild.png}}`
