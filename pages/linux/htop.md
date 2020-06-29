@@ -10,6 +10,10 @@
 
 `htop -u {{username}}`
 
+- Sort processes by a column (use `--sort-key help` for a column list):
+
+`htop -s {{column_name}}`
+
 - Get help about interactive commands:
 
 `?`
