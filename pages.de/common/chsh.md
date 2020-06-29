@@ -4,4 +4,4 @@
 
 - Shell ändern:
 
-`chsh -s {{path/to/shell_binary}} {{username}}`
+`chsh -s {{pfad/zum/shell_programm}} {{benutzername}}`
