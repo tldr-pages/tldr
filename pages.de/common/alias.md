@@ -15,7 +15,7 @@
 
 `alias {{wort}}`
 
-- Entferne einen Alias :
+- Entferne einen Alias:
 
 `unalias {{word}}`
 
