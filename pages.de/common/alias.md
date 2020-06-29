@@ -13,7 +13,7 @@
 
 - Zeigt den mit einem bestimmten Alias verknüpften Befehl an:
 
-`alias {{word}}`
+`alias {{wort}}`
 
 - Entferne einen Alias :
 
