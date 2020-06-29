@@ -14,6 +14,10 @@
 
 `top -u {{username}}`
 
+- Sort processes by a field:
+
+`top -o {{field_name}}`
+
 - Show the individual threads of a given process:
 
 `top -Hp {{process_id}}`
