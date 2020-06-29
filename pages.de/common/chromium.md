@@ -3,11 +3,11 @@
 > Open-Source-Webbrowser von Google.
 > Mehr Informationen: <https://chromium.org>.
 
-- Öffnen Sie eine Datei:
+- Öffnet Sie eine Datei:
 
 `chromium {{pfad/zur/datei.html}}`
 
-- Öffnen Sie eine URL:
+- Öffnet Sie eine URL:
 
 `chromium {{beispiel.com}}`
 
@@ -19,10 +19,10 @@
 
 `chromium --new-window {{beispiel.com}}`
 
-- Öffne im Anwendungsmodus (ohne Symbolleisten, URL-Leiste, Schaltflächen usw.):
+- Öffnet im Anwendungsmodus (ohne Symbolleisten, URL-Leiste, Schaltflächen usw.):
 
 `chromium --app='{{https://beispiel.com}}'`
 
-- Verwende einen Proxy-Server:
+- Verwendet einen Proxy-Server:
 
 `chromium --proxy-server="{{socks5://hostname:66}}" {{beispiel.com}}`
