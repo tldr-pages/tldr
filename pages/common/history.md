@@ -6,6 +6,10 @@
 
 `history`
 
+- Display last 20 commands from the history list:
+
+`history 20`
+
 - Clear the commands history list (only for current `bash` shell):
 
 `history -c`
