@@ -9,7 +9,7 @@
 
 - Merge (concatenate) a list of PDF files and save the result as another one:
 
-`pdftk {{file1.pdf file2.pdf …}} cat output {{output.pdf}}`
+`pdftk {{file1.pdf file2.pdf ...}} cat output {{output.pdf}}`
 
 - Split each page of a PDF file into a separate file, with a given filename output pattern:
 
