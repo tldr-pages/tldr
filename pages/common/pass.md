@@ -4,13 +4,17 @@
 > All data is GPG-encrypted, and managed with a git repository.
 > More information: <https://www.passwordstore.org>.
 
-- Initialize the storage using a gpg-id for encryption:
+- Initialize (Or Reencrypt) the storage using one or multiple gpg-ids for encryption:
 
-`pass init {{gpg_id}}`
+`pass init {{gpg_id_1}} {{gpg_id_2}}`
 
-- Save a new password (prompts you for the value without echoing it):
+- Save a new password and additional information (Press Ctrl + d on a newline to complete):
 
-`pass insert {{path/to/data}}`
+`pass insert --multiline {{path/to/data}}`
+
+- Edit an entry:
+
+`pass edit {{path/to/data}}`
 
 - Copy a password (first line of the data file) to the clipboard:
 
@@ -24,6 +28,6 @@
 
 `pass generate -c {{path/to/data}} {{num}}`
 
-- Run any git command against the underlying store repository:
+- Initialize a new git repostitory (Any changes done by pass will be comitted automatically):
 
-`pass git {{git_arguments}}`
+`pass git init`
