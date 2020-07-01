@@ -18,3 +18,7 @@
 - Play repeatedly:
 
 `vlc --loop {{path/to/file}}`
+
+- Play video from a URL:
+
+`vlc {{https://www.youtube.com/watch?v=oHg5SJYRHA0}}`
