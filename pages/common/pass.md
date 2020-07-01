@@ -4,7 +4,7 @@
 > All data is GPG-encrypted, and managed with a git repository.
 > More information: <https://www.passwordstore.org>.
 
-- Initialize (Or Reencrypt) the storage using one or multiple gpg-ids for encryption:
+- Initialize (or re-encrypt) the storage using one or more GPG IDs:
 
 `pass init {{gpg_id_1}} {{gpg_id_2}}`
 
