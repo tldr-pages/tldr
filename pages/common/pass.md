@@ -28,6 +28,6 @@
 
 `pass generate -c {{path/to/data}} {{num}}`
 
-- Initialize a new Git repostitory (any changes done by pass will be comitted automatically):
+- Initialize a new Git repository (any changes done by pass will be comitted automatically):
 
 `pass git init`
