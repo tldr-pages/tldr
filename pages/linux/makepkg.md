@@ -7,7 +7,7 @@
 
 `makepkg`
 
-- Make a package and install its dependencies:
+- Make a package and install its dependencies (specified in the PKGBUILD):
 
 `makepkg --syncdeps`
 
