@@ -28,4 +28,4 @@
 
 - Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match:
 
-`zgrep -{{C|B|A}} 3 {{pattern}} {{path/to/compressed/file}}`
+`zgrep -{{C|B|A}} {{3}} {{pattern}} {{path/to/compressed/file}}`
