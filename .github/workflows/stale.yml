@@ -22,13 +22,13 @@ jobs:
         days-before-close: 30
 
         # Issues or PRs with these labels will never be considered stale
-        exempt-issue-labels: up for grabs
+        exempt-pr-labels: up for grabs
 
         # Label to use when marking an issue or PR as stale
-        stale-issue-label: waiting
+        stale-pr-label: waiting
 
         # Comment to post when marking an issue or PR as stale
-        stale-issue-message: |
+        stale-pr-message: |
           Hi all! This thread has not had any recent activity.
           Are there any updates? Thanks!
 
