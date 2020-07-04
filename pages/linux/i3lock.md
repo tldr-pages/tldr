@@ -21,4 +21,4 @@
 
 - Lock screen to a PNG background displayed in multiple monitors, with enabled mouse pointer:
 
-`i3lock -i {{path/to/picture.png}} -p default -t`
+`i3lock -i {{path/to/picture.png}} -p {{default|win}} -t`
