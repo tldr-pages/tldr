@@ -17,7 +17,7 @@
 
 - Display mouse pointer instead of hiding it ('default' for default pointer, 'win' for a MS Windows pointer):
 
-`i3lock -p default`
+`i3lock -p {{default|win}}`
 
 - Lock screen to a PNG background displayed in multiple monitors, with enabled mouse pointer:
 
