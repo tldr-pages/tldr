@@ -2,7 +2,7 @@
 
 > Remove shell variables or functions.
 
-- Remove the variable or function foo (only removes functions if the variable doesn't exist):
+- Remove the variable `foo`, or if the variable doesn't exist, remove the function `foo`:
 
 `unset {{foo}}`
 
