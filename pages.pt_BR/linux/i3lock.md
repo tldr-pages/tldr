@@ -17,8 +17,8 @@
 
 - Exibe o ponteiro do mouse ao invés de ocultá-lo ('default' para o ponteiro padrão, 'win' para um ponteiro MS Windows):
 
-`i3lock -p default`
+`i3lock -p {{default|win}}`
 
 - Bloqueia a tela com uma imagem PNG exibida em múltiplos monitores, com o ponteiro do mouse habilitado:
 
-`i3lock -i {{local/da/imagem.png}} -p default -t`
+`i3lock -i {{local/da/imagem.png}} -p {{default|win}} -t`
