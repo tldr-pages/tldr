@@ -8,15 +8,15 @@
 
 - 安装一个新的软件包：
 
-`pacman -S {{package_name}}`
+`pacman -S {{软件包}}`
 
 - 删除一个软件包及其依赖：
 
-`pacman -Rs {{package_name}}`
+`pacman -Rs {{软件包}}`
 
 - 在软件包数据库中搜索正则表达式或关键字：
 
-`pacman -Ss "{{search_pattern}}"`
+`pacman -Ss "{{软件包}}"`
 
 - 列出已安装的软件包和版本：
 
@@ -28,7 +28,7 @@
 
 - 查找哪个包拥有某个文件：
 
-`pacman -Qo {{filename}}`
+`pacman -Qo {{文件名}}`
 
 - 清空软件包缓存以释放空间：
 
