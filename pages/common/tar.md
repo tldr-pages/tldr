@@ -4,38 +4,38 @@
 > Often combined with a compression method, such as gzip or bzip.
 > More information: <https://www.gnu.org/software/tar>.
 
-- [c]reate an archive from [f]iles:
+- Create an archive from files:
 
 `tar cf {{target.tar}} {{file1}} {{file2}} {{file3}}`
 
-- [c]reate a g[z]ipped archive from [f]iles:
+- Create a gzipped archive:
 
 `tar czf {{target.tar.gz}} {{file1}} {{file2}} {{file3}}`
 
-- [c]reate a g[z]ipped archive from [f]iles in a directory using relative paths:
+- Create a gzipped archive from a directory using relative paths:
 
 `tar czf {{target.tar.gz}} -C {{path/to/directory}} .`
 
-- E[x]tract [f]iles from a (compressed) archive into the current directory:
+- Extract a (compressed) archive into the current directory:
 
 `tar xf {{source.tar[.gz|.bz2|.xz]}}`
 
-- E[x]tract [f]iles from an archive into a target directory:
+- Extract an archive into a target directory:
 
 `tar xf {{source.tar}} -C {{directory}}`
 
-- [c]reate a compressed archive, [a]utomatically determining the compression program from archive suffix, from [f]iles: 
+- Create a compressed archive, using archive suffix to determine the compression program:
 
 `tar caf {{target.tar.xz}} {{file1}} {{file2}} {{file3}}`
 
-- Lis[t] [v]erbose information about the contents of a tar [f]ile:
+- List the contents of a tar file:
 
 `tar tvf {{source.tar}}`
 
-- E[x]tract [f]iles matching a pattern:
+- Extract files matching a pattern:
 
 `tar xf {{source.tar}} --wildcards {{"*.html"}}`
 
-- E[x]tract a specific [f]ile without preserving the folder structure:
+- Extract a specific file without preserving the folder structure:
 
 `tar xf {{source.tar}} {{source.tar/path/to/extract}} --strip-components={{depth_to_strip}}`
