@@ -6,6 +6,6 @@
 
 `rmdir {{path/to/directory}}`
 
-- Remove directories recursively (useful for nested dirs):
+- Remove the target and its parent directories (useful for nested dirs):
 
 `rmdir -p {{path/to/directory}}`
