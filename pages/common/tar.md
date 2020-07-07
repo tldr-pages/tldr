@@ -24,7 +24,7 @@
 
 `tar xf {{source.tar}} -C {{directory}}`
 
-- [c]reate a compressed archive, [a]utomatically determining the compression program from archive suffix, from [f]iles: 
+- [c]reate a compressed archive, [a]utomatically determining the compression program from archive suffix, from [f]iles:
 
 `tar caf {{target.tar.xz}} {{file1}} {{file2}} {{file3}}`
 
