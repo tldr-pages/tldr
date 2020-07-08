@@ -1,6 +1,6 @@
 # alacritty
 
-> 跨平台，GPU 加速的终端模拟器。
+> 跨平台，GPU 加速的终端模拟器.
 > 更多信息： <https://github.com/jwilm/alacritty>.
 
 - 打开一个新的 alacritty 窗口：
