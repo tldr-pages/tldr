@@ -1,6 +1,6 @@
 # explorer
 
-> Windows 文件资源管理器。
+> Windows 文件资源管理器.
 
 - 打开 Windows 文件资源管理器：
 
