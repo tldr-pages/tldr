@@ -35,7 +35,3 @@
 - E[x]tract [f]iles matching a pattern:
 
 `tar xf {{source.tar}} --wildcards {{"*.html"}}`
-
-- E[x]tract a specific [f]ile without preserving the folder structure:
-
-`tar xf {{source.tar}} {{source.tar/path/to/extract}} --strip-components={{depth_to_strip}}`
