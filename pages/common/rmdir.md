@@ -2,7 +2,7 @@
 
 > Removes a directory.
 
-- Remove directory, provided it is empty. Use `rm` to remove not empty directories:
+- Remove directory, provided it is empty. Use `rm -r` to remove non-empty directories:
 
 `rmdir {{path/to/directory}}`
 
