@@ -2,11 +2,11 @@
 
 > Display information about volume groups.
 
-- Display informantion about volume groups:
+- Display information about volume groups:
 
 `vgs`
 
-- Display all volumne groups:
+- Display all volume groups:
 
 `vgs -a`
 
@@ -28,4 +28,4 @@
 
 - Use separator to separate fields:
 
-`vgs --separator {{special_character}}`
+`vgs --separator =`
