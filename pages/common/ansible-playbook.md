@@ -23,6 +23,6 @@
 
 `ansible-playbook {{playbook}} --tags {tags}}`
 
-- Run tasks in playbook starting by task_name:
+- Run tasks in a playbook starting at a specific task:
 
 `ansible-platybook {{playbook}} --start-at {{task_name}}`
