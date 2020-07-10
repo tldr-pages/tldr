@@ -19,7 +19,7 @@
 
 `ansible-playbook {{playbook}} -e "@{{variables.json}}"`
 
-- Run tasks in playbook for a given tags:
+- Run tasks in playbook for the given tags:
 
 `ansible-playbook {{playbook}} --tags {tags}}`
 
