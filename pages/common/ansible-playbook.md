@@ -18,3 +18,11 @@
 - Run tasks in playbook with extra variables defined in a json file:
 
 `ansible-playbook {{playbook}} -e "@{{variables.json}}"`
+
+- Run tasks in playbook for a given tags:
+
+`ansible-playbook {{playbook}} --tags {tags}}`
+
+- Run tasks in playbook starting by task_name:
+
+`ansible-platybook {{playbook}} --start-at {{task_name}}`
