@@ -34,3 +34,7 @@
 - Download a particular language's subtitles along with the video:
 
 `youtube-dl --sub-lang {{en}} --write-sub {{https://www.youtube.com/watch?v=Mwa0_nE9H7A}}`
+
+- Download a playlist and extract mp3 from it.
+
+`youtube-dl -i --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" {{url to playlist}}`
