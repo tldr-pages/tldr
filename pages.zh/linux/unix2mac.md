@@ -7,6 +7,6 @@
 
 `unix2mac {{filename}}`
 
-- 创建使用 macOS 样式的行尾的副本:
+- 使用 macOS 样式的行尾创建副本:
 
 `unix2mac -n {{文件名}} {{新文件名}}`
