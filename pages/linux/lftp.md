@@ -1,6 +1,7 @@
 # lftp
 
-> Sophisticated file transfer program: https://linux.die.net/man/1/lftp.
+> Sophisticated file transfer program.
+> More information: <https://linux.die.net/man/1/lftp>.
 
 - Connect to an FTP server:
 
