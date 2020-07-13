@@ -27,3 +27,7 @@
 - Shutdown down the virtual machine without saving its state:
 
 `VBoxManage controlvm {{name|uuid}} poweroff`
+
+- Shutdown down the virtual machine without saving its state:
+
+`VBoxManage extpack install --replace Oracle_VM_VirtualBox_Extension_Pack-<version>.vbox-extpack`
