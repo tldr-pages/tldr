@@ -24,4 +24,4 @@
 
 - Show last 'num' lines in 'file' and refresh every 'n' seconds:
 
-`tail -n {{num}} -s {{n}} -f {{file}}
+`tail -n {{num}} -s {{n}} -f {{file}}`
