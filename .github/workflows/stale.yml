@@ -33,5 +33,8 @@ jobs:
           Are there any updates? Thanks!
 
         # Comment to post when closing a stale issue or PR
-        # === THIS IS NOT YET SUPPORTED BY actions/stale ===
-        # Needed for: https://git.io/JJU94
+        close-pr-message: |
+          Hi everyone.
+          This thread is being closed as there was no response to the previous prompt.
+          However, please leave a comment whenever you're ready to resume,
+          so the thread can be reopened. Thanks again!
