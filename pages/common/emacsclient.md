@@ -15,10 +15,10 @@
 
 `emacsclient -n {{filename}}`
 
-- Open file in a new frame:
+- Open file in a new emacs frame:
 
 `emacsclient -c {{filename}}`
 
-- Eval command in a new frame:
+- Eval command in a new emacs frame:
 
 `emacsclient -c -e '({{command}})'`
