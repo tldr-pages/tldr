@@ -16,7 +16,7 @@
 
 - 显示可用的 CPU 功能 (MMX, SSE, SSE2, SSE3, AES, 等）:
 
-`sysctl -n machdep.cpu.feature`
+`sysctl -n machdep.cpu.features`
 
 - 设置一个可更改的内核状态变量:
 
