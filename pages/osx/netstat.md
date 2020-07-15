@@ -18,10 +18,6 @@
 
 `netstat -p {{protocol}}`
 
-- List information continuously:
-
-`netstat -c`
-
 - Print the routing table:
 
 `netstat -nr`
