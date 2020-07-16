@@ -1,11 +1,11 @@
 # newman
 
-> Newman is a command-line collection runner for Postman.
+> Collection runner for Postman.
 > More information: <https://github.com/postmanlabs/newman>.
 
 - Run a collection (from a file):
 
-`newman run {{examples/sample-collection.json}}`
+`newman run {{path/to/collection.json}}`
 
 - Run a collection (from a URL):
 
