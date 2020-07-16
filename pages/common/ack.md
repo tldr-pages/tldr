@@ -29,4 +29,4 @@
 
 - List all valid types:
 
-`ack --help=types`
+`ack --help-types`
