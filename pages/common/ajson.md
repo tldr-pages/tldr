@@ -1,24 +1,20 @@
 # ajson
 
-> Executes JSONPath with JSON document.
+> Executes JSONPath on JSON objects.
 > More information: <https://github.com/spyzhov/ajson>.
 
-- Read JSON from a file and execute JSONPath:
+- Read JSON from a file and execute a specified JSONPath expression:
 
-`ajson "$..json[?(@.path)]" example.json`
+`ajson '{{$..json[?(@.path)]}}' {{path/to/file.json}}`
 
-- Read JSON from STDIN and execute JSONPath:
+- Read JSON from stdin and execute a specified JSONPath expression:
 
-`cat example.json | ajson "$..json[?(@.path)]"`
+`cat {{path/to/file.json}} | ajson '{{$..json[?(@.path)]}}'`
 
-- Read JSON from `GET` request and calculate value:
+- Read JSON from a URL and evaluate a specified JSONPath expression:
 
-`ajson "avg($..price)" "https://example.com/api/"`
+`ajson '{{avg($..price)}}' '{{https://example.com/api/}}'`
 
-- Curl JSON from `POST` request and calculate value:
+- Read some simple JSON and calculate a value:
 
-`curl -s -d "param=value" -X POST http://example.com/ | ajson "sum($..price)"`
-
-- Read simple JSON and calculate value:
-
-`echo "3" | ajson "2 * pi * $"`
+`echo '{{3}}' | ajson '{{2 * pi * $}}'`
