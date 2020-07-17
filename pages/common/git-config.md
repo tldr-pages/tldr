@@ -28,10 +28,10 @@
 
 `git config --global --unset alias.unstage`
 
-- Edit the git configuration for the current repository in your default editor:
+- Edit the git configuration for the current repository in the default editor:
 
 `git config --edit`
 
-- Edit the global git configuration in your default editor:
+- Edit the global git configuration in the default editor:
 
 `git config --global --edit`
