@@ -27,7 +27,7 @@
 
 `cat {{file.json}} | jq 'map(.{{key_name}})'`
 
-- Output the value of multiple keys as a new JSON object (assuming the input JSON has keys `key_name` and `other_key_name`):
+- Output the value of multiple keys as a new JSON object (assuming the input JSON has the keys `key_name` and `other_key_name`):
 
 `cat {{file.json}} | jq '{{{my_new_key}}: .{{key_name}}, {{my_other_key}}: {{other_key_name}}}'`
 
