@@ -5,7 +5,7 @@
 
 - 更改文件的行尾:
 
-`mac2unix {{filename}}`
+`mac2unix {{文件名}}`
 
 - 使用 Unix 样式的行尾创建副本:
 
