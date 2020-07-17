@@ -1,7 +1,7 @@
 # dos2unix
 
 > 将 DOS 样式的行尾更改为 Unix 样式.
-> 用 CRLF 替换 CR.
+> 用 CR 替换 CRLF.
 
 - 更改文件的行尾:
 
