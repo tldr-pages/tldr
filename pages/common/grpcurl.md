@@ -13,7 +13,7 @@
 
 - List all services exposed by a server:
 
-`grpcurl {grpc.server.com:443}} list`
+`grpcurl {{grpc.server.com:443}} list`
 
 - List all methods in a particular service:
 
