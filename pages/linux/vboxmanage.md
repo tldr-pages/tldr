@@ -30,4 +30,4 @@
 
 - Update VBox extension packs:
 
-`VBoxManage extpack install --replace Oracle_VM_VirtualBox_Extension_Pack-<version>.vbox-extpack`
+`VBoxManage extpack install --replace {{VboxExtensionPackFileName}}`
