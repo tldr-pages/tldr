@@ -27,10 +27,6 @@
 
 `git diff --summary {{commit}}`
 
-- Crea un file di patch:
-
-`git diff > {{nome_file_patch}}.patch`
-
 - Confronta le versioni di un dato file tra due rami o commit:
 
 `git diff {{ramo_1}}..{{ramo_2}} [--] {{percorso/al/file}}`
