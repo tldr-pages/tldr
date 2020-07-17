@@ -15,6 +15,10 @@
 
 `pg_restore -h {{host}} -p {{port}} -d {{db_name}} {{archive_file.dump}}`
 
+- List database objects included in the archive:
+
+`pg_restore --list {{archive_file.dump}}`
+
 - Clean database objects before creating them:
 
 `pg_restore --clean -d {{db_name}} {{archive_file.dump}}`
