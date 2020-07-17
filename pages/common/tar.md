@@ -4,15 +4,15 @@
 > Often combined with a compression method, such as gzip or bzip.
 > More information: <https://www.gnu.org/software/tar>.
 
-- [c]reate an archive from [f]iles:
+- [C]reate an archive from [f]iles:
 
 `tar cf {{target.tar}} {{file1}} {{file2}} {{file3}}`
 
-- [c]reate a g[z]ipped archive from [f]iles:
+- [C]reate a g[z]ipped archive from [f]iles:
 
 `tar czf {{target.tar.gz}} {{file1}} {{file2}} {{file3}}`
 
-- [c]reate a g[z]ipped archive from [f]iles in a directory using relative paths:
+- [C]reate a g[z]ipped archive from [f]iles in a directory using relative paths:
 
 `tar czf {{target.tar.gz}} -C {{path/to/directory}} .`
 
@@ -24,7 +24,7 @@
 
 `tar xf {{source.tar}} -C {{directory}}`
 
-- [c]reate a compressed archive, [a]utomatically determining the compression program from archive suffix, from [f]iles:
+- [C]reate a compressed archive, [a]utomatically determining the compression program from archive suffix, from [f]iles:
 
 `tar caf {{target.tar.xz}} {{file1}} {{file2}} {{file3}}`
 
