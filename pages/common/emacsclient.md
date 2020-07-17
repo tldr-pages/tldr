@@ -14,3 +14,11 @@
 - Open a file in an existing emacs frame and return immediately:
 
 `emacsclient -n {{filename}}`
+
+- Open file in a new emacs frame:
+
+`emacsclient -c {{filename}}`
+
+- Eval command in a new emacs frame:
+
+`emacsclient -c -e '({{command}})'`
