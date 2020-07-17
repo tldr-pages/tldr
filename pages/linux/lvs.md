@@ -27,6 +27,6 @@
 
 `lvs --noheadings`
 
-- Use separator to separate fields:
+- Use a separator to separate fields:
 
-`lvs --separator =`
+`lvs --separator {{=}}`
