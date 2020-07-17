@@ -30,6 +30,3 @@
 - Use separator to separate fields:
 
 `lvs --separator =`
-
-
-
