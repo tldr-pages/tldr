@@ -25,4 +25,4 @@
 
 - Run tasks in a playbook starting at a specific task:
 
-`ansible-platybook {{playbook}} --start-at {{task_name}}`
+`ansible-playbook {{playbook}} --start-at {{task_name}}`
