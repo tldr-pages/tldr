@@ -179,7 +179,7 @@ The [`LANG` environment variable](https://www.gnu.org/software/gettext/manual/ht
 
 In order to determine the display language, a client MUST:
 
-1. Check the value of `LANG`.
+1. Check the value of `LANG`. If not set, then skip to step 5.
 2. Extract the priority list from `LANGUAGE`. If not set, start with an empty priority list.
 3. Append the value of `LANG` to the priority list.
 4. Follow the priority list in order and use the first available language.
