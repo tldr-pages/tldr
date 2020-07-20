@@ -1,6 +1,6 @@
 # hostapd
 
-> Create an access point out of wireless interface
+> Create an access point out of wireless interface.
 
 - Create an access point:
 
