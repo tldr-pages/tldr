@@ -9,16 +9,16 @@
 
 - Install the package from a directory:
 
-`kpackagetool5 -t {{package_type}} -i {{path/to/directory}}`
+`kpackagetool5 --type {{package_type}} --install {{path/to/directory}}`
 
 - Update installed package from a directory:
 
-`kpackagetool5 -t {{package_type}} -u {{path/to/directory}}`
+`kpackagetool5 --type {{package_type}} --upgrade {{path/to/directory}}`
 
-- List installed plasmoids (-g, or --global for all users):
+- List installed plasmoids (--global for all users):
 
-`kpackagetool5 -t Plasma/Applet -l -g`
+`kpackagetool5 --type Plasma/Applet --list --global`
 
 - Remove a plasmoid by name:
 
-`kpackagetool5 -t Plasma/Applet -r "{{name}}"`
+`kpackagetool5 --type Plasma/Applet --remove "{{name}}"`
