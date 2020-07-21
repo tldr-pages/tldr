@@ -1,6 +1,6 @@
 # tldr-pages client specification
 
-**Current Specification Version:** 1.2
+**Current Specification Version:** 1.3
 
 This document contains the official specification for tldr-pages clients. It is _not_ a specification of the format of the pages themselves - only a specification of how a user should be able to interface with an official client. For a list of previous versions of the specification, see the [changelog section](#Changelog) below.
 
@@ -173,17 +173,37 @@ If multiple versions of a page were found for different platforms, then a client
 
 ## Language
 
-Pages can be written in multiple languages. If a client has access to environment variables, several standard ones exist to specify the language in which a client should operate. If not, then clients MUST make reasonable assumptions based on the information provided by the environment in which they operate (e.g. consulting `navigator.languages` in a browser, etc.). If possible, it is RECOMMENDED to also make language configurable, as to not only rely on the environment. Clients SHOULD therefore offer options to configure or override the language using configuration files or command line options (like `-L, --language` as suggested in the [arguments section](#arguments) above).
+Pages can be written in multiple languages. If a client has access to environment variables, it MUST use them derive the preferred user language as described in the next paragraphs. If not, then clients MUST make reasonable assumptions based on the information provided by the environment in which they operate (e.g. consulting `navigator.languages` in a browser, etc.).
 
-The [`LANG` environment variable](https://www.gnu.org/software/gettext/manual/html_node/Locale-Environment-Variables.html), if present, MUST be used to determine the language of pages to display.
+The [`LANG` environment variable](https://www.gnu.org/software/gettext/manual/html_node/Locale-Environment-Variables.html) specifies the user preferred locale (in the form `ll[_CC][.encoding]`). The [`LANGUAGE` environment variable](https://www.gnu.org/software/gettext/manual/html_node/The-LANGUAGE-variable.html) specifies a priority list of locales (in the form `l1:l2:...`) that can be used if the locale defined by `LANG` is not available. Both `LANG` and `LANGUAGE` may contain the values `C` or `POSIX`, which should be ignored.
 
-The [`LANGUAGE` environment variable](https://www.gnu.org/software/gettext/manual/html_node/The-LANGUAGE-variable.html) specifies a priority list of languages that a user wishes to read in. In absence of `LANG` and if this environment variable is present, a client MUST use the defined priority list to decide on the language of pages to display. If a page is not available in the user's preferred language, then a client MUST respect the user's priority list defined in the `LANGUAGE` variable, and MAY choose to notify the user that a page in their chosen language couldn't be found (perhaps along with a link to the [translations section of the contributing guide](https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md#translations)).
+In order to determine the display language, a client MUST:
+
+1. Check the value of `LANG`. If not set, then skip to step 5.
+2. Extract the priority list from `LANGUAGE`. If not set, start with an empty priority list.
+3. Append the value of `LANG` to the priority list.
+4. Follow the priority list in order and use the first available language.
+5. Fall back to English if none of the languages are available.
+
+Examples:
+
+ LANG  | LANGUAGE  | Result
+-------|-----------|-----------------------------
+ `cz`  |`it:cz:de` | `it`, `cz`, `de`, `en`
+ `cz`  |`it:de:fr` | `it`, `de`, `fr`, `cz`, `en`
+ `it`  |unset      | `it`, `en`
+ unset |`it:cz`    | `en`
+ unset |unset      | `en`
+
+Regardless of the language determined through the environment, clients MUST always attempt to fallback to English if the page does not exist in the user preferred language. Clients MAY notify the user when a page in their preferred language cannot be found (optionally including a link to the [translations section of the contributing guide](https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md#translations)).
+
+It is also RECOMMENDED to make the language configurable, as to not only rely on the environment. Clients SHOULD offer options to configure or override the language using configuration files or even command line options (like `-L, --language` as suggested in the [arguments section](#arguments) above). If such a command-line option is specified, a client must strictly adhere to its value, and MUST NOT show pages in a different language, failing with an appropriate error message instead.
 
 The [`LC_MESSAGES` environment variable](https://www.gnu.org/software/gettext/manual/html_node/Locale-Environment-Variables.html) MAY be present. If the client itself is localized and this environment variable is present, it MUST use its value in order to determine the language in which interface text is shown (separately from the language used for pages). In absence of `LC_MESSAGES`, then `LANG` and `LANGUAGE` MUST be used for this purpose instead.
 
-**Note that** it is highly RECOMMENDED to give precedence to the platform first, and then the language. In other words, look for a platform under each language, before falling back to the next preferred language. This ensures a meaningful and correct page resolution.
+**Note that** for page lookup it is highly RECOMMENDED to give precedence to the platform over the language. In other words, look for a platform under each language, before checking the next preferred language. This ensures a meaningful and correct page resolution.
 
-Here's an example of how the lookup should be done on `linux` having set `LANGUAGE="it:fr:en"`:
+Here's an example of how the lookup should be done on `linux` having set `LANG=it` and `LANGUAGE="it:fr:en"`:
 
     1. pages.it/linux/some-page.md  -> does not exist
     2. pages.fr/linux/some-page.md  -> does not exist
@@ -194,14 +214,18 @@ Here's an example of how the lookup should be done on `linux` having set `LANGUA
 
 ## Caching
 
-If appropriate, it is RECOMMENDED that clients implement a cache of pages. If implemented, clients MUST download the archive either from **[http://tldr.sh/assets/tldr.zip](http://tldr.sh/assets/tldr.zip)** or [https://raw.githubusercontent.com/tldr-pages/tldr-pages.github.io/master/assets/tldr.zip](https://raw.githubusercontent.com/tldr-pages/tldr-pages.github.io/master/assets/tldr.zip) (which is pointed by the first link).
+If appropriate, it is RECOMMENDED that clients implement a cache of pages. If implemented, clients MUST download the archive either from **[http://tldr.sh/assets/tldr.zip](http://tldr.sh/assets/tldr.zip)** or [https://raw.githubusercontent.com/tldr-pages/tldr-pages.github.io/master/assets/tldr.zip](https://raw.githubusercontent.com/tldr-pages/tldr-pages.github.io/master/assets/tldr.zip) (which is pointed to by the first link).
 
-Caching SHOULD be done according to the user's language configuration (if any), as to not waste unneeded space for unneeded languages. Additionally, clients MAY automatically update the cache on a regular basis.
+Caching SHOULD be done according to the user's language configuration (if any), as to not waste unneeded space for unused languages. Additionally, clients MAY automatically update the cache on a regular basis.
 
 
 ## Changelog
 
- - [v1.2, July 3rd 2019](https://github.com/tldr-pages/tldr/blob/master/CLIENT-SPECIFICATION.md) (#3168)
+ - [v1.3, June 11th 2020](https://github.com/tldr-pages/tldr/blob/master/CLIENT-SPECIFICATION.md) (#4101)
+   - Clarified fallback to English in the language resolution algorithm.
+   - Update `LANG` and `LANGUAGE` environment variable to conform to the GNU spec.
+
+ - [v1.2, July 3rd 2019](https://github.com/tldr-pages/tldr/blob/524d44eb13ff6c0ff70089bd152b075418fc71b2/CLIENT-SPECIFICATION.md) (#3168)
    - Addition of a new `-L, --language` recommended command-line option.
    - Rewording of the language section also encouraging the use of configuration files for language.
    - Shift from BCP-47 to POSIX style locale tags, with consequent **deprecation of previous versions of the spec**.
