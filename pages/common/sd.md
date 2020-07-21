@@ -1,6 +1,6 @@
 # sd
 
-> `sd` is an intuitive find & replace CLI.
+> Intuitive find & replace CLI.
 
 - Trim some whitespace using regex:
 
