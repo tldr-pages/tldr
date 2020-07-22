@@ -25,3 +25,7 @@
 - Get the parent pid of a process:
 
 `ps -o ppid= -p {{pid}}`
+
+- Sort processes according to memory consumption:
+
+`ps --sort size`
