@@ -7,6 +7,6 @@
 
 `sudo hostapd {{path/to/hostapd.conf}}`
 
-- Create an access point and run in as daemon:
+- Start an access point, forking into the background:
 
 `sudo hostapd -B {{path/to/hostapd.conf}}`
