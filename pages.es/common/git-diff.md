@@ -27,10 +27,6 @@
 
 `git diff --summary {{commit}}`
 
-- Crea un archivo parche:
-
-`git diff > {{archivo_objetivo}}.patch`
-
 - Compara un único archivo entre dos ramas o commits:
 
 `git diff {{rama_1}}..{{rama_2}} [--] {{ruta/del/archivo}}`
