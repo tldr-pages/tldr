@@ -19,7 +19,7 @@
 
 `hexo server`
 
-- Deploy your website:
+- Deploy website in the current directory:
 
 `hexo deploy`
 
