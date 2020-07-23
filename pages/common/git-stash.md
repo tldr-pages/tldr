@@ -19,7 +19,11 @@
 
 `git stash list`
 
-- Apply a stash (default is the latest, named stash@{0}):
+- Display changes in a stash (default is the latest, named stash@{0}):
+
+`git stash show -p {{optional_stash_name_or_commit}}`
+
+- Apply a stash (default is stash@{0}):
 
 `git stash apply {{optional_stash_name_or_commit}}`
 
