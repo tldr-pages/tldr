@@ -26,6 +26,6 @@
 
 `ps -o ppid= -p {{pid}}`
 
-- Sort processes according to memory consumption:
+- Sort processes by memory consumption:
 
 `ps --sort size`
