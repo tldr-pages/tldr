@@ -23,6 +23,6 @@
 
 `hexo deploy`
 
-- Clean the cache file (db.json) and generated files (public):
+- Clean the cache file (`db.json`) and generated files (`public/`):
 
 `hexo clean`
