@@ -15,6 +15,6 @@
 
 `dvc {{command}} --help`
 
-- Execute Git command:
+- Execute DVC command:
 
-`git {{command}}`
+`dvc {{command}}`
