@@ -15,7 +15,7 @@
 
 `sudo netselect -vv {{host_1}} {{host_2}}`
 
-- Define maximum TTL(time to live):
+- Define maximum TTL (time to live):
 
 `sudo netselect -m {{10}} {{host_1}} {{host_2}}`
 
