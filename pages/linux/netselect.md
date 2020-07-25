@@ -3,10 +3,6 @@
 > Speed test for choosing a fast network server.
 > More information: <https://github.com/apenwarr/netselect> .
 
-- List available options:
-
-`netselect`
-
 - Choose the fastest server:
 
 `sudo netselect {{host_1}} {{host_2}}`
@@ -22,3 +18,7 @@
 - Print this many fastest servers:
 
 `sudo netselect -s {{2}} {{host_1}} {{host_2}} {{host_3}}`
+
+- List available options:
+
+`netselect`
