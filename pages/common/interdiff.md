@@ -7,6 +7,6 @@
 
 `interdiff {{old_file}} {{new_file}}`
 
-- Compare diff files, ignoring white spaces:
+- Compare diff files, ignoring whitespace:
 
 `interdiff -w {{old_file}} {{new_file}}`
