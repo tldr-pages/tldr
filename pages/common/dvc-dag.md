@@ -1,6 +1,6 @@
 # dvc dag
 
-> Visualize the pipeline(s) in dvc.yaml
+> Visualize the pipeline(s) in dvc.yaml.
 > More information: <https://dvc.org/doc/command-reference/dag>.
 
 - Visualize entire pipeline:

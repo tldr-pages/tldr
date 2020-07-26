@@ -15,6 +15,6 @@
 
 `dvc add --recursive {{path/to/directory}}`
 
-- Add target file with custom .dvc file name
+- Add target file with custom .dvc file name:
 
 `dvc add --file custom_name.dvc {{path/to/file}}`

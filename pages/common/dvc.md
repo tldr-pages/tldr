@@ -1,6 +1,6 @@
 # dvc
 
-> Data Version Control i.e git for data
+> Data Version Control i.e git for data.
 > More information: <https://dvc.org/>.
 
 - Check the DVC version:
