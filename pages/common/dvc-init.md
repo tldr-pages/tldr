@@ -11,6 +11,6 @@
 
 `dvc init --no-scm`
 
-- Initializing DVC in a subdirectory:
+- Initialize DVC in a subdirectory:
 
 `cd {{path/to/subdir}} && dvc init --sudir`
