@@ -1,6 +1,6 @@
 # dvc diff
 
-> Show changes in DVC tracked file and directories added/deleted/modified
+> Show changes in DVC tracked file and directories added/deleted/modified.
 > More information: <https://dvc.org/doc/command-reference/diff>.
 
 - Compare DVC tracked file from different Git commit/tag/branch w.r.t current workspace:
