@@ -1,13 +1,13 @@
 # duperemove
 
 > Finds duplicate extends and optionally schedule them for deduplication.
-> More information: <https://markfasheh.github.io/duperemove/>
+> More information: <https://markfasheh.github.io/duperemove/>.
 
 - Search for duplicate extends in a directory and show them:
 
 `duperemove -r {{directory}}`
 
-- Deduplicate duplicate extends on a Btrfs or XFS (experimental) file system
+- Deduplicate duplicate extends on a Btrfs or XFS (experimental) file system:
 
 `duperemove -r -d {{directory}}`
 
