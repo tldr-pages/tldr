@@ -5,7 +5,7 @@
 
 - Run a JavaScript file:
 
-`node {{file}}.js`
+`node {{path/to/file}}`
 
 - Start a REPL (interactive shell):
 
@@ -19,6 +19,6 @@
 
 `node -p "{{process.versions}}"`
 
-- Enable Node's inspector agent and pause execution until a debugger is connected. Source code is fully compiled:
+- Enable Node's inspector agent and pause execution until a debugger is connected. Prevent delayed (lazy) parsing of source code:
 
-`node --no-lazy --inspect-brk {{file}}.js`
+`node --no-lazy --inspect-brk {{path/to/file}}`
