@@ -3,7 +3,7 @@
 > A fast, simple & powerful blog framework.
 > More information: <https://hexo.io/>.
 
-- Init a website:
+- Initialize a website:
 
 `hexo init {{path/to/directory}}`
 
