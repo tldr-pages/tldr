@@ -1,13 +1,13 @@
 # syncthing
 
-> Continuous bidriectional decentralised folder synchronisation tool.
+> Continuous bidirectional decentralised folder synchronisation tool.
 > More information: <https://docs.syncthing.net/>.
 
 - Start syncthing:
 
 `syncthing`
 
-- Print the device id:
+- Print the device ID:
 
 `syncthing -device-id`
 
