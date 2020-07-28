@@ -20,9 +20,9 @@
 
 `tar xf {{source.tar[.gz|.bz2|.xz]}}`
 
-- Extract an archive into a target directory:
+- Extract a (compressed) archive into the target directory:
 
-`tar xf {{source.tar}} -C {{directory}}`
+`tar xf {{source.tar[.gz|.bz2|.xz]}} -C {{directory}}`
 
 - Create a compressed archive, using archive suffix to determine the compression program:
 
