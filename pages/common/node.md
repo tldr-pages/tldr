@@ -19,6 +19,6 @@
 
 `node -p "{{process.versions}}"`
 
-- Enable Node's inspector agent and pause execution until a debugger is connected. Prevent delayed (lazy) parsing of source code:
+- Activate inspector, pausing execution until a debugger is connected once source code is fully parsed:
 
 `node --no-lazy --inspect-brk {{path/to/file}}`
