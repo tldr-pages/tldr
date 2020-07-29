@@ -17,7 +17,7 @@
 
 - Copy and don't print a 2FA code using the OTP token in a pass file:
 
-`pass otp --clip {{pass_path}}
+`pass otp --clip {{pass_path}}`
 
 - Display a QR code using the OTP token stored in a pass file:
 
