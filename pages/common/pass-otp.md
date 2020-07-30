@@ -3,11 +3,11 @@
 > A pass extension for managing one-time-password (OTP) tokens.
 > More information: <https://github.com/tadfisher/pass-otp#readme>.
 
-- Prompt for an otpauth URI token and CREATE a new pass file:
+- Prompt for an otpauth URI token and create a new pass file:
 
 `pass otp insert {{pass_path}}`
 
-- Promt for an otpauth URI token and APPEND to an existing pass file:
+- Promt for an otpauth URI token and append to an existing pass file:
 
 `pass otp append {{pass_path}}`
 
@@ -23,6 +23,6 @@
 
 `pass otp uri --qrcode {{pass_path}}`
 
-- Promt for an OTP secret value specifying issuer and account (at least one must be specified) and APPEND to existing pass file:
+- Promt for an OTP secret value specifying issuer and account (at least one must be specified) and append to existing pass file:
 
 `pass otp append --secret --issuer {{issuer_name}} --account {{account_name}} {{pass_path}}`
