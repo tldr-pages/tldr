@@ -21,7 +21,7 @@
 
 - Führen Sie Aufgaben im Playbook für die angegebenen Tags aus:
 
-`ansible-playbook {{playbook}}} --tags {tags {tags}}`
+`ansible-playbook {{playbook}} --tags {tags {tags}}`
 
 - Führen Sie Aufgaben in einem Playbook aus, die mit einer bestimmten Aufgabe beginnen:
 
