@@ -1,7 +1,7 @@
 # curl
 
-> Transfere dados de um servidor ou para um servidor.
-> Suporta a maioria dos protocolos, incluindo HTTP, FTP e POP3.
+> Transfere dados entre o computador local e um servidor remoto.
+> Suporta a maioria dos protocolos de comunicação, incluindo HTTP, FTP e POP3.
 > Mais informações: <https://curl.haxx.se>.
 
 - Descarregar os conteúdos de um URL para um arquivo:
