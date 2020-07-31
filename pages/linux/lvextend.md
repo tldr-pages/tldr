@@ -6,7 +6,7 @@
 
 `lvextend --size 120G {{logical volume}}`
 
-- Increase a volume's size by 40 as well as the underlying filesystem:
+- Increase a volume's size by 40GB as well as the underlying filesystem:
 
 `lvextend --size +40G -r {{logical volume}}`
 
