@@ -14,7 +14,3 @@
 - Export the pipeline in the dot format:
 
 `dvc dag --dot > {{path/to/pipeline.dot}}`
-
-- Export pipeline as SVG:
-
-`dvc dag --dot | dot -Tsvg -o pipeline.svg`

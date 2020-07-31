@@ -17,4 +17,4 @@
 
 - Garbage collect from the cache, including a specific cloud remote storage:
 
-`dvc gc --all-commits --cloud -r {{remote_name}}`
+`dvc gc --all-commits --cloud --remote {{remote_name}}`
