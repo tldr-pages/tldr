@@ -7,14 +7,14 @@
 
 `dvc add {{path/to/file}}`
 
-- Add target directory to the index:
+- Add a target directory to the index:
 
 `dvc add {{path/to/directory}}`
 
-- Recursively add all files in target directory:
+- Recursively add all the files in a given target directory:
 
 `dvc add --recursive {{path/to/directory}}`
 
-- Add target file with custom .dvc file name:
+- Add a target file with a custom `.dvc` filename:
 
-`dvc add --file custom_name.dvc {{path/to/file}}`
+`dvc add --file {{custom_name.dvc}} {{path/to/file}}`

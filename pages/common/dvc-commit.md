@@ -3,11 +3,11 @@
 > Record changes to DVC-tracked files in the project.
 > More information: <https://dvc.org/doc/command-reference/commit>.
 
-- Commit latest version, for all DVC-tracked files and directories:
+- Commit changes to all DVC-tracked files and directories:
 
 `dvc commit`
 
-- Commit latest version, for a given DVC-tracked target:
+- Commit changes to a specified DVC-tracked target:
 
 `dvc commit {{target}}`
 
