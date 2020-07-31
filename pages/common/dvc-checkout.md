@@ -1,6 +1,6 @@
 # dvc checkout
 
-> Update data files and directories in the workspace based on current DVC-files.
+> Checkout data files and directories from cache.
 > More information: <https://dvc.org/doc/command-reference/checkout>.
 
 - Checkout the latest version of all target files and directories:
