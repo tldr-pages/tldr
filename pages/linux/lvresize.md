@@ -1,6 +1,6 @@
 # lvresize
 
-> Change the size of a logical volume
+> Change the size of a logical volume.
 
 - Change a volume's size to 120GB:
 
