@@ -5,10 +5,6 @@
 > See also `dvc freeze`.
 > More information: <https://dvc.org/doc/command-reference/unfreeze>.
 
-- Unfreeze given stage/s:
+- Unfreeze 1 or more specified stages:
 
 `dvc unfreeze {{stage_name_a}} [{{stage_name_b}} ...]`
-
-- Freeze given stage/s:
-
-`dvc freeze {{stage_name/s}}`
