@@ -1,20 +1,20 @@
 # dvc
 
-> Data Version Control i.e git for data.
+> Data Version Control: like `git` for data.
 > More information: <https://dvc.org/>.
 
 - Check the DVC version:
 
 `dvc --version`
 
-- Call general help:
+- Display general help:
 
 `dvc --help`
 
-- Call help on a command:
+- Display help about a specific subcommand:
 
-`dvc {{command}} --help`
+`dvc {{subcommand}} --help`
 
-- Execute DVC command:
+- Execute a DVC subcommand:
 
-`dvc {{command}}`
+`dvc {{subcommand}}`

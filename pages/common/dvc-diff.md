@@ -1,9 +1,9 @@
 # dvc diff
 
-> Show changes in DVC tracked file and directories added/deleted/modified.
+> Show changes in DVC tracked file and directories.
 > More information: <https://dvc.org/doc/command-reference/diff>.
 
-- Compare DVC tracked file from different Git commit/tag/branch w.r.t current workspace:
+- Compare DVC tracked files from different Git commits, tags, and branches w.r.t the current workspace:
 
 `dvc diff {{commit_hash/tag/branch}}`
 
@@ -11,14 +11,14 @@
 
 `dvc diff b_rev a_rev`
 
-- Compare DVC tracked file, along with their latest hash:
+- Compare DVC tracked files, along with their latest hash:
 
 `dvc diff --show-hash {{commit}}`
 
-- Compare DVC tracked file, get output in JSON format:
+- Compare DVC tracked files, displaying the output as JSON:
 
 `dvc diff --show-json --show-hash {{commit}}`
 
-- Compare DVC tracked file, get output in Markdown format:
+- Compare DVC tracked files, displaying the output as Markdown:
 
 `dvc diff --show-md --show-hash {{commit}}`
