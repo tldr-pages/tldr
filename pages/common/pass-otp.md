@@ -5,24 +5,24 @@
 
 - Prompt for an otpauth URI token and create a new pass file:
 
-`pass otp insert {{pass_path}}`
+`pass otp insert {{path/to/pass}}`
 
 - Promt for an otpauth URI token and append to an existing pass file:
 
-`pass otp append {{pass_path}}`
+`pass otp append {{path/to/pass}}`
 
 - Print a 2FA code using the OTP token in a pass file:
 
-`pass otp {{pass_path}}`
+`pass otp {{path/to/pass}}`
 
 - Copy and don't print a 2FA code using the OTP token in a pass file:
 
-`pass otp --clip {{pass_path}}`
+`pass otp --clip {{path/to/pass}}`
 
 - Display a QR code using the OTP token stored in a pass file:
 
-`pass otp uri --qrcode {{pass_path}}`
+`pass otp uri --qrcode {{path/to/pass}}`
 
 - Promt for an OTP secret value specifying issuer and account (at least one must be specified) and append to existing pass file:
 
-`pass otp append --secret --issuer {{issuer_name}} --account {{account_name}} {{pass_path}}`
+`pass otp append --secret --issuer {{issuer_name}} --account {{account_name}} {{path/to/pass}}`
