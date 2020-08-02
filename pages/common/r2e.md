@@ -20,6 +20,6 @@
 
 `r2e list`
 
-- Delete a feed at index:
+- Delete a feed at a specified index:
 
 `r2e delete {{index}}`
