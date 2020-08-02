@@ -12,7 +12,7 @@
 
 `r2e add {{feed_name}} {{feed_URI}}`
 
-- Send new stories to your email:
+- Send new stories to an email address:
 
 `r2e run`
 
