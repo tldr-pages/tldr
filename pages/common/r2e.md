@@ -1,7 +1,8 @@
 # r2e
 
-> Forwards RSS feeds to your email address. More information: https://github.com/rss2email/rss2email.
-> Requires a configured sendmail or smtp setup.
+> Forwards RSS feeds to an email address.
+> Requires a configured `sendmail` or smtp setup.
+> More information: <https://github.com/rss2email/rss2email>.
 
 - Create a new feed database that sends email to your email address:
 
