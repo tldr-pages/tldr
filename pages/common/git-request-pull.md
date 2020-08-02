@@ -9,4 +9,4 @@
 
 - Produce a request summarizing the changes between the v0.1 release on master branch and local foo branch:
 
-`git request-pull v0.1 https://example.com/project master:foo`
+`git request-pull {{v0.1}} {{https://example.com/project}} {{master:foo}}`
