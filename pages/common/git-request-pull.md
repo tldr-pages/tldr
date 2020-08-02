@@ -5,7 +5,7 @@
 
 - Produce a request summarizing the changes between the v1.1 release and master:
 
-`git request-pull v1.1 https://example.com/project master`
+`git request-pull {{v1.1}} {{https://example.com/project}} {{master}}`
 
 - Produce a request summarizing the changes between the v0.1 release on master branch and local foo branch:
 
