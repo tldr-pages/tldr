@@ -1,4 +1,4 @@
-# Streamlink
+# streamlink
 
 > Extracts streams from various services and pipes them into a video player of choice.
 > More information: <https://streamlink.github.io>.
@@ -7,17 +7,17 @@
 
 `streamlink {{example.com/stream}}`
 
-- Open a stream with specified quality:
+- Open a stream with the specified quality:
 
 `streamlink {{example.com/stream}} {{720p60}}`
 
-- Use **best** or **worst** for selecting the highest or lowest available quality:
+- Select the highest or lowest available quality:
 
-`streamlink {{example.com/stream}} {{best}}`
+`streamlink {{example.com/stream}} {{best|worst}}`
 
-- Specify which player to use with --player to feed stream data to. By default, VLC will be used if it can be found in its default location:
+- Specify which player to use to feed stream data to (VLC is used by default if found):
 
-`streamlink --player=mpv {{example.com/stream}} {{best}}`
+`streamlink --player={{mpv}} {{example.com/stream}} {{best}}`
 
 - Specify the amount of time to skip from the beginning of the stream. For live streams, this is a negative offset from the end of the stream (rewind):
 
@@ -29,8 +29,8 @@
 
 - Write stream data to a file instead of playing it:
 
-`streamlink --output {{path/to/file}} {{example.com/stream}} {{best}}`
+`streamlink --output {{path/to/file.ts}} {{example.com/stream}} {{best}}`
 
 - Open the stream in the player, while at the same time writing it to a file:
 
-`streamlink --record {{path/to/file}} {{example.com/stream}} {{best}}`
+`streamlink --record {{path/to/file.ts}} {{example.com/stream}} {{best}}`
