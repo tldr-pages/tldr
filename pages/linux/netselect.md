@@ -3,7 +3,7 @@
 > Speed test for choosing a fast network server.
 > More information: <https://github.com/apenwarr/netselect> .
 
-- Choose the fastest server:
+- Choose the server with the lowest latency:
 
 `sudo netselect {{host_1}} {{host_2}}`
 
