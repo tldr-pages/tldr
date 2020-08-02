@@ -4,7 +4,7 @@
 > Requires a configured `sendmail` or smtp setup.
 > More information: <https://github.com/rss2email/rss2email>.
 
-- Create a new feed database that sends email to your email address:
+- Create a new feed database that sends email to an email address:
 
 `r2e new {{email_address}}`
 
