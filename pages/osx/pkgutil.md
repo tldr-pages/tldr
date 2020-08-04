@@ -8,12 +8,12 @@
 
 - Verify cryptographic signatures of a package file:
 
-`pkgutil --check-signature {{filename.pkg}}`
+`pkgutil --check-signature {{path/to/filename.pkg}}`
 
 - List all the files for an installed package given its ID:
 
 `pkgutil --files {{com.microsoft.Word}}`
 
-- Extract the contents of a packge file into a directory:
+- Extract the contents of a package file into a directory:
 
-`pkgutil  --expand-full {{filename.pkg}} {{directory}}`
+`pkgutil  --expand-full {{path/to/filename.pkg}} {{directory}}`
