@@ -23,13 +23,9 @@
 
 `git stash show -p {{optional_stash_name_or_commit}}`
 
-- Apply a stash (default is stash@{0}):
+- Apply a stash (default is stash@{0}), use `stash pop` to apply the stash and remove it from the stash list:
 
 `git stash apply {{optional_stash_name_or_commit}}`
-
-- Apply a stash (default is stash@{0}), and remove it from the stash list if applying doesn't cause conflicts:
-
-`git stash pop {{optional_stash_name}}`
 
 - Drop a stash (default is stash@{0}):
 
