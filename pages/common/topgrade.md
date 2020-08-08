@@ -1,6 +1,6 @@
 # Topgrade
 
-> Update all your applications.
+> Update all applications on the system.
 > More at <https://github.com/r-darwish/topgrade>.
 
 - Call updates:
@@ -15,13 +15,13 @@
 
 `topgrade -c`
 
-- Disable a certain step:
+- Disable a certain update operation:
 
-`topgrade -disable {{step}}`
+`topgrade -disable {{operation}}`
 
-- Only perform a certain step:
+- Only perform a certain update operation:
 
-`topgrade --only {{step}}`
+`topgrade --only {{operation}}`
 
 - Edit the config file with default editor:
 
