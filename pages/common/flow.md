@@ -13,7 +13,7 @@
 
 - Run type coverage check on all files in a directory:
 
-`flow batch-coverage  --show-all --strip-root {{frontend_js_dir}}`
+`flow batch-coverage --show-all --strip-root {{frontend_js_dir}}`
 
 - Print out the line-by-line stats on type coverage:
 
