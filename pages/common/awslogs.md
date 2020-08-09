@@ -7,7 +7,7 @@
 
 `awslogs groups`
 
-- List existing streams for specified group:
+- List existing streams for the specified group:
 
 `awslogs streams {{/var/log/syslog}}`
 
