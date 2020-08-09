@@ -1,4 +1,4 @@
-# Topgrade
+# topgrade
 
 > Update all applications on the system.
 > More at <https://github.com/r-darwish/topgrade>.
