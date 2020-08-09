@@ -3,7 +3,7 @@
 > Ajoute les fichiers modifiés à l'index.
 > Plus d'informations : <https://git-scm.com/docs/git-add>.
 
-- Ajouter un ficher à l'index :
+- Ajouter un fichier à l'index :
 
 `git add {{path/to/file}}`
 
@@ -11,7 +11,7 @@
 
 `git add -A`
 
-- Ajoute les modifications des fichers déjà suivis :
+- Ajoute les modifications des fichiers déjà suivis :
 
 `git add -u`
 
