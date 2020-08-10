@@ -15,19 +15,19 @@
 
 `scc --by-file`
 
-- Display output using specific output format, default is tabular:
+- Display output using a specific output format (defaults to `tabular`):
 
 `scc --format {{tabular|wide|json|csv|cloc-yaml|html|html-table}}`
 
-- Display output limit to file extension:
+- Only count files with specific file extensions:
 
 `scc --include-ext {{go, java, js}}`
 
-- Display output exclude directories:
+- Exclude directories from being counted:
 
 `scc --exclude-dir {{.git,.hg}}`
 
-- Display output and sort by column, default by files:
+- Display output and sort by column (defaults to by files):
 
 `scc --sort {{files|name|lines|blanks|code|comments|complexity}}`
 
