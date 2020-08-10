@@ -13,7 +13,7 @@
 
 - Apply a remote patch file:
 
-`curl https://example.com/file.patch | git apply`
+`curl {{https://example.com/file.patch}} | git apply`
 
 - Output diffstat for the input and apply the patch:
 
@@ -23,6 +23,6 @@
 
 `git apply --reverse {{path/to/file}}`
 
-- Store the patch result in the index without modify the working tree:
+- Store the patch result in the index without modifying the working tree:
 
 `git apply --cache {{path/to/file}}`
