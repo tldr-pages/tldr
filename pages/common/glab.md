@@ -15,7 +15,7 @@
 
 `glab issue create`
 
-- View and filter repository’s open issues:
+- View and filter the current repository's open issues:
 
 `glab issue list`
 
@@ -23,6 +23,6 @@
 
 `glab pipeline list`
 
-- Clone a repository:
+- Clone a repository into a specific directory:
 
-`glab repo clone`
+`glab repo clone {{user}}/{{repository}} {{directory}}`
