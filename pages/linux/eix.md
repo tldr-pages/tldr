@@ -1,10 +1,7 @@
 # eix
 
 > Utilities for searching local Gentoo packages.
-
-- Synchronize local cache (should be ran after installation/updating packages):
-
-`eix-update`
+> Update local package cache using `eix-update`.
 
 - Search for a package:
 
@@ -12,16 +9,16 @@
 
 - Search for installed packages:
 
-`eix -I {{package_name}}`
+`eix --installed {{package_name}}`
 
 - Seach in package descriptions:
 
-`eix -S {{description}}`
+`eix --description "{{description}}"`
 
 - Seach by package license:
 
-`eix -L {{license}}`
+`eix --license {{license}}`
 
 - Exclude results from search:
 
-`eix --not -L {{license}}`
+`eix --not --license {{license}}`
