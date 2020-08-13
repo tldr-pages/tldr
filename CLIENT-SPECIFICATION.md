@@ -221,6 +221,9 @@ Caching SHOULD be done according to the user's language configuration (if any), 
 
 ## Changelog
 
+ - [v1.4, August 13th 2020](https://github.com/tldr-pages/tldr/blob/master/CLIENT-SPECIFICATION.md) (#4246)
+   - Add requirement for CLI clients to use non-zero exit code on failing to find a page.
+
  - [v1.3, June 11th 2020](https://github.com/tldr-pages/tldr/blob/master/CLIENT-SPECIFICATION.md) (#4101)
    - Clarified fallback to English in the language resolution algorithm.
    - Update `LANG` and `LANGUAGE` environment variable to conform to the GNU spec.
