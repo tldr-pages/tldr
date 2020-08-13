@@ -9,7 +9,7 @@
 
 - Specify Debian branch, stable is used by default:
 
-`sudo netselect-apt testing`
+`sudo netselect-apt {{testing}}`
 
 - Include non-free section:
 
@@ -17,4 +17,4 @@
 
 - Specify a country for mirror list lookup:
 
-`sudo netselect-apt -c India`
+`sudo netselect-apt -c {{India}}`
