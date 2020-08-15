@@ -2,7 +2,7 @@
 
 > Send a collection of patches as emails.
 > Patches can be specified as files, directions, or a revision list.
-> More information: https://git-scm.com/docs/git-send-email
+> More information: <https://git-scm.com/docs/git-send-email>.
 
 - Send the last commit in the current branch:
 
@@ -18,7 +18,7 @@
 
 - Send an extra mail before the patch mail(s) (e.g. an introduction to the patch set as a cover letter) and edit the mail(s) to be sent:
 
-`git send-email -{{number of commits} --cover-letter --annotate
+`git send-email -{{number of commits} --cover-letter --annotate`
 
 - Send the last commit in the current branch with the patch version (e.g. 2) indicated in the subject header (to appear as [PATCH v2]):
 
