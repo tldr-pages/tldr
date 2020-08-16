@@ -13,4 +13,4 @@
 
 - Use a custom icon, should be a PNG:
 
-`nativefier --icon {{path/to/icon}} {{url}}`
+`nativefier --icon {{path/to/icon.png}} {{url}}`
