@@ -28,4 +28,4 @@
 
 - Deletando arquivos de um arquivo zip:
 
-`zip -d {{output.zip}} "{{foo/*.ext}}"
+`zip -d {{output.zip}} "{{foo/*.ext}}"`
