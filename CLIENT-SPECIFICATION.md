@@ -1,6 +1,6 @@
 # tldr-pages client specification
 
-**Current Specification Version:** 1.3
+**Current Specification Version:** 1.4
 
 This document contains the official specification for tldr-pages clients. It is _not_ a specification of the format of the pages themselves - only a specification of how a user should be able to interface with an official client. For a list of previous versions of the specification, see the [changelog section](#Changelog) below.
 
