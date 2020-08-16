@@ -1,6 +1,6 @@
 # Nativefier
 
-> Nativefier is a command-line tool to easily create a desktop app for any web site with minimal configuration.
+> Command-line tool to create a desktop app for any web site with minimal configuration.
 > More information <https://github.com/jiahaog/nativefier>.
 
 - Make a desktop app for a website:
