@@ -1,8 +1,8 @@
 # speedometer
 
-> Python script that shows network traffic graph in terminal.
+> Python script that shows a network traffic graph in the terminal.
 > More information: <http://excess.org/speedometer>.
 
-- Show graph for eth0 interface:
+- Show graph for a specific interface:
 
-`speedometer -r eth0 -t eth0`
+`speedometer -r {{eth0}} -t eth0`
