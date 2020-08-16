@@ -78,6 +78,9 @@ both for the command line and for other platforms:
   `pub global activate tldr`
 - [Dash docset](https://github.com/Moddus/tldr-python-dash-docset):
   Open `Preferences` > `Downloads` > `User Contributed` and find `tldr pages` in the list
+- [Discord Bot](https://github.com/sschr15/tldr-discord):
+  [Follow the building instructions](https://github.com/sschr15/tldr-discord#building) or
+  [use a privately hosted version](https://discord.com/api/oauth2/authorize?client_id=742800507210301520&permissions=18432&scope=bot)
 - Docker images:
     - [tldr-docker](https://github.com/nutellinoit/tldr-docker) - Run the `tldr` command via a docker container: `alias tldr='docker run --rm -it -v ~/.tldr/:/root/.tldr/ nutellinoit/tldr'`
 - Elixir clients:
