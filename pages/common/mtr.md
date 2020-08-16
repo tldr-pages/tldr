@@ -22,3 +22,7 @@
 - Wait for a given time (in seconds) before sending another packet to the same hop:
 
 `mtr -i {{seconds}} {{host}}`
+
+- Perform a reliable package drop test that can be shown to the Internet Service Provider (ISP):
+
+`mtr --curses --no-dns --report-wide --report-cycles {{num}} "$(dig +short {{isp_website.tld}})"`
