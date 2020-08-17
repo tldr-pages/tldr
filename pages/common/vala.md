@@ -12,6 +12,6 @@
 
 `vala --version`
 
--  Display helper message:
+- Display helper message:
 
 `vala --help`

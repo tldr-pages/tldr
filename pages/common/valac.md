@@ -12,6 +12,6 @@
 
 `valac --version`
 
--  Display helper message:
+- Display helper message:
 
 `valac --help`
