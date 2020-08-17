@@ -3,7 +3,7 @@
 > tutorial: <https://wiki.gnome.org/Projects/Vala/Tutorial>
 > doc homepage: <https://valadoc.org/>
 
-- Execute a vala file, with gtk+
+- run a vala file, with gtk+
 
 `vala xxx.vala --pkg gtk+-3.0`
 
