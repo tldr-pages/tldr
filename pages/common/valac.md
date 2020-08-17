@@ -1,7 +1,8 @@
 # valac
-> vala code compiler.
-> tutorial: <https://wiki.gnome.org/Projects/Vala/Tutorial>
-> doc homepage: <https://valadoc.org/>
+
+> Vala code compiler.
+> Tutorial: <https://wiki.gnome.org/Projects/Vala/Tutorial>.
+> Doc homepage: <https://valadoc.org/>.
 
 - Compile a vala file, with gtk+
 

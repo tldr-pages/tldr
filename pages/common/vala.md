@@ -1,7 +1,8 @@
 # vala
-> vala code runner.
-> tutorial: <https://wiki.gnome.org/Projects/Vala/Tutorial>
-> doc homepage: <https://valadoc.org/>
+
+> Vala code runner.
+> Tutorial: <https://wiki.gnome.org/Projects/Vala/Tutorial>.
+> Doc homepage: <https://valadoc.org/>.
 
 - run a vala file, with gtk+
 
