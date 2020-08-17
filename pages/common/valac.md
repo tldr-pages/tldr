@@ -1,4 +1,4 @@
-# vala
+# valac
 > vala code compiler.
 > tutorial: <https://wiki.gnome.org/Projects/Vala/Tutorial>
 > doc homepage: <https://valadoc.org/>
