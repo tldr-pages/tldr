@@ -13,7 +13,7 @@
 
 - Include non-free section:
 
-`sudo netselect-apt -n`
+`sudo netselect-apt --non-free`
 
 - Specify a country for mirror list lookup:
 
