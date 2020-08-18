@@ -15,6 +15,6 @@
 
 `sudo netselect-apt --non-free`
 
-- Specify a country for mirror list lookup:
+- Specify a country for the mirror list lookup:
 
 `sudo netselect-apt -c {{India}}`
