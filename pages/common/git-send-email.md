@@ -14,12 +14,12 @@
 
 - Send multiple (e.g. 10) commits in the current branch:
 
-`git send-email -10`
+`git send-email {{-10}}`
 
-- Send an extra mail before the patch mail(s) (e.g. an introduction to the patch set as a cover letter) and edit the mail(s) to be sent:
+- Send an introductory email message for the patch series:
 
-`git send-email -{{number of commits} --cover-letter --annotate`
+`git send-email -{{number of commits}} --compose`
 
-- Send the last commit in the current branch with the patch version (e.g. 2) indicated in the subject header (to appear as [PATCH v2]):
+- Review and edit the email message for each patch you're about to send:
 
-`git send-email -v2 -1`
+`git send-email -{{number of commits}} --annotate`
