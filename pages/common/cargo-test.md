@@ -1,6 +1,6 @@
 # cargo-test
 
-> Execute unit and integration tests of a Rust package.
+> Execute the unit and integration tests of a Rust package.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-test.html>.
 
 - Only run tests containing a specific string in their names:
@@ -11,7 +11,7 @@
 
 `cargo test -- --test-threads={{count}}`
 
-- Require Cargo.lock is up to date:
+- Require that `Cargo.lock` is up to date:
 
 `cargo test --locked`
 
