@@ -7,7 +7,7 @@
 
 `konsole --workdir {{path/to/directory}}`
 
-- Run a specific command and do not close the window:
+- Run a specific command and do not close the window after it exits:
 
 `konsole --noclose -e {{command}}`
 
