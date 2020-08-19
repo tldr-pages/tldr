@@ -1,6 +1,6 @@
 # konsole
 
-> The KDE terminal emulator.
+> Konsole: The KDE terminal emulator.
 > More information: <https://konsole.kde.org>.
 
 - Open a new Konsole in a specific directory:
