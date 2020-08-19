@@ -5,4 +5,4 @@
 
 - Show graph for a specific interface:
 
-`speedometer -r {{eth0}} -t eth0`
+`speedometer -r {{eth0}} -t {{eth0}}`
