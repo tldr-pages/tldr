@@ -1,4 +1,4 @@
-# Nativefier
+# nativefier
 
 > Command-line tool to create a desktop app for any web site with minimal configuration.
 > More information <https://github.com/jiahaog/nativefier>.
