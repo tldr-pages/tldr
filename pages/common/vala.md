@@ -6,7 +6,7 @@
 
 - Run a vala file, with gtk+:
 
-`vala xxx.vala --pkg gtk+-3.0`
+`vala {{path/to/file.vala}} --pkg {{gtk+-3.0}}`
 
 - Display version info:
 
