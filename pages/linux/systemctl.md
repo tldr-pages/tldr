@@ -25,3 +25,11 @@
 - Reload systemd, scanning for new or changed units:
 
 `systemctl daemon-reload`
+
+- Check a unit is active:
+
+`systemctl is-active {{unit}}`
+
+- Check a unit is Enabled:
+
+`systemctl is-enabled {{unit}}`
