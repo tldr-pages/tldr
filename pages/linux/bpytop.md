@@ -24,5 +24,5 @@
 `f`
 
 - Change settings:
-`M`
 
+`M`
