@@ -1,6 +1,6 @@
 # bpytop
 
-> Display dynamic real-time information about running processes with graphs. Python port of `bashtop`. Similar to `gtop`.
+> Display dynamic real-time information about running processes with graphs. Similar to `gtop` and `htop`.
 > More at <https://github.com/aristocratos/bpytop>
 
 - Start bpytop
