@@ -53,7 +53,8 @@ As a quick reference, the format of each page should match the following templat
 ```
 # command-name
 
-> Short, snappy description. Preferably one line; two are acceptable if necessary.
+> Short, snappy description.
+> Preferably one line; two are acceptable if necessary.
 > More information: <https://url-to-upstream.tld>.
 
 - Example description:
