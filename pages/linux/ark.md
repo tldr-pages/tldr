@@ -3,7 +3,7 @@
 > KDE archiving tool.
 > More information: <https://docs.kde.org/stable5/en/kdeutils/ark/index.html>.
 
-- Extract archive in current directory:
+- Extract an archive into the current directory:
 
 `ark --batch {{archive}}`
 
