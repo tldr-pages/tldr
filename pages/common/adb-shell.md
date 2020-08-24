@@ -1,17 +1,17 @@
 # adb shell
 
-> Android Debug Bridge Shell: Run remote shell command with an Android emulator instance or connected Android devices.
+> Android Debug Bridge Shell: Run remote shell commands on an Android emulator instance or connected Android devices.
 > More information: <https://developer.android.com/studio/command-line/adb>.
 
-- Start a remote interactive shell in the emulator/device:
+- Start a remote interactive shell on the emulator/device:
 
 `adb shell`
 
-- Reset dangerous permissions to an application:
+- Reset dangerous permissions for an application:
 
 `adb shell pm reset-permissions {{package}}`
 
-- Revoke a dangerous permission to an application:
+- Revoke a dangerous permission for an application:
 
 `adb shell pm revoke {{package}} {{permission}}`
 
@@ -19,7 +19,7 @@
 
 `adb shell input keyevent {{keycode}}`
 
-- Clear the data from an emulator/device's application:
+- Clear the data of an application on an emulator or device:
 
 `adb shell pm clear {{package}}`
 
@@ -27,6 +27,6 @@
 
 `adb shell am start -n {{package}}/{{activity}}`
 
-- Start home activity on emulator/device:
+- Start the home activity on an emulator or device:
 
 `adb shell am start -W -c android.intent.category.HOME -a android.intent.action.MAIN`
