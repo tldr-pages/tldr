@@ -11,9 +11,9 @@
 
 `bitwise 12345`
 
-- Conversion From Hex:
+- Convert from hexadecimal:
 
-`bitwise 0x563d`
+`bitwise {{0x563d}}`
 
 - C-style Calculation:
 
