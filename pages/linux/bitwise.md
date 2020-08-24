@@ -15,6 +15,6 @@
 
 `bitwise {{0x563d}}`
 
-- C-style Calculation:
+- Convert a C-style calculation:
 
 `bitwise  {{"0x123 + 0x20 - 30 / 50"}}`
