@@ -3,7 +3,7 @@
 > Multi base interactive calculator supporting dynamic base conversion and bit manipulation.
 > More information: <https://github.com/mellowcandle/bitwise>.
 
-- Interactive Mode:
+- Run using interactive mode:
 
 `bitwise`
 
