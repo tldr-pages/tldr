@@ -7,9 +7,9 @@
 
 `bitwise`
 
-- Conversion From Decimal:
+- Convert from decimal:
 
-`bitwise 12345`
+`bitwise {{12345}}`
 
 - Convert from hexadecimal:
 
