@@ -7,9 +7,9 @@
 
 `adb shell`
 
-- Reset dangerous permissions for an application:
+- Revert all runtime permissions to their default:
 
-`adb shell pm reset-permissions {{package}}`
+`adb shell pm reset-permissions`
 
 - Revoke a dangerous permission for an application:
 
