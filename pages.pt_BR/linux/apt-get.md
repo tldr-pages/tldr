@@ -23,6 +23,10 @@
 
 `apt-get upgrade`
 
+-  Limpar o repositório local — removendo os arquivos de pacotes (.deb) que não podem mais ser baixados (download interrompido) e são completamente inúteis e obsoletos.
+
+`apt-get autoclean`
+
 - Remover todos os pacotes obsoletos:
 
 `apt-get autoremove`
