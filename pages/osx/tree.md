@@ -6,6 +6,10 @@
 
 `tree -L {{num}}`
 
+- Print directories and files with colorization on:
+
+`tree -C`
+
 - Print directories only:
 
 `tree -d`
