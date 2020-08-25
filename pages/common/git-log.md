@@ -30,3 +30,19 @@
 - Show only commits whose messages include a given string (case-insensitively):
 
 `git log -i --grep {{search_string}}`
+
+- Show only a certain number of commits
+
+`git log -n {{number}}`
+
+- Show only commits from a certain author:
+
+`git log --author={{author}}`
+
+- Show commits before a certain date:
+
+`git log --before={{date}}`
+
+- Show commits after a certain date:
+
+`git log --after={{date}}`
