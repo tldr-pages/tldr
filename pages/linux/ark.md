@@ -11,6 +11,6 @@
 
 `ark --batch --destination {{path/to/directory}} {{archive}}`
 
-- Create archive if it does not exist and add files to it:
+- Create an archive if it does not exist and add files to it:
 
 `ark --add-to {{archive}} {{file1}} {{file2}}`
