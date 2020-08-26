@@ -15,7 +15,7 @@
 
 `meson compile -C {{builddir}}`
 
-- Show help message:
+- Show the help:
 
 `meson --help`
 
