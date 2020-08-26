@@ -1,7 +1,7 @@
 # ark
 
 > KDE archiving tool.
-> More information: <https://docs.kde.org/stable5/en/kdeutils/ark/index.html>.
+> More information: <https://docs.kde.org/stable5/en/kdeutils/ark/>.
 
 - Extract an archive into the current directory:
 
