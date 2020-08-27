@@ -1,15 +1,14 @@
 # e4defrag
-
 > Defragment an ext4 file system
 
 - Defragment the file system:
 
-`e4defrag {{file_system}}`
+`e4defrag {{/dev/sda1}}`
 
 - See how fragmented a file system is:
 
-`e4defrag -c {{file_system}}`
+`e4defrag -c {{/dev/sda1}}`
 
 - Print errors and the fragmentation count before and after each file:
 
-`e4defrag -v {{file_system}}`
+`e4defrag -v {{/dev/sda1}}`
