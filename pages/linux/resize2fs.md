@@ -6,12 +6,12 @@
 
 - Automatically resize file system:
 
-`resize2fs {{file_system}}`
+`resize2fs {{/dev/sda1}}`
 
 - Resize the file system to 40G with a percentage completion bar:
 
-`resize2fs -p {{file_system}} 40G`
+`resize2fs -p {{/dev/sda1}} 40G`
 
 - Shrink the file system to its minimum possible size:
 
-`resize2fs -M {{file_system}}`
+`resize2fs -M {{/dev/sda1}}`
