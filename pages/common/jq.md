@@ -7,7 +7,7 @@
 
 `jq . {{file.json}}`
 
-- Output all elements from arrays (or all key-value pairs from objects) in a JSON file:
+- Output all elements from arrays (or all the values from objects) in a JSON file:
 
 `jq '.[]' {{file.json}}`
 
