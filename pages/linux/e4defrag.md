@@ -1,5 +1,6 @@
 # e4defrag
-> Defragment an ext4 file system
+
+> Defragment an ext4 file system.
 
 - Defragment the file system:
 
