@@ -4,16 +4,16 @@
 
 - Sets the max number of counts before a file system is checked to 2:
 
-`tune2fs -c {{2}} {{file_system}}`
+`tune2fs -c {{2}} {{/dev/sda1}}`
 
 - Sets the file system label to MY_LABEL:
 
-`tune2fs -L {{'MY_LABEL'}} {{file_system}}`
+`tune2fs -L {{'MY_LABEL'}} {{/dev/sda1}}`
 
 - Enable discard and user-specified extended attributes for a file system:
 
-`tune2fs -o {{discard,user_xattr}} {{file_system}}`
+`tune2fs -o {{discard,user_xattr}} {{/dev/sda1}}`
 
 - Enable journaling for a file system:
 
-`tune2fs -o^{{nobarrier}} {{file_system}}`
+`tune2fs -o^{{nobarrier}} {{/dev/sda1}}`
