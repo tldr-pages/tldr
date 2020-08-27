@@ -4,7 +4,7 @@
 
 - Defragment the file system:
 
-`e4defrag {{/dev/sda1}}`
+`e4defrag {{/dev/sdXN}}`
 
 - See how fragmented a file system is:
 
