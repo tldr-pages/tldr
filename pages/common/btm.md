@@ -14,7 +14,7 @@
 
 - Use big dots instead of small ones in charts:
 
-`btm --dot-marker`
+`btm --dot_marker`
 
 - Show also battery charge and health status:
 
