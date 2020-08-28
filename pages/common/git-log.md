@@ -31,18 +31,10 @@
 
 `git log -i --grep {{search_string}}`
 
-- Show only a certain number of commits:
-
-`git log -n {{number}}`
-
 - Show only commits from a certain author:
 
 `git log --author={{author}}`
 
-- Show commits before a certain date:
+- Show commits between two dates:
 
-`git log --before={{date}}`
-
-- Show commits after a certain date:
-
-`git log --after={{date}}`
+`git log --before={{date}} --after={{date}}`
