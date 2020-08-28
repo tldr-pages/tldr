@@ -31,7 +31,7 @@
 
 `git log -i --grep {{search_string}}`
 
-- Show only a certain number of commits
+- Show only a certain number of commits:
 
 `git log -n {{number}}`
 
