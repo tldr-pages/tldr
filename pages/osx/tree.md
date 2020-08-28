@@ -1,22 +1,19 @@
 # tree
 
 > Show the contents of the current directory as a tree.
+> More information: <http://mama.indstate.edu/users/ice/tree/>.
 
 - Print files and directories up to 'num' levels of depth (where 1 means the current directory):
 
 `tree -L {{num}}`
 
-- Print directories and files with colorization on:
-
-`tree -C`
-
 - Print directories only:
 
 `tree -d`
 
-- Print hidden files too:
+- Print hidden files too with colorization on:
 
-`tree -a`
+`tree -a -C`
 
 - Print the tree without indentation lines, showing the full path instead (use `-N` to not escape whitespace and special characters):
 
