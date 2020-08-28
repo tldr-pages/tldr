@@ -11,6 +11,14 @@
 
 `jekyll serve --incremental`
 
+- Enable verbose output:
+
+`jekyll serve --verbose`
+
 - Generate the current directory into "./_site":
 
 `jekyll build`
+
+- Clean the site (removes site output and cache folder) without building:
+
+`jekyll clean`
