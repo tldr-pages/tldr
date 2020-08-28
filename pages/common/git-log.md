@@ -3,13 +3,9 @@
 > Show a history of commits.
 > More information: <https://git-scm.com/docs/git-log>.
 
-- Show the sequence of commits starting from the current one, in reverse chronological order:
+- Show the sequence of commits starting from the current one, in reverse chronological order (optionally specifying a path):
 
-`git log`
-
-- Show the history of a particular file or directory, including differences:
-
-`git log -p {{path/to/file_or_directory}}`
+`git log [-p {{path/to/file_or_directory}}]`
 
 - Show only the first line of each commit message:
 
