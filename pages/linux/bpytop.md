@@ -19,7 +19,7 @@
 
 `m`
 
-- Seach for running programs or processes:
+- Search for running programs or processes:
 
 `f`
 
