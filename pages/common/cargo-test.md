@@ -22,3 +22,7 @@
 - Test all packages in the workspace:
 
 `cargo test --workspace`
+
+- Run tests for a package:
+
+`cargo test --package {{package}}`
