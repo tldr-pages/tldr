@@ -13,7 +13,7 @@
 
 - Open a compressed PDF file:
 
-`xpdf {{file.pdf.tar}}`
+`xpdf {{path/to/file.pdf.tar}}`
 
 - Open a PDF file in fullscreen mode:
 
