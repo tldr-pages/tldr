@@ -8,7 +8,7 @@
 
 `btm`
 
-- Enable basic mode, removing charts and condensing data (similar to "top"):
+- Enable basic mode, removing charts and condensing data (similar to `top`):
 
 `btm --basic`
 
