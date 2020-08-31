@@ -11,14 +11,14 @@
 
 `rs`
 
-- Ignore spesific files:
+- Ignore specific files:
 
 `nodemon --ignore filename.js`
 
-- Use any node argument in nodemon:
+- Pass arguments to your node application:
 
 `nodemon yournodeargument`
 
-- Monitor non node files:
+- Running non-node scripts:
 
 `nodemon --exec "python --verbose" filename.py`
