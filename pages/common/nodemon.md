@@ -21,4 +21,4 @@
 
 - monitor non node files
 
-`nodemon --exec "python -v" filename.py`
+`nodemon --exec "python --verbose" filename.py`
