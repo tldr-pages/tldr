@@ -1,12 +1,12 @@
 # e4defrag
 
-> Defragment an ext4 file system.
+> Defragment an ext4 filesystem.
 
-- Defragment the file system:
+- Defragment the filesystem:
 
 `e4defrag {{/dev/sdXN}}`
 
-- See how fragmented a file system is:
+- See how fragmented a filesystem is:
 
 `e4defrag -c {{/dev/sdXN}}`
 
