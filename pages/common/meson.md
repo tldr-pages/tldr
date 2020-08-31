@@ -13,7 +13,7 @@
 
 - Build the project:
 
-`meson compile -C {{builddir}}`
+`meson compile -C {{path/to/build_dir}}`
 
 - Show the help:
 
