@@ -1,19 +1,19 @@
 # tune2fs
 
-> Adjust paramters of an ext2, ext3 or ext4 file system.
+> Adjust paramters of an ext2, ext3 or ext4 filesystem.
 
-- Set the max number of counts before a file system is checked to 2:
+- Set the max number of counts before a filesystem is checked to 2:
 
 `tune2fs -c {{2}} {{/dev/sdXN}}`
 
-- Set the file system label to MY_LABEL:
+- Set the filesystem label to MY_LABEL:
 
 `tune2fs -L {{'MY_LABEL'}} {{/dev/sdXN}}`
 
-- Enable discard and user-specified extended attributes for a file system:
+- Enable discard and user-specified extended attributes for a filesystem:
 
 `tune2fs -o {{discard,user_xattr}} {{/dev/sdXN}}`
 
-- Enable journaling for a file system:
+- Enable journaling for a filesystem:
 
 `tune2fs -o^{{nobarrier}} {{/dev/sdXN}}`
