@@ -1,6 +1,6 @@
 # tldr-pages client specification
 
-**Current Specification Version:** 1.3
+**Current Specification Version:** 1.4
 
 This document contains the official specification for tldr-pages clients. It is _not_ a specification of the format of the pages themselves - only a specification of how a user should be able to interface with an official client. For a list of previous versions of the specification, see the [changelog section](#Changelog) below.
 
@@ -164,7 +164,7 @@ If a page cannot be found in _any_ platform, then it is RECOMMENDED that clients
 https://github.com/tldr-pages/tldr/issues/new?title=page%20request:%20{command_name}
 ```
 
-where `{command_name}` is the name of the command that was not found.
+where `{command_name}` is the name of the command that was not found. Clients that have control over their exit code on the command line (i.e. clients that provide a CLI) MUST exit with a non-zero exit code in addition to showing the above message.
 
 #### If multiple versions of a page were found
 
@@ -220,6 +220,9 @@ Caching SHOULD be done according to the user's language configuration (if any), 
 
 
 ## Changelog
+
+ - [v1.4, August 13th 2020](https://github.com/tldr-pages/tldr/blob/master/CLIENT-SPECIFICATION.md) (#4246)
+   - Add requirement for CLI clients to use non-zero exit code on failing to find a page.
 
  - [v1.3, June 11th 2020](https://github.com/tldr-pages/tldr/blob/master/CLIENT-SPECIFICATION.md) (#4101)
    - Clarified fallback to English in the language resolution algorithm.
