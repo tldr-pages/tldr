@@ -19,6 +19,6 @@
 
 `xpdf -fullscreen {{file.pdf}}`
 
-- Specify initial zoom:
+- Specify the initial zoom:
 
 `xpdf -z {{75}}% {{file.pdf}}`
