@@ -4,7 +4,7 @@
 > Aims to be lightweight, cross-platform and more graphical than `top`.
 > More information: <https://github.com/ClementTsang/bottom>.
 
-- Show default layout (cpu + memory + temperatures + disk + network + processes):
+- Show the default layout (cpu, memory, temperatures, disk, network, and processes):
 
 `btm`
 
