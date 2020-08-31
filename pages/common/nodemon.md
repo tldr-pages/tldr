@@ -3,7 +3,7 @@
 > Automatically restart node application when watched files are changed.
 > More information: <https://nodemon.io>.
 
-- Watch a spesific file for reloads:
+- Watch a specific file for reloads:
 
 `nodemon --inspect filename.js`
 
