@@ -17,7 +17,7 @@
 
 - Open a PDF file in fullscreen mode:
 
-`xpdf -fullscreen {{file.pdf}}`
+`xpdf -fullscreen {{path/to/file.pdf}}`
 
 - Specify the initial zoom:
 
