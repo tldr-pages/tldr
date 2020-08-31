@@ -25,4 +25,4 @@
 
 - Specify the initial zoom at page width or full page:
 
-`xpdf -z {{page|width}} {{path/to/file.pdf}}
+`xpdf -z {{page|width}} {{path/to/file.pdf}}`
