@@ -15,7 +15,7 @@
 
 `cargo build --workspace`
 
-- Build a package:
+- Build a specific package:
 
 `cargo build --package {{package}}`
 
