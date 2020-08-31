@@ -19,6 +19,6 @@
 
 `nodemon {{path/to/file.js}} {{arguments}}`
 
-- Running non-node scripts:
+- Run non-node scripts:
 
 `nodemon --exec "{{command}}" {{path/to/script_file}}`
