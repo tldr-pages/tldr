@@ -5,7 +5,7 @@
 
 - Open a PDF file:
 
-`xpdf {{file.pdf}}`
+`xpdf {{path/to/file.pdf}}`
 
 - Open a specific page in pdf file:
 
