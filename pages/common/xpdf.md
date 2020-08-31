@@ -11,7 +11,7 @@
 
 `xpdf {{path/to/file.pdf}} :{{page_number}}`
 
-- Open compressed PDF file:
+- Open a compressed PDF file:
 
 `xpdf {{file.pdf.tar}}`
 
