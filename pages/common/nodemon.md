@@ -13,12 +13,12 @@
 
 - Ignore specific files:
 
-`nodemon --ignore filename.js`
+`nodemon --ignore {{path/to/file_or_directory}}`
 
 - Pass arguments to your node application:
 
-`nodemon yournodeargument`
+`nodemon {{path/to/file.js}} {{arguments}}`
 
 - Running non-node scripts:
 
-`nodemon --exec "python --verbose" filename.py`
+`nodemon --exec "{{command}}" {{path/to/script_file}}`
