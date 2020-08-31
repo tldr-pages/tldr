@@ -1,17 +1,16 @@
 # resize2fs
 
-> Resize an ext2, ext3 or ext4 file system.
-> Does not resize the underlying partition.
-> File system must be unmounted.
+> Resize an ext2, ext3 or ext4 filesystem.
+> Does not resize the underlying partition, and the filesystem must be unmounted.
 
-- Automatically resize file system:
+- Automatically resize a filesystem:
 
 `resize2fs {{/dev/sdXN}}`
 
-- Resize the file system to 40G with a percentage completion bar:
+- Resize the filesystem to a size of 40G, displaying a progress bar:
 
 `resize2fs -p {{/dev/sdXN}} 40G`
 
-- Shrink the file system to its minimum possible size:
+- Shrink the filesystem to its minimum possible size:
 
 `resize2fs -M {{/dev/sdXN}}`
