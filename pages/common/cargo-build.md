@@ -3,6 +3,10 @@
 > Compile a local package and all of its dependencies.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-build.html>.
 
+- Build the package or packages defined by the `Cargo.toml` manifest file in the local path:
+
+`cargo build`
+
 - Build artifacts in release mode, with optimizations:
 
 `cargo build --release`
