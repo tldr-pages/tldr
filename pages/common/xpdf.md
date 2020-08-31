@@ -3,7 +3,7 @@
 > Portable Document Format (PDF) file viewer.
 > More information: <https://www.xpdfreader.com/xpdf-man.html>.
 
-- Open PDF file:
+- Open a PDF file:
 
 `xpdf {{file.pdf}}`
 
