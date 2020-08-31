@@ -20,6 +20,6 @@
 
 `btm --battery`
 
-- Refresh every 250 milliseconds and show last 30 seconds in charts:
+- Refresh every 250 milliseconds and show the last 30 seconds in the charts:
 
 `btm --rate 250 --default_time_value 30000`
