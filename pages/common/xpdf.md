@@ -9,7 +9,7 @@
 
 - Open a specific page in pdf file:
 
-`xpdf {{file.pdf}} {{5}}`
+`xpdf {{path/to/file.pdf}} :{{page_number}}`
 
 - Open compressed PDF file:
 
