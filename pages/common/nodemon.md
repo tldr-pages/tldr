@@ -1,7 +1,7 @@
 # nodemon
 
 > Automatically restart node application when watched files are changed.
-> More information: <https://www.npmjs.com/package/nodemon/>.
+> More information: <https://nodemon.io>.
 
 - Watch a spesific file for reloads:
 
