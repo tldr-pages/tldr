@@ -15,7 +15,7 @@
 
 `xpdf {{file.pdf.tar}}`
 
-- Open PDF file in fullscreen mode:
+- Open a PDF file in fullscreen mode:
 
 `xpdf -fullscreen {{file.pdf}}`
 
