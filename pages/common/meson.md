@@ -9,7 +9,7 @@
 
 - Configure builddir with default values:
 
-`meson setup {{builddir}}`
+`meson setup {{build_dir}}`
 
 - Build the project:
 
