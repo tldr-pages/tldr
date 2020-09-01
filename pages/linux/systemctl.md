@@ -1,6 +1,7 @@
 # systemctl
 
 > Control the systemd system and service manager.
+> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html>.
 
 - List failed units:
 
