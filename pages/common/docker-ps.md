@@ -15,11 +15,11 @@
 
 `docker ps --latest`
 
-- Filter containers which contains a substring in their name:
+- Filter containers that contain a substring in their name:
 
 `docker ps --filter="name={{name}}"`
 
-- Filter containers which share a given image as an ancestor:
+- Filter containers that share a given image as an ancestor:
 
 `docker ps --filter "ancestor={{image}}:{{tag}}"`
 
