@@ -10,6 +10,6 @@
 
 `arecord -vv -f -d 10 cd output.wav`
 
-- Pass a raw recording for further processing:
+- Record a snippet and save it as mp3 (finish with Ctrl-C when done):
 
 `arecord -v -f cd -t raw | lame -r - output.mp3`
