@@ -2,7 +2,7 @@
 
 > Sound recorder for ALSA soundcard driver.
 
-- Record a snippet in "CD" quality:
+- Record a snippet in "CD" quality (finish with Ctrl-C when done):
 
 `arecord -vv -f cd output.wav`
 
