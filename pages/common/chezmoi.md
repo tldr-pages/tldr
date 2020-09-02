@@ -9,11 +9,11 @@
 
 - Tell chezmoi to manage a dotfile:
 
-`chezmoi add ~/.zshrc`
+`chezmoi add {{path_to_file}}`
 
 - Edit the source state of a tracked dotfile:
 
-`chezmoi edit ~/.bashrc
+`chezmoi edit {{path_to_file}}
 
 - See changes chezmoi would make:
 
@@ -23,9 +23,7 @@
 
 `chezmoi -v apply`
 
-## Using chezmoi across multiple machines
-
-- Setting chezmoi up on another machine, from a service like GitHub:
+- Set chezmoi up on another machine, from a service like GitHub:
 
 `chezmoi init {{https://git_url}}`
 
