@@ -31,6 +31,6 @@
 
 `carbon-now -e {{line}} {{file}}`
 
-- Copy output image to clipboard:
+- Open image in browser instead of saving:
 
-`carbon-now --copy {{file}}`
+`carbon-now --open {{file}}`
