@@ -26,3 +26,7 @@
 - Display connected devices:
 
 `fastboot devices`
+
+- Display all device info:
+
+`fastboot getvar all`
