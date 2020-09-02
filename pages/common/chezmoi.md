@@ -13,7 +13,7 @@
 
 - Edit the source state of a tracked dotfile:
 
-`chezmoi edit {{path_to_file}}
+`chezmoi edit {{path_to_file}}`
 
 - See changes chezmoi would make:
 
