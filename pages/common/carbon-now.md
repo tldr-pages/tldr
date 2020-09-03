@@ -11,7 +11,7 @@
 
 `carbon-now --from-clipboard`
 
-- Create image standard input using default settings:
+- Create an image from standard input using default settings:
 
 `{{input}} | carbon-now`
 
