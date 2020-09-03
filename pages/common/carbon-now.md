@@ -13,7 +13,7 @@
 
 - Create image standard input using default settings:
 
-`{{text input}} | carbon-now`
+`{{input}} | carbon-now`
 
 - Create images interactively for custom settings and optionaly save a preset:
 
