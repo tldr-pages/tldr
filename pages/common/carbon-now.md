@@ -31,6 +31,6 @@
 
 `carbon-now -e {{line}} {{file}}`
 
-- Open image in browser instead of saving:
+- Open image in a browser instead of saving:
 
 `carbon-now --open {{file}}`
