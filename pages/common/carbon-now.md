@@ -15,7 +15,7 @@
 
 `{{input}} | carbon-now`
 
-- Create images interactively for custom settings and optionaly save a preset:
+- Create images interactively for custom settings and optionally save a preset:
 
 `carbon-now -i {{file}}`
 
