@@ -3,7 +3,7 @@
 > Create beautiful images of code.
 > More at <https://github.com/mixn/carbon-now-cli>.
 
-- Create image from file using default settings:
+- Create an image from a file using default settings:
 
 `carbon-now {{file}}`
 
