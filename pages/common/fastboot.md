@@ -27,6 +27,6 @@
 
 `fastboot devices`
 
-- Display all device info:
+- Display all information of a device:
 
 `fastboot getvar all`
