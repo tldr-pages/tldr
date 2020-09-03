@@ -23,7 +23,7 @@
 
 `mysql -e "source {{filename.sql}}" {{database_name}}`
 
-- Restore a database from a backup (user will be prompted for a password):
+- Restore a database from a backup created with `mysqldump` (user will be prompted for a password):
 
 `mysql --user {{user}} --password {{database_name}} < {{path/to/backup.sql}}`
 

@@ -27,10 +27,10 @@
 
 `youtube-dl --format {{mp4}} -o {{"%(title)s by %(uploader)s on %(upload_date)s in %(playlist)s.%(ext)s"}} {{url}}`
 
-- List available subtitles:
-
-`youtube-dl --list-subs {{https://www.youtube.com/watch?v=Mwa0_nE9H7A}}`
-
 - Download a particular language's subtitles along with the video:
 
 `youtube-dl --sub-lang {{en}} --write-sub {{https://www.youtube.com/watch?v=Mwa0_nE9H7A}}`
+
+- Download a playlist and extract mp3 from it:
+
+`youtube-dl -i --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" {{url to playlist}}`

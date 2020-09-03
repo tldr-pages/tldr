@@ -1,6 +1,7 @@
 # systemctl
 
 > Control the systemd system and service manager.
+> More information: <https://www.freedesktop.org/software/systemd/man/systemctl.html>.
 
 - List failed units:
 
@@ -25,3 +26,11 @@
 - Reload systemd, scanning for new or changed units:
 
 `systemctl daemon-reload`
+
+- Check if a unit is active:
+
+`systemctl is-active {{unit}}`
+
+- Check if a unit is enabled:
+
+`systemctl is-enabled {{unit}}`

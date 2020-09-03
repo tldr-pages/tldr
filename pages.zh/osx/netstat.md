@@ -18,10 +18,6 @@
 
 `netstat -p {{协议}}`
 
-- 连续列出信息（这条我电脑里 netstat 是不支持的。谁明白麻烦提交 pr!):
-
-`netstat -c`
-
 - 打印路由表:
 
 `netstat -nr`

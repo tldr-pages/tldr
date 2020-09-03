@@ -21,4 +21,4 @@
 
 - 모든 가능한 타입 리스트:
 
-`ack --help=types`
+`ack --help-types`

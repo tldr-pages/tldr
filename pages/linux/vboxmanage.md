@@ -27,3 +27,7 @@
 - Shutdown down the virtual machine without saving its state:
 
 `VBoxManage controlvm {{name|uuid}} poweroff`
+
+- Update VBox extension packs:
+
+`VBoxManage extpack install --replace {{VboxExtensionPackFileName}}`

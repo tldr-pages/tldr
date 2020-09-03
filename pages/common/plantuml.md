@@ -9,7 +9,7 @@
 
 - Render a diagram in given format (e.g. `png`, `pdf`, `svg`, `txt`):
 
-`plantuml -t{{format}} {{diagram.puml}}`
+`plantuml -t {{format}} {{diagram.puml}}`
 
 - Render all diagrams of a directory:
 

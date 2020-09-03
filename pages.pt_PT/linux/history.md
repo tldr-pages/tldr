@@ -2,18 +2,18 @@
 
 > Histórico da linha de comandos.
 
-- Mostrar o histórico da linha de comandos por ordem de chamada:
+- Mostrar o histórico da linha de comandos por ordem cronológica:
 
 `history`
 
-- Apaga o histórico da linha de comandos:
+- Apagar o histórico da linha de comandos:
 
 `history -c`
 
-- Apresenta o enésimo comando no histórico da linha de comandos:
+- Mostrar o enésimo comando no histórico da linha de comandos:
 
 `history !{{n}}`
 
-- Apresenta as entradas do histórico da linha de comandos que têm correspondência com a expressão regular "regex":
+- Mostrar as entradas do histórico da linha de comandos que correspondem a uma expressão regular:
 
 `history | grep {{regex}}`
