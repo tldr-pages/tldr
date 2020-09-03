@@ -7,7 +7,7 @@
 
 `carbon-now {{file}}`
 
-- Create image from text in clipboard using default settings:
+- Create an image from a text in clipboard using default settings:
 
 `carbon-now --from-clipboard`
 
