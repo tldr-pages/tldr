@@ -1,7 +1,7 @@
 # carbon-now
 
 > Create beautiful images of code.
-> More at <https://github.com/mixn/carbon-now-cli> and <https://carbon.now.sh>.
+> More at <https://github.com/mixn/carbon-now-cli>.
 
 - Create image from file using default settings:
 
