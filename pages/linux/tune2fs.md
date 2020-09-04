@@ -1,6 +1,7 @@
 # tune2fs
 
-> Adjust paramters of an ext2, ext3 or ext4 filesystem.
+> Adjust parameters of an ext2, ext3 or ext4 filesystem.
+> May be used on mounted filesystems.
 
 - Set the max number of counts before a filesystem is checked to 2:
 
