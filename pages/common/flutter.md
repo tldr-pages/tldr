@@ -26,3 +26,7 @@
 - List or change Flutter channel. Channels: stable, beta, dev, master:
 
 `flutter channel {{channel}}`
+
+- Run Flutter on all started emulators and connected devices: 
+
+`flutter run -d all`
