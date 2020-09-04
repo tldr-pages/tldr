@@ -9,7 +9,7 @@
 
 - Resize the filesystem to a size of 40G, displaying a progress bar:
 
-`resize2fs -p {{/dev/sdXN}} 40G`
+`resize2fs -p {{/dev/sdXN}} {{40G}}`
 
 - Shrink the filesystem to its minimum possible size:
 
