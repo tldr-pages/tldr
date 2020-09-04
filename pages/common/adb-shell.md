@@ -7,6 +7,10 @@
 
 `adb shell`
 
+- Get all the properties from emulator or device:
+
+`adb shell getprop`
+
 - Revert all runtime permissions to their default:
 
 `adb shell pm reset-permissions`
