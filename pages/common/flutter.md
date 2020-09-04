@@ -27,6 +27,6 @@
 
 `flutter channel {{channel}}`
 
-- Run Flutter on all started emulators and connected devices: 
+- Run Flutter on all started emulators and connected devices:
 
 `flutter run -d all`
