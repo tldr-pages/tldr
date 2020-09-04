@@ -7,7 +7,7 @@
 
 `xpdf {{path/to/file.pdf}}`
 
-- Open a specific page in pdf file:
+- Open a specific page in a PDF file:
 
 `xpdf {{path/to/file.pdf}} :{{page_number}}`
 
