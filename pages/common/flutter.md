@@ -22,3 +22,7 @@
 - Show information about the installed tooling:
 
 `flutter doctor`
+
+- List or change Flutter channel. Channels: stable, beta, dev, master
+
+`flutter channel {{channel}}`
