@@ -1,4 +1,4 @@
-# docker-system
+# docker system
 
 > Manage Docker data and display system-wide information.
 > More information: <https://docs.docker.com/engine/reference/commandline/system/>.
@@ -11,7 +11,7 @@
 
 `docker system df`
 
-- Show detailed information on space usage:
+- Show detailed information on disk usage:
 
 `docker system df --verbose`
 
@@ -19,15 +19,15 @@
 
 `docker system prune`
 
-- Remove unused stuff created a time ago:
+- Remove unused data created more than a specified amount of time in the past:
 
 `docker system prune --filter="until={{hours}}h{{minutes}}m"`
 
-- Get real-time events from the Docker daemon:
+- Display real-time events from the Docker daemon:
 
 `docker system events`
 
-- Get real-time events from containers streamed as valid JSON Lines:
+- Display real-time events from containers streamed as valid JSON Lines:
 
 `docker system events --filter 'type=container' --format '{{json .}}'`
 
