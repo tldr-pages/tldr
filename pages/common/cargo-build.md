@@ -1,4 +1,4 @@
-# cargo-build
+# cargo build
 
 > Compile a local package and all of its dependencies.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-build.html>.
