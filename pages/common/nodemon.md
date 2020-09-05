@@ -1,11 +1,11 @@
 # nodemon
 
-> Automatically restart node application when watched files are changed.
+> Watch files and automatically restart a node application when changes are detected.
 > More information: <https://nodemon.io>.
 
-- Watch a specific file for reloads:
+- Execute the specified file and watch a specific file for changes:
 
-`nodemon --inspect filename.js`
+`nodemon --inspect {{path/to/file.js}}`
 
 - Manually restart nodemon (note nodemon must already be active for this to work):
 
@@ -15,7 +15,7 @@
 
 `nodemon --ignore {{path/to/file_or_directory}}`
 
-- Pass arguments to your node application:
+- Pass arguments to the node application:
 
 `nodemon {{path/to/file.js}} {{arguments}}`
 
