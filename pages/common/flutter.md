@@ -23,9 +23,9 @@
 
 `flutter doctor`
 
-- List or change Flutter channel. Channels: stable, beta, dev, master:
+- List or change Flutter channel:
 
-`flutter channel {{channel}}`
+`flutter channel {{stable|beta|dev|master}}`
 
 - Run Flutter on all started emulators and connected devices:
 
