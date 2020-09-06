@@ -1,16 +1,16 @@
 # recsel
 
-> Print records from a human-editable, plain text database called a recfile.
+> Print records from a recfile: a human-editable, plain text database.
 > More information <https://www.gnu.org/software/recutils/manual/recutils.html>.
 
-- Extract name and version field from the output of guix:
+- Extract name and version field:
 
-`guix package -s malloc | recsel -p name,version`
+`recsel -p name,version {{data.rec}}`
 
 - Use "~" to match a string with a given regular expression:
 
-`guix package -s python | recsel -e "name  ~ 'numpy$'"`
+`recsel -e "{{field_name}}  ~ '{{pattern_regex}}' {{data.rec}}"`
 
 - Use a predicate to match a name and a version:
 
-`guix search python | recsel -e "name ~ 'numpy$' && version ~ '^1\.1.*'"`
+`recsel -e "name ~ '{{pattern_regex}}' && version ~ '{{pattern_regex}}'" {{data.rec}}`
