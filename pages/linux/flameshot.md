@@ -8,12 +8,12 @@
 
 `flameshot launcher`
 
-- Click and drag screenshot
+- Click and drag screenshot:
 
 `flameshot gui`
 
 - Full screen screenshot:
-  
+
 `flameshot full`
 
 - Set save path for flameshot:
