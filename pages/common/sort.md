@@ -29,3 +29,7 @@
 - Sort human-readable numbers (in this case the 5th field of `ls -lh`):
 
 `ls -lh | sort -h -k 5`
+
+- Sort numbers with exponents:
+
+`sort -g {{filename}}`
