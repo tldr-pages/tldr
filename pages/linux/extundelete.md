@@ -1,6 +1,6 @@
 # extundelete
 
-> Restore files from an unmounted partition.
+> Restore files from an unmounted ext3 or ext4 partition.
 > See also `date` for Unix time information and `umount` for unmounting partitions.
 > More information: <http://extundelete.sourceforge.net/>.
 
