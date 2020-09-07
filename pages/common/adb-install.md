@@ -1,4 +1,4 @@
-# adb-install
+# adb install
 
 > Android Debug Bridge Install: Push packages to an Android emulator instance or connected Android devices.
 > More information: <https://developer.android.com/studio/command-line/adb>.
