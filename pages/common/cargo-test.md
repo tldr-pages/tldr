@@ -1,4 +1,4 @@
-# cargo-test
+# cargo test
 
 > Execute the unit and integration tests of a Rust package.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-test.html>.
