@@ -32,4 +32,4 @@
 
 - Sort numbers with exponents:
 
-`sort -g {{filename}}`
+`sort --general-numeric-sort {{path/to/file}}`
