@@ -3,7 +3,7 @@
 > A collection of lints to catch common mistakes and improve your Rust code.
 > More information: <https://github.com/rust-lang/rust-clippy>.
 
-- Run checks over your code:
+- Run checks over the code in the current directory:
 
 `cargo clippy`
 
@@ -19,7 +19,7 @@
 
 `cargo clippy --package {{package}}`
 
-- Fail command when encountering warnings:
+- Treat warnings as errors:
 
 `RUSTFLAGS="-Dwarnings" cargo clippy -- -D warnings`
 
