@@ -11,17 +11,17 @@
 
 `emulator -avd {{name}}`
 
-- Display the web cameras on your development computer that are available for emulation:
+- Display the webcams on your development computer that are available for emulation:
 
 `emulator -avd {{name}} -webcam-list`
 
-- Start an emulator overriding the facing back camera setting (or -camera-front for front camera):
+- Start an emulator overriding the facing back camera setting (use `-camera-front` for front camera):
 
-`emulator -avd {{name} -camera-back {{none|emulated|webcamN}}`
+`emulator -avd {{name}} -camera-back {{none|emulated|webcamN}}`
 
 - Start an emulator, with a maximun network speed:
 
-`emulator -avd {{name} -netspeed {{gsm|hscsd|gprs|edge|hsdpa|lte|evdo|full}}`
+`emulator -avd {{name}} -netspeed {{gsm|hscsd|gprs|edge|hsdpa|lte|evdo|full}}`
 
 - Start an emulator with network latency:
 
