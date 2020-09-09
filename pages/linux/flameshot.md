@@ -18,7 +18,7 @@
 
 - Set the save path to write screenshots to:
 
-`flameshot full --path ~/Pictures`
+`flameshot full --path {{path/to/directory}}`
 
 - Delay the screenshot for N milliseconds and output to clipboard:
 
