@@ -19,10 +19,10 @@
 
 `dotnet publish --self-contained true --runtime {{runtime_identifier}} -p:PublishTrimmed=true {{path/to/project_file}}`
 
-- Compile a .NET project without restoring the dependencies:
+- Compile a .NET project without restoring dependencies:
 
 `dotnet publish --no-restore {{path/to/project_file}}`
 
-- Compile a .NET project specifying the output directory:
+- Specify the output directory:
 
 `dotnet publish --output {{path/to/directory}} {{path/to/project_file}}`
