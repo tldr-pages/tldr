@@ -11,11 +11,11 @@
 
 `delta --line-numbers {{path/to/old_file_or_directory}} {{path/to/new_file_or_directory}}`
 
-- Compare files or directories, showing the difference side by side:
+- Compare files or directories, showing the differences side by side:
 
 `delta --side-by-side {{path/to/old_file_or_directory}} {{path/to/new_file_or_directory}}`
 
-- Compare files or directories, ignoring any settings from git config:
+- Compare files or directories, ignoring any git configuration settings:
 
 `delta --no-gitconfig {{path/to/old_file_or_directory}} {{path/to/new_file_or_directory}}`
 
@@ -23,7 +23,7 @@
 
 `delta --hyperlinks {{path/to/old_file_or_directory}} {{path/to/new_file_or_directory}}`
 
-- Display the active values for all Delta options:
+- Display the current settings:
 
 `delta --show-config`
 
