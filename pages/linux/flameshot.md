@@ -8,7 +8,7 @@
 
 `flameshot launcher`
 
-- Click and drag screenshot:
+- Take a screenshot by clicking and dragging:
 
 `flameshot gui`
 
