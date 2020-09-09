@@ -7,17 +7,17 @@
 
 `git log`
 
-- Show only the first line of each commit message:
+- Show the history of a particular file or directory, including differences:
 
-`git log --oneline`
+`git log -p {{path/to/file_or_directory}}`
 
 - Show an overview of which file(s) changed in each commit:
 
 `git log --stat`
 
-- Show a graph of commits in the current branch:
+- Show a graph of commits in the current branch using only the first line of each commit message:
 
-`git log --graph`
+`git log --oneline --graph`
 
 - Show a graph of all commits, tags and branches in the entire repo:
 
@@ -27,9 +27,9 @@
 
 `git log -i --grep {{search_string}}`
 
-- Show only commits from a certain author:
+- Show the last N commits from a certain author:
 
-`git log --author={{author}}`
+`git log -n {{number}} --author={{author}}`
 
 - Show commits between two dates:
 
