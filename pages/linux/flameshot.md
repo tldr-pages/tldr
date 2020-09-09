@@ -16,7 +16,7 @@
 
 `flameshot full`
 
-- Set save path for flameshot:
+- Set the save path to write screenshots to:
 
 `flameshot full --path ~/Pictures`
 
