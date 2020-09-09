@@ -22,4 +22,4 @@
 
 - Delay the screenshot for N milliseconds and output to clipboard:
 
-`flameshot full --delay 2000 --clipboard`
+`flameshot full --delay {{2000}} --clipboard`
