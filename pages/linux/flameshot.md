@@ -12,7 +12,7 @@
 
 `flameshot gui`
 
-- Full screen screenshot:
+- Take a full screen screenshot:
 
 `flameshot full`
 
