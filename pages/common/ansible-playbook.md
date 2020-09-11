@@ -21,7 +21,7 @@
 
 - Run tasks in playbook for the given tags:
 
-`ansible-playbook {{playbook}} --tags {tags}}`
+`ansible-playbook {{playbook}} --tags {{tag1,tag2}}`
 
 - Run tasks in a playbook starting at a specific task:
 
