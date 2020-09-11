@@ -2,7 +2,7 @@
 
 > libguestfs tool to to make a virtual machine drive images thin-provisioned.
 > Use only for offline machines to avoid data corruption.
-> Home page: <https://libguestfs.org/>
+> Home page: <https://libguestfs.org/>.
 
 - Create sparsified comporessed image without snapshots from unsparsified:
 
