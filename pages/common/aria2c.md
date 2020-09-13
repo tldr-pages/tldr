@@ -6,7 +6,7 @@
 
 - Download a URI to a file:
 
-`aria2c {{url}}`
+`aria2c -o {{filename}} {{url}}`
 
 - Download from multiple sources:
 
