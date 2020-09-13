@@ -8,6 +8,6 @@
 
 `virt-sparsify --compress {{path/to/image.qcow2}} {{path/to/image_new.qcow2}}`
 
-- Sparsify image in place:
+- Sparsify an image in-place:
 
 `virt-sparsify --in-place {{/var/lib/libvirt/images/image.img}}`
