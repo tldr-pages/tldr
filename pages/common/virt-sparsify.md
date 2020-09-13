@@ -10,4 +10,4 @@
 
 - Sparsify an image in-place:
 
-`virt-sparsify --in-place {{/var/lib/libvirt/images/image.img}}`
+`virt-sparsify --in-place {{path/to/image.img}}`
