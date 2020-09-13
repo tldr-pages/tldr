@@ -1,8 +1,8 @@
 # virt-install
 
-> libvirt utility to create new virtual machine and run installation.
-> Home page: <https://virt-manager.org/>.
+> Create virtual machines with libvirt and begin OS installation.
+> More information: <https://virt-manager.org/>.
 
-- Create a virtual machine with 1G RAM and 12G storage and run Debian installation:
+- Create a virtual machine with 1 GiB RAM and 12 GiB storage and start Debian installation:
 
-`virt-install --memory {{1024}} --disk path={{~/image.qcow2}},size={{12}} --cdrom {{/path/to/file/debian.iso}}`
+`virt-install --memory {{1024}} --disk path={{path/to/image.qcow2}},size={{12}} --cdrom {{path/to/debian.iso}}`
