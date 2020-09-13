@@ -1,7 +1,7 @@
 # virt-sparsify
 
-> libguestfs tool to to make a virtual machine drive images thin-provisioned.
-> Use only for offline machines to avoid data corruption.
+> Make virtual machine drive images thin-provisioned.
+> NOTE: Use only for offline machines to avoid data corruption.
 > Home page: <https://libguestfs.org/>.
 
 - Create a sparsified compressed image without snapshots from an unsparsified one:
