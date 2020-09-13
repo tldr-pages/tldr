@@ -4,7 +4,7 @@
 > Use only for offline machines to avoid data corruption.
 > Home page: <https://libguestfs.org/>.
 
-- Create sparsified comporessed image without snapshots from unsparsified:
+- Create a sparsified compressed image without snapshots from an unsparsified one:
 
 `virt-sparsify --compress {{image.qcow2}} {{image_new.qcow2}}`
 
