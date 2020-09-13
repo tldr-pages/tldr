@@ -8,7 +8,7 @@
 
 `aria2c {{url}}`
 
-Download the contents of an URL to a file:
+- Download the contents of an URL to a file:
 
 `aria2c -o {{filename}} {{url}}`
 
