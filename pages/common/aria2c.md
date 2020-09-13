@@ -6,6 +6,10 @@
 
 - Download a URI to a file:
 
+`aria2c {{url}}`
+
+Download the contents of an URL to a file:
+
 `aria2c -o {{filename}} {{url}}`
 
 - Download from multiple sources:
