@@ -14,3 +14,7 @@
 - Get help for a git subcommand:
 
 `tldr {{git-checkout}}`
+
+- Update local pages (if the client supports caching):
+
+`tldr -u`
