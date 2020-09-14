@@ -14,3 +14,7 @@
 - Get help for a git subcommand:
 
 `tldr {{git-checkout}}`
+
+- Update the local tldr pages:
+
+`tldr --update`
