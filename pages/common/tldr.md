@@ -15,6 +15,6 @@
 
 `tldr {{git-checkout}}`
 
-- Update the local tldr pages:
+- Update local pages (if the client supports caching):
 
 `tldr --update`
