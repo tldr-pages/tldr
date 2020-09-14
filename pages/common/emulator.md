@@ -27,9 +27,9 @@
 
 `emulator -avd {{name}} -netdelay {{gsm|hscsd|gprs|edge|hsdpa|lte|evdo|none}}`
 
-- Start an emulator, making all TCP connections through a specified HTTP/HTTPS proxy:
+- Start an emulator, making all TCP connections through a specified HTTP/HTTPS proxy (port number is required):
 
-`emulator -avd {{name}} -http-proxy {{server}}:{{port}}`
+`emulator -avd {{name}} -http-proxy {{http://example.com:80}}`
 
 - Start an emulator with a given SD card partition image file:
 
