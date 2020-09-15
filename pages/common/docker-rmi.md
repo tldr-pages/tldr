@@ -7,14 +7,14 @@
 
 `docker rmi`
 
-- Remove one or more space-separated images:
+- Remove one or more images given their names:
 
-`docker rmi {{image(s)}}`
+`docker rmi {{image1 image2 ...}}`
 
 - Force remove an image:
 
 `docker rmi --force {{image}}`
 
-- Remove an image without delete untagged parents:
+- Remove an image without deleting untagged parents:
 
 `docker rmi --no-prune {{image}}`
