@@ -21,4 +21,3 @@
 - Convert a single plist file to a different format, writing to stdout:
 
 `plutil -convert {{xml1|binary1|json|swift|objc}} {{file.plist}} -o -`
-
