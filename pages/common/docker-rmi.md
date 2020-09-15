@@ -1,6 +1,6 @@
 # docker rmi
 
-> Run a command in a new Docker container.
+> Remove one or more Docker images.
 > More information: <https://docs.docker.com/engine/reference/commandline/rmi/>.
 
 - Show help:
