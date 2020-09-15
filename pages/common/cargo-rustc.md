@@ -1,9 +1,9 @@
 # cargo rustc
 
-> Compile a package, and pass extra options to the compiler.
+> Compile a Rust package, and pass extra options to the compiler.
 > More information: <https://doc.rust-lang.org/cargo/commands/cargo-rustc.html>.
 
-- Build the package or packages defined by the `Cargo.toml` manifest file in the local path:
+- Build the package or packages defined by the `Cargo.toml` manifest file in the current working directory:
 
 `cargo rustc`
 
@@ -19,7 +19,7 @@
 
 `cargo rustc -- -C opt-level {{1|2|3}}`
 
-- Compile with size optimization:
+- Compile with [s]ize optimization (`z` also turns off loop vectorization):
 
 `cargo rustc -- -C opt-level {{s|z}}`
 
