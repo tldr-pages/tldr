@@ -2,22 +2,22 @@
 
 > View, convert, validate, or edit property list ("plist") files.
 
-- Dump the contents of plist files in human-readable format:
+- Display the contents of one or more plist files in human-readable format:
 
-`plutil -p {{file1.plist}} {{file2.plist}}`
+`plutil -p {{path/to/file1.plist}} {{path/to/file2.plist}}`
 
-- Convert plist files to XML format, overwriting the original files in-place:
+- Convert one or more plist files to XML format, overwriting the original files in-place:
 
-`plutil -convert xml1 {{file1.plist}} {{file2.plist}}`
+`plutil -convert xml1 {{path/to/file1.plist}} {{path/to/file2.plist}}`
 
-- Convert plist files to binary format, overwriting the original files in-place:
+- Convert one or more plist files to binary format, overwriting the original files in-place:
 
-`plutil -convert binary1 {{file1.plist}} {{file2.plist}}`
+`plutil -convert binary1 {{path/to/file1.plist}} {{path/to/file2.plist}}`
 
-- Convert a single plist file to a different format, writing to a new file:
+- Convert a plist file to a different format, writing to a new file:
 
-`plutil -convert {{xml1|binary1|json|swift|objc}} {{file.plist}} -o {{new_file.plist}}`
+`plutil -convert {{xml1|binary1|json|swift|objc}} {{path/to/file.plist}} -o {{path/to/new_file.plist}}`
 
-- Convert a single plist file to a different format, writing to stdout:
+- Convert a plist file to a different format, writing to stdout:
 
-`plutil -convert {{xml1|binary1|json|swift|objc}} {{file.plist}} -o -`
+`plutil -convert {{xml1|binary1|json|swift|objc}} {{path/to/file.plist}} -o -`
