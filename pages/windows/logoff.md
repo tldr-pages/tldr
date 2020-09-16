@@ -1,7 +1,7 @@
 # logoff
 
 > Terminate a login session.
-> More information: <https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/logoff>.
+> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/logoff>.
 
 - Terminate the current session:
 
