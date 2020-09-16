@@ -7,11 +7,11 @@
 
 `docker inspect`
 
-- Display information for a container, image or volume using name or ID:
+- Display information about a container, image, or volume using a name or ID:
 
 `docker inspect {{container|image|ID}}`
 
-- Display a container IP address:
+- Display a container's IP address:
 
 `docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' {{container}}`
 
@@ -23,7 +23,7 @@
 
 `docker inspect --format='{{.Config.Image}}' {{container}}`
 
-- Display configuration information in JSON format:
+- Display the configuration information as JSON:
 
 `docker inspect --format='{{json .Config}}' {{container}}`
 
