@@ -4,15 +4,15 @@
 
 - Display the contents of one or more plist files in human-readable format:
 
-`plutil -p {{path/to/file1.plist}} {{path/to/file2.plist}}`
+`plutil -p {{file1.plist file2.plist ...}}`
 
 - Convert one or more plist files to XML format, overwriting the original files in-place:
 
-`plutil -convert xml1 {{path/to/file1.plist}} {{path/to/file2.plist}}`
+`plutil -convert xml1 {{file1.plist file2.plist ...}}`
 
 - Convert one or more plist files to binary format, overwriting the original files in-place:
 
-`plutil -convert binary1 {{path/to/file1.plist}} {{path/to/file2.plist}}`
+`plutil -convert binary1 {{file1.plist file2.plist ...}}`
 
 - Convert a plist file to a different format, writing to a new file:
 
