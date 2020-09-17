@@ -3,7 +3,7 @@
 > Package manager for macOS.
 > More information: <https://brew.sh>.
 
-- Search for available formulas and casks:
+- Search for available formulae and casks:
 
 `brew search {{text}}`
 
