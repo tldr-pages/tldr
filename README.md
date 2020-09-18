@@ -170,7 +170,7 @@ Have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!
 
 - [devhints](https://devhints.io/)
   Rico's cheatsheets are not just focused on the command line and
-  includes a plethora of other cheatsheets related to programming. 
+  include a plethora of other cheatsheets related to programming. 
 
 ## What does "tldr" mean?
 
