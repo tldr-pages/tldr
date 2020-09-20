@@ -1,15 +1,15 @@
 # mono
 
-> Mono, the open source development platform based on the .NET Framework.
+> Runtime for the .NET Framework.
 > More information: <https://www.mono-project.com/docs/>.
 
 - Compile:
 
 `csc {{source_file}}.cs`
 
-- Run:
+- Run a .NET assembly in debug mode:
 
-`mono {{source_file}}.exe`
+`mono --debug {{path/to/source_file}}.exe`
 
 - Compile using a specific library:
 
