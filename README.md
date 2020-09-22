@@ -168,6 +168,10 @@ Have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!
   Examples come from the repository, but `eg` supports displaying
   custom examples and commands alongside the defaults.
 
+- [devhints](https://devhints.io/)
+  Rico's cheatsheets are not just focused on the command line and
+  include a plethora of other cheatsheets related to programming. 
+
 ## What does "tldr" mean?
 
 TL;DR stands for "Too Long; Didn't Read".
