@@ -3,7 +3,7 @@
 > Builds a .NET application and its dependencies.
 > More information: <https://docs.microsoft.com/dotnet/core/tools/dotnet-build>.
 
-- Compile the project or solution in the local path:
+- Compile the project or solution in the current directory:
 
 `dotnet build`
 
