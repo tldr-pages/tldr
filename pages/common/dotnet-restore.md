@@ -3,11 +3,11 @@
 > Restores the dependencies and tools of a .NET project.
 > More information: <https://docs.microsoft.com/dotnet/core/tools/dotnet-restore>.
 
-- Restore dependencies for a .NET project or solution in the local path:
+- Restore dependencies for a .NET project or solution in the current directory:
 
 `dotnet restore`
 
-- Restore dependencies for a .NET project or solution:
+- Restore dependencies for a .NET project or solution in a specific location:
 
 `dotnet restore {{path/to/project_or_solution}}`
 
