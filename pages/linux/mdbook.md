@@ -5,9 +5,9 @@
 
 - Init mdbook files in  dir, default current dir:
 
-`mdbook init {{dir}}`
+`mdbook init {{path/to/directory}}`
 
-- Clean build dir:
+- Clean the directory with the generated book:
 
 `mdbook clean`
 
@@ -15,6 +15,6 @@
 
 `mdbook serve`
 
-- Watch markdown  files, auto build when file changes:
+- Watch a set of markdown files and automatically build when a file is changed:
 
 `mdbook watch`
