@@ -3,11 +3,11 @@
 > Create online books by writing makrdown files.
 > More information: <https://rust-lang.github.io/mdBook/>.
 
-- Create a mdbook project in `{{path/to/directory}}`:
+- Create a mdbook project in a specific directory:
 
 `mdbook init {{path/to/directory}}`
 
-- Init mdbook files in current dir:
+- Create a mdbook project in the current directory:
 
 `mdbook init`
 
