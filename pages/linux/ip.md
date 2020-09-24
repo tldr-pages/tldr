@@ -6,6 +6,14 @@
 
 `ip a`
 
+- List interfaces with brief network layer info:
+
+`ip -brief address`
+
+- List interfaces with brief link layer info:
+
+`ip -brief link`
+
 - Display the routing table:
 
 `ip r`
