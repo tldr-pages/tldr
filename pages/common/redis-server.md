@@ -1,7 +1,7 @@
 # redis-server
 
 > Persistent key-value database.
-> More information: <https://redis.io/>.
+> More information: <https://redis.io>.
 
 - Start redis daemon, in the foreground, with the default port (6379):
 
