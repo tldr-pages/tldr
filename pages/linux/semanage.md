@@ -1,0 +1,25 @@
+# semanage
+
+> SELinux Policy Management tool.
+> More information: <https://linux.die.net/man/8/semanage>.
+
+- Output local customizations:
+
+`semanage -S {{store}} -o {{output_file}}`
+
+- Input local customizations:
+
+`semanage -S {{store}} -i {{input_file}}`
+
+- Manage booleans. Booleans allow the administrator to modify the confinement of processes based on his configuration:
+
+`semanage boolean -S {{store}} --delete|--modify|--list|--noheading|--deleteall -on|-off -F {{boolean|boolean_file}}`
+
+- Manage policy modules:
+
+`semanage module -S {{store}} --add|--delete|--list|--modify --enable|--disable {{module_name}}`
+
+- Disable/Enable dontaudit rules in policy:
+
+`semanage dontaudit -S {{store}} {{on|off }}`
+
