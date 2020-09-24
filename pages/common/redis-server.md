@@ -3,14 +3,22 @@
 > Persistent key-value database.
 > More information: <https://redis.io>.
 
-- Start redis daemon, in the foreground, with the default port (6379):
+- Start Redis server, using the default port (6379), and write logs to `stdout`:
 
 `redis-server`
 
-- Start redis daemon, as a daemon (background process), with the default port:
+- Start Redis server, using the default port, as a background process:
 
 `redis-server --daemonize yes`
 
-- Start redis daemon, as a daemon, on a non-default port:
+- Start Redis server, using the specified port, as a background process:
 
 `redis-server --port {{port}} --daemonize yes`
+
+- Start Redis server with a custom configuration file:
+
+`redis-server {{path/to/redis.conf}}`
+
+- Start Redis server with verbose logging:
+
+`redis-server --loglevel verbose`
