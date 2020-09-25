@@ -26,3 +26,7 @@
 - Connect to machine via SSH:
 
 `vagrant ssh`
+
+- Output the SSH configuration file of the running Vagrant machine:
+
+`vagrant ssh-config`
