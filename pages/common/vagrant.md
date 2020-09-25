@@ -27,6 +27,6 @@
 
 `vagrant ssh`
 
-- Output the SSH configuration file of the running Vagrant machine 
+- Output the SSH configuration file of the running Vagrant machine:
 
 `vagrant ssh-config`
