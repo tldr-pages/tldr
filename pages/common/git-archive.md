@@ -23,6 +23,6 @@
 
 `git archive --output={{target.tar}} HEAD:{{path/to/directory}}`
 
-- Same as above, but change the prefix of all files in the archive:
+- Prepend a path to each file to archive it inside a specific directory:
 
-`git archive --output={{target.tar}} --prefix={{prefix}} HEAD:{{directory}}`
+`git archive --output={{target.tar}} --prefix={{path/to/directory}}/ HEAD`
