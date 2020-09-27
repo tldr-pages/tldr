@@ -30,4 +30,3 @@
 - Unbundle a specific branch from a bundle file into the current repository:
 
 `git pull {{path/to/file.bundle}} {{branch_name}}`
-
