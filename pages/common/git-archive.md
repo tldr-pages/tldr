@@ -15,13 +15,13 @@
 
 `git archive --verbose --output={{target.zip}} HEAD`
 
-- Create a tar archive from the contents of the latest commit on the current branch:
+- Create a tar archive from the contents of the latest commit on a specific branch:
 
-`git archive --verbose --output={{target.tar}} HEAD`
+`git archive --output={{target.tar}} {{branch_name}}`
 
 - Create a tar archive from the contents of a specific directory:
 
-`git archive --output={{target.tar}} HEAD:{{directory}}`
+`git archive --output={{target.tar}} HEAD:{{path/to/directory}}`
 
 - Same as above, but change the prefix of all files in the archive:
 
