@@ -1,5 +1,4 @@
-
-# 火焰弹
+# flameshot
 
 带有gui界面的Screenshot工具，支持基本的图像编辑，例如文本，形状，颜色和imgur。更多信息 https://flameshot.js.org
 
