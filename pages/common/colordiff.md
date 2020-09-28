@@ -1,6 +1,6 @@
 # colordiff
 
-> A tool to colorize diff diff output.
+> A tool to colorize diff output.
 > The Perl script colordiff is a wrapper for `diff` and produces the same output but with pretty syntax highlighting. Colour schemes can be customized.
 > More information: <https://github.com/kimmel/colordiff>.
 
