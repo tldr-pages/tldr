@@ -14,14 +14,3 @@
 - Sovrascrivi un file forzatamente se già presente nel percorso di destinazione:
 
 `git mv --force {{percorso/al/file}} {{nuovo/percorso/al/file}}`
-
-
-
-
-- Inizializza un nuovo repository locale:
-
-`git init`
-
-- Inizializza un repository di soli dati, adatto per essere usato come server remoto accessibile via ssh:
-
-`git init --bare`
