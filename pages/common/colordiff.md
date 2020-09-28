@@ -20,6 +20,6 @@
 
 `colordiff -s {{file1}} {{file2}}`
 
-- Ignoring white spaces:
+- Ignore white spaces:
 
 `colordiff -w {{file1}} {{file2}}`
