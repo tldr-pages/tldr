@@ -8,18 +8,18 @@
 
 `colordiff {{file1}} {{file2}}`
 
-- Compare files, output in two columns:
+- Output in two columns:
 
 `colordiff -y {{file1}} {{file2}}`
 
-- Compare files, Ignore case differences in file contents:
+- Ignore case differences in file contents:
 
 `colordiff -i {{file1}} {{file2}}`
 
-- Compare files,  Report when two files are the same:
+- Report when two files are the same:
 
 `colordiff -s {{file1}} {{file2}}`
 
-- Compare files, ignoring white spaces:
+- ignoring white spaces:
 
 `colordiff -w {{file1}} {{file2}}`
