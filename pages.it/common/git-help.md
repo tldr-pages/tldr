@@ -5,11 +5,11 @@
 
 - Mostra aiuto per uno specifico sottocomando git:
 
-`git help {{subcommand}}`
+`git help {{sottocomando}}`
 
 - Visualizza aiuto per un sottocomando git in un browser web:
 
-`git help --web {{subcommand}}`
+`git help --web {{sottocomando}}`
 
 - Mostra un elenco dei sottocomandi git disponibili:
 
