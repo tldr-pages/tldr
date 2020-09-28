@@ -6,20 +6,20 @@
 
 - Compare files:
 
-`colordiff {{file-1}} {{file-2}}`
+`colordiff {{file1}} {{file2}}`
 
 - Compare files, output in two columns:
 
-`colordiff -y {{file-1}} {{file-2}}`
+`colordiff -y {{file1}} {{file2}}`
 
 - Compare files, Ignore case differences in file contents:
 
-`colordiff -i {{file-1}} {{file-2}}`
+`colordiff -i {{file1}} {{file2}}`
 
 - Compare files,  Report when two files are the same:
 
-`colordiff -s {{file-1}} {{file-2}}`
+`colordiff -s {{file1}} {{file2}}`
 
 - Compare files, ignoring white spaces:
 
-`colordiff -w {{old_file}} {{new_file}}`
+`colordiff -w {{file1}} {{file2}}`
