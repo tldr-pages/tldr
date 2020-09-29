@@ -18,6 +18,6 @@ flameshot launcher
 
 `flameshot full --path {{path/to/directory}}`
 
-将屏幕截图延迟N毫秒，然后输出到剪贴板:
+- 将屏幕截图延迟N毫秒，然后输出到剪贴板:
 
 `flameshot full --delay {{2000}} --clipboard`
