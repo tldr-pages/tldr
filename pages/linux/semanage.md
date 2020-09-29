@@ -21,4 +21,4 @@
 
 - Disable/Enable dontaudit rules in policy:
 
-`semanage dontaudit -S {{store}} {{on|off }}`
+`semanage dontaudit -S {{store}} {{on|off}}`
