@@ -6,7 +6,7 @@
 
 flameshot launcher
 
-通过单击并拖动来截取屏幕截图:
+- 通过单击并拖动来截取屏幕截图:
 
 - flameshot gui
 
