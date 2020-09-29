@@ -11,7 +11,7 @@
 
 `semanage -S {{store}} -i {{path/to/input_file}}`
 
-- Manage booleans. Booleans allow the administrator to modify the confinement of processes based on his configuration:
+- Manage booleans. Booleans allow the administrator to modify the confinement of processes based on the current configuration:
 
 `semanage boolean -S {{store}} --delete|--modify|--list|--noheading|--deleteall -on|-off -F {{boolean|boolean_file}}`
 
