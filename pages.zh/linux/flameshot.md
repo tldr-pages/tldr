@@ -14,7 +14,7 @@ flameshot launcher
 
 - flameshot full
 
-将保存屏幕快照的路径设置为:
+- 将保存屏幕快照的路径设置为:
 
 `flameshot full --path {{path/to/directory}}`
 
