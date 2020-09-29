@@ -5,7 +5,7 @@
 
 - Output local customizations:
 
-`semanage -S {{store}} -o {{output_file}}`
+`semanage -S {{store}} -o {{path/to/output_file}}`
 
 - Input local customizations:
 
