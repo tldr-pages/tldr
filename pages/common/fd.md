@@ -4,7 +4,7 @@
 > Aims to be faster and easier to use than `find`.
 > More information: <https://github.com/sharkdp/fd>.
 
-- Find files matching the given pattern in the current directory:
+- Recursively find files matching the given pattern in the current directory:
 
 `fd {{pattern}}`
 
