@@ -20,4 +20,4 @@ flameshot launcher
 
 将屏幕截图延迟N毫秒，然后输出到剪贴板:
 
-- flameshot full --delay {{2000}} --clipboard
+`flameshot full --delay {{2000}} --clipboard`
