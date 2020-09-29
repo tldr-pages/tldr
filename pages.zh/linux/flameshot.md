@@ -4,7 +4,7 @@
 
 - 在GUI模式下启动Flameshot:
 
-flameshot launcher
+`flameshot launcher`
 
 - 通过单击并拖动来截取屏幕截图:
 
