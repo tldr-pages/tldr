@@ -4,7 +4,7 @@
 > Aims to be faster and easier to use than `find`.
 > More information: <https://github.com/sharkdp/fd>.
 
-- Find files matching the given pattern in the current directory:
+- Recursively find files matching the given pattern in the current directory:
 
 `fd {{pattern}}`
 
@@ -23,3 +23,7 @@
 - Include ignored and hidden files in the search:
 
 `fd --hidden --no-ignore {{pattern}}`
+
+- Find files only in the current directory ( non-recursively ) 
+
+` fd --max-depth 1 {{pattern}}
