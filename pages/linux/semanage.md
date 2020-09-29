@@ -17,7 +17,7 @@
 
 - Manage policy modules:
 
-`semanage module -S {{store}} --add|--delete|--list|--modify --enable|--disable {{module_name}}`
+`semanage module -S {{store}} {{--add|--delete|--list|--modify}} {{--enable|--disable}} {{module_name}}`
 
 - Disable/Enable dontaudit rules in policy:
 
