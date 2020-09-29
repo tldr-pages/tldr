@@ -1,6 +1,6 @@
 # git bundle
 
-> Package objects and references in an archive.
+> Package objects and references into an archive.
 > More information: <https://git-scm.com/docs/git-bundle>.
 
 - Create a bundle file that contains all objects and references of a specific branch:
