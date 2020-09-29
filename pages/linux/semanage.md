@@ -7,7 +7,7 @@
 
 `semanage -S {{store}} -o {{path/to/output_file}}`
 
-- Input local customizations:
+- Take a set of commands from a specified file and load them in a single transaction:
 
 `semanage -S {{store}} -i {{path/to/input_file}}`
 
