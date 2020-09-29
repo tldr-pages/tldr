@@ -9,7 +9,7 @@
 
 - Input local customizations:
 
-`semanage -S {{store}} -i {{input_file}}`
+`semanage -S {{store}} -i {{path/to/input_file}}`
 
 - Manage booleans. Booleans allow the administrator to modify the confinement of processes based on his configuration:
 
