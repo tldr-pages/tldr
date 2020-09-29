@@ -16,7 +16,7 @@ flameshot launcher
 
 将保存屏幕快照的路径设置为:
 
-- flameshot full --path {{path/to/directory}}
+`flameshot full --path {{path/to/directory}}`
 
 将屏幕截图延迟N毫秒，然后输出到剪贴板:
 
