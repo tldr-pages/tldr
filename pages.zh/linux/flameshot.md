@@ -10,7 +10,7 @@ flameshot launcher
 
 `flameshot gui`
 
-全屏截图:
+- 全屏截图:
 
 - flameshot full
 
