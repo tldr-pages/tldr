@@ -4,7 +4,7 @@
 
 - Create a black window with display ID ":2":
 
-`Xephyr -br -ac -noreset -screen 800x600 :2`
+`Xephyr -br -ac -noreset -screen {{800x600}} {{:2}}`
 
 - Start BSPWM on the new screen:
 
