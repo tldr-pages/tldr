@@ -8,4 +8,4 @@
 
 - Start BSPWM on the new screen:
 
-`DISPLAY=:2 bspwm`
+`DISPLAY=:2 {{command_name}}`
