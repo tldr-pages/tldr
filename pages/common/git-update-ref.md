@@ -5,7 +5,7 @@
 
 - Delete a ref, useful for soft resetting the first commit:
 
-`git update-ref -d HEAD`
+`git update-ref -d {{HEAD}}`
 
 - Update ref with a message:
 
