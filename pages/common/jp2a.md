@@ -25,4 +25,4 @@
 
 - Write the ASCII output in HTML file format, suitable for viewing in web browsers:
 
-`jp2a --html --output={{file.html}} {{path/to/image.jpeg}}`
+`jp2a --html --output={{path/to/output_file.html}} {{path/to/image.jpeg}}`
