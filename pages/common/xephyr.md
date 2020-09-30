@@ -6,6 +6,6 @@
 
 `Xephyr -br -ac -noreset -screen {{800x600}} {{:2}}`
 
-- Start BSPWM on the new screen:
+- Start an X application on the new screen:
 
 `DISPLAY=:2 {{command_name}}`
