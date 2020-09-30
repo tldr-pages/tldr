@@ -4,7 +4,7 @@
 
 - List interfaces with detailed info:
 
-`ip a`
+`ip address`
 
 - List interfaces with brief network layer info:
 
@@ -16,11 +16,11 @@
 
 - Display the routing table:
 
-`ip r`
+`ip route`
 
 - Show neighbors (ARP table):
 
-`ip n`
+`ip neighbour`
 
 - Make an interface up/down:
 
