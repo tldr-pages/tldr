@@ -21,7 +21,7 @@
 
 - Write the ASCII output into a file:
 
-`jp2a --output={{file.txt}} {{path/to/image.jpeg}}`
+`jp2a --output={{path/to/output_file.txt}} {{path/to/image.jpeg}}`
 
 - Write the ASCII output in HTML file format, suitable for viewing in web browsers:
 
