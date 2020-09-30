@@ -9,4 +9,4 @@
 
 - Update ref with a message:
 
-`git update-ref -m "some message" HEAD 4e95e05`
+`git update-ref -m {{"some message"}} {{HEAD}} {{4e95e05}}`
