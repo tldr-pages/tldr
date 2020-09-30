@@ -1,0 +1,16 @@
+# openvpn
+
+> OpenVPN client and daemon binary.
+> More information: <https://openvpn.net/>.
+
+- Connect to server with config file:
+
+`sudo openvpn {{client.conf}}`
+
+- Try to set up an insecure peer-to-peer tunnel on bob.example.com host:
+
+`sudo openvpn --remote {{alice.example.com}} --dev tun1 --ifconfig {{10.4.0.1}} {{10.4.0.2}}`
+
+- Connect to the awaiting bob.example.com host:
+
+`sudo openvpn --remote {{bob.example.com}} --dev tun1 --ifconfig {{10.4.0.2}} {{10.4.0.1}}`
