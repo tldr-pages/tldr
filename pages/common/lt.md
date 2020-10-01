@@ -6,15 +6,15 @@
 
 - Start tunnel in a specific port:
 
-`lt -p 8000`
+`lt --port 8000`
 
 - Upstream server providing forwarding:
 
-`lt --port 8000 -h {{host}}`
+`lt --port 8000 --host {{host}}`
 
 - Request this subdomain:
 
-`lt --port 8000 -s {{subdomain}}`
+`lt --port 8000 --subdomain {{subdomain}}`
 
 - Print basic request info:
 
@@ -22,4 +22,4 @@
 
 - Open the tunnel URL in your browser:
 
-`lt --port 8000 -o`
+`lt --port 8000 --open`
