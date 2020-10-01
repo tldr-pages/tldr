@@ -22,6 +22,10 @@
 
 `sed '/{{line_pattern}}/d' {{filename}}`
 
+- Print the first 11 lines of a file
+
+`sed 11q {{filename}}`
+
 - Print only text between n-th line till the next empty line:
 
 `sed -n '{{n}},/^$/p' {{filename}}`
