@@ -7,7 +7,7 @@
 
 `git merge {{ramo_da_unire}}`
 
-- Avvia un'unione cambiando il messaggio predefinito:
+- Avvia un'unione e cambia il messaggio predefinito:
 
 `git merge --edit {{ramo_da_unire}}`
 
