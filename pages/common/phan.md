@@ -17,7 +17,7 @@
 
 - Analyse one or more directories:
 
-`phan --directory {{path/to/directory}}`
+`phan --directory {{path/to/directory}} --directory {{path/to/another_directory}}`
 
 - Specify a config file (defaults to `.phan/config.php`):
 
