@@ -4,6 +4,20 @@
 > Some features only activate when Nmap is run with privileges.
 > More information: <https://nmap.org>.
 
+# nmap
+> network scanning tool
+> More information: <https://nmap.org/>.
+
+- If Nmap throws a root privileges error use it with `sudo` or `admin rights cmd`
+
+- To check if the IP address `192.168.1.101` is up, with it’s operating system info. It may show RTTVAR logs (for TCP) for a long time:
+
+`nmap -O 192.168.1.101`
+
+- To scan the Network for devices (including routers) and get info on their operating system:
+
+`sudo nmap -sS -O 192.168.1.0/24`
+
 - Try to determine whether the specified hosts are up and what are their names:
 
 `nmap -sn {{ip_or_hostname}} {{optional_another_address}}`
