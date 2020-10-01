@@ -1,4 +1,4 @@
-# WMIC
+# wmic
 
 > Interactive shell for detailed information about running processes.
 > More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/wmic>.
