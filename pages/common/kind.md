@@ -1,0 +1,21 @@
+# kind
+
+> Kind is a tool for running local Kubernetes clusters using Docker container "nodes".
+> Kind was primarily designed for testing Kubernetes itself, but may be used for local development or CI.
+> More information: <https://github.com/kubernetes-sigs/kind>.
+
+- Create a local Kubernetes cluster:
+
+`kind create cluster --name {{cluster-name}}`
+
+- Delete one or more clusters:
+
+`kind delete clusters {{cluster-name}}`
+
+- Gets one of [clusters, nodes, kubeconfig]:
+
+`kind get clusters`
+
+- Export one of [kubeconfig, logs]:
+
+`kind export logs`
