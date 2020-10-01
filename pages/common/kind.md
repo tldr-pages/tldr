@@ -12,7 +12,7 @@
 
 `kind delete clusters {{cluster-name}}`
 
-- Gets one of [clusters, nodes, kubeconfig]:
+- Get one of [clusters, nodes, kubeconfig]:
 
 `kind get clusters`
 
