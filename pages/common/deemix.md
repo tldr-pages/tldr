@@ -10,12 +10,12 @@
 
 - Download track / playlist at a specific bitrate:
 
-`deemix -b {{FLAC / MP3}} {{url}}`
+`deemix --bitrate {{FLAC / MP3}} {{url}}`
 
 - Download to a specific path:
 
-`deemix -b {{bitrate}} -p {{path}} {{url}}`
+`deemix -bitrate {{bitrate}} --path {{path}} {{url}}`
 
 - Create a portable deemix config (will be created in the present working directory):
 
-`deemix --portable -b {{bitrate}} -p {{path}} {{url}}`
+`deemix --portable -bitrate {{bitrate}} --path {{path}} {{url}}`
