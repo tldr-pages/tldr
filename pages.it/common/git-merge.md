@@ -1,4 +1,4 @@
-# git-merge
+# git merge
 
 > Esegui un'unione (merge) tra due rami git.
 > Maggiori informazioni: <https://github.com/mhagger/git-merge>.
