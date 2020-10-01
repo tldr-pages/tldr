@@ -21,4 +21,4 @@
 
 - Add new event to personal calendar:
 
-`khal new -a {{personal}} {{2020-09-08}} {{18:00}} {{18:30}} {{Dentist appointment}}`
+`khal new -a {{personal}} {{2020-09-08}} {{18:00}} {{18:30}} "{{Dentist appointment}}"`
