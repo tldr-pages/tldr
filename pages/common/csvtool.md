@@ -1,24 +1,24 @@
 # csvtool
 
 > Utility to filter and extract data from CSV formatted sources.
-> More information: <https://github.com/maroofi/csvtool/>.
+> More information: <https://github.com/maroofi/csvtool>.
 
-- Extract 2nd column from example.csv:
+- Extract the second column from a CSV file:
 
-`csvtool -c 2 test.csv`
+`csvtool --column 2 {{path/to/file.csv}}`
 
-- Extract 2nd and 4th column from example.csv:
+- Extract the second and fourth columns from a CSV file:
 
-`csvtool -c 2,4 test.csv`
+`csvtool --column 2,4 {{path/to/file.csv}}`
 
-- Extract lines where 2nd column exactly matches 'Foo':
+- Extract lines from a CSV file where the second column exactly matches 'Foo':
 
-`csvtool -c 2 -s '^Foo$' test.csv`
+`csvtool --column 2 --search '^Foo$' {{path/to/file.csv}}`
 
-- Extract lines where 2nd column starts with 'Bar':
+- Extract lines from a CSV file where the second column starts with 'Bar':
 
-`csvtool -c 2 -s '^Bar' test.csv`
+`csvtool --column 2 --search '^Bar' {{path/to/file.csv}}`
 
-- Find lines where 2nd column ends with 'Baz' and extract the 3rd and 6th columns:
+- Find lines in a CSV file where the second column ends with 'Baz' and then extract the third and sixth columns:
 
-`csvtool -c 2 -s 'Baz$' test.csv | csvtool --no-header -c 3,6`
+`csvtool --column 2 --search 'Baz$' {{path/to/file.csv}} | csvtool --no-header --column 3,6`
