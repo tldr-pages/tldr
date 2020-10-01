@@ -1,6 +1,6 @@
 # csvtool
 
-> Utility to filter and extract data from CSV formatted sources
+> Utility to filter and extract data from CSV formatted sources.
 > More information: <https://github.com/maroofi/csvtool/>.
 
 - Extract 2nd column from example.csv:
