@@ -7,6 +7,10 @@
 
 `laravel-zero new {{name}}`
 
+- Update the installer to the latest version:
+
+`laravel-zero self-update`
+
 - List the available installer commands:
 
 `laravel-zero list`
