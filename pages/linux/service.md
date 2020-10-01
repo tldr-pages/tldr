@@ -18,3 +18,7 @@
 - List the status of all services:
 
 `service --status-all`
+
+- Restart network-manager service
+
+`service network-manager restart`
