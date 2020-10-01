@@ -1,7 +1,7 @@
 # dfc
 
 > Gives an overview of the file system disk space usage with colours and graphs.
-> See also `df`.
+> More information: <https://projects.gw-computing.net/projects/dfc/wiki>.
 
 - Display file systems and their disk usage in human readable form with colours and graphs:
 
