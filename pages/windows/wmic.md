@@ -5,28 +5,28 @@
 
 - Fundamental grammar:
 
-`wmic [alias] [where claus] [verb clause]`
+`wmic {{alias}} {{where_claus}} {{verb_clause}}`
 
-- Brief details about running processes:
+- Show brief details about the currently running processes:
 
 `wmic process list brief`
 
-- Full details about running processes:
+- Show full details about the currently running processes:
 
 `wmic process list full`
 
 - Access specific fields such as process name, process ID and parent process ID:
 
-`wmic process get name,processid,parentprocessid`
+`wmic process get {{name,processid,parentprocessid}}`
 
-- Focus on a specific process:
+- Display information about a specific process:
 
-`wmic process where name="example.exe" list full`
+`wmic process where {{name="example.exe"}} list full`
 
-- Access specific fields for a a specific process:
+- Display specific fields for a specific process:
 
-`wmic process where processid=pid get name,commandline`
+`wmic process where processid={{pid}} get {{name,commandline}}`
 
 - Kill a process:
 
-`wmic process PID delete`
+`wmic process {{pid}} delete`
