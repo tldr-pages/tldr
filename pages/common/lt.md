@@ -1,6 +1,6 @@
 # lt
 
-> localtunnel exposes your localhost to the world for easy testing and sharing! No need to mess with DNS or deploy just to have others test out your changes.
+> Localtunnel exposes your localhost to the world for easy testing and sharing! No need to mess with DNS or deploy just to have others test out your changes.
 > Great for working with browser testing tools like browserling or external api callback services like twilio which require a public url for callbacks.
 > More information: <https://github.com/localtunnel/localtunnel>.
 
@@ -20,6 +20,6 @@
 
 `lt --port 8000 --print-requests`
 
-- Opens the tunnel URL in your browser:
+- Open the tunnel URL in your browser:
 
 `lt --port 8000 -o`
