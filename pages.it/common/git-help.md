@@ -1,4 +1,4 @@
-# git-help
+# git help
 
 > Mostra informazioni di aiuto su git.
 > Maggiori informazioni: <https://git-scm.com/docs/git-help>.
