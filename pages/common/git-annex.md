@@ -26,4 +26,4 @@
 
 - Get file:
 
-`git annex get {{path}}`
+`git annex get {{path/to/file_or_directory}}`
