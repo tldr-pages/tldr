@@ -20,7 +20,7 @@
 
 `git annex status {{path/to/file_or_directory}}`
 
-- Synchronize local repository with remote:
+- Synchronize a local repository with a remote:
 
 `git annex {{remote}}`
 
