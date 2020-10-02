@@ -7,6 +7,10 @@
 
 `drupal-check {{path/to/directory}}`
 
+- Exclude a directory:
+
+`drupal-check --exclude-dir {{path/to/directory/to/exclude}} {{path/to/directory}}`
+
 - Don't show progress bar:
 
 `drupal-check --no-progress {{path/to/directory}}`
