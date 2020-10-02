@@ -1,7 +1,7 @@
 # clamav
 
-> Clam AntiVirus is an open source anti-virus.
-> Designed especially for e-mail scanning on mail gateways.
+> Open-source anti-virus program.
+> Designed especially for e-mail scanning on mail gateways, but can be used in other contexts.
 > More information: <https://www.clamav.net>.
 
 - Update virus definitions:
