@@ -16,7 +16,7 @@
 
 `git annex add {{path/to/file_or_directory}}`
 
-- Show status of files:
+- Show the current status of a file or directory:
 
 `git annex status {{path/to/file_or_directory}}`
 
