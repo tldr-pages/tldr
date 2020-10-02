@@ -5,7 +5,7 @@
 
 - Fundamental grammar:
 
-`wmic {{alias}} {{where_claus}} {{verb_clause}}`
+`wmic {{alias}} {{where_clause}} {{verb_clause}}`
 
 - Show brief details about the currently running processes:
 
