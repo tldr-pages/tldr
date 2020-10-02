@@ -10,7 +10,7 @@
 
 - Scan a file for viruses:
 
-`clamscan {{file}}`
+`clamscan {{path/to/file}}`
 
 - Scan directories recursively and print out infected files:
 
