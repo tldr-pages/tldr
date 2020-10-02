@@ -7,9 +7,9 @@
 
 `drupal-check {{path/to/directory}}`
 
-- Exclude a directory:
+- Check the code excluding a comma-separated list of directories:
 
-`drupal-check --exclude-dir {{path/to/directory/to/exclude}} {{path/to/directory}}`
+`drupal-check --exclude-dir {{path/to/excluded_directory}},{{path/to/excluded_files/*.php}} {{path/to/directory}}`
 
 - Don't show progress bar:
 
