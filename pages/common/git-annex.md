@@ -13,16 +13,16 @@
 
 - Add file:
 
-`git annex add [path]`
+`git annex add {{path}}`
 
 - Show status of files:
 
-`git annex status [path]`
+`git annex status {{path}}`
 
 - Synchronize local repository with remote:
 
-`git annex [remote]`
+`git annex {{remote}}`
 
 - Get file:
 
-`git annex get [path]`
+`git annex get {{path}}`
