@@ -3,7 +3,7 @@
 > Simple command line tool to generate regular expressions.
 > More information: <https://github.com/pemistahl/grex>.
 
-- Simple regex generation:
+- Generate a simple regular expression:
 
 ` grex {{space_separated_strings}}`
 
