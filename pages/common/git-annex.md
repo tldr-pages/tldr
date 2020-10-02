@@ -24,6 +24,6 @@
 
 `git annex {{remote}}`
 
-- Get file:
+- Get a file or directory:
 
 `git annex get {{path/to/file_or_directory}}`
