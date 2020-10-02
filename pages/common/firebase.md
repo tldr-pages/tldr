@@ -17,7 +17,7 @@
 
 - Setup a firebase in the current directory:
 
-`firebase init [options] [feature]`
+`firebase init {{options}} {{feature}}`
 
 - Deploy code and assets to your project:
 
