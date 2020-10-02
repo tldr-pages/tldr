@@ -19,6 +19,6 @@
 
 `firebase init {{options}} {{feature}}`
 
-- Deploy code and assets to your project:
+- Deploy code and assets to the project in the current directory:
 
 `firebase deploy`
