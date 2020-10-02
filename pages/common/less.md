@@ -18,10 +18,6 @@
 
 `/{{something}}`
 
-- Backward search for a string (press `n`/`N` to go to next/previous match):
-
-`?{{something}}`
-
 - Follow the output of the currently opened file:
 
 `F`
@@ -33,3 +29,7 @@
 - Exit:
 
 `q`
+
+- Read pdf files with less
+
+`lesspipe {{filename}}.pdf | less`
