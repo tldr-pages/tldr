@@ -18,7 +18,7 @@
 
 - Show status of files:
 
-`git annex status {{path}}`
+`git annex status {{path/to/file_or_directory}}`
 
 - Synchronize local repository with remote:
 
