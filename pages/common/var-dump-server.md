@@ -10,7 +10,7 @@
 
 - Dump the data in an HTML file:
 
-`var-dump-server --format=html > {{file.html}}`
+`var-dump-server --format=html > {{path/to/file.html}}`
 
 - Make the server listen on a specific address and port:
 
