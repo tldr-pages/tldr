@@ -14,7 +14,7 @@
 
 - Scan directories recursively and print out infected files:
 
-`clamscan --recursive --infected {{directory}}`
+`clamscan --recursive --infected {{path/to/directory}}`
 
 - Scan directories recursively and move them into quarantine:
 
