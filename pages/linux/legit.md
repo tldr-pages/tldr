@@ -3,20 +3,20 @@
 > Legit is a complementary command-line interface for Git
 > More information: <https://frostming.github.io/legit>.
 
-- Switches to branch. Stashes and restores unstaged changes:
+- Switch to branch. Stash and restore unstaged changes:
 `git switch <branch>`
 
-- Synchronizes current branch. Auto-merge/rebase, un/stash:
+- Synchronize current branch. Auto-merge/rebase, un/stash:
 `git sync`
 
-- Publishes branch to remote server:
+- Publish branch to remote server:
 `git publish {{branch}}`
 
-- Removes branch from remote server:
+- Remove branch from remote server:
 `git unpublish {{branch}}`
 
-- Nice & pretty list of branches + publication status:
+- List of branches + publication status:
 `git branches {{wildcard pattern}}`
 
-- Removes the last commit from history:
+- Remove the last commit from history:
 `git undo {{--hard}}`
