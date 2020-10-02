@@ -5,7 +5,7 @@
 
 - Connect to server using a config file:
 
-`sudo openvpn {{client.conf}}`
+`sudo openvpn {{path/to/client.conf}}`
 
 - Try to set up an insecure peer-to-peer tunnel on bob.example.com host:
 
