@@ -5,7 +5,7 @@
 
 - Check the code in a specific path for deprecations:
 
-`drupal-check {{path}}`
+`drupal-check {{path/to/directory}}`
 
 - Don't show progress bar:
 
