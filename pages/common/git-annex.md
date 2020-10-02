@@ -12,7 +12,7 @@
 
 `git annex init`
 
-- Add file:
+- Add a file:
 
 `git annex add {{path}}`
 
