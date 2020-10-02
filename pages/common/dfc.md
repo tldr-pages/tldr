@@ -7,7 +7,7 @@
 
 `dfc`
 
-- Display all filesystems including pseudo, duplicate and inaccessible file systems:
+- Display all filesystems including pseudo, duplicate and inaccessible filesystems:
 
 `dfc -a`
 
@@ -15,6 +15,6 @@
 
 `dfc -c never`
 
-- Display filesystems containing "ext" in the file system type:
+- Display filesystems containing "ext" in the filesystem type:
 
 `dfc -t ext`
