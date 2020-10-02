@@ -1,4 +1,4 @@
-#alias
+# alias
 
 > Cria um alias -- palavras que são substituídas por um comando.
 > Alias expiram com a sessão da shell atual, a menos que sejam definidos no ficheiro de configuração da shell, por exemplo `~/.bashrc`.
