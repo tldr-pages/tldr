@@ -14,7 +14,7 @@
 
 - Add a file:
 
-`git annex add {{path}}`
+`git annex add {{path/to/file_or_directory}}`
 
 - Show status of files:
 
