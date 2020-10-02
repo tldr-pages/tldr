@@ -7,7 +7,7 @@
 
 `firebase login`
 
-- Help:
+- Display the help:
 
 `firebase help`
 
