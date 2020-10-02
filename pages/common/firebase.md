@@ -11,7 +11,7 @@
 
 `firebase help`
 
-- List your firebase projects:
+- List existing firebase projects:
 
 `firebase project:list`
 
