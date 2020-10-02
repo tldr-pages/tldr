@@ -9,8 +9,8 @@
 
 - Don't show progress bar:
 
-`drupal-check --no-progress {{path}}`
+`drupal-check --no-progress {{path/to/directory}}`
 
 - Perform static analysis to detect bad coding practices:
 
-`drupal-check --analysis {{path}}`
+`drupal-check --analysis {{path/to/directory}}`
