@@ -13,4 +13,4 @@
 
 - Generate the code in a specific directory:
 
-`dcg --directory {{path}}`
+`dcg --directory {{path/to/directory}}`
