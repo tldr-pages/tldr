@@ -29,4 +29,3 @@
 - See display hardware information:
 
 `xrandr -q`
-
