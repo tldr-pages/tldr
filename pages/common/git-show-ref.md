@@ -15,6 +15,6 @@
 
 `git show-ref --tags`
 
-- Verify that a certainr reference exists:
+- Verify that a given reference exists:
 
 `git show-ref --verify {{path/to/ref}}`
