@@ -3,7 +3,7 @@
 > Browser-independent bookmark manager for CLI.
 > More information: <https://github.com/jarun/Buku>.
 
-- List all bookmarks matching "keyword" and with "privacy" tag:
+- Display all bookmarks matching "keyword" and with "privacy" tag:
 
 `buku {{keyword}} --stag {{privacy}}`
 
