@@ -7,7 +7,7 @@
 
 `fls -r -m {{C:}} {{/dev/loop1p1}}`
 
-- Analyse a single partition, providing the sector offset at which the file system starts in the image:
+- Analyse a single partition, providing the sector offset at which the filesystem starts in the image:
 
 `fls -r -m {{C:}} -o {{sector}} {{path/to/image_file}}`
 
