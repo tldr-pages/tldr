@@ -30,4 +30,4 @@
 
 - Extraer archivos que coinciden con un patrón:
 
-`tar xf {{archivo.tar}} --wildcards {{"*.html"}}`
+`tar xf {{archivo.tar}} --wildcards "{{*.html}}"`
