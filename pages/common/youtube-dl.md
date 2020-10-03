@@ -13,7 +13,7 @@
 
 - Download a video or playlist at a specific quality:
 
-`youtube-dl --format {{"best[height<=480]"}} {{https://www.youtube.com/watch?v=oHg5SJYRHA0}}`
+`youtube-dl --format "{{best[height<=480]}}" {{https://www.youtube.com/watch?v=oHg5SJYRHA0}}`
 
 - Download the audio from a video and convert it to an MP3:
 
@@ -25,7 +25,7 @@
 
 - Download video(s) as MP4 files with custom filenames:
 
-`youtube-dl --format {{mp4}} -o {{"%(title)s by %(uploader)s on %(upload_date)s in %(playlist)s.%(ext)s"}} {{url}}`
+`youtube-dl --format {{mp4}} -o "{{%(title)s by %(uploader)s on %(upload_date)s in %(playlist)s.%(ext)s}}" {{url}}`
 
 - Download a particular language's subtitles along with the video:
 

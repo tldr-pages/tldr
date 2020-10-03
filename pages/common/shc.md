@@ -16,4 +16,4 @@
 
 - Compile a shell script and set a message to display upon expiration:
 
-`shc -f {{script}} -e {{dd/mm/yyyy}} -m {{"Please contact your provider"}}`
+`shc -f {{script}} -e {{dd/mm/yyyy}} -m "{{Please contact your provider}}"`
