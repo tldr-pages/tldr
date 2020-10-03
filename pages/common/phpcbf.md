@@ -17,7 +17,7 @@
 
 - Specify comma-separated file extensions to include when sniffing:
 
-`phpcbf {{path/to/directory}} --extensions {{file_extension}},{{other_extension}}`
+`phpcbf {{path/to/directory}} --extensions {{file_extension(s)}}`
 
 - A comma-separated list of files to load before processing:
 

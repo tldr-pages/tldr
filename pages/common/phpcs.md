@@ -17,7 +17,7 @@
 
 - Specify comma-separated file extensions to include when sniffing:
 
-`phpcs {{path/to/directory}} --extensions {{file_extension}},{{other_extension}}`
+`phpcs {{path/to/directory}} --extensions {{file_extension(s)}}`
 
 - Specify the format of the output report (e.g. `full`, `xml`, `json`, `summary`):
 
