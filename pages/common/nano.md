@@ -19,6 +19,6 @@
 
 `nano -i {{filename}}`
 
-- Before saving, back up the previous version of the file with name = "currentName+tilde" (useful for quick edits)
+- Before modification, backup separately as `{{current_file_name}}~`:
 
 `nano -B {{filename}}`
