@@ -6,7 +6,7 @@
 
 - Download a track or playlist:
 
-`deemix {{https://www.deezer.com/us/track/108441824}}`
+`deemix {{https://www.deezer.com/us/track/00000000}}`
 
 - Download track / playlist at a specific bitrate:
 
@@ -14,8 +14,8 @@
 
 - Download to a specific path:
 
-`deemix -bitrate {{bitrate}} --path {{path}} {{url}}`
+`deemix --bitrate {{bitrate}} --path {{path}} {{url}}`
 
 - Create a portable deemix config in the current directory:
 
-`deemix --portable -bitrate {{bitrate}} --path {{path}} {{url}}`
+`deemix --portable --bitrate {{bitrate}} --path {{path}} {{url}}`
