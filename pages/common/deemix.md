@@ -10,7 +10,7 @@
 
 - Download track / playlist at a specific bitrate:
 
-`deemix --bitrate {{FLAC / MP3}} {{url}}`
+`deemix --bitrate {{FLAC|MP3}} {{url}}`
 
 - Download to a specific path:
 
