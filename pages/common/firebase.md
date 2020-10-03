@@ -1,7 +1,8 @@
 # firebase
 
 > Firebase Command Line Interface (CLI) Tools.
-> Used to test, manage, and deploy your Firebase project from the command line. More information: <https://www.npmjs.com/package/firebase-tools>.
+> Used to test, manage, and deploy your Firebase project from the command line.
+> More information: <https://github.com/firebase/firebase-tools>.
 
 - Login:
 
