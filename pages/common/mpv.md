@@ -27,6 +27,6 @@
 
 `mpv --profile {{profile_name}} {{file}}`
 
-- See your webcam/video0 output:
+- Display the output of webcam or other video input device:
 
 `mpv /dev/{{video0}}`
