@@ -18,4 +18,4 @@
 
 - Create an event in a remote machine's event log:
 
-`eventcreate /s {{hostname}} /u {{username}} /p {{password}} /t {{type}} /id {{id}} /d "{{message"}}`
+`eventcreate /s {{hostname}} /u {{username}} /p {{password}} /t {{type}} /id {{id}} /d "{{message}}"`
