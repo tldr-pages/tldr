@@ -8,7 +8,7 @@
 
 `nmap -O {{ip_or_hostname}}`
 
-- To scan the Network for devices (including routers) and get info on their operating system:
+- Scan a block of IP addresses, and additionally attempt to guess the operating system on any hosts found:
 
 `sudo nmap -sS -O 192.168.1.0/24`
 
