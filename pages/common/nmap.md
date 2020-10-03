@@ -6,7 +6,7 @@
 
 - To check if the IP address `192.168.1.101` is up, with it’s operating system info. It may show RTTVAR logs (for TCP) for a long time:
 
-`nmap -O 192.168.1.101`
+`nmap -O {{ip_or_hostname}}`
 
 - To scan the Network for devices (including routers) and get info on their operating system:
 
