@@ -3,9 +3,9 @@
 > Promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server.
 > More information: <https://sequelize.org/>.
 
-- Create a model and a migration file:
+- Create a model with 3 fields and a migration file:
 
-`sequelize model:generate --name {{table_name}}`
+`sequelize model:generate --name {{table_name}} --attributes {{field1:integer,field2:string,field3:boolean}}`
 
 - Run the migration file:
 
