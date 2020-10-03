@@ -11,6 +11,6 @@
 
 `git pull --rebase`
 
-- Scarica le ultime modifiche dal repository remoto e ramo specificati, quindi avvia un'unione con il ramo corrente:
+- Scarica le ultime modifiche da uno specifico ramo remoto e avvia un'unione con il ramo corrente:
 
 `git pull {{nome_repository_remoto}} {{nome_ramo}}`
