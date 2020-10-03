@@ -5,20 +5,20 @@
 
 - List all bookmarks matching "keyword" and with "privacy" tag:
 
-`buku {{keyword}} -t {{privacy}}`
+`buku {{keyword}} --stag {{privacy}}`
 
 - Add bookmark with tags "search engine" and "privacy":
 
-`buku -a {{https://ddg.gg}} {{search engine}}, {{privacy}}`
+`buku --add {{https://ddg.gg}} {{search engine}}, {{privacy}}`
 
 - Delete a bookmark:
 
-`buku -d {{bookmark_id}}`
+`buku --delete {{bookmark_id}}`
 
 - Open editor to edit a bookmark:
 
-`buku -w {{bookmark_id}}`
+`buku --write {{bookmark_id}}`
 
 - Remove "search engine" tag from a bookmark:
 
-`buku -u {{bookmark_id}} --tag {{-}} {{search engine}}`
+`buku --update {{bookmark_id}} --tag {{-}} {{search engine}}`
