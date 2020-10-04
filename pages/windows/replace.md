@@ -10,7 +10,7 @@
 
 `replace {{path/to/file_or_directory}} {{path/to/destination}} /a`
 
-- Prompt before it replaces each file:
+- Interactively copy multiple files, with a prompt before replacing or adding a destination file:
 
 `replace {{path/to/file_or_directory}} {{path/to/destination}} /p`
 
