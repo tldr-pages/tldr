@@ -23,7 +23,7 @@
 
 `speedtest-cli --server {{server_id}}`
 
-- Generate CSV results file with specified delimiter:
+- Display results in CSV format, suppressing the progress information:
 
 `speedtest-cli --csv --csv-delimiter {{delimiter_char}}`
 
