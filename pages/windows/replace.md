@@ -27,7 +27,7 @@
 
 `replace {{path/to/file_or_directory}} {{path/to/destination}} /s`
 
-- Only replaces files in the destination directory which are older than the files in the source directory:
+- Replace only files in the destination directory which are older than the files in the source directory:
 
 `replace {{path/to/file_or_directory}} {{path/to/destination}} /u`
 
