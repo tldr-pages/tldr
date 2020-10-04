@@ -1,6 +1,6 @@
 # maim
 
-> Screenshot utility
+> Screenshot utility: https://github.com/naelstrof/maim
 
 - Capture a screenshot and save it as "path/to/screenshot.png"
 
