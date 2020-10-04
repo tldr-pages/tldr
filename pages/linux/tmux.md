@@ -1,6 +1,7 @@
 # Tmux
 
-> Tmux is a terminal multiplexe, it lets you switch easily between several programs in one terminal
+> Tmux is a terminal multiplexe, it lets you switch easily between several programs in one terminal.
+
 > https://github.com/tmux/tmux/wiki
 
 - Create a new window:
