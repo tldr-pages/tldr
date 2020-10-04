@@ -4,6 +4,7 @@
 > https://github.com/tmux/tmux/wiki/Getting-Started
 
 The default prefix is Ctrl-b.
+
 When you see {prefix}, press Ctrl-b, release both keys and then hit the next sequence.
 
 - Create a new window:
