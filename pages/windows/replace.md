@@ -6,7 +6,7 @@
 
 `replace {{path/to/file_or_directory}} {{path/to/destination}}`
 
-- Only adds files that do not already exist:
+- Add files to the destination directory instead of replacing existing files:
 
 `replace {{path/to/file_or_directory}} {{path/to/destination}} /a`
 
