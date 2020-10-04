@@ -1,7 +1,6 @@
 # xxd
 
 > Make a hexdump or do the reverse.
-
 > More information: <https://packages.debian.org/buster/xxd>.
 
 - Display Hex representation of a file:
