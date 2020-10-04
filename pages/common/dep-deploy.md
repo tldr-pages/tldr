@@ -1,11 +1,11 @@
-# dep deploy
+# dep
 
-> A cli tool for deployment of PHP applications.
+> A CLI tool for deployment of PHP applications.
 > More information: <https://deployer.org>.
 
-- Initialize deployer in a project, may use a framework recipe template:
+- Interactively initialize deployer in the local path (use a framework template with `--template={{template}}`):
 
-`dep init [-t Template]`
+`dep init`
 
 - Deploy an application to remote host:
 
@@ -17,7 +17,7 @@
 
 - Connect to host through ssh:
 
-`dep ssh [{{hostname}}]`
+`dep ssh {{hostname}}`
 
 - List commands:
 
@@ -25,7 +25,7 @@
 
 - Run any arbitrary command on hosts:
 
-`dep run [{{host}}]`
+`dep run "{{command}}"`
 
 - Display help for a command:
 
