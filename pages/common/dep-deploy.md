@@ -19,7 +19,7 @@
 
 `dep ssh [{{hostname}}]`
 
-- Lists commands:
+- List commands:
 
 `dep list`
 
@@ -27,6 +27,6 @@
 
 `dep run [{{host}}]`
 
-- Displays help for a command:
+- Display help for a command:
 
 `dep help {{command}}`
