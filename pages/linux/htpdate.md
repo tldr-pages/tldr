@@ -6,8 +6,8 @@
 
 - Synchronize date and time:
 
-`sudo htpdate {{host}}`
+`htpdate {{host}}`
 
 - Perform simulation of syncronization, without any action:
 
-`sudo htpdate -q {{host}}`
+`htpdate -q {{host}}`
