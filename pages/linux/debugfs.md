@@ -12,7 +12,7 @@
 
 - Read commands from cmd_file file, execute them and exit:
 
-`debugfs -f {{path/to/cmd_file}}`
+`debugfs -f {{path/to/cmd_file}} {{/dev/sdXN}}`
 
 - View the filesystem stats in debugfs console:
 
