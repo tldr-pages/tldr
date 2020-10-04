@@ -1,6 +1,7 @@
 # replace
 
-> Replaces files. It is related to robocopy, move, copy, and del. More information: https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/replace.
+> Replace files. It is related to robocopy, move, copy, and del commands.
+> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/replace>.
 
 - Replace the destination file with the one from the source directory:
 
