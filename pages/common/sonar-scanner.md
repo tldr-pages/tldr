@@ -1,6 +1,5 @@
 # sonar-scanner
 
-> SonarScanner.
 > SonarScanner is a generic scanner for SonarQube for projects do not use any specific build tool like maven, gradle , etc.
 > More information: <https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/>.
 
