@@ -8,12 +8,12 @@
 
 - Capture a screenshot of the selected region
 
-`maim -s path/to/screenshot.png`
+`maim --select path/to/screenshot.png`
 
 - Capture a screenshot of the selected region and save it in the clipboard(requires xclip)
 
-`maim -s | xclip -selection clipboard -t image/png`
+`maim --select | xclip -selection clipboard -target image/png`
 
-- Capture a screenshot of the current active window
+- Capture a screenshot of the current active window(requires xdotool)
 
-`maim -i $(xdotool getactivewindow) path/to/screenshot.png`
+`maim --window $(xdotool getactivewindow) path/to/screenshot.png`
