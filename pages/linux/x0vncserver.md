@@ -1,7 +1,7 @@
 # x0vncserver
 
 > TigerVNC Server for X displays.
-> More information: <https://linux.die.net/man/1/x0vncserver>.
+> More information: <https://tigervnc.org/doc/x0vncserver.html>.
 
 - Specify a passwordfile:
 
