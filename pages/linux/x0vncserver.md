@@ -9,4 +9,4 @@
 
 - Change the default port:
 
-`x0vncserver -display :0 -rfbport <port>`
+`x0vncserver -display {{:0}} -rfbport {{port}}`
