@@ -12,18 +12,18 @@
 
 `asterisk -r -x "sip show peers"`
 
-- Show active calls & channels
+- Show active calls & channels:
 
 `asterisk -r -x "core show channels"`
 
-- Show voicemail mailboxes
+- Show voicemail mailboxes:
 
 `asterisk -r -x "voicemail show users"`
 
-- Terminate a channel
+- Terminate a channel:
 
 `asterisk -r -x "hangup request {{channel_ID}}"`
 
-- Reload chan_SIP configuration
+- Reload chan_SIP configuration:
 
 `asterisk -r -x "sip reload"`
