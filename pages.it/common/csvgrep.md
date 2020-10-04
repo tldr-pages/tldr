@@ -14,4 +14,4 @@
 
 - Trova righe dove la colonna "nome" NON include la stringa "Mario Rossi":
 
-`csvgrep -i -c {{nome}} -m {{"Mario Rossi"}} {{data.csv}}`
+`csvgrep -i -c {{nome}} -m "{{Mario Rossi}}" {{data.csv}}`

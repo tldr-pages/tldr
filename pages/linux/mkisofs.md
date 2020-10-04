@@ -9,4 +9,4 @@
 
 - Set the disc label when creating an ISO:
 
-`mkisofs -o {{filename.iso}} -V {{"label_name"}} {{path/to/source_directory}}`
+`mkisofs -o {{filename.iso}} -V "{{label_name}}" {{path/to/source_directory}}`

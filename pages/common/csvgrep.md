@@ -14,4 +14,4 @@
 
 - Find rows in which the "name" column does NOT include the string "John Doe":
 
-`csvgrep -i -c {{name}} -m {{"John Doe"}} {{data.csv}}`
+`csvgrep -i -c {{name}} -m "{{John Doe}}" {{data.csv}}`

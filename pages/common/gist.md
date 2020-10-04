@@ -13,7 +13,7 @@
 
 - Create a private gist with a description:
 
-`gist -p -d {{"A meaningful description"}} {{file.txt}} `
+`gist -p -d "{{A meaningful description}}" {{file.txt}} `
 
 - Read contents from `stdin` and create a gist from it:
 

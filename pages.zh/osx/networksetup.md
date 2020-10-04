@@ -8,7 +8,7 @@
 
 - 显示特定网络设备的配置信息:
 
-`networksetup -getinfo {{"Wi-Fi"}}`
+`networksetup -getinfo "{{Wi-Fi}}"`
 
 - 获取当前连接的 Wi-Fi 网络名称（Wi-Fi 设备通常为 en0 或 en1）:
 
@@ -16,4 +16,4 @@
 
 - 连接到给定的 Wi-Fi 网络 Connect to a particular Wi-Fi network:
 
-`networksetup -setairportnetwork {{en0}} {{"无线网 SSID"}} {{密码}}`
+`networksetup -setairportnetwork {{en0}} "{{无线网 SSID}}" {{密码}}`
