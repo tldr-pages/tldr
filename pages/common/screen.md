@@ -41,4 +41,3 @@
 - Attach screen that is attached elsewhere (don't detach remote, will use resolution of remote's window):
 
 `screen -x <name>`
-
