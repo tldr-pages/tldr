@@ -1,6 +1,6 @@
 # speedtest
 
-> Obtained internet bandwidth testing metrics from speedtest.net.
+> Obtain internet bandwidth testing metrics from speedtest.net.
 > More information: <https://github.com/sivel/speedtest-cli>.
 
 - Run without performing download tests:
