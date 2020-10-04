@@ -3,33 +3,30 @@
 > It lets you switch easily between several programs in one terminal, detach them (they keep running in the background) and reattach them to a different terminal.
 > https://github.com/tmux/tmux/wiki/Getting-Started
 
-The default prefix is Ctrl-b.
-
-When you see {prefix}, press Ctrl-b, release both keys and then hit the next sequence.
-
 - Create a new window:
 
-`{prefix}+c`
+`Ctrl+b c`
 
 - Switch to window *x* (Starts from zero):
 
-`{prefix}+{x}`
+`Ctrl-b {x}`
 
 - Close a window:
 
-`{prefix}+x`
+`Ctrl-b x`
 
 - Create a pane vertically (|):
 
-`{prefix}+%`
+`Ctrl-b %`
 
 - Create a pane horizontally (-):
 
-`{prefix}-"`
+`Ctrl-B "`
 
 - Move between panes:
 
-`{prefix}-{arrow key}`
+`Ctrl-b (Up|Down|Left|Right)`
 
 - Resize a pane:
-`{prefix}+Ctrl-{arrow}
+
+`Ctrl-b Ctrl+(Up|Down|Left|Right)`
