@@ -7,9 +7,9 @@
 
 `tmux`
 
-- Iniciar uma sessão nomeada:
+- Iniciar uma sessão com nome:
 
-`tmux new-session -s {{name}}`
+`tmux new-session -s {{nome}}`
 
 - Listar sessões existentes:
 
@@ -19,17 +19,17 @@
 
 `tmux attach-session`
 
-- Entrar numa sessão nomeada:
+- Entrar numa sessão com nome:
 
-`tmux attach-session -t {{name}}`
+`tmux attach-session -t {{nome}}`
 
 - Sair da sessão atual (com o prefixo Ctrl-B):
 
 `Ctrl-B d`
 
-- Eliminar uma sessão nomeada:
+- Eliminar uma sessão com nome:
 
-`tmux kill-session -t {{name}}`
+`tmux kill-session -t {{nome}}`
 
 - Eliminar a sessão atual (com o prefixo Ctrl-B):
 
