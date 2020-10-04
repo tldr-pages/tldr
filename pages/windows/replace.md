@@ -1,8 +1,8 @@
 # replace
 
-> Replaces files. It is related to robocopy, move, copy, and del. More information: https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/replace
+> Replaces files. It is related to robocopy, move, copy, and del. More information: https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/replace.
 
-- Replaces the destination file with the one from the source directory:
+- Replace the destination file with the one from the source directory:
 
 `replace {{path/to/file_or_directory}} {{path/to/destination}}`
 
@@ -10,19 +10,19 @@
 
 `replace {{path/to/file_or_directory}} {{path/to/destination}} /a`
 
-- Prompts you before replacing each file:
+- Prompt before it replaces each file:
 
 `replace {{path/to/file_or_directory}} {{path/to/destination}} /p`
 
-- Replaces even read only files:
+- Replace even read only files:
 
 `replace {{path/to/file_or_directory}} {{path/to/destination}} /r`
 
-- Waits for you to insert a disk before starting to replace files (originally to allow inserting a floppy disk):
+- Wait for you to insert a disk before it replaces files (originally to allow inserting a floppy disk):
 
 `replace {{path/to/file_or_directory}} {{path/to/destination}} /w`
 
-- Includes replacing and files in subfolders of the destination:
+- Replaces all files in subfolders of the destination:
 
 `replace {{path/to/file_or_directory}} {{path/to/destination}} /s`
 
