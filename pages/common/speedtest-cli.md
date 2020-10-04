@@ -27,6 +27,6 @@
 
 `speedtest-cli --csv --csv-delimiter {{delimiter_char}}`
 
-- Suppress verbose output & display results in JSON format:
+- Display results in JSON format, suppressing the progress information:
 
 `speedtest-cli --json`
