@@ -1,7 +1,7 @@
 # hexo
 
-> A fast, simple & powerful blog framework.
-> More information: <https://hexo.io/>.
+> 快速、简洁且高效的博客框架.
+> 更多信息: <https://hexo.io/>.
 
 - 初始化一个网站:
 
