@@ -10,7 +10,7 @@
 
 - Specify the upstream server doing the forwarding:
 
-`lt --port 8000 --host {{host}}`
+`lt --port {{8000}} --host {{host}}`
 
 - Request a specific subdomain:
 
