@@ -12,7 +12,7 @@
 
 `lt --port 8000 --host {{host}}`
 
-- Request this subdomain:
+- Request a specific subdomain:
 
 `lt --port 8000 --subdomain {{subdomain}}`
 
