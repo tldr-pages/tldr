@@ -17,7 +17,7 @@
 
 - Specify characters to be used for the ASCII output:
 
-`jp2a --chars={{"..-ooxx@@"}} {{path/to/image.jpeg}}`
+`jp2a --chars='{{..-ooxx@@}}' {{path/to/image.jpeg}}`
 
 - Write the ASCII output into a file:
 
