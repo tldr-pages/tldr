@@ -1,6 +1,6 @@
 # git cat-file
 
-> Provide content or type and size information for git repository objects
+> Provide content or type and size information for git repository objects.
 > More information: <https://git-scm.com/docs/git-cat-file>.
 
 - Get the [s]ize of the HEAD commit in bytes:
