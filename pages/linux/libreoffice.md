@@ -11,7 +11,7 @@
 
 `libreoffice --cat {{path/to/file1}} {{path/to/file2}}`
 
-- Print the given files to a given printer:
+- Print files to a specific printer:
 
 `libreoffice --pt {{printer_name}} {{file1}} {{file2}}`
 
