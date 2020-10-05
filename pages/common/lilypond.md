@@ -9,7 +9,7 @@
 
 - Compile into the specified format:
 
-`lilypond --formats={{format_dump}} {{name_file}}`
+`lilypond --formats={{format_dump}} {{path/to/file}}`
 
 - Compile the specified file, suppressing progress updates:
 
