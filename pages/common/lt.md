@@ -20,6 +20,6 @@
 
 `lt --port 8000 --print-requests`
 
-- Open the tunnel URL in your browser:
+- Open the tunnel URL in the default web browser:
 
 `lt --port 8000 --open`
