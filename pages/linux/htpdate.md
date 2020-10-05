@@ -11,3 +11,11 @@
 - Perform simulation of syncronization, without any action:
 
 `htpdate -q {{host}}`
+
+- Compensate the systematisch clock drift:
+
+`htpdate -x {{host}}`
+
+- Set time immediate after the syncronization:
+
+`htpdate -s {{host}}`
