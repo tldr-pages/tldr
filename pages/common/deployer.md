@@ -9,7 +9,7 @@
 
 - Deploy an application to a remote host:
 
-`dep deploy [{{hostname}}]`
+`dep deploy {{hostname}}`
 
 - Rollback to the previous working release:
 
