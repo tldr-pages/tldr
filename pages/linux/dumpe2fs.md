@@ -4,22 +4,22 @@
 > Unmount the partition before running this command using `umount {{device}}`.
 > More information: <https://linux.die.net/man/8/dumpe2fs>.
 
-- Display ext2, ext3 and ext4 filesystem information for the device `/dev/sda1`:
+- Display ext2, ext3 and ext4 filesystem information:
 
-`dumpe2fs {{/dev/sda1}}`
+`dumpe2fs {{/dev/sdXN}}`
 
 - Display the blocks which are reserved as bad in the filesystem:
 
-`dumpe2fs -b {{/dev/sda1}}`
+`dumpe2fs -b {{/dev/sdXN}}`
 
 - Force display filesystem information even with non-recogonisable feature flags:
 
-`dumpe2fs -f {{/dev/sda1}}`
+`dumpe2fs -f {{/dev/sdXN}}`
 
 - Only display the superblock information and not any of the block group descriptor detail information:
 
-`dumpe2fs -h {{/dev/sda1}}`
+`dumpe2fs -h {{/dev/sdXN}}`
 
 - Print the detailed group information block numbers in hexadecimal format:
 
-`dumpe2fs -x {{/dev/sda1}}`
+`dumpe2fs -x {{/dev/sdXN}}`
