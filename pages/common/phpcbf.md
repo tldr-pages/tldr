@@ -15,7 +15,7 @@
 
 `phpcbf {{path/to/directory}} --standard {{standard}}`
 
-- Specify file extension(s) to include when sniffing:
+- Specify comma-separated file extensions to include when sniffing:
 
 `phpcbf {{path/to/directory}} --extensions {{file_extension(s)}}`
 
