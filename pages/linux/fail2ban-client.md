@@ -1,9 +1,9 @@
 # fail2ban-client
 
-> Configure and control fail2ban server
-> More information: <https://github.com/fail2ban/fail2ban/>
+> Configure and control fail2ban server.
+> More information: <https://github.com/fail2ban/fail2ban/>.
 
-- Gets the current status of the jail service:
+- Retrieve current status of the jail service:
 
 `fail2ban-client status {{jail}}`
 
