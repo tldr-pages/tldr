@@ -18,7 +18,7 @@
 
 - Print basic request info:
 
-`lt --port 8000 --print-requests`
+`lt --port {{8000}} --print-requests`
 
 - Open the tunnel URL in the default web browser:
 
