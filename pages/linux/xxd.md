@@ -1,17 +1,17 @@
 # xxd
 
-> Make a hexdump or do the reverse.
+> Make a Hex dump or do the reverse.
 > More information: <https://packages.debian.org/buster/xxd>.
 
 - Display Hex representation of a file:
 
 `xxd {{file}}`
 
-- Convert Hexdump into binary:
+- Convert a Hex dump into binary:
 
 `xxd -r {{file}}`
 
-- Produce Binary dump:
+- Produce a binary dump:
 
 `xxd -b {{file}}`
 
