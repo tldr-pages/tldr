@@ -10,6 +10,6 @@
 
 `apt-file search {{part/of/filename}}`
 
-- Énumére le contenu d'un paquet spécifique:
+- Énumère le contenu d'un paquet spécifique:
 
 `apt-file list {{package_name}}`
