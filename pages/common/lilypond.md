@@ -19,6 +19,6 @@
 
 `lilypond --output={{path/to/output_file}} {{path/to/input_file}}`
 
-- Show version of tool:
+- Show the current version of lilypond:
 
 `lilypond --version`
