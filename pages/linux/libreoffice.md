@@ -5,7 +5,7 @@
 
 - Open a space-separated list of files in read-only mode:
 
-`libreoffice --view {{file1}} {{file2}} {{file3}}`
+`libreoffice --view {{path/to/file1}} {{path/to/file2}}`
 
 - Display the content of specific files:
 
