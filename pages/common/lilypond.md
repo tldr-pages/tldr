@@ -5,7 +5,7 @@
 
 - Compile file into PDF:
 
-`lilypond {{name_file}}`
+`lilypond {{path/to/file}}`
 
 - Compile file into specified format:
 
