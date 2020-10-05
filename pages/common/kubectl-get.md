@@ -25,4 +25,4 @@
 
 - Get Kubernetes objects defined in a YAML manifest:
 
-`kubectl get -f {{manifest}}.yaml`
+`kubectl get -f {{path/to/manifest}}.yaml`
