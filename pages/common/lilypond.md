@@ -13,7 +13,7 @@
 
 - Compile the specified file, suppressing progress updates:
 
-`lilypond -s {{name_file}}`
+`lilypond -s {{path/to/file}}`
 
 - Compile the specified file, and also specify the output filename:
 
