@@ -11,7 +11,7 @@
 
 `direnv deny`
 
-- Edit .envrc file into an $EDITOR and reload env afterwards:
+- Edit the `.envrc` file in the default text editor and reload the environment on exit:
 
 `direnv allow`
 
