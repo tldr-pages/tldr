@@ -14,7 +14,7 @@
 
 - Request a specific subdomain:
 
-`lt --port 8000 --subdomain {{subdomain}}`
+`lt --port {{8000}} --subdomain {{subdomain}}`
 
 - Print basic request info:
 
