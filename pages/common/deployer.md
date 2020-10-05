@@ -7,7 +7,7 @@
 
 `dep init`
 
-- Deploy an application to remote host:
+- Deploy an application to a remote host:
 
 `dep deploy [{{hostname}}]`
 
@@ -15,7 +15,7 @@
 
 `dep rollback`
 
-- Connect to host through ssh:
+- Connect to a remote host via ssh:
 
 `dep ssh {{hostname}}`
 
@@ -23,7 +23,7 @@
 
 `dep list`
 
-- Run any arbitrary command on hosts:
+- Run any arbitrary command on the remote hosts:
 
 `dep run "{{command}}"`
 
