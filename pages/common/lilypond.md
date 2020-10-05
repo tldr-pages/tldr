@@ -17,7 +17,7 @@
 
 - Compile the specified file, and also specify the output filename:
 
-`lilypond --output={{name_output}} {{name_file}}`
+`lilypond --output={{path/to/output_file}} {{path/to/input_file}}`
 
 - Show version of tool:
 
