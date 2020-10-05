@@ -8,11 +8,11 @@
 `tmuxinator new {{project}}`
 
 - Edit a project:
-  
+
 `tmuxinator edit {{project}}`
 
 - List projects:
-  
+
 `tmuxinator list`
 
 - Start a tmux session based on project:
