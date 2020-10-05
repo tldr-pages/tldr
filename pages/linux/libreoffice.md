@@ -3,7 +3,7 @@
 > Use the powerful and free office suite, LibreOffice, from the command line.
 > More information: <https://www.libreoffice.org/>.
 
-- Open the given files in viewer mode (read-only):
+- Open a space-separated list of files in read-only mode:
 
 `libreoffice --view {{file1}} {{file2}} {{file3}}`
 
