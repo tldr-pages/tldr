@@ -25,7 +25,7 @@
 
 - Format printing byte counts:
 
-`dua --format {{format}}`
+`dua --format {{metric|binary|bytes|GB|GiB|MB|MiB}}`
 
 - Control number of threads to be used:
 
