@@ -27,5 +27,3 @@
 
 `kubectl get -f {{manifest}}.yaml`
 
-
-
