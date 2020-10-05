@@ -11,7 +11,7 @@
 
 `lilypond --formats={{format_dump}} {{name_file}}`
 
-- Compile file, suppressing progress:
+- Compile the specified file, suppressing progress updates:
 
 `lilypond -s {{name_file}}`
 
