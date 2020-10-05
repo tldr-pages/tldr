@@ -4,6 +4,8 @@
 > Pressing `i` enters edit mode. `<Esc>` goes back to normal mode, which doesn't allow regular text insertion.
 > More information: <https://www.vim.org>.
 
+**Important:** If you accidentally open Vim and have never used it before, _do not_ press anything. Type `:q!` and hit <kbd>Enter</kbd> to quit.
+
 - Open a file:
 
 `vim {{path/to/file}}`
@@ -18,7 +20,11 @@
 
 - Quit without saving:
 
-`:quit!<Enter>`
+`:quit!<Enter>` or `:q!<Enter>`
+
+- Save and quit:
+
+`:wq<Enter>`
 
 - Open a file at a specified line number:
 
