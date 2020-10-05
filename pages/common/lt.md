@@ -8,7 +8,7 @@
 
 `lt --port 8000`
 
-- Upstream server providing forwarding:
+- Specify the upstream server doing the forwarding:
 
 `lt --port 8000 --host {{host}}`
 
