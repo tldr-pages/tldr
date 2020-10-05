@@ -16,6 +16,6 @@
 
 `kind get {{clusters|nodes|kubeconfig}}`
 
-- Export one of [kubeconfig, logs]:
+- Export the kubeconfig or the logs:
 
-`kind export logs`
+`kind export {{kubeconfig|logs}}`
