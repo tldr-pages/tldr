@@ -7,7 +7,7 @@
 
 `libreoffice --view {{file1}} {{file2}} {{file3}}`
 
-- Dump text contents of the following files to console:
+- Display the content of specific files:
 
 `libreoffice --cat {{file1}} {{file2}} {{file3}}`
 
