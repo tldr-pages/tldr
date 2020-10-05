@@ -15,7 +15,7 @@
 
 `lilypond -s {{name_file}}`
 
-- Compile file into specified output name:
+- Compile the specified file, and also specify the output filename:
 
 `lilypond --output={{name_output}} {{name_file}}`
 
