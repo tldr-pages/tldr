@@ -3,7 +3,7 @@
 > Typeset music and/or produce MIDI from file.
 > More information: <https://lilypond.org/index.html>.
 
-- Compile file into PDF:
+- Compile a lilypond file into a PDF:
 
 `lilypond {{path/to/file}}`
 
