@@ -21,4 +21,4 @@
 
 - Start Redis server with verbose logging:
 
-`redis-server --loglevel verbose`
+`redis-server --loglevel {{warning|notice|verbose|debug}}`
