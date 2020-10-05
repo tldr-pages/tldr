@@ -1,7 +1,7 @@
 # kind
 
-> Kind is a tool for running local Kubernetes clusters using Docker container "nodes".
-> Kind was primarily designed for testing Kubernetes itself, but may be used for local development or CI.
+> Tool for running local Kubernetes clusters using Docker container "nodes".
+> Designed for testing Kubernetes itself, but may be used for local development or continuous integration.
 > More information: <https://github.com/kubernetes-sigs/kind>.
 
 - Create a local Kubernetes cluster:
