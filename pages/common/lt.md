@@ -22,4 +22,4 @@
 
 - Open the tunnel URL in the default web browser:
 
-`lt --port 8000 --open`
+`lt --port {{8000}} --open`
