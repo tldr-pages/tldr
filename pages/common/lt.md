@@ -4,7 +4,7 @@
 > Great for working with browser testing tools like browserling or external api callback services like twilio which require a public url for callbacks.
 > More information: <https://github.com/localtunnel/localtunnel>.
 
-- Start tunnel in a specific port:
+- Start tunnel from a specific port:
 
 `lt --port 8000`
 
