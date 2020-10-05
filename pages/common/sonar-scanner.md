@@ -9,7 +9,7 @@
 
 - Scan a project using configuration file other than `sonar-project.properties`:
 
-`sonar-scanner -Dproject.settings={{myproject.properties}}`
+`sonar-scanner -D{{project.settings=myproject.properties}}`
 
 - Print help information:
 
