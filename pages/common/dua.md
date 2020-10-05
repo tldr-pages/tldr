@@ -29,4 +29,4 @@
 
 - Control number of threads to be used:
 
-`dua --threads {{threads-count}}`
+`dua --threads {{count}}`
