@@ -4,7 +4,7 @@ Wget is a command-line utility for downloading files from the web.
 
 Wget can be used to download multiple files, resume downloads, download in the background etc using HTTP, HTTPS, and FTP protocols.
 
-- Command Syntax:
+Command Syntax:
 
 `wget [options] [url]`
 
