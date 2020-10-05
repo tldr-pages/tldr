@@ -6,7 +6,7 @@
 
 - Start tunnel from a specific port:
 
-`lt --port 8000`
+`lt --port {{8000}}`
 
 - Specify the upstream server doing the forwarding:
 
