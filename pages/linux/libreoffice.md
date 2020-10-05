@@ -1,6 +1,6 @@
 # libreoffice
 
-> Use the powerful and free office suite, LibreOffice, from the command line.
+> CLI for the powerful and free office suite LibreOffice.
 > More information: <https://www.libreoffice.org/>.
 
 - Open a space-separated list of files in read-only mode:
