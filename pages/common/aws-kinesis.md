@@ -1,7 +1,7 @@
 # aws kinesis
 
 > Official AWS CLI for Amazon Kinesis streaming data services.
-> More information: <https://aws.amazon.com/cli>.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/kinesis/index.html#cli-aws-kinesis>.
 
 - Show all streams in the account:
 
