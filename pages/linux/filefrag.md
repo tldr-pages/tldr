@@ -3,26 +3,26 @@
 > Report how badly fragmented a particular file might be.
 > More information: <https://linux.die.net/man/8/filefrag>.
 
-- Report on file fragmentation:
+- Display a report for a specific file:
 
-`filefrag {{file}}`
+`filefrag {{path/to/file}}`
 
-- Generate report for multiple files:
+- Display a report for space-separated list of files:
 
-`filefrag {{file1}} {{file2}}`
+`filefrag {{path/to/file1}} {{path/to/file2}}`
 
-- Use 1024 byte blocksize for the output:
+- Display a report using a 1024 byte blocksize:
 
-`filefrag -b {{files}}`
+`filefrag -b {{path/to/file}}`
 
 - Sync the file before requesting the mapping:
 
-`filefrag -s {{files}}`
+`filefrag -s {{path/to/files}}`
 
 - Display mapping of extended attributes:
 
-`filefrag -x {{files}}`
+`filefrag -x {{path/to/files}}`
 
-- Be verbose when checking for file fragmentation:
+- Display a report with verbose information:
 
-`filefrag -v {{files}}`
+`filefrag -v {{path/to/files}}`
