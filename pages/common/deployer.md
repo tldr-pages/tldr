@@ -1,4 +1,4 @@
-# dep
+# deployer
 
 > A CLI tool for deployment of PHP applications.
 > More information: <https://deployer.org>.
