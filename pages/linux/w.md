@@ -1,7 +1,6 @@
 # w
 
 > Display who is logged in and their processes.
-
 > More information: <https://www.geeksforgeeks.org/w-command-in-linux-with-examples/>.
 
 - Show information of all users logged in:
