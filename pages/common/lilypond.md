@@ -7,7 +7,7 @@
 
 `lilypond {{path/to/file}}`
 
-- Compile file into specified format:
+- Compile into the specified format:
 
 `lilypond --formats={{format_dump}} {{name_file}}`
 
