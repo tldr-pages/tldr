@@ -15,7 +15,7 @@
 
 `direnv allow`
 
-- Trigger an env reload:
+- Trigger a reload of the environment:
 
 `direnv reload`
 
