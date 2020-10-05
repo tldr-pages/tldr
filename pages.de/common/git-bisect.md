@@ -2,13 +2,12 @@
 
 > Benuzt binäre Suche um den commit ausfindig zu machen, welcher einen Fehler beinhaltet.
 > Git springt im Commit-Graph automatisch vor und zurück, um denfehlerhaften Commit schrittweise einzugrenzen zu können.
-> More information: <https://git-scm.com/docs/git-bisect>.
+> Mehr Informationen: <https://git-scm.com/docs/git-bisect>.
 
 - Startet eine Bisect-Session in einem Commit-Bereich, der durch einen bekannten fehlerhaften Commit und einen sauber Commit begrenzt wird:
 
 `git bisect start {{bad_commit}} {{good_commit}}`
 
-- For each commit that `git bisect` selects, mark it as "bad" or "good" after testing it for the issue:
 - Jeder Commit, den `git bisect` auswählt, wird geprüft und mit "gut" oder "schlecht" gekennzeichnet:
 
 `git bisect {{good|bad}}`
