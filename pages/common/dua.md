@@ -5,7 +5,7 @@
 
 - Analyze specific directory:
 
-`dua {{directory}}`
+`dua {{path/to/directory}}`
 
 - Display apparent size instead of disk usage:
 
