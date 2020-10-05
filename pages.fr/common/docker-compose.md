@@ -30,4 +30,3 @@
 - Affiche et suit la journalisation de tous les conteneurs :
 
 `docker-compose logs --follow`
-
