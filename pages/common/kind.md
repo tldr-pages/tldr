@@ -12,9 +12,9 @@
 
 `kind delete clusters {{cluster-name}}`
 
-- Get one of [clusters, nodes, kubeconfig]:
+- Get details about clusters, nodes, or the kubeconfig:
 
-`kind get clusters`
+`kind get {{clusters|nodes|kubeconfig}}`
 
 - Export one of [kubeconfig, logs]:
 
