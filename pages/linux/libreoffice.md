@@ -13,7 +13,7 @@
 
 - Print files to a specific printer:
 
-`libreoffice --pt {{printer_name}} {{file1}} {{file2}}`
+`libreoffice --pt {{printer_name}} {{path/to/file1}} {{path/to/file2}}`
 
 - Convert all .doc files in current directory to pdf:
 
