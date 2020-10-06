@@ -4,9 +4,13 @@
 > Used for running the server itself, and managing an already running instance.
 > More information: <https://wiki.asterisk.org/wiki/display/AST/Home/>.
 
-- Connect to a running server, and turn on some logging:
+- [R]econnect to a running server, and turn on logging 3 levels of [v]erbosity:
 
 `asterisk -r -vvv`
+
+- [R]econnect to a runnin server, run a single command, and return:
+
+`asterisk -r -x "{{command}}"`
 
 - Show chan_SIP clients (phones):
 
