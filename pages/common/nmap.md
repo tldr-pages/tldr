@@ -10,7 +10,7 @@
 
 - Scan a block of IP addresses, and additionally attempt to guess the operating system on any hosts found:
 
-`sudo nmap -sS -O 192.168.1.0/24`
+`sudo nmap -sS -O {{192.168.1.0}}/{{24}}`
 
 - Try to determine whether the specified hosts are up and what are their names:
 
