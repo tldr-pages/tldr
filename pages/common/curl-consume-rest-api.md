@@ -1,4 +1,5 @@
-> Curl REST API Requests: <br>
+# Curl-Consume-REST-APIs
+
 > Full docs here: https://curl.haxx.se/docs/ <br>
 > (N.B. the following examples work well with **Git Bash**: Install Git from here: https://git-scm.com/downloads )
 
