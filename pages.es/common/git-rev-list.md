@@ -9,7 +9,7 @@
 
 - Muestra los commits más reciente a partir de una fecha y una rama específica:
 
-`git rev-list --since={{'2019-12-01 00:00:00'}} {{main}}`
+`git rev-list --since={{'2019-12-01 00:00:00'}} {{master}}`
 
 - Muestra todos los commits fusionados en un commit específico:
 

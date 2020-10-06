@@ -13,7 +13,7 @@
 
 - Revert multiple commits:
 
-`git revert {{main~5..main~2}}`
+`git revert {{master~5..master~2}}`
 
 - Don't create new commits, just change the working tree:
 
