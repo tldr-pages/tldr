@@ -27,6 +27,11 @@ Community members are asked to abide by the following principles:
    Remember, it's very hard to convey meaning on a purely written medium,
    especially between people from different cultures, technical backgrounds,
    English proficiency levels, etc.
+   Where possible, we use inclusive language, but sometimes we have kept the
+   original to preserve the original meaning of the text. We are merely
+   *documenting* here, not taking a political stance. If a tool attributes
+   any particular meaning to a particular term (i.e. master/slave) we
+   document it as is.
 
 3. **All communications are public**.
    There are no permanent private channels
