@@ -17,4 +17,4 @@
 
 - Short format,ignore login time, JCPU or PCPU times:
 
-`w -s`
+`w --short`
