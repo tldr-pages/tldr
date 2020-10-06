@@ -21,7 +21,7 @@
 
 - Set JDK version for current shell session:
 
-`jenv shell {{java version}}`
+`jenv shell {{java_version}}`
 
 - To enable a jEnv plugin:
 
