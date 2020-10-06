@@ -15,6 +15,6 @@
 
 `w --no-header`
 
-- Short format,ignore login time, JCPU or PCPU times:
+- Display information without include login, JCPU and PCPU columns:
 
 `w --short`
