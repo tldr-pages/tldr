@@ -7,7 +7,7 @@
 
 `w`
 
-- Show information of specific user:
+- Display information for a specific user:
 
 `w {{user}}`
 
