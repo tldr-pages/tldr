@@ -20,7 +20,7 @@
 
 - Quit without saving:
 
-`:quit!<Enter>` or `:q!<Enter>`
+`:quit!<Enter>`
 
 - Save and quit:
 
