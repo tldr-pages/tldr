@@ -34,3 +34,7 @@
 - Add a bucket by its alias or a Git repository URL:
 
 `scoop bucket add {{bucket}}`
+
+- Remove old versions of all packages and clear the download cache:
+
+`scoop cleanup -k *`
