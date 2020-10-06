@@ -25,4 +25,4 @@
 
 - To enable a jEnv plugin:
 
-`jenv enable-plugin {{plugin name}}`
+`jenv enable-plugin {{plugin_name}}`
