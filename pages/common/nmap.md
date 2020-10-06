@@ -4,7 +4,7 @@
 > Some features only activate when Nmap is run with privileges.
 > More information: <https://nmap.org>.
 
-- To check if the IP address `192.168.1.101` is up, with it’s operating system info. It may show RTTVAR logs (for TCP) for a long time:
+- Check if an IP address is up, and guess the remote host's operating system:
 
 `nmap -O {{ip_or_hostname}}`
 
