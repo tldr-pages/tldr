@@ -2,7 +2,7 @@
 
 > Display the size of an iso file.
 
-> More information: <https://linux.die.net/man/8/isosize>
+> More information: https://linux.die.net/man/8/isosize
 
 - Display the size of an ISO file:
 
