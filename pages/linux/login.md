@@ -1,4 +1,4 @@
-# Login
+# login
 
 > Initiates a session for a user.
 
