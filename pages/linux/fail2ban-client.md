@@ -7,7 +7,7 @@
 
 `fail2ban-client status {{jail}}`
 
-- Manually unban IP from the jail service:
+- Remove the specified IP from the jail service's ban list:
 
 `fail2ban-client set {{jail}} unbanip {{ip}}`
 
