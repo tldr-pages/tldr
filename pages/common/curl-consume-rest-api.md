@@ -9,7 +9,7 @@
 
 - Make a POST request:
 
-'curl POST -d "userId=5&title={title_text_with_spaces_allowed}&body={body_text_with_spaces_allowed}" {https://example-api.com/endpoint}`
+`curl POST -d "userId=5&title={title_text_with_spaces_allowed}&body={body_text_with_spaces_allowed}" {https://example-api.com/endpoint}`
 
 - Retrieve ('GET') the resource back:
 
