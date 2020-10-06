@@ -21,4 +21,4 @@
 
 - Print 120 bytes as continuous hexdump with 20 octets per line:
 
-`xxd -l 120 -ps -c 20 {{file}}`
+`xxd -l {{120}} -ps -c {{20}} {{path/to/file}}`
