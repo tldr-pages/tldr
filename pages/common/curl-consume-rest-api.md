@@ -19,7 +19,6 @@
 
 `curl -X DELETE {https://example-api.com/endpoint/{parameter-eg-ID}}`
 
-- Authorization:
-  - Often provided with an OAuth token - request a token from the API provider
-  - example usage: <br>
-    `curl -H "Content-Type: application/json" -H "Authorization: "{token}"" -X POST -d "{"key1" : "value1", "key2" : "value2"}" {https://example.com/}`
+- Authorization - OAuth (request token from API provider):
+
+`curl -H "Content-Type: application/json" -H "Authorization: "{token}"" -X POST -d "{"key1" : "value1", "key2" : "value2"}" {https://example.com/}`
