@@ -3,13 +3,13 @@
 > Executar comandos num momento mais tarde quando a carga do sistema permitir.
 > O serviço atd (ou atrun) deve correr para atuais execuções.
 
-- Executar comandos do standard input (premir `Ctrl + D` quando terminado):
+- Executar comandos da entrada padrão (premir `Ctrl + D` quando terminado):
 
 `batch`
 
-- Executar um comando do standard input:
+- Executar um comando da entrada padrão:
 
-`echo "{{./make_db_backup.sh}}" | batch`
+`echo "{{./criar_copia_bd.sh}}" | batch`
 
 - Executar comandos de um dado ficheiro:
 
