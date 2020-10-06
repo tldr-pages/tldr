@@ -11,7 +11,7 @@
 
 `gocryptfs {{path/to/cipher_dir}} {{path/to/mount_point}}`
 
-- Mount with the explicit primary key instead of password:
+- Mount with the explicit master key instead of password:
 
 `gocryptfs --masterkey {{path/to/cipher_dir}} {{path/to/mount_point}}`
 
