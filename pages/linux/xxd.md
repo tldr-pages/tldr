@@ -17,7 +17,7 @@
 
 - Print everything but the first three lines (hex  0x30  bytes):
 
-`xxd -s 0x30 {{file}}`
+`xxd -s 0x30 {{path/to/file}}`
 
 - Print 120 bytes as continuous hexdump with 20 octets per line:
 
