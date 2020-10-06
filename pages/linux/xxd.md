@@ -9,7 +9,7 @@
 
 - Convert a Hex dump into binary:
 
-`xxd -r {{file}}`
+`xxd -r {{path/to/file}}`
 
 - Produce a binary dump:
 
