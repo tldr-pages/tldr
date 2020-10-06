@@ -13,7 +13,7 @@
 
 - Revierte múltiples commits:
 
-`git revert {{master~5..master~2}}`
+`git revert {{main~5..main~2}}`
 
 - No crea nuevos commits, solo cambia el árbol de trabajo:
 
