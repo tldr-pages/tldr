@@ -1,6 +1,6 @@
-> REST API Requests: <br>
-> (N.B. the following examples work well with **Git Bash**: <br>
-> Install Git from here: https://git-scm.com/downloads )
+> Curl REST API Requests: <br>
+> Full docs here: https://curl.haxx.se/docs/ <br>
+> (N.B. the following examples work well with **Git Bash**: Install Git from here: https://git-scm.com/downloads )
 
 - Make a GET request:
 
