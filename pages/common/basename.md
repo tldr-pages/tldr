@@ -1,6 +1,6 @@
 # basename
 
-> Removes leading directory portions from a path.
+> Remove leading directory portions from a path.
 
 - Show only the file name from a path:
 
