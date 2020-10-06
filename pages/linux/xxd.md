@@ -5,7 +5,7 @@
 
 - Display Hex representation of a file:
 
-`xxd {{file}}`
+`xxd {{path/to/file}}`
 
 - Convert a Hex dump into binary:
 
