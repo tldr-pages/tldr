@@ -11,6 +11,6 @@
 
 `git mv {{percorso/al/file}} {{percorso/al/file_rinominato}}`
 
-- Sovrascrivi un file forzatamente se già presente nel percorso di destinazione:
+- Sposta sovrascrivendo eventuali file esistenti nel percorso di destinazione:
 
 `git mv --force {{percorso/al/file}} {{nuovo/percorso/al/file}}`
