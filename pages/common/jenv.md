@@ -17,7 +17,7 @@
 
 - Set the global JDK version:
 
-`jenv global {{java version}}`
+`jenv global {{java_version}}`
 
 - Set JDK version for current shell session:
 
