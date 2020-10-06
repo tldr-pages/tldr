@@ -21,3 +21,7 @@
 - Show all information:
 
 `acpi -V`
+
+- Use /proc instead of /sys:
+
+`acpi -p`
