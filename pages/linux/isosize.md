@@ -13,4 +13,4 @@
 
 - Display the size of an iso file divided by a given number (only usable when -x is not given):
 
-`isosize -d {{number}} {{path/to/file.iso}}`
+`isosize -divisor={{number}} {{path/to/file.iso}}`
