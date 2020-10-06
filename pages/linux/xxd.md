@@ -13,7 +13,7 @@
 
 - Produce a binary dump:
 
-`xxd -b {{file}}`
+`xxd -b {{path/to/file}}`
 
 - Print everything but the first three lines (hex  0x30  bytes):
 
