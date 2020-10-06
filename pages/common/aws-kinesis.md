@@ -23,6 +23,6 @@
 
 `aws kinesis get-shard-iterator --shard-iterator-type TRIM_HORIZON --stream-name {{streamname}} --shard-id {{shard_id}}`
 
-- Read records from a shard, using a shard iterator (e.g., retrieved with get-shard-iterator):
+- Read records from a shard, using a shard iterator:
 
 `aws kinesis get-records --shard-iterator {{AAAAAAAAAAEVPE8Ghmz0wTmWN4+A0agl...TJ9i4Dp}}`
