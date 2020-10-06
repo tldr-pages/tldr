@@ -2,7 +2,7 @@
 
 > Remove one or more logical volumes.
 
-- Remove a logical volume:
+- Remove a logical volume in a volume group:
 
 `lvremove {{volume_group}}/{{logical_volume}}`
 
