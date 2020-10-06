@@ -8,7 +8,7 @@
 
 `asterisk -r -vvv`
 
-- [R]econnect to a runnin server, run a single command, and return:
+- [R]econnect to a running server, run a single command, and return:
 
 `asterisk -r -x "{{command}}"`
 
