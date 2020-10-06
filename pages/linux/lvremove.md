@@ -4,8 +4,8 @@
 
 - Remove a logical volume in a volume group:
 
-`lvremove {{volume_group}}/{{logical_volume}}`
+`sudo lvremove {{volume_group}}/{{logical_volume}}`
 
 - Remove all logical volumes in a volume group:
 
-`lvremove {{volume_group}}`
+`sudo lvremove {{volume_group}}`
