@@ -13,7 +13,7 @@
 
 - Don’t print the header:
 
-`w -h`
+`w --no-header`
 
 - Short format,ignore login time, JCPU or PCPU times:
 
