@@ -1,7 +1,7 @@
 # asterisk
 
 > Telephone and exchange (phone) server.
-> This executable is used for running the server itself, and managing an already running instance.
+> Used for running the server itself, and managing an already running instance.
 > More information: <https://wiki.asterisk.org/wiki/display/AST/Home/>.
 
 - Connect to a running server, and turn on some logging:
