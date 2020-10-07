@@ -9,7 +9,7 @@
 
 - Add bookmark with tags "search engine" and "privacy":
 
-`buku --add {{https://example.com}}} {{search engine}}, {{privacy}}`
+`buku --add {{https://example.com}} {{search engine}}, {{privacy}}`
 
 - Delete a bookmark:
 
