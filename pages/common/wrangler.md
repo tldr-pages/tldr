@@ -19,6 +19,6 @@
 
 `wrangler publish`
 
-- Aggregate logs from production worker:
+- Aggregate logs from the production worker:
 
 `wrangler tail`
