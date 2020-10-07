@@ -16,12 +16,12 @@
 
 - View the filesystem stats in debugfs console:
 
-`debugfs: stats`
+`stats`
 
 - Close the filesystem:
 
-`debugfs: close -a`
+`close -a`
 
 - List all available commands:
 
-`debugfs: lr`
+`lr`
