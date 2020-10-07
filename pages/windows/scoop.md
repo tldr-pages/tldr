@@ -27,14 +27,6 @@
 
 `scoop search {{package}}`
 
-- List all known buckets (a bucket is an application repository):
-
-`scoop bucket known`
-
-- Add a bucket by its alias or a Git repository URL:
-
-`scoop bucket add {{bucket}}`
-
 - Remove old versions of all packages and clear the download cache:
 
 `scoop cleanup -k *`
