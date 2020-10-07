@@ -1,7 +1,7 @@
 # mermaid-cli
 
 > A command-line interface (CLI) for mermaid. It takes a mermaid definition file as input and generates svg/png/pdf file as output.
-> More information: <https://mermaid-js.github.io/mermaid/#/>.
+> More information: <https://mermaid-js.github.io/mermaid/>.
 
 - Convert file to format speficied in file extension (svg|png|pdf):
 
