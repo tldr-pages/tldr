@@ -2,7 +2,7 @@
 
 > Imprime y concatena ficheros.
 
-- Imprime el contenido de un fichero en stfout:
+- Imprime el contenido de un fichero por la salida estándar:
 
 `cat {{fichero}}`
 
