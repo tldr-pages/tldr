@@ -5,23 +5,23 @@
 
 - Gebe den Inhalt einer Datei in der Standardausgabe aus:
 
-`bat {{file}}`
+`bat {{datei}}`
 
 - Verkette mehrere Dateien in eine Zieldatei:
 
-`bat {{file1}} {{file2}} > {{target_file}}`
+`bat {{datei1}} {{datei2}} > {{ziel_datei}}`
 
 - Hänge mehrere Dateien an eine Zieldatei an:
 
-`bat {{file1}} {{file2}} >> {{target_file}}`
+`bat {{datei1}} {{datei2}} >> {{ziel_datei}}`
 
 - Nummeriere alle ausgegebenen Zeilen:
 
-`bat -n {{file}}`
+`bat -n {{datei}}`
 
 - Syntax-Hervorhebung für eine json Datei:
 
-`bat --language json {{file.json}}`
+`bat --language json {{datei.json}}`
 
 - Zeige alle unterstüten Sprachen an:
 
