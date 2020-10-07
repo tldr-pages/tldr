@@ -3,7 +3,7 @@
 > Display and control your Android device on a desktop.
 > More information: <https://github.com/Genymobile/scrcpy>.
 
-- Display/mirror your device:
+- Display a mirror of a connected device:
 
 `scrcpy`
 
