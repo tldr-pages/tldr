@@ -9,7 +9,7 @@
 
 - Start display in fullscreen mode:
 
-`scrcpy -f`
+`scrcpy --fullscreen`
 
 - Rotate the display screen. Each incremental value adds a 90 degree counterclockwise rotation:
 
