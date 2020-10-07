@@ -23,6 +23,6 @@
 
 `jenv shell {{java_version}}`
 
-- To enable a jEnv plugin:
+- Enable a jEnv plugin:
 
 `jenv enable-plugin {{plugin_name}}`
