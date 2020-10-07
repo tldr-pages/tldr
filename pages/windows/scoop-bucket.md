@@ -1,7 +1,7 @@
 # scoop bucket
 
-> A bucket is an application repository.
-> Some buckets are already known to scoop, so you don't have to provide an url.
+> A bucket is Git repository containing files which describe how scoop installs applications.
+> If Scoop doesn't know where the bucket is located we have to specify its repository location.
 > More information: <https://github.com/lukesampson/scoop/wiki/Buckets>.
 
 - List all buckets currently in use:
@@ -16,9 +16,9 @@
 
 `scoop bucket add {{name}}`
 
-- Add an unknown bucket by its name and Git repository url:
+- Add an unknown bucket by its name and Git repository URL:
 
-`scoop bucket add {{name}} {{repository}}`
+`scoop bucket add {{name}} {{https://example.com/repository.git}}`
 
 - Remove a bucket by its name:
 
