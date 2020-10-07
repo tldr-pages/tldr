@@ -1,6 +1,6 @@
 # jenv
 
-> JEnv is a command line tool to help you forget how to set the "JAVA_HOME" environment variable.
+> Command line tool to manage the "JAVA_HOME" environment variable.
 > More information: <https://www.jenv.be/>.
 
 - Add a java version to jEnv:
