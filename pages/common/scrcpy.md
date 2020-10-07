@@ -1,6 +1,6 @@
 # scrcpy
 
-> Display and control your Android device on a desktop .
+> Display and control your Android device on a desktop.
 > More information: <https://github.com/Genymobile/scrcpy>.
 
 - Display/mirror your device:
