@@ -1,7 +1,7 @@
 # scoop bucket
 
-> A bucket is a Git repository containing files which describe how scoop installs applications.
-> If Scoop doesn't know where the bucket is located we have to specify its repository location.
+> Manage buckets: Git repositories containing files which describe how scoop installs applications.
+> If Scoop doesn't know where the bucket is located its repository location must be specified.
 > More information: <https://github.com/lukesampson/scoop/wiki/Buckets>.
 
 - List all buckets currently in use:
