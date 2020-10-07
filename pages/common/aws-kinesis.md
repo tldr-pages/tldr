@@ -25,4 +25,4 @@
 
 - Read records from a shard, using a shard iterator:
 
-`aws kinesis get-records --shard-iterator {{AAAAAAAAAAEVPE8Ghmz0wTmWN4+A0agl...TJ9i4Dp}}`
+`aws kinesis get-records --shard-iterator {{shard_iterator}}`
