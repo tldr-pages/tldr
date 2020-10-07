@@ -17,7 +17,7 @@
 
 - Show touches on physical device:
 
-`scrcpy -t`
+`scrcpy --show-touches`
 
 - Record display screen:
 
