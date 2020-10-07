@@ -8,7 +8,7 @@
 
 - Apaga la máquina:
 
-`halt -p`
+`halt --poweroff`
 
 - Reinicia la máquina:
 
