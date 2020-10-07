@@ -29,4 +29,4 @@
 
 - Set an environment variable in a running bash session:
 
-`docker exec -it -e {{variable-name}}={{value}} {{container-name}} /bin/bash`
+`docker exec -it -e {{variable_name}}={{value}} {{container_name}} {{/bin/bash}}`
