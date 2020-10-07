@@ -11,7 +11,7 @@
 
 `w {{user}}`
 
-- Display information without include the header:
+- Display information without including the header:
 
 `w --no-header`
 
