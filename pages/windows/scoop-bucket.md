@@ -1,6 +1,6 @@
 # scoop bucket
 
-> A bucket is Git repository containing files which describe how scoop installs applications.
+> A bucket is a Git repository containing files which describe how scoop installs applications.
 > If Scoop doesn't know where the bucket is located we have to specify its repository location.
 > More information: <https://github.com/lukesampson/scoop/wiki/Buckets>.
 
