@@ -1,7 +1,7 @@
 # psping
 
 > A ping tool that includes TCP ping, latency and bandwidth measurement.
-> More information: <https://docs.microsoft.com/en-us/sysinternals/downloads/psping>.
+> More information: <https://docs.microsoft.com/sysinternals/downloads/psping>.
 
 - Ping a host using ICMP:
 
@@ -17,7 +17,7 @@
 
 - Ping the target over TCP 50 times and produce a histogram of the results:
 
-`psping {{hostname}}:{{port}} -q -n 50 -h`
+`psping {{hostname}}:{{port}} -q -n {{50}} -h`
 
 - Display usage information:
 
