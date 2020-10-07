@@ -2,22 +2,22 @@
 
 > Imprime y concatena archivos.
 
-- Imprime el contenido de un fichero por la salida estándar:
+- Imprime el contenido de un archivo por la salida estándar:
 
-`cat {{fichero}}`
+`cat {{archivo}}`
 
-- Concatena múltiples ficheros dentro de un fichero determinado:
+- Concatena múltiples archivos dentro de un archivo determinado:
 
-`cat {{fichero1}} {{fichero2}} > {{fichero_final}}`
+`cat {{archivo1}} {{archivo2}} > {{archivo_final}}`
 
-- Añade múltiples ficheros dentro de un fichero determinado:
+- Añade múltiples archivos dentro de un archivo determinado:
 
-`cat {{fichero1}} {{fichero2}} >> {{fichero_final}}`
+`cat {{archivo1}} {{archivo2}} >> {{archivo_final}}`
 
-- Muestra el número de líneas de un fichero:
+- Muestra el número de líneas de un archivo:
 
-`cat -n {{fichero}}`
+`cat -n {{archivo}}`
 
 - Muestra los carácteres no imprimibles y espacios en blanco (con el prefijo `M-` si no es ASCII):
 
-`cat -v -t -e {{fichero}}`
+`cat -v -t -e {{archivo}}`
