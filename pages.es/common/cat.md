@@ -1,6 +1,6 @@
 # cat
 
-> Imprime y concatena ficheros.
+> Imprime y concatena archivos.
 
 - Imprime el contenido de un fichero por la salida estándar:
 
