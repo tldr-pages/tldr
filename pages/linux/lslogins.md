@@ -3,14 +3,26 @@
 > Show information about users in the Linux system.
 > More information: <https://man7.org/linux/man-pages/man1/lslogins.1.html>.
 
-- List data about users in the system:
+- Display users in the system:
 
 `lslogins`
 
-- List data about users in the system that are in groups:
+- Diplay users in the system that are in groups:
 
-`lslogins --groups`
+`lslogins --groups={{groups}}`
 
-- List information about user accounts:
+- Display user accounts:
 
 `lslogins --user-accs`
+
+- Display last logins:
+
+`lslogins --last`
+
+- Display system accounts:
+
+`lslogins --system-accs`
+
+- Display supplementary groups:
+
+`lslogins --supp-groups`
