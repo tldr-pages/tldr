@@ -19,7 +19,7 @@
 
 `jenv global {{java_version}}`
 
-- Set JDK version for current shell session:
+- Set the JDK version for the current shell session:
 
 `jenv shell {{java_version}}`
 
