@@ -15,6 +15,6 @@
 
 `w --no-header`
 
-- Display information without include login, JCPU and PCPU columns:
+- Display information without including the login, JCPU and PCPU columns:
 
 `w --short`
