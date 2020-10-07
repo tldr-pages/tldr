@@ -7,7 +7,7 @@
 
 `jenv add {{path/to/jdk_home}}`
 
-- Display current JDK version used:
+- Display the current JDK version used:
 
 `jenv version`
 
