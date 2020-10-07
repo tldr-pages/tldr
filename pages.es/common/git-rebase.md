@@ -4,7 +4,7 @@
 > Se utiliza comúnmente para "mover" una rama entera a otra base, ya que crea copias de los commits en una nueva ubicación.
 > Más información: <https://git-scm.com/docs/git-rebase>.
 
-- Rebasa la rama actual en lo más alto de una rama:
+- Reorganiza la rama actual en lo más alto de otra rama:
 
 `git rebase {{branch_name}}`
 
