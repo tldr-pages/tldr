@@ -1,7 +1,7 @@
 # dotnet
 
 > Plattformübergreifende Kommandozeilenandwendungen für .NET Core.
-> Mehr Informationen: <https://docs.microsoft.com/de-de/dotnet/core/tools/>.
+> Mehr Informationen: <https://docs.microsoft.com/dotnet/core/tools/>.
 
 - Ein neues .NET Projekt initialisieren:
 
