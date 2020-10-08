@@ -11,9 +11,9 @@
 
 `git sync`
 
-- Publish branch to remote server:
+- Publish a specified branch to the remote server:
 
-`git publish {{branch}}`
+`git publish {{branch_name}}`
 
 - Remove branch from remote server:
 
