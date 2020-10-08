@@ -7,7 +7,7 @@
 
 `git switch {{target_branch}}`
 
-- Synchronize current branch. Auto-merge/rebase, un/stash:
+- Synchronize current branch, automatically merging or rebasing, and stashing and unstashing:
 
 `git sync`
 
