@@ -5,8 +5,8 @@
 
 - ディレクトリを作成します:
 
-`mkdir {{directory_name}}`
+`mkdir {{ディレクトリ名}}`
 
 - ネストされたディレクトリツリーを再帰的に作成します:
 
-`mkdir {{path/to/sub_directory_name}}`
+`mkdir {{サブディレクトリ名のパス}}`
