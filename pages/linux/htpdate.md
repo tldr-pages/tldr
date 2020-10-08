@@ -6,7 +6,7 @@
 
 - Synchronize date and time:
 
-`htpdate {{host}}`
+`sudo htpdate {{host}}`
 
 - Perform simulation of syncronization, without any action:
 
@@ -14,8 +14,8 @@
 
 - Compensate the systematisch clock drift:
 
-`htpdate -x {{host}}`
+`sudo htpdate -x {{host}}`
 
 - Set time immediate after the syncronization:
 
-`htpdate -s {{host}}`
+`sudo htpdate -s {{host}}`
