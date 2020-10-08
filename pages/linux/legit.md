@@ -19,9 +19,9 @@
 
 `git unpublish {{branch_name}}`
 
-- List of branches + publication status:
+- List all branches and their publication status:
 
-`git branches {{wildcard pattern}}`
+`git branches {{glob_pattern}}`
 
 - Remove the last commit from the history:
 
