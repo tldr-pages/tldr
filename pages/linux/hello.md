@@ -11,6 +11,6 @@
 
 `hello --traditional`
 
-- Print a custom text:
+- Print a text message:
 
 `hello --greeting="{{tldr}}"`
