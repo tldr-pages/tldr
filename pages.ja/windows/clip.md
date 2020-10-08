@@ -13,8 +13,8 @@
 
 - 末尾に改行が付いたテキストをWindowsクリップボードにコピーします:
 
-`echo {{some text}} | clip`
+`echo {{テキスト}} | clip`
 
 - 末尾の改行なしでテキストをWindowsクリップボードにコピーします:
 
-`echo | set /p="some text" | clip`
+`echo | set /p="テキスト" | clip`
