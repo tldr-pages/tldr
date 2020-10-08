@@ -1,4 +1,4 @@
-# mermaid-cli
+# mmdc
 
 > A command-line interface (CLI) for mermaid. It takes a mermaid definition file as input and generates svg/png/pdf file as output.
 > More information: <https://mermaid-js.github.io/mermaid/>.
