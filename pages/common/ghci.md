@@ -15,7 +15,7 @@
 
 `ghci -X{{language_option}}`
 
-- Start a REPL and enable some level of compiler warnings:
+- Start a REPL and enable some level of compiler warnings to indicate potentially suspicious code:
 
 `ghci -W{{all|compat|...}}`
 
