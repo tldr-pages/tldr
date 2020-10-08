@@ -5,16 +5,16 @@
 
 - 指定された文字列を含む行を検索します:
 
-`find {{string}} {{path/to/file_or_directory}}`
+`find {{文字列}} {{ファイルまたはディレクトリのパス}}`
 
 - 指定された文字列を含まない行を表示します:
 
-`find {{string}} {{path/to/file_or_directory}} /v`
+`find {{文字列}} {{ファイルまたはディレクトリのパス}} /v`
 
 - 指定された文字列を含む行数を表示します:
 
-`find {{string}} {{path/to/file_or_directory}} /c`
+`find {{文字列}} {{ファイルまたはディレクトリのパス}} /c`
 
 - 行リストとともに行番号を表示します:
 
-`find {{string}} {{path/to/file_or_directory}} /n`
+`find {{文字列}} {{ファイルまたはディレクトリのパス}} /n`
