@@ -15,9 +15,9 @@
 
 `git publish {{branch_name}}`
 
-- Remove branch from remote server:
+- Remove a branch from the remote server:
 
-`git unpublish {{branch}}`
+`git unpublish {{branch_name}}`
 
 - List of branches + publication status:
 
