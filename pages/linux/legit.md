@@ -5,7 +5,7 @@
 
 - Switch to a specified branch, stashing and restoring unstaged changes:
 
-`git switch <branch>`
+`git switch {{target_branch}}`
 
 - Synchronize current branch. Auto-merge/rebase, un/stash:
 
