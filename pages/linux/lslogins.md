@@ -7,7 +7,7 @@
 
 `lslogins`
 
-- Diplay users in the system that are in groups:
+- Display users belonging to a specific group:
 
 `lslogins --groups={{groups}}`
 
