@@ -19,6 +19,6 @@
 
 `ghci -Wall`
 
-- Start an interactive REPL session with the specified search path for finding source files:
+- Start an interactive REPL session with a colon-separated list of directories for finding source files:
 
 `ghci -i{{dir1:...:dirn}}`
