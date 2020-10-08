@@ -1,6 +1,7 @@
 # mmdc
 
-> A command-line interface (CLI) for mermaid. It takes a mermaid definition file as input and generates svg/png/pdf file as output.
+> CLI for mermaid, a diagram generation tool with a domain-specific language.
+> A mermaid definition file is taken as input and a svg, png, or pdf file is generated as output.
 > More information: <https://mermaid-js.github.io/mermaid/>.
 
 - Convert file to format speficied in file extension (svg|png|pdf):
