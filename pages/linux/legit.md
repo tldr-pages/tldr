@@ -3,7 +3,7 @@
 > Complementary command-line interface for Git.
 > More information: <https://frostming.github.io/legit>.
 
-- Switch to branch. Stash and restore unstaged changes:
+- Switch to a specified branch, stashing and restoring unstaged changes:
 
 `git switch <branch>`
 
