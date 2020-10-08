@@ -10,7 +10,7 @@
 
 `chown {{usuario}}:{{grupo}} {{ruta/hacia/archivo_o_directorio}}`
 
-- Cambia de forma recursiva la propiedad sobre un directorio y su contenido:
+- Cambia de forma recursiva el propietario sobre un directorio y su contenido:
 
 `chown -R {{usuario}} {{ruta/hacia/directorio}}`
 
