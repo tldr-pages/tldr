@@ -19,6 +19,10 @@
 
 `gem install {{gemname}} --version {{1.0.0}}`
 
+- Install the latest matching (SemVer) version of a gem:
+
+`gem install {{gemname}} --version '~> {{1.0}}'`
+
 - Update a gem:
 
 `gem update {{gemname}}`
