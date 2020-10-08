@@ -8,9 +8,9 @@
 
 `mmdc --input {{input.mmd}} --output {{output.svg}}`
 
-- Change theme of the chart (forest|dark|neutral|default):
+- Specify the theme of the chart:
 
-`mmdc --input {{input.mmd}} --output {{output.svg}} --theme {{neutral}}`
+`mmdc --input {{input.mmd}} --output {{output.svg}} --theme {{forest|dark|neutral|default}}`
 
 - Change the background color of the chart (lime|"#D8064F"|transparent):
 
