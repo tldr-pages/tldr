@@ -22,4 +22,3 @@
 - Start an interactive REPL session with the specified search path for finding source files:
 
 `ghci -i{{dir1:...:dirn}}`
-
