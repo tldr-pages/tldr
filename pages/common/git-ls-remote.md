@@ -1,7 +1,7 @@
 # git ls-remote
 
-> Git command for listing references in a remote repository based or name or url.
-> If no name or url are given, then the configured upstream branch will be used, or remote origin if the former is not configured.
+> Git command for listing references in a remote repository based or name or URL.
+> If no name or URL are given, then the configured upstream branch will be used, or remote origin if the former is not configured.
 > More information: <https://git-scm.com/docs/git-ls-remote.html>.
 
 - Show all references in the default remote repositoiory:
