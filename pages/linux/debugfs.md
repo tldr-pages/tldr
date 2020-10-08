@@ -10,7 +10,7 @@
 
 `debugfs -w {{/dev/sdXN}}`
 
-- Read commands from cmd_file file, execute them and exit:
+- Read commands from a specified file, execute them and then exit:
 
 `debugfs -f {{path/to/cmd_file}} {{/dev/sdXN}}`
 
