@@ -15,9 +15,9 @@
 
 `ghci -X{{language_option}}`
 
-- Start a REPL and enable almost all compiler warnings:
+- Start a REPL and enable some level of compiler warnings:
 
-`ghci -Wall`
+`ghci -W{{all|compat|...}}`
 
 - Start a REPL with a colon-separated list of directories for finding source files:
 
