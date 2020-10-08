@@ -23,7 +23,7 @@
 
 `awk '{s+=$1; print $1} END {print "--------"; print s}' {{archivo}}`
 
-- Imprime cada tercera línea (n+3), empezando por la primera:
+- Imprime cada tres líneas, empezando por la primera:
 
 `awk 'NR%3==1' {{archivo}}`
 
