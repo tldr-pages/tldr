@@ -23,6 +23,6 @@
 
 `git branches {{wildcard pattern}}`
 
-- Remove the last commit from history:
+- Remove the last commit from the history:
 
 `git undo {{--hard}}`
