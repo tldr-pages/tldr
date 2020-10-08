@@ -15,9 +15,9 @@
 
 `ghci -X{{language_option}}`
 
-- Start a REPL and enable some level of compiler warnings to indicate potentially suspicious code:
+- Start a REPL and enable some level of compiler warnings (e.g. `all` or `compact`):
 
-`ghci -W{{all|compat|...}}`
+`ghci -W{{warning_level}}`
 
 - Start a REPL with a colon-separated list of directories for finding source files:
 
