@@ -12,6 +12,6 @@
 
 `mmdc --input {{input.mmd}} --output {{output.svg}} --theme {{forest|dark|neutral|default}}`
 
-- Change the background color of the chart (lime|"#D8064F"|transparent):
+- Specify the background color of the chart (e.g. `lime`, `"#D8064F"`, or `transparent`):
 
 `mmdc --input {{input.mmd}} --output {{output.svg}} --backgroundColor {{color}}`
