@@ -5,16 +5,16 @@
 
 - ファイルへのシンボリックリンクを作成します:
 
-`mklink {{path/to/link}} {{path/to/source_file}}`
+`mklink {{リンクパス}} {{ソースファイルのパス}}`
 
 - ディレクトリへのシンボリックリンクを作成します:
 
-`mklink /d {{path/to/link}} {{path/to/source_directory}}`
+`mklink /d {{リンクパス}} {{ソースディレクトリパス}}`
 
 - ファイルへのハードリンクを作成します:
 
-`mklink /h {{path/to/link}} {{path/to/source_file}}`
+`mklink /h {{リンクパス}} {{ソースファイルのパス}}`
 
 - ディレクトリジャンクションを作成します:
 
-`mklink /j {{path/to/link}} {{path/to/source_file}}`
+`mklink /j {{リンクパス}} {{ソースファイルのパス}}`
