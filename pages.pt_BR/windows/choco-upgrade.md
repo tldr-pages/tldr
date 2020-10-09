@@ -15,7 +15,7 @@
 
 `choco upgrade all`
 
-- Atualizr todos, exceto os pacotes separados por vírgula especificados:
+- Atualizar todos os pacotes, exceto os especificados separados por virgula:
 
 `choco upgrade all --except "{{package(s)}}"`
 
