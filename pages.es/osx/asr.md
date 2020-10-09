@@ -5,7 +5,7 @@
 
 - Restaura una imagen de disco en un volumen:
 
-`sudo asr restore --source {{image_name}}.dmg --target {{path/to/volume}}`
+`sudo asr restore --source {{nombre_de_imagen}}.dmg --target {{ruta/al/volumen}}`
 
 - Borrar el volumen deseado antes de restaurar:
 
