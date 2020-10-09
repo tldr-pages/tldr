@@ -11,7 +11,7 @@
 
 `choco install {{path/to/packages.config}}`
 
-- Instalar um aquico específico "nuspec" ou "nupkg":
+- Instalar um arquivo específico "nuspec" ou "nupkg":
 
 `choco install {{path/to/file}}`
 
