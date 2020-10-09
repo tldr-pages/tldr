@@ -31,10 +31,6 @@
 
 `parquet-tools rowcount {{path/to/parquet}}`
 
-- Print the size of Parquet file(s):
-
-`parquet-tools size {{path/to/parquet}}`
-
 - Print the column and offset indexes of a Parquet file:
 
 `parquet-tools column-index {{path/to/parquet}}`
