@@ -4,4 +4,4 @@
 
 - Arregla una partición NTFS dada:
 
-`sudo ntfsfix {{/dev/sdb2}}`
+`sudo ntfsfix {{/dev/sdXN}}`
