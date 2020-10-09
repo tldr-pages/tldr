@@ -1,15 +1,15 @@
 # choco upgrade
 
 > Atualizar um ou mais pacotes com Chocolatey.
-> Mais informação: <https://chocolatey.org/docs/commands-upgrade>.
+> Mais informações: <https://chocolatey.org/docs/commands-upgrade>.
 
 - Atualizar um ou mais pacotes separados por espaço:
 
-`choco upgrade {{package(s)}}`
+`choco upgrade {{pacote(s)}}`
 
 - Atualizar para uma versão específica de um pacote:
 
-`choco upgrade {{package}} --version {{version}}`
+`choco upgrade {{pacote}} --version {{versão}}`
 
 - Atualizar todos pacotes:
 
@@ -17,16 +17,16 @@
 
 - Atualizar todos os pacotes, exceto os especificados separados por virgula:
 
-`choco upgrade all --except "{{package(s)}}"`
+`choco upgrade all --except "{{pacote(s)}}"`
 
 - Confirmar todos prompts automaticamente:
 
-`choco upgrade {{package}} --yes`
+`choco upgrade {{pacote}} --yes`
 
 - Especifique uma fonte personalizada para receber pacotes:
 
-`choco upgrade {{package}} --source {{source_url|alias}}`
+`choco upgrade {{pacote}} --source {{url_do_pacote|apelido}}`
 
 - Fornecer um nome e uma senha para autenticação:
 
-`choco upgrade {{package}} --user {{username}} --password {{password}}`
+`choco upgrade {{pacote}} --user {{usuario}} --password {{senha}}`
