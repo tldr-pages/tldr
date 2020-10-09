@@ -27,13 +27,9 @@ Community members are asked to abide by the following principles:
    Remember, it's very hard to convey meaning on a purely written medium,
    especially between people from different cultures, technical backgrounds,
    English proficiency levels, etc.
-   Where possible, use inclusive language in the content of pages. For
-   example, prefer terms like "denylist"/"allowlist" instead of
-   "blacklist"/"whitelist", "primary"/"secondary" instead of
-   "master"/"slave", "one" instead of "him"/"her", etc.
-   Of course, this shouldn't sacrifice content clarity, such as when documenting
-   tools where such terms have specific technical meanings, and their usage is
-   central to explaining the involved concepts.
+   Use inclusive language whenever possible and reasonable — for example,
+   [avoid assuming gender](https://en.wikipedia.org/wiki/One_(pronoun)), and
+   refrain from racially or ethnically charged terms.
 
 3. **All communications are public**.
    There are no permanent private channels
