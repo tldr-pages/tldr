@@ -13,7 +13,7 @@
 
 - Search for a pattern recursively in the current directory, ignoring non-text files:
 
-`grep -RI {{search_pattern}} .`
+`grep -RIn {{search_pattern}} .`
 
 - Use extended regular expressions (supporting `?`, `+`, `{}`, `()` and `|`), in case-insensitive mode:
 
