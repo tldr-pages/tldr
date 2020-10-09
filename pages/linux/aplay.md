@@ -2,7 +2,7 @@
 
 > Command-line sound player for ALSA soundcard driver.
 
-- Play file "foobar". Sampling rate, bit depth, and so forth will be automatically determined for supported soundfile formats:
+- Play a specific file (sampling rate, bit depth, etc. will be automatically determined for the file format):
 
 `aplay {{path/to/file}}`
 
