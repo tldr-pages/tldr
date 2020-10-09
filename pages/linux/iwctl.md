@@ -10,7 +10,7 @@
 
 `iwctl --help`
 
-- List your wifi stations:
+- Display your wifi stations:
 
 `iwctl station list`
 
@@ -18,7 +18,7 @@
 
 `iwctl station {{station}} scan`
 
-- List the networks found by a station:
+- Display the networks found by a station:
 
 `iwctl station {{station}} get-networks`
 
