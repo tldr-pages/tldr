@@ -12,4 +12,4 @@
 
 - Play the raw file "foobar" as a 22050-Hz, mono, 8-bit, Mu-Law .au file:
 
-`aplay -c 1 -t raw -r 22050 -f mu_law {{foobar}}`
+`aplay --channels={{1}} --file-type {{raw}} --rate={{22050}} --format={{mu_law}} {{path/to/file}}`
