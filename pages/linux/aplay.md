@@ -1,6 +1,6 @@
 # aplay
 
-> arecord, aplay - command-line sound recorder and player for ALSA soundcard driver
+> Command-line sound recorder (arecord) and player (aplay) for ALSA soundcard driver.
 
 - Play file "foobar". Sampling rate, bit depth, and so forth will be automatically determined for supported soundfile formats:
 
