@@ -1,6 +1,6 @@
 # git replace
 
-> Create, list, delete refs to replace objects.
+> Create, list, and delete refs to replace objects.
 > More information: <https://git-scm.com/docs/git-replace>.
 
 - Replace any commit with a different one, rest commits unchanged:
