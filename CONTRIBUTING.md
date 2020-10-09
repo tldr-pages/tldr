@@ -128,7 +128,8 @@ Examples:
 
 ## Inclusive language
 
-Where possible, use inclusive language. We know that this may not always be possible when documenting projects or technologies that keep attributing special meanings to terminology that may be perceived as non-inclusive. Nonetheless, in an effort to be clear and consistent, always document objectively and always assume good faith.
+Where possible, use inclusive language in the content of pages. For example, prefer terms like "denylist"/"allowlist" instead of "blacklist"/"whitelist", "primary"/"secondary" instead of "master"/"slave", "one" instead of "him"/"her", etc.
+Of course, this shouldn't sacrifice content clarity, such as when documenting tools where such terms have specific technical meanings, and their usage is central to explaining the involved concepts.
 
 ## Licensing
 
