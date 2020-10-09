@@ -6,7 +6,7 @@
 
 `aplay {{foobar}}`
 
-- Play first 10 seconds of soundfile at 2500hz
+- Play first 10 seconds of soundfile at 2500hz:
 
 `aplay -d 10 -r 2500 foobar`
 
