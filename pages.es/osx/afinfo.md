@@ -5,23 +5,23 @@
 
 - Muestra información de un archivo de audio dado:
 
-`afinfo {{path/to/file}}`
+`afinfo {{ruta/al/archivo}}`
 
 - Muestra una descripción de una línea del archivo de audio:
 
-`afinfo -b {{path/to/file}}`
+`afinfo -b {{ruta/al/archivo}}`
 
 - Muestra información de metadatos y contenido del InfoDictionary del archivo de audio:
 
-`afinfo -i {{path/to/file}}`
+`afinfo -i {{ruta/al/archivo}}`
 
 - Imprime la salida en formato XML:
 
-`afinfo -x {{path/to/file}}`
+`afinfo -x {{ruta/al/archivo}}`
 
 - Muestra advertencias para el archivo de audio, si las hubiera:
 
-`afinfo --warnings {{path/to/file}}`
+`afinfo --warnings {{ruta/al/archivo}}`
 
 - Muestra ayuda para un uso completo:
 

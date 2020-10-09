@@ -6,7 +6,7 @@
 
 `airport -I`
 
-- Detectar tráfico inalámbrico en el canal 1:
+- Detecta tráfico inalámbrico en el canal 1:
 
 `airport sniff {{1}}`
 

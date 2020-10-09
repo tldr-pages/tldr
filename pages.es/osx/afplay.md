@@ -2,18 +2,18 @@
 
 > Reproductor de audio de línea de comandos.
 
-- Reproducir un archivo de audio (espera hasta que finalice la reproducción):
+- Reproduce un archivo de audio (espera hasta que finalice la reproducción):
 
-`afplay {{path/to/file}}`
+`afplay {{ruta/al/archivo}}`
 
-- Reproducir un archivo de audio a una velocidad 2x (velocidad de reproducción):
+- Reproduce un archivo de audio a una velocidad 2x (velocidad de reproducción):
 
-`afplay --rate 2 {{path/to/file}}`
+`afplay --rate 2 {{ruta/al/archivo}}`
 
-- Reproducir un archivo de audio a la mitad de velocidad:
+- Reproduce un archivo de audio a la mitad de velocidad:
 
-`afplay --rate 0.5 {{path/to/file}}`
+`afplay --rate 0.5 {{ruta/al/archivo}}`
 
-- Reproducir los primeros N segundos de un archivo de audio:
+- Reproduce los primeros N segundos de un archivo de audio:
 
 `afplay --time {{segundos}} {{ruta/al/archivo}}`

@@ -7,14 +7,14 @@
 
 `sudo asr restore --source {{nombre_de_imagen}}.dmg --target {{ruta/al/volumen}}`
 
-- Borrar el volumen deseado antes de restaurar:
+- Borra el volumen deseado antes de restaurar:
 
-`sudo asr restore --source {{image_name}}.dmg --target {{path/to/volume}} --erase`
+`sudo asr restore --source {{nombre_de_imagen}}.dmg --target {{ruta/al/volumen}} --erase`
 
-- Omitir verificación después de restaurar:
+- Omite la verificación después de restaurar:
 
-`sudo asr restore --source {{image_name}}.dmg --target {{path/to/volume}} --noverify`
+`sudo asr restore --source {{nombre_de_imagen}}.dmg --target {{ruta/al/volumen}} --noverify`
 
-- Clonar volúmenes sin el uso de una imagen de disco intermedia:
+- Clona volúmenes sin el uso de una imagen de disco intermedia:
 
-`sudo asr restore --source {{path/to/volume}} --target {{path/to/cloned_volume}}`
+`sudo asr restore --source {{ruta/al/volumen}} --target {{ruta/al/volumen_clonado}}`
