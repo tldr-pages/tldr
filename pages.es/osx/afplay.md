@@ -16,4 +16,4 @@
 
 - Reproducir los primeros N segundos de un archivo de audio:
 
-`afplay --time {{seconds}} {{path/to/file}}`
+`afplay --time {{segundos}} {{ruta/al/archivo}}`
