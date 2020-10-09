@@ -2,7 +2,7 @@
 
 > Utilidad de configuración de red inalámbrica.
 
-- Muestra la información del estado actual de la red inalámbrica :
+- Muestra la información del estado actual de la red inalámbrica:
 
 `airport -I`
 
