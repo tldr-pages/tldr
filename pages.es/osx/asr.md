@@ -15,6 +15,6 @@
 
 `sudo asr restore --source {{image_name}}.dmg --target {{path/to/volume}} --noverify`
 
-- Clonar volúmenes sin el uso de una imagen de disco intermedia
+- Clonar volúmenes sin el uso de una imagen de disco intermedia:
 
 `sudo asr restore --source {{path/to/volume}} --target {{path/to/cloned_volume}}`
