@@ -12,7 +12,7 @@
 
 - Reproduce un archivo de audio a la mitad de velocidad:
 
-`afplay --rate 0.5 {{ruta/al/archivo}}`
+`afplay --rate {{0.5}} {{ruta/al/archivo}}`
 
 - Reproduce los primeros N segundos de un archivo de audio:
 
