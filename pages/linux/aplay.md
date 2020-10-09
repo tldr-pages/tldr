@@ -4,7 +4,7 @@
 
 - Play file "foobar". Sampling rate, bit depth, and so forth will be automatically determined for supported soundfile formats:
 
-`aplay {{foobar}}`
+`aplay {{path/to/file}}`
 
 - Play first 10 seconds of soundfile at 2500hz:
 
