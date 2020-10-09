@@ -6,7 +6,7 @@
 
 `aplay {{path/to/file}}`
 
-- Play first 10 seconds of soundfile at 2500hz:
+- Play the first 10 seconds of a specific file at 2500Hz:
 
 `aplay --duration={{10}} --rate={{2500}} {{path/to/file}}`
 
