@@ -8,7 +8,7 @@
 
 - Play first 10 seconds of soundfile at 2500hz:
 
-`aplay -d 10 -r 2500 foobar`
+`aplay --duration={{10}} --rate={{2500}} {{path/to/file}}`
 
 - Play the raw file "foobar" as a 22050-Hz, mono, 8-bit, Mu-Law .au file:
 
