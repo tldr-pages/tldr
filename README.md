@@ -177,4 +177,4 @@ Have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!
 TL;DR stands for "Too Long; Didn't Read".
 It originates in Internet slang, where it is used to indicate that a long text
 (or parts of it) has been skipped as too lengthy.
-Read more in Wikipedia's [TL;DR article](https://en.wikipedia.org/wiki/TL;DR).
+Read more in Wikipedia's [TL;DR essay](https://en.wikipedia.org/wiki/Wikipedia:Too_long;_didn%27t_read).
