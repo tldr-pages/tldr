@@ -8,7 +8,7 @@
 
 - Reproduce un archivo de audio a una velocidad 2x (velocidad de reproducción):
 
-`afplay --rate 2 {{ruta/al/archivo}}`
+`afplay --rate {{2}} {{ruta/al/archivo}}`
 
 - Reproduce un archivo de audio a la mitad de velocidad:
 
