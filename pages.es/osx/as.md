@@ -7,7 +7,7 @@
 
 `as {{file.s}}`
 
-- Ensamblar la salida de un archivo dado:
+- Ensamblar la salida a un archivo especificado:
 
 `as {{file.s}} -o {{out.o}}`
 
