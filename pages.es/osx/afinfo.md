@@ -15,7 +15,7 @@
 
 `afinfo -i {{path/to/file}}`
 
-- Pinta la salida en formato xml:
+- Imprime la salida en formato XML:
 
 `afinfo -x {{path/to/file}}`
 
