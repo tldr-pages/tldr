@@ -1,7 +1,7 @@
 # git replace
 
 > Create, list, delete refs to replace objects.
-> More information: <https://linux.die.net/man/1/git-replace>.
+> More information: <https://git-scm.com/docs/git-replace>.
 
 - Replace any commit with a different one, rest commits unchanged:
 
