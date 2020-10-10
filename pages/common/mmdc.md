@@ -4,7 +4,7 @@
 > A mermaid definition file is taken as input and a svg, png, or pdf file is generated as output.
 > More information: <https://mermaid-js.github.io/mermaid/>.
 
-- Convert file to the specified format (automatically determined from the file extension. svg, png, and pdf are supported):
+- Convert a file to the specified format (automatically determined from the file extension):
 
 `mmdc --input {{input.mmd}} --output {{output.svg}}`
 
