@@ -7,7 +7,7 @@
 
 `parquet-tools cat {{path/to/parquet}}`
 
-- Print the first n record of the Parquet file:
+- Display the first few lines of a Parquet file:
 
 `parquet-tools head {{path/to/parquet}}`
 
