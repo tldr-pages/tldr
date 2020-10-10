@@ -15,6 +15,6 @@
 
 `sacct --jobs {{job_id}} --allocations`
 
-- Display elapsed time, job name, number of requested CPUs, and memory requested of a job: 
+- Display elapsed time, job name, number of requested CPUs, and memory requested of a job:
 
 `sacct --jobs {{job_id}} --format={{elapsed}},{{jobname}},{{reqcpus}},{{reqmem}}`
