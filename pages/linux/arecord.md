@@ -15,7 +15,7 @@
 
 `arecord -vv --format=cd --file-type raw | lame -r - {{path/to/file.mp3}}`
 
-- List all sound cards and digital audio devices
+- List all sound cards and digital audio devices:
 
 `arecord -l`
 
