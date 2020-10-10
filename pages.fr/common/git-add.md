@@ -20,5 +20,12 @@
 `git add -f`
 
 - Ajoute des parties de fichiers interactivement :
+`git add -p`
 
+- Ajoute interactivement les parties d un fichier specifié:
+ 
 `git add -p {{path/to/file}}`
+
+- Ajouter un fichier interactivement:
+
+`git add -i`

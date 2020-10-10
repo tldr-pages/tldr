@@ -9,7 +9,7 @@
 
 - Commit tous les fichiers modifiés avec un message :
 
-`git commit -a -m {{message}}`
+`git commit -am {{message}}`
 
 - Mets à jour le dernier commit avec les modifications en stage :
 
