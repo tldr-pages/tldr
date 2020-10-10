@@ -3,7 +3,7 @@
 > A tool to show, inspect and manipulate Parquet file.
 > More information: <https://github.com/apache/parquet-mr/tree/master/parquet-tools>.
 
-- Print the content of a Parquet file:
+- Display the content of a Parquet file:
 
 `parquet-tools cat {{path/to/parquet}}`
 
