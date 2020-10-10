@@ -22,6 +22,6 @@
 
 `acpi -V`
 
-- Use /proc instead of /sys:
+- Extract information from `/proc` instead of `/sys`:
 
 `acpi -p`
