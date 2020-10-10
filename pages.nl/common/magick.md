@@ -3,6 +3,7 @@
 > Creër, bewerk, vorm, of converteer bitmapafbeeldingen.
 > ImageMagick versie 7+. Bekijk `convert` versies 6 en lager.
 > Meer informatie: <https://imagemagick.org/>.
+
 - Converteer bestandstype:
 
 `magick {{afbeelding.png}} {{afbeelding.jpg}}`
