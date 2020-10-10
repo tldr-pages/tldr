@@ -10,6 +10,10 @@
 
 `journalctl -b -1`
 
+- Show all errors from this boot (-p is priority and 3 is for errors):
+
+`journalctl -p 3 -b`
+
 - Follow new messages (like `tail -f` for traditional syslog):
 
 `journalctl -f`
