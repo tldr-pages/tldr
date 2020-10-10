@@ -10,4 +10,3 @@
 - View the allocations of a job:
 
 `sacct -j {{job_id}} --allocations`
-

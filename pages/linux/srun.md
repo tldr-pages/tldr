@@ -14,4 +14,3 @@
 - Connect to a worker node with a job running:
 
 `srun --jobid={{job_id}} --pty /bin/bash`
-

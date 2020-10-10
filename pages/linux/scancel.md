@@ -10,4 +10,3 @@
 - Cancel all jobs from a user:
 
 `scancel {{user_name}}`
-
