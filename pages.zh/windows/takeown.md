@@ -5,16 +5,16 @@
 
 - 取得指定文件的所有权:
 
-`takeown /f {{path/to/file}}`
+`takeown /f {{路径/文件}}`
 
 - 取得指定目录的所有权:
 
-`takeown /d {{path/to/directory}}`
+`takeown /d {{路径/目录}}`
 
 - 取得指定目录和所有子目录的所有权:
 
-`takeown /r /d {{path/to/directory}}`
+`takeown /r /d {{路径/目录}}`
 
 - 将所有权更改为管理员组，而不是当前用户:
 
-`takeown /a /f {{path/to/file}}`
+`takeown /a /f {{路径/文件}}`
