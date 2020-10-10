@@ -1,0 +1,20 @@
+# hive
+
+> A CLI tools to use Apache Hive.
+> More information: <https://cwiki.apache.org/confluence/display/Hive/LanguageManual+Cli>.
+
+- Call a Hive interactive shell:
+
+`hive`
+
+- Run HiveQL:
+
+`hive -e {{hiveql}}`
+
+- Run HiveQL file with a variable substitution:
+
+`hive --define {{key}}={{value}} -f {{source.sql}}`
+
+- Run HiveQL with HiveConfig (e.g. mapred.reduce.tasks=32):
+
+`hive --hiveconf {{conf_name}}={{conf_value}}`
