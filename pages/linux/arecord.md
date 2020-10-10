@@ -19,6 +19,6 @@
 
 `arecord -l`
 
-- Allow intractive interface like play/pause via spacebar/enter
+- Allow intractive interface like play/pause via spacebar/enter:
 
 `arecord -i`
