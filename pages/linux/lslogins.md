@@ -1,6 +1,6 @@
 # lslogins
 
-> Show information about users in the Linux system.
+> Show information about users on a Linux system.
 > More information: <https://man7.org/linux/man-pages/man1/lslogins.1.html>.
 
 - Display users in the system:
