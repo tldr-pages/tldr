@@ -11,11 +11,11 @@
 
 `parquet-tools head {{path/to/parquet}}`
 
-- Print the schema of Parquet file(s):
+- Print the schema of a Parquet file:
 
 `parquet-tools schema {{path/to/parquet}}`
 
-- Print the metadata of Parquet file(s):
+- Print the metadata of a Parquet file:
 
 `parquet-tools meta {{path/to/parquet}}`
 
@@ -27,7 +27,7 @@
 
 `parquet-tools merge {{path/to/parquet1}} {{path/to/parquet2}} {{path/to/target_parquet}}`
 
-- Print the count of rows in Parquet file(s):
+- Print the count of rows in a Parquet file:
 
 `parquet-tools rowcount {{path/to/parquet}}`
 
