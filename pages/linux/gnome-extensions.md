@@ -10,7 +10,7 @@
 
 `gnome-extensions list`
 
-- Show info about a particular extension:
+- Display information about a specific extension:
 
 `gnome-extensions info "{{extension name}}"`
 
