@@ -10,7 +10,7 @@
 
 `journalctl -b -1`
 
-- Show all errors from this boot (-p is priority and 3 is for errors):
+- Show all messages with priority level 3 (errors) from this boot:
 
 `journalctl -p 3 -b`
 
