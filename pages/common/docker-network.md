@@ -27,6 +27,6 @@
 
 `docker network rm {{network_name}}`
 
-- Remove all unused(not referenced by any container) networks:
+- Remove all unused (not referenced by any container) networks:
 
 `docker network prune`
