@@ -3,7 +3,7 @@
 > Colloca oggetti e riferimenti in un archivio.
 > Maggiori informazioni: <https://git-scm.com/docs/git-bundle>.
 
-- Crea un file bundle che contiene tutti gli oggeti e riferimenti di un dato ramo:
+- Crea un file bundle che contiene tutti gli oggetti e riferimenti di un dato ramo:
 
 `git bundle create {{percorso/al/file.bundle}} {{nome_ramo}}`
 
