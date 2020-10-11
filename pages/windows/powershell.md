@@ -7,28 +7,26 @@
 
 `PowerShell`
 
-- Load a specified PowerShell console file
+- Load a specific PowerShell console file:
 
-`-PSConsoleFile <FilePath>`
+`PowerShell -PSConsoleFile {{path/to/file}}`
 
-- To start a specified version of PowerShell
+- Start a session with a specified version of PowerShell:
 
-`-Version <PowerShell Version>`
+`PowerShell -Version {{version}}`
 
-- Prevent the shell from exiting after running startup commands
+- Prevent the shell from exit after running startup commands:
 
-`-NoExit`
+`PowerShell -NoExit`
 
-- To describe the format of data sent to PowerShell
+- Describe the format of data sent to PowerShell:
 
-`-InputFormat {Text | XML}`
+`PowerShell -InputFormat {{Text|XML}}`
 
-- To determines how output from PowerShell is formatted
+- Determine how output from PowerShell is formatted:
 
-`- OutputFormat {Text | XML}`
+`PowerShell -OutputFormat {{Text|XML}}`
 
 - Display help:
 
-`-Help`
-`?`
-`/?`
+`PowerShell -Help`
