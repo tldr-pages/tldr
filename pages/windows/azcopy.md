@@ -11,7 +11,7 @@
 
 `azcopy copy '{{path/to/source/file}}' 'https://{{storage-account-name}}.blob.core.windows.net/{{container-name}}/{{blob-name}}'`
 
-- Upload all .txt and .jpg files:
+- Upload files with `.txt` and `.jpg` extensions:
 
 `azcopy copy '{{path/to/source}}' 'https://{{storage-account-name}}.blob.core.windows.net/{{container-name}}' --include-pattern '*.txt;*.jpg'`
 
