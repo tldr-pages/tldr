@@ -1,7 +1,7 @@
 # acpi
-# https://sourceforge.net/projects/acpiclient/files/acpiclient/
 
 > Shows battery status or thermal information.
+> More information: <https://sourceforge.net/projects/acpiclient/files/acpiclient/>.
 
 - Show battery information:
 
