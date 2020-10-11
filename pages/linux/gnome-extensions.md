@@ -23,7 +23,7 @@
 
 `gnome-extensions enable "{{extension_id}}"`
 
-- Disable specific extension:
+- Disable a specific extension:
 
 `gnome-extension disable "{{extension_id}}"`
 
