@@ -21,4 +21,4 @@
 
 - Allow intractive interface like play/pause via spacebar/enter:
 
-`arecord -i`
+`arecord --interactive`
