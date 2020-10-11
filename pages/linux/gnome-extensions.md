@@ -21,4 +21,4 @@
 
 - Disable specific extension:
 
-`gnome-extension disable "{{extension name}}"`
+`gnome-extension disable "{{extension_id}}"`
