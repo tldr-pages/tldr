@@ -23,10 +23,10 @@
 
 `docker network disconnect {{network_name}} {{container_name|ID}}`
 
-- Remove one or more networks in docker daemon:
-
-`docker network rm {{network_name}}`
-
-- Remove all unused (not referenced by any container) networks:
+- Remove a space-separated list of unused(not referenced with any container) networks:
 
 `docker network prune`
+
+- Remove a space-separated list of networks:
+
+`docker network rm {{network_name}}`
