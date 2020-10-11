@@ -17,7 +17,7 @@
 
 - List all sound cards and digital audio devices:
 
-`arecord -l`
+`arecord --list-devices`
 
 - Allow intractive interface like play/pause via spacebar/enter:
 
