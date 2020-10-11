@@ -4,7 +4,7 @@
 
 - Strip non-deterministic information from a file:
 
-`strip-nondeterminism {{file}}` 
+`strip-nondeterminism {{file}}`
 
 - Strip nondeterministic information from a file while manually specifying the file type:
 
