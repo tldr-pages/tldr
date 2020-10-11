@@ -13,4 +13,4 @@
 
 - Strip nondeterministic information from a file; instead of removing timestamps set them to the specified UNIX timestamp:
 
-`strip-nondeterminism --timestamp {{unix-timestamp}} {{file}}`
+`strip-nondeterminism --timestamp {{unix_timestamp}} {{path/to/file}}`
