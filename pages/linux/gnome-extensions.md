@@ -3,7 +3,7 @@
 > Manage gnome extensions from the terminal.
 > More information: <https://wiki.gnome.org/Projects/GnomeShell/Extensions>.
 
-- Check the version:
+- Display the version:
 
 `gnome-extensions version`
 
