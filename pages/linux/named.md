@@ -11,7 +11,7 @@
 
 `named -c {{/path/to/named.conf}}`
 
-- Use IPv4 or IPv6 only even if the host machine is capable of the other protocol:
+- Use IPv4 or IPv6 only, even if the host machine is capable of the other protocol:
 
 `named {{-4|-6}}`
 
