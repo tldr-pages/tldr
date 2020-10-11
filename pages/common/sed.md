@@ -22,7 +22,7 @@
 
 `sed '/{{line_pattern}}/d' {{filename}}`
 
-- Print the first 11 lines of a file
+- Print the first 11 lines of a file:
 
 `sed 11q {{filename}}`
 
