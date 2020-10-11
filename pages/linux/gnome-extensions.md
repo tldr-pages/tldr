@@ -15,7 +15,7 @@
 
 `gnome-extensions info "{{extension_id}}"`
 
-- Display help for any sub-command, for example list:
+- Display help for a subcommand (like `list`):
 
 `gnome-extensions help list`
 
