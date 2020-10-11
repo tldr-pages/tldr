@@ -1,33 +1,34 @@
 # git reset
 
-> Annuler des commits ou unstage des changements, en rétablissant la HEAD courrante a un état spécifique.
-> Si un chemin est passé, il fonctionne comme "unstage"; si un hachage ou une branche de validation est passé, cela fonctionne comme "uncommit".
+> Enlève des commits ou des changements en réinitialisant la tête git à l'état spécifié.
+> Si un chemin est passé en paramètre, git reset fonctionne comme «unstage».
+> Si un hash de commit est passé en paramètre, git reset annule les commits jusqu'à ce dernier.
 > Plus d'informations: <https://git-scm.com/docs/git-reset>.
 
-- Effacer toutes les modifications:
+- Tout enlever de la *zone de stage* :
 
 `git reset`
 
-- Effacer les modifications de certains fichiers:
+- Enlever des fichiers spécifiques de la *zone de stage* :
 
 `git reset {{path/to/file(s)}}`
 
-- Effacer les modifications sur une portion de fichier:
+- Enlever une portion d'un fichier de la *zone de stage* :
 
 `git reset -p {{path/to/file}}`
 
-- Annuler le dernier commit, conserver tout les changements sur le système de fichiers local:
+- Annuler le dernier *commit*, mais garder les chagements éffectués dans votre système de fichier :
 
 `git reset HEAD~`
 
-- Annule les deux derniers commits, en ajoutant leurs modifications à l'index, c'est-à-dire en préparation pour le commit:
+- Défaire les deux derniers *commits*, et ajouter leur changements à l'index adding their changes to the index (dans la zone de stage) :
 
 `git reset --soft HEAD~2`
 
-- Annule tout changement local non commité (pour anuler seulement les fichiers non suivis voir `git checkout`):
+- Enlever tout les changements qui n'ont pas été *commit*, qu'ils soient dans la *zone de stage* ou non (pour enlever seulement les changements de la *zone de stage*, utiliser `git checkout`) :
 
 `git reset --hard`
 
-- Rétablit la branche sur un commit spécifié, en effacant tout changement ou commit effectué depuis lors.
+- Réinitialiser le dépôt à un commit spécifique en retirant tout les changements (ceci inclus les changements dans des commits entre la *tête* et le *commit* spécifié!) :
 
 `git reset --hard {{commit}}`
