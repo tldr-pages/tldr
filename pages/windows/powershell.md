@@ -27,7 +27,7 @@
 
 `- OutputFormat {Text | XML}`
 
-- Display help
+- Display help:
 
 `-Help`
 `?`
