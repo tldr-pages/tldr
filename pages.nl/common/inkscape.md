@@ -30,4 +30,4 @@
 
 - Dupliceer het object met id="pad123", roteer het duplicaat 90 graden, sla het bestand op, en sluit Inkscape af:
 
-`inkscape {{bestandsnaam.svg}} --select=path123 --verb="EditDuplicate;ObjectRotate90;FileSave;FileQuit"`
+`inkscape {{bestandsnaam.svg}} --select=path123 --verb="{{EditDuplicate;ObjectRotate90;FileSave;FileQuit}}"`
