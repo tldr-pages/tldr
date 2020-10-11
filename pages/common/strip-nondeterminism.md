@@ -6,7 +6,7 @@
 
 `strip-nondeterminism {{path/to/file}}`
 
-- Strip nondeterministic information from a file while manually specifying the file type:
+- Strip nondeterministic information from a file manually specifying the filetype:
 
 `strip-nondeterminism --type {{ar|gzip|jar|zip}} {{file}}`
 
