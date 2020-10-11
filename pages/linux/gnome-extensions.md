@@ -27,6 +27,6 @@
 
 `gnome-extension disable "{{extension_id}}"`
 
-- Uninstall specific extension:
+- Uninstall a specific extension:
 
 `gnome-extension unistall "{{extension_id}}"`
