@@ -17,7 +17,7 @@
 
 - Connect a container to a network using a name or ID:
 
-`docker network connect {{network_name}} {{container_name/id}}`
+`docker network connect {{network_name}} {{container_name|ID}}`
 
 - Disconnect a container from a network:
 
