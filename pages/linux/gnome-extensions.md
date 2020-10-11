@@ -15,6 +15,10 @@
 
 `gnome-extensions info "{{extension_id}}"`
 
+- Display help for any sub-command, for example list:
+
+`gnome-extensions help list`
+
 - Enable a specific extension:
 
 `gnome-extensions enable "{{extension_id}}"`
@@ -22,3 +26,7 @@
 - Disable specific extension:
 
 `gnome-extension disable "{{extension_id}}"`
+
+- Uninstall specific extension:
+
+`gnome-extension unistall "{{extension_id}}"`
