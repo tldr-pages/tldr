@@ -12,7 +12,7 @@
 
 - Show all messages with priority level 3 (errors) from this boot:
 
-`journalctl -p 3 -b`
+`journalctl -b --priority={{3}}`
 
 - Follow new messages (like `tail -f` for traditional syslog):
 
