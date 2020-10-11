@@ -1,7 +1,7 @@
 # exiftool
 
 > Read and write meta information in files.
-> More information: <https://exiftool.org/>.
+> More information: <https://exiftool.org>.
 
 - Remove all EXIF metadata from the given files:
 
