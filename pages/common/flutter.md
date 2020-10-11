@@ -31,6 +31,6 @@
 
 `flutter run -d all`
 
-- Run tests in terminal from the root of the project:
+- Run tests in a terminal from the root of the project:
 
 `flutter test {{test/example_test.dart}}`
