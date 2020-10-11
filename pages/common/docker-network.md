@@ -1,9 +1,9 @@
 # docker network
 
-> Create and manage docker networks.
+> Create and manage docker network.
 > More information: <https://docs.docker.com/engine/reference/commandline/network/>.
 
-- Lists all available and configured networks on docker daemon:
+- List all available and configured networks on docker daemon:
 
 `docker network ls`
 
