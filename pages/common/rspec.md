@@ -25,7 +25,7 @@
 
 - Run a specific test in a file (e.g. the test starts on line 83):
 
-`rspec {{path/to/file:83}}`
+`rspec {{path/to/file}}:{{83}}`
 
 - Run specs with a specific seed:
 
