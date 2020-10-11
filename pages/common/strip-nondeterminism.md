@@ -2,7 +2,7 @@
 
 > A tool to remove non-deterministic information (e.g. timestamps) from files.
 
-- Strip non-deterministic information from a file:
+- Strip nondeterministic information from a file:
 
 `strip-nondeterminism {{file}}`
 
