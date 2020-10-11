@@ -19,6 +19,10 @@
 
 `gh pr status`
 
+- Clone a repository locally:
+
+`gh repo clone {{OWNER/REPO}}`
+
 - Create a new issue:
 
 `gh issue create`
