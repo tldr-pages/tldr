@@ -1,24 +1,23 @@
 # gnome-extensions
 
-> Manage gnome extensions from the terminal
+> Manage gnome extensions from the terminal.
 
-- Check the version
+- Check the version:
 
 `gnome-extensions version`
 
-- List all the installed extensions
+- List all the installed extensions:
 
 `gnome-extensions list`
 
-- Show info about a particular extension
+- Show info about a particular extension:
 
 `gnome-extensions info "{{extension name}}"`
 
-- Enable a particular extension
+- Enable a particular extension:
 
 `gnome-extensions enable "{{extension name}}"`
 
-- Disable particular extension
+- Disable particular extension:
 
 `gnome-extension disable "{{extension name}}"`
-
