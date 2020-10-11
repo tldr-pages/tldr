@@ -13,7 +13,7 @@
 
 - Display information about a specific extension:
 
-`gnome-extensions info "{{extension name}}"`
+`gnome-extensions info "{{extension_id}}"`
 
 - Enable a particular extension:
 
