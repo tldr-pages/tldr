@@ -15,7 +15,7 @@
 
 `docker network inspect {{network_name}}`
 
-- Connect a container to a network:
+- Connect a container to a network using a name or ID:
 
 `docker network connect {{network_name}} {{container_name/id}}`
 
