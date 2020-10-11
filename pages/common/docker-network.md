@@ -1,0 +1,32 @@
+# docker network
+
+> Create and manage docker networks.
+> More information: <https://docs.docker.com/engine/reference/commandline/network/>.
+
+- Lists all available and configured networks on docker daemon:
+
+`docker network ls`
+
+- Create user defined network:
+
+`docker network create --driver {{driver_name}} {{network_name}}`
+
+- Display detailed information on one or more networks:
+
+`docker network inspect {{network_name}}`
+
+- Connect a container to a network:
+
+`docker network connect {{network_name}} {{container_name/id}}`
+
+- Disconnect a container from a network:
+
+`docker network disconnect {{network_name}} {{container_name/id}}`
+
+- Remove one or more networks in docker daemon:
+
+`docker network rm {{network_name}}`
+
+- Remove all unused(not referenced by any container) networks:
+
+`docker network prune`
