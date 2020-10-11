@@ -23,7 +23,7 @@
 
 `rspec {{path/to/file1}} {{path/to/file2}}`
 
-- Run a specific test in a file(e.g the test starts on line 83):
+- Run a specific test in a file (e.g. the test starts on line 83):
 
 `rspec {{path/to/file:83}}`
 
