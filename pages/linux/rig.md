@@ -11,9 +11,7 @@
 
 `rig -m`
 
-`rig -f`
-
-- Use data files found in *datadir*. Without this  option,  the  default  directory  of /usr/share/rig is assumed:
+- Use data files found in *datadir*. Without this  option, the  default  directory  of /usr/share/rig is assumed:
 
 `rig -d {{datadir}}`
 
