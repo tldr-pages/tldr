@@ -17,7 +17,7 @@
 
 - Display help for a subcommand (like `list`):
 
-`gnome-extensions help list`
+`gnome-extensions help {{subcommand}}`
 
 - Enable a specific extension:
 
