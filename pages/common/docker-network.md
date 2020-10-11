@@ -21,7 +21,7 @@
 
 - Disconnect a container from a network:
 
-`docker network disconnect {{network_name}} {{container_name/id}}`
+`docker network disconnect {{network_name}} {{container_name|ID}}`
 
 - Remove one or more networks in docker daemon:
 
