@@ -11,7 +11,7 @@
 
 `chkdsk {{volume}} /f`
 
-- Dismount specified volume before checking:
+- Dismount a specific volume before checking:
 
 `chkdsk {{volume}} /x`
 
