@@ -19,7 +19,7 @@
 
 `nodenv local {{version}}`
 
-- Show the NodeJS version for the current directory:
+- Display the Node.js version for the current directory:
 
 `nodenv version`
 
