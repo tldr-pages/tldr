@@ -15,6 +15,6 @@
 
 `chkdsk {{volume}} /x`
 
-- Use with NTFS only; change the log file size to the specified size:
+- Change the log file size to the specified size (only for NTFS):
 
 `chkdsk /l{{size}}`
