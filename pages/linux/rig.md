@@ -7,7 +7,7 @@
 
 `rig`
 
-- Specify male/female name. If neither or both options are selected, RIG uses both female and male names:
+- Display a [m]ale (or [f]emale) random name and address:
 
 `rig -{{m|f}}`
 
