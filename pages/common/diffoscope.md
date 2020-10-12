@@ -21,4 +21,4 @@
 
 - Compare two directories and control whether directory metadata is considered:
 
-`diffoscope --exclude-directory-metadata {{auto|yes|no|recursive}} {{path/to/dir1}} {{path/to/dir2}}`
+`diffoscope --exclude-directory-metadata {{auto|yes|no|recursive}} {{path/to/directory1}} {{path/to/directory2}}`
