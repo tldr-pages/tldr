@@ -1,24 +1,24 @@
 # pi
 
-> Prints 100 decimal digits of Archimedes' constant pi or a number of digits specified by an integer parameter on the command line.
+> Compute decimal Archimedes' constant Pi on the command line.
 > More information: <http://manpages.ubuntu.com/manpages/trusty/man1/pi.1.html>.
 
-- Print 100 decimal digits of Archimedes' constant pi:
+- Display 100 decimal digits of Archimedes' constant Pi:
 
 `pi`
 
-- Print *number* decimal digits of Archimedes' constant pi:
+- Display `number` decimal digits of Archimedes' constant Pi:
 
 `pi {{number}}`
 
-- Show summary of options:
+- Display help:
 
 `pi --help`
 
-- Show current version of program:
+- Display version:
 
 `pi --version`
 
-- Output recommended readings:
+- Display recommended readings:
 
 `pi --bibliography`
