@@ -6,7 +6,7 @@
 
 - Reorganiza la rama actual en lo más alto de otra rama:
 
-`git rebase {{branch_name}}`
+`git rebase {{rama_de_reorganización}}`
 
 - Inicia un rebase interactivo que permite reordenar los commits, omitirlos, combinarlos o modificarlos:
 
