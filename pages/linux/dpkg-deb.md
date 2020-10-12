@@ -14,7 +14,7 @@
 
 `dpkg-deb --contents {{path/to/file.deb}}`
 
-- Extract package contents into a directory:
+- Extract package's contents into a directory:
 
 `dpkg-deb --extract {{path/to/file.deb}} {{path/to/directory}}`
 
