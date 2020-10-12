@@ -15,6 +15,6 @@
 
 `auracle show {{packagename}} {{packagename}}`
 
-- Find updates for installed AUR packages:
+- Display updates for installed AUR packages:
 
 `auracle outdated`
