@@ -19,6 +19,6 @@
 
 `dpkg-deb --extract {{path/to/file.deb}} {{path/to/directory}}`
 
-- Create a package from the package directory:
+- Create a package from a specified directory:
 
 `dpkg-deb --build {{path/to/directory}}`
