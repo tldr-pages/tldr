@@ -17,8 +17,8 @@
 
 - Show the raw contents of the "Model" tag in the given image:
 
-`exif --ifd=0 --tag=Model --machine-readable {{image.jpg}}`
+`exif --ifd={{0}} --tag={{Model}} --machine-readable {{image.jpg}}`
 
 - Change the value of the "Artist" tag to John Smith and save to new.jpg:
 
-`exif --output=new.jpg --ifd=0 --tag=Artist --set-value="John Smith" --no-fixup {{image.jpg}}`
+`exif --output={{new.jpg}} --ifd={{0}} --tag="{{Artist}}" --set-value="{{John Smith}}" --no-fixup {{image.jpg}}`
