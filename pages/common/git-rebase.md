@@ -6,7 +6,7 @@
 
 - Rebase the current branch on top of the another specified branch:
 
-`git rebase {{branch_name}}`
+`git rebase {{new_base_branch}}`
 
 - Start an interactive rebase, which allows the commits to be reordered, omitted, combined or modified:
 
