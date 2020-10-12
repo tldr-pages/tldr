@@ -11,7 +11,7 @@
 
 `auracle info {{packagename}} {{packagename}}`
 
-- Show the contents of a source file for a/multiple package(s) (e.g. the PKGBUILD):
+- Display the  `PKGBUILD` file (build information) for a space-separated list of AUR packages:
 
 `auracle show {{packagename}} {{packagename}}`
 
