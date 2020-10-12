@@ -9,7 +9,7 @@
 
 - Specify male/female name. If neither or both options are selected, RIG uses both female and male names:
 
-`rig {{-m|-f}}`
+`rig -{{m|f}}`
 
 - Use data files from a specific directory (default is `/usr/share/rig`):
 
