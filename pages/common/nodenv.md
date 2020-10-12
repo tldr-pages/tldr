@@ -23,6 +23,6 @@
 
 `nodenv version`
 
-- Show the location of a NodeJS-installed command, e.g. `npm`:
+- Display the location of a Node.js installed command (e.g. `npm`):
 
 `nodenv which {{command}}`
