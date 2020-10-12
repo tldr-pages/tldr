@@ -13,4 +13,4 @@
 
 - Agree to everything prompted by the `sudo apt-get` command:
 
-`sudo apt-get install {{program}} | yes`
+`yes | sudo apt-get install {{program}}`

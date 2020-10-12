@@ -14,4 +14,4 @@
 
 - Accepter tout ce qui est demandé par la commande `sudo apt-get`:
 
-`sudo apt-get install {{program}} | yes`
+`yes | sudo apt-get install {{program}}`
