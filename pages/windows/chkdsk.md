@@ -7,7 +7,7 @@
 
 `chkdsk {{volume}}`
 
-- Fix errors on specified volume:
+- Fix errors on a specific volume:
 
 `chkdsk {{volume}} /f`
 
