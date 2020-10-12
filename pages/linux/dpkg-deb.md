@@ -2,7 +2,7 @@
 
 > Pack, unpack and provide information about Debian archives.
 
-- Information about a package:
+- Display information about a package:
 
 `dpkg-deb --info {{path/to/file.deb}}`
 
