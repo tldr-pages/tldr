@@ -11,7 +11,7 @@
 
 `nodenv install --list`
 
-- Use a specific version of NodeJS across the whole system:
+- Use a specific version of Node.js across the whole system:
 
 `nodenv global {{version}}`
 
