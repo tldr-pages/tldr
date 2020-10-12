@@ -11,9 +11,9 @@
 
 `rig {{-m|-f}}`
 
-- Use data files found in *datadir*. Without this  option, the  default  directory  of /usr/share/rig is assumed:
+- Use data files from a specific directory (default is `/usr/share/rig`):
 
-`rig -d {{datadir}}`
+`rig -d {{path/to/directory}}`
 
 - Display a specific `count` of identities:
 
