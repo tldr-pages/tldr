@@ -23,7 +23,7 @@
 
 `docker network disconnect {{network_name}} {{container_name|ID}}`
 
-- Remove all unused(not referenced by any container) networks:
+- Remove all unused (not referenced by any container) networks:
 
 `docker network prune`
 
