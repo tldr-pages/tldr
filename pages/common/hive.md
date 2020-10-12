@@ -9,7 +9,7 @@
 
 - Run HiveQL:
 
-`hive -e {{hiveql}}`
+`hive -e "{{hiveql_query}}"`
 
 - Run HiveQL file with a variable substitution:
 
