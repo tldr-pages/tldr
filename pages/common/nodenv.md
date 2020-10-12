@@ -15,7 +15,7 @@
 
 `nodenv global {{version}}`
 
-- Use a specific version of NodeJS with a directory:
+- Use a specific version of Node.js with a directory:
 
 `nodenv local {{version}}`
 
