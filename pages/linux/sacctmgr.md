@@ -1,6 +1,6 @@
 # sacctmgr
 
-> Used to view, setup and manage accounts.
+> View, setup, and manage Slurm accounts.
 > More information: <https://slurm.schedmd.com/sacctmgr.html>.
 
 - Show current configuration:
