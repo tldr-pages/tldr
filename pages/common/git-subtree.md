@@ -11,7 +11,7 @@
 
 `git subtree pull --prefix={{path/to/directory/}} {{repository_url}} {{branch_name}}`
 
-- Merge a subtree repository into a specified branch:
+- Merge recent changes up to the latest subtree commit into the subtree:
 
 `git subtree merge --prefix={{path/to/directory/}} --squash {{repository_url}} {{branch_name}}`
 
