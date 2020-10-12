@@ -1,7 +1,7 @@
 # module
 
 > Modify a users' environment using the module command.
-> More information: <https://modules.readthedocs.io/en/latest/module.html>.
+> More information: <https://lmod.readthedocs.io/en/latest/010_user.html>.
 
 - Display available modules:
 
