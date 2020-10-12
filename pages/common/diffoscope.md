@@ -1,6 +1,6 @@
 # diffoscope
 
-> Comparison of files, archives and directories.
+> Compare files, archives, and directories.
 > More information: <https://diffoscope.org>.
 
 - Compare two files:
