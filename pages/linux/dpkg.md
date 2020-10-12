@@ -15,7 +15,7 @@
 
 `dpkg -l {{pattern}}`
 
-- List package's contents:
+- List a package's contents:
 
 `dpkg -L {{package_name}}`
 
