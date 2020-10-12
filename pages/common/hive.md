@@ -15,6 +15,6 @@
 
 `hive --define {{key}}={{value}} -f {{path/to/file.sql}}`
 
-- Run HiveQL with HiveConfig (e.g. mapred.reduce.tasks=32):
+- Run a HiveQL with HiveConfig (e.g. mapred.reduce.tasks=32):
 
 `hive --hiveconf {{conf_name}}={{conf_value}}`
