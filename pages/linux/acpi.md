@@ -1,6 +1,7 @@
 # acpi
 
 > Shows battery status or thermal information.
+> More information: <https://sourceforge.net/projects/acpiclient/files/acpiclient/>.
 
 - Show battery information:
 
@@ -21,3 +22,7 @@
 - Show all information:
 
 `acpi -V`
+
+- Extract information from `/proc` instead of `/sys`:
+
+`acpi -p`
