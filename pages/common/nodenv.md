@@ -3,7 +3,7 @@
 > A tool to manage NodeJS versions.
 > More information: <https://github.com/nodenv/nodenv>.
 
-- Install a version of NodeJS:
+- Install a specific version of Node.js:
 
 `nodenv install {{version}}`
 
