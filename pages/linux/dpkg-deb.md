@@ -10,7 +10,7 @@
 
 `dpkg-deb --show {{path/to/file.deb}}`
 
-- List the package contents:
+- List the package's contents:
 
 `dpkg-deb --contents {{path/to/file.deb}}`
 
