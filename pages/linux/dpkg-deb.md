@@ -6,7 +6,7 @@
 
 `dpkg-deb --info {{path/to/file.deb}}`
 
-- Show the package's name and version on one line:
+- Display the package's name and version on one line:
 
 `dpkg-deb --show {{path/to/file.deb}}`
 
