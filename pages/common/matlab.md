@@ -9,7 +9,7 @@
 
 - Execute a MATLAB statement:
 
-`matlab -r {{matlab_statement}}`
+`matlab -r "{{matlab_statement}}"`
 
 - Run a MATLAB script:
 
