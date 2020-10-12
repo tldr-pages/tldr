@@ -11,7 +11,7 @@
 
 `hive -e "{{hiveql_query}}"`
 
-- Run HiveQL file with a variable substitution:
+- Run a HiveQL file with a variable substitution:
 
 `hive --define {{key}}={{value}} -f {{path/to/file.sql}}`
 
