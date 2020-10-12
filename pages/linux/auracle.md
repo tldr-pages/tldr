@@ -7,7 +7,7 @@
 
 `auracle search {{regexp}}`
 
-- Print detailed information about packages:
+- Display package information for a space-separated list of AUR packages:
 
 `auracle info {{packagename}} {{packagename}}`
 
