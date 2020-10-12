@@ -15,6 +15,6 @@
 
 `tree {{caminho/para/diretório}} /f`
 
-- Exibe a árvore usando caractéres ASCII, em vez de caractéres estendidos:
+- Exibe a árvore usando caractéres ASCII:
 
 `tree {{caminho/para/diretório}} /a`
