@@ -13,7 +13,7 @@
 
 - Run HiveQL file with a variable substitution:
 
-`hive --define {{key}}={{value}} -f {{source.sql}}`
+`hive --define {{key}}={{value}} -f {{path/to/file.sql}}`
 
 - Run HiveQL with HiveConfig (e.g. mapred.reduce.tasks=32):
 
