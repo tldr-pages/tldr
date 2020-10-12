@@ -1,4 +1,4 @@
-# MATLAB
+# matlab
 
 > Numerical computation environment by MathWorks.
 > More information: <https://uk.mathworks.com/help/matlab/>.
