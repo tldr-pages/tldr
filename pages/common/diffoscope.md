@@ -17,7 +17,7 @@
 
 - Compare two directories excluding files with a name matching a specified pattern:
 
-`diffoscope --exclude {{pattern}} {{path/to/dir1}} {{path/to/dir2}}`
+`diffoscope --exclude {{pattern}} {{path/to/directory1}} {{path/to/directory2}}`
 
 - Compare two directories and control whether directory metadata is considered:
 
