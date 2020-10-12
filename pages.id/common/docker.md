@@ -13,11 +13,11 @@
 
 - Memulai sebuah kontainer dari image, dengan nama kustom:
 
-`docker run --name {{container_name}} {{image}}`
+`docker run --name {{nama_kontainer}} {{image}}`
 
 - Memulai atau menghentikan kontainer yang tersedia:
 
-`docker {{start|stop}} {{container_name}}`
+`docker {{start|stop}} {{nama_kontainer}}`
 
 - Menarik image dari registri docker:
 
@@ -25,12 +25,12 @@
 
 - Membuka shell didalam sebuah kontainer yang sedang berjalan:
 
-`docker exec -it {{container_name}} {{sh}}`
+`docker exec -it {{nama_kontainer}} {{sh}}`
 
 - Menghapus kontainer yang sedang berhenti:
 
-`docker rm {{container_name}}`
+`docker rm {{nama_kontainer}}`
 
 - Mengambil dan mengikuti semua log dari sebuah kontainer:
 
-`docker logs -f {{container_name}}`
+`docker logs -f {{nama_kontainer}}`

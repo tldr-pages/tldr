@@ -14,19 +14,19 @@
 
 - Unduh versi tertentu dari sebuah paket dan menambahkan ke daftar dependensi di package.json:
 
-`npm install {{module_name}}@{{version}}`
+`npm install {{nama_modul}}@{{versi}}`
 
 - Unduh paket dan menambahkan ke daftar dependensi dev di package.json:
 
-`npm install {{module_name}} --save-dev`
+`npm install {{nama_modul}} --save-dev`
 
 - Unduh paket dan instal secara global:
 
-`npm install -g {{module_name}}`
+`npm install -g {{nama_modul}}`
 
 - Copot pemasangan paket dan hapus dari daftar dependensi di package.json:
 
-`npm uninstall {{module_name}}`
+`npm uninstall {{nama_modul}}`
 
 - Mencetak pohon dependensi yang diinstal secara lokal:
 

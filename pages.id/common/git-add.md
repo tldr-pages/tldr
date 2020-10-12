@@ -5,7 +5,7 @@
 
 - Tambahkan file ke indeks:
 
-`git add {{path/to/file}}`
+`git add {{alamat/ke/file}}`
 
 - Tambahkan semua file (yang terlacak dan tidak terlacak):
 
@@ -25,7 +25,7 @@
 
 - Menambahkan file tertentu ke status stage secara interaktif:
 
-`git add -p {{path/to/file}}`
+`git add -p {{alamat/ke/file}}`
 
 - Stage file secara interaktif:
 
