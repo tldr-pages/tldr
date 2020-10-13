@@ -13,7 +13,7 @@
 
 - Upload files with `.txt` and `.jpg` extensions:
 
-`azcopy copy '{{path/to/source}}' 'https://{{storage-account-name}}.blob.core.windows.net/{{container-name}}' --include-pattern '*.txt;*.jpg'`
+`azcopy copy '{{path/to/source}}' 'https://{{storage-account-name}}.blob.core.windows.net/{{container-name}}' --include-pattern '{{*.txt;*.jpg}}'`
 
 - Copy a container directly between two Azure storage accounts:
 
