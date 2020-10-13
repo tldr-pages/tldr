@@ -3,7 +3,7 @@
 > A CLI tools to use Apache Hive.
 > More information: <https://cwiki.apache.org/confluence/display/Hive/LanguageManual+Cli>.
 
-- Call a Hive interactive shell:
+- Start a Hive interactive shell:
 
 `hive`
 
