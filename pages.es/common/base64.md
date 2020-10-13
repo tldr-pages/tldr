@@ -1,6 +1,6 @@
 # base64
 
-> Codifica o descodifica archivos o la entrada estandar hacia/desde Base64, a la salida estandar.
+> Codifica o decodifica un archivo o la entrada estandar hacia/desde Base64, a la salida estandar.
 
 - Codifica un archivo:
 
