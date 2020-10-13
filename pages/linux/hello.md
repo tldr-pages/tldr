@@ -13,4 +13,4 @@
 
 - Print a text message:
 
-`hello --greeting="{{tldr}}"`
+`hello --greeting="{{greeting_text}}"`
