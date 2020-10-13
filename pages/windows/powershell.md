@@ -5,28 +5,28 @@
 
 - Start a Windows PowerShell session in a Command Prompt window:
 
-`PowerShell`
+`powershell`
 
 - Load a specific PowerShell console file:
 
-`PowerShell -PSConsoleFile {{path/to/file}}`
+`powershell -PSConsoleFile {{path/to/file}}`
 
 - Start a session with a specified version of PowerShell:
 
-`PowerShell -Version {{version}}`
+`powershell -Version {{version}}`
 
 - Prevent the shell from exit after running startup commands:
 
-`PowerShell -NoExit`
+`powershell -NoExit`
 
 - Describe the format of data sent to PowerShell:
 
-`PowerShell -InputFormat {{Text|XML}}`
+`powershell -InputFormat {{Text|XML}}`
 
 - Determine how output from PowerShell is formatted:
 
-`PowerShell -OutputFormat {{Text|XML}}`
+`powershell -OutputFormat {{Text|XML}}`
 
 - Display help:
 
-`PowerShell -Help`
+`powershell -Help`
