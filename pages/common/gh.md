@@ -21,7 +21,7 @@
 
 - Clone a repository locally:
 
-`gh repo clone {{OWNER/REPO}}`
+`gh repo clone {{owner}}/{{repository}}`
 
 - Create a new issue:
 
