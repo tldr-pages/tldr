@@ -3,7 +3,7 @@
 > IEx is the interactive shell for Elixir.
 > More information: <https://hexdocs.pm/iex>.
 
-- Start an empty interactive session:
+- Start an interactive session:
 
 `iex`
 
