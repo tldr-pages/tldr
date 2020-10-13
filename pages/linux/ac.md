@@ -18,5 +18,5 @@
 
 `ac --daily-totals --individual-totals {{username}}`
 
-- Short for --reboot --supplants --timewraps
+- Also display additional details:
 `ac --compatibility`
