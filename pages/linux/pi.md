@@ -7,7 +7,7 @@
 
 `pi`
 
-- Display `number` decimal digits of Archimedes' constant Pi:
+- Display a specified number of decimal digits of Archimedes' constant Pi:
 
 `pi {{number}}`
 
