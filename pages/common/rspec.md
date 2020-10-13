@@ -1,6 +1,6 @@
 # rspec
 
-> RSpec is a behavior-driven development testing framework written in programming language Ruby to test Ruby code.
+> Behavior-driven development testing framework written in Ruby to test Ruby code.
 > More information: <https://rspec.info>.
 
 - Initialise an .rspec config and a spec helper file:
