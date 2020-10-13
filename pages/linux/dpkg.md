@@ -1,6 +1,7 @@
 # dpkg
 
 > Debian package manager.
+> More information: <https://manpages.debian.org/buster/dpkg/dpkg.1.en.html>.
 
 - Install a package:
 
@@ -14,7 +15,7 @@
 
 `dpkg -l {{pattern}}`
 
-- List package contents:
+- List a package's contents:
 
 `dpkg -L {{package_name}}`
 
