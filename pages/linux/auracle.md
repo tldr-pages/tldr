@@ -3,7 +3,7 @@
 > Auracle is a command line tool used to interact with Arch Linux's User Repository, commonly referred to as the AUR.
 > More information: <https://github.com/falconindy/auracle>.
 
-- Find packages in the AUR by regular expression:
+- Display AUR packages that match a regular expression:
 
 `auracle search '{{regex}}'`
 
