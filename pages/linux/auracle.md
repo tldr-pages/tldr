@@ -13,7 +13,7 @@
 
 - Display the  `PKGBUILD` file (build information) for a space-separated list of AUR packages:
 
-`auracle show {{packagename}} {{packagename}}`
+`auracle show {{package1}} {{package2}}`
 
 - Display updates for installed AUR packages:
 
