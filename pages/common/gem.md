@@ -3,10 +3,6 @@
 > Interact with the package manager for the Ruby programming language.
 > More information: <https://rubygems.org>.
 
-- Search for remote gem(s):
-
-`gem search {{regexp}}`
-
 - Search for remote gem(s) and show all available versions:
 
 `gem search {{regexp}} --all`
