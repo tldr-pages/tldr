@@ -1,13 +1,13 @@
 # scontrol
 
-> View information about running jobs.
+> View information and modify running jobs.
 > More information: <https://slurm.schedmd.com/scontrol.html>.
 
 - Show information for job:
 
 `scontrol show job {{job_id}}`
 
-- Suspend a running job:
+- Suspend a comma-separated list of running job:
 
 `scontrol suspend {{job_id}}`
 
