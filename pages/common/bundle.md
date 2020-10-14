@@ -11,7 +11,7 @@
 
 `bundle update`
 
-- Update one/multiple specific gem(s) defined in the `Gemfile`:
+- Update one or more specific gem(s) defined in the `Gemfile`:
 
 `bundle update {{gemname}} {{gemname}}`
 
