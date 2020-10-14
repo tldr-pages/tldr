@@ -1,9 +1,9 @@
 # git add
 
-> Adiciona arquivos modificados no index
+> Adiciona arquivos modificados na área de preparação
 > Mais informações: <https://git-scm.com/docs/git-add>.
 
-- Adiciona um arquivo no index:
+- Adiciona um arquivo na área de preparação:
 
 `git add {{caminho/do/arquivo}}`
 
