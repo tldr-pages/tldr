@@ -7,6 +7,6 @@
 
 `wtf {{IMO}}`
 
-- Specify acronym search type to computer related database:
+- Specify a computer related search type:
 
 `wtf -t {{comp}} {{WWW}}`
