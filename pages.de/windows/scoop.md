@@ -1,4 +1,4 @@
- # scoop
+# scoop
 
 > Ein Kommandozeilenwerkzeug, um Windows-Programme (hier bezeichnet als Pakete) zu installieren.
 > Mehr Informationen: <https://scoop.sh>.
