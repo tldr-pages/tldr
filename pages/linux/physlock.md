@@ -1,6 +1,6 @@
 # physlock
 
-> Lock all consoles / virtual terminals.
+> Lock all consoles and virtual terminals.
 > More information: http://github.com/muennich/physlock.
 
 - Lock every console (require current user or root to unlock):
@@ -15,10 +15,10 @@
 
 `physlock -s`
 
-- Display message before the password prompt:
+- Display a message before the password prompt:
 
-`physlock -p {{"Locked!"}}`
+`physlock -p "{{Locked!}}"`
 
-- Fork and detach physlock, so it can be used in suspend/hibernate scripts:
+- Fork and detach physlock (useful for suspend or hibernate scripts):
 
 `physlock -d`
