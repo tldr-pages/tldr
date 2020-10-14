@@ -23,6 +23,6 @@
 
 `jpegtran -grayscale {{/path/to/image.jpg}}`
 
-- Crop the image to a rectangular region of width `W` and height `H`, starting at point `X` and `Y`
+- Crop the image to a rectangular region of width `W` and height `H`, starting at point `X` and `Y`:
 
 `jpegtran -crop WxH+X+Y {{/path/to/image.jpg}}`
