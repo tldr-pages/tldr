@@ -11,9 +11,21 @@
 
 `bundle update`
 
-- Update one specific gem defined in the `Gemfile`:
+- Update one or more specific gem(s) defined in the `Gemfile`:
 
-`bundle update --source {{gemname}}`
+`bundle update {{gemname}} {{gemname}}`
+
+- Update one or more specific gems(s) defined in the `Gemfile` but only to the next patch version:
+
+`bundle update --patch {{gemname}} {{gemname}}`
+
+- Update update all gems within the given group in the `Gemfile`:
+
+`bundle update --group {{development}}`
+
+- List installed gems in the `Gemfile` with newer versions available:
+
+`bundle outdated`
 
 - Create a new gem skeleton:
 
