@@ -7,18 +7,18 @@
 
 `scontrol show job {{job_id}}`
 
-- Suspend a comma-separated list of running job:
+- Suspend a comma-separated list of running jobs:
 
 `scontrol suspend {{job_id}}`
 
-- Resume a suspended job:
+- Resume a comma-separated list of suspended jobs:
 
 `scontrol resume {{job_id}}`
 
-- Hold a queued job (gives it least priority):
+- Hold a comma-separated list of queued jobs (Use `release` command to permit the jobs to be scheduled):
 
 `scontrol hold {{job_id}}`
 
-- Release a held job:
+- Release a comma-separated list of suspended job:
 
-`scontrol release  {{job_id}}`
+`scontrol release {{job_id}}`

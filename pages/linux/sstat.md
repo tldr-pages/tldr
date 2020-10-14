@@ -11,6 +11,6 @@
 
 `sstat --parsable --jobs={{job_id}} --format={{JobID}},{{AveCPU}},{{AveVMSize}}`
 
-- Show list of fields available:
+- Display list of fields available:
 
 `sstat --helpformat`
