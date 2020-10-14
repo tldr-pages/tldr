@@ -7,7 +7,7 @@
 
 `named`
 
-- Read custom configuration file:
+- Read a custom configuration file:
 
 `named -c {{path/to/named.conf}}`
 
