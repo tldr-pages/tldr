@@ -15,7 +15,7 @@
 
 `bundle update {{gemname}} {{gemname}}`
 
-- Update one/multiple specific gems(s) defined in the `Gemfile` but only to the next patch version:
+- Update one or more specific gems(s) defined in the `Gemfile` but only to the next patch version:
 
 `bundle update --patch {{gemname}} {{gemname}}`
 
