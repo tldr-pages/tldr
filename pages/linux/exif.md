@@ -5,7 +5,7 @@
 
 - Show all recognized EXIF information in an image:
 
-`exif {{image.jpg}}`
+`exif {{path/to/image.jpg}}`
 
 - Show a table listing known EXIF tags and whether each one exists in an image:
 
