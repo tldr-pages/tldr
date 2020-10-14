@@ -1,6 +1,6 @@
 # scontrol
 
-> View information and modify running jobs.
+> View information about and modify jobs.
 > More information: <https://slurm.schedmd.com/scontrol.html>.
 
 - Show information for job:
