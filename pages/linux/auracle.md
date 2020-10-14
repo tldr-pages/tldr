@@ -9,7 +9,7 @@
 
 - Display package information for a space-separated list of AUR packages:
 
-`auracle info {{packagename}} {{packagename}}`
+`auracle info {{package1}} {{package2}}`
 
 - Display the  `PKGBUILD` file (build information) for a space-separated list of AUR packages:
 
