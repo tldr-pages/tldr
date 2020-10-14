@@ -3,7 +3,7 @@
 > Show the expansions of acronyms.
 > More information: <https://manpages.debian.org/unstable/bsdgames/wtf.6.en.html>.
 
-- Expand acronym:
+- Expand a given acronym:
 
 `wtf {{IMO}}`
 
