@@ -25,3 +25,7 @@
 - Déréférencer les liens symboliques avant de copier:
 
 `cp -L {{link}} {{chemin/vers/répertoire_cible}}`
+
+- Utilisez le chemin complet des fichiers source, en créant les répertoires intermédiaires manquants lors de la copie:
+
+`cp --parents {{source/chemin/vers/fichier}} {{chemin/vers/fichier_cible}}`
