@@ -1,7 +1,7 @@
 # elixir
 
 > Elixir programming language interpreter.
-> More information: <https://elixir-lang.org/>.
+> More information: <https://elixir-lang.org>.
 
 - Run an Elixir file:
 
