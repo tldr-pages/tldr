@@ -8,7 +8,7 @@
 
 `choice /c {{ABC}}`
 
-- Use default [Y,N] list of choices:
+- Use the default [Y,N] list of choices:
 
 `choice`
 
