@@ -5,7 +5,7 @@
 
 - Mirror image horizontally or vertically:
 
-`jpegtran -flip {{horizontal|vertical}} {{/path/to/image.jpg}}`
+`jpegtran -flip {{horizontal|vertical}} {{path/to/image.jpg}} > {{path/to/output.jpg}}`
 
 - Rotate image 90, 180 or 270 degrees clockwise:
 
