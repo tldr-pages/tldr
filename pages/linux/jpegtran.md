@@ -3,7 +3,7 @@
 > Perform lossless transformation of JPEG files.
 > More information: <https://linux.die.net/man/1/jpegtran>.
 
-- Mirror image horizontally or vertically:
+- Mirror an image horizontally or vertically:
 
 `jpegtran -flip {{horizontal|vertical}} {{path/to/image.jpg}} > {{path/to/output.jpg}}`
 
