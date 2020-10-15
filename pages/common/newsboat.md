@@ -1,9 +1,9 @@
 # newsboat
 
-> An RSS/Atom feed reader for the text console.
+> An RSS/Atom feed reader for text terminals.
 > More information: <https://newsboat.org/>.
 
-- First import feed urls from an OPML file:
+- First import feed URLs from an OPML file:
 
 `newsboat -i {{my-feeds.xml}}`
 
