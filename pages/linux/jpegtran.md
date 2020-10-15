@@ -17,7 +17,7 @@
 
 - Transverse the image across the upper right to lower left axis:
 
-`jpegtran -transverse {{/path/to/image.jpg}}`
+`jpegtran -transverse {{path/to/image.jpg}} > {{path/to/output.jpg}}`
 
 - Convert the image to grayscale:
 
