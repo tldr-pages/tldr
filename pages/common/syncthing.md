@@ -7,6 +7,10 @@
 
 `syncthing`
 
+- Start syncthing without opening a browser:
+
+`syncthing -no-browser`
+
 - Print the device ID:
 
 `syncthing -device-id`
