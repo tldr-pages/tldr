@@ -13,7 +13,7 @@
 
 - Transpose the image across the upper left to lower right axis:
 
-`jpegtran -transpose {{/path/to/image.jpg}}`
+`jpegtran -transpose {{path/to/image.jpg}} > {{path/to/output.jpg}}`
 
 - Transverse the image across the upper right to lower left axis:
 
