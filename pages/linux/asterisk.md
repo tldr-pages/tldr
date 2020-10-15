@@ -16,7 +16,7 @@
 
 `asterisk -r -x "sip show peers"`
 
-- Show active calls & channels:
+- Show active calls and channels:
 
 `asterisk -r -x "core show channels"`
 
