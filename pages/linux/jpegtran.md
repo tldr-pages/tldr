@@ -9,7 +9,7 @@
 
 - Rotate an image 90, 180 or 270 degrees clockwise:
 
-`jpegtran -rotate {{90|180|270}} {{/path/to/image.jpg}}`
+`jpegtran -rotate {{90|180|270}} {{path/to/image.jpg}} > {{path/to/output.jpg}}`
 
 - Transpose the image across the upper left to lower right axis:
 
