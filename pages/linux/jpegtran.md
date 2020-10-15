@@ -21,7 +21,7 @@
 
 - Convert the image to grayscale:
 
-`jpegtran -grayscale {{/path/to/image.jpg}}`
+`jpegtran -grayscale {{path/to/image.jpg}} > {{path/to/output.jpg}}`
 
 - Crop the image to a rectangular region of width `W` and height `H`, starting at point `X` and `Y`:
 
