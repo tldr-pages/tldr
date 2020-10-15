@@ -3,7 +3,7 @@
 > Output something repeatedly.
 > This command is commonly used to answer yes to every prompt by install commands (such as apt-get).
 
-- Repeatedly output "message" :
+- Repeatedly output "message":
 
 `yes {{message}}`
 
