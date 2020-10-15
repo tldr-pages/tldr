@@ -20,7 +20,7 @@
 
 `choice /C {{AaBb}} /t {{3}} /d {{b}}`
 
-- Specify a message to display before the list of choices. If /m is not specified, only the choice prompt is displayed:
+- Specify a message to display before the list of choices. If `/m` is not specified, only the choice prompt is displayed:
 
 `choice /m {{message}} /C {{ABC}}`
 
