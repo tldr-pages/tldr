@@ -25,4 +25,4 @@
 
 - Crop the image to a rectangular region of width `W` and height `H`, starting at point `X` and `Y` from the upper left corner:
 
-`jpegtran -crop WxH+X+Y {{/path/to/image.jpg}}`
+`jpegtran -crop {{W}}x{{H}}+{{X}}+{{Y}} {{path/to/image.jpg}} > {{path/to/output.jpg}}`
