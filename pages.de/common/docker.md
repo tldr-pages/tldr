@@ -23,6 +23,10 @@
 
 `docker pull {{image}}`
 
+- Ein nicht verwendetest Image löschen:
+
+`docker rmi {{image_id}}`
+
 - Eine Konsole innerhalb eines bereits laufenden Containers öffnen:
 
 `docker exec -it {{container_name}} {{sh}}`
@@ -34,3 +38,7 @@
 - Die Logs eines Containers anzeigen und automatisch aktualisieren:
 
 `docker logs -f {{container_name}}`
+
+- Containerport an Ports weiterleiten
+
+`docker run -p {{hostport}}:{{containerport}} {{image}}`
