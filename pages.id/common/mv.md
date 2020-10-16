@@ -4,20 +4,20 @@
 
 - Memindahkan file ke lokasi yang baru:
 
-`mv {{sumber}} {{target}}`
+`mv {{sumber}} {{tujuan}}`
 
 - Memindah tanpa meminta konfirmasi sebelum menimpa file yang sudah ada:
 
-`mv -f {{sumber}} {{target}}`
+`mv -f {{sumber}} {{tujuan}}`
 
 - Meminta konfirmasi sebelum menimpa file yang sudah ada, apapun *file permissions*-nya
 
-`mv -i {{sumber}} {{target}}`
+`mv -i {{sumber}} {{tujuan}}`
 
 - Jangan menimpa file yang sudah ada di direktori tujuan:
 
-`mv -n {{sumber}} {{target}}`
+`mv -n {{sumber}} {{tujuan}}`
 
 - Memindahkan file dalam mode *verbose*, menampilkan file-file yang dipindahkan
 
-`mv -v {{sumber}} {{target}}`
+`mv -v {{sumber}} {{tujuan}}`
