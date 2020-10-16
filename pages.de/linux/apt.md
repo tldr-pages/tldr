@@ -23,6 +23,10 @@
 
 `sudo apt remove {{Paket}}`
 
+- Aktualisiert alle Pakete auf die neuste Version:
+
+`sudo apt upgrade`
+
 - Listet alle Pakete:
 
 `apt list`
