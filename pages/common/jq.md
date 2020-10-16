@@ -38,3 +38,7 @@
 - Output the value of a given key to a string (and disable JSON output):
 
 `cat {{file.json}} | jq --raw-output '"some text: \(.{{key_name}})"'`
+
+- Output the value of a given key from a JSON parsable lines, and skip if parsing is not successful:
+
+`cat {{file.json}} | jq --raw-input 'fromjson? | .{{key_name}}'`
