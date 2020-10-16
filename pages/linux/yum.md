@@ -18,7 +18,7 @@
 
 `yum remove {{package}}`
 
-- Get a list of available updates for installed packages:
+- Display available updates for installed packages:
 
 `yum check-update`
 
