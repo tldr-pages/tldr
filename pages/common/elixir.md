@@ -7,6 +7,6 @@
 
 `elixir {{path/to/file}}`
 
-- Evaluate Elixir by passing it in the command:
+- Evaluate Elixir code by passing it as an argument:
 
 `elixir -e "{{code}}"`
