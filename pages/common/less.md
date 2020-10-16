@@ -30,6 +30,6 @@
 
 `q`
 
-- Read pdf files with less
+- Read pdf files with less:
 
 `lesspipe {{filename}}.pdf | less`
