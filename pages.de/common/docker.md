@@ -34,5 +34,3 @@
 - Die Logs eines Containers anzeigen und automatisch aktualisieren:
 
 `docker logs -f {{container_name}}`
-
-- Startet einen bereits vorhandenen Container
