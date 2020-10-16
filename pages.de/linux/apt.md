@@ -17,19 +17,15 @@
 
 - Installiert ein Paket oder aktualisiert es zur neusten Version:
 
-`apt install {{Paket}}`
+`sudo apt install {{Paket}}`
 
 - Entfernt ein Paket:
 
-`apt remove {{Paket}}`
-
-- Entfernt ein Paket und die dazugehörigen Konfigurationen:
-
-`apt purge {{Paket}}`
+`sudo apt remove {{Paket}}`
 
 - Aktualisiert alle Pakete auf die neuste Version:
 
-`apt upgrade`
+`sudo apt upgrade`
 
 - Listet alle Pakete:
 
@@ -38,15 +34,3 @@
 - Listet alle installierten Pakete:
 
 `apt list --installed`
-
-- Reinigt das Repository - entfernt alle Dateinen (.deb) welche nichtmehr heruntergeladen werden können:
-
-`apt autoclean`
-
-- Entfernt alle Pakete welche nichtmehr benötigt werden:
-
-`apt autoremove`
-
-- Aktualisiert alle Pakete (wie `upgrade`), aber entfernt alle obsoleten Pakete:
-
-`apt dist-upgrade`

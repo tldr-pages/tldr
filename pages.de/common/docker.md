@@ -3,10 +3,6 @@
 > Zum Verwalten von Docker Containern und Images.
 > Mehr Informationen: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- Baut einen Container über eine Dockerfile im selben Verzeichnis
-
-`docker build .`
-
 - Zur Zeit laufende Container auflisten:
 
 `docker ps`
@@ -27,10 +23,6 @@
 
 `docker pull {{image}}`
 
-- Ein nicht verwendetest Image löschen:
-
-`docker rmi {{image_id}}`
-
 - Eine Konsole innerhalb eines bereits laufenden Containers öffnen:
 
 `docker exec -it {{container_name}} {{sh}}`
@@ -44,9 +36,3 @@
 `docker logs -f {{container_name}}`
 
 - Startet einen bereits vorhandenen Container
-
-`docker start {{container_name}}`
-
-- Containerport an Ports weiterleiten
-
-`docker run -p {{hostport}}:{{containerport}} {{image}}`

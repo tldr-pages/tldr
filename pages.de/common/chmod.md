@@ -29,7 +29,3 @@
 - Ändert Genehmigungen rekursiv, indem Sie [g]ruppe und Anderen ([o]thers) die Erlaubniss zum schreiben ([w]rite) geben:
 
 `chmod -R g+w,o+w {{verzeichnis}}`
-
-- Kurzschreibweise um Rechte für User, Groups und others zu legen indem die Berechtigungen in Oktal angelegt werden:
-
-`chmod 755 {{datei}}`
