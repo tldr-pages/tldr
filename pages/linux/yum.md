@@ -2,10 +2,6 @@
 
 > Package management utility for RHEL, Fedora, and CentOS (for older versions).
 
-- Synchronize list of packages and versions available. This should be run first, before running subsequent yum commands:
-
-`yum check-update`
-
 - Install a new package:
 
 `yum install {{package}}`
@@ -21,6 +17,10 @@
 - Remove a package:
 
 `yum remove {{package}}`
+
+- Get a list of available updates for installed packages:
+
+`yum check-update`
 
 - Upgrade installed packages to newest available versions:
 
