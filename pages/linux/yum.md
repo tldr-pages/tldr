@@ -1,6 +1,7 @@
 # yum
 
 > Package management utility for RHEL, Fedora, and CentOS (for older versions).
+> More information: <https://man7.org/linux/man-pages/man8/yum.8.html>.
 
 - Install a new package:
 
