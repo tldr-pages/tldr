@@ -3,6 +3,10 @@
 > Zum Verwalten von Docker Containern und Images.
 > Mehr Informationen: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
+- Baut einen Container über eine Dockerfile im selben Verzeichnis
+
+`docker build .`
+
 - Zur Zeit laufende Container auflisten:
 
 `docker ps`
