@@ -11,14 +11,14 @@
 
 `flash -v`
 
-- Get information about the flashcard system
+- Get information about the flashcard system:
 
 `flash -i`
 
-- Get a help menu of commands that flash can run
+- Get a help menu of commands that flash can run:
 
 `flash -h`
 
-- Change the previewer from default `bat` to common binary of `cat`
+- Change the previewer from default `bat` to common binary of `cat`:
 
 `flash -p {{cat}}`
