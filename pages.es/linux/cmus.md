@@ -3,7 +3,7 @@
 > Reproductor de música para la línea de comandos.
 > Usa las teclas de dirección para navegar, `<enter/return>` para seleccionar, y los números 1-8 para cambiar entra las diferentes vistas.
 
-- Abrir cmus con un directorio concreto:
+- Abrir cmus en un directorio concreto:
 
 `cmus {{ruta/al/directorio}}`
 

@@ -8,7 +8,7 @@
 
 `freshclam`
 
-- Escanear archivo en busca de virus:
+- Escanear un archivo en busca de virus:
 
 `clamscan {{ruta/al/archivo}}`
 
