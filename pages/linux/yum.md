@@ -4,7 +4,7 @@
 
 - Synchronize list of packages and versions available. This should be run first, before running subsequent yum commands:
 
-`yum update`
+`yum check-update`
 
 - Install a new package:
 
