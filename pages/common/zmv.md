@@ -3,7 +3,7 @@
 > Move or rename files matching the regex pattern to corresponding files having names of the form given by destination.
 > More information: <http://zsh.sourceforge.net/Doc/Release/User-Contributions.html>.
 
-- Below renames ‘foo.lis’ to ‘foo.txt’, and so on:
+- Below renames `foo.lis` to `foo.txt`, and so on:
 
 `zmv '{{(*).log}}' '{{$1.txt}}'`
 
