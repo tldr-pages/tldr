@@ -15,7 +15,7 @@
 
 `z -r {{foo}}`
 
-- Aller dans le répertoire accéder le plus récemment parmis ceux qui contiennent "foo" dans leurs noms:
+- Aller dans le répertoire accédé le plus récemment parmis ceux qui contiennent "foo" dans leurs noms:
 
 `z -t {{foo}}`
 
