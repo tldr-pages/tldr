@@ -10,7 +10,7 @@
 
 - Rimuovi dall'area di stage uno o più file:
 
-`git reset {{percorso/a/uno/o/più/file}}`
+`git reset {{percorso/al/file_1}} {{percorso/al/file_2}}`
 
 - Rimuovi dall'area di stage solo alcune porzioni di un file:
 
