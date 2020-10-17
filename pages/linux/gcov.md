@@ -14,7 +14,7 @@
 
 - Write branch frequencies to output file and print summary information to `stdout` as a percentage:
 
-`gcov {{-b|--branch-probabilities}} {{path/to/file.cpp}}`
+`gcov --branch-probabilities {{path/to/file.cpp}}`
 
 - Write branch frequencies as the number of branches taken, rather than the percentage:
 
