@@ -20,7 +20,7 @@
 
 `bash -x {{archivo.sh}}`
 
-- Ejecutar comandos desde un archivo, deteniéndose en el primer error:
+- Ejecuta comandos desde un archivo, deteniéndose en el primer error:
 
 `bash -e {{archivo.sh}}`
 
