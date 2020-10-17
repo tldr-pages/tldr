@@ -13,7 +13,7 @@
 
 - Revierte múltiples commits:
 
-`git revert {{branch_name~5..branch_name~2}}`
+`git revert {{rama~5..rama~2}}`
 
 - No crea nuevos commits, solo cambia el árbol de trabajo:
 
