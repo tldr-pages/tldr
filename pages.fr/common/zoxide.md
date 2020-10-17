@@ -8,7 +8,7 @@
 
 `zoxide query {{foo}}`
 
-- Aller au répertoire avec le meilleur classement qui contient "foo" et "bar" dans son nom ::
+- Aller au répertoire avec le meilleur classement qui contient "foo" et "bar" dans son nom :
 
 `zoxide query {{foo}} {{bar}}`
 
