@@ -1,6 +1,6 @@
 # flash
 
-> Flash Cards In Your Terminal.
+> Flash cards in your terminal.
 > More information: <https://github.com/tallguyjenks/fla.sh>.
 
 - Open a menu of your available flashcard decks for selection:
