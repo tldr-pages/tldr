@@ -18,7 +18,7 @@
 
 - Write branch frequencies as the number of branches taken, rather than the percentage:
 
-`gcov {{-c|--branch-counts}} {{path/to/file.cpp}}`
+`gcov --branch-counts {{path/to/file.cpp}}`
 
 - Do not create `gcov` output file:
 
