@@ -11,7 +11,7 @@
 
 `flash -v`
 
-- Get information about the flashcard system:
+- Display information about the flashcard system:
 
 `flash -i`
 
