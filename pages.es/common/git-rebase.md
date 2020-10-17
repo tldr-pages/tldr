@@ -34,4 +34,4 @@
 
 - Resuelve automáticamente cualquier conflicto favoreciendo la versión de la rama en la que se esta trabajando (en este caso la palabra `theirs` tiene un significado invertido):
 
-`git rebase -X theirs {{branch_name}}`
+`git rebase -X theirs {{rama_de_reorganización}}`
