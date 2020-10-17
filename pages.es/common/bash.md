@@ -12,7 +12,7 @@
 
 `bash -c "{{comando}}"`
 
-- Ejecutar comandos desde un archivo:
+- Ejecuta comandos desde un archivo:
 
 `bash {{archivo.sh}}`
 
