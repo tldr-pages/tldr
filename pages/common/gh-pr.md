@@ -1,13 +1,13 @@
 # gh-pr
 
-> Work seamlessly with GitHub from the command line.
-> More information: <https://cli.github.com/>.
+> Manage GitHub pull requests from the command line.
+> More information: <https://cli.github.com/manual/gh_pr>.
 
 - Create a pull request:
 
 `gh pr create`
 
-- Check out pull requests locally:
+- Check out a pull request locally:
 
 `gh pr checkout {{pr_number}}`
 
@@ -19,6 +19,6 @@
 
 `gh pr review --approve`
 
-- Merge a PR if you're on the branch, removes the branch on local and remote:
+- Merge the pull request associated with the current branch, removing the branch on both the local and the remote:
 
 `gh pr merge`
