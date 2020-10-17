@@ -7,9 +7,9 @@
 
 `sudo dnf upgrade`
 
-- Sucht nach speziellen Keywords:
+- Sucht nach speziellen Schlüsselwörtern:
 
-`dnf search {{Keywords}}`
+`dnf search {{Schlüsselwörter}}`
 
 - Zeigt Daten über das Paket an:
 
