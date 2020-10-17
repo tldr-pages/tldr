@@ -13,7 +13,7 @@
 
 - Run a one-liner program (e.g syscall count by program):
 
-`sudo bpftrace -e {{'tracepoint:raw_syscalls:sys_enter { @[comm] = count(); }'}}`
+`sudo bpftrace -e '{{tracepoint:raw_syscalls:sys_enter { @[comm] = count(); }}}'`
 
 - Run a program from a file:
 
@@ -21,8 +21,8 @@
 
 - Trace a program by PID:
 
-`sudo bpftrace -e {{'tracepoint:raw_syscalls:sys_enter /pid == 123/ { @[comm] = count(); }'}}`
+`sudo bpftrace -e '{{tracepoint:raw_syscalls:sys_enter /pid == 123/ { @[comm] = count(); }}}'`
 
 - Do a dry run and display the output in eBPF format:
 
-`sudo bpftrace -d -e {{'one_line_program'}}`
+`sudo bpftrace -d -e '{{one_line_program}}'`
