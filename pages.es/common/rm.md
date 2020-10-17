@@ -1,18 +1,18 @@
 # rm
 
-> Eliminar archivos o directorios.
+> Elimina archivos o directorios.
 
 - Elimina archivos de ubicaciones arbitrarias:
 
-`rm {{ruta/hacia/archivo}} {{ruta/hacia/otro/archivo}}`
+`rm {{ruta/al/archivo}} {{ruta/al/otro/archivo}}`
 
 - Elimina, de forma recursiva, un directorio y todos sus subdirectorios:
 
-`rm -r {{ruta/hacia/directorio}}`
+`rm -r {{ruta/al/directorio}}`
 
 - Elimina un directorio a la fuerza, sin pedir confirmación ni mostrar mensajes de error:
 
-`rm -rf {{ruta/hacia/directorio}}`
+`rm -rf {{ruta/al/directorio}}`
 
 - Elimina varios archivos de forma interactiva, solicitando confirmación antes de eliminar cada archivo:
 
