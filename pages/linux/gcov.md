@@ -22,7 +22,7 @@
 
 - Do not create `gcov` output file:
 
-`gcov {{-n|--no-output}} {{path/to/file.cpp}}`
+`gcov --no-output {{path/to/file.cpp}}`
 
 - Output file level as well as function level summaries:
 
