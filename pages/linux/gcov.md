@@ -26,4 +26,4 @@
 
 - Output file level as well as function level summaries:
 
-`gcov {{-f|--function-summaries}} {{path/to/file.cpp}}`
+`gcov --function-summaries {{path/to/file.cpp}}`
