@@ -16,7 +16,7 @@
 
 `bash {{archivo.sh}}`
 
-- Ejecutar comandos desde un archivo, registrando todos los comando ejecutados en la terminal:
+- Ejecuta comandos desde un archivo, mostrando todos los comando ejecutados en la terminal:
 
 `bash -x {{archivo.sh}}`
 
