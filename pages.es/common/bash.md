@@ -4,7 +4,7 @@
 > Intérprete de línea de comandos compatible con `sh`.
 > Más información: <https://gnu.org/software/bash>.
 
-- Iniciar *shell* interactiva:
+- Inicia un intérprete de comandos interactivo:
 
 `bash`
 
