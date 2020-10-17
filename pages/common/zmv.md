@@ -7,10 +7,10 @@
 
 `zmv '{{(*).log}}' '{{$1.txt}}'`
 
-- No execution: print what would happen, but don’t do it:
+- Preview the command result without any changes to the files:
 
 `zmv -n '{{(*).log}}' '{{$1.txt}}'`
 
-- Interactive: show each line to be executed and ask the user whether to execute it:
+- Interactively move files, with a prompt before every change:
 
 `zmv -i '{{(*).log}}' '{{$1.txt}}'`
