@@ -1,7 +1,7 @@
 # Get-Content
 
 > Exibir o conteúdo de um arquivo.
-> Mais informações: <https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-content?view=powershell-7>.
+> Mais informações: <https://docs.microsoft.com/powershell/module/microsoft.powershell.management/get-content>.
 
 - Exibir o conteúdo de um arquivo:
 
