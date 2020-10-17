@@ -15,7 +15,7 @@
 
 `flash -i`
 
-- Get a help menu of commands that flash can run:
+- Display a list of available commands:
 
 `flash -h`
 
