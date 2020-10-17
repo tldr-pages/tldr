@@ -7,9 +7,9 @@
 
 `rsync {{path/to/local_file}} {{remote_host}}:{{path/to/remote_directory}}`
 
-- Transfer file from remote host to local while using a different ssh port:
+- Transfer file from remote host to local:
 
-`rsync -e 'ssh -p {{new port}}' {{remote_host}}:{{path/to/remote_file}} {{path/to/local_directory}}`
+`rsync {{remote_host}}:{{path/to/remote_file}} {{path/to/local_directory}}`
 
 - Transfer file in [a]rchive (to preserve attributes) and compressed ([z]ipped) mode with [v]erbose and [h]uman-readable [p]rogress:
 
@@ -31,6 +31,6 @@
 
 `rsync -e ssh --delete {{remote_host}}:{{path/to/remote_file}} {{path/to/local_file}}`
 
-- Transfer file over SSH and show global progress:
+- Transfer file over SSH using a different port than the default and show global progress:
 
-`rsync -e ssh --info=progress2 {{remote_host}}:{{path/to/remote_file}} {{path/to/local_file}}`
+`rsync -e 'ssh -p {{port}}' --info=progress2 {{remote_host}}:{{path/to/remote_file}} {{path/to/local_file}}`
