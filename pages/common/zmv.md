@@ -5,7 +5,7 @@
 
 - Below renames ‘foo.lis’ to ‘foo.txt’, and so on:
 
-`zmv '(*).lis' '$1.txt'`
+`zmv '{{(*).log}}' '{{$1.txt}}'`
 
 - No execution: print what would happen, but don’t do it:
 
