@@ -24,6 +24,6 @@
 
 `gcov --no-output {{path/to/file.cpp}}`
 
-- Output file level as well as function level summaries:
+- Write file level as well as function level summaries:
 
 `gcov --function-summaries {{path/to/file.cpp}}`
