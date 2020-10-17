@@ -7,7 +7,7 @@
 
 `flash`
 
-- Current program version:
+- Display the program version:
 
 `flash -v`
 
