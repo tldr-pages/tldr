@@ -25,8 +25,8 @@
 
 - When repairing offline, specify the boot directory:
 
-`sfc /offbootdir={{path/to/dir}}`
+`sfc /offbootdir={{path/to/directory}}`
 
 - When repairing offline, specify the Windows directory:
 
-`sfc /offwindir={{path/to/dir}}`
+`sfc /offwindir={{path/to/directory}}`
