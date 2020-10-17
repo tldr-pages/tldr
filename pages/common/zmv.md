@@ -13,4 +13,4 @@
 
 - Interactive: show each line to be executed and ask the user whether to execute it:
 
-`zmv -i '(*).lis' '$1.txt'`
+`zmv -i '{{(*).log}}' '{{$1.txt}}'`
