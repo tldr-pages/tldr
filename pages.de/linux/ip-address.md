@@ -16,11 +16,11 @@
 
 - Fügt eine Adresse zu einem Interface hinzu:
 
-`ip address add {{IP Adresse}} dev {{eth0}}`
+`ip address add {{ip_adresse}} dev {{eth0}}`
 
 - Entfernt eine Adresse von einem Interface:
 
-`ip address delete {{IP Adresse}} dev {{eth0}}`
+`ip address delete {{ip_adresse}} dev {{eth0}}`
 
 - Entfernt alle IP Adressen in einem speziellen Bereich von einem Interface:
 
