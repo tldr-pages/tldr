@@ -1,4 +1,4 @@
-# zsh
+# zmv
 
 > Move (usually, rename) files matching the regex pattern to corresponding files having names of the form given by destination.
 > More information: <http://zsh.sourceforge.net/Doc/Release/User-Contributions.html>.
