@@ -8,7 +8,7 @@
 
 `bash`
 
-- Ejecutar un comando:
+- Ejecuta un comando:
 
 `bash -c "{{comando}}"`
 
