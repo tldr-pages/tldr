@@ -59,7 +59,9 @@ just like you would write `man tar` to show its manpage.
 There are also various other clients provided by the community,
 both for the command line and for other platforms:
 
-- [Alfred Workflow](https://github.com/cs1707/tldr-alfred)
+- Alfred Workflow
+  - [tldr-alfred](https://github.com/cs1707/tldr-alfred)
+  - [alfred-tldr](https://github.com/konoui/alfred-tldr)
 - [Albert Plugin](https://github.com/bergercookie/awesome-albert-plugins/tree/master/plugins/tldr_pages)
 - Android clients:
   - [tldroid](https://github.com/hidroh/tldroid), available on
