@@ -31,6 +31,6 @@
 
 `tmux kill-session -t {{nom}}`
 
-- Détruire la session actuelle (avec le préfixe Ctrl-B):
+- Détruire la session actuelle (avec le préfixe Ctrl-B) :
 
 `Ctrl-B :kill-session<Enter>`
