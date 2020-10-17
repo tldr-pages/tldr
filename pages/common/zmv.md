@@ -9,7 +9,7 @@
 
 - No execution: print what would happen, but don’t do it:
 
-`zmv -n '(*).lis' '$1.txt'`
+`zmv -n '{{(*).log}}' '{{$1.txt}}'`
 
 - Interactive: show each line to be executed and ask the user whether to execute it:
 
