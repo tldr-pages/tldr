@@ -14,3 +14,15 @@
 - Interactively move files, with a prompt before every change:
 
 `zmv -i '{{(*).log}}' '{{$1.txt}}'`
+
+- Verbosely print each command as it’s being executed:
+
+`zmv -v '{{(*).log}}' '{{$1.txt}}'`
+
+- Force `cp` (copy) regardless of the name of the function. Same as `zcp`:
+
+`zmv -C '{{(*).log}}' '{{$1.txt}}'`
+
+- Force `ln` (link) regardless of the name of the function. Same as `zln`:
+
+`zmv -L '{{(*).log}}' '{{$1.txt}}'`
