@@ -12,7 +12,7 @@
 
 `gcov {{-a|--all-blocks}} {{path/to/file.cpp}}`
 
-- Write branch frequencies to output file and summary info to standard output as a percentage:
+- Write branch frequencies to output file and print summary information to `stdout` as a percentage:
 
 `gcov {{-b|--branch-probabilities}} {{path/to/file.cpp}}`
 
