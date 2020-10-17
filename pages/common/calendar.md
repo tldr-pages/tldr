@@ -1,7 +1,7 @@
 # calendar
 
 > Display upcoming events from a calendar file.
-> Basic event format: "(month)/(day)	(Description)" (tab-separated).
+> Basic event format: "(month)/(day)    (Description)" (tab-separated).
 
 - Show events for today and tomorrow (or the weekend on Friday) from the default calendar:
 
@@ -29,4 +29,4 @@
 
 - Example entry for US Memorial Day (last Monday of May):
 
-`May MonLast      Memorial Day`
+`May MonLast     Memorial Day`
