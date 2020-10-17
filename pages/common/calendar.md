@@ -1,7 +1,6 @@
 # calendar
 
 > Display upcoming events from a calendar file.
-> Basic event format: "(month)/(day)    (Description)" (tab-separated).
 
 - Show events for today and tomorrow (or the weekend on Friday) from the default calendar:
 
@@ -18,15 +17,3 @@
 - Show events from a custom calendar [f]ile:
 
 `calendar -f {{path/to/file}}`
-
-- Example entry for Christmas:
-
-`12/25   Christmas`
-
-- Example entry for US Thanksgiving (4th Thursday of November):
-
-`11/ThuFourth    Thanksgiving`
-
-- Example entry for US Memorial Day (last Monday of May):
-
-`May MonLast     Memorial Day`
