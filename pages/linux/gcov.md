@@ -10,7 +10,7 @@
 
 - Write individual execution counts for every basic block:
 
-`gcov {{-a|--all-blocks}} {{path/to/file.cpp}}`
+`gcov --all-blocks {{path/to/file.cpp}}`
 
 - Write branch frequencies to output file and print summary information to `stdout` as a percentage:
 
