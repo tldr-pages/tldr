@@ -7,7 +7,7 @@
 
 `Get-Content -Path {{file_name}}`
 
-- Limit the number of lines returned by Get-Content o conteúdo de um arquivo limitando o numero de linhas:
+- Limit the number of lines returned by Get-Content:
 
 `Get-Content -Path {{file_name}} -TotalCount {{number_of_lines}}`
 
