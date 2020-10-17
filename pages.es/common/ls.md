@@ -1,6 +1,6 @@
 # ls
 
-> Listar los contenidos de directorios.
+> Lista los contenidos de directorios.
 
 - Lista un archivo por línea:
 
