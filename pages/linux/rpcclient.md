@@ -13,7 +13,7 @@
 
 - Connect to a host, passing the password hash:
 
-`rpcclient --user {{domain\username}} --pw-nt-hash {{ip}}`
+`rpcclient --user {{domain}}\{{username}} --pw-nt-hash {{ip}}`
 
 - Enumerate domain users:
 
