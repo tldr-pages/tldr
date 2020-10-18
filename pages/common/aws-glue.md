@@ -1,0 +1,28 @@
+# aws glue
+
+> CLI for AWS S3 - provides storage through web services interfaces.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/glue/index.html>.
+
+- Show jobs:
+
+`aws glue list-jobs`
+
+- Start a job:
+
+`aws glue start-job-run --job-name {{job_name}}`
+
+- Start workflow run:
+
+`aws glue start-workflow-run --name {{workflow_name}}`
+
+- List triggers:
+
+`aws glue list-triggers`
+
+- Start a trigger:
+
+`aws glue start-trigger --name {{trigger_name}}`
+
+- Create dev endpoint:
+
+`aws glue create-dev-endpoint --endpoint-name {{name}} --role-arn {{role_arn_used_by_endpoint}}`
