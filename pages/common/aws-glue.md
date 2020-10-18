@@ -1,9 +1,9 @@
 # aws glue
 
-> CLI for AWS S3 - provides storage through web services interfaces.
+> CLI for AWS Glue. Defines the public endpoint for the AWS Glue service.
 > More information: <https://docs.aws.amazon.com/cli/latest/reference/glue/index.html>.
 
-- Show jobs:
+- List jobs:
 
 `aws glue list-jobs`
 
