@@ -15,10 +15,10 @@
 
 `glow -p {{path/to/file}}`
 
-- View a file from a URL
+- View a file from a URL:
 
 `glow {{https://example.com/file.md}}`
 
-- View a GitHub/GitLab README
+- View a GitHub/GitLab README:
 
 `glow {{github.com/user/repo}}`
