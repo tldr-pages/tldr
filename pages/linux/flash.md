@@ -19,6 +19,6 @@
 
 `flash -h`
 
-- Change the previewer from default `bat` to common binary of `cat`:
+- Change the previewer from default `bat` to `cat`:
 
 `flash -p {{cat}}`
