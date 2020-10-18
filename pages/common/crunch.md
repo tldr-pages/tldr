@@ -23,7 +23,7 @@
 
 `crunch {{5}} {{5}} {{abcde123}} -t {{@@@12}} -d 2@`
 
-- Write a list of words in chunk files of a given number of bytes, starting with the given string:
+- Write a list of words in chunk files of a given size, starting with the given string:
 
 `crunch {{3}} {{5}} -o {{START}} -b {{10kb}} -s {{abc}}`
 
