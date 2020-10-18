@@ -5,7 +5,7 @@
 
 - Connect to a host:
 
-`rpcclient --user {{domain\username%password}} {{ip}}`
+`rpcclient --user {{domain}}\{{username}}%{{password}} {{ip}}`
 
 - Connect to a host on a domain without a password:
 
