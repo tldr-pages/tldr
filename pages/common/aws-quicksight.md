@@ -2,6 +2,7 @@
 
 > CLI for AWS QuickSight - access QuickSight entities.
 > More information: <https://docs.aws.amazon.com/cli/latest/reference/quicksight/index.html>.
+
 - Show data-sets:
 
 `aws quicksight list-data-sets --aws-account-id {{aws_account_id}}`
