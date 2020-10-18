@@ -21,4 +21,4 @@
 
 - View a GitHub/GitLab README:
 
-`glow {{github.com/user/repo}}`
+`glow {{github.com/owner/repository}}`
