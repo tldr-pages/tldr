@@ -1,7 +1,7 @@
 # aws quicksight
 
 > CLI for AWS QuickSight.
-> access QuickSight entities.
+> Access QuickSight entities.
 > More information: <https://docs.aws.amazon.com/cli/latest/reference/quicksight/index.html>.
 
 - List datasets:
