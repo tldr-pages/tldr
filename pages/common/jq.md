@@ -15,13 +15,9 @@
 
 `jq --slurp . {{file.json}}`
 
-- Output the first element in a JSON file:
+- Output a value under given path. The path can consist of array indices (wrapped with `[]`) and object keys:
 
-`jq '.[0]' {{file.json}}`
-
-- Output the value of a given key of the first element in a JSON text from `stdin`:
-
-`cat {{file.json}} | jq '.[0].{{key_name}}'`
+`jq '.{{key_name}}.[{{index}}].{{another_key}}' {{file.json}}`
 
 - Output the value of a given key of each element in a JSON text from `stdin`:
 
