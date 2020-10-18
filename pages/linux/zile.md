@@ -5,7 +5,7 @@
 
 - Start in console mode (without X window):
 
-`zile -n`
+`zile`
 
 - Open a file:
 
