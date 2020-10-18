@@ -7,7 +7,7 @@
 
 `travis version`
 
-- Authenticate against the API and store the token:
+- Authenticate the CLI client against the server, using an authentication token:
 
 `travis login`
 
