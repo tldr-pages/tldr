@@ -15,7 +15,7 @@
 
 `crunch {{1}} {{1}} -p {{abc}}`
 
-- Output a list of all permutations of the given groups (lengths are not processed):
+- Output a list of all permutations of the given strings (lengths are not processed):
 
 `crunch {{1}} {{1}} -p {{abc}} {{def}} {{ghi}}`
 
