@@ -3,7 +3,7 @@
 > Zile is a lightweight clone of the Emacs text editor.
 > More information: <https://www.gnu.org/software/zile/>.
 
-- Start a buffer for volatile notes, they won't be saved:
+- Start a buffer for temporary notes, they won't be saved:
 
 `zile`
 
