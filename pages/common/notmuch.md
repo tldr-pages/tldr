@@ -7,7 +7,7 @@
 
 `notmuch setup`
 
-- Add tags for all messages matching the search term:
+- Add a tag for all messages matching a search term:
 
 `notmuch tag +{{custom_tag}} "{{search_term}}"`
 
