@@ -17,7 +17,7 @@
 
 - Count messages matching the given search term:
 
-`notmuch count --output={{messages|threads}} {{"search-term"}}`
+`notmuch count --output={{messages|threads}} "{{search_term}}"`
 
 - Search for messages matching the given search term:
 
