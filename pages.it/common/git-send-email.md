@@ -18,8 +18,8 @@
 
 - Invia un'email con un messaggio introduttivo alla serie di patch:
 
-`git send-email -{{numero di commit}} --compose`
+`git send-email -{{numero_di_commit}} --compose`
 
 - Revisiona e modifica il messaggio email per ogni patch da inviare:
 
-`git send-email -{{numero di commit}} --annotate`
+`git send-email -{{numero_di_commit}} --annotate`
