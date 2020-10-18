@@ -9,7 +9,7 @@
 
 - Add tags for all messages matching the search term:
 
-`notmuch tag +{{custom-tag}} {{"search-term"}}`
+`notmuch tag +{{custom_tag}} "{{search_term}}"`
 
 - Remove tags for all messages matching the search term:
 
