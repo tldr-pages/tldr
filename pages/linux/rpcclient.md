@@ -15,19 +15,19 @@
 
 `rpcclient --user {{domain}}\{{username}} --pw-nt-hash {{ip}}`
 
-- Enumerate domain users:
+- Display domain users:
 
 `rpcclient $> enumdomusers`
 
-- Enumerate domain groups:
+- Display domain groups:
 
 `rpcclient $> enumdomgroups`
 
-- Enumerate privileges:
+- Display privileges:
 
 `rpcclient $> enumprivs`
 
-- Query specific user information:
+- Display information about a specific user:
 
 `rpcclient $> queryuser {{username|rid}}`
 
