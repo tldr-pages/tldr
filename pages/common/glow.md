@@ -11,6 +11,6 @@
 
 `glow {{path/to/file}}`
 
-- View a Markdown file (paginated):
+- View a markdown file using a paginator:
 
 `glow -p {{path/to/file}}`
