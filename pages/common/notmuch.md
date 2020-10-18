@@ -1,6 +1,7 @@
 # notmuch
 
 > A command-line based program for indexing, searching, reading, and tagging large collections of email messages.
+> More Information: <https://notmuchmail.org/manpages/>.
 
 - Configure for first use:
 
@@ -8,16 +9,24 @@
 
 - Add tags for all messages matching the search term:
 
-`notmuch tag +{{tag}} {{"search-term"}}`
+`notmuch tag +{{custom-tag}} {{"search-term"}}`
 
 - Remove tags for all messages matching the search term:
 
-`notmuch tag -{{tag}} {{"search-term"}}`
+`notmuch tag -{{custom-tag}} {{"search-term"}}`
 
 - Count messages matching the given search term:
 
 `notmuch count --output={{messages|threads}} {{"search-term"}}`
 
-- Search for messages matching the given search terms:
+- Search for messages matching the given search term:
 
-`notmuch search --format={{json|text}} --output={summary|threads|messages|files|tags} {{"search-term"}}`
+`notmuch search --format={{json|text}} --output={{summary|threads|messages|files|tags}} {{"search-term"}}`
+
+- Limit the number of saerch results to X:
+
+`notmuch search --format={{json|text}} --output={summary|threads|messages|files|tags} --limit={{X}} {{"search-term"}}`
+
+- Create a reply template for a set of messages:
+
+`notmuch reply --format={{default|headers-only}} --reply-to={{sender|all}} {{"search-term"}}`
