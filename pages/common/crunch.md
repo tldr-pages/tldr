@@ -19,7 +19,7 @@
 
 `crunch {{1}} {{1}} -p {{abc}} {{def}} {{ghi}}`
 
-- Output a list of words generated according to the given pattern and setting the maximum duplicate number of letters:
+- Output a list of words generated according to the given pattern and a maximum number of duplicate letters:
 
 `crunch {{5}} {{5}} {{abcde123}} -t {{@@@12}} -d 2@`
 
