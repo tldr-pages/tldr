@@ -128,7 +128,7 @@ Examples:
 
 ## Inclusive language
 
-Where possible, use inclusive language in the content of pages. For example, prefer terms like "denylist"/"allowlist" instead of "blacklist"/"whitelist", "primary"/"secondary" instead of "master"/"slave", "one" instead of "him"/"her", etc.
+Where possible, use inclusive language in the content of pages. For example, prefer terms like "denylist"/"allowlist" instead of "blacklist"/"whitelist", "primary"/"secondary" instead of "master"/"slave", "they" instead of "him"/"her", etc.
 Of course, this shouldn't sacrifice content clarity, such as when documenting tools where this terminology has specific technical meanings, and its usage is central to explaining the involved concepts.
 
 ## Licensing
