@@ -31,6 +31,6 @@
 
 `crunch {{1}} {{5}} -o {{START}} -e {{abcde}} -i`
 
-- Write a list of words in compressed chunk files of a given number of words:
+- Write a list of words in compressed chunk files with a specified number of words:
 
 `crunch {{1}} {{5}} -o {{START}} -c {{1000}} -z {{gzip|bzip2|lzma|7z}}`
