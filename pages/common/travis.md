@@ -3,7 +3,7 @@
 > Command line client to interface with a Travis CI service.
 > More information: <https://github.com/travis-ci/travis.rb>.
 
-- Output the client version:
+- Display the client version:
 
 `travis version`
 
