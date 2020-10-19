@@ -24,6 +24,6 @@
 
 `aws glue start-trigger --name {{trigger_name}}`
 
-- Create dev endpoint:
+- Create a dev endpoint:
 
 `aws glue create-dev-endpoint --endpoint-name {{name}} --role-arn {{role_arn_used_by_endpoint}}`
