@@ -1,6 +1,7 @@
 # lynx
 
 > A Command-line web browser.
+
 - To visit a website:
 
 `lynx {{https://duckduckgo.com}}`
