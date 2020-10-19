@@ -1,7 +1,7 @@
 # gcov
 
-> Code coverage analysis and profiling tool. Discover untested parts of your program.
-> Get copy of source code annotated with execution frequencies of code segments.
+> Code coverage analysis and profiling tool that discovers untested parts of a program.
+> Also displays a copy of source code annotated with execution frequencies of code segments.
 > More information: <https://gcc.gnu.org/onlinedocs/gcc/Invoking-Gcov.html>.
 
 - Generate a coverage report named `file.cpp.gcov`:
