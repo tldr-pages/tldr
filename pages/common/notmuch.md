@@ -1,6 +1,6 @@
 # notmuch
 
-> A command-line based program for indexing, searching, reading, and tagging large collections of email messages.
+> Command-line based program for indexing, searching, reading, and tagging large collections of email messages.
 > More Information: <https://notmuchmail.org/manpages/>.
 
 - Configure for first use:
