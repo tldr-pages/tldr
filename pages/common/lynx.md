@@ -19,4 +19,4 @@
 
 - Exit:
 
-`q` then `y`
+`q then y`
