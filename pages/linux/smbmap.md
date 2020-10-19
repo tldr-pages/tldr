@@ -27,7 +27,7 @@
 
 `smbmap -u {{username}} -p {{password}} -H {{ip}} -R -F {{pattern}}`
 
-- Execute an OS command on a remote system:
+- Execute a shell command on a remote system:
 
 `smbmap -u {{username}} -p {{password}} -H {{ip}} -x {{command}}`
 
