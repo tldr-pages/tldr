@@ -11,7 +11,7 @@
 
 `snmpwalk -v2c -c {{community}} {{ip}}:{{port}} {{oid}}`
 
-- Query specific target system information by OID using SNMPv3 and authentication without encryption:
+- Query specific system information on a remote host by OID using SNMPv3 and authentication without encryption:
 
 `snmpwalk -v3 -l {{authNoPriv}} -u {{username}} -a {{MD5|SHA}} -A {{passphrase}} {{ip}} {{oid}}`
 
