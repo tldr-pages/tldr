@@ -25,7 +25,7 @@
 
 - Limit the number of saerch results to X:
 
-`notmuch search --format={{json|text}} --output={summary|threads|messages|files|tags} --limit={{X}} {{"search-term"}}`
+`notmuch search --format={{json|text}} --output={{summary|threads|messages|files|tags}} --limit={{X}} "{{search_term}}"`
 
 - Create a reply template for a set of messages:
 
