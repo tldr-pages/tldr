@@ -21,7 +21,7 @@
 
 - Search for messages matching the given search term:
 
-`notmuch search --format={{json|text}} --output={{summary|threads|messages|files|tags}} {{"search-term"}}`
+`notmuch search --format={{json|text}} --output={{summary|threads|messages|files|tags}} "{{search_term}}"`
 
 - Limit the number of saerch results to X:
 
