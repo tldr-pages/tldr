@@ -23,6 +23,6 @@
 
 `sudo gitlab-runner restart`
 
-- Verify registered runners are running:
+- Check if the registered runners can connect to GitLab:
 
 `sudo gitlab-runner verify`
