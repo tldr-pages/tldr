@@ -29,4 +29,4 @@
 
 - Create a reply template for a set of messages:
 
-`notmuch reply --format={{default|headers-only}} --reply-to={{sender|all}} {{"search-term"}}`
+`notmuch reply --format={{default|headers-only}} --reply-to={{sender|all}} "{{search_term}}"`
