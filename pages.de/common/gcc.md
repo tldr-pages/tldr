@@ -13,7 +13,7 @@
 
 - Inkludiert Bibliotheken aus anderen Ordnern:
 
-`gcc {{Quelldatei.c}} -o {{Ausgabebinärdatei}} -I{{Pfad_zu_Headerdatei}} -L{{Pfad_zu_Bibliothek1}} -l{{Pfad_zu_Bibliothek2}}`
+`gcc {{Quelldatei.c}} -o {{Ausgabebinärdatei}} -I{{Pfad/zu/Headerdatei}} -L{{Pfad/zu/Bibliothek1}} -l{{Pfad/zu/Bibliothek2}}`
 
 - Kompiliert Quellcodedateien zu Assemblerinstruktionen:
 
