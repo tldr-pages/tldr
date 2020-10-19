@@ -4,7 +4,7 @@
 > Get copy of source code annotated with execution frequencies of code segments.
 > More information: <https://gcc.gnu.org/onlinedocs/gcc/Invoking-Gcov.html>.
 
-- Generate coverage report named `file.cpp.gcov`:
+- Generate a coverage report named `file.cpp.gcov`:
 
 `gcov {{path/to/file.cpp}}`
 
