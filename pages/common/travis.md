@@ -19,6 +19,6 @@
 
 `travis encrypt {{token}}`
 
-- Generate a .travis.yml and enable the project:
+- Generate a `.travis.yml` file and enable the project:
 
 `travis init`
