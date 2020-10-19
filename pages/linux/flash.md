@@ -3,7 +3,7 @@
 > Flash cards in your terminal.
 > More information: <https://github.com/tallguyjenks/fla.sh>.
 
-- Open a menu of your available flashcard decks for selection:
+- Open a menu of available flashcard decks for selection:
 
 `flash`
 
