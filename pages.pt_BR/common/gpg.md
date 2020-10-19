@@ -23,7 +23,7 @@
 
 `gpg --import {{public.gpg}}`
 
-- Exporta  a chave púbica da alice@example.com (envia saída para `stdout`):
+- Exporta a chave pública da alice@example.com (envia saída para `stdout`):
 
 `gpg --export --armor {{alice@example.com}}`
 
