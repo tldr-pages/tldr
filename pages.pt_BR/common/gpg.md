@@ -11,7 +11,7 @@
 
 `gpg --encrypt --recipient {{alice@example.com}} {{doc.txt}}`
 
-- Criptografa doc.txt com uma senha simétrica somente (cria um arquivo de sadída doc.txt.gpg):
+- Criptografa doc.txt apenas com uma senha simétrica (cria um arquivo de sadída doc.txt.gpg):
 
 `gpg --symmetric {{doc.txt}}`
 
