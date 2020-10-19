@@ -11,7 +11,7 @@
 
 `git commit -a -m {{message}}`
 
-- Update the last commit by adding the currently staged changes, changing commit's hash:
+- Update the last commit by adding the currently staged changes, changing the commit's hash:
 
 `git commit --amend`
 
