@@ -5,19 +5,19 @@
 
 - Add a git repository as a subtree:
 
-`git subtree add --prefix={{path/to/directory/}} --squash {{repository_url}} {{master}}`
+`git subtree add --prefix={{path/to/directory/}} --squash {{repository_url}} {{branch_name}}`
 
 - Update subtree repository to its latest commit:
 
-`git subtree pull --prefix={{path/to/directory/}} {{repository_url}} {{master}}`
+`git subtree pull --prefix={{path/to/directory/}} {{repository_url}} {{branch_name}}`
 
-- Merge a subtree repository into master:
+- Merge recent changes up to the latest subtree commit into the subtree:
 
-`git subtree merge --prefix={{path/to/directory/}} --squash {{repository_url}} {{master}}`
+`git subtree merge --prefix={{path/to/directory/}} --squash {{repository_url}} {{branch_name}}`
 
 - Push commits to a subtree repository:
 
-`git subtree push --prefix={{path/to/directory/}} {{repository_url}} {{master}}`
+`git subtree push --prefix={{path/to/directory/}} {{repository_url}} {{branch_name}}`
 
 - Extract a new project history from the history of a subtree:
 
