@@ -3,7 +3,7 @@
 > Package manager for macOS.
 > More information: <https://brew.sh>.
 
-- Search for available formulas and casks:
+- Search for available formulae and casks:
 
 `brew search {{text}}`
 
@@ -14,6 +14,10 @@
 - List all installed formulae:
 
 `brew list`
+
+- List installed formulae that are not dependencies of another installed formula:
+
+`brew leaves`
 
 - Upgrade an installed formula (if no formula name is given, all installed formulae are upgraded):
 

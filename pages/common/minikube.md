@@ -18,3 +18,11 @@
 - Open kubernetes dashboard in a browser:
 
 `minikube dashboard`
+
+- Stop the running cluster:
+
+`minikube stop`
+
+- Delete the cluster:
+
+`minikube delete`

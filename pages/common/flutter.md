@@ -22,3 +22,15 @@
 - Show information about the installed tooling:
 
 `flutter doctor`
+
+- List or change Flutter channel:
+
+`flutter channel {{stable|beta|dev|master}}`
+
+- Run Flutter on all started emulators and connected devices:
+
+`flutter run -d all`
+
+- Run tests in a terminal from the root of the project:
+
+`flutter test {{test/example_test.dart}}`

@@ -13,3 +13,7 @@
 - Retrieve certain types of public ssh keys of a remote host:
 
 `ssh-keyscan -t {{rsa,dsa,ecdsa,ed25519}} {{host}}`
+
+- Manually update the ssh known_hosts file with the fingerprint of a given host:
+
+`ssh-keyscan -H {{host}} >> ~/.ssh/known_hosts`

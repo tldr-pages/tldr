@@ -1,8 +1,8 @@
 # fondue
 
-> 可选Windows功能的命令行安装程序.
+> 可选 Windows 功能的命令行安装程序.
 
-- 启用一个指定的Windows功能:
+- 启用一个指定的 Windows 功能:
 
 `fondue /enable-feature:{{功能}}`
 

@@ -17,7 +17,7 @@
 
 - Load scheme expressions into the REPL:
 
-`scheme --eval {{"(define foo 'x)"}}`
+`scheme --eval "{{(define foo 'x)}}"`
 
 - Open the REPL in quiet mode:
 

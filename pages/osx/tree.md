@@ -1,18 +1,19 @@
 # tree
 
 > Show the contents of the current directory as a tree.
+> More information: <http://mama.indstate.edu/users/ice/tree/>.
 
-- Show files and directories up to 'num' levels of depth (where 1 means the current directory):
+- Print files and directories up to 'num' levels of depth (where 1 means the current directory):
 
 `tree -L {{num}}`
 
-- Show directories only:
+- Print directories only:
 
 `tree -d`
 
-- Show hidden files too:
+- Print hidden files too with colorization on:
 
-`tree -a`
+`tree -a -C`
 
 - Print the tree without indentation lines, showing the full path instead (use `-N` to not escape whitespace and special characters):
 
@@ -22,10 +23,14 @@
 
 `tree -s -h --du`
 
-- Find files within the tree hierarchy, using a wildcard (glob) pattern, and pruning out directories that don't contain matching files:
+- Print files within the tree hierarchy, using a wildcard (glob) pattern, and pruning out directories that don't contain matching files:
 
 `tree -P '{{*.txt}}' --prune`
 
-- Find directories within the tree hierarchy, pruning out directories that aren't ancestors of the wanted one:
+- Print directories within the tree hierarchy, using the wildcard (glob) pattern, and pruning out directories that aren't ancestors of the wanted one:
 
 `tree -P {{directory_name}} --matchdirs --prune`
+
+- Print the tree ignoring the given directories:
+
+`tree -I '{{directory_name1|directory_name2}}'`

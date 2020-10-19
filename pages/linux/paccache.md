@@ -1,6 +1,6 @@
 # paccache
 
-> A flexible pacman cache cleaning utility.
+> A pacman cache cleaning utility.
 
 - Remove all but the 3 most recent package versions from the pacman cache:
 

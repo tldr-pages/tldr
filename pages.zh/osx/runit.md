@@ -8,4 +8,4 @@
 
 - 停止运行 runit:
 
-`kill --CONT {{runit进程id}}`
+`kill --CONT {{runit 进程 id}}`

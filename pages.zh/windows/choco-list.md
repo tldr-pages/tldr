@@ -1,6 +1,6 @@
 # choco list
 
-> 使用Chocolatey显示包列表.
+> 使用 Chocolatey 显示包列表.
 
 - 列出所有可用的包:
 
@@ -20,7 +20,7 @@
 
 - Specify a custom source to display packages from 指定一个源来显示包列表:
 
-`choco list --source {{源URL|别名}}`
+`choco list --source {{源 URL|别名}}`
 
 - 提供一个用户名和密码来进行验证:
 

@@ -17,7 +17,11 @@
 
 - Install package:
 
-`nix-env -i {{pkg_name}}`
+`nix-env -iA nixpkgs.{{pkg_name}}`
+
+- Install a package from a URL:
+
+`nix-env -i {{pkg_name}} --file {{example.com}}`
 
 - Uninstall package:
 

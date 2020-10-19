@@ -13,7 +13,7 @@
 
 - Create a private gist with a description:
 
-`gist -p -d {{"A meaningful description"}} {{file.txt}} `
+`gist -p -d "{{A meaningful description}}" {{file.txt}} `
 
 - Read contents from `stdin` and create a gist from it:
 
@@ -25,7 +25,7 @@
 
 - List all gists for the currently logged in user:
 
-`gist -l {{user_name}}`
+`gist -l {{username}}`
 
 - Use the id from the gist URL to modify or include a file:
 

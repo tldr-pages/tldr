@@ -1,13 +1,13 @@
 # z
 
 > 记录被使用次数最多的目录并允许在它们之间以字符串或正则表达式来进行匹配和跳转.
-> 更多信息: <https://github.com/rupa/z>.
+> 更多信息：<https://github.com/rupa/z>.
 
 - 跳转到一个名字带有 "foo" 的文件夹:
 
 `z {{foo}}`
 
-- 跳转到一个名字带有 "foo" 并且后面带有 "bar" 的文件夹(例: `fooesbar`):
+- 跳转到一个名字带有 "foo" 并且后面带有 "bar" 的文件夹（例：`fooesbar`):
 
 `z {{foo}} {{bar}}`
 

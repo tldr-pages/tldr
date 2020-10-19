@@ -27,6 +27,10 @@
 
 `firefox --headless --screenshot {{path/to/output_file.png}} {{https://example.com/}}`
 
-- Use a specific profile directory to allow multiple separate instances of Firefox to run at once:
+- Use a specific profile to allow multiple separate instances of Firefox to run at once:
 
-`firefox --new-instance --profile {{path/to/directory}} {{https://example.com/}}`
+`firefox --profile {{path/to/directory}} {{https://example.com/}}`
+
+- Set Firefox as the default browser:
+
+`firefox --setDefaultBrowser`

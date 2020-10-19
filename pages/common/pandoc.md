@@ -9,7 +9,7 @@
 
 - Force conversion to use a specific format:
 
-`pandoc {{input.docx}} --to {{markdown_github}} -o {{output.md}}`
+`pandoc {{input.docx}} --to {{gfm}} -o {{output.md}}`
 
 - Convert to a standalone file with the appropriate headers/footers (for LaTeX, HTML, etc.):
 

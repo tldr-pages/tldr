@@ -17,8 +17,8 @@
 
 - Show the conversion between two compound units:
 
-`units {{"meters / second"}} {{"inches / hour"}}`
+`units "{{meters / second}}" "{{inches / hour}}"`
 
 - Show the conversion between units with different dimensions:
 
-`units {{"acres"}} {{"ft^2"}}`
+`units "{{acres}}" "{{ft^2}}"`

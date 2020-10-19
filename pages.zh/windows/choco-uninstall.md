@@ -1,10 +1,10 @@
 # choco uninstall
 
-> 使用Chocolatey卸载一个或多个包.
+> 使用 Chocolatey 卸载一个或多个包.
 
 - 卸载一个或多个用空格分隔的软件包:
 
-`choco uninstall {{包名 [包名] ..}}`
+`choco uninstall {{包名 『包名』 ..}}`
 
 - 卸载一个指定版本的包:
 

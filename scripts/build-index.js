@@ -29,8 +29,19 @@ function buildPagesIndex(files) {
       if (!index[page].language.includes(language)) {
         index[page].language.push(language);
       }
+
+      const targets = index[page].targets;
+      const exists = targets.some((t) => {return t.platform === os && t.language === language});
+      if (!exists) {
+        targets.push({os, language})
+      }
     } else {
-      index[page] = {name: page, platform: [os], language: [language]};
+      index[page] = {
+        name: page,
+        platform: [os],
+        language: [language],
+        targets: [{os, language}]
+      };
     }
 
     return index;
@@ -43,8 +54,9 @@ function buildPagesIndex(files) {
       .map(function(page) {
         return {
           name: page,
-          platform: obj[page]["platform"],
-          language: obj[page]["language"]
+          platform: obj[page].platform,
+          language: obj[page].language,
+          targets: obj[page].targets
         };
       });
 }

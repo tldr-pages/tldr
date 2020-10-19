@@ -1,6 +1,7 @@
 # playerctl
 
 > Utility to control different media players.
+> More information: <https://github.com/altdesktop/playerctl>.
 
 - Toggle play:
 
@@ -25,3 +26,7 @@
 - Send a command to all players:
 
 `playerctl --all-players {{command}}`
+
+- Show now playing:
+
+`playerctl metadata --format "Now playing: {{artist}} - {{album}} - {{title}}"`

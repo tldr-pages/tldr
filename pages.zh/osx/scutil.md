@@ -19,7 +19,7 @@
 
 `sudo scutil --set ComputerName {{我的计算机名}}`
 
-- 获取主机名( HostName ):
+- 获取主机名 ( HostName ):
 
 `scutil --get HostName`
 

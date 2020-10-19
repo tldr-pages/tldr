@@ -13,4 +13,4 @@
 
 - Convert to IEC units, pad with 5 characters, left aligned:
 
-`du -s * | numfmt --to={{iec}} --format={{"%-5f"}}`
+`du -s * | numfmt --to={{iec}} --format="{{%-5f}}"`

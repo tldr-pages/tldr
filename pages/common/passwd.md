@@ -2,6 +2,10 @@
 
 > Passwd is a tool used to change a user's password.
 
+- Change the password of the current user interactively:
+
+`passwd`
+
 - Change the password of the current user:
 
 `passwd {{new_password}}`

@@ -41,7 +41,7 @@ as a guideline for current and future maintainers.
   Keep in mind that
   [every form of contribution](https://github.com/kentcdodds/all-contributors)
   (pull request, feature request, bug report, etc.)
-  is a voluntary gift of time offered to the tldr project
+  is a voluntary gift of time offered to the tldr-pages project
   by someone who cares about it,
   so make sure it's clear that that we don't take it for granted.
 
@@ -55,7 +55,7 @@ as a guideline for current and future maintainers.
 ## II. Handling PRs
 
 - PRs should be merged once they
-  (1) **pass the automated tests** (Travis CI, CLA signing, etc.),
+  (1) **pass the automated tests** (GitHub Actions, CLA signing, etc.),
   (2) have the **review comments addressed**, and
   (3) get **approved reviews by two maintainers**
   (the second maintainer can perform the merge immediately after accepting.)

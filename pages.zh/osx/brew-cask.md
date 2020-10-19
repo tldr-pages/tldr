@@ -14,7 +14,7 @@
 
 `brew cask list`
 
-- 列出全部已安装的软件中,可以升级的:
+- 列出全部已安装的软件中，可以升级的:
 
 `brew cask outdated`
 
@@ -22,7 +22,7 @@
 
 `brew cask upgrade {{软件名}}`
 
-- 删除一个软件(仅通过brew cask install方式安装的):
+- 删除一个软件（仅通过 brew cask install 方式安装的）:
 
 `brew cask uninstall {{软件名}}`
 

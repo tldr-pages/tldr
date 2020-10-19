@@ -9,11 +9,11 @@
 
 - Publish timestamp and temperature data on the topic `sensors/temperature` to a remote host on a non-standard port:
 
-`mosquitto_pub -h {{192.168.1.1}} -p {{1885}} -t {{sensors/temperature}} -m {{"1266193804 32"}}`
+`mosquitto_pub -h {{192.168.1.1}} -p {{1885}} -t {{sensors/temperature}} -m "{{1266193804 32}}"`
 
 - Publish light switch status and retain the message on the topic `switches/kitchen_lights/status` to a remote host because there may be a long period of time between light switch events:
 
-`mosquitto_pub -r -h {{"iot.eclipse.org"}} -t {{switches/kitchen_lights/status}} -m {{"on"}}`
+`mosquitto_pub -r -h "{{iot.eclipse.org}}" -t {{switches/kitchen_lights/status}} -m "{{on}}"`
 
 - Send the contents of a file (`data.txt`) as a message and publish it to `sensors/temperature` topic:
 

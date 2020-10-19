@@ -23,3 +23,15 @@
 - Restart a process:
 
 `pm2 restart {{myapp}}`
+
+- Dump all processes for resurrecting them later:
+
+`pm2 save`
+
+- Resurrect previously dumped processes:
+
+`pm2 resurrect`
+
+- Launch monitoring:
+
+`pm2 monit`

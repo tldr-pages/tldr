@@ -11,14 +11,14 @@
 
 `git clone --recursive {{remote_repository_location}}`
 
-- For cloning from the local machine:
+- Clone a local repository:
 
-`git clone -l`
+`git clone -l {{path/to/local/repository}}`
 
-- Do it quietly:
+- Clone quietly:
 
-`git clone -q`
+`git clone -q {{remote_repository_location}}`
 
-- Clone an existing repository, and truncate to the specified number of revisions, save your time mostly:
+- Clone an existing repository only fetching the 10 most recent commits on the default branch (useful to save time):
 
 `git clone --depth {{10}} {{remote_repository_location}}`

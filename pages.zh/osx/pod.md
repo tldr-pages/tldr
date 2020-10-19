@@ -6,7 +6,7 @@
 
 `pod init`
 
-- 下载并安装pod文件中定义的所有 pod（以前未安装）:
+- 下载并安装 pod 文件中定义的所有 pod（以前未安装）:
 
 `pod install`
 
@@ -18,7 +18,7 @@
 
 `pod outdated`
 
--将当前安装的所有 pod 更新到其最新版本:
+- 将当前安装的所有 pod 更新到其最新版本:
 
 `pod update`
 

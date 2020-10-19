@@ -7,14 +7,22 @@
 
 `git --version`
 
-- Call general help:
+- Show general help:
 
 `git --help`
 
-- Call help on a command:
+- Show help on a Git subcommand (like `commit`, `log`, etc.):
 
-`git help {{command}}`
+`git help {{subcommand}}`
 
-- Execute Git command:
+- Execute a Git subcommand:
 
-`git {{command}}`
+`git {{subcommand}}`
+
+- Execute a Git subcommand on a custom repository root path:
+
+`git -C {{path/to/repo}} {{subcommand}}`
+
+- Execute a Git subcommand with a given configuration set:
+
+`git -c '{{config.key}}={{value}}' {{subcommand}}`

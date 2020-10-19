@@ -16,7 +16,7 @@
 
 - Show available CPU features (MMX, SSE, SSE2, SSE3, AES, etc):
 
-`sysctl -n machdep.cpu.feature`
+`sysctl -n machdep.cpu.features`
 
 - Set a changeable kernel state variable:
 

@@ -29,8 +29,8 @@
 
 - Discard unstaged changes to a given file:
 
-`git checkout {{file_name}}`
+`git checkout {{filename}}`
 
 - Replace a file in the current directory with the version of it committed in a given branch:
 
-`git checkout {{branch_name}} -- {{file_name}}`
+`git checkout {{branch_name}} -- {{filename}}`

@@ -10,6 +10,10 @@
 
 `pdftotext {{filename.pdf}}`
 
+- Convert filename.pdf to plain text and preserve the layout:
+
+`pdftotext -layout {{filename.pdf}}`
+
 - Convert input.pdf to plain text and save it as output.txt:
 
 `pdftotext {{input.pdf}} {{output.txt}}`

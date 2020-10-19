@@ -12,4 +12,4 @@
 
 - 给 PATH 追加新的路径进去:
 
-`export PATH=$PATH:{{追加的path路径}}`
+`export PATH=$PATH:{{追加的 path 路径}}`

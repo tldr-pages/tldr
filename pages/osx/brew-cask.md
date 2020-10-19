@@ -13,15 +13,15 @@
 
 - List all installed casks:
 
-`brew cask list`
+`brew list --cask`
 
 - List installed casks that have newer versions available:
 
-`brew cask outdated`
+`brew outdated --cask`
 
 - Upgrade an installed cask (if no cask name is given, all installed casks are upgraded):
 
-`brew cask upgrade {{cask_name}}`
+`brew upgrade --cask {{cask_name}}`
 
 - Uninstall a cask:
 

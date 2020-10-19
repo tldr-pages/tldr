@@ -12,7 +12,7 @@
 
 - Find directories matching a given name, in case-insensitive mode:
 
-`find {{root_path}} -type d -iname {{*lib*}}`
+`find {{root_path}} -type d -iname '{{*lib*}}'`
 
 - Find files matching a path pattern:
 

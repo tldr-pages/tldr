@@ -1,0 +1,35 @@
+name: CI
+
+on: ['push', 'pull_request']
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+
+    name: CI
+
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: Set up PR environment
+      if: github.event.number != null
+      run: echo "::set-env name=PULL_REQUEST_ID::${{ github.event.number }}"
+
+    - name: Install npm dependencies
+      run: npm ci
+
+    - name: Test
+      run: npm test
+
+    - name: Build
+      run: bash scripts/build.sh
+
+    - name: Deploy
+      if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/master'
+      run: bash scripts/deploy.sh
+      env:
+        DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}

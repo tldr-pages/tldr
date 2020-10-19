@@ -3,6 +3,10 @@
 > Java Applications/Libraries Packager.
 > More information: <https://docs.oracle.com/javase/tutorial/deployment/jar/basicsindex.html>.
 
+- Recursively archive all files in the current directory into a .jar file:
+
+`jar cf {{file.jar}} *`
+
 - Unzip .jar/.war file to the current directory:
 
 `jar -xvf {{file.jar}}`

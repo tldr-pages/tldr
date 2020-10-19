@@ -1,6 +1,6 @@
 # apachectl
 
-> 用于macOS的Apache HTTP Server控制接口(工具).
+> 用于 macOS 的 Apache HTTP Server 控制接口（工具）.
 
 - 启动 org.apache.httpd 服务:
 

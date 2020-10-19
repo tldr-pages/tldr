@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2000" height="1200">
+  <defs>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#97d6d2"/>
+      <stop offset="1" stop-color="#4d9182"/>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="b" x1="10%" y1="10%" x2="90%" y2="90%"/>
+    <linearGradient xlink:href="#a" id="c" x1="90%" y1="90%" x2="10%" y2="10%"/>
+    <style type="text/css">
+      <![CDATA[
+        @font-face {
+          font-family: 'Sometype Mono';
+          src: url('./SometypeMono-Regular.ttf');
+        }
+        @font-face {
+          font-family: 'Sometype Mono';
+          src: url('./SometypeMono-Bold.ttf');
+          font-weight: bold;
+        }
+      ]]>
+    </style>
+  </defs>
+  <rect width="100%" height="100%" x="0" y="0" fill="#203050"/>
+  <!-- start of logo.svg -->
+  <g transform="translate(600,-70)"><!-- 2000/2 - 460/2 - 170 = 1000 - 230 - 170 = 1000 - 400 = 600 -->
+    <rect width="460" height="460" x="170" y="170" rx="50" ry="50" fill="url(#b)"/>
+    <rect width="380" height="380" x="210" y="210" rx="40" ry="40" fill="url(#c)"/>
+    <text x="215" y="490" font-size="300" font-family="Sometype Mono, monospace" fill="#203050">
+      $_
+    </text>
+  </g>
+  <!-- end of logo.svg -->
+  <g fill="#7ebfb7" font-family="Sometype Mono, monospace">
+    <text x="1000" y="850" font-size="280" font-weight="bold" text-anchor="middle">
+      tldr-pages
+    </text>
+    <text x="1000" y="1070" font-size="75" font-weight="500" text-anchor="middle" font-variant="small-caps">
+      collaborative cheatsheets for console commands
+    </text>
+  </g>
+</svg>
