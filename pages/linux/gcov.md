@@ -20,7 +20,7 @@
 
 `gcov --branch-counts {{path/to/file.cpp}}`
 
-- Do not create `gcov` output file:
+- Do not create a `gcov` output file:
 
 `gcov --no-output {{path/to/file.cpp}}`
 
