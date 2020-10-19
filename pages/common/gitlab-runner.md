@@ -7,7 +7,7 @@
 
 `sudo gitlab-runner register --url {{https://gitlab.example.com}} --registration-token {{token}} --name {{name}}`
 
-- Register a runner with a specific executor:
+- Register a runner with a Docker executor:
 
 `sudo gitlab-runner register --url {{https://gitlab.example.com}} --registration-token {{token}} --name {{name}} --executor {{docker}}`
 
