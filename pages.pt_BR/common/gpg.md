@@ -3,7 +3,7 @@
 > GNU Privacy Guard.
 > Mais informações: <https://gnupg.org>.
 
-- Assinar doc.txt sem criptografia (cria um arquivo de saída doc.txt.asc):
+- Assina doc.txt, sem criptografá-lo (cria um arquivo de saída doc.txt.asc):
 
 `gpg --clearsign {{doc.txt}}`
 
