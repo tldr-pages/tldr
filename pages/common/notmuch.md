@@ -23,7 +23,7 @@
 
 `notmuch search --format={{json|text}} --output={{summary|threads|messages|files|tags}} "{{search_term}}"`
 
-- Limit the number of saerch results to X:
+- Limit the number of search results to X:
 
 `notmuch search --format={{json|text}} --output={{summary|threads|messages|files|tags}} --limit={{X}} "{{search_term}}"`
 
