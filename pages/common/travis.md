@@ -15,7 +15,7 @@
 
 `travis repos`
 
-- Encrypt values for the .travis.yml:
+- Encrypt values in `.travis.yml`:
 
 `travis encrypt {{token}}`
 
