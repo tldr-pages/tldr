@@ -3,9 +3,9 @@
 > SMB enumeration tool.
 > More information: <https://github.com/ShawnDEvans/smbmap>.
 
-- Display SMB shares and permissions on a host:
+- Display SMB shares and permissions on a host, prompting for user's password:
 
-`smbmap -u {{username}} -p {{password}} -H {{ip}}`
+`smbmap -u {{username}} --prompt -H {{ip}}`
 
 - Display SMB shares and permissions on a host, specifying the domain and passing the password NTLM hash:
 
