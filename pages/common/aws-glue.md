@@ -12,7 +12,7 @@
 
 `aws glue start-job-run --job-name {{job_name}}`
 
-- Start workflow run:
+- Start running a workflow:
 
 `aws glue start-workflow-run --name {{workflow_name}}`
 
