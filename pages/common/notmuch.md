@@ -13,7 +13,7 @@
 
 - Remove a tag for all messages matching a search term:
 
-`notmuch tag -{{custom-tag}} {{"search-term"}}`
+`notmuch tag -{{custom_tag}} "{{search_term}}"`
 
 - Count messages matching the given search term:
 
