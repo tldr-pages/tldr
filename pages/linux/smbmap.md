@@ -31,6 +31,6 @@
 
 `smbmap -u {{username}} -p {{password}} -H {{ip}} -x {{command}}`
 
-- Upload a file on a remote system:
+- Upload a file to a remote system:
 
 `smbmap -u {{username}} -p {{password}} -H {{ip}} --upload {{source}} {{destination}}`
