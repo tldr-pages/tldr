@@ -1,6 +1,6 @@
 # gitlab-runner
 
-> Run GitLab CI jobs.
+> A CLI tool for managing your GitLab runners.
 > More information: <https://docs.gitlab.com/runner/>.
 
 - Register a runner:
