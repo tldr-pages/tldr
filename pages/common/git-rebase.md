@@ -4,7 +4,7 @@
 > Commonly used to "move" an entire branch to another base, creating copies of the commits in the new location.
 > More information: <https://git-scm.com/docs/git-rebase>.
 
-- Rebase the current branch on top of the another specified branch:
+- Rebase the current branch on top of another specified branch:
 
 `git rebase {{new_base_branch}}`
 

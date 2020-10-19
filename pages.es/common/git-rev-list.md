@@ -7,7 +7,7 @@
 
 `git rev-list {{HEAD}}`
 
-- Muestra los commits más reciente a partir de una fecha y una rama específica:
+- Muestra los commits más recientes a partir de una fecha y una rama específica:
 
 `git rev-list --since={{'2019-12-01 00:00:00'}} {{nombre_de_rama}}`
 
