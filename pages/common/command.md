@@ -5,3 +5,7 @@
 - Execute the ls program literally, even if an ls alias exists:
 
 `command {{ls}}`
+
+- Find the path to the executable of the command ls:
+
+`command -v {{ls}}`
