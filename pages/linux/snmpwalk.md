@@ -3,7 +3,7 @@
 > SNMP query tool.
 > More information: <https://linux.die.net/man/1/snmpwalk>.
 
-- Query target system information using SNMPv1 and community string:
+- Query the system information of a remote host using SNMPv1 and a community string:
 
 `snmpwalk -v1 -c {{community}} {{ip}}`
 
