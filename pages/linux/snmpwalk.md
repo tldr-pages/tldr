@@ -15,7 +15,7 @@
 
 `snmpwalk -v3 -l {{authNoPriv}} -u {{username}} -a {{MD5|SHA}} -A {{passphrase}} {{ip}} {{oid}}`
 
-- Query specific target system information by OID using SNMPv3, authentication and encryption:
+- Query specific system information on a remote host by OID using SNMPv3, authentication, and encryption:
 
 `snmpwalk -v3 -l {{authPriv}} -u {{username}} -a {{MD5|SHA}} -A {{auth_passphrase}} -x {{DES|AES}} -X {{enc_passphrase}} {{ip}} {{oid}}`
 
