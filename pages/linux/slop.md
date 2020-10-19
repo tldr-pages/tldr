@@ -19,6 +19,6 @@
 
 `slop -f {{format}}`
 
-- Specify selection rectangle's color:
+- Specify the selection rectangle's color:
 
-`slop -c {{R}},{{G}},{{B}},{{A}}`
+`slop -c {{red}},{{green}},{{blue}},{{alpha}}`
