@@ -5,17 +5,17 @@
 
 - Register a runner:
 
-`sudo gitlab-runner register --url {{https://gitlab.example.com/}} --registration-token {{token}} --name {{runner_name}}`
+`sudo gitlab-runner register --url {{https://gitlab.example.com}} --registration-token {{token}} --name {{name}}`
 
 - Register a runner with a specific executor:
 
-`sudo gitlab-runner register --url {{https://gitlab.example.com/}} --registration-token {{token}} --name {{runner_name}} --executor {{docker}}`
+`sudo gitlab-runner register --url {{https://gitlab.example.com}} --registration-token {{token}} --name {{name}} --executor {{docker}}`
 
 - Unregister a runner:
 
-`sudo gitlab-runner unregister --name {{runner_name}}`
+`sudo gitlab-runner unregister --name {{name}}`
 
-- Get the status of the runner service:
+- Display the status of the runner service:
 
 `sudo gitlab-runner status`
 
