@@ -7,7 +7,7 @@
 
 `snmpwalk -v1 -c {{community}} {{ip}}`
 
-- Query specific target system information by OID using SNMPv2 on a specified port:
+- Query specific system information on a remote host by OID using SNMPv2 on a specified port:
 
 `snmpwalk -v2c -c {{community}} {{ip}}:{{port}} {{oid}}`
 
