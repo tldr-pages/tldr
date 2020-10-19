@@ -11,7 +11,7 @@
 
 `travis login`
 
-- List repositories the user has certain permissions on:
+- List repositories the user has permissions on:
 
 `travis repos`
 
