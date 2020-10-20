@@ -1,4 +1,4 @@
-# pass-otp
+# pass otp
 
 > A pass extension for managing one-time-password (OTP) tokens.
 > More information: <https://github.com/tadfisher/pass-otp#readme>.
