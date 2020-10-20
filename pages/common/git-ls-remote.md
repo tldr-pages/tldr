@@ -4,7 +4,7 @@
 > If no name or URL are given, then the configured upstream branch will be used, or remote origin if the former is not configured.
 > More information: <https://git-scm.com/docs/git-ls-remote.html>.
 
-- Show all references in the default remote repositoiory:
+- Show all references in the default remote repository:
 
 `git ls-remote`
 
@@ -16,10 +16,10 @@
 
 `git ls-remote --tags`
 
-- Show all references from a remote repositiory based on name or url:
+- Show all references from a remote repository based on name or url:
 
-`git ls-remote {{repositiory-url}}`
+`git ls-remote {{repository_url}}`
 
-- Show references from a remote repositiory filtered by a pattern:
+- Show references from a remote repository filtered by a pattern:
 
-`git ls-remote {{repositiory-name}} "{{pattern}}"`
+`git ls-remote {{repository_name}} "{{pattern}}"`
