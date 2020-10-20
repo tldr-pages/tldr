@@ -7,7 +7,7 @@
 
 `syncthing`
 
-- Start syncthing without opening a browser:
+- Start syncthing without opening a web browser:
 
 `syncthing -no-browser`
 
