@@ -29,3 +29,7 @@
 - Replace separator / by any other character not used in the find or replace patterns, e.g., #:
 
 `sed 's#{{find}}#{{replace}}#' {{filename}}`
+
+- Delete line number 123 from a file, in-place without saving a backup:
+
+`sed -i '' '123d' {{filename}}`
