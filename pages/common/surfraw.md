@@ -10,7 +10,7 @@
 
 - Open the elvi's results page for a specific search in the browser:
 
-`surfraw {{elvi_name}} {{search_terms}}`
+`surfraw {{elvi}} "{{search_terms}}"`
 
 - Display an elvi description and its specific options:
 
@@ -20,6 +20,10 @@
 
 `surfraw {{elvi}} {{elvi_options}} "{{search_terms}}"`
 
-- Display the URL to the elvi's results page for a specific search:
+- Display the URL of the elvi's results page for a specific search:
 
 `surfraw -print {{elvi}} "{{search_terms}}"`
+
+- Search using the alias:
+
+`sr {{elvi}} "{{search_terms}}"`
