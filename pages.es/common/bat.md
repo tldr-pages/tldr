@@ -1,19 +1,19 @@
 # bat
 
 > Imprime y concatena archivos.
-> Un clon de `cat` con resaltado de sintaxis e integración con `git`.
+> Un clon de `cat` con resaltado de sintaxis e integración con Git.
 
-- Imprimir los contenidos de un archivo a la salida estándar (`stdout`):
+- Imprime los contenidos de un archivo a la salida estándar:
 
 `bat {{archivo}}`
 
-- Concatenar varios archivos creando un nuevo archivo:
+- Concatena varios archivos creando un nuevo archivo:
 
-`bat {{archivo1}} {{archivo2}} > {{archivo_objetivo}}`
+`bat {{archivo1}} {{archivo2}} > {{archivo_final}}`
 
 - Añade múltiples archivos al final de un archivo objetivo:
 
-`bat {{archivo1}} {{archivo2}} >> {{archivo_objetivo}}`
+`bat {{archivo1}} {{archivo2}} >> {{archivo_final}}`
 
 - Numera las lineas del archivo:
 
