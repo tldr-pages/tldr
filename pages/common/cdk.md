@@ -1,6 +1,6 @@
 # aws cdk
 
-> CLI for AWS Cloud Development Kit (CDK).
+> A CLI for AWS Cloud Development Kit (CDK).
 > More information: <https://docs.aws.amazon.com/cdk/latest/guide/cli.html>.
 
 - List the stacks in the app:
@@ -11,11 +11,11 @@
 
 `cdk synth {{stack_name}}`
 
-- Deploy the specified stack(s):
+- Deploy a space-separated list of stacks:
 
 `cdk deploy {{stack_name}}`
 
-- Destroy the specified stack(s):
+- Destroy a space-separated list of stacks:
 
 `cdk destroy {{stack_name}}`
 
