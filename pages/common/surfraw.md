@@ -14,7 +14,7 @@
 
 - Show the elvi description and specific options using the alias:
 
-`sr {{elvi_name}} -local-help`
+`surfraw {{elvi}} -local-help`
 
 - Search using an elvi with specific options and open the results page in the browser:
 
