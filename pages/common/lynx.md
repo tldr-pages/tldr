@@ -14,7 +14,7 @@
 
 `Enter or the right (arrow key)`
 
-- To go back to the last page:
+- Go back to the previously displayed page:
 
 `Left (arrow key) or u`
 
