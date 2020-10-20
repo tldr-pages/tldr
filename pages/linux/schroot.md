@@ -1,8 +1,8 @@
 # schroot
 
 > Run command or interactive shell with special root directory. More customizable than standard chroot.
-> Source code: https://gitlab.com/codelibre/schroot
-> Debian Wiki page: https://wiki.debian.org/Schroot
+> Source code: https://gitlab.com/codelibre/schroot.
+> Debian Wiki page: https://wiki.debian.org/Schroot.
 
 - Run command in a specific chroot:
 
