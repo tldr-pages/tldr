@@ -11,7 +11,7 @@
 
 `gh issue create`
 
-- View and filter repository’s open issues:
+- View and filter a repository’s open issues:
 
 `gh issue list`
 
@@ -31,6 +31,6 @@
 
 `gh pr checkout {{pr_number}}`
 
-- Check the status of your pull requests:
+- Check the status of a repository's pull requests:
 
 `gh pr status`
