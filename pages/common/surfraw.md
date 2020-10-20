@@ -8,7 +8,7 @@
 
 `surfraw -elvi`
 
-- Search using an elvi and open the results page in the browser:
+- Open the elvi's results page for a specific search in the browser:
 
 `surfraw {{elvi_name}} {{search_terms}}`
 
