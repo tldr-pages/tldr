@@ -6,6 +6,6 @@
 
 `command {{ls}}`
 
-- Find the path to the executable of the command ls:
+- Display the path to the executable or the alias definition of a specific command:
 
-`command -v {{ls}}`
+`command -v {{command_name}}`
