@@ -2,14 +2,14 @@
 
 > Convert addresses of a binary into file names and line numbers.
 
-- Get the file name and line number of an instruction address of an executable in the source code:
+- Display the filename and line number of the source code from an instruction address of an executable:
 
-`addr2line --exe=<executable> <address>`
+`addr2line --exe={{path/to/executable}} {{address}}`
 
-- Also show the function name:
+- Display function name, filename and line number:
 
-`addr2line --exe=<executable> --functions <address>`
+`addr2line --exe={{path/to/executable}} --functions {{address}}`
 
 - Demangle function name for C++ code:
 
-`addr2line --exe=<executable> --functions --demangle <address>`
+`addr2line --exe={{path/to/executable}} --functions --demangle {{address}}`
