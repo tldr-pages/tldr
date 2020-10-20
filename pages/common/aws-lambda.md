@@ -1,6 +1,6 @@
 # aws lambda
 
-> CLI for AWS lambda
+> CLI for AWS lambda.
 > More information: <https://docs.aws.amazon.com/cli/latest/reference/lambda/index.html>.
 
 - Run a function:
