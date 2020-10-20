@@ -8,15 +8,15 @@
 
 - To move among the links:
 
-`Up (arrow key), Down (arrow key)`
+`Up arrow key, Down arrow key`
 
 - Follow the currently selected link:
 
-`Enter or the right (arrow key)`
+`Enter or the right arrow key`
 
 - Go back to the previously displayed page:
 
-`Left (arrow key) or u`
+`Left arrow key or u`
 
 - Exit:
 
