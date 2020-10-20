@@ -1,6 +1,6 @@
 # git ls-files
 
-> Git command for showing information about files in the index and the working tree.
+> Show information about files in the index and the working tree.
 > More information: <https://git-scm.com/docs/git-ls-files>.
 
 - Show deleted files:
