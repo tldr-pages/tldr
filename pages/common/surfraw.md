@@ -12,7 +12,7 @@
 
 `surfraw {{elvi_name}} {{search_terms}}`
 
-- Show the elvi description and specific options using the alias:
+- Display an elvi description and its specific options:
 
 `surfraw {{elvi}} -local-help`
 
