@@ -17,11 +17,11 @@
 
 - Numera las lineas del archivo:
 
-`bat -n {{file}}`
+`bat -n {{archivo}}`
 
 - Muestra un archivo JSON con resaltado de sintaxis:
 
-`bat --language json {{file.json}}`
+`bat --language json {{archivo.json}}`
 
 - Muestra todos los lenguajes permitidos:
 
