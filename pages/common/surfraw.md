@@ -4,7 +4,7 @@
 > It consists of a collection of elvi, each of which knows how to search a specific website.
 > More information: <http://surfraw.org>.
 
-- Show the list of elvi:
+- Display the list of supported website search scripts (elvi):
 
 `surfraw -elvi`
 
