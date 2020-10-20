@@ -1,8 +1,8 @@
 # tr
 
-> Translate characters: run replacements based on single characters and character sets.
+> Translate characters: the tr utility will take input and translate (i.e., substitute or delete) charaters and output the results. You traditionaly source data from a file or "piped" stream and write the "translated" data back to a file or output it to the screen.
 
-- Replace all occurrences of a character in a file, and print the result:
+- Replace all occurrences of a character in a file, and print the result on the screen (file remains unchanged):
 
 `tr {{find_character}} {{replace_character}} < {{filename}}`
 
@@ -10,22 +10,18 @@
 
 `echo {{text}} | tr {{find_character}} {{replace_character}}`
 
-- Map each character of the first set to the corresponding character of the second set:
-
-`tr '{{abcd}}' '{{jkmn}}' < {{filename}}`
-
-- Delete all occurrences of the specified set of characters from the input:
+- Delete all occurrences of the specified set of characters from the input file and output to the screen:
 
 `tr -d '{{input_characters}}' < {{filename}}`
 
-- Compress a series of identical characters to a single character:
+- Compress a series of identical characters in a file to a single character and output to the screen:
 
 `tr -s '{{input_characters}}' < {{filename}}`
 
-- Translate the contents of a file to upper-case:
+- Translate the contents of a file to upper-case and output to the screen:
 
 `tr "[:lower:]" "[:upper:]" < {{filename}}`
 
-- Strip out non-printable characters from a file:
+- Strip out non-printable characters from a file and output to the screen:
 
 `tr -cd "[:print:]" < {{filename}}`
