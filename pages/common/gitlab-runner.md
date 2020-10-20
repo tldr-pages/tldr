@@ -1,6 +1,6 @@
 # gitlab-runner
 
-> A CLI tool for managing your GitLab runners.
+> CLI tool for managing GitLab runners.
 > More information: <https://docs.gitlab.com/runner/>.
 
 - Register a runner:
