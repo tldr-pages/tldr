@@ -1,6 +1,6 @@
 # tr
 
-> Translate characters: the tr utility will take input and translate (i.e., substitute or delete) charaters and output the results. You traditionaly source data from a file or "piped" stream and write the "translated" data back to a file or output it to the screen.
+> Translate characters: the tr utility will translate (i.e., substitute or delete) charaters from an input stream and output those results.
 
 - Replace all occurrences of a character in a file, and print the result on the screen (file remains unchanged):
 
