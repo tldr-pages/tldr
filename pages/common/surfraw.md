@@ -2,7 +2,7 @@
 
 > Surfraw is a CLI to query a variety of web search engines.
 > It consists of a collection of elvi, each of which knows how to search a specific website.
-> More information: <http://surfraw.org/>.
+> More information: <http://surfraw.org>.
 
 - Show the list of elvi:
 
