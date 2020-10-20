@@ -4,20 +4,20 @@
 
 - Run command in a specific chroot:
 
-`schroot -c {{chroot}} {{command}}`
+`schroot --chroot {{chroot}} {{command}}`
 
 - Pass options to a command in a specific chroot:
 
-`schroot -c {{chroot}} {{command}} -- {{options for command}}
+`schroot --chroot {{chroot}} {{command}} -- {{options for command}}`
 
 - Run command in all available chroots:
 
-`schroot -a {{command}}`
+`schroot --all {{command}}`
 
 - Specify user to use in a specific chroot:
 
-`schroot -c {{chroot}} -u {{user}}`
+`schroot --chroot {{chroot}} --user {{user}}`
 
 - List available chroots:
 
-`schroot -l`
+`schroot --list`
