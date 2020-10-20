@@ -1,6 +1,6 @@
 # lynx
 
-> A Command-line web browser.
+> Command-line web browser.
 
 - Visit a website:
 
