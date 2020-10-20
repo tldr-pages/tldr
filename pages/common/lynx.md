@@ -2,7 +2,7 @@
 
 > A Command-line web browser.
 
-- To visit a website:
+- Visit a website:
 
 `lynx {{https://duckduckgo.com}}`
 
