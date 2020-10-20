@@ -22,4 +22,4 @@
 
 - Print the search URL instead of passing it to the browser:
 
-`sr -print {{elvi_name}} {{search_terms}}`
+`surfraw -print {{elvi}} "{{search_terms}}"`
