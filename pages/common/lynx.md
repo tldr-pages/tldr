@@ -6,7 +6,7 @@
 
 `lynx {{https://duckduckgo.com}}`
 
-- To move among the links:
+- Navigate forwards and backwards through the links on a page:
 
 `Up arrow key, Down arrow key`
 
