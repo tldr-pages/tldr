@@ -10,7 +10,7 @@
 
 `Up (arrow key), Down (arrow key)`
 
-- To follow links:
+- Follow the currently selected link:
 
 `Enter or the right (arrow key)`
 
