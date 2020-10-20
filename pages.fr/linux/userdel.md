@@ -1,7 +1,7 @@
 # userdel
 
-> Efface un utilisateur:
+> Efface un utilisateur.
 
-- Efface un utilisateur et son dossier home:
+- Efface un utilisateur et son dossier home :
 
-`userdel -r {{name}}`
+`userdel -r {{nom}}`
