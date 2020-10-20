@@ -18,7 +18,7 @@
 
 - Search using an elvi with specific options and open the results page in the browser:
 
-`sr {{elvi_name}} {{elvi_options}} {{search_terms}}`
+`surfraw {{elvi}} {{elvi_options}} "{{search_terms}}"`
 
 - Print the search URL instead of passing it to the browser:
 
