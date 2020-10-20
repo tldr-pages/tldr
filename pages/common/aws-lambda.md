@@ -3,6 +3,10 @@
 > CLI for AWS lambda
 > More information: <https://docs.aws.amazon.com/cli/latest/reference/lambda/index.html>.
 
+- Run a function:
+
+`aws lambda invoke --function-name {{function_name}} {{local_file_to_store_results}}`
+
 - Run a function with payload as input:
 
 `aws lambda invoke --function-name {{function_name}} --payload {{payload_in_json}} {{local_file_to_store_results}}`
