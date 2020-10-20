@@ -20,7 +20,7 @@
 
 `surfraw {{elvi}} {{elvi_options}} "{{search_terms}}"`
 
-- Display the URL of the elvi's results page for a specific search:
+- Display the URL to the elvi's results page for a specific search:
 
 `surfraw -print {{elvi}} "{{search_terms}}"`
 
