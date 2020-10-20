@@ -1,23 +1,23 @@
 # useradd
 
-> Crée un nouvel utilisateur:
+> Crée un nouvel utilisateur.
 
-- Crée un nouvel utilisateur:
+- Crée un nouvel utilisateur :
 
-`useradd {{name}}`
+`useradd {{nom}}`
 
-- Crée un nouvel utilisateur avec un dossier home par défaut:
+- Crée un nouvel utilisateur avec un dossier home par défaut :
 
-`useradd --create-home {{name}}`
+`useradd --create-home {{nom}}`
 
-- Crée un nouvel utilisateur avec le shell spécifié:
+- Crée un nouvel utilisateur avec le shell spécifié :
 
-`useradd --shell {{/path/to/shell}} {{name}}`
+`useradd --shell {{/chemin/vers/shell}} {{nom}}`
 
-- Crée un nouvel utilisateur qui appartient aux groupes supplémentaires (attention à l'omission des espaces):
+- Crée un nouvel utilisateur qui appartient aux groupes supplémentaires (attention à l'omission des espaces) :
 
-`useradd --groups {{group1,group2}} {{name}}`
+`useradd --groups {{groupe1,groupe2}} {{nom}}`
 
-- Crée un nouvel utilisateuri sans un dossier home:
+- Crée un nouvel utilisateur sans un dossier home :
 
-`useradd --no-create-home --system {{name}}`
+`useradd --no-create-home --system {{nom}}`
