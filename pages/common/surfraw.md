@@ -20,6 +20,6 @@
 
 `surfraw {{elvi}} {{elvi_options}} "{{search_terms}}"`
 
-- Print the search URL instead of passing it to the browser:
+- Display the URL to the elvi's results page for a specific search:
 
 `surfraw -print {{elvi}} "{{search_terms}}"`
