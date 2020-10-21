@@ -7,7 +7,7 @@
 
 `zmv '{{(*).log}}' '{{$1.txt}}'`
 
-- Preview the command result without any changes to the files:
+- Preview the result, without making any actual changes:
 
 `zmv -n '{{(*).log}}' '{{$1.txt}}'`
 
