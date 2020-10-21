@@ -19,7 +19,7 @@
 
 `docker-compose --file {{ruta/al/directorio}} up`
 
-- Detiene todo los contenedores:
+- Detiene todos los contenedores en ejecución:
 
 `docker-compose stop`
 
