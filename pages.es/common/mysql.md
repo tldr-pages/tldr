@@ -1,32 +1,32 @@
 # mysql
 
 > Herramienta en línea de comandos para gestionar bases de datos MySQL
-> More information: <https://www.mysql.com/>.
+> Más información: <https://www.mysql.com/>.
 
-- Conectarse a una base de datos:
+- Conecta a una base de datos:
 
-`mysql {{database_name}}`
+`mysql {{nombre_base_de_datos}}`
 
-- Conectarse a una base de datos con el usuario `user` y se le pedirá una contraseña:
+- Conecta a una base de datos con el usuario `usuario` y se le pedirá la contraseña:
 
-`mysql -u {{user}} --password {{database_name}}`
+`mysql -u {{usuario}} --password {{nombre_base_de_datos}}`
 
-- Connect to a database on another host:
+- Conecta a una base de datos en otra máquina:
 
-`mysql -h {{database_host}} {{database_name}}`
+`mysql -h {{maquina_remota}} {{nombre_base_de_datos}}`
 
-- Connect to a database through a Unix socket:
+- Conecta a una base de datos a través de un socket unix
 
-`mysql --socket {{path/to/socket.sock}}`
+`mysql --socket {{ruta/al/socket.sock}}`
 
-- Execute SQL statements in a script file (batch file):
+- Ejecuta comandos SQL contenidos en un script:
 
-`mysql -e "source {{filename.sql}}" {{database_name}}`
+`mysql -e "source {{fichero.sql}}" {{nombre_base_de_datos}}`
 
-- Restore a database from a backup created with `mysqldump` (user will be prompted for a password):
+- Restaura una base de datos a partir de una copia de seguridad creada con `mysqldump` (y se le pedirá la contraseña al usuario):
 
-`mysql --user {{user}} --password {{database_name}} < {{path/to/backup.sql}}`
+`mysql --user {{usuario}} --password {{nombre_base_de_datos}} < {{ruta/al/backup.sql}}`
 
-- Restore all databases from a backup (user will be prompted for a password):
+- Restaura todas las bases de datos en una copia de seguridad (y se le pedirá la contraseña al usuario):
 
-`mysql --user {{user}} --password < {{path/to/backup.sql}}`
+`mysql --user {{usuario}} --password < {{ruta/al/backup.sql}}`
