@@ -1,6 +1,6 @@
 # zmv
 
-> Move or rename files matching the regex pattern to corresponding files having names of the form given by destination.
+> Move or rename files matching a specified regex pattern.
 > More information: <http://zsh.sourceforge.net/Doc/Release/User-Contributions.html>.
 
 - Below renames `foo.log` to `foo.txt`, and so on:
