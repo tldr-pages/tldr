@@ -1,6 +1,6 @@
 # mysql
 
-> Herramienta en línea de comandos para gestionar bases de datos MySQL
+> Herramienta de línea de comandos para gestionar bases de datos MySQL
 > Más información: <https://www.mysql.com/>.
 
 - Conecta a una base de datos:
@@ -21,7 +21,7 @@
 
 - Ejecuta comandos SQL contenidos en un script:
 
-`mysql -e "source {{fichero.sql}}" {{nombre_base_de_datos}}`
+`mysql -e "source {{archivo.sql}}" {{nombre_base_de_datos}}`
 
 - Restaura una base de datos a partir de una copia de seguridad creada con `mysqldump` (y se le pedirá la contraseña al usuario):
 
