@@ -15,7 +15,7 @@
 
 `zmv -i '{{(*).log}}' '{{$1.txt}}'`
 
-- Verbosely print each command as it’s being executed:
+- Verbosely print each action as it's being executed:
 
 `zmv -v '{{(*).log}}' '{{$1.txt}}'`
 
