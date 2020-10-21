@@ -4,7 +4,7 @@
 
 - Crée un répertoire dans le répertoire actuel ou dans un chemin donné :
 
-`mkdir {{directory}}`
+`mkdir {{répertoire}}`
 
 - Crée des répertoires récursivement (utile pour créer des répertoires 
 imbriqués) :
