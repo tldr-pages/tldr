@@ -1,16 +1,20 @@
 # hadolint
 
-> Lints Dockerfiles to help you build [best practice](https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices) Docker images.
-> More information: https://github.com/hadolint/hadolint.
+> Dockerfile linter.
+> More information: <https://github.com/hadolint/hadolint>.
 
-- Lint a Dockerfile, printing any output to STDOUT:
+- Lint a Dockerfile:
 
-`hadolint {{Dockerfile}}`
+`hadolint {{path/to/Dockerfile}}`
 
-- Lint a Dockerfile ignoring specific rules and outputting JSON:
+- Lint a Dockerfile outputting a specific format:
 
-`hadolint --ignore {{DL3006}} --format json {{Dockerfile}}`
+`hadolint --format {{json}} {{path/to/Dockerfile}}`
+
+- Lint a Dockerfile ignoring specific rules:
+
+`hadolint --ignore {{DL3006}} --ignore {{DL3008}} {{path/to/Dockerfile}}`
 
 - Lint multiple Dockerfiles while specifying a trusted registry:
 
-`hadolint --trusted-registry {{my.company.com:500}} {{app/Dockerfile}} {{db/Dockerfile}}`
+`hadolint --trusted-registry {{example.com}}:{{5000}} {{path/to/Dockerfile}} {{path/to/another/Dockerfile}}`
