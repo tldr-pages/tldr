@@ -1,6 +1,6 @@
 # arithmetic
 
-> Quiz on simple arithmetic.
+> Quiz on simple arithmetic problems.
 > More information: <https://manpages.debian.org/bsdgames/arithmetic.6.en.html>.
 
 - Start an arithmetic quiz:
