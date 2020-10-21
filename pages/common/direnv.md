@@ -3,7 +3,7 @@
 > Shell extension to load and unload environment variables depending on the current directory.
 > More information: <https://github.com/direnv/direnv>.
 
-- Grant direnv to load the given .envrc:
+- Grant direnv permission to load the specified .envrc:
 
 `direnv allow`
 
