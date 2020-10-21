@@ -7,7 +7,7 @@
 
 `arithmetic`
 
-- Specify one or more arithmetic operation symbols to get problems on them:
+- Specify one or more arithmetic [o]peration symbols to get problems on them:
 
 `arithmetic -o {{+|-|x|/}}`
 
