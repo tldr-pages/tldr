@@ -18,3 +18,7 @@
 - List all Docker images not used by any container:
 
 `docker images --filter dangling=true`
+
+- List add Docker images contain phrase:
+
+`docker images {{"*phrase*"}}`
