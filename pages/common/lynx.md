@@ -15,10 +15,10 @@
 
 `lynx -use_mouse {{example.com}}`
 
-- Forces color mode on, if available:
+- Force color mode on, if available:
 
 `lynx -color {{example.com}}`
 
-- Specifies a file to use to read/write cookies:
+- Specify a file to use to read/write cookies:
 
 `lynx -cookie_file {{example.com}}`
