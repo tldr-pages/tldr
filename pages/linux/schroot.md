@@ -11,7 +11,7 @@
 
 `schroot --chroot {{chroot}} {{command}} -- {{command_options}}`
 
-- Run command in all available chroots:
+- Run a command in all available chroots:
 
 `schroot --all {{command}}`
 
