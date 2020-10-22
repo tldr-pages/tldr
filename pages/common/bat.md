@@ -4,7 +4,6 @@
 > A `cat` clone with syntax highlighting and Git integration.
 > More information: <https://github.com/sharkdp/bat>.
 
-
 - Print the contents of a file to the standard output:
 
 `bat {{file}}`
