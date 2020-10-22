@@ -2,14 +2,13 @@
 
 > Собирает приложение .NET и все его зависимости.
 > Больше информации: <https://docs.microsoft.com/dotnet/core/tools/dotnet-build>.
-
 - Скомпилировать проект или решение в текущей директории:
 
 `dotnet build`
 
 - Скомпилировать проект или решение .NET в режиме debug:
 
-`dotnet build {{путь/до/проекта или решения}}`
+`dotnet build {{путь/до/проекта_или_решения}}`
 
 - Скомпилировать в режиме release:
 
@@ -29,4 +28,4 @@
 
 - Указать целевую папку:
 
-`dotnet build --output {{path/to/directory}}`
+`dotnet build --output {{путь/до/папки}}`
