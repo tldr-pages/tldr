@@ -4,7 +4,7 @@
 
 - Affiche les paramètres de réseau d'un adaptateur ethernet :
 
-`ifconfig eth0`
+`ifconfig {{eth0}}`
 
 - Affiche les détails de toutes les interfaces, y compris les interfaces 
 désactivées :
