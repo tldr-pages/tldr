@@ -30,6 +30,6 @@
 
 `sed 's#{{find}}#{{replace}}#' {{filename}}`
 
-- [d]elete the line at the specific line number in a file, overwriting the file:
+- [d]elete the line at the specific line number [i]n a file, overwriting the file:
 
 `sed -i '' '{{line_number}}d' {{filename}}`
