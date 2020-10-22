@@ -14,3 +14,11 @@
 - Terminate the connection that is running in the background:
 
 `killall -SIGINT openconnect`
+
+- Connect to a server, reading further options from a config file:
+
+`openconnect --config={{path/to/file}} {{vpn.example.org}}`
+
+- Connect to a server and authenticate with the specified SSL client certificate:
+
+`openconnect --certificate={{path/to/file}} {{vpn.example.org}}`
