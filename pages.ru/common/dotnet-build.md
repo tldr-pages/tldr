@@ -2,6 +2,7 @@
 
 > Собирает приложение .NET и все его зависимости.
 > Больше информации: <https://docs.microsoft.com/dotnet/core/tools/dotnet-build>.
+
 - Скомпилировать проект или решение в текущей директории:
 
 `dotnet build`
