@@ -21,4 +21,4 @@ désactivées :
 
 - Assigne une addresse IP à l'interface eth0 :
 
-`ifconfig eth0 {{addresse_ip}}`
+`ifconfig {{eth0}} {{addresse_ip}}`
