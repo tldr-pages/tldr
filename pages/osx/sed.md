@@ -12,7 +12,7 @@
 
 - Replace all occurrences of a string in a file, overwriting the file (i.e. in-place):
 
-`sed --in-place='' 's/{{find}}/{{replace}}/g' {{filename}}`
+`sed -i '' 's/{{find}}/{{replace}}/g' {{filename}}`
 
 - Replace only on lines matching the line pattern:
 
@@ -32,4 +32,4 @@
 
 - [d]elete the line at the specific line number in a file, overwriting the file:
 
-`sed --in-place='' '{{line_number}}d' {{filename}}`
+`sed -i '' '{{line_number}}d' {{filename}}`
