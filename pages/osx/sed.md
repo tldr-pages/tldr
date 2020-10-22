@@ -32,4 +32,4 @@
 
 - [d]elete the line at the specific line number in a file, overwriting the file:
 
-`sed -i '' '123d' {{filename}}`
+`sed --in-place='' '{{line_number}}d' {{filename}}`
