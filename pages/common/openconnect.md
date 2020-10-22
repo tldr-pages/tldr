@@ -7,7 +7,7 @@
 
 `openconnect {{vpn.example.org}}`
 
-- Establish a VPN connection to the specified server and continue in the background:
+- Connect to a server, forking into the background:
 
 `openconnect --background {{vpn.example.org}}`
 
