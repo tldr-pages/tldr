@@ -3,7 +3,7 @@
 > Save critical ext2/ext3/ext4 filesystem metadata to a file.
 > More information: <https://linux.die.net/man/8/e2image>.
 
-- Save metadata located on device to the specified file:
+- Write metadata located on device to a specific file:
 
 `e2image {{/dev/sdXN}} {{path/to/file}}`
 
