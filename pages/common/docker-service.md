@@ -9,7 +9,7 @@
 
 - Create a new service:
 
-`docker service create --name {{service_name}} {{docker_image_name}}:{{image_version}}`
+`docker service create --name {{service_name}} {{docker_image_name}}:{{docker_image_version}}`
 
 - Display detailed information on one or more space separated services:
 
