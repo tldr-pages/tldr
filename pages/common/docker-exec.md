@@ -22,3 +22,7 @@
 - Set an environment variable in a running bash session:
 
 `docker exec -it -e {{variable_name}}={{value}} {{container_name}} {{/bin/bash}}`
+
+- Execute command as a specific user:
+
+`docker exec -u {{user}} {{container_name}} {{command}}`
