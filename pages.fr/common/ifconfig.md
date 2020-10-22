@@ -13,7 +13,7 @@ désactivées :
 
 - Désactive l'interface eth0 :
 
-`ifconfig eth0 down`
+`ifconfig {{eth0}} down`
 
 - Active l'interface eth0 :
 
