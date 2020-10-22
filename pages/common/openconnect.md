@@ -3,7 +3,7 @@
 > A VPN client, for Cisco AnyConnect VPNs and others.
 > More information: <https://www.infradead.org/openconnect/manual.html>.
 
-- Establish a VPN connection to the specified server:
+- Connect to a server:
 
 `openconnect {{vpn.example.org}}`
 
