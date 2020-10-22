@@ -4,9 +4,9 @@
 > Commonly used to "move" an entire branch to another base, creating copies of the commits in the new location.
 > More information: <https://git-scm.com/docs/git-rebase>.
 
-- Rebase the current branch on top of the master branch:
+- Rebase the current branch on top of another specified branch:
 
-`git rebase {{master}}`
+`git rebase {{new_base_branch}}`
 
 - Start an interactive rebase, which allows the commits to be reordered, omitted, combined or modified:
 
@@ -34,4 +34,4 @@
 
 - Auto-resolve any conflicts by favoring the working branch version (`theirs` keyword has reversed meaning in this case):
 
-`git rebase -X theirs {{master}}`
+`git rebase -X theirs {{branch_name}}`
