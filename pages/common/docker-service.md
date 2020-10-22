@@ -1,6 +1,6 @@
 # docker service
 
-> Manage services.
+> Manage services on docker daemon.
 > More information: <https://docs.docker.com/engine/reference/commandline/service/>.
 
 - List services on docker daemon:
@@ -9,7 +9,7 @@
 
 - Create a new service:
 
-`docker service create --name --name {{service_name}} {{docker_image_name}}:{{image_version}}`
+`docker service create --name {{service_name}} {{docker_image_name}}:{{image_version}}`
 
 - Display detailed information on one or more space separated services:
 
