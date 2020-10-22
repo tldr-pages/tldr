@@ -12,7 +12,7 @@
 
 - Create new user with specified shell:
 
-`useradd --shell {{/path/to/shell}} {{name}}`
+`useradd --shell {{path/to/shell}} {{name}}`
 
 - Create new user belonging to additional groups (mind the lack of whitespace):
 

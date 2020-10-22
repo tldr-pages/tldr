@@ -20,4 +20,4 @@
 
 - Convert a VMWare .vmdk disk image to a KVM .qcow2 disk image:
 
-`qemu-img convert -O qcow2 {{/path/to/file/foo.vmdk}} {{/path/to/file/foo.qcow2}}`
+`qemu-img convert -O qcow2 {{path/to/file/foo.vmdk}} {{path/to/file/foo.qcow2}}`

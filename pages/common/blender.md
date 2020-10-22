@@ -14,7 +14,7 @@
 
 - Render the 10th frame of an animation as a single image, saved to an existing directory (absolute path):
 
-`blender -b {{filename}}.blend -o {{/path/to/output_directory}} -f {{10}}`
+`blender -b {{filename}}.blend -o {{path/to/output_directory}} -f {{10}}`
 
 - Render the second last frame in an animation as a JPEG image, saved to an existing directory (relative path):
 

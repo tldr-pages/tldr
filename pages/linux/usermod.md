@@ -12,4 +12,4 @@
 
 - Create a new home directory for a user and move their files to it:
 
-`usermod -m -d {{/path/to/home}} {{user}}`
+`usermod -m -d {{path/to/home}} {{user}}`
