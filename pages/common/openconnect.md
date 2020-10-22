@@ -19,6 +19,6 @@
 
 `openconnect --config={{path/to/file}} {{vpn.example.org}}`
 
-- Connect to a server and authenticate with the specified SSL client certificate:
+- Connect to a server and authenticate with a specific SSL client certificate:
 
 `openconnect --certificate={{path/to/file}} {{vpn.example.org}}`
