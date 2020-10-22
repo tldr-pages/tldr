@@ -2,6 +2,7 @@
 
 > Imprime y concatena archivos.
 > Un clon de `cat` con resaltado de sintaxis e integración con Git.
+> Más información: <https://github.com/sharkdp/bat>.
 
 - Imprime los contenidos de un archivo a la salida estándar:
 
