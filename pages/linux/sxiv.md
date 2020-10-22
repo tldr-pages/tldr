@@ -15,8 +15,6 @@
 
 `echo {{path/to/file}} | sxiv -i`
 
-`echo {{path/to/file}} | sxiv -`
-
 - View images as a slideshow:
 
 `sxiv -S {{delay}} {{path/to/image}} ...`
