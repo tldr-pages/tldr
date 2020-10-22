@@ -11,7 +11,7 @@
 
 `node`
 
-- Evaluate JavaScript by passing it in the command:
+- Evaluate JavaScript code by passing it as an argument:
 
 `node -e "{{code}}"`
 
