@@ -1,23 +1,24 @@
 # lynx
 
-> Command-line web browser.
+> A Command Line Web Browsing.
+> More information: <http://lynx.browser.org>.
 
-- Visit a website:
+- Open a link:
 
-`lynx {{https://duckduckgo.com}}`
+`lynx {{example.com}}`
 
-- Navigate forwards and backwards through the links on a page:
+- Apply restrictions for anonymous account:
 
-`Up arrow key, Down arrow key`
+`lynx -anonymous {{example.com}}`
 
-- Follow the currently selected link:
+- Turn on mouse support, if available:
 
-`Enter or the right arrow key`
+`lynx -use_mouse {{example.com}}`
 
-- Go back to the previously displayed page:
+- Forces color mode on, if available:
 
-`Left arrow key or u`
+`lynx -color {{example.com}}`
 
-- Exit:
+- Specifies a file to use to read/write cookies:
 
-`q then y`
+`lynx -cookie_file {{example.com}}`
