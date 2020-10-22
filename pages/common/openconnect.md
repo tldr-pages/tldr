@@ -11,6 +11,6 @@
 
 `openconnect --background {{vpn.example.org}}`
 
-- Terminate a VPN session that is running in the background:
+- Terminate the connection that is running in the background:
 
 `killall -SIGINT openconnect`
