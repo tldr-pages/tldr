@@ -17,7 +17,7 @@ désactivées :
 
 - Active l'interface eth0 :
 
-`ifconfig eth0 up`
+`ifconfig {{eth0}} up`
 
 - Assigne une addresse IP à l'interface eth0 :
 
