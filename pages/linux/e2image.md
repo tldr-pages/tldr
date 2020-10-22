@@ -5,7 +5,7 @@
 
 - Save metadata located on device to the specified file:
 
-`e2image {{/dev/sdXN}} {{path/to/image-file}}`
+`e2image {{/dev/sdXN}} {{path/to/file}}`
 
 - Print metadata located on device to `stdout`:
 
