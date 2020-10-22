@@ -30,3 +30,7 @@
 - Follow logs for all containers:
 
 `docker-compose logs --follow`
+
+- Follow logs for one container:
+
+`docker-compose logs --follow {{container_name}}`
