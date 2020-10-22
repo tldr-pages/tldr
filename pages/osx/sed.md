@@ -30,6 +30,6 @@
 
 `sed 's#{{find}}#{{replace}}#' {{filename}}`
 
-- Delete line number 123 from a file, in-place without saving a backup:
+- [d]elete the line at the specific line number in a file, overwriting the file:
 
 `sed -i '' '123d' {{filename}}`
