@@ -1,6 +1,7 @@
 # mdadm
 
 > RAID management utility.
+> More information: <https://linux.die.net/man/8/mdadm>.
 
 - Create array:
 
@@ -12,7 +13,7 @@
 
 - Mark disk as failed:
 
-`mdadm {{path/to/raid_device_file}} -f {{path/to/disk_device_file}}`
+`mdadm {{/dev/md0}} -f {{/dev/sdXN}}`
 
 - Remove disk:
 

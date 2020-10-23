@@ -21,7 +21,7 @@
 
 - Search an unmounted disk in desctructive mode and output found blocks to a file:
 
-`sudo badblocks -o {{path/to/file}} -w {{/dev/sda}}`
+`sudo badblocks -o {{path/to/file}} -w {{/dev/sdX}}`
 
 - Search an unmounted disk in desctructive mode with improved speed using 4K block size and 64K block count:
 

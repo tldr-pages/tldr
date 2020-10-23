@@ -18,11 +18,11 @@
 
 - Add a directory or increment its rank:
 
-`zoxide add {{{path/to/directory}}`
+`zoxide add {{path/to/directory}}`
 
 - Remove a directory from `zoxide`'s database:
 
-`zoxide remove {{{path/to/directory}}`
+`zoxide remove {{path/to/directory}}`
 
 - Generate shell configuration for command aliases (`z`, `za`, `zi`, `zq`, `zr`):
 
