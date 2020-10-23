@@ -13,7 +13,7 @@
 
 - Скомпилировать в режиме release:
 
-`dotnet build`
+`dotnet build --configuration Release`
 
 - Скомпилировать без восстановления зависимостей:
 
