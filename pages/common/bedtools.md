@@ -20,7 +20,7 @@
 
 `bedtools groupby -i {{path/to/file}} -c 1-3,5 -g 6 -o sum`
 
-- Convert bam-formated file to a bed-formated one:
+- Convert bam-formatted file to a bed-formatted one:
 
 `bedtools bamtobed -i {{path/to/file}}.bam > {{path/to/file}}.bed`
 
