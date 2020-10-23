@@ -9,11 +9,11 @@
 
 - List all Docker images including intermediates:
 
-`docker images -a`
+`docker images --all`
 
 - List the output in quiet mode (only numeric IDs):
 
-`docker images -q`
+`docker images --quiet`
 
 - List all Docker images not used by any container:
 
