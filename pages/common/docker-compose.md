@@ -31,6 +31,6 @@
 
 `docker-compose logs --follow`
 
-- Follow logs for one container:
+- Follow logs for a specific container:
 
 `docker-compose logs --follow {{container_name}}`
