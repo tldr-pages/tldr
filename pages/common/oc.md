@@ -12,7 +12,7 @@
 
 `oc new-project {{project_name}}`
 
-- Change project to project_name:
+- Switch to an existing project:
 
 `oc project {{project_name}}`
 
