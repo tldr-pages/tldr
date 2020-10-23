@@ -19,6 +19,6 @@
 
 `docker images --filter dangling=true`
 
-- List add Docker images contain phrase:
+- List images that contain a substring in their name:
 
-`docker images {{"*phrase*"}}`
+`docker images {{"*name*"}}`
