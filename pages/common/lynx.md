@@ -19,6 +19,6 @@
 
 `lynx -color {{example.com}}`
 
-- Specify a file to use to read/write cookies:
+- Open a link, using a specific file to read and write cookies:
 
-`lynx -cookie_file {{example.com}}`
+`lynx -cookie_file={{path/to/file}} {{example.com}}`
