@@ -12,6 +12,10 @@
 
 `oc new-project {{project_name}}`
 
+- Change to project project_name:
+
+`oc project {{project_name}}`
+
 - Add a new application to a project:
 
 `oc new-app {{repo_url}} --name {{application}}`
