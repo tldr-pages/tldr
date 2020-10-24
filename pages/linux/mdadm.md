@@ -9,20 +9,20 @@
 
 - Stop array:
 
-`mdadm -S {{path/to/raid_device_file}}`
+`mdadm --stop {{/dev/md0}}`
 
 - Mark disk as failed:
 
-`mdadm {{/dev/md0}} -f {{/dev/sdXN}}`
+`mdadm --fail {{/dev/md0}} {{/dev/sdXN}}`
 
 - Remove disk:
 
-`mdadm {{path/to/raid_device_file}} -r {{path/to/disk_device_file}}`
+`mdadm --remove {{/dev/md0}} {{/dev/sdXN}}`
 
 - Add disk to array:
 
-`mdadm {{path/to/raid_device_file}} -a {{path/to/disk_device_file}}`
+`mdadm --assemble {{/dev/md0}} {{/dev/sdXN}}`
 
 - Show RAID info:
 
-`mdadm -D {{path/to/raid_device_file}}`
+`mdadm --detail {{/dev/md0}}`
