@@ -11,7 +11,7 @@
 
 `sxiv -f {{path/to/file}}`
 
-- View an image or set of images, reading filenames from standard input:
+- Open a newline-separated list of images, reading filenames from standard input:
 
 `echo {{path/to/file}} | sxiv -i`
 
@@ -19,6 +19,6 @@
 
 `sxiv -S {{seconds}} {{path/to/file}}`
 
-- View images as thumbnails:
+- Open a space-separated list of images in thumbnail mode:
 
 `sxiv -t {{path/to/file}}`
