@@ -11,11 +11,11 @@
 
 `slop -D`
 
-- Highlight, rather than outline, the selection:
+- Highlight the selection rather than outlining it:
 
 `slop -l`
 
-- Specify output format:
+- Specify the output format:
 
 `slop -f {{format_string}}`
 
