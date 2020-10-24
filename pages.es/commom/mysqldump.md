@@ -8,7 +8,7 @@
 
 `mysqldump --user {{usuario}} --password {{nombre_base_de_datos}} -r {{ruta/al/archivo.sql}}`
 
-- Crea un backup de todas las bases de datos y redirige la salida a un fichero (se le pedirá la contraseña al usuario):
+- Crea un backup de todas las bases de datos y redirige la salida a un archivo (se le pedirá la contraseña al usuario):
 
 `mysqldump --user {{usuario}} --password --all-databases > {{ruta/al/archivo.sql}}`
 
