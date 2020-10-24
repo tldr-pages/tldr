@@ -13,7 +13,7 @@
 
 - Restore the filesystem metadata back to the device:
 
-`e2image -I {{/dev/sdXN}} {{path/to/image-file}}`
+`e2image -I {{/dev/sdXN}} {{path/to/image_file}}`
 
 - Create a large raw sparse file with metadata at proper offsets:
 
