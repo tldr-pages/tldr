@@ -18,8 +18,6 @@
 - List closed issues made by given user:
 
 `gh issue list -s closed -A {{github_nickname}}`
-<<<<<<< Updated upstream
-=======
 
 - Check status of issues relevant to you, in other repo:
 
@@ -28,4 +26,3 @@
 - Reopen an issue:
 
 `gh issue reopen {{issue_number}}`
->>>>>>> Stashed changes
