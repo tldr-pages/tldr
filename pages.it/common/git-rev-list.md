@@ -9,7 +9,7 @@
 
 - Mostra i commit più recenti di una certa data, su uno specifico ramo:
 
-`git rev-list --since={{'2019-12-01 00:00:00'}} {{master}}`
+`git rev-list --since={{'2019-12-01 00:00:00'}} {{nome_ramo}}`
 
 - Mostra tutti i commit di unione (merge commit) associati a uno specifico commit:
 

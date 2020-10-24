@@ -13,7 +13,7 @@
 
 - Inverti più commit:
 
-`git revert {{master~5..master~2}}`
+`git revert {{nome_ramo~5..nome_ramo~2}}`
 
 - Inverti senza creare nuovi commit, ma modificando l'albero di lavoro:
 

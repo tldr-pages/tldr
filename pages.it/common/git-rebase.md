@@ -4,9 +4,9 @@
 > Tipicamente usato per riallineare (rebase) due rami, creando copie dei commit nella nuova posizione.
 > Maggiori informazioni: <https://git-scm.com/docs/git-rebase>.
 
-- Riallinea il ramo corrente con il ramo principale:
+- Riallinea il ramo corrente con il ramo specificato:
 
-`git rebase {{master}}`
+`git rebase {{ramo_della_nuova_base}}`
 
 - Avvia un rebase interattivo, che consente di riordinare, omettere, unire o modificare i commit:
 
@@ -34,4 +34,4 @@
 
 - Risolvi automaticamente i conflitti a favore del ramo di versione corrente (la parola chiave `theirs` ha qui un significato opposto):
 
-`git rebase -X theirs {{master}}`
+`git rebase -X theirs {{nome_ramo}}`
