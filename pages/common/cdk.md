@@ -1,4 +1,4 @@
-# aws cdk
+# cdk
 
 > A CLI for AWS Cloud Development Kit (CDK).
 > More information: <https://docs.aws.amazon.com/cdk/latest/guide/cli.html>.
