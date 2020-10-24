@@ -16,10 +16,6 @@
     "test": "bash scripts/test.sh",
     "build-index": "node ./scripts/build-index.js > index.json"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm test"
-    }
-  },
+
   "private": true
 }

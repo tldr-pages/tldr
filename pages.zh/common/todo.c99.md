@@ -1,0 +1,19 @@
+# c99
+
+> Compiles C programs according to the ISO C standard.
+
+- Compile source file(s) and create an executable:
+
+`c99 {{file.c}}`
+
+- Compile source file(s) and create an executable with a custom name:
+
+`c99 -o {{executable_name}} {{file.c}}`
+
+- Compile source file(s) and create object file(s):
+
+`c99 -c {{file.c}}`
+
+- Compile source file(s), link with object file(s), and create an executable:
+
+`c99 {{file.c}} {{file.o}}`
