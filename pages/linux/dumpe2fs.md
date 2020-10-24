@@ -1,6 +1,6 @@
 # dumpe2fs
 
-> Print the super block and blocks group information for ext2/ext3/ext4 filesystem.
+> Print the super block and blocks group information for ext2/ext3/ext4 filesystems.
 > Unmount the partition before running this command using `umount {{device}}`.
 > More information: <https://linux.die.net/man/8/dumpe2fs>.
 
