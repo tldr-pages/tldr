@@ -3,11 +3,11 @@
 > Simple X Image Viewer.
 > More information: <https://github.com/muennich/sxiv>.
 
-- View an image:
+- Open an image:
 
 `sxiv {{path/to/file}}`
 
-- View an image in fullscreen mode:
+- Open an image in fullscreen mode:
 
 `sxiv -f {{path/to/file}}`
 
@@ -15,10 +15,10 @@
 
 `echo {{path/to/file}} | sxiv -i`
 
-- View images as a slideshow:
+- Open a space-separated list of images as a slideshow:
 
-`sxiv -S {{delay}} {{path/to/image}} ...`
+`sxiv -S {{seconds}} {{path/to/file}}`
 
 - View images as thumbnails:
 
-`sxiv -t {{path/to/image}} ...`
+`sxiv -t {{path/to/file}}`
