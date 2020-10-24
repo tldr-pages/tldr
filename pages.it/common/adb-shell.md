@@ -17,7 +17,7 @@
 
 - Revoca un permesso pericoloso da un'applicazione:
 
-`adb shell pm revoke {{package}} {{permission}}`
+`adb shell pm revoke {{pacchetto}} {{permesso}}`
 
 - Attiva un evento chiave:
 
@@ -25,13 +25,12 @@
 
 - Pulisce i dati di un'applicazione sull'emulatore o dispositivo:
 
-`adb shell pm clear {{package}}`
+`adb shell pm clear {{pacchetto}}`
 
 - Avvia un'attività sull'emulatore/dispositivo:
 
-`adb shell am start -n {{package}}/{{activity}}`
+`adb shell am start -n {{pacchetto}}/{{attività}}`
 
 - Avvia la schermata iniziale sull'emulatore o dispositivo:
 
 `adb shell am start -W -c android.intent.category.HOME -a android.intent.action.MAIN`
-
