@@ -5,28 +5,28 @@
 
 - Run a function:
 
-`aws lambda invoke --function-name {{function_name}} {{local_file_to_store_results}}`
+`aws lambda invoke --function-name {{name}} {{path/to/response}}.json`
 
-- Run a function with payload as input:
+- Run a function with an input payload in JSON format:
 
-`aws lambda invoke --function-name {{function_name}} --payload {{payload_in_json}} {{local_file_to_store_results}}`
+`aws lambda invoke --function-name {{name}} --payload {{json}} {{path/to/response}}.json`
 
 - List functions:
 
 `aws lambda list-functions`
 
-- Get function configuration:
+- Display the configuration of a function:
 
-`aws lambda get-function-configuration --function-name  {{function_name}}`
+`aws lambda get-function-configuration --function-name  {{name}}`
 
 - List function aliases:
 
-`aws lambda list-aliases --function-name {{function_name}}`
+`aws lambda list-aliases --function-name {{name}}`
 
-- Get function reserved concurrency:
+- Display the reserved concurrency configuration for a function:
 
-`aws lambda get-function-concurrency --function-name {{function_name}}`
+`aws lambda get-function-concurrency --function-name {{name}}`
 
 - List which AWS services can invoke the function:
 
-`aws lambda get-policy --function-name {{function_name}}`
+`aws lambda get-policy --function-name {{name}}`
