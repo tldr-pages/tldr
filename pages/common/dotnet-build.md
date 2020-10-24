@@ -13,7 +13,7 @@
 
 - Compile in release mode:
 
-`dotnet build --configuration Release`
+`dotnet build --configuration {{Release}}`
 
 - Compile without restoring dependencies:
 
