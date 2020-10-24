@@ -3,7 +3,7 @@
 > Manage GitHub releases from the command line.
 > More information: <https://cli.github.com/manual/gh_release>.
 
-- List releases in a GitHub repository, limit 30 items:
+- List releases in a GitHub repository, limited to 30 items:
 
 `gh release list`
 
