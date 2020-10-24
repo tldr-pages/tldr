@@ -21,4 +21,4 @@
 
 - Ceate a QCOW2 image file instead of a normal or raw image file:
 
-`e2image -Q {{/dev/sdXN}} {{path/to/image-file}}`
+`e2image -Q {{/dev/sdXN}} {{path/to/image_file}}`
