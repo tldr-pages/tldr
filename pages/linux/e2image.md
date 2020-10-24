@@ -17,7 +17,7 @@
 
 - Create a large raw sparse file with metadata at proper offsets:
 
-`e2image -r {{/dev/sdXN}} {{path/to/image-file}}`
+`e2image -r {{/dev/sdXN}} {{path/to/image_file}}`
 
 - Ceate a QCOW2 image file instead of a normal or raw image file:
 
