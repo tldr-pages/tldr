@@ -6,10 +6,10 @@
 
 `addr2line --exe={{path/to/executable}} {{address}}`
 
-- Display function name, filename and line number:
+- Display the function name, filename and line number:
 
 `addr2line --exe={{path/to/executable}} --functions {{address}}`
 
-- Demangle function name for C++ code:
+- Demangle the function name for C++ code:
 
 `addr2line --exe={{path/to/executable}} --functions --demangle {{address}}`
