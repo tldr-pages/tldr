@@ -1,9 +1,9 @@
 # schroot
 
-> Run command or start an interactive shell with a special root directory. More customizable than standard chroot.
+> Run command or start an interactive shell with a different root directory. More customizable than `chroot`.
 > More information: <https://wiki.debian.org/Schroot>.
 
-- Run command in a specific chroot:
+- Run a command in a specific chroot:
 
 `schroot --chroot {{chroot}} {{command}}`
 
