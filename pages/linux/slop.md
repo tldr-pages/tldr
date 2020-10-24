@@ -17,7 +17,7 @@
 
 - Specify output format:
 
-`slop -f {{format}}`
+`slop -f {{format_string}}`
 
 - Specify the selection rectangle's color:
 
