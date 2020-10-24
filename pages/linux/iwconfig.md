@@ -17,4 +17,4 @@
 
 - Set the operating mode of the specified interface:
 
-`ifconfig {{interface}} mode {{ad hoc|Managed|Master|Repeater|Secondary|Monitor|Auto}}`
+`iwconfig {{interface}} mode {{ad hoc|Managed|Master|Repeater|Secondary|Monitor|Auto}}`
