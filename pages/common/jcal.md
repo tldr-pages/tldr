@@ -1,6 +1,7 @@
 # jcal
 
 > Prints calendar information in Jalali format, with the current day highlighted.
+> More information: <http://www.nongnu.org/jcal/>.
 
 - Display a calendar for the current month:
 
