@@ -22,4 +22,5 @@
 - 移除指定的反向映射端口连接
 
 `adb reverse —remove tcp:7000`
+
 `adb reverse —remove-all`

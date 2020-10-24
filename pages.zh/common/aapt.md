@@ -17,8 +17,4 @@
 
 - 从压缩包中删除指定文件:
 
-<<<<<<< HEAD
 `aapt r[emove] {{path/to/app.apk}} {{path/to/filename}}`
-=======
-`aapt r[emove] {{path/to/app.apk}} {{path/to/filename}}`
->>>>>>> b9ef5e1830c9b2dd9f23d4dcad97608d3ccf1ac5
