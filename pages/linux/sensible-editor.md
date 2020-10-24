@@ -14,6 +14,6 @@
 
 `sensible-editor +10 {{file}}`
 
-- Open 3 files in vertically splitted editor windows at the same time:
+- Open 3 files in vertically split editor windows at the same time:
 
 `sensible-editor -O3 {{file_1}} {{file_2}} {{file_3}}`
