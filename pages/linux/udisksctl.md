@@ -15,11 +15,11 @@
 
 `udisksctl info --block-device {{/dev/sdXN}}`
 
-- Mount a device and prints the mount point:
+- Mount a device partition and prints the mount point:
 
 `udisksctl mount --block-device {{/dev/sdXN}}`
 
-- Unmount a device:
+- Unmount a device partition:
 
 `udisksctl unmount --block-device {{/dev/sdXN}}`
 
