@@ -1,4 +1,4 @@
-# gh-pr
+# gh issue
 
 > Manage GitHub issues from the command line.
 > More information: <https://cli.github.com/manual/gh_issue>.
@@ -17,11 +17,11 @@
 
 - List closed issues made by given user:
 
-`gh issue list -s closed -A {{github_nickname}}`
+`gh issue list --state closed --author {{username}}`
 
-- Check status of issues relevant to you, in other repo:
+- Display status of issues relevant to you, in a specific repository:
 
-`gh issue status -R {{owner/repo}}`
+`gh issue status --repo {{owner}}/{{repository}}`
 
 - Reopen an issue:
 
