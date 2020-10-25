@@ -110,8 +110,7 @@ both for the command line and for other platforms:
 - [Haskell client](https://github.com/psibi/tldr-hs):
   `stack install tldr`
   or `apt-get install tldr` on Debian-based distributions
-- Java clients
-  - [tldr-java-client](https://github.com/seenukarthi/tldr-java-client)
+- [Java client](https://github.com/seenukarthi/tldr-java-client)
 - [Node.js client](https://github.com/tldr-pages/tldr-node-client):
   `npm install -g tldr`
 - [OCaml client](https://github.com/RosalesJ/tldr-ocaml): `opam install tldr`
