@@ -1,13 +1,13 @@
-# gh-auth
+# gh auth
 
-> Authenticate with GitHub in GitHub cli.
-> More information: <https://cli.github.com/manual/gh_auth_login>.
+> Authenticate with a GitHub host from the command line.
+> More information: <https://cli.github.com/manual/gh_auth>.
 
 - Login with interactive prompt:
 
 `gh auth login`
 
-- Login with token from https://github.com/settings/tokens :
+- Login with a token from standard input (created in https://github.com/settings/tokens):
 
 `echo {{your_token}} | gh auth login --with-token`
 
@@ -19,6 +19,6 @@
 
 `gh auth logout`
 
-- Login to specific Github Enterprise Server:
+- Login with a specific GitHub Enterprise Server:
 
-`gh auth login --hostname {{enterprise.server.address}}`
+`gh auth login --hostname {{github.example.com}}`
