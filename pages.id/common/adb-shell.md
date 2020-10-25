@@ -17,7 +17,7 @@
 
 - Mencabut izin berbahaya dari sebuah aplikasi:
 
-`adb shell pm revoke {{package}} {{permission}}`
+`adb shell pm revoke {{paket}} {{izin}}`
 
 - Memicu sebuah peristiwa penting:
 
@@ -25,11 +25,11 @@
 
 - Mengosongkan data aplikasi pada emulator/perangkat:
 
-`adb shell pm clear {{package}}`
+`adb shell pm clear {{paket}}`
 
 - Memulai aktivitas pada emulator/perangkat:
 
-`adb shell am start -n {{package}}/{{activity}}`
+`adb shell am start -n {{paket}}/{{aktivitas}}`
 
 - Memulai aktivitas beranda pada emulator/perangkat:
 
