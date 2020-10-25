@@ -16,4 +16,4 @@
 
 - Calculate MD5 checksum from standard input:
 
-`echo "{{your_text}}" | md5sum`
+`echo "{{text}}" | md5sum`
