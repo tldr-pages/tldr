@@ -9,7 +9,7 @@
 
 - Tampilkan isi direktori yang ditentukan:
 
-`dir {{path/to/directory}}`
+`dir {{lokasi/ke/direktori}}`
 
 - Tampilkan isi dari direktori saat ini, termasuk yang disembunyikan:
 
@@ -17,4 +17,4 @@
 
 - Tampilkan isi direktori yang ditentukan, termasuk yang disembunyikan:
 
-`dir {{path/to/directory}} /A`
+`dir {{lokasi/ke/direktori}} /A`
