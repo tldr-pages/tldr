@@ -13,11 +13,11 @@
 
 - Mount a device and prints the mount point:
 
-`udisksctl mount --block-device {{/dev/device_name}}`
+`udisksctl mount --block-device {{/dev/sdXN}}`
 
 - Unmount a device:
 
-`udisksctl unmount --block-device {{/dev/device_name}}`
+`udisksctl unmount --block-device {{/dev/sdXN}}`
 
 - Monitor the daemon for events:
 
