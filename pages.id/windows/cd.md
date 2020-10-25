@@ -5,7 +5,7 @@
 
 - Menuju suatu direktori pada drive yang sama:
 
-`cd {{path/to/directory}}`
+`cd {{lokasi/ke/direktori}}`
 
 - Menampilkan nama dari direktori saat ini:
 
@@ -17,4 +17,4 @@
 
 - Menuju direktori di dalam suatu drive:
 
-`cd {{path/to/directory}} /d`
+`cd {{lokasi/ke/direktori}} /d`
