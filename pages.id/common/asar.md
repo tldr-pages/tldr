@@ -5,7 +5,7 @@
 
 - Arsipkan sebuah berkas atau direktori:
 
-`asar pack {{path/to/berkas_atau_direktori}} {{arsip.asar}}`
+`asar pack {{alamat/ke/berkas_atau_direktori}} {{arsip.asar}}`
 
 - Mengekstrak sebuah arsip:
 
