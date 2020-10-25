@@ -5,11 +5,11 @@
 
 - Dekode berkas APK:
 
-`apktool d {{file.apk}}`
+`apktool d {{berkas.apk}}`
 
 - Men-build folder menjadi berkas APK:
 
-`apktool b {{path/to/directory}}`
+`apktool b {{path/to/direktori}}`
 
 - Menginstal dan menyimpan frameworks:
 
