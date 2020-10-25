@@ -7,17 +7,9 @@
 
 `flutter --version`
 
-- Display general help:
-
-`flutter help`
-
 - Display help about a specific command:
 
 `flutter help {{command}}`
-
-- Execute a Flutter command:
-
-`flutter {{command}}`
 
 - Show information about the installed tooling:
 
