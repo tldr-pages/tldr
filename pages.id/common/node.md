@@ -5,7 +5,7 @@
 
 - Menjalankan berkas JavaScript:
 
-`node {{path/to/file}}`
+`node {{path/to/berkas}}`
 
 - Memulai sebuah REPL (shell interaktif):
 
@@ -13,7 +13,7 @@
 
 - Mengevaluasi kode JavaScript dengan memberikanya sebagai sebuah argument:
 
-`node -e "{{code}}"`
+`node -e "{{kode}}"`
 
 - Mengevaluasi dan mencetak hasil, berguna untuk melihat versi dependesni node:
 
@@ -21,4 +21,4 @@
 
 - Mengaktifkan inspector, menjeda eksekusi sampai debugger terhubung segera setelah kode sumber sepenuhnya terparser:
 
-`node --no-lazy --inspect-brk {{path/to/file}}`
+`node --no-lazy --inspect-brk {{path/to/berkas}}`
