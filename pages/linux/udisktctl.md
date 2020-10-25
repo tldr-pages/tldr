@@ -9,7 +9,7 @@
 
 - Show detailed information about a device:
 
-`udisksctl info --block-device {{/dev/device_name}}`
+`udisksctl info --block-device {{/dev/sdX}}`
 
 - Mount a device and prints the mount point:
 
