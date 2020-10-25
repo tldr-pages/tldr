@@ -5,12 +5,12 @@
 
 - Daftar berkas-berkas yang termuat dalam arsip APK:
 
-`aapt list {{path/to/app.apk}}`
+`aapt list {{path/to/aplikasi.apk}}`
 
 - Menampilkan metadata aplikasi (versi, izin, dsb.):
 
-`aapt dump badging {{path/to/app.apk}}`
+`aapt dump badging {{path/to/aplikasi.apk}}`
 
 - Membuat arsip APK baru dengan berkas dari direktory yang ditentukan:
 
-`aapt package -F {{path/to/app.apk}} {{path/to/directory}}`
+`aapt package -F {{path/to/aplikasi.apk}} {{path/to/direktori}}`
