@@ -5,16 +5,16 @@
 
 - Menginstal aplikasi Android ke emulator/perangkat:
 
-`adb install {{path/to/berkas.apk}}`
+`adb install {{alamat/ke/berkas.apk}}`
 
 - Menginstal ulang aplikasi yang sudah ada, menjaga datanya:
 
-`adb install -r {{path/to/berkas.apk}}`
+`adb install -r {{alamat/ke/berkas.apk}}`
 
 - Memberikan semua izin yang terdaftar di manifest aplikasi:
 
-`adb install -g {{path/to/berkas.apk}}`
+`adb install -g {{alamat/ke/berkas.apk}}`
 
 - Memperbarui langsung paket terinstal dengan hanya memperbarui bagian dari APK yang berubah:
 
-`Adb install --fastdeploy {{path/to/berkas.apk}}`
+`Adb install --fastdeploy {{alamat/ke/berkas.apk}}`
