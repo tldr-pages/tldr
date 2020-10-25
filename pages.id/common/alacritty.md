@@ -9,16 +9,16 @@
 
 - Menjalankan alacritty pada direktori tertentu:
 
-`alacritty --working-directory {{path/to/directory}}`
+`alacritty --working-directory {{path/to/direktori}}`
 
 - Menjalankan perintah di jendela alacritty baru:
 
-`alacritty -e {{command}}`
+`alacritty -e {{perintah}}`
 
 - Menentukan berkas konfigurasi alternatif (nilai default $XDG_CONFIG_HOME/alacritty/alacritty.yml):
 
-`alacritty --config-file {{path/to/config.yml}}`
+`alacritty --config-file {{path/to/konfigurasi.yml}}`
 
 - Menjalankan dengan mengaktifkan pemuatan ulang konfigurasi secara langsung/otomatis(dapat juga diaktifkan secara default di alacritty.yml):
 
-`alacritty --live-config-reload --config-file {{path/to/config.yml}}`
+`alacritty --live-config-reload --config-file {{path/to/konfigurasi.yml}}`
