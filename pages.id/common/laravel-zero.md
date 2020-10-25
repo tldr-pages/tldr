@@ -5,7 +5,7 @@
 
 - Buat aplikasi Laravel Zero baru:
 
-`laravel-zero new {{name}}`
+`laravel-zero new {{nama}}`
 
 - Perbarui pemasang ke versi terkini:
 

@@ -5,27 +5,27 @@
 
 - Buat aplikasi Laravel baru:
 
-`laravel new {{name}}`
+`laravel new {{nama}}`
 
 - Gunakan versi pengembangan terkini:
 
-`laravel new {{name}} --dev`
+`laravel new {{nama}} --dev`
 
 - Overwrite if the directory already exists:
 
-`laravel new {{name}} --force`
+`laravel new {{nama}} --force`
 
 - Pasang struktur Laravel Jetstream:
 
-`laravel new {{name}} --jet`
+`laravel new {{nama}} --jet`
 
 - Pasang struktur Laravel Jetstream dengan susunan tertentu:
 
-`laravel new {{name}} --jet --stack {{livewire|inertia}}`
+`laravel new {{nama}} --jet --stack {{livewire|inertia}}`
 
 - Pasang struktur Laravel Jetstream dengan dukungan tim:
 
-`laravel new {{name}} --jet --teams`
+`laravel new {{nama}} --jet --teams`
 
 - Lis perintah yang tersedia:
 
