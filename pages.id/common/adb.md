@@ -17,15 +17,15 @@
 
 - Menginstal aplikasi Android ke emulator/perangkat tujuan:
 
-`adb install -r {{path/to/file.apk}}`
+`adb install -r {{path/to/berkas.apk}}`
 
 - Menyalin berkas/direktori dari perangkat tujuan:
 
-`adb pull {{path/to/device_file_or_directory}} {{path/to/local_destination_directory}}`
+`adb pull {{path/to/berkas_atau_direktori_perangkat}} {{path/to/direktori_lokal_tujuan}}`
 
 - Menyalin berkas/direktori ke perangkat tujuan:
 
-`adb push {{path/to/local_file_or_directory}} {{path/to/device_destination_directory}}`
+`adb push {{path/to/berkas_atau_direktori_lokal}} {{path/to/direktori_perangkat_tujuan}}`
 
 - Mendapatkan daftar perangkat yang terhubung:
 
