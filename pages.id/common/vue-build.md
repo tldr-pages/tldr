@@ -5,4 +5,4 @@
 
 - Membangun berkas `.js` or `.vue` pada mode produksi tanpa konfigurasi:
 
-`vue build {{filename}}`
+`vue build {{nama_file}}`

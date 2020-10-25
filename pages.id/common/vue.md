@@ -5,7 +5,7 @@
 
 - Buat proyek vue baru secara interaktif:
 
-`vue create {{project_name}}`
+`vue create {{nama_proyek}}`
 
 - Buat proyek baru dengan antar muka web:
 

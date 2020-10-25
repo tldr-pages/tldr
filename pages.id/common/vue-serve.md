@@ -5,4 +5,4 @@
 
 - Sajikan berkas `.js` or `.vue` pada mode pengembangan tanpa konfigurasi:
 
-`vue serve {{filename}}`
+`vue serve {{nama_file}}`
