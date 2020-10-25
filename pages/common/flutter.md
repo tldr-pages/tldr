@@ -26,3 +26,7 @@
 - Run tests in a terminal from the root of the project:
 
 `flutter test {{test/example_test.dart}}`
+
+- Build a release APK targeting most modern smartphones:
+
+`flutter build apk --target-platform {{android-arm}} {{android-arm64}}`
