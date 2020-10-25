@@ -11,9 +11,9 @@
 
 `gh issue create --web`
 
-- List 10 issues with "bug" label:
+- List the last 10 issues with the `bug` label:
 
-`gh issue list -L 10 -l "bug"`
+`gh issue list --limit {{10}} --label "{{bug}}"`
 
 - List closed issues made by given user:
 
