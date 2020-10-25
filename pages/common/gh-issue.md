@@ -15,7 +15,7 @@
 
 `gh issue list --limit {{10}} --label "{{bug}}"`
 
-- List closed issues made by given user:
+- List closed issues made by a specific user:
 
 `gh issue list --state closed --author {{username}}`
 
