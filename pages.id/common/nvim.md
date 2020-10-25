@@ -6,7 +6,7 @@
 
 - Membuka berkas:
 
-`nvim {{file}}`
+`nvim {{berkas}}`
 
 - Masuk ke mode pengeditan teks (insert mode):
 
@@ -22,11 +22,11 @@
 
 - Mencari sebuah pattern pada berkas (tekan `n`/`N` untuk pergi ke kecocokan berikutnya/sebelumnya):
 
-`<Esc>/{{search_pattern}}<Enter>`
+`<Esc>/{{pattern_pencarian}}<Enter>`
 
 - Melakukan penggantian regex pada seluruh berkas:
 
-`<Esc>:%s/{{pattern}}/{{replacement}}/g<Enter>`
+`<Esc>:%s/{{pattern}}/{{pengganti}}/g<Enter>`
 
 - Menyimpan (write) berkas, dan keluar:
 
