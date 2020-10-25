@@ -11,6 +11,10 @@
 
 `udisksctl info --block-device {{/dev/sdX}}`
 
+- Show detailed information about a device partition:
+
+`udisksctl info --block-device {{/dev/sdXN}}`
+
 - Mount a device and prints the mount point:
 
 `udisksctl mount --block-device {{/dev/sdXN}}`
