@@ -1,24 +1,24 @@
-# gh-config
+# gh config
 
 > Change configuration for GitHub cli.
 > More information: <https://cli.github.com/manual/gh_config>.
 
-- Check what git protocol you are using:
+- Display what Git protocol is being used:
 
 `gh config get git_protocol`
 
-- Change protocol to ssh:
+- Set protocol to SSH:
 
-`gh config set git_protocol ssh`
+`gh config set git_protocol {{ssh}}`
 
-- Change text editor to vim:
+- Set text editor to Vim:
 
-`gh config set editor vim`
+`gh config set editor {{vim}}`
 
-- Reset to default editor:
+- Reset to default text editor:
 
-`gh config set editor ""`
+`gh config set editor {{""}}`
 
 - Disable interactive prompts:
 
-`gh config set prompt disabled`
+`gh config set prompt {{disabled}}`
