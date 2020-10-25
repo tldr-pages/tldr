@@ -9,7 +9,7 @@
 
 - Men-build folder menjadi berkas APK:
 
-`apktool b {{path/to/direktori}}`
+`apktool b {{alamat/ke/direktori}}`
 
 - Menginstal dan menyimpan frameworks:
 
