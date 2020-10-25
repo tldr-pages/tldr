@@ -1,7 +1,7 @@
 # udisktctl
 
 > A command-line program used to interact with the udisksd daemon process.
-> More information: <http://manpages.ubuntu.com/manpages/focal/man1/udisksctl.1.html>.
+> More information: <https://manpages.ubuntu.com/manpages/focal/man1/udisksctl.1.html>.
 
 - Show high-level information about disk drives and block devices:
 
