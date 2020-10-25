@@ -5,7 +5,7 @@
 
 - Menjalankan berkas JavaScript:
 
-`node {{path/to/berkas}}`
+`node {{alamat/ke/berkas}}`
 
 - Memulai sebuah REPL (shell interaktif):
 
@@ -21,4 +21,4 @@
 
 - Mengaktifkan inspector, menjeda eksekusi sampai debugger terhubung segera setelah kode sumber sepenuhnya terparser:
 
-`node --no-lazy --inspect-brk {{path/to/berkas}}`
+`node --no-lazy --inspect-brk {{alamat/ke/berkas}}`
