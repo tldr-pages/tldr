@@ -11,7 +11,7 @@
 
 `flutter help {{command}}`
 
-- Show information about the installed tooling:
+- Check if all external tools are correctly installed:
 
 `flutter doctor`
 
