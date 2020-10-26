@@ -26,3 +26,7 @@
 - Force making of a target, even if source files are unchanged:
 
 `make --always-make {{target}}`
+
+- Override variables defined in the Makefile by the environment:
+
+`make --environment-overrides {{target}}`
