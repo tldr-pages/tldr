@@ -6,7 +6,7 @@
 
 `diskutil list`
 
-- Repair the file system data structures of a volume:
+- Repair the filesystem data structures of a volume:
 
 `diskutil repairVolume {{/dev/diskX}}`
 

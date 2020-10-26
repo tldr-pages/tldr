@@ -26,3 +26,7 @@
 - Play a file using a profile defined in the `mpv.conf` file:
 
 `mpv --profile {{profile_name}} {{file}}`
+
+- Display the output of webcam or other video input device:
+
+`mpv /dev/{{video0}}`

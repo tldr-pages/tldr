@@ -9,11 +9,11 @@
 
 - Definir o título de um arquivo MP3:
 
-`eyeD3 --title {{"titulo"}} {{arquivo.mp3}}`
+`eyeD3 --title "{{titulo}}" {{arquivo.mp3}}`
 
 - Definir o álbum de todos os arquivos MP3 de um diretório:
 
-`eyeD3 --album {{"nome_do_album"}} {{*.mp3}}`
+`eyeD3 --album "{{nome_do_album}}" {{*.mp3}}`
 
 - Definir a capa do álbum para um arquivo MP3:
 

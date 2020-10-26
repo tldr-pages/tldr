@@ -18,3 +18,7 @@
 - Indent new lines to the previous lines' indentation:
 
 `nano -i {{filename}}`
+
+- Before modification, backup separately as `{{current_file_name}}~`:
+
+`nano -B {{filename}}`

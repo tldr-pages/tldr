@@ -17,7 +17,7 @@
 
 - Start torrent 1 and 2, stop torrent 3:
 
-`transmission-remote {{hostname}} -t {{"1,2"}} --start -t {{3}} --stop`
+`transmission-remote {{hostname}} -t "{{1,2}}" --start -t {{3}} --stop`
 
 - Remove torrent 1 and 2, and also delete local data for torrent 2:
 
@@ -29,4 +29,4 @@
 
 - Move torrents 1-10 and 15-20 to a new folder (folder will be created if it does not exist):
 
-`transmission-remote {{hostname}} -t {{"1-10,15-20"}} --move {{path/to/new_directory}}`
+`transmission-remote {{hostname}} -t "{{1-10,15-20}}" --move {{path/to/new_directory}}`

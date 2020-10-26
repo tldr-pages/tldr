@@ -30,3 +30,7 @@
 - Run Flutter on all started emulators and connected devices:
 
 `flutter run -d all`
+
+- Run tests in a terminal from the root of the project:
+
+`flutter test {{test/example_test.dart}}`

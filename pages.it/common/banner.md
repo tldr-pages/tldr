@@ -4,11 +4,11 @@
 
 - Stampa il testo come un grande banner (le virgolette sono opzionali):
 
-`banner {{"Hello World"}}`
+`banner "{{Hello World}}"`
 
 - Stampa il testo come un banner con una larghezza di 50 caratteri:
 
-`banner -w {{50}} {{"Hello World"}}`
+`banner -w {{50}} "{{Hello World}}"`
 
 - Leggi testo da `stdin`:
 

@@ -10,9 +10,9 @@
 
 `sed -E 's/{{regex}}/{{replace}}/g' {{filename}}`
 
-- Replace all occurrences of a string in a file, overwriting the file (i.e. in-place):
+- Replace all occurrences of a string [i]n a file, overwriting the file (i.e. in-place):
 
-`sed --in-place='' 's/{{find}}/{{replace}}/g' {{filename}}`
+`sed -i '' 's/{{find}}/{{replace}}/g' {{filename}}`
 
 - Replace only on lines matching the line pattern:
 
@@ -29,3 +29,7 @@
 - Replace separator / by any other character not used in the find or replace patterns, e.g., #:
 
 `sed 's#{{find}}#{{replace}}#' {{filename}}`
+
+- [d]elete the line at the specific line number [i]n a file, overwriting the file:
+
+`sed -i '' '{{line_number}}d' {{filename}}`

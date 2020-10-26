@@ -12,6 +12,10 @@
 
 `jupyter notebook {{example.ipynb}}`
 
+- Export a specific Jupyter notebook into another format:
+
+`jupyter nbconvert --to {{html|markdown|pdf|script}} {{example.ipynb}}`
+
 - Start a server on a specific port:
 
 `jupyter notebook --port={{port}}`

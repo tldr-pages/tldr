@@ -30,4 +30,4 @@
 
 - Extraire les fichiers correspondant au motif :
 
-`tar xf {{source.tar}} --wildcards {{"*.html"}}`
+`tar xf {{source.tar}} --wildcards "{{*.html}}"`

@@ -34,7 +34,7 @@
 
 - Extrahiere Dateien die mit einem Muster übereinstimmen:
 
-`tar xf {{quelle.tar}} --wildcards {{"*.html"}}`
+`tar xf {{quelle.tar}} --wildcards "{{*.html}}"`
 
 - Extrahiere eine bestimmte Datei ohne die Verzeichniss Struktur beizubehalten:
 

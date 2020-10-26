@@ -17,7 +17,7 @@
 
 - View everything that happened from the start of last year to the start of last march:
 
-`jrnl -from {{"last year"}} -until {{march}}`
+`jrnl -from "{{last year}}" -until {{march}}`
 
 - Edit all entries tagged with "texas" and "history":
 

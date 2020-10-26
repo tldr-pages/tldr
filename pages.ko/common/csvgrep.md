@@ -13,4 +13,4 @@
 
 - "이름" 열에서 "John Doe"가 포함되지 않는 행 찾기:
 
-`csvgrep -i -c {{이름}} -m {{"John Doe"}} {{데이터.csv}}`
+`csvgrep -i -c {{이름}} -m "{{John Doe}}" {{데이터.csv}}`

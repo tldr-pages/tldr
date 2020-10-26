@@ -5,15 +5,15 @@
 
 - Show a notification with a given title and message:
 
-`dunstify {{"Title"}} {{"Message"}}`
+`dunstify "{{Title}}" "{{Message}}"`
 
 - Show a notification with specified urgency:
 
-`dunstify {{"Title"}} {{"Message}}" -u {{low|normal|critical}}`
+`dunstify "{{Title}}" "{{Message}}" -u {{low|normal|critical}}`
 
 - Specify a message ID (overwrites any previous messages with the same ID):
 
-`dunstify {{"Title"}} {{"Message"}} -r {{123}}`
+`dunstify "{{Title}}" "{{Message}}" -r {{123}}`
 
 - To see other possible options:
 

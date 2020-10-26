@@ -9,11 +9,11 @@
 
 - Set the title of an MP3 file:
 
-`eyeD3 --title {{"A Title"}} {{filename.mp3}}`
+`eyeD3 --title "{{A Title}}" {{filename.mp3}}`
 
 - Set the album of all the MP3 files in a directory:
 
-`eyeD3 --album {{"Album Name"}} {{*.mp3}}`
+`eyeD3 --album "{{Album Name}}" {{*.mp3}}`
 
 - Set the front cover art for an MP3 file:
 

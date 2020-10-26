@@ -10,7 +10,7 @@
 
 - Optimize a file and save the result to another file:
 
-`svgo {{test.svg}} {{test.min.svg}}`
+`svgo {{test.svg}} -o {{test.min.svg}}`
 
 - Optimize all SVG files within a directory (overwrites the original files):
 

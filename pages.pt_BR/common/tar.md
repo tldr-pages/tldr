@@ -30,7 +30,7 @@
 
 - Extrair arquivos seguindo um padrão:
 
-`tar -xvf {{input.tar}} --wildcards {{"*.html"}}`
+`tar -xvf {{input.tar}} --wildcards "{{*.html}}"`
 
 - Listando arquivos de um arquivo tar:
 

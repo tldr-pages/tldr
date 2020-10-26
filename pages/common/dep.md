@@ -1,24 +1,33 @@
 # dep
 
-> Tool for dependency management in Go projects.
-> More information: <https://golang.github.io/dep>.
+> A CLI tool for deployment of PHP applications.
+> Note: The Go command `dep` with the same name is deprecated and archived.
+> More information: <https://deployer.org>.
 
-- Initialize the current directory as the root of a Go project:
+- Interactively initialize deployer in the local path (use a framework template with `--template={{template}}`):
 
 `dep init`
 
-- Install any missing dependencies (Scans Gopkg.toml and your .go files):
+- Deploy an application to a remote host:
 
-`dep ensure`
+`dep deploy {{hostname}}`
 
-- Report the status of the project's dependencies:
+- Rollback to the previous working release:
 
-`dep status`
+`dep rollback`
 
-- Add a dependency to the project:
+- Connect to a remote host via ssh:
 
-`dep ensure -add {{package_url}}`
+`dep ssh {{hostname}}`
 
-- Update the locked versions of all dependencies:
+- List commands:
 
-`dep ensure -update`
+`dep list`
+
+- Run any arbitrary command on the remote hosts:
+
+`dep run "{{command}}"`
+
+- Display help for a command:
+
+`dep help {{command}}`

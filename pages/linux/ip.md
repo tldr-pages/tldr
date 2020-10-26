@@ -4,15 +4,23 @@
 
 - List interfaces with detailed info:
 
-`ip a`
+`ip address`
+
+- List interfaces with brief network layer info:
+
+`ip -brief address`
+
+- List interfaces with brief link layer info:
+
+`ip -brief link`
 
 - Display the routing table:
 
-`ip r`
+`ip route`
 
 - Show neighbors (ARP table):
 
-`ip n`
+`ip neighbour`
 
 - Make an interface up/down:
 

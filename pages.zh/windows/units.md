@@ -16,8 +16,8 @@
 
 - 显示两个复合单位之间的转换:
 
-`units {{"meters / second"}} {{"inches / hour"}}`
+`units "{{meters / second}}" "{{inches / hour}}"`
 
 - 显示具有不同尺寸的单位之间的转换:
 
-`units {{"acres"}} {{"ft^2"}}`
+`units "{{acres}}" "{{ft^2}}"`

@@ -25,3 +25,7 @@
 - Set your wallpaper (centered, filled, maximized, scaled or tiled):
 
 `feh --bg-{{center|fill|max|scale|tile}} {{path/to/image}}`
+
+- Create a montage of all images within a directory. Outputs as a new image:
+
+`feh --montage --thumb-height {{150}} --thumb-width {{150}} --index-info "{{%nn%wx%h}}" --output {{path/to/montage_image.png}}`

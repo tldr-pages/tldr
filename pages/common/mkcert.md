@@ -17,7 +17,7 @@
 
 - Generate wildcard certificate and private key for a given domain and its subdomains:
 
-`mkcert {{"*.example.it"}}`
+`mkcert "{{*.example.it}}"`
 
 - Uninstall the local CA:
 

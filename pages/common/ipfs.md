@@ -4,11 +4,11 @@
 > A peer-to-peer hypermedia protocol. Aims to make the web more open.
 > More information: <https://ipfs.io>.
 
-- Add a file from local to the file system, pin it and print the relative hash:
+- Add a file from local to the filesystem, pin it and print the relative hash:
 
 `ipfs add {{filename}}`
 
-- Add a directory and its files recursively from local to the file system and print the relative hash:
+- Add a directory and its files recursively from local to the filesystem and print the relative hash:
 
 `ipfs add -r {{directory}}`
 

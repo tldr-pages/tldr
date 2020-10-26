@@ -11,6 +11,10 @@
 
 `pmset -g batt`
 
+- Put display to sleep immediately:
+
+`pmset displaysleepnow`
+
 - Set display to never sleep when on charger power:
 
 `sudo pmset -c displaysleep 0`

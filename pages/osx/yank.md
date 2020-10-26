@@ -16,4 +16,4 @@
 
 - Only yank fields matching a specific pattern:
 
-`{{ps ux}} | yank -g {{"[0-9]+"}}`
+`{{ps ux}} | yank -g "{{[0-9]+}}"`
