@@ -5,16 +5,16 @@
 
 - 列出资源压缩包里的内容:
 
-`aapt l[ist] {{path/to/app.apk}}`
+`aapt l {{path/to/app.apk}}`
 
 - 查看APK包内指定的内容 (版本, 权限许可等):
 
-`aapt d[ump] badging {{path/to/app.apk}}`
+`aapt d badging {{path/to/app.apk}}`
 
 - 打包生成资源压缩包:
 
-`aapt p[ackage] -F {{path/to/app.apk}} {{path/to/directory}}`
+`aapt p -F {{path/to/app.apk}} {{path/to/directory}}`
 
 - 从压缩包中删除指定文件:
 
-`aapt r[emove] {{path/to/app.apk}} {{path/to/filename}}`
+`aapt r {{path/to/app.apk}} {{path/to/filename}}`
