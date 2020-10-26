@@ -5,11 +5,11 @@
 
 - Cria um chart do helm:
 
-`helm create {{chart_name}}`
+`helm create {{nome_do_chart}}`
 
 - Adiciona um novo repositório helm:
 
-`helm repo add {{repo_name}}`
+`helm repo add {{nome_do_repositório}}`
 
 - Lista os repositórios helm:
 
@@ -21,15 +21,15 @@
 
 - Remova um repositório helm:
 
-`helm repo remove {{repo_name}}`
+`helm repo remove {{nome_do_repositório}}`
 
 - Instala um chart helm:
 
-`helm install {{repo_name}}/{{chart_name}}`
+`helm install {{nome_do_repositório}}/{{nome_do_chart}}`
 
 - Obtém um chart helm chart como um arquivo tar:
 
-`helm get {{chart_release_name}}`
+`helm get {{nome_do_release_do_chart}}`
 
 - Atualiza as dependências helm:
 
