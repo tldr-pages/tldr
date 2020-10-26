@@ -22,3 +22,7 @@
 - Disable interactive prompts:
 
 `gh config set prompt {{disabled}}`
+
+- Set a specific configuration value:
+
+`gh config set {{key}} {{value}}`
