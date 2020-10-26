@@ -13,16 +13,16 @@
 
 - Eine Datei oder einen Ordner in VS Code öffnen:
 
-`code {{path/to/file_or_directory}}`
+`code {{pfad/zu/datei_oder_ordner}}`
 
 - Eine Datei oder einen Ordner im aktuell geöffnetem VS Code Fenster öffnen:
 
-`code --reuse-window {{path/to/file_or_directory}}`
+`code --reuse-window {{pfad/zu/datei_oder_ordner}}`
 
 - Zeit Dateien in VS Code öffnen:
 
-`code -d {{file1}} {{file2}}`
+`code -d {{datei1}} {{datei2}}`
 
 - VS Code mit super user (sudo) Rechten öffnen:
 
-`sudo code {{path/to/file_or_directory}} --user-data-dir`
+`sudo code {{pfad/zu/datei_oder_ordner}} --user-data-dir`

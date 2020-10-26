@@ -9,11 +9,11 @@
 
 - Backups mit einer spezifischen Konfigurationsdatei ausführen:
 
-`phpbu --configuration={{path/to/configuration_file.xml}}`
+`phpbu --configuration={{pfad/zu/konfiguration.xml}}`
 
 - Nur die angegebenen Backups ausführen:
 
-`phpbu --limit={{backup_task_name}}`
+`phpbu --limit={{backup_art}}`
 
 - Aktionen die ausgeführt worden wären simulieren:
 
