@@ -1,6 +1,7 @@
 # git pr
 
 > Check out GitHub pull requests locally.
+> More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-pr>.
 
 - Check out a specific pull request:
 
