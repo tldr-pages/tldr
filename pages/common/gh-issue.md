@@ -19,7 +19,7 @@
 
 `gh issue list --state closed --author {{username}}`
 
-- Display status of issues relevant to you, in a specific repository:
+- Display the status of issues relevant to the user, in a specific repository:
 
 `gh issue status --repo {{owner}}/{{repository}}`
 
