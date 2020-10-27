@@ -1,13 +1,13 @@
 # jcal
 
-> Prints calendar information in Jalali format, with the current day highlighted.
+> Display calendar information in the Jalali format, with the current day highlighted.
 > More information: <http://www.nongnu.org/jcal/>.
 
 - Display a calendar for the current month:
 
 `jcal`
 
-- Display previous, current and next month:
+- Display the previous, current, and next months:
 
 `jcal -3`
 
