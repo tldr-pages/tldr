@@ -7,6 +7,10 @@
 
 `scrcpy`
 
+- Display a mirror of a specific device based on its serial ID or IP address, as shown in the "adb devices" command:
+
+`scrcpy --serial {{0123456789abcdef|192.168.0.1:5555}}`
+
 - Start display in fullscreen mode:
 
 `scrcpy --fullscreen`
