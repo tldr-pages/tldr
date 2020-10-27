@@ -17,4 +17,4 @@
 
 - Converte l'audio di una voce alla minima qualità possibile:
 
-`opusenc {{path/to/input.wav}} --downmix-mono --bitrate {{6}} {{path/to/out}}.opus`
+`opusenc {{percorso/all/input.wav}} --downmix-mono --bitrate {{6}} {{percorso/all/output}}.opus`
