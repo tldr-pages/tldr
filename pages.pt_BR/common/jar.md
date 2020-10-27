@@ -5,16 +5,16 @@
 
 - Arquiva recursivamente todos os arquivos do diretório atual em um arquivo .jar:
 
-`jar cf {{file.jar}} *`
+`jar cf {{arquivo.jar}} *`
 
 - Descompacta o arquivo .jar/.war para o diretório atual:
 
-`jar -xvf {{file.jar}}`
+`jar -xvf {{arquivo.jar}}`
 
 - Lista o conteúdo do arquivo .jar/.war:
 
-`jar tf {{path/to/file.jar}}`
+`jar tf {{caminho/para/arquivo.jar}}`
 
 - Lista o conteúdo do arquivo .jar/.war com mais detalhes (verbose):
 
-`jar tvf {{path/to/file.jar}}`
+`jar tvf {{caminho/para/arquivo.jar}}`
