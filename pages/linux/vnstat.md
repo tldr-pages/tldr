@@ -1,6 +1,6 @@
 # vnstat
 
-> a console-based network traffic monitor
+> A console-based network traffic monitor.
 
 - Display traffic summary for all interfaces:
 
