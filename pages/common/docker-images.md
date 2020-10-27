@@ -21,4 +21,4 @@
 
 - List images that contain a substring in their name:
 
-`docker images {{"*name*"}}`
+`docker images "{{*name*}}"`
