@@ -14,7 +14,7 @@
 
 - Scarica una singola pagina web e tutte le sue risorse(script, immagini, stili, ecc..) aspettando 3 secondi tra ogni richiesta:
 
-`wget --page-requisites --convert-links --wait=3 {{https://example.com/somepage.html}}`
+`wget --page-requisites --convert-links --wait=3 {{https://esempio.com/pagina_web.html}}`
 
 - Scarica tutti i file elencati nella cartella e nelle sue sotto-cartelle (non scarica gli elementi incorporati nella pagina)
 
