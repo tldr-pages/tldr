@@ -13,13 +13,13 @@
 
 - Upload files with `.txt` and `.jpg` extensions:
 
-`azcopy copy '{{path/to/source}}' 'https://{{storage-account-name}}.blob.core.windows.net/{{container-name}}' --include-pattern '*.txt;*.jpg'`
+`azcopy copy '{{path/to/source}}' 'https://{{storage-account-name}}.blob.core.windows.net/{{container-name}}' --include-pattern '{{*.txt;*.jpg}}'`
 
 - Copy a container directly between two Azure storage accounts:
 
 `azcopy copy 'https://{{source-storage-account-name}}.blob.core.windows.net/{{container-name}}' 'https://{{destination-storage-account-name}}.blob.core.windows.net/{{container-name}}'`
 
-- Syncronise a local directory and delete files in the destination if they no longer exist in the source:
+- Synchronize a local directory and delete files in the destination if they no longer exist in the source:
 
 `azcopy sync '{{path/to/source}}' 'https://{{storage-account-name}}.blob.core.windows.net/{{container-name}}' --recursive --delete-destination=true`
 

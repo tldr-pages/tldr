@@ -4,9 +4,9 @@
 > Se utiliza comúnmente para "mover" una rama entera a otra base, ya que crea copias de los commits en una nueva ubicación.
 > Más información: <https://git-scm.com/docs/git-rebase>.
 
-- Rebasa la rama actual en lo más alto de la rama master:
+- Reorganiza la rama actual en lo más alto de otra rama:
 
-`git rebase {{master}}`
+`git rebase {{rama_de_reorganización}}`
 
 - Inicia un rebase interactivo que permite reordenar los commits, omitirlos, combinarlos o modificarlos:
 
@@ -34,4 +34,4 @@
 
 - Resuelve automáticamente cualquier conflicto favoreciendo la versión de la rama en la que se esta trabajando (en este caso la palabra `theirs` tiene un significado invertido):
 
-`git rebase -X theirs {{master}}`
+`git rebase -X theirs {{rama_de_reorganización}}`

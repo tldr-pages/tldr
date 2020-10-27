@@ -59,7 +59,9 @@ just like you would write `man tar` to show its manpage.
 There are also various other clients provided by the community,
 both for the command line and for other platforms:
 
-- [Alfred Workflow](https://github.com/cs1707/tldr-alfred)
+- Alfred Workflow
+  - [tldr-alfred](https://github.com/cs1707/tldr-alfred)
+  - [alfred-tldr](https://github.com/konoui/alfred-tldr)
 - [Albert Plugin](https://github.com/bergercookie/awesome-albert-plugins/tree/master/plugins/tldr_pages)
 - Android clients:
   - [tldroid](https://github.com/hidroh/tldroid), available on
@@ -107,9 +109,12 @@ both for the command line and for other platforms:
     [App Store](https://appsto.re/sg/IQ0-_.i)
   - [tldr-pages](https://github.com/mflint/ios-tldr-viewer), available on
     [App Store](https://itunes.apple.com/us/app/tldt-pages/id1071725095?ls=1&mt=8)
-- [Haskell client](https://github.com/psibi/tldr-hs):
+- Haskell clients:
+  - [tldr-hs](https://github.com/psibi/tldr-hs):
   `stack install tldr`
   or `apt-get install tldr` on Debian-based distributions
+  - [fast-tldr](https://github.com/gutjuri/fast-tldr)
+  
 - [Node.js client](https://github.com/tldr-pages/tldr-node-client):
   `npm install -g tldr`
 - [OCaml client](https://github.com/RosalesJ/tldr-ocaml): `opam install tldr`
