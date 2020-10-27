@@ -16,7 +16,7 @@
 
 `ant -p`
 
-- Print debudgging information:
+- Print debugging information:
 
 `ant -d`
 
