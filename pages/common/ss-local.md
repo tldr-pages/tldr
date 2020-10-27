@@ -3,7 +3,7 @@
 > Run a Shadowsocks client as a SOCKS5 proxy.
 > More information: <https://github.com/shadowsocks/shadowsocks-libev/blob/master/doc/ss-local.asciidoc>.
 
-- Run Shadowsocks proxy by specifying host, server port, local port, password, and encrypt method:
+- Run a Shadowsocks proxy by specifying the host, server port, local port, password, and encryption method:
 
 `ss-local -s {{host}} -p {{server_port}} -l {{local port}} -k {{password}} -m {{encrypt_method}}`
 
