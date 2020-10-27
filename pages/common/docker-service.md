@@ -27,7 +27,7 @@
 
 `docker service {{service_name_1=replica_count}} {{service_name_2=replica_count}}`
 
-- Exposing port of a published service:
+- Expose port of a published service:
 
 `docker service update --publish-add published=8080,target=80 {{service_name}}`
 
