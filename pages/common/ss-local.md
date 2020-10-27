@@ -11,7 +11,7 @@
 
 `ss-local -c {{path/to/config/file.json}}`
 
-- Use plugin to run the proxy client:
+- Use a plugin to run the proxy client:
 
 `ss-local --plugin {{plugin_name}} --plugin-opts {{plugin_options}}`
 
