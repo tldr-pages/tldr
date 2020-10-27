@@ -7,13 +7,13 @@
 
 `hadolint {{path/to/Dockerfile}}`
 
-- Lint a Dockerfile outputting in json:
+- Lint a Dockerfile, displaying the output in JSON format:
 
 `hadolint --format {{json}} {{path/to/Dockerfile}}`
 
-- Lint a Dockerfile outputting in a codeclimate-friendly format:
+- Lint a Dockerfile, displaying the output in a specific format:
 
-`hadolint --format {{codeclimate}} {{path/to/Dockerfile}}`
+`hadolint --format {{tty|json|checkstyle|codeclimate|codacy}} {{path/to/Dockerfile}}`
 
 - Lint a Dockerfile ignoring specific rules:
 
