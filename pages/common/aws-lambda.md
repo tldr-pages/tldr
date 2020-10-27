@@ -17,7 +17,7 @@
 
 - Display the configuration of a function:
 
-`aws lambda get-function-configuration --function-name  {{name}}`
+`aws lambda get-function-configuration --function-name {{name}}`
 
 - List function aliases:
 
