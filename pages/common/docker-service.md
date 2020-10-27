@@ -21,11 +21,11 @@
 
 - Delete service:
 
-`docker service {{service_name}}`
+`docker service rm {{service_name}}`
 
 - Scale multiple replicated services:
 
-`docker service {{service_name_1=replica_count}} {{service_name_2=replica_count}}`
+`docker service scale {{service_name_1=replica_count}} {{service_name_2=replica_count}}`
 
 - Expose port of a published service:
 
