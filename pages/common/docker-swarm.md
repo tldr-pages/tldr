@@ -7,26 +7,26 @@
 
 `docker swarm init`
 
-- Get join token for master or worker:
+- Display the token to join a manager or a worker:
 
-`docker swarm join-token {{type}}`
+`docker swarm join-token {{worker|manager}}`
 
 - Join new node to cluster:
 
 `docker swarm join --token {{token}} {{manager_node_url:2377}}`
 
-- Leave the cluster:
+- Remove a worker from the swarm (run inside the worker node):
 
 `docker swarm leave`
 
-- View current CA certificate:
+- Display current CA certificate in PEM format:
 
 `docker swarm ca`
 
-- Rotate current CA certificate:
+- Rotate current CA certificate and display the new certificate:
 
 `docker swarm ca --rotate`
 
-- Change cert expiration time with (ns,us,ms,sm,h) time unit:
+- Change valid period for node certificates:
 
-`docker swarm update --cert-expiry {{2160h0m0s}}`
+`docker swarm update --cert-expiry {{hours}}h{{minutes}}m{{seconds}}s`
