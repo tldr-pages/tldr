@@ -12,7 +12,7 @@
 
 `dumpe2fs -b {{/dev/sdXN}}`
 
-- Force display filesystem information even with non-recogonisable feature flags:
+- Force display filesystem information even with non-recognisable feature flags:
 
 `dumpe2fs -f {{/dev/sdXN}}`
 
