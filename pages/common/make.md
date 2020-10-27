@@ -2,6 +2,7 @@
 
 > Task runner for targets described in Makefile.
 > Mostly used to control the compilation of an executable from source code.
+> More information: <https://www.gnu.org/software/make/manual/make.html>.
 
 - Call the first target specified in the Makefile (usually named "all"):
 
