@@ -19,6 +19,6 @@
 
 `hadolint --ignore {{DL3006}} --ignore {{DL3008}} {{path/to/Dockerfile}}`
 
-- Lint multiple Dockerfiles while specifying a trusted registries:
+- Lint multiple Dockerfiles using specific trusted registries:
 
 `hadolint --trusted-registry {{docker.io}} --trusted-registry {{example.com}}:{{5000}} {{path/to/Dockerfile}} {{path/to/another/Dockerfile}}`
