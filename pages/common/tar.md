@@ -12,6 +12,10 @@
 
 `tar czf {{target.tar.gz}} {{file1}} {{file2}} {{file3}}`
 
+- Create a bzip2 archive:
+
+`tar cjf {{target.tar.bz2}} {{file1}} {{file2}} {{file3}}`
+
 - Create a gzipped archive from a directory using relative paths:
 
 `tar czf {{target.tar.gz}} -C {{path/to/directory}} .`
