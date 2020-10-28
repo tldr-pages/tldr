@@ -13,3 +13,7 @@
 - Read a file of MD5SUMs and verify all files have matching checksums:
 
 `md5sum -c {{filename.md5}}`
+
+- Calculate a MD5 checksum from the standard input:
+
+`echo "{{text}}" | md5sum`
