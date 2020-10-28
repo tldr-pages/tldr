@@ -14,6 +14,6 @@
 
 `md5sum -c {{filename.md5}}`
 
-- Calculate MD5 checksum from standard input:
+- Calculate a MD5 checksum from the standard input:
 
 `echo "{{text}}" | md5sum`
