@@ -1,7 +1,7 @@
 # openssl genpkey
 
 > OpenSSL command to generate asymmetric key pairs.
-> More information: <https://www.openssl.org/docs/manmaster/man1/genpkey.html>.
+> More information: <https://www.openssl.org/docs/manmaster/man1/openssl-genpkey.html>.
 
 - Generate an RSA private key of 2048 bits, saving it to a specific file:
 
