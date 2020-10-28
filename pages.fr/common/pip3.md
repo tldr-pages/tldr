@@ -33,4 +33,4 @@
 
 - Affiche les informations d'un paquet installé :
 
-`pip3 show {{package_name}}`
+`pip3 show {{paquet}}`
