@@ -9,15 +9,15 @@
 
 - Compile and run Go application if any .go file changes:
 
-`reflex -r '\.go$' go run .`
+`reflex -r '{{\.go$}}' {{go run .}}`
 
-- Ignore a directory when wahtcing for changes:
+- Ignore a directory when watching for changes:
 
-`reflex -R '^node_modules/' yarn test`
+`reflex -R '{{^dir/}}' {{command}}`
 
 - Run command when reflex starts and restarts on file changes:
 
-`reflex -s go test`
+`reflex --start-service=true {{command}}`
 
 - Substitude what file changes:
 
