@@ -6,6 +6,6 @@
 
 `mkdir {{direktori}}`
 
-- Membuat sejumlah direktori secara rekursif (berguna untuk membuat direktori bersarang)
+- Membuat sejumlah direktori secara rekursif (berguna untuk membuat direktori bersarang):
 
 `mkdir -p {{jalan/menuju/direktori}}`

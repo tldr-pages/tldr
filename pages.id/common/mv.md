@@ -1,6 +1,6 @@
 # mv
 
-> Memindah atau menamai-ulang file dan direktori
+> Memindah atau menamai-ulang file dan direktori.
 
 - Memindahkan file ke lokasi yang baru:
 
@@ -10,7 +10,7 @@
 
 `mv -f {{sumber}} {{tujuan}}`
 
-- Meminta konfirmasi sebelum menimpa file yang sudah ada, apapun *file permissions*-nya
+- Meminta konfirmasi sebelum menimpa file yang sudah ada, apapun *file permissions*-nya:
 
 `mv -i {{sumber}} {{tujuan}}`
 
@@ -18,6 +18,6 @@
 
 `mv -n {{sumber}} {{tujuan}}`
 
-- Memindahkan file dalam mode *verbose*, menampilkan file-file yang dipindahkan
+- Memindahkan file dalam mode *verbose*, menampilkan file-file yang dipindahkan:
 
 `mv -v {{sumber}} {{tujuan}}`
