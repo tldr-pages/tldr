@@ -19,6 +19,6 @@
 
 `reflex --start-service=true {{command}}`
 
-- Substitude what file changes:
+- Substitute the filename that changed in:
 
 `reflex -- echo {}`
