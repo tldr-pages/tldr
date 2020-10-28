@@ -13,4 +13,4 @@
 
 - Set a refresh token for hangups:
 
-`hangups --token-path {{/path/to/token}}`
+`hangups --token-path {{path/to/token}}`

@@ -13,7 +13,7 @@
 
 - Run with a given work directory for intermediate files, save execution report:
 
-`nextflow run {{workflow}} -work-dir {{/path/to/directory}} -with-report {{report.html}}`
+`nextflow run {{workflow}} -work-dir {{path/to/directory}} -with-report {{report.html}}`
 
 - Show details of previous runs in current directory:
 
