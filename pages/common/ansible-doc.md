@@ -8,13 +8,13 @@
 
 `ansible-doc --list`
 
-- List available plugins from specific type:
+- List available plugins of a specific type:
 
 `ansible-doc --type {{plugin_type}} --list`
 
 - Show information of action plugin (module):
 
-`ansible-pull {{plugin_name}}`
+`ansible-doc {{plugin_name}}`
 
 - Show information of a plugin from a specific type:
 
@@ -22,8 +22,8 @@
 
 - Show playbook snippet for action plugin (modules):
 
-`ansible-pull --snippet {{plugin_name}}`
+`ansible-doc --snippet {{plugin_name}}`
 
 - Show information of action plugin (module) in JSON format:
 
-`ansible-pull --json {{plugin_name}}`
+`ansible-doc --json {{plugin_name}}`
