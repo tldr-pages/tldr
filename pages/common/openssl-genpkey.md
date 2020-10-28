@@ -13,4 +13,4 @@
 
 - Generate an `ED25519` elliptic curve private key, saving it to a specific file:
 
-`openssl genpkey -algorithm ED25519 -out {{filename.key}}`
+`openssl genpkey -algorithm {{ED25519}} -out {{filename.key}}`
