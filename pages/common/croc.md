@@ -27,6 +27,6 @@
 
 `croc relay`
 
-- Display paramenters and options for a croc command:
+- Display parameters and options for a croc command:
 
 `croc {{send|relay}} --help`

@@ -11,11 +11,11 @@
 
 `eix --installed {{package_name}}`
 
-- Seach in package descriptions:
+- Search in package descriptions:
 
 `eix --description "{{description}}"`
 
-- Seach by package license:
+- Search by package license:
 
 `eix --license {{license}}`
 

@@ -15,7 +15,7 @@
 
 `dua --count-hard-links`
 
-- Aggregrate the consumed space of one or more directories or files:
+- Aggregate the consumed space of one or more directories or files:
 
 `dua aggregate`
 

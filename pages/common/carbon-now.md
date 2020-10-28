@@ -19,7 +19,7 @@
 
 `carbon-now -i {{file}}`
 
-- Create images from previosly saved preset:
+- Create images from previously saved preset:
 
 `carbon-now -p {{preset}} {{file}}`
 

@@ -114,7 +114,7 @@ both for the command line and for other platforms:
   `stack install tldr`
   or `apt-get install tldr` on Debian-based distributions
   - [fast-tldr](https://github.com/gutjuri/fast-tldr)
-  
+- [Java client](https://github.com/seenukarthi/tldr-java-client)
 - [Node.js client](https://github.com/tldr-pages/tldr-node-client):
   `npm install -g tldr`
 - [OCaml client](https://github.com/RosalesJ/tldr-ocaml): `opam install tldr`
@@ -175,7 +175,7 @@ Have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!
 
 - [devhints](https://devhints.io/)
   Rico's cheatsheets are not just focused on the command line and
-  include a plethora of other cheatsheets related to programming. 
+  include a plethora of other cheatsheets related to programming.
 
 ## What does "tldr" mean?
 

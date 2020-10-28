@@ -19,10 +19,10 @@
 
 `sudo badblocks -svw {{/dev/sdX}}`
 
-- Search an unmounted disk in desctructive mode and output found blocks to a file:
+- Search an unmounted disk in destructive mode and output found blocks to a file:
 
-`sudo badblocks -o {{/path/to/file}} -w {{/dev/sdX}}`
+`sudo badblocks -o {{path/to/file}} -w {{/dev/sdX}}`
 
-- Search an unmounted disk in desctructive mode with improved speed using 4K block size and 64K block count:
+- Search an unmounted disk in destructive mode with improved speed using 4K block size and 64K block count:
 
 `sudo badblocks -w -b {{4096}} -c {{65536}} {{/dev/sdX}}`
