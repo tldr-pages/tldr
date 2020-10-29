@@ -3,7 +3,7 @@
 > Mount arbitrary hotpluggable devices as normal user.
 > More information: <https://linux.die.net/man/1/pmount>.
 
-- Mount a device below /media/ (using device as mount point):
+- Mount a device below `/media/` (using device as mount point):
 
 `pmount {{/dev/to/block/device}}`
 
