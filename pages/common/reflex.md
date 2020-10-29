@@ -1,6 +1,6 @@
 # reflex
 
-> Reflex is a small tool to watch a directory and rerun a command when certain files change.
+> Tool to watch a directory and rerun a command when certain files change.
 > More information: <https://github.com/cespare/reflex>.
 
 - Rebuild with `make` if any file changes:
