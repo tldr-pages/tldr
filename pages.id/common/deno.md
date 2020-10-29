@@ -1,6 +1,6 @@
 # deno
 
-> Runtime aman untuk JavaScript dan TypeScript
+> Runtime aman untuk JavaScript dan TypeScript.
 > Informasi lebih lanjut: <https://deno.land/>.
 
 - Menjalankan berkas JavaScript atau TypeScript:
