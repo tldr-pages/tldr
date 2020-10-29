@@ -11,6 +11,14 @@
 
 `pmount --type {{filesystem}} {{path/to/device}} {{label}}`
 
+- Mount a CD-ROM (filesystem type ISO9660) read-only:
+
+`pmount --type {{iso9660}} --read-only {{/dev/cdrom}}`
+
+- Mount an NTFS-formatted disk with forced read-write access:
+
+`pmount --type {{ntfs}} --read-write {{/dev/sdX}}`
+
 - Display all mounted removable devices:
 
 `pmount`
