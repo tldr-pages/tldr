@@ -14,7 +14,7 @@
 
 `apt-key del {{id_chiave}}`
 
-- Aggiunge una chiave remote al portachiavi delle chiavi fidate:
+- Aggiunge una chiave remota al portachiavi delle chiavi fidate:
 
 `wget -qO - {{https://indirizzo.tld/filename.key}} | apt-key add -`
 

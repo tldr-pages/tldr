@@ -3,7 +3,7 @@
 > Servizio di gestione dei pacchetti per distribuzioni basate su Debian.
 > Rimpiazzo raccomandato di apt-get quando usato interattivamente su Ubuntu 16.04 e versioni successive.
 
-- Aggiorna la lista dei pacchetti e delle loro versioni disponibili (prima di altri comandi `apt` è consigliato eseguire questo comando):
+- Aggiorna la lista dei pacchetti e delle loro versioni disponibili (è consigliato eseguire questo comando prima di altri comandi `apt`):
 
 `sudo apt update`
 
@@ -23,7 +23,7 @@
 
 `sudo apt remove {{pacchetto}}`
 
-- Aggiorna tutti i pacchetti installati alla più nuova versione disponibile:
+- Aggiorna tutti i pacchetti installati alla versione disponibile più recente:
 
 `sudo apt upgrade`
 

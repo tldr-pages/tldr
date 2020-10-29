@@ -3,7 +3,7 @@
 > Servizio di gestione dei pacchetti per Debian e Ubuntu
 > Cerca i pacchetti usando `apt-cache`.
 
-- Aggiorna la lista dei pacchetti e delle loro versioni disponibili (prima di altri comandi `apt-get` è consigliato eseguire questo comando):
+- Aggiorna la lista dei pacchetti e delle loro versioni disponibili (è consigliato eseguire questo comando prima di altri comandi `apt-get`):
 
 `apt-get update`
 
@@ -19,7 +19,7 @@
 
 `apt-get purge {{pacchetto}}`
 
-- Aggiorna tutti i pacchetti installati all'ultima versione disponibile:
+- Aggiorna tutti i pacchetti installati alla versione disponibile più recente:
 
 `apt-get upgrade`
 
@@ -31,6 +31,6 @@
 
 `apt-get autoremove`
 
-- Aggiorna tutti i pacchetti installati(come `upgrade`), ma rimuove pure i pacchetti obsoleti ed installa ulteriori pacchetti per soddisfare le nuove dipendenze:
+- Aggiorna tutti i pacchetti installati (come `upgrade`), rimuovendo i pacchetti obsoleti ed installando ulteriori pacchetti per soddisfare le nuove dipendenze:
 
 `apt-get dist-upgrade`
