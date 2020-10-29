@@ -7,7 +7,7 @@
 
 `git init`
 
-- Initialize a repository using SHA256 for writing objects (requires git version 2.29+):
+- Initialize a repository using SHA256 for object hashes (requires git version 2.29+):
 
 `git init --object-format={{sha256}}`
 
