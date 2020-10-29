@@ -4,4 +4,4 @@
 
 - Run process that can live beyond the terminal:
 
-`nohup {{command_with_options}}`
+`nohup {{command}} {{command_options}}`
