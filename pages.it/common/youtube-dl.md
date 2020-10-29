@@ -23,11 +23,11 @@
 
 `youtube-dl -f bestvideo+bestaudio '{{url}}'`
 
-- Scarica video e li salva come file MP4 dal nomi personalizzati:
+- Scarica una playlist di video e li salva come file MP4 dai nomi personalizzati:
 
 `youtube-dl --format {{mp4}} -o "{{%(title)s di %(uploader)s del %(upload_date)s in %(playlist)s.%(ext)s}}" '{{url}}'`
 
-- Scarica, assieme al video, i sottotitoli in una lingua specificata :
+- Scarica, assieme al video, i sottotitoli in una lingua specificata:
 
 `youtube-dl --sub-lang {{it}} --write-sub '{{https://www.youtube.com/watch?v=Mwa0_nE9H7A}}'`
 

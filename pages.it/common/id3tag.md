@@ -1,6 +1,6 @@
 # id3tag
 
-> Strumento per leggere, scrivere, e manipolare i tag(etichette) ID3v1 e ID3v2 di file MP3.
+> Strumento per leggere, scrivere, e manipolare i tag (etichette) ID3v1 e ID3v2 di file MP3.
 
 - Imposta l'etichetta dell'artista e del titolo in un file MP3:
 

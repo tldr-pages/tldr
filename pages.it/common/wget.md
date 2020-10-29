@@ -12,11 +12,11 @@
 
 `wget -O {{efgh}} {{https://esempio.com/abcd}}`
 
-- Scarica una singola pagina web e tutte le sue risorse(script, immagini, stili, ecc..) aspettando 3 secondi tra ogni richiesta:
+- Scarica una singola pagina web e tutte le sue risorse (script, immagini, stili, ecc..) aspettando 3 secondi dopo ogni richiesta:
 
 `wget --page-requisites --convert-links --wait=3 {{https://esempio.com/pagina_web.html}}`
 
-- Scarica tutti i file elencati nella cartella e nelle sue sotto-cartelle (non scarica gli elementi incorporati nella pagina)
+- Scarica tutti i file elencati nella cartella e nelle sue sotto-cartelle (non scarica gli elementi incorporati nella pagina):
 
 `wget --mirror --no-parent {{https://esempio.com/unqualchepercorso/}}`
 

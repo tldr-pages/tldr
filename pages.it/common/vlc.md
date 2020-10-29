@@ -11,11 +11,11 @@
 
 `vlc --fullscreen {{percorso/al/file}}`
 
-- Riproduce mutato:
+- Riproduce con audio disattivato:
 
 `vlc --no-audio {{percorso/al/file}}`
 
-- Riproduce ciclicamente:
+- Riproduce in ciclo continuo:
 
 `vlc --loop {{percorso/al/file}}`
 
