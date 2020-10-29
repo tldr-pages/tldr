@@ -4,7 +4,7 @@
 
 - Convert single images and/or whole directories containing valid image formats:
 
-`imgp -x {{1366x1000}} {{path/to/dir}} {{path/to/file}}`
+`imgp -x {{1366x1000}} {{path/to/directory}} {{path/to/file}}`
 
 - Scale an image by 75% and overwrite the source image to a target resolution:
 
