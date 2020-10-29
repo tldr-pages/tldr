@@ -17,4 +17,3 @@
 - Fix/automatically set a default Java environment:
 
 `archlinux-java fix`
-
