@@ -6,10 +6,10 @@
 
 `pmount {{path/to/device}}`
 
-- Mount a device with specified file system type to /media/label:
+- Mount a device with a specific filesystem type to `/media/label`:
 
-`pmount -t {{filesystem}} {{path/to/device}} {{label}}`
+`pmount --type {{filesystem}} {{path/to/device}} {{label}}`
 
-- Show all mounted removable devices:
+- Display all mounted removable devices:
 
 `pmount`
