@@ -5,11 +5,11 @@
 
 - Mount a device below /media/ (using device as mount point):
 
-`pmount {{path/to/device}}`
+`pmount {{/dev/to/block/device}}`
 
 - Mount a device with a specific filesystem type to `/media/label`:
 
-`pmount --type {{filesystem}} {{path/to/device}} {{label}}`
+`pmount --type {{filesystem}} {{/dev/to/block/device}} {{label}}`
 
 - Mount a CD-ROM (filesystem type ISO9660) read-only:
 
