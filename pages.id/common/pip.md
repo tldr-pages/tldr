@@ -19,7 +19,7 @@
 
 `pip uninstall {{nama_paket}}`
 
-- Menyimpan paket terpasang ke berkas:
+- Menyimpan daftar paket terpasang ke berkas:
 
 `pip freeze > {{requirements.txt}}`
 
