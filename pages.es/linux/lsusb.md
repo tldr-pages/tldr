@@ -18,6 +18,6 @@
 
 `lsusb -D {{dispositivo}}`
 
-- Lista solo dispositivos con un ID de ensamblador y producto en especifico:
+- Lista solo dispositivos con un ID de ensamblador y producto determinado:
 
 `lsusb -d {{ensamblador}}:{{producto}}`
