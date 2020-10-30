@@ -1,12 +1,12 @@
 # lsusb
 
-> Muestra información sobre puertos y dispositivos USB
+> Muestra información sobre puertos y dispositivos USB.
 
 - Lista todos los dispositivos USB disponibles:
 
 `lsusb`
 
-- Lista la jerarquía de dispositivos USB en forma de arbol
+- Lista la jerarquía de dispositivos USB en forma de árbol:
 
 `lsusb -t`
 
@@ -14,7 +14,7 @@
 
 `lsusb --verbose`
 
-- Lista información destallada acerca de un dispositivo USB en especifico:
+- Lista información detallada acerca de un dispositivo USB determinado:
 
 `lsusb -D {{dispositivo}}`
 
