@@ -4,4 +4,4 @@
 
 - Switch `runsvdir` directories:
 
-`sudo runsvchdir {{/path/to/directory}}`
+`sudo runsvchdir {{path/to/directory}}`

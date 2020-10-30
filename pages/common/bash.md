@@ -28,6 +28,6 @@
 
 `bash -s`
 
-- Print the version information of bash (use `echo $BASH_VERSION` to show just the version string):
+- Print the version information of bash (use `echo $BASH_VERSION` to show just the version without license information):
 
 `bash --version`

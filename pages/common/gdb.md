@@ -19,6 +19,6 @@
 
 `gdb -ex "{{commands}}" {{executable}}`
 
-- Start gdb and pass arguments:
+- Start gdb and pass arguments to the executable:
 
 `gdb --args {{executable}} {{argument1}} {{argument2}}`
