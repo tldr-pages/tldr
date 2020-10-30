@@ -3,7 +3,7 @@
 > An AUR helper and pacman wrapper.
 > More information: <https://github.com/morganamilo/paru>.
 
-- Interactvley seach and install a package:
+- Interactively search for and install a package:
 
 `paru {{package_name_or_seach_term}}`
 
@@ -11,11 +11,11 @@
 
 `paru`
 
-- Upgrade AUR pacckages:
+- Upgrade AUR packages:
 
 `paru -Sua`
 
-- Get information abaout a package:
+- Get information about a package:
 
 `paru -Si {{package_name}}`
 
