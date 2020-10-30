@@ -33,4 +33,4 @@
 
 - Pobierz ścieżkę dźwiękową ze wszystkich filmów z playlisty:
 
-`youtube-dl -i --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" '{{url to playlist}}'`
+`youtube-dl -i --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" '{{adres_url_playlisty}}'`
