@@ -4,7 +4,7 @@
 
 - Connects to a VPN with a username and password:
 
-`openfortivpn -u {{username}} -p {{password}}
+`openfortivpn -u {{username}} -p {{password}}`
 
 - Connects to a VPN defined in a {{/etc/openfortivpn/config}} file:
 
