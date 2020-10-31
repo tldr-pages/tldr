@@ -3,11 +3,11 @@
 > Una línea de comando para Spotify.
 > Más información: <https://github.com/hnarayanan/shpotify>.
 
-- Encuentra una canción por su nombre y escúchala:
+- Encuentra una canción por su nombre y la reproduce:
 
 `spotify play {{song_name}}`
 
-- Encuentra una lista de reproducción por su nombre y escúchalo:
+- Encuentra una lista de reproducción por su nombre y la reproduce:
 
 `spotify play list {{playlist_name}}`
 

@@ -2,7 +2,7 @@
 
 > Analiza archivos de Ruby.
 
-- Verifica todos los archivos en el directorio actual (incluyendo subdirectorios):
+- Verifica todos los archivos en el directorio actual (incluyendo determinados):
 
 `rubocop`
 
@@ -10,7 +10,7 @@
 
 `rubocop {{path/to/file}} {{path/to/directory}}`
 
-- Guarda el output en un archivo:
+- Guarda la salida en un archivo:
 
 `rubocop --out {{path/to/file}}`
 
@@ -22,7 +22,7 @@
 
 `rubocop --except {{cop_1}} {{cop_2}}`
 
-- Ejecuta solo las reglas especificadas:
+- Ejecuta sólo determinadas reglas:
 
 `rubocop --only {{cop_1}} {{cop_2}}`
 
