@@ -1,19 +1,20 @@
 # archlinux-java
 
 > A helper script that provides functionalities for Java environments.
+> More information: <https://github.com/michaellass/archlinux-java-run>.
 
-- List Java environments currently installed:
+- List installed Java environments:
 
 `archlinux-java status`
 
-- Change the default Java environment:
+- Set the default Java environment:
 
-`archlinux-java set {{java_env_name}}`
+`archlinux-java set {{java_environment}}`
 
 - Unset the default Java environment:
 
 `archlinux-java unset`
 
-- Fix/automatically set a default Java environment:
+- Set the default Java environment automatically:
 
 `archlinux-java fix`
