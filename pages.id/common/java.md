@@ -9,11 +9,11 @@
 
 - Menjalankan program .jar:
 
-`java -jar {{nama_file.jar}}`
+`java -jar {{nama_berkas.jar}}`
 
 - Menjalankan program .jar dengan menunggu debugger terhubung ke port 5005:
 
-`java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {{nama_file.jar}}`
+`java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {{nama_berkas.jar}}`
 
 - Menampilkan versi JDK, JRE dan HotSpot:
 
