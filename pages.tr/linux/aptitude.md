@@ -8,19 +8,19 @@
 
 - Yeni bir paket ve onun bağımlılıklarını kur:
 
-`aptitude install {{package}}`
+`aptitude install {{paket}}`
 
 - Paket ara:
 
-`aptitude search {{package}}`
+`aptitude search {{paket}}`
 
 - İndirilmiş bir paket ara: (`?installed` bir aptitude arama ifadesidir):
 
-`aptitude search '?installed({{package}})'`
+`aptitude search '?installed({{paket}})'`
 
 - Bir paket ve onun bağımlılıklarını kaldır:
 
-`aptitude remove {{package}}`
+`aptitude remove {{paket}}`
 
 - Yüklü paketleri son kullanılabilir sürümlerine yükselt:
 
@@ -32,4 +32,4 @@
 
 - Bir paketin otomatik yükseltilmesini engellemek için onu beklemede tut:
 
-`aptitude hold '?installed({{package}})'`
+`aptitude hold '?installed({{paket}})'`
