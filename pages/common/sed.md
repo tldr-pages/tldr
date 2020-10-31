@@ -22,9 +22,9 @@
 
 `sed '/{{line_pattern}}/d' {{filename}}`
 
-- Print only text between n-th line till the next empty line:
+- Print the first 11 lines of a file:
 
-`sed -n '{{n}},/^$/p' {{filename}}`
+`sed 11q {{filename}}`
 
 - Apply multiple find-replace expressions to a file:
 
@@ -33,7 +33,3 @@
 - Replace separator / by any other character not used in the find or replace patterns, e.g., #:
 
 `sed 's#{{find}}#{{replace}}#' {{filename}}`
-
-- Print only the n-th line of a file:
-
-`sed '{{n}}q;d' {{filename}}`

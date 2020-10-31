@@ -15,7 +15,7 @@
 
 `tree -a -C`
 
-- Print the tree without indentation lines, showing the full path instead (use `-N` to not escape whitespace and special characters):
+- Print the tree without indentation lines, showing the full path instead (use `-N` to not escape non-printable characters):
 
 `tree -i -f`
 

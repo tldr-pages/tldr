@@ -7,6 +7,10 @@
 
 `mpv {{file}}`
 
+- Play a video or audio file from an URL:
+
+`mpv '{{https://www.youtube.com/watch?v=dQw4w9WgXcQ}}'`
+
 - Jump backward/forward 5 seconds:
 
 `LEFT <or> RIGHT`

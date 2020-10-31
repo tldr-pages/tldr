@@ -11,9 +11,9 @@
 
 `grep -F {{exact_string}} {{path/to/file}}`
 
-- Search for a pattern recursively in the current directory, ignoring non-text files:
+- Search for a pattern [R]ecursively in the current directory, showing matching line [n]umbers, [I]gnoring non-text files:
 
-`grep -RI {{search_pattern}} .`
+`grep -RIn {{search_pattern}} .`
 
 - Use extended regular expressions (supporting `?`, `+`, `{}`, `()` and `|`), in case-insensitive mode:
 

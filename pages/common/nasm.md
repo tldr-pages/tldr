@@ -21,4 +21,4 @@
 
 - Add a directory (must be written with trailing slash) to the include file search path before assembling:
 
-`nasm -i {{/path/to/include_dir/}} {{source.asm}}`
+`nasm -i {{path/to/include_dir/}} {{source.asm}}`

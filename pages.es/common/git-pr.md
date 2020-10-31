@@ -1,6 +1,7 @@
 # git pr
 
 > Comprueba las solicitudes de extracción de cambios (*pull requests*) de GitHub localmente.
+> Más información: <https://github.com/tj/git-extras/blob/master/Commands.md#git-pr>.
 
 - Comprueba una pull request específica:
 

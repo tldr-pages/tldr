@@ -1,6 +1,6 @@
 # decaffeinate
 
-> Converti script CoffeScript in moderno JavaScript moderno.
+> Converti script CoffeScript in JavaScript moderno.
 > Maggiori informazioni: <https://decaffeinate-project.org>.
 
 - Converti un file CoffeeScript in JavaScript:

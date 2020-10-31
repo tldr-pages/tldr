@@ -17,3 +17,7 @@
 - Print how long a particular user has been connected in hours per day (with total):
 
 `ac --daily-totals --individual-totals {{username}}`
+
+- Also display additional details:
+
+`ac --compatibility`

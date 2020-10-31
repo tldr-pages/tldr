@@ -8,4 +8,4 @@
 
 - Start the partition manipulator:
 
-`fdisk {{/dev/sda}}`
+`fdisk {{/dev/sdX}}`
