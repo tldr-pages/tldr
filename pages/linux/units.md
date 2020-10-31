@@ -2,6 +2,7 @@
 
 > Provide the conversion between two units of measure.
 > Typing 'search {{text}}' in the prompt will display a list of all of the units containing {{text}}.
+> More information: <https://www.gnu.org/software/units/units.html>.
 
 - Run in interactive mode:
 
