@@ -1,7 +1,7 @@
 # rpmbuild
 
 > RPM Package Build tool.
-> More information: <https://docs.fedoraproject.org/en-US/quick-docs/creating-rpm-packages/index.html>.
+> More information: <https://docs.fedoraproject.org/en-US/quick-docs/creating-rpm-packages/>.
 
 - Build binary and source packages:
 
@@ -13,4 +13,4 @@
 
 - Specify additional variables when building a package:
 
-`rpmbuild -bb {{path/to/spec_file}}  --define "{{variable1}} {{value1}}" --define "{{variable2 value2}}"`
+`rpmbuild -bb {{path/to/spec_file}} --define "{{variable1}} {{value1}}" --define "{{variable2}} {{value2}}"`
