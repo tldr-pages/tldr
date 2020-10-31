@@ -14,10 +14,10 @@
 
 `rm -rf {{alamat/ke/direktori}}`
 
-- Menghapus banyak file secara interaktif, dengan meminta konfirmasi sebelum setiap penghapusan:
+- Menghapus banyak berkas secara interaktif, dengan meminta konfirmasi sebelum setiap penghapusan:
 
 `rm -i {{(beberapa)_berkas}}`
 
-- Menghapus berkas dengan mode verbose, mencetak pesan untuk setiap file yang terhapus:
+- Menghapus berkas dengan mode verbose, mencetak pesan untuk setiap berkas yang terhapus:
 
 `rm -v {{alamat/ke/directori/*}}`
