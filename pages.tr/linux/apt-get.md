@@ -9,15 +9,15 @@
 
 - Bir paket yükleyin veya son sürüme güncelleyin:
 
-`apt-get install {{package}}`
+`apt-get install {{paket}}`
 
 - Bir paketi silin:
 
-`apt-get remove {{package}}`
+`apt-get remove {{paket}}`
 
 - Bir paketi ve konfigürasyon dosyalarını silin:
 
-`apt-get purge {{package}}`
+`apt-get purge {{paket}}`
 
 - Yüklü paketlerin hepsini son sürümlerine yükseltin:
 
