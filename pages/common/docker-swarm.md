@@ -11,7 +11,7 @@
 
 `docker swarm join-token {{worker|manager}}`
 
-- Join new node to cluster:
+- Join a new node to the cluster:
 
 `docker swarm join --token {{token}} {{manager_node_url:2377}}`
 
@@ -19,14 +19,14 @@
 
 `docker swarm leave`
 
-- Display current CA certificate in PEM format:
+- Display the current CA certificate in PEM format:
 
 `docker swarm ca`
 
-- Rotate current CA certificate and display the new certificate:
+- Rotate the current CA certificate and display the new certificate:
 
 `docker swarm ca --rotate`
 
-- Change valid period for node certificates:
+- Change the valid period for node certificates:
 
 `docker swarm update --cert-expiry {{hours}}h{{minutes}}m{{seconds}}s`
