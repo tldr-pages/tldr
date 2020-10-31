@@ -1,7 +1,8 @@
 # units
 
 > Realiza a conversão entre duas unidades de medida.
-> Digitar 'search{{text}}' no console retornará uma lista de todas as unidades que contêm {{text}}.
+> Digitar `search{{text}}` no console retornará uma lista de todas as unidades que contêm `{{text}}`.
+> Mais informações: <https://www.gnu.org/software/units/units.html>.
 
 - Rodar no modo interativo:
 
