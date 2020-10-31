@@ -3,7 +3,7 @@
 > Mostra a expansão de acrônimos.
 > Mais informações (em inglês): <https://manpages.debian.org/bsdgames/wtf.6.en.html>.
 
-- Expandir um acrônimo:
+- Expanda um acrônimo:
 
 `wtf {{IMO}}`
 
