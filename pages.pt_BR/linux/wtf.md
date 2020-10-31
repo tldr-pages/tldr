@@ -7,6 +7,6 @@
 
 `wtf {{IMO}}`
 
-- Especificar um tipo de busca computacional:
+- Específica um tipo de busca computacional:
 
 `wtf -t {{comp}} {{WWW}}`
