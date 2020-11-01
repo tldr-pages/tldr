@@ -22,3 +22,7 @@
 - Clone an existing repository only fetching the 10 most recent commits on the default branch (useful to save time):
 
 `git clone --depth {{10}} {{remote_repository_location}}`
+
+- Clone a single branch
+
+`git clone -b {{branch_to_clone}} --single-branch {{remote_repository_location}}`
