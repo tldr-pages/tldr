@@ -1,6 +1,6 @@
 # snake4
 
-> Snake game in terminal.
+> Snake game in the terminal.
 > More information: <https://manpages.debian.org/snake4/snake4.6.en.html>.
 
 - Start snake game:
