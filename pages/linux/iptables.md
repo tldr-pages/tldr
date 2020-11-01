@@ -2,7 +2,7 @@
 
 > Program that allows configuration of tables, chains and rules provided by the Linux kernel firewall.
 
-- View chains, rules, and packet/byte counters for all tables:
+- View chains, rules, and packet/byte counters for the filter table:
 
 `sudo iptables -vnL`
 
