@@ -7,6 +7,10 @@
 
 `git clone {{remote_repository_location}}`
 
+- Clone an existing repository into a specific directory:
+
+`git clone {{remote_repository_location}} {{path/to/directory}}`
+
 - Clone an existing repository and its submodules:
 
 `git clone --recursive {{remote_repository_location}}`
@@ -26,7 +30,3 @@
 - Clone an existing repository only fetching a specific branch:
 
 `git clone --branch {{name}} --single-branch {{remote_repository_location}}`
-
-- Clone an existing repository into a specific directory:
-
-`git clone {{remote_repository_location}} {{path/to/directory}}`
