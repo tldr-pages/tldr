@@ -11,7 +11,7 @@
 
 `icalBuddy uncompletedTasks`
 
-- Show a formated list separated by calendar for all events today:
+- Show a formatted list separated by calendar for all events today:
 
 `icalBuddy -f -sc eventsToday`
 
@@ -21,4 +21,4 @@
 
 - Show events in a time range:
 
-`icalBuddy eventsFrom:'{{start date}}' to:'{{end date}}'`
+`icalBuddy eventsFrom:'{{start_date}}' to:'{{end_date}}'`
