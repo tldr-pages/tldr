@@ -23,6 +23,6 @@
 
 `q`
 
-- Show highscores:
+- Show the high scores:
 
 `snake4 --highscores`
