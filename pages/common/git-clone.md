@@ -27,6 +27,6 @@
 
 `git clone --branch {{name}} --single-branch {{remote_repository_location}}`
 
-- Clone into a specific repository:
+- Clone an existing repository into a specific directory:
 
 `git clone {{remote_repository_location}} {{path/to/directory}}`
