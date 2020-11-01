@@ -6,11 +6,11 @@
 
 - Restaurer un fichier supprimé à partir du contenu du commit actuel (HEAD):
 
-`git restore {{path/to/file}}`
+`git restore {{chemin/vers/fichier}}`
 
 - Restaurer un fichier a la version d'un commit spécifié:
 
-`git restore --source {{commit}} {{path/to/file}}`
+`git restore --source {{commit}} {{chemin/vers/fichier}}`
 
 - Annulez toutes les modifications non validées des fichiers suivis, en revenant au HEAD:
 

@@ -5,11 +5,11 @@
 
 - Afficher les messages a propos des fichiers corrigés:
 
-`git apply --verbose {{path/to/file}}`
+`git apply --verbose {{chemin/vers/fichier}}`
 
 - Applique le correctif et ajoute les fichiers a l index:
 
-`git apply --index {{path/to/file}}`
+`git apply --index {{chemin/vers/fichier}}`
 
 - Applique un correctif depuis une source distante:
 
@@ -17,12 +17,12 @@
 
 - Affiche les differencs resultantes et applique le correctif:
 
-`git apply --stat --apply {{path/to/file}}`
+`git apply --stat --apply {{chemin/vers/fichier}}`
 
 - Applique le correctif en ordre inverse:
 
-`git apply --reverse {{path/to/file}}`
+`git apply --reverse {{chemin/vers/fichier}}`
 
 - Stocke le resultat du correctif dans l index sans modifier la branche courrante:
 
-`git apply --cache {{path/to/file}}`
+`git apply --cache {{chemin/vers/fichier}}`

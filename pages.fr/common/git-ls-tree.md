@@ -5,7 +5,7 @@
 
 - Lister le contenu de l'arbre dans la branche:
 
-`git ls-tree {{branch_name}}`
+`git ls-tree {{nom_de_branche}}`
 
 - Lister le contenu de l'arbre dans le commit, recursif avec les sous-arbres:
 

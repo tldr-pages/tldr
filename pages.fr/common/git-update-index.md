@@ -5,4 +5,4 @@
 
 - Prétendre qu'un fichier modifié est inchangé (`git status` ne l'affichera pas comme modifié):
 
-`git update-index --skip-worktree {{path/to/modified_file}}`
+`git update-index --skip-worktree {{chemin/vers/fichier_modifié}}`

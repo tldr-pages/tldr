@@ -14,16 +14,16 @@
 
 - Ajoute un fichier:
 
-`git annex add {{path/to/file_or_directory}}`
+`git annex add {{chemin/vers/fichier_ou_repertoire}}`
 
 - Affiche le statut courrand d un fichier ou repertoire:
 
-`git annex status {{path/to/file_or_directory}}`
+`git annex status {{chemin/vers/fichier_ou_repertoire}}`
 
 - Synchronise un repository local avec un distant:
 
-`git annex {{remote}}`
+`git annex {{distant}}`
 
 - Recupére un ficheir ou un repertoire:
 
-`git annex get {{path/to/file_or_directory}}`
+`git annex get {{chemin/vers/fichier_ou_repertoire}}`

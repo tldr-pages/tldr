@@ -6,7 +6,7 @@
 
 - Ajouter un fichier à l'index:
 
-`git stage {{path/to/file}}`
+`git stage {{chemin/vers/fichier}}`
 
 - Ajoute tout les fichiers à l'index (suivis et non suivis):
 
@@ -26,7 +26,7 @@
 
 - Ajout d'un fichier par parties, interactivement:
 
-`git stage -p {{path/to/file}}`
+`git stage -p {{chemin/vers/fichier}}`
 
 - Ajout d'un fichier, interactivement:
 

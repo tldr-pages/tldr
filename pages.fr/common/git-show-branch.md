@@ -5,11 +5,11 @@
 
 - Affiche un resumé du dernier commit dans la branche:
 
-`git show-branch {{branch_name|ref|commit}}`
+`git show-branch {{nom_de_branche}}|ref|commit}}`
 
 - Comparer des commits avec plusieurs commits ou branches:
 
-`git show-branch {{branch_name|ref|commit}}`
+`git show-branch {{nom_de_branche}}|ref|commit}}`
 
 - Comparer toutes les branches distantes:
 

@@ -29,7 +29,7 @@
 
 - Copy la note d'un objet vers un autre:
 
-`git notes copy {{source_object}} {{target_object}}`
+`git notes copy {{source_object}} {{objet_cible}}`
 
 - Supprime toutes les notes d'un objet spécifié:
 

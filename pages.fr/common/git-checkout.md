@@ -5,15 +5,15 @@
 
 - Créer une branche et basculer dessus:
 
-`git checkout -b {{branch_name}}`
+`git checkout -b {{nom_de_branche}}`
 
 - Créer une branche depuis une reférence spçifiaue et basculer dessus (par exemple, branche locales/distantes, tag, commit):
 
-`git checkout -b {{branch_name}} {{reference}}`
+`git checkout -b {{nom_de_branche}} {{reference}}`
 
 - Basculer sur une branche locale existante:
 
-`git checkout {{branch_name}}`
+`git checkout {{nom_de_branche}}`
 
 - Basculer sur la branche précedante:
 
@@ -21,7 +21,7 @@
 
 - Basculer sur une brnche distante existante:
 
-`git checkout --track {{remote_name}}/{{branch_name}}`
+`git checkout --track {{nom_distant}}/{{nom_de_branche}}`
 
 - Annule tout les changements dans le repertoire courrant (voir `git reset` pour plus de commandes d'annulation):
 
@@ -33,4 +33,4 @@
 
 - Remplace un fichier par sa version d'une autre branche:
 
-`git checkout {{branch_name}} -- {{filename}}`
+`git checkout {{nom_de_branche}} -- {{filename}}`

@@ -6,7 +6,7 @@
 
 - Appliquer un fichier de patch:
 
-`git am {{path/to/file.patch}}`
+`git am {{chemin/vers/fichier.patch}}`
 
 - Annuler l'application d un fichier de patch:
 
@@ -14,4 +14,4 @@
 
 - Appliquer autant de fichier de correctif que possible, en enregistrant les morceaux échoués pour rejeter le fichier:
 
-`git am --reject {{path/to/file.patch}}`
+`git am --reject {{chemin/vers/fichier.patch}}`

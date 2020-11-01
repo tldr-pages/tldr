@@ -9,19 +9,19 @@
 
 - Affiche les informations a propos d'un dépot:
 
-`git remote show {{remote_name}}`
+`git remote show {{nom_distant}}`
 
 - Ajoute un dépot:
 
-`git remote add {{remote_name}} {{remote_url}}`
+`git remote add {{nom_distant}} {{url_distant}}`
 
 - Change l'url d'un dépot (ajouter `--add` pour conserver l'url existante):
 
-`git remote set-url {{remote_name}} {{new_url}}`
+`git remote set-url {{nom_distant}} {{new_url}}`
 
 - Suprime un dṕot:
 
-`git remote remove {{remote_name}}`
+`git remote remove {{nom_distant}}`
 
 - Renome un dépot:
 

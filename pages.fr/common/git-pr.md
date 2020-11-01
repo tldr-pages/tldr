@@ -8,7 +8,7 @@
 
 - Récupére une pull-request d un dépot spécifique:
 
-`git pr {{pr_number}} {{remote}}`
+`git pr {{pr_number}} {{distant}}`
 
 - Récupére une pull-request depuis sont url:
 

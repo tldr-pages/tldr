@@ -5,11 +5,11 @@
 
 - Créer un nouveau sous arbre avec la branche spécifiée extraite dedans:
 
-`git worktree add {{path/to/directory}} {{branch}}`
+`git worktree add {{chemin/vers/repertoire}} {{branche}}`
 
 - Créer un nouveau sous arbre branche extraite dedans:
 
-`git worktree add {{path/to/directory}} -b {{new_branch}}`
+`git worktree add {{chemin/vers/repertoire}} -b {{nouvelle_branche}}`
 
 - Répertoriez tous les sous arbres attachés à ce dépot:
 

@@ -9,7 +9,7 @@
 
 - Affiche le reflog d'une branche spécifique:
 
-`git reflog {{branch_name}}`
+`git reflog {{nom_de_branche}}`
 
 - Affiche les 5 dérniéres entrés dans le reflog:
 

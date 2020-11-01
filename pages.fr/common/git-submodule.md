@@ -13,7 +13,7 @@
 
 - Ajout d'un dépot git en tant que sous module a répertoire donné:
 
-`git submodule add {{repository_url}} {{path/to/directory}}`
+`git submodule add {{repository_url}} {{chemin/vers/repertoire}}`
 
 - Metre à jour tout les sous modules à leurs derniers commit:
 

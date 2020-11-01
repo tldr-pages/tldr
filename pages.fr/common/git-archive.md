@@ -13,16 +13,16 @@
 
 - Pareil que ci-dessus mais ecrit dans l archive specifiée:
 
-`git archive --verbose --output={{path/to/file.zip}} HEAD`
+`git archive --verbose --output={{chemin/vers/fichier.zip}} HEAD`
 
 - Crée une archive depuis le dernier commit de la branche spécifiée:
 
-`git archive --output={{path/to/file.tar}} {{branch_name}}`
+`git archive --output={{chemin/vers/fichier.tar}} {{nom_de_branche}}`
 
 - Crée une archive avec le contenu d un repertoire donné:
 
-`git archive --output={{path/to/file.tar}} HEAD:{{path/to/directory}}`
+`git archive --output={{chemin/vers/fichier.tar}} HEAD:{{chemin/vers/repertoire}}`
 
 - Ajoutez un chemin d'accès à chaque fichier pour l'archiver dans un répertoire spécifique:
 
-`git archive --output={{path/to/file.tar}} --prefix={{path/to/prepend}}/ HEAD`
+`git archive --output={{chemin/vers/fichier.tar}} --prefix={{chemin/vers/cible}}/ HEAD`

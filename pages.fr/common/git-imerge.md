@@ -6,11 +6,11 @@
 
 - Démarrer un i-merge rebase (se placer dans la branche a rebaser d'abord):
 
-`git imerge rebase {{branch_to_rebase_onto}}`
+`git imerge rebase {{branche_sur_laquelle_rebaser}}`
 
 - Démarrer imerge merge (se placer dans la branche depuis laquelle merger d'abord):
 
-`git imerge merge {{branch_to_be_merged}}`
+`git imerge merge {{branche_a_merger}}`
 
 - Afficher le diagramme ASCII du merge ou rebase en cours:
 

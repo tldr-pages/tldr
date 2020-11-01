@@ -10,7 +10,7 @@
 
 - Rejouer les comits interactivement, ce qui permet aux commits d'éte re-arrangés, exclus, combimés ou modifiés:
 
-`git rebase -i {{target_base_branch_or_commit_hash}}`
+`git rebase -i {{branche_de_base_ou_commit}}`
 
 - Continuer le re-jeu des commits apres la resolution d'un conflit:
 

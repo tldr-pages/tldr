@@ -6,20 +6,20 @@
 
 - Rechercher une occrence dans les fichiers suivis:
 
-`git grep {{search_string}}`
+`git grep {{chaine_recherché}}`
 
 - Rechercher une occrence dans les fichiers suivis d'appres un pattern de fichiers:
 
-`git grep {{search_string}} -- {{file_glob_pattern}}`
+`git grep {{chaine_recherché}} -- {{file_glob_pattern}}`
 
 - Rechercher une occrence dans les fichiers suivis et les sous-modules:
 
-`git grep --recurse-submodules {{search_string}}`
+`git grep --recurse-submodules {{chaine_recherché}}`
 
 - Rechercher une occurence à partir d un point spécifique dans l'historique:
 
-`git grep {{search_string}} {{HEAD~2}}`
+`git grep {{chaine_recherché}} {{HEAD~2}}`
 
 - Rechercher une occurence dans toutes les branches:
 
-`git grep {{search_string}} $(git rev-list --all)`
+`git grep {{chaine_recherché}} $(git rev-list --all)`

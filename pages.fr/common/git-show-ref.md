@@ -17,4 +17,4 @@
 
 - Verifier l'existence d'une référence:
 
-`git show-ref --verify {{path/to/ref}}`
+`git show-ref --verify {{chemin/vers/reference}}`

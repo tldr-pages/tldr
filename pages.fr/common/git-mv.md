@@ -5,7 +5,7 @@
 
 - Déplace les fichiers dans l'index git, valide au prochain commit:
 
-`git mv {{path/to/file}} {{new/path/to/file}}`
+`git mv {{chemin/vers/fichier}} {{new/path/to/file}}`
 
 - Renome un fichier et met a jour l'index, valide au prochain commit:
 
@@ -13,4 +13,4 @@
 
 - Force l'écrasement d'un fichier:
 
-`git mv --force {{file}} {{target}}`
+`git mv --force {{file}} {{cible}}`

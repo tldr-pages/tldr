@@ -29,8 +29,8 @@
 
 - Comparer un ficheir entre deux branches ou commits:
 
-`git diff {{branch_1}}..{{branch_2}} [--] {{path/to/file}}`
+`git diff {{branche_1}}..{{branche_2}} [--] {{chemin/vers/fichier}}`
 
 - Comparer plusieurs fichiers de la branche courrante avec une autre branche:
 
-`git diff {{branch}}:{{path/to/file2}} {{path/to/file}}`
+`git diff {{branche}}:{{chemin/vers/fichier2}} {{chemin/vers/fichier}}`

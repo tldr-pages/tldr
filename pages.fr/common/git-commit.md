@@ -17,4 +17,4 @@
 
 - Commit seulement les fichiers spécifiés (qui sont déjà en stage) :
 
-`git commit {{path/to/my/file1}} {{path/to/my/file2}}`
+`git commit {{chemin/vers/mon/fichier1}} {{chemin/vers/mon/fichier2}}`

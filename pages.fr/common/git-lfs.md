@@ -25,7 +25,7 @@
 
 - Pousser tout les objets LFS vers le serveur distant:
 
-`git lfs push --all {{remote_name}} {{branch_name}}`
+`git lfs push --all {{nom_distant}} {{nom_de_branche}}`
 
 - Chercher tout les objets LFS:
 

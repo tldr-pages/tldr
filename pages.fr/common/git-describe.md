@@ -21,4 +21,4 @@
 
 - Créer un nom pour le dernier commit de la branche:
 
-`git describe {{branch_name}}`
+`git describe {{nom_de_branche}}`

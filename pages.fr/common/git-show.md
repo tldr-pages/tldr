@@ -13,11 +13,11 @@
 
 - Affiche les informations associés au tag spécifié:
 
-`git show {{tag}}`
+`git show {{etiquette}}`
 
 - Affiche les informations a propos du 3éme commit en partant du sommet de la branche:
 
-`git show {{branch}}~{{3}}`
+`git show {{branche}}~{{3}}`
 
 - Afficher le message d'un commit sur une seule ligne, en supprimant la sortie diff:
 
@@ -29,4 +29,4 @@
 
 - Afficher le contenu d'un fichier tel qu'il était à une révision donnée (par exemple, branche, tag ou commit):
 
-`git show {{revision}}:{{path/to/file}}`
+`git show {{revision}}:{{chemin/vers/fichier}}`

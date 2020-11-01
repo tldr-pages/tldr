@@ -9,7 +9,7 @@
 
 - Afficher l'historique de fichiers ou repertoires en particulier:
 
-`git log -p {{path/to/file_or_directory}}`
+`git log -p {{chemin/vers/fichier_ou_repertoire}}`
 
 - Afficher la liste des fichiers modifiés pour chaque commit:
 
@@ -25,7 +25,7 @@
 
 - Afficher uniqueent les commits dont le message contient la chaine (non sensible à la case):
 
-`git log -i --grep {{search_string}}`
+`git log -i --grep {{chaine_recherché}}`
 
 - Afficher les N derniers commits d'un utilisateur:
 

@@ -9,7 +9,7 @@
 
 - Cherche les nouvelles branches depuis un registre distant:
 
-`git fetch {{remote_name}}`
+`git fetch {{nom_distant}}`
 
 - Cherche les nouvelles branches depuis tout les registres distant:
 

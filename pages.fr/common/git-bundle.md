@@ -5,28 +5,28 @@
 
 - Empaquetez tout les objets et les refferences d'une branche spécifiée:
 
-`git bundle create {{path/to/file.bundle}} {{branch_name}}`
+`git bundle create {{chemin/vers/fichier.bundle}} {{nom_de_branche}}`
 
 - Crée un empaquetage de tout les fichiers de toutes les branches:
 
-`git bundle create {{path/to/file.bundle}} --all`
+`git bundle create {{chemin/vers/fichier.bundle}} --all`
 
 - Crée un empaquetage des 5 derniers commits de la branche courrante:
 
-`git bundle create {{path/to/file.bundle}} -{{5}} {{HEAD}}`
+`git bundle create {{chemin/vers/fichier.bundle}} -{{5}} {{HEAD}}`
 
 - Crée un empaquetage des 7 derniers jours:
 
-`git bundle create {{path/to/file.bundle}} --since={{7.days}} {{HEAD}}`
+`git bundle create {{chemin/vers/fichier.bundle}} --since={{7.days}} {{HEAD}}`
 
 - Verifie qu'un empaquetage est valide et peut étre appliquer à la branche courrante:
 
-`git bundle verify {{path/to/file.bundle}}`
+`git bundle verify {{chemin/vers/fichier.bundle}}`
 
 - Affiche sur la sortie standard la liste des réfferences contenues dans un empaquetage:
 
-`git bundle unbundle {{path/to/file.bundle}}`
+`git bundle unbundle {{chemin/vers/fichier.bundle}}`
 
 - Extraire une branche spécifique d'un fichier de bundle dans le référentiel actuel:
 
-`git pull {{path/to/file.bundle}} {{branch_name}}`
+`git pull {{chemin/vers/fichier.bundle}} {{nom_de_branche}}`

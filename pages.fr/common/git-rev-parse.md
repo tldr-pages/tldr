@@ -5,7 +5,7 @@
 
 - Afficher le hash de commit de la branche courrante:
 
-`git rev-parse {{branch_name}}`
+`git rev-parse {{nom_de_branche}}`
 
 - Affiche le nom de la branche courrante:
 
