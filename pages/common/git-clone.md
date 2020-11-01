@@ -23,6 +23,6 @@
 
 `git clone --depth {{10}} {{remote_repository_location}}`
 
-- Clone a single branch
+- Clone a single branch:
 
 `git clone -b {{branch_to_clone}} --single-branch {{remote_repository_location}}`
