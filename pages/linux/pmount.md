@@ -1,6 +1,6 @@
 # pmount
 
-> Mount arbitrary hotpluggable devices as normal user.
+> Mount arbitrary hotpluggable devices as a normal user.
 > More information: <https://linux.die.net/man/1/pmount>.
 
 - Mount a device below `/media/` (using device as mount point):
