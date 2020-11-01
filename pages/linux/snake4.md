@@ -3,7 +3,7 @@
 > Snake game in the terminal.
 > More information: <https://manpages.debian.org/snake4/snake4.6.en.html>.
 
-- Start snake game:
+- Start a snake game:
 
 `snake4`
 
