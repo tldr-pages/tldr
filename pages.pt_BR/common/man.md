@@ -20,4 +20,4 @@
 
 - Procurar manuais contendo um termo de pesquisa:
 
-`man -k "{{termo de pesquisa}}"`
+`man -k "{{termo_de_pesquisa}}"`

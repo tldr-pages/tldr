@@ -30,7 +30,7 @@
 
 - Uzyskaj interaktywnego kreatora dla zasobu AWS:
 
-`aws dynamodb wizard {{nowa-tabela}}`
+`aws dynamodb wizard {{nowa_tabela}}`
 
 - Generuj JSON CLI Skeleton (przydatne dla infrastruktury jako kodu):
 
