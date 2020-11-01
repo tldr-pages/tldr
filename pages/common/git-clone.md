@@ -26,3 +26,7 @@
 - Clone an existing repository only fetching a specific branch:
 
 `git clone --branch {{name}} --single-branch {{remote_repository_location}}`
+
+- Clone into a specific repository:
+
+`git clone {{remote_repository_location}} {{path/to/directory}}`
