@@ -25,4 +25,4 @@
 
 - Clone an existing repository only fetching a specific branch:
 
-`git clone -b {{branch_to_clone}} --single-branch {{remote_repository_location}}`
+`git clone --branch {{name}} --single-branch {{remote_repository_location}}`
