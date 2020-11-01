@@ -11,9 +11,9 @@
 
 `cat {{input_file}} | httprobe --prefer-https`
 
-- Probe additional ports:
+- Probe additional ports with a given protocol:
 
-`cat {{input_file}} | httprobe -p https:2222`
+`cat {{input_file}} | httprobe -p {{https:2222}}`
 
 - Output all available options:
 
