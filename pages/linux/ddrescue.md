@@ -9,4 +9,4 @@
 
 - Clone Disk A to Disk B, creating a log file:
 
-`sudo ddrescue --force --no-scrape {{/dev/sda}} {{/dev/sdb}} {{path/to/log.txt}}`
+`sudo ddrescue --force --no-scrape {{/dev/sdX}} {{/dev/sdY}} {{path/to/log.txt}}`

@@ -1,17 +1,17 @@
 # git describe
 
-> Donner à un objet un nom "human-readable" basé sur une référence disponible.
-> Plus d'informations: <https://git-scm.com/docs/git-describe>.
+> Créer un nom unique et lisible pour un objet à partir d’une référence disponible.
+> Plus d'informations : <https://git-scm.com/docs/git-describe>.
 
-- Crée un nom unique pour le commit courrant (le nom contient la balise annotée la plus récente, le nombre de commit supplémentaires et le hachage de commit abrégé):
+- Créer un nom unique pour le commit courant (le nom contient le tag le plus recent, le nombre de commits additionnel, and le hash abrégé du commit) :
 
 `git describe`
 
-- Crée un nom pour le hachage de commit abregé de 4 caractŕes:
+- Créer un nom avec un hash de commit de 4 carctéres :
 
 `git describe --abbrev={{4}}`
 
-- Générer un nom avec le chemin de référence du tag:
+- Générer un nom avec le chemin complet du tag :
 
 `git describe --all`
 
@@ -19,6 +19,7 @@
 
 `git describe {{v1.0.0}}`
 
-- Créer un nom pour le dernier commit de la branche:
+- Créer un nom pour le dernier commit d'une branche donnée :
+
 
 `git describe {{nom_de_branche}}`
