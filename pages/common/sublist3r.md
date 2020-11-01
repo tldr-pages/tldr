@@ -7,13 +7,13 @@
 
 `sublist3r --domain {{domain_name}}`
 
-- Find subdomains for a domain, also use brute force:
+- Find subdomains for a domain, also enabling brute force search:
 
 `sublist3r --domain {{domain_name}} --bruteforce`
 
-- Save found results to a text file:
+- Save the found subdomains to a text file:
 
-`sublist3r --domain {{domain_name}} --output {{output_file}}`
+`sublist3r --domain {{domain_name}} --output {{path/to/output_file}}`
 
 - Output all available options:
 

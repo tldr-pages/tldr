@@ -7,18 +7,18 @@
 
 `amass enum -passive -d {{domain_name}}`
 
-- Find subdomains of a domain and actively verify them:
+- Find subdomains of a domain and actively verify them attempting to resolve the found subdomains:
 
 `amass enum -active -d {{domain_name}} -p {{80,443,8080}}`
 
-- Brute force subdomains:
+- Do a brute force search for subdomains:
 
 `amass enum -brute -d {{domain_name}}`
 
-- Save results to a text file:
+- Save the results to a text file:
 
 `amass enum -o {{output_file}} -d {{domain_name}}`
 
-- Save results to a database:
+- Save the results to a database:
 
 `amass enum -o {{output_file}} -dir {{path/to/database_directory}}`

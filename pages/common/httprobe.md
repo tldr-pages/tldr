@@ -5,15 +5,15 @@
 
 - Probe a list of domains from a text file:
 
-`cat {{input_file}} > httprobe`
+`cat {{input_file}} | httprobe`
 
 - Only check for HTTP if HTTPS is not working:
 
-`cat {{input_file}} > httprobe --prefer-https`
+`cat {{input_file}} | httprobe --prefer-https`
 
 - Probe additional ports:
 
-`cat {{input_file}} > httprobe -p https:2222`
+`cat {{input_file}} | httprobe -p https:2222`
 
 - Output all available options:
 
