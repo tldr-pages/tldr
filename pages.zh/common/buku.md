@@ -9,7 +9,7 @@
 
 - 添加书签，并且打上标签:
 
-`buku --add {{https://example.com}} {{search engine}}, {{标签}}`
+`buku --add {{https://example.com}} {{搜索引擎}}, {{标签}}`
 
 - 删除一个书签:
 
@@ -22,3 +22,4 @@
 - 将指定标签移除:
 
 `buku --update {{书签id}} --tag {{-}} {{搜索引擎}}`
+acomplete
