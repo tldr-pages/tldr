@@ -1,33 +1,33 @@
 # bower
 
-> 前端web开发的包管理方案.
-> bower已经成为过去时，推荐使用webpack、yarn、parcel
-> 详见: <https://bower.io/>.
+> 前端web开发的包管理优化工具。
+> 一个包可以是GitHub中user/repo的缩写，一个Git端口，一个URL链接或者一个已注册的包。
+> 更多信息: <https://bower.io/>.
 
-- Install a project's dependencies, listed in its bower.json:
+- 安装列在项目下 的bower.json文件中的依赖:
 
 `bower install`
 
-- Install one or more packages to the bower_components directory:
+- 安装一个或者多个依赖到bower_components目录:
 
-`bower install {{package}} {{package}}`
+`bower install {{包名1}} {{包名2}}`
 
-- Uninstall packages locally from the bower_components directory:
+- 从本地的bower_components目录卸载依赖
 
-`bower uninstall {{package}} {{package}}`
+`bower uninstall {{包名1}} {{包名2}}`
 
-- List local packages and possible updates:
+- 列出本地包和可能的更新项:
 
 `bower list`
 
-- Display help information about a bower command:
+- 显示bower指令的帮助信息:
 
-`bower help {{command}}`
+`bower help {{指令}}`
 
-- Create a bower.json file for your package:
+- 创建你的项目的bower.json:
 
 `bower init`
 
-- Install a specific dependency version, and add it to bower.json:
+- 安装时候指定依赖的版本号，并添加到bower.json:
 
 `bower install {{local_name}}={{package}}#{{version}} --save`

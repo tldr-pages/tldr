@@ -1,24 +1,24 @@
 # bashmarks
 
-> 目录书签.
-> 详见: <https://github.com/huyng/bashmarks>.
+> 使用一个字母的命令，保存或者跳转到常用的目录
+> 更多信息: <https://github.com/huyng/bashmarks>.
 
-- 书签清单:
+- 可访问书签清单:
 
 `l`
 
 - 保存当前目录到某书签里:
 
-`s {{bookmark_name}}`
+`s {{书签名}}`
 
 - 跳转到指定书签
 
-`g {{bookmark_name}}`
+`g {{书签名}}`
 
 - 打印书签目录内容
 
-`p {{bookmark_name}}`
+`p {{书签名}}`
 
 - 删除书签：
 
-`d {{bookmark_name}}`
+`d {{书签名}}`

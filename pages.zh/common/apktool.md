@@ -1,16 +1,16 @@
 # apktool
 
 > APK文件反编译工具
-> 详见: <https://ibotpeaches.github.io/Apktool/>.
+> 更多信息: <https://ibotpeaches.github.io/Apktool/>.
 
 - 反编译:
 
-`apktool d {{file.apk}}`
+`apktool d {{应用.apk}}`
 
-- 将一个文件夹打包为apk文件,使用b或者build:
+- 将一个文件夹打包为apk文件:
 
-`apktool b {{path/to/directory}}`
+`apktool b {{路径/到/目录}}`
 
-- 安装框架，使用if或者install-iframework:
+- 安装并存储框架:
 
-`apktool if {{framework.apk}}`
+`apktool if {{框架.apk}}`
