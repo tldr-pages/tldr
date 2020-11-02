@@ -22,4 +22,3 @@
 - 将指定标签移除:
 
 `buku --update {{书签id}} --tag {{-}} {{搜索引擎}}`
-acomplete

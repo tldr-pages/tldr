@@ -4,12 +4,12 @@
 
 - 仅显示文件名:
 
-`basename {{path/to/file}}`
+`basename {{路径/到/文件}}`
 
 - 显示路径字符最右边表示目录的字符:
 
-`basename {{path/to/directory/}}`
+`basename {{路径/到/目录/}}`
 
 - 展示无后缀的文件名称:
 
-`basename {{path/to/file}} {{suffix}}`
+`basename {{路径/到/文件}} {{后缀}}`
