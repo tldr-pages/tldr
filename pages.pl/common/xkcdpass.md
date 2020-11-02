@@ -2,6 +2,7 @@
 
 > Konfigurowalny generator haseł tworzący mocne hasła.
 > Zainspirowane przez XKCD 936.
+> Więcej informacji: <https://github.com/redacted/XKCD-password-generator>.
 
 - Stwórz hasło z domyślną konfiguracją:
 
