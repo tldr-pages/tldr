@@ -2,6 +2,7 @@
 
 > A flexible and scriptable password generator which generates strong passphrases.
 > Inspired by XKCD 936.
+> More information: <https://github.com/redacted/XKCD-password-generator>.
 
 - Generate one passphrase with the default options:
 
