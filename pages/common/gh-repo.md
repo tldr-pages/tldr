@@ -7,11 +7,11 @@
 
 `gh repo create {{name}}`
 
-- Clone repository:
+- Clone a repository:
 
 `gh repo clone {{repository}}`
 
-- Fork and clone repository:
+- Fork and clone a repository:
 
 `gh repo fork {{owner}}/{{repository}} --clone=true`
 
