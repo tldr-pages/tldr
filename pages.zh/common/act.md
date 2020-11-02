@@ -1,8 +1,7 @@
 # act
 
 > 使用Docker本地运行GitHub Actions
-> act详见: <https://github.com/nektos/act>.
-> GitHub Actions详见: <https://developer.github.com/actions/>.
+> 更多信息: <https://github.com/nektos/act>.
 
 - 列出可用的actions清单:
 
