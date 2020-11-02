@@ -2,11 +2,11 @@
 
 > Analiza archivos de Ruby.
 
-- Verifica todos los archivos en el directorio actual (incluyendo determinados):
+- Verifica todos los archivos en el directorio actual (incluyendo subdirectorios):
 
 `rubocop`
 
-- Verifica uno o más archivos o directorios específicos:
+- Verifica uno o más archivos o directorios determinados:
 
 `rubocop {{path/to/file}} {{path/to/directory}}`
 
