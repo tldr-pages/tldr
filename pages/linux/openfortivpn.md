@@ -9,7 +9,7 @@
 
 - Connect to a VPN using a specific configuration file (defaults to `/etc/openfortivpn/config`):
 
-`sudo openfortivpn --config=path/to/config`
+`sudo openfortivpn --config={{path/to/config}}`
 
 - Connect to a VPN by specifiying the host and port:
 
