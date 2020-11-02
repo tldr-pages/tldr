@@ -3,19 +3,19 @@
 > Work with GitHub Gists on the command line.
 > More information: <https://cli.github.com/manual/gh_gist>.
 
-- Create a new gist from a space-separated list of files:
+- Create a new Gist from a space-separated list of files:
 
 `gh gist create {{path/to/files}}`
 
-- Create a new gist with a description:
+- Create a new Gist with a description:
 
 `gh gist create {{filename}} --desc "{{description}}"`
 
-- Edit a gist:
+- Edit a Gist:
 
 `gh gist edit {{id_or_url}}`
 
-- List gists you own:
+- List Gists you own:
 
 `gh gist list --limit {{int}}`
 
