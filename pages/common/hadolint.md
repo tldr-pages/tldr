@@ -1,24 +1,20 @@
-# hadolint
+  hadolint
 
-> Dockerfile linter.
+> It checks for optimizations and likely failures, resulting in cleaner code, no errors and possibly a smaller Docker image. Haskell Dockerfile Linter.
 > More information: <https://github.com/hadolint/hadolint>.
 
-- Lint a Dockerfile:
+- Install hadolint as a docker image:
 
-`hadolint {{path/to/Dockerfile}}`
+  docker run --rm -i hadolint/hadolint
 
-- Lint a Dockerfile, displaying the output in JSON format:
+- Configure hadolint to ignore all errors pointed out by hadolint in the dockerfile:
 
-`hadolint --format {{json}} {{path/to/Dockerfile}}`
+  docker run --rm -i hadolint/hadolint hadolint --ignore {{error code}} -
 
-- Lint a Dockerfile, displaying the output in a specific format:
+- Configure hadolint to ignore in entire Dockerfile by mounting configuration yaml file:
 
-`hadolint --format {{tty|json|checkstyle|codeclimate|codacy}} {{path/to/Dockerfile}}`
-
-- Lint a Dockerfile ignoring specific rules:
-
-`hadolint --ignore {{DL3006}} --ignore {{DL3008}} {{path/to/Dockerfile}}`
-
-- Lint multiple Dockerfiles using specific trusted registries:
-
-`hadolint --trusted-registry {{docker.io}} --trusted-registry {{example.com}}:{{5000}} {{path/to/Dockerfile}} {{path/to/another/Dockerfile}}`
+  hadolint.yml
+   ignored:
+	- {{error code}}
+	
+  docker run --rm -i -v ${PWD}/.hadolint.yml:/.hadolint.yaml hadolint/hadolint	
