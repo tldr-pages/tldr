@@ -1,8 +1,7 @@
 # act
 
 > 使用Docker本地运行GitHub Actions
-> act详见: <https://github.com/nektos/act>.
-> GitHub Actions详见: <https://developer.github.com/actions/>.
+> 更多信息: <https://developer.github.com/actions/>.
 
 - 列出可用的actions清单:
 
@@ -14,13 +13,13 @@
 
 - 运行指定event:
 
-`act {{event_type}}`
+`act {{事件类型}}`
 
 - 运行指定action:
 
 `act -a {{action_id}}`
 
-- 非实际运行actions (i.e. dry-run模式):
+- 非实际运行actions (也就是dry-run模式):
 
 `act -n`
 
