@@ -1,34 +1,38 @@
 # adb shell
 
-> Android Debug Bridge Shell: 运行安卓模拟器或者连接设备上的远程shell指令。
+> 安卓调试桥-Shell: 运行安卓模拟器或者连接设备上的远程终端命令。
 > 详见: <https://developer.android.com/studio/command-line/adb>.
 
 - 启动模拟器/设备上的远程终端:
 
 `adb shell`
 
-- 获取设备全部属性:
+- 获取模拟器/设备全部属性:
 
 `adb shell getprop`
 
 - 查看进程列表
 
-`adb shell ps`
+- 重置所有运行时权限为它们的默认值:
 
-- 查看指定进程状态
+`adb shell pm reset-permissions`
 
-`adb shell ps -x {{PID}}`
+- 撤销一个应用的危险权限:
 
-- 查看后台services信息
+`adb shell pm revoke {{包名}} {{权限}}`
 
-`adb shell service list`
+- 触发一个键盘敲击事件:
 
-- 查看IO内存分区
+`adb shell input keyevent {{键位码}}}`
 
-`adb shell cat /proc/iomem`
+- 清除模拟器/设备上的数据:
 
-- 文件操作---如-查看所有存储设备名
+`adb shell pm clear {{包名}}`
 
-`adb shell ls mnt`
+- 启动模拟器/设备上的一个行为:
 
-- 额外的 可以进行任意的文件操作（ls、cd、rm、 rename、 mv、 chmod、 mkdir等）
+`adb shell am start -n {{包名}}/{{活动名}}`
+
+- 启动模拟器/设备上的首页活动:
+
+`adb shell am start -W -c android.intent.category.HOME -a android.intent.action.MAIN`

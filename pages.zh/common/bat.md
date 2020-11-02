@@ -6,23 +6,23 @@
 
 - 文件内容打印:
 
-`bat {{file}}`
+`bat {{文件}}`
 
 - 多文件合并到目标文件:
 
-`bat {{file1}} {{file2}} > {{target_file}}`
+`bat {{文件1}} {{文件2}} > {{目标文件}}`
 
 - 在指定文件后追加多个文件合并的内容:
 
-`bat {{file1}} {{file2}} >> {{target_file}}`
+`bat {{文件1}} {{文件2}} >> {{目标文件}}`
 
 - 打印时，显示行号:
 
-`bat -n {{file}}`
+`bat -n {{文件}}`
 
 - 高亮一个json文件:
 
-`bat --language json {{file.json}}`
+`bat --language json {{文件.json}}`
 
 - 受支持的语言清单:
 
