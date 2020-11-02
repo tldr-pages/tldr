@@ -3,7 +3,7 @@
 > Work with GitHub repositories on the command line.
 > More information: <https://cli.github.com/manual/gh_repo>.
 
-- Create new repository (if the repository name is not set, it will default to the name of the current directory):
+- Create a new repository (if the repository name is not set, it will default to the name of the current directory):
 
 `gh repo create {{name}}`
 
