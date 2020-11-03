@@ -105,6 +105,11 @@ Some examples of valid locale tags:
 
 The default language used for pages is English (US). Pages written in English are stored in the default `pages` directory (notice the absence of a specific language tag). Although not strictly required, if you'd like to add a new page in a different language, please consider creating the English page too.
 
+## Inclusive language
+
+Where possible, use inclusive language in the content of pages. For example, prefer terms like "denylist"/"allowlist" instead of "blacklist"/"whitelist", "primary"/"secondary" instead of "master"/"slave", "they" instead of "him"/"her", etc.
+Of course, this shouldn't sacrifice content clarity, such as when documenting tools where this terminology has specific technical meanings, and its usage is central to explaining the involved concepts.
+
 ## Submitting a pull request
 
 The easiest way to submit a change is to just edit the page directly on the GitHub interface.
