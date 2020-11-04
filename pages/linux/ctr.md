@@ -17,4 +17,4 @@
 
 - Tag a image:
 
-`ctr i tag {{image1} {{image2}}:
+`ctr i tag {{image1} {{image2}}`
