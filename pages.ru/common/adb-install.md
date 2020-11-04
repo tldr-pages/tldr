@@ -1,7 +1,7 @@
 # adb install
 
 > Android Debug Bridge Install: Передать пакеты на экземпляр эмулятора Андроид или подключённое Андроид устройства.
-> Больше информации на <https://developer.android.com/studio/command-line/adb>.
+> Больше информации: <https://developer.android.com/studio/command-line/adb>.
 
 - Передать Андроид приложение на эмулятор/устройство:
 

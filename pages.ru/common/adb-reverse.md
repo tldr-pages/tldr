@@ -1,7 +1,7 @@
 # adb reverse
 
 > Android Debug Bridge Reverse: обратные подключения сокета из экземпляра эмулятора Андроид или подключённого Андроид устройства.
-> Больше информации на <https://developer.android.com/studio/command-line/adb>.
+> Больше информации: <https://developer.android.com/studio/command-line/adb>.
 
 - Вывести список всех обратных подключений сокета из эмулятора или устройства:
 

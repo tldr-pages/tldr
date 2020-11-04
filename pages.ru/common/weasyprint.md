@@ -1,7 +1,7 @@
 # weasyprint
 
 > Переводить HTML в PDF или PNG.
-> Больше инофрмации: <https://weasyprint.org/>.
+> Больше информации: <https://weasyprint.org/>.
 
 - Перевести HTML файл в PDF:
 
