@@ -13,7 +13,7 @@
 
 - Pull an image:
 
-`ctr image pull {{image}}`
+`ctr images pull {{image}}`
 
 - Tag an image:
 
