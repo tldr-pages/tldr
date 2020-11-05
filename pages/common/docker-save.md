@@ -3,9 +3,9 @@
 > Export one or more docker images to archive.
 > More information: <https://docs.docker.com/engine/reference/commandline/save/>.
 
-- Save the image by redirecting output to a file:
+- Save the image by redirecting output to archive:
 
-`docker save {{image}} > {{path/to/file}}`
+`docker save {{image}} > {{path/to/file.tar}}`
 
 - Save an image to a tar archive:
 
@@ -14,10 +14,6 @@
 - Save all tags of the image:
 
 `docker save --output {{/path/to/file.tar}} {{image_name}}`
-
-- Use gzip to save the image:
-
-`docker save {{image}} | gzip > {{/path/to/file.tar.gz}}`
 
 - Cherry-pick particular tags of an image to save:
 
