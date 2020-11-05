@@ -1,11 +1,11 @@
-#rename
+# rename
 
 > Rename a file or group of files with a regex.
 
-`rename 's/from/to/' <filelist>`
+- Replace from.txt -> to.txt
 
-Examples:
+`rename 's/from/to/' *.txt`
 
-- Ex1. Replace all filename spaces with underscores for all files in the current directory
+- Replace all filename spaces with underscores for all files in the current directory
 
 `rename 's/ /_/g' *`
