@@ -5,7 +5,7 @@
 
 - Specify a passwordfile:
 
-`x0vncserver -display :0 -passwordfile <file>`
+`x0vncserver -display {{:0}} -passwordfile {{path/to/file}}`
 
 - Change the default port:
 
