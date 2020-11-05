@@ -15,7 +15,7 @@
 
 `gh gist edit {{id_or_url}}`
 
-- List Gists you own:
+- List Gists owned by the currently logged in user:
 
 `gh gist list --limit {{int}}`
 
