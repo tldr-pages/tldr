@@ -1,21 +1,21 @@
 # docker secret
 
-> Manage Docker swarm secret.
+> Manage Docker swarm secrets.
 > More information: <https://docs.docker.com/engine/reference/commandline/secret/>.
 
 - Create a new secret from stdin:
 
-`printf {{secret_content}} | docker secret create {{secret_name}} -`
+`{{command}} | docker secret create {{secret_name}} -`
 
 - Create a new secret from a file:
 
 `docker secret create {{secret_name}} {{path/to/file}}`
 
-- Display secrets list:
+- List all secrets:
 
 `docker secret ls`
 
-- Display detailed information one one or multiple secrets in human friendly format:
+- Display detailed information on one or multiple secrets in a human friendly format:
 
 `docker secret inspect --pretty {{secret_name1 secret_name2 ...}}`
 
