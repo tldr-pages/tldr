@@ -1,20 +1,20 @@
 # ctr
 
 > Manage Containerd containers and images.
-> More information: <https://containerd.io/>.
+> More information: <https://containerd.io>.
 
 - List all containers (running and stopped):
 
-`ctr c list`
+`ctr containers list`
 
 - List all images:
 
-`ctr i list`
+`ctr images list`
 
-- Pull image:
+- Pull an image:
 
-`ctr i pull {{image}}`
+`ctr image pull {{image}}`
 
-- Tag a image:
+- Tag an image:
 
-`ctr i tag {{image1} {{image2}}`
+`ctr images tag {{souce_image}}:{{source_tag}}  {{target_image}}:{{target_tag}}`
