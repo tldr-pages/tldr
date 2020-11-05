@@ -1,6 +1,6 @@
 # nsnake
 
-> Snake game in terminal.
+> Snake game in the terminal.
 > More information: <https://github.com/alexdantas/nsnake/>.
 
 - Start a snake game:
