@@ -35,6 +35,6 @@
 
 `q`
 
-- Show help during the game:
+- Show the help during the game:
 
 `h`
