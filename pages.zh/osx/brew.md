@@ -36,4 +36,4 @@
 
 - 启动通过 brew 安装的服务，如 nginx,mysql 等。启动后还会自动随开机启动，直到你选择 stop 停止.（缺点是如果发生错误，它也会返回成功，而不是报错）:
 
-`brew searvices {{start|stop|restart}} {{软件名}}`
+`brew services {{start|stop|restart}} {{软件名}}`
