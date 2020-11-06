@@ -1,0 +1,22 @@
+# gdalbuildvrt
+
+> Build Virtual Datasets from a list of existing datasets
+>
+> More information: <https://gdal.org/programs/gdalbuildvrt.html>
+>
+
+- Make a virtual mosaic from all TIFF files contained in a directory :
+
+`gdalbuildvrt {{ output.vrt }} {{ input_folder/*.tif` }}
+
+- Make a virtual mosaic from files whose name is specified in a text file :
+
+`gdalbuildvrt -input_file_list {{ my_list.txt }} {{ output.vrt }}`
+
+- Make a RGB virtual mosaic from 3 single-band input files :
+
+`gdalbuildvrt -separate {{ rgb.vrt }}  {{ red.tif green.tif blue.tif }}`
+
+- Make a virtual mosaic with blue background colour (RGB: 0 0 255) :
+
+`gdalbuildvrt -hidenodata -vrtnodata "0 0 255" {{ output.vrt }} {{ input_folder/*.tif }}`
