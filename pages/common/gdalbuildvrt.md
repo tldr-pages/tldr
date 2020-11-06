@@ -2,7 +2,7 @@
 
 > Build Virtual Datasets from a list of existing datasets
 
-> More information: <https://gdal.org/programs/gdalbuildvrt.html>
+> More information: https://gdal.org/programs/gdalbuildvrt.html
 
 
 - Make a virtual mosaic from all TIFF files contained in a directory:
