@@ -5,4 +5,4 @@
 
 - Trigger pipeline to run from git tagged version:
 
-`vela add deployment --org {{git org}} --repo {{repo name}} --target {{dev/stage/prod/other}} --ref refs/tags/{{git tag}} --description "{{Deploy description}}"`
+`vela add deployment --org {{organization}} --repo {{repository_name}} --target {{dev/stage/prod/other}} --ref refs/tags/{{git_tag}} --description "{{deploy_description}}"`
