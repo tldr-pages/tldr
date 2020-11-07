@@ -1,6 +1,6 @@
 # gdalbuildvrt
 
-> Build Virtual Datasets from a list of existing datasets
+> Build Virtual Datasets from a list of existing datasets.
 
 > More information: <https://gdal.org/programs/gdalbuildvrt.html>.
 
