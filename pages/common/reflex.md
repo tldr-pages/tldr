@@ -9,11 +9,11 @@
 
 - Compile and run Go application if any .go file changes:
 
-`reflex -r '{{\.go$}}' {{go run .}}`
+`reflex --regex='{{\.go$}}' {{go run .}}`
 
 - Ignore a directory when watching for changes:
 
-`reflex -R '{{^dir/}}' {{command}}`
+`reflex --inverse-regex='{{^dir/}}' {{command}}`
 
 - Run command when reflex starts and restarts on file changes:
 
