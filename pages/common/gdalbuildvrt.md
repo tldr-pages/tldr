@@ -17,4 +17,4 @@
 
 - Make a virtual mosaic with blue background colour (RGB: 0 0 255):
 
-`gdalbuildvrt -hidenodata -vrtnodata "0 0 255" {{ output.vrt }} {{ input_folder/*.tif }}`
+`gdalbuildvrt -hidenodata -vrtnodata "{{0 0 255}}" {{path/to/output.vrt}} {{path/to/input_directory/*.tif}}`
