@@ -9,7 +9,7 @@
 
 - Make a virtual mosaic from files whose name is specified in a text file:
 
-`gdalbuildvrt -input_file_list {{ my_list.txt }} {{ output.vrt }}`
+`gdalbuildvrt -input_file_list {{path/to/list.txt}} {{path/to/output.vrt}}`
 
 - Make a RGB virtual mosaic from 3 single-band input files:
 
