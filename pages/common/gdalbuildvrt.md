@@ -5,7 +5,7 @@
 
 - Make a virtual mosaic from all TIFF files contained in a directory:
 
-`gdalbuildvrt {{ output.vrt }} {{ input_folder/*.tif }}`
+`gdalbuildvrt {{path/to/output.vrt}} {{path/to/input_directory/*.tif}}`
 
 - Make a virtual mosaic from files whose name is specified in a text file:
 
