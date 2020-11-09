@@ -5,7 +5,3 @@
 - Replace `from` with `to` in the filenames of the specified files:
 
 `rename 's/{{from}}/{{to}}/' {{*.txt}}`
-
-- Replace all filename spaces with underscores for all files in the current directory:
-
-`rename 's/ /_/g' *`
