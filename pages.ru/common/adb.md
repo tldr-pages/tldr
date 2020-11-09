@@ -1,6 +1,6 @@
-﻿# adb
+# adb
 
-> Android Debug Bridge: управление с запущенным эмулятором Android или подключенным устройством Android.
+> Android Debug Bridge: управление запущенным эмулятором Android или подключенным устройством Android.
 > Больше информации: <https://developer.android.com/studio/command-line/adb>.
 
 - Проверить, запущен ли процесс сервера adb и запустить его:

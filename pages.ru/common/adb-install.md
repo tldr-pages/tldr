@@ -1,4 +1,4 @@
-﻿# adb install
+# adb install
 
 > Android Debug Bridge Install: Установка пакетов на эмулятор Android или подключенное устройство Android.
 > Больше информации: <https://developer.android.com/studio/command-line/adb>.

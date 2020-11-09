@@ -5,11 +5,11 @@
 
 - Add a new task to a board:
 
-`tb --task {{task description}} @{{board_name}}`
+`tb --task {{task_description}} @{{board_name}}`
 
 - Add a new note to a board:
 
-`tb --note {{note description}} @{{board_name}}`
+`tb --note {{note_description}} @{{board_name}}`
 
 - Edit item's priority:
 

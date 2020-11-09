@@ -15,6 +15,10 @@
 
 `redis-cli -h {{host}} -p {{port}}`
 
+- Connect to a remote server specifying an URI:
+
+`redis-cli -u {{uri}}`
+
 - Specify a password:
 
 `redis-cli -a {{password}}`

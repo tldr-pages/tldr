@@ -1,4 +1,4 @@
-﻿# adb shell
+# adb shell
 
 > Android Debug Bridge Shell: Запуск удалённой командной оболочки на эмуляторе Android или подключенном устройстве Android.
 > Больше информации: <https://developer.android.com/studio/command-line/adb>.
@@ -19,9 +19,9 @@
 
 `adb shell pm revoke {{пакет}} {{разрешения}}`
 
-- Запустить ключевое событие:
+- Вызвать событие клавиши:
 
-`adb shell input keyevent {{keycode}}`
+`adb shell input keyevent {{код_клавиши}}`
 
 - Очистить данные приложения на эмуляторе или устройстве:
 
