@@ -6,3 +6,11 @@
 - Trigger pipeline to run from git tagged version:
 
 `vela add deployment --org {{organization}} --repo {{repository_name}} --target {{environment}} --ref {{branch, commit, or refs/tags/git_tag}} --description "{{deploy_description}}"`
+
+- Get list of deployments for a repo:
+
+`vela get deployment --org {{organization}} --repo {{repository_name}}`
+
+- Inspect a specific deployment:
+
+`vela view deployment --org {{organization}} --repo {{repository_name}} --deployment {{deployment_number}}`
