@@ -4,7 +4,7 @@
 
 - Replace from.txt -> to.txt:
 
-`rename 's/from/to/' *.txt`
+`rename 's/{{from}}/{{to}}/' {{*.txt}}`
 
 - Replace all filename spaces with underscores for all files in the current directory:
 
