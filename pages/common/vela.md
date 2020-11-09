@@ -1,7 +1,7 @@
 # vela
 
 > Command line tools for Vela pipeline.
-> More information: <https://go-vela.github.io/docs/>.
+> More information: <https://go-vela.github.io/docs/cli/>.
 
 - Trigger pipeline to run from git tagged version:
 
