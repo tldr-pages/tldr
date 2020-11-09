@@ -3,7 +3,7 @@
 > Tetris like game in 3D.
 > More information: <https://www.blockout.net/blockout2/>.
 
-- Start a tetris game:
+- Start a new game:
 
 `blockout2`
 
