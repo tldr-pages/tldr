@@ -21,5 +21,4 @@
 
 - Créer un nom pour le dernier commit d'une branche donnée :
 
-
 `git describe {{nom_de_branche}}`
