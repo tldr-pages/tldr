@@ -1,12 +1,12 @@
 # kjv
 
 > The word of God available right on your desktop.
-> More information: <https://github.com/bontibon/kjv>
+> More information: <https://github.com/bontibon/kjv>.
 
-- Show all books 
+- Show all books:
 
 `kjv -l`
-
+ 
 - Open an individual book:
 
 `kjv Genesis`
@@ -27,13 +27,10 @@
  
 `kjv Matthew 1:7-2-6`
 
-- Search all verses that match a pattern 
+- Search all verses that match a pattern:
 
 `kjv Exodus/Plagues`
 
-- Search all verses in a book that match a pattern 
+- Search all verses in a book that match a pattern:
 
 `kjv 1Jn/antichrist`
-
-
-
