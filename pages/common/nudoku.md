@@ -7,7 +7,7 @@
 
 `nudoku`
 
-- Choose difficulty of the game:
+- Choose the difficulty of the game:
 
 `nudoku -d {{easy|normal|hard}}`
 
