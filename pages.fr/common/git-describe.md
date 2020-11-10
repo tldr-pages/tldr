@@ -15,7 +15,7 @@
 
 `git describe --all`
 
-- Décrire un tag git:
+- Décrire un tag git :
 
 `git describe {{v1.0.0}}`
 

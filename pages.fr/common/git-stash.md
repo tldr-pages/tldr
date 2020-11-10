@@ -31,6 +31,6 @@
 
 `git stash drop {{nom_de_stash_optionel}}`
 
-- Suprime tout les stash:
+- Suprime tout les stash :
 
 `git stash clear`
