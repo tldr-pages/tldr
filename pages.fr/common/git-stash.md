@@ -1,36 +1,36 @@
 # git stash
 
-> Mettre les changements locaux de Git dans un endroit temporaire (Le stash).
+> Stocker les modifications Git locales dans une zone temporaire.
 > Plus d'informations: <https://git-scm.com/docs/git-stash>.
 
-- Mettre les changements courants (sauf ceux provenant de fichiers qui ne sont pas suivi) dans un *stash*:
+- Stocker les changements courrants, sauf les fichiers non suivis :
 
-`git stash [push -m {{message_optionnel_pour_le_stash}}]`
+`git stash [push -m {{nom_de_stash_optionel}}]`
 
-- Mettre les changements courants (incluant les fichiers qui ne sont pas suivi) dans un *stash*:
+- Stocker les changements courrants, incluant le sfichiers non suivis :
 
 `git stash -u`
 
-- Selectionner interactivement les parties des fichiers changer à mettre dans un *stash*:
+- Stocker les parties d'un fichier interactivement :
 
 `git stash -p`
 
-- Lister tout les *stash* (Montre le nom du *stash*, la branche reliée et le message):
+- Lister tout les stash (saffiche leurs noms, les branches relatives et messages) :
 
 `git stash list`
 
-- Appliquer un *stash* à la tête git (le dernier stash est celui choisi par défaut, aussi appellé `stash@{0}`):
+- Applique un stash (par défaut, le dernier, nommé stash@{0}) :
 
-`git stash apply {{nom_du_stash_ciblé_optionnellement}}`
+`git stash apply {{nom_de_stash_ou_de_commit_optionel}}`
 
-- Appliquer un *stash* (le dernier *stash* est celui choisi par défaut), et l'enlever de la liste s'il n'y a pas de conflits:
+- Applique un stash (par défaut le dernier, stash@{0}), et le suprimmer de la liste des stash si il n'y a pas de conflits :
 
-`git stash pop {{message_optionnel_pour_le_stash}}`
+`git stash pop {{nom_de_stash_optionel}}`
 
-- Détruire un *stash* (le dernier *stash* est celui choisi par défaut):
+- Suprime un stash (par défaut le dernier, stash@{0}) :
 
-`git stash drop {{message_optionnel_pour_le_stash}}`
+`git stash drop {{nom_de_stash_optionel}}`
 
-- Détruire tout les *stash*:
+- Suprime tout les stash :
 
 `git stash clear`

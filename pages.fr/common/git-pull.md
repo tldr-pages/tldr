@@ -13,4 +13,4 @@
 
 - Télécharge les changements depuis un serveur et une branche distante, puis fusionne les dans HEAD :
 
-`git pull {{remote_name}} {{branch}}`
+`git pull {{nom_distant}} {{branche}}`

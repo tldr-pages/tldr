@@ -9,7 +9,7 @@
 
 - Commit tous les fichiers modifiés avec un message :
 
-`git commit -a -m {{message}}`
+`git commit -am {{message}}`
 
 - Mets à jour le dernier commit avec les modifications en stage :
 
@@ -17,4 +17,4 @@
 
 - Commit seulement les fichiers spécifiés (qui sont déjà en stage) :
 
-`git commit {{path/to/my/file1}} {{path/to/my/file2}}`
+`git commit {{chemin/vers/mon/fichier1}} {{chemin/vers/mon/fichier2}}`
