@@ -9,12 +9,12 @@
 
 - Save an image to a tar archive:
 
-`docker save --output {{/path/to/file.tar}} {{image}}`
+`docker save --output {{path/to/file.tar}} {{image}}`
 
 - Save all tags of the image:
 
-`docker save --output {{/path/to/file.tar}} {{image_name}}`
+`docker save --output {{path/to/file.tar}} {{image_name}}`
 
 - Cherry-pick particular tags of an image to save:
 
-`docker save --output {{/path/to/file.tar}} {{image_name:tag1 image_name:tag2 ...}}`
+`docker save --output {{path/to/file.tar}} {{image_name:tag1 image_name:tag2 ...}}`
