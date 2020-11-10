@@ -5,11 +5,11 @@
 
 - Save the image by redirecting output to archive:
 
-`docker save {{image}} > {{path/to/file.tar}}`
+`docker save {{image}}:{{tag}} > {{path/to/file.tar}}`
 
 - Save an image to a tar archive:
 
-`docker save --output {{path/to/file.tar}} {{image}}`
+`docker save --output {{path/to/file.tar}} {{image}}:{{tag}}`
 
 - Save all tags of the image:
 
