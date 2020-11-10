@@ -3,7 +3,7 @@
 > Command line tools for Vela pipeline.
 > More information: <https://go-vela.github.io/docs/cli/>.
 
-- Trigger pipeline to run from git tagged version:
+- Trigger a pipeline to run from a git branch, commit or tag:
 
 `vela add deployment --org {{organization}} --repo {{repository_name}} --target {{environment}} --ref {{branch|commit|refs/tags/git_tag}} --description "{{deploy_description}}"`
 
