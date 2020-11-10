@@ -6,7 +6,7 @@
 - Show all books:
 
 `kjv -l`
- 
+
 - Open an individual book:
 
 `kjv Genesis`
@@ -24,7 +24,7 @@
 `kjv Proverbs 3:1-6`
 
 - Get a range of chapters and/or verses in a book:
- 
+
 `kjv Matthew 1:7-2-6`
 
 - Search all verses that match a pattern:
