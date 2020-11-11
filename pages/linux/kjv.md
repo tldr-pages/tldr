@@ -31,6 +31,6 @@
 
 `kjv /{{Plagues}}`
 
-- Search all verses in a book that match a pattern:
+- Display all verses that match a pattern in a specific book:
 
 `kjv {{1Jn}}/{{antichrist}}`
