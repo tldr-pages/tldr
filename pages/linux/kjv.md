@@ -25,7 +25,7 @@
 
 - Display a specific range of verses of a book from different chapters:
 
-`kjv Matthew 1:7-2-6`
+`kjv {{Matthew}} {{1}}:{{7}}-{{2}}:{{6}}`
 
 - Display all verses that match a pattern:
 
