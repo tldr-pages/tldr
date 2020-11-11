@@ -1,6 +1,6 @@
 # vela
 
-> Command line tools for Vela pipeline.
+> Command line tools for the Vela pipeline.
 > More information: <https://go-vela.github.io/docs/cli/>.
 
 - Trigger a pipeline to run from a git branch, commit or tag:
