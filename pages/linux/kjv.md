@@ -33,4 +33,4 @@
 
 - Search all verses in a book that match a pattern:
 
-`kjv 1Jn/antichrist`
+`kjv {{1Jn}}/{{antichrist}}`
