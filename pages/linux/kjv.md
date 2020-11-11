@@ -17,7 +17,7 @@
 
 - Open individual verse(s) of a specific chapter of a book:
 
-`kjv John 3:16`
+`kjv {{John}} {{3}}:{{16}}`
 
 - Open a range of verses in a book chapter:
 
