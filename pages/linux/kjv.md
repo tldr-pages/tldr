@@ -13,7 +13,7 @@
 
 - Open a specific chapter of a book:
 
-`kjv Genesis 2`
+`kjv {{Genesis}} {{2}}`
 
 - Open individual verse(s) of a specific chapter of a book:
 
