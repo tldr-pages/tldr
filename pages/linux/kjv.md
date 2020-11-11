@@ -15,7 +15,7 @@
 
 `kjv {{Genesis}} {{2}}`
 
-- Open individual verse(s) of a specific chapter of a book:
+- Open a specific verse of a specific chapter of a book:
 
 `kjv {{John}} {{3}}:{{16}}`
 
