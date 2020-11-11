@@ -11,7 +11,7 @@
 
 `kjv {{Genesis}}`
 
-- Open an individual chapter of a book:
+- Open a specific chapter of a book:
 
 `kjv Genesis 2`
 
