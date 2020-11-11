@@ -7,7 +7,7 @@
 
 `kjv -l`
 
-- Open an individual book:
+- Open a specific book:
 
 `kjv {{Genesis}}`
 
