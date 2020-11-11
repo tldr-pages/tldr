@@ -7,7 +7,7 @@
 
 `blockout2`
 
-- Navigate the piece in 2D plane:
+- Navigate the current piece on a 2D plane:
 
 `{{Up|Down|Left|Right}} arrow key`
 
