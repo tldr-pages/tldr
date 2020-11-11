@@ -27,7 +27,7 @@
 
 `kjv Matthew 1:7-2-6`
 
-- Search all verses that match a pattern:
+- Display all verses that match a pattern:
 
 `kjv Exodus/Plagues`
 
