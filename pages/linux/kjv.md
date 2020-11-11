@@ -21,7 +21,7 @@
 
 - Open a specific range of verses of a book's chapter:
 
-`kjv Proverbs 3:1-6`
+`kjv {{Proverbs}} {{3}}:{{1-6}}`
 
 - Display a specific range of verses of a book from different chapters:
 
