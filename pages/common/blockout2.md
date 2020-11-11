@@ -15,7 +15,7 @@
 
 `{{Q|W|E|A|S|D}}`
 
-- Hard drop the piece:
+- Hard drop the current piece:
 
 `Spacebar`
 
