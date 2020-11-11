@@ -23,7 +23,7 @@
 
 `kjv Proverbs 3:1-6`
 
-- Get a range of chapters and/or verses in a book:
+- Display a specific range of verses of a book from different chapters:
 
 `kjv Matthew 1:7-2-6`
 
