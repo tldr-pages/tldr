@@ -19,7 +19,7 @@
 
 `kjv {{John}} {{3}}:{{16}}`
 
-- Open a range of verses in a book chapter:
+- Open a specific range of verses of a book's chapter:
 
 `kjv Proverbs 3:1-6`
 
