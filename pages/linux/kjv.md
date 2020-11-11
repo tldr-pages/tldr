@@ -9,7 +9,7 @@
 
 - Open an individual book:
 
-`kjv Genesis`
+`kjv {{Genesis}}`
 
 - Open an individual chapter of a book:
 
