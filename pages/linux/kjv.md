@@ -3,7 +3,7 @@
 > The word of God available right on your desktop.
 > More information: <https://github.com/bontibon/kjv>.
 
-- Show all books:
+- Display books:
 
 `kjv -l`
 
