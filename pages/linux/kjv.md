@@ -29,7 +29,7 @@
 
 - Display all verses that match a pattern:
 
-`kjv Exodus/Plagues`
+`kjv /{{Plagues}}`
 
 - Search all verses in a book that match a pattern:
 
