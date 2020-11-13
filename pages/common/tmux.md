@@ -9,7 +9,7 @@
 
 - Start a new named session:
 
-`tmux new-session -s {{name}}`
+`tmux new -s {{name}}`
 
 - List existing sessions:
 
@@ -17,11 +17,11 @@
 
 - Attach to the most recently used session:
 
-`tmux attach-session`
+`tmux attach`
 
 - Attach to a named session:
 
-`tmux attach-session -t {{name}}`
+`tmux attach -t {{name}}`
 
 - Detach from the current session (with prefix Ctrl-B):
 
