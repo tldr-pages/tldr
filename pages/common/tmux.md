@@ -19,18 +19,18 @@
 
 `tmux attach`
 
-- Attach to a named session:
-
-`tmux attach -t {{name}}`
-
 - Detach from the current session (with prefix Ctrl-B):
 
 `Ctrl-B d`
 
+- Create a new window (with prefix Ctrl-B):
+
+`Ctrl-B c`
+
+- Switch between sessions and windows (with prefix Ctrl-B):
+
+`Ctrl-B w`
+
 - Kill a session by name:
 
 `tmux kill-session -t {{name}}`
-
-- Kill the current session (with prefix Ctrl-B):
-
-`Ctrl-B :kill-session<Enter>`
