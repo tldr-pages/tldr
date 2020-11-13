@@ -19,15 +19,15 @@
 
 `tmux attach`
 
-- Detach from the current session (with prefix Ctrl-B):
+- Detach from the current session (inside a tmux session):
 
 `Ctrl-B d`
 
-- Create a new window (with prefix Ctrl-B):
+- Create a new window (inside a tmux session):
 
 `Ctrl-B c`
 
-- Switch between sessions and windows (with prefix Ctrl-B):
+- Switch between sessions and windows (inside a tmux session):
 
 `Ctrl-B w`
 
