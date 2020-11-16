@@ -11,19 +11,19 @@
 
 `R --version`
 
-- Start R in vanilla mode (i.e. blank session that doesn't save workspace at the end):
+- Start R in vanilla mode (i.e. a blank session that doesn't save the workspace at the end):
 
 `R --vanilla`
 
 - Execute a file:
 
-`R -f {{file.R}}`
+`R -f {{path/to/file.R}}`
 
-- Execute R expression and exit:
+- Execute an R expression and then exit:
 
 `R -e {{expr}}`
 
-- Run R through a debugger:
+- Run R with a debugger:
 
 `R -d {{debugger}}`
 
