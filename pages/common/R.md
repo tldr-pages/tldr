@@ -26,3 +26,7 @@
 - Run R through a debugger:
 
 `R -d {{debugger}}`
+
+- Check R packages from package sources:
+
+`R CMD check {{package_source}}`
