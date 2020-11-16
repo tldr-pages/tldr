@@ -23,6 +23,10 @@
 
 `python -m {{module}} {{arguments}}`
 
+- Install a package:
+
+`python -m pip install {{package_name}}`
+
 - Interactively debug a Python script:
 
 `python -m pdb {{script.py}}`
