@@ -1,7 +1,7 @@
 # mixxx
 
-> Free and open source cross-platform DJ software
-> Command-line arguments are documented at <https://mixxx.org/manual/latest/chapters/appendix.html#command-line-options>
+> Free and open source cross-platform DJ software <https://www.mixxx.org>.
+> Command-line arguments are documented at <https://mixxx.org/manual/latest/chapters/appendix.html#command-line-options>.
 
 - Start the Mixxx GUI in full-screen:
 
@@ -23,6 +23,6 @@
 
 `mixxx --controllerDebug --resourcePath {{custom/mapping/directory}}`
 
-- Show command-line options help:
+- Show command-line help:
 
 `mixxx -h`
