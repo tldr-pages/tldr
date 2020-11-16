@@ -29,4 +29,4 @@
 
 - Check R packages from package sources:
 
-`R CMD check {{package_source}}`
+`R CMD check {{path/to/package_source}}`
