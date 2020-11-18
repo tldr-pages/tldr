@@ -11,7 +11,7 @@
 
 `sudo crontab -e -u {{user}}`
 
-- Edit the crontab file by using the contents of a file:
+- Replace the current crontab with the contents of the given file:
 
 `crontab {{path/to/file}}`
 
