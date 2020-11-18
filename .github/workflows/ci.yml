@@ -19,6 +19,9 @@ jobs:
       if: github.event.number != null
       run: echo "PULL_REQUEST_ID=${{ github.event.number }}" >> $GITHUB_ENV
 
+    - name: Print PR ID
+      run: echo $PULL_REQUEST_ID
+
     - name: Install npm dependencies
       run: npm ci
 
