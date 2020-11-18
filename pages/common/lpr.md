@@ -31,3 +31,11 @@
 - Print multiple pages per sheet:
 
 `lpr -o number-up={{2|4|6|9|16}} {{path/to/file}}`
+
+- Print only page 2:
+
+`lpr -o page-ranges={{2}} {{path/to/file}}`
+
+- Print from page 2 to 16:
+
+`lpr -o page-ranges={{2-16}} {{path/to/file}}`
