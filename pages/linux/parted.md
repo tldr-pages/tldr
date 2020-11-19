@@ -20,7 +20,7 @@
 
 - Select a disk in interactive mode:
 
-`select /dev/sdX`
+`select {{/dev/sdX}}`
 
 - Create a 16GB primary partition with ext4 file type in interactive mode:
 
@@ -28,8 +28,8 @@
 
 - Resize partition size:
 
-`resizepart {{partition}} {{end_position_of_partition}}`
+`resizepart {{/dev/sdXN}} {{end_position_of_partition}}`
 
 - Remove partition:
 
-`rm {{partition}}`
+`rm {{/dev/sdXN}}`
