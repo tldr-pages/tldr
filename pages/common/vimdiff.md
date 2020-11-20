@@ -1,6 +1,7 @@
 # vimdiff
 
 > Open up two or more files in vim and show the differences between them.
+> See also `vim`.
 > More information: https://www.vim.org.
 
 - Open two files and show the differences:
@@ -11,26 +12,26 @@
 
 `Ctrl + w {{h|l}}`
 
-- Jump to next difference:
+- Jump to the next difference:
 
 `[c`
 
-- Jump to previous difference:
+- Jump to the previous difference:
 
 `]c`
 
-- Obtain difference from other window to current window:
+- Copy the highlighted difference from the other window to the current window:
 
 `do`
 
-- Put difference from current window to other window:
+- Copy the highlighted difference from the current window to the other window:
 
 `dp`
 
-- Update the diff highlighting and folds:
+- Update all highlights and folds:
 
 `:diffupdate`
 
-- Toggle code fold:
+- Toggle the highlighted code fold:
 
 `za`
