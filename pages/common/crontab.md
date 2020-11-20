@@ -11,6 +11,10 @@
 
 `sudo crontab -e -u {{user}}`
 
+- Replace the current crontab with the contents of the given file:
+
+`crontab {{path/to/file}}`
+
 - View a list of existing cron jobs for current user:
 
 `crontab -l`
