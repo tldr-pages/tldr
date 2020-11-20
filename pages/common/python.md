@@ -23,7 +23,7 @@
 
 `python -m {{module}} {{arguments}}`
 
-- Install a package:
+- Install a package using pip:
 
 `python -m pip install {{package_name}}`
 
