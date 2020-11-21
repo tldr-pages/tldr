@@ -3,7 +3,7 @@
 > TigerVNC Server for X displays.
 > More information: <https://tigervnc.org/doc/x0vncserver.html>.
 
-- Start a VNC server with a passwordfile:
+- Start a VNC server using a passwordfile:
 
 `x0vncserver -display {{:0}} -passwordfile {{path/to/file}}`
 
