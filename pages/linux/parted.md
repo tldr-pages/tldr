@@ -13,7 +13,7 @@
 
 - Create a new partition table of label-type directly, label-type can be gpt, msdos etc:
 
-`parted --script {{/dev/sdX}} {{mklabel gpt}}`
+`parted --script {{/dev/sdX}} mklabel {{gpt}}`
 
 - Show disk partition information in interactive mode:
 
