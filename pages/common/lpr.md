@@ -16,6 +16,10 @@
 
 `lpr -P {{printer}} {{path/to/file}}`
 
+- Print either a single page (e.g. 2) or a range of pages (e.g. 2–16):
+
+`lpr -o page-ranges={{2|2-16}} {{path/to/file}}`
+
 - Print double sided either in portrait (long) or in landscape (short):
 
 `lpr -o sides={{two_sided_long_edge|two_sided_short_edge}} {{path/to/file}}`
@@ -27,7 +31,3 @@
 - Print multiple pages per sheet:
 
 `lpr -o number-up={{2|4|6|9|16}} {{path/to/file}}`
-
-- Print either a single page (e.g. 2) or a range of pages (e.g. 2–16):
-
-`lpr -o page-ranges={{2|2-16}} {{path/to/file}}`
