@@ -3,15 +3,15 @@
 > Convert images to ASCII.
 > More information: <https://github.com/nodanaonlyzuul/asciiart>.
 
-- Read image from a file and print in ASCII:
+- Read an image from a file and print in ASCII:
 
 `asciiart {{path/to/image.jpg}}`
 
-- Read image from a URL and print in ASCII:
+- Read an image from a URL and print in ASCII:
 
 `asciiart {{www.example.com/image.jpg}}`
 
-- Choose output width (default is 100):
+- Choose the output width (default is 100):
 
 `asciiart -width {{50}} {{path/to/image.jpg}}`
 
@@ -19,9 +19,9 @@
 
 `asciiart --color {{path/to/image.jpg}}`
 
-- Choose output format (default format is text):
+- Choose the output format (default format is text):
 
-`asciiart --format {{text|html} {{path/to/image.jpg}}`
+`asciiart --format {{text|html}} {{path/to/image.jpg}}`
 
 - Invert the character map:
 
