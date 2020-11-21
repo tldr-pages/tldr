@@ -9,7 +9,7 @@
 
 - Create an Ubuntu 20.04 system inside {{focal-root}} directory with local mirror:
 
-`sudo debootstrap focal {{path/to/focal-root/}} {{file:///path/to/mirror/}}
+`sudo debootstrap focal {{path/to/focal-root/}} {{file:///path/to/mirror/}}`
 
 - Switch to a bootstrapped system:
 
