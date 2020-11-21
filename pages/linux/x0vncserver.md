@@ -3,10 +3,10 @@
 > TigerVNC Server for X displays.
 > More information: <https://tigervnc.org/doc/x0vncserver.html>.
 
-- Specify a passwordfile:
+- Start a VNC server with a passwordfile:
 
 `x0vncserver -display {{:0}} -passwordfile {{path/to/file}}`
 
-- Change the default port:
+- Start a VNC server using a specific port:
 
 `x0vncserver -display {{:0}} -rfbport {{port}}`
