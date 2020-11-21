@@ -16,13 +16,9 @@
 
 `lpr -P {{printer}} {{path/to/file}}`
 
-- Print double sided in portrait:
+- Print double sided either in portrait (long) or in landscape (short):
 
-`lpr -o sides={{two_sided_long_edge}} {{path/to/file}}`
-
-- Print double sided in landscape:
-
-`lpr -o sides={{two_sided_long_edge}} {{path/to/file}}`
+`lpr -o sides={{two_sided_long_edge|two_sided_short_edge}} {{path/to/file}}`
 
 - Set page size (more options may be available depending on setup):
 
