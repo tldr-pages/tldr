@@ -32,10 +32,6 @@
 
 `lpr -o number-up={{2|4|6|9|16}} {{path/to/file}}`
 
-- Print only page 2:
+Print either a single page (e.g. 2) or a range of pages (e.g. 2–16):
 
-`lpr -o page-ranges={{2}} {{path/to/file}}`
-
-- Print from page 2 to 16:
-
-`lpr -o page-ranges={{2-16}} {{path/to/file}}`
+`lpr -o page-ranges={{2|2-16}} {{path/to/file}}`
