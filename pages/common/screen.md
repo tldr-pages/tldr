@@ -33,11 +33,3 @@
 - Kill a detached screen:
 
 `screen -X -S {{session_name}} quit`
-
-- Attach screen that might still be attached elsewhere (detach remote):
-
-`screen -dr <name>`
-
-- Attach screen that is attached elsewhere (don't detach remote, will use resolution of remote's window):
-
-`screen -x <name>`
