@@ -7,6 +7,10 @@
 
 `veracrypt --password={{password}} {{path/to/volume}} {{path/to/mount_point}}`
 
+- Decrypt a partition using a keyfile and mount it to a directory: 
+
+`veracrypt --keyfiles={{path/to/keyfile}} {{/dev/sdXN}} {{path/to/mount_point}}`
+
 - Dismount a volume on the directory it is mounted to:
 
 `veracrypt --dismount {{path/to/mounted_point}}`
