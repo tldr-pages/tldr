@@ -3,6 +3,10 @@
 > Free and open source disk encryption software.
 > More information: <https://www.veracrypt.fr/code/VeraCrypt/plain/doc/html/Documentation.html>.
 
+- Create a new volume through a text user interface and use `/dev/urandom` as a source of random data:
+
+`veracrypt --text --create --random-source{{/dev/urandom}}`
+
 - Decrypt a volume using a password and mount it to a directory:
 
 `veracrypt --password={{password}} {{path/to/volume}} {{path/to/mount_point}}`
