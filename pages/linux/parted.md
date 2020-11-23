@@ -5,15 +5,15 @@
 
 - List partitions on all block devices:
 
-`parted --list`
+`sudo parted --list`
 
 - Start to manipulate disk partition:
 
-`parted {{/dev/sdX}}`
+`sudo parted {{/dev/sdX}}`
 
 - Create a new partition table of label-type directly, label-type can be gpt, msdos etc:
 
-`parted --script {{/dev/sdX}} mklabel {{gpt}}`
+`sudo parted --script {{/dev/sdX}} mklabel {{gpt}}`
 
 - Show disk partition information in interactive mode:
 
