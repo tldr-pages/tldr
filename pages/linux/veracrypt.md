@@ -7,9 +7,9 @@
 
 `veracrypt --text --create --random-source{{/dev/urandom}}`
 
-- Decrypt a volume using a password and mount it to a directory:
+- Decrypt a volume interactively through a text user interface and mount it to a directory:
 
-`veracrypt --password={{password}} {{path/to/volume}} {{path/to/mount_point}}`
+`veracrypt --text {{path/to/volume}} {{path/to/mount_point}}`
 
 - Decrypt a partition using a keyfile and mount it to a directory: 
 
