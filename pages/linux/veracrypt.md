@@ -5,7 +5,7 @@
 
 - Create a new volume through a text user interface and use `/dev/urandom` as a source of random data:
 
-`veracrypt --text --create --random-source{{/dev/urandom}}`
+`veracrypt --text --create --random-source={{/dev/urandom}}`
 
 - Decrypt a volume interactively through a text user interface and mount it to a directory:
 
