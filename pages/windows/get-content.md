@@ -3,14 +3,14 @@
 > Get the content of the item at the specified location.
 > More information: <https://docs.microsoft.com/powershell/module/microsoft.powershell.management/get-content>.
 
-- Get the content of a file:
+- Display the content of a file:
 
-`Get-Content -Path {{file_name}}`
+`Get-Content -Path {{path/to/file}}`
 
-- Limit the number of lines returned by Get-Content:
+- Display the first few lines of a file:
 
-`Get-Content -Path {{file_name}} -TotalCount {{number_of_lines}}`
+`Get-Content -Path {{path/to/file}} -TotalCount {{count}}`
 
-- Get the content of the file and keeps it open to print each new line:
+- Display the content of the file and keep reading from it until `Ctrl + C` is pressed:
 
-`Get-Content -Path {{file_name}} -Wait`
+`Get-Content -Path {{path/to/file}} -Wait`
