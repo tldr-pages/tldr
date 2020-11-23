@@ -11,7 +11,7 @@
 
 `veracrypt --text {{path/to/volume}} {{path/to/mount_point}}`
 
-- Decrypt a partition using a keyfile and mount it to a directory: 
+- Decrypt a partition using a keyfile and mount it to a directory:
 
 `veracrypt --keyfiles={{path/to/keyfile}} {{/dev/sdXN}} {{path/to/mount_point}}`
 
