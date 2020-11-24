@@ -15,3 +15,7 @@
 
 `pip install -r {{requirements.txt}}`
 
+- Install local package in develop (editable) mode:
+
+`pip install -e .`
+
