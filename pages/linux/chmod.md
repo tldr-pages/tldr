@@ -2,8 +2,7 @@
 
 
 > chmod or change mode allows users to change permissions for a file
-
-> more information: https://linux.die.net/man/1/chmod
+  more information: https://linux.die.net/man/1/chmod
 
 
 - `chmod {{xxx}}`
