@@ -1,6 +1,6 @@
 # flow
 
-> A static type checker for javascript.
+> A static type checker for JavaScript.
 > More information: <https://flow.org>.
 
 - Run flow check:
