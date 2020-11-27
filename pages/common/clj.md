@@ -6,7 +6,7 @@
 
 - Start a REPL:
 
-`clj [clj-opt*] [-A:aliases] [init-opt*]`
+`clj`
 
 - Exec function:
 
