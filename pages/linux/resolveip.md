@@ -7,7 +7,7 @@
 
 `resolveip {{example.org}}`
 
-- Resolve IP address to host name:
+- Resolve an IP address to a hostname:
 
 `resolveip {{1.1.1.1}}`
 
