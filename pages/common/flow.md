@@ -3,7 +3,7 @@
 > A static type checker for JavaScript.
 > More information: <https://flow.org>.
 
-- Run flow check:
+- Run a flow check:
 
 `flow`
 
@@ -11,10 +11,10 @@
 
 `flow ls`
 
-- Run type coverage check on all files in a directory:
+- Run a type coverage check on all files in a directory:
 
 `flow batch-coverage --show-all --strip-root {{path/to/directory}}`
 
-- Display line-by-line stats on type coverage:
+- Display line-by-line type coverage stats:
 
 `flow coverage --color {{path/to/file.jsx}}`
