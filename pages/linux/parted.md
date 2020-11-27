@@ -23,9 +23,9 @@
 
 `select {{/dev/sdX}}`
 
-- Create a 16GB primary partition with ext4 file type in interactive mode:
+- Create a 16GB part-type partition for filesystem type in interactive mode, (part-type should be one of "primary", "logical", or "extended"):
 
-`mkpart {{primary}} {{ext4}} {{1}} {{16G}}`
+`mkpart {{part-type}} {{filesystem-type}} {{0%}} {{16G}}`
 
 - Resize partition size:
 
