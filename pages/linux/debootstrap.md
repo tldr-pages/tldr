@@ -7,7 +7,7 @@
 
 `sudo debootstrap stable {{path/to/debian-root/}} http://deb.debian.org/debian`
 
-- Create an Ubuntu 20.04 system inside `focal-root` directory with local mirror:
+- Create an Ubuntu 20.04 system inside the `focal-root` directory with local mirror:
 
 `sudo debootstrap focal {{path/to/focal-root/}} {{file:///path/to/mirror/}}`
 
