@@ -10,15 +10,15 @@
 
 - Exec function:
 
-`clojure [clj-opt*] -X[:aliases] [a/fn] [kpath v]*`
+`clojure -X {{namespace/fn_name}}`
 
-- Run main:
+- Run -main function of a namespace:
 
-`clojure [clj-opt*] -M[:aliases] [init-opt*] [main-opt] [arg*]`
+`clojure -M -m {{namespace}} {{args}}`
 
-- Prepare:
+- Prepare (resolve deps, download libraries, make and cache classpaths):
 
-`clojure [clj-opt*] -P [other exec opts]`
+`clojure -P`
 
 - Start nREPL server with CIDER middleware:
 
