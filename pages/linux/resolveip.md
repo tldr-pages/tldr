@@ -3,7 +3,7 @@
 > Resolve hostnames to their IP addresses and vice versa.
 > More information: <https://mariadb.com/kb/en/resolveip/>.
 
-- Resolve host name to IP address:
+- Resolve a hostname to an IP address:
 
 `resolveip {{example.org}}`
 
