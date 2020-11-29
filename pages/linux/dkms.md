@@ -1,19 +1,19 @@
 # dkms
 
-> A framework that allows for dynamic building of kernel modules
+> A framework that allows for dynamic building of kernel modules.
 
-- List currently installed modules
+- List currently installed modules:
 
 `dkms status`
 
-- Rebuild all modules for the currently running kernel
+- Rebuild all modules for the currently running kernel:
 
 `dkms autoinstall`
 
-- Install version 1.2.1 of the acpi_call module for the currently running kernel
+- Install version 1.2.1 of the acpi_call module for the currently running kernel:
 
 `dkms install -m acpi_call -v 1.2.1`
 
-- Remove version 1.2.1 of the acpi_call module from all kernels
+- Remove version 1.2.1 of the acpi_call module from all kernels:
 
 `dkms remove -m acpi_call -v 1.2.1 --all`
