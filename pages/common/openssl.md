@@ -34,11 +34,3 @@
 - Display the complete certificate chain of an HTTPS server:
 
 `openssl s_client -connect {{host}}:443 -showcerts </dev/null`
-
-- Generate a 2048bit prime number in hexadecimal format:
-
-`openssl prime -generate -bits 2048 -hex`
-
-- Check if given number is prime:
-
-`openssl prime {{number}}`
