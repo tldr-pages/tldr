@@ -1,7 +1,7 @@
 # xdg-mime
 
 > Query and manage MIME types according to the XDG standard.
-> More information: <https://portland.freedesktop.org/doc/xdg-mime.html>
+> More information: <https://portland.freedesktop.org/doc/xdg-mime.html>.
 
 - Find the mime-type of a file:
 
