@@ -3,7 +3,7 @@
 > Query and manage MIME types according to the XDG standard.
 > More information: <https://portland.freedesktop.org/doc/xdg-mime.html>.
 
-- Find the mime-type of a file:
+- Find the MIME type of a file:
 
 `xdg-mime query filetype {{path/to/file}}`
 
