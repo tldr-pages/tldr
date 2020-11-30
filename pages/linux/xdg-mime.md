@@ -11,6 +11,10 @@
 
 `xdg-mime query default {{image/png}}`
 
+- Find the current default application for opening a file:
+
+`xdg-mime query default $(xdg-mime query filetype {{path/to/file}})`
+
 - Set imv as the default application for opening PNG and JPEG images:
 
 `xdg-mime default {{imv.desktop}} {{image/png}} {{image/jpeg}}`
