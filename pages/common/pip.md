@@ -3,7 +3,7 @@
 > Python package manager.
 > More information: <https://pip.pypa.io>.
 
-- Install a package (see `tldr pip install` for more install commands):
+- Install a package (see `tldr pip install` for more install examples):
 
 `pip install {{package_name}}`
 
