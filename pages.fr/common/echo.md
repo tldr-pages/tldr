@@ -1,6 +1,6 @@
 # echo
 
-> Affiche les paramètres donnés.
+> Affiche les paramètres donnés dans la console.
 
 - Affiche un message (les guillemets sont facultatifs) :
 
@@ -10,7 +10,7 @@
 
 `echo "{{Ma variable PATH est $PATH}}"`
 
-- Affiche un message sans une nouvelle ligne à la fin :
+- Affiche un message sans retour à la ligne :
 
 `echo -n "{{Hello World}}"`
 
