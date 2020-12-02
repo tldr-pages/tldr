@@ -15,6 +15,6 @@
 
 `pip install -r {{requirements.txt}}`
 
-- Install local package in develop (editable) mode:
+- Install the local package in the current directory in develop (editable) mode:
 
 `pip install -e .`
