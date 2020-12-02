@@ -11,7 +11,7 @@
 
 `pip install {{package_name}}=={{package_version}}`
 
-- Install packages from file:
+- Install packages listed in a file:
 
 `pip install -r {{requirements.txt}}`
 
