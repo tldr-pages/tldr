@@ -19,11 +19,11 @@
 
 `apt-get purge {{paquete}}`
 
-- Actualizar todos los paquetes instalados a sus nuevas versiones disponibles:
+- Actualiza todos los paquetes instalados a sus nuevas versiones disponibles:
 
 `apt-get upgrade`
 
-- Eliminar todos los paquetes innecesarios:
+- Elimina todos los paquetes innecesarios:
 
 `apt-get autoremove`
 
