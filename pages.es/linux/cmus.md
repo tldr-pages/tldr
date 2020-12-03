@@ -11,7 +11,7 @@
 
 `:add {{ruta/al/archivo_o_directorio}}`
 
-- Pausa/reproduci la canción actual:
+- Pausa/reproduce la canción actual:
 
 `c`
 

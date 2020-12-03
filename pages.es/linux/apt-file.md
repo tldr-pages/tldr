@@ -1,6 +1,6 @@
 # apt-file
 
-> Busca archivos en paquetes apt, inluidos los que aún no fueron instalados.
+> Busca archivos en paquetes apt, incluyendo los que aún no fueron instalados.
 
 - Actualiza los metadatos de la base de datos:
 

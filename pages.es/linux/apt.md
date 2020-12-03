@@ -11,7 +11,7 @@
 
 `apt search {{paquete}}`
 
-- Muestra información para un paquete:
+- Muestra la información de un paquete:
 
 `apt show {{paquete}}`
 
@@ -19,7 +19,7 @@
 
 `sudo apt install {{paquete}}`
 
-- Elimina un paquete (si se utiliza `purge` también se eliminan sus archivos de configuración):
+- Elimina un paquete (si se utiliza `purge` también elimina sus archivos de configuración):
 
 `sudo apt remove {{paquete}}`
 
