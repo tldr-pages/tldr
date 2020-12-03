@@ -3,7 +3,7 @@
 > Move or rename files matching a specified extended glob pattern.
 > More information: <http://zsh.sourceforge.net/Doc/Release/User-Contributions.html>.
 
-- Below renames `foo.log` to `foo.txt`, and so on:
+- Move files using a regex-like pattern:
 
 `zmv '{{(*).log}}' '{{$1.txt}}'`
 
