@@ -9,11 +9,11 @@
 
 - Restaura dependencias para un proyecto o solución .NET en una ubicación específica:
 
-`dotnet restore {{ruta/al/proyecto_o_solución}}
+`dotnet restore {{ruta/al/proyecto_o_solución}}`
 
 - Restaura depedencias sin tomar las solicitudes HTTP:
 
-`dotnet restore --no-cache
+`dotnet restore --no-cache`
 
 - Obliga a todas las dependencias a ser resueltas incluso si la última restauración fue exitosa:
 

@@ -20,7 +20,7 @@
 
 - Compila con un nivel específico de verbosidad:
 
-`dotnet build --verbosity {{el|mínimo|diagnóstico|normal|detallado}}`
+`dotnet build --verbosity {{detallado|minimo|normal|de|diagnostico}}`
 
 - Compila para un tiempo de ejecución específico:
 
