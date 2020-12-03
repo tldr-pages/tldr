@@ -11,7 +11,7 @@
 
 `exenv global {{version}}`
 
-- Use a specific version of Elixir for an application/project directory:
+- Use a specific version of Elixir for the current application/project directory:
 
 `exenv local {{version}}`
 
