@@ -7,7 +7,7 @@
 
 `zmv '{{(*).log}}' '{{$1.txt}}'`
 
-- Preview the result, without making any actual changes:
+- Preview the result of a move, without making any actual changes:
 
 `zmv -n '{{(*).log}}' '{{$1.txt}}'`
 
