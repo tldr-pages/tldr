@@ -1,7 +1,7 @@
 # dotnet restore
 
 > Restarua las dependencias y herramientas de un proyecto .NET.
-> Más información: https://docs.microsoft.com/dotnet/core/tools/dotnet-restore.
+> Más información: <https://docs.microsoft.com/dotnet/core/tools/dotnet-restore>.
 
 - Restaura dependencias para un proyecto o solución .NET en el directorio actual:
 
@@ -11,7 +11,7 @@
 
 `dotnet restore {{ruta/al/proyecto_o_solución}}`
 
-- Restaura depedencias sin tomar las solicitudes HTTP:
+- Restaura depedencias sin almacenar las solicitudes HTTP en caché:
 
 `dotnet restore --no-cache`
 
@@ -19,10 +19,10 @@
 
 `dotnet restore --force`
 
-- Restaura dependencias usando las fallas del paquete fuente como advertencias:
+- Restaura dependencias usando los orígenes con error como advertencias:
 
 `dotnet restore --ignore-failed-sources`
 
 - Restaura dependencias con un nivel específico de verbosidad:
 
-`dotnet restore --verbosity {{el|mínimo|normal|diagnóstico|detallado}}
+`dotnet restore --verbosity {{quiet|minimal|normal|detailed|diagnostic}}

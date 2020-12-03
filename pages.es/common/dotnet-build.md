@@ -1,6 +1,7 @@
 # dotnet build
 
->Construye una aplicación .NET y sus dependencias. Más información en: https://docs.microsoft.com/dotnet/core/tools/dotnet-build
+> Compila una aplicación .NET y sus dependencias.
+> Más información: <https://docs.microsoft.com/dotnet/core/tools/dotnet-build>.
 
 - Compila el proyecto o solución en el directorio actual:
 
@@ -8,11 +9,11 @@
 
 - Compila un proyecto o solución .NET en el modo de depuración:
 
-`dotnet build {{ruta/al/proyecto_o_solucion}}`
+`dotnet build {{ruta/al/proyecto_o_solución}}`
 
 - Compila en modo de lanzamiento:
 
-`dotnet build --configuration {{Lanzamiento}}`
+`dotnet build --configuration {{Release}}`
 
 - Compila sin restaurar las dependencias:
 
@@ -20,7 +21,7 @@
 
 - Compila con un nivel específico de verbosidad:
 
-`dotnet build --verbosity {{detallado|minimo|normal|de|diagnostico}}`
+`dotnet build --verbosity {{quiet|minimal|normal|detailed|diagnostic}}`
 
 - Compila para un tiempo de ejecución específico:
 
