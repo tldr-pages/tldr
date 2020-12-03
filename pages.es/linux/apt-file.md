@@ -8,8 +8,8 @@
 
 - Busca paquetes que contengan el archivo o ruta especificada:
 
-`apt-file search {{ruta/del/archivo}}`
+`apt-file search {{ruta/al/archivo}}`
 
 - Muestra el contenido del paquete especificado:
 
-`apt-file list {{nombre_paquete}}
+`apt-file list {{nombre_paquete}}`
