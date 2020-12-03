@@ -1,6 +1,6 @@
 # lsb_release
 
-> Proporciona información sobre LSB (Linux Standard Base) y específica de la distribución.
+> Proporciona cierta LSB (Linux Standard Base) e información específica de la distribución.
 
 - Muestra toda la información disponible:
 

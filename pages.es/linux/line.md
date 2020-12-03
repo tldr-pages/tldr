@@ -2,6 +2,6 @@
 
 > Lee una única línea de entrada.
 
-- Lee entrada:
+- Lee una  entrada:
 
 `line`

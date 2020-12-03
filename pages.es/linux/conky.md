@@ -3,11 +3,11 @@
 > Monitor de sistema ligero para X.
 > Más información: <https://github.com/brndnmtthws/conky>.
 
-- Ejecutar con la configuración por defecto:
+- Ejecuta con la configuración por defecto:
 
 `conky`
 
-- Crear una nueva configuración por defecto:
+- Crea una nueva configuración por defecto:
 
 `conky -C > ~/.conkyrc`
 

@@ -1,8 +1,8 @@
 # apt-file
 
-> Search for files in apt packages, including ones not yet installed.
+> Busca archivos en paquetes apt, inluidos los que aún no fueron instalados.
 
-- Actualizas los metadatos de la base de datos:
+- Actualiza los metadatos de la base de datos:
 
 `sudo apt update`
 
