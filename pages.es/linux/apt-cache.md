@@ -1,6 +1,6 @@
 # apt-cache
 
-> Herramienta de consulta de paquete de Debian y Ubuntu.
+> Herramienta de consulta de paquetes para Debian y Ubuntu.
 
 - Busca un paquete en tus fuentes actuales:
 
