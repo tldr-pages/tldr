@@ -15,10 +15,10 @@
 
 `jekyll serve --verbose`
 
-- Generate the current directory into "./_site":
+- Generate the current directory into `./_site`:
 
 `jekyll build`
 
-- Clean the site (removes site output and cache folder) without building:
+- Clean the site (removes site output and `cache` folder) without building:
 
 `jekyll clean`
