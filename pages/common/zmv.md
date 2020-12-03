@@ -1,6 +1,6 @@
 # zmv
 
-> Move or rename files matching a specified regex pattern.
+> Move or rename files matching a specified extended glob pattern.
 > More information: <http://zsh.sourceforge.net/Doc/Release/User-Contributions.html>.
 
 - Below renames `foo.log` to `foo.txt`, and so on:
