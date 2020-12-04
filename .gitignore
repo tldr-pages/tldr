@@ -1,3 +1,6 @@
+# VS Code
+.vscode/
+
 # macOS filesystem custom folder attributes
 .DS_Store
 
