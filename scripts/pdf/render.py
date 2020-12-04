@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 
-# A Python script to generate a single PDF document with all the `tldr` pages. It works by generating
-# intermediate HTML files from existing md files using Python-markdown, applying desired formatting
-# through CSS, and finally rendering them as PDF. There is no LaTeX dependency for generating the PDF.
+"""
+A Python script to generate a single PDF document with all the `tldr` pages. It works by generating
+intermediate HTML files from existing md files using Python-markdown, applying desired formatting
+through CSS, and finally rendering them as PDF. There is no LaTeX dependency for generating the PDF.
+"""
 
 import os
 import sys
@@ -47,8 +49,6 @@ def main(loc, colorscheme):
 
   for operating_sys in oslist:
 
-    i = 1
-
     # Required string to create directory title pages
     dir_title = "<h2 class=title-dir>" + operating_sys.capitalize() + "</h2></body></html>"
 
@@ -66,7 +66,7 @@ def main(loc, colorscheme):
     allmd.sort()
 
     # Conversion of Markdown to HTML
-    for md in allmd:
+    for page_number, md in enumerate(allmd, start=1):
 
       with open(md, "r") as inp:
         text = inp.readlines()
@@ -82,8 +82,7 @@ def main(loc, colorscheme):
         out.write(footer)
 
       group.append(HTML("htmlout.html").render())
-      print("Rendered page {} of the directory {}".format(str(i), operating_sys))
-      i += 1
+      print("Rendered page {} of the directory {}".format(str(page_number), operating_sys))
 
     allmd.clear()
 
@@ -109,17 +108,10 @@ def main(loc, colorscheme):
 
 if __name__ == "__main__":
 
-  # Unless specified otherwise by the user, this is the default colorscheme
-  colorscheme = "basic"
-
   # Parsing the arguments
-  parser = argparse.ArgumentParser()
+  parser = argparse.ArgumentParser(prog="tdlr-pages-to-PDF", description="A Python script to generate a single PDF document with all the `tldr` pages.")
   parser.add_argument("dir_path", help = "Path to the 'pages' directory")
-  parser.add_argument("-c", choices=["solarized-light", "solarized-dark"], help="Color scheme of the PDF")
+  parser.add_argument("-c", "--color", choices=["solarized-light", "solarized-dark", "basic"], default="basic", help="Color scheme of the PDF")
   args = parser.parse_args()
 
-  loc = args.dir_path
-  if args.c == "solarized-light" or args.c == "solarized-dark":
-    colorscheme = args.c
-
-  main(loc, colorscheme)
+  main(args.dir_path, args.color)
