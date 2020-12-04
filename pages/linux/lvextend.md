@@ -10,6 +10,6 @@
 
 `lvextend --size +{{40G}} -r {{logical_volume}}`
 
-- Increase a volume's size to 100% of the free phyiscal volume space:
+- Increase a volume's size to 100% of the free physical volume space:
 
 `lvextend --size {{100}}%FREE {{logical_volume}}`
