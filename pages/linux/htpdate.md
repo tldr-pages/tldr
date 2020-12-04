@@ -7,7 +7,7 @@
 
 `sudo htpdate {{host}}`
 
-- Perform simulation of syncronization, without any action:
+- Perform simulation of synchronization, without any action:
 
 `htpdate -q {{host}}`
 
@@ -15,6 +15,6 @@
 
 `sudo htpdate -x {{host}}`
 
-- Set time immediate after the syncronization:
+- Set time immediate after the synchronization:
 
 `sudo htpdate -s {{host}}`
