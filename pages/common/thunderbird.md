@@ -1,4 +1,4 @@
-# thundebird
+# thunderbird
 
 > Email client and RSS reader.
 

@@ -10,7 +10,7 @@
 
 `medusa -M HTTP -h host -u {{username}} -p {{password}} -m USER-AGENT:"{{Agent}}"`
 
-- Execute a brute force against a MySQL server using a file cointaining usernames and a hash:
+- Execute a brute force against a MySQL server using a file containing usernames and a hash:
 
 `medusa -M mysql -h host -U {{path/to/username_file}} -p {{hash}} -m PASS:HASH`
 

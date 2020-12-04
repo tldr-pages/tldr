@@ -19,7 +19,7 @@
 
 `emulator -avd {{name}} -camera-back {{none|emulated|webcamN}}`
 
-- Start an emulator, with a maximun network speed:
+- Start an emulator, with a maximum network speed:
 
 `emulator -avd {{name}} -netspeed {{gsm|hscsd|gprs|edge|hsdpa|lte|evdo|full}}`
 

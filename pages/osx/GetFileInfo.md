@@ -2,7 +2,7 @@
 
 > Get information about a file in an HFS+ directory.
 
-- Display infomation about a given file:
+- Display information about a given file:
 
 `GetFileInfo {{path/to/filename}}`
 
