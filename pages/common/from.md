@@ -6,7 +6,7 @@
 
 `from`
 
-- Print count of messages and exit:
+- Print count of messages:
 
 `from -c`
 
