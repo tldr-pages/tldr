@@ -1,7 +1,7 @@
 # slapt-src
 
-> a utility to make querying, retrieving, and building slackbuilds as
-> easy as working with binary packages with slapt-src.
+> A utility to automate building of slackbuilds.
+> SlackBuild sources need to be configured in the slapt-srcrc file.
 
 - Update the list of available slackbuilds and versions:
 
