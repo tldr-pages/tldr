@@ -16,4 +16,4 @@
 
 - Print mail from specified address:
 
-`from -s user@email.com`
+`from -s {{user@email.com}}`
