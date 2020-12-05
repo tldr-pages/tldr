@@ -1,6 +1,6 @@
 # spi
 
-> a meta package manager that handles both packages and slackbuilds
+> A meta package manager that handles both packages and slackbuilds.
 
 - Update the list of available packages and slackbuilds:
 
@@ -14,8 +14,7 @@
 
 `spi --upgrade`
 
-- Locate packages or slackbuilds of interest by the package name or
-  description:
+- Locate packages or slackbuilds of interest by the package name or description:
 
 `spi {{search_terms}}`
 
@@ -26,4 +25,3 @@
 - Purge the local package and slackbuild caches:
 
 `spi --clean`
-
