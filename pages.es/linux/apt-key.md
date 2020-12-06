@@ -20,4 +20,4 @@
 
 - Añadir una clave de un servidor de claves con el identificador de la clave:
 
-`apt-key adv --keyserver {{pgp.mit.edu}} --recv {{id_clave}}
+`apt-key adv --keyserver {{pgp.mit.edu}} --recv {{id_clave}}`

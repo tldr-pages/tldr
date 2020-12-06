@@ -17,7 +17,7 @@ jobs:
 
     - name: Set up PR environment
       if: github.event.number != null
-      run: echo "::set-env name=PULL_REQUEST_ID::${{ github.event.number }}"
+      run: echo "PULL_REQUEST_ID=${{ github.event.number }}" >> $GITHUB_ENV
 
     - name: Install npm dependencies
       run: npm ci
@@ -27,6 +27,19 @@ jobs:
 
     - name: Build
       run: bash scripts/build.sh
+
+    - name: Setup Python for PDF generation
+      if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/master'
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Build PDF
+      if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/master'
+      run: |
+        cd scripts/pdf/
+        pip3 install -r requirements.txt
+        python3 render.py ../../pages -c solarized-light
 
     - name: Deploy
       if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/master'
