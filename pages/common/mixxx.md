@@ -15,9 +15,9 @@
 
 `mixxx --debugAssertBreak --developer --loglevel trace`
 
-- Start mixxx using a contained configuration:
+- Start mixxx using a specified settings file:
 
-`mixxx --resourcePath {{mixxx/res/controllers}} --settingsPath {{settingsPath}}`
+`mixxx --resourcePath {{mixxx/res/controllers}} --settingsPath {{path/to/file}}`
 
 - Debug a custom controller mapping:
 
