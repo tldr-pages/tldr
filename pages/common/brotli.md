@@ -1,6 +1,7 @@
 # Brotli
 
 > Compress/uncompress files with brotli compression.
+> More information: <https://github.com/google/brotli>.
 
 - Compress a file, creating a compressed version next to the file:
 
