@@ -1,9 +1,9 @@
 # lynx
 
 > A Command Line Web Browsing.
-> More information: <http://lynx.browser.org>.
+> More information: <https://lynx.browser.org>.
 
-- Open a link:
+- Visit a website:
 
 `lynx {{example.com}}`
 
@@ -22,3 +22,15 @@
 - Open a link, using a specific file to read and write cookies:
 
 `lynx -cookie_file={{path/to/file}} {{example.com}}`
+
+- Navigate forwards and backwards through the links on a page:
+
+`Up arrow key, Down arrow key`
+
+- Go back to the previously displayed page:
+
+`Left arrow key or u`
+
+- Exit:
+
+`q then y`
