@@ -1,6 +1,6 @@
 # lynx
 
-> A Command Line Web Browsing.
+> Command-line web browser.
 > More information: <https://lynx.browser.org>.
 
 - Visit a website:
