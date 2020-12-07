@@ -8,15 +8,15 @@
 
 `clj`
 
-- Exec function:
+- Execute a function:
 
-`clj -X {{namespace/fn_name}}`
+`clj -X {{namespace/function_name}}`
 
-- Run -main function of a namespace:
+- Run the main function of a specified namespace:
 
 `clj -M -m {{namespace}} {{args}}`
 
-- Prepare (resolve deps, download libraries, make and cache classpaths):
+- Prepare a project by resolving dependencies, downloading libraries, and making / caching classpaths:
 
 `clj -P`
 
@@ -24,6 +24,6 @@
 
 `clj -Sdeps '{:deps {nrepl {:mvn/version "0.7.0"} cider/cider-nrepl {:mvn/version "0.25.2"}}}' -m nrepl.cmdline --middleware '["cider.nrepl/cider-middleware"]' --interactive`
 
-- Start REPL for ClojureScript and open browser:
+- Start REPL for ClojureScript and open a web browser:
 
 `clj -Sdeps '{:deps {org.clojure/clojurescript {:mvn/version "1.10.758"}}}' --main cljs.main --repl`
