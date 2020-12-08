@@ -7,14 +7,14 @@
 
 `from`
 
-- Print count of messages:
+- Display the count of messages:
 
-`from -c`
+`from --count`
 
 - List mail from specified mailbox directory:
 
-`MAIL={{/path/to/mailbox}} from`
+`MAIL={{path/to/mailbox}} from`
 
 - Print mail from specified address:
 
-`from -s {{user@email.com}}`
+`from --sender={{me@example.com}}`
