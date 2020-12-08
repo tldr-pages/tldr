@@ -1,22 +1,22 @@
 # etcdctl
 
-> CLI interface for interacting with etcd high performance key/value pair store.
-> Etcd stores keys in a filesystem-like format, e.g. /my/key.
+> CLI interface for interacting with etcd high performance key-value pair store.
+> Etcd stores data in hierarchically organized directories, as in a standard filesystem.
 > More information: <https://etcd.io/docs/latest/dev-guide/interacting_v3/>.
 
-- Get a key:
+- Display the key-value pair:
 
 `etcdctl get {{my/key}}`
 
-- Set a key:
+- Store a key-value pair:
 
 `etcdctl put {{my/key}} {{my_value}}`
 
-- Delete a key:
+- Delete a key-value pair:
 
 `etcdctl del {{my/key}}`
 
-- Set a key, reading the value from a file:
+- Store a key-value pair, reading the value from a file:
 
 `etcdctl put {{my/file}} < {{path/to/file.txt}}`
 
