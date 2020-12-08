@@ -23,9 +23,9 @@
 
 `select {{/dev/sdX}}`
 
-- Create a 16GB part-type partition for filesystem type in interactive mode, (part-type should be one of "primary", "logical", or "extended"):
+- Interactively create a 16GB partition with a given filesystem:
 
-`mkpart {{part-type}} {{filesystem-type}} {{0%}} {{16G}}`
+`mkpart {{primary|logical|extended}} {{filesystem}} {{0%}} {{16G}}`
 
 - Resize partition size:
 
