@@ -6,27 +6,27 @@
 
 - Get a key:
 
-`etcdctl get {{/my/key}}`
+`etcdctl get {{my/key}}`
 
 - Set a key:
 
-`etcdctl put {{/my/key}} {{my_value}}`
+`etcdctl put {{my/key}} {{my_value}}`
 
 - Delete a key:
 
-`etcdctl del {{/my/key}}`
+`etcdctl del {{my/key}}`
 
-- Set a key, reading from a file:
+- Set a key, reading the value from a file:
 
-`etcdctl put {{/my/file}} < {{file.txt}}`
+`etcdctl put {{my/file}} < {{path/to/file.txt}}`
 
 - Save a snapshot of the etcd keystore:
 
-`etcdctl snapshot save {{snapshot.db}}`
+`etcdctl snapshot save {{path/to/snapshot.db}}`
 
 - Restore a snapshot of an etcd keystore (restart the etcd server afterwards):
 
-`etcdctl snapshot restore {{snapshot.db}}`
+`etcdctl snapshot restore {{path/to/snapshot.db}}`
 
 - Add a user:
 
@@ -34,4 +34,4 @@
 
 - Watch a key for changes:
 
-`etcdctl watch {{/my/key}}`
+`etcdctl watch {{my/key}}`
