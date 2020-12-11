@@ -4,7 +4,7 @@
 > Etcd stores data in hierarchically organized directories, as in a standard filesystem.
 > More information: <https://etcd.io/docs/latest/dev-guide/interacting_v3/>.
 
-- Display the key-value pair:
+- Display the value associated with a specified key:
 
 `etcdctl get {{my/key}}`
 
