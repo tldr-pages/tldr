@@ -10,7 +10,7 @@
 
 `spi --install {{package/slackbuild_name}}`
 
-- Upgrade all installed packages to their latest available versions:
+- Upgrade all installed packages to the latest versions available:
 
 `spi --upgrade`
 
