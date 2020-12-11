@@ -21,4 +21,4 @@
 
 - Specify the compression level. 1=Fastest (Worst), 11=Slowest (Best):
 
-`brotli -q 11 {{file.ext}} -o {{compressed_file.ext.br}}`
+`brotli -q {{11}} {{file.ext}} -o {{compressed_file.ext.br}}`
