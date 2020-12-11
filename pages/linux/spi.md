@@ -14,7 +14,7 @@
 
 `spi --upgrade`
 
-- Locate packages or slackbuilds of interest by the package name or description:
+- Locate packages or slackbuilds of interest by package name or description:
 
 `spi {{search_terms}}`
 
