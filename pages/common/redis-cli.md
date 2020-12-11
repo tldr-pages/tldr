@@ -26,3 +26,7 @@
 - Execute Redis command:
 
 `redis-cli {{redis_command}}`
+
+- Connect to the local cluster:
+
+`redis-cli -c`
