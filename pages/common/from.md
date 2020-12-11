@@ -1,20 +1,20 @@
 # from
 
-> Prints mail header lines from your mailbox.
+> Prints mail header lines from the current user's mailbox.
 > More information: <https://mailutils.org/manual/html_chapter/Programs.html#frm-and-from>.
 
 - List mail:
 
 `from`
 
-- Display the count of messages:
+- Display the number of messages stored:
 
 `from --count`
 
-- List mail from specified mailbox directory:
+- List mail in the specified mailbox directory:
 
 `MAIL={{path/to/mailbox}} from`
 
-- Print mail from specified address:
+- Print the mail from the specified address:
 
 `from --sender={{me@example.com}}`
