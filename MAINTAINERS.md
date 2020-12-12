@@ -45,6 +45,8 @@ If you are an owner of the organization, you should be able to see an automated 
   [30 November 2019](https://github.com/tldr-pages/tldr/issues/3636) — [17 December 2019](https://github.com/tldr-pages/tldr/issues/3663)
 - Iván Hernández Cazorla ([@ivanhercaz](https://github.com/ivanhercaz)):
   [24 December 2019](https://github.com/tldr-pages/tldr/issues/3690) — [5 January 2020](https://github.com/tldr-pages/tldr/issues/3736)
+- Axel Navarro ([@navarroaxel](https://github.com/navarroaxel)):
+  [24 August 2020](https://github.com/tldr-pages/tldr/issues/4291) — [05 October 2020](https://github.com/tldr-pages/tldr/issues/4504)
 
 ## Organization members
 
@@ -58,6 +60,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [12 January 2020](https://github.com/tldr-pages/tldr/issues/3738) — present
 - **Lucas Schneider ([@schneiderl](https://github.com/schneiderl))**:
   [17 January 2019](https://github.com/tldr-pages/tldr/issues/3764) — present
+- **Axel Navarro ([@navarroaxel](https://github.com/navarroaxel))**:
+  [05 October 2020](https://github.com/tldr-pages/tldr/issues/4504) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
