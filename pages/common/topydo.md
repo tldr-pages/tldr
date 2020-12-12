@@ -7,9 +7,9 @@
 
 `topydo add "{{todo_message}} +{{project_name}} @{{context_name}}"`
 
-- Add todo which should be done till tomorow with a "A" priority:
+- Add a todo with a due date of tomorrow with a priority of `A`:
 
-`topydo add "(A) call mom due:1d"`
+`topydo add "(A) {{todo _message}} due:{{1d}}"`
 
 - Add a todo with a due date of friday:
 
