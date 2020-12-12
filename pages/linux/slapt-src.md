@@ -20,6 +20,6 @@
 
 `slapt-src --search {{search_term}}`
 
-- Show information about a slackbuild:
+- Display information about a slackbuild:
 
 `slapt-src --show {{slackbuild_name}}`
