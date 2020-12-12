@@ -19,9 +19,9 @@
 
 `topydo add "water flowers due:mon rec:1w"`
 
-- Add strict repeating todo (next due = currentdue + rec):
+- Add a strict repeating todo (next due = currentdue + rec):
 
-`topydo add "pay rent due:2020-01-01 rec:+1m"`
+`topydo add "{{todo_message}} due:{{2020-01-01}} rec:{{+1m}}"`
 
 - Undo last topydo command:
 
