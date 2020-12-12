@@ -23,6 +23,6 @@
 
 `topydo add "{{todo_message}} due:{{2020-01-01}} rec:{{+1m}}"`
 
-- Undo last topydo command:
+- Revert the last `topydo` command executed:
 
 `topydo revert`
