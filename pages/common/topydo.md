@@ -15,9 +15,9 @@
 
 `topydo add "{{todo_message}} due:{{fri}}"`
 
-- Add non-strict repeating todo (next due = now + rec):
+- Add a non-strict repeating todo (next due = now + rec):
 
-`topydo add "water flowers due:mon rec:1w"`
+`topydo add "water flowers due:{{mon}} rec:{{1w}}"`
 
 - Add a strict repeating todo (next due = currentdue + rec):
 
