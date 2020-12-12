@@ -3,7 +3,7 @@
 > Free and open source cross-platform DJ software.
 > More information: <https://mixxx.org/manual/latest/chapters/appendix.html#command-line-options>.
 
-- Start the Mixxx GUI in full-screen:
+- Start the Mixxx GUI in fullscreen:
 
 `mixxx --fullScreen`
 
@@ -15,7 +15,7 @@
 
 `mixxx --debugAssertBreak --developer --loglevel trace`
 
-- Start mixxx using a specified settings file:
+- Start mixxx using the specified settings file:
 
 `mixxx --resourcePath {{mixxx/res/controllers}} --settingsPath {{path/to/settings-file}}`
 
@@ -23,6 +23,6 @@
 
 `mixxx --controllerDebug --resourcePath {{path/to/mapping-directory}}`
 
-- Show command-line help:
+- Show command line help:
 
 `mixxx --help`
