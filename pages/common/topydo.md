@@ -1,6 +1,6 @@
 # topydo
 
-> A powerful todo list application using the todo.txt format.
+> A todo list application that uses the todo.txt format.
 > More information: <https://github.com/topydo/topydo>.
 
 - Add todo to the project "tldr" and the context "github":
