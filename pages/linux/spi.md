@@ -19,7 +19,7 @@
 
 `spi {{search_terms}}`
 
-- Show information about a package or slackbuild:
+- Display information about a package or slackbuild:
 
 `spi --show {{package/slackbuild_name}}`
 
