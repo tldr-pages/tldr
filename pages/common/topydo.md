@@ -3,9 +3,9 @@
 > A todo list application that uses the todo.txt format.
 > More information: <https://github.com/topydo/topydo>.
 
-- Add todo to the project "tldr" and the context "github":
+- Add a todo to a specific project with a given context:
 
-`topydo add "merge pull request +tldr @github"`
+`topydo add "{{todo_message}} +{{project_name}} @{{context_name}}"`
 
 - Add todo which should be done till tomorow with a "A" priority:
 
