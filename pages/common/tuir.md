@@ -2,7 +2,7 @@
 
  > A text-based interface (TUI) to view and interact with Reddit from your terminal.
  > Use arrow or vim keys to navigate. Right and Left to view and return from a submission.
- More information: https://gitlab.com/ajak/tuir
+ > More information: https://gitlab.com/ajak/tuir
 
 - Launch tuir:
 `tuir`
