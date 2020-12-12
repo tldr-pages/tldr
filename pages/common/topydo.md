@@ -11,9 +11,9 @@
 
 `topydo add "(A) call mom due:1d"`
 
-- Add todo which should be done till friday:
+- Add a todo with a due date of friday:
 
-`topydo add " due:fri"`
+`topydo add "{{todo_message}} due:{{fri}}"`
 
 - Add non-strict repeating todo (next due = now + rec):
 
