@@ -8,4 +8,4 @@
 
 - Bring a specific job to foreground:
 
-`fg {{job_id}}`
+`fg %{{job_id}}`
