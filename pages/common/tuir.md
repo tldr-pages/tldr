@@ -1,7 +1,7 @@
 # tuir
 
- > A text-based interface (TUI) to view and interact with Reddit from your terminal.
- > Navigate with the Vim keys. More information: https://gitlab.com/ajak/tuir
+> A text-based interface (TUI) to view and interact with Reddit from your terminal.
+> Navigate with the Vim keys. More information: https://gitlab.com/ajak/tuir.
 
 - Launch tuir:
 
@@ -19,6 +19,6 @@
 
 `tuir -s {{subreddit_name}}`
 
-- Open external links using programs defined in the mailcap config
+- Open external links using programs defined in the mailcap config:
 
 `tuir --enable-media`
