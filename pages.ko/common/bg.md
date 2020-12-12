@@ -8,4 +8,4 @@
 
 - 특정 작업을 재개하고(`jobs -l` 를 사용하여 ID 가져오기) background에서 실행:
 
-`bg {{job_id}}`
+`bg %{{job_id}}`
