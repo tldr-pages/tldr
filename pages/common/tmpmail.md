@@ -17,7 +17,7 @@
 
 - Open user specified message:
 
-'tmpmail {{email_id}}
+'tmpmail {{email_id}}`
 
 - View email as raw text without HTML tags:
 
