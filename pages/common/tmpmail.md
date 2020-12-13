@@ -1,13 +1,13 @@
 # tmpmail
 
-> A temporary email right from your terminal written in POSIX sh
+> A temporary email right from your terminal written in POSIX sh.
 > More information: <https://github.com/sdushantha/tmpmail>.
 
 - Create a temporary email:
 
 `tmpmail --generate`
 
-- Lists messages and their numeric ID:
+- List messages and their numeric ID:
 
 `tmpmail`
 
@@ -17,7 +17,7 @@
 
 - Open user specified message:
 
-'tmpmail {{email_id}}`
+`tmpmail {{email_id}}`
 
 - View email as raw text without HTML tags:
 
