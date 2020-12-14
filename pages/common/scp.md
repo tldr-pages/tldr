@@ -1,7 +1,8 @@
 # scp
 
-> Secure copy.
-> Copy files between hosts using Secure Copy Protocol over SSH.
+> Secure copy.  
+> Copy files between hosts using Secure Copy Protocol over SSH.  
+> More information: <https://man.openbsd.org/scp>.
 
 - Copy a local file to a remote host:
 
