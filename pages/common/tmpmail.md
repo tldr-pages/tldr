@@ -3,7 +3,7 @@
 > A temporary email right from your terminal written in POSIX sh.
 > More information: <https://github.com/sdushantha/tmpmail>.
 
-- Create a temporary email:
+- Create a temporary inbox:
 
 `tmpmail --generate`
 
