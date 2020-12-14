@@ -11,7 +11,7 @@
 
 `tmpmail`
 
-- View a temporary email's most recent email:
+- Display the most recent received email:
 
 `tmpmail --recent`
 
