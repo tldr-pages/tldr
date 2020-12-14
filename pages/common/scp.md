@@ -7,6 +7,10 @@
 
 `scp {{path/to/local_file}} {{remote_host}}:{{path/to/remote_file}}`
 
+- Specify which port to connect to the remote host on:
+
+`scp {{path/to/local_file}} {{remote_host}}:{{path/to/remote_file}} -P {{port}}`
+
 - Copy a file from a remote host to a local directory:
 
 `scp {{remote_host}}:{{path/to/remote_file}} {{path/to/local_directory}}`
