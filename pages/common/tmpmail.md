@@ -23,6 +23,6 @@
 
 `tmpmail --text`
 
-- Open email with given browser (default is w3m):
+- Open email with a specific browser (default is w3m):
 
 `tmpmail --browser {{browser}}`
