@@ -15,7 +15,7 @@
 
 `tmpmail --recent`
 
-- Open user specified message:
+- Open a specific message:
 
 `tmpmail {{email_id}}`
 
