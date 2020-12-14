@@ -7,7 +7,7 @@
 
 `scp {{path/to/local_file}} {{remote_host}}:{{path/to/remote_file}}`
 
-- Specify which port to connect to the remote host on:
+- Use a specific port when connecting to the remote host:
 
 `scp {{path/to/local_file}} {{remote_host}}:{{path/to/remote_file}} -P {{port}}`
 
