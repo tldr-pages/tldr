@@ -20,10 +20,10 @@
 
 `clj -P`
 
-- Start nREPL server with CIDER middleware:
+- Start an nREPL server with the CIDER middleware:
 
 `clj -Sdeps '{:deps {nrepl {:mvn/version "0.7.0"} cider/cider-nrepl {:mvn/version "0.25.2"}}}' -m nrepl.cmdline --middleware '["cider.nrepl/cider-middleware"]' --interactive`
 
-- Start REPL for ClojureScript and open a web browser:
+- Start a REPL for ClojureScript and open a web browser:
 
 `clj -Sdeps '{:deps {org.clojure/clojurescript {:mvn/version "1.10.758"}}}' --main cljs.main --repl`
