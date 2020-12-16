@@ -6,36 +6,36 @@
 
 - Controlla se un indirizzo IP è attivo, e indovina il suo sistema operativo:
 
-`nmap -O {{ip_or_hostname}}`
+`nmap -O {{ip_o_nome_host}}`
 
-- Cerca di determinare se gli hosts specificati sono attivi e quali sono i loro nomi:
+- Cerca di determinare se gli host specificati sono attivi e quali sono i loro nomi:
 
-`nmap -sn {{ip_or_hostname}} {{optional_another_address}}`
+`nmap -sn {{ip_o_nome_host}} {{opzionale_altro_indirizzo}}`
 
-- Come sopra, ma esegui una scansione default 1000-port TCP se l'host sembra attivo:
+- Come sopra, ma esegui una scansione della porta TCP predefinita 1000 se l'host sembra attivo:
 
-`nmap {{ip_or_hostname}} {{optional_another_address}}`
+`nmap {{ip_o_nome_host}} {{opzionale_altro_indirizzo}}`
 
 - Attiva scripts, segnalazione di servizi, OS fingerprinting e traceroute:
 
-`nmap -A {{address_or_addresses}}`
+`nmap -A {{indirizzo_o_indirizzi}}`
 
 - Velocizza esecuzione dando per scontato una buona connessione di rete:
 
-`nmap -T4 {{address_or_addresses}}`
+`nmap -T4 {{indirizzo_o_indirizzi}}`
 
 - Scansiona una specifica lista di porte (usa -p- per tutte le porte 1-65535):
 
-`nmap -p {{port1,port2,…,portN}} {{address_or_addresses}}`
+`nmap -p {{porta1,porta2,…,portaN}} {{indirizzo_o_indirizzi}}`
 
 - Esegui scansione TCP e UDP (usa -sU per usare solo UDP, -sZ per SCTP, -sO per IP):
 
-`nmap -sSU {{address_or_addresses}}`
+`nmap -sSU {{indirizzo_o_indirizzi}}`
 
-- Esegui una scansione di cifratori TLS verso un host sul quale bisogna individuare i cifratori supportati e i protocolli SSL/TLS:
+- Esegui una scansione di cifratori TLS verso un host per individuarne i cifratori supportati e i protocolli SSL/TLS:
 
-`nmap --script ssl-enum-ciphers {{address_or_addresses}} -p 443`
+`nmap --script ssl-enum-ciphers {{indirizzo_o_indirizzi}} -p 443`
 
-- Esegui scansione di tutte le porte, servizi e versioni con tutti gli script di default NSE attivi verso un host per determinarne vulnerabilità e informazioni:
+- Determina vulnerabilità e informazioni di un host eseguendo una scansione di tutte le porte, servizi e versioni con tutti gli script di default NSE attivi:
 
-`nmap -sC -sV {{address_or_addresses}}`
+`nmap -sC -sV {{indirizzo_o_indirizzi}}`
