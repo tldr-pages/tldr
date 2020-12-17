@@ -1,15 +1,12 @@
 # kubectl
 
 > Command line interface for running commands against Kubernetes clusters.
+> See also `kubectl describe` and other pages for additional information.
 > More information: <https://kubernetes.io/docs/reference/kubectl/>.
 
 - List information about a resource with more details:
 
 `kubectl get {{pod|service|deployment|ingress|...}} -o wide`
-
-- Describe information about a resource with all details:
-
-`kubectl describe {{pod|service|deployment|ingress|...}}`
 
 - Update specified pod with the label 'unhealthy' and the value 'true':
 
