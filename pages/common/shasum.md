@@ -20,7 +20,7 @@
 
 - Check a list of sums but don't print OK for each successfully verified file:
 
-`shasum -c -q {{list_file}}`
+`shasum --check --quiet {{list_file}}`
 
 - Calculate the SHA1 checksum from `stdin`:
 
