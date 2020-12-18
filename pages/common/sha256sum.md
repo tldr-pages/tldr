@@ -14,6 +14,6 @@
 
 `sha256sum -c {{filename.sha256}}`
 
-- Verify all files have matching chesksums but don't print OK for succefully verified file
+- Verify all files have matching chesksums but don't print OK for succefully verified file:
 
 `sha256sum -c --quiet {{filename.sha256}}`
