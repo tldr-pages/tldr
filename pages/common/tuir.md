@@ -1,6 +1,6 @@
 # tuir
 
-> A text-based interface (TUI) to view and interact with Reddit from your terminal.
+> A text user-interface (TUI) to view and interact with Reddit from your terminal.
 > Navigate with the Vim keys.
 > More information: <https://gitlab.com/ajak/tuir>.
 
