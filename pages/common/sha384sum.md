@@ -12,8 +12,8 @@
 
 - Read a file of SHA384 sums and verify all files have matching checksums:
 
-`sha384sum -c {{filename.sha384}}`
+`sha384sum --check {{filename.sha384}}`
 
 - Verify all files have matching chesksums but don't print OK for succefully verified file:
 
-`sha384sum -c --quiet {{filename.sha384}}`
+`sha384sum --check --quiet {{filename.sha384}}`
