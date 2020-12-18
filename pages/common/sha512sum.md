@@ -13,3 +13,7 @@
 - Read a file of SHA512 sums and verify all files have matching checksums:
 
 `sha512sum -c {{filename.sha512}}`
+
+- Verify all files have matching chesksums but don't print OK for succefully verified file:
+
+`sha512sum -c --quiet {{filename.sha512}}`
