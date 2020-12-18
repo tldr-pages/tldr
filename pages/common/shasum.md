@@ -14,7 +14,7 @@
 
 `shasum --algorithm 512 {{filename1}} {{filename2}}`
 
-- Calculate and save the list of SHA256 checksums to a file
+- Calculate and save the list of SHA256 checksums to a file:
 
 `shasum --algorithm 256 {{filename1}} {{filename2}} > {{filename.sha256}}`
 
