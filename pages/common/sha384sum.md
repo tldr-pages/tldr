@@ -10,7 +10,7 @@
 
 `sha384sum {{filename1}} {{filename2}}`
 
-- Calculate and save the list of SHA384 checksums to a file
+- Calculate and save the list of SHA384 checksums to a file:
 
 `sha256sum {{filename1}} {{filename2}} > {{filename.sha384}}`
 
