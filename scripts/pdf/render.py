@@ -72,27 +72,27 @@ def main(loc, colorscheme):
         # Sorting all filenames in the directory, to maintain the order of the PDF
         allmd.sort()
 
-    # Conversion of Markdown to HTML
-    for page_number, md in enumerate(allmd, start=1):
+        # Conversion of Markdown to HTML
+        for page_number, md in enumerate(allmd, start=1):
 
-            with open(md, "r") as inp:
-                text = inp.readlines()
+                with open(md, "r") as inp:
+                    text = inp.readlines()
 
-            with open("htmlout.html", "w") as out:
-                out.write(header)
+                with open("htmlout.html", "w") as out:
+                    out.write(header)
 
-                for line in text:
-                    if re.match(r'^>', line):
-                        line = line[:0] + '####' + line[1:]
-                    html = markdown.markdown(line)
-                    out.write(html)
-                out.write(footer)
+                    for line in text:
+                        if re.match(r'^>', line):
+                            line = line[:0] + '####' + line[1:]
+                        html = markdown.markdown(line)
+                        out.write(html)
+                    out.write(footer)
 
-            group.append(HTML("htmlout.html").render())
-            print("Rendered page {} of the directory {}".format(
-                str(page_number), operating_sys))
+                group.append(HTML("htmlout.html").render())
+                print("Rendered page {} of the directory {}".format(
+                    str(page_number), operating_sys))
 
-    allmd.clear()
+        allmd.clear()
 
     # Merging all the documents into a single PDF
     for doc in group:
