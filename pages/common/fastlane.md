@@ -3,11 +3,11 @@
 > Build and release mobile applications from the command-line.
 > More information: <https://docs.fastlane.tools/actions/>.
 
-- Build and sign the iOS application in the local path:
+- Build and sign the iOS application in the current directory:
 
 `fastlane run build_app`
 
-- Run `pod install` for the project in the local path:
+- Run `pod install` for the project in the current directory:
 
 `fastlane run cocoapods`
 
