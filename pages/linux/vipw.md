@@ -7,6 +7,6 @@
 
 `vipw`
 
-- Display the current verson of `vipw`:
+- Display the current version of `vipw`:
 
 `vipw --version`

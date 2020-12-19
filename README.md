@@ -115,6 +115,7 @@ both for the command line and for other platforms:
   or `apt-get install tldr` on Debian-based distributions
   - [fast-tldr](https://github.com/gutjuri/fast-tldr)
 - [Java client](https://github.com/seenukarthi/tldr-java-client)
+- [Keypirinha Plugin](https://github.com/ronan696/keypirinha-tldr)
 - [Node.js client](https://github.com/tldr-pages/tldr-node-client):
   `npm install -g tldr`
 - [OCaml client](https://github.com/RosalesJ/tldr-ocaml): `opam install tldr`

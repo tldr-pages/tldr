@@ -10,6 +10,6 @@
 
 `lvresize --size -{{120G}} -r {{logical_volume}}`
 
-- Increase a volume's size to 100% of the free phyiscal volume space:
+- Increase a volume's size to 100% of the free physical volume space:
 
 `lvresize --size {{100}}%FREE {{logical_volume}}`

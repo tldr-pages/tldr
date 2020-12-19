@@ -19,6 +19,6 @@
 
 `reflac --recursive {{path/to/directory}}`
 
-- Perserve file modification times:
+- Preserve file modification times:
 
 `reflac --preserve {{path/to/directory}}`
