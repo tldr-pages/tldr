@@ -11,7 +11,7 @@
 
 `sudo openfortivpn --config={{path/to/config}}`
 
-- Connect to a VPN by specifiying the host and port:
+- Connect to a VPN by specifying the host and port:
 
 `openfortivpn {{host}}:{{port}}`
 

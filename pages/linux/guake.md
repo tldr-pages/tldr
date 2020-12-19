@@ -2,7 +2,7 @@
 
 > A drop-down terminal for GNOME.
 
-- Toggle Guake visiblity:
+- Toggle Guake visibility:
 
 `F12`
 
