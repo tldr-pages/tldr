@@ -55,8 +55,6 @@ def main(loc, colorscheme):
 
     for operating_sys in oslist:
 
-        i = 1
-
         # Required string to create directory title pages
         dir_title = "<h2 class=title-dir>" + \
             operating_sys.capitalize() + "</h2></body></html>"
@@ -92,10 +90,9 @@ def main(loc, colorscheme):
 
             group.append(HTML("htmlout.html").render())
             print("Rendered page {} of the directory {}".format(
-                str(i), operating_sys))
-            i += 1
+                str(page_number), operating_sys))
 
-        allmd.clear()
+    allmd.clear()
 
     # Merging all the documents into a single PDF
     for doc in group:
@@ -119,10 +116,10 @@ def main(loc, colorscheme):
 
 if __name__ == "__main__":
 
-  # Parsing the arguments
-  parser = argparse.ArgumentParser(prog="tdlr-pages-to-PDF", description="A Python script to generate a single PDF document with all the `tldr` pages.")
-  parser.add_argument("dir_path", help = "Path to the 'pages' directory")
-  parser.add_argument("-c", "--color", choices=["solarized-light", "solarized-dark", "basic"], default="basic", help="Color scheme of the PDF")
-  args = parser.parse_args()
+    # Parsing the arguments
+    parser = argparse.ArgumentParser(prog="tdlr-pages-to-PDF", description="A Python script to generate a single PDF document with all the `tldr` pages.")
+    parser.add_argument("dir_path", help = "Path to the 'pages' directory")
+    parser.add_argument("-c", "--color", choices=["solarized-light", "solarized-dark", "basic"], default="basic", help="Color scheme of the PDF")
+    args = parser.parse_args()
 
-  main(args.dir_path, args.color)
+    main(args.dir_path, args.color)
