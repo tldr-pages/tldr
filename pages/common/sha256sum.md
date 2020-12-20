@@ -18,6 +18,6 @@
 
 `sha256sum --check {{filename.sha256}}`
 
-- Verify all files have matching chesksums but don't print OK for succefully verified file:
+- Only show a message for files for which verification fails:
 
 `sha256sum --check --quiet {{filename.sha256}}`

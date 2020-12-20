@@ -22,7 +22,7 @@
 
 `shasum --check {{list_file}}`
 
-- Check a list of sums but don't print OK for each successfully verified file:
+- Check a list of sums and only show a message for files for which verification fails:
 
 `shasum --check --quiet {{list_file}}`
 

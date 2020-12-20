@@ -18,6 +18,6 @@
 
 `sha512sum --check {{filename.sha512}}`
 
-- Verify all files have matching chesksums but don't print OK for succefully verified file:
+- Only show a message for files for which verification fails:
 
 `sha512sum --check --quiet {{filename.sha512}}`
