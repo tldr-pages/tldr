@@ -11,7 +11,7 @@
 
 `conda info --envs`
 
-- Load  an environment:
+- Load an environment:
 
 `conda activate {{environment_name}}`
 
