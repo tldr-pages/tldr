@@ -19,9 +19,9 @@
 
 `sort -n {{path/to/file}}`
 
-- Sort the passwd file by the 3rd field, numerically:
+- Sort a file, printing the output to the specified output file (can be used to sort a file in-place):
 
-`sort -t: -k 3n /etc/passwd`
+`sort --output={{path/to/file}} {{path/to/file}}`
 
 - Sort a file preserving only unique lines:
 
