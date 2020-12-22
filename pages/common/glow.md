@@ -1,7 +1,7 @@
 # glow
 
 > Render Markdown in the terminal.
-> More infomration: <https://github.com/charmbracelet/glow>.
+> More information: <https://github.com/charmbracelet/glow>.
 
 - Run glow and select a file to view:
 
