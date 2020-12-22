@@ -30,6 +30,6 @@
 
 `lsblk -e {{1,7}}`
 
-- Produce a customized summary:
+- Display a customized summary using a comma-separated list of columns:
 
-`lsblk --output NAME,SERIAL,MODEL,TRAN,TYPE,SIZE,FSTYPE,MOUNTPOINT`
+`lsblk --output {{NAME}},{{SERIAL}},{{MODEL}},{{TRAN}},{{TYPE}},{{SIZE}},{{FSTYPE}},{{MOUNTPOINT}}`
