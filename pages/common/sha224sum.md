@@ -12,7 +12,7 @@
 
 - Calculate and save the list of SHA224 checksums to a file:
 
-`sha256sum {{filename1}} {{filename2}} > {{filename.sha224}}`
+`sha224sum {{filename1}} {{filename2}} > {{filename.sha224}}`
 
 - Read a file of SHA224 sums and verify all files have matching checksums:
 
