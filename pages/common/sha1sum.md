@@ -12,7 +12,7 @@
 
 - Calculate and save the list of SHA1 checksums to a file:
 
-`sha256sum {{filename1}} {{filename2}} > {{filename.sha1}}`
+`sha1sum {{filename1}} {{filename2}} > {{filename.sha1}}`
 
 - Read a file of SHA1 sums and verify all files have matching checksums:
 
