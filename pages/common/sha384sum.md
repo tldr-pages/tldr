@@ -12,7 +12,7 @@
 
 - Calculate and save the list of SHA384 checksums to a file:
 
-`sha256sum {{filename1}} {{filename2}} > {{filename.sha384}}`
+`sha384sum {{filename1}} {{filename2}} > {{filename.sha384}}`
 
 - Read a file of SHA384 sums and verify all files have matching checksums:
 
