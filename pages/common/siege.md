@@ -5,24 +5,24 @@
 
 - Test a url with default settings:
 
-`siege https://www.google.com`
+`siege {{https://example.com}}`
 
 - Test a list of urls:
 
-`siege --file /path/to/url-list.txt`
+`siege --file {{path/to/url-list.txt}}`
 
 - Test list of urls in a random order (Simulates internet traffic):
 
-`siege --internet --file /path/to/url-list.txt`
+`siege --internet --file {{path/to/url-list.txt}}`
 
 - Benchmark a list of urls (Dont wait between requests):
 
-`siege --benchmark --file /path/to/url-list.txt`
+`siege --benchmark --file {{path/to/url-list.txt}}`
 
-- Set the amount of concurrent users:
+- Set the amount of concurrent connections:
 
-`siege --concurrent=50 --file /path/to/url-list.txt`
+`siege --concurrent={{50}} --file {{path/to/url-list.txt}}`
 
 - Set how long for the siege to run for:
 
-`siege --time=30s --file /path/to/url-list.txt`
+`siege --time={{30s}} --file {{path/to/url-list.txt}}`
