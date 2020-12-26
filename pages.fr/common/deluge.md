@@ -1,7 +1,7 @@
 # deluge
 
 > Client BitTorrent à base de ligne de commande.
-> Plus d'informations: <https://deluge-torrent.org>.
+> Plus d'informations : <https://deluge-torrent.org>.
 
 - Télécharge un torrent :
 
