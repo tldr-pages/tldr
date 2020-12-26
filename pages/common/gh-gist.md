@@ -19,6 +19,6 @@
 
 `gh gist list --limit {{int}}`
 
-- View a Gist in the default browser without rendering markdown:
+- View a Gist in the default browser without rendering Markdown:
 
 `gh gist view {{id_or_url}} --web --raw`
