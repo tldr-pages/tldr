@@ -1,7 +1,7 @@
 # tmutil
 
 > Utility for managing Time Machine backups. Most verbs require root privileges.
-> This page is a condensed version of the man page.
+> <https://ss64.com/osx/tmutil.html>
 
 - Set a HFS+ drive as the backup destination:
 
@@ -9,7 +9,7 @@
 
 - Set a APF share or SMB share as the backup destination:
 
-`sudo tmutil setdestination {{protocol://user[:pass]@host/share}}`
+`sudo tmutil setdestination {{protocol://user[:password]@host/share}}`
 
 - Append the given destination to the list of destinations:
 
