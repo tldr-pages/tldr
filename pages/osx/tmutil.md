@@ -1,6 +1,7 @@
 # tmutil
 
 > Utility for managing Time Machine backups. Most verbs require root privileges.
+> This page is a condensed version of the man page, use "man tmutil" to see all the verbs.
 
 - Set a HFS+ drive as the backup destination:
 
@@ -10,44 +11,26 @@
 
 `sudo tmutil setdestination {{protocol://user[:pass]@host/share}}`
 
-- Set a APF share or SMB share as the backup destination, but input the password in a non-echoing prompt:
-
-`sudo tmutil setdestination -p {{protocol://user@host/share}}`
-
-- Append the given destination to the list of destinations
+- Append the given destination to the list of destinations:
 
 `sudo tmutil setdestination -a {{destination}}`
 
-- Print information about destinations currently configured for use with Time Machine:
+- Enable automatic backups:
 
-`tmutil destinationinfo`
+`sudo tmutil enable`
 
-> If you wish for the output to be in XML property format, add the "-X" option.
+- Disable automatic backups:
 
-> For each backup destination, the following information may be displayed:
->     Name --------- The volume label as shown in Finder.
+`sudo tmutil disable`
 
->     Kind --------- Whether the destination is locally attached
->                    storage or a network device.
+- Start a backup, if one is not running already, and release control of the shell:
 
->     URL ---------- In the case of a network destination, the URL
->                    used for Time Machine configuration.
+`sudo tmutil startbackup`
 
->     Mount Point -- If the volume is currently mounted, the path in
->                    the file system at which it was mounted.
+- Start a backup and block until the backup is finished:
 
->     ID ----------- The unique identifier for the destination.
+`sudo tmutil startbackup -b`
 
->          
-> When more than one destination is configured, the most recent
-> backup destination will be marked with the ">" indicator.
+- Stop a backup:
 
-- Remove the destination with the specified unique identifier from the Time Machine configuration:
-
-`tmutil removedestination {{UUID}}`
-
-- Add a file or folder to the exclusion list, to be excluded from backups:
-
-`tmutil addexclusion {{file_or_directory}}`
-
-> The -p option configures fixed-path exclusions. The -v option configures volume exclusions. Both require root privileges. The -v option is the only supported way to exclude or unexclude a volume; behavior is undefined if a sticky or fixed-path exclusion is specified.
+`sudo tmutil stopbackup`
