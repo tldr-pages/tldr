@@ -1,7 +1,7 @@
 # tmutil
 
 > Utility for managing Time Machine backups. Most verbs require root privileges.
-> This page is a condensed version of the man page, use "man tmutil" to see all the verbs.
+> This page is a condensed version of the man page.
 
 - Set a HFS+ drive as the backup destination:
 
