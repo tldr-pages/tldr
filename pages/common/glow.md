@@ -7,11 +7,11 @@
 
 `glow`
 
-- Render a markdown file to the terminal:
+- Render a Markdown file to the terminal:
 
 `glow {{path/to/file}}`
 
-- View a markdown file using a paginator:
+- View a Markdown file using a paginator:
 
 `glow -p {{path/to/file}}`
 
