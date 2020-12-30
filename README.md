@@ -169,6 +169,11 @@ Have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!
   The examples are submitted by the user base, and can be voted up or down;
   the best entries are what people see first when they look up a command.
 
+- [kb](https://github.com/gnebbia/kb)
+  is a minimalist command line knowledge base manager.
+  kb can be used to organize your notes and cheatsheets in a minimalist
+  and clean way. It supports also non-text files.
+
 - [eg](https://github.com/srsudar/eg)
   provides detailed examples with explanations on the command line.
   Examples come from the repository, but `eg` supports displaying
