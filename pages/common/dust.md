@@ -1,7 +1,7 @@
 # dust
 
-> Dust gives you an instant overview of which directories are using disk space:
-> More information: <https://github.com/bootandy/dust>
+> Dust gives you an instant overview of which directories are using disk space:.
+> More information: <https://github.com/bootandy/dust>.
 
 - show the current directory's information:
 
