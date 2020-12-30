@@ -7,7 +7,7 @@
 
 `nc -l {{port}}`
 
-- Connect to a certain port (you can then write to this port):
+- Connect to a certain port:
 
 `nc {{ip_address}} {{port}}`
 
