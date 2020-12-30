@@ -15,6 +15,6 @@
 
 `roave-backward-compatibility-check --to={{git_reference}}`
 
-- Check for breaking changes and output to markdown:
+- Check for breaking changes and output to Markdown:
 
 `roave-backward-compatibility-check --format=markdown > {{results.md}}`

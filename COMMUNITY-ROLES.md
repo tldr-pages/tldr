@@ -93,7 +93,7 @@ using one of the template messages below as a base.
 
    ```
    Hi, @username! You seem to be enjoying contributing to the tldr-pages project.
-   You now have had five distinct pull requests merged ([LINKS TO THE RELEVANT PRs])!
+   You now have had five distinct pull requests merged (<!-- REPLACE THIS WITH LINKS TO THE RELEVANT PRs -->)!
    That qualifies you to become a collaborator in this repository, as explained in our [community roles documentation](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md).
 
    As a collaborator, you will have commit access to the repository.
@@ -121,13 +121,15 @@ using one of the template messages below as a base.
 1. Open an issue with the following message template (edit it as appropriate):
 
    ```
-   Hi, @username! After joining as a collaborator in the repository, you have been regularly performing maintenance tasks.
+   Hi, @username! After joining as a collaborator in the repository, you have been regularly performing maintenance tasks (<!-- REPLACE THIS WITH LINKS TO THE RELEVANT ISSUES AND/OR PRs -->).
    Thank you for that!
-   According to [COMMUNITY-ROLES.md](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md), you've now met the thresholds to be effectively considered an active maintainer of the project ([LINKS TO THE RELEVANT PRs]).
+   According to our [community roles documentation](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md), you've now met the thresholds to be effectively considered an active maintainer of the project.
    To publicly acknowledge that fact, we'd like to add you to the tldr-pages organization.
 
    If you accept the invitation, we ask you to make your membership public, and (in case you don't already) start hanging out in our Gitter chat room.
-   You'll now be one of the public faces of the tldr-pages project.
+   Additionally, consider subscribing to the notifications from the various repositories under the [tldr-pages organization](https://github.com/tldr-pages).
+   As one of the public faces of the tldr-pages project, it's also especially important that you follow and encourage the [project
+   governance principles](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md).
 
    How does that sound? Are you up for it?
    ```
@@ -148,10 +150,10 @@ using one of the template messages below as a base.
    ```
    Hi, @username! You've been an active tldr-pages organization member for over 6 months.
    Thanks for sticking around this far and helping out!
-   According to [COMMUNITY-ROLES.md](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md), you're now eligible for becoming an owner in the organization.
+   According to our [community roles documentation](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md), you're now eligible for becoming an owner in the organization.
 
    That means you will, from now on, be part of the team responsible for performing role changes (like this one!) in the community.
-   Before performing such role transitions, make sure to review the [COMMUNITY-ROLES.md](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md) document.
+   When performing such role transitions, make sure to follow the process described in the [COMMUNITY-ROLES.md](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md) document.
 
    Is that OK with you? Let us know!
 

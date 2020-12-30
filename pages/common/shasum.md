@@ -14,9 +14,17 @@
 
 `shasum --algorithm 512 {{filename1}} {{filename2}}`
 
+- Calculate and save the list of SHA256 checksums to a file:
+
+`shasum --algorithm 256 {{filename1}} {{filename2}} > {{filename.sha256}}`
+
 - Check a file with a list of sums against the directory's files:
 
 `shasum --check {{list_file}}`
+
+- Check a list of sums and only show a message for files for which verification fails:
+
+`shasum --check --quiet {{list_file}}`
 
 - Calculate the SHA1 checksum from `stdin`:
 
