@@ -170,7 +170,7 @@ Have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!
   the best entries are what people see first when they look up a command.
 
 - [kb](https://github.com/gnebbia/kb)
-  it is a minimalist command line knowledge base manager.
+  is a minimalist command line knowledge base manager.
   kb can be used to organize your notes and cheatsheets in a minimalist
   and clean way. It supports also non-text files.
 
