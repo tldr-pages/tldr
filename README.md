@@ -149,7 +149,7 @@ There is also a comprehensive
 - Your favourite command isn't covered?
 - You can think of more examples for an existing command?
 
-All `tldr` pages are kept as markdown files right here in this repository,
+All `tldr` pages are kept as Markdown files right here in this repository,
 so you can edit them directly and submit your changes as pull requests.
 
 All contributions are welcome!
