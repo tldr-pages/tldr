@@ -17,7 +17,7 @@
 
 - Jump to n-th window:
 
-`alt + <number>`
+`alt + {{number_key}}`
 
 - Close current window:
 
