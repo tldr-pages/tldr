@@ -11,7 +11,7 @@
 
 `dust {{path/to/directory1}} {{path/to/directory2}}`
 
-- Show only 30 directories instead of showing default number of directories:
+- Display 30 directories (defaults to 21):
 
 `dust -n 30`
 
