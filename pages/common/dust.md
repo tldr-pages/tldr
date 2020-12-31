@@ -7,7 +7,7 @@
 
 `dust`
 
-- Show the information of A and B directories in the current directory:
+- Display information for a space-separated list of directories:
 
 `dust A B`
 
