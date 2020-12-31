@@ -21,7 +21,7 @@
 
 - Display the biggest directories at the top in descending order:
 
-`dust -r`
+`dust --reverse`
 
 - Ignore all files and directories with a specific name:
 
