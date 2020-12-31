@@ -19,7 +19,7 @@
 
 `dust -d 3`
 
-- Severse order of output, with root at the lowest:
+- Display the biggest directories at the top in descending order:
 
 `dust -r`
 
