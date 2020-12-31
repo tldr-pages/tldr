@@ -17,7 +17,7 @@
 
 - Show 3 levels of subdirectories:
 
-`dust -d 3`
+`dust --depth {{3}}`
 
 - Display the biggest directories at the top in descending order:
 
