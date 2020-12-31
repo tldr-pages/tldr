@@ -13,7 +13,7 @@
 
 - Display 30 directories (defaults to 21):
 
-`dust -n 30`
+`dust --number-of-lines {{30}}`
 
 - Show 3 levels of subdirectories:
 
