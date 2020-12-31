@@ -3,7 +3,7 @@
 > Dust gives you an instant overview of which directories are using disk space:.
 > More information: <https://github.com/bootandy/dust>.
 
-- Show the current directory's information:
+- Display information for the current directory:
 
 `dust`
 
