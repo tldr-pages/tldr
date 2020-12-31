@@ -27,6 +27,6 @@
 
 `dust -X ignore`
 
-- Do not show percentages or draw ASCII bars:
+- Do not display percent bars and percentages:
 
 `dust -b`
