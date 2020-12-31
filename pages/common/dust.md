@@ -15,7 +15,7 @@
 
 `dust --number-of-lines {{30}}`
 
-- Show 3 levels of subdirectories:
+- Display information for the current directory, up to 3 levels deep:
 
 `dust --depth {{3}}`
 
