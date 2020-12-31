@@ -29,4 +29,4 @@
 
 - Do not display percent bars and percentages:
 
-`dust -b`
+`dust --no-percent-bars`
