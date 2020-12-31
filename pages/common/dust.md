@@ -23,7 +23,7 @@
 
 `dust -r`
 
-- Ignore all files and directories with the name 'ignore':
+- Ignore all files and directories with a specific name:
 
 `dust -X ignore`
 
