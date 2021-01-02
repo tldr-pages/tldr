@@ -35,6 +35,8 @@ If you are an owner of the organization, you should be able to see an automated 
   [19 November 2019](https://github.com/tldr-pages/tldr/issues/3580) — present
 - **Proscream ([@Proscream](https://github.com/Proscream))**:
   [22 November 2019](https://github.com/tldr-pages/tldr/issues/3592) — present
+- **Guido Lena Cota ([@glenacota](https://github.com/glenacota))**:
+  [19 October 2020](https://github.com/tldr-pages/tldr/issues/4763) — present
 - **Sahil Dhiman ([@sahilister](https://github.com/sahilister))**:
   [05 December 2020](https://github.com/tldr-pages/tldr/issues/4994) — present
 - **bl-ue ([@bl-ue](https://github.com/bl-ue))**:
