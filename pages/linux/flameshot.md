@@ -1,4 +1,4 @@
-# flameshot 
+# flameshot
 
 > Screenshot utility with a gui interface.
 > Supports basic image editing, such as text, shapes, colors, and imgur.
