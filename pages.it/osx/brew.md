@@ -23,7 +23,7 @@
 
 `brew upgrade {{formula}}`
 
-- Trova la versione più aggiornata di Homebrew e di tutte le formule da Github: 
+- Trova la versione più aggiornata di Homebrew e di tutte le formule da GitHub: 
 
 `brew update`
 
