@@ -18,7 +18,7 @@
 
 `brew upgrade {{formula}}`
 
-- Actualiza a la última versión de Linuxbrew y de todas las fórmulas desde Github:
+- Actualiza a la última versión de Linuxbrew y de todas las fórmulas desde GitHub:
 
 `brew update`
 
