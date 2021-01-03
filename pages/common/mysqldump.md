@@ -14,4 +14,4 @@
 
 - Backup all databases from a remote host and redirecting the output to a file (user will be prompted for a password):
 
-`mysqldump --host={(ip)} --user {{user}} --password --all-databases > ({path/to/file.sql}}`
+`mysqldump --host={(ip_or_hostname)} --user {{user}} --password --all-databases > ({path/to/file.sql}}`
