@@ -1,6 +1,7 @@
-# gpg
+# gpg2
 
 > GNU Privacy Guard 2.
+> See `gpg` for GNU Privacy Guard 1.
 > More information: <https://docs.releng.linuxfoundation.org/en/latest/gpg.html>.
 
 - List imported keys:
