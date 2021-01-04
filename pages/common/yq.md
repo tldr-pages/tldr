@@ -19,18 +19,18 @@
 
 `yq read {{path/to/file.yaml}} '[0]'`
 
-- Overwrite (or set) a key to a value in a file (v4+):
+- Set (or overwrite) a key to a value in a file (v4+):
 
 `yq eval '.{{key}} = "{{value}}"' --inplace {{path/to/file.yaml}}`
 
-- Overwrite (or set) a key to a value in a file (v3):
+- Set (or overwrite) a key to a value in a file (v3):
 
 `yq write --inplace {{path/to/file.yaml}} '{{key}}' '{{value}}'`
 
-- Merge two files and print to STDOUT (v4+):
+- Merge two files and print to `stdout` (v4+):
 
 `yq eval-all 'select(filename == "{{path/to/file1.yaml}}") * select(filename == "{{path/to/file2.yaml}}")' {{path/to/file1.yaml}} {{path/to/file2.yaml}}`
 
-- Merge two files and print to STDOUT (v3):
+- Merge two files and print to `stdout` (v3):
 
 `yq merge {{path/to/file1.yaml}} {{path/to/file2.yaml}} --colors`
