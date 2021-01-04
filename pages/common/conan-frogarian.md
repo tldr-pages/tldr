@@ -1,7 +1,7 @@
 # conan frogarian
 
 > Displays the conan frogarian.
-> More information: <https://github.com/conan-io/conan/pull/6760>.
+> More information: <https://docs.conan.io/>.
 
 - Display the conan frogarian:
 
