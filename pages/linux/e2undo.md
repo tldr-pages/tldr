@@ -20,6 +20,6 @@
 
 `e2undo -v {{path/to/undo_file}} {{/dev/sdXN}}`
 
-- Write the old contents of the block to an undo file before overwrite a file system block:
+- Write the old contents of the block to an undo file before overwriting a file system block:
 
 `e2undo -z {{path/to/file.e2undo}} {{path/to/undo_file}} {{/dev/sdXN}}`
