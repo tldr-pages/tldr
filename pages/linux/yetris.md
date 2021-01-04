@@ -34,7 +34,3 @@
 - Quit the game:
 
 `q`
-
-- Show the help during the game:
-
-`h`
