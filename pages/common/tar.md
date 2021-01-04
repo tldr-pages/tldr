@@ -14,7 +14,7 @@
 
 - [C]reate a g[z]ipped archive from a directory using relative paths:
 
-`tar czf {{target.tar.gz}} -C {{path/to/directory}} .`
+`tar czf {{target.tar.gz}} --directory={{path/to/directory}} .`
 
 - E[x]tract a (compressed) archive [f]ile into the current directory:
 
