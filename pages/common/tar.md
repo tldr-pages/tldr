@@ -20,9 +20,9 @@
 
 `tar xf {{source.tar[.gz|.bz2|.xz]}}`
 
-- [E]xtract a (compressed) archive [f]ile into the target directory:
+- E[x]tract a (compressed) archive [f]ile into the target directory:
 
-`tar xf {{source.tar[.gz|.bz2|.xz]}} -C {{directory}}`
+`tar xf {{source.tar[.gz|.bz2|.xz]}} --directory={{directory}}`
 
 - [C]reate a compressed archive from [f]iles, using [a]rchive suffix to determine the compression program:
 
