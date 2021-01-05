@@ -42,7 +42,7 @@ If you are an owner of the organization, you should be able to see an automated 
 - **bl-ue ([@bl-ue](https://github.com/bl-ue))**:
   [01 January 2021](https://github.com/tldr-pages/tldr/issues/5056) — present
 - Lucas Schneider ([@schneiderl](https://github.com/schneiderl)):
-  [11 April 2019](https://github.com/tldr-pages/tldr/issues/2898) — [17 January 2019](https://github.com/tldr-pages/tldr/issues/3764)
+  [11 April 2019](https://github.com/tldr-pages/tldr/issues/2898) — [17 January 2020](https://github.com/tldr-pages/tldr/issues/3764)
 - Ein Verne ([@einverne](https://github.com/einverne)):
   [29 October 2019](https://github.com/tldr-pages/tldr/issues/3488) — [12 January 2020](https://github.com/tldr-pages/tldr/issues/3738)
 - Zlatan Vasović ([@zlatanvasovic](https://github.com/zlatanvasovic)):
@@ -63,7 +63,7 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
 - **Ein Verne ([@einverne](https://github.com/einverne))**:
   [12 January 2020](https://github.com/tldr-pages/tldr/issues/3738) — present
 - **Lucas Schneider ([@schneiderl](https://github.com/schneiderl))**:
-  [17 January 2019](https://github.com/tldr-pages/tldr/issues/3764) — present
+  [17 January 2020](https://github.com/tldr-pages/tldr/issues/3764) — present
 - **Axel Navarro ([@navarroaxel](https://github.com/navarroaxel))**:
   [05 October 2020](https://github.com/tldr-pages/tldr/issues/4504) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
