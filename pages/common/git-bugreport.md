@@ -1,6 +1,6 @@
 # git bugreport
 
-> Captures information about the user's machine, Git client, and repository state, as well as a form requesting information about the behavior the user observed, into a single text file which the user can then share, for example to the Git mailing list, in order to report an observed bug.
+> Captures information about the user's machine, Git client, and repository state, as well as a form requesting information about the behavior the user observed, into a single text file which the user can share in order to report an observed bug.
 
 - Create a new bugreport file in the current directory:
 
