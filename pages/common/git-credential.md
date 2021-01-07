@@ -5,12 +5,12 @@
 
 - Display credential information, retrieving the username/password from config files:
 
-`echo {{"url=http://example.com"}} | git credential fill`
+`echo "{{url=http://example.com}}" | git credential fill`
 
 - Send credential information to all configured credential helpers to store for later use:
 
-`echo {{"url=http://example.com"}} | git credential approve`
+`echo "{{url=http://example.com}}" | git credential approve`
 
 - Erase the specified credential information from all the configured credential helpers:
 
-`echo {{"url=http://example.com"}} | git credential reject`
+`echo "{{url=http://example.com}}" | git credential reject`
