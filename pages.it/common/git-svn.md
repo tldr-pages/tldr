@@ -15,7 +15,7 @@
 
 `git svn rebase`
 
-- Scarica aggiornamenti da un repository SVN remoto senza spostare l'HEAD git:
+- Scarica aggiornamenti da un repository SVN remoto senza spostare l'HEAD Git:
 
 `git svn fetch`
 
