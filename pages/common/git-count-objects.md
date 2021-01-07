@@ -1,13 +1,13 @@
 # git count-objects
 
-> Count unpacked number of objects and their disk consumption.
+> Count the number of unpacked objects and their disk consumption.
 > More information: <https://git-scm.com/docs/git-count-objects>.
 
-- Display count of all objects and their disk usage:
+- Count all objects and display the total disk usage:
 
 `git count-objects`
 
-- Display count of all objects and their disk usage, displaying sizes in human readable units:
+- Display a count of all objects and their total disk usage, displaying sizes in human readable units:
 
 `git count-objects -H`
 
@@ -15,6 +15,6 @@
 
 `git count-objects -v`
 
-- Display more verbose information, displaying size in human readable units:
+- Display more verbose information, displaying sizes in human readable units:
 
 `git count-objects -v -H`
