@@ -17,4 +17,4 @@
 
 - Actualiza cada submódulo a su último commit:
 
-`git submodule foreach Git pull`
+`git submodule foreach git pull`
