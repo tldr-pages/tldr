@@ -28,6 +28,6 @@
 
 `git restore --worktree --staged :/`
 
-- Interactively select parts of files to restore:
+- Interactively select sections of files to restore:
 
 `git restore --patch`
