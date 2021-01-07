@@ -1,7 +1,7 @@
 # pass
 
 > Programm zum speichern und lesen von Passwörtern und anderen empfindlichen Daten.
-> Die Daten sind mit GPG verschlüsselt und mit einem git repository verwaltet.
+> Die Daten sind mit GPG verschlüsselt und mit einem Git repository verwaltet.
 > Mehr Informationen: <https://www.passwordstore.org>.
 
 - Neuen oder bestehenden Speicher mit einer oder mehreren GPG IDs initialisieren oder neu verschlüsseln:

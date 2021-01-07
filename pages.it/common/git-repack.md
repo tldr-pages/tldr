@@ -1,6 +1,6 @@
 # git repack
 
-> Comprimi gli oggetti decompressi in un repository git.
+> Comprimi gli oggetti decompressi in un repository Git.
 > Maggiori informazioni: <https://git-scm.com/docs/git-repack>.
 
 - Comprimi gli oggetti decompressi nella cartella corrente:

@@ -3,7 +3,7 @@
 > A collection of Git extensions to provide high-level repository operations.
 > More information: <https://github.com/nvie/gitflow>.
 
-- Initialize it inside an existing git repository:
+- Initialize it inside an existing Git repository:
 
 `git flow init`
 

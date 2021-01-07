@@ -11,6 +11,6 @@
 
 `tldr -p {{linux}} {{tar}}`
 
-- Prikaži pomoć za git potkomandu:
+- Prikaži pomoć za Git potkomandu:
 
 `tldr {{git-checkout}}`

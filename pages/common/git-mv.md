@@ -1,6 +1,6 @@
 # git mv
 
-> Move or rename files and update the git index.
+> Move or rename files and update the Git index.
 > More information: <https://git-scm.com/docs/git-mv>.
 
 - Move file inside the repo and add the movement to the next commit:

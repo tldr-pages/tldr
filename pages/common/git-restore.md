@@ -1,6 +1,6 @@
 # git restore
 
-> Restore working tree files. Requires git version 2.23+.
+> Restore working tree files. Requires Git version 2.23+.
 > See also `git checkout` and `git reset`.
 > More information: <https://git-scm.com/docs/git-restore/>.
 

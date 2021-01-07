@@ -1,6 +1,6 @@
 # git config
 
-> Gérer les options de configuration personnalisées pour les référentiels git.
+> Gérer les options de configuration personnalisées pour les référentiels Git.
 > Ces configurations peuvent étre locales (pour le réferentiel courrant) ou globales (pour l utilisateur).
 > Plus d'informations: <https://git-scm.com/docs/git-config>.
 

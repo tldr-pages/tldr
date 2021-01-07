@@ -1,6 +1,6 @@
 # git lfs
 
-> Herramienta para trabajar con archivos grandes en repositorios git.
+> Herramienta para trabajar con archivos grandes en repositorios Git.
 > Más información: <https://git-lfs.github.com>.
 
 - Inicializa Git LFS:
@@ -11,7 +11,7 @@
 
 `git lfs track '{{*.bin}}'`
 
-- Cambia la URL a la que apunta Git LFS (útil si el servidor LFS está separado del servidor git):
+- Cambia la URL a la que apunta Git LFS (útil si el servidor LFS está separado del servidor Git):
 
 `git config -f .lfsconfig lfs.url {{url_del_punto_de_acceso_LFS}}`
 

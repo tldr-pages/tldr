@@ -1,6 +1,6 @@
 # git show
 
-> Mostra vari tipi di oggetti git (commit, tag, etc.).
+> Mostra vari tipi di oggetti Git (commit, tag, etc.).
 > Maggiori informazioni: <https://git-scm.com/docs/git-show>.
 
 - Mostra informazioni sull'ultimo commit (hash, messaggio, modifiche, ed altri metadati):

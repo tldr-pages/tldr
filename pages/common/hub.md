@@ -1,6 +1,6 @@
 # hub
 
-> A wrapper for git that adds commands for working with GitHub-based projects.
+> A wrapper for Git that adds commands for working with GitHub-based projects.
 > If set up as instructed by `hub alias`, one can use `git` to run `hub` commands.
 > More information: <https://hub.github.com>.
 

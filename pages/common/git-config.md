@@ -1,6 +1,6 @@
 # git config
 
-> Manage custom configuration options for git repositories.
+> Manage custom configuration options for Git repositories.
 > These configurations can be local (for the current repository) or global (for the current user).
 > More information: <https://git-scm.com/docs/git-config>.
 
@@ -28,10 +28,10 @@
 
 `git config --global --unset alias.unstage`
 
-- Edit the git configuration for the current repository in the default editor:
+- Edit the Git configuration for the current repository in the default editor:
 
 `git config --edit`
 
-- Edit the global git configuration in the default editor:
+- Edit the global Git configuration in the default editor:
 
 `git config --global --edit`

@@ -1,9 +1,9 @@
 # git flow
 
-> Une colletion d'extentions git pour procurer des opperation de registre supplementaires
+> Une colletion d'extentions Git pour procurer des opperation de registre supplementaires
 > Plus d'informations: <https://github.com/nvie/gitflow>.
 
-- Initialiser dans un registre git existant :
+- Initialiser dans un registre Git existant :
 
 `git flow init`
 
