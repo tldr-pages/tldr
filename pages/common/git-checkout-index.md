@@ -15,6 +15,6 @@
 
 `git checkout-index --all --force --no-create`
 
-- Create an export of the tree at the last commit in the specified directory (the trailing slash is important):
+- Export a copy of the entire tree at the last commit in the specified directory (the trailing slash is important):
 
 `git checkout-index --all --force --prefix={{git-index-export/}}`
