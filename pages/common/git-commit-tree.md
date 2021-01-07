@@ -16,6 +16,6 @@
 
 `git commit-tree {{tree}} -m {{"message"}} -S`
 
-- Create a commit object with the specified parent:
+- Create a commit object with the specified parent commit object:
 
 `git commit-tree {{tree}} -m {{"message"}} -p {{parent_commit_sha}}`
