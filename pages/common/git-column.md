@@ -5,7 +5,7 @@
 
 - Format the standard input as multiple columns:
 
-`ls | git column --mode=column`
+`ls | git column --mode={{column}}`
 
 - Format the standard input as multiple columns with a maximum width of `100`:
 
