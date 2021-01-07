@@ -24,7 +24,7 @@
 
 `git restore --staged :/`
 
-- Discard all changes to files, staged or not:
+- Discard all changes to files, both staged and unstaged:
 
 `git restore --worktree --staged :/`
 
