@@ -23,6 +23,6 @@
 
 `sudo btrfs filesystem sync {{path/to/btrfs_mount}}`
 
-- Summarise disk usage for the files in a directory recursively:
+- Summarize disk usage for the files in a directory recursively:
 
 `sudo btrfs filesystem du {{path/to/directory}}`
