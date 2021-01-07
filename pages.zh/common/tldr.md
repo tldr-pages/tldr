@@ -11,7 +11,7 @@
 
 `tldr -p {{linux}} {{tar}}`
 
-- 获取一个 git 子命令的帮助:
+- 获取一个 Git 子命令的帮助:
 
 `tldr {{git checkout}}`
 
