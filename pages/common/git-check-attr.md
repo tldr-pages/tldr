@@ -15,6 +15,6 @@
 
 `git check-attr -a {{path/to/file1}} {{path/to/file2}}`
 
-- Check the value of a specific attribute on a file:
+- Check the value of a specific attribute on one or more files:
 
 `git check-attr {{attribute}} {{path/to/file1}} {{path/to/file2}}`
