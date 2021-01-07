@@ -11,10 +11,10 @@
 
 `git submodule add {{url_del_repositorio}}`
 
-- Añade un repositorio git como submulo en un directorio específico:
+- Añade un repositorio Git como submulo en un directorio específico:
 
 `git submodule add {{url_del_repositorio}} {{ruta/al/directorio}}`
 
 - Actualiza cada submódulo a su último commit:
 
-`git submodule foreach git pull`
+`git submodule foreach Git pull`

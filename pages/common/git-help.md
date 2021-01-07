@@ -1,17 +1,17 @@
 # git help
 
-> Display help information about git.
+> Display help information about Git.
 > More information: <https://git-scm.com/docs/git-help>.
 
-- Display help about a specific git subcommand:
+- Display help about a specific Git subcommand:
 
 `git help {{subcommand}}`
 
-- Display help about a specific git subcommand in a web browser:
+- Display help about a specific Git subcommand in a web browser:
 
 `git help --web {{subcommand}}`
 
-- Display a list of all available git subcommands:
+- Display a list of all available Git subcommands:
 
 `git help --all`
 

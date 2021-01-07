@@ -1,6 +1,6 @@
 # git branch
 
-> Commande git principale pour travailler avec des branches.
+> Commande Git principale pour travailler avec des branches.
 > Plus d'informations: <https://git-scm.com/docs/git-branch>.
 
 - Liste les branches locale, prefixe la branche courrante avec `*` :

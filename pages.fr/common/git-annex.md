@@ -1,6 +1,6 @@
 # git annex
 
-> Gérez les fichiers avec git, sans archiver leur contenu.
+> Gérez les fichiers avec Git, sans archiver leur contenu.
 > Lorsqu'un fichier est annexé, son contenu est déplacé dans un stockage clé-valeur et un lien symbolique est créé qui pointe vers le contenu.
 > Plus d information: <https://git-annex.branchable.com>.
 
@@ -8,7 +8,7 @@
 
 `git annex help`
 
-- Initialize le repo avec git annex :
+- Initialize le repo avec Git annex :
 
 `git annex init`
 

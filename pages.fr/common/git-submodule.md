@@ -7,11 +7,11 @@
 
 `git submodule update --init --recursive`
 
-- Ajout d'un dépot git en tant que sous module :
+- Ajout d'un dépot Git en tant que sous module :
 
 `git submodule add {{repository_url}}`
 
-- Ajout d'un dépot git en tant que sous module a répertoire donné :
+- Ajout d'un dépot Git en tant que sous module a répertoire donné :
 
 `git submodule add {{repository_url}} {{chemin/vers/repertoire}}`
 

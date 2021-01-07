@@ -1,6 +1,6 @@
 # git status
 
-> Mostra le modifiche ai file in un repository git.
+> Mostra le modifiche ai file in un repository Git.
 > Elenca i file modificati, aggiunti e cancellati rispetto al commit corrente.
 > Maggiori informazioni: <https://git-scm.com/docs/git-status>.
 

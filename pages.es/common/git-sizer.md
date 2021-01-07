@@ -1,6 +1,6 @@
 # git sizer
 
-> Calcula diferentes métricas del repositorio git y te informa de cualquier que puede causar problemas o inconvenientes.
+> Calcula diferentes métricas del repositorio Git y te informa de cualquier que puede causar problemas o inconvenientes.
 > Más información: <https://github.com/github/git-sizer>.
 
 - Reporta solo estadísticas que tienen un nivel de preocupación mayor que 0:

@@ -1,6 +1,6 @@
 # git reset
 
-> Deshace commits o desmarca cambios mediante el reseteo del actual HEAD de git al estado especificado.
+> Deshace commits o desmarca cambios mediante el reseteo del actual HEAD de Git al estado especificado.
 > Si se pasa una ruta, funciona como "desmarcar", si se pasa el hash de un commit o una rama, funciona como "deshacer" el commit.
 > Más información: <https://git-scm.com/docs/git-reset>.
 

@@ -10,7 +10,7 @@
 
 `whereis -bm {{ls}}`
 
-- Locate source of gcc and man pages for git:
+- Locate source of gcc and man pages for Git:
 
 `whereis -s {{gcc}} -m {{git}}`
 
