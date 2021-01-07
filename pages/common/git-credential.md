@@ -7,10 +7,10 @@
 
 `echo {{"url=http://example.com"}} | git credential fill`
 
-- Send credential information to configured credential helpers to store for later use:
+- Send credential information to all configured credential helpers to store for later use:
 
 `echo {{"url=http://example.com"}} | git credential approve`
 
-- Send credential information to configured credential helpers to erase:
+- Erase the specified credential information from all the configured credential helpers:
 
 `echo {{"url=http://example.com"}} | git credential reject`
