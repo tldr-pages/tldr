@@ -1,6 +1,6 @@
 # git update-ref
 
-> Crea, aggiorna e cancella riferimenti git.
+> Crea, aggiorna e cancella riferimenti Git.
 > Maggiori informazioni: <https://git-scm.com/docs/git-update-ref>.
 
 - Cancella un riferimento, utile per resettare il primo commit in modo soft:

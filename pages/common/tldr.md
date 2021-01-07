@@ -11,7 +11,7 @@
 
 `tldr -p {{linux}} {{tar}}`
 
-- Get help for a git subcommand:
+- Get help for a Git subcommand:
 
 `tldr {{git-checkout}}`
 
