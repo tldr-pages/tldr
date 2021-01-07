@@ -1,6 +1,6 @@
 # git pr
 
-> Récupére les pull-request github localement.
+> Récupére les pull-request GitHub localement.
 
 - Récupére une pull-request spécifique :
 
