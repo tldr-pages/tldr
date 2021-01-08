@@ -2,11 +2,11 @@
 
 > 用于操作各种格式的文本文件.
 
-- 显示有关 foo.rtf 的信息:
+- 显示有关 `foo.rtf` 的信息:
 
 `textutil -info {{foo.rtf}}`
 
-- 将 foo.rtf 转换为 foo.html:
+- 将 `foo.rtf` 转换为 `foo.html`:
 
 `textutil -convert {{html}} {{foo.rtf}}`
 
@@ -14,7 +14,7 @@
 
 `textutil {{foo.rtf}} -convert {{txt}}`
 
-- 将 foo.txt 转换为 foo.rtf, 字体使用 Times 字号 10:
+- 将 `foo.txt` 转换为 `foo.rtf`, 字体使用 Times 字号 10:
 
 `textutil -convert {{rtf}} -font {{Times}} -fontsize {{10}} {{foo.txt}}`
 

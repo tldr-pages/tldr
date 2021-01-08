@@ -7,11 +7,11 @@
 
 `gpg --clearsign {{doc.txt}}`
 
-- Criptografa doc.txt para alice@example.com (cria um arquivo de saída doc.txt.gpg):
+- Criptografa doc.txt para alice@example.com (cria um arquivo de saída `doc.txt.gpg`):
 
 `gpg --encrypt --recipient {{alice@example.com}} {{doc.txt}}`
 
-- Criptografa doc.txt apenas com uma senha simétrica (cria um arquivo de sadída doc.txt.gpg):
+- Criptografa doc.txt apenas com uma senha simétrica (cria um arquivo de sadída `doc.txt.gpg`):
 
 `gpg --symmetric {{doc.txt}}`
 

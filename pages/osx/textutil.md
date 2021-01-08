@@ -6,7 +6,7 @@
 
 `textutil -info {{foo.rtf}}`
 
-- Convert foo.rtf into `foo.html`:
+- Convert `foo.rtf` into `foo.html`:
 
 `textutil -convert {{html}} {{foo.rtf}}`
 
