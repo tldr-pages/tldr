@@ -8,9 +8,9 @@
 `awk '{print $5}' {{filename}}`
 
 
-- 공백으로 구분 된 파일에서 "something"을 포함한 두 번째 열 출력하기:
+- 공백으로 구분 된 파일에서 "`foo"을 포함한 두 번째 열 출력하기:
 
-`awk '/{{something}}/ {print $2}' {{filename}}`
+`awk '/{{foo}}/ {print $2}' {{filename}}`
 
 - 공백이 아닌 쉼표를 필드 구분 기호로 사용한 파일에서 각 줄의 마지막 열을 출력하기:
 

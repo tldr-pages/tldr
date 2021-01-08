@@ -11,7 +11,7 @@
 
 `cppclean {{프로젝트/의/경로}} --include-path={{inc1}} --include-path={{inc2}}`
 
-- 특정 팡리 "main.cpp"에서 실행:
+- 특정 팡리 `main.cpp`에서 실행:
 
 `cppclean {{main.cpp}}`
 

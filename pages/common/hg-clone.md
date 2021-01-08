@@ -11,7 +11,7 @@
 
 `hg clone --branch {{branch}} {{remote_repository_source}}`
 
-- Clone a repository with only the ".hg" directory, without checking out files:
+- Clone a repository with only the `.hg` directory, without checking out files:
 
 `hg clone --noupdate {{remote_repository_source}}`
 

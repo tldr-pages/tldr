@@ -7,7 +7,7 @@
 
 `goreload -b {{path/to/binary}} {{file}}.go`
 
-- Set a custom log prefix (defaults to "goreload"):
+- Set a custom log prefix (defaults to `goreload`):
 
 `goreload --logPrefix {{prefix}} {{file}}.go`
 

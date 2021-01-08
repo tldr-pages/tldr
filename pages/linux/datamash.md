@@ -14,6 +14,6 @@
 
 `echo -e '1\n2\n3\n4\n5\n5' | datamash -R {{number_of_decimals_wanted}} mean 1`
 
-- Get the mean of a single column of numbers ignoring "Na" and "NaN" (literal) strings:
+- Get the mean of a single column of numbers ignoring `Na` and `NaN` (literal) strings:
 
 `echo -e '1\n2\nNa\n3\nNaN' | datamash --narm mean 1`

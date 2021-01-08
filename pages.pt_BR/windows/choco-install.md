@@ -11,7 +11,7 @@
 
 `choco install {{caminho/para/os/pacotes.config}}`
 
-- Instalar um arquivo específico "nuspec" ou "nupkg":
+- Instalar um arquivo específico `nuspec` ou `nupkg`:
 
 `choco install {{caminho/para/o/arquivo}}`
 
