@@ -1,23 +1,23 @@
 # svn changelist
 
 > Associate a changelist with a set of files.
-> More information: <https://subversion.apache.org>.
+> More information: <http://svnbook.red-bean.com/en/1.7/svn.advanced.changelists.html>.
 
 - Add files to a [new] changelist:
 
-`svn changelist {{changelist_name}} [{{FILE_PATH}}]`
+`svn changelist {{changelist_name}} {{path/to/file1}} {{path/to/file2}}`
 
 - Remove files from a changelist:
 
-`svn changelist --changelist {{changelist_name}} --remove [{{FILE_PATH}}]`
+`svn changelist --remove {{path/to/file1}} {{path/to/file2}}`
 
 - Remove the whole changelist at once:
 
-`svn changelist --changelist {{changelist_name}} -R --remove .`
+`svn changelist --remove --recursive --changelist {{changelist_name}} .`
 
 - Add a whole folder to a changelist:
 
-`svn changelist -R {{changelist_name}} [{{PATH}}]`
+`svn changelist --recursive {{changelist_name}} {{path/to/folder1}}`
 
 - Commit a changelist:
 
