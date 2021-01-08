@@ -2,7 +2,7 @@
 
 > Elenca i riferimenti in un repository remoto dato un nome o un URL.
 > Qualora né nome né URL siano specificati, il ramo predefinito è upstream - se configurato - oppure origin.
-> Maggiori informazioni: <https://git-scm.com/docs/git-ls-remote.html>.
+> Maggiori informazioni: <https://git-scm.com/docs/git-ls-remote>.
 
 - Mostra tutti i riferimenti nel repository remoto predefinito:
 
