@@ -32,7 +32,7 @@ tldrl -f {{page.md}}
 ```
 
 For other ways to use `tldrl`, such as linting an entire directory, check out (what else!)
-[`tldr tldrl`](https://github.com/tldr-pages/tldr/blob/master/pages/common/tldrl.md)
+[`tldr tldrl`](https://github.com/tldr-pages/tldr/blob/main/pages/common/tldrl.md)
 
 If you're using the Node.js client of tldr-pages, you can preview a page locally using the `-f` flag (aka `--render`):
 
