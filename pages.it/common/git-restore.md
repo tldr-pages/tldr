@@ -2,7 +2,7 @@
 
 > Ripristina i file dell'albero di lavoro. Richiede versioni di Git successive alla 2.23.
 > Vedi anche `git checkout`.
-> Maggiori informazioni: <https://git-scm.com/docs/git-restore/>.
+> Maggiori informazioni: <https://git-scm.com/docs/git-restore>.
 
 - Ripristina un file cancellato dal contenuto del commit corrente (HEAD):
 

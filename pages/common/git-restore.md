@@ -2,7 +2,7 @@
 
 > Restore working tree files. Requires Git version 2.23+.
 > See also `git checkout` and `git reset`.
-> More information: <https://git-scm.com/docs/git-restore/>.
+> More information: <https://git-scm.com/docs/git-restore>.
 
 - Restore an unstaged file to the version of the current commit (HEAD):
 
