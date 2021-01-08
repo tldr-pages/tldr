@@ -14,7 +14,7 @@
 [contributors-image]: https://img.shields.io/github/contributors/tldr-pages/tldr.svg
 [cla-assistant-url]: https://cla-assistant.io/tldr-pages/tldr
 [cla-assistant-image]: https://cla-assistant.io/readme/badge/tldr-pages/tldr
-[license-url]: https://github.com/tldr-pages/tldr/blob/master/LICENSE.md
+[license-url]: https://github.com/tldr-pages/tldr/blob/main/LICENSE.md
 [license-image]: https://img.shields.io/badge/license-CC_BY_4.0-blue.svg
 
 Contributions to the tldr-pages project are [most welcome](GOVERNANCE.md)!

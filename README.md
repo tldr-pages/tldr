@@ -15,7 +15,7 @@
 [prs-merged-image]: https://img.shields.io/github/issues-pr-closed-raw/tldr-pages/tldr.svg?label=merged+PRs&color=green
 [contributors-url]: https://github.com/tldr-pages/tldr/graphs/contributors
 [contributors-image]: https://img.shields.io/github/contributors/tldr-pages/tldr.svg
-[license-url]: https://github.com/tldr-pages/tldr/blob/master/LICENSE.md
+[license-url]: https://github.com/tldr-pages/tldr/blob/main/LICENSE.md
 [license-image]: https://img.shields.io/badge/license-CC_BY_4.0-blue.svg
 </div>
 
