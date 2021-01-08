@@ -15,7 +15,7 @@
 
 `mdbook clean`
 
-- Serve a book at http://localhost:3000, auto build when file changes:
+- Serve a book at `http://localhost:3000`, auto build when file changes:
 
 `mdbook serve`
 
