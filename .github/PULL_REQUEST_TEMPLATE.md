@@ -5,6 +5,6 @@
 - [ ] The page (if new), does not already exist in the repo.
 - [ ] The page is in the correct platform directory (`common/`, `linux/`, etc.)
 - [ ] The page has 8 or fewer examples.
-- [ ] The PR title conforms to the recommended [templates](/tldr-pages/tldr/blob/master/CONTRIBUTING.md#commit-message).
-- [ ] The page follows the [content guidelines](/tldr-pages/tldr/blob/master/CONTRIBUTING.md#guidelines).
+- [ ] The PR title conforms to the recommended [templates](/tldr-pages/tldr/blob/main/CONTRIBUTING.md#commit-message).
+- [ ] The page follows the [content guidelines](/tldr-pages/tldr/blob/main/CONTRIBUTING.md#guidelines).
 - [ ] The page description includes a link to documentation or a homepage (if applicable).
