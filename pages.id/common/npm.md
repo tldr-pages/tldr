@@ -4,7 +4,7 @@
 > Mengelola proyek Node.js dan dependensi modulnya.
 > Informasi selengkapnya: <https://www.npmjs.com/>.
 
-- Membuat file package.json secara interaktif:
+- Membuat file `package.json` secara interaktif:
 
 `npm init`
 
@@ -12,7 +12,7 @@
 
 `npm install`
 
-- Unduh versi tertentu dari sebuah paket dan menambahkan ke daftar dependensi di package.json:
+- Unduh versi tertentu dari sebuah paket dan menambahkan ke daftar dependensi di `package.json`:
 
 `npm install {{nama_modul}}@{{versi}}`
 
@@ -24,7 +24,7 @@
 
 `npm install -g {{nama_modul}}`
 
-- Copot pemasangan paket dan hapus dari daftar dependensi di package.json:
+- Copot pemasangan paket dan hapus dari daftar dependensi di `package.json`:
 
 `npm uninstall {{nama_modul}}`
 

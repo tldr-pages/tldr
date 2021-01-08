@@ -23,7 +23,7 @@
 
 `apt-get upgrade`
 
-- Clean the local repository - removing package files (.deb) from interrupted downloads that can no longer be downloaded:
+- Clean the local repository - removing package files (`.deb`) from interrupted downloads that can no longer be downloaded:
 
 `apt-get autoclean`
 

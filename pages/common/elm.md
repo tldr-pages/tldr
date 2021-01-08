@@ -11,7 +11,7 @@
 
 `elm repl`
 
-- Compile an Elm file, output the result to an index.html file:
+- Compile an Elm file, output the result to an `index.html` file:
 
 `elm make {{source}}`
 

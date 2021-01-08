@@ -23,7 +23,7 @@
 
 `apt-get upgrade`
 
-- Nettoyage du dépôt local - supprime les fichiers de paquets (.deb) des téléchargements interrompus qui ne peuvent plus être téléchargés:
+- Nettoyage du dépôt local - supprime les fichiers de paquets (`.deb`) des téléchargements interrompus qui ne peuvent plus être téléchargés:
 
 `apt-get autoclean`
 

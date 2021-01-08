@@ -7,7 +7,7 @@
 
 `stripe logs tail`
 
-- Listen for events, filtering on events with the name `charge.succeeded` and forwarding them to localhost:3000/events:
+- Listen for events, filtering on events with the name `charge.succeeded` and forwarding them to `localhost:3000/events`:
 
 `stripe listen --events="{{charge.succeeded}}" --forward-to="{{localhost:3000/events}}"`
 

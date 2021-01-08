@@ -6,11 +6,11 @@
 
 `duti -s {{com.apple.Safari}} {{public.html}} all`
 
-- Set VLC as the default viewer for files with .m4v extensions:
+- Set VLC as the default viewer for files with `.m4v` extensions:
 
 `duti -s {{org.videolan.vlc}} {{m4v}} viewer`
 
-- Set Finder as the default handler for the ftp:// URL scheme:
+- Set Finder as the default handler for the `ftp://` URL scheme:
 
 `duti -s {{com.apple.Finder}} {{ftp}}`
 

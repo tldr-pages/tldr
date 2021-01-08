@@ -19,11 +19,11 @@
 
 `wsl --list`
 
-- Export a distribution to a .tar file:
+- Export a distribution to a `.tar` file:
 
 `wsl --export {{distribution}} {{path/to/distro_fs.tar}}`
 
-- Import a distribution from a .tar file:
+- Import a distribution from a `.tar` file:
 
 `wsl --import {{distribution}} {{path/to/install_location}} {{path/to/distro_fs.tar}}`
 

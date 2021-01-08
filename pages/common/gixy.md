@@ -3,7 +3,7 @@
 > Analyze nginx configuration files.
 > More information: <https://github.com/yandex/gixy>.
 
-- Analyze nginx configuration (default path: /etc/nginx/nginx.conf):
+- Analyze nginx configuration (default path: `/etc/nginx/nginx.conf`):
 
 `gixy`
 

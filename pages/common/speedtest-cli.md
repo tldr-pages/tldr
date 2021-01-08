@@ -15,11 +15,11 @@
 
 `speedtest-cli --share`
 
-- Print a list of all speedtest.net servers, sorted by distance, to file:
+- Print a list of all `speedtest.net` servers, sorted by distance, to file:
 
 `speedtest-cli --list > speedtest_servers.txt`
 
-- Run a speed test to the given speedtest.net server id:
+- Run a speed test to the given `speedtest.net` server id:
 
 `speedtest-cli --server {{server_id}}`
 

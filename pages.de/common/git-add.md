@@ -15,7 +15,7 @@
 
 `git add -u`
 
-- Fügt auch Dateien, welche ignoriert werden (.gitignore) hinzu:
+- Fügt auch Dateien, welche ignoriert werden (`.gitignore`) hinzu:
 
 `git add -f`
 

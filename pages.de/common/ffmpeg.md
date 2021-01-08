@@ -11,7 +11,7 @@
 
 `ffmpeg -i {{video.mpg|video.gif}} {{frame_%d.png}}`
 
-- Kombiniere numerierte Bilder (frame_1.jpg, frame_2.jpg, etc) in ein Video oder Gif:
+- Kombiniere numerierte Bilder (`frame_1.jpg`, `frame_2.jpg`, etc) in ein Video oder Gif:
 
 `ffmpeg -i {{frame_%d.jpg}} -f bild2 {{video.mpg|video.gif}}`
 

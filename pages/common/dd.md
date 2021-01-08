@@ -2,7 +2,7 @@
 
 > Convert and copy a file.
 
-- Make a bootable usb drive from an isohybrid file (such like archlinux-xxx.iso) and show the progress:
+- Make a bootable usb drive from an isohybrid file (such like `archlinux-xxx.iso`) and show the progress:
 
 `dd if={{file.iso}} of=/dev/{{usb_drive}} status=progress`
 

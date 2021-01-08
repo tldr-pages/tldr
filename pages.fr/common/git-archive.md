@@ -3,11 +3,11 @@
 > Cree une archive de fichiers depuis un branche donée.
 > Plus d informations: <https://git-scm.com/docs/git-archive>.
 
-- Crée une archive .tar avec le contenu de la HEAD et l'affiche sur la sortie stanard :
+- Crée une archive `.tar` avec le contenu de la HEAD et l'affiche sur la sortie stanard :
 
 `git archive --verbose HEAD`
 
-- Crée une archive .zip avec le contenu de la HEAD et l'affiche sur la sortie stanard :
+- Crée une archive `.zip` avec le contenu de la HEAD et l'affiche sur la sortie stanard :
 
 `git archive --verbose --format=zip HEAD`
 

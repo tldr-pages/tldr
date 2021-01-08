@@ -4,7 +4,7 @@
 > Used to intersect, group, convert and count data in BAM, BED, GFF/GTF, VCF format.
 > More information: <https://bedtools.readthedocs.io/en/latest/>.
 
-- Intersect two files with respect to the sequences' strand and save the result to {{path/to/output_file}}:
+- Intersect two files with respect to the sequences' strand and save the result to {{`path/to/output_file`}}:
 
 `bedtools intersect -a {{path/to/file_1}} -b {{path/to/file_2}} -s > {{path/to/output_file}}`
 
@@ -16,7 +16,7 @@
 
 `bedtools intersect -a {{path/to/file_1}} -b {{path/to/file_2}} -sorted > {{path/to/output_file}}`
 
-- Group file {{path/to/file}} based on the first three and the fifth column and summarize the sixth column by summing it up:
+- Group file {{`path/to/file`}} based on the first three and the fifth column and summarize the sixth column by summing it up:
 
 `bedtools groupby -i {{path/to/file}} -c 1-3,5 -g 6 -o sum`
 

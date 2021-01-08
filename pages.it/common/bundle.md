@@ -7,7 +7,7 @@
 
 `bundle install`
 
-- Aggiorna tutte le gem secondo le regole definite nel gemfile e genera un gemfile.lock:
+- Aggiorna tutte le gem secondo le regole definite nel gemfile e genera un `gemfile.lock`:
 
 `bundle update`
 
