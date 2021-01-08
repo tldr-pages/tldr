@@ -3,7 +3,7 @@
 > Retrieve and store user credentials.
 > More information: <https://git-scm.com/docs/git-credential>.
 
-- Display credential information, retrieving the username/password from config files:
+- Display credential information, retrieving the username and password from configuration files:
 
 `echo "{{url=http://example.com}}" | git credential fill`
 
