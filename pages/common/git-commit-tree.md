@@ -6,7 +6,7 @@
 
 - Create a commit object with the specified message:
 
-`git commit-tree {{tree}} -m {{"message"}}`
+`git commit-tree {{tree}} -m "{{message}}"`
 
 - Create a commit object reading the message from a file (use `-` for `stdin`):
 
@@ -14,8 +14,8 @@
 
 - Create a GPG-signed commit object:
 
-`git commit-tree {{tree}} -m {{"message"}} -S`
+`git commit-tree {{tree}} -m {{"message"}} --gpg-sign`
 
 - Create a commit object with the specified parent commit object:
 
-`git commit-tree {{tree}} -m {{"message"}} -p {{parent_commit_sha}}`
+`git commit-tree {{tree}} -m "{{message}}" -p {{parent_commit_sha}}`
