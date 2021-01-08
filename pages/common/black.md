@@ -11,7 +11,7 @@
 
 `black -c {{path/to/file_or_directory}}`
 
-- Output a diff for each file on stdout:
+- Output a diff for each file on `stdout`:
 
 `black --diff {{path/to/file_or_directory}}`
 
@@ -19,6 +19,6 @@
 
 `black --check {{path/to/file_or_directory}}`
 
-- Auto-format a file or directory emitting exclusively error messages to stderr:
+- Auto-format a file or directory emitting exclusively error messages to `stderr`:
 
 `black --quiet {{path/to/file_or_directory}}`

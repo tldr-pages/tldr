@@ -24,7 +24,7 @@
 
 `bash -e {{bestand.sh}}`
 
-- Voer commando's van stdin uit:
+- Voer commando's van `stdin` uit:
 
 `bash -s`
 
