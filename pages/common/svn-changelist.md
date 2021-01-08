@@ -18,3 +18,7 @@
 - Add a whole folder to a changelist
 
 `svn changelist -R {{changelist_name}} [{{PATH}}]`
+
+- Commit a changelist
+
+`svn commit --changelist {{changelist_name}}`
