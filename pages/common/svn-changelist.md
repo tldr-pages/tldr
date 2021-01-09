@@ -3,7 +3,7 @@
 > Associate a changelist with a set of files.
 > More information: <http://svnbook.red-bean.com/en/1.7/svn.advanced.changelists.html>.
 
-- Add files to a [new] changelist:
+- Add files to a changelist. If a changelist with that name does not exist, create one:
 
 `svn changelist {{changelist_name}} {{path/to/file1}} {{path/to/file2}}`
 
@@ -15,9 +15,9 @@
 
 `svn changelist --remove --recursive --changelist {{changelist_name}} .`
 
-- Add a whole folder to a changelist:
+- Add the contents of folders to a changelist:
 
-`svn changelist --recursive {{changelist_name}} {{path/to/folder1}}`
+`svn changelist --recursive {{changelist_name}} {{path/to/folder1}} {{path/to/folder2}}`
 
 - Commit a changelist:
 
