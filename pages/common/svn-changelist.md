@@ -17,7 +17,7 @@
 
 - Add the contents of folders to a changelist:
 
-`svn changelist --recursive {{changelist_name}} {{path/to/folder1}} {{path/to/folder2}}`
+`svn changelist --recursive {{changelist_name}} {{path/to/directory1}} {{path/to/directory2}}`
 
 - Commit a changelist:
 
