@@ -54,7 +54,7 @@ If you are an owner of the organization, you should be able to see an automated 
 
 ## Organization members
 
-In addition to everything that a repository collaborator can do, organization members
+In addition to everything that repository collaborators can do, organization members
 also have collaborator access to all the repositories in the tldr-pages organization.
 An automated list can be found [here](https://github.com/orgs/tldr-pages/people).
 
