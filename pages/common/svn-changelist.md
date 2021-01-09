@@ -3,7 +3,7 @@
 > Associate a changelist with a set of files.
 > More information: <http://svnbook.red-bean.com/en/1.7/svn.advanced.changelists.html>.
 
-- Add files to a changelist. If a changelist with that name does not exist, create one:
+- Add files to a changelist, creating the changelist if it does not exist:
 
 `svn changelist {{changelist_name}} {{path/to/file1}} {{path/to/file2}}`
 
