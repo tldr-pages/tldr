@@ -1,6 +1,6 @@
 # gh help
 
-> Display help about GitHub CLI command.
+> Display help about the GitHub CLI command.
 > More information: <https://cli.github.com/manual/gh_help>.
 
 - Display general help:
