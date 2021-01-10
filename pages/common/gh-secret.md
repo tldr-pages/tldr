@@ -3,7 +3,7 @@
 > Manage GitHub secrets from the command line.
 > More information: <https://cli.github.com/manual/gh_secret>.
 
-- List secret keys for the repository in the local path:
+- List secret keys for the current repository:
 
 `gh secret list`
 
@@ -15,7 +15,7 @@
 
 `gh secret list --repo {{owner}}/{{repository}}`
 
-- Set a secret from `stdin` for the repository in the local path:
+- Set a secret from `stdin` for the current repository:
 
 `gh secret set {{name}} < {{path/to/file}}`
 
@@ -27,7 +27,7 @@
 
 `gh secret set {{name}} --org {{organization}} --repos {{repository1,repository2}}`
 
-- Remove a secret for the repository in the local path:
+- Remove a secret for the current repository:
 
 `gh secret remove {{name}}`
 
