@@ -56,8 +56,9 @@ If you are an owner of the organization, you should be able to see an automated 
 
 ## Organization members
 
-In addition everything that a repository collaborator can do,
-an organization member also has write access to all the repositories in the tldr-pages organization.
+In addition to everything that repository collaborators can do, organization members
+have write access to all the repositories in the tldr-pages organization,
+and [a few extra maintenance capabilities](https://docs.github.com/en/free-pro-team@latest/github/setting-up-and-managing-organizations-and-teams/permission-levels-for-an-organization).
 An automated list can be found [here](https://github.com/orgs/tldr-pages/people).
 
 - **Iván Hernández Cazorla ([@ivanhercaz](https://github.com/ivanhercaz))**:
