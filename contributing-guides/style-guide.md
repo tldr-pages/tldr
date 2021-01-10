@@ -73,8 +73,8 @@ More technical wording on description lines should use the `backtick` syntax.
 Use backticks on the following:
 
 1. Filenames, ex. `package.json`.
-2. Directories, ex `/etc/ansible/hosts`.
-3. Extensions, ex `.dll`.
-4. Commands, ex `ls`.
+2. Directories, ex. `/etc/ansible/hosts`.
+3. Extensions, ex. `.dll`.
+4. Commands, ex. `ls`.
 5. Keyboard commands, ex. `CTRL+ALT+DEL`.
 6. Port numbers, ex. `8080`.
