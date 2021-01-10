@@ -19,6 +19,6 @@
 
 `jekyll build`
 
-- Clean the site (removes site output and `cache` folder) without building:
+- Clean the site (removes site output and `cache` directory) without building:
 
 `jekyll clean`
