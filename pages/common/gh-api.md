@@ -3,6 +3,10 @@
 > Makes authenticated HTTP requests to the GitHub API and prints the response.
 > More information: <https://cli.github.com/manual/gh_api>.
 
+- Display the subcommand help:
+
+`gh api --help`
+
 - Display the releases for the repository in the local path in JSON format:
 
 `gh api repos/:owner/:repo/releases`
