@@ -11,11 +11,11 @@
 
 `gh alias list`
 
-- Set a command shortcut:
+- Create a `gh` subcommand alias:
 
 `gh alias set {{pv}} '{{pr view}}`
 
-- Set a shell command as a command shortcut:
+- Set a shell command as a `gh` subcommand:
 
 `gh alias set --shell {{alias_name}} {{command}}`
 
