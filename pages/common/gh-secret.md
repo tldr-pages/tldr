@@ -15,7 +15,7 @@
 
 `gh secret list --repo {{owner}}/{{repository}}`
 
-- Set a secret from `stdin` for the current repository:
+- Set a secret from a file for the current repository:
 
 `gh secret set {{name}} < {{path/to/file}}`
 
