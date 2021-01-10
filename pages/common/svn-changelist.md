@@ -15,7 +15,7 @@
 
 `svn changelist --remove --recursive --changelist {{changelist_name}} .`
 
-- Add the contents of folders to a changelist:
+- Add the contents of a space-separated list of directories to a changelist:
 
 `svn changelist --recursive {{changelist_name}} {{path/to/directory1}} {{path/to/directory2}}`
 
