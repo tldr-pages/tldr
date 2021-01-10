@@ -13,7 +13,7 @@
 
 - Create a reaction for a specific issue:
 
-`gh api --header {{Accept:application/vnd.github.squirrel-girl-preview+json}} repos/:owner/:repo/issues/{{issue_number}}/reactions --raw-field {{content=+1}}`
+`gh api --header {{Accept:application/vnd.github.squirrel-girl-preview+json}} --raw-field '{{content=+1}}' {{repos/:owner/:repo/issues/123/reactions}}`
 
 - Display the result of a GraphQL query in JSON format:
 
