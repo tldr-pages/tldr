@@ -78,7 +78,3 @@ Use backticks on the following:
 4. Commands, ex `ls`.
 5. Keyboard commands, ex. `CTRL+ALT+DEL`.
 6. Port numbers, ex. `8080`.
-
-
-
-
