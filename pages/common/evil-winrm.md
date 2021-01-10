@@ -12,7 +12,7 @@
 
 `evil-winrm --ip {{ip}} --user {{user}} --hash {{nt_hash}}`
 
-- Connect to a host, specifying folders for scripts and executables:
+- Connect to a host, specifying directories for scripts and executables:
 
 `evil-winrm --ip {{ip}} --user {{user}} --password {{password}} --scripts {{path/to/scripts}} --executables {{path/to/executables}}`
 
@@ -28,10 +28,10 @@
 
 `PS > menu`
 
-- Load a PowerShell script from the `--scripts` folder:
+- Load a PowerShell script from the `--scripts` directory:
 
 `PS > {{script.ps1}}`
 
-- Invoke a binary on the host from the `--executables` folder:
+- Invoke a binary on the host from the `--executables` directory:
 
 `PS > Invoke-Binary {{binary.exe}}`
