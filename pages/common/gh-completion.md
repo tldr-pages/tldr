@@ -7,14 +7,14 @@
 
 `gh completion`
 
-- Print a completion script to `stdout`:
+- Print a completion script:
 
 `gh completion --shell {{bash|zsh|fish|powershell}}`
 
-- Append the `gh` completion script to the `.bashrc`:
+- Append the `gh` completion script to `~/.bashrc`:
 
 `gh completion --shell {{bash}} >> {{~/.bashrc}}`
 
-- Append the `gh` completion script to the `.zshrc`:
+- Append the `gh` completion script to `~/.zshrc`:
 
 `gh completion --shell {{zsh}} >> {{~/.zshrc}}`
