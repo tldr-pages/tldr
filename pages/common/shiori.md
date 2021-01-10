@@ -19,6 +19,6 @@
 
 `shiori open {{bookmark_id}}`
 
-- Start the web interface for managing bookmarks at port 8181:
+- Start the web interface for managing bookmarks at port `8181`:
 
 `shiori serve --port {{8181}}`

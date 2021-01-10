@@ -6,7 +6,7 @@
 
 `waitress-serve {{import.path:wsgi_func}}`
 
-- Listen on port 8080 on localhost:
+- Listen on port `8080` on localhost:
 
 `waitress-serve --listen={{localhost}}:{{8080}} {{import.path:wsgi_func}}`
 

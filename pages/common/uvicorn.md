@@ -7,7 +7,7 @@
 
 `uvicorn {{import.path:app_object}}`
 
-- Listen on port 8080 on localhost:
+- Listen on port `8080` on localhost:
 
 `uvicorn --host {{localhost}} --port {{8080}} {{import.path:app_object}}`
 

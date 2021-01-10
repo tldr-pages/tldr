@@ -7,7 +7,7 @@
 
 `rails new "{{project_name}}"`
 
-- Start local server for current project on port 3000:
+- Start local server for current project on port `3000`:
 
 `rails server`
 

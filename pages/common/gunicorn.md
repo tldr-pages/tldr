@@ -7,7 +7,7 @@
 
 `gunicorn {{import.path:app_object}}`
 
-- Listen on port 8080 on localhost:
+- Listen on port `8080` on localhost:
 
 `gunicorn --bind {{localhost}}:{{8080}} {{import.path:app_object}}`
 

@@ -2,7 +2,7 @@
 
 > Java Heap Analysis Tool.
 
-- Analyze a heap dump (from jmap), view via http on port 7000:
+- Analyze a heap dump (from jmap), view via http on port `7000`:
 
 `jhat {{dump_file.bin}}`
 

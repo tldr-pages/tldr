@@ -27,7 +27,7 @@
 
 `cake schema_cache clear {{table_name}}`
 
-- Start a development web server (defaults to port 8765):
+- Start a development web server (defaults to port `8765`):
 
 `cake server`
 

@@ -3,7 +3,7 @@
 > Check SSL/TLS protocols and ciphers supported by a server.
 > More information: <https://testssl.sh/>.
 
-- Test a server (run every check) on port 443:
+- Test a server (run every check) on port `443`:
 
 `testssl {{example.com}}`
 
