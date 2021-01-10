@@ -15,7 +15,7 @@
 
 `gh help environment`
 
-- Display a markdown reference of all gh commands:
+- Display a markdown reference of all `gh` commands:
 
 `gh help reference`
 
