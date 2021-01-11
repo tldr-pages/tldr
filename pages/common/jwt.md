@@ -1,7 +1,7 @@
 # jwt
 
 > A command line tool to work with JSON Web Tokens (JWTs).
-> Encryption algorithms available are HS256,HS384, HS512, RS256, RS384, RS512, ES256, ES384.
+> Encryption algorithms available are HS256, HS384, HS512, RS256, RS384, RS512, ES256, ES384.
 > More information: <https://github.com/mike-engel/jwt-cli>.
 
 - Decode a JWT:
