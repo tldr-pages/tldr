@@ -41,6 +41,8 @@ If you are an owner of the organization, you should be able to see an automated 
   [05 December 2020](https://github.com/tldr-pages/tldr/issues/4994) — present
 - **bl-ue ([@bl-ue](https://github.com/bl-ue))**:
   [01 January 2021](https://github.com/tldr-pages/tldr/issues/5056) — present
+- **Matthew Peveler ([@MasterOdin](https://github.com/MasterOdin))**:
+  [09 January 2021](https://github.com/tldr-pages/tldr/issues/5122) — present  
 - Lucas Schneider ([@schneiderl](https://github.com/schneiderl)):
   [11 April 2019](https://github.com/tldr-pages/tldr/issues/2898) — [17 January 2020](https://github.com/tldr-pages/tldr/issues/3764)
 - Ein Verne ([@einverne](https://github.com/einverne)):
@@ -54,8 +56,9 @@ If you are an owner of the organization, you should be able to see an automated 
 
 ## Organization members
 
-In addition everything that a repository collaborator can do,
-an organization member also has write access to all the repositories in the tldr-pages organization.
+In addition to everything that repository collaborators can do, organization members
+have write access to all the repositories in the tldr-pages organization,
+and [a few extra maintenance capabilities](https://docs.github.com/en/free-pro-team@latest/github/setting-up-and-managing-organizations-and-teams/permission-levels-for-an-organization).
 An automated list can be found [here](https://github.com/orgs/tldr-pages/people).
 
 - **Iván Hernández Cazorla ([@ivanhercaz](https://github.com/ivanhercaz))**:
