@@ -1,4 +1,4 @@
-﻿# AdGuardHome
+# AdGuardHome
 
 > Программное обеспечение для блокировки рекламы и отслеживания во всей сети.
 > Больше информации: <https://github.com/AdguardTeam/AdGuardHome>.

@@ -1,4 +1,4 @@
-﻿# abduco
+# abduco
 
 > Менеджер сессий терминала.
 > Больше информации: <http://www.brain-dump.org/projects/abduco/>.
