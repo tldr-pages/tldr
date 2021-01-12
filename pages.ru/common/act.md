@@ -1,4 +1,4 @@
-﻿# act
+# act
 
 > Запуск GitHub Actions локально с использованием Docker.
 > Больше информации: <https://github.com/nektos/act>.
