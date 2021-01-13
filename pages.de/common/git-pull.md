@@ -1,7 +1,7 @@
 # git pull
 
 > Holen eines Branches von einem entfernten Repository und zusammenführen in das lokale Repository.
-> Mehr Information: <https://git-scm.com/docs/git-pull>.
+> Mehr Informationen: <https://git-scm.com/docs/git-pull>.
 
 - Änderungen vom Standard-Repository herunterladen und zusammenführen:
 

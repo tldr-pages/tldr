@@ -1,7 +1,7 @@
 # plantuml
 
 > Erstellen Sie UML-Diagramme aus einer reinen Textsprache und rendern Sie sie in verschiedenen Formaten.
-> Weitere Informationen: <https://plantuml.com/en/command-line>.
+> Mehr Informationen: <https://plantuml.com/en/command-line>.
 
 - Rendern von Diagrammen im Standardformat (PNG):
 

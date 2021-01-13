@@ -1,7 +1,7 @@
 # aws kinesis
 
 > Offizielles AWS Kommandozeilen Werkzeug für die Amazon Kinesis-Streaming-Datenplattform.
-> Weitere Informationen: <https://docs.aws.amazon.com/cli/latest/reference/kinesis/index.html#cli-aws-kinesis>.
+> Mehr Informationen: <https://docs.aws.amazon.com/cli/latest/reference/kinesis/index.html#cli-aws-kinesis>.
 
 - Auflistung aller Streams:
 

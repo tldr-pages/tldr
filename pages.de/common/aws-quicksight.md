@@ -1,7 +1,7 @@
 # aws quicksight
 
 > Kommandozeilen Werkzeug für AWS QuickSight.
-> Weitere Informationen: <https://docs.aws.amazon.com/cli/latest/reference/quicksight/index.html>.
+> Mehr Informationen: <https://docs.aws.amazon.com/cli/latest/reference/quicksight/index.html>.
 
 - Auflistung aller Datensätze:
 
