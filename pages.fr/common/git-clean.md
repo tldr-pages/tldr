@@ -3,11 +3,11 @@
 > Supprimer les fichiers non suivis du repertoire.
 > Plus d'informations: <https://git-scm.com/docs/git-clean>.
 
-- Supprimer les fichiers non suivis par git :
+- Supprimer les fichiers non suivis par Git :
 
 `git clean`
 
-- Supprimer les fichiers non suivis par git de manière interactive :
+- Supprimer les fichiers non suivis par Git de manière interactive :
 
 `git clean -i`
 
@@ -15,11 +15,11 @@
 
 `git clean --dry-run`
 
-- Nettoyage forcé des fichiers non suivis par git :
+- Nettoyage forcé des fichiers non suivis par Git :
 
 `git clean -f`
 
-- Nettoyage forcé des repertoires non suivis par git :
+- Nettoyage forcé des repertoires non suivis par Git :
 
 `git clean -fd`
 

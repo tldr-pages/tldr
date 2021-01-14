@@ -1,6 +1,6 @@
 # git show
 
-> Show various types of git objects (commits, tags, etc.).
+> Show various types of Git objects (commits, tags, etc.).
 > More information: <https://git-scm.com/docs/git-show>.
 
 - Show information about the latest commit (hash, message, changes, and other metadata):

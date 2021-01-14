@@ -1,6 +1,6 @@
 # git branch
 
-> Perintah git utama untuk bekerja dengan cabang (*branch*).
+> Perintah Git utama untuk bekerja dengan cabang (*branch*).
 > Informasi lebih lanjut: <https://git-scm.com/docs/git-branch>.
 
 - Menampilkan daftar cabang lokal. Cabang saat ini ditandai oleh `*`:

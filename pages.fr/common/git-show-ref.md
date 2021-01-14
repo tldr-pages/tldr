@@ -1,6 +1,6 @@
 # git show-ref
 
-> commande git pour lister les références.
+> commande Git pour lister les références.
 > Plus d'informations: <https://git-scm.com/docs/git-show-ref>.
 
 - Affiche toutes les références dans le dépot :

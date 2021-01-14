@@ -117,7 +117,7 @@ Check out the step-by-step instructions (with screenshots) on
 [GitHub Help](https://help.github.com/articles/editing-files-in-another-user-s-repository/).
 
 Alternatively, you can do most of the process
-[using git on the command line](contributing-guides/git-terminal.md).
+[using Git on the command line](contributing-guides/git-terminal.md).
 
 ### Commit message
 

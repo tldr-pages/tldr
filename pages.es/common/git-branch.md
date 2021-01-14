@@ -1,6 +1,6 @@
 # git branch
 
-> Comando git principal para trabajar con ramas.
+> Comando Git principal para trabajar con ramas.
 > Más información: <https://git-scm.com/docs/git-branch>.
 
 - Muestra las ramas locales. La rama actual está resaltado por `*`:

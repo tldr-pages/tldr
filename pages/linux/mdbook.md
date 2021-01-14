@@ -19,6 +19,6 @@
 
 `mdbook serve`
 
-- Watch a set of markdown files and automatically build when a file is changed:
+- Watch a set of Markdown files and automatically build when a file is changed:
 
 `mdbook watch`

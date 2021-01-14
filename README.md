@@ -149,7 +149,7 @@ There is also a comprehensive
 - Your favourite command isn't covered?
 - You can think of more examples for an existing command?
 
-All `tldr` pages are kept as markdown files right here in this repository,
+All `tldr` pages are kept as Markdown files right here in this repository,
 so you can edit them directly and submit your changes as pull requests.
 
 All contributions are welcome!
@@ -168,6 +168,11 @@ Have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!
   Bro pages show concise, common-case examples for Unix commands.
   The examples are submitted by the user base, and can be voted up or down;
   the best entries are what people see first when they look up a command.
+
+- [kb](https://github.com/gnebbia/kb)
+  is a minimalist command line knowledge base manager.
+  kb can be used to organize your notes and cheatsheets in a minimalist
+  and clean way. It supports also non-text files.
 
 - [eg](https://github.com/srsudar/eg)
   provides detailed examples with explanations on the command line.

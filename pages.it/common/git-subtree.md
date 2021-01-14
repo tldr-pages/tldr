@@ -3,7 +3,7 @@
 > Strumento per gestire le dipendenze di un progetto come progetti secondari.
 > Maggiori informazioni: <https://manpages.debian.org/testing/git-man/git-subtree.1.en.html>.
 
-- Aggiungi un repository git come albero secondario:
+- Aggiungi un repository Git come albero secondario:
 
 `git subtree add --prefix={{percorso/alla/cartella/}} --squash {{url_repository}} {{master}}`
 

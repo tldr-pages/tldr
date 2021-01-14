@@ -27,9 +27,9 @@
 
 `sort -u {{path/to/file}}`
 
-- Sort human-readable numbers (in this case the 5th field of `ls -lh`):
+- Sort a file, printing the output to the specified output file (can be used to sort a file in-place):
 
-`ls -lh | sort -h -k 5`
+`sort --output={{path/to/file}} {{path/to/file}}`
 
 - Sort numbers with exponents:
 

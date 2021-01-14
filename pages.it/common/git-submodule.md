@@ -7,11 +7,11 @@
 
 `git submodule update --init --recursive`
 
-- Aggiungi un repository git come modulo secondario:
+- Aggiungi un repository Git come modulo secondario:
 
 `git submodule add {{url_repository}}`
 
-- Aggiungi un repository git come modulo secondario alla cartella specificata:
+- Aggiungi un repository Git come modulo secondario alla cartella specificata:
 
 `git submodule add {{url_repository}} {{percorso/alla/cartella}}`
 

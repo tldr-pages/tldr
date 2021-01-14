@@ -35,13 +35,19 @@ If you are an owner of the organization, you should be able to see an automated 
   [19 November 2019](https://github.com/tldr-pages/tldr/issues/3580) — present
 - **Proscream ([@Proscream](https://github.com/Proscream))**:
   [22 November 2019](https://github.com/tldr-pages/tldr/issues/3592) — present
+- **Guido Lena Cota ([@glenacota](https://github.com/glenacota))**:
+  [19 October 2020](https://github.com/tldr-pages/tldr/issues/4763) — present
 - **Sahil Dhiman ([@sahilister](https://github.com/sahilister))**:
   [05 December 2020](https://github.com/tldr-pages/tldr/issues/4994) — present
+- **bl-ue ([@bl-ue](https://github.com/bl-ue))**:
+  [01 January 2021](https://github.com/tldr-pages/tldr/issues/5056) — present
+- **Matthew Peveler ([@MasterOdin](https://github.com/MasterOdin))**:
+  [09 January 2021](https://github.com/tldr-pages/tldr/issues/5122) — present  
 - Lucas Schneider ([@schneiderl](https://github.com/schneiderl)):
-  [11 April 2019](https://github.com/tldr-pages/tldr/issues/2898) — [17 January 2019](https://github.com/tldr-pages/tldr/issues/3764)
+  [11 April 2019](https://github.com/tldr-pages/tldr/issues/2898) — [17 January 2020](https://github.com/tldr-pages/tldr/issues/3764)
 - Ein Verne ([@einverne](https://github.com/einverne)):
   [29 October 2019](https://github.com/tldr-pages/tldr/issues/3488) — [12 January 2020](https://github.com/tldr-pages/tldr/issues/3738)
-- Zlatan Vasović ([@zdroid](https://github.com/zdroid)):
+- Zlatan Vasović ([@zlatanvasovic](https://github.com/zlatanvasovic)):
   [30 November 2019](https://github.com/tldr-pages/tldr/issues/3636) — [17 December 2019](https://github.com/tldr-pages/tldr/issues/3663)
 - Iván Hernández Cazorla ([@ivanhercaz](https://github.com/ivanhercaz)):
   [24 December 2019](https://github.com/tldr-pages/tldr/issues/3690) — [5 January 2020](https://github.com/tldr-pages/tldr/issues/3736)
@@ -50,8 +56,9 @@ If you are an owner of the organization, you should be able to see an automated 
 
 ## Organization members
 
-In addition everything that a repository collaborator can do,
-an organization member also has write access to all the repositories in the tldr-pages organization.
+In addition to everything that repository collaborators can do, organization members
+have write access to all the repositories in the tldr-pages organization,
+and [a few extra maintenance capabilities](https://docs.github.com/en/free-pro-team@latest/github/setting-up-and-managing-organizations-and-teams/permission-levels-for-an-organization).
 An automated list can be found [here](https://github.com/orgs/tldr-pages/people).
 
 - **Iván Hernández Cazorla ([@ivanhercaz](https://github.com/ivanhercaz))**:
@@ -59,14 +66,14 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
 - **Ein Verne ([@einverne](https://github.com/einverne))**:
   [12 January 2020](https://github.com/tldr-pages/tldr/issues/3738) — present
 - **Lucas Schneider ([@schneiderl](https://github.com/schneiderl))**:
-  [17 January 2019](https://github.com/tldr-pages/tldr/issues/3764) — present
+  [17 January 2020](https://github.com/tldr-pages/tldr/issues/3764) — present
 - **Axel Navarro ([@navarroaxel](https://github.com/navarroaxel))**:
   [05 October 2020](https://github.com/tldr-pages/tldr/issues/4504) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
   [9 April 2019](https://github.com/tldr-pages/tldr/issues/2874) — [21 December 2019](https://github.com/tldr-pages/tldr/issues/3672)
-- Zlatan Vasović ([@zdroid](https://github.com/zdroid)):
+- Zlatan Vasović ([@zlatanvasovic](https://github.com/zlatanvasovic)):
   [17 December 2019](https://github.com/tldr-pages/tldr/issues/3663) — [19 June 2020](https://github.com/tldr-pages/tldr/issues/4113)
 
 
@@ -86,7 +93,7 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989) — present
 - **Marco Bonelli ([@mebeim](https://github.com/mebeim))**:
   [21 December 2019](https://github.com/tldr-pages/tldr/issues/3672) — present
-- **Zlatan Vasović ([@zdroid](https://github.com/zdroid))**:
+- **Zlatan Vasović ([@zlatanvasovic](https://github.com/zlatanvasovic))**:
   [19 June 2020](https://github.com/tldr-pages/tldr/issues/4113) — present
 - Igor Shubovych ([@igorshubovych](https://github.com/igorshubovych)):
   until [18 January 2018](https://github.com/tldr-pages/tldr/issues/1878#issuecomment-358610454)

@@ -10,6 +10,14 @@
 
 `sha256sum {{filename1}} {{filename2}}`
 
+- Calculate and save the list of SHA256 checksums to a file:
+
+`sha256sum {{filename1}} {{filename2}} > {{filename.sha256}}`
+
 - Read a file of SHA256 sums and verify all files have matching checksums:
 
-`sha256sum -c {{filename.sha256}}`
+`sha256sum --check {{filename.sha256}}`
+
+- Only show a message for files for which verification fails:
+
+`sha256sum --check --quiet {{filename.sha256}}`

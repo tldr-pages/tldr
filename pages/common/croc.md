@@ -3,21 +3,21 @@
 > Send and receive files easily and securely over any network.
 > More information: <https://github.com/schollz/croc>.
 
-- Send a file or folder:
+- Send a file or directory:
 
-`croc send {{path/to/file}}`
+`croc send {{path/to/file_or_directory}}`
 
-- Send a file or folder with a specific passphrase:
+- Send a file or directory with a specific passphrase:
 
-`croc send --code {{passphrase}} {{path/to/file}}`
+`croc send --code {{passphrase}} {{path/to/file_or_directory}}`
 
-- Receive a file or folder on receiving machine:
+- Receive a file or directory on receiving machine:
 
 `croc {{passphrase}}`
 
 - Send and connect over a custom relay:
 
-`croc --relay {{ip_to_relay}} send {{path/to/file}}`
+`croc --relay {{ip_to_relay}} send {{path/to/file_or_directory}}`
 
 - Receive and connect over a custom relay:
 
