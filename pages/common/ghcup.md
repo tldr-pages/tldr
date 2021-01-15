@@ -28,6 +28,6 @@
 
 `ghcup install cabal`
 
-- Update ghcup itself:
+- Update `ghcup` itself:
 
-`ghcup upgraade`
+`ghcup upgrade`
