@@ -2,7 +2,7 @@
 
 > Appliaquer des fichiers de path. Utile lorsque l on recoit des comits par email.
 > Voir aussi `git format-patch`, pour generer des ficheirs de patch.
-> Plus d informations: <https://git-scm.com/docs/git-am>.
+> Plus d'informations : <https://git-scm.com/docs/git-am>.
 
 - Appliquer un fichier de patch :
 

@@ -1,7 +1,7 @@
 # git notes
 
 > Ajoute ou inspecte des notes d'objets.
-> Plus d'informations: <https://git-scm.com/docs/git-notes>.
+> Plus d'informations : <https://git-scm.com/docs/git-notes>.
 
 - Lister toutes les notes et leurs objets rattachés :
 

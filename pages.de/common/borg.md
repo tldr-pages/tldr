@@ -2,7 +2,7 @@
 
 > Deduplizierendes Sicherungswerkzeug.
 > Erstellt lokale oder entfernte Sicherungen, die als Dateisysteme mountbar sind.
-> Mehr Information: <https://borgbackup.readthedocs.io/en/stable/usage/general.html>.
+> Mehr Informationen: <https://borgbackup.readthedocs.io/en/stable/usage/general.html>.
 
 - Initialisiert ein (lokales) Repository:
 

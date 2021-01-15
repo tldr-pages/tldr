@@ -1,7 +1,7 @@
 # git revert
 
 > Créer un nouveau commit qui efface les changements du précedant.
-> Plus d'informations: <https://git-scm.com/docs/git-revert>.
+> Plus d'informations : <https://git-scm.com/docs/git-revert>.
 
 - Crée un commit qui annule les changements du dernier commit :
 

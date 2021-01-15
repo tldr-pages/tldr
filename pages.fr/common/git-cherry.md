@@ -1,7 +1,7 @@
 # git cherry
 
 > Rechercher des commits qui n'ont pas encore été appliqués en amont.
-> Plus d'informations: <https://git-scm.com/docs/git-cherry>.
+> Plus d'informations : <https://git-scm.com/docs/git-cherry>.
 
 - Afficher les commits (et leurs messages) avec des commits équivalents en amont :
 

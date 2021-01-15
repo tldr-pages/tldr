@@ -3,7 +3,7 @@
 > Enlève des commits ou des changements en réinitialisant la tête Git à l'état spécifié.
 > Si un chemin est passé en paramètre, Git reset fonctionne comme «unstage».
 > Si un hash de commit est passé en paramètre, Git reset annule les commits jusqu'à ce dernier.
-> Plus d'informations: <https://git-scm.com/docs/git-reset>.
+> Plus d'informations : <https://git-scm.com/docs/git-reset>.
 
 - Tout enlever de la *zone de stage* :
 

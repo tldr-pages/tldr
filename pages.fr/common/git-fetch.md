@@ -1,7 +1,7 @@
 # git fetch
 
 > Cherche les objets et réferences depuis un registre distant.
-> Plus d'informations: <https://git-scm.com/docs/git-fetch>.
+> Plus d'informations : <https://git-scm.com/docs/git-fetch>.
 
 - Cherche les dernières modifications du référentiel amont distant par défaut (si configuré) :
 

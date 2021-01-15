@@ -1,7 +1,7 @@
 # pip
 
 > Gestionnaire des paquets pour Python.
-> Plus d'informations: <https://pip.pypa.io>.
+> Plus d'informations : <https://pip.pypa.io>.
 
 - Installe un paquet :
 

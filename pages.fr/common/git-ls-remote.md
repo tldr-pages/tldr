@@ -2,7 +2,7 @@
 
 > Commande Git pour répertorier les références dans un dépot distant en fonction du nom ou de l'URL.
 > Si aucun nom ou URL n'est donné, alors la branche amont configurée sera utilisée, ou l'origine distante si la première n'est pas configurée.
-> Plus d'informations: <https://git-scm.com/docs/git-ls-remote>.
+> Plus d'informations : <https://git-scm.com/docs/git-ls-remote>.
 
 - Afficher les références du dépot configuré par défaut :
 
