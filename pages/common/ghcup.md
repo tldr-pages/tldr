@@ -18,7 +18,7 @@
 
 - Install a specific GHC version:
 
-`ghc install ghc {{8.2.2}}`
+`ghc install ghc {{version}}`
 
 - Set the currently "active" GHC version:
 
