@@ -10,6 +10,10 @@
 
 `defaults read -app {{application}} {{option}}`
 
+- Search for a keyword in domain names, keys, and values:
+
+`defaults find {{keyword}}`
+
 - Write the default value of an application option:
 
 `defaults write {{application}} {{option}} {{-type}} {{value}}`
