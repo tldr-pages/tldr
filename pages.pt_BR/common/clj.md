@@ -2,7 +2,7 @@
 
 > Ferramenta de Clojure para iniciar um REPL ou invocar uma função com argumentos.
 > Todas as opções podem ser definidas em um arquivo `deps.edn`.
-> Mais informações em: <https://clojure.org/guides/deps_and_cli>.
+> Mais informações: <https://clojure.org/guides/deps_and_cli>.
 
 - Inicia um REPL:
 
