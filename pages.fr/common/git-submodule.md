@@ -1,7 +1,7 @@
 # git submodule
 
 > Inspecter, metre a jour et manager des sous modules.
-> Plus d'informations: <https://git-scm.com/docs/git-submodule>.
+> Plus d'informations : <https://git-scm.com/docs/git-submodule>.
 
 - Installer un submodule depuis le dépot courrant :
 

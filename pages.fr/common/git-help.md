@@ -1,7 +1,7 @@
 # git help
 
 > Afficher le manuel de Git.
-> Plus d'informations: <https://git-scm.com/docs/git-help>.
+> Plus d'informations : <https://git-scm.com/docs/git-help>.
 
 - Afficher le manuel d'une sous commande :
 

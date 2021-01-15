@@ -2,7 +2,7 @@
 
 > Rechercher une occurence de texte nomport ou dans l historique d un repository.
 > Comprends la plus-part des arguments que le `grep` classique.
-> Plus d'informations: <https://git-scm.com/docs/git-grep>.
+> Plus d'informations : <https://git-scm.com/docs/git-grep>.
 
 - Rechercher une occrence dans les fichiers suivis :
 

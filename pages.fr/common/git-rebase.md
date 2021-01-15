@@ -2,7 +2,7 @@
 
 > Rejoue les commits d'une branche par dessus une autre.
 > Communément utilisé pour dupliquer les commits d'une branche dans une autre, en créant de nouveaux commits dans la branche de destination.
-> Plus d'informations: <https://git-scm.com/docs/git-rebase>.
+> Plus d'informations : <https://git-scm.com/docs/git-rebase>.
 
 - Rejouer les commits de la branche courrante sur la branche master :
 

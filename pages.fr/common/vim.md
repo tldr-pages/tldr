@@ -2,7 +2,7 @@
 
 > Vim (Vi IMproved), un editeur de texte en ligne de commandes, fournit plusieurs modes pour differentes manipulations de texte.
 > Pressez `i` pour passer en mode édition. `<Esc>` revient au mode normal, qui ne permet pas l insertion de code.
-> Plus d informations: <https://www.vim.org>.
+> Plus d'informations : <https://www.vim.org>.
 
 - Ouvrir un fichier :
 

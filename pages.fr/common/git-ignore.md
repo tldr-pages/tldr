@@ -1,7 +1,7 @@
 # git ignore
 
 > Génerer le fichier .gitignore depuis des templates prédéfinis.
-> Plus d'informations: <https://docs.gitignore.io/install/command-line>.
+> Plus d'informations : <https://docs.gitignore.io/install/command-line>.
 
 - Lister les templates disponnibles :
 

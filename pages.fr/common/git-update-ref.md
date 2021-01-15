@@ -1,7 +1,7 @@
 # git update-ref
 
 > Commande Git pour créer, mettre à jour et supprimer des références Git.
-> Plus d'informations: <https://git-scm.com/docs/git-update-ref>.
+> Plus d'informations : <https://git-scm.com/docs/git-update-ref>.
 
 - Supprimer une référence, utile pour la réinitialisation du premier commit :
 

@@ -1,7 +1,7 @@
 # git mv
 
 > Déplacer ou renomer des fichiers inscrits dans l'index.
-> Plus d'informations: <https://git-scm.com/docs/git-mv>.
+> Plus d'informations : <https://git-scm.com/docs/git-mv>.
 
 - Déplace les fichiers dans l'index Git, valide au prochain commit :
 

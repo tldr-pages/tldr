@@ -1,7 +1,7 @@
 # git ls-tree
 
 > Lister le contenu d'un arbre.
-> Plus d'informations: <https://git-scm.com/docs/git-ls-tree>.
+> Plus d'informations : <https://git-scm.com/docs/git-ls-tree>.
 
 - Lister le contenu de l'arbre dans la branche :
 
