@@ -22,7 +22,7 @@
 
 - Set the currently "active" GHC version:
 
-`ghc set ghc {{8.4.4}}`
+`ghc set ghc {{version}}`
 
 - Install cabal-install:
 
