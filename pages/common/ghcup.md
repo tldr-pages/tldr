@@ -18,7 +18,7 @@
 
 - Install a specific GHC version:
 
-`ghc install ghc {{version}}`
+`ghcup install ghc {{version}}`
 
 - Set the currently "active" GHC version:
 
