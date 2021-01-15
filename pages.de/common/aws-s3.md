@@ -1,7 +1,7 @@
 # aws s3
 
 > Kommandozeilen Werkzeug für AWS S3. AWS S3 stellt Speicherplatz in der Cloud zur Verfügung.
-> Weitere Informationen: <https://aws.amazon.com/cli>.
+> Mehr Informationen: <https://aws.amazon.com/cli>.
 
 - Auflistung aller Objekte in einem Bucket:
 

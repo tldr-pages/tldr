@@ -2,7 +2,7 @@
 
 > Das Cradle PHP Framework.
 > Siehe `cradle-install`, `cradle-deploy`, etc. für zusätzliche Informationen.
-> Weitere Informationen zu Cradle: <https://cradlephp.github.io>.
+> Mehr Informationen: <https://cradlephp.github.io>.
 
 - Verbinden zu einem Server:
 

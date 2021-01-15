@@ -1,7 +1,7 @@
 # vue init
 
 > Sub-perintah untuk menginisialisasi proyek warisan framework Vue.js.
-> Informasi lanjut: <https://cli.vuejs.org/guide/creating-a-project.html#pulling-2-x-templates-legacy>.
+> Informasi lebih lanjut: <https://cli.vuejs.org/guide/creating-a-project.html#pulling-2-x-templates-legacy>.
 
 - Buat proyek baru dengan menggunakan salah satu templat bawaan:
 

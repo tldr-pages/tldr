@@ -2,7 +2,7 @@
 
 > Appliquer les modifications introduites par les commits existants à la branche actuelle.
 > Pour appliquer les changements a une autre branche, utiliser d'abord `git checkout` pour basculer sur la branche désirée.
-> Plus d'informations: <https://git-scm.com/docs/git-cherry-pick>.
+> Plus d'informations : <https://git-scm.com/docs/git-cherry-pick>.
 
 - Applique un commit à la branche courrante :
 

@@ -1,7 +1,7 @@
 # dive
 
 > Un tool per esplorare immagini Docker, contenuti dei livelli, e ridurne la dimensione.
-> Maggiori informaizoni: <https://github.com/wagoodman/dive>.
+> Maggiori informazioni: <https://github.com/wagoodman/dive>.
 
 - Analizza un'immaigine Docker:
 

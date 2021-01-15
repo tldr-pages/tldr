@@ -1,7 +1,7 @@
 # git push
 
 > Pousse les commits vers un dépôt distant.
-> Plus d'informations: <https://git-scm.com/docs/git-push>.
+> Plus d'informations : <https://git-scm.com/docs/git-push>.
 
 - Envoie les changements locaux dans la branche courante vers sa contrepartie distante :
 

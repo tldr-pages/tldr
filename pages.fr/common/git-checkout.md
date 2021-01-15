@@ -1,7 +1,7 @@
 # git checkout
 
 > Extraire une branche ou des chemins vers l'arborescence de travail.
-> Plus d'informations: <https://git-scm.com/docs/git-checkout>.
+> Plus d'informations : <https://git-scm.com/docs/git-checkout>.
 
 - Créer une branche et basculer dessus :
 

@@ -1,7 +1,7 @@
 # git gc
 
 > Optimise le registre local en nettoyant les fichiers inutiles.
-> Plus d'informations: <https://git-scm.com/docs/git-gc>.
+> Plus d'informations : <https://git-scm.com/docs/git-gc>.
 
 - Optimise le registrey :
 

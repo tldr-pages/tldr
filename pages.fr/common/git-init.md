@@ -1,7 +1,7 @@
 # git init
 
 > Initialise un nouveau registre Git.
-> Plus d'informations: <https://git-scm.com/docs/git-init>.
+> Plus d'informations : <https://git-scm.com/docs/git-init>.
 
 - Initialise un nouveau registre Git local :
 

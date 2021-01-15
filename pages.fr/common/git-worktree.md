@@ -1,7 +1,7 @@
 # git worktree
 
 > Gérez plusieurs arborescences de travail attachées au même dépot.
-> Plus d'informations: <https://git-scm.com/docs/git-worktree>.
+> Plus d'informations : <https://git-scm.com/docs/git-worktree>.
 
 - Créer un nouveau sous arbre avec la branche spécifiée extraite dedans :
 

@@ -1,7 +1,7 @@
 # git bundle
 
 > Empaquetez des objets et des références dans une archive.
-> Plus d'informations: <https://git-scm.com/docs/git-bundle>.
+> Plus d'informations : <https://git-scm.com/docs/git-bundle>.
 
 - Empaquetez tout les objets et les refferences d'une branche spécifiée :
 

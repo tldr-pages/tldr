@@ -2,7 +2,7 @@
 
 > Envoyer une collection de correctifs par email.
 > Les correctifs peuvent être spécifiés sous forme de fichiers, de directions ou de liste de révisions.
-> Plus d'informations: <https://git-scm.com/docs/git-send-email>.
+> Plus d'informations : <https://git-scm.com/docs/git-send-email>.
 
 - Envoyer le dernier commit de la branche courrante :
 

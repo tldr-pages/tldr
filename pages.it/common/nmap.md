@@ -2,7 +2,7 @@
 
 > Nmap è un tool per port scanning ed esplorazione di rete.
 > Alcune funzionalità diventano attive solamente con privilegi d'amministratore.
-> Ulteriori informazioni: <https://nmap.org>.
+> Maggiori informazioni: <https://nmap.org>.
 
 - Controlla se un indirizzo IP è attivo, e indovina il suo sistema operativo:
 

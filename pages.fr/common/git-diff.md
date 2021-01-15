@@ -1,7 +1,7 @@
 # git diff
 
 > Afficher les changements sur les fichiers suivis.
-> Plus d'informations: <https://git-scm.com/docs/git-diff>.
+> Plus d'informations : <https://git-scm.com/docs/git-diff>.
 
 - Afficher les changements sur les fichiers suvis :
 

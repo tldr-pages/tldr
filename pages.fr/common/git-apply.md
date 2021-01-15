@@ -1,7 +1,7 @@
 # git apply
 
 > Applique un correctif a un fichier et/ou a l index.
-> Plus d informations: <https://git-scm.com/docs/git-apply>.
+> Plus d'informations : <https://git-scm.com/docs/git-apply>.
 
 - Afficher les messages a propos des fichiers corrigés :
 

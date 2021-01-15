@@ -2,7 +2,7 @@
 
 > Menampilkan perubahan pada file dalam repositori Git.
 > Menmapilkan daftar perubahan , menambahkan dan menghapus file dibandingkan dengan komit yang saat ini di check-out.
-> Informasi selengkapnya: <https://git-scm.com/docs/git-status>.
+> Informasi lebih lanjut: <https://git-scm.com/docs/git-status>.
 
 - Tampilkan file yang diubah yang belum ditambahkan untuk komit:
 

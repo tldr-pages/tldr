@@ -1,7 +1,7 @@
 # laravel-zero
 
 > Pemasang Laravel Zero framework berbasis command line.
-> Informasi lanjut: <https://laravel-zero.com>.
+> Informasi lebih lanjut: <https://laravel-zero.com>.
 
 - Buat aplikasi Laravel Zero baru:
 

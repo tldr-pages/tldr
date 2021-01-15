@@ -1,7 +1,7 @@
 # matlab
 
 > Environnement de calcul numérique créé par MathWorks.
-> Plus d'informations: <https://fr.mathworks.com/help/matlab/>.
+> Plus d'informations : <https://fr.mathworks.com/help/matlab/>.
 
 - Lance MATLAB sans afficher l'écran de démarrage :
 

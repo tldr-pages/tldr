@@ -1,7 +1,7 @@
 # aws
 
 > Amazon Web Services의 공식 CLI tool입니다.
-> 더 많은 정보는: <https://aws.amazon.com/cli>.
+> 더 많은 정보: <https://aws.amazon.com/cli>.
 
 - 모든 IAM 사용자 목록:
 

@@ -1,7 +1,7 @@
 # git clean
 
 > Supprimer les fichiers non suivis du repertoire.
-> Plus d'informations: <https://git-scm.com/docs/git-clean>.
+> Plus d'informations : <https://git-scm.com/docs/git-clean>.
 
 - Supprimer les fichiers non suivis par Git :
 

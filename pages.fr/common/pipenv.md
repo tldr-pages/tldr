@@ -2,7 +2,7 @@
 
 > Workflow de développement simple et unifié pour Python.
 > Gère les paquets et l'environnement virtuel d'un projet.
-> Plus d'informations: <https://pypi.org/project/pipenv>.
+> Plus d'informations : <https://pypi.org/project/pipenv>.
 
 - Crée un nouveau projet :
 

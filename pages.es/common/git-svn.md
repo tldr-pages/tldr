@@ -1,7 +1,7 @@
 # git svn
 
 > Operacion bidreccional entre un repositorio Subversión y otro Git.
-> Mas información: <https://git-scm.com/docs/git-svn>.
+> Más información: <https://git-scm.com/docs/git-svn>.
 
 - Clona un repositorio SVN:
 
