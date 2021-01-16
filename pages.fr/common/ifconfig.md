@@ -6,7 +6,7 @@
 
 `ifconfig {{eth0}}`
 
-- Affiche les détails de toutes les interfaces, y compris les interfaces 
+- Affiche les détails de toutes les interfaces, y compris les interfaces
 désactivées :
 
 `ifconfig -a`
