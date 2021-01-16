@@ -3,7 +3,7 @@
 > Executa um comando em um novo container Docker.
 > Mais informações: <https://docs.docker.com/engine/reference/commandline/run/>.
 
-- Executa um comando em um novo container de uma imagem tagueada: 
+- Executa um comando em um novo container de uma imagem tagueada:
 
 `docker run {{imagem:tag}} {{comando}}`
 
@@ -15,7 +15,7 @@
 
 `docker run --rm -it {{image}} {{command}}`
 
-- Executa um comando em um novo container com variáveis de ambiente: 
+- Executa um comando em um novo container com variáveis de ambiente:
 
 `docker run -e '{{variável}}={{valor}}' -e {{variável}} {{imagem}} {{comando}}`
 

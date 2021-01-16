@@ -19,7 +19,7 @@
 
 `yay -S {{nom_paquet}}`
 
-- Recherche dans la base de données de paquets un mot clé depuis les dépôts et l'AUR : 
+- Recherche dans la base de données de paquets un mot clé depuis les dépôts et l'AUR :
 
 `yay -Ss {{mot_clé}}`
 
