@@ -20,7 +20,7 @@
 
 `git rebase --skip`
 
-- Annule l'operation (ex: en cas de conflict) :
+- Annule l'operation (ex : en cas de conflict) :
 
 `git rebase --abort`
 

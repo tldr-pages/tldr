@@ -12,7 +12,7 @@
 
 `git send-email -1 {{commit}}`
 
-- envoyer de multiples commits de la branche courrante (ici: 10) :
+- envoyer de multiples commits de la branche courrante (ici : 10) :
 
 `git send-email {{-10}}`
 

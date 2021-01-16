@@ -30,6 +30,6 @@
 
 `zip -d {{archive.zip}} "{{foo/*.tmp}}"`
 
-- Archive un répertoire et son contenu en plusieurs fichiers zip [s]cindés (ex: des fichiers de 3 Go) :
+- Archive un répertoire et son contenu en plusieurs fichiers zip [s]cindés (ex : des fichiers de 3 Go) :
 
 `zip -r -s {{3g}} {{archive.zip}} {{chemin/du/répertoire}}`

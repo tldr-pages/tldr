@@ -15,7 +15,7 @@
 
 `git diff --staged`
 
-- Afficher les changements de tout les commits a partir d une date/heure donnée (expression de dates, ex: "1 week 2 days" ou une date ISO) :
+- Afficher les changements de tout les commits a partir d une date/heure donnée (expression de dates, ex : "1 week 2 days" ou une date ISO) :
 
 `git diff 'HEAD@{3 months|weeks|days|hours|seconds ago}'`
 
