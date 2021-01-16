@@ -23,6 +23,6 @@
 
 `docker build --file {{Dockerfile}} .`
 
-- Cria uma imagem docker utilizando variáveis customizadas para a criação de imagens: 
+- Cria uma imagem docker utilizando variáveis customizadas para a criação de imagens:
 
 `docker build --build-arg {{PROXY_DO_HTTP=http://10.20.30.2:1234}} --build-arg {{PROXY_DO_FTP=http://40.50.60.5:4567}} .`

@@ -6,7 +6,7 @@
 
 `afplay {{percorso/del/file}}`
 
-- Riproduci un file audio al doppio della velocità: 
+- Riproduci un file audio al doppio della velocità:
 
 `afplay --rate 2 {{percorso/del/file}}`
 

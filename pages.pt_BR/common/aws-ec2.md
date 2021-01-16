@@ -1,7 +1,7 @@
 # aws ec2
 
 > Inteface de linha de comando para o AWS EC2.
-> Provê capacidade computacional segura e flexível na nuvem da AWS para proporcionar um desenvolvimento e subida para produção de aplicações rapidamente. 
+> Provê capacidade computacional segura e flexível na nuvem da AWS para proporcionar um desenvolvimento e subida para produção de aplicações rapidamente.
 > Mais informações: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ec2/index.html>.
 
 - Lista todos os comandos EC2 disponíveis:
