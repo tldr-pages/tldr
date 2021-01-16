@@ -9,7 +9,7 @@
 
 - Extend a logical volume's size by 120GB as well as the underlying filesystem:
 
-`lvresize --size -{{120G}} --resizefs {{volume_group}}/{{logical_volume}}`
+`lvresize --size +{{120G}} --resizefs {{volume_group}}/{{logical_volume}}`
 
 - Extend a logical volume's size to 100% of the free physical volume space:
 
