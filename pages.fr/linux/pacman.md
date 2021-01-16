@@ -1,6 +1,6 @@
 # pacman
 
-> Outil de gestion de paquets sur Arch Linux. 
+> Outil de gestion de paquets sur Arch Linux.
 
 - Synchronise et mets à jour tous les paquets :
 
