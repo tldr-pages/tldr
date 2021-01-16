@@ -42,7 +42,7 @@ If you are an owner of the organization, you should be able to see an automated 
 - **bl-ue ([@bl-ue](https://github.com/bl-ue))**:
   [01 January 2021](https://github.com/tldr-pages/tldr/issues/5056) — present
 - **Matthew Peveler ([@MasterOdin](https://github.com/MasterOdin))**:
-  [09 January 2021](https://github.com/tldr-pages/tldr/issues/5122) — present  
+  [09 January 2021](https://github.com/tldr-pages/tldr/issues/5122) — present
 - Lucas Schneider ([@schneiderl](https://github.com/schneiderl)):
   [11 April 2019](https://github.com/tldr-pages/tldr/issues/2898) — [17 January 2020](https://github.com/tldr-pages/tldr/issues/3764)
 - Ein Verne ([@einverne](https://github.com/einverne)):
