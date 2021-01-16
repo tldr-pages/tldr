@@ -9,7 +9,7 @@
 
 - Show the tar tldr page for Linux:
 
-`tldr --platform {{linux}} {{tar}}`
+`tldr -p {{linux}} {{tar}}`
 
 - Get help for a Git subcommand:
 
@@ -17,8 +17,8 @@
 
 - Update local pages (if the client supports caching):
 
-`tldr --update`
+`tldr -u`
 
-- Render a local page for testing purposes:
+- Render a local page for testing purposes (if the client supports it):
 
 `tldr --render {{path/to/page}}`
