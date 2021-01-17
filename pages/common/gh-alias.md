@@ -13,7 +13,7 @@
 
 - Create a `gh` subcommand alias:
 
-`gh alias set {{pv}} '{{pr view}}`
+`gh alias set {{pv}} '{{pr view}}'`
 
 - Set a shell command as a `gh` subcommand:
 
