@@ -3,7 +3,7 @@
 > Work seamlessly with GitHub from the command line.
 > More information: <https://cli.github.com/>.
 
-- Clone a repository locally:
+- Clone a GitHub repository locally:
 
 `gh repo clone {{owner}}/{{repository}}`
 
@@ -11,7 +11,7 @@
 
 `gh issue create`
 
-- View and filter a repository’s open issues:
+- View and filter the open issues of the current repository:
 
 `gh issue list`
 
@@ -27,7 +27,7 @@
 
 `gh pr view --web {{pr_number}}`
 
-- Check out pull requests locally:
+- Locally check out the branch of a pull request, given its number:
 
 `gh pr checkout {{pr_number}}`
 
