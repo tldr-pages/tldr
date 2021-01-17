@@ -15,6 +15,6 @@
 
 `lvresize --size {{100}}%FREE {{volume_group}}/{{logical_volume}}`
 
-- Reduce the size of a logical volume by 120GB as well as the underlying filesystem:
+- Reduce the size of a logical volume as well as the underlying filesystem by 120GB:
 
 `lvresize --size -{{120G}} --resizefs {{volume_group}}/{{logical_volume}}`
