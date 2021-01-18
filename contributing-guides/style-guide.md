@@ -75,4 +75,3 @@ Use backticks on the following:
 2. Extensions, ex. `.dll`.
 3. Commands, ex. `ls`.
 4. Keyboard commands, ex. `CTRL+ALT+DEL`.
-5. Port numbers, ex. `8080`.
