@@ -1,8 +1,7 @@
 # cmake
 
 > Cross-platform build, testing and packaging automation system.
-> CMake uses own syntax inspired by shell and generates recipes for build
-> systems like Make, Ninja and Microsoft Visual Studio.
+> CMake uses own shell-like syntax and generates recipes for several build systems.
 > More information: <https://cmake.org/cmake/help/latest/manual/cmake.1.html>.
 
 - Generate a build recipe in the current directory with CMakeLists.txt from a project directory:
