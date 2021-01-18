@@ -20,6 +20,6 @@
 
 `hping3 --scan {{80,3000,9000}} -S {{192.168.1.1}}`
 
-- Effectuer un test de montée en charge sur le port `80`:
+- Effectuer un test de montée en charge sur le port 80:
 
 `hping3 --flood -p {{80}} -S {{192.168.1.1}}`
