@@ -5,32 +5,32 @@
 
 - Create a new Laravel application:
 
-`lambo new {{name}}`
+`lambo new {{app_name}}`
 
 - Install the application in a specific path:
 
-`lambo new --path={{path/to/directory}} {{name}}`
+`lambo new --path={{path/to/directory}} {{app_name}}`
 
 - Include authentication scaffolding:
 
-`lambo new --auth {{name}}`
+`lambo new --auth {{app_name}}`
 
 - Include a specific frontend:
 
-`lambo new --{{vue|bootstrap|react}} {{name}}`
+`lambo new --{{vue|bootstrap|react}} {{app_name}}`
 
 - Install npm dependencies after the project has been created:
 
-`lambo new --node {{name}}`
+`lambo new --node {{app_name}}`
 
 - Create a Valet site after the project has been created:
 
-`lambo new --link {{name}}`
+`lambo new --link {{app_name}}`
 
 - Create a new MySQL database with the same name as the project:
 
-`lambo new --create-db --dbuser={{user}} --dbpassword={{password}} {{name}}`
+`lambo new --create-db --dbuser={{user}} --dbpassword={{password}} {{app_name}}`
 
 - Open a specific editor after the project has been created:
 
-`lambo new --editor="{{editor}}" {{name}}`
+`lambo new --editor="{{editor}}" {{app_name}}`
