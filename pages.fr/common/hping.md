@@ -12,7 +12,7 @@
 
 `hping3 -p {{80}} -S {{192.168.1.1}}`
 
-- Ping une adresse IP, via UDP, sur le port `80`:
+- Ping une adresse IP, via UDP, sur le port 80:
 
 `hping3 --udp -p {{80}} -S {{192.168.1.1}}`
 
