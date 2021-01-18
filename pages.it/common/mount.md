@@ -18,7 +18,7 @@
 
 `mount -a`
 
-- Monta un filesystem specifico descritto in `/etc/fstab` (ad esempio `dev/sda1 /my_drive ext2 defaults 0 2`):
+- Monta un filesystem specifico descritto in `/etc/fstab` (ad esempio `/dev/sda1 /my_drive ext2 defaults 0 2`):
 
 `mount {{/my_drive}}`
 
