@@ -27,7 +27,7 @@
 
 `ufw deny {{80}}`
 
-- Deny all UDP traffic to port `22`:
+- Deny all UDP traffic to port 22:
 
 `ufw deny proto {{udp}} from {{any}} to {{any}} port {{22}}`
 
