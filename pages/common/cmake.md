@@ -12,9 +12,9 @@
 
 `cmake --build {{path/to/build_dir/}}`
 
-- Install the project:
+- Install the build artifacts into /usr/local/ striping debugging symbols:
 
-`cmake --install {{path/to/build_dir/}}`
+`cmake --install {{path/to/build_directory}} --strip --prefix /usr/local/`
 
 - Run a custom build target:
 
