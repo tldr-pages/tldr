@@ -7,7 +7,7 @@
 
 `iperf -s`
 
-- Run on server using UDP mode and set server port to listen on `5001`:
+- Run on server using UDP mode and set server port to listen on 5001:
 
 `iperf -u -s -p {{5001}}`
 

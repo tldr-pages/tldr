@@ -3,7 +3,7 @@
 > Remote Desktop Protocol client.
 > It can be used to connect the remote computer using the RDP protocol.
 
-- Connect to a remote computer (default port is `3389`):
+- Connect to a remote computer (default port is 3389):
 
 `rdesktop -u {{username}} -p {{password}} {{host:port}}`
 

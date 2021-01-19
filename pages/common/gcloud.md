@@ -23,7 +23,7 @@
 
 `gcloud compute instances list`
 
-- Update a `kubeconfig` file with the appropriate credentials to point kubectl to a specific cluster in Google Kubernetes Engine:
+- Update a kubeconfig file with the appropriate credentials to point kubectl to a specific cluster in Google Kubernetes Engine:
 
 `gcloud container clusters get-credentials {{cluster_name}}`
 
