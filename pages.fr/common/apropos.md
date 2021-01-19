@@ -2,11 +2,11 @@
 
 > Recherche dans les pages de manuel, par exemple pour trouver une nouvelle commande.
 
-- Recherche par mot clé :
+- Recherche par mot clé :
 
 `apropos {{expression_reguliere}}`
 
-- Recherche sans limiter la sortie à la largeur du terminal :
+- Recherche sans limiter la sortie à la largeur du terminal :
 
 `apropos -l {{expression_reguliere}}`
 
