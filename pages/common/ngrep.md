@@ -11,7 +11,7 @@
 
 `ngrep -d {{eth0}}`
 
-- Capture traffic crossing port `22` of interface eth0:
+- Capture traffic crossing port 22 of interface eth0:
 
 `ngrep -d {{eth0}} port {{22}}`
 

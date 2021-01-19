@@ -15,7 +15,7 @@
 
 `named {{-4|-6}}`
 
-- Listen for queries on a specific port instead of the default port `53`:
+- Listen for queries on a specific port instead of the default port 53:
 
 `named -p {{port}}`
 

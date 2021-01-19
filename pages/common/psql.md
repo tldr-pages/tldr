@@ -3,7 +3,7 @@
 > PostgreSQL command-line client.
 > More information: <https://www.postgresql.org/docs/current/app-psql.html>.
 
-- Connect to database. It connects to localhost using default port `5432` with default user as currently logged in user:
+- Connect to database. It connects to localhost using default port 5432 with default user as currently logged in user:
 
 `psql {{database}}`
 

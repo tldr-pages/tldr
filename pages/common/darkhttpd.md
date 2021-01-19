@@ -7,7 +7,7 @@
 
 `darkhttpd {{path/to/docroot}}`
 
-- Start server on specified port (port `8080` by default if running as non-root user):
+- Start server on specified port (port 8080 by default if running as non-root user):
 
 `darkhttpd {{path/to/docroot}} --port {{port}}`
 

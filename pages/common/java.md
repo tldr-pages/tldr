@@ -11,7 +11,7 @@
 
 `java -jar {{filename.jar}}`
 
-- Execute a `.jar` program with debug waiting to connect on port `5005`:
+- Execute a `.jar` program with debug waiting to connect on port 5005:
 
 `java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {{filename.jar}}`
 

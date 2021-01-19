@@ -15,6 +15,6 @@
 
 `guile -c "{{expression}}"`
 
-- Listen on a port or a Unix domain socket (the default is port `37146`) for remote REPL connections:
+- Listen on a port or a Unix domain socket (the default is port 37146) for remote REPL connections:
 
 `guile --listen={{port_or_socket}}`
