@@ -2,7 +2,7 @@
 
 > Das offiziellen Kommandozeilen Werkzeug für Amazon Web Services.
 > Ausführungssassistent, SSO, Autovervollständigung von Ressourcen sowie YAML Optionen sind nur unter Version v2 verfügbar.
-> Weitere Informationen: <https://aws.amazon.com/cli>.
+> Mehr Informationen: <https://aws.amazon.com/cli>.
 
 - Konfigurieren der AWS Kommandozeile:
 

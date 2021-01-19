@@ -1,7 +1,7 @@
 # git svn
 
 > Opération bidirectionnelle entre un référentiel Subversion et Git.
-> Plus d'informations: <https://git-scm.com/docs/git-svn>.
+> Plus d'informations : <https://git-scm.com/docs/git-svn>.
 
 - Cloner un dépot SVN :
 

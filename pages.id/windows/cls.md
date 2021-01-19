@@ -1,7 +1,7 @@
 # cls
 
 > Membersihkan layar.
-> Informasi lanjut: <https://docs.microsoft.com/windows-server/administration/windows-commands/cls>.
+> Informasi lebih lanjut: <https://docs.microsoft.com/windows-server/administration/windows-commands/cls>.
 
 - Bersihkan layar:
 

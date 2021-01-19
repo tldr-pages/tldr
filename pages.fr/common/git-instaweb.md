@@ -1,7 +1,7 @@
 # git instaweb
 
 > Outil pour le lancemend d'un serveur gitweb.
-> Plus d'informations: <https://git-scm.com/docs/git-instaweb>.
+> Plus d'informations : <https://git-scm.com/docs/git-instaweb>.
 
 - Démare un serveur gitweb depuis le repository courrant :
 

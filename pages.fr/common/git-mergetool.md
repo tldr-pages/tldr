@@ -1,7 +1,7 @@
 # git mergetool
 
 > Executer un utilitaire de différences pour resoudre les conflits de merge.
-> Plus d'informations: <https://git-scm.com/docs/git-mergetool>.
+> Plus d'informations : <https://git-scm.com/docs/git-mergetool>.
 
 - Démarrer l'outil de différences par défaut :
 

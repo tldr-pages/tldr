@@ -2,7 +2,7 @@
 
 > Vérifier la validité et la connectivité des nœuds dans un réferentiel Git.
 > N'applique ucune modification. Voir `git gc` pour nettoyer.
-> Plus d'informations: <https://git-scm.com/docs/git-fsck>.
+> Plus d'informations : <https://git-scm.com/docs/git-fsck>.
 
 - Verifier le registre courrant :
 

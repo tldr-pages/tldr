@@ -1,7 +1,7 @@
 # git reflog
 
 > Affiche un log des changements locaux comme HEAD, tags et branches.
-> Plus d'informations: <https://git-scm.com/docs/git-reflog>.
+> Plus d'informations : <https://git-scm.com/docs/git-reflog>.
 
 - Afficher le reflog de HEAD :
 

@@ -1,7 +1,7 @@
 # git shortlog
 
 > Récapitule la sortie de `git log`.
-> Plus d'informations: <https://git-scm.com/docs/git-shortlog>.
+> Plus d'informations : <https://git-scm.com/docs/git-shortlog>.
 
 - Afficher un résumé de tous les commits effectués, regroupés par ordre alphabétique par nom d'auteur :
 

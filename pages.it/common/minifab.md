@@ -1,7 +1,7 @@
 # minifab
 
 > Strumento per semplificare il settaggio e il deployment di una blockchain Hyperledger Fabric.
-> Ulteriori informazioni: <https://github.com/hyperledger-labs/minifabric>.
+> Maggiori informazioni: <https://github.com/hyperledger-labs/minifabric>.
 
 - Crea la blockchain Hyperledger Fabric:
 

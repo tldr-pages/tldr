@@ -1,7 +1,7 @@
 # git request-pull
 
 > Générer une requête demandant au projet en amont d'inclure les modifications dans son arborescence.
-> Plus d'informations: <https://git-scm.com/docs/git-request-pull>.
+> Plus d'informations : <https://git-scm.com/docs/git-request-pull>.
 
 - Produire une requête résumant les changements entre la version v1.1 et le master :
 

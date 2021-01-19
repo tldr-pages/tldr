@@ -1,7 +1,7 @@
 # git merge
 
 > Merge branches.
-> Plus d'informations: <https://git-scm.com/docs/git-merge>.
+> Plus d'informations : <https://git-scm.com/docs/git-merge>.
 
 - Merge une branche dans votre branche courrante :
 

@@ -1,7 +1,7 @@
 # awslogs
 
 > Kommandozeilen Werkzeug um Log Gruppen, Streams und Events von Amazon Cloudwatch Logs abzurufen:
-> Weitere Informationen: <https://github.com/jorgebastida/awslogs>.
+> Mehr Informationen: <https://github.com/jorgebastida/awslogs>.
 
 - Auflisten aller Log Gruppen:
 

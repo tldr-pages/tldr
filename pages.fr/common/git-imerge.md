@@ -2,7 +2,7 @@
 
 > Génerer un merge ou un rebase entre deux branches de maniére incrémentale.
 > Les conflits entre les branches sont suivis en paires de commits individuels, pour simplifier la résolution des conflits.
-> Plus d'informations: <https://github.com/mhagger/git-imerge>.
+> Plus d'informations : <https://github.com/mhagger/git-imerge>.
 
 - Démarrer un i-merge rebase (se placer dans la branche a rebaser d'abord) :
 

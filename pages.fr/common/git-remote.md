@@ -1,7 +1,7 @@
 # git remote
 
 > Organisation des dépots suivis ("remotes").
-> Plus d'informations: <https://git-scm.com/docs/git-remote>.
+> Plus d'informations : <https://git-scm.com/docs/git-remote>.
 
 - Affiche les dépots existants, leur nom et url :
 

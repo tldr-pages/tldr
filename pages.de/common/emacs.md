@@ -1,7 +1,7 @@
 # emacs
 
 > Der erweiterbare, veränderbare, selbst-dokumentierende Echtzeit Text Editor.
-> Weitere informationen: <https://www.gnu.org/software/emacs>.
+> Mehr Informationen: <https://www.gnu.org/software/emacs>.
 
 - Starten von Emacs in der Konsole (ohne X-Fenster):
 

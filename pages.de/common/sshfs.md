@@ -1,6 +1,7 @@
 # sshfs
 
-> Dateisystem Client für SSH.  Weitere Informationen: <https://github.com/libfuse/sshfs>.
+> Dateisystem Client für SSH.
+> Mehr Informationen: <https://github.com/libfuse/sshfs>.
 
 - Einhängen eines externen Ordners:
 

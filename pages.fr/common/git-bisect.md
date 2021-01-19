@@ -2,7 +2,7 @@
 
 > Utiliser une recherche binaire pour trouver le commit qui a introduit un bug.
 > Git saute automatiquement d'avant en arrière dans le graphe de commit pour isoler le commit défectueux.
-> Plus d'informations: <https://git-scm.com/docs/git-bisect>.
+> Plus d'informations : <https://git-scm.com/docs/git-bisect>.
 
 - Démarrez une dissection sur une plage de commit délimitée par un bug connu et un commit propre connu (généralement plus ancien) :
 
