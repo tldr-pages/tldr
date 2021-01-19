@@ -24,7 +24,7 @@
 
 `bash -e {{file.sh}}`
 
-- Run commands from `stdin`:
+- Run commands from stdin:
 
 `bash -s`
 

@@ -2,7 +2,7 @@
 
 > Converts text from one encoding to another.
 
-- Convert file to a specific encoding, and print to `stdout`:
+- Convert file to a specific encoding, and print to stdout:
 
 `iconv -f {{from_encoding}} -t {{to_encoding}} {{input_file}}`
 

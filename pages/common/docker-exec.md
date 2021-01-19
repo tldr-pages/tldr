@@ -15,7 +15,7 @@
 
 `docker exec --interactive -tty --workdir {{path/to/directory}} {{container_name}} {{command}}`
 
-- Run a command in background on existing container but keep `stdin` open:
+- Run a command in background on existing container but keep stdin open:
 
 `docker exec --interactive --detach {{container_name}} {{command}}`
 

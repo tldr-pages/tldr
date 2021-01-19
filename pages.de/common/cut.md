@@ -1,8 +1,8 @@
 # cut
 
-> Entferne Felder von `stdin` oder einer Datei.
+> Entferne Felder von stdin oder einer Datei.
 
-- Entferne die ersten 16 Zeichen jeder Zeile von `stdin`:
+- Entferne die ersten 16 Zeichen jeder Zeile von stdin:
 
 `cut -c {{1-16}}`
 

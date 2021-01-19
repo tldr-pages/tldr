@@ -7,7 +7,7 @@
 
 `tldrl {{direktorijum_stranica}}`
 
-- Formatiraj određenu stranicu u `stdout`:
+- Formatiraj određenu stranicu u stdout:
 
 `tldrl -f {{stranica.md}}`
 

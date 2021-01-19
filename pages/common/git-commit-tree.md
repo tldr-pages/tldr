@@ -8,7 +8,7 @@
 
 `git commit-tree {{tree}} -m "{{message}}"`
 
-- Create a commit object reading the message from a file (use `-` for `stdin`):
+- Create a commit object reading the message from a file (use `-` for stdin):
 
 `git commit-tree {{tree}} -F {{path/to/file}}`
 

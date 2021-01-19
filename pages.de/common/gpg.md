@@ -15,7 +15,7 @@
 
 `gpg --symmetric {{doc.txt}}`
 
-- Entschlüssle `doc.txt.gpg` (Ausgabe nach `stdout`):
+- Entschlüssle `doc.txt.gpg` (Ausgabe nach stdout):
 
 `gpg --decrypt {{doc.txt.gpg}}`
 
@@ -23,10 +23,10 @@
 
 `gpg --import {{public.gpg}}`
 
-- Exportiere Öffentlichen Schlüssel von alice@beispiel.de (Ausgabe nach `stdout`):
+- Exportiere Öffentlichen Schlüssel von alice@beispiel.de (Ausgabe nach stdout):
 
 `gpg --export --armor {{alice@beispiel.de}}`
 
-- Exportiere Privaten Schlüssel von alice@beispiel.de (Ausgabe nach `stdout`):
+- Exportiere Privaten Schlüssel von alice@beispiel.de (Ausgabe nach stdout):
 
 `gpg --export-secret-keys --armor {{alice@beispiel.de}}`

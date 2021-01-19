@@ -6,6 +6,6 @@
 
 `echo "hello" | rev`
 
-- Reverse an entire file and print to `stdout`:
+- Reverse an entire file and print to stdout:
 
 `rev {{file}}`

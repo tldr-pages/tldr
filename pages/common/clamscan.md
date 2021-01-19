@@ -11,7 +11,7 @@
 
 `clamscan -r {{path/to/directory}}`
 
-- Scan data from `stdin`:
+- Scan data from stdin:
 
 `{{command}} | clamscan -`
 

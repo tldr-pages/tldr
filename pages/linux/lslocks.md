@@ -18,6 +18,6 @@
 
 `lslocks --pid {{PID}}`
 
-- List locks with json output to `stdout`:
+- List locks with json output to stdout:
 
 `lslocks --json`

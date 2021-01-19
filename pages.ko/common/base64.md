@@ -10,10 +10,10 @@
 
 `base64 -d {{filename}}`
 
-- `stdin`에서 인코딩:
+- stdin에서 인코딩:
 
 `{{somecommand}} | base64`
 
-- `stdin`에서 디코딩:
+- stdin에서 디코딩:
 
 `{{somecommand}} | base64 -d`
