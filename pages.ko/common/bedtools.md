@@ -7,7 +7,7 @@
 
 `bedtools intersect -a {{path/to/file_1}} -b {{path/to/file_2}} -s > {{path/to/output_file}}`
 
-- 외부 조인이 왼쪽인 두개의 파일을 교차, 예시. `file_1`에서 각 기능을 보고하고 `file_2`와 겹치지 않으면 `NULL`:
+- 외부 조인이 왼쪽인 두개의 파일을 교차, 예시. `file_1`에서 각 기능을 보고하고 `file_2`와 겹치지 않으면 NULL:
 
 `bedtools intersect -a {{path/to/file_1}} -b {{path/to/file_2}} -lof > {{path/to/output_file}}`
 
