@@ -10,7 +10,7 @@
 
 `ss {{state/exclude}} {{bucket/big/connected/synchronized/...}}`
 
-- Show all TCP sockets connected to the local HTTPS port (`443`):
+- Show all TCP sockets connected to the local HTTPS port (443):
 
 `ss -t src :{{443}}`
 
