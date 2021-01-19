@@ -74,4 +74,3 @@ Use backticks on the following:
 1. Paths, ex. `package.json`, `/etc/package.json`.
 2. Extensions, ex. `.dll`.
 3. Commands, ex. `ls`.
-4. Keyboard commands, ex. `CTRL+ALT+DEL`.
