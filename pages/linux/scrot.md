@@ -20,4 +20,4 @@
 
 - Display a countdown of 10 seconds before taking a screenshot:
 
-`scrot -c -d {{10}}`
+`scrot --count --delay {{10}}`
