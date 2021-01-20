@@ -11,13 +11,9 @@
 
 `ssh -i {{path/to/key_file}} {{username}}@{{remote_host}}`
 
-- Connect to a remote server using a specific port:
+- Connect to a remote server using a specific port and run a command:
 
-`ssh {{username}}@{{remote_host}} -p {{2222}}`
-
-- Run a command on a remote server:
-
-`ssh {{remote_host}} {{command -with -flags}}`
+`ssh {{username}}@{{remote_host}} -p {{2222}} {{command -with -flags}}`
 
 - SSH tunneling: Dynamic port forwarding (SOCKS proxy on localhost:9999):
 
@@ -30,6 +26,10 @@
 - SSH jumping: Connect through a jumphost to a remote server (Multiple jump hops may be specified separated by comma characters):
 
 `ssh -J {{username}}@{{jump_host}} {{username}}@{{remote_host}}`
+
+- SSH reverse proxy: Expose a localhost port on the remote server (Set `GatewayPorts yes` in sshd_config to allow internet access):
+
+`ssh -NTR {{remote_port}}:localhost:{{local_port}} {{remote_host}}`
 
 - Agent forwarding: Forward the authentication information to the remote machine (see `man ssh_config` for available options):
 
