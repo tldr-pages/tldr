@@ -11,18 +11,18 @@
 
 `SafeEjectGPU gpus`
 
-- List apps using a specified GPU:
+- List apps using a GPU:
 
 `SafeEjectGPU gpuid {{GPU_ID}} apps`
 
-- Get the status of a specified GPU:
+- Get the status of a GPU:
 
 `SafeEjectGPU gpuid {{GPU_ID}} status`
 
-- Eject a specified GPU:
+- Eject a GPU:
 
 `SafeEjectGPU gpuid {{GPU_ID}} Eject`
 
-- Launch an app on a specified GPU:
+- Launch an app on a GPU:
 
 `SafeEjectGPU gpuid {{GPU_ID}} LaunchOnGPU {{path/to/App.app}}`
