@@ -34,4 +34,4 @@
 
 - Render with custom samplerate, format, and as a loop:
 
-`lmms render --samplerate 88200 --format ogg --loop --output {{path/to/output/file.ogg}}`
+`lmms render --samplerate {{88200}} --format {{ogg}} --loop --output {{path/to/output/file.ogg}}`
