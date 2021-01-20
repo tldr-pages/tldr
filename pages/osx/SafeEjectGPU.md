@@ -1,7 +1,7 @@
 # SafeEjectGPU
 
 > Eject a GPU safely.
-> More information: <https://ss64.com/osx/safeejectgpu.html>.
+> Visit the man page for more info.
 
 - Eject all GPUs:
 
