@@ -13,7 +13,7 @@
 
 - Pass Prometheus metrics over stdin to check them for consistency and correctness:
 
-`curl -s {{http://example.com:9090/metrics/}} | promtool check metrics`
+`curl --silent {{http://example.com:9090/metrics/}} | promtool check metrics`
 
 - Unit tests for rules config:
 
