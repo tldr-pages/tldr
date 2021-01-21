@@ -5,7 +5,7 @@
 
 - Check if the config files are valid or not (if present report errors):
 
-`promtool check config {{config_file}}.yml`
+`promtool check config {{config_file.yml}}`
 
 - Check if the rule files are valid or not (if present report errors):
 
