@@ -9,7 +9,7 @@
 
 - Check if the rule files are valid or not (if present report errors):
 
-`promtool check rules {{rules_file}}.yml`
+`promtool check rules {{rules_file.yml}}`
 
 - Pass Prometheus metrics over stdin to check them for consistency and correctness:
 
