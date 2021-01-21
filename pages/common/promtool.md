@@ -17,4 +17,4 @@
 
 - Unit tests for rules config:
 
-`promtool test rules {{test_file}}.yml`
+`promtool test rules {{test_file.yml}}`
