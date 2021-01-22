@@ -9,7 +9,7 @@
 
 - Run command on CPUs (cores) 0-4 and 8-12 of the current cpu-set:
 
-`numactl --physcpubind={{+0-4,8-12}} {{command}} {{command_arguments}}`
+`numactl --physcpubind={{+0-4,8-12}} -- {{command}} {{command_arguments}}`
 
 - Run command with its memory interleaved on all CPUs:
 
