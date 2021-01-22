@@ -3,7 +3,6 @@
 > MuPDF is a lightweight PDF viewer (also supports XPS and E-Book formats).
 > More information: https://manpages.debian.org/testing/mupdf/mupdf.1.en.html.
 
-
 - Open a PDF on the first page:
 
 `mupdf {{filename}}`
