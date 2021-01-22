@@ -23,7 +23,7 @@
 
 `mupdf -I {{filename}}`
 
-- Open a PDF tinted red FF0000 (hexadecimal color syntax RRGGBB):
+- Open a PDF tinted red #FF0000 (hexadecimal color syntax RRGGBB):
 
 `mupdf -C {{FF0000}}`
 
