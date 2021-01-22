@@ -7,7 +7,7 @@
 
 `numactl --cpunodebind={{0}} --membind={{0,1}} -- {{command}} {{command_arguments}}`
 
-- Run command on CPUs (cores) 0-4 and 8-12 of the current cpu-set:
+- Run a command on CPUs (cores) 0-4 and 8-12 of the current cpu-set:
 
 `numactl --physcpubind={{+0-4,8-12}} -- {{command}} {{command_arguments}}`
 
