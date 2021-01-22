@@ -11,6 +11,6 @@
 
 `numactl --physcpubind={{+0-4,8-12}} -- {{command}} {{command_arguments}}`
 
-- Run command with its memory interleaved on all CPUs:
+- Run a command with its memory interleaved on all CPUs:
 
 `numactl --interleave={{all}} -- {{command}} {{command_arguments}}`
