@@ -7,9 +7,9 @@
 
 `cmake {{path/to/project_directory}}`
 
-- Generate a build recipe, build type setted to `Release` with CMake variable:
+- Generate a build recipe, with build type set to `Release` with CMake variable:
 
-`cmake {{path/to/project_directory}} -D CMAKE_BUILD_TYPE=Release`
+`cmake {{path/to/project_directory}} -D {{CMAKE_BUILD_TYPE=Release}}`
 
 - Build artifacts with the generated recipe in `build_directory`:
 
@@ -21,7 +21,7 @@
 
 - Install the build artifacts using the custom prefix for paths:
 
-`cmake --install {{path/to/build_directory}} --strip --prefix {{path/to/prefix_directory}}`
+`cmake --install {{path/to/build_directory}} --strip --prefix {{path/to/directory}}`
 
 - Run a custom build target:
 
