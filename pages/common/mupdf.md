@@ -1,6 +1,6 @@
 # mupdf
 
-> MuPDF is a lightweight PDF viewer (also supports XPS and E-Book formats).
+> MuPDF is a lightweight PDF, XPS, and E-book viewer.
 > More information: <https://www.mupdf.com>.
 
 - Open a PDF on the first page:
