@@ -13,7 +13,7 @@
 
 - Edit the `.envrc` file in the default text editor and reload the environment on exit:
 
-`direnv allow`
+`direnv edit .`
 
 - Trigger a reload of the environment:
 

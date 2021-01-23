@@ -1,0 +1,5 @@
+# This ensures that the line endings in any files added or modified are
+# normalized before being committed. On Windows they will automatically
+# be checked-out as CRLF, and re-converted to LF before check-in.
+# See https://git-scm.com/docs/gitattributes for more information.
+* text=auto

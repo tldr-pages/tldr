@@ -1,7 +1,7 @@
 # iwctl
 
 > Un outil de ligne de commande pour gèrer iwd.
-> Plus d'informations: <https://iwd.wiki.kernel.org/gettingstarted>.
+> Plus d'informations : <https://iwd.wiki.kernel.org/gettingstarted>.
 
 - Lancer le mode interactif, dans ce mode vous pouvez entrer les commandes directement, avec de l'autocompletion:
 

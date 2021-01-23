@@ -1,7 +1,7 @@
 # ack
 
 > புரோகிராமர்களுக்கு உகந்ததாக கிரப் போன்ற தேடல் கருவி.
-> மேலதிக தகவல்கலுக்கு:: <https://beyondgrep.com/documentation/>.
+> மேலும் தகவல்: <https://beyondgrep.com/documentation/>.
 
 - "காலை" கொண்ட கோப்புகளைக் கண்டறியவும்:
 

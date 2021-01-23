@@ -3,30 +3,34 @@
 > A tool to easily install Ruby versions and manage application environments.
 > More information: <https://github.com/rbenv/rbenv>.
 
-- Install one or more space-separated versions of Ruby:
+- Install a Ruby version:
 
-`rbenv install {{version(s)}}`
+`rbenv install {{version}}`
 
-- Display a list of installed versions:
+- Display a list of the latest stable versions for each Ruby:
+
+`rbenv install --list`
+
+- Display a list of installed Ruby versions:
 
 `rbenv versions`
 
-- Use a specific version of Ruby across the whole system:
+- Use a specific Ruby version across the whole system:
 
 `rbenv global {{version}}`
 
-- Use a specific version of Ruby for an application/project directory:
+- Use a specific Ruby version for an application/project directory:
 
 `rbenv local {{version}}`
 
-- Show the currently selected Ruby version:
+- Display the currently selected Ruby version:
 
 `rbenv version`
 
-- Uninstall a version of Ruby:
+- Uninstall a Ruby version:
 
 `rbenv uninstall {{version}}`
 
-- Display all ruby versions that contain the specified executable:
+- Display all Ruby versions that contain the specified executable:
 
 `rbenv whence {{executable}}`

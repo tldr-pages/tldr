@@ -1,6 +1,6 @@
 # delta
 
-> A viewer for git and diff output.
+> A viewer for Git and diff output.
 > More information: <https://github.com/dandavison/delta>.
 
 - Compare files or directories:
@@ -15,7 +15,7 @@
 
 `delta --side-by-side {{path/to/old_file_or_directory}} {{path/to/new_file_or_directory}}`
 
-- Compare files or directories, ignoring any git configuration settings:
+- Compare files or directories, ignoring any Git configuration settings:
 
 `delta --no-gitconfig {{path/to/old_file_or_directory}} {{path/to/new_file_or_directory}}`
 

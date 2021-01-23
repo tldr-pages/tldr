@@ -1,6 +1,6 @@
 # git status
 
-> Muestra los cambios realizados en los archivos del repositorio git.
+> Muestra los cambios realizados en los archivos del repositorio Git.
 > Indica los archivos cambiados, añadidos y eliminados comparándolos con el último commit.
 > Más información: <https://git-scm.com/docs/git-status>.
 

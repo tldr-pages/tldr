@@ -11,9 +11,9 @@
 
 `shutdown /s /f`
 
-- Restart the current machine:
+- Restart the current machine immediately:
 
-`shutdown /r`
+`shutdown /r /t 0`
 
 - Hibernate the current machine:
 
@@ -26,10 +26,6 @@
 - Specify a timeout in seconds to wait before shutting down:
 
 `shutdown /s /t {{seconds}}`
-
-- Specify a comment for the shutdown reason:
-
-`shutdown /s /c "{{reason}}"`
 
 - Abort a shutdown sequence whose timeout is yet to expire:
 

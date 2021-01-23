@@ -30,7 +30,7 @@
 
 - Get an interactive wizard for an AWS resource:
 
-`aws dynamodb wizard {{new-table}}`
+`aws dynamodb wizard {{new_table}}`
 
 - Generate a JSON CLI Skeleton (useful for infrastructure as code):
 

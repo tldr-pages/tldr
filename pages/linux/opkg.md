@@ -22,7 +22,7 @@
 
 `opkg upgrade {{package(s)}}`
 
-- Display informations for a specific package:
+- Display information for a specific package:
 
 `opkg info {{package}}`
 

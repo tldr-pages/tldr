@@ -11,6 +11,6 @@
 
 `tldr -p {{linux}} {{tar}}`
 
-- 顯示 git 的子指令 checkout 的用法：
+- 顯示 Git 的子指令 checkout 的用法：
 
 `tldr {{git-checkout}}`

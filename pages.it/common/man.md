@@ -20,4 +20,4 @@
 
 - Cerca pagine di manuale che contengano una certa stringa:
 
-`man -k {{ricerca}}` 
+`man -k {{ricerca}}`

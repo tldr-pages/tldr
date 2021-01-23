@@ -115,6 +115,7 @@ both for the command line and for other platforms:
   or `apt-get install tldr` on Debian-based distributions
   - [fast-tldr](https://github.com/gutjuri/fast-tldr)
 - [Java client](https://github.com/seenukarthi/tldr-java-client)
+- [Keypirinha Plugin](https://github.com/ronan696/keypirinha-tldr)
 - [Node.js client](https://github.com/tldr-pages/tldr-node-client):
   `npm install -g tldr`
 - [OCaml client](https://github.com/RosalesJ/tldr-ocaml): `opam install tldr`
@@ -148,7 +149,7 @@ There is also a comprehensive
 - Your favourite command isn't covered?
 - You can think of more examples for an existing command?
 
-All `tldr` pages are kept as markdown files right here in this repository,
+All `tldr` pages are kept as Markdown files right here in this repository,
 so you can edit them directly and submit your changes as pull requests.
 
 All contributions are welcome!
@@ -168,6 +169,11 @@ Have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!
   The examples are submitted by the user base, and can be voted up or down;
   the best entries are what people see first when they look up a command.
 
+- [kb](https://github.com/gnebbia/kb)
+  is a minimalist command line knowledge base manager.
+  kb can be used to organize your notes and cheatsheets in a minimalist
+  and clean way. It supports also non-text files.
+
 - [eg](https://github.com/srsudar/eg)
   provides detailed examples with explanations on the command line.
   Examples come from the repository, but `eg` supports displaying
@@ -182,4 +188,4 @@ Have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!
 TL;DR stands for "Too Long; Didn't Read".
 It originates in Internet slang, where it is used to indicate that a long text
 (or parts of it) has been skipped as too lengthy.
-Read more in Wikipedia's [TL;DR essay](https://en.wikipedia.org/wiki/Wikipedia:Too_long;_didn%27t_read).
+Read more in How-To Geek's [article](https://www.howtogeek.com/435266/what-does-tldr-mean-and-how-do-you-use-it/).

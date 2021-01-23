@@ -1,7 +1,7 @@
 # git commit
 
 > Komit file ke dalam sebuah repositori.
-> Informasi selengkapnya: <https://git-scm.com/docs/git-commit>.
+> Informasi lebih lanjut: <https://git-scm.com/docs/git-commit>.
 
 - Komit file bertahap ke repositori dengan sebuah pesan:
 

@@ -1,7 +1,7 @@
 # docker
 
 > Mengatur kontainer Docker dan image.
-> Informasi selengkapnya: <https://docs.docker.com/engine/reference/commandline/cli/>.
+> Informasi lebih lanjut: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
 - Menampilkan semua daftar kontainer docker yang sedang berjalan:
 

@@ -1,7 +1,7 @@
 # git add
 
 > Menambahkan file yang diubah ke indeks.
-> Informasi selengkapnya: <https://git-scm.com/docs/git-add>.
+> Informasi lebih lanjut: <https://git-scm.com/docs/git-add>.
 
 - Tambahkan file ke indeks:
 

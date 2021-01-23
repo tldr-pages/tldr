@@ -1,6 +1,6 @@
 # git config
 
-> Gestiona opciones personalizadas para la configuración de repositorios git.
+> Gestiona opciones personalizadas para la configuración de repositorios Git.
 > Esta configuración puede ser local (para el repositorio actual) o global (para el usuario actual).
 > Más información: <https://git-scm.com/docs/git-config>.
 

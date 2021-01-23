@@ -1,8 +1,8 @@
 # lua
 
-> Un langage de programmation puissant, léger, et convenable aux 
+> Un langage de programmation puissant, léger, et convenable aux
 systèmes embarqués.
-> Plus d'informations: <https://www.lua.org>.
+> Plus d'informations : <https://www.lua.org>.
 
 - Démarre une session de commandes intéractive Lua :
 

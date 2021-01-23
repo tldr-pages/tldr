@@ -1,15 +1,20 @@
 # lvresize
 
 > Change the size of a logical volume.
+> More information: <https://man7.org/linux/man-pages/man8/lvresize.8.html>.
 
-- Change a volume's size to 120GB:
+- Change the size of a logical volume to 120GB:
 
-`lvresize -L {{120G}} {{logical_volume}}`
+`lvresize --size {{120G}} {{volume_group}}/{{logical_volume}}`
 
-- Reduce a volume's size by 120GB as well as the underlying filesystem:
+- Extend the size of a logical volume as well as the underlying filesystem by 120GB:
 
-`lvresize --size -{{120G}} -r {{logical_volume}}`
+`lvresize --size +{{120G}} --resizefs {{volume_group}}/{{logical_volume}}`
 
-- Increase a volume's size to 100% of the free phyiscal volume space:
+- Extend the size of a logical volume to 100% of the free physical volume space:
 
-`lvresize --size {{100}}%FREE {{logical_volume}}`
+`lvresize --size {{100}}%FREE {{volume_group}}/{{logical_volume}}`
+
+- Reduce the size of a logical volume as well as the underlying filesystem by 120GB:
+
+`lvresize --size -{{120G}} --resizefs {{volume_group}}/{{logical_volume}}`

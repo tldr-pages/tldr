@@ -7,11 +7,11 @@
 
 `git submodule update --init --recursive`
 
-- Add a git repository as a submodule:
+- Add a Git repository as a submodule:
 
 `git submodule add {{repository_url}}`
 
-- Add a git repository as a submodule at the specified directory:
+- Add a Git repository as a submodule at the specified directory:
 
 `git submodule add {{repository_url}} {{path/to/directory}}`
 

@@ -1,7 +1,7 @@
 # aws iam
 
 > Kommandozeilen Werkzeug für AWS IAM.
-> Weitere Informationen: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/iam/index.html>.
+> Mehr Informationen: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/iam/index.html>.
 
 - Zeige die AWS IAM Hilfe Seite (beinhaltet auch Hinweise für alle Unter-Kommandos):
 

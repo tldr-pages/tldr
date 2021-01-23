@@ -10,6 +10,14 @@
 
 `sha224sum {{filename1}} {{filename2}}`
 
+- Calculate and save the list of SHA224 checksums to a file:
+
+`sha224sum {{filename1}} {{filename2}} > {{filename.sha224}}`
+
 - Read a file of SHA224 sums and verify all files have matching checksums:
 
-`sha224sum -c {{filename.sha224}}`
+`sha224sum --check {{filename.sha224}}`
+
+- Only show a message for files for which verification fails:
+
+`sha224sum --check --quiet {{filename.sha224}}`
