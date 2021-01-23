@@ -26,3 +26,11 @@
 - Affiche une ligne sur trois en partant de la première ligne :
 
 `awk 'NR%3==1' {{nom_de_fichier}}`
+
+- Affiche les lignes dont la valeur de la colone 10 vaut la valeur recherchée :
+
+`awk '($10 == valeur)'`
+
+- Affiche les lignes dont la valeur de la colone 10 est comprise entre un min et un max :
+
+`awk '($10 >= valeur_min && $10 <= valeur_max)'`

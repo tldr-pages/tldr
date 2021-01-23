@@ -1,6 +1,6 @@
 # git mv
 
-> Mueve o renombra archivos y actualiza el índice git.
+> Mueve o renombra archivos y actualiza el índice Git.
 > Más información: <https://git-scm.com/docs/git-mv>.
 
 - Mueve el archivo dentro del repositorio y añade el movimiento al siguiente commit:

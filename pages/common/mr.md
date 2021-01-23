@@ -7,7 +7,7 @@
 
 `mr register`
 
-- Update repositories in 5 concurent jobs:
+- Update repositories in 5 concurrent jobs:
 
 `mr -j{{5}} update`
 

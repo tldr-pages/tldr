@@ -2,7 +2,7 @@
 
 > Outil en ligne de commande permettant d'assembler ou analyser des paquets TCP/IP.
 > Inspirer par la commande `ping`.
-> Pour plus d'informations: <http://www.hping.org>.
+> Plus d'informations : <http://www.hping.org>.
 
 - Ping localhost via TCP:
 

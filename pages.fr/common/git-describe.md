@@ -7,7 +7,7 @@
 
 `git describe`
 
-- Créer un nom avec un hash de commit de 4 lettres :
+- Créer un nom avec un hash de commit de 4 carctéres :
 
 `git describe --abbrev={{4}}`
 
@@ -15,10 +15,10 @@
 
 `git describe --all`
 
-- Décrire un tag :
+- Décrire un tag Git :
 
 `git describe {{v1.0.0}}`
 
 - Créer un nom pour le dernier commit d'une branche donnée :
 
-`git describe {{branch_name}}`
+`git describe {{nom_de_branche}}`

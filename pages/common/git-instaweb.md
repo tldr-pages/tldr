@@ -3,7 +3,7 @@
 > Helper to launch a gitweb server.
 > More information: <https://git-scm.com/docs/git-instaweb>.
 
-- Launch a gitweb server for the current git repository:
+- Launch a gitweb server for the current Git repository:
 
 `git instaweb --start`
 

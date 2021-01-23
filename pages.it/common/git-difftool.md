@@ -1,6 +1,6 @@
 # git difftool
 
-> Mostra le modifiche ai file tracciati usando uno strumento Diff esterno. Accetta le stesse opzioni e argomenti di git diff.
+> Mostra le modifiche ai file tracciati usando uno strumento Diff esterno. Accetta le stesse opzioni e argomenti di Git diff.
 > Maggiori informazioni: <https://git-scm.com/docs/git-difftool>.
 
 - Elenca gli strumenti Diff disponibili:

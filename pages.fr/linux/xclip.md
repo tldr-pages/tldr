@@ -19,7 +19,7 @@
 
 `xclip -sel clip {{fichier_entrée.txt}}`
 
-- Copie le contenu d'une image PNG vers le presse-papiers système (peut être collé dans d'autres programmes correctement) : 
+- Copie le contenu d'une image PNG vers le presse-papiers système (peut être collé dans d'autres programmes correctement) :
 
 `xclip -sel clip -t image/png {{fichier_entrée.png}}`
 

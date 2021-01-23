@@ -19,7 +19,7 @@
 
 `git lfs track`
 
-- List tracked files that have been commited:
+- List tracked files that have been committed:
 
 `git lfs ls-files`
 

@@ -7,6 +7,10 @@
 
 `bundle install`
 
+- Execute a command in the context of the current bundle:
+
+`bundle exec {{command}} {{arguments}}`
+
 - Update all gems by the rules defined in the `Gemfile` and regenerate `Gemfile.lock`:
 
 `bundle update`

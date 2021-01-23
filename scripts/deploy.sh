@@ -30,9 +30,14 @@ function upload_assets {
   mv -f "$TLDR_ARCHIVE" "$SITE_HOME/assets/"
   cp -f "$TLDRHOME/index.json" "$SITE_HOME/assets/"
 
+  # Copy PDF to assets
+  if [[ -f "${TLDRHOME}/scripts/pdf/tldr-pages.pdf" ]]; then
+    cp -f "${TLDRHOME}/scripts/pdf/tldr-pages.pdf" "${SITE_HOME}/assets/tldr-book.pdf"
+  fi
+
   cd "$SITE_HOME"
   git add -A
-  git commit -m "[GitHub Actions] uploaded assets after commit ${GITHUB_SHA}"
+  git commit -m "[GitHub Actions] uploaded assets after commit tldr-pages/tldr@${GITHUB_SHA}"
   git push -q
 
   echo "Assets (pages archive, index) deployed to static site."

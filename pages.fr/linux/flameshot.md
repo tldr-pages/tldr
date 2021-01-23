@@ -1,8 +1,8 @@
-# flameshot 
+# flameshot
 
 > Outil de capture d'écran avec une interface graphique.
 > Ajoute du texte, des formes, des couleurs et envoie à imgur.
-> Plus d'information: <https://flameshot.js.org>.
+> Plus d'informations : <https://flameshot.js.org>.
 
 - Lancez Flameshot en mode graphique:
 

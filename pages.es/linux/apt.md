@@ -11,26 +11,26 @@
 
 `apt search {{paquete}}`
 
-- Mostrar información para un paquete:
+- Muestra la información de un paquete:
 
 `apt show {{paquete}}`
 
-- Instalar un paquete o actualizarlo a su última versión disponible:
+- Instala un paquete o lo actualiza a su última versión disponible:
 
 `sudo apt install {{paquete}}`
 
-- Eliminar un paquete (si se utiliza `purge` también se elimina sus archivos de configuración):
+- Elimina un paquete (si se utiliza `purge` también elimina sus archivos de configuración):
 
 `sudo apt remove {{paquete}}`
 
-- Actualizar todos los paquetes a sus nuevas versiones disponibles:
+- Actualiza todos los paquetes a sus nuevas versiones disponibles:
 
 `sudo apt upgrade`
 
-- Mostrar todos los paquetes:
+- Muestra todos los paquetes:
 
 `apt list`
 
-- Mostrar los paquetes instalados:
+- Muestra los paquetes instalados:
 
 `apt list --installed`

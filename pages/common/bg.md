@@ -8,4 +8,4 @@
 
 - Resume a specific job (use `jobs -l` to get its ID) and run it in the background:
 
-`bg {{job_id}}`
+`bg %{{job_id}}`

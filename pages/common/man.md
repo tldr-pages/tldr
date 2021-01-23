@@ -20,4 +20,4 @@
 
 - Search for manpages containing a search string:
 
-`man -k "{{search string}}"`
+`man -k "{{search_string}}"`

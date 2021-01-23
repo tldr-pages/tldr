@@ -1,3 +1,6 @@
+# VS Code
+.vscode/
+
 # macOS filesystem custom folder attributes
 .DS_Store
 
@@ -18,3 +21,7 @@ index.json
 # Generated PDF pages
 scripts/pdf/*.html
 scripts/pdf/tldr-pages.pdf
+
+# Python venv for testing the PDF script
+# Create it with: python3 -m venv scripts/pdf/venv/
+scripts/pdf/venv/

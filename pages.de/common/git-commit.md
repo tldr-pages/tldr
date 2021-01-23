@@ -3,7 +3,7 @@
 > Commit Dateien in das Repository.
 > Mehr Informationen: <https://git-scm.com/docs/git-commit>.
 
-- Commiten von gestagten Dateien zum Repository mit einer Nachricht: 
+- Commiten von gestagten Dateien zum Repository mit einer Nachricht:
 
 `git commit -m {{message}}`
 
@@ -11,7 +11,7 @@
 
 `git commit -a -m {{message}}`
 
-- Ersetzt den letzten Commit mit den gerade auf dem Stage liegenden Änderungen: 
+- Ersetzt den letzten Commit mit den gerade auf dem Stage liegenden Änderungen:
 
 `git commit --amend`
 

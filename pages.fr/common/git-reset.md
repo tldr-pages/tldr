@@ -1,9 +1,9 @@
 # git reset
 
-> Enlève des commits ou des changements en réinitialisant la tête git à l'état spécifié.
-> Si un chemin est passé en paramètre, git reset fonctionne comme «unstage».
-> Si un hash de commit est passé en paramètre, git reset annule les commits jusqu'à ce dernier.
-> Plus d'informations: <https://git-scm.com/docs/git-reset>.
+> Enlève des commits ou des changements en réinitialisant la tête Git à l'état spécifié.
+> Si un chemin est passé en paramètre, Git reset fonctionne comme «unstage».
+> Si un hash de commit est passé en paramètre, Git reset annule les commits jusqu'à ce dernier.
+> Plus d'informations : <https://git-scm.com/docs/git-reset>.
 
 - Tout enlever de la *zone de stage* :
 
@@ -11,11 +11,11 @@
 
 - Enlever des fichiers spécifiques de la *zone de stage* :
 
-`git reset {{path/to/file(s)}}`
+`git reset {{chemin/vers/fichier(s)}}`
 
 - Enlever une portion d'un fichier de la *zone de stage* :
 
-`git reset -p {{path/to/file}}`
+`git reset -p {{chemin/vers/fichier}}`
 
 - Annuler le dernier *commit*, mais garder les chagements éffectués dans votre système de fichier :
 

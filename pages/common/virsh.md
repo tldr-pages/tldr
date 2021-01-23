@@ -1,8 +1,8 @@
 # virsh
 
 > Manage virsh guest domains.
-> More information: <https://libvirt.org/virshcmdref.html>.
 > NOTE: 'guest_id' can be the id, name or UUID of the guest.
+> More information: <https://libvirt.org/virshcmdref.html>.
 
 - Connect to a hypervisor session:
 
