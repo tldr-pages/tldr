@@ -11,7 +11,7 @@
 
 `cmake {{path/to/project_directory}} -D {{CMAKE_BUILD_TYPE=Release}}`
 
-- Build artifacts with the generated recipe in `build_directory`:
+- Use a generated recipe in a given directory to build artifacts:
 
 `cmake --build {{path/to/build_directory}}`
 
