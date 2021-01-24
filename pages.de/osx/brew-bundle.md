@@ -1,7 +1,7 @@
 # brew bundle
 
 > Bundler für Homebrew, Homebrew Cask und den Mac App Store.
-> More information: <https://github.com/Homebrew/homebrew-bundle>.
+> Mehr Informationen: <https://github.com/Homebrew/homebrew-bundle>.
 
 - Installieren von Paketen welche im Brewfile (im gleichem Pfad) sind:
 
