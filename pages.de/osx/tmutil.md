@@ -27,7 +27,7 @@
 
 `sudo tmutil startbackup`
 
-- Starte ein Backup im Vordergrund, falls nicht bereits eines läuft
+- Starte ein Backup im Vordergrund, falls nicht bereits eines läuft:
 
 `sudo tmutil startbackup -b`
 
