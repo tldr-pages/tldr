@@ -10,6 +10,6 @@
 
 `sudo ctrlaltdel hard`
 
-- Set `CTRL+ALT+DEL` to reboot "normally", giving processes a chance to exit first (send SIGINT to PID1):
+- Set CTRL+ALT+DEL to reboot "normally", giving processes a chance to exit first (send SIGINT to PID1):
 
 `sudo ctrlaltdel soft`
