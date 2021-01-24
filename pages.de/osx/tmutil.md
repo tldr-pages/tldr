@@ -1,7 +1,7 @@
 # tmutil
 
 > Dienstprogramm zum Verwalten von Time Machine-Backups. Die meisten Kommandos erfordern Root-Rechte.
-> More information: <https://ss64.com/osx/tmutil.html>.
+> Mehr Informationen: <https://ss64.com/osx/tmutil.html>.
 
 - Setze ein HFS+ Laufwerk als Backupziel:
 
