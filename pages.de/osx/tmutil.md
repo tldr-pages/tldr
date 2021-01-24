@@ -23,7 +23,7 @@
 
 `sudo tmutil disable`
 
-- Starte ein Backup im Hintergrund, falls nicht bereits eines läuft
+- Starte ein Backup im Hintergrund, falls nicht bereits eines läuft:
 
 `sudo tmutil startbackup`
 
