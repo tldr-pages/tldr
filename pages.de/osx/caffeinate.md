@@ -1,6 +1,6 @@
 # caffeinate
 
-> Hindert den Mac daran in den Schlaf-Modus zu gehen
+> Hindert den Mac daran in den Schlaf-Modus zu gehen.
 
 - Verhindern, dass der Mac für 1 Stunde (3600 Sekunden) schläft:
 
