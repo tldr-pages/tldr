@@ -1,6 +1,6 @@
 # smbget
 
-> wget-like utility for downloading files from SMB servers.
+> Wget-like utility for downloading files from SMB servers.
 
 - Download a file from a server:
 
