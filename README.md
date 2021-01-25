@@ -140,6 +140,7 @@ both for the command line and for other platforms:
     - [tldr.jsx](https://github.com/ostera/tldr.jsx): http://tldr.ostera.io/
     - [DistroWatch](https://distrowatch.com/dwres.php?resource=man-pages)
     - [tldr.ooops.me](https://tldr.ooops.me): web client with multilingual support
+    - [TLDR Persian](https://opoet777.github.io/tldr-persian/): Web Client in Persian
 
 There is also a comprehensive
 [list of clients in our Wiki](https://github.com/tldr-pages/tldr/wiki/tldr-pages-clients).
