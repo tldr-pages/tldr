@@ -47,7 +47,7 @@ for the most common UNIX, Linux, macOS, SunOS and Windows command-line tools.
 
 ## How do I use it?
 
-If you just want to browse without installing anything, check out the [PDF version.](https://github.com/tldr-pages/tldr-pages.github.io/blob/master/assets/tldr-book.pdf)
+If you just want to browse without installing anything, check out the [PDF version](https://tldr.sh/assets/tldr-book.pdf).
 However, a popular and convenient way to access these pages on your computer
 is to install the [Node.js client](https://github.com/tldr-pages/tldr-node-client),
 which is supported by the tldr-pages project maintainers:
