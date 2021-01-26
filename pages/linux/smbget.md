@@ -1,6 +1,7 @@
 # smbget
 
 > Wget-like utility for downloading files from SMB servers.
+> More information: <https://www.samba.org/samba/docs/current/man-html/smbget.1.html>.
 
 - Download a file from a server:
 
@@ -8,7 +9,7 @@
 
 - Download a share or directory recursively:
 
-`smbget -R {{smb://server/share}}`
+`smbget --recursive {{smb://server/share}}`
 
 - Connect with a username and password:
 
