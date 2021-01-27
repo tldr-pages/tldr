@@ -14,6 +14,6 @@
 
 `nmcli device wifi connect {{ssid}} password {{password}}`
 
-- Print password and QR code for the current Wi-Fi:
+- Print password and QR code for the current Wi-Fi network:
 
 `nmcli device wifi show-password`
