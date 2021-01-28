@@ -13,3 +13,7 @@
 - Connect to the Wi-Fi network with a specified name and password:
 
 `nmcli device wifi connect {{ssid}} password {{password}}`
+
+- Print password and QR code for the current Wi-Fi network:
+
+`nmcli device wifi show-password`
