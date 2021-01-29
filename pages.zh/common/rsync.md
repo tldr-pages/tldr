@@ -34,3 +34,4 @@
 - 指定本地和远程之间通信方式（-e），使用指定端口，显示进度条：
 
 `rsync -e 'ssh -p {{port}}' -P {{remote_host}}:{{path/to/remote_file}} {{path/to/local_file}}`
+
