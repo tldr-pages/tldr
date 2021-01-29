@@ -27,7 +27,7 @@
 
 `sudo --shell`
 
-- Launch the default shell as the specified user with his environment and read login-specific files (.profile, .bash_profile, ...):
+- Launch the default shell as the specified user, loading the user's environment and reading login-specific files (`.profile`, `.bash_profile`, etc.):
 
 `sudo --login --user={{user}}`
 
