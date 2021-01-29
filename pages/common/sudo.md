@@ -19,7 +19,7 @@
 
 `sudo !!`
 
-- Launch the default shell with superuser privileges and run login-specific files (.profile, .bash_profile, ...):
+- Launch the default shell with superuser privileges and run login-specific files (`.profile`, `.bash_profile`, etc.):
 
 `sudo --login`
 
