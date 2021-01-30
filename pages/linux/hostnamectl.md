@@ -12,7 +12,7 @@
 
 - Set a pretty hostname for the computer:
 
-`sudo hostnamectl set-hostname --static "{{some_hostname.example.com}}" && sudo hostnamectl set-hostname --pretty "{{some_hostname}}"`
+`sudo hostnamectl set-hostname --static "{{hostname.example.com}}" && sudo hostnamectl set-hostname --pretty "{{hostname}}"`
 
 - Reset hostname to its default value:
 
