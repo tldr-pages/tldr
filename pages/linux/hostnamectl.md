@@ -8,7 +8,7 @@
 
 - Set the hostname of the computer:
 
-`sudo hostnamectl set-hostname "{{some_hostname}}"`
+`sudo hostnamectl set-hostname "{{hostname}}"`
 
 - Set a pretty hostname for the computer:
 
