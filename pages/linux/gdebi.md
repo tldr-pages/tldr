@@ -3,7 +3,7 @@
 > Simple tool to install deb files.
 > More information: <https://launchpad.net/gdebi>.
 
-- Install local deb packages resolving and installing its dependencies:
+- Install local `.deb` packages resolving and installing its dependencies:
 
 `gdebi {{path/to/package.deb}}`
 
