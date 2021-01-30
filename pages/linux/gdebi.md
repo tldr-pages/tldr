@@ -13,12 +13,12 @@
 
 - Do not show progress information:
 
-`gdebi -q`
+`gdebi {{package.deb}} -q`
 
 - Set an APT configuration option:
 
-`gdebi -o {{APT_OPTS}}`
+`gdebi {{package.deb}} -o {{APT_OPTS}}`
 
 - Use alternative root dir:
 
-`gdebi root=ROOTDIR`
+`gdebi {{package.deb}} root=ROOTDIR`
