@@ -13,7 +13,7 @@
 
 - Do not show progress information:
 
-`gdebi {{package.deb}} -q`
+`gdebi {{path/to/package.deb}} --quiet`
 
 - Set an APT configuration option:
 
