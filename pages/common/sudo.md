@@ -23,7 +23,7 @@
 
 `sudo --login`
 
-- Launch the default shell with superuser privileges without his environment:
+- Launch the default shell with superuser privileges without changing the environment:
 
 `sudo --shell`
 
