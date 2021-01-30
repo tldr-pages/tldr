@@ -14,6 +14,6 @@
 
 `sudo hostnamectl set-hostname --static "{{some_hostname.example.com}}" && sudo hostnamectl set-hostname --pretty "{{some_hostname}}"`
 
-- Reset a hostname to its defaults value by passing the empty string:
+- Reset hostname to its default value:
 
 `sudo hostnamectl set-hostname --pretty ""`
