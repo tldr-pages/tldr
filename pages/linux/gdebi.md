@@ -5,7 +5,7 @@
 
 - Install local deb packages resolving and installing its dependencies:
 
-`gdebi {{package.deb}}`
+`gdebi {{path/to/package.deb}}`
 
 - Display the program version:
 
