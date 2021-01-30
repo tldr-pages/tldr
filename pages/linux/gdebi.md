@@ -21,4 +21,4 @@
 
 - Use alternative root dir:
 
-`gdebi {{package.deb}} root=ROOTDIR`
+`gdebi {{path/to/package.deb}} --root={{path/to/root_dir}}`
