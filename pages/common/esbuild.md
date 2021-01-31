@@ -17,7 +17,7 @@
 
 - Bundle a JSX application for a comma-separated list of browsers:
 
-`esbuild --bundle --minify --sourcemap --target={{browser(s)}} {{path/to/file.jsx}}`
+`esbuild --bundle --minify --sourcemap --target={{chrome58,firefox57,safari11,edge16}} {{path/to/file.jsx}}`
 
 - Bundle a JavaScript code for a specific node version:
 
@@ -33,4 +33,4 @@
 
 - Bundle a space-separated list of files to an output directory:
 
-`esbuild --bundle --outdir={{path/to/output_directory}} {{path/to/files(s)}}`
+`esbuild --bundle --outdir={{path/to/output_directory}} {{path/to/file1}} {{path/to/file2}}`
