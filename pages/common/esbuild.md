@@ -27,10 +27,10 @@
 
 `esbuild --bundle app.js --loader:.js=jsx {{path/to/file.js}}`
 
-- Bundle and serve a JavaScript file:
+- Bundle and serve JavaScript application on an HTTP server:
 
 `esbuild --bundle --serve={{port}} --outfile={{index.js}} {{path/to/file.js}}`
 
-- Bundle a space-separated list of files to an output directory:
+- Bundle a list of files to an output directory:
 
 `esbuild --bundle --outdir={{path/to/output_directory}} {{path/to/file1}} {{path/to/file2}}`
