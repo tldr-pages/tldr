@@ -19,7 +19,7 @@
 
 `conky -d`
 
-- Alinea conky en el escritorio.
+- Alinea conky en el escritorio:
 
 `conky -a {{{arriba,abajo,en_medio}_{izquierda,derecha,en_medio}}}`
 

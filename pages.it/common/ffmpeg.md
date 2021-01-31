@@ -15,7 +15,7 @@
 
 `ffmpeg -i {{frame_%d.jpg}} -f image2 {{video.mpg|video.gif}}`
 
-- Estrai un singolo fotogramma da un video al timestamp mm:ss e salvalo come immagine di dimensioni 128x128
+- Estrai un singolo fotogramma da un video al timestamp mm:ss e salvalo come immagine di dimensioni 128x128:
 
 `ffmpeg -ss {{mm:ss}} -i {{video.mp4}} -frames 1 -s {{128x128}} -f image2 {{image.png}}`
 

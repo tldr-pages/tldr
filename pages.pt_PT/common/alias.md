@@ -19,7 +19,7 @@
 
 `unalias {{palavra}}`
 
-- Tornar `rm` num comando interativo
+- Tornar `rm` num comando interativo:
 
 `alias {{rm}}="{{rm -i}}"`
 

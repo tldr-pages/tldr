@@ -15,6 +15,6 @@
 
 `git commit --amend`
 
-- Nur spezifische Dateien commiten (die Dateien müssen schon auf dem Stage liegen)
+- Nur spezifische Dateien commiten (die Dateien müssen schon auf dem Stage liegen):
 
 `git commit {{path/to/my/file1}} {{path/to/my/file2}}`

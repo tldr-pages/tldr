@@ -6,7 +6,6 @@
 
 `mkdir {{répertoire}}`
 
-- Crée des répertoires récursivement (utile pour créer des répertoires
-imbriqués) :
+- Crée des répertoires récursivement (utile pour créer des répertoires imbriqués) :
 
 `mkdir -p {{chemin/vers/répertoire}}`
