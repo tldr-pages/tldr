@@ -19,7 +19,7 @@
 
 `react-native run-android`
 
-- Build your application and start it on iOS simulator:
+- Build your application and start it on an iOS simulator:
 
 `react-native run-ios`
 
@@ -31,6 +31,6 @@
 
 `react-native log-android`
 
-- Start iOS device syslog tail and print logs to stdout:
+- Start syslog tail on an iOS simulator and print logs to stdout:
 
 `react-native log-ios`
