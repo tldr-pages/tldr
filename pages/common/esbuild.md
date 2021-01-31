@@ -3,7 +3,7 @@
 > An extremely fast JavaScript bundler and minifier.
 > More information: <https://esbuild.github.io/>.
 
-- Bundle a JavaScript code and print to stdout:
+- Bundle a JavaScript application and print to stdout:
 
 `esbuild --bundle {{path/to/file.js}}`
 
