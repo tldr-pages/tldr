@@ -1,6 +1,6 @@
 # esbuild
 
-> An extremely fast JavaScript bundler and minifier.
+> JavaScript bundler and minifier built for speed.
 > More information: <https://esbuild.github.io/>.
 
 - Bundle a JavaScript application and print to stdout:
