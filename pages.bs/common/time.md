@@ -2,6 +2,6 @@
 
 > Vidi koliko dugo traje komanda.
 
-- Vrijeme "ls":
+- Vrijeme `ls`:
 
 `time ls`

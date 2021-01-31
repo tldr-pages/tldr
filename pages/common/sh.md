@@ -15,6 +15,6 @@
 
 `sh {{file.sh}}`
 
-- Run commands from `stdin`:
+- Run commands from stdin:
 
 `sh -s`

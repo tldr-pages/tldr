@@ -15,7 +15,7 @@
 
 `cpdf -list-bookmarks {{path/to/document.pdf}}`
 
-- Split a document into ten-page chunks, writing them to chunk001.pdf, chunk002.pdf, etc:
+- Split a document into ten-page chunks, writing them to `chunk001.pdf`, `chunk002.pdf`, etc:
 
 `cpdf -split {{path/to/document.pdf}} -o {{path/to/chunk%%%.pdf}} -chunk {{10}}`
 

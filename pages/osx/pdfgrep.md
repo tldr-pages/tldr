@@ -14,7 +14,7 @@
 
 `pdfgrep --max-count {{3}} --ignore-case {{'^foo'}} {{file.pdf}}`
 
-- Find pattern in files with a .pdf extension in the current directory recursively:
+- Find pattern in files with a `.pdf` extension in the current directory recursively:
 
 `pdfgrep --recursive {{pattern}}`
 

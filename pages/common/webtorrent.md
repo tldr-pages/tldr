@@ -32,6 +32,6 @@
 
 `webtorrent create {{path/to/file}}`
 
-- Display information for a magnet uri or .torrent file:
+- Display information for a magnet uri or `.torrent` file:
 
 `webtorrent info {{path/to/file_or_magnet}}`

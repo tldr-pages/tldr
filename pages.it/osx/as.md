@@ -15,6 +15,6 @@
 
 `as -f {{file.s}}`
 
-- Includi un percorso dato alla lista delle cartelle in cui cercare i file specificati nelle direttive .include:
+- Includi un percorso dato alla lista delle cartelle in cui cercare i file specificati nelle direttive `.include`:
 
 `as -I {{path/to/directory}} {{file.s}}`

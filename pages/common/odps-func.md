@@ -6,11 +6,11 @@
 
 `list functions;`
 
-- Create a Java function using a .jar resource:
+- Create a Java function using a `.jar` resource:
 
 `create function {{func_name}} as {{path.to.package.Func}} using '{{package.jar}}';`
 
-- Create a Python function using a .py resource:
+- Create a Python function using a `.py` resource:
 
 `create function {{func_name}} as {{script.Func}} using '{{script.py}}';`
 

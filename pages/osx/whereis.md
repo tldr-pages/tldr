@@ -14,6 +14,6 @@
 
 `whereis -s {{gcc}} -m {{git}}`
 
-- Locate binaries for gcc in /usr/bin/ only:
+- Locate binaries for gcc in `/usr/bin/` only:
 
 `whereis -b -B {{/usr/bin/}} -f {{gcc}}`

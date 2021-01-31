@@ -10,10 +10,10 @@
 
 `base64 -d {{fichier}}`
 
-- Encoder depuis `stdin` :
+- Encoder depuis stdin :
 
 `{{une_commande}} | base64`
 
-- Décoder depuis `stdin` :
+- Décoder depuis stdin :
 
 `{{une_commande}} | base64 -d`

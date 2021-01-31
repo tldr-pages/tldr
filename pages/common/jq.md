@@ -19,7 +19,7 @@
 
 `jq '.[0]' {{file.json}}`
 
-- Output the value of a given key of each element in a JSON text from `stdin`:
+- Output the value of a given key of each element in a JSON text from stdin:
 
 `cat {{file.json}} | jq 'map(.{{key_name}})'`
 

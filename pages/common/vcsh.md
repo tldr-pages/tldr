@@ -23,6 +23,6 @@
 
 `vcsh {{push|pull}}`
 
-- Write a custom .gitignore file for a managed repository:
+- Write a custom `.gitignore` file for a managed repository:
 
 `vcsh write-gitignore {{repository_name}}`

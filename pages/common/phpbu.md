@@ -3,7 +3,7 @@
 > A backup utility framework for PHP.
 > More information: <https://phpbu.de>.
 
-- Run backups using the default "phpbu.xml" configuration file:
+- Run backups using the default `phpbu.xml` configuration file:
 
 `phpbu`
 
