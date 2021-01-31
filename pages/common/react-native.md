@@ -31,6 +31,6 @@
 
 `react-native log-android`
 
-- Start syslog tail on an iOS simulator and print logs to stdout:
+- Start `tail system.log` for an iOS simulator and print logs to stdout:
 
 `react-native log-ios`
