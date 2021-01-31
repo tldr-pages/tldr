@@ -19,7 +19,7 @@
 
 `esbuild --bundle --minify --sourcemap --target={{chrome58,firefox57,safari11,edge16}} {{path/to/file.jsx}}`
 
-- Bundle a JavaScript code for a specific node version:
+- Bundle a JavaScript application for a specific node version:
 
 `esbuild --bundle --platform={{node}} --target={{node12}} {{path/to/file.js}}`
 
