@@ -15,15 +15,15 @@
 
 `react-native start --reset-cache`
 
-- Build your application and start it on a connected Android device or emulator:
+- Build the current application and start it on a connected Android device or emulator:
 
 `react-native run-android`
 
-- Build your application and start it on an iOS simulator:
+- Build the current application and start it on an iOS simulator:
 
 `react-native run-ios`
 
-- Build your application on `release` mode and start it on a connected Android device or emulator:
+- Build the current application in `release` mode and start it on a connected Android device or emulator:
 
 `react-native run-android --variant={{release}}`
 
