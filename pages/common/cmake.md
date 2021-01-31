@@ -1,13 +1,28 @@
 # cmake
 
-> Cross-platform build system generator.
-> It generates Makefiles, Visual Studio projects or others, depending on the target system.
+> Cross-platform build automation system, that generates recipes for native build systems.
 > More information: <https://cmake.org/cmake/help/latest/manual/cmake.1.html>.
 
-- Generate a Makefile and use it to compile a project in the same directory as the source:
+- Generate a build recipe in the current directory with `CMakeLists.txt` from a project directory:
 
-`cmake && make`
+`cmake {{path/to/project_directory}}`
 
-- Generate a Makefile and use it to compile a project in a separate "build" directory (out-of-source build):
+- Generate a build recipe, with build type set to `Release` with CMake variable:
 
-`cmake -H. -B {{build}} && make -C {{build}}`
+`cmake {{path/to/project_directory}} -D {{CMAKE_BUILD_TYPE=Release}}`
+
+- Use a generated recipe in a given directory to build artifacts:
+
+`cmake --build {{path/to/build_directory}}`
+
+- Install the build artifacts into `/usr/local/` and strip debugging symbols:
+
+`cmake --install {{path/to/build_directory}} --strip`
+
+- Install the build artifacts using the custom prefix for paths:
+
+`cmake --install {{path/to/build_directory}} --strip --prefix {{path/to/directory}}`
+
+- Run a custom build target:
+
+`cmake --build {{path/to/build_directory}} --target {{target_name}}`

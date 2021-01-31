@@ -1,6 +1,7 @@
 # nmcli
 
 > A command line tool for controlling NetworkManager.
+> More information: <https://man.archlinux.org/man/nmcli.1>.
 
 - Check the nmcli version:
 

@@ -2,7 +2,7 @@
 
 > Preparer des ficchiers de correctifs, utiles pour les envoyer par email.
 > Voir egalement `git am`, qui peut appliquer des fichiers de correctifs genérés.
-> Plus d'informations : <https://git-scm.com/docs/git-format-patch>.
+> Plus d'informations : <https://git-scm.com/docs/git-format-patch>.
 
 -Créer un fichier de correctif `.patch` nommé automatiquement pour tout les commits non poussés :
 
