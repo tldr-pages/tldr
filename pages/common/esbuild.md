@@ -23,7 +23,7 @@
 
 `esbuild --bundle --platform={{node}} --target={{node12}} {{path/to/file.js}}`
 
-- Bundle a JavaScript code enabling JSX syntax in `.js` files:
+- Bundle a JavaScript application enabling JSX syntax in `.js` files:
 
 `esbuild --bundle app.js --loader:.js=jsx {{path/to/file.js}}`
 
