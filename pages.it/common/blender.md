@@ -8,7 +8,7 @@
 
 `blender -b {{nome_file}}.blend -a`
 
-- Renderizza un'animazione usando uno specifico pattern, in un percorso relativo (`//`) al file .blend:
+- Renderizza un'animazione usando uno specifico pattern, in un percorso relativo (`//`) al file `.blend`:
 
 `blender -b {{nome_file}}.blend -o //{{render/frame_###.png}} -a`
 

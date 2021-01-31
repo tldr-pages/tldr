@@ -1,9 +1,9 @@
 # sshpass
 
 > Für die Bereitstellung von SSH Passwörtern.
-> Es funktioniert über die Übergabe des Passwortes and ein temporäres TTY und die Weiterleitung des `stdin` an die SSH Sitzung.
+> Es funktioniert über die Übergabe des Passwortes and ein temporäres TTY und die Weiterleitung des stdin an die SSH Sitzung.
 
-- Verbindung zu einem externen Server über ein Passwort aus einem Datei-Objekt (in diesem Fall `stdin`):
+- Verbindung zu einem externen Server über ein Passwort aus einem Datei-Objekt (in diesem Fall stdin):
 
 `sshpass -d {{0}} ssh {{Benutzer}}@{{Server}}`
 

@@ -11,7 +11,7 @@
 
 `ffmpeg -i {{video.mpg|video.gif}} {{foto_%d.png}}`
 
-- Sequenzia immagini numerate (foto_1.jpg, foto_2.jpg, ecc) per creare un video o una GIF:
+- Sequenzia immagini numerate (`foto_1.jpg`, `foto_2.jpg`, ecc) per creare un video o una GIF:
 
 `ffmpeg -i {{frame_%d.jpg}} -f image2 {{video.mpg|video.gif}}`
 

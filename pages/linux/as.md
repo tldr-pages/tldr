@@ -3,7 +3,7 @@
 > Portable GNU assembler.
 > Primarily intended to assemble output from `gcc` to be used by `ld`.
 
-- Assemble a file, writing the output to a.out:
+- Assemble a file, writing the output to `a.out`:
 
 `as {{file.s}}`
 
@@ -15,6 +15,6 @@
 
 `as -f {{file.s}}`
 
-- Include a given path to the list of directories to search for files specified in .include directives:
+- Include a given path to the list of directories to search for files specified in `.include` directives:
 
 `as -I {{path/to/directory}} {{file.s}}`

@@ -3,11 +3,11 @@
 > Track system configuration files in Git.
 > More information: <http://etckeeper.branchable.com/>.
 
-- Set up a Git repo and perform various setup tasks (run from /etc):
+- Set up a Git repo and perform various setup tasks (run from `/etc`):
 
 `sudo etckeeper init`
 
-- Commit all changes in /etc:
+- Commit all changes in `/etc`:
 
 `sudo etckeeper commit {{message}}`
 

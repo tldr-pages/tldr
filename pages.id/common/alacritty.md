@@ -15,10 +15,10 @@
 
 `alacritty -e {{perintah}}`
 
-- Menentukan berkas konfigurasi alternatif (nilai default $XDG_CONFIG_HOME/alacritty/alacritty.yml):
+- Menentukan berkas konfigurasi alternatif (nilai default `$XDG_CONFIG_HOME/alacritty/alacritty.yml`):
 
 `alacritty --config-file {{alamat/ke/konfigurasi.yml}}`
 
-- Menjalankan dengan mengaktifkan pemuatan ulang konfigurasi secara langsung/otomatis(dapat juga diaktifkan secara default di alacritty.yml):
+- Menjalankan dengan mengaktifkan pemuatan ulang konfigurasi secara langsung/otomatis(dapat juga diaktifkan secara default di `alacritty.yml`):
 
 `alacritty --live-config-reload --config-file {{alamat/ke/konfigurasi.yml}}`

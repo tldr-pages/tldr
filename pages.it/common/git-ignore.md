@@ -7,6 +7,6 @@
 
 `git ignore list`
 
-- Genera un template .gitignore:
+- Genera un template `.gitignore`:
 
 `git ignore {{elemento_a,elemento_b,elemento_n}}`

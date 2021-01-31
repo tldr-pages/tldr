@@ -16,7 +16,7 @@
 
 `borg list {{path/to/repo_directory}}`
 
-- Extract a specific directory from the "Monday" archive in a remote repository, excluding all *.ext files:
+- Extract a specific directory from the "Monday" archive in a remote repository, excluding all `*.ext` files:
 
 `borg extract {{user}}@{{host}}:{{path/to/repo_directory}}::{{Monday}} {{path/to/target_directory}} --exclude '{{*.ext}}'`
 

@@ -8,6 +8,6 @@
 
 `sudo photorec {{/dev/sdb}}`
 
-- Run PhotoRec on a disk image (image.dd):
+- Run PhotoRec on a disk image (`image.dd`):
 
 `sudo photorec {{path/to/image.dd}}`

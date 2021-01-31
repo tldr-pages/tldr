@@ -14,7 +14,7 @@
 
 `sudo -u {{uzytkownik}} -g {{grupa}} {{id -a}}`
 
-- Powtórz ostatnie polecenie poprzedzone "sudo" (tylko w bash, zsh, etc.):
+- Powtórz ostatnie polecenie poprzedzone `sudo` (tylko w `bash`, `zsh`, etc.):
 
 `sudo !!`
 

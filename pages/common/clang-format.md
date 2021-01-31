@@ -3,7 +3,7 @@
 > Tool to auto-format C/C++/Java/JavaScript/Objective-C/Protobuf/C# code.
 > More information: <https://clang.llvm.org/docs/ClangFormat.html>.
 
-- Format a file and print the result to `stdout`:
+- Format a file and print the result to stdout:
 
 `clang-format {{path/to/file}}`
 

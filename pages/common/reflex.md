@@ -7,7 +7,7 @@
 
 `reflex make`
 
-- Compile and run Go application if any .go file changes:
+- Compile and run Go application if any `.go` file changes:
 
 `reflex --regex='{{\.go$}}' {{go run .}}`
 

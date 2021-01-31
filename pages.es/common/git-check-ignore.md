@@ -11,7 +11,7 @@
 
 `git check-ignore {{ruta/del/archivo}} {{ruta/del/directorio}}`
 
-- Usa nombres de rutas, uno por línea, a partir de la entrada estandar (`stdin`):
+- Usa nombres de rutas, uno por línea, a partir de la entrada estandar (stdin):
 
 `git check-ignore --stdin < {{ruta/del/archivo_lista}}`
 

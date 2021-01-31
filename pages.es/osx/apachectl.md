@@ -2,7 +2,7 @@
 
 > Interfaz de control pata Apache HTTP Server para macOS.
 
-- Inicia la tarea launchd org.apache.httpd:
+- Inicia la tarea launchd `org.apache.httpd`:
 
 `apachectl start`
 

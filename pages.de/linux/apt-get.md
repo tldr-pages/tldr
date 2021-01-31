@@ -23,7 +23,7 @@
 
 `apt-get upgrade`
 
-- Reinigt das Repository - entfernt alle Dateinen (.deb) welche nichtmehr heruntergeladen werden können:
+- Reinigt das Repository - entfernt alle Dateinen (`.deb`) welche nichtmehr heruntergeladen werden können:
 
 `apt-get autoclean`
 

@@ -11,7 +11,7 @@
 
 `csc /out:{{percorso/al/nome_file_output}} {{percorso/al/file_input.cs}}`
 
-- Compila in una libreria '.dll' invece che in un eseguibile:
+- Compila in una libreria `.dll` invece che in un eseguibile:
 
 `csc /target:library {{percorso/al/file_input.cs}}`
 

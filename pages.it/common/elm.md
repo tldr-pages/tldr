@@ -3,7 +3,7 @@
 > Compila ed esegui file sorgente Elm.
 > Maggiori informazioni: <https://elm-lang.org>.
 
-- Inizializza un progetto Elm, generando un file elm.json:
+- Inizializza un progetto Elm, generando un file `elm.json`:
 
 `elm init`
 
@@ -11,7 +11,7 @@
 
 `elm repl`
 
-- Compila un file Elm, scrivendo il risultato in un file index.html:
+- Compila un file Elm, scrivendo il risultato in un file `index.html`:
 
 `elm make {{sorgente}}`
 

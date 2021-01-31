@@ -12,7 +12,7 @@
 
 `lebab --transform {{transformation}}`
 
-- Transpile a file to `stdout`:
+- Transpile a file to stdout:
 
 `lebab {{path/to/input_file}}`
 

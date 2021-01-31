@@ -15,7 +15,7 @@
 
 `cloc --diff {{path/to/directory/one}} {{path/to/directory/two}}`
 
-- Ignore files that are ignored by VCS, such as files specified in .gitignore:
+- Ignore files that are ignored by VCS, such as files specified in `.gitignore`:
 
 `cloc --vcs git {{path/to/directory}}`
 

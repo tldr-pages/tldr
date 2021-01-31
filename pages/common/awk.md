@@ -7,9 +7,9 @@
 
 `awk '{print $5}' {{filename}}`
 
-- Print the second column of the lines containing "something" in a space-separated file:
+- Print the second column of the lines containing "foo" in a space-separated file:
 
-`awk '/{{something}}/ {print $2}' {{filename}}`
+`awk '/{{foo}}/ {print $2}' {{filename}}`
 
 - Print the last column of each line in a file, using a comma (instead of space) as a field separator:
 

@@ -3,7 +3,7 @@
 > Ein Backup framework für PHP.
 > Mehr Informationen: <https://phpbu.de>.
 
-- Backups mit der Standard "phpbu.xml" Konfigurationsdatei ausführen:
+- Backups mit der Standard `phpbu.xml` Konfigurationsdatei ausführen:
 
 `phpbu`
 

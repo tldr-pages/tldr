@@ -10,6 +10,6 @@
 
 `banner -w {{50}} "{{Hello World}}"`
 
-- `stdin`에서 텍스트 읽기:
+- stdin에서 텍스트 읽기:
 
 `banner`
