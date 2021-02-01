@@ -1,7 +1,7 @@
 # genfstab
 
 > Generate output suitable for addition to an fstab file.
-> More information: <https://man.archlinux.org/man/extra/arch-install-scripts/genfstab.8.en>
+> More information: <https://man.archlinux.org/man/extra/arch-install-scripts/genfstab.8.en>.
 
 - Generate the output based on LABEL
 
