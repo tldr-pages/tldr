@@ -3,7 +3,7 @@
 > Generate output suitable for addition to an fstab file.
 > More information: <https://man.archlinux.org/man/extra/arch-install-scripts/genfstab.8>.
 
-- Generate the output based on LABEL:
+- Generate the output based on a label:
 
 `genfstab -L {{path/to/mount_point}}`
 
@@ -11,7 +11,7 @@
 
 `genfstab -U {{path/to/mount_point}}`
 
-- Generate a fstab file, requires being a superuser:
+- Generate an fstab file, requires being a superuser:
 
 `genfstab -U {{/mnt}} >> {{/mnt/etc/fstab}}`
 
