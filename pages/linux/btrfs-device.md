@@ -5,7 +5,7 @@
 
 - Add one or more devices to a btrfs filesystem:
 
-`sudo btrfs device add {{path/to/block_device}} [{{...}}] {{path/to/btrfs_filesystem}}`
+`sudo btrfs device add {{path/to/block_device1}} [{{path/to/block_device2}}] {{path/to/btrfs_filesystem}}`
 
 - Remove a device from a btrfs filesystem:
 
