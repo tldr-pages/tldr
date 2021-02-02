@@ -39,8 +39,6 @@ If you are an owner of the organization, you should be able to see an automated 
   [19 October 2020](https://github.com/tldr-pages/tldr/issues/4763) — present
 - **Sahil Dhiman ([@sahilister](https://github.com/sahilister))**:
   [05 December 2020](https://github.com/tldr-pages/tldr/issues/4994) — present
-- **bl-ue ([@bl-ue](https://github.com/bl-ue))**:
-  [01 January 2021](https://github.com/tldr-pages/tldr/issues/5056) — present
 - **Matthew Peveler ([@MasterOdin](https://github.com/MasterOdin))**:
   [09 January 2021](https://github.com/tldr-pages/tldr/issues/5122) — present
 - Lucas Schneider ([@schneiderl](https://github.com/schneiderl)):
@@ -53,6 +51,8 @@ If you are an owner of the organization, you should be able to see an automated 
   [24 December 2019](https://github.com/tldr-pages/tldr/issues/3690) — [5 January 2020](https://github.com/tldr-pages/tldr/issues/3736)
 - Axel Navarro ([@navarroaxel](https://github.com/navarroaxel)):
   [24 August 2020](https://github.com/tldr-pages/tldr/issues/4291) — [05 October 2020](https://github.com/tldr-pages/tldr/issues/4504)
+- bl-ue ([@bl-ue](https://github.com/bl-ue)):
+  [01 January 2021](https://github.com/tldr-pages/tldr/issues/5056) — [02 February 2021](https://github.com/tldr-pages/tldr/issues/5219)
 
 ## Organization members
 
@@ -69,6 +69,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [17 January 2020](https://github.com/tldr-pages/tldr/issues/3764) — present
 - **Axel Navarro ([@navarroaxel](https://github.com/navarroaxel))**:
   [05 October 2020](https://github.com/tldr-pages/tldr/issues/4504) — present
+- **bl-ue ([@bl-ue](https://github.com/bl-ue))**:
+  [02 February 2021](https://github.com/tldr-pages/tldr/issues/5219) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
