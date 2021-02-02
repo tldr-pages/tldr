@@ -33,5 +33,4 @@
 
 - 指定本地和远程之间通信方式，使用指定端口，并显示进度条：
 
-
 `rsync --rsh 'ssh -p {{port}}' --progress {{remote_host}}:{{path/to/remote_file}} {{path/to/local_file}}`
