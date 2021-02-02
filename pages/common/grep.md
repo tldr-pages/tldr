@@ -30,7 +30,7 @@
 
 - Search for lines matching a pattern, printing [o]nly the matched text:
 
-`grep -o {{search_pattern}}`
+`grep -o {{search_pattern}} {{path/to/file}}`
 
 - Search for lines that do not match (in[v]ert) a pattern:
 
