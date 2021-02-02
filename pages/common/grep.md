@@ -31,6 +31,6 @@
 
 `cat {{path/to/file}} | grep {{search_pattern}}`
 
-- Invert match for excluding specific strings:
+- In[v]ert match for excluding specific strings:
 
 `grep -v {{search_pattern}}`
