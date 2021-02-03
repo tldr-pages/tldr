@@ -23,7 +23,7 @@
 
 `php -S {{host:port}}`
 
-- Uzyskaj listę zainstalowanych rozszerzeń PHP
+- Uzyskaj listę zainstalowanych rozszerzeń PHP:
 
 `php -m`
 

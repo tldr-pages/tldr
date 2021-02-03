@@ -10,6 +10,6 @@
 
 `apropos -l {{expression_reguliere}}`
 
-- Recherche les pages qui contiennent toutes les expressions données (fonction ET)
+- Recherche les pages qui contiennent toutes les expressions données (fonction ET) :
 
 `apropos {{expression_reguliere_1}} -a {{expression_reguliere_2}} -a {{expression_reguliere_3}}`

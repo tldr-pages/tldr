@@ -6,6 +6,6 @@
 
 `yes {{mensagem}}`
 
-- Exibir na tela a letra "y" repetidamente::
+- Exibir na tela a letra "y" repetidamente:
 
 `yes`
