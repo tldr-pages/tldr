@@ -27,7 +27,7 @@
 
 `ssh -L {{9999}}:{{example.org}}:{{80}} -N -T {{Benutzer}}@{{Externer_Server}}`
 
-- SSH Springen: Verbinden über einen Spring-Server zu einem externen Server (Es können auch mehrere Spring-Server über eine Komma-separierte Liste angegeben werden)
+- SSH Springen: Verbinden über einen Spring-Server zu einem externen Server (Es können auch mehrere Spring-Server über eine Komma-separierte Liste angegeben werden):
 
 `ssh -J {{Benutzer}}@{{Spring_Server}} {{Benutzer}}@{{Externer_Server}}`
 

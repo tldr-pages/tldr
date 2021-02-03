@@ -18,6 +18,6 @@
 
 `chown -h {{gebruiker}} {{pad/naar/symlink}}`
 
-- Verander de beheerder van een bestand of map naar dezelfde als een referentiebestand.
+- Verander de beheerder van een bestand of map naar dezelfde als een referentiebestand:
 
 `chown --reference={{pad/naar/referentiebestand}} {{pad/naar/bestand_of_map}}`

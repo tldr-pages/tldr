@@ -7,7 +7,7 @@
 
 `cmus {{ruta/al/directorio}}`
 
-- Añade un archivo/directorio a la librería
+- Añade un archivo/directorio a la librería:
 
 `:add {{ruta/al/archivo_o_directorio}}`
 

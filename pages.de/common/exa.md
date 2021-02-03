@@ -23,6 +23,6 @@
 
 `exa --long --tree --level={{3}}`
 
-- Dateien nach Änderungsdatum sortiert auflisten (älteste zuerst)
+- Dateien nach Änderungsdatum sortiert auflisten (älteste zuerst):
 
 `exa --long --sort={{modified}}`
