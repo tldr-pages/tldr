@@ -27,7 +27,7 @@
 
 `grep -Hn {{search_pattern}} {{path/to/file}}`
 
-- Use the standard input instead of a file:
+- Use file instead of standard input
 
 `cat {{path/to/file}} | grep {{search_pattern}}`
 
