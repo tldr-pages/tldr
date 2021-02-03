@@ -56,6 +56,9 @@ which is supported by the tldr-pages project maintainers:
 That way you can write `tldr tar` in the terminal to show the tldr page for `tar`,
 just like you would write `man tar` to show its manpage.
 
+However, if you just want to browse without installing anything, check 
+out the [PDF version](https://tldr.sh/assets/tldr-book.pdf).
+
 There are also various other clients provided by the community,
 both for the command line and for other platforms:
 
