@@ -26,3 +26,7 @@
 - Update cached list of emojis from main repository:
 
 `gitmoji --update`
+
+- Configure global preferences:
+
+`gitmoji --config`
