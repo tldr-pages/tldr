@@ -19,7 +19,7 @@
 
 `fdupes {{directory1}} -R {{directory2}}`
 
-- Search recursively and prompt for file to preserve, deleting all other duplicates:
+- Search recursively for duplicates and display interactive prompt to pick which ones to keep, deleting the others:
 
 `fdupes -rd {{directory}}`
 
