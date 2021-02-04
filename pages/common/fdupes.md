@@ -11,10 +11,18 @@
 
 `fdupes {{directory1}} {{directory2}}`
 
-- Search all directories recursively:
+- Search a directory recursively:
 
 `fdupes -r {{directory}}`
 
 - Search multiple directories, one recursively:
 
 `fdupes {{directory1}} -R {{directory2}}`
+
+- Search recursively and prompt for file to preserve, deleting all other duplicates
+
+`fdupes -rd {{directory}}`
+
+- Search recursively and delete duplicates without prompting
+
+`fdupes -rdN {{directory}}`
