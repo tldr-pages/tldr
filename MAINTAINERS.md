@@ -65,12 +65,12 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [5 January 2020](https://github.com/tldr-pages/tldr/issues/3736) — present
 - **Ein Verne ([@einverne](https://github.com/einverne))**:
   [12 January 2020](https://github.com/tldr-pages/tldr/issues/3738) — present
-- **Lucas Schneider ([@schneiderl](https://github.com/schneiderl))**:
-  [17 January 2020](https://github.com/tldr-pages/tldr/issues/3764) — present
 - **Axel Navarro ([@navarroaxel](https://github.com/navarroaxel))**:
   [05 October 2020](https://github.com/tldr-pages/tldr/issues/4504) — present
 - **bl-ue ([@bl-ue](https://github.com/bl-ue))**:
   [02 February 2021](https://github.com/tldr-pages/tldr/issues/5219) — present
+- Lucas Schneider ([@schneiderl](https://github.com/schneiderl)):
+  [17 January 2020](https://github.com/tldr-pages/tldr/issues/3764) — [8 January 2021](https://github.com/tldr-pages/tldr/issues/5224)
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
@@ -97,6 +97,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [21 December 2019](https://github.com/tldr-pages/tldr/issues/3672) — present
 - **Zlatan Vasović ([@zlatanvasovic](https://github.com/zlatanvasovic))**:
   [19 June 2020](https://github.com/tldr-pages/tldr/issues/4113) — present
+- **Lucas Schneider ([@schneiderl](https://github.com/schneiderl))**:
+  [4 January 2021](https://github.com/tldr-pages/tldr/issues/5224) — present
 - Igor Shubovych ([@igorshubovych](https://github.com/igorshubovych)):
   until [18 January 2018](https://github.com/tldr-pages/tldr/issues/1878#issuecomment-358610454)
 - Ruben Vereecken ([@rubenvereecken](https://github.com/rubenvereecken)):
