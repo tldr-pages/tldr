@@ -19,7 +19,7 @@
 
 `fdupes {{dossier1}} -R {{dossier2}}`
 
-- Cherche recursivement et demande le fichier a conserver, supprimant les autres dupliqués :
+- Cherche recursivement les dupliqués et demande les fichiers à conserver, supprimant les autres :
 
 `fdupes -rd {{dossier}}`
 
