@@ -1,4 +1,5 @@
 # fdupes
+
 > Trouve les fichiers dupliqués dans les dossiers donnés.
 > Plus d'informations: <https://github.com/adrianlopezroche/fdupes>.
 
