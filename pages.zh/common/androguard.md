@@ -1,7 +1,7 @@
 # androguard
 
 > 使用python编写的一款针对安卓应用的逆向工程工具.
-> 更多信息: <https://github.com/androguard/androguard>.
+> 更多信息：<https://github.com/androguard/androguard>.
 
 - 展示Android manifest清单文件:
 

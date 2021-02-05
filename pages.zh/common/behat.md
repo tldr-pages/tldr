@@ -1,7 +1,7 @@
 # behat
 
 > 基于Behaviour-Driven Development的自动化测试PHP框架
-> 更多信息: <https://behat.org>.
+> 更多信息：<https://behat.org>.
 
 - 初始化一个PHP behat项目:
 

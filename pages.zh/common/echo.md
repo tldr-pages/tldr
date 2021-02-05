@@ -10,7 +10,7 @@
 
 `echo "{{My path is $PATH}}"`
 
-- 打印不带尾随换行符的信息：
+- 打印不带尾随换行符的信息:
 
 `echo -n "{{Hello World}}"`
 

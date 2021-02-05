@@ -1,7 +1,7 @@
 # vlc
 
 > 跨平台多媒体播放器.
-> 更多信息: <https://www.videolan.org/vlc/>.
+> 更多信息：<https://www.videolan.org/vlc/>.
 
 - 播放一个文件:
 

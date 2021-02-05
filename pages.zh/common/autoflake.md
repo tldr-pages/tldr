@@ -1,7 +1,7 @@
 # autoflake
 
 > 一个工具，用于检查python代码中未被使用的引入和变量.
-> 更多信息: <https://github.com/myint/autoflake>.
+> 更多信息：<https://github.com/myint/autoflake>.
 
 - 移除指定文件中未使用的变量，并展示diff:
 

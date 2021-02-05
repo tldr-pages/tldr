@@ -1,7 +1,7 @@
 # asdf
 
 > 可扩展的包版本管理器，支持Nodejs,Ruby,Elixir,Erlang等.
-> 更多信息: <https://asdf-vm.com>.
+> 更多信息：<https://asdf-vm.com>.
 
 - 可用插件清单:
 

@@ -2,7 +2,7 @@
 
 > 可以打印并且合并文件的命令.
 > `cat`的复制品，外加无法高亮和git集成.
-> 更多信息: <https://github.com/sharkdp/bat>.
+> 更多信息：<https://github.com/sharkdp/bat>.
 
 - 文件内容打印:
 

@@ -1,7 +1,7 @@
 # babel
 
 > 一款JavaScript的编译器，将下一代ES语法转换为兼容语法。
-> 更多信息: <https://babeljs.io/>.
+> 更多信息：<https://babeljs.io/>.
 
 - 转编译指定文件到标准输出:
 

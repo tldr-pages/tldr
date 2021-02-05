@@ -7,7 +7,7 @@
 
 `alacritty`
 
-- 运行在指定目录中：
+- 运行在指定目录中:
 
 `alacritty --working-directory {{路径}}`
 

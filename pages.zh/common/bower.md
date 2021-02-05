@@ -2,7 +2,7 @@
 
 > 前端web开发的包管理优化工具。
 > 一个包可以是GitHub中user/repo的缩写，一个Git端口，一个URL链接或者一个已注册的包。
-> 更多信息: <https://bower.io/>.
+> 更多信息：<https://bower.io/>.
 
 - 安装列在项目下 的bower.json文件中的依赖:
 
