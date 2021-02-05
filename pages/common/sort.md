@@ -19,7 +19,7 @@
 
 `sort -n {{path/to/file}}`
 
-- Sort the passwd file by the 3rd field, numerically:
+- Sort the passwd file by the 3rd field, numerically and using ":" as a field separator:
 
 `sort -t: -k 3n /etc/passwd`
 
