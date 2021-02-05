@@ -15,10 +15,10 @@
 
 `doctum update`
 
-- Parse and render only a specific version of the project:
+- Parse and render only a specific version of a project:
 
 `doctum update --only-version={{version}}`
 
-- Parse and render the project using a specific configuration:
+- Parse and render a project using a specific configuration:
 
 `doctum update {{path/to/config.php}}`
