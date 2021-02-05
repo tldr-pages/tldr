@@ -98,7 +98,7 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
 - **Zlatan Vasović ([@zlatanvasovic](https://github.com/zlatanvasovic))**:
   [19 June 2020](https://github.com/tldr-pages/tldr/issues/4113) — present
 - **Lucas Schneider ([@schneiderl](https://github.com/schneiderl))**:
-  [4 January 2021](https://github.com/tldr-pages/tldr/issues/5224) — present
+  [3 February 2021](https://github.com/tldr-pages/tldr/issues/5224) — present
 - Igor Shubovych ([@igorshubovych](https://github.com/igorshubovych)):
   until [18 January 2018](https://github.com/tldr-pages/tldr/issues/1878#issuecomment-358610454)
 - Ruben Vereecken ([@rubenvereecken](https://github.com/rubenvereecken)):
