@@ -70,7 +70,7 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
 - **bl-ue ([@bl-ue](https://github.com/bl-ue))**:
   [02 February 2021](https://github.com/tldr-pages/tldr/issues/5219) — present
 - Lucas Schneider ([@schneiderl](https://github.com/schneiderl)):
-  [17 January 2020](https://github.com/tldr-pages/tldr/issues/3764) — [8 January 2021](https://github.com/tldr-pages/tldr/issues/5224)
+  [17 January 2020](https://github.com/tldr-pages/tldr/issues/3764) — [3 February 2021](https://github.com/tldr-pages/tldr/issues/5224)
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
