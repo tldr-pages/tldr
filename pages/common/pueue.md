@@ -27,10 +27,10 @@
 
 `pueue kill {{task_id}}`
 
-- Set maximum amount of parallel tasks (queued tasked are started as needed to meet this limit):
+- Set maximum amount of parallel tasks (queued tasks are started as needed to meet this limit):
 
 `pueue parallel {{number_of_parallel_tasks}}`
 
-- Edit the command line of a stopped tasked, in the default editor (as specified by `$EDITOR`):
+- Edit the command line of a stopped task in the default editor (as specified by `$EDITOR`):
 
 `pueue edit {{task_id}}`
