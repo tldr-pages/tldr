@@ -1,25 +1,25 @@
 # act
 
-> 使用Docker本地运行GitHub Actions
+> 使用 Docker 本地运行 GitHub Actions
 > 更多信息：<https://github.com/nektos/act>.
 
-- 列出可用的actions清单:
+- 列出可用的 actions 清单:
 
 `act -l`
 
-- 运行默认event:
+- 运行默认 event:
 
 `act`
 
-- 运行指定event:
+- 运行指定 event:
 
 `act {{事件类型}}`
 
-- 运行指定action:
+- 运行指定 action:
 
 `act -a {{action_id}}`
 
-- 非实际运行actions (也就是dry-run模式):
+- 非实际运行 actions (也就是 dry-run 模式):
 
 `act -n`
 

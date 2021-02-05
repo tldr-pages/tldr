@@ -1,7 +1,7 @@
 # axel
 
 > 一款下载加速器.
-> 支持HTTP, HTTPS, 和 FTP.
+> 支持 HTTP、 HTTPS、和 FTP.
 > 更多信息：<https://github.com/axel-download-accelerator/axel>.
 
 - 链接下载:
@@ -20,6 +20,6 @@
 
 `axel -S {{镜像数量}}} {{超链接}}`
 
-- 限制下载速度 (字节bite每秒):
+- 限制下载速度 (字节 bite 每秒):
 
 `axel -s {{字节数}} {{超链接}}`

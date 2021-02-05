@@ -7,14 +7,14 @@
 
 `adb reverse —list`
 
-- 将TCP端口从安卓模拟器或设备中映射到localhost:
+- 将 TCP 端口从安卓模拟器或设备中映射到 localhost:
 
 `adb reverse tcp:{{远程端口}} tcp:{{本地端口}}`
 
-- 从安卓模拟器或设备移除一个反向socket连接:
+- 从安卓模拟器或设备移除一个反向 socket 连接:
 
 `adb reverse --remove tcp:{{远程端口}}`
 
-- 从安卓模拟器或设备移除所有反向socket连接:
+- 从安卓模拟器或设备移除所有反向 socket 连接:
 
 `adb reverse --remove-all`

@@ -1,7 +1,7 @@
 # autojump
 
 > 快速跳转，访问次数最多的文件夹优先.
-> 使用j、jc、jo作为别名.
+> 使用 `j`、`jc`、和 `jo` 作为别名.
 > 更多信息：<https://github.com/wting/autojump>.
 
 - 跳转到包含指定通配符的目录:
@@ -16,10 +16,10 @@
 
 `jo {{通配符表达式}}`
 
-- 从autojump数据库中删除不存在的目录:
+- 从 autojump 数据库中删除不存在的目录:
 
 `j --purge`
 
-- 展示autojump数据库数据:
+- 展示 autojump 数据库数据:
 
 `j -s`

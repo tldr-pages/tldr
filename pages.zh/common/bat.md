@@ -1,7 +1,7 @@
 # bat
 
 > 可以打印并且合并文件的命令.
-> `cat`的复制品，外加无法高亮和git集成.
+> `cat` 的复制品，外加无法高亮和 Git 集成.
 > 更多信息：<https://github.com/sharkdp/bat>.
 
 - 文件内容打印:
@@ -20,7 +20,7 @@
 
 `bat -n {{文件}}`
 
-- 高亮一个json文件:
+- 高亮一个 `json` 文件:
 
 `bat --language json {{文件.json}}`
 
