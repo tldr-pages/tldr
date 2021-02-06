@@ -7,6 +7,10 @@
 
 `pacstrap {{path/to/new/root}} {{base}} {{linux}} {{linux-firmware}}`
 
+- Install the `base` package, Linux LTS kernel and `base-devel` build tools:
+
+`pacstrap {{path/to/new/root}} {{base}} {{base-devel}} {{linux-lts}}`
+
 - Install packages without copy the host’s mirrorlist to the target:
 
 `pacstrap -M {{path/to/new/root}} {{packages}}`
@@ -30,7 +34,3 @@
 - Install packages using package files:
 
 `pacstrap -U {{path/to/new/root}} {{path/to/package1}} {{path/to/package2}}`
-
-- Install the `base` package, Linux LTS kernel and `base-devel` build tools:
-
-`pacstrap {{path/to/new/root}} {{base}} {{base-devel}} {{linux-lts}}`
