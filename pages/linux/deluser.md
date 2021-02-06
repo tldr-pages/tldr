@@ -1,7 +1,7 @@
 # deluser
 
 > Delete user from system.
-> All commands must be executed as root (`sudo [command]`).
+> Note: all commands must be executed as root.
 
 - Remove a user:
 
