@@ -2,6 +2,7 @@
 
 > Delete a user from the system.
 > Note: all commands must be executed as root.
+> More information: <https://manpages.debian.org/deluser.8.en.html>.
 
 - Remove a user:
 
