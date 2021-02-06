@@ -13,7 +13,7 @@
 
 - Remove a user and their home, but backup it's files first:
 
-`deluser --backup-to {{path/to/backup}} --remove-home {{name}}`
+`deluser --backup-to {{path/to/backup_directory}} --remove-home {{username}}`
 
 - Remove a user, and all files owned by them:
 
