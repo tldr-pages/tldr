@@ -5,7 +5,7 @@
 
 - Remove a user:
 
-`deluser {{name}}`
+`deluser {{username}}`
 
 - Remove a user and their home directory:
 
