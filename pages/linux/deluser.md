@@ -17,4 +17,4 @@
 
 - Remove a user, and all files owned by them:
 
-`deluser --remove-all-files {{name}}`
+`deluser --remove-all-files {{username}}`
