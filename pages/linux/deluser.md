@@ -1,6 +1,6 @@
 # deluser
 
-> Delete user from system.
+> Delete a user from the system.
 > Note: all commands must be executed as root.
 
 - Remove a user:
