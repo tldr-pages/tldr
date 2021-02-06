@@ -19,10 +19,6 @@
 
 `arch-chroot {{path/to/new/root}} {{mkinitcpio --preset linux}}`
 
-- Start a sh session in a new root directory:
-
-`arch-chroot {{path/to/new/root}} {{sh}}`
-
 - Start a zsh session in a new root directory (the `zsh` package should be installed in the target):
 
 `arch-chroot {{path/to/new/root}} {{zsh}}`
