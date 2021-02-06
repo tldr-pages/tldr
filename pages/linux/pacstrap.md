@@ -11,7 +11,7 @@
 
 `pacstrap {{path/to/new/root}} {{base}} {{base-devel}} {{linux-lts}}`
 
-- Install packages without copy the host’s mirrorlist to the target:
+- Install packages without copy the host's mirrorlist to the target:
 
 `pacstrap -M {{path/to/new/root}} {{packages}}`
 
@@ -19,7 +19,7 @@
 
 `pacstrap -C {{path/to/pacman.conf}} {{path/to/new/root}} {{packages}}`
 
-- Install packages using the package cache on the host, rather than the target:
+- Install packages using the package cache on the host instead of on the target:
 
 `pacstrap -c {{path/to/new/root}} {{packages}}`
 
