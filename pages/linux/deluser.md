@@ -12,7 +12,7 @@
 
 `deluser --remove-home {{username}}`
 
-- Remove a user and their home, but backup it's files first:
+- Remove a user and their home, but backup their files into a `.tar.gz` file in the specified directory:
 
 `deluser --backup-to {{path/to/backup_directory}} --remove-home {{username}}`
 
