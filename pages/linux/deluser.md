@@ -9,7 +9,7 @@
 
 - Remove a user and their home directory:
 
-`deluser --remove-home {{name}}`
+`deluser --remove-home {{username}}`
 
 - Remove a user and their home, but backup it's files first:
 
