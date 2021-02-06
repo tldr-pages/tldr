@@ -10,7 +10,7 @@
 
 - Remove a user along with their home directory and mail spool:
 
-`userdel -r {{name}}`
+`userdel --remove {{name}}`
 
 - Remove a user from a group:
 
