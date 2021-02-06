@@ -7,11 +7,11 @@
 
 `arch-chroot {{path/to/new/root}}`
 
-- Specify user to use:
+- Specify user to run as:
 
 `arch-chroot -u {{user}} {{path/to/new/root}}`
 
-- Run command in a new root directory:
+- Run a command in a new root directory:
 
 `arch-chroot {{path/to/new/root}} {{command}} {{command_arguments}}`
 
