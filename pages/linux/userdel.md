@@ -15,3 +15,7 @@
 - Remove a user from a group:
 
 `userdel {{name}} {{group}}`
+
+- Remove a user in other root directory:
+
+`userdel --root {{path/to/other/root}} {{name}}`
