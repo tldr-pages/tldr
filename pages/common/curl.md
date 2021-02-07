@@ -2,7 +2,7 @@
 
 > Transfers data from or to a server.
 > Supports most protocols, including HTTP, FTP, and POP3.
-> More information: <https://curl.haxx.se>.
+> More information: <https://curl.se>.
 
 - Download the contents of an URL to a file:
 
