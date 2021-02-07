@@ -7,7 +7,7 @@
 
 `sudo btrfs device add {{指向设备1的路径}} [{{指向设备2的路径}}] {{指向 btrfs 文件系统的路径}}`
 
-- 从btrfs文件系统中删除设备:
+- 从 btrfs 文件系统中删除设备:
 
 `sudo btrfs device remove {{指向设备的路径|设备 ID}} [{{...}}]`
 
