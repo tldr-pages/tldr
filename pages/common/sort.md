@@ -9,7 +9,7 @@
 
 - Sort a file in descending order:
 
-`sort -r {{path/to/file}}`
+`sort --reverse {{path/to/file}}`
 
 - Sort a file in case-insensitive way:
 
@@ -17,15 +17,15 @@
 
 - Sort a file using numeric rather than alphabetic order:
 
-`sort -n {{path/to/file}}`
+`sort --numeric-sort {{path/to/file}}`
 
-- Sort the passwd file by the 3rd field, numerically:
+- Sort `/etc/passwd` by the 3rd field of each line numerically, using ":" as a field separator:
 
-`sort -t: -k 3n /etc/passwd`
+`sort --field-separator={{:}} --key={{3n}} {{/etc/passwd}}`
 
 - Sort a file preserving only unique lines:
 
-`sort -u {{path/to/file}}`
+`sort --unique {{path/to/file}}`
 
 - Sort a file, printing the output to the specified output file (can be used to sort a file in-place):
 
