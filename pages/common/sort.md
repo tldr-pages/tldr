@@ -9,7 +9,7 @@
 
 - Sort a file in descending order:
 
-`sort -r {{path/to/file}}`
+`sort --reverse {{path/to/file}}`
 
 - Sort a file in case-insensitive way:
 
@@ -25,7 +25,7 @@
 
 - Sort a file preserving only unique lines:
 
-`sort -u {{path/to/file}}`
+`sort --unique {{path/to/file}}`
 
 - Sort a file, printing the output to the specified output file (can be used to sort a file in-place):
 
