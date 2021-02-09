@@ -17,11 +17,11 @@
 
 - Sort a file using numeric rather than alphabetic order:
 
-`sort -n {{path/to/file}}`
+`sort --numeric-sort {{path/to/file}}`
 
 - Sort `/etc/passwd` by the 3rd field of each line numerically, using ":" as a field separator:
 
-`sort -t: -k 3n /etc/passwd`
+`sort --field-separator={{:}} --key={{3n}} {{/etc/passwd}}`
 
 - Sort a file preserving only unique lines:
 
