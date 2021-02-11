@@ -27,7 +27,7 @@
 
 `pacstrap -G {{path/to/new/root}} {{packages}}`
 
-- Install packages in interactive mode (prompts user for confirmation):
+- Install packages in interactive mode (prompts for confirmation):
 
 `pacstrap -i {{path/to/new/root}} {{packages}}`
 
