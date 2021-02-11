@@ -5,8 +5,8 @@
 
 - Install GRUB on a BIOS system:
 
-`grub-install --target=i386-pc /dev/sd{{X}}`
+`grub-install --target={{i386-pc}} {{/dev/sdX}}`
 
 - Install GRUB on an UEFI system:
 
-`grub-install --target=x86_64-efi --efi-directory={{/efi/}} --bootloader-id=GRUB`
+`grub-install --target={{x86_64-efi}} --efi-directory={{/efi/}} --bootloader-id={{GRUB}}`
