@@ -5,4 +5,4 @@
 
 - Generate the configuration:
 
-`grub-mkconfig -o /boot/grub/grub.cfg`
+`grub-mkconfig -o {{/boot/grub/grub.cfg}}`
