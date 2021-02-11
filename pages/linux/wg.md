@@ -7,6 +7,14 @@
 
 `sudo wg`
 
+- Print out a new private key:
+
+`wg genkey`
+
+- Print out a new public key:
+
+`echo {{private_key}} | wg pubkey`
+
 - Print out a new private and public key pair:
 
 `wg genkey | tee /dev/tty | wg pubkey`
