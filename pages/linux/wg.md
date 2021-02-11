@@ -15,6 +15,6 @@
 
 `echo {{private_key}} | wg pubkey`
 
-- Print out a new private and public key pair:
+- Generate a public and private key into files:
 
-`wg genkey | tee /dev/tty | wg pubkey`
+`wg genkey | tee privatekey | wg pubkey > publickey`
