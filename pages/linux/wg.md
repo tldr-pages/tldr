@@ -17,4 +17,4 @@
 
 - Generate a public and private key into files:
 
-`wg genkey | tee privatekey | wg pubkey > publickey`
+`wg genkey | tee {{privatekey}} | wg pubkey > {{publickey}}`
