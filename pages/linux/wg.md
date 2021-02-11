@@ -7,11 +7,11 @@
 
 `sudo wg`
 
-- Print out a new private key:
+- Print a new private key:
 
 `wg genkey`
 
-- Print out a new public key:
+- Print a new public key:
 
 `echo {{private_key}} | wg pubkey`
 
