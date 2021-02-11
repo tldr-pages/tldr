@@ -15,6 +15,6 @@
 
 `echo {{private_key}} | wg pubkey`
 
-- Generate a public and private key into files:
+- Generate a public and private key:
 
-`wg genkey | tee {{privatekey}} | wg pubkey > {{publickey}}`
+`wg genkey | tee {{privatekey.txt}} | wg pubkey > {{publickey.txt}}`
