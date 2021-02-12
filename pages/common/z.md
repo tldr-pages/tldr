@@ -26,3 +26,7 @@
 - Remove the current directory from `z`'s database:
 
 `z -x .`
+
+- Go to the directory that is a subdirectory of the current directory.
+
+`z -c {{foo}}`
