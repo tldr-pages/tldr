@@ -10,3 +10,7 @@
 - Generate the configuration file:
 
 `sudo grub-mkconfig --output={{/boot/grub/grub.cfg}}`
+
+- Print the help page:
+
+`grub-mkconfig --help`
