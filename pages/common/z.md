@@ -27,6 +27,6 @@
 
 `z -x .`
 
-- Go to the directory that is a subdirectory of the current directory.
+- Go to the directory that is a subdirectory of the current directory (equivalent of `cd`):
 
 `z -c {{foo}}`
