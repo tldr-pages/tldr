@@ -5,7 +5,7 @@
 
 - Install GRUB on a BIOS system:
 
-`grub-install --target={{i386-pc}} {{/dev/sdX}}`
+`grub-install --target={{i386-pc}} {{/path/to/device}}`
 
 - Install GRUB on an UEFI system:
 
