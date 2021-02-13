@@ -9,7 +9,7 @@
 
 - Specify a custom Wine directory to run winetricks in:
 
-`WINEPREFIX={{path/to/wine/directory}} winetricks`
+`WINEPREFIX={{path/to/wine_directory}} winetricks`
 
 - Install a Windows DLL or a component to the default directory:
 
