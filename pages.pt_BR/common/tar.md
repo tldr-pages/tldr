@@ -1,7 +1,7 @@
 # tar
 
 > Ferramenta de compressão de arquivos.
-> Utilizado com metodos de compressão como o de gzip ou bzip.
+> Utilizado com metodos de compressão como o de gzip ou bzip2.
 > Mais informações: <https://www.gnu.org/software/tar>
 
 - Compactando arquivos em um arquivo tar:
