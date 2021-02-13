@@ -23,7 +23,7 @@
 
 `netstat --continuous`
 
-- List routes and do not resolve IP to hostname:
+- List routes and do not resolve IP addresses to hostnames:
 
 `netstat --route --numeric`
 
