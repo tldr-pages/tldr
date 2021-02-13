@@ -1,7 +1,7 @@
 # tar
 
 > Herramienta para archivos.
-> A veces combinada con un método de compresión, como gzip o bzip.
+> A veces combinada con un método de compresión, como gzip o bzip2.
 > Más información: <https://www.gnu.org/software/tar>.
 
 - Crear un archivo a partir de otros archivos:
