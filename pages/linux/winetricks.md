@@ -7,10 +7,10 @@
 
 `winetricks`
 
-- Specify a wine prefix to run winetricks in:
+- Specify a custom wine directory to run winetricks in:
 
-`WINEPREFIX={{/path/to/wine/prefix}} winetricks`
+`WINEPREFIX={{path/to/wine/directory}} winetricks`
 
-- Install a Windows DLL or a component to the default prefix:
+- Install a Windows DLL or a component to the default directory:
 
 `winetricks {{package}}`
