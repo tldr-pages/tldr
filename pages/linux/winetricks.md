@@ -11,6 +11,6 @@
 
 `WINEPREFIX={{path/to/wine_directory}} winetricks`
 
-- Install a Windows DLL or a component to the default directory:
+- Install a Windows DLL or component to the default directory:
 
 `winetricks {{package}}`
