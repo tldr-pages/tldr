@@ -7,7 +7,7 @@
 
 `pacman --sync {{package_name}}`
 
-- Synchronize and update all packages (add `--downloadonly` for download but do not update anything):
+- Synchronize and update all packages (add `--downloadonly` to download only):
 
 `pacman --sync --refresh --sysupgrade`
 
