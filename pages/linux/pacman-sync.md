@@ -15,7 +15,7 @@
 
 `pacman --sync --search "{{search_pattern}}"`
 
-- Display information for a package:
+- Display information about a package:
 
 `pacman --sync --info {{package_name}}`
 
@@ -31,6 +31,6 @@
 
 `pacman --sync --refresh --sysupgrade --ignore {{package_name}}`
 
-- Remove not installed packages and unused repositories from the cache (use `-cc` to clean all packages):
+- Remove not installed packages and unused repositories from the cache (use two `--clean` flags to clean all packages):
 
 `pacman --sync --clean`
