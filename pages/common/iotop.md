@@ -5,28 +5,28 @@
 
 - Start top-like I/O monitor:
 
-`iotop`
+`sudo iotop`
 
 - Show only processes or threads actually doing I/O:
 
-`iotop -o`
+`sudo iotop -o`
 
 - Show I/O usage in non-interactive mode:
 
-`iotop -b`
+`sudo iotop -b`
 
 - Show only I/O usage of processes(Default is to show all threads):
 
-`iotop -P`
+`sudo iotop -P`
 
 - Show I/O usage of given PID(s):
 
-`iotop -p {{PID}}`
+`sudo iotop -p {{PID}}`
 
 - Show I/O usage of a given user:
 
-`iotop -u {{user}}`
+`sudo iotop -u {{user}}`
 
 - Show accumulated I/O instead of bandwidth:
 
-`iotop -a`
+`sudo iotop -a`
