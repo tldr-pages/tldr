@@ -11,6 +11,10 @@
 
 `pacman --sync --refresh --sysupgrade`
 
+- Update all packages and install a new one without prompting:
+
+`pacman --sync --refresh --sysupgrade --noconfirm {{package_name}}`
+
 - Search the package database for a regular expression or keyword:
 
 `pacman --sync --search "{{search_pattern}}"`
@@ -18,10 +22,6 @@
 - Display information about a package:
 
 `pacman --sync --info {{package_name}}`
-
-- Install a package as non-explicitly installed:
-
-`pacman --sync --asdeps {{package_name}}`
 
 - Overwrite conflicting files during an update:
 
