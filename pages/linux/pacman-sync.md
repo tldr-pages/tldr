@@ -1,4 +1,4 @@
-# pacman sync
+# pacman --sync
 
 > Arch Linux package manager utility.
 > More information: <https://man.archlinux.org/man/pacman.8>.
