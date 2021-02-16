@@ -23,7 +23,7 @@
 
 `pacman --sync --info {{package_name}}`
 
-- Overwrite conflicting files during an update:
+- Overwrite conflicting files during a package update:
 
 `pacman --sync --refresh --sysupgrade --overwrite {{path/to/file}}`
 
