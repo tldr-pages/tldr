@@ -7,11 +7,11 @@
 
 `pacman --query`
 
-- List only the explicitly installed packages and versions:
+- List only packages and versions that were explicitly installed:
 
 `pacman --query --explicit`
 
-- Find which package owns a certain file:
+- Find which package owns a file:
 
 `pacman --query --owns {{filename}}`
 
@@ -23,7 +23,7 @@
 
 `pacman --query --list {{package_name}}`
 
-- List orphan packages (installed as dependency not required by any):
+- List orphan packages (installed as dependencies but not required by any package):
 
 `pacman --query --unrequired --deps --quiet`
 
