@@ -17,16 +17,16 @@
 
 - Remove a package without prompting:
 
-`pacman --remove --noconfirm {{filename}}`
+`pacman --remove --noconfirm {{package_name}}`
 
 - Remove orphan packages (installed as dependencies but not required by any package):
 
 `pacman --remove --recursive --nosave $(pacman --query --unrequired --deps --quiet)`
 
-- Remove a package and all packages that depend on them:
+- Remove a package and all packages that depend on it:
 
 `pacman --remove --cascade {{package_name}}`
 
-- List the affect packages without remove them:
+- List packages that would be affected (does remove any packages):
 
 `pacman --remove --print {{package_name}}`
