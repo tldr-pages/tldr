@@ -19,7 +19,7 @@
 
 `systemctl enable/disable {{unit}}`
 
-- Mask/Unmask a unit to prohibit enablement and manual activation:
+- Mask/unmask a unit to prevent enablement and manual activation:
 
 `systemctl mask/unmask {{unit}}`
 
