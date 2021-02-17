@@ -19,7 +19,7 @@
 
 `systemctl enable/disable {{unit}}`
 
-- Mask/Unmask a unit, prevent it to be started on bootup:
+- Mask/unmask a unit to prevent enablement and manual activation:
 
 `systemctl mask/unmask {{unit}}`
 
