@@ -31,6 +31,6 @@
 
 `systemctl is-active {{unit}}`
 
-- Check if a unit is enabled:
+- Check if a unit is enabled
 
 `systemctl is-enabled {{unit}}`
