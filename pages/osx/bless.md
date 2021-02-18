@@ -1,14 +1,15 @@
 # bless
 
 > Set volume bootability and startup disk options.
+> More information: <https://ss64.com/osx/bless.html>.
 
 - FOLDER MODE: bless a volume with only Mac OS X or Darwin, and create the BootX and boot.efi files as needed:
 
-`bless --folder {{/Volumes/Mac OS X/System/Library/CoreServices}} --bootinfo --bootefi`
+`bless --folder "{{/Volumes/Mac OS X/System/Library/CoreServices}}" --bootinfo --bootefi`
 
 - MOUNT MODE: set a volume containing either Mac OS 9 and Mac OS X to be the active volume:
 
-`bless --mount {{/Volumes/Mac OS}} --setBoot`
+`bless --mount "{{/Volumes/Mac OS}}" --setBoot`
 
 - NETBOOT MODE: set the system to NetBoot and broadcast for an available server:
 
