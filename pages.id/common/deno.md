@@ -5,7 +5,7 @@
 
 - Menjalankan berkas JavaScript atau TypeScript:
 
-`deno {{alamat/ke/berkas.ts}}`
+`deno run {{alamat/ke/berkas.ts}}`
 
 - Menjalankan REPL (shell interaktif):
 
@@ -13,12 +13,12 @@
 
 - Menjalankan berkas dengan memperbolehkan akses jaringan:
 
-`deno --allow-net {{alamat/ke/berkas.ts}}`
+`deno run --allow-net {{alamat/ke/berkas.ts}}`
 
 - Menjalankan berkas dari URL:
 
-`deno {{https://deno.land/std/examples/welcome.ts}}`
+`deno run {{https://deno.land/std/examples/welcome.ts}}`
 
 - Memasang skrip yang dapat dieksekusi dari URL:
 
-`deno install --allow-net --allow-read {{file_server}} {{https://deno.land/std/http/file_server.ts}}`
+`deno install {{https://deno.land/std/examples/colors.ts}}`
