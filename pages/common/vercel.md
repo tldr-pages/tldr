@@ -1,7 +1,7 @@
 # vercel
 
 > Vercel CLI provides a set of commands that allow you to deploy and manage your projects.
-> https://vercel.com/docs/cli
+> More information: <https://vercel.com/docs/cli>.
 
 - Deploy the current directory:
 
