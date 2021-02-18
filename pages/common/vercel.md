@@ -15,6 +15,6 @@
 
 `vercel /path/to/my_project`
 
-- Remove a deployment
+- Remove a deployment:
 
 `vercel rm <project name>`
