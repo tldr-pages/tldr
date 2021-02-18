@@ -7,7 +7,7 @@
 
 `vercel`
 
-- Deploy production:
+- Deploy the currrent directory to production:
 
 `vercel --prod`
 
