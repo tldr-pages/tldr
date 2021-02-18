@@ -5,7 +5,7 @@
 
 - Add a command to the task list:
 
-`pueue add -- {{tr -u a-z A-Z}}`
+`pueue add -- "{{command}}"`
 
 - List tasks in the task list:
 
