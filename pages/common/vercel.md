@@ -13,7 +13,7 @@
 
 - Deploy a custom directory:
 
-`vercel /path/to/my_project`
+`vercel {{path/to/project}}`
 
 - Remove a deployment:
 
