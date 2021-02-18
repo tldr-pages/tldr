@@ -15,6 +15,18 @@
 
 `vercel {{path/to/project}}`
 
+- Initialize an example project:
+
+`vercel init`
+
+- Deploy with Environment Variables:
+
+`vercel -e {{ENV}}={{var}}`
+
+- Set default regions to enable the deployment on:
+
+`vercel --regions {{region_id}}`
+
 - Remove a deployment:
 
 `vercel rm {{project_name}}`
