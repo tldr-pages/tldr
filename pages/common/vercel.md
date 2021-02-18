@@ -29,4 +29,4 @@
 
 - Remove a deployment:
 
-`vercel rm {{project_name}}`
+`vercel remove {{project_name}}`
