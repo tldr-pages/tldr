@@ -21,7 +21,7 @@
 
 - Deploy with Environment Variables:
 
-`vercel -e {{ENV}}={{var}}`
+`vercel --env {{ENV}}={{var}}`
 
 - Set default regions to enable the deployment on:
 
