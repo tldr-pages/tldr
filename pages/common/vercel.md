@@ -11,7 +11,7 @@
 
 `vercel --prod`
 
-- Deploy a custom directory:
+- Deploy a directory:
 
 `vercel {{path/to/project}}`
 
