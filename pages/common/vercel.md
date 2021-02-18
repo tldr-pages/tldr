@@ -17,4 +17,4 @@
 
 - Remove a deployment:
 
-`vercel rm <project name>`
+`vercel rm {{project_name}}`
