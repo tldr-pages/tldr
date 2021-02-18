@@ -11,7 +11,7 @@
 
 `pacman --remove --recursive {{package_name}}`
 
-- Remove a package and its dependencies and configuration files:
+- Remove a package and both its dependencies and configuration files:
 
 `pacman --remove --recursive --nosave {{package_name}}`
 
@@ -27,6 +27,6 @@
 
 `pacman --remove --cascade {{package_name}}`
 
-- List packages that would be affected (does remove any packages):
+- List packages that would be affected (does not remove any packages):
 
 `pacman --remove --print {{package_name}}`
