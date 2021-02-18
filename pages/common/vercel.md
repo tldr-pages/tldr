@@ -23,6 +23,10 @@
 
 `vercel --env {{ENV}}={{var}}`
 
+- Build with Environment Variables:
+
+`vercel --build-env {{ENV}}={{var}}`
+
 - Set default regions to enable the deployment on:
 
 `vercel --regions {{region_id}}`
