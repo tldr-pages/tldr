@@ -15,10 +15,6 @@
 
 `arch-chroot {{path/to/new/root}} {{command}} {{command_arguments}}`
 
-- Generate the initial ramdisk using the preset provided by the `linux` package on new root directory:
-
-`arch-chroot {{path/to/new/root}} {{mkinitcpio --preset linux}}`
-
 - Specify the shell, other than the default `bash` (in this case, the `zsh` package should have been installed in the target system):
 
 `arch-chroot {{path/to/new/root}} {{zsh}}`
