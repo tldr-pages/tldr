@@ -16,7 +16,7 @@
 
 - Kill all tasks in a [g]roup and pause the group:
 
-`pueue kill -g {*{*group name}}`
+`pueue kill -g {{group name}}`
 
 - Kill [a]ll tasks across all groups and pause all groups:
 
