@@ -1,6 +1,6 @@
 # arch-chroot
 
-> Enhanced `chroot` command for Arch Linux installation.
+> Enhanced `chroot` command to help in the Arch Linux installation process.
 > More information: <https://man.archlinux.org/man/arch-chroot.8>.
 
 - Start an interactive shell in a new root directory:
