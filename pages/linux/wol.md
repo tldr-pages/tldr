@@ -23,6 +23,6 @@
 
 `wol --file={{path/to/file}}`
 
-- Turn on verbose input:
+- Turn on verbose output:
 
 `wol --verbose {{mac_address}}`
