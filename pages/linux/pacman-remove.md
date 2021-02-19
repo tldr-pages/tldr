@@ -9,23 +9,23 @@
 
 - Remove a package and its dependencies:
 
-`pacman --remove --recursive {{package_name}}`
+`sudo pacman --remove --recursive {{package_name}}`
 
 - Remove a package and both its dependencies and configuration files:
 
-`pacman --remove --recursive --nosave {{package_name}}`
+`sudo pacman --remove --recursive --nosave {{package_name}}`
 
 - Remove a package without prompting:
 
-`pacman --remove --noconfirm {{package_name}}`
+`sudo pacman --remove --noconfirm {{package_name}}`
 
 - Remove orphan packages (installed as dependencies but not required by any package):
 
-`pacman --remove --recursive --nosave $(pacman --query --unrequired --deps --quiet)`
+`sudo pacman --remove --recursive --nosave $(pacman --query --unrequired --deps --quiet)`
 
 - Remove a package and all packages that depend on it:
 
-`pacman --remove --cascade {{package_name}}`
+`sudo pacman --remove --cascade {{package_name}}`
 
 - List packages that would be affected (does not remove any packages):
 
