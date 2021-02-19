@@ -9,4 +9,3 @@
 - Show status of a specific [g]roup:
 
 `pueue status -g {{group name}}`
-
