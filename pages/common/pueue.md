@@ -7,11 +7,11 @@
 
 `pueue --help`
 
-- Check pueue version
+- Check pueue version:
 
 `pueue --version`
 
-- Execute a pueue subcommand (like `add`, `parallel`, etc.)
+- Execute a pueue subcommand (like `add`, `parallel`, etc.):
 
 `pueue {{subcommand}}`
 
