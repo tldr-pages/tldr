@@ -2,7 +2,7 @@
 
 > Test internet bandwidth using https://www.speedtest.net.
 
-- Run basic speedtest:
+- Run a basic speedtest:
 
 `speedtest`
 
