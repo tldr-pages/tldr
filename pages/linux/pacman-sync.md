@@ -27,7 +27,7 @@
 
 `pacman --sync --refresh --sysupgrade --overwrite {{path/to/file}}`
 
-- Synchronize and update all packages except the ignored (can be used more than once):
+- Synchronize and update all packages, but ignore a specific package (can be used more than once):
 
 `pacman --sync --refresh --sysupgrade --ignore {{package_name}}`
 
