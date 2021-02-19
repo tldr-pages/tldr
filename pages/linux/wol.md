@@ -19,7 +19,7 @@
 
 `wol --port={{port_number}} {{mac_address}}`
 
-- Read hardware addresses, IP addresses/hostnames, optional ports and SecureON password from a file:
+- Read hardware addresses, IP addresses/hostnames, optional ports and SecureON passwords from a file:
 
 `wol --file={{path/to/file}}`
 
