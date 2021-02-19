@@ -15,7 +15,7 @@
 
 `wol --host={{hostname}} {{mac_address}}`
 
-- Send a WoL packet to a specific port:
+- Send a WoL packet to a specific port on a host:
 
 `wol --port={{port_number}} {{mac_address}}`
 
