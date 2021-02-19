@@ -17,7 +17,7 @@
 
 - Send a WoL packet to a specific port:
 
-`wol --port={{port_number}}`
+`wol --port={{port_number}} {{mac_address}}`
 
 - Read hardware addresses, IP addresses/hostnames, optional ports and SecureON password from a file:
 
