@@ -3,15 +3,15 @@
 > Enhanced `chroot` command to help in the Arch Linux installation process.
 > More information: <https://man.archlinux.org/man/arch-chroot.8>.
 
-- Start an interactive shell in a new root directory:
+- Start an interactive shell (`bash`, by default) in a new root directory:
 
 `arch-chroot {{path/to/new/root}}`
 
-- Specify the user to run as:
+- Specify the user (other than the current user) to run the shell as:
 
 `arch-chroot -u {{user}} {{path/to/new/root}}`
 
-- Run a command in a new root directory:
+- Run a custom command (instead of the default `bash`) in the new root directory:
 
 `arch-chroot {{path/to/new/root}} {{command}} {{command_arguments}}`
 
@@ -19,6 +19,6 @@
 
 `arch-chroot {{path/to/new/root}} {{mkinitcpio --preset linux}}`
 
-- Start a zsh session in a new root directory (the `zsh` package should be installed in the target):
+- Specify the shell, other than the default `bash` (in this case, the `zsh` package should have been installed in the target system):
 
 `arch-chroot {{path/to/new/root}} {{zsh}}`
