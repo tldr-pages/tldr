@@ -5,19 +5,19 @@
 
 - Send a WoL packet to a device:
 
-`wol {{mac_adress}}`
+`wol {{mac_address}}`
 
 - Send a WoL packet to a device in another subnet based on its IP:
 
-`wol --ipaddr={{ip_address}} {{mac_adress}}`
+`wol --ipaddr={{ip_address}} {{mac_address}}`
 
 - Send a WoL packet to a device in another subnet based on its hostname:
 
-`wol --host={{hostname}} {{mac_adress}}`
+`wol --host={{hostname}} {{mac_address}}`
 
 - Send a WoL packet to a specific port:
 
-`wol --port={{porn_number}}`
+`wol --port={{port_number}}`
 
 - Read hardware addresses, IP addresses/hostnames, optional ports and SecureON password from a file:
 
@@ -25,4 +25,4 @@
 
 - Turn on verbose input:
 
-`wol --verbose {{mac_adress}}`
+`wol --verbose {{mac_address}}`
