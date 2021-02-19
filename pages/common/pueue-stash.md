@@ -8,7 +8,7 @@
 
 `pueue stash {{task ID}}`
 
-- stash multiple tasks at once 
+- stash multiple tasks at once
 
 `pueue stash {{first task ID}} {{second task ID}} ...`
 

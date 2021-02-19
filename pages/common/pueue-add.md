@@ -3,11 +3,11 @@
 > Enqueue a task for execution
 
 - Add any command to the default queue.
- 
+
 `pueue add {{command}}`
 
 - Pass flags or arguments to command when adding.
- 
+
 `pueue add -- {{command --Arg -f}}`
 
 - Add command but do not start it if it's the first in a queue.

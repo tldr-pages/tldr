@@ -1,0 +1,442 @@
+#!/bin/bash
+cat << 'EOF' > pueue.md
+# pueue
+
+> Pueue is a command-line task management tool for sequential and parallel execution of long-running tasks.
+> More information: <https://github.com/Nukesor/pueue>.
+
+- Show general help and available subcommands:
+
+`pueue --help`
+
+- Check pueue version
+
+`pueue --version`
+
+- Execute a pueue subcommand (like `add`, `parallel`, etc.)
+
+`pueue {{subcommand}}`
+
+- Show more example on a pueue subcommand:
+
+`tldr pueue-{{subcommand}}`
+EOF
+
+cat << 'EOF' > pueue-add.md
+# pueue add
+
+> Enqueue a task for execution
+
+- Add any command to the default queue.
+
+`pueue add {{command}}`
+
+- Pass flags or arguments to command when adding.
+
+`pueue add -- {{command --Arg -f}}`
+
+- Add command but do not start it if it's the first in a queue.
+
+`pueue add --stashed -- rsync -az /local/directory/ /remote/directory/`
+
+- Add command to a [g]roup and start it [i]mmmediately, see "tldr pueue-group" to operate groups.
+
+`pueue add -ig "CPU_intensive" -- ffmpeg -i input.mp4 frame_%d.png`
+
+- add command and start it [a]fter commands 9 and 12 finish successfully.
+
+`pueue add -a 9 12 -g "torrents" -- transmission-cli {{torrent_file}}.torrent`
+
+- Add command with a [l]abel after some [d]elay has passed, see "pueue enqueue --help" for valid datetime formats.
+
+`pueue add -l "compressing large file" -d "wednesday 10:30pm" "7z a compressed_file.7z large_file.xml"`
+EOF
+
+cat << 'EOF' > pueue-clean.md
+# pueue clean
+
+> Remove all finished tasks from the list and clear logs
+
+- Remove finished tasks and clear logs.
+
+`pueue clean`
+
+- Only clean commands that finished [s]uccessfully.
+
+`pueue clean -s`
+EOF
+
+cat << 'EOF' > pueue-completions.md
+# pueue completions
+
+> Generates shell completion files for bash, elvish, fish, power-shell, zsh.
+
+- generate completions for bash on Linux.
+
+`sudo pueue completions bash /usr/share/zsh/site-functions/`
+
+- generate completions for zsh on Linux.
+
+`sudo pueue completions zsh /usr/share/zsh/site-functions/`
+
+- generate completions for fish on Linux.
+
+`sudo pueue completions fish /usr/share/fish/completions/`
+EOF
+
+cat << 'EOF' > pueue-edit.md
+# pueue edit
+
+> Edit the command or path of a stashed or queued task.
+
+- Edit the command with ID 2, see 'pueue status --help' to get command ID.
+
+`pueue edit 2`
+
+- Edit the [p]ath from which command 43 is executed.
+
+`pueue edit 43 -p`
+
+- Edit a command with your favourite editor
+
+`EDITOR=nano pueue edit 11`
+EOF
+
+cat << 'EOF' > pueue-enqueue.md
+# pueue enqueue
+
+> Enqueue stashed tasks.
+> see also: pueue stash --help
+
+- enqueue multiple stashed tasks at once
+
+`pueue enqueue {{first task ID}} {{second task ID}} ...`
+
+- enqueue a stashed task after 60 seconds
+
+`pueue enqueue -d 60 {{task ID}}`
+
+- enqueue a stashed task next wednesday
+
+`pueue enqueue -d wednesday {{task ID}}`
+
+- enqueue a stashed task after four months
+
+`pueue enqueue -d "4 months" {{task ID}}`
+
+- enqueue a stashed task on 2025-02-08
+
+`pueue enqueue -d 2025-02-08 {{task ID}}`
+
+- see all formats acceptable by -d
+
+`pueue enqueue --help`
+EOF
+
+cat << 'EOF' > pueue-follow.md
+# pueue follow
+
+> Follow the output of a currently running task.
+> see also: pueue log --help
+
+- follow the output of a task (stdout + stderr)
+
+`pueue follow {{task ID}}`
+
+- follow the stderr of a tasks
+
+`pueue follow -err {{task ID}}`
+EOF
+
+cat << 'EOF' > pueue-group.md
+# pueue group
+
+> Display, add or remove groups.
+
+- Show all groups with their status and number of parallel jobs.
+
+`pueue group`
+
+- add custom group.
+
+`pueue group -a syncing_jobs`
+
+- remove group and move its tasks to the default group.
+
+`pueue group -r CPU_intensive`
+EOF
+
+cat << 'EOF' > pueue-help.md
+# pueue help
+
+> Display help for subcommands.
+
+- show all available subcommands and flags.
+
+`pueue help`
+
+- show help for a specific command
+
+`pueue help {{subcommand}}`
+EOF
+
+cat << 'EOF' > pueue-kill.md
+# pueue kill
+
+> Kill running tasks or whole groups.
+
+- kill all tasks in the default group.
+
+`pueue kill`
+
+- kill a specific task by ID.
+
+`pueue kill {{task ID}}`
+
+- kill a task and terminate all its [c]hildren processes.
+
+`pueue kill -c {{task ID}}`
+
+- kill all tasks in a [g]roup and pause the group.
+
+`pueue kill -g {*{*group name}}`
+
+- kill [a]ll tasks across all groups and pause all groups
+
+`pueue kill -a`
+EOF
+
+cat << 'EOF' > pueue-log.md
+# pueue log
+
+> Display the log output tasks.
+> see also: pueue status --help
+
+- show the last few lines of output from all tasks
+
+`pueue log`
+
+- show full output of a specific task
+
+`pueue log {{task ID}}`
+
+- show last few lines of output from several commands.
+
+`pueue log {{first task ID}} {{second task ID}} ...`
+
+- print a specific number of lines from the tail of output.
+
+`pueue log -l {{number of lines}} {{task ID}}`
+EOF
+
+cat << 'EOF' > pueue-parallel.md
+# pueue parallel
+
+> Set the amount of allowed parallel tasks.
+
+- set the number of tasks allowed to run in parallel in the default group.
+
+`pueue parallel {{number of parallel tasks}}`
+
+- set the number of tasks allowed to run in parallel in a specific group.
+
+`pueue parallel -g {{group name}} {{number of parallel tasks}}`
+EOF
+
+cat << 'EOF' > pueue-pause.md
+# pueue pause
+
+> pause running tasks or groups.
+> see also: pueue start --help
+
+- pause all tasks in the default group
+
+`pueue pause`
+
+- pause a running task
+
+`pueue pause {{task ID}}`
+
+- pause a running task and stop all its direct [c]hildren.
+
+`pueue pause -c {{task ID}}`
+
+- pause all tasks in a [g]roup and prevent it from starting new tasks.
+
+`pueue pause -g {{group name}}`
+
+- pause [a]ll tasks and prevent all groups from starting new tasks.
+
+`pueue pause -a`
+EOF
+
+cat << 'EOF' > pueue-remove.md
+# pueue remove
+
+> Remove tasks from the list. Running or paused tasks need to be killed first
+
+- remove a killed or finished task.
+
+`pueue remove {{task ID}}`
+
+- remove multiple tasks at once
+
+`pueue remove {{first task ID}} {{second task ID}} ...`
+EOF
+
+cat << 'EOF' > pueue-reset.md
+# pueue reset
+
+> Kill everything and reset
+
+- kill all tasks and remove everything (e.g. logs, status, groups, task IDs)
+
+`pueue reset`
+
+- kill all tasks and terminate their [c]hildren and reset everything.
+
+`pueue reset -c`
+
+- reset without asking for confirmation
+
+`pueue reset -f`
+EOF
+
+cat << 'EOF' > pueue-restart.md
+# pueue restart
+
+> Restart tasks.
+
+- restart a specific task
+
+`pueue restart {{task ID}}`
+
+- restart multiple tasks at once, and start them immediately (do not enqueue)
+
+`pueue restart --start-immediately {{first task ID}} {{second task ID}} ...`
+
+- restart a specific task from a different path
+
+`pueue restart -p {{task ID}}`
+
+- edit a command before restarting.
+
+`pueue restart -e {{task ID}}`
+
+- restart a task [i]n-place (without enqueuing as a separate task)
+
+`pueue restart -i {{task ID}}`
+
+- restart [a]ll failed tasks and [s]tash them.
+
+`pueue restart -as`
+EOF
+
+cat << 'EOF' > pueue-send.md
+# pueue send
+
+> Send input to a task.
+
+- send input to a running command
+
+`pueue send {{task ID}} {{input}}`
+
+- send confirmation to a task expecting y/N (e.g. apt, cp)
+
+`pueue send {{task ID}} y`
+
+- write to a file open in background
+
+`pueue add cat > {{location/to/file}}; sleep 3h; pueue send {{task ID}} {{some text}}`
+EOF
+
+cat << 'EOF' > pueue-shutdown.md
+# pueue shutdown
+
+> Remotely shut down the daemon.
+> only use this subcommand if the daemon isn't started by a service manager
+
+- shutdown the daemon without a service manager
+
+`pueue shutdown`
+
+- shutdown the daemon with systemd
+
+`systemctl --user disable --now pueued.service`
+EOF
+
+cat << 'EOF' > pueue-start.md
+# pueue start
+
+> Resume operation of specific tasks or groups of tasks.
+> see also: pueue pause --help
+
+- resume all tasks in default group
+
+`pueue start`
+
+- resume a specific task
+
+`pueue start {{task ID}}`
+
+- resume multiple tasks at once
+
+`pueue start {{first task ID}} {{second task ID}} ...`
+
+- resume [a]ll tasks and start their [c]hildren
+
+`pueue start -ac`
+
+- resume all tasks in a specific group
+
+`pueue start group {{group name}}`
+EOF
+
+cat << 'EOF' > pueue-stash.md
+# pueue stash
+
+> Stash tasks to prevent automatic start.
+> see also: pueue start --help
+> see also: pueue enqueue --help
+
+- stash an enqueued task
+
+`pueue stash {{task ID}}`
+
+- stash multiple tasks at once
+
+`pueue stash {{first task ID}} {{second task ID}} ...`
+
+- start a stashed task immediately
+
+`pueue start {{task ID}}`
+
+- enqueue a task, to be executed when preceding tasks finish
+
+`pueue enqueue {{task ID}}`
+EOF
+
+cat << 'EOF' > pueue-status.md
+# pueue status
+
+> Display the current status of all tasks
+
+- show status of all tasks
+
+`pueue status`
+
+- show status of a specific [g]roup
+
+`pueue status -g {{group name}}`
+
+EOF
+
+cat << 'EOF' > pueue-switch.md
+# pueue switch
+
+> Switches the queue position of two enqueued or stashed commands.
+
+- switch the priority of two commands
+
+`pueue switch {{task-id-1}} {{task-id-2}}`
+EOF

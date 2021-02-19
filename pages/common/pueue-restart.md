@@ -2,7 +2,7 @@
 
 > Restart tasks.
 
-- restart a specific task 
+- restart a specific task
 
 `pueue restart {{task ID}}`
 

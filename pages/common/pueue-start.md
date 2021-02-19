@@ -19,6 +19,6 @@
 
 `pueue start -ac`
 
-- resume all tasks in a specific group 
+- resume all tasks in a specific group
 
 `pueue start group {{group name}}`
