@@ -7,7 +7,7 @@
 
 `sudo pacman --sync {{package_name}}`
 
-- Synchronize and update all packages (add `--downloadonly` to download only):
+- Synchronize and update all packages (add `--downloadonly` to download the packages and not update them):
 
 `sudo pacman --sync --refresh --sysupgrade`
 
