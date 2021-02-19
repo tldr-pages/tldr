@@ -10,7 +10,7 @@
 
 `speedtest --bytes`
 
-- Use https instead of http:
+- Use HTTPS instead of HTTP:
 
 `speedtest --secure`
 
