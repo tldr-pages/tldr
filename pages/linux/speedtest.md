@@ -1,6 +1,7 @@
 # speedtest
 
 > Test internet bandwidth using https://www.speedtest.net.
+> More information: <https://www.speedtest.net/apps/cli>.
 
 - Run a basic speedtest:
 
