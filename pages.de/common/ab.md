@@ -3,11 +3,11 @@
 > Apache Benchmarking Tool. Das einfachste Tool um eine Belastungsprobe durchzuführen.
 > Weitere Information: <https://httpd.apache.org/docs/2.4/programs/ab.html>.
 
-- Sende 100 HTTP GET Anfrage an eine gegebene URL:
+- Sende 100 HTTP GET Anfragen an eine gegebene URL:
 
 `ab -n {{100}} {{url}}`
 
-- Sende 10 HTTP GET Anfragen an eine gegebene URL, wovon bis zu 10 gleichzeitig bearbeitet werden:
+- Sende 100 HTTP GET Anfragen an eine gegebene URL, wovon bis zu 10 gleichzeitig bearbeitet werden:
 
 `ab -n {{100}} -c {{10}} {{url}}`
 
@@ -15,7 +15,7 @@
 
 `ab -k {{url}}`
 
-- Setze die maximale Anzahl an Sekunden, die das Benchmarking dauern darf:
+- Lege die maximale Anzahl an Sekunden fest, die das Benchmarking dauern darf:
 
 `ab -t {{60}} {{url}}`
 

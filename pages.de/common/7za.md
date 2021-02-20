@@ -1,7 +1,7 @@
 # 7za
 
 > Ein Dateiarchivierer mit hoher Kompressionsrate.
-> Eine alleinstehende version von `7z` mit Unterstützung für neuere Archivtypen.
+> Eine alleinstehende Version von `7z` mit Unterstützung für neuere Archivtypen.
 > Weitere Information: <https://www.7-zip.org/>.
 
 - Archiviere eine Datei oder ein Verzeichnis:

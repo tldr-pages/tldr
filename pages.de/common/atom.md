@@ -12,15 +12,15 @@
 
 `atom -n {{pfad/zu/datei_oder_verzeichnis}}`
 
-- Öffne eine Datei oder ein Verzeichnis in einem vorhendenen Fenster:
+- Öffne eine Datei oder ein Verzeichnis in einem vorhandenen Fenster:
 
 `atom --add {{pfad/zu/datei_oder_verzeichnis}}`
 
-- Stare Atom im sicheren Modus (Es werden keine zusätzlichen Pakete geladen):
+- Starte Atom im sicheren Modus (Es werden keine zusätzlichen Pakete geladen):
 
 `atom --safe`
 
-- Verhindert, dass sich Atom in den Hintergrund absetzt und hält es verbunden mit den Terminal:
+- Verhindert, dass sich Atom in den Hintergrund absetzt und hält es mit dem Terminal verbunden:
 
 `atom --foreground`
 

@@ -14,6 +14,6 @@
 
 `clear -T {{typ_des_terminals}}`
 
-- Zeigt die Version von `ncurses`, die von `clear` benutzt wird:
+- Zeigt die Version von `ncurses` an, die von `clear` benutzt wird:
 
 `clear -V`

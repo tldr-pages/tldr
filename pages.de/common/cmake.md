@@ -19,7 +19,7 @@
 
 `cmake --install {{pfad/zu/build_verzeichnis}} --strip`
 
-- Installiere die Build-Artifakte mit einem eigenem Präfix für Pfade:
+- Installiere die Build-Artifakte mit einem eigenen Präfix für Pfade:
 
 `cmake --install {{pfad/zu/build_verzeichnis}} --strip --prefix {{pfad/zu/verzeichnis}}`
 

@@ -1,6 +1,6 @@
 # chown
 
-> Ändere den Besitzer und die Bisitzergruppe von Dateien und Verzeichnissen.
+> Ändere den Besitzer und die Besitzergruppe von Dateien und Verzeichnissen.
 
 - Ändere den Besitzer einer Datei/eines Verzeichnisses:
 
@@ -18,6 +18,6 @@
 
 `chown -h {{benutzer}} {{pfed/zu/symlink}}`
 
-- Ändere den Bisitzer einer Datei/eines Verzeichnisses, damit sie/es mit einer Referenzdatei übereinstimmt:
+- Ändere den Besitzer einer Datei/eines Verzeichnisses, damit sie/es mit einer Referenzdatei übereinstimmt:
 
 `chown --reference={{pfad/zu/referenzdatei}} {{pfad/zu/datei_oder_verzeichnis}}`

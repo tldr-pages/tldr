@@ -2,7 +2,7 @@
 
 > Vergleiche Dateien und Verzeichnisse.
 
-- Vergleiche Dateien (Listet jene Veränderungen auf, damit `alte_datei` zu `neue_datei` wird):
+- Vergleiche Dateien (Listet jene Veränderungen auf, mit denen `alte_datei` zu `neue_datei` wird):
 
 `diff {{alte_datei}} {{neue_datei}}`
 
