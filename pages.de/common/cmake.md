@@ -1,7 +1,7 @@
 # cmake
 
 > Plattformübergreifes Build-Automatisierungs-System, das Vorlagen für native Build-Systeme erzeugt.
-> Weitere Information: <https://cmake.org/cmake/help/latest/manual/cmake.1.html>.
+> Mehr Informationen: <https://cmake.org/cmake/help/latest/manual/cmake.1.html>.
 
 - Erzeugt eine Build-Vorlage im aktuellen Verzeichnis mit `CMakeLists.txt` eines Projektordners:
 
