@@ -3,6 +3,10 @@
 > Write KConfig entries for KDE Plasma.
 > More information: <https://userbase.kde.org/KDE_System_Administration/Configuration_Files>.
 
+- Display help:
+
+`kwriteconfig5 --help`
+
 - Set a global configuration key:
 
 `kwriteconfig5 --group {{group_name}} --key {{key_name}} {{value}}`
