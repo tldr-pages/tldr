@@ -1,7 +1,7 @@
 # ab
 
 > Apache Benchmarking Tool. Das einfachste Tool um eine Belastungsprobe durchzuführen.
-> Weitere Information: <https://httpd.apache.org/docs/2.4/programs/ab.html>.
+> Mehr Informationen: <https://httpd.apache.org/docs/2.4/programs/ab.html>.
 
 - Sende 100 HTTP GET Anfragen an eine gegebene URL:
 
