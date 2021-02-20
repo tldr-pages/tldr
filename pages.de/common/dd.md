@@ -10,7 +10,7 @@
 
 `dd if=/dev/{{quell_laufwerk}} of=/dev/{{ziel_laufwerk}} bs=4M conv=noerror status=progress`
 
-- Erstelle eine Datei mit 100 zufälligen Bytes mithilfe des Zufall-Treibers des Kernels
+- Erstelle eine Datei mit 100 zufälligen Bytes mithilfe des Zufall-Treibers des Kernels:
 
 `dd if=/dev/urandom of={{zufällige_datei}} bs=100 count=1`
 
