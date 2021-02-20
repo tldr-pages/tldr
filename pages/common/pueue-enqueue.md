@@ -1,7 +1,8 @@
 # pueue enqueue
 
 > Enqueue stashed tasks.
-> See also: pueue stash --help.
+> See also: `pueue stash`.
+> More information: <https://github.com/Nukesor/pueue>.
 
 - Enqueue multiple stashed tasks at once:
 

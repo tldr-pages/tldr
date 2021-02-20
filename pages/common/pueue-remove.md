@@ -1,6 +1,7 @@
 # pueue remove
 
 > Remove tasks from the list. Running or paused tasks need to be killed first.
+> More information: <https://github.com/Nukesor/pueue>.
 
 - Remove a killed or finished task:
 

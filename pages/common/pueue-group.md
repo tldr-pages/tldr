@@ -1,6 +1,7 @@
 # pueue group
 
 > Display, add or remove groups.
+> More information: <https://github.com/Nukesor/pueue>.
 
 - Show all groups with their status and number of parallel jobs:
 

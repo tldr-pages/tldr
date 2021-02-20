@@ -1,6 +1,7 @@
 # pueue status
 
 > Display the current status of all tasks.
+> More information: <https://github.com/Nukesor/pueue>.
 
 - Show status of all tasks:
 

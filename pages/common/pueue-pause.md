@@ -1,7 +1,8 @@
 # pueue pause
 
 > Pause running tasks or groups.
-> See also: pueue start --help.
+> See also: `pueue start`.
+> More information: <https://github.com/Nukesor/pueue>.
 
 - Pause all tasks in the default group:
 

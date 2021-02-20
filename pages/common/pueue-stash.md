@@ -1,7 +1,7 @@
 # pueue stash
 
 > Stash tasks to prevent automatic start.
-> See also: pueue start --help.
+> See also: `pueue start`.
 > See also: pueue enqueue --help.
 
 - Stash an enqueued task:

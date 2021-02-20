@@ -1,7 +1,8 @@
 # pueue start
 
 > Resume operation of specific tasks or groups of tasks.
-> See also: pueue pause --help.
+> See also: `pueue pause`.
+> More information: <https://github.com/Nukesor/pueue>.
 
 - Resume all tasks in default group:
 

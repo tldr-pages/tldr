@@ -1,6 +1,7 @@
 # pueue send
 
 > Send input to a task.
+> More information: <https://github.com/Nukesor/pueue>.
 
 - Send input to a running command:
 

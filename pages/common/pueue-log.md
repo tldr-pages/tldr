@@ -1,7 +1,8 @@
 # pueue log
 
 > Display the log output tasks.
-> See also: pueue status --help.
+> See also: `pueue status`.
+> More information: <https://github.com/Nukesor/pueue>.
 
 - Show the last few lines of output from all tasks:
 

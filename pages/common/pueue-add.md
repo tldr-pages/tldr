@@ -1,6 +1,7 @@
 # pueue add
 
 > Enqueue a task for execution.
+> More information: <https://github.com/Nukesor/pueue>.
 
 - Add any command to the default queue:
 
