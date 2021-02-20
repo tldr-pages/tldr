@@ -1,9 +1,9 @@
 # diff
 
 > Vergleiche Dateien und Verzeichnisse.
+> Mehr Informationen: <https://man7.org/linux/man-pages/man1/diff.1.html>.
 
 - Vergleiche Dateien (Listet jene Veränderungen auf, mit denen `alte_datei` zu `neue_datei` wird):
-> Mehr Informationen: <https://man7.org/linux/man-pages/man1/diff.1.html>.
 
 `diff {{alte_datei}} {{neue_datei}}`
 
