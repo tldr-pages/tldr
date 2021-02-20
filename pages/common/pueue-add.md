@@ -9,7 +9,7 @@
 
 - Pass flags or arguments to command when adding:
 
-`pueue add -- {{command --Arg -f}}`
+`pueue add -- {{command --arg -f}}`
 
 - Add command but do not start it if it's the first in a queue:
 
