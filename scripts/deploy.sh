@@ -14,7 +14,7 @@ function initialize {
 
   # Configure git.
   git config --global user.email "tldrbotgithub@gmail.com"
-  git config --global user.name "tldr-bot"
+  git config --global user.name "tldr bot"
   git config --global push.default simple
   git config --global diff.zip.textconv "unzip -c -a"
 
