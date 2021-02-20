@@ -2,7 +2,7 @@
 
 > Android Asset Packaging Tool.
 > Kompiliere und verpacke die Resourcen einer Android App.
-> Weitere Informationen: <https://elinux.org/Android_aapt>.
+> Mehr Informationen: <https://elinux.org/Android_aapt>.
 
 - Liste alle Dateien eines APK Archivs auf:
 
