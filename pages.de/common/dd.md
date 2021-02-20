@@ -1,6 +1,7 @@
 # dd
 
 > Konvertiere und kopiere eine Datei.
+> Mehr Informationen: <https://www.man7.org/linux/man-pages/man1/dd.1.html>.
 
 - Erstelle ein bootbares USB-Laufwerk von einer isohybriden Datei (wie `archlinux-xxxx.iso`) und zeige den Fortschritt an:
 
