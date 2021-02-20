@@ -141,6 +141,7 @@ both for the command line and for other platforms:
 - [Visual Studio Code extension](https://github.com/bmuskalla/vscode-tldr) available on [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=bmuskalla.vscode-tldr)
 - Web clients:
     - [tldr.jsx](https://github.com/ostera/tldr.jsx): http://tldr.ostera.io/
+    - [tldr.finzzz.net](https://git.finzzz.net/tldr/): https://tldr.finzzz.net/
     - [DistroWatch](https://distrowatch.com/dwres.php?resource=man-pages)
     - [tldr.ooops.me](https://tldr.ooops.me): web client with multilingual support
     - [TLDR Persian](https://opoet7.github.io/tldr-persian/): Web Client in Persian
