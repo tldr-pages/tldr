@@ -11,14 +11,14 @@
 
 `pueue kill {{task ID}}`
 
-- Kill a task and terminate all its [c]hildren processes:
+- Kill a task and terminate all its children processes:
 
-`pueue kill -c {{task ID}}`
+`pueue kill --children {{task_id}}`
 
 - Kill all tasks in a [g]roup and pause the group:
 
-`pueue kill -g {{group name}}`
+`pueue kill --group {{group_name}}`
 
-- Kill [a]ll tasks across all groups and pause all groups:
+- Kill all tasks across all groups and pause all groups:
 
-`pueue kill -a`
+`pueue kill --all`

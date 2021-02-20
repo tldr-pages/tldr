@@ -9,8 +9,8 @@
 
 - Add custom group:
 
-`pueue group -a syncing_jobs`
+`pueue group --add "{{group_name}}"`
 
 - Remove group and move its tasks to the default group:
 
-`pueue group -r CPU_intensive`
+`pueue group --remove "{{group_name}}"`

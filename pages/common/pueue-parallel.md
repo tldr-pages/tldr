@@ -9,4 +9,4 @@
 
 - Set the number of tasks allowed to run in parallel in a specific group:
 
-`pueue parallel -g {{group name}} {{number of parallel tasks}}`
+`pueue parallel --group {{group_name}} {{maximum_number_of_parallel_tasks}}`

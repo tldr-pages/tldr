@@ -7,6 +7,6 @@
 
 `pueue clean`
 
-- Only clean commands that finished [s]uccessfully:
+- Only clean commands that finished successfully:
 
-`pueue clean -s`
+`pueue clean --successful-only`

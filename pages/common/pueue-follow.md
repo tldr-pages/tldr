@@ -10,4 +10,4 @@
 
 - Follow the stderr of a tasks:
 
-`pueue follow -err {{task ID}}`
+`pueue follow --err {{task_id}}`

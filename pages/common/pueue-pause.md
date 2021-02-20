@@ -14,12 +14,12 @@
 
 - Pause a running task and stop all its direct [c]hildren:
 
-`pueue pause -c {{task ID}}`
+`pueue pause --children {{task_id}}`
 
-- Pause all tasks in a [g]roup and prevent it from starting new tasks:
+- Pause all tasks in a group and prevent it from starting new tasks:
 
-`pueue pause -g {{group name}}`
+`pueue pause --group {{group_name}}`
 
-- Pause [a]ll tasks and prevent all groups from starting new tasks:
+- Pause all tasks and prevent all groups from starting new tasks:
 
-`pueue pause -a`
+`pueue pause --all`

@@ -10,20 +10,20 @@
 
 - Enqueue a stashed task after 60 seconds:
 
-`pueue enqueue -d 60 {{task ID}}`
+`pueue enqueue --delay 60 {{task_id}}`
 
 - Enqueue a stashed task next wednesday:
 
-`pueue enqueue -d wednesday {{task ID}}`
+`pueue enqueue --delay {{wednesday}} {{task_id}}`
 
 - Enqueue a stashed task after four months:
 
-`pueue enqueue -d "4 months" {{task ID}}`
+`pueue enqueue --delay "4 months" {{task_id}}`
 
 - Enqueue a stashed task on 2025-02-08:
 
-`pueue enqueue -d 2025-02-08 {{task ID}}`
+`pueue enqueue --delay 2021-02-19 {{task_id}}`
 
-- See all formats acceptable by -d:
+- List all available date/time formats:
 
 `pueue enqueue --help`

@@ -13,16 +13,16 @@
 
 - Restart a specific task from a different path:
 
-`pueue restart -p {{task ID}}`
+`pueue restart --edit-path {{task_id}}`
 
 - Edit a command before restarting:
 
-`pueue restart -e {{task ID}}`
+`pueue restart --edit {{task_id}}`
 
-- Restart a task [i]n-place (without enqueuing as a separate task):
+- Restart a task in-place (without enqueuing as a separate task):
 
-`pueue restart -i {{task ID}}`
+`pueue restart --in-place {{task_id}}`
 
-- Restart [a]ll failed tasks and [s]tash them:
+- Restart all failed tasks and stash them:
 
-`pueue restart -as`
+`pueue restart --all-failed --stashed`

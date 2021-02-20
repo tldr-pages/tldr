@@ -7,9 +7,9 @@
 
 `pueue edit 2`
 
-- Edit the [p]ath from which command 43 is executed:
+- Edit the path from which a task is executed:
 
-`pueue edit 43 -p`
+`pueue edit {{task_id}} --path`
 
 - Edit a command with your favourite editor:
 

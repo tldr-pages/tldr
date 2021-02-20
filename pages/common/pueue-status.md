@@ -7,6 +7,6 @@
 
 `pueue status`
 
-- Show status of a specific [g]roup:
+- Show status of a specific group:
 
-`pueue status -g {{group name}}`
+`pueue status --group {{group_name}}`

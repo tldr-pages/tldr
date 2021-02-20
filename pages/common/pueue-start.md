@@ -18,7 +18,7 @@
 
 - Resume [a]ll tasks and start their [c]hildren:
 
-`pueue start -ac`
+`pueue start --all --children`
 
 - Resume all tasks in a specific group:
 
