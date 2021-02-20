@@ -2,7 +2,7 @@
 
 > Überträgt Daten von oder zu einem Server.
 > Unterstützt die meisten Protokolle, inklusive HTTP, FTP und POP3.
-> Weitere Information: <https://curl.se>.
+> Mehr Informationen: <https://curl.se>.
 
 - Lade den Inhalt einer URL in eine Datei:
 
