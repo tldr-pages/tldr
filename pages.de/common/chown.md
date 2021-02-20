@@ -10,7 +10,6 @@
 
 `chown {{benutzer}}:{{gruppe}} {{pfad/zu/datei_oder_verzeichnis}}`
 
-
 - Ändere den Besitzer eines Verzeichnisses und seines Inhalts rekursiv:
 
 `chown -R {{benutzer}} {{pfad/zu/Verzeichnis}}`
