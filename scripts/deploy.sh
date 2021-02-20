@@ -13,7 +13,7 @@ function initialize {
   export SITE_REPO_SLUG="tldr-pages/tldr-pages.github.io"
 
   # Configure git.
-  git config --global user.email "tldr-pages@googlegroups.com"
+  git config --global user.email "tldrbotgithub@gmail.com"
   git config --global user.name "tldr-bot"
   git config --global push.default simple
   git config --global diff.zip.textconv "unzip -c -a"
