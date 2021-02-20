@@ -3,7 +3,7 @@
 > Edit the command or path of a stashed or queued task.
 > More information: <https://github.com/Nukesor/pueue>.
 
-- Edit the command with ID 2, see 'pueue status --help' to get command ID:
+- Edit a task, see `pueue status` to get command ID:
 
 `pueue edit 2`
 
@@ -11,6 +11,6 @@
 
 `pueue edit {{task_id}} --path`
 
-- Edit a command with your favourite editor:
+- Edit a command with the specified editor:
 
-`EDITOR=nano pueue edit 11`
+`EDITOR={{nano}} pueue edit {{task_id}}`

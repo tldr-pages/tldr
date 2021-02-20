@@ -8,13 +8,13 @@
 
 `pueue log`
 
-- Show full output of a specific task:
+- Show full output of a task:
 
-`pueue log {{task ID}}`
+`pueue log {{task_id}}`
 
-- Show last few lines of output from several commands:
+- Show last few lines of output from several tasks:
 
-`pueue log {{first task ID}} {{second task ID}} ...`
+`pueue log {{task_id}} {{task_id}}`
 
 - Print a specific number of lines from the tail of output:
 

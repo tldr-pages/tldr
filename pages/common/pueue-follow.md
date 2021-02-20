@@ -6,7 +6,7 @@
 
 - Follow the output of a task (stdout + stderr):
 
-`pueue follow {{task ID}}`
+`pueue follow {{task_id}}`
 
 - Follow the stderr of a tasks:
 

@@ -7,9 +7,9 @@
 
 `pueue kill`
 
-- Kill a specific task by ID:
+- Kill a specific task:
 
-`pueue kill {{task ID}}`
+`pueue kill {{task_id}}`
 
 - Kill a task and terminate all its children processes:
 

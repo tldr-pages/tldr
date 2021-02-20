@@ -5,8 +5,8 @@
 
 - Remove a killed or finished task:
 
-`pueue remove {{task ID}}`
+`pueue remove {{task_id}}`
 
 - Remove multiple tasks at once:
 
-`pueue remove {{first task ID}} {{second task ID}} ...`
+`pueue remove {{task_id}} {{task_id}}`

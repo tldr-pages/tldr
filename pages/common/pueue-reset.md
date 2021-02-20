@@ -3,7 +3,7 @@
 > Kill everything and reset.
 > More information: <https://github.com/Nukesor/pueue>.
 
-- Kill all tasks and remove everything (e.g. logs, status, groups, task IDs):
+- Kill all tasks and remove everything (logs, status, groups, task IDs):
 
 `pueue reset`
 

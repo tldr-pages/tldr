@@ -10,11 +10,11 @@
 
 - Resume a specific task:
 
-`pueue start {{task ID}}`
+`pueue start {{task_id}}`
 
 - Resume multiple tasks at once:
 
-`pueue start {{first task ID}} {{second task ID}} ...`
+`pueue start {{task_id}} {{task_id}}`
 
 - Resume [a]ll tasks and start their [c]hildren:
 
@@ -22,4 +22,4 @@
 
 - Resume all tasks in a specific group:
 
-`pueue start group {{group name}}`
+`pueue start group {{group_name}}`

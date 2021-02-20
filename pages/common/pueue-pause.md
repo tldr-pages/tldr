@@ -10,7 +10,7 @@
 
 - Pause a running task:
 
-`pueue pause {{task ID}}`
+`pueue pause {{task_id}}`
 
 - Pause a running task and stop all its direct [c]hildren:
 

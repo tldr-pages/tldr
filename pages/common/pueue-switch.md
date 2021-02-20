@@ -3,6 +3,6 @@
 > Switches the queue position of two enqueued or stashed commands.
 > More information: <https://github.com/Nukesor/pueue>.
 
-- Switch the priority of two commands:
+- Switch the priority of two tasks:
 
-`pueue switch {{task-id-1}} {{task-id-2}}`
+`pueue switch {{task_id}} {{task_id}}`

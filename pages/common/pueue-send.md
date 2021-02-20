@@ -5,11 +5,11 @@
 
 - Send input to a running command:
 
-`pueue send {{task ID}} {{input}}`
+`pueue send {{task_id}} "{{input}}"`
 
 - Send confirmation to a task expecting y/N (e.g. apt, cp):
 
-`pueue send {{task ID}} y`
+`pueue send {{task_id}} {{y}}`
 
 - Write to a file open in background:
 

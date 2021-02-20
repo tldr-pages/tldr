@@ -6,13 +6,13 @@
 
 - Enqueue multiple stashed tasks at once:
 
-`pueue enqueue {{first task ID}} {{second task ID}} ...`
+`pueue enqueue {{task_id}} {{task_id}} ...`
 
 - Enqueue a stashed task after 60 seconds:
 
 `pueue enqueue --delay 60 {{task_id}}`
 
-- Enqueue a stashed task next wednesday:
+- Enqueue a stashed task next Wednesday:
 
 `pueue enqueue --delay {{wednesday}} {{task_id}}`
 
@@ -20,7 +20,7 @@
 
 `pueue enqueue --delay "4 months" {{task_id}}`
 
-- Enqueue a stashed task on 2025-02-08:
+- Enqueue a stashed task on 2021-02-19:
 
 `pueue enqueue --delay 2021-02-19 {{task_id}}`
 
