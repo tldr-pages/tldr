@@ -11,6 +11,6 @@
 
 `texliveonfly --compiler={{compiler}} {{source.tex}}`
 
-- Use specific TeX Live bin folder location:
+- Use custom TeX Live `bin` folder:
 
 `texliveonfly --texlive_bin={{/path/to/texlive_bin}} {{source.tex}}`
