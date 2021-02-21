@@ -1,7 +1,7 @@
 # tex
 
 > Compile a DVI document from TeX source files.
-> More information: <https://linux.die.net/man/1/tex>.
+> More information: <https://www.tug.org/begin.html>.
 
 - Compile a DVI document:
 

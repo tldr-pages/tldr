@@ -1,7 +1,7 @@
 # latex
 
 > Compile a DVI document from LaTeX source files.
-> More information: <https://linux.die.net/man/1/latex>.
+> More information: <https://www.latex-project.org/>.
 
 - Compile a DVI document:
 

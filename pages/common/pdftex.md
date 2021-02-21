@@ -1,7 +1,7 @@
 # pdftex
 
 > Compile a PDF document from TeX source files.
-> More information: <https://linux.die.net/man/1/pdftex>.
+> More information: <https://www.tug.org/applications/pdftex/>.
 
 - Compile a PDF document:
 
