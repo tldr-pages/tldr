@@ -13,7 +13,7 @@
 
 - Add command but do not start it if it's the first in a queue:
 
-`pueue add --stashed -- rsync --archive --compress {{/local/directory}} {{/remote/directory}}`
+`pueue add --stashed -- {{rsync --archive --compress /local/directory /remote/directory}}`
 
 - Add command to a group and start it immmediately, see `pueue group` to manage groups:
 

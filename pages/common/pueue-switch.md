@@ -5,4 +5,4 @@
 
 - Switch the priority of two tasks:
 
-`pueue switch {{task_id}} {{task_id}}`
+`pueue switch {{task_id1}} {{task_id2}}`

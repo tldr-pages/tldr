@@ -10,7 +10,7 @@
 
 - Enqueue a stashed task after 60 seconds:
 
-`pueue enqueue --delay 60 {{task_id}}`
+`pueue enqueue --delay {{60}} {{task_id}}`
 
 - Enqueue a stashed task next Wednesday:
 
@@ -22,7 +22,7 @@
 
 - Enqueue a stashed task on 2021-02-19:
 
-`pueue enqueue --delay 2021-02-19 {{task_id}}`
+`pueue enqueue --delay {{2021-02-19}} {{task_id}}`
 
 - List all available date/time formats:
 
