@@ -7,7 +7,7 @@
 
 `texliveonfly {{source.tex}}`
 
-- Use specific compiler (defaults to pdflatex):
+- Use specific compiler (defaults to `pdflatex`):
 
 `texliveonfly --compiler={{compiler}} {{source.tex}}`
 
