@@ -13,4 +13,4 @@
 
 - Open full documentation of texdoc:
 
-`texdoc texdoc`
+`texdoc {{texdoc}}`
