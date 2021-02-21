@@ -1,6 +1,7 @@
 # pdflatex
 
 > Compile a PDF document from LaTeX source files.
+> More information: <https://linux.die.net/man/1/pdflatex>.
 
 - Compile a PDF document:
 
