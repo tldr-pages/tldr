@@ -18,7 +18,7 @@
 
 - Generate all possible strings that match a regular expression, joined together by a custom delimeter string:
 
-`exrex --delimiter {{", "}} '{{regular_expression}}'`
+`exrex --delimiter "{{, }}" '{{regular_expression}}'`
 
 - Print count of all possible strings that match a regular expression:
 
