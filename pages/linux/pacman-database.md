@@ -25,4 +25,4 @@
 
 - Display only error messages:
 
-`pacman --database --quiet --check`
+`pacman --database --check --quiet`
