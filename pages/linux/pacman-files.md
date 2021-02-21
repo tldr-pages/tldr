@@ -15,7 +15,7 @@
 
 `pacman --files {{filename}}`
 
-- Find the package that owns a specific file using a regular expression:
+- Find the package that owns a specific file, using a regular expression:
 
 `pacman --files --regex '{{search_pattern}}'`
 
