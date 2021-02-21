@@ -16,7 +16,7 @@
 
 `pueue start {{task_id}} {{task_id}}`
 
-- Resume [a]ll tasks and start their [c]hildren:
+- Resume all tasks and start their children:
 
 `pueue start --all --children`
 

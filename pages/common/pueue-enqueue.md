@@ -6,7 +6,7 @@
 
 - Enqueue multiple stashed tasks at once:
 
-`pueue enqueue {{task_id}} {{task_id}} ...`
+`pueue enqueue {{task_id}} {{task_id}}`
 
 - Enqueue a stashed task after 60 seconds:
 
