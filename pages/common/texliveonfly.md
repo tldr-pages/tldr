@@ -13,4 +13,4 @@
 
 - Use custom TeX Live `bin` folder:
 
-`texliveonfly --texlive_bin={{/path/to/texlive_bin}} {{source.tex}}`
+`texliveonfly --texlive_bin={{path/to/texlive_bin}} {{source.tex}}`
