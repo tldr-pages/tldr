@@ -25,4 +25,4 @@
 
 - Print the outline (table of contents) of a PDF:
 
-`mutool outline {{input.pdf}}`
+`mutool show {{input.pdf}} outline`
