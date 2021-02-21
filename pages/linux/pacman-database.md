@@ -19,7 +19,7 @@
 
 `pacman --database --check`
 
-- Check also the repositories to ensure all specified dependencies are available:
+- Check the repositories to ensure all specified dependencies are available:
 
 `pacman --database --check --check`
 
