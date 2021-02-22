@@ -69,7 +69,7 @@ both for the command line and for other platforms:
 - Android clients:
   - [tldroid](https://github.com/hidroh/tldroid), available on
     [Google Play](https://play.google.com/store/apps/details?id=io.github.hidroh.tldroid) *(outdated)*
-  - [tldr](https://github.com/Techno-Disaster/tldr-flutter), available on
+  - [tldr-flutter](https://github.com/Techno-Disaster/tldr-flutter), available on
     [Google Play](https://play.google.com/store/apps/details?id=wtf.technodisaster.tldr)
 - Bash clients:
   - [tldr](https://github.com/raylee/tldr)
