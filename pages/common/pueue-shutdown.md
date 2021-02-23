@@ -7,7 +7,3 @@
 - Shutdown the daemon without a service manager:
 
 `pueue shutdown`
-
-- Shutdown the daemon with systemd (Linux only):
-
-`systemctl --user disable --now pueued.service`
