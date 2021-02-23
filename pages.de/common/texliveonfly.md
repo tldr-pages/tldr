@@ -3,7 +3,7 @@
 > Lade fehlende TeX Live Packages während dem Kompilieren einer `.tex` Datei herunter.
 > Mehr Informationen: <https://ctan.org/pkg/texliveonfly>.
 
--Lade fehlende Packages während dem Kompilieren herunter:
+- Lade fehlende Packages während dem Kompilieren herunter:
 
 `texliveonfly {{quelldatei.tex}}`
 

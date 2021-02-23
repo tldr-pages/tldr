@@ -11,6 +11,6 @@
 
 `texdoc --list {{suche}}`
 
-- Öffne die vollständige Dokumentation von `texdoc`
+- Öffne die vollständige Dokumentation von `texdoc`:
 
 `texdoc {{texdoc}}`
