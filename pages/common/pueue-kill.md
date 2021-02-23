@@ -15,7 +15,7 @@
 
 `pueue kill --children {{task_id}}`
 
-- Kill all tasks in a [g]roup and pause the group:
+- Kill all tasks in a group and pause the group:
 
 `pueue kill --group {{group_name}}`
 

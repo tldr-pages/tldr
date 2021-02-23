@@ -12,7 +12,7 @@
 
 `pueue pause {{task_id}}`
 
-- Pause a running task and stop all its direct [c]hildren:
+- Pause a running task and stop all its direct children:
 
 `pueue pause --children {{task_id}}`
 

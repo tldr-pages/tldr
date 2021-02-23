@@ -5,7 +5,7 @@
 
 - Edit a task, see `pueue status` to get command ID:
 
-`pueue edit 2`
+`pueue edit {{task_id}}`
 
 - Edit the path from which a task is executed:
 
