@@ -14,7 +14,3 @@
 - Execute a pueue subcommand:
 
 `pueue {{subcommand}}`
-
-- Show more example on a pueue subcommand:
-
-`tldr pueue {{subcommand}}`
