@@ -9,15 +9,15 @@
 
 - Print the driver information for an interface:
 
-`ethtool -i {{eth0}}`
+`ethtool --driver {{eth0}}`
 
 - Print the network usage statistics for an interface:
 
-`ethtool -S {{eth0}}`
+`ethtool --statistics {{eth0}}`
 
 - Blink one or more LEDs on an interface for 10 seconds:
 
-`ethtool -p {{eth0}} {{10}}`
+`ethtool --identify {{eth0}} {{10}}`
 
 - Set the link speed, duplex mode, and parameter autonegotiation for a given interface:
 
