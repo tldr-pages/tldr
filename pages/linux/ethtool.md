@@ -3,15 +3,15 @@
 > Display and modify Network Interface Controller (NIC) parameters.
 > More information: <http://man7.org/linux/man-pages/man8/ethtool.8.html>.
 
-- Print the current settings for an interface:
+- Display the current settings for an interface:
 
 `ethtool {{eth0}}`
 
-- Print the driver information for an interface:
+- Display the driver information for an interface:
 
 `ethtool --driver {{eth0}}`
 
-- Print the network usage statistics for an interface:
+- Display the network usage statistics for an interface:
 
 `ethtool --statistics {{eth0}}`
 
