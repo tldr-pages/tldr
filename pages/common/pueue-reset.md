@@ -9,7 +9,7 @@
 
 - Kill all tasks and terminate their children and reset everything:
 
-`pueue reset -c`
+`pueue reset --children`
 
 - Reset without asking for confirmation:
 

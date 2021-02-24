@@ -15,7 +15,7 @@
 
 `pueue add --stashed -- {{rsync --archive --compress /local/directory /remote/directory}}`
 
-- Add command to a group and start it immmediately, see `pueue group` to manage groups:
+- Add command to a group and start it immediately, see `pueue group` to manage groups:
 
 `pueue add --immediate --group "{{CPU_intensive}}" -- {{ffmpeg -i input.mp4 frame_%d.png}}`
 
