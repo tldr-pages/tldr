@@ -7,7 +7,7 @@
 
 `pacman --database --help`
 
-- Mark a package as non-explicitly installed:
+- Mark a package as implicitly installed:
 
 `sudo pacman --database --asdeps {{package_name}}`
 
