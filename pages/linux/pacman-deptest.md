@@ -7,11 +7,11 @@
 
 `pacman --deptest --help`
 
-- Out of a list of packages, print which ones are not installed:
+- Out of a list of packages, print the names of those that aren't installed:
 
 `pacman --deptest {{package_name1}} {{package_name2}}`
 
-- Check if the installed package satisfy the minimum version:
+- Check if the installed package satisfies the given minimum version:
 
 `pacman --deptest "{{bash>=5}}"`
 
