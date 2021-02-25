@@ -19,7 +19,7 @@
 
 `sudo pacman --upgrade --overwrite {{path/to/file}} {{path/to/package}}`
 
-- Install a package skipping the dependency version checks:
+- Install a package, skipping the dependency version checks:
 
 `sudo pacman --upgrade --nodeps {{path/to/package}}`
 
