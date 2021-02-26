@@ -1,6 +1,7 @@
 # pacman --database
 
-> Arch Linux package manager utility.
+> Operate on the Arch Linux package database.
+> Modify certain attributes of the installed packages.
 > More information: <https://man.archlinux.org/man/pacman.8>.
 
 - Display help:
