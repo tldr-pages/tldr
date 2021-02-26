@@ -7,7 +7,7 @@
 
 `pdftex {{source.tex}}`
 
-- Compile a PDF document specifying an output directory:
+- Compile a PDF document, specifying an output directory:
 
 `pdftex -output-directory={{path/to/directory}} {{source.tex}}`
 

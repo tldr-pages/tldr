@@ -7,7 +7,7 @@
 
 `latex {{source.tex}}`
 
-- Compile a DVI document specifying an output directory:
+- Compile a DVI document, specifying an output directory:
 
 `latex -output-directory={{path/to/directory}} {{source.tex}}`
 

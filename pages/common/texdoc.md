@@ -3,11 +3,11 @@
 > Search for appropriate documentation for (La)TeX commands or packages.
 > More information: <https://texdoc.org/index.html>.
 
-- Open first search result in the default PDF viewer:
+- Open the first search result in the default PDF viewer:
 
 `texdoc {{search}}`
 
-- List best search result:
+- List the best search results:
 
 `texdoc --list {{search}}`
 

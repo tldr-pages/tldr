@@ -7,10 +7,10 @@
 
 `texliveonfly {{source.tex}}`
 
-- Use specific compiler (defaults to `pdflatex`):
+- Use a specific compiler (defaults to `pdflatex`):
 
 `texliveonfly --compiler={{compiler}} {{source.tex}}`
 
-- Use custom TeX Live `bin` folder:
+- Use a custom TeX Live `bin` folder:
 
 `texliveonfly --texlive_bin={{path/to/texlive_bin}} {{source.tex}}`
