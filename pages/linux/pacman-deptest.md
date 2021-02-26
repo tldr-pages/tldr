@@ -7,7 +7,7 @@
 
 `pacman --deptest --help`
 
-- Out of a list of packages, print the names of those that aren't installed:
+- Display a list of packages, print the names of those that aren't installed:
 
 `pacman --deptest {{package_name1}} {{package_name2}}`
 
