@@ -19,7 +19,7 @@
 
 `tlmgr update --all`
 
-- Zeige mögliche Aktualisierungen an ohne Änderungen vorzunehmen:
+- Zeige mögliche Aktualisierungen an, ohne Änderungen vorzunehmen:
 
 `tlmgr update --list`
 
