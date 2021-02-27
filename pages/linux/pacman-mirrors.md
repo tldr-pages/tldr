@@ -1,6 +1,6 @@
 # pacman-mirrors
 
-> Generate a pacman mirrorlist for Manjaro Linux
+> Generate a pacman mirrorlist for Manjaro Linux.
 > More information: <https://wiki.manjaro.org/index.php?title=Pacman-mirrors>.
 
 - Generate a mirrorlist, using the default settings:
