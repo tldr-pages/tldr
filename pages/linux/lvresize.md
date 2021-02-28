@@ -1,7 +1,8 @@
 # lvresize
 
 > Change the size of a logical volume.
-> More information: <https://man7.org/linux/man-pages/man8/lvresize.8.html>.
+> One of the Logical Volume Manager (LVM) tools.
+> More information: <https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/logical_volume_manager_administration>.
 
 - Change the size of a logical volume to 120GB:
 
