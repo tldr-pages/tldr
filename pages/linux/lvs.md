@@ -2,7 +2,7 @@
 
 > Display information about logical volumes.
 > One of the Logical Volume Manager (LVM) tools.
-> More information: <https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/logical_volume_manager_administration>.
+> More information: <https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_and_managing_logical_volumes/index>.
 
 - Display information about logical volumes:
 
