@@ -11,7 +11,7 @@
 
 `tlmgr remove {{package}}`
 
-- Print info about a package:
+- Display information about a package:
 
 `tlmgr info {{package}}`
 
