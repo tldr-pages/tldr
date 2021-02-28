@@ -1,36 +1,36 @@
 # docker system
 
-> Manage Docker data and display system-wide information.
+> Docker verilerini yönet ve sistem bilgisi görüntüle.
 > More information: <https://docs.docker.com/engine/reference/commandline/system/>.
 
-- Show help:
+- Yardım göster:
 
 `docker system`
 
-- Show docker disk usage:
+- Docker disk kullanımını göster:
 
 `docker system df`
 
-- Show detailed information on disk usage:
+- Disk kullanımı üzerine detaylı bilgi göster:
 
 `docker system df --verbose`
 
-- Remove unused data:
+- Kullanılmayan veriyi sil:
 
 `docker system prune`
 
-- Remove unused data created more than a specified amount of time in the past:
+- Kullanılmayan ve geçmişte birden çok kez oluşturulan veriyi sil:
 
-`docker system prune --filter="until={{hours}}h{{minutes}}m"`
+`docker system prune --filter="until={{saat}}h{{dakika}}m"`
 
-- Display real-time events from the Docker daemon:
+- Docker deamon'dan tam-zamanlı eylemleri görüntüle:
 
 `docker system events`
 
-- Display real-time events from containers streamed as valid JSON Lines:
+- Geçerli JSON satırları olarak yayınlanan konteynerleden tam-zamanlı eylemleri göster:
 
 `docker system events --filter 'type=container' --format '{{json .}}'`
 
-- Display system-wide information:
+- Sistem bilgisi göster:
 
 `docker system info`
