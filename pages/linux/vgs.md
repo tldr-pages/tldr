@@ -1,7 +1,8 @@
 # vgs
 
-> Display information about LVM volume groups.
-> More information: <https://man7.org/linux/man-pages/man8/vgs.8.html>.
+> Display information about volume groups.
+> One of the Logical Volume Manager (LVM) tools.
+> More information: <https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/logical_volume_manager_administration>.
 
 - Display information about volume groups:
 
