@@ -1,28 +1,28 @@
 # docker service
 
-> Manage the services on a docker daemon.
-> More information: <https://docs.docker.com/engine/reference/commandline/service/>.
+> Bir docker daemon'unun üzerindeki servisleri yönet.
+> Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/service/>.
 
-- List the services on a docker daemon:
+- Bir docker daeomon'unun üzerindeki servisleri listele:
 
 `docker service ls`
 
-- Create a new service:
+- Yeni bir servis yarat:
 
-`docker service create --name {{service_name}} {{image}}:{{tag}}`
+`docker service create --name {{servis_ismi}} {{imge}}:{{etiket}}`
 
-- Display detailed information of a space-separated list of services:
+- Boşluk ile ayrılmış bir servis listesinin detaylı bilgisini görüntüle:
 
-`docker service inspect {{service_name|ID}}`
+`docker service inspect {{servis_ismi|ID}}`
 
-- List the tasks of a space-separated list of services:
+- Boşluk ile ayrılmış bir servis listesinin görevlerini sırala:
 
-`docker service ps {{service_name|ID}}`
+`docker service ps {{servis_ismi|ID}}`
 
-- Scale to a specific number of replicas for a space-separated list of services:
+- Boşluk ile ayrılmış bir servis listesi için belirli bir replika miktarına yüksel:
 
-`docker service scale {{service_name}}={{count_of_replicas}}`
+`docker service scale {{servis_ismi}}={{replika_miktarı}}`
 
-- Remove a space-separated list of services:
+- Boşluk ile ayrılmış bir servis listesini sil:
 
-`docker service rm {{service_name|ID}}`
+`docker service rm {{servis_ismi|ID}}`
