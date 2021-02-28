@@ -1,24 +1,24 @@
 # docker stats
 
-> Display a live stream of resource usage statistics for containers.
-> More information: <https://docs.docker.com/engine/reference/commandline/stats/>.
+> Konteynerler için kaynak kullanım istatistiklerinin canlı yayınını görüntüle.
+> Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/stats/>.
 
-- Display a live stream for the statistics of all running containers:
+- Çalışan tüm konteynerlerin aynak kullanım istatistiklerinin canlı yayınını görüntüle:
 
 `docker stats`
 
-- Display a live stream of statistics for a space-separated list of containers:
+- Boşluk ile ayrılmış bir listedeki konteynerlerin canlı yayınını görüntüle:
 
-`docker stats {{container_name}}`
+`docker stats {{container_ismi}}`
 
-- Change the columns format to display container's cpu usage percentage:
+- Konteyner'in CPU kullanım yüzdesini göstermek için sütun formatını değiştir:
 
 `docker stats --format "{{.Name}}:\t{{.CPUPerc}}"`
 
-- Display statistics for all containers (both running and stopped):
+- Tüm (çalışan veya durmuş) konteynerler için istatistikleri görüntüle:
 
 `docker stats --all`
 
-- Disable streaming stats and only pull the current stats:
+- İstatistikleri canlı yayınlamayı durdur ve yalnızca mevcut durumdaki istatistikleri görüntüle:
 
 `docker stats --no-stream`
