@@ -1,36 +1,36 @@
 # docker ps
 
-> List Docker containers.
-> More information: <https://docs.docker.com/engine/reference/commandline/ps/>.
+> Docker konteynerlerini sırala.
+> Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/ps/>.
 
-- List currently running docker containers:
+- Halihazırda çalışan docker konteynerlerini listele:
 
 `docker ps`
 
-- List all docker containers (running and stopped):
+- Tüm (durmuş veya çalışan) docker konteynerlerini listele:
 
 `docker ps --all`
 
-- Show the latest created container (includes all states):
+- En son oluşturulan (durmuş veya çalışan) konteynerleri listele:
 
 `docker ps --latest`
 
-- Filter containers that contain a substring in their name:
+- İsimlerinde belirtilen dizeleri içeren konteynerleri filtrele:
 
-`docker ps --filter="name={{name}}"`
+`docker ps --filter="name={{isim}}"`
 
-- Filter containers that share a given image as an ancestor:
+- Belirtilen imge ile akrabalık taşıyan konteynerleri filtrele:
 
-`docker ps --filter "ancestor={{image}}:{{tag}}"`
+`docker ps --filter "ancestor={{imge}}:{{tag}}"`
 
-- Filter containers by exit status code:
+- Konteynerleri çıkış durum koduna göre filtrele:
 
-`docker ps --all --filter="exited={{code}}"`
+`docker ps --all --filter="exited={{kod}}"`
 
-- Filter containers by status (created, running, removing, paused, exited and dead):
+- Konteynerleri mevcut durumlarına (oluşturulma, çalışma, silinme, durma, çıkma ve ölme) göre sırala:
 
-`docker ps --filter="status={{status}}"`
+`docker ps --filter="status={{mevcut_durum}}"`
 
-- Filter containers that mount a specific volume or have a volume mounted in a specific path:
+- Belirtilmiş bir hacmi gömen veya belirtilmiş bir yola gömülmüş hacmi içeren konteynerleri filtrele:
 
-`docker ps --filter="volume={{path/to/directory}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`
+`docker ps --filter="volume={{örnek/dizin}}" --format "table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Mounts}}"`
