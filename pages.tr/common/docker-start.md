@@ -1,20 +1,20 @@
 # docker start
 
-> Start one or more stopped containers.
-> More information: <https://docs.docker.com/engine/reference/commandline/start/>.
+> Bir veya daha fazla durmuş konteyneri başlar.
+> Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/start/>.
 
-- Show help:
+- Yardım göster:
 
 `docker start`
 
-- Start a docker container:
+- Bir docker konteynerini başlat:
 
-`docker start {{container}}`
+`docker start {{konteyner}}`
 
-- Start a container, attaching stdout and stderr and forwarding signals:
+- Bir konteyneri, ona stdout ile stderr'i ekleyerek ve sinyaller göndererek başlat:
 
-`docker start --attach {{container}}`
+`docker start --attach {{konteyner}}`
 
-- Start one or more space-separated containers:
+- Bir veya daha fazla boşlukla ayrılarak belirtilmiş konteynerleri başlar:
 
-`docker start {{container(s)}}`
+`docker start {{konteyner(ler)}}`
