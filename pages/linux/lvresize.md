@@ -2,7 +2,7 @@
 
 > Change the size of a logical volume.
 > One of the Logical Volume Manager (LVM) tools.
-> More information: <https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/logical_volume_manager_administration>.
+> More information: <https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_and_managing_logical_volumes/index>.
 
 - Change the size of a logical volume to 120GB:
 
