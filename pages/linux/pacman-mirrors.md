@@ -5,19 +5,19 @@
 
 - Generate a mirrorlist, using the default settings:
 
-`sudo pacman-mirrors -f`
+`sudo pacman-mirrors --fasttrack`
 
 - Get the status of the current mirrors:
 
-`sudo pacman-mirrors --status`
+`pacman-mirrors --status`
 
-- Check, which branch you are on:
+- Display the current branch:
 
-`sudo pacman-mirrors --get-branch`
+`pacman-mirrors --get-branch`
 
 - Switch to a different branch:
 
-`sudo pacman-mirrors --api --setbranch {{stable|unstable|testing}}`
+`sudo pacman-mirrors --api --set-branch {{stable|unstable|testing}}`
 
 - Generate a mirrorlist, only using mirrors in your country:
 
