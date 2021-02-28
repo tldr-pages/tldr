@@ -1,24 +1,24 @@
 # docker images
 
-> Manage Docker images.
-> More information: <https://docs.docker.com/engine/reference/commandline/images/>.
+> Docker imgelerini yönet.
+> Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/images/>.
 
-- List all Docker images:
+- Tüm Docker imgelerini listele:
 
 `docker images`
 
-- List all Docker images including intermediates:
+- Orta düzeyler de dahil olmak üzere tüm Docker imgelerini sırala:
 
 `docker images --all`
 
-- List the output in quiet mode (only numeric IDs):
+- Çıktıyı sessiz modda (yalnızca sayısal ID'ler olarak) sırala:
 
 `docker images --quiet`
 
-- List all Docker images not used by any container:
+- Herhangi bir konteyner tarafından kullanılmayan tüm Docker imgelerini sırala:
 
 `docker images --filter dangling=true`
 
-- List images that contain a substring in their name:
+- İsminde belirtilen dizeleri taşıyan imgeleri sırala:
 
-`docker images "{{*name*}}"`
+`docker images "{{*isim*}}"`
