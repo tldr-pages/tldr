@@ -1,20 +1,20 @@
 # docker save
 
-> Export one or more docker images to archive.
-> More information: <https://docs.docker.com/engine/reference/commandline/save/>.
+> Bir veya daha fazla docker imgesini arşivlemek için dışa aktar.
+> Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/save/>.
 
-- Save an image by redirecting stdout to a tar archive:
+- Bir imgeyi, stdout'u tar arşivine yönlendirerek kaydet:
 
-`docker save {{image}}:{{tag}} > {{path/to/file.tar}}`
+`docker save {{imge}}:{{etiket}} > {örnek/dosya.tar}}`
 
-- Save an image to a tar archive:
+- Bir imgeyi, bir tar arşivine kaydet:
 
-`docker save --output {{path/to/file.tar}} {{image}}:{{tag}}`
+`docker save --output {{örnek/dosya.tar}} {{imge}}:{{etiket}}`
 
-- Save all tags of the image:
+- Bir imgenin tüm etiketlerini kaydet:
 
-`docker save --output {{path/to/file.tar}} {{image_name}}`
+`docker save --output {{örnek/dosya.tar}} {{imge_ismi}}`
 
-- Cherry-pick particular tags of an image to save:
+- Bir imgenin belirli etiketlerini kaydetmek için elle seç:
 
-`docker save --output {{path/to/file.tar}} {{image_name:tag1 image_name:tag2 ...}}`
+`docker save --output {{örnek/dosya.tar}} {{imge_ismi:etiket1 imge_ismi:etiket2 ...}}`
