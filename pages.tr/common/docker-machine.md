@@ -1,28 +1,28 @@
 # docker-machine
 
-> Create and manage machines running Docker.
-> More information: <https://docs.docker.com/machine/reference/>.
+> Docker çalıştıran makineler oluştur ve onları yönet.
+> Daha fazla bilgi için: <https://docs.docker.com/machine/reference/>.
 
-- List currently running docker machines:
+- Halihazırda çalışan docker makinelerini sırala:
 
 `docker-machine ls`
 
-- Create a new docker machine with specific name:
+- Belirli bir isim ile docker makinesi oluştur:
 
-`docker-machine create {{name}}`
+`docker-machine create {{isim}}
 
-- Get the status of a machine:
+- Bir makinenin durumunu öğren:
 
-`docker-machine status {{name}}`
+`docker-machine status {{isim}}`
 
-- Start a machine:
+- Bir makineyi başlat:
 
-`docker-machine start {{name}}`
+`docker-machine start {{isim}}`
 
-- Stop a machine:
+- Bir makineyi durdur:
 
-`docker-machine stop {{name}}`
+`docker-machine stop {{isim}}`
 
-- Inspect information about a machine:
+- Bir makine hakkındaki bilgileri incele:
 
-`docker-machine inspect {{name}}`
+`docker-machine inspect {{isim}}`
