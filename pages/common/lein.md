@@ -11,7 +11,7 @@
 
 `lein repl`
 
-- Run the project's "-main" function with optional args:
+- Run the project's `-main` function with optional args:
 
 `lein run {{args}}`
 

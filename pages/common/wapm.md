@@ -3,11 +3,11 @@
 > The WebAssembly package manager.
 > More information: <https://wapm.io/help/reference>.
 
-- Interactively create a new wapm.toml file:
+- Interactively create a new `wapm.toml` file:
 
 `wapm init`
 
-- Download all the packages listed as dependencies in wapm.toml:
+- Download all the packages listed as dependencies in `wapm.toml`:
 
 `wapm install`
 
@@ -19,7 +19,7 @@
 
 `wapm install --global {{package_name}}`
 
-- Uninstall a package and remove it from the list of dependencies in wapm.toml:
+- Uninstall a package and remove it from the list of dependencies in `wapm.toml`:
 
 `wapm uninstall {{package_name}}`
 

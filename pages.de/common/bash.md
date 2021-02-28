@@ -24,7 +24,7 @@
 
 `bash -e {{datei.sh}}`
 
-- Befehle von `stdin` ausführen:
+- Befehle von stdin ausführen:
 
 `bash -s`
 

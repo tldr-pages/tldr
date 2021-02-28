@@ -7,6 +7,6 @@
 
 `git ignore list`
 
-- Erstelle eine .gitignore Vorlage:
+- Erstelle eine `.gitignore` Vorlage:
 
 `git ignore {{eintrag_a,eintrag_b,eintrag_n}}`

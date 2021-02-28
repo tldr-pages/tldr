@@ -23,7 +23,7 @@
 
 `sudo dnf install -y {{paquete}}`
 
-- Lista todos los paquetes instalados
+- Lista todos los paquetes instalados:
 
 `dnf list --installed`
 

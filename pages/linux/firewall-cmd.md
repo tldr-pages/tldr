@@ -14,11 +14,11 @@
 
 `firewall-cmd --permanent --zone={{block}} --change-interface={{enp1s0}}`
 
-- Permanently open the port for a service in the specified zone (like port `443` when in the `public` zone):
+- Permanently open the port for a service in the specified zone (like port 443 when in the `public` zone):
 
 `firewall-cmd --permanent --zone={{public}} --add-service={{https}}`
 
-- Permanently close the port for a service in the specified zone (like port `80` when in the `public` zone):
+- Permanently close the port for a service in the specified zone (like port 80 when in the `public` zone):
 
 `firewall-cmd --permanent --zone={{public}} --remove-service={{http}}`
 

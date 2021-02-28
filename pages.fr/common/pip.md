@@ -1,32 +1,32 @@
 # pip
 
 > Gestionnaire des paquets pour Python.
-> Plus d'informations : <https://pip.pypa.io>.
+> Plus d'informations : <https://pip.pypa.io>.
 
-- Installe un paquet :
+- Installe un paquet :
 
 `pip install {{paquet}}`
 
-- Installe une version particulière d'un paquet :
+- Installe une version particulière d'un paquet :
 
 `pip install {{paquet}}=={{version}}`
 
-- Met à jour un paquet :
+- Met à jour un paquet :
 
 `pip install -U {{paquet}}`
 
-- Désinstalle un paquet :
+- Désinstalle un paquet :
 
 `pip uninstall {{paquet}}`
 
-- Sauvegarde une liste des paquets installés :
+- Sauvegarde une liste des paquets installés :
 
 `pip freeze > {{requirements.txt}}`
 
-- Installe des paquets à partir d'un fichier :
+- Installe des paquets à partir d'un fichier :
 
 `pip install -r {{requirements.txt}}`
 
-- Affiche les informations d'un paquet installé :
+- Affiche les informations d'un paquet installé :
 
 `pip show {{paquet}}`

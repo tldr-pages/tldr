@@ -10,10 +10,10 @@
 
 `base64 -d {{nazwapliku}}`
 
-- Enkoduj z `stdin`:
+- Enkoduj z stdin:
 
 `{{jakiespolecenie}} | base64`
 
-- Dekoduj z `stdin`:
+- Dekoduj z stdin:
 
 `{{jakiespolecenie}} | base64 -d`

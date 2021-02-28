@@ -15,7 +15,7 @@
 
 `lpass ls`
 
-- Generate a new password for "gmail.com" with identifier "myinbox" and add to LastPass:
+- Generate a new password for gmail.com with the identifier `myinbox` and add to LastPass:
 
 `lpass generate --username {{username}} --url {{gmail.com}} {{myinbox}} {{password_length}}`
 

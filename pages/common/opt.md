@@ -7,7 +7,7 @@
 
 `opt -{{passname}} {{path/to/file.bc}} -S -o {{file_opt.bc}}`
 
-- Output the Control Flow Graph of a function to a "dot" file:
+- Output the Control Flow Graph of a function to a `.dot` file:
 
 `opt {{-dot-cfg}} -S {{path/to/file.bc}} -disable-output`
 

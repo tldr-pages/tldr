@@ -14,7 +14,7 @@
 
 - List existing firebase projects:
 
-`firebase project:list`
+`firebase projects:list`
 
 - Setup a firebase in the current directory:
 

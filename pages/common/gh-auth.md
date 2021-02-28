@@ -22,3 +22,11 @@
 - Login with a specific GitHub Enterprise Server:
 
 `gh auth login --hostname {{github.example.com}}`
+
+- Refresh the session to ensure authentication credentials have the correct minimum scopes (removes additional scopes requested previously):
+
+`gh auth refresh`
+
+- Expand the permission scopes:
+
+`gh auth refresh --scopes {{write:org,read:public_key}}`

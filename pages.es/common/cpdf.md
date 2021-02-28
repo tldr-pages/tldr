@@ -15,7 +15,7 @@
 
 `cpdf -list-bookmarks {{ruta/del/documento.pdf}}`
 
-- Divide un documento en trozos de diez páginas, escribiendo fragmento001.pdf, fragmento002.pdf, etc:
+- Divide un documento en trozos de diez páginas, escribiendo `fragmento001.pdf`, `fragmento002.pdf`, etc:
 
 `cpdf -split {{ruta/del/documento.pdf}} -o {{ruta/del/fragmento%%%.pdf}} -chunk 10`
 

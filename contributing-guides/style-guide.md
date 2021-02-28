@@ -67,3 +67,10 @@ Keep the following guidelines in mind when choosing tokens:
 
 In general, tokens should make it as intuitive as possible
 to figure out how to use the command and fill it in with values.
+
+More technical wording on description lines should use the `backtick` syntax.
+Use backticks on the following:
+
+1. Paths, ex. `package.json`, `/etc/package.json`.
+2. Extensions, ex. `.dll`.
+3. Commands, ex. `ls`.

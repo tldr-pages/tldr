@@ -27,10 +27,10 @@
 
 `yq write --inplace {{path/to/file.yaml}} '{{key}}' '{{value}}'`
 
-- Merge two files and print to `stdout` (v4+):
+- Merge two files and print to stdout (v4+):
 
 `yq eval-all 'select(filename == "{{path/to/file1.yaml}}") * select(filename == "{{path/to/file2.yaml}}")' {{path/to/file1.yaml}} {{path/to/file2.yaml}}`
 
-- Merge two files and print to `stdout` (v3):
+- Merge two files and print to stdout (v3):
 
 `yq merge {{path/to/file1.yaml}} {{path/to/file2.yaml}} --colors`

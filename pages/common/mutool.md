@@ -22,3 +22,7 @@
 - Extract all images, fonts and resources embedded in a PDF out into the current directory:
 
 `mutool extract {{input.pdf}}`
+
+- Print the outline (table of contents) of a PDF:
+
+`mutool show {{input.pdf}} outline`

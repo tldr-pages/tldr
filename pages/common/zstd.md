@@ -3,7 +3,7 @@
 > Compress or decompress files with Zstandard compression.
 > More information: <https://github.com/facebook/zstd>.
 
-- Compress a file into a new file with the .zst suffix:
+- Compress a file into a new file with the `.zst` suffix:
 
 `zstd {{file}}`
 
@@ -11,7 +11,7 @@
 
 `zstd -d {{file}}.zst`
 
-- Decompress to `stdout`:
+- Decompress to stdout:
 
 `zstd -dc {{file}}.zst`
 

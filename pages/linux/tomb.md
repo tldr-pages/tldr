@@ -14,7 +14,7 @@
 
 `tomb lock {{encrypted_directory.tomb}} -k {{encrypted_directory.tomb.key}}`
 
-- Mount a tomb (by default in /media) using its key, making it usable as a regular filesystem directory:
+- Mount a tomb (by default in `/media`) using its key, making it usable as a regular filesystem directory:
 
 `tomb open {{encrypted_directory.tomb}} -k {{encrypted_directory.tomb.key}}`
 

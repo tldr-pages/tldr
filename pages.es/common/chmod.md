@@ -2,7 +2,7 @@
 
 > Cambiar los permisos de acceso de un archivo o directorio.
 
-- Otorga al [u]suario que es propietario del archivo a ejecutarlo (x).
+- Otorga al [u]suario que es propietario del archivo permiso para [x] ejecutarlo:
 
 `chmod u+x {{archivo}}`
 

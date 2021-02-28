@@ -19,7 +19,7 @@
 
 `monodevelop --new-window`
 
-- Disable redirection of `stdout` and stderr to a log file:
+- Disable redirection of stdout and stderr to a log file:
 
 `monodevelop --no-redirect`
 

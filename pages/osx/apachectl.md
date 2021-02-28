@@ -2,7 +2,7 @@
 
 > Apache HTTP Server control interface for macOS.
 
-- Start the org.apache.httpd launchd job:
+- Start the `org.apache.httpd` launchd job:
 
 `apachectl start`
 

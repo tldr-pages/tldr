@@ -11,7 +11,7 @@
 
 `cradle package search {{Paket}}`
 
-- Installieren eines Paketes von Packagist.
+- Installieren eines Paketes von Packagist:
 
 `cradle package install {{Paket}}`
 

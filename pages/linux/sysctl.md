@@ -18,6 +18,6 @@
 
 `sysctl fs.file-max`
 
-- Apply changes from /etc/sysctl.conf:
+- Apply changes from `/etc/sysctl.conf`:
 
 `sysctl -p`

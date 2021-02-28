@@ -9,7 +9,7 @@
 
 - Start/Stop/Restart/Reload a service:
 
-`systemctl start/stop/restart/reload {{unit}}`
+`systemctl {{start|stop|restart|reload}} {{unit}}`
 
 - Show the status of a unit:
 
@@ -17,11 +17,11 @@
 
 - Enable/Disable a unit to be started on bootup:
 
-`systemctl enable/disable {{unit}}`
+`systemctl {{enable|disable}} {{unit}}`
 
-- Mask/Unmask a unit, prevent it to be started on bootup:
+- Mask/Unmask a unit to prevent enablement and manual activation:
 
-`systemctl mask/unmask {{unit}}`
+`systemctl {{mask|unmask}} {{unit}}`
 
 - Reload systemd, scanning for new or changed units:
 

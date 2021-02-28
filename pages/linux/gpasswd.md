@@ -1,6 +1,6 @@
 # gpasswd
 
-> Administer "/etc/group" and "/etc/gshadow".
+> Administer `/etc/group` and `/etc/gshadow`.
 
 - Define group administrators:
 

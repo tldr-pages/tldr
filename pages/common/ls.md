@@ -14,7 +14,7 @@
 
 `ls -F`
 
-- Long format list (permissions, ownership, size and modification date) of all files:
+- Long format list (permissions, ownership, size, and modification date) of all files:
 
 `ls -la`
 

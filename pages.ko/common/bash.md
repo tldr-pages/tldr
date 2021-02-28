@@ -23,7 +23,7 @@
 
 `bash -e {{file.sh}}`
 
-- `stdin`에서 명령 실행:
+- stdin에서 명령 실행:
 
 `bash -s`
 

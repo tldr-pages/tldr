@@ -15,6 +15,6 @@
 
 `libreoffice --pt {{printer_name}} {{path/to/file1}} {{path/to/file2}}`
 
-- Convert all .doc files in current directory to pdf:
+- Convert all `.doc` files in current directory to pdf:
 
 `libreoffice --convert-to {{pdf}} {{*.doc}}`

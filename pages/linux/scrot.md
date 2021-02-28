@@ -6,7 +6,7 @@
 
 `scrot`
 
-- Capture a screenshot and save it as "capture.png":
+- Capture a screenshot and save it as `capture.png`:
 
 `scrot {{capture.png}}`
 

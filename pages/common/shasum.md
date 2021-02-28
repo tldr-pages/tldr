@@ -26,6 +26,6 @@
 
 `shasum --check --quiet {{list_file}}`
 
-- Calculate the SHA1 checksum from `stdin`:
+- Calculate the SHA1 checksum from stdin:
 
 `{{somecommand}} | shasum`
