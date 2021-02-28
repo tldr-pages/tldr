@@ -1,32 +1,32 @@
 # docker network
 
-> Create and manage docker networks.
-> More information: <https://docs.docker.com/engine/reference/commandline/network/>.
+> Docker ağları oluştur ve yönet.
+> Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/network/>.
 
-- List all available and configured networks on docker daemon:
+- docker daemon'daki tüm müsait ve düzenlenmiş ağları sırala:
 
 `docker network ls`
 
-- Create a user defined network:
+- Kullanıcı tarafından belirtilmiş bir ağ oluştur
 
-`docker network create --driver {{driver_name}} {{network_name}}`
+`docker network create --driver {{driver_name}} {{ağ_ismi}}`
 
-- Display detailed information of a space-separated list of networks:
+- Boşluk ile ayrılmış bir ağ listesinin detaylı bilgisini görüntüle:
 
-`docker network inspect {{network_name}}`
+`docker network inspect {{ağ_ismi}}`
 
-- Connect a container to a network using a name or ID:
+- Bir konteyneri isim veya ID kullanarak bir ağa bağla:
 
-`docker network connect {{network_name}} {{container_name|ID}}`
+`docker network connect {{ağ_ismi}} {{konteyner_ismi|ID}}`
 
-- Disconnect a container from a network:
+- Bir konteyneri bir ağdan çıkar:
 
-`docker network disconnect {{network_name}} {{container_name|ID}}`
+`docker network disconnect {{ağ_ismi}} {{konteyner_ismi|ID}}`
 
-- Remove all unused (not referenced by any container) networks:
+- Tüm kullanılmayan (hiçbir konteyner tarafından belirtilmeyen) ağları sil:
 
 `docker network prune`
 
-- Remove a space-separated list of unused networks:
+- Kullanılmayan ağların boşluk ile ayrılmış bir listesini sil:
 
-`docker network rm {{network_name}}`
+`docker network rm {{ağ_ismi}}`
