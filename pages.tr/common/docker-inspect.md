@@ -1,32 +1,32 @@
 # docker inspect
 
-> Return low-level information on Docker objects.
-> More information: <https://docs.docker.com/engine/reference/commandline/inspect/>.
+> Docker objelerinde bulunan düşük seviye bilgiyi gösterir.
+> Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/inspect/>.
 
-- Show help:
+- Yardım içeriğini göster:
 
 `docker inspect`
 
-- Display information about a container, image, or volume using a name or ID:
+- Bir konteyner, imge veya hacim ile ilgili bilgiyi ismini veya ID'sini girerek görüntüle:
 
-`docker inspect {{container|image|ID}}`
+`docker inspect {{konteyner|imge|ID}}`
 
-- Display a container's IP address:
+- Bir konteynerin IP adresini görüntüle:
 
-`docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' {{container}}`
+`docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' {{konteyner}}`
 
-- Display the path to the container's log file:
+- Konteynerin log dosyasının yolunu görüntüle:
 
-`docker inspect --format='{{.LogPath}}' {{container}}`
+`docker inspect --format='{{.LogPath}}' {{konteyner}}`
 
-- Display the image name of the container:
+- Konteynerin imge ismini görüntüle:
 
-`docker inspect --format='{{.Config.Image}}' {{container}}`
+`docker inspect --format='{{.Config.Image}}' {{konteyner}}`
 
-- Display the configuration information as JSON:
+- Konfigürasyon bilgisini JSON olarak görüntüle:
 
-`docker inspect --format='{{json .Config}}' {{container}}`
+`docker inspect --format='{{json .Config}}' {{konteyner}}`
 
-- Display all port bindings:
+- Tüm port limanlayıcıları görüntüle:
 
-`docker inspect --format='{{range $p, $conf := .NetworkSettings.Ports}} {{$p}} -> {{(index $conf 0).HostPort}} {{end}}' {{container}}`
+`docker inspect --format='{{range $p, $conf := .NetworkSettings.Ports}} {{$p}} -> {{(index $conf 0).HostPort}} {{end}}' {{konteyner}}`
