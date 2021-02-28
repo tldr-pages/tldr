@@ -1,7 +1,7 @@
 # pre-commit
 
 > Manage and maintain multi-language pre-commit hooks.
-> More information: <https://pre-commit.com/>.
+> More information: <https://pre-commit.com>.
 
 - Install pre-commit into your Git hooks:
 
