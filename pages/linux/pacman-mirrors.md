@@ -4,7 +4,7 @@
 > Every run of pacman-mirrors requires you to synchronize your database and update your system using `sudo pacman -Syyu`.
 > More information: <https://wiki.manjaro.org/index.php?title=Pacman-mirrors>.
 
-- Generate a mirrorlist, using the default settings:
+- Generate a mirrorlist using the default settings:
 
 `sudo pacman-mirrors --fasttrack`
 
