@@ -1,24 +1,24 @@
 # docker logs
 
-> Print container logs.
-> More information: <https://docs.docker.com/engine/reference/commandline/logs>.
+> Konteyner kaydını yazdırır.
+> Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/logs>.
 
-- Print logs from a container:
+- Bir konteyner içindeki kayıtları yazdır:
 
-`docker logs {{container_name}}`
+`docker logs {{konteyner_ismi}}`
 
-- Print logs and follow them:
+- Kayıtları yazdır ve izle:
 
-`docker logs -f {{container_name}}`
+`docker logs -f {{konteyner_ismi}}`
 
-- Print last 5 lines:
+- Son 5 kaydı yazdır:
 
-`docker logs {{container_name}} --tail {{5}}`
+`docker logs {{konteyner_ismi}} --tail {{5}}`
 
-- Print logs and append them with timestamps:
+- Kayıtları yazdır ve zaman damgaları ile iliştir:
 
-`docker logs -t {{container_name}}`
+`docker logs -t {{konteyner_ismi}}`
 
-- Print logs from a certain point in time of container execution (i.e. 23m, 10s, 2013-01-02T13:23:37):
+- Belli bir konteyner çalışma zamanındaki (i.e. 23m, 10s, 2013-01-02T13:23:37) kayıtları yazdır:
 
-`docker logs {{container_name}} --until {{time}}`
+`docker logs {{konteyner_ismi}} --until {{zaman}}`
