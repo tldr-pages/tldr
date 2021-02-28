@@ -1,20 +1,20 @@
 # dirs
 
-> Displays or manipulates the directory stack.
-> The directory stack is a list of recently visited directories that can be manipulated with the `pushd` and `popd` commands.
+> Dizin yığını görüntüler veya üzerinde oynama yapar.
+> Dizin yığını, `pushd` ve `popd` komutlarıyla üzerinde oynama yapılabilen, son ziyaret edilen dizinleri gösteren bir listedir.
 
-- Display the directory stack with a space between each entry:
+- Dizin yığınını her madde arasında boşluk olacak şekilde görüntüle:
 
 `dirs`
 
-- Display the directory stack with one entry per line:
+- Dizin yığınını her satır başı tek madde olacak şekilde görüntüle:
 
 `dirs -p`
 
-- Display only the nth entry in the directory stack, starting at 0:
+- Dizin yığınında 0'dan başlamak üzere yalnızca nth girişini göster:
 
 `dirs +{{N}}`
 
-- Clear the directory stack:
+- Dizin yığınını temizle:
 
 `dirs -c`
