@@ -7,7 +7,7 @@
 
 `pre-commit install`
 
-- Run pre-commit hooks on staged files:
+- Run pre-commit hooks on all staged files:
 
 `pre-commit run`
 
