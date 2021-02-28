@@ -1,20 +1,20 @@
 # docker rmi
 
-> Remove one or more Docker images.
-> More information: <https://docs.docker.com/engine/reference/commandline/rmi/>.
+> Bir veya daha fazla Docker imgesini sil.
+> Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/rmi/>.
 
-- Show help:
+- Yardım göster:
 
 `docker rmi`
 
-- Remove one or more images given their names:
+- Bir veya daha fazla imgeyi isimlerini belirterek sil:
 
-`docker rmi {{image1 image2 ...}}`
+`docker rmi {{imge1 imge2 ...}}`
 
-- Force remove an image:
+- Bir imgeyi zorla sil:
 
-`docker rmi --force {{image}}`
+`docker rmi --force {{imge}}`
 
-- Remove an image without deleting untagged parents:
+- Bir imgeyi etiketlenmemiş ana yollarını silmeden sil:
 
-`docker rmi --no-prune {{image}}`
+`docker rmi --no-prune {{imge}}`
