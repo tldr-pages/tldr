@@ -1,24 +1,24 @@
 # docker secret
 
-> Manage Docker swarm secrets.
-> More information: <https://docs.docker.com/engine/reference/commandline/secret/>.
+> Docker swarm sırlarını yönet.
+> Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/secret/>.
 
-- Create a new secret from stdin:
+- stdin'den yeni bir sır yarat:
 
-`{{command}} | docker secret create {{secret_name}} -`
+`{{komut}} | docker secret create {{sır_ismi}} -`
 
-- Create a new secret from a file:
+- Bir dosyadan yeni sır oluşturun:
 
-`docker secret create {{secret_name}} {{path/to/file}}`
+`docker secret create {{sır_ismi}} {{örnek/dosya}}`
 
-- List all secrets:
+- Tüm sırları sırala:
 
 `docker secret ls`
 
-- Display detailed information on one or multiple secrets in a human friendly format:
+- Bir veya daha fazla sırra dair detaylı bilgiyi insan dostu bir formatta göster:
 
-`docker secret inspect --pretty {{secret_name1 secret_name2 ...}}`
+`docker secret inspect --pretty {{sır_ismi1 sır_ismi2 ...}}`
 
-- Remove one or more secrets:
+- Bir veya daha fazla sırrı sil:
 
-`docker secret rm {{secret_name1 secret_name2 ...}}`
+`docker secret rm {{sır_ismi1 sır_ismi2 ...}}`
