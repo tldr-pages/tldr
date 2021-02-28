@@ -2,7 +2,7 @@
 
 > Creates a logical volume in an existing volume group. A volume group is a collection of logical and physical volumes.
 > One of the Logical Volume Manager (LVM) tools.
-> More information: <https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/logical_volume_manager_administration>.
+> More information: <https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/logical_volume_manager_administration/index>.
 
 - Create a logical volume of 10 gigabytes in the volume group vg1:
 
