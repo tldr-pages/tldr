@@ -1,32 +1,32 @@
 # docker swarm
 
-> A container orchestration tool.
-> More information: <https://docs.docker.com/engine/swarm/>.
+> Bir konteyner orkestrasyon aracı.
+> Daha fazla bilgi için: <https://docs.docker.com/engine/swarm/>.
 
-- Initialize a swarm cluster:
+- Bir bataklık dizisi oluştur:
 
 `docker swarm init`
 
-- Display the token to join a manager or a worker:
+- Bir yönetici veya işçiye takılmak için token göster:
 
-`docker swarm join-token {{worker|manager}}`
+`docker swarm join-token {{işçi|yönetici}}`
 
-- Join a new node to the cluster:
+- Diziye yeni bir düğüm ekle:
 
 `docker swarm join --token {{token}} {{manager_node_url:2377}}`
 
-- Remove a worker from the swarm (run inside the worker node):
+- Bir işçiyi bataklıktan sil (işçi düğümünün içinde çalıştır):
 
 `docker swarm leave`
 
-- Display the current CA certificate in PEM format:
+- Mevcut CA sertifikasını PEM formatında görüntüle:
 
 `docker swarm ca`
 
-- Rotate the current CA certificate and display the new certificate:
+- Mevcut CA sertifikasını döndür ve yeni sertifikayı görüntüle:
 
 `docker swarm ca --rotate`
 
-- Change the valid period for node certificates:
+- Düğüm sertifikaları için geçerli periyodu değiştir:
 
-`docker swarm update --cert-expiry {{hours}}h{{minutes}}m{{seconds}}s`
+`docker swarm update --cert-expiry {{saat}}h{{dakika}}m{{saniye}}s`
