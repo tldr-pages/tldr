@@ -13,7 +13,7 @@
 
 - Run pre-commit hooks on all files, staged or unstaged:
 
-`pre-commit run -a`
+`pre-commit run --all-files`
 
 - Clean out cached pre-commit files:
 
