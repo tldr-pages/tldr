@@ -1,28 +1,28 @@
 # dirsearch
 
-> Web path scanner.
-> More information: <https://github.com/maurosoria/dirsearch>.
+> Ağ yolu tarayıcı.
+> Daha fazla bilgi için: <https://github.com/maurosoria/dirsearch>.
 
-- Scan a web server for common paths with common extensions:
+- Bir ağ sunucusunu yaygın eklentiler içeren yaygın yollar için tarayın:
 
 `dirsearch --url {{url}} --extensions-list`
 
-- Scan a list of web servers for common paths with the `.php` extension:
+- Ağ sunucularını içeren bir listeyi `.php` eklentili yaygın yollar için tarayın:
 
-`dirsearch --url-list {{path/to/url-list.txt}} --extensions {{php}}`
+`dirsearch --url-list {{örnek/url-listesi.txt}} --extensions {{php}}`
 
-- Scan a web server for user-defined paths with common extensions:
+- Bir ağ sunucusunu yaygın eklentiler içeren belirtilen yollar için tarayın:
 
-`dirsearch --url {{url}} --extensions-list --wordlist {{path/to/url-paths.txt}}`
+`dirsearch --url {{url}} --extensions-list --wordlist {{path/to/url-yol-listesi.txt}}`
 
-- Scan a web server using a cookie:
+- Bir ağ sunucusunu çerez kullanarak tarayın:
 
 `dirsearch --url {{url}} --extensions {{php}} --cookie {{cookie}}`
 
-- Scan a web server using the `HEAD` HTTP method:
+- Bir ağ sunucusunu `HEAD` HTTP metodunu kullanarak tarayın:
 
 `dirsearch --url {{url}} --extensions {{php}} --http-method {{HEAD}}`
 
-- Scan a web server, saving the results to a `.json` file:
+- Bir ağ sunucusunu tarayın ve sonuçları bir `.json` dosyasına kaydedin:
 
-`dirsearch --url {{url}} --extensions {{php}} --json-report {{path/to/report.json}}`
+`dirsearch --url {{url}} --extensions {{php}} --json-report {{örnek/rapor_dosyası.json}}`
