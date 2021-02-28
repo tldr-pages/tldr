@@ -1,28 +1,28 @@
 # docker run
 
-> Run a command in a new Docker container.
-> More information: <https://docs.docker.com/engine/reference/commandline/run/>.
+> Yeni bir Docker konteynerinde bir komut çalıştır.
+> Daha fazla bilgi: <https://docs.docker.com/engine/reference/commandline/run/>.
 
-- Run command in a new container from a tagged image:
+- Yeni bir konteynerde, etiketlenmiş bir imgeden komut çalıştır.:
 
-`docker run {{image:tag}} {{command}}`
+`docker run {{imge:etiket}} {{komut}}`
 
-- Run command in a new container in background and display its ID:
+- Yeni bir konteynerde arkaplanda çalışacak şekilde komut çalıştır ve ID'sini göster:
 
-`docker run -d {{image}} {{command}}`
+`docker run -d {{imge}} {{komut}}`
 
-- Run command in a one-off container in interactive mode and pseudo-TTY:
+- İnteraktif mod ve pseudo-TTY'deki bir açık-kapalı konteynerde komut çalıştır:
 
-`docker run --rm -it {{image}} {{command}}`
+`docker run --rm -it {{imge}} {{komut}}`
 
-- Run command in a new container with passed environment variables:
+- Yeni bir konteynerde geçebilmiş çevresel değişkenler ile komut çalıştır:
 
-`docker run -e '{{variable}}={{value}}' -e {{variable}} {{image}} {{command}}`
+`docker run -e '{{değişken}}={{değer}}' -e {{değişken}} {{imge}} {{komut}}`
 
-- Run command in a new container with bind mounted volumes:
+- Yeni bir konteynerde bağlama takılı hacimlerle komut çalıştır:
 
-`docker run -v {{path/to/host_path}}:{{path/to/container_path}} {{image}} {{command}}`
+`docker run -v {{örnek/host}}:{{örnek/konteyner}} {{imge}} {{komut}}`
 
-- Run command in a new container with published ports:
+- Yayınlanmış portları içeren yeni bir konteynerde komut çalıştır:
 
-`docker run -p {{host_port}}:{{container_port}} {{image}} {{command}}`
+`docker run -p {{host_portu}}:{{konteyner_portu}} {{imge}} {{komut}}`
