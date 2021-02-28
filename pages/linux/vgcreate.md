@@ -1,6 +1,8 @@
 # vgcreate
 
 > Create volume groups combining multiple mass-storage devices.
+> One of the Logical Volume Manager (LVM) tools.
+> More information: <https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/logical_volume_manager_administration>.
 
 - Create a new volume group called vg1 using the `/dev/sda1` device:
 
