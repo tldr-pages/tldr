@@ -11,7 +11,7 @@
 
 `pre-commit run`
 
-- Run pre-commit hooks on all files:
+- Run pre-commit hooks on all files, staged or unstaged:
 
 `pre-commit run -a`
 
