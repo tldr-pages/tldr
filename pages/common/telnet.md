@@ -24,4 +24,4 @@
 
 - Telnet to Star Wars animation:
 
-`telnet towel.blinkenlights.nl`
+`telnet {{towel.blinkenlights.nl}}`
