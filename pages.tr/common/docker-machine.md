@@ -9,7 +9,7 @@
 
 - Belirli bir isim ile docker makinesi oluştur:
 
-`docker-machine create {{isim}}
+`docker-machine create {{isim}}`
 
 - Bir makinenin durumunu öğren:
 
