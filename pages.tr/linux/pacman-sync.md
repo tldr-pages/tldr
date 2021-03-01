@@ -1,36 +1,36 @@
 # pacman --sync
 
-> Arch Linux package manager utility.
-> More information: <https://man.archlinux.org/man/pacman.8>.
+> Arch Linux paket yönetim aracı.
+> Daha fazla bilgi için: <https://man.archlinux.org/man/pacman.8>.
 
-- Install a new package:
+- Yeni bir paket indir::
 
-`sudo pacman --sync {{package_name}}`
+`sudo pacman --sync {{paket_ismi}}`
 
-- Synchronize and update all packages (add `--downloadonly` to download the packages and not update them):
+- Tüm paketleri senkronize et ve güncelle (bahsi geçen paketleri güncellemeden indirmek için `--downloadonly` eki gereklidir)
 
 `sudo pacman --sync --refresh --sysupgrade`
 
-- Update all packages and install a new one without prompting:
+- Tüm paketleri güncelle ve telkin olmaksızın yeni bir tane indir:
 
-`sudo pacman --sync --refresh --sysupgrade --noconfirm {{package_name}}`
+`sudo pacman --sync --refresh --sysupgrade --noconfirm {{paket_ismi}}`
 
-- Search the package database for a regular expression or keyword:
+- Paket veritabanını girilen ifade ile arat:
 
-`pacman --sync --search "{{search_pattern}}"`
+`pacman --sync --search "{{arama_şablonu}}"`
 
-- Display information about a package:
+- Bir paket hakkında bilgi görüntüle:
 
-`pacman --sync --info {{package_name}}`
+`pacman --sync --info {{paket_ismi}}`
 
-- Overwrite conflicting files during a package update:
+- Bir paket güncellemesi sırasında çakışan dosyaların üstüne yaz:
 
-`sudo pacman --sync --refresh --sysupgrade --overwrite {{path/to/file}}`
+`sudo pacman --sync --refresh --sysupgrade --overwrite {{örnek_dosya}}`
 
-- Synchronize and update all packages, but ignore a specific package (can be used more than once):
+- Tüm paketleri senkronize et ve güncelle, ancak belli bir paketi yoksay:
 
-`sudo pacman --sync --refresh --sysupgrade --ignore {{package_name}}`
+`sudo pacman --sync --refresh --sysupgrade --ignore {{paket_ismi}}`
 
-- Remove not installed packages and unused repositories from the cache (use two `--clean` flags to clean all packages):
+- Kullanılmayan paket ve kullanılmamış depoları çerezlerden sil (tüm paketlerin çerezlerini temizlemek için `--clean` eki iki kez kullanılmalıdır):
 
 `sudo pacman --sync --clean`
