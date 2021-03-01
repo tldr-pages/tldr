@@ -1,25 +1,25 @@
 # pacman-mirrors
 
-> Generate a pacman mirrorlist for Manjaro Linux.
-> Every run of pacman-mirrors requires you to synchronize your database and update your system using `sudo pacman -Syyu`.
-> More information: <https://wiki.manjaro.org/index.php?title=Pacman-mirrors>.
+> Manjaro Linux için pacman aynalistesi oluşturucu.
+> pacman-mirrors'ın çalıştırıldığı her vakit, E`sudo pacman -Syyu` komutu ile veritabanının senkronize edilmesi ve sistemin güncellenmesi gerekir.
+> Daha fazla bilgi için: <https://wiki.manjaro.org/index.php?title=Pacman-mirrors>.
 
-- Generate a mirrorlist using the default settings:
+- Varsayılan ayarlar ile bir aynalistesi oluştur:
 
 `sudo pacman-mirrors --fasttrack`
 
-- Get the status of the current mirrors:
+- Mevcut aynaların durumunu göster:
 
 `pacman-mirrors --status`
 
-- Display the current branch:
+- Mevcut dalı göster:
 
 `pacman-mirrors --get-branch`
 
-- Switch to a different branch:
+- Farklı bir dala geç:
 
-`sudo pacman-mirrors --api --set-branch {{stable|unstable|testing}}`
+`sudo pacman-mirrors --api --set-branch {{stabil|instabil|test_ediliyor}}`
 
-- Generate a mirrorlist, only using mirrors in your country:
+- Sadece IP adresinin bulunduğu ülkenin aynalarını kullanarak bir aynalistesi oluştur:
 
 `sudo pacman-mirrors --geoip`
