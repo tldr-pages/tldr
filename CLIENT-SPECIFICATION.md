@@ -71,7 +71,7 @@ becomes this:
 git-checkout
 ```
 
-Page names MAY contain mix capitalization - such page names MUST be transparently lowercased. For example, the page name:
+Page names MAY contain mixed capitalization - such page names MUST be transparently lowercased. For example, the page name:
 
 ```
 eyeD3
