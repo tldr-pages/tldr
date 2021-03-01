@@ -7,7 +7,7 @@
 
 `docker network ls`
 
-- Kullanıcı tarafından belirtilmiş bir ağ oluştur
+- Kullanıcı tarafından belirtilmiş bir ağ oluştur:
 
 `docker network create --driver {{driver_name}} {{ağ_ismi}}`
 
