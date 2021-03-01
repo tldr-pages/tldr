@@ -19,7 +19,7 @@
 
 `sudo lvm pvdisplay`
 
-- Create a volume group called vg1 from the physical volume on /dev/sda1:
+- Create a volume group called vg1 from the physical volume on `/dev/sda1`:
 
 `sudo lvm vgcreate {{vg1}} {{/dev/sda1}}`
 
