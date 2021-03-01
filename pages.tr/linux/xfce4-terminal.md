@@ -1,27 +1,27 @@
 # xfce4-terminal
 
-> The XFCE4 terminal emulator.
+> XFCE4 terminal öykünücüsü.
 
-- Open a new terminal window:
+- Yeni bir terminal penceresi aç:
 
 `xfce4-terminal`
 
-- Set the initial title:
+- Başlangıç başlığı belirle:
 
-`xfce4-terminal --initial-title "{{initial_title}}"`
+`xfce4-terminal --initial-title "{{başlangıç_başlığı}}"`
 
-- Open a new tab in the current terminal window:
+- Mevcut terminal penceresinde yeni bir sekme aç:
 
 `xfce4-terminal --tab`
 
-- Execute a command in a new terminal window:
+- Yeni bir terminal penceresini belirlenen bir komutu çalıştırarak aç:
 
-`xfce4-terminal --command "{{command_with_args}}"`
+`xfce4-terminal --command "{{argümanlı_komut}}"`
 
-- Keep the terminal around after the executed command finishes executing:
+- Çalıştırılan komutun çalışmayı kesme durumunda dahi terminali kapama:
 
-`xfce4-terminal --command "{{command_with_args}}" --hold`
+`xfce4-terminal --command "{{argümanlı_komut}}" --hold`
 
-- Open multiple new tabs, executing a command in each:
+- Her birinde farklı komut çalışacak birçok yeni sekme aç:
 
-`xfce4-terminal --tab --command "{{command_a}}" --tab --command "{{command_b}}"`
+`xfce4-terminal --tab --command "{{komut_a}}" --tab --command "{{komut_b}}"`
