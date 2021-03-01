@@ -1,6 +1,6 @@
 # pulseaudio
 
-> Ses sistem arkaplan uygulaması ve yöneticisi
+> Ses sistem arkaplan uygulaması ve yöneticisi.
 
 - Pulseaudio'nun çalışıp çalışmadığını kontrol et (sıfır olmayan çıktı, çalışmadığı anlamına gelir):
 
