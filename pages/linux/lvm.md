@@ -1,7 +1,7 @@
 # lvm
 
 > Manage physical volumes, volume groups, and logical volumes using the Logical Volume Manager (LVM) interactivce shell.
-> More information: <https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_and_managing_logical_volumes/>.
+> More information: <https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_and_managing_logical_volumes>.
 
 - Start the Logical Volume Manager interactive shell:
 
