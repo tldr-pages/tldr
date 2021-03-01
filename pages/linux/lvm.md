@@ -11,7 +11,7 @@
 
 `sudo lvm help`
 
-- Initialize /dev/sda1 to be used as a physical volume:
+- Initialize `/dev/sda1` to be used as a physical volume:
 
 `sudo lvm pvcreate {{/dev/sda1}}`
 
