@@ -1,32 +1,32 @@
 # pacman --remove
 
-> Arch Linux package manager utility.
-> More information: <https://man.archlinux.org/man/pacman.8>.
+> Arch Linux paket yönetim aracı.
+> Daha fazla bilgi için: <https://man.archlinux.org/man/pacman.8>.
 
-- Display help for this subcommand:
+- Bu alt komut için yardım göster:
 
 `pacman --remove --help`
 
-- Remove a package and its dependencies:
+- Bir paket ve bağlılıklarını sil:
 
-`sudo pacman --remove --recursive {{package_name}}`
+`sudo pacman --remove --recursive {{paket_ismi}}`
 
-- Remove a package and both its dependencies and configuration files:
+- Bir paketi ve onun hem bağlılıklarını, hem de konfigürasyon dosyalarını sil:
 
-`sudo pacman --remove --recursive --nosave {{package_name}}`
+`sudo pacman --remove --recursive --nosave {{paket_ismi}}`
 
-- Remove a package without prompting:
+- Bir paketi telkin olmaksızın sil:
 
-`sudo pacman --remove --noconfirm {{package_name}}`
+`sudo pacman --remove --noconfirm {{paket_ismi}}`
 
-- Remove orphan packages (installed as dependencies but not required by any package):
+- Yetim (başka bir pakete bağlılık olarak indirilmiş ancak herhangi bir paket tarafından gerektirilmeyen) paketleri sil:
 
 `sudo pacman --remove --recursive --nosave $(pacman --query --unrequired --deps --quiet)`
 
-- Remove a package and all packages that depend on it:
+- Bir paketi ve ona bağlı olan tüm öbür paketleri sil:
 
-`sudo pacman --remove --cascade {{package_name}}`
+`sudo pacman --remove --cascade {{paket_ismi}}`
 
-- List packages that would be affected (does not remove any packages):
+- (Bir paketin silinme durumunda) Etkilenecek paketleri (silmeden) listele:
 
-`pacman --remove --print {{package_name}}`
+`pacman --remove --print {{paket_ismi}}`
