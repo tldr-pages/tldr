@@ -23,8 +23,7 @@
 
 `pacman --query --list {{paket_ismi}}`
 
-- Yetim (başka bir pakete bağlılık olarak indirilmiş ancak herhangi bir paket tarafından
-  gerektirilmeyen) paketleri sırala:
+- Yetim (başka bir pakete bağlılık olarak indirilmiş ancak herhangi bir paket tarafından gerektirilmeyen) paketleri sırala:
 
 `pacman --query --unrequired --deps --quiet`
 
