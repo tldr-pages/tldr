@@ -1,36 +1,37 @@
 # pacman --query
 
-> Arch Linux package manager utility.
-> More information: <https://man.archlinux.org/man/pacman.8>.
+> Arch Linux paket yönetim aracı.
+> Daha fazla bilgi için: <https://man.archlinux.org/man/pacman.8>.
 
-- List installed packages and versions:
+- Yüklenmiş paket ve sürümleri sırala:
 
 `pacman --query`
 
-- List only packages and versions that were explicitly installed:
+- Sadece özellikle indirilmiş paket ve sürümleri sırala:
 
 `pacman --query --explicit`
 
-- Find which package owns a file:
+- Hangi paketin belirtilen dosyaya sahip olduğunu bul:
 
-`pacman --query --owns {{filename}}`
+`pacman --query --owns {{dosya_ismi}}`
 
-- Display information about an installed package:
+- İndirilmiş bir pakete dair bilgiyi görüntüle:
 
-`pacman --query --info {{package_name}}`
+`pacman --query --info {{paket_ismi}}`
 
-- List files owned by a package:
+- Bir paketin içerdiği dosyaları sırala:
 
-`pacman --query --list {{package_name}}`
+`pacman --query --list {{paket_ismi}}`
 
-- List orphan packages (installed as dependencies but not required by any package):
+- Yetim (başka bir pakete bağlılık olarak indirilmiş ancak herhangi bir paket tarafından
+  gerektirilmeyen) paketleri sırala:
 
 `pacman --query --unrequired --deps --quiet`
 
-- List installed packages not found in the repositories:
+- Mevcut depolarda bulunmayan, indirilmiş paketleri sırala:
 
 `pacman --query --foreign`
 
-- List outdated packages:
+- Miadı dolmuş paketleri sırala:
 
 `pacman --query --upgrades`

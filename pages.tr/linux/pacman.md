@@ -7,7 +7,7 @@
 
 `pacman -Syu`
 
-- Yeni bir paket yükle:
+- Yeni bir paket indir:
 
 `pacman -S {{paket_ismi}}`
 
@@ -19,7 +19,7 @@
 
 `pacman -Ss "{{arama_şablonu}}"`
 
-- Yüklenmiş paket ve sürümleri sırala:
+- İndirilmiş paket ve sürümleri sırala:
 
 `pacman -Q`
 
@@ -27,7 +27,7 @@
 
 `pacman -Qe`
 
-- Hangi dosyanın belirtilmiş dosyaya sahip olduğunu bul:
+- Hangi paketin belirtilen dosyaya sahip olduğunu bul:
 
 `pacman -Qo {{dosya_ismi}}`
 
