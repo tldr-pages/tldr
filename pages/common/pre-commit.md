@@ -1,6 +1,6 @@
 # pre-commit
 
-> Manage and maintain multi-language pre-commit hooks.
+> Create Git hooks that get run before a commit.
 > More information: <https://pre-commit.com>.
 
 - Install pre-commit into your Git hooks:
