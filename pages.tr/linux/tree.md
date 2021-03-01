@@ -28,7 +28,6 @@
 `tree -P '{{*.txt}}' --prune`
 
 - Ağaç hiyerarşisi içindeki dizinleri bir wildcard (glob) kalıbı kullanarak ve istenen dizine atalığı olmayan dizinleri yoksayarak göster:
-rint directories within the tree hierarchy, using the wildcard (glob) pattern, and pruning out directories that aren't ancestors of the wanted one:
 
 `tree -P {{dizin_ismi}} --matchdirs --prune`
 
