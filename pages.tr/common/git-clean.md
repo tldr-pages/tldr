@@ -1,28 +1,28 @@
 # git clean
 
-> Remove untracked files from the working tree.
-> More information: <https://git-scm.com/docs/git-clean>.
+> Takip edilmeyen dosyaları çalışma ağacından sil.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-clean>.
 
-- Delete files that are not tracked by Git:
+- Git tarafından takip edilmeyen dosyaları sil:
 
 `git clean`
 
-- Interactively delete files that are not tracked by Git:
+- Git tarafından takip edilmeyen dosyaları etkileşimli bir nizamda sil:
 
 `git clean -i`
 
-- Show what files would be deleted without actually deleting them:
+- Hangi dosyaların silinmeye aday olduğunu onları silmeden göster:
 
 `git clean --dry-run`
 
-- Forcefully delete files that are not tracked by Git:
+- Git tarafından takip edilmeyen dosyaları zorla zil:
 
 `git clean -f`
 
-- Forcefully delete directories that are not tracked by Git:
+- Git tarafından takip edilmeyen dizinleri zorla zil:
 
 `git clean -fd`
 
-- Delete untracked files, including ignored files in `.gitignore` and `.git/info/exclude`:
+- `.gitignore` ve `.git/info/exclude`'deki yoksayılan dosyalar dahiş olmak üzere takip edilmeyen dosyaları sil:
 
 `git clean -x`
