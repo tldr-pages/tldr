@@ -1,16 +1,16 @@
 # git cat-file
 
-> Provide content or type and size information for Git repository objects.
-> More information: <https://git-scm.com/docs/git-cat-file>.
+> Git depo cisimlerine dair içerik, tür ve boyut bilgisini sağla.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-cat-file>.
 
-- Get the [s]ize of the HEAD commit in bytes:
+- HEAD commit'inin byte bazında boyutunu öğren:
 
 `git cat-file -s HEAD`
 
-- Get the [t]ype (blob, tree, commit, tag) of a given Git object:
+- Belirtilen Git cisminin türünü (blob, ağaç, commit, etiket) öğren:
 
 `git cat-file -t {{8c442dc3}}`
 
-- Pretty-[p]rint the contents of a given Git object based on its type:
+- Git objesinin içeriğini, türüne uygun olarak hoş şekilde yansıt:
 
 `git cat-file -p {{HEAD~2}}`
