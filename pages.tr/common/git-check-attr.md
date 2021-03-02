@@ -1,20 +1,20 @@
 # git check-attr
 
-> For every pathname, list if each attribute is unspecified, set, or unset as a gitattribute on that pathname.
-> More information: <https://git-scm.com/docs/git-check-attr>.
+> `gitattributes` içeriği görüntüleme aracı
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-check-attr>.
 
-- Check the values of all attributes on a file:
+- Bir dosyadaki tüm atıfları kontrol et:
 
-`git check-attr --all {{path/to/file}}`
+`git check-attr --all {{örnek/dosya}}`
 
-- Check the value of a specific attribute on a file:
+- Bir dosyadaki belirtilmiş atıfın değerini kontrol et:
 
-`git check-attr {{attribute}} {{path/to/file}}`
+`git check-attr {{atıf}} {{örnek/dosya}}`
 
-- Check the value of a specific attribute on files:
+- Birden fazla dosyadaki belirtilmiş atıfın değerini kontrol et:
 
-`git check-attr --all {{path/to/file1}} {{path/to/file2}}`
+`git check-attr --all {{örnek/dosya1}} {{örnek/dosya2}}`
 
-- Check the value of a specific attribute on one or more files:
+- Bir veya birden fazla dosyadaki belirtilmiş atıfın değerini kontrol et:
 
-`git check-attr {{attribute}} {{path/to/file1}} {{path/to/file2}}`
+`git check-attr {{atıf}} {{örnek/dosya1}} {{örnek/dosya2}}`
