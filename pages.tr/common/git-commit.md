@@ -1,20 +1,20 @@
 # git commit
 
-> Commit files to the repository.
-> More information: <https://git-scm.com/docs/git-commit>.
+> Depoya dosya commit'le. 
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-commit>.
 
-- Commit staged files to the repository with a message:
+- Sahnelenmiş dosyaları belirtilen mesaj ile commit'le:
 
-`git commit -m {{message}}`
+`git commit -m {{mesaj}}`
 
-- Auto stage all modified files and commit with a message:
+- Değişiklikleri otomatik olarak sahnele ve mesaj ile commit'le:
 
-`git commit -a -m {{message}}`
+`git commit -a -m {{mesaj}}`
 
-- Update the last commit by adding the currently staged changes, changing the commit's hash:
+- Değerini değiştirecek şekilde son commit'i yeni sahnelenmiş değişiklikleri ekleyerek güncelle:
 
 `git commit --amend`
 
-- Commit only specific (already staged) files:
+- Yalnızca belirtilmiş (halihazırda sahnelenmiş) dosyaları commit'le:
 
-`git commit {{path/to/my/file1}} {{path/to/my/file2}}`
+`git commit {{örnek/dosya1}} {{örnek/dosya2}}`
