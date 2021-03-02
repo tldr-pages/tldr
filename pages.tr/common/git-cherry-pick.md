@@ -1,21 +1,21 @@
 # git cherry-pick
 
-> Apply the changes introduced by existing commits to the current branch.
-> To apply changes to another branch, first use `git checkout` to switch to the desired branch.
-> More information: <https://git-scm.com/docs/git-cherry-pick>.
+> Varolan commit'ler ile getirilen yenilikleri mevcut dala uygula.
+> Değişiklikleri başka bir dala aktarmak için, önce `git checkout` komutu kullanılmalıdır.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-cherry-pick>.
 
-- Apply a commit to the current branch:
+- Mevcut dala bir commit uygula:
 
-`git cherry-pick {{commit}}`
+`git cherry-pick {{commit_ismi}}`
 
-- Apply a range of commits to the current branch (see also `git rebase --onto`):
+- Mevcut dala belirtilmiş aralıktaki kadar commit uygula (ayrıca `git rebase --onto` komutunun araştırılması önerilir):
 
-`git cherry-pick {{start_commit}}~..{{end_commit}}`
+`git cherry-pick {{ilk_commit}}~..{{son_commit}}`
 
-- Apply multiple (non-sequential) commits to the current branch:
+- Mevcut dala birçok (ardışık olmayan) commit uygula:
 
 `git cherry-pick {{commit_1}} {{commit_2}}`
 
-- Add the changes of a commit to the working directory, without creating a commit:
+- Bir commit'in değişikliklerini, herhangi bir yeni commit oluşturmadan çalışan dizine ekle:
 
 `git cherry-pick -n {{commit}}`
