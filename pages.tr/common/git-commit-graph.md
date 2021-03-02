@@ -1,16 +1,16 @@
 # git commit-graph
 
-> Write and verify Git commit-graph files.
-> More information: <https://git-scm.com/docs/git-commit-graph>.
+> Git commit-graph dosyalarını yaz ve doğrula.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-commit-graph>.
 
-- Write a commit-graph file for the packed commits in the repository's local `.git` directory:
+- Dizinin yerel `.git` dizinindeki paketlenmiş commit'ler için bir commit-grafik dosyası yaz:
 
 `git commit-graph write`
 
-- Write a commit-graph file containing all reachable commits:
+- Erişilebilen tüm commitleri içeren bir commit-grafik dosyası yaz:
 
 `git show-ref --hash | git commit-graph write --stdin-commits`
 
-- Write a commit-graph file containing all commits in the current commit-graph file along with those reachable from `HEAD`:
+- `HEAD`'den erişilebilenlerin yanında mevcut commit-grafik dosyasındaki tüm commit'leri içeren bir commit-grafik dosyası oluştur:
 
 `git rev-parse {{HEAD}} | git commit-graph write --stdin-commits --append`
