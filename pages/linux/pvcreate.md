@@ -1,8 +1,8 @@
 # pvcreate
 
 > Initialize a disk or partition for use as a physical volume.
-> One of the Logical Volume Manager (LVM) tools.
-> More information: <https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_and_managing_logical_volumes>.
+> See also: `lvm`.
+> More information: <https://man7.org/linux/man-pages/man8/pvcreate.8.html>.
 
 - Initialize the `/dev/sda1` volume for use by LVM:
 
