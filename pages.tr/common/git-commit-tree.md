@@ -1,21 +1,21 @@
 # git commit-tree
 
-> Low level utility to create commit objects.
-> See also: `git commit`.
-> More information: <https://git-scm.com/docs/git-commit-tree>.
+> Commit cisimleri oluşturmaya yarayan düşük seviyeli araç.
+> Ayrıca `git commit` sayfasına bakılması önerilir.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-commit-tree>.
 
-- Create a commit object with the specified message:
+- Belirtilen mesaj ile bir commit cismi oluştur:
 
-`git commit-tree {{tree}} -m "{{message}}"`
+`git commit-tree {{ağaç}} -m "{{mesaj}}"`
 
-- Create a commit object reading the message from a file (use `-` for stdin):
+- Bir dosyadan mesaj okuyan bir commit cismi oluştur (stdin için `-` ekini kullan):
 
-`git commit-tree {{tree}} -F {{path/to/file}}`
+`git commit-tree {{ağaç}} -F {{örnek/dosya}}`
 
-- Create a GPG-signed commit object:
+- GPG anahtarıyla imzalanmış bir commit cismi oluştur:
 
-`git commit-tree {{tree}} -m "{{message}}" --gpg-sign`
+`git commit-tree {{ağaç}} -m "{{mesaj}}" --gpg-sign`
 
-- Create a commit object with the specified parent commit object:
+- Belirtilen ana commit cismi ile bir commit cismi oluştur:
 
-`git commit-tree {{tree}} -m "{{message}}" -p {{parent_commit_sha}}`
+`git commit-tree {{ağaç}} -m "{{mesaj}}" -p {{ana_commit_sha}}`
