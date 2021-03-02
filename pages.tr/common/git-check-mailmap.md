@@ -1,8 +1,8 @@
 # git check-mailmap
 
-> Show canonical names and email addresses of contacts.
-> More information: <https://git-scm.com/docs/git-check-mailmap>.
+> Bağlantıların kanonik isimleri ve e-posta adreslerini göster.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-check-mailmap>.
 
-- Look up the canonical name associated with an email address:
+- Bir e-posta adresi ile eşleşen kanonik ismi bul:
 
-`git check-mailmap "<{{email@example.com}}>"`
+`git check-mailmap "<{{örnek@e-posta.com}}>"`
