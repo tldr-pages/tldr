@@ -1,21 +1,21 @@
 # git bisect
 
-> Use binary search to find the commit that introduced a bug.
-> Git automatically jumps back and forth in the commit graph to progressively narrow down the faulty commit.
-> More information: <https://git-scm.com/docs/git-bisect>.
+> Bug taşıyan commit'i bulmak için ikili arama kullan.
+> Git otomatik olarak commit çizelgesi içinde oradan oraya atlayarak yaramaz commit'i saptar.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-bisect>.
 
-- Start a bisect session on a commit range bounded by a known buggy commit, and a known clean (typically older) one:
+- Buglı bilinen bir commit'i ve (genelde eski olan) iyi bir commit'i belirterek ikiye bölme işlemini başlat:
 
-`git bisect start {{bad_commit}} {{good_commit}}`
+`git bisect start {{kötü_commit}} {{iyi_commit}}`
 
-- For each commit that `git bisect` selects, mark it as "bad" or "good" after testing it for the issue:
+- `git bisect`'in seçtiği her commit'i, mevcut soruna sebep olup olmadıklarını test ettikten sonra "bad" (kötü) veya "good" (iyi) olarak işaretle:
 
 `git bisect {{good|bad}}`
 
-- After `git bisect` pinpoints the faulty commit, end the bisect session and return to the previous branch:
+- `git bisect` sorunlu commit'i saptadıktan sonra, ikiye bölme işlemini bitir ve depoyu bahsi geçen commit'den önceki dala geçir:
 
 `git bisect reset`
 
-- Skip a commit during a bisect (e.g. one that fails the tests due to a different issue):
+- İkiye bölme işlemi sırasında bir commit'i atla:
 
 `git bisect skip`
