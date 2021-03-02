@@ -1,16 +1,16 @@
 # git cherry
 
-> Find commits that have yet to be applied upstream.
-> More information: <https://git-scm.com/docs/git-cherry>.
+> Ana depoya aktarılması gereken commit'leri bul.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-cherry>.
 
-- Show commits (and their messages) with equivalent commits upstream:
+- Commit'leri (ve mesajlarını) ana akımda kendilerine tekabül eden commit'ler ile göster:
 
 `git cherry -v`
 
-- Specify a different upstream and topic branch:
+- Farklı bir ana akım ve konu dalı belirt:
 
 `git cherry {{origin}} {{topic}}`
 
-- Limit commits to those within a given limit:
+- Commit'leri verilen sınırlamalar ile sınırla:
 
 `git cherry {{origin}} {{topic}} {{base}}`
