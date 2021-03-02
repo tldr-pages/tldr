@@ -1,37 +1,37 @@
 # git config
 
-> Manage custom configuration options for Git repositories.
-> These configurations can be local (for the current repository) or global (for the current user).
-> More information: <https://git-scm.com/docs/git-config>.
+> Git depoları için yazılan kişisel konfigürasyon seçeneklerini yönet.
+> Bu konfigürasyonlar lokal (mevcut depo için) veya evrensel (mevcut kullanıcı için) olabilir.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-config>.
 
-- List only local configuration entries (stored in `.git/config` in the current repository):
+- Yalnızca (mevcut depodaki `.git/config`'de saklanan) yerel konfigürasyon kayıtlarını sırala:
 
 `git config --list --local`
 
-- List only global configuration entries (stored in `~/.gitconfig`):
+- Yalnızca (bilgisayardaki `~/.gitconfig`'de saklanan) evrensel konfigürasyon kayıtlarını sırala:
 
 `git config --list --global`
 
-- List all configuration entries that have been defined either locally or globally:
+- Yerel veya evrensel olarak tanımlanan tüm konfigürasyon kayıtlarını sırala:
 
 `git config --list`
 
-- Get the value of a given configuration entry:
+- Belirtilen bir konfigürasyon kaydının değerini öğren:
 
 `git config alias.unstage`
 
-- Set the global value of a given configuration entry:
+- Belirtilen bir konfigürasyon kaydının evrensel değerini belirle:
 
 `git config --global alias.unstage "reset HEAD --"`
 
-- Revert a global configuration entry to its default value:
+- Evrensel bir konfigürasyon kaydını varsayılan değerine geri al:
 
 `git config --global --unset alias.unstage`
 
-- Edit the Git configuration for the current repository in the default editor:
+- Mevcut depodaki Git konfigürasyonunu varsayılan metin düzenleyici ile düzenle:
 
 `git config --edit`
 
-- Edit the global Git configuration in the default editor:
+- Evrensel Git konfigürasyonunu varsayılan metin düzenleyici ile düzenle:
 
 `git config --global --edit`
