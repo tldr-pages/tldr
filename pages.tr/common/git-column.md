@@ -1,16 +1,16 @@
 # git column
 
-> Display data in columns.
-> More information: <https://git-scm.com/docs/git-column>.
+> Kolonlarda veri görüntüle.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-column>.
 
-- Format the standard input as multiple columns:
+- Standart çıktıyı çoklu kolonlar olarak biçimlendir:
 
 `ls | git column --mode={{column}}`
 
-- Format the standard input as multiple columns with a maximum width of `100`:
+- Standart çıktıyı maksimum `100` birim sütun genişliğinde biçimlendir:
 
 `ls | git column --mode=column --width={{100}}`
 
-- Format the standard input as multiple columns with a maximum padding of `30`:
+- Standart çıktıyı maksimum `30` birimlik boşluğa sahip situnlar olacak şekilde biçimlendir:
 
 `ls | git column --mode=column --padding={{30}}`
