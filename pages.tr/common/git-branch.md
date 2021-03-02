@@ -1,36 +1,36 @@
 # git branch
 
-> Main Git command for working with branches.
-> More information: <https://git-scm.com/docs/git-branch>.
+> Dallar ile çalışmak için kullanılan ana Git komutu.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-branch>.
 
-- List local branches. The current branch is highlighted by `*`:
+- Yerel dalları göster. Mevctu dal `*` ile vurgulanır:
 
 `git branch`
 
-- List all branches (local and remote):
+- Tüm dalları (yerel ve uzak bağlantıda olan) göster:
 
 `git branch -a`
 
-- Show the name of the current branch:
+- Mevcut dalın ismini göster:
 
 `git branch --show-current`
 
-- Create new branch based on the current commit:
+- Mevcut commit'e dayanarak yeni bir dal oluştur:
 
-`git branch {{branch_name}}`
+`git branch {{dal_ismi}}`
 
-- Create new branch based on a specific commit:
+- Belirtilen commit'e dayanarak yeni bir dal oluştur:
 
-`git branch {{branch_name}} {{commit_hash}}`
+`git branch {{dal_ismi}} {{commit_değeri}}`
 
-- Rename a branch (must not have it checked out to do this):
+- Bir dalı yeniden adlandır:
 
-`git branch -m {{old_branch_name}} {{new_branch_name}}`
+`git branch -m {{eski_dal_ismi}} {{yeni_dal_ismi}}`
 
-- Delete a local branch (must not have it checked out to do this):
+- Yerel bir dalı sil:
 
-`git branch -d {{branch_name}}`
+`git branch -d {{dal_ismi}}`
 
-- Delete a remote branch:
+- Uzaktaki bir dalı sil:
 
-`git push {{remote_name}} --delete {{remote_branch_name}}`
+`git push {{uzak_bağlantı}} --delete {{uzak_dal_ismi}}`
