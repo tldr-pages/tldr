@@ -1,32 +1,32 @@
 # git clone
 
-> Clone an existing repository.
-> More information: <https://git-scm.com/docs/git-clone>.
+> Varolan bir dizini klonla.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-clone>.
 
-- Clone an existing repository:
+- Varolan bir depoyu klonla:
 
-`git clone {{remote_repository_location}}`
+`git clone {{uzak_bağlantıdaki_depo}}`
 
-- Clone an existing repository into a specific directory:
+- Varolan bir depoyu velirtilen dizine klonla:
 
-`git clone {{remote_repository_location}} {{path/to/directory}}`
+`git clone {{uzak_bağlantıdaki_depo}} {{örnek/dizin}}`
 
-- Clone an existing repository and its submodules:
+- Varolan bir depo ve onun alt modüllerini klonla:
 
-`git clone --recursive {{remote_repository_location}}`
+`git clone --recursive {{uzak_bağlantıdaki_depo}}`
 
-- Clone a local repository:
+- Yerel bir depoyu klonla:
 
-`git clone -l {{path/to/local/repository}}`
+`git clone -l {{örnek/yerel/depo}}`
 
-- Clone quietly:
+- Sessizce klonla:
 
-`git clone -q {{remote_repository_location}}`
+`git clone -q {{uzak_bağlantıdaki_depo}}`
 
-- Clone an existing repository only fetching the 10 most recent commits on the default branch (useful to save time):
+- Yalnızca en yeni 10 commit'i çekerek varolan bir depoyu klonla (zaman tasarrufu açısından yararlıdır):
 
-`git clone --depth {{10}} {{remote_repository_location}}`
+`git clone --depth {{10}} {{uzak_bağlantıdaki_depo}}`
 
-- Clone an existing repository only fetching a specific branch:
+- Yalnızca belirtilen bir dalı çekerek varolan bir depoyu klonla:
 
-`git clone --branch {{name}} --single-branch {{remote_repository_location}}`
+`git clone --branch {{isim}} --single-branch {{uzak_bağlantıdaki_depo}}`
