@@ -1,32 +1,32 @@
 # git add
 
-> Adds changed files to the index.
-> More information: <https://git-scm.com/docs/git-add>.
+> Değiştirilmiş dosyaları indekse ekle.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-add>.
 
-- Add a file to the index:
+- İndekse bir dosya ekle:
 
-`git add {{path/to/file}}`
+`git add {{örnek/dosya}}`
 
-- Add all files (tracked and untracked):
+- Tüm (izlenen veya izlenmeyen) dosyaları ekle:
 
 `git add -A`
 
-- Only add already tracked files:
+- Sadece izlenen dosyaları ekle:
 
 `git add -u`
 
-- Also add ignored files:
+- Yoksayılan dosyaları dahi ekle:
 
 `git add -f`
 
-- Interactively stage parts of files:
+- Dosyaların parçalarını etkileşimli olarak sahnele:
 
 `git add -p`
 
-- Interactively stage parts of a given file:
+- Belirtilen dosyaların parçalarını etkileşimli olarak sahnele:
 
-`git add -p {{path/to/file}}`
+`git add -p {{örnek/dosya}}`
 
-- Interactively stage a file:
+- Bir dosyayı etkileşimli olarak sahnele:
 
 `git add -i`
