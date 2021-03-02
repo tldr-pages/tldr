@@ -1,16 +1,16 @@
 # git check-ref-format
 
-> Checks if a given refname is acceptable, and exits with a non-zero status if it is not.
-> More information: <https://git-scm.com/docs/git-check-ref-format>.
+> Girilen refname kabul edilebilir mi yoksa değil mi diye kontrol eder, ve eğer kabul edilemezse sıfır olmayan bir çıktı verir.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-check-ref-format>.
 
-- Check the format of the specified refname:
+- Belirtilen refname'in biçimini kontrol et:
 
 `git check-ref-format {{refs/head/refname}}`
 
-- Print the name of the last branch checked out:
+- Son kontrol edilen dalın ismini göster:
 
 `git check-ref-format --branch @{-1}`
 
-- Normalize a refname:
+- Bir refname dosyasını normalleştir:
 
 `git check-ref-format --normalize {{refs/head/refname}}`
