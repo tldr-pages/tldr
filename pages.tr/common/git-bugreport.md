@@ -1,15 +1,15 @@
 # git bugreport
 
-> Captures debug information from the system and user, generating a text file to aid in the reporting of a bug in Git.
+> Sşstem ve kullanıcıdan hata ayıklama bilgisi çeker ve olası bir Git hatasının rapor edilmesi için bu bilgiyi oluşturduğu bir metin dosyasına kaydeder.
 
-- Create a new bugreport file in the current directory:
+- Mevcut dizinde yeni bir hata rapor dosyası oluştur:
 
 `git bugreport`
 
-- Create a new bugreport file in the specified directory, creating it if it does not exist:
+- Belirtilen dizinde yeni bir hata rapor dosyası oluştur:
 
-`git bugreport --output-directory {{path/to/directory}}`
+`git bugreport --output-directory {{örnek/dizin}}`
 
-- Create a new bugreport file with the specified filename suffix in `strftime` format:
+- `strftime` formatında belirtilmiş bir dosya adı ekiyle yeni bir rapor dosyası oluştur:
 
 `git bugreport --suffix {{%m%d%y}}`
