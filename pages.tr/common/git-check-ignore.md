@@ -1,24 +1,24 @@
 # git check-ignore
 
-> Analyse and debug Git ignore / exclude (".gitignore") files.
-> More information: <https://git-scm.com/docs/git-check-ignore>.
+> Git yoksayma / dışlama (".gitignore") dosyalarını analiz et.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-check-ignore>.
 
-- Check whether a file or directory is ignored:
+- Bir dosya veya dizinin yoksayıldığı veya sayılmadığını kontrol et:
 
-`git check-ignore {{path/to/file_or_directory}}`
+`git check-ignore {{örnek/dosya_veya_dizin}}`
 
-- Check whether multiple files or directories are ignored:
+- Birden fazla dosya veya dizinin yoksayıldığı veya sayılmadığını kontrol et:
 
-`git check-ignore {{path/to/file}} {{path/to/directory}}`
+`git check-ignore {{örnek/dosya}} {{örnek/dizin}}`
 
-- Use pathnames, one per line, from stdin:
+- Her bir satıra tekabül edecek şekilde stdin'den yolisimleri kullan:
 
-`git check-ignore --stdin < {{path/to/file_list}}`
+`git check-ignore --stdin < {{örnek/dosya_sırası}}`
 
-- Do not check the index (used to debug why paths were tracked and not ignored):
+- İndeksi kontrol etme:
 
-`git check-ignore --no-index {{path/to/files_or_directories}}`
+`git check-ignore --no-index {{örnek/dosya_veya_dizin}}`
 
-- Include details about the matching pattern for each path:
+- Her yol için eşleşen desene dair detayları dahil et:
 
-`git check-ignore --verbose {{path/to/files_or_directories}}`
+`git check-ignore --verbose {{örnek/dosya_veya_dizin}}`
