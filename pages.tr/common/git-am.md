@@ -1,17 +1,17 @@
 # git am
 
-> Apply patch files. Useful when receiving commits via email.
-> See also `git format-patch`, which can generate patch files.
-> More information: <https://git-scm.com/docs/git-am>.
+> Yama dosyalarını uygula. E-posta ile commit alırken faydalıdır.
+> Ayrıca yama dosyalarının üretilmesine yarayan `git format-patch` sayfasına bakılması önerilir.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-am>.
 
-- Apply a patch file:
+- Bir yama dosyasını uygula:
 
-`git am {{path/to/file.patch}}`
+`git am {{örnek/yama.patch}}`
 
-- Abort the process of applying a patch file:
+- Yama dosyası uygulama işlemini durdur:
 
 `git am --abort`
 
-- Apply as much of a patch file as possible, saving failed hunks to reject files:
+- Mümkün olacak kadar yama dosyasını uygula ve bu dosyaların uygulanamayan parçalarını bahsi geçen dosyaları reddetmek için kaydet:
 
-`git am --reject {{path/to/file.patch}}`
+`git am --reject {{örnek/yama.patch}}`
