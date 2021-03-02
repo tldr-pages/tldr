@@ -1,20 +1,20 @@
 # git checkout-index
 
-> Copy files from the index to the working tree.
-> More information: <https://git-scm.com/docs/git-checkout-index>.
+> Dosyaları indeksten çalışma ağacına kopyala.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-checkout-index>.
 
-- Restore any files deleted since the last commit:
+- Son commit'den beri silinen dosyaları geri döndür:
 
 `git checkout-index --all`
 
-- Restore any files deleted or changed since the last commit:
+- Son commit'den beri silinen veya değiştirilen dosyaları geri döndür:
 
 `git checkout-index --all --force`
 
-- Restore any files changed since the last commit, ignoring any files that were deleted:
+- Son commit'den beri değiştirilen dosyaları geri döndür ancak silinenleri yoksay:
 
 `git checkout-index --all --force --no-create`
 
-- Export a copy of the entire tree at the last commit to the specified directory (the trailing slash is important):
+- Tüm ağacın bir kopyasını belirtilen dizinde dışa aktar (sondaki eğik çizgi önemli):
 
-`git checkout-index --all --force --prefix={{path/to/export_directory/}}`
+`git checkout-index --all --force --prefix={{dışa/aktarılacak/dizin/}}`
