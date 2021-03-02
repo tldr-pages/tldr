@@ -1,29 +1,28 @@
 # git annex
 
-> Manage files with Git, without checking their contents in.
-> When a file is annexed, its content is moved into a key-value store, and a symlink is made that points to the content.
-> More information: <https://git-annex.branchable.com>.
+> Git ile dosyaları, dosyaların içeriğine bakmadan yönet.
+> Daha fazla bilgi için:<https://git-annex.branchable.com>.
 
-- Help:
+- Yardım:
 
 `git annex help`
 
-- Initialize a repo with Git annex:
+- Git annex ile bir depo başlat:
 
 `git annex init`
 
-- Add a file:
+- Bir dosya ekle:
 
-`git annex add {{path/to/file_or_directory}}`
+`git annex add {{örnek/dosya_veya_dizin}}`
 
-- Show the current status of a file or directory:
+- Bir dosya veya dizinin şu anki durumunu göster:
 
-`git annex status {{path/to/file_or_directory}}`
+`git annex status {{örnek/dosya_veya_dizin}}`
 
-- Synchronize a local repository with a remote:
+- Yerel bir depoyu, uzaktaki bir depo ile senkronize et:
 
-`git annex {{remote}}`
+`git annex {{uzak_bağlantı}}`
 
-- Get a file or directory:
+- Bir dosya veya dizin al:
 
-`git annex get {{path/to/file_or_directory}}`
+`git annex get {{örnek/dosya_veya_dizin}}`
