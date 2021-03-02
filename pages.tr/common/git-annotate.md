@@ -1,14 +1,14 @@
 # git annotate
 
-> Show commit hash and last author on each line of a file.
-> See `git blame`, which is preferred over `git annotate`.
-> `git annotate` is provided for those familiar with other version control systems.
-> More information: <https://git-scm.com/docs/git-annotate>.
+> Her satırdaki dosyanın yanında en son commit değeri ve yazarını göster.
+> Ayrıca `git annotate` yerine tercih edilen `git blame` sayfasına bakılması önerilir.
+> `git annotate`, git dışındaki sürüm kontrol sistemlerine aşina olanlar için sağlanmıştır.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-annotate>.
 
-- Print a file with the author name and commit hash prepended to each line:
+- Bir dosyayı, her satırında son commit değeri ve yazarı bulunacak şekilde göster:
 
-`git annotate {{path/to/file}}`
+`git annotate {{örnek/dosya}}`
 
-- Print a file with the author email and commit hash prepended to each line:
+- Bir dosyayı, her satırında son commit değeri ve yazarının e-postası bulunacak şekilde göster:
 
-`git annotate -e {{path/to/file}}`
+`git annotate -e {{örnek/dosya}}`
