@@ -1,8 +1,8 @@
 # pvs
 
 > Display information about physical volumes.
-> One of the Logical Volume Manager (LVM) tools.
-> More information: <https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_and_managing_logical_volumes>.
+> See also: `lvm`.
+> More information: <https://man7.org/linux/man-pages/man8/pvs.8.html>.
 
 - Display information about physical volumes:
 
