@@ -1,12 +1,12 @@
 # git blame
 
-> Show commit hash and last author on each line of a file.
-> More information: <https://git-scm.com/docs/git-blame>.
+> Her satırdaki dosyanın yanında en son commit değeri ve yazarını göster.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-blame>.
 
-- Print file with author name and commit hash on each line:
+- Bir dosyayı, her satırında son commit değeri ve yazarı bulunacak şekilde göster:
 
-`git blame {{file}}`
+`git blame {{örnek/dosya}}`
 
-- Print file with author email and commit hash on each line:
+- Bir dosyayı, her satırında son commit değeri ve yazarının e-postası bulunacak şekilde göster:
 
-`git blame -e {{file}}`
+`git blame -e {{örnek/dosya}}`
