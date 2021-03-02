@@ -1,36 +1,36 @@
 # git checkout
 
-> Checkout a branch or paths to the working tree.
-> More information: <https://git-scm.com/docs/git-checkout>.
+> Bulunulan dalı değiştir veya çalışma ağaçlarını onar.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-checkout>.
 
-- Create and switch to a new branch:
+- Yeni bir dal oluştur ve bu dala geç:
 
-`git checkout -b {{branch_name}}`
+`git checkout -b {{dal_ismi}}`
 
-- Create and switch to a new branch based on a specific reference (branch, remote/branch, tag are examples of valid references):
+- Belirtilen bir referansa (dal, uzak/dal, etiket gibi) dayanacak şekilde yeni bir dal oluştur ve bu dala geç:
 
-`git checkout -b {{branch_name}} {{reference}}`
+`git checkout -b {{dal_ismi}} {{referans}}`
 
-- Switch to an existing local branch:
+- Varolan yerel bir dala geç:
 
-`git checkout {{branch_name}}`
+`git checkout {{dal_ismi}}`
 
-- Switch to the previously checked out branch:
+- En son kontrol edilmiş olan dala geç:
 
 `git checkout -`
 
-- Switch to an existing remote branch:
+- Uzak bağlantıdaki varolan bir dala geç:
 
-`git checkout --track {{remote_name}}/{{branch_name}}`
+`git checkout --track {{uzak_bağlantı_adresi}}/{{dal_ismi}}`
 
-- Discard all unstaged changes in the current directory (see `git reset` for more undo-like commands):
+- Mevcut dizindeki sahnelenmemiş tüm değişiklikleri ayır (geri alma benzeri bir komut için `git reset` komutu önerilir):
 
 `git checkout .`
 
-- Discard unstaged changes to a given file:
+- Sahnelenmemiş değişiklikleri belirtilen dosyaya ayır:
 
-`git checkout {{filename}}`
+`git checkout {{dosya_ismi}}`
 
-- Replace a file in the current directory with the version of it committed in a given branch:
+- Mevcut dizindeki bir dosyayı, belirtilen dalda commit edilmiş sürümü ile değiştirin:
 
-`git checkout {{branch_name}} -- {{filename}}`
+`git checkout {{dal_ismi}} -- {{dosya_ismi}}`
