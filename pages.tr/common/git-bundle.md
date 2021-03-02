@@ -1,32 +1,32 @@
 # git bundle
 
-> Package objects and references into an archive.
-> More information: <https://git-scm.com/docs/git-bundle>.
+> Cisim ve referansları bir arşive paketle.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-bundle>.
 
-- Create a bundle file that contains all objects and references of a specific branch:
+- Belirtilmiş bir dalın tüm cisim ve referanslarını içeren bir paket dosyası oluştur:
 
-`git bundle create {{path/to/file.bundle}} {{branch_name}}`
+`git bundle create {{örnek/dosyas.bundle}} {{dal_ismi}}`
 
-- Create a bundle file of all branches:
+- Tüm dallar için bir paket dosyası oluştur:
 
-`git bundle create {{path/to/file.bundle}} --all`
+`git bundle create {{örnek/dosyas.bundle}} --all`
 
-- Create a bundle file of the last 5 commits of the current branch:
+- Mevcut daldaki en son 5 commit için bir paket dosyası oluştur:
 
-`git bundle create {{path/to/file.bundle}} -{{5}} {{HEAD}}`
+`git bundle create {{örnek/dosya.bundle}} -{{5}} {{HEAD}}`
 
-- Create a bundle file of the latest 7 days:
+- Son 7 günü içeren bir paket dosyası oluştur:
 
-`git bundle create {{path/to/file.bundle}} --since={{7.days}} {{HEAD}}`
+`git bundle create {{örnek/dosya.bundle}} --since={{7.days}} {{HEAD}}`
 
-- Verify that a bundle file is valid and can be applied to the current repository:
+- Bir paket dosyasının geçerli olduğunu ve mevcut depoya uygulanabileceğini doğrula:
 
-`git bundle verify {{path/to/file.bundle}}`
+`git bundle verify {{örnek/dosya.bundle}}`
 
-- Print to the standard output the list of references contained in a bundle:
+- Bir pakette bulunan referansları sırala:
 
-`git bundle unbundle {{path/to/file.bundle}}`
+`git bundle unbundle {{örnek/dosya.bundle}}`
 
-- Unbundle a specific branch from a bundle file into the current repository:
+- Belirtilen dalı paket dosyasından çıkarıp mevcut depoya koy:
 
-`git pull {{path/to/file.bundle}} {{branch_name}}`
+`git pull {{örnek/dosya.bundle}} {{dal_ismi}}`
