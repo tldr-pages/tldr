@@ -1,8 +1,7 @@
 # Tcpdump
 > [useful tcpdump examples](https://www.howtouselinux.com/post/10-useful-tcpdump-command-examples)
 
-- Capture traffic on specific interface:  
-
+- Capture traffic on specific interface:
 `tcpdump -i ens160`
 
 - Capture ip host-specific packets:
