@@ -1,6 +1,6 @@
 # betty
 
-> Translate phrases into commands.
+> Use natural language to execute commands.
 > More information: <https://github.com/pickhardt/betty>.
 
 - Ask Betty something:
