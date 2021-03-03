@@ -15,7 +15,7 @@
 
 `betty download {{https://example.com/file.png}} to {{file.png}}`
 
-- Compress something to whatever format you want:
+- Compress a file or directory to one of the support archive formats:
 
 `betty compress {{path/to/dir}}`
 
