@@ -21,7 +21,7 @@
 
 - Extract an archive into the current directory:
 
-`betty uncompress {{archive.tar.gz}}`
+`betty {{unzip}} {{archive.tar.gz}}`
 
 - Extract an archive into a directory:
 
