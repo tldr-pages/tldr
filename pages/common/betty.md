@@ -1,4 +1,5 @@
 # betty
+
 > Translate phrases into commands.
 > More information: <https://github.com/pickhardt/betty>
 
