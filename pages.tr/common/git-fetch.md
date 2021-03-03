@@ -1,24 +1,24 @@
 # git fetch
 
-> Download objects and refs from a remote repository.
-> More information: <https://git-scm.com/docs/git-fetch>.
+> Uzak bir depodaki cisim ve referansları indir.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-fetch>.
 
-- Fetch the latest changes from the default remote upstream repository (if set):
+- (Eğer belirtildiyse) Uzaktaki varsayılan ana akım depodan son değişiklikleri çek:
 
 `git fetch`
 
-- Fetch new branches from a specific remote upstream repository:
+- Belirtilen uzak ana akım depodan yeni dalları çek:
 
-`git fetch {{remote_name}}`
+`git fetch {{uzak_bağlantı}}`
 
-- Fetch the latest changes from all remote upstream repositories:
+- Uzaktaki tüm ana akım depolardaki son değişiklikleri çek:
 
 `git fetch --all`
 
-- Also fetch tags from the remote upstream repository:
+- Uzaktaki ana akım depodan etiketleri dahi çek:
 
 `git fetch --tags`
 
-- Delete local references to remote branches that have been deleted upstream:
+- Ana akım depodan silinmiş uzak dallara giden yerel referansları sil:
 
 `git fetch --prune`
