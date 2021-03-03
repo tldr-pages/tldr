@@ -18,7 +18,7 @@
 
 `tcpdump -c 5 -w network_file_linux.pcap -i any`
 
-- Capture packets from a specific protocol: 
+- Capture packets from a specific protocol:
 
 `tcpdump -i ens160 -c 5 -nn tcp`
 
