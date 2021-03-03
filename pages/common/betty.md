@@ -5,7 +5,7 @@
 
 - Ask something to Betty:
 
-`betty what time is it`
+`betty {{what time is it}}`
 
 - Ask Betty version:
 
