@@ -7,7 +7,7 @@
 
 `betty what time is it`
 
-- Ask version of Betty:
+- Ask Betty version:
 
 `betty version`
 
