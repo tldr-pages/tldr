@@ -11,7 +11,7 @@
 
 `betty version`
 
-- Download something:
+- Download a file:
 
 `betty download {{https://example.com/something.png}} to something.png`
 
