@@ -1,36 +1,36 @@
 # git diff
 
-> Show changes to tracked files.
-> More information: <https://git-scm.com/docs/git-diff>.
+> İzlenen dosyalara değişiklikleri göster.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-diff>.
 
-- Show unstaged, uncommitted changes:
+- Sahnelenmemiş, commit'lenmemiş değişiklikleri göster:
 
 `git diff`
 
-- Show all uncommitted changes (including staged ones):
+- Sahnelenmiş olanlar da dahil olmak üzere tüm commit'lenmemiş değişiklikleri göster:
 
 `git diff HEAD`
 
-- Show only staged (added, but not yet committed) changes:
+- Yalnızca sahnelenmiş (eklenmiş ancak commit'lenmemiş) değişiklikleri göster:
 
 `git diff --staged`
 
-- Show changes from all commits since a given date/time (a date expression, e.g. "1 week 2 days" or an ISO date):
+- Belirtilen bir tarihten itibaren yapılmış tüm commit'lerdeki değişiklikleri göster:
 
 `git diff 'HEAD@{3 months|weeks|days|hours|seconds ago}'`
 
-- Show only names of changed files since a given commit:
+- Belirtilen bir commit'ten itibaren yalnızca üzerinde değişiklik yapılmış dosyaların ismini göster:
 
 `git diff --name-only {{commit}}`
 
-- Output a summary of file creations, renames and mode changes since a given commit:
+- Belirtilen bir commit'ten itibaren yapılmış dosya oluşturma, yeniden adlandırma ve mod değişim işlemlerini göster:
 
 `git diff --summary {{commit}}`
 
-- Compare a single file between two branches or commits:
+- Tek bir dosyayı iki dal veya commit arasında karşılaştır:
 
-`git diff {{branch_1}}..{{branch_2}} [--] {{path/to/file}}`
+`git diff {{dal_1}}..{{dal_2}} [--] {{örnek/dosya}}`
 
-- Compare different files from the current branch to other branch:
+- Mevcut daldaki farklı dosyaları başka bir daldakilerle karşılaştır:
 
-`git diff {{branch}}:{{path/to/file2}} {{path/to/file}}`
+`git diff {{dal}}:{{örnek/dosya2}} {{örnek/dosya}}`
