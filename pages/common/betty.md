@@ -17,7 +17,7 @@
 
 - Compress a file or directory to one of the support archive formats:
 
-`betty compress {{path/to/dir}}`
+`betty {{zip}} {{path/to/file_or_directory}}`
 
 - Extract an archive into the current directory:
 
