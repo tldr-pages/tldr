@@ -9,7 +9,7 @@
 
 - Output the results as JSON:
 
-`speed-test --json -j`
+`speed-test --json`
 
 - Output the results in megabytes per second (MBps):
 
