@@ -1,24 +1,24 @@
 # git describe
 
-> Give an object a human readable name based on an available ref.
-> More information: <https://git-scm.com/docs/git-describe>.
+> Bir nesneye varolan referans üzerinden insanlar tarafından okunabilecek biçimde olan bir isim ver:
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-describe>.
 
-- Create a unique name for the current commit (the name contains the most recent annotated tag, the number of additional commits, and the abbreviated commit hash):
+- Mevcut commit için (en son eklenmiş etiket, ilave commit'lerin sayısı ve kısaltılmış commit değerini içeren) özel bir isim oluştur:
 
 `git describe`
 
-- Create a name with 4 digits for the abbreviated commit hash:
+- Kısaltılmış commit değeri için 4 haneli bir isim oluştur:
 
 `git describe --abbrev={{4}}`
 
-- Generate a name with the tag reference path:
+- Etiket referans yolu ile bir isim oluştur:
 
 `git describe --all`
 
-- Describe a Git tag:
+- Bir Git etiketini açıkla:
 
 `git describe {{v1.0.0}}`
 
-- Create a name for the last commit of a given branch:
+- Belirtilen daldaki son commit için bir isim oluştur:
 
-`git describe {{branch_name}}`
+`git describe {{dal_ismi}}`
