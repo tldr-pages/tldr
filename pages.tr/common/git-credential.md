@@ -1,16 +1,16 @@
 # git credential
 
-> Retrieve and store user credentials.
-> More information: <https://git-scm.com/docs/git-credential>.
+> Kullanıcı kimlik bilgilerini kurtar ve sakla.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-credential>.
 
-- Display credential information, retrieving the username and password from configuration files:
+- Kimlik bilgilerini, kullanıcı ismi ve parolayı konfigürasyon dosyası aracılığıyla kurtararak göster:
 
-`echo "{{url=http://example.com}}" | git credential fill`
+`echo "{{url=http://örnek.com}}" | git credential fill`
 
-- Send credential information to all configured credential helpers to store for later use:
+- Kimlik bilgilerini sonra kullanma amacıyla saklamak için bütün yapılandırılmış kimlik yardımcılarına gönder:
 
-`echo "{{url=http://example.com}}" | git credential approve`
+`echo "{{url=http://örnek.com}}" | git credential approve`
 
-- Erase the specified credential information from all the configured credential helpers:
+- Belirtilen kimlik bilgisini bütün yapılandırılmış kimlik yardımcılarından temizle:
 
-`echo "{{url=http://example.com}}" | git credential reject`
+`echo "{{url=http://örnek.com}}" | git credential reject`
