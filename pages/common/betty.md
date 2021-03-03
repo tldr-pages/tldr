@@ -31,6 +31,6 @@
 
 `betty play Spotify`
 
-- Drive Betty to madness
+- Drive Betty to madness:
 
 `betty go crazy`
