@@ -3,7 +3,7 @@
 > Translate phrases into commands.
 > More information: <https://github.com/pickhardt/betty>.
 
-- Ask something to Betty:
+- Ask Betty something:
 
 `betty {{what time is it}}`
 
