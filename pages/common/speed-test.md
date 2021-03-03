@@ -17,4 +17,4 @@
 
 - Output more detailed information:
 
-`speed-test --verbose -v`
+`speed-test --verbose`
