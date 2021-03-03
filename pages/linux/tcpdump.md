@@ -24,8 +24,6 @@
 
 `tcpdump src 100.10.8.121`
 
-`tcpdump dst 14.211.62.121`
-
 - Rotate tcpdump packets:
 
 `$ tcpdump -i ens160 -w /tmp/network-%H-%M.pcap -W 48 -G 300 -C 100`
