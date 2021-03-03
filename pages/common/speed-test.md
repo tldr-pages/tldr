@@ -13,7 +13,7 @@
 
 - Output the results in megabytes per second (MBps):
 
-`speed-test --bytes -b`
+`speed-test --bytes`
 
 - Output more detailed information:
 
