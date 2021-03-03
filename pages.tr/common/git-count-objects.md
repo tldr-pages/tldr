@@ -1,20 +1,20 @@
 # git count-objects
 
-> Count the number of unpacked objects and their disk consumption.
-> More information: <https://git-scm.com/docs/git-count-objects>.
+> Paketlenmemiş cisimlerin miktarını ve disk tüketimlerini hesapla.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-count-objects>.
 
-- Count all objects and display the total disk usage:
+- Tüm cisimleri say ve toplam disk tüketimlerini görüntüle:
 
 `git count-objects`
 
-- Display a count of all objects and their total disk usage, displaying sizes in human readable units:
+- Tüm cisimleri say ve toplam disk tüketimlerini insanların okuyabileceği biçimde görüntüle:
 
 `git count-objects --human-readable`
 
-- Display more verbose information:
+- Daha fazla ayrıntı görüntüle:
 
 `git count-objects --verbose`
 
-- Display more verbose information, displaying sizes in human readable units:
+- Daha fazla ayrıntıyı insanların okuyabileceği biçimde görüntüle:
 
 `git count-objects --human-readable --verbose`
