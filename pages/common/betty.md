@@ -29,7 +29,7 @@
 
 - Play Spotify:
 
-`betty play Spotify`
+`betty play {{Spotify}}`
 
 - Drive Betty to madness:
 
