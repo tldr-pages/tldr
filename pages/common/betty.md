@@ -13,7 +13,7 @@
 
 - Download a file:
 
-`betty download {{https://example.com/something.png}} to something.png`
+`betty download {{https://example.com/file.png}} to {{file.png}}`
 
 - Compress something to whatever format you want:
 
