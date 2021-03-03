@@ -1,20 +1,20 @@
 # git difftool
 
-> Show file changes using external diff tools. Accepts the same options and arguments as Git diff.
+> Harici diff araçları kullanarak dosya değişimlerini göster. `git diff` ile aynı ayar ve argümanları destekler.
 > More information: <https://git-scm.com/docs/git-difftool>.
 
-- List available diff tools:
+- Müsait diff araçlarını göster:
 
 `git difftool --tool-help`
 
-- Set the default diff tool to meld:
+- Varsayılan diff aracını birleştirmeye ayarla:
 
 `git config --global diff.tool "{{meld}}"`
 
-- Use the default diff tool to show staged changes:
+-Varsayılan diff aracını sahnelenmiş değişiklikleri göstermek için kullan:
 
 `git difftool --staged`
 
-- Use a specific tool (opendiff) to show changes since a given commit:
+- Verilen commit'den itibaren yapılmış değişiklikleri göstermek için (opendiff) kullan:
 
 `git difftool --tool={{opendiff}} {{commit}}`
