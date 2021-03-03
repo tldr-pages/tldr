@@ -19,7 +19,7 @@
 
 `betty compress {{path/to/dir}}`
 
-- Uncompress something:
+- Extract an archive into the current directory:
 
 `betty uncompress {{archive.tar.gz}}`
 
