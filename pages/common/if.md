@@ -25,4 +25,4 @@ Check if a file or directory exists:
 
 - List all possible conditions (`test` is an alias to `[`; both are commonly used with `if`):
 
-`help test`
+`man [`
