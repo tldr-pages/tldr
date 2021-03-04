@@ -19,7 +19,7 @@
 
 `if [[ -d {{path/to/directory}} ]]; then {{echo "true"}}; else {{echo "false"}}; fi`
 
-Check if a file or directory ([e]ntry) exists:
+Check if a file or directory exists:
 
 `if [[ -e {{path/to/file_or_directory}} ]]; then {{echo "true"}}; else {{echo "false"}}; fi`
 
