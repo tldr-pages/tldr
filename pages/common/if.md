@@ -5,7 +5,7 @@
 
 - Executed two different commands based on a condition:
 
-`if {{condition}}; then {{echo "true"}}; else {{echo "false"}}; fi`
+`if {{command}}; then {{echo "true"}}; else {{echo "false"}}; fi`
 
 - Check if a variable is defined:
 
