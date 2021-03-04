@@ -9,7 +9,7 @@
 
 - Check if a variable is defined:
 
-`if [[ ! -z {{$VARIABLE}} ]]; then {{echo "defined"}}; else {{echo "not defined"}}; fi`
+`if [[ -n {{$VARIABLE}} ]]; then {{echo "defined"}}; else {{echo "not defined"}}; fi`
 
 - Check if a file exists:
 
