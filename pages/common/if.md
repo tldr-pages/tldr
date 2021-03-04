@@ -4,7 +4,7 @@
 
 - Echo a different thing depending on a command's success:
 
-`{{command}} && echo "success" || echo "failure"`
+`if {{command}}; then echo "success"; else echo "failure"; fi`
 
 - Full if syntax:
 
