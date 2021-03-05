@@ -16,7 +16,7 @@
 
 - Write packets to a file:
 
-`tcpdump -c 5 -w network_file_linux.pcap -i any`
+`tcpdump --count={{5}} -w {{path/to/file.pcap}} --interface={{interface}}`
 
 - Capture packets from a specific protocol:
 
