@@ -12,7 +12,7 @@
 
 - Capture packets on a specific port:
 
-`tcpdump -i any port 8000`
+`tcpdump --interface={{ens160}} {{port}}`
 
 - Write packets to a file:
 
