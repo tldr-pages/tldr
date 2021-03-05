@@ -4,7 +4,7 @@
 
 - Capture traffic on specific interface:
 
-`tcpdump -i ens160`
+`tcpdump --interface={{ens160}}`
 
 - Capture ip host-specific packets:
 
