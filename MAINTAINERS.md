@@ -53,7 +53,7 @@ If you are an owner of the organization, you should be able to see an automated 
   [24 August 2020](https://github.com/tldr-pages/tldr/issues/4291) — [05 October 2020](https://github.com/tldr-pages/tldr/issues/4504)
 - bl-ue ([@bl-ue](https://github.com/bl-ue)):
   [01 January 2021](https://github.com/tldr-pages/tldr/issues/5056) — [02 February 2021](https://github.com/tldr-pages/tldr/issues/5219)
-- Tan Siret Akıncı ([@yutyo](https://github.com/yutyo)):
+- Tan Siret Akıncı ([@Yutyo](https://github.com/Yutyo)):
   [03 March 2021](https://github.com/tldr-pages/tldr/issues/5345) — present
 
 ## Organization members
