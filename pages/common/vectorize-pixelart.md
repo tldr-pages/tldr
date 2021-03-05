@@ -1,6 +1,6 @@
 # vectorize-pixelart
 
-> Convert raster pixel art graphics to vector.
+> Convert PNG pixel art graphics to SVG/EPS vector images.
 > More information: <https://github.com/und3f/vectorize-pixelart>.
 
 - Convert a PNG image to a vector image format:
