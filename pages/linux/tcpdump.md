@@ -8,7 +8,7 @@
 
 - Capture ip host-specific packets:
 
-`tcpdump -i ens160 -c 5  host 140.240.61.21`
+`tcpdump --interface={{ens160}} --count={{5}} {{140.240.61.21}}`
 
 - Capture packets on a specific port:
 
