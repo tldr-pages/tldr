@@ -56,7 +56,6 @@ If you are an owner of the organization, you should be able to see an automated 
 - bl-ue ([@bl-ue](https://github.com/bl-ue)):
   [01 January 2021](https://github.com/tldr-pages/tldr/issues/5056) — [02 February 2021](https://github.com/tldr-pages/tldr/issues/5219)
 
-
 ## Organization members
 
 In addition to everything that repository collaborators can do, organization members
