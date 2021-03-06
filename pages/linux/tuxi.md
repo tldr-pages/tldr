@@ -9,11 +9,11 @@
 
 - Display the search results in [r]aw format (no pretty output, no colors):
 
-`tuxi -r {{search_string}}`
+`tuxi -r {{search_terms}}`
 
 - Display only search results (silences "Did you mean?", greetings and usage):
 
-`tuxi -q {{search_string}}`
+`tuxi -q {{search_terms}}`
 
 - Display help:
 
