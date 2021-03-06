@@ -3,18 +3,18 @@
 > A CLI tool that scrapes Google search results and SERPs that provides instant and concise answers.
 > More information: <https://github.com/Bugswriter/tuxi>.
 
-- Use Google to search for a string:
+- Make a search using Google:
 
-`tuxi {{search_string}}`
+`tuxi {{search_terms}}`
 
-- Show [r]aw search results (no pretty output, no colors):
+- Display the search results in [r]aw format (no pretty output, no colors):
 
 `tuxi -r {{search_string}}`
 
-- Show only search results (silences "Did you mean?", greetings and usage):
+- Display only search results (silences "Did you mean?", greetings and usage):
 
 `tuxi -q {{search_string}}`
 
-- Display help and usage of `tuxi`:
+- Display help:
 
 `tuxi -h`
