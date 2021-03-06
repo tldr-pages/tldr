@@ -7,7 +7,7 @@
 
 `scala`
 
-- Start the interpreter with a fat jar in the classpath:
+- Start the interpreter with a dependency in the classpath:
 
 `scala -cp {{filename.jar}} {{command}}`
 
