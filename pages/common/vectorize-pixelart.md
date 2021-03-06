@@ -5,4 +5,4 @@
 
 - Convert a PNG image to a vector image format:
 
-`vectorize-pixelart {{path/to/input.png}} {{path/to/output.svg|eps}}`
+`vectorize-pixelart {{path/to/input.png}} {{path/to/output.svg|.eps}}`
