@@ -12,7 +12,7 @@
 
 `gpg2 --encrypt --recipient {{hans@beispiel.de}} {{pfad/zu/datei.txt}}`
 
-- Verschlüssle eine bestimmte Datei nur mit einem Passwort und schreibe den Output in eine neue `.gpg` Datei
+- Verschlüssle eine bestimmte Datei nur mit einem Passwort und schreibe den Output in eine neue `.gpg` Datei:
 
 `gpg2 --symmetric {{pfad/zu/datei.txt}}`
 
