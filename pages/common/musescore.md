@@ -23,7 +23,7 @@
 
 `musescore --export-to {{output_file}} {{input_file}}`
 
-- Print a conditioned `diff` between the given scores:
+- Print a diff between the given scores:
 
 `musescore --diff {{file1}} {{file2}}`
 
