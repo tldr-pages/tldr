@@ -19,7 +19,7 @@
 
 `musescore --experimental`
 
-- Export the given (or currently opened) file to the specified output file. The file type depends on the extension given:
+- Export the given file to the specified output file. The file type depends on the extension given:
 
 `musescore --export-to {{output_file}} {{input_file}}`
 
