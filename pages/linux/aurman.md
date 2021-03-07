@@ -8,7 +8,7 @@
 
 `aurman --sync --refresh --sysupgrade`
 
-- Synchronize and update all packages without show changes of PKGBUILD files:
+- Synchronize and update all packages without show changes of `PKGBUILD` files:
 
 `aurman --sync --refresh --sysupgrade --noedit`
 
@@ -16,7 +16,7 @@
 
 `aurman --sync {{package_name}}`
 
-- Install a new package without show changes of PKGBUILD files:
+- Install a new package without show changes of `PKGBUILD` files:
 
 `aurman --sync --noedit {{package_name}}`
 
