@@ -8,7 +8,7 @@
 
 - Decode a file:
 
-`base32 -d {{filename}}`
+`base32 --decode {{filename}}`
 
 - Encode from stdin:
 
@@ -16,4 +16,4 @@
 
 - Decode from stdin:
 
-`{{somecommand}} | base32 -d`
+`{{somecommand}} | base32 --decode`
