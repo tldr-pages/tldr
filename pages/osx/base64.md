@@ -4,11 +4,11 @@
 
 - Encode a file:
 
-`base64 -i {{plain_file}}`
+`base64 --input={{plain_file}}`
 
 - Decode a file:
 
-`base64 --decode -i {{base64_file}}`
+`base64 --decode --input={{base64_file}}`
 
 - Encode from stdin:
 
