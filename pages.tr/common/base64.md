@@ -8,7 +8,7 @@
 
 - Bir dosyayı deşifre et:
 
-`base64 -d {{dosyaismi}}`
+`base64 --decode {{dosyaismi}}`
 
 - stdin'den şifrele:
 
@@ -16,4 +16,4 @@
 
 - stdin'den deşifre et:
 
-`{{herhangibirkomut}} | base64 -d`
+`{{herhangibirkomut}} | base64 --decode`
