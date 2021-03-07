@@ -17,4 +17,3 @@
 - stdin에서 디코딩:
 
 `{{somecommand}} | base32 -d`
-
