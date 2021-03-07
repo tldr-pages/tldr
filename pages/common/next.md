@@ -1,13 +1,13 @@
 # next
 
-> The Reactjs framework to build optimized web applications.
+> React framework that uses server-side rendered for building optimized web applications.
 > More information: <https://nextjs.org/docs>.
 
 - Start the current application in development mode:
 
 `next dev`
 
-- Start the current application in a specific port:
+- Start the current application and listen on a specific port:
 
 `next dev --port {{port}}`
 
@@ -19,7 +19,7 @@
 
 `next start`
 
-- Start the compiled application in a specific port:
+- Start the compiled application and listen on a specific port:
 
 `next start --port {{port}}`
 
