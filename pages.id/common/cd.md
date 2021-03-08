@@ -1,6 +1,6 @@
 # cd
 
-> Mengganti direktori yang dikunjungi saat ini
+> Mengganti direktori yang dikunjungi saat ini.
 
 - Menuju ke direktori yang telah ditentukan:
 
