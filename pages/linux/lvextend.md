@@ -1,8 +1,8 @@
 # lvextend
 
 > Increase the size of a logical volume.
-> One of the Logical Volume Manager (LVM) tools.
-> More information: <https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/logical_volume_manager_administration>.
+> See also: `lvm`.
+> More information: <https://man7.org/linux/man-pages/man8/lvextend.8.html>.
 
 - Increase a volume's size to 120GB:
 
