@@ -27,6 +27,6 @@
 
 `gh pr edit`
 
-- Edit the base branch for a pull request:
+- Edit the base branch of a pull request:
 
 `gh pr edit --base {{branch_name}}`
