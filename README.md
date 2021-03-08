@@ -163,7 +163,7 @@ All contributions are welcome!
 We strive to maintain a [welcoming and collaborative](GOVERNANCE.md) community.
 Have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!
 
-If you'd like to contribute to translations, you can visit https://lukwebsforge.github.io/tldri18n/
+If you'd like to contribute to translations, you can visit <https://lukwebsforge.github.io/tldri18n/>
 to see the current progress of all translations.
 
 ## Similar projects
