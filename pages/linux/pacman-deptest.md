@@ -3,10 +3,6 @@
 > Check each dependency specified and return a list of dependencies that are not currently satisfied on the system.
 > More information: <https://man.archlinux.org/man/pacman.8>.
 
-- Display help:
-
-`pacman --deptest --help`
-
 - Print the package names of the dependencies that aren't installed:
 
 `pacman --deptest {{package_name1}} {{package_name2}}`
@@ -18,3 +14,7 @@
 - Check if a later version of a package is installed:
 
 `pacman --deptest "{{bash>5}}"`
+
+- Display help:
+
+`pacman --deptest --help`
