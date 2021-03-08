@@ -1,6 +1,6 @@
 # pacman --deptest
 
-> Check each dependency specified and return a list of dependencies that are not currently satisfied on the system..
+> Check each dependency specified and return a list of dependencies that are not currently satisfied on the system.
 > More information: <https://man.archlinux.org/man/pacman.8>.
 
 - Display help:
