@@ -19,14 +19,14 @@
 
 `musescore --experimental`
 
-- Export the given file to the specified output file. The file type depends on the extension given:
+- Export the given file to the specified output file. The file type depends on the given extension:
 
 `musescore --export-to {{output_file}} {{input_file}}`
 
 - Print a diff between the given scores:
 
-`musescore --diff {{file1}} {{file2}}`
+`musescore --diff {{path/to/file1}} {{path/to/file2}}`
 
 - Specify a MIDI import operations file:
 
-`musescore --midi-operations {{file}}`
+`musescore --midi-operations {{path/to/file}}`
