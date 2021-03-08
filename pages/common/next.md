@@ -1,6 +1,6 @@
 # next
 
-> React framework that uses server-side rendered for building optimized web applications.
+> React framework that uses server-side rendering for building optimized web applications.
 > More information: <https://nextjs.org/docs>.
 
 - Start the current application in development mode:
