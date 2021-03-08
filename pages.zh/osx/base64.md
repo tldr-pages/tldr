@@ -4,11 +4,11 @@
 
 - 编码目标文件:
 
-`base64 -i {{目标文件}}`
+`base64 --input={{目标文件}}`
 
 - 解码目标文件:
 
-`base64 -D -i {{base64 编码文件}}`
+`base64 --decode --input={{base64 编码文件}}`
 
 - 通过标准输入管道进行解码:
 
@@ -16,4 +16,4 @@
 
 - 解码标准输入管道内容:
 
-`echo -n {{base64 字符串}} | base64 -D`
+`echo -n {{base64 字符串}} | base64 --decode`

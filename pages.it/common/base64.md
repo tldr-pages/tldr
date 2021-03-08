@@ -8,7 +8,7 @@
 
 - Decodifica un file:
 
-`base64 -d {{nome_file}}`
+`base64 --decode {{nome_file}}`
 
 - Codifica da stdin:
 
@@ -16,4 +16,4 @@
 
 - Decodifica da stdin:
 
-`{{comando}} | base64 -d`
+`{{comando}} | base64 --decode`

@@ -8,7 +8,7 @@
 
 - Décode un fichier :
 
-`base32 -d {{fichier}}`
+`base32 --decode {{fichier}}`
 
 - Encode depuis stdin :
 
@@ -16,4 +16,4 @@
 
 - Décode depuis stdin :
 
-`{{commande}} | base32 -d`
+`{{commande}} | base32 --decode`

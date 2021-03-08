@@ -1,6 +1,6 @@
 # git push
 
-> Schiebe Commits zu einem Remote-Repository
+> Schiebe Commits zu einem Remote-Repository.
 > Mehr Informationen: <https://git-scm.com/docs/git-push>.
 
 - Sende lokale Änderungen des aktuellen Branches zu seinem entfernten Gegenstück (Remote Branch):

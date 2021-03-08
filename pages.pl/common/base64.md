@@ -8,7 +8,7 @@
 
 - Dekoduj plik:
 
-`base64 -d {{nazwapliku}}`
+`base64 --decode {{nazwapliku}}`
 
 - Enkoduj z stdin:
 
@@ -16,4 +16,4 @@
 
 - Dekoduj z stdin:
 
-`{{jakiespolecenie}} | base64 -d`
+`{{jakiespolecenie}} | base64 --decode`

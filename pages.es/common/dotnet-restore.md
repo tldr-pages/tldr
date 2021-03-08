@@ -25,4 +25,4 @@
 
 - Restaura dependencias con un nivel específico de verbosidad:
 
-`dotnet restore --verbosity {{quiet|minimal|normal|detailed|diagnostic}}
+`dotnet restore --verbosity {{quiet|minimal|normal|detailed|diagnostic}}`
