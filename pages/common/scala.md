@@ -7,6 +7,10 @@
 
 `scala`
 
+- Start the interpreter with a dependency in the classpath:
+
+`scala -classpath {{filename.jar}} {{command}}`
+
 - Execute a Scala script:
 
 `scala {{script.scala}}`
