@@ -28,4 +28,4 @@
 
 - Rotate tcpdump packets:
 
-`$ tcpdump -i ens160 -w /tmp/network-%H-%M.pcap -W 48 -G 300 -C 100`
+`tcpdump --interface={{interface}} -w {{path/to/file.pcap}} -W {{48}} -G {{300}} -C {{100}}`
