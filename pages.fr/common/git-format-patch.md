@@ -4,7 +4,7 @@
 > Voir egalement `git am`, qui peut appliquer des fichiers de correctifs genérés.
 > Plus d'informations : <https://git-scm.com/docs/git-format-patch>.
 
--Créer un fichier de correctif `.patch` nommé automatiquement pour tout les commits non poussés :
+- Créer un fichier de correctif `.patch` nommé automatiquement pour tout les commits non poussés :
 
 `git format-patch {{origin}}`
 

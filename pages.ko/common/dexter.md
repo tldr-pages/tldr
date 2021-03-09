@@ -10,4 +10,3 @@
 - 기본 kube 구성파일 위치 재정의:
 
 `dexter auth -i {{클라이언트_아이디}} -s {{클라이언트_secret}} --kube-config {{예시/구성파일}}`
-

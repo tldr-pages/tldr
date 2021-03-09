@@ -8,7 +8,7 @@
 
 - Decodeer een bestand:
 
-`base64 -d {{bestandsnaam}}`
+`base64 --decode {{bestandsnaam}}`
 
 - Codeer stdin:
 
@@ -16,4 +16,4 @@
 
 - Decodeer stdin:
 
-`{{eencommando}} | base64 -d`
+`{{eencommando}} | base64 --decode`

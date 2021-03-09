@@ -31,4 +31,3 @@
 - 将指定电子邮件地址的私钥导出到标准输出：
 
 `gpg2 --export-secret-keys --armor {{alice@example.com}}`
-
