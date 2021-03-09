@@ -23,6 +23,8 @@ Just open an issue or send a pull request and we'll incorporate it as soon as po
 To get started, please [sign](https://cla-assistant.io/tldr-pages/tldr) the
 [Contributor License Agreement](https://gist.github.com/waldyrious/e50feec13683e565769fbd58ce503d4e).
 
+A bash script for creating a list of all executables on your system, which don't yet have a tldr page can be found at `scripts/find-undocumented.sh`
+
 *Note*: when submitting a new command, don't forget to check if there's already a pull request in progress for it.
 
 ## Guidelines

@@ -25,3 +25,7 @@ scripts/pdf/tldr-pages.pdf
 # Python venv for testing the PDF script
 # Create it with: python3 -m venv scripts/pdf/venv/
 scripts/pdf/venv/
+
+# List of undocumented commands
+undocumented.txt
+
