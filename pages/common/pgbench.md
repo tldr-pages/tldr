@@ -1,6 +1,6 @@
 # pgbench
 
-> pgbench — run a benchmark test on PostgreSQL
+> Run a benchmark test on PostgreSQL.
 > More information: <https://www.postgresql.org/docs/10/pgbench.html>.
 
 - Initialize database example with scaling option of 50 times the default size:
