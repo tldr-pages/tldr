@@ -4,7 +4,7 @@
 > DEPRECATION WARNING: This tool is being phased out in favor of `arduino`.
 > More information: <https://github.com/arduino/arduino-builder>.
 
-- Compile a sketch
+- Compile a sketch:
 
 `arduino-builder -compile {{path/to/sketch.ino}}`
 
