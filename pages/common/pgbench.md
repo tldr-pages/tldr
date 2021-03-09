@@ -9,4 +9,4 @@
 
 - Benchmark with 10 clients, 2 worker threads, and 10,000 transactions per client:
 
-`pgbench -c 10 -j 2 -t 10000 example`
+`pgbench --clients={{10}} --jobs={{2}} --transactions={{10000}} {{database_name}}`
