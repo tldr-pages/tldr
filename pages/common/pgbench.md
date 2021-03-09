@@ -5,7 +5,7 @@
 
 - Initialize database example with scaling option of 50 times the default size:
 
-`pgbench -i -s 50 example`
+`pgbench --initialize --scale={{50}} {{database_name}}`
 
 - Benchmark with 10 clients, 2 worker threads, and 10,000 transactions per client:
 
