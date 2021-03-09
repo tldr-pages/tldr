@@ -1,6 +1,6 @@
 # lvm
 
-> Manage physical volumes, volume groups, and logical volumes using the Logical Volume Manager (LVM) interactivce shell.
+> Manage physical volumes, volume groups, and logical volumes using the Logical Volume Manager (LVM) interactive shell.
 > More information: <https://man7.org/linux/man-pages/man8/lvm.8.html>.
 
 - Start the Logical Volume Manager interactive shell:
