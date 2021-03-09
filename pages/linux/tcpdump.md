@@ -24,7 +24,7 @@
 
 - Filter tcpdump packets from specific source & dest host:
 
-`tcpdump src 100.10.8.121`
+`tcpdump {{100.10.8.121}}`
 
 - Rotate tcpdump packets:
 
