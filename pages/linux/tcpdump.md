@@ -20,7 +20,7 @@
 
 - Capture packets from a specific protocol:
 
-`tcpdump -i ens160 -c 5 -nn tcp`
+`tcpdump --interface={{interface}} --count={{5}} -nn tcp`
 
 - Filter tcpdump packets from specific source & dest host:
 
