@@ -23,8 +23,8 @@ const settings = {
 	font_family: "sans-serif",
 	threshold: {
 		green: 0.9,
-		yellow: 0.75,
-		orange: 0.5
+		yellow: 0.5,
+		orange: 0.1
 	}
 };
 
