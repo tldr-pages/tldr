@@ -3,7 +3,7 @@
 > Tool to manage PlatformIO projects.
 > More information: <https://docs.platformio.org/en/latest/core/userguide/project/index.html>.
 
-- Initialize a new PlatformIO based project (defaults to current directory):
+- Initialize a new PlatformIO based project (defaults to current directory if `--project-dir` is omitted):
 
 `pio project init --project-dir {{path/to/project_directory}}`
 
