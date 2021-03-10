@@ -7,6 +7,6 @@
 
 `nload`
 
-- View network traffic on a particular interfaces (use the arrow keys to switch interfaces):
+- View network traffic on specific interfaces (use the arrow keys to switch interfaces):
 
 `nload device {{interface_one}} {{interface_two}}`
