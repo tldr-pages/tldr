@@ -55,7 +55,7 @@ function get_date() {
     "use strict";
     
 	console.log(`>>> Counting pages [ 1 / 2 ]`);
-    let pages = await count_pages(dirpath);
+  let pages = await count_pages(dirpath);
 	console.log(`>>> complete - stats:`, pages);
 	
 	console.log(`>>> Writing SVG [ 2 / 2 ]`);
