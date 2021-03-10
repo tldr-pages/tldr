@@ -138,7 +138,7 @@ both for the command line and for other platforms:
 - [Ruby client](https://github.com/YellowApple/tldrb):
   `gem install tldrb`
 - [Rust client](https://github.com/dbrgn/tealdeer):
-  `cargo install tealdeer`
+  `cargo install tealdeer` or `brew install tealdeer`
 - [Vim Client](https://github.com/wlemuel/vim-tldr)
 - [Visual Studio Code extension](https://github.com/bmuskalla/vscode-tldr) available on [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=bmuskalla.vscode-tldr)
 - Web clients:
