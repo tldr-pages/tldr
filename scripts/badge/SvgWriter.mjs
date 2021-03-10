@@ -14,7 +14,7 @@ class SvgWriter {
 	
 	async start(filename, width, height) {
 		this.writer = await LowLevelWriter.Open(filename);
-		await this.writer.write(`<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" version="1.1">`);
+		await this.writer.write(`<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" version="1.1">\n`);
 	}
 	async end() {
 		await this.writer.write(`</svg>\n`);
