@@ -7,7 +7,7 @@
 
 `chrt --pid {{PID}}`
 
-- Display attributes all threads of a process:
+- Display attributes of all threads of a process:
 
 `chrt --all-tasks --pid {{PID}}`
 
