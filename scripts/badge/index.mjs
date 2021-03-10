@@ -28,7 +28,7 @@ const settings = {
 	}
 };
 
-if(typeof filepath_output !== "string") {
+if (typeof filepath_output !== "string") {
 	console.error(`tldr translations badge maker
 
 Usage:
