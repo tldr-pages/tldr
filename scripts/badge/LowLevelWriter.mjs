@@ -46,7 +46,7 @@ class LowLevelWriter extends EventEmitter {
 					reject(err);
 					return false;
 				}
-				if(bytes_written != chunk.length) {
+				if (bytes_written != chunk.length) {
 					reject(`Error: Buffer has length of ${chunk.length} bytes, but ${bytes_written} bytes were actually written.`);
 					return false;
 				}
