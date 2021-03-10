@@ -14,3 +14,7 @@
 - Print the version of OpenSSL:
 
 `openssl version`
+
+- Print num pseudo-random bytes
+
+`openssl rand {{num}}`
