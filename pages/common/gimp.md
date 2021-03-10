@@ -3,7 +3,11 @@
 > An image manipulation and paint program.
 > More information: <https://docs.gimp.org/en/gimp-fire-up.html#gimp-concepts-running-command-line>.
 
-- Don't show the splash screen:
+- Launch GIMP:
+
+`gimp`
+
+- Launch but don't show the splash screen:
 
 `gimp --no-splash`
 
