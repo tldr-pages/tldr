@@ -14,11 +14,11 @@ const colours = {
 	green: `hsl(128, 63%, 45%)`,
 	yellow: `hsl(57, 81%, 54%)`,
 	orange: `hsl(32, 93%, 48%)`,
-	red: `hsl(10, 72%, 63%)`
+	red: `hsl(10, 72%, 58%)`
 }
 const settings = {
-	width: 256,
-	divider: 128,
+	width: 150,
+	divider: 64,
 	font_size: 20,
 	font_family: "sans-serif",
 	threshold: {
@@ -46,6 +46,11 @@ function get_colour_percent(percent) {
 	return colours.red;
 }
 
+function get_date() {
+	let d = new Date();
+	return d.toISOString().split("T")[0];
+}
+
 (async () => {
     "use strict";
     
@@ -62,32 +67,27 @@ function get_colour_percent(percent) {
 		filepath_output,
 		settings.width, height
 	);
+	
+	// Header
+	// -------------------------------------------
 	await svg.fillRect(0, 0, settings.width, height, colours.bg);
 	svg.font_weight("bold");
 	await svg.text(10, settings.font_size, "tldr-pages", colours.text);
 	svg.font_weight("normal");
 	await svg.text(10, settings.font_size*2, "translation progress", colours.text);
 	
-	svg.beginPath(0, header_height);
-	svg.lineTo(settings.width, 0);
-	svg.moveTo(settings.divider, header_height, false);
-	svg.lineTo(settings.divider, height - settings.font_size, false);
-	svg.moveTo(0, height - settings.font_size, false);
-	svg.lineTo(settings.width, height - settings.font_size, false);
-	
-	
-	await svg.stroke(colours.lines);
+	// Translation stats
+	// -------------------------------------------
 	let y = header_height, i = 0;
 	for(let code in pages) {
 		let lang = pages[code];
-		if(i % 2 == 0)
-			await svg.fillRect(0, y, settings.divider, settings.font_size, `rgba(200, 200, 200, 0.25)`);
-		
 		await svg.fillRect(
 			settings.divider, y,
 			settings.width - settings.divider, settings.font_size,
 			get_colour_percent(lang.percent)
 		);
+		if(i % 2 == 0)
+			await svg.fillRect(0, y, settings.width, settings.font_size, `rgba(200, 200, 200, 0.25)`);
 		
 		let text_y = y + settings.font_size * 0.7;
 		await svg.text(10, text_y, code, colours.text);
@@ -96,6 +96,23 @@ function get_colour_percent(percent) {
 		
 		i++; y += settings.font_size;
 	}
+	
+	// Footer
+	// -------------------------------------------
+	await svg.text(10, height - settings.font_size*0.28, `Updated ${get_date()}`, colours.text);
+	
+	// Dividing Lines
+	// -------------------------------------------
+	svg.beginPath(0, header_height);
+	svg.lineTo(settings.width, 0);
+	svg.moveTo(settings.divider, header_height, false);
+	svg.lineTo(settings.divider, height - settings.font_size, false);
+	svg.moveTo(0, height - settings.font_size, false);
+	svg.lineTo(settings.width, height - settings.font_size, false);
+	
+	await svg.stroke(colours.lines, 4);
+	
+	
 	await svg.end();
 	console.log(`>>> complete`);
 })();

@@ -31,7 +31,7 @@ class SvgWriter {
 		this.path.push(`${relative?"l":"L"} ${x} ${y}`);
 	}
 	async stroke(colour, width = 2) {
-		await this.writer.write(`\t<path d="${this.path.join(" ")}" stroke="${colour}" width="${width}" />\n`);
+		await this.writer.write(`\t<path d="${this.path.join(" ")}" stroke="${colour}" stroke-width="${width}px" />\n`);
 	}
 	async fill(colour) {
 		await this.writer.write(`\t<path d="${this.path.join(" ")}" fill="${colour}" />\n`)
