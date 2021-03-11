@@ -19,4 +19,3 @@
 - Browse for both SSH and VNC servers in a specified domain:
 
 `bshell --domain={{domain}}`
-
