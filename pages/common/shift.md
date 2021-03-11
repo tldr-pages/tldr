@@ -7,6 +7,6 @@
 
 `shift`
 
-- Move arguments by {{n}} places dropping the first {{n}} arguments:
+- Move arguments by N places dropping the first N arguments:
 
-`shift {{n}}`
+`shift {{N}}`
