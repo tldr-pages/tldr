@@ -59,7 +59,9 @@ tldr -l
 
 The first argument that does not start with a dash (`-`), MUST be considered the page name.
 
-Page names MAY contain spaces (e.g. `git status`), and such page names MUST be transparently concatenated with dashes (`-`). For example, the page name `git checkout` becomes `git-checkout`. Page names MAY contain mixed capitalization, and such page names MUST be transparently lowercased. For example, the page name `eyeD3` becomes `eyed3`.
+Page names MAY contain spaces (e.g. `git status`), and such page names MUST be transparently concatenated with dashes (`-`). For example, the page name `git checkout` becomes `git-checkout`.
+
+Page names MAY contain mixed capitalization, and such page names MUST be transparently lowercased. For example, the page name `eyeD3` becomes `eyed3`.
 
 Here are some example invocations:
 
