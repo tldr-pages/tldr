@@ -11,4 +11,3 @@
 - Display information about volume group vg1:
 
 `sudo vgdisplay {{vg1}}`
-
