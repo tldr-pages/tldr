@@ -6,7 +6,7 @@
 
 - Synchronize the pkgfile database:
 
-`pkgfile -u`
+`pkgfile --update`
 
 - Search for a package that owns a specific file:
 
@@ -14,4 +14,4 @@
 
 - List all files provided by a package:
 
-`pkgfile -l {{pagkage_name}}`
+`pkgfile --list {{package_name}}`
