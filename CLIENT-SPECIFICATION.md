@@ -59,27 +59,18 @@ tldr -l
 
 The first argument that does not start with a dash (`-`), MUST be considered the page name.
 
-In addition, page names MAY contain spaces (e.g. `git status`) - such page names MUST be transparently concatenated with dashes (`-`). For example, the page name:
+Page names MAY contain spaces (e.g. `git status`), and such page names MUST be transparently concatenated with dashes (`-`). For example, the page name `git checkout` becomes `git-checkout`.
 
-```
-git checkout
-```
-
-becomes this:
-
-```
-git-checkout
-```
+Page names MAY contain mixed capitalization, and such page names MUST be transparently lowercased. For example, the page name `eyeD3` becomes `eyed3`.
 
 Here are some example invocations:
 
 ```bash
 tldr 7za
-tldr eyeD3
-tldr git checkout
+tldr eyeD3  # equivalent to tldr eyed3
+tldr git checkout  # equivalent to tldr git-checkout
 tldr --platform osx bash
 ```
-
 
 ## Directory structure
 
@@ -130,7 +121,7 @@ Although this specification is about the interface that clients must provide, it
 
 This section defines the algorithm by which a client can decide which page a user has requested.
 
-After transparently replacing spaces (` `) with dashes (`-`), clients have several decisions to make:
+After transparently replacing spaces (` `) with dashes (`-`) and lowercasing the name, clients have several decisions to make:
 
  - The language of a page to display to a client
  - The platform to display a page from
