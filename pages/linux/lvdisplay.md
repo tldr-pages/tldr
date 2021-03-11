@@ -14,4 +14,4 @@
 
 - Display information about logical volume lv1 in volume group vg1:
 
-`sudo lvdisplay {{vg1/lv1}}
+`sudo lvdisplay {{vg1/lv1}}`
