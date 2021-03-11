@@ -1,7 +1,7 @@
 # shift
 
 > Bash built-in command that shifts the arguments passed to the calling function or script by a specified number of places.
-> See <https://www.gnu.org/software/bash/manual/bash.html> for more information.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html>.
 
 - Move arguments by one place dropping the first argument:
 
