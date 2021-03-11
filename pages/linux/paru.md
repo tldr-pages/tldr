@@ -19,6 +19,6 @@
 
 `paru -Si {{package_name}}`
 
-- Show statistics for installed packages and system health:
+- Download PKGBUILDs from the AUR or ABS:
 
-`paru -P --stats`
+`paru -G {{package_name}}`
