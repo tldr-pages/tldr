@@ -1,4 +1,4 @@
-# 7za
+# 7zr
 
 > This command is an alias of 7z.
 > 7zr is a cross-platform version of 7z, that supports only .7z files.
