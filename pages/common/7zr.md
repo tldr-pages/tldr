@@ -1,17 +1,8 @@
-# 7zr
+# 7za
 
-> A file archiver with high compression ratio.
-> A standalone version of `7z` that only supports .7z files.
-> More information: <https://www.7-zip.org/>.
+> This command is an alias of 7z.
+> 7zr is a cross-platform version of 7z, that supports only .7z files.
 
-- Archive a file or directory:
+- View documentation for the original command:
 
-`7zr a {{archived.7z}} {{path/to/file_or_directory}}`
-
-- Extract an existing 7z file with original directory structure:
-
-`7zr x {{archived.7z}}`
-
-- List the contents of an archive file:
-
-`7zr l {{archived.7z}}`
+`tldr 7z`

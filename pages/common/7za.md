@@ -1,25 +1,8 @@
 # 7za
 
-> A file archiver with high compression ratio.
-> A standalone version of `7z` with support for fewer archive types.
-> More information: <https://www.7-zip.org/>.
+> This command is an alias of 7z.
+> 7za is a cross-platform version of 7z, that supports fewer archive types.
 
-- Archive a file or directory:
+- View documentation for the original command:
 
-`7za a {{archived.7z}} {{path/to/file_or_directory}}`
-
-- Extract an existing 7z file with original directory structure:
-
-`7za x {{archived}}`
-
-- Archive using a specific archive type:
-
-`7za a -t{{zip|gzip|bzip2|tar}} {{archived}} {{path/to/file_or_directory}}`
-
-- List available archive types:
-
-`7za i`
-
-- List the contents of an archive file:
-
-`7za l {{archived}}`
+`tldr 7z`
