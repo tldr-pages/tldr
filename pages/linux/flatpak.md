@@ -25,3 +25,12 @@
 - List all configured remote sources:
 
 `flatpak remote-list`
+
+- Remove an installed application:
+
+`flatpak remove {{name/application id}}`
+
+- Get an info from installed application:
+
+`flatpak info {{name/application id}}`
+
