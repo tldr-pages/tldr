@@ -21,4 +21,4 @@
 
 - Extract the last core dump of a program to a file:
 
-`coredumpctl -o {{path/to/file}} dump {{program}}`
+`coredumpctl --output={{path/to/file}} dump {{program}}`
