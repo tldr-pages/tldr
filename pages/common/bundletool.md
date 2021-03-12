@@ -7,15 +7,15 @@
 
 `bundletool help {{subcommand}}`
 
-- Generate an APKs from an application bundle (prompts for keystore password):
+- Generate APKs from an application bundle (prompts for keystore password):
 
 `bundletool build-apks --bundle={{path/to/bundle.aab}} --ks={{path/to/key.keystore}} --ks-key-alias={{key_alias}} --output={{path/to/file.apks}}`
 
-- Generate an APKs from an application bundle giving the keystore password:
+- Generate APKs from an application bundle giving the keystore password:
 
 `bundletool build-apks --bundle={{path/to/bundle.aab}} --ks={{path/to/key.keystore}} --ks-key-alias={{key_alias}} –ks-pass={{pass:the_password}} --output={{path/to/file.apks}}`
 
-- Generate an APKs file including only one single APK for universal usage:
+- Generate APKs file including only one single APK for universal usage:
 
 `bundletool build-apks --bundle={{path/to/bundle.aab}} --mode={{universal}} --ks={{path/to/key.keystore}} --ks-key-alias={{key_alias}} --output={{path/to/file.apks}}`
 
