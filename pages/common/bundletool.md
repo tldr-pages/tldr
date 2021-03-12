@@ -23,7 +23,7 @@
 
 `bundletool install-apks --apks={{path/to/file.apks}}`
 
-- Estimate the download size of the application:
+- Estimate the download size of an application:
 
 `bundletool get-size total --apks={{path/to/file.apks}}`
 
