@@ -1,7 +1,7 @@
 # dig
 
 > DNS Lookup utility.
-> More information: <https://manpages.debian.org/buster/dnsutils/dig.1.en.html>.
+> More information: <https://manpages.debian.org/dnsutils/dig.1.html>.
 
 - Lookup the IP(s) associated with a hostname (A records):
 
