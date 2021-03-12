@@ -1,6 +1,6 @@
 # coredumpctl
 
-> Retrieve and process saved core dumps and metadata
+> Retrieve and process saved core dumps and metadata.
 > More information: <https://www.freedesktop.org/software/systemd/man/coredumpctl.html>.
 
 - List all captured core dumps:
