@@ -21,4 +21,4 @@
 
 - Sende 100 HTTP POST Anfragen an eine gegebene URL, wobei eine JSON Belastung aus einer Datei verwendet wird:
 
-`ab -n {{100}} -T {{application/json}} -p {{pfad/zur/datei.json}} {{url}}`
+`ab -n {{100}} -T {{application/json}} -p {{pfad/zu/datei.json}} {{url}}`
