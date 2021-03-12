@@ -1,7 +1,7 @@
 # ab
 
 > Утилита бенчмаркинга Apache. Самая простая утилита для проведения нагрузочного тестирования.
-> Больше информации: <https://httpd.apache.org/docs/2.4/programs/ab.html>.
+> Больше информации: <https://httpd.apache.org/docs/current/programs/ab.html>.
 
 - Запустить 100 запросов HTTP GET по заданному URL:
 
