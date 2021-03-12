@@ -21,4 +21,4 @@
 
 - Запустить 100 запросов HTTP POST по заданному URL, используя в качестве полезной нагрузки JSON из файла:
 
-`ab -n {{100}} -T {{application/json}} -p {{data.json}} {{url}}`
+`ab -n {{100}} -T {{application/json}} -p {{путь/до/файла.json}} {{url}}`
