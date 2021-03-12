@@ -28,9 +28,8 @@
 
 - Remove an installed application:
 
-`flatpak remove {{name/application id}}`
+`flatpak remove {{name}}`
 
 - Get an info from installed application:
 
-`flatpak info {{name/application id}}`
-
+`flatpak info {{name}}`
