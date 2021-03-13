@@ -142,6 +142,7 @@ both for the command line and for other platforms:
 - [Vim Client](https://github.com/wlemuel/vim-tldr)
 - [Visual Studio Code extension](https://github.com/bmuskalla/vscode-tldr) available on [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=bmuskalla.vscode-tldr)
 - Web clients:
+    - [tldr.dendron.so](https://github.com/kevinslin/seed-tldr): https://tldr.dendron.so
     - [tldr.jsx](https://github.com/ostera/tldr.jsx): http://tldr.ostera.io
     - [tldr.finzzz.net](https://git.finzzz.net/tldr/): https://tldr.finzzz.net
     - [DistroWatch](https://distrowatch.com/dwres.php?resource=man-pages)
