@@ -3,14 +3,14 @@
 > Python style guide checker.
 > More information: <https://github.com/google/yapf>.
 
-- Print out the diff that will occur after formatting:
+- Display the diff of the changes that would be made, without making them (dry-run):
 
 `yapf --diff {{path/to/file}}`
 
-- Format the file in-place and and display diff:
+- Format the file in-place and display a diff of the changes:
 
 `yapf --diff --in-place {{path/to/file}}`
 
-- Format all Python files in a directory recursively in parallel:
+- Recursively format all Python files in a directory, concurrently:
 
 `yapf --recursive --in-place --style {{pep8}} --parallel {{path/to/directory}}`
