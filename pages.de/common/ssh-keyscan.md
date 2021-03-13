@@ -12,7 +12,7 @@
 
 - Rufe bestimmte SSH Schüssel-Typen ab:
 
-`ssh-keyscan -t {{rsa|dsa|ecdsa|ed25519}} {{server}}`
+`ssh-keyscan -t {{rsa,dsa,ecdsa,ed25519}} {{server}}`
 
 - Aktualisiere die `known_hosts` SSH Datei mit dem Fingerabdruck eines bestimmten Servers:
 

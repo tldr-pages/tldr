@@ -16,7 +16,7 @@
 
 - Nummeriere alle ausgegebenen Zeilen:
 
-`cat -n {{/pfad/zu/datei}}`
+`cat -n {{pfad/zu/datei}}`
 
 - Gib eine Datei inklusive aller unsichtbaren Leerzeichen aus (mit `M-` Präfix wenn sie nicht ASCII sind):
 

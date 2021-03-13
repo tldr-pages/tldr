@@ -4,7 +4,7 @@
 
 - Füge ein neues Repository hinzu:
 
-`apt-add-repository {{repository}}`
+`apt-add-repository {{repository_spec}}`
 
 - Entferne ein Repository:
 

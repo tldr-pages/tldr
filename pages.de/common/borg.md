@@ -10,7 +10,7 @@
 
 - Sichere ein Verzeichnis in das Repository und erstelle ein Archiv mit dem Namen "Montag":
 
-`borg create --progress {{pfad/zu/repo_verzeichnis}}::{{Montag}} {{/pfad/zu/quell_verzeichnis}}`
+`borg create --progress {{pfad/zu/repo_verzeichnis}}::{{Montag}} {{pfad/zu/quell_verzeichnis}}`
 
 - Liste alle Archive in einem Repository auf:
 

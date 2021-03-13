@@ -22,7 +22,7 @@
 
 - Liste alle AWS Ressourcen in einer Region mit YAML Formatierung auf:
 
-`aws dynamodb list-tables --region {{region}} --output yaml`
+`aws dynamodb list-tables --region {{us-east-1}} --output yaml`
 
 - Erstelle einen IAM Benutzer mit Ausführungsassistent:
 

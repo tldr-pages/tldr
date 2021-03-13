@@ -35,8 +35,3 @@
 - Extrahiere Dateien die mit einem Muster übereinstimmen:
 
 `tar xf {{pfad/zu/quelle.tar}} --wildcards "{{*.html}}"`
-
-- Extrahiere eine bestimmte Datei ohne die Verzeichnisstruktur beizubehalten:
-
-`tar xf {{pfad/zu/quelle.tar}} {{pfad/zu/quelle.tar/pfad/zum/extrahieren}} --strip-components={{tiefe_zu_entfernen}}`
-
