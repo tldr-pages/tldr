@@ -1,17 +1,17 @@
 # git format-patch
 
-> Prepare .patch files. Useful when emailing commits elsewhere.
-> See also `git am`, which can apply generated .patch files.
-> More information: <https://git-scm.com/docs/git-format-patch>.
+> `.patch` dosyaları oluştur. Commit'leri e-posta olarak gönderirken işe yarar.
+> Ayrıca benzer bir komut olan `git am` sayfasına bakılması önerilir.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-format-patch>.
 
-- Create an auto-named `.patch` file for all the unpushed commits:
+- Gönderilmemiş tüm commit'ler için otomatik olarak adlandırılan bir `.patch` dosyası oluştur:
 
 `git format-patch {{origin}}`
 
-- Write a `.patch` file for all the commits between 2 revisions to stdout:
+- stdout'daki belirtilen 2 revizyon arasındaki tüm commit'ler için bir `.patch` dosyası oluştur:
 
-`git format-patch {{revision_1}}..{{revision_2}}`
+`git format-patch {{revizyon_1}}..{{revizyon_2}}`
 
-- Write a `.patch` file for the 3 latest commits:
+- Son 3 commit için bit `.patch` dosyası oluştur:
 
 `git format-patch -{{3}}`
