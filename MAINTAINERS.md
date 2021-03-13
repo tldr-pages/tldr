@@ -27,6 +27,8 @@ If you are an owner of the organization, you should be able to see an automated 
   [13 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — present
 - **Muhammad Falak R Wani ([@mfrw](https://github.com/mfrw))**:
   [7 September 2018](https://github.com/tldr-pages/tldr/issues/2306) — present
+- **David Bialik ([@AnimiVulpis](https://github.com/AnimiVulpis))**:
+  [5 November 2018](https://github.com/tldr-pages/tldr/issues/2556) — present
 - **Andrik Albuquerque ([@andrik](https://github.com/andrik))**:
   [9 May 2019](https://github.com/tldr-pages/tldr/issues/2988) — present
 - **Ivan Aracki ([@Aracki](https://github.com/Aracki))**:
