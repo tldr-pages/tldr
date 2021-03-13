@@ -1,6 +1,6 @@
 # arduino
 
-> Arduino Studio - Integrated Development Environment for Arduino boards.
+> Arduino Studio - Integrated Development Environment for the Arduino platform.
 > More information: <https://github.com/arduino/Arduino/blob/master/build/shared/manpage.adoc>.
 
 - Build a sketch:
@@ -19,7 +19,7 @@
 
 `arduino --pref {{name}}={{value}}`
 
-- Build a sketch, put the build results in the build directory an reuse any previous build results in that directory:
+- Build a sketch, put the build results in the build directory, and reuse any previous build results in that directory:
 
 `arduino --pref build.path={{path/to/build_directory}} --verify {{path/to/file.ino}}`
 
