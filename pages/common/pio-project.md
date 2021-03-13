@@ -13,7 +13,7 @@
 
 - Initialize a new PlatformIO project, specifying a board ID:
 
-`pio project init --board {{ATmega328P|teensy2|uno}}`
+`pio project init --board {{ATmega328P|uno|...}}`
 
 - Initialize a new PlatformIO based project, specifying one or more project options:
 
