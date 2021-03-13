@@ -7,7 +7,7 @@
 
 `yapf --diff {{path/to/file}}`
 
-- Print out the formatted diff and make the changes in the file:
+- Format the file in-place and and display diff:
 
 `yapf --diff --in-place {{path/to/file}}`
 
