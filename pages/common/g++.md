@@ -1,4 +1,4 @@
-# gplusplus
+# g++
 
 > Compiles C++ source files.
 > Part of GCC (GNU Compiler Collection).

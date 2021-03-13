@@ -39,3 +39,4 @@
 - Extrahiere eine bestimmte Datei ohne die Verzeichnisstruktur beizubehalten:
 
 `tar xf {{pfad/zu/quelle.tar}} {{pfad/zu/quelle.tar/pfad/zum/extrahieren}} --strip-components={{tiefe_zu_entfernen}}`
+

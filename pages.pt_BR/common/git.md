@@ -1,6 +1,6 @@
 # git
 
-> Sistema de versionamento distribuído
+> Sistema de versionamento distribuído.
 > Mais informações: <https://git-scm.com>.
 
 - Verifique a versão do Git:

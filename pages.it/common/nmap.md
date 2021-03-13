@@ -32,10 +32,6 @@
 
 `nmap -sSU {{indirizzo_o_indirizzi}}`
 
-- Esegui una scansione di cifratori TLS verso un host per individuarne i cifratori supportati e i protocolli SSL/TLS:
-
-`nmap --script ssl-enum-ciphers {{indirizzo_o_indirizzi}} -p 443`
-
 - Determina vulnerabilità e informazioni di un host eseguendo una scansione di tutte le porte, servizi e versioni con tutti gli script di default NSE attivi:
 
 `nmap -sC -sV {{indirizzo_o_indirizzi}}`

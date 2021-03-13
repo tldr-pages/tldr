@@ -21,4 +21,3 @@
 - Muestra el calendario para un año y mes concretos:
 
 `cal {{month}} {{year}}`
-
