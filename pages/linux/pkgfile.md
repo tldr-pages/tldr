@@ -6,12 +6,32 @@
 
 - Synchronize the pkgfile database:
 
-`pkgfile --update`
+`sudo pkgfile --update`
 
 - Search for a package that owns a specific file:
 
-`pkgfile {{path/to/file}}`
+`pkgfile {{filename}}`
 
 - List all files provided by a package:
 
 `pkgfile --list {{package_name}}`
+
+- List only files in the `bin` directory provided by a package:
+
+`pkgfile --list --binaries {{package_name}}`
+
+- Search for a package that owns a specific file using case insensitive matching:
+
+`pkgfile --ignorecase {{filename}}`
+
+- Search for a package that owns a specific file in the `bin` directory:
+
+`pkgfile --binary {{filename}}`
+
+- Search for a package that owns a specific file displaying the package version:
+
+`pkgfile --verbose {{filename}}`
+
+- Search for a package that owns a specific file in a specific repository:
+
+`pkgfile --repo {{repository_name}} {{filename}}`
