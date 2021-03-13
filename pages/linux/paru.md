@@ -19,6 +19,10 @@
 
 `paru -Si {{package_name}}`
 
-- Download PKGBUILDs from the AUR or ABS:
+- Download `PKGBUILD` and other package source files from the AUR or ABS:
 
-`paru -G {{package_name}}`
+`paru --getpkgbuild  {{package_name}}`
+
+- Display the `PKGBUILD` of a package:
+
+`paru --getpkgbuild --print {{package_name}}`
