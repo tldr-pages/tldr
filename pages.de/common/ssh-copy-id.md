@@ -8,7 +8,7 @@
 
 - Kopiere den angegebenen öffentlichen SSH Schlüssels zu einem externen Server:
 
-`ssh-copy-id -i {{pfad/zu/öffentlichem_schlüssel}} {{benutzer@externer_server}}`
+`ssh-copy-id -i {{pfad/zu/öffentlichem_schlüssel}} {{benutzer}}@{{externer_server}}`
 
 - Kopiere den angegeben öffentlichen SSH Schlüssels zu einem externen Server unter Angabe eines bestimmten SSH Ports:
 
