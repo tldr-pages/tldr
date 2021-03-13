@@ -29,8 +29,8 @@
 
 - Compara un único archivo entre dos ramas o commits:
 
-`git diff {{rama_1}}..{{rama_2}} [--] {{ruta/del/archivo}}`
+`git diff {{rama_1}}..{{rama_2}} [--] {{ruta/al/archivo}}`
 
 - Compara diferentes archivos de la rama actual con otra rama:
 
-`git diff {{rama}}:{{ruta/del/archivo}} {{ruta/del/archivo2}}`
+`git diff {{rama}}:{{ruta/al/archivo}} {{ruta/al/archivo2}}`
