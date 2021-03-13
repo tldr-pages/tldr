@@ -1,20 +1,20 @@
 # git commit
 
-> Commit Dateien in das Repository.
+> Committe Dateien in ein Repository.
 > Mehr Informationen: <https://git-scm.com/docs/git-commit>.
 
-- Commiten von gestagten Dateien zum Repository mit einer Nachricht:
+- Committe gestagten Dateien zum Repository mit einer Nachricht:
 
-`git commit -m {{message}}`
+`git commit -m {{nachricht}}`
 
-- Automatisches Stagen aller modifizierten Datei und nachfolgendem Commiten mit einer Nachricht:
+- Stage alle modifizierten Dateien und comitte sie mit einer Nachricht:
 
-`git commit -a -m {{message}}`
+`git commit -a -m {{nachricht}}`
 
-- Ersetzt den letzten Commit mit den gerade auf dem Stage liegenden Änderungen:
+- Ersetze den letzten Commit mit den gerade auf dem Stage liegenden Änderungen:
 
 `git commit --amend`
 
-- Nur spezifische Dateien commiten (die Dateien müssen schon auf dem Stage liegen):
+- Comitte nur spezifische Dateien (die Dateien müssen schon auf dem Stage liegen):
 
-`git commit {{path/to/my/file1}} {{path/to/my/file2}}`
+`git commit {{pfad/zu/datei1}} {{pfad/zu/datei2}}`

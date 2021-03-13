@@ -1,13 +1,13 @@
 # ab
 
-> Apache Benchmarking Tool. Das einfachste Tool um eine Belastungsprobe durchzuführen.
-> Mehr Informationen: <https://httpd.apache.org/docs/2.4/programs/ab.html>.
+> Apache HTTP server Benchmarking Tool.
+> Mehr Informationen: <https://httpd.apache.org/docs/current/programs/ab.html>.
 
-- Sende 100 HTTP GET Anfragen an eine gegebene URL:
+- Sende 100 HTTP GET Anfragen an eine URL:
 
 `ab -n {{100}} {{url}}`
 
-- Sende 100 HTTP GET Anfragen an eine gegebene URL, wovon bis zu 10 gleichzeitig bearbeitet werden:
+- Sende 100 HTTP GET Anfragen an eine URL, wovon bis zu 10 gleichzeitig bearbeitet werden:
 
 `ab -n {{100}} -c {{10}} {{url}}`
 
@@ -19,6 +19,6 @@
 
 `ab -t {{60}} {{url}}`
 
-- Sende 100 HTTP POST Anfragen an eine gegebene URL, wobei eine JSON Belastung aus einer Datei verwendet wird:
+- Sende 100 HTTP POST Anfragen an eine URL, wobei eine JSON Belastung aus einer Datei verwendet wird:
 
-`ab -n {{100}} -T {{application/json}} -p {{daten.json}} {{url}}`
+`ab -n {{100}} -T {{application/json}} -p {{pfad/zu/datei.json}} {{url}}`

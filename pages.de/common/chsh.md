@@ -1,7 +1,7 @@
 # chsh
 
-> Login-Shell des Benutzers ändern.
+> Ändere die Login-Shell eines Benutzers.
 
-- Shell ändern:
+- Ändere die Login-Shell eines Benutzers:
 
-`chsh -s {{pfad/zum/shell_programm}} {{benutzername}}`
+`chsh -s {{pfad/zu/shell}} {{benutzername}}`
