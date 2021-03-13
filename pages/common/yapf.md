@@ -1,6 +1,7 @@
 # yapf
 
 > Python style guide checker
+> Source code: https://github.com/google/yapf
 
 - Print out the diff that will occur after formatting.
 
