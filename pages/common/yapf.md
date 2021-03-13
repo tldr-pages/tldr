@@ -11,6 +11,6 @@
 
 `yapf --diff --in-place {{path/to/file}}`
 
-- Format all Python files in a directory recursivly (in pep8 style for example) in parallel:
+- Format all Python files in a directory recursively in parallel:
 
-`yapf --recursive --in-place --style pep8 --parallel {{path/to/directory}}`
+`yapf --recursive --in-place --style {{pep8}} --parallel {{path/to/directory}}`
