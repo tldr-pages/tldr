@@ -1,32 +1,37 @@
 # ack
 
-> A search tool like grep, optimized for programmers.
+> A search tool like grep, optimized for developers.
+> See also: `rg`, which is much faster.
 > More information: <https://beyondgrep.com/documentation/>.
 
-- Find files containing "foo":
+- Search for files in the current directory and subdirectories containing for a string or regular expression:
 
-`ack {{foo}}`
+`ack "{{search_pattern}}"`
 
-- Find files of a specific type:
+- Search for files in the current directory and subdirectories containing for a string or regular expression:
 
-`ack --ruby {{foo}}`
+`ack "{{search_pattern}}"`
 
-- Count the total number of matches for the term "foo":
+- Limit search to files of a specific type:
 
-`ack -ch {{foo}}`
+`ack --type={{ruby}} "{{search_pattern}}`
 
-- Show the file names containing "foo" and number of matches in each file:
+- Do not search in files of a specific type:
 
-`ack -cl {{foo}}`
+`ack --type=no{{ruby}} "{{search_pattern}}`
 
-- Search a file for a specified string:
+- Count the total number of matches for the search term:
 
-`ack bar "{{foo bar}}" {{path/to/file}}`
+`ack --count --no-filename "{{search_pattern}}"`
 
-- Search a file for the specified regex pattern:
+- Print the file names and the number of matches only:
 
-`ack bar "{{[bB]ar \d+}}" {{path/to/file}}`
+`ack --count --files-with-matches "{{search_pattern}}"`
 
-- List all valid types:
+- Search for lines matching a pattern, printing [o]nly the matched text and not the rest of the line:
+
+`ack -o "{{search_pattern}}"`
+
+- List all valid values that can be used with `--type`:
 
 `ack --help-types`
