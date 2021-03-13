@@ -4,7 +4,7 @@
 > See also: `rg`, which is much faster.
 > More information: <https://beyondgrep.com/documentation>.
 
-- Search for files containing a string or regular expressionin the current directory and subdirectories:
+- Search for files containing a string or regular expression in the current directory and subdirectories:
 
 `ack "{{search_pattern}}"`
 
@@ -24,14 +24,14 @@
 
 `ack --type=no{{ruby}} "{{search_pattern}}`
 
-- Count the total number of matches for the search term:
+- Count the total number of matches for the search pattern:
 
 `ack --count --no-filename "{{search_pattern}}"`
 
-- Print the file names and the number of matches only:
+- Print the file names and the number of matches for each file only:
 
 `ack --count --files-with-matches "{{search_pattern}}"`
 
-- List all valid values that can be used with `--type`:
+- List all values that can be used with `--type`:
 
 `ack --help-types`
