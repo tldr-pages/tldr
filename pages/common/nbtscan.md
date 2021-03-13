@@ -1,6 +1,6 @@
 # nbtscan
 
-> Scan networks for NetBIOS name information
+> Scan networks for NetBIOS name information.
 > More information: <https://github.com/resurrecting-open-source-projects/nbtscan>.
 
 - Scan a network for NETBIOS names:
