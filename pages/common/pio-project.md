@@ -3,18 +3,22 @@
 > Tool to manage PlatformIO projects.
 > More information: <https://docs.platformio.org/en/latest/core/userguide/project/index.html>.
 
-- Initialize a new PlatformIO based project (defaults to current directory if `--project-dir` is omitted):
+- Initialize a new PlatformIO based project:
+
+`pio project init`
+
+- Initialize a new PlatformIO based project in a specific direcdory:
 
 `pio project init --project-dir {{path/to/project_directory}}`
 
-- Initialize a new PlatformIO based project, specifying a board ID and several project options:
+- Initialize a new PlatformIO based project, specifying a board ID:
 
-`pio project init --project-dir {{path/to/project_directory}} --board {{board_id}} --project-option="{{option}}={{value}}}" --project-option="{{option}}={{value}}"`
+`pio project init --board {{board_id}}`
 
-- Print configurations of a specific project:
+- Initialize a new PlatformIO based project, specifying one or more project options:
 
-`pio project config --project-dir {{path/to/project_directory}}`
+`pio project init --project-option="{{option}}={{value}}" --project-option="{{option}}={{value}}"
 
-- Print data of a specific project, intended for IDE extensions/plugins:
+- Print the configuration of a project:
 
-`pio project data --project-dir {{path/to/project_directory}}`
+`pio project config`
