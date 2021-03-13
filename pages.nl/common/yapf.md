@@ -1,7 +1,7 @@
 # yapf
 
 > Python stijlgidschecker
-> Source code: https://github.com/google/yapf
+> Broncode: https://github.com/google/yapf
 
 - Print de geformateerde diff die zal optreden.
 
