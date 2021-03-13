@@ -23,6 +23,6 @@
 
 `paru --getpkgbuild  {{package_name}}`
 
-- Display the `PKGBUILD` of a package:
+- Display the `PKGBUILD` file of a package:
 
 `paru --getpkgbuild --print {{package_name}}`
