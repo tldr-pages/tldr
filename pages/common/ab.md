@@ -3,7 +3,7 @@
 > Apache HTTP server benchmarking tool.
 > More information: <https://httpd.apache.org/docs/current/programs/ab.html>.
 
-- Execute 100 HTTP GET requests to a URL:
+- Execute 100 HTTP GET requests to a given URL:
 
 `ab -n {{100}} {{url}}`
 
