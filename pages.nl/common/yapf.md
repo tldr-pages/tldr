@@ -11,6 +11,6 @@
 
 `yapf --diff --in-place {{pad/naar/bestand}}`
 
-- Formatteer alle Python-bestanden recursief in een map (bijvoorbeeld in pep8-stijl) in parallel:
+- Formatteer alle Python-bestanden recursief in een map in parallel:
 
-`yapf --recursive --in-place --style pep8 --parallel {{pad/naar/map}}`
+`yapf --recursive --in-place --style {{pep8}} --parallel {{pad/naar/map}}`
