@@ -24,7 +24,7 @@
 
 `ack --type=no{{ruby}} "{{search_pattern}}`
 
-- Count the total number of matches for the search pattern:
+- Count the total number of matches found:
 
 `ack --count --no-filename "{{search_pattern}}"`
 
