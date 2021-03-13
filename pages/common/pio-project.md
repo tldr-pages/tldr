@@ -17,7 +17,7 @@
 
 - Initialize a new PlatformIO based project, specifying one or more project options:
 
-`pio project init --project-option="{{option}}={{value}}" --project-option="{{option}}={{value}}"
+`pio project init --project-option="{{option}}={{value}}" --project-option="{{option}}={{value}}"`
 
 - Print the configuration of a project:
 
