@@ -3,6 +3,10 @@
 > Launch the PlatformIO Home web server.
 > More information: <https://docs.platformio.org/en/latest/core/userguide/cmd_home.html>.
 
+- Open PlatformIO Home in your default web browser:
+
+`pio home`
+
 - Use a specific HTTP port (defaults to 8008):
 
 `pio home --port {{port}}`
