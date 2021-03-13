@@ -28,7 +28,7 @@
 
 `pkgfile --binary {{filename}}`
 
-- Search for a package that owns a specific file displaying the package version:
+- Search for a package that owns a specific file, displaying the package version:
 
 `pkgfile --verbose {{filename}}`
 
