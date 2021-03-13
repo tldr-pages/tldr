@@ -3,15 +3,15 @@
 > Tool to manage PlatformIO projects.
 > More information: <https://docs.platformio.org/en/latest/core/userguide/project/index.html>.
 
-- Initialize a new PlatformIO based project:
+- Initialize a new PlatformIO project:
 
 `pio project init`
 
-- Initialize a new PlatformIO based project in a specific direcdory:
+- Initialize a new PlatformIO project in a specific direcdory:
 
 `pio project init --project-dir {{path/to/project_directory}}`
 
-- Initialize a new PlatformIO based project, specifying a board ID:
+- Initialize a new PlatformIO project, specifying a board ID:
 
 `pio project init --board {{board_id}}`
 
