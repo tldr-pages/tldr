@@ -11,7 +11,7 @@
 
 `tldr -p {{linux}} {{scrot}}`
 
-- Get help for a Git subcommand:
+- Get help for a `git` subcommand:
 
 `tldr {{git-checkout}}`
 
