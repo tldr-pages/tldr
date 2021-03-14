@@ -1,25 +1,25 @@
 # git-grep
 
-> Find strings inside files anywhere in a repository's history.
-> Accepts a lot of the same flags as regular `grep`.
-> More information: <https://git-scm.com/docs/git-grep>.
+> Belirtilen söz dizisini bir deponun geçmişi dahil tüm dosyalarında ara.
+> Sıradan `grep` komutundaki birçok ek bu komut için de aynen geçerlidir.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-grep>.
 
-- Search for a string in tracked files:
+- İzlenen dosyalarda belirtilen söz dizisini ara:
 
-`git grep {{search_string}}`
+`git grep {{söz_dizisi}}`
 
-- Search for a string in files matching a pattern in tracked files:
+- İzlenen dosyalarda belirtilen desene uygun, belirtilen söz dizisini ara:
 
-`git grep {{search_string}} -- {{file_glob_pattern}}`
+`git grep {{söz_dizisi}} -- {{file_glob_pattern}}`
 
-- Search for a string in tracked files, including submodules:
+- Alt modüller de dahil olmak üzere izlenen dosyalarda belirtilen söz dizisini ara:
 
-`git grep --recurse-submodules {{search_string}}`
+`git grep --recurse-submodules {{söz_dizisi}}`
 
-- Search for a string at a specific point in history:
+- Belirtilen depo geçmişinde belirtilen söz dizisini ara:
 
-`git grep {{search_string}} {{HEAD~2}}`
+`git grep {{söz_dizisi}} {{HEAD~2}}`
 
-- Search for a string across all branches:
+- Belirtilen söz dizisini tüm dallarda ara:
 
-`git grep {{search_string}} $(git rev-list --all)`
+`git grep {{söz_dizisi}} $(git rev-list --all)`
