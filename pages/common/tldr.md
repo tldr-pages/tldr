@@ -7,7 +7,7 @@
 
 `tldr {{command}}`
 
-- Show the scrot tldr page for Linux.
+- Show the scrot tldr page for Linux:
 
 `tldr -p {{linux}} {{scrot}}`
 
