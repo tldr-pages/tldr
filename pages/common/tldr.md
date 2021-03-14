@@ -9,7 +9,7 @@
 
 - Show the tar tldr page for Linux:
 
-`tldr -p {{linux}} {{tar}}`
+`tldr -p {{common}} {{tar}}`
 
 - Get help for a Git subcommand:
 
