@@ -22,3 +22,7 @@
 - Delete a command shortcut:
 
 `gh alias delete {{alias_name}}`
+
+- Set a shell command to search an open pull request using `fzf` and checkout it:
+
+`gh alias set --shell {{switch}} '{{id="$(gh pr list --limit 1000 | fzf | cut -f1)"; [ -n "$id" ] && gh pr checkout "$id"}}'`
