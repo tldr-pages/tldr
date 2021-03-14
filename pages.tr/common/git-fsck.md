@@ -1,17 +1,17 @@
 # git fsck
 
-> Verify the validity and connectivity of nodes in a Git repository index.
-> Does not make any modifications. See `git gc` for cleaning up dangling blobs.
-> More information: <https://git-scm.com/docs/git-fsck>.
+> Git depo indeksindeki düğümlerin geçerliliğini ve bağlantılarını doğrula:
+> Düzenleme yapılması tavsiye edilmez. Geçersiz düğümleri çözmek için `git gc` komutu önerilir.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-fsck>.
 
-- Check the current repository:
+- Mevcut depoyu kontrol et:
 
 `git fsck`
 
-- List all tags found:
+- Bulunan tüm etiketleri sırala:
 
 `git fsck --tags`
 
-- List all root nodes found:
+- Bulunan tüm kök düğümleri sırala:
 
 `git fsck --root`
