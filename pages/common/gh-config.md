@@ -11,7 +11,7 @@
 
 `gh config set git_protocol {{ssh}}`
 
-- Set `delta` showing the differences side by side as pager for all `gh` commands:
+- Use `delta` in side-by-side mode as the default pager for all `gh` commands:
 
 `gh config set pager '{{delta --side-by-side}}'`
 
