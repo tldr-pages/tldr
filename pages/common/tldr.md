@@ -7,9 +7,9 @@
 
 `tldr {{command}}`
 
-- Show the tar tldr page for Linux:
+- Show the scrot tldr page for Linux.
 
-`tldr -p {{common}} {{tar}}`
+`tldr -p {{linux}} {{scrot}}`
 
 - Get help for a Git subcommand:
 
