@@ -1,24 +1,24 @@
 # git gc
 
-> Optimise the local repository by cleaning unnecessary files.
-> More information: <https://git-scm.com/docs/git-gc>.
+> Gereksiz dosyaları silerek yerel depoyu optimize et.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-gc>.
 
-- Optimise the repository:
+- Depoyu optimize et:
 
 `git gc`
 
-- Aggressively optimise, takes more time:
+- Agresifçe optimiize et (daha uzun sürer):
 
 `git gc --aggressive`
 
-- Do not prune loose objects (prunes by default):
+- Gevşek objeleri kesme (varsayılan olarak keser):
 
 `git gc --no-prune`
 
-- Suppress all output:
+- Tüm çıktıları sessize al:
 
 `git gc --quiet`
 
-- View full usage:
+- Tam kullanım için yardım göster:
 
 `git gc --help`
