@@ -11,6 +11,10 @@
 
 `gh config set git_protocol {{ssh}}`
 
+- Set `delta` showing the differences side by side as pager for all `gh` commands:
+
+`gh config set pager 'delta --side-by-side'`
+
 - Set text editor to Vim:
 
 `gh config set editor {{vim}}`
