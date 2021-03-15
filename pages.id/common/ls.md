@@ -18,7 +18,7 @@
 
 `ls -la`
 
-- Menampilkan daftar berformat panjang dan ukuran ditampilkan menggunakan unit yang mudah dibaca manusia (KB, MB, GB):
+- Menampilkan daftar berformat panjang dan ukuran ditampilkan menggunakan unit yang mudah dibaca manusia (KiB, MiB, GiB):
 
 `ls -lh`
 
