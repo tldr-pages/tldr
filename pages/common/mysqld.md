@@ -7,7 +7,7 @@
 
 `mysqld`
 
-- Display error messages:
+- Start the server, printing error messages to the console:
 
 `mysqld --console`
 
