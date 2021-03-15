@@ -30,6 +30,3 @@
 - Show all help options:
 
 `mysqld --verbose --help`
-
-
-
