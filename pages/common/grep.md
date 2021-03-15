@@ -10,7 +10,7 @@
 
 - Search for an exact ([F]ixed) string:
 
-`grep -F {{exact_string}} {{path/to/file}}`
+`grep -F "{{exact_string}}" {{path/to/file}}`
 
 - Search for a pattern [R]ecursively in the current directory, showing matching line [n]umbers, [I]gnoring non-text files:
 
@@ -34,4 +34,4 @@
 
 - Search a file for lines that do not match (in[v]ert) a pattern:
 
-`cat {{path/to/file}} | grep -v "{{search_pattern}}`"
+`cat {{path/to/file}} | grep -v "{{search_pattern}}"`
