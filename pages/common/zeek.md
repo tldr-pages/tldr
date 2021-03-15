@@ -12,11 +12,11 @@
 
 `sudo zeek --iface {{interface}} {{script1}} {{script2}}`
 
-- Analyse live traffic from a specific interface loading no scripts:
+- Analyse live traffic from a specific interface, without loading any scripts:
 
 `sudo zeek --bare-mode --iface {{interface}}`
 
-- Analyse live traffic from a specific interface applying a `tcpdump` filter:
+- Analyse live traffic from a specific interface, applying a `tcpdump` filter:
 
 `sudo zeek --filter {{path/to/filter}} --iface {{interface}}`
 
