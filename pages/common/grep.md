@@ -32,6 +32,6 @@
 
 `grep -o {{search_pattern}} {{path/to/file}}`
 
-- Search for lines that do not match (in[v]ert) a pattern:
+- Search a file for lines that do not match (in[v]ert) a pattern:
 
-`grep -v {{search_pattern}}`
+`cat {{path/to/file}} | grep -v {{search_pattern}}`
