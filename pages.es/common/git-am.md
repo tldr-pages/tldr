@@ -6,7 +6,7 @@
 
 - Aplica un archivo de parche:
 
-`git am {{ruta/del/archivo.patch}}`
+`git am {{ruta/al/archivo.patch}}`
 
 - Aborta el proceso de aplicar un archivo de parche:
 
@@ -14,4 +14,4 @@
 
 - Aplica todo lo posible de un archivo de parche y guarda los fragmentos fallidos para rechazar archivos:
 
-`git am --reject {{ruta/del/archivo.patch}}`
+`git am --reject {{ruta/al/archivo.patch}}`
