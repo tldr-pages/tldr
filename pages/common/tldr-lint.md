@@ -13,4 +13,4 @@
 
 - Format all pages in place:
 
-`tldr-lint --format --in-plac {{pages_directory}}`
+`tldr-lint --format --in-place {{pages_directory}}`
