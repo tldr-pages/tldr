@@ -1,7 +1,7 @@
 # mysqld
 
 > Start the MariaDB database server.
-> More information: <https://dev.mysql.com/doc/refman/8.0/en/mysqld.html>.
+> More information: <https://dev.mysql.com/doc/refman/en/mysqld.html>.
 
 - Start the MariaDB database server:
 
@@ -11,22 +11,22 @@
 
 `mysqld --console`
 
-- Specify the log file location:
+- Start the server, saving logging output to a custom log file:
 
-`mysqld --log={{path/to/file}}`
+`mysqld --log={{path/to/file.log}}`
 
-- Print the default arguments and exit:
+- Print the default arguments and their values and exit:
 
 `mysqld --print-defaults`
 
-- Use default arguments from a specified file:
+- Start the server, reading arguments and values from a file:
 
 `mysqld --defaults-file={{path/to/file}}`
 
-- Specify the port number to use for connections:
+- Start the server and listen on a custom port:
 
 `mysqld --port={{port}}`
 
-- Show all help options:
+- Show all help options and exit:
 
 `mysqld --verbose --help`
