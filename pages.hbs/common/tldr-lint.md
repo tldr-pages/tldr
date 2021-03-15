@@ -9,8 +9,8 @@
 
 - Formatiraj određenu stranicu u stdout:
 
-`tldr-lint -f {{stranica.md}}`
+`tldr-lint --format {{stranica.md}}`
 
 - Formatiraj sve stranice na njihovom mestu:
 
-`tldr-lint -fi {{direktorijum_stranica}}`
+`tldr-lint --format --in-place {{direktorijum_stranica}}`

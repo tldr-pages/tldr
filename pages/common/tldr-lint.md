@@ -9,8 +9,8 @@
 
 - Format a specific page to stdout:
 
-`tldr-lint -f {{page.md}}`
+`tldr-lint --format {{page.md}}`
 
 - Format all pages in place:
 
-`tldr-lint -fi {{pages_directory}}`
+`tldr-lint --format --in-plac {{pages_directory}}`

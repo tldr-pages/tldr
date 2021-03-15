@@ -9,8 +9,8 @@
 
 - Belirtilmiş bir sayfayı stdout'a biçimlendir:
 
-`tldr-lint -f {{page.md}}`
+`tldr-lint --format {{page.md}}`
 
 - Bir konumdaki tüm sayfaları biçimlendir:
 
-`tldr-lint -fi {{sayfa_dizini}}`
+`tldr-lint --format --in-place {{sayfa_dizini}}`
