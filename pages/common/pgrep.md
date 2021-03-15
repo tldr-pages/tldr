@@ -7,7 +7,7 @@
 
 `pgrep {{process_name}}`
 
-- Search full command line with parameters instead of just the process name:
+- Search for processes including their command line options:
 
 `pgrep --full "{{process_name}} {{parameter}}"`
 
