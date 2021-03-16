@@ -26,4 +26,4 @@
 
 - Analyze traffic from a `pcap` file:
 
-`sudo zeek --readfile {{path/to/file.trace}}`
+`zeek --readfile {{path/to/file.trace}}`
