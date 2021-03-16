@@ -7,6 +7,10 @@
 
 `adb shell getprop`
 
+- Print information about a specific property:
+
+`adb shell getprop {{prop}}`
+
 - Print the SDK API level:
 
 `adb shell getprop {{ro.build.version.sdk}}`
