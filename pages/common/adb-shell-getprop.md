@@ -25,4 +25,4 @@
 
 - Print the MAC address of the Android's WiFi card:
 
-`adb shell getprop ro.boot.wifimacaddr`
+`adb shell getprop {{ro.boot.wifimacaddr}}`
