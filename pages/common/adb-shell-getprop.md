@@ -1,7 +1,7 @@
 # adb shell getprop
 
 > Show information about adb devices and emulators.
-> More information: <https://adbinstaller.com/commands/adb-shell-getprop-5b59efc4fe030a2fc178d839>.
+> More information: <https://adbinstaller.com/commands>.
 
 - Print information about the Android system properties:
 
