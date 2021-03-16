@@ -1,7 +1,7 @@
 # adb shell pm
 
 > Show information about apps on an Android device.
-> More information: <https://adbinstaller.com/commands/adb-shell-pm-5b672ff6e7958178a295553a>.
+> More information: <https://adbinstaller.com/commands>.
 
 - Print a list of all installed apps:
 
