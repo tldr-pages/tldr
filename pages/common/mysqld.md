@@ -1,9 +1,9 @@
 # mysqld
 
-> Start the MariaDB database server.
+> Start the MySQL database server.
 > More information: <https://dev.mysql.com/doc/refman/en/mysqld.html>.
 
-- Start the MariaDB database server:
+- Start the MySQL database server:
 
 `mysqld`
 
