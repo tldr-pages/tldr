@@ -1,7 +1,7 @@
 # hakyll-init
 
 > Generate a new hakyll sample blog.
-> More information: https://github.com/jaspervdj/hakyll-init>.
+> More information: <https://github.com/jaspervdj/hakyll-init>.
 
 - Generate a new hakyll sample blog:
 
