@@ -11,7 +11,7 @@
 
 `git maintenance start`
 
-- Halt the background maintenance schedule:
+- Halt the background maintenance schedule for the current repository:
 
 `git maintenance stop`
 
@@ -19,6 +19,6 @@
 
 `git maintenance unregister`
 
-- Run a specific maintenance task:
+- Run a specific maintenance task on the current repository:
 
 `git maintenance run --task={{commit-graph|gc|incremental-repack|loose-objects|pack-refs|prefetch}}`
