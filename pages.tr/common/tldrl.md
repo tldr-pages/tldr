@@ -1,6 +1,6 @@
 # tldrl
 
->  `tldr-lint` komutunun aynısı.
+> `tldr-lint` komutunun aynısı.
 
 - Orijinal komut için yardım sayfasını göster:
  
