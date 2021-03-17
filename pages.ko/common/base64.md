@@ -8,7 +8,7 @@
 
 - 파일 디코딩:
 
-`base64 -d {{filename}}`
+`base64 --decode {{filename}}`
 
 - stdin에서 인코딩:
 
@@ -16,4 +16,4 @@
 
 - stdin에서 디코딩:
 
-`{{somecommand}} | base64 -d`
+`{{somecommand}} | base64 --decode`

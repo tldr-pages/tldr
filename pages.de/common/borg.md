@@ -12,7 +12,7 @@
 
 `borg create --progress {{/pfad/zum/repo_verzeichnis}}::{{Montag}} {{/pfad/zum/quell_verzeichnis}}`
 
--  Alle Archive in einem Repository auflisten:
+- Alle Archive in einem Repository auflisten:
 
 `borg list {{/pfad/zum/repo_verzeichnis}}`
 

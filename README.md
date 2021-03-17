@@ -138,7 +138,7 @@ both for the command line and for other platforms:
 - [Ruby client](https://github.com/YellowApple/tldrb):
   `gem install tldrb`
 - [Rust client](https://github.com/dbrgn/tealdeer):
-  `cargo install tealdeer`
+  `cargo install tealdeer` or `brew install tealdeer`
 - [Vim Client](https://github.com/wlemuel/vim-tldr)
 - [Visual Studio Code extension](https://github.com/bmuskalla/vscode-tldr) available on [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=bmuskalla.vscode-tldr)
 - Web clients:
@@ -162,6 +162,9 @@ so you can edit them directly and submit your changes as pull requests.
 All contributions are welcome!
 We strive to maintain a [welcoming and collaborative](GOVERNANCE.md) community.
 Have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!
+
+If you'd like to contribute to translations, you can visit <https://lukwebsforge.github.io/tldri18n/>
+to see the current progress of all translations.
 
 ## Similar projects
 

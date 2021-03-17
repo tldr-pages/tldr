@@ -1,6 +1,7 @@
 # vgs
 
-> Display information about LVM volume groups.
+> Display information about volume groups.
+> See also: `lvm`.
 > More information: <https://man7.org/linux/man-pages/man8/vgs.8.html>.
 
 - Display information about volume groups:

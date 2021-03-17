@@ -14,7 +14,7 @@
 
 `ls -la`
 
-- Liste aller Dateien mit Dateigrößen in für Menschen lesbaren Einheiten (KB, MB, GB):
+- Liste aller Dateien mit Dateigrößen in für Menschen lesbaren Einheiten (KiB, MiB, GiB):
 
 `ls -lh`
 

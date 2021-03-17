@@ -11,8 +11,6 @@
 
 `adb shell getprop`
 
-- 查看进程列表
-
 - 重置所有运行时权限为它们的默认值:
 
 `adb shell pm reset-permissions`
