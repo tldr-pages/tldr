@@ -212,8 +212,9 @@ Caching SHOULD be done according to the user's language configuration (if any), 
 
 ## Changelog
 
- - [v1.5, March 11th 2021](https://github.com/tldr-pages/tldr/blob/8505e55b568dbc394ea853d488cd07484c051e21/CLIENT-SPECIFICATION.md) ([#5327](https://github.com/tldr-pages/tldr/pull/5327))
+ - [v1.5, March 17th 2021](https://github.com/tldr-pages/tldr/blob/034111a547ec3e1e2a7a292de17b970cdf77288e/CLIENT-SPECIFICATION.md) ([#5464](https://github.com/tldr-pages/tldr/pull/5464))
    - Add requirement for converting command names to lowercase before running the page resolution algorithm.
+   - Use HTTPS for archive links.
 
  - [v1.4, August 13th 2020](https://github.com/tldr-pages/tldr/blob/87324c6e540c10a44950b14cd9fb7d758ce4d4e0/CLIENT-SPECIFICATION.md) ([#4246](https://github.com/tldr-pages/tldr/pull/4246))
    - Add requirement for CLI clients to use non-zero exit code on failing to find a page.
