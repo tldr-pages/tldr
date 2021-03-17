@@ -7,6 +7,6 @@
 
 `docker cp {{path/to/file_or_directory/on/host}} {{container_name}}:{{path/to/file_or_directory/in/container}}`
 
-- Copy from a container onto the host:
+- Copy a file or directory from a container to the host:
 
 `docker cp {{container_name}}:{{path/to/file_or_directory/in/container}} {{path/to/file_or_directory/on/host}}`
