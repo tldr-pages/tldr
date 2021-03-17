@@ -95,7 +95,7 @@ both for the command line and for other platforms:
   - [TLDR Elixir Client](https://github.com/edgurgel/tldr_elixir_client)
   (binaries not yet available)
 - [Emacs client](https://github.com/kuanyui/tldr.el), available on
-  [MELPA](https://github.com/melpa/melpa)
+  [MELPA](https://melpa.org/#/tldr)
 - Go clients:
   - [github.com/pranavraja/tldr](https://github.com/pranavraja/tldr):
     `go get github.com/pranavraja/tldr`
