@@ -11,7 +11,7 @@
 
 `codespell --write-changes`
 
-- Skip files with names that match the specified pattern (accepts a comma-separated list of globs):
+- Skip files with names that match the specified pattern (accepts a comma-separated list of patterns using wildcards):
 
 `codespell --skip "{{pattern}}"`
 
