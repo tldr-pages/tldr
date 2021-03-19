@@ -5,11 +5,11 @@
 
 - Commit staged files to the repository with a message:
 
-`git commit -m {{message}}`
+`git commit -m "{{message}}"`
 
 - Auto stage all modified files and commit with a message:
 
-`git commit -a -m {{message}}`
+`git commit -a -m "{{message}}"`
 
 - Update the last commit by adding the currently staged changes, changing the commit's hash:
 
