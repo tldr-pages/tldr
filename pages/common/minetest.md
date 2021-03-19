@@ -8,7 +8,7 @@
 
 `minetest`
 
-- Start minetest in server mode by hosting the specified world:
+- Start minetest in server mode by hosting a specific world:
 
 `minetest --server --world {{name}}`
 
