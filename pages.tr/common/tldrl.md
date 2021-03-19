@@ -4,4 +4,4 @@
 
 - Orijinal komut için yardım sayfasını göster:
  
- `tldr tldr-lint`
+`tldr tldr-lint`
