@@ -212,26 +212,36 @@ Caching SHOULD be done according to the user's language configuration (if any), 
 
 ## Changelog
 
+<!--
+Maintainer note:
+
+Keep the changelog links poiting to this document under the appropriate
+`/blob/<version-tag>/...` and also reference the PR which introduced the new
+version. Tagging of the commit with a new version tag (in the form `vX.Y`)
+should be done immediately AFTER merging the version bump, as the commit hash
+changes when merging with squash or rebase.
+-->
+
  - [v1.5, March 17th 2021](https://github.com/tldr-pages/tldr/blob/v1.5/CLIENT-SPECIFICATION.md) ([#5428](https://github.com/tldr-pages/tldr/pull/5428))
    - Add requirement for converting command names to lowercase before running the page resolution algorithm.
    - Use HTTPS for archive links.
 
- - [v1.4, August 13th 2020](https://github.com/tldr-pages/tldr/blob/87324c6e540c10a44950b14cd9fb7d758ce4d4e0/CLIENT-SPECIFICATION.md) ([#4246](https://github.com/tldr-pages/tldr/pull/4246))
+ - [v1.4, August 13th 2020](https://github.com/tldr-pages/tldr/blob/v1.4/CLIENT-SPECIFICATION.md) ([#4246](https://github.com/tldr-pages/tldr/pull/4246))
    - Add requirement for CLI clients to use non-zero exit code on failing to find a page.
 
- - [v1.3, June 11th 2020](https://github.com/tldr-pages/tldr/blob/8effb5ba77bbf266909e6f9e5d50727daf4a5431/CLIENT-SPECIFICATION.md) ([#4101](https://github.com/tldr-pages/tldr/pull/4101))
+ - [v1.3, June 11th 2020](https://github.com/tldr-pages/tldr/blob/v1.3/CLIENT-SPECIFICATION.md) ([#4101](https://github.com/tldr-pages/tldr/pull/4101))
    - Clarified fallback to English in the language resolution algorithm.
    - Update `LANG` and `LANGUAGE` environment variable to conform to the GNU spec.
 
- - [v1.2, July 3rd 2019](https://github.com/tldr-pages/tldr/blob/d9e1d592e5f7074a5459875ef06a4d4841659ced/CLIENT-SPECIFICATION.md) ([#3168](https://github.com/tldr-pages/tldr/pull/3168))
+ - [v1.2, July 3rd 2019](https://github.com/tldr-pages/tldr/blob/v1.2/CLIENT-SPECIFICATION.md) ([#3168](https://github.com/tldr-pages/tldr/pull/3168))
    - Addition of a new `-L, --language` recommended command-line option.
    - Rewording of the language section also encouraging the use of configuration files for language.
    - Shift from BCP-47 to POSIX style locale tags, with consequent **deprecation of previous versions of the spec**.
    - Clearer clarification about the recommended caching functionality.
    - Correction of the usage of the term "arguments" in the homonym section.
 
- - [v1.1, April 1st 2019](https://github.com/tldr-pages/tldr/blob/fbdc06b7425f92cc0d4fc9a5cfc5860ef017251e/CLIENT-SPECIFICATION.md) (deprecated) ([#2859](https://github.com/tldr-pages/tldr/pull/2859))
+ - [v1.1, April 1st 2019](https://github.com/tldr-pages/tldr/blob/v1.1/CLIENT-SPECIFICATION.md) (deprecated) ([#2859](https://github.com/tldr-pages/tldr/pull/2859))
    - Clarified platform section.
 
- - [v1.0, January 23rd 2019](https://github.com/tldr-pages/tldr/blob/31d784bc0966883b492f5d1ec66e808b518b2159/CLIENT-SPECIFICATION.md) (deprecated) ([#2706](https://github.com/tldr-pages/tldr/pull/2706))
+ - [v1.0, January 23rd 2019](https://github.com/tldr-pages/tldr/blob/v1.0/CLIENT-SPECIFICATION.md) (deprecated) ([#2706](https://github.com/tldr-pages/tldr/pull/2706))
    - Initial release.
