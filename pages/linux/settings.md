@@ -2,7 +2,7 @@
 
 > Get information about the Android OS.
 
-- Display a list of settings in the {{global}} namespace:
+- Display a list of settings in the `global` namespace:
 
 `settings list {{global}}`
 
