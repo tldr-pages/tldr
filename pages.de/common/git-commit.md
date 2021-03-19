@@ -5,11 +5,11 @@
 
 - Commiten von gestagten Dateien zum Repository mit einer Nachricht:
 
-`git commit -m {{message}}`
+`git commit -m "{{message}}"`
 
 - Automatisches Stagen aller modifizierten Datei und nachfolgendem Commiten mit einer Nachricht:
 
-`git commit -a -m {{message}}`
+`git commit -a -m "{{message}}"`
 
 - Ersetzt den letzten Commit mit den gerade auf dem Stage liegenden Änderungen:
 
