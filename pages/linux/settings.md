@@ -4,7 +4,7 @@
 
 - Display a list of settings in the {{global}} namespace:
 
-`settings list global`
+`settings list {{global}}`
 
 - Get the value of a specific setting:
 
