@@ -15,6 +15,6 @@
 
 `dolt checkout -b {{branch_name}}`
 
-- Create new branch with the specified commit as the latest, and switch to it:
+- Create new branch based on a specified commit and switch to it:
 
 `dolt checkout -b {{branch_name}} {{commit}}`
