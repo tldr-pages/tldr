@@ -215,7 +215,7 @@ Caching SHOULD be done according to the user's language configuration (if any), 
 <!--
 Maintainer note:
 
-Keep the changelog links poiting to this document under the appropriate
+Keep the changelog links pointing to this document under the appropriate
 `/blob/<version-tag>/...` and also reference the PR which introduced the new
 version. Tagging of the commit with a new version tag (in the form `vX.Y`)
 should be done immediately AFTER merging the version bump, as the commit hash
