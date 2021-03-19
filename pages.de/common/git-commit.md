@@ -5,11 +5,11 @@
 
 - Committe gestagten Dateien zum Repository mit einer Nachricht:
 
-`git commit -m {{nachricht}}`
+`git commit -m "{{nachricht}}"`
 
 - Stage alle modifizierten Dateien und comitte sie mit einer Nachricht:
 
-`git commit -a -m {{nachricht}}`
+`git commit -a -m "{{nachricht}}"`
 
 - Ersetze den letzten Commit mit den gerade auf dem Stage liegenden Änderungen:
 
