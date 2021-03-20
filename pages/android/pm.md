@@ -1,4 +1,4 @@
-# adb shell pm
+# pm
 
 > Show information about apps on an Android device.
 > More information: <https://developer.android.com/studio/command-line/adb#pm>.
