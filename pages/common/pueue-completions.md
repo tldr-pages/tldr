@@ -3,14 +3,14 @@
 > Generates shell completion files for bash, elvish, fish, powershell, zsh.
 > More information: <https://github.com/Nukesor/pueue>.
 
-- Generate completions for bash on Linux:
+- Generate completions for bash:
 
 `sudo pueue completions bash {{/usr/share/bash-completion/completions/pueue.bash}}`
 
-- Generate completions for zsh on Linux:
+- Generate completions for zsh:
 
 `sudo pueue completions zsh {{/usr/share/zsh/site-functions}}`
 
-- Generate completions for fish on Linux:
+- Generate completions for fish:
 
 `sudo pueue completions fish {{/usr/share/fish/completions}}`
