@@ -11,7 +11,7 @@
 
 `pueue kill {{task_id}}`
 
-- Kill a task and terminate all its children processes:
+- Kill a task and terminate all its child processes:
 
 `pueue kill --children {{task_id}}`
 

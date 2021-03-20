@@ -3,14 +3,14 @@
 > Display, add or remove groups.
 > More information: <https://github.com/Nukesor/pueue>.
 
-- Show all groups with their status and number of parallel jobs:
+- Show all groups with their statuses and number of parallel jobs:
 
 `pueue group`
 
-- Add custom group:
+- Add a custom group:
 
 `pueue group --add "{{group_name}}"`
 
-- Remove group and move its tasks to the default group:
+- Remove a group and move its tasks to the default group:
 
 `pueue group --remove "{{group_name}}"`

@@ -7,7 +7,7 @@
 
 `pueue reset`
 
-- Kill all tasks and terminate their children and reset everything:
+- Kill all tasks, terminate their children, and reset everything:
 
 `pueue reset --children`
 

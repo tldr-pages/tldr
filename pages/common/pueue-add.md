@@ -7,11 +7,11 @@
 
 `pueue add {{command}}`
 
-- Pass flags or arguments to command when adding:
+- Pass a list of flags or arguments to a command when enqueuing:
 
 `pueue add -- {{command --arg -f}}`
 
-- Add command but do not start it if it's the first in a queue:
+- Add a command but do not start it if it's the first in a queue:
 
 `pueue add --stashed -- {{rsync --archive --compress /local/directory /remote/directory}}`
 

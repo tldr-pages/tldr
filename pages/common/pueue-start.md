@@ -4,7 +4,7 @@
 > See also: `pueue pause`.
 > More information: <https://github.com/Nukesor/pueue>.
 
-- Resume all tasks in default group:
+- Resume all tasks in the default group:
 
 `pueue start`
 

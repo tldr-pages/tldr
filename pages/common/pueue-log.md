@@ -1,6 +1,6 @@
 # pueue log
 
-> Display the log output tasks.
+> Display the log output of 1 or more tasks.
 > See also: `pueue status`.
 > More information: <https://github.com/Nukesor/pueue>.
 
@@ -8,11 +8,11 @@
 
 `pueue log`
 
-- Show full output of a task:
+- Show the full output of a task:
 
 `pueue log {{task_id}}`
 
-- Show last few lines of output from several tasks:
+- Show the last few lines of output from several tasks:
 
 `pueue log {{task_id}} {{task_id}}`
 
