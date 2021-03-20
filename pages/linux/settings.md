@@ -16,4 +16,4 @@
 
 - Delete a specific setting:
 
-`settings delete {{global}} {{airplane_mode_on}}`
+`settings delete {{secure}} {{screensaver_enabled}}`
