@@ -1,20 +1,20 @@
 # nms
 
-> A cool (piped) text decryption effect.
+> Command line tool that recreates the famous data decryption effect seen in the 1992 movie Sneakers from stdin.
 > More information: <https://github.com/bartobri/no-more-secrets>.
 
-- Decrypt "Hello, World!" after a keystroke:
+- Decrypt text after a keystroke:
 
-`echo "Hello, World! | nms"`
+`echo "{{Hello, World!}}" | nms`
 
 - Decrypt the output of `ls -la` automatically:
 
-`ls -la | nms -a`
+`{{ls -la}} | nms -a`
 
-- Decrypt the content of `secret_message.txt` automatically with red output:
+- Decrypt the content of a file automatically with a custom output color:
 
-`cat secret_message.txt | nms -a -f red`
+`cat {{path/to/file}} | nms -a -f {{blue|white|yellow|black|magenta|green|red}}`
 
-- Clear the screen prior to decrypt `git status` automatically:
+- Clear the screen before decrypting:
 
-`git status | nms -a -c`
+`{{command}} | nms -a -c`
