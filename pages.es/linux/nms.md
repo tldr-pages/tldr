@@ -3,15 +3,15 @@
 > Un efecto chulo de desencriptación de output.
 > Más información: <https://github.com/bartobri/no-more-secrets>.
 
-- Desencriptando "Hola, Mundo!" tras presionar una tecla:
+- Desencriptar "Hola, Mundo!" tras presionar una tecla:
 
 `echo "Hola, Mundo! | nms"`
 
-- Desencriptando el output de `ls -la` automaticamente:
+- Desencriptar el output de `ls -la` automaticamente:
 
 `ls -la | nms -a`
 
-- Desencriptando el contenido de `mensage_secreto.txt` automaticamente, con output rojo:
+- Desencriptar el contenido de `mensage_secreto.txt` automaticamente, con output rojo:
 
 `cat mensaje_secreto.txt | nms -a -f red`
 
