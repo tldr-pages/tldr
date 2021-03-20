@@ -15,7 +15,7 @@
 
 `git maintenance stop`
 
-- Remove the current repository from background maintenance:
+- Remove the current repository from the user's maintenance repository list:
 
 `git maintenance unregister`
 
