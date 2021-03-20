@@ -217,9 +217,11 @@ Maintainer note:
 
 Keep the changelog links pointing to this document under the appropriate
 `/blob/<version-tag>/...` and also reference the PR which introduced the new
-version. Tagging of the commit with a new version tag (in the form `vX.Y`)
-should be done immediately AFTER merging the version bump, as the commit hash
-changes when merging with squash or rebase.
+version. After merging an update to the client spec, tag appropriately and
+create a new release under https://github.com/tldr-pages/tldr/releases
+including the changes. NOTE: tagging of the commit with a new version tag (in
+the form `vX.Y`) should be done immediately AFTER merging the version bump, as
+the commit hash changes when merging with squash or rebase.
 -->
 
  - [v1.5, March 17th 2021](https://github.com/tldr-pages/tldr/blob/v1.5/CLIENT-SPECIFICATION.md) ([#5428](https://github.com/tldr-pages/tldr/pull/5428))
