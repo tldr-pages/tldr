@@ -3,7 +3,7 @@
 > Run tasks to optimize Git repository data.
 > More information: <https://git-scm.com/docs/git-maintenance>.
 
-- Initialize Git config values so any scheduled maintenance will start running on this repository:
+- Register the current repository in the user's list of repositories to daily have maintenance run:
 
 `git maintenance register`
 
