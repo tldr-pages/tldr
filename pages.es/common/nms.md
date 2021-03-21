@@ -1,20 +1,20 @@
 # nms
 
-> Un efecto chulo de desencriptación de output.
+> Herramienta de línea de comandos que recrea el famoso efecto de desencriptado de datos de la película Sneakers (1992).
 > Más información: <https://github.com/bartobri/no-more-secrets>.
 
-- Desencriptar "Hola, Mundo!" tras presionar una tecla:
+- Desencriptar texto tras presionar una tecla:
 
-`echo "Hola, Mundo! | nms"`
+`echo "{{Hola, Mundo!}}" | nms`
 
-- Desencriptar el output de `ls -la` automaticamente:
+- Desencriptar output, automaticamente:
 
-`ls -la | nms -a`
+`{{ls -la}} | nms -a`
 
-- Desencriptar el contenido de `mensage_secreto.txt` automaticamente, con output rojo:
+- Desencriptar el contenido de un archivo, especificando el color del output:
 
-`cat mensaje_secreto.txt | nms -a -f red`
+`cat {{ruta/al/archivo}} | nms -a -f {{blue|white|yellow|black|magenta|green|red}}`
 
-- Limpiar la pantalla previo a desencriptar `git status` automaticamente:
+- Limpiar la pantalla antes de desencriptar:
 
-`git status | nms -a -c`
+`{{comando}} | nms -a -c`

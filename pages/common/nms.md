@@ -7,11 +7,11 @@
 
 `echo "{{Hello, World!}}" | nms`
 
-- Decrypt the output of `ls -la` automatically:
+- Decrypt output, automatically:
 
 `{{ls -la}} | nms -a`
 
-- Decrypt the content of a file automatically with a custom output color:
+- Decrypt the content of a file, with a custom output color:
 
 `cat {{path/to/file}} | nms -a -f {{blue|white|yellow|black|magenta|green|red}}`
 
