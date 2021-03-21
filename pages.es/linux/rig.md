@@ -1,24 +1,24 @@
 # rig
 
-> Utilidad para generar un nombre, apellidos y dirección consistente (por ej. calle, número, ciudad).
+> Utilidad para generar un nombre, apellido, calle y número, junto a ubicación geográfica consistente (un conjunto válido de ciudad, estado y código postal).
 > Más información: <https://manpages.ubuntu.com/manpages/focal/man6/rig.6.html>.
 
-- Mostrar un nombre aleatorio (masculino o femenino) y dirección:
+- Muestra un nombre aleatorio (masculino o femenino) y una dirección:
 
 `rig`
 
-- Mostrar un nombre [m]asculino, (o [f]emenino) aleatorio y dirección:
+- Muestra un nombre [m]asculino, (o [f]emenino) aleatorio y una dirección:
 
 `rig -{{m|f}}`
 
-- Usar archivos de datos de un directorio específico (por defecto `/usr/share/rig`):
+- Usa archivos de datos de un directorio específico (por defecto es `/usr/share/rig`):
 
 `rig -d {{ruta/al/directorio}}`
 
-- Especificar el número de identidades a generar:
+- Especifica el número de identidades a generar:
 
 `rig -c {{número}}`
 
-- Especificar el número de identidades femininas a generar:
+- Especifica el número de identidades femininas a generar:
 
 `rig -f -c {{número}}`
