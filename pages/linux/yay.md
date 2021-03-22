@@ -20,6 +20,10 @@
 
 `yay -S {{package_name}}`
 
+- Remove an installed package:
+
+`yay -Rs {{package_name}}`
+
 - Search the package database for a keyword from the repos and AUR:
 
 `yay -Ss {{keyword}}`
