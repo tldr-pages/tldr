@@ -21,4 +21,4 @@
 
 - Especifica el número de identidades femininas a generar:
 
-`rig -f -c {{número}}`
+`rig -f -c {{numero}}`
