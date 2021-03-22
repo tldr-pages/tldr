@@ -17,7 +17,7 @@
 
 - Especifica el número de identidades a generar:
 
-`rig -c {{número}}`
+`rig -c {{numero}}`
 
 - Especifica el número de identidades femininas a generar:
 
