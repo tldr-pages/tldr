@@ -1,11 +1,11 @@
 # mutagen
 
 > Real-time file synchronization and network forwarding tool.
-> More information: <https://mutagen.io/>.
+> More information: <https://mutagen.io>.
 
 - Start a synchronization session between a local directory and a remote host:
 
-`mutagen sync create --name={{session-name}} {{/path/to/local/directory/}} {{user@example.com:/path/to/remote/directory/}}`
+`mutagen sync create --name={{session-name}} {{/path/to/local/directory/}} {{user@host:/path/to/remote/directory/}}`
 
 - Start a synchronization session between a local directory and a Docker container:
 
