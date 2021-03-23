@@ -1,12 +1,24 @@
 # poweroff
 
-> Shutdown the system.
+> Power off the system.
 > More information: <https://man7.org/linux/man-pages/man8/reboot.8.html>.
 
 - Power off the system:
 
 `poweroff`
 
-- Send an ACPI hardware signal to initiate a complete and immediate shutdown:
+- Halt the system (same as `halt`):
 
-`sudo poweroff`
+`poweroff --halt`
+
+- Reboot the system (same as `reboot`):
+
+`poweroff --reboot`
+
+- Shut down immediately without contacting the system manager:
+
+`poweroff --force --force`
+
+- Write the wtmp shutdown entry without shutting down the system:
+
+`poweroff --wtmp-only`
