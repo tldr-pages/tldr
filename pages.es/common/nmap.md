@@ -12,7 +12,7 @@
 
 `nmap -sn {{ip_o_hostname}} {{opcional_otra_direccion}}`
 
-- Como arriba, pero también ejecuta un escaneo de (por defecto) 1000 puertos TCP si el host está activo:
+- Como el anterior, pero también ejecuta un escaneo de 1000 puertos TCP por defecto, si el host está activo:
 
 `nmap {{ip_o_hostname}} {{opcional_otra_direccion}}`
 
@@ -32,6 +32,6 @@
 
 `nmap -sSU {{direccion_o_direcciones}}`
 
-- Realiza un escaneo total de puertos, servicios, detección de versiones con todos los scrits NSE por defecto contra un host para determinar debilidades e información:
+- Realiza un escaneo total de puertos, servicios, detección de versiones con todos los scripts NSE por defecto contra un host para determinar debilidades e información:
 
 `nmap -sC -sV {{direccion_o_direcciones}}`
