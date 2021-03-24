@@ -6,24 +6,24 @@
 
 - Lister les hôtes appartenant à un groupe :
 
-`ansible {{group}} --list-hosts`
+`ansible {{groupe}} --list-hosts`
 
-- Ping d'un groupe d'hôtes en invoquant le module "ping" :
+- Ping d'un groupe d'hôtes en invoquant le [m]odule "ping" :
 
-`ansible {{group}} -m ping`
+`ansible {{groupe}} -m ping`
 
-- Afficher des informations sur un groupe d'hôtes en invoquant le module "setup" :
+- Afficher des informations sur un groupe d'hôtes en invoquant le [m]odule "setup" :
 
-`ansible {{group}} -m setup`
+`ansible {{groupe}} -m setup`
 
-- Exécuter une commande sur un groupe d'hôtes en invoquant le module "command" avec des paramètres :
+- Exécuter une commande sur un groupe d'hôtes en invoquant le [m]odule "command" avec en paramètre (a) cette commande :
 
-`ansible {{group}} -m command -a '{{my_command}}'`
+`ansible {{groupe}} -m command -a '{{ma_commande}}'`
 
 - Exécuter une commande avec des droits administreur :
 
-`ansible {{group}} --become --ask-become-pass -m command -a '{{my_command}}'`
+`ansible {{groupe}} --become --ask-become-pass -m command -a '{{ma_commande}}'`
 
 - Exécuter une commande en utilisant un fichier d'inventaire personnalisé :
 
-`ansible {{group}} -i {{inventory_file}} -m command -a '{{my_command}}'`
+`ansible {{groupe}} -i {{fichier_d'inventaire}} -m command -a '{{ma_commande}}'`
