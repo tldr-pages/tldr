@@ -1,6 +1,7 @@
 # chmod
 
 > Modifie les droits d'accès d'un fichier ou d'un répertoire.
+> Plus d'informations : <https://www.man7.org/linux/man-pages/man1/chmod.1.html>.
 
 - Donne les droits d'e[x]écution à l'[u]tilisateur auquel le fichier appartient :
 
