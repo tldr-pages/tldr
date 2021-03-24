@@ -7,11 +7,11 @@
 
 `gimp`
 
-- Launch, but don't show the splash screen:
+- Launch GIMP without showing the splash screen:
 
 `gimp --no-splash`
 
-- Always start a new instance:
+- Start a new GIMP instance, even if there is already a running one:
 
 `gimp --new-instance`
 
