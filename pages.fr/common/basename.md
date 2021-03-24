@@ -6,6 +6,7 @@
 - N'afficher que le nom du fichier depuis un chemin :
 
 `basename {{chemin/vers/fichier}}`
+
 - N'afficher que le nom du dernier répertoire depuis un chemin :
 
 `basename {{chemin/vers/répertoire/}}`
