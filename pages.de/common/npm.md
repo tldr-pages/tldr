@@ -15,7 +15,7 @@
 
 `npm install {{package_name}}@{{version}}`
 
-- Installiere ein Package und füge es als Entwicklungs Abhängigkeit der `package.json` Datei hinzu:
+- Installiere ein Package und füge es als Entwicklungs-Abhängigkeit der `package.json` Datei hinzu:
 
 `npm install {{package_name}} --save-dev`
 
