@@ -11,17 +11,17 @@
 
 `sudo lvm help`
 
-- Initialize `/dev/sda1` to be used as a physical volume:
+- Initialize a drive or partition to be used as a physical volume:
 
-`sudo lvm pvcreate {{/dev/sda1}}`
+`sudo lvm pvcreate {{/dev/sdXY}}`
 
 - Display information about physcial volumes:
 
 `sudo lvm pvdisplay`
 
-- Create a volume group called vg1 from the physical volume on `/dev/sda1`:
+- Create a volume group called vg1 from the physical volume on `/dev/sdXY`:
 
-`sudo lvm vgcreate {{vg1}} {{/dev/sda1}}`
+`sudo lvm vgcreate {{vg1}} {{/dev/sdXY}}`
 
 - Display information about volume groups:
 
