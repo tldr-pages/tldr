@@ -1,32 +1,36 @@
 # npm
 
 > Ein Kommandozeilenwerkzeug für die Verwaltung von Javascript und Node.js Paketen (Packages)
-> Mehr Informationen und eine Liste aller verfügbaren Packages <https://www.npmjs.com/>
+> Mehr Informationen: <https://www.npmjs.com>.
 
-- Interaktives Erstellen einer `package.json` Datei:
+- Erstelle eine `package.json` Datei interaktiv:
 
 `npm init`
 
-- Installieren aller in der `package.json` Datei gelisteten Packages:
+- Installiere alle in der `package.json` Datei gelisteten Abhängigkeiten:
 
 `npm install`
 
-- Installieren eines Packages. Das Package wird automatisch der `package.json` Datei hinzugefügt. Der zweite Teil ist optional und wird nur verwendet, wenn eine spezifische Version installiert werden sollte:
+- Installiere eine spezifische Version eines Packages und füge es automatisch der `package.json` Datei hinzu:
 
 `npm install {{package_name}}@{{version}}`
 
-- Globales Installieren eines Packages. Auch hier kann, wie oben, bei der Installation eine Version definiert werden.
+- Installiere ein Package und füge es als Entwicklungs Abhängigkeit der `package.json` Datei hinzu:
+
+`npm install {{package_name}} --save-dev`
+
+- Installiere ein Package global:
 
 `npm install -g {{package_name}}`
 
-- Deinstallieren eines Packages und automatisches Entfernen aus der `package.json` Datei:
+- Deinstalliere ein Package und entferne es automatisch aus der `package.json` Datei:
 
 `npm uninstall {{package_name}}`
 
-- Ausgeben einer Liste, aller lokal installierten Packages:
+- Gib eine Liste aller lokal installierten Packages aus:
 
 `npm list`
 
-- Ausgeben einer Liste, aller global installierten Packages.
+- Gib eine Liste aller global installierten Packages aus:
 
 `npm list -g --depth={{0}}`
