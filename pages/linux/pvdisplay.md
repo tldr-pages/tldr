@@ -8,6 +8,6 @@
 
 `sudo pvdisplay`
 
-- Display information about the physical volume on `/dev/sda1`:
+- Display information about the physical volume on drive `/dev/sdXY`:
 
-`sudo pvdisplay {{/dev/sda1}}`
+`sudo pvdisplay {{/dev/sdXY}}`
