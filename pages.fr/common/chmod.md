@@ -22,6 +22,10 @@
 
 `chmod o=g {{fichier}}`
 
+- Retire tous les droits aux autres (o) utilisateurs :
+
+`chmod o= {{fichier}}`
+
 - Modifie les permissions recursivement en donnant aux membres du groupe et aux autres utilisateurs le droit d'écriture :
 
 `chmod -R g+w,o+w {{repertoire}}`
