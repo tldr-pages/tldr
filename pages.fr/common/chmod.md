@@ -22,7 +22,7 @@
 
 `chmod o=g {{fichier}}`
 
-- Retire tous les droits aux autres (o) utilisateurs :
+- Retire tous les droits aux autres (o) utilisateurs :
 
 `chmod o= {{fichier}}`
 
