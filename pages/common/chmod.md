@@ -1,6 +1,7 @@
 # chmod
 
 > Change the access permissions of a file or directory.
+> More information: <https://www.man7.org/linux/man-pages/man1/chmod.1.html>.
 
 - Give the [u]ser who owns a file the right to e[x]ecute it:
 
