@@ -20,9 +20,9 @@
 
 `yay -S {{package_name}}`
 
-- Remove an installed package:
+- Remove an installed package and both its dependencies and configuration files:
 
-`yay -Rs {{package_name}}`
+`yay -Rns {{package_name}}`
 
 - Search the package database for a keyword from the repos and AUR:
 
