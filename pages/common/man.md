@@ -21,7 +21,7 @@
 
 - Display the man page for a custom overrided locale (L):
 
-`man {{command}} -L {{locale}}`
+`man {{command}} --locale={{locale}}`
 
 - Search for manpages containing a search string:
 
