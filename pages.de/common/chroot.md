@@ -4,8 +4,8 @@
 
 - Führe einen Befehl mit einem neuen root-Verzeichnis aus:
 
-`chroot {{pfad/zu/neuem/root}} {{befehl}}`
+`chroot {{pfad/zu/root_verzeichnis}} {{befehl}}`
 
-- Lege Benutzer und Gruppe (ID oder Name) fest, der benutzt werden soll:
+- Lege einen Benutzer und eine Gruppe (ID oder Name) fest, der benutzt werden soll:
 
 `chroot --userspec={{benutzer:gruppe}}`

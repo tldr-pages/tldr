@@ -24,6 +24,6 @@
 
 `atom --foreground`
 
-- Wartet, bis Atom geschlossen wurde, bevor die Eingabeaufforderung wieder aktiv wird (Nützlich als git commit Editor):
+- Wartet, bis Atom geschlossen wurde, bevor die Eingabeaufforderung wieder aktiv wird (Nützlich als `git commit` Editor):
 
 `atom --wait`

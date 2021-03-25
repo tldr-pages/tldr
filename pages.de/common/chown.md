@@ -10,14 +10,14 @@
 
 `chown {{benutzer}}:{{gruppe}} {{pfad/zu/datei_oder_verzeichnis}}`
 
-- Ändere den Besitzer eines Verzeichnisses und seines Inhalts rekursiv:
+- Ändere den Besitzer eines Verzeichnisses rekursiv:
 
-`chown -R {{benutzer}} {{pfad/zu/Verzeichnis}}`
+`chown -R {{benutzer}} {{pfad/zu/verzeichnis}}`
 
 - Ändere den Besitzer eines symbolischen Links:
 
-`chown -h {{benutzer}} {{pfed/zu/symlink}}`
+`chown -h {{benutzer}} {{pfad/zu/symlink}}`
 
 - Ändere den Besitzer einer Datei/eines Verzeichnisses, damit sie/es mit einer Referenzdatei übereinstimmt:
 
-`chown --reference={{pfad/zu/referenzdatei}} {{pfad/zu/datei_oder_verzeichnis}}`
+`chown --reference={{pfad/zu/referenzdatei_oder_verzeichnis}} {{pfad/zu/datei_oder_verzeichnis}}`
