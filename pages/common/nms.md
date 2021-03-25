@@ -7,7 +7,7 @@
 
 `echo "{{Hello, World!}}" | nms`
 
-- Decrypt output, automatically:
+- Decrypt output immediately, without waiting for a keystroke:
 
 `{{ls -la}} | nms -a`
 
