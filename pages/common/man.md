@@ -19,7 +19,7 @@
 
 `man -w {{command}}`
 
-- Display the man page for a custom overrided locale:
+- Display the man page for a custom overrided locale (L):
 
 `man {{command}} -L {{locale}}`
 
