@@ -11,9 +11,9 @@
 
 `pio home --port {{port}}`
 
-- Set specific HTTP host for the server (defaults to 127.0.0.1):
+- Bind to a specific IP address (defaults to 127.0.0.1):
 
-`pio home --host {{host}}`
+`pio home --host {{ip_address}}`
 
 - Do not automatically open PlatformIO Home in the default web browser:
 
