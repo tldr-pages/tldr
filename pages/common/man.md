@@ -1,10 +1,15 @@
 # man
 
 > Format and display manual pages.
+> More information: <https://www.man7.org/linux/man-pages/man1/man.1.html>
 
 - Display the man page for a command:
 
 `man {{command}}`
+
+- Display the man page for a custom overrided locale:
+
+`man {{command}}. -L {{locale}}`
 
 - Display the man page for a command from section 7:
 
