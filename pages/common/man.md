@@ -7,10 +7,6 @@
 
 `man {{command}}`
 
-- Display the man page for a custom overrided locale:
-
-`man {{command}} -L {{locale}}`
-
 - Display the man page for a command from section 7:
 
 `man {{command}}.{{7}}`
@@ -22,6 +18,10 @@
 - Display the location of a manpage rather than the manpage itself:
 
 `man -w {{command}}`
+
+- Display the man page for a custom overrided locale:
+
+`man {{command}} -L {{locale}}`
 
 - Search for manpages containing a search string:
 
