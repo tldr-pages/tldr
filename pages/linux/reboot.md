@@ -1,7 +1,7 @@
 # reboot
 
 > Reboot the system.
-> More information: <https://man7.org/linux/man-pages/man8/reboot.8.html>.
+> More information: <https://www.man7.org/linux/man-pages/man8/reboot.8.html>.
 
 - Reboot the system:
 
