@@ -32,6 +32,6 @@
 
 `aurman --remove --recursive --nosave {{package_name}}`
 
-- Remove not installed packages and unused repositories from the cache (use two `--clean` flags to clean all packages):
+- Clear the package cache (use two `--clean` flags to clean all packages):
 
 `aurman --sync --clean`
