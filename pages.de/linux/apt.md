@@ -1,32 +1,32 @@
 # apt
 
-> Debian und Ubuntu Paket Management Tool..
+> Debian und Ubuntu Paket Management Tool.
 > Empfohlene Alternative zu apt-get seit Ubuntu 16.04.
 
-- Aktualisiert die Liste der Paketquellen (es wird empfohlen diesen Befehl als erstes auszuführen):
+- Aktualisiere die Liste der Paketquellen (es wird empfohlen diesen Befehl zu Begin auszuführen):
 
 `sudo apt update`
 
-- Sucht nach einem Paket:
+- Suche nach einem Paket:
 
-`apt search {{Paket}}`
+`apt search {{paket}}`
 
-- Zeigt Informationen über ein Paket:
+- Zeige Informationen über ein Paket:
 
-`apt show {{Paket}}`
+`apt show {{paket}}`
 
-- Installiert ein Paket oder aktualisiert es zur neusten Version:
+- Installiere ein Paket oder aktualisiere es zur neusten Version:
 
-`sudo apt install {{Paket}}`
+`sudo apt install {{paket}}`
 
-- Entfernt ein Paket:
+- Entferne ein Paket:
 
-`sudo apt remove {{Paket}}`
+`sudo apt remove {{paket}}`
 
-- Listet alle Pakete:
+- Liste alle Pakete auf:
 
 `apt list`
 
-- Listet alle installierten Pakete:
+- Liste alle installierten Pakete auf:
 
 `apt list --installed`

@@ -1,11 +1,11 @@
 # whoami
 
-> Ausgabe des Benutzernamens des aktuellen Benutzers.
+> Gib den Benutzernamen des aktuellen Benutzers aus.
 
-- Ausgabe des aktiven Benutzernamens:
+- Gib den aktiven Benutzernamen aus:
 
 `whoami`
 
-- Ausgabe des Benutzernamens nach einer Änderung der Benutzer Identität:
+- gib den Benutzernamen nach einer Änderung der Benutzeridentität aus:
 
 `sudo whoami`
