@@ -3,7 +3,7 @@
 > Launch the PlatformIO Home web server.
 > More information: <https://docs.platformio.org/en/latest/core/userguide/cmd_home.html>.
 
-- Open PlatformIO Home in your default web browser:
+- Open PlatformIO Home in the default web browser:
 
 `pio home`
 
