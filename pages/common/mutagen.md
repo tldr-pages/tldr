@@ -5,15 +5,15 @@
 
 - Start a synchronization session between a local directory and a remote host:
 
-`mutagen sync create --name={{session-name}} {{/path/to/local/directory/}} {{user@host:/path/to/remote/directory/}}`
+`mutagen sync create --name={{session_name}} {{/path/to/local/directory/}} {{user@host:/path/to/remote/directory/}}`
 
 - Start a synchronization session between a local directory and a Docker container:
 
-`mutagen sync create --name={{session-name}} {{/path/to/local/directory/}} {{docker://user@container_name/path/to/remote/directory/}}`
+`mutagen sync create --name={{session_name}} {{/path/to/local/directory/}} {{docker://user@container_name/path/to/remote/directory/}}`
 
 - Stop a running session:
 
-`mutagen sync terminate {{session-name}}`
+`mutagen sync terminate {{session_name}}`
 
 - Start a project:
 
