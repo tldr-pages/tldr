@@ -1,6 +1,6 @@
 # apt-get
 
-> Servizio di gestione dei pacchetti per Debian e Ubuntu
+> Servizio di gestione dei pacchetti per Debian e Ubuntu.
 > Cerca i pacchetti usando `apt-cache`.
 
 - Aggiorna la lista dei pacchetti e delle loro versioni disponibili (è consigliato eseguire questo comando prima di altri comandi `apt-get`):

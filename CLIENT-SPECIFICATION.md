@@ -1,6 +1,6 @@
 # tldr-pages client specification
 
-**Current Specification Version:** 1.4
+**Current Specification Version:** 1.5
 
 This document contains the official specification for tldr-pages clients. It is _not_ a specification of the format of the pages themselves - only a specification of how a user should be able to interface with an official client. For a list of previous versions of the specification, see the [changelog section](#Changelog) below.
 
@@ -59,27 +59,18 @@ tldr -l
 
 The first argument that does not start with a dash (`-`), MUST be considered the page name.
 
-In addition, page names MAY contain spaces (e.g. `git status`) - such page names MUST be transparently concatenated with dashes (`-`). For example, the page name:
+Page names MAY contain spaces (e.g. `git status`), and such page names MUST be transparently concatenated with dashes (`-`). For example, the page name `git checkout` becomes `git-checkout`.
 
-```
-git checkout
-```
-
-becomes this:
-
-```
-git-checkout
-```
+Page names MAY contain mixed capitalization, and such page names MUST be transparently lowercased. For example, the page name `eyeD3` becomes `eyed3`.
 
 Here are some example invocations:
 
 ```bash
 tldr 7za
-tldr eyeD3
-tldr git checkout
+tldr eyeD3  # equivalent to tldr eyed3
+tldr git checkout  # equivalent to tldr git-checkout
 tldr --platform osx bash
 ```
-
 
 ## Directory structure
 
@@ -130,7 +121,7 @@ Although this specification is about the interface that clients must provide, it
 
 This section defines the algorithm by which a client can decide which page a user has requested.
 
-After transparently replacing spaces (` `) with dashes (`-`), clients have several decisions to make:
+After transparently replacing spaces (` `) with dashes (`-`) and lowercasing the name, clients have several decisions to make:
 
  - The language of a page to display to a client
  - The platform to display a page from
@@ -214,29 +205,45 @@ Here's an example of how the lookup should be done on `linux` having set `LANG=i
 
 ## Caching
 
-If appropriate, it is RECOMMENDED that clients implement a cache of pages. If implemented, clients MUST download the archive either from **[http://tldr.sh/assets/tldr.zip](http://tldr.sh/assets/tldr.zip)** or [https://raw.githubusercontent.com/tldr-pages/tldr-pages.github.io/master/assets/tldr.zip](https://raw.githubusercontent.com/tldr-pages/tldr-pages.github.io/master/assets/tldr.zip) (which is pointed to by the first link).
+If appropriate, it is RECOMMENDED that clients implement a cache of pages. If implemented, clients MUST download the archive either from **[https://tldr.sh/assets/tldr.zip](https://tldr.sh/assets/tldr.zip)** or [https://raw.githubusercontent.com/tldr-pages/tldr-pages.github.io/master/assets/tldr.zip](https://raw.githubusercontent.com/tldr-pages/tldr-pages.github.io/master/assets/tldr.zip) (which is pointed to by the first link).
 
 Caching SHOULD be done according to the user's language configuration (if any), as to not waste unneeded space for unused languages. Additionally, clients MAY automatically update the cache on a regular basis.
 
 
 ## Changelog
 
- - [v1.4, August 13th 2020](https://github.com/tldr-pages/tldr/blob/87324c6e540c10a44950b14cd9fb7d758ce4d4e0/CLIENT-SPECIFICATION.md) ([#4246](https://github.com/tldr-pages/tldr/pull/4246))
+<!--
+Maintainer note:
+
+Keep the changelog links pointing to this document under the appropriate
+`/blob/<version-tag>/...` and also reference the PR which introduced the new
+version. After merging an update to the client spec, tag appropriately and
+create a new release under https://github.com/tldr-pages/tldr/releases
+including the changes. NOTE: tagging of the commit with a new version tag (in
+the form `vX.Y`) should be done immediately AFTER merging the version bump, as
+the commit hash changes when merging with squash or rebase.
+-->
+
+ - [v1.5, March 17th 2021](https://github.com/tldr-pages/tldr/blob/v1.5/CLIENT-SPECIFICATION.md) ([#5428](https://github.com/tldr-pages/tldr/pull/5428))
+   - Add requirement for converting command names to lowercase before running the page resolution algorithm.
+   - Use HTTPS for archive links.
+
+ - [v1.4, August 13th 2020](https://github.com/tldr-pages/tldr/blob/v1.4/CLIENT-SPECIFICATION.md) ([#4246](https://github.com/tldr-pages/tldr/pull/4246))
    - Add requirement for CLI clients to use non-zero exit code on failing to find a page.
 
- - [v1.3, June 11th 2020](https://github.com/tldr-pages/tldr/blob/8effb5ba77bbf266909e6f9e5d50727daf4a5431/CLIENT-SPECIFICATION.md) ([#4101](https://github.com/tldr-pages/tldr/pull/4101))
+ - [v1.3, June 11th 2020](https://github.com/tldr-pages/tldr/blob/v1.3/CLIENT-SPECIFICATION.md) ([#4101](https://github.com/tldr-pages/tldr/pull/4101))
    - Clarified fallback to English in the language resolution algorithm.
    - Update `LANG` and `LANGUAGE` environment variable to conform to the GNU spec.
 
- - [v1.2, July 3rd 2019](https://github.com/tldr-pages/tldr/blob/d9e1d592e5f7074a5459875ef06a4d4841659ced/CLIENT-SPECIFICATION.md) ([#3168](https://github.com/tldr-pages/tldr/pull/3168))
+ - [v1.2, July 3rd 2019](https://github.com/tldr-pages/tldr/blob/v1.2/CLIENT-SPECIFICATION.md) ([#3168](https://github.com/tldr-pages/tldr/pull/3168))
    - Addition of a new `-L, --language` recommended command-line option.
    - Rewording of the language section also encouraging the use of configuration files for language.
    - Shift from BCP-47 to POSIX style locale tags, with consequent **deprecation of previous versions of the spec**.
    - Clearer clarification about the recommended caching functionality.
    - Correction of the usage of the term "arguments" in the homonym section.
 
- - [v1.1, April 1st 2019](https://github.com/tldr-pages/tldr/blob/fbdc06b7425f92cc0d4fc9a5cfc5860ef017251e/CLIENT-SPECIFICATION.md) (deprecated) ([#2859](https://github.com/tldr-pages/tldr/pull/2859))
+ - [v1.1, April 1st 2019](https://github.com/tldr-pages/tldr/blob/v1.1/CLIENT-SPECIFICATION.md) (deprecated) ([#2859](https://github.com/tldr-pages/tldr/pull/2859))
    - Clarified platform section.
 
- - [v1.0, January 23rd 2019](https://github.com/tldr-pages/tldr/blob/31d784bc0966883b492f5d1ec66e808b518b2159/CLIENT-SPECIFICATION.md) (deprecated) ([#2706](https://github.com/tldr-pages/tldr/pull/2706))
+ - [v1.0, January 23rd 2019](https://github.com/tldr-pages/tldr/blob/v1.0/CLIENT-SPECIFICATION.md) (deprecated) ([#2706](https://github.com/tldr-pages/tldr/pull/2706))
    - Initial release.

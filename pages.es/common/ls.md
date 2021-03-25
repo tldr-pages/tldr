@@ -18,7 +18,7 @@
 
 `ls -la`
 
-- Lista con formato largo y tamaño legible por humanos (KB, MB, GB):
+- Lista con formato largo y tamaño legible por humanos (KiB, MiB, GiB):
 
 `ls -lh`
 

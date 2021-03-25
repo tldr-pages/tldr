@@ -14,7 +14,7 @@
 
 `ls -la`
 
-- Liste les fichiers avec un format détaillé en utilisant des prefixes d'unités (ko, Mo, Go) :
+- Liste les fichiers avec un format détaillé en utilisant des prefixes d'unités (KiB, MiB, GiB) :
 
 `ls -lh`
 

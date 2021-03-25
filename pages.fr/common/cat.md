@@ -1,6 +1,7 @@
 # cat
 
 > Affiche et concatène le contenu d'un ou plusieurs fichiers.
+> Plus d'informations : <https://www.man7.org/linux/man-pages/man1/cat.1.html>.
 
 - Affiche le contenu d'un fichier sur la sortie standard :
 
@@ -17,3 +18,7 @@
 - Numérote toutes les lignes affichées :
 
 `cat -n {{fichier}}`
+
+- Affiche les caractères non-imprimables ainsi que les caractères d'espacement (en utilisant le préfixe `M-` prefix si non-ASCII) :
+
+`cat -v -t -e {{fichier}}`

@@ -27,10 +27,6 @@
 
 `brew update`
 
-- Rimuovi le vecchie versioni di una specifica formula installata (se nessuna formula viene specificata, tutte le formule saranno processate):
-
-`brew cleanup {{formula}}`
-
 - Mostra le informazioni su una specifica formula (versione, percorso di installazione, dipendenze, ecc...):
 
 `brew info {{formula}}`

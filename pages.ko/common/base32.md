@@ -8,7 +8,7 @@
 
 - 파일 디코딩:
 
-`base32 -d {{filename}}`
+`base32 --decode {{filename}}`
 
 - stdin에서 인코딩:
 
@@ -16,5 +16,4 @@
 
 - stdin에서 디코딩:
 
-`{{somecommand}} | base32 -d`
-
+`{{somecommand}} | base32 --decode`

@@ -1,6 +1,6 @@
 # git add
 
-> Adiciona arquivos modificados na área de preparação
+> Adiciona arquivos modificados na área de preparação.
 > Mais informações: <https://git-scm.com/docs/git-add>.
 
 - Adiciona um arquivo na área de preparação:
