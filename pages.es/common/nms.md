@@ -7,7 +7,7 @@
 
 `echo "{{Hola, Mundo!}}" | nms`
 
-- Desencriptar output, inmediatamente, sin esperar a que una tecla sea pulsada:
+- Desencriptar la salida inmediatamente, sin esperar a que una tecla sea pulsada:
 
 `{{ls -la}} | nms -a`
 
