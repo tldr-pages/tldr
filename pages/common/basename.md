@@ -1,6 +1,7 @@
 # basename
 
 > Remove leading directory portions from a path.
+> More information: <https://man7.org/linux/man-pages/man1/basename.1.html>.
 
 - Show only the file name from a path:
 
