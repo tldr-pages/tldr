@@ -1,6 +1,4 @@
-# bash-histexpand
-
-> Reuse and expand your bash history.
+> Reuse and expand your history in bash or zsh.
 > More information: <https://www.gnu.org/software/bash/manual/html_node/History-Interaction.html>.
 
 - Run the previous command:
