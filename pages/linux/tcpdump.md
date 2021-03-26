@@ -1,6 +1,7 @@
 # tcpdump
 
-> [useful tcpdump examples](https://www.howtouselinux.com/post/10-useful-tcpdump-command-examples).
+> TCP network traffic analyzer.
+> More information: <https://www.tcpdump.org/manpages/tcpdump.1.html>.
 
 - Capture traffic on specific interface:
 
