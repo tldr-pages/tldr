@@ -3,7 +3,7 @@
 > TCP network traffic analyzer.
 > More information: <https://www.tcpdump.org/manpages/tcpdump.1.html>.
 
-- Capture traffic on specific interface:
+- Capture traffic on a specific interface:
 
 `tcpdump --interface={{ens160}}`
 
