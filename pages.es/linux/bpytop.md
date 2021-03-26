@@ -1,28 +1,28 @@
 # bpytop
 
-> Display dynamic real-time information about running processes with graphs. Similar to `gtop` and `htop`.
-> More information: <https://github.com/aristocratos/bpytop>.
+> Muestra información en tiempo real sobre procesos ejecutándose, con gráficos. Similar a `gtop` y `htop`.
+> Más información: <https://github.com/aristocratos/bpytop>.
 
-- Start bpytop:
+- Inicia bpytop:
 
 `bpytop`
 
-- Start in minimal mode without memory and networking boxes:
+- Inicia en modo mínimalista sin recuadros de memoria y redes:
 
 `bpytop -m`
 
-- Show version:
+- Muestra la versión:
 
 `bpytop -v`
 
-- Toggle minimal mode:
+- Cambia a modo minimalista:
 
 `m`
 
-- Search for running programs or processes:
+- Busca procesos o programas ejecutándose:
 
 `f`
 
-- Change settings:
+- Cambia ajustes:
 
 `M`

@@ -1,31 +1,31 @@
 # top
 
-> Display dynamic real-time information about running processes.
+> Muestra información dinámica en tiempo real sobre procesos ejecutándose.
 
-- Start top:
+- Inicia top:
 
 `top`
 
-- Do not show any idle or zombie processes:
+- No muestra ningún proceso inactivo o zombie:
 
 `top -i`
 
-- Show only processes owned by given user:
+- Muestra solo procesos pertenecientes a un usuario dado:
 
-`top -u {{username}}`
+`top -u {{usuario}}`
 
-- Sort processes by a field:
+- Ordena procesos por una columna:
 
-`top -o {{field_name}}`
+`top -o {{nombre_columna}}`
 
-- Show the individual threads of a given process:
+- Muestra los hilos individuales de un proceso dado:
 
-`top -Hp {{process_id}}`
+`top -Hp {{id_proceso}}`
 
-- Show only the processes with the given PID(s), passed as a comma-separated list. (Normally you wouldn't know PIDs off hand. This example picks the PIDs from the process name):
+- Muestra solo los procesos con un(os) PID(s) dado(s), sepadados por comas. (Normalmente no se conoce el PID de antemano. Este ejemplo lo obtiene del nombre del proceso):
 
-`top -p $(pgrep -d ',' {{process_name}})`
+`top -p $(pgrep -d ',' {{nombre_proceso}})`
 
-- Get help about interactive commands:
+- Obtiene ayuda acerca de los comandos interactivos:
 
 `?`

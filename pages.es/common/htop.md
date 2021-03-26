@@ -1,19 +1,19 @@
 # htop
 
-> Display dynamic real-time information about running processes. An enhanced version of `top`.
+> Muestra información dinámica en tiempo real sobre los procesos ejecutándose. Una versión mejorada de `top`.
 
-- Start htop:
+- Inicia htop:
 
 `htop`
 
-- Start htop displaying only processes owned by given user:
+- Inicia htop mostrando solo procesos pertenecientes a un usuario dado:
 
-`htop -u {{username}}`
+`htop -u {{usuario}}`
 
-- Sort processes by a column (use `--sort-key help` for a column list):
+- Ordena procesos por columna (usar `--sort-key help` para ver una lista de columnas):
 
-`htop -s {{column_name}}`
+`htop -s {{nombre_columna}}`
 
-- Get help about interactive commands:
+- Recibe ayuda sobre comandos interactivos:
 
 `?`
