@@ -17,7 +17,7 @@
 
 `{{command}} !^`
 
-- Run a command `n` lines back:
+- Run a command `n` lines back in the history:
 
 `!-{{n}}`
 
