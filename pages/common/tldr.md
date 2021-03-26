@@ -9,7 +9,7 @@
 
 - Show the tldr page for `cd`, overriding the default platform:
 
-`tldr --os {{windows}} {{cd}}`
+`tldr -o {{windows}} {{cd}}`
 
 - Show the tldr page for a subcommand:
 
@@ -17,4 +17,4 @@
 
 - Update local pages (if the client supports caching):
 
-`tldr --update`
+`tldr -u`
