@@ -17,7 +17,7 @@
 
 - Unmount an encrypted filesystem:
 
-`fusermount -u {{/path/to/mount_point}}`
+`fusermount -u {{path/to/mount_point}}`
 
 - Mount an encrypted snapshot of a plain directory:
 
