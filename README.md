@@ -70,7 +70,7 @@ both for the command line and for other platforms:
   - [tldroid](https://github.com/hidroh/tldroid), available on
     [Google Play](https://play.google.com/store/apps/details?id=io.github.hidroh.tldroid) *(outdated)*
   - [tldr-flutter](https://github.com/Techno-Disaster/tldr-flutter), available on
-    [Google Play](https://play.google.com/store/apps/details?id=wtf.technodisaster.tldr), [F-Droid](https://f-droid.org/packages/wtf.technodisaster.tldr/)
+    [Google Play](https://play.google.com/store/apps/details?id=wtf.technodisaster.tldr) or [F-Droid](https://f-droid.org/packages/wtf.technodisaster.tldr/)
 - Bash clients:
   - [tldr](https://github.com/raylee/tldr)
   - [tldr-bash-client](https://gitlab.com/pepa65/tldr-bash-client)
