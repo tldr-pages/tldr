@@ -10,7 +10,7 @@
 
 `htop -u {{usuario}}`
 
-- Ordena procesos por columna (usar `--sort-key help` para ver una lista de columnas):
+- Ordena procesos por columna (use `--sort-key help` para ver una lista de columnas):
 
 `htop -s {{nombre_columna}}`
 
