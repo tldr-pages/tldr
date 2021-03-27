@@ -30,6 +30,6 @@
 
 `flatpak remove {{name}}`
 
-- Get an info from installed application:
+- Show information about an installed application:
 
 `flatpak info {{name}}`
