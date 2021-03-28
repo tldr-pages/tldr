@@ -1,7 +1,7 @@
 # ltrace
 
 > Display dynamic library calls of a process.
-> More information: <https://linux.die.net/man/1/ltrace>.
+> More information: <https://man7.org/linux/man-pages/man1/ltrace.1.htmlhttps://man7.org/linux/man-pages/man1/ltrace.1.html>.
 
 - Print (trace) library calls of a program binary:
 

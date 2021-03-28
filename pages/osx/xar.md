@@ -1,7 +1,7 @@
 # xar
 
 > Manage .xar archives.
-> More information: <https://linux.die.net/man/1/xar>.
+> More information: <https://www.unix.com/man-page/osx/1/xar>.
 
 - Create a xar archive of all files in a given directory:
 

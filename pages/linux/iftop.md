@@ -1,7 +1,7 @@
 # iftop
 
 > Show bandwidth usage on an interface by host.
-> More information: <https://linux.die.net/man/8/iftop>.
+> More information: <https://www.unix.com/man-page/centos/8/iftop>.
 
 - Show the bandwidth usage:
 

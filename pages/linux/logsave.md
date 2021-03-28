@@ -1,7 +1,7 @@
 # logsave
 
 > Save the output of a command in a logfile.
-> More information: <https://linux.die.net/man/8/logsave>.
+> More information: <https://man7.org/linux/man-pages/man8/logsave.8.html>.
 
 - Execute command with specified argument(s) and save its output to log file:
 

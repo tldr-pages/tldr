@@ -1,7 +1,7 @@
 # ifdown
 
 > Disable network interfaces.
-> More information: <https://linux.die.net/man/8/ifdown>.
+> More information: <https://manpages.debian.org/jessie/ifupdown/ifdown.8.en.html>.
 
 - Disable interface eth0:
 

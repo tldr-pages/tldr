@@ -1,7 +1,7 @@
 # pdflatex
 
 > Kompiliere eine LaTeX Quelldatei in ein PDF Dokument.
-> Mehr Informationen: <https://linux.die.net/man/1/pdflatex>.
+> Mehr Informationen: <https://www.unix.com/man-page/redhat/1/pdflatex>.
 
 - Kompiliere ein PDF Dokument:
 

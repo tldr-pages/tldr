@@ -2,7 +2,7 @@
 
 > Print the super block and blocks group information for ext2/ext3/ext4 filesystems.
 > Unmount the partition before running this command using `umount {{device}}`.
-> More information: <https://linux.die.net/man/8/dumpe2fs>.
+> More information: <https://man7.org/linux/man-pages/man8/dumpe2fs.8.html>.
 
 - Display ext2, ext3 and ext4 filesystem information:
 

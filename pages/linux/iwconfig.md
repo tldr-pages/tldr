@@ -1,7 +1,7 @@
 # iwconfig
 
 > Configure and show the parameters of a wireless network interface.
-> More information: <https://linux.die.net/man/8/iwconfig>.
+> More information: <https://manpages.ubuntu.com/manpages/bionic/man8/iwconfig.8.html>.
 
 - Show the parameters and statistics of all the interfaces:
 

@@ -1,7 +1,7 @@
 # ifup
 
 > Tool used to enable network interfaces.
-> More information: <https://linux.die.net/man/8/ifup>.
+> More information: <https://manpages.debian.org/jessie/ifupdown/ifup.8.en.html>.
 
 - Enable interface eth0:
 

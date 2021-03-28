@@ -1,7 +1,7 @@
 # transmission-create
 
 > A CLI utility to create BitTorrent .torrent files.
-> More information: <https://linux.die.net/man/1/transmission-create>.
+> More information: <https://www.unix.com/man-page/debian/1/TRANSMISSION-CREATE>.
 
 - Create a torrent with 2048 KB as the piece size:
 
