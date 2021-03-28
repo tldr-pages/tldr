@@ -4,15 +4,15 @@
 
 - Open an URL in the system's default browser:
 
-`xdg-open {{website}}`
+`xdg-open {{https://example.com}}`
 
 - Open an image in the system's default image viewer:
 
-`xdg-open {{image_file}}`
+`xdg-open {{path/to/image}}`
 
 - Open a PDF in the system's default PDF viewer:
 
-`xdg-open {{pdf_file}}`
+`xdg-open {{path/to/pdf}}`
 
 - Display the command's help:
 

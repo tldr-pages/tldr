@@ -4,15 +4,15 @@
 
 - Abre una URL en el navegador predeterminado:
 
-`xdg-open {{pagina_web}}`
+`xdg-open {{https://www.ejemplo.es}}`
 
 - Abre una image en el visor de imágenes predeterminado:
 
-`xdg-open {{archivo_imagen}}`
+`xdg-open {{ruta/al/imagen}}`
 
 - Abre un PDF en el visor de PDF predeterminado:
 
-`xdg-open {{archivo_pdf}}`
+`xdg-open {{ruta/al/pdf}}`
 
 - Muestra la ayuda del comando:
 
