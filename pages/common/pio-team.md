@@ -23,7 +23,7 @@
 
 `pio team list`
 
-- List all teams and their members of an organisation:
+- List all teams in an organization:
 
 `pio team list {{organization_name}}`
 
