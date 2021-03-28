@@ -1,17 +1,17 @@
 # pio update
 
-> Update installed PlatformIO Core pagkages, development platforms and global libraries.
-> For updating only development platforms or global libraries, please refer to `pio platform update` or `pio lib update`.
+> Update installed PlatformIO Core packages, development platforms and global libraries.
+> See also: `pio platform update`, `pio lib update`.
 > More information: <https://docs.platformio.org/en/latest/core/userguide/cmd_update.html>.
 
-- Perform a full update:
+- Perform a full update of all packages, development platforms and global libraries:
 
 `pio update`
 
-- Update core packages only:
+- Update core packages only (skips platforms and libraries):
 
 `pio update --core-packages`
 
-- Only check for new versions without updating:
+- Check for new versions of packages, platforms and libraries but do not actually update them:
 
 `pio update --dry-run`
