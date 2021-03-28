@@ -5,19 +5,19 @@
 
 - Create a new organization:
 
-`pio org create {{orgname}}`
+`pio org create {{organization_name}}`
 
 - Delete an organization:
 
-`pio org destroy {{orgname}}`
+`pio org destroy {{organization_name}}`
 
 - Add a user to an organization:
 
-`pio org add {{orgname}} {{username}}`
+`pio org add {{organization_name}} {{username}}`
 
 - Remove a user from an organization:
 
-`pio org remove {{orgname}} {{username}}`
+`pio org remove {{organization_name}} {{username}}`
 
 - List all organizations and their owners, the user owns:
 
@@ -25,4 +25,4 @@
 
 - Update the name, email or display name of an organization:
 
-`pio org update --orgname {{new_orgname}} --email {{new_email}} --displayname {{new_displayname}} {{orgname}}`
+`pio org update --orgname {{new_organization_name}} --email {{new_email}} --displayname {{new_display_name}} {{organization_name}}`
