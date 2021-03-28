@@ -19,6 +19,10 @@
 
 `pio team remove {{orgname}}:{{teamname}} {{username}}`
 
+- List all teams and their members, the user is part of:
+
+`pio team list`
+
 - List all teams and their members of an organisation:
 
 `pio team list {{orgname}}`
