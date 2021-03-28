@@ -11,7 +11,7 @@
 
 `pio settings get {{setting}}`
 
-- Modify the value of a setting:
+- Set a specific setting value:
 
 `pio settings set {{setting}} {{value}}`
 
