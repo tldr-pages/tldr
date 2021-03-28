@@ -3,7 +3,11 @@
 > Perform a static analysis check on a PlatformIO project.
 > More information: <https://docs.platformio.org/en/latest/core/userguide/cmd_check.html>.
 
-- Perform a basic analysis check on a specific project (by default, `project_dir` is the current working directory}:
+- Perform a basic analysis check on the current project:
+
+`pio check`
+
+- Perform a basic analysis check on a specific project:
 
 `pio check --project-dir {{project_dir}}`
 
