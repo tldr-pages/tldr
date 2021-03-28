@@ -11,10 +11,10 @@
 
 `pio settings get {{setting}}`
 
-- Modify a setting:
+- Modify the value of a setting:
 
 `pio settings set {{setting}} {{value}}`
 
-- Reset all settings:
+- Reset the values of all modifed settings to their factory defaults:
 
 `pio settings reset`
