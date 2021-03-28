@@ -1,24 +1,24 @@
 # pio access
 
 > Set the access level on published resources (packages) in the registry.
-> More information: <https://docs.platformio.org/en/latest/core/userguide/access/index.html>.
+> More information: <https://docs.platformio.org/en/latest/core/userguide/access/>.
 
-- Grant access to a resource for a specific user:
+- Grant a user access to a resource:
 
 `pio access grant {{guest|maintainer|admin}} {{username}} {{resource_urn}}`
 
-- Remove access to a resource for a specific user:
+- Remove a user's access to a resource:
 
 `pio access revoke {{username}} {{resource_urn}}`
 
-- Show all resources a user or team can access, along with the access level:
+- Show all resources that a user or team has access to and the access level:
 
 `pio access list {{username}}`
 
-- Set a resource to be privately accessible:
+- Restrict access to a resource to specific users or team members:
 
 `pio access private {{resource_urn}}`
 
-- Set a resource to be publicly accessible:
+- Allow all users access to a resource:
 
 `pio access public {{resource_urn}}`
