@@ -3,7 +3,7 @@
 > Miscellaneous system commands for PlatformIO.
 > More information: <https://docs.platformio.org/en/latest/core/userguide/system/index.html>.
 
-- Install shell completion for the current shell (supports fish, bash, zsh and powershell):
+- Install shell completion for the current shell (supports bash, fish, zsh and powershell):
 
 `pio system completion install`
 
@@ -23,6 +23,6 @@
 
 `pio system prune --cache`
 
-- Show unused PlatformIO data to be removed without removing it:
+- List unused PlatformIO data that would be removed but do not actually remove it:
 
 `pio system prune --dry-run`
