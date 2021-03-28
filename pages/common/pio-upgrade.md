@@ -7,6 +7,6 @@
 
 `pio upgrade`
 
-- Update PlatformIO to the latest version, using the development branch:
+- Update PlatformIO to the latest development (unstable) version:
 
 `pio upgrade --dev`
