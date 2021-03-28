@@ -1,7 +1,7 @@
 # pio team
 
 > Manage PlatformIO teams.
-> More information: <https://docs.platformio.org/en/latest/core/userguide/team/index.html>.
+> More information: <https://docs.platformio.org/en/latest/core/userguide/team/>.
 
 - Create a new team with a description:
 
