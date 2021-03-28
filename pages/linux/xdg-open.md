@@ -2,6 +2,10 @@
 
 > Opens a file or URL in the user's preferred application.
 
+- Open the current directory in the system's default file explorer:
+
+`xdg-open .`
+
 - Open an URL in the system's default browser:
 
 `xdg-open {{https://example.com}}`
