@@ -25,4 +25,4 @@
 
 - Muestra el contenido de una archivo en una revisión específica (por ej., una rama, una etiqueta o un commit):
 
-`git show {{revisión}}:{{ruta/del/archivo}}`
+`git show {{revisión}}:{{ruta/al/archivo}}`
