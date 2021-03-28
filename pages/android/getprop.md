@@ -3,7 +3,7 @@
 > Show information about adb devices and emulators.
 > More information: <https://adbinstaller.com/commands>.
 
-- Print information about the Android system properties:
+- Display information about the Android system properties:
 
 `getprop`
 
