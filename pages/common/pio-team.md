@@ -3,7 +3,7 @@
 > Manage PlatformIO teams.
 > More information: <https://docs.platformio.org/en/latest/core/userguide/team/>.
 
-- Create a new team with a description:
+- Create a new team with the specified description:
 
 `pio team create --description {{description}} {{orgname}}:{{teamname}}`
 
@@ -11,11 +11,11 @@
 
 `pio team destroy {{orgname}}:{{teamname}}`
 
-- Add a new member to a team:
+- Add a new user to a team:
 
 `pio team add {{orgname}}:{{teamname}} {{username}}`
 
-- Remove a member from a team:
+- Remove a user from a team:
 
 `pio team remove {{orgname}}:{{teamname}} {{username}}`
 
@@ -27,6 +27,10 @@
 
 `pio team list {{orgname}}`
 
-- Rename a team and update its description:
+- Rename a team:
 
-`pio team update --name {{new_teamname}} --description {{new_description}} {{orgname}}:{{teamname}}`
+`pio team update --name {{new_teamname}} {{orgname}}:{{teamname}}`
+
+- Change the description of a team:
+
+`pio team update --description {{new_description}} {{orgname}}:{{teamname}}`
