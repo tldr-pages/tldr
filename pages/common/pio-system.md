@@ -11,7 +11,7 @@
 
 `pio system completion uninstall`
 
-- Print system-wide PlatformIO information:
+- Display system-wide PlatformIO information:
 
 `pio system info`
 
