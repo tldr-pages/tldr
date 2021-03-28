@@ -19,7 +19,7 @@
 
 `pio org remove {{organization_name}} {{username}}`
 
-- List all organizations and their owners, the user owns:
+- List all organizations the current user is a member of and their owners:
 
 `pio org list`
 
