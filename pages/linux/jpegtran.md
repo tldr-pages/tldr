@@ -1,7 +1,7 @@
 # jpegtran
 
 > Perform lossless transformation of JPEG files.
-> More information: <https://www.unix.com/man-page/redhat/1/jpegtran>.
+> More information: <https://man.archlinux.org/man/jpegtran.1>.
 
 - Mirror an image horizontally or vertically:
 

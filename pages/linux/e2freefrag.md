@@ -1,7 +1,7 @@
 # e2freefrag
 
 > Print the free space fragmentation information for ext2/ext3/ext4 filesystems.
-> More information: <https://www.unix.com/man-page/linux/8/e2freefrag>.
+> More information: <https://man.archlinux.org/man/e2freefrag.8>.
 
 - Check how many free blocks are present as contiguous and aligned free space:
 

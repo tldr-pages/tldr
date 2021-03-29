@@ -1,7 +1,7 @@
 # aplay
 
 > Command-line sound player for ALSA soundcard driver.
-> More information: <http://manpages.ubuntu.com/manpages/trusty/man1/aplay.1.html>.
+> More information: <https://man.archlinux.org/man/aplay.1>.
 
 - Play a specific file (sampling rate, bit depth, etc. will be automatically determined for the file format):
 

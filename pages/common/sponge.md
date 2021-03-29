@@ -1,7 +1,7 @@
 # sponge
 
 > Soak up the input before writing the output file.
-> More information: <https://manpages.ubuntu.com/manpages/xenial/man1/sponge.1.html>.
+> More information: <https://man.archlinux.org/man/sponge.1>.
 
 - Append file content to the source file:
 

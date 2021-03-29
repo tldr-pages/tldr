@@ -1,7 +1,7 @@
 # efibootmgr
 
 > Manipulate the UEFI Boot Manager (the Bootoptions).
-> More information: <https://manpages.ubuntu.com/manpages/groovy/man8/efibootmgr.8.html>.
+> More information: <https://man.archlinux.org/man/efibootmgr.8>.
 
 - List the current settings / bootnums:
 

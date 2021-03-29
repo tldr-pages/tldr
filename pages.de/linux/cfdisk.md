@@ -1,7 +1,7 @@
 # cfdisk
 
 > Ein Programm zur Verwaltung von Partitionstabellen mittels einer Curses-basierten UI.
-> Mehr Informationen: <https://man7.org/linux/man-pages/man8/cfdisk.8.html>.
+> Mehr Informationen: <https://man.archlinux.org/man/cfdisk.8>.
 
 - Öffne das Partitionierungsinterface für eine bestimmte Festplatte:
 
