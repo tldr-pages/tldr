@@ -1,6 +1,7 @@
 # xdg-open
 
 > Opens a file or URL in the user's preferred application.
+> More information: <https://man.archlinux.org/man/xdg-open.1>.
 
 - Open the current directory in the default file explorer:
 
