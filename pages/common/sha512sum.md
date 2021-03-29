@@ -1,6 +1,7 @@
 # sha512sum
 
 > Calculate SHA512 cryptographic checksums.
+> More information: <https://man.archlinux.org/man/sha512sum.1>.
 
 - Calculate the SHA512 checksum for a file:
 

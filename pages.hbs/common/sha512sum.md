@@ -1,6 +1,7 @@
 # sha512sum
 
 > Izračunava SHA512 kriptografske kontrolne brojeve.
+> Više informacija: <https://man.archlinux.org/man/sha512sum.1>.
 
 - Izračunaj SHA512 kontrolni broj za datoteku:
 
