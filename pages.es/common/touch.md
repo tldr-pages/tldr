@@ -1,7 +1,7 @@
 # touch
 
 > Cambia el tiempo de accesso y modificación de un archivo (atime, mtime).
-> Más información: <https://man7.org/linux/man-pages/man1/touch.1.html>.
+> Más información: <https://www.gnu.org/software/coreutils/manual/html_node/touch-invocation.html>.
 
 - Crea un archivo nuevo o cambia los tiempos de archivos existentes al tiempo actual:
 
