@@ -1,7 +1,7 @@
 # kotlin
 
 > Kotlin Programstartare.
-> Mer information <https://kotlinlang.org>.
+> Mer information: <https://kotlinlang.org>.
 
 - Kör en jar fil:
 
