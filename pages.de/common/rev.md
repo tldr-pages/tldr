@@ -8,4 +8,4 @@
 
 - Kehre die Reihenfolge einer Datei um:
 
-`rev {{datei}}`
+`rev {{pfad/zu/datei}}`
