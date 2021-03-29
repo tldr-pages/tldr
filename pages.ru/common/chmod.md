@@ -1,6 +1,7 @@
 # chmod
 
 > Изменить права доступа файлу или папке.
+> Больше информации: <https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
 
 - Дать [u]пользователю, который владеет файлом, права на его [x]исполнение:
 

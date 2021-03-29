@@ -1,6 +1,7 @@
 # chmod
 
 > Alterar as permissões de acesso a um ficheiro ou diretório.
+> Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
 
 - Dar a um [u]tilizador que possui um ficheiro o direito a e[x]ecutá-lo:
 
