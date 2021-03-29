@@ -1,6 +1,7 @@
 # encfs
 
 > Encrypted virtual filesystem.
+> To unmount encrypted filesystem use `fusermount -u`.
 > More information: <https://github.com/vgough/encfs>.
 
 - Initialize or mount an encrypted filesystem:
@@ -14,10 +15,6 @@
 - Run encfs in foreground instead of spawning a daemon:
 
 `encfs -f {{/path/to/cipher_dir}} {{/path/to/mount_point}}`
-
-- Unmount an encrypted filesystem:
-
-`fusermount -u {{path/to/mount_point}}`
 
 - Mount an encrypted snapshot of a plain directory:
 
