@@ -2,22 +2,22 @@
 
 > Opens a file or URL in the user's preferred application.
 
-- Open the current directory in the system's default file explorer:
+- Open the current directory in the default file explorer:
 
 `xdg-open .`
 
-- Open an URL in the system's default browser:
+- Open an URL in the default browser:
 
 `xdg-open {{https://example.com}}`
 
-- Open an image in the system's default image viewer:
+- Open an image in the default image viewer:
 
 `xdg-open {{path/to/image}}`
 
-- Open a PDF in the system's default PDF viewer:
+- Open a PDF in the default PDF viewer:
 
 `xdg-open {{path/to/pdf}}`
 
-- Display the command's help:
+- Display help:
 
 `xdg-open --help`

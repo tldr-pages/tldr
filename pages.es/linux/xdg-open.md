@@ -18,6 +18,6 @@
 
 `xdg-open {{ruta/al/pdf}}`
 
-- Muestra la ayuda del comando:
+- Muestra la ayuda:
 
 `xdg-open --help`
