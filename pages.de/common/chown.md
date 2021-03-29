@@ -1,6 +1,7 @@
 # chown
 
 > Ändere den Besitzer und die Besitzergruppe von Dateien und Verzeichnissen.
+> Mehr Informationen: <https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html>.
 
 - Ändere den Besitzer einer Datei/eines Verzeichnisses:
 
