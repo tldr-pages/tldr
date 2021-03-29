@@ -1,6 +1,7 @@
 # mv
 
 > Memindah atau menamai-ulang file dan direktori.
+> Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/manual/html_node/mv-invocation.html>.
 
 - Memindahkan file ke lokasi yang baru:
 
