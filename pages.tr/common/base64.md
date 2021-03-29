@@ -1,6 +1,7 @@
 # base64
 
 > Bir dosya veya standart veriyi Base64 formatında şifrele veya yalın veri çıktısı olarak deşifre et.
+> Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/manual/html_node/base64-invocation.html>.
 
 - Bir dosyayı şifrele:
 
