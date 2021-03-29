@@ -15,9 +15,9 @@
 
 `dolt commit --all`
 
-- Use the specified commit date (defaults to current date and time):
+- Use the specified ISO 8601 commit date (defaults to current date and time):
 
-`dolt commit --date "{{date}}"`
+`dolt commit --date "{{2021-12-31T00:00:00}}"`
 
 - Use the specified author for the commit:
 
