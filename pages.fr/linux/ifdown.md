@@ -1,7 +1,7 @@
 # ifdown
 
 > Désactive des interfaces réseau.
-> Plus d'information : <https://manpages.debian.org/jessie/ifupdown/ifdown.8.html>.
+> Plus d'information : <https://manpages.debian.org/latest/ifupdown/ifdown.8.html>.
 
 - Désactive l'interface eth0 :
 
