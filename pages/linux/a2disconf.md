@@ -1,7 +1,7 @@
 # a2disconf
 
 > Disable an Apache configuration file on Debian-based OSes.
-> More information: <https://manpages.debian.org/buster/apache2/a2disconf.8.en.html>.
+> More information: <https://manpages.debian.org/latest/apache2/a2disconf.8.en.html>.
 
 - Disable a configuration file:
 
