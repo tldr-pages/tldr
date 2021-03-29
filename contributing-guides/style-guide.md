@@ -65,7 +65,7 @@ Keep the following guidelines in mind when choosing tokens:
 7. If the example is clearer with an actual value rather than a generic placeholder, use the actual value.
    For example, use `iostat {{2}}` rather than `iostat {{interval_in_secs}}`.
 8. If a command performs irreversible changes to a file system or to user's devices, then write every example in a way that they cannot be unmindfully copy-pasted by the user.
-   For example, instead of `ddrescue --force --no-scrape /dev/sda /dev/sdb` write `ddrescue --force --no-scrape {{/dev/sdX}} {{/dev/sdY}}` and use the `{{/dev/sdXY}}` placeholder for *block devices* instead of `/dev/sda`.
+   For example, instead of `ddrescue --force --no-scrape /dev/sda /dev/sdb` write `ddrescue --force --no-scrape {{/dev/sdX}} {{/dev/sdY}}` and use the `{{/dev/sdXY}}` placeholder for *block devices* instead of `/dev/sda1`.
 
 In general, tokens should make it as intuitive as possible
 to figure out how to use the command and fill it in with values.
