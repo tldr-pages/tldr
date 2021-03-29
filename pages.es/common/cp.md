@@ -1,6 +1,7 @@
 # cp
 
 > Copia archivos y directorios.
+> Más información: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
 - Copia un archivo a otra ruta:
 
