@@ -1,9 +1,9 @@
 # cat
 
 > 打印和拼接文件的工具.
+> 更多信息： <https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>.
 
 - 以标准输出，打印文件内容:
-> 更多信息： <https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>.
 
 `cat {{file}}`
 
