@@ -5,7 +5,7 @@
 
 - Display help:
 
-`./inkmake -h`
+`inkmake --help`
 
 - Export an SVG file executing the specified Inkfile:
 
