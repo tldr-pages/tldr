@@ -9,7 +9,7 @@
 
 - Export an SVG file executing the specified Inkfile:
 
-`./inkmake {{inkfile}}`
+`inkmake {{path/to/Inkfile}}`
 
 - Execute an Inkfile and show detailed information:
 
