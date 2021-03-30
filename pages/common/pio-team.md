@@ -5,7 +5,7 @@
 
 - Create a new team with the specified description:
 
-`pio team create --description {{description}} {{orgname}}:{{team_name}}`
+`pio team create --description {{description}} {{organization_name}}:{{team_name}}`
 
 - Delete a team:
 
@@ -29,7 +29,7 @@
 
 - Rename a team:
 
-`pio team update --name {{new_teamname}} {{organization_name}}:{{team_name}}`
+`pio team update --name {{new_team_name}} {{organization_name}}:{{team_name}}`
 
 - Change the description of a team:
 
