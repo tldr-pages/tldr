@@ -7,7 +7,7 @@
 
 `pueue --help`
 
-- Check pueue version:
+- Check the version of pueue:
 
 `pueue --version`
 
