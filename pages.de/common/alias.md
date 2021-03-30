@@ -2,7 +2,7 @@
 
 > Erstellt Aliasse - Alterative Namen für Befehle.
 > Aliasse laufen mit der aktuellen Shell-Sitzung ab, es sei denn, sie werden in der Konfigurationsdatei der Shell definiert, z.B. `~/.bashrc`.
-> Mehr Informationen: <https://www.man7.org/linux/man-pages/man1/alias.1p.html>.
+> Mehr Informationen: <https://tldp.org/LDP/abs/html/aliases.html>.
 
 - Listet alle Aliasse auf:
 
