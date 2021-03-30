@@ -1,6 +1,7 @@
 # wc
 
 > Count lines, words, or bytes.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/wc-invocation.html>.
 
 - Count lines in file:
 
