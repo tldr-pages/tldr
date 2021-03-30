@@ -15,6 +15,6 @@
 
 `pio settings set {{setting}} {{value}}`
 
-- Reset the values of all modifed settings to their factory defaults:
+- Reset the values of all modified settings to their factory defaults:
 
 `pio settings reset`
