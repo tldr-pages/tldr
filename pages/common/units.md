@@ -7,6 +7,10 @@
 
 `units`
 
+- List all units containing a specific string in interactive mode:
+
+`search {{string}}`
+
 - Show the conversion between two simple units:
 
 `units {{quarts}} {{tablespoons}}`
