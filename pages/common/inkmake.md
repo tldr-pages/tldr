@@ -21,4 +21,4 @@
 
 - Specify a custom Inkscape binary to use as the backend:
 
-`./inkmake -i {{path/to/inkscape}} {{inkfile}}`
+`inkmake --inkscape {{/Applications/Inkscape.app/Contents/Resources/bin/inkscape}} {{path/to/Inkfile}}`
