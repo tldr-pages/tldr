@@ -1,6 +1,7 @@
 # rm
 
 > கோப்புகளையோ அடைவுகளையோ அழி.
+> மேலும் தகவல்: <https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
 
 - கோப்புகளை அழி:
 
