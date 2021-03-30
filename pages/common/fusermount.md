@@ -11,6 +11,6 @@
 
 `fusermount -z {{path/to/mount_point}}`
 
-- Print the version of `fusermount` and exit:
+- Display version:
 
 `fusermount --version`
