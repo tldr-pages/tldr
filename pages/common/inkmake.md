@@ -1,6 +1,6 @@
 # inkmake
 
-> Exports from SVG files using Inkscape's backend.
+> Use inkfiles to export SVG files using Inkscape's backend.
 > More information: <https://rubygems.org/gems/inkmake>.
 
 - Display help:
