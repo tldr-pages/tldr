@@ -1,6 +1,7 @@
 # at
 
 > Executa comandos em um determinado momento.
+> Mais informações: <https://www.man7.org/linux/man-pages/man1/at.1p.html>.
 
 - Iniciar o prompt `at` para que um novo conjunto de comandos seja agendado, pressione `Ctrl + D` para salvar e sair:
 
