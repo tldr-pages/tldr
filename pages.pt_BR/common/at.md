@@ -2,6 +2,7 @@
 
 > Ferramenta para o agendamento de comandos.
 > O serviço atd (ou atrun) deve estar sendo executado para as atuais execuções.
+> Mais informações: <https://www.man7.org/linux/man-pages/man1/at.1p.html>.
 
 - Executar comandos da standard input em 5 minutos (pressionar `Ctrl + D`quando acabar):
 
