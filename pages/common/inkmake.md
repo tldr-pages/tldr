@@ -15,7 +15,7 @@
 
 `./inkmake -v {{inkfile}}`
 
-- Execute an inkfile by specifying SVG file(s) and output file:
+- Execute an Inkfile, specifying SVG input file(s) and an output file:
 
 `./inkmake -s {{path/to/svg}} -o {{path/to/output}} {{inkfile}}`
 
