@@ -1,6 +1,7 @@
 # cat
 
 > Verkette und gib einzelne oder mehrere Dateien aus.
+> Mehrere Informationen: <https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>.
 
 - Gib den Inhalt einer Datei aus:
 
