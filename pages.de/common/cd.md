@@ -1,6 +1,7 @@
 # cd
 
 > Ändere das aktuelle Arbeitsverzeichnis.
+> Mehr Informationen: <https://man.archlinux.org/man/cd.n>.
 
 - Wechsle in das angegebene Verzeichnis:
 
