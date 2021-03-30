@@ -1,6 +1,7 @@
 # timeout
 
 > Run a command with a time limit.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/timeout-invocation.html>.
 
 - Run `sleep 10` and terminate it, if it runs for more than 3 seconds:
 
