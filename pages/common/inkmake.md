@@ -1,7 +1,7 @@
 # inkmake
 
 > Exports from SVG files using Inkscape's backend.
-> More information: <https://rubygems.org/gems/inkmake>.
+> More information: <https://github.com/wader/inkmake>.
 
 - Display help:
 
