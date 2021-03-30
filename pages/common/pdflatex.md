@@ -1,7 +1,7 @@
 # pdflatex
 
 > Compile a PDF document from LaTeX source files.
-> More information: <https://www.unix.com/man-page/redhat/1/pdflatex>.
+> More information: <https://man.archlinux.org/man/pdflatex.1>.
 
 - Compile a PDF document:
 

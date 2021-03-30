@@ -1,7 +1,7 @@
 # pmount
 
 > Mount arbitrary hotpluggable devices as a normal user.
-> More information: <https://www.unix.com/man-page/suse/1/pmount>.
+> More information: <http://manpages.ubuntu.com/manpages/focal/en/man1/pmount.1.html>.
 
 - Mount a device below `/media/` (using device as mount point):
 
