@@ -1,6 +1,7 @@
 # tac
 
 > Stampa e concatena file al contrario.
+> Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/tac-invocation.html>.
 
 - Stampa il contenuto di *file1* al contrario su standard output:
 
