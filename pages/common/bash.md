@@ -1,7 +1,7 @@
 # bash
 
-> Bourne-Again SHell, a `sh`-compatible command line interpreter.
-> Please refer to `tldr histexpand` for history expansion.
+> Bourne-Again SHell, an `sh`-compatible command line interpreter.
+> See also `histexpand` for history expansion.
 > More information: <https://gnu.org/software/bash>.
 
 - Start interactive shell:

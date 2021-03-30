@@ -1,7 +1,7 @@
 # zsh
 
 > Z SHell, a `bash` and `sh`-compatible command line interpreter.
-> Please refer to `tldr histexpand` for history expansion.
+> See also `histexpand` for history expansion.
 > More information: <https://www.zsh.org>.
 
 - Start interactive command line interpreter:
