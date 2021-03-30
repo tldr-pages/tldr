@@ -7,7 +7,7 @@
 
 `./inkmake -h`
 
-- Execute an inkfile to export:
+- Execute an inkfile to export a SVG file:
 
 `./inkmake {{inkfile}}`
 
