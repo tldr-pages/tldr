@@ -1,6 +1,6 @@
 # inkmake
 
-> Use inkfiles to export SVG files using Inkscape's backend.
+> GNU Makefile-style SVG exporting using Inkscape's backend.
 > More information: <https://github.com/wader/inkmake>.
 
 - Display help:
