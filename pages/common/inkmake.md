@@ -1,24 +1,24 @@
 # inkmake
 
-> Exports from SVG files using Inkscape's backend.
+> Use inkfiles to export SVG files using Inkscape's backend.
 > More information: <https://github.com/wader/inkmake>.
 
 - Display help:
 
 `./inkmake -h`
 
-- Execute an inkfile to export:
+- Execute an inkfile to export a SVG file:
 
 `./inkmake {{inkfile}}`
 
-- Execute an inkfile with detailed info:
+- Execute an inkfile and show detailed information:
 
 `./inkmake -v {{inkfile}}`
 
-- Execute by specifying svg file(s) and output:
+- Execute an inkfile by specifying SVG file(s) and output file:
 
 `./inkmake -s {{path/to/svg}} -o {{path/to/output}} {{inkfile}}`
 
-- Specify Inkscape binary path:
+- Specify the path of the Inkscape binary:
 
 `./inkmake -i {{path/to/inkscape}} {{inkfile}}`
