@@ -19,7 +19,7 @@
 
 `pio team remove {{organization_name}}:{{team_name}} {{username}}`
 
-- List all teams and their members, the user is part of:
+- List all teams that the user is part of and their members:
 
 `pio team list`
 
