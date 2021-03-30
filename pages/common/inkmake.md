@@ -13,7 +13,7 @@
 
 - Execute an Inkfile and show detailed information:
 
-`./inkmake -v {{inkfile}}`
+`inkmake --verbose {{path/to/Inkfile}}`
 
 - Execute an Inkfile, specifying SVG input file(s) and an output file:
 
