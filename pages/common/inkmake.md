@@ -11,7 +11,7 @@
 
 `./inkmake {{inkfile}}`
 
-- Execute an inkfile and show detailed information:
+- Execute an Inkfile and show detailed information:
 
 `./inkmake -v {{inkfile}}`
 
