@@ -1,7 +1,7 @@
 # semanage
 
 > SELinux Policy Management tool.
-> More information: <https://man7.org/linux/man-pages/man8/semanage.8.html>.
+> More information: <http://manpages.ubuntu.com/manpages/focal/en/man8/semanage.8.html>.
 
 - Output local customizations:
 
