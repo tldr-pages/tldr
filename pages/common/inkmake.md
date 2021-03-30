@@ -17,7 +17,7 @@
 
 - Execute an Inkfile, specifying SVG input file(s) and an output file:
 
-`./inkmake -s {{path/to/svg}} -o {{path/to/output}} {{inkfile}}`
+`inkmake --svg {{path/to/file.svg}} --out {{path/to/output_image}} {{path/to/Inkfile}}`
 
 - Specify a custom Inkscape binary to use as the backend:
 
