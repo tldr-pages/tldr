@@ -1,6 +1,7 @@
 # base32
 
 > Codifica o decodifica file o standard input in Base32 su standard output.
+> Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/base32-invocation.html>.
 
 - Codifica un file:
 
