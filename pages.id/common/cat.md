@@ -1,6 +1,7 @@
 # cat
 
 > Mencetak dan menggabungkan berkas.
+> Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>.
 
 - Mencetak konten berkas ke keluaran standar:
 
