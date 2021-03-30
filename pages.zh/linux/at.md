@@ -1,6 +1,7 @@
 # at
 
 > 在指定时间执行命令.
+> 更多信息： <https://www.man7.org/linux/man-pages/man1/at.1p.html>.
 
 - 打开`at`提示符创建一组新的定时命令，按`Ctrl + D`保存并退出:
 
