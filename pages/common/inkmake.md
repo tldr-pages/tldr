@@ -19,6 +19,6 @@
 
 `./inkmake -s {{path/to/svg}} -o {{path/to/output}} {{inkfile}}`
 
-- Specify the path of the Inkscape binary:
+- Specify a custom Inkscape binary to use as the backend:
 
 `./inkmake -i {{path/to/inkscape}} {{inkfile}}`
