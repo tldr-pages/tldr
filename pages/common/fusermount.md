@@ -7,7 +7,7 @@
 
 `fusermount -u {{path/to/mount_point}}`
 
-- Unmount a FUSE filesystem, as soon as it's not busy anymore:
+- Unmount a FUSE filesystem as soon as it becomes unused:
 
 `fusermount -z {{path/to/mount_point}}`
 
