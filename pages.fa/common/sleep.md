@@ -1,6 +1,7 @@
 # sleep
 
 > ایجاد تاخیر بر اساس زمان.
+>  اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/sleep-invocation.html>.
 
 - تاخیر به ثانیه:
 
