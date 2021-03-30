@@ -1,6 +1,7 @@
 # cmd
 
 > Android service manager.
+> More information: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/cmd/>.
 
 - List every running service:
 
