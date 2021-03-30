@@ -1,6 +1,7 @@
 # groups
 
 > Print group memberships for a user.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/groups-invocation.html>.
 
 - Print group memberships for the current user:
 
