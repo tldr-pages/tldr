@@ -2,6 +2,7 @@
 
 > Membuat alias -- kata-kata yang digantikan oleh utasan perintah (command).
 > Alias menjadi kadaluarsa sampai sesi shell saat ini berakhir, kecuali jika didefinisikan di file konfigurasi shell, misalnya `~/.bashrc`.
+> Informasi lebih lanjut: <https://tldp.org/LDP/abs/html/aliases.html>.
 
 - Menampilkan daftar semua alias:
 
