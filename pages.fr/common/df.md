@@ -1,6 +1,7 @@
 # df
 
 > Montre un aperçu de l'utilisation de l'espace disque.
+> Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/df-invocation.html>.
 
 - Afficher tous les systèmes de fichiers et leur utilisation d'espace disque :
 
