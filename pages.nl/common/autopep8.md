@@ -5,7 +5,7 @@
 
 - Print het geformatteerde bestand af met een ingestelde maximale toegestane regellengte:
 
-`autopep8 {{pad/naar/bestand}} --max-line-length {{len}}`
+`autopep8 {{pad/naar/bestand.py}} --max-line-length {{len}}`
 
 - Print de diff voor de het geformatteerde bestand:
 
