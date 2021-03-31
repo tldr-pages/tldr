@@ -1,6 +1,6 @@
 # autopep8
 
-> Automatically formats Python code to confrom to the PEP 8 style guide.
+> Format Python code according to the PEP 8 style guide.
 > More information: <https://github.com/hhatto/autopep8>.
 
 - Format a file to stdout, with a custom maximium line length:
