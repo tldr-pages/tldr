@@ -2,7 +2,7 @@
 
 > Schedule cron jobs to run on a time interval for the current user.
 > Job definition format: "(min) (hour) (day_of_month) (month) (day_of_week) command_to_execute".
-> More information: <https://man.archlinux.org/man/core/cronie/crontab.1>.
+> More information: <https://man.archlinux.org/man/crontab.1>.
 
 - Edit the crontab file for the current user:
 

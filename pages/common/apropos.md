@@ -1,7 +1,7 @@
 # apropos
 
 > Search the manual pages for names and descriptions.
-> More information: <https://man.archlinux.org/man/core/man-db/apropos.1>.
+> More information: <https://man.archlinux.org/man/apropos.1>.
 
 - Search for a keyword using a regular expression:
 
