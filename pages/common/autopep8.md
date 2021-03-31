@@ -15,6 +15,6 @@
 
 `autopep8 --in-place {{path/to/file}}`
 
-- Format the files in-pace recursivly in dir:
+- Recursively format all files in a directory in-place:
 
 `autopep8 --in-place --recursive {{path/to/dir}}`
