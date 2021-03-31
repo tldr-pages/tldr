@@ -1,7 +1,7 @@
 # getprop
 
 > Show information about adb devices and emulators.
-> More information: <https://adbinstaller.com/commands>.
+> More information: <https://cs.android.com/android/platform/superproject/+/master:system/core/toolbox/getprop.cpp>.
 
 - Display information about the Android system properties:
 
