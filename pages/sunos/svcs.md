@@ -1,7 +1,7 @@
 # svcs
 
 > List information about running services.
-> More information: <https://www.unix.com/man-page/linux/1/svcs/>.
+> More information: <https://www.unix.com/man-page/linux/1/svcs>.
 
 - List all running services:
 
