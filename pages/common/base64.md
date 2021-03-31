@@ -7,7 +7,7 @@
 
 `base64 {{filename}}`
 
-- Print a base64 encoded file's contents decoded to plaintext:
+- Decode the base64 contents of a file to stdout:
 
 `base64 --decode {{filename}}`
 
