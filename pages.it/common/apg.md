@@ -1,6 +1,7 @@
 # apg
 
 > Crea password randomiche arbitrariamente complesse.
+> Maggiori informazioni: <https://linux.die.net/man/1/apg>.
 
 - Genera password randomiche (la lunghezza predefinita è 8):
 
