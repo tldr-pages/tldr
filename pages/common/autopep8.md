@@ -11,7 +11,7 @@
 
 `autopep8 --diff {{path/to/file}}`
 
-- Format the file in-pace:
+- Format a file in-pace:
 
 `autopep8 --in-place {{path/to/file}}`
 
