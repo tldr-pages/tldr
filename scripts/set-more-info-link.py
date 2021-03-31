@@ -77,15 +77,23 @@ def set_link(file, link):
     # build new line
     new_line = f'> {labels[locale]} <{link}>.\n'
 
+    if lines[desc_end] == new_line:
+        # return empty status to indicate that no changes were made
+        return ''
+
     if re.search(r'^>.*<.+>', lines[desc_end]):
         # overwrite last line
         lines[desc_end] = new_line
+        status = '\x1b[34mlink updated'
     else:
         # add new line
         lines.insert(desc_end + 1, new_line)
+        status = '\x1b[36mlink added'
 
     with open(file, 'w') as f:
         f.writelines(lines)
+
+    return status
 
 
 def main():
@@ -123,10 +131,11 @@ def main():
     target_paths.sort()
 
     for path in target_paths:
-        set_link(path, args.link)
         rel_path = path.replace(f'{root}/', '')
         rel_paths.append(rel_path)
-        print(f'\x1b[32m{rel_path}\x1b[0m updated')
+        status = set_link(path, args.link)
+        if status != '':
+            print(f'\x1b[32m{rel_path} {status}\x1b[0m')
 
     if args.stage:
         subprocess.call(['git', 'add', *rel_paths], cwd=root)
