@@ -1,6 +1,6 @@
 # ar
 
-> Crea, modifica ed estrai da archivi (.a, .so, .o).
+> Crea, modifica ed estrai da archivi (`.a`, `.so`, `.o`).
 > Maggiori informazioni: <https://man.archlinux.org/man/ar.1>.
 
 - Estrai tutti i membri da un archivio:
