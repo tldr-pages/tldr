@@ -1,6 +1,7 @@
 # pamac
 
 > A command line utility for the GUI package manager pamac.
+> If AUR is not enabled by default, add --aur (or -a) after a command.
 
 - Install a new package:
 
@@ -21,3 +22,7 @@
 - Check for package updates:
 
 `pamac checkupdates`
+
+- Upgrade all packages:
+
+`pamac upgrade`
