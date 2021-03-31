@@ -3,7 +3,7 @@
 > Encode or decode file or standard input to/from Base64, to standard output.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/base64-invocation.html>.
 
-- Print a plaintext file's contents encoded in base64:
+- Encode the contents of a file as base64 to stdout:
 
 `base64 {{filename}}`
 
