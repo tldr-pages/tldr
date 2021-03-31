@@ -7,7 +7,7 @@
 
 `autopep8 {{path/to/file}} --max-line-length {{len}}`
 
-- Print the diff for the fixed source:
+- Format a file, displaying a diff of the changes:
 
 `autopep8 --diff {{path/to/file}}`
 
