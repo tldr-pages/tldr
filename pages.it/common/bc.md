@@ -1,6 +1,7 @@
 # bc
 
 > Calcolatore.
+> Maggiori informazioni: <https://man.archlinux.org/man/bc.1>.
 
 - Esegui in modalità interattiva utilizzando la libreria math della standard library:
 
