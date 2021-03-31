@@ -1,6 +1,7 @@
 # bg
 
 > Retomar a execução, em segundo plano, de processos que foram suspensos (e.g. utilizando `Ctrl + Z`).
+> Mais informações: <https://man.archlinux.org/man/bg.1p>.
 
 - Retomar a execução, em segundo plano, do processo que foi suspenso mais recentemente:
 
