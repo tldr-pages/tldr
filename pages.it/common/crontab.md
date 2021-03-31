@@ -2,7 +2,7 @@
 
 > Programma cron job per essere eseguiti a determinati intervalli di tempo per l'utente corrente.
 > Formato definizione di un job: "(minuto) (ora) (giorno_del_mese) (mese) (giorno_della_settimana) comando_da_eseguire".
-> Maggiori informazioni: <https://man.archlinux.org/man/core/cronie/crontab.1>.
+> Maggiori informazioni: <https://man.archlinux.org/man/crontab.1>.
 
 - Modifica il file crontab per l'utente corrente:
 
