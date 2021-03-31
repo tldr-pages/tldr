@@ -1,6 +1,7 @@
 # chsh
 
 > Promijeni korisnički login shell.
+> Više informacija: <https://man.archlinux.org/man/chsh.1>.
 
 - Promijeni shell:
 
