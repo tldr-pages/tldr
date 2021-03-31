@@ -1,9 +1,9 @@
 # git ignore
 
-> Erstelle .gitignore Dateien aus vorgefertigten Vorlagen.
+> Erstelle `.gitignore` Dateien aus vorgefertigten Vorlagen.
 > Mehr Informationen: <https://docs.gitignore.io/install/command-line>.
 
-- Liste all verfügbaren Vorlagen auf:
+- Liste alle verfügbaren Vorlagen auf:
 
 `git ignore list`
 

@@ -1,6 +1,7 @@
 # chmod
 
 > Modifie les droits d'accès d'un fichier ou d'un répertoire.
+> Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
 
 - Donne les droits d'e[x]écution à l'[u]tilisateur auquel le fichier appartient :
 
@@ -21,6 +22,10 @@
 - Donne aux autres utilisateurs (qui sont dans un autre groupe) les mêmes droits que ceux du groupe propriétaire :
 
 `chmod o=g {{fichier}}`
+
+- Retire tous les droits aux autres (o) utilisateurs :
+
+`chmod o= {{fichier}}`
 
 - Modifie les permissions recursivement en donnant aux membres du groupe et aux autres utilisateurs le droit d'écriture :
 

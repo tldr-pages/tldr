@@ -1,6 +1,7 @@
 # touch
 
 > Change a file access and modification times (atime, mtime).
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/touch-invocation.html>.
 
 - Create a new empty file(s) or change the times for existing file(s) to current time:
 

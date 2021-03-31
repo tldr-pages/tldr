@@ -12,6 +12,6 @@
 
 `7zr x {{archiv.7z}}`
 
-- Listet den Inhalt einer Archivdatei auf:
+- Gib den Inhalt einer Archivdatei aus:
 
 `7zr l {{archiv}}`

@@ -1,6 +1,7 @@
 # chown
 
 > Verander gebruiker- en groepsbeheer van bestanden en mappen.
+> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/chown-invocation.html>.
 
 - Verander gebruikkersbeheerder van een bestand/map:
 

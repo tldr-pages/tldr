@@ -1,23 +1,24 @@
 # cp
 
-> Kopieren von Dateien und Ordnern.
+> Kopiere Dateien und Verzeichnisse.
+> Mehr Informationen: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
 
-- Kopieren einer Datei an einen anderen Ort:
+- Kopiere eine Datei an einen anderen Ort:
 
-`cp {{pfad/zur/datei.ext}} {{pfad/zur/kopie.ext}}`
+`cp {{pfad/zu/datei}} {{pfad/zu/kopie}}`
 
-- Kopieren einer Datei an einen anderen Ort mit gleichem Dateinamen:
+- Kopiere eine Datei an einen anderen Ort und behalte den Dateinamen:
 
-`cp {{pfad/zur/datei.ext}} {{pfad/zum/ziel_ort}}`
+`cp {{pfad/zu/datei}} {{pfad/zu/ziel_verzeichnis}}`
 
-- Rekursives Kopieren aller Ordnerinhalte an einen anderen Ort (falls der Zielort bereits existiert, wird der Ordner in den Zielordner kopiert):
+- Kopiere ein Verzeichnis rekursiv (falls der Zielort bereits existiert, wird das Verzeichnis in das Zielverzeichnis kopiert):
 
-`cp -r {{pfad/zum/ordner}} {{pfad/zum/ziel_ort}}`
+`cp -r {{pfad/zu/verzeichnis}} {{pfad/zu/ziel_verzeichnis}}`
 
-- Rekursives Kopieren eines Ordners im ausführlichen Modus (Dateien werden aufgelistet, während sie kopiert werden):
+- Kopiere ein Verzeichnis rekursiv und gib alle Dateien aus, während sie kopiert werden:
 
-`cp -vr {{pfad/zum/ordner}} {{pfad/zum/ziel_ort}}`
+`cp -vr {{pfad/zu/verzeichnis}} {{pfad/zu/ziel_verzeichnis}}`
 
-- Kopieren von Textdateien an einen anderen Ort im interaktiven Modus (Fordert den Nutzer vor dem Überschreiben zur Bestätigung auf):
+- Kopiere alle Textdateien in einem Verzeichnis und warte auf eine Bestätigung, falls eine Datei überschrieben werden soll:
 
-`cp -i {{*.txt}} {{pfad/zum/ziel_ort}}`
+`cp -i {{/pfad/zu/*.txt}} {{pfad/zu/ziel_verzeichnis}}`

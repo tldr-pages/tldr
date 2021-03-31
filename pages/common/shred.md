@@ -1,6 +1,7 @@
 # shred
 
 > Overwrite files to securely delete data.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/shred-invocation.html>.
 
 - Overwrite a file:
 
