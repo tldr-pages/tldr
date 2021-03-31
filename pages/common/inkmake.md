@@ -3,7 +3,6 @@
 > GNU Makefile-style SVG exporting using Inkscape's backend.
 > More information: <https://github.com/wader/inkmake>.
 
-
 - Export an SVG file executing the specified Inkfile:
 
 `inkmake {{path/to/Inkfile}}`
