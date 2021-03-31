@@ -3,7 +3,7 @@
 > Automatically formats Python code to confrom to the PEP 8 style guide.
 > More information: <https://github.com/hhatto/autopep8>.
 
-- Print out formatted file with set maximium allowed line length:
+- Format a file to stdout, with a custom maximium line length:
 
 `autopep8 {{path/to/file}} --max-line-length {{len}}`
 
