@@ -11,10 +11,10 @@
 
 `autopep8 --diff {{path/to/file}}`
 
-- Format a file in-pace:
+- Format a file in-pace and save the changes:
 
 `autopep8 --in-place {{path/to/file.py}}`
 
-- Recursively format all files in a directory in-place:
+- Recursively format all files in a directory in-place and save changes:
 
 `autopep8 --in-place --recursive {{path/to/directory}}`
