@@ -1,7 +1,8 @@
 # pamac
 
 > A command line utility for the GUI package manager pamac.
-> If AUR is not enabled by default, add --aur (or -a) after a command.
+> If AUR is not enabled by default, add `--aur` after a command.
+> More information: <https://wiki.manjaro.org/index.php/Pamac>.
 
 - Install a new package:
 
