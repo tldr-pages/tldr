@@ -1,6 +1,7 @@
 # chsh
 
 > Cambia shell di login dell'utente.
+> Maggiori informazioni: <https://man.archlinux.org/man/chsh.1>.
 
 - Cambia shell:
 
