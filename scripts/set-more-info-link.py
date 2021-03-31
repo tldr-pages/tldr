@@ -100,7 +100,7 @@ def main():
     parser = argparse.ArgumentParser(
         description='Sets the "More information" link for all translations of a page')
     parser.add_argument('-p', '--page', type=str, required=True,
-                        help='page name in the format "platform/command"')
+                        help='page name in the format "platform/command.md"')
     parser.add_argument('-s', '--stage', action='store_true', default=False,
                         help='stage modified pages (requires `git` to be on $PATH and TLDR_ROOT to be a Git repository)')
     parser.add_argument('link', type=str)
@@ -112,8 +112,8 @@ def main():
     target_paths = []
     rel_paths = []
 
-    if args.page.lower().endswith('.md'):
-        args.page = args.page[:-3]
+    if not args.page.lower().endswith('.md'):
+        args.page = f'{args.page}.md'
 
     for pages_dir in pages_dirs:
         pages_dir_path = os.path.join(root, pages_dir)
@@ -123,9 +123,9 @@ def main():
             platform_path = os.path.join(pages_dir_path, platform)
             pages = os.listdir(platform_path)
             commands = [
-                f'{platform}/{p[:-3]}' for p in pages if p not in IGNORE_FILES]
+                f'{platform}/{p}' for p in pages if p not in IGNORE_FILES]
             if args.page in commands:
-                path = os.path.join(pages_dir_path, args.page + '.md')
+                path = os.path.join(pages_dir_path, args.page)
                 target_paths.append(path)
 
     target_paths.sort()
