@@ -1,6 +1,7 @@
 # apropos
 
 > 在 manpages 中搜索，例如查找一个新命令.
+> 更多信息： <https://man.archlinux.org/man/core/man-db/apropos.1>.
 
 - 搜索关键字:
 

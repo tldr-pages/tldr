@@ -1,6 +1,7 @@
 # apropos
 
 > Recherche dans les pages de manuel, par exemple pour trouver une nouvelle commande.
+> Plus d'informations : <https://man.archlinux.org/man/core/man-db/apropos.1>.
 
 - Recherche par mot clé :
 
