@@ -9,7 +9,7 @@
 
 - List the members of an archive:
 
-`ar -t {{path/to/archive.a}}`
+`ar -t {{path/to/file.a}}`
 
 - Replace or add files to an archive:
 
@@ -17,7 +17,7 @@
 
 - Insert an object file index (equivalent to using `ranlib`):
 
-`ar -s {{path/to/archive.a}}`
+`ar -s {{path/to/file.a}}`
 
 - Create an archive with files and an accompanying object file index:
 
