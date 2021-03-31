@@ -1,6 +1,7 @@
 # arp
 
 > 显示和操作系统的 ARP 缓存.
+> 更多信息： <https://man.archlinux.org/man/arp.8>.
 
 - 显示当前的 ARP 表:
 
