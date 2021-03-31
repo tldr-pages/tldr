@@ -13,7 +13,7 @@
 
 - Formatteer het bestand en sla dit op:
 
-`autopep8 --in-place {{pad/naar/bestand}}`
+`autopep8 --in-place {{pad/naar/bestand.py}}`
 
 - Formatteer de bestanden recursief in een map en sla dit op:
 
