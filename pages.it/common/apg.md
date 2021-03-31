@@ -1,7 +1,7 @@
 # apg
 
 > Crea password randomiche arbitrariamente complesse.
-> Maggiori informazioni: <https://manpages.debian.org/latest/apg/apg.1.html>.
+> Maggiori informazioni: <https://manpages.debian.org/latest/apg/apg.1>.
 
 - Genera password randomiche (la lunghezza predefinita è 8):
 
