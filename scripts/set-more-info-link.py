@@ -104,6 +104,9 @@ def main():
     target_paths = []
     rel_paths = []
 
+    if args.page.lower().endswith('.md'):
+        args.page = args.page[:-3]
+
     for pages_dir in pages_dirs:
         pages_dir_path = os.path.join(root, pages_dir)
         platforms = [i for i in os.listdir(
