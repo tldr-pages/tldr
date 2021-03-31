@@ -1,6 +1,7 @@
 # airpaste
 
 > Compartilhar mensagens e arquivos na mesma rede.
+> Mais informações: <https://github.com/mafintosh/airpaste>.
 
 - Esperar por mensagens e mostrá-las quando recebidas:
 
