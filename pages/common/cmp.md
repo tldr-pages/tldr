@@ -1,11 +1,12 @@
 # cmp
 
-> Compare two files.
+> Compare two files byte by byte.
+> More information: <https://www.gnu.org/software/diffutils/manual/html_node/Invoking-cmp.html>.
 
-- Find the byte number and line number of the first difference between the files:
+- Find the byte and line number of the first difference between two files:
 
-`cmp {{file1}} {{file2}}`
+`cmp {{path/to/file1}} {{path/to/file2}}`
 
 - Find the byte number and differing bytes of every difference:
 
-`cmp -l {{file1}} {{file2}}`
+`cmp -l {{path/to/file1}} {{path/to/file2}}`
