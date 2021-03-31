@@ -13,7 +13,7 @@
 
 - Format a file in-pace:
 
-`autopep8 --in-place {{path/to/file}}`
+`autopep8 --in-place {{path/to/file.py}}`
 
 - Recursively format all files in a directory in-place:
 
