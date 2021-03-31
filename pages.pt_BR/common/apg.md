@@ -1,7 +1,7 @@
 # apg
 
 > Criar senhas aleatórias arbitrariamente complexas.
-> Mais informações: <https://linux.die.net/man/1/apg>.
+> Mais informações: <https://manpages.debian.org/latest/apg/apg.1.html>.
 
 - Criar senha aleatória (tamanho padrão para as senhas é 8 caracteres):
 
