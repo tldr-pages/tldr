@@ -1,6 +1,6 @@
 # ar
 
-> Create, modify, and extract from archives (.a, .so, .o).
+> Create, modify, and extract from archives (`.a`, `.so`, `.o`).
 > More information: <https://man.archlinux.org/man/ar.1>.
 
 - Extract all members from an archive:
