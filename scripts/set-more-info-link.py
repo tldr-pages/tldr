@@ -40,8 +40,9 @@ IGNORE_FILES = (
 
 def get_tldr_root():
     # if this script is running from tldr/scripts, the parent's parent is the root
-    if __file__.endswith('tldr/scripts/set-more-info-link.py'):
-        return os.path.dirname(os.path.dirname(__file__))
+    f = os.path.normpath(__file__)
+    if f.endswith('tldr/scripts/set-more-info-link.py'):
+        return os.path.dirname(os.path.dirname(f))
 
     if 'TLDR_ROOT' in os.environ:
         return os.environ['TLDR_ROOT']
