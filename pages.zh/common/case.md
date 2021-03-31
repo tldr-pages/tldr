@@ -1,6 +1,7 @@
 # case
 
 > case ... esac 与其他语言中的 switch ... case 语句类似，是一种多分枝选择结构.
+> 更多信息： <https://man.archlinux.org/man/case.n>.
 
 - 通过字符串字面量判断执行分支:
 

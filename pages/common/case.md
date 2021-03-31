@@ -1,6 +1,7 @@
 # case
 
 > Branch based on the value of an expression.
+> More information: <https://man.archlinux.org/man/case.n>.
 
 - Match a variable against string literals to decide which command to run:
 
