@@ -17,4 +17,4 @@
 
 - Recursively format all files in a directory in-place:
 
-`autopep8 --in-place --recursive {{path/to/dir}}`
+`autopep8 --in-place --recursive {{path/to/directory}}`
