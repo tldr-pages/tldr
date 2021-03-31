@@ -3,9 +3,6 @@
 > GNU Makefile-style SVG exporting using Inkscape's backend.
 > More information: <https://github.com/wader/inkmake>.
 
-- Display help:
-
-`inkmake --help`
 
 - Export an SVG file executing the specified Inkfile:
 
@@ -22,3 +19,7 @@
 - Specify a custom Inkscape binary to use as the backend:
 
 `inkmake --inkscape {{/Applications/Inkscape.app/Contents/Resources/bin/inkscape}} {{path/to/Inkfile}}`
+
+- Display help:
+
+`inkmake --help`
