@@ -5,7 +5,7 @@
 
 - Extract all members from an archive:
 
-`ar -x {{path/to/archive.a}}`
+`ar -x {{path/to/file.a}}`
 
 - List the members of an archive:
 
@@ -13,7 +13,7 @@
 
 - Replace or add files to an archive:
 
-`ar -r {{path/to/archive.a}} {{path/to/file1.o}} {{path/to/file2.o}}`
+`ar -r {{path/to/file.a}} {{path/to/file1.o}} {{path/to/file2.o}}`
 
 - Insert an object file index (equivalent to using `ranlib`):
 
@@ -21,4 +21,4 @@
 
 - Create an archive with files and an accompanying object file index:
 
-`ar -rs {{path/to/archive.a}} {{path/to/file1.o}} {{path/to/file2.o}}`
+`ar -rs {{path/to/file.a}} {{path/to/file1.o}} {{path/to/file2.o}}`
