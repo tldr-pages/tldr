@@ -10,7 +10,7 @@
 
 - Remove a package and its no longer required dependencies (orphans):
 
-`pamac remove -o {{package_name}}`
+`pamac remove --orphans {{package_name}}`
 
 - Search the package database for a package:
 
@@ -18,7 +18,7 @@
 
 - List installed packages:
 
-`pamac list -i`
+`pamac list --installed`
 
 - Check for package updates:
 
