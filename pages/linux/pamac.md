@@ -1,7 +1,7 @@
 # pamac
 
 > A command line utility for the GUI package manager pamac.
-> If you can't see the AUR packages, enable it in the GUI version or in /etc/pamac.conf
+> If you can't see the AUR packages, enable it in /etc/pamac.conf or in the GUI version. 
 > More information: <https://wiki.manjaro.org/index.php/Pamac>.
 
 - Install a new package:
