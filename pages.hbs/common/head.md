@@ -1,7 +1,7 @@
 # head
 
 > Prikazuje prvi deo datoteka.
-> Više informacija: <https://www.gnu.org/software/coreutils/manual/html_node/head-invocation.html>.
+> Više informacija: <https://www.gnu.org/software/coreutils/head>.
 
 - Prikaži prvih nekoliko linija datoteke:
 

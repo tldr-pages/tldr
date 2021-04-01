@@ -1,7 +1,7 @@
 # cat
 
 > چاپ و ترکیب کردن فایل ها.
->  اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>.
+>  اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/cat>.
 
 - چاپ محتویات فایل بر روی صفحه نمایش:
 

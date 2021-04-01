@@ -1,7 +1,7 @@
 # cat
 
 > Affiche et concatène le contenu d'un ou plusieurs fichiers.
-> Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>.
+> Plus d'informations : <https://www.gnu.org/software/coreutils/cat>.
 
 - Affiche le contenu d'un fichier sur la sortie standard :
 

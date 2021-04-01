@@ -1,7 +1,7 @@
 # cut
 
 > Schneide Felder von stdin oder einer Datei aus.
-> Mehr Informationen: <https://www.gnu.org/software/coreutils/manual/html_node/cut-invocation.html>.
+> Mehr Informationen: <https://www.gnu.org/software/coreutils/cut>.
 
 - Schneide die ersten 16 Zeichen jeder Zeile von stdin aus:
 

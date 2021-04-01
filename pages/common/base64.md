@@ -1,7 +1,7 @@
 # base64
 
 > Encode or decode file or standard input to/from Base64, to standard output.
-> More information: <https://www.gnu.org/software/coreutils/manual/html_node/base64-invocation.html>.
+> More information: <https://www.gnu.org/software/coreutils/base64>.
 
 - Encode a file:
 

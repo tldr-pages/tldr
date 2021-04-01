@@ -1,7 +1,7 @@
 # realpath
 
 > Display the resolved absolute path for a file or directory.
-> More information: <https://www.gnu.org/software/coreutils/manual/html_node/realpath-invocation.html>.
+> More information: <https://www.gnu.org/software/coreutils/realpath>.
 
 - Display the absolute path for a file or directory:
 
