@@ -1,7 +1,7 @@
 # ls
 
 > نمایش محتویات دایرکتوری.
->  اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
+>  اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/ls>.
 
 - نمایش فایل ها به صورت خطی:
 

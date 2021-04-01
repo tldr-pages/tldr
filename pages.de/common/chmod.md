@@ -1,7 +1,7 @@
 # chmod
 
 > Ändere die Zugriffsberechtigungen einer Datei oder eines Verzeichnisses.
-> Mehr Informationen: <https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html>.
+> Mehr Informationen: <https://www.gnu.org/software/coreutils/chmod>.
 
 - Gib dem Besitzer einer Datei ([u]ser) das Recht, sie auszuführen (e[x]ecute):
 

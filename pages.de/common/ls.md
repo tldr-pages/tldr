@@ -1,7 +1,7 @@
 # ls
 
 > Liste den Inhalt eines Verzeichnisses auf.
-> Mehr Informationen: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
+> Mehr Informationen: <https://www.gnu.org/software/coreutils/ls>.
 
 - Liste den Inhalt in einer Datei pro Zeile auf:
 

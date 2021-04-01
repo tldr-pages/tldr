@@ -1,7 +1,7 @@
 # rm
 
 > Elimina archivos o directorios.
-> Más información: <https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
+> Más información: <https://www.gnu.org/software/coreutils/rm>.
 
 - Elimina archivos de ubicaciones arbitrarias:
 

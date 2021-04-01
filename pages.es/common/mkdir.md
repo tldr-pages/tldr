@@ -1,7 +1,7 @@
 # mkdir
 
 > Crea un directorio.
-> Más información: <https://www.gnu.org/software/coreutils/manual/html_node/mkdir-invocation.html>.
+> Más información: <https://www.gnu.org/software/coreutils/mkdir>.
 
 - Crea un directorio en el directorio actual o en una ruta dada:
 

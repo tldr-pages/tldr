@@ -1,7 +1,7 @@
 # tty
 
 > نمایش نام ترمینال.
->  اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/tty-invocation.html>.
+>  اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/tty>.
 
 - نمایش نام فایل ترمینال جاری:
 

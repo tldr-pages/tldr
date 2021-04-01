@@ -1,7 +1,7 @@
 # cat
 
 > Stampa e concatena file.
-> Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>.
+> Maggiori informazioni: <https://www.gnu.org/software/coreutils/cat>.
 
 - Stampa i contenuti di un file su standard output:
 
