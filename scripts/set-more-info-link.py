@@ -34,7 +34,7 @@ labels = {
 }
 
 IGNORE_FILES = (
-    '.DS_Store'
+    '.DS_Store',
 )
 
 
