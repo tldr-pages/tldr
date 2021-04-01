@@ -1,7 +1,7 @@
 # cp
 
 > Membuat salinan file dan direktori.
-> Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
+> Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/cp>.
 
 - Membuat salinan file ke lokasi lain:
 

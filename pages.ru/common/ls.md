@@ -1,7 +1,7 @@
 # ls
 
 > Выводит содержимого каталога.
-> Больше информации: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
+> Больше информации: <https://www.gnu.org/software/coreutils/ls>.
 
 - Список файлов по одному в строке:
 

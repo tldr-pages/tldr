@@ -1,7 +1,7 @@
 # sleep
 
 > Fördröjning under bestämd tid.
-> Mer information: <https://www.gnu.org/software/coreutils/manual/html_node/sleep-invocation.html>.
+> Mer information: <https://www.gnu.org/software/coreutils/sleep>.
 
 - Fördröj i sekunder:
 

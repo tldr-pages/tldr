@@ -1,7 +1,7 @@
 # sort
 
 > Sort lines of text files.
-> More information: <https://www.gnu.org/software/coreutils/manual/html_node/sort-invocation.html>.
+> More information: <https://www.gnu.org/software/coreutils/sort>.
 
 - Sort a file in ascending order:
 

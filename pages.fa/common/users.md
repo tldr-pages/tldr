@@ -1,7 +1,7 @@
 # users
 
 > نمایش لیست کاربران لاگین شده.
->  اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/manual/html_node/users-invocation.html>.
+>  اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/users>.
 
 - نمایش لیست کاربران لاگین شده:
 

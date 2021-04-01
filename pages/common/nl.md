@@ -1,7 +1,7 @@
 # nl
 
 > A utility for numbering lines, either from a file, or from standard input.
-> More information: <https://www.gnu.org/software/coreutils/manual/html_node/nl-invocation.html>.
+> More information: <https://www.gnu.org/software/coreutils/nl>.
 
 - Number non-blank lines in a file:
 

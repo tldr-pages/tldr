@@ -1,7 +1,7 @@
 # base64
 
 > Codifica o decodifica un archivo o la entrada estandar hacia/desde Base64, a la salida estandar.
-> Más información: <https://www.gnu.org/software/coreutils/manual/html_node/base64-invocation.html>.
+> Más información: <https://www.gnu.org/software/coreutils/base64>.
 
 - Codifica un archivo:
 

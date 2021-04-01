@@ -1,7 +1,7 @@
 # mkdir
 
 > Creates a directory.
-> More information: <https://www.gnu.org/software/coreutils/manual/html_node/mkdir-invocation.html>.
+> More information: <https://www.gnu.org/software/coreutils/mkdir>.
 
 - Create a directory in current directory or given path:
 
