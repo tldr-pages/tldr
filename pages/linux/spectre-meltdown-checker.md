@@ -5,20 +5,20 @@
 
 - Check the currently running kernel for Spectre or Meltdown:
 
-`spectre-meltdown-checker`
+`sudo spectre-meltdown-checker`
 
 - Check the currently running kernel and show an explanation of the actions to take in order to mitigate a vulnerability:
 
-`spectre-meltdown-checker --explain`
+`sudo spectre-meltdown-checker --explain`
 
 - Check for specific variants (defaults to all):
 
-`spectre-meltdown-checker --variant {{1|2|3|3a|4|l1tf|msbds|mfbds|mlpds|mdsum|taa|mcespc|srbds}}`
+`sudo spectre-meltdown-checker --variant {{1|2|3|3a|4|l1tf|msbds|mfbds|mlpds|mdsum|taa|mcespc|srbds}}`
 
 - Don't use the `/sys` interface even if present:
 
-`spectre-meltdown-checker --no-sysfs`
+`sudo spectre-meltdown-checker --no-sysfs`
 
 - Check a non-running kernel:
 
-`spectre-meltdown-checker --kernel {{path/to/kernel_file}}`
+`sudo spectre-meltdown-checker --kernel {{path/to/kernel_file}}`
