@@ -11,13 +11,13 @@
 
 `spectre-meltdown-checker --explain`
 
-- Don't use the `/sys` interface even if present:
-
-`spectre-meltdown-checker --no-sysfs`
-
 - Check for specific variants (defaults to all):
 
 `spectre-meltdown-checker --variant {{1|2|3|3a|4|l1tf|msbds|mfbds|mlpds|mdsum|taa|mcespc|srbds}}`
+
+- Don't use the `/sys` interface even if present:
+
+`spectre-meltdown-checker --no-sysfs`
 
 - Check a non-running kernel:
 
