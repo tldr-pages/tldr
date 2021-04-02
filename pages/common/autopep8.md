@@ -5,7 +5,7 @@
 
 - Format a file to stdout, with a custom maximium line length:
 
-`autopep8 {{path/to/file.py}} --max-line-length {{len}}`
+`autopep8 {{path/to/file.py}} --max-line-length {{length}}`
 
 - Format a file, displaying a diff of the changes:
 
