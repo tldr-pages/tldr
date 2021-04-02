@@ -23,10 +23,10 @@
 
 `gist -l`
 
-- List all gists for the currently logged in user:
+- List all public gists for any user:
 
 `gist -l {{username}}`
 
-- Use the id from the gist URL to modify or include a file:
+- Update a gist using the id from URL:
 
 `gist -u {{GIST_ID}} {{file.txt}}`
