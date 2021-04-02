@@ -6,3 +6,7 @@
 - Start the interactive installer:
 
 `archinstall`
+
+- Start a preset installer:
+
+`archinstall {{minimal|unattended}}`
