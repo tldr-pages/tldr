@@ -7,7 +7,7 @@
 
 `spectre-meltdown-checker`
 
-- Check the currently running kernel and show explanations for taken actions to mitigate a vulnerability:
+- Check the currently running kernel and show an explanation of the actions to take in order to mitigate a vulnerability:
 
 `spectre-meltdown-checker --explain`
 
@@ -15,10 +15,10 @@
 
 `spectre-meltdown-checker --no-sysfs`
 
-- Check for specific variants (`1`, `2`, `3`, `3a`, `4`, `l1tf`, `msbds`, `mfbds`, `mlpds`, `mdsum`, `taa`, `mcespc`, `srbds` - defaults to all):
+- Check for specific variants (defaults to all):
 
-`spectre-meltdown-checker --variant {{3a}} --variant {{mcespc}}`
+`spectre-meltdown-checker --variant {{1|2|3|3a|4|l1tf|msbds|mfbds|mlpds|mdsum|taa|mcespc|srbds}}`
 
-- Inspect a non-running kernel:
+- Check a non-running kernel:
 
 `spectre-meltdown-checker --kernel {{path/to/kernel_file}}`
