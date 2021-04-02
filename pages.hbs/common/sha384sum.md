@@ -1,6 +1,7 @@
 # sha384sum
 
 > Izračunava SHA384 kriptografske kontrolne brojeve.
+> Više informacija: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-utilities.html>.
 
 - Izračunaj SHA384 kontrolni broj za datoteku:
 
