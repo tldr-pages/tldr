@@ -41,7 +41,7 @@ If you are an owner of the organization, you should be able to see an automated 
   [19 October 2020](https://github.com/tldr-pages/tldr/issues/4763) — present
 - **Sahil Dhiman ([@sahilister](https://github.com/sahilister))**:
   [05 December 2020](https://github.com/tldr-pages/tldr/issues/4994) — present
-- **Tan Siret Akıncı ([@Yutyo](https://github.com/Yutyo))**:
+- **Tan Siret Akıncı ([@yutyo](https://github.com/yutyo))**:
   [03 March 2021](https://github.com/tldr-pages/tldr/issues/5345) — present
 - **Marcher Simon ([@marchersimon](https://github.com/marchersimon))**:
   [09 March 2021](https://github.com/tldr-pages/tldr/issues/5390) — present
