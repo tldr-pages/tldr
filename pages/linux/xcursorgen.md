@@ -16,6 +16,6 @@
 
 `xcursorgen {{path/to/config.cursor}}`
 
-- Display the version of `xcursorgen`:
+- Display version:
 
 `xcursorgen --version`
