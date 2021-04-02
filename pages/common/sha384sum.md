@@ -1,6 +1,7 @@
 # sha384sum
 
 > Calculate SHA384 cryptographic checksums.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-utilities.html>.
 
 - Calculate the SHA384 checksum for a file:
 
