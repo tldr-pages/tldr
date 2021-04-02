@@ -33,3 +33,7 @@
 - Archive a directory and its contents to a multi-part [s]plit zip file (e.g. 3GB parts):
 
 `zip -r -s {{3g}} {{compressed.zip}} {{path/to/directory}}`
+
+- Scan and show files within the archive (without processing them):
+
+`zip -sf {{compressed.zip}}`
