@@ -15,6 +15,10 @@
 
 `sudo spectre-meltdown-checker --variant {{1|2|3|3a|4|l1tf|msbds|mfbds|mlpds|mdsum|taa|mcespc|srbds}}`
 
+- Print the output using a specific formatting:
+
+`sudo spectre-meltdown-checker --batch {{text|json|nrpe|prometheus|short}}`
+
 - Don't use the `/sys` interface even if present:
 
 `sudo spectre-meltdown-checker --no-sysfs`
