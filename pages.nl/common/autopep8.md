@@ -5,7 +5,7 @@
 
 - Formateer een bestand naar stdout, met een ingestelde maximale toegestane regellengte:
 
-`autopep8 {{pad/naar/bestand.py}} --max-line-length {{len}}`
+`autopep8 {{pad/naar/bestand.py}} --max-line-length {{lengte}}`
 
 - Formateer een bestand, geef een diff weer met de wijzigingen:
 
