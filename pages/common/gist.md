@@ -13,7 +13,7 @@
 
 - Create a private gist with a description:
 
-`gist -p -d "{{A meaningful description}}" {{file.txt}} `
+`gist --private --description "{{A meaningful description}}" {{file.txt}} `
 
 - Read contents from stdin and create a gist from it:
 
@@ -21,12 +21,12 @@
 
 - List your public and private gists:
 
-`gist -l`
+`gist --list`
 
 - List all public gists for any user:
 
-`gist -l {{username}}`
+`gist --list {{username}}`
 
 - Update a gist using the id from URL:
 
-`gist -u {{GIST_ID}} {{file.txt}}`
+`gist --update {{GIST_ID}} {{file.txt}}`
