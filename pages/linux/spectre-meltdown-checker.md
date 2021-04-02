@@ -15,7 +15,7 @@
 
 `sudo spectre-meltdown-checker --variant {{1|2|3|3a|4|l1tf|msbds|mfbds|mlpds|mdsum|taa|mcespc|srbds}}`
 
-- Print the output using a specific formatting:
+- Display output using a specific output format:
 
 `sudo spectre-meltdown-checker --batch {{text|json|nrpe|prometheus|short}}`
 
