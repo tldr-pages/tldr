@@ -17,7 +17,7 @@
 
 - Give a meaningful name to a network interface:
 
-`ip link set {{ethN}} alias {{"LAN Interface"}}`
+`ip link set {{ethN}} alias "{{LAN Interface}}"`
 
 - Change the MAC address of a network interface:
 
