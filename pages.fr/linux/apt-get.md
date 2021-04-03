@@ -31,6 +31,6 @@
 
 `apt-get autoremove`
 
-- Mise à jour des paquets installés (comme la commande  `upgrade`), mais avec suppression des paquets obsolètes et installation des paquets supplémentaires pour répondre aux nouvelles dépendances :
+- Mise à jour des paquets installés (comme la commande `upgrade`), mais avec suppression des paquets obsolètes et installation des paquets supplémentaires pour répondre aux nouvelles dépendances :
 
 `apt-get dist-upgrade`
