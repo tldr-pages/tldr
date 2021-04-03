@@ -23,6 +23,6 @@
 
 `cp -r {{percorso/alla/directory/*}} {{percorso/alla/seconda/directory}}`
 
-- Copia tutti i file di testo in una seconda directory in modo interattivo  (chiede conferma prima di sovrascrivere):
+- Copia tutti i file di testo in una seconda directory in modo interattivo (chiede conferma prima di sovrascrivere):
 
 `cp -i {{*.txt}} {{percorso/alla/directory}}`
