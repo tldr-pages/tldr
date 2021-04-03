@@ -1,6 +1,6 @@
 # fakedata
 
-> CLI utility for fake data generation.
+> Generate fake data using a large variety of generators.
 > More information: <https://github.com/lucapette/fakedata>.
 
 - List all valid generators:
