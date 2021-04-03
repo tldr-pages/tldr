@@ -13,4 +13,4 @@
 
 - Combine audio from one file and video from another:
 
-`mp4box -add {{input1.mp4}}#audio -add {{input2.mp4}}#video {{output.mp4}`
+`mp4box -add {{input1.mp4}}#audio -add {{input2.mp4}}#video {{output.mp4}}`

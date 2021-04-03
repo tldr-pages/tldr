@@ -6,7 +6,7 @@
 
 - Kompiliere eine Quelldatei in eine ausführbare Binärdatei:
 
-`g++ {{quelldatei.cpp}} -o {{output_datei}`
+`g++ {{quelldatei.cpp}} -o {{output_datei}}`
 
 - Zeige (fast) alle Fehler und Warnungen an:
 

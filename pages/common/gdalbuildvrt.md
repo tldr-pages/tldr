@@ -13,7 +13,7 @@
 
 - Make a RGB virtual mosaic from 3 single-band input files:
 
-`gdalbuildvrt -separate {{path/to/rgb.vrt}}  {{path/to/red.tif}] {{path/to/green.tif}} {{path/to/blue.tif}}`
+`gdalbuildvrt -separate {{path/to/rgb.vrt}} {{path/to/red.tif}} {{path/to/green.tif}} {{path/to/blue.tif}}`
 
 - Make a virtual mosaic with blue background colour (RGB: 0 0 255):
 
