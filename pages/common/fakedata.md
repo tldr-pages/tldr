@@ -3,15 +3,15 @@
 > CLI utility for fake data generation.
 > More information: <https://github.com/lucapette/fakedata>.
 
-- List generators (all kinds of data that can be generated):
+- List all valid generators:
 
 `fakedata --generators`
 
-- Generate data for one or several generators:
+- Generate data using one or more generators:
 
 `fakedata {{generator1}} {{generator2}}`
 
-- Generate data with a specific format:
+- Generate data with a specific output format:
 
 `fakedata --format {{csv|tab|sql}} {{generator}}`
 
