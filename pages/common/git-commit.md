@@ -7,6 +7,10 @@
 
 `git commit -m "{{message}}"`
 
+- Commit staged files with a message read from file:
+
+`git commit --file {{path/to/my/file}}`
+
 - Auto stage all modified files and commit with a message:
 
 `git commit -a -m "{{message}}"`
