@@ -10,7 +10,7 @@ labels = {
     'da': 'Mere information:',
     'de': 'Mehr Informationen:',
     'es': 'Más información:',
-    'fa': ' اطلاعات بیشتر:',
+    'fa': 'اطلاعات بیشتر:',
     'fr': 'Plus d\'informations\xa0:',
     'sh': 'Više informacija:',
     'hi': 'अधिक जानकारी:',
