@@ -1,7 +1,7 @@
 # mongorestore
 
 > Utility to import a collection or database from a binary dump into a MongoDB instance.
-> More information: <https://docs.mongodb.com/manual/reference/program/mongorestore>.
+> More information: <https://docs.mongodb.com/database-tools/mongorestore/>.
 
 - Import a bson data dump from a directory to a MongoDB database:
 
