@@ -94,7 +94,7 @@ and are responsible for performing role changes in the community.
 An automated list can be found [here](https://github.com/orgs/tldr-pages/people).
 
 - **Romain Prieto ([@rprieto](https://github.com/rprieto))**:
-  created the the project on [8 December 2013](https://github.com/tldr-pages/tldr/commit/11264d9)
+  created the project on [8 December 2013](https://github.com/tldr-pages/tldr/commit/11264d9)
 - **Agniva De Sarker ([@agnivade](https://github.com/agnivade))**:
   [27 September 2016](https://gitter.im/tldr-pages/tldr?at=57eaedefe4e41c6a4afc2f47) — present
 - **Starbeamrainbowlabs ([@sbrl](https://github.com/sbrl))**:
