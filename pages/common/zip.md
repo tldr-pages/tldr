@@ -30,6 +30,6 @@
 
 `zip -r -s {{3g}} {{compressed.zip}} {{path/to/directory}}`
 
-- Scan and show files within the archive (without processing them):
+- List files within a specified archive (without extracting them):
 
 `zip -sf {{compressed.zip}}`
