@@ -1,7 +1,7 @@
 # homectl
 
-> Create, remove, change or inspect home directories using systemd-homed service.
-> More information: <https://wiki.archlinux.org/index.php/Systemd-homed>.
+> Create, remove, change or inspect home directories using the systemd-homed service.
+> More information: <https://man.archlinux.org/man/homectl.1>.
 
 - List home areas:
 
