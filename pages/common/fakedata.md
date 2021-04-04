@@ -19,6 +19,6 @@
 
 `fakedata --limit {{n}} {{generator}}`
 
-- Generate data using a custom output template (capitalize the first letter of generators):
+- Generate data using a custom output template (the first letter of generator names must be capitalized):
 
 `echo "value: {{Generator}}" | fakedata`
