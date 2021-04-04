@@ -31,6 +31,6 @@
 
 `^{{string1}}^{{string2}}^`
 
-- Print the command `n` lines back without running it:
+- Perform a history expansion, but print the command that would be run instead of actually running it:
 
-`!-{{n}}:p`
+`{{!-n}}:p`
