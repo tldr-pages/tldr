@@ -23,6 +23,6 @@
 
 `ip link set {{ethN}} address {{ff:ff:ff:ff:ff:ff}}`
 
-- Change the size of the MTU for a network interface to use jumbo frames:
+- Change the MTU size for a network interface to use jumbo frames:
 
 `ip link set {{ethN}} mtu {{9000}}`
