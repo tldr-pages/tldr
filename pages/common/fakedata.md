@@ -21,4 +21,4 @@
 
 - Generate data using a custom output template (the first letter of generator names must be capitalized):
 
-`echo "\{\Generator\}\}" | fakedata`
+`echo "{{\{\{Generator\}\}}}" | fakedata`
