@@ -19,7 +19,7 @@
 
 `{{command}} !^`
 
-- Run a command `n` lines back in the history:
+- Run the command `n` lines back in the history:
 
 `!-{{n}}`
 
@@ -31,6 +31,6 @@
 
 `^{{string1}}^{{string2}}^`
 
-- Print a command `n` lines back without running it:
+- Print the command `n` lines back without running it:
 
 `!-{{n}}:p`
