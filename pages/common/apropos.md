@@ -12,4 +12,4 @@
 
 - Search for pages that only contain all of the expressions given (AND search):
 
-`apropos {{regular_expression_1}} -a {{regular_expression_2}} -a {{regular_expression_3}`
+`apropos {{regular_expression_1}} -a {{regular_expression_2}} -a {{regular_expression_3}}`

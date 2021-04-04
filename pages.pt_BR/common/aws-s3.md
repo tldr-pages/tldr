@@ -6,7 +6,7 @@
 
 - Exibe arquivos de um bucket:
 
-`aws s3 ls {{nome_do_bucket}`
+`aws s3 ls {{nome_do_bucket}}`
 
 - Sincroniza arquivos e diretórios locais para o bucket:
 

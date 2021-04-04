@@ -17,4 +17,4 @@
 
 - Gib den Inhalt einer Datei in 24-bit (truecolor) Regenbogenfarben in der Konsole aus:
 
-`lolcat -t {{pfad/zu/datei}`
+`lolcat -t {{pfad/zu/datei}}`
