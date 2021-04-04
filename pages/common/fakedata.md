@@ -15,7 +15,7 @@
 
 `fakedata --format {{csv|tab|sql}} {{generator}}`
 
-- Generate `n` data:
+- Generate `n` data (defaults to 10):
 
 `fakedata --limit {{n}} {{generator}}`
 
