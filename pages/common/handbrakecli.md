@@ -9,7 +9,7 @@
 
 - Resize a video file to 320x240:
 
-`handbrakecli -i {{input.mp4}} -o {{output.mp4} -w 320 -l 240`
+`handbrakecli -i {{input.mp4}} -o {{output.mp4}} -w 320 -l 240`
 
 - List available presets:
 
