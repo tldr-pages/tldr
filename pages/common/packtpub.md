@@ -11,11 +11,11 @@
 
 `packtpub download --dir {{path/to/directory}}`
 
-- Start interactive login to packtpub.com:
+- Start an interactive login to packtpub.com:
 
 `packtpub login`
 
-- Logout of packtpub.com:
+- Logout from packtpub.com:
 
 `packtpub logout`
 
