@@ -21,7 +21,7 @@
 
 - Download `PKGBUILD` and other package source files from the AUR or ABS:
 
-`paru --getpkgbuild  {{package_name}}`
+`paru --getpkgbuild {{package_name}}`
 
 - Display the `PKGBUILD` file of a package:
 

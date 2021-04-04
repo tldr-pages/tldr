@@ -13,4 +13,4 @@
 
 - Format C/C++ source according to the style of Kernigan & Ritchie (K&R), no tabs, 3 spaces per indent, and wrap lines at 120 characters:
 
-`indent --k-and-r-style --indent-level3 --no-tabs --line-length120  {{path/to/source.c}} -o {{path/to/indented_source.c}}`
+`indent --k-and-r-style --indent-level3 --no-tabs --line-length120 {{path/to/source.c}} -o {{path/to/indented_source.c}}`

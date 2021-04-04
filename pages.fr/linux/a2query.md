@@ -15,7 +15,7 @@
 
 `sudo a2query -s`
 
-- Affiche le [M]odule de traitement multiple actif  :
+- Affiche le [M]odule de traitement multiple actif :
 
 `sudo a2query -M`
 

@@ -2,7 +2,7 @@
 
 > Kompiliere C++ Quelldateien.
 > Teil der GCC (GNU Compiler Collection).
-> Mehr  Informationen: <https://gcc.gnu.org>.
+> Mehr Informationen: <https://gcc.gnu.org>.
 
 - Kompiliere eine Quelldatei in eine ausführbare Binärdatei:
 
