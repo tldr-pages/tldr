@@ -19,10 +19,6 @@
 
 `xh get {{httpbin.org/get}} {{header-name:header-value}}`
 
-- Send a PUT request and pipe the result to less:
-
-`xh put {{httpbin.org/put}} {{id:=49}} {{age:=25}} | less`
-
 - Make a GET request and save the response body to a file:
 
 `xh --download {{httpbin.org/json}} --output {{path/to/file}}`
