@@ -1,6 +1,7 @@
 # chown
 
 > Cambia la propiedad de usuario y grupo sobre archivos y directorios.
+> Más información: <https://www.gnu.org/software/coreutils/chown>.
 
 - Cambia el usuario propietario de un archivo/directorio:
 

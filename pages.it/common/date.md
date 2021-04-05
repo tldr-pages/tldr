@@ -1,6 +1,7 @@
 # date
 
 > Imposta o mostra data e ora di sistema.
+> Maggiori informazioni: <https://www.gnu.org/software/coreutils/date>.
 
 - Mostra la data corrente utilizzando il formato predefinito della locale corrente:
 

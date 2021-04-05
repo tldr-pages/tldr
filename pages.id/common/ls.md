@@ -1,6 +1,7 @@
 # ls
 
 > Menampilkan daftar konten pada direktori.
+> Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/ls>.
 
 - Menampilkan daftar berkas dengan satu item tiap baris:
 

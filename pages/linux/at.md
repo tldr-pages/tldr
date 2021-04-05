@@ -1,6 +1,7 @@
 # at
 
 > Executes commands at a specified time.
+> More information: <https://man.archlinux.org/man/at.1>.
 
 - Open an `at` prompt to create a new set of scheduled commands, press `Ctrl + D` to save and exit:
 

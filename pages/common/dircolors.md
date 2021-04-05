@@ -1,6 +1,7 @@
 # dircolors
 
 > Output commands to set the LS_COLOR environment variable and style `ls`, `dir`, etc.
+> More information: <https://www.gnu.org/software/coreutils/dircolors>.
 
 - Output commands to set LS_COLOR using default colors:
 

@@ -1,6 +1,7 @@
 # chroot
 
 > 특수 루트 디렉토리를 사용하여 명령 또는 대화형 쉘 실행.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/chroot>.
 
 - 새로운 루트 디렉토리로 명령어 실행:
 

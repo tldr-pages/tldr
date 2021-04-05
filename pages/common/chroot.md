@@ -1,6 +1,7 @@
 # chroot
 
 > Run command or interactive shell with special root directory.
+> More information: <https://www.gnu.org/software/coreutils/chroot>.
 
 - Run command as new root directory:
 

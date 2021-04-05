@@ -17,4 +17,4 @@
 
 - Tag an image:
 
-`ctr images tag {{souce_image}}:{{source_tag}}  {{target_image}}:{{target_tag}}`
+`ctr images tag {{souce_image}}:{{source_tag}} {{target_image}}:{{target_tag}}`

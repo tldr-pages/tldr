@@ -1,6 +1,7 @@
 # dircolors
 
 > Stampa comandi necessari per settare la variabile d'ambiente LS_COLOR per stilizzare `ls`, `dir`, etc.
+> Maggiori informazioni: <https://www.gnu.org/software/coreutils/dircolors>.
 
 - Stampa i comandi per settare LS_COLOR con i colori predefiniti:
 

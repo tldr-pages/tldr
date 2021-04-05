@@ -1,6 +1,7 @@
 # expand
 
 > Convert tabs to spaces.
+> More information: <https://www.gnu.org/software/coreutils/expand>.
 
 - Convert tabs in each file to spaces, writing to standard output:
 

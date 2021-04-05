@@ -1,6 +1,7 @@
 # cd
 
 > Mudar o diretório atual.
+> Mais informações: <https://man.archlinux.org/man/cd.n>.
 
 - Ir para um dado diretório:
 

@@ -1,27 +1,27 @@
 # open
 
-> Öffnet Dateien, Verzeichnisse und Anwendungen.
+> Öffne Dateien, Verzeichnisse und Anwendungen.
 
-- Öffnet eine Datei mit der zugehörigen Anwendung:
+- Öffne eine Datei in der zugehörigen Anwendung:
 
-`open {{file.ext}}`
+`open {{pfad/zu/datei}}`
 
-- Ausführen einer grafischen macOS-Anwendung:
+- Führe eine grafische macOS-Anwendung aus:
 
-`open -a {{Application}}`
+`open -a {{anwendung}}`
 
-- Ausführen einer grafischen macOS-Anwendung basierend auf der Bundle-Kennung (siehe `osascript` für eine einfache Möglichkeit, diese zu identifizieren):
+- Führe eine grafische macOS-Anwendung basierend auf der Bundle-Kennung aus (siehe `osascript` für eine einfache Möglichkeit, diese zu identifizieren):
 
-`open -b {{com.domain.application}}`
+`open -b {{com.domain.anwendung}}`
 
-- Öffnen des aktuellen Verzeichnis im Finder:
+- Öffne das aktuelle Verzeichnis im Finder:
 
 `open .`
 
-- Zeigen Sie eine Datei im Finder an:
+- Zeige eine Datei im Finder an:
 
-`open -R {{path/to/file}}`
+`open -R {{pfad/zu/datei}}`
 
-- Alle Dateien einer bestimmten Erweiterung im aktuellen Verzeichnis mit der zugehörigen Anwendung öffnen:
+- Öffne alle Dateien einer bestimmten Erweiterung im aktuellen Verzeichnis mit der zugehörigen Anwendung:
 
 `open {{*.ext}}`

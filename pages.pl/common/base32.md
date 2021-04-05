@@ -1,6 +1,7 @@
 # base32
 
 > Enkoduj lub dekoduj plik lub standardowe wejście do/z Base32, na standardowe wyjście.
+> Więcej informacji: <https://www.gnu.org/software/coreutils/base32>.
 
 - Enkoduj plik:
 

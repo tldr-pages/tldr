@@ -1,6 +1,7 @@
 # du
 
 > Disk usage: estimate and summarize file and directory space usage.
+> More information: <https://www.gnu.org/software/coreutils/du>.
 
 - List the sizes of a directory and any subdirectories, in the given unit (B/KB/MB):
 

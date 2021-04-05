@@ -1,6 +1,7 @@
 # users
 
 > Visa en lista över inloggade användare.
+> Mer information: <https://www.gnu.org/software/coreutils/users>.
 
 - Visa en lista över inloggade användare:
 

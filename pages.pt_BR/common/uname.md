@@ -2,6 +2,7 @@
 
 > Apresenta detalhes sobre o hardware e sistema operacional do computador.
 > Nota: Para maiores detalhes sobre o sistema operacional, utilize o comando `lsb_release`.
+> Mais informações: <https://www.gnu.org/software/coreutils/uname>.
 
 - Exibir informações relacionadas ao hardware: arquitetura e tipo de processador:
 

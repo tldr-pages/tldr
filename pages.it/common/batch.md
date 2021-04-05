@@ -2,6 +2,7 @@
 
 > Esegui comandi nel futuro quando il carico di lavoro del sistema lo permette.
 > Il servizio atd (o atrun) deve essere attivo per eseguire i comandi.
+> Maggiori informazioni: <https://man.archlinux.org/man/at.1>.
 
 - Esegui i comandi inseriti standard input (premere `Ctrl + D` dopo aver inserito i comandi):
 

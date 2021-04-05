@@ -1,6 +1,7 @@
 # echo
 
 > Affiche les paramètres donnés dans la console.
+> Plus d'informations : <https://www.gnu.org/software/coreutils/echo>.
 
 - Affiche un message (les guillemets sont facultatifs) :
 
