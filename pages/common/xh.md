@@ -23,6 +23,6 @@
 
 `xh put {{httpbin.org/put}} {{id:=49}} {{age:=25}} | less`
 
-- Download and save to res.json:
+- Make a GET request and save the response body to a file:
 
-`xh -d {{httpbin.org/json}} -o {{res.json}}`
+`xh --download {{httpbin.org/json}} --output {{path/to/file}}`
