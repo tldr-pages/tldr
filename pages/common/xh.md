@@ -15,9 +15,9 @@
 
 `xh get {{httpbin.org/get}} {{id==5}} {{sort==true}}`
 
-- Send a GET request and include a header named x-api-key with value 12345:
+- Send a GET request with a custom header:
 
-`xh get {{httpbin.org/get}} {{x-api-key:12345}}`
+`xh get {{httpbin.org/get}} {{header-name:header-value}}`
 
 - Send a PUT request and pipe the result to less:
 
