@@ -11,7 +11,7 @@
 
 `xh post {{httpbin.org/post}} {{name=john}} {{age:=25}}`
 
-- Send a GET request with querystring id=5&sort=true:
+- Send a GET request with query parameters (e.g. `id=5&sort=true`):
 
 `xh get {{httpbin.org/get}} {{id==5}} {{sort==true}}`
 
