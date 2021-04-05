@@ -10,10 +10,6 @@
 
 `passwd {{new_password}}`
 
-- Change the password of the specified user:
-
-`passwd {{username}} {{new_password}}`
-
 - Get the current status of the user:
 
 `passwd -S`
