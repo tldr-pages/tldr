@@ -1,6 +1,6 @@
 # xh
 
-> XH: Friendly and fast tool for sending HTTP requests.
+> Friendly and fast tool for sending HTTP requests.
 > More information: <https://github.com/ducaale/xh>.
 
 - Send a GET request:
