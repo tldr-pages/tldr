@@ -10,7 +10,7 @@
 
 - Connect to a different host with PASS connection password:
 
-`sic -n {{nickname}} -k {{password}}`
+`sic -h {{host}} -n {{nickname}} -k {{password}}`
 
 - Usage with highlighted alerts on mention of your username:
 
