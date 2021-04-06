@@ -1,7 +1,7 @@
 # sic
 
 > simple irc client.
-> Part of suckless.org tools.
+> Part of the suckless.org tools.
 > More information: <https://tools.suckless.org/sic/>.
 
 - Connect to host (default: irc.oftc.net) with nickname (default: $USER):
