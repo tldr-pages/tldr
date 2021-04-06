@@ -24,6 +24,6 @@ Send a message (stdin):
 
 `:m #{{channel}}/{{user}}`
 
-Set default channel or user:
+Set default channel or user (stdin):
 
 `:s #{{channel}}/{{user}}`
