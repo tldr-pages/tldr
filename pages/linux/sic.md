@@ -4,9 +4,9 @@
 > Part of the suckless.org tools.
 > More information: <https://tools.suckless.org/sic/>.
 
-- Connect to host (default: irc.oftc.net) with nickname (default: $USER):
+- Connect to a host with the specified nickname:
 
-`sic -n {{nickname}}`
+`sic -h {{irc.ofct.net}} -n {{$USER}}`
 
 - Connect to a different host with PASS connection password:
 
