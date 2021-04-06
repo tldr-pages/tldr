@@ -8,7 +8,7 @@
 
 - Change the password of the current user:
 
-`passwd {{new_password}}`
+`passwd {{username}}`
 
 - Get the current status of the user:
 
