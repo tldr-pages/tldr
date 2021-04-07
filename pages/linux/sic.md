@@ -16,7 +16,7 @@
 
 `:j #{{channel}}<Enter>`
 
-- Send a message:
+- Send a message to a channel or user:
 
 `:m #{{channel|user}}<Enter>`
 
