@@ -40,9 +40,7 @@ If you are an owner of the organization, you should be able to see an automated 
 - **Guido Lena Cota ([@glenacota](https://github.com/glenacota))**:
   [19 October 2020](https://github.com/tldr-pages/tldr/issues/4763) — present
 - **Sahil Dhiman ([@sahilister](https://github.com/sahilister))**:
-  [05 December 2020](https://github.com/tldr-pages/tldr/issues/4994) — present
-- **Tan Siret Akıncı ([@yutyo](https://github.com/yutyo))**:
-  [03 March 2021](https://github.com/tldr-pages/tldr/issues/5345) — present
+  [05 December 2020](https://github.com/tldr-pages/tldr/issues/4994) - present
 - **Marcher Simon ([@marchersimon](https://github.com/marchersimon))**:
   [09 March 2021](https://github.com/tldr-pages/tldr/issues/5390) — present
 - Lucas Schneider ([@schneiderl](https://github.com/schneiderl)):
@@ -59,6 +57,8 @@ If you are an owner of the organization, you should be able to see an automated 
   [01 January 2021](https://github.com/tldr-pages/tldr/issues/5056) — [02 February 2021](https://github.com/tldr-pages/tldr/issues/5219)
 - Matthew Peveler ([@MasterOdin](https://github.com/MasterOdin)):
   [09 January 2021](https://github.com/tldr-pages/tldr/issues/5122) — [01 April 2021](https://github.com/tldr-pages/tldr/issues/5473)
+- Tan Siret Akıncı ([@yutyo](https://github.com/yutyo)):
+  [03 March 2021](https://github.com/tldr-pages/tldr/issues/5345) — [7 April 2021](https://github.com/tldr-pages/tldr/issues/5702)
 
 ## Organization members
 
@@ -77,6 +77,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [02 February 2021](https://github.com/tldr-pages/tldr/issues/5219) — present
 - **Matthew Peveler ([@MasterOdin](https://github.com/MasterOdin))**:
   [01 April 2021](https://github.com/tldr-pages/tldr/issues/5473) - present
+- **Tan Siret Akıncı ([@yutyo](https://github.com/yutyo))**:
+  [7 April 2021](https://github.com/tldr-pages/tldr/issues/5702) - present
 - Lucas Schneider ([@schneiderl](https://github.com/schneiderl)):
   [17 January 2020](https://github.com/tldr-pages/tldr/issues/3764) — [3 February 2021](https://github.com/tldr-pages/tldr/issues/5224)
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
