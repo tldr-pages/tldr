@@ -78,7 +78,7 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
 - **Matthew Peveler ([@MasterOdin](https://github.com/MasterOdin))**:
   [01 April 2021](https://github.com/tldr-pages/tldr/issues/5473) - present
 - **Tan Siret Akıncı ([@yutyo](https://github.com/yutyo))**:
-  [7 April 2021](https://github.com/tldr-pages/tldr/issues/5702) - present
+  [07 April 2021](https://github.com/tldr-pages/tldr/issues/5702) - present
 - Lucas Schneider ([@schneiderl](https://github.com/schneiderl)):
   [17 January 2020](https://github.com/tldr-pages/tldr/issues/3764) — [3 February 2021](https://github.com/tldr-pages/tldr/issues/5224)
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
