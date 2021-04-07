@@ -1,7 +1,7 @@
 # git range-diff
 
-> Compare two commit ranges (e.g. two versions of a branch)
-> More information: <https://git-scm.com/docs/git-range-diff>
+> Compare two commit ranges (e.g. two versions of a branch).
+> More information: <https://git-scm.com/docs/git-range-diff>.
 
 - Diff the diffs of commit1 and commit2:
 
