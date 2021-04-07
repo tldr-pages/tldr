@@ -4,9 +4,13 @@
 > Part of the suckless tools.
 > More information: <https://tools.suckless.org/sic/>.
 
-- Connect to a host with the specified nickname:
+- Connect to the default host (irc.ofct.net) with the nickname set in the `$USER` environment variable:
 
-`sic -h {{irc.ofct.net}} -n {{$USER}}`
+`sic`
+
+- Connect to a given host, using a given nickname:
+
+`sic -h {{host}} -n {{nickname}}`
 
 - Connect to a given host, using a given nickname and password:
 
