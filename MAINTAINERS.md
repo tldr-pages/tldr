@@ -58,7 +58,7 @@ If you are an owner of the organization, you should be able to see an automated 
 - Matthew Peveler ([@MasterOdin](https://github.com/MasterOdin)):
   [09 January 2021](https://github.com/tldr-pages/tldr/issues/5122) — [01 April 2021](https://github.com/tldr-pages/tldr/issues/5473)
 - Tan Siret Akıncı ([@yutyo](https://github.com/yutyo)):
-  [03 March 2021](https://github.com/tldr-pages/tldr/issues/5345) — [7 April 2021](https://github.com/tldr-pages/tldr/issues/5702)
+  [03 March 2021](https://github.com/tldr-pages/tldr/issues/5345) — [07 April 2021](https://github.com/tldr-pages/tldr/issues/5702)
 
 ## Organization members
 
