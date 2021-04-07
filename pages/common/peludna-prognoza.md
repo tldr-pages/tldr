@@ -15,6 +15,6 @@
 
 `peludna-prognoza "{{city}}" --{{json|xml}}`
 
-- Display the pollen measurement page for a city at <http://plivazdravlje.hr> in the default web browser:
+- Display the pollen measurement page for a city at <https://plivazdravlje.hr> in the default web browser:
 
 `peludna-prognoza "{{city}}" --web`
