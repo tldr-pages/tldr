@@ -1,7 +1,7 @@
 # sic
 
-> simple irc client.
-> Part of the suckless.org tools.
+> Simple IRC client.
+> Part of the <https://suckless.org/> tools.
 > More information: <https://tools.suckless.org/sic/>.
 
 - Connect to a host with the specified nickname:
@@ -12,18 +12,14 @@
 
 `sic -h {{host}} -n {{nickname}} -k {{password}}`
 
-- Usage with highlighted alerts on mention of your username:
+- Join a channel:
 
-`sic | awk '/username/ {printf "\a"}1'`
+`:j #{{channel}}<Enter>`
 
-- Join a channel (stdin):
+- Send a message:
 
-`:j #{{channel}}`
+`:m #{{channel}}/{{user}}<Enter>`
 
-- Send a message (stdin):
+- Set default channel or user:
 
-`:m #{{channel}}/{{user}}`
-
-- Set default channel or user (stdin):
-
-`:s #{{channel}}/{{user}}`
+`:s #{{channel}}/{{user}}<Enter>`
