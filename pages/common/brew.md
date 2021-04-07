@@ -19,7 +19,7 @@
 
 `brew upgrade {{formula}}`
 
-- Fetch the newest version of Homebrew and of all formulae and casks from GitHub:
+- Fetch the newest version of Homebrew and of all formulae and casks from the Homebrew source repository:
 
 `brew update`
 
