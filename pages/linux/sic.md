@@ -1,7 +1,7 @@
 # sic
 
 > Simple IRC client.
-> Part of the <https://suckless.org/> tools.
+> Part of the suckless tools.
 > More information: <https://tools.suckless.org/sic/>.
 
 - Connect to a host with the specified nickname:
