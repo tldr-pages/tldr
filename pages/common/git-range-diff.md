@@ -7,6 +7,6 @@
 
 `git range-diff {{commit1}}~..{{commit1} {{commit2}}~..{{commit2}}`
 
-- Diff the changes of ours and theirs from their common ancestor
+- Diff the changes of ours and theirs from their common ancestor:
 
 `git range-diff {{theirs}}...{{ours}}`
