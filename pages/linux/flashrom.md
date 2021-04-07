@@ -5,19 +5,19 @@
 
 - Probe the chip, ensuring the wiring is correct:
 
-`flashrom -p {{programmer}}`
+`flashrom --programmer {{programmer}}`
 
 - Read flash and save it into file:
 
-`flashrom -p {{programmer}} -r {{path/to/file}}`
+`flashrom -p {{programmer}} --read {{path/to/file}}`
 
 - Write file into flash:
 
-`flashrom -p {{programmer}} -w {{path/to/file}}`
+`flashrom -p {{programmer}} --write {{path/to/file}}`
 
-- Erase flash:
+- Verify flash against file:
 
-`flashrom -p {{programmer}} -E`
+`flashrom -p {{programmer}} --verify {{path/to/file}}`
 
 - Probe the chip using RaspberryPi, an example:
 
