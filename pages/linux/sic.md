@@ -18,8 +18,8 @@
 
 - Send a message:
 
-`:m #{{channel}}/{{user}}<Enter>`
+`:m #{{channel|user}}<Enter>`
 
 - Set default channel or user:
 
-`:s #{{channel}}/{{user}}<Enter>`
+`:s #{{channel|user}}<Enter>`
