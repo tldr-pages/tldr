@@ -8,7 +8,7 @@
 
 `sic -h {{irc.ofct.net}} -n {{$USER}}`
 
-- Connect to a different host with PASS connection password:
+- Connect to a given host, using a given nickname and password:
 
 `sic -h {{host}} -n {{nickname}} -k {{password}}`
 
