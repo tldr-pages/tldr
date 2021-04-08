@@ -18,7 +18,7 @@
     "lint-tldr-pages": "tldr-lint ./pages",
     "test": "bash scripts/test.sh",
     "build-index": "node ./scripts/build-index.js > index.json",
-    "postinstall": "husky install"
+    "prepare": "husky install"
   },
   "private": true
 }
