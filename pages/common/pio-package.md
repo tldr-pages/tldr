@@ -1,14 +1,14 @@
 # pio package
 
 > Manage packages in the registry.
-> Packages can only be removed within 72 hours (3 days) from the published date.
+> Packages can only be removed within 72 hours (3 days) from the date that they are published.
 > More information: <https://docs.platformio.org/en/latest/core/userguide/package/>.
 
-- Create a tarball from the current directory:
+- Create a package tarball from the current directory:
 
 `pio package pack --output {{path/to/output_tarball.tar.gz}}`
 
-- Publish the current directory:
+- Create and publish a package tarball from the current directory:
 
 `pio package publish`
 
