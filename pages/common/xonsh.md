@@ -10,15 +10,15 @@
 
 - Execute a single command and then exit:
 
-`xonsh -c {{command}}`
+`xonsh -c "{{command}}"`
 
 - Run commands from a script file and then exit:
 
-`xonsh {{path/to/script_file}}`
+`xonsh {{path/to/script_file.xonsh}}`
 
 - Define environment variables for the shell process:
 
-`xonsh -D{{name1=val1}} -D{{name2=val2}}`
+`xonsh -D{{name1}}={{val1}} -D{{name2}}={{val2}}`
 
 - Use the specified shell type:
 
