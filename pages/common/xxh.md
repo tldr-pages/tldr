@@ -16,7 +16,7 @@
 
 `xxh "{{host}}" ++shell {{xonsh|zsh|fish|bash|osquery}}`
 
-- Use the specified directory as the location of the xxh configuration files on the target machine:
+- Use a specific xxh configuration directory on the target machine:
 
 `xxh "{{host}}" ++host-xxh-home {{~/.xxh}}`
 
