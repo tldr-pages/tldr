@@ -1,6 +1,7 @@
 # apt-file
 
 > Search for files in apt packages, including ones not yet installed.
+> More information: <https://manned.org/apt-file.1>.
 
 - Update the metadata database:
 
