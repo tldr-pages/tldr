@@ -1,6 +1,7 @@
 # apt-mark
 
 > Herramienta para cambiar el estado de los paquetes instalados.
+> Más información: <https://manned.org/apt-mark.8>.
 
 - Marca un paquete como instalado automáticamente:
 

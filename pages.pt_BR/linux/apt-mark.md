@@ -1,6 +1,7 @@
 # apt-mark
 
 > Utilitário que altera as configurações dos pacotes instalados.
+> Mais informações: <https://manned.org/apt-mark.8>.
 
 - Marcar um pacote como instalado automaticamente:
 
