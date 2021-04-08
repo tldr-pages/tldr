@@ -1,6 +1,7 @@
 # apt-mark
 
 > Utility to change the status of installed packages.
+> More information: <https://manned.org/apt-mark.8>.
 
 - Mark a package as automatically installed:
 
