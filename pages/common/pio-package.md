@@ -16,11 +16,11 @@
 
 `pio package publish --private`
 
-- Publish a specific package:
+- Publish a package:
 
 `pio package publish {{path/to/package.tar.gz}}`
 
-- Publish a specific package and set custom release date and time (UTC):
+- Publish a package with a custom release date (UTC):
 
 `pio package publish {{path/to/package.tar.gz}} --released-at "{{2021-04-08 21:15:38}}"`
 
