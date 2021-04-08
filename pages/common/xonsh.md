@@ -20,10 +20,6 @@
 
 `xonsh -D{{name1}}={{val1}} -D{{name2}}={{val2}}`
 
-- Use the specified shell type:
-
-`xonsh --shell-type {{best|dumb|prompt_toolkit|random|readline}}`
-
 - Load the specified `.xonsh` or `.json` configuration files:
 
 `xonsh --rc {{path/to/file1.xonsh}} {{path/to/file2.json}}`
