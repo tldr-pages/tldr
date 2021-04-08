@@ -3,10 +3,6 @@
 > Package manager for macOS and Linux.
 > More information: <https://brew.sh>.
 
-- Search for available formulae (i.e. packages) and casks (i.e. native packages):
-
-`brew search {{text}}`
-
 - Install the latest stable version of a formula or cask (use `--devel` for development versions):
 
 `brew install {{formula}}`
@@ -22,6 +18,10 @@
 - Fetch the newest version of Homebrew and of all formulae and casks from the Homebrew source repository:
 
 `brew update`
+
+- Search for available formulae (i.e. packages) and casks (i.e. native packages):
+
+`brew search {{text}}`
 
 - Display information about a formula or a cask (version, installation path, dependencies, etc.):
 
