@@ -17,7 +17,7 @@
 
 - Add a static route:
 
-`sudo ip route add {{destination_network_ip}} via {{gateway_ip}} dev {{eth0}}`
+`sudo ip route add {{destination_ip}} via {{gateway_ip}} dev {{eth0}}`
 
 - Delete a static route:
 
