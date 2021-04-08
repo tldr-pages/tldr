@@ -26,7 +26,7 @@
 
 - Specify a password to use for the SSH connection:
 
-`xxh "{{host}}" ++password-prompt {{~/.config/xxh/config.xxhc}}`
+`xxh "{{host}}" ++password "{{password}}"`
 
 - Install an xxh package on the target machine:
 
