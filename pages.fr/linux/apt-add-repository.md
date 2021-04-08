@@ -1,6 +1,7 @@
 # apt-add-repository
 
 > Gère la définition des dépôts apt.
+> Plus d'informations : <https://manned.org/apt-add-repository.1>.
 
 - Ajout d'un nouveau dépôt :
 

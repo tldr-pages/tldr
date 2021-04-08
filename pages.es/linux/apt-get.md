@@ -2,6 +2,7 @@
 
 > Herramienta de gestión de paquete para distribuciones basadas en Debian.
 > Buscar paquetes utilizando `apt-cache`.
+> Más información: <https://manned.org/apt-get.8>.
 
 - Actualiza la lista de paquetes y versiones disponibles (se recomienda ejecutar este comando antes que cualquier otro comando `apt-get`):
 

@@ -1,6 +1,7 @@
 # apt-add-repository
 
 > Editiere die Repository-Listen.
+> Mehr Informationen: <https://manned.org/apt-add-repository.1>.
 
 - Füge ein neues Repository hinzu:
 

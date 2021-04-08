@@ -1,6 +1,7 @@
 # apt-cache
 
 > Outil de recherche de paquets Debian et Ubuntu.
+> Plus d'informations : <https://manned.org/apt-cache.8>.
 
 - Recherche un paquet dans vos sources actuelles :
 

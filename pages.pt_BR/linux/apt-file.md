@@ -1,6 +1,7 @@
 # apt-file
 
 > Buscador de arquivos nos pacotes apt, incluindo os não instalados.
+> Mais informações: <https://manned.org/apt-file.1>.
 
 - Atualizar as informações dos pacotes a partir de todos os repositórios remotos:
 
