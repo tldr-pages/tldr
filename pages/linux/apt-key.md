@@ -1,6 +1,7 @@
 # apt-key
 
 > Key management utility for the APT Package Manager on Debian and Ubuntu.
+> More information: <https://manned.org/apt-key.8>.
 
 - List trusted keys:
 
