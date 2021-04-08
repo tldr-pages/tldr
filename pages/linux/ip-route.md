@@ -25,7 +25,7 @@
 
 - Change or replace a static route:
 
-`sudo ip route {{change|replace}} {{destination_network_ip}} via {{gateway_ip}} dev {{eth0}}`
+`sudo ip route {{change|replace}} {{destination_ip}} via {{gateway_ip}} dev {{eth0}}`
 
 - Show which route will be used by the kernel to reach an IP address:
 
