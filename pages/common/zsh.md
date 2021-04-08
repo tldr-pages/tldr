@@ -14,7 +14,7 @@
 
 - Execute a script:
 
-`zsh "{{path/to/script.zsh}}"`
+`zsh {{path/to/script.zsh}}`
 
 - Execute a script, printing each command before executing it:
 

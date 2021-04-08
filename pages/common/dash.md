@@ -1,6 +1,6 @@
 # dash
 
-> Debian Almquist Shell, a modern, POSIX-compliant implementation of `sh` (not `bash`-compatible).
+> Debian Almquist Shell, a modern, POSIX-compliant implementation of `sh` (not Bash-compatible).
 > More information: <https://wiki.archlinux.org/index.php/Dash>.
 
 - Start an interactive shell session:
@@ -11,10 +11,10 @@
 
 `dash -c "{{command}}"`
 
-- Execute a script file:
+- Execute a script:
 
 `dash {{path/to/script.sh}}`
 
-- Run commands from a file, logging all commands executed to the terminal:
+- Run commands from a script, logging all commands executed to the terminal:
 
-`dash -x {{file.sh}}`
+`dash -x {{path/to/script.sh}}`

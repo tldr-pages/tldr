@@ -11,9 +11,9 @@
 
 `sh -c "{{command}}"`
 
-- Execute a script file:
+- Execute a script:
 
-`sh {{path/to/script_file.sh}}`
+`sh {{path/to/script.sh}}`
 
 - Execute commands from stdin:
 

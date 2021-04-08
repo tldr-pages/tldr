@@ -1,6 +1,6 @@
 # ksh
 
-> Korn Shell, a `bash`-compatible command line interpreter.
+> Korn Shell, a Bash-compatible command line interpreter.
 > More information: <http://kornshell.com>.
 
 - Start an interactive shell session:
