@@ -19,7 +19,7 @@
 
 `sudo homectl passwd {{username}}`
 
-- Run shell or a command with access to a specific home directory:
+- Run a shell or a command with access to a specific home directory:
 
 `sudo homectl with {{username}} -- {{command}} {{command_arguments}}`
 
