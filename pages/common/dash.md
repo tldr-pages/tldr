@@ -15,6 +15,6 @@
 
 `dash {{path/to/script.sh}}`
 
-- Run commands from a script, logging all commands executed to the terminal:
+- Run commands from a script, printing each command before executing it:
 
 `dash -x {{path/to/script.sh}}`
