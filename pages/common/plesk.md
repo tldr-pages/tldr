@@ -1,9 +1,9 @@
 # plesk
 
 > Plesk hosting control panel CLI interface.
-> More information: <https://docs.plesk.com/>.
+> More information: <https://docs.plesk.com>.
 
-- Generate auto login link for admin user:
+- Generate an auto login link for the admin user:
 
 `plesk login`
 
@@ -11,18 +11,18 @@
 
 `plesk version`
 
-- Show list of hosted domains:
+- List all hosted domains:
 
 `plesk bin domain --list`
 
-- Start watching for changes in panel.log file:
+- Start watching for changes in the `panel.log` file:
 
 `plesk log panel.log`
 
-- Start interactive MySQL console:
+- Start the interactive MySQL console:
 
 `plesk db`
 
-- Open Plesk main configuration file in the editor:
+- Open the Plesk main configuration file in the default editor:
 
 `plesk conf panel.ini`
