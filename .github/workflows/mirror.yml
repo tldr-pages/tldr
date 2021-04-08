@@ -2,7 +2,7 @@ name: Main Mirror
 
 on:
   push:
-    branches: ['master']
+    branches: ['main']
 
 jobs:
   mirror:
@@ -11,4 +11,4 @@ jobs:
     steps:
       - uses: zofrex/mirror-branch@v1
         with:
-          target-branch: main
+          target-branch: master
