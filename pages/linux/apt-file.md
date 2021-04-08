@@ -17,4 +17,4 @@
 
 - Search for packages that match the regular expresssion given in `pattern`:
 
-`apt-file {search|find} --regexp {{pattern}}
+`apt-file {search|find} --regexp {{pattern}}`
