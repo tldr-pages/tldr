@@ -7,7 +7,7 @@
 
 `homectl list`
 
-- Create a home area (the user and the associated home directory):
+- Create a user account and the associated home directory:
 
 `sudo homectl create {{username}}`
 
@@ -19,15 +19,15 @@
 
 `sudo homectl passwd {{username}}`
 
-- Run shell or a command with access to a specific home area:
+- Run shell or a command with access to a specific home directory:
 
 `sudo homectl with {{username}} -- {{command}} {{command_arguments}}`
 
-- Lock/unlock a user home area:
+- Lock/unlock a specific home directory:
 
 `sudo homectl {{lock|unlock}} {{username}}`
 
-- Resize a home area to 100 GiB:
+- Change the disk space assigned to a specific home directory to 100 GiB:
 
 `sudo homectl resize {{username}} {{100G}}`
 
