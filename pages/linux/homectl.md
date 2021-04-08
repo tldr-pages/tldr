@@ -3,7 +3,7 @@
 > Create, remove, change or inspect home directories using the systemd-homed service.
 > More information: <https://man.archlinux.org/man/homectl.1>.
 
-- List home areas:
+- List user accounts and their associated home directories:
 
 `homectl list`
 
@@ -23,7 +23,7 @@
 
 `sudo homectl with {{username}} -- {{command}} {{command_arguments}}`
 
-- Lock/unlock a specific home directory:
+- Lock or unlock a specific home directory:
 
 `sudo homectl {{lock|unlock}} {{username}}`
 
