@@ -2,6 +2,7 @@
 
 > Debian and Ubuntu package management utility.
 > Search for packages using `apt-cache`.
+> More information: <https://manned.org/apt-get.8>.
 
 - Update the list of available packages and versions (it's recommended to run this before other `apt-get` commands):
 
