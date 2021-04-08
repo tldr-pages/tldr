@@ -21,7 +21,7 @@
 
 - Delete a static route:
 
-`sudo ip route del {{destination_network_ip}} dev {{eth0}}`
+`sudo ip route del {{destination_ip}} dev {{eth0}}`
 
 - Change or replace a static route:
 
