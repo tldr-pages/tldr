@@ -1,7 +1,7 @@
 # sqlmap
 
 > Detect and exploit SQL injection flaws.
-> More information: <https://sqlmap.org>.
+> More information: <http://sqlmap.org>.
 
 - Run sqlmap against a single target URL:
 
