@@ -18,7 +18,7 @@
 
 - Define environment variables for the shell process:
 
-`xonsh -D{{name1}}={{val1}} -D{{name2}}={{val2}}`
+`xonsh -D{{name1}}={{value1}} -D{{name2}}={{value2}}`
 
 - Load the specified `.xonsh` or `.json` configuration files:
 
