@@ -61,7 +61,7 @@ If you are an owner of the organization, you can see an automated list
 - Tan Siret Akıncı ([@yutyo](https://github.com/yutyo)):
   [3 March 2021](https://github.com/tldr-pages/tldr/issues/5345) — [7 April 2021](https://github.com/tldr-pages/tldr/issues/5702)
 - Marcher Simon ([@marchersimon](https://github.com/marchersimon)):
-  [9 March 2021](https://github.com/tldr-pages/tldr/issues/5390) — [9 April 02021](https://github.com/tldr-pages/tldr/issues/5722)
+  [9 March 2021](https://github.com/tldr-pages/tldr/issues/5390) — [9 April 2021](https://github.com/tldr-pages/tldr/issues/5722)
 
 ## Organization members
 
@@ -83,7 +83,7 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
 - **Tan Siret Akıncı ([@yutyo](https://github.com/yutyo))**:
   [7 April 2021](https://github.com/tldr-pages/tldr/issues/5702) - present
 - **Marcher Simon ([@marchersimon](https://github.com/marchersimon))**:
-  [9 April 02021](https://github.com/tldr-pages/tldr/issues/5722) — present
+  [9 April 2021](https://github.com/tldr-pages/tldr/issues/5722) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
