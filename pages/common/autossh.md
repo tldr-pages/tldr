@@ -1,10 +1,10 @@
 # autossh
 
-> Runs, monitors and restarts SSH connections.
+> Run, monitor and restart SSH connections.
 > Auto-reconnects to keep port forwarding tunnels up. Accepts all `ssh` flags.
-> More information: <https://harding.motd.ca/autossh>.
+> More information: <https://www.harding.motd.ca/autossh>.
 
-- Start an SSH session, restarting when a monitoring port fails return data:
+- Start an SSH session, restarting when a monitoring port fails to return data:
 
 `autossh -M {{monitor_port}} "{{ssh_command}}"`
 
