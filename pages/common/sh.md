@@ -2,7 +2,7 @@
 
 > Bourne shell, the standard command language interpreter.
 > See also `histexpand` for history expansion.
-> More information: <https://gnu.org/software/bash/>.
+> More information: <https://manned.org/sh>.
 
 - Start an interactive shell session:
 
