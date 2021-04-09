@@ -3,7 +3,7 @@
 > Test, manage, and deploy Firebase projects from the command line.
 > More information: <https://github.com/firebase/firebase-tools>.
 
-- Login to https://console.firebase.google.com:
+- Login to <https://console.firebase.google.com>:
 
 `firebase login`
 
