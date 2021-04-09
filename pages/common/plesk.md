@@ -17,7 +17,7 @@
 
 - Start watching for changes in the `panel.log` file:
 
-`plesk log panel.log`
+`plesk log {{panel.log}}`
 
 - Start the interactive MySQL console:
 
@@ -25,4 +25,4 @@
 
 - Open the Plesk main configuration file in the default editor:
 
-`plesk conf panel.ini`
+`plesk conf {{panel.ini}}`
