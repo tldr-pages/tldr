@@ -19,6 +19,10 @@
 
 `brew update`
 
+- Show formulae and casks that have a more recent version available:
+
+`brew outdated`
+
 - Search for available formulae (i.e. packages) and casks (i.e. native packages):
 
 `brew search {{text}}`
