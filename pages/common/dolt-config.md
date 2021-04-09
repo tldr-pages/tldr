@@ -1,6 +1,6 @@
 # dolt config
 
-> Read and write local (per repository) and global (per user) Dolt configuration variable.
+> Read and write local (per repository) and global (per user) Dolt configuration variables.
 > More information: <https://docs.dolthub.com/interfaces/cli#dolt-config>.
 
 - List all local and global configuration options and their values:
