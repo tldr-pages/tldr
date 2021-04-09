@@ -1,7 +1,7 @@
 # named
 
 > Execute the DNS (Dynamic Name Service) server daemon that converts host names to IP addresses and vice versa.
-> More information: <https://man.archlinux.org/man/named.8>.
+> More information: <https://manned.org/named>.
 
 - Read the default configuration file `/etc/named.conf`, read any initial data and listen for queries:
 

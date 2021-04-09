@@ -1,7 +1,7 @@
 # isosize
 
 > Display the size of an ISO file.
-> More information: <https://man.archlinux.org/man/isosize.8>.
+> More information: <https://manned.org/isosize>.
 
 - Display the size of an ISO file:
 

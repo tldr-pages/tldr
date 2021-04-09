@@ -1,7 +1,7 @@
 # logsave
 
 > Save the output of a command in a logfile.
-> More information: <https://man.archlinux.org/man/core/e2fsprogs/logsave.8>.
+> More information: <https://manned.org/logsave>.
 
 - Execute command with specified argument(s) and save its output to log file:
 

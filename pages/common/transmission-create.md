@@ -1,7 +1,7 @@
 # transmission-create
 
 > A CLI utility to create BitTorrent .torrent files.
-> More information: <https://man.archlinux.org/man/transmission-create.1>.
+> More information: <https://manned.org/transmission-create>.
 
 - Create a torrent with 2048 KB as the piece size:
 

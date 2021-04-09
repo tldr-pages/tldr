@@ -1,7 +1,7 @@
 # iftop
 
 > Show bandwidth usage on an interface by host.
-> More information: <https://man.archlinux.org/man/iftop.8>.
+> More information: <https://manned.org/iftop>.
 
 - Show the bandwidth usage:
 

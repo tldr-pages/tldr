@@ -1,7 +1,7 @@
 # ltrace
 
 > Display dynamic library calls of a process.
-> More information: <https://man.archlinux.org/man/ltrace.1>.
+> More information: <https://manned.org/ltrace>.
 
 - Print (trace) library calls of a program binary:
 

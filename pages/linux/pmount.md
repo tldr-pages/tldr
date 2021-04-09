@@ -1,7 +1,7 @@
 # pmount
 
 > Mount arbitrary hotpluggable devices as a normal user.
-> More information: <https://manpages.debian.org/latest/pmount/pmount.1.html>.
+> More information: <https://manned.org/pmount>.
 
 - Mount a device below `/media/` (using device as mount point):
 

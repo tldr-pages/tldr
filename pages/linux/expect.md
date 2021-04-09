@@ -1,7 +1,7 @@
 # expect
 
 > Script executor that interacts with other programs that require user input.
-> More information: <https://man.archlinux.org/man/expect.1>.
+> More information: <https://manned.org/expect>.
 
 - Execute an expect script from a file:
 

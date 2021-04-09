@@ -1,7 +1,7 @@
 # mdadm
 
 > RAID management utility.
-> More information: <https://man.archlinux.org/man/mdadm.8>.
+> More information: <https://manned.org/mdadm>.
 
 - Create array:
 
