@@ -1,6 +1,7 @@
 # ksh
 
 > Korn Shell, a Bash-compatible command line interpreter.
+> See also `histexpand` for history expansion.
 > More information: <http://kornshell.com>.
 
 - Start an interactive shell session:
