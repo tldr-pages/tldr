@@ -6,7 +6,7 @@
 
 - Create a package tarball from the current directory:
 
-`pio package pack --output {{path/to/output_tarball.tar.gz}}`
+`pio package pack --output {{path/to/package.tar.gz}}`
 
 - Create and publish a package tarball from the current directory:
 
