@@ -2,7 +2,7 @@
 
 > Bourne ljuska.
 > Standardni interpreter komandnog jezika.
-> Više informacija: <https://gnu.org/software/bash/>.
+> Više informacija: <https://manned.org/sh>.
 
 - Pokreni interaktivnu ljusku:
 
