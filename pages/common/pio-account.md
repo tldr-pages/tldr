@@ -1,7 +1,7 @@
 # pio account
 
 > Manage your PlatformIO account in the command line.
-> More information: <https://docs.platformio.org/en/latest/core/userguide/account/index.html>.
+> More information: <https://docs.platformio.org/en/latest/core/userguide/account/>.
 
 - Register a new PlatformIO account:
 
