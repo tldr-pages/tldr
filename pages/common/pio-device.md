@@ -25,7 +25,7 @@
 
 - Start an interactive device monitor and set a specific EOL character (defults to `CRLF`):
 
-`pio device monitor --eol {{CR|LF|CRLF}}`
+`pio device monitor --eol {{CRLF|CR|LF}}`
 
 - Go to the menu of the interactive device monitor:
 
