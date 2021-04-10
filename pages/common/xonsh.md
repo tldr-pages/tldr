@@ -4,7 +4,7 @@
 > Write and mix sh/Python code in Xonsh (pronounced conch).
 > More information: <https://xon.sh>.
 
-- Start interactive command line interpreter:
+- Start an interactive command line interpreter:
 
 `xonsh`
 
