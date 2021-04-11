@@ -90,6 +90,7 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [17 January 2020](https://github.com/tldr-pages/tldr/issues/3764) — [3 February 2021](https://github.com/tldr-pages/tldr/issues/5224)
 - **Axel Navarro ([@navarroaxel](https://github.com/navarroaxel))**:
   [5 October 2020](https://github.com/tldr-pages/tldr/issues/4504) — [7 April 2021](https://github.com/tldr-pages/tldr/issues/5703)
+
 ## Organization owners
 
 Owners of the tldr-pages organization have admin access to all of its repositories,
