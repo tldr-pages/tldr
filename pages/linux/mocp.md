@@ -28,7 +28,7 @@
 
 `mocp --play`
 
-- Stop any playing songs while MOC is in background:
+- Stop any playing songs while MOC is in the background:
 
 `mocp --stop`
 
