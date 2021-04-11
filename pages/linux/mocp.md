@@ -24,7 +24,7 @@
 
 `mocp --clear`
 
-- Play first song in play queue while MOC is in background:
+- Play first song in the play queue while MOC is in the background:
 
 `mocp --play`
 
