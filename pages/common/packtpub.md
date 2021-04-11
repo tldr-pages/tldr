@@ -23,7 +23,7 @@
 
 `packtpub view-offer`
 
-- Open the the daily offer in the default web browser:
+- Open the daily offer in the default web browser:
 
 `packtpub view-offer`
 
