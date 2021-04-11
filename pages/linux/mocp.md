@@ -3,7 +3,7 @@
 > Music on Console (MOC) audio player.
 > More information: <https://moc.daper.net/>.
 
-- Launch MOC terminal UI:
+- Launch the MOC terminal UI:
 
 `mocp`
 
