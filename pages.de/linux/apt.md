@@ -2,7 +2,7 @@
 
 > Debian und Ubuntu Paket Management Tool.
 > Empfohlene Alternative zu apt-get seit Ubuntu 16.04.
-> Mehr Informationen: <https://manned.org/apt.8>.
+> Mehr Informationen: <https://manpages.debian.org/latest/apt/apt.8.en.html>.
 
 - Aktualisiere die Liste der Paketquellen (es wird empfohlen diesen Befehl zu Begin auszuführen):
 

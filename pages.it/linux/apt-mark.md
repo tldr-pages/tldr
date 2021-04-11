@@ -1,7 +1,7 @@
 # apt-mark
 
 > Servizio per cambiare lo stato di un pacchetto installato.
-> Maggiori informazioni: <https://manned.org/apt-mark.8>.
+> Maggiori informazioni: <https://manpages.debian.org/latest/apt/apt-mark.8.en.html>.
 
 - Contrassegna un pacchetto come installato automaticamente:
 

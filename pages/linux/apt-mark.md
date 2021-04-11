@@ -1,7 +1,7 @@
 # apt-mark
 
 > Utility to change the status of installed packages.
-> More information: <https://manned.org/apt-mark.8>.
+> More information: <https://manpages.debian.org/latest/apt/apt-mark.8.en.html>.
 
 - Mark a package as automatically installed:
 

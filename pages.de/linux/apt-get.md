@@ -2,7 +2,7 @@
 
 > Debian und Ubuntu Paket Management Tool.
 > Suche mit `apt-cache` nach Paketen.
-> Mehr Informationen: <https://manned.org/apt-get.8>.
+> Mehr Informationen: <https://manpages.debian.org/latest/apt/apt-get.8.en.html>.
 
 - Aktualisiere die Liste der Paketquellen (es wird empfohlen diesen Befehl zu Begin auszuführen):
 

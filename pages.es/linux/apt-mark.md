@@ -1,7 +1,7 @@
 # apt-mark
 
 > Herramienta para cambiar el estado de los paquetes instalados.
-> Más información: <https://manned.org/apt-mark.8>.
+> Más información: <https://manpages.debian.org/latest/apt/apt-mark.8.en.html>.
 
 - Marca un paquete como instalado automáticamente:
 

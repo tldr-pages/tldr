@@ -1,7 +1,7 @@
 # apt-file
 
 > Cerca un file dentro un pacchetto apt, includendo quelli non ancora installati.
-> Maggiori informazioni: <https://manned.org/apt-file.1>.
+> Maggiori informazioni: <https://manpages.debian.org/latest/apt-file/apt-file.1.en.html>.
 
 - Aggiorna il database dei metadati:
 
