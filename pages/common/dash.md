@@ -18,3 +18,11 @@
 - Run commands from a script, printing each command before executing it:
 
 `dash -x {{path/to/script.sh}}`
+
+- Execute commands from a script, stopping at the first error:
+
+`dash -e {{path/to/script.sh}}`
+
+- Read and execute commands from stdin:
+
+`dash -s`

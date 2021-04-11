@@ -16,6 +16,6 @@
 
 `sh {{path/to/script.sh}}`
 
-- Execute commands from stdin:
+- Read and execute commands from stdin:
 
 `sh -s`

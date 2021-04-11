@@ -24,7 +24,7 @@
 
 `bash -e {{path/to/script.sh}}`
 
-- Execute commands from stdin:
+- Read and execute commands from stdin:
 
 `bash -s`
 
