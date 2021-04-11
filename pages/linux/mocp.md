@@ -20,7 +20,7 @@
 
 `mocp --append {{path/to/directory}}`
 
-- Clear the play queue while MOC is in background:
+- Clear the play queue while MOC is in the background:
 
 `mocp --clear`
 
