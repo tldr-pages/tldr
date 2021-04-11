@@ -7,7 +7,7 @@
 
 `homectl list`
 
-- Create a user account and the associated home directory:
+- Create a user account and their associated home directory:
 
 `sudo homectl create {{username}}`
 
