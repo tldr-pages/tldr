@@ -1,7 +1,7 @@
 # nautilus
 
-> Default file explorer for Gnome desktop environment
-> Also known as Gnome Files
+> Default file explorer for Gnome desktop environment.
+> Also known as Gnome Files.
 > More information: <https://github.com/GNOME/nautilus>.
 
 - Launch Nautilus as current user:
