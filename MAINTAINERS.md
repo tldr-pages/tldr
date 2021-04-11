@@ -88,7 +88,7 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [17 December 2019](https://github.com/tldr-pages/tldr/issues/3663) — [18 June 2020](https://github.com/tldr-pages/tldr/issues/4113)
 - Lucas Schneider ([@schneiderl](https://github.com/schneiderl)):
   [17 January 2020](https://github.com/tldr-pages/tldr/issues/3764) — [3 February 2021](https://github.com/tldr-pages/tldr/issues/5224)
-- **Axel Navarro ([@navarroaxel](https://github.com/navarroaxel))**:
+- Axel Navarro ([@navarroaxel](https://github.com/navarroaxel)):
   [5 October 2020](https://github.com/tldr-pages/tldr/issues/4504) — [7 April 2021](https://github.com/tldr-pages/tldr/issues/5703)
 
 ## Organization owners
