@@ -12,7 +12,7 @@
 
 `sudo docker image prune`
 
-- Delete all unused images, not just those without a tag:
+- Delete all unused images (not just those without a tag):
 
 `sudo docker image prune --all`
 
