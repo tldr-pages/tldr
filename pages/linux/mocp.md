@@ -16,7 +16,7 @@
 
 `mocp --enqueue {{path/to/audio_file}}`
 
-- Add songs recursively to play queue while MOC is in background:
+- Add songs recursively to the play queue while MOC is in the background:
 
 `mocp --append {{path/to/directory}}`
 
