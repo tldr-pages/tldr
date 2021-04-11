@@ -32,6 +32,6 @@
 
 `mocp --stop`
 
-- Close MOC while it is in backgroud:
+- Close MOC while it is in the backgroud:
 
 `mocp --exit`
