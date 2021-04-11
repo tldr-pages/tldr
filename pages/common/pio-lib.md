@@ -13,7 +13,7 @@
 
 - Search for existing libraries:
 
-`pio lib search {{library}}`
+`pio lib search {{keyword}}`
 
 - Show details about a library:
 
