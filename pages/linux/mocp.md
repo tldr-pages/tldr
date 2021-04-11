@@ -11,9 +11,6 @@
 
 `mocp {{path/to/directory}}`
 
-- Launch MOC in background:
-
-`mocp &`
 
 - Add individual song to play queue while MOC is in background:
 
