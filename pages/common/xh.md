@@ -7,7 +7,7 @@
 
 `xh {{httpbin.org/get}}`
 
-- Send a POST request with JSON body (each key specified is added to the top-level JSON object e.g. `{"name": "john", "age": 25}`):
+- Send a POST request with a JSON body (key-value pairs are added to a top-level JSON object - e.g. `{"name": "john", "age": 25}`):
 
 `xh post {{httpbin.org/post}} {{name=john}} {{age:=25}}`
 
