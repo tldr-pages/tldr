@@ -11,7 +11,6 @@
 
 `mocp {{path/to/directory}}`
 
-
 - Add a specific song to the play queue while MOC is in the background:
 
 `mocp --enqueue {{path/to/audio_file}}`
