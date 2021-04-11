@@ -11,9 +11,9 @@
 
 `xh post {{httpbin.org/post}} {{name=john}} {{age:=25}}`
 
-- Send a GET request with query parameters (e.g. `id=5&sort=true`):
+- Send a GET request with query parameters (e.g. `first_param=5&second_param=true`):
 
-`xh get {{httpbin.org/get}} {{id==5}} {{sort==true}}`
+`xh get {{httpbin.org/get}} {{first_param==5}} {{second_param==true}}`
 
 - Send a GET request with a custom header:
 
