@@ -6,7 +6,7 @@
 
 - List local Docker images:
 
-`sudo docker image ls`
+`docker image ls`
 
 - Delete unused local Docker images:
 
