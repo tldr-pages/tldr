@@ -7,7 +7,7 @@
 
 `mocp`
 
-- Launch MOC terminal UI in specific directory:
+- Launch the MOC terminal UI in a specific directory:
 
 `mocp {{path/to/directory}}`
 
