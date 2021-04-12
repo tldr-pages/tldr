@@ -10,12 +10,12 @@
 
 - Delete unused local Docker images:
 
-`sudo docker image prune`
+`docker image prune`
 
 - Delete all unused images (not just those without a tag):
 
-`sudo docker image prune --all`
+`docker image prune --all`
 
 - Show the history of a local Docker image:
 
-`sudo docker image history {{image}}`
+`docker image history {{image}}`
