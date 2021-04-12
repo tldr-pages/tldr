@@ -11,3 +11,7 @@
 - Launch Nautilus as root user:
 
 `sudo nautilus`
+
+- Launch Nautilus and display a given directory:
+
+`nautilus {{path/to/file_or_directory}}`
