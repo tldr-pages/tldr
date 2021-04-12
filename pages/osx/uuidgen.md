@@ -1,6 +1,6 @@
 # uuidgen
 
-> Generates new Universally Unique IDentifier UUID strings.
+> Generate new UUID (Universally Unique IDentifier) strings.
 
 - Generate a UUID string:
 
