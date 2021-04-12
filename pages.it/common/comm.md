@@ -1,6 +1,7 @@
 # comm
 
 > Seleziona o ignora linee comuni a due file. Entrambi i file devono essere ordinati.
+> Maggiori informazioni: <https://www.gnu.org/software/coreutils/comm>.
 
 - Produci tre colonne separate da tab: linee solo nel primo file, linee solo nel secondo file, e linee comuni ad entrambi:
 

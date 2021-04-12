@@ -5,15 +5,15 @@
 
 - Installiere ein oder mehrere Pakete, deren Namen mit Leerzeichen getrennt sind:
 
-`choco install {{paket(e)}}`
+`choco install {{paket1}} {{paket2}}`
 
 - Installiere Pakete aus einer Konfigurationsdatei:
 
-`choco install {{pfad/zur/pakete.config}}`
+`choco install {{pfad/zu/pakete.config}}`
 
 - Installiere Pakete aus einer `nuspec`- oder `nupkg`-Datei:
 
-`choco install {{pfad/zur/datei}}`
+`choco install {{pfad/zu/datei}}`
 
 - Installiere eine bestimmte Version eines Pakets:
 

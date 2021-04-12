@@ -1,6 +1,7 @@
 # calendar
 
 > Display upcoming events from a calendar file.
+> More information: <https://www.commandlinux.com/man-page/man1/calendar.1.html>.
 
 - Show events for today and tomorrow (or the weekend on Friday) from the default calendar:
 

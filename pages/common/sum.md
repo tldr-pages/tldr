@@ -2,6 +2,7 @@
 
 > Compute checksums and the number of blocks for a file.
 > A predecessor to the more modern `cksum`.
+> More information: <https://www.gnu.org/software/coreutils/sum>.
 
 - Compute a checksum with BSD-compatible algorithm and 1024-byte blocks:
 

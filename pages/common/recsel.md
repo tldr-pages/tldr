@@ -9,7 +9,7 @@
 
 - Use "~" to match a string with a given regular expression:
 
-`recsel -e "{{field_name}}  ~ '{{pattern_regex}}' {{data.rec}}"`
+`recsel -e "{{field_name}} ~ '{{pattern_regex}}' {{data.rec}}"`
 
 - Use a predicate to match a name and a version:
 

@@ -1,6 +1,7 @@
 # chgrp
 
 > Cambia il gruppo proprietario di file e directory.
+> Maggiori informazioni: <https://www.gnu.org/software/coreutils/chgrp>.
 
 - Cambia il gruppo proprietario di un file/directory:
 

@@ -1,6 +1,7 @@
 # sha1sum
 
 > Calculate SHA1 cryptographic checksums.
+> More information: <https://www.gnu.org/software/coreutils/sha1sum>.
 
 - Calculate the SHA1 checksum for a file:
 

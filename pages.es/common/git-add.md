@@ -5,7 +5,7 @@
 
 - Añade un archivo al índice:
 
-`git add {{ruta/del/archivo}}`
+`git add {{ruta/al/archivo}}`
 
 - Añade todos los archivos (rastreados o no rastreados):
 
@@ -25,4 +25,4 @@
 
 - Añade partes de un archivo interactivamente:
 
-`git add -p {{ruta/del/archivo}}`
+`git add -p {{ruta/al/archivo}}`

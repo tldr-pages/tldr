@@ -1,6 +1,7 @@
 # dig
 
 > DNS 조회 유틸리티.
+> 더 많은 정보: <https://manpages.debian.org/dnsutils/dig.1.html>.
 
 - 호스트이름과 관련된 IP 조회하기 (A records):
 
@@ -18,7 +19,7 @@
 
 `dig @{{8.8.8.8}} {{example.com}}`
 
-- IP  주소에서 역방향 DNS 조회하기 (PTR record):
+- IP 주소에서 역방향 DNS 조회하기 (PTR record):
 
 `dig -x {{8.8.8.8}}`
 

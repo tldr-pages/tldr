@@ -1,6 +1,7 @@
 # cd
 
 > 改變工作目錄。
+> 更多資訊： <https://man.archlinux.org/man/cd.n>.
 
 - 前往指定目錄：
 

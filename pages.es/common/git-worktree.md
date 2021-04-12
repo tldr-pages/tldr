@@ -5,11 +5,11 @@
 
 - Crea un nuevo directorio con la rama específicada y se cambia él:
 
-`git worktree add {{ruta/del/directorio}} {{rama}}`
+`git worktree add {{ruta/al/directorio}} {{rama}}`
 
 - Crea un nuevo directorio con un nueva rama y se cambia a él:
 
-`git worktree add {{ruta/del/directorio}} -b {{rama_nueva}}`
+`git worktree add {{ruta/al/directorio}} -b {{rama_nueva}}`
 
 - Muestra todos los directorios de trabajo adjuntos a este repositorio:
 

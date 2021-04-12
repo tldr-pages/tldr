@@ -1,6 +1,6 @@
 # fastboot
 
-> Comunica con il dispositivo Android connessione quando in modalità  bootloader (la situazione in cui `adb` non funziona).
+> Comunica con il dispositivo Android connessione quando in modalità bootloader (la situazione in cui `adb` non funziona).
 > Maggiori informazioni: <https://android.googlesource.com/platform/system/core/+/master/fastboot/#fastboot>.
 
 - Sblocca il bootloader:

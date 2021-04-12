@@ -10,7 +10,7 @@
 
 `apt-cache show {{paquete}}`
 
-- Muestra  si un paquete está instalado y actualizado:
+- Muestra si un paquete está instalado y actualizado:
 
 `apt-cache policy {{paquete}}`
 

@@ -1,6 +1,7 @@
 # tee
 
 > Read from standard input and write to standard output and files (or commands).
+> More information: <https://www.gnu.org/software/coreutils/tee>.
 
 - Copy standard input to each FILE, and also to standard output:
 

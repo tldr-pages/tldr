@@ -21,12 +21,14 @@ as well as review and merge pull requests from other contributors.
 If you are an owner of the organization, you should be able to see an automated list
 [here](https://github.com/tldr-pages/tldr/settings/collaboration).
 
-- **Max Xu ([@jsonbruce](https://github.com/jsonbruce))**:
-  [13 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — present
 - **Jeef ([@jeeftor](https://github.com/jeeftor))**:
   [12 March 2017](https://github.com/tldr-pages/tldr/issues/1209#issuecomment-285924778) — present
+- **Max Xu ([@jsonbruce](https://github.com/jsonbruce))**:
+  [13 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — present
 - **Muhammad Falak R Wani ([@mfrw](https://github.com/mfrw))**:
   [7 September 2018](https://github.com/tldr-pages/tldr/issues/2306) — present
+- **David Bialik ([@AnimiVulpis](https://github.com/AnimiVulpis))**:
+  [5 November 2018](https://github.com/tldr-pages/tldr/issues/2556) — present
 - **Andrik Albuquerque ([@andrik](https://github.com/andrik))**:
   [9 May 2019](https://github.com/tldr-pages/tldr/issues/2988) — present
 - **Ivan Aracki ([@Aracki](https://github.com/Aracki))**:
@@ -38,11 +40,7 @@ If you are an owner of the organization, you should be able to see an automated 
 - **Guido Lena Cota ([@glenacota](https://github.com/glenacota))**:
   [19 October 2020](https://github.com/tldr-pages/tldr/issues/4763) — present
 - **Sahil Dhiman ([@sahilister](https://github.com/sahilister))**:
-  [05 December 2020](https://github.com/tldr-pages/tldr/issues/4994) — present
-- **Matthew Peveler ([@MasterOdin](https://github.com/MasterOdin))**:
-  [09 January 2021](https://github.com/tldr-pages/tldr/issues/5122) — present
-- **Tan Siret Akıncı ([@Yutyo](https://github.com/Yutyo))**:
-  [03 March 2021](https://github.com/tldr-pages/tldr/issues/5345) — present
+  [05 December 2020](https://github.com/tldr-pages/tldr/issues/4994) - present
 - **Marcher Simon ([@marchersimon](https://github.com/marchersimon))**:
   [09 March 2021](https://github.com/tldr-pages/tldr/issues/5390) — present
 - Lucas Schneider ([@schneiderl](https://github.com/schneiderl)):
@@ -57,6 +55,10 @@ If you are an owner of the organization, you should be able to see an automated 
   [24 August 2020](https://github.com/tldr-pages/tldr/issues/4291) — [05 October 2020](https://github.com/tldr-pages/tldr/issues/4504)
 - bl-ue ([@bl-ue](https://github.com/bl-ue)):
   [01 January 2021](https://github.com/tldr-pages/tldr/issues/5056) — [02 February 2021](https://github.com/tldr-pages/tldr/issues/5219)
+- Matthew Peveler ([@MasterOdin](https://github.com/MasterOdin)):
+  [09 January 2021](https://github.com/tldr-pages/tldr/issues/5122) — [01 April 2021](https://github.com/tldr-pages/tldr/issues/5473)
+- Tan Siret Akıncı ([@yutyo](https://github.com/yutyo)):
+  [03 March 2021](https://github.com/tldr-pages/tldr/issues/5345) — [07 April 2021](https://github.com/tldr-pages/tldr/issues/5702)
 
 ## Organization members
 
@@ -73,6 +75,10 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [05 October 2020](https://github.com/tldr-pages/tldr/issues/4504) — present
 - **bl-ue ([@bl-ue](https://github.com/bl-ue))**:
   [02 February 2021](https://github.com/tldr-pages/tldr/issues/5219) — present
+- **Matthew Peveler ([@MasterOdin](https://github.com/MasterOdin))**:
+  [01 April 2021](https://github.com/tldr-pages/tldr/issues/5473) - present
+- **Tan Siret Akıncı ([@yutyo](https://github.com/yutyo))**:
+  [07 April 2021](https://github.com/tldr-pages/tldr/issues/5702) - present
 - Lucas Schneider ([@schneiderl](https://github.com/schneiderl)):
   [17 January 2020](https://github.com/tldr-pages/tldr/issues/3764) — [3 February 2021](https://github.com/tldr-pages/tldr/issues/5224)
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
@@ -90,7 +96,7 @@ and are responsible for performing role changes in the community.
 An automated list can be found [here](https://github.com/orgs/tldr-pages/people).
 
 - **Romain Prieto ([@rprieto](https://github.com/rprieto))**:
-  created the the project on [8 December 2013](https://github.com/tldr-pages/tldr/commit/11264d9)
+  created the project on [8 December 2013](https://github.com/tldr-pages/tldr/commit/11264d9)
 - **Agniva De Sarker ([@agnivade](https://github.com/agnivade))**:
   [27 September 2016](https://gitter.im/tldr-pages/tldr?at=57eaedefe4e41c6a4afc2f47) — present
 - **Starbeamrainbowlabs ([@sbrl](https://github.com/sbrl))**:

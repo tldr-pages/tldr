@@ -1,6 +1,7 @@
 # base64
 
 > Codeer of decodeer bestand of standaardinvoer van/naar Base64 naar standaarduitvoer.
+> Meer informatie: <https://www.gnu.org/software/coreutils/base64>.
 
 - Codeer een bestand:
 

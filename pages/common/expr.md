@@ -1,6 +1,7 @@
 # expr
 
 > Evaluate expressions and manipulate strings.
+> More information: <https://www.gnu.org/software/coreutils/expr>.
 
 - Get string length:
 

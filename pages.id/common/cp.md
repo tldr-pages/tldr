@@ -1,6 +1,7 @@
 # cp
 
 > Membuat salinan file dan direktori.
+> Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/cp>.
 
 - Membuat salinan file ke lokasi lain:
 

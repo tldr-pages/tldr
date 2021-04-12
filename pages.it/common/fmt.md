@@ -1,6 +1,7 @@
 # fmt
 
 > Riformatta i paragrafi di un file di testo unendoli e limitando la larghezza delle righe a un dato numero di caratteri (di default 75).
+> Maggiori informazioni: <https://www.gnu.org/software/coreutils/fmt>.
 
 - Riformatta un file:
 

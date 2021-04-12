@@ -1,6 +1,7 @@
 # dirname
 
 > Determina la directory genitore di un determinato file o percorso.
+> Maggiori informazioni: <https://www.gnu.org/software/coreutils/dirname>.
 
 - Calcola la directory genitore di un dato percorso:
 

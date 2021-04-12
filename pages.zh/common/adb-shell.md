@@ -21,7 +21,7 @@
 
 - 触发一个键盘敲击事件:
 
-`adb shell input keyevent {{键位码}}}`
+`adb shell input keyevent {{键位码}}`
 
 - 清除模拟器/设备上的数据:
 

@@ -1,36 +1,36 @@
 # grep
 
-> Matches patterns in input text.
-> Supports simple patterns and regular expressions.
+> Find patterns in files using regular expressions.
+> More information: <https://man7.org/linux/man-pages/man1/grep.1.html>.
 
 - Search for a pattern within a file:
 
-`grep {{search_pattern}} {{path/to/file}}`
+`grep "{{search_pattern}}" {{path/to/file}}`
 
-- Search for an exact string:
+- Search for an exact string (disables regular expressions):
 
-`grep -F {{exact_string}} {{path/to/file}}`
+`grep --fixed-strings "{{exact_string}}" {{path/to/file}}`
 
-- Search for a pattern [R]ecursively in the current directory, showing matching line [n]umbers, [I]gnoring non-text files:
+- Search for a pattern in all files recursively in a directory, showing line numbers of matches, ignoring binary files:
 
-`grep -RIn {{search_pattern}} .`
+`grep --recursive --line-number --binary-files={{without-match}} "{{search_pattern}}" {{path/to/directory}}`
 
-- Use extended regular expressions (supporting `?`, `+`, `{}`, `()` and `|`), in case-insensitive mode:
+- Use extended regular expressions (supports `?`, `+`, `{}`, `()` and `|`), in case-insensitive mode:
 
-`grep -Ei {{search_pattern}} {{path/to/file}}`
+`grep --extended-regexp --ignore-case "{{search_pattern}}" {{path/to/file}}`
 
-- Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match:
+- Print 3 lines of context around, before, or after each match:
 
-`grep -{{C|B|A}} 3 {{search_pattern}} {{path/to/file}}`
+`grep --{{context|before-context|after-context}}={{3}} "{{search_pattern}}" {{path/to/file}}`
 
-- Print file name with the corresponding line number for each match:
+- Print file name and line number for each match:
 
-`grep -Hn {{search_pattern}} {{path/to/file}}`
+`grep --with-filename --line-number "{{search_pattern}}" {{path/to/file}}`
 
-- Use the standard input instead of a file:
+- Search for lines matching a pattern, printing only the matched text:
 
-`cat {{path/to/file}} | grep {{search_pattern}}`
+`grep --only-matching "{{search_pattern}}" {{path/to/file}}`
 
-- In[v]ert match for excluding specific strings:
+- Search stdin for lines that do not match a pattern:
 
-`grep -v {{search_pattern}}`
+`cat {{path/to/file}} | grep --invert-match "{{search_pattern}}"`

@@ -8,9 +8,9 @@
 
 `minetest`
 
-- Start minetest in server mode:
+- Start minetest in server mode by hosting a specific world:
 
-`minetest --server`
+`minetest --server --world {{name}}`
 
 - Write logs to a specific file:
 

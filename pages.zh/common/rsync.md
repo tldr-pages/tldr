@@ -29,7 +29,7 @@
 
 - 指定本地和远程之间通信方式：
 
-`rsync --rsh ssh  {{remote_host}}:{{path/to/remote_file}} {{path/to/local_file}}`
+`rsync --rsh ssh {{remote_host}}:{{path/to/remote_file}} {{path/to/local_file}}`
 
 - 指定本地和远程之间通信方式，使用指定端口，并显示进度条：
 
