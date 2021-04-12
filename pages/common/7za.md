@@ -24,6 +24,10 @@
 
 `7za x {{path/to/archive.7z}} -so`
 
+- [a]rchive using a specific archive type:
+
+`7z a -t{{7z|zip|gzip|bzip2|lzip}} {{path/to/archive.7z}} {{path/to/file_or_directory}}`
+
 - [l]ist the contents of an archive:
 
 `7za l {{path/to/archive.7z}}`
