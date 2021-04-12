@@ -1,7 +1,7 @@
 # userdel
 
 > Elimina un usuario.
-> Más información: <https://manned.org/userdel.8>.
+> Más información: <https://manned.org/userdel>.
 
 - Elimina un usuario y su directorio personal:
 

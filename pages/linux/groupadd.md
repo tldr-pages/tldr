@@ -1,7 +1,7 @@
 # groupadd
 
 > Add user groups to the system.
-> More information: <https://manned.org/groupadd.8>.
+> More information: <https://manned.org/groupadd>.
 
 - Create a new Linux group:
 

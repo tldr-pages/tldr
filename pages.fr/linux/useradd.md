@@ -1,7 +1,7 @@
 # useradd
 
 > Crée un nouvel utilisateur.
-> Plus d'informations : <https://manned.org/useradd.8>.
+> Plus d'informations : <https://manned.org/useradd>.
 
 - Crée un nouvel utilisateur :
 

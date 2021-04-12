@@ -1,7 +1,7 @@
 # usermod
 
 > Modifies a user account.
-> More information: <https://manned.org/usermod.8>.
+> More information: <https://manned.org/usermod>.
 
 - Change a user's name:
 

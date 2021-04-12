@@ -1,7 +1,7 @@
 # groupdel
 
 > Delete existing user groups from the system.
-> More information: <https://manned.org/groupdel.8>.
+> More information: <https://manned.org/groupdel>.
 
 - Delete an existing group:
 
