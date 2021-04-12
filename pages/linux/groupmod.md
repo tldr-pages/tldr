@@ -1,6 +1,7 @@
 # groupmod
 
 > Modify existing user groups in the system.
+> More information: <https://manned.org/groupmod.8>.
 
 - Change the group name:
 

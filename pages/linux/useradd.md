@@ -1,6 +1,7 @@
 # useradd
 
 > Create a new user.
+> More information: <https://manned.org/useradd.8>.
 
 - Create new user:
 
