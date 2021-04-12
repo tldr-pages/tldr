@@ -1,7 +1,7 @@
 # bc
 
 > An arbitrary precision calculator language.
-> More information: <https://man.archlinux.org/man/bc.1>.
+> More information: <https://manned.org/bc>.
 
 - Start `bc` in interactive mode using the standard math library:
 

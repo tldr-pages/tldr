@@ -1,7 +1,7 @@
 # case
 
 > Esegui branch diversi in base al valore di un'espressione.
-> Maggiori informazioni: <https://man.archlinux.org/man/case.n>.
+> Maggiori informazioni: <https://manned.org/case>.
 
 - Esegui il match di una variabile su diverse stringhe per decidere che comando eseguire:
 

@@ -1,7 +1,7 @@
 # chsh
 
 > 사용자 로그인 쉘을 변경합니다.
-> 더 많은 정보: <https://man.archlinux.org/man/chsh.1>.
+> 더 많은 정보: <https://manned.org/chsh>.
 
 - 쉘 변경하기:
 

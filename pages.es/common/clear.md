@@ -1,7 +1,7 @@
 # clear
 
 > Limpia la pantalla de la terminal.
-> Más información: <https://man.archlinux.org/man/clear.1>.
+> Más información: <https://manned.org/clear>.
 
 - Limpia la pantalla de la terminal (equivale a presionar Control-L en la interfaz de línea de comandos Bash):
 

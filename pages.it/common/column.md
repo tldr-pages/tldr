@@ -2,7 +2,7 @@
 
 > Formatta standard input o un file in più colonne.
 > Le colonne sono riempite prima delle righe; il separatore predefinito è lo spazio.
-> Maggiori informazioni: <https://man.archlinux.org/man/core/util-linux/column.1>.
+> Maggiori informazioni: <https://manned.org/column>.
 
 - Formatta l'output per uno schermo largo 30 caratteri:
 

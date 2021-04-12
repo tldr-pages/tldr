@@ -1,7 +1,7 @@
 # arp
 
 > Mostra e gestisci la cache ARP di sistema.
-> Maggiori informazioni: <https://man.archlinux.org/man/arp.8>.
+> Maggiori informazioni: <https://manned.org/arp>.
 
 - Mostra la tabella ARP corrente:
 
