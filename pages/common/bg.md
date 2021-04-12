@@ -1,7 +1,7 @@
 # bg
 
 > Resumes jobs that have been suspended (e.g. using `Ctrl + Z`), and keeps them running in the background.
-> More information: <https://man.archlinux.org/man/bg.1p>.
+> More information: <https://manned.org/bg>.
 
 - Resume the most recently suspended job and run it in the background:
 

@@ -1,7 +1,7 @@
 # arp
 
 > Pokaż i manipuluj pamięcią podręczną ARP systemu.
-> Więcej informacji: <https://man.archlinux.org/man/arp.8>.
+> Więcej informacji: <https://manned.org/arp>.
 
 - Pokaż bieżącą tabelę arp:
 

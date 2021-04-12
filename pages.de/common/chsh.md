@@ -1,7 +1,7 @@
 # chsh
 
 > Ändere die Login-Shell eines Benutzers.
-> Mehr Informationen: <https://man.archlinux.org/man/chsh.1>.
+> Mehr Informationen: <https://manned.org/chsh>.
 
 - Ändere die Login-Shell eines Benutzers:
 

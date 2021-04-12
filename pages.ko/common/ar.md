@@ -1,7 +1,7 @@
 # ar
 
 > 아카이브로부터 생성, 수정, 추출 (`.a`, `.so`, `.o`).
-> 더 많은 정보: <https://man.archlinux.org/man/ar.1>.
+> 더 많은 정보: <https://manned.org/ar>.
 
 - 보관소로부터 모든 멤버를 추출하기:
 

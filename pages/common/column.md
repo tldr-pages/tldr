@@ -2,7 +2,7 @@
 
 > Format standard input or a file into multiple columns.
 > Columns are filled before rows; the default separator is a whitespace.
-> More information: <https://man.archlinux.org/man/core/util-linux/column.1>.
+> More information: <https://manned.org/column>.
 
 - Format the output of a command for a 30 characters wide display:
 

@@ -2,7 +2,7 @@
 
 > 표준 입력 또는 파일을 여러 열로 포맷 설정.
 > 행 앞에 열이 채워짐; 기본 구분 기호는 공백입니다.
-> 더 많은 정보: <https://man.archlinux.org/man/core/util-linux/column.1>.
+> 더 많은 정보: <https://manned.org/column>.
 
 - 30자 폭 디스플레이의 형식 출력으로 포맷 정하기:
 
