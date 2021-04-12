@@ -1,7 +1,7 @@
 # clear
 
 > Leert den Bildschirm eines Terminals.
-> Mehr Informationen: <https://man.archlinux.org/man/clear.1>.
+> Mehr Informationen: <https://manned.org/clear>.
 
 - Leere den Bildschirm (äquivalent zu Strg+L in einer Bash Shell):
 

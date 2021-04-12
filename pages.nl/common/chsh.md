@@ -1,7 +1,7 @@
 # chsh
 
 > Wijzig de login-shell van de gebruiker.
-> Meer informatie: <https://man.archlinux.org/man/chsh.1>.
+> Meer informatie: <https://manned.org/chsh>.
 
 - Wijzig shell:
 

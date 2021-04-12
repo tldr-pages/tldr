@@ -1,7 +1,7 @@
 # chsh
 
 > Ändra användarens inloggnings-shell.
-> Mer information: <https://man.archlinux.org/man/chsh.1>.
+> Mer information: <https://manned.org/chsh>.
 
 - Ändra shell:
 

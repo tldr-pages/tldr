@@ -1,7 +1,7 @@
 # apropos
 
 > Cerca nelle pagine di manuale, ad esempio per trovare un nuovo comando.
-> Maggiori informazioni: <https://man.archlinux.org/man/apropos.1>.
+> Maggiori informazioni: <https://manned.org/apropos>.
 
 - Cerca una parola chiave:
 
