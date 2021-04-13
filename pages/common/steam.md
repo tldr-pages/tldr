@@ -3,7 +3,7 @@
 > Video game platform by Valve.
 > More information: <https://developer.valvesoftware.com/wiki/Command_Line_Options#Steam_.28Windows.29>.
 
-- Launch Steam client with logs (incl. errors) appearing in terminal:
+- Launch Steam and show debug messages in the terminal:
 
 `steam`
 
