@@ -12,7 +12,7 @@
 
 `sudo nautilus`
 
-- Launch Nautilus and display a given directory:
+- Launch Nautilus and display a specific directory:
 
 `nautilus {{path/to/directory}}`
 
