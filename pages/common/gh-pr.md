@@ -19,7 +19,7 @@
 
 `gh pr review --approve`
 
-- Merge the pull request associated with the current branch:
+- Merge the pull request associated with the current branch interactively:
 
 `gh pr merge`
 

@@ -1,13 +1,13 @@
 # gh pr merge
 
-> Merge a pull request on GitHub.
+> Merge GitHub pull requests.
 > More information: <https://cli.github.com/manual/gh_pr_merge>.
 
-- Merge the pull request associated with the current branch, using the default merge strategy:
+- Merge the pull request associated with the current branch interactively:
 
 `gh pr merge`
 
-- Merge a specific pull request:
+- Merge a specific pull request interactively:
 
 `gh pr merge {{pr_number}}`
 
