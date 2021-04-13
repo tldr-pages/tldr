@@ -1,7 +1,7 @@
 # mocp
 
 > Music on Console (MOC) audio player.
-> More information: <https://moc.daper.net/>.
+> More information: <https://manned.org/mocp>.
 
 - Launch the MOC terminal UI:
 
@@ -10,6 +10,10 @@
 - Launch the MOC terminal UI in a specific directory:
 
 `mocp {{path/to/directory}}`
+
+- Start the MOC server in the background, without launching the MOC terminal UI:
+
+`mocp --server`
 
 - Add a specific song to the play queue while MOC is in the background:
 
@@ -23,14 +27,10 @@
 
 `mocp --clear`
 
-- Play the first song in the play queue while MOC is in the background:
+- Play or stop the currently queued song while MOC is in the background:
 
-`mocp --play`
+`mocp --{{play|stop}}`
 
-- Stop any playing songs while MOC is in the background:
-
-`mocp --stop`
-
-- Close MOC while it is in the backgroud:
+- Stop the MOC server while it is in the backgroud:
 
 `mocp --exit`
