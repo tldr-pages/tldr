@@ -7,11 +7,11 @@
 
 `steam`
 
-- Launch Steam client with a debug console tab included in-app:
+- Launch Steam with a debug console tab included in-app:
 
 `steam -console`
 
-- Log into Steam client with specified credentials:
+- Log into Steam with the specified credentials:
 
 `steam -login {{username}} {{password}}`
 
@@ -19,6 +19,6 @@
 
 `steam -tenfoot`
 
-- Shut down Steam client:
+- Exit Steam:
 
 `steam -shutdown`
