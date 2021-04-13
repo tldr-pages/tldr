@@ -5,11 +5,11 @@
 
 - "Hello world"라고 말하는 ASCII cow 출력:
 
-`cowsay 'Hello world'`
+`cowsay "Hello world"`
 
 - 풍선에 표준 입력의 텍스트 사용:
 
-`echo 'Hello' | cowsay`
+`echo "Hello" | cowsay`
 
 - 사용 가능한 모든 문자 나열:
 
@@ -17,7 +17,7 @@
 
 - "Hello"라고 말하는 ASCII dragon 출력:
 
-`cowsay -f dragon 'Hello'`
+`cowsay -f dragon "Hello"`
 
 - 돌로 된 생각하는 ASCII cow 출력:
 
