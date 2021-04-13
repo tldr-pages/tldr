@@ -3,7 +3,7 @@
 > Generate an ASCII character (by default a cow) saying or thinking something.
 > More information: <https://github.com/tnalpgge/rank-amateur-cowsay>.
 
-- Print an ASCII cow saying "Hello world\!":
+- Print an ASCII cow saying `Hello world!`:
 
 `cowsay 'Hello world!'`
 
