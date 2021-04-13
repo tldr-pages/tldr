@@ -15,18 +15,10 @@
 
 `gh pr merge --delete-branch`
 
-- Squash the commits into one commit and merge it, using the default body message:
+- Merge the current pull request with the specified merge strategy:
 
-`gh pr merge --squash`
+`gh pr merge --{{merge|squash|rebase}}`
 
-- Squash the commits into one commit and merge it, using an empty body message:
+- Squash the current pull request into one commit with the message body and merge:
 
-`gh pr merge --squash --body=""`
-
-- Rebase the commits onto the base branch:
-
-`gh pr merge --rebase`
-
-- Merge the pull request onto the base branch using a merge commit:
-
-`gh pr merge --merge`
+`gh pr merge --squash --body="{{commit_message_body}}"`
