@@ -1,7 +1,7 @@
 # sfill
 
 > Secure overwrite free space and inodes of the partition where the specified directory resides.
-> More information: <http://manpages.ubuntu.com/manpages/xenial/man1/sfill.1.html>.
+> More information: <https://manned.org/sfill>.
 
 - Overwrite free space and inodes of an USB with 38 writes (slow but secure):
 
