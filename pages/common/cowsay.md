@@ -7,7 +7,7 @@
 
 `cowsay 'Hello world!'`
 
-- Use text from standard input for the balloon:
+- Read text from stdin for the balloon:
 
 `echo 'Hello!' | cowsay`
 
