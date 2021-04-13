@@ -14,4 +14,20 @@
 
 - Launch Nautilus and display a given directory:
 
-`nautilus {{path/to/file_or_directory}}`
+`nautilus {{path/to/directory}}`
+
+- Launch Nautilus with a specific file or directory selected:
+
+`nautilus --select {{path/to/file_or_directory}}`
+
+- Launch Nautilus in a separated window:
+
+`nautilus --new-window`
+
+- Close all instances:
+
+`nautilus --quit`
+
+- Display help:
+
+`nautilus --help`
