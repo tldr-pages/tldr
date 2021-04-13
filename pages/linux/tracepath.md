@@ -1,6 +1,6 @@
 # tracepath
 
-> Trace path to a network host discovering MTU along this path.
+> Trace the path to a network host discovering MTU along this path.
 > More information: <https://manned.org/tracepath>.
 
 - Trace the path to a host:
@@ -15,7 +15,7 @@
 
 `tracepath -b {{host}}`
 
-- Specify maximum TTL (number of hops):
+- Specify a maximum TTL (number of hops):
 
 `tracepath -m {{max_hops}} {{host}}`
 
@@ -23,6 +23,6 @@
 
 `tracepath -p {{destination_port}} {{host}} `
 
-- Specify the initial packet length:
+- Specify the initial packet length (defaults to 65535 for IPv4 and 128000 for IPv6):
 
 `tracepath -l {{packet_length}} {{host}}`
