@@ -2,6 +2,7 @@
 
 > Send event codes or touchscreen gestures to an Android device.
 > Event codes can be inputting single characters, ending calls, volume up, etc.
+> More information: <https://developer.android.com/reference/android/view/KeyEvent.html#constants_1>.
 
 - Send an event code for a single character to an Android device:
 
