@@ -7,7 +7,7 @@
 
 `gh pr merge`
 
-- Merge a specific pull request interactively:
+- Merge the specified pull request, interactively:
 
 `gh pr merge {{pr_number}}`
 
