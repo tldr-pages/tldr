@@ -3,13 +3,13 @@
 > Generate an ASCII character (by default a cow) saying or thinking something.
 > More information: <https://github.com/tnalpgge/rank-amateur-cowsay>.
 
-- Print an ASCII cow saying "Hello world!":
+- Print an ASCII cow saying "Hello world\!":
 
-`cowsay "Hello world!"`
+`cowsay "Hello world\!"`
 
 - Use text from standard input for the balloon:
 
-`echo "Hello!" | cowsay`
+`echo "Hello\!" | cowsay`
 
 - List all available characters:
 
@@ -17,8 +17,8 @@
 
 - Print an ASCII dragon saying "Hello!":
 
-`cowsay -f dragon "Hello!"`
+`cowsay -f dragon "Hello\!"`
 
 - Print a stoned thinking ASCII cow:
 
-`cowthink -s "I'm just a cow, not a great thinker ..."`
+`cowthink -s "I'm just a cow, not a great thinker..."`
