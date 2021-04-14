@@ -11,7 +11,7 @@
 
 `bandwhich --show-dns`
 
-- Show total (cumulative) usages:
+- Show total (cumulative) usage:
 
 `bandwhich --total-utilization`
 
