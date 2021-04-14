@@ -19,6 +19,6 @@
 
 `minisign -Vm {{/path/to/file}} -p {{/path/to/publickey.pub}}`
 
-- Verify a file and the trusted comments in its signature, specifying a public key as a Base64 literal:
+- Verify a file and the trusted comments in its signature, specifying a public key as a Base64 encoded literal:
 
 `minisign -P "{{public_key_base64}}" -Vm {{/path/to/file}}`
