@@ -26,3 +26,7 @@
 - List files sorted by modification date (oldest first):
 
 `exa --long --sort={{modified}}`
+
+- Long list of files with header, icons, git status
+
+`exa --long --header --icons --git`
