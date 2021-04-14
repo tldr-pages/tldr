@@ -15,9 +15,9 @@
 
 `bandwhich --total-utilization`
 
-- Show network utilization for given interface (eg. {{eth0}}):
+- Show network utilization for a specific network interface:
 
-`bandwhich --interface {{interface}}`
+`bandwhich --interface {{eth0}}`
 
 - Show DNS queries with a given DNS server:
 
