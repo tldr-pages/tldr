@@ -11,10 +11,6 @@
 
 `tracepath -p {{destination_port}} {{host}} `
 
-- Print numerical IP addresses only:
-
-`tracepath -n {{host}}`
-
 - Print both hostnames and numerical IP addresses:
 
 `tracepath -b {{host}}`
@@ -26,3 +22,7 @@
 - Specify the initial packet length (defaults to 65535 for IPv4 and 128000 for IPv6):
 
 `tracepath -l {{packet_length}} {{host}}`
+
+- Use only IPv6 addresses:
+
+`tracepath -6 {{host}}`
