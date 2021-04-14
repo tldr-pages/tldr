@@ -7,7 +7,7 @@
 
 `diskonaut`
 
-- Start diskonaut for given directory:
+- Start diskonaut in a specific directory:
 
 `diskonaut {{path/to/directory}}`
 
