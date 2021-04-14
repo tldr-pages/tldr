@@ -24,7 +24,7 @@
 
 `nautilus --new-window`
 
-- Close all instances:
+- Close all Nautilus instances:
 
 `nautilus --quit`
 
