@@ -5,7 +5,7 @@
 
 - Overwrite free space and inodes of an USB with 38 writes (slow but secure):
 
-`sfill {{/media/user/mounted_usb_directory}}`
+`sfill {{/path/to/mounted_usb_directory}}`
 
 - Overwrite free space and inodes of an USB with 2 writes (fast but less secure) and show status:
 
