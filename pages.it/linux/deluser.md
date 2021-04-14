@@ -1,7 +1,7 @@
 # deluser
 
 > Rimuovi un account utente o un utente da un gruppo.
-> Maggiori informazioni: <https://manpages.debian.org/latest/adduser/deluser.8.en.html>.
+> Maggiori informazioni: <https://manpages.debian.org/latest/adduser/deluser.8.html>.
 
 - Rimuovi un utente:
 
