@@ -1,6 +1,6 @@
 # Stormlock
 
-> Stormlock is a simple centralized locking system.
+> Centralized locking system.
 > More information: <https://github.com/tmccombs/stormlock>.
 
 - Acquire a lease for resource:
