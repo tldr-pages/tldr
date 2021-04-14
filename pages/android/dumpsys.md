@@ -25,4 +25,4 @@
 
 - Specify a timeout period in seconds (defaults to 10s):
 
-`dumpsys -t {{timeout}}`
+`dumpsys -t {{seconds}}`
