@@ -17,4 +17,4 @@
 
 - Verify a file and the trusted comments in its signature using the specified public key file:
 
-`minisign -Vm {{file}} -p {{publickey.pub}}
+`minisign -Vm {{file}} -p {{publickey.pub}}`
