@@ -9,7 +9,7 @@
 
 - Overwrite free space and inodes of an USB with 2 writes (fast but less secure) and show status:
 
-`sfill -l -v {{/media/user/mounted_usb_directory}}`
+`sfill -l -v {{/path/to/mounted_usb_directory}}`
 
 - Overwrite only free spece of an USB:
 
