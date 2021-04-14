@@ -11,7 +11,7 @@
 
 `minisign -Sm {{/pfad/zu/datei}}`
 
-- Eine Datei signieren und dabei einen vertrauenswürdigen (signierten) und einen nicht vertrauenswürdigen Kommentar in der Signatur anfügen:
+- Eine Datei signieren und dabei einen vertrauenswürdigen (signierten) und einen nicht vertrauenswürdigen (unsignierten) Kommentar in der Signatur anfügen:
 
 `minisign -Sm {{/pfad/zu/datei}} -c "{{Dieser Kommentar ist nicht vertrauenswürdig.}}" -t "{{Dieser Kommentar ist vertrauenswürdig.}}"`
 
