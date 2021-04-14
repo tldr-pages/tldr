@@ -9,7 +9,7 @@
 
 - List built-in libraries based on installed development platforms and their frameworks:
 
-`pio lib buintin`
+`pio lib builtin`
 
 - Search for existing libraries:
 
