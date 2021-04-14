@@ -19,7 +19,7 @@
 
 `tracepath -m {{max_hops}} {{host}}`
 
-- Specify the initial destination port:
+- Specify the initial destination port, preferably 33434:
 
 `tracepath -p {{destination_port}} {{host}} `
 
