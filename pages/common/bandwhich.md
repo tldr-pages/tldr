@@ -1,6 +1,6 @@
 # bandwhich
 
-> A CLI utility for displaying current network utilization by process, connection and remote IP/hostname.
+> A CLI utility for displaying current network utilization by process, connection or remote IP/hostname.
 > More information: <https://github.com/imsnif/bandwhich>.
 
 - Show remote addresses table only:
