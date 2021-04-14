@@ -3,7 +3,7 @@
 > TUI disk space navigator written in Rust.
 > More information: <https://github.com/imsnif/diskonaut>.
 
-- Start diskonaut in currenty directory:
+- Start diskonaut in current directory:
 
 `diskonaut`
 
