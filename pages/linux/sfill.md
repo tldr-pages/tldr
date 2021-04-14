@@ -7,9 +7,13 @@
 
 `sfill {{/path/to/mounted_usb_directory}}`
 
-- Overwrite free space and inodes of an USB with 2 writes (fast but less secure) and show status:
+- Overwrite free space and inodes of an USB with 6 writes (fast but less secure) and show status:
 
 `sfill -l -v {{/path/to/mounted_usb_directory}}`
+
+- Overwrite free space and inodes of an USB with 1 write (very fast but insecure) and show status:
+
+`sfill -ll -v {{/path/to/mounted_usb_directory}}`
 
 - Overwrite only free spece of an USB:
 
