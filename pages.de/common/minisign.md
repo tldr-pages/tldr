@@ -9,12 +9,12 @@
 
 - Eine Datei signieren:
 
-`minisign -Sm {{datei}}`
+`minisign -Sm {{/pfad/zu/datei}}`
 
 - Eine Datei signieren und dabei einen vertrauenswürdigen (signierten) und einen nicht vertrauenswürdigen Kommentar in der Signatur anfügen:
 
-`minisign -Sm {{datei}} -c {{"Dieser Kommentar ist nicht vertrauenswürdig."}} -t {{"Dieser Kommentar ist vertrauenswürdig."}}`
+`minisign -Sm {{/pfad/zu/datei}} -c "{{Dieser Kommentar ist nicht vertrauenswürdig.}}" -t "{{Dieser Kommentar ist vertrauenswürdig.}}"`
 
 - Eine Datei und die vertrauenswürdigen Kommentare in ihrer Signatur gegen die angegebene Datei mit dem öffentlichen Schlüssel verifizieren:
 
-`minisign -Vm {{datei}} -p {{oeffentlicher_schluessel.pub}}`
+`minisign -Vm {{/pfad/zu/datei}} -p {{/pfad/zu/oeffentlicher_schluessel.pub}}`
