@@ -13,7 +13,7 @@
 
 - Overwrite only free spece of an USB:
 
-`sfill -I {{/media/user/mounted_usb_directory}}`
+`sfill -I {{/path/to/mounted_usb_directory}}`
 
 - Overwrite only free inodes of an USB:
 
