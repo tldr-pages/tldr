@@ -1,6 +1,6 @@
 # diskonaut
 
-> TUI disk space navigator written in rust.
+> TUI disk space navigator written in Rust.
 > More information: <https://github.com/imsnif/diskonaut>.
 
 - Start diskonaut in currenty directory:
