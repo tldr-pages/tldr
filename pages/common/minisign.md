@@ -1,6 +1,6 @@
 # minisign
 
-> A simple and secure utility to sign and verify files. Compatible with `signify`.
+> A dead simple tool to sign files and verify signatures.
 > More information: <https://jedisct1.github.io/minisign/>.
 
 - Generate a new keypair at the default location:

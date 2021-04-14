@@ -1,6 +1,6 @@
 # minisign
 
-> Ein einfaches und sicheres Werkzeug zum Signieren und Verifizieren von Dateien. Kompatibel mit `signify`.
+> Ein denkbar einfaches Werkzeug um Dateien zu signieren und Signaturen zu verifizieren.
 > Mehr Informationen: <https://jedisct1.github.io/minisign/>.
 
 - Ein neues Schlüsselpaar im Standardpfad generieren:
