@@ -9,7 +9,7 @@
 
 - Eine Datei signieren:
 
-`minisign -Sm {{datei}}
+`minisign -Sm {{datei}}`
 
 - Eine Datei signieren und dabei einen vertrauenswürdigen (signierten) und einen nicht vertrauenswürdigen Kommentar in der Signatur anfügen:
 
