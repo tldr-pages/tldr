@@ -3,11 +3,11 @@
 > Video game platform by Valve.
 > More information: <https://developer.valvesoftware.com/wiki/Command_Line_Options#Steam_.28Windows.29>.
 
-- Launch Steam and show debug messages in the terminal:
+- Launch Steam, printing debug messages to stdout:
 
 `steam`
 
-- Launch Steam with a debug console tab included in-app:
+- Launch Steam and enable its in-app debug console tab:
 
 `steam -console`
 
