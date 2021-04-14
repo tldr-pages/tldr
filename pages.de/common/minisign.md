@@ -21,4 +21,4 @@
 
 - Eine Datei und die vertrauenswürdigen Kommentare in ihrer Signatur gegen den angegebenen, in Base64 kodierten öffentlichen Schlüssel verifizieren:
 
-`minisign -P "{{oeffentlicher_schluessel_base64}}" -Vm {{/pfad/zu/datei}}`
+`minisign -Vm {{/pfad/zu/datei}} -P "{{oeffentlicher_schluessel_base64}}"`
