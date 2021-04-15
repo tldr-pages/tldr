@@ -13,7 +13,7 @@
 
 - Sign a file, adding a trusted (signed) and an untrusted (unsigned) comment in the signature:
 
-`minisign -Sm {{path/to/file}} -c "{{This comment is untrusted.}}" -t "{{This comment is trusted.}}"`
+`minisign -Sm {{path/to/file}} -c "{{Untrusted comment}}" -t "{{Trusted comment}}"`
 
 - Verify a file and the trusted comments in its signature using the specified public key file:
 
