@@ -16,7 +16,7 @@
 
 `lpr -P {{printer}} {{path/to/file}}`
 
-- Print either a single page (e.g. 2) or a range of pages (e.g. 2–16):
+- Print either a single page (e.g. 2) or a range of pages (e.g. 2-16):
 
 `lpr -o page-ranges={{2|2-16}} {{path/to/file}}`
 

@@ -18,7 +18,7 @@
 
 - Add one or more ebooks to the library:
 
-`calibredb add {{file1 file2 …}}`
+`calibredb add {{file1}} {{file2}}`
 
 - Recursively add all ebooks under a directory to the library:
 
@@ -26,4 +26,4 @@
 
 - Remove one or more ebooks from the library. You need ebook-ids (see above):
 
-`calibredb remove {{id1 id2 …}}`
+`calibredb remove {{id1}} {{id2}}`

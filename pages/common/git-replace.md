@@ -11,6 +11,6 @@
 
 `git replace --delete {{object}}`
 
-- Edit an object’s content interactively:
+- Interactively edit the content of an object:
 
 `git replace --edit {{object}}`

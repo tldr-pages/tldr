@@ -14,7 +14,7 @@
 
 `zgrep -c {{pattern}} {{path/to/compressed/file}}`
 
-- Display the lines which don’t have the pattern present (Invert the search function):
+- Display the lines which don't have the pattern present (Invert the search function):
 
 `zgrep -v {{pattern}} {{path/to/compressed/file}}`
 

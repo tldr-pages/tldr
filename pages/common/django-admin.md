@@ -1,6 +1,6 @@
 # django-admin
 
-> Django’s utility for administrative tasks.
+> Perform Django administrative tasks.
 > More information: <https://docs.djangoproject.com/en/3.0/ref/django-admin/>.
 
 - Create a new django project:
