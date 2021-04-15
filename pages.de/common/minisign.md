@@ -17,8 +17,8 @@
 
 - Verifiziere eine Datei und die vertrauenswürdigen Kommentare in ihrer Signatur gegen die angegebene Datei mit dem öffentlichen Schlüssel:
 
-`minisign -Vm {{pfad/zu/datei}} -p {{pfad/zu/öffentlicher_schluessel.pub}}`
+`minisign -Vm {{pfad/zu/datei}} -p {{pfad/zu/öffentlicher_schlüssel.pub}}`
 
 - Verifiziere eine Datei und die vertrauenswürdigen Kommentare in ihrer Signatur gegen den angegebenen, in Base64 codierten öffentlichen Schlüssel:
 
-`minisign -Vm {{pfad/zu/datei}} -P "{{öffentlicher_schluessel_base64}}"`
+`minisign -Vm {{pfad/zu/datei}} -P "{{öffentlicher_schlüssel_base64}}"`
