@@ -2,7 +2,7 @@
 
 > Display or dump an Ansible inventory.
 > See also: `ansible`.
-> More information: <https://www.ansible.com/>.
+> More information: <https://www.ansible.com>.
 
 - Display the default inventory:
 
