@@ -19,7 +19,7 @@
 
 `dex --autostart --dry-run --environment GNOME`
 
-- Preview the value of DesktopEntry property Name:
+- Preview the value of the DesktopEntry property `Name`:
 
 `dex --property Name {{path/to/file}}`
 
