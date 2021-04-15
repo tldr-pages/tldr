@@ -1,6 +1,6 @@
 # git describe
 
-> Créer un nom unique et lisible pour un objet à partir d’une référence disponible.
+> Créer un nom unique et lisible pour un objet à partir d'une référence disponible.
 > Plus d'informations : <https://git-scm.com/docs/git-describe>.
 
 - Créer un nom unique pour le commit courant (le nom contient le tag le plus recent, le nombre de commits additionnel, and le hash abrégé du commit) :

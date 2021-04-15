@@ -18,8 +18,8 @@
 
 - Aggiungi uno o più ebook alla libreria:
 
-`calibredb add {{file1 file2 …}}`
+`calibredb add {{file1}} {{file2}}`
 
 - Rimuovi uno o più ebook dalla libreria. Sono necessari gli ID (vedi sopra):
 
-`calibredb remove {{id1 id2 …}}`
+`calibredb remove {{id1}} {{id2}}`

@@ -26,7 +26,7 @@
 
 - Scansiona una specifica lista di porte (usa -p- per tutte le porte 1-65535):
 
-`nmap -p {{porta1,porta2,…,portaN}} {{indirizzo_o_indirizzi}}`
+`nmap -p {{porta1,porta2,porta3}} {{indirizzo_o_indirizzi}}`
 
 - Esegui scansione TCP e UDP (usa -sU per usare solo UDP, -sZ per SCTP, -sO per IP):
 

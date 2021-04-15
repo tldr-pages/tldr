@@ -18,8 +18,8 @@
 
 - 라이브러리에 전자책 하나 이상 추가하기:
 
-`calibredb add {{파일명1 파일명2 …}}`
+`calibredb add {{파일명1}} {{파일명2}}`
 
 - 라이브러리에서 전자책을 하나 이상 제거하기. 전자책 ID 필요(위를 참조하시오):
 
-`calibredb remove {{id1 id2 …}}`
+`calibredb remove {{id1}} {{id2}}`
