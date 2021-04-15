@@ -7,9 +7,9 @@
 
 `dex --autostart`
 
-- Perform an autostart/execute all programs in the specified folders:
+- Perform an autostart/execute all programs in the specified search folders:
 
-`dex --autostart --search-paths {{path/to/directory}}:{{path/to/directory}}`
+`dex --autostart --search-paths {{path/to/directory1}}:{{path/to/directory2}}:{{path/to/directory3}}:`
 
 - Preview the programs would be executed in a regular autostart:
 
