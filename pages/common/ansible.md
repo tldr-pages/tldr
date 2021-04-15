@@ -30,4 +30,4 @@
 
 - List the groups in an inventory:
 
-`ansible localhost -m debug -a 'var=groups.keys()'`
+`ansible localhost -m debug -a '{{var=groups.keys()}}'`
