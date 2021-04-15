@@ -7,9 +7,9 @@
 
 `openttd -g {{path/to/file}}`
 
-- Start with a set resolution (eg. 1920x1200):
+- Start with the specified window resolution:
 
-`openttd -r {{resolution}}`
+`openttd -r {{1920x1200)}}`
 
 - Start with a custom configuration file:
 
