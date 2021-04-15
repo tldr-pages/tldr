@@ -11,7 +11,7 @@
 
 `diskonaut {{path/to/directory}}`
 
-- Show file sizes rather than their block usage on disk:
+- Show file sizes rather than their block usage on the disk:
 
 `diskonaut --apparent-size {{path/to/directory}}`
 
