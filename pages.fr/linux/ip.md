@@ -13,6 +13,7 @@
 `ip -brief address`
 
 - Liste les interfaces sur la couche liaison de façon synthétique :
+
 `ip -brief link`
 
 - Affiche la table de routage :
