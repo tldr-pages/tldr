@@ -18,4 +18,4 @@
 
 - Dump the default inventory to a file:
 
-`ansible-inventory --list --output {{filename}}`
+`ansible-inventory --list --output {{path/to/file}}`
