@@ -7,18 +7,18 @@
 
 `minisign -G`
 
-- Eine Datei signieren:
+- Signiere eine Datei:
 
 `minisign -Sm {{pfad/zu/datei}}`
 
-- Eine Datei signieren und dabei einen vertrauenswürdigen (signierten) und einen nicht vertrauenswürdigen (unsignierten) Kommentar in der Signatur anfügen:
+- Signiere eine Datei und füge dabei einen vertrauenswürdigen (signierten) und einen nicht vertrauenswürdigen (unsignierten) Kommentar in der Signatur an:
 
 `minisign -Sm {{pfad/zu/datei}} -c "{{Nicht vertrauenswürdiger Kommentar}}" -t "{{Vertrauenswürdiger Kommentar}}"`
 
-- Eine Datei und die vertrauenswürdigen Kommentare in ihrer Signatur gegen die angegebene Datei mit dem öffentlichen Schlüssel verifizieren:
+- Verifiziere eine Datei und die vertrauenswürdigen Kommentare in ihrer Signatur gegen die angegebene Datei mit dem öffentlichen Schlüssel:
 
 `minisign -Vm {{pfad/zu/datei}} -p {{pfad/zu/oeffentlicher_schluessel.pub}}`
 
-- Eine Datei und die vertrauenswürdigen Kommentare in ihrer Signatur gegen den angegebenen, in Base64 kodierten öffentlichen Schlüssel verifizieren:
+- Verifiziere eine Datei und die vertrauenswürdigen Kommentare in ihrer Signatur gegen den angegebenen, in Base64 kodierten öffentlichen Schlüssel:
 
 `minisign -Vm {{pfad/zu/datei}} -P "{{oeffentlicher_schluessel_base64}}"`
