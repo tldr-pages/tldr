@@ -1,6 +1,6 @@
 # openttd
 
-> Open source clone of the Microprose game “Transport Tycoon Deluxe".
+> Open source clone of the Microprose game "Transport Tycoon Deluxe".
 > More information: <https://www.openttd.org>.
 
 - Load new/save game at start:
