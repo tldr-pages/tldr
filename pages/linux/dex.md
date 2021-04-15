@@ -27,6 +27,6 @@
 
 `dex --create {{path/to/file}}`
 
-- Execute a single program (with Terminal=true in the desktop file) in given terminal:
+- Execute a single program (with `Terminal=true` in the desktop file) in the given terminal:
 
 `dex --term {{terminal}} {{path/to/file}}`
