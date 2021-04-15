@@ -1,9 +1,9 @@
 # gh workflow
 
-> List, view, and run workflows in GitHub Actions.
+> List, view, and run GitHub Actions workflows.
 > More information: <https://cli.github.com/manual/gh_workflow>.
 
-- Interactively select a workflow to view latest jobs:
+- Interactively select a workflow to view the latest jobs:
 
 `gh workflow view`
 
