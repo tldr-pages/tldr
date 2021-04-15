@@ -15,7 +15,7 @@
 
 `openttd -c {{path/to/file}}`
 
-- Start with selected drivers:
+- Start with selected video, sound, and music drivers:
 
 `openttd -v {{video_driver}} -s {{sound_driver}} -m {{music_driver}}`
 
