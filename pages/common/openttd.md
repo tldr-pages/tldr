@@ -9,7 +9,7 @@
 
 - Start with the specified window resolution:
 
-`openttd -r {{1920x1200)}}`
+`openttd -r {{1920x1080}}`
 
 - Start with a custom configuration file:
 
