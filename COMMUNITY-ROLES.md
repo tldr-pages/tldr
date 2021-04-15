@@ -12,7 +12,7 @@ To this end, rather than _assigning_ roles and tasks to people,
 these guidelines aim to **recognize the work that people already do**.
 Everyone is therefore encouraged to get involved
 and contribute to the project in whatever way they prefer,
-and we will strive to **get barriers out of the way** of these contributions.
+and we will strive to **remove barriers from** these contributions.
 
 To ensure that these role transitioning processes are
 straightforward, transparent, predictable, and impartial,
@@ -30,7 +30,7 @@ exceptions can always be considered, via open community discussion.)
   they should be invited to become
   a **collaborator** in that repository.
   This means they will be able to push commits to that repository,
-  as well as merge PRs, label and close issues, among other things.
+  as well as merge PRs, and label and close issues, among other things.
 
 - **Repository collaborators who regularly perform maintenance tasks should be added as organization members.**
   (Maintenance work means facilitating contributions by other people,
@@ -45,9 +45,9 @@ exceptions can always be considered, via open community discussion.)
   of the tldr-pages organization.
   This means they will be able to
   push commits to all of the organization's repositories,
-  merge PRs, label and close issues, among other things.
-  _Note_: All members of the tldr-pages organization
-  must make their membership public.
+  merge PRs, and label and close issues, among other things.
+  **Note: All members of the tldr-pages organization
+  must make their membership public, to preserve the transparency of the community.**
 
 - **Organization members who remain active for a while should become organization owners.**
   Specifically: members of the tldr-pages organization
@@ -56,35 +56,33 @@ exceptions can always be considered, via open community discussion.)
   should be invited to become an
   [**owner**](https://help.github.com/articles/permission-levels-for-an-organization/)
   of the tldr-pages organization.
-  This means they will be able to add people to the organization,
-  manage all the organization's repositories, configure integrations, etc.
+  This means they will be able to manage organization permissions and role changes,
+  have administrative control over all of the organization's repositories, configure integrations, etc.
 
 - **These roles are temporary, and that's OK.**
-  People's interests and availability naturally change over time,
+  Peoples' interests and availability naturally change over time,
   so the project should regularly update the list of people in each role,
   in order to accurately reflect the active team managing the project
   (and to avoid conveying an undue sense of obligation
-  on people whose priorities have shifted.)
-  Specifically: If an organization member becomes _inactive for over 6 months_,
+  on those whose priorities have shifted.)
+  Specifically: if an organization member becomes _inactive for over 6 months_,
   their membership status should be equally deactivated.
   (They should nevertheless remain as collaborators
   in the repositories on which they have been active in the past.)
-  Again, this is and merely a reflection
-  of their actual involvement with the project,
+  Again, this is merely a reflection of their actual involvement with the project,
   not a demotion or punishment.
   Indeed, if they return to active participation in the project,
-  they should be added back to the organization, to reflect that fact.
+  they should be added back to the organization to reflect that fact.
 
 
 ## How to change roles
 
-*Note: this section is aimed at owners in the tldr-pages organization
-(i.e. the group of people who are able to perform these changes).*
+*Note: this section is aimed at owners in the tldr-pages organization, who are alone able perform these changes.*
 
 If you notice a contributor being particularly active,
-review their recent contributions to check whether a role transition is due,
+review their recent contributions to check whether a role change is due
 according to the criteria defined in the previous section.
-If a role change is warranted, **open a new issue proposing that role change**,
+If one is warranted, **open a new issue proposing that role change**,
 using one of the template messages below as a base.
 
 ### Adding new collaborators
@@ -96,15 +94,15 @@ using one of the template messages below as a base.
    You now have had five distinct pull requests merged (<!-- REPLACE THIS WITH LINKS TO THE RELEVANT PRs -->)!
    That qualifies you to become a collaborator in this repository, as explained in our [community roles documentation](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md).
 
-   As a collaborator, you will have commit access to the repository.
+   As a collaborator, you will have write access to the repository.
    That means you can merge pull requests, label and close issues, and perform various other maintenance tasks that are needed here and there.
    Of course, all of this is voluntary — you're welcome to contribute to the project in whatever ways suit your liking.
 
-   If you do decide to start performing maintenance tasks, though, we only ask you to get familiar with the [maintainer's guide](https://github.com/tldr-pages/tldr/blob/master/contributing-guides/maintainers-guide.md).
+   If you do decide to start performing maintenance tasks, though, we ask you to get familiar with the [maintainer's guide](https://github.com/tldr-pages/tldr/blob/master/contributing-guides/maintainers-guide.md).
 
    So, what do you say? Can we add you as a collaborator?
 
-   Either way, thanks for all your work so far!
+   Either way, thank you for all of your work so far!
    ```
 
 2. Once they acknowledge the message, and if they accept the invitation,
@@ -113,12 +111,12 @@ using one of the template messages below as a base.
 
 3. Open a PR adding their name to the "Repository collaborators" section
    in [MAINTAINERS.md](MAINTAINERS.md#repository-collaborators).
-   Make sure to include `Closes #<issue number>` in the PR description.
+   **Make sure to include `Closes #<issue number>` in the PR description.**
    The issue will then be automatically closed once the PR is merged.
 
 ### Adding new organization members
 
-1. Open an issue with the following message template (edit it as appropriate):
+1. Open an issue with the following message template (editing as appropriate):
 
    ```
    Hi, @username! After joining as a collaborator in the repository, you have been regularly performing maintenance tasks (<!-- REPLACE THIS WITH LINKS TO THE RELEVANT ISSUES AND/OR PRs -->).
@@ -138,21 +136,21 @@ using one of the template messages below as a base.
    go to https://github.com/orgs/tldr-pages/people
    and add them to the organization as a member.
 
-3. Open a PR moving their name to the "Organization members" section
+3. Open a PR adding their name to the "Organization members" section
    in [MAINTAINERS.md](MAINTAINERS.md#organization-members).
-   Make sure to include `Closes #<issue number>` in the PR description.
+   **Make sure to include `Closes #<issue number>` in the PR description.**
    The issue will then be automatically closed once the PR is merged.
 
 ### Adding new organization owners
 
-1. Open an issue with the following message template (edit it as appropriate):
+1. Open an issue with the following message template (editing as appropriate):
 
    ```
    Hi, @username! You've been an active tldr-pages organization member for over 6 months.
    Thanks for sticking around this far and helping out!
-   According to our [community roles documentation](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md), you're now eligible for becoming an owner in the organization.
+   According to our [community roles documentation](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md), you're now eligible to become an owner of the organization.
 
-   That means you will, from now on, be part of the team responsible for performing role changes (like this one!) in the community.
+   That means that from now on, you will be part of the team responsible for performing role changes (like this one!) in the community.
    When performing such role transitions, make sure to follow the process described in the [COMMUNITY-ROLES.md](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md) document.
 
    Is that OK with you? Let us know!
@@ -162,16 +160,16 @@ using one of the template messages below as a base.
 
 2. Once they acknowledge the message, and if they accept the invitation,
    go to https://github.com/orgs/tldr-pages/people
-   and change their role from "member" to "owner".
+   and change their role from "Member" to "Owner".
 
-3. Open a PR moving their name to the "Organization owners" section
+3. Open a PR adding their name to the "Organization owners" section
    in [MAINTAINERS.md](MAINTAINERS.md#organization-owners).
-   Make sure to include `Closes #<issue number>` in the PR description.
+   **Make sure to include `Closes #<issue number>` in the PR description.**
    The issue will then be automatically closed once the PR is merged.
 
 ### Removing inactive organization members
 
-1. Open an issue with the following message template (edit it as appropriate):
+1. Open an issue with the following message template (editing as appropriate):
 
    ```
    Hi, @username! As you know, our [community roles documentation](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md) defines processes for keeping the list of organization members in sync with the actual maintenance team.
@@ -191,14 +189,14 @@ using one of the template messages below as a base.
    go to https://github.com/orgs/tldr-pages/people, click the gear icon in their row,
    and select the "Convert to outside collaborator" menu entry.
 
-3. Open a PR moving their name to the "Past organization owners" section
-   in [MAINTAINERS.md](MAINTAINERS.md).
-   Make sure to include `Closes #<issue number>` in the PR description.
+3. Open a PR moving their name to the end of the "Organization owners" section
+   in [MAINTAINERS.md](MAINTAINERS.md#organization-owners).
+   **Make sure to include `Closes #<issue number>` in the PR description.**
    The issue will then be automatically closed once the PR is merged.
 
 
 ## Who can change roles
 Any member of the community can (and is encouraged to) propose role changes
-by following the process outlined [above](#how-to-change-roles).
+by following the process outlined above.
 [Owners of the tldr-pages organization](MAINTAINERS.md#current-organization-owners)
 can then perform the actual role changes.
