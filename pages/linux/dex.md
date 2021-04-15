@@ -17,7 +17,7 @@
 
 - Preview the programs would be executed in a GNOME specific autostart:
 
-`dex --autostart --dry-run --environment GNOME`
+`dex --autostart --dry-run --environment {{GNOME}}`
 
 - Preview the value of the DesktopEntry property `Name`:
 
