@@ -3,7 +3,7 @@
 > Terminal disk space navigator, written in Rust.
 > More information: <https://github.com/imsnif/diskonaut>.
 
-- Start diskonaut in current directory:
+- Start diskonaut in the current directory:
 
 `diskonaut`
 
