@@ -11,7 +11,7 @@
 
 `openttd -r {{resolution}}`
 
-- Start with a different configuration file:
+- Start with a custom configuration file:
 
 `openttd -c {{path/to/file}}`
 
