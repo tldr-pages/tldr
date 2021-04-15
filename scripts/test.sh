@@ -13,7 +13,7 @@ function run_tests {
   markdownlint pages*/**/*.md
   tldr-lint ./pages
   for f in ./pages.*; do
-    tldr-lint --ignore "TLDR015,TLDR104" ${f}
+    tldr-lint --ignore "TLDR005,TLDR004,TLDR015,TLDR104" ${f}
   done
 }
 
