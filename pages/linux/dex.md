@@ -25,7 +25,7 @@
 
 - Create a DesktopEntry for a program in the current directory:
 
-`dex --create {{path/to/file}}`
+`dex --create {{path/to/file.desktop}}`
 
 - Execute a single program (with `Terminal=true` in the desktop file) in the given terminal:
 
