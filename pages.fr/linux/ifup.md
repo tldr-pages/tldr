@@ -1,7 +1,7 @@
 # ifup
 
 > Outil utilisé pour activer des interfaces réseau.
-> Plus d'information : <https://linux.die.net/man/8/ifup>.
+> Plus d'information : <https://manpages.debian.org/latest/ifupdown/ifup.8.html>.
 
 - Active l'interface eth0 :
 
