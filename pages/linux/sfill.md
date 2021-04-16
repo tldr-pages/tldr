@@ -3,22 +3,22 @@
 > Securely overwrite the free space and inodes of the partition where the specified directory resides.
 > More information: <https://manned.org/sfill>.
 
-- Overwrite free space and inodes of an USB with 38 writes (slow but secure):
+- Overwrite free space and inodes of a USB with 38 writes (slow but secure):
 
 `sfill {{/path/to/mounted_usb_directory}}`
 
-- Overwrite free space and inodes of an USB with 6 writes (fast but less secure) and show status:
+- Overwrite free space and inodes of a USB with 6 writes (fast but less secure) and show status:
 
 `sfill -l -v {{/path/to/mounted_usb_directory}}`
 
-- Overwrite free space and inodes of an USB with 1 write (very fast but insecure) and show status:
+- Overwrite free space and inodes of a USB with 1 write (very fast but insecure) and show status:
 
 `sfill -ll -v {{/path/to/mounted_usb_directory}}`
 
-- Overwrite only free spece of an USB:
+- Overwrite only free spece of a USB:
 
 `sfill -I {{/path/to/mounted_usb_directory}}`
 
-- Overwrite only free inodes of an USB:
+- Overwrite only free inodes of a USB:
 
 `sfill -i {{/path/to/mounted_usb_directory}}`
