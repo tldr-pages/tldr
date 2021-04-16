@@ -1,6 +1,6 @@
 # sfill
 
-> Secure overwrite free space and inodes of the partition where the specified directory resides.
+> Securely overwrite the free space and inodes of the partition where the specified directory resides.
 > More information: <https://manned.org/sfill>.
 
 - Overwrite free space and inodes of an USB with 38 writes (slow but secure):
