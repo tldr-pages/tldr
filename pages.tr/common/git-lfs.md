@@ -1,36 +1,36 @@
 # git lfs
 
-> Work with large files in Git repositories.
-> More information: <https://git-lfs.github.com>.
+> Git depolarındaki büyük dosyalarla çalış.
+> Daha fazla bilgi için: <https://git-lfs.github.com>.
 
-- Initialise Git LFS:
+- Git LFS'i başlat:
 
 `git lfs install`
 
-- Track files that match a glob:
+- Belirtilen topağa uygun dosyaları izle:
 
 `git lfs track '{{*.bin}}'`
 
-- Change the Git LFS endpoint URL (useful if the LFS server is separate from the Git server):
+- Git LFS uç nokta URL'sini değiştir (LFS sunucusunun Git sunucusundan ayrı olması durumunda işlevseldir):
 
-`git config -f .lfsconfig lfs.url {{lfs_endpoint_url}}`
+`git config -f .lfsconfig lfs.url {{lfs_uç_nokta_url'si}}`
 
-- List tracked patterns:
+- İzlenen kalıpları sırala:
 
 `git lfs track`
 
-- List tracked files that have been committed:
+- Commit'lenmiş izlenen dosyaları sırala:
 
 `git lfs ls-files`
 
-- Push all Git LFS objects to the remote server (useful if errors are encountered):
+- Tğm Git LFS nesnelerini uzak sunucuya gönder (hatayla karşılaşma durumunda faydalıdır):
 
-`git lfs push --all {{remote_name}} {{branch_name}}`
+`git lfs push --all {{uzak_depo_adresi}} {{dal_ismi}}`
 
-- Fetch all Git LFS objects:
+- Tüm Git LFS nesnelerini çek:
 
 `git lfs fetch`
 
-- Checkout all Git LFS objects:
+- Tüm Git LFS nesnelerini kontrol et:
 
 `git lfs checkout`
