@@ -1,29 +1,29 @@
 # git-imerge
 
-> Perform a merge or rebase between two Git branches incrementally.
-> Conflicts between branches are tracked down to pairs of individual commits, to simplify conflict resolution.
-> More information: <https://github.com/mhagger/git-imerge>.
+> İki git dalı arasında aşamalı olarak birleştirme veya taban değiştirme işlemlerini uygula.
+> Dallar arasındaki uyuşmazlıklar özel commitler ile bölüşülerek uyuşmazlıkları çözmek kolaylaştırılır.
+> Daha fazla bilgi için: <https://github.com/mhagger/git-imerge>.
 
-- Start imerge-based rebase (checkout the branch to be rebased, first):
+- imerge bazlı taban değiştirme işlemini başlat (işlemden önce tabanı değiştirilmek istenen dalı kontrol et):
 
-`git imerge rebase {{branch_to_rebase_onto}}`
+`git imerge rebase {{yerine_geçilecek_dal}}`
 
-- Start imerge-based merge (checkout the branch to merge into, first):
+- imerge bazlı birleştirme işlemini başlat (işlemden önce birleştirilmek istenen dalı kontrol et):
 
-`git imerge merge {{branch_to_be_merged}}`
+`git imerge merge {{birleştirilecek_dal}}`
 
-- Show ASCII diagram of in-progress merge or rebase:
+- Devam eden birleştirme ve taban değiştirme işlemlerinin ASCII diagramını göster:
 
 `git imerge diagram`
 
-- Continue imerge operation after resolving conflicts (`git add` the conflicted files, first):
+- Uyuşmazlıkları çözdükten sonra imerge işlemine devam et (önce `git add` komutu ile uyuşmayan dosyaları ekle):
 
 `git imerge continue --no-edit`
 
-- Wrap up imerge operation, after all conflicts are resolved:
+- Tüm uyuşmazlıklar çözüldükten sonra imerge işlemini sonlandır:
 
 `git imerge finish`
 
-- Abort imerge operation, and return to the previous branch:
+- imerge işlemini sonlandır ve belirtilen eski bir dala geri dön:
 
-`git-imerge remove && git checkout {{previous_branch}}`
+`git-imerge remove && git checkout {{eski_dal}}`
