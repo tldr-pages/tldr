@@ -2,7 +2,7 @@
 
 > Gestionnaire de groupes d'ordinateurs à distance depuis SSH.
 > Utiliser le fichier `/etc/ansible/hosts` pour ajouter de nouveaux groupes/hôtes.
-> Plus d'information : <https://www.ansible.com>.
+> Plus d'informations : <https://www.ansible.com>.
 
 - Lister les hôtes appartenant à un groupe :
 
