@@ -40,6 +40,8 @@ If you are an owner of the organization, you can see an automated list
   [19 October 2020](https://github.com/tldr-pages/tldr/issues/4763) — present
 - **Sahil Dhiman ([@sahilister](https://github.com/sahilister))**:
   [27 November 2020](https://github.com/tldr-pages/tldr/issues/4994) - present
+- **Florian Benscheidt ([@Waples](https://github.com/Waples))**:
+  [16 April 2021](https://github.com/tldr-pages/tldr/issues/5774) - present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
@@ -62,6 +64,7 @@ If you are an owner of the organization, you can see an automated list
   [3 March 2021](https://github.com/tldr-pages/tldr/issues/5345) — [7 April 2021](https://github.com/tldr-pages/tldr/issues/5702)
 - Marcher Simon ([@marchersimon](https://github.com/marchersimon)):
   [9 March 2021](https://github.com/tldr-pages/tldr/issues/5390) — [9 April 2021](https://github.com/tldr-pages/tldr/issues/5722)
+
 
 ## Organization members
 
