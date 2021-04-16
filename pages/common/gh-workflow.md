@@ -17,7 +17,7 @@
 
 - Display the YAML definition for a specific Git branch or tag:
 
-`gh workflow view {{id|workflow_name|filename.yml}} --ref {{branch__or_tag_name}} --yaml`
+`gh workflow view {{id|workflow_name|filename.yml}} --ref {{branch_or_tag_name}} --yaml`
 
 - List workflow files (use `--all` to include disabled workflows):
 
