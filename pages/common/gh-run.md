@@ -27,7 +27,7 @@
 
 `gh run watch`
 
-- Display the jobs for a run and wait until is done:
+- Display the jobs for a run and wait until it's done:
 
 `gh run watch {{workflow_run_number}}`
 
