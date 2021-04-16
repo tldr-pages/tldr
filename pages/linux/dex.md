@@ -21,7 +21,7 @@
 
 - Preview the value of the DesktopEntry property `Name`:
 
-`dex --property {{Name}} {{path/to/file}}`
+`dex --property {{Name}} {{path/to/file.desktop}}`
 
 - Create a DesktopEntry for a program in the current directory:
 
