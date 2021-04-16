@@ -5,7 +5,7 @@
 
 - A preferred way to trace the path to a host:
 
-`tracepath -p 33434 {{host}}`
+`tracepath -p {{33434}} {{host}}`
 
 - Specify the initial destination port, useful with non-standard firewall settings:
 
