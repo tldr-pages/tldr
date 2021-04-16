@@ -29,4 +29,4 @@
 
 - Execute a single program (with `Terminal=true` in the desktop file) in the given terminal:
 
-`dex --term {{terminal}} {{path/to/file}}`
+`dex --term {{terminal}} {{path/to/file.desktop}}`
