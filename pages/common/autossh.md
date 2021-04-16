@@ -16,7 +16,7 @@
 
 `autossh -f -M {{monitor_port}} -N "{{ssh_command}}"`
 
-- Run in the background, with no monitoring port, instead sending SSH keep-alive packets every 10 seconds to detect failure:
+- Run in the background, with no monitoring port, and instead send SSH keep-alive packets every 10 seconds to detect failure:
 
 `autossh -f -M 0 -N -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3" "{{ssh_command}}"`
 
