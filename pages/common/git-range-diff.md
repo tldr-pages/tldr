@@ -3,10 +3,14 @@
 > Compare two commit ranges (e.g. two versions of a branch).
 > More information: <https://git-scm.com/docs/git-range-diff>.
 
-- Diff the diffs of commit1 and commit2:
+- Diff the changes in commit1 and commit2:
 
-`git range-diff {{commit1}}~..{{commit1} {{commit2}}~..{{commit2}}`
+`git range-diff {{commit1}}^! {{commit2}}^!`
 
-- Diff the changes of ours and theirs from their common ancestor:
+- Diff the changes of ours and theirs from their common ancestor, e.g. after an interactive rebase:
 
 `git range-diff {{theirs}}...{{ours}}`
+
+- Diff the changes of two commit ranges, e.g. to check whether conflicts have been resolved appropriately when rebasing commits from `base1` to `base2`:
+
+`git range-diff {{base1}}..{{rev1}} {{base2}}..{{rev2}}`
