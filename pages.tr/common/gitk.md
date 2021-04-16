@@ -1,24 +1,24 @@
 # gitk
 
-> A graphical Git repository browser.
-> More information: <https://git-scm.com/docs/gitk>.
+> Görsel Git depo tarayıcısı.
+> Daha fazla bilgi için: <https://git-scm.com/docs/gitk>.
 
-- Show the repository browser for the current Git repository:
+- Mevcut Git deposu için depo tarayıcısını göster:
 
 `gitk`
 
-- Show repository browser for a specific file or directory:
+- Belirtilmiş dosya veya dizin için depo tarayıcısını göster:
 
 `gitk {{path/to/file_or_directory}}`
 
-- Show commits made since 1 week ago:
+- 1 hafta önceden beri yapılan commit'leri göster:
 
 `gitk --since="{{1 week ago}}"`
 
-- Show commits older than 1/1/2016:
+- 1/1/2016 tarihinden önceki commit'leri göster:
 
-`gitk --until="{{1/1/2015}}"`
+`gitk --until="{{1/1/2016}}"`
 
-- Show at most 100 changes in all branches:
+- Tüm dallarda en fazla 100 değişiklik göster:
 
 ` gitk --max-count={{100}} --all`
