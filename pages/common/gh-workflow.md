@@ -25,7 +25,7 @@
 
 - Run a manual workflow with parameters:
 
-`gh workflow run {{id|workflow_name|filename.yml}} -f {{param1}}={{value1}} -f {{param2}}={{value2}}`
+`gh workflow run {{id|workflow_name|filename.yml}} --raw-field {{param1}}={{value1}} --raw-field {{param2}}={{value2}}`
 
 - Run a manual workflow using a specific branch or tag with JSON parameters from stdin:
 
