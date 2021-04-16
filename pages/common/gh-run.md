@@ -19,7 +19,7 @@
 
 `gh run view --job={{job_number}} --log`
 
-- Check workflow and exit with non-zero status if run failed:
+- Check a specific workflow and exit with a non-zero status if the run failed:
 
 `gh run view {{workflow_run_number}} --exit-status && {{echo "run pending or passed"}}`
 
