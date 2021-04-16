@@ -3,7 +3,11 @@
 > Open source clone of the Microprose game "Transport Tycoon Deluxe".
 > More information: <https://www.openttd.org>.
 
-- Load new/save game at start:
+- Start a new game:
+
+`openttd -g`
+
+- Load save game at start:
 
 `openttd -g {{path/to/file}}`
 
