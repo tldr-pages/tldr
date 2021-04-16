@@ -14,7 +14,7 @@
 
 - Ignore one or more error types:
 
-`shellcheck --exclude {{SC1009,SC1073}} {{path/to/file.sh}}`
+`shellcheck --exclude {{SC1009,SC1073}} {{path/to/script.sh}}`
 
 - Also check any sourced shell scripts:
 
