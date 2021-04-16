@@ -3,7 +3,7 @@
 > List, view, and run GitHub Actions workflows.
 > More information: <https://cli.github.com/manual/gh_workflow>.
 
-- Interactively select a workflow to view the latest jobs:
+- Interactively select a workflow to view the latest jobs for:
 
 `gh workflow view`
 
