@@ -15,7 +15,7 @@
 
 `bandwhich --total-utilization`
 
-- Show network utilization for a specific network interface:
+- Show the network utilization for a specific network interface:
 
 `bandwhich --interface {{eth0}}`
 
