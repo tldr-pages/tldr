@@ -1,12 +1,12 @@
 # git ignore
 
-> Generate .gitignore files from predefined templates.
-> More information: <https://docs.gitignore.io/install/command-line>.
+> Önceden belirlenmiş şablonlarla .gitignore dosyaları oluştur.
+> Daha fazla bilgi için: <https://docs.gitignore.io/install/command-line>.
 
-- List available templates:
+- Mevzut şablonları sırala:
 
 `git ignore list`
 
-- Generate a .gitignore template:
+- Bir .gitignore şablonu oluştur:
 
-`git ignore {{item_a,item_b,item_n}}`
+`git ignore {{nesne_a,nesne_b,nesne_n}}`
