@@ -1,24 +1,24 @@
 # git help
 
-> Display help information about Git.
-> More information: <https://git-scm.com/docs/git-help>.
+> Git hakkında yardım bilgisi görüntüleme aracı.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-help>.
 
-- Display help about a specific Git subcommand:
+- Belirtilmiş Git alt komutu hakkında yardım bilgisi göster:
 
-`git help {{subcommand}}`
+`git help {{komut_ismi}}`
 
-- Display help about a specific Git subcommand in a web browser:
+- Belirtilmiş Git alt komutu hakkında yardım bilgisini bir ağ tarayıcısında göster:
 
-`git help --web {{subcommand}}`
+`git help --web {{komut_ismi}}`
 
-- Display a list of all available Git subcommands:
+- Tüm mevcut Git alt komutlarını sırala:
 
 `git help --all`
 
-- List the available guides:
+- Mevcut rehberleri sırala:
 
 `git help --guide`
 
-- List all possible configuration variables:
+- Mümkün olan tüm konfigürasyon değişkenlerini sırala:
 
 `git help --config`
