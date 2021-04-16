@@ -7,17 +7,17 @@
 
 `dex --autostart`
 
-- Perform an autostart/execute all programs in the specified search folders:
+- Execute all programs in the specified folders:
 
 `dex --autostart --search-paths {{path/to/directory1}}:{{path/to/directory2}}:{{path/to/directory3}}:`
+
+- Preview the programs would be executed in a GNOME specific autostart:
+
+`dex --autostart --environment {{GNOME}}`
 
 - Preview the programs would be executed in a regular autostart:
 
 `dex --autostart --dry-run`
-
-- Preview the programs would be executed in a GNOME specific autostart:
-
-`dex --autostart --dry-run --environment {{GNOME}}`
 
 - Preview the value of the DesktopEntry property `Name`:
 
