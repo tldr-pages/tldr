@@ -10,7 +10,7 @@
 
 - Check a shell script interpreting it as the specified shell dialect (overrides the shebang at the top of the script):
 
-`shellcheck --shell {{sh|bash|dash|ksh}} {{path/to/file.sh}}`
+`shellcheck --shell {{sh|bash|dash|ksh}} {{path/to/script.sh}}`
 
 - Ignore one or more error types:
 
