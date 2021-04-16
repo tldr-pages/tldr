@@ -1,7 +1,7 @@
 # ifdown
 
 > Désactive des interfaces réseau.
-> Plus d'information : <https://linux.die.net/man/8/ifdown>.
+> Plus d'information : <https://manned.org/ifdown>.
 
 - Désactive l'interface eth0 :
 
