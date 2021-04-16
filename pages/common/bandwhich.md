@@ -21,4 +21,4 @@
 
 - Show DNS queries with a given DNS server:
 
-`bandwhich --show-dns --dns-server {{dns-server}}`
+`bandwhich --show-dns --dns-server {{dns_server_ip}}`
