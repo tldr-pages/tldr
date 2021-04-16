@@ -1,36 +1,36 @@
 # git log
 
-> Show a history of commits.
-> More information: <https://git-scm.com/docs/git-log>.
+> Commit geçmişini göster.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-log>.
 
-- Show the sequence of commits starting from the current one, in reverse chronological order of the Git repository in the current working directory:
+- Mevcut olandan başlayarak mevcut çalışma ortamındaki git deposunun commit silsilesini ters kronolojik düzende göster:
 
 `git log`
 
-- Show the history of a particular file or directory, including differences:
+- Belirtilen dosya veya dizinin tarihini farklılıklarla beraber göster:
 
-`git log -p {{path/to/file_or_directory}}`
+`git log -p {{dosya/veya/dizin/konumu}}`
 
-- Show an overview of which file(s) changed in each commit:
+- Her bir commit'de hangi dosya(lar)ın değiştiğinin önizlemesini göster:
 
 `git log --stat`
 
-- Show a graph of commits in the current branch using only the first line of each commit message:
+- Mevcut daldaki commit'lerin mesajlarının ilk satırını içeren bir çizelge göster:
 
 `git log --oneline --graph`
 
-- Show a graph of all commits, tags and branches in the entire repo:
+- Bir depodaki commit, etiket ve dalların tamamını içeren bir çizelge göster:
 
 `git log --oneline --decorate --all --graph`
 
-- Show only commits whose messages include a given string (case-insensitively):
+- Mesajları yalnızca belirtilen ifadeleri içeren commit'leri göster (büyük-küçük harfe duyarsız):
 
-`git log -i --grep {{search_string}}`
+`git log -i --grep {{aranan_ifade}}`
 
-- Show the last N commits from a certain author:
+- Belirtilmiş yazardan gelen, belirtilen sayıda commit göster:
 
-`git log -n {{number}} --author={{author}}`
+`git log -n {{sayı}} --author={{yazar}}`
 
-- Show commits between two dates:
+- İki tarih arasında yapılmış commit'leri göster:
 
-`git log --before={{date}} --after={{date}}`
+`git log --before={{tarih}} --after={{tarih}}`
