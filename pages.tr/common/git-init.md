@@ -1,16 +1,16 @@
 # git init
 
-> Initializes a new local Git repository.
-> More information: <https://git-scm.com/docs/git-init>.
+> Yeni bir yerel Git deposu başlat.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-init>.
 
-- Initialize a new local repository:
+- Yeni bir yerel depo başlat:
 
 `git init`
 
-- Initialize a repository using SHA256 for object hashes (requires Git version 2.29+):
+- Bir depoyu nesne verileri için SHA256 formatı ile başlat (Git versiyonu 2.29 veya üstü olmalıdır):
 
 `git init --object-format={{sha256}}`
 
-- Initialize a barebones repository, suitable for use as a remote over ssh:
+- Yalın bir depo başlat:
 
 `git init --bare`
