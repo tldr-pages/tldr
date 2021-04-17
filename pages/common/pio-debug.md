@@ -3,7 +3,7 @@
 > Debug PlatformIO projects.
 > More information: <https://docs.platformio.org/en/latest/core/userguide/cmd_debug.html>.
 
-- Debug the PlatformIO project in the working directory:
+- Debug the PlatformIO project in the current directory:
 
 `pio debug`
 
