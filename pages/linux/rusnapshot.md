@@ -5,7 +5,7 @@
 
 - Create a snapshot using a config file:
 
-`sudo rusnapshot --config {{path/to/config.toml}} --cr`
+sudo rusnapshot --config {{path/to/config.toml}} --cr
 
 - List created snapshots:
 
@@ -18,3 +18,12 @@
 - Delete all `hourly` snapshots:
 
 `sudo rusnapshot --config {{path/to/config.toml}} --list --keep {{0}} --clean --kind {{hourly}}`
+
+
+- Create a read-write snapshot:
+
+`sudo rusnapshot --config {{path/to/config.toml}} --cr --rw`
+
+- Restore a snapshot to a subvolume:
+
+`sudo rusnapshot --config {{path/to/config.toml}} --id {{snapshot_id}} --restore --from {{path/to/subvolume}}`
