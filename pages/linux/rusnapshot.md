@@ -13,7 +13,7 @@
 
 - Delete snapshot by id or the name of the snapshot:
 
-`sudo rusnapshot -c {{/path/to/config.toml}} --del --id idprovidedbyrusnapshot`
+`sudo rusnapshot -c {{/path/to/config.toml}} --del --id {{snapshot_id}}`
 
 - Delete all snapshots of [kind] three-hours:
 
