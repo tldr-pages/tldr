@@ -17,4 +17,4 @@
 
 - Delete all snapshots of [kind] three-hours:
 
-`sudo rusnapshot --config {{/path/to/config.toml}}  -l --keep 0 --clean --kind three-hours`
+`sudo rusnapshot --config {{/path/to/config.toml}}  --list --keep 0 --clean --kind {{three-hours}}`
