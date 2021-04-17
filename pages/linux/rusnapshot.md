@@ -11,7 +11,7 @@
 
 `sudo rusnapshot -c {{/path/to/config.toml}} -l`
 
-- Delete snapshot by id or the name of the snapshot:
+- Delete a snapshot by ID or the name of the snapshot:
 
 `sudo rusnapshot -c {{/path/to/config.toml}} --del --id {{snapshot_id}}`
 
