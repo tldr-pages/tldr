@@ -9,7 +9,7 @@
 
 - List created snapshots:
 
-`sudo rusnapshot --config {{/path/to/config.toml}} --list`
+`sudo rusnapshot --config {{path/to/config.toml}} --list`
 
 - Delete a snapshot by ID or the name of the snapshot:
 
