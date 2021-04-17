@@ -1,6 +1,7 @@
 # apt
 
 > Gerenciador de pacotes das distribuições baseadas em Debian.
+> Mais informações: <https://manpages.debian.org/latest/apt/apt.8.html>.
 
 - Atualizar a lista de pacotes disponíveis (recomenda-se executá-lo antes de outros comandos `apt`):
 
