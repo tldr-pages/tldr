@@ -1,7 +1,7 @@
 # tee
 
 > Lee desde la entrada estándar y escribe a la salida estándar a la vez que a archivos o comandos.
-> Más información: <https://www.man7.org/linux/man-pages/man1/tee.1.html>
+> Más información: <https://manned.org/tee.1>
 
 - Copia la entrada estándar al archivo, reemplazando su contenido, y también ala salida estándar:
 

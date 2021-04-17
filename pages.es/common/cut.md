@@ -1,7 +1,7 @@
 # cut
 
 > Recorta campos provenientes de la entrada estándar o de archivos.
-> Más información: <https://www.man7.org/linux/man-pages/man1/cut.1.html> 
+> Más información: <https://manned.org/cut.1> 
 
 - Corta los primeros 16 caracteres de cada línea de la entrada estándar:
 
