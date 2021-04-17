@@ -1,7 +1,7 @@
 # wc
 
-> Cuenta líneas, palabras, caracteres, etc.
-> Más información: <https://www.man7.org/linux/man-pages/man1/wc.1.html>
+> Cuenta líneas, palabras, o bytes.
+> Más información: <https://www.gnu.org/software/coreutils/wc>
 
 - Cuenta las líneas en un archivo:
 
@@ -15,7 +15,7 @@
 
 `wc -c {{ruta/al/archivo}}`
 
-- Cuenta caracteres en un archivo (tomando sets de caracteres multi-byte en cuenta):
+- Cuenta caracteres en un archivo (considerando los caracteres de varios bytes):
 
 `wc -m {{ruta/al/archivo}}`
 

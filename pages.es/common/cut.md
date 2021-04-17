@@ -1,6 +1,6 @@
 # cut
 
-> Corta campos provenientes de la entrada estándar o de archivos.
+> Recorta campos provenientes de la entrada estándar o de archivos.
 > Más información: <https://www.man7.org/linux/man-pages/man1/cut.1.html> 
 
 - Corta los primeros 16 caracteres de cada línea de la entrada estándar:
@@ -19,7 +19,7 @@
 
 `cut -d'{{:}}' -f{{5}}`
 
-- Corta el segundo y décimo campo de cada línea, usando los punto y comas como delimitadores:
+- Corta el segundo y décimo campo de cada línea, usando los punto y coma como delimitadores:
 
 `cut -d'{{;}}' -f{{2,10}}`
 

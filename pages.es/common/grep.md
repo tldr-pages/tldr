@@ -12,7 +12,7 @@
 
 `grep -F {{patron_exacto}} {{ruta/al/archivo}}`
 
-- Busca un patrón [R]ecursivamente en el directorio actual, mostrando los correspondientes [n]úmeros de línea, [I]gnorando archivos que no son de texto:
+- Busca un patrón [R]ecursivamente en el directorio actual, mostrando los correspondientes [n]úmeros de línea, [I]gnorando archivos binarios:
 
 `grep -RIn {{patron}} .`
 
