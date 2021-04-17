@@ -5,7 +5,7 @@
 
 - Create a snapshot using a config file:
 
-`sudo rusnapshot -c {{/path/to/config.toml}} --cr`
+`sudo rusnapshot --config {{/path/to/config.toml}} --cr`
 
 - List created snapshots:
 
