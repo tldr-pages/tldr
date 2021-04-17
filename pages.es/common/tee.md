@@ -1,19 +1,16 @@
 # tee
 
-> Read from standard input and write to standard output and files (or commands).
+> Lee desde la entrada estándar y escribe a la salida estándar a la vez que a archivos o comandos.
+> Más información: <https://www.man7.org/linux/man-pages/man1/tee.1.html>
 
-- Copy standard input to each FILE, and also to standard output:
+- Copia la entrada estándar al archivo, reemplazando su contenido, y también ala salida estándar:
 
-`echo "example" | tee {{FILE}}`
+`echo {{ejemplo}} | tee {{ruta/al/archivo}}`
 
-- Append to the given FILEs, do not overwrite:
+- Anexa la entrada estándar al archivo, sin reemplazar:
 
-`echo "example" | tee -a {{FILE}}`
+`echo {{ejemplo}} | tee -a {{ruta/al/archivo}}`
 
-- Print standard input to the terminal, and also pipe it into another program for further processing:
+- Imprime la entrada estándar a la terminal, y también lo reenvía a otro programa para posterior procesamiento:
 
-`echo "example" | tee {{/dev/tty}} | {{xargs printf "[%s]"}}`
-
-- Create a directory called "example", count the number of characters in "example" and write "example" to the terminal:
-
-`echo "example" | tee >(xargs mkdir) >(wc -c)`
+`echo {{ejemplo}} | tee {{/dev/tty}} | {{xargs printf "[%s]"}}`

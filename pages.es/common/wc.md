@@ -1,23 +1,24 @@
 # wc
 
-> Count lines, words, or bytes.
+> Cuenta líneas, palabras, caracteres, etc.
+> Más información: <https://www.man7.org/linux/man-pages/man1/wc.1.html>
 
-- Count lines in file:
+- Cuenta las líneas en un archivo:
 
-`wc -l {{file}}`
+`wc -l {{ruta/al/archivo}}`
 
-- Count words in file:
+- Cuenta las palabras en un archivo:
 
-`wc -w {{file}}`
+`wc -w {{ruta/al/archivo}}`
 
-- Count characters (bytes) in file:
+- Cuenta caracteres (bytes) en un archivo:
 
-`wc -c {{file}}`
+`wc -c {{ruta/al/archivo}}`
 
-- Count characters in file (taking multi-byte character sets into account):
+- Cuenta caracteres en un archivo (tomando sets de caracteres multi-byte en cuenta):
 
-`wc -m {{file}}`
+`wc -m {{ruta/al/archivo}}`
 
-- Use standard input to count lines, words and characters (bytes) in that order:
+- Usa la entrada estandar para contar líneas, palabras o caracteres (bytes), en ese orden:
 
 `{{find .}} | wc`

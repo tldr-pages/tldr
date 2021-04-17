@@ -1,36 +1,37 @@
 # grep
 
-> Matches patterns in input text.
-> Supports simple patterns and regular expressions.
+> Encuentra coincidencias en el texto introducido.
+> Soporta patrones simples y expresiones regulares.
+> Más información: <https://www.man7.org/linux/man-pages/man1/grep.1.html>
 
-- Search for a pattern within a file:
+- Busca un patrón dentro de un archivo:
 
-`grep {{search_pattern}} {{path/to/file}}`
+`grep {{patron}} {{ruta/al/archivo}}`
 
-- Search for an exact string:
+- Busca un patrón exacto:
 
-`grep -F {{exact_string}} {{path/to/file}}`
+`grep -F {{patron_exacto}} {{ruta/al/archivo}}`
 
-- Search for a pattern [R]ecursively in the current directory, showing matching line [n]umbers, [I]gnoring non-text files:
+- Busca un patrón [R]ecursivamente en el directorio actual, mostrando los correspondientes [n]úmeros de línea, [I]gnorando archivos que no son de texto:
 
-`grep -RIn {{search_pattern}} .`
+`grep -RIn {{patron}} .`
 
-- Use extended regular expressions (supporting `?`, `+`, `{}`, `()` and `|`), in case-insensitive mode:
+- Usa expresiones regulares extendidas (soportando `?`, `+`, `{}`, `()` y `|`), sin importar mayúsculas o minúsculas:
 
-`grep -Ei {{search_pattern}} {{path/to/file}}`
+`grep -Ei {{patron}} {{ruta/al/archivo}}`
 
-- Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match:
+- Imprime 3 líneas de [C]ontexto alrededor, anteriores ([B]), o posteriores ([A]) tras la coincidencia:
 
-`grep -{{C|B|A}} 3 {{search_pattern}} {{path/to/file}}`
+`grep -{{C|B|A}} 3 {{patron}} {{ruta/al/archivo}}`
 
-- Print file name with the corresponding line number for each match:
+- Imprime el nombre del archivo con la línea correspondiente a cada coincidencia:
 
-`grep -Hn {{search_pattern}} {{path/to/file}}`
+`grep -Hn {{patron}} {{ruta/al/archivo}}`
 
-- Use the standard input instead of a file:
+- Usa la entrada estándar en vez de un archivo:
 
-`cat {{path/to/file}} | grep {{search_pattern}}`
+`cat {{ruta/al/archivo}} | grep {{patron}}`
 
-- In[v]ert match for excluding specific strings:
+- Encuentra coincidencias in[v]ersas al patrón (aquellas líneas que no lo contengan):
 
-`grep -v {{search_pattern}}`
+`grep -v {{patron}}`
