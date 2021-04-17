@@ -1,6 +1,7 @@
 # fg
 
 > Bringt Prozesse in den Vordergrund.
+> Mehr Informationen: <https://manned.org/fg>.
 
 - Bringe zuletzt suspendierten Prozess in den Vordergrund:
 

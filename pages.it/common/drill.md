@@ -1,6 +1,7 @@
 # drill
 
 > Esegui varie query DNS.
+> Maggiori informazioni: <https://manned.org/drill>.
 
 - Mostra gli IP associati ad un hostname (record A):
 

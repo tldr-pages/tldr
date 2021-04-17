@@ -1,6 +1,7 @@
 # dot
 
 > Strumento da linea di comando per produrre disegni a livelli di grafi orientati.
+> Maggiori informazioni: <https://www.graphviz.org/pdf/dotguide.pdf>.
 
 - Renderizza un'immagine determinando il nome del file di output dal nome del file di input ed il formato:
 

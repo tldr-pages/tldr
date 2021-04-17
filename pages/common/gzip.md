@@ -1,6 +1,7 @@
 # gzip
 
 > Compress/uncompress files with gzip compression (LZ77).
+> More information: <https://www.gnu.org/software/gzip/manual/gzip.html>.
 
 - Compress a file, replacing it with a gzipped compressed version:
 

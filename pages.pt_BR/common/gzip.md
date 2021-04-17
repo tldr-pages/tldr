@@ -1,7 +1,7 @@
 # gzip
 
 > Ferramenta de compactação de arquivos com compressão gzip.
-> Mais informações: <https://www.gnu.org/software/gzip/>.
+> Mais informações: <https://www.gnu.org/software/gzip/manual/gzip.html>.
 
 - Alterar compressão de um arquivo compactado com compressão gzip:
 
