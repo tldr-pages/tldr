@@ -9,20 +9,20 @@
 
 - List created snapshots:
 
-`sudo rusnapshot --config {{path/to/config.toml}} --list`
+`sudo rusnapshot -c {{path/to/config.toml}} --list`
 
 - Delete a snapshot by ID or the name of the snapshot:
 
-`sudo rusnapshot --config {{path/to/config.toml}} --del --id {{snapshot_id}}`
+`sudo rusnapshot -c {{path/to/config.toml}} --del --id {{snapshot_id}}`
 
 - Delete all `hourly` snapshots:
 
-`sudo rusnapshot --config {{path/to/config.toml}} --list --keep {{0}} --clean --kind {{hourly}}`
+`sudo rusnapshot -c {{path/to/config.toml}} --list --keep {{0}} --clean --kind {{hourly}}`
 
 - Create a read-write snapshot:
 
-`sudo rusnapshot --config {{path/to/config.toml}} --cr --rw`
+`sudo rusnapshot -c {{path/to/config.toml}} --cr --rw`
 
 - Restore a snapshot:
 
-`sudo rusnapshot --config {{path/to/config.toml}} --id {{snapshot_id}} --restore`
+`sudo rusnapshot -c {{path/to/config.toml}} --id {{snapshot_id}} --restore`
