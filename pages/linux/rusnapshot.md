@@ -19,7 +19,6 @@
 
 `sudo rusnapshot --config {{path/to/config.toml}} --list --keep {{0}} --clean --kind {{hourly}}`
 
-
 - Create a read-write snapshot:
 
 `sudo rusnapshot --config {{path/to/config.toml}} --cr --rw`
