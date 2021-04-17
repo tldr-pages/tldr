@@ -15,6 +15,6 @@
 
 `sudo rusnapshot --config {{/path/to/config.toml}} --del --id {{snapshot_id}}`
 
-- Delete all snapshots of [kind] three-hours:
+- Delete all snapshots of [kind] hourly:
 
-`sudo rusnapshot --config {{/path/to/config.toml}} --list --keep {{0}} --clean --kind {{three-hours}}`
+`sudo rusnapshot --config {{/path/to/config.toml}} --list --keep {{0}} --clean --kind {{hourly}}`
