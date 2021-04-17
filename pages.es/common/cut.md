@@ -1,7 +1,7 @@
 # cut
 
 > Recorta campos provenientes de la entrada estándar o de archivos.
-> Más información: <https://manned.org/cut.1> 
+> Más información: <https://www.gnu.org/software/coreutils/cut>
 
 - Corta los primeros 16 caracteres de cada línea de la entrada estándar:
 
