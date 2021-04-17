@@ -23,6 +23,6 @@
 
 `sudo rusnapshot --config {{path/to/config.toml}} --cr --rw`
 
-- Restore a snapshot to a subvolume:
+- Restore a snapshot:
 
-`sudo rusnapshot --config {{path/to/config.toml}} --id {{snapshot_id}} --restore --from {{path/to/subvolume}}`
+`sudo rusnapshot --config {{path/to/config.toml}} --id {{snapshot_id}} --restore`
