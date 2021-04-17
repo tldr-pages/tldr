@@ -2,6 +2,7 @@
 
 > Lexical analyser generator. Based on `lex`.
 > Given the specification for a lexical analyser, generates C code implementing it.
+> More information: <https://manned.org/flex>.
 
 - Generate an analyser from a flex file:
 
