@@ -11,11 +11,11 @@
 
 `age-keygen --output {{pfad/zu/schlüsseldatei}}`
 
-- Verschlüssle eine Datei zu einem oder mehreren öffentlichen Schlüsseln, die als Zeichenketten eingegeben werden:
+- Verschlüssle eine Datei zu einem oder mehr öffentlichen Schlüsseln, die als Zeichenketten eingegeben werden:
 
 `age --output {{pfad/zu/verschlüsselter_datei}} --recipient {{öffentlicher_schlüssel_1}} --recipient {{öffentlicher_schlüssel_2}} {{pfad/zu/unverschlüsselter_datei}}`
 
-- Verschlüssle eine Datei zu einem oder mehreren öffentlichen Schlüsseln, die in einer Empfängerdatei angegeben sind:
+- Verschlüssle eine Datei zu einem oder mehr öffentlichen Schlüsseln, die in einer Empfängerdatei angegeben sind:
 
 `age --output {{pfad/zu/verschlüsselter_datei}} --recipients-file {{pfad/zu/empfängerdatei}} {{pfad/zu/unverschlüsselter_datei}}`
 
