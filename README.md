@@ -40,7 +40,7 @@ It certainly doesn't help that the first option explained in `man tar` is:
 There seems to be room for simpler help pages, focused on practical examples.
 How about:
 
-![screenshot of the tldr-node-client displaying the tldr page for the tar command](images/screenshot.png)
+![animated svg of the tldr client displaying the tar command](images/tldr.svg)
 
 This repository is just that: an ever-growing collection of examples
 for the most common UNIX, Linux, macOS, SunOS and Windows command-line tools.
