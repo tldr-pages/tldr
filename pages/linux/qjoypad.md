@@ -25,4 +25,4 @@
 
 - Load the given layout in an already running instance of QJoyPad, or start QJoyPad using the given layout:
 
-`qjoypad "{{layou}}"`
+`qjoypad "{{layout}}"`
