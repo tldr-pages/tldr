@@ -11,7 +11,7 @@
 
 `qjoypad --device={{path/to/directory}}`
 
-- Start QJoyPad and don't show a system tray icon:
+- Start QJoyPad but don't show a system tray icon:
 
 `qjoypad --notray`
 
