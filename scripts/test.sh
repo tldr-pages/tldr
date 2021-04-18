@@ -12,6 +12,9 @@
 function run_tests {
   markdownlint pages*/**/*.md
   tldr-lint ./pages
+  for f in ./pages.*; do
+    tldr-lint --ignore "TLDR003,TLDR004,TLDR005,TLDR015,TLDR104" ${f}
+  done
 }
 
 # Special test function for GitHub Actions pull request builds.
