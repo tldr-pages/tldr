@@ -3,15 +3,15 @@
 > Displays simple help pages for command-line tools, from the tldr-pages project.
 > More information: <https://tldr.sh>.
 
-- Get typical usages of a command (hint: this is how you got here!):
+- Show the tldr page for a command (hint: this is how you got here!):
 
 `tldr {{command}}`
 
-- Show the tar tldr page for Linux:
+- Show the tldr page for `cd`, overriding the default platform:
 
-`tldr -p {{linux}} {{tar}}`
+`tldr -p {{windows}} {{cd}}`
 
-- Get help for a Git subcommand:
+- Show the tldr page for a subcommand:
 
 `tldr {{git-checkout}}`
 
