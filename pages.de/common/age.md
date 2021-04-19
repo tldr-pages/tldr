@@ -13,11 +13,11 @@
 
 - Verschlüssle eine Datei zu einem oder mehr öffentlichen Schlüsseln, die als Zeichenketten eingegeben werden:
 
-`age --output {{pfad/zu/verschlüsselter_datei}} --recipient {{öffentlicher_schlüssel_1}} --recipient {{öffentlicher_schlüssel_2}} {{pfad/zu/unverschlüsselter_datei}}`
+`age --recipient {{öffentlicher_schlüssel_1}} --recipient {{öffentlicher_schlüssel_2}} {{pfad/zu/unverschlüsselter_datei}} --output {{pfad/zu/verschlüsselter_datei}}`
 
 - Verschlüssle eine Datei zu einem oder mehr öffentlichen Schlüsseln, die in einer Empfängerdatei angegeben sind:
 
-`age --output {{pfad/zu/verschlüsselter_datei}} --recipients-file {{pfad/zu/empfängerdatei}} {{pfad/zu/unverschlüsselter_datei}}`
+`age --recipients-file {{pfad/zu/empfängerdatei}} {{pfad/zu/unverschlüsselter_datei}} --output {{pfad/zu/verschlüsselter_datei}}`
 
 - Entschlüssle eine Datei mit einer Passphrase:
 
