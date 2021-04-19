@@ -3,7 +3,7 @@
 > Lee desde la entrada estándar y escribe a la salida estándar a la vez que a archivos o comandos.
 > Más información: <https://www.gnu.org/software/coreutils/tee>
 
-- Copia la entrada estándar al archivo, reemplazando su contenido, y también ala salida estándar:
+- Copia la entrada estándar al archivo, reemplazando su contenido, y también a la salida estándar:
 
 `echo {{ejemplo}} | tee {{ruta/al/archivo}}`
 
