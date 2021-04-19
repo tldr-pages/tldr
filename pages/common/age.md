@@ -11,11 +11,11 @@
 
 `age-keygen --output {{path/to/file}}`
 
-- Encrypt a file to one or more public keys that are entered as literals:
+- Encrypt a file with one or more public keys that are entered as literals:
 
 `age --recipient {{public_key_1}} --recipient {{public_key_2}} {{path/to/unencrypted_file}} --output {{path/to/encrypted_file}}`
 
-- Encrypt a file to one or more public keys that are specified in a recipients file:
+- Encrypt a file with one or more public keys that are specified in a recipients file:
 
 `age --recipients-file {{path/to/recipients_file}} {{path/to/unencrypted_file}} --output {{path/to/encrypted_file}}`
 
