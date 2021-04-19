@@ -1,6 +1,7 @@
 # pdfjoin
 
-> PDF merging utility.
+> PDF merging utility based on pdfjam.
+> More information: https://github.com/rrthomas/pdfjam-extras
 
 - Merge two PDFs:
 
