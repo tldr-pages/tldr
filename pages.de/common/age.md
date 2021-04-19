@@ -23,6 +23,6 @@
 
 `age --decrypt --output {{pfad/zu/entschlüsselter_datei}} {{pfad/zu/verschlüsselter_datei}}`
 
-- Entschlüssle eine Datei mit einer privaten Schlüssel:
+- Entschlüssle eine Datei mit einer privaten Schlüsseldatei:
 
-`age --decrypt --identity {{pfad/zu/privater_schlüssel}} --output {{pfad/zu/entschlüsselter_datei}} {{pfad/zu/verschlüsselter_datei}}`
+`age --decrypt --identity {{pfad/zu/privater_schlüsseldatei}} --output {{pfad/zu/entschlüsselter_datei}} {{pfad/zu/verschlüsselter_datei}}`

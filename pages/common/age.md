@@ -23,6 +23,6 @@
 
 `age --decrypt --output {{path/to/decrypted_file}} {{path/to/encrypted_file}}`
 
-- Decrypt a file with a private key:
+- Decrypt a file with a private key file:
 
-`age --decrypt --identity {{path/to/private_key}} --output {{path/to/decrypted_file}} {{path/to/encrypted_file}}`
+`age --decrypt --identity {{path/to/private_key_file}} --output {{path/to/decrypted_file}} {{path/to/encrypted_file}}`
