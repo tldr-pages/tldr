@@ -1,7 +1,7 @@
 # pdfjoin
 
 > PDF merging utility based on pdfjam.
-> More information: https://github.com/rrthomas/pdfjam-extras
+> More information: <https://github.com/rrthomas/pdfjam-extras>
 
 - Merge two PDFs:
 
@@ -11,6 +11,6 @@
 
 `pdfjoin {{file 3-5,1}} --outfile {{output_file}}`
 
-- Merge subranges from two PDFs:
+- Merge page subranges from two PDFs:
 
 `pdfjoin {{file1 3-5,1}} {{file2 4-6}} --outfile {{output_file}}`
