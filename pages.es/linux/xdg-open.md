@@ -1,7 +1,7 @@
 # xdg-open
 
 > Abre un archivo o URL en la aplicación predeterminada del usuario.
-> Más información: <https://man.archlinux.org/man/xdg-open.1>.
+> Más información: <https://manned.org/xdg-open>.
 
 - Abre el directorio actual en el explorador de archivos predeterminado:
 

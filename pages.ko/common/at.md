@@ -2,7 +2,7 @@
 
 > 명령 실행 후 한 번 실행합니다.
 > 서비스 AD(또는 ATRUN)는 실제 실행을 위해 실행되어야 합니다.
-> 더 많은 정보: <https://man.archlinux.org/man/at.1>.
+> 더 많은 정보: <https://manned.org/at>.
 
 - 표준 입력에서 명령을 5분 내에 실행(작업이 끝나면 `Ctrl + D` 를 누르세요):
 

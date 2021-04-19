@@ -1,7 +1,7 @@
 # homectl
 
 > Create, remove, change or inspect home directories using the systemd-homed service.
-> More information: <https://man.archlinux.org/man/homectl.1>.
+> More information: <https://manned.org/homectl>.
 
 - List user accounts and their associated home directories:
 

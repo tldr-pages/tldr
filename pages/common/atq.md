@@ -1,7 +1,7 @@
 # atq
 
 > Show jobs scheduled by `at` or `batch` commands.
-> More information: <https://man.archlinux.org/man/at.1>.
+> More information: <https://manned.org/at>.
 
 - Show the current user's scheduled jobs:
 

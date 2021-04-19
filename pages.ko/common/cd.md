@@ -1,7 +1,7 @@
 # cd
 
 > 현재 작업중인 디렉토리 변경.
-> 더 많은 정보: <https://man.archlinux.org/man/cd.n>.
+> 더 많은 정보: <https://manned.org/cd>.
 
 - 주어진 디렉토리로 이동:
 

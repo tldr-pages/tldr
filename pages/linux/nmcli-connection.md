@@ -1,7 +1,7 @@
 # nmcli connection
 
 > Connection management with NetworkManager.
-> More information: <https://man.archlinux.org/man/nmcli.1>.
+> More information: <https://manned.org/nmcli>.
 
 - List all NetworkManager connections (shows name, uuid, type and device):
 

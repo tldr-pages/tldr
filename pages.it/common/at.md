@@ -2,7 +2,7 @@
 
 > Programma l'esecuzione di comandi nel futuro.
 > Il servizio atd (o atrun) deve essere attivo per eseguire i comandi.
-> Maggiori informazioni: <https://man.archlinux.org/man/at.1>.
+> Maggiori informazioni: <https://manned.org/at>.
 
 - Esegui i comandi inseriti standard input tra 5 minuti (premere `Ctrl + D` dopo aver inserito i comandi):
 

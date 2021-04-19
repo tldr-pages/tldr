@@ -1,7 +1,7 @@
 # cd
 
 > Cambia la directory corrente.
-> Maggiori informazioni: <https://man.archlinux.org/man/cd.n>.
+> Maggiori informazioni: <https://manned.org/cd>.
 
 - Vai alla directory specificata:
 

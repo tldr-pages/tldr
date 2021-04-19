@@ -1,7 +1,7 @@
 # fortune
 
 > Print a random quotation (fortune-cookie style).
-> More information: <https://man.archlinux.org/man/fortune.6>.
+> More information: <https://manned.org/fortune>.
 
 - Print a quotation:
 

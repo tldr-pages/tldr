@@ -1,7 +1,7 @@
 # cd
 
 > 改變工作目錄。
-> 更多資訊： <https://man.archlinux.org/man/cd.n>.
+> 更多資訊： <https://manned.org/cd>.
 
 - 前往指定目錄：
 

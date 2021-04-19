@@ -1,7 +1,7 @@
 # cd
 
 > Change the current working directory.
-> More information: <https://man.archlinux.org/man/cd.n>.
+> More information: <https://manned.org/cd>.
 
 - Go to the given directory:
 

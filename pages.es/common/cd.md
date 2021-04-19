@@ -1,7 +1,7 @@
 # cd
 
 > Cambiar el directorio de trabajo.
-> Más información: <https://man.archlinux.org/man/cd.n>.
+> Más información: <https://manned.org/cd>.
 
 - Accede al directorio especificado:
 

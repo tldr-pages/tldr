@@ -1,7 +1,7 @@
 # cd
 
 > Modifier le répertoire de travail courant.
-> Plus d'informations : <https://man.archlinux.org/man/cd.n>.
+> Plus d'informations : <https://manned.org/cd>.
 
 - Se déplacer vers le dossier donné :
 

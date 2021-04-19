@@ -1,7 +1,7 @@
 # for
 
 > Shell loop over parameters.
-> More information: <https://man.archlinux.org/man/for.n>.
+> More information: <https://manned.org/for>.
 
 - Perform a command with different arguments:
 

@@ -1,7 +1,7 @@
 # cd
 
 > 更改当前工作目录.
-> 更多信息： <https://man.archlinux.org/man/cd.n>.
+> 更多信息： <https://manned.org/cd>.
 
 - 转到指定目录:
 
