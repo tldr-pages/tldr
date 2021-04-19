@@ -1,7 +1,7 @@
 # nmcli
 
 > A command line tool for controlling NetworkManager.
-> More information: <https://manned.org/nmcli>.
+> More information: <https://developer.gnome.org/NetworkManager/stable/nmcli>.
 
 - Check the nmcli version:
 

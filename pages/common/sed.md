@@ -1,7 +1,7 @@
 # sed
 
 > Edit text in a scriptable manner.
-> More information: <https://manned.org/sed>.
+> More information: <https://www.gnu.org/software/sed/manual/sed>.
 
 - Replace the first occurrence of a regular expression in each line of a file, and print the result:
 
