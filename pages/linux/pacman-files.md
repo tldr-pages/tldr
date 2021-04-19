@@ -21,7 +21,7 @@
 
 - List only the package names:
 
-`pacman --files --quite {{filename}}`
+`pacman --files --quiet {{filename}}`
 
 - List the files owned by a specific package:
 
