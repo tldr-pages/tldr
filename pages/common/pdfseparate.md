@@ -1,7 +1,7 @@
 # pdfseparate
 
 > Portable Document Format (PDF) file page extractor.
-> More information: <https://manpages.debian.org/unstable/poppler-utils/pdfseparate.1.en.html>.
+> More information: <https://manned.org/pdfseparate>.
 
 - Extract pages from PDF file and make a separate PDF file for each page:
 

@@ -1,7 +1,7 @@
 # wtf
 
 > Mostra a expansão de acrônimos.
-> Mais informações: <https://manpages.debian.org/bsdgames/wtf.6.en.html>.
+> Mais informações: <https://manned.org/wtf>.
 
 - Expande um acrônimo:
 

@@ -1,7 +1,7 @@
 # lastcomm
 
 > Show last commands executed.
-> More information: <https://manpages.debian.org/stable/acct/lastcomm.1.en.html>.
+> More information: <https://mannned.org/lastcomm>.
 
 - Print information about all of the commands in the acct (record file):
 
