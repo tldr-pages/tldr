@@ -24,6 +24,6 @@
 
 `atom --foreground`
 
-- Attendre la fermeture de la fenêtre avant de quitter (utile pour l'éditeur de commits Git) :
+- Attendre la fermeture de la fenêtre avant de quitter (utile pour l'éditeur de commits Git) :
 
 `atom --wait`

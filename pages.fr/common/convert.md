@@ -19,7 +19,7 @@
 
 `convert {{image1.png}} {{image2.png}} {{image3.png}} +append {{image123.png}}`
 
-- Coller plusieurs images verticalement :
+- Coller plusieurs images verticalement :
 
 `convert {{image1.png}} {{image2.png}} {{image3.png}} -append {{image123.png}}`
 
