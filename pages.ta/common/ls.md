@@ -1,7 +1,7 @@
 # ls
 
 > அடைவு உள்ளடக்கத்தைப் பட்டியலிடு.
-> மேலும் தகவல்: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
+> மேலும் தகவல்: <https://www.gnu.org/software/coreutils/ls>.
 
 - கோப்புகளை வரிக்கொன்றாகப் பட்டியலிடு:
 

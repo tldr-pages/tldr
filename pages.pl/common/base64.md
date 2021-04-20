@@ -1,7 +1,7 @@
 # base64
 
 > Enkoduj lub dekoduj plik lub standardowe wejście do/z Base64, na standardowe wyjście.
-> Więcej informacji: <https://www.gnu.org/software/coreutils/manual/html_node/base64-invocation.html>.
+> Więcej informacji: <https://www.gnu.org/software/coreutils/base64>.
 
 - Enkoduj plik:
 

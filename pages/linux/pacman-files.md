@@ -21,7 +21,7 @@
 
 - List only the package names:
 
-`pacman --files --quite {{filename}}`
+`pacman --files --quiet {{filename}}`
 
 - List the files owned by a specific package:
 
@@ -29,4 +29,4 @@
 
 - List only the absolute path to the files:
 
-`pacman --query --list --quite {{package_name}}`
+`pacman --query --list --quiet {{package_name}}`

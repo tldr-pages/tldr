@@ -1,6 +1,7 @@
 # sha224sum
 
 > Calculate SHA224 cryptographic checksums.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-utilities.html>.
 
 - Calculate the SHA224 checksum for a file:
 

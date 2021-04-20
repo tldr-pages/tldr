@@ -1,7 +1,7 @@
 # rm
 
 > Rimuovi file o directory.
-> Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/rm-invocation.html>.
+> Maggiori informazioni: <https://www.gnu.org/software/coreutils/rm>.
 
 - Rimuovi file:
 

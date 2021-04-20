@@ -1,7 +1,7 @@
 # rmdir
 
 > Removes a directory.
-> More information: <https://www.gnu.org/software/coreutils/manual/html_node/rmdir-invocation.html>.
+> More information: <https://www.gnu.org/software/coreutils/rmdir>.
 
 - Remove directory, provided it is empty. Use `rm -r` to remove non-empty directories:
 

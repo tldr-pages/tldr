@@ -1,7 +1,7 @@
 # df
 
 > Fornisce una panoramica dello spazio utilizzato dai file system sui dischi.
-> Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/df-invocation.html>.
+> Maggiori informazioni: <https://www.gnu.org/software/coreutils/df>.
 
 - Mostra tutti i file system ed il loro utilizzo del disco:
 

@@ -1,7 +1,7 @@
 # dirname
 
 > Belirtilen dosya veya yolun ana dizinini hesaplar.
-> Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/manual/html_node/dirname-invocation.html>.
+> Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/dirname>.
 
 - Belirtilen yolun ana dizinini hesapla:
 

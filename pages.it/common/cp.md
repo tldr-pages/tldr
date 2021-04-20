@@ -1,7 +1,7 @@
 # cp
 
 > Copia file e directory.
-> Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html>.
+> Maggiori informazioni: <https://www.gnu.org/software/coreutils/cp>.
 
 - Copia un file in un'altra posizione:
 
@@ -23,6 +23,6 @@
 
 `cp -r {{percorso/alla/directory/*}} {{percorso/alla/seconda/directory}}`
 
-- Copia tutti i file di testo in una seconda directory in modo interattivo  (chiede conferma prima di sovrascrivere):
+- Copia tutti i file di testo in una seconda directory in modo interattivo (chiede conferma prima di sovrascrivere):
 
 `cp -i {{*.txt}} {{percorso/alla/directory}}`

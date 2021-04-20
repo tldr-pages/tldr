@@ -1,7 +1,7 @@
 # cat
 
 > Выводит и объединяет файлы.
-> Больше информации: <https://www.gnu.org/software/coreutils/manual/html_node/cat-invocation.html>.
+> Больше информации: <https://www.gnu.org/software/coreutils/cat>.
 
 - Выводит содержимое файла:
 

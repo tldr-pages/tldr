@@ -1,7 +1,7 @@
 # ln
 
 > Crea un collegamento a un file o a una directory.
-> Maggiori informazioni: <https://www.gnu.org/software/coreutils/manual/html_node/ln-invocation.html>.
+> Maggiori informazioni: <https://www.gnu.org/software/coreutils/ln>.
 
 - Crea un collegamento simbolico a un file (o directory):
 

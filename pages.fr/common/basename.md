@@ -1,7 +1,7 @@
 # basename
 
 > Retourne la portion ne contenant pas de dossiers d'un chemin complet.
-> Plus d'informations : <https://www.gnu.org/software/coreutils/manual/html_node/basename-invocation.html>.
+> Plus d'informations : <https://www.gnu.org/software/coreutils/basename>.
 
 - N'afficher que le nom du fichier depuis un chemin :
 

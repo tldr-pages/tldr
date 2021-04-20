@@ -1,7 +1,7 @@
 # yes
 
 > Voer herhaaldelijk iets uit.
-> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/yes-invocation.html>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/yes>.
 
 - Voer herhaaldelijk "bericht" uit:
 

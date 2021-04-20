@@ -1,7 +1,6 @@
 # ip
 
-> Affiche / manipule l'adressage, le routage, les interfaces et périphériques réseau,
-> les règles de routage et les tunnels.
+> Affiche / manipule l'adressage, le routage, les interfaces et périphériques réseau, les règles de routage et les tunnels.
 > Plus d'information : <https://www.man7.org/linux/man-pages/man8/ip.8.html>.
 
 - Liste les interfaces avec des infos détaillées :
@@ -13,6 +12,7 @@
 `ip -brief address`
 
 - Liste les interfaces sur la couche liaison de façon synthétique :
+
 `ip -brief link`
 
 - Affiche la table de routage :

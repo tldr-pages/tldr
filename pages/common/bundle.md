@@ -17,13 +17,13 @@
 
 - Update one or more specific gem(s) defined in the `Gemfile`:
 
-`bundle update {{gemname}} {{gemname}}`
+`bundle update {{gem_name}} {{gem_name}}`
 
 - Update one or more specific gems(s) defined in the `Gemfile` but only to the next patch version:
 
-`bundle update --patch {{gemname}} {{gemname}}`
+`bundle update --patch {{gem_name}} {{gem_name}}`
 
-- Update update all gems within the given group in the `Gemfile`:
+- Update all gems within the given group in the `Gemfile`:
 
 `bundle update --group {{development}}`
 
@@ -33,4 +33,4 @@
 
 - Create a new gem skeleton:
 
-`bundle gem {{gemname}}`
+`bundle gem {{gem_name}}`

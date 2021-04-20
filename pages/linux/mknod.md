@@ -1,7 +1,7 @@
 # mknod
 
 > Create block or character device special files.
-> More information: <https://www.gnu.org/software/coreutils/manual/html_node/mknod-invocation.html>.
+> More information: <https://www.gnu.org/software/coreutils/mknod>.
 
 - Create a block device:
 

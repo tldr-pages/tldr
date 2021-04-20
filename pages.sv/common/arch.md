@@ -2,7 +2,7 @@
 
 > Visa namnet på systemarkitekturen:
 > Se även `uname`.
-> Mer information: <https://www.gnu.org/software/coreutils/manual/html_node/arch-invocation.html>.
+> Mer information: <https://www.gnu.org/software/coreutils/arch>.
 
 - Visa systemarkitekturen:
 

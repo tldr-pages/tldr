@@ -1,6 +1,7 @@
 # dmesg
 
 > Write the kernel messages to standard output.
+> More information: <https://www.unix.com/man-page/sunos/1m/dmesg>.
 
 - Show kernel messages:
 

@@ -1,7 +1,7 @@
 # stty
 
 > Set options for a terminal device interface.
-> More information: <https://www.gnu.org/software/coreutils/manual/html_node/stty-invocation.html>.
+> More information: <https://www.gnu.org/software/coreutils/stty>.
 
 - Display all settings for the current terminal:
 

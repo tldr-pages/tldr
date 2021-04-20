@@ -1,7 +1,7 @@
 # base64
 
 > Codeer of decodeer bestand of standaardinvoer van/naar Base64 naar standaarduitvoer.
-> Meer informatie: <https://www.gnu.org/software/coreutils/manual/html_node/base64-invocation.html>.
+> Meer informatie: <https://www.gnu.org/software/coreutils/base64>.
 
 - Codeer een bestand:
 

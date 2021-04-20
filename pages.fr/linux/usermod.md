@@ -1,6 +1,7 @@
 # usermod
 
 > Modifie un compte utilisateur.
+> Plus d'informations : <https://manned.org/usermod>.
 
 - Change le nom d'un utilisateur :
 

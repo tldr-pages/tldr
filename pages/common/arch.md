@@ -2,7 +2,7 @@
 
 > Display the name of the system architecture.
 > See also `uname`.
-> More information: <https://www.gnu.org/software/coreutils/manual/html_node/arch-invocation.html>.
+> More information: <https://www.gnu.org/software/coreutils/arch>.
 
 - Display the system's architecture:
 

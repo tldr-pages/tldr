@@ -1,7 +1,7 @@
 # mkfifo
 
 > Pravi FIFOs (imenovane cijevi).
-> Više informacija: <https://www.gnu.org/software/coreutils/manual/html_node/mkfifo-invocation.html>.
+> Više informacija: <https://www.gnu.org/software/coreutils/mkfifo>.
 
 - Napravi imenovanu cijev na zadatoj putanji:
 

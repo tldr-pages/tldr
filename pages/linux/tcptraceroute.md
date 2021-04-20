@@ -17,7 +17,7 @@
 
 - Set the first and maximum TTL:
 
-`tcptraceroute {{host}} -f {{first_ttl} -m {{max_ttl}}`
+`tcptraceroute {{host}} -f {{first_ttl}} -m {{max_ttl}}`
 
 - Specify the wait time and number of queries per hop:
 
