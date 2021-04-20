@@ -1,6 +1,7 @@
 # bugreportz
 
-> Generate a zipped Android bug report through the adb shell.
+> Generate a zipped Android bug report.
+> This command can only be used through `adb shell`.
 > More information: N/A.
 
 - Generate a complete zipped bug report of an Android device:
