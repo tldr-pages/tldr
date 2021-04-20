@@ -18,3 +18,7 @@
 - Afficher des statistiques sur le nombre d'inodes disponibles :
 
 `df -i`
+
+- Afficher les systèmes de fichiers sauf ceux de types spécifiques :
+
+`df -x {{squashfs}} -x {{tmpfs}}`
