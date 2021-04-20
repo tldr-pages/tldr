@@ -20,7 +20,7 @@
 
 - Specify the format of captured output:
 
-`tshark -T {{json|text|ps}}`
+`tshark -T {{ek|fields|json|jsonraw|pdml|ps|psml|tabs|text}}`
 
 - Select specific fields to output:
 
