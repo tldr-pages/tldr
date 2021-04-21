@@ -20,10 +20,14 @@
 
 `ansible {{groupe}} -m command -a '{{ma_commande}}'`
 
-- Exécuter une commande avec des droits administreur :
+- Exécuter une commande avec des droits administrateur :
 
 `ansible {{groupe}} --become --ask-become-pass -m command -a '{{ma_commande}}'`
 
 - Exécuter une commande en utilisant un fichier d'inventaire personnalisé :
 
 `ansible {{groupe}} -i {{fichier_d'inventaire}} -m command -a '{{ma_commande}}'`
+
+- Lister les groupes d'un inventaire :
+
+`ansible localhost -m debug -a '{{var=groups.keys()}}'`
