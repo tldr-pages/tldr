@@ -11,11 +11,11 @@
 
 `getprop {{eigenschaft}}`
 
-- Gib das SDK API level aus:
+- Gib das SDK API Level aus:
 
 `getprop {{ro.build.version.sdk}}`
 
-- Gib die Android version aus:
+- Gib die Android-Version aus:
 
 `getprop {{ro.build.version.release}}`
 

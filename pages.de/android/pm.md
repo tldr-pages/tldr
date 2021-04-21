@@ -11,11 +11,11 @@
 
 `pm list packages -s`
 
-- Gib eine liste aller installierten 3rd-Party apps aus:
+- Gib eine liste aller installierten 3rd-Party Apps aus:
 
 `pm list packages -3`
 
-- Gib eine Liste aller Apps, die auf ein bestimmtes Schlüsselwort zutreffen aus:
+- Gib eine Liste aller Apps, auf die ein bestimmtes Schlüsselwort zutrifft aus:
 
 `pm list packages {{Schlüsselwort}}`
 

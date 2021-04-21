@@ -11,7 +11,7 @@
 
 `settings get {{global}} {{airplane_mode_on}}`
 
-- Setze den Wert einer Einstallung:
+- Setze den Wert einer Einstellung:
 
 `settings put {{system}} {{screen_brightness}} {{42}}`
 

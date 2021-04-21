@@ -1,8 +1,8 @@
 # dalvikvm
 
-> Android Java virtuelle maschine.
+> Android Java virtuelle Maschine.
 > Mehr Informationen: <https://source.android.com/devices/tech/dalvik>.
 
-- Start a Java Programm:
+- Starte ein Java Programm:
 
 `dalvikvm -classpath {{pfad/zu/datei.jar}} {{klassenname}}`
