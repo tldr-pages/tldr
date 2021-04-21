@@ -1,4 +1,4 @@
-# rtorrent
+# rolldice
 
 > Roll virtual dice.
 
