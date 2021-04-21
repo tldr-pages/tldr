@@ -32,6 +32,6 @@
 
 `nmap -sSU {{一个地址 或者 多个地址}}`
 
-- Perform full port, service, version detection scan with all default NSE scripts active against a host to determine weaknesses and info:
+- 使用默认 NSE 脚本执行针对该主机地址的完整端口、服务、版本检测扫描，以确定弱点和信息：
 
 `nmap -sC -sV {{一个地址 或者 多个地址}}`
