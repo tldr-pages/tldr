@@ -15,6 +15,6 @@
 
 `rolldice {{2}}d{{20}}{{+5}}`
 
-- Roll a d20 two times:
+- Roll a 20 sided dice two times:
 
 `rolldice {{2}}xd{{20}}`
