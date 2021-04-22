@@ -3,7 +3,7 @@
 > Run local tests on a PlatformIO project.
 > More information: <https://docs.platformio.org/en/latest/core/userguide/cmd_test.html>.
 
-- Run all tests in all environments of a PlatformIO project:
+- Run all tests in all environments of the current PlatformIO project:
 
 `pio test`
 
@@ -11,11 +11,11 @@
 
 `pio test --environment {{environment1}} --environment {{environment2}}`
 
-- Run only tests whose name match a specific pattern:
+- Run only tests whose name matches a specific pattern:
 
 `pio test --filter "{{pattern}}"`
 
-- Ignore tests whose name match a specific pattern:
+- Ignore tests whose name matches a specific pattern:
 
 `pio test --ignore "{{pattern}}"`
 
