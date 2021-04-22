@@ -1,7 +1,7 @@
 # alacritty
 
 > Plattformübergreifender, GPU-beschleunigter Terminalemulator.
-> Mehr Informationen: <https://github.com/jwilm/alacritty>.
+> Weitere Informationen: <https://github.com/jwilm/alacritty>.
 
 - Öffne ein neues alacritty-Fenster:
 

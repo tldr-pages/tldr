@@ -1,7 +1,7 @@
 # echo
 
 > Gib angegebene Argumente aus.
-> Mehr Informationen: <https://www.gnu.org/software/coreutils/echo>.
+> Weitere Informationen: <https://www.gnu.org/software/coreutils/echo>.
 
 - Gib einen Text aus. (Hinweis: Anführungszeichen sind optional):
 

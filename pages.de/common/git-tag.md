@@ -1,7 +1,7 @@
 # git tag
 
 > Erstelle, lösche, überprüfe und liste Tags auf.
-> Mehr Informationen: <https://git-scm.com/docs/git-tag>.
+> Weitere Informationen: <https://git-scm.com/docs/git-tag>.
 
 - Liste alle Tags auf:
 

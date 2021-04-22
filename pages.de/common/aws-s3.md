@@ -1,7 +1,7 @@
 # aws s3
 
 > CLI für AWS S3. AWS S3 stellt Speicherplatz in der Cloud zur Verfügung.
-> Mehr Informationen: <https://aws.amazon.com/cli>.
+> Weitere Informationen: <https://aws.amazon.com/cli>.
 
 - Liste alle Objekte in einem Bucket auf:
 

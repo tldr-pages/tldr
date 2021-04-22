@@ -1,7 +1,7 @@
 # ffmpeg
 
 > Programm zum konvertieren von Videos.
-> Mehr Informationen: <https://ffmpeg.org>.
+> Weitere Informationen: <https://ffmpeg.org>.
 
 - Extrahiere den Ton eines Videos und speichere ihn als MP3:
 

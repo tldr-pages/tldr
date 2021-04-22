@@ -1,7 +1,7 @@
 # firefox
 
 > Ein gratis Open Source Internet Browser.
-> Mehr Informationen: <https://developer.mozilla.org/en-US/docs/Mozilla/Command_Line_Options>.
+> Weitere Informationen: <https://developer.mozilla.org/en-US/docs/Mozilla/Command_Line_Options>.
 
 - Starte Firefox und öffne eine Website:
 

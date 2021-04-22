@@ -8,7 +8,7 @@ labels = {
     'en': 'More information:',
     'bs': 'Više informacija:',
     'da': 'Mere information:',
-    'de': 'Mehr Informationen:',
+    'de': 'Weitere Informationen:',
     'es': 'Más información:',
     'fa': 'اطلاعات بیشتر:',
     'fr': 'Plus d\'informations\xa0:',

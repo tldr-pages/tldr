@@ -1,7 +1,7 @@
 # git commit
 
 > Committe Dateien in ein Repository.
-> Mehr Informationen: <https://git-scm.com/docs/git-commit>.
+> Weitere Informationen: <https://git-scm.com/docs/git-commit>.
 
 - Committe gestagten Dateien zum Repository mit einer Nachricht:
 

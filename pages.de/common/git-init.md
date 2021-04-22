@@ -1,7 +1,7 @@
 # git init
 
 > Erstelle eine neues lokales Git-Repository.
-> Mehr Informationen: <https://git-scm.com/docs/git-init>.
+> Weitere Informationen: <https://git-scm.com/docs/git-init>.
 
 - Erstelle eine neues lokales Repository:
 
