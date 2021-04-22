@@ -1,7 +1,6 @@
 # input
 
 > Sende Eventcodes oder Touchscreengesten an ein Android Gerät.
-> Eventcodes sind die Eingabe eines Zeichens, Beenden eines Anrufs, Erhöhen der Lautstärke, usw.
 > Dieser Befehl kann nur mit `adb shell` verwendet werden.
 > Mehr Informationen: <https://developer.android.com/reference/android/view/KeyEvent.html#constants_1>.
 
