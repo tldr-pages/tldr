@@ -19,7 +19,7 @@
 
 `qtcreator -noload {{all}}`
 
-- Start Qt Creator in presentation mode with pop-ups for key combos:
+- Start Qt Creator in presentation mode with pop-ups for keyboard shortcuts:
 
 `qtcreator -presentationMode`
 
