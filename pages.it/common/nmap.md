@@ -24,7 +24,7 @@
 
 `nmap -T4 {{indirizzo_o_indirizzi}}`
 
-- Scansiona una specifica lista di porte (usa `-p`- per tutte le porte `1-65535`):
+- Scansiona una specifica lista di porte (usa `-p-` per tutte le porte `1-65535`):
 
 `nmap -p {{porta1,porta2,…,portaN}} {{indirizzo_o_indirizzi}}`
 
