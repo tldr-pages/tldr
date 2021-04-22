@@ -3,18 +3,18 @@
 > Roll virtual dice.
 > More information: <https://manned.org/rolldice>.
 
-- Roll a single 20 sided die:
+- Roll a single 20 sided dice:
 
-`rolldice d20`
+`rolldice d{{20}}`
 
-- Roll two six sided dice and keep the highest roll:
+- Roll two six sided dice and drop the lowest roll:
 
-`rolldice 2d6s1`
+`rolldice {{2}}d{{6}}s{{1}}`
 
 - Roll two 20 sided dice and add a modifier value:
 
-`rolldice 2d20+5`
+`rolldice {{2}}d{{20}}{{+5}}`
 
 - Roll a d20 two times:
 
-`rolldice 2xd20`
+`rolldice {{2}}xd{{20}}`
