@@ -67,7 +67,6 @@ If you are an owner of the organization, you can see an automated list
 - Marcher Simon ([@marchersimon](https://github.com/marchersimon)):
   [9 March 2021](https://github.com/tldr-pages/tldr/issues/5390) — [9 April 2021](https://github.com/tldr-pages/tldr/issues/5722)
 
-
 ## Organization members
 
 In addition to everything that repository collaborators can do, organization members
