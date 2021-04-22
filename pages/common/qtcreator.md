@@ -23,6 +23,6 @@
 
 `qtcreator -presentationMode`
 
-- Start Qt Cretor and show a specific commit hash:
+- Start Qt Creator and show a specific commit hash:
 
 `qtcreator -git-show {{commit_hash}}`
