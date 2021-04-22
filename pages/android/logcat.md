@@ -1,7 +1,6 @@
 # logcat
 
 > Dump a log of system messages.
-> Native Android CLI tool.
 > More information: <https://developer.android.com/studio/command-line/logcat>.
 
 - Display system logs:
