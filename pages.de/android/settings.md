@@ -11,7 +11,7 @@
 
 `settings get {{global}} {{airplane_mode_on}}`
 
-- Setze den Wert einer Einstellung:
+- Setze den Wert einer bestimmten Einstellung:
 
 `settings put {{system}} {{screen_brightness}} {{42}}`
 

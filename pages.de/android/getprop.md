@@ -3,7 +3,7 @@
 > Zeige Informationen über Android-Systemeigenschaften.
 > Mehr Informationen: <https://manned.org/getprop>.
 
-- Gib Informationen über Anrdoid-Systemeigenschaften aus:
+- Gib Informationen über Android-Systemeigenschaften aus:
 
 `getprop`
 

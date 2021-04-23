@@ -11,7 +11,7 @@
 
 `pm list packages -s`
 
-- Gib eine liste aller installierten 3rd-Party Apps aus:
+- Gib eine Liste aller installierten Apps von Drittanbietern aus:
 
 `pm list packages -3`
 
