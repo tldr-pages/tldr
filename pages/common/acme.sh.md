@@ -1,7 +1,7 @@
 # acme.sh
 
 > An ACME Shell script, an acme client alternative to certbot.
-> More information: <https://github.com/acmesh-official/acme.sh>
+> More information: <https://github.com/acmesh-official/acme.sh>.
 
 - Issue a certificate using webroot mode:
 
