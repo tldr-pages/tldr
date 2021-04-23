@@ -15,7 +15,7 @@
 
 `pm list packages -3`
 
-- Gib eine Liste aller Apps, auf die ein bestimmtes Schlüsselwort zutrifft aus:
+- Gib eine Liste aller Apps, auf die ein bestimmtes Schlüsselwort zutrifft, aus:
 
 `pm list packages {{Schlüsselwort}}`
 

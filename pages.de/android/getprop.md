@@ -1,9 +1,9 @@
 # getprop
 
-> Zeige Informationen über Android Systemeigenschaften.
+> Zeige Informationen über Android-Systemeigenschaften.
 > Mehr Informationen: <https://manned.org/getprop>.
 
-- Gib Informationen über Anrdoid Systemeigenschaften aus:
+- Gib Informationen über Anrdoid-Systemeigenschaften aus:
 
 `getprop`
 
@@ -11,7 +11,7 @@
 
 `getprop {{eigenschaft}}`
 
-- Gib das SDK API Level aus:
+- Gib das SDK-API-Level aus:
 
 `getprop {{ro.build.version.sdk}}`
 
@@ -23,10 +23,10 @@
 
 `getprop {{ro.vendor.product.model}}`
 
-- Gib den OEM Entsperrstatus aus:
+- Gib den OEM-Entsperrstatus aus:
 
 `getprop {{ro.oem_unlock_supported}}`
 
-- Gib die MAC Adresse der WiFi-Karte aus:
+- Gib die MAC-Adresse der WiFi-Karte aus:
 
 `getprop {{ro.boot.wifimacaddr}}`

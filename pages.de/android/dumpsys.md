@@ -1,6 +1,6 @@
 # dumpsys
 
-> Stelle Informationen über Android Systemservices bereit.
+> Stelle Informationen über Android-Systemservices bereit.
 > Dieser Befehl kann nur mit `adb shell` verwendet werden.
 > Mehr Informationen: <https://developer.android.com/studio/command-line/dumpsys>.
 
