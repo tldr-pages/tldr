@@ -5,32 +5,32 @@
 
 - Issue a certificate using webroot mode:
 
-`acme.sh --issue --domain {{domain.tld}} --webroot {{/path/to/webroot}}`
+`acme.sh --issue --domain {{example.com}} --webroot {{/path/to/webroot}}`
 
 - Issue a certificate using standalone mode using port 80:
 
-`acme.sh --issue --standalone --domain {{domain.tld}}`
+`acme.sh --issue --standalone --domain {{example.com}}`
 
 - Issue a certificate using standalone TLS mode using port 443:
 
-`acme.sh --issue --alpn --domain {{domain.tld}}`
+`acme.sh --issue --alpn --domain {{example.com}}`
 
 - Issue a certificate using a working Nginx configuration:
 
-`acme.sh --issue --nginx --domain {{domain.tld}}`
+`acme.sh --issue --nginx --domain {{example.com}}`
 
 - Issue a certificate using a working Apache configuration:
 
-`acme.sh --issue --apache --domain {{domain.tld}}`
+`acme.sh --issue --apache --domain {{example.com}}`
 
 - Issue a wildcard (\*) certificate using a manual DNS mode:
 
-`acme.sh --issue --dns --domain {{*.domain.tld}}`
+`acme.sh --issue --dns --domain {{example.com}}`
 
 - Issue a certificate using an automatic DNS API mode:
 
-`acme.sh --issue --dns {{dns_api}} --domain {{domain.tld}}`
+`acme.sh --issue --dns {{dns_api}} --domain {{example.com}}`
 
 - Install certificate file into location specified by its parameter (not displayed):
 
-`acme.sh --install-cert --domain {{domain.tld}} --reloadcmd {{reload_commad}}`
+`acme.sh --install-cert --domain {{example.com}} --reloadcmd {{reload_commad}}`
