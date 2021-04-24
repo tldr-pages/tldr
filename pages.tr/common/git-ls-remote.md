@@ -1,25 +1,25 @@
 # git ls-remote
 
-> Git command for listing references in a remote repository based on name or URL.
-> If no name or URL are given, then the configured upstream branch will be used, or remote origin if the former is not configured.
-> More information: <https://git-scm.com/docs/git-ls-remote>.
+> Çevrimiçi depolardaki isim ve URL bazlı referansları sıralamaya yarayan Git komutu.
+> İsim veya URL girilmemişse, varsayılan dal veya çevrimiçi dalın kökeni kullanılır.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-ls-remote>.
 
-- Show all references in the default remote repository:
+- Varsayılan çevrimiçi depodaki tüm referansları göster:
 
 `git ls-remote`
 
-- Show only heads references in the default remote repository:
+- Varsayılan çevrimiçi depodaki yalnızca baş referanslarını göster:
 
 `git ls-remote --heads`
 
-- Show only tags references in the default remote repository:
+- Varsayılan çevrimiçi depodaki yalnızca etiket referanslarını göster:
 
 `git ls-remote --tags`
 
-- Show all references from a remote repository based on name or url:
+- Girilen isim veya URL'de bulunan çevrimiçi depodaki tüm referansları göster:
 
-`git ls-remote {{repository_url}}`
+`git ls-remote {{depo_adresi}}`
 
-- Show references from a remote repository filtered by a pattern:
+- Bir çevrimiçi depodaki referansları belirtilen desene göre göster:
 
-`git ls-remote {{repository_name}} "{{pattern}}"`
+`git ls-remote {{depo_ismi}} "{{desen}}"`
