@@ -11,6 +11,6 @@
 
 `logcat -f {{pfad/zu/datei}}`
 
-- Gib Zeilen aus, die einem Regex entsprechen:
+- Gib Zeilen aus, die einem regulären Ausdruck entsprechen:
 
 `logcat --regex {{regex}}`
