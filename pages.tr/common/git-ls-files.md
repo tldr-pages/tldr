@@ -1,16 +1,16 @@
 # git ls-files
 
-> Show information about files in the index and the working tree.
-> More information: <https://git-scm.com/docs/git-ls-files>.
+> İndex ve mevcut ağaçtaki dosyalar hakkında bilgi göster.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-ls-files>.
 
-- Show deleted files:
+- Silinen dosyaları göster:
 
 `git ls-files --deleted`
 
-- Show modified and deleted files:
+- Düzenlenen ve silinen dosyaları göster:
 
 `git ls-files --modified`
 
-- Show ignored and untracked files:
+- Yoksayılmış ve izlenmeyen dosyaları göster:
 
 `git ls-files --others`
