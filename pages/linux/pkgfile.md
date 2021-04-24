@@ -24,6 +24,10 @@
 
 `pkgfile --ignorecase {{filename}}`
 
+- Search for a package that owns a specific file in the `bin` or `sbin` directory:
+
+`pkgfile --binaries {{filename}}`
+
 - Search for a package that owns a specific file, displaying the package version:
 
 `pkgfile --verbose {{filename}}`
