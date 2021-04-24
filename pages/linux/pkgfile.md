@@ -2,7 +2,7 @@
 
 > Tool for searching files from packages in the official repositories on arch-based systems.
 > See also `pacman files`.
-> More information: <https://man.archlinux.org/man/extra/pkgfile/pkgfile.1.en>.
+> More information: <https://man.archlinux.org/man/extra/pkgfile/pkgfile.1>.
 
 - Synchronize the pkgfile database:
 
