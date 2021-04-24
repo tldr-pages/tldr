@@ -1,16 +1,16 @@
 # git ls-tree
 
-> List the contents of a tree object.
-> More information: <https://git-scm.com/docs/git-ls-tree>.
+> Bir ağaç nesnesinin içeriklerini sırala.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-ls-tree>.
 
-- List the contents of the tree on a branch:
+- Bir daldaki ağacın içeriklerini sırala:
 
-`git ls-tree {{branch_name}}`
+`git ls-tree {{dal_name}}`
 
-- List the contents of the tree on a commit, recursing into subtrees:
+- Bir commit üstündeki ağacın içeriklerini alt ağaçlara ayırarak sırala.
 
-`git ls-tree -r {{commit_hash}}`
+`git ls-tree -r {{commit_değeri}}`
 
-- List only the filenames of the tree on a commit:
+- Bir commit üstündeki ağacın yalnızca dosya isimlerini göster:
 
-`git ls-tree --name-only {{commit_hash}}`
+`git ls-tree --name-only {{commit_değeri}}`
