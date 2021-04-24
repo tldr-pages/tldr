@@ -2,7 +2,7 @@
 
 > Ein plattformübergreifender erweiterbarer Texteditor.
 > Erweiterungen werden durch `apm` verwaltet.
-> Mehr Informationen: <https://atom.io/>.
+> Weitere Informationen: <https://atom.io/>.
 
 - Öffne eine Datei oder ein Verzeichnis:
 

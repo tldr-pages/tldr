@@ -1,7 +1,7 @@
 # git blame
 
 > Zeige den Commit-Hash und den letzten Autor jeder Zeile einer Datei.
-> Mehr Informationen: <https://git-scm.com/docs/git-blame>.
+> Weitere Informationen: <https://git-scm.com/docs/git-blame>.
 
 - Gib die Commit-Hashes und dem Autor jeder Zeile einer Datei aus:
 

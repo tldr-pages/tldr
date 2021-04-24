@@ -1,7 +1,7 @@
 # tlmgr
 
 > Verwalte Packages und Konfigurationen einer existierenden TeX Live Installation.
-> Mehr Informationen: <https://www.tug.org/texlive/tlmgr.html>.
+> Weitere Informationen: <https://www.tug.org/texlive/tlmgr.html>.
 
 - Installiere ein Package und seine Abhängigkeiten:
 

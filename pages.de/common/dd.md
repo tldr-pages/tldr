@@ -1,7 +1,7 @@
 # dd
 
 > Konvertiere und kopiere eine Datei.
-> Mehr Informationen: <https://www.gnu.org/software/coreutils/dd>.
+> Weitere Informationen: <https://www.gnu.org/software/coreutils/dd>.
 
 - Erstelle ein bootbares USB-Laufwerk von einer isohybriden Datei (wie `archlinux-xxxx.iso`) und zeige den Fortschritt an:
 

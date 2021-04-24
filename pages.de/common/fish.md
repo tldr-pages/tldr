@@ -2,7 +2,7 @@
 
 > The Friendly Interactive SHell.
 > Eine benutzerfreundliche Eingabeaufforderung.
-> Mehr Informationen: <https://fishshell.com>.
+> Weitere Informationen: <https://fishshell.com>.
 
 - Starte fish:
 

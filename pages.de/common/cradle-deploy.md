@@ -1,7 +1,7 @@
 # cradle deploy
 
 > Verwalte Cradle Implementierungen.
-> Mehr Informationen: <https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-Tools.html#deploy>.
+> Weitere Informationen: <https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-Tools.html#deploy>.
 
 - Implementiere Cradle auf einem Server:
 

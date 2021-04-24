@@ -1,7 +1,7 @@
 # aws quicksight
 
 > CLI für AWS QuickSight.
-> Mehr Informationen: <https://docs.aws.amazon.com/cli/latest/reference/quicksight/>.
+> Weitere Informationen: <https://docs.aws.amazon.com/cli/latest/reference/quicksight/>.
 
 - Liste alle Datensätze auf:
 

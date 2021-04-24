@@ -1,7 +1,7 @@
 # fdroidcl
 
 > F-Droid CLI (Command Line Interface) Client.
-> Mehr Informationen: <https://github.com/mvdan/fdroidcl>.
+> Weitere Informationen: <https://github.com/mvdan/fdroidcl>.
 
 - Aktualisiere den Index:
 

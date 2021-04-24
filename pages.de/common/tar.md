@@ -2,7 +2,7 @@
 
 > Archivierungs Tool.
 > Häufig kombiniert mit anderen Methoden zur Komprimierung, wie gzip oder bzip2.
-> Mehr Informationen: <https://www.gnu.org/software/tar>.
+> Weitere Informationen: <https://www.gnu.org/software/tar>.
 
 - Erstelle ein Archiv von Datein:
 
