@@ -2,7 +2,7 @@
 
 > Sende Eventcodes oder Touchscreengesten an ein Android-Gerät.
 > Dieser Befehl kann nur mit `adb shell` verwendet werden.
-> Mehr Informationen: <https://developer.android.com/reference/android/view/KeyEvent.html#constants_1>.
+> Weitere Informationen: <https://developer.android.com/reference/android/view/KeyEvent.html#constants_1>.
 
 - Sende einen Eventcode für die Eingabe eines einzelnen Zeichens an ein Gerät:
 

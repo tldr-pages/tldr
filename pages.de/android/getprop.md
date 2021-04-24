@@ -1,7 +1,7 @@
 # getprop
 
 > Zeige Informationen über Android-Systemeigenschaften.
-> Mehr Informationen: <https://manned.org/getprop>.
+> Weitere Informationen: <https://manned.org/getprop>.
 
 - Gib Informationen über Android-Systemeigenschaften aus:
 

@@ -1,7 +1,7 @@
 # logcat
 
 > Gib ein Protokoll aller Systemmeldungen aus:
-> Mehr Informationen: <https://developer.android.com/studio/command-line/logcat>.
+> Weitere Informationen: <https://developer.android.com/studio/command-line/logcat>.
 
 - Gib ein Protokoll aller Systemmeldungen aus:
 
