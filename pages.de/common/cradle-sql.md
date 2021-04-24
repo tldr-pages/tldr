@@ -1,7 +1,7 @@
 # cradle sql
 
 > Verwalte Cradle SQL Datenbanken.
-> Mehr Informationen: <https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-Tools.html#sql>.
+> Weitere Informationen: <https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-Tools.html#sql>.
 
 - Generiere ein neues Datenbank-Schema:
 

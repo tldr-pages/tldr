@@ -1,7 +1,7 @@
 # git status
 
 > Zeige die Änderungen an Dateien in einem Git-Repository an.
-> Mehr Informationen: <https://git-scm.com/docs/git-status>.
+> Weitere Informationen: <https://git-scm.com/docs/git-status>.
 
 - Zeige veränderte Dateien an, die noch nicht für den Commit hinzugefügt wurden:
 

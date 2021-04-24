@@ -1,7 +1,7 @@
 # git add
 
 > Füge Dateien zum Index/Stage hinzu.
-> Mehr Informationen: <https://git-scm.com/docs/git-add>.
+> Weitere Informationen: <https://git-scm.com/docs/git-add>.
 
 - Füge eine bestimmte Datei zum Index/Stage hinzu:
 

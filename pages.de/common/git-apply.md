@@ -1,7 +1,7 @@
 # git apply
 
 > Integriere eine Patch-Datei und/oder füge sie zum Index/Stage hinzu.
-> Mehr Informationen: <https://git-scm.com/docs/git-apply>.
+> Weitere Informationen: <https://git-scm.com/docs/git-apply>.
 
 - Gib Meldungen über eine gepatchten Datei aus:
 

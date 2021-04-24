@@ -1,7 +1,7 @@
 # git push
 
 > Lade Commits in ein Remote-Repository hoch.
-> Mehr Informationen: <https://git-scm.com/docs/git-push>.
+> Weitere Informationen: <https://git-scm.com/docs/git-push>.
 
 - Sende lokale Änderungen des aktuellen Branches zu seinem entfernten Repository (Remote Branch):
 
