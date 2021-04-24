@@ -2,7 +2,7 @@
 
 > Generiere einen gezippten Android-Fehlerbericht.
 > Dieser Befehl kann nur mit `adb shell` verwendet werden.
-> Mehr Informationen: N/A.
+> Weitere Informationen: N/A.
 
 - Generiere einen vollständigen Fehlerbericht eines Android Geräts:
 
