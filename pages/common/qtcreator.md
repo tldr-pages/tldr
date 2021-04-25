@@ -23,6 +23,6 @@
 
 `qtcreator -presentationMode`
 
-- Start Qt Creator and show a specific commit hash:
+- Start Qt Creator and show the diff from a specific commit:
 
-`qtcreator -git-show {{commit_hash}}`
+`qtcreator -git-show {{commit}}`
