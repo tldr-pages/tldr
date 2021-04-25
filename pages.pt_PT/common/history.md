@@ -16,4 +16,4 @@
 
 - Mostrar as entradas do histórico da linha de comandos que correspondem a uma expressão regular:
 
-`history | grep {{regex}}`
+`history | grep {{expressão_regular}}`

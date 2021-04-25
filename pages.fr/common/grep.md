@@ -18,7 +18,7 @@
 
 - Utilise des expressions rationnelles étendues (supporte `?`, `+`, `{}`, `()` et `|`) :
 
-`grep -E {{^regex$}} {{chemin/vers/fichier}}`
+`grep -E {{^expression_régulière$}} {{chemin/vers/fichier}}`
 
 - Affiche 3 lignes de [C]ontexte, avant ([B]efore), ou [A]près chaque concordance :
 

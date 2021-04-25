@@ -24,7 +24,7 @@
 
 `<Esc>/{{pattern}}<Invio>`
 
-- Effettua una sostituzione tramite regex nell'intero file:
+- Effettua una sostituzione tramite espressione regolare nell'intero file:
 
 `<Esc>:%s/{{pattern}}/{{sostituzione}}/g<Invio>`
 
