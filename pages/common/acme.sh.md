@@ -33,4 +33,4 @@
 
 - Install certificate file into location specified by its parameter (not displayed):
 
-`acme.sh --install-cert --domain {{example.com}} --reloadcmd {{reload_commad}}`
+`acme.sh --install-cert --domain {{example.com}} --reloadcmd {{reload_command}}`
