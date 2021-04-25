@@ -2,7 +2,7 @@
 
 > Query the Network Time Protocol (NTP) daemon.
 
-- Use ntpq in interactive mode:
+- Start ntpq in interactive mode:
 
 `ntpq -i`
 
