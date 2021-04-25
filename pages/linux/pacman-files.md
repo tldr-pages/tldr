@@ -1,6 +1,7 @@
 # pacman --files
 
 > Arch Linux package manager utility.
+> See also `pkgfile`.
 > More information: <https://man.archlinux.org/man/pacman.8>.
 
 - Display help:
