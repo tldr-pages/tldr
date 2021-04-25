@@ -1,6 +1,6 @@
 # chronyc
 
-> Query Chrony (NTP) daemon.
+> Query the Chrony NTP daemon.
 
 - Use chronyc in interactive mode:
 
