@@ -11,7 +11,7 @@
 
 `chronyc tracking`
 
-- Print the time sources that Chrony is currently using as a time source:
+- Print the time sources that Chrony is currently using:
 
 `chronyc sources`
 
@@ -19,7 +19,7 @@
 
 `chronyc sourcestats`
 
-- Step system clock immediately, bypassing any slewing:
+- Step the system clock immediately, bypassing any slewing:
 
 `chronyc makestep`
 
