@@ -13,7 +13,7 @@
 
 - Herstart de huidige machine:
 
-`shutdown /r`
+`shutdown /r /t 0`
 
 - Zet de huidige machine in slaapstand:
 
@@ -26,10 +26,6 @@
 - Zet een timer in aantal seconden voor het afsluiten van de huidige machine:
 
 `shutdown /s /t {{seconden}}`
-
-- Specifieer een reden voor het afsluiten van de machine:
-
-`shutdown /s /c "{{reden}}"`
 
 - Breek een afsluit sequentie af vooraleer de timer was afgelopen:
 

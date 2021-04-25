@@ -1,6 +1,6 @@
 # gradle
 
-> Gradle es un sistema de código abierto para automatizar la compilación de proyectos
+> Gradle es un sistema de código abierto para automatizar la compilación de proyectos.
 > Más información: <https://gradle.org>.
 
 - Compila un proyecto:

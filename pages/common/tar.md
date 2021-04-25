@@ -1,7 +1,7 @@
 # tar
 
 > Archiving utility.
-> Often combined with a compression method, such as gzip or bzip.
+> Often combined with a compression method, such as gzip or bzip2.
 > More information: <https://www.gnu.org/software/tar>.
 
 - [c]reate an archive from [f]iles:

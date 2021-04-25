@@ -1,7 +1,7 @@
 # git restore
 
 > Restura archivo del arbol de trabajo. Requiere la version 2.23 o superior de Git.
-> Véase también `git checkout`
+> Véase también `git checkout`.
 > Más información: <https://git-scm.com/docs/git-restore>.
 
 - Restaura un archivo eliminado del contenido del commit actual (HEAD):

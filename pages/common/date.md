@@ -1,6 +1,7 @@
 # date
 
 > Set or display the system date.
+> More information: <https://www.gnu.org/software/coreutils/date>.
 
 - Display the current date using the default locale's format:
 

@@ -1,6 +1,7 @@
 # sleep
 
 > Delay for a specified amount of time.
+> More information: <https://www.gnu.org/software/coreutils/sleep>.
 
 - Delay in seconds:
 

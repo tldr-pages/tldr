@@ -1,6 +1,7 @@
 # users
 
 > نمایش لیست کاربران لاگین شده.
+> اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/users>.
 
 - نمایش لیست کاربران لاگین شده:
 

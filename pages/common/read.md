@@ -10,10 +10,6 @@
 
 `read -a {{array}}`
 
-- Enable backspace and GNU readline hotkeys when entering input with read:
-
-`read -e {{variable}}`
-
 - Specify the number of maximum characters to be read:
 
 `read -n {{character_count}} {{variable}}`
@@ -33,3 +29,7 @@
 - Do not echo typed characters (silent mode):
 
 `read -s {{variable}}`
+
+- Read stdin and perform an action on every line:
+
+`while read line; do echo "$line"; done`

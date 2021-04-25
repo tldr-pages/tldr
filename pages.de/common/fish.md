@@ -4,26 +4,26 @@
 > Eine benutzerfreundliche Eingabeaufforderung.
 > Mehr Informationen: <https://fishshell.com>.
 
-- Starte interaktive Eingabeaufforderung:
+- Starte fish:
 
 `fish`
 
-- Führe einen Befehl aus:
+- Führe einen Befehl mit fish aus:
 
 `fish -c "{{befehl}}"`
 
-- Führe Befehle von Datei aus:
+- Führe ein fish-Skript aus:
 
-`fish {{datei.fish}}`
+`fish {{pfad/zu/datei.fish}}`
 
-- Überprüfe eine Datei auf Syntax Fehler:
+- Überprüfe ein fish-Skript auf Syntaxfehler:
 
-`fish --no-execute {{datei.fish}}`
+`fish --no-execute {{pfad/zu/datei.fish}}`
 
-- Zeige Informationen über derzeitige Version und schließe:
+- Gib die Version von fish aus:
 
 `fish --version`
 
-- Setze und exportiere Umgebungsvariabeln die nach einem Neustart weiter bestehen:
+- Setze und exportiere eine permanente Umgebungsvariable:
 
-`set -Ux {{variable_name}} {{variable_wert}}`
+`set -Ux {{name}} {{wert}}`

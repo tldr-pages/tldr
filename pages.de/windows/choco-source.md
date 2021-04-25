@@ -17,7 +17,7 @@
 
 - Füge eine neue Paketquelle mit Client-Zertifikat hinzu:
 
-`choco source add --name {{name}} --source {{url}} --cert {{pfad/zum/zertifikat}}`
+`choco source add --name {{name}} --source {{url}} --cert {{pfad/zu/zertifikat}}`
 
 - Aktiviere eine Paketquelle:
 

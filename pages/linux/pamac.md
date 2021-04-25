@@ -1,6 +1,8 @@
 # pamac
 
 > A command line utility for the GUI package manager pamac.
+> If you can't see the AUR packages, enable it in `/etc/pamac.conf` or in the GUI.
+> More information: <https://wiki.manjaro.org/index.php/Pamac>.
 
 - Install a new package:
 
@@ -8,7 +10,7 @@
 
 - Remove a package and its no longer required dependencies (orphans):
 
-`pamac remove -o {{package_name}}`
+`pamac remove --orphans {{package_name}}`
 
 - Search the package database for a package:
 
@@ -16,8 +18,12 @@
 
 - List installed packages:
 
-`pamac list -i`
+`pamac list --installed`
 
 - Check for package updates:
 
 `pamac checkupdates`
+
+- Upgrade all packages:
+
+`pamac upgrade`

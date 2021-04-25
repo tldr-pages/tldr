@@ -1,7 +1,7 @@
 # ab
 
 > Утилита бенчмаркинга Apache. Самая простая утилита для проведения нагрузочного тестирования.
-> Больше информации: <https://httpd.apache.org/docs/2.4/programs/ab.html>.
+> Больше информации: <https://httpd.apache.org/docs/current/programs/ab.html>.
 
 - Запустить 100 запросов HTTP GET по заданному URL:
 
@@ -21,4 +21,4 @@
 
 - Запустить 100 запросов HTTP POST по заданному URL, используя в качестве полезной нагрузки JSON из файла:
 
-`ab -n {{100}} -T {{application/json}} -p {{data.json}} {{url}}`
+`ab -n {{100}} -T {{application/json}} -p {{путь/до/файла.json}} {{url}}`

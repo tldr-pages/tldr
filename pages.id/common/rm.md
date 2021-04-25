@@ -1,6 +1,7 @@
 # rm
 
 > Menghapus berkas atau direktori.
+> Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/rm>.
 
 - Menghapus berkas dari lokasi manapun:
 

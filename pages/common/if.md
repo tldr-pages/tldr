@@ -1,27 +1,28 @@
 # if
 
 > Simple shell conditional.
+> See also: `test`, `[`.
 
-- Echo a different thing depending on a command's success:
+- Execute two different commands based on a condition:
 
-`{{command}} && echo "success" || echo "failure"`
+`if {{command}}; then {{echo "true"}}; else {{echo "false"}}; fi`
 
-- Full if syntax:
+- Check if a variable is defined:
 
-`if {{condition}}; then echo "true"; else echo "false"; fi`
+`if [[ -n "{{$VARIABLE}}" ]]; then {{echo "defined"}}; else {{echo "not defined"}}; fi`
 
-- List available if conditions:
+- Check if a file exists:
 
-`help test`
+`if [[ -f "{{path/to/file}}" ]]; then {{echo "true"}}; else {{echo "false"}}; fi`
 
-- Test if a given variable is empty:
+- Check if a directory exists:
 
-`if [[ -z $GIT_BRANCH ]]; then echo "true"; else echo "false"; fi`
+`if [[ -d "{{path/to/directory}}" ]]; then {{echo "true"}}; else {{echo "false"}}; fi`
 
-- Test if a file exists:
+- Check if a file or directory exists:
 
-`if [[ -e {{filename}} ]]; then echo "true"; else echo "false"; fi`
+`if [[ -e "{{path/to/file_or_directory}}" ]]; then {{echo "true"}}; else {{echo "false"}}; fi`
 
-- If directory not exists:
+- List all possible conditions (`test` is an alias to `[`; both are commonly used with `if`):
 
-`if [[ ! -d {{path/to/directory}} ]]; then echo "true"; else echo "false"; fi`
+`man [`

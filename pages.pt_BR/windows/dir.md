@@ -17,4 +17,4 @@
 
 - Mostrar o conteúdo do diretório provido pelo usuário, incluindo arquivos e pastas escondidas:
 
-`dir {{caminho/para/diretório}}} /A`
+`dir {{caminho/para/diretório}} /A`

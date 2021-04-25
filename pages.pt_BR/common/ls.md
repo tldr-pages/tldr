@@ -1,6 +1,7 @@
 # ls
 
 > Listar o conteúdo de um diretório.
+> Mais informações: <https://www.gnu.org/software/coreutils/ls>.
 
 - Listar todos os arquivos, apresentando um arquivo por linha:
 
@@ -14,7 +15,7 @@
 
 `ls -la`
 
-- Listar todos os arquivos, apresentando o tamanho em medidas legíveis por humanos (kB, MB, GB):
+- Listar todos os arquivos, apresentando o tamanho em medidas legíveis por humanos (KiB, MiB, GiB):
 
 `ls -lh`
 

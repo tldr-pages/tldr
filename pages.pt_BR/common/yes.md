@@ -1,6 +1,7 @@
 # yes
 
 > Exibe algo na tela repetidamente.
+> Mais informações: <https://www.gnu.org/software/coreutils/yes>.
 
 - Exibir na tela a palavra "mensagem" repetidamente:
 

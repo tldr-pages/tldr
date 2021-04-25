@@ -1,6 +1,7 @@
 # lvresize
 
 > Change the size of a logical volume.
+> See also: `lvm`.
 > More information: <https://man7.org/linux/man-pages/man8/lvresize.8.html>.
 
 - Change the size of a logical volume to 120GB:

@@ -1,6 +1,7 @@
 # prstat
 
 > Report active process statistics.
+> More information: <https://www.unix.com/man-page/sunos/1m/prstat>.
 
 - Examine all processes and reports statistics sorted by CPU usage:
 

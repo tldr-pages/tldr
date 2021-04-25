@@ -40,7 +40,7 @@ It certainly doesn't help that the first option explained in `man tar` is:
 There seems to be room for simpler help pages, focused on practical examples.
 How about:
 
-![screenshot of the tldr-node-client displaying the tldr page for the tar command](images/screenshot.png)
+![animated svg of the tldr client displaying the tar command](images/tldr.svg)
 
 This repository is just that: an ever-growing collection of examples
 for the most common UNIX, Linux, macOS, SunOS and Windows command-line tools.
@@ -56,7 +56,7 @@ which is supported by the tldr-pages project maintainers:
 That way you can write `tldr tar` in the terminal to show the tldr page for `tar`,
 just like you would write `man tar` to show its manpage.
 
-However, if you just want to browse without installing anything, check 
+However, if you just want to browse without installing anything, check
 out the [PDF version](https://tldr.sh/assets/tldr-book.pdf).
 
 There are also various other clients provided by the community,
@@ -69,8 +69,10 @@ both for the command line and for other platforms:
 - Android clients:
   - [tldroid](https://github.com/hidroh/tldroid), available on
     [Google Play](https://play.google.com/store/apps/details?id=io.github.hidroh.tldroid) *(outdated)*
+  - [tldr-flutter](https://github.com/Techno-Disaster/tldr-flutter), available on
+    [Google Play](https://play.google.com/store/apps/details?id=wtf.technodisaster.tldr) or [F-Droid](https://f-droid.org/packages/wtf.technodisaster.tldr/)
 - Bash clients:
-  - [tldr](https://github.com/raylee/tldr)
+  - [tldr-sh-client](https://github.com/raylee/tldr-sh-client)
   - [tldr-bash-client](https://gitlab.com/pepa65/tldr-bash-client)
 - [C# client](https://github.com/principis/tldr-sharp)
 - [C client](https://github.com/tldr-pages/tldr-c-client):
@@ -89,16 +91,16 @@ both for the command line and for other platforms:
 - Docker images:
     - [tldr-docker](https://github.com/nutellinoit/tldr-docker) - Run the `tldr` command via a docker container: `alias tldr='docker run --rm -it -v ~/.tldr/:/root/.tldr/ nutellinoit/tldr'`
 - Elixir clients:
-  - [ExTldr](https://github.com/ivanhercaz/extldr).
+  - [ExTldr](https://github.com/tldr-pages/extldr).
   - [TLDR Elixir Client](https://github.com/edgurgel/tldr_elixir_client)
   (binaries not yet available)
 - [Emacs client](https://github.com/kuanyui/tldr.el), available on
-  [MELPA](https://github.com/melpa/melpa)
+  [MELPA](https://melpa.org/#/tldr)
 - Go clients:
   - [github.com/pranavraja/tldr](https://github.com/pranavraja/tldr):
     `go get github.com/pranavraja/tldr`
     (or [platform binaries](https://github.com/pranavraja/tldr/releases))
-  - [4d63.com/tldr](https://4d63.com/tldr):
+  - [https://github.com/leighmcculloch/tldr](https://github.com/leighmcculloch/tldr):
     `go get 4d63.com/tldr` or `brew install 4d63/tldr/tldr`
     (or [platform binaries](https://github.com/leighmcculloch/tldr/releases))
   - [github.com/elecprog/tldr](https://github.com/elecprog/tldr):
@@ -122,7 +124,7 @@ both for the command line and for other platforms:
 - [Node.js client](https://github.com/tldr-pages/tldr-node-client):
   `npm install -g tldr`
 - [OCaml client](https://github.com/RosalesJ/tldr-ocaml): `opam install tldr`
-- [Perl5 client](https://github.com/shoichikaji/perl-tldr):
+- [Perl5 client](https://github.com/skaji/perl-tldr):
   `cpanm App::tldr`
 - [PHP client](https://github.com/BrainMaestro/tldr-php):
   `composer global require brainmaestro/tldr`
@@ -136,11 +138,13 @@ both for the command line and for other platforms:
 - [Ruby client](https://github.com/YellowApple/tldrb):
   `gem install tldrb`
 - [Rust client](https://github.com/dbrgn/tealdeer):
-  `cargo install tealdeer`
+  `cargo install tealdeer` or `brew install tealdeer`
 - [Vim Client](https://github.com/wlemuel/vim-tldr)
 - [Visual Studio Code extension](https://github.com/bmuskalla/vscode-tldr) available on [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=bmuskalla.vscode-tldr)
 - Web clients:
-    - [tldr.jsx](https://github.com/ostera/tldr.jsx): http://tldr.ostera.io/
+    - [tldr.dendron.so](https://github.com/kevinslin/seed-tldr): https://tldr.dendron.so
+    - [tldr.jsx](https://github.com/ostera/tldr.jsx): http://tldr.ostera.io
+    - [tldr.finzzz.net](https://git.finzzz.net/tldr/): https://tldr.finzzz.net
     - [DistroWatch](https://distrowatch.com/dwres.php?resource=man-pages)
     - [tldr.ooops.me](https://tldr.ooops.me): web client with multilingual support
     - [TLDR Persian](https://opoet7.github.io/tldr-persian/): Web Client in Persian
@@ -159,6 +163,9 @@ so you can edit them directly and submit your changes as pull requests.
 All contributions are welcome!
 We strive to maintain a [welcoming and collaborative](GOVERNANCE.md) community.
 Have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!
+
+If you'd like to contribute to translations, you can visit <https://lukwebsforge.github.io/tldri18n/>
+to see the current progress of all translations.
 
 ## Similar projects
 

@@ -1,6 +1,7 @@
 # ifdown
 
 > Disable network interfaces.
+> More information: <https://manned.org/ifdown>.
 
 - Disable interface eth0:
 

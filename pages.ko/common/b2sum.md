@@ -1,7 +1,7 @@
 # b2sum
 
 > BLACK2 암호화 체크섬을 계산하십시오.
-> 더 많은 정보: <https://blake2.net/#su>.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/b2sum>.
 
 - 파일의 BLACKE2 체크섬 계산:
 

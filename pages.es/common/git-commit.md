@@ -5,11 +5,11 @@
 
 - Raliza un commit de los archivos marcados al repositorio con un mensaje:
 
-`git commit -m {{mensaje}`
+`git commit -m "{{mensaje}}"`
 
 - Marca automáticamente todos los archivos modificados y realiza un commit con un mensaje:
 
-`git commit -a -m {{mensaje}}`
+`git commit -a -m "{{mensaje}}"`
 
 - Sustituye el último commit con los cambios marcados actualmente:
 

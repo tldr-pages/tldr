@@ -1,7 +1,7 @@
 # tar
 
 > Utilitaire d'archivage.
-> Souvent combiné avec une méthode de compression, telle que gzip ou bzip.
+> Souvent combiné avec une méthode de compression, telle que gzip ou bzip2.
 > Plus d'informations : <https://www.gnu.org/software/tar>.
 
 - Créer une archive à partir de fichiers :

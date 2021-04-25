@@ -2,6 +2,7 @@
 
 > Remove jobs scheduled by `at` or `batch` commands.
 > To find job numbers use `atq`.
+> More information: <https://man.archlinux.org/man/at.1>.
 
 - Remove job number 10:
 

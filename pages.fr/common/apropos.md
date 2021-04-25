@@ -1,6 +1,7 @@
 # apropos
 
 > Recherche dans les pages de manuel, par exemple pour trouver une nouvelle commande.
+> Plus d'informations : <https://manned.org/apropos>.
 
 - Recherche par mot clé :
 

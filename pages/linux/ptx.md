@@ -1,6 +1,7 @@
 # ptx
 
 > Generate a permuted index of words from one or more text files.
+> More information: <https://www.gnu.org/software/coreutils/ptx>.
 
 - Generate a permuted index where the first field of each line is an index reference:
 

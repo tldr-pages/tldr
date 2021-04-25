@@ -11,7 +11,7 @@
 
 `conky -C > ~/.conkyrc`
 
--Ejecuta conky con un archivo de configuración concreto:
+- Ejecuta conky con un archivo de configuración concreto:
 
 `conky -c {{ruta/a/la/configuración}}`
 

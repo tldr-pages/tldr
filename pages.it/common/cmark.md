@@ -7,7 +7,7 @@
 
 `cmark --to html {{file.md}}`
 
-- Converti in latex da standard input:
+- Converti in LaTeX da standard input:
 
 `cmark --to latex`
 

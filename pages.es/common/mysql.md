@@ -1,6 +1,6 @@
 # mysql
 
-> Herramienta de línea de comandos para gestionar bases de datos MySQL
+> Herramienta de línea de comandos para gestionar bases de datos MySQL.
 > Más información: <https://www.mysql.com/>.
 
 - Conecta a una base de datos:

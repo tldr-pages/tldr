@@ -1,36 +1,36 @@
 # ssh
 
 > Secure Shell ist ein Protokoll für das sichere einloggen auf einem externen System.
-> Es kann dadurch eingesetzt werden um Kommandos auf externen Systemen auszuführen.
+> Es kann dafür eingesetzt werden um Befehle auf externen Systemen auszuführen.
 
-- Verbindung zu einem externen Server:
+- Stelle eine Verbindung zu einem externen Server her:
 
-`ssh {{Benutzer}}@{{Externer_Server}}`
+`ssh {{benutzer}}@{{externer_server}}`
 
-- Verbindung zu einem externen Server mit spezifischer Identität (privatem SSH Schlüssel):
+- Stelle eine Verbindung zu einem externen Server mit spezifischer Identität her (privater SSH Schlüssel):
 
-`ssh -i {{path/to/key_file}} {{Benutzer}}@{{Externer_Server}}`
+`ssh -i {{pfad/zu/schlüssel_datei}} {{benutzer}}@{{externer_server}}`
 
-- Verbindung zu einem externen Server unter einem spezifischen Port:
+- Stelle eine Verbindung zu einem externen Server unter einem spezifischen Port her:
 
-`ssh {{Benutzer}}@{{Externer_Server}} -p {{2222}}`
+`ssh {{benutzer}}@{{externer_server}} -p {{2222}}`
 
-- Ausführen eines Kommandos auf einem externen Server:
+- Führen einen Befehl auf einem externen Server aus:
 
-`ssh {{Externer_Server}} {{Kommando -mit -Optionen}}`
+`ssh {{externer_server}} {{befehl}}`
 
-- SSH Tunneln: Dynamische Port Weiterleitung (SOCKS proxy auf localhost:9999):
+- SSH Tunneln: Leite Ports dynamische Port weiter (SOCKS proxy auf localhost:1080):
 
-`ssh -D {{9999}} -C {{Benutzer}}@{{Externer_Server}}`
+`ssh -D {{1080}} {{benutzer}}@{{externer_server}}`
 
-- SSH Tunneln: Weiterleitung eines spezifischen Ports (localhost:9999 zu example.org:80) zusammen mit deaktivierter pseudy-tty Provisionierung für die Ausführung eines Befehls:
+- SSH Tunneln: Leite einen spezifischen Ports (localhost:9999 zu example.org:80) weiter zusammen mit deaktivierter pseudy-tty Provisionierung für die Ausführung eines Befehls:
 
-`ssh -L {{9999}}:{{example.org}}:{{80}} -N -T {{Benutzer}}@{{Externer_Server}}`
+`ssh -L {{9999}}:{{example.org}}:{{80}} -N -T {{benutzer}}@{{externer_server}}`
 
-- SSH Springen: Verbinden über einen Spring-Server zu einem externen Server (Es können auch mehrere Spring-Server über eine Komma-separierte Liste angegeben werden):
+- SSH Springen: Verbinde über einen Spring-Server zu einem externen Server (Es können auch mehrere Spring-Server über eine Komma-separierte Liste angegeben werden):
 
-`ssh -J {{Benutzer}}@{{Spring_Server}} {{Benutzer}}@{{Externer_Server}}`
+`ssh -J {{benutzer@sring_server}} {{benutzer}}@{{externer_server}}`
 
-- Agenten Weiterleitung: Weiterleiten der eigenen Authentifizierungs-Information an den externen Server (siehe `man ssh_config` für mehr Optionen):
+- Agenten Weiterleitung: Leite ie eigenen Authentifizierungs-Information an den externen Server weiter (siehe `man ssh_config` für mehr Optionen):
 
-`ssh -A {{Benutzer}}@{{Externer_Server}}`
+`ssh -A {{benutzer}}@{{externer_server}}`

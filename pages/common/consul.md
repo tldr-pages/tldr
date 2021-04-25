@@ -1,7 +1,7 @@
 # consul
 
 > Distributed key-value store with health checking and service discovery.
-> More information: <https://www.consul.io/docs/commands/index.html>.
+> More information: <https://www.consul.io/commands>.
 
 - Check the Consul version:
 

@@ -52,7 +52,7 @@ exceptions can always be considered, via open community discussion.)
 - **Organization members who remain active for a while should become organization owners.**
   Specifically: members of the tldr-pages organization
   who remain _active for at least 6 months_
-  (see `https://github.com/tldr-pages/tldr/blob/master/MAINTAINERS.md#current-organization-members`)
+  (see [`MAINTAINERS.md`](MAINTAINERS.md#organization-members))
   should be invited to become an
   [**owner**](https://help.github.com/articles/permission-levels-for-an-organization/)
   of the tldr-pages organization.
@@ -111,8 +111,8 @@ using one of the template messages below as a base.
    go to https://github.com/tldr-pages/tldr/settings/collaboration
    and add them to the repository as collaborator with write permissions.
 
-3. Open a PR adding their name to the "Current repository collaborators" section
-   in [MAINTAINERS.md](MAINTAINERS.md).
+3. Open a PR adding their name to the "Repository collaborators" section
+   in [MAINTAINERS.md](MAINTAINERS.md#repository-collaborators).
    Make sure to include `Closes #<issue number>` in the PR description.
    The issue will then be automatically closed once the PR is merged.
 
@@ -138,8 +138,8 @@ using one of the template messages below as a base.
    go to https://github.com/orgs/tldr-pages/people
    and add them to the organization as a member.
 
-3. Open a PR moving their name to the "Current organization members" section
-   in [MAINTAINERS.md](MAINTAINERS.md).
+3. Open a PR moving their name to the "Organization members" section
+   in [MAINTAINERS.md](MAINTAINERS.md#organization-members).
    Make sure to include `Closes #<issue number>` in the PR description.
    The issue will then be automatically closed once the PR is merged.
 
@@ -164,8 +164,8 @@ using one of the template messages below as a base.
    go to https://github.com/orgs/tldr-pages/people
    and change their role from "member" to "owner".
 
-3. Open a PR moving their name to the "Current organization owners" section
-   in [MAINTAINERS.md](MAINTAINERS.md).
+3. Open a PR moving their name to the "Organization owners" section
+   in [MAINTAINERS.md](MAINTAINERS.md#organization-owners).
    Make sure to include `Closes #<issue number>` in the PR description.
    The issue will then be automatically closed once the PR is merged.
 

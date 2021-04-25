@@ -1,7 +1,8 @@
 # apt-get
 
-> Servizio di gestione dei pacchetti per Debian e Ubuntu
+> Servizio di gestione dei pacchetti per Debian e Ubuntu.
 > Cerca i pacchetti usando `apt-cache`.
+> Maggiori informazioni: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
 
 - Aggiorna la lista dei pacchetti e delle loro versioni disponibili (è consigliato eseguire questo comando prima di altri comandi `apt-get`):
 
