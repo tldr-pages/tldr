@@ -9,7 +9,7 @@
 
 - Launch Dolphin and display a specific directory:
 
-`nautilus {{path/to/directory}}`
+`dolphin {{path/to/directory}}`
 
 - Launch Dolphin with a specific file or directory selected:
 
@@ -17,7 +17,7 @@
 
 - Launch Dolphin in a separated window:
 
-`nautilus --new-window`
+`dolphin --new-window`
 
 - Launch Dolphin with a split view:
 
@@ -25,8 +25,8 @@
 
 - Start Dolphin daemon (only required for DBus interface):
 
-`nautilus --daemon`
+`dolphin --daemon`
 
 - Display help:
 
-`nautilus --help`
+`dolphin --help`
