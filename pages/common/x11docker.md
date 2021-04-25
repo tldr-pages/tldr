@@ -10,7 +10,7 @@
 
 - Launch Xfce in a window:
 
-`x11docker --desktop {{x11docker/lxde}}`
+`x11docker --desktop {{x11docker/xfce}}`
 
 - Launch GNOME in a window:
 
