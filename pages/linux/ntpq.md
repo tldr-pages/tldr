@@ -15,7 +15,7 @@
 
 `ntpq --numeric --peers`
 
-- Use ntpq in debugging mode:
+- Use `ntpq` in debugging mode:
 
 `ntpq --debug-level`
 
