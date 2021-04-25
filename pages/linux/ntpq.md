@@ -17,7 +17,7 @@ More information: <https://www.eecis.udel.edu/~mills/ntp/html/ntpq.html>.
 
 - Use ntpq in debugging mode:
 
-`ntpq -d`
+`ntpq --debug-level`
 
 - Print ntp system variables values:
 
