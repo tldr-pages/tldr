@@ -11,7 +11,7 @@
 
 `ntpq --peers`
 
-- Print list of ntp peers without resolving hostnames from IP addresses:
+- Print a list of NTP peers without resolving hostnames from IP addresses:
 
 `ntpq --numeric --peers`
 
