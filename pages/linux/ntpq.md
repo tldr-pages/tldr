@@ -7,7 +7,7 @@
 
 `ntpq --interactive`
 
-- Print list of ntp peers:
+- Print a list of NTP peers:
 
 `ntpq --peers`
 
