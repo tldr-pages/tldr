@@ -3,7 +3,7 @@
 > Query the Network Time Protocol (NTP) daemon.
 > More information: <https://www.eecis.udel.edu/~mills/ntp/html/ntpq.html>.
 
-- Start ntpq in interactive mode:
+- Start `ntpq` in interactive mode:
 
 `ntpq --interactive`
 
