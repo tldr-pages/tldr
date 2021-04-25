@@ -19,7 +19,7 @@
 
 `dolphin --new-window`
 
-- Launch Dolphin with a split view:
+- Launch Dolphin in split view:
 
 `dolphin --split`
 
