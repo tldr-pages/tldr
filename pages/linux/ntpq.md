@@ -13,7 +13,7 @@ More information: <https://www.eecis.udel.edu/~mills/ntp/html/ntpq.html>.
 
 - Print list of ntp peers without resolving hostnames from IP addresses:
 
-`ntpq -np`
+`ntpq --numeric --peers`
 
 - Use ntpq in debugging mode:
 
