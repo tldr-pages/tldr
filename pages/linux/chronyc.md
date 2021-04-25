@@ -6,7 +6,7 @@
 
 `chronyc`
 
-- Display tracking stats for chrony daemon:
+- Display tracking stats for the Chrony daemon:
 
 `chronyc tracking`
 
