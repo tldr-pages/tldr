@@ -10,7 +10,7 @@
 
 `chronyc tracking`
 
-- Print time sources chrony is currently using as a time source:
+- Print the time sources that Chrony is currently using as a time source:
 
 `chronyc sources`
 
