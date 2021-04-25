@@ -1,6 +1,6 @@
 # ntpq
 
-> Query Network Time Protocol (NTP) daemon.
+> Query the Network Time Protocol (NTP) daemon.
 
 - Use ntpq in interactive mode:
 
