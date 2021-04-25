@@ -17,11 +17,11 @@
 
 - Open a file in Kate with the cursor at the specific line:
 
-`kate --line {{line_number}} {{path/to/file}}`
+`kate --line {{line}} {{path/to/file}}`
 
-- Delete the files opened by Kate after use:
+- Open a file in Kate with the cursor at the specific line and column:
 
-`kate --tempfile`
+`kate --line {{line}} --column {{column}} {{path/to/file}}`
 
 - Launch Kate creating a file from stdin:
 
