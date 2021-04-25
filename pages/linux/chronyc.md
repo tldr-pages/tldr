@@ -2,7 +2,7 @@
 
 > Query the Chrony NTP daemon.
 
-- Use chronyc in interactive mode:
+- Start chronyc in interactive mode:
 
 `chronyc`
 
