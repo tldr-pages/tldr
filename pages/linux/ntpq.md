@@ -21,4 +21,4 @@ More information: <https://www.eecis.udel.edu/~mills/ntp/html/ntpq.html>.
 
 - Print ntp system variables values:
 
-`ntpq -c rv`
+`ntpq --command={{rv}}`
