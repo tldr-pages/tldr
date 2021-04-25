@@ -7,9 +7,13 @@
 
 `jest`
 
-- Run the test suites from files whose paths match the given regular expression:
+- Run the test suites from the given files:
 
-`jest {{test_file1}} {{path/to/test_file2.js}}`
+`jest {{path/to/file1}} {{path/to/file2}}`
+
+- Run the test suites from files within the current and subdirectories, whose paths match the given regular expression:
+
+`jest {{regular_expression}} {{regular_expression}}`
 
 - Run the tests whose names match the given regular expression:
 
