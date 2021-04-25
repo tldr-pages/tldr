@@ -5,7 +5,7 @@ More information: <https://www.eecis.udel.edu/~mills/ntp/html/ntpq.html>.
 
 - Start ntpq in interactive mode:
 
-`ntpq -i`
+`ntpq --interactive`
 
 - Print list of ntp peers:
 
