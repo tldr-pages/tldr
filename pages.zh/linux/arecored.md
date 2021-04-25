@@ -1,7 +1,7 @@
 # arecored
 
 > ALSA 声卡驱动的声音录制器。
-> 更多信息：<https://linux.die.net/man/1/arecord>.
+> 更多信息：<https://manned.org/aplay>.
 
 - 以 “CD” 质量录制一段声音（录制结束以 Ctrl-C 停止）：
 
