@@ -9,7 +9,7 @@ More information: <https://www.eecis.udel.edu/~mills/ntp/html/ntpq.html>.
 
 - Print list of ntp peers:
 
-`ntpq -p`
+`ntpq --peers`
 
 - Print list of ntp peers without resolving hostnames from IP addresses:
 
