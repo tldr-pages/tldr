@@ -29,8 +29,8 @@
 
 - Issue a certificate using an automatic DNS API mode:
 
-`acme.sh --issue --dns {{dns_api}} --domain {{example.com}}`
+`acme.sh --issue --dns {{dns_cf}} --domain {{example.com}}`
 
 - Install certificate file into location specified by its parameter (not displayed):
 
-`acme.sh --install-cert --domain {{example.com}} --reloadcmd {{reload_command}}`
+`acme.sh --install-cert -d {{example.com}} --key-file {{/path/to/example.com.key}} --fullchain-file {{/path/to/example.com.cer}} --reloadcmd {{"systemctl force-reload nginx"}}`
