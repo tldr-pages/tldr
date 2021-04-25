@@ -23,7 +23,7 @@
 
 `dolphin --split`
 
-- Start Dolphin daemon (only required for DBus interface):
+- Start the Dolphin daemon (only required to use the DBus interface):
 
 `dolphin --daemon`
 
