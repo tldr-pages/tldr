@@ -1,7 +1,7 @@
 # ark
 
 > KDE 归档工具。
-> 更多信息： <https://docs.kde.org/stable5/en/kdeutils/ark/>。
+> 更多信息： <https://docs.kde.org/stable5/en/kdeutils/ark/>.
 
 - 将存档解压缩到当前目录：
 

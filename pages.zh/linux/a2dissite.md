@@ -1,7 +1,7 @@
 # a2dissite
 
 > 在基于 Debian 的操作系统上禁用 Apache 虚拟主机。
-> 更多信息：<https://manpages.debian.org/latest/apache2/a2dissite.8.html>。
+> 更多信息：<https://manpages.debian.org/latest/apache2/a2dissite.8.html>.
 
 - 禁用虚拟主机：
 
