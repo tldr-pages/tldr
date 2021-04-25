@@ -5,7 +5,7 @@
 
 - 显示符合一个正则表达式的 AUR 包：
 
-`auracle search '{{regex}}'`
+`auracle search '{{regular_expression}}'`
 
 - 显示 AUR 包列表的包信息，包名以一个单独的空格分隔：
 
