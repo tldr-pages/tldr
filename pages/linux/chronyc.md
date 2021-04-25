@@ -23,6 +23,6 @@
 
 `chronyc makestep`
 
-- Display verbose information about each ntp source:
+- Display verbose information about each NTP source:
 
 `chronyc ntpdata`
