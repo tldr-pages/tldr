@@ -9,7 +9,7 @@
 
 - Replace all occurrences of an extended regular expression in a file:
 
-`sed -E 's/{{regex}}/{{replace}}/g' {{filename}}`
+`sed -E 's/{{regular_expression}}/{{replace}}/g' {{filename}}`
 
 - Replace all occurrences of a string [i]n a file, overwriting the file (i.e. in-place):
 

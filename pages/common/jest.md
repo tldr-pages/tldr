@@ -7,11 +7,11 @@
 
 `jest`
 
-- Run the test suites from files whose paths match the given regex patterns:
+- Run the test suites from files whose paths match the given regular expression:
 
 `jest {{test_file1}} {{path/to/test_file2.js}}`
 
-- Run the tests whose names match the given regex pattern:
+- Run the tests whose names match the given regular expression:
 
 `jest --testNamePattern {{spec_name}}`
 
