@@ -19,6 +19,6 @@
 
 `ntpq --debug-level`
 
-- Print ntp system variables values:
+- Print NTP system variables values:
 
 `ntpq --command={{rv}}`
