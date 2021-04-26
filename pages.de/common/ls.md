@@ -11,6 +11,10 @@
 
 `ls -a`
 
+- Liste alle Datein mit einem abschließenden `/` bei Verzeichnis-Namen auf:
+
+`ls -F`
+
 - Liste alle Dateien mit Berechtigungen, Besitzer, Größe und Änderungsdatum auf:
 
 `ls -la`

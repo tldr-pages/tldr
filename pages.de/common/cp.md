@@ -22,3 +22,7 @@
 - Kopiere alle Textdateien in einem Verzeichnis und warte auf eine Bestätigung, falls eine Datei überschrieben werden soll:
 
 `cp -i {{/pfad/zu/*.txt}} {{pfad/zu/ziel_verzeichnis}}`
+
+- Dereferenziere symbolische Links vor dem Kopieren:
+
+`cp -L {{link}} {{pfad/zu/ziel_verzeichnis}}`
