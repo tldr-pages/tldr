@@ -11,7 +11,7 @@
 
 `kate {{https://example.com}}`
 
-- Start a new Kate instance:
+- Launch Kate, creating a new instance even if one is already open:
 
 `kate --new`
 
