@@ -15,6 +15,6 @@
 
 `virt-sysprep --domain {{vm_name}} --operations {{operation1,operation2,...}}`
 
-- Generate a new `/etc/machine-id` and enable customizations to be able to change the host name to avoid network conflicts:
+- Generate a new `/etc/machine-id` file and enable customizations to be able to change the host name to avoid network conflicts:
 
 `virt-sysprep --domain {{vm_name}} --enable {{customizations}} --hostname {{host_name}} --operation {{machine-id}}`
