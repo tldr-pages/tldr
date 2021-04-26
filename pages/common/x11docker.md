@@ -1,6 +1,6 @@
 # x11docker
 
-> Run GUI applications and desktops in docker giving focus on security.
+> Securely run GUI applications and desktop UIs in Docker containers.
 > See also `xephyr`.
 > More information: <https://github.com/mviereck/x11docker>.
 
