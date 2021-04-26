@@ -13,7 +13,7 @@
 
 - Run the specified operations instead of the enabled operations:
 
-`virt-sysprep --domain {{vm_name}} --operations {{operation, operation, ...}}`
+`virt-sysprep --domain {{vm_name}} --operations {{operation1,operation2,...}}`
 
 - Generate a new `/etc/machine-id` and enable customizations to be able to change the host_name to avoid network conflicts:
 
