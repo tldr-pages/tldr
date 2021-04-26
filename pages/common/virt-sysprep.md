@@ -7,7 +7,7 @@
 
 `virt-sysprep --list-operations`
 
-- Run all enabled operations but don't apply the changes:
+- Run all enabled operations but don't actually apply the changes:
 
 `virt-sysprep --domain {{vm_name}} --dry-run`
 
