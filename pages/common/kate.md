@@ -17,11 +17,11 @@
 
 - Open a file in Kate with the cursor at the specific line:
 
-`kate --line {{line}} {{path/to/file}}`
+`kate --line {{line_number}} {{path/to/file}}`
 
 - Open a file in Kate with the cursor at the specific line and column:
 
-`kate --line {{line}} --column {{column}} {{path/to/file}}`
+`kate --line {{line_number}} --column {{column_number}} {{path/to/file}}`
 
 - Launch Kate creating a file from stdin:
 
