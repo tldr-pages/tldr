@@ -1,7 +1,7 @@
 # virt-sysprep
 
 > Reset, unconfigure, or customize a virtual machine image.
-> More information: <https://manned.org/virt-sysprep.1>.
+> More information: <https://manned.org/virt-sysprep>.
 
 - List all supported operations (enabled operations are indicated with asterisks):
 
