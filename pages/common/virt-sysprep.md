@@ -11,7 +11,7 @@
 
 `virt-sysprep --domain {{vm_name}} --dry-run`
 
-- Run the specified operations instead of the enabled operations:
+- Run only the specified operations:
 
 `virt-sysprep --domain {{vm_name}} --operations {{operation1,operation2,...}}`
 
