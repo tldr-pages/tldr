@@ -23,7 +23,7 @@
 
 `kate --line {{line_number}} --column {{column_number}} {{path/to/file}}`
 
-- Launch Kate creating a file from stdin:
+- Launch Kate, creating a new temporary file with contents read from stdin:
 
 `cat {{path/to/file}} | kate --stdin`
 
