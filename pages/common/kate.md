@@ -9,7 +9,7 @@
 
 - Open a remote document in Kate:
 
-`kate {{https://example.com}}`
+`kate {{https://example.com/path/to/file}}`
 
 - Launch Kate, creating a new instance even if one is already open:
 
