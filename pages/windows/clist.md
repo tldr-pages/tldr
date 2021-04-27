@@ -1,4 +1,4 @@
-# cinst
+# clist
 
 > This command is an alias of `choco list`.
 

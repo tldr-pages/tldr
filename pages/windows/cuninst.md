@@ -1,4 +1,4 @@
-# cinst
+# cuninst
 
 > This command is an alias of `choco uninstall`.
 
