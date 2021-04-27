@@ -17,11 +17,11 @@
 
 `git reset -p {{chemin/vers/fichier}}`
 
-- Annuler le dernier *commit*, mais garder les chagements éffectués dans votre système de fichier :
+- Annuler le dernier *commit*, mais garder les changements effectués dans votre système de fichier :
 
 `git reset HEAD~`
 
-- Défaire les deux derniers *commits*, et ajouter leur changements à l'index adding their changes to the index (dans la zone de stage) :
+- Défaire les deux derniers *commits*, et ajouter leurs changements à l'index (dans la zone de stage) :
 
 `git reset --soft HEAD~2`
 

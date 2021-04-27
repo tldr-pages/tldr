@@ -1,9 +1,9 @@
 # git cat-file
 
-> Fournir des informations sur le contenu ou le type et la taille des objets du référentiel Git.
+> Fournir des informations sur le contenu ou le type et la taille des objets du dépôt Git.
 > Plus d'informations : <https://git-scm.com/docs/git-cat-file>.
 
-- Obtenir la taill [s] du commit HEAD en octets :
+- Obtenir la tail [s] du commit HEAD en octets :
 
 `git cat-file -s HEAD`
 

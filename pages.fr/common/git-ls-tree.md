@@ -7,10 +7,10 @@
 
 `git ls-tree {{nom_de_branche}}`
 
-- Lister le contenu de l'arbre dans le commit, recursif avec les sous-arbres :
+- Lister le contenu de l'arbre dans le commit, récursif avec les sous-arbres :
 
 `git ls-tree -r {{commit_hash}}`
 
-- Lister uniquement les moms de fichiers de l'arbre dans un commit :
+- Lister uniquement les noms de fichiers de l'arbre dans un commit :
 
 `git ls-tree --name-only {{commit_hash}}`

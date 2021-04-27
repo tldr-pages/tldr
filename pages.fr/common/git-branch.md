@@ -3,7 +3,7 @@
 > Commande Git principale pour travailler avec des branches.
 > Plus d'informations : <https://git-scm.com/docs/git-branch>.
 
-- Liste les branches locale, prefixe la branche courrante avec `*` :
+- Liste les branches locale en préfixant la branche courante avec `*` :
 
 `git branch`
 
@@ -11,11 +11,11 @@
 
 `git branch -a`
 
-- Affiche le nom de la branche courrante :
+- Affiche le nom de la branche courante :
 
 `git branch --show-current`
 
-- Crée une nouvelle branche depuis le commit courrant :
+- Crée une nouvelle branche depuis le commit courant :
 
 `git branch {{nom_de_branche}}`
 

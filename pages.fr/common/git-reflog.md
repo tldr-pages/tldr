@@ -11,6 +11,6 @@
 
 `git reflog {{nom_de_branche}}`
 
-- Affiche les 5 dérniéres entrés dans le reflog :
+- Affiche les 5 dernières entrées dans le reflog :
 
 `git reflog -n {{5}}`

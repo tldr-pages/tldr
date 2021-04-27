@@ -18,7 +18,7 @@
 
 `zip -r {{archive.zip}} {{chemin/du/répertoire1 chemin/du/répertoire2 chemin/du/fichier}}`
 
-- Créé une archive chifrée (l'utilisateur sera sollicité pour saisir le mot de passe) :
+- Créé une archive chiffrée (l'utilisateur sera sollicité pour saisir le mot de passe) :
 
 `zip -e -r {{archive.zip}} {{chemin/du/répertoire}}`
 
