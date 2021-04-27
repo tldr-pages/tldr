@@ -6,7 +6,7 @@
 
 `passwd`
 
-- Change the password of the current user:
+- Change the password of a specific user:
 
 `passwd {{username}}`
 
