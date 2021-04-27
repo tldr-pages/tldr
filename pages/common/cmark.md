@@ -3,7 +3,7 @@
 > Converts CommonMark Markdown formatted text to other formats.
 > More information: <https://github.com/commonmark/cmark>.
 
-- Render a Commonmark Markdown file to HTML:
+- Render a CommonMark Markdown file to HTML:
 
 `cmark --to html {{filename.md}}`
 
