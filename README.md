@@ -124,6 +124,7 @@ both for the command line and for other platforms:
 - [Node.js client](https://github.com/tldr-pages/tldr-node-client):
   `npm install -g tldr`
 - [OCaml client](https://github.com/RosalesJ/tldr-ocaml): `opam install tldr`
+- [Outfieldr](https://gitlab.com/ve-nt/outfieldr): A Zig client
 - [Perl5 client](https://github.com/skaji/perl-tldr):
   `cpanm App::tldr`
 - [PHP client](https://github.com/BrainMaestro/tldr-php):
