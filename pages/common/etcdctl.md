@@ -1,7 +1,7 @@
 # etcdctl
 
 > CLI interface for interacting with `etcd`, a highly-available key-value pair store.
-> Etcd stores data in hierarchically organized directories, as in a standard filesystem.
+> `etcd` stores data in hierarchically organized directories, as in a standard filesystem.
 > More information: <https://etcd.io/docs/latest/dev-guide/interacting_v3/>.
 
 - Display the value associated with a specified key:
