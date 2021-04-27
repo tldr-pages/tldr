@@ -11,7 +11,7 @@
 
 `git help --web {{subcommand}}`
 
-- Afficher la liste des sous commandes disponibles :
+- Afficher la liste des sous-commandes disponibles :
 
 `git help --all`
 

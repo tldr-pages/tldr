@@ -19,7 +19,7 @@
 
 `git bundle create {{chemin/vers/fichier.bundle}} --since={{7.days}} {{HEAD}}`
 
-- Vérifie qu'un empaquetage est valide et peut être appliquer à la branche courante :
+- Vérifie qu'un empaquetage est valide et peut être appliqué à la branche courante :
 
 `git bundle verify {{chemin/vers/fichier.bundle}}`
 
