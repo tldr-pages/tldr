@@ -8,7 +8,7 @@
 
 `git imerge rebase {{branche_sur_laquelle_rebaser}}`
 
-- Démarrer imerge merge (se placer dans la branche depuis laquelle "merger" d'abord) :
+- Démarrer imerge merge (se placer dans la branche depuis laquelle merger d'abord) :
 
 `git imerge merge {{branche_a_merger}}`
 
