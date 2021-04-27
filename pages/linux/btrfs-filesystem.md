@@ -11,7 +11,7 @@
 
 `sudo btrfs filesystem show {{path/to/btrfs_mount}}`
 
-- Defragment a single file on a btrfs filesystem (avoid while a deduplication agent is running):
+- Defragment a single file on a btrfs filesystem (avoid while a de-duplication agent is running):
 
 `sudo btrfs filesystem defragment -v {{path/to/file}}`
 
