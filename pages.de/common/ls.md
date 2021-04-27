@@ -11,7 +11,7 @@
 
 `ls -a`
 
-- Liste alle Datein mit einem abschließenden `/` bei Verzeichnis-Namen auf:
+- Liste alle Dateien mit einem abschließenden `/` bei Verzeichnis-Namen auf:
 
 `ls -F`
 

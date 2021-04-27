@@ -30,4 +30,4 @@
 
 - Setze und exportiere eine permanente Umgebungsvariable (nur innerhalb der Shell):
 
-`set -Ux {{variablen_name}} {{variablen_wert}}`
+`set -Ux {{variablenname}} {{variablenwert}}`

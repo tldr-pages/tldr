@@ -27,6 +27,6 @@
 
 `git clone --depth {{10}} {{url_zu_repository}}`
 
-- Klone ein existierendes Repository, aber hole nur einen bestimmten Branch:
+- Klone ein existierendes Repository, aber lade nur einen bestimmten Branch herunter:
 
 `git clone --branch {{name}} --single-branch {{url_zu_repository}}`
