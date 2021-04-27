@@ -1,6 +1,6 @@
 # convert
 
-> Imagemagick 이미지 변환 도구.
+> ImageMagick 이미지 변환 도구.
 > 더 많은 정보: <https://imagemagick.org/script/convert.php>.
 
 - JPG이미지를 PNG이미지로 변환:
