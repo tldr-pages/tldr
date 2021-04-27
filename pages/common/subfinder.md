@@ -12,7 +12,7 @@
 
 `subfinder --silent -d {{example.com}}`
 
-- Use bruteforcing to find subdomains:
+- Use brute force to find subdomains:
 
 `subfinder -d {{example.com}} -b`
 
