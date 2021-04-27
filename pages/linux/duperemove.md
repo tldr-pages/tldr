@@ -9,7 +9,7 @@
 
 `duperemove -r {{path/to/directory}}`
 
-- Deduplicate duplicate extents on a Btrfs or XFS (experimental) filesystem:
+- De-duplicate duplicate extents on a Btrfs or XFS (experimental) filesystem:
 
 `duperemove -r -d {{path/to/directory}}`
 
