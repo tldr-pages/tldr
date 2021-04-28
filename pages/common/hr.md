@@ -10,6 +10,6 @@
 
 `hr {{string}}`
 
-- Print a multiline horizontal rule:
+- Print a multi-line horizontal rule:
 
 `hr {{string_a}} {{string_b}} {{string_c}}`
