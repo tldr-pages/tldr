@@ -15,6 +15,6 @@
 
 `cmark --smart --to html {{filename.md}}`
 
-- Validate utf8 characters:
+- Validate UTF-8 characters:
 
 `cmark --validate-utf8 {{filename.md}}`

@@ -15,6 +15,6 @@
 
 `cmark --smart --to html {{파일명.md}}`
 
-- utf8 문자들을 검증:
+- UTF-8 문자들을 검증:
 
 `cmark --validate-utf8 {{파일명.md}}`
