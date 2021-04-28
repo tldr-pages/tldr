@@ -2,7 +2,7 @@
 
 > Program to display english Calendar on your terminal.
 
-- Display current month's calendar
+- Display the current month's calendar:
 
 `ical`
 
