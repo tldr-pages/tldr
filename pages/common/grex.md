@@ -15,7 +15,7 @@
 
 `grex -d {{space_separated_strings}}`
 
-- Replace unicode word character with '\w':
+- Replace Unicode word character with '\w':
 
 `grex -w {{space_separated_strings}}`
 

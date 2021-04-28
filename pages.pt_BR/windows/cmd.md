@@ -31,6 +31,6 @@
 
 `cmd /v:{{on|off}}`
 
-- Forçar que a saída de comandos use o padrão unicode:
+- Forçar que a saída de comandos use o padrão Unicode:
 
 `cmd /u`
