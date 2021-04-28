@@ -7,7 +7,7 @@
 
 `tldr {{command}}`
 
-- 展示 linux 下 tar 的 tldr 文档:
+- 展示 Linux 下 tar 的 tldr 文档:
 
 `tldr -p {{linux}} {{tar}}`
 
