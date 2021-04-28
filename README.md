@@ -111,7 +111,7 @@ both for the command line and for other platforms:
     (or [platform binaries](https://github.com/isacikgoz/tldr/releases))
   - [github.com/HardDie/myTldr](https://github.com/HardDie/myTldr):
     `go get github.com/HardDie/myTldr`
-    (or [platform binaries](https://github.com/HardDie/myTldr/releases))
+    (or [platform binaries](https://github.com/HardDie/myTldr/releases)) (supports custom pages directories)
 - iOS clients:
   - [tldr-man-page](https://github.com/freesuraj/TLDR), available on
     [App Store](https://appsto.re/sg/IQ0-_.i)
