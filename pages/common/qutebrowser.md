@@ -1,0 +1,24 @@
+# qutebrowser
+
+> A keyboard-driven, vim-like browser based on PyQt5.
+> More information: <https://qutebrowser.org/>.
+
+- Open qutebrowser with a specified (non-default) storage directory:
+
+`qutebrowser --basedir {{base_directory}}`
+
+- Open a qutebrowser instance with temporary settings:
+
+`qutebrowser --set {{option}} {{value}}`
+
+- Restore a named session of a qutebrowser instance:
+
+`qutebrowser --restore {{session_name}}`
+
+- Choose how to open URLs if there is already a qutebrowser instance running:
+
+`qutebrowser --target {{auto|tab|tab-bg|tab-silent|tab-bg-silent|window|private-window}}`
+
+- Open qutebrowser with a temporary base directory with stdout logging in json format:
+
+`qutebrowser --temp-basedir --json-logging`
