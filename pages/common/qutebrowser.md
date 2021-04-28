@@ -9,7 +9,7 @@
 
 - Open a qutebrowser instance with temporary settings:
 
-`qutebrowser --set {{option}} {{value}}`
+`qutebrowser --set {{content.geolocation}} {{true|false}}`
 
 - Restore a named session of a qutebrowser instance:
 
