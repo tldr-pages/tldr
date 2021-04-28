@@ -15,7 +15,7 @@
 
 `qutebrowser --restore {{session_name}}`
 
-- Choose how to open URLs if there is already a qutebrowser instance running:
+- Launch qutebrowser, opening all URLs using the specified method:
 
 `qutebrowser --target {{auto|tab|tab-bg|tab-silent|tab-bg-silent|window|private-window}}`
 
