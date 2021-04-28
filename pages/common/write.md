@@ -11,6 +11,6 @@
 
 `write {{testuser}} {{tty/5}}`
 
-- Send message to "jhondoe" on pseudo terminal `/dev/pts/5`:
+- Send message to "johndoe" on pseudo terminal `/dev/pts/5`:
 
-`write {{jhondoe}} {{pts/5}}`
+`write {{johndoe}} {{pts/5}}`
