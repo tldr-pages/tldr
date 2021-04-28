@@ -15,7 +15,7 @@
 
 `minikube service {{my_service}} --url`
 
-- Open kubernetes dashboard in a browser:
+- Open the Kubernetes dashboard in a browser:
 
 `minikube dashboard`
 
