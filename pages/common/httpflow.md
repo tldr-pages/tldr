@@ -11,7 +11,7 @@
 
 `httpflow {{host httpbin.org or host baidu.com}}`
 
-- Use a regexp to filter requests by urls:
+- Use a regexp to filter requests by URLs:
 
 `httpflow -u '{{regex}}'`
 

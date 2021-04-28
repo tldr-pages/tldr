@@ -3,7 +3,7 @@
 > Organisation des dépots suivis ("remotes").
 > Plus d'informations : <https://git-scm.com/docs/git-remote>.
 
-- Affiche les dépots existants, leur nom et url :
+- Affiche les dépots existants, leur nom et URL :
 
 `git remote -v`
 
@@ -15,7 +15,7 @@
 
 `git remote add {{nom_distant}} {{url_distant}}`
 
-- Change l'url d'un dépot (ajouter `--add` pour conserver l'url existante) :
+- Change l'URL d'un dépot (ajouter `--add` pour conserver l'URL existante) :
 
 `git remote set-url {{nom_distant}} {{new_url}}`
 
