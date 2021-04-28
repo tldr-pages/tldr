@@ -22,8 +22,8 @@
 
 - Display all lines except those that contain the given regular expression:
 
-`fgrep -v {{^regular_expression$}} {{path/to/file}}`
+`fgrep -v {{regular_expression}} {{path/to/file}}`
 
 - Display filenames whose content matches the regular expression at least once:
 
-`fgrep -l {{^regular_expression}} {{path/to/file1}} {{path/to/file2}}`
+`fgrep -l {{regular_expression}} {{path/to/file1}} {{path/to/file2}}`
