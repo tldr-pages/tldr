@@ -3,9 +3,9 @@
 > A keyboard-driven, vim-like browser based on PyQt5.
 > More information: <https://qutebrowser.org/>.
 
-- Open qutebrowser with a specified (non-default) storage directory:
+- Open qutebrowser with a specified storage directory:
 
-`qutebrowser --basedir {{base_directory}}`
+`qutebrowser --basedir {{path/to/directory}}`
 
 - Open a qutebrowser instance with temporary settings:
 
