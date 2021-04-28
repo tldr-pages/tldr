@@ -22,11 +22,11 @@
 
 - Cerca un pattern nel file (usa `n`/`N` per spostarti al risultato successivo/precedente):
 
-`<Esc>/{{pattern}}<Invio>`
+`<Esc>/{{espressione regolare}}<Invio>`
 
 - Effettua una sostituzione tramite espressione regolare nell'intero file:
 
-`<Esc>:%s/{{pattern}}/{{sostituzione}}/g<Invio>`
+`<Esc>:%s/{{espressione regolare}}/{{sostituzione}}/g<Invio>`
 
 - Salva modifiche al file ed esci:
 
