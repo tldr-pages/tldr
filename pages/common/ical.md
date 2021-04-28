@@ -10,6 +10,6 @@
 
 `ical {{year eg: 1999}}`
 
-- Display the calendar for a particular  month of particular yar
+- Display the calendar for a specific month of a specific year:
 
 `ical {{month, eg: 10}} {{year, eg: 1999}}`
