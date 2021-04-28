@@ -1,10 +1,10 @@
 # calibre-server
 
-> A server application that can be used to distribute ebooks over a network.
+> A server application that can be used to distribute eBooks over a network.
 > Note: eBooks must already be imported into the library using the GUI or the `calibredb` CLI.
 > More information: <https://manual.calibre-ebook.com/generated/en/calibre-server.html>.
 
-- Start a server to distribute ebooks. Access at http://localhost:8080:
+- Start a server to distribute eBooks. Access at http://localhost:8080:
 
 `calibre-server`
 
