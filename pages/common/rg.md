@@ -8,7 +8,7 @@
 
 `rg {{pattern}}`
 
-- Search for pattern including all .gitignored and hidden files:
+- Search for pattern recursively in the current directory, including hidden files and files listed in `.gitignore`:
 
 `rg --no-ignore --hidden {{pattern}}`
 
