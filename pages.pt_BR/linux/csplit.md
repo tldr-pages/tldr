@@ -22,4 +22,4 @@
 
 - Dividir um arquivo na linha que atenda a expressão regular:
 
-`csplit {{arquivo}} /{{expressão_regular}}/`
+`csplit {{arquivo}} /{{expressao_regular}}/`
