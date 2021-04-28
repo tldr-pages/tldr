@@ -6,7 +6,7 @@
 
 `ical`
 
-- Display the calendar of a a particular year
+- Display the calendar of a specific year:
 
 `ical {{year eg: 1999}}`
 
