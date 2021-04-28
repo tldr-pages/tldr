@@ -1,0 +1,25 @@
+# acme.sh --dns
+
+> Use a DNS-01 challenge to issue a certificate.
+> DNS API mode documentation: <https://github.com/acmesh-official/acme.sh/wiki/dnsapi>
+> More information: <https://github.com/acmesh-official/acme.sh/wiki/DNS-manual-mode>.
+
+- Issue a certificate using an automatic DNS API mode:
+
+`acme.sh --issue --dns {{gnd_gd}} --domain {{example.com}}`
+
+- Issue a wildcard (\*) certificate using an automatic DNS API mode:
+
+`acme.sh --issue --dns {{dns_namesilo}} --domain {{*.example.com}}`
+
+- Issue a certificate using a DNS alias mode:
+
+`acme.sh --issue --dns {{dns_cf}} --domain {{example.com}} --challenge-alias {{alias-for-example-validation.com}}`
+
+- Issue a certificate while disabling an automatic Cloudflare or Google DNS polling after the DNS record is added by specifying a manual wait time:
+
+`acme.sh --issue --dns {{dns_namecheap}} --domain {{example.com}} --dnssleep 300`
+
+- Issue a certificate using a manual DNS mode:
+
+`acme.sh --issue --dns --domain {{example.com}} --yes-I-know-dns-manual-mode-enough-go-ahead-please`
