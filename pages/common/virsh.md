@@ -6,7 +6,7 @@
 
 - Connect to a hypervisor session:
 
-`virsh connect {{qemu://system}}`
+`virsh connect {{qemu:///system}}`
 
 - List all domains:
 
