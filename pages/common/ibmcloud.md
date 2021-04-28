@@ -15,10 +15,14 @@
 
 `ibmcloud regions`
 
-- Show `ibmcloud` version:
+- Display `ibmcloud` version:
 
 `ibmcloud version`
 
-- Show help for a specific subcommand (use without subcommand for general help):
+- Display help:
+
+`ibmcloud help`
+
+- Display help for a subcommand:
 
 `ibmcloud help {{subcommand}}`
