@@ -23,7 +23,7 @@
 
 `scrapy fetch {{url}}`
 
-- Open a webpage in the default browser as scrapy sees it (disable javascript for extra fidelity):
+- Open a webpage in the default browser as scrapy sees it (disable JavaScript for extra fidelity):
 
 `scrapy view {{url}}`
 
