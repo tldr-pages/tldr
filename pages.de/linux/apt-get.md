@@ -8,7 +8,7 @@
 
 `apt-get update`
 
-- Installiere ein Paket oder aktualisiere es zur neusten Version:
+- Installiere ein Paket oder aktualisiere es zur neuesten Version:
 
 `apt-get install {{paket}}`
 
@@ -20,7 +20,7 @@
 
 `apt-get purge {{paket}}`
 
-- Aktualisiere alle Pakete auf die neuste Version:
+- Aktualisiere alle Pakete auf die neueste Version:
 
 `apt-get upgrade`
 
