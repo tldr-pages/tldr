@@ -1,7 +1,7 @@
 # acme.sh --dns
 
 > Use a DNS-01 challenge to issue a certificate.
-> DNS API mode documentation: <https://github.com/acmesh-official/acme.sh/wiki/dnsapi>
+> DNS API mode documentation: <https://github.com/acmesh-official/acme.sh/wiki/dnsapi>.
 > More information: <https://github.com/acmesh-official/acme.sh/wiki/DNS-manual-mode>.
 
 - Issue a certificate using an automatic DNS API mode:
