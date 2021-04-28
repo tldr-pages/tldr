@@ -1,17 +1,9 @@
 # ibmcloud
 
 > A command line tool for managing IBM Cloud apps and services.
-> More information: <https://ibm.biz/cli-docs>.
+> More information: <https://cloud.ibm.com/docs/cli?topic=cli-ibmcloud_cli>.
 
-- Show help for a specific subcommand (use without subcommand for general help):
-
-`ibmcloud help {{subcommand}}`
-
-- Show ibmcloud version:
-
-`ibmcloud version`
-
-- Update ibmcloud to the latest version:
+- Update `ibmcloud` to the latest version:
 
 `ibmcloud update`
 
@@ -22,3 +14,11 @@
 - List all available IBM Cloud regions:
 
 `ibmcloud regions`
+
+- Show `ibmcloud` version:
+
+`ibmcloud version`
+
+- Show help for a specific subcommand (use without subcommand for general help):
+
+`ibmcloud help {{subcommand}}`
