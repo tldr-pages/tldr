@@ -1,6 +1,7 @@
 # ical
 
 > Program to display english Calendar on your terminal.
+More information: <https://manned.org/ical>.
 
 - Display the current month's calendar:
 
