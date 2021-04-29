@@ -26,7 +26,7 @@
 
 - Melakukan penggantian ekspresi reguler pada seluruh berkas:
 
-`<Esc>:%s/{{ekspresi reguler}}/{{pengganti}}/g<Enter>`
+`<Esc>:%s/{{ekspresi_reguler}}/{{pengganti}}/g<Enter>`
 
 - Menyimpan (write) berkas, dan keluar:
 
