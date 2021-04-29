@@ -1,6 +1,6 @@
 # protontricks
 
-> A simple wrapper that does winetricks things for Proton enabled games, requires Winetricks.
+> A simple wrapper that does Winetricks things for Proton enabled games, requires Winetricks.
 > More information: <https://github.com/Matoking/protontricks>.
 
 - Show the protontricks help message:
@@ -11,7 +11,7 @@
 
 `protontricks --gui`
 
-- Run winetricks for a specific game:
+- Run Winetricks for a specific game:
 
 `protontricks {{appid}} {{winetricks_args}}`
 
