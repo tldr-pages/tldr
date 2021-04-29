@@ -1,6 +1,6 @@
 # ical
 
-> Program to display english Calendar on your terminal.
+> A Hirji/Islamic calendar and converter for the terminal.
 > More information: <https://manned.org/ical>.
 
 - Display the current month's calendar:
