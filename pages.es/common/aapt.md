@@ -10,8 +10,8 @@
 
 - Muestra la metadata de una app (versión, persmisos, etc.):
 
-`aapt dump badging {{ruta/a/la/app.apk}}`
+`aapt dump badging {{ruta/a/app.apk}}`
 
 - Crea un nuevo archivo APK con archivos de un directorio especificado:
 
-`aapt package -F {{ruta/a/la/app.apk}} {{ruta/al/directorio}}`
+`aapt package -F {{ruta/a/app.apk}} {{ruta/al/directorio}}`
