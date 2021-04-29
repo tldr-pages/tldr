@@ -7,7 +7,7 @@ More information: <https://manned.org/ical>.
 
 `ical`
 
-- Display the calendar of a specific year:
+- Convert a Gregorian date to a Hijri date:
 
 `ical --gregorian {{yyyymmdd}}`
 
