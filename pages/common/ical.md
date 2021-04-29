@@ -11,6 +11,6 @@
 
 `ical --gregorian {{yyyymmdd}}`
 
-- Display the calendar for a specific month of a specific year:
+- Convert a Hirji date to a Gregorian date:
 
 `ical --hijri {{yyyymmdd}}`
