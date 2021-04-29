@@ -1,6 +1,6 @@
 # bitcoin-cli
 
-> Command-line client to interact with the Bitcoin daemon via RPC calls.
+> Command line client to interact with the Bitcoin daemon via RPC calls.
 > Uses the configuration defined in `bitcoin.conf`.
 > More information: <https://en.bitcoin.it/wiki/Running_Bitcoin#Command-line_arguments>.
 

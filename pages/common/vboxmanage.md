@@ -1,6 +1,6 @@
 # VBoxManage
 
-> Command-line interface to VirtualBox.
+> Command line interface to VirtualBox.
 > Includes all the functionality of the GUI and more.
 > More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-intro>.
 

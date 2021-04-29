@@ -1,6 +1,6 @@
 # blender
 
-> Command-line interface to the Blender 3D computer graphics application.
+> Command line interface to the Blender 3D computer graphics application.
 > Arguments are executed in the order they are given.
 > More information: <https://docs.blender.org/manual/en/latest/render/workflows/command_line.html>.
 

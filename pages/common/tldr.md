@@ -1,6 +1,6 @@
 # tldr
 
-> Displays simple help pages for command-line tools, from the tldr-pages project.
+> Displays simple help pages for command line tools, from the tldr-pages project.
 > More information: <https://tldr.sh>.
 
 - Show the tldr page for a command (hint: this is how you got here!):

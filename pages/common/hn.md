@@ -1,6 +1,6 @@
 # hn
 
-> Command-line interface for Hacker News.
+> Command line interface for Hacker News.
 > More information: <https://github.com/rafaelrinaldi/hn-cli>.
 
 - View stories on Hacker News:

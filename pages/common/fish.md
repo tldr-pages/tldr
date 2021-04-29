@@ -1,6 +1,6 @@
 # fish
 
-> The Friendly Interactive SHell, a command-line interpreter designed to be user friendly.
+> The Friendly Interactive SHell, a command line interpreter designed to be user friendly.
 > More information: <https://fishshell.com>.
 
 - Start an interactive shell session:

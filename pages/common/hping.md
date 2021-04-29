@@ -1,6 +1,6 @@
 # hping
 
-> Command-line oriented TCP/IP packet assembler and analyzer.
+> Command line oriented TCP/IP packet assembler and analyzer.
 > Inspired by the `ping` command.
 > More information: <http://www.hping.org>.
 

@@ -1,6 +1,6 @@
 # aria2
 
-> A lightweight multi-protocol & multi-source command-line download utility.
+> A lightweight multi-protocol & multi-source command line download utility.
 > Supports HTTP, HTTPS, FTP, SFTP, BitTorrent and Metalink.
 > More information: <https://aria2.github.io/>.
 

@@ -1,6 +1,6 @@
 # macchanger
 
-> Command-line utility for manipulating network interface MAC addresses.
+> Command line utility for manipulating network interface MAC addresses.
 
 - View the current and permanent MAC addresses of a interface:
 

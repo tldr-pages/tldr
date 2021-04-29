@@ -1,6 +1,6 @@
 # legit
 
-> Complementary command-line interface for Git.
+> Complementary command line interface for Git.
 > More information: <https://frostming.github.io/legit>.
 
 - Switch to a specified branch, stashing and restoring unstaged changes:
