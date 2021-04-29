@@ -17,7 +17,7 @@
 
 - Run the tests whose names match the given regular expression:
 
-`jest --testNamePattern {{spec_name}}`
+`jest --testNamePattern {{regular_expression}}`
 
 - Run test suites related to a given source file:
 
