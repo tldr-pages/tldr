@@ -1,32 +1,33 @@
 # speedtest
 
-> Command line interface for testing internet bandwidth using https://speedtest.net.
-> More information: <https://github.com/sivel/speedtest-cli>.
+> Official command line interface for testing internet bandwidth using https://speedtest.net.
+> Note: some platforms link `speedtest` to `speedtest-cli`.  If some of the examples in this page don't work, try `tldr speedtest-cli`.
+> More information: <https://www.speedtest.net/apps/cli>.
 
 - Run a speed test:
 
 `speedtest`
 
-- Run a speed test and display values in bytes, instead of bits:
+- Run a speed test and specify the unit of the output:
 
-`speedtest --bytes`
+`speedtest --unit={{auto-decimal-bits|auto-decimal-bytes|auto-binary-bits|auto-binary-bytes}}`
 
-- Run a speed test using `HTTPS`, instead of `HTTP`:
+- Run a speed test and specify the output format:
 
-`speedtest --secure`
+`speedtest --format={{human-readable|csv|tsv|json|jsonl|json-pretty}}`
 
-- Run a speed test without performing download tests:
+- Run a speed test and specify the number of decimal points to use (0 to 8, defaults to 2):
 
-`speedtest --no-download`
+`speedtest --precision={{precision}}`
 
-- Run a speed test and generate an image of the results:
+- Run a speed test and print it's progress (only available for output format `human-readable` and `json`):
 
-`speedtest --share`
+`speedtest --progress={{yes|no}}`
 
-- List all speedtest.net servers, sorted by distance:
+- List all `speedtest.net` servers, sorted by distance:
 
-`speedtest --list`
+`speedtest --servers`
 
-- Run a speed test to a specific speedtest.net server:
+- Run a speed test to a specific `speedtest.net` server:
 
-`speedtest --server {{server_id}}`
+`speedtest --server-id={{server_id}}`
