@@ -6,7 +6,7 @@
 
 - Lista los archivos contenidos en un archivo APK:
 
-`aapt list {{ruta/a/app.apk}}`
+`aapt list {{ruta/a/la/app.apk}}`
 
 - Muestra la metadata de una app (versión, persmisos, etc.):
 
