@@ -27,6 +27,6 @@
 
 `git clone --depth {{10}} {{ubicacion_remota_del_repositorio}}`
 
-- Clona un respositorio existente solo descargando un branch específico:
+- Clona un repositorio existente solo descargando un branch específico:
 
 `git clone --branch {{nombre}} --single-branch {{ubicacion_remota_del_repositorio}}`
