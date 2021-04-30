@@ -8,7 +8,7 @@
 
 `aapt list {{ruta/al/app.apk}}`
 
-- Muestra la metadata de una app (versión, persmisos, etc.):
+- Muestra la metadata de una app (versión, permisos, etc.):
 
 `aapt dump badging {{ruta/al/app.apk}}`
 

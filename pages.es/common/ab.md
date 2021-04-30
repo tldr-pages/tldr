@@ -11,7 +11,7 @@
 
 `ab -n {{100}} -c {{10}} {{url}}`
 
-- Ejectura 100 solicitudes HTTP POST a una URL, utilizando la carga JSON de un archivo:
+- Ejecuta 100 solicitudes HTTP POST a una URL, utilizando la carga JSON de un archivo:
 
 `ab -n {{100}} -T {{application/json}} -p {{ruta/al/archivo.json}} {{url}}`
 
