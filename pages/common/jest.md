@@ -13,7 +13,7 @@
 
 - Run the test suites from files within the current and subdirectories, whose paths match the given regular expression:
 
-`jest {{regular_expression}} {{regular_expression}}`
+`jest {{regular_expression1}} {{regular_expression2}}`
 
 - Run the tests whose names match the given regular expression:
 
