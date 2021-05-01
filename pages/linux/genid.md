@@ -1,7 +1,7 @@
 # genid
 
 > Generate IDs, such as snowflakes, UUIDs, and a new GAID.
-> More information: `genid [subcommand] --help`
+> More information: https://github.com/bleonard252/genid
 
 - Generate a UUIDv4:
 
