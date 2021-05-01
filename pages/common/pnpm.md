@@ -2,7 +2,7 @@
 
 > Fast, disk space efficient package manager for Javascript and Node.js.
 > Manage Node.js projects and their module dependencies.
-> More information: <https://pnpm.io//>.
+> More information: <https://pnpm.io>.
 
 - Interactively create a `package.json` file:
 
@@ -37,4 +37,3 @@
 - List top-level globally installed modules:
 
 `pnpm list -g --depth={{0}}`
-
