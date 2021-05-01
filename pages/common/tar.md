@@ -16,9 +16,9 @@
 
 `tar czf {{target.tar.gz}} --directory={{path/to/directory}} .`
 
-- E[x]tract a (compressed) archive [f]ile into the current directory:
+- E[x]tract a (compressed) archive [f]ile into the current directory [v]erbosely:
 
-`tar xf {{source.tar[.gz|.bz2|.xz]}}`
+`tar xvf {{source.tar[.gz|.bz2|.xz]}}`
 
 - E[x]tract a (compressed) archive [f]ile into the target directory:
 
