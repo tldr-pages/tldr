@@ -1,4 +1,5 @@
 # xkill
+
 > Termina una finestra interattivamente attraverso la sessione grafica.
 > Vedi anche `kill` e `killall`
 
