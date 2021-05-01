@@ -24,9 +24,9 @@
 
 `<Esc>/{{patter_da_cercare}}<Enter>`
 
-- Eseguire una sostituzione tramite regex nell'intero file:
+- Eseguire una sostituzione tramite espressione regolare nell'intero file:
 
-`<Esc>:%s/{{regex}}/{{sostituzione}}//g<Enter>`
+`<Esc>:%s/{{espressione_regolare}}/{{sostituzione}}//g<Enter>`
 
 - Salvare (scrivere) il file per poi uscire:
 
