@@ -8,7 +8,7 @@
 
 `pnpx {{module_name}}`
 
-- In case a package has multiple binaries, specify the package name along with the binary:
+- Execute a specific binary from a given npm module, in case the module has multiple binaries:
 
 `pnpx -p {{package_name}} {{module_name}}`
 
