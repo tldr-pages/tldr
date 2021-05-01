@@ -18,8 +18,6 @@
 
 - Download a package and add it to the list of dev dependencies in `package.json`:
 
-`pnpm install {{module_name}} --save-dev`
-
 `pnpm install -D {{module_name}}`
 
 - Download a package and install it globally:
