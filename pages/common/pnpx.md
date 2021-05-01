@@ -11,6 +11,6 @@
 
 `pnpx --package {{package_name}} {{module_name}}`
 
-- Show help:
+- Display help:
 
 `pnpx --help`
