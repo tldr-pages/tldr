@@ -28,7 +28,7 @@
 
 `pnpm uninstall {{module_name}}`
 
-- Print a tree of locally-installed dependencies:
+- Print a tree of locally installed modules:
 
 `pnpm list`
 
