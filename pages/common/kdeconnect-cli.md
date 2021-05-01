@@ -1,6 +1,7 @@
 # kdeconnect-cli
 
 > KDE Connect CLI.
+> More information: <https://kdeconnect.kde.org>.
 
 - List all devices:
 
