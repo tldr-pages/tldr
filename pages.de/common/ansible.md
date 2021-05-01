@@ -27,3 +27,7 @@
 - Führe einen Befehl mit einer benutzerdefinierten Inventardatei aus:
 
 `ansible {{Gruppe}} -i {{inventardatei}} -m command -a '{{befehl}}'`
+
+- Liste alle Gruppen eines Inventars auf:
+
+`ansible localhost -m debug -a '{{var=groups.keys()}}'`
