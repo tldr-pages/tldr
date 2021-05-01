@@ -1,12 +1,12 @@
 # yes
 
-> Voer herhaaldelijk iets uit.
+> Print herhaaldelijk iets op het scherm.
 > Meer informatie: <https://www.gnu.org/software/coreutils/yes>.
 
-- Voer herhaaldelijk "bericht" uit:
+- Print herhaaldelijk "bericht":
 
 `yes {{bericht}}`
 
-- Voor herhaaldelijk "y" uit:
+- Print herhaaldelijk "y":
 
 `yes`
