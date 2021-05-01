@@ -7,7 +7,7 @@
 
 `git log`
 
-- Afficher l'historique de fichiers ou repertoires en particulier :
+- Afficher l'historique de fichiers ou répertoires en particulier :
 
 `git log -p {{chemin/vers/fichier_ou_repertoire}}`
 
@@ -19,11 +19,11 @@
 
 `git log --oneline --graph`
 
-- Afficher un graphique de tout les commits, tags et branches dans le dépot entier :
+- Afficher un graphique de tout les commits, tags et branches dans le dépôt entier :
 
 `git log --oneline --decorate --all --graph`
 
-- Afficher uniqueent les commits dont le message contient la chaine (non sensible à la case) :
+- Afficher uniquement les commits dont le message contient la chaine (non sensible à la casse) :
 
 `git log -i --grep {{chaine_recherché}}`
 

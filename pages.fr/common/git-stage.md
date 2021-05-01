@@ -1,22 +1,22 @@
 # git stage
 
 > Ajouter le contenu du fichier à la zone de préparation.
-> Synonym of `git add`.
+> Synonyme de `git add`.
 > Plus d'informations : <https://git-scm.com/docs/git-stage>.
 
 - Ajouter un fichier à l'index :
 
 `git stage {{chemin/vers/fichier}}`
 
-- Ajoute tout les fichiers à l'index (suivis et non suivis) :
+- Ajoute tout les fichiers à l'index (suivis et non-suivis) :
 
 `git stage -A`
 
-- Ajout uniquement des fichiers déja suivis :
+- Ajout uniquement des fichiers déjà suivis :
 
 `git stage -u`
 
-- Ajout egalement des fichiers ignorés :
+- Ajout également des fichiers ignorés :
 
 `git stage -f`
 
