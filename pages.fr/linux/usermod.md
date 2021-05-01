@@ -7,7 +7,7 @@
 
 `usermod -l {{nouveau_nom}} {{utilisateur}}`
 
-- Ajoute l'utilisateur à des groupes supplementaires (attention à l'omission d'espaces) :
+- Ajoute l'utilisateur à des groupes supplémentaires (attention à l'omission d'espaces) :
 
 `usermod -a -G {{groupe1,groupe2}} {{utilisateur}}`
 

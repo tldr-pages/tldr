@@ -3,11 +3,11 @@
 > Analyser et déboguer les fichiers ignorés / exclus (".gitignore") de Git.
 > Plus d'informations : <https://git-scm.com/docs/git-check-ignore>.
 
-- Verifie qu'un fichier ou repertoire est ignoré :
+- Vérifie qu'un fichier ou répertoire est ignoré :
 
 `git check-ignore {{chemin/vers/fichier_ou_repertoire}}`
 
-- Verifie que plusieurs fichiers ou repertoires sont ignorés :
+- Vérifie que plusieurs fichiers ou répertoires sont ignorés :
 
 `git check-ignore {{chemin/vers/fichier}} {{chemin/vers/repertoire}}`
 
@@ -19,6 +19,6 @@
 
 `git check-ignore --no-index {{chemin/vers/fichiers_ou_repertoires}}`
 
-- Inclure les details pour chaque occurence dans le chemin :
+- Inclure les détails pour chaque occurrence dans le chemin :
 
 `git check-ignore --verbose {{chemin/vers/fichiers_ou_repertoires}}`

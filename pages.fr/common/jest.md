@@ -1,6 +1,6 @@
 # jest
 
-> Une plateforme de test JavaScript avec zero configuration.
+> Une plateforme de test JavaScript sans configuration.
 > Plus d'informations : <https://jestjs.io>.
 
 - Exécuter tous les tests disponibles :
@@ -23,7 +23,7 @@
 
 `jest --onlyChanged`
 
-- Surveiller les changements sur les fichiers et réexécuter les tests associés :
+- Surveiller les changements sur les fichiers et ré-exécuter les tests associés :
 
 `jest --watch`
 

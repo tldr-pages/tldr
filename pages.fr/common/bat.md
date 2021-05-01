@@ -1,7 +1,7 @@
 # bat
 
 > Affiche et concatène le contenu d'un ou plusieurs fichiers.
-> Un clone de `cat` avec mise en valeur de la syntaxe et integration avec Git.
+> Un clone de `cat` avec mise en valeur de la syntaxe et intégration avec Git.
 > Plus d'informations : <https://github.com/sharkdp/bat>.
 
 - Affiche le contenu d'un fichier sur la sortie standard :
