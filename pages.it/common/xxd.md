@@ -12,6 +12,8 @@
 
 - Mostrare un output in una versione un po' più compatta, dove gli zero consegutivi vengono sostituiti da un asterisco.
 
+`xxd -a {{file_di_input}}`
+
 - Mostrare l'output in 10 colonne di un ottetto (byte) ciascuna:
 
 `xxd -c {{10}} {{file_di_input}}`
