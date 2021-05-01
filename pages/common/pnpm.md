@@ -32,6 +32,6 @@
 
 `pnpm list`
 
-- List top-level globally installed modules:
+- List top-level [g]lobally installed modules:
 
 `pnpm list -g --depth={{0}}`
