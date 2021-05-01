@@ -7,7 +7,11 @@
 
 `git commit -m "{{nachricht}}"`
 
-- Stage alle modifizierten Dateien und comitte sie mit einer Nachricht:
+- Committe alle gestagten Dateien zum Repository mit einer Nachricht aus einer Datei:
+
+`git commit --file {{pfad/zu/commit_nachricht_datei}}`
+
+- Stage alle modifizierten Dateien und committe sie mit einer Nachricht:
 
 `git commit -a -m "{{nachricht}}"`
 
