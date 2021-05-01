@@ -1,6 +1,7 @@
 # cat
 
 > Exibe e concatena o conteúdo de arquivos.
+> Mais informações: <https://www.gnu.org/software/coreutils/cat>.
 
 - Exibir o conteúdo de um arquivo no terminal:
 

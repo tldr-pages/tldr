@@ -2,6 +2,7 @@
 
 > Retorna algo repetidamente.
 > Este comando es frecuentemente utilizado para aceptar todas las confirmaciones en comandos de instalación (como apt-get).
+> Más información: <https://www.gnu.org/software/coreutils/yes>.
 
 - Retornar repetidamente "mensaje":
 

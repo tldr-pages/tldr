@@ -1,6 +1,6 @@
 # git flow
 
-> Une colletion d'extentions Git pour procurer des opperation de registre supplementaires
+> Une collection d'extensions Git pour procurer des opérations supplémentaires sur les dépôts.
 > Plus d'informations : <https://github.com/nvie/gitflow>.
 
 - Initialiser dans un registre Git existant :
@@ -11,14 +11,14 @@
 
 `git flow feature start {{feature}}`
 
-- Terminer le travail sur une branche de fonctionnalité, le merger dans la branche `develop` puis suprimmer :
+- Terminer le travail sur une branche de fonctionnalité, la fusionner dans la branche `develop` puis la supprimer :
 
 `git flow feature finish {{feature}}`
 
-- Publier une fonctionalité sur le serveur distant :
+- Publier une fonctionnalité sur le serveur distant :
 
 `git flow feature publish {{feature}}`
 
-- Recupérer un fonctionalité publiée par un autre utilisateur :
+- Récupérer un fonctionnalité publiée par un autre utilisateur :
 
 `git flow feature pull origin {{feature}}`

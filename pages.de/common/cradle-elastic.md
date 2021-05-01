@@ -1,28 +1,28 @@
 # cradle elastic
 
-> Management der ElasticSearch Instanzen einer Cradle Instanz.
-> Mehr Informationen: <https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-Tools.html#elastic>.
+> Verwalte ElasticSearch Instanzen einer Cradle Instanz.
+> Weitere Informationen: <https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-Tools.html#elastic>.
 
-- Entleeren des ElasticSearch Indexes:
+- Entleere den ElasticSearch Index:
 
 `cradle elastic flush`
 
-- Entleeren des ElasticSearch Indexes für ein bestimmtes Paket:
+- Entleere den ElasticSearch Index für ein bestimmtes Paket:
 
-`cradle elastic flush {{Paket}}`
+`cradle elastic flush {{paket}}`
 
-- Absenden eines ElasticSearch Schemas:
+- Sende ein ElasticSearch Schema ab:
 
 `cradle elastic map`
 
-- Absenden eines ElasticSearch Schemas für ein bestimmtes Paket:
+- Sende ein ElasticSearch Schema für ein bestimmtes Paket ab:
 
-`cradle elastic map {{Paket}}`
+`cradle elastic map {{paket}}`
 
-- Befüllung der ElasticSearch Indexe für alle Pakete:
+- Befülle die ElasticSearch Indizes für alle Pakete:
 
 `cradle elastic populate`
 
-- Befüllung der ElasticSearch Indexe für ein bestimmtes Paket:
+- Befülle die ElasticSearch Indizes für ein bestimmtes Paket:
 
-`cradle elastic populate {{Paket}}`
+`cradle elastic populate {{paket}}`

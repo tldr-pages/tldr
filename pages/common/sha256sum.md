@@ -1,6 +1,7 @@
 # sha256sum
 
 > Calculate SHA256 cryptographic checksums.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-utilities.html>.
 
 - Calculate the SHA256 checksum for a file:
 

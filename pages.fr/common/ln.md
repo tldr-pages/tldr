@@ -1,6 +1,7 @@
 # ln
 
 > Crée des liens vers des fichiers et répertoires.
+> Plus d'informations : <https://www.gnu.org/software/coreutils/ln>.
 
 - Crée un lien symbolique vers un fichier ou un répertoire :
 

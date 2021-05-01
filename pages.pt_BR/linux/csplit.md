@@ -2,6 +2,7 @@
 
 > Divide um arquivo em várias partes.
 > O padrão de nomenclatura dos arquivos será "xx00", "xx01" e assim por diante.
+> Mais informações: <https://www.gnu.org/software/coreutils/csplit>.
 
 - Dividir um arquivo nas linhas 5 e 23:
 

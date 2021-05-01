@@ -1,7 +1,7 @@
 # gpg
 
 > GNU Privacy Guard.
-> Mehr Informationen: <https://gnupg.org>.
+> Weitere Informationen: <https://gnupg.org>.
 
 - Signiere `doc.txt` ohne Verschlüsselung (Ausabe nach `doc.txt.asc`):
 
@@ -21,12 +21,12 @@
 
 - Importiere einen Öffentlichen Schlüssel:
 
-`gpg --import {{public.gpg}}`
+`gpg --import {{schlüssel.gpg}}`
 
-- Exportiere Öffentlichen Schlüssel von alice@beispiel.de (Ausgabe nach stdout):
+- Exportiere den öffentlichen Schlüssel von alice@beispiel.de (Ausgabe nach stdout):
 
 `gpg --export --armor {{alice@beispiel.de}}`
 
-- Exportiere Privaten Schlüssel von alice@beispiel.de (Ausgabe nach stdout):
+- Exportiere den privaten Schlüssel von alice@beispiel.de (Ausgabe nach stdout):
 
 `gpg --export-secret-keys --armor {{alice@beispiel.de}}`

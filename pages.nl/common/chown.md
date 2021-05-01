@@ -1,6 +1,7 @@
 # chown
 
 > Verander gebruiker- en groepsbeheer van bestanden en mappen.
+> Meer informatie: <https://www.gnu.org/software/coreutils/chown>.
 
 - Verander gebruikkersbeheerder van een bestand/map:
 

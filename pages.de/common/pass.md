@@ -1,33 +1,33 @@
 # pass
 
-> Programm zum speichern und lesen von Passwörtern und anderen empfindlichen Daten.
-> Die Daten sind mit GPG verschlüsselt und mit einem Git repository verwaltet.
-> Mehr Informationen: <https://www.passwordstore.org>.
+> Programm zum Speichern und Lesen von Passwörtern und anderen sensiblen Daten.
+> Die Daten sind mit GPG verschlüsselt und werden mit einem Git repository verwaltet.
+> Weitere Informationen: <https://www.passwordstore.org>.
 
-- Neuen oder bestehenden Speicher mit einer oder mehreren GPG IDs initialisieren oder neu verschlüsseln:
+- Initialisiere oder verschlüssle einen neuen oder bestehenden Speicher mit einer oder mehreren GPG IDs neu:
 
 `pass init {{gpg_id_1}} {{gpg_id_2}}`
 
-- Passwort und zusätzliche Informationen speichern (Str + D auf neuer Zeile zum abschließen):
+- Speichere das Passwort und zusätzliche Informationen (Str + D auf neuer Zeile zum abschließen):
 
-`pass insert --multiline {{pfad/zu/daten}}`
+`pass insert --multiline {{pfad/zu/datei}}`
 
-- Einen Eintrag bearbeiten:
+- Bearbeite einen bestimmten Eintrag:
 
-`pass edit {{pfad/zu/daten}}`
+`pass edit {{pfad/zu/datei}}`
 
-- Passwort (Erste Zeile des Eintrags) in die Zwischenablage kopieren:
+- Kopiere das Passwort (die erste Zeile des Eintrags) in die Zwischenablage:
 
-`pass -c {{pfad/zu/daten}}`
+`pass -c {{pfad/zu/datei}}`
 
-- Tree des Passwort stores anzeigen:
+- Zeige die Baumstruktur des Passwort-Stores an:
 
 `pass`
 
-- Neues, zufälliges Passwort mit Länge n generieren und in die Zwischenablage kopieren:
+- Generiere ein neues, zufälliges Passwort mit Länge n und kopiere is in die Zwischenablage:
 
-`pass generate -c {{pfad/zu/daten}} {{n}}`
+`pass generate -c {{pfad/zu/datei}} {{n}}`
 
-- Neues Git Repository initialisieren (Alle durch pass durchgeführten änderungen werden automatisch committed):
+- Initialisiere ein Git Repository (Alle durch pass durchgeführten Änderungen werden automatisch committed):
 
 `pass git init`

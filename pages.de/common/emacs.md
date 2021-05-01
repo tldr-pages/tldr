@@ -1,15 +1,15 @@
 # emacs
 
-> Der erweiterbare, veränderbare, selbst-dokumentierende Echtzeit Text Editor.
-> Mehr Informationen: <https://www.gnu.org/software/emacs>.
+> Der erweiterbare, veränderbare und selbst-dokumentierende Echtzeit Text Editor.
+> Weitere Informationen: <https://www.gnu.org/software/emacs>.
 
-- Starten von Emacs in der Konsole (ohne X-Fenster):
+- Starte Emacs in der Konsole (ohne X-Fenster):
 
 `emacs -nw`
 
-- Öffnen einer Datei:
+- Öffne eine Datei in Emacs:
 
-`emacs {{Pfad/zur/Datei}}`
+`emacs {{pfad/zu/datei}}`
 
 - Tastenkombination zum Speichern einer Datei:
 
@@ -19,6 +19,6 @@
 
 `Ctrl + X, Ctrl + C`
 
-- Öffnen einer Datei in einer bestimmten Zeile:
+- Öffne eine Datei in einer bestimmten Zeile:
 
-`emacs +{{Zeilen-Nummer}} {{Pfad/zur/Datei}}`
+`emacs +{{zeilennummer}} {{pfad/zu/datei}}`

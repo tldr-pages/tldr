@@ -1,7 +1,8 @@
 # badblocks
 
 > Search a device for bad blocks.
-> Some usages of badblocks can cause destructive actions, such as erasing all the data on a disk, including the partition table.
+> Some usages of badblocks can cause destructive actions, such as erasing all data on a disk, including the partition table.
+> More information: <https://manned.org/badblocks>.
 
 - Search a disk for bad blocks by using a non-destructive read-only test:
 

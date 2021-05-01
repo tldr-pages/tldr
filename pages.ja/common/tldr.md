@@ -14,4 +14,3 @@
 - gitのサブコマンドについての情報を見る:
 
 `tldr {{git checkout}}`
-

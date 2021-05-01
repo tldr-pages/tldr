@@ -1,6 +1,7 @@
 # diff
 
 > Compare files and directories.
+> More information: <https://man7.org/linux/man-pages/man1/diff.1.html>.
 
 - Compare files (lists changes to turn `old_file` into `new_file`):
 

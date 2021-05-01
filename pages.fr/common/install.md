@@ -1,7 +1,8 @@
 # install
 
-> Copie des fichiers et mets à jour leurs attributs.
+> Copie des fichiers et met à jour leurs attributs.
 > Copie des fichiers (souvent des exécutables) dans un répertoire système comme `/usr/local/bin` et leur donne les permissions et propriétaires appropriés.
+> Plus d'informations : <https://www.gnu.org/software/coreutils/install>.
 
 - Copie des fichiers vers une destination :
 

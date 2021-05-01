@@ -1,20 +1,20 @@
 # phpbu
 
 > Ein Backup framework für PHP.
-> Mehr Informationen: <https://phpbu.de>.
+> Weitere Informationen: <https://phpbu.de>.
 
-- Backups mit der Standard `phpbu.xml` Konfigurationsdatei ausführen:
+- Führe ein Backup mit der Standard `phpbu.xml` Konfigurationsdatei aus:
 
 `phpbu`
 
-- Backups mit einer spezifischen Konfigurationsdatei ausführen:
+- Führe ein Backup mit einer bestimmten Konfigurationsdatei aus:
 
 `phpbu --configuration={{pfad/zu/konfiguration.xml}}`
 
-- Nur die angegebenen Backups ausführen:
+- Führe nur die angegebenen Backups aus:
 
 `phpbu --limit={{backup_art}}`
 
-- Aktionen die ausgeführt worden wären simulieren:
+- Simuliere Aktionen die ausgeführt werden würden:
 
 `phpbu --simulate`

@@ -2,6 +2,7 @@
 
 > Atualizar as timestamps de um arquivo para a hora atual.
 > Se o arquivo não existir, cria um arquivo vazio, a menos que seja passado o parâmetro -c ou -h.
+> Mais informações: <https://www.gnu.org/software/coreutils/touch>.
 
 - Criar um novo arquivo vazio, ou atualizar as timestamps para a hora atual:
 

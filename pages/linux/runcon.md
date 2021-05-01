@@ -2,6 +2,7 @@
 
 > Run a program in a different SELinux security context.
 > With neither context nor command, print the current security context.
+> More information: <https://www.gnu.org/software/coreutils/runcon>.
 
 - Determine the current domain:
 

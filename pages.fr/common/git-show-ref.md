@@ -1,13 +1,13 @@
 # git show-ref
 
-> commande Git pour lister les références.
+> Commande Git pour lister les références.
 > Plus d'informations : <https://git-scm.com/docs/git-show-ref>.
 
-- Affiche toutes les références dans le dépot :
+- Affiche toutes les références dans le dépôt :
 
 `git show-ref`
 
-- Affiche seulement les références des tétes de branches :
+- Affiche seulement les références des têtes de branches :
 
 `git show-ref --heads`
 
@@ -15,6 +15,6 @@
 
 `git show-ref --tags`
 
-- Verifier l'existence d'une référence :
+- Vérifier l'existence d'une référence :
 
 `git show-ref --verify {{chemin/vers/reference}}`

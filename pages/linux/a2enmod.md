@@ -1,7 +1,7 @@
 # a2enmod
 
 > Enable an Apache module on Debian-based OSes.
-> More information: <https://manpages.debian.org/buster/apache2/a2enmod.8.en.html>.
+> More information: <https://manpages.debian.org/latest/apache2/a2enmod.8.en.html>.
 
 - Enable a module:
 

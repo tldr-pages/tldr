@@ -1,6 +1,7 @@
 # chsh
 
 > Skift brugerens login shell.
+> Mere information: <https://manned.org/chsh>.
 
 - Skift shell:
 

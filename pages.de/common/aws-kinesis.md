@@ -1,28 +1,28 @@
 # aws kinesis
 
-> Offizielles AWS Kommandozeilen Werkzeug für die Amazon Kinesis-Streaming-Datenplattform.
-> Mehr Informationen: <https://docs.aws.amazon.com/cli/latest/reference/kinesis/index.html#cli-aws-kinesis>.
+> Offizielles AWS CLI für die Amazon Kinesis-Streaming-Datenplattform.
+> Weitere Informationen: <https://docs.aws.amazon.com/cli/latest/reference/kinesis/index.html#cli-aws-kinesis>.
 
-- Auflistung aller Streams:
+- Liste alle Streams auf:
 
 `aws kinesis list-streams`
 
-- Schreiben eines Datensatzes in einen Kinesis Stream:
+- Schreibe einen Datensatz in einen Kinesis Stream:
 
-`aws kinesis put-record --stream-name {{name}} --partition-key {{key}} --data {{base64_encoded_message}}`
+`aws kinesis put-record --stream-name {{name}} --partition-key {{schlüssel}} --data {{base64_codierte_nachricht}}`
 
-- Schreiben eines Datensatzes in einen Kinesis Stream mit bas64 inline Encodierung:
+- Schreibe einen Datensatze in einen Kinesis Stream mit base64 inline Encodierung:
 
-`aws kinesis put-record --stream-name {{name}} --partition-key {{key}} --data "$( echo "{{my raw message}}" | base64 )"`
+`aws kinesis put-record --stream-name {{name}} --partition-key {{schlüssel}} --data "$( echo "{{meine nachricht}}" | base64 )"`
 
-- Auflistung aller verfügbaren Shards in einem Stream:
+- Liste alle verfügbaren Shards in einem Stream auf:
 
 `aws kinesis list-shards --stream-name {{name}}`
 
-- Abrufen eines Shard Iterators um diesen beginnend mit der ältesten Nachricht auszulesen:
+- Rufe einen Shard Iterators auf, um diesen beginnend mit der ältesten Nachricht auszulesen:
 
 `aws kinesis get-shard-iterator --shard-iterator-type TRIM_HORIZON --stream-name {{name}} --shard-id {{id}}`
 
-- Lesen eines Datensatzes ovn einem Shard über einen Shard Iterator:
+- Lies einen Datensatz aus einem Shard über einen Shard Iterator:
 
 `aws kinesis get-records --shard-iterator {{iterator}}`

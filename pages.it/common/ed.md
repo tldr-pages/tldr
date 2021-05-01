@@ -1,6 +1,7 @@
 # ed
 
 > L'originale editor di testo Unix.
+> Maggiori informazioni: <https://man.archlinux.org/man/ed.1>.
 
 - Avvia ed per editare un documento vuoto (che può essere salvato come nuovo file nella directory corrente):
 

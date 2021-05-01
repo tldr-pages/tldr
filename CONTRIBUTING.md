@@ -14,7 +14,7 @@
 [contributors-image]: https://img.shields.io/github/contributors/tldr-pages/tldr.svg
 [cla-assistant-url]: https://cla-assistant.io/tldr-pages/tldr
 [cla-assistant-image]: https://cla-assistant.io/readme/badge/tldr-pages/tldr
-[license-url]: https://github.com/tldr-pages/tldr/blob/master/LICENSE.md
+[license-url]: https://github.com/tldr-pages/tldr/blob/main/LICENSE.md
 [license-image]: https://img.shields.io/badge/license-CC_BY_4.0-blue.svg
 
 Contributions to the tldr-pages project are [most welcome](GOVERNANCE.md)!
@@ -30,7 +30,7 @@ To get started, please [sign](https://cla-assistant.io/tldr-pages/tldr) the
 The basic format of a `tldr` page is a set of concrete usage examples.
 Here are a few guidelines to get started:
 
-1. Try to keep pages at around 5 examples. Pages can be longer if needed, but don't exceed 8 examples.
+1. Try to keep pages at around 5 examples. Pages can be longer or shorter when appropriate, but don't exceed 8 examples.
    Remember, it's OK if the page doesn't cover everything; that's what `man` is for.
 2. When in doubt, keep new command-line users in mind. Err on the side of clarity rather than terseness.
    For example, commands that require `sudo` should include it directly in the examples.
@@ -93,6 +93,8 @@ Language specific directories must follow the pattern `pages.<locale>`, where `<
  - `<country>` is the two-letter [ISO 3166-1](https://en.wikipedia.org/wiki/ISO_3166-1) country code for the chosen region (see [here](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) for a complete list).
 
 The `<country>` code is optional and should only be added when it is needed. In other words, only when there is a valid reason to distinguish between a language (`ll`) and its regional dialects (`ll_CC1`, `ll_CC2`, etc.). As an example, both `fr_FR` and `fr_BE` should fall under the same `pages.fr` directory, since there virtually is no difference in writing between standard French and Belgian French.
+
+To see the current progress of all translations, you can visit <https://lukwebsforge.github.io/tldri18n/>, which provides a dynamically updated table of all pages and their translations.
 
 Some examples of valid locale tags:
 

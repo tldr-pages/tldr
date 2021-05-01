@@ -1,6 +1,7 @@
 # cd
 
-> Mengganti direktori yang dikunjungi saat ini
+> Mengganti direktori yang dikunjungi saat ini.
+> Informasi lebih lanjut: <https://man.archlinux.org/man/cd.n>.
 
 - Menuju ke direktori yang telah ditentukan:
 

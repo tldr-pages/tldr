@@ -23,7 +23,7 @@
 
 `php-coveralls --exclude-no-stmt`
 
-- Send coverage information to Coveralls with a specific environent name:
+- Send coverage information to Coveralls with a specific environment name:
 
 `php-coveralls --env {{test|dev|prod}}`
 

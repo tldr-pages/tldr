@@ -1,6 +1,7 @@
 # ed
 
 > The original Unix text editor.
+> More information: <https://man.archlinux.org/man/ed.1>.
 
 - Start ed, editing an empty document (which can be saved as a new file in the current directory):
 

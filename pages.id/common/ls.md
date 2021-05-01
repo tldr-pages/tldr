@@ -1,6 +1,7 @@
 # ls
 
 > Menampilkan daftar konten pada direktori.
+> Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/ls>.
 
 - Menampilkan daftar berkas dengan satu item tiap baris:
 
@@ -18,7 +19,7 @@
 
 `ls -la`
 
-- Menampilkan daftar berformat panjang dan ukuran ditampilkan menggunakan unit yang mudah dibaca manusia (KB, MB, GB):
+- Menampilkan daftar berformat panjang dan ukuran ditampilkan menggunakan unit yang mudah dibaca manusia (KiB, MiB, GiB):
 
 `ls -lh`
 

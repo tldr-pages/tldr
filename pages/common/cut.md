@@ -1,6 +1,7 @@
 # cut
 
 > Cut out fields from stdin or files.
+> More information: <https://www.gnu.org/software/coreutils/cut>.
 
 - Cut out the first sixteen characters of each line of stdin:
 

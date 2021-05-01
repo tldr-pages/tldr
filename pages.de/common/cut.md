@@ -1,27 +1,28 @@
 # cut
 
-> Entferne Felder von stdin oder einer Datei.
+> Schneide Felder von stdin oder einer Datei aus.
+> Weitere Informationen: <https://www.gnu.org/software/coreutils/cut>.
 
-- Entferne die ersten 16 Zeichen jeder Zeile von stdin:
+- Schneide die ersten 16 Zeichen jeder Zeile von stdin aus:
 
 `cut -c {{1-16}}`
 
-- Entferne die ersten 16 Zeichen jeder Zeile der angegebenen Datei:
+- Schneide die ersten 16 Zeichen jeder Zeile der angegebenen Datei aus:
 
-`cut -c {{1-16}} {{datei}}`
+`cut -c {{1-16}} {{pfad/zu/datei}}`
 
-- Entferne alles ab dem dritten Zeichen bis zum Ende der Zeile:
+- Schneide alles ab dem dritten Zeichen bis zum Ende der Zeile aus:
 
 `cut -c {{3-}}`
 
-- Entferne das fünfte Feld jeder Zeile, nutze Doppelpunkt als Trennzeichen (Standart ist Tab):
+- Schneide das fünfte Feld jeder Zeile aus und nutze den Doppelpunkt als Trennzeichen (standardmäßig Tab):
 
 `cut -d'{{:}}' -f{{5}}`
 
-- Entferne das 2. und 10. Feld jeder Zeile, nutze Semikolon als Trennzeichen:
+- Schneide das 2. und 10. Feld jeder Zeile aus und nutze Semikolon als Trennzeichen:
 
 `cut -d'{{;}}' -f{{2,10}}`
 
-- Entferne alles ab dem dritten Zeichen bis zum Ende der Zeile, nutze Leerzeichen als Trennzeichen:
+- Schneide alles ab dem dritten Zeichen bis zum Ende der Zeile aus und nutze Leerzeichen als Trennzeichen:
 
 `cut -d'{{ }}' -f{{3-}}`

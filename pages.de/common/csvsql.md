@@ -1,17 +1,17 @@
 # csvsql
 
-> Generiert SQL-Anweisungen für eine CSV-Datei oder führt diese Anweisungen direkt in einer Datenbank aus.
-> In csvkit enthalten.
-> Mehr Informationen: <https://csvkit.readthedocs.io/en/latest/scripts/csvsql.html>.
+> Generiere SQL-Anweisungen für eine CSV-Datei oder führe diese Anweisungen direkt in einer Datenbank aus.
+> Teil von csvkit.
+> Weitere Informationen: <https://csvkit.readthedocs.io/en/latest/scripts/csvsql.html>.
 
-- Generiert eine `CREATE TABLE`-SQL-Anweisung für eine CSV-Datei:
+- Generiere eine `CREATE TABLE`-SQL-Anweisung für eine CSV-Datei:
 
-`csvsql {{pfad/zur/daten.csv}}`
+`csvsql {{pfad/zu/datei.csv}}`
 
-- Importiert eine CSV-Datei in eine SQL-Datenbank:
+- Importiere eine CSV-Datei in eine SQL-Datenbank:
 
-`csvsql --insert --db "{{mysql://benutzer:passwort@host/datenbank}}" {{daten.csv}}`
+`csvsql --insert --db "{{mysql://benutzer:passwort@host/datenbank}}" {{pfad/zu/datei.csv}}`
 
-- Führt eine SQL-Abfrage auf einer CSV-Datei aus:
+- Führe eine SQL-Abfrage auf einer CSV-Datei aus:
 
-`csvsql --query "{{select * from 'daten'}}" {{daten.csv}}`
+`csvsql --query "{{select * from 'datei'}}" {{datei.csv}}`

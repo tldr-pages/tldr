@@ -1,8 +1,7 @@
 # git tag
 
-> Erstelle, lösche, liste sie auf und überprüfe Tags.
-> Ein Tag ist eine statische Referenz auf einen bestimmten Commit.
-> Mehr Informationen: <https://git-scm.com/docs/git-tag>.
+> Erstelle, lösche, überprüfe und liste Tags auf.
+> Weitere Informationen: <https://git-scm.com/docs/git-tag>.
 
 - Liste alle Tags auf:
 
@@ -10,19 +9,19 @@
 
 - Erstelle einen Tag mit Namen, welcher auf den aktuellen Commit zeigt:
 
-`git tag {{name_des_tags}}`
+`git tag {{tag_name}}`
 
 - Erstelle einen Tag mit Namen, welcher auf einen bestimmten Commit zeigt:
 
-`git tag {{name_des_tags}} {{commit}}`
+`git tag {{tag_name}} {{commit}}`
 
 - Erstelle einen Tag mit Anmerkung:
 
-`git tag {{name_des_tags}} -m {{anmkerung}}`
+`git tag {{tag_name}} -m {{anmkerung}}`
 
 - Lösche einen Tag mit bestimmten Namen:
 
-`git tag -d {{name_des_tags}}`
+`git tag -d {{tag_name}}`
 
 - Lade die aktualisierten Tags aus dem Upstream:
 

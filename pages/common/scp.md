@@ -10,7 +10,7 @@
 
 - Use a specific port when connecting to the remote host:
 
-`scp {{path/to/local_file}} -P {{port}} {{remote_host}}:{{path/to/remote_file}}`
+`scp -P {{port}} {{path/to/local_file}} {{remote_host}}:{{path/to/remote_file}}`
 
 - Copy a file from a remote host to a local directory:
 

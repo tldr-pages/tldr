@@ -1,6 +1,7 @@
 # chcon
 
 > Change SELinux security context of a file or files/directories.
+> More information: <https://www.gnu.org/software/coreutils/chcon>.
 
 - View security context of a file:
 

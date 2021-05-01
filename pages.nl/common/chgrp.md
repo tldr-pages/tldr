@@ -1,6 +1,7 @@
 # chgrp
 
 > Verander beheerdersgroep van bestanden en mappen.
+> Meer informatie: <https://www.gnu.org/software/coreutils/chgrp>.
 
 - Verander beheerdergroep van een bestand of map:
 

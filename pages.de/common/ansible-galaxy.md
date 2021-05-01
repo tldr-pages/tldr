@@ -1,24 +1,24 @@
 # ansible-galaxy
 
 > Mögliche Rollen erstellen und verwalten.
-> Mehr Informationen: <https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html>.
+> Weitere Informationen: <https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html>.
 
-- Installieren Sie eine Rolle:
+- Installiere eine Rolle:
 
-`ansible-galaxy install {{username.rollen_name}}`
+`ansible-galaxy install {{benutzername.rollenname}}`
 
-- Entfernen Sie eine Rolle:
+- Entferne eine Rolle:
 
-`ansible-galaxy remove {{username.rollen_name}}`
+`ansible-galaxy remove {{benutzername.rollenname}}`
 
 - Installierte Rollen auflisten:
 
 `ansible-galaxy list`
 
-- Suchen Sie nach einer bestimmten Rolle:
+- Suche nach einer bestimmten Rolle:
 
-`ansible-galaxy search {{Rollenname}}`
+`ansible-galaxy search {{rollenname}}`
 
-- Erstellen Sie eine neue Rolle:
+- Erstelle eine neue Rolle:
 
-`ansible-galaxy init {{Rollenname}}`
+`ansible-galaxy init {{rollenname}}`

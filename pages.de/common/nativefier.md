@@ -1,16 +1,16 @@
 # nativefier
 
 > Befehlszeilen-Tool zum Erstellen einer Desktop-Anwendung für jede Website mit minimaler Konfiguration.
-> Mehr Informationen: <https://github.com/jiahaog/nativefier>.
+> Weitere Informationen: <https://github.com/jiahaog/nativefier>.
 
-- Erstellen einer Desktop-Anwendung für eine Website:
+- Erstelle einer Desktop-Anwendung für eine Website:
 
-`nativefier {{URL}}}`
+`nativefier {{url}}`
 
-- Erstellen Sie eine Desktop-Anwendung mit einem benutzerdefinierten Namen:
+- Erstelle eine Desktop-Anwendung mit einem benutzerdefinierten Namen:
 
-`nativefier --name {{Name}} {{URL}}`
+`nativefier --name {{name}} {{url}}`
 
-- Verwenden Sie ein benutzerdefiniertes Icon, sollte ein PNG sein:
+- Verwende ein benutzerdefiniertes Icon:
 
-`nativefier --icon {{Pfad/zum/Icon.png}} {{url}}`
+`nativefier --icon {{pfad/zu/icon.png}} {{url}}`

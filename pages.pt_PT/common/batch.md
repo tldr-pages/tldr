@@ -2,6 +2,7 @@
 
 > Executar comandos num momento mais tarde quando a carga do sistema permitir.
 > O serviço atd (ou atrun) deve correr para atuais execuções.
+> Mais informações: <https://man.archlinux.org/man/at.1>.
 
 - Executar comandos da entrada padrão (premir `Ctrl + D` quando terminado):
 

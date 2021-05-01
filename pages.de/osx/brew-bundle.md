@@ -1,28 +1,28 @@
 # brew bundle
 
 > Bundler für Homebrew, Homebrew Cask und den Mac App Store.
-> Mehr Informationen: <https://github.com/Homebrew/homebrew-bundle>.
+> Weitere Informationen: <https://github.com/Homebrew/homebrew-bundle>.
 
-- Installieren von Paketen welche im Brewfile (im gleichem Pfad) sind:
+- Installiere Pakete aus einer Brewfile im aktuellen Pfad:
 
 `brew bundle`
 
-- Installieren von Paketen welche im Brewfile sind (das Brewfile liegt nicht im aktuellen Pfad):
+- Installiere Pakete aus einer bestimmten Brewfile:
 
-`brew bundle --file={{path/to/file}}`
+`brew bundle --file={{pfad/zu/brewfile}}`
 
-- Mach eine Liste mit aller installierter Software:
+- Gib eine Liste mit allen installierten Paketen aus:
 
 `brew bundle dump`
 
-- Deinstalliert Software die nicht im Brewfile aufgelisted sind:
+- Deinstalliere Pakete, die nicht in der Brewfile aufgelisted sind:
 
 `brew bundle cleanup --force`
 
-- Prüfe ob eine Software installiert oder updated werden muss:
+- Prüfe, ob von einem Paket die aktuellste Version installiert ist:
 
 `brew bundle check`
 
-- Zeige alle Software welche im Brewfile aufgelistet sind:
+- Zeige alle Pakete, die in der Brewfile aufgelistet sind:
 
 `brew bundle list --all`

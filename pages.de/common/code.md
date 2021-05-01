@@ -1,28 +1,28 @@
 # code
 
 > Visual Studio Code.
-> Mehr Informationen: <https://github.com/microsoft/vscode>.
+> Weitere Informationen: <https://github.com/microsoft/vscode>.
 
-- VS Code öffnen:
+- Öffne VS Code:
 
 `code`
 
-- Aktuelles Verzeichnis in VS Code öffnen:
+- Öffne das aktuelle Verzeichnis in VS Code:
 
 `code .`
 
-- Eine Datei oder einen Ordner in VS Code öffnen:
+- Öffne eine bestimmte Datei oder Verzeichnis in VS Code:
 
-`code {{pfad/zu/datei_oder_ordner}}`
+`code {{pfad/zu/datei_oder_verzeichnis}}`
 
-- Eine Datei oder einen Ordner im aktuell geöffnetem VS Code Fenster öffnen:
+- Öffne eine Datei oder ein Verzeichnis im aktuell geöffnetem VS Code Fenster:
 
-`code --reuse-window {{pfad/zu/datei_oder_ordner}}`
+`code --reuse-window {{pfad/zu/datei_oder_verzeichnis}}`
 
-- Zeit Dateien in VS Code öffnen:
+- Öffne mehrere Dateien in VS Code:
 
-`code -d {{datei1}} {{datei2}}`
+`code -d {{pfad/zu/datei1}} {{pfad/zu/datei2}}`
 
-- VS Code mit super user (sudo) Rechten öffnen:
+- Öffne VS Code root:
 
-`sudo code {{pfad/zu/datei_oder_ordner}} --user-data-dir`
+`sudo code {{pfad/zu/datei_oder_verzeichnis}} --user-data-dir`

@@ -1,31 +1,32 @@
 # chmod
 
 > Ändere die Zugriffsberechtigungen einer Datei oder eines Verzeichnisses.
+> Weitere Informationen: <https://www.gnu.org/software/coreutils/chmod>.
 
-- Gib dem Benutzer ([u]ser), der Eigentümer einer Datei ist, das Recht, diese zu auszuführen (e[x]ecute):
+- Gib dem Besitzer einer Datei ([u]ser) das Recht, sie auszuführen (e[x]ecute):
 
-`chmod u+x {{datei}}`
+`chmod u+x {{pfad/zu/datei}}`
 
-- Gib dem Benutzer ([u]ser) Rechte zum lesen ([r]ead) und schreiben ([w]rite) an einer Datei / einem Verzeichnis:
+- Gib dem Besitzer ([u]ser) Rechte zum Lesen ([r]ead) und Schreiben ([w]rite) einer Datei / einem Verzeichnis:
 
-`chmod u+rw {{datei_oder_verzeichnis}}`
+`chmod u+rw {{pfad/zu/datei_oder_verzeichnis}}`
 
-- Entferne ausführbare (e[x]ecutable) Rechte aus der [g]ruppe:
+- Entferne die Ausführrechte (e[x]ecute) der Besitzer[g]ruppe:
 
-`chmod g-x {{datei}}`
+`chmod g-x {{pfad/zu/datei}}`
 
-- Gibt [a]llen Benutzern Rechte zum lesen ([r]ead) und ausführen (e[x]ecute) an einer Datei:
+- Gib [a]llen Benutzern Rechte zum Lesen ([r]ead) und Ausführen (e[x]ecute) einer Datei:
 
-`chmod a+rx {{datei}}`
+`chmod a+rx {{pfad/zu/datei}}`
 
-- Gibt anderen ([o]thers) (nicht in der Gruppe des Dateieigentümers) die gleichen Rechte wie der [g]ruppe:
+- Gib anderen ([o]thers) (nicht in der Besitzer[g]ruppe) die gleichen Rechte wie der Besitzer[g]ruppe:
 
-`chmod o=g {{datei}}`
+`chmod o=g {{pfad/zu/datei}}`
 
-- Entfernt alle Rechte der Anderen ([o]thers):
+- Entferne alle Rechte der anderen ([o]thers):
 
-`chmod o= {{datei}}`
+`chmod o= {{pfad/zu/datei}}`
 
-- Ändert Genehmigungen rekursiv, indem Sie [g]ruppe und Anderen ([o]thers) die Erlaubniss zum schreiben ([w]rite) geben:
+- Ändere Rechte rekursiv, indem der Besitzer[g]ruppe und anderen ([o]thers) die Rechte zum Schreiben ([w]rite) geben werden:
 
-`chmod -R g+w,o+w {{verzeichnis}}`
+`chmod -R g+w,o+w {{pfad/zu/verzeichnis}}`

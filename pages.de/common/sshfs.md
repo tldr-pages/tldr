@@ -1,24 +1,24 @@
 # sshfs
 
 > Dateisystem Client für SSH.
-> Mehr Informationen: <https://github.com/libfuse/sshfs>.
+> Weitere Informationen: <https://github.com/libfuse/sshfs>.
 
-- Einhängen eines externen Ordners:
+- Hänge ein externes Verzeichnis ein:
 
-`sshfs {{Benutzer}}@{{Externer_Server}}:{{Externer_Ordner}} {{Lokaler_Einhänguns_Ordner}}`
+`sshfs {{benutzer}}@{{externer_server}}:{{externes_verzeichnis}} {{lokales_einhänge_verzeichnis}}`
 
-- Aushängen eines externen Ordners:
+- Hänge ein externes Verzeichnis aus:
 
-`umount {{Lokaler_Einhängungs_Ordner}}`
+`umount {{lokaler_einhänge_verzeichnis}}`
 
-- Einhängen eines externen Ordners unter einem bestimmten Port:
+- Hänge ein externes Verzeichnis unter einem bestimmten Port ein:
 
-`sshfs {{Benutzer}}@{{Externer_Server}}:{{Externer_Ordner}} -p {{2222}}`
+`sshfs {{benutzer}}@{{externer_server}}:{{externes_verzeichnis}} -p {{2222}}`
 
-- Einsatz von Komprimierung:
+- Verwende Komprimierung:
 
-`sshfs {{Benutzer}}@{{Externer_Server}}:{{Externer_Ordner}} -C`
+`sshfs {{benutzer}}@{{externer_server}}:{{externes_verzeichnis}} -C`
 
-- Beachtung symbolischer Verweise:
+- Folge symbolischen Links:
 
-`sshfs -o follow_symlinks {{Benutzer}}@{{Externer_Server}}:{{Externer_Ordner}} {{Lokaler_Einhängungs_Ordner}}`
+`sshfs -o follow_symlinks {{benutzer}}@{{externer_server}}:{{externes_verzeichnis}} {{lokaler_einhänge_verzeichnis}}`

@@ -1,6 +1,7 @@
 # mkdir
 
 > Crea directory.
+> Maggiori informazioni: <https://www.gnu.org/software/coreutils/mkdir>.
 
 - Crea una directory nella directory corrente o in un dato percorso:
 

@@ -1,25 +1,25 @@
 # tmutil
 
-> Dienstprogramm zum Verwalten von Time Machine-Backups. Die meisten Kommandos erfordern Root-Rechte.
-> Mehr Informationen: <https://ss64.com/osx/tmutil.html>.
+> Dienstprogramm zum Verwalten von Time Machine-Backups. Die meisten Befehle erfordern Root-Rechte.
+> Weitere Informationen: <https://ss64.com/osx/tmutil.html>.
 
 - Setze ein HFS+ Laufwerk als Backupziel:
 
-`sudo tmutil setdestination {{path/to/disk_mount_point}}`
+`sudo tmutil setdestination {{pfad/zu/einhänge_punkt}}`
 
-- Setzen von einer APF-Freigabe oder SMB-Freigabe, als Backupziel:
+- Setze eine APF-Freigabe oder SMB-Freigabe als Backupziel:
 
-`sudo tmutil setdestination {{protocol://user[:password]@host/share}}`
+`sudo tmutil setdestination {{protocol://benutzer[:passwort]@host/share}}`
 
-- Hängen Sie das angegebene Ziel an die Liste der Backupziele an:
+- Hänge das angegebene Ziel an die Liste der Backupziele an:
 
-`sudo tmutil setdestination -a {{destination}}`
+`sudo tmutil setdestination -a {{ziel}}`
 
-- Aktivieren von automatischen Backups:
+- Aktiviere automatische Backups:
 
 `sudo tmutil enable`
 
-- Automatische Backups deaktivieren:
+- Deaktiviere automatische Backups:
 
 `sudo tmutil disable`
 
@@ -31,6 +31,6 @@
 
 `sudo tmutil startbackup -b`
 
-- Stoppen vom Backup:
+- Stoppe ein laufendes Backup:
 
 `sudo tmutil stopbackup`

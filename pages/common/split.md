@@ -1,6 +1,7 @@
 # split
 
 > Split a file into pieces.
+> More information: <https://www.gnu.org/software/coreutils/split>.
 
 - Split a file, each split having 10 lines (except the last split):
 

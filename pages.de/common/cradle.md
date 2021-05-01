@@ -2,20 +2,20 @@
 
 > Das Cradle PHP Framework.
 > Siehe `cradle-install`, `cradle-deploy`, etc. für zusätzliche Informationen.
-> Mehr Informationen: <https://cradlephp.github.io>.
+> Weitere Informationen: <https://cradlephp.github.io>.
 
-- Verbinden zu einem Server:
+- Stelle eine Verbindung zu einem Server her:
 
-`cradle connect {{Server}}`
+`cradle connect {{server}}`
 
-- Anzeigen der Hilfe-Seite:
+- Zeige die Hilfe-Seite an:
 
 `cradle help`
 
-- Anzeigen der Hilfe-Seite für ein bestimmtes Kommando:
+- Zeige die Hilfe-Seite für einen bestimmten Befehl:
 
-`cradle {{Kommando}} help`
+`cradle {{befehl}} help`
 
-- Ausführen eines Cradle Kommandos:
+- Führe einen Cradle-Befehl aus:
 
-`cradle {{Kommando}}`
+`cradle {{befehl}}`

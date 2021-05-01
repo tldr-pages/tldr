@@ -11,10 +11,18 @@
 
 `git --help`
 
-- Afficher l'aide sur une commande Git :
+- Afficher l'aide sur une sous-commande Git :
 
-`git help {{command}}`
+`git help {{sous_commande}}`
 
-- Exécuter une commande Git :
+- Exécuter une sous-commande Git :
 
-`git {{command}}`
+`git {{sous_commande}}`
+
+- Exécuter une sous-commande Git sur un répertoire personnalisé :
+
+`git -C {{chemin/vers/repertoire}} {{sous_commande}}`
+
+- Exécuter une sous-commande Git avec un paramètre de configuration spécifique :
+
+`git -c '{{cle_param_config}}={{valeur}}' {{sous_commande}}`

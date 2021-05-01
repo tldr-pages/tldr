@@ -1,32 +1,32 @@
 # git add
 
-> Fügt Dateien zum Index/Stage hinzu.
-> Mehr Informationen: <https://git-scm.com/docs/git-add>.
+> Füge Dateien zum Index/Stage hinzu.
+> Weitere Informationen: <https://git-scm.com/docs/git-add>.
 
-- Fügt eine Datei zum Index/Stage hinzu:
+- Füge eine bestimmte Datei zum Index hinzu:
 
-`git add {{pfad/zur/datei}}`
+`git add {{pfad/zu/datei}}`
 
-- Fügt alle Dateien zum Index/Stage hinzu (nachverfolgte und nicht nachverfolgte):
+- Füge alle Dateien zum Index hinzu (nachverfolgte und nicht nachverfolgte):
 
 `git add -A`
 
-- Fügt nur nachverfolgte Dateien zum Index/Stage hinzu (Updaten des Index/Stage):
+- Füge nur nachverfolgte Dateien zum Index hinzu (Updaten des Index):
 
 `git add -u`
 
-- Fügt auch Dateien, welche ignoriert werden (`.gitignore`) hinzu:
+- Füge auch Dateien, welche ignoriert werden (`.gitignore`) hinzu:
 
 `git add -f`
 
-- Interaktives Hinzufügen von Dateien zum Index/Stage:
+- Füge Teile von Dateien zum Index interaktiv hinzu:
 
 `git add -p`
 
-- Interaktives Hinzufügen von Teilen der Datei, welche angegeben wird:
+- Füge Teile einer bestimmten Datei interaktiv hinzu:
 
-`git add -p {{pfad/zur/datei}}`
+`git add -p {{pfad/zu/datei}}`
 
-- Interaktives Hinzufügen von Dateien zum Index/Stage:
+- Füge Dateien zum Index interaktiv hinzu:
 
 `git add -i`

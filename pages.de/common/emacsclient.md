@@ -1,24 +1,24 @@
 # emacsclient
 
-> Öffnet Dateien in einem bestehenden Emacs Server.
-> Mehr Informationen: <https://www.emacswiki.org/emacs/EmacsClient>.
+> Öffnet Dateien in einem laufenden Emacs Server.
+> Weitere Informationen: <https://www.emacswiki.org/emacs/EmacsClient>.
 
-- Öffnen einer Datei (direkt in der GUI wenn möglich):
+- Öffne eine Datei (direkt in der GUI wenn möglich):
 
-`emacsclient {{Datei-Name}}`
+`emacsclient {{pfad/zu/datei}}`
 
-- Öffnen einer Datei innerhalb der Konsole (ohne X-Fenster):
+- Öffne eine Datei in der Konsole (ohne X-Fenster):
 
-`emacsclient -nw {{Datei-Name}}`
+`emacsclient -nw {{pfad/zu/datei}}`
 
-- Öffnen einer Datei in Emacs mit direktem Zurückkehren in die Konsole:
+- Öffne eine Datei in Emacs mit direktem Zurückkehren in die Konsole:
 
-`emacsclient -n {{Datei-Name}}`
+`emacsclient -n {{pfad/zu/datei}}`
 
-- Öffnen einer Datei in einem neuen Emacs Fenster:
+- Öffne eine Datei in einem neuen Emacs Fenster:
 
-`emacsclient -c {{Datei-Name}}`
+`emacsclient -c {{pfad/zu/datei}}`
 
-- Ausführen eines Kommandos in einem neuen Emacs Fenster:
+- Führe einen Befehl in einem neuen Emacs Fenster aus:
 
-`emacsclient -c -e '({{Kommando}})'`
+`emacsclient -c -e '({{befehl}})'`

@@ -11,6 +11,10 @@
 
 `gh config set git_protocol {{ssh}}`
 
+- Use `delta` in side-by-side mode as the default pager for all `gh` commands:
+
+`gh config set pager '{{delta --side-by-side}}'`
+
 - Set text editor to Vim:
 
 `gh config set editor {{vim}}`

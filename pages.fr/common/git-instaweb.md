@@ -1,9 +1,9 @@
 # git instaweb
 
-> Outil pour le lancemend d'un serveur gitweb.
+> Outil pour le lancement d'un serveur gitweb.
 > Plus d'informations : <https://git-scm.com/docs/git-instaweb>.
 
-- Démare un serveur gitweb depuis le repository courrant :
+- Démarre un serveur gitweb depuis le dépôt (`repository`) courant :
 
 `git instaweb --start`
 
@@ -19,7 +19,7 @@
 
 `git instaweb --start --httpd {{lighttpd|apache2|mongoose|plackup|webrick}}`
 
-- Lancer en méme temps qu un navigateur web :
+- Lancer en même temps qu'un navigateur web :
 
 `git instaweb --start --browser`
 

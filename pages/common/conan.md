@@ -7,7 +7,7 @@
 
 `conan install {{.}}`
 
-- Install packages and create configuation files for a specific generator:
+- Install packages and create configuration files for a specific generator:
 
 `conan install -g {{generator}}`
 

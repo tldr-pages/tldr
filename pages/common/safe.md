@@ -23,7 +23,7 @@
 
 `safe move {{old/path/to/secret}} {{new/path/to/secret}}`
 
-- Generate a new 2048-bit SSH keypair and store it:
+- Generate a new 2048-bit SSH key-pair and store it:
 
 `safe ssh {{2048}} {{path/to/secret}}`
 

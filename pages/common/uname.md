@@ -2,6 +2,7 @@
 
 > Print details about the current machine and the operating system running on it.
 > Note: for additional information about the operating system, try the `lsb_release` command.
+> More information: <https://www.gnu.org/software/coreutils/uname>.
 
 - Print hardware-related information: machine and processor:
 
