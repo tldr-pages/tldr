@@ -10,7 +10,7 @@
 
 - Execute a specific binary from a given npm module, in case the module has multiple binaries:
 
-`pnpx -p {{package_name}} {{module_name}}`
+`pnpx --package {{package_name}} {{module_name}}`
 
 - Show help:
 
