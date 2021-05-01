@@ -1,7 +1,6 @@
 # pnpx
 
-> Execute binaries from `npm` packages.
-> Uses PNPM instead of NPM to execute packages.
+> Directly execute binaries from npm packages, using `pnpm` instead of `npm`.
 > More information: <https://pnpm.io/pnpx-cli>.
 
 - Execute the binary from a given npm module:
