@@ -8,7 +8,7 @@
 
 `pnpm init`
 
-- Download all the packages listed as dependencies in package.json:
+- Download all the packages listed as dependencies in `package.json`:
 
 `pnpm install`
 
