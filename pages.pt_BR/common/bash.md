@@ -14,15 +14,15 @@
 
 - Executar um script:
 
-`bash {{caminho/para/o/script.sh}}`
+`bash {{caminho/para/script.sh}}`
 
 - Executar um script, exibindo cada comando antes de executá-lo:
 
-`bash -x {{caminho/para/o/script.sh}}`
+`bash -x {{caminho/para/script.sh}}`
 
 - Executar os comandos de um script, parando de executar no primeiro erro:
 
-`bash -e {{caminho/para/o/script.sh}}`
+`bash -e {{caminho/para/script.sh}}`
 
 - Ler e executar comandos do stdin (entrada padrão):
 

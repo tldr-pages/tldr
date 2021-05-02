@@ -6,7 +6,7 @@
 
 - Compilar um sketch:
 
-`arduino-builder -compile {{caminho/para/o/sketch.ino}}`
+`arduino-builder -compile {{caminho/para/sketch.ino}}`
 
 - Definir o nível de debug (1 a 10, o padrão é 5):
 
@@ -14,7 +14,7 @@
 
 - Definir um diretório de compilação customizado:
 
-`arduino-builder -build-path {{caminho/para/o/diretorio}}`
+`arduino-builder -build-path {{caminho/para/diretorio}}`
 
 - Usar um arquivo com as opções de compilação, em vez de especificar `--hardware`, `--tools`, etc. manualmente toda hora:
 
