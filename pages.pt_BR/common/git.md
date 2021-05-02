@@ -21,7 +21,7 @@
 
 - Execute um subcomando Git no caminho raíz de um repositório específico:
 
-`git -C {{caminho/para/o/repo}} {{subcomando}}`
+`git -C {{caminho/para/repo}} {{subcomando}}`
 
 - Execute um subcomando Git com uma dada configuração:
 
