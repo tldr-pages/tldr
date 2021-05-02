@@ -1,18 +1,19 @@
 # more
 
-> Abre un archivo para lectura interactiva, permitiendo desplazar y buscar (Solamente en una dirección, adelante).
+> Abre un archivo para lectura interactiva, permitiendo navegar y buscar.
+> Más información: <https://manned.org/more>.
 
 - Abre un archivo:
 
-`more {{archivo}}`
+`more {{ruta/al/archivo}}`
 
 - Página abajo:
 
 `<Espacio>`
 
-- Busca una termino (La tecla `n` se mueve al siguiente resultado):
+- Busca una cadena (presione `n` para ir a la siguiente coincidencia):
 
-`/{{termino de busqueda}}`
+`/{{cadena}}`
 
 - Salir:
 
