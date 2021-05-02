@@ -7,18 +7,18 @@
 
 `genid uuid`
 
-- Generate a UUIDv5 with a namespace UUID and name THISISANAME:
+- Generate a UUIDv5 with a namespace UUID and a specific name:
 
-`genid uuidv5 {{{ce598faa-8dd0-49ee-8525-9e24fff71dca}}} {{THISISANAME}}`
+`genid uuidv5 {{{ce598faa-8dd0-49ee-8525-9e24fff71dca}}} {{name}}`
 
 - Generate a Discord Snowflake, without a trailing newline (for scripts):
 
 `genid --script snowflake`
 
-- Generate a Generic Anonymous ID with "real ID" tldrpages:
+- Generate a Generic Anonymous ID with a specific "real ID":
 
-`genid gaid {{tldrpages}}`
+`genid gaid {{real_id}}`
 
-- Generate a Snowflake with the epoch set to March 13, 2020:
+- Generate a Snowflake with the epoch set to a specific date:
 
-`genid snowflake --epoch={{1584072000}}`
+`genid snowflake --epoch={{unix_epoch_time}}`
