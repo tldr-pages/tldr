@@ -10,7 +10,7 @@
 
 - 将该 URL 的内容下载到文件中 （在这个例子中文件名为 "bar"）:
 
-`wget -O {{bar}} {{https://example.com/foo}}`
+`wget --output-document {{bar}} {{https://example.com/foo}}`
 
 - 以每三秒一个请求的速度下载一个网页和其所有资源 （脚本，样式表，图片等等）:
 
@@ -30,8 +30,8 @@
 
 - 继续一个未完成的下载任务:
 
-`wget -c {{https://example.com}}`
+`wget --continue {{https://example.com}}`
 
 - 将指定文件中所有列出的 URL 下载到一个目录中:
 
-`wget -P {{path/to/directory}} -i {{URLs.txt}}`
+`wget --directory-prefix {{path/to/directory}} --input-file {{URLs.txt}}`
