@@ -13,4 +13,4 @@
 
 - Delete the configuration file and the specified storage volumes using the target name or the source name (as obtained from the `virsh domblklist` command):
 
-`virsh undefine --domain {{vm_name}} --storage {{target_name1|path/to/storage1,target_name2|path/to/storage2,...}}`
+`virsh undefine --domain {{vm_name}} --storage {{sda,path/to/storage}}`
