@@ -5,7 +5,7 @@
 
 - List SMS messages available on the modem:
 
-`sudo mmcli -m {{modem}} --messaging-list-sms`
+`sudo mmcli --modem={{modem}} --messaging-list-sms`
 
 - Delete a message from the modem by path:
 
