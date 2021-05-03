@@ -45,6 +45,8 @@ If you are an owner of the organization, you should be able to see an automated 
   [03 March 2021](https://github.com/tldr-pages/tldr/issues/5345) — present
 - **Marcher Simon ([@marchersimon](https://github.com/marchersimon))**:
   [09 March 2021](https://github.com/tldr-pages/tldr/issues/5390) — present
+- **Nicolas Kosinski** ([@nicokosi](https://github.com/nicokosi)):
+  [03 May 2021](https://github.com/tldr-pages/tldr/issues/5873) — present
 - Lucas Schneider ([@schneiderl](https://github.com/schneiderl)):
   [11 April 2019](https://github.com/tldr-pages/tldr/issues/2898) — [17 January 2020](https://github.com/tldr-pages/tldr/issues/3764)
 - Ein Verne ([@einverne](https://github.com/einverne)):
