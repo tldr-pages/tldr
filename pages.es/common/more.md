@@ -7,7 +7,7 @@
 
 `more {{ruta/al/archivo}}`
 
-- Página abajo:
+- Avanza hacia la siguiente página:
 
 `<Espacio>`
 
