@@ -1,7 +1,7 @@
 # clear
 
 > Limpa a tela do terminal.
-> Saiba mais: <https://manned.org/clear>.
+> Mais informações: <https://manned.org/clear>.
 
 - Limpar a tela (equivalente a apertar Control-L no terminal Bash):
 

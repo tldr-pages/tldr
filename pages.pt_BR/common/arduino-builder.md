@@ -2,7 +2,7 @@
 
 > Uma ferramenta de linha de comando para compilar sketches do arduino.
 > AVIDO DE OBSOLESCÊNCIA: Esta ferramenta está sendo descontinuada e substituida pelo `arduino`.
-> Saiba mais: <https://github.com/arduino/arduino-builder>.
+> Mais informações: <https://github.com/arduino/arduino-builder>.
 
 - Compilar um sketch:
 

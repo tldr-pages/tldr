@@ -1,7 +1,7 @@
 # arduino
 
 > Arduino Studio - Ambiente de Desenvolvimento Integrado para a plataforma Arduino.
-> Saiba mais: <https://github.com/arduino/Arduino/blob/master/build/shared/manpage.adoc>.
+> Mais informações: <https://github.com/arduino/Arduino/blob/master/build/shared/manpage.adoc>.
 
 - Compilar um sketch:
 
