@@ -9,4 +9,4 @@
 
 - Delete a message from the modem by path:
 
-`sudo mmcli --modem={{modem}} --messaging-delete-sms={{path}}`
+`sudo mmcli --modem={{modem}} --messaging-delete-sms={{path/to/message_file}}`
