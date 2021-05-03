@@ -5,11 +5,11 @@
 
 - Pobierz adres URL do pliku:
 
-`http -d {{przyklad.org}}`
+`http --download {{przyklad.org}}`
 
 - Wyślij dane zakodowane w formularzu:
 
-`http -f {{przyklad.org}} {{nazwa='bob'}} {{zdjecie_profilowe@'bob.png'}}`
+`http --form {{przyklad.org}} {{nazwa='bob'}} {{zdjecie_profilowe@'bob.png'}}`
 
 - Wyślij obiekt JSON:
 
@@ -25,7 +25,7 @@
 
 - Podaj nazwę użytkownika i hasło do uwierzytelnienia serwera:
 
-`http -a {{nazwauzytkownika:haslo}} {{przyklad.org}}`
+`http --auth {{nazwauzytkownika:haslo}} {{przyklad.org}}`
 
 - Określ surowe ciało żądania za pośrednictwem stdin:
 
