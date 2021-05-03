@@ -8,14 +8,14 @@
 
 `git bisect start {{bad_commit}} {{good_commit}}`
 
-- Pour chaque `git bisect` selectionné, le marquer comme "bad" ou "good" apres l'avoir testé pour le probléme :
+- Pour chaque `git bisect` sélectionné, le marquer comme "mauvais" (`bad`) ou "bon" (`good`) après l'avoir testé pour le problème :
 
 `git bisect {{good|bad}}`
 
-- Apres que `git bisect` pointe vers le mauvais commit, terminer la dissection et retourner a la branche précedante :
+- Après que `git bisect` pointe vers le mauvais commit, terminer la dissection et retourner à la branche précédente :
 
 `git bisect reset`
 
-- Sauter un commit lorrs de la dissection (e.g. celui qui echoue les tests pour une autre raison) :
+- Sauter un commit lors de la dissection (e.g. celui qui échoue les tests pour une autre raison) :
 
 `git bisect skip`

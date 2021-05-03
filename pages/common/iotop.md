@@ -1,7 +1,7 @@
 # iotop
 
 > Display a table of current I/O usage by processes or threads.
-> More information: <https://linux.die.net/man/1/iotop>.
+> More information: <https://manned.org/iotop>.
 
 - Start top-like I/O monitor:
 

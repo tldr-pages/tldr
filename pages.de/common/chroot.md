@@ -1,7 +1,7 @@
 # chroot
 
 > Führe einen Befehl oder eine interaktive Shell mit einem speziellen root-Verzeichnis aus.
-> Mehr Informationen: <https://www.gnu.org/software/coreutils/chroot>.
+> Weitere Informationen: <https://www.gnu.org/software/coreutils/chroot>.
 
 - Führe einen Befehl mit einem neuen root-Verzeichnis aus:
 

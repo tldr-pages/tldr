@@ -1,6 +1,7 @@
 # chsh
 
 > Ändra användarens inloggnings-shell.
+> Mer information: <https://manned.org/chsh>.
 
 - Ändra shell:
 

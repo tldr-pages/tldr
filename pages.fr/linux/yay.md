@@ -8,15 +8,15 @@
 
 `yay {{nom_paquet|terme_recherche}}`
 
-- Synchronise et mets à jour tous les paquets depuis les dépôts et l'AUR :
+- Synchronise et met à jour tous les paquets depuis les dépôts et l'AUR :
 
 `yay`
 
-- Synchronise et mets à jour seulement les paquets de l'AUR :
+- Synchronise et met à jour seulement les paquets de l'AUR :
 
 `yay -Sua`
 
-- Installe un nouveu paquet depuis les dépôts et l'AUR :
+- Installe un nouveau paquet depuis les dépôts et l'AUR :
 
 `yay -S {{nom_paquet}}`
 

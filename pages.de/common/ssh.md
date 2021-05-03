@@ -19,9 +19,9 @@
 
 `ssh {{externer_server}} {{befehl}}`
 
-- SSH Tunneln: Leite Ports dynamische Port weiter (SOCKS proxy auf localhost:9999):
+- SSH Tunneln: Leite Ports dynamische Port weiter (SOCKS proxy auf localhost:1080):
 
-`ssh -D {{9999}} -C {{benutzer}}@{{externer_server}}`
+`ssh -D {{1080}} {{benutzer}}@{{externer_server}}`
 
 - SSH Tunneln: Leite einen spezifischen Ports (localhost:9999 zu example.org:80) weiter zusammen mit deaktivierter pseudy-tty Provisionierung für die Ausführung eines Befehls:
 

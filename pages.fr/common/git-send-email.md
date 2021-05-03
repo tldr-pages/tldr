@@ -4,15 +4,15 @@
 > Les correctifs peuvent être spécifiés sous forme de fichiers, de directions ou de liste de révisions.
 > Plus d'informations : <https://git-scm.com/docs/git-send-email>.
 
-- Envoyer le dernier commit de la branche courrante :
+- Envoyer le dernier commit de la branche courante :
 
 `git send-email -1`
 
-- envoyer un commit spécifiaue :
+- envoyer un commit spécifique :
 
 `git send-email -1 {{commit}}`
 
-- envoyer de multiples commits de la branche courrante (ici : 10) :
+- envoyer de multiples commits de la branche courante (ici : 10) :
 
 `git send-email {{-10}}`
 

@@ -1,7 +1,7 @@
 # git
 
 > Verteiltes Versionskontrollsystem.
-> Mehr Informationen: <https://git-scm.com/>.
+> Weitere Informationen: <https://git-scm.com/>.
 
 - Gib die installierte Git Version aus:
 

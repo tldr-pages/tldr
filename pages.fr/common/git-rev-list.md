@@ -1,9 +1,9 @@
 # git rev-list
 
-> Liste les révisionts (commits) dans l'ordre chronologique inverse.
+> Liste les révisions (commits) dans l'ordre chronologique inverse.
 > Plus d'informations : <https://git-scm.com/docs/git-rev-list>.
 
-- Lister tout les commits dans la branche courrante :
+- Lister tout les commits dans la branche courante :
 
 `git rev-list {{HEAD}}`
 

@@ -1,7 +1,7 @@
 # compare
 
 > Zeige Unterschiede von zwei Bildern.
-> Mehr Informationen: <https://imagemagick.org/script/compare.php>.
+> Weitere Informationen: <https://imagemagick.org/script/compare.php>.
 
 - Vergleiche 2 Bilder:
 

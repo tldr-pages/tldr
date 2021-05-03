@@ -2,7 +2,7 @@
 
 > Patch-Dateien integrieren. Nützlich beim Empfang von Commits per E-Mail.
 > Siehe auch `git format-patch` zur Erzeugung von Patch-Dateien.
-> Mehr Informationen: <https://git-scm.com/docs/git-am>.
+> Weitere Informationen: <https://git-scm.com/docs/git-am>.
 
 - Integriere eine Patch-Datei:
 

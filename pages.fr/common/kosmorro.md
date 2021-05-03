@@ -1,6 +1,6 @@
 # kosmorro
 
-> Calcule les éphémérides et les événements pour une date donnée, à un emplacement donné sur Terre.
+> Calcule les éphémérides et les évènements pour une date donnée, à un emplacement donné sur Terre.
 > Plus d'informations : <http://kosmorro.space>.
 
 - Obtenir les éphémérides pour Paris (France) :

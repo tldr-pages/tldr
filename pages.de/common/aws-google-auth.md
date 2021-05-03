@@ -1,7 +1,7 @@
 # aws-google-auth
 
 > CLI, um temporäre AWS credentials (STS) über Google Apps als Single Sign-On Dienstleister zu erhalten.
-> Mehr Informationen: <https://github.com/cevoaustralia/aws-google-auth>.
+> Weitere Informationen: <https://github.com/cevoaustralia/aws-google-auth>.
 
 - Einloggen mit Google SSO über IDP- und SP-Kennung für die Dauer einer Stunde:
 

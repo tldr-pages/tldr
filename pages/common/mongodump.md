@@ -1,7 +1,7 @@
 # mongodump
 
 > Utility to export the contents of a MongoDB instance.
-> More information: <https://docs.mongodb.com/manual/reference/program/mongodump>.
+> More information: <https://docs.mongodb.com/database-tools/mongodump/>.
 
 - Create a dump of all databases (this will place the files inside a directory called "dump"):
 

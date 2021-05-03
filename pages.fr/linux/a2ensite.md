@@ -1,7 +1,7 @@
 # a2ensite
 
 > Active un hôte virtuel Apache sur des systèmes d'exploitation (SE) basés sur Debian.
-> Plus d'information : <https://manpages.debian.org/latest/apache2/a2ensite.8.en.html>.
+> Plus d'informations : <https://manpages.debian.org/latest/apache2/a2ensite.8.en.html>.
 
 - Active un hôte virtuel :
 

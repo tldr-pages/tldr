@@ -9,7 +9,7 @@
 
 - Edit the configuration:
 
-`espanso config`
+`espanso edit config`
 
 - Install a package from the hub store (<https://hub.espanso.org/>):
 

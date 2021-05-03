@@ -2,7 +2,7 @@
 
 > Verwalte "Eimer": Git-Repositories, welche Dateien enthalten, die beschreiben, wie Scoop Programme installiert werden.
 > Kennt Scoop nicht die URL eines Eimers, so muss diese angegeben werden.
-> Mehr Informationen: <https://github.com/lukesampson/scoop/wiki/Buckets>.
+> Weitere Informationen: <https://github.com/lukesampson/scoop/wiki/Buckets>.
 
 - Liste alle Eimer auf, die gerade aktiv sind:
 

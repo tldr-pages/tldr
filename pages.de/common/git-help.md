@@ -1,7 +1,7 @@
 # git help
 
 > Zeige Hilfe für Git an.
-> Mehr Informationen: <https://git-scm.com/docs/git-help>.
+> Weitere Informationen: <https://git-scm.com/docs/git-help>.
 
 - Zeige Hilfe für einen bestimmten Git-Unterbefehl an:
 

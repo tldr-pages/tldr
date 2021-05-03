@@ -12,7 +12,7 @@
 
 - 尝试使用提供的恢复密钥文件修复指定的卷:
 
-`repair-bde {{C:}} -RecoveryKey {{bek 文件的路径}`
+`repair-bde {{C:}} -RecoveryKey {{bek 文件的路径}}`
 
 - 尝试使用提供的数字恢复密码修复指定的卷:
 

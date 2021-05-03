@@ -2,7 +2,7 @@
 
 > GNU Privacy Guard 2.
 > Siehe `gpg` für GNU Privacy Guard 1.
-> Mehr Informationen: <https://docs.releng.linuxfoundation.org/en/latest/gpg.html>.
+> Weitere Informationen: <https://docs.releng.linuxfoundation.org/en/latest/gpg.html>.
 
 - Liste alle importierten Schlüssel auf:
 

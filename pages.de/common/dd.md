@@ -1,11 +1,11 @@
 # dd
 
 > Konvertiere und kopiere eine Datei.
-> Mehr Informationen: <https://www.gnu.org/software/coreutils/dd>.
+> Weitere Informationen: <https://www.gnu.org/software/coreutils/dd>.
 
 - Erstelle ein bootbares USB-Laufwerk von einer isohybriden Datei (wie `archlinux-xxxx.iso`) und zeige den Fortschritt an:
 
-`dd if={{pfad/zu/datei.iso}} of=/dev/{{usb_drive} status=progress`
+`dd if={{pfad/zu/datei.iso}} of=/dev/{{usb_drive}} status=progress`
 
 - Klone ein USB-Laufwerk in ein anderes in 4MiB Blöcken, ignoriere Fehler und zeige den Fortschritt an:
 
