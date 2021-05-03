@@ -12,7 +12,7 @@
 
 `curl --remote-name {{http://contoh.com/namafile}}`
 
-- Unduh file, mengikuti pengalihan okasi, dan secara otomatis melanjutkan transfer file sebelumnya:
+- Unduh file, mengikuti pengalihan lokasi, dan secara otomatis melanjutkan transfer file sebelumnya:
 
 `curl --remote-name --location --continue-at - {{http://contoh.com/filename}}`
 
