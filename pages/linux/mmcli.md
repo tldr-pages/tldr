@@ -1,7 +1,7 @@
 # mmcli
 
 > Control and monitor the ModemManager.
-> More information: <https://www.freedesktop.org/software/ModemManager/man/1.0.0/mmcli.8.html>.
+> More information: <https://www.freedesktop.org/software/ModemManager/man/latest/mmcli.1.html>.
 
 - List SMS messages available on the modem:
 
