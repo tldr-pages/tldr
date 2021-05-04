@@ -3,7 +3,7 @@
 > Log in to the IBM Cloud.
 > More information: <https://cloud.ibm.com/docs/cli?topic=cli-ibmcloud_cli#ibmcloud_login>.
 
-- Log in by using interactive prompts:
+- Log in by using an interactive prompt:
 
 `ibmcloud login`
 
@@ -11,15 +11,15 @@
 
 `ibmcloud login -a {{api_endpoint}}`
 
-- Log in by providing username, password and targeted region as parameters:
+- Log in by providing username, password and the targeted region as parameters:
 
 `ibmcloud login -u {{username}} -p {{password}} -r {{us-south}}`
 
-- Log in with an API key, providing it as a string on the command line:
+- Log in with an API key, passing it as an argument:
 
 `ibmcloud login --apikey {{api_key_string}}`
 
-- Log in with an API key, providing it as a file:
+- Log in with an API key, passing it as a file:
 
 `ibmcloud login --apikey @{{path/to/api_key_file}}`
 
