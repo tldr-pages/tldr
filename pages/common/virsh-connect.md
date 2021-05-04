@@ -12,7 +12,7 @@
 
 `virsh connect qemu:///system`
 
-- Launch a new instance of the hypervisor and connect to it as a local user:
+- Launch a new instance of the hypervisor and connect to it as the local user:
 
 `virsh connect qemu:///session`
 
