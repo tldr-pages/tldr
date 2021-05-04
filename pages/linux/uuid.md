@@ -1,7 +1,7 @@
 # uuid
 
-> Generate and decode an Universally Unique Identifier (UUID).
-> More information: <https://manned.org/uuid.1>.
+> Generate and decode Universally Unique Identifiers (UUID).
+> More information: <https://manned.org/uuid>.
 
 - Generate a v1 UUID (time and node based):
 
@@ -15,9 +15,9 @@
 
 `uuid -v {{3}} ns:URL {{https://example.com}}`
 
-- Generate multiple v1 UUIDs at once by specifying a count:
+- Generate multiple v1 UUIDs at once:
 
-`uuid -n {{12}}`
+`uuid -n {{number_of_uuids}}`
 
 - Generate a v1 UUID in a single integer value (SIV) representation format:
 
@@ -29,4 +29,4 @@
 
 - Decode a given UUID:
 
-`uuid -d {{68794df6-5e20-385f-ab08-bb73f8a433cb}}`
+`uuid -d {{uuid}}`
