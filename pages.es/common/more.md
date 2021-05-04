@@ -7,9 +7,9 @@
 
 `more {{ruta/al/archivo}}`
 
-- Abre un archivo en una línea especifica:
+- Abre un archivo mostrando desde una línea especifica:
 
-`more {{ruta/al/archivo}} +{{numero_linea}}`
+`more +{{numero_linea}} {{ruta/al/archivo}}`
 
 - Muestra la ayuda:
 
