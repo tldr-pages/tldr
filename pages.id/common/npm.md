@@ -22,7 +22,7 @@
 
 - Unduh paket dan instal secara global:
 
-`npm install -g {{nama_modul}}`
+`npm install --global {{nama_modul}}`
 
 - Copot pemasangan paket dan hapus dari daftar dependensi di `package.json`:
 
@@ -34,4 +34,4 @@
 
 - Buat daftar modul tingkat atas yang diinstal secara global:
 
-`npm list -g --depth={{0}}`
+`npm list --global --depth={{0}}`
