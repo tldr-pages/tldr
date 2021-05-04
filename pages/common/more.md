@@ -7,7 +7,7 @@
 
 `more {{path/to/file}}`
 
-- Open a file displaying from a specific line:
+- Open a file at a specific line:
 
 `more {{path/to/file}} +{{line_number}}`
 
