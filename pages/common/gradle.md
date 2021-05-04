@@ -3,19 +3,19 @@
 > Gradle is an open source build automation system.
 > More information: <https://gradle.org>.
 
-- Compile a package:
+- Assemble outputs and run checks:
 
 `gradle build`
 
-- Exclude test task:
+- Exclude the `test` task:
 
 `gradle build -x {{test}}`
 
-- Run in offline mode to prevent gradle from accessing the network during builds:
+- Run in offline mode to prevent Gradle from accessing the network during build:
 
 `gradle build --offline`
 
-- Clear the build directory:
+- Clear the output directory:
 
 `gradle clean`
 
