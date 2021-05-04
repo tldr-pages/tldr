@@ -1,6 +1,6 @@
 # git lfs
 
-> Herramienta para trabajar con archivos grandes en repositorios Git.
+> Trabaja con archivos grandes en repositorios de Git.
 > Más información: <https://git-lfs.github.com>.
 
 - Inicializa Git LFS:
@@ -26,3 +26,11 @@
 - Introduce todos los objetos LFS en el servidor remoto (útil si se encuentran errores):
 
 `git lfs push --all {{nombre_remoto}} {{nombre_de_la_rama}}`
+
+- Trae todos los objetos de Git LFS:
+
+`git lfs fetch`
+
+- Verifica todos los objetos de Git LFS:
+
+`git lfs checkout`
