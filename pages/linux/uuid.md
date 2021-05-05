@@ -12,9 +12,9 @@
 
 `uuid -v {{4}}`
 
-- Generate a v5 UUID (name based) with an URL namespace:
+- Generate a v5 UUID (name based) with a specified namespace prefix:
 
-`uuid -v {{5}} ns:URL {{https://example.com}}`
+`uuid -v {{5}} ns:{{DNS|URL|OID|X500}} {{object_name}}`
 
 - Generate multiple v1 UUIDs at once:
 
