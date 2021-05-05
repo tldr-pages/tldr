@@ -1,9 +1,10 @@
 # uuid
 
 > Generate and decode Universally Unique Identifiers (UUID).
+> See also `uuidgen`.
 > More information: <https://manned.org/uuid>.
 
-- Generate a v1 UUID (time and node based):
+- Generate a v1 UUID (based on time and system's hardware address, if present):
 
 `uuid`
 

@@ -1,6 +1,8 @@
 # uuidgen
 
 > Generate unique identifiers (UUIDs).
+> See also `uuid`.
+> More information: <https://manned.org/uuidgen>.
 
 - Create a random UUID:
 
@@ -10,6 +12,6 @@
 
 `uuidgen --time`
 
-- Create a UUID based on the hash of a URL:
+- Create a UUID of the name with a specified namespace prefix:
 
-`uuidgen --sha1 --namespace {{@url}} --name {{object_name}}`
+`uuidgen --sha1 --namespace {{@dns|@url|@oid|@x500}} --name {{object_name}}`
