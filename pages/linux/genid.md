@@ -7,11 +7,11 @@
 
 `genid uuid`
 
-- Generate a UUIDv5 with a namespace UUID and a specific name:
+- Generate a UUIDv5 using a namespace UUID and a specific name:
 
 `genid uuidv5 {{{ce598faa-8dd0-49ee-8525-9e24fff71dca}}} {{name}}`
 
-- Generate a Discord Snowflake, without a trailing newline (for scripts):
+- Generate a Discord Snowflake, without a trailing newline (useful in shell scripts):
 
 `genid --script snowflake`
 
