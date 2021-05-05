@@ -8,9 +8,9 @@
 
 `acme.sh --issue --domain {{example.com}} --webroot {{/path/to/webroot}}`
 
-- Issue a certificate using standalone mode using port 80:
+- Issue a certificate for multiple domains using standalone mode using port 80:
 
-`acme.sh --issue --standalone --domain {{example.com}}`
+`acme.sh --issue --standalone --domain {{example.com}} --domain {{www.example.com}}`
 
 - Issue a certificate using standalone TLS mode using port 443:
 
