@@ -11,7 +11,7 @@
 
 `gradle build -x {{task_name}}`
 
-- Run in offline mode to prevent Gradle from accessing the network during build:
+- Run in offline mode to prevent Gradle from accessing the network during the build process:
 
 `gradle build --offline`
 
