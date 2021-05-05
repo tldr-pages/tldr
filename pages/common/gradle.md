@@ -23,6 +23,10 @@
 
 `gradle assembleRelease`
 
-- List tasks:
+- List the main tasks:
 
 `gradle tasks`
+
+- List all the tasks:
+
+`gradle tasks --all`
