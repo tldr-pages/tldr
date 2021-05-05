@@ -12,7 +12,7 @@
 
 `uuid -v {{4}}`
 
-- Generate a v5 UUID (name based) with a specified namespace prefix:
+- Generate a v5 UUID (based on the supplied object name) with a specified namespace prefix:
 
 `uuid -v {{5}} ns:{{DNS|URL|OID|X500}} {{object_name}}`
 
