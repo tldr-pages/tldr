@@ -8,7 +8,7 @@
 
 `uuid`
 
-- Generate a v4 UUID (random data based):
+- Generate a v4 UUID (based on random data):
 
 `uuid -v {{4}}`
 
