@@ -19,9 +19,9 @@
 
 `uuid -n {{number_of_uuids}}`
 
-- Generate a v1 UUID in a single integer value (SIV) representation format:
+- Generate a v1 UUID and specify the output format:
 
-`uuid -F {{SIV}}`
+`uuid -F {{BIN|STR|SIV}}`
 
 - Generate a v1 UUID and write the output to a file:
 
