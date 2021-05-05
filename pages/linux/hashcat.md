@@ -1,7 +1,7 @@
 # hashcat
 
 > Fast and advanced password recovery tool.
-> More information: <https://hashcat.net/hashcat/>
+> More information: <https://hashcat.net/hashcat/>.
 
 - Brute-force attack with default hashcat mask
 
