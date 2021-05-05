@@ -4,29 +4,29 @@
 > See also `uuidgen`.
 > More information: <https://manned.org/uuid>.
 
-- Generate a v1 UUID (based on time and system's hardware address, if present):
+- Generate a UUIDv1 (based on time and system's hardware address, if present):
 
 `uuid`
 
-- Generate a v4 UUID (based on random data):
+- Generate a UUIDv4 (based on random data):
 
 `uuid -v {{4}}`
 
-- Generate a v5 UUID (based on the supplied object name) with a specified namespace prefix:
+- Generate multiple UUIDv4 identifiers at once:
+
+`uuid -v {{4}} -n {{number_of_uuids}}`
+
+- Generate a UUIDv4 and specify the output format:
+
+`uuid -v {{4}} -F {{BIN|STR|SIV}}`
+
+- Generate a UUIDv4 and write the output to a file:
+
+`uuid -v {{4}} -o {{path/to/file}}`
+
+- Generate a UUIDv5 (based on the supplied object name) with a specified namespace prefix:
 
 `uuid -v {{5}} ns:{{DNS|URL|OID|X500}} {{object_name}}`
-
-- Generate multiple v1 UUIDs at once:
-
-`uuid -n {{number_of_uuids}}`
-
-- Generate a v1 UUID and specify the output format:
-
-`uuid -F {{BIN|STR|SIV}}`
-
-- Generate a v1 UUID and write the output to a file:
-
-`uuid -o {{path/to/file}}`
 
 - Decode a given UUID:
 
