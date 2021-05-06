@@ -5,28 +5,28 @@
 
 - Brute-force attack with default hashcat mask:
 
-`hashcat --hash-type {{id_hash_type}} --attack-mode 3 {{hash}}`
+`hashcat --hash-type {{id_hash_type}} --attack-mode 3 {{hash_value}}`
 
 - Brute-force attack with a known pattern of 4 digits:
 
-`hashcat --hash-type {{id_hash_type}} --attack-mode 3 {{hash}} ?d?d?d?d`
+`hashcat --hash-type {{id_hash_type}} --attack-mode 3 {{hash_value}} {{?d?d?d?d}}`
 
-- Brute-force attack with max length of 8 chars using the complete charset (numbers + letters + special chars):
+- Brute-force attack using 8 (at most) of all printable ASCII chars with 
 
-`hashcat --hash-type {{id_hash_type}} --attack-mode 3 --increment {{hash}} ?a?a?a?a?a?a?a?a`
+`hashcat --hash-type {{id_hash_type}} --attack-mode 3 --increment {{hash_value}} {{?a?a?a?a?a?a?a?a}}`
 
 - Dictionary attack using the RockYou wordlist of a Kali Linux box:
 
-`hashcat --hash-type {{id_hash_type}} --attack-mode 0 {{hash}} /usr/share/wordlists/rockyou.txt`
+`hashcat --hash-type {{id_hash_type}} --attack-mode 0 {{hash_value}} {{/usr/share/wordlists/rockyou.txt}}`
 
 - Dictionary + rule based attack using the RockYou wordlist mutated with common password variations:
 
-`hashcat --hash-type {{id_hash_type}} --attack-mode 0 -r /usr/share/hashcat/rules/best64.rule {{hash}} /usr/share/wordlists/rockyou.txt`
+`hashcat --hash-type {{id_hash_type}} --attack-mode 0 -r {{/usr/share/hashcat/rules/best64.rule}} {{hash_value}} {{/usr/share/wordlists/rockyou.txt}}`
 
 - Combination attack using the concatenation of words from two different custom dictionaries:
 
-`hashcat --hash-type {{id_hash_type}} --attack-mode 1 {{hash}} {{/path/to/dictionary1.txt}} {{/path/to/dictionary2.txt}}`
+`hashcat --hash-type {{id_hash_type}} --attack-mode 1 {{hash_value}} {{/path/to/dictionary1.txt}} {{/path/to/dictionary2.txt}}`
 
 - Show result of an already-cracked hash:
 
-`hashcat --show {{hash}}`
+`hashcat --show {{hash_value}}`
