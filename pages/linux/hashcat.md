@@ -3,27 +3,27 @@
 > Fast and advanced password recovery tool.
 > More information: <https://hashcat.net/hashcat/>.
 
-- Brute-force attack with default hashcat mask:
+- Perform a brute-force attack (mode 3) with default hashcat mask:
 
 `hashcat --hash-type {{id_hash_type}} --attack-mode 3 {{hash_value}}`
 
-- Brute-force attack with a known pattern of 4 digits:
+- Perform a brute-force attack (mode 3) with a known pattern of 4 digits:
 
 `hashcat --hash-type {{id_hash_type}} --attack-mode 3 {{hash_value}} {{?d?d?d?d}}`
 
-- Brute-force attack using 8 (at most) of all printable ASCII chars with 
+- Perform a brute-force attack (mode 3) using 8 (at most) of all printable ASCII chars with:
 
 `hashcat --hash-type {{id_hash_type}} --attack-mode 3 --increment {{hash_value}} {{?a?a?a?a?a?a?a?a}}`
 
-- Dictionary attack using the RockYou wordlist of a Kali Linux box:
+- Perform a dictionary attack (mode 0) using the RockYou wordlist of a Kali Linux box:
 
 `hashcat --hash-type {{id_hash_type}} --attack-mode 0 {{hash_value}} {{/usr/share/wordlists/rockyou.txt}}`
 
-- Dictionary + rule based attack using the RockYou wordlist mutated with common password variations:
+- Perform a dictionary + rule based attack (mode 0) using the RockYou wordlist mutated with common password variations:
 
 `hashcat --hash-type {{id_hash_type}} --attack-mode 0 -r {{/usr/share/hashcat/rules/best64.rule}} {{hash_value}} {{/usr/share/wordlists/rockyou.txt}}`
 
-- Combination attack using the concatenation of words from two different custom dictionaries:
+- Perform a combination attack (mode 1) using the concatenation of words from two different custom dictionaries:
 
 `hashcat --hash-type {{id_hash_type}} --attack-mode 1 {{hash_value}} {{/path/to/dictionary1.txt}} {{/path/to/dictionary2.txt}}`
 
