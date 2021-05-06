@@ -7,6 +7,14 @@
 
 `more {{ruta/al/archivo}}`
 
+- Abre un archivo mostrando desde una línea especifica:
+
+`more +{{numero_linea}} {{ruta/al/archivo}}`
+
+- Muestra la ayuda:
+
+`more --help`
+
 - Avanza hacia la siguiente página:
 
 `<Espacio>`
@@ -18,3 +26,7 @@
 - Salir:
 
 `q`
+
+- Muestra la ayuda sobre comandos interactivos:
+
+`h`
