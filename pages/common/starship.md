@@ -1,11 +1,11 @@
 # starship
 
 > The minimal, blazing-fast, and infinitely customizable prompt for any shell.
-> More information: <https://starship.rs/>.
+> More information: <https://starship.rs>.
 
 - Print the shell function used to execute starship:
 
-`starship init {{bash|fish|zsh}`
+`starship init {{bash|elvish|fish|ion|powershell|tcsh|zsh}}`
 
 - Explain the current showing modules:
 
@@ -19,7 +19,7 @@
 
 `starship module --list`
 
-- Edit the starship configuration:
+- Edit the starship configuration in the default editor:
 
 `starship configure`
 
@@ -29,7 +29,7 @@
 
 - Print a completion script:
 
-`starship completions {{bash|fish|zsh}}`
+`starship completions {{bash|elvish|fish|powershell|zsh}}`
 
 - Display help for a subcommand:
 
