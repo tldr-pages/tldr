@@ -88,6 +88,7 @@ both for the command line and for other platforms:
 - [Discord Bot](https://github.com/sschr15/tldr-discord):
   [Follow the building instructions](https://github.com/sschr15/tldr-discord#building) or
   [use a privately hosted version](https://discord.com/api/oauth2/authorize?client_id=742800507210301520&permissions=18432&scope=bot)
+- [Discord Slash Command Bot](https://github.com/Epictek/tldr-Discord): use the [hosted instance](https://discord.com/api/oauth2/authorize?client_id=839254228736278579&permissions=0&scope=applications.commands%20bot) or view the [readme](https://github.com/Epictek/tldr-Discord#self-host-guide) for self hosting instructions.
 - Docker images:
     - [tldr-docker](https://github.com/nutellinoit/tldr-docker) - Run the `tldr` command via a docker container: `alias tldr='docker run --rm -it -v ~/.tldr/:/root/.tldr/ nutellinoit/tldr'`
 - Elixir clients:
