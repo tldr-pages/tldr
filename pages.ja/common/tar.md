@@ -4,7 +4,7 @@
 > gzipやbzip2などの圧縮方法と組み合わせることが多いです。
 > 詳しくはこちら: <https://www.gnu.org/software/tar>.
 
--  アーカイブを作成し、それをファイルに書き込む:
+- アーカイブを作成し、それをファイルに書き込む:
 
 `tar cf {{target.tar}} {{file1}} {{file2}} {{file3}}`
 
