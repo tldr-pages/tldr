@@ -11,7 +11,7 @@
 
 `distccd --daemon --allow-private`
 
-- Start a daemon accepting connections from specific network address or address range:
+- Start a daemon, accepting connections from a specific network address or address range:
 
 `distccd --daemon --allow {{IP[/BITS]}}`
 
