@@ -9,8 +9,12 @@
 
 - Recherche des paquets qui contiennent le fichier ou le chemin d'accès spécifié :
 
-`apt-file search {{part/of/filename}}`
+`apt-file {{search|find}} {{fichier|chemin/vers/fichier}}`
 
 - Énumère le contenu d'un paquet spécifique :
 
-`apt-file list {{package_name}}`
+`apt-file {{show|list}} {{nom_paquet}}`
+
+- Cherche des paquets correspondant au motif indiqué dans l'expression régulière :
+
+`apt-file {{search|find}} --regexp {{motif}}`
