@@ -15,7 +15,7 @@
 
 `distccd --daemon --allow {{IP[/BITS]}}`
 
-- Start a daemon with maximum of 4 tasks at any time and lowered priority (niceness = 5):
+- Start a daemon with a maximum of 4 tasks at any time and lowered priority (niceness = 5):
 
 `distccd --daemon --jobs {{4}} --nice {{5}}`
 
