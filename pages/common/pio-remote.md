@@ -1,7 +1,7 @@
 # pio remote
 
 > Helper command for PlatformIO Remote Development.
-> `pio remote command` usually takes the same arguments as its counterpart `pio command`.
+> `pio remote command` usually takes the same arguments as its locally executing counterpart `pio command`.
 > More information: <https://docs.platformio.org/en/latest/core/userguide/remote/index.html>.
 
 - List all active Remote Agents:
@@ -10,7 +10,7 @@
 
 - Start a new Remote Agent with a specific name and share it with friends:
 
-`pio remote agent start --name {{agent_name}} --share {{friend1@mail.org}} --share {{friend2@mail.org}}`
+`pio remote agent start --name {{agent_name}} --share {{example1@example.com}} --share {{example2@example.com}}`
 
 - List devices from specified Agents (omit `--agent` to specify all Agents):
 
