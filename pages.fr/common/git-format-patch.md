@@ -1,6 +1,6 @@
 # git format-patch
 
-> Préparer des fichiers de correctifs, utiles pour les envoyer par email.
+> Préparer des fichiers de correctifs, utiles pour les envoyer par courriel.
 > Voir également `git am`, qui peut appliquer des fichiers de correctifs générés.
 > Plus d'informations : <https://git-scm.com/docs/git-format-patch>.
 

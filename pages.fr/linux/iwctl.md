@@ -3,7 +3,7 @@
 > Un outil de ligne de commande pour gérer iwd.
 > Plus d'informations : <https://iwd.wiki.kernel.org/gettingstarted>.
 
-- Lancer le mode interactif, dans ce mode vous pouvez entrer les commandes directement, avec de l'auto-completion :
+- Lancer le mode interactif, dans ce mode vous pouvez entrer les commandes directement, avec de l'auto-complétion :
 
 `iwctl`
 
@@ -25,4 +25,4 @@
 
 - Se connecter à un réseau avec une station, si des informations de connexion sont nécessaires elles seront demandées :
 
-`iwctl station {{station}} connect {{network_name}}`
+`iwctl station {{station}} connect {{nom_du_réseau}}`

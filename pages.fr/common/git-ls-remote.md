@@ -18,8 +18,9 @@
 
 - Afficher les références du dépôt précisé :
 
-`git ls-remote {{repositiory-url}}`
+`git ls-remote {{url-du-dépôt}}`
 
-- Afficher les références du dépôt précisé filtrés par un pattern :
+- Afficher les références du dépôt précisé filtrés par un motif :
 
-`git ls-remote {{repositiory-name}} "{{pattern}}"`
+`git ls-remote {{nom-du-dépôt}} "{{motif}}"`
+
