@@ -9,11 +9,11 @@
 
 - Perform a brute-force attack (mode 3) with a known pattern of 4 digits:
 
-`hashcat --hash-type {{id_hash_type}} --attack-mode 3 {{hash_value}} {{?d?d?d?d}}`
+`hashcat --hash-type {{id_hash_type}} --attack-mode 3 {{hash_value}} {{"?d?d?d?d"}}`
 
 - Perform a brute-force attack (mode 3) using 8 (at most) of all printable ASCII chars with:
 
-`hashcat --hash-type {{id_hash_type}} --attack-mode 3 --increment {{hash_value}} {{?a?a?a?a?a?a?a?a}}`
+`hashcat --hash-type {{id_hash_type}} --attack-mode 3 --increment {{hash_value}} {{"?a?a?a?a?a?a?a?a"}}`
 
 - Perform a dictionary attack (mode 0) using the RockYou wordlist of a Kali Linux box:
 
