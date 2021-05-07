@@ -23,4 +23,3 @@
 - Afficher les références du dépôt précisé filtrés par un motif :
 
 `git ls-remote {{nom-du-dépôt}} "{{motif}}"`
-
