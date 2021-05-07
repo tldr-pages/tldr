@@ -18,4 +18,4 @@
 
 - Show help for a command:
 
-`virsh help {{command}}` 
+`virsh help {{command}}`
