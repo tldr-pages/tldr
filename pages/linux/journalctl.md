@@ -2,11 +2,11 @@
 
 > Query the systemd journal.
 
-- Show all messages from this boot:
+- Show all messages from this [b]oot:
 
 `journalctl -b`
 
-- Show all messages from last boot:
+- Show all messages from last [b]oot:
 
 `journalctl -b -1`
 
@@ -14,11 +14,11 @@
 
 `journalctl -b --priority={{3}}`
 
-- Follow new messages (like `tail -f` for traditional syslog):
+- [F]ollow new messages (like `tail -f` for traditional syslog):
 
 `journalctl -f`
 
-- Show all messages by a specific unit:
+- Show all messages by a specific [u]nit:
 
 `journalctl -u {{unit}}`
 
