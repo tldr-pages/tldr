@@ -12,7 +12,7 @@
 
 `aria2c -o {{filename}} {{url}}`
 
-- Download from multiple sources:
+- Download from multiple sources each URI pointing to the same file:
 
 `aria2c {{url_1}} {{url_2}}`
 
