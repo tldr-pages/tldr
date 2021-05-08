@@ -11,7 +11,7 @@
 
 `ts-node --skip-project {{path/to/file.ts}}`
 
-- Loads TS-Node Help
+- Display TS-Node help:
 
 `ts-node --help`
 
