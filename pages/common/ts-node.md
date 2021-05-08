@@ -19,9 +19,9 @@
 
 `ts-node -e '{{console.log("Hello World")}}'`
 
-- Run code in Script Mode for `foobar.ts`
+- Execute a TS file in script mode:
 
-`ts-node --script-mode {{foobar.ts}}`
+`ts-node --script-mode {{path/to/file.ts}}`
 
 - Only transpile the TS File `foobar.ts` to JS
 
