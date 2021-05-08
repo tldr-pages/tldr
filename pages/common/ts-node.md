@@ -7,9 +7,9 @@
 
 `ts-node {{foobar.ts}}`
 
-- TS-Node Loads tsconfig.json by default. To prevent that
+- Execute a TS file without loading `tsconfig.json`:
 
-`ts-node --skip-project {{foobar.ts}}`
+`ts-node --skip-project {{path/to/file.ts}}`
 
 - Loads TS-Node Help
 
