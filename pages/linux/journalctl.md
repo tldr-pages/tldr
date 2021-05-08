@@ -10,7 +10,7 @@
 
 `journalctl -b -1`
 
-- Show all messages with priority level 3 (errors) from this boot:
+- Show all messages with priority level 3 (errors) from this [b]oot:
 
 `journalctl -b --priority={{3}}`
 
