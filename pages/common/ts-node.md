@@ -23,6 +23,6 @@
 
 `ts-node --script-mode {{path/to/file.ts}}`
 
-- Only transpile the TypeScript File `foobar.ts` to JavaScript
+- Transpile a TypeScript file to JavaScript without executing it:
 
-`ts-node --transpile-only {{foobar.ts}}`
+`ts-node --transpile-only {{path/to/file.ts}}`
