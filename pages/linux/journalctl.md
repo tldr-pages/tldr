@@ -14,7 +14,7 @@
 
 `journalctl -b --priority={{3}}`
 
-- [F]ollow new messages (like `tail -f` for traditional syslog):
+- [f]ollow new messages (like `tail -f` for traditional syslog):
 
 `journalctl -f`
 
