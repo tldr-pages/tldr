@@ -1,7 +1,7 @@
 # ts-node
 
 > Run TypeScript code directly, without any compiling.
-> More information at: https://www.npmjs.com/package/ts-node
+> More information: <https://www.npmjs.com/package/ts-node>.
 
 - Execute a TS File `foobar.ts` without compiling ('node' + 'tsc')
 
