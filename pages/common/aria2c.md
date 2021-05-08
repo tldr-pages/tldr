@@ -12,6 +12,10 @@
 
 `aria2c -o {{filename}} {{url}}`
 
+- Download parallel from multiple sources each URI pointing to a different file:
+
+`aria2c -Z {{url_1}} {{url_2}}`
+
 - Download from multiple sources each URI pointing to the same file:
 
 `aria2c {{url_1}} {{url_2}}`
