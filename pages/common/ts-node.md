@@ -15,9 +15,9 @@
 
 `ts-node --help`
 
-- Eval TS Code directly on the terminal
+- Evaluate TS code directly on the terminal:
 
-`ts-node -e 'console.log("Hello World")'`
+`ts-node -e '{{console.log("Hello World")}}'`
 
 - Run code in Script Mode for `foobar.ts`
 
