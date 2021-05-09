@@ -22,11 +22,11 @@
 
 - Download the URIs listed in a file:
 
-`aria2c -i {{filename}}`
+`aria2c --input-file={{filename}}`
 
 - Download with multiple connections:
 
-`aria2c -s {{connections_num}} {{url}}`
+`aria2c --split={{connections_num}} {{url}}`
 
 - FTP download with username and password:
 
