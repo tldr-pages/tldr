@@ -12,7 +12,7 @@
 
 `aria2c --out={{filename}} {{url}}`
 
-- Download parallel from multiple sources each URI pointing to a different file:
+- Download multiple files in parallel:
 
 `aria2c --force-sequential {{url_1}} {{url_2}}`
 
