@@ -14,7 +14,7 @@
 
 - Download parallel from multiple sources each URI pointing to a different file:
 
-`aria2c -Z {{url_1}} {{url_2}}`
+`aria2c --force-sequential {{url_1}} {{url_2}}`
 
 - Download from multiple sources each URI pointing to the same file:
 
