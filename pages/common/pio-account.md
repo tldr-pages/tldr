@@ -11,11 +11,11 @@
 
 `pio account destroy`
 
-- Login to your PlatformIO account:
+- Log in to your PlatformIO account:
 
 `pio account login --username {{username}} --password {{password}}`
 
-- Logout of your PlatformIO account:
+- Log out of your PlatformIO account:
 
 `pio account logout`
 
