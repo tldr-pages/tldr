@@ -10,7 +10,7 @@
 
 - Download the contents of an URL to a file:
 
-`aria2c -o {{filename}} {{url}}`
+`aria2c --out={{filename}} {{url}}`
 
 - Download parallel from multiple sources each URI pointing to a different file:
 
