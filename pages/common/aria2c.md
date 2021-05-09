@@ -24,6 +24,10 @@
 
 `aria2c --input-file={{filename}}`
 
+- Download with limited concurrent connections:
+
+`aria2c --max-concurrent-downloads={{connections_num}} --input-file={{filename}}`
+
 - Download with multiple connections:
 
 `aria2c --split={{connections_num}} {{url}}`
