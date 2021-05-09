@@ -3,7 +3,7 @@
 > Fast and advanced password recovery tool.
 > More information: <https://hashcat.net/hashcat/>.
 
-- Perform a brute-force attack (mode 3) with default hashcat mask:
+- Perform a brute-force attack (mode 3) with the default hashcat mask:
 
 `hashcat --hash-type {{id_hash_type}} --attack-mode 3 {{hash_value}}`
 
