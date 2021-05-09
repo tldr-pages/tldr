@@ -27,6 +27,6 @@
 
 `hashcat --hash-type {{id_hash_type}} --attack-mode 1 {{hash_value}} {{/path/to/dictionary1.txt}} {{/path/to/dictionary2.txt}}`
 
-- Show result of an already-cracked hash:
+- Show result of an already cracked hash:
 
 `hashcat --show {{hash_value}}`
