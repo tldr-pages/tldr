@@ -19,7 +19,7 @@
 
 `hashcat --hash-type {{id_hash_type}} --attack-mode 0 {{hash_value}} {{/usr/share/wordlists/rockyou.txt}}`
 
-- Perform a dictionary + rule based attack (mode 0) using the RockYou wordlist mutated with common password variations:
+- Perform a rule based dictionary attack (mode 0) using the RockYou wordlist mutated with common password variations:
 
 `hashcat --hash-type {{id_hash_type}} --attack-mode 0 -r {{/usr/share/hashcat/rules/best64.rule}} {{hash_value}} {{/usr/share/wordlists/rockyou.txt}}`
 
