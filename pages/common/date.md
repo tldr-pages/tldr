@@ -7,6 +7,10 @@
 
 `date +"%c"`
 
+- Display the current date in %+4Y-%m-%d format. e.g. 1996-06-01
+
+`date +%F`
+
 - Display the current date in UTC and ISO 8601 format:
 
 `date -u +"%Y-%m-%dT%H:%M:%S%Z"`
