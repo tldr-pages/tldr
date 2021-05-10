@@ -4,7 +4,7 @@
 > See also `git log`.
 > More information <https://git-scm.com/docs/git-whatchanged>.
 
-- Display full output of recent commits:
+- Display log of recent commits:
 
 `git what-changed`
 
