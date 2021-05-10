@@ -13,4 +13,4 @@
 
 - Install an application for a specific platform such as "windows":
 
-`steamcmd +@sSteamCmdForcePlatformType {{platform}} +login anonymous +app_update {{appid}} validate +quit`
+`steamcmd +@sSteamCmdForcePlatformType {{platform}} +login {{anonymous}} +app_update {{appid}} validate +quit`
