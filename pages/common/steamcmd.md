@@ -11,6 +11,6 @@
 
 `steamcmd +login {{username}} +app_update {{appid}} +quit`
 
-- Install an application for a specific platform such as Windows:
+- Install an application for a specific platform:
 
-`steamcmd +@sSteamCmdForcePlatformType {{platform}} +login {{anonymous}} +app_update {{appid}} validate +quit`
+`steamcmd +@sSteamCmdForcePlatformType {{windows}} +login {{anonymous}} +app_update {{appid}} validate +quit`
