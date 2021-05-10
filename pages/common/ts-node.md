@@ -15,7 +15,7 @@
 
 `ts-node --help`
 
-- Evaluate TypeScript code directly on the terminal:
+- Evaluate TypeScript code passed as a literal on the command-line:
 
 `ts-node -e '{{console.log("Hello World")}}'`
 
