@@ -1,7 +1,7 @@
 # steamcmd
 
 > A command-line version of the Steam client.
-> More information: <https://developer.valvesoftware.com/wiki/SteamCMD#Automating_SteamCMD>.
+> More information: <https://manned.org/steamcmd>.
 
 - Install or update an application anonymously:
 
