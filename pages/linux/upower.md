@@ -1,6 +1,6 @@
 # upower
 
-> System utility to provide battery information and statistics.
+> System utility to provide power and battery information and statistics.
 > More information: <https://upower.freedesktop.org/>.
 
 - Dump power and battery information:
