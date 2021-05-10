@@ -7,7 +7,7 @@
 
 `upower --dump`
 
-- List connected battery-using devices:
+- List all power devices:
 
 `upower --enumerate`
 
