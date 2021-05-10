@@ -9,7 +9,7 @@
 
 - Install or update an application using the specified credentials:
 
-`steamcmd +login {{username}} {{password}} +app_update {{appid}} +quit`
+`steamcmd +login {{username}} +app_update {{appid}} +quit`
 
 - Install an application for a specific platform such as Windows:
 
