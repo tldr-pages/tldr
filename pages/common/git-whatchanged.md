@@ -2,7 +2,7 @@
 
 > Git command used to show what has changed with recent commits or files.
 > git whatchanged is similar to git log.
-> More information <https://git-scm.com/docs/git-whatchanged>.
+> More information: <https://git-scm.com/docs/git-whatchanged>.
 
 - Display full output of recent commits:
 
