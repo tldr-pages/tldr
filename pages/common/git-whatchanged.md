@@ -8,7 +8,7 @@
 
 `git what-changed`
 
-- Display out of recent commits within a time frame (E.G. 2 hours ago):
+- Display log of recent commits within the specified time frame:
 
 `git what-changed --since="2 hours ago"`
 
