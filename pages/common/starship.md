@@ -23,11 +23,11 @@
 
 `starship configure`
 
-- Create a pre-populated GitHub issue with information about your configuration:
+- Create a bug report GitHub issue pre-populated with information about the system and starship configuration:
 
 `starship bug-report`
 
-- Print a completion script:
+- Print the completion script for the specified shell:
 
 `starship completions {{bash|elvish|fish|powershell|zsh}}`
 
