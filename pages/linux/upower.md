@@ -11,11 +11,11 @@
 
 `upower --enumerate`
 
-- Listen for changes in battery status:
+- Watch for and print battery status changes:
 
 `upower --monitor`
 
-- Watch for and print battery status changes:
+- Watch for and print detailed battery status changes:
 
 `upower --monitor-detail`
 
