@@ -15,7 +15,7 @@
 
 `upower --monitor`
 
-- Listen for changes in battery status - More info:
+- Watch for and print battery status changes:
 
 `upower --monitor-detail`
 
