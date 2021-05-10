@@ -3,7 +3,7 @@
 > System utility to provide battery information and statistics.
 > More information: <https://upower.freedesktop.org/>.
 
-- Dump battery information:
+- Dump power and battery information:
 
 `upower --dump`
 
@@ -11,11 +11,11 @@
 
 `upower --enumerate`
 
-- Watch for and print battery status changes:
+- Watch for and print power status changes:
 
 `upower --monitor`
 
-- Watch for and print detailed battery status changes:
+- Watch for and print detailed power status changes:
 
 `upower --monitor-detail`
 
