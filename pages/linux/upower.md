@@ -3,7 +3,7 @@
 > System utility to provide power and battery information and statistics.
 > More information: <https://upower.freedesktop.org/>.
 
-- Dump power and battery information:
+- Display power and battery information:
 
 `upower --dump`
 
