@@ -19,6 +19,6 @@
 
 `upower --monitor-detail`
 
-- Show version of software:
+- Display version:
 
 `upower --version`
