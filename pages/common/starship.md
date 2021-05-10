@@ -3,7 +3,7 @@
 > The minimal, blazing-fast, and infinitely customizable prompt for any shell.
 > More information: <https://starship.rs>.
 
-- Print the shell function used to execute starship:
+- Print the starship integration code for the specified shell:
 
 `starship init {{bash|elvish|fish|ion|powershell|tcsh|zsh}}`
 
