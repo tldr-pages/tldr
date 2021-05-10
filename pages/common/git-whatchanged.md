@@ -14,4 +14,4 @@
 
 - Display changes to selected file(s):
 
-`git whatchanged {{file/or/directory}}`
+`git whatchanged {{path/to/file_or_directory}}`
