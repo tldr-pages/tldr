@@ -19,6 +19,6 @@
 
 `distccd --daemon --jobs {{4}} --nice {{5}}`
 
-- Start a daemon and register via mDNS/DNS-SD (Zeroconf):
+- Start a daemon and register it via mDNS/DNS-SD (Zeroconf):
 
 `distccd --daemon --zeroconf`
