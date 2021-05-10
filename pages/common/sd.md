@@ -2,7 +2,7 @@
 
 > Intuitive find & replace CLI.
 
-- Trim some whitespace using regex:
+- Trim some whitespace using a regular expression:
 
 `{{echo 'lorem ipsum 23   '}} | sd '\s+$' ''`
 

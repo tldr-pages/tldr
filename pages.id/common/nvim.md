@@ -24,9 +24,9 @@
 
 `<Esc>/{{pattern_pencarian}}<Enter>`
 
-- Melakukan penggantian regex pada seluruh berkas:
+- Melakukan penggantian ekspresi reguler pada seluruh berkas:
 
-`<Esc>:%s/{{pattern}}/{{pengganti}}/g<Enter>`
+`<Esc>:%s/{{ekspresi_reguler}}/{{pengganti}}/g<Enter>`
 
 - Menyimpan (write) berkas, dan keluar:
 
