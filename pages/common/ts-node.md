@@ -11,10 +11,6 @@
 
 `ts-node --skip-project {{path/to/file.ts}}`
 
-- Display TS-Node help:
-
-`ts-node --help`
-
 - Evaluate TypeScript code passed as a literal on the command-line:
 
 `ts-node -e '{{console.log("Hello World")}}'`
@@ -26,3 +22,7 @@
 - Transpile a TypeScript file to JavaScript without executing it:
 
 `ts-node --transpile-only {{path/to/file.ts}}`
+
+- Display TS-Node help:
+
+`ts-node --help`
