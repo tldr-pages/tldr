@@ -5,7 +5,7 @@
 
 - Install or update an application anonymously:
 
-`steamcmd +login anonymous +app_update {{appid}} +quit`
+`steamcmd +login {{anonymous}} +app_update {{appid}} +quit`
 
 - Install or update an application using the specified credentials:
 
