@@ -13,7 +13,7 @@
 
 - Start a daemon, accepting connections from a specific network address or address range:
 
-`distccd --daemon --allow {{IP[/BITS]}}`
+`distccd --daemon --allow {{ip_address|network_prefix}}`
 
 - Start a daemon with a maximum of 4 tasks at any time and lowered priority (niceness = 5):
 
