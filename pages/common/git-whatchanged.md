@@ -2,7 +2,7 @@
 
 > Show what has changed with recent commits or files.
 > See also `git log`.
-> More information <https://git-scm.com/docs/git-whatchanged>.
+> More information: <https://git-scm.com/docs/git-whatchanged>.
 
 - Display log of recent commits:
 
