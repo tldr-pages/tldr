@@ -1,23 +1,23 @@
 # cowsay
 
-> Generate an ASCII character (by default a cow) saying or thinking something.
+> Print an ASCII friend (by default a cow) saying or thinking something.
 > More information: <https://github.com/tnalpgge/rank-amateur-cowsay>.
 
-- Print an ASCII cow saying "Hello world":
+- Print an ASCII cow saying "Hello World":
 
-`cowsay "Hello world"`
+`cowsay "Hello World"`
 
 - Read text from stdin for the balloon:
 
-`echo "Hello" | cowsay`
+`echo "Hello World" | cowsay`
 
-- List all available characters:
+- List all available friends:
 
 `cowsay -l`
 
-- Print an ASCII dragon saying "Hello":
+- Print an ASCII friend (different from default cow) saying "Hello World":
 
-`cowsay -f dragon "Hello"`
+`cowsay -f {{friend}} "Hello World"`
 
 - Print a stoned thinking ASCII cow:
 
