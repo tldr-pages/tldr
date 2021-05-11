@@ -13,4 +13,4 @@
 
 - Extract a subtitle track:
 
-`mkvextract tracks {{file.mkv}} {{3}}:{{subs.srt}}`
+`mkvextract tracks {{path/to/file.mkv}} {{3}}:{{subs.srt}}`
