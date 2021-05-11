@@ -5,12 +5,12 @@
 
 - Extract the patch and author data from e-mail message:
 
-`git mailinfo {{msg}} {{patch}}`
+`git mailinfo {{message}}|{{patch}}`
 
-- Remove leading and trailing whitespace and other cruft:
+- Extract but remove leading and trailing whitespace and other cruft:
 
-`git mailinfo -k`
+`git mailinfo -k {{message}}|{{patch}}`
 
-- Remove everything from the body before a scissors line (e.g. "-->* --") and retrieve the patch:
+- Remove everything from the body before a scissors line (e.g. "-->* --") and retrieve the message|patch:
 
-`git mailinfo --scissors {{patch}}`
+`git mailinfo --scissors {{message}}|{{patch}}`
