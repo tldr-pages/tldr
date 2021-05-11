@@ -5,7 +5,7 @@
 
 - Extract the patch and author data from e-mail message:
 
-`git mailinfo {{message}}|{{patch}}`
+`git mailinfo {{message|patch}}`
 
 - Extract but remove leading and trailing whitespace and other cruft:
 
