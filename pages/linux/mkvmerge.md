@@ -9,7 +9,7 @@
 
 - Extract the audio:
 
-`mkvextract tracks {{file.mkv}} {{1}}:{{audio.webm}}`
+`mkvextract tracks {{path/to/file.mkv}} {{1}}:{{audio.webm}}`
 
 - Extract a subtitle track:
 
