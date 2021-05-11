@@ -1,7 +1,7 @@
 # gnucash-cli
 
 > A command-line version of GnuCash.
-> More information: <https://manned.org/gnucash-cli>.
+> More information: <https://gnucash.org>.
 
 - Get online quotes for currencies and stocks in the file:
 
