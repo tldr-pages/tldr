@@ -3,7 +3,7 @@
 > Personal and small-business financial-accounting software.
 > More information: <https://gnucash.org>.
 
-- Launch GnuCash:
+- Launch GnuCash and load the previoulsy opened file:
 
 `gnucash`
 
