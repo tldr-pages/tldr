@@ -27,6 +27,6 @@
 
 `exa --long --sort={{modified}}`
 
-- Long list of files with header, icons, git status:
+- List files with their headers, icons, and git statuses:
 
 `exa --long --header --icons --git`
