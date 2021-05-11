@@ -3,7 +3,7 @@
 > Merge and extract multimedia streams.
 > More information: <https://mkvtoolnix.download/doc/mkvmerge.html>.
 
-- Print information about the source file:
+- Display information about a Matroska file:
 
 `mkvmerge --identify {{path/to/file.mkv}}`
 
