@@ -7,7 +7,7 @@
 
 `git mailinfo {{message|patch}}`
 
-- Extract but remove leading and trailing whitespace and other cruft:
+- Extract but remove leading and trailing whitespace:
 
 `git mailinfo -k {{message}}|{{patch}}`
 
