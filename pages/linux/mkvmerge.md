@@ -5,7 +5,7 @@
 
 - Print information about the source file:
 
-`mkvmerge --identify {{file.mkv}}`
+`mkvmerge --identify {{path/to/file.mkv}}`
 
 - Extract the audio:
 
