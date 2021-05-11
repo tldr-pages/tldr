@@ -1,6 +1,6 @@
 # git mailinfo
 
-> Extracts patch and authorship from a single e-mail message.
+> Extract patch and authorship information from a single email message.
 > More information: <https://git-scm.com/docs/git-mailinfo>.
 
 - Extract the patch and author data from an email message:
