@@ -1,7 +1,7 @@
 # mkvmerge
 
 > Merge and extract multimedia streams
-> More information: <https://github.com/topics/mkvmerge>.
+> More information: <https://mkvtoolnix.download/doc/mkvmerge.html>.
 
 - Print information about the source file:
 
