@@ -8,7 +8,7 @@
 
 `git verify-commit {{commit SHA hash}}`
 
-- Check git commits for a GPG signature and show details of specified commit:
+- Check commits for a GPG signature and show details of specified commit:
 
 `git verify-commit {{commit SHA hash}} --verbose`
 
