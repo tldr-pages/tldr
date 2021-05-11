@@ -1,7 +1,7 @@
 # gnucash
 
 > Personal and small-business financial-accounting software.
-> More information: <https://manned.org/gnucash>.
+> More information: <https://gnucash.org>.
 
 - Launch GnuCash:
 
