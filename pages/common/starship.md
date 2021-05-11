@@ -7,7 +7,7 @@
 
 `starship init {{bash|elvish|fish|ion|powershell|tcsh|zsh}}`
 
-- Explain the current showing modules:
+- Explain the currently showing modules:
 
 `starship explain`
 
