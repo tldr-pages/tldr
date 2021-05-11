@@ -7,7 +7,7 @@
 
 `mkvmerge --identify {{path/to/file.mkv}}`
 
-- Extract the audio:
+- Extract the audio from a selected file:
 
 `mkvextract tracks {{path/to/file.mkv}} {{1}}:{{audio.webm}}`
 
