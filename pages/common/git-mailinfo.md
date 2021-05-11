@@ -11,6 +11,6 @@
 
 `git mailinfo -k {{message}}|{{patch}}`
 
-- Remove everything from the body before a scissors line (e.g. "-->* --") and retrieve the message|patch:
+- Remove everything from the body before a scissors line (e.g. "-->* --") and retrieve the message or patch:
 
 `git mailinfo --scissors {{message|patch}}`
