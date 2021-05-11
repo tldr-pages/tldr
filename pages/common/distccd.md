@@ -7,7 +7,7 @@
 
 `distccd --daemon`
 
-- Start a daemon, accepting connections from private network IPv4 ranges:
+- Start a daemon, accepting connections from IPv4 private network ranges:
 
 `distccd --daemon --allow-private`
 
