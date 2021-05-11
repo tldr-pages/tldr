@@ -9,7 +9,7 @@
 
 - Extract but remove leading and trailing whitespace:
 
-`git mailinfo -k {{message}}|{{patch}}`
+`git mailinfo -k {{message|patch}}`
 
 - Remove everything from the body before a scissors line (e.g. "-->* --") and retrieve the message or patch:
 
