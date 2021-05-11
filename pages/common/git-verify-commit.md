@@ -12,6 +12,6 @@
 
 `git verify-commit {{commit SHA hash}} --verbose`
 
-- Check git commits for a GPG signature and give RAW details:
+- Check commits for a GPG signature and give RAW details:
 
 `git verify-commit {{commit SHA hash}} --raw`
