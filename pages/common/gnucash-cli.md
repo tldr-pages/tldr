@@ -3,7 +3,7 @@
 > A command-line version of GnuCash.
 > More information: <https://gnucash.org>.
 
-- Get online quotes for currencies and stocks in the file:
+- Get quotes for currencies and stocks specified in a file and print them to stdout:
 
 `gnucash-cli --quotes get {{path/to/file.gnucash}}`
 
