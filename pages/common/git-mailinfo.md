@@ -13,4 +13,4 @@
 
 - Remove everything from the body before a scissors line (e.g. "-->* --") and retrieve the message|patch:
 
-`git mailinfo --scissors {{message}}|{{patch}}`
+`git mailinfo --scissors {{message|patch}}`
