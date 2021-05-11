@@ -1,6 +1,7 @@
 # mkvmerge
 
-> Merge multimedia streams into a Matroska file https://github.com/topics/mkvmerge .
+> Merge and extract multimedia streams
+> More information: <https://github.com/topics/mkvmerge>.
 
 - Print information about the source file:
 
@@ -9,7 +10,6 @@
 - Extract the audio:
 
 `mkvextract tracks {{file.mkv}} {{1}}:{{audio.webm}}`
-
 
 - Extract a subtitle track:
 
