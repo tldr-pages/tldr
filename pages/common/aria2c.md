@@ -22,7 +22,7 @@
 
 - Download the URIs listed in a file with limited parallel downloads:
 
-`aria2c --input-file={{filename}} --max-concurrent-downloads={{connections_num}}`
+`aria2c --input-file={{filename}} --max-concurrent-downloads={{number_of_downloads}}`
 
 - Download with multiple connections:
 
