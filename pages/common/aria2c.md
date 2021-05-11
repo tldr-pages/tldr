@@ -20,7 +20,7 @@
 
 `aria2c {{url_1}} {{url_2}}`
 
-- Download the URIs listed in a file with limited concurrent connections:
+- Download the URIs listed in a file with limited parallel downloads:
 
 `aria2c --input-file={{filename}} --max-concurrent-downloads={{connections_num}}`
 
