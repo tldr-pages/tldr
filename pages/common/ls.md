@@ -31,6 +31,6 @@
 
 `ls -ltr`
 
-- List Only Directories:
+- Only list directories:
 
 `ls -d {{*/}}`
