@@ -13,4 +13,4 @@
 
 - Git daemon with a base direcotry with allowed push access and verbosity:
 
- `git daemon --base-path={{path/to/directory}} --export-all --enable=receive-pack --reuseaddr --informative-errors --verbose`
+`git daemon --base-path={{path/to/directory}} --export-all --enable=receive-pack --reuseaddr --informative-errors --verbose`
