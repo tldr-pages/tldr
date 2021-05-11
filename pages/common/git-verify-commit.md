@@ -2,7 +2,7 @@
 
 > Check for GPG verification of commits.
 > If GPG verification isn't present, nothing will be returned, even if extra options are chosen.
-> More information <https://git-scm.com/docs/git-verify-commit>.
+> More information: <https://git-scm.com/docs/git-verify-commit>.
 
 - Check git commits for a GPG signature:
 
