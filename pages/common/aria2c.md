@@ -26,7 +26,7 @@
 
 - Download with multiple connections:
 
-`aria2c --split={{connections_num}} {{url}}`
+`aria2c --split={{number_of_connections}} {{url}}`
 
 - FTP download with username and password:
 
