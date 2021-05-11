@@ -11,6 +11,6 @@
 
 `mkvextract tracks {{path/to/file.mkv}} {{1}}:{{audio.webm}}`
 
-- Extract a subtitle track:
+- Extract the subtitle track from a selected file:
 
 `mkvextract tracks {{path/to/file.mkv}} {{3}}:{{subs.srt}}`
