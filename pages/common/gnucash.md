@@ -11,6 +11,6 @@
 
 `gnucash {{path/to/file.gnucash}}`
 
-- Launch GnuCash without loading the previously opened file:
+- Launch GnuCash and load an empty file:
 
 `gnucash --nofile`
