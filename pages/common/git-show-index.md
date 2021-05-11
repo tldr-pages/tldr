@@ -3,7 +3,7 @@
 > Show packed archive index.
 > More information: <https://git-scm.com/docs/git-show-index>.
 
-- Reads the '.idx' file for a Git packfile and dump it's contents (stdout):
+- Read the '.idx' file for a Git packfile and dump it's contents (stdout):
 
 `git show-index {{path/to/file}}`
 
