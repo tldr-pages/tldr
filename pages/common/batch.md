@@ -2,7 +2,7 @@
 
 > Execute commands at a later time when the system load levels permit.
 > Service atd (or atrun) should be running for the actual executions.
-> More information: <https://man.archlinux.org/man/at.1>.
+> More information: <https://manned.org/batch>.
 
 - Execute commands from standard input (press `Ctrl + D` when done):
 

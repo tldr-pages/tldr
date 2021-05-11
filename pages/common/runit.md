@@ -1,7 +1,7 @@
 # runit
 
 > 3-stage init system.
-> More information: <https://wiki.archlinux.org/index.php/Runit>.
+> More information: <https://manned.org/runit>.
 
 - Start runit's 3-stage init scheme:
 
