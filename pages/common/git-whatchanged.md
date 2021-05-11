@@ -12,6 +12,6 @@
 
 `git whatchanged --since="{{2 hours ago}}"`
 
-- Display changes to specific file(s):
+- Display changes to specific files or directories:
 
 `git whatchanged {{path/to/file_or_directory}}`
