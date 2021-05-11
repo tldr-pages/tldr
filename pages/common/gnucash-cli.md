@@ -7,6 +7,6 @@
 
 `gnucash-cli --quotes get {{path/to/file.gnucash}}`
 
-- Generate a report:
+- Generate a financial report:
 
 `gnucash-cli --report run --name "{{Balance Sheet}}" {{path/to/file.gnucash}}`
