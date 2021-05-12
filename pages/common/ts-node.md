@@ -13,7 +13,7 @@
 
 - Evaluate TypeScript code passed as a literal on the command-line:
 
-`ts-node -e '{{console.log("Hello World")}}'`
+`ts-node --eval '{{console.log("Hello World")}}'`
 
 - Execute a TypeScript file in script mode:
 
