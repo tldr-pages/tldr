@@ -5,7 +5,7 @@
 
 - Print an ASCII cow saying "Hello World":
 
-`cowsay "Hello World"`
+`cowsay "{{Hello World}}"`
 
 - Read text from stdin for the balloon:
 
