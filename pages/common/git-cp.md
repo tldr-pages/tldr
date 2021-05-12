@@ -4,7 +4,7 @@
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-cp>.
 
-- Copy an existing file in a Git repo:
+- Copy an existing file in a Git repo, in the same directory:
 
 `git cp {{file}} {{new_file}}`
 
