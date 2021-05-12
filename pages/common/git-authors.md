@@ -5,7 +5,7 @@
 > Creates an AUTHORS file in the Git repository, this will be used for the command.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-authors>.
 
-- Print log of committers of a Git repository, reading from AUTHORS file, opened in your default editor:
+- Display log of committers of a Git repository, reading from AUTHORS file, opened in your default editor:
 
 `git authors`
 
@@ -13,6 +13,6 @@
 
 `git authors --list`
 
-- Print full list of committers of a Git repository, excluding emails, reading from AUTHORS file, opened in your default editor:
+- Display full log of committers of a Git repository, excluding emails, reading from AUTHORS file, opened in your default editor:
 
 `git authors --no-email`
