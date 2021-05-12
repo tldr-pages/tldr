@@ -11,9 +11,9 @@
 
 `httpflow {{host httpbin.org or host baidu.com}}`
 
-- Use a regexp to filter requests by URLs:
+- Use a regular expression to filter requests by URLs:
 
-`httpflow -u '{{regex}}'`
+`httpflow -u '{{regular_expression}}'`
 
 - Read packets from pcap format binary file:
 

@@ -19,6 +19,6 @@
 
 `cat -n {{fichier}}`
 
-- Affiche les caractères non-imprimables ainsi que les caractères d'espacement (en utilisant le préfixe `M-` prefix si non-ASCII) :
+- Affiche les caractères non-imprimables ainsi que les caractères d'espacement (en utilisant le préfixe `M-` si non-ASCII) :
 
 `cat -v -t -e {{fichier}}`

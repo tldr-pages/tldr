@@ -4,26 +4,30 @@
 > Eine benutzerfreundliche Eingabeaufforderung.
 > Weitere Informationen: <https://fishshell.com>.
 
-- Starte fish:
+- Starte eine interaktive Shell-Sitzung:
 
 `fish`
 
-- Führe einen Befehl mit fish aus:
+- Führe einen Befehl aus:
 
 `fish -c "{{befehl}}"`
 
-- Führe ein fish-Skript aus:
+- Führe ein Skript aus:
 
-`fish {{pfad/zu/datei.fish}}`
+`fish {{pfad/zu/skript.fish}}`
 
-- Überprüfe ein fish-Skript auf Syntaxfehler:
+- Überprüfe ein Skript auf Syntaxfehler:
 
-`fish --no-execute {{pfad/zu/datei.fish}}`
+`fish --no-execute {{pfad/zu/skript.fish}}`
+
+- Starte eine private interaktive Shell-Sitzung, in der `fish` weder auf die Shell-History zugreift, noch diese verändert:
+
+`fish --private`
 
 - Gib die Version von fish aus:
 
 `fish --version`
 
-- Setze und exportiere eine permanente Umgebungsvariable:
+- Setze und exportiere eine permanente Umgebungsvariable (nur innerhalb der Shell):
 
-`set -Ux {{name}} {{wert}}`
+`set -Ux {{variablenname}} {{variablenwert}}`

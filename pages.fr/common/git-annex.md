@@ -8,7 +8,7 @@
 
 `git annex help`
 
-- Initialize le repo avec Git annex :
+- Initialise le dépôt :
 
 `git annex init`
 
@@ -16,14 +16,14 @@
 
 `git annex add {{chemin/vers/fichier_ou_repertoire}}`
 
-- Affiche le statut courrand d un fichier ou repertoire :
+- Affiche le statut courant d'un fichier ou répertoire :
 
 `git annex status {{chemin/vers/fichier_ou_repertoire}}`
 
-- Synchronise un repository local avec un distant :
+- Synchronise un dépôt local avec un distant :
 
 `git annex {{distant}}`
 
-- Recupére un ficheir ou un repertoire :
+- Récupère un fichier ou un répertoire :
 
 `git annex get {{chemin/vers/fichier_ou_repertoire}}`

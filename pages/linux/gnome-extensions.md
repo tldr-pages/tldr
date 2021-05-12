@@ -29,4 +29,4 @@
 
 - Uninstall a specific extension:
 
-`gnome-extension unistall "{{extension_id}}"`
+`gnome-extension uninstall "{{extension_id}}"`

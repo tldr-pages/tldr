@@ -22,4 +22,4 @@
 
 - Split a file at a line matching a regular expression:
 
-`csplit {{file}} /{{regex}}/`
+`csplit {{file}} /{{regular_expression}}/`

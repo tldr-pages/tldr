@@ -11,9 +11,9 @@
 
 `linkchecker --check-extern {{https://example.com/}}`
 
-- Ignore URLs that match a specific regex:
+- Ignore URLs that match a specific regular expression:
 
-`linkchecker --ignore-url {{regex}} {{https://example.com/}}`
+`linkchecker --ignore-url {{regular_expression}} {{https://example.com/}}`
 
 - Output results to a CSV file:
 

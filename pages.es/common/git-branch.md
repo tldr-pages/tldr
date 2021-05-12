@@ -3,7 +3,7 @@
 > Comando Git principal para trabajar con ramas.
 > Más información: <https://git-scm.com/docs/git-branch>.
 
-- Muestra las ramas locales. La rama actual está resaltado por `*`:
+- Muestra las ramas locales. La rama actual está resaltada por `*`:
 
 `git branch`
 
@@ -23,10 +23,14 @@
 
 `git branch {{nombre_de_rama}} {{hash_del_commit}}`
 
-- Renombra una rama (no debe haber sido verificada para hacer esto):
+- Renombra una rama (no debe haber sido fusionada para hacer esto):
 
 `git branch -m {{antiguo_nombre_de_la_rama}} {{nuevo_nombre_de_la_rama}}`
 
-- Borrar una rama local (no debe haber sido verificada para hacer esto):
+- Borra una rama local (no debe haber sido fusionada para hacer esto):
 
 `git branch -d {{nombre_de_la_rama}}`
+
+- Borra una rama remota:
+
+`git push {{nombre_remoto}} --delete {{nombre_de_la_rama_remota}}`

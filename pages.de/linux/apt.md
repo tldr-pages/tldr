@@ -4,7 +4,7 @@
 > Empfohlene Alternative zu apt-get seit Ubuntu 16.04.
 > Weitere Informationen: <https://manpages.debian.org/latest/apt/apt.8.html>.
 
-- Aktualisiere die Liste der Paketquellen (es wird empfohlen diesen Befehl zu Begin auszuführen):
+- Aktualisiere die Liste der Paketquellen (es wird empfohlen, diesen Befehl zu Beginn auszuführen):
 
 `sudo apt update`
 
@@ -23,6 +23,10 @@
 - Entferne ein Paket:
 
 `sudo apt remove {{paket}}`
+
+- Aktualisiere alle installierten Pakete auf die neueste Version:
+
+`sudo apt upgrade`
 
 - Liste alle Pakete auf:
 

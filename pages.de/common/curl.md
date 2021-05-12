@@ -6,31 +6,31 @@
 
 - Lade den Inhalt einer URL in eine Datei:
 
-`curl {{http://beispiel.de}} -o {{pfad/zu/datei}}`
+`curl {{http://beispiel.de}} --output {{pfad/zu/datei}}`
 
 - Lade eine Datei von einer URL herunter:
 
-`curl -O {{http://beispiel.de/datei}}`
+`curl --remote-name {{http://beispiel.de/datei}}`
 
 - Lade eine Datei herunter, folge Weiterleitungen und setze vergangene Dateitransfers automatisch fort:
 
-`curl -O -L -C - {{http://beispiel.de/datei}}`
+`curl --remote-name --location --continue-at - {{http://beispiel.de/datei}}`
 
-- Sende formular-codierte Daten (POST Anfragen des Typs `application/x-www-form-urlencoded`). Benutze `-d @dateiname` oder `-d @'-'`, um von STDIN zu lesen:
+- Sende formular-codierte Daten (POST Anfragen des Typs `application/x-www-form-urlencoded`). Benutze `--data @dateiname` oder `--data @'-'`, um von STDIN zu lesen:
 
-`curl -d {{'name=karl-dieter'}} {{http://beispiel.de/formular}}`
+`curl --data {{'name=karl-dieter'}} {{http://beispiel.de/formular}}`
 
 - Sende eine Anfrage mit einem extra Header mit einer eigenen HTTP-Methode:
 
-`curl -H {{'X-Mein-Header: 123'}} -X {{PUT}} {{http://beispiel.de}}`
+`curl --header {{'X-Mein-Header: 123'}} --request {{PUT}} {{http://beispiel.de}}`
 
 - Sende Daten im JSON-Format und lege den geeigneten Inhaltstyp-Header fest:
 
-`curl -d {{'{"name":"karl-dieter"}'}} -H {{'Content-Type: application/json'}} {{http://beispiel.de/benutzer/1234}}`
+`curl --data {{'{"name":"karl-dieter"}'}} --header {{'Content-Type: application/json'}} {{http://beispiel.de/benutzer/1234}}`
 
 - Übergib einen Benutzernamen und Passwort für die Server-Authentifizierung:
 
-`curl -u benutzername:passwort {{http://beispiel.de}}`
+`curl --user benutzername:passwort {{http://beispiel.de}}`
 
 - Übergib Client-Zertifikat und -Schlüssel für eine Resource und überspringe die Zertifikatsüberprüfung:
 

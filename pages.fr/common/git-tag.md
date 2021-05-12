@@ -1,7 +1,7 @@
 # git tag
 
-> Créer, lister, verifier et suprimer des tags.
-> Un tag est une reférence statique vers un commit.
+> Créer, lister, vérifier et supprimer des tags.
+> Un tag est une référence statique vers un commit.
 > Plus d'informations : <https://git-scm.com/docs/git-tag>.
 
 - Lister tout les tags :
@@ -20,11 +20,11 @@
 
 `git tag {{nom_d_etiquette}} -m {{message_d_etiquette}}`
 
-- Suprimer le tag avec le nom spécifié :
+- Supprimer le tag avec le nom spécifié :
 
 `git tag -d {{nom_d_etiquette}}`
 
-- Metre a jour les tags depuis l'origine :
+- Mettre à jour les tags depuis l'origine :
 
 `git fetch --tags`
 

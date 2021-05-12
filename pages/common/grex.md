@@ -7,7 +7,7 @@
 
 ` grex {{space_separated_strings}}`
 
-- Generate a case-insensitive regex:
+- Generate a case-insensitive regular expression:
 
 `grex -i {{space_separated_strings}}`
 

@@ -3,11 +3,11 @@
 > Stocker les modifications Git locales dans une zone temporaire.
 > Plus d'informations : <https://git-scm.com/docs/git-stash>.
 
-- Stocker les changements courrants, sauf les fichiers non suivis :
+- Stocker les changements courants, sauf les fichiers non-suivis :
 
 `git stash [push -m {{nom_de_stash_optionel}}]`
 
-- Stocker les changements courrants, incluant le sfichiers non suivis :
+- Stocker les changements courants, incluant les fichiers non-suivis :
 
 `git stash -u`
 
@@ -15,7 +15,7 @@
 
 `git stash -p`
 
-- Lister tout les stash (saffiche leurs noms, les branches relatives et messages) :
+- Lister tous les stash (affiche leurs noms, les branches relatives et messages) :
 
 `git stash list`
 
@@ -23,14 +23,14 @@
 
 `git stash apply {{nom_de_stash_ou_de_commit_optionel}}`
 
-- Applique un stash (par défaut le dernier, stash@{0}), et le suprimmer de la liste des stash si il n'y a pas de conflits :
+- Applique un stash (par défaut le dernier, stash@{0}), et le supprimer de la liste des stash si il n'y a pas de conflits :
 
 `git stash pop {{nom_de_stash_optionel}}`
 
-- Suprime un stash (par défaut le dernier, stash@{0}) :
+- Supprime un stash (par défaut le dernier, stash@{0}) :
 
 `git stash drop {{nom_de_stash_optionel}}`
 
-- Suprime tout les stash :
+- Supprime tous les stash :
 
 `git stash clear`

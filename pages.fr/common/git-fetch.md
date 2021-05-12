@@ -1,6 +1,6 @@
 # git fetch
 
-> Cherche les objets et réferences depuis un registre distant.
+> Cherche les objets et références depuis un dépôt distant.
 > Plus d'informations : <https://git-scm.com/docs/git-fetch>.
 
 - Cherche les dernières modifications du référentiel amont distant par défaut (si configuré) :
@@ -11,11 +11,11 @@
 
 `git fetch {{nom_distant}}`
 
-- Cherche les nouvelles branches depuis tout les registres distant :
+- Cherche les nouvelles branches depuis tous les registres distants :
 
 `git fetch --all`
 
-- Recherche egalement les tags depuis le registre courrant :
+- Recherche également les tags depuis le registre courant :
 
 `git fetch --tags`
 

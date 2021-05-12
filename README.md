@@ -14,8 +14,8 @@
 [prs-merged-url]: https://github.com/tldr-pages/tldr/pulls?q=is:pr+is:merged
 [prs-merged-image]: https://img.shields.io/github/issues-pr-closed-raw/tldr-pages/tldr.svg?label=merged+PRs&color=green
 [contributors-url]: https://github.com/tldr-pages/tldr/graphs/contributors
-[contributors-image]: https://img.shields.io/github/contributors/tldr-pages/tldr.svg
-[license-url]: https://github.com/tldr-pages/tldr/blob/master/LICENSE.md
+[contributors-image]: https://img.shields.io/github/contributors-anon/tldr-pages/tldr.svg
+[license-url]: https://github.com/tldr-pages/tldr/blob/main/LICENSE.md
 [license-image]: https://img.shields.io/badge/license-CC_BY_4.0-blue.svg
 </div>
 
@@ -88,6 +88,7 @@ both for the command line and for other platforms:
 - [Discord Bot](https://github.com/sschr15/tldr-discord):
   [Follow the building instructions](https://github.com/sschr15/tldr-discord#building) or
   [use a privately hosted version](https://discord.com/api/oauth2/authorize?client_id=742800507210301520&permissions=18432&scope=bot)
+- [Discord Slash Command Bot](https://github.com/Epictek/tldr-Discord): use the [hosted instance](https://discord.com/api/oauth2/authorize?client_id=839254228736278579&permissions=0&scope=applications.commands%20bot) or view the [readme](https://github.com/Epictek/tldr-Discord#self-host-guide) for self hosting instructions.
 - Docker images:
     - [tldr-docker](https://github.com/nutellinoit/tldr-docker) - Run the `tldr` command via a docker container: `alias tldr='docker run --rm -it -v ~/.tldr/:/root/.tldr/ nutellinoit/tldr'`
 - Elixir clients:
@@ -109,6 +110,9 @@ both for the command line and for other platforms:
   - [github.com/isacikgoz/tldr](https://github.com/isacikgoz/tldr):
     `go get github.com/isacikgoz/tldr`
     (or [platform binaries](https://github.com/isacikgoz/tldr/releases))
+  - [github.com/HardDie/myTldr](https://github.com/HardDie/myTldr):
+    `go get github.com/HardDie/myTldr`
+    (or [platform binaries](https://github.com/HardDie/myTldr/releases)) (supports custom pages directories)
 - iOS clients:
   - [tldr-man-page](https://github.com/freesuraj/TLDR), available on
     [App Store](https://appsto.re/sg/IQ0-_.i)

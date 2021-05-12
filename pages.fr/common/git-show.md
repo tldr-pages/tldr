@@ -15,7 +15,7 @@
 
 `git show {{etiquette}}`
 
-- Affiche les informations a propos du 3éme commit en partant du sommet de la branche :
+- Affiche les informations à propos du 3ème commit en partant du sommet de la branche :
 
 `git show {{branche}}~{{3}}`
 

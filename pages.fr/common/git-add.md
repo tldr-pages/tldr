@@ -23,7 +23,7 @@
 
 `git add -p`
 
-- Ajoute interactivement les parties d un fichier specifié :
+- Ajoute interactivement les parties d'un fichier spécifié :
 
 `git add -p {{chemin/vers/fichier}}`
 
