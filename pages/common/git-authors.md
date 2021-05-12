@@ -1,6 +1,6 @@
 # git authors
 
-> Display log or list of committers of a Git repository.
+> Display log or list of committers of a Git repository. Sorted by amount of commits.
 > Part of `git-extras`.
 > Creates an AUTHORS file in the Git repository, this will be used for the command.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-authors>.
