@@ -13,16 +13,16 @@
 
 - 临时授权一个设备：
 
-`boltctl authorize {{设备UUID}}`
+`boltctl authorize {{设备uuid}}`
 
 - 授权并记住一个设备：
 
-`boltctl enroll {{设备UUID}}`
+`boltctl enroll {{设备uuid}}`
 
 - 取消一个设备的授权：
 
-`boltctl forget {{设备UUID}}`
+`boltctl forget {{设备uuid}}`
 
 - 显示一个设备的详细信息：
 
-`boltctl info {{设备UUID}}`
+`boltctl info {{设备uuid}}`

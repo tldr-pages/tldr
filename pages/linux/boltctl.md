@@ -19,7 +19,7 @@
 
 `boltctl enroll {{device_uuid}}`
 
-- Unauthorize a device:
+- Revoke a previously authorized device:
 
 `boltctl forget {{device_uuid}}`
 
