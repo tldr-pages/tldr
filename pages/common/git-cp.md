@@ -10,4 +10,4 @@
 
 - Copy an existing file in a Git repo and move it elsewhere:
 
-`git cp {{file}} {{/directory/to/new_file}}`
+`git cp {{path/to/file}} {{/directory/to/new_file}}`
