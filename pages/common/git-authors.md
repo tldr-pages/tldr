@@ -1,6 +1,6 @@
 # git authors
 
-> Display log or list of committers of a Git repository. Sorted by amount of commits.
+> Display log or list of committers of a Git repository. If you aren't using the list command, a new file called AUTHORS will be created. Sorted by amount of commits.
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-authors>.
 
@@ -8,7 +8,7 @@
 
 `git authors`
 
-- Print full list of committers of the current Git repository, reading from AUTHORS file:
+- Print full list of committers of the current Git repository:
 
 `git authors --list`
 
