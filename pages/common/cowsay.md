@@ -9,7 +9,7 @@
 
 - Read text from stdin for the balloon:
 
-`echo "Hello World" | cowsay`
+`echo "{{Hello World}}" | cowsay`
 
 - List all available friends:
 
