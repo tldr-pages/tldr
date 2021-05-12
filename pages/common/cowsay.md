@@ -21,7 +21,7 @@
 
 - Print a stoned thinking ASCII cow:
 
-`cowthink -s "I'm just a cow, not a great thinker..."`
+`cowthink -s "{{I'm just a cow, not a great thinker...}}"`
 
 - Print a ASCII cow with custom eyes:
 
