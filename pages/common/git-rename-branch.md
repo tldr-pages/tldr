@@ -8,6 +8,6 @@
 
 `git rename-branch {{new_branch_name}}`
 
-- Rename a specified branch:
+- Rename a specific branch:
 
 `git rename-branch {{old_branch_name}} {{new_branch_name}}`
