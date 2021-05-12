@@ -13,6 +13,6 @@
 
 `git authors --list`
 
-- Print full list of authors/committers of a Git repository excluding emails, reading from AUTHORS file, opened in your default editor:
+- Print full list of authors/committers of a Git repository, excluding emails, reading from AUTHORS file, opened in your default editor:
 
 `git authors --no-email`
