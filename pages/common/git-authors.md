@@ -4,7 +4,7 @@
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-authors>.
 
-- Display log of committers of the current Git repository, reading from AUTHORS the file, opened in your default editor:
+- Display log of committers of the current Git repository, reading from the AUTHORS file, opened in your default editor:
 
 `git authors`
 
