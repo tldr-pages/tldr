@@ -6,7 +6,7 @@
 
 - Check commits for a GPG signature:
 
-`git verify-commit {{commit_SHA}}`
+`git verify-commit {{commit_SHA1}} {{commit_SHA2}}`
 
 - Check commits for a GPG signature and show details of each commit:
 
