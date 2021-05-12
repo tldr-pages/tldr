@@ -30,3 +30,7 @@
 - List files with their headers, icons, and git statuses:
 
 `exa --long --header --icons --git`
+
+- Don't list files mentioned in `.gitignore`:
+
+`exa --git-ignore`
