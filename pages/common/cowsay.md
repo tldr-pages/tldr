@@ -15,7 +15,7 @@
 
 `cowsay -l`
 
-- Print an ASCII friend (different from default cow) saying "Hello World":
+- Print a custom ASCII friend saying "Hello World":
 
 `cowsay -f {{friend}} "Hello World"`
 
