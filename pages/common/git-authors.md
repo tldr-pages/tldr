@@ -2,16 +2,17 @@
 
 > Display log of authors of a Git repository.
 > Part of `git-extras`.
+> Creates an AUTHORS file in the Git repository, this will be used for the command.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-authors>.
 
-- Display log of authors/committers of a Git repository:
+- Print log of authors/committers of a Git repository, reading from AUTHORS file, opened in your default editor:
 
 `git authors`
 
-- Print full list of authors/committers of a Git repository:
+- Print full list of authors/committers of a Git repository, reading from AUTHORS file:
 
 `git authors --list`
 
-- Print full list of authors/committers of a Git repository excluding emails:
+- Print full list of authors/committers of a Git repository excluding emails, reading from AUTHORS file, opened in your default editor:
 
 `git authors --no-email`
