@@ -1,6 +1,6 @@
 # git browse
 
-> View a upstream repository within the browser.
+> View an upstream repository in the default browser.
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-browse>.
 
