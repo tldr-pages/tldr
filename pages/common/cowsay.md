@@ -23,6 +23,6 @@
 
 `cowthink -s "{{I'm just a cow, not a great thinker...}}"`
 
-- Print a ASCII cow with custom eyes:
+- Print an ASCII cow with custom eyes:
 
 `cowsay -e {{characters}} "Hello World"`
