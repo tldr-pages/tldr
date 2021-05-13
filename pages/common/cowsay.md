@@ -19,7 +19,7 @@
 
 `cowsay -f {{friend}} "Hello World"`
 
-- Print a stoned thinking ASCII cow:
+- Print a dead thinking ASCII cow:
 
 `cowthink -s "{{I'm just a cow, not a great thinker...}}"`
 
