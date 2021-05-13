@@ -1,3 +1,5 @@
+# Making a Pull Request
+
 Most people submit pull requests to the tldr-pages project
 [using GitHub's web interface][pr-howto].
 
@@ -29,3 +31,22 @@ Typically a pull request will include changes in a single file.
 [pr-howto]: ../CONTRIBUTING.md#submitting-a-pull-request
 [commit-msg]: ../CONTRIBUTING.md#commit-message
 [mass-changes]: https://github.com/tldr-pages/tldr/pulls?&q=is:pr+is:merged+label:"mass+changes"
+
+# Updating your fork
+
+Forks aren't updated automatically and in order to avoid merge conflicts it should be done manually. This is possible either via the GitHub web interface by pressing `Fetch upstream` and `Fetch and merge` or using Git in the terminal:
+```bash
+git checkout main
+git remote add upstream git@github.com:tldr-pages/tldr.git # only run this if you don't already have the upstream remote for https://github.com/tldr-pages/tldr.git
+git fetch upstream main
+git rebase upstream/main
+git push --force # not needed if you only want to update your local repository
+```
+
+# Changing the email of your last commit
+
+If you used an email for a commit, which isn't added to your GitHub account, you can either add it [here](https://github.com/settings/emails) or change the email of your last commit with
+```bash
+git commit --amend --author="Name <new@email.com>"
+git push --force
+```
