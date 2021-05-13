@@ -7,7 +7,7 @@
 
 `cowsay "{{Hello World}}"`
 
-- Read text from stdin for the balloon:
+- Print an ASCII cow saying text from stdin:
 
 `echo "{{Hello World}}" | cowsay`
 
