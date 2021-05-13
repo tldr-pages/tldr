@@ -21,7 +21,7 @@
 
 - Print a dead thinking ASCII cow:
 
-`cowthink -s "{{I'm just a cow, not a great thinker...}}"`
+`cowthink -d "{{I'm just a cow, not a great thinker...}}"`
 
 - Print an ASCII cow with custom eyes:
 
