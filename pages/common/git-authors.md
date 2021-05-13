@@ -8,7 +8,7 @@
 
 `git authors`
 
-- Print full list of committers of the current Git repository:
+- Print a full list of committers:
 
 `git authors --list`
 
