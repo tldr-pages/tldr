@@ -1,9 +1,9 @@
 # dnf
 
 > Paketmanagement Tool für RHEL, Fedora, und CentOS (ersetzt yum).
-> Mehr Informationen: <https://dnf.readthedocs.io/>.
+> Weitere Informationen: <https://dnf.readthedocs.io/>.
 
-- Aktualisiere alle Pakete auf die neuste Version:
+- Aktualisiere alle Pakete auf die neueste Version:
 
 `sudo dnf upgrade`
 

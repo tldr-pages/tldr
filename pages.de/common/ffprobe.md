@@ -1,7 +1,7 @@
 # ffprobe
 
 > Multimedia Stream Analysierer.
-> Mehr Informationen: <https://ffmpeg.org/ffprobe.html>.
+> Weitere Informationen: <https://ffmpeg.org/ffprobe.html>.
 
 - Zeige alle verfügbaren Stream-Informationen einer Medien-Datei an:
 

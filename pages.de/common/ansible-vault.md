@@ -1,7 +1,7 @@
 # ansible-vault
 
 > Verschlüsselt und entschlüsselt Werte, Datenstrukturen und Dateien innerhalb von Ansible-Projekten.
-> Mehr Informationen: <https://docs.ansible.com/ansible/latest/user_guide/vault.html>.
+> Weitere Informationen: <https://docs.ansible.com/ansible/latest/user_guide/vault.html>.
 
 - Erstelle eine neue verschlüsselte Vault-Datei mit einer Eingabeaufforderung für ein Passwort:
 

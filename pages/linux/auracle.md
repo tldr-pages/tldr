@@ -5,7 +5,7 @@
 
 - Display AUR packages that match a regular expression:
 
-`auracle search '{{regex}}'`
+`auracle search '{{regular_expression}}'`
 
 - Display package information for a space-separated list of AUR packages:
 

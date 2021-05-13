@@ -2,7 +2,7 @@
 
 > Rust Paketmanager.
 > Verwalte Rust-Projekte und deren Abhängigkeiten (crates).
-> Mehr Informationen: <https://crates.io/>.
+> Weitere Informationen: <https://crates.io/>.
 
 - Suche nach Abhängigkeiten (crates):
 

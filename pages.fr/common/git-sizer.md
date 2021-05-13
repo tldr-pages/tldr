@@ -1,6 +1,6 @@
 # git sizer
 
-> Calcule diverses métriques de taille de dépot Git et vous alerte de tout ce qui pourrait causer des problèmes ou des inconvénients.
+> Calcule diverses métriques de taille de dépôt Git et vous alerte de tout ce qui pourrait causer des problèmes ou des inconvénients.
 > Plus d'informations : <https://github.com/github/git-sizer>.
 
 - Signaler uniquement les statistiques dont le niveau de préoccupation est supérieur à 0 :
@@ -11,6 +11,6 @@
 
 `git sizer -v`
 
-- Afficher les options additionelles :
+- Afficher les options additionnelles :
 
 `git sizer -h`

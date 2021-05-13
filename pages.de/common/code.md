@@ -1,7 +1,7 @@
 # code
 
 > Visual Studio Code.
-> Mehr Informationen: <https://github.com/microsoft/vscode>.
+> Weitere Informationen: <https://github.com/microsoft/vscode>.
 
 - Öffne VS Code:
 

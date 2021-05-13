@@ -1,7 +1,7 @@
 # git remote
 
 > Verwalte eine gewisse Anzahl an Repositories (remotes).
-> Mehr Informationen: <https://git-scm.com/docs/git-remote>.
+> Weitere Informationen: <https://git-scm.com/docs/git-remote>.
 
 - Liste alle existierenden Remotes, ihre Namen und ihre URLs auf:
 

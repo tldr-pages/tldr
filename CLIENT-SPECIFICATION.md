@@ -76,7 +76,7 @@ tldr --platform osx bash
 
 This section documents the directory structure that contains the pages themselves.
 
-The master version of every page is stored inside (but not directly) the `pages` directory. Inside this directory, there is a folder for each platform - for example `windows`, `linux`, and the special `common` platform:
+The main version of every page is stored inside (but not directly) the `pages` directory. Inside this directory, there is a folder for each platform - for example `windows`, `linux`, and the special `common` platform:
 
  - `pages/`
    - `common/`
@@ -98,7 +98,7 @@ Command name    | Mapped name     | Filename
 
 ### Translations
 
-Other directories sit alongside the main `pages` directory, and contain translations of the master versions of every page - though pages MAY NOT have a translation available for a given language yet. Furthermore, a given language MAY NOT have a folder yet either. The format of these directories is `pages.<locale>`, where `<locale>` is a [POSIX Locale Name](https://www.gnu.org/software/gettext/manual/html_node/Locale-Names.html#Locale-Names) in the form of `<language>_<country>`, where:
+Other directories sit alongside the main `pages` directory, and contain translations of the main versions of every page - though pages MAY NOT have a translation available for a given language yet. Furthermore, a given language MAY NOT have a folder yet either. The format of these directories is `pages.<locale>`, where `<locale>` is a [POSIX Locale Name](https://www.gnu.org/software/gettext/manual/html_node/Locale-Names.html#Locale-Names) in the form of `<language>_<country>`, where:
 
  - `<language>` is the shortest [ISO 639](https://en.wikipedia.org/wiki/ISO_639) language code for the chosen language (see [here](https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes) for a complete list).
  - `<country>` is the two-letter [ISO 3166-1](https://en.wikipedia.org/wiki/ISO_3166-1) country code for the chosen region (see [here](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) for a complete list).
@@ -186,7 +186,7 @@ Examples:
  unset |`it:cz`    | `en`
  unset |unset      | `en`
 
-Regardless of the language determined through the environment, clients MUST always attempt to fallback to English if the page does not exist in the user preferred language. Clients MAY notify the user when a page in their preferred language cannot be found (optionally including a link to the [translations section of the contributing guide](https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md#translations)).
+Regardless of the language determined through the environment, clients MUST always attempt to fallback to English if the page does not exist in the user preferred language. Clients MAY notify the user when a page in their preferred language cannot be found (optionally including a link to the [translations section of the contributing guide](https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md#translations)).
 
 It is also RECOMMENDED to make the language configurable, as to not only rely on the environment. Clients SHOULD offer options to configure or override the language using configuration files or even command line options (like `-L, --language` as suggested in the [arguments section](#arguments) above). If such a command-line option is specified, a client must strictly adhere to its value, and MUST NOT show pages in a different language, failing with an appropriate error message instead.
 

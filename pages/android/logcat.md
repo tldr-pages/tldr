@@ -1,7 +1,6 @@
 # logcat
 
 > Dump a log of system messages.
-> Native Android CLI tool.
 > More information: <https://developer.android.com/studio/command-line/logcat>.
 
 - Display system logs:
@@ -12,6 +11,6 @@
 
 `logcat -f {{path/to/file}}`
 
-- Display lines that match a regex:
+- Display lines that match a regular expression:
 
-`logcat --regex {{regex}}`
+`logcat --regex {{regular_expression}}`

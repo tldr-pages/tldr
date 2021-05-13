@@ -1,6 +1,7 @@
 # pacman --files
 
 > Arch Linux package manager utility.
+> See also `pkgfile`.
 > More information: <https://man.archlinux.org/man/pacman.8>.
 
 - Display help:
@@ -17,7 +18,7 @@
 
 - Find the package that owns a specific file, using a regular expression:
 
-`pacman --files --regex '{{search_pattern}}'`
+`pacman --files --regex '{{regular_expression}}'`
 
 - List only the package names:
 

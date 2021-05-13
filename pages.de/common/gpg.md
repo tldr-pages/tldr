@@ -1,7 +1,7 @@
 # gpg
 
 > GNU Privacy Guard.
-> Mehr Informationen: <https://gnupg.org>.
+> Weitere Informationen: <https://gnupg.org>.
 
 - Signiere `doc.txt` ohne Verschlüsselung (Ausabe nach `doc.txt.asc`):
 
