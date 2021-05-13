@@ -31,6 +31,6 @@
 
 `kdeconnect-cli --name {{device_name}} --unlock`
 
-- Send a key to a specific device:
+- Simulate a key press on a specific device:
 
 `kdeconnect-cli --name {{device_name}} --send-keys {{key}}`
