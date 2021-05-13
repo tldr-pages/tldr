@@ -7,3 +7,7 @@
 - Open the first upstream in the default browser:
 
 `git browse`
+
+- Open a specific upstream in the default browser:
+
+`git browse {{upstream}}`
