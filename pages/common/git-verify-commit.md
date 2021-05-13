@@ -6,12 +6,12 @@
 
 - Check commits for a GPG signature:
 
-`git verify-commit {{commit_hash}} {{commit_hash}}`
+`git verify-commit {{commit_hash}} {{optional_commit_hash(s')}}`
 
 - Check commits for a GPG signature and show details of each commit:
 
-`git verify-commit {{commit_hash}} --verbose`
+`git verify-commit {{commit_hash}} {{optional_commit_hash(s')}} --verbose`
 
 - Check commits for a GPG signature and print raw details:
 
-`git verify-commit {{commit_hash}} --raw`
+`git verify-commit {{commit_hash}} {{optional_commit_hash(s')}} --raw`
