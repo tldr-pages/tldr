@@ -7,7 +7,7 @@
 
 `starship init {{bash|elvish|fish|ion|powershell|tcsh|zsh}}`
 
-- Explain the currently showing modules:
+- Explain each part of the current prompt and show the time taken to render them:
 
 `starship explain`
 
