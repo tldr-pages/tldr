@@ -17,7 +17,7 @@
 
 - Print a custom ASCII friend saying "Hello World":
 
-`cowsay -f {{friend}} "Hello World"`
+`cowsay -f {{friend}} "{{Hello World}}"`
 
 - Print a dead thinking ASCII cow:
 
