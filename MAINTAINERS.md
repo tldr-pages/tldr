@@ -49,6 +49,8 @@ If you are an owner of the organization, you can see an automated list
 - **Patrice Denis ([@patricedenis](https://github.com/patricedenis))**:
   [10 May 2021](https://github.com/tldr-pages/tldr/issues/5919) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
+- CleanMachine1 ([@CleanMachine1](https://github.com/CleanMachine1))**:
+  [14 May 2021](https://github.com/tldr-pages/tldr/issues/5961) - present
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
   [28 January 2019](https://github.com/tldr-pages/tldr/issues/2735) — [8 April 2019](https://github.com/tldr-pages/tldr/issues/2874)
