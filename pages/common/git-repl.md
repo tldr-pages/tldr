@@ -8,4 +8,4 @@
 
 `git repl`
 
-- 
+- exit 
