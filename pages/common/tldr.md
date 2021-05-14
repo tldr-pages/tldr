@@ -7,14 +7,14 @@
 
 `tldr {{command}}`
 
-- Show the tldr page for `cd`, overriding the default platform:
+- Show the tldr page for `cd`, overriding the default platform(if the client supports -p):
 
 `tldr -p {{windows}} {{cd}}`
 
-- Show the tldr page for a subcommand:
+- Show the tldr page for a sub-command:
 
 `tldr {{git-checkout}}`
 
 - Update local pages (if the client supports caching):
 
-`tldr -u`
+`tldr --update`
