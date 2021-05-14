@@ -1,15 +1,16 @@
 # acme.sh
 
 > Shell script implementing ACME client protocol, an alternative to certbot.
+> See also `acme.sh dns`.
 > More information: <https://github.com/acmesh-official/acme.sh>.
 
 - Issue a certificate using webroot mode:
 
 `acme.sh --issue --domain {{example.com}} --webroot {{/path/to/webroot}}`
 
-- Issue a certificate using standalone mode using port 80:
+- Issue a certificate for multiple domains using standalone mode using port 80:
 
-`acme.sh --issue --standalone --domain {{example.com}}`
+`acme.sh --issue --standalone --domain {{example.com}} --domain {{www.example.com}}`
 
 - Issue a certificate using standalone TLS mode using port 443:
 
@@ -23,13 +24,9 @@
 
 `acme.sh --issue --apache --domain {{example.com}}`
 
-- Issue a wildcard (\*) certificate using a manual DNS mode:
+- Issue a wildcard (\*) certificate using an automatic DNS API mode:
 
-`acme.sh --issue --dns --domain {{example.com}}`
-
-- Issue a certificate using an automatic DNS API mode:
-
-`acme.sh --issue --dns {{dns_cf}} --domain {{example.com}}`
+`acme.sh --issue --dns {{dns_cf}} --domain {{*.example.com}}`
 
 - Install certificate files into the specified locations (useful for automatic certificate renewal):
 
