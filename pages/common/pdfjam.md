@@ -17,7 +17,7 @@
 
 - Sign an A4 page (adjust delta to height for other formats) with a scanned signature by overlaying them:
 
-`pdfjam {{path/to/file.pdf}} {{signature}} --outfile {{path/to/signed.pdf}} --nup "{{1x2}}" --fitpaper {{true}} --delta "{{0 -842pt}}"`
+`pdfjam {{path/to/file.pdf}} {{path/to/signature}} --fitpaper true --outfile {{path/to/signed.pdf}} --nup "{{1x2}}" --delta "{{0 -842pt}}"`
 
 - Arrange the pages from the input file into a fancy 2x2 grid:
 
