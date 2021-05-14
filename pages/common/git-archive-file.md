@@ -4,6 +4,6 @@
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-archive-file>.
 
-- Copy HEAD branch into a zip archive:
+- Create an archive `zip` copy of the current branch:
 
 `git archive-file`
