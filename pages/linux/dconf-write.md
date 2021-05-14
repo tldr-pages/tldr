@@ -1,7 +1,7 @@
 # dconf write
 
 > Write a value to a dconf database path.
-> More information: <https://https://developer.gnome.org/dconf>.
+> More information: <https://developer.gnome.org/dconf>.
 
 - Write a string to a dconf path (note the nested quotes):
 
