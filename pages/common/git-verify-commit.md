@@ -12,6 +12,6 @@
 
 `git verify-commit {{commit_hash}} {{optional_commit_hash(s')}} --verbose`
 
-- Check commits for a GPG signature and print raw details:
+- Check commits for a GPG signature and print the raw details:
 
 `git verify-commit {{commit_hash}} {{optional_commit_hash(s')}} --raw`
