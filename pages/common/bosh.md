@@ -11,7 +11,7 @@
 
 `bosh environments`
 
-- Login to the director:
+- Log in to the director:
 
 `bosh login -e {{environment}} `
 
