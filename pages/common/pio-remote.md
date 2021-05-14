@@ -1,7 +1,7 @@
 # pio remote
 
 > Helper command for PlatformIO Remote Development.
-> `pio remote command` usually takes the same arguments as its locally executing counterpart `pio command`.
+> `pio remote command` takes the same arguments as its locally executing counterpart `pio command`.
 > More information: <https://docs.platformio.org/en/latest/core/userguide/remote/index.html>.
 
 - List all active Remote Agents:
