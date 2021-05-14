@@ -21,7 +21,7 @@
 
 - Arrange the pages from the input file into a fancy 2x2 grid:
 
-`pdfjam --nup {{2x2}} {{path/to/file.pdf}} --suffix {{4up}} --preamble '{{\usepackage{fancyhdr} \pagestyle{fancy}}}'`
+`pdfjam {{path/to/file.pdf}} --nup {{2x2}} --suffix {{4up}} --preamble '{{\usepackage{fancyhdr} \pagestyle{fancy}}}'`
 
 - Reverse the order of pages within each given file and concatenate them:
 
