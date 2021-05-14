@@ -1,7 +1,7 @@
 # dconf
 
 > Simple tool for manipulating a dconf database.
-> More information: <https://https://developer.gnome.org/dconf>.
+> More information: <https://developer.gnome.org/dconf>.
 
 - Read the value of a dconf path:
 
