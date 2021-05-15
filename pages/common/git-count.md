@@ -4,7 +4,7 @@
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-count>.
 
-- Print a total commit count:
+- Print the total commit count:
 
 `git count`
 
