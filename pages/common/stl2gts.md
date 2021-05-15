@@ -1,6 +1,6 @@
 # stl2gts
 
-> Convert STL files to GTS (GNU triangulated surface library) format.
+> Convert STL files into the GTS (GNU triangulated surface library) file format.
 > More information: <https://manned.org/stl2gts>.
 
 - Convert an STL file to a GTS file:
