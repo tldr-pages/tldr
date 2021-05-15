@@ -17,7 +17,7 @@
 
 - Write an array to a dconf path:
 
-`dconf write {{/example/dconf/path}} '[{{"My First Value", "My Second Value"}}]'`
+`dconf write {{/example/dconf/path}} "[{{'My First Value', 'My Second Value'}}]"`
 
 - Write an empty array to a dconf path:
 
