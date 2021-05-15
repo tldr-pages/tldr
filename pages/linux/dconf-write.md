@@ -9,7 +9,7 @@
 
 - Write a boolean to a dconf path:
 
-`dconf write {{/example/dconf/path}} {{true}}`
+`dconf write {{/example/dconf/path}} {{true|false}}`
 
 - Write an integer to a dconf path:
 
