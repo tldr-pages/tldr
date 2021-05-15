@@ -14,7 +14,7 @@
 
 - Display commits since last month:
 
-`git commits-since last month`
+`git commits-since {{last month}}`
 
 - Display commits since yesterday 2pm:
 
