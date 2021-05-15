@@ -4,7 +4,7 @@
 > See also `dconf write`.
 > More information: <https://developer.gnome.org/dconf>.
 
-- Read the value of a dconf path:
+- Print the value of a dconf path:
 
 `dconf read {{/example/dconf/path}}`
 
