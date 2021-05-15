@@ -8,6 +8,6 @@
 
 `git count`
 
-- Print a total commit count and individuals commit count:
+- Print the total commit count and the commit count of each contributor:
 
 `git count --all`
