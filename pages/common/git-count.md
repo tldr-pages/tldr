@@ -1,6 +1,6 @@
 # git count
 
-> Print the count of all commits.
+> Print the total number of all commits.
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-count>.
 
