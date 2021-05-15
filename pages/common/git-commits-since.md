@@ -18,4 +18,4 @@
 
 - Display commits since yesterday 2pm:
 
-`git commits-since yesterday 2pm`
+`git commits-since {{yesterday 2pm}}`
