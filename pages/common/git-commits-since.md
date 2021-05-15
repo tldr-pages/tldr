@@ -6,7 +6,7 @@
 
 - Display commits since yesterday:
 
-`git commits-since yesterday`
+`git commits-since {{yesterday}}`
 
 - Display commits since last week:
 
