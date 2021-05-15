@@ -1,4 +1,4 @@
-> git count
+# git count
 
 > Print a commit count.
 > Part of `git-extras`.
