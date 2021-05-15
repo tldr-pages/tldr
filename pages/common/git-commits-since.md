@@ -10,7 +10,7 @@
 
 - Display commits since last week:
 
-`git commits-since last week`
+`git commits-since {{last week}}`
 
 - Display commits since last month:
 
