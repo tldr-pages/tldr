@@ -18,4 +18,4 @@
 
 - Exit the interactive shell (or press CTRL + D):
 
-`exit|quit`
+`exit`
