@@ -1,6 +1,6 @@
 # git repl
 
-> Git REPL (read-evaluate-print-loop) - an interactive Git shell. 
+> Git REPL (read-evaluate-print-loop) - an interactive Git shell.
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-repl>.
 
