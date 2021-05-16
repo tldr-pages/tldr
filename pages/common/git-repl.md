@@ -8,11 +8,11 @@
 
 `git repl`
 
-- Run a git command while in REPL:
+-  Run a Git command while in the Git interactive shell:
 
 `{{git_subcommand}} {{command_arguments}}`
 
-- Run a command (not through Git) while in REPL:
+- Run a command (not through Git) while in the Git interactive shell:
 
 `!{{command}}`
 
