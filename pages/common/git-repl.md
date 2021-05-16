@@ -16,6 +16,6 @@
 
 `!{{command}}`
 
-- Exit whilst in REPL:
+- Exit REPL:
 
 `exit|quit`
