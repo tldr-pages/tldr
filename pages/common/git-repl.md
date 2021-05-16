@@ -16,6 +16,6 @@
 
 `!{{command}}`
 
-- Exit REPL:
+- Exit the interactive shell (or press CTRL + D):
 
 `exit|quit`
