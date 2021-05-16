@@ -34,3 +34,7 @@
 - Find files modified in the last 7 days, and delete them:
 
 `find {{root_path}} -mtime {{-7}} -delete`
+
+- Find empty (0 byte) files and delete them:
+
+`find {{root_path}} -type f -empty -delete`
