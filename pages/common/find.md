@@ -7,7 +7,7 @@
 
 `find {{root_path}} -name '{{*.ext}}'`
 
-- Find files matching matching multiple path/name patterns:
+- Find files matching multiple path/name patterns:
 
 `find {{root_path}} -path '{{**/path/**/*.ext}} -or -name '{{*pattern*}}'`
 
