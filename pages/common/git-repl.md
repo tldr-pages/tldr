@@ -10,7 +10,7 @@
 
 - Run a git command whilst in REPL:
 
-`{{command}}`
+`{{git_subcommand}} {{command_arguments}}`
 
 - Run a command (not through Git) whilst in REPL:
 
