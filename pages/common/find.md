@@ -33,4 +33,4 @@
 
 - Find empty (0 byte) files and delete them:
 
-`find {{root_path}} -type f -empty -delete`
+`find {{root_path}} -type {{f}} -empty -delete`
