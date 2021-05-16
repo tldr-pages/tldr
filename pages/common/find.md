@@ -31,7 +31,7 @@
 
 `find {{root_path}} -name '{{*.ext}}' -exec {{wc -l {} }}\;`
 
-- Find files modified in the last 7 days, and delete them:
+- Find files modified in the last 7 days and delete them:
 
 `find {{root_path}} -mtime {{-7}} -delete`
 
