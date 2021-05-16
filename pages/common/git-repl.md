@@ -1,11 +1,21 @@
 # git repl
 
-> Open a Git shell-like command line. Removes 
+> Open a Git shell-like command line.
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-repl>.
 
-- Open a Git shell-like command line
+- Open a Git shell-like command line:
 
 `git repl`
 
-- exit 
+- Run a git command whilst in REPL:
+
+`{{command}}`
+
+- Run a command (not though Git) whilst in REPL:
+
+`!{{command}}`
+
+- Exit whilst in REPL:
+
+`exit|quit`
