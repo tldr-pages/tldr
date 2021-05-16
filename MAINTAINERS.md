@@ -78,8 +78,6 @@ have write access to all the repositories in the tldr-pages organization,
 and [a few extra maintenance capabilities](https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/permission-levels-for-an-organization).
 An automated list can be found [here](https://github.com/orgs/tldr-pages/people).
 
-- **Iván Hernández Cazorla ([@ivanhercaz](https://github.com/ivanhercaz))**:
-  [5 January 2020](https://github.com/tldr-pages/tldr/issues/3736) — present
 - **Ein Verne ([@einverne](https://github.com/einverne))**:
   [6 January 2020](https://github.com/tldr-pages/tldr/issues/3738) — present
 - **bl-ue ([@bl-ue](https://github.com/bl-ue))**:
@@ -100,6 +98,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [17 January 2020](https://github.com/tldr-pages/tldr/issues/3764) — [3 February 2021](https://github.com/tldr-pages/tldr/issues/5224)
 - Axel Navarro ([@navarroaxel](https://github.com/navarroaxel)):
   [5 October 2020](https://github.com/tldr-pages/tldr/issues/4504) — [7 April 2021](https://github.com/tldr-pages/tldr/issues/5703)
+- Iván Hernández Cazorla ([@ivanhercaz](https://github.com/ivanhercaz)):
+  [5 January 2020](https://github.com/tldr-pages/tldr/issues/3736) — [16 May 2021](https://github.com/tldr-pages/tldr/issues/5932)
 
 ## Organization owners
 
@@ -138,3 +138,10 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
 - Leandro Ostera ([@ostera](https://github.com/ostera)):
   until [18 January 2018](https://github.com/tldr-pages/tldr/issues/1878#issuecomment-358610454)
 - Waldir Pimenta ([@waldyrious](https://github.com/waldyrious)): until [26 August 2018](https://github.com/tldr-pages/tldr/issues/2257)
+
+## Past organization members
+
+Organization members who have been inactive for some time, but still have write access to all the repositories in the tldr-pages organization and are welcome back any time to return to their old role.
+
+- **Iván Hernández Cazorla ([@ivanhercaz](https://github.com/ivanhercaz))**:
+  [16 May 2021](https://github.com/tldr-pages/tldr/issues/5932) — present
