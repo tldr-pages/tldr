@@ -12,7 +12,7 @@
 
 `{{command}}`
 
-- Run a command (not though Git) whilst in REPL:
+- Run a command (not through Git) whilst in REPL:
 
 `!{{command}}`
 
