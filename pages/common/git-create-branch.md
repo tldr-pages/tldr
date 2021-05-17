@@ -1,7 +1,7 @@
 # git create-branch
 
 > Create a Git branch in a repository.
-> Part of `git-extras`
+> Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-create-branch>.
 
 - Create a local branch:
