@@ -14,3 +14,7 @@
 - Use the times from a file to set the times on a second file:
 
 `touch -r {{filename}} {{filename2}}`
+
+- Create multiple files:
+
+`touch {{file{1,2,3}.txt}}`
