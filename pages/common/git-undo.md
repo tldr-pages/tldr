@@ -8,6 +8,6 @@
 
 `git undo`
 
-- Remove a specific number of recent commits:
+- Remove a specific number of the most recent commits:
 
 `git undo {{3}}`
