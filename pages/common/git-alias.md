@@ -8,7 +8,7 @@
 
 `git alias`
 
-- Make a new alias for Git:
+- Create a new alias:
 
 `git {{alias}} "{{command}}"`
 
