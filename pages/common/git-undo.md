@@ -4,7 +4,7 @@
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-undo>.
 
-- Remove most recent commit:
+- Remove the most recent commit:
 
 `git undo`
 
