@@ -11,7 +11,7 @@
 
 `jar -xvf {{file.jar}}`
 
-- 列出 .jar / .war 文件内容：
+- 列出 `.jar` / `.war` 文件内容：
 
 `jar tf {{path/to/file.jar}}`
 
