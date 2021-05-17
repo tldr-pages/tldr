@@ -10,7 +10,7 @@
 
 - Create a new alias:
 
-`git {{alias}} "{{command}}"`
+`git alias "{{name}}" "{{command}}"`
 
 - Search for an existing alias:
 
