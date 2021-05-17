@@ -7,7 +7,7 @@
 
 `jar cf {{file.jar}} *`
 
-- 将 .jar / .war 文件解压缩到当前目录：
+- 将 `.jar` / `.war` 文件解压缩到当前目录：
 
 `jar -xvf {{file.jar}}`
 
