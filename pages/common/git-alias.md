@@ -12,6 +12,6 @@
 
 `git {{alias}} "{{command}}"`
 
-- Search for existing alias:
+- Search for an existing alias:
 
 `git alias ^{{name}}`
