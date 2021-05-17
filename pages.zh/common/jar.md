@@ -15,6 +15,6 @@
 
 `jar tf {{path/to/file.jar}}`
 
-- 列出带有详细输出的 .jar / .war 文件内容：
+- 列出带有详细输出的 `.jar` / `.war` 文件内容：
 
 `jar tvf {{path/to/file.jar}}`
