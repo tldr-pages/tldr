@@ -3,7 +3,7 @@
 > The official command-line interface to manage WordPress instances.
 > More information: <https://wp-cli.org/>.
 
-- Describe the current system environment:
+- Describe the operating system, shell, PHP, and WP-CLI installation:
 
 `wp --info`
 
