@@ -6,7 +6,7 @@
 
 - Remove a file with sensitive data and leave the latest commit untouched:
 
-`bfg --delete-files {{FILE-WITH-SENSITIVE-DATA}}`
+`bfg --delete-files {{file_with_sensitive_data}}`
 
 - Replace all text listed in passwords.txt wherever it can be found in the repository's history:
 
