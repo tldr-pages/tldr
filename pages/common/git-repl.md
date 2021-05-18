@@ -8,7 +8,7 @@
 
 `git repl`
 
-- Run a Git command while in the Git interactive shell:
+- Run a Git command while in the interactive Git shell:
 
 `{{git_subcommand}} {{command_arguments}}`
 
