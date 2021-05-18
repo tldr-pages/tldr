@@ -11,6 +11,6 @@
 
 `uuidd --random --uuids {{number_of_uuids}}`
 
-- Generate a time based UUID:
+- Generate a time-based UUID, based on the time and MAC address of the system::
 
 `uuidd --time`
