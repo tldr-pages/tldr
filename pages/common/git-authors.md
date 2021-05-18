@@ -12,6 +12,6 @@
 
 `git authors --list`
 
-- Display a log of committers, excluding emails, in the default editor, reading from the `AUTHORS` file:
+- List committers, excluding emails, in the default editor, reading from the `AUTHORS` file:
 
 `git authors --no-email`
