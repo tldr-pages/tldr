@@ -4,6 +4,6 @@
 > Part of `git-extras.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-local-commits>.
 
-- Show commits haven't been pushed:
+- Show commits that haven't been pushed:
 
 `git local-commits`
