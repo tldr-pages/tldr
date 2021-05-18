@@ -4,7 +4,7 @@
 > Note: if your repository is connected to a remote, you will need to force push to it.
 > More information: <https://rtyley.github.io/bfg-repo-cleaner/>.
 
-- Remove a file with sensitive data and leave the latest commit untouched:
+- Remove a file with sensitive data but leave the latest commit untouched:
 
 `bfg --delete-files {{file_with_sensitive_data}}`
 
