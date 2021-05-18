@@ -7,7 +7,7 @@
 
 `uuidd --random`
 
-- Generate a bulk number of UUIDs:
+- Generate a bulk number of random UUIDs:
 
 `uuidd --random --uuids {{number_of_uuids}}`
 
