@@ -14,4 +14,4 @@
 
 - Create a branch locally and on upstream (through forks):
 
-`git create-branch -r upstream {{branch_name}}`
+`git create-branch --remote upstream {{branch_name}}`
