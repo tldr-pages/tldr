@@ -14,7 +14,7 @@
 
 - Run an external (non-Git) command while in the interactive Git shell:
 
-`!{{command}}`
+`!{{command}} {{command_arguments}}`
 
 - Exit the interactive Git shell (or press Ctrl + D):
 
