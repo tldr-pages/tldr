@@ -1,9 +1,9 @@
 # ebook-convert
 
-> Converti eBook in differenti formati, come PDF, EPUB, Mobi.
-> Parte dello strumento Calibre per librerie eBook.
+> Converti e-book in differenti formati, come PDF, EPUB, Mobi.
+> Parte dello strumento Calibre per librerie e-book.
 > Maggiori informazioni: <https://manual.calibre-ebook.com/generated/en/ebook-convert.html>.
 
-- Converti un eBook in un altro formato:
+- Converti un e-book in un altro formato:
 
 `ebook-convert {{originale}} {{convertito}}`
