@@ -4,7 +4,7 @@
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-authors>.
 
-- Display a log of committers in the default editor, reading from the `AUTHORS` file:
+- Create or replace the `AUTHORS` file with a list of committers and open it in the default editor:
 
 `git authors`
 
