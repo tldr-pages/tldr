@@ -15,9 +15,9 @@
 
 `wp plugin install {{plugin}} --activate`
 
-- Replace all instances of the old string in the database with the new string:
+- Replace all instances of a string in the database:
 
-`wp search-replace {{old}} {{new}}`
+`wp search-replace {{old_string}} {{new_string}}`
 
 - Import the contents of a WordPress Extended RSS (WXR) file:
 
