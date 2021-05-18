@@ -1,6 +1,7 @@
 # bfg
 
 > Remove large files or passwords from Git history like git-filter-branch
+> Note: if your repository is connected to a remote, you will need to force push to it.
 > More information: <https://rtyley.github.io/bfg-repo-cleaner/>.
 
 - Remove a file with sensitive data and leave the latest commit untouched:
@@ -11,6 +12,3 @@
 
 `bfg --replace-text {{passwords.txt}}`
 
-- After the sensitive data is removed, you must force push your changes to GitHub:
-
-`git push --force`
