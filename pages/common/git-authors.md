@@ -1,6 +1,6 @@
 # git authors
 
-> Display log or list of committers of a Git repository. Everything except `--list` will create a new file called `AUTHORS`.
+> Display a log or list of committers of a Git repository. Everything except `--list` will create a new file called `AUTHORS`.
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-authors>.
 
