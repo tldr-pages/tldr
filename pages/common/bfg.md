@@ -11,4 +11,3 @@
 - Remove all text mentioned in the specified file wherever it can be found in the repository's history:
 
 `bfg --replace-text {{path/to/file.txt}}`
-
