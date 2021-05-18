@@ -10,7 +10,7 @@
 
 - Create a branch locally and on origin:
 
-`git create-branch -r {{branch_name}}`
+`git create-branch --remote {{branch_name}}`
 
 - Create a branch locally and on upstream (through forks):
 
