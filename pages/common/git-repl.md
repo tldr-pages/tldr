@@ -12,7 +12,7 @@
 
 `{{git_subcommand}} {{command_arguments}}`
 
-- Run a command (not through Git) while in the interactive Git shell:
+- Run an external (non-Git) command while in the interactive Git shell:
 
 `!{{command}}`
 
