@@ -5,7 +5,7 @@
 
 - Print an ASCII cow saying "Hello World":
 
-`cowsay "{{Hello World}}"`
+`cowsay "{{hello, world}}"`
 
 - Print an ASCII cow saying text from stdin:
 
