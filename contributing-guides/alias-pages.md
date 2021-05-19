@@ -1,8 +1,10 @@
 # Alias pages
 
-To indicate that a command links to another command, we use alias pages.
-This file contains a list of all translations of an alias page template.
-The templates can be chnaged in cases where it makes sense.
+In order to document a command which is an alias of another command, you can
+write an alias page. This file contains a list of all translations of the alias
+page template decided upon in
+[#5368](https://github.com/tldr-pages/tldr/pull/5368).
+The templates can be changed when necessary.
 
 [en](#en) •
 [bs](#bs) •
