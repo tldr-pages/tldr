@@ -7,7 +7,7 @@
 
 `git init`
 
-- Inicializa un repositorio con el nombre especificado para la rama inicial:
+- Inicializa un repositorio con un nombre especifico para la rama inicial:
 
 `git init --initial-branch={{nombre_de_la_rama}}`
 
