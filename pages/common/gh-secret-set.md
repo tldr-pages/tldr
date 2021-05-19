@@ -17,7 +17,7 @@
 
 - Set an organization secret for specific repositories:
 
-`gh secret set {{name}} --org {{organization}} --repos {{repository1,repository2}}`
+`gh secret set {{name}} --org {{organization}} --repos {{repository1,repository2,...}}`
 
 - Set an organization secret with a specific visibility:
 
