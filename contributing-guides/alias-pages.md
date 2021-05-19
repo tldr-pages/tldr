@@ -95,7 +95,15 @@ Not translated yet.
 
 ### hi
 
-Not translated yet.
+```markdown
+# उदाहरण
+
+> यह आदेश `उदाहरण` का उपनाम है।
+
+- मूल आदेश के लिए दस्तावेज़ देखें:
+
+`tldr उदाहरण`
+```
 
 ### id
 
