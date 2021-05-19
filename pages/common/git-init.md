@@ -7,7 +7,7 @@
 
 `git init`
 
-- Initialize a repository with a specific name for the initial branch:
+- Initialize a repository with the specifed name for the initial branch:
 
 `git init --initial-branch={{branch_name}}`
 
