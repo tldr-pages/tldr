@@ -67,7 +67,15 @@ Not translated yet.
 
 ### es
 
-Not translated yet.
+```markdown
+# ejemplo
+
+> Este comando es un alias de `ejemplo`.
+
+- Ver documentación para el comando original:
+
+`tldr ejemplo`
+```
 
 ### fa
 
@@ -75,7 +83,15 @@ Not translated yet.
 
 ### fr
 
-Not translated yet.
+```markdown
+# exemple
+
+> Cette commande est un alias de `exemple`.
+
+- Voir la documentation de la commande originale :
+
+`tldr exemple`
+```
 
 ### hi
 
