@@ -34,4 +34,4 @@
 
 - Search a literal string pattern:
 
-`rg --fixed-strings {{string}}`
+`rg --fixed-strings -- {{string}}`
