@@ -9,7 +9,7 @@
 
 - Merge the first page of each given file together:
 
-`pdfjoin {{path/to/file1.pdf path/to/file2.pdf ...}} 1 --outfile {{output_file}}`
+`pdfjoin {{path/to/file1.pdf path/to/file2.pdf ... 1}} --outfile {{output_file}}`
 
 - Save pages 3 to 5 followed by page 1 to a new PDF with custom suffix:
 
