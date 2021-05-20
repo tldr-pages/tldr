@@ -228,9 +228,9 @@ Not translated yet.
 ### zh
 
 ```markdown
-# 示例
+# example
 
-> 这是`示例`命令的一个别名。
+> 这是 `example` 命令的一个别名。
 
 - 原命令的文档在：
 
@@ -239,4 +239,12 @@ Not translated yet.
 
 ### zh_TW
 
-Not translated yet.
+```markdown
+# example
+
+> 這是 `example` 命令的一個別名。
+
+- 原命令的文檔在：
+
+`tldr example`
+```
