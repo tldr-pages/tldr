@@ -4,7 +4,7 @@
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-effort>.
 
-- Display each file, showing commits and active days:
+- Display each file in the repository, showing commits and active days:
 
 `git effort`
 
