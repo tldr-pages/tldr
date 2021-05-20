@@ -12,7 +12,7 @@
 
 `git effort --above {{5}}`
 
-- Display files committed to, from a specific author, showing commits and active days:
+- Display files modified by a specific author, showing commits and active days:
 
 `git effort -- --author"{{username}}"`
 
