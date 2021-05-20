@@ -18,6 +18,7 @@
 - Change the position of screenkey:
 
 `screenkey --position {{top|center|bottom|fixed}}`
+
 - Change the format of the key modifiers displayed on screen:
 
 `screenkey --mods-mode {{normal|emacs|mac|win|tux}}`
