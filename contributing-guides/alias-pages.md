@@ -33,6 +33,7 @@ The templates can be changed when necessary.
 [zh](#zh) •
 [zh_TW](#zh_tw)
 
+---
 ### en
 
 ```markdown
@@ -45,6 +46,7 @@ The templates can be changed when necessary.
 `tldr example`
 ```
 
+---
 ### bs
 
 ```markdown
@@ -54,13 +56,15 @@ The templates can be changed when necessary.
 
 - Pogledaj dokumentaciju za izvornu komandu:
 
-`tldr example` 
+`tldr example`
 ```
 
+---
 ### da
 
 Not translated yet.
 
+---
 ### de
 
 ```Markdown
@@ -73,6 +77,7 @@ Not translated yet.
 `tldr example`
 ```
 
+---
 ### es
 
 ```markdown
@@ -85,10 +90,12 @@ Not translated yet.
 `tldr example`
 ```
 
+---
 ### fa
 
 Not translated yet.
 
+---
 ### fr
 
 ```markdown
@@ -101,6 +108,7 @@ Not translated yet.
 `tldr exemple`
 ```
 
+---
 ### hi
 
 ```markdown
@@ -113,6 +121,7 @@ Not translated yet.
 `tldr example`
 ```
 
+---
 ### id
 
 ```markdown
@@ -125,10 +134,12 @@ Not translated yet.
 `tldr example`
 ```
 
+---
 ### it
 
 Not translated yet.
 
+---
 ### ja
 
 ```markdown
@@ -141,10 +152,12 @@ Not translated yet.
 `tldr example`
 ```
 
+---
 ### ko
 
 Not translated yet.
 
+---
 ### ml
 
 ```Markdown
@@ -157,6 +170,7 @@ Not translated yet.
 `tldr example`
 ```
 
+---
 ### nl
 
 ```markdown
@@ -169,10 +183,12 @@ Not translated yet.
 `tldr example`
 ```
 
+---
 ### no
 
 Not translated yet.
 
+---
 ### pl
 
 ```Markdown
@@ -185,26 +201,32 @@ Not translated yet.
 `tldr example`
 ```
 
+---
 ### pt_BR
 
 Not translated yet.
 
+---
 ### pt_PT
 
 Not translated yet.
 
+---
 ### ru
 
 Not translated yet.
 
+---
 ### sh
 
 Not translated yet.
 
+---
 ### sv
 
 Not translated yet.
 
+---
 ### ta
 
 ```markdown
@@ -217,6 +239,7 @@ Not translated yet.
 `tldr example`
 ```
 
+---
 ### th
 
 ```markdown
@@ -229,10 +252,12 @@ Not translated yet.
 `tldr example`
 ```
 
+---
 ### tr
 
 Not translated yet.
 
+---
 ### zh
 
 ```markdown
@@ -245,6 +270,7 @@ Not translated yet.
 `tldr example`
 ```
 
+---
 ### zh_TW
 
 ```markdown
