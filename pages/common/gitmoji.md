@@ -1,6 +1,6 @@
 # gitmoji
 
-> An interactive command line tool for using emojis on commits.
+> An interactive command-line tool for using emojis on commits.
 > More information: <https://github.com/carloscuesta/gitmoji-cli>.
 
 - Start the commit wizard:

@@ -15,7 +15,7 @@
 
 `rails server -p "{{port}}"`
 
-- Open console to interact with application from command line:
+- Open console to interact with application from command-line:
 
 `rails console`
 

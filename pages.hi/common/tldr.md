@@ -7,7 +7,7 @@
 
 `tldr {{कमांड}}`
 
-- linux के लिए tar tldr पेज दिखाएं:
+- Linux के लिए tar tldr पेज दिखाएं:
 
 `tldr -p {{linux}} {{tar}}`
 

@@ -19,6 +19,6 @@
 
 `emacsclient -c {{filename}}`
 
-- Eval command in a new emacs frame:
+- Evaluate command in a new emacs frame:
 
 `emacsclient -c -e '({{command}})'`

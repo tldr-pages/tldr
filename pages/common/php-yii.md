@@ -1,6 +1,6 @@
 # php yii
 
-> Yii Framework's command line interface.
+> Yii Framework's command-line interface.
 > More information: <https://yiiframework.com>.
 
 - Display a list of all available commands:

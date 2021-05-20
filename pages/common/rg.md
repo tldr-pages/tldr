@@ -8,7 +8,7 @@
 
 `rg {{regular_expression}}`
 
-- Search for regular expressions including all .gitignored and hidden files:
+- Search for regular expressions recursively in the current directory, including hidden files and files listed in `.gitignore`:
 
 `rg --no-ignore --hidden {{regular_expression}}`
 

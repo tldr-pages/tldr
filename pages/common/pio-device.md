@@ -23,7 +23,7 @@
 
 `pio device monitor --baud {{57600}}`
 
-- Start an interactive device monitor and set a specific EOL character (defults to `CRLF`):
+- Start an interactive device monitor and set a specific EOL character (defaults to `CRLF`):
 
 `pio device monitor --eol {{CRLF|CR|LF}}`
 

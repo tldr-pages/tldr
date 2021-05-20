@@ -11,7 +11,7 @@
 
 `printf "{{\e[1;34m%.3d\e[0m\n}}" {{42}}`
 
-- Print a float number with the unicode Euro sign:
+- Print a float number with the Unicode Euro sign:
 
 `printf "{{\u20AC %.2f\n}}" {{123.4}}`
 

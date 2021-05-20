@@ -1,6 +1,6 @@
 # firewall-cmd
 
-> The firewalld command line client.
+> The firewalld command-line client.
 
 - View the available firewall zones:
 

@@ -1,6 +1,6 @@
 # pamac
 
-> A command line utility for the GUI package manager pamac.
+> A command-line utility for the GUI package manager pamac.
 > If you can't see the AUR packages, enable it in `/etc/pamac.conf` or in the GUI.
 > More information: <https://wiki.manjaro.org/index.php/Pamac>.
 

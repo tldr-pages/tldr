@@ -3,7 +3,7 @@
 > Measure the latency and throughput of a web server.
 > More information: <https://www.vanheusden.com/httping>.
 
-- Ping the specified url:
+- Ping the specified URL:
 
 `httping -g {{url}}`
 
