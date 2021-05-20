@@ -15,7 +15,7 @@
 
 `finger -s`
 
-- Produce multi-line output format displaying same information as `-s` as well as user's home directory, home phone number, login shell, mail status, etc.:
+- Produce multiline output format displaying same information as `-s` as well as user's home directory, home phone number, login shell, mail status, etc.:
 
 `finger -l`
 

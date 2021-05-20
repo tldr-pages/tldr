@@ -1,6 +1,6 @@
 # ffsend
 
-> Teile Dateien einfach und sicher in der Command Line.
+> Teile Dateien einfach und sicher in der Command-line.
 > Weitere Informationen: <https://gitlab.com/timvisee/ffsend>.
 
 - Lade eine Datei hoch:

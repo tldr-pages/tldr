@@ -19,6 +19,6 @@
 
 `weasyprint {{path/to/input.html}} {{path/to/output}}.png --resolution {{300}}`
 
-- Specify a base url for relative urls in the input HTML file:
+- Specify a base URL for relative URLs in the input HTML file:
 
 `weasyprint {{path/to/input.html}} {{path/to/output}}.png --base-url {{url_or_filename}}`

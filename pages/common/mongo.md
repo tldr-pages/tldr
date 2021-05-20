@@ -15,6 +15,6 @@
 
 `mongo --username {{username}} {{database}} --password`
 
-- Evaluate a javascript expression on the database:
+- Evaluate a JavaScript expression on the database:
 
 `mongo --eval '{{JSON.stringify(db.foo.findOne())}}' {{database}}`

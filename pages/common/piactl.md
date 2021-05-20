@@ -1,6 +1,6 @@
 # piactl
 
-> The command line tool for Private Internet Access, a commercial VPN provider.
+> The command-line tool for Private Internet Access, a commercial VPN provider.
 > More information: <https://privateinternetaccess.com/helpdesk/kb/articles/pia-desktop-command-line-interface>.
 
 - Log in to Private Internet Access:

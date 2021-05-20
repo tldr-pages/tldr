@@ -16,7 +16,7 @@
 
 `git ls-remote --tags`
 
-- Show all references from a remote repository based on name or url:
+- Show all references from a remote repository based on name or URL:
 
 `git ls-remote {{repository_url}}`
 
