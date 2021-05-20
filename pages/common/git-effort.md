@@ -14,11 +14,11 @@
 
 - Display files modified by a specific author, showing commits and active days:
 
-`git effort -- --author"{{username}}"`
+`git effort -- --author="{{username}}"`
 
 - Display files modified at a specific time/date, showing commits and active days:
 
-`git effort -- --since='{{last month}}'`
+`git effort -- --since="{{last month}}"`
 
 - Display only the specified file or directory, showing commits and active days:
 
