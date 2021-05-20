@@ -10,6 +10,6 @@
 
 `zdb -C {{poolname}}`
 
-- Show statistics about number, size and de-duplication of blocks:
+- Show statistics about number, size and deduplication of blocks:
 
 `zdb -b {{poolname}}`
