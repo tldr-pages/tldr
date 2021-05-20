@@ -211,7 +211,15 @@ Not translated yet.
 
 ### zh
 
-Not translated yet.
+```markdown
+# 示例
+
+> 这是`示例`命令的一个别名。
+
+- 原命令的文档在：
+
+`tldr example`
+```
 
 ### zh_TW
 
