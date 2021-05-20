@@ -167,7 +167,15 @@ Not translated yet.
 
 ### pl
 
-Not translated yet.
+```Markdown
+# przykład
+
+> Te polecenie jest aliasem `example`.
+
+- Zobacz dokumentację orginalnego polecenia:
+
+`tldr przykład`
+```
 
 ### pt_BR
 
