@@ -151,7 +151,15 @@ Not translated yet.
 
 ### nl
 
-Not translated yet.
+```markdown
+# example
+
+> Dit commando is een alias van `example`.
+
+- Bekijk de documentatie van het originele commando:
+
+`tldr example`
+```
 
 ### no
 
