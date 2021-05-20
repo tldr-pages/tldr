@@ -47,7 +47,15 @@ The templates can be changed when necessary.
 
 ### bs
 
-Not translated yet.
+```markdown
+# example
+
+> Ova komanda je alijas za `example`.
+
+- Pogledaj dokumentaciju za izvornu komandu:
+
+`tldr example` 
+```
 
 ### da
 
