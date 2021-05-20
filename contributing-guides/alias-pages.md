@@ -195,7 +195,15 @@ Not translated yet.
 
 ### th
 
-Not translated yet.
+```markdown
+# example
+
+> คำสั่งนี้เป็น alias ของ `example`.
+
+- เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
+
+`tldr example`
+```
 
 ### tr
 
