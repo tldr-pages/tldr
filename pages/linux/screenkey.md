@@ -3,15 +3,15 @@
 > A screencast tool to display your keys.
 > More information: <https://www.thregr.org/~wavexx/software/screenkey/>.
 
-- Display your keys pressed on the screen:
+- Display keys which are currently being pressed on the screen:
 
 `screenkey`
 
-- Display your keys and mouse buttons pressed on the screen:
+- Display keys and mouse buttons which are currently being pressed on the screen:
 
 `screenkey --mouse`
 
-- Launch settings menu of screenkey:
+- Launch the settings menu of screenkey:
 
 `screenkey --show-settings`
 
