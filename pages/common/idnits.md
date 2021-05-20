@@ -8,7 +8,7 @@
 
 `idnits {{path/to/file.txt}}`
 
-- Count the nits without displaying them:
+- Count nits without displaying them:
 
 `idnits --nitcount {{path/to/file.txt}}`
 
