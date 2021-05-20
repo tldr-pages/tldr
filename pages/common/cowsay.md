@@ -11,7 +11,7 @@
 
 `echo "{{hello, world}}" | cowsay`
 
-- List all available friends:
+- List all available art types:
 
 `cowsay -l`
 
