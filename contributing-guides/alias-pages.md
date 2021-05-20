@@ -35,7 +35,7 @@ The templates can be changed when necessary.
 
 ### en
 
-```Markdown
+```markdown
 # example
 
 > This command is an alias of `example`.
