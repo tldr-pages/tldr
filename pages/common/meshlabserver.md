@@ -1,6 +1,6 @@
 # meshlabserver
 
-> Command line interface for the MeshLab 3D mesh processing software.
+> Command-line interface for the MeshLab 3D mesh processing software.
 
 - Convert an STL file to an OBJ file:
 

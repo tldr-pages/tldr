@@ -1,6 +1,6 @@
 # phpunit
 
-> PHPUnit command line test runner.
+> PHPUnit command-line test runner.
 > More information: <https://phpunit.de>.
 
 - Run tests in the current directory. Note: Expects you to have a 'phpunit.xml':

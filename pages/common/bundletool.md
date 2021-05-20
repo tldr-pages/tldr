@@ -1,6 +1,6 @@
 # bundletool
 
-> Command line tool to manipulate Android Application Bundles.
+> Command-line tool to manipulate Android Application Bundles.
 > More information: <https://developer.android.com/studio/command-line/bundletool>.
 
 - Display help for a subcommand:

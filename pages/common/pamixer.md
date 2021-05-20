@@ -1,6 +1,6 @@
 # pamixer
 
-> A simple command line mixer for PulseAudio.
+> A simple command-line mixer for PulseAudio.
 > More information: <https://github.com/cdemoulins/pamixer>.
 
 - List all sinks and sources with their corresponding IDs:

@@ -1,6 +1,6 @@
 # nu
 
-> Nushell ("a new type of shell") takes a modern, structured approach to your command line.
+> Nushell ("a new type of shell") takes a modern, structured approach to your command-line.
 > More information: <https://www.nushell.sh>.
 
 - Start an interactive shell session:

@@ -1,6 +1,6 @@
 # wordgrinder
 
-> Command line word processor.
+> Command-line word processor.
 > More information: <https://cowlark.com/wordgrinder>.
 
 - Start wordgrinder (loads a blank document by default):

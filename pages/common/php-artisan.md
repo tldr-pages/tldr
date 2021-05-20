@@ -1,13 +1,13 @@
 # php artisan
 
-> Laravel's Artisan command line interface.
+> Laravel's Artisan command-line interface.
 > More information: <https://laravel.com/docs/artisan>.
 
 - Start PHP's built-in web server for the current Laravel application:
 
 `php artisan serve`
 
-- Start an interactive PHP command line interface:
+- Start an interactive PHP command-line interface:
 
 `php artisan tinker`
 

@@ -1,6 +1,6 @@
 # launchctl
 
-> A command line interface to Apple's `launchd` manager for launch daemons (system-wide services) and launch agents (per-user programs).
+> A command-line interface to Apple's `launchd` manager for launch daemons (system-wide services) and launch agents (per-user programs).
 > `launchd` loads XML-based `*.plist` files placed in the appropriate locations, and runs the corresponding commands according to their defined schedule.
 
 - Activate a user-specific agent to be loaded into `launchd` whenever the user logs in:

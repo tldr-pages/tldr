@@ -1,6 +1,6 @@
 # afplay
 
-> Command line audio player.
+> Command-line audio player.
 
 - Play a sound file (waits until playback ends):
 

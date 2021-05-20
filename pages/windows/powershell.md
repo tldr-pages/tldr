@@ -1,6 +1,6 @@
 # powershell
 
-> Command line shell and scripting language designed especially for system administration.
+> Command-line shell and scripting language designed especially for system administration.
 > More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/powershell>.
 
 - Start a Windows PowerShell session in a Command Prompt window:

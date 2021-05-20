@@ -1,6 +1,6 @@
 # webtorrent
 
-> The command line interface for WebTorrent.
+> The command-line interface for WebTorrent.
 > Supports magnets, urls, info hashes and .torrent files.
 > More information: <https://github.com/webtorrent/webtorrent-cli>.
 

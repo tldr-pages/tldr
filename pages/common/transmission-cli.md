@@ -1,6 +1,6 @@
 # transmission-cli
 
-> A lightweight, command line BitTorrent client.
+> A lightweight, command-line BitTorrent client.
 > This tool has been deprecated, please see `transmission-remote`.
 > More information: <https://transmissionbt.com>.
 

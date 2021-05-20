@@ -1,8 +1,8 @@
 # odps
 
-> Aliyun ODPS (Open Data Processing Service) command line tool.
+> Aliyun ODPS (Open Data Processing Service) command-line tool.
 
-- Start the command line with a custom configuration file:
+- Start the command-line with a custom configuration file:
 
 `odpscmd --config={{odps_config.ini}}`
 

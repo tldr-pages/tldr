@@ -1,6 +1,6 @@
 # cf
 
-> Command line tool to manage apps and services on Cloud Foundry.
+> Command-line tool to manage apps and services on Cloud Foundry.
 > More information: <https://docs.cloudfoundry.org>.
 
 - Push an app using the default settings:

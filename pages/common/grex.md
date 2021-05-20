@@ -1,6 +1,6 @@
 # grex
 
-> Simple command line tool to generate regular expressions.
+> Simple command-line tool to generate regular expressions.
 > More information: <https://github.com/pemistahl/grex>.
 
 - Generate a simple regular expression:

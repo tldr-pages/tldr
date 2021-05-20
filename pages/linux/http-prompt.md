@@ -1,6 +1,6 @@
 # http-prompt
 
-> An interactive command line HTTP client featuring autocomplete and syntax highlighting.
+> An interactive command-line HTTP client featuring autocomplete and syntax highlighting.
 
 - Launch a session targeting the default URL of http://localhost:8000 or the previous session:
 
