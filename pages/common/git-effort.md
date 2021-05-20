@@ -20,7 +20,7 @@
 
 `git effort -- --since='{{last month}}'`
 
-- Display files committed to, from specific chosen files, showing commits and active days:
+- Display only the specified file or directory, showing commits and active days:
 
 `git effort {{path/to/file_or_directory}}`
 
