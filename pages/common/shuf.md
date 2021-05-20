@@ -9,12 +9,12 @@
 
 - Only output the first 5 entries of the result:
 
-`shuf -n {{5}} {{filename}}`
+`shuf --head-count={{5}} {{filename}}`
 
 - Write the output to another file:
 
-`shuf {{filename}} -o {{output_filename}}`
+`shuf {{filename}} --output={{output_filename}}`
 
 - Generate 3 random numbers in the range 1-10 (inclusive):
 
-`shuf -n {{3}} -i {{1-10}} -r`
+`shuf --head-count={{3}} --input-range={{1-10}} --repeat`
