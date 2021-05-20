@@ -30,3 +30,7 @@
 - Long format list of all files, sorted by modification date (oldest first):
 
 `ls -ltr`
+
+- Only list directories:
+
+`ls -d {{*/}}`

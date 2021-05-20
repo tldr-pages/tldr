@@ -23,6 +23,6 @@
 
 `cp -i {{*.txt}} {{path/to/target_directory}}`
 
-- Dereference symbolic links before copying:
+- Follow symbolic links before copying:
 
 `cp -L {{link}} {{path/to/target_directory}}`

@@ -19,7 +19,7 @@
 
 `git {{sous_commande}}`
 
-- Exécuter une sous-commande Git sur un répertoire personalisé :
+- Exécuter une sous-commande Git sur un répertoire personnalisé :
 
 `git -C {{chemin/vers/repertoire}} {{sous_commande}}`
 

@@ -19,6 +19,10 @@
 
 `convert {{image1.png}} {{image2.png}} {{image3.png}} +append {{image123.png}}`
 
+- Coller plusieurs images verticalement :
+
+`convert {{image1.png}} {{image2.png}} {{image3.png}} -append {{image123.png}}`
+
 - Créer un gif à partir d'une série d'images avec un délai de 100ms entre chaque :
 
 `convert {{image1.png}} {{image2.png}} {{image3.png}} -delay {{100}} {{animation.gif}}`

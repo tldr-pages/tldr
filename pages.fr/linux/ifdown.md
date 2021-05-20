@@ -1,7 +1,7 @@
 # ifdown
 
 > Désactive des interfaces réseau.
-> Plus d'information : <https://manned.org/ifdown>.
+> Plus d'informations : <https://manned.org/ifdown>.
 
 - Désactive l'interface eth0 :
 

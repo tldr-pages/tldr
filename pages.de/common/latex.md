@@ -1,7 +1,7 @@
 # latex
 
 > Kompiliere eine LaTeX Quelldatei in ein DVI Dokument.
-> Mehr Informationen: <https://www.latex-project.org>.
+> Weitere Informationen: <https://www.latex-project.org>.
 
 - Kompiliere ein DVI Dokument:
 

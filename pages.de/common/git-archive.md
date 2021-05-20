@@ -1,7 +1,7 @@
 # git archive
 
 > Erstelle ein Archiv von Dateien.
-> Mehr Informationen: <https://git-scm.com/docs/git-archive>.
+> Weitere Informationen: <https://git-scm.com/docs/git-archive>.
 
 - Erstelle ein tar-Archiv aus dem Inhalt des aktuellen HEAD und gib dieses aus:
 

@@ -2,13 +2,13 @@
 
 > Debian und Ubuntu Paket Management Tool.
 > Suche mit `apt-cache` nach Paketen.
-> Mehr Informationen: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
+> Weitere Informationen: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
 
 - Aktualisiere die Liste der Paketquellen (es wird empfohlen diesen Befehl zu Begin auszuführen):
 
 `apt-get update`
 
-- Installiere ein Paket oder aktualisiere es zur neusten Version:
+- Installiere ein Paket oder aktualisiere es zur neuesten Version:
 
 `apt-get install {{paket}}`
 
@@ -20,7 +20,7 @@
 
 `apt-get purge {{paket}}`
 
-- Aktualisiere alle Pakete auf die neuste Version:
+- Aktualisiere alle Pakete auf die neueste Version:
 
 `apt-get upgrade`
 

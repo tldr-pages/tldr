@@ -3,7 +3,7 @@
 > Muestra varios tipos de objetos Git (commits, etiquetas, etcétera).
 > Más información: <https://git-scm.com/docs/git-show>.
 
-- Muestra información sobre el último commit (mensaje, cambios y otros metadatos):
+- Muestra información sobre el último commit (hash, mensaje, cambios y otros metadatos):
 
 `git show`
 
@@ -15,13 +15,21 @@
 
 `git show {{etiqueta}}`
 
-- Muestra información del tercer commit desde la punta de la rama:
+- Muestra información del tercer commit desde la punta de una rama:
 
 `git show {{rama}}~{{3}}`
 
-- Muestra un hash de commit y un mensaje en una única línea, eliminando la el resultado de la diferencia:
+- Muestra el mensaje de un commit en una única línea, eliminando el resultado de la diferencia:
 
 `git show --oneline -s {{commit}}`
+
+- Muestra solo estadísticas (caracteres agregados o removidos) de los archivos modificados:
+
+`git show --stat {{commit}}`
+
+- Muestra solo la lista de archivos agregados, renombrados o eliminados:
+
+`git show --summary {{commit}}`
 
 - Muestra el contenido de una archivo en una revisión específica (por ej., una rama, una etiqueta o un commit):
 

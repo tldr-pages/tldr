@@ -2,7 +2,7 @@
 
 > Generiere SQL-Anweisungen für eine CSV-Datei oder führe diese Anweisungen direkt in einer Datenbank aus.
 > Teil von csvkit.
-> Mehr Informationen: <https://csvkit.readthedocs.io/en/latest/scripts/csvsql.html>.
+> Weitere Informationen: <https://csvkit.readthedocs.io/en/latest/scripts/csvsql.html>.
 
 - Generiere eine `CREATE TABLE`-SQL-Anweisung für eine CSV-Datei:
 

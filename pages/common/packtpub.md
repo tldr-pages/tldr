@@ -15,7 +15,7 @@
 
 `packtpub login`
 
-- Logout from packtpub.com:
+- Log out from packtpub.com:
 
 `packtpub logout`
 

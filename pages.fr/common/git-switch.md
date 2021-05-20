@@ -1,7 +1,7 @@
 # git switch
 
 > Basculez entre les branches Git. Nécessite la version 2.23+ de Git.
-> Voir egalement `git checkout`.
+> Voir également `git checkout`.
 > Plus d'informations : <https://git-scm.com/docs/git-switch>.
 
 - Baculer sur une branche existante :
@@ -16,7 +16,7 @@
 
 `git switch --create {{nom_de_branche}} {{commit}}`
 
-- Basculer sur la branche précedante :
+- Basculer sur la branche précédente :
 
 `git switch -`
 

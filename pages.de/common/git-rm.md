@@ -1,7 +1,7 @@
 # git rm
 
 > Entferne Dateien aus dem Index des Repositories und vom lokalen Dateisystem.
-> Mehr Informationen: <https://git-scm.com/docs/git-rm>.
+> Weitere Informationen: <https://git-scm.com/docs/git-rm>.
 
 - Entferne eine Datei aus dem Index und vom lokalen Dateisystem:
 

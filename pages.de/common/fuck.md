@@ -1,7 +1,7 @@
 # fuck
 
 > Korrigiert den zuletzt ausgeführten Befehl.
-> Mehr Informationen: <https://github.com/nvbn/thefuck>.
+> Weitere Informationen: <https://github.com/nvbn/thefuck>.
 
 - Lege den `fuck` alias für `thefuck` fest:
 

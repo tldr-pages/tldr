@@ -7,7 +7,7 @@
 
 `echo "{{Hello World}}"`
 
-- Affiche un message avec des variables d'environment :
+- Affiche un message avec des variables d'environnement :
 
 `echo "{{Ma variable PATH est $PATH}}"`
 

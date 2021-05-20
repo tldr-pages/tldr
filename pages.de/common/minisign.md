@@ -1,7 +1,7 @@
 # minisign
 
 > Ein denkbar einfaches Werkzeug um Dateien zu signieren und Signaturen zu verifizieren.
-> Mehr Informationen: <https://jedisct1.github.io/minisign/>.
+> Weitere Informationen: <https://jedisct1.github.io/minisign/>.
 
 - Generiere ein neues Schlüsselpaar im Standardpfad:
 

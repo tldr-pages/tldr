@@ -22,3 +22,11 @@
 - Compile and Release package:
 
 `gradle assembleRelease`
+
+- List the main tasks:
+
+`gradle tasks`
+
+- List all the tasks:
+
+`gradle tasks --all`

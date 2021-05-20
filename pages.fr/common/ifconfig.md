@@ -18,6 +18,6 @@
 
 `ifconfig {{eth0}} up`
 
-- Assigne une addresse IP à l'interface eth0 :
+- Assigne une adresse IP à l'interface eth0 :
 
 `ifconfig {{eth0}} {{addresse_ip}}`

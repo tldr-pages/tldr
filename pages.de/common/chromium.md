@@ -1,7 +1,7 @@
 # chromium
 
 > Open-Source-Webbrowser von Google.
-> Mehr Informationen: <https://chromium.org>.
+> Weitere Informationen: <https://chromium.org>.
 
 - Öffne eine html-Datei:
 

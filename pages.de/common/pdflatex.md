@@ -1,7 +1,7 @@
 # pdflatex
 
 > Kompiliere eine LaTeX Quelldatei in ein PDF Dokument.
-> Mehr Informationen: <https://manned.org/pdflatex>.
+> Weitere Informationen: <https://manned.org/pdflatex>.
 
 - Kompiliere ein PDF Dokument:
 

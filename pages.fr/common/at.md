@@ -1,7 +1,8 @@
 # at
 
 > Planifie l'exécution d'une commande une fois à un moment donné.
-> Le service atd (ou atrun) doit être actif pour l'exécution des commandes plannifiées.
+
+> Le service atd (ou atrun) doit être actif pour l'exécution des commandes planifiées.
 > Plus d'informations : <https://manned.org/at>.
 
 - Planifie l'exécution de la commande donnée dans l'entrée standard dans 5 minutes (Appuyer sur `Ctrl + D` une fois la commande inscrite) :

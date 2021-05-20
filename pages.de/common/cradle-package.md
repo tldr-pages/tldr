@@ -1,7 +1,7 @@
 # cradle package
 
 > Verwalte Pakete für Cradle Instanzen.
-> Mehr Informationen: <https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-Tools.html#package>.
+> Weitere Informationen: <https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-Tools.html#package>.
 
 - Liste aller verfügbaren Pakete auf:
 
