@@ -123,7 +123,15 @@ Not translated yet.
 
 ### ja
 
-Not translated yet.
+```markdown
+# example
+
+> このコマンドは `example` のエイリアスです.
+
+- オリジナルのコマンドのドキュメントを表示する:
+
+`tldr example`
+```
 
 ### ko
 
