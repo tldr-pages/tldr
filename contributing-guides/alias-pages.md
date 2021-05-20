@@ -147,7 +147,15 @@ Not translated yet.
 
 ### ml
 
-Not translated yet.
+```Markdown
+# example
+
+> ഈ കമാൻഡ് `example` എന്നത്തിന്റെ അപരനാമമാണ്.
+
+- യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
+
+`tldr example`
+```
 
 ### nl
 
