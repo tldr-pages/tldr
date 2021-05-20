@@ -56,25 +56,25 @@ Not translated yet.
 ### de
 
 ```Markdown
-# beispiel
+# example
 
-> Dieser Befehl ist ein Alias von `beispiel`.
+> Dieser Befehl ist ein Alias von `example`.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr beispiel`
+`tldr example`
 ```
 
 ### es
 
 ```markdown
-# ejemplo
+# example
 
-> Este comando es un alias de `ejemplo`.
+> Este comando es un alias de `example`.
 
 - Ver documentación para el comando original:
 
-`tldr ejemplo`
+`tldr example`
 ```
 
 ### fa
@@ -84,25 +84,25 @@ Not translated yet.
 ### fr
 
 ```markdown
-# exemple
+# example
 
-> Cette commande est un alias de `exemple`.
+> Cette commande est un alias de `example`.
 
 - Voir la documentation de la commande originale :
 
-`tldr exemple`
+`tldr example`
 ```
 
 ### hi
 
 ```markdown
-# उदाहरण
+# example
 
-> यह आदेश `उदाहरण` का उपनाम है।
+> यह आदेश `example` का उपनाम है।
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 
-`tldr उदाहरण`
+`tldr example`
 ```
 
 ### id
