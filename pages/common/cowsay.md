@@ -1,6 +1,6 @@
 # cowsay
 
-> Print an ASCII friend (by default a cow) saying or thinking something.
+> Print ASCII art (by default a cow) saying or thinking something.
 > More information: <https://github.com/tnalpgge/rank-amateur-cowsay>.
 
 - Print an ASCII cow saying "hello, world":
@@ -15,9 +15,9 @@
 
 `cowsay -l`
 
-- Print a custom ASCII friend saying "hello, world":
+- Print the specified ASCII art saying "hello, world":
 
-`cowsay -f {{friend}} "{{hello, world}}"`
+`cowsay -f {{art}} "{{hello, world}}"`
 
 - Print a dead thinking ASCII cow:
 
