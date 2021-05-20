@@ -3,7 +3,6 @@
 > Ändere das aktuelle Arbeitsverzeichnis.
 > Mehr Informationen: <https://manned.org/cd>.
 
-
 - Wechsle in das angegebene Verzeichnis:
 
 `cd {{pfad/zu/verzeichnis}}`
