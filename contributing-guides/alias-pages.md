@@ -168,13 +168,13 @@ Not translated yet.
 ### pl
 
 ```Markdown
-# przykład
+# example
 
 > Te polecenie jest aliasem `example`.
 
 - Zobacz dokumentację orginalnego polecenia:
 
-`tldr przykład`
+`tldr example`
 ```
 
 ### pt_BR
