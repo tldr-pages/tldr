@@ -15,18 +15,17 @@
 
 `screenkey --show-settings`
 
-- Change the postion(top/center/bottom/fixed) of screenkey:
+- Change the position of screenkey:
 
-`screenkey --position top`
+`screenkey --position {{top|center|bottom|fixed}}`
+- Change the format of the key modifiers displayed on screen:
 
-- Change the modifiers displayed on the screen like ctrl to ⌘ in mac mode:
-
-`screenkey --mods-mode mac`
+`screenkey --mods-mode {{normal|emacs|mac|win|tux}}`
 
 - Change the appearance of screenkey:
 
-`screenkey --bg-color '#353535' --font Hack --font-color yellow --opacity 0.8`
+`screenkey --bg-color "{{#353535}}" --font {{Hack}} --font-color {{yellow}} --opacity {{0.8}}`
 
 - Drag and select a window on screen to display screenkey:
 
-`screenkey --position fixed --geometry $(slop -n -f '%g')`
+`screenkey --position fixed --geometry {{$(slop -n -f '%g')}}`
