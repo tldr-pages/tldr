@@ -1,7 +1,6 @@
 # cd
 
 > Ändere das aktuelle Arbeitsverzeichnis.
-
 > Mehr Informationen: <https://manned.org/cd>.
 
 
