@@ -107,7 +107,15 @@ Not translated yet.
 
 ### id
 
-Not translated yet.
+```markdown
+# example
+
+> Perintah ini merupakan alias dari `example`.
+
+- Menampilkan dokumentasi untuk perintah asli:
+
+`tldr example`
+```
 
 ### it
 
