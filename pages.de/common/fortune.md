@@ -1,7 +1,6 @@
 # fortune
 
 > Gib ein zufälliges Glückskeks-Zitat aus.
-
 > Mehr Informationen: <https://manned.org/fortune>.
 
 - Gib ein Zitat aus:
