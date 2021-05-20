@@ -15,7 +15,7 @@
 
 `siege --internet --file {{path/to/url_list.txt}}`
 
-- Benchmark a list of URLs (Don't wait between requests):
+- Benchmark a list of URLs (without waiting between requests):
 
 `siege --benchmark --file {{path/to/url_list.txt}}`
 
