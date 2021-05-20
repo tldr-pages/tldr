@@ -92,13 +92,13 @@ Not translated yet.
 ### fr
 
 ```markdown
-# example
+# exemple
 
-> Cette commande est un alias de `example`.
+> Cette commande est un alias de `exemple`.
 
 - Voir la documentation de la commande originale :
 
-`tldr example`
+`tldr exemple`
 ```
 
 ### hi
