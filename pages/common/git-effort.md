@@ -16,7 +16,7 @@
 
 `git effort -- --author"{{username}}"`
 
-- Display files committed to, from a specific time/date, showing commits and active days:
+- Display files modified at a specific time/date, showing commits and active days:
 
 `git effort -- --since='{{last month}}'`
 
