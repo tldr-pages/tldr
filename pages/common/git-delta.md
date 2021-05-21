@@ -4,6 +4,6 @@
  > Part of git-extras.
  > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-delta>.
 
- - List files from {{currbranch}} that differ with {{main}}:
+ - List files from the current checked out branch that differ from the `main` branch:
 
  `git delta {{main}}`
