@@ -1,6 +1,6 @@
 # git root
 
-> Print Current Working directory.
+> Print the root directory of the current Git repository.
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-root>.
 
