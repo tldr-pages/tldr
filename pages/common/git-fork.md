@@ -4,7 +4,7 @@
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-fork>.
 
-- Fork a given github repo with full url:
+- Fork the specified GitHub repo by full URL:
 
 `git fork {{https://github.com/tldr-pages/tldr}}`
 
