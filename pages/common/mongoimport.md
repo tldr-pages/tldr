@@ -15,7 +15,7 @@
 
 `mongoimport --jsonArray --file={{path/to/file}}`
 
-- Import a JSON file into in a specific mode and query to match already existing documents:
+- Import a JSON file using a specific mode and a query to match already existing documents:
 
 `mongoimport --file={{path/to/file}} --mode={{delete|merge|upsert}} --upsertFields="{{field1,field2,...}}"`
 
