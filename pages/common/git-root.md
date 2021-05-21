@@ -8,6 +8,6 @@
 
 `git root`
 
-- Print directory currently opened in a Git repository, from beginning of repository:
+- Print the current working directory relative to the root of the current Git repository:
 
 `git root --relative`
