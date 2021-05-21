@@ -11,7 +11,7 @@
 
 `mongoimport --type={{csv}} --file{{path/to/file}} --db={{database_name}} --collection={{collection_name}}`
 
-- Import a JSON array using each element as a MongoDB's document:
+- Import a JSON array using each element as a MongoDB document:
 
 `mongoimport --jsonArray --file={{path/to/file}}`
 
