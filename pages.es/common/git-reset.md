@@ -14,7 +14,7 @@
 
 - Desmarca partes de un archivo:
 
-`git reset -p {{ruta/al/archivo}}`
+`git reset --patch {{ruta/al/archivo}}`
 
 - Deshace el último commit, manteniendo sus cambios,y cualquier otro cambios sin commit,en el sistema de archivo:
 

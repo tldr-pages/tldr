@@ -15,7 +15,7 @@
 
 - Enlever une portion d'un fichier de la *zone de stage* :
 
-`git reset -p {{chemin/vers/fichier}}`
+`git reset --patch {{chemin/vers/fichier}}`
 
 - Annuler le dernier *commit*, mais garder les changements effectués dans votre système de fichier :
 

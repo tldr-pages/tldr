@@ -14,7 +14,7 @@
 
 - Rimuovi dall'area di stage solo alcune porzioni di un file:
 
-`git reset -p {{percorso/al/file}}`
+`git reset --patch {{percorso/al/file}}`
 
 - Annulla l'ultimo commit, preservando tutte le modifiche nel filesystem:
 
