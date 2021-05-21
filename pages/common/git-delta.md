@@ -1,6 +1,6 @@
 # git delta
 
-> Lists files that differ from another branch.
+> List files that differ from another branch.
 > Part of git-extras.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-delta>.
 
