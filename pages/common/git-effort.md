@@ -24,6 +24,6 @@
 
 `git effort {{path/to/file_or_directory}}`
 
-- Display all files modified, in a specific directory, showing commits and active days:
+- Display all files modified in a specific directory, showing commits and active days:
 
 `git effort {{path/to/directory/*}}`
