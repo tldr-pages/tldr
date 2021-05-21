@@ -3,7 +3,7 @@
 > Move or rename files and directories.
 > More information: <https://www.gnu.org/software/coreutils/mv>.
 
-- Move file in arbitrary location:
+- Move a file to an arbitrary location:
 
 `mv {{source}} {{target}}`
 
