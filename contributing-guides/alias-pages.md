@@ -99,7 +99,7 @@ Not translated yet.
 ### fr
 
 ```markdown
-# exemple
+# example
 
 > Cette commande est un alias de `exemple`.
 
