@@ -7,7 +7,7 @@
 
 `mongoimport --file={{path/to/file}} --uri={{mongodb_uri}} --collection={{collection_name}}`
 
-- Import a CSV file using the first line as the field list into the localhost instance:
+- Import a CSV using the first line of the file to determine property names:
 
 `mongoimport --type={{csv}} --file{{path/to/file}} --db={{database_name}} --collection={{collection_name}}`
 
