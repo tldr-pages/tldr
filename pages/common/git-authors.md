@@ -8,7 +8,7 @@
 
 `git authors`
 
-- Print a full list of committers:
+- Print a full list of committers to stdout instead of to the `AUTHORS` file:
 
 `git authors --list`
 
