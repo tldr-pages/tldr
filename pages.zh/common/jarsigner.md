@@ -1,6 +1,6 @@
 # jarsigner
 
-> 签名并验证Java存档（JAR）文件。
+> 签名并验证 Java 存档（JAR）文件。
 > 更多信息见：<https://docs.oracle.com/javase/9/tools/jarsigner.htm>.
 
 - 签名一个 `JAR` 文件：
