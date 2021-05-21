@@ -12,7 +12,7 @@
 
 `git reset {{ruta/al/archivo_o_archivos}}`
 
-- Desmarca partes de un archivo:
+- Interactivamente desmarca partes de un archivo:
 
 `git reset --patch {{ruta/al/archivo}}`
 
