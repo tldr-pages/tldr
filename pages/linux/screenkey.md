@@ -1,6 +1,6 @@
 # screenkey
 
-> A screencast tool to display your keys.
+> A screencast tool to display keys pressed.
 > More information: <https://www.thregr.org/~wavexx/software/screenkey/>.
 
 - Display keys which are currently being pressed on the screen:
