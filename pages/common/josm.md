@@ -15,7 +15,7 @@
 
 `josm --language {{de}}`
 
-- Launch JOSM and reset all preferences to default values:
+- Launch JOSM and reset all preferences to their default values:
 
 `josm --reset-preferences`
 
