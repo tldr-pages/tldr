@@ -23,7 +23,7 @@
 
 `josm --download {{minlat,minlon,maxlat,maxlon}}`
 
-- Launch JOSM and download a specefic bounding box as raw GPS:
+- Launch JOSM and download a specific bounding box as raw GPS:
 
 `josm --downloadgps {{minlat,minlon,maxlat,maxlon}}`
 
