@@ -105,7 +105,7 @@ Not translated yet.
 
 - Voir la documentation de la commande originale :
 
-`tldr exemple`
+`tldr example`
 ```
 
 ---
