@@ -6,4 +6,9 @@
 
  - List files from the current checked out branch that differ from the `main` branch:
 
- `git delta {{main}}`
+`git delta {{main}}`
+
+- List files from specific branch that differ from another specific branch:
+
+`git delta {{branch_1}} {{branch_2}}
+ 
