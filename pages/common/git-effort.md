@@ -16,14 +16,14 @@
 
 `git effort -- --author="{{username}}"`
 
-- Display files modified at a specific time/date, showing commits and active days:
+- Display files modified since a specific time/date, showing commits and active days:
 
 `git effort -- --since="{{last month}}"`
 
-- Display only the specified file or directory, showing commits and active days:
+- Display only the specified files or directories, showing commits and active days:
 
-`git effort {{path/to/file_or_directory}}`
+`git effort {{path/to/file_or_directory1 path/to/file_or/directory2 ...}}`
 
-- Display all files modified in a specific directory, showing commits and active days:
+- Display all files in a specific directory, showing commits and active days:
 
 `git effort {{path/to/directory/*}}`
