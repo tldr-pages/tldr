@@ -101,7 +101,7 @@ Not translated yet.
 ```markdown
 # example
 
-> Cette commande est un alias de `exemple`.
+> Cette commande est un alias de `example`.
 
 - Voir la documentation de la commande originale :
 
