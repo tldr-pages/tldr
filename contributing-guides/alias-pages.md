@@ -67,7 +67,7 @@ Not translated yet.
 ---
 ### de
 
-```Markdown
+```markdown
 # example
 
 > Dieser Befehl ist ein Alias von `example`.
@@ -160,7 +160,7 @@ Not translated yet.
 ---
 ### ml
 
-```Markdown
+```markdown
 # example
 
 > ഈ കമാൻഡ് `example` എന്നത്തിന്റെ അപരനാമമാണ്.
@@ -191,7 +191,7 @@ Not translated yet.
 ---
 ### pl
 
-```Markdown
+```markdown
 # example
 
 > Te polecenie jest aliasem `example`.
