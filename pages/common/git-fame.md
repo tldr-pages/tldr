@@ -13,7 +13,7 @@
 
 - Calculate contributions made after the specified date:
 
-`git fame --since "{{3 weeks ago|2021-05-01}}"`
+`git fame --since "{{3 weeks ago|2021-05-13}}"`
 
 - Display contributions in the specified format:
 
