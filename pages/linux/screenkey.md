@@ -15,7 +15,7 @@
 
 `screenkey --show-settings`
 
-- Change the position of screenkey:
+- Launch screenkey at a specific position:
 
 `screenkey --position {{top|center|bottom|fixed}}`
 
