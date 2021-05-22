@@ -7,7 +7,7 @@
 
 `git daemon --export-all {{path/to/directory1}} {{path/to/directory2}}`
 
-- Git daemon with a base directory and allow pulling from all directories that look like Git repos:
+- Launch a Git daemon with a base directory and allow pulling from all directories that look like Git repos:
 
 `git daemon --base-path={{path/to/directory}} --export-all --reuseaddr`
 
