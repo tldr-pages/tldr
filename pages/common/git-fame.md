@@ -23,6 +23,14 @@
 
 `git fame --bytype`
 
-- Do not display progress bar:
+- Ignore whitespace changes:
 
-`git fame --silent-progress`
+`git fame --ignore-whitespace`
+
+- Detect inter-file line moves and copies:
+
+`git fame -C`
+
+- Detect intra-file line moves and copies:
+
+`git fame -M`
