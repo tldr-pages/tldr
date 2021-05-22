@@ -11,6 +11,6 @@
 
 `javadoc -docencoding {{UTF-8}} {{path/to/java_source_code}}`
 
-- 生成文档（不包括某些软件包）：
+- 生成文档时，排除掉某些软件包：
 
 `javadoc -exclude {{package_list}} {{path/to/java_source_code}}`
