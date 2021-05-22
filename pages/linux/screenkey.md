@@ -25,7 +25,7 @@
 
 - Change the appearance of screenkey:
 
-`screenkey --bg-color "{{#353535}}" --font {{Hack}} --font-color {{yellow}} --opacity {{0.8}}`
+`screenkey --bg-color "{{#a1b2c3}}" --font {{Hack}} --font-color {{yellow}} --opacity {{0.8}}`
 
 - Drag and select a window on screen to display screenkey:
 
