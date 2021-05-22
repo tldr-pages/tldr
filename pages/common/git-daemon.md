@@ -3,7 +3,7 @@
 > A really simple server for Git repositories.
 > More information: <https://git-scm.com/docs/git-daemon>.
 
-- Git daemon with a whitelisted set of directories:
+- Launch a Git daemon with a whitelisted set of directories:
 
 `git daemon --export-all {{path/to/directory1}} {{path/to/directory2}}`
 
