@@ -8,6 +8,6 @@
 
 `git fork {{https://github.com/tldr-pages/tldr}}`
 
-- Fork and clone a specific GitHub repository, using its short name:
+- Fork and clone a specific GitHub repository by its 'slug':
 
 `git fork {{tldr-pages/tldr}}`
