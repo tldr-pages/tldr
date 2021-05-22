@@ -17,7 +17,7 @@
 
 - Display contributions in the specified format:
 
-`git fame --format {{pipe|yaml|yml|json|csv|tsv}}`
+`git fame --format {{pipe|yaml|json|csv|tsv}}`
 
 - Display contributions per file extension:
 
