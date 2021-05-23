@@ -1,7 +1,7 @@
 # input
 
 > 将事件代码或触摸屏手势发送到 Android 设备。
-> 此命令只能通过`adb shell`使用。
+> 此命令只能通过 `adb shell` 使用。
 > 更多信息见：<https://developer.android.com/reference/android/view/KeyEvent.html#constants_1>.
 
 - 将单个字符的事件代码发送到 Android 设备：
