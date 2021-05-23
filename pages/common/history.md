@@ -7,9 +7,9 @@
 
 `history`
 
-- Run the n-th command of the history list:
+- Run the Nth command of the history list:
 
-`!{{n}}`
+`!{{N}}`
 
 - Run the most recent command of the history list containing the specified string:
 
