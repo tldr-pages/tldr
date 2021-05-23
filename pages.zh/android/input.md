@@ -8,7 +8,7 @@
 
 `input keyevent {{event_code}}`
 
-- 将文本发送到Android设备（`%s`代表空格）：
+- 将文本发送到Android设备（`%s` 代表空格）：
 
 `input text "{{text}}"`
 
