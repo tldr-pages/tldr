@@ -11,6 +11,6 @@
 
 `git daemon --base-path={{path/to/directory}} --export-all --reuseaddr`
 
-- Git daemon with a base directory with allowed push access and verbosity:
+- Launch a Git daemon with a base directory with allowed push access and verbosity:
 
 `git daemon --base-path={{path/to/directory}} --export-all --enable=receive-pack --reuseaddr --informative-errors --verbose`
