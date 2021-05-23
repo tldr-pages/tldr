@@ -11,6 +11,6 @@
 
 `git extras --help`
 
-- Print version of installed `git-extras`:
+- Print the version of installed `git-extras`:
 
 `git extras --version`
