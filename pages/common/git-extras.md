@@ -7,7 +7,7 @@
 
 `git extras update`
 
-- Display help and commands for `git-extras`:
+- Display help and subcommands:
 
 `git extras --help`
 
