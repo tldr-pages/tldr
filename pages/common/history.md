@@ -7,6 +7,10 @@
 
 `history`
 
+- Run the n-th command of the history list
+
+`!{{n}}`
+
 - Display the last 20 commands:
 
 `history {{20}}`
