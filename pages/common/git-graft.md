@@ -6,4 +6,4 @@
 
 - Merge all commits not present on the target branch from the source branch, and delete the source branch:
 
-`git graft {{source_branch}} {{destination_branch}}`
+`git graft {{source_branch}} {{target_branch}}`
