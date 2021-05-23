@@ -27,6 +27,6 @@
 
 `getprop {{ro.oem_unlock_supported}}`
 
-- 显示 Android WiFi卡的 MAC地址：
+- 显示 Android WiFi 卡的 MAC 地址：
 
 `getprop {{ro.boot.wifimacaddr}}`
