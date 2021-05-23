@@ -1,0 +1,16 @@
+# logcat
+
+> 转储系统消息日志。
+> 更多信息见：https://developer.android.com/studio/command-line/logcat>.
+
+- 显示系统日志：
+
+`logcat`
+
+- 将系统日志写入文件：
+
+`logcat -f {{path/to/file}}`
+
+- 显示与正则表达式匹配的行：
+
+`logcat --regex {{regular_expression}}`
