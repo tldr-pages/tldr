@@ -4,7 +4,7 @@
 > 通常用于控制源代码中可执行文件的编译。
 > 更多信息见：<https://www.gnu.org/software/make/manual/make.html>.
 
-- 调用 Makefile 中指定的第一个目标（通常命名为 “all”）：
+- 调用 Makefile 中指定的第一个目标（通常命名为 "all"）：
 
 `make`
 
