@@ -11,6 +11,10 @@
 
 `!{{n}}`
 
+- Run the most recent command of the history list containing the specified string
+
+`!?{{string}}?`
+
 - Display the last 20 commands:
 
 `history {{20}}`
