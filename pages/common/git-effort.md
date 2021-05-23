@@ -22,7 +22,7 @@
 
 - Display only the specified files or directories, showing commits and active days:
 
-`git effort {{path/to/file_or_directory1 path/to/file_or/directory2 ...}}`
+`git effort {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
 - Display all files in a specific directory, showing commits and active days:
 
