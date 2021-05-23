@@ -8,7 +8,7 @@
 
 `git effort`
 
-- Display files modified by specific number of commits or more, showing commits and active days:
+- Display files modified by a specific number of commits or more, showing commits and active days:
 
 `git effort --above {{5}}`
 
