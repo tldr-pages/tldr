@@ -1,6 +1,6 @@
 # git extras
 
-> Set of commands for Git.
+> Git extension pack.
 > More information: <https://github.com/tj/git-extras>.
 
 - Download and/or upgrade `git-extras` commands:
