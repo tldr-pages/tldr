@@ -12,7 +12,7 @@
 
 `dumpsys {{service}}`
 
-- 列出 `dumpsys`可以提供的所有服务信息：
+- 列出 `dumpsys` 可以提供的所有服务信息：
 
 `dumpsys -l`
 
