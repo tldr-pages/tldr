@@ -7,11 +7,11 @@
 
 `history`
 
-- Run the n-th command of the history list
+- Run the n-th command of the history list:
 
 `!{{n}}`
 
-- Run the most recent command of the history list containing the specified string
+- Run the most recent command of the history list containing the specified string:
 
 `!?{{string}}?`
 
