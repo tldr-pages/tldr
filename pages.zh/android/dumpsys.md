@@ -24,6 +24,6 @@
 
 `dumpsys --skip {{service}}`
 
-- 指定超时时间，以秒为单位（默认为10s）：
+- 指定超时时间，以秒为单位（默认为 10s）：
 
 `dumpsys -t {{seconds}}`
