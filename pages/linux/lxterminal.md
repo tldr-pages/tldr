@@ -3,7 +3,7 @@
 > Terminal emulator for LXDE.
 > More information: <https://wiki.lxde.org/en/LXTerminal>.
 
-- Open an lxterminal window:
+- Open an LXTerminal window:
 
 `lxterminal`
 
