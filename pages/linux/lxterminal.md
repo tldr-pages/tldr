@@ -15,7 +15,7 @@
 
 `lxterminal --tabs={{tab_name1,tab_name2...}}`
 
-- Open a lxterminal window with a specific title:
+- Open an lxterminal window with a specific title:
 
 `lxterminal --title={{title_name}}`
 
