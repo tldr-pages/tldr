@@ -13,7 +13,7 @@
 
 - Open an lxterminal window with multiple tabs:
 
-`lxterminal --tabs={{tab_name1,tab_name2...}}`
+`lxterminal --tabs={{tab_name1,tab_name2,...}}`
 
 - Open an lxterminal window with a specific title:
 
