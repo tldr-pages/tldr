@@ -7,18 +7,18 @@
 
 `mongoimport --file={{path/to/file.json}} --uri={{mongodb_uri}} --collection={{collection_name}}`
 
-- Import a CSV file using the first line of the file to determine property names:
+- Import a CSV file, using the first line of the file to determine field names:
 
 `mongoimport --type={{csv}} --file={{path/to/file.csv}} --db={{database_name}} --collection={{collection_name}}`
 
-- Import a JSON array using each element as a MongoDB document:
+- Import a JSON array using each element as a separate document:
 
 `mongoimport --jsonArray --file={{path/to/file.json}}`
 
-- Import a JSON file using a specific mode and a query to match already existing documents:
+- Import a JSON file using a specific mode and a query to match existing documents:
 
 `mongoimport --file={{path/to/file.json}} --mode={{delete|merge|upsert}} --upsertFields="{{field1,field2,...}}"`
 
-- Import a CSV using a file with field names for the columns and ignoring fields with empty values:
+- Import a CSV file, reading field names from a separate CSV file, ignoring fields with empty values:
 
 `mongoimport --type={{csv}} --file={{path/to/file.csv}} --fieldFile={{path/to/field_file.csv}} --ignoreBlanks`
