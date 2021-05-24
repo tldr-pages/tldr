@@ -1,7 +1,7 @@
 # git delete-branch
 
 > Delete local and remote Git branches.
-> Part of `git-extras`. You will get errors if you are checked out on a branch you are deleting.
+> Part of `git-extras`. When deleting a checked out branch, only the remote branch will be deleted.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-delete-branch>.
 
 - Delete a local and remote Git branch:
