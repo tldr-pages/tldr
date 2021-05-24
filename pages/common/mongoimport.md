@@ -11,7 +11,7 @@
 
 `mongoimport --type={{csv}} --file={{path/to/file.csv}} --db={{database_name}} --collection={{collection_name}}`
 
-- Import a JSON array using each element as a separate document:
+- Import a JSON array, using each element as a separate document:
 
 `mongoimport --jsonArray --file={{path/to/file.json}}`
 
@@ -19,7 +19,7 @@
 
 `mongoimport --file={{path/to/file.json}} --mode={{delete|merge|upsert}} --upsertFields="{{field1,field2,...}}"`
 
-- Import a CSV file, reading field names from a separate CSV file, ignoring fields with empty values:
+- Import a CSV file, reading field names from a separate CSV file and ignoring fields with empty values:
 
 `mongoimport --type={{csv}} --file={{path/to/file.csv}} --fieldFile={{path/to/field_file.csv}} --ignoreBlanks`
 
