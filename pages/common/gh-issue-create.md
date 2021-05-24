@@ -19,7 +19,7 @@
 
 `gh issue create --title "{{title}}" --body "{{body}}" --assignee "{{@me}}"`
 
-- Create a new issue reading the body text from a file:
+- Create a new issue interactively reading the body text from a file:
 
 `gh issue create --body-file {{path/to/file}}`
 
