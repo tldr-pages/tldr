@@ -7,9 +7,9 @@
 
 `fileicon set foo img.png`
 
-- Remove previously assigned custom icon from folder 'foodir':
+- Remove a custom icon from a specific file or directory:
 
-`fileicon rm foodir`
+`fileicon rm {{path/to/file_or_directory}}`
 
 - Extract custom icon from file 'foo' to icon file 'foo.icns':
 
