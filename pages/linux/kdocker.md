@@ -15,7 +15,7 @@
 
 `kdocker -f`
 
-- Click on a window and send it to system tray with custom icon:
+- Display a cursor to send a window to system tray with a custom icon when pressing the left mouse button
 
 `kdocker -i {{/path/to/icon}}`
 
