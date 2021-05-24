@@ -15,6 +15,6 @@
 
 `fileicon get foo`
 
-- Test if folder 'foodir' has custom icon:
+- Test if a specific file or directory has a custom icon:
 
-`fileicon test foodir`
+`fileicon test {{path/to/file_or_directory}}`
