@@ -22,3 +22,7 @@
 - Import a CSV file, reading field names from a separate CSV file, ignoring fields with empty values:
 
 `mongoimport --type={{csv}} --file={{path/to/file.csv}} --fieldFile={{path/to/field_file.csv}} --ignoreBlanks`
+
+- Display help:
+
+`mongoimport --help`
