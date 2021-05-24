@@ -18,3 +18,7 @@
 - Empty the file's content:
 
 `truncate -s 0 {{filename}}`
+
+- Empty the file's content, but do not create the file if it does not exist:
+
+`truncate -c -s 0 {{filename}}`
