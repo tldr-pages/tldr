@@ -1,6 +1,6 @@
 # gh issue
 
-> Create issues in GitHub from the command-line.
+> Create GitHub issues on a repository from the command-line.
 > More information: <https://cli.github.com/manual/gh_issue_create>.
 
 - Create a new issue for the current repository interactively:
