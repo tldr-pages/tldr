@@ -3,7 +3,7 @@
 > Easily dock applications to system tray.
 > More information: <https://github.com/user-none/KDocker>.
 
-- Click on a window and send it to system tray:
+- Display a cursor to send a window to system tray when pressing the left mouse button (press any other mouse button to cancel):
 
 `kdocker`
 
