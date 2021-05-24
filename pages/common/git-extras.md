@@ -3,7 +3,7 @@
 > Git extension pack.
 > More information: <https://github.com/tj/git-extras>.
 
-- Download and/or upgrade `git-extras` commands:
+- Install or upgrade `git-extras` commands:
 
 `git extras update`
 
