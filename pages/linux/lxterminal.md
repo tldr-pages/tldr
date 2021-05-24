@@ -19,6 +19,6 @@
 
 `lxterminal --title={{title_name}}`
 
-- Open a lxterminal window with a specific working directory:
+- Open an lxterminal window with a specific working directory:
 
 `lxterminal --working-directory={{/path/to/directory}}`
