@@ -7,7 +7,7 @@
 
 `lxterminal`
 
-- Open a lxterminal window, run a command and exit:
+- Open an lxterminal window, run a command and exit:
 
 `lxterminal -e "{{command}}"`
 
