@@ -10,4 +10,4 @@
 
 - Delete multiple local and remote Git branches:
 
-`git delete-branch {{branch_name branch_name ...}}`
+`git delete-branch {{branch_name1 branch_name2 ...}}`
