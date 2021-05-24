@@ -11,7 +11,7 @@
 
 `kdocker {{application}}`
 
-- Send focused windows to system tray:
+- Send focused window to system tray:
 
 `kdocker -f`
 
