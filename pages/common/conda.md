@@ -5,7 +5,7 @@
 
 - Create a new environment, installing named packages into it:
 
-`conda create --name {{environment_name}} {{python=2.7 matplotlib}}`
+`conda create --name {{environment_name}} {{python=3.7 matplotlib}}`
 
 - List all environments:
 
@@ -13,7 +13,7 @@
 
 - Load or unload an environment:
 
-`conda {{activate|deactivate}} {{environment_name}}`
+`conda {{activate environment_name|deactivate}}`
 
 - Delete an environment (remove all packages):
 
