@@ -5,12 +5,12 @@
 
 - Output a bitcode file as LLVM IR to standard output:
 
-`llvm-dis {{input.bc}} -o -`
+`llvm-dis {{path/to/input.bc}} -o -`
 
 - Convert a bitcode file to LLVM IR with the same filename:
 
-`llvm-dis {{file.bc}}`
+`llvm-dis {{path/to/file.bc}}`
 
 - Convert a bitcode file to LLVM IR:
 
-`llvm-dis {{input.bc}} -o {{output.ll}}`
+`llvm-dis {{path/to/input.bc}} -o {{path/to/output.ll}}`
