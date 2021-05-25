@@ -7,7 +7,7 @@
 
 `kdocker`
 
-- Open an application and send it to system tray:
+- Open an application and send it to the system tray:
 
 `kdocker {{application}}`
 
