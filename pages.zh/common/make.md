@@ -10,24 +10,24 @@
 
 - 调用指定目标：
 
-`make {{target}}`
+`make {{目标}}`
 
 - 调用一个指定的目标，一次并行执行4个作业：
 
-`make -j{{4}} {{target}}`
+`make -j{{4}} {{目标}}`
 
 - 使用指定的 Makefile 文件：
 
-`make --file {{file}}`
+`make --file {{文件}}`
 
 - 从另一个目录执行 make ：
 
-`make --directory {{directory}}`
+`make --directory {{文件夹}}`
 
 - 即使源文件未更改，也强制执行目标：
 
-`make --always-make {{target}}`
+`make --always-make {{目标}}`
 
 - 覆盖在 Makefile 中定义的环境变量：
 
-`make --environment-overrides {{target}}`
+`make --environment-overrides {{目标}}`
