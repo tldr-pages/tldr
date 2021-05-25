@@ -1,6 +1,6 @@
 # git annex
 
-> Manage files with git, without checking their contents in.
+> Manage files with Git, without checking their contents in.
 > When a file is annexed, its content is moved into a key-value store, and a symlink is made that points to the content.
 > More information: <https://git-annex.branchable.com>.
 
@@ -8,7 +8,7 @@
 
 `git annex help`
 
-- Initialize a repo with git annex:
+- Initialize a repo with Git annex:
 
 `git annex init`
 

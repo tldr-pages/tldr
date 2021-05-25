@@ -1,6 +1,7 @@
 # comm
 
 > Select or reject lines common to two files. Both files must be sorted.
+> More information: <https://www.gnu.org/software/coreutils/comm>.
 
 - Produce three tab-separated columns: lines only in first file, lines only in second file and common lines:
 
@@ -10,7 +11,7 @@
 
 `comm -12 {{file1}} {{file2}}`
 
-- Print only lines common to both files, reading one file from `stdin`:
+- Print only lines common to both files, reading one file from stdin:
 
 `cat {{file1}} | comm -12 - {{file2}}`
 

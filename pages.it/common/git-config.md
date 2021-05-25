@@ -1,6 +1,6 @@
 # git config
 
-> Configura le impostazioni di uno o piu repository git.
+> Configura le impostazioni di uno o piu repository Git.
 > Le configurazioni possono essere sia locali (per il repository corrente) che globali (per l'utente corrente).
 > Maggiori informazioni: <https://git-scm.com/docs/git-config>.
 

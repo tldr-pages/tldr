@@ -1,6 +1,6 @@
 # twm
 
-> A window manager for the X Window sytem.
+> A window manager for the X Window system.
 > More information: <https://gitlab.freedesktop.org/xorg/app/twm>.
 
 - Connect to the default X server:

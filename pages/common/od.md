@@ -2,6 +2,7 @@
 
 > Display file contents in octal, decimal or hexadecimal format.
 > Optionally display the byte offsets and/or printable representation for each line.
+> More information: <https://www.gnu.org/software/coreutils/od>.
 
 - Display file using default settings: octal format, 8 bytes per line, byte offsets in octal, and duplicate lines replaced with `*`:
 

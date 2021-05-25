@@ -1,6 +1,7 @@
 # pacman
 
 > Arch Linux 的软件包管理器工具。
+> 更多信息: <https://man.archlinux.org/man/pacman.8>.
 
 - 同步并更新所有软件包：
 

@@ -3,11 +3,11 @@
 > Run Windows programs on Unix.
 > More information: <https://wiki.winehq.org/>.
 
-- Run ipconfig.exe program:
+- Run `ipconfig.exe` program:
 
 `wine {{ipconfig}} {{/all}}`
 
-- Run cmd.exe in background:
+- Run `cmd.exe` in background:
 
 `wine start {{cmd}}`
 

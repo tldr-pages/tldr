@@ -1,35 +1,32 @@
 # netstat
 
 > Displays network-related information such as open connections, open socket ports, etc.
+> More information: <https://man7.org/linux/man-pages/man8/netstat.8.html>.
 
 - List all ports:
 
-`netstat -a`
+`netstat --all`
 
 - List all listening ports:
 
-`netstat -l`
+`netstat --listening`
 
 - List listening TCP ports:
 
-`netstat -t`
+`netstat --tcp`
 
 - Display PID and program names:
 
-`netstat -p`
+`netstat --program`
 
 - List information continuously:
 
-`netstat -c`
+`netstat --continuous`
 
-- List routes and do not resolve IP to hostname:
+- List routes and do not resolve IP addresses to hostnames:
 
-`netstat -rn`
+`netstat --route --numeric`
 
 - List listening TCP and UDP ports (+ user and process if you're root):
 
-`netstat -lepunt`
-
-- Print the routing table:
-
-`netstat -nr`
+`netstat --listening --program --numeric --tcp --udp --extend`

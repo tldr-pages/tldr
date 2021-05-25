@@ -7,7 +7,7 @@
 
 `apktool d {{file.apk}}`
 
-- Build a folder into an APK file:
+- Build an APK file from a directory:
 
 `apktool b {{path/to/directory}}`
 

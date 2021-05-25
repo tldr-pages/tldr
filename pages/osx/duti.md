@@ -6,7 +6,7 @@
 
 `duti -s {{com.apple.Safari}} {{public.html}} all`
 
-- Set VLC as the default viewer for files with .m4v extensions:
+- Set VLC as the default viewer for files with `.m4v` extensions:
 
 `duti -s {{org.videolan.vlc}} {{m4v}} viewer`
 

@@ -16,7 +16,11 @@
 
 `pipenv install {{package_name}}`
 
-- Install all the dependencies for a project (including dev):
+- Install all the dependencies for a project:
+
+`pipenv install`
+
+- Install all the dependencies for a project (including dev packages):
 
 `pipenv install --dev`
 
@@ -28,6 +32,6 @@
 
 `pipenv shell`
 
-- Generate a requirements.txt for a project:
+- Generate a `requirements.txt` (list of dependencies) for a project:
 
 `pipenv lock --requirements`

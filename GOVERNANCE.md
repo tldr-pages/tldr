@@ -27,6 +27,9 @@ Community members are asked to abide by the following principles:
    Remember, it's very hard to convey meaning on a purely written medium,
    especially between people from different cultures, technical backgrounds,
    English proficiency levels, etc.
+   Use inclusive language whenever possible and reasonable — for example,
+   [avoid assuming gender](https://en.wikipedia.org/wiki/Singular_they), and
+   refrain from racially or ethnically charged terms.
 
 3. **All communications are public**.
    There are no permanent private channels

@@ -1,7 +1,7 @@
 # service
 
 > Manage services by running init scripts.
-> The full script path should be omitted (/etc/init.d/ is assumed).
+> The full script path should be omitted (`/etc/init.d/` is assumed).
 
 - List the name and status of all services:
 

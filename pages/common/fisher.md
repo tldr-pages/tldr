@@ -20,14 +20,10 @@
 
 `fisher ls`
 
-- Show available plugins:
-
-`fisher ls-remote`
-
 - Update plugins:
 
-`fisher up`
+`fisher update`
 
 - Remove one or more plugins:
 
-`fisher rm {{plugin1}} {{plugin2}}`
+`fisher remove {{plugin1}} {{plugin2}}`

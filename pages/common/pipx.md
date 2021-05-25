@@ -15,6 +15,6 @@
 
 `pipx list`
 
-- Run an app in a temporary virtual environment with a pakage name different from the executable:
+- Run an app in a temporary virtual environment with a package name different from the executable:
 
 `pipx run --spec {{httpx-cli}} {{httpx}} {{http://www.github.com}}`

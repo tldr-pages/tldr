@@ -1,7 +1,7 @@
 # git
 
 > Sistem kontrol versi terdistribusi.
-> Informasi selengkapnya: <https://git-scm.com/>.
+> Informasi lebih lanjut: <https://git-scm.com/>.
 
 - Memeriksa versi Git:
 

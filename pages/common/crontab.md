@@ -2,6 +2,7 @@
 
 > Schedule cron jobs to run on a time interval for the current user.
 > Job definition format: "(min) (hour) (day_of_month) (month) (day_of_week) command_to_execute".
+> More information: <https://manned.org/crontab>.
 
 - Edit the crontab file for the current user:
 
@@ -10,6 +11,10 @@
 - Edit the crontab file for a specific user:
 
 `sudo crontab -e -u {{user}}`
+
+- Replace the current crontab with the contents of the given file:
+
+`crontab {{path/to/file}}`
 
 - View a list of existing cron jobs for current user:
 

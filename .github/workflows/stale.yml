@@ -22,7 +22,7 @@ jobs:
         days-before-close: 30
 
         # Issues or PRs with these labels will never be considered stale
-        exempt-pr-labels: up for grabs
+        exempt-pr-labels: stalebot ignore
 
         # Label to use when marking an issue or PR as stale
         stale-pr-label: waiting
@@ -36,5 +36,5 @@ jobs:
         close-pr-message: |
           Hi everyone.
           This thread is being closed as there was no response to the previous prompt.
-          However, please leave a comment whenever you're ready to resume,
-          so the thread can be reopened. Thanks again!
+          However, please leave a comment whenever you're ready to resume, so the thread can be reopened.
+          Thanks again!

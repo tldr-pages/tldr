@@ -1,6 +1,6 @@
 # git
 
-> Sistema de versionamento distribuído
+> Sistema de versionamento distribuído.
 > Mais informações: <https://git-scm.com>.
 
 - Verifique a versão do Git:
@@ -21,7 +21,7 @@
 
 - Execute um subcomando Git no caminho raíz de um repositório específico:
 
-`git -C {{caminho/para/o/repo}} {{subcomando}}`
+`git -C {{caminho/para/repo}} {{subcomando}}`
 
 - Execute um subcomando Git com uma dada configuração:
 

@@ -1,6 +1,7 @@
 # chsh
 
 > Promijeni korisnički login shell.
+> Više informacija: <https://manned.org/chsh>.
 
 - Promijeni shell:
 

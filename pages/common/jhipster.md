@@ -15,7 +15,7 @@
 
 `jhipster --skip-client`
 
-- Apply lastest JHipster updates to the project:
+- Apply latest JHipster updates to the project:
 
 `jhipster upgrade`
 

@@ -80,7 +80,7 @@ as a guideline for current and future maintainers.
   Be mindful of signs of fatigue (less enthusiastic responses, slower reactions),
   and relax review standards if necessary — minor issues can always be fixed later.
 
-- When merging PRs, use the **merge strategy that produces a clean git history**:
+- When merging PRs, use the **merge strategy that produces a clean Git history**:
   If there's a single commit in the PR,
   or if the multiple commits are not semantically independent changes,
   use the `Squash and merge` method.

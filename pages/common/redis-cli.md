@@ -15,6 +15,10 @@
 
 `redis-cli -h {{host}} -p {{port}}`
 
+- Connect to a remote server specifying an URI:
+
+`redis-cli -u {{uri}}`
+
 - Specify a password:
 
 `redis-cli -a {{password}}`
@@ -22,3 +26,7 @@
 - Execute Redis command:
 
 `redis-cli {{redis_command}}`
+
+- Connect to the local cluster:
+
+`redis-cli -c`

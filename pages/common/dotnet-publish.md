@@ -1,6 +1,6 @@
 # dotnet publish
 
-> Publish a .NET application and its dependencies to a folder for deployment to a hosting system.
+> Publish a .NET application and its dependencies to a directory for deployment to a hosting system.
 > More information: <https://docs.microsoft.com/dotnet/core/tools/dotnet-publish>.
 
 - Compile a .NET project in release mode:

@@ -2,9 +2,9 @@
 
 > Manajer paket JavaScript dan Node.js.
 > Mengelola proyek Node.js dan dependensi modulnya.
-> Informasi selengkapnya: <https://www.npmjs.com/>.
+> Informasi lebih lanjut: <https://www.npmjs.com/>.
 
-- Membuat file package.json secara interaktif:
+- Membuat file `package.json` secara interaktif:
 
 `npm init`
 
@@ -12,7 +12,7 @@
 
 `npm install`
 
-- Unduh versi tertentu dari sebuah paket dan menambahkan ke daftar dependensi di package.json:
+- Unduh versi tertentu dari sebuah paket dan menambahkan ke daftar dependensi di `package.json`:
 
 `npm install {{nama_modul}}@{{versi}}`
 
@@ -22,9 +22,9 @@
 
 - Unduh paket dan instal secara global:
 
-`npm install -g {{nama_modul}}`
+`npm install --global {{nama_modul}}`
 
-- Copot pemasangan paket dan hapus dari daftar dependensi di package.json:
+- Copot pemasangan paket dan hapus dari daftar dependensi di `package.json`:
 
 `npm uninstall {{nama_modul}}`
 
@@ -34,4 +34,4 @@
 
 - Buat daftar modul tingkat atas yang diinstal secara global:
 
-`npm list -g --depth={{0}}`
+`npm list --global --depth={{0}}`

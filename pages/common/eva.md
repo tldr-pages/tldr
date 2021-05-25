@@ -1,7 +1,7 @@
 # eva
 
 > Simple calculator REPL, similar to `bc`, with syntax highlighting and persistent history.
-> More information <https://github.com/NerdyPepper/eva>.
+> More information: <https://github.com/NerdyPepper/eva>.
 
 - Run the calculator in interactive mode:
 

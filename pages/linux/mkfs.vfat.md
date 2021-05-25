@@ -2,7 +2,7 @@
 
 > Creates an MS-DOS filesystem inside a partition.
 
-- Create a.vfat filesystem inside partition 1 on device b (`sdb1`):
+- Create a vfat filesystem inside partition 1 on device b (`sdb1`):
 
 `mkfs.vfat {{/dev/sdb1}}`
 

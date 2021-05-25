@@ -1,6 +1,7 @@
 # netstat
 
 > 显示与网络相关的信息，如打开的连接、打开的套接字端口等.
+> 更多信息: <https://www.unix.com/man-page/osx/1/netstat>.
 
 - 列出所有端口:
 

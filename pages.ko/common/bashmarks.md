@@ -1,7 +1,7 @@
 # bashmarks
 
 > 하나의 문자 명령을 사용하여 일반적으로 사용되는 디렉토리를 저장하고 점프하십시오.
-> 더 많은 정보는: <https://github.com/huyng/bashmarks>.
+> 더 많은 정보: <https://github.com/huyng/bashmarks>.
 
 - 사용 가능한 북마크 나열:
 

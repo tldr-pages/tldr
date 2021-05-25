@@ -8,7 +8,7 @@
 
 - Show status of a particular job:
 
-`jobs {{job_id}}`
+`jobs %{{job_id}}`
 
 - Show status and process IDs of all jobs:
 

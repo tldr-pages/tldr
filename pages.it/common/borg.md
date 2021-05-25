@@ -16,7 +16,7 @@
 
 `borg list {{/percorso/a/repo_o_directory}}`
 
-- Estrai una specifica directory dall'archivio "Lunedi" in una repository remota, escludendo tutti i file .ext:
+- Estrai una specifica directory dall'archivio "Lunedi" in una repository remota, escludendo tutti i file `.ext`:
 
 `borg extract {{utente}}@{{host}}:{{/percorso/a/repo_o_directory}}::{{Lunedi}} {{percorso/a/cartella_destinazione}} --exclude '{{*.ext}}'`
 

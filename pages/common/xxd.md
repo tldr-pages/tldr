@@ -10,6 +10,10 @@
 
 `xxd {{input_file}} {{output_file}}`
 
+- Display a more compact output, replacing consecutive zeros (if any) with a star:
+
+`xxd -a {{input_file}}`
+
 - Display the output with 10 columns of one octet (byte) each:
 
 `xxd -c {{10}} {{input_file}}`

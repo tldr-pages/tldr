@@ -1,6 +1,6 @@
 # hub
 
-> A wrapper for git that adds commands for working with GitHub-based projects.
+> A wrapper for Git that adds commands for working with GitHub-based projects.
 > If set up as instructed by `hub alias`, one can use `git` to run `hub` commands.
 > More information: <https://hub.github.com>.
 
@@ -8,15 +8,15 @@
 
 `hub clone {{repo_name}}`
 
-- Clone another user's repository, using their github username and the repository name:
+- Clone another user's repository, using their GitHub username and the repository name:
 
 `hub clone {{username}}/{{repo_name}}`
 
-- Create a fork of the current repository (cloned from another user) under your github profile:
+- Create a fork of the current repository (cloned from another user) under your GitHub profile:
 
 `hub fork`
 
-- Push the current local branch to github and create a PR for it in the original repository:
+- Push the current local branch to GitHub and create a PR for it in the original repository:
 
 `hub push {{remote_name}} && hub pull-request`
 
@@ -28,6 +28,6 @@
 
 `hub pr checkout {{pr_number}}`
 
-- Upload the current (local-only) repository to your github account:
+- Upload the current (local-only) repository to your GitHub account:
 
 `hub create`

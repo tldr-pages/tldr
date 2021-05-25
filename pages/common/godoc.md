@@ -11,7 +11,7 @@
 
 `godoc {{fmt}} {{Printf}}`
 
-- Serve documentation as a web server on port "6060":
+- Serve documentation as a web server on port 6060:
 
 `godoc -http=:{{6060}}`
 

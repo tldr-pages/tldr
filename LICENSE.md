@@ -7,7 +7,7 @@ and [contributors](https://github.com/tldr-pages/tldr/graphs/contributors).
 
 ----
 
-The contents of the [scripts/](https://github.com/tldr-pages/tldr/tree/master/scripts) directory
+The contents of the [scripts/](https://github.com/tldr-pages/tldr/tree/main/scripts) directory
 are licensed under the MIT license:
 
 > **The MIT License**

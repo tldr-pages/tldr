@@ -1,6 +1,6 @@
 # git describe
 
-> Rendi il nome di un oggetto git più leggibile usando i riferimenti disponibili.
+> Rendi il nome di un oggetto Git più leggibile usando i riferimenti disponibili.
 > Maggiori informazioni: <https://git-scm.com/docs/git-describe>.
 
 - Crea un nome univoco per il commit corrente (il nome contiene i tag più recenti, il numero di commit aggiuntivi, e l'hash breve del commit):
@@ -15,7 +15,7 @@
 
 `git describe --all`
 
-- Descrivi un tag git:
+- Descrivi un tag Git:
 
 `git describe {{v1.0.0}}`
 

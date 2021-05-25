@@ -1,6 +1,7 @@
 # tac
 
 > Print and concatenate files in reverse (last line first).
+> More information: <https://www.gnu.org/software/coreutils/tac>.
 
 - Print the contents of *file1* reversed to the standard output:
 

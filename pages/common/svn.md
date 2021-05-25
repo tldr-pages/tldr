@@ -1,6 +1,6 @@
 # svn
 
-> Subversion command line client tool.
+> Subversion command-line client tool.
 > More information: <https://subversion.apache.org>.
 
 - Check out a working copy from a repository:
@@ -17,7 +17,7 @@
 
 - Send changes from your working copy to the repository:
 
-`svn ci -m {{commit log message}} [{{PATH}}]`
+`svn ci -m {{commit_log_message}} [{{PATH}}]`
 
 - Display changes from the last 10 revisions, showing modified files for each revision:
 

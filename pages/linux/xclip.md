@@ -11,7 +11,7 @@
 
 `echo 123 | xclip -selection {{primary|secondary|clipboard}}`
 
-- Copy the contents of a file to the system clipboard, using short notation:
+- Copy the output from a command to the system clipboard, using short notation:
 
 `echo 123 | xclip -sel clip`
 
@@ -23,6 +23,10 @@
 
 `xclip -sel clip -t image/png {{input_file.png}}`
 
+- Copy the user input in the console into the system clipboard:
+
+`xclip -i`
+
 - Paste the contents of the X11 primary selection area to the console:
 
 `xclip -o`
@@ -30,7 +34,3 @@
 - Paste the contents of the system clipboard to the console:
 
 `xclip -o -sel clip`
-
-- Paste the contents of the system clipboard into a file:
-
-`xclip -o -sel clip > {{output_file.txt}}`

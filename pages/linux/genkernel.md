@@ -18,6 +18,6 @@
 
 `sudo genkernel --kernname={{custom_name}} all`
 
-- Use a kernel source outside of the default directory /usr/src/linux:
+- Use a kernel source outside of the default directory `/usr/src/linux`:
 
 `sudo genkernel --kerneldir={{path/to/directory}} all`

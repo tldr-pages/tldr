@@ -6,11 +6,11 @@
 
 - Create a local Kubernetes cluster:
 
-`kind create cluster --name {{cluster-name}}`
+`kind create cluster --name {{cluster_name}}`
 
 - Delete one or more clusters:
 
-`kind delete clusters {{cluster-name}}`
+`kind delete clusters {{cluster_name}}`
 
 - Get details about clusters, nodes, or the kubeconfig:
 

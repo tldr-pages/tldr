@@ -17,4 +17,4 @@
 
 - Specify a stylesheet to use while converting a DocBook XML document:
 
-`xmlto -x {{stylesheet.xsl}} {{output-format}} {{document.xml}}`
+`xmlto -x {{stylesheet.xsl}} {{output_format}} {{document.xml}}`

@@ -2,9 +2,9 @@
 
 > The Friendly Interactive SHell.
 > Eine benutzerfreundliche Eingabeaufforderung.
-> Mehr Informationen: <https://fishshell.com>.
+> Weitere Informationen: <https://fishshell.com>.
 
-- Starte interaktive Eingabeaufforderung:
+- Starte eine interaktive Shell-Sitzung:
 
 `fish`
 
@@ -12,18 +12,22 @@
 
 `fish -c "{{befehl}}"`
 
-- Führe Befehle von Datei aus:
+- Führe ein Skript aus:
 
-`fish {{datei.fish}}`
+`fish {{pfad/zu/skript.fish}}`
 
-- Überprüfe eine Datei auf Syntax Fehler:
+- Überprüfe ein Skript auf Syntaxfehler:
 
-`fish --no-execute {{datei.fish}}`
+`fish --no-execute {{pfad/zu/skript.fish}}`
 
-- Zeige Informationen über derzeitige Version und schließe:
+- Starte eine private interaktive Shell-Sitzung, in der `fish` weder auf die Shell-History zugreift, noch diese verändert:
+
+`fish --private`
+
+- Gib die Version von fish aus:
 
 `fish --version`
 
-- Setze und exportiere Umgebungsvariabeln die nach einem Neustart weiter bestehen:
+- Setze und exportiere eine permanente Umgebungsvariable (nur innerhalb der Shell):
 
-`set -Ux {{variable_name}} {{variable_wert}}`
+`set -Ux {{variablenname}} {{variablenwert}}`

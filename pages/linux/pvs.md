@@ -1,7 +1,8 @@
 # pvs
 
-> Display information about LVM physical volumes.
-> More information: <https://www.man7.org/linux/man-pages/man8/pvs.8.html>.
+> Display information about physical volumes.
+> See also: `lvm`.
+> More information: <https://man7.org/linux/man-pages/man8/pvs.8.html>.
 
 - Display information about physical volumes:
 

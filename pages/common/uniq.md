@@ -2,6 +2,7 @@
 
 > Output the unique lines from the given input or file.
 > Since it does not detect repeated lines unless they are adjacent, we need to sort them first.
+> More information: <https://www.gnu.org/software/coreutils/uniq>.
 
 - Display each line once:
 

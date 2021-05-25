@@ -5,20 +5,28 @@
 
 - Clona un repositorio existente:
 
-`git clone {{ubicación_remota_del_repositorio}}`
+`git clone {{ubicacion_remota_del_repositorio}}`
+
+- Clona un repositorio existente en un directorio específico:
+
+`git clone {{ubicacion_remota_del_repositorio}} {{ruta/al/directorio}}`
 
 - Clona un repositorio existente y sus submódulos:
 
-`git clone --recursive {{ubicación_remota_del_repositorio}}`
+`git clone --recursive {{ubicacion_remota_del_repositorio}}`
 
 - Clona un repositorio local:
 
-`git clone -l {{ruta/del/repositorio/local}}`
+`git clone -l {{ruta/al/repositorio/local}}`
 
-- Clona silenciosamente (sin detalles del proceso de clonación):
+- Clona silenciosamente:
 
-`git clone -q {{ubicación_remota_del_repositorio}}`
+`git clone -q {{ubicacion_remota_del_repositorio}}`
 
-- Clona un repositorio existente a partir de los últimos 10 commits más reciente de la rama por defecto (útil para ahorrar tiempo):
+- Clona un repositorio existente solo descargando los 10 commits más recientes de la rama por defecto (útil para ahorrar tiempo):
 
-`git clone --depth {{10}} {{ubicación_remota_del_repositorio}}`
+`git clone --depth {{10}} {{ubicacion_remota_del_repositorio}}`
+
+- Clona un repositorio existente solo descargando un branch específico:
+
+`git clone --branch {{nombre}} --single-branch {{ubicacion_remota_del_repositorio}}`

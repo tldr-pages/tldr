@@ -4,7 +4,7 @@
 > All Yesod commands are invoked through the `stack` project manager.
 > More information: <https://github.com/yesodweb/yesod>.
 
-- Create a new scaffolded site, with sqlite as backend, in the "my-project" directory:
+- Create a new scaffolded site, with sqlite as backend, in the `my-project` directory:
 
 `stack new {{my-project}} {{yesod-sqlite}}`
 

@@ -1,7 +1,7 @@
 # brew cask
 
 > Gestore di pacchetti per applicazioni macOS distribuite sotto forma di file binari.
-> Più informazioni: <https://github.com/Homebrew/homebrew-cask>.
+> Maggiori informazioni: <https://github.com/Homebrew/homebrew-cask>.
 
 - Cerca formule e cask:
 

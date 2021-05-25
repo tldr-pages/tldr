@@ -17,4 +17,4 @@
 
 - Convert a C-style calculation:
 
-`bitwise  "{{0x123 + 0x20 - 30 / 50}}"`
+`bitwise "{{0x123 + 0x20 - 30 / 50}}"`

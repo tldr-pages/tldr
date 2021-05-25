@@ -23,6 +23,6 @@
 
 `code -d {{文件1}} {{文件2}}`
 
--  用超级用户 (sudo) 权限打开 VS Code:
+- 用超级用户 (sudo) 权限打开 VS Code:
 
 `sudo code {{路径/文件或目录}} --user-data-dir`

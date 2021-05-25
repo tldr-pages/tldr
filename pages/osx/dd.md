@@ -2,7 +2,7 @@
 
 > Convert and copy a file.
 
-- Make a bootable usb drive from an isohybrid file (such like archlinux-xxx.iso):
+- Make a bootable usb drive from an isohybrid file (such like `archlinux-xxx.iso`):
 
 `dd if={{file.iso}} of=/dev/{{usb_drive}}`
 

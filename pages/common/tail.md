@@ -1,6 +1,7 @@
 # tail
 
 > Display the last part of a file.
+> More information: <https://www.gnu.org/software/coreutils/tail>.
 
 - Show last 'num' lines in file:
 

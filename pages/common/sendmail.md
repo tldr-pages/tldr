@@ -1,8 +1,8 @@
 # sendmail
 
-> Send email from the command line.
+> Send email from the command-line.
 
-- Send a message with the content of message.txt to the mail directory of local user `username`:
+- Send a message with the content of `message.txt` to the mail directory of local user `username`:
 
 `sendmail {{username}} < {{message.txt}}`
 

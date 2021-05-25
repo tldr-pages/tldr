@@ -2,7 +2,7 @@
 
 > View the last logged in users.
 
-- View last logins, their duration and other information as read from /var/log/wtmp:
+- View last logins, their duration and other information as read from `/var/log/wtmp`:
 
 `last`
 

@@ -1,27 +1,27 @@
 # git remote
 
-> Verwalte die Menge an verfolgten Repositories (genannt "remotes").
-> Mehr Informationen: <https://git-scm.com/docs/git-remote>.
+> Verwalte eine gewisse Anzahl an Repositories (remotes).
+> Weitere Informationen: <https://git-scm.com/docs/git-remote>.
 
-- Liste die existierenden Remotes, ihre Namen und ihre URLs auf:
+- Liste alle existierenden Remotes, ihre Namen und ihre URLs auf:
 
 `git remote -v`
 
 - Zeige Informationen über ein Remote an:
 
-`git remote show {{name_des_remotes}}`
+`git remote show {{remote_name}}`
 
-- Füge ein Remote hinzu:
+- Füge ein neues Remote hinzu:
 
-`git remote add {{name_des_remotes}} {{url_des_remotes}}`
+`git remote add {{remote_name}} {{remote_url}}`
 
 - Ändere die URL eines Remotes (benutze `--add` um die existierende URL zu behalten):
 
-`git remote set-url {{name_des_remotes}} {{url_des_remotes}}`
+`git remote set-url {{remote_name}} {{remote_url}}`
 
 - Entferne ein Remote:
 
-`git remote remove {{name_des_remotes}}`
+`git remote remove {{remote_name}}`
 
 - Benenne ein Remote um:
 

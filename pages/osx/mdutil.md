@@ -10,6 +10,10 @@
 
 `mdutil -i {{on|off}} {{path/to/volume}}`
 
+- Turn on/off indexing for all volumes:
+
+`mdutil -a -i {{on|off}}`
+
 - Erase the metadata stores and restart the indexing process:
 
 `mdutil -E {{path/to/volume}}`

@@ -1,6 +1,7 @@
 # date
 
 > 시스템 날짜 설정 및 표시.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/date>.
 
 - 기본 로컬 형식을 사용하여 현재 날짜 표시:
 
@@ -8,7 +9,7 @@
 
 - 현재 날짜를 UTC 및 ISO 8601 형식으로 표시:
 
-`date -u +"%Y-%m-%dT%H:%M:%S%Z"`
+`date -u +"%Y-%m-%dT%H:%M:%SZ"`
 
 - 현재 날짜를 Unix 타임스탬프로 표시 (Unix epoch 이후 몇 초):
 

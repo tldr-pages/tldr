@@ -14,8 +14,8 @@
 [prs-merged-url]: https://github.com/tldr-pages/tldr/pulls?q=is:pr+is:merged
 [prs-merged-image]: https://img.shields.io/github/issues-pr-closed-raw/tldr-pages/tldr.svg?label=merged+PRs&color=green
 [contributors-url]: https://github.com/tldr-pages/tldr/graphs/contributors
-[contributors-image]: https://img.shields.io/github/contributors/tldr-pages/tldr.svg
-[license-url]: https://github.com/tldr-pages/tldr/blob/master/LICENSE.md
+[contributors-image]: https://img.shields.io/github/contributors-anon/tldr-pages/tldr.svg
+[license-url]: https://github.com/tldr-pages/tldr/blob/main/LICENSE.md
 [license-image]: https://img.shields.io/badge/license-CC_BY_4.0-blue.svg
 </div>
 
@@ -40,7 +40,7 @@ It certainly doesn't help that the first option explained in `man tar` is:
 There seems to be room for simpler help pages, focused on practical examples.
 How about:
 
-![screenshot of the tldr-node-client displaying the tldr page for the tar command](images/screenshot.png)
+![animated svg of the tldr client displaying the tar command](images/tldr.svg)
 
 This repository is just that: an ever-growing collection of examples
 for the most common UNIX, Linux, macOS, SunOS and Windows command-line tools.
@@ -56,8 +56,11 @@ which is supported by the tldr-pages project maintainers:
 That way you can write `tldr tar` in the terminal to show the tldr page for `tar`,
 just like you would write `man tar` to show its manpage.
 
+However, if you just want to browse without installing anything, check
+out the [PDF version](https://tldr.sh/assets/tldr-book.pdf).
+
 There are also various other clients provided by the community,
-both for the command line and for other platforms:
+both for the command-line and for other platforms:
 
 - Alfred Workflow
   - [tldr-alfred](https://github.com/cs1707/tldr-alfred)
@@ -66,8 +69,10 @@ both for the command line and for other platforms:
 - Android clients:
   - [tldroid](https://github.com/hidroh/tldroid), available on
     [Google Play](https://play.google.com/store/apps/details?id=io.github.hidroh.tldroid) *(outdated)*
+  - [tldr-flutter](https://github.com/Techno-Disaster/tldr-flutter), available on
+    [Google Play](https://play.google.com/store/apps/details?id=wtf.technodisaster.tldr) or [F-Droid](https://f-droid.org/packages/wtf.technodisaster.tldr/)
 - Bash clients:
-  - [tldr](https://github.com/raylee/tldr)
+  - [tldr-sh-client](https://github.com/raylee/tldr-sh-client)
   - [tldr-bash-client](https://gitlab.com/pepa65/tldr-bash-client)
 - [C# client](https://github.com/principis/tldr-sharp)
 - [C client](https://github.com/tldr-pages/tldr-c-client):
@@ -83,19 +88,20 @@ both for the command line and for other platforms:
 - [Discord Bot](https://github.com/sschr15/tldr-discord):
   [Follow the building instructions](https://github.com/sschr15/tldr-discord#building) or
   [use a privately hosted version](https://discord.com/api/oauth2/authorize?client_id=742800507210301520&permissions=18432&scope=bot)
+- [Discord Slash Command Bot](https://github.com/Epictek/tldr-Discord): use the [hosted instance](https://discord.com/api/oauth2/authorize?client_id=839254228736278579&permissions=0&scope=applications.commands%20bot) or view the [readme](https://github.com/Epictek/tldr-Discord#self-host-guide) for self hosting instructions.
 - Docker images:
     - [tldr-docker](https://github.com/nutellinoit/tldr-docker) - Run the `tldr` command via a docker container: `alias tldr='docker run --rm -it -v ~/.tldr/:/root/.tldr/ nutellinoit/tldr'`
 - Elixir clients:
-  - [ExTldr](https://github.com/ivanhercaz/extldr).
+  - [ExTldr](https://github.com/tldr-pages/extldr).
   - [TLDR Elixir Client](https://github.com/edgurgel/tldr_elixir_client)
   (binaries not yet available)
 - [Emacs client](https://github.com/kuanyui/tldr.el), available on
-  [MELPA](https://github.com/melpa/melpa)
+  [MELPA](https://melpa.org/#/tldr)
 - Go clients:
   - [github.com/pranavraja/tldr](https://github.com/pranavraja/tldr):
     `go get github.com/pranavraja/tldr`
     (or [platform binaries](https://github.com/pranavraja/tldr/releases))
-  - [4d63.com/tldr](https://4d63.com/tldr):
+  - [https://github.com/leighmcculloch/tldr](https://github.com/leighmcculloch/tldr):
     `go get 4d63.com/tldr` or `brew install 4d63/tldr/tldr`
     (or [platform binaries](https://github.com/leighmcculloch/tldr/releases))
   - [github.com/elecprog/tldr](https://github.com/elecprog/tldr):
@@ -104,6 +110,9 @@ both for the command line and for other platforms:
   - [github.com/isacikgoz/tldr](https://github.com/isacikgoz/tldr):
     `go get github.com/isacikgoz/tldr`
     (or [platform binaries](https://github.com/isacikgoz/tldr/releases))
+  - [github.com/HardDie/myTldr](https://github.com/HardDie/myTldr):
+    `go get github.com/HardDie/myTldr`
+    (or [platform binaries](https://github.com/HardDie/myTldr/releases)) (supports custom pages directories)
 - iOS clients:
   - [tldr-man-page](https://github.com/freesuraj/TLDR), available on
     [App Store](https://appsto.re/sg/IQ0-_.i)
@@ -115,10 +124,12 @@ both for the command line and for other platforms:
   or `apt-get install tldr` on Debian-based distributions
   - [fast-tldr](https://github.com/gutjuri/fast-tldr)
 - [Java client](https://github.com/seenukarthi/tldr-java-client)
+- [Keypirinha Plugin](https://github.com/ronan696/keypirinha-tldr)
 - [Node.js client](https://github.com/tldr-pages/tldr-node-client):
   `npm install -g tldr`
 - [OCaml client](https://github.com/RosalesJ/tldr-ocaml): `opam install tldr`
-- [Perl5 client](https://github.com/shoichikaji/perl-tldr):
+- [Outfieldr](https://gitlab.com/ve-nt/outfieldr): A Zig client
+- [Perl5 client](https://github.com/skaji/perl-tldr):
   `cpanm App::tldr`
 - [PHP client](https://github.com/BrainMaestro/tldr-php):
   `composer global require brainmaestro/tldr`
@@ -132,13 +143,15 @@ both for the command line and for other platforms:
 - [Ruby client](https://github.com/YellowApple/tldrb):
   `gem install tldrb`
 - [Rust client](https://github.com/dbrgn/tealdeer):
-  `cargo install tealdeer`
+  `cargo install tealdeer` or `brew install tealdeer`
 - [Vim Client](https://github.com/wlemuel/vim-tldr)
 - [Visual Studio Code extension](https://github.com/bmuskalla/vscode-tldr) available on [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=bmuskalla.vscode-tldr)
 - Web clients:
-    - [tldr.jsx](https://github.com/ostera/tldr.jsx): http://tldr.ostera.io/
+    - [tldr.dendron.so](https://github.com/kevinslin/seed-tldr): https://tldr.dendron.so
+    - [tldr.jsx](https://github.com/ostera/tldr.jsx): http://tldr.ostera.io
+    - [tldr.finzzz.net](https://git.finzzz.net/tldr/): https://tldr.finzzz.net
     - [DistroWatch](https://distrowatch.com/dwres.php?resource=man-pages)
-    - [tldr.ooops.me](https://tldr.ooops.me): web client with multilingual support
+    - [TLDR Persian](https://opoet7.github.io/tldr-persian/): Web Client in Persian
 
 There is also a comprehensive
 [list of clients in our Wiki](https://github.com/tldr-pages/tldr/wiki/tldr-pages-clients).
@@ -148,12 +161,15 @@ There is also a comprehensive
 - Your favourite command isn't covered?
 - You can think of more examples for an existing command?
 
-All `tldr` pages are kept as markdown files right here in this repository,
+All `tldr` pages are kept as Markdown files right here in this repository,
 so you can edit them directly and submit your changes as pull requests.
 
 All contributions are welcome!
 We strive to maintain a [welcoming and collaborative](GOVERNANCE.md) community.
 Have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!
+
+If you'd like to contribute to translations, you can visit <https://lukwebsforge.github.io/tldri18n/>
+to see the current progress of all translations.
 
 ## Similar projects
 
@@ -168,13 +184,18 @@ Have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!
   The examples are submitted by the user base, and can be voted up or down;
   the best entries are what people see first when they look up a command.
 
+- [kb](https://github.com/gnebbia/kb)
+  is a minimalist command-line knowledge base manager.
+  kb can be used to organize your notes and cheatsheets in a minimalist
+  and clean way. It supports also non-text files.
+
 - [eg](https://github.com/srsudar/eg)
-  provides detailed examples with explanations on the command line.
+  provides detailed examples with explanations on the command-line.
   Examples come from the repository, but `eg` supports displaying
   custom examples and commands alongside the defaults.
 
 - [devhints](https://devhints.io/)
-  Rico's cheatsheets are not just focused on the command line and
+  Rico's cheatsheets are not just focused on the command-line and
   include a plethora of other cheatsheets related to programming.
 
 ## What does "tldr" mean?
@@ -182,4 +203,4 @@ Have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!
 TL;DR stands for "Too Long; Didn't Read".
 It originates in Internet slang, where it is used to indicate that a long text
 (or parts of it) has been skipped as too lengthy.
-Read more in Wikipedia's [TL;DR essay](https://en.wikipedia.org/wiki/Wikipedia:Too_long;_didn%27t_read).
+Read more in How-To Geek's [article](https://www.howtogeek.com/435266/what-does-tldr-mean-and-how-do-you-use-it/).

@@ -21,3 +21,7 @@
 - Start telnet with "x" as the session termination character:
 
 `telnet -e {{x}} {{ip_address}} {{port}}`
+
+- Telnet to Star Wars animation:
+
+`telnet {{towel.blinkenlights.nl}}`

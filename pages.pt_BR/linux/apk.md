@@ -20,7 +20,7 @@
 
 - Procurar um pacote especificando alguma palavra-chave:
 
-`apk search {{palavra-chave}}`
+`apk search {{palavra_chave}}`
 
 - Exibir informações sobre um pacote:
 

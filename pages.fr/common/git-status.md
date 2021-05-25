@@ -1,21 +1,21 @@
 # git status
 
-> Afficher les changements aux fichier d'un dépôt Git.
-> Les fichiers changés, ajoutés et supprimés seront comparés au commit où se situe la tête.
-> Plus d'informations: <https://git-scm.com/docs/git-status>.
+> Affiche les changements sur les fichiers dans la branche courante.
+> Affiche les fichiers édités, déplacés, renommés, ajoutés, supprimés par rapport à la référence de la branche courante.
+> Plus d'informations : <https://git-scm.com/docs/git-status>.
 
-- Afficher les fichiers changés qui n'ont pas été ajouté dans le *stage*:
+- Affiche les fichiers modifiés qui n'ont pas encore été ajoutés pour le commit :
 
 `git status`
 
-- Afficher le résultat de façon conci[s]e:
+- Affiche les fichiers modifiés (version courte) :
 
 `git status -s`
 
-- Afficher seulement les changements de fichiers suivi:
+- Affiche les fichiers modifiés, sans tenir des comptes des fichiers non-suivis :
 
 `git status --untracked-files=no`
 
-- Montrer le résultat de façon conci[s]e avec de l'information sur la [b]ranche:
+- Affiche les fichiers modifiés (version courte) avec les informations de branche :
 
 `git status -sb`

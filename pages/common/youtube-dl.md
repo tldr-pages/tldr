@@ -33,4 +33,4 @@
 
 - Download a playlist and extract mp3 from it:
 
-`youtube-dl -i --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" '{{url to playlist}}'`
+`youtube-dl -f "bestaudio" --continue --no-overwrites --ignore-errors --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" {{url_to_playlist}}`

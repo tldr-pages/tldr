@@ -1,6 +1,6 @@
 # yank
 
-> Read input from `stdin` and display a selection interface that allows a field to be selected and copied to the clipboard.
+> Read input from stdin and display a selection interface that allows a field to be selected and copied to the clipboard.
 
 - Yank using the default delimiters (\f, \n, \r, \s, \t):
 

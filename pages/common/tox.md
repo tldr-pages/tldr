@@ -8,7 +8,7 @@
 
 `tox`
 
-- Create a tox.ini configuration:
+- Create a `tox.ini` configuration:
 
 `tox-quickstart`
 

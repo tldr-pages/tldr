@@ -1,7 +1,7 @@
 # bash
 
 > Bourne-Again SHell. `sh`-호환 명령 행 인터프리터.
-> 더 많은 정보는: <https://gnu.org/software/bash>.
+> 더 많은 정보: <https://gnu.org/software/bash>.
 
 - 대화식 쉘 시작:
 
@@ -23,7 +23,7 @@
 
 `bash -e {{file.sh}}`
 
-- `stdin`에서 명령 실행:
+- stdin에서 명령 실행:
 
 `bash -s`
 

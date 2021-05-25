@@ -7,11 +7,11 @@
 
 `cppclean {{path/to/project}}`
 
-- Run on a project where the headers are in the "inc1/" and "inc2/" directories:
+- Run on a project where the headers are in the `inc1/` and `inc2/` directories:
 
 `cppclean {{path/to/project}} --include-path={{inc1}} --include-path={{inc2}}`
 
-- Run on a specific file "main.cpp":
+- Run on a specific file `main.cpp`:
 
 `cppclean {{main.cpp}}`
 

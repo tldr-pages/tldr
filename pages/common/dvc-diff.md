@@ -7,7 +7,7 @@
 
 `dvc diff {{commit_hash/tag/branch}}`
 
-- Compare the changes in DVC tracked files from 1 git commit to another:
+- Compare the changes in DVC tracked files from 1 Git commit to another:
 
 `dvc diff {{revision_b}} {{revision_a}}`
 

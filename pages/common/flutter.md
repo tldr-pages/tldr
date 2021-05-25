@@ -29,4 +29,4 @@
 
 - Build a release APK targeting most modern smartphones:
 
-`flutter build apk --target-platform {{android-arm}} {{android-arm64}}`
+`flutter build apk --target-platform {{android-arm}},{{android-arm64}}`

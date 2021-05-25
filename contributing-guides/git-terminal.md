@@ -1,7 +1,7 @@
 Most people submit pull requests to the tldr-pages project
 [using GitHub's web interface][pr-howto].
 
-If you prefer, you can do most of the process using the command line instead.
+If you prefer, you can do most of the process using the command-line instead.
 The overall process should look somewhat like this:
 
 1. Fork the tldr-pages/tldr repository on the GitHub web interface.

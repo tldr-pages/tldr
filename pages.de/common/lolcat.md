@@ -1,20 +1,20 @@
 # lolcat
 
-> Ausgabe von Befehl in Regenbogenfarben einfärben.
-> Mehr Informationen: <https://github.com/busyloop/lolcat>.
+> Färbe Text in Regenbogenfarben ein.
+> Weitere Informationen: <https://github.com/busyloop/lolcat>.
 
-- Inhalt von Datei in Regenbogenfarben zur Konsole schreiben:
+- Gib den Inhalt einer Datei in Regenbogenfarben in der Konsole aus:
 
-`lolcat {{pfad/zur/datei}}`
+`lolcat {{pfad/zu/datei}}`
 
-- Ausgabe von Befehl in Regenbogenfarben zur Konsole schreiben:
+- Gib die Ausgabe eines Befehls in Regenbogenfarben in der Konsole aus:
 
 `{{fortune}} | lolcat`
 
-- Inhalt von Datei in animierten Regenbogenfarben zur Konsole schreiben:
+- Gib den Inhalt einer Datei in animierten Regenbogenfarben in der Konsole aus:
 
-`lolcat -a {{pfad/zur/datei}}`
+`lolcat -a {{pfad/zu/datei}}`
 
-- Inhalt von Datei in 24-bit (truecolor) Regenbogenfarben zur Konsole schreiben:
+- Gib den Inhalt einer Datei in 24-bit (truecolor) Regenbogenfarben in der Konsole aus:
 
-`lolcat -t {{pfad/zur/datei}`
+`lolcat -t {{pfad/zu/datei}}`

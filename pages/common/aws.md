@@ -4,11 +4,11 @@
 > Wizard, SSO, Resource Autocompletion, and YAML options are v2 only.
 > More information: <https://aws.amazon.com/cli>.
 
-- Configure the AWS Command Line:
+- Configure the AWS Command-line:
 
 `aws configure wizard`
 
-- Configure the AWS Command Line using SSO:
+- Configure the AWS Command-line using SSO:
 
 `aws configure sso`
 
@@ -30,7 +30,7 @@
 
 - Get an interactive wizard for an AWS resource:
 
-`aws dynamodb wizard {{new-table}}`
+`aws dynamodb wizard {{new_table}}`
 
 - Generate a JSON CLI Skeleton (useful for infrastructure as code):
 

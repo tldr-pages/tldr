@@ -2,14 +2,14 @@
 
 > Check the integrity of a filesystem or repair it. The filesystem should be unmounted at the time the command is run.
 
-- Check filesystem /dev/sda, reporting any damaged blocks:
+- Check filesystem `/dev/sdX`, reporting any damaged blocks:
 
-`fsck {{/dev/sda}}`
+`fsck {{/dev/sdX}}`
 
-- Check filesystem /dev/sda, reporting any damaged blocks and interactively letting the user choose to repair each one:
+- Check filesystem `/dev/sdX`, reporting any damaged blocks and interactively letting the user choose to repair each one:
 
-`fsck -r {{/dev/sda}}`
+`fsck -r {{/dev/sdX}}`
 
-- Check filesystem /dev/sda, reporting any damaged blocks and automatically repairing them:
+- Check filesystem `/dev/sdX`, reporting any damaged blocks and automatically repairing them:
 
-`fsck -a {{/dev/sda}}`
+`fsck -a {{/dev/sdX}}`

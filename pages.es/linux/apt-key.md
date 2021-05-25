@@ -1,6 +1,7 @@
 # apt-key
 
 > Herramienta para la gestión de claves para el Gestor de Paquetes APT (APT Package Manager) en Debian y Ubuntu.
+> Más información: <https://manpages.debian.org/latest/apt/apt-key.8.html>.
 
 - Muestra las claves de confianza:
 
@@ -20,4 +21,4 @@
 
 - Añadir una clave de un servidor de claves con el identificador de la clave:
 
-`apt-key adv --keyserver {{pgp.mit.edu}} --recv {{id_clave}}
+`apt-key adv --keyserver {{pgp.mit.edu}} --recv {{id_clave}}`

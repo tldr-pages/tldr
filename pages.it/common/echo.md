@@ -1,6 +1,7 @@
 # echo
 
 > Stampa a schermo gli argomenti forniti.
+> Maggiori informazioni: <https://www.gnu.org/software/coreutils/echo>.
 
 - Stampa un messaggio di testo. Nota: le virgolette sono opzionali:
 

@@ -1,6 +1,7 @@
 # du
 
 > Utilizzo del disco: stima e riassumi lo spazio utilizzato da file e directory.
+> Maggiori informazioni: <https://www.gnu.org/software/coreutils/du>.
 
 - Elenca le dimensioni di una directory ed ogni sotto-directory, nell'unità specificata (B/KB/MB):
 
@@ -22,6 +23,6 @@
 
 `du -h --max-depth=N {{percorso/alla/directory}}`
 
-- Mostra le dimensioni umanamente leggibili di tutti i file .jpg nelle sottocartelle della cartella corrente, e mostra il totale cumulativo alla fine:
+- Mostra le dimensioni umanamente leggibili di tutti i file `.jpg` nelle sottocartelle della cartella corrente, e mostra il totale cumulativo alla fine:
 
 `du -ch */*.jpg`

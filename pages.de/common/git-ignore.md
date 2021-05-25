@@ -1,12 +1,12 @@
 # git ignore
 
-> Erstelle .gitignore Dateien aus vorgefertigten Vorlagen.
-> Mehr Informationen: <https://docs.gitignore.io/install/command-line>.
+> Erstelle `.gitignore` Dateien aus vorgefertigten Vorlagen.
+> Weitere Informationen: <https://docs.gitignore.io/install/command-line>.
 
-- Liste all verfügbaren Vorlagen auf:
+- Liste alle verfügbaren Vorlagen auf:
 
 `git ignore list`
 
-- Erstelle eine .gitignore Vorlage:
+- Erstelle eine `.gitignore` Vorlage:
 
 `git ignore {{eintrag_a,eintrag_b,eintrag_n}}`

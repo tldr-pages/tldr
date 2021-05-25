@@ -1,6 +1,6 @@
 # tldr-pages client specification
 
-**Current Specification Version:** 1.4
+**Current Specification Version:** 1.5
 
 This document contains the official specification for tldr-pages clients. It is _not_ a specification of the format of the pages themselves - only a specification of how a user should be able to interface with an official client. For a list of previous versions of the specification, see the [changelog section](#Changelog) below.
 
@@ -59,33 +59,24 @@ tldr -l
 
 The first argument that does not start with a dash (`-`), MUST be considered the page name.
 
-In addition, page names MAY contain spaces (e.g. `git status`) - such page names MUST be transparently concatenated with dashes (`-`). For example, the page name:
+Page names MAY contain spaces (e.g. `git status`), and such page names MUST be transparently concatenated with dashes (`-`). For example, the page name `git checkout` becomes `git-checkout`.
 
-```
-git checkout
-```
-
-becomes this:
-
-```
-git-checkout
-```
+Page names MAY contain mixed capitalization, and such page names MUST be transparently lowercased. For example, the page name `eyeD3` becomes `eyed3`.
 
 Here are some example invocations:
 
 ```bash
 tldr 7za
-tldr eyeD3
-tldr git checkout
+tldr eyeD3  # equivalent to tldr eyed3
+tldr git checkout  # equivalent to tldr git-checkout
 tldr --platform osx bash
 ```
-
 
 ## Directory structure
 
 This section documents the directory structure that contains the pages themselves.
 
-The master version of every page is stored inside (but not directly) the `pages` directory. Inside this directory, there is a folder for each platform - for example `windows`, `linux`, and the special `common` platform:
+The main version of every page is stored inside (but not directly) the `pages` directory. Inside this directory, there is a folder for each platform - for example `windows`, `linux`, and the special `common` platform:
 
  - `pages/`
    - `common/`
@@ -107,7 +98,7 @@ Command name    | Mapped name     | Filename
 
 ### Translations
 
-Other directories sit alongside the main `pages` directory, and contain translations of the master versions of every page - though pages MAY NOT have a translation available for a given language yet. Furthermore, a given language MAY NOT have a folder yet either. The format of these directories is `pages.<locale>`, where `<locale>` is a [POSIX Locale Name](https://www.gnu.org/software/gettext/manual/html_node/Locale-Names.html#Locale-Names) in the form of `<language>_<country>`, where:
+Other directories sit alongside the main `pages` directory, and contain translations of the main versions of every page - though pages MAY NOT have a translation available for a given language yet. Furthermore, a given language MAY NOT have a folder yet either. The format of these directories is `pages.<locale>`, where `<locale>` is a [POSIX Locale Name](https://www.gnu.org/software/gettext/manual/html_node/Locale-Names.html#Locale-Names) in the form of `<language>_<country>`, where:
 
  - `<language>` is the shortest [ISO 639](https://en.wikipedia.org/wiki/ISO_639) language code for the chosen language (see [here](https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes) for a complete list).
  - `<country>` is the two-letter [ISO 3166-1](https://en.wikipedia.org/wiki/ISO_3166-1) country code for the chosen region (see [here](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) for a complete list).
@@ -130,7 +121,7 @@ Although this specification is about the interface that clients must provide, it
 
 This section defines the algorithm by which a client can decide which page a user has requested.
 
-After transparently replacing spaces (` `) with dashes (`-`), clients have several decisions to make:
+After transparently replacing spaces (` `) with dashes (`-`) and lowercasing the name, clients have several decisions to make:
 
  - The language of a page to display to a client
  - The platform to display a page from
@@ -164,7 +155,7 @@ If a page cannot be found in _any_ platform, then it is RECOMMENDED that clients
 https://github.com/tldr-pages/tldr/issues/new?title=page%20request:%20{command_name}
 ```
 
-where `{command_name}` is the name of the command that was not found. Clients that have control over their exit code on the command line (i.e. clients that provide a CLI) MUST exit with a non-zero exit code in addition to showing the above message.
+where `{command_name}` is the name of the command that was not found. Clients that have control over their exit code on the command-line (i.e. clients that provide a CLI) MUST exit with a non-zero exit code in addition to showing the above message.
 
 #### If multiple versions of a page were found
 
@@ -195,9 +186,9 @@ Examples:
  unset |`it:cz`    | `en`
  unset |unset      | `en`
 
-Regardless of the language determined through the environment, clients MUST always attempt to fallback to English if the page does not exist in the user preferred language. Clients MAY notify the user when a page in their preferred language cannot be found (optionally including a link to the [translations section of the contributing guide](https://github.com/tldr-pages/tldr/blob/master/CONTRIBUTING.md#translations)).
+Regardless of the language determined through the environment, clients MUST always attempt to fallback to English if the page does not exist in the user preferred language. Clients MAY notify the user when a page in their preferred language cannot be found (optionally including a link to the [translations section of the contributing guide](https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md#translations)).
 
-It is also RECOMMENDED to make the language configurable, as to not only rely on the environment. Clients SHOULD offer options to configure or override the language using configuration files or even command line options (like `-L, --language` as suggested in the [arguments section](#arguments) above). If such a command-line option is specified, a client must strictly adhere to its value, and MUST NOT show pages in a different language, failing with an appropriate error message instead.
+It is also RECOMMENDED to make the language configurable, as to not only rely on the environment. Clients SHOULD offer options to configure or override the language using configuration files or even command-line options (like `-L, --language` as suggested in the [arguments section](#arguments) above). If such a command-line option is specified, a client must strictly adhere to its value, and MUST NOT show pages in a different language, failing with an appropriate error message instead.
 
 The [`LC_MESSAGES` environment variable](https://www.gnu.org/software/gettext/manual/html_node/Locale-Environment-Variables.html) MAY be present. If the client itself is localized and this environment variable is present, it MUST use its value in order to determine the language in which interface text is shown (separately from the language used for pages). In absence of `LC_MESSAGES`, then `LANG` and `LANGUAGE` MUST be used for this purpose instead.
 
@@ -214,29 +205,45 @@ Here's an example of how the lookup should be done on `linux` having set `LANG=i
 
 ## Caching
 
-If appropriate, it is RECOMMENDED that clients implement a cache of pages. If implemented, clients MUST download the archive either from **[http://tldr.sh/assets/tldr.zip](http://tldr.sh/assets/tldr.zip)** or [https://raw.githubusercontent.com/tldr-pages/tldr-pages.github.io/master/assets/tldr.zip](https://raw.githubusercontent.com/tldr-pages/tldr-pages.github.io/master/assets/tldr.zip) (which is pointed to by the first link).
+If appropriate, it is RECOMMENDED that clients implement a cache of pages. If implemented, clients MUST download the archive either from **[https://tldr.sh/assets/tldr.zip](https://tldr.sh/assets/tldr.zip)** or [https://raw.githubusercontent.com/tldr-pages/tldr-pages.github.io/master/assets/tldr.zip](https://raw.githubusercontent.com/tldr-pages/tldr-pages.github.io/master/assets/tldr.zip) (which is pointed to by the first link).
 
 Caching SHOULD be done according to the user's language configuration (if any), as to not waste unneeded space for unused languages. Additionally, clients MAY automatically update the cache on a regular basis.
 
 
 ## Changelog
 
- - [v1.4, August 13th 2020](https://github.com/tldr-pages/tldr/blob/master/CLIENT-SPECIFICATION.md) (#4246)
+<!--
+Maintainer note:
+
+Keep the changelog links pointing to this document under the appropriate
+`/blob/<version-tag>/...` and also reference the PR which introduced the new
+version. After merging an update to the client spec, tag appropriately and
+create a new release under https://github.com/tldr-pages/tldr/releases
+including the changes. NOTE: tagging of the commit with a new version tag (in
+the form `vX.Y`) should be done immediately AFTER merging the version bump, as
+the commit hash changes when merging with squash or rebase.
+-->
+
+ - [v1.5, March 17th 2021](https://github.com/tldr-pages/tldr/blob/v1.5/CLIENT-SPECIFICATION.md) ([#5428](https://github.com/tldr-pages/tldr/pull/5428))
+   - Add requirement for converting command names to lowercase before running the page resolution algorithm.
+   - Use HTTPS for archive links.
+
+ - [v1.4, August 13th 2020](https://github.com/tldr-pages/tldr/blob/v1.4/CLIENT-SPECIFICATION.md) ([#4246](https://github.com/tldr-pages/tldr/pull/4246))
    - Add requirement for CLI clients to use non-zero exit code on failing to find a page.
 
- - [v1.3, June 11th 2020](https://github.com/tldr-pages/tldr/blob/master/CLIENT-SPECIFICATION.md) (#4101)
+ - [v1.3, June 11th 2020](https://github.com/tldr-pages/tldr/blob/v1.3/CLIENT-SPECIFICATION.md) ([#4101](https://github.com/tldr-pages/tldr/pull/4101))
    - Clarified fallback to English in the language resolution algorithm.
    - Update `LANG` and `LANGUAGE` environment variable to conform to the GNU spec.
 
- - [v1.2, July 3rd 2019](https://github.com/tldr-pages/tldr/blob/524d44eb13ff6c0ff70089bd152b075418fc71b2/CLIENT-SPECIFICATION.md) (#3168)
+ - [v1.2, July 3rd 2019](https://github.com/tldr-pages/tldr/blob/v1.2/CLIENT-SPECIFICATION.md) ([#3168](https://github.com/tldr-pages/tldr/pull/3168))
    - Addition of a new `-L, --language` recommended command-line option.
    - Rewording of the language section also encouraging the use of configuration files for language.
    - Shift from BCP-47 to POSIX style locale tags, with consequent **deprecation of previous versions of the spec**.
    - Clearer clarification about the recommended caching functionality.
    - Correction of the usage of the term "arguments" in the homonym section.
 
- - [v1.1, April 1st 2019](https://github.com/tldr-pages/tldr/blob/fbdc06b7425f92cc0d4fc9a5cfc5860ef017251e/CLIENT-SPECIFICATION.md) (deprecated) (#2859)
+ - [v1.1, April 1st 2019](https://github.com/tldr-pages/tldr/blob/v1.1/CLIENT-SPECIFICATION.md) (deprecated) ([#2859](https://github.com/tldr-pages/tldr/pull/2859))
    - Clarified platform section.
 
- - [v1.0, January 23rd 2019](https://github.com/tldr-pages/tldr/blob/f5be8a2614a455288f26e42953efeb8cb3bc50b0/CLIENT-SPECIFICATION.md) (deprecated) (#2706)
+ - [v1.0, January 23rd 2019](https://github.com/tldr-pages/tldr/blob/v1.0/CLIENT-SPECIFICATION.md) (deprecated) ([#2706](https://github.com/tldr-pages/tldr/pull/2706))
    - Initial release.

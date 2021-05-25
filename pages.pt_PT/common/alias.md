@@ -2,6 +2,7 @@
 
 > Cria um alias -- palavras que são substituídas por um comando.
 > Alias expiram com a sessão da shell atual, a menos que sejam definidos no ficheiro de configuração da shell, por exemplo `~/.bashrc`.
+> Mais informações: <https://tldp.org/LDP/abs/html/aliases.html>.
 
 - Listar todos os alias:
 
@@ -19,7 +20,7 @@
 
 `unalias {{palavra}}`
 
-- Tornar `rm` num comando interativo
+- Tornar `rm` num comando interativo:
 
 `alias {{rm}}="{{rm -i}}"`
 

@@ -7,7 +7,7 @@
 
 `dep init`
 
-- Installa dipendenze mancanti (scannerizza Gopkg.toml ed i file .go):
+- Installa dipendenze mancanti (scannerizza `Gopkg.toml` ed i file `.go`):
 
 `dep ensure`
 
@@ -19,6 +19,6 @@
 
 `dep ensure -add {{url_pacchetto}}`
 
-- Aggiorna le versioni bloccate (in Gopkg.lock) di tutte le dipendenze:
+- Aggiorna le versioni bloccate (in `Gopkg.lock`) di tutte le dipendenze:
 
 `dep ensure -update`

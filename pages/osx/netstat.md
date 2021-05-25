@@ -1,6 +1,7 @@
 # netstat
 
 > Displays network-related information such as open connections, open socket ports, etc.
+> More information: <https://www.unix.com/man-page/osx/1/netstat>.
 
 - List all ports:
 

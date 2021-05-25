@@ -7,15 +7,15 @@
 
 `pyenv commands`
 
-- List all Python versions under the ${PYENV_ROOT}/versions directory:
+- List all Python versions under the `${PYENV_ROOT}/versions` directory:
 
 `pyenv versions`
 
-- Install a Python version under the ${PYENV_ROOT}/versions directory:
+- Install a Python version under the `${PYENV_ROOT}/versions` directory:
 
 `pyenv install {{2.7.10}}`
 
-- Uninstall a Python version under the ${PYENV_ROOT}/versions directory:
+- Uninstall a Python version under the `${PYENV_ROOT}/versions` directory:
 
 `pyenv uninstall {{2.7.10}}`
 

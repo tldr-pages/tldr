@@ -15,7 +15,7 @@
 
 `gopass mounts`
 
-- Mount a shared git store:
+- Mount a shared Git store:
 
 `gopass mounts add {{store_name}} {{git_repo_url}}`
 

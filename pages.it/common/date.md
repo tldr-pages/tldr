@@ -1,6 +1,7 @@
 # date
 
 > Imposta o mostra data e ora di sistema.
+> Maggiori informazioni: <https://www.gnu.org/software/coreutils/date>.
 
 - Mostra la data corrente utilizzando il formato predefinito della locale corrente:
 
@@ -8,7 +9,7 @@
 
 - Mostra la data corrente in UTC e formato ISO 8601:
 
-`date -u +"%Y-%m-%dT%H:%M:%S%Z"`
+`date -u +"%Y-%m-%dT%H:%M:%SZ"`
 
 - Mostra la data corrente come timestamp Unix (secondi dall'epoca Unix):
 

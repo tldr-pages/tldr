@@ -2,7 +2,7 @@
 
 > Vala code compiler.
 > Tutorial: <https://wiki.gnome.org/Projects/Vala/Tutorial>.
-> Doc homepage: <https://valadoc.org/>.
+> More information: <https://valadoc.org/>.
 
 - Compile a vala file, with gtk+:
 

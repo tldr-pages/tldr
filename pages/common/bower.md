@@ -24,10 +24,10 @@
 
 `bower help {{command}}`
 
-- Create a bower.json file for your package:
+- Create a `bower.json` file for your package:
 
 `bower init`
 
-- Install a specific dependency version, and add it to bower.json:
+- Install a specific dependency version, and add it to `bower.json`:
 
 `bower install {{local_name}}={{package}}#{{version}} --save`

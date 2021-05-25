@@ -10,6 +10,6 @@
 
 `debman -p {{package_name}}={{version}} {{command_name}}`
 
-- Read a man page in a .deb file:
+- Read a man page in a `.deb` file:
 
 `debman -f {{path/to/filename.deb}} {{command_name}}`

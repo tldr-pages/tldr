@@ -1,8 +1,8 @@
 # colrm
 
-> Remove columns from `stdin`.
+> Remove columns from stdin.
 
-- Remove first column of `stdin`:
+- Remove first column of stdin:
 
 `colrm {{1 1}}`
 

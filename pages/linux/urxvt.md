@@ -19,6 +19,6 @@
 
 `urxvt --hold -e {{command}}`
 
-- Run a command within the "sh" shell:
+- Run a command within the `sh` shell:
 
 `urxvt -e {{sh}} -c {{command}}`

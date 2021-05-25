@@ -3,7 +3,7 @@
 > CSS 코드용 린터.
 > 더 많은 정보: <https://github.com/CSSLint/csslint/wiki/Command-line-interface>.
 
-- 하나의 CSS 파일을 린트::
+- 하나의 CSS 파일을 린트:
 
 `csslint {{파일.css}}`
 

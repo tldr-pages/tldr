@@ -1,0 +1,10 @@
+# This ensures that the line endings in any files added or modified are
+# normalized before being committed. On Windows they will automatically
+# be checked-out as CRLF, and re-converted to LF before check-in.
+# See https://git-scm.com/docs/gitattributes for more information.
+* text=auto
+
+# GitHub linguist ignores markdown files by default, but tldr-pages
+# is mostly markdown, so we explicitly make the pages detectable
+pages*/**/*.md linguist-detectable=true
+pages*/**/*.md linguist-documentation=false

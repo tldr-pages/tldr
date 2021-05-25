@@ -6,11 +6,11 @@
 
 `mmv "*{{.old_extension}}" "#1{{.new_extension}}"`
 
-- Copy report6part4.txt to ./french/rapport6partie4.txt along with all similarly named files:
+- Copy `report6part4.txt` to `./french/rapport6partie4.txt` along with all similarly named files:
 
 `mmv -c "{{report*part*.txt}}" "{{./french/rapport#1partie#2.txt}}"`
 
-- Append all .txt files into one file:
+- Append all `.txt` files into one file:
 
 `mmv -a "{{*.txt}}" "{{all.txt}}"`
 

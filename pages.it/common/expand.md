@@ -1,6 +1,7 @@
 # expand
 
 > Converti caratteri tab in spazi.
+> Maggiori informazioni: <https://www.gnu.org/software/coreutils/expand>.
 
 - Converti tab in un file in spazi, scrivendo su standard output:
 

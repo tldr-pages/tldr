@@ -1,28 +1,28 @@
 # chromium
 
 > Open-Source-Webbrowser von Google.
-> Mehr Informationen: <https://chromium.org>.
+> Weitere Informationen: <https://chromium.org>.
 
-- Öffnet Sie eine Datei:
+- Öffne eine html-Datei:
 
-`chromium {{pfad/zur/datei.html}}`
+`chromium {{pfad/zu/datei.html}}`
 
-- Öffnet Sie eine URL:
+- Öffne eine bestimmte URL:
 
 `chromium {{beispiel.com}}`
 
-- Im Inkognito-Modus öffnen:
+- Öffne eine URL im Inkognito-Modus:
 
 `chromium --incognito {{beispiel.com}}`
 
-- In einem neuen Fenster öffnen:
+- Öffne eine URL in einem neuen Fenster:
 
 `chromium --new-window {{beispiel.com}}`
 
-- Öffnet im Anwendungsmodus (ohne Symbolleisten, URL-Leiste, Schaltflächen usw.):
+- Öffne eine URL im Anwendungsmodus (ohne Symbolleisten, Suchleiste, Schaltflächen usw.):
 
 `chromium --app='{{https://beispiel.com}}'`
 
-- Verwendet einen Proxy-Server:
+- Öffne eine URL und verwende einen Proxy-Server:
 
 `chromium --proxy-server="{{socks5://hostname:66}}" {{beispiel.com}}`

@@ -1,12 +1,12 @@
 # git ignore
 
-> Génère des fichiers .gitignore à partir de gabarits prédéfinis.
-> Plus d'informations: <https://docs.gitignore.io/install/command-line>.
+> Générer le fichier .gitignore depuis des templates prédéfinis.
+> Plus d'informations : <https://docs.gitignore.io/install/command-line>.
 
-- Liste les gabarits disponibles :
+- Lister les templates disponibles :
 
 `git ignore list`
 
-- Génère un gabarit .gitignore :
+- Générer un template .gitignore :
 
 `git ignore {{item_a,item_b,item_n}}`

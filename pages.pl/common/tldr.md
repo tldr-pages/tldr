@@ -12,6 +12,6 @@
 
 `tldr -p {{linux}} {{tar}}`
 
-- Uzyskaj pomoc dotyczącą komendy git:
+- Uzyskaj pomoc dotyczącą komendy Git:
 
 `tldr {{git-checkout}}`

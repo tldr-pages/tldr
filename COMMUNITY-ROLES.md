@@ -52,7 +52,7 @@ exceptions can always be considered, via open community discussion.)
 - **Organization members who remain active for a while should become organization owners.**
   Specifically: members of the tldr-pages organization
   who remain _active for at least 6 months_
-  (see `https://github.com/tldr-pages/tldr/blob/master/MAINTAINERS.md#current-organization-members`)
+  (see [`MAINTAINERS.md`](MAINTAINERS.md#organization-members))
   should be invited to become an
   [**owner**](https://help.github.com/articles/permission-levels-for-an-organization/)
   of the tldr-pages organization.
@@ -93,14 +93,14 @@ using one of the template messages below as a base.
 
    ```
    Hi, @username! You seem to be enjoying contributing to the tldr-pages project.
-   You now have had five distinct pull requests merged ([LINKS TO THE RELEVANT PRs])!
-   That qualifies you to become a collaborator in this repository, as explained in our [community roles documentation](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md).
+   You now have had five distinct pull requests merged (<!-- REPLACE THIS WITH LINKS TO THE RELEVANT PRs -->)!
+   That qualifies you to become a collaborator in this repository, as explained in our [community roles documentation](https://github.com/tldr-pages/tldr/blob/main/COMMUNITY-ROLES.md).
 
    As a collaborator, you will have commit access to the repository.
    That means you can merge pull requests, label and close issues, and perform various other maintenance tasks that are needed here and there.
    Of course, all of this is voluntary — you're welcome to contribute to the project in whatever ways suit your liking.
 
-   If you do decide to start performing maintenance tasks, though, we only ask you to get familiar with the [maintainer's guide](https://github.com/tldr-pages/tldr/blob/master/contributing-guides/maintainers-guide.md).
+   If you do decide to start performing maintenance tasks, though, we only ask you to get familiar with the [maintainer's guide](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/maintainers-guide.md).
 
    So, what do you say? Can we add you as a collaborator?
 
@@ -111,8 +111,8 @@ using one of the template messages below as a base.
    go to https://github.com/tldr-pages/tldr/settings/collaboration
    and add them to the repository as collaborator with write permissions.
 
-3. Open a PR adding their name to the "Current repository collaborators" section
-   in [MAINTAINERS.md](MAINTAINERS.md).
+3. Open a PR adding their name to the "Repository collaborators" section
+   in [MAINTAINERS.md](MAINTAINERS.md#repository-collaborators).
    Make sure to include `Closes #<issue number>` in the PR description.
    The issue will then be automatically closed once the PR is merged.
 
@@ -121,13 +121,15 @@ using one of the template messages below as a base.
 1. Open an issue with the following message template (edit it as appropriate):
 
    ```
-   Hi, @username! After joining as a collaborator in the repository, you have been regularly performing maintenance tasks.
+   Hi, @username! After joining as a collaborator in the repository, you have been regularly performing maintenance tasks (<!-- REPLACE THIS WITH LINKS TO THE RELEVANT ISSUES AND/OR PRs -->).
    Thank you for that!
-   According to [COMMUNITY-ROLES.md](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md), you've now met the thresholds to be effectively considered an active maintainer of the project ([LINKS TO THE RELEVANT PRs]).
+   According to our [community roles documentation](https://github.com/tldr-pages/tldr/blob/main/COMMUNITY-ROLES.md), you've now met the thresholds to be effectively considered an active maintainer of the project.
    To publicly acknowledge that fact, we'd like to add you to the tldr-pages organization.
 
    If you accept the invitation, we ask you to make your membership public, and (in case you don't already) start hanging out in our Gitter chat room.
-   You'll now be one of the public faces of the tldr-pages project.
+   Additionally, consider subscribing to the notifications from the various repositories under the [tldr-pages organization](https://github.com/tldr-pages).
+   As one of the public faces of the tldr-pages project, it's also especially important that you follow and encourage the [project
+   governance principles](https://github.com/tldr-pages/tldr/blob/main/COMMUNITY-ROLES.md).
 
    How does that sound? Are you up for it?
    ```
@@ -136,8 +138,8 @@ using one of the template messages below as a base.
    go to https://github.com/orgs/tldr-pages/people
    and add them to the organization as a member.
 
-3. Open a PR moving their name to the "Current organization members" section
-   in [MAINTAINERS.md](MAINTAINERS.md).
+3. Open a PR moving their name to the "Organization members" section
+   in [MAINTAINERS.md](MAINTAINERS.md#organization-members).
    Make sure to include `Closes #<issue number>` in the PR description.
    The issue will then be automatically closed once the PR is merged.
 
@@ -148,10 +150,10 @@ using one of the template messages below as a base.
    ```
    Hi, @username! You've been an active tldr-pages organization member for over 6 months.
    Thanks for sticking around this far and helping out!
-   According to [COMMUNITY-ROLES.md](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md), you're now eligible for becoming an owner in the organization.
+   According to our [community roles documentation](https://github.com/tldr-pages/tldr/blob/main/COMMUNITY-ROLES.md), you're now eligible for becoming an owner in the organization.
 
    That means you will, from now on, be part of the team responsible for performing role changes (like this one!) in the community.
-   Before performing such role transitions, make sure to review the [COMMUNITY-ROLES.md](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md) document.
+   When performing such role transitions, make sure to follow the process described in the [COMMUNITY-ROLES.md](https://github.com/tldr-pages/tldr/blob/main/COMMUNITY-ROLES.md) document.
 
    Is that OK with you? Let us know!
 
@@ -162,8 +164,8 @@ using one of the template messages below as a base.
    go to https://github.com/orgs/tldr-pages/people
    and change their role from "member" to "owner".
 
-3. Open a PR moving their name to the "Current organization owners" section
-   in [MAINTAINERS.md](MAINTAINERS.md).
+3. Open a PR moving their name to the "Organization owners" section
+   in [MAINTAINERS.md](MAINTAINERS.md#organization-owners).
    Make sure to include `Closes #<issue number>` in the PR description.
    The issue will then be automatically closed once the PR is merged.
 
@@ -172,7 +174,7 @@ using one of the template messages below as a base.
 1. Open an issue with the following message template (edit it as appropriate):
 
    ```
-   Hi, @username! As you know, our [community roles documentation](https://github.com/tldr-pages/tldr/blob/master/COMMUNITY-ROLES.md) defines processes for keeping the list of organization members in sync with the actual maintenance team.
+   Hi, @username! As you know, our [community roles documentation](https://github.com/tldr-pages/tldr/blob/main/COMMUNITY-ROLES.md) defines processes for keeping the list of organization members in sync with the actual maintenance team.
    Since you haven't been active in the project for a while now, we'll be relieving you from the maintainer responsibilities.
 
    In practice, not much will change on your side, since you'll remain a collaborator in the repos you have been active in.

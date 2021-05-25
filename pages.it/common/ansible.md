@@ -1,7 +1,7 @@
 # ansible
 
 > Gestisci gruppi di computer da remoto via SSH.
-> Usa il file /etc/ansible/hosts per aggiungere nuovi gruppi/host.
+> Usa il file `/etc/ansible/hosts` per aggiungere nuovi gruppi/host.
 > Maggiori informazioni: <https://www.ansible.com/>.
 
 - Lista gli host appartenenti ad un gruppo:

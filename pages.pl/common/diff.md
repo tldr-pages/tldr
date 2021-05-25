@@ -18,7 +18,7 @@
 
 `diff -u {{stary_plik}} {{nowy_plik}}`
 
-- Porównaj foldery rekurencyjnie (pokazuje nazwy różniących się plików/folderów a także zmiany w plikach)
+- Porównaj foldery rekurencyjnie (pokazuje nazwy różniących się plików/folderów a także zmiany w plikach):
 
 `diff -r {{stary_folder}} {{nowy_folder}}`
 

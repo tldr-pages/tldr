@@ -1,6 +1,7 @@
 # ls
 
 > Elenca i contenuti di una directory.
+> Maggiori informazioni: <https://www.gnu.org/software/coreutils/ls>.
 
 - Elenca i file nella directory corrente, uno per riga:
 
@@ -14,7 +15,7 @@
 
 `ls -la`
 
-- Elenca tutti i file e mostra informazioni usando un formato facilmente leggibile (KB, MB, GB):
+- Elenca tutti i file e mostra informazioni usando un formato facilmente leggibile (KiB, MiB, GiB):
 
 `ls -lh`
 

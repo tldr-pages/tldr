@@ -7,7 +7,7 @@
 
 `cewl --depth {{2}} --write {{path/to/wordlist.txt}} {{url}}`
 
-- Output an alpha-numeric wordlist from the given URL with words of minimum 5 characters:
+- Output an alphanumeric wordlist from the given URL with words of minimum 5 characters:
 
 `cewl --with-numbers --min_word_length {{5}} {{url}}`
 

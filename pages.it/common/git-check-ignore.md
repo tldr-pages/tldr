@@ -11,7 +11,7 @@
 
 `git check-ignore {{percorso/al/file}} {{percorso/alla/cartella}}`
 
-- Leggi i percorsi di file o cartelle da `stdin` (uno per riga) invece che dalla riga di comando:
+- Leggi i percorsi di file o cartelle da stdin (uno per riga) invece che dalla riga di comando:
 
 `git check-ignore --stdin < {{percorso/alla/lista_dei_file_o_cartelle}}`
 

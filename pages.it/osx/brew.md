@@ -1,7 +1,7 @@
 # brew
 
 > Gestore di pacchetti per macOS.
-> Più informazioni: <https://brew.sh>.
+> Maggiori informazioni: <https://brew.sh>.
 
 - Cerca formule e cask:
 
@@ -23,13 +23,9 @@
 
 `brew upgrade {{formula}}`
 
-- Trova la versione più aggiornata di Homebrew e di tutte le formule da Github: 
+- Trova la versione più aggiornata di Homebrew e di tutte le formule da GitHub:
 
 `brew update`
-
-- Rimuovi le vecchie versioni di una specifica formula installata (se nessuna formula viene specificata, tutte le formule saranno processate):
-
-`brew cleanup {{formula}}`
 
 - Mostra le informazioni su una specifica formula (versione, percorso di installazione, dipendenze, ecc...):
 

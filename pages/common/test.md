@@ -1,24 +1,25 @@
 # test
 
 > Evaluate condition.
-> If it is true, returns 0 exit status, otherwise returns 1.
+> Returns 0 if the condition evaluates to true, 1 if it evaluates to false.
+> More information: <https://www.gnu.org/software/coreutils/test>.
 
-- Test if given variable is equal to given string:
+- Test if a given variable is equal to a given string:
 
-`test $MY_VAR == '/bin/zsh'`
+`test "{{$MY_VAR}}" == "{{/bin/zsh}}"`
 
-- Test if given variable is empty:
+- Test if a given variable is empty:
 
-`test -z $GIT_BRANCH`
+`test -z "{{$GIT_BRANCH}}"`
 
-- Test if file exists:
+- Test if a file exists:
 
-`test -e {{filename}}`
+`test -f "{{path/to/file_or_directory}}"`
 
-- Test if directory not exists:
+- Test if a directory does not exist:
 
-`test ! -d {{path/to/directory}}`
+`test ! -d "{{path/to/directory}}"`
 
 - If-else statement:
 
-`test {{condition}} && echo "true" || echo "false"`
+`test {{condition}} && {{echo "true"}} || {{echo "false"}}`

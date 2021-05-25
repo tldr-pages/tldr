@@ -24,6 +24,6 @@
 
 `atom --foreground`
 
-- Wait for Atom window to close before returning (useful for git commit editor):
+- Wait for Atom window to close before returning (useful for Git commit editor):
 
 `atom --wait`

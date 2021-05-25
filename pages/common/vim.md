@@ -12,13 +12,9 @@
 
 `:help<Enter>`
 
-- Save a file:
+- Save and Quit:
 
-`:write<Enter>`
-
-- Quit without saving:
-
-`:quit!<Enter>`
+`:wq<Enter>`
 
 - Open a file at a specified line number:
 
@@ -32,6 +28,10 @@
 
 `/{{search_pattern}}<Enter>`
 
-- Perform a regex substitution in the whole file:
+- Perform a regular expression substitution in the whole file:
 
-`:%s/{{pattern}}/{{replacement}}/g<Enter>`
+`:%s/{{regular_expression}}/{{replacement}}/g<Enter>`
+
+- Display the line numbers:
+
+`:set nu<Enter>`

@@ -11,7 +11,7 @@
 
 `csc /out:{{path/to/filename}} {{path/to/input_file.cs}}`
 
-- Compile into a '.dll' library instead of an executable:
+- Compile into a `.dll` library instead of an executable:
 
 `csc /target:library {{path/to/input_file.cs}}`
 

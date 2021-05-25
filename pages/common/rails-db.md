@@ -30,6 +30,6 @@
 
 `rails db:rollback`
 
-- Fill the current database with data defined in db/seeds.rb:
+- Fill the current database with data defined in `db/seeds.rb`:
 
 `rails db:seed`

@@ -1,9 +1,9 @@
 # cmus
 
-> Commandline Music Player.
+> Command-line Music Player.
 > Use arrow keys to navigate, `<enter/return>` to select, and numbers 1-8 switch between different views.
 
-- Open cmus from specified directory:
+- Open cmus into the specified directory (this will become your new working directory):
 
 `cmus {{path/to/directory}}`
 

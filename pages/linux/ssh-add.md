@@ -3,7 +3,7 @@
 > Manage loaded ssh keys in the ssh-agent.
 > Ensure that ssh-agent is up and running for the keys to be loaded in it.
 
-- Add the default ssh keys in "~/.ssh" to the ssh-agent:
+- Add the default ssh keys in `~/.ssh` to the ssh-agent:
 
 `ssh-add`
 
