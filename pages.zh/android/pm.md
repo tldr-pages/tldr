@@ -17,8 +17,8 @@
 
 - 打印与指定关键字匹配的应用程序列表：
 
-`pm list packages {{keywords}}`
+`pm list packages {{关键词}}`
 
 - 打印指定应用的 APK 的路径：
 
-`pm path {{app}}`
+`pm path {{应用名}}`
