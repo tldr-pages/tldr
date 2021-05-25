@@ -23,6 +23,6 @@
 
 `kdocker -l {{application}}`
 
-- Print kdocker version:
+- Print version:
 
 `kdocker --version`
