@@ -214,7 +214,15 @@ Not translated yet.
 ---
 ### ru
 
-Not translated yet.
+```markdown
+# example
+
+> Эта команда — псевдоним для `example`.
+
+- Смотри документацию для оригинальной команды:
+
+`tldr example`
+```
 
 ---
 ### sh
