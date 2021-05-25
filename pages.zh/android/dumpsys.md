@@ -18,12 +18,12 @@
 
 - 列出服务的指定服务参数：
 
-`dumpsys {{service}} -h`
+`dumpsys {{服务}} -h`
 
 - 从诊断输出中排除指定服务：
 
-`dumpsys --skip {{service}}`
+`dumpsys --skip {{服务}}`
 
 - 指定超时时间，以秒为单位（默认为 10s）：
 
-`dumpsys -t {{seconds}}`
+`dumpsys -t {{秒数}}`
