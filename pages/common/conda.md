@@ -5,7 +5,7 @@
 
 - Create a new environment, installing named packages into it:
 
-`conda create --name {{environment_name}} {{python=3.7 matplotlib}}`
+`conda create --name {{environment_name}} {{python=3.9 matplotlib}}`
 
 - List all environments:
 
