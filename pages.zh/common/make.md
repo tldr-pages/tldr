@@ -16,7 +16,7 @@
 
 `make -j{{4}} {{target}}`
 
-- 使用指定的 Makefile ：
+- 使用指定的 Makefile 文件：
 
 `make --file {{file}}`
 
