@@ -13,4 +13,4 @@
 
 - 显示与正则表达式匹配的行：
 
-`logcat --regex {{regular_expression}}`
+`logcat --regex {{正则表达式}}`
