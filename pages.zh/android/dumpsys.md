@@ -10,7 +10,7 @@
 
 - 获取指定系统服务的诊断输出：
 
-`dumpsys {{service}}`
+`dumpsys {{服务}}`
 
 - 列出 `dumpsys` 可以提供的所有服务信息：
 
