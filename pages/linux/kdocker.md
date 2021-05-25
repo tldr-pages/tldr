@@ -19,7 +19,7 @@
 
 `kdocker -i {{/path/to/icon}}`
 
-- Open an application and send it to the system tray and if focus is lost, minimize it:
+- Open an application, send it to the system tray and if focus is lost, minimize it:
 
 `kdocker -l {{application}}`
 
