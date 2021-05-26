@@ -34,3 +34,7 @@
 - Only list directories:
 
 `ls -d {{*/}}`
+
+- List all files with no stat, sort, color nor any slowdown (useful when listing huge number of files)
+
+`ls -fNu1`
