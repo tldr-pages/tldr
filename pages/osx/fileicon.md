@@ -11,9 +11,9 @@
 
 `fileicon rm {{path/to/file_or_directory}}`
 
-- Extract custom icon from file 'foo' to icon file 'foo.icns':
+- Save the custom icon of a file or directory as a `.icns` file into the current directory:
 
-`fileicon get foo`
+`fileicon get {{path/to/file_or_directory}}`
 
 - Test if a specific file or directory has a custom icon:
 
