@@ -25,8 +25,8 @@
 
 - Rekam tampilan layar perangkat ke dalam file video tertentu:
 
-`scrcpy --record {{path/to/file.mp4}}`
+`scrcpy --record {{jalan/menuju/file.mp4}}`
 
 - Tentukan direktori yang akan digunakan untuk memindahkan file (non-APK) ke dalam perangkat melalui drag-and-drop:
 
-`scrcpy --push-target {{path/to/directory}}`
+`scrcpy --push-target {{jalan/menuju/direktori}}`
