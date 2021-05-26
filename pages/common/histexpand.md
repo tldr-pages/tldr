@@ -30,6 +30,7 @@
 - Run the most recent command starting with `string`:
 
 `!{{string}}`
+`!?{{string}}?`
 
 - Run the previous command, replacing `string1` with `string2`:
 
