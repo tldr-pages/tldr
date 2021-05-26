@@ -7,10 +7,10 @@
 
 `llvm-dis {{path/to/input.bc}} -o -`
 
-- Convert a bitcode file to a LLVM IR file with the same filename:
+- Convert a bitcode file to an LLVM IR file with the same filename:
 
 `llvm-dis {{path/to/file.bc}}`
 
-- Convert a bitcode file to a LLVM IR file:
+- Convert a bitcode file to an LLVM IR file:
 
 `llvm-dis {{path/to/input.bc}} -o {{path/to/output.ll}}`
