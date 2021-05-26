@@ -27,7 +27,7 @@
 
 `!-{{n}}`
 
-- Run the most recent command starting with `string`:
+- Run the most recent command containing `string`:
 
 `!?{{string}}?`
 
