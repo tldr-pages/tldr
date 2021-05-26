@@ -3,9 +3,9 @@
 > A macOS CLI to manage custom file and folder icons.
 > More information: <https://github.com/mklement0/fileicon>.
 
-- Assign custom icon derived from image file 'img.png' to file 'foo':
+- Set a custom icon for a specific file or directory:
 
-`fileicon set foo img.png`
+`fileicon set {{path/to/file_or_directory}} {{path/to/icon.png}}`
 
 - Remove a custom icon from a specific file or directory:
 
