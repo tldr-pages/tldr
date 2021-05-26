@@ -35,6 +35,7 @@ Typically a pull request will include changes in a single file.
 # Updating your fork
 
 Forks aren't updated automatically and in order to avoid merge conflicts it should be done manually and regularly. This is possible via either the GitHub web interface by pressing `Fetch upstream` and `Fetch and merge` on the fork or using Git in the terminal:
+
 ```bash
 git checkout main
 git remote add upstream https://tldr-pages/tldr.git # only run this if you don't already have the upstream remote for https://github.com/tldr-pages/tldr.git
@@ -46,6 +47,7 @@ git push --force # not needed if you only want to update your local repository
 # Changing the email of your last commit
 
 If the email that you used for a commit isn't added to your GitHub account, you can either add it [here](https://github.com/settings/emails) or change the email of your last commit with the following commands:
+
 ```bash
 git commit --amend --author="Name <new.email@example.com>"
 git push --force
