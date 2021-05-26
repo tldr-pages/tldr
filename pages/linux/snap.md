@@ -15,7 +15,7 @@
 
 `snap refresh {{package_name}}`
 
-- Update a package to another channel (track, risk-level, or branch):
+- Update a package to another channel (track, risk, or branch):
 
 `snap refresh {{package_name}} --channel={{channel}}`
 
