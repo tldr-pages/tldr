@@ -13,11 +13,11 @@
 
 - Memperbarui alamat IP sebuah adaptor jaringan:
 
-`ipconfig /renew {{adapter}}`
+`ipconfig /renew {{adaptor}}`
 
 - Mengosongkan alamat-alamat IP yang disetel dalam sebuah adaptor jaringan:
 
-`ipconfig /release {{adapter}}`
+`ipconfig /release {{adaptor}}`
 
 - Mengosongkan cache DNS:
 
