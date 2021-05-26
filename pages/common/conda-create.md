@@ -5,12 +5,12 @@
 
 - Create a new environment named py35 and install Python 3.5 and numpy at least 1.11 in it:
 
-`conda create --yes --name py35 python=3.5 "numpy>=1.11"`
+`conda create --yes --name {{py35}} python={{3.5}} "{{numpy>=1.11}}"`
 
 - Make exact copy of an environment:
 
-`conda create --clone py35 --name py35-2`
+`conda create --clone {{py35}} --name {{py35-copy}}`
 
 - Create a new environment, name it bio-env and install the biopython package:
 
-`conda create --name bio-env biopython`
+`conda create --name {{bio-env}} {{biopython}}`
