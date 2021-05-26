@@ -19,6 +19,6 @@
 
 `ipconfig /release {{adapter}}`
 
-- Mengosongkan cache DNS
+- Mengosongkan cache DNS:
 
 `ipconfig /flushdns`
