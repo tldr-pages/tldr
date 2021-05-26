@@ -19,6 +19,10 @@
 
 `{{command}} !^`
 
+- Run the Nth command of the history:
+
+`!{{N}}`
+
 - Run the command `n` lines back in the history:
 
 `!-{{n}}`
