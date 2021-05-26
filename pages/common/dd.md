@@ -23,7 +23,7 @@
 
 `dd if=/dev/{{drive_device}} of={{/path/to/file.img}} status=progress`
 
-- Flash an img file to a drive and show the progress:
+- Restore a drive from an img file and show the progress:
 
 `dd if={{/path/to/file.img}} of=/dev/{{drive_device}} status=progress`
 
