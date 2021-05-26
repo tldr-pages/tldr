@@ -3,7 +3,7 @@
 > Show/update `.gitignore` files.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-ignore>.
 
-- Show global and local `.gitignore` files' content:
+- Show the content of all global and local `.gitignore` files:
 
 `git ignore`
 
