@@ -4,6 +4,6 @@
 > See also: `virsh`.
 > More information: <https://manned.org/virsh>.
 
-- Create the configuration file for a storage pool called pool_name using `/var/vms` as the underlying storage system (use `virsh pool-build` to create the underlying storage system if it doesn't exist and use `virsh pool-start` to start the inactive pool):
+- Create the configuration file for a storage pool called pool_name using `/var/vms` as the underlying storage system (use `virsh pool-build` to create the underlying storage system and use `virsh pool-start` to start the inactive pool):
 
 `virsh pool-define-as --name {{pool_name}} --type {{dir}} --target {{/var/vms}}`
