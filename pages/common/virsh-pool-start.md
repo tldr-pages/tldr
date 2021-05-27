@@ -1,4 +1,4 @@
-# virsh-pool-start
+# virsh pool-start
 
 > Start a previously configured but inactive virtual machine storage pool (configure a pool with `virsh pool-define-as` and stop a pool with `virsh pool-destroy`).
 > See also: `virsh`.
