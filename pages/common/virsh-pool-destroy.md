@@ -1,4 +1,4 @@
-# virsh-pool-destroy
+# virsh pool-destroy
 
 > Stop an active virtual machine storage pool (delete a stopped storage pool using `virsh pool-delete`).
 > See also: `virsh`.
