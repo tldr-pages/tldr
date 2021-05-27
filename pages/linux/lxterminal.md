@@ -21,4 +21,4 @@
 
 - Open an LXTerminal window with a specific working directory:
 
-`lxterminal --working-directory={{/path/to/directory}}`
+`lxterminal --working-directory={{path/to/directory}}`
