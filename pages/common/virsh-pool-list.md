@@ -1,4 +1,4 @@
-# virsh-pool-list
+# virsh pool-list
 
 > List information about virtual machine storage pools (create a storage pool with `virsh pool-define-as`).
 > See also: `virsh`.
