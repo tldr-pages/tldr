@@ -35,6 +35,7 @@ Typically a pull request will include changes in a single file.
 # Updating your fork
 
 Forks aren't updated automatically and in order to avoid merge conflicts it should be done manually and regularly. This is possible via the GitHub web interface by pressing `Fetch upstream` and `Fetch and merge` on the fork:
+
 ![Fetch and merge button in GitHub](https://user-images.githubusercontent.com/50295997/119873818-393e2000-bf25-11eb-8a0a-b804c293439b.png).
 
 Alternatively it can also be done using Git in the terminal:
