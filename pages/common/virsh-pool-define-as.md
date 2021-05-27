@@ -1,4 +1,4 @@
-# virsh-pool-define-as
+# virsh pool-define-as
 
 > Create a configuration file in `/etc/libvirt/storage` for a persistent virtual machine storage pool from the provided arguments.
 > See also: `virsh`.
