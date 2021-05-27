@@ -1,4 +1,4 @@
-# virsh-pool-delete
+# virsh pool-delete
 
 > Delete the underlying storage system of an inactive virtual machine storage pool (stop a storage pool with `virsh pool-destroy` and delete the storage pool configuration file with `virsh pool-undefine`).
 > See also: `virsh`.
