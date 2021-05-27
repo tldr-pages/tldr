@@ -1,4 +1,4 @@
-# virsh-pool-build
+# virsh pool-build
 
 > Build the underlying storage system for a virtual machine storage pool as defined in it's configuration file (create a configuration file using `virsh pool-define-as`).
 > See also: `virsh`.
