@@ -1,4 +1,4 @@
-# virsh-pool-undefine
+# virsh pool-undefine
 
 > Delete the configuration file in `/etc/libvirt/storage` for a stopped virtual machine storage pool (stop a pool using `virsh pool-destroy`).
 > See also: `virsh`.
