@@ -11,17 +11,17 @@
 
 `conda info --envs`
 
-- Load or unload an environment:
+- Load an environment:
 
-`conda {{activate environment_name|deactivate}}`
+`conda {{activate environment_name}}`
+
+- Unload an environment:
+
+`conda {{deactivate}}`
 
 - Delete an environment (remove all packages):
 
 `conda remove --name {{environment_name}} --all`
-
-- Search conda channels for a package by name:
-
-`conda search {{package_name}}`
 
 - Install packages into the current environment:
 
