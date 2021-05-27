@@ -1,4 +1,4 @@
-# virsh-pool-autostart
+# virsh pool-autostart
 
 > Enable or disable autostart for a virtual machine storage pool.
 > See also: `virsh`.
