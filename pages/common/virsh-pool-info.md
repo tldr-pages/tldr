@@ -1,4 +1,4 @@
-# virsh-pool-info
+# virsh pool-info
 
 > List information about a virtual machine storage pool.
 > See also: `virsh`.
