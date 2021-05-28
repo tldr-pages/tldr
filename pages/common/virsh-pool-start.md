@@ -4,6 +4,6 @@
 > See also: `virsh`.
 > More information: <https://manned.org/virsh>.
 
-- Start the storage pool specified by name or UUID (determine the name or UUID using `virsh pool-list`) and create the underlying storage system if it doesn't exist:
+- Start the storage pool specified by name or UUID (determine using `virsh pool-list`) and create the underlying storage system if it doesn't exist:
 
 `virsh pool-start --pool {{name|uuid}} --build`
