@@ -4,6 +4,6 @@
 > See also: `virsh`.
 > More information: <https://manned.org/virsh>.
 
-- Delete the configuration for the storage pool specified name or UUID (determine the name or UUID using `virsh pool-list`):
+- Delete the configuration for the storage pool specified name or UUID (determine using `virsh pool-list`):
 
 `virsh pool-undefine --pool {{name|uuid}}`
