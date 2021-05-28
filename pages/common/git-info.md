@@ -8,6 +8,6 @@
 
 `git info`
 
-- Display repository information about remote locations, remote and local branches and most recent commit data:
+- Display remote locations, remote and local branches and most recent commit data:
 
 `git info --no-config`
