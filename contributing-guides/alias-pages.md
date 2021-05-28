@@ -187,13 +187,13 @@ Not translated yet.
 ### no
 
 ```markdown
-# eksempel
+# example
 
-> Denne kommandoen er et alias for `eksempel`.
+> Denne kommandoen er et alias for `example`.
 
 - Vis dokumentasjonen for den opprinnelige kommandoen:
 
-`tldr eksempel`
+`tldr example`
 ```
 
 ---
