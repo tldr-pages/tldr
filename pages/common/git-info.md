@@ -1,6 +1,6 @@
 # git info
 
-> Display repository information.
+> Display Git repository information.
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-info>.
 
