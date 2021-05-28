@@ -13,7 +13,10 @@
    version="1.1"
    id="svg29"
    sodipodi:docname="banner.svg"
-   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)">
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"
+   inkscape:export-filename="/home/simon/tldr/images/banner-transparent.png"
+   inkscape:export-xdpi="117.93832"
+   inkscape:export-ydpi="117.93832">
   <metadata
      id="metadata33">
     <rdf:RDF>
@@ -39,12 +42,12 @@
      id="namedview31"
      showgrid="false"
      inkscape:zoom="0.5775"
-     inkscape:cx="1000"
-     inkscape:cy="600"
+     inkscape:cx="980.08658"
+     inkscape:cy="597.4026"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg29" />
+     inkscape:current-layer="g27" />
   <defs
      id="defs11">
     <rect
@@ -138,7 +141,7 @@
        font-weight="bold"
        text-anchor="middle"
        id="text23"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Sometype Mono';-inkscape-font-specification:'Sometype Mono Bold'"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Sometype Mono';-inkscape-font-specification:'Sometype Mono Bold';fill:#438980;fill-opacity:1"
          id="tspan35">tldr-pages</tspan></text>
     <text
        x="1000"
@@ -151,7 +154,8 @@
        style="font-size:61.3333px;white-space:pre;inline-size:2003.78"
        xml:space="preserve"><tspan
          x="1000"
-         y="1070"><tspan>COLLABORATIVE CHEATSHEETS FOR CONSOLE COMMANDS</tspan></tspan></text>
+         y="1070"><tspan
+           style="fill:#45877f;fill-opacity:1">COLLABORATIVE CHEATSHEETS FOR CONSOLE COMMANDS</tspan></tspan></text>
   </g>
   <text
      xml:space="preserve"
