@@ -3,11 +3,11 @@
 > Create GitHub issues on a repository from the command-line.
 > More information: <https://cli.github.com/manual/gh_issue_create>.
 
-- Create a new issue for the current repository interactively:
+- Create a new issue against the current repository interactively:
 
 `gh issue create`
 
-- Create a new issue with a bug label interactively:
+- Create a new issue with the `bug` label interactively:
 
 `gh issue create --label "{{bug}}"`
 
@@ -19,14 +19,14 @@
 
 `gh issue create --title "{{title}}" --body "{{body}}" --assignee "{{@me}}"`
 
-- Create a new issue interactively reading the body text from a file:
+- Create a new issue interactively, reading the body text from a file:
 
 `gh issue create --body-file {{path/to/file}}`
 
-- Create a new issue in the web browser:
+- Create a new issue in the default web browser:
 
 `gh issue create --web`
 
-- Display help:
+- Display the help:
 
 `gh issue create --help`
