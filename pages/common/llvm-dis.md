@@ -11,6 +11,6 @@
 
 `llvm-dis {{path/to/file.bc}}`
 
-- Convert a bitcode file to LLVM IR, writing the result to a specified file:
+- Convert a bitcode file to LLVM IR, writing the result to the specified file:
 
 `llvm-dis {{path/to/input.bc}} -o {{path/to/output.ll}}`
