@@ -1,4 +1,4 @@
-# Making a Pull Request
+# Opening a Pull Request
 
 Most people submit pull requests to the tldr-pages project
 [using GitHub's web interface][pr-howto].
@@ -34,11 +34,15 @@ Typically a pull request will include changes in a single file.
 
 # Updating your fork
 
-Forks aren't updated automatically and in order to avoid merge conflicts it should be done manually and regularly. This is possible via the GitHub web interface by pressing `Fetch upstream` and `Fetch and merge` on the fork:
+Forks of GitHub repositories aren't updated automatically. In order to keep your fork of the repository up-to-date with the latest changes and avoid merge conflicts, you should update it regularly.
+
+There are two ways to update your fork.
+
+1. Via the GitHub web interface.  Click `Fetch upstream` and then `Fetch and merge` on the fork:
 
 ![Fetch and merge button in GitHub](https://user-images.githubusercontent.com/50295997/119873818-393e2000-bf25-11eb-8a0a-b804c293439b.png).
 
-Alternatively it can also be done using Git in the terminal:
+2. Using Git in the terminal:
 
 ```bash
 git checkout main
@@ -54,5 +58,5 @@ If the email that you used for a commit isn't added to your GitHub account, you 
 
 ```bash
 git commit --amend --author="Name <new.email@example.com>"
-git push --force
+git push --force-with-lease
 ```
