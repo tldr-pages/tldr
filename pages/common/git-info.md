@@ -4,7 +4,7 @@
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-info>.
 
-- Display repository information about remote locations, remote and local branches, most recent commit data and `.git/config` settings:
+- Display remote locations, remote and local branches, most recent commit data and `.git/config` settings:
 
 `git info`
 
