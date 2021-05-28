@@ -4,7 +4,7 @@
 > See also: `virsh`.
 > More information: <https://manned.org/virsh>.
 
-- Enable autostart for the storage pool specified by name or UUID (determine the name or UUID using `virsh pool-list`):
+- Enable autostart for the storage pool specified by name or UUID (determine using `virsh pool-list`):
 
 `virsh pool-autostart --pool {{name|uuid}}`
 
