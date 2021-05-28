@@ -8,6 +8,6 @@
 
 `git setup`
 
-- Create a Git repository in a specific directory, add all files and make a commit with the added files:
+- Create a Git repository in a specific directory and commit all files:
 
 `git setup {{path/to/directory}}`
