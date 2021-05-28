@@ -4,7 +4,7 @@
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-setup>.
 
-- Create a Git repository in the current directory, add all files and make a commit with the added files:
+- Create a Git repository in the current directory and commit all files:
 
 `git setup`
 
