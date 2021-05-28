@@ -46,10 +46,10 @@ There are two ways to update your fork.
 
 ```bash
 git checkout main
-git remote add upstream https://tldr-pages/tldr.git # only run this if you don't already have the upstream remote for https://github.com/tldr-pages/tldr.git
+git remote add upstream https://tldr-pages/tldr.git  # only run if you don't already have the upstream remote (check with "git remote -v")
 git fetch upstream main
 git rebase upstream/main
-git push --force # not needed if you only want to update your local repository
+git push --force-with-lease  # not needed if you only want to update your local repository
 ```
 
 # Changing the email of your last commit
@@ -57,6 +57,6 @@ git push --force # not needed if you only want to update your local repository
 If the email that you used for a commit isn't added to your GitHub account, you can either add it [here](https://github.com/settings/emails) or change the email of your last commit with the following commands:
 
 ```bash
-git commit --amend --author="Name <new.email@example.com>"
+git commit --amend --author="Your Name <new.email@example.com>"
 git push --force-with-lease
 ```
