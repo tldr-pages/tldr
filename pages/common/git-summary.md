@@ -8,7 +8,7 @@
 
 `git summary`
 
-- Display data about a Git repository since a commit-ish
+- Display data about a Git repository since a commit-ish:
 
 `git summary {{commit-ish}}`
 
