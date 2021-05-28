@@ -4,6 +4,6 @@
 > See also: `virsh`.
 > More information: <https://manned.org/virsh>.
 
-- Delete the underlying storage system for the storage pool specified by name or UUID (determine the name or UUID using `virsh pool-list`):
+- Delete the underlying storage system for the storage pool specified by name or UUID (determine using `virsh pool-list`):
 
 `virsh pool-delete --pool {{name|uuid}}`
