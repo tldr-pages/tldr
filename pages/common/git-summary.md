@@ -4,7 +4,7 @@
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-summary>.
 
-- Display data about a Git repository (see description for more information):
+- Display data about a Git repository:
 
 `git summary`
 
