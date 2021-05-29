@@ -6,7 +6,7 @@
 
 `sudo lshw -X`
 
-- List all hardwares in tabular format:
+- List all hardware in tabular format:
 
 `sudo lshw -short`
 

@@ -15,7 +15,7 @@
 
 `redis-cli -h {{host}} -p {{port}}`
 
-- Connect to a remote server specifying an URI:
+- Connect to a remote server specifying a URI:
 
 `redis-cli -u {{uri}}`
 

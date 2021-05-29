@@ -10,6 +10,6 @@
 
 `lsscsi -L`
 
-- List all SCSI devices with human readable disk capacity:
+- List all SCSI devices with human-readable disk capacity:
 
 `lsscsi -s`

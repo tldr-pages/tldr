@@ -3,7 +3,7 @@
 > CLI program to copy/sync/move files and directories to and from many cloud services.
 > More information: <https://rclone.org>.
 
-- List contents of a directory on an rclone remote:
+- List contents of a directory on a rclone remote:
 
 `rclone lsf {{remote_name}}:{{path/to/directory}}`
 

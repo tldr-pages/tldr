@@ -23,6 +23,6 @@
 
 `ionic cordova run {{android|ios}} --device`
 
-- Check the health of a ionic app:
+- Check the health of an ionic app:
 
 `ionic doctor {{check}}`

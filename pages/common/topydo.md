@@ -11,7 +11,7 @@
 
 `topydo add "(A) {{todo _message}} due:{{1d}}"`
 
-- Add a todo with a due date of friday:
+- Add a todo with a due date of Friday:
 
 `topydo add "{{todo_message}} due:{{fri}}"`
 

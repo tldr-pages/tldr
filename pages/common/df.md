@@ -7,7 +7,7 @@
 
 `df`
 
-- Display all filesystems and their disk usage in human readable form:
+- Display all filesystems and their disk usage in human-readable form:
 
 `df -h`
 

@@ -15,7 +15,7 @@
 
 `compgen -A function`
 
-- Show shell reserved key words:
+- Show shell reserved keywords:
 
 `compgen -k`
 

@@ -23,6 +23,6 @@
 
 `qpdf --rotate={{90:2,4,6}} --rotate={{180:7-8}} {{input.pdf}} {{output.pdf}}`
 
-- Remove the password from a password protected file:
+- Remove the password from a password-protected file:
 
 `qpdf --password={{password}} --decrypt {{input.pdf}} {{output.pdf}}`

@@ -14,7 +14,7 @@
 
 `ssh-keygen -t ed25519 -a 100`
 
-- Generate an RSA 4096 bit key with email as a comment:
+- Generate an RSA 4096-bit key with email as a comment:
 
 `ssh-keygen -t rsa -b 4096 -C "{{email}}"`
 

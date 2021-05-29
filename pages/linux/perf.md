@@ -6,7 +6,7 @@
 
 `perf stat {{gcc hello.c}}`
 
-- Display system-wide real time performance counter profile:
+- Display system-wide real-time performance counter profile:
 
 `sudo perf top`
 
