@@ -3,7 +3,7 @@
 > Display current user and group identity.
 > More information: <https://www.gnu.org/software/coreutils/id>.
 
-- Display current user's id (UID), group id (GID) and groups to which they belong:
+- Display current user's ID (UID), group ID (GID) and groups to which they belong:
 
 `id`
 
@@ -15,6 +15,6 @@
 
 `id -g`
 
-- Display an arbitrary user's id (UID), group id (GID) and groups to which they belong:
+- Display an arbitrary user's ID (UID), group ID (GID) and groups to which they belong:
 
 `id {{username}}`

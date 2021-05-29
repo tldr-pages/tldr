@@ -20,11 +20,11 @@
 
 `t {{message}}`
 
-- Retweet the tweet with given id (id is beside the time):
+- Retweet the tweet with given ID (ID is beside the time):
 
 `rt {{tweet_id}}`
 
-- Favorite the tweet with given id:
+- Favorite the tweet with given ID:
 
 `fav {{tweet_id}}`
 
