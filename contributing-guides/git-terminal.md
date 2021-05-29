@@ -46,7 +46,7 @@ There are two ways to update your fork.
 
 ```bash
 git checkout main
-git remote add upstream https://tldr-pages/tldr.git  # only run if you don't already have the upstream remote (check with "git remote -v")
+git remote add upstream https://github.com/tldr-pages/tldr.git  # only run if you don't already have the upstream remote (check with "git remote -v")
 git fetch upstream main
 git rebase upstream/main
 git push --force-with-lease  # not needed if you only want to update your local repository
