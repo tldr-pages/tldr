@@ -13,15 +13,11 @@
 
 - Add entry with auto-generated password:
 
-`keepassxc-cli add -g {{database_file}} {{entry_name}}`
+`keepassxc-cli add --generate {{database_file}} {{entry_name}}`
 
-- Generate a char password with lower and upper cases, numbers and special characters:
+- Delete an entry :
 
-`keepassxc-cli generate -lUns -L {{16}}`
-
-- Generate a passphrase with `7` words:
-
-`keepassxc-cli diceware -W {{7}}`
+`keepassxc-cli rm {{database_file}} {{entry_name}}`
 
 - Copy an entry's password to the clipboard:
 
@@ -29,8 +25,12 @@
 
 - Copy TOTP to the clipboard:
 
-`keepassxc-cli clip -t {{database_file}} {{entry_name}}`
+`keepassxc-cli clip --totp {{database_file}} {{entry_name}}`
 
-- Delete an entry :
+- Generate a passphrase with `7` words:
 
-`keepassxc-cli rm {{database_file}} {{entry_name}}`
+`keepassxc-cli diceware --words {{7}}`
+
+- Generate a char password with lower and upper cases, numbers and special characters:
+
+`keepassxc-cli generate --lower -upper --numeric --special -length {{16}}`
