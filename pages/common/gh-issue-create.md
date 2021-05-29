@@ -11,9 +11,9 @@
 
 `gh issue create --label "{{bug}}"`
 
-- Create a new issue interactively and assign it to 2 users:
+- Create a new issue interactively and assign it to the specified users:
 
-`gh issue create --assignee {{user1,user2}}`
+`gh issue create --assignee {{user1,user2,...}}`
 
 - Create a new issue with a title, body and assigned to the current user:
 
