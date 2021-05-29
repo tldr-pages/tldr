@@ -6,4 +6,4 @@
 
 - Display all commit hashes and corresponding commit messages from a specific author:
 
-`git contrib {{user_name}}`
+`git contrib {{username}}`
