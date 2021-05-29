@@ -12,7 +12,7 @@
 
 `rg --no-ignore --hidden {{regular_expression}}`
 
-- Search for a regular expression only in a certain filetype (e.g., html, css, etc.):
+- Search for a regular expression only in a certain filetype (e.g., HTML, CSS, etc.):
 
 `rg --type {{filetype}} {{regular_expression}}`
 

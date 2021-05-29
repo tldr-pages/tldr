@@ -12,7 +12,7 @@
 
 `latexmk {{source.tex}}`
 
-- Compile a pdf document:
+- Compile a PDF document:
 
 `latexmk -pdf {{source.tex}}`
 

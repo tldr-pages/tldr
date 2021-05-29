@@ -15,7 +15,7 @@
 
 `afinfo -i {{path/to/file}}`
 
-- Print output in xml format:
+- Print output in XML format:
 
 `afinfo -x {{path/to/file}}`
 
