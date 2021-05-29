@@ -17,4 +17,4 @@
 
 - Mencari baris-baris dalam file yang mengandung teks tertentu beserta nomor barisnya:
 
-`find {{string}} {{path/to/file_or_directory}} /n`
+`find {{teks}} {{jalan/menuju/file_atau_direktori}} /n`
