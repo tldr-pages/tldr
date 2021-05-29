@@ -7,11 +7,11 @@
 
 `mongoexport --uri={{mongodb_uri}} --collection={{collection_name}}`
 
-- Export documents that match with a query to a JSON file:
+- Export documents that match a query to a JSON file:
 
 `mongoexport --db={{database_name}} --collection={{collection_name}} --query="{{query_object}}" --out={{path/to/file.json}}`
 
-- Export documents to a JSON array instead of one object per line:
+- Export documents as a JSON array instead of one object per line:
 
 `mongoexport --collection={{collection_name}} --jsonArray`
 
@@ -19,7 +19,7 @@
 
 `mongoexport --collection={{collection_name}} --type={{csv}} --fields="{{field1,field2,...}}" --out={{path/to/file.csv}}`
 
-- Export documents that match the query in the specified file to a CSV file, omitting a list of field names on first line:
+- Export documents that match the query in the specified file to a CSV file, omitting the list of field names on the first line:
 
 `mongoexport --collection={{collection_name}} --type={{csv}} --fields="{{field1,field2,...}}" --queryFile={{path/to/file}} --noHeaderLine --out={{path/to/file.csv}}`
 
