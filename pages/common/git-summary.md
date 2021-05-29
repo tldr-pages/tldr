@@ -1,6 +1,6 @@
 # git summary
 
-> Display data about a Git repository, gives the following information: repository name, repository age, days active, total amount of commits, total amount of files and committer information.
+> Display information about a Git repository.
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-summary>.
 
