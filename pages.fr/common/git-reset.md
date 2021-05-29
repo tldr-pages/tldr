@@ -13,9 +13,9 @@
 
 `git reset {{chemin/vers/fichier(s)}}`
 
-- Enlever une portion d'un fichier de la *zone de stage* :
+- Enlever, en mode interactif, des fichiers spécifiques de l’index :
 
-`git reset -p {{chemin/vers/fichier}}`
+`git reset --patch {{chemin/vers/fichier}}`
 
 - Annuler le dernier *commit*, mais garder les changements effectués dans votre système de fichier :
 
