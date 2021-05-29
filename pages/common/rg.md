@@ -20,7 +20,7 @@
 
 `rg {{regular_expression}} {{set_of_subdirs}}`
 
-- Search for a regular expression in files matching a glob (e.g., `README.*`):
+- Search for a regular expression in files matching a glob (e.g. `README.*`):
 
 `rg {{regular_expression}} --glob {{glob}}`
 
