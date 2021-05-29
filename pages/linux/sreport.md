@@ -11,6 +11,6 @@
 
 `sreport job sizes printjobcount`
 
-- Show users with the highest cpu time use:
+- Show users with the highest CPU time use:
 
 `sreport user topuser`
