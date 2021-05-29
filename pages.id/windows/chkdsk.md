@@ -3,18 +3,18 @@
 > Memeriksa dan mencari kesalahan dalam sebuah sistem file dan metadata volume penyimpanan.
 > Informasi lebih lanjut: <https://docs.microsoft.com/windows-server/administration/windows-commands/chkdsk>.
 
-- Memeriksa sebuah volume penyimpanan berdasarkan huruf drive (diakhiri dengan titik dua), lokasi pemasangan, atau nama volume:
+- Memeriksa sebuah ruang penyimpanan berdasarkan huruf drive (diakhiri dengan titik dua), lokasi pemasangan, atau nama ruang:
 
-`chkdsk {{volume}}`
+`chkdsk {{ruang_penyimpanan}}`
 
-- Memperbaiki kesalahan pada volume penyimpanan yang ditentukan:
+- Memperbaiki kesalahan pada ruang penyimpanan yang ditentukan:
 
-`chkdsk {{volume}} /f`
+`chkdsk {{ruang_penyimpanan}} /f`
 
-- Melepas volume penyimpanan tertentu untuk pemeriksaan:
+- Melepas ruang penyimpanan tertentu untuk pemeriksaan:
 
-`chkdsk {{volume}} /x`
+`chkdsk {{ruang_penyimpanan}} /x`
 
-- Mengubah ukuran file log dalam sebuah volume dengan sistem file NTFS:
+- Mengubah ukuran file log dalam sebuah ruang penyimpanan dengan sistem file NTFS:
 
 `chkdsk /l{{ukuran}}`
