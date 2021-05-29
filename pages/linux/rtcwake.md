@@ -14,7 +14,7 @@
 
 `sudo rtcwake -m disk --date +{{15}}min`
 
-- Freeze the system (more efficient than suspend-to-RAM but linux > 3.9 required) and wakeup at a given date and time:
+- Freeze the system (more efficient than suspend-to-RAM but Linux > 3.9 required) and wakeup at a given date and time:
 
 `sudo rtcwake -m freeze --date {{YYYYMMDDhhmm}}`
 
