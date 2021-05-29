@@ -1,6 +1,6 @@
 # perf
 
-> Framework for linux performance counter measurements.
+> Framework for Linux performance counter measurements.
 
 - Display basic performance counter stats for a command:
 
