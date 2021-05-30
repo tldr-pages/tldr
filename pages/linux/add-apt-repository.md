@@ -1,6 +1,7 @@
 # add-apt-repository
 
 > Manages apt repository definitions.
+> More information: <https://packages.debian.org/buster/software-properties-common>.
 
 - Add a new apt repository:
 

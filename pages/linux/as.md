@@ -2,6 +2,7 @@
 
 > Portable GNU assembler.
 > Primarily intended to assemble output from `gcc` to be used by `ld`.
+> More information: <https://www.gnu.org/software/binutils/>.
 
 - Assemble a file, writing the output to `a.out`:
 

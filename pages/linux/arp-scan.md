@@ -1,6 +1,7 @@
 # arp-scan
 
 > Send ARP packets to hosts (specified as IP addresses or hostnames) to scan the local network.
+> More information: <https://github.com/royhills/arp-scan>.
 
 - Scan the current local network:
 

@@ -1,6 +1,7 @@
 # addr2line
 
 > Convert addresses of a binary into file names and line numbers.
+> More information: <https://www.gnu.org/software/binutils/>.
 
 - Display the filename and line number of the source code from an instruction address of an executable:
 
