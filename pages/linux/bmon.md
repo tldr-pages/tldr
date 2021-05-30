@@ -1,6 +1,7 @@
 # bmon
 
 > Monitor bandwidth and capture network related statistics.
+> More information: <https://github.com/tgraf/bmon>.
 
 - Display the list of all the interfaces:
 

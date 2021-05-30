@@ -1,6 +1,7 @@
 # brctl
 
 > Ethernet bridge administration.
+> More information: <https://www.netfilter.org/>.
 
 - Show a list with information about currently existing ethernet bridges:
 

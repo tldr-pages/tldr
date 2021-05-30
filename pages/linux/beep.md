@@ -1,6 +1,7 @@
 # beep
 
 > A utility to beep the PC speaker.
+> More information: <http://www.johnath.com/beep/README>.
 
 - Play a beep:
 

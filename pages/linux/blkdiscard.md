@@ -1,6 +1,7 @@
 # blkdiscard
 
 > Discards device sectors on storage devices. Useful for SSDs.
+> More information: <https://github.com/karelzak/util-linux>.
 
 - Discard all sectors on a device, removing all data:
 
