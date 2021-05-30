@@ -1,6 +1,7 @@
 # calc
 
 > An interactive arbitrary-precision calculator on the terminal.
+> More information: <https://www.isthe.com/chongo/tech/comp/calc/>.
 
 - Start calc in interactive mode:
 

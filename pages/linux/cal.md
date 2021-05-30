@@ -1,6 +1,7 @@
 # cal
 
 > Prints calendar information, with the current day highlighted.
+> More information: <https://github.com/karelzak/util-linux>.
 
 - Display a calendar for the current month:
 

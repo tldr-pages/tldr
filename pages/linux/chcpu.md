@@ -1,6 +1,7 @@
 # chcpu
 
 > Enable/disable a system's CPUs.
+> More information: <https://github.com/karelzak/util-linux>.
 
 - Disable CPUs via a list of CPU ID numbers:
 

@@ -1,6 +1,7 @@
 # cpufreq-info
 
 > A tool to show CPU frequency information.
+> More information: <https://github.com/karelzak/util-linux>.
 
 - Show CPU frequency information for all CPUs:
 
