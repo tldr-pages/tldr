@@ -1,6 +1,6 @@
 # kscreen-doctor
 
-> kscreen-doctor allows changing the screen setup from the command-line.
+> KScreen Doctor allows changing the screen setup from the command-line.
 > More information: <https://invent.kde.org/plasma/libkscreen>.
 
 - Show display output information:
