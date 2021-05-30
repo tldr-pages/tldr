@@ -1,7 +1,7 @@
 # blkid
 
 > Lists all recognized partitions and their Universally Unique Identifier (UUID).
-> More information: <https://github.com/karelzak/util-linux>.
+> More information: <https://manned.org/blkid>.
 
 - List all partitions:
 

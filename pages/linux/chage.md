@@ -1,7 +1,7 @@
 # chage
 
 > Change user account and password expiry information.
-> More information: <https://github.com/shadow-maint/shadow>.
+> More information: <https://manned.org/chage>.
 
 - List password information for the user:
 

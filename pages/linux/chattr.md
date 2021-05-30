@@ -1,7 +1,7 @@
 # chattr
 
 > Change attributes of files or directories.
-> More information: <http://e2fsprogs.sourceforge.net/>.
+> More information: <https://manned.org/chattr>.
 
 - Make a file or directory immutable to changes and deletion, even by superuser:
 

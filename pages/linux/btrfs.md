@@ -1,7 +1,7 @@
 # btrfs
 
 > A filesystem based on the copy-on-write (COW) principle for Linux.
-> More information: <https://btrfs.wiki.kernel.org/index.php/Main_Page>.
+> More information: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs>.
 
 - Create subvolume:
 

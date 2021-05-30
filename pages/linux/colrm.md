@@ -1,7 +1,7 @@
 # colrm
 
 > Remove columns from stdin.
-> More information: <https://github.com/karelzak/util-linux>.
+> More information: <https://manned.org/colrm>.
 
 - Remove first column of stdin:
 

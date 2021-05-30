@@ -1,7 +1,7 @@
 # chfn
 
 > Update `finger` info for a user.
-> More information: <https://github.com/karelzak/util-linux>.
+> More information: <https://manned.org/chfn>.
 
 - Update a user's "Name" field in the output of `finger`:
 
