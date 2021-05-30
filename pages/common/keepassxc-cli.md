@@ -1,36 +1,36 @@
 # keepassxc-cli
 
-> Command Line interface for the keepassxc app.
+> Command-line interface for KeepassXC.
 > More information: <https://keepassxc.org/>.
 
 - Search entries:
 
-`keepassxc-cli lookup {{database_file}} {{name}}`
+`keepassxc-cli lookup {{/path/to/database_file}} {{name}}`
 
-- List a folder:
+- List the contents a folder:
 
-`keepassxc-cli ls {{database_file}} {{folder_name}}`
+`keepassxc-cli ls {{/path/to/database_file}} {{folder_name}}`
 
-- Add entry with auto-generated password:
+- Add an entry with an auto-generated password:
 
-`keepassxc-cli add --generate {{database_file}} {{entry_name}}`
+`keepassxc-cli add --generate {{/path/to/database_file}} {{entry_name}}`
 
-- Delete an entry :
+- Delete an entry:
 
-`keepassxc-cli rm {{database_file}} {{entry_name}}`
+`keepassxc-cli rm {{/path/to/database_file}} {{entry_name}}`
 
 - Copy an entry's password to the clipboard:
 
-`keepassxc-cli clip {{database_file}} {{entry_name}}`
+`keepassxc-cli clip {{/path/to/database_file}} {{entry_name}}`
 
 - Copy TOTP to the clipboard:
 
-`keepassxc-cli clip --totp {{database_file}} {{entry_name}}`
+`keepassxc-cli clip --totp {{/path/to/database_file}} {{entry_name}}`
 
-- Generate a passphrase with `7` words:
+- Generate a passphrase with 7 words:
 
 `keepassxc-cli diceware --words {{7}}`
 
-- Generate a char password with lower and upper cases, numbers and special characters:
+- Generate a password with printable ASCII characters:
 
 `keepassxc-cli generate --lower -upper --numeric --special -length {{16}}`
