@@ -1,6 +1,7 @@
 # dmesg
 
 > Write the kernel messages to standard output.
+> More information: <https://github.com/karelzak/util-linux>.
 
 - Show kernel messages:
 

@@ -1,6 +1,7 @@
 # dbus-daemon
 
 > The D-Bus message daemon, allowing multiple programs to exchange messages.
+> More information: <https://www.freedesktop.org/wiki/Software/dbus/>.
 
 - Run the daemon with a configuration file:
 

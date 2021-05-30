@@ -1,6 +1,7 @@
 # dpkg-query
 
 > A tool that shows information about installed packages.
+> More information: <https://wiki.debian.org/dpkg>.
 
 - List all installed packages:
 

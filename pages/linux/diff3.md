@@ -1,6 +1,7 @@
 # diff3
 
 > Compare three files line by line.
+> More information: <http://savannah.gnu.org/projects/diffutils/>.
 
 - Compare files:
 

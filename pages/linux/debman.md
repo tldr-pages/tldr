@@ -1,6 +1,7 @@
 # debman
 
 > Read man pages from uninstalled packages.
+> More information: <https://packages.debian.org/buster/debian-goodies>.
 
 - Read a man page for a command that is provided by a specified package name:
 

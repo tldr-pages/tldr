@@ -1,6 +1,7 @@
 # debugfs
 
 > An interactive ext2/ext3/ext4 filesystem debugger.
+> More information: <http://e2fsprogs.sourceforge.net/>.
 
 - Open the filesystem in read only mode:
 
