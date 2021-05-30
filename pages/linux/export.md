@@ -1,6 +1,7 @@
 # export
 
 > Command to mark shell variables in the current environment to be exported with any newly forked child processes.
+> More information: <https://manned.org/export>.
 
 - Set a new environment variable:
 
