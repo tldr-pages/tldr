@@ -15,7 +15,7 @@
 
 `gh issue create --assignee {{user1,user2,...}}`
 
-- Create a new issue with a title, body and assigned to the current user:
+- Create a new issue with a title, body and assign it to the current user:
 
 `gh issue create --title "{{title}}" --body "{{body}}" --assignee "{{@me}}"`
 
