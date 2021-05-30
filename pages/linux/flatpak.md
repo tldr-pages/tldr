@@ -1,6 +1,7 @@
 # flatpak
 
 > Build, install and run flatpak applications and runtimes.
+> More information: <https://manned.org/flatpak>.
 
 - Run an installed application:
 

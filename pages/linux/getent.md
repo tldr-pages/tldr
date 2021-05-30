@@ -1,6 +1,7 @@
 # getent
 
 > Get entries from Name Service Switch libraries.
+> More information: <https://manned.org/getent>.
 
 - Get list of all groups:
 
