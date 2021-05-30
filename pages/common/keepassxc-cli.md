@@ -31,6 +31,6 @@
 
 `keepassxc-cli diceware --words {{7}}`
 
-- Generate a password with printable ASCII characters:
+- Generate a password with 16 printable ASCII characters:
 
 `keepassxc-cli generate --lower -upper --numeric --special -length {{16}}`
