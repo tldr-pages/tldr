@@ -28,7 +28,7 @@
 
 `mvn clean package`
 
-- 执行清理操作并使用给定的构建配置打包代码，比如profileId如果有dev、test、pro，可以指定其中一个 `profileId` 用来选择具体执行环境：
+- 执行清理操作并使用给定的构建配置打包代码，比如 `profileId` 如果有dev、test、pro，可以指定其中一个 `profileId` 用来选择具体执行环境：
 
 `mvn clean -P{{profileId}} package`
 
