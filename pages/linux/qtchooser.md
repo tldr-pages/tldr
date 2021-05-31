@@ -13,12 +13,12 @@
 
 - Run the specified tool using the specified Qt version:
 
-`qtchooser --run-tool={{tool}} -qt={{version_name}}`
+`qtchooser --run-tool={{tool}} --qt={{version_name}}`
 
 - Add a Qt version entry to be able to choose from:
 
 `qtchooser --install {{version_name}} {{path/to/qmake}}`
 
-- Output all available options:
+- Display all available options:
 
 `qtchooser --help`
