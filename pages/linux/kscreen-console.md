@@ -19,14 +19,14 @@
 
 `kscreen-console monitor`
 
-- Show the current KScreen config in JSON:
+- Show the current KScreen configuration in JSON:
 
 `kscreen-console json`
 
-- Displays help on command-line options:
+- Display help on command-line options:
 
 `kscreen-console --help`
 
-- Displays help including Qt specific command-line options:
+- Display help including Qt specific command-line options:
 
 `kscreen-console --help-all`
