@@ -19,7 +19,7 @@
 
 `dd if=/dev/zero of={{file_1GB}} bs=1024 count=1000000`
 
-- Generate a system backup into a img file and show the progress:
+- Generate a system backup into a IMG file and show the progress:
 
 `dd if=/dev/{{drive_device}} of={{/path/to/file.img}} status=progress`
 
