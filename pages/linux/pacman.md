@@ -27,7 +27,7 @@
 
 `pacman -Qe`
 
-- List orphan dependencies:
+- List orphan packages (installed as dependencies but not required by any package):
 
 `pacman -Qtdq`
 
