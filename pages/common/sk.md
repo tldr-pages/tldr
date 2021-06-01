@@ -1,7 +1,7 @@
 # sk
 
-> skim is a fuzzy finder written in rust.
-> Similar to fzf.
+> Skim is a fuzzy finder written in rust.
+> Similar to `fzf`.
 > More information: <https://github.com/lotabout/skim>.
 
 - Start finder on all files from arbitrary locations:
