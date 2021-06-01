@@ -137,7 +137,15 @@ Not translated yet.
 ---
 ### it
 
-Not translated yet.
+```markdown
+# example
+
+> Questo comando è un alias per `example`.
+
+- Consulta la documentazione del comando originale:
+
+`tldr example`
+```
 
 ---
 ### ja
