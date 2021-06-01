@@ -27,9 +27,9 @@
 
 `pacman -Qe`
 
-- Find which package owns a certain file:
+- List orphan dependencies:
 
-`pacman -Qo {{filename}}`
+`pacman -Qtdq`
 
 - Empty package cache to free up space:
 
