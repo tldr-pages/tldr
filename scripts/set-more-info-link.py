@@ -5,6 +5,7 @@ import re
 import subprocess
 import sys
 
+manurl = 'https://manned.org/'
 labels = {
     'en': 'More information:',
     'bs': 'Više informacija:',
@@ -104,7 +105,9 @@ def main():
                         help='page name in the format "platform/command.md"')
     parser.add_argument('-s', '--stage', action='store_true', default=False,
                         help='stage modified pages (requires `git` to be on $PATH and TLDR_ROOT to be a Git repository)')
-    parser.add_argument('link', type=str)
+    parser.add_argument('-m', '--man', action='store_true', dest='man',
+                        default=False, help='Automatically add the manpage for the package as the URL')
+    parser.add_argument('link', type=str, nargs='?')
     args = parser.parse_args()
 
     root = get_tldr_root()
@@ -114,7 +117,10 @@ def main():
     rel_paths = []
 
     if not args.page.lower().endswith('.md'):
+        package = args.page.lower()
         args.page = f'{args.page}.md'
+    else:
+        package = args.page.lower().rstrip('.md')
 
     for pages_dir in pages_dirs:
         pages_dir_path = os.path.join(root, pages_dir)
@@ -130,11 +136,20 @@ def main():
                 target_paths.append(path)
 
     target_paths.sort()
+    if args.man is True:
+        osl = ['android/', 'common/', 'linux/', 'osx/', 'sunos/', 'windows/']
+        for i in osl:
+            if package.startswith(i):
+                p2 = package.lstrip(i)
+                link = manurl + p2
+                break
+    else:
+        link = args.link
 
     for path in target_paths:
         rel_path = path.replace(f'{root}/', '')
         rel_paths.append(rel_path)
-        status = set_link(path, args.link)
+        status = set_link(path, link)
         if status != '':
             print(f'\x1b[32m{rel_path} {status}\x1b[0m')
 
