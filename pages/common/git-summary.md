@@ -10,7 +10,7 @@
 
 - Display data about a Git repository since a commit-ish:
 
-`git summary {{commit-ish}}`
+`git summary {{commit|branch_name|tag_name}}`
 
 - Display data about a Git repository, merging committers using different emails into 1 statistic:
 
