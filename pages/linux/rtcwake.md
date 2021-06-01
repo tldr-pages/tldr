@@ -1,6 +1,6 @@
 # rtcwake
 
-> Enter a system sleep state until specified wakeup time relative to your bios clock.
+> Enter a system sleep state until specified wakeup time relative to your BIOS clock.
 
 - Show whether an alarm is set or not:
 

@@ -20,7 +20,7 @@
 
 `aws sts get-caller-identity`
 
-- List AWS resources in a region and output in yaml:
+- List AWS resources in a region and output in YAML:
 
 `aws dynamodb list-tables --region {{us-east-1}} --output yaml`
 

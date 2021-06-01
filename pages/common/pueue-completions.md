@@ -1,9 +1,9 @@
 # pueue completions
 
-> Generates shell completion files for bash, elvish, fish, powershell, and zsh.
+> Generates shell completion files for Bash, elvish, fish, PowerShell, and zsh.
 > More information: <https://github.com/Nukesor/pueue>.
 
-- Generate completions for bash:
+- Generate completions for Bash:
 
 `sudo pueue completions bash {{/usr/share/bash-completion/completions/pueue.bash}}`
 

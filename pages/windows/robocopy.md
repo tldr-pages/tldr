@@ -20,7 +20,7 @@
 
 `robocopy {{path/to/source}} {{path/to/destination}} /E /XO`
 
-- List all files 50 MBytes or larger in size instead of copying them:
+- List all files 50 MB or larger instead of copying them:
 
 `robocopy {{path/to/source}} {{path/to/destination}} /MIN:52428800 /L`
 

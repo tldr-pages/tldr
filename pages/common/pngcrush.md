@@ -1,13 +1,13 @@
 # pngcrush
 
-> PNG image compression utility.
+> PNG compression utility.
 > More information: <https://pmt.sourceforge.io/pngcrush>.
 
 - Compress a PNG file:
 
 `pngcrush {{in.png}} {{out.png}}`
 
-- Compress all PNGs and output to directory:
+- Compress all PNGs and output them to the specified directory:
 
 `pngcrush -d {{path/to/output}} *.png`
 

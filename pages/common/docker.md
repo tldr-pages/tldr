@@ -23,7 +23,7 @@
 
 `docker pull {{image}}`
 
-- Open a shell inside of an already running container:
+- Open a shell inside an already running container:
 
 `docker exec -it {{container_name}} {{sh}}`
 

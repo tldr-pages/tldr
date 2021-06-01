@@ -1,10 +1,10 @@
 # flameshot
 
-> Screenshot utility with a gui interface.
+> Screenshot utility with a GUI.
 > Supports basic image editing, such as text, shapes, colors, and imgur.
 > More information: <https://flameshot.js.org>.
 
-- Launch flameshot in gui mode:
+- Launch flameshot in GUI mode:
 
 `flameshot launcher`
 

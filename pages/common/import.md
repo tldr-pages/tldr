@@ -7,7 +7,7 @@
 
 `import -window root {{output.postscript}}`
 
-- Capture contents of a remote X server screen in the PNG image format:
+- Capture contents of a remote X server screen in the PNG format:
 
 `import -window root -display {{remote_host}}:{screen}.{display} {{output.png}}`
 
