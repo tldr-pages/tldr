@@ -11,6 +11,6 @@
 
 `jhat -p {{port}} {{dump_file.bin}}`
 
-- Analyze a dump letting jhat use up to 8GB RAM (2-4x dump size recommended):
+- Analyze a dump letting jhat use up to 8 GB RAM (2-4x dump size recommended):
 
 `jhat -J-mx8G {{dump_file.bin}}`
