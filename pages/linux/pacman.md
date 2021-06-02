@@ -29,7 +29,7 @@
 
 - List orphan packages (installed as dependencies but not required by any package):
 
-`pacman -Qtdq`
+`pacman --query --unrequired --deps --quiet`
 
 - Empty package cache to free up space:
 
