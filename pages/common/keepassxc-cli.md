@@ -7,7 +7,7 @@
 
 `keepassxc-cli lookup {{path/to/database_file}} {{name}}`
 
-- List the contents a folder:
+- List the contents of a folder:
 
 `keepassxc-cli ls {{path/to/database_file}} {{/path/to/folder_name}}`
 
