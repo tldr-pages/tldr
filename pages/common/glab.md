@@ -1,6 +1,6 @@
 # glab
 
-> GitLab CLI tool to help working with GitLab from the command line.
+> GitLab CLI tool to help working with GitLab from the command-line.
 > More information: <https://github.com/profclems/glab>.
 
 - Create a merge request:
