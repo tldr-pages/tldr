@@ -33,4 +33,4 @@
 
 - Remove not installed packages and unused repositories from the cache (use two `--clean` flags to clean all packages):
 
-`pacman --sync cc`
+`pacman --sync --clean --clean`
