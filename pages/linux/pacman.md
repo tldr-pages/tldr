@@ -31,6 +31,6 @@
 
 `pacman --query --unrequired --deps --quiet`
 
-- Empty package cache to free up space:
+- Remove not installed packages and unused repositories from the cache (use two `--clean` flags to clean all packages):
 
 `pacman --sync cc`
