@@ -31,7 +31,3 @@
 - Resurrect previously dumped processes:
 
 `pm2 resurrect`
-
-- Launch monitoring:
-
-`pm2 monit`
