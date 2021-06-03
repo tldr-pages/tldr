@@ -19,6 +19,6 @@
 
 `flatpak-builder --gpg-sign={{key_id}} --repo={{repository_name}} {{path/to/manifest}}`
 
-- Run a shell inside of an applications sandbox without installing it:
+- Run a shell inside of an application sandbox without installing it:
 
 `flatpak-builder --run {{path/to/build_directory}} {{path/to/manifest}} sh`
