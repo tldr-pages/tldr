@@ -1,8 +1,9 @@
 # arp
 
 > Show and manipulate your system's ARP cache.
+> More information: <https://manned.org/arp>.
 
-- Show current arp table:
+- Show the current ARP table:
 
 `arp -a`
 
@@ -14,6 +15,6 @@
 
 `arp -d {{address}}`
 
-- Create an entry:
+- Create an entry in the ARP table:
 
 `arp -s {{address}} {{mac_address}}`

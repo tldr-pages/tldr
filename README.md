@@ -14,8 +14,8 @@
 [prs-merged-url]: https://github.com/tldr-pages/tldr/pulls?q=is:pr+is:merged
 [prs-merged-image]: https://img.shields.io/github/issues-pr-closed-raw/tldr-pages/tldr.svg?label=merged+PRs&color=green
 [contributors-url]: https://github.com/tldr-pages/tldr/graphs/contributors
-[contributors-image]: https://img.shields.io/github/contributors/tldr-pages/tldr.svg
-[license-url]: https://github.com/tldr-pages/tldr/blob/master/LICENSE.md
+[contributors-image]: https://img.shields.io/github/contributors-anon/tldr-pages/tldr.svg
+[license-url]: https://github.com/tldr-pages/tldr/blob/main/LICENSE.md
 [license-image]: https://img.shields.io/badge/license-CC_BY_4.0-blue.svg
 </div>
 
@@ -40,7 +40,7 @@ It certainly doesn't help that the first option explained in `man tar` is:
 There seems to be room for simpler help pages, focused on practical examples.
 How about:
 
-![screenshot of the tldr-node-client displaying the tldr page for the tar command](images/screenshot.png)
+![animated svg of the tldr client displaying the tar command](images/tldr.svg)
 
 This repository is just that: an ever-growing collection of examples
 for the most common UNIX, Linux, macOS, SunOS and Windows command-line tools.
@@ -60,7 +60,7 @@ However, if you just want to browse without installing anything, check
 out the [PDF version](https://tldr.sh/assets/tldr-book.pdf).
 
 There are also various other clients provided by the community,
-both for the command line and for other platforms:
+both for the command-line and for other platforms:
 
 - Alfred Workflow
   - [tldr-alfred](https://github.com/cs1707/tldr-alfred)
@@ -88,6 +88,7 @@ both for the command line and for other platforms:
 - [Discord Bot](https://github.com/sschr15/tldr-discord):
   [Follow the building instructions](https://github.com/sschr15/tldr-discord#building) or
   [use a privately hosted version](https://discord.com/api/oauth2/authorize?client_id=742800507210301520&permissions=18432&scope=bot)
+- [Discord Slash Command Bot](https://github.com/Epictek/tldr-Discord): use the [hosted instance](https://discord.com/api/oauth2/authorize?client_id=839254228736278579&permissions=0&scope=applications.commands%20bot) or view the [readme](https://github.com/Epictek/tldr-Discord#self-host-guide) for self hosting instructions.
 - Docker images:
     - [tldr-docker](https://github.com/nutellinoit/tldr-docker) - Run the `tldr` command via a docker container: `alias tldr='docker run --rm -it -v ~/.tldr/:/root/.tldr/ nutellinoit/tldr'`
 - Elixir clients:
@@ -109,6 +110,9 @@ both for the command line and for other platforms:
   - [github.com/isacikgoz/tldr](https://github.com/isacikgoz/tldr):
     `go get github.com/isacikgoz/tldr`
     (or [platform binaries](https://github.com/isacikgoz/tldr/releases))
+  - [github.com/HardDie/myTldr](https://github.com/HardDie/myTldr):
+    `go get github.com/HardDie/myTldr`
+    (or [platform binaries](https://github.com/HardDie/myTldr/releases)) (supports custom pages directories)
 - iOS clients:
   - [tldr-man-page](https://github.com/freesuraj/TLDR), available on
     [App Store](https://appsto.re/sg/IQ0-_.i)
@@ -124,6 +128,7 @@ both for the command line and for other platforms:
 - [Node.js client](https://github.com/tldr-pages/tldr-node-client):
   `npm install -g tldr`
 - [OCaml client](https://github.com/RosalesJ/tldr-ocaml): `opam install tldr`
+- [Outfieldr](https://gitlab.com/ve-nt/outfieldr): A Zig client
 - [Perl5 client](https://github.com/skaji/perl-tldr):
   `cpanm App::tldr`
 - [PHP client](https://github.com/BrainMaestro/tldr-php):
@@ -146,7 +151,6 @@ both for the command line and for other platforms:
     - [tldr.jsx](https://github.com/ostera/tldr.jsx): http://tldr.ostera.io
     - [tldr.finzzz.net](https://git.finzzz.net/tldr/): https://tldr.finzzz.net
     - [DistroWatch](https://distrowatch.com/dwres.php?resource=man-pages)
-    - [tldr.ooops.me](https://tldr.ooops.me): web client with multilingual support
     - [TLDR Persian](https://opoet7.github.io/tldr-persian/): Web Client in Persian
 
 There is also a comprehensive
@@ -181,17 +185,17 @@ to see the current progress of all translations.
   the best entries are what people see first when they look up a command.
 
 - [kb](https://github.com/gnebbia/kb)
-  is a minimalist command line knowledge base manager.
+  is a minimalist command-line knowledge base manager.
   kb can be used to organize your notes and cheatsheets in a minimalist
   and clean way. It supports also non-text files.
 
 - [eg](https://github.com/srsudar/eg)
-  provides detailed examples with explanations on the command line.
+  provides detailed examples with explanations on the command-line.
   Examples come from the repository, but `eg` supports displaying
   custom examples and commands alongside the defaults.
 
 - [devhints](https://devhints.io/)
-  Rico's cheatsheets are not just focused on the command line and
+  Rico's cheatsheets are not just focused on the command-line and
   include a plethora of other cheatsheets related to programming.
 
 ## What does "tldr" mean?

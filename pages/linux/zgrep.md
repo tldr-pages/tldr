@@ -24,7 +24,7 @@
 
 - Use extended regular expressions (supporting `?`, `+`, `{}`, `()` and `|`):
 
-`zgrep -E {{^regex$}} {{path/to/file}}`
+`zgrep -E {{regular_expression}} {{path/to/file}}`
 
 - Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match:
 

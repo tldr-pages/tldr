@@ -1,7 +1,7 @@
 # cradle elastic
 
 > Verwalte ElasticSearch Instanzen einer Cradle Instanz.
-> Mehr Informationen: <https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-Tools.html#elastic>.
+> Weitere Informationen: <https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-Tools.html#elastic>.
 
 - Entleere den ElasticSearch Index:
 

@@ -24,11 +24,11 @@
 
 `nmap -T4 {{direccion_o_direcciones}}`
 
-- Escanea una lista específica de puertos (para todos los puertos 1-65535 usar -p-):
+- Escanea una lista específica de puertos (para todos los puertos `1-65535` usar `-p-`):
 
 `nmap -p {{puerto1,puerto2,…,puertoN}} {{direccion_o_direcciones}}`
 
-- Realiza un escaneo TCP y UDP (usar -sU para solo UDP, -sZ para SCTP, -sO para IP):
+- Realiza un escaneo TCP y UDP (usar `-sU` para solo UDP, `-sZ` para SCTP, `-sO` para IP):
 
 `nmap -sSU {{direccion_o_direcciones}}`
 

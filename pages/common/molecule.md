@@ -19,6 +19,6 @@
 
 `molecule converge`
 
-- Login into the instance:
+- Log in into the instance:
 
 `molecule login`

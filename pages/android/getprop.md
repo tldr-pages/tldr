@@ -1,9 +1,9 @@
 # getprop
 
-> Show information about adb devices and emulators.
+> Show information about Android system properties.
 > More information: <https://manned.org/getprop>.
 
-- Display information about the Android system properties:
+- Display information about Android system properties:
 
 `getprop`
 

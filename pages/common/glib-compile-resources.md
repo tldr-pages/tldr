@@ -2,6 +2,7 @@
 
 > Compiles resource files (e.g. images) into a binary resource bundle.
 > These may be linked into GTK applications using the GResource API.
+> More information: <https://manned.org/glib-compile-resources>.
 
 - Compile resources referenced in `file.gresource.xml` to a .gresource binary:
 

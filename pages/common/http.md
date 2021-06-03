@@ -5,11 +5,11 @@
 
 - Download a URL to a file:
 
-`http -d {{example.org}}`
+`http --download {{example.org}}`
 
 - Send form-encoded data:
 
-`http -f {{example.org}} {{name='bob'}} {{profile_picture@'bob.png'}}`
+`http --form {{example.org}} {{name='bob'}} {{profile_picture@'bob.png'}}`
 
 - Send JSON object:
 
@@ -25,7 +25,7 @@
 
 - Pass a user name and password for server authentication:
 
-`http -a {{username:password}} {{example.org}}`
+`http --auth {{username:password}} {{example.org}}`
 
 - Specify raw request body via stdin:
 

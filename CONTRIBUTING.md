@@ -14,7 +14,7 @@
 [contributors-image]: https://img.shields.io/github/contributors/tldr-pages/tldr.svg
 [cla-assistant-url]: https://cla-assistant.io/tldr-pages/tldr
 [cla-assistant-image]: https://cla-assistant.io/readme/badge/tldr-pages/tldr
-[license-url]: https://github.com/tldr-pages/tldr/blob/master/LICENSE.md
+[license-url]: https://github.com/tldr-pages/tldr/blob/main/LICENSE.md
 [license-image]: https://img.shields.io/badge/license-CC_BY_4.0-blue.svg
 
 Contributions to the tldr-pages project are [most welcome](GOVERNANCE.md)!
@@ -30,7 +30,7 @@ To get started, please [sign](https://cla-assistant.io/tldr-pages/tldr) the
 The basic format of a `tldr` page is a set of concrete usage examples.
 Here are a few guidelines to get started:
 
-1. Try to keep pages at around 5 examples. Pages can be longer if needed, but don't exceed 8 examples.
+1. Try to keep pages at around 5 examples. Pages can be longer or shorter when appropriate, but don't exceed 8 examples.
    Remember, it's OK if the page doesn't cover everything; that's what `man` is for.
 2. When in doubt, keep new command-line users in mind. Err on the side of clarity rather than terseness.
    For example, commands that require `sudo` should include it directly in the examples.
@@ -119,7 +119,7 @@ Check out the step-by-step instructions (with screenshots) on
 [GitHub Help](https://help.github.com/articles/editing-files-in-another-user-s-repository/).
 
 Alternatively, you can do most of the process
-[using Git on the command line](contributing-guides/git-terminal.md).
+[using Git on the command-line](contributing-guides/git-terminal.md).
 
 ### Commit message
 

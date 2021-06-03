@@ -3,7 +3,7 @@
 > Affiche les branches et leurs commits.
 > Plus d'informations : <https://git-scm.com/docs/git-show-branch>.
 
-- Affiche un resumé du dernier commit dans la branche :
+- Affiche un résumé du dernier commit dans la branche :
 
 `git show-branch {{nom_de_branche}}|ref|commit}}`
 
@@ -15,7 +15,7 @@
 
 `git show-branch --remotes`
 
-- Comparer le branche locale avec la branche distante :
+- Comparer la branche locale avec la branche distante :
 
 `git show-branch --all`
 
@@ -23,7 +23,7 @@
 
 `git show-branch --all --list`
 
-- Compareer une branche spécifique a la branche courante :
+- Comparer une branche spécifique à la branche courante :
 
 `git show-branch --current {{commit|branch_name|ref}}`
 

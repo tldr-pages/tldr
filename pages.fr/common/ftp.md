@@ -1,12 +1,12 @@
 # ftp
 
-> Outils permettant d'interragir avec un serveur avec le protocole FTP.
+> Outils permettant d'interagir avec un serveur avec le protocole FTP.
 
 - Se connecter à un serveur FTP :
 
 `ftp {{ftp.exemple.com}}`
 
-- Passer au mode de transfert binaire (medias, fichiers compressés, etc) :
+- Passer au mode de transfert binaire (médias, fichiers compressés, etc) :
 
 `binary`
 

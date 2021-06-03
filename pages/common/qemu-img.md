@@ -18,6 +18,6 @@
 
 `qemu-img map {{image_name.img}}`
 
-- Convert a VMWare .vmdk disk image to a KVM .qcow2 disk image:
+- Convert a VMware .vmdk disk image to a KVM .qcow2 disk image:
 
 `qemu-img convert -O qcow2 {{path/to/file/foo.vmdk}} {{path/to/file/foo.qcow2}}`

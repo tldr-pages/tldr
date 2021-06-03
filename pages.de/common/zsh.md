@@ -2,7 +2,7 @@
 
 > Z SHell.
 > Mit `bash` und `sh` kompatible Eingabeaufforderung.
-> Mehr Informationen: <https://www.zsh.org>.
+> Weitere Informationen: <https://www.zsh.org>.
 
 - Starte eine interaktive Eingabeaufforderung:
 
@@ -18,4 +18,8 @@
 
 - Führe Befehle aus einem Skript aus und schreibe die Befehle in die Konsole:
 
-`zsh -x {{pfad/zu/skript}}`
+`zsh --xtrace {{pfad/zu/skript}}`
+
+- Starte eine interaktive Eingabeaufforderung, in der jeder Befehl ausgegeben wird, bevor er ausgeführt wird:
+
+`zsh --verbose`

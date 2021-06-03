@@ -23,7 +23,7 @@
 
 `ack bar "{{foo bar}}" {{scieżka/do/pliku_lub_katalogu}}`
 
-- Przeszukaj plik pod kątem określonego wzorca regex:
+- Przeszukaj plik pod kątem określonego wzorca wyrażenia regularnego:
 
 `ack bar "{{[bB]ar \d+}}" {{scieżka/do/pliku_lub_katalogu}}`
 

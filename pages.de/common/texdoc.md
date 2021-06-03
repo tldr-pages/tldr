@@ -1,7 +1,7 @@
 # texdoc
 
 > Suche nach passenden Dokumentationen für (La)TeX Befehle oder Packages.
-> Mehr Informationen: <https://texdoc.org/index.html>.
+> Weitere Informationen: <https://texdoc.org/index.html>.
 
 - Öffne das erste Suchergebnis im Standard-PDF-Viewer:
 

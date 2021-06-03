@@ -2,6 +2,7 @@
 
 > Displays or manipulates the directory stack.
 > The directory stack is a list of recently visited directories that can be manipulated with the `pushd` and `popd` commands.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#Directory-Stack-Builtins>.
 
 - Display the directory stack with a space between each entry:
 

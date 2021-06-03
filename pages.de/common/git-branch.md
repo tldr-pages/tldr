@@ -1,7 +1,7 @@
 # git branch
 
 > Verwalte und Arbeite mit Git Branches.
-> Mehr Informationen: <https://git-scm.com/docs/git-branch>.
+> Weitere Informationen: <https://git-scm.com/docs/git-branch>.
 
 - Liste alle lokalen Branches auf. Der momentan aktive (ausgecheckte) Branch wird mit `*` markiert:
 

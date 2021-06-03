@@ -10,6 +10,6 @@
 
 `qlmanage {{*.jpg}} -t -s {{300}} {{path/to/directory}}`
 
-- Reset Quicklook:
+- Reset QuickLook:
 
 `qlmanage -r`

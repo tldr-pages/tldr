@@ -1,6 +1,6 @@
 # fzf
 
-> Command line fuzzy finder.
+> Command-line fuzzy finder.
 > More information: <https://github.com/junegunn/fzf>.
 
 - Start finder on all files from arbitrary locations:

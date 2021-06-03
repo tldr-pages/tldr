@@ -1,6 +1,7 @@
 # cp
 
 > Copy files and directories.
+> More information: <https://www.gnu.org/software/coreutils/cp>.
 
 - Copy a file to another location:
 
@@ -22,7 +23,7 @@
 
 `cp -i {{*.txt}} {{path/to/target_directory}}`
 
-- Dereference symbolic links before copying:
+- Follow symbolic links before copying:
 
 `cp -L {{link}} {{path/to/target_directory}}`
 

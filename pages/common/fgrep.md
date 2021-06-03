@@ -2,6 +2,7 @@
 
 > Matches patterns in files.
 > Supports simple patterns and regular expressions.
+> More information: <https://manned.org/fgrep>.
 
 - Search for an exact string in a file:
 
@@ -21,8 +22,8 @@
 
 - Display all lines except those that contain the given regular expression:
 
-`fgrep -v {{^regex$}} {{path/to/file}}`
+`fgrep -v {{regular_expression}} {{path/to/file}}`
 
 - Display filenames whose content matches the regular expression at least once:
 
-`fgrep -l {{^regex$}} {{path/to/file1}} {{path/to/file2}}`
+`fgrep -l {{regular_expression}} {{path/to/file1}} {{path/to/file2}}`

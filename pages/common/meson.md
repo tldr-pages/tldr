@@ -7,7 +7,7 @@
 
 `meson init --language={{c}} --name={{myproject}} --version={{0.1}}`
 
-- Configure builddir with default values:
+- Configure the `builddir` with default values:
 
 `meson setup {{build_dir}}`
 

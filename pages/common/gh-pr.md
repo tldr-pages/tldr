@@ -1,6 +1,6 @@
 # gh pr
 
-> Manage GitHub pull requests from the command line.
+> Manage GitHub pull requests from the command-line.
 > More information: <https://cli.github.com/manual/gh_pr>.
 
 - Create a pull request:
@@ -19,7 +19,7 @@
 
 `gh pr review --approve`
 
-- Merge the pull request associated with the current branch, removing the branch on both the local and the remote:
+- Merge the pull request associated with the current branch interactively:
 
 `gh pr merge`
 

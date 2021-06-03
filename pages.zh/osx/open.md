@@ -6,11 +6,11 @@
 
 `open {{filename.extension}}`
 
-- 运行图形化的 MacOS 应用程序:
+- 运行图形化的 macOS 应用程序:
 
 `open -a {{应用程序名}}`
 
-- 运行指定 包名 的图形化 MacOS 应用程序（请参阅`OSascript`命令，查询如何获取应用程序的 包名）:
+- 运行指定 包名 的图形化 macOS 应用程序（请参阅`OSascript`命令，查询如何获取应用程序的 包名）:
 
 `open -b {{com.domain.application 应用程序包名}}`
 

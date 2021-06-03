@@ -1,7 +1,7 @@
 # ab
 
 > Apache HTTP server Benchmarking Tool.
-> Mehr Informationen: <https://httpd.apache.org/docs/current/programs/ab.html>.
+> Weitere Informationen: <https://httpd.apache.org/docs/current/programs/ab.html>.
 
 - Sende 100 HTTP GET Anfragen an eine URL:
 

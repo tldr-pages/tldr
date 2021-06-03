@@ -1,7 +1,7 @@
 # consul
 
 > 서비스 검색 기능과 상태 확인을 위한 분산된 키-값(key-value)쌍 저장.
-> 더 많은 정보: <https://www.consul.io/docs/commands/index.html>.
+> 더 많은 정보: <https://www.consul.io/commands>.
 
 - Consul 버전을 체크합니다:
 

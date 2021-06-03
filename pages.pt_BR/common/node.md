@@ -15,6 +15,6 @@
 
 `node -e "{{código}}"`
 
-- Executar um arquivo Javascript, imprimindo o resultado:
+- Executar um arquivo JavaScript, imprimindo o resultado:
 
 `node -p "{{script}}"`

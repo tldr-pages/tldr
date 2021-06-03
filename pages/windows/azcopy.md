@@ -3,7 +3,7 @@
 > A file transfer tool for uploading to Azure Cloud Storage Accounts.
 > More information: <https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10>.
 
-- Login to an Azure Tenant:
+- Log in to an Azure Tenant:
 
 `azopy login`
 
