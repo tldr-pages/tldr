@@ -1,7 +1,7 @@
 # virsh pool-list
 
-> List information about virtual machine storage pools (create a storage pool with `virsh pool-define-as`).
-> See also: `virsh`.
+> List information about virtual machine storage pools.
+> See also: `virsh`, `virsh-pool-autostart`, `virsh-pool-define-as`.
 > More information: <https://manned.org/virsh>.
 
 - List the name, state, and whether autostart is enabled or disabled for active storage pools:
@@ -16,7 +16,7 @@
 
 `virsh pool-list --details`
 
-- List information for active storage pools with either autostart enabled or disabled (enable or disable autostart with `virsh pool-autostart`):
+- List information for active storage pools with either autostart enabled or disabled:
 
 `virsh pool-list --{{autostart|no-autostart}}`
 
