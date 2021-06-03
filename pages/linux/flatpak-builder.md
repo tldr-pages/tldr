@@ -3,22 +3,22 @@
 > Help build application dependencies.
 > More information: <https://docs.flatpak.org/en/latest/flatpak-builder-command-reference.html>.
 
-- Build a Flatpak, then export it to a new repository:
+- Build a Flatpak then export it to a new repository:
 
-`flatpak-builder {{path/to/build_dir}} {{path/to/manifest}}`
+`flatpak-builder {{path/to/build_directory}} {{path/to/manifest}}`
 
-- Build a Flatpak, then export it to the specified repository:
+- Build a Flatpak then export it to the specified repository:
 
-`flatpak-builder --repo={{repo}} {{path/to/build_dir}} {{path/to/manifest}}`
+`flatpak-builder --repo={{repository_name}} {{path/to/build_directory}} {{path/to/manifest}}`
 
-- Build a Flatpak, then install it locally:
+- Build a Flatpak then install it locally:
 
-`flatpak-builder --install {{path/to/build_dir}} {{path/to/manifest}}`
+`flatpak-builder --install {{path/to/build_directory}} {{path/to/manifest}}`
 
-- Build and sign a Flatpak, then export it to the specified repository:
+- Build and sign a Flatpak then export it to the specified repository:
 
-`flatpak-builder --gpg-sign={{key_id}} --repo={{repository}} {{path/to/manifest}}`
+`flatpak-builder --gpg-sign={{key_id}} --repo={{repository_name}} {{path/to/manifest}}`
 
 - Run a shell inside of an applications sandbox without installing it:
 
-`flatpak-builder --run {{path/to/build_dir}} {{path/to/manifest}} sh`
+`flatpak-builder --run {{path/to/build_directory}} {{path/to/manifest}} sh`
