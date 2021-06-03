@@ -3,15 +3,15 @@
 > Help build application dependencies.
 > More information: <https://docs.flatpak.org/en/latest/flatpak-builder-command-reference.html>.
 
-- Build a Flatpak then export it to a new repository:
+- Build a Flatpak and export it to a new repository:
 
 `flatpak-builder {{path/to/build_directory}} {{path/to/manifest}}`
 
-- Build a Flatpak then export it to the specified repository:
+- Build a Flatpak and export it to the specified repository:
 
 `flatpak-builder --repo={{repository_name}} {{path/to/build_directory}} {{path/to/manifest}}`
 
-- Build a Flatpak then install it locally:
+- Build a Flatpak and install it locally:
 
 `flatpak-builder --install {{path/to/build_directory}} {{path/to/manifest}}`
 
