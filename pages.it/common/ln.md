@@ -9,7 +9,7 @@
 
 - Sovrascrivi un collegamento esistente in modo che punti a un nuovo file:
 
-`ln -sg {{/percorso/al/nuovo/file}} {{percorso/al/collegamento}}`
+`ln -sf {{/percorso/al/nuovo/file}} {{percorso/al/collegamento}}`
 
 - Crea un collegamento fisico a un file:
 
