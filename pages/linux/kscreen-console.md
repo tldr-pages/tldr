@@ -11,7 +11,7 @@
 
 `kscreen-console config`
 
-- Show display output information:
+- Show KScreen output information and configuration:
 
 `kscreen-console outputs`
 
