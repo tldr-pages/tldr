@@ -12,7 +12,7 @@
 
 `emacs +{{line_number}} {{path/to/file}}`
 
-- Start Emacs in console mode (without X window):
+- Start Emacs in console mode (without an X window):
 
 `emacs --no-window-system`
 

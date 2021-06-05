@@ -8,7 +8,7 @@
 
 `emacsclient {{path/to/file}}`
 
-- Open a file in console mode (without X window):
+- Open a file in console mode (without an X window):
 
 `emacsclient --no-window-system {{path/to/file}}`
 
@@ -16,7 +16,7 @@
 
 `emacsclient --create-frame {{path/to/file}}`
 
-- Evaluate a command and quit, printing the output to stdout:
+- Evaluate a command, printing the output to stdout, and then quit:
 
 `emacsclient --eval '({{command}})'`
 
