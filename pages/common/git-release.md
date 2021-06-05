@@ -1,7 +1,7 @@
 # git release
 
 > Create a Git release tag.
-> Part of `git-extras`
+> Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-release>.
 
 - Create a Git release, locally and remotely:
