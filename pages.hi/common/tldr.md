@@ -7,9 +7,9 @@
 
 `tldr {{कमांड}}`
 
-- Linux के लिए tar tldr पेज दिखाएं:
+- - विशिष्ट ऑपरेटिंग सिस्टम के लिए टार tldr पेज दिखाएं:
 
-`tldr -p {{linux}} {{tar}}`
+`tldr -p {{android|linux|osx|sunos|windows}} {{tar}}`
 
 - एक Git उपकमांड के लिए सहायता प्राप्त करें:
 
