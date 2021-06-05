@@ -12,6 +12,6 @@
 
 `git summary {{commit|branch_name|tag_name}}`
 
-- Display data about a Git repository, merging committers using different emails into 1 statistic:
+- Display data about a Git repository, merging committers using different emails into 1 statistic for each author:
 
 `git summary --dedup-by-email`
