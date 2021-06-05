@@ -7,9 +7,9 @@
 
 `tldr {{コマンド}}`
 
-- 特定のオペレーティング システムの tar tldr ページを表示する :
+- tarのlinux向けtldrページを見る:
 
-`tldr -p {{android|linux|osx|sunos|window}} {{tar}}`
+`tldr -p {{linux}} {{tar}}`
 
 - gitのサブコマンドについての情報を見る:
 
