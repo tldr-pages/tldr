@@ -1,6 +1,6 @@
 # git release
 
-> Create a release tag.
+> Create a Git tag for a release.
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-release>.
 
