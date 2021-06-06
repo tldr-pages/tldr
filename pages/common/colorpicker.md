@@ -10,7 +10,7 @@
 
 - Only print the color of one clicked pixel and exit:
 
-`colorpicker --oneshot`
+`colorpicker --one-shot`
 
 - Print the color of each clicked pixel and quit on keypress:
 
