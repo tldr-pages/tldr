@@ -22,3 +22,7 @@
 - Commit only specific (already staged) files:
 
 `git commit {{path/to/file1}} {{path/to/file2}}`
+
+- Commit staged files to the repository with a message while allowing the commit be empty:
+
+`git commit -m "{{message}}" --allow-empty`
