@@ -15,3 +15,7 @@
 - Display data about a Git repository, merging committers using different emails into 1 statistic for each author:
 
 `git summary --dedup-by-email`
+
+- Display data about a Git repository, showing the number of lines modified by each contributer:
+
+`git summary --line`
