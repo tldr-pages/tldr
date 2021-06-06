@@ -10,3 +10,7 @@
 - Try to match a rule for the previous command:
 
 `fuck`
+
+- Try to match a rule for the previous command and confirm the first choice immediately:
+
+`fuck --{{yes|yeah|hard}}`
