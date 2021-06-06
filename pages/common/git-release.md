@@ -4,7 +4,7 @@
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-release>.
 
-- Create a Git release, locally and remotely:
+- Create and push a Git release:
 
 `git release {{tag_name}}`
 
