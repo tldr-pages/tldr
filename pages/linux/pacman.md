@@ -31,6 +31,6 @@
 
 `pacman --query --unrequired --deps --quiet`
 
-- Remove not installed packages and unused repositories from the cache (use two `--clean` flags to clean all packages):
+- Empty the entire pacman cache:
 
 `pacman --sync --clean --clean`
