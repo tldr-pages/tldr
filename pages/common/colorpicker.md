@@ -10,16 +10,16 @@
 
 - Only print the color of one clicked pixel and exit:
 
-`colorpicker -o`
+`colorpicker --oneshot`
 
 - Print the color of each clicked pixel and quit on keypress:
 
-`colorpicker -q`
+`colorpicker --quit-on-keypress`
 
 - Only print the RGB value:
 
-`colorpicker -d`
+`colorpicker --rgb`
 
 - Only print the HEX value:
 
-`colorpicker -r`
+`colorpicker --hex`
