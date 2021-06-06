@@ -12,6 +12,6 @@
 
 `git release {{tag_name}} -s`
 
-- Create a Git release with a message, locally and remotely:
+- Create and push a Git release with a message:
 
 `git release {{{tag_name}}} -m "{{message}}"`
