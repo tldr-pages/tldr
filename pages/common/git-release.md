@@ -8,7 +8,7 @@
 
 `git release {{tag_name}}`
 
-- Create a signed Git release, locally and remotely:
+- Create and push a signed Git release:
 
 `git release {{tag_name}} -s`
 
