@@ -23,7 +23,7 @@
 
 `lighthouse --extra-headers={{path/to/file.json}} {{https://example.com}}`
 
-- Generate a report only for specific categories:
+- Generate a report for only specific categories:
 
 `lighthouse --only-categories={{performance,accessibility,best-practices,seo,pwa}} {{https://example.com}}`
 
