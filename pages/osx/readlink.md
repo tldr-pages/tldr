@@ -3,6 +3,6 @@
 > Follow symlinks and get symlink information.
 > More information: <https://www.gnu.org/software/coreutils/readlink>.
 
-- Print the actual full path to which the symlink points:
+- Print the actual full path which the symlink points to:
 
 `readlink {{path/to/symlink}}`
