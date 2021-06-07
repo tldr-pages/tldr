@@ -27,7 +27,7 @@
 
 `pacman --query --explicit`
 
-- List orphan packages (installed as dependencies but not required by any package):
+- List orphan packages (installed as dependencies but not actually required by any package):
 
 `pacman --query --unrequired --deps --quiet`
 
