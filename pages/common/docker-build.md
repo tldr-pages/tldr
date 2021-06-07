@@ -17,7 +17,7 @@
 
 - Build a docker image with no build context:
 
-`docker build --tag {{name:tag}} - < Dockerfile`
+`docker build --tag {{name:tag}} - < {{Dockerfile}}`
 
 - Do not use the cache when building the image:
 
