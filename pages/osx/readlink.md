@@ -5,4 +5,4 @@
 
 - Print the actual full path to which the symlink points:
 
-`readlink {{filename}}`
+`readlink {{path/to/symlink}}`
