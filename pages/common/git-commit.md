@@ -23,6 +23,6 @@
 
 `git commit {{path/to/file1}} {{path/to/file2}}`
 
-- Commit staged files to the repository with a message while allowing the commit be empty:
+- Create a commit, even if there are no staged files:
 
 `git commit -m "{{message}}" --allow-empty`
