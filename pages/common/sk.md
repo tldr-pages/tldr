@@ -8,7 +8,7 @@
 
 `find {{path/to/search}} -type f | sk`
 
-- Start finder on running processes:
+- Start finder for running processes:
 
 `ps aux | sk`
 
