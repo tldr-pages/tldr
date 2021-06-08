@@ -2,7 +2,6 @@
 
 > Allows you to convert on-the-fly between multiple input and output harddisk image types with optional write cache support.
 > Creates a virtual file system using FUSE (Filesystem in Userspace) that contains a virtual representation of the input image.
-
 > More information: <https://www.pinguin.lu/xmount>.
 
 - Mount an RAW-Imagefile into a DMG-container file:
