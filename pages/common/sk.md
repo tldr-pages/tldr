@@ -4,7 +4,7 @@
 > Similar to `fzf`.
 > More information: <https://github.com/lotabout/skim>.
 
-- Start finder on all files from arbitrary locations:
+- Start finder on all files in the specified directory:
 
 `find {{path/to/search}} -type f | sk`
 
