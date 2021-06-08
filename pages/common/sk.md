@@ -12,7 +12,7 @@
 
 `ps aux | sk`
 
-- Start finder with a given query:
+- Start finder with a specified query:
 
 `sk -q "{{query}}"`
 
