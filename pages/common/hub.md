@@ -4,11 +4,7 @@
 > If set up as instructed by `hub alias`, one can use `git` to run `hub` commands.
 > More information: <https://hub.github.com>.
 
-- Clone a repository you own, using just the repository name rather than the full URL:
-
-`hub clone {{repo_name}}`
-
-- Clone another user's repository, using their GitHub username and the repository name:
+- Clone a repository, using its GitHub owner (can be omited if you own it) and the repository name:
 
 `hub clone {{username}}/{{repo_name}}`
 
