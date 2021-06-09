@@ -31,3 +31,7 @@
 - Upload the current (local-only) repository to your GitHub account:
 
 `hub create`
+
+- Fetch git objects from upstream and update local branches:
+
+`hub sync`
