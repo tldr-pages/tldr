@@ -8,9 +8,9 @@
 
 `xmount --in {{raw}} {{path/to/image.dd}} --out {{dmg}} {{mountpoint}}`
 
-- Mount an EWF-Imagefile with write-cache support into a VHD file to boot from:
+- Mount an EWF image file with write-cache support into a VHD file to boot from:
 
-`xmount --cache CACHE.ovl --in ewf IMAGE.E?? --out vhd MOUNTPOINT`
+`xmount --cache {{path/to/cache.ovl}} --in {{ewf}} {{path/to/image.E??}} --out {{vhd}} {{mountpoint}}`
 
 - Mount first partition at sector 2048 into a new RAW image file:
 
