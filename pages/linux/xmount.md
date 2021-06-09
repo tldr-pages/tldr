@@ -12,6 +12,6 @@
 
 `xmount --cache CACHE.ovl --in ewf IMAGE.E?? --out vhd MOUNTPOINT`
 
-- Mount first partition at sector 2048 into a new RAW-Image:
+- Mount first partition at sector 2048 into a new RAW image file:
 
-`xmount --offset 2048 --in raw IMAGE.dd --out  raw MOUNTPOINT`
+`xmount --offset {{2048}} --in {{raw}} {{path/to/image.dd}} --out {{raw}} {{mountpoint}}`
