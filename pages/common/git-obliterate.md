@@ -4,7 +4,7 @@
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-obliterate>.
 
-- Remove all existence of a file including history:
+- Delete files and erase their history:
 
 `git obliterate {{file_1 file_2 ...}}`
 
