@@ -8,6 +8,6 @@
 
 `git obliterate {{file_1 file_2 ...}}`
 
-- Remove existence of a file between 2 commits:
+- Erase the existence of a file between 2 commits:
 
 `git obliterate {{file_1 file_2 ...}} -- {{commit_hash1}}..{{commit_hash2}}`
