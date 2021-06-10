@@ -29,7 +29,7 @@
 
 - Output raw string lines or JSON lines using a loop. (Useful for assigning to a BASH variable or array):
 
-```
+```bash
 cat {{file.json}} | jello -lr '\
 result = []
 for i in _:
