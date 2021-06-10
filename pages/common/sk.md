@@ -6,7 +6,7 @@
 
 - Start finder on all files in the specified directory:
 
-`find {{path/to/search}} -type f | sk`
+`find {{path/to/directory}} -type f | sk`
 
 - Start finder for running processes:
 
