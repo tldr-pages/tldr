@@ -3,7 +3,7 @@
 > OpenVPN 3 Linux client.
 > More information: <https://community.openvpn.net/openvpn/wiki/OpenVPN3Linux>.
 
-- Start new VPN session:
+- Start a new VPN session:
 
 `openvpn3 session-start --config {{path/to/config.conf}}`
 
@@ -11,7 +11,7 @@
 
 `openvpn3 sessions-list`
 
-- Disconnect established session started with given configuration:
+- Disconnect the currently established session started with given configuration:
 
 `openvpn3 session-manage --config {{path/to/config.conf}} --disconnect`
 
