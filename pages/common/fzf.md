@@ -14,7 +14,7 @@
 
 - Select multiple files with `Shift + Tab` and write to a file:
 
-`find {{path/to/search_files}} -type f | fzf --multi > {{filename}}`
+`find {{path/to/directory}} -type f | fzf --multi > {{filename}}`
 
 - Start fzf with a specified query:
 
