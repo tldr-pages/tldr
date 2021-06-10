@@ -27,6 +27,10 @@
 
 `cat {{file.json}} | jello '{{{"my_new_key"}}: _.{{key_name}}, {{"my_other_key"}}: _.{{other_key_name}}}'`
 
+- Output the value of a given key to a string (and disable JSON output):
+
+`cat {{file.json}} | jello -r '"some text: " + _.{{key_name}}'`
+
 - Output raw string lines or JSON lines using a loop. (Useful for assigning to a BASH variable or array):
 
 ```bash
