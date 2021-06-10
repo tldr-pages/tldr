@@ -18,4 +18,4 @@
 
 - Select multiple files with `Shift + Tab` and write to a file:
 
-`find {{path/to/search_files}} -type f | sk --multi > {{filename}}`
+`find {{path/to/directory}} -type f | sk --multi > {{filename}}`
