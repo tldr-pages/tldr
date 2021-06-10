@@ -7,7 +7,7 @@
 
 `lighthouse {{https://example.com}}`
 
-- Generate a JSON report and print to stdout:
+- Generate a JSON report and print it:
 
 `lighthouse --output {{json}} {{https://example.com}}`
 
@@ -19,11 +19,11 @@
 
 `lighthouse --quiet --chrome-flags="{{--headless}}" {{https://example.com}}`
 
-- Generate a report using specific JSON HTTP Header key/value pairs to send in requests:
+- Generate a report, using the HTTP header key/value pairs in the specified JSON file for all requests:
 
 `lighthouse --extra-headers={{path/to/file.json}} {{https://example.com}}`
 
-- Generate a report for only specific categories:
+- Generate a report for specific categories only:
 
 `lighthouse --only-categories={{performance,accessibility,best-practices,seo,pwa}} {{https://example.com}}`
 
