@@ -28,6 +28,6 @@
 
 `hub create`
 
-- Fetch git objects from upstream and update local branches:
+- Fetch Git objects from upstream and update local branches:
 
 `hub sync`
