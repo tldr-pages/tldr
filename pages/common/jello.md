@@ -30,14 +30,3 @@
 - Output the value of a given key to a string (and disable JSON output):
 
 `cat {{file.json}} | jello -r '"some text: " + _.{{key_name}}'`
-
-- Output raw string lines or JSON lines using a loop. (Useful for assigning to a BASH variable or array):
-
-```bash
-cat {{file.json}} | jello -lr '\
-result = []
-for i in _:
-    if i == "foo":
-        result.append(i)
-result'
-```
