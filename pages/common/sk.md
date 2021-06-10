@@ -14,7 +14,7 @@
 
 - Start finder with a specified query:
 
-`sk -q "{{query}}"`
+`sk --query "{{query}}"`
 
 - Select multiple files with `Shift + Tab` and write to a file:
 
