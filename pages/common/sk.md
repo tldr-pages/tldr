@@ -4,15 +4,15 @@
 > Similar to `fzf`.
 > More information: <https://github.com/lotabout/skim>.
 
-- Start finder on all files in the specified directory:
+- Start skim on all files in the specified directory:
 
 `find {{path/to/directory}} -type f | sk`
 
-- Start finder for running processes:
+- Start skim for running processes:
 
 `ps aux | sk`
 
-- Start finder with a specified query:
+- Start skim with a specified query:
 
 `sk --query "{{query}}"`
 
