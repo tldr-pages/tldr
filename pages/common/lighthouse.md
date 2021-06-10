@@ -3,7 +3,7 @@
 > Analyzes web applications and web pages, collecting modern performance metrics and insights on developer best practices.
 > More information: <https://github.com/GoogleChrome/lighthouse>.
 
-- Generate an HTML report for a specific website and save it to a file:
+- Generate an HTML report for a specific website and save it to a file in the current directory:
 
 `lighthouse {{https://example.com}}`
 
