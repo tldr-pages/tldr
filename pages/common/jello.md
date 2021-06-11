@@ -1,6 +1,6 @@
 # jello
 
-> A command-line JSON processor using python syntax.
+> A command-line JSON processor using Python syntax.
 > More information: <https://github.com/kellyjonbrazil/jello>.
 
 - Output JSON or JSON Lines STDIN data, in pretty-print format:
