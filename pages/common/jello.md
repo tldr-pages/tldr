@@ -29,4 +29,4 @@
 
 - Output the value of a given key to a string (and disable JSON output):
 
-`cat {{file.json}} | jello -r '"some text: " + _.{{key_name}}'`
+`cat {{file.json}} | jello -r '"{{some text}}: " + _.{{key_name}}'`
