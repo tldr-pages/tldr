@@ -21,7 +21,7 @@
 
 - Run a simple file server on the specified port with a browsable interface:
 
-`caddy file-server --listen :8000 --browse`
+`caddy file-server --listen :{{8000}} --browse`
 
 - Run a reverse proxy server:
 
