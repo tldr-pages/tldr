@@ -11,15 +11,15 @@
 
 `cat {{file.json}} | jello -s`
 
-- Output all elements from arrays (or all the values from objects) in JSON or JSON Lines STDIN data:
+- Output all elements from arrays (or all the values from objects) in JSON or JSON-Lines data from stdin to stdout:
 
 `cat {{file.json}} | jello -l`
 
-- Output the first element in JSON or JSON Lines STDIN data:
+- Output the first element in JSON or JSON-Lines data from stdin to stdout:
 
 `cat {{file.json}} | jello _[0]`
 
-- Output the value of a given key of each element in JSON or JSON Lines STDIN data:
+- Output the value of a given key of each element in JSON or JSON-Lines data from stdin to stdout:
 
 `cat {{file.json}} | jello '[i.{{key_name}} for i in _]'`
 
