@@ -3,7 +3,7 @@
 > A command-line JSON processor using Python syntax.
 > More information: <https://github.com/kellyjonbrazil/jello>.
 
-- Output JSON or JSON Lines STDIN data, in pretty-print format:
+- Pretty-print JSON or JSON-Lines data from stdin to stdout:
 
 `cat {{file.json}} | jello`
 
