@@ -40,7 +40,7 @@ There are two ways to update your fork.
 
 1. Via the GitHub web interface.  Click `Fetch upstream` and then `Fetch and merge` on the fork as shown below:
 
-![Fetch and merge button in GitHub](https://user-images.githubusercontent.com/50295997/119873818-393e2000-bf25-11eb-8a0a-b804c293439b.png).
+![Fetch and merge button in GitHub](../images/github-fetch-and-merge-button.png).
 
 2. Using Git in the terminal:
 
