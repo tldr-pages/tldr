@@ -25,4 +25,4 @@
 
 - Run a reverse proxy server:
 
-`caddy reverse-proxy --from :80 --to localhost:8000`
+`caddy reverse-proxy --from :{{80}} --to localhost:{{8000}}`
