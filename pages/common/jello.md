@@ -7,7 +7,7 @@
 
 `cat {{file.json}} | jello`
 
-- Output a grepable schema from JSON or JSON Lines STDIN data:
+- Output a schema of JSON or JSON Lines data from stdin to stdout (useful for grep):
 
 `cat {{file.json}} | jello -s`
 
