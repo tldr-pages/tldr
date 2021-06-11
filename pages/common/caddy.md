@@ -1,13 +1,13 @@
 # caddy
 
-> A powerful, enterprise-ready, open source web server with automatic HTTPS written in Go.
+> A powerful, enterprise-ready, open source web server with automatic HTTPS, written in Go.
 > More information: <https://caddyserver.com>.
 
 - Start Caddy in the foreground:
 
 `caddy run`
 
-- Start Caddy with a specified Caddyfile:
+- Start Caddy with the specified Caddyfile:
 
 `caddy run --config /example/Caddyfile`
 
@@ -19,7 +19,7 @@
 
 `caddy stop`
 
-- Run a simple file server on a specified port with a browsable interface:
+- Run a simple file server on the specified port with a browsable interface:
 
 `caddy file-server --listen :8000 --browse`
 
