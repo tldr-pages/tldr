@@ -9,7 +9,7 @@
 
 - Start Caddy with the specified Caddyfile:
 
-`caddy run --config /example/Caddyfile`
+`caddy run --config {{path/to/Caddyfile}}`
 
 - Start Caddy in the background:
 
