@@ -15,10 +15,8 @@
 
 `kdeconnect-cli --pair --device {{device_id}}`
 
-- Request pairing with a specific device, specifying its name:
 - Ring a device, specifying its name:
 
-`kdeconnect-cli --pair --name {{device_name}}`
 `kdeconnect-cli --ring --name {{device_name}}`
 
 - Share a file or URL to a paired device, specifying its ID: 
