@@ -11,7 +11,7 @@
 
 `kdeconnect-cli --list-available`
 
-- Request pairing to a device, specifying its ID:
+- Request pairing with a device, specifying its ID:
 
 `kdeconnect-cli --pair --device {{device_id}}`
 
