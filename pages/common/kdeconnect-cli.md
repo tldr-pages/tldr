@@ -7,11 +7,11 @@
 
 `kdeconnect-cli --list-devices`
 
-- List all reachable devices:
+- List available (paired and reachable) devices:
 
 `kdeconnect-cli --list-available`
 
-- Request pairing with a specific device, specifying its ID:
+- Request pairing to a device, specifying its ID:
 
 `kdeconnect-cli --pair --device {{device_id}}`
 
