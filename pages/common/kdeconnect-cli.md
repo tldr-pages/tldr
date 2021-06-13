@@ -19,7 +19,7 @@
 
 `kdeconnect-cli --ring --name {{device_name}}`
 
-- Share a file or URL with a paired device, specifying its ID:
+- Share an URL or file with a paired device, specifying its ID:
 
 `kdeconnect-cli --share {{URL|path/to/file}} --device {{device_id}}`
 
