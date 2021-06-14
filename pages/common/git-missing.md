@@ -8,6 +8,6 @@
 
 `git missing {{branch}}`
 
-- Show commits which aren't shared between 2 specified branches:
+- Show commits which aren't shared between two branches:
 
 `git missing {{branch_1}} {{branch_2}}`
