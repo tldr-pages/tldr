@@ -3,7 +3,7 @@
 > OpenSSL command to generate and verify timestamps.
 > More information: <https://www.openssl.org/docs/manmaster/man1/openssl-ts.html>.
 
-- Generate SHA-512 timestamp request of `file` (output to `file.tsq`):
+- Generate a SHA-512 timestamp request of `file` (output to `file.tsq`):
 
 `openssl ts -query -data {{path/to/file}}  -sha512  -out {{path/to/file.tsq}}`
 
