@@ -46,8 +46,6 @@ If you are an owner of the organization, you can see an automated list
   [03 May 2021](https://github.com/tldr-pages/tldr/issues/5873) — present
 - **Patrice Denis ([@patricedenis](https://github.com/patricedenis))**:
   [10 May 2021](https://github.com/tldr-pages/tldr/issues/5919) — present
-- **CleanMachine1 ([@CleanMachine1](https://github.com/CleanMachine1))**:
-  [14 May 2021](https://github.com/tldr-pages/tldr/issues/5961) - present
 - **Seth Falco ([@SethFalco](https://github.com/SethFalco))**:
   [19 May 2021](https://github.com/tldr-pages/tldr/issues/5993) - present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
@@ -74,6 +72,8 @@ If you are an owner of the organization, you can see an automated list
   [9 March 2021](https://github.com/tldr-pages/tldr/issues/5390) — [9 April 2021](https://github.com/tldr-pages/tldr/issues/5722)
 - Florian Benscheidt ([@Waples](https://github.com/Waples)):
   [16 April 2021](https://github.com/tldr-pages/tldr/issues/5774) — [19 May 2021](https://github.com/tldr-pages/tldr/issues/5989)
+- CleanMachine1 ([@CleanMachine1](https://github.com/CleanMachine1)):
+  [14 May 2021](https://github.com/tldr-pages/tldr/issues/5961) — [14 June 2021](https://github.com/tldr-pages/tldr/issues/6123)
 
 ## Organization members
 
@@ -96,6 +96,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [9 April 2021](https://github.com/tldr-pages/tldr/issues/5722) — present
 - **Florian Benscheidt ([@Waples](https://github.com/Waples))**:
   [19 May 2021](https://github.com/tldr-pages/tldr/issues/5989) — present
+- **CleanMachine1 ([@CleanMachine1](https://github.com/CleanMachine1))**:
+  [14 June 2021](https://github.com/tldr-pages/tldr/issues/6123) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
