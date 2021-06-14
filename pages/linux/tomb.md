@@ -10,6 +10,10 @@
 
 `tomb forge {{encrypted_directory.tomb.key}}`
 
+- Forcefully create a new key if tomb isn't letting key forging due to swap:
+
+`tomb forge {{encrypted_directory.tomb.key}} -f`
+
 - Initialize and lock an empty tomb using a key made with `forge`:
 
 `tomb lock {{encrypted_directory.tomb}} -k {{encrypted_directory.tomb.key}}`

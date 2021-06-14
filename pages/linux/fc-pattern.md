@@ -4,4 +4,8 @@
 
 - Display default information about a font:
 
-`fc-pattern -d '{{DejaVu Serif}}'`
+`fc-pattern --default '{{DejaVu Serif}}'`
+
+- Display config information about a font:
+
+`fc-pattern --config '{{DejaVu Serif}}'`
