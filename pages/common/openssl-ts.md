@@ -7,7 +7,7 @@
 
 `openssl ts -query -data {{path/to/file}}  -sha512  -out {{path/to/file.tsq}}`
 
-- Check the date and metadata from a specified timestamp response file:
+- Check the date and metadata of a specific timestamp response file:
 
 `openssl ts -reply -in {{path/to/file.tsr}} -text`
 
