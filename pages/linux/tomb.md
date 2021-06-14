@@ -1,6 +1,7 @@
 # tomb
 
 > Manage encrypted storage directories that can be safely transported and hidden in a filesystem.
+> More information: <https://www.dyne.org/software/tomb/>.
 
 - Create a new tomb with an initial size of 100MB:
 
