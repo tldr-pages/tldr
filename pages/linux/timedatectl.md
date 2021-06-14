@@ -2,6 +2,7 @@
 
 > Control the system time and date.
 > More information: <https://manned.org/timedatectl.1>.
+
 - Check the current system clock time:
 
 `timedatectl`
