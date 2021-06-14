@@ -11,7 +11,7 @@
 
 `openssl ts -reply -in {{path/to/file.tsr}} -text`
 
-- Verify timestamp request `file.tsq` and timestamp response `file.tsr` from server with ssl certificate `cert.pem`:
+- Verify timestamp request `file.tsq` and timestamp response `file.tsr` from the server with ssl certificate `cert.pem`:
 
 `openssl ts -verify -in {{path/to/file.tsr}} -queryfile {{path/to/file.tsq}} -partial_chain -CAfile {{path/to/cert.pem}}`
 
