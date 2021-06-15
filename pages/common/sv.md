@@ -19,6 +19,6 @@
 
 `sudo sv reload {{path/to/service}}`
 
-- Start a serive only if it's not running and don't restart it if it stops
+- Start a service only if it's not running and don't restart it if it stops:
 
 `sudo sv once {{path/to/service}}` 
