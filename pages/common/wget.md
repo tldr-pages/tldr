@@ -4,7 +4,7 @@
 > Supports HTTP, HTTPS, and FTP.
 > More information: <https://www.gnu.org/software/wget>.
 
-- Download the contents of a URL to a file (named "foo" in this case):
+- Download the contents of an URL to a file (named "foo" in this case):
 
 `wget {{https://example.com/foo}}`
 
