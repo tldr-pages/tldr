@@ -34,7 +34,7 @@ tldrl -f {{page.md}}
 For other ways to use `tldrl`, such as linting an entire directory, check out (what else!)
 [`tldr tldrl`](https://github.com/tldr-pages/tldr/blob/main/pages/common/tldrl.md)
 
-If you're using the Node.js or Python clients of tldr-pages, you can preview a page locally using the `--render` argument (aka `-f` in Node.js, and `-r` in Python):
+Your client may be able to preview a page locally using the `--render` flag:
 
 ```
 tldr --render {{page.md}}
