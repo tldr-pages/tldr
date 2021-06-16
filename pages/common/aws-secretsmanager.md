@@ -9,7 +9,7 @@
 
 - Create a secret:
 
-`aws secretsmanager create-secret --name {{name}} --description "{{String describing secret}}" --secret-string {{secret}}`
+`aws secretsmanager create-secret --name {{name}} --description "{{secret_description}}" --secret-string {{secret}}`
 
 - Delete a secret:
 
