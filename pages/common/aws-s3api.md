@@ -33,4 +33,4 @@
 
 - Download the Amazon S3 bucket policy from a specified bucket:
 
-`aws s3api get-bucket-policy --bucket {{bucket_name}} --query Policy --output text > {{path/to/bucket_policy.json}}``
+`aws s3api get-bucket-policy --bucket {{bucket_name}} --query Policy --output text > {{path/to/bucket_policy.json}}`
