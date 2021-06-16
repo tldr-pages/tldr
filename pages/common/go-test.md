@@ -11,14 +11,14 @@
 
 `go test -v`
 
-- [v]erbosely test the packages in the current directory and all subdirectories:
+- Test the packages in the current directory and all subdirectories:
 
 `go test -v ./...`
 
-- [v]erbosely test the package in the current directory and run all benchmarks:
+- Test the package in the current directory and run all benchmarks:
 
 `go test -v -bench .`
 
-- [v]erbosely test the package in the current directory and run all benchmarks for 50 seconds:
+- Test the package in the current directory and run all benchmarks for 50 seconds:
 
 `go test -v -bench . -benchtime 50s`
