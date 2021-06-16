@@ -5,7 +5,7 @@
 
 - Generate a SHA-512 timestamp request of a specific file and output to `file.tsq`:
 
-`openssl ts -query -data {{path/to/file}}  -sha512  -out {{path/to/file.tsq}}`
+`openssl ts -query -data {{path/to/file}} -sha512 -out {{path/to/file.tsq}}`
 
 - Check the date and metadata of a specific timestamp response file:
 
