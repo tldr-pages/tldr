@@ -11,7 +11,7 @@
 
 `go test -v`
 
-- Test the packages in the current directory and all subdirectories:
+- Test the packages in the current directory and all subdirectories (note the `...`):
 
 `go test -v ./...`
 
@@ -21,4 +21,4 @@
 
 - Test the package in the current directory and run all benchmarks for 50 seconds:
 
-`go test -v -bench . -benchtime 50s`
+`go test -v -bench . -benchtime {{50s}}`
