@@ -17,7 +17,7 @@
 
 - List the objects inside of a bucket, and only show each object's key and size:
 
-`aws s3api list-objects --bucket {{bucket_name}} --query 'Contents[].{Key: Key, Size: Size}'`
+`aws s3api list-objects --bucket {{bucket_name}} --query '{{Contents[].{Key: Key, Size: Size}}}'`
 
 - Add an object to a bucket:
 
