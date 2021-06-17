@@ -15,9 +15,9 @@
 
 `choose {{2}}:{{5}}`
 
-- print everything from the 2nd to 5th item on the line, exclusive of the 5th:
+- print everything from the 2nd to 5th item on the line, excluding the 5th:
 
-`choose -x 2:5`
+`choose -x {{2}}:{{5}}`
 
 - Print the beginning of the line to the 3rd item:
 
