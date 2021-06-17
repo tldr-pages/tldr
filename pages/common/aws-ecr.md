@@ -25,7 +25,7 @@
 
 - Delete an image from a repository:
 
-`aws ecr batch-delete-image  --repository-name {{repo_name}} --image-ids {{imageTag=latest}}`
+`aws ecr batch-delete-image  --repository-name {{repo_name}} --image-ids imageTag={{latest}}`
 
 - Delete a repository:
 
