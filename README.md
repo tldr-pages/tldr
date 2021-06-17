@@ -57,7 +57,6 @@ Or you can use the just as easy to install [python3 client](https://github.com/t
 
     pip3 install tldr
 
-
 That way you can write `tldr tar` in the terminal to show the tldr page for `tar`,
 just like you would write `man tar` to show its manpage.
 
