@@ -13,7 +13,7 @@
 
 - Tag a local image for ECR:
 
-`docker tag {{container_name:latest}} {{aws_account_id}}.dkr.ecr.{{region}}.amazonaws.com/{{container_name:latest}}`
+`docker tag {{container_name}}:{{tag}} {{aws_account_id}}.dkr.ecr.{{region}}.amazonaws.com/{{container_name}}:{{tag}}`
 
 - Push an image to a repository:
 
