@@ -9,7 +9,7 @@
 
 - Print the 0th, 3rd, and 5th item from a line, where items are separated by ':' instead of whitespace:
 
-`choose -f ':' 0 3 5`
+`choose -f '{{:}}' {{0}} {{3}} {{5}}`
 
 - Print everything from the 2nd to 5th item on the line, including the 5th:
 
