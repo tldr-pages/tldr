@@ -23,9 +23,9 @@
 
 `choose :{{3}}`
 
-- print the beginning of the line to the 3rd item, exclusive:
+- Print all items from the beginning of the line until the 3rd item (exclusive):
 
-`choose -x :3`
+`choose -x :{{3}}`
 
 - Print all items from the 3rd to the end of the line:
 
