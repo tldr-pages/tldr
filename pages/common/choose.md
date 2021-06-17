@@ -21,7 +21,7 @@
 
 - Print the beginning of the line to the 3rd item:
 
-`choose :3`
+`choose :{{3}}`
 
 - print the beginning of the line to the 3rd item, exclusive:
 
