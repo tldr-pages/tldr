@@ -33,4 +33,4 @@
 
 - List images in a repository:
 
-`aws ecr list-images --repository-name {{image_name}}`
+`aws ecr list-images --repository-name {{repo_name}}`
