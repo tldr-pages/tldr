@@ -33,4 +33,4 @@
 
 - Print the last item from a line
 
-`choose -1`
+`choose {{-1}}`
