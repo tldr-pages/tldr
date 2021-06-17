@@ -11,9 +11,9 @@
 
 `choose -f ':' 0 3 5`
 
-- Print everything from the 2nd to 5th item on the line, inclusive of the 5th:
+- Print everything from the 2nd to 5th item on the line, including the 5th:
 
-`choose 2:5`
+`choose {{2}}:{{5}}`
 
 - print everything from the 2nd to 5th item on the line, exclusive of the 5th:
 
