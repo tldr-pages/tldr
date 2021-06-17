@@ -6,4 +6,4 @@
 
 - Change the upstream remote to origin:
 
-`git rename-remote upstream origin`
+`git rename-remote {{upstream}} {{origin}}`
