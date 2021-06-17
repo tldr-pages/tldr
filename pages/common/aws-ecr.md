@@ -11,9 +11,9 @@
 
 `aws ecr create-repository --repository-name {{repo_name}} --image-scanning-configuration scanOnPush={{true|false}} --region {{region}}`
 
-- Give your image an appropriate tag for ECR:
+- Tag a local image for ECR:
 
-`{{docker tag}} {{container_name:latest}} {{aws_account_id}}.dkr.ecr.{{region}}.amazonaws.com/{{container_name:latest}}`
+`docker tag {{container_name:latest}} {{aws_account_id}}.dkr.ecr.{{region}}.amazonaws.com/{{container_name:latest}}`
 
 - Push an image to a repository:
 
