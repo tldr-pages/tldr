@@ -21,7 +21,7 @@
 
 - Pull an image from a repository:
 
-`{{docker pull}} {{aws_account_id}}.dkr.ecr.{{region}}.amazonaws.com/{{container_name:latest}}`
+`docker pull {{aws_account_id}}.dkr.ecr.{{region}}.amazonaws.com/{{container_name:latest}}`
 
 - Delete an image from a repository:
 
