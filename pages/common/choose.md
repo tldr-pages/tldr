@@ -27,9 +27,9 @@
 
 `choose -x :3`
 
-- Print the third item to the end of the line:
+- Print all items from the 3rd to the end of the line:
 
-`choose 3:`
+`choose {{3}}:`
 
 - Print the last item from a line
 
