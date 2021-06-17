@@ -17,7 +17,7 @@
 
 - Push an image to a repository:
 
-`{{docker push}} {{aws_account_id}}.dkr.ecr.{{region}}.amazonaws.com/{{container_name:latest}}`
+`docker push {{aws_account_id}}.dkr.ecr.{{region}}.amazonaws.com/{{container_name:latest}}`
 
 - Pull an image from a repository:
 
