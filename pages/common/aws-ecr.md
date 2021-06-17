@@ -3,7 +3,7 @@
 > Push, pull, and manage container images.
 > More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ecr/index.html>.
 
-- Authenticate local container manager to your default registry (username is AWS):
+- Authenticate Docker with your default registry (username is AWS):
 
 `aws ecr get-login-password --region {{region}} | {{docker login}} --username AWS --password-stdin {{aws_account_id}}.dkr.ecr.{{region}}.amazonaws.com`
 
