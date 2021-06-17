@@ -53,6 +53,11 @@ which is supported by the tldr-pages project maintainers:
 
     npm install -g tldr
 
+Or you can use the just as easy to install [python3 client](https://github.com/tldr-pages/tldr-python-client) which is also supported by the tldr-pages project maintainers, however it is available on pip3 which is more likely to be on your computer:
+
+    pip3 install tldr
+
+
 That way you can write `tldr tar` in the terminal to show the tldr page for `tar`,
 just like you would write `man tar` to show its manpage.
 
