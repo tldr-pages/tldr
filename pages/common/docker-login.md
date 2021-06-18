@@ -5,7 +5,7 @@
 
 - Log into registry with username and password:
 
-`docker login -u {{username}} -p {{password}} {{server}}`
+`docker login --username {{username}} --password {{password}} {{server}}`
 
 - Log into registry with password from stdin:
 
