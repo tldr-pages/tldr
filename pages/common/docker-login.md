@@ -9,4 +9,4 @@
 
 - Log into registry with password from stdin:
 
-`{{cat path/to/password.txt}} | docker login -u {{username}} --password-stdin`
+` echo "{{password}}" | docker login -u {{username}} --password-stdin`
