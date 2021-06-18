@@ -5,7 +5,7 @@
 
 - Create a bucket:
 
-`aws s3api create-bucket --bucket my-bucket`
+`aws s3api create-bucket --bucket {{bucket_name}}`
 
 - Delete a bucket:
 
