@@ -3,7 +3,7 @@
 > Log into a docker registry.
 > More information: <https://docs.docker.com/engine/reference/commandline/login/>.
 
-- Log into registry (user will be prompted for a username and password):
+- Interactively log into a registry:
 
 `docker login`
 
