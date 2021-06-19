@@ -7,7 +7,7 @@
 
 `docker login`
 
-- Log into registry with a specific username (user will be prompted for a password):
+- Log into a registry with a specific username (user will be prompted for a password):
 
 `docker login --username {{username}}`
 
