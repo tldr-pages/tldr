@@ -15,6 +15,6 @@
 
 `fswatch {{path/to/directory}} | xargs -n 1 -I {} echo {}`
 
-- Filter by event type, e.g. Updated, Deleted or Created:
+- Filter by event type:
 
-`fswatch --event {{Updated}} {{path/to/directory}} | xargs -n 1 {{bash_command}}`
+`fswatch --event {{Updated|Deleted|Created}} {{path/to/directory}} | xargs -n 1 {{bash_command}}`
