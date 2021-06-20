@@ -7,11 +7,17 @@
 
 `sdcv --list-dictist-dicts`
 
-- get definition using only selected dictionary:
+- Get definition using only selected dictionary:
 
 `sdcv --use-dict {{dictionary_name}} {{search_term}}`
 
 - Show general help:
+How can I deploy 1.0.0-beta?
+Where do I report a bug or request a feature?
+How can I contribute? (There are several other ways besides coding)
+What is the project structure?
+What is the application infrastructure?
+Who is behind HospitalRun? etc.
 
 `sdcv --help`
 
