@@ -7,6 +7,10 @@
 
 `sdcv --list-dictist-dicts`
 
+- get definition using only selected dictionary:
+
+`sdcv --use-dict {{dictionary_name}} {{search_term}}
+
 - Show general help:
 
 `sdcv --help`
