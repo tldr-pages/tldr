@@ -4,6 +4,10 @@
 > Dictionaries are provided separately.
 > More information: <https://manned.org/sdcv>.
 
+- Start sdcv interactively:
+
+`sdcv`
+
 - List installed dictionaries:
 
 `sdcv --list-dictist-dicts`
@@ -11,10 +15,6 @@
 - Display a definition from a specific dictionary:
 
 `sdcv --use-dict {{dictionary_name}} {{search_term}}`
-
-- Display help:
-
-`sdcv --help`
 
 - Lookup definition with fuzzy search:
 
@@ -32,6 +32,6 @@
 
 `sdvc --data-dir path/to/directory {{search_term}}`
 
-- Start sdcv interactively:
+- Display help:
 
-`sdcv`
+`sdcv --help`
