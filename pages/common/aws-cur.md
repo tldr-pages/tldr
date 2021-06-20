@@ -7,7 +7,7 @@
 
 `aws cur put-report-definition --report-definition file://{{path/to/report-definition.json}}`
 
-- List usage report definitions defined for your account:
+- List usage report definitions defined for the logged in account:
 
 `aws cur describe-report-definitions`
 
