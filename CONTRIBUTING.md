@@ -44,7 +44,7 @@ Here are a few guidelines to get started:
 These are all guidelines, not strict rules.
 Use proper judgement, keeping simplicity and user-friendliness as the top priorities.
 
-When in doubt, have a look at a few existing pages :).
+When in doubt, have a look at a few existing pages.
 
 ## Markdown format
 
