@@ -30,7 +30,7 @@
 
 - Look in specific directory for dictionaries:
 
-`sdvc --data-dir path/to/directory {{search_term}}`
+`sdvc --data-dir {{path/to/directory}} {{search_term}}`
 
 - Display help:
 
