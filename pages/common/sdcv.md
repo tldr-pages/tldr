@@ -1,6 +1,7 @@
 # sdcv
 
-> StarDict consol version. Command line dictionary client. Dictionaries provided separately.
+> StarDict console version. Command line dictionary client. 
+> Dictionaries are provided separately.
 > More information: <http://manpages.ubuntu.com/manpages/bionic/man1/sdcv.1.html>.
 
 - List installed dictionaries:
