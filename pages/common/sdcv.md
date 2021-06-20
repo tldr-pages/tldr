@@ -10,7 +10,7 @@
 
 - List installed dictionaries:
 
-`sdcv --list-dictist-dicts`
+`sdcv --list-dicts`
 
 - Display a definition from a specific dictionary:
 
