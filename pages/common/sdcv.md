@@ -2,7 +2,7 @@
 
 > StarDict console version. Command line dictionary client. 
 > Dictionaries are provided separately.
-> More information: <http://manpages.ubuntu.com/manpages/bionic/man1/sdcv.1.html>.
+> More information: <https://manned.org/sdcv>.
 
 - List installed dictionaries:
 
