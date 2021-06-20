@@ -28,7 +28,7 @@
 
 `sdcv -j {{search_term}}`
 
-- Look in specific directory for dictionaries:
+- Look in a specific directory for dictionaries:
 
 `sdvc --data-dir {{path/to/directory}} {{search_term}}`
 
