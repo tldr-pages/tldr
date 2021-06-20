@@ -8,7 +8,7 @@
 
 `git verify-tag {{tag1 optional_tag2 ...}}`
 
-- Check tags for a GPG signature and show details of each tag:
+- Check tags for a GPG signature and show details for each tag:
 
 `git verify-tag {{tag1 optional_tag2 ...}} --verbose`
 
