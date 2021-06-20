@@ -11,7 +11,7 @@
 
 `sdcv --use-dict {{dictionary_name}} {{search_term}}`
 
-- Show general help:
+- Display help:
 
 `sdcv --help`
 
