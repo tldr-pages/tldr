@@ -10,6 +10,6 @@
 
 `kde-inhibit --screenSaver {{command}} {{command_arguments}}`
 
-- Launch VLC, and inhibit colour correction (night mode) while it's running:
+- Launch VLC, and inhibit color correction (night mode) while it's running:
 
 `kde-inhibit --colorCorrect {{vlc}}`

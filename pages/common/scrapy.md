@@ -19,7 +19,7 @@
 
 `scrapy crawl {{spider_name}}`
 
-- Fetch a webpage as Scrapy sees it and print source in stdout:
+- Fetch a webpage as Scrapy sees it and print the source to stdout:
 
 `scrapy fetch {{url}}`
 
@@ -27,6 +27,6 @@
 
 `scrapy view {{url}}`
 
-- Open Scrapy shell for URL, which allows interaction with the page source in python shell (or ipython if available):
+- Open Scrapy shell for URL, which allows interaction with the page source in a Python shell (or IPython if available):
 
 `scrapy shell {{url}}`

@@ -1,6 +1,6 @@
 # bluetoothctl
 
-> Handling Bluetooth devices from the shell.
+> Manage Bluetooth devices from the command-line.
 > More information: <https://www.npmjs.com/package/bluetoothctl>.
 
 - Enter the bluetoothctl shell:
