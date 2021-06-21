@@ -31,6 +31,6 @@
 
 `aws ecr delete-repository --repository-name {{repository}} --force`
 
-- List images in a repository:
+- List images within a repository:
 
 `aws ecr list-images --repository-name {{repository}}`
