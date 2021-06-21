@@ -24,8 +24,6 @@ If you are an owner of the organization, you can see an automated list
   [12 March 2017](https://github.com/tldr-pages/tldr/issues/1209#issuecomment-285924778) — present
 - **Max Xu ([@jsonbruce](https://github.com/jsonbruce))**:
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — present
-- **Muhammad Falak R Wani ([@mfrw](https://github.com/mfrw))**:
-  [6 September 2018](https://github.com/tldr-pages/tldr/issues/2306) — present
 - **David Bialik ([@AnimiVulpis](https://github.com/AnimiVulpis))**:
   [5 November 2018](https://github.com/tldr-pages/tldr/issues/2556) — present
 - **Andrik Albuquerque ([@andrik](https://github.com/andrik))**:
@@ -48,6 +46,8 @@ If you are an owner of the organization, you can see an automated list
   [10 May 2021](https://github.com/tldr-pages/tldr/issues/5919) — present
 - **Seth Falco ([@SethFalco](https://github.com/SethFalco))**:
   [19 May 2021](https://github.com/tldr-pages/tldr/issues/5993) - present
+- **Muhammad Falak R Wani ([@mfrw](https://github.com/mfrw))**:
+  [6 September 2018](https://github.com/tldr-pages/tldr/issues/2306) — [21 June 2021](https://github.com/tldr-pages/tldr/issues/6142)
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
@@ -98,6 +98,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [19 May 2021](https://github.com/tldr-pages/tldr/issues/5989) — present
 - **CleanMachine1 ([@CleanMachine1](https://github.com/CleanMachine1))**:
   [14 June 2021](https://github.com/tldr-pages/tldr/issues/6123) — present
+- **Muhammad Falak R Wani ([@mfrw](https://github.com/mfrw))**:
+  [21 June 2021](https://github.com/tldr-pages/tldr/issues/6142) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
