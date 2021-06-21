@@ -23,7 +23,7 @@
 
 `kscreen-console json`
 
-- Display help on command-line options:
+- Display help:
 
 `kscreen-console --help`
 
