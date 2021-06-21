@@ -1,7 +1,7 @@
 # sdcv
 
-> StarDict console version. Command line dictionary client.
-> Dictionaries are provided separately.
+> StarDict command-line version, dictionary client.
+> Dictionaries are provided separately from the client.
 > More information: <https://manned.org/sdcv>.
 
 - Start sdcv interactively:
