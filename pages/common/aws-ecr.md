@@ -29,7 +29,7 @@
 
 - Delete a repository:
 
-`aws ecr delete-repository --repository-name {{repo_name}} --force`
+`aws ecr delete-repository --repository-name {{repository}} --force`
 
 - List images in a repository:
 
