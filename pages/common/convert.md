@@ -31,6 +31,6 @@
 
 `convert -size {{800x600}} "xc:{{#ff0000}}" {{image.png}}`
 
-- Create a favicon from several sized images:
+- Create a favicon from several images of different sizes:
 
-`convert {{image1.png}} {{image2.png}} {{image3.png}} {{image.ico}}
+`convert {{image1.png}} {{image2.png}} {{image3.png}} {{image.ico}}`
