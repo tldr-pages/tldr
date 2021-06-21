@@ -44,8 +44,6 @@ If you are an owner of the organization, you can see an automated list
   [03 May 2021](https://github.com/tldr-pages/tldr/issues/5873) — present
 - **Patrice Denis ([@patricedenis](https://github.com/patricedenis))**:
   [10 May 2021](https://github.com/tldr-pages/tldr/issues/5919) — present
-- **Seth Falco ([@SethFalco](https://github.com/SethFalco))**:
-  [19 May 2021](https://github.com/tldr-pages/tldr/issues/5993) - present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
@@ -74,6 +72,8 @@ If you are an owner of the organization, you can see an automated list
   [14 May 2021](https://github.com/tldr-pages/tldr/issues/5961) — [14 June 2021](https://github.com/tldr-pages/tldr/issues/6123)
 - Muhammad Falak R Wani ([@mfrw](https://github.com/mfrw)):
   [6 September 2018](https://github.com/tldr-pages/tldr/issues/2306) — [21 June 2021](https://github.com/tldr-pages/tldr/issues/6142)
+- Seth Falco ([@SethFalco](https://github.com/SethFalco)):
+  [19 May 2021](https://github.com/tldr-pages/tldr/issues/5993) - [21 June 2021](https://github.com/tldr-pages/tldr/issues/6149)
 
 ## Organization members
 
@@ -100,6 +100,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [14 June 2021](https://github.com/tldr-pages/tldr/issues/6123) — present
 - **Muhammad Falak R Wani ([@mfrw](https://github.com/mfrw))**:
   [21 June 2021](https://github.com/tldr-pages/tldr/issues/6142) — present
+- **Seth Falco ([@SethFalco](https://github.com/SethFalco))**:
+  [21 June 2021](https://github.com/tldr-pages/tldr/issues/6149) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
