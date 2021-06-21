@@ -16,7 +16,7 @@
 
 `sdcv --use-dict {{dictionary_name}} {{search_term}}`
 
-- Lookup definition with fuzzy search:
+- Lookup a definition with a fuzzy search:
 
 `sdcv {{search_term}}`
 
