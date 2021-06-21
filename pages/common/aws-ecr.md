@@ -9,7 +9,7 @@
 
 - Create a repository:
 
-`aws ecr create-repository --repository-name {{repo_name}} --image-scanning-configuration scanOnPush={{true|false}} --region {{region}}`
+`aws ecr create-repository --repository-name {{repository}} --image-scanning-configuration scanOnPush={{true|false}} --region {{region}}`
 
 - Tag a local image for ECR:
 
