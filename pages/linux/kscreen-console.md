@@ -19,7 +19,7 @@
 
 `kscreen-console monitor`
 
-- Show the current KScreen configuration in JSON:
+- Show the current KScreen configuration as JSON:
 
 `kscreen-console json`
 
