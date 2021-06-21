@@ -24,7 +24,7 @@
 
 `sdcv --exact-search {{search_term}}`
 
-- Lookup definition and get json output:
+- Lookup a definition and format the output as JSON:
 
 `sdcv -j {{search_term}}`
 
