@@ -19,6 +19,6 @@
 
 `bluetoothd --debug`
 
-- Start the daemon with verbose output for an specific file:
+- Start the daemon with verbose output for a specific file:
 
-`bluetoothd --debug={{path/to/file.c}}`
+`bluetoothd --debug={{path/to/file}}`
