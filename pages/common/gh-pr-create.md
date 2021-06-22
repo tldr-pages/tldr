@@ -1,24 +1,24 @@
 # gh pr create
 
 > Manage GitHub pull requests from the command-line.
-> More information: <https://cli.github.com/manual/gh_pr>.
+> More information: <https://cli.github.com/manual/gh_pr_create>.
 
-- Create a pull request:
+- Interactively create a pull request:
 
 `gh pr create`
 
-- Create a pull request with out interactive shell:
+- Create a pull request, determining the title and description from the commit messages of the current branch:
 
-`gh pr create -f`
+`gh pr create --fill`
 
 - Create a draft pull request:
 
-`gh pr create -d`
+`gh pr create --draft`
 
-- Create a pull request:
+- Create a pull request, specifying the base branch, title, and description:
 
-`gh pr create -B base_branch -t 'Pull Request Title' -b 'Pull Request Description'`
+`gh pr create -B {{base_branch}} -t "{{pull_request_title}}" -b "{{pull_request_description}}"`
 
-- Open preview a pull request in the browser
+- Start opening a pull request in the browser:
 
 `gh pr create --web`
