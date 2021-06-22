@@ -3,22 +3,22 @@
 > Daemon to manage bluetooth devices.
 > More information: <https://manned.org/bluetoothd>.
 
-- Start daemon:
+- Start the daemon:
 
 `bluetoothd`
 
-- Start logging to stdout:
+- Start the daemon, logging to stdout:
 
 `bluetoothd --nodetach`
 
-- Start with a specific configuration file:
+- Start the daemon with a specific configuration file:
 
 `bluetoothd --configfile {{path/to/file}}`
 
-- Start with verbose output to stderr:
+- Start the daemon with verbose output to stderr:
 
 `bluetoothd --debug`
 
-- Start with verbose output for an specific file:
+- Start the daemon with verbose output for an specific file:
 
 `bluetoothd --debug={{path/to/file.c}}`
