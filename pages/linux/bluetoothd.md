@@ -11,7 +11,7 @@
 
 `bluetoothd --nodetach`
 
-- Start the daemon with a specific configuration file:
+- Start the daemon with a specific configuration file (defaults to `/etc/bluetooth/main.conf`):
 
 `bluetoothd --configfile {{path/to/file}}`
 
