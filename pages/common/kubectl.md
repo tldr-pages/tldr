@@ -35,3 +35,7 @@
 - Run command in an existing pod:
 
 `kubectl exec {{pod_name}} -- {{ls /}}`
+
+- Run a one-off Ubuntu container:
+
+`kubectl run -it temp-ubuntu --image=ubuntu:20.04 --restart=Never --rm -- /bin/bash`
