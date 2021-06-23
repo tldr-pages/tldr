@@ -5,4 +5,12 @@
 
 - Start a PXE boot server which provides a `netboot.xyz` boot image:
 
-`pixiecore {{quick}} {{xyz}} --dhcp-no-bind`
+`pixiecore {{quick}} xyz --dhcp-no-bind`
+
+- Start a new PXE boot server which provides an `ubuntu` boot image:
+
+`pixiecore {{quick}} ubuntu --dhcp-no-bind`
+
+- Get a list of all available boot images for quick mode:
+
+`pixiecore quick --help`
