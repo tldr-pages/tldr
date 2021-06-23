@@ -7,11 +7,11 @@
 
 `git merge {{nom_de_branche}}`
 
-- Editer le message de fusion (`merge commit`) :
+- Editer le message de fusion (`merge commit`) :
 
 `git merge -e {{nom_de_branche}}`
 
-- Fusionner une branche et créer un commit de fusion (`merge commit`) :
+- Fusionner une branche et créer un commit de fusion (`merge commit`) :
 
 `git merge --no-ff {{nom_de_branche}}`
 
