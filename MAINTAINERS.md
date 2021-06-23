@@ -149,4 +149,5 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   until [18 January 2018](https://github.com/tldr-pages/tldr/issues/1878#issuecomment-358610454)
 - Leandro Ostera ([@ostera](https://github.com/ostera)):
   until [18 January 2018](https://github.com/tldr-pages/tldr/issues/1878#issuecomment-358610454)
-- Waldir Pimenta ([@waldyrious](https://github.com/waldyrious)): until [26 August 2018](https://github.com/tldr-pages/tldr/issues/2257)
+- Waldir Pimenta ([@waldyrious](https://github.com/waldyrious)):
+  until [26 August 2018](https://github.com/tldr-pages/tldr/issues/2257)
