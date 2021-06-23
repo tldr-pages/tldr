@@ -15,7 +15,7 @@
 
 `gh pr create --draft`
 
-- Create a pull request, specifying the base branch, title, and description:
+- Create a pull request specifying the base branch, title, and description:
 
 `gh pr create -B {{base_branch}} -t "{{pull_request_title}}" -b "{{pull_request_description}}"`
 
