@@ -13,7 +13,7 @@
 
 - Show API calls that would be made to create an nginx container:
 
-`kubectl run --generator=run-pod/v1 nginx --image=nginx --dry-run=client`
+`kubectl run --generator=run-pod/v1 nginx --image=nginx --dry-run`
 
 - Run a one-off Ubuntu pod interactively, never restart it, and remove it when it exits:
 
