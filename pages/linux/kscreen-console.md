@@ -1,6 +1,6 @@
 # kscreen-console
 
-> KScreen Console is a CLI tool to query KScreen's status.
+> Command-line tool to query KScreen's status.
 > More information: <https://manned.org/kscreen-console>.
 
 - Show all outputs and configuration files to attach to a bug report:
