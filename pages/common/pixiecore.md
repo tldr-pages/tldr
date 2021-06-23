@@ -7,7 +7,7 @@
 
 `pixiecore {{quick}} xyz --dhcp-no-bind`
 
-- Start a new PXE boot server which provides an `ubuntu` boot image:
+- Start a new PXE boot server which provides an Ubuntu boot image:
 
 `pixiecore {{quick}} ubuntu --dhcp-no-bind`
 
