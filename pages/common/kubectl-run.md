@@ -21,4 +21,4 @@
 
 - Run a Ubuntu pod overriding the default command with echo and specifying custom arguments:
 
-`kubectl run --generator=run-pod/v1 nginx --image=nginx --command -- echo arg1 arg2 arg3`
+`kubectl run --generator=run-pod/v1 temp-ubuntu --image=ubuntu:20.04 --command -- echo arg1 arg2 arg3`
