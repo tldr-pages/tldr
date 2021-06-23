@@ -11,7 +11,7 @@
 
 `htop --username {{username}}`
 
-- Sort processes with a specified parameter (use `htop --sort help` for available parameters):
+- Sort processes by a specified parameter (use `htop --sort help` for available parameters):
 
 `htop --sort {{parameter}}`
 
