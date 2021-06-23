@@ -8,7 +8,7 @@
 
 - Display the current date in UTC and ISO 8601 format:
 
-`date -u +"%Y-%m-%dT%H:%M:%S%Z"`
+`date -u +"%Y-%m-%dT%H:%M:%SZ"`
 
 - Display the current date as a Unix timestamp (seconds since the Unix epoch):
 

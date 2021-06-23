@@ -1,9 +1,9 @@
 # cmark
 
-> Commonmark Markdown 텍스트를 다른 텍스트 형식으로 변환합니다.
+> CommonMark Markdown 텍스트를 다른 텍스트 형식으로 변환합니다.
 > 더 많은 정보: <https://github.com/commonmark/cmark>.
 
-- Commonmark Markdown 파일을 HTML 파일로 렌더링합니다:
+- CommonMark Markdown 파일을 HTML 파일로 렌더링합니다:
 
 `cmark --to html {{파일명.md}}`
 
@@ -15,6 +15,6 @@
 
 `cmark --smart --to html {{파일명.md}}`
 
-- utf8 문자들을 검증:
+- UTF-8 문자들을 검증:
 
 `cmark --validate-utf8 {{파일명.md}}`

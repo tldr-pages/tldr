@@ -1,6 +1,6 @@
 # gdrive
 
-> Command line tool to interact with Google Drive.
+> Command-line tool to interact with Google Drive.
 > Folder/file id can be obtained from the Google Drive folder or id url.
 > More information: <https://github.com/gdrive-org/gdrive>.
 

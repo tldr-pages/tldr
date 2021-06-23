@@ -1,6 +1,6 @@
 # montage
 
-> Imagemagick image montage tool.
+> ImageMagick image montage tool.
 > Tiles images into a customisable grid.
 > More information: <https://imagemagick.org/script/montage.php>.
 

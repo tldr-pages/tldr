@@ -1,6 +1,6 @@
 # octo
 
-> Command line tools for Octopus Deploy.
+> Command-line tools for Octopus Deploy.
 > More information: <https://octopus.com/docs/octopus-rest-api/octo.exe-command-line>.
 
 - Create a package:

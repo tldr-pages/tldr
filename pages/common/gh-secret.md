@@ -1,6 +1,6 @@
 # gh secret
 
-> Manage GitHub secrets from the command line.
+> Manage GitHub secrets from the command-line.
 > More information: <https://cli.github.com/manual/gh_secret>.
 
 - List secret keys for the current repository:
@@ -15,13 +15,13 @@
 
 `gh secret list --repo {{owner}}/{{repository}}`
 
+- Set a secret for the current repository (user will be prompted for the value):
+
+`gh secret set {{name}}`
+
 - Set a secret from a file for the current repository:
 
 `gh secret set {{name}} < {{path/to/file}}`
-
-- Set a secret for a specific repository:
-
-`gh secret set {{name}} --body {{value}} --repo {{owner}}/{{repository}}`
 
 - Set an organization secret for specific repositories:
 
