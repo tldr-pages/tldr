@@ -19,6 +19,6 @@
 
 `bluetoothd --debug`
 
-- Start the daemon with verbose output for a specific file:
+- Start the daemon with verbose output coming from specific files in the bluetoothd source:
 
 `bluetoothd --debug={{path/to/file1}}:{{path/to/file2}}:{{path/to/file3}}`
