@@ -5,4 +5,4 @@
 
 - Boot with `netboot.xyz` on the same network:
 
-`pixiecore quick xyz --dhcp-no-bind`
+`pixiecore {{quick}} {{xyz}} --dhcp-no-bind`
