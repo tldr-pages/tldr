@@ -21,4 +21,4 @@
 
 - Start the daemon with verbose output for a specific file:
 
-`bluetoothd --debug={{path/to/file}}`
+`bluetoothd --debug={{path/to/file1}}:{{path/to/file2}}:{{path/to/file3}}`
