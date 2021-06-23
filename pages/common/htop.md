@@ -15,6 +15,6 @@
 
 `htop --sort {{parameter}}`
 
-- Get help about interactive commands:
+- Display help about interactive commands:
 
 `htop --help`
