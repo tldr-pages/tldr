@@ -11,10 +11,10 @@
 
 `htop --username {{username}}`
 
-- Sort processes by a specified parameter (use `htop --sort help` for available parameters):
+- Sort processes by a specified `sort_item` (use `htop --sort help` for available options):
 
-`htop --sort {{parameter}}`
+`htop --sort {{sort_item}}`
 
-- Display help about interactive commands:
+- Display help:
 
 `htop --help`
