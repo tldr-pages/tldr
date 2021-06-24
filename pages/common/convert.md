@@ -1,6 +1,6 @@
 # convert
 
-> Imagemagick image conversion tool.
+> ImageMagick image conversion tool.
 > More information: <https://imagemagick.org/script/convert.php>.
 
 - Convert an image from JPG to PNG:
@@ -30,3 +30,7 @@
 - Create an image with nothing but a solid background:
 
 `convert -size {{800x600}} "xc:{{#ff0000}}" {{image.png}}`
+
+- Create a favicon from several images of different sizes:
+
+`convert {{image1.png}} {{image2.png}} {{image3.png}} {{image.ico}}`

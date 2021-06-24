@@ -3,7 +3,7 @@
 > Générateur de site statique simple, adapté aux blogs.
 > Plus d'informations : <https://jekyllrb.com>.
 
-- Génère un serveur de développement qui tourne au http://localhost:4000/ :
+- Génère un serveur de développement qui tourne en http://localhost:4000/ :
 
 `jekyll serve`
 

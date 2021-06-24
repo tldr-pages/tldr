@@ -155,7 +155,7 @@ If a page cannot be found in _any_ platform, then it is RECOMMENDED that clients
 https://github.com/tldr-pages/tldr/issues/new?title=page%20request:%20{command_name}
 ```
 
-where `{command_name}` is the name of the command that was not found. Clients that have control over their exit code on the command line (i.e. clients that provide a CLI) MUST exit with a non-zero exit code in addition to showing the above message.
+where `{command_name}` is the name of the command that was not found. Clients that have control over their exit code on the command-line (i.e. clients that provide a CLI) MUST exit with a non-zero exit code in addition to showing the above message.
 
 #### If multiple versions of a page were found
 
@@ -188,7 +188,7 @@ Examples:
 
 Regardless of the language determined through the environment, clients MUST always attempt to fallback to English if the page does not exist in the user preferred language. Clients MAY notify the user when a page in their preferred language cannot be found (optionally including a link to the [translations section of the contributing guide](https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md#translations)).
 
-It is also RECOMMENDED to make the language configurable, as to not only rely on the environment. Clients SHOULD offer options to configure or override the language using configuration files or even command line options (like `-L, --language` as suggested in the [arguments section](#arguments) above). If such a command-line option is specified, a client must strictly adhere to its value, and MUST NOT show pages in a different language, failing with an appropriate error message instead.
+It is also RECOMMENDED to make the language configurable, as to not only rely on the environment. Clients SHOULD offer options to configure or override the language using configuration files or even command-line options (like `-L, --language` as suggested in the [arguments section](#arguments) above). If such a command-line option is specified, a client must strictly adhere to its value, and MUST NOT show pages in a different language, failing with an appropriate error message instead.
 
 The [`LC_MESSAGES` environment variable](https://www.gnu.org/software/gettext/manual/html_node/Locale-Environment-Variables.html) MAY be present. If the client itself is localized and this environment variable is present, it MUST use its value in order to determine the language in which interface text is shown (separately from the language used for pages). In absence of `LC_MESSAGES`, then `LANG` and `LANGUAGE` MUST be used for this purpose instead.
 

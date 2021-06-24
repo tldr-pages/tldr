@@ -1,6 +1,7 @@
 # xfce4-screenshooter
 
 > The XFCE4 screenshot tool.
+> More information: <https://docs.xfce.org/apps/xfce4-screenshooter/start>.
 
 - Launch the screenshooter GUI:
 

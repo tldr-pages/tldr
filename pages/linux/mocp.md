@@ -31,6 +31,6 @@
 
 `mocp --{{play|stop}}`
 
-- Stop the MOC server while it's in the backgroud:
+- Stop the MOC server while it's in the background:
 
 `mocp --exit`

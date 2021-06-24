@@ -1,5 +1,5 @@
 <div align="center">
-<h1><img alt="tldr-pages" src="images/banner-light.png" width=600/></h1>
+<h1><img alt="tldr-pages" src="images/banner.png" width=600/></h1>
 
 [![Build status][github-actions-image]][github-actions-url]
 [![Gitter chat][gitter-image]][gitter-url]
@@ -60,7 +60,7 @@ However, if you just want to browse without installing anything, check
 out the [PDF version](https://tldr.sh/assets/tldr-book.pdf).
 
 There are also various other clients provided by the community,
-both for the command line and for other platforms:
+both for the command-line and for other platforms:
 
 - Alfred Workflow
   - [tldr-alfred](https://github.com/cs1707/tldr-alfred)
@@ -185,17 +185,17 @@ to see the current progress of all translations.
   the best entries are what people see first when they look up a command.
 
 - [kb](https://github.com/gnebbia/kb)
-  is a minimalist command line knowledge base manager.
+  is a minimalist command-line knowledge base manager.
   kb can be used to organize your notes and cheatsheets in a minimalist
   and clean way. It supports also non-text files.
 
 - [eg](https://github.com/srsudar/eg)
-  provides detailed examples with explanations on the command line.
+  provides detailed examples with explanations on the command-line.
   Examples come from the repository, but `eg` supports displaying
   custom examples and commands alongside the defaults.
 
 - [devhints](https://devhints.io/)
-  Rico's cheatsheets are not just focused on the command line and
+  Rico's cheatsheets are not just focused on the command-line and
   include a plethora of other cheatsheets related to programming.
 
 ## What does "tldr" mean?

@@ -1,12 +1,21 @@
 # git ignore
 
-> Generate .gitignore files from predefined templates.
-> More information: <https://docs.gitignore.io/install/command-line>.
+> Show/update `.gitignore` files.
+> Part of `git-extras`. See also `git ignore-io`.
+> More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-ignore>.
 
-- List available templates:
+- Show the content of all global and local `.gitignore` files:
 
-`git ignore list`
+`git ignore`
 
-- Generate a .gitignore template:
+- Ignore file(s) privately, updating `.git/info/exclude` file:
 
-`git ignore {{item_a,item_b,item_n}}`
+`git ignore {{file_pattern}} --private`
+
+- Ignore file(s) locally, updating local `.gitignore` file:
+
+`git ignore {{file_pattern}}`
+
+- Ignore file(s) globally, updating global `.gitignore` file:
+
+`git ignore {{file_pattern}} --global`

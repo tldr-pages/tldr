@@ -15,7 +15,7 @@
 
 `expose --subdomain={{subdomain}}`
 
-- Share a local url:
+- Share a local URL:
 
 `expose share {{url}}`
 

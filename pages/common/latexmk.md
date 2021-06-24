@@ -4,11 +4,11 @@
 > Automatically does multiple runs when needed.
 > More information: <https://mg.readthedocs.io/latexmk.html>.
 
-- Compile a dvi (DeVice Independent file) document from every source:
+- Compile a DVI (Device Independent file) document from every source:
 
 `latexmk`
 
-- Compile a dvi document from a specific source file:
+- Compile a DVI document from a specific source file:
 
 `latexmk {{source.tex}}`
 

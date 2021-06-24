@@ -11,7 +11,7 @@
 
 `ruby {{script.rb}}`
 
-- Execute a single Ruby command in the command line:
+- Execute a single Ruby command in the command-line:
 
 `ruby -e {{command}}`
 

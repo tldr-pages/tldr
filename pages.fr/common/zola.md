@@ -1,6 +1,6 @@
 # zola
 
-> Un générateur de site statique à partir d'un unique binaire sans dépendances.
+> Un générateur de site statique à partir d'un unique binaire sans dépendance.
 > Plus d'informations : <https://www.getzola.org/documentation/getting-started/cli-usage/>.
 
 - Créer la structure du répertoire utilisé par Zola dans un répertoire donné :
