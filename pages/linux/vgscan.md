@@ -8,6 +8,6 @@
 
 `sudo vgscan`
 
-- Scan for volume groups and add or remove the special files in `/dev` needed to access the logical volumes in a group:
+- Scan for volume groups and add the special files in `/dev`, if they don't already exist, needed to access the logical volumes in the found groups :
 
 `sudo vgscan --mknodes`
