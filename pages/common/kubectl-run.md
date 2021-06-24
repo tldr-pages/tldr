@@ -3,7 +3,7 @@
 > Run pods in Kubernetes. Specifies pod generator to avoid deprecation error in some K8S versions.
 > More information: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#run>.
 
-- Spawn an nginx pod and expose port 80:
+- Run an nginx pod and expose port 80:
 
 `kubectl run --generator=run-pod/v1 nginx --image=nginx --port 80`
 
@@ -15,7 +15,7 @@
 
 `kubectl run --generator=run-pod/v1 nginx --image=nginx --dry-run`
 
-- Run a one-off Ubuntu pod interactively, never restart it, and remove it when it exits:
+- Run an Ubuntu pod interactively, never restart it, and remove it when it exits:
 
 `kubectl run --generator=run-pod/v1 -it temp-ubuntu --image=ubuntu:20.04 --restart=Never --rm -- /bin/bash`
 
