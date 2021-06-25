@@ -2,7 +2,7 @@
 
 > Uncomplicated Firewall.
 > Frontend for iptables aiming to make configuration of a firewall easier.
-> More information: <https://wiki.ubuntu.com/UncomplicatedFirewall>.
+> More information: <https://manned.org/ufw>.
 
 - Enable ufw:
 
