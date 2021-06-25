@@ -1,0 +1,4 @@
+decorator==5.0.9
+pyperclip==1.8.2
+six==1.16.0
+validators==0.18.2
