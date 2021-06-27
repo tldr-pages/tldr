@@ -15,7 +15,7 @@
 
 `lxi screenshot --address {{ip_adress}} --plugin {{rigol-1000z}}`
 
-- Send SCPI command to an instrument:
+- Send an SCPI command to an instrument:
 
 `lxi scpi --address {{ip_adress}} "{{*IDN?}}"`
 
