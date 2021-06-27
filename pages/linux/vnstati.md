@@ -1,6 +1,7 @@
 # vnstati
 
 > PNG image output support for vnStat.
+> More information: <https://linux.die.net/man/1/vnstati>.
 
 - Output summary of the last 2 days/months and all time:
 
