@@ -1,6 +1,6 @@
 # vnstati
 
-> png image output support for vnStat
+> PNG image output support for vnStat.
 
 - Output summary of the last 2 days/months and all time:
 
