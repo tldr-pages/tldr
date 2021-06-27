@@ -19,6 +19,6 @@
 
 `lxi scpi --address {{10.42.1.20}} {{"*IDN?"}}`
 
-- Benchmark instrument request/response performance:
+- Run a benchmark for request and response performance:
 
 `lxi benchmark --address {{10.42.1.20}}`
