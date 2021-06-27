@@ -5,16 +5,16 @@
 
 - Output summary of the last 2 days/months and all time:
 
-`vnstati --summary --iface {{network_interface}} --output {{*.png}}`
+`vnstati --summary --iface {{network_interface}} --output {{output.png}}`
 
 - Output all time top 10 traffic days:
 
-`vnstati --top10 --iface {{network_interface}} --output {{*.png}}`
+`vnstati --top10 --iface {{network_interface}} --output {{output.png}}`
 
 - Output traffic statistics on a monthly basis for the last 12 months:
 
-`vnstati --months --iface {{network_interface}} --output {{*.png}}`
+`vnstati --months --iface {{network_interface}} --output {{output.png}}`
 
 - Output traffic statistics on a hourly basis for the last 24 hours:
 
-`vnstati --hours --iface {{network_interface}} --output {{*.png}}`
+`vnstati --hours --iface {{network_interface}} --output {{output.png}}`
