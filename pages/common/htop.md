@@ -15,7 +15,7 @@
 
 `htop --sort {{sort_item}}`
 
-- Whilst running htop, see interactive commands:
+- See interactive commands while running htop:
 
 `?`
 
