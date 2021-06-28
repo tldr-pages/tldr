@@ -61,3 +61,27 @@ If the email that you used for the last commit isn't associated with your GitHub
 git commit --amend --author="Your Name <new.email@example.com>"
 git push --force-with-lease
 ```
+
+# Changing the email of any commit(s)
+
+Let's take this commit history as an example:
+
+| Commit Hash | Author Email
+|---|---
+| A | wrong@example.org
+| B | correct@example.org
+| C | correct@example.org
+| D | wrong@example.org
+| E | correct@example.org
+| F (HEAD) | correct@example.org
+
+To change the email of commts A and D, run
+
+```bash
+git reset A
+git commit --amend --author="Your Name <correct@example.org>"
+git cherry-pick B^..D # re-apply commits B to D
+git commit --amend --author="Your Name <correct@example.org>"
+git cherry-pick E^..HEAD
+git push --force-with-lease
+```
