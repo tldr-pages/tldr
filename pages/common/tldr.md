@@ -9,7 +9,7 @@
 
 - Show the tldr page for `cd`, overriding the default platform:
 
-`tldr -p {{android|linux|osx|sunos|windows}} {{cd}}`
+`tldr --platform {{android|linux|osx|sunos|windows}} {{cd}}`
 
 - Show the tldr page for a subcommand:
 
