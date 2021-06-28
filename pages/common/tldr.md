@@ -17,4 +17,4 @@
 
 - Update local pages (if the client supports caching):
 
-`tldr -u`
+`tldr --update`
