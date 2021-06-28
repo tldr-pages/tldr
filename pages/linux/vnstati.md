@@ -15,6 +15,6 @@
 
 `vnstati --months --iface {{network_interface}} --output {{output.png}}`
 
-- Output traffic statistics on a hourly basis for the last 24 hours:
+- Output traffic statistics on an hourly basis for the last 24 hours:
 
 `vnstati --hours --iface {{network_interface}} --output {{output.png}}`
