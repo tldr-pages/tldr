@@ -34,11 +34,11 @@ Typically a pull request will include changes in a single file.
 
 # Updating your fork
 
-Forks of GitHub repositories aren't updated automatically. In order to keep your fork of the repository up-to-date with the latest changes and avoid merge conflicts, you should update it regularly.
+Forks of GitHub repositories aren't updated automatically. To keep your fork up-to-date with the latest changes and avoid merge conflicts, you should update it regularly.
 
 There are two ways to update your fork.
 
-1. Via the GitHub web interface.  Click `Fetch upstream` and then `Fetch and merge` on the fork as shown below:
+1. Via the GitHub web interface. Click `Fetch upstream` and then `Fetch and merge` on the fork as shown below:
 
 ![Fetch and merge button in GitHub](../images/github-fetch-and-merge-button.png).
 
@@ -54,7 +54,7 @@ git push --force-with-lease  # not needed if you only want to update your local 
 
 # Changing the email of your last commit
 
-If the email that you used for a commit isn't added to your GitHub account, you can either add it [here](https://github.com/settings/emails) or change the email of your last commit with the following commands:
+If the email that you used for the last commit isn't associated with your GitHub account, you can either add it [here](https://github.com/settings/emails) or change the email of the commit with the following commands:
 
 ```bash
 git commit --amend --author="Your Name <new.email@example.com>"
