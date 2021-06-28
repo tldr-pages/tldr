@@ -1,9 +1,10 @@
 # radeontop
 
 > Show utilisation of AMD GPUs.
+> May require root privileges depending on your system.
 > More information: <https://github.com/clbr/radeontop>.
 
-- Show the utilisation of the default AMD GPU (may require root privileges depending on your system):
+- Show the utilisation of the default AMD GPU:
 
 `radeontop`
 
