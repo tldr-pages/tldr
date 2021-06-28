@@ -9,7 +9,7 @@
 
 - Specify the column width for wrapping:
 
-`cat {{file.json}} | jtbl --cols={{number}}`
+`cat {{file.json}} | jtbl --cols={{width}}`
 
 - Truncate rows instead of wrapping:
 
