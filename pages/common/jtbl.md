@@ -15,6 +15,6 @@
 
 `cat {{file.json}} | jtbl -t`
 
-- No wrapping or truncation of rows:
+- Don't wrap or truncate rows:
 
 `cat {{file.json}} | jtbl -n`
