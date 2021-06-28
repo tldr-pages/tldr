@@ -11,7 +11,7 @@
 
 `lxi screenshot --address {{ip_address}}`
 
-- Capture a screenshot using specifying a plugin:
+- Capture a screenshot using a specified plugin:
 
 `lxi screenshot --address {{ip_address}} --plugin {{rigol-1000z}}`
 
