@@ -7,7 +7,7 @@
 
 `vnstati --summary --iface {{network_interface}} --output {{output.png}}`
 
-- Output all time top 10 traffic days:
+- Output all-time top 10 traffic days:
 
 `vnstati --top10 --iface {{network_interface}} --output {{output.png}}`
 
