@@ -7,7 +7,7 @@
 
 `lxi discover`
 
-- Capture a screenshot using plugin autodetection:
+- Capture a screenshot detecting a plugin automatically:
 
 `lxi screenshot --address {{ip_address}}`
 
