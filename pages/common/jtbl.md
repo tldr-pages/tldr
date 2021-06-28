@@ -3,7 +3,7 @@
 > Utility to print JSON and JSON Lines data as a table in the terminal.
 > More information: <https://github.com/kellyjonbrazil/jtbl>.
 
-- Print a table from JSON input:
+- Print a table from JSON or JSON Lines input:
 
 `cat {{file.json}} | jtbl`
 
