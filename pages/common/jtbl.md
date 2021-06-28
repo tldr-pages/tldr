@@ -7,14 +7,14 @@
 
 `cat {{file.json}} | jtbl`
 
-- Specify the column width for wrapping:
+- Print a table and specify the column width for wrapping:
 
 `cat {{file.json}} | jtbl --cols={{width}}`
 
-- Truncate rows instead of wrapping:
+- Print a table and truncate rows instead of wrapping:
 
 `cat {{file.json}} | jtbl -t`
 
-- Don't wrap or truncate rows:
+- Print a table and don't wrap or truncate rows:
 
 `cat {{file.json}} | jtbl -n`
