@@ -23,7 +23,7 @@
 
 `keepassxc-cli clip {{path/to/database_file}} {{entry_name}}`
 
-- Copy TOTP to the clipboard:
+- Copy a TOTP code to the clipboard:
 
 `keepassxc-cli clip --totp {{path/to/database_file}} {{entry_name}}`
 
