@@ -1,7 +1,7 @@
 # git verify-tag
 
 > Check for GPG verification of tags.
-> If tag isn't signed with -s when made, you will get an error regardless of signing.
+> If a tag wasn't manually signed, an error will occur.
 > More information: <https://git-scm.com/docs/git-verify-tag>.
 
 - Check tags for a GPG signature:
