@@ -1,4 +1,4 @@
-# fuff
+# ffuf
 
 > A fast web fuzzer written in Go.
 > More information: <https://github.com/ffuf/ffuf>.
