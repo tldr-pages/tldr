@@ -29,7 +29,7 @@
 
 - Install packages from a file:
 
-`pip3 install --requirements {{requirements.txt}}`
+`pip3 install --requirement {{requirements.txt}}`
 
 - Show installed package info:
 

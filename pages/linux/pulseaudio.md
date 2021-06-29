@@ -1,6 +1,7 @@
 # pulseaudio
 
 > The pulseaudio sound system daemon and manager.
+> More information: <https://www.freedesktop.org/wiki/Software/PulseAudio/>.
 
 - Check if pulseaudio is running (a non-zero exit code means it is not running):
 

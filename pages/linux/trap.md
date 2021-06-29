@@ -2,6 +2,7 @@
 
 > Automatically execute commands after receiving signals by processes or the operating system.
 > Can be used to perform cleanups for interruptions by the user or other actions.
+> More information: <https://manned.org/trap>.
 
 - List available signals to set traps for:
 

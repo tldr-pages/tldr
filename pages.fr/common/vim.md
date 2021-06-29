@@ -10,11 +10,11 @@
 
 - consulter le manuel utilisateur :
 
-`:help<Enter>`
+`:help<Entrée>`
 
 - Sauvegarder et fermer :
 
-`:wq<Enter>`
+`:wq<Entrée>`
 
 - Ouvrir un fichier à une ligne spécifiée :
 
@@ -24,14 +24,14 @@
 
 `u`
 
-- Rechercher un pattern dans un fichier (appuyez `n`/`N` pour aller à la prochaine / précédente occurrence) :
+- Rechercher un motif dans un fichier (appuyez `n`/`N` pour aller à la prochaine / précédente occurrence) :
 
-`/{{pattern_recherche}}<Enter>`
+`/{{motif_recherché}}<Entrée>`
 
 - Effectuer une substitution par expression régulière dans tout le fichier :
 
-`:%s/{{pattern}}/{{replacement}}/g<Enter>`
+`:%s/{{motif}}/{{remplacement}}/g<Entrée>`
 
 - Afficher les numéros de ligne :
 
-`:set nu<Enter>`
+`:set nu<Entrée>`

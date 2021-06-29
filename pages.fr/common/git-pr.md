@@ -10,7 +10,7 @@
 
 `git pr {{pr_number}} {{distant}}`
 
-- Récupère une pull-request depuis son URL :
+- Récupère une pull-request depuis son URL :
 
 `git pr {{url}}`
 

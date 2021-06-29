@@ -19,6 +19,6 @@
 
 `git flow feature publish {{feature}}`
 
-- Récupérer un fonctionnalité publiée par un autre utilisateur :
+- Récupérer une fonctionnalité publiée par un autre utilisateur :
 
 `git flow feature pull origin {{feature}}`

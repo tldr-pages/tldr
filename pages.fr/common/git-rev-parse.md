@@ -3,7 +3,7 @@
 > Afficher les métadonnées liées à des révisions spécifiques.
 > Plus d'informations : <https://git-scm.com/docs/git-rev-parse>.
 
-- Afficher le hash de commit de la branche courante :
+- Afficher l'empreinte du commit de la branche courante :
 
 `git rev-parse {{nom_de_branche}}`
 
