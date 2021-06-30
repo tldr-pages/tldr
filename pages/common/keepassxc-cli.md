@@ -33,4 +33,4 @@
 
 - Generate a password with 16 printable ASCII characters:
 
-`keepassxc-cli generate --lower -upper --numeric --special -length {{16}}`
+`keepassxc-cli generate --lower -upper --numeric --special --length {{16}}`
