@@ -5,7 +5,7 @@
 
 - Export documents in JSON format to stdout:
 
-`mongoexport --uri={{mongodb_uri}} --collection={{collection_name}}`
+`mongoexport --uri={{connection_string}} --collection={{collection_name}}`
 
 - Export the documents in the specified collection that match a query to a JSON file:
 
