@@ -29,4 +29,4 @@
 
 - Create a VPN connection using OpenVPN from a OVPN file:
 
-`nmcli connection import type openvpn file {{vpn_file}}.ovpn`
+`nmcli connection import type {{openvpn}} file {{path/to/vpn_config.ovpn}}`
