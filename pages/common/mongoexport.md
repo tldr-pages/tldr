@@ -23,7 +23,7 @@
 
 `mongoexport --collection={{collection_name}} --type={{csv}} --fields="{{field1,field2,...}}" --queryFile={{path/to/file}} --noHeaderLine --out={{path/to/file.csv}}`
 
-- Export documents in human-readable JSON format to stdout:
+- Export documents to stdout, formatted as human-readable JSON:
 
 `mongoexport --uri={{mongodb_uri}} --collection={{collection_name}} --pretty`
 
