@@ -7,7 +7,7 @@
 
 `mongoexport --uri={{mongodb_uri}} --collection={{collection_name}}`
 
-- Export documents that match a query to a JSON file:
+- Export the documents in the specified collection that match a query to a JSON file:
 
 `mongoexport --db={{database_name}} --collection={{collection_name}} --query="{{query_object}}" --out={{path/to/file.json}}`
 
