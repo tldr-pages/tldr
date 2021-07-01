@@ -22,3 +22,7 @@
 - Create a new role:
 
 `ansible-galaxy init {{role_name}}`
+
+- Get the role id for a role name:
+
+`ansible-galaxy info {{username}}.{{role_name}} | grep -E 'id: [0-9]' | awk {'print $2'}`
