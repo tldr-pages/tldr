@@ -7,6 +7,10 @@
 
 `pihole status`
 
+- Update Pi-hole:
+
+`pihole updatePihole`
+
 - Monitor detailed system status:
 
 `pihole chronometer`
@@ -26,3 +30,7 @@
 - Search the lists for a domain:
 
 `pihole query {{example.com}}`
+
+- Open a real-time log of connections:
+
+`pihole tail`
