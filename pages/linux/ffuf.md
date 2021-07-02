@@ -3,7 +3,7 @@
 > Subdomain and directory discovery tool.
 > More information: <https://github.com/ffuf/ffuf>.
 
-- Directory discovery using a wordlist on a target website colorized and verbose:
+- Directory discovery using a wordlist on a target website colorized and verbose ouput:
 
 `ffuf -w {{path/to/wordlist}} -u {{https://target/FUZZ}} -c -v`
 
@@ -22,3 +22,7 @@
 - Use POST method with POST data fuzzing of password on a target website and filter out HTTP response code 401:
 
 `ffuf -w {{path/to/postdata.txt}} -X {{POST}} -d "{{username=admin\&password=FUZZ}}" -u {{https://target/login.php}} -fc {{401}}`
+
+- Subdomain discovery using a subdoomain list on a target website:
+
+`ffuf -w {{subdomains.txt}} -u {{http://website.com}} -H {{“Host: FUZZ.website.com”}}`
