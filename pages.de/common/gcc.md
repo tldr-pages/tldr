@@ -5,15 +5,15 @@
 
 - Kompiliere mehrere Quellcodedateien zu einer ausführbaren Datei:
 
-`gcc {{pfad/zu/datei1.c}} {{pfad/zu/datei2.c}} -o {{pfad/zu/binärdatei}}`
+`gcc {{pfad/zu/datei1.c}} {{pfad/zu/datei2.c}} --output {{pfad/zu/binärdatei}}`
 
 - Erlaube Warnungen und debug-Symbole in der Ausgabedatei:
 
-`gcc {{pfad/zu/datei.c}} -Wall -Og -o {{pfad/zu/binärdatei}}`
+`gcc {{pfad/zu/datei.c}} -Wall -Og --output {{pfad/zu/binärdatei}}`
 
 - Inkludiere Bibliotheken aus anderen Verzeichnissen:
 
-`gcc {{pfad/zu/datei.c}} -o {{pfad/zu/binärdatei}} -I{{pfad/zu/headerdatei}} -L{{pfad/zu/bibliothek1}} -l{{pfad/zu/bibliothek2}}`
+`gcc {{pfad/zu/datei.c}} --output {{pfad/zu/binärdatei}} -I{{pfad/zu/headerdatei}} -L{{pfad/zu/bibliothek1}} -l{{pfad/zu/bibliothek2}}`
 
 - Kompiliere Quellcodedateien zu Assemblerinstruktionen:
 
