@@ -53,7 +53,7 @@ which is supported by the tldr-pages project maintainers:
 
     npm install -g tldr
 
-You can also use the fully-featued [official Python client](https://github.com/tldr-pages/tldr-python-client), which can be installed via `pip3`.
+You can also use the fully-featured [official Python client](https://github.com/tldr-pages/tldr-python-client) which can be installed via `pip3`.
 
     pip3 install tldr
 
