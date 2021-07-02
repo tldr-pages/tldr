@@ -1,7 +1,7 @@
 # timew
 
 > A time tracking tool used to measure the duration of activities.
-> More information: <https://taskwarrior.org/docs/timewarrior>.
+> More information: <https://timewarrior.net/docs>.
 
 - Start a new stopwatch, giving a tag name to the activity being tracked:
 
