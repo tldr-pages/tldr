@@ -1,7 +1,7 @@
 # deemix
 
 > A barebone deezer downloader library built from the ashes of Deezloader Remix.
-> It can be used as a standalone CLI app or implemented in an UI using the API.
+> It can be used as a standalone CLI app or implemented in a UI using the API.
 > More information: <https://deemix.app>.
 
 - Download a track or playlist:
