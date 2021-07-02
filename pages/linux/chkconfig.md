@@ -1,7 +1,7 @@
 # chkconfig
 
 > Manage the runlevel of services on CentOS 6.
-> More information: <https://en.wikipedia.org/wiki/Init#SYSV>.
+> More information: <https://manned.org/chkconfig>.
 
 - List services with runlevel:
 
