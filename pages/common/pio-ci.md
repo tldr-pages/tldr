@@ -1,10 +1,10 @@
 # pio ci
 
-> Build PlatformIO projects with arbitrary source code structure.
-> This will create a new temporary project, which the source code will be copied into.
+> Build PlatformIO projects with an arbitrary source code structure.
+> This will create a new temporary project which the source code will be copied into.
 > More information: <https://docs.platformio.org/en/latest/core/userguide/cmd_ci.html>.
 
-- Build a PlatformIO project in the temporary directory of the operating system and delete it afterwards:
+- Build a PlatformIO project in the default system temporary directory and delete it afterwards:
 
 `pio ci {{path/to/project}}`
 
