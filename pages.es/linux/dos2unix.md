@@ -2,6 +2,7 @@
 
 > Cambia saltos de línea con formato DOS a saltos de línea con formato Unix.
 > Reemplaza CRLF con CR.
+> Más información: <http://waterlan.home.xs4all.nl/dos2unix.html>.
 
 - Cambia los saltos de línea de un archivo:
 

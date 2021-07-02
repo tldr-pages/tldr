@@ -2,6 +2,7 @@
 
 > Exibe em formato de fácil leitura o sumário DMI (também conhecido como SMBIOS) .
 > Requer privilégio de super usuário.
+> Mais informações: <http://www.nongnu.org/dmidecode/>.
 
 - Exibir o sumário do DMI:
 

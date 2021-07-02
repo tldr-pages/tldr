@@ -1,6 +1,7 @@
 # arp-scan
 
 > Envia pacotes ARP para máquinas (identificadas por endereço IP ou por nome de domínio) em uma rede local, identificando as máquinas ativas de acordo com as respostas.
+> Mais informações: <https://github.com/royhills/arp-scan>.
 
 - Verificar as máquinas da rede local:
 

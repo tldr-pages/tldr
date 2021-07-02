@@ -1,6 +1,7 @@
 # autorandr
 
 > Altera o layout da tela automaticamente.
+> Mais informações: <https://github.com/phillipberndt/autorandr>.
 
 - Salvar o layout da tela em uso:
 
