@@ -9,7 +9,7 @@
 
 - Check if the file has been formatted:
 
-`prettier {{file}} -c`
+`prettier {{file}} --check`
 
 - Give a configuration file:
 
@@ -17,4 +17,4 @@
 
 - Format a file in place:
 
-`prettier {{file}} -w`
+`prettier {{file}} --write`
