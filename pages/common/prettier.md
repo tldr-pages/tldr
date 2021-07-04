@@ -9,16 +9,16 @@
 
 - Check if a specific file has been formatted:
 
-`prettier --check {{/path/to/file}}`
+`prettier --check {{path/to/file}}`
 
 - Run with a specific configuration file:
 
-`prettier --config {{/path/to/config_file}} {{/path/to/file}}`
+`prettier --config {{path/to/config_file}} {{path/to/file}}`
 
 - Format a file in place:
 
-`prettier --write {{/path/to/file}}`
+`prettier --write {{path/to/file}}`
 
 - Format all JavaScript files in the current directory recursively:
 
-`prettier --write '*.js'
+`prettier --write '*.js'`
