@@ -13,7 +13,7 @@
 
 - Compress a file, keeping the original file:
 
-`gzip -k {{file.ext}}`
+`gzip --keep {{file.ext}}`
 
 - Compress a file specifying the output filename:
 
