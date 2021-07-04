@@ -3,7 +3,7 @@
 > Reuse and expand the shell history in `sh`, `bash`, `zsh`, `rbash` and `ksh`.
 > More information: <https://www.gnu.org/software/bash/manual/html_node/History-Interaction>.
 
-- Run the previous command as root (`!!` replaces the previous command):
+- Run the previous command as root (`!!` is replaced by the previous command):
 
 `sudo !!`
 
