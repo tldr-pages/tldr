@@ -18,3 +18,7 @@
 - Format a file in place:
 
 `prettier --write {{/path/to/file}}`
+
+- Format all JavaScript files in the current directory recursively:
+
+`prettier --write '*.js'
