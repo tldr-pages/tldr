@@ -17,7 +17,7 @@
 
 - Run the Nth command of the history:
 
-`!{{N}}`
+`!{{n}}`
 
 - Run the command `n` lines back in the history:
 
