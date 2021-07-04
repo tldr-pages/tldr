@@ -1,6 +1,6 @@
 # choco
 
-> A command line interface for the Chocolatey package manager.
+> A command-line interface for the Chocolatey package manager.
 > See `choco install`, `choco upgrade` and other pages for additional information.
 > More information: <https://chocolatey.org>.
 

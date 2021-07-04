@@ -31,6 +31,6 @@
 
 `cmd /v:{{on|off}}`
 
-- Forza l'encoding delle stringhe in unicode per l'output:
+- Forza l'encoding delle stringhe in Unicode per l'output:
 
 `cmd /u`

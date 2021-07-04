@@ -103,6 +103,8 @@ Some examples of valid locale tags:
  - Chinese (Singapore): `zh_SG`.
  - Portuguese (Brazil): `pt_BR`.
 
+A list of translated templates for alias pages can be found in [here](contributing-guides/alias-pages.md).
+
 ### Default language for newly added pages
 
 The default language used for pages is English (US). Pages written in English are stored in the default `pages` directory (notice the absence of a specific language tag). Although not strictly required, if you'd like to add a new page in a different language, please consider creating the English page too.
@@ -119,7 +121,7 @@ Check out the step-by-step instructions (with screenshots) on
 [GitHub Help](https://help.github.com/articles/editing-files-in-another-user-s-repository/).
 
 Alternatively, you can do most of the process
-[using Git on the command line](contributing-guides/git-terminal.md).
+[using Git on the command-line](contributing-guides/git-terminal.md).
 
 ### Commit message
 

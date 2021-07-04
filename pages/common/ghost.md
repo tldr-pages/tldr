@@ -15,7 +15,7 @@
 
 `ghost restart`
 
-- Check the system for any potential hiccups when on install or update of Ghost:
+- Check the system for any potential hiccups while installing or updating Ghost:
 
 `ghost doctor`
 

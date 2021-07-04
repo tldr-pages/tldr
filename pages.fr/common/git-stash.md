@@ -15,7 +15,7 @@
 
 `git stash -p`
 
-- Lister tous les stash (affiche leurs noms, les branches relatives et messages) :
+- Lister tous les stashs (affiche leurs noms, les branches relatives et messages) :
 
 `git stash list`
 
@@ -23,7 +23,7 @@
 
 `git stash apply {{nom_de_stash_ou_de_commit_optionel}}`
 
-- Applique un stash (par défaut le dernier, stash@{0}), et le supprimer de la liste des stash si il n'y a pas de conflits :
+- Applique un stash (par défaut le dernier, stash@{0}), et le supprimer de la liste des stashs s'il n'y a pas de conflit :
 
 `git stash pop {{nom_de_stash_optionel}}`
 
@@ -31,6 +31,6 @@
 
 `git stash drop {{nom_de_stash_optionel}}`
 
-- Supprime tous les stash :
+- Supprime tous les stashs :
 
 `git stash clear`

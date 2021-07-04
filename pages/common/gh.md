@@ -1,6 +1,6 @@
 # gh
 
-> Work seamlessly with GitHub from the command line.
+> Work seamlessly with GitHub from the command-line.
 > More information: <https://cli.github.com/>.
 
 - Clone a GitHub repository locally:

@@ -19,6 +19,14 @@
 
 `dd if=/dev/zero of={{file_1GB}} bs=1024 count=1000000`
 
+- Generate a system backup into an IMG file and show the progress:
+
+`dd if=/dev/{{drive_device}} of={{path/to/file.img}} status=progress`
+
+- Restore a drive from an IMG file and show the progress:
+
+`dd if={{path/to/file.img}} of=/dev/{{drive_device}} status=progress`
+
 - Check progress of an ongoing dd operation (Run this command from another shell):
 
 `kill -USR1 $(pgrep ^dd)`

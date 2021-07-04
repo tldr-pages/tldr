@@ -13,7 +13,7 @@
 
 - Halt the system (same as `halt`):
 
-`rebooot --halt`
+`reboot --halt`
 
 - Reboot immediately without contacting the system manager:
 

@@ -1,6 +1,6 @@
 # httpie
 
-> A user friendly command line HTTP tool.
+> A user friendly command-line HTTP tool.
 
 - Send a GET request (default method with no request data):
 

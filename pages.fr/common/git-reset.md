@@ -13,11 +13,11 @@
 
 `git reset {{chemin/vers/fichier(s)}}`
 
-- Enlever une portion d'un fichier de la *zone de stage* :
+- Enlever, en mode interactif, des fichiers spécifiques de l’index :
 
-`git reset -p {{chemin/vers/fichier}}`
+`git reset --patch {{chemin/vers/fichier}}`
 
-- Annuler le dernier *commit*, mais garder les changements effectués dans votre système de fichier :
+- Annuler le dernier *commit*, mais garder les changements effectués dans votre système de fichiers :
 
 `git reset HEAD~`
 
@@ -29,6 +29,6 @@
 
 `git reset --hard`
 
-- Réinitialiser le dépôt à un commit spécifique en retirant tout les changements (ceci inclus les changements dans des commits entre la *tête* et le *commit* spécifié!) :
+- Réinitialiser le dépôt à un commit spécifique en retirant tout les changements (ceci inclus les changements dans des commits entre la *tête* et le *commit* spécifié !) :
 
 `git reset --hard {{commit}}`

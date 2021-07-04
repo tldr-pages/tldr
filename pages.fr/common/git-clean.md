@@ -3,7 +3,7 @@
 > Supprimer les fichiers non-suivis d'un dépôt Git.
 > Plus d'informations : <https://git-scm.com/docs/git-clean>.
 
-- Supprimer les fichiers non-suivis :
+- Supprimer les fichiers non-suivis :
 
 `git clean`
 
@@ -15,11 +15,11 @@
 
 `git clean --dry-run`
 
-- Nettoyage forcé des fichiers non-suivis :
+- Nettoyage forcé des fichiers non-suivis :
 
 `git clean -f`
 
-- Nettoyage forcé des répertoires non-suivis :
+- Nettoyage forcé des répertoires non-suivis :
 
 `git clean -fd`
 

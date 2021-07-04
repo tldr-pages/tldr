@@ -1,6 +1,6 @@
 # softwareupdate
 
-> A tool for updating MacOS App Store apps via the command line.
+> A tool for updating macOS App Store apps via the command-line.
 
 - List all available updates:
 

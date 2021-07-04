@@ -11,11 +11,11 @@
 
 `minikube ip`
 
-- Access a service named my_service exposed via a node port and get the url:
+- Access a service named my_service exposed via a node port and get the URL:
 
 `minikube service {{my_service}} --url`
 
-- Open kubernetes dashboard in a browser:
+- Open the Kubernetes dashboard in a browser:
 
 `minikube dashboard`
 

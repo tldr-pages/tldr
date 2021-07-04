@@ -16,7 +16,7 @@
 
 `grep -RI {{chaîne_recherchée}} .`
 
-- Utilise des expressions rationnelles étendues (supporte `?`, `+`, `{}`, `()` et `|`) :
+- Utilise des expressions régulières étendues (supporte `?`, `+`, `{}`, `()` et `|`) :
 
 `grep -E {{expression_régulière}} {{chemin/vers/fichier}}`
 
