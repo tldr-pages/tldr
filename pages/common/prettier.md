@@ -5,7 +5,7 @@
 
 - Format a file and print the result to stdout:
 
-`prettier {{/path/to/file}}`
+`prettier {{path/to/file}}`
 
 - Check if a specific file has been formatted:
 
