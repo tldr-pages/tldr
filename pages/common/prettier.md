@@ -1,20 +1,20 @@
 # prettier
 
-> An opinionated code formatter for JS, JSON, CSS, YAML, and many more.
+> An opinionated code formatter for JavaScript, JSON, CSS, YAML, and more.
 > More information: <https://prettier.io/>.
 
-- Format a file and print it to the stdout:
+- Format a file and print the result to stdout:
 
-`prettier {{file}}`
+`prettier {{/path/to/file}}`
 
-- Check if the file has been formatted:
+- Check if a specific file has been formatted:
 
-`prettier {{file}} --check`
+`prettier --check {{/path/to/file}}`
 
-- Give a configuration file:
+- Run with a specific configuration file:
 
-`prettier --config {{config}} {{file}}`
+`prettier --config {{/path/to/config_file}} {{/path/to/file}}`
 
 - Format a file in place:
 
-`prettier {{file}} --write`
+`prettier --write {{/path/to/file}}`
