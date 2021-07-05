@@ -23,6 +23,6 @@
 
 `ansible-galaxy init {{role_name}}`
 
-- Get the role id for a role name:
+- Get the information for the role - or a collection if you replace `role` with `collection`:
 
-`ansible-galaxy info {{username}}.{{role_name}} | grep -E 'id: [0-9]' | awk {'print $2'}`
+`ansible-galaxy role info {{username}}.{{role_name}}`
