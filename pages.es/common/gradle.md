@@ -19,6 +19,6 @@
 
 `gradle clean`
 
-- Genera un `release` `Android Package Kit` paquete (específico para `Android Studio`):
+- Genera una APK en modo lanzamiento:
 
 `gradle assembleRelease`
