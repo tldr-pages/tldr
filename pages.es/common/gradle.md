@@ -11,7 +11,7 @@
 
 `gradle build -x {{test}}`
 
-- Ejecuta en modo offline para prevenir que gradle acceda a la red durante una compilación:
+- Ejecuta en modo offline para prevenir que Gradle acceda a la red durante una compilación:
 
 `gradle build --offline`
 
@@ -19,6 +19,6 @@
 
 `gradle clean`
 
-- Compila y genera un paquete:
+- Genera un `release` `Android Package Kit` paquete (específico para `Android Studio`):
 
 `gradle assembleRelease`
