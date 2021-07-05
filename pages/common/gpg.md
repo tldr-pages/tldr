@@ -4,7 +4,7 @@
 > See `gpg2` for GNU Privacy Guard 2.
 > More information: <https://gnupg.org>.
 
-- Create a GPG public and private key with a interactive creator:
+- Create a GPG public and private key with an interactive creator:
 
 `gpg --full-generate-key`
 
