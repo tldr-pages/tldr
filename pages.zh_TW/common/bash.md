@@ -24,10 +24,10 @@
 
 `bash -e {{sh檔}}`
 
-- 從標準輸入 (stdin) 讀取並執行指令
+- 從標準輸入 (stdin) 讀取並執行指令：
 
 `bash -s`
 
-- 在終端機印出 bash 的版本資訊 （`$BASH_VERSION` 只包含版本號)
+- 在終端機印出 bash 的版本資訊 （`$BASH_VERSION` 只包含版本號)：
 
 `bash --version`
