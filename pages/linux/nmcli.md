@@ -1,20 +1,17 @@
 # nmcli
 
 > A command-line tool for controlling NetworkManager.
-> More information: <https://man.archlinux.org/man/nmcli.1>.
+> This is a forwarding page to the advanced commands of `nmcli`.
+> More information: <https://manned.org/nmcli>.
 
-- Check the nmcli version:
+- Run an `nmcli` command:
+
+`nmcli {{agent|connection|device|general|help|monitor|networking|radio}} {{command_options}}`
+
+- Display `nmcli` version:
 
 `nmcli --version`
 
-- Call general help:
+- Display help:
 
 `nmcli --help`
-
-- Call help on a command:
-
-`nmcli {{command}} --help`
-
-- Execute an `nmcli` command:
-
-`nmcli {{command}}`
