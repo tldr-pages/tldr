@@ -19,6 +19,6 @@
 
 `prettier --write {{path/to/file}}`
 
-- Format all JavaScript files in the current directory recursively:
+- Use single quotes instead of double quotes and no trailing commas when formatting a file:
 
-`prettier --write '*.js'`
+`prettier --single-quote --trailing-comma {{none}} --write`
