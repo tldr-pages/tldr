@@ -26,7 +26,7 @@
 
 - Lookup a definition and format the output as JSON:
 
-`sdcv -j {{search_term}}`
+`sdcv --json {{search_term}}`
 
 - Look in a specific directory for dictionaries:
 
