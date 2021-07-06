@@ -15,7 +15,7 @@
 
 `prettier --config {{path/to/config_file}} {{path/to/file}}`
 
-- Format a file in place:
+- Format a file, replacing the original:
 
 `prettier --write {{path/to/file}}`
 
