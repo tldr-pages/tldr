@@ -32,7 +32,7 @@ tldrl -f {{page.md}}
 ```
 
 For other ways to use `tldrl`, such as linting an entire directory, check out (what else!)
-[`tldr tldrl`](https://github.com/tldr-pages/tldr/blob/main/pages/common/tldrl.md)
+[`tldr tldrl`](https://github.com/tldr-pages/tldr/blob/main/pages/common/tldrl.md).
 
 Your client may be able to preview a page locally using the `--render` flag:
 
@@ -47,30 +47,36 @@ in order to allow `tldr` clients to highlight them.
 
 Keep the following guidelines in mind when choosing tokens:
 
-1. Use short but descriptive tokens,
-   such as `{{source_file}}` or `{{wallet.txt}}`.
-2. Use [`snake_case`](https://en.wikipedia.org/wiki/Snake_case) for multi-word tokens.
-3. Use `{{filename}}` rather than `{{file_name}}`.
-4. For any reference to paths to files or directories, use the format `{{path/to/<placeholder>}}`.
-   For example, `ln -s {{path/to/file}} {{path/to/symlink}}`.
-   In case of a possible reference both to a file or a directory, use `{{path/to/file_or_directory}}`
-5. Follow the `{{path/to/<placeholder>}}` convention for all path-related commands,
-   except when the file location is implicit.
-6. If a particular extension is expected for the file, append it.
-   For example, `unrar x {{compressed.rar}}`.
-   In case a generic extension is needed, use `{{.ext}}`, but **only** if an extension is required.
-   For instance, in find.md's example "Find files by extension" (`find {{root_path}} -name '{{*.ext}}'`)
-   using `{{*.ext}}` explains the command without being unnecessarily specific;
-   But in a command like `wc -l {{file}}`, using `{{file}}` (without extension) is sufficient.
-7. Use an actual value rather than a generic placeholder where appropriate.
-   For example, use `iostat {{2}}` rather than `iostat {{interval_in_secs}}`.
-8. If a command performs irreversible changes to a file system or devices,
-   write every example in a way that they cannot be thoughtlessly copy-pasted.
-   For example, instead of `ddrescue --force --no-scrape /dev/sda /dev/sdb`
-   write `ddrescue --force --no-scrape {{/dev/sdX}} {{/dev/sdY}}`
-   and use the `{{/dev/sdXY}}` placeholder for *block devices* instead of `/dev/sda1`.
-9. If a command can take a variable number of arguments, write `{{arg1 arg2 ...}}`.
-   If one of multiple options is possible, write it as `{{either|or}}`.
+### Naming
+- Use short but descriptive tokens,
+  such as `{{source_file}}` or `{{wallet.txt}}`.
+- Use [`snake_case`](https://wikipedia.org/wiki/snake_case) for multi-word tokens.
+- Use an actual value rather than a generic placeholder where appropriate.
+  For example, use `iostat {{2}}` rather than `iostat {{interval_in_secs}}`.
+
+### Paths
+- Use `{{filename}}` rather than `{{file_name}}`.
+- For any reference to paths to files or directories, use the format `{{path/to/<placeholder>}}`.
+  For example, `ln -s {{path/to/file}} {{path/to/symlink}}`.
+  In case of a possible reference both to a file or a directory, use `{{path/to/file_or_directory}}`
+- Follow the `{{path/to/<placeholder>}}` convention for all path-related commands,
+  except when the file location is implicit.
+#### Extensions
+- If a particular extension is expected for the file, append it.
+  For example, `unrar x {{compressed.rar}}`.
+- In case a generic extension is needed, use `{{.ext}}`, but **only** if an extension is required.
+  For instance, in find.md's example "Find files by extension" (`find {{root_path}} -name '{{*.ext}}'`)
+  using `{{*.ext}}` explains the command without being unnecessarily specific;
+  But in a command like `wc -l {{file}}` using `{{file}}` (without extension) is sufficient.
+
+### Special cases
+- If a command performs irreversible changes to a file system or devices,
+  write every example in a way that they cannot be thoughtlessly copy-pasted.
+  For example, instead of `ddrescue --force --no-scrape /dev/sda /dev/sdb`
+  write `ddrescue --force --no-scrape {{/dev/sdX}} {{/dev/sdY}}`
+  and use the `{{/dev/sdXY}}` placeholder for *block devices* instead of `/dev/sda1`.
+- If a command can take a variable number of arguments, write `{{arg1 arg2 ...}}`.
+  If one of multiple options is possible, write it as `{{either|or}}`.
 
 In general, tokens should make it as intuitive as possible
 to figure out how to use the command and fill it in with values.
@@ -78,6 +84,6 @@ to figure out how to use the command and fill it in with values.
 Technical wording on description lines should use the `backtick` syntax.
 Use backticks on the following:
 
-1. Paths, ex. `package.json`, `/etc/package.json`.
-2. Extensions, ex. `.dll`.
-3. Commands, ex. `ls`.
+- Paths, ex. `package.json`, `/etc/package.json`.
+- Extensions, ex. `.dll`.
+- Commands, ex. `ls`.
