@@ -28,6 +28,6 @@
 
 `sdcv --json {{search_term}}`
 
-- Look in a specific directory for dictionaries:
+- Search for dictionaries in a specific directory:
 
 `sdvc --data-dir {{path/to/directory}} {{search_term}}`
