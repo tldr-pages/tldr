@@ -23,6 +23,10 @@
 
 `ansible-galaxy init {{role_name}}`
 
-- Get the information for the role - or a collection if you replace `role` with `collection`:
+- Get information about a role:
 
 `ansible-galaxy role info {{username}}.{{role_name}}`
+
+- Get information about a collection:
+
+`ansible-galaxy collection info {{username}}.{{collection_name}}`
