@@ -23,7 +23,7 @@
 
 `ansible-galaxy init {{role_name}}`
 
-- Get information about a role:
+- Get information about a user role:
 
 `ansible-galaxy role info {{username}}.{{role_name}}`
 
