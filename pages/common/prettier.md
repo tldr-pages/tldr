@@ -15,10 +15,10 @@
 
 `prettier --config {{path/to/config_file}} {{path/to/file}}`
 
-- Format a file, replacing the original:
+- Format a file or directory, replacing the original:
 
-`prettier --write {{path/to/file}}`
+`prettier --write {{path/to/file_or_directory}}`
 
 - Use single quotes instead of double quotes and no trailing commas when formatting a file:
 
-`prettier --single-quote --trailing-comma {{none}} --write`
+`prettier --single-quote --trailing-comma {{none}} --write {{path/to/file_or_directory`
