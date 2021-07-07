@@ -1,6 +1,6 @@
 # wifi-menu
 
-> An easy to use interactive menu to setup network.
+> Interactively connect to a wireless network.
 > More information: <https://manned.org/wifi-menu>.
 
 - Setup a wireless connection interactively:
