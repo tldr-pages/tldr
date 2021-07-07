@@ -20,7 +20,7 @@
 
 `sdcv {{search_term}}`
 
-- Lookup a definition with an exact search:
+- Look up a definition with an exact search:
 
 `sdcv --exact-search {{search_term}}`
 
