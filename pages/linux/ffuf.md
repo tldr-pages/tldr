@@ -25,4 +25,4 @@
 
 - Discover subdomains using a subdoomain list on a target website:
 
-`ffuf -w {{subdomains.txt}} -u {{http://website.com}} -H {{“Host: FUZZ.website.com”}}`
+`ffuf -w {{subdomains.txt}} -u {{http://website.com}} -H "{{Host: FUZZ.website.com}}"`
