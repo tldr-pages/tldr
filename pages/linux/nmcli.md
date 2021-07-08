@@ -4,7 +4,7 @@
 > This is a forwarding page to the advanced commands of `nmcli`.
 > More information: <https://manned.org/nmcli>.
 
-- Run an `nmcli` command:
+- Run an `nmcli` subcommand:
 
 `nmcli {{agent|connection|device|general|help|monitor|networking|radio}} {{command_options}}`
 
