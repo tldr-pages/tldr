@@ -22,10 +22,10 @@
 
 `xinput reattach {{id}} {{master_id}}`
 
-- List settings of an input:
+- List settings of an input device:
 
 `xinput list-props {{id}}`
 
-- Change setting of an input:
+- Change a setting of an input device:
 
 `xinput set-prop "{{id}}" "{{setting_id}}" "{{value}}"`
