@@ -21,3 +21,11 @@
 - Reattach an input as slave to a master:
 
 `xinput reattach {{id}} {{master_id}}`
+
+- List settings of an input:
+
+`xinput list-props {{id}}`
+
+- Change setting of an input:
+
+`xinput set-prop "{{id}}" "{{setting_id}}" "{{value}}"`
