@@ -9,7 +9,7 @@
 
 - Set a `subscription` to be the current active subscription:
 
-`az account set --subscription {{00000000-0000-0000-0000-000000000000}}`
+`az account set --subscription {{subscription_id}}`
 
 - List supported regions for the current active subscription:
 
