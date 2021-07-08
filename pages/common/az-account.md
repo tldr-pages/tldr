@@ -21,4 +21,4 @@
 
 - Print details of the current active subscription in specified format:
 
-`az account show --output json`
+`az account show --output {{json|tsv|table|yaml}}`
