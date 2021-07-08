@@ -28,4 +28,4 @@
 
 - Change a setting of an input device:
 
-`xinput set-prop "{{id}}" "{{setting_id}}" "{{value}}"`
+`xinput set-prop {{id}} {{setting_id}} {{value}}`
