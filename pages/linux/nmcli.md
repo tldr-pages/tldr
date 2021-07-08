@@ -8,7 +8,7 @@
 
 `nmcli {{agent|connection|device|general|help|monitor|networking|radio}} {{command_options}}`
 
-- Display `nmcli` version:
+- Display the current version of NetworkManager:
 
 `nmcli --version`
 
