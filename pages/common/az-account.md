@@ -19,6 +19,6 @@
 
 `az account get-access-token --resource-type {{ms-graph}}`
 
-- Print details of the current active subscription in specified format:
+- Print details of the currently active subscription in the specified format:
 
 `az account show --output {{json|tsv|table|yaml}}`
