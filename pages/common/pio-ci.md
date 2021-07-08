@@ -20,7 +20,7 @@
 
 `pio ci --build-dir {{path/to/build_directory}} {{path/to/project}}`
 
-- Build a PlatformIO project and do not delete the build directory:
+- Build a PlatformIO project and don't delete the build directory:
 
 `pio ci --keep-build-dir {{path/to/project}}`
 
