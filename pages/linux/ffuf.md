@@ -11,7 +11,7 @@
 
 `ffuf -w {{hosts.txt}} -u {{https://example.org}} -H "{{Host: FUZZ}}" -mc {{200}}`
 
-- Discover directory using a [w]ordlist on a target website with a max individual job time of 60 seconds and recusrion discovery depth of 2 levels:
+- Discover directories using a [w]ordlist on a target website with a max individual job time of 60 seconds and recursion discovery depth of 2 levels:
 
 `ffuf -w {{path/to/wordlist}} -u {{https://target/FUZZ}} -maxtime-job {{60}} -recursion -recursion-depth {{2}}`
 
