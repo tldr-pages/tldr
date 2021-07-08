@@ -21,4 +21,4 @@
 
 - Use single quotes instead of double quotes and no trailing commas when formatting a file:
 
-`prettier --single-quote --trailing-comma {{none}} --write {{path/to/file_or_directory`
+`prettier --single-quote --trailing-comma {{none}} --write {{path/to/file_or_directory}}`
