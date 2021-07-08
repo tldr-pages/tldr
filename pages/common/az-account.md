@@ -11,7 +11,7 @@
 
 `az account set --subscription {{subscription_id}}`
 
-- List supported regions for the current active subscription:
+- List supported regions for the currently active subscription:
 
 `az account list-locations`
 
