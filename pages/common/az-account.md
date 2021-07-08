@@ -3,7 +3,7 @@
 > Manage Azure subscription information.
 > More information: <https://docs.microsoft.com/cli/azure/account>.
 
-- Get a list of subscriptions for the logged in account:
+- Print a list of subscriptions for the logged in account:
 
 `az account list`
 
