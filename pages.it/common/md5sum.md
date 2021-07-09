@@ -1,6 +1,6 @@
 # md5sum
 
-> Calcola i checksum crittografici di tipo MD5. 
+> Calcola i checksum crittografici di tipo MD5.
 > Maggiori informazioni: <https://www.gnu.org/software/coreutils/md5sum>.
 
 - Calcolare il checksum MD5 di un file:
