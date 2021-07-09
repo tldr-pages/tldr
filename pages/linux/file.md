@@ -1,6 +1,7 @@
 # file
 
 > Determine file type.
+> More information: <https://manned.org/file>.
 
 - Give a description of the type of the specified file. Works fine for files with no file extension:
 

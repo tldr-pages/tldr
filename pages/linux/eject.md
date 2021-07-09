@@ -1,6 +1,7 @@
 # eject
 
 > Eject cds, floppy disks and tape drives.
+> More information: <https://manned.org/eject>.
 
 - Display the default device:
 

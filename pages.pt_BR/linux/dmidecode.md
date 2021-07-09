@@ -2,6 +2,7 @@
 
 > Exibe em formato de fácil leitura o sumário DMI (também conhecido como SMBIOS) .
 > Requer privilégio de super usuário.
+> Mais informações: <https://manned.org/dmidecode>.
 
 - Exibir o sumário do DMI:
 

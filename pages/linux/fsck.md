@@ -1,6 +1,7 @@
 # fsck
 
 > Check the integrity of a filesystem or repair it. The filesystem should be unmounted at the time the command is run.
+> More information: <https://manned.org/fsck>.
 
 - Check filesystem `/dev/sdX`, reporting any damaged blocks:
 

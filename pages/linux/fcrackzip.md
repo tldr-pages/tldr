@@ -1,6 +1,7 @@
 # fcrackzip
 
 > ZIP archive password cracking utility.
+> More information: <https://manned.org/fcrackzip>.
 
 - Brute-force a password with a length of 4 to 8 characters, and contains only alphanumeric characters (order matters):
 

@@ -1,6 +1,7 @@
 # chage
 
 > Gerencia informações de expiração de conta e senha do usuário.
+> Mais informações: <https://manned.org/chage>.
 
 - Exibir as informações referentes a senha do usuário:
 

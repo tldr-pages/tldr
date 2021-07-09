@@ -1,6 +1,7 @@
 # fc-cache
 
 > Scan font directories in order to build font cache files.
+> More information: <https://manned.org/fc-cache>.
 
 - Generate font cache files:
 

@@ -1,6 +1,7 @@
 # fc
 
 > Open the most recent command and edit it.
+> More information: <https://manned.org/fc>.
 
 - Open in the default system editor:
 

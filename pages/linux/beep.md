@@ -1,6 +1,7 @@
 # beep
 
 > A utility to beep the PC speaker.
+> More information: <https://github.com/spkr-beep/beep>.
 
 - Play a beep:
 

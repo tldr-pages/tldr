@@ -1,6 +1,7 @@
 # genkernel
 
 > Gentoo Linux utility to compile and install kernels.
+> More information: <https://wiki.gentoo.org/wiki/Genkernel>.
 
 - Automatically compile and install a generic kernel:
 
