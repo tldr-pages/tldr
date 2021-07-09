@@ -1,6 +1,7 @@
 # feh
 
 > Lightweight image viewing utility.
+> More information: <https://feh.finalrewind.org>.
 
 - View images locally or using a URL:
 

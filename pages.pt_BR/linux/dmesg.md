@@ -1,6 +1,7 @@
 # dmesg
 
 > Escreve as mensagens do kernel na terminal.
+> Mais informações: <https://manned.org/dmesg>.
 
 - Exibir as mensagens do kernel:
 

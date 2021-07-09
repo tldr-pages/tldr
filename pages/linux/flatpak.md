@@ -1,6 +1,7 @@
 # flatpak
 
 > Build, install and run flatpak applications and runtimes.
+> More information: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak>.
 
 - Run an installed application:
 

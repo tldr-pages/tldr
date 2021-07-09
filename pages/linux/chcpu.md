@@ -1,6 +1,7 @@
 # chcpu
 
 > Enable/disable a system's CPUs.
+> More information: <https://manned.org/chcpu>.
 
 - Disable CPUs via a list of CPU ID numbers:
 

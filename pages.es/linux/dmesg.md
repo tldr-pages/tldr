@@ -1,6 +1,7 @@
 # dmesg
 
 > Escribe los mensajes del núcleo a la salida estándar.
+> Más información: <https://manned.org/dmesg>.
 
 - Muestra los mensajes del núcleo:
 

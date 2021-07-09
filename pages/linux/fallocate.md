@@ -2,6 +2,7 @@
 
 > Reserve or deallocate disk space to files.
 > The utility allocates space without zeroing.
+> More information: <https://manned.org/fallocate>.
 
 - Reserve a file taking up 700MB of disk space:
 

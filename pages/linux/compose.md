@@ -2,6 +2,7 @@
 
 > An alias to a `run-mailcap`'s action compose.
 > Originally `run-mailcap` is used to mime-type/file.
+> More information: <https://manned.org/compose>.
 
 - Compose action can be used to compose any existing file or new on default mailcap edit tool:
 
