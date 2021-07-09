@@ -7,7 +7,7 @@
 
 `az account list`
 
-- Set a `subscription` to be the current active subscription:
+- Set a `subscription` to be the currently active subscription:
 
 `az account set --subscription {{subscription_id}}`
 
