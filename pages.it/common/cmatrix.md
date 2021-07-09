@@ -7,7 +7,7 @@
 
 `cmatrix -a`
 
-- Rendi le lettere rosse
+- Rendi le lettere rosse:
 
 `cmatrix -C {{red}}`
 
