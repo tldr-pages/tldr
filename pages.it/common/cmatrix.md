@@ -11,7 +11,7 @@
 
 `cmatrix -C {{red}}`
 
--Cambia colore a arcobaleno:
+- Cambia colore a arcobaleno:
 
 `cmatrix -r`
 
