@@ -14,3 +14,7 @@
 - Display help:
 
 `nmcli --help`
+
+- Display help for a subcommand:
+
+`nmcli {{subcommand}} --help`
