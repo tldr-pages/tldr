@@ -1,7 +1,7 @@
 # zsh
 
 > Z SHell, un intérprete para la línea de comandos compatible con Bash.
-> Ver también `histexpand` para la expansión del historial.
+> Véase también `histexpand` para la expansión del historial.
 > Más información: <https://www.zsh.org>.
 
 - Comienza una sesión interactiva en la shell:
