@@ -19,6 +19,6 @@
 
 `prettier --write {{path/to/file_or_directory}}`
 
-- Use single quotes instead of double quotes and no trailing commas when formatting a file:
+- Format files or directories recursively using single quotes and no trailing commas:
 
 `prettier --single-quote --trailing-comma {{none}} --write {{path/to/file_or_directory}}`
