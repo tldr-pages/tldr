@@ -33,3 +33,7 @@
 - Ändere das Passwort eines privaten Schlüssels:
 
 `ssh-keygen -p -f ~/.ssh/{{datei}}`
+
+- Ändern Sie den Typ des Schlüssel formats (z. B. vom OPENSSH-Format in PEM), die Datei wird an Ort und Stelle neu geschrieben:
+
+`ssh-keygen -p -N "" -m PEM -f ~/.ssh/{{datei}}`

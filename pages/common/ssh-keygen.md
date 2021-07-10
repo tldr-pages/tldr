@@ -33,3 +33,7 @@
 - Change the password of a key:
 
 `ssh-keygen -p -f ~/.ssh/{{filename}}`
+
+- Change the type of the key format (for example from OPENSSH format to PEM), the file will be rewritten in-place:
+
+`ssh-keygen -p -N "" -m PEM -f ~/.ssh/{{filename}}`
