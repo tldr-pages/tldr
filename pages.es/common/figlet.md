@@ -14,7 +14,3 @@
 - Redirige la salida de un comando hacia figlet:
 
 `{{comando}} | figlet`
-
-- Muestra las fuentes disponibles para figlet:
-
-`showfigfonts {{texto_opcional_a_mostrar}}`
