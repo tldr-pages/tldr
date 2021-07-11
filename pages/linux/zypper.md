@@ -1,6 +1,7 @@
 # zypper
 
 > SUSE & openSUSE package management utility.
+> More information: <https://en.opensuse.org/SDB:Zypper_manual>
 
 - Synchronize list of packages and versions available:
 
