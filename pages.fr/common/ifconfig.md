@@ -1,7 +1,7 @@
 # ifconfig
 
 > Configurateur des interfaces réseau.
-> Plus d'informations: <https://manned.org/ifconfig>.
+> Plus d'informations : <https://manned.org/ifconfig>.
 
 - Affiche les paramètres de réseau d'un adaptateur ethernet :
 
