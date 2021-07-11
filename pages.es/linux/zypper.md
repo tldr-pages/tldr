@@ -3,7 +3,7 @@
 > Utilidad para la gestión de paquetes en SUSE y openSUSE.
 > Más información: <https://en.opensuse.org/SDB:Zypper_manual>
 
-- Actualiza todos los repositorios:
+- Sincroniza la lista de paquetes y versiones disponibles:
 
 `zypper refresh`
 
