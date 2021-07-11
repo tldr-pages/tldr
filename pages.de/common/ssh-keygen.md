@@ -18,10 +18,6 @@
 
 `ssh-keygen -t rsa -b 4096 -C "{{email}}"`
 
-- Rufe den Schlüssel-Fingerabdruck von einem Server ab (hilfreich um die Authentizität eines Servers beim ersten Verbinden zu überprüfen):
-
-`ssh-keygen -l -F {{externer_server}}`
-
 - Entferne den Schlüssel eines Servers aus der `known_hosts` Datei (hilfreich wenn ein Server seinen Schlüssel aktualisiert hat und der alte somit nicht mehr gilt):
 
 `ssh-keygen -R {{externer_server}}`

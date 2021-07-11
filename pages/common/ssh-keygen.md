@@ -18,10 +18,6 @@
 
 `ssh-keygen -t rsa -b 4096 -C "{{email}}"`
 
-- Retrieve the key fingerprint from a host (useful for confirming the authenticity of the host when first connecting to it via SSH):
-
-`ssh-keygen -l -F {{remote_host}}`
-
 - Remove the keys of a host from the known_hosts file (useful when a known host has a new key):
 
 `ssh-keygen -R {{remote_host}}`
