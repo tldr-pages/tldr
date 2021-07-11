@@ -1,6 +1,6 @@
 # showfigfonts
 
-> Display a list of available figlet fonts.
+> Display available figlet fonts.
 > See also `figlet`.
 > More information: <https://manned.org/showfigfonts>.
 
