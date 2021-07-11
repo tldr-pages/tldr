@@ -1,6 +1,7 @@
 # ifconfig
 
 > Network Interface Configurator.
+> More information: <https://manned.org/ifconfig.8>.
 
 - View network settings of an ethernet adapter:
 
