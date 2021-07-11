@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+# SPDX-License-Identifier: MIT
 """
 A Python script to generate a single PDF document with all the `tldr` pages. It works by generating
 intermediate HTML files from existing md files using Python-markdown, applying desired formatting
