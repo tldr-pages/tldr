@@ -15,7 +15,7 @@
 
 `zypper remove {{paquete}}`
 
-- Actualiza los paquetes instalados con versiones nuevas:
+- Actualiza los paquetes instalados a la última versión disponible:
 
 `zypper update`
 
