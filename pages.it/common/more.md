@@ -3,7 +3,7 @@
 > Aprire un file per la lettura interattiva, con scorrimento e ricerca.
 > Maggiori Informazioni: <https://manned.org/more>.
 
-- Per aprire un file:
+- Apri un file:
 
 `more {{percorso/del/file}}`
 
