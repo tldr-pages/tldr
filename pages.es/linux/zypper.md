@@ -1,0 +1,27 @@
+# zypper
+
+> Utilidad para la gestión de paquetes en SUSE y openSUSE.
+
+- Actualiza todos los repositorios:
+
+`zypper refresh`
+
+- Instala un nuevo paquete:
+
+`zypper install {{paquete}}`
+
+- Elimina un paquete:
+
+`zypper remove {{paquete}}`
+
+- Actualiza los paquetes instalados con versiones nuevas:
+
+`zypper update`
+
+- Busca en los repositorios un paquete mediante una palabra clave:
+
+`zypper search {{palabra_clave}}`
+
+- Muestra un listado con la información de los repositorios configurados:
+
+`zypper repos -P`
