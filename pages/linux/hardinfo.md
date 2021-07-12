@@ -1,6 +1,7 @@
 # hardinfo
 
 > Show hardware information in GUI window.
+> More information: <https://manned.org/hardinfo>.
 
 - Start hardinfo:
 
