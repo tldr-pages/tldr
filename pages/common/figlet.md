@@ -12,6 +12,10 @@
 
 `figlet {{input_text}} -f {{path/to/font_file}}`
 
+- Use a font from the default font directory (the extention can be omitted):
+
+`figlet {{input_text}} -f {{font_filename}}`
+
 - Pipe command output through figlet:
 
 `{{command}} | figlet`
