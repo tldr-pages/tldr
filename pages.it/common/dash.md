@@ -13,15 +13,15 @@
 
 - Esegui un script:
 
-`dash {{percorsi/al/script.sh}}`
+`dash {{percorso/allo/script.sh}}`
 
 - Esegui comandi da un script, stampando ogni comando prima di eseguirlo:
 
-`dash -x {{path/to/script.sh}}`
+`dash -x {{percorso/allo/script.sh}}`
 
 - Esegui comandi da un script, fermandosi al primo errore:
 
-`dash -e {{path/to/script.sh}}`
+`dash -e {{percorso/allo/script.sh}}`
 
 - Leggi ed esegui commandi dal stdin:
 
