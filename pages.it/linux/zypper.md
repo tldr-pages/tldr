@@ -20,4 +20,4 @@
 
 - Cerca usando nome o parola chiave:
 
-`zypper search {{nome|parole chiave}}`
+`zypper search {{nome|parole_chiave}}`
