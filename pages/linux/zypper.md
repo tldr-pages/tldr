@@ -23,6 +23,6 @@
 
 `zypper search {{keyword}}`
 
-- Show a list with information related with configured repositories:
+- Show information related to configured repositories:
 
 `zypper repos -P`
