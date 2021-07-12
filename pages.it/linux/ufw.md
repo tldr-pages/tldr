@@ -2,7 +2,7 @@
 
 > ufw (Uncomplicated Firewall) - Firewall Semplice.
 > Frontend per iptables per semplificare la configurazione di un firewall.
-> Maggiori Informazioni: <https://wiki.ubuntu.com/UncomplicatedFirewall>.
+> Maggiori informazioni: <https://wiki.ubuntu.com/UncomplicatedFirewall>.
 
 - Accendi ufw:
 
@@ -12,7 +12,7 @@
 
 `ufw disable`
 
-- Mostra le regole di ufw, con i numeri corrispondenti
+- Mostra le regole di ufw, con i numeri corrispondenti:
 
 `ufw status numbered`
 

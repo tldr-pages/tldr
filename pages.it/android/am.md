@@ -1,7 +1,7 @@
 # am
 
-> Gestore delle Attività di Android
-> Maggiori Informazioni: <https://developer.android.com/studio/command-line/adb#am>.
+> Gestore delle Attività di Android.
+> Maggiori informazioni: <https://developer.android.com/studio/command-line/adb#am>.
 
 - Inizia un'attività:
 

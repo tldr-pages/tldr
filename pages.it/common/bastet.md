@@ -12,7 +12,7 @@
 
 `{{Sinistra|Destra}} freccia`
 
-- Ruota in senso orario o inverso
+- Ruota in senso orario o inverso:
 
 `{{Spazio|tasto freccia su}}`
 
