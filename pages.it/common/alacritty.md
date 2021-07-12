@@ -9,7 +9,7 @@
 
 - Esegui in una posizione specifica:
 
-`alacritty --working-directory {{path/to/directory}}`
+`alacritty --working-directory {{percorso/a/cartella}}`
 
 - Esegui un comando in una nuova finestra di Alacritty:
 
