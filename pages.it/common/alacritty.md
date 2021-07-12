@@ -21,4 +21,4 @@
 
 - Esegui con ricaricamento configurazione live (può anche essere acceso in `alacritty.yml`):
 
-`alacritty --live-config-reload --config-file {{path/to/config.yml}}`
+`alacritty --live-config-reload --config-file {{percorsi/al/config.yml}}`
