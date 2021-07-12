@@ -3,7 +3,7 @@
 > Interactively connect to a wireless network.
 > More information: <https://manned.org/wifi-menu>.
 
-- Setup a wireless connection interactively:
+- Set up a wireless connection interactively:
 
 `wifi-menu`
 
