@@ -9,7 +9,7 @@
 
 - Esegui un comando, ed esci subito:
 
-`dash -c "{{command}}"`
+`dash -c "{{comando}}"`
 
 - Esegui un script:
 
