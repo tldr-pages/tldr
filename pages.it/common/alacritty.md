@@ -3,7 +3,7 @@
 > Multipiattaforma, GPU-accelerato emulatore di terminale.
 > Maggiori Informazioni: <https://github.com/alacritty/alacritty>.
 
-- Apri un nuovo caso di Alacritty:
+- Apri un nuovo finestra di Alacritty:
 
 `alacritty`
 
