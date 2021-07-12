@@ -4,17 +4,17 @@
 > Frontend per iptables per semplificare la configurazione di un firewall.
 > Maggiori Informazioni: <https://wiki.ubuntu.com/UncomplicatedFirewall>.
 
-- Accendi/Spegni ufw:
+- Accendi ufw:
 
-`ufw {{enable|disable}}`
+`ufw enable`
+
+- Spegni ufw:
+
+`ufw disable`
 
 - Mostra le regole di ufw, con i numeri corrispondenti
 
 `ufw status numbered`
-
-- Consenti di traffico ssh (porta 22):
-
-`ufw allow ssh`
 
 - Aperto al traffico in entrata sulla porta 5432, con un commento che identifica il servizio:
 
