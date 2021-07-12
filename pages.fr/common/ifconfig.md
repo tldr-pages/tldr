@@ -1,6 +1,7 @@
 # ifconfig
 
 > Configurateur des interfaces réseau.
+> Plus d'informations: <https://net-tools.sourceforge.io/man/ifconfig.8.html>.
 
 - Affiche les paramètres de réseau d'un adaptateur ethernet :
 
