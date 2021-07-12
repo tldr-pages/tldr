@@ -10,7 +10,7 @@
 
 - Use a custom font file:
 
-`figlet {{input_text}} -f {{path/to/font_file}}`
+`figlet {{input_text}} -f {{path/to/font_file.flf}}`
 
 - Use a font from the default font directory (the extention can be omitted):
 
