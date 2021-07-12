@@ -13,7 +13,7 @@
 
 - Esegui un script:
 
-`dash {{path/to/script.sh}}`
+`dash {{percorsi/al/script.sh}}`
 
 - Esegui comandi da un script, stampando ogni comando prima di eseguirlo:
 
