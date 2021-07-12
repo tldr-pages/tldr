@@ -1,6 +1,7 @@
 # zypper
 
 > SUSE & openSUSE package management utility.
+> More information: <https://en.opensuse.org/SDB:Zypper_manual>.
 
 - Synchronize list of packages and versions available:
 
@@ -21,3 +22,7 @@
 - Search package via keyword:
 
 `zypper search {{keyword}}`
+
+- Show a list with information related with configured repositories:
+
+`zypper repos -P`
