@@ -3,7 +3,7 @@
 > Mostra Utilizzo di AMD GPUs.
 > Maggiori informazioni: <https://github.com/clbr/radeontop>.
 
-- Mostra utilizzo del AMD GPU:
+- Mostra utilizzo del AMD GPU principale:
 
 `sudo radeontop`
 
