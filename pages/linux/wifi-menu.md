@@ -7,7 +7,7 @@
 
 `wifi-menu`
 
-- Interactively setup a connect to a network and obscure the password:
+- Interactively set up a connection to a network and obscure the password:
 
 `wifi-menu --obscure`
 
