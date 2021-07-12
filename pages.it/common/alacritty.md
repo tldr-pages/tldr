@@ -7,7 +7,7 @@
 
 `alacritty`
 
-- Esegui in una posizione specifica:
+- Esegui in una cartella specifica:
 
 `alacritty --working-directory {{percorso/a/cartella}}`
 
