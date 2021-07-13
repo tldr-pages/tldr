@@ -14,7 +14,7 @@
 
 - Stop a Virtual Machine:
 
-`az vm stop --resource-group {{rg}} --name {{myVM}}`
+`az vm stop --resource-group {{rg}} --name {{vm_name}}`
 
 - Deallocate a Virtual Machine:
 
