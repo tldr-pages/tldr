@@ -1,7 +1,7 @@
 # az logout
 
 > Logout from an Azure subscriptions.
-> More information: <https://docs.microsoft.com/cli/azure/logout>.
+> More information: <https://docs.microsoft.com/cli/azure/reference-index#az_logout>.
 
 - Logout from the active account:
 
