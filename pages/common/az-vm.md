@@ -26,7 +26,7 @@
 
 - Restart a Virtual Machine:
 
-`az vm restart --resource-group {{rg}} --name {{myVM}}`
+`az vm restart --resource-group {{rg}} --name {{vm_name}}`
 
 - List VM images availiable in the Azure Marketplace:
 
