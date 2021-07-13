@@ -1,6 +1,6 @@
 # az logout
 
-> Logout to remove access to Azure subscriptions.
+> Logout from an Azure subscriptions.
 > More information: <https://docs.microsoft.com/cli/azure/logout>.
 
 - Logout from the active account:
