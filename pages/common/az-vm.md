@@ -22,7 +22,7 @@
 
 - Start a Virtual Machine:
 
-`az vm start --resource-group {{rg}} --name {{myVM}}`
+`az vm start --resource-group {{rg}} --name {{vm_name}}`
 
 - Restart a Virtual Machine:
 
