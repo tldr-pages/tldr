@@ -1,7 +1,6 @@
 # bastet
 
 > Clone di Tetris nel Terminale.
-> I tasti sono personalizzabili, i valori predefiniti sono di seguito.
 > Maggiori informazioni: <https://fph.altervista.org/prog/bastet.html>.
 
 - Invia un gioco tetris:
