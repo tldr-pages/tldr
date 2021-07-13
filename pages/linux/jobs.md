@@ -1,6 +1,7 @@
 # jobs
 
 > BASH builtin for viewing information about processes spawned by the current shell.
+> More information: <https://manned.org/jobs>.
 
 - View jobs spawned by the current shell:
 
