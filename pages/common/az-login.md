@@ -2,7 +2,7 @@
 
 > Login to Azure.
 > Part of `az`.
-> More information: <https://docs.microsoft.com/cli/azure/authenticate-azure-cli>.
+> More information: <https://docs.microsoft.com/cli/azure/reference-index#az_login>.
 
 - Login interactively:
 
