@@ -10,7 +10,7 @@
 
 - Create an `UbuntuServer 18.04 LTS` Virtual Machine and generate ssh keys:
 
-`az vm create --resource-group {{rg}} --name {{myVM}} --image {{Canonical:UbuntuServer:18.04-LTS:latest}} --admin-user {{azureuser}} --generate-ssh-keys`
+`az vm create --resource-group {{rg}} --name {{vm_name}} --image {{Canonical:UbuntuServer:18.04-LTS:latest}} --admin-user {{azureuser}} --generate-ssh-keys`
 
 - Stop a Virtual Machine:
 
