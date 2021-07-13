@@ -11,6 +11,6 @@
 
 `addr2line --exe={{可执行文件路径}} --functions {{地址}}`
 
-- 将 c++ 代码函数名符号重组：
+- 将 C++ 代码函数名符号重组：
 
 `addr2line --exe={{可执行文件地址}} --functions --demangle {{地址}}`
