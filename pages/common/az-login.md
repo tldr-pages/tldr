@@ -16,7 +16,7 @@
 
 `az login --service-principal --username {{http://azure-cli-service-principal}} --passsword {{secret}} --tenant {{someone.onmicrosoft.com}}`
 
-- Login with a service principal using client certificate:
+- Login with a service principal using a client certificate:
 
 `az login --service-principal --username {{http://azure-cli-service-principal}} --password {{path/to/cert.pem}} --tenant {{someone.onmicrosoft.com}}`
 
