@@ -18,7 +18,7 @@
 
 - Deallocate a Virtual Machine:
 
-`az vm deallocate --resource-group {{rg}} --name {{myVM}}`
+`az vm deallocate --resource-group {{rg}} --name {{vm_name}}`
 
 - Start a Virtual Machine:
 
