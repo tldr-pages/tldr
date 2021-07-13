@@ -18,7 +18,7 @@
 
 - Login with a service principal using client certificate:
 
-`az login --service-principal --username {{http://azure-cli-service-principal}} --password {{/path/to/cert.pem}} --tenant {{someone.onmicrosoft.com}}`
+`az login --service-principal --username {{http://azure-cli-service-principal}} --password {{path/to/cert.pem}} --tenant {{someone.onmicrosoft.com}}`
 
 - Login using a VM's system assigned identity:
 
