@@ -2,7 +2,7 @@
 
 > Java Memory Map Tool.
 
-- Print shared object mappings for a java process (output like pmap):
+- Print shared object mappings for a Java process (output like pmap):
 
 `jmap {{java_pid}}`
 
