@@ -11,7 +11,7 @@
 
 `auracle info {{package1}} {{package2}}`
 
-- 显示 AUR 包列表的 `PKGBUILD` 文件（编译信息），包名以一个单独的空格分隔：
+- 显示 AUR 包列表的 `PKGBUILD` 文件(编译信息），包名以一个单独的空格分隔：
 
 `auracle show {{package1}} {{package2}}`
 

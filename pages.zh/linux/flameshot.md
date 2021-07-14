@@ -7,18 +7,18 @@
 
 `flameshot launcher`
 
-- 通过单击并拖动来截取屏幕截图:
+- 通过单击并拖动来截取屏幕截图：
 
 `flameshot gui`
 
-- 全屏截图:
+- 全屏截图：
 
 `flameshot full`
 
-- 将保存屏幕快照的路径设置为:
+- 将保存屏幕快照的路径设置为：
 
 `flameshot full --path {{path/to/directory}}`
 
-- 将屏幕截图延迟 2000 毫秒，然后输出到剪贴板:
+- 将屏幕截图延迟 2000 毫秒，然后输出到剪贴板：
 
 `flameshot full --delay {{2000}} --clipboard`

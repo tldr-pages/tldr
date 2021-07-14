@@ -1,21 +1,21 @@
 # cat
 
-> 打印和拼接文件的工具.
-> 更多信息： <https://www.gnu.org/software/coreutils/cat>.
+> 打印和拼接文件的工具。
+> 更多信息：<https://www.gnu.org/software/coreutils/cat>.
 
-- 以标准输出，打印文件内容:
+- 以标准输出，打印文件内容：
 
 `cat {{file}}`
 
-- 多文件合并到目标文件:
+- 多文件合并到目标文件：
 
 `cat {{file1}} {{file2}} > {{target_file}}`
 
-- 多文件合并，并追加到目标文件:
+- 多文件合并，并追加到目标文件：
 
 `cat {{file1}} {{file2}} >> {{target_file}}`
 
-- 显示行号:
+- 显示行号：
 
 `cat -n {{file}}`
 

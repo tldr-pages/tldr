@@ -7,7 +7,7 @@
 
 `{{ls}} | dmenu`
 
-- 显示包含自定义项目的菜单，并用新行（`\n`）分隔：
+- 显示包含自定义项目的菜单，并用新行(`\n`）分隔：
 
 `echo -e "{{red}}\n{{green}}\n{{blue}}" | dmenu`
 
@@ -15,10 +15,10 @@
 
 `echo -e "{{red}}\n{{green}}\n{{blue}}" | dmenu > {{color.txt}}`
 
-- 在特定的监视器上启动 `dmenu`：
+- 在特定的监视器上启动 `dmenu`:
 
 `ls | dmenu -m {{1}}`
 
-- 在屏幕底部显示 `dmenu`：
+- 在屏幕底部显示 `dmenu`:
 
 `ls | dmenu -b`

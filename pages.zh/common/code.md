@@ -7,19 +7,19 @@
 
 `code`
 
-- 在 VS Code 中打开当前目录:
+- 在 VS Code 中打开当前目录：
 
 `code .`
 
-- 在 VS Code 打开一个文件或目录:
+- 在 VS Code 打开一个文件或目录：
 
 `code {{路径/文件或目录}}`
 
-- 在当前打开的 VS Code 窗口中打开一个文件或目录:
+- 在当前打开的 VS Code 窗口中打开一个文件或目录：
 
 `code --reuse-window {{路径/文件或目录}}`
 
-- 在 VS Code 中对比两个文件:
+- 在 VS Code 中对比两个文件：
 
 `code -d {{文件1}} {{文件2}}`
 
