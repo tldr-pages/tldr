@@ -10,7 +10,11 @@
 
 - Usa un archivo de fuente personalizada:
 
-`figlet {{texto_de_entrada}} -f {{ruta/al/archivo_de_fuente}}`
+`figlet {{texto_de_entrada}} -f {{ruta/al/archivo_de_fuente.flf}}`
+
+- Use una fuente del directorio predeterminado (la extensión puede ser omitida):
+
+`figlet {{texto_de_entrada}} -f {{archivo_de_fuente}}`
 
 - Redirige la salida de un comando hacia figlet:
 
