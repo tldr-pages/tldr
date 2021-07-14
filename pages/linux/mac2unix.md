@@ -2,6 +2,7 @@
 
 > Change macOS-style line endings to Unix-style.
 > Replaces LF with CR.
+> More information: <https://manned.org/mac2unix>.
 
 - Change the line endings of a file:
 
