@@ -25,4 +25,4 @@
 
 - Show information related to configured repositories:
 
-`zypper repos -P`
+`zypper repos --sort-by-priority`
