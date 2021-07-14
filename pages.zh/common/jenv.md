@@ -5,7 +5,7 @@
 
 - 向 jEnv 添加一个 Java 版本：
 
-`jenv add {{path/to/jdk_home}}`
+`jenv add {{Java Home 路径}}`
 
 - 显示当前使用的 JDK 版本：
 
@@ -17,12 +17,12 @@
 
 - 设置全局JDK版本：
 
-`jenv global {{java_version}}`
+`jenv global {{Java 版本}}`
 
 - 设置当前 shell 会话的 JDK 版本：
 
-`jenv shell {{java_version}}`
+`jenv shell {{Java 版本}}`
 
 - 启用 jEnv 插件：
 
-`jenv enable-plugin {{plugin_name}}`
+`jenv enable-plugin {{插件名称}}`
