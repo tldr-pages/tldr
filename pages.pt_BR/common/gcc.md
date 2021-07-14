@@ -5,15 +5,15 @@
 
 - Compilar múltiplos arquivos de código fonte, produzindo um arquivo executável:
 
-`gcc {{arquivo_fonte1.c}} {{arquivo_fonte2.c}} -o {{arquivo_executável}}`
+`gcc {{arquivo_fonte1.c}} {{arquivo_fonte2.c}} --output {{arquivo_executável}}`
 
 - Habilitar avisos durante a compilação:
 
-`gcc {{arquivo_fonte.c}} -Wall -Og -o {{arquivo_executável}}`
+`gcc {{arquivo_fonte.c}} -Wall -Og --output {{arquivo_executável}}`
 
 - Incluir bibliotecas de um local diferente:
 
-`gcc {{arquivo_fonte.c}} -o {{arquivo_executável}} -I{{caminho/para/header}} -L{{caminho/para/biblioteca}} -l{{nome_biblioteca}}`
+`gcc {{arquivo_fonte.c}} --output {{arquivo_executável}} -I{{caminho/para/header}} -L{{caminho/para/biblioteca}} -l{{nome_biblioteca}}`
 
 - Compilar o código fonte para instruções Assembler:
 

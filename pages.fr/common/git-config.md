@@ -4,11 +4,11 @@
 > Ces configurations peuvent être locales (pour le référentiel courant) ou globales (pour l'utilisateur).
 > Plus d'informations : <https://git-scm.com/docs/git-config>.
 
-- Liste les entrées de configurations locales (stockés dans `.git/config` du répertoire courant) :
+- Liste les entrées de configurations locales (stockées dans `.git/config` du répertoire courant) :
 
 `git config --list --local`
 
-- Liste les entrées de configuration globales (stockés dans `~/.gitconfig`) :
+- Liste les entrées de configuration globales (stockées dans `~/.gitconfig`) :
 
 `git config --list --global`
 

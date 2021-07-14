@@ -11,6 +11,10 @@
 
 `gzip -d {{file.ext}}.gz`
 
+- Compress a file, keeping the original file:
+
+`gzip --keep {{file.ext}}`
+
 - Compress a file specifying the output filename:
 
 `gzip -c {{file.ext}} > {{compressed_file.ext.gz}}`

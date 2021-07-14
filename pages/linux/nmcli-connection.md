@@ -26,3 +26,7 @@
 - Create a static IPv4-only connection:
 
 `nmcli connection add ifname {{interface_name}} type {{ethernet}} ip4 {{10.0.0.7/8}} gw4 {{10.0.0.1}} ipv4.dns {{10.0.0.1}} ipv6.method {{ignore}}`
+
+- Create a VPN connection using OpenVPN from a OVPN file:
+
+`nmcli connection import type {{openvpn}} file {{path/to/vpn_config.ovpn}}`

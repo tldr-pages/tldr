@@ -7,9 +7,9 @@
 
 `git checkout -b {{nom_de_branche}}`
 
-- Créer une branche depuis une référence spécifique et basculer dessus (par exemple, branche locales/distantes, tag, commit) :
+- Créer une branche depuis une référence spécifique et basculer dessus (par exemple, branche locale/distante, tag, commit) :
 
-`git checkout -b {{nom_de_branche}} {{reference}}`
+`git checkout -b {{nom_de_branche}} {{référence}}`
 
 - Basculer sur une branche locale existante :
 
@@ -19,7 +19,7 @@
 
 `git checkout -`
 
-- Basculer sur une brnche distante existante :
+- Basculer sur une branche distante existante :
 
 `git checkout --track {{nom_distant}}/{{nom_de_branche}}`
 

@@ -8,7 +8,7 @@
 
 `git stage {{chemin/vers/fichier}}`
 
-- Ajoute tout les fichiers à l'index (suivis et non-suivis) :
+- Ajoute tous les fichiers à l'index (suivis et non-suivis) :
 
 `git stage -A`
 

@@ -1,6 +1,6 @@
 # zsh
 
-> Z SHell, a Bash-compatible command line interpreter.
+> Z SHell, a Bash-compatible command-line interpreter.
 > See also `histexpand` for history expansion.
 > More information: <https://www.zsh.org>.
 

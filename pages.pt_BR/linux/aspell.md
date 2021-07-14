@@ -1,6 +1,7 @@
 # aspell
 
 > Verificador ortográfico interativo.
+> Mais informações: <http://aspell.net/>.
 
 - Verificar a ortografia do texto de um arquivo:
 

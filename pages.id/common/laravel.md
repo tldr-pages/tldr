@@ -1,6 +1,6 @@
 # laravel
 
-> Pemasang Laravel framework berbasis command line.
+> Pemasang Laravel framework berbasis command-line.
 > Informasi lebih lanjut: <https://laravel.com>.
 
 - Buat aplikasi Laravel baru:

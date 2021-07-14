@@ -1,6 +1,6 @@
 # fin
 
-> Docksal command line utility.
+> Docksal command-line utility.
 > More information: <https://docs.docksal.io/fin/fin/>.
 
 - Start the project in the current directory:
