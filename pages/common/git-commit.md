@@ -15,6 +15,10 @@
 
 `git commit -a -m "{{message}}"`
 
+- Commit staged files and [S]ign them with the GPG key defined in `~/.gitconfig`:
+
+`git commit -S -m "{{message}}"`
+
 - Update the last commit by adding the currently staged changes, changing the commit's hash:
 
 `git commit --amend`
