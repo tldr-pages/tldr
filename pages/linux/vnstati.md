@@ -5,7 +5,7 @@
 
 - Output a summary of the last 2: months, days, and all-time:
 
-`vnstati --summary --iface {{network_interface}} --output {{output.png}}`
+`vnstati --summary --iface {{network_interface}} --output {{path/to/output.png}}`
 
 - Output the 10 most traffic-intensive days of all time:
 
