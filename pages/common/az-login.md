@@ -26,4 +26,4 @@
 
 - Login using a VM's user assigned identity:
 
-`az login --identity --username /subscriptions/subscription_id/resourcegroups/{{my_rg}}/providers/Microsoft.ManagedIdentity/userAssignedIdentities/{{my_id}}`
+`az login --identity --username {{/subscriptions/subscription_id/resourcegroups/my_rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/my_id}}`
