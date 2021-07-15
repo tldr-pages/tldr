@@ -11,7 +11,7 @@
 
 `vnstati --top10 --iface {{network_interface}} --output {{output.png}}`
 
-- Output traffic statistics on a monthly basis for the last 12 months:
+- Output monthly traffic statistics from the last 12 months:
 
 `vnstati --months --iface {{network_interface}} --output {{output.png}}`
 
