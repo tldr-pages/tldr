@@ -15,6 +15,10 @@
 
 `git commit -a -m "{{nachricht}}"`
 
+- Committe alle gestagten Dateien und [S]igniere sie mit dem in `~/.gitconfig` definierten GPG Schlüssel:
+
+`git commit -S -m "{{nachricht}}"`
+
 - Ersetze den letzten Commit mit den gerade auf dem Stage liegenden Änderungen:
 
 `git commit --amend`
