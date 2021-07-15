@@ -3,7 +3,7 @@
 > Simple, easy to use command-line text editor. An enhanced, free Pico clone.
 > More information: <https://nano-editor.org>.
 
-- Open nano without a file:
+- Open a new file in nano:
 
 `nano`
 
