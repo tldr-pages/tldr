@@ -17,12 +17,12 @@
 
 - Open a specific file and enable smooth scrolling:
 
-`nano -S {{path/to/file}}`
+`nano --softwrap {{path/to/file}}`
 
 - Open a specific file and indent new lines to the previous lines' indentation:
 
-`nano -i {{path/to/file}}`
+`nano --autoindent {{path/to/file}}`
 
 - Open nano and create a backup if edits are saved:
 
-`nano -B {{path/to/file}}`
+`nano --backup {{path/to/file}}`
