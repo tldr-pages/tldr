@@ -9,12 +9,12 @@
 
 - Output the 10 most traffic-intensive days of all time:
 
-`vnstati --top10 --iface {{network_interface}} --output {{output.png}}`
+`vnstati --top10 --iface {{network_interface}} --output {{path/to/output.png}}`
 
 - Output monthly traffic statistics from the last 12 months:
 
-`vnstati --months --iface {{network_interface}} --output {{output.png}}`
+`vnstati --months --iface {{network_interface}} --output {{path/to/output.png}}`
 
 - Output hourly traffic statistics from the last 24 hours:
 
-`vnstati --hours --iface {{network_interface}} --output {{output.png}}`
+`vnstati --hours --iface {{network_interface}} --output {{path/to/output.png}}`
