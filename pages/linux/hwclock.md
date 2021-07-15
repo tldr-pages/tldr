@@ -1,7 +1,7 @@
 # hwclock
 
 > Used for reading or changing the hardware clock. Usually requires root.
-> More information: <https://man7.org/linux/man-pages/man8/hwclock.8.html>.
+> More information: <https://manned.org/hwclock>.
 
 - Display the current time as reported by the hardware clock:
 
