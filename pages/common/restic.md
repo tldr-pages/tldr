@@ -17,7 +17,7 @@
 
 - Restore a specific backup snapshot to a target directory:
 
-`restic --repo {{path/to/repository}} restore {{snapshot_id}} {{path/to/target}}`
+`restic --repo {{path/to/repository}} restore {{latest|snapshot_id}} --target {{path/to/target}}`
 
 - Restore a specific path from a specific backup to a target directory:
 
