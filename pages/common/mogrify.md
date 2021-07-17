@@ -16,7 +16,7 @@
 
 `mogrify -format {{jpg}} {{*.png}}`
 
-- Half the saturation of all image files in the current directory:
+- Halve the saturation of all image files in the current directory:
 
 `mogrify -modulate {{100,50}} {{*}}`
 
