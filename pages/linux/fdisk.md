@@ -5,11 +5,11 @@
 
 - List partitions:
 
-`fdisk -l`
+`sudo fdisk -l`
 
 - Start the partition manipulator:
 
-`fdisk {{/dev/sdX}}`
+`sudo fdisk {{/dev/sdX}}`
 
 - Once partitioning a disk, create a partition:
 
