@@ -17,11 +17,11 @@
 
 - Restore a specific backup snapshot to a target directory:
 
-`restic --repo {{path/to/repository}} restore {{snapshot_id}} {{path/to/target}}`
+`restic --repo {{path/to/repository}} restore {{latest|snapshot_id}} --target {{path/to/target}}`
 
 - Restore a specific path from a specific backup to a target directory:
 
-`restic --repo {{path/to/repository}} --include {{path/to/restore}} --target {{path/to/target}} restore {{snapshot_id}}`
+`restic --repo {{path/to/repository}} restore {{snapshot_id}} --target {{path/to/target}} --include {{path/to/restore}}`
 
 - Clean up the repository and keep only the most recent snapshot of each unique backup:
 
