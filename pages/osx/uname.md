@@ -3,18 +3,22 @@
 > Print details about the current machine and the operating system running on it.
 > Note: for additional information about the operating system, try the `sw_vers` command.
 
-- Print hardware-related information: machine and processor:
+- Print kernel name:
 
-`uname -mp`
+`uname`
 
-- Print software-related information: operating system, release number, and version:
+- Print system architecture and processor information:
 
-`uname -srv`
+`uname --machine --processor`
 
-- Print the nodename (hostname) of the system:
+- Print kernel name, kernel release and kernel version:
 
-`uname -n`
+`uname --kernel-name --kernel-release --kernel-version`
 
-- Print all available system information (hardware, software, nodename):
+- Print system hostname:
 
-`uname -a`
+`uname --nodename`
+
+- Print all available system information:
+
+`uname --all`
