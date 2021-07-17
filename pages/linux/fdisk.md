@@ -15,7 +15,7 @@
 
 `n`
 
-- Once partitioning a disk, delete a specific partition:
+- Once partitioning a disk, select a partition to delete:
 
 `d`
 
