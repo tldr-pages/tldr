@@ -23,6 +23,6 @@
 
 `aria2c --ftp-user={{用户名}} --ftp-passwd={{密码}} {{url}}`
 
-- 限制下载速度 (bytes/s):
+- 限制下载速度（bytes/s）：
 
 `aria2c --max-download-limit={{速度}} {{url}}`

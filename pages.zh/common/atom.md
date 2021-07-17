@@ -16,7 +16,7 @@
 
 `atom --add {{path/to/file_or_directory}}`
 
-- 以安全模式启动 Atom (不加载额外插件）：
+- 以安全模式启动 Atom（不加载额外插件）：
 
 `atom --safe`
 

@@ -19,7 +19,7 @@
 
 `act -a {{action_id}}`
 
-- 非实际运行 actions (也就是 dry-run 模式):
+- 非实际运行 actions（也就是 dry-run 模式）：
 
 `act -n`
 

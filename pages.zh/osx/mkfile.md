@@ -6,7 +6,7 @@
 
 `mkfile -n {{15k}} {{文件名}}`
 
-- 创建给定大小和单位的文件 (bytes, KB, MB, GB):
+- 创建给定大小和单位的文件（bytes, KB, MB, GB）：
 
 `mkfile -n {{大小}}{{b|k|m|g}} {{文件名}}`
 

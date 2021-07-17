@@ -11,6 +11,6 @@
 
 `rustfmt --check {{source.rs}}`
 
-- 格式化之前，备份所有修改过的文件(原始文件的扩展名为 `.bk`):
+- 格式化之前，备份所有修改过的文件（原始文件的扩展名为 `.bk`）：
 
 `rustfmt --backup {{source.rs}}`

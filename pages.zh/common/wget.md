@@ -4,19 +4,19 @@
 > 支持 HTTP, HTTPS, 和 FTP.
 > 更多信息：<https://www.gnu.org/software/wget>.
 
-- 将该 URL 的内容下载到文件中 (在这个例子中文件名为 "foo"）：
+- 将该 URL 的内容下载到文件中（在这个例子中文件名为 "foo"）：
 
 `wget {{https://example.com/foo}}`
 
-- 将该 URL 的内容下载到文件中 (在这个例子中文件名为 "bar"）：
+- 将该 URL 的内容下载到文件中（在这个例子中文件名为 "bar"）：
 
 `wget --output-document {{bar}} {{https://example.com/foo}}`
 
-- 以每三秒一个请求的速度下载一个网页和其所有资源 (脚本，样式表，图片等等）：
+- 以每三秒一个请求的速度下载一个网页和其所有资源（脚本，样式表，图片等等）：
 
 `wget --page-requisites --convert-links --wait=3 {{https://example.com/somepage.html}}`
 
-- 从一个目录中下载所有列出的文件和其所有子文件夹 (不下载内嵌网页）：
+- 从一个目录中下载所有列出的文件和其所有子文件夹（不下载内嵌网页）：
 
 `wget --mirror --no-parent {{https://example.com/somepath/}}`
 

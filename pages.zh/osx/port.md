@@ -1,6 +1,6 @@
 # port
 
-> macOS 包管理器软件(类似 brew).
+> macOS 包管理器软件（类似 brew）。
 
 - 搜索包：
 

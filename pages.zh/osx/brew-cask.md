@@ -22,7 +22,7 @@
 
 `brew cask upgrade {{软件名}}`
 
-- 删除一个软件(仅通过 brew cask install 方式安装的）：
+- 删除一个软件（仅通过 brew cask install 方式安装的）：
 
 `brew cask uninstall {{软件名}}`
 

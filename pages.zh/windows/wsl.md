@@ -3,7 +3,7 @@
 > 从命令行管理适用于 Linux 的 Windows 子系统。
 > 更多信息：<https://docs.microsoft.com/windows/wsl/reference>.
 
-- 启动 Linux Shell(在默认发行版中）：
+- 启动 Linux Shell（在默认发行版中）：
 
 `wsl {{shell_命令}}`
 

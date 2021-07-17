@@ -11,7 +11,7 @@
 
 `ninja -C {{路径}}`
 
-- 查看 target(如 `install` 和 `uninstall`):
+- 查看 target（如 `install` 和 `uninstall`）：
 
 `ninja -t targets`
 

@@ -6,7 +6,7 @@
 
 `pod init`
 
-- 下载并安装 pod 文件中定义的所有 pod(以前未安装）：
+- 下载并安装 pod 文件中定义的所有 pod（以前未安装）：
 
 `pod install`
 
@@ -14,7 +14,7 @@
 
 `pod list`
 
-- 显示过时的 pod(当前安装的 pod）：
+- 显示过时的 pod（当前安装的 pod）：
 
 `pod outdated`
 
@@ -22,7 +22,7 @@
 
 `pod update`
 
-- 将特定(以前安装的）pod 更新为其最新版本：
+- 将特定（以前安装的）pod 更新为其最新版本：
 
 `pod update {{pod_名}}`
 

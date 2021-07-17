@@ -1,6 +1,6 @@
 # asterisk
 
-> 电话和交换(手机）服务器。
+> 电话和交换（手机）服务器。
 > 用于管理服务器自身和管理已经在运行的实例。
 > 更多信息：<https://wiki.asterisk.org/wiki/display/AST/Home>.
 
@@ -12,7 +12,7 @@
 
 `asterisk -r -x "{{命令}}"`
 
-- 显示 chan_SIP 客户端(手机）：
+- 显示 chan_SIP 客户端（手机）：
 
 `asterisk -r -x "sip show peers"`
 

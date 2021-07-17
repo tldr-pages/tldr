@@ -2,7 +2,7 @@
 
 > 配置系统首选项计算机设置。
 
-- 启用远程登录 (SSH):
+- 启用远程登录（SSH）：
 
 `systemsetup -setremotelogin on`
 

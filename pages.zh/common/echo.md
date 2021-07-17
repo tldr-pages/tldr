@@ -3,7 +3,7 @@
 > 输出给定参数。
 > 更多信息：<https://www.gnu.org/software/coreutils/echo>.
 
-- 输出文本信息. 注意: 引号是可选的：
+- 输出文本信息. 注意： 引号是可选的：
 
 `echo "{{Hello World}}"`
 
@@ -19,6 +19,6 @@
 
 `echo "{{Hello World}}" >> {{file.txt}}`
 
-- 启用反斜杠转义的解释(特殊字符）：
+- 启用反斜杠转义的解释（特殊字符）：
 
 `echo -e "{{Column 1\tColumn 2}}"`

@@ -7,7 +7,7 @@
 
 `androguard axml {{路径/至/应用.apk}}`
 
-- 展示 app 元数据 (版本和 app ID):
+- 展示 app 元数据（版本和 app ID）：
 
 `androguard apkid {{路径/至/应用.apk}}`
 

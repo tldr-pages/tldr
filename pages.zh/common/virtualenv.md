@@ -15,7 +15,7 @@
 
 `virtualenv --python={{path/to/pythonbin}} {{path/to/venv}}`
 
-- 启动 (选择） 环境：
+- 启动（选择）环境：
 
 `source {{path/to/venv}}/bin/activate`
 

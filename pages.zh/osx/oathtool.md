@@ -2,7 +2,7 @@
 
 > OATH 一次性密码工具。
 
-- 生成 TOTP 令牌(行为类似于 Google Authenticator）：
+- 生成 TOTP 令牌（行为类似于 Google Authenticator）：
 
 `oathtool --totp --base32 {{密码}}`
 

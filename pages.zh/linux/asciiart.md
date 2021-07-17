@@ -11,7 +11,7 @@
 
 `asciiart {{www.example.com/image.jpg}}`
 
-- 选择输出宽度 (默认为 100):
+- 选择输出宽度（默认为 100）：
 
 `asciiart -width {{50}} {{路径/image.jpg}}`
 
@@ -19,7 +19,7 @@
 
 `asciiart --color {{路径/image.jpg}}`
 
-- 选择输出格式 (默认格式为文本):
+- 选择输出格式（默认格式为文本）：
 
 `asciiart --format {{text|html}} {{路径/image.jpg}}`
 

@@ -23,6 +23,6 @@
 
 `hexo deploy`
 
-- 清理缓存文件 (`db.json`) 和生成的文件 (`public/`):
+- 清理缓存文件（`db.json`）和生成的文件（`public/`）：
 
 `hexo clean`

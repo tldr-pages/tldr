@@ -6,7 +6,7 @@
 
 `system_profiler -xml > MyReport.spx`
 
-- 显示硬件概述(型号、CPU、内存、串行等）：
+- 显示硬件概述（型号、CPU、内存、串行等）：
 
 `system_profiler SPHardwareDataType`
 

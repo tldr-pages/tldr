@@ -14,7 +14,7 @@
 
 `defaults write {{应用名}} {{选项}} {{- 类型}} {{值}}`
 
-- 加速任务控制界面弹出动画 (时间设置为 0.1):
+- 加速任务控制界面弹出动画（时间设置为 0.1）：
 
 `defaults write com.apple.Dock expose-animation-duration -float 0.1`
 

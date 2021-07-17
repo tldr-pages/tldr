@@ -14,7 +14,7 @@
 
 `sysctl -n machdep.cpu.brand_string`
 
-- 显示可用的 CPU 功能 (MMX, SSE, SSE2, SSE3, AES, 等）：
+- 显示可用的 CPU 功能（MMX, SSE, SSE2, SSE3, AES, 等）：
 
 `sysctl -n machdep.cpu.features`
 

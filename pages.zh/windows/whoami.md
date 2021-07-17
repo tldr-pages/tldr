@@ -14,7 +14,7 @@
 
 `whoami /priv`
 
-- 显示当前用户的用户主体名称 (UPN):
+- 显示当前用户的用户主体名称（UPN）：
 
 `whoami /upn`
 

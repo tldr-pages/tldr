@@ -4,7 +4,7 @@
 > GNU Privacy Guard 1 请参见`gpg`。
 > 更多信息：<https://docs.releng.linuxfoundation.org/en/latest/gpg.html>.
 
-- 列出导入的密钥(公钥）：
+- 列出导入的密钥（公钥）：
 
 `gpg2 --list-keys`
 
@@ -12,7 +12,7 @@
 
 `gpg2 --encrypt --recipient {{alice@example.com}} {{path/to/doc.txt}}`
 
-- 只用密码(对称加密）对指定文件进行加密，将输出结果写入一个附加`.gpg`的新文件：
+- 只用密码（对称加密）对指定文件进行加密，将输出结果写入一个附加`.gpg`的新文件：
 
 `gpg2 --symmetric {{path/to/doc.txt}}`
 

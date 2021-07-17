@@ -15,11 +15,11 @@
 
 `heroku logs --app {{app_name}}`
 
-- 在 dyno(Heroku 虚拟机）中运行一次性进程：
+- 在 dyno（Heroku 虚拟机）中运行一次性进程：
 
 `heroku run {{process_name}} --app {{app_name}}`
 
-- 列出应用的 dyno(Heroku 虚拟机）：
+- 列出应用的 dyno（Heroku 虚拟机）：
 
 `heroku ps --app {{app_name}}`
 

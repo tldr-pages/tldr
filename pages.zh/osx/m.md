@@ -14,7 +14,7 @@
 
 `m disk filesystems`
 
-- 启用 Dock(桌面程序坞） 的自动隐藏功能：
+- 启用 Dock（桌面程序坞）的自动隐藏功能：
 
 `m dock autohide YES`
 

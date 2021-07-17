@@ -14,7 +14,7 @@
 
 `carthage update --no-build`
 
-- 下载并重新生成依赖项的当前版本(不更新它们）：
+- 下载并重新生成依赖项的当前版本（不更新它们）：
 
 `carthage bootstrap`
 

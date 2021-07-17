@@ -3,7 +3,7 @@
 > 用于设置系统认证资源的命令行界面。
 > 更多信息： <https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system-level_authentication_guide/authconfig-install>.
 
-- 显示当前的配置(或空运行）：
+- 显示当前的配置（或空运行）：
 
 `authconfig --test`
 
@@ -19,7 +19,7 @@
 
 `authconfig --update --disableldapauth`
 
-- 开启网络信息服务(NIS）：
+- 开启网络信息服务（NIS）：
 
 `authconfig --update --enablenis`
 
@@ -27,7 +27,7 @@
 
 `authconfig --update --enablekrb5`
 
-- 开启 Winbind (活动目录）认证：
+- 开启 Winbind（活动目录）认证：
 
 `authconfig --update --enablewinbindauth`
 

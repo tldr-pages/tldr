@@ -7,11 +7,11 @@
 
 `yarn global add {{module_name}}`
 
-- 安装 `package.json` 中指定的依赖 (`install` 命令是可选的 -- 你可以直接输入`yarn`):
+- 安装 `package.json` 中指定的依赖（`install` 命令是可选的 -- 你可以直接输入`yarn`）：
 
 `yarn install`
 
-- 安装一个模块并将其写入 `package.json` 中的依赖项 (增加 `--dev` 来作为开发依赖写入）：
+- 安装一个模块并将其写入 `package.json` 中的依赖项（增加 `--dev` 来作为开发依赖写入）：
 
 `yarn add {{module_name}}@{{version}}`
 

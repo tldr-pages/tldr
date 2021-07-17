@@ -15,10 +15,10 @@
 
 `alacritty -e {{命令}}`
 
-- 指定备用配置文件 (默认在 `$XDG_CONFIG_HOME/alacritty/alacritty.yml`):
+- 指定备用配置文件（默认在 `$XDG_CONFIG_HOME/alacritty/alacritty.yml`）：
 
 `alacritty --config-file {{路径/config.yml}}`
 
-- 在启用实时配置重新加载的情况下运行(默认情况下也可以在 `alacritty.yml` 中启用）：
+- 在启用实时配置重新加载的情况下运行（默认情况下也可以在 `alacritty.yml` 中启用）：
 
 `alacritty --live-config-reload --config-file {{路径/config.yml}}`
