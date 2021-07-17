@@ -10,7 +10,7 @@
 
 `sudo opensnoop -n {{进程名}}`
 
-- 跟踪给定 PID（进程号）, 打开的所有文件：
+- 跟踪给定 PID（进程号），打开的所有文件：
 
 `sudo opensnoop -p {{PID 进程号}}`
 

@@ -10,7 +10,7 @@
 
 `osascript -e '{{say "你好"}}' -e '{{say "世界"}}'`
 
-- 运行一个已编译的脚本（`*.scpt`）, 包脚本（`*.scptd`）, 或明文的（`*.applescript`）AppleScript 文件：
+- 运行一个已编译的脚本（`*.scpt`），包脚本（`*.scptd`），或明文的（`*.applescript`）AppleScript 文件：
 
 `osascript {{目录 / 脚本文件.scpt}}`
 
