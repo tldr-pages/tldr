@@ -13,7 +13,7 @@
 
 - Export a resume locally in a stylized HTML or PDF format:
 
-`resume export {{path/to/output}}`
+`resume export {{path/to/html_or_pdf}}`
 
 - Start a web server that serves a local `resume.json`:
 
