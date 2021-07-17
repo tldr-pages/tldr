@@ -16,7 +16,7 @@
 
 `curl --remote-name --location --continue-at - {{http://example.com/filename}}`
 
-- Send form-encoded data (POST request of type `application/x-www-form-urlencoded`):
+- 发送表单编码数据（`application/x-www-form-urlencoded` 的 POST 请求）：
 
 `curl --data {{'name=bob'}} {{http://example.com/form}}`
 
