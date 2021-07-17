@@ -1,21 +1,21 @@
 # ag
 
 > The Silver Searcher. 类似 ack, 但是更快。
-> 更多信息：<https://github.com/ggreer/the_silver_searcher>.
+> 更多信息： <https://github.com/ggreer/the_silver_searcher>.
 
 - 寻找内容包含"小明"的文件，并列出所在的行数：
 
 `ag {{小明}}`
 
-- 在指定目录中寻找内容包含"foo"的文件：
+- 在指定目录中寻找内容包含 "foo" 的文件：
 
 `ag {{小明}} {{指定的目录}}`
 
-- 寻找内容包含"foo"的文件，但只列出文件名：
+- 寻找内容包含 "foo" 的文件，但只列出文件名：
 
 `ag -l {{小明}}`
 
-- 忽略大小写，寻找内容包含"ABC"的文件，并只输出匹配的内容，而非整行：
+- 忽略大小写，寻找内容包含 "ABC" 的文件，并只输出匹配的内容，而非整行：
 
 `ag -i -o {{ABC}}`
 

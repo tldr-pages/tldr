@@ -1,8 +1,8 @@
 # aria2
 
 > 一个轻量级多协议和多源命令行下载工具。
-> 支持 HTTP, HTTPS, FTP, SFTP, BitTorrent and Metalink。
-> 主页：<https://aria2.github.io/>.
+> 支持 HTTP, HTTPS, FTP, SFTP, BitTorrent and Metalink.
+> 主页： <https://aria2.github.io/>.
 
 - 下载一个网络资源：
 
