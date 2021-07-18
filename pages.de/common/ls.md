@@ -30,3 +30,7 @@
 - Liste alle Dateien sortiert nach dem Änderungsdatum mit ältester beginnend auf:
 
 `ls -ltr`
+
+- Liste nur Verzeichnisse auf:
+
+`ls -d {{*/}}`

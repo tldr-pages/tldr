@@ -10,3 +10,7 @@
 - Versuche den zuletzt ausgeführten Befehl zu korrigieren:
 
 `fuck`
+
+- Bestätige das erste Ergebnis sofort (korrektes Argument hängt vom Level der Frustration ab):
+
+`fuck --{{yes|yeah|hard}}`

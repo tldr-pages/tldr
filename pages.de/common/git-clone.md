@@ -30,3 +30,7 @@
 - Klone ein existierendes Repository, aber lade nur einen bestimmten Branch herunter:
 
 `git clone --branch {{name}} --single-branch {{url_zu_repository}}`
+
+- Klone ein existierendes Repository mit einem bestimmten SSH Befehl:
+
+`git clone --config core.sshCommand="{{ssh -i pfad/zu/privat_ssh_schlüssel}}" {{url_zu_repository}}`
