@@ -1,6 +1,7 @@
 # az account
 
 > Manage Azure subscription information.
+> Part of `az`, the command-line client for Microsoft Azure.
 > More information: <https://docs.microsoft.com/cli/azure/account>.
 
 - Print a list of subscriptions for the logged in account:
