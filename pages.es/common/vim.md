@@ -8,7 +8,7 @@
 
 `vim {{ruta/al/archivo}}`
 
-- Ver el manual propio de Vim:
+- Ver el manual de Vim:
 
 `:help<Enter>`
 
