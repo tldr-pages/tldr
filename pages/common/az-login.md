@@ -8,10 +8,6 @@
 
 `az login`
 
-- Login with a username and password:
-
-`az login --username {{alias@somedomain.com}} --password {{secret}}`
-
 - Login with a service principal using a client secret:
 
 `az login --service-principal --username {{http://azure-cli-service-principal}} --passsword {{secret}} --tenant {{someone.onmicrosoft.com}}`
