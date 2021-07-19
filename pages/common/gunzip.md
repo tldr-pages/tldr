@@ -11,7 +11,7 @@
 
 `gunzip -c {{archive.tar.gz}} > {{archive.tar}}`
 
-- Extract a file and keep input file:
+- Extract a file and keep the archive file:
 
 `gunzip --keep {{archive.tar.gz}}`
 
