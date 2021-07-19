@@ -19,7 +19,7 @@
 
 `gradle clean`
 
-- Build an APK in release mode:
+- Build an Android Package (APK) in release mode:
 
 `gradle assembleRelease`
 
