@@ -9,7 +9,7 @@
 
 - Extract a file to a target destination:
 
-`gunzip -c {{archive.tar.gz}} > {{archive.tar}}`
+`gunzip --stdout {{archive.tar.gz}} > {{archive.tar}}`
 
 - Extract a file and keep the archive file:
 
