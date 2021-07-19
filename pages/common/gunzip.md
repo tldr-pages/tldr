@@ -11,6 +11,10 @@
 
 `gunzip -c {{archive.tar.gz}} > {{archive.tar}}`
 
+- Extract a file and keep input file:
+
+`gunzip --keep {{archive.tar.gz}}`
+
 - List the contents of a compressed file:
 
 `gunzip -l {{file.txt.gz}}`
