@@ -17,4 +17,4 @@
 
 - List the contents of a compressed file:
 
-`gunzip -l {{file.txt.gz}}`
+`gunzip --list {{file.txt.gz}}`
