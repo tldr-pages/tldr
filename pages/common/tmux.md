@@ -19,18 +19,41 @@
 
 `tmux attach`
 
-- Detach from the current session (inside a tmux session):
+INSIDE A TMUX SESSION:
+
+- Detach from the current session:
 
 `Ctrl-B d`
 
-- Create a new window (inside a tmux session):
+- Terminology (from `man tmux`):
+  -   Session: collection of pseudo terminals managed by tmux
+  -   Window: occupies the entire screen, can be split into panes (rectangles)
+  -   Pane: one pseudo terminal
+
+- Create a new window:
 
 `Ctrl-B c`
 
-- Switch between sessions and windows (inside a tmux session):
+- Cycle through windows:
+
+`Ctrl-B n`
+
+- Create a vertical pane within current window:
+
+`Ctrl-B %`
+
+- Cycle through panes:
+
+`Ctrl-B o`
+
+- Go to most recent pane: 
+
+`Ctrl-B ;`
+
+- Switch between sessions and windows:
 
 `Ctrl-B w`
 
-- Kill a session by name:
+- Kill a session by name (outside tmux session):
 
 `tmux kill-session -t {{name}}`
