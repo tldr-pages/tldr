@@ -12,7 +12,7 @@
 
 - Start nettop monitoring specific process:
 
-`nettop -p {{process_id|process-name}}`
+`nettop -p {{process_id|process_name}}`
 
 - Start nettop displaying summary only for per-process:
 
