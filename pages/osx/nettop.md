@@ -2,11 +2,11 @@
 
 > Display dynamic real-time information about the network.
 
-- Start nettop monitoring all sockets and interfaces:
+- Start nettop monitoring TCP and UDP sockets from all interfaces:
 
 `nettop`
 
-- Start nettop monitoring TCP sockets and Loopback interfaces:
+- Start nettop monitoring TCP sockets from Loopback interfaces:
 
 `nettop -m tcp -t loopback`
 
