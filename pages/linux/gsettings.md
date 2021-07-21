@@ -7,7 +7,7 @@
 
 `gsettings set {{org.example.schema}} {{example-key}} {{value}}`
 
-- Print the value of a key, or the schema-provided default if the key has not been set in dconf:
+- Print the value of a key or the schema-provided default if the key has not been set in `dconf`:
 
 `gsetings get {{org.example.schema}} {{example-key}}`
 
@@ -27,6 +27,6 @@
 
 `gsettings range {{org.example.schema}} {{example-key}}`
 
-- Display the human-readable description for a key:
+- Display the human-readable description of a key:
 
 `gsettings describe {{org.example.schema}} {{example-key}}`
