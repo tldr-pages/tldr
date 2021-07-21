@@ -26,7 +26,7 @@
 
 `nettop -d -s {{5}}`
 
-- List interactive commands while running nettop:
+- While running nettop, list interactive commands:
 
 `h`
 
