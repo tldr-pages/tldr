@@ -33,4 +33,3 @@
 - Display help message:
 
 `nettop -h`
-
