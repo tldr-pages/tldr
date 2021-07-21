@@ -19,7 +19,7 @@
 
 `gsettings reset {{org.example.schema}} {{example-key}}`
 
-- Print the value of a key, or schema default if not set (unlike `dconf read`):
+- Print the value of a key, or the schema-provided default if the key has not been set in dconf:
 
 `gsetings get {{org.example.schema}} {{example-key}}`
 
