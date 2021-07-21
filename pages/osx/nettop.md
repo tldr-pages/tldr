@@ -1,6 +1,6 @@
 # nettop
 
-> Display dynamic real-time information about the network.
+> Display updated information about the network.
 More information: <N/A>.
 - Monitor TCP and UDP sockets from all interfaces:
 
@@ -18,7 +18,7 @@ More information: <N/A>.
 
 `nettop -P`
 
-- Monitor in logging mode and display 10 samples:
+- Print 10 samples of network information:
 
 `nettop -l {{10}}`
 
