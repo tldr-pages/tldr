@@ -11,7 +11,7 @@
 
 `gsettings list-recursively {{org.example.schema}}`
 
-- Set the value of a key. Fails if key doesn't exist or value is outside range:
+- Set the value of a key. Fails if the key doesn't exist or the value is out of range:
 
 `gsettings set {{org.example.schema}} {{example-key}} {{value}}`
 
@@ -23,7 +23,7 @@
 
 `gsetings get {{org.example.schema}} {{example-key}}`
 
-- Display schema-allowed values for a key (helpful with enum keys, less so for others):
+- Display schema-allowed values for a key (helpful with enum keys):
 
 `gsettings range {{org.example.schema}} {{example-key}}`
 
