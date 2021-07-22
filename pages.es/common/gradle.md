@@ -19,6 +19,6 @@
 
 `gradle clean`
 
-- Genera una APK en modo lanzamiento:
+- Compila un paquete Android (APK) en modo lanzamiento:
 
 `gradle assembleRelease`
