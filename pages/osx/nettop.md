@@ -1,7 +1,7 @@
 # nettop
 
 > Display updated information about the network.
-More information: <N/A>.
+> More information: <N/A>.
 
 - Monitor TCP and UDP sockets from all interfaces:
 
