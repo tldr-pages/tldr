@@ -23,7 +23,7 @@
 
 `protonvpn-cli netshield --malware`
 
-- Disconnect the ProtonVPN:
+- Disconnect from ProtonVPN:
 
 `protonvpn-cli disconnect`
 
