@@ -7,7 +7,7 @@
 
 `protonvpn-cli login {{username}}`
 
-- Start Kill Switch upon connecting to ProtonVPN:
+- Start a kill switch upon connecting to ProtonVPN:
 
 `protonvpn-cli killswitch --on`
 
