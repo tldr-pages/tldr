@@ -15,7 +15,7 @@
 
 `nano +{{line}},{{column}} {{path/to/file}}`
 
-- Open a specific file and enable smooth scrolling:
+- Open a specific file and enable soft wrapping: 
 
 `nano --softwrap {{path/to/file}}`
 
