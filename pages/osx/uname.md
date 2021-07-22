@@ -2,6 +2,7 @@
 
 > Print details about the current machine and the operating system running on it.
 > Note: for additional information about the operating system, try the `sw_vers` command.
+> More information: <https://ss64.com/osx/uname.html>.
 
 - Print kernel name:
 
@@ -9,16 +10,16 @@
 
 - Print system architecture and processor information:
 
-`uname --machine --processor`
+`uname -mp`
 
 - Print kernel name, kernel release and kernel version:
 
-`uname --kernel-name --kernel-release --kernel-version`
+`uname -srv`
 
 - Print system hostname:
 
-`uname --nodename`
+`uname -n`
 
 - Print all available system information:
 
-`uname --all`
+`uname -a`
