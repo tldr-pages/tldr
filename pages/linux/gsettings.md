@@ -11,7 +11,7 @@
 
 `gsetings get {{org.example.schema}} {{example-key}}`
 
-- Un-set a key, so that its schema default value will be used:
+- Unset a key, so that its schema default value will be used:
 
 `gsettings reset {{org.example.schema}} {{example-key}}`
 
