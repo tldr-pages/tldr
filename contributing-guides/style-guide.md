@@ -76,3 +76,18 @@ Use backticks on the following:
 1. Paths, ex. `package.json`, `/etc/package.json`.
 2. Extensions, ex. `.dll`.
 3. Commands, ex. `ls`.
+
+## Serial Comma
+When declaring a list of items with 3 or more elements, use a [serial comma](https://en.wikipedia.org/wiki/Serial_comma), also known as the Oxford comma.
+
+When the serial comma is ommitted, it can create ambiguity.
+
+> Delete the Git branches, tags and remotes.
+
+The example above does not use a serial comma, so this could mean one of two things:
+* Delete the Git branches named `tags` and `remotes`.
+* Delete all of the following, Git branches, Git tags, and Git remotes.
+
+This can be resolved by inserting a comma before the "and" or "or" in the final element in the list.
+
+> Delete Git branches, tags, and remotes.
