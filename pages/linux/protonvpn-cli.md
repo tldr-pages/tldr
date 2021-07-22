@@ -11,7 +11,7 @@
 
 `protonvpn-cli killswitch --on`
 
-- Connect to ProtonVPN selecting the the server interactively:
+- Connect to ProtonVPN interactively:
 
 `protonvpn-cli connect`
 
