@@ -1,7 +1,7 @@
 # pwsh
 
 > PowerShell Core is a cross-platform automation and configuration tool/framework.
-> More information: <https://docs.microsoft.com/en-us/powershell/>.
+> More information: <https://docs.microsoft.com/powershell/>.
 
 - Start an instance of PowerShell:
 
