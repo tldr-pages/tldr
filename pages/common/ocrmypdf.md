@@ -15,7 +15,7 @@
 
 `ocrmypdf --skip-text {{input.pdf}} {{output.pdf}}`
 
-- Automatically clean, de-skew and rotate pages of a poor scan.
+- Automatically clean, de-skew and rotate pages of a poor scan:
 
 `ocrmypdf --clean --deskew --rotate-pages {{input_file}} {{output.pdf}}`
 
