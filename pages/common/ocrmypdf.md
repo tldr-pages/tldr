@@ -21,7 +21,7 @@
 
 - Set the metadata of the searchable PDF file:
 
-`ocrmypdf --title "{{title}}" --author "{{author}}" --subject "{{subject}}" --keywords "{{keywords}}" {{path/to/input_file}} {{path/to/output.pdf}}`
+`ocrmypdf --title "{{title}}" --author "{{author}}" --subject "{{subject}}" --keywords "{{keyword1;keyword2...}}" {{path/to/input_file}} {{path/to/output.pdf}}`
 
 - Display help:
 
