@@ -7,6 +7,6 @@
 
 `xkill`
 
-- Display a cursor to kill a window when pressing any mouse button - left, right or middle:
+- Display a cursor to select a window to kill by pressing any mouse button:
 
 `xkill -button any`
