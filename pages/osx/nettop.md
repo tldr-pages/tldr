@@ -14,7 +14,7 @@
 
 `nettop -p {{process_id|process_name}}`
 
-- Display summary only for per-process:
+- Display a per-process summary:
 
 `nettop -P`
 
@@ -22,7 +22,7 @@
 
 `nettop -l {{10}}`
 
-- Monitor in delta mode, updating every 5 seconds:
+- Monitor changes every 5 seconds:
 
 `nettop -d -s {{5}}`
 
