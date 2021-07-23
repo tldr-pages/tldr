@@ -1,29 +1,27 @@
 # ocrmypdf
 
 > Generates a searchable PDF or PDF/A from a scanned PDF or an image of text.
-> More information: <https://ocrmypdf.readthedocs.io/en/latest/introduction.html>
+> More information: <https://ocrmypdf.readthedocs.io/en/latest/introduction.html>.
 
 - Create a new searchable PDF/A file from a scanned PDF or image file:
 
-`ocrmypdf {{input_pdf_or_image}} {{searchable.PDF}}`
+`ocrmypdf {{input_file}} {{searchable.pdf}}`
 
 - Overwrite a scanned PDF file with a searchable PDF file, if successful:
 
-`ocrmypdf {{input.PDF}}`
+`ocrmypdf {{input.pdf}}`
 
-- Skip pages of a mixed-format input PDF that already contain text:
+- Skip pages of a mixed-format input PDF file that already contain text:
 
-`ocrmypdf --skip-text {{input.PDF}} {{searchable.PDF}}`
+`ocrmypdf --skip-text {{input.pdf}} {{searchable.pdf}}`
 
 - Automatically clean, de-skew and rotate pages of a poor scan.
 
-`ocrmypdf --clean --deskew --rotate-pages {{input_pdf_or_image}} {{searchable.PDF}}`
+`ocrmypdf --clean --deskew --rotate-pages {{input_file}} {{searchable.pdf}}`
 
-- Set the output PDF file's metadata:
+- Set the metadata of the searchable PDF file:
 
-`ocrmypdf --title "Document Title" --author "Document Author"
---subject "Subject Description" --keywords "Multiple Keywords"
-{{input_pdf_or_image}} {{searchable.PDF}}`
+`ocrmypdf --title "Document Title" --author "Document Author" --subject "Subject Description" --keywords "Multiple Keywords" {{input_file}} {{searchable.pdf}}`
 
 - Display help:
 
