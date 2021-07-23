@@ -56,18 +56,21 @@ Keep the following guidelines in mind when choosing tokens:
 
 ### Paths
 - Use `{{filename}}` rather than `{{file_name}}`.
-- For any reference to paths to files or directories, use the format `{{path/to/<placeholder>}}`.
-  For example, `ln -s {{path/to/file}} {{path/to/symlink}}`.
-  In case of a possible reference both to a file or a directory, use `{{path/to/file_or_directory}}`
-- Follow the `{{path/to/<placeholder>}}` convention for all path-related commands,
+- For any reference to paths to files or directories,
+  use the format `{{path/to/<placeholder>}}`,
   except when the file location is implicit.
-#### Extensions
+  For example, `ln -s {{path/to/file}} {{path/to/symlink}}`.
+  In case of a possible reference both to a file or a directory,
+  use `{{path/to/file_or_directory}}`
+
+Extensions
+
 - If a particular extension is expected for the file, append it.
   For example, `unrar x {{compressed.rar}}`.
 - In case a generic extension is needed, use `{{.ext}}`, but **only** if an extension is required.
-  For instance, in find.md's example "Find files by extension" (`find {{root_path}} -name '{{*.ext}}'`)
+  For instance, in `find.md`'s example "Find files by extension" (`find {{root_path}} -name '{{*.ext}}'`)
   using `{{*.ext}}` explains the command without being unnecessarily specific;
-  But in a command like `wc -l {{file}}` using `{{file}}` (without extension) is sufficient.
+  while in `wc -l {{file}}` using `{{file}}` (without extension) is sufficient.
 
 ### Special cases
 - If a command performs irreversible changes to a file system or devices,
