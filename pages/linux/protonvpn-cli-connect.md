@@ -15,11 +15,11 @@
 
 `protonvpn-cli connect {{server_name}} --protocol {{udp|tcp}}`
 
-- Connect to ProtonVPN using a random server and a specific protocol:
+- Connect to ProtonVPN using a random server with a specific protocol:
 
 `protonvpn-cli connect --random --protocol {{udp|tcp}}`
 
-- Connect to ProtonVPN using the fastest Tor server:
+- Connect to ProtonVPN using the fastest Tor-supporting server:
 
 `protonvpn-cli connect --tor`
 
