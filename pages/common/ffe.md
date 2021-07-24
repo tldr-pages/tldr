@@ -6,23 +6,23 @@
 
 - Display all input data using the specified data configuration:
 
-`ffe -c {{path/to/config}} {{path/to/input}}`
+`ffe --configuration={path/to/config.ffe}} {{path/to/input}}`
 
 - Convert an input file to an output file in a new format:
 
-`ffe -o {{path/to/output}} -c {{path/to/config}} {{path/to/input}}`
+`ffe --output={path/to/output}} -c {{path/to/config.ffe}} {{path/to/input}}`
 
-- Interpret input with a selected structure and write with a selected print format:
+- Select input structure and print format from definitions in ~/fferc config file:
 
-`ffe -s {{structure}} -p {{format}} -c {{path/to/config}} {{path/to/input}}`
+`ffe --structure={{structure}} --print={{format}} {{path/to/input}}`
 
 - Write only the selected fields:
 
-`ffe -f "{{FirstName,LastNAme,Age}}" -c {{path/to/config}} {{path/to/input}}`
+`ffe --field-list="{{FirstName,LastName,Age}}" -c {{path/to/config.ffe}} {{path/to/input}}`
 
 - Write only the records that match an expression:
 
-`ffe -e "{{LastName=Smith}}" -c {{path/to/config}} {{path/to/input}}`
+`ffe -e "{{LastName=Smith}}" -c {{path/to/config.ffe}} {{path/to/input}}`
 
 - Display help:
 
