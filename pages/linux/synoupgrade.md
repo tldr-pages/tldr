@@ -7,7 +7,7 @@
 
 `sudo synoupgrade --check`
 
-- Check for patches without upgrade the DSM version:
+- Check for patches without upgrading the DSM version:
 
 `sudo synoupgrade --check-smallupdate`
 
@@ -15,7 +15,7 @@
 
 `sudo synoupgrade --download`
 
-- Start upgrade process:
+- Start the upgrade process:
 
 `sudo synoupgrade --start`
 
@@ -23,7 +23,7 @@
 
 `sudo synoupgrade --auto`
 
-- Apply patches without upgrade the DSM version automatically:
+- Apply patches without upgrading the DSM version automatically:
 
 `sudo synoupgrade --auto-smallupdate`
 
