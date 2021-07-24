@@ -2,6 +2,7 @@
 
 > Upgrade a Synology DiskStation Manager (DSM) from the command-line.
 > More information: <https://www.synology.com/dsm>.
+
 - Check upgrades printing the result:
 
 `sudo synoupgrade --check`
