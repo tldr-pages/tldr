@@ -18,7 +18,7 @@
 
 - Write only the selected fields:
 
-`ffe --field-list="{{First_Name,Last_Name,Age}}" -c {{path/to/config.ffe}} {{path/to/input}}`
+`ffe --field-list="{{FirstName,LastName,Age}}" -c {{path/to/config.ffe}} {{path/to/input}}`
 
 - Write only the records that match an expression:
 
