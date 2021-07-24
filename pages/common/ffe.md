@@ -1,7 +1,7 @@
 # ffe
 
 > Extract fields from a flat database file and write to another format.
-> `ffe` needs a text config file to interpret the input and format the output.
+> A configuration file is required to interpret the input and format the output.
 > More information: <http://ff-extractor.sourceforge.net/ffe.html>.
 
 - Display all input data using the specified data configuration:
