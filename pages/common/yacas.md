@@ -10,7 +10,6 @@
 - In the console session, execute a statement:
 
 `In> {{Integrate(x)Cos(x)}};`
-`Out> {{Sin(x)}}`
 
 - In the console session, display an example:
 
@@ -19,7 +18,6 @@
 - Quit from the console session:
 
 `In> quit`
-`Quitting...`
 
 - Execute a yacas script, then exit:
 
