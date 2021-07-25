@@ -17,7 +17,7 @@
 
 - Quit from the console session:
 
-`In> {{gquit}}`
+`In> {{quit}}`
 
 - Execute one or more yacas scripts, then exit:
 
