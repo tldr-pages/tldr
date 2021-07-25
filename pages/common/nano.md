@@ -23,6 +23,6 @@
 
 `nano --autoindent {{path/to/file}}`
 
-- Open nano and create a backup file (`file~`) if edits are saved:
+- Open nano and create a backup file (`file~`) when saving edits:
 
 `nano --backup {{path/to/file}}`
