@@ -19,10 +19,10 @@
 
 `In> {{gquit}}`
 
-- Execute a yacas script, then exit:
+- Execute one or more yacas scripts, then exit:
 
-`yacas -pc {{path/to/script}}`
+`yacas -pc {{path/to/script1}} {{path/to/script2}}`
 
-- Execute and print the result of one statement:
+- Execute and print the result of one statement, then exit:
 
-`echo "Echo( {{Deriv(x)Cos(1/x)}} );" | yacas -pc /dev/stdin`
+`echo "{{Echo( Deriv(x)Cos(1/x) );}}" | yacas -pc /dev/stdin`
