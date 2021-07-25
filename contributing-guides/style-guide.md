@@ -90,4 +90,4 @@ The example above does not use a serial comma, so this could mean one of two thi
 
 This can be resolved by inserting a comma before the "and" or "or" in the final element in the list.
 
-> Delete Git branches, tags, and remotes.
+> Delete the Git branches, tags, and remotes.
