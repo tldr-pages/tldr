@@ -9,15 +9,15 @@
 
 - In the console session, execute a statement:
 
-`In> {{Integrate(x)Cos(x)}};`
+`In> {{Integrate(x)Cos(x);}}`
 
 - In the console session, display an example:
 
-`In> Example();`
+`In> {{Example();}}`
 
 - Quit from the console session:
 
-`In> quit`
+`In> {{gquit}}`
 
 - Execute a yacas script, then exit:
 
