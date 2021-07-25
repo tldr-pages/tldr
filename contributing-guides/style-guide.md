@@ -78,7 +78,7 @@ Use backticks on the following:
 3. Commands, ex. `ls`.
 
 ## Serial Comma
-When declaring a list of items with 3 or more elements, use a [serial comma](https://en.wikipedia.org/wiki/Serial_comma), also known as the Oxford comma.
+When declaring a list of 3 or more items, use a [serial comma](https://en.wikipedia.org/wiki/Serial_comma), also known as the Oxford comma.
 
 When the serial comma is ommitted, it can create ambiguity.
 
