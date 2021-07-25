@@ -1,7 +1,7 @@
 # vim
 
 > Vim (Vi IMproved), a command-line text editor, provides several modes for different kinds of text manipulation.
-> Pressing `i` enters insert mode. `<Esc>` enables the use of Vim commands.
+> Pressing `i` enters insert mode. `<Esc>` enters normal mode, which enables the use of Vim commands.
 > More information: <https://www.vim.org>.
 
 - Open a file:
