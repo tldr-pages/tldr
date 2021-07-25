@@ -3,11 +3,11 @@
 > Package management utility for Synology DiskStation Manager.
 > More information: <https://www.synology.com/dsm>.
 
-- List installed packages without description:
+- List installed packages without a description:
 
 `synopkg list --name`
 
-- List packages depend on a specific package:
+- List packages which depend on a specific package:
 
 `synopkg list --depend-on {{package}}`
 
@@ -23,7 +23,7 @@
 
 `sudo synopkg uninstall {{package}}`
 
-- Check if a package is updateable:
+- Check if a package is updatable:
 
 `synopkg checkupdate {{package}}`
 
