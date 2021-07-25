@@ -25,4 +25,4 @@
 
 - List remotes:
 
-`conan remote --list`
+`conan remote list`
