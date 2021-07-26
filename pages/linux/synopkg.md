@@ -3,7 +3,7 @@
 > Package management utility for Synology DiskStation Manager.
 > More information: <https://www.synology.com/dsm>.
 
-- List installed packages without a description:
+- List the names of installed packages:
 
 `synopkg list --name`
 
