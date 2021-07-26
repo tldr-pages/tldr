@@ -1,6 +1,7 @@
 # jhat
 
 > Java Heap Analysis Tool.
+> More information: <https://docs.oracle.com/javase/8/docs/technotes/tools/unix/jhat.html>.
 
 - Analyze a heap dump (from jmap), view via http on port 7000:
 
