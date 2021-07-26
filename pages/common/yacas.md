@@ -3,23 +3,23 @@
 > Yet Another Computer Algebra System.
 > More information: <http://www.yacas.org>.
 
-- Start an interactive console session:
+- Start an interactive `yacas` session:
 
 `yacas`
 
-- In the console session, execute a statement:
+- In the `yacas` session, execute a statement:
 
 `In> {{Integrate(x)Cos(x);}}`
 
-- In the console session, display an example:
+- In the `yacas` session, display an example:
 
 `In> {{Example();}}`
 
-- Quit from the console session:
+- Quit from the `yacas` session:
 
 `In> {{quit}}`
 
-- Execute one or more yacas scripts (without terminal or prompts), then exit:
+- Execute one or more `yacas` scripts (without terminal or prompts), then exit:
 
 `yacas -p -c {{path/to/script1}} {{path/to/script2}}`
 
