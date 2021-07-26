@@ -27,7 +27,7 @@
 
 `synopkg checkupdate {{package}}`
 
-- Upgrade all packages to latest version:
+- Upgrade all packages to the latest version:
 
 `sudo synopkg upgradeall`
 
