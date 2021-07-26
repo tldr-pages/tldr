@@ -19,10 +19,10 @@
 
 `In> {{quit}}`
 
-- Execute one or more yacas scripts, then exit:
+- Execute one or more yacas scripts (without terminal or prompts), then exit:
 
-`yacas -pc {{path/to/script1}} {{path/to/script2}}`
+`yacas -p -c {{path/to/script1}} {{path/to/script2}}`
 
 - Execute and print the result of one statement, then exit:
 
-`echo "{{Echo( Deriv(x)Cos(1/x) );}}" | yacas -pc /dev/stdin`
+`echo "{{Echo( Deriv(x)Cos(1/x) );}}" | yacas -p -c /dev/stdin`
