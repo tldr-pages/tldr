@@ -31,6 +31,6 @@
 
 `sudo synopkg upgradeall`
 
-- Install a package from file:
+- Install a package from a synopkg file:
 
 `sudo synopkg install {{path/to/package.spk}}`
