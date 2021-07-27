@@ -23,7 +23,7 @@
 
 `sudo synopkg uninstall {{package}}`
 
-- Check if a package is updatable:
+- Check if updates are available for a package:
 
 `synopkg checkupdate {{package}}`
 
