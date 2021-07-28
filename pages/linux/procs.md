@@ -1,8 +1,8 @@
 # procs
 
-> procs displays information about the active processes.
-> It can be a used as ps or top alternative
-> More information: <https://github.com/dalance/procs>
+> Displays information about the active processes.
+> It can be a used as ps or top alternative.
+> More information: <https://github.com/dalance/procs>.
 
 - Show information about all the processes:
 
@@ -12,9 +12,9 @@
 
 `procs {{zsh}}`
 
-- Show information about all processes sorted in [d]escending order by `cpu` time:
+- Show information about all processes sorted by CPU time in [d]escending or [a]scending order:
 
-`procs --sortd cpu`
+`procs --sort{{d}}|--sort{{a}} cpu`
 
 - Show information about processes with pid `41` or (command or user) containing (`zsh` `or` `firefox`):
 
@@ -23,4 +23,3 @@
 - Show information about processes with pid `41` and (command or user) containing `zsh`:
 
 `procs --and {{41}} {{zsh}}`
-
