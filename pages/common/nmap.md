@@ -8,7 +8,7 @@
 
 `nmap -O {{ip_or_hostname}}`
 
-- Try to determine whether the specified hosts are up and what are their names:
+- Try to determine whether the specified hosts are up and what their names are:
 
 `nmap -sn {{ip_or_hostname}} {{optional_another_address}}`
 
