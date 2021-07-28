@@ -4,7 +4,7 @@
 > It can be a used as ps or top alternative.
 > More information: <https://github.com/dalance/procs>.
 
-- Show information about all the processes:
+- Show information like pid, user, cpu usage, memory usage, command which started them about all the processes:
 
 `procs`
 
