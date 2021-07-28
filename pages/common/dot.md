@@ -1,12 +1,24 @@
 # dot
 
-> A command-line tool to produce layered drawings of directed graphs.
-> More information: <https://www.graphviz.org/pdf/dotguide.pdf>.
+> Render an image of a _linear directed_ network graph from a `graphviz` file.
+> More information: http://graphviz.org/doc/info/command.html.
 
-- Render an image file and determine output filename based on input filename and selected format:
+- Render a 'png' image with a filename based on the input filename and output format:
 
-`dot -Tpng -O {{path/to/file.dot}}`
+`dot -Tpng -O {{path/to/input.gv}}`
 
-- Create an SVG from DOT file:
+- Render a `svg` image with the specified output filename:
 
-`dot -Tsvg -o {{path/to/out_file.svg}} {{path/to/file.dot}}`
+`dot -Tsvg -o {{path/to/image.svg}} {{path/to/input.gv}}`
+
+- Render the output in `ps`, `pdf`, `svg`, `fig`, `png`, `gif`, `jpg`, `json`, or `dot` format:
+
+`dot -T{{format}} -O {{path/to/input.gv}}`
+
+- Render a `gif` image using `stdin` and `stdout`:
+
+`echo "{{digraph {this -> that} }}" | dot -Tgif > {{path/to/image.gif}}`
+
+- Display help:
+
+`dot -?`
