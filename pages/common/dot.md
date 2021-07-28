@@ -1,7 +1,7 @@
 # dot
 
 > Render an image of a _linear directed_ network graph from a `graphviz` file.
-> More information: http://graphviz.org/doc/info/command.html.
+> More information: <http://graphviz.org/doc/info/command.html>.
 
 - Render a 'png' image with a filename based on the input filename and output format:
 
