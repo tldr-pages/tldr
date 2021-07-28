@@ -28,6 +28,6 @@
 
 `rustup run {{toolchain_name}} cargo build`
 
-- Open the local rust documentation in your browser:
+- Open the local rust documentation in the system default browser:
 
 `rustup doc`
