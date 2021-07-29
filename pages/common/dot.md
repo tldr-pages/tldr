@@ -1,6 +1,6 @@
 # dot
 
-> Render an image of a _linear directed_ network graph from a `graphviz` file.
+> Render an image of a `linear directed` network graph from a `graphviz` file.
 > Layouts are `dot`, `neato`, `twopi`, `circo`, `fdp`, `sfdp`, `osage` & `patchwork`.
 > More information: <http://graphviz.org/doc/info/command.html>.
 
