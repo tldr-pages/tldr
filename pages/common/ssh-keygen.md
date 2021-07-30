@@ -8,11 +8,11 @@
 
 - Specify file in which to save the key:
 
-`ssh-keygen -f ~/.ssh/{{filename}}`
+`ssh-keygen -f {{~/.ssh/filename}}`
 
 - Generate an ed25519 key with 100 key derivation function rounds:
 
-`ssh-keygen -t ed25519 -a 100`
+`ssh-keygen -t {{ed25519}} -a {{100}}`
 
 - Generate an RSA 4096 bit key with email as a comment:
 
@@ -24,7 +24,7 @@
 
 - Retrieve the fingerprint of a key in MD5 Hex:
 
-`ssh-keygen -l -E md5 -f ~/.ssh/{{filename}}`
+`ssh-keygen -l -E {{md5}} -f {{~/.ssh/filename}}`
 
 - Change the password of a key:
 
