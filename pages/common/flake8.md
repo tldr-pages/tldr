@@ -7,14 +7,14 @@
 
 `flake8 {{path/to/file_or_directory}}`
 
-- Show source code for each error:
+- Show the line in which each error occured:
 
 `flake8 --show-source {{path/to/file_or_directory}}`
 
-- Ignore a list of rules:
+- Ignore a list of rules. (All available rules can be found at flake8rules.com):
 
 `flake8 --ignore {{rule1,rule2}} {{path/to/file_or_directory}}`
 
-- Exclude files matching the given patterns:
+- Exclude files matching the given globs or substrings:
 
-`flake8 --exclude {{pattern1,pattern2}} {{path/to/file_or_directory}}`
+`flake8 --exclude {{substring1,glob2}} {{path/to/file_or_directory}}`
