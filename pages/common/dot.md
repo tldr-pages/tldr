@@ -4,7 +4,7 @@
 > Layouts are `dot`, `neato`, `twopi`, `circo`, `fdp`, `sfdp`, `osage` & `patchwork`.
 > More information: <http://graphviz.org/doc/info/command.html>.
 
-- Render a 'png' image with a filename based on the input filename and output format:
+- Render a `png` image with a filename based on the input filename and output format:
 
 `dot -Tpng -O {{path/to/input.gv}}`
 
