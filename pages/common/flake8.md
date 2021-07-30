@@ -3,7 +3,7 @@
 > Tool to check the style and quality of Python code.
 > More information: <https://flake8.pycqa.org/>.
 
-- Lint a file or directory:
+- Lint a file or directory recursively:
 
 `flake8 {{path/to/file_or_directory}}`
 
