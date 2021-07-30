@@ -4,7 +4,7 @@
 > It can be a used as ps or top alternative.
 > More information: <https://github.com/dalance/procs>.
 
-- Show information like pid, user, cpu usage, memory usage, command which started them about all the processes:
+- List all processes with PID, user, CPU usage, memory usage and the command which started them:
 
 `procs`
 
@@ -16,10 +16,10 @@
 
 `procs --sort{{d}}|--sort{{a}} cpu`
 
-- Show information about processes with pid `41` or (command or user) containing (`zsh` `or` `firefox`):
+- Show information about processes with PID `41` or (command or user) containing (`zsh` `or` `firefox`):
 
 `procs --or {{zsh}} {{41}} {{firefox}}`
 
-- Show information about processes with pid `41` and (command or user) containing `zsh`:
+- Show information about processes with PID `41` and (command or user) containing `zsh`:
 
 `procs --and {{41}} {{zsh}}`
