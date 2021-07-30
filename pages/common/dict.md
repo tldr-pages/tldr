@@ -1,9 +1,10 @@
 # dict
 > dictd - Client/server software, human language dictionary databases,
-> and tools supporting the DICT protocol (RFC 2229)
+> and tools supporting the DICT protocol.
 > More information <https://github.com/cheusov/dictd>
 
 - List available databases
+
 `dict -D`
 
 - Get database information
