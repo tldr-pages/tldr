@@ -1,21 +1,27 @@
 # dict
-# dictd - Dictionary client
+> dictd - Client/server software, human language dictionary databases,
+> and tools supporting the DICT protocol (RFC 2229)
+> More information <https://github.com/cheusov/dictd>
 
-# List Available Databases
-dict -D
+- List available databases
+`dict -D`
 
-# Get Information about a Database
-dict -i
+- Get database information
 
-# Specify which database to use
-dict -d
+`dict -i {{database_name}}`
 
-# Look up for "use" in Moby-Thesaurus
-dict -d moby-thesaurus use
+- Look up word in database
 
-# Look up for "local" from all dictionaries in available databases
-dict local
+`dict -d {{database_name}} {{word}}`
 
-# A list of all the available dictionaries can be queried by executing.
-dict -I
+
+- Look up word in all available databases
+
+`dict {{word}}`
+
+- Show server info
+
+`dict -I`
+
+
 
