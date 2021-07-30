@@ -16,7 +16,7 @@
 
 - Generate an RSA 4096 bit key with email as a comment:
 
-`ssh-keygen -t rsa -b 4096 -C "{{email}}"`
+`ssh-keygen -t {{dsa|ecdsa|ed25519|rsa}} -b {{4096}} -C "{{comment|email}}"`
 
 - Remove the keys of a host from the known_hosts file (useful when a known host has a new key):
 
