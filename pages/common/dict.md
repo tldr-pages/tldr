@@ -1,7 +1,7 @@
 # dict
 > dictd - Client/server software, human language dictionary databases,
 > and tools supporting the DICT protocol.
-> More information <https://github.com/cheusov/dictd>
+> More information <https://github.com/cheusov/dictd>.
 
 - List available databases
 
