@@ -21,7 +21,7 @@
 
 - Display help about formatting JSON output from `gh` using `jq`:
 
-`gh formatting`
+`gh help formatting`
 
 - Display help about using `gh` with MinTTY:
 
