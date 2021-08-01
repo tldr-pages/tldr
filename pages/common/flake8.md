@@ -7,7 +7,7 @@
 
 `flake8 {{path/to/file_or_directory}}`
 
-- Show the line in which each error occured:
+- Show the line on which each error occurred:
 
 `flake8 --show-source {{path/to/file_or_directory}}`
 
