@@ -2,7 +2,7 @@
 
 > Render an image of a `linear directed` network graph from a `graphviz` file.
 > Layouts: `dot`, `neato`, `twopi`, `circo`, `fdp`, `sfdp`, `osage` & `patchwork`.
-> More information: <http://graphviz.org/doc/info/command.html>.
+> More information: <https://graphviz.org/doc/info/command.html>.
 
 - Render a `png` image with a filename based on the input filename and output format (uppercase -O):
 
