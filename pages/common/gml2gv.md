@@ -8,7 +8,7 @@
 
 `gml2gv -o output.gv input.gml`
 
-- Make same conversion using `stdin` and `stdout`:
+- Convert a graph using stdin and stdout:
 
 `cat input.gml | gml2gv > output.gv`
 
