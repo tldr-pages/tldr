@@ -3,11 +3,11 @@
 > Open a GitHub repository in the browser or print the URL.
 > More information: <https://cli.github.com/manual/gh_browse>.
 
-- Open the home page of the current repository in the default web browser:
+- Open the homepage of the current repository in the default web browser:
 
 `gh browse`
 
-- Open the home page of a specific repository in the default web browser:
+- Open the homepage of a specific repository in the default web browser:
 
 `gh browse {{owner}}/{{repository}}`
 
@@ -27,10 +27,10 @@
 
 `gh browse --branch {{branch_name}}`
 
-- Open a specific file or directory of the current repository in the web browser (the path should be relative to the repository):
+- Open a specific file or directory of the current repository in the web browser:
 
-`gh browse {{path/to/file_or_folder}}`
+`gh browse {{path_from_root_of_repository}}`
 
-- Display the destination URL without open the web browser:
+- Print the destination URL without open the web browser:
 
 `gh browse --no-browser`
