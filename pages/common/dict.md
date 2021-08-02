@@ -7,7 +7,7 @@
 
 `dict -D`
 
-- Get database information:
+- Get information about a database:
 
 `dict -i {{database_name}}`
 
