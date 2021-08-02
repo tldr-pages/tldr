@@ -1,6 +1,6 @@
 # dict
 
-> Client/server software, human language dictionary databases, and tools supporting the DICT protocol.
+> Command line dictionary, using DICT protocol
 > More information: <https://github.com/cheusov/dictd>.
 
 - List available databases:
