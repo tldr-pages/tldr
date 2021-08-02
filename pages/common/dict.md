@@ -19,6 +19,6 @@
 
 `dict {{word}}`
 
-- Show server info:
+- Show information about the DICT server:
 
 `dict -I`
