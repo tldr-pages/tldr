@@ -1,6 +1,6 @@
 # dict
 
-> Command line dictionary, using DICT protocol.
+> Command line dictionary using the DICT protocol.
 > More information: <https://github.com/cheusov/dictd>.
 
 - List available databases:
