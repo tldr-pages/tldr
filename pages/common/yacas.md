@@ -7,17 +7,17 @@
 
 `yacas`
 
-- In the `yacas` session, execute a statement:
+- While in a `yacas` session, execute a statement:
 
-`In> {{Integrate(x)Cos(x);}}`
+`{{Integrate(x)Cos(x)}};`
 
-- In the `yacas` session, display an example:
+- While in a `yacas` session, display an example:
 
-`In> {{Example();}}`
+`{{Example()}};`
 
-- Quit from the `yacas` session:
+- Quit from a `yacas` session:
 
-`In> {{quit}}`
+`{{quit}}`
 
 - Execute one or more `yacas` scripts (without terminal or prompts), then exit:
 
