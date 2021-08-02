@@ -15,7 +15,7 @@
 
 `dict -d {{database_name}} {{word}}`
 
-- Look up word in all available databases:
+- Look up a word in all available databases:
 
 `dict {{word}}`
 
