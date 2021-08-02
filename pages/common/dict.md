@@ -11,7 +11,7 @@
 
 `dict -i {{database_name}}`
 
-- Look up word in database:
+- Look up a word in a specific database:
 
 `dict -d {{database_name}} {{word}}`
 
