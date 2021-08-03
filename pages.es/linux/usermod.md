@@ -13,4 +13,4 @@
 
 - Crea un nuevo directorio home para un usuario y mueve sus archivos a él:
 
-`usermod -m -d {{ruta/a/home}} {{usuario}}`
+`usermod -m -d {{ruta/al/home}} {{usuario}}`
