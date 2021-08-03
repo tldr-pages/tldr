@@ -8,7 +8,7 @@
 
 `userdel {{nombre}}`
 
-- Elimina un usuario junto con su directorios home y mail spool:
+- Elimina un usuario junto con su directorio home y mail spool:
 
 `userdel --remove {{nombre}}`
 
