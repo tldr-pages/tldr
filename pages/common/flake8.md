@@ -7,14 +7,14 @@
 
 `flake8 {{path/to/file_or_directory}}`
 
-- Show the line on which each error occurred:
+- Lint a file or directory recursively and show the line on which each error occurred:
 
 `flake8 --show-source {{path/to/file_or_directory}}`
 
-- Ignore a list of rules. (All available rules can be found at flake8rules.com):
+- Lint a file or directory recursively and ignore a list of rules. (All available rules can be found at flake8rules.com):
 
 `flake8 --ignore {{rule1,rule2}} {{path/to/file_or_directory}}`
 
-- Exclude files matching the given globs or substrings:
+- Lint a file or directory recursively but exclude files matching the given globs or substrings:
 
 `flake8 --exclude {{substring1,glob2}} {{path/to/file_or_directory}}`
