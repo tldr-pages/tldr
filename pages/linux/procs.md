@@ -15,7 +15,7 @@
 
 `procs {{--sortd|--sorta}} cpu`
 
-- Show information about processes with either a PID, command, or user containing (`zsh` `or` `firefox`):
+- Show information about processes with either a PID, command, or user containing (`zsh` or `firefox`):
 
 `procs --or {{PID|command|user}} {{41}} {{firefox}}`
 
