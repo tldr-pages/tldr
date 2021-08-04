@@ -5,7 +5,7 @@
 
 - 安装 GRUB 到基于 BIOS 的系统：
 
-`grub-install --target={{i386-pc}} {{path/to/device}}`
+`grub-install --target={{i386-pc}} {{/dev/sdX}}`
 
 - 安装 GRUB 到基于 UEFI 的系统：
 
