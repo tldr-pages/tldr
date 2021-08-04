@@ -5,12 +5,12 @@
 
 - Open a file:
 
-`openscad {{button.scad}}`
+`openscad {{path/to/button.scad}}`
 
 - Convert a file to STL:
 
-`openscad -o {{button.stl}} {{button.scad}}`
+`openscad -o {{path/to/button.stl}} {{path/to/button.scad}}`
 
 - Render a file to PNG in a specific colorscheme:
 
-`openscad -o {{button.png}} --colorscheme {{Sunset}} {{button.scad}}`
+`openscad -o {{path/to/button.png}} --colorscheme {{Sunset}} {{path/to/button.scad}}`
