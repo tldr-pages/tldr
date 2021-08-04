@@ -1,10 +1,9 @@
 # procs
 
-> Displays information about the active processes.
-> It can be a used as ps or top alternative.
+> Display information about the active processes.
 > More information: <https://github.com/dalance/procs>.
 
-- List all processes with PID, user, CPU usage, memory usage and the command which started them:
+- List all processes showing the PID, user, CPU usage, memory usage, and the command which started them:
 
 `procs`
 
@@ -12,14 +11,14 @@
 
 `procs {{zsh}}`
 
-- Show information about all processes sorted by CPU time in [d]escending or [a]scending order:
+- Show information about all processes sorted by CPU time in [a]scending or [d]escending order:
 
-`procs --sort{{d}}|--sort{{a}} cpu`
+`procs {{--sortd|--sorta}} cpu`
 
-- Show information about processes with PID `41` or (command or user) containing (`zsh` `or` `firefox`):
+- Show information about processes with either a PID, command, or user containing (`zsh` `or` `firefox`):
 
-`procs --or {{zsh}} {{41}} {{firefox}}`
+`procs --or {{PID|command|user}} {{41}} {{firefox}}`
 
-- Show information about processes with PID `41` and (command or user) containing `zsh`:
+- Show information about processes with both PID `41` and a command or user containing `zsh`:
 
 `procs --and {{41}} {{zsh}}`
