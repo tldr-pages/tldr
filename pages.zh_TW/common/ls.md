@@ -1,7 +1,7 @@
 # ls
 
 > 列出目錄內容。
-> 更多資訊： <https://www.gnu.org/software/coreutils/ls>.
+> 更多資訊：<https://www.gnu.org/software/coreutils/ls>.
 
 - 列出目錄中的檔案，其中每個檔案佔一行：
 

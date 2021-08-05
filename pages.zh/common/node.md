@@ -1,7 +1,7 @@
 # node
 
 > 服务器后端 JavaScript 平台（Node.js）。
-> 更多信息： <https://nodejs.org>.
+> 更多信息：<https://nodejs.org>.
 
 - 运行一个 JavaScript 文件：
 

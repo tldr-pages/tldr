@@ -2,7 +2,7 @@
 
 > GNU Privacy Guard 2.
 > GNU Privacy Guard 1 请参见`gpg`.
-> 更多信息： <https://docs.releng.linuxfoundation.org/en/latest/gpg.html>.
+> 更多信息：<https://docs.releng.linuxfoundation.org/en/latest/gpg.html>.
 
 - 列出导入的密钥（公钥）：
 

@@ -1,7 +1,7 @@
 # apt-mark
 
 > 修改已安装软件包状态的工具。
-> 更多信息： <https://manpages.debian.org/latest/apt/apt-mark.8.html>.
+> 更多信息：<https://manpages.debian.org/latest/apt/apt-mark.8.html>.
 
 - 将一个软件包标记为自动安装：
 

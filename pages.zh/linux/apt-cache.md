@@ -1,7 +1,7 @@
 # apt-cache
 
 > Debian 和 Ubuntu 的包查询工具。
-> 更多信息： <https://manpages.debian.org/latest/apt/apt-cache.8.html>.
+> 更多信息：<https://manpages.debian.org/latest/apt/apt-cache.8.html>.
 
 - 在当前的软件源中查找一个软件包：
 

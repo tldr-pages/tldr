@@ -1,7 +1,7 @@
 # adduser
 
 > 添加用户的工具。
-> 更多信息： <https://manpages.debian.org/latest/adduser/adduser.html>.
+> 更多信息：<https://manpages.debian.org/latest/adduser/adduser.html>.
 
 - 创建一个新用户，在默认路径创建 home 目录，并提示用户设置密码：
 

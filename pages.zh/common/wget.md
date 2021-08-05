@@ -2,7 +2,7 @@
 
 > 从网络上下载文件。
 > 支持 HTTP, HTTPS, 和 FTP.
-> 更多信息： <https://www.gnu.org/software/wget>.
+> 更多信息：<https://www.gnu.org/software/wget>.
 
 - 将该 URL 的内容下载到文件中（在这个例子中文件名为 "foo"）：
 

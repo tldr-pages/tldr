@@ -1,7 +1,7 @@
 # runsv
 
 > 启动和管理 runit 服务。
-> 更多信息： <https://manpages.ubuntu.com/manpages/latest/man8/runsv.8.html>.
+> 更多信息：<https://manpages.ubuntu.com/manpages/latest/man8/runsv.8.html>.
 
 - 以当前用户身份启动 runit 服务：
 

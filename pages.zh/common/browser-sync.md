@@ -1,7 +1,7 @@
 # browser-sync
 
 > 启动一个本地的服务，可以监听文件改动，刷新浏览器。
-> 更多信息： <https://browsersync.io/docs/command-line>.
+> 更多信息：<https://browsersync.io/docs/command-line>.
 
 - 将指定目录发成服务：
 
