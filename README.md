@@ -79,6 +79,7 @@ both for the command-line and for other platforms:
   - [tldr-sh-client](https://github.com/raylee/tldr-sh-client)
   - [tldr-bash-client](https://gitlab.com/pepa65/tldr-bash-client)
 - [C# client](https://github.com/principis/tldr-sharp)
+- [C++ client](https://github.com/marchersimon/tldr-cpp)
 - [C client](https://github.com/tldr-pages/tldr-c-client):
   `brew install tldr`
 - [Chrome Extension](https://github.com/hill/tldr-chrome) available on
