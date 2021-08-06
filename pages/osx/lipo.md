@@ -1,6 +1,6 @@
 # lipo
 
-> Tool for handling Mach-O Universal Binaries
+> Tool for handling Mach-O Universal Binaries.
 
 - Create a universal file from two single-architecture files:
 
