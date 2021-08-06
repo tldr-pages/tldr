@@ -7,7 +7,7 @@
 
 `procs`
 
-- Show information about process with command or user containg `zsh`:
+- Show information about processes, if the commands which started them contain `zsh`:
 
 `procs {{zsh}}`
 
