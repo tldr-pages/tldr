@@ -16,4 +16,4 @@
 
 - Extract a single-architecture file from a universal file:
 
-`lipo {{path/to/binary}} -thin arm64e -output {{path/to/binary.arm64e}}`
+`lipo {{path/to/binary}} -thin {{arm64e}} -output {{path/to/binary.arm64e}}`
