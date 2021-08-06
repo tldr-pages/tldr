@@ -18,3 +18,12 @@
 - Display help for a subcommand:
 
 `nmcli {{subcommand}} --help`
+
+- Displays a table of available wifi access points:
+
+`nmcli dev wifi`
+
+- Connect to a WiFi network:
+
+`nmcli device wifi connect {{SSID}} password {{PASSWORD}}`
+
