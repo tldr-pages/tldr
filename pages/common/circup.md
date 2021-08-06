@@ -19,6 +19,6 @@
 
 `circup freeze`
 
-- Save all libraries on a connected device in current directory:
+- Save all libraries on a connected device in the current directory:
 
 `circup freeze -r`
