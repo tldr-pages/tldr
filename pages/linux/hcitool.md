@@ -15,14 +15,6 @@
 
 `hcitool info {{bdaddr}}`
 
-- Display active connections:
-
-`hcitool con`
-
-- Create connections:
-
-`hcitool cc {{bdaddr}}`
-
 - Check link quality:
 
 `hcitool lq {{bdaddr}}`
@@ -42,7 +34,3 @@
 - Display local devices:
 
 `hcitool dev`
-
-- Submit arbitrary HCI commands:
-
-`hcitool cmd {{parameters}}`
