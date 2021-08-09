@@ -1,0 +1,19 @@
+# log
+
+> View system wide log messages
+
+- Stream live system logs
+
+`log stream`
+
+- Stream logs sent to syslog for PID 235:
+
+`log stream --process {{235}}`
+
+- Show logs sent to syslog for process named 'dasd':
+
+`log show --predicate "process == '{{dasd}}'"`
+
+- Dump all logs for the past hour:
+
+`sudo log collect --last {{1h}}`
