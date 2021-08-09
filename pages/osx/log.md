@@ -1,8 +1,9 @@
 # log
 
-> View system wide log messages
+> View, export, and configure logging systems.
+> More information: <https://www.dssw.co.uk/reference/log.html>.
 
-- Stream live system logs
+- Stream live system logs:
 
 `log stream`
 
