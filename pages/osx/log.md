@@ -7,7 +7,7 @@
 
 `log stream`
 
-- Stream logs sent to syslog for PID 235:
+- Stream logs sent to syslog from the process with a specific PID:
 
 `log stream --process {{235}}`
 
