@@ -11,7 +11,7 @@
 
 `log stream --process {{235}}`
 
-- Show logs sent to syslog for process named 'dasd':
+- Show logs sent to syslog from a process with a specific name:
 
 `log show --predicate "process == '{{dasd}}'"`
 
