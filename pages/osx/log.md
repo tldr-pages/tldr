@@ -15,6 +15,6 @@
 
 `log show --predicate "process == '{{dasd}}'"`
 
-- Dump all logs for the past hour:
+- Export all logs to disk for the past hour:
 
 `sudo log collect --last {{1h}}`
