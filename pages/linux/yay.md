@@ -28,7 +28,7 @@
 
 `yay -Ss {{keyword}}`
 
-- Remove orphan packages:
+- Remove orphan packages (installed as dependencies but not required by any package):
 
 `yay -Yc`
 
