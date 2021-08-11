@@ -7,8 +7,9 @@
 
 `mkdir {{directory}}`
 
-- Create multiple directories in current directory with one command:
-`mkdir folder1 folder2`
+- Create multiple directories in current directory:
+
+`mkdir {{directory_1 directory_2 ...}}`
 
 - Create directories recursively (useful for creating nested dirs):
 
