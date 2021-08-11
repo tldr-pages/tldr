@@ -28,7 +28,7 @@
 
 `yay -Ss {{keyword}}`
 
-- Remove orphan packages
+- Remove orphan packages:
 
 `yay -Yc`
 
