@@ -15,9 +15,9 @@
 
 `git push {{remote_name}} -u {{remote_branch}}`
 
-- Publish a particular local branch t oa remote repository, setting the remote branch name:
+- Publish a particular local branch to a remote repository, setting the remote branch name:
 
-`git push {{remote-name}} {{local_branch}}:{{remote_branch}}`
+`git push {{remote_name}} {{local_branch}}:{{remote_branch}}`
 
 - Send changes on all local branches to their counterparts in a given remote repository:
 
