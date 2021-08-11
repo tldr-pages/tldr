@@ -28,6 +28,10 @@
 
 `yay -Ss {{keyword}}`
 
+- Remove orphan packages
+
+`yay -Yc`
+
 - Show statistics for installed packages and system health:
 
 `yay -Ps`
