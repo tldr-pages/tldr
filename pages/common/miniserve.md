@@ -10,7 +10,7 @@
 
 - Serve a single file:
 
-`miniserve {{path/to/source_file}}`
+`miniserve {{path/to/file}}`
 
 - Serve a directory using HTTP basic authentication:
 
