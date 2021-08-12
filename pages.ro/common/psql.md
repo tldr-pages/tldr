@@ -3,7 +3,7 @@
 > Client de linie de comandă PostgreSQL.
 > Mai multe informaţii: <https://www.postgresql.org/docs/current/app-psql.html>
 
-Conectează-te la baza de date. Se conectează la localhost utilizând portul implicit 5432 cu utilizatorul implicit ca utilizator conectat în prezent:
+- Conectează-te la baza de date. Se conectează la localhost utilizând portul implicit 5432 cu utilizatorul implicit ca utilizator conectat în prezent:
 
 `psql {{database}}`
 

@@ -3,7 +3,7 @@
 > Comanda funcționează pe cutia poștală a utilizatorului dacă nu este dat niciun argument.
 > Pentru a trimite un e-mail, corpul mesajului este construit din intrarea standard.
 
-- Trimite un mesaj de e-mail tastat. Linia de comandă de mai jos continuă după apăsarea tastei Enter. Id-ul de e-mail de intrare CC (opțional) apăsați tasta Enter. Textul mesajului de intrare (poate fi multilin). Apăsați tasta Ctrl-D pentru a finaliza textul mesajului:
+- Trimite un mesaj e-mail de la tastatura. Linia de comandă de mai jos continuă după apăsarea tastei Enter. Textul mesajului se poate întinde pe mai multe linii. Apăsați tasta Ctrl-D pentru a finaliza textul mesajului:
 
 `mail --subject="{{subject line}}" {{to_user@example.com}}`
 
