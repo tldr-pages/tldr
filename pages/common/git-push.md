@@ -15,7 +15,7 @@
 
 `git push {{remote_name}} -u {{remote_branch}}`
 
-- Send changes in a given local branch to the named repository's specified remote branch
+- Send changes in a given local branch to the named repository's specified remote branch:
 
 `git push {{remote_name}} {{local_branch}}:{{remote_branch}}`
 
