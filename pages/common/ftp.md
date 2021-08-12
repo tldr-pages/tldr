@@ -1,6 +1,7 @@
 # ftp
 
 > Tools to interact with a server via File Transfer Protocol.
+> More information: <https://www.tutorialspoint.com/unix_commands/ftp.htm>.
 
 - Connect to an FTP server:
 
