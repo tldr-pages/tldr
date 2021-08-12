@@ -12,6 +12,6 @@
 
 `miniserve {{path/to/source_file}}`
 
-- Require username/password:
+- Serve a directory using HTTP basic authentication:
 
 `miniserve --auth {{username}}:{{password}} {{path/to/directory}}`
