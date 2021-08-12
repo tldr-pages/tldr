@@ -2,6 +2,7 @@
 
 > Simple shell conditional.
 > See also: `test`, `[`.
+> More information: <https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_07_01.html>.
 
 - Execute two different commands based on a condition:
 
