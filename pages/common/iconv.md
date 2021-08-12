@@ -1,6 +1,7 @@
 # iconv
 
 > Converts text from one encoding to another.
+> More information: <https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/iconv>.
 
 - Convert file to a specific encoding, and print to stdout:
 
