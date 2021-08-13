@@ -75,7 +75,7 @@
 
  1. Pfade, wie `package.json`, `/etc/package.json`.
  2. Dateiendungen, wie `.dll`.
- 3. Kommandos, wie `ls`.
+ 3. Befehle, wie `ls`.
 
  ## Serial Comma
 
