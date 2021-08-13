@@ -56,7 +56,7 @@
     Nutze für Platzhalter, die ein Pfad zu einer Datei oder einem Verzeichnis sein können `{{path/to/file_or_directory}}`
  5. Folge der `{{path/to/<Platzhalter>}}`-Konvention für alle Pfad-bezogenen Kommandos, außer wenn der
     Ort der Datei implizit ist.
- 6. Wenn ein Kommando eine bestimmte Dateiendung erwartet, nutze sie.
+ 6. Wenn ein Befehl eine bestimmte Dateiendung erwartet, nutze sie.
     Beispiel: `unrar x {{compressed.rar}}`.
     Für eine generelle Dateiendung, nutze `{{.ext}}`, aber **nur**, wenn eine Endung wirklich nötig ist.
     Beispielsweise, in find.md's Beispiel "Find files by extension" (`find {{root_path}} -name '{{*.ext}}'`)
