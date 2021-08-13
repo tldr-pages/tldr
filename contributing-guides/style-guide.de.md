@@ -65,7 +65,7 @@
  7. Wenn das Beispiel mit einem konkreten Wert klarer ist, nutze einen Beispielwert.
     Nutze beispielsweise `iostat {{2}}` statt `iostat {{interval_in_secs}}`.
  8. Wenn ein Kommando irreversible Änderungen am Dateisystem oder Geräten vornimmt, schreibe jedes Beispiel so, dass es nicht blind copy-pastet werden kann.
-    Schreibe beispielsweise statt `ddrescue --force --no-scrape /dev/sda /dev/sdb` `ddrescue --force --no-scrape {{/dev/sdX}} {{/dev/sdY}}` und nutze den `{{/dev/sdXY}}`-Platzhalter für *block devices* statt `/dev/sda1`.
+    Schreibe beispielsweise `ddrescue --force --no-scrape {{/dev/sdX}} {{/dev/sdY}}` statt  `ddrescue --force --no-scrape /dev/sda /dev/sdb`und nutze den `{{/dev/sdXY}}`-Platzhalter statt `/dev/sda1` für *blockgeräte*.
 
  Generell sollten Tokens es so intuitiv wie möglich machen,
  herauszufinden, wie das Kommando funktioniert und sie mit Werten auszufüllen.
