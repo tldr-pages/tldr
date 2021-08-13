@@ -4,7 +4,7 @@ which aws shyaml &>/dev/null || { echo "no aws or shyaml tools, exiting"; exit 1
 
 # default ro
 lang=${1:-ro}
-# and from scripts
+# default pages
 path=${2:-pages}
 
 echo "running $0 $lang $path"
