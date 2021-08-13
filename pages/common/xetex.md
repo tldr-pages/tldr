@@ -11,6 +11,6 @@
 
 `xetex -output-directory={{path/to/directory}} {{source.tex}}`
 
-- Compile a PDF document, halting on each error:
+- Compile a PDF document, exiting if errors occur:
 
 `xetex -halt-on-error {{source.tex}}`
