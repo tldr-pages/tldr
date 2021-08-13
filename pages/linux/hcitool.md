@@ -15,7 +15,7 @@
 
 `hcitool info {{bdaddr}}`
 
-- Check link quality:
+- Check the link quality to a Bluetooth device:
 
 `hcitool lq {{bdaddr}}`
 
