@@ -7,10 +7,6 @@
 
 `moe {{path/to/file}}`
 
-- Save and Quit:
-
-`Ctrl + X`
-
 - Open a file as read-only:
 
 `moe -o {{path/to/file}}`
@@ -18,3 +14,7 @@
 - Edit a file without creating backups, and ignoring case in searches:
 
 `moe -B -i {{path/to/file}}`
+
+- Save and Quit:
+
+`Ctrl + X`
