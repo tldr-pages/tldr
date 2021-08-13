@@ -10,7 +10,7 @@
  # kommando-name
 
  > Kurze Beschreibung.
- > Möglichst nur eine; wenn nötig, sind zwei akzeptabel.
+ > Möglichst nur eine Zeile; wenn nötig, sind zwei akzeptabel.
  > More information: <https://example.com>.
 
  - Beispielbeschreibung:
