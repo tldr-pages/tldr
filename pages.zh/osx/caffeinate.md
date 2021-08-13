@@ -1,6 +1,7 @@
 # caffeinate
 
 > 防止 Mac 进入休眠模式。
+> 更多信息：<https://ss64.com/osx/caffeinate.html>.
 
 - 防止进入休眠模式 , 1 小时内（3600 秒）：
 
