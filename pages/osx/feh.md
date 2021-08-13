@@ -1,6 +1,7 @@
 # feh
 
 > Lightweight image viewing utility.
+> More information: <https://linux.die.net/man/1/feh>.
 
 - View images locally or using a URL:
 
