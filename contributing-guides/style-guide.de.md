@@ -31,7 +31,7 @@
  tldrl -f {{seite.md}}
  ```
 
- Für andere Optionen von `tldrl`, wie linten eines ganzen Ordners:
+ Für andere Optionen von `tldrl`, wie zum Beispiel das Linten eines ganzen Verzeichnisses:
  [`tldr tldrl`](https://github.com/tldr-pages/tldr/blob/main/pages/common/tldrl.md)
 
  Viele Clients unterstützen die `--render` Flag zum Anzeigen einer Seite:
