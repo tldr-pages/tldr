@@ -25,4 +25,4 @@
 
 - Compile a Dart file to a native binary:
 
-`dart compile exe {{path/to/file.dart}}
+`dart compile exe {{path/to/file.dart}}`
