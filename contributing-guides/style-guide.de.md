@@ -53,7 +53,7 @@
  3. Nutze `{{filename}}` statt `{{file_name}}`.
  4. Nutze für Referenzen auf Pfade von Dateien oder Ordnern das Format `{{path/to/<Platzhalter>}}`.
     Beispielsweise `ln -s {{path/to/file}} {{path/to/symlink}}`.
-    Nutze für eine Lücke, in die Dateien und Ordner passen `{{path/to/file_or_directory}}`
+    Nutze für Platzhalter, die ein Pfad zu einer Datei oder einem Verzeichnis sein können `{{path/to/file_or_directory}}`
  5. Folge der `{{path/to/<Platzhalter>}}`-Konvention für alle Pfad-bezogenen Kommandos, außer wenn der
     Ort der Datei implizit ist.
  6. Wenn ein Kommando eine bestimmte Dateiendung erwartet, nutze sie.
