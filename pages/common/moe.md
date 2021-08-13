@@ -11,9 +11,13 @@
 
 `moe --read-only {{path/to/file}}`
 
-- Edit a file without creating backups, and ignoring case in searches:
+- Edit a file without creating backups:
 
-`moe -B -i {{path/to/file}}`
+`moe -B {{path/to/file}}`
+
+- Edit a file ignoring case in searches:
+
+`moe -i {{path/to/file}}`
 
 - Save and Quit:
 
