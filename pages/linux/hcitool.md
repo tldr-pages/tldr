@@ -7,7 +7,7 @@
 
 `hcitool scan`
 
-- Output name of the device with its mac address:
+- Output the name of a device specifying its MAC address:
 
 `hcitool name {{bdaddr}}`
 
