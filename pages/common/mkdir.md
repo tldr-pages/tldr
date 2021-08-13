@@ -7,7 +7,7 @@
 
 `mkdir {{directory}}`
 
-- Create multiple directories in current directory:
+- Create multiple directories in the current directory:
 
 `mkdir {{directory_1 directory_2 ...}}`
 
