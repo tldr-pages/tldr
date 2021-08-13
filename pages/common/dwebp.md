@@ -27,4 +27,3 @@
 - Convert a `webp` file and don't use in-loop filtering to speed up the decoding process:
 
 `dwebp {{path/to/input.webp}} -o {{path/to/output.png}} -nofilter`
-
