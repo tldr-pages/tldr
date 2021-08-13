@@ -7,7 +7,7 @@
  Eine Standard-`tldr`-Seite sollte dem folgenden Format entsprechen:
 
  ```
- # kommando-name
+ # befehl
 
  > Kurze Beschreibung.
  > Möglichst nur eine Zeile; wenn nötig, sind zwei akzeptabel.
@@ -15,11 +15,11 @@
 
  - Beispielbeschreibung:
 
- `kommando -opt1 -opt2 -arg1 {{arg_wert}}`
+ `befehl -opt1 -opt2 -arg1 {{arg_wert}}`
 
  - Beispielbeschreibung:
 
- `kommando -opt1 -opt2`
+ `befehl -opt1 -opt2`
  ```
 
  Es gibt einen Linter, der das obige Format prüft.
@@ -54,7 +54,7 @@
  4. Nutze für Referenzen auf Pfade von Dateien oder Ordnern das Format `{{path/to/<Platzhalter>}}`.
     Beispielsweise `ln -s {{path/to/file}} {{path/to/symlink}}`.
     Nutze für Platzhalter, die ein Pfad zu einer Datei oder einem Verzeichnis sein können `{{path/to/file_or_directory}}`
- 5. Folge der `{{path/to/<Platzhalter>}}`-Konvention für alle Pfad-bezogenen Kommandos, außer wenn der
+ 5. Folge der `{{path/to/<Platzhalter>}}`-Konvention für alle Pfad-bezogenen Befehle, außer wenn der
     Ort der Datei implizit ist.
  6. Wenn ein Befehl eine bestimmte Dateiendung erwartet, nutze sie.
     Beispiel: `unrar x {{compressed.rar}}`.
@@ -64,11 +64,11 @@
     Aber in einem Befehl wie `wc -l {{file}}`, genügt `{{file}}` (ohne Endung).
  7. Wenn das Beispiel mit einem konkreten Wert klarer ist, nutze einen Beispielwert.
     Nutze beispielsweise `iostat {{2}}` statt `iostat {{interval_in_secs}}`.
- 8. Wenn ein Kommando irreversible Änderungen am Dateisystem oder Geräten vornimmt, schreibe jedes Beispiel so, dass es nicht blind copy-pastet werden kann.
+ 8. Wenn ein Befehl irreversible Änderungen am Dateisystem oder Geräten vornimmt, schreibe jedes Beispiel so, dass es nicht blind copy-pastet werden kann.
     Schreibe beispielsweise `ddrescue --force --no-scrape {{/dev/sdX}} {{/dev/sdY}}` statt  `ddrescue --force --no-scrape /dev/sda /dev/sdb`und nutze den `{{/dev/sdXY}}`-Platzhalter statt `/dev/sda1` für *blockgeräte*.
 
  Generell sollten Tokens es so intuitiv wie möglich machen,
- herauszufinden, wie das Kommando funktioniert und sie mit Werten auszufüllen.
+ herauszufinden, wie der Befehl funktioniert und sie mit Werten auszufüllen.
 
  Technische Begriffe in der Beschreibung sollten die `Backtick`-Syntax (\`) benutzen.
  Nutze Backticks für Folgendes:
