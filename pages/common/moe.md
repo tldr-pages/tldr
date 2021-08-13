@@ -9,7 +9,7 @@
 
 - Open a file as read-only:
 
-`moe -o {{path/to/file}}`
+`moe --read-only {{path/to/file}}`
 
 - Edit a file without creating backups, and ignoring case in searches:
 
