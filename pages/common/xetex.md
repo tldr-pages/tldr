@@ -1,7 +1,7 @@
 # xetex
 
 > Compile a PDF document from XeTeX source files.
-> More information: <https://manned.org/xetex>.
+> More information: <https://www.tug.org/xetex/>.
 
 - Compile a PDF document:
 
