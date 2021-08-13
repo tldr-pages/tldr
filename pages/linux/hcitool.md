@@ -23,7 +23,7 @@
 
 `hcitool tpl {{bdaddr}} {{type}}`
 
-- Check link policy:
+- Display the link policy:
 
 `hcitool lp`
 
