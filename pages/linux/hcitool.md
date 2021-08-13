@@ -19,7 +19,7 @@
 
 `hcitool lq {{bdaddr}}`
 
-- Display transmit power level:
+- Display the transmit power level:
 
 `hcitool tpl {{bdaddr}} {{type}}`
 
