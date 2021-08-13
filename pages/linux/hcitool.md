@@ -27,7 +27,7 @@
 
 `hcitool lp`
 
-- Request authentication:
+- Request authentication with a specific device:
 
 `hcitool auth {{bdaddr}}`
 
