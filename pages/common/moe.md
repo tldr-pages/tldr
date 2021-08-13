@@ -1,0 +1,20 @@
+# moe
+
+> A WYSIWYG text editor for ISO-8859-15 encoded text.
+> More information: <https://www.gnu.org/software/moe/moe.html>.
+
+- Edit a file:
+
+`moe {{path/to/file}}`
+
+- Save and Quit:
+
+`Ctrl + X`
+
+- Open a file as read-only:
+
+`moe -o {{path/to/file}}`
+
+- Edit a file without creating backups, and ignoring case in searches:
+
+`moe -B -i {{path/to/file}}`
