@@ -1,6 +1,7 @@
 # carthage
 
 > A dependency management tool for Cocoa applications.
+> More information: <https://github.com/Carthage/Carthage>.
 
 - Download the latest version of all dependencies mentioned in Cartfile, and build them:
 
