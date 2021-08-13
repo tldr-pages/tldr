@@ -37,7 +37,7 @@
  Viele Clients unterstützen die `--render` Flag zum Anzeigen einer Seite:
 
  ```
- tldr --render {{page.md}}
+ tldr --render {{seite.md}}
  ```
 
  ## Token-Syntax
