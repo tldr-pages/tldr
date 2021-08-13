@@ -3,7 +3,7 @@
 > Monitor & Configure Bluetooth connections.
 > Send special commands to Bluetooth devices.
 
-- Scan for remote devices:
+- Scan for Bluetooth devices:
 
 `hcitool scan`
 
