@@ -11,7 +11,7 @@
 
 `hcitool name {{bdaddr}}`
 
-- Fetch info of a remote bluetooth device:
+- Fetch information about a remote Bluetooth device:
 
 `hcitool info {{bdaddr}}`
 
