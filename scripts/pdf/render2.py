@@ -74,7 +74,7 @@ def main(loc, colorscheme):
     
     # Writing the PDF to disk
     html += "</body></html>"
-    HTML(string=html).write_pdf("tldr-page.pdf", stylesheets=csslist)
+    HTML(string=html).write_pdf("tldr-pages.pdf", stylesheets=csslist)
 
     if os.path.exists("tldr-pages.pdf"):
         print("\nCreated tldr-pages.pdf in the current directory!\n")
