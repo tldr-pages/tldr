@@ -1,10 +1,10 @@
 # xml
 
-> XMLStarlet toolkit: Query / Edit / Check / Transform XML documents.
+> XMLStarlet toolkit: Query, edit, check, and transform XML documents.
 > Subcommands: `canonic`, `edit`, `elements`, `escape`, `format`, `list`, `pyx`, `p2x`, `select`, `transform`, `unescape`, or `validate`.
 > More information: <https://http://xmlstar.sourceforge.net/doc/xmlstarlet.pdf>.
 
-- Execute a subcommand with input from a file and using standard output:
+- Execute a subcommand with input from a file or URI and using standard output:
 
 `xml {{subcommand}} {{options}} {{xml_file_or_uri}}`
 
@@ -12,7 +12,7 @@
 
 `xml {{subcommand}} {{options}}`
 
-- Execute a subcommand with input from a file and output to a file:
+- Execute a subcommand with input from a file or URI and output to a file:
 
 `xml {{subcommand}} {{options}} {{xml_file_or_uri}} >{{path/to/output}}`
 
