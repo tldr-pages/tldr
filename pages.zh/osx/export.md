@@ -1,6 +1,7 @@
 # export
 
 > 命令为当前 shell 中的子进程进行环境变量设置。
+> 更多信息：<https://ss64.com/osx/export.html>.
 
 - 设置为新的环境变量：
 
