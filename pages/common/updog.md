@@ -4,11 +4,11 @@
 > It allows uploading and downloading via HTTP/S, can set ad hoc SSL certificates and use HTTP basic auth.
 > More information: <https://github.com/sc0tfree/updog>.
 
-- Start a HTTP server on your current directory:
+- Start a HTTP server for the current directory:
 
 `updog`
 
-- Start a HTTP server on a specified directory:
+- Start a HTTP server for a specified directory:
 
 `updog --directory {{/path/to/directory}}`
 
@@ -16,10 +16,10 @@
 
 `updog --port {{port}}`
 
-- Start a HTTP server with a password [To login, you should leave the username blank and just enter the password in the password field]:
+- Start a HTTP server with a password (To login, leave the username blank and enter the password in the password field):
 
 `updog --password {{password}}`
 
-- Use SSL certificate:
+- To enable transport encryption via SSL :
 
 `updog --ssl`
