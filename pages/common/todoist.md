@@ -21,8 +21,8 @@
 
 - List all high priority tasks:
 
-`todoist --header --color list --filter p{{1}}`
+`todoist list --filter p{{1}}`
 
 - List today's tasks with high priority that have the specified label:
 
-`todoist --header --color list --filter '(@{{label_name}} | {{today}}) & p{{1}}'`
+`todoist list --filter '(@{{label_name}} | {{today}}) & p{{1}}'`

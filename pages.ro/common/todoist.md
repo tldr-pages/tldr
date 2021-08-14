@@ -21,8 +21,8 @@
 
 - Enumeră toate sarcinile cu prioritate ridicată:
 
-`todoist --header --color list --filter p{{1}}`
+`todoist list --filter p{{1}}`
 
 - Enumeră toate sarcinile cu prioritate ridicată de astăzi care au eticheta specificată:
 
-`todoist --header --color list --filter '(@{{numele_etichetei}} | {{today}}) & p{{1}}'`
+`todoist list --filter '(@{{numele_etichetei}} | {{today}}) & p{{1}}'`
