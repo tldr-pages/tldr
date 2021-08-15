@@ -11,7 +11,7 @@
 
 `vcgencmd measure_temp`
 
-- Print the current voltage usage:
+- Print the current voltage:
 
 `vcgencmd measure_volts`
 
