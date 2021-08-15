@@ -1,6 +1,6 @@
-# xml-edit
+# xml-unescape
 
-> XMLStarlet toolkit: Un-escape special XML characters.
+> Un-escape special XML characters.
 > More information: <http://xmlstar.sourceforge.net/docs.php>.
 
 - Unescape special XML characters from a string:
