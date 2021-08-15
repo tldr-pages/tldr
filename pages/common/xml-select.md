@@ -1,7 +1,27 @@
 # xml-select
 
-> XMLStarlet toolkit: Select from XML documents.
+> Select from XML documents using XPATH.
 > More information: <http://xmlstar.sourceforge.net/doc/xmlstarlet.pdft>.
+
+- TBD:
+
+`xml select`
+
+- TBD:
+
+`xml select`
+
+- TBD:
+
+`xml select`
+
+- TBD:
+
+`xml select`
+
+- TBD:
+
+`xml select`
 
 - Display help for `select` subcommand:
 
