@@ -7,7 +7,7 @@
 
 `st-info --flash`
 
-- Display amount of sram memory available:
+- Display amount of SRAM memory available:
 
 `st-info --sram`
 

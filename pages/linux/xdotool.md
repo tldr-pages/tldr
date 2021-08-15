@@ -10,11 +10,11 @@
 
 `xdotool click {{3}}`
 
-- Get the id of the currently active window:
+- Get the ID of the currently active window:
 
 `xdotool getactivewindow`
 
-- Focus on the window with id of 12345:
+- Focus on the window with ID of 12345:
 
 `xdotool windowfocus --sync {{12345}}`
 

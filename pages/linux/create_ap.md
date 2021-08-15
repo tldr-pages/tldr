@@ -23,10 +23,10 @@
 
 `create_ap -m bridge {{wlan0}} {{br0}} {{access_point_ssid}} {{passphrase}}`
 
-- Create an access port for Internet sharing from the same WiFi interface:
+- Create an access port for Internet sharing from the same Wi-Fi interface:
 
 `create_ap {{wlan0}} {{wlan0}} {{access_point_ssid}} {{passphrase}}`
 
-- Choose a different WiFi adapter driver:
+- Choose a different Wi-Fi adapter driver:
 
 `create_ap --driver {{wifi_adapter}} {{wlan0}} {{eth0}} {{access_point_ssid}} {{passphrase}}`

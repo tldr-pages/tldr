@@ -1,6 +1,6 @@
 # imgp
 
-> Command-line image resizer and rotator for JPEG and PNG images.
+> Command-line image resizer and rotator for JPEGs and PNGs.
 
 - Convert single images and/or whole directories containing valid image formats:
 

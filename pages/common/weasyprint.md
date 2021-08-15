@@ -3,11 +3,11 @@
 > Render HTML to PDF or PNG.
 > More information: <https://weasyprint.org/>.
 
-- Render a HTML file to PDF:
+- Render an HTML file to PDF:
 
 `weasyprint {{path/to/input.html}} {{path/to/output}}.pdf`
 
-- Render a HTML file to PNG, including an additional user stylesheet:
+- Render an HTML file to PNG, including an additional user stylesheet:
 
 `weasyprint {{path/to/input.html}} {{path/to/output}}.png --stylesheet {{path/to/stylesheet.css}}`
 
