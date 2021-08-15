@@ -13,7 +13,7 @@
 
 - Edit a file without creating backups:
 
-`moe -B {{path/to/file}}`
+`moe --no-backup {{path/to/file}}`
 
 - Edit a file ignoring case in searches:
 
