@@ -1,7 +1,7 @@
 # host
 
 > Lookup Domain Name Server.
-> More information: <https://www.ibm.com/docs/en/aix/7.2?topic=h-host-command>.
+> More information: <https://manned.org/host>.
 
 - Lookup A, AAAA, and MX records of a domain:
 
