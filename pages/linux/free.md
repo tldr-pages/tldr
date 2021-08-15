@@ -11,7 +11,7 @@
 
 `free -{{b|k|m|g}}`
 
-- Display memory in human readable units:
+- Display memory in human-readable units:
 
 `free -h`
 

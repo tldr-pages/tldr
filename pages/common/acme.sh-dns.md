@@ -9,7 +9,7 @@
 
 - Issue a wildcard certificate (denoted by an asterisk) using an automatic DNS API mode:
 
-`acme.sh --issue --dns {{dns_namesilo}} --domain  {{example.com}} --domain {{*.example.com}}`
+`acme.sh --issue --dns {{dns_namesilo}} --domain {{example.com}} --domain {{*.example.com}}`
 
 - Issue a certificate using a DNS alias mode:
 

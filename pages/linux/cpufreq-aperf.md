@@ -12,7 +12,7 @@
 
 `sudo cpufreq-aperf -c {{1}}`
 
-- Start calculating with a 3 seconds refresh interval for all CPU cores:
+- Start calculating with a 3 second refresh interval for all CPU cores:
 
 `sudo cpufreq-aperf -i {{3}}`
 

@@ -7,7 +7,7 @@
 
 `redshift -t {{5700}}:{{3600}}`
 
-- Turn on Redshift with a manually-specified custom location:
+- Turn on Redshift with a manually specified custom location:
 
 `redshift -l {{latitude}}:{{longitude}}`
 

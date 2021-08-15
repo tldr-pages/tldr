@@ -6,7 +6,7 @@
 
 `stat {{file}}`
 
-- Same as above but verbose (more similar to linux's `stat`):
+- Same as above but verbose (more similar to Linux's `stat`):
 
 `stat -x {{file}}`
 

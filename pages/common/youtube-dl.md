@@ -31,6 +31,6 @@
 
 `youtube-dl --sub-lang {{en}} --write-sub '{{https://www.youtube.com/watch?v=Mwa0_nE9H7A}}'`
 
-- Download a playlist and extract mp3 from it:
+- Download a playlist and extract MP3s from it:
 
 `youtube-dl -f "bestaudio" --continue --no-overwrites --ignore-errors --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" {{url_to_playlist}}`

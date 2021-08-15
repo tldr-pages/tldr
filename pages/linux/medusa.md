@@ -6,7 +6,7 @@
 
 `medusa -M ftp -h host -U {{path/to/username_file}} -P {{path/to/password_file}}`
 
-- Execute a login attempt against a HTTP server using the username, password and user-agent specified:
+- Execute a login attempt against an HTTP server using the username, password and user-agent specified:
 
 `medusa -M HTTP -h host -u {{username}} -p {{password}} -m USER-AGENT:"{{Agent}}"`
 

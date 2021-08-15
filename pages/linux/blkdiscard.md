@@ -11,6 +11,6 @@
 
 `blkdiscard --secure /dev/{{device}}`
 
-- Discard the first 100MB of a device:
+- Discard the first 100 MB of a device:
 
 `blkdiscard --length {{100MB}} /dev/{{device}}`

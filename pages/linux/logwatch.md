@@ -1,8 +1,8 @@
 # logwatch
 
-> Summarizes many different logs for common services (e.g., apache, pam_unix, sshd, etc.) in a single report.
+> Summarizes many different logs for common services (e.g. apache, pam_unix, sshd, etc.) in a single report.
 
-- Analyze logs for a range of dates at certain level of detail:
+- Analyze logs for a range of dates at a certain level of detail:
 
 `logwatch --range {{yesterday|today|all|help}} --detail {{low|medium|others}}'`
 

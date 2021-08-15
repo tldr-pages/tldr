@@ -22,6 +22,6 @@
 
 `waitress-serve --call {{import.path.wsgi_factory}}`
 
-- Set the URL scheme to https:
+- Set the URL scheme to HTTPS:
 
 `waitress-serve --url-scheme={{https}} {{import.path:wsgi_func}}`

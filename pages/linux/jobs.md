@@ -6,7 +6,7 @@
 
 `jobs`
 
-- List jobs and their process ids:
+- List jobs and their process IDs:
 
 `jobs -l`
 
@@ -14,7 +14,7 @@
 
 `jobs -n`
 
-- Display process id of process group leader:
+- Display process ID of process group leader:
 
 `jobs -p`
 

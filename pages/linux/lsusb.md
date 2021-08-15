@@ -18,6 +18,6 @@
 
 `lsusb -D {{device}}`
 
-- List devices with a specified vendor and product id only:
+- List devices with a specified vendor and product ID only:
 
 `lsusb -d {{vendor}}:{{product}}`

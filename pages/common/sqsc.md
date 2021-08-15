@@ -27,6 +27,6 @@
 
 `sqsc query "SELECT body FROM {{queue_name}} WHERE body LIKE '%user%'"`
 
-- Pull all messages from a queue into a local sqlite database in your present working directory:
+- Pull all messages from a queue into a local SQLite database in your present working directory:
 
 `sqsc pull {{queue_name}}`

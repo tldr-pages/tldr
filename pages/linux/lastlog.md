@@ -10,7 +10,7 @@
 
 `lastlog -u {{username}}`
 
-- Display records before than 7 days:
+- Display records before 7 days ago:
 
 `lastlog -b {{7}}`
 

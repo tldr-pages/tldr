@@ -24,6 +24,6 @@
 
 `arping -U {{ip_to_broadcast}}`
 
-- Detect duplicated IP addresses in the network by sending ARP requests with a 3 seconds timeout:
+- Detect duplicated IP addresses in the network by sending ARP requests with a 3 second timeout:
 
 `arping -D -w {{3}} {{ip_to_check}}`
