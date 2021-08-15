@@ -1,7 +1,7 @@
 # xml
 
-> XMLStarlet toolkit: Query, edit, check, and transform XML documents.
-> Subcommands: `canonic`, `edit`, `elements`, `escape`, `format`, `list`, `pyx`, `p2x`, `select`, `transform`, `unescape`, or `validate`.
+> XMLStarlet Toolkit: Query, edit, check, convert and transform XML documents.
+> Subcommands: `canonic`, `edit`, `elements`, `escape`, `unescape`, `format`, `list`, `pyx`, `depyx`, `select`, `transform`, or `validate`.
 > More information: <http://xmlstar.sourceforge.net/docs.php>.
 
 - Execute a subcommand with input from a file or URI and using standard output:

@@ -1,6 +1,6 @@
 # xml-validate
 
-> XMLStarlet toolkit: Validate XML documents.
+> Validate XML documents.
 > More information: <http://xmlstar.sourceforge.net/docs.php>.
 
 - Validate XML document for well-formedness only (default):
