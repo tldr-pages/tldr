@@ -1,4 +1,6 @@
 <!-- Thank you for sending a PR! -->
+<!-- Relevant links - https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md#commit-message -->
+<!-- https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md#guidelines -->
 <!-- Please perform the following checks and mark all the boxes accordingly. -->
 <!-- You can remove the checklist items that don't apply to your PR. -->
 
