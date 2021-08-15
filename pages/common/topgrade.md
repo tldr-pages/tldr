@@ -17,7 +17,7 @@
 
 - Disable a certain update operation:
 
-`topgrade -disable {{operation}}`
+`topgrade --disable {{operation}}`
 
 - Only perform a certain update operation:
 
