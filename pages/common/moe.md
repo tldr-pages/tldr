@@ -17,7 +17,7 @@
 
 - Edit a file ignoring case in searches:
 
-`moe -i {{path/to/file}}`
+`moe --ignore-case {{path/to/file}}`
 
 - Save and Quit:
 
