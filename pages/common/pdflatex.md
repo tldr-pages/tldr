@@ -11,6 +11,6 @@
 
 `pdflatex -output-directory={{path/to/directory}} {{source.tex}}`
 
-- Compile a PDF document, halting on each error:
+- Compile a PDF document, exiting on each error:
 
 `pdflatex -halt-on-error {{source.tex}}`
