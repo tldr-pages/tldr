@@ -19,9 +19,9 @@
 
 `hcitool lq {{bdaddr}}`
 
-- Display the transmit power level:
+- Modify the transmit power level:
 
-`hcitool tpl {{bdaddr}} {{type}}`
+`hcitool tpl {{bdaddr}} {{0|1}}`
 
 - Display the link policy:
 
