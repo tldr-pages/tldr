@@ -1,7 +1,7 @@
 # xml-transform
 
 > XMLStarlet toolkit: Transform XML documents using XSLT.
-> More information: <https://http://xmlstar.sourceforge.net/doc/xmlstarlet.pdf>.
+> More information: <http://xmlstar.sourceforge.net/docs.php>.
 
 - Display help for `transform` subcommand:
 

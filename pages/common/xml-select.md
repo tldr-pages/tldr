@@ -1,7 +1,7 @@
 # xml-select
 
 > XMLStarlet toolkit: Select from XML documents.
-> More information: <https://http://xmlstar.sourceforge.net/doc/xmlstarlet.pdf>.
+> More information: <http://xmlstar.sourceforge.net/doc/xmlstarlet.pdft>.
 
 - Display help for `select` subcommand:
 
