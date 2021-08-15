@@ -7,7 +7,7 @@
 
 `xetex {{source.tex}}`
 
-- Compile a PDF document specifying an output directory:
+- Compile a PDF document, specifying an output directory:
 
 `xetex -output-directory={{path/to/directory}} {{source.tex}}`
 
