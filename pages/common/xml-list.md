@@ -1,7 +1,7 @@
 # xml-list
 
 > XMLStarlet toolkit: List a directory as XML.
-> More information: <https://http://xmlstar.sourceforge.net/doc/xmlstarlet.pdf>.
+> More information: <http://xmlstar.sourceforge.net/docs.php>.
 
 - Display help for `list` subcommand:
 

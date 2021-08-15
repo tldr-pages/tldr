@@ -1,7 +1,7 @@
 # xml-escape
 
 > XMLStarlet toolkit: Escape special XML characters.
-> More information: <https://http://xmlstar.sourceforge.net/doc/xmlstarlet.pdf>.
+> More information: <http://xmlstar.sourceforge.net/doc/xmlstarlet.pdf>.
 
 - Escape special XML characters in a string:
 
