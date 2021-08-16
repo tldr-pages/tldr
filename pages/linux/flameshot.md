@@ -4,15 +4,15 @@
 > Supports basic image editing, such as text, shapes, colors, and imgur.
 > More information: <https://flameshot.org>.
 
-- Launch flameshot in GUI mode:
+- Launch flameshot launcher window:
 
 `flameshot launcher`
 
-- Take a screenshot by clicking and dragging:
+- The GUI mode to take a screenshot by clicking and dragging and annotating interactively:
 
 `flameshot gui`
 
-- Take a full screen screenshot:
+- Take a full screenshot (all monitors):
 
 `flameshot full`
 
