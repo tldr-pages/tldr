@@ -1,16 +1,16 @@
-# xml-escape
+# xml escape
 
 > Escape special XML characters.
 > More information: <http://xmlstar.sourceforge.net/doc/xmlstarlet.pdf>.
 
 - Escape special XML characters in a string:
 
-`xml escape {{"<a1>"}}`
+`xml escape "{{<a1>}}"`
 
-- Escape special XML characters in standard input:
+- Escape special XML characters from the standard input:
 
-`echo  {{"<a1>"}} | xml escape`
+`echo  "{{<a1>}}" | xml escape`
 
-- Display help for `escape` subcommand:
+- Display help for the `escape` subcommand:
 
 `xml escape --help`

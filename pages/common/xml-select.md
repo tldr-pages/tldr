@@ -1,4 +1,4 @@
-# xml-select
+# xml select
 
 > Select from XML documents using XPATH.
 > More information: <http://xmlstar.sourceforge.net/doc/xmlstarlet.pdft>.
@@ -23,6 +23,6 @@
 
 `xml select`
 
-- Display help for `select` subcommand:
+- Display help for the `select` subcommand:
 
 `xml select --help`
