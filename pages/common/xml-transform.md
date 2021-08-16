@@ -1,4 +1,4 @@
-# xml-transform
+# xml transform
 
 > Transform XML documents using XSLT.
 > More information: <http://xmlstar.sourceforge.net/docs.php>.
@@ -23,6 +23,6 @@
 
 `xml transform`
 
-- Display help for `transform` subcommand:
+- Display help for the `transform` subcommand:
 
 `xml transform --help`

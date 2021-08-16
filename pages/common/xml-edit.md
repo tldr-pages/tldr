@@ -1,4 +1,4 @@
-# xml-edit
+# xml edit
 
 > Edit an XML document.
 > More information: <http://xmlstar.sourceforge.net/docs.php>.
@@ -23,6 +23,6 @@
 
 `xml edit`
 
-- Display help for `edit` subcommand:
+- Display help for the `edit` subcommand:
 
 `xml edit --help`

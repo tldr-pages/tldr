@@ -1,16 +1,16 @@
-# xml-list
+# xml list
 
-> List a directory as XML.
+> List a directory's contents in XML format.
 > More information: <http://xmlstar.sourceforge.net/docs.php>.
 
-- List the current directory to an XML file:
+- List the current directory's contents to an XML document:
 
 `xml list >{{path/to/dir_list.xml}}`
 
-- List the specified directory to an XML file:
+- List the specified directory's contents to an XML document:
 
 `xml list {{path/to/directory}} >{{path/to/dir_list.xml}}`
 
-- Display help for `list` subcommand:
+- Display help for the `list` subcommand:
 
 `xml list --help`
