@@ -1,6 +1,7 @@
 # mke2fs
 
 > Creates a Linux filesystem inside a partition.
+> More information: <https://manned.org/mke2fs>.
 
 - Create an ext2 filesystem in partition 1 of device b (`sdb1`):
 

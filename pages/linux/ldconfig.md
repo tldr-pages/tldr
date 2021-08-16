@@ -1,6 +1,7 @@
 # ldconfig
 
 > Configure symlinks and cache for shared library dependencies.
+> More information: <https://manned.org/ldconfig>.
 
 - Update symlinks and rebuild the cache (usually run when a new library is installed):
 
