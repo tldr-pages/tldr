@@ -8,7 +8,7 @@
 
 `xml {{subcommand}} {{options}} {{path/to/input.xml|URI}}`
 
-- Execute a subcommand using standard input and standard output:
+- Execute a subcommand using the standard input and standard output:
 
 `xml {{subcommand}} {{options}}`
 

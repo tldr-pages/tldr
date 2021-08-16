@@ -1,4 +1,4 @@
-# xml-format
+# xml format
 
 > Format an XML document.
 > More information: <http://xmlstar.sourceforge.net/docs.php>.
@@ -15,7 +15,7 @@
 
 `xml format --recover --noindent {{path/to/malformed.xml|URI}} >{{path/to/recovered.xml}}`
 
-- Format an XML document from standard input, removing the DOCTYPE declaration:
+- Format an XML document from the standard input, removing the DOCTYPE declaration:
 
 `cat {{path\to\input.xml}} | xml format --dropdtd >{{path/to/output.xml}}`
 
@@ -23,6 +23,6 @@
 
 `xml format --omit-decl {{path\to\input.xml|URI}} >{{path/to/output.xml}}`
 
-- Display help for `format` subcommand:
+- Display help for the `format` subcommand:
 
 `xml format --help`

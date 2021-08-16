@@ -1,4 +1,4 @@
-# xml-depyx
+# xml depyx
 
 > Convert a PYX (ESIS - ISO 8879) document to XML format.
 > More information: <http://xmlstar.sourceforge.net/docs.php>.
@@ -7,10 +7,10 @@
 
 `xml depyx {{path/to/input.pyx|URI}} >{{path/to/output.xml}}`
 
-- Convert a PYX document from standard input to XML format:
+- Convert a PYX document from the standard input to XML format:
 
 `cat {{path/to/input.pyx}} | xml depyx >{{path/to/output.xml}}`
 
-- Display help for `depyx` subcommand:
+- Display help for the `depyx` subcommand:
 
 `xml depyx --help`

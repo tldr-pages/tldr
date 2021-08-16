@@ -1,16 +1,16 @@
-# xml-unescape
+# xml unescape
 
-> Un-escape special XML characters.
+> Unescape special XML characters.
 > More information: <http://xmlstar.sourceforge.net/docs.php>.
 
 - Unescape special XML characters from a string:
 
-`xml unescape {{"&lt;a1&gt;"}}`
+`xml unescape "{{&lt;a1&gt;}}"`
 
-- Unescape special XML characters from standard input:
+- Unescape special XML characters from the standard input:
 
-`echo  {{"&lt;a1&gt;"}} | xml unescape`
+`echo  "{{&lt;a1&gt;}}" | xml unescape`
 
-- Display help for `unescape` subcommand:
+- Display help for the `unescape` subcommand:
 
 `xml escape --help`
