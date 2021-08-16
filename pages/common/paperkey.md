@@ -11,6 +11,6 @@
 
 `paperkey --pubring {{my-public-key.gpg}} --secrets {{secret-key.txt}} --output {{secret-key.gpg}}`
 
-- Export the secret key `my-key`, generate a text file to be printed, and send it to the default printer.
+- Export the secret key `my-key`, generate a text file to be printed, and send it to the default printer:
 
 `gpg --export-secret-key {{my-key}} | paperkey | lpr`
