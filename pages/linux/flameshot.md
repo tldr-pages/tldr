@@ -16,6 +16,10 @@
 
 `flameshot full`
 
+- Take screenshot from monitor 1:
+
+`flameshot screen --number 1`
+
 - Set the save path to write screenshots to:
 
 `flameshot full --path {{path/to/directory}}`
@@ -23,3 +27,7 @@
 - Delay the screenshot for N milliseconds and output to clipboard:
 
 `flameshot full --delay {{2000}} --clipboard`
+
+- Export the screenshot to standard-output:
+
+`flameshot gui --raw`
