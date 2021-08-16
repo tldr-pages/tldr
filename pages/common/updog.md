@@ -16,7 +16,7 @@
 
 `updog --port {{port}}`
 
-- Start a HTTP server with a password (To login, leave the username blank and enter the password in the password field):
+- Start a HTTP server with a password (To log in, leave the username blank and enter the password in the password field):
 
 `updog --password {{password}}`
 
