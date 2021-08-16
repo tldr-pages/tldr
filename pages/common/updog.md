@@ -20,6 +20,6 @@
 
 `updog --password {{password}}`
 
-- To enable transport encryption via SSL :
+- Enable transport encryption via SSL :
 
 `updog --ssl`
