@@ -7,7 +7,7 @@
 
 `gem search {{regular_expression}} --all`
 
-- Install latest version of a gem:
+- Install the latest version of a gem:
 
 `gem install {{gemname}}`
 

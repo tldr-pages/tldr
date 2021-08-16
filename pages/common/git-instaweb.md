@@ -1,9 +1,9 @@
 # git instaweb
 
-> Helper to launch a gitweb server.
+> Helper to launch a GitWeb server.
 > More information: <https://git-scm.com/docs/git-instaweb>.
 
-- Launch a gitweb server for the current Git repository:
+- Launch a GitWeb server for the current Git repository:
 
 `git instaweb --start`
 
@@ -15,7 +15,7 @@
 
 `git instaweb --start --port {{1234}}`
 
-- Use a specified http daemon:
+- Use a specified HTTP daemon:
 
 `git instaweb --start --httpd {{lighttpd|apache2|mongoose|plackup|webrick}}`
 
@@ -23,10 +23,10 @@
 
 `git instaweb --start --browser`
 
-- Stop the currently running gitweb server:
+- Stop the currently running GitWeb server:
 
 `git instaweb --stop`
 
-- Restart the currently running gitweb server:
+- Restart the currently running GitWeb server:
 
 `git instaweb --restart`

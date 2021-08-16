@@ -7,7 +7,7 @@
 
 `sudo spectre-meltdown-checker`
 
-- Check the currently running kernel and show an explanation of the actions to take in order to mitigate a vulnerability:
+- Check the currently running kernel and show an explanation of the actions to take to mitigate a vulnerability:
 
 `sudo spectre-meltdown-checker --explain`
 

@@ -15,7 +15,7 @@
 
 `i3lock -u`
 
-- Display mouse pointer instead of hiding it ('default' for default pointer, 'win' for a MS Windows pointer):
+- Display mouse pointer instead of hiding it ('default' for default pointer, 'win' for an MS Windows pointer):
 
 `i3lock -p {{default|win}}`
 

@@ -20,7 +20,7 @@
 
 `pkgfile --list --binaries {{package_name}}`
 
-- Search for a package that owns a specific file using case insensitive matching:
+- Search for a package that owns a specific file using case-insensitive matching:
 
 `pkgfile --ignorecase {{filename}}`
 

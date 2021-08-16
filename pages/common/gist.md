@@ -27,6 +27,6 @@
 
 `gist --list {{username}}`
 
-- Update a gist using the id from URL:
+- Update a gist using the ID from URL:
 
 `gist --update {{GIST_ID}} {{file.txt}}`

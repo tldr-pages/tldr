@@ -28,6 +28,10 @@
 
 `yay -Ss {{keyword}}`
 
+- Remove orphaned packages (installed as dependencies but not required by any package):
+
+`yay -Yc`
+
 - Show statistics for installed packages and system health:
 
 `yay -Ps`

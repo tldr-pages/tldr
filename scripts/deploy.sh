@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# SPDX-License-Identifier: MIT
 
 # This script is executed by GitHub Actions when a PR is merged (i.e. in the `deploy` step).
 set -ex

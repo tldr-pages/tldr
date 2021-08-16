@@ -6,7 +6,7 @@
 
 `systemd-analyze blame`
 
-- Print a tree of the time critical chain of units:
+- Print a tree of the time-critical chain of units:
 
 `systemd-analyze critical-chain`
 

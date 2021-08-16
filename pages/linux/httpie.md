@@ -14,7 +14,7 @@
 
 `http {{https://example.com}} < {{file.json}}`
 
-- Send a PUT request with a given json body:
+- Send a PUT request with a given JSON body:
 
 `http PUT {{https://example.com/todos/7}} {{hello=world}}`
 

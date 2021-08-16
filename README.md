@@ -128,6 +128,7 @@ both for the command-line and for other platforms:
   or `apt-get install tldr` on Debian-based distributions
   - [fast-tldr](https://github.com/gutjuri/fast-tldr)
 - [Java client](https://github.com/seenukarthi/tldr-java-client)
+- [JetBrains IDEs plugin (IntelliJ IDEA, PyCharm, etc.)](https://github.com/AlexPl292/tldr-intellij) available on [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/17397-tldr-doc)
 - [Keypirinha Plugin](https://github.com/ronan696/keypirinha-tldr)
 - [Node.js client](https://github.com/tldr-pages/tldr-node-client):
   `npm install -g tldr`

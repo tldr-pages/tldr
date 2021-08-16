@@ -15,7 +15,7 @@
 
 `ansible-playbook {{playbook}} -e "{{variable1}}={{value1}} {{variable2}}={{value2}}"`
 
-- Run tasks in playbook with extra variables defined in a json file:
+- Run tasks in playbook with extra variables defined in a JSON file:
 
 `ansible-playbook {{playbook}} -e "@{{variables.json}}"`
 

@@ -15,7 +15,7 @@
 
 `sudo modprobe zram num_devices={{2}}`
 
-- Find and initialise the next free zram device to a 2GB virtual drive using LZ4 compression:
+- Find and initialise the next free zram device to a 2 GB virtual drive using LZ4 compression:
 
 `sudo zramctl --find --size {{2GB}} --algorithm {{lz4}}`
 

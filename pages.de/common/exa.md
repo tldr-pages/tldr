@@ -26,3 +26,11 @@
 - Liste Dateien nach Änderungsdatum aufsteigend sortiert auf:
 
 `exa --long --sort={{modified}}`
+
+- Liste Dateien inklusive Header, Icons und Git-Status:
+
+`exa --long --header --icons --git`
+
+- Liste keine Dateien auf, die in `.gitignore` erwähnt werden:
+
+`exa --git-ignore`

@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: MIT
+
 'use strict';
 
 const glob = require('glob');

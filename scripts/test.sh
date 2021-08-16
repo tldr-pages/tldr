@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# SPDX-License-Identifier: MIT
 
 # This script is executed by GitHub Actions for every successful push (on any branch, PR or not).
 # It runs some basic tests on pages. If the build is also a PR, additional

@@ -1,6 +1,6 @@
 # xcursorgen
 
-> Create an X cursor file from a collection of PNG images.
+> Create an X cursor file from a collection of PNGs.
 > If `--prefix` is omitted, the image files must be located in the current working directory.
 > More information: <https://manned.org/xcursorgen.1>.
 

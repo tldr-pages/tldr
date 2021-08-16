@@ -1,9 +1,9 @@
 # btrfs device
 
 > 管理 btrfs 文件系统中的设备。
-> 更多信息：<https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-device>。
+> 更多信息： <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-device>.
 
-- 将一个或多个设备添加到 b​​trfs 文件系统中：
+- 将一个或多个设备添加到 btrfs 文件系统中：
 
 `sudo btrfs device add {{指向设备1的路径}} [{{指向设备2的路径}}] {{指向 btrfs 文件系统的路径}}`
 
