@@ -109,9 +109,11 @@ The following guidelines are applied to Chinese (zh) and traditional Chinese (zh
    For example, use `开启 shell，进入交互模式` rather than `开启 shell ，进入交互模式`
 4. Use full-width punctuations except for long Latin clauses.  
    For example, use `嗨，你好。` rather than `嗨, 你好.`
-5. Use precise form for technical terms, and do not use unofficial Chinese abbreviations.
+5. Use a half-width period or colon to end a sentence when the last character is half-width.  
+   For example, use `将代码转化为 Python 3.` rather than `将代码转化为 Python 3。`
+6. Use precise form for technical terms, and do not use unofficial Chinese abbreviations.
    For example, use `Facebook` rather than `facebook`, `fb` or `脸书`.
 
-In order to maintain readability and normalization, please comply the 5 rules above as much as possible when translating pages into Chinese.
+In order to maintain readability and normalization, please comply the 6 rules above as much as possible when translating pages into Chinese.
 
 For more information and examples of Chinese-specific rules, check out [*Chinese Copywriting Guidelines*](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.en-US.md).
