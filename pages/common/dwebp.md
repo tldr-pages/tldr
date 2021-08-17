@@ -16,7 +16,7 @@
 
 `dwebp {{path/to/input.webp}} -o {{path/to/output.png}} -mt`
 
-- Convert a `webp` file and crop and scale the output:
+- Convert a `webp` file, but also crop and scale at the same time:
 
 `dwebp {{input.webp}} -o {{output.png}} -crop {{x_pos}} {{y_pos}} {{width}} {{height}} -scale {{width}} {{height}}`
 
