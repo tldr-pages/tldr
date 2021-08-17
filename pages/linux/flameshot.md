@@ -8,7 +8,7 @@
 
 `flameshot launcher`
 
-- The GUI mode to take a screenshot by clicking and dragging and annotating interactively:
+- Launch flameshot and immediately start interactively annotating parts of the screen to screenshot.
 
 `flameshot gui`
 
