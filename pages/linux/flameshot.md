@@ -18,7 +18,7 @@
 
 - Take screenshot from monitor 1:
 
-`flameshot screen --number 1`
+`flameshot screen --number {{1}}`
 
 - Set the save path to write screenshots to:
 
