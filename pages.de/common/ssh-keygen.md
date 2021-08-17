@@ -16,7 +16,7 @@
 
 - Generiere ein 4096 Bit langen RSA Schlüssel-Paar mit der Email im Kommentarfeld:
 
-`ssh-keygen -t {{dsa|ecdsa|ed25519|rsa}} -b {{4096}} -C "{{kommentar|email}}""`
+`ssh-keygen -t {{dsa|ecdsa|ed25519|rsa}} -b {{4096}} -C "{{kommentar|email}}"`
 
 - Entferne den Schlüssel eines Servers aus der `known_hosts` Datei (hilfreich wenn ein Server seinen Schlüssel aktualisiert hat und der alte somit nicht mehr gilt):
 
