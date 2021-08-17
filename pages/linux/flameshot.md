@@ -16,7 +16,7 @@
 
 `flameshot full`
 
-- Take screenshot from monitor 1:
+- Take a screenshot from monitor 1:
 
 `flameshot screen --number {{1}}`
 
