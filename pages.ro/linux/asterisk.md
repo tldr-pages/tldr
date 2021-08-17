@@ -4,11 +4,11 @@
 > Utilizat pentru rularea serverului în sine și gestionarea unei instanțe care rulează deja.
 > Mai multe informaţii: <https://wiki.asterisk.org/wiki/display/AST/Home>
 
-- [R] econnect la un server care rulează, și activați logare 3 niveluri de [v] erbosity:
+- [R]econectați la un server care rulează, și activați logare a 3 niveluri de [v]erbositate:
 
 `asterisk -r -vvv`
 
-- [R] econectați la un server care rulează, executați o singură comandă și returnați:
+- [R]econectați la un server care rulează, executați o singură comandă și returnați:
 
 `asterisk -r -x "{{command}}"`
 

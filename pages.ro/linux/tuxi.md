@@ -7,7 +7,7 @@
 
 `tuxi {{search_terms}}`
 
-- Afișează rezultatele căutării în format [r] aw (fără ieșire destul, fără culori):
+- Afișează rezultatele căutării în format [r]aw (fără ieșire înfrumusețată, fără culori):
 
 `tuxi -r {{search_terms}}`
 

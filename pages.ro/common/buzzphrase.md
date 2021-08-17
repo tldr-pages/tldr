@@ -7,10 +7,10 @@
 
 `buzzphrase`
 
-- Ieșire o frază formatat ca [i] verb mperativ + timpul trecut [v] erb + [a] djective + plural [N] oun:
+- Ieșire o frază formatată ca verb [i]mperativ + [v]erb la timpul trecut + [a]djectiv + substa[N]tiv la plural:
 
 `buzzphrase {{'{i} {v} {a} {N}'}}`
 
-- Ieşire 4 fraze formatate ca participiu prezent [V] erb + [a] djective + singular [n] oun + [f] inal:
+- Ieşire 4 fraze formatate ca participiu prezent [V]erb + [a]djectiv + substa[n]tiv singular  + [f]inal:
 
 `buzzphrase {{4 '{V} {a} {n} {f}'}}`

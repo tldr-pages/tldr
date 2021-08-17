@@ -3,15 +3,15 @@
 > Imprimați informații detaliate despre și verificați fișierele PNG, JNG și MNG.
 > Mai multe informaţii: <http://www.libpng.org/pub/png/apps/pngcheck.html>
 
-- Imprimaţi un rezumat pentru o imagine (lăţime, înălţime şi adâncime de culoare):
+- Arată un rezumat pentru o imagine (lăţime, înălţime şi adâncime de culoare):
 
 `pngcheck {{image.png}}`
 
-- Imprimare informații pentru o imagine cu [c] ieșire olorizată:
+- Arată informații pentru o imagine folosind o reprezentare în [c]ulori:
 
 `pngcheck -c {{image.png}}`
 
-- Print [v] informații erbose pentru o imagine:
+- Arată informații cu [v]erbositate (detaliate) pentru o imagine:
 
 `pngcheck -cvt {{image.png}}`
 
@@ -19,10 +19,10 @@
 
 `cat {{path/to/image.png}} | pngcheck -cvt`
 
-- [s] earch pentru PNG-uri într-un anumit fișier și afișează informații despre ele:
+- [s] caută PNG-uri într-un anumit fișier și afișează informații despre ele:
 
 `pngcheck -s {{image.png}}`
 
-- Căutați PNG-uri într-un alt fișier și e [x] le traduce:
+- Căutați PNG-uri într-un alt fișier și e[x]trage-le:
 
 `pngcheck -x {{image.png}}`

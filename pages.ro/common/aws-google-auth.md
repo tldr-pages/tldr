@@ -7,7 +7,7 @@
 
 `aws-google-auth -u {{example@example.com}} -I {{$GOOGLE_IDP_ID}} -S {{$GOOGLE_SP_ID}} -d {{3600}}`
 
-- Conectați-vă [a] sking ce rol să utilizați (în cazul mai multor roluri SAML disponibile):
+- Conectați-vă [a] întrebănd ce rol să utilizați (în cazul mai multor roluri SAML disponibile):
 
 `aws-google-auth -u {{example@example.com}} -I {{$GOOGLE_IDP_ID}} -S {{$GOOGLE_SP_ID}} -d {{3600}} -a`
 

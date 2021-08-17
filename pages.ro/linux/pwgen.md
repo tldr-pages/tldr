@@ -2,7 +2,7 @@
 
 > Generați parole pronunțabile.
 
-- Generați parola aleatoare cu s [y] mbols:
+- Generați parola aleatoare cu un număr fix de [y] caractere:
 
 `pwgen -y {{length}}`
 

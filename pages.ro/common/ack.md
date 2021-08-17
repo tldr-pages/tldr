@@ -12,7 +12,7 @@
 
 `ack --ignore-case "{{search_pattern}}"`
 
-- Căutați linii care se potrivesc unui model, tipăriți [o] nly textul potrivit și nu restul liniei:
+- Căutați linii care se potrivesc unui model, tipăriți [o] numai textul potrivit și nu restul liniei:
 
 `ack -o "{{search_pattern}}"`
 

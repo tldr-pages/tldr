@@ -11,7 +11,7 @@
 
 `rsync {{remote_host}}:{{path/to/remote_file}} {{path/to/local_directory}}`
 
-- Transfer fișier în [a] rchive (pentru a păstra atributele) și comprimat ([z] ipped) modul cu [v] erbose și [h] uman-lizibil [P] rogress:
+- Transferă fișier în [a]rhivă (cu păstrarea atributelor), [z] comprimat, cu [v]erbositate și [h] ușor de citit [P]rogres:
 
 `rsync -azvhP {{path/to/local_file}} {{remote_host}}:{{path/to/remote_directory}}`
 
@@ -23,7 +23,7 @@
 
 `rsync -r {{remote_host}}:{{path/to/remote_directory}}/ {{path/to/local_directory}}`
 
-- Transferați un director [r] ecursiv, în [a] rchive pentru a păstra atributele, rezolvarea conținută cerneluri moi [l] și ignorând fișierele deja transferate [u] nless mai noi:
+- Transferați un director [r]ecursiv, în [a]rhivă, cu păstrarea atributelor, inclusiv sym[l]inks și ignorând fișierele deja transferate, dacă n[u] sunt mai recente:
 
 `rsync -rauL {{remote_host}}:{{path/to/remote_file}} {{path/to/local_directory}}`
 

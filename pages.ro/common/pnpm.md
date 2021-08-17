@@ -32,6 +32,6 @@
 
 `pnpm list`
 
-- Lista modulelor de nivel superior [g] instalate pe lob:
+- Listarea modulelor instalate [g]lobal:
 
 `pnpm list -g --depth={{0}}`

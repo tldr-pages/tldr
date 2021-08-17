@@ -7,7 +7,7 @@
 
 `go test`
 
-- [v] testați erbosely pachetul în directorul curent:
+- Testați cu [v]erbositate ridicată pachetul în directorul curent:
 
 `go test -v`
 

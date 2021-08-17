@@ -6,7 +6,7 @@
 
 `isoinfo -f -i {{path/to/image.iso}}`
 
-- E [x] trage un anumit fișier dintr-o imagine ISO și trimite-l afară stdout:
+- E[x]trage un anumit fișier dintr-o imagine ISO și afișează-l la stdout:
 
 `isoinfo -i {{path/to/image.iso}} -x {{/PATH/TO/FILE/INSIDE/ISO.EXT}}`
 

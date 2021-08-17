@@ -3,15 +3,15 @@
 > Subdomeniu și instrument de descoperire director.
 > Mai multe informaţii: <https://github.com/ffuf/ffuf>
 
-- Descoperiți directoare folosind un [w] ordlist pe o țintă [u] rl cu [c] olorizat și [v] erbose ouput:
+- Descoperiți directoare folosind un [w]ordlist pe o țintă [u]rl cu output [c]olorat și [v]erbositate:
 
 `ffuf -w {{path/to/wordlist}} -u {{https://target/FUZZ}} -c -v`
 
-- Fuzz- [H] eaders cu un fișier gazdă pe un site traget și [m] atch HTTP 200 [c] răspunsuri ode:
+- Fuzz host-[H]eaders cu un fișier gazdă pe un site traget și [m]atch al [c] răspunsurilor HTTP 200:
 
 `ffuf -w {{hosts.txt}} -u {{https://example.org}} -H "{{Host: FUZZ}}" -mc {{200}}`
 
-- Descoperiți directoarele folosind un [w] Ordlist pe un site web țintă cu un timp de lucru maxim individual de 60 de secunde și adâncimea de descoperire recursivă de 2 nivele:
+- Descoperiți directoarele folosind un [w]ordlist pe un site web țintă cu un timp de lucru maxim individual de 60 de secunde și adâncimea de descoperire recursivă de 2 nivele:
 
 `ffuf -w {{path/to/wordlist}} -u {{https://target/FUZZ}} -maxtime-job {{60}} -recursion -recursion-depth {{2}}`
 

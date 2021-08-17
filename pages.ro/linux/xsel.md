@@ -2,7 +2,7 @@
 
 > instrument de selectare X11 și manipulare clipboard.
 
-- Utilizați ieșirea unei comenzi ca intrare a clipului [b] oard (echivalent cu `Ctrl + C`):
+- Utilizați ieșirea unei comenzi ca intrare a clip[b]oard-ului (echivalent cu `Ctrl + C`):
 
 `echo 123 | xsel -ib`
 

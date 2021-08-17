@@ -7,7 +7,7 @@
 
 `arithmetic`
 
-- Specificați unul sau mai multe simboluri aritmetice [o] peration pentru a obține probleme pe ele:
+- Specificați unul sau mai multe simboluri aritmetice și [o]perații pentru a obține probleme cu ele:
 
 `arithmetic -o {{+|-|x|/}}`
 

@@ -7,7 +7,7 @@
 
 `rig`
 
-- Afișează un nume și o adresă aleatoare [m] ale (sau [f] emale):
+- Afișează un nume și o adresă aleatoare [m] bărbat (sau [f]emeie):
 
 `rig -{{m|f}}`
 

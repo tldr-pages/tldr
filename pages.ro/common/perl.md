@@ -19,7 +19,7 @@
 
 `perl -d {{script.pl}}`
 
-- Loo [p] peste toate liniile unui fișier, editarea lor [i] n-loc folosind o găsire/înlocui [e] xpression:
+- [p]entru toate liniile unui fișier, editarea lor d[i]rect în fișier folosind o [e]xpresie de căutare/înlocuit:
 
 `perl -p -i -e 's/{{find}}/{{replace}}/g' {{filename}}`
 
