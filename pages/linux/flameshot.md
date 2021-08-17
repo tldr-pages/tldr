@@ -4,7 +4,7 @@
 > Supports basic image editing, such as text, shapes, colors, and imgur.
 > More information: <https://flameshot.org>.
 
-- Launch flameshot launcher window:
+- Launch flameshot with a simpler interactive mode:
 
 `flameshot launcher`
 
