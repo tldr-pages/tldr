@@ -8,7 +8,7 @@
 
 `flameshot launcher`
 
-- Launch flameshot and immediately start interactively annotating parts of the screen to screenshot.
+- Launch flameshot and immediately start interactively annotating parts of the screen to screenshot:
 
 `flameshot gui`
 
