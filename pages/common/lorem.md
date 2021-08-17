@@ -14,6 +14,6 @@
 
 `lorem -s {{5}} --raven`
 
-- Print 40 random characters from Boccacio's Decameron:
+- Print 40 random characters from Boccaccio's Decameron:
 
 `lorem --randomize -c {{40}} --decamerone`

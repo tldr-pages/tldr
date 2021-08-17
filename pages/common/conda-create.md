@@ -3,7 +3,7 @@
 > Create new conda environments.
 > More information: <https://docs.conda.io/projects/conda/en/latest/commands/create.html>.
 
-- Create a new environment named `py39`, and install Python 3.9 and numpy v1.11 or above in it:
+- Create a new environment named `py39`, and install Python 3.9 and NumPy v1.11 or above in it:
 
 `conda create --yes --name {{py39}} python={{3.9}} "{{numpy>=1.11}}"`
 

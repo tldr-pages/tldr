@@ -11,7 +11,7 @@
 
 `iwctl --help`
 
-- Display your wifi stations:
+- Display your Wi-Fi stations:
 
 `iwctl station list`
 

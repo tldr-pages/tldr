@@ -4,7 +4,7 @@
 > Event IDs can be any number between 1 and 1000.
 > More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/eventcreate>.
 
-- Create a new event with a given id (1-1000) in the log:
+- Create a new event with a given ID (1-1000) in the log:
 
 `eventcreate /t {{success|error|warning|information}} /id {{id}} /d "{{message}}"`
 

@@ -2,6 +2,7 @@
 
 > Build a Linux filesystem on a hard disk partition.
 > This command is deprecated in favor of filesystem specific mkfs.<type> utils.
+> More information: <https://manned.org/mkfs>.
 
 - Build a Linux ext2 filesystem on a partition:
 

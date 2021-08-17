@@ -7,7 +7,7 @@
 
 `mpv {{file}}`
 
-- Play a video or audio file from an URL:
+- Play a video or audio file from a URL:
 
 `mpv '{{https://www.youtube.com/watch?v=dQw4w9WgXcQ}}'`
 
@@ -19,7 +19,7 @@
 
 `DOWN <or> UP`
 
-- Decrease or increase playback speed by 10 %:
+- Decrease or increase playback speed by 10%:
 
 `[ <or> ]`
 

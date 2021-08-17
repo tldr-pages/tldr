@@ -15,7 +15,7 @@
 
 `kops export kubecfg {{cluster_name}}`
 
-- Get the cluster configuration as yaml:
+- Get the cluster configuration as YAML:
 
 `kops get cluster {{cluster_name}} -o yaml`
 

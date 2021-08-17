@@ -10,7 +10,7 @@
 
 `xmllint --xpath "string(//{{foo}})" {{source_file.xml}}`
 
-- Return the href attribute of the second anchor element in an html file:
+- Return the href attribute of the second anchor element in an HTML file:
 
 `xmllint --html --xpath "string(//a[2]/@href)" webpage.xhtml`
 
@@ -18,7 +18,7 @@
 
 `xmllint --format {{source_file.xml}}`
 
-- Check that a XML file meets the requirements of its DOCTYPE declaration:
+- Check that an XML file meets the requirements of its DOCTYPE declaration:
 
 `xmllint --valid {{source_file.xml}}`
 

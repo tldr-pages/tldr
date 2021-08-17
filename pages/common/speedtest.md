@@ -20,7 +20,7 @@
 
 `speedtest --precision={{precision}}`
 
-- Run a speed test and print it's progress (only available for output format `human-readable` and `json`):
+- Run a speed test and print its progress (only available for output format `human-readable` and `json`):
 
 `speedtest --progress={{yes|no}}`
 

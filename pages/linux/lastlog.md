@@ -1,6 +1,7 @@
 # lastlog
 
 > Show the most recent login of all users or of a given user.
+> More information: <https://manned.org/lastlog>.
 
 - Display the most recent login of all users:
 
@@ -10,7 +11,7 @@
 
 `lastlog -u {{username}}`
 
-- Display records before than 7 days:
+- Display records before 7 days ago:
 
 `lastlog -b {{7}}`
 

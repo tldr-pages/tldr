@@ -10,7 +10,7 @@
 
 `du -h {{path/to/directory}}`
 
-- Show the size of a single directory, in human readable units:
+- Show the size of a single directory, in human-readable units:
 
 `du -sh {{path/to/directory}}`
 
