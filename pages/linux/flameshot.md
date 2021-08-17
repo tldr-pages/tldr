@@ -28,6 +28,6 @@
 
 `flameshot full --delay {{2000}} --clipboard`
 
-- Export the screenshot to standard-output:
+- Take a screenshot and export it to standard-output:
 
 `flameshot gui --raw`
