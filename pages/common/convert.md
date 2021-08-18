@@ -23,7 +23,7 @@
 
 `convert {{image1.png}} {{image2.png}} {{image3.png}} -append {{image123.png}}`
 
-- Create a gif from a series of images with 100ms delay between them:
+- Create a GIF from a series of images with 100ms delay between them:
 
 `convert {{image1.png}} {{image2.png}} {{image3.png}} -delay {{10}} {{animation.gif}}`
 

@@ -16,7 +16,7 @@
 
 `aria2c --force-sequential {{url_1}} {{url_2}}`
 
-- Download from multiple sources each URI pointing to the same file:
+- Download from multiple sources with each URI pointing to the same file:
 
 `aria2c {{url_1}} {{url_2}}`
 

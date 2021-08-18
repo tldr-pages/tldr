@@ -23,7 +23,7 @@
 
 `wapm uninstall {{package_name}}`
 
-- Print a tree of locally-installed dependencies:
+- Print a tree of locally installed dependencies:
 
 `wapm list`
 

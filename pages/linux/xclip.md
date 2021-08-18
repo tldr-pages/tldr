@@ -19,7 +19,7 @@
 
 `xclip -sel clip {{input_file.txt}}`
 
-- Copy the contents of a PNG image into the system clipboard (can be pasted in other programs correctly):
+- Copy the contents of a PNG into the system clipboard (can be pasted in other programs correctly):
 
 `xclip -sel clip -t image/png {{input_file.png}}`
 

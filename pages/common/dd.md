@@ -3,11 +3,11 @@
 > Convert and copy a file.
 > More information: <https://www.gnu.org/software/coreutils/dd>.
 
-- Make a bootable usb drive from an isohybrid file (such like `archlinux-xxx.iso`) and show the progress:
+- Make a bootable USB drive from an isohybrid file (such like `archlinux-xxx.iso`) and show the progress:
 
 `dd if={{file.iso}} of=/dev/{{usb_drive}} status=progress`
 
-- Clone a drive to another drive with 4MB block, ignore error and show progress:
+- Clone a drive to another drive with 4 MiB block, ignore error and show progress:
 
 `dd if=/dev/{{source_drive}} of=/dev/{{dest_drive}} bs=4M conv=noerror status=progress`
 

@@ -4,11 +4,11 @@
 > See also `minetestserver`, the server-only binary.
 > More information: <https://wiki.minetest.net/Minetest>.
 
-- Start minetest in client mode:
+- Start Minetest in client mode:
 
 `minetest`
 
-- Start minetest in server mode by hosting a specific world:
+- Start Minetest in server mode by hosting a specific world:
 
 `minetest --server --world {{name}}`
 

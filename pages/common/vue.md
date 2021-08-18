@@ -3,7 +3,7 @@
 > Multi-purpose CLI for Vue.js.
 > More information: <https://cli.vuejs.org>.
 
-- Create a new vue project interactively:
+- Create a new Vue project interactively:
 
 `vue create {{project_name}}`
 

@@ -1,6 +1,7 @@
 # mimetype
 
 > Automatically determine the MIME type of a file.
+> More information: <https://manned.org/mimetype>.
 
 - Print the MIME type of a given file:
 

@@ -7,11 +7,11 @@
 
 `truncate --size {{10G}} {{filename}}`
 
-- Extend the file size by 50M, fill with holes (which reads as zero bytes):
+- Extend the file size by 50 MiB, fill with holes (which reads as zero bytes):
 
 `truncate --size +{{50M}} {{filename}}`
 
-- Shrink the file by 2GiB, by removing data from the end of file:
+- Shrink the file by 2 GiB, by removing data from the end of file:
 
 `truncate --size -{{2G}} {{filename}}`
 

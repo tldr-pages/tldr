@@ -1,6 +1,7 @@
 # lsscsi
 
 > List SCSI devices (or hosts) and their attributes.
+> More information: <https://manned.org/lspci>.
 
 - List all SCSI devices:
 
@@ -10,6 +11,6 @@
 
 `lsscsi -L`
 
-- List all SCSI devices with human readable disk capacity:
+- List all SCSI devices with human-readable disk capacity:
 
 `lsscsi -s`

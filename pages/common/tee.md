@@ -3,13 +3,13 @@
 > Read from standard input and write to standard output and files (or commands).
 > More information: <https://www.gnu.org/software/coreutils/tee>.
 
-- Copy standard input to each FILE, and also to standard output:
+- Copy standard input to each file, and also to standard output:
 
-`echo "example" | tee {{FILE}}`
+`echo "example" | tee {{path/to/file}}`
 
-- Append to the given FILEs, do not overwrite:
+- Append to the given files, do not overwrite:
 
-`echo "example" | tee -a {{FILE}}`
+`echo "example" | tee -a {{path/to/file}}`
 
 - Print standard input to the terminal, and also pipe it into another program for further processing:
 

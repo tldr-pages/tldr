@@ -16,6 +16,10 @@
 
 `figlet {{input_text}} -f {{font_filename}}`
 
-- Pipe command output through figlet:
+- Pipe command output through FIGlet:
 
 `{{command}} | figlet`
+
+- Show available FIGlet fonts:
+
+`showfigfonts {{optional_string_to_display}}`

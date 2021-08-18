@@ -8,6 +8,10 @@
 
 `vim {{ruta/al/archivo}}`
 
+- Abre un archivo en un número de línea especificado:
+
+`vim +{{número_de_línea}} {{ruta/al/archivo}}`
+
 - Ver el manual de Vim:
 
 `:help<Enter>`
@@ -15,10 +19,6 @@
 - Guarda y sale:
 
 `:wq<Enter>`
-
-- Abre un archivo en un número de línea especificado:
-
-`vim +{{número_de_línea}} {{ruta/al/archivo}}`
 
 - Deshace la última operación:
 

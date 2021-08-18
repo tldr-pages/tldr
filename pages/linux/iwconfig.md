@@ -11,7 +11,7 @@
 
 `iwconfig {{interface}}`
 
-- Set the ESSID (network name) of the specified interface (e.g., eth0 or wlp2s0):
+- Set the ESSID (network name) of the specified interface (e.g. eth0 or wlp2s0):
 
 `iwconfig {{interface}} {{new_network_name}}`
 
