@@ -1,7 +1,7 @@
 # ssh
 
 > Secure Shell ist ein Protokoll für das sichere einloggen auf einem externen System.
-> Es kann dafür eingesetzt werden um Befehle auf externen Systemen auszuführen.
+> Dieser Befehl hat auch Dokumentation über dessen Unterbefehle, wie z.B. `ssh-add`.
 
 - Stelle eine Verbindung zu einem externen Server her:
 

@@ -1,6 +1,7 @@
 # dotnet
 
 > Plattformübergreifende Kommandozeilenandwendungen für .NET Core.
+> Dieser Befehl hat auch Dokumentation über dessen Unterbefehle, wie z.B. `dotnet build`.
 > Weitere Informationen: <https://docs.microsoft.com/dotnet/core/tools/>.
 
 - Initialisiere ein neues .NET Projekt:
