@@ -7,7 +7,7 @@
 
 `chromium {{path/to/file.html}}`
 
-- Open an URL:
+- Open a URL:
 
 `chromium {{example.com}}`
 

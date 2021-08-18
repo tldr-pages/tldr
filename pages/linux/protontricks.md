@@ -15,6 +15,6 @@
 
 `protontricks {{appid}} {{winetricks_args}}`
 
-- Run a command within a games installation directory:
+- Run a command within a game's installation directory:
 
 `protontricks -c {{command}} {{appid}}`

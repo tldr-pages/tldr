@@ -11,6 +11,6 @@
 
 `faketime '{{yesterday}}' {{bash}}`
 
-- Simulate how any program would act next friday night:
+- Simulate how a program would act next Friday night:
 
-`faketime '{{next Friday 1 am}}' {{path/to/any/program}}`
+`faketime '{{next Friday 1 am}}' {{path/to/program}}`

@@ -7,7 +7,7 @@
 
 `gh alias`
 
-- List all of the aliases `gh` is configured to use:
+- List all the aliases `gh` is configured to use:
 
 `gh alias list`
 

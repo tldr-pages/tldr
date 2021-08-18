@@ -1,6 +1,6 @@
 # caffeinate
 
-> Prevent mac from sleeping.
+> Prevent macOS from sleeping.
 
 - Prevent from sleeping for 1 hour (3600 seconds):
 

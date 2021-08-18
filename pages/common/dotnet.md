@@ -8,7 +8,7 @@
 
 `dotnet new {{template_short_name}}`
 
-- Restore nuget packages:
+- Restore NuGet packages:
 
 `dotnet restore`
 

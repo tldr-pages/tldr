@@ -14,7 +14,7 @@
 
 `last -F -a`
 
-- View all logins by a specific user and show the ip address instead of the hostname:
+- View all logins by a specific user and show the IP address instead of the hostname:
 
 `last {{username}} -i`
 

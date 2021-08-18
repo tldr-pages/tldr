@@ -1,7 +1,7 @@
 # serverless
 
 > Toolkit for deploying and operating serverless architectures on AWS, Google Cloud, Azure and IBM OpenWhisk.
-> Commands can be run either using the `serverless` command or it's alias, `sls`.
+> Commands can be run either using the `serverless` command or its alias, `sls`.
 > More information: <https://serverless.com/>.
 
 - Create a serverless project:

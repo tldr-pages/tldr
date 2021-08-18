@@ -19,7 +19,7 @@
 
 `docker exec --interactive --detach {{container_name}} {{command}}`
 
-- Set an environment variable in a running bash session:
+- Set an environment variable in a running Bash session:
 
 `docker exec --interactive --tty --env {{variable_name}}={{value}} {{container_name}} {{/bin/bash}}`
 

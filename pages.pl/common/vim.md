@@ -8,6 +8,10 @@
 
 `vim {{sciezka/do/plik}}`
 
+- Otwórz plik pod określonym numerem wiersza:
+
+`vim +{{numer_linii}} {{sciezka/do/plik}}`
+
 - Zobacz instrukcję pomocy Vim:
 
 `:help<Enter>`
@@ -19,10 +23,6 @@
 - Wyjdź bez zapisywania:
 
 `:quit!<Enter>`
-
-- Otwórz plik pod określonym numerem wiersza:
-
-`vim +{{numer_linii}} {{sciezka/do/plik}}`
 
 - Cofnij ostatnią operację:
 

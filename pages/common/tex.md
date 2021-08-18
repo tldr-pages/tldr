@@ -11,6 +11,6 @@
 
 `tex -output-directory={{path/to/directory}} {{source.tex}}`
 
-- Compile a DVI document, halting on each error:
+- Compile a DVI document, exiting on each error:
 
 `tex -halt-on-error {{source.tex}}`
