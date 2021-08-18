@@ -1,6 +1,7 @@
 # btrfs
 
 > A filesystem based on the copy-on-write (COW) principle for Linux.
+> This command also has documentation about its subcommands, e.g. `btrfs device`.
 > More information: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs>.
 
 - Create subvolume:

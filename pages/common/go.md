@@ -1,6 +1,7 @@
 # go
 
 > Tool for managing go source code.
+> This command also has documentation about its subcommands, e.g. `go build`.
 > More information: <https://golang.org>.
 
 - Download and install a package, specified by its import path:

@@ -1,6 +1,7 @@
 # git
 
 > Distributed version control system.
+> This command also has documentation about its subcommands, e.g. `git commit`.
 > More information: <https://git-scm.com/>.
 
 - Check the Git version:

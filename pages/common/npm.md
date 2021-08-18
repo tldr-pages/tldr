@@ -1,7 +1,7 @@
 # npm
 
-> JavaScript and Node.js package manager.
-> Manage Node.js projects and their module dependencies.
+> JavaScript and Node.js package and dependency manager.
+> This command also has documentation about its subcommands, e.g. `npm-check`.
 > More information: <https://www.npmjs.com/>.
 
 - Interactively create a `package.json` file:

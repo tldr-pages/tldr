@@ -1,7 +1,7 @@
 # drupal
 
-> CLI for Drupal.
-> Generates boilerplate code, interacts with and debugs Drupal projects.
+> Generate boilerplate code, interact with and debug Drupal projects.
+> This command also has documentation about its subcommands, e.g. `drupal check`.
 > More information: <https://drupalconsole.com/>.
 
 - Install a module:
