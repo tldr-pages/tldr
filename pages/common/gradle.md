@@ -11,7 +11,7 @@
 
 `gradle build -x {{test}}`
 
-- Run in offline mode to prevent gradle from accessing the network during builds:
+- Run in offline mode to prevent Gradle from accessing the network during builds:
 
 `gradle build --offline`
 
@@ -19,7 +19,7 @@
 
 `gradle clean`
 
-- Compile and Release package:
+- Build an Android Package (APK) in release mode:
 
 `gradle assembleRelease`
 

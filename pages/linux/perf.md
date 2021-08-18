@@ -1,12 +1,12 @@
 # perf
 
-> Framework for linux performance counter measurements.
+> Framework for Linux performance counter measurements.
 
 - Display basic performance counter stats for a command:
 
 `perf stat {{gcc hello.c}}`
 
-- Display system-wide real time performance counter profile:
+- Display system-wide real-time performance counter profile:
 
 `sudo perf top`
 

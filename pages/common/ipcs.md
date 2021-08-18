@@ -2,7 +2,7 @@
 
 > Display information about resources used in IPC (Inter-process Communication).
 
-- Specific information about the Message Queue which has the id 32768:
+- Specific information about the Message Queue which has the ID 32768:
 
 `ipcs -qi 32768`
 

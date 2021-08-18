@@ -1,6 +1,6 @@
 # ebook-convert
 
-> Can be used to convert e-books between common formats, e.g., pdf, epub and mobi.
+> Can be used to convert e-books between common formats, e.g. PDF, EPUB and MOBI.
 > Part of the Calibre e-book library tool.
 > More information: <https://manual.calibre-ebook.com/generated/en/ebook-convert.html>.
 

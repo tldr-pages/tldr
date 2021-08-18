@@ -1,6 +1,7 @@
 # modinfo
 
 > Estrae le informazioni riguardarti un modulo del kernel Linux.
+> Maggiori informazioni: <https://manned.org/modinfo>.
 
 - Elenca tutti gli attributi di un modulo del kernel:
 

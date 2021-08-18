@@ -2,6 +2,7 @@
 
 > Manage Linux containers using the lxd REST API.
 > Any container names or patterns can be prefixed with the name of a remote server.
+> More information: <https://manned.org/lxc>.
 
 - List local containers matching a string. Omit the string to list all local containers:
 

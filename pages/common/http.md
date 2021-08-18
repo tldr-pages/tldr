@@ -23,7 +23,7 @@
 
 `http {{example.org}} {{X-MyHeader:123}}`
 
-- Pass a user name and password for server authentication:
+- Pass a username and password for server authentication:
 
 `http --auth {{username:password}} {{example.org}}`
 

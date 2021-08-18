@@ -19,6 +19,6 @@
 
 `spark new {{project_name}} --braintree`
 
-- Create a new Spark project with team based billing stubs:
+- Create a new Spark project with team-based billing stubs:
 
 `spark new {{project_name}} --team-billing`

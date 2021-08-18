@@ -1,6 +1,6 @@
 # git describe
 
-> Give an object a human readable name based on an available ref.
+> Give an object a human-readable name based on an available ref.
 > More information: <https://git-scm.com/docs/git-describe>.
 
 - Create a unique name for the current commit (the name contains the most recent annotated tag, the number of additional commits, and the abbreviated commit hash):

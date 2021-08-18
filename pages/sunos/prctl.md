@@ -8,7 +8,7 @@
 
 `prctl {{PID}}`
 
-- Examine process limits and permissions in machine parseable format:
+- Examine process limits and permissions in machine parsable format:
 
 `prctl -P {{PID}}`
 

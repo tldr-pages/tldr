@@ -14,3 +14,11 @@
 - Get service status:
 
 `sudo sv status {{path/to/service}}`
+
+- Reload a service:
+
+`sudo sv reload {{path/to/service}}`
+
+- Start a service, but only if it's not running and don't restart it if it stops:
+
+`sudo sv once {{path/to/service}}`

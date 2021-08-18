@@ -19,7 +19,7 @@
 
 `ls -la`
 
-- Long format list with size displayed using human readable units (KiB, MiB, GiB):
+- Long format list with size displayed using human-readable units (KiB, MiB, GiB):
 
 `ls -lh`
 

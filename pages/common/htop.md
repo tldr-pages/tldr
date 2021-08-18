@@ -9,7 +9,7 @@
 
 - Start htop displaying processes owned by a specific user:
 
-`htop --username {{username}}`
+`htop --user {{username}}`
 
 - Sort processes by a specified `sort_item` (use `htop --sort help` for available options):
 

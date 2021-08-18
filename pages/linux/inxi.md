@@ -3,7 +3,7 @@
 > Print a summary of system information and resources for debugging purposes.
 > More information: <https://manned.org/inxi>.
 
-- Print a short summary of CPU, memory, hard drive and kernel information:
+- Print a summary of CPU, memory, hard drive and kernel information:
 
 `inxi`
 

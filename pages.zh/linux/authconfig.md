@@ -23,11 +23,11 @@
 
 `authconfig --update --enablenis`
 
-- 开启 Kerberos：
+- 开启 Kerberos:
 
 `authconfig --update --enablekrb5`
 
-- 开启 Winbind （活动目录）认证：
+- 开启 Winbind（活动目录）认证：
 
 `authconfig --update --enablewinbindauth`
 

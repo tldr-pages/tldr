@@ -3,7 +3,7 @@
 > Django’s utility for administrative tasks.
 > More information: <https://docs.djangoproject.com/en/3.0/ref/django-admin/>.
 
-- Create a new django project:
+- Create a new Django project:
 
 `django-admin startproject {{project_name}}`
 

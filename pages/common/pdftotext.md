@@ -1,6 +1,7 @@
 # pdftotext
 
 > Convert PDF files to plain text format.
+> More information: <https://www.xpdfreader.com/pdftotext-man.html>.
 
 - Convert `filename.pdf` to plain text and print it to standard output:
 
