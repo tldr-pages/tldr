@@ -11,9 +11,9 @@
 
 `git branch -a`
 
-- Show the name of the current branch:
+- Find what branch a Git commit came from:
 
-`git branch --show-current`
+`git branch --all --contains {{commit_hash}}`
 
 - Create new branch based on the current commit:
 
