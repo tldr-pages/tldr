@@ -18,8 +18,6 @@ from datetime import datetime
 from weasyprint import HTML, CSS
 
 def main(loc, colorscheme):
-    oslist = []
-    allmd = []
 
     # Checking correctness of path
     if not os.path.isdir(loc):
@@ -27,30 +25,26 @@ def main(loc, colorscheme):
         sys.exit(1)
 
     # Set up css style sheets
-    csslist = [CSS("basic.css")]
+    csslist = ["basic.css"]
     if colorscheme != "basic":
-        csslist.append(CSS(colorscheme + ".css"))
+        csslist.append(colorscheme + ".css")
 
     # A string that stores all pages in HTML format
-    html = '<!doctype html><html><head><meta charset="utf-8">' \
-        +"</head><body><h1 class=title-main>tldr pages</h1>" \
+    html = '<!doctype html><html><head><meta charset="utf-8"></head>' \
+        +"<body><h1 class=title-main>tldr pages</h1>" \
         + "<h4 class=title-sub>Simplified and community-driven man pages</h4>" \
         + "<h6 class=title-sub><em><small>Generated on " + datetime.now().strftime("%c") + "</small></em></h6>" \
         + '<p style="page-break-before: always" ></p>'
 
     # Writing names of all directories inside 'pages' to a list
     for operating_sys in sorted(os.listdir(loc)):
+        
         # Required string to create directory title pages
         html += "<h2 class=title-dir>" + operating_sys.capitalize() + "</h2>" \
             + '<p style="page-break-before: always" ></p>'
 
-        # Creating a list of all md files in the current directory
-        for temp in glob.glob(os.path.join(loc, operating_sys, "*.md")):
-            allmd.append(temp)
-        allmd.sort()
-
         # Conversion of Markdown to HTML string
-        for page_number, md in enumerate(allmd, start=1):
+        for page_number, md in enumerate(sorted(glob.glob(os.path.join(loc, operating_sys, "*.md"))), start=1):
             with open(md, "r") as inp:
                 text = inp.readlines()
                 for line in text:
@@ -59,7 +53,6 @@ def main(loc, colorscheme):
                     html += markdown.markdown(line)
             html += '<p style="page-break-before: always" ></p>'
             print(f"Rendered page {page_number} of the directory {operating_sys}")
-        allmd.clear()
     
     html += "</body></html>"
     
