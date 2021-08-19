@@ -58,8 +58,7 @@ def main(loc, colorscheme):
                         line = line[:0] + '####' + line[1:]
                     html += markdown.markdown(line)
             html += '<p style="page-break-before: always" ></p>'
-            print("Rendered page {} of the directory {}".format(
-                str(page_number), operating_sys))
+            print(f"Rendered page {page_number} of the directory {operating_sys}")
         allmd.clear()
     
     html += "</body></html>"
