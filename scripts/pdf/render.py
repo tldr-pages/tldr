@@ -39,11 +39,7 @@ def main(loc, colorscheme):
         + '<p style="page-break-before: always" ></p>'
 
     # Writing names of all directories inside 'pages' to a list
-    for os_dir in os.listdir(loc):
-        oslist.append(os_dir)
-    oslist.sort()
-
-    for operating_sys in oslist:
+    for operating_sys in sorted(os.listdir(loc)):
         # Required string to create directory title pages
         html += "<h2 class=title-dir>" + operating_sys.capitalize() + "</h2>" \
             + '<p style="page-break-before: always" ></p>'
