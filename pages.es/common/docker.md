@@ -1,6 +1,7 @@
 # docker
 
 > Administra contenedores e imágenes de Docker.
+> Este comando también tiene documentación sobre sus subcomandos, ejemplo `docker run`.
 > Más información: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
 - Lista los contenedores de Docker en ejecución:
