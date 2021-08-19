@@ -1,6 +1,7 @@
 # dotnet
 
 > Herramienta multiplataforma de línea de comandos para .NET Core.
+> Este comando también tiene documentación sobre sus subcomandos, ejemplo `dotnet build`.
 > Más información: <https://docs.microsofot.com/dotnet/core/tools>.
 
 - Inicializa un proyecto .NET nuevo:
