@@ -41,18 +41,6 @@ tldrl -f {{page.md}}
 tldr -f {{page.md}}
 ```
 
-## 中西文混排及格式细节
-
-本项目中，**除命令以外**的文本排版均遵循[《中文文案排版指北》](https://github.com/sparanoid/chinese-copywriting-guidelines)。
-
-简单概括：
-
-- 中文与西文、数字、单位之间需要添加空格。
-- 全角标点与其它字符之间不加空格。
-- 除大段西文整句，均使用全角标点。
-- 专有名词使用正确的大小写，不使用中文特有缩写。
-
-关于中西文混排的更多信息及示例，请看[《中文文案排版指北》](https://github.com/sparanoid/chinese-copywriting-guidelines)以及 Pull request [#5420](https://github.com/tldr-pages/tldr/pull/5240)。
 
 ## 占位符 (token) 语法
 
