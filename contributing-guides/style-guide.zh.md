@@ -38,7 +38,7 @@ tldrl -f {{page.md}}
 如果你用 tldr-pages 的 Node.js 客户端，你可以在命令后加 `-f` (`--render`) 来在本地预览自己的页面：
 
 ```
-tldr -f {{page.md}}
+tldr --render {{page.md}}
 ```
 
 
