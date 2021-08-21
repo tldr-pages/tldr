@@ -91,7 +91,7 @@ tldr --render {{page.md}}
    对于度数和百分比：使用 `50°C` 和 `50%` 而不是 `50 °C` 和 `50 %`.
 3. 不要在全角标点符号前后放置空格。
    例如：`开启 shell，进入交互模式`而不是`开启 shell ，进入交互模式`。
-4. 除了西文長句，一律使用全角标点符号。
+4. 除了西文长句，一律使用全角标点符号。
    例如：`嗨，你好。`而不是`嗨, 你好.`。
 5. 当最句子最后一个字符是半角时，使用半角标点符号来结束句子。
    例如：`将代码转化为 Python 3.` 而不是`将代码转化为 Python 3。`。
@@ -100,5 +100,5 @@ tldr --render {{page.md}}
    
 为保持可读性和一致性，将页面翻译成中文时，请尽可能遵守以上 6 条规则。
 
-有关更多中西文混排规则的资讯，请参考[《中文文案排版指北》](https://github.com/sparanoid/chinese-copywriting-guidelines)。
+有关更多中西文混排规则的信息，请参考[《中文文案排版指北》](https://github.com/sparanoid/chinese-copywriting-guidelines)。
 
