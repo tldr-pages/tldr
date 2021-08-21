@@ -3,9 +3,9 @@
 > Validate XML documents.
 > More information: <http://xmlstar.sourceforge.net/docs.php>.
 
-- Validate XML document(s) for well-formedness only (default behavior):
+- Validate XML document(s) for well-formedness only:
 
-`xml validate --well-formed {{path/to/input1.xml|URI}} {{input2.xml ...}}`
+`xml validate {{path/to/input1.xml|URI}} {{input2.xml ...}}`
 
 - Validate XML document(s) against a Document Type Definition (DTD):
 

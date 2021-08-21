@@ -5,11 +5,11 @@
 
 - Convert a PYX (ESIS - ISO 8879) document to XML format:
 
-`xml depyx {{path/to/input.pyx|URI}} >{{path/to/output.xml}}`
+`xml depyx {{path/to/input.pyx|URI}} > {{path/to/output.xml}}`
 
-- Convert a PYX document from the standard input to XML format:
+- Convert a PYX document from stdin to XML format:
 
-`cat {{path/to/input.pyx}} | xml depyx >{{path/to/output.xml}}`
+`cat {{path/to/input.pyx}} | xml depyx > {{path/to/output.xml}}`
 
 - Display help for the `depyx` subcommand:
 

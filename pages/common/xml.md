@@ -1,20 +1,21 @@
 # xml
 
 > XMLStarlet Toolkit: Query, edit, check, convert and transform XML documents.
+> This command also has documentation about its subcommands, e.g. `xml validate`.
 > Subcommands: `canonic`, `edit`, `elements`, `escape`, `unescape`, `format`, `list`, `pyx`, `depyx`, `select`, `transform`, or `validate`.
 > More information: <http://xmlstar.sourceforge.net/docs.php>.
 
-- Execute a subcommand with input from a file or URI and using standard output:
+- Execute a subcommand with input from a file or URI, printing to stdout:
 
 `xml {{subcommand}} {{options}} {{path/to/input.xml|URI}}`
 
-- Execute a subcommand using the standard input and standard output:
+- Execute a subcommand using stdin and stdout:
 
 `xml {{subcommand}} {{options}}`
 
 - Execute a subcommand with input from a file or URI and output to a file:
 
-`xml {{subcommand}} {{options}} {{path/to/input.xml|URI}} >{{path/to/output}}`
+`xml {{subcommand}} {{options}} {{path/to/input.xml|URI}} > {{path/to/output}}`
 
 - Display help for a subcommand:
 
@@ -24,6 +25,6 @@
 
 `xml --help`
 
-- Display version:
+- Display the version of the XMLStarlet Toolkit:
 
 `xml --version`
