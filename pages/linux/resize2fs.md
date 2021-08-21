@@ -1,7 +1,7 @@
 # resize2fs
 
 > Resize an ext2, ext3 or ext4 filesystem.
-> Does not resize the underlying partition, and the filesystem must be unmounted.
+> Does not resize the underlying partition.
 
 - Automatically resize a filesystem:
 
