@@ -3,25 +3,25 @@
 > Edit an XML document.
 > More information: <http://xmlstar.sourceforge.net/docs.php>.
 
-- TBD:
+- Delete elements matching an XPATH from an XML document:
 
-`xml edit`
+`xml edit --delete {{"XPATH1"}} {{path/to/input.xml|URI}}`
 
-- TBD:
+- Move an element node of an XML document from XPATH1 to XPATH2:
 
-`xml edit`
+`xml edit --move {{"XPATH1"}} {{"XPATH2"}} {{path/to/input.xml|URI}}`
 
-- TBD:
+- Rename all attributes named "id" to "ID":
 
-`xml edit`
+`xml edit --rename {{"//*/@id"}} -v {{"ID"}} {{path/to/input.xml|URI}}`
 
-- TBD:
+- Rename XML elements of "table" named "rec" to "record":
 
-`xml edit`
+`xml edit --rename {{"/xml/table/rec"}} -v {{"record"}} {{path/to/input.xml|URI}}`
 
-- TBD:
+- Update the value of XML table record ID=3 to 5:
 
-`xml edit`
+`xml edit --update {{"xml/table/rec[@id=3]/@id"}} -v {{5}} {{path/to/input.xml|URI}}`
 
 - Display help for the `edit` subcommand:
 
