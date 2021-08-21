@@ -5,21 +5,21 @@
 
 - Extract elements from an XML document (producing XPATH expressions):
 
-`xml elements {{path/to/input.xml|URI}} >{{path/to/elements}}`
+`xml elements {{path/to/input.xml|URI}} > {{path/to/elements}}`
 
-- Extract elements and attributes from an XML document:
+- Extract elements and their attributes from an XML document:
 
-`xml elements -a {{path/to/input.xml|URI}} >{{path/to/elements}}`
+`xml elements -a {{path/to/input.xml|URI}} > {{path/to/elements}}`
 
-- Extract elements, attributes, and their values from an XML doc:
+- Extract elements and their attributes and values from an XML document:
 
-`xml elements -v {{path/to/input.xml|URI}} >{{path/to/elements}}`
+`xml elements -v {{path/to/input.xml|URI}} > {{path/to/elements}}`
 
-- Print sorted unique elements from an XML document (to see structure):
+- Print sorted unique elements from an XML document to see its structure:
 
 `xml elements -u {{path/to/input.xml|URI}}`
 
-- Print sorted unique elements up to a depth of 3:
+- Print sorted unique elements from an XML document up to a depth of 3:
 
 `xml elements -d{{3}} {{path/to/input.xml|URI}}`
 
