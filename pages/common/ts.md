@@ -13,7 +13,7 @@
 
 - Add [i]ncremental timestamps with microsecond precision, starting from zero:
 
-`{{some_command}} | ts -i "%H:%M:%.S"`
+`{{some_command}} | ts -i "{{%H:%M:%.S}}"`
 
 - Convert existing timestamps in log file into [r]elative format:
 
