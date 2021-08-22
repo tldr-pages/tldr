@@ -1,9 +1,9 @@
 # nordvpn
 
-> Commandline interface to NordVPN.
-> NordVPN's site: <https://nordvpn.com/>.
+> Command-line interface to NordVPN.
+> More information: <https://nordvpn.com/download/linux/>.
 
-- Login to your NordVPN account:
+- Interactively log into your NordVPN account:
 
 `nordvpn login`
 
@@ -15,10 +15,10 @@
 
 `nordvpn connect`
 
-- List countries:
+- List all available countries:
 
 `nordvpn countries`
 
-- Connect to a specific country:
+- Connect to a NordVPN server in a specific country:
 
-`nordvpn connect Germany`
+`nordvpn connect {{Germany}}`
