@@ -7,7 +7,7 @@
 
 `{{some_command}} | ts`
 
-- Add timestamps with higher precision (microseconds):
+- Add timestamps with microsecond precision:
 
 `{{some_command}} | ts "%b %d %H:%M:%.S"`
 
