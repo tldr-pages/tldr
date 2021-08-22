@@ -11,7 +11,7 @@
 
 `nordvpn status`
 
-- Connect to the nearest server:
+- Connect to the nearest NordVPN server:
 
 `nordvpn connect`
 
