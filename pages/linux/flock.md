@@ -1,16 +1,17 @@
 # flock
 
 > Manage locks from shell scripts.
-> You can use it to ensure that only one progress of your command is running.
+> It can be used to ensure that only one progress of a command is running.
+> More information: <https://manned.org/flock>.
 
-- Run a command with a file lock, wait if the lock is required by others:
+- Run a command with a file lock as soon as the lock is not required by others:
 
-`flock /tmp/lock.lock -c "execute some command"`
+`flock {{/tmp/lock.lock}} --command "{{command}}"`
 
-- Run a command with a file lock, if the lock exists. Else exist:
+- Run a command with a file lock, and exit if the lock doesn't exists:
 
-`flock /tmp/lock.lock -n -c "execute some command"`
+`flock {{/tmp/lock.lock}} --nonblock --command "{{command}}"`
 
-- Run a command with a file lock, if the lock exists. Else exist with errorcode:
+- Run a command with a file lock, and exit with a specific error code if the lock doesn't exists:
 
-`flock /tmp/lock.lock -n -E <errorcode> -c "execute some command"`
+`flock {{/tmp/lock.lock}} --nonblock --conflict-exit-code {{error_code}} -c "{{command}}"`
