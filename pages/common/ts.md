@@ -3,7 +3,7 @@
 > Add timestamps to every line from standard input.
 > More information: <https://joeyh.name/code/moreutils/>.
 
-- Add current timestamp to beginning of each line:
+- Add a timestamp to the beginning of each line:
 
 `{{some_command}} | ts`
 
