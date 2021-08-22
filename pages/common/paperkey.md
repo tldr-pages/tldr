@@ -11,6 +11,6 @@
 
 `paperkey --pubring {{path/to/public_key.gpg}} --secrets {{path/to/secret_data.txt}} --output {{secret_key.gpg}}`
 
-- Export the secret key `my-key` and generate a text file with the secret data:
+- Export the secret key `my-key` and generate a text file `secret_data.txt` with the secret data:
 
-`gpg --export-secret-key {{my-key}} | paperkey`
+`gpg --export-secret-key {{my-key}} | paperkey --output {{path/to/secret_data.txt}}`
