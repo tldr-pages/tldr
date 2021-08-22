@@ -58,12 +58,10 @@ as a guideline for current and future maintainers.
   (1) **pass the automated tests** (GitHub Actions, CLA signing, etc.),
   (2) have the **review comments addressed**, and
   (3) get **approved reviews by two maintainers**
-  (the second maintainer can perform the merge immediately after accepting.)
+  (4) are at least **24 hours** old unless changes are trivial
 
 - If a PR fails to get a review from a second maintainer after a few days,
-  the first maintainer should ping others for review. If it still lingers around
-  for **over a week without a second maintainer’s approval**,
-  the first maintainer can go ahead and merge it.
+  the first maintainer should ping others for review.
 
 - If the only issues holding up a merge are **trivial fixes**
   (typos, syntax errors, etc.), and the author doesn't respond in a day or two,
@@ -71,7 +69,7 @@ as a guideline for current and future maintainers.
   and proceed with the merge process.
 
 - If a PR **stops getting feedback from the submitter** and is marked as stale
-  by [probot-stale](../.github/stale.yml),
+  by [probot-stale](../.github/workflows/stale.yml),
   any maintainer can choose to take over the PR
   and make the necessary changes to get the content ready for merging.
 
