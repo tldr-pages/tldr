@@ -16,7 +16,7 @@
 
 `aurvote --unvote {{package1 package2 ...}}`
 
-- Check if one or ore AUR packages have already been voted:
+- Check if one or more AUR packages have already been voted:
 
 `aurvote --check {{package1 package2 ...}}`
 
