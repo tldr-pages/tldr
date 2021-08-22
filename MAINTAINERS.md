@@ -88,8 +88,6 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [5 January 2020](https://github.com/tldr-pages/tldr/issues/3736) — present
 - **Ein Verne ([@einverne](https://github.com/einverne))**:
   [6 January 2020](https://github.com/tldr-pages/tldr/issues/3738) — present
-- **bl-ue ([@bl-ue](https://github.com/bl-ue))**:
-  [2 February 2021](https://github.com/tldr-pages/tldr/issues/5219) — present
 - **Matthew Peveler ([@MasterOdin](https://github.com/MasterOdin))**:
   [18 March 2021](https://github.com/tldr-pages/tldr/issues/5473) - present
 - **Tan Siret Akıncı ([@yutyo](https://github.com/yutyo))**:
@@ -114,6 +112,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [17 January 2020](https://github.com/tldr-pages/tldr/issues/3764) — [3 February 2021](https://github.com/tldr-pages/tldr/issues/5224)
 - Axel Navarro ([@navarroaxel](https://github.com/navarroaxel)):
   [5 October 2020](https://github.com/tldr-pages/tldr/issues/4504) — [7 April 2021](https://github.com/tldr-pages/tldr/issues/5703)
+- bl-ue ([@bl-ue](https://github.com/bl-ue)):
+  [2 February 2021](https://github.com/tldr-pages/tldr/issues/5219) — [25 June 2021](https://gitter.im/tldr-pages/tldr?at=60d615598a40b117282a96d7)
 
 ## Organization owners
 
