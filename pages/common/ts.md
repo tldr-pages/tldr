@@ -1,6 +1,6 @@
 # ts
 
-> Add timestamps to input lines.
+> Add timestamps to every line from standard input.
 > More information: <https://joeyh.name/code/moreutils/>.
 
 - Add current timestamp to beginning of each line:
