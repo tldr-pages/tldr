@@ -11,7 +11,7 @@
 
 `{{some_command}} | ts "%b %d %H:%M:%.S"`
 
-- Add [i]ncremental timestamps, and show microseconds:
+- Add [i]ncremental timestamps with microsecond precision:
 
 `{{some_command}} | ts -i "%H:%M:%.S"`
 
