@@ -1,7 +1,7 @@
 # readpe
 
 > Displays information about PE files.
-> More information: https://manpages.debian.org/testing/pev/readpe.1.en.html
+> More information: <https://manpages.debian.org/testing/pev/readpe.1.en.html>.
 
 - Display all information about the PE file:
 
