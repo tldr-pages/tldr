@@ -1,7 +1,7 @@
 # flock
 
 > Manage locks from shell scripts.
-> It can be used to ensure that only one progress of a command is running.
+> It can be used to ensure that only one process of a command is running.
 > More information: <https://manned.org/flock>.
 
 - Run a command with a file lock as soon as the lock is not required by others:
