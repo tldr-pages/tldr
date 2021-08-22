@@ -17,4 +17,4 @@
 
 - Convert existing timestamps in log file into [r]elative format:
 
-`cat /var/log/syslog | ts -r`
+`cat {{path/to/file}} | ts -r`
