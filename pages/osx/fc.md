@@ -1,6 +1,7 @@
 # fc
 
 > Open the most recent command and edit it.
+> More information: <https://ss64.com/osx/fc.html>.
 
 - Open in the default system editor:
 

@@ -1,6 +1,7 @@
 # diskutil
 
 > 用于管理本地磁盘和卷的实用程序。
+> 更多信息：<https://ss64.com/osx/diskutil.html>.
 
 - 列出所有当前可用的磁盘、分区和已装入的卷：
 

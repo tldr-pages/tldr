@@ -1,6 +1,7 @@
 # dd
 
 > Convert and copy a file.
+> More information: <https://ss64.com/osx/dd.html>.
 
 - Make a bootable USB drive from an isohybrid file (such like `archlinux-xxx.iso`):
 

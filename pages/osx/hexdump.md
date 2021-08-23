@@ -1,6 +1,7 @@
 # hexdump
 
 > An ASCII, decimal, hexadecimal, octal dump.
+> More information: <https://www.unix.com/man-page/osx/1/HEXDUMP>.
 
 - Print the hexadecimal representation of a file:
 
