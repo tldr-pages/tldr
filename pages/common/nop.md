@@ -1,0 +1,17 @@
+# nop
+
+> Check validity and pretty-print graphs in canonical format.
+> Graphviz filters: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, & `unflatten`.
+> More information: <https://www.graphviz.org/pdf/nop.1.pdf>.
+
+- Pretty-print graphs in canonical format:
+
+`nop {{path/to/input2.gv}} {{path/to/input2.gv}} > {{path/to/output.gv}}`
+
+- Check the graph for validity, producing no output graph:
+
+`nop -p {{path/to/input2.gv}} {{path/to/input2.gv}}`
+
+- Display help:
+
+`nop -?`
