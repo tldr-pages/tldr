@@ -3,7 +3,7 @@
 > The tool for managing Dart projects.
 > More information: <https://dart.dev/tools/dart-tool>.
 
-- Create a new project:
+- Initialize a new Dart project in a directory of the same name:
 
 `dart create {{project_name}}`
 
