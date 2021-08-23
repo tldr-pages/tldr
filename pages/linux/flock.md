@@ -8,10 +8,10 @@
 
 `flock {{path/to/lock.lock}} --command "{{command}}"`
 
-- Run a command with a file lock, and exit if the lock doesn't exists:
+- Run a command with a file lock, and exit if the lock doesn't exist:
 
 `flock {{path/to/lock.lock}} --nonblock --command "{{command}}"`
 
-- Run a command with a file lock, and exit with a specific error code if the lock doesn't exists:
+- Run a command with a file lock, and exit with a specific error code if the lock doesn't exist:
 
 `flock {{path/to/lock.lock}} --nonblock --conflict-exit-code {{error_code}} -c "{{command}}"`
