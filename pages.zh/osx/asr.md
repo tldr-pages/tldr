@@ -2,6 +2,7 @@
 
 > 将磁盘映像还原（复制）到卷上。
 > 命令名称是 Apple Software Restore 的缩写。
+> 更多信息：<https://www.unix.com/man-page/osx/8/asr/>.
 
 - 将磁盘映像复制到目标卷：
 

@@ -2,6 +2,7 @@
 
 > Capture some or all of an X server screen, and save the image to a file.
 > Part of the ImageMagick library.
+> More information: <https://imagemagick.org/script/import.php>.
 
 - Capture the entire X server screen in the PostScript image format:
 
