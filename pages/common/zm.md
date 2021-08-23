@@ -11,6 +11,6 @@
 
 `zm edit`
 
-- Publish a draft:
+- Publish a draft and commit it with git:
 
 `zm publish`
