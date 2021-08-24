@@ -4,7 +4,7 @@
 > Graphviz filters: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, & `unflatten`.
 > More information: <https://graphviz.org/pdf/ccomps.1.pdf>.
 
-- Decompose graphs into their connected components:
+- Decompose one or more graphs into their connected components:
 
 `ccomps {{path/to/input1.gv}} {{path/to/input2.gv ...}} > {{path/to/output.gv}}`
 
