@@ -15,7 +15,7 @@
 
 `readpe --all-sections {{path/to/executable}}`
 
-- Display a specific header from the PE file:
+- Display a specific header from a PE file:
 
 `readpe --header {{dos|coff|optional}} {{path/to/executable}}`
 
