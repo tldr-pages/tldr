@@ -8,8 +8,7 @@
 
 `ccomps {{path/to/input1.gv}} {{path/to/input2.gv ...}} > {{path/to/output.gv}}`
 
-- Print the number of nodes, edges, and connected components in one or
-  more graphs:
+- Print the number of nodes, edges, and connected components in one or more graphs:
 
 `ccomps -v -s {{path/to/input1.gv}} {{path/to/input2.gv ...}}`
 
