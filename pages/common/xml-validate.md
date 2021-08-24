@@ -3,19 +3,19 @@
 > Validate XML documents.
 > More information: <http://xmlstar.sourceforge.net/docs.php>.
 
-- Validate XML document(s) for well-formedness only:
+- Validate one or more XML documents for well-formedness only:
 
 `xml validate {{path/to/input1.xml|URI}} {{input2.xml ...}}`
 
-- Validate XML document(s) against a Document Type Definition (DTD):
+- Validate one or more XML documents against a Document Type Definition (DTD):
 
 `xml validate --dtd {{path/to/schema.dtd}} {{path/to/input1.xml|URI}} {{input2.xml ...}}`
 
-- Validate XML document(s) against an XML Schema Definition (XSD):
+- Validate one or more XML documents against an XML Schema Definition (XSD):
 
 `xml validate --xsd {{path/to/schema.xsd}} {{path/to/input1.xml|URI}} {{input2.xml ...}}`
 
-- Validate XML document(s) against a Relax NG schema (RNG):
+- Validate one or more XML documents against a Relax NG schema (RNG):
 
 `xml validate --relaxng {{path/to/schema.rng}} {{path/to/input1.xml|URI}} {{input2.xml ...}}`
 
