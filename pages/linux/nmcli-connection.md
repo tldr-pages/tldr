@@ -3,11 +3,11 @@
 > Connection management with NetworkManager.
 > More information: <https://man.archlinux.org/man/nmcli.1>.
 
-- List all NetworkManager connections (shows name, uuid, type and device):
+- List all NetworkManager connections (shows name, UUID, type and device):
 
 `nmcli connection`
 
-- Activate a connection by specifying an uuid:
+- Activate a connection by specifying a UUID:
 
 `nmcli connection up uuid {{uuid}}`
 

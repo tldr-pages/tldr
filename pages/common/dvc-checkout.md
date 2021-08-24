@@ -7,7 +7,7 @@
 
 `dvc checkout`
 
-- Checkout to latest version of a specified target:
+- Checkout the latest version of a specified target:
 
 `dvc checkout {{target}}`
 

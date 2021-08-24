@@ -15,7 +15,7 @@
 
 `mixxx --debugAssertBreak --developer --loglevel trace`
 
-- Start mixxx using the specified settings file:
+- Start Mixxx using the specified settings file:
 
 `mixxx --resourcePath {{mixxx/res/controllers}} --settingsPath {{path/to/settings-file}}`
 

@@ -8,10 +8,10 @@
 
 `git authors --list`
 
-- Append the list of committers to the the `AUTHORS` file and open it in the default editor:
+- Append the list of committers to the `AUTHORS` file and open it in the default editor:
 
 `git authors`
 
-- Append the list of committers, excluding emails, to the the `AUTHORS` file and open it in the default editor:
+- Append the list of committers, excluding emails, to the `AUTHORS` file and open it in the default editor:
 
 `git authors --no-email`

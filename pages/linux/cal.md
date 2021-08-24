@@ -11,7 +11,7 @@
 
 `cal -3`
 
-- Use monday as the first day of the week:
+- Use Monday as the first day of the week:
 
 `cal --monday`
 

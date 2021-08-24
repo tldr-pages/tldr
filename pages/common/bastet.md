@@ -3,7 +3,7 @@
 > Clone of the game Tetris in the terminal.
 > More information: <https://fph.altervista.org/prog/bastet.html>.
 
-- Start a tetris game:
+- Start a Tetris game:
 
 `bastet`
 

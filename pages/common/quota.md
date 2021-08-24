@@ -2,7 +2,7 @@
 
 > Display users' disk space usage and allocated limits.
 
-- Show disk quotas in human readable units for the current user:
+- Show disk quotas in human-readable units for the current user:
 
 `quota -s`
 

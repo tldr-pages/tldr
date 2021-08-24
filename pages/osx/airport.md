@@ -1,6 +1,7 @@
 # airport
 
 > Wireless network configuration utility.
+> More information: <https://ss64.com/osx/airport.html>.
 
 - Show current wireless status information:
 

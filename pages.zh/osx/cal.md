@@ -1,6 +1,7 @@
 # cal
 
 > 打印日历信息。
+> 更多信息：<https://ss64.com/osx/cal.html>.
 
 - 打印本月日历：
 

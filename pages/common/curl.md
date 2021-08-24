@@ -4,7 +4,7 @@
 > Supports most protocols, including HTTP, FTP, and POP3.
 > More information: <https://curl.se>.
 
-- Download the contents of an URL to a file:
+- Download the contents of a URL to a file:
 
 `curl {{http://example.com}} --output {{filename}}`
 
@@ -28,7 +28,7 @@
 
 `curl --data {{'{"name":"bob"}'}} --header {{'Content-Type: application/json'}} {{http://example.com/users/1234}}`
 
-- Pass a user name and password for server authentication:
+- Pass a username and password for server authentication:
 
 `curl --user myusername:mypassword {{http://example.com}}`
 

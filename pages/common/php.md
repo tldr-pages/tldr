@@ -3,7 +3,7 @@
 > PHP command-line interface.
 > More information: <https://php.net>.
 
-- Parse and execute a php script:
+- Parse and execute a PHP script:
 
 `php {{file}}`
 

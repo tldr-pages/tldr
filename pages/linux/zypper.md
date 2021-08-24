@@ -15,7 +15,7 @@
 
 `zypper remove {{package}}`
 
-- Upgrade installed packages to newest available versions:
+- Upgrade installed packages to the newest available versions:
 
 `zypper update`
 

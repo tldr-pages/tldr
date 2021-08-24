@@ -2,6 +2,7 @@
 
 > Restaura (copia) una imagen de disco en un volumen.
 > El nombre del comando significa Restauración de Software de Apple.
+> Más información: <https://www.unix.com/man-page/osx/8/asr/>.
 
 - Restaura una imagen de disco en un volumen:
 

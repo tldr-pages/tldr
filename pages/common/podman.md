@@ -24,7 +24,7 @@
 
 `podman pull {{image_name}}:{{image_tag}}`
 
-- Open a shell inside of an already running container:
+- Open a shell inside an already running container:
 
 `podman exec --interactive --tty {{container_name}} {{sh}}`
 

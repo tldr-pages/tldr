@@ -1,6 +1,7 @@
 # mssh
 
 > GTK+ based SSH client for interacting with multiple SSH servers at once.
+> More information: <https://manned.org/mssh>.
 
 - Open a new window and connect to multiple SSH servers:
 

@@ -1,6 +1,7 @@
 # drutil
 
 > 与 DVD 刻录机交互。
+> 更多信息：<https://ss64.com/osx/drutil.html>.
 
 - 从驱动器中弹出磁盘：
 
