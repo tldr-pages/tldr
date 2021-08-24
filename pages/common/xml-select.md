@@ -4,7 +4,7 @@
 > Tip: use `xml elements` to display the XPATHs of an XML document.
 > More information: <http://xmlstar.sourceforge.net/docs.php>.
 
-- Select all elements matching "XPATH1" and print the value of the element "XPATH2":
+- Select all elements matching "XPATH1" and print the value of their sub-element "XPATH2":
 
 `xml select --template --match "{{XPATH1}}" --value-of "{{XPATH2}}" {{path/to/input.xml|URI}}`
 

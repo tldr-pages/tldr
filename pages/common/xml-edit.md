@@ -15,7 +15,7 @@
 
 `xml edit --rename "{{//*/@id}}" -v "{{ID}}" {{path/to/input.xml|URI}}`
 
-- Rename the XML elements of "table" named "rec" to "record":
+- Rename sub-elements of the element "table" that are named "rec" to "record":
 
 `xml edit --rename "{{/xml/table/rec}}" -v "{{record}}" {{path/to/input.xml|URI}}`
 
