@@ -23,6 +23,6 @@
 
 `readpe --imports {{path/to/executable}}`
 
-- Display exported functions:
+- List all exported functions:
 
 `readpe --exports {{path/to/executable}}`
