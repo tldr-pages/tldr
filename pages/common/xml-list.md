@@ -1,6 +1,6 @@
 # xml list
 
-> List a directory's contents (like 'ls') in XML format.
+> List a directory's contents (like `ls`) in XML format.
 > More information: <http://xmlstar.sourceforge.net/docs.php>.
 
 - Write the current directory's listing to an XML document:

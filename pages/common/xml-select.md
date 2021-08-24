@@ -6,17 +6,17 @@
 
 - Select all elements matching "XPATH1" and print the value of the element "XPATH2":
 
-`xml select --template --match {{"XPATH1"}} --value-of {{"XPATH2"}} {{path/to/input.xml|URI}}`
+`xml select --template --match "{{XPATH1}}" --value-of "{{XPATH2}}" {{path/to/input.xml|URI}}`
 
 - Match  "XPATH1" and print the value of "XPATH2" as text with new-lines:
 
-`xml select --text --template --match {{"XPATH1"}} --value-of {{"XPATH2"}} --nl {{path/to/input.xml|URI}}`
+`xml select --text --template --match "{{XPATH1}}" --value-of "{{XPATH2}}" --nl {{path/to/input.xml|URI}}`
 
 - Count the elements of "XPATH1":
 
 `xml select --template --value-of "count({{XPATH1}})" {{path/to/input.xml|URI}}`
 
-- Count all nodes in XML document(s):
+- Count all nodes in one or more XML documents:
 
 `xml select --text --template --inp-name --output " " --value-of "count(node())" --nl {{path/to/input1.xml|URI}} {{path/to/input2.xml|URI}}`
 

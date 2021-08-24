@@ -1,19 +1,19 @@
 # xml elements
 
-> Extract elements and display structure of an XML document.
+> Extract elements and display the structure of an XML document.
 > More information: <http://xmlstar.sourceforge.net/docs.php>.
 
 - Extract elements from an XML document (producing XPATH expressions):
 
-`xml elements {{path/to/input.xml|URI}} > {{path/to/elements}}`
+`xml elements {{path/to/input.xml|URI}} > {{path/to/elements.xpath}}`
 
 - Extract elements and their attributes from an XML document:
 
-`xml elements -a {{path/to/input.xml|URI}} > {{path/to/elements}}`
+`xml elements -a {{path/to/input.xml|URI}} > {{path/to/elements.xpath}}`
 
 - Extract elements and their attributes and values from an XML document:
 
-`xml elements -v {{path/to/input.xml|URI}} > {{path/to/elements}}`
+`xml elements -v {{path/to/input.xml|URI}} > {{path/to/elements.xpath}}`
 
 - Print sorted unique elements from an XML document to see its structure:
 
