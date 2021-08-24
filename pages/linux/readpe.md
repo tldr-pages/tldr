@@ -11,7 +11,7 @@
 
 `readpe --all-headers {{path/to/executable}}`
 
-- Display all the sections present in the PE file:
+- Display all the sections present in a PE file:
 
 `readpe --all-sections {{path/to/executable}}`
 
