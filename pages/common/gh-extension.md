@@ -7,7 +7,7 @@
 
 `gh extension create {{name}}`
 
-- Install a extension from a GitHub repository:
+- Install an extension from a GitHub repository:
 
 `gh extension install {{owner}}/{{repository}}`
 
@@ -19,6 +19,6 @@
 
 `gh extension upgrade {{name}}`
 
-- Upgrade all the extensions:
+- Upgrade all extensions:
 
 `gh extension upgrade --all`
