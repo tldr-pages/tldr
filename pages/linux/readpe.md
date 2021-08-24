@@ -7,7 +7,7 @@
 
 `readpe {{path/to/executable}}`
 
-- Display all the headers present in the PE file:
+- Display all the headers present in a PE file:
 
 `readpe --all-headers {{path/to/executable}}`
 
