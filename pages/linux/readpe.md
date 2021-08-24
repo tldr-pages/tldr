@@ -19,7 +19,7 @@
 
 `readpe --header {{dos|coff|optional}} {{path/to/executable}}`
 
-- Display imported functions:
+- List all imported functions:
 
 `readpe --imports {{path/to/executable}}`
 
