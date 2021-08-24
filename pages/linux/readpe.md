@@ -3,7 +3,7 @@
 > Displays information about PE files.
 > More information: <https://manned.org/readpe>.
 
-- Display all information about the PE file:
+- Display all information about a PE file:
 
 `readpe {{path/to/executable}}`
 
