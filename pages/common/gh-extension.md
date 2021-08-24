@@ -1,6 +1,6 @@
 # gh extension
 
-> Manage extensions for the GitHub CLI command.
+> Manage extensions for the GitHub CLI.
 > More information: <https://cli.github.com/manual/gh_extension>.
 
 - Initialize a new GitHub CLI extension project in a directory of the same name:
