@@ -5,31 +5,31 @@
 
 - Generate an SM3 hash for a file:
 
-`gmssl sm3 {{path/to/file}}`
+`gmssl sm3 <file>`
 
 - Encrypt a file using the SM4 cipher:
 
-`gmssl sms4 -e -in {{path/to/file}} -out {{path/to/file}}.sms4`
+`gmssl sms4 -e -in <file> -out <outputfile>.sms4`
 
 - Decrypt a file using the SM4 cipher:
 
-`gmssl sms4 -d -in {{path/to/file}}.sms4`
+`gmssl sms4 -d -in <file>.sms4`
 
 - Generate an SM2 private key:
 
-`gmssl sm2 -genkey -out {{path/to/file}}.pem`
+`gmssl sm2 -genkey -out <key>.pem`
 
 - Generate an SM2 public key from an existing private key:
 
-`gmssl sm2 -pubout -in {{path/to/file}}.pem -out {{path/to/file}}.pem.pub`
+`gmssl sm2 -pubout -in <key>.pem -out <key.pub>.pem`
 
 - Encrypt a file using the ZUC cipher:
 
-`gmssl zuc -e -in {{path/to/file}} -out {{path/to/file}}.zuc`
+`gmssl zuc -e -in <file> -out <outputfile>.zuc`
 
 - Decrypt a file using the ZUC cipher:
 
-`gmssl zuc -d -in {{path/to/file}}.zuc`
+`gmssl zuc -d -in <file>.zuc`
 
 - Print version:
 
