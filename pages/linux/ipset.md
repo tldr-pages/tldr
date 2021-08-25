@@ -1,6 +1,6 @@
 # ipset
 
-> A quick and easy tool to create IP sets for firewall rules
+> A tool to create IP sets for firewall rules.
 
 - Create an ip set named test_set which will contain ip addresses:
 
