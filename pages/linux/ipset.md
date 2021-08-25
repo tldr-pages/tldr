@@ -14,7 +14,7 @@
 
 `ipset add {{test_set}} {{192.168.1.25}}`
 
-- Delete an ip from a set:
+- Delete an ip from a set `test_set`:
 
 `ipset del test_set 192.168.1.25`
 
