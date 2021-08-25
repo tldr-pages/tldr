@@ -4,7 +4,7 @@
 
 - Create an ip set named `test_set` which will contain ip addresses:
 
-`ipset create test_set hash:ip`
+`ipset create {{test_set}} hash:ip`
 
 - Destroy test_set:
 
