@@ -17,4 +17,4 @@
 
 - Dump all information to the given directory without JSON output:
 
-`ldapdomaindump --no-json --outdir {{output/path}} --user {{domain\\administrator}} --password {{password}} {{hostname|ip}}`
+`ldapdomaindump --no-json --outdir {{path/to/directory}} --user {{domain}}\\{{administrator}} --password {{password}} {{hostname|ip}}`
