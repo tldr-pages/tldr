@@ -12,7 +12,7 @@
 
 - Add an ip to the previously created set:
 
-`ipset add test_set 192.168.1.25`
+`ipset add {{test_set}} {{192.168.1.25}}`
 
 - Delete an ip from a set:
 
