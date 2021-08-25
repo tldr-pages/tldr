@@ -10,7 +10,7 @@
 
 `ipset destroy {{test_set}}`
 
-- Add an ip to the previously created set:
+- Add an ip to the previously created set `test_set`:
 
 `ipset add {{test_set}} {{192.168.1.25}}`
 
