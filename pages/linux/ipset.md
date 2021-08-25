@@ -2,7 +2,7 @@
 
 > A tool to create IP sets for firewall rules.
 
-- Create an ip set named test_set which will contain ip addresses:
+- Create an ip set named `test_set` which will contain ip addresses:
 
 `ipset create test_set hash:ip`
 
