@@ -6,7 +6,7 @@
 
 `ipset create {{test_set}} hash:ip`
 
-- Destroy test_set:
+- Destroy an ip set named `test_set`:
 
 `ipset destroy {{test_set}}`
 
