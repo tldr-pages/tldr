@@ -9,7 +9,7 @@
 
 - Encrypt a file using the SM4 cipher:
 
-`gmssl sms4 -e -in {{path/to/file}} -out {{path/to/file}}.sms4`
+`gmssl sms4 -e -in {{path/to/file}} -out {{path/to/file.sms4}}`
 
 - Decrypt a file using the SM4 cipher:
 
