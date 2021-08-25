@@ -5,7 +5,7 @@
 
 - Dump all information using the given LDAP account:
 
-`ldapdomaindump --user {{domain\\administrator}} --password {{password|NTLM_hash}} {{hostname|ip}}`
+`ldapdomaindump --user {{domain}}\\{{administrator}} --password {{password|NTLM_hash}} {{hostname|ip}}`
 
 - Dump all information, resolving computer hostnames:
 
