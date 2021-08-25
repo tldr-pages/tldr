@@ -8,7 +8,7 @@
 
 - Destroy test_set:
 
-`ipset x (or) destroy test_set`
+`ipset destroy {{test_set}}`
 
 - Add an ip to the previously created set:
 
