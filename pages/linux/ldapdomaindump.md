@@ -9,7 +9,7 @@
 
 - Dump all information, resolving computer hostnames:
 
-`ldapdomaindump --resolve --user {{domain\\administrator}} --password {{password}} {{hostname|ip}}`
+`ldapdomaindump --resolve --user {{domain}}\\{{administrator}} --password {{password}} {{hostname|ip}}`
 
 - Dump all information, resolving computer hostnames with the selected DNS server:
 
