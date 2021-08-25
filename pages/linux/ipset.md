@@ -21,4 +21,3 @@
 - Save an ip set (it depends on the distribution at which file you can save a set to be used from the ipset system service):
 
 `ipset save {{test_set}} > /etc/ipset.conf`
-
