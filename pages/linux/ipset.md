@@ -11,9 +11,9 @@
 
 `ipset destroy {{test_set}}`
 
-- Add an ip to the previously created set `test_set`:
+- Add an IP address to a specific set:
 
-`ipset add {{test_set}} {{192.168.1.25}}`
+`ipset add {{set_name}} {{192.168.1.25}}`
 
 - Delete an ip from a set `test_set`:
 
