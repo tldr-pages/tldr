@@ -17,19 +17,19 @@
 
 - Generate an SM2 private key:
 
-`gmssl sm2 -genkey -out {{path/to/file}}.pem`
+`gmssl sm2 -genkey -out {{path/to/file.pem}}`
 
 - Generate an SM2 public key from an existing private key:
 
-`gmssl sm2 -pubout -in {{path/to/file}}.pem -out {{path/to/file}}.pem.pub`
+`gmssl sm2 -pubout -in {{path/to/file.pem}} -out {{path/to/file.pem.pub}}`
 
 - Encrypt a file using the ZUC cipher:
 
-`gmssl zuc -e -in {{path/to/file}} -out {{path/to/file}}.zuc`
+`gmssl zuc -e -in {{path/to/file}} -out {{path/to/file.zuc}}`
 
 - Decrypt a file using the ZUC cipher:
 
-`gmssl zuc -d -in {{path/to/file}}.zuc`
+`gmssl zuc -d -in {{path/to/file.zuc}}`
 
 - Print version:
 
