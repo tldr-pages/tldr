@@ -13,7 +13,7 @@
 
 - Decrypt a file using the SM4 cipher:
 
-`gmssl sms4 -d -in {{path/to/file}}.sms4`
+`gmssl sms4 -d -in {{path/to/file.sms4}}`
 
 - Generate an SM2 private key:
 
