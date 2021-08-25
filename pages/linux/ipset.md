@@ -1,9 +1,10 @@
 # ipset
 
 > A tool to create IP sets for firewall rules.
-> More information <https://linux.die.net/man/8/ipset>.
+> More information: <https://manned.org/ipset>.
+
 - Create an ip set named `test_set` which will contain ip addresses:
-> More information <https://manned.org/ipset>.
+
 `ipset create {{test_set}} hash:ip`
 
 - Destroy an ip set named `test_set`:
