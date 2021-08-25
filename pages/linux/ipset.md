@@ -16,7 +16,7 @@
 
 - Delete an ip from a set `test_set`:
 
-`ipset del test_set 192.168.1.25`
+`ipset del {{test_set}} {{192.168.1.25}}`
 
 - Save an ip set (it depends on the distibution at which file you can save a set to be used from the ipset system service):
 
