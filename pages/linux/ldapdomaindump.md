@@ -13,7 +13,7 @@
 
 - Dump all information, resolving computer hostnames with the selected DNS server:
 
-`ldapdomaindump --resolve --dns-server {{domain_controller_ip}} --user {{domain\\administrator}} --password {{password}} {{hostname|ip}}`
+`ldapdomaindump --resolve --dns-server {{domain_controller_ip}} --user {{domain}}\\{{administrator}} --password {{password}} {{hostname|ip}}`
 
 - Dump all information to the given directory without JSON output:
 
