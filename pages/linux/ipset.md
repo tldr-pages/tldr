@@ -3,9 +3,9 @@
 > A tool to create IP sets for firewall rules.
 > More information: <https://manned.org/ipset>.
 
-- Create an ip set named `test_set` which will contain ip addresses:
+- Create an empty IP set which will contain IP addresses:
 
-`ipset create {{test_set}} hash:ip`
+`ipset create {{set_name}} hash:ip`
 
 - Destroy an ip set named `test_set`:
 
