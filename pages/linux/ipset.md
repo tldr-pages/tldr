@@ -19,6 +19,6 @@
 
 `ipset del {{set_name}} {{192.168.1.25}}`
 
-- Save an ip set (it depends on the distribution at which file you can save a set for ipset system service):
+- Save an IP set: 
 
 `ipset save {{set_name}} > /etc/ipset.conf`
