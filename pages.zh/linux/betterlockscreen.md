@@ -9,7 +9,7 @@
 
 - 更换锁屏背景：
 
-`betterlockscreen -u {{文件名.png}}`
+`betterlockscreen -u {{图片.png}}`
 
 - 锁屏并显示一些自定义文本：
 
