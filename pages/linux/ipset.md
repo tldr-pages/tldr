@@ -7,9 +7,9 @@
 
 `ipset create {{set_name}} hash:ip`
 
-- Destroy an ip set named `test_set`:
+- Destroy a specific IP set:
 
-`ipset destroy {{test_set}}`
+`ipset destroy {{set_name}}`
 
 - Add an IP address to a specific set:
 
