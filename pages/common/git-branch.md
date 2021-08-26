@@ -11,7 +11,7 @@
 
 `git branch -a`
 
-- Find what branch a Git commit came from:
+- List which branches include a specific Git commit in their history:
 
 `git branch --all --contains {{commit_hash}}`
 
