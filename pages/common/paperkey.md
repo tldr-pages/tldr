@@ -13,4 +13,4 @@
 
 - Export a specific secret key and generate a text file with the secret data:
 
-`gpg --export-secret-key {{my-key}} | paperkey --output {{path/to/secret_data.txt}}`
+`gpg --export-secret-key {{key}} | paperkey --output {{path/to/secret_data.txt}}`
