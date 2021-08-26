@@ -19,6 +19,6 @@
 
 `ipset del {{set_name}} {{192.168.1.25}}`
 
-- Save an IP set: 
+- Save an IP set:
 
 `ipset save {{set_name}} > {{path/to/ip_set}}`
