@@ -1,7 +1,7 @@
 # pfetch
 
 > Display system information.
-> More information: <https://github.com/dylanaraps/pfetch>
+> More information: <https://github.com/dylanaraps/pfetch>.
 
 - Display only the ASCII art and color palette fields:
 
