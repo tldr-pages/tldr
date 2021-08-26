@@ -3,7 +3,7 @@
 > Main Git command for working with branches.
 > More information: <https://git-scm.com/docs/git-branch>.
 
-- List all branches (local and remote):
+- List all branches (local and remote; the current branch is highlighted by `*`):
 
 `git branch --all`
 
