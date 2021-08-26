@@ -8,7 +8,7 @@
 
 `gvcolor {{path/to/layout1.gv}} {{path/to/layout2.gv ...}} > {{path/to/output.gv}}`
 
-- Perform layout and colorization steps, then convert to a PNG image:
+- Lay out a graph and colorize it, then convert to a PNG image:
 
 `dot {{path/to/input.gv}} | gvcolor | dot -T {{png}} > {{path/to/output.png}}`
 

@@ -8,7 +8,7 @@
 
 `nop {{path/to/input1.gv}} {{path/to/input2.gv ...}} > {{path/to/output.gv}}`
 
-- Check the graph for validity, producing no output graph:
+- Check one or more graphs for validity, producing no output graph:
 
 `nop -p {{path/to/input1.gv}} {{path/to/input2.gv ...}}`
 

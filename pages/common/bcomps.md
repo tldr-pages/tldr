@@ -8,7 +8,7 @@
 
 `bcomps {{path/to/input1.gv}} {{path/to/input2.gv ...}} > {{path/to/output.gv}}`
 
-- Print the number of blocks and cutvertice in one or more graphs:
+- Print the number of blocks and cutvertices in one or more graphs:
 
 `bcomps -v -s {{path/to/input1.gv}} {{path/to/input2.gv ...}}`
 

@@ -12,7 +12,7 @@
 
 `edgepaint -color-scheme={{accent7}} {{path/to/layout.gv}} > {{path/to/output.gv}}`
 
-- Perform layout, colorization, and output to a picture with one command:
+- Lay out a graph and colorize its edges, then convert to a PNG image:
 
 `dot {{path/to/input.gv}} | edgepaint | dot -T {{png}} > {{path/to/output.png}}`
 
