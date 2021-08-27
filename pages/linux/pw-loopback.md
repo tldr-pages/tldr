@@ -9,7 +9,7 @@
 
 - Create a sink that can be selected in applications and that forwards the data to another sink:
 
-`pw-loopback -m '[ FL FR]' --capture-props='media.class=Audio/Sink node.name={{my-sink}}'`
+`pw-loopback -m '{{[FL FR]}}' --capture-props='{{media.class=Audio/Sink node.name=my-sink}}'`
 
 - Create a sink that can be selected in applications and that swaps the left and right channels to another sink:
 
