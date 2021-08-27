@@ -5,24 +5,24 @@
 
 - Make a new draft:
 
-`./lb new`
+`lb new`
 
 - Edit a draft:
 
-`./lb edit`
+`lb edit`
 
 - Delete a draft:
 
-`./lb trash`
+`lb trash`
 
 - Publish a draft:
 
-`./lb publish`
+`lb publish`
 
 - Delete a published post:
 
-`./lb delete`
+`lb delete`
 
 - Unpublish a published post to edit it as a draft again:
 
-`./lb revise`
+`lb revise`
