@@ -3,7 +3,7 @@
 > An OpenPGP key archiver.
 > More information: <https://www.jabberwocky.com/software/paperkey/>.
 
-- Take a specific secret key and generate a text file that the secret data:
+- Take a specific secret key and generate a text file with the secret data:
 
 `paperkey --secret-key {{path/to/secret_key.gpg}} --output {{path/to/secret_data.txt}}`
 
