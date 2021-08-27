@@ -1,7 +1,7 @@
 # fgrep
 
 > Matches fixed strings in files.
-> More information: <https://manned.org/fgrep>.
+> More information: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - Search for an exact string in a file:
 
