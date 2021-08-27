@@ -59,11 +59,11 @@ As a quick reference, the format of each page should match the following templat
 
 - Example description:
 
-`command -opt1 -opt2 -arg1 {{arg_value}}`
+`command -opt1 -opt2`
 
 - Example description:
 
-`command -opt1 -opt2`
+`command -opt1 -opt2 -arg1 {{arg_value}}`
 ```
 
 For more detailed page formatting guidelines,
