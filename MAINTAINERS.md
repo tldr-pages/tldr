@@ -46,6 +46,8 @@ If you are an owner of the organization, you can see an automated list
   [10 May 2021](https://github.com/tldr-pages/tldr/issues/5919) — present
 - **Lin Cheng Chieh ([@blueskyson](https://github.com/blueskyson))**: 
   [12 Aug 2021](https://github.com/tldr-pages/tldr/issues/6330) — present
+- **Pixel Häußler ([@pixelcmtd](https://github.com/pixelcmtd))**: 
+  [27 Aug 2021](https://github.com/tldr-pages/tldr/issues/6415) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
