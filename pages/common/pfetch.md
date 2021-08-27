@@ -17,4 +17,4 @@
 
 - Display without colors:
 
-`PF_COLOR=0 pfetch`
+`PF_COLOR={{0}} pfetch`
