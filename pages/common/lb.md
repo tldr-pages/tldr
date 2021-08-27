@@ -1,6 +1,6 @@
 # lb
 
-> A blog management tool.
+> A tool for managing a blog contained in the current directory.
 > More information: <https://github.com/LukeSmithxyz/lb>.
 
 - Make a new draft:
