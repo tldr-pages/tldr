@@ -15,11 +15,11 @@
 
 `needrestart -{{v|q}}`
 
-- Check for obsoleteneed kernel:
+- Check if the kernel is obsolete:
 
 `needrestart -k`
 
-- Check for obsolete CPU microcode:
+- Check if CPU microcode is obsolete:
 
 `needrestart -w`
 
