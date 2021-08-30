@@ -4,6 +4,11 @@
 > Make sure a backend is installed (poppler, PostScript or DjVu).
 > More information: <https://pwmt.org/projects/zathura/>.
 
+
+- Open a file:
+
+`zathura {{path/to/file}}`
+
 - Navigate left/up/down/right:
 
 `<H|J|K|L> or arrow keys`
@@ -20,6 +25,10 @@
 
 `/`
 
-- Create/delete/list bookmarks:
+- Create/delete bookmarks:
 
-`:{{bmark|bdelete|blist}} {{bookmark_name}}`
+`:{{bmark|bdelete}} {{bookmark_name}}`
+
+- List bookmarks
+
+`:blist`
