@@ -11,7 +11,7 @@
 - Rotate:
 
 `r`
- 
+
 - Invert Colors:
 
 `Ctrl + R`
