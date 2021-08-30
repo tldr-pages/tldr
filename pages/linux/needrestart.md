@@ -3,7 +3,7 @@
 > Checks which daemons need to be restarted after library upgrades.
 > More information: <https://github.com/liske/needrestart>.
 
-- List outdated process:
+- List outdated processes:
 
 `needrestart`
 
@@ -19,7 +19,7 @@
 
 `needrestart -k`
 
-- Check if CPU microcode is obsolete:
+- Check if the CPU microcode is obsolete:
 
 `needrestart -w`
 
