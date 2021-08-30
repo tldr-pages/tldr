@@ -1,6 +1,6 @@
 # cmd
 
-> Gestore del servizio Android. 
+> Gestore del servizio Android.
 > Maggiori informazioni: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/cmd/>.
 
 - Elenca tutti i servizi in esecuzione:
