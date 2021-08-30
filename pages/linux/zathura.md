@@ -10,16 +10,16 @@
 
 - Rotate:
 
-`<r>`
+`r`
  
 - Invert Colors:
 
-`<Ctrl-r>`
+`Ctrl + R`
 
 - Search for text:
 
-`</>`
+`/`
 
 - Create/delete/list bookmarks:
 
-`{{:bmark|:bdelete|:blist}} bookmark-name`
+`:{{bmark|bdelete|blist}} {{bookmark_name}}`
