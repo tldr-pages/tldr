@@ -1,7 +1,7 @@
 # zathura
 
-> Zathura is a vim-like modal document viewer, with an integrated command line.
-> Zathura is plugin based; make sure a backend is installed (poppler, PostScript or DjVu).
+> A vim-like modal document viewer, with an integrated command line.
+> Make sure a backend is installed (poppler, PostScript or DjVu).
 > More information: <https://pwmt.org/projects/zathura/>.
 
 - Navigate left/up/down/right:
