@@ -4,7 +4,6 @@
 > Make sure a backend is installed (poppler, PostScript or DjVu).
 > More information: <https://pwmt.org/projects/zathura/>.
 
-
 - Open a file:
 
 `zathura {{path/to/file}}`
@@ -29,6 +28,6 @@
 
 `:{{bmark|bdelete}} {{bookmark_name}}`
 
-- List bookmarks
+- List bookmarks:
 
 `:blist`
