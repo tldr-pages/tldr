@@ -78,7 +78,10 @@ def set_link(file, link):
         locale = 'en'
 
     # build new line
-    new_line = f'> {labels[locale]} <{link}>.\n'
+    if locale == "zh" or locale == "zh_TW":
+        new_line = f'> {labels[locale]}<{link}>.\n'
+    else:
+        new_line = f'> {labels[locale]} <{link}>.\n'
 
     if lines[desc_end] == new_line:
         # return empty status to indicate that no changes were made

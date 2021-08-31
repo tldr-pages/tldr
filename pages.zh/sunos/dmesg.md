@@ -1,7 +1,7 @@
 # dmesg
 
 > 将内核消息写入标准输出。
-> 更多信息： <https://www.unix.com/man-page/sunos/1m/dmesg>.
+> 更多信息：<https://www.unix.com/man-page/sunos/1m/dmesg>.
 
 - 显示内核消息：
 

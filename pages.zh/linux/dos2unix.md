@@ -2,7 +2,7 @@
 
 > 将 DOS 样式的行尾更改为 Unix 样式。
 > 用 CR 替换 CRLF.
-> 更多信息： <https://manned.org/dos2unix>.
+> 更多信息：<https://manned.org/dos2unix>.
 
 - 更改文件的行尾：
 

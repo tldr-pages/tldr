@@ -1,7 +1,7 @@
 # explorer
 
 > Windows 文件资源管理器。
-> 更多信息： <https://ss64.com/nt/explorer.html>.
+> 更多信息：<https://ss64.com/nt/explorer.html>.
 
 - 打开 Windows 文件资源管理器：
 

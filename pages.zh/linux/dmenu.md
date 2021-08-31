@@ -2,7 +2,7 @@
 
 > 动态菜单。
 > 根据文本输入创建菜单，其中每一项都在新行中。
-> 更多信息： <https://manned.org/dmenu>.
+> 更多信息：<https://manned.org/dmenu>.
 
 - 显示 `ls` 命令输出的菜单：
 

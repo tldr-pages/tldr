@@ -1,7 +1,7 @@
 # jenv
 
 > 管理”JAVA_HOME“环境变量的命令行工具。
-> 更多信息： <https://www.jenv.be/>.
+> 更多信息：<https://www.jenv.be/>.
 
 - 向 jEnv 添加一个 Java 版本：
 

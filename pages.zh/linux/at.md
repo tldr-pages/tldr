@@ -1,7 +1,7 @@
 # at
 
 > 在指定时间执行命令。
-> 更多信息： <https://man.archlinux.org/man/at.1>.
+> 更多信息：<https://man.archlinux.org/man/at.1>.
 
 - 打开 `at` 提示符创建一组新的定时命令，按 `Ctrl + D` 保存并退出：
 
