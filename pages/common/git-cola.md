@@ -1,6 +1,6 @@
 # git cola
 
-> Is a powerful Git GUI with a slick and intuitive user interface.
+> A powerful Git GUI with a slick and intuitive user interface.
 > More information: <https://git-cola.readthedocs.io/en/latest/>.
 
 - Start git cola in amend mode:
