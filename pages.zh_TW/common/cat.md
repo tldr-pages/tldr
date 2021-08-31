@@ -1,7 +1,7 @@
 # cat
 
 > 連接檔案並印出檔案的內容。
-> 更多資訊： <https://www.gnu.org/software/coreutils/cat>.
+> 更多資訊：<https://www.gnu.org/software/coreutils/cat>.
 
 - 將檔案的內容印在標準輸出：
 

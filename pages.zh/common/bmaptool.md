@@ -1,7 +1,7 @@
 # bmaptool
 
 > 便捷地创建或复制块文件映射（被设计的比`cp`或`dd`更快）。
-> 更多信息： <https://source.tizen.org/documentation/reference/bmaptool>.
+> 更多信息：<https://source.tizen.org/documentation/reference/bmaptool>.
 
 - 使用图片生成块图文件：
 

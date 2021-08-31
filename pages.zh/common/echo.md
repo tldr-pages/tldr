@@ -1,7 +1,7 @@
 # echo
 
 > 输出给定参数。
-> 更多信息： <https://www.gnu.org/software/coreutils/echo>.
+> 更多信息：<https://www.gnu.org/software/coreutils/echo>.
 
 - 输出文本信息. 注意： 引号是可选的：
 

@@ -2,7 +2,7 @@
 
 > 输出关于当前机器和运行在该机器上的操作系统的详细信息。
 > 注意：如需了解操作系统的其他信息，请尝试使用 `lsb_release` 命令。
-> 更多信息： <https://www.gnu.org/software/coreutils/uname>.
+> 更多信息：<https://www.gnu.org/software/coreutils/uname>.
 
 - 打印硬件相关信息：机器和处理器：
 

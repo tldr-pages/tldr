@@ -1,7 +1,7 @@
 # clear
 
 > 清空终端的屏幕。
-> 更多信息： <https://manned.org/clear>.
+> 更多信息：<https://manned.org/clear>.
 
 - 清空屏幕（相当于在 Bash shell 中按 Control-L 键）：
 
