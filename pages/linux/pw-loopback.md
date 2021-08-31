@@ -13,7 +13,7 @@
 
 - Create a sink that can be selected in applications and that swaps the left and right channels to another sink:
 
-`pw-loopback --capture-props='media.class=Audio/Sink node.name=my-sink audio.position=[FL FR]' --playback-props='audio.position=[FR FL]'`
+`pw-loopback --capture-props='{{media.class=Audio/Sink node.name=my-sink audio.position=[FL FR]}}' --playback-props='{{audio.position=[FR FL]}}'`
 
 - Create a source that can be selected in applications and that swaps the left and right channels from another source:
 
