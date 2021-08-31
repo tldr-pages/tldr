@@ -20,9 +20,9 @@
 
 `Ctrl + R`
 
-- Search for text:
+- Search for text by a given string:
 
-`/`
+`/{{string}}`
 
 - Create/delete bookmarks:
 
