@@ -30,4 +30,4 @@
 
 - Search for bugs by text content:
 
-`git bug ls "{{searchquery}}" baz`
+`git bug ls "{{search_query}}" baz`
