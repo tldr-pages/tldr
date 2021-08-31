@@ -11,7 +11,7 @@
 
 `git cola --prompt`
 
-- Open the Git repository at mentioned path.:
+- Open the Git repository at mentioned path:
 
 `git cola --repo {{path/to/git-repository}}`
 
