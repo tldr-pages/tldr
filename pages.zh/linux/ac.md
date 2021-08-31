@@ -1,7 +1,7 @@
 # ac
 
 > 打印用户连接时长数据。
-> 更多信息： <https://www.gnu.org/software/acct/manual/accounting.html#ac>.
+> 更多信息：<https://www.gnu.org/software/acct/manual/accounting.html#ac>.
 
 - 以小时为单位打印当前用户连接时间：
 

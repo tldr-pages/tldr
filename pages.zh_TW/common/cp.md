@@ -1,7 +1,7 @@
 # cp
 
 > 複製檔案或整個目錄。
-> 更多資訊： <https://www.gnu.org/software/coreutils/cp>.
+> 更多資訊：<https://www.gnu.org/software/coreutils/cp>.
 
 - 將檔案複製到另一個位置：
 

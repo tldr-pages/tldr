@@ -1,7 +1,7 @@
 # apg
 
 > 生成任意复杂度的随机密码。
-> 更多信息： <https://manned.org/apg>.
+> 更多信息：<https://manned.org/apg>.
 
 - 生成随机密码（默认密码长度为 8 位）：
 

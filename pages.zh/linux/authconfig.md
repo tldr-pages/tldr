@@ -1,7 +1,7 @@
 # authconfig
 
 > 用于设置系统认证资源的命令行界面。
-> 更多信息： <https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system-level_authentication_guide/authconfig-install>.
+> 更多信息：<https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system-level_authentication_guide/authconfig-install>.
 
 - 显示当前的配置（或空运行）：
 

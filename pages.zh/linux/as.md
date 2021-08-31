@@ -2,7 +2,7 @@
 
 > 一个可移植的 GUN 汇编器。
 > 主要用于汇编`gcc`的输出，以供链接器`ld`使用。
-> 更多信息： <https://manned.org/as>.
+> 更多信息：<https://manned.org/as>.
 
 - 汇编一个文件，输出为 a.out:
 

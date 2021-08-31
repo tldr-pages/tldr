@@ -1,7 +1,7 @@
 # debootstrap
 
 > 创建一个基本的 `Debian` 系统。
-> 更多信息： <https://wiki.debian.org/Debootstrap>.
+> 更多信息：<https://wiki.debian.org/Debootstrap>.
 
 - 在 `debian-root` 目录中创建一个 `Debian` 稳定分支系统：
 
