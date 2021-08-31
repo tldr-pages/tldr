@@ -17,4 +17,4 @@
 
 - Create a source that can be selected in applications and that swaps the left and right channels from another source:
 
-`pw-loopback --capture-props='audio.position=[FR FL]' --playback-props='media.class=Audio/Source node.name={{my-source}} audio.position=[FL FR]'`
+`pw-loopback --capture-props='{{audio.position=[FR FL]}}' --playback-props='{{media.class=Audio/Source node.name=my-source audio.position=[FL FR]}}'`
