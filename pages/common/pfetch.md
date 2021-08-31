@@ -3,6 +3,10 @@
 > Display system information.
 > More information: <https://github.com/dylanaraps/pfetch>.
 
+- Display the ASCII art and default fields:
+
+`pfetch`
+
 - Display only the ASCII art and color palette fields:
 
 `PF_INFO="{{ascii palette}}" pfetch`
