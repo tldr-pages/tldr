@@ -19,7 +19,7 @@
 
 `git cola --status-filter {{filter}}`
 
-- Print the git cola version and exit.:
+- Print the git cola version and exit:
 
 `git cola --version`
 
