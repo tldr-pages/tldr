@@ -1,6 +1,7 @@
 # zip
 
 > Package and compress (archive) files into zip file.
+> More information: <http://infozip.sourceforge.net/>.
 
 - Package and compress files and directories [r]ecursively:
 
