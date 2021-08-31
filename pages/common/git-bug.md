@@ -1,6 +1,6 @@
 # git bug
 
-> Is a distributed bug tracker embedded in git. It uses git's internal storage so no files are added in your project.
+> A distributed bug tracker that uses git's internal storage, so no files are added in your project.
 > As you would do with commits and branches, you can push your bugs to the same git remote you are already using to collaborate with other people.
 > More information: <https://github.com/MichaelMure/git-bug/blob/master/doc/md/git-bug.md>.
 
