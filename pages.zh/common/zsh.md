@@ -2,7 +2,7 @@
 
 > Z SHell.
 > 与 `bash` 和 `sh` 兼容的命令行解释器。
-> 更多信息： <https://www.zsh.org>.
+> 更多信息：<https://www.zsh.org>.
 
 - 启动交互式解释器：
 

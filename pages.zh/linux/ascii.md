@@ -1,7 +1,7 @@
 # ascii
 
 > 显示 ASCII 字符的别名。
-> 更多信息： <http://www.catb.org/~esr/ascii/>.
+> 更多信息：<http://www.catb.org/~esr/ascii/>.
 
 - 显示一个 ASCII 字符的别名：
 

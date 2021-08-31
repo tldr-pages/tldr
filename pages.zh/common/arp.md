@@ -1,7 +1,7 @@
 # arp
 
 > 显示和操作系统的 ARP 缓存。
-> 更多信息： <https://manned.org/arp>.
+> 更多信息：<https://manned.org/arp>.
 
 - 显示当前的 ARP 表：
 

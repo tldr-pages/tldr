@@ -1,7 +1,7 @@
 # btrfs device
 
 > 管理 btrfs 文件系统中的设备。
-> 更多信息： <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-device>.
+> 更多信息：<https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-device>.
 
 - 将一个或多个设备添加到 btrfs 文件系统中：
 

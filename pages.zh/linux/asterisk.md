@@ -2,7 +2,7 @@
 
 > 电话和交换（手机）服务器。
 > 用于管理服务器自身和管理已经在运行的实例。
-> 更多信息： <https://wiki.asterisk.org/wiki/display/AST/Home>.
+> 更多信息：<https://wiki.asterisk.org/wiki/display/AST/Home>.
 
 - 重新连接一个正在运行的服务器，并打开 3 级的日志详细度：
 

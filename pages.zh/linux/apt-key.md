@@ -1,7 +1,7 @@
 # apt-key
 
 > Debian 和 Ubuntu 上的 APT 软件包管理器的密钥管理工具。
-> 更多信息： <https://manpages.debian.org/latest/apt/apt-key.8.html>.
+> 更多信息：<https://manpages.debian.org/latest/apt/apt-key.8.html>.
 
 - 列出可信密钥：
 

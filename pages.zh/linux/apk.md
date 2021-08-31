@@ -1,7 +1,7 @@
 # apk
 
 > Alpine Linux 的包管理工具。
-> 更多信息： <https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management>.
+> 更多信息：<https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management>.
 
 - 从所有的远程仓库中更新仓库索引：
 

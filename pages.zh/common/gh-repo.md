@@ -1,7 +1,7 @@
 # gh repo
 
 > 在命令行上操作 GitHub 仓库。
-> 更多信息： <https://cli.github.com/manual/gh_repo>.
+> 更多信息：<https://cli.github.com/manual/gh_repo>.
 
 - 创建一个新的仓库（如果没有设置仓库名称，默认将为当前目录的名称）：
 
