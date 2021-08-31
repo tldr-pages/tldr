@@ -7,7 +7,7 @@
 
 `gitlint --help`
 
-- The range of commits to lint.:
+- The range of commits to lint:
 
 `gitlint --commits {{single_refspec_argument}}`
 
