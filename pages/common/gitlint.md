@@ -23,6 +23,6 @@
 
 `gitlint --msg-filename {{path/to/filename}}`
 
-- Read staged commit meta-info from the local repository
+- Read staged commit meta-info from the local repository:
 
 `gitlint --staged`
