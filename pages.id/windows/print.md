@@ -9,4 +9,4 @@
 
 - Mencetak file teks ke dalam mesin pencetak (printer) tertentu:
 
-`print /d:{{mesin_pencetak}} {{path/to/file}}`
+`print /d:{{mesin_pencetak}} {{jalan/menuju/file}}`
