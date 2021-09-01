@@ -14,7 +14,7 @@
 
 - 编译和打包，跳过单元测试：
 
-`mvn package -skipTests`
+`mvn package -DskipTests`
 
 - 在本地 maven 存储库中安装构建的包（这也会调用 compile 和 package 命令）：
 
