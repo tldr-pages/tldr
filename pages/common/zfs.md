@@ -1,7 +1,7 @@
 # zfs
 
 > Manage ZFS filesystems.
-> More information: <https://docs.oracle.com/cd/E23823_01/html/819-5461/zfsover-2.html>.
+> More information: <https://manned.org/zfs>.
 
 - List all available zfs filesystems:
 
