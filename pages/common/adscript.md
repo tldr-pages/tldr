@@ -5,7 +5,7 @@
 
 - Compile a file to an object file:
 
-`adscript --output {{path/to/program.o}} {{path/to/program.adscript}}`
+`adscript --output {{path/to/file.o}} {{path/to/input_file.adscript}}`
 
 - Compile and link a file to a standalone executable:
 
