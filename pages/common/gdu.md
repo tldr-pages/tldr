@@ -31,6 +31,6 @@
 
 `gdu --non-interactive {{path/to/dir}}`
 
-- Do not show progress in non-interactive mode, useful in script:
+- Do not show progress in non-interactive mode, useful in scripts:
 
 `gdu --no-progress {{path/to/dir}}`
