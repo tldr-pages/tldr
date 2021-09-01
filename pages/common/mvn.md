@@ -14,7 +14,7 @@
 
 - Compile and package, skipping unit tests:
 
-`mvn package -Dmaven.test.skip=true`
+`mvn package -DskipTests`
 
 - Install the built package in local maven repository. (This will invoke the compile and package commands too):
 
