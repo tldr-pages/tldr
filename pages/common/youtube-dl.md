@@ -25,7 +25,7 @@
 
 - Download video(s) as MP4 files with custom filenames:
 
-`youtube-dl --format {{mp4}} -o "{{%(title)s by %(uploader)s on %(upload_date)s in %(playlist)s.%(ext)s}}" '{{url}}'`
+`youtube-dl --format {{mp4}} -o "{{%(playlist_index)s-%(title)s by %(uploader)s on %(upload_date)s in %(playlist)s.%(ext)s}}" '{{url}}'`
 
 - Download a particular language's subtitles along with the video:
 
