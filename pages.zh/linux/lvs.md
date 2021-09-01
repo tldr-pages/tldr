@@ -1,8 +1,8 @@
 # lvs
 
-> 显示逻辑卷信息.
-> 另见: `lvm`.
-> 更多信息: <https://man7.org/linux/man-pages/man8/lvs.8.html>.
+> 显示逻辑卷信息。
+> 另见：`lvm`.
+> 更多信息：<https://man7.org/linux/man-pages/man8/lvs.8.html>.
 
 - 显示逻辑卷信息:
 
