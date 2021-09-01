@@ -1,6 +1,7 @@
 # zip
 
 > Package and compress (archive) files into zip file.
+> More information: <https://manned.org/zip>.
 
 - Package and compress files and directories [r]ecursively:
 
