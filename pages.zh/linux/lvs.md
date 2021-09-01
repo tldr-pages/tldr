@@ -24,7 +24,7 @@
 
 `lvs -o +{{field_name}}`
 
-- 抑制标题行:
+- 抑制标题行：
 
 `lvs --noheadings`
 
