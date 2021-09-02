@@ -30,3 +30,7 @@
 - Change permissions recursively giving [g]roup and [o]thers the ability to [w]rite:
 
 `chmod -R g+w,o+w {{directory}}`
+
+- Recursively give [a]ll users [r]ead permissions to all contents in a directory. Makes subdirectories e[X]ecutable but not files. 
+
+`chmod -R a+rX {{directory}}`
