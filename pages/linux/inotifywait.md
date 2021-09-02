@@ -1,6 +1,7 @@
 # inotifywait
 
 > Waits for changes to one or more files.
+> More information: <https://manned.org/inotifywait>.
 
 - Run a command when a file changes:
 
