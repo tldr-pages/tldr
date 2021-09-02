@@ -23,7 +23,7 @@
  ```
 
  Es gibt einen Linter, der das obige Format prüft.
- Er wird automatisch bei jedem Pull Request ausgeführt,
+ Er wird automatisch bei jeder Pull Request ausgeführt,
  er kann aber auch manuell installiert werden, um seine Seiten schon vorher zu überprüfen:
 
  ```
