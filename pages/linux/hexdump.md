@@ -1,6 +1,7 @@
 # hexdump
 
 > An ASCII, decimal, hexadecimal, octal dump.
+> More information: <https://manned.org/hexdump>.
 
 - Print the hexadecimal representation of a file:
 
