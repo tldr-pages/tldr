@@ -9,11 +9,11 @@
 
 - Display the window manager hints for a window:
 
-`xprop -name {{window_name}} {{WM_HINTS}}`
+`xprop -name "{{Window Name}}" {{WM_HINTS}}`
 
 - Display the point size of a font:
 
-`xprop -font {{font_name}} {{POINT_SIZE}}`
+`xprop -font "{{Font Name}}" {{POINT_SIZE}}`
 
 - Display all the properties of the window with the id 0x200007:
 
