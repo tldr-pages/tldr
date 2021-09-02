@@ -1,6 +1,6 @@
 # print
 
-> Mencetak sebuah file teks ke dalam mesin pencetak (printer)
+> Mencetak sebuah file teks ke dalam mesin pencetak (printer).
 > Informasi lebih lanjut: <https://docs.microsoft.com/windows-server/administration/windows-commands/print>.
 
 - Mencetak file teks ke dalam mesin pencetak (printer) default:
