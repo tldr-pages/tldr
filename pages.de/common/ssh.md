@@ -31,6 +31,6 @@
 
 `ssh -J {{benutzer@sring_server}} {{benutzer}}@{{externer_server}}`
 
-- Agenten Weiterleitung: Leite ie eigenen Authentifizierungs-Information an den externen Server weiter (siehe `man ssh_config` für mehr Optionen):
+- Agenten Weiterleitung: Leite die eigenen Authentifizierungs-Information an den externen Server weiter (siehe `man ssh_config` für mehr Optionen):
 
 `ssh -A {{benutzer}}@{{externer_server}}`
