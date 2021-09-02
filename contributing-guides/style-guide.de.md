@@ -51,7 +51,7 @@
     z. B. `{{source_file}}` oder `{{wallet.txt}}`.
  2. Benutze `snake_case` <!--TODO: german wikipedia article for snake_case--> für Tokens, die aus mehreren Wörtern bestehen.
  3. Benutze `{{filename}}` statt `{{file_name}}`.
- 4. Benutze für Referenzen auf Pfade von Dateien oder Ordnern das Format `{{path/to/<Platzhalter>}}`.
+ 4. Benutze für Pfade von Dateien oder Verzeichnissen das Format `{{path/to/<Platzhalter>}}`.
     Beispielsweise `ln -s {{path/to/file}} {{path/to/symlink}}`.
     Benutze für Platzhalter, die ein Pfad zu einer Datei oder einem Verzeichnis sein können `{{path/to/file_or_directory}}`
  5. Folge der `{{path/to/<Platzhalter>}}`-Konvention für alle Pfad-bezogenen Befehle, außer wenn der
