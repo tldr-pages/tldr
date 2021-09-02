@@ -3,18 +3,18 @@
 > An AsciiDoc processor to read and translate AsciiDoc to a publishable format.
 > More information: <https://docs.asciidoctor.org>.
 
-- Convert `path/to/document.adoc` to HTML (the default output format):
+- Convert a specific `.adoc` file to HTML (the default output format):
 
-`asciidoctor {{path/to/document.adoc}}`
+`asciidoctor {{path/to/file.adoc}}`
 
-- Convert `path/to/document.adoc` to HTML and link `path/to/style.css`:
+- Convert a specific `.adoc` file to HTML and link a CSS stylesheet:
 
-`asciidoctor -a stylesheet={{path/to/style.css}} {{path/to/document.adoc}}`
+`asciidoctor -a stylesheet={{path/to/stylesheet.css}} {{path/to/file.adoc}}`
 
-- Convert `path/to/document.adoc` to embeddable HTML, removing everything except the body:
+- Convert a specific `.adoc` file to embeddable HTML, removing everything except the body:
 
-`asciidoctor --embedded {{path/to/document.adoc}}`
+`asciidoctor --embedded {{path/to/file.adoc}}`
 
-- Convert `path/to/document.adoc` to PDF using the `asciidoctor-pdf` library:
+- Convert a specific `.adoc` file to a PDF using the `asciidoctor-pdf` library:
 
-`asciidoctor --backend=pdf --require=asciidoctor-pdf {{path/to/document.adoc}}`
+`asciidoctor --backend=pdf --require=asciidoctor-pdf {{path/to/file.adoc}}`
