@@ -35,12 +35,16 @@ def post_comment(pr_id, body, once):
 
   data = {'pr_id': pr_id, 'body': body}
 
-  with requests.post(endpoint, json=data) as r:
-    if r.status_code != requests.codes.ok:
-      print('Error: tldr-bot responded with code', r.status_code, file=sys.stderr)
-      print(r.text, file=sys.stderr)
-      return False
-
+  try:
+    with requests.post(endpoint, json=data) as r:
+      if r.status_code != requests.codes.ok:
+        print('Error: tldr-bot responded with code', r.status_code, file=sys.stderr)
+        print(r.text, file=sys.stderr)
+        return False
+  except requests.exceptions.RequestException as e:
+    print('Error sending data to tldr-bot:', str(e), file=sys.stderr)
+    return False
+    
   return True
 
 def main(action):
