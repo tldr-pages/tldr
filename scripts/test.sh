@@ -16,6 +16,8 @@ function run_tests {
   for f in ./pages.*; do
     tldr-lint --ignore "TLDR003,TLDR004,TLDR005,TLDR015,TLDR104" ${f}
   done
+  flake8 scripts
+  black scripts --check
 }
 
 # Special test function for GitHub Actions pull request builds.
