@@ -11,9 +11,9 @@
 
 `wp cli update`
 
-- Download a fresh WordPress installation to current directory:
+- Download a fresh WordPress installation to current directory, optionally specifying the locale:
 
-`wp core download [--locale=<locale>]`
+`wp core download --locale={{locale}}`
 
 - Create basic wpconfig file:
 
