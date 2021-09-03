@@ -248,7 +248,15 @@ Not translated yet.
 ---
 ### sv
 
-Not translated yet.
+```markdown
+# example
+
+> Det här kommandot är ett alias för `example`.
+
+- Se dokumentationen för orginalkommandot:
+
+`tldr example`
+```
 
 ---
 ### ta

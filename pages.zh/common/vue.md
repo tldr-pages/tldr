@@ -2,7 +2,7 @@
 
 > 用于初始化 Vue.js 项目的 CLI.
 > 此命令也有关于其子命令的文件，例如：`vue build`.
-> 更多信息： <https://cli.vuejs.org>.
+> 更多信息：<https://cli.vuejs.org>.
 
 - 从模板创建新项目：
 

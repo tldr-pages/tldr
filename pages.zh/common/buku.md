@@ -1,7 +1,7 @@
 # buku
 
 > 命令行版本的书签管理器。
-> 更多信息： <https://github.com/jarun/Buku>.
+> 更多信息：<https://github.com/jarun/Buku>.
 
 - 根据关键词和标签查找书签：
 

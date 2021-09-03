@@ -1,7 +1,7 @@
 # amixer
 
 > ALSA 声卡驱动程序的混合器。
-> 更多信息： <https://manned.org/amixer>.
+> 更多信息：<https://manned.org/amixer>.
 
 - 增加 10% 的主音量：
 

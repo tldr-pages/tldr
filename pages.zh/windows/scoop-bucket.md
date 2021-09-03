@@ -2,7 +2,7 @@
 
 > 管理 bucket: 包含描述 scoop 应如何安装应用程序的文件的 Git 存储库。
 > 如果 Scoop 不知道 bucket 在哪里，则必须指定其存储库位置。
-> 更多信息： <https://github.com/lukesampson/scoop/wiki/Buckets>.
+> 更多信息：<https://github.com/lukesampson/scoop/wiki/Buckets>.
 
 - 列出所有正在使用的 bucket:
 

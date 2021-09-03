@@ -1,7 +1,7 @@
 # aspell
 
 > 交互式拼写检查工具。
-> 更多信息： <http://aspell.net/>.
+> 更多信息：<http://aspell.net/>.
 
 - 为一个文件做拼写检查：
 

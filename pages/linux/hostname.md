@@ -1,6 +1,7 @@
 # hostname
 
 > Show or set the system's host name.
+> More information: <https://manned.org/hostname>.
 
 - Show current host name:
 

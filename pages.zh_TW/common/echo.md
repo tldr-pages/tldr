@@ -1,7 +1,7 @@
 # echo
 
 > 印出文字。
-> 更多資訊： <https://www.gnu.org/software/coreutils/echo>.
+> 更多資訊：<https://www.gnu.org/software/coreutils/echo>.
 
 - 印出一行文字（如果文字中沒有連續的空格，可以不加引號）：
 

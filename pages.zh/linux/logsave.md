@@ -1,7 +1,7 @@
 # logsave
 
 > 将一个命令的输出保存在日志文件中。
-> 更多信息： <https://manned.org/logsave>.
+> 更多信息：<https://manned.org/logsave>.
 
 - 使用指定的参数执行命令并将其输出保存到日志文件中：
 

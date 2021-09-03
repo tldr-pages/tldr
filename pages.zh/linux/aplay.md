@@ -1,7 +1,7 @@
 # aplay
 
 > ALSA 声卡驱动程序的命令行声音播放器。
-> 更多信息： <https://manned.org/aplay>.
+> 更多信息：<https://manned.org/aplay>.
 
 - 播放一个文件（会自动根据文件格式确定采样率、位深等）：
 

@@ -1,6 +1,7 @@
 # feh
 
 > Lightweight image viewing utility.
+> More information: <https://github.com/derf/feh>.
 
 - View images locally or using a URL:
 

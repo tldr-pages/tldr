@@ -2,7 +2,7 @@
 
 > Yet Another Yogurt: 一个用于 Arch Linux 的工具，用于从 Arch User Repository 中构建和安装软件包。
 > 另见 `pacman`。
-> 更多信息： <https://github.com/Jguer/yay>.
+> 更多信息：<https://github.com/Jguer/yay>.
 
 - 从仓库和 AUR 中交互式搜索和安装软件包：
 

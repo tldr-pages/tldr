@@ -1,7 +1,7 @@
 # addr2line
 
 > 将二进制文件地址转换成文件名和行数。
-> 更多信息： <https://manned.org/addr2line>.
+> 更多信息：<https://manned.org/addr2line>.
 
 - 显示可执行文件的指令地址对应源代码的文件名和行数：
 
