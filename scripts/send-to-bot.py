@@ -3,8 +3,7 @@
 
 import os
 import sys
-import json
-import urllib.request
+import requests
 
 BOT_URL = "https://tldr-bot.starbeamrainbowlabs.com"
 
@@ -35,24 +34,19 @@ def post_comment(pr_id, body, once):
     if once:
         endpoint += "/once"
 
-    headers = {"Content-Type": "application/json"}
-    data = json.dumps({"pr_id": pr_id, "body": body})
-    req = urllib.request.Request(endpoint, data.encode(), headers)
+    data = {'pr_id': pr_id, 'body': body}
 
     try:
-        resp = urllib.request.urlopen(req)
-        code = resp.getcode()
-    except Exception as e:
-        print("Error sending data to tldr-bot:", str(e), file=sys.stderr)
-        return False
-
-    if code != 200:
-        print("Error: tldr-bot responded with code", code, file=sys.stderr)
-        print(resp.read(), file=sys.stderr)
+        with requests.post(endpoint, json=data) as r:
+            if r.status_code != requests.codes.ok:
+                print('Error: tldr-bot responded with code', r.status_code, file=sys.stderr)
+                print(r.text, file=sys.stderr)
+                return False
+    except requests.exceptions.RequestException as e:
+        print('Error sending data to tldr-bot:', str(e), file=sys.stderr)
         return False
 
     return True
-
 
 def main(action):
     if action not in ("report-errors", "report-check-results"):
