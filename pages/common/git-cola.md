@@ -18,15 +18,3 @@
 - Apply the path filter to the status widget:
 
 `git cola --status-filter {{filter}}`
-
-- Print the git cola version and exit:
-
-`git cola --version`
-
-- Show usage and optional arguments:
-
-`git cola --help`
-
-- Search for bugs by text content:
-
-`git cola --help-commands`

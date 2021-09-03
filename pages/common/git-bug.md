@@ -14,11 +14,11 @@
 
 - You can push your new entry to a remote:
 
-`git bug push {{remote}}`
+`git bug push`
 
 - You can pull for updates:
 
-`git bug pull {{remote}}`
+`git bug pull`
 
 - List existing bugs:
 

@@ -3,10 +3,6 @@
 > Git commit message linter checks your commit messages for style.
 > More information: <https://jorisroovers.com/gitlint/>.
 
-- Show usage and optional arguments:
-
-`gitlint --help`
-
 - The range of commits to lint:
 
 `gitlint --commits {{single_refspec_argument}}`
