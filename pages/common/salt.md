@@ -1,7 +1,6 @@
 # salt
 
 > Execute commands and assert state on remote salt minions.
-> This command also has documentation about its subcommands, e.g. `salt run`.
 > More information: <https://docs.saltstack.com/ref/cli/salt.html>.
 
 - List connected minions:
