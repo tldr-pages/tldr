@@ -1,6 +1,6 @@
 # needrestart
 
-> Checks which daemons need to be restarted after library upgrades.
+> Check which daemons need to be restarted after library upgrades.
 > More information: <https://github.com/liske/needrestart>.
 
 - List outdated processes:
@@ -11,7 +11,7 @@
 
 `sudo needrestart`
 
-- Run in [v]erbose or [q]uiet mode:
+- List outdated processes in [v]erbose or [q]uiet mode:
 
 `needrestart -{{v|q}}`
 
