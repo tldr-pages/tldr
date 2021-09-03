@@ -11,7 +11,7 @@
 
 `carp --prompt "{{> }}"`
 
-- Build a `.carp` file:
+- Build a `carp` file:
 
 `carp -b {{path/to/file.carp}}`
 
