@@ -9,7 +9,7 @@
 
 - Start a REPL with a custom prompt:
 
-`carp --prompt "> "`
+`carp --prompt "{{> }}"`
 
 - Build a file:
 
