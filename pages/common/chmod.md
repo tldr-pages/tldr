@@ -31,6 +31,6 @@
 
 `chmod -R g+w,o+w {{directory}}`
 
-- Recursively give [a]ll users [r]ead permissions to all contents in a directory. Makes subdirectories e[X]ecutable but not files:
+- Recursively give [a]ll users [r]ead permissions to files and e[X]ecute permissions to sub-directories within a directory:
 
 `chmod -R a+rX {{directory}}`
