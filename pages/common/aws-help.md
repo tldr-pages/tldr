@@ -1,6 +1,6 @@
 # aws help
 
-> Display help information about AWS CLI.
+> Display help information about the AWS CLI.
 > More information: <https://docs.aws.amazon.com/cli/latest/reference/index.html>.
 
 - Display help:
