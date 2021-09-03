@@ -15,9 +15,9 @@
 
 `wp core download --locale={{locale}}`
 
-- Create basic `wpconfig` file:
+- Create basic `wpconfig` file (assuming database on `localhost`):
 
-`wp config create --dbname=<dbname> --dbuser=<dbuser> [--dbpass=<dbpass>] [--dbhost=<dbhost>]`
+`wp config create --dbname={{dbname}} --dbuser={{dbuser}} --dbpass={{dbpass}}`
 
 - Install and activate a WordPress plugin:
 
