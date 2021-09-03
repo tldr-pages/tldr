@@ -19,7 +19,7 @@
 
 `carp -x {{path/to/file.carp}}`
 
-- Build a file with optimizations:
+- Build a file with optimizations enabled:
 
 `carp -b --optimize {{path/to/file.carp}}`
 
