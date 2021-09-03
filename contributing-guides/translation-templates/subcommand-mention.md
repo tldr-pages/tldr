@@ -1,4 +1,3 @@
-
 # Mentioning sub-commands
 
 When a command has a sub-command, which can't be covered in the original page, it get's its own page.

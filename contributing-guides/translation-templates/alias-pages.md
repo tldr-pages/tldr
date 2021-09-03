@@ -1,4 +1,3 @@
-
 # Alias pages
 
 In order to document a command which is an alias of another command, you can
