@@ -13,4 +13,4 @@
 
 - Display help about a specific topic:
 
-`aws help {{topicname}}`
+`aws help {{topic_name}}`
