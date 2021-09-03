@@ -15,7 +15,7 @@
 
 `wp core download --locale={{locale}}`
 
-- Create basic wpconfig file:
+- Create basic `wpconfig` file:
 
 `wp config create --dbname=<dbname> --dbuser=<dbuser> [--dbpass=<dbpass>] [--dbhost=<dbhost>]`
 
