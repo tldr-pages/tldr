@@ -3,7 +3,7 @@
 > High performance Common Lisp compiler.
 > More information: <http://www.sbcl.org/>.
 
-- Start an SBCL interactive shell (REPL):
+- Start a REPL (interactive shell):
 
 `sbcl`
 
