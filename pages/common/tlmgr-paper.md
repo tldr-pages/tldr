@@ -9,7 +9,7 @@
 
 - Set the default paper size for all TeX Live programs to A4:
 
-`tlmgr paper {{a4}}`
+`sudo tlmgr paper {{a4}}`
 
 - Show the default paper size used by a specific TeX Live program:
 
@@ -17,7 +17,7 @@
 
 - Set the dafault paper size for a specific TeX Live program to A4:
 
-`tlmgr {{pdftex}} paper {{a4}}`
+`sudo tlmgr {{pdftex}} paper {{a4}}`
 
 - List all available paper sizes for a specific TeX Live program:
 
