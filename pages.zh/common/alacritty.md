@@ -1,7 +1,7 @@
 # alacritty
 
 > 跨平台，GPU 加速的终端模拟器。
-> 更多信息： <https://github.com/alacritty/alacritty>.
+> 更多信息：<https://github.com/alacritty/alacritty>.
 
 - 打开一个新的 Alacritty 窗口：
 

@@ -1,7 +1,7 @@
 # docker
 
 > 管理 Docker 容器和镜像。
-> 更多信息： <https://docs.docker.com/engine/reference/commandline/cli/>.
+> 更多信息：<https://docs.docker.com/engine/reference/commandline/cli/>.
 
 - 列出目前正在运行的 docker 容器:
 

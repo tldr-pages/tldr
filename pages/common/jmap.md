@@ -1,6 +1,7 @@
 # jmap
 
 > Java Memory Map Tool.
+> More information: <https://docs.oracle.com/javase/7/docs/technotes/tools/share/jmap.html>.
 
 - Print shared object mappings for a Java process (output like pmap):
 

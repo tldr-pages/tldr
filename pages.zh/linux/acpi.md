@@ -1,7 +1,7 @@
 # acpi
 
 > 显示电池状态或热量信息。
-> 更多信息： <https://sourceforge.net/projects/acpiclient/files/acpiclient/>.
+> 更多信息：<https://sourceforge.net/projects/acpiclient/files/acpiclient/>.
 
 - 显示电池信息：
 

@@ -1,7 +1,7 @@
 # code
 
 > Visual Studio Code.
-> 更多資訊： <https://github.com/microsoft/vscode>.
+> 更多資訊：<https://github.com/microsoft/vscode>.
 
 - 執行 VS Code:
 

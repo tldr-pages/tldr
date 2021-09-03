@@ -1,6 +1,7 @@
 # base64
 
 > Codifica e decodifica utilizzando la rappresentazione in base64.
+> Maggiori informazioni: <https://www.unix.com/man-page/osx/1/base64/>.
 
 - Codifica un file:
 

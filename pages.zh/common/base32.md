@@ -1,7 +1,7 @@
 # base32
 
 > 将文件或标准输入编码到 Base32 或从 Base32 解码为标准输出。
-> 更多信息： <https://www.gnu.org/software/coreutils/base32>.
+> 更多信息：<https://www.gnu.org/software/coreutils/base32>.
 
 - 编码一个文件：
 

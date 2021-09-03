@@ -1,7 +1,7 @@
 # units
 
 > 提供两个度量单位之间的转换。
-> 更多信息： <https://www.gnu.org/software/units/>.
+> 更多信息：<https://www.gnu.org/software/units/>.
 
 - 以交互模式运行：
 

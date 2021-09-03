@@ -1,6 +1,7 @@
 # date
 
 > Set or display the system date.
+> More information: <https://ss64.com/osx/date.html>.
 
 - Display the current date using the default locale's format:
 

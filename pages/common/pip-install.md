@@ -15,6 +15,10 @@
 
 `pip install -r {{requirements.txt}}`
 
+- Install packages from an URL or local file archive (.tar.gz | .whl):
+
+`pip install -f {{url|path/to/file}}`
+
 - Install the local package in the current directory in develop (editable) mode:
 
 `pip install -e .`

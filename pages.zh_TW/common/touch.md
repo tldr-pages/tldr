@@ -1,7 +1,7 @@
 # touch
 
 > 改變檔案的存取與修改時間。
-> 更多資訊： <https://www.gnu.org/software/coreutils/touch>.
+> 更多資訊：<https://www.gnu.org/software/coreutils/touch>.
 
 - 建立新檔案，或更新現存檔案的存取與修改時間：
 
