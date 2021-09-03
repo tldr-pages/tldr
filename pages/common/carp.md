@@ -3,7 +3,7 @@
 > REPL and build tool for Carp.
 > More information: <https://carp-lang.github.io/carp-docs/Manual.html>.
 
-- Start a REPL:
+- Start a REPL (interactive shell):
 
 `carp`
 
