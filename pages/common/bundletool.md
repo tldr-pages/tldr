@@ -1,7 +1,7 @@
 # bundletool
 
 > Command-line tool to manipulate Android Application Bundles.
-> This command also has documentation about its subcommands, e.g. `bundletool validate`.
+> Some subcommands such as `bundletool validate` have their own usage documentation.
 > More information: <https://developer.android.com/studio/command-line/bundletool>.
 
 - Display help for a subcommand:

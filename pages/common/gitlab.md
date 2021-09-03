@@ -1,7 +1,7 @@
 # gitlab
 
 > Ruby wrapper and CLI for the GitLab API.
-> This command also has documentation about its subcommands, e.g. `gitlab ctl`.
+> Some subcommands such as `gitlab ctl` have their own usage documentation.
 > More information: <https://narkoz.github.io/gitlab/>.
 
 - Create a new project:

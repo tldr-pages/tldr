@@ -1,7 +1,7 @@
 # dvc
 
 > Data Version Control: like `git` for data.
-> This command also has documentation about its subcommands, e.g. `dvc commit`.
+> Some subcommands such as `dvc commit` have their own usage documentation.
 > More information: <https://dvc.org/>.
 
 - Check the DVC version:

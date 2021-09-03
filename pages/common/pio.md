@@ -1,7 +1,7 @@
 # pio
 
 > Development environment for embedded boards.
-> This command also has documentation about its subcommands, e.g. `pio run`.
+> Some subcommands such as `pio run` have their own usage documentation.
 > More information: <https://docs.platformio.org/en/latest/core/userguide/>.
 
 - Show help and list subcommands:

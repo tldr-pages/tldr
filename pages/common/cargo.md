@@ -1,7 +1,7 @@
 # cargo
 
 > Manage Rust projects and their module dependencies (crates).
-> This command also has documentation about its subcommands, e.g. `cargo build`.
+> Some subcommands such as `cargo build` have their own usage documentation.
 > More information: <https://crates.io/>.
 
 - Search for crates:

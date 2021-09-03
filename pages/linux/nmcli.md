@@ -1,7 +1,7 @@
 # nmcli
 
 > A command-line tool for controlling NetworkManager.
-> This command also has documentation about its subcommands, e.g. `nmcli monitor`.
+> Some subcommands such as `nmcli monitor` have their own usage documentation.
 > More information: <https://manned.org/nmcli>.
 
 - Run an `nmcli` subcommand:

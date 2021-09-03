@@ -1,7 +1,7 @@
 # reg
 
 > A command-line interface for managing keys and their values in the Windows registry.
-> This command also has documentation about its subcommands, e.g. `reg add`.
+> Some subcommands such as `reg add` have their own usage documentation.
 > More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/reg>.
 
 - Execute registry commands:

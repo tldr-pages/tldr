@@ -1,7 +1,7 @@
 # dpkg
 
 > Debian package manager.
-> This command also has documentation about its subcommands, e.g. `dpkg deb`.
+> Some subcommands such as `dpkg deb` have their own usage documentation.
 > More information: <https://manpages.debian.org/buster/dpkg/dpkg.1.en.html>.
 
 - Install a package:

@@ -1,7 +1,7 @@
 # aws
 
 > Das offizielle CLI für Amazon Web Services.
-> Dieser Befehl hat auch Dokumentation über dessen Unterbefehle, wie z.B. `aws s3`.
+> Manche Unterbefehle wie `aws s3` sind separat dokumentiert.
 > Weitere Informationen: <https://aws.amazon.com/cli>.
 
 - Konfiguriere die AWS Kommandozeile:

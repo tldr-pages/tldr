@@ -1,7 +1,7 @@
 # odps
 
 > Aliyun ODPS (Open Data Processing Service) command-line tool.
-> This command also has documentation about its subcommands, e.g. `odps inst`.
+> Some subcommands such as `odps inst` have their own usage documentation.
 > More information: <https://www.alibabacloud.com/help/doc-detail/27971.htm>.
 
 - Start the command-line with a custom configuration file:

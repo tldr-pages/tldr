@@ -1,7 +1,7 @@
 # hg
 
 > A command-line interface for Mercurial, a distributed source control management system.
-> This command also has documentation about its subcommands, e.g. `hg commit`.
+> Some subcommands such as `hg commit` have their own usage documentation.
 > More information: <https://www.mercurial-scm.org>.
 
 - Execute Mercurial command:

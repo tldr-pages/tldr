@@ -1,7 +1,7 @@
 # cargo
 
 > Verwalte Rust-Projekte und deren Abhängigkeiten (crates).
-> Dieser Befehl hat auch Dokumentation über dessen Unterbefehle, wie z.B. `cargo build`.
+> Manche Unterbefehle wie `cargo build` sind separat dokumentiert.
 > Weitere Informationen: <https://crates.io/>.
 
 - Suche nach Abhängigkeiten (crates):

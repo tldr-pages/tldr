@@ -1,7 +1,7 @@
 # amass
 
 > In-depth Attack Surface Mapping and Asset Discovery tool.
-> This command also has documentation about its subcommands, e.g. `amass db`.
+> Some subcommands such as `amass db` have their own usage documentation.
 > More information: <https://github.com/OWASP/Amass>.
 
 - Check the Amass version:

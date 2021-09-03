@@ -1,7 +1,7 @@
 # drupal
 
 > Generate boilerplate code, interact with and debug Drupal projects.
-> This command also has documentation about its subcommands, e.g. `drupal check`.
+> Some subcommands such as `drupal check` have their own usage documentation.
 > More information: <https://drupalconsole.com/>.
 
 - Install a module:

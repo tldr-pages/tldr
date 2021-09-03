@@ -1,7 +1,7 @@
 # pip
 
 > Python package manager.
-> This command also has documentation about its subcommands, e.g. `pip install`.
+> Some subcommands such as `pip install` have their own usage documentation.
 > More information: <https://pip.pypa.io>.
 
 - Install a package (see `pip install` for more install examples):

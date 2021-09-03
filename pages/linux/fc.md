@@ -1,7 +1,7 @@
 # fc
 
 > Open the most recent command and edit it.
-> This command also has documentation about its subcommands, e.g. `fc list`.
+> Some subcommands such as `fc list` have their own usage documentation.
 > More information: <https://manned.org/fc>.
 
 - Open in the default system editor:
