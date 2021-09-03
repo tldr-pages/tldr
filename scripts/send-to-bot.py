@@ -34,19 +34,24 @@ def post_comment(pr_id, body, once):
     if once:
         endpoint += "/once"
 
-    data = {'pr_id': pr_id, 'body': body}
+    data = {"pr_id": pr_id, "body": body}
 
     try:
         with requests.post(endpoint, json=data) as r:
             if r.status_code != requests.codes.ok:
-                print('Error: tldr-bot responded with code', r.status_code, file=sys.stderr)
+                print(
+                    "Error: tldr-bot responded with code",
+                    r.status_code,
+                    file=sys.stderr,
+                )
                 print(r.text, file=sys.stderr)
                 return False
     except requests.exceptions.RequestException as e:
-        print('Error sending data to tldr-bot:', str(e), file=sys.stderr)
+        print("Error sending data to tldr-bot:", str(e), file=sys.stderr)
         return False
 
     return True
+
 
 def main(action):
     if action not in ("report-errors", "report-check-results"):
