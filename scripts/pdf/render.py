@@ -15,7 +15,8 @@ import markdown
 import argparse
 from datetime import datetime
 
-from weasyprint import HTML, CSS
+from weasyprint import HTML
+
 
 def main(loc, colorscheme):
 
@@ -30,32 +31,42 @@ def main(loc, colorscheme):
         csslist.append(colorscheme + ".css")
 
     # A string that stores all pages in HTML format
-    html = '<!doctype html><html><head><meta charset="utf-8"></head>' \
-        +"<body><h1 class=title-main>tldr pages</h1>" \
-        + "<h4 class=title-sub>Simplified and community-driven man pages</h4>" \
-        + "<h6 class=title-sub><em><small>Generated on " + datetime.now().strftime("%c") + "</small></em></h6>" \
+    html = (
+        '<!doctype html><html><head><meta charset="utf-8"></head>'
+        + "<body><h1 class=title-main>tldr pages</h1>"
+        + "<h4 class=title-sub>Simplified and community-driven man pages</h4>"
+        + "<h6 class=title-sub><em><small>Generated on "
+        + datetime.now().strftime("%c")
+        + "</small></em></h6>"
         + '<p style="page-break-before: always" ></p>'
+    )
 
     # Writing names of all directories inside 'pages' to a list
     for operating_sys in sorted(os.listdir(loc)):
-        
+
         # Required string to create directory title pages
-        html += "<h2 class=title-dir>" + operating_sys.capitalize() + "</h2>" \
+        html += (
+            "<h2 class=title-dir>"
+            + operating_sys.capitalize()
+            + "</h2>"
             + '<p style="page-break-before: always" ></p>'
+        )
 
         # Conversion of Markdown to HTML string
-        for page_number, md in enumerate(sorted(glob.glob(os.path.join(loc, operating_sys, "*.md"))), start=1):
+        for page_number, md in enumerate(
+            sorted(glob.glob(os.path.join(loc, operating_sys, "*.md"))), start=1
+        ):
             with open(md, "r") as inp:
                 text = inp.readlines()
                 for line in text:
-                    if re.match(r'^>', line):
-                        line = line[:0] + '####' + line[1:]
+                    if re.match(r"^>", line):
+                        line = line[:0] + "####" + line[1:]
                     html += markdown.markdown(line)
             html += '<p style="page-break-before: always" ></p>'
             print(f"Rendered page {page_number} of the directory {operating_sys}")
-    
+
     html += "</body></html>"
-    
+
     # Writing the PDF to disk
     print("\nConverting all pages to PDF...")
     HTML(string=html).write_pdf("tldr-pages.pdf", stylesheets=csslist)
@@ -63,12 +74,22 @@ def main(loc, colorscheme):
     if os.path.exists("tldr-pages.pdf"):
         print("\nCreated tldr-pages.pdf in the current directory!\n")
 
+
 if __name__ == "__main__":
 
     # Parsing the arguments
-    parser = argparse.ArgumentParser(prog="tldr-pages-to-pdf", description="A Python script to generate a single PDF document with all the `tldr` pages.")
-    parser.add_argument("dir_path", help = "Path to the 'pages' directory")
-    parser.add_argument("-c", "--color", choices=["solarized-light", "solarized-dark", "basic"], default="basic", help="Color scheme of the PDF")
+    parser = argparse.ArgumentParser(
+        prog="tldr-pages-to-pdf",
+        description="A Python script to generate a single PDF document with all the `tldr` pages.",
+    )
+    parser.add_argument("dir_path", help="Path to the 'pages' directory")
+    parser.add_argument(
+        "-c",
+        "--color",
+        choices=["solarized-light", "solarized-dark", "basic"],
+        default="basic",
+        help="Color scheme of the PDF",
+    )
     args = parser.parse_args()
 
     main(args.dir_path, args.color)
