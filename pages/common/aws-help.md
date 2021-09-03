@@ -7,7 +7,7 @@
 
 `aws help`
 
-- Display a list of all available topics:
+- List all available topics:
 
 `aws help topics`
 
