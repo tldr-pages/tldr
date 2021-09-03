@@ -6,4 +6,4 @@
 
 - Display a 32-bit checksum, size in bytes and filename:
 
-`cksum {{filename}}`
+`cksum {{path/to/file}}`
