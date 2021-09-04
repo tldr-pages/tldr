@@ -3,13 +3,13 @@
 > Disk usage analyzer with console interface.
 > More information: <https://github.com/dundee/gdu>.
 
-- Show disk usage of current directory:
+- Show disk usage of the current directory:
 
 `gdu`
 
 - Show disk usage of given directory:
 
-`gdu {{path/to/dir}}`
+`gdu {{path/to/directory}}`
 
 - Show disk usage of all mounted disks:
 
@@ -29,8 +29,8 @@
 
 - Only print result, do not enter interactive mode:
 
-`gdu --non-interactive {{path/to/dir}}`
+`gdu --non-interactive {{path/to/directory}}`
 
 - Do not show progress in non-interactive mode, useful in scripts:
 
-`gdu --no-progress {{path/to/dir}}`
+`gdu --no-progress {{path/to/directory}}`
