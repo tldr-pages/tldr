@@ -11,14 +11,14 @@
 
 `st -T {{title}}`
 
-- Open a terminal, execute `command`, and write the output to a file:
+- Open a terminal, execute a given command, and write the output to a file:
 
 `st -e {{command}} -o {{path/to/file}}`
 
 - Increase/decrease the font size:
 
-`Ctrl-Shift-{{Page Up|Page Down}}`
+`Ctrl + Shift + {{Page Up|Page Down}}`
 
 - Copy/paste from the clipboard:
 
-`Ctrl-Shift-{{c|v}}`
+`Ctrl + Shift + {{C|V}}`
