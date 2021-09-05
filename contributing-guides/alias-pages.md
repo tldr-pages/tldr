@@ -220,7 +220,15 @@ Not translated yet.
 ---
 ### pt_BR
 
-Not translated yet.
+```markdown
+# example
+
+> Este comando é um alias de 'example'.
+
+- Ver documentação para o comando original:
+
+`tldr example`
+```
 
 ---
 ### pt_PT
