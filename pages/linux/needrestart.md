@@ -15,7 +15,7 @@
 
 `needrestart -{{v|q}}`
 
-- Check if the kernel is obsolete:
+- Check if the kernel is outdated:
 
 `needrestart -k`
 
