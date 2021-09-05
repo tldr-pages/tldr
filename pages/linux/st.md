@@ -13,7 +13,7 @@
 
 - Open a terminal, execute a given command, and write the output to a file:
 
-`st -e {{command}} -o {{path/to/file}}`
+`st -o {{path/to/file}} -e {{command argument1 argument2}}`
 
 - Increase/decrease the font size:
 
