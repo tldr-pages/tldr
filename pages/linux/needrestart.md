@@ -15,7 +15,7 @@
 
 `needrestart -{{v|q}}`
 
-- Check if the kernel is outdated:
+- Check if the [k]ernel is outdated:
 
 `needrestart -k`
 
@@ -27,7 +27,7 @@
 
 `needrestart -b`
 
-- List outdated processed using a specific configuration file:
+- List outdated processed using a specific [c]onfiguration file:
 
 `needrestart -c {{path/to/config}}`
 
