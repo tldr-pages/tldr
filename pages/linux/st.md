@@ -1,13 +1,13 @@
 # st
 
 > A simple terminal emulator for the X Window System.
-> More information: <https://st.suckless.org/>.
+> More information: <https://st.suckless.org>.
 
 - Open a terminal:
 
 `st`
 
-- Open a terminal and title the window:
+- Open a terminal with a specific title:
 
 `st -T {{title}}`
 
