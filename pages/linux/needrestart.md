@@ -19,7 +19,7 @@
 
 `needrestart -k`
 
-- Check if the CPU microcode is obsolete:
+- Check if the CPU microcode is outdated:
 
 `needrestart -w`
 
