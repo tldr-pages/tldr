@@ -23,11 +23,11 @@
 
 `needrestart -w`
 
-- Display output in batch mode:
+- List outdated processes in [b]atch mode:
 
 `needrestart -b`
 
-- Run using a configuration file:
+- List outdated processed using a specific configuration file:
 
 `needrestart -c {{path/to/config}}`
 
