@@ -23,7 +23,7 @@
 
 `tailscale netcheck`
 
-- Run a web server for controlling Tailscale:
+- Start a web server for controlling Tailscale:
 
 `tailscale web`
 
