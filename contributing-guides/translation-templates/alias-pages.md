@@ -224,9 +224,9 @@ Not translated yet.
 ```markdown
 # example
 
-> Este comando é um alias de `example`.
+> Este comando é um pseudônimo de `example`.
 
-- Ver documentação para o comando original:
+- Ver documentação sobre o comando original:
 
 `tldr example`
 ```
