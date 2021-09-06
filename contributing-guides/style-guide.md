@@ -56,12 +56,15 @@ Keep the following guidelines in mind when choosing tokens:
 
 ### Paths
 - Use `{{filename}}` rather than `{{file_name}}`.
-- For any reference to paths to files or directories,
+- For any reference to paths of files or directories,
   use the format `{{path/to/<placeholder>}}`,
-  except when the file location is implicit.
-  For example, `ln -s {{path/to/file}} {{path/to/symlink}}`.
-  In case of a possible reference both to a file or a directory,
-  use `{{path/to/file_or_directory}}`
+  except when the location is implicit.
+- When the path cannot be relative,
+  but has to start at the root of the filesystem,
+  prefix it with a slash,
+  such as `get {{/path/to/remote_file}}`.
+- In case of a possible reference both to a file or a directory,
+  use `{{path/to/file_or_directory}}`.
 
 Extensions
 
@@ -78,7 +81,7 @@ Extensions
   For example, instead of `ddrescue --force --no-scrape /dev/sda /dev/sdb`
   write `ddrescue --force --no-scrape {{/dev/sdX}} {{/dev/sdY}}`
   and use the `{{/dev/sdXY}}` placeholder for *block devices* instead of `/dev/sda1`.
-- If a command can take a variable number of arguments, write `{{arg1 arg2 ...}}`.
+- If a command can take a variable number of arguments, use an ellipsis: `{{arg1 arg2 ...}}`
   If one of multiple options is possible, write it as `{{either|or}}`.
 
 In general, tokens should make it as intuitive as possible
@@ -93,15 +96,16 @@ Use backticks on the following:
 
 ## Serial Comma
 
-When declaring a list of 3 or more items, use a [serial comma](https://en.wikipedia.org/wiki/Serial_comma), also known as the Oxford comma.
-
-When the serial comma is ommitted, it can create ambiguity.
+When declaring a list of 3 or more items,
+use a [serial comma](https://en.wikipedia.org/wiki/Serial_comma),
+also known as the Oxford comma,
+since omitting it can create ambiguity.
 
 > Delete the Git branches, tags and remotes.
 
 The example above does not use a serial comma, so this could mean one of two things:
 * Delete the Git branches named `tags` and `remotes`.
-* Delete all of the following, Git branches, Git tags, and Git remotes.
+* Delete all of the following: Git branches, Git tags, and Git remotes.
 
 This can be resolved by inserting a comma before the "and" or "or" in the final element in the list.
 
