@@ -1,11 +1,19 @@
 # udevadm
 
 > Linux `udev` management tool.
-> More information: <https://linux.die.net/man/8/udevadm>.
+> More information: <https://www.freedesktop.org/software/systemd/man/udevadm>.
 
-- Monitor device events:
+- Monitor all device events:
 
-`sudo udevadm monitor [--kernel] [--udev]`
+`sudo udevadm monitor`
+
+- Print `uevents` sent out by the kernel:
+
+`sudo udevadm monitor --kernel`
+
+- Print device events after rule processing by `udev`:
+
+`sudo udevmadm monitor --udev`
 
 - List attributes of a device:
 
