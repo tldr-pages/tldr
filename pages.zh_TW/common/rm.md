@@ -1,7 +1,7 @@
 # rm
 
 > 移除檔案或目錄。
-> 更多資訊： <https://www.gnu.org/software/coreutils/rm>.
+> 更多資訊：<https://www.gnu.org/software/coreutils/rm>.
 
 - 移除位於指定路徑的檔案：
 

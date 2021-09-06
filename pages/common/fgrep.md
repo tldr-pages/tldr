@@ -1,8 +1,8 @@
 # fgrep
 
-> Matches patterns in files.
-> Supports simple patterns and regular expressions.
-> More information: <https://manned.org/fgrep>.
+> Matches fixed strings in files.
+> Equivalent to `grep -F`.
+> More information: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - Search for an exact string in a file:
 
@@ -20,10 +20,10 @@
 
 `fgrep -n {{search_string}} {{path/to/file}}`
 
-- Display all lines except those that contain the given regular expression:
+- Display all lines except those that contain the search string:
 
-`fgrep -v {{regular_expression}} {{path/to/file}}`
+`fgrep -v {{search_string}} {{path/to/file}}`
 
-- Display filenames whose content matches the regular expression at least once:
+- Display filenames whose content matches the search string at least once:
 
-`fgrep -l {{regular_expression}} {{path/to/file1}} {{path/to/file2}}`
+`fgrep -l {{search_string}} {{path/to/file1}} {{path/to/file2}}`

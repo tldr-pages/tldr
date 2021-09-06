@@ -7,7 +7,7 @@
 
 `daemonize {{command}} {{command_arguments}}`
 
-- Write the pid to the specified file:
+- Write the PID to the specified file:
 
 `daemonize -p {{path/to/pidfile}} {{command}} {{command_arguments}}`
 

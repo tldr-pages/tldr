@@ -7,7 +7,7 @@
 
 `xdg-open .`
 
-- Open an URL in the default browser:
+- Open a URL in the default browser:
 
 `xdg-open {{https://example.com}}`
 

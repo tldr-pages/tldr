@@ -7,7 +7,7 @@
 
 `trawl -n`
 
-- Filter interface names using a case insensitive regular expression:
+- Filter interface names using a case-insensitive regular expression:
 
 `trawl -f wi`
 

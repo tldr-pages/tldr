@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# SPDX-License-Identifier: MIT
 
 # This script is executed by GitHub Actions for every pull request opened.
 # It currently accomplishes the following objectives (for English pages only):

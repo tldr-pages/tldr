@@ -8,6 +8,10 @@
 
 `vim {{chemin/vers/fichier}}`
 
+- Ouvrir un fichier à une ligne spécifiée :
+
+`vim +{{numero_ligne}} {{chemin/vers/fichier}}`
+
 - consulter le manuel utilisateur :
 
 `:help<Entrée>`
@@ -15,10 +19,6 @@
 - Sauvegarder et fermer :
 
 `:wq<Entrée>`
-
-- Ouvrir un fichier à une ligne spécifiée :
-
-`vim +{{numero_ligne}} {{chemin/vers/fichier}}`
 
 - Annuler la dernière opération :
 

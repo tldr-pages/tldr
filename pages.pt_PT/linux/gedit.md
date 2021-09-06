@@ -1,6 +1,7 @@
 # gedit
 
 > Editor de texto para Desktop do GNOME.
+> Mais informações: <https://help.gnome.org/users/gedit/stable/>.
 
 - Abrir ficheiro de texto:
 

@@ -1,7 +1,12 @@
 # gpg
 
 > GNU Privacy Guard.
+> Siehe `gpg2` für GNU Privacy Guard 2.
 > Weitere Informationen: <https://gnupg.org>.
+
+- Erstelle einen öffentlichen und privaten GPG Schlüssel interaktiv:
+
+`gpg --full-generate-key`
 
 - Signiere `doc.txt` ohne Verschlüsselung (Ausabe nach `doc.txt.asc`):
 

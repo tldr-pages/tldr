@@ -1,6 +1,7 @@
 # lsusb
 
 > Muestra información sobre puertos y dispositivos USB.
+> Más información: <https://manned.org/lsusb>.
 
 - Lista todos los dispositivos USB disponibles:
 

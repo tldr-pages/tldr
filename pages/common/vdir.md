@@ -8,7 +8,7 @@
 
 `vdir`
 
-- List with sizes displayed in human readable units (KB, MB, GB):
+- List with sizes displayed in human-readable units (KB, MB, GB):
 
 `vdir -h`
 

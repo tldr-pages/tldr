@@ -1,14 +1,14 @@
 # gpg2
 
-> GNU Privacy Guard 2。
-> GNU Privacy Guard 1 请参见`gpg`。
-> 更多信息：<https://docs.releng.linuxfoundation.org/en/latest/gpg.html>。
+> GNU Privacy Guard 2.
+> GNU Privacy Guard 1 请参见`gpg`.
+> 更多信息：<https://docs.releng.linuxfoundation.org/en/latest/gpg.html>.
 
 - 列出导入的密钥（公钥）：
 
 `gpg2 --list-keys`
 
-- 为指定的接收者加密指定的文件，将输出结果写到一个新的文件中，并附加`.gpg`：
+- 为指定的接收者加密指定的文件，将输出结果写到一个新的文件中，并附加`.gpg`:
 
 `gpg2 --encrypt --recipient {{alice@example.com}} {{path/to/doc.txt}}`
 

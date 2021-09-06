@@ -2,6 +2,7 @@
 
 > Assembler GNU portabile.
 > Progettato principalmente per assemblare l'output di `gcc` ed utilizzarlo con `ld`.
+> Maggiori informazioni: <https://www.unix.com/man-page/osx/1/as/>.
 
 - Assembla un file, scrivendo l'output su a.out:
 

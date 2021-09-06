@@ -2,7 +2,7 @@
 
 > Apache Maven.
 > 用于构建和管理基于 Java 的项目的工具。
-> 更多信息见：<https://maven.apache.org>.
+> 更多信息见： <https://maven.apache.org>.
 
 - 编译项目：
 
@@ -14,7 +14,7 @@
 
 - 编译和打包，跳过单元测试：
 
-`mvn package -Dmaven.test.skip=true`
+`mvn package -DskipTests`
 
 - 在本地 maven 存储库中安装构建的包（这也会调用 compile 和 package 命令）：
 
@@ -28,7 +28,7 @@
 
 `mvn clean package`
 
-- 执行清理操作并使用给定的构建配置打包代码，比如 `profileId` 如果有dev、test、pro，可以指定其中一个 `profileId` 用来选择具体执行环境：
+- 执行清理操作并使用给定的构建配置打包代码，比如 `profileId` 如果有 dev、test、pro，可以指定其中一个 `profileId` 用来选择具体执行环境：
 
 `mvn clean -P{{profileId}} package`
 

@@ -24,6 +24,7 @@ The templates can be changed when necessary.
 [pl](#pl) •
 [pt_BR](#pt_br) •
 [pt_PT](#pt_pt) •
+[ro](#ro) •
 [ru](#ru) •
 [sh](#sh) •
 [sv](#sv) •
@@ -228,6 +229,11 @@ Not translated yet.
 Not translated yet.
 
 ---
+### ro
+
+Not translated yet.
+
+---
 ### ru
 
 ```markdown
@@ -248,7 +254,15 @@ Not translated yet.
 ---
 ### sv
 
-Not translated yet.
+```markdown
+# example
+
+> Det här kommandot är ett alias för `example`.
+
+- Se dokumentationen för orginalkommandot:
+
+`tldr example`
+```
 
 ---
 ### ta

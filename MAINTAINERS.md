@@ -44,6 +44,10 @@ If you are an owner of the organization, you can see an automated list
   [03 May 2021](https://github.com/tldr-pages/tldr/issues/5873) — present
 - **Patrice Denis ([@patricedenis](https://github.com/patricedenis))**:
   [10 May 2021](https://github.com/tldr-pages/tldr/issues/5919) — present
+- **Lin Cheng Chieh ([@blueskyson](https://github.com/blueskyson))**: 
+  [12 Aug 2021](https://github.com/tldr-pages/tldr/issues/6330) — present
+- **Pixel Häußler ([@pixelcmtd](https://github.com/pixelcmtd))**: 
+  [27 Aug 2021](https://github.com/tldr-pages/tldr/issues/6415) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
@@ -86,8 +90,6 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [5 January 2020](https://github.com/tldr-pages/tldr/issues/3736) — present
 - **Ein Verne ([@einverne](https://github.com/einverne))**:
   [6 January 2020](https://github.com/tldr-pages/tldr/issues/3738) — present
-- **bl-ue ([@bl-ue](https://github.com/bl-ue))**:
-  [2 February 2021](https://github.com/tldr-pages/tldr/issues/5219) — present
 - **Matthew Peveler ([@MasterOdin](https://github.com/MasterOdin))**:
   [18 March 2021](https://github.com/tldr-pages/tldr/issues/5473) - present
 - **Tan Siret Akıncı ([@yutyo](https://github.com/yutyo))**:
@@ -112,6 +114,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [17 January 2020](https://github.com/tldr-pages/tldr/issues/3764) — [3 February 2021](https://github.com/tldr-pages/tldr/issues/5224)
 - Axel Navarro ([@navarroaxel](https://github.com/navarroaxel)):
   [5 October 2020](https://github.com/tldr-pages/tldr/issues/4504) — [7 April 2021](https://github.com/tldr-pages/tldr/issues/5703)
+- bl-ue ([@bl-ue](https://github.com/bl-ue)):
+  [2 February 2021](https://github.com/tldr-pages/tldr/issues/5219) — [25 June 2021](https://gitter.im/tldr-pages/tldr?at=60d615598a40b117282a96d7)
 
 ## Organization owners
 

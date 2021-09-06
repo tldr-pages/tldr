@@ -1,7 +1,7 @@
 # mkdir
 
 > 建立目錄。
-> 更多資訊： <https://www.gnu.org/software/coreutils/mkdir>.
+> 更多資訊：<https://www.gnu.org/software/coreutils/mkdir>.
 
 - 在目前所在目錄或指定路徑中建立新目錄：
 

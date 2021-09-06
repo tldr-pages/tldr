@@ -8,6 +8,6 @@
 
 `git delta {{main}}`
 
-- List files from specific branch that differ from another specific branch:
+- List files from a specific branch that differ from another specific branch:
 
 `git delta {{branch_1}} {{branch_2}}`

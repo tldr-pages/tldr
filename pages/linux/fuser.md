@@ -1,6 +1,7 @@
 # fuser
 
 > Display process IDs currently using files or sockets.
+> More information: <https://manned.org/fuser>.
 
 - Find which processes are accessing a file or directory:
 

@@ -8,7 +8,7 @@
 
 `astyle {{source_file}}`
 
-- Apply the java style with attached braces:
+- Apply the Java style with attached braces:
 
 `astyle --style=java {{path/to/file}}`
 

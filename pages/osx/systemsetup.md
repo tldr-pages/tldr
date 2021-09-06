@@ -6,7 +6,7 @@
 
 `systemsetup -setremotelogin on`
 
-- Specify TimeZone, NTP Server and enable network time:
+- Specify timezone, NTP Server and enable network time:
 
 `systemsetup -settimezone {{US/Pacific}} -setnetworktimeserver {{us.pool.ntp.org}} -setusingnetworktime on`
 

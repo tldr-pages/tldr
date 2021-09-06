@@ -1,6 +1,7 @@
 # iw
 
 > Show and manipulate wireless devices.
+> More information: <https://manned.org/iw>.
 
 - Scan for available wireless networks:
 

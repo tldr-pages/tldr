@@ -1,7 +1,7 @@
 # rmdir
 
 > 移除目錄。
-> 更多資訊： <https://www.gnu.org/software/coreutils/rmdir>.
+> 更多資訊：<https://www.gnu.org/software/coreutils/rmdir>.
 
 - 若為空目錄則移除目錄（如果目錄非空，可用 `rm -r` 移除目錄及其所包含的檔案）：
 

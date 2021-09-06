@@ -1,8 +1,9 @@
 # carthage
 
-> Cocoa 应用程序的依赖性管理工具
+> Cocoa 应用程序的依赖性管理工具。
+> 更多信息：<https://github.com/Carthage/Carthage>.
 
-- 下载 Cartfile 中提到的所有依赖项的最新版本，并编译它们:
+- 下载 Cartfile 中提到的所有依赖项的最新版本，并编译它们：
 
 `carthage update`
 
@@ -14,7 +15,7 @@
 
 `carthage update --no-build`
 
-- 下载并重新生成依赖项的当前版本（不更新它们）:
+- 下载并重新生成依赖项的当前版本（不更新它们）：
 
 `carthage bootstrap`
 

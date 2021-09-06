@@ -1,6 +1,7 @@
 # free
 
 > Muestra la cantidad de memoria libre y usada en el sistema.
+> Más información: <https://manned.org/free>.
 
 - Muestra la memoria del sistema:
 

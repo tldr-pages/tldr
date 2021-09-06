@@ -13,7 +13,7 @@
 
 - Criar um artefato de distribuição sem executar testes unitários:
 
-`mvn package -Dmaven.test.skip=true`
+`mvn package -DskipTests`
 
 - Instalar um artefato gerado em um repositório local:
 

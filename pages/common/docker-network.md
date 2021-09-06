@@ -7,7 +7,7 @@
 
 `docker network ls`
 
-- Create a user defined network:
+- Create a user-defined network:
 
 `docker network create --driver {{driver_name}} {{network_name}}`
 

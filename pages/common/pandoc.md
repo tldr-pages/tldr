@@ -3,7 +3,7 @@
 > Convert documents between various formats.
 > More information: <https://pandoc.org>.
 
-- Convert file to pdf (the output format is determined by file extension):
+- Convert file to PDF (the output format is determined by file extension):
 
 `pandoc {{input.md}} -o {{output.pdf}}`
 

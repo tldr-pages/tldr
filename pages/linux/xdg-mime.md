@@ -7,7 +7,7 @@
 
 `xdg-mime query filetype {{path/to/file}}`
 
-- Display the default application for opening PNG images:
+- Display the default application for opening PNGs:
 
 `xdg-mime query default {{image/png}}`
 

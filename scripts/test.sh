@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# SPDX-License-Identifier: MIT
 
 # This script is executed by GitHub Actions for every successful push (on any branch, PR or not).
 # It runs some basic tests on pages. If the build is also a PR, additional
@@ -15,6 +16,21 @@ function run_tests {
   for f in ./pages.*; do
     tldr-lint --ignore "TLDR003,TLDR004,TLDR005,TLDR015,TLDR104" ${f}
   done
+  run_black
+  flake8 scripts
+}
+
+# Wrapper around black as it outputs everything to stderr,
+# but we want to only print if there are actual errors, and not
+# the "All done!" success message.
+function run_black {
+  # we want to ignore the exit code from black on failure, so that we can
+  # do the conditional printing below
+  errs=$(black scripts --check 2>&1 || true)
+  if [[ ${errs} != "All done!"* ]]; then
+     echo -e "${errs}" >&2
+     return 1
+  fi
 }
 
 # Special test function for GitHub Actions pull request builds.

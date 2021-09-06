@@ -2,6 +2,7 @@
 
 > 动态菜单。
 > 根据文本输入创建菜单，其中每一项都在新行中。
+> 更多信息：<https://manned.org/dmenu>.
 
 - 显示 `ls` 命令输出的菜单：
 
@@ -15,10 +16,10 @@
 
 `echo -e "{{red}}\n{{green}}\n{{blue}}" | dmenu > {{color.txt}}`
 
-- 在特定的监视器上启动 `dmenu`：
+- 在特定的监视器上启动 `dmenu`:
 
 `ls | dmenu -m {{1}}`
 
-- 在屏幕底部显示 `dmenu`：
+- 在屏幕底部显示 `dmenu`:
 
 `ls | dmenu -b`
