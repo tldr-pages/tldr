@@ -224,7 +224,7 @@ Not translated yet.
 ```markdown
 # example
 
-> Este comando é um alias de 'example'.
+> Este comando é um alias de `example`.
 
 - Ver documentação para o comando original:
 
