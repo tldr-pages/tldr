@@ -3,25 +3,25 @@
 > Disk usage analyzer with console interface.
 > More information: <https://github.com/dundee/gdu>.
 
-- Show disk usage of the current directory:
+- Show the disk usage of the current directory:
 
 `gdu`
 
-- Show disk usage of given directory:
+- Show the disk usage of a given directory:
 
 `gdu {{path/to/directory}}`
 
-- Show disk usage of all mounted disks:
+- Show the disk usage of all mounted disks:
 
 `gdu --show-disks`
 
-- Show disk usage but ignore some paths:
+- Show the disk usage of the current directory but ignore some sub-directories:
 
-`gdu --ignore-dirs {{/sys,/proc}} /`
+`gdu --ignore-dirs {{path/to/directory1,path/to/directory2,...}}`
 
-- Ignore paths by regular pattern:
+- Ignore paths by regular expression:
 
-`gdu --ignore-dirs-pattern {{'.*[abc]+'}}`
+`gdu --ignore-dirs-pattern '{{.*[abc]+}}'`
 
 - Ignore hidden directories:
 
@@ -31,6 +31,6 @@
 
 `gdu --non-interactive {{path/to/directory}}`
 
-- Do not show progress in non-interactive mode, useful in scripts:
+- Do not show progress in non-interactive mode (useful in scripts):
 
 `gdu --no-progress {{path/to/directory}}`
