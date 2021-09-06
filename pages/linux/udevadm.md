@@ -11,7 +11,7 @@
 
 `sudo udevadm monitor --kernel`
 
-- Print device events after rules are processed by `udev`:
+- Print device events after being processed by `udev`:
 
 `sudo udevadm monitor --udev`
 
