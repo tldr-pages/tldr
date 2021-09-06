@@ -1,6 +1,6 @@
 # tailscale
 
-> The easiest and most secure way to use WireGuard and 2FA.
+> A private WireGuard network service.
 > More information: <https://tailscale.com>.
 
 - Connect to Tailscale:
@@ -11,7 +11,7 @@
 
 `sudo tailscale down`
 
-- Display current Tailscale IP addresses:
+- Display the current Tailscale IP addresses:
 
 `tailscale ip`
 
