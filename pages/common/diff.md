@@ -26,3 +26,7 @@
 - Compare directories, only showing the names of files that differ:
 
 `diff -rq {{old_directory}} {{new_directory}}`
+
+- Create patch file from the differences of two directories or files:
+
+`diff -Naur {{old}} {{new}} > differences.patch`
