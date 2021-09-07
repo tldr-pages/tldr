@@ -25,7 +25,7 @@
 
 - Use a package manager without add it as a global command:
 
-`corepack {{yarn|pnpm}} {{package_manager_arguments}}`
+`corepack {{npm|pnpm|yarn}} {{package_manager_arguments}}`
 
 - Install a package manager from the specified archive:
 
