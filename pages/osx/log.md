@@ -17,4 +17,4 @@
 
 - Export all logs to disk for the past hour:
 
-`sudo log collect --last {{1h}} --path {{path/to/file.logarchive}}`
+`sudo log collect --last {{1h}} --output {{path/to/file.logarchive}}`
