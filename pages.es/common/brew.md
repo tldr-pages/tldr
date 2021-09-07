@@ -11,7 +11,7 @@
 
 `brew list`
 
-- Actualiza una fórmula o cask instalada (si no se indica ninguna, todas las fórmulas/casks son actualizadas):
+- Actualiza una fórmula o cask instalada (si no se indica ninguna, todas las fórmulas/casks se actualizan):
 
 `brew upgrade {{formula}}`
 
