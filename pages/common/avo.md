@@ -1,9 +1,9 @@
 # avo
 
-> The Official command-line interface for Avo.
+> The official command-line interface for Avo.
 > More information: <https://www.avo.app/docs/implementation/cli>.
 
-- Initialize a workspace in the current path:
+- Initialize a workspace in the current directory:
 
 `avo init`
 
@@ -19,7 +19,7 @@
 
 `avo pull`
 
-- Display status of the Avo implementation:
+- Display the status of the Avo implementation:
 
 `avo status`
 
@@ -27,7 +27,7 @@
 
 `avo conflict`
 
-- Open the Avo workspace in the default web browser:
+- Open the current Avo workspace in the default web browser:
 
 `avo edit`
 
