@@ -27,10 +27,10 @@
 
 `gdu --no-hidden`
 
-- Only print result, do not enter interactive mode:
+- Only print the result, do not enter interactive mode:
 
 `gdu --non-interactive {{path/to/directory}}`
 
-- Do not show progress in non-interactive mode (useful in scripts):
+- Do not show the progress in non-interactive mode (useful in scripts):
 
 `gdu --no-progress {{path/to/directory}}`
