@@ -7,14 +7,14 @@
 
 `log stream`
 
-- Stream logs sent to syslog from the process with a specific PID:
+- Stream logs sent to `syslog` from the process with a specific PID:
 
-`log stream --process {{235}}`
+`log stream --process {{process_id}}`
 
 - Show logs sent to syslog from a process with a specific name:
 
-`log show --predicate "process == '{{dasd}}'"`
+`log show --predicate "process == '{{process_name}}'"`
 
 - Export all logs to disk for the past hour:
 
-`sudo log collect --last {{1h}}`
+`sudo log collect --last {{1h}} --path {{path/to/file.logarchive}}`
