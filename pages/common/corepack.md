@@ -3,7 +3,7 @@
 > Zero-runtime-dependency package acting as bridge between Node projects and their package managers.
 > More information: <https://github.com/nodejs/corepack>.
 
-- Add the Corepack shims to the Node.js installation directory adding them as global commands:
+- Add the Corepack shims to the Node.js installation directory to make them available as global commands:
 
 `corepack enable`
 
@@ -17,7 +17,7 @@
 
 - Prepare a specific package manager:
 
-`corepack prepare {{package}}@{{version}} --active`
+`corepack prepare {{package_manager}}@{{version}} --active`
 
 - Prepare the package manager configured for the project in the current path:
 
