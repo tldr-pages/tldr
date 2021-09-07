@@ -221,7 +221,15 @@ Not translated yet.
 ---
 ### pt_BR
 
-Not translated yet.
+```markdown
+# example
+
+> Este comando é um pseudônimo de `example`.
+
+- Ver documentação sobre o comando original:
+
+`tldr example`
+```
 
 ---
 ### pt_PT
