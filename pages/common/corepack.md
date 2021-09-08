@@ -23,7 +23,7 @@
 
 `corepack prepare`
 
-- Use a package manager without add it as a global command:
+- Use a package manager without installing it as a global command:
 
 `corepack {{npm|pnpm|yarn}} {{package_manager_arguments}}`
 
