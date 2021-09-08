@@ -17,7 +17,7 @@
 
 - Prepare a specific package manager:
 
-`corepack prepare {{package_manager}}@{{version}} --active`
+`corepack prepare {{package_manager}}@{{version}} --activate`
 
 - Prepare the package manager configured for the project in the current path:
 
