@@ -24,6 +24,7 @@ The templates can be changed when necessary.
 [pl](#pl) •
 [pt_BR](#pt_br) •
 [pt_PT](#pt_pt) •
+[ro](#ro) •
 [ru](#ru) •
 [sh](#sh) •
 [sv](#sv) •
@@ -220,10 +221,23 @@ Not translated yet.
 ---
 ### pt_BR
 
-Not translated yet.
+```markdown
+# example
+
+> Este comando é um pseudônimo de `example`.
+
+- Ver documentação sobre o comando original:
+
+`tldr example`
+```
 
 ---
 ### pt_PT
+
+Not translated yet.
+
+---
+### ro
 
 Not translated yet.
 

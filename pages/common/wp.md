@@ -11,6 +11,14 @@
 
 `wp cli update`
 
+- Download a fresh WordPress installation to current directory, optionally specifying the locale:
+
+`wp core download --locale={{locale}}`
+
+- Create basic `wpconfig` file (assuming database on `localhost`):
+
+`wp config create --dbname={{dbname}} --dbuser={{dbuser}} --dbpass={{dbpass}}`
+
 - Install and activate a WordPress plugin:
 
 `wp plugin install {{plugin}} --activate`
