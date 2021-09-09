@@ -18,3 +18,7 @@
 - Compile source code into LLVM Intermediate Representation (IR):
 
 `clang -S -emit-llvm {{file.c}} -o {{file.ll}}`
+
+- Compile source code without linking:
+
+`clang -c {{input_source.c}}`
