@@ -9,7 +9,7 @@
 
 - In module-mode, modify the package with a given version:
 
-`go get {{example.com/pkg@v1.2.3}}`
+`go get {{example.com/pkg}}@{{v1.2.3}}`
 
 - In module-mode, remove the package:
 
