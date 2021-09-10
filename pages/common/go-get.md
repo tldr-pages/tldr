@@ -13,4 +13,4 @@
 
 - In module-mode, remove the package:
 
-`go get {{example.com/pkg@none}}`
+`go get {{example.com/pkg}}@{{none}}`
