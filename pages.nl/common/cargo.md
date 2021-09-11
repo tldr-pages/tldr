@@ -30,4 +30,4 @@
 
 - Bouw met een gegeven aantal taken. (Standaard is het aantal CPU-kernen):
 
-`cargo build -j {{taken}}`
+`cargo build --jobs {{aantal_taken}}`
