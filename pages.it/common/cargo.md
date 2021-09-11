@@ -30,4 +30,4 @@
 
 - Builda utilizzando più job (thread) paralleli:
 
-`cargo build -j {{numero_job}}`
+`cargo build --jobs {{numero_job}}`
