@@ -27,6 +27,6 @@
 
 `cargo clippy -- --allow warnings`
 
-- Apply Clippy suggestion automatically (experimental and only supported on the nightly channel):
+- Apply suggestions automatically:
 
-`cargo clippy --fix --allow-features unstable-options`
+`cargo clippy --fix`
