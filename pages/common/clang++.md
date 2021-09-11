@@ -12,7 +12,7 @@
 
 `clang++ {{path/to/source.cpp}} -Wall -o {{path/to/output_executable}}`
 
-- Choose a language standard to compile for:
+- Choose a language standard to compile with:
 
 `clang++ {{path/to/source.cpp}} -std={{c++20}} -o {{path/to/output_executable}}`
 
