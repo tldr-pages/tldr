@@ -11,9 +11,9 @@
 
 `llvm-as --module-hash -o {{path/to/out.bc}} {{path/to/source.ll}}`
 
-- Read IR from `stdin` and assemble it:
+- Read an IR file from `stdin` and assemble it:
 
-`llvm-as -o {{path/to/out.bc}}`
+`cat {{path/to/source.ll}} | llvm-as -o {{path/to/out.bc}}`
 
 - Assemble an IR file to `stdout` (might mess up your terminal):
 
