@@ -31,6 +31,6 @@
 
 `cake server`
 
-- Start a REPL interactive shell instance:
+- Start a REPL (interactive shell):
 
 `cake console`
