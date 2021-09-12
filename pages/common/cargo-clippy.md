@@ -27,6 +27,6 @@
 
 `cargo clippy -- --allow warnings`
 
-- Apply suggestions automatically:
+- Apply Clippy suggestions automatically:
 
 `cargo clippy --fix`
