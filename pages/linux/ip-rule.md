@@ -29,7 +29,7 @@
 
 - Save all rules to a file:
 
-`ip rule save > {{path/to/ip-rules.dat}}`
+`ip rule save > {{path/to/ip_rules.dat}}`
 
 - Restore all rules from a file:
 
