@@ -23,6 +23,6 @@
 
 `transfersh --recursive {{path/to/directory/}}`
 
-- Upload a specific directory as a uncompressed tar:
+- Upload a specific directory as an uncompressed tar:
 
 `transfersh -rt {{path/to/directory}}`
