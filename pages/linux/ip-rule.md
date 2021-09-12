@@ -33,4 +33,4 @@
 
 - Restore all rules from a file:
 
-`ip rule restore < {{path/to/ip-rules.dat}}`
+`ip rule restore < {{path/to/ip_rules.dat}}`
