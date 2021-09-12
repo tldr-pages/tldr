@@ -1,0 +1,36 @@
+# ip rule
+
+> IP Routing policy database management.
+> More information: <https://man7.org/linux/man-pages/man8/ip-rule.8.html>.
+
+- Display the routing policy:
+
+`ip rule {{show|list}}`
+
+- Add a new rule based on the source address of the specified package:
+
+`sudo ip rule add from {{192.168.178.2/32}}`
+
+- Add a new rule based on the destination address of the specified package:
+
+`sudo ip rule add to {{192.168.178.2/32}}`
+
+- Delete a rule based on the source address of the specified package:
+
+`sudo ip rule delete from {{192.168.178.2/32}}`
+
+- Delete a rule based on the destination address of the specified package:
+
+`sudo ip rule delete to {{192.168.178.2/32}}`
+
+- Flush all the deleted rules:
+
+`ip rule flush`
+
+- Save all rules to a file:
+
+`ip rule save > {{path/to/ip-rules.dat}}`
+
+- Restore all rules from a file:
+
+`ip rule restore < {{path/to/ip-rules.dat}}`
