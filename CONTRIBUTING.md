@@ -76,7 +76,7 @@ For instance, `git commit` has its own page, as well as `git push` and many othe
 To create a page for a subcommand, the program and subcommand need to be separated with a dash (`-`), so `git-commit.md` is shown when calling `tldr git commit`.
 
 You should always add a base page (e.g. `git`) that describes the program and basic switches like `--version` or `--help`.
-To let users know about the subcommand, add a note saying ``> This command also has documentation about its subcommands, e.g. `example subcommand`.`` to the base page.
+To let users know about the subcommand, add a note saying ``Some subcommands such as `example command` have their own usage documentation`` to the base page.
 See these examples for reference:
 
 * [git](pages/common/git.md)
