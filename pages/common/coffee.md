@@ -15,7 +15,7 @@
 
 `coffee --compile {{path/to/file.coffee}} --output {{path/to/file.js}}`
 
-- Run interactive REPL:
+- Start a REPL (interactive shell):
 
 `coffee --interactive`
 

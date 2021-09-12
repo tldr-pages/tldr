@@ -4,7 +4,7 @@
 > All options can be defined in a `deps.edn` file.
 > More information: <https://clojure.org/guides/deps_and_cli>.
 
-- Start a REPL:
+- Start a REPL (interactive shell):
 
 `clj`
 
