@@ -23,7 +23,7 @@
 
 `sudo ip rule delete to {{192.168.178.2/32}}`
 
-- Flush all the deleted rules:
+- Flush all deleted rules:
 
 `ip rule flush`
 
