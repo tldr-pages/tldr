@@ -30,4 +30,4 @@
 
 - Build using a specific number of threads (default is the number of CPU cores):
 
-`cargo build -j {{jobs}}`
+`cargo build --jobs {{number_of_threads}}`

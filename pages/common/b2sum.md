@@ -5,16 +5,16 @@
 
 - Calculate the BLAKE2 checksum for a file:
 
-`b2sum {{filename1}}`
+`b2sum {{path/to/file}}`
 
 - Calculate BLAKE2 checksums for multiple files:
 
-`b2sum {{filename1}} {{filename2}}`
+`b2sum {{path/to/file1}} {{path/to/file2}}`
 
 - Read a file of BLAKE2 sums and filenames and verify all files have matching checksums:
 
-`b2sum -c {{filename.b2}}`
+`b2sum -c {{path/to/file.b2}}`
 
 - Calculate the BLAKE2 checksum from stdin:
 
-`{{somecommand}} | b2sum`
+`{{some_command}} | b2sum`

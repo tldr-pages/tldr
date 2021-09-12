@@ -30,4 +30,4 @@
 
 - Erstelle (bzw. kompiliere) ein Rust-Projekt mit einer bestimmten Anzahl an Threads (standardmäßig die Anzahl der CPU-Kerne):
 
-`cargo build -j {{thread_anzahl}}`
+`cargo build --jobs {{thread_anzahl}}`
