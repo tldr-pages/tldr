@@ -1,6 +1,6 @@
 # ip rule
 
-> IP Routing policy database management.
+> IP routing policy database management.
 > More information: <https://man7.org/linux/man-pages/man8/ip-rule.8.html>.
 
 - Display the routing policy:
