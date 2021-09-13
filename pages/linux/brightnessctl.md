@@ -1,7 +1,7 @@
 # brightnessctl
 
 > Utility for reading and controlling device brightness for GNU/Linux operating systems.
-> For more information about brightnessctl development, visit: https://github.com/Hummer12007/brightnessctl.
+> More information: <https://github.com/Hummer12007/brightnessctl>.
 
 - List devices with available brightness control:
 
