@@ -22,3 +22,7 @@
 - Auto-format a file or directory emitting exclusively error messages to stderr:
 
 `black --quiet {{path/to/file_or_directory}}`
+
+- Auto-format a file or directory without replacing single quotes with double quotes:
+
+`black -S {{path/to/file_or_directory}}`
