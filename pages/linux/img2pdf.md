@@ -13,7 +13,7 @@
 
 - Convert only the first page of multi-page images to pdf:
 
-`img2pdf example.gif {{--first-frame-only}} -o out.pdf`
+`img2pdf {{path/to/file.gif}} --first-frame-only --output {{path/to/file.pdf}}`
 
 - Auto orient to A4 page size in landscape mode and a border of 2cm horizontally and 5.1cm vertically:
 
