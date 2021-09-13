@@ -17,7 +17,7 @@
 
 - Auto orient to A4 page size in landscape mode and a border of 2cm horizontally and 5.1cm vertically:
 
-`img2pdf example.jpeg --auto-orient --pagesize {{A4^T}} --border {{2cm:5.1cm}} -o out.pdf `
+`img2pdf {{path/to/file.jpg}} --auto-orient --pagesize {{A4^T}} --border {{2cm:5.1cm}} --output {{path/to/file.pdf}}`
 
 - Shrink only larger images to a 10cm by 15cm rectangle inside a 30x20cm page:
 
