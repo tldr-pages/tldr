@@ -1,6 +1,6 @@
 # img2pdf
 
-> Command-line lossless converter of raster images to PDF
+> Command-line lossless converter of raster images to PDF.
 > More information: <https://gitlab.mister-muffin.de/josch/img2pdf>.
 
 - Convert images to PDF:
