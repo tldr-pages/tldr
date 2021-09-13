@@ -27,7 +27,7 @@
 
 `tlmgr info --only-installed`
 
-- Show only specific information abouta package:
+- Show only specific information about a package:
 
 `tlmgr info {{package_name}} --data "{{name}},{{category}},{{installed}},{{size}},{{depends}},..."`
 
