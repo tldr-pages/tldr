@@ -25,7 +25,7 @@
 
 - Connect and configure Tailscale as a subnet router:
 
-`sudo tailscale up --advertise-routes={{10.0.0.0/24,10.0.1.0/24}}`
+`sudo tailscale up --advertise-routes={{10.0.0.0/24}},{{10.0.1.0/24}}`
 
 - Connect and accept subnet routes from Tailscale:
 
