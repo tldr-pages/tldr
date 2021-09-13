@@ -7,7 +7,7 @@
 
 `xrdb`
 
-- Load values (eg. style rules) from a resource file:
+- Load values (e.g. style rules) from a resource file:
 
  `xrdb -load ~/.Xresources`
 
