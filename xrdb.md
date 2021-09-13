@@ -13,4 +13,4 @@
 
 - Query the resource database and print currently set values:
 
- `xrdb -query`
+`xrdb -query`
