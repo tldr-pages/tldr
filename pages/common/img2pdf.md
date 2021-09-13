@@ -9,7 +9,7 @@
 
 - Convert all PNGs in the current directory to a single pdf:
 
-`img2pdf *.{{png}} -o out.pdf`
+`img2pdf {{*.png}} --output {{path/to/file.pdf}}`
 
 - Convert only the first page of multi-page images to pdf:
 
