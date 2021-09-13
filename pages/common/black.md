@@ -25,4 +25,4 @@
 
 - Auto-format a file or directory without replacing single quotes with double quotes:
 
-`black -S {{path/to/file_or_directory}}`
+`black --skip-string-normalization {{path/to/file_or_directory}}`
