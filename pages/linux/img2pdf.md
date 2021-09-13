@@ -5,7 +5,7 @@
 
 - Convert images to PDF:
 
-`img2pdf {{image1.jpg}} {{image2.jpg}} -o out.pdf`
+`img2pdf {{path/to/image1.jpg}} {{path/to/image2.jpg}} --output {{path/to/file.pdf}}`
 
 - Convert all PNGs in the current directory to a single pdf:
 
