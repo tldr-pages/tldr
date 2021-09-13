@@ -5,7 +5,7 @@
 
 - Start `xrdb` in interactive mode:
 
- `xrdb`
+`xrdb`
 
 - Load values (eg. style rules) from a resource file:
 
