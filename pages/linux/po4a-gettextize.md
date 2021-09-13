@@ -7,10 +7,10 @@
 
 `po4a-gettextize --format {{text}} --master {{path/to/master.txt}} --po {{path/to/result.po}}`
 
-- Check a list of available formats:
+- Get a list of available formats:
 
 `po4a-gettextize --help-format`
 
-- Convert a text file with translated document to PO file (`-l` option can be provied multiple times):
+- Convert a text file along with a translated document to a PO file (`-l` option can be provied multiple times):
 
 `po4a-gettextize --format {{text}} --master {{path/to/master.txt}} --localized {{path/to/translated.txt}} --po {{path/to/result.po}}`
