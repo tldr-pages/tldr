@@ -61,7 +61,7 @@ Manche Unterbefehle wie `example command` sind separat dokumentiert.
 ### es
 
 ```markdown
-Este comando también tiene documentación sobre sus subcomandos, ejemplo `example command`.
+Algunos subcomandos, como `example command`, tienen su propia documentación de uso.
 ```
 
 ---
