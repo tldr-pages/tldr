@@ -1,6 +1,7 @@
 # conda
 
 > Package, dependency and environment management for any programming language.
+> Some subcommands such as `conda create` have their own usage documentation.
 > More information: <https://github.com/conda/conda>.
 
 - Create a new environment, installing named packages into it:
