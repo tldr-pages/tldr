@@ -19,9 +19,9 @@
 
 `sudo tailscale up --shields-up`
 
-- Connect and accept DNS configuration from the admin panel:
+- Connect and don't accept DNS configuration from the admin panel (defaults to `true`):
 
-`sudo tailscale up --accept-dns={{true|false}}`
+`sudo tailscale up --accept-dns={{false}}`
 
 - Connect and configure Tailscale as a subnet router:
 
