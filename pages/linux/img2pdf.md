@@ -29,4 +29,4 @@
 
 - Force RGB as colorspace:
 
-`img2pdf example.png --colorspace {{RGB}} -o out.pdf
+`img2pdf example.png --colorspace {{RGB}} -o out.pdf`
