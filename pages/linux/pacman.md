@@ -1,6 +1,7 @@
 # pacman
 
 > Arch Linux package manager utility.
+> Some subcommands such as `pacman sync` have their own usage documentation.
 > More information: <https://man.archlinux.org/man/pacman.8>.
 
 - Synchronize and update all packages:

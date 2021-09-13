@@ -1,7 +1,7 @@
 # cradle
 
 > Das Cradle PHP Framework.
-> Siehe `cradle-install`, `cradle-deploy`, etc. für zusätzliche Informationen.
+> Manche Unterbefehle wie `cradle install` sind separat dokumentiert.
 > Weitere Informationen: <https://cradlephp.github.io>.
 
 - Stelle eine Verbindung zu einem Server her:
