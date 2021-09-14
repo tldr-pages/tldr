@@ -11,6 +11,6 @@
 
 `go get {{example.com/pkg}}@{{v1.2.3}}`
 
-- In module-mode, remove the package:
+- Remove a specified package:
 
 `go get {{example.com/pkg}}@{{none}}`
