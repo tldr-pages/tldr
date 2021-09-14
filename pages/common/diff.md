@@ -27,6 +27,6 @@
 
 `diff --recursive --brief {{old_directory}} {{new_directory}}`
 
-- Create patch file from the differences of two directories or files:
+- Create a patch file for Git:
 
-`diff --text --unified --new-file {{old_file_or_directory}} {{new_file_or_directory}} > {{diff.patch}}`
+`diff --text --unified --new-file {{old_file}} {{new_file}} > {{diff.patch}}`
