@@ -7,11 +7,11 @@
 
 `sudo tailscale up`
 
-- Connect and offer the current machine to be an exit node for the internet traffic:
+- Connect and offer the current machine to be an exit node for internet traffic:
 
 `sudo tailscale up --advertise-exit-node`
 
-- Connect using a specific node for the internet traffic:
+- Connect using a specific node for internet traffic:
 
 `sudo tailscale up --exit-node={{exit_node_ip}}`
 
