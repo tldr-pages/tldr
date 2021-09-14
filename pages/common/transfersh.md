@@ -13,7 +13,7 @@
 
 - Upload a file using a different file name:
 
-`transfersh --name {{file_name}} {{path/to/file}}`
+`transfersh --name {{filename}} {{path/to/file}}`
 
 - Upload a file to a custom transfer.sh server:
 
