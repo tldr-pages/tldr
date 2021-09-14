@@ -23,7 +23,7 @@
 
 `img2pdf {{path/to/file.tiff}} --pagesize {{30cmx20cm}} --imgsize {{10cmx15cm}} --fit {{shrink}} --output {{path/to/file.pdf}}`
 
-- Convert an image to PDF including specific metadata:
+- Convert an image to PDF, and specify metadata for the resulting file:
 
 `img2pdf {{path/to/file.png}} --title {{title}} --author {{author}} --creationdate {{1970-01-31}} --keywords {{keywords}} --subject {{subject}} --output {{path/to/file.pdf}}`
 
