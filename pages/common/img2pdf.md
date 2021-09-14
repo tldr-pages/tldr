@@ -11,7 +11,7 @@
 
 `img2pdf {{*.png}} --output {{path/to/file.pdf}}`
 
-- Convert only the first page of multi-page images to pdf:
+- Convert only the first frame of multi-frame images to a pdf:
 
 `img2pdf {{path/to/file.gif}} --first-frame-only --output {{path/to/file.pdf}}`
 
