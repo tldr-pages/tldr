@@ -25,8 +25,4 @@
 
 - Convert an image to PDF, and specify metadata for the resulting file:
 
-`img2pdf {{path/to/file.png}} --title {{title}} --author {{author}} --creationdate {{1970-01-31}} --keywords {{keywords}} --subject {{subject}} --output {{path/to/file.pdf}}`
-
-- Force the colorspace to RGB:
-
-`img2pdf {{path/to/file.png}} --colorspace {{RGB}} --output {{path/to/file.pdf}}`
+`img2pdf {{path/to/file.png}} --title {{title}} --author {{author}} --creationdate {{1970-01-31}} --keywords {{keyword1 keyword2}} --subject {{subject}} --output {{path/to/file.pdf}}`
