@@ -7,7 +7,7 @@
 
 `go get {{example.com/pkg}}`
 
-- In module-mode, modify the package with a given version:
+- Modify the package with a given version in module-aware mode:
 
 `go get {{example.com/pkg}}@{{v1.2.3}}`
 
