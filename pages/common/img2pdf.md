@@ -3,7 +3,7 @@
 > Command-line lossless converter of raster images to PDF.
 > More information: <https://gitlab.mister-muffin.de/josch/img2pdf>.
 
-- Convert images to PDF:
+- Convert multiple images to PDF, each image being on its own page:
 
 `img2pdf {{path/to/image1.jpg}} {{path/to/image2.jpg}} --output {{path/to/file.pdf}}`
 
