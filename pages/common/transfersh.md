@@ -19,7 +19,7 @@
 
 `transfersh --servername {{upload.server.name}} {{path/to/file}}`
 
-- Upload all files in a directory recursively:
+- Upload all files from a directory recursively:
 
 `transfersh --recursive {{path/to/directory/}}`
 
