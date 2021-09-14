@@ -1,6 +1,7 @@
 # tailscale
 
 > A private WireGuard network service.
+> Some subcommands such as `tailscale up` have their own usage documentation.
 > More information: <https://tailscale.com>.
 
 - Connect to Tailscale:
