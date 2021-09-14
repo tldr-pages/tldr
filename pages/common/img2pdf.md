@@ -27,6 +27,6 @@
 
 `img2pdf {{path/to/file.png}} --title {{title}} --author {{author}} --creationdate {{1970-01-31}} --keywords {{keywords}} --subject {{subject}} --output {{path/to/file.pdf}}`
 
-- Force RGB as colorspace:
+- Force the colorspace to RGB:
 
 `img2pdf {{path/to/file.png}} --colorspace {{RGB}} --output {{path/to/file.pdf}}`
