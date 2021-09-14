@@ -5,7 +5,7 @@
 
 - List devices with available brightness control:
 
-`brightnessctl -l`
+`brightnessctl --list`
 
 - Get the currently set brightness of the device:
 
