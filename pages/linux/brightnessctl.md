@@ -19,6 +19,6 @@
 
 `brightnessctl set {{+10%}}`
 
-- Decrease brightness by certain percent:
+- Decrease brightness by a specified decrement:
 
 `brightnessctl set {{-10%}}`
