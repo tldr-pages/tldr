@@ -7,7 +7,7 @@
 
 `img2pdf {{path/to/image1.jpg}} {{path/to/image2.jpg}} --output {{path/to/file.pdf}}`
 
-- Convert all PNGs in the current directory to a single pdf:
+- Convert all PNGs in the current directory to a single PDF:
 
 `img2pdf {{*.png}} --output {{path/to/file.pdf}}`
 
