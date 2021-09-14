@@ -7,7 +7,7 @@
 
 `brightnessctl --list`
 
-- Get the currently set brightness of the display backlight:
+- Print the current brightness of the display backlight:
 
 `brightnessctl get`
 
