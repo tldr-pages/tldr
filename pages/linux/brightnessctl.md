@@ -11,7 +11,7 @@
 
 `brightnessctl get`
 
-- Set the brightness of the display backlight to a percenage of the maximum supported value:
+- Set the brightness of the display backlight to a specified percentage within range:
 
 `brightnessctl set {{50%}}`
 
