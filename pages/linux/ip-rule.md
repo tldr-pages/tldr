@@ -7,7 +7,7 @@
 
 `ip rule {{show|list}}`
 
-- Add a new rule based on the source address of the specified package:
+- Add a new rule based on packet source addresses:
 
 `sudo ip rule add from {{192.168.178.2/32}}`
 
