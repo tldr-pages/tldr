@@ -70,4 +70,4 @@ else
   run_tests
 fi
 
-echo 'Test ran succesfully!'
+echo 'Test ran successfully!'
