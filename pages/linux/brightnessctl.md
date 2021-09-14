@@ -15,7 +15,7 @@
 
 `brightnessctl set {{50%}}`
 
-- Increase brightness by certain percent (eg. 10%):
+- Increase brightness by certain percent:
 
 `brightnessctl set {{+10%}}`
 
