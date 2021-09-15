@@ -1,6 +1,6 @@
 # ybacklight
 
-> A program for managing the screen backlight brightness, simpler alternative to `xbacklight`.
+> Manage screen backlight brightness. See also `xbacklight`.
 > More information: <https://github.com/pixelcmtd/ybacklight>.
 
 - Print short current brightness "/" short maximal brightness:
