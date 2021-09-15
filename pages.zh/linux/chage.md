@@ -1,7 +1,7 @@
 # chage
 
 > 更改用户账户和密码到期信息。
-> 更多信息：https://manned.org/chage.
+> 更多信息：<https://manned.org/chage>.
 
 - 列出用户的密码信息：
 
@@ -21,4 +21,4 @@
 
 - 强制用户在下次登录时更改密码：
 
-`sudo chage -d 0`
+`sudo chage -d {{0}}`
