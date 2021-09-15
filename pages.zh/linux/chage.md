@@ -1,7 +1,6 @@
 # chage
 
 > 更改用户账户和密码到期信息。
->
 > 更多信息：https://manned.org/chage.
 
 - 列出用户的密码信息：
