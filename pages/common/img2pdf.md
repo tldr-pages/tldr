@@ -21,7 +21,7 @@
 
 - Shrink only larger images to a 10cm by 15cm rectangle inside a 30x20cm page:
 
-`img2pdf {{path/to/file.tiff}} --pagesize {{30cmx20cm}} --imgsize {{10cmx15cm}} --fit {{shrink}} --output {{path/to/file.pdf}}`
+`img2pdf {{path/to/file.tiff}} --pagesize {{30cm}}x{{20cm}} --imgsize {{10cm}}x{{15cm}} --fit {{shrink}} --output {{path/to/file.pdf}}`
 
 - Convert an image to PDF, and specify metadata for the resulting file:
 
