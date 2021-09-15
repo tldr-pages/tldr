@@ -3,7 +3,7 @@
 > Manage screen backlight brightness. See also `xbacklight`.
 > More information: <https://github.com/pixelcmtd/ybacklight>.
 
-- Print short current brightness "/" short maximal brightness:
+- Print current brightness and maximal brightness, shortened and separated by a slash:
 
 `ybacklight Sc/Sm`
 
