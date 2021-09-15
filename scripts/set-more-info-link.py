@@ -27,6 +27,7 @@ labels = {
     "pl": "Więcej informacji:",
     "pt_BR": "Mais informações:",
     "pt_PT": "Mais informações:",
+    "ro": "Mai multe informații:",
     "ru": "Больше информации:",
     "sv": "Mer information:",
     "ta": "மேலும் தகவல்:",
@@ -101,6 +102,41 @@ def set_link(file, link):
     return status
 
 
+def get_link(file):
+    with open(file) as f:
+        lines = f.readlines()
+
+    desc_start = 0
+    desc_end = 0
+
+    # find start and end of description
+    for i, line in enumerate(lines):
+        if line.startswith(">") and desc_start == 0:
+            desc_start = i
+        if not lines[i + 1].startswith(">") and desc_start != 0:
+            desc_end = i
+            break
+
+    # match link
+    if re.search(r"^>.*<.+>", lines[desc_end]):
+        return re.search("<(.+)>", lines[desc_end]).group(1)
+    else:
+        return ""
+
+
+def sync(root, pages_dirs, command, link):
+    rel_paths = []
+    for page_dir in pages_dirs:
+        path = os.path.join(root, page_dir, command)
+        if os.path.exists(path):
+            rel_path = path.replace(f"{root}/", "")
+            rel_paths.append(rel_path)
+            status = set_link(path, link)
+            if status != "":
+                print(f"\x1b[32m{rel_path} {status}\x1b[0m")
+    return rel_paths
+
+
 def main():
     parser = argparse.ArgumentParser(
         description='Sets the "More information" link for all translations of a page'
@@ -109,7 +145,8 @@ def main():
         "-p",
         "--page",
         type=str,
-        required=True,
+        required=False,
+        default="",
         help='page name in the format "platform/command.md"',
     )
     parser.add_argument(
@@ -119,37 +156,67 @@ def main():
         default=False,
         help="stage modified pages (requires `git` to be on $PATH and TLDR_ROOT to be a Git repository)",
     )
-    parser.add_argument("link", type=str)
+    parser.add_argument(
+        "-S",
+        "--sync",
+        action="store_true",
+        default=False,
+        help="synchronize each translation's more information link (if exists) with that of English page",
+    )
+    parser.add_argument("link", type=str, nargs="?", default="")
     args = parser.parse_args()
 
     root = get_tldr_root()
     pages_dirs = [d for d in os.listdir(root) if d.startswith("pages")]
 
-    target_paths = []
     rel_paths = []
 
-    if not args.page.lower().endswith(".md"):
-        args.page = f"{args.page}.md"
+    # Use '--page' option
+    if args.page != "":
+        target_paths = []
 
-    for pages_dir in pages_dirs:
-        pages_dir_path = os.path.join(root, pages_dir)
-        platforms = [i for i in os.listdir(pages_dir_path) if i not in IGNORE_FILES]
+        if not args.page.lower().endswith(".md"):
+            args.page = f"{args.page}.md"
+
+        for pages_dir in pages_dirs:
+            pages_dir_path = os.path.join(root, pages_dir)
+            platforms = [i for i in os.listdir(pages_dir_path) if i not in IGNORE_FILES]
+            for platform in platforms:
+                platform_path = os.path.join(pages_dir_path, platform)
+                commands = [
+                    f"{platform}/{p}"
+                    for p in os.listdir(platform_path)
+                    if p not in IGNORE_FILES
+                ]
+                if args.page in commands:
+                    path = os.path.join(pages_dir_path, args.page)
+                    target_paths.append(path)
+
+        target_paths.sort()
+
+        for path in target_paths:
+            rel_path = path.replace(f"{root}/", "")
+            rel_paths.append(rel_path)
+            status = set_link(path, args.link)
+            if status != "":
+                print(f"\x1b[32m{rel_path} {status}\x1b[0m")
+
+    # Use '--sync' option
+    elif args.sync:
+        pages_dirs.remove("pages")
+        en_page = os.path.join(root, "pages")
+        platforms = [i for i in os.listdir(en_page) if i not in IGNORE_FILES]
         for platform in platforms:
-            platform_path = os.path.join(pages_dir_path, platform)
-            pages = os.listdir(platform_path)
-            commands = [f"{platform}/{p}" for p in pages if p not in IGNORE_FILES]
-            if args.page in commands:
-                path = os.path.join(pages_dir_path, args.page)
-                target_paths.append(path)
-
-    target_paths.sort()
-
-    for path in target_paths:
-        rel_path = path.replace(f"{root}/", "")
-        rel_paths.append(rel_path)
-        status = set_link(path, args.link)
-        if status != "":
-            print(f"\x1b[32m{rel_path} {status}\x1b[0m")
+            platform_path = os.path.join(en_page, platform)
+            commands = [
+                f"{platform}/{p}"
+                for p in os.listdir(platform_path)
+                if p not in IGNORE_FILES
+            ]
+            for command in commands:
+                link = get_link(os.path.join(root, "pages", command))
+                if link != "":
+                    rel_paths += sync(root, pages_dirs, command, link)
 
     if args.stage:
         subprocess.call(["git", "add", *rel_paths], cwd=root)
