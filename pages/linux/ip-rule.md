@@ -11,15 +11,15 @@
 
 `sudo ip rule add from {{192.168.178.2/32}}`
 
-- Add a new rule based on the destination address of the specified package:
+- Add a new rule based on packet destination addresses
 
 `sudo ip rule add to {{192.168.178.2/32}}`
 
-- Delete a rule based on the source address of the specified package:
+- Delete a rule based on packet source addresses:
 
 `sudo ip rule delete from {{192.168.178.2/32}}`
 
-- Delete a rule based on the destination address of the specified package:
+- Delete a rule based on packet destination addresses:
 
 `sudo ip rule delete to {{192.168.178.2/32}}`
 
