@@ -56,9 +56,9 @@ as a guideline for current and future maintainers.
 
 - PRs should be merged once they
   (1) **pass the automated tests** (GitHub Actions, CLA signing, etc.),
-  (2) have the **review comments addressed**, and
-  (3) get **approved reviews by two maintainers**
-  (4) are at least **24 hours** old unless changes are trivial
+  (2) have the **review comments addressed**,
+  (3) get **approved reviews by two maintainers**, (the second maintainer can merge immediately after approving) and
+  (4) have been open for at least **24 hours** unless the changes are trivial
 
 - If a PR fails to get a review from a second maintainer after a few days,
   the first maintainer should ping others for review.
