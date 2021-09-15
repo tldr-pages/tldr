@@ -11,7 +11,7 @@
 
 `ybacklight s{{420}}`
 
-- Increase the brightness by 42 big steps:
+- Increase the brightness by 42 big steps (4200 by default):
 
 `ybacklight Si{{42}}`
 
