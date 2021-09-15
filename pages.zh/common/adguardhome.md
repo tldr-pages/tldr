@@ -1,7 +1,7 @@
 # AdGuardHome
 
 > 一款全网广告拦截与反跟踪软件。
-> 更多信息： <https://github.com/AdguardTeam/AdGuardHome>.
+> 更多信息：<https://github.com/AdguardTeam/AdGuardHome>.
 
 - 运行 AdGuard Home:
 

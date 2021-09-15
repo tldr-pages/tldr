@@ -1,7 +1,7 @@
 # ip address
 
 > Sous-commande de gestion des adresses IP.
-> Plus d'informations : <https://www.man7.org/linux/man-pages/man8/ip-address.8.html>.
+> Plus d'informations : <https://manned.org/ip-address>.
 
 - Liste les interfaces réseau et leurs adresses IP associées :
 

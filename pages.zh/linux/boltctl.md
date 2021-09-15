@@ -1,7 +1,7 @@
 # boltctl
 
 > 控制雷电（thunderbolt）设备。
-> 更多信息： <https://manned.org/boltctl>.
+> 更多信息：<https://manned.org/boltctl>.
 
 - 列出已连接并授权的设备：
 

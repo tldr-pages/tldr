@@ -1,6 +1,7 @@
 # ditto
 
 > Copy files and directories.
+> More information: <https://ss64.com/osx/ditto.html>.
 
 - Overwrite contents of destination directory with contents of source directory:
 

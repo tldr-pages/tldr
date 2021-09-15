@@ -9,7 +9,7 @@
 
 - Sayfanın 7. bölümündeki bir komut için man sayfasını görüntüle:
 
-`man {{komut}}.{{7}}`
+`man {{7}} {{komut}}`
 
 - Mansayfaları için aratılan yolu göster:
 

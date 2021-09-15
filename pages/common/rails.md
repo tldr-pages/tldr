@@ -1,6 +1,7 @@
 # rails
 
 > A server-side MVC framework written in Ruby.
+> Some subcommands such as `rails generate` have their own usage documentation.
 > More information: <https://guides.rubyonrails.org/command_line.html>.
 
 - Create a new rails project:

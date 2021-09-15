@@ -2,6 +2,7 @@
 
 > Ripristina (copia) un'immagine disco dentro a un volume.
 > Il nome del comando sta per Apple Software Restore (software di ripristino Apple).
+> Maggiori informazioni: <https://www.unix.com/man-page/osx/8/asr/>.
 
 - Ripristina un'immagine disco su un volume specifico:
 

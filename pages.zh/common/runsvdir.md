@@ -1,7 +1,7 @@
 # runsvdir
 
 > 运行整个目录下的服务。
-> 更多信息： <https://manpages.ubuntu.com/manpages/latest/man8/runsvdir.8.html>.
+> 更多信息：<https://manpages.ubuntu.com/manpages/latest/man8/runsvdir.8.html>.
 
 - 以当前用户身份启动和管理目录中的所有服务：
 

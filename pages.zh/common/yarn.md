@@ -1,7 +1,7 @@
 # yarn
 
 > JavaScript 和 Node.js package manager 的一个替代。
-> 更多信息： <https://yarnpkg.com>.
+> 更多信息：<https://yarnpkg.com>.
 
 - 全局安装一个模块：
 

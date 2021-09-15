@@ -1,6 +1,7 @@
 # docker
 
 > Manage Docker containers and images.
+> Some subcommands such as `docker run` have their own usage documentation.
 > More information: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
 - List currently running docker containers:

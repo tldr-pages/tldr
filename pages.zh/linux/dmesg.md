@@ -1,7 +1,7 @@
 # dmesg
 
 > 显示或控制内核环形缓冲区。
-> 更多信息： <https://manned.org/dmesg>.
+> 更多信息：<https://manned.org/dmesg>.
 
 - 显示来自内核环形缓冲区的所有消息：
 

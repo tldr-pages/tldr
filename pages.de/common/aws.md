@@ -1,7 +1,7 @@
 # aws
 
 > Das offizielle CLI für Amazon Web Services.
-> Ausführungssassistent, SSO, Autovervollständigung von Ressourcen sowie YAML Optionen sind nur unter Version v2 verfügbar.
+> Manche Unterbefehle wie `aws s3` sind separat dokumentiert.
 > Weitere Informationen: <https://aws.amazon.com/cli>.
 
 - Konfiguriere die AWS Kommandozeile:

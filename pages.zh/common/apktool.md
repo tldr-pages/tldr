@@ -1,7 +1,7 @@
 # apktool
 
 > APK 文件反编译工具。
-> 更多信息： <https://ibotpeaches.github.io/Apktool/>.
+> 更多信息：<https://ibotpeaches.github.io/Apktool/>.
 
 - 反编译：
 

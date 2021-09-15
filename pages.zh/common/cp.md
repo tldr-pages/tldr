@@ -1,7 +1,7 @@
 # cp
 
 > 复制文件和文件夹。
-> 更多信息： <https://www.gnu.org/software/coreutils/cp>.
+> 更多信息：<https://www.gnu.org/software/coreutils/cp>.
 
 - 将文件复制到另一个位置：
 

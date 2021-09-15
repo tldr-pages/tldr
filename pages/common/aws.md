@@ -1,7 +1,7 @@
 # aws
 
 > The official CLI tool for Amazon Web Services.
-> Wizard, SSO, Resource Autocompletion, and YAML options are v2 only.
+> Some subcommands such as `aws s3` have their own usage documentation.
 > More information: <https://aws.amazon.com/cli>.
 
 - Configure the AWS Command-line:

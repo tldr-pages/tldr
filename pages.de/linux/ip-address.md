@@ -1,6 +1,7 @@
 # ip address
 
 > IP Adressen Management Unterbefehl.
+> Weitere Informationen: <https://manned.org/ip-address>.
 
 - Zeige Netzwerk-Interfaces mit ihren Adressen:
 
