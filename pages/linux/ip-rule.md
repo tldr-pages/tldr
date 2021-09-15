@@ -11,7 +11,7 @@
 
 `sudo ip rule add from {{192.168.178.2/32}}`
 
-- Add a new rule based on packet destination addresses
+- Add a new rule based on packet destination addresses:
 
 `sudo ip rule add to {{192.168.178.2/32}}`
 
