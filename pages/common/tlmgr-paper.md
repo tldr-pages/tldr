@@ -15,7 +15,7 @@
 
 `tlmgr {{pdftex}} paper`
 
-- Set the dafault paper size for a specific TeX Live program to A4:
+- Set the default paper size for a specific TeX Live program to A4:
 
 `sudo tlmgr {{pdftex}} paper {{a4}}`
 

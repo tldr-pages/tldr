@@ -48,7 +48,7 @@ function run_tests {
   markdownlint pages*/**/*.md
   tldr-lint ./pages
   for f in ./pages.*; do
-    tldr-lint --ignore "TLDR003,TLDR004,TLDR005,TLDR015,TLDR104" ${f}
+    tldr-lint --ignore "TLDR003,TLDR004,TLDR005,TLDR015,TLDR104" "${f}"
   done
   run_black
   run_flake8
@@ -91,4 +91,4 @@ else
   run_tests
 fi
 
-echo 'Test ran succesfully!'
+echo 'Test ran successfully!'
