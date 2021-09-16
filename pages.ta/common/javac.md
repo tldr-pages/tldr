@@ -1,6 +1,7 @@
 # javac
 
 > ஜாவா நிரல்மொழிமாற்றி.
+> மேலும் தகவல்: <https://docs.oracle.com/en/java/javase/13/docs/specs/man/javac.html>.
 
 - `.java` கோப்பை நிரல்மொழிமாற்ற:
 
