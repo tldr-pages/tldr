@@ -21,7 +21,7 @@
 
 - Run Ganache with a specific account and balance:
 
-`ganache-cli --account="{{account_address}},{{account_balance}}"`
+`ganache-cli --account="{{account_private_key}},{{account_balance}}"`
 
 - Run Ganache with accounts with a default balance:
 
