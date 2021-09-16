@@ -17,7 +17,7 @@
 
 - Run Ganache server and unlock specific accounts:
 
-`ganache-cli --secure --unlock "{{account_address1}}" --unlock "{{account_address2""`
+`ganache-cli --secure --unlock "{{account_private_key1}}" --unlock "{{account_private_key2}}"`
 
 - Run Ganache with a specific account and balance:
 
