@@ -14,7 +14,3 @@
 - Read an IR file from `stdin` and assemble it:
 
 `cat {{path/to/source.ll}} | llvm-as -o {{path/to/out.bc}}`
-
-- Assemble an IR file to `stdout` (might mess up your terminal):
-
-`llvm-as -f -o - {{path/to/source.ll}}`
