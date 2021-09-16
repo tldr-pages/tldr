@@ -1,7 +1,7 @@
 # ninja
 
 > 一个快速的构建系统。
-> 更多信息： <https://ninja-build.org/manual.html>.
+> 更多信息：<https://ninja-build.org/manual.html>.
 
 - 在当前目录下构建：
 

@@ -1,7 +1,7 @@
 # gpg-zip
 
 > 使用`GPG`加密存档中的文件和目录。
-> 更多信息： <https://www.gnupg.org/documentation/manuals/gnupg/gpg_002dzip.html>.
+> 更多信息：<https://www.gnupg.org/documentation/manuals/gnupg/gpg_002dzip.html>.
 
 - 使用密码将一个目录加密为`archive.gpg`:
 

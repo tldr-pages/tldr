@@ -1,7 +1,7 @@
 # autorandr
 
 > 自动调节屏幕布局。
-> 更多信息： <https://github.com/phillipberndt/autorandr>.
+> 更多信息：<https://github.com/phillipberndt/autorandr>.
 
 - 保存当前屏幕布局：
 

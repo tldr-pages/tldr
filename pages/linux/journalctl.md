@@ -1,6 +1,7 @@
 # journalctl
 
 > Query the systemd journal.
+> More information: <https://manned.org/journalctl>.
 
 - Show all messages from this [b]oot:
 

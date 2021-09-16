@@ -3,7 +3,7 @@
 > Create, run and build Swift projects.
 > More information: <https://swift.org>.
 
-- Invoke the interactive interpreter (REPL):
+- Start a REPL (interactive shell):
 
 `swift`
 

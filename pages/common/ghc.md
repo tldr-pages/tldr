@@ -20,7 +20,7 @@
 
 `ghc -c {{file.hs}}`
 
-- Run Haskell interactive interpreter (REPL):
+- Start a REPL (interactive shell):
 
 `ghci`
 

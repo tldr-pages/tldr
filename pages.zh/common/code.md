@@ -1,7 +1,7 @@
 # code
 
 > Visual Studio Code.
-> 更多信息： <https://github.com/microsoft/vscode>.
+> 更多信息：<https://github.com/microsoft/vscode>.
 
 - 打开 VS Code:
 

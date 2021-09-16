@@ -3,7 +3,7 @@
 > Guile Scheme interpreter.
 > More information: <https://www.gnu.org/software/guile>.
 
-- Start the Guile Scheme REPL:
+- Start a REPL (interactive shell):
 
 `guile`
 

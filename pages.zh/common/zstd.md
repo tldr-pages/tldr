@@ -1,7 +1,7 @@
 # zstd
 
 > 使用 Zstandard 压缩来压缩 / 解压文件。
-> 更多信息： <https://github.com/facebook/zstd>.
+> 更多信息：<https://github.com/facebook/zstd>.
 
 - 将一个文件压缩到一个 `.zst` 后缀的压缩文件中：
 

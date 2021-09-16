@@ -1,7 +1,7 @@
 # rustfmt
 
 > 格式化 Rust 源代码的工具。
-> 更多信息： <https://github.com/rust-lang/rustfmt>.
+> 更多信息：<https://github.com/rust-lang/rustfmt>.
 
 - 格式化文件，就地覆盖原始文件：
 

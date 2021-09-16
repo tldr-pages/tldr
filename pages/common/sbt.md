@@ -3,7 +3,7 @@
 > Build tool for Scala and Java projects.
 > More information: <https://www.scala-sbt.org/1.0/docs/>.
 
-- Start the SBT interactive shell (REPL):
+- Start a REPL (interactive shell):
 
 `sbt`
 

@@ -1,7 +1,7 @@
 # apport-bug
 
 > 在 Ubuntu 上提交错误报告。
-> 更多信息： <https://wiki.ubuntu.com/Apport>.
+> 更多信息：<https://wiki.ubuntu.com/Apport>.
 
 - 报告整个系统的错误：
 

@@ -2,7 +2,7 @@
 
 > 命令行`top`的替代品。
 > 比 `top` 更轻便，支持跨平台、图表更丰富。
-> 更多信息： <https://github.com/ClementTsang/bottom>.
+> 更多信息：<https://github.com/ClementTsang/bottom>.
 
 - 展示默认布局（cpu, 内存，温度，磁盘，网络和 进程）：
 

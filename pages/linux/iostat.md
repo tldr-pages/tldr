@@ -1,6 +1,7 @@
 # iostat
 
 > Report statistics for devices and partitions.
+> More information: <https://manned.org/iostat>.
 
 - Display a report of CPU and disk statistics since system startup:
 

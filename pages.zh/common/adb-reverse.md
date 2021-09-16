@@ -1,7 +1,7 @@
 # adb reverse
 
 > 安卓调试桥-反射： 反向映射安卓模拟器实例或者已连接的实体设备的套接字连接。
-> 更多信息： <https://developer.android.com/studio/command-line/adb>.
+> 更多信息：<https://developer.android.com/studio/command-line/adb>.
 
 - 列出所有来自模拟器和设备的映射连接：
 

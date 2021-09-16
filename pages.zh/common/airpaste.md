@@ -1,7 +1,7 @@
 # airpaste
 
 > 在同一网络下共享信息和文件。
-> 更多信息： <https://github.com/mafintosh/airpaste>.
+> 更多信息：<https://github.com/mafintosh/airpaste>.
 
 - 等待接收消息并显示接收到的信息：
 

@@ -1,7 +1,7 @@
 # heroku
 
 > 从命令行创建和管理 Heroku 应用。
-> 更多信息： <https://www.heroku.com/>.
+> 更多信息：<https://www.heroku.com/>.
 
 - 登录到你的 heroku 帐户：
 

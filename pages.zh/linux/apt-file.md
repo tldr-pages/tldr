@@ -1,7 +1,7 @@
 # apt-file
 
 > 在 apt 软件包中查找文件，其中也包括未安装的软件。
-> 更多信息： <https://manpages.debian.org/latest/apt-file/apt-file.1.html>.
+> 更多信息：<https://manpages.debian.org/latest/apt-file/apt-file.1.html>.
 
 - 更新元数据的数据库：
 
