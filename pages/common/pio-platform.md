@@ -21,7 +21,7 @@
 
 - Update installed development platforms:
 
-`pio platfom update`
+`pio platform update`
 
 - Uninstall a development platform:
 
