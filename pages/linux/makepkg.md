@@ -20,6 +20,6 @@
 
 `makepkg --skipchecksums`
 
-- Clean the build folder before compiling:
+- Clean up work directories after a successful build:
 
 `makepkg --clean`
