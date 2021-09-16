@@ -19,3 +19,7 @@
 - Make a package, but skip source checksums:
 
 `makepkg --skipchecksums`
+
+- Clean the build folder before compiling:
+
+`makepkg --clean`
