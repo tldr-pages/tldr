@@ -1,6 +1,6 @@
 # Mentioning sub-commands
 
-When a command has a sub-command, which can't be covered in the original page, it get's its own page.
+When a command has a sub-command, which can't be covered in the original page, it gets its own page.
 An example for this is `git` and it's sub-command pages like `git-commit`, `git-push`, etc.
 In order to notify the user that such sub-command pages exist, we put a little notice in the base command's description.
 This file contains the translation templates of this notice.
@@ -61,7 +61,7 @@ Manche Unterbefehle wie `example command` sind separat dokumentiert.
 ### es
 
 ```markdown
-Este comando también tiene documentación sobre sus subcomandos, ejemplo `example command`.
+Algunos subcomandos, como `example command`, tienen su propia documentación de uso.
 ```
 
 ---
