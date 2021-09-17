@@ -15,7 +15,7 @@
 
 `aura -A {{package_name}}`
 
-- Install a package from the system repos:
+- Install a package from the official repositories:
 
 `aura -S {{package_name}}`
 
