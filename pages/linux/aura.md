@@ -19,7 +19,7 @@
 
 `aura -S {{package_name}}`
 
-- Update all system repo packages:
+- Synchronize and update all packages from the official repositories:
 
 `aura -Syu`
 
