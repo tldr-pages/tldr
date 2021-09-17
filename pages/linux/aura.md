@@ -31,6 +31,6 @@
 
 `aura -Rs {{package_name}}`
 
-- Uninstall all orphan packages:
+- Remove orphan packages (installed as dependencies but not required by any package):
 
 `aura -Oj`
