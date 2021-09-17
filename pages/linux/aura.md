@@ -29,7 +29,7 @@
 
 - Remove a package and its dependencies:
 
-`aura -Rsu {{package_name}}`
+`aura --remove --recursive --unneeded {{package_name}}`
 
 - Remove orphan packages (installed as dependencies but not required by any package):
 
