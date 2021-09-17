@@ -5,7 +5,7 @@
 
 - Converter múltiplas imagens para um único PDF, cada imagem sendo uma página:
 
-`img2pdf {{caminho/da/imagem1}} {{caminho/da/imagem2.jpg}} --output {{caminho/do/arquivo}}`
+`img2pdf {{caminho/da/imagem1.jpg}} {{caminho/da/imagem2.jpg}} --output {{caminho/do/arquivo.pdf}}`
 
 - Converter para PDF apenas o primeiro quadro de uma imagem com múltiplos quadros:
 
