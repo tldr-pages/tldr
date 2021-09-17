@@ -21,7 +21,7 @@
 
 - Synchronize and update all packages from the official repositories:
 
-`aura -Sy --sysupgrade`
+`aura --sync --refresh --sysupgrade`
 
 - Downgrade a package using the package cache:
 
