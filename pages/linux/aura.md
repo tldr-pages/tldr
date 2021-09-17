@@ -27,7 +27,7 @@
 
 `aura -C {{package_name}}`
 
-- Remove both an installed package and its dependencies:
+- Remove a package and its dependencies:
 
 `aura -Rs {{package_name}}`
 
