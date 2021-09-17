@@ -9,7 +9,7 @@
 
 - Converter para PDF apenas o primeiro quadro de uma imagem com múltiplos quadros:
 
-`img2pdf {{caminho/do/arquivo.gif}} --first-frame-only --output {{path/to/file.pdf}}`
+`img2pdf {{caminho/do/arquivo.gif}} --first-frame-only --output {{caminho/do/arquivo.pdf}}`
 
 - Auto-orientar a imagem, usar uma página A4 em modo paisagem e uma borda de 2cm horizontalmente e 5.1cm verticalmente:
 
