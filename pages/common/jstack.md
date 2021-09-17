@@ -1,6 +1,7 @@
 # jstack
 
 > Java Stack Trace Tool.
+> More information: <https://www.unix.com/man-page/mojave/1/jstack/>.
 
 - Print Java stack traces for all threads in a Java process:
 
