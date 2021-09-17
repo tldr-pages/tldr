@@ -23,7 +23,7 @@
 
 `aura -Syu`
 
-- Downgrade a package from the package cache:
+- Downgrade a package using the package cache:
 
 `aura -C {{package_name}}`
 
