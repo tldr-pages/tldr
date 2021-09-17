@@ -17,7 +17,7 @@
 
 - Install a package from the official repositories:
 
-`aura -S {{package_name}}`
+`aura --sync {{package_name}}`
 
 - Synchronize and update all packages from the official repositories:
 
