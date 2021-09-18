@@ -1,7 +1,7 @@
 # jobs
 
 > Display status of jobs in the current session.
-> More information: <https://www.gnu.org/software/bash/manual/html_node/Job-Control-Builtins.html>.
+> More information: <https://manned.org/jobs>.
 
 - Show status of all jobs:
 
