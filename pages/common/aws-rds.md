@@ -5,12 +5,11 @@
 > More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/rds/index.html>.
 
 
-
 - Show help for specific RDS subcommand:
 
 `aws rds {{subcommand}} help`
 
-- Stopping instance:
+- Stop instance:
 
 `aws rds stop-db-instance --db-instance-identifier {{instance_identifier}}`
 
@@ -34,6 +33,6 @@
 
 `aws rds reboot-db-instance --db-instance-identifier {{instance_identifier}}`
 
-- Deleting instance:
+- Delete instance:
 
 `aws rds delete-db-instance --db-instance-identifier {{instance_identifier}} --final-db-snapshot-identifier {{finalsnapshot}} --delete-automated-backups`
