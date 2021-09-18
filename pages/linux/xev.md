@@ -3,11 +3,11 @@
 > Print contents of X events.
 > More information: <https://gitlab.freedesktop.org/xorg/app/xev>.
 
-- View all occuring X events.
+- View all occuring X events:
 
 `xev`
 
-- Monitor the X events of the root window instead of creating a new one.
+- Monitor the X events of the root window instead of creating a new one:
 
 `xev --root`
 
