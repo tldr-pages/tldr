@@ -26,7 +26,7 @@
 
 - Change instance identifier:
 
-`aws rds modify-db-instance --db-instance-identifier {{old_instance_identifier}}  --new-db-instance-identifier {{new_instance_identifier}}`
+`aws rds modify-db-instance --db-instance-identifier {{old_instance_identifier}} --new-db-instance-identifier {{new_instance_identifier}}`
 
 - Reboot instance:
 
