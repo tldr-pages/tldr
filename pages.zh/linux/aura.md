@@ -28,7 +28,7 @@
 `aura --downgrade {{包名}}`
 
 - 移除一个软件包及其依赖：
-  
+
 `aura --remove --recursive --unneeded {{包名}}`
 
 - 移除孤儿包（作为依赖安装但现在不被任何包依赖）：
