@@ -9,7 +9,7 @@
 
 - Monitor all X events of the root window instead of creating a new one:
 
-`xev --root`
+`xev -root`
 
 - Monitor all X events of a particular window:
 
@@ -17,4 +17,4 @@
 
 - Monitor X events from a given category (can be specified multiple times):
 
-`xev --event {{event_category}}`
+`xev -event {{event_category}}`
