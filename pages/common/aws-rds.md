@@ -22,7 +22,7 @@
 
 - Apply updates to RDS instance:
 
-`aws rds apply-pending-maintenance-action  --resource-identifier {{database_arn}} --apply-action system-update --opt-in-type immediate`
+`aws rds apply-pending-maintenance-action --resource-identifier {{database_arn}} --apply-action system-update --opt-in-type immediate`
 
 - Change instance identifier:
 
