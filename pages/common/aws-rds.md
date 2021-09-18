@@ -34,4 +34,4 @@
 
 - Delete instance:
 
-`aws rds delete-db-instance --db-instance-identifier {{instance_identifier}} --final-db-snapshot-identifier {{finalsnapshot}} --delete-automated-backups`
+`aws rds delete-db-instance --db-instance-identifier {{instance_identifier}} --final-db-snapshot-identifier {{snapshot_identifier}} --delete-automated-backups`
