@@ -3,18 +3,18 @@
 > Print contents of X events.
 > More information: <https://gitlab.freedesktop.org/xorg/app/xev>.
 
-- View all occuring X events:
+- Monitor all occuring X events:
 
 `xev`
 
-- Monitor the X events of the root window instead of creating a new one:
+- Monitor all X events of the root window instead of creating a new one:
 
 `xev --root`
 
-- View the X events of a particular window:
+- Monitor all X events of a particular window:
 
-`xev -id {{Window_id}}`
+`xev -id {{window_id}}`
 
-- View a category of X events (multiple flags can be chained):
+- Monitor X events from a given category (can be specified multiple times):
 
-`xev --event {{Event_category}}`
+`xev --event {{event_category}}`
