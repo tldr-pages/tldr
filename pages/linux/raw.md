@@ -6,4 +6,3 @@
 - Bind a raw character device to a block device:
 
 `raw /dev/raw/raw{{1}} /dev/{{block_device`
-
