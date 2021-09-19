@@ -3,11 +3,11 @@
 > LLVM Bitcode (`.bc`) analyzer.
 > More information: <https://llvm.org/docs/CommandGuide/llvm-bcanalyzer.html>.
 
-- Print statistics on a Bitcode file:
+- Print statistics about a Bitcode file:
 
 `llvm-bcanalyzer {{path/to/file.bc}}`
 
-- Print an SGML representation of and statistics on a Bitcode file:
+- Print an SGML representation and statistics about a Bitcode file:
 
 `llvm-bcanalyzer -dump {{path/to/file.bc}}`
 
