@@ -5,20 +5,20 @@
 
 - 列出用户的密码信息：
 
-`chage -l {{用户名}}`
+`chage --list {{用户名}}`
 
 - 启用密码在 10 天内过期：
 
-`sudo chage -M {{10}} {{用户名}}`
+`sudo chage --maxdays {{10}} {{用户名}}`
 
 - 关闭密码过期：
 
-`sudo chage -M -1 {{用户名}}`
+`sudo chage --maxdays {{-1}} {{用户名}}`
 
 - 设置账户到期日期：
 
-`sudo chage -E {{YYYY-MM-DD}}`
+`sudo chage --expiredate {{YYYY-MM-DD}} {{用户名}}`
 
 - 强制用户在下次登录时更改密码：
 
-`sudo chage -d {{0}}`
+`sudo chage --lastday {{0}} {{用户名}}`
