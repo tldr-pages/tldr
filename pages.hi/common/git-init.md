@@ -1,7 +1,7 @@
 # git init
 
 > एक नया स्थानीय गिट रिपॉजिटरी शुरू करता है।
-> अधिक जानकारी: <https://git-scm.com/docs/git-init>।
+> अधिक जानकारी: <https://git-scm.com/docs/git-init>.
 
 - एक नया स्थानीय भंडार शुरू करें:
 

@@ -2,7 +2,7 @@
 
 > Bourne-Again SHell.
 > `sh`-ondersteunende commandoregel-interpreteerder.
-> Meer informatie: <https://gnu.org/software/bash>.
+> Meer informatie: <https://gnu.org/software/bash/>.
 
 - Start interactieve shell:
 

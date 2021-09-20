@@ -1,6 +1,7 @@
 # exit
 
 > 退出当前的命令行实例或 bat 脚本。
+> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/exit>.
 
 - 退出当前的命令行实例：
 

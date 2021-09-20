@@ -1,7 +1,7 @@
 # git merge
 
 > Esegui un'unione (merge) tra due rami Git.
-> Maggiori informazioni: <https://github.com/mhagger/git-merge>.
+> Maggiori informazioni: <https://git-scm.com/docs/git-merge>.
 
 - Avvia un'unione con il tuo ramo corrente:
 

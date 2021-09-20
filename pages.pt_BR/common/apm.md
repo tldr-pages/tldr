@@ -2,6 +2,7 @@
 
 > Gerenciador de pacotes do editor de texto Atom.
 > Ver também `atom`.
+> Mais informações: <https://github.com/atom/apm>.
 
 - Instalar pacotes de http://atom.io/packages e temas de http://atom.io/themes:
 

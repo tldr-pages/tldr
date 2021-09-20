@@ -2,6 +2,7 @@
 
 > 检查或修复文件系统的完整性，运行命令时应卸载文件系统。
 > 它是一个包装器，包含 `fsck_hfs`, `fsck_apfs`, `fsck_msdos`, `fsck_exfat`, `fsck_udf` 作为可选。
+> 更多信息：<https://ss64.com/osx/fsck.html>.
 
 - 检查文件系统 /dev/sda，报告损坏的块：
 

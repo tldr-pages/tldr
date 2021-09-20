@@ -1,7 +1,7 @@
 # carbon-now
 
 > 创建漂亮的代码图片。
-> 更多信息在： <https://github.com/mixn/carbon-now-cli>.
+> 更多信息：<https://github.com/mixn/carbon-now-cli>.
 
 - 使用默认设置从文件创建图片：
 

@@ -1,7 +1,7 @@
 # mongod
 
 > MongoDB 数据库服务器。
-> 更多信息见： <https://docs.mongodb.com/manual/reference/program/mongod>.
+> 更多信息：<https://docs.mongodb.com/manual/reference/program/mongod>.
 
 - 指定配置文件：
 

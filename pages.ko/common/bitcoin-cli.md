@@ -1,7 +1,7 @@
 # bitcoin-cli
 
 > RPC 호출을 통해 비트코인 데몬과 상호 작용하는 커맨드라인 클라이언트.`bitcoin.conf`에 정의된 구성 사용.
-> 더 많은 정보:<https://en.bitcoin.it/wiki/Running_Bitcoin#Command-line_arguments>.
+> 더 많은 정보: <https://en.bitcoin.it/wiki/Running_Bitcoin#Command-line_arguments>.
 
 - 지정된 주소로 트랜잭션 전송:
 

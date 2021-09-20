@@ -1,7 +1,7 @@
 # cpdf
 
 > Interfaz de línea de comandos para manipular documentos PDF existentes de diferentes maneras.
-> Más información: <https://www.coherentpdf.com/cpdfmanudel/cpdfmanudel.html>.
+> Más información: <https://www.coherentpdf.com/cpdfmanual/cpdfmanual.html>.
 
 - Selecciona las páginas 1, 2, 3 y 6 del documento fuente y escribirlas en el documento objetivo:
 

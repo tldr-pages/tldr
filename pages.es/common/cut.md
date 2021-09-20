@@ -1,7 +1,7 @@
 # cut
 
 > Recorta campos provenientes de la entrada estándar o de archivos.
-> Más información: <https://www.gnu.org/software/coreutils/cut>
+> Más información: <https://www.gnu.org/software/coreutils/cut>.
 
 - Recorta los primeros 16 caracteres de cada línea de la entrada estándar:
 

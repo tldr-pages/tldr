@@ -1,6 +1,7 @@
 # zip
 
 > Ferramenta de compressão de arquivos em arquivos zip.
+> Mais informações: <https://manned.org/zip>.
 
 - Compactando arquivos em um arquivo zip:
 

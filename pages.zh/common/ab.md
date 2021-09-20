@@ -1,6 +1,7 @@
 # ab
 
 > Apache 基准测试工具.最简单的压力测试工具。
+> 更多信息：<https://httpd.apache.org/docs/current/programs/ab.html>.
 
 - 向目标 URL 执行 100 次 HTTP GET 请求：
 

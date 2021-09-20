@@ -2,7 +2,7 @@
 
 > Generatore di ambienti di compilazione multipiattaforma.
 > Genera Makefile, progetti Visual Studio o altro, in base al sistema operativo.
-> Maggiori informazioni: <https://cmake.org/cmake/help/v3.2/manual/cmake.1.html>.
+> Maggiori informazioni: <https://cmake.org/cmake/help/latest/manual/cmake.1.html>.
 
 - Genera un Makefile ed usalo per compilare un progetto nella stessa directory dei sorgenti:
 

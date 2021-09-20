@@ -1,6 +1,7 @@
 # rails generate
 
 > Gerar artefatos Rails a partir de um modelo em um projeto existente.
+> Mais informações: <https://guides.rubyonrails.org/command_line.html#bin-rails-generate>.
 
 - Exibir todos os geradores disponíveis:
 

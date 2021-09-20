@@ -1,7 +1,7 @@
 # dot
 
 > 방향 그래프의 레이어 도면을 생성하는 명령 도구입니다.
-> 더 많은 정보: <https://www.graphviz.org/pdf/dotguide.pdf>.
+> 더 많은 정보: <https://graphviz.org/doc/info/command.html>.
 
 - 입력 파일 이름과 선택한 포맷을 기반으로 이미지 파일을 랜더링하고 출력파일 이름 결정하기:
 

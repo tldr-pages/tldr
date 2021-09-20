@@ -1,6 +1,7 @@
 # subst
 
 > 将路径与虚拟驱动器号关联。
+> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/subst>.
 
 - 列出已激活的关联：
 

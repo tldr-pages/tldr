@@ -1,6 +1,7 @@
 # systeminfo
 
 > 显示本地或远程计算机的操作系统配置。
+> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/systeminfo>.
 
 - 显示本地计算机的操作系统配置：
 

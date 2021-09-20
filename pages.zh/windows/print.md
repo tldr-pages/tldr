@@ -1,6 +1,7 @@
 # print
 
 > 将文本文件打印到打印机。
+> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/print>.
 
 - 将文本文件打印到默认的打印机：
 
