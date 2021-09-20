@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+    #!/usr/bin/env python3
 # SPDX-License-Identifier: MIT
 
 import argparse
@@ -80,6 +80,8 @@ def set_link(file, link):
     # build new line
     if locale == "zh" or locale == "zh_TW":
         new_line = f"> {labels[locale]}<{link}>.\n"
+    elif locale == "hi":
+        new_line = f"> {labels[locale]} <{link}>।\n"
     else:
         new_line = f"> {labels[locale]} <{link}>.\n"
 
