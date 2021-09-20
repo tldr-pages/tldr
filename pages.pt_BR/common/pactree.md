@@ -21,4 +21,4 @@
 
 - Converter uma imagem para PDF e especificar os metadados do arquivo resultante:
 
-`img2pdf {{caminho/do/arquivo.png}} --title {{título}} --author {{autor}} --creationdate {{1970-01-31}} --keywords {{palavra-chave1 palavra-chave2}} --subject {{assunto}} --output {{caminho/do/arquivo.pdf}}`
+`img2pdf {{caminho/do/arquivo.png}} --title {{título}} --author {{autor}} --creationdate {{1970-01-31}} --keywords {{palavra_chave1 palavra_chave2}} --subject {{assunto}} --output {{caminho/do/arquivo.pdf}}`
