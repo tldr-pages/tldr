@@ -27,6 +27,6 @@
 
 `diff --recursive --brief {{old_directory}} {{new_directory}}`
 
-- Create a patch file for Git:
+- Create a patch file for Git from the differences of two text files, treating nonexistent files as empty:
 
 `diff --text --unified --new-file {{old_file}} {{new_file}} > {{diff.patch}}`
