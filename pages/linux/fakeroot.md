@@ -1,6 +1,6 @@
 # fakeroot
 
-> Run a command in an environment, faking root privileges for file manipulation.
+> Run a command in an environment faking root privileges for file manipulation.
 > More information: <https://manpages.debian.org/latest/fakeroot/fakeroot.1.html>.
 
 - Start the default shell as fakeroot:
