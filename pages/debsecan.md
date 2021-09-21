@@ -3,7 +3,7 @@
 > A tool to list vulnerabilities on a particular Debian installation. 
 > More information: https://gitlab.com/fweimer/debsecan.
 
-- List vulnerable installed packages on current host:
+- List vulnerable installed packages on the current host:
 
 `debsecan`
 
