@@ -22,3 +22,15 @@
 - Upgrade all extensions:
 
 `gh extension upgrade --all`
+
+- List installed extensions:
+
+`gh extension list`
+
+- Remove a extension:
+
+`gh extension remove {{name}}`
+
+- Display help about a subcommand:
+
+`gh extension {{subcommand}} --help`
