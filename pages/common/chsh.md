@@ -7,9 +7,9 @@
 
 `chsh`
 
-- Change the login shell of `user`:
+- Change the login shell for a given user to Zsh:
 
-`chsh --shell {{/bin/zsh}} {{user}}`
+`chsh --shell {{/bin/zsh}} {{username}}`
 
 - List available shells:
 
