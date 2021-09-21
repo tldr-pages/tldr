@@ -17,7 +17,7 @@
 
 - List only fixed vulnerabilities of testing ("sid") and mail to root:
 
-`debsecan --suite sid --only-fixed --format report --mailto root --update-history`
+`debsecan --suite {{sid}} --only-fixed --format {{report}} --mailto {{root}} --update-history`
 
 - Upgrade vulnerable installed packages:
 
