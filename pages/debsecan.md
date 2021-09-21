@@ -21,4 +21,4 @@
 
 - Upgrade vulnerable installed packages:
 
-`sudo apt upgrade $(debsecan --only-fixed --format packages)`
+`sudo apt upgrade $(debsecan --only-fixed --format {{packages}})`
