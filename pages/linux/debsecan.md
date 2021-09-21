@@ -13,7 +13,7 @@
 
 - List only fixed vulnerabilities of testing ("sid"):
 
-`debsecan --suite sid --only-fixed`
+`debsecan --suite {{sid}} --only-fixed`
 
 - List only fixed vulnerabilities of testing ("sid") and mail to root:
 
