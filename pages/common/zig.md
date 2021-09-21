@@ -29,7 +29,7 @@
 
 - Use Zig as a drop-in C compiler:
 
-`zig cc {{file.c}`
+`zig cc {{file.c}}`
 
 - Use Zig as a drop-in C++ compiler:
 
