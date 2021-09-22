@@ -11,11 +11,11 @@
 
 `zig build run`
 
-- Initialize a 'zig build' application:
+- Initialize a `zig build` application:
 
 `zig init-exe`
 
-- Intitialize a 'zig build' libray:
+- Intitialize a `zig build` libray:
 
 `zig init-lib`
 
