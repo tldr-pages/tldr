@@ -9,7 +9,7 @@
 
 - Voeg een map toe:
 
-`git add {{pad/naar/voorbeeld-map}}
+`git add {{pad/naar/voorbeeld-map}}`
 
 - Voeg alle bestanden toe (getrackde en ongetrackde)
 
