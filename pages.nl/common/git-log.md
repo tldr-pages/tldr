@@ -19,9 +19,9 @@
 
 `git log --oneline --graph`
 
--- Geef een grafiek van alle commits, tags en branches in the complete repository:
--
--`git log --oneline --decorate --all --graph`
+- Geef een grafiek van alle commits, tags en branches in the complete repository:
+
+git log --oneline --decorate --all --graph`
 
 - Geef enkel commits aan met welke bericht een specifieke tekst bevat:
 
