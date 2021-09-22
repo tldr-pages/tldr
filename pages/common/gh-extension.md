@@ -27,7 +27,7 @@
 
 `gh extension list`
 
-- Remove a extension:
+- Remove an extension:
 
 `gh extension remove {{name}}`
 
