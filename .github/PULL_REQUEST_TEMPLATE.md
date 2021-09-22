@@ -11,4 +11,4 @@
 - [ ] The page follows the [content guidelines](/tldr-pages/tldr/blob/main/CONTRIBUTING.md#guidelines).
 - [ ] The page description includes a link to documentation or a homepage (if applicable).
 
-Version of the command being documented:
+ - **Version of the command being documented (if known):**
