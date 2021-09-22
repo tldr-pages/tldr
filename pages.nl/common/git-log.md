@@ -15,13 +15,13 @@
 
 `git log --stat`
 
-- Geef een grafiek van commits in de huidige branch:
+- Geef een grafiek van commits in de huidige branch, met enkel de eerste lijk van de commit weergegeven:
 
-`git log --graph`
+`git log --oneline --graph`
 
-- Geef de commit reeks, met enkel de eerste lijn van de commit weergegeven:
-
-`git log --oneline`
+-- Geef een grafiek van alle commits, tags en branches in the complete repository:
+-
+-`git log --oneline --decorate --all --graph`
 
 - Geef enkel commits aan met welke bericht een specifieke tekst bevat:
 
