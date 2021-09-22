@@ -12,9 +12,9 @@
 
 `gh screensaver --saver {{fireworks|marquee|pipes|pollock|starfield}}`
 
-- Run the marquee screensaver with a specific text and font:
+- Run the "marquee" screensaver with a specific text and font:
 
-`gh screensaver --saver marquee -- --message="{{message}}" --font={{font_name}}`
+`gh screensaver --saver {{marquee}} -- --message="{{message}}" --font={{font_name}}`
 
 - Run the starfield screensaver with a specific density and speed:
 
