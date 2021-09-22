@@ -1,6 +1,7 @@
 # starship
 
 > The minimal, blazing-fast, and infinitely customizable prompt for any shell.
+> Some subcommands such as `starship init` have their own usage documentation.
 > More information: <https://starship.rs>.
 
 - Print the starship integration code for the specified shell:
