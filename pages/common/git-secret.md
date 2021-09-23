@@ -13,11 +13,11 @@
 
 - Grant access by email:
 
-`git secret tell <email>`
+`git secret tell {{email}}`
 
 - Revoke access by email:
 
-`git secret killperson <email>`
+`git secret killperson {{email}}`
 
 - List emails with access to secrets:
 
@@ -25,7 +25,7 @@
 
 - Register a secret file:
 
-`git secret add <file>`
+`git secret add {{path/to/file}}`
 
 - Encrypt/Re-encrypt secrets:
 
