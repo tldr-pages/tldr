@@ -2,6 +2,7 @@
 
 > Lista arquivos abertos e os seus processos correspondentes.
 > Nota: Privilégios de administrador (ou sudo) são necessários para listar arquivos abertos por outros.
+> Mais informações: <https://manned.org/lsof>.
 
 - Localizar os processos que têm um certo arquivo aberto:
 
