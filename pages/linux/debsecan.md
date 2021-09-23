@@ -1,6 +1,6 @@
 # debsecan
 
-> A tool to list vulnerabilities on a particular Debian installation.
+> Debian Security Analyzer, a tool to list vulnerabilities on a particular Debian installation.
 > More information: <https://gitlab.com/fweimer/debsecan>.
 
 - List vulnerable installed packages on the current host:
@@ -15,7 +15,7 @@
 
 `debsecan --suite {{release_code_name}} --only-fixed`
 
-- List only fixed vulnerabilities of testing ("sid") and mail to root:
+- List only fixed vulnerabilities of unstable ("sid") and mail to root:
 
 `debsecan --suite {{sid}} --only-fixed --format {{report}} --mailto {{root}} --update-history`
 
