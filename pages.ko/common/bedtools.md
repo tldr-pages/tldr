@@ -1,7 +1,7 @@
 # bedtools
 
 > 유전자 분석 작업을 위한 도구의 swiss-army knife. BAM, BED, GFF/GTF, VCF 형식으로 데이터를 교차, 그룹화, 변환 및 카운트하는 데 사용.
-> 더 많은 정보: <https://bedtools.readthedocs.io/en/latest/>.
+> 더 많은 정보: <https://bedtools.readthedocs.io>.
 
 - sequence의 strand를 기준으로 두개의 파일을 교차하고 결과를 `path/to/output_file`의 경로에 저장:
 
