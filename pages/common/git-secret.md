@@ -1,4 +1,4 @@
-# git-secret
+# git secret
 
 > Bash tool which stores private data inside a git repo.
 > More information: <https://github.com/sobolevn/git-secret>.
