@@ -11,9 +11,9 @@
 
 `debsecan --suite {{release_code_name}}`
 
-- List only fixed vulnerabilities of testing ("sid"):
+- List only fixed vulnerabilities:
 
-`debsecan --suite {{sid}} --only-fixed`
+`debsecan --suite {{release_code_name}} --only-fixed`
 
 - List only fixed vulnerabilities of testing ("sid") and mail to root:
 
