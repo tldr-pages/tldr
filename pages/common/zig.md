@@ -1,7 +1,7 @@
 # zig
 
 > The Zig compiler and toolchain.
-> More information: <https://ziglang.org/>.
+> More information: <https://ziglang.org>.
 
 - Compile the project in the current directory:
 
