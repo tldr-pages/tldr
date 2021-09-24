@@ -30,4 +30,4 @@
 
 - 특정 쓰레드 수를 사용하여 구축(기본값은 CPU 코어 수):
 
-`cargo build -j {{작업}}`
+`cargo build --jobs {{작업}}`

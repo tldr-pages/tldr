@@ -51,7 +51,7 @@ git fetch upstream main
 git rebase upstream/main     # in case you have any merge conflicts, click the link below to see how to resolve them
 git push --force-with-lease  # not needed if you only want to update your local repository
 ```
-[How to resolve merge conficts](https://docs.github.com/en/github/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line)
+[How to resolve merge conflicts](https://docs.github.com/en/github/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line)
 
 # Changing the email of your last commit
 
@@ -75,7 +75,7 @@ Let's take this commit history as an example:
 | E | correct@example.org
 | F (HEAD) | correct@example.org
 
-To change the email of commts A and D, run
+To change the email of commits A and D, run
 
 ```bash
 git reset A

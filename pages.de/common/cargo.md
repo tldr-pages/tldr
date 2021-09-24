@@ -1,7 +1,7 @@
 # cargo
 
-> Rust Paketmanager.
 > Verwalte Rust-Projekte und deren Abhängigkeiten (crates).
+> Manche Unterbefehle wie `cargo build` sind separat dokumentiert.
 > Weitere Informationen: <https://crates.io/>.
 
 - Suche nach Abhängigkeiten (crates):
@@ -30,4 +30,4 @@
 
 - Erstelle (bzw. kompiliere) ein Rust-Projekt mit einer bestimmten Anzahl an Threads (standardmäßig die Anzahl der CPU-Kerne):
 
-`cargo build -j {{thread_anzahl}}`
+`cargo build --jobs {{thread_anzahl}}`

@@ -3,7 +3,7 @@
 > Ruby programming language interpreter.
 > More information: <https://www.ruby-lang.org>.
 
-- Open an Interactive Ruby Shell (REPL):
+- Start a REPL (interactive shell):
 
 `irb`
 
