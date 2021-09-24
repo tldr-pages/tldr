@@ -11,7 +11,7 @@
 
 `tlmgr check all -v`
 
-- Check for not installed dependencies:
+- Check for missing dependencies:
 
 `tlmgr check depends`
 
