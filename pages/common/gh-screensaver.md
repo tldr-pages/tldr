@@ -16,7 +16,7 @@
 
 `gh screensaver --saver {{marquee}} -- --message="{{message}}" --font={{font_name}}`
 
-- Run the starfield screensaver with a specific density and speed:
+- Run the "starfield" screensaver with a specific density and speed:
 
 `gh screensaver --saver {{starfield}} -- --density {{500}} --speed {{10}}`
 
