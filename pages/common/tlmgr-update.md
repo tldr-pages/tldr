@@ -19,7 +19,7 @@
 
 `sudo tlmgr update --all --exclude {{package}}`
 
-- Update all packages making a backup of the current packages:
+- Update all packages, making a backup of the current packages:
 
 `sudo tlmgr update --all --backup`
 
