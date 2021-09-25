@@ -1,11 +1,11 @@
 # duplicacy
 
 > A lock-free deduplication cloud backup tool.
-> More information: <https://github.com/gilbertchen/duplicacy/blob/master/GUIDE.md>.
+> More information: <https://github.com/gilbertchen/duplicacy/wiki>.
 
 - Use current directory as the repository, initialize a SFTP storage and encrypt the storage with a password:
 
-`duplicacy init -e {{repository_id}} {{sftp://user@192.168.2.100/path/to/storage/}}`
+`duplicacy init -e {{snapshot_id}} {{sftp://user@192.168.2.100/path/to/storage/}}`
 
 - Save a snapshot of the repository to the default storage:
 
