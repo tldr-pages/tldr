@@ -27,7 +27,7 @@
 
 `git secret add {{path/to/file}}`
 
-- Encrypt/Re-encrypt secrets:
+- Encrypt secrets:
 
 `git secret hide`
 
