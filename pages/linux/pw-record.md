@@ -7,9 +7,9 @@
 
 `pw-record --list-targets`
 
-- Record a sample recording using the default target
+- Record a sample recording using the default target:
 
-`pw-record {{audiotest.wav}}
+`pw-record {{audiotest.wav}}`
 
 - Record a sample recording at a different volume level:
 
