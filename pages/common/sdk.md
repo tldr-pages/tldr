@@ -20,6 +20,10 @@
 
 `sdk list`
 
+- List all installed Software Development Kits:
+
+`sdk current`
+
 - Update Gradle to the latest version:
 
 `sdk upgrade {{gradle}}`
