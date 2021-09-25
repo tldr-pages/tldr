@@ -1,6 +1,6 @@
 # pw-record
 
-> Shorthand tool for pw-cat --playback
+> Shorthand tool for pw-cat --playback.
 > More information: <https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_CLI>.
 
 - List all available record targets:
