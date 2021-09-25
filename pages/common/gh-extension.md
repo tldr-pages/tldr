@@ -29,7 +29,7 @@
 
 - Remove an extension:
 
-`gh extension remove {{name}}`
+`gh extension remove {{extension_name}}`
 
 - Display help about a subcommand:
 
