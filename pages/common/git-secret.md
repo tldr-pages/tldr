@@ -7,7 +7,7 @@
 
 `git secret init`
 
-- Grant access to the current git user's email:
+- Grant access to the current Git user's email:
 
 `git secret tell -m`
 
