@@ -9,12 +9,12 @@
 
 - Record a sample recording using the default target:
 
-`pw-record {{audiotest.wav}}`
+`pw-record {{path/to/file.wav}}`
 
 - Record a sample recording at a different volume level:
 
-`pw-record --volume={{0.1}} {{quiet.wav}}`
+`pw-record --volume={{0.1}} {{path/to/file.wav}}`
 
 - Record a sample recording using a different sample rate:
 
-`pw-record --rate={{6000}} {{lowrate.wav}}`
+`pw-record --rate={{6000}} {{path/to/file.wav}}`

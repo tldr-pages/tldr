@@ -17,7 +17,7 @@
 
 - Record a sample recording at a different volume level:
 
-`pw-cat --record --volume={{0.1}} {{quiet.wav}}`
+`pw-cat --record --volume={{0.1}} {{path/to/file.wav}}`
 
 - Record a sample recording using a different sample rate:
 
