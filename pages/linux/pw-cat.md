@@ -9,7 +9,7 @@
 
 - Play a wav sound file over the default target:
 
-`pw-cat --playback {{audiofile.wav}}`
+`pw-cat --playback {{path/to/file.wav}}`
 
 - List all available record targets:
 
