@@ -7,7 +7,7 @@
 
 `pw-cat --playback --list-targets`
 
-- Play a wav sound file over the default target:
+- Play a WAV file over the default target:
 
 `pw-cat --playback {{path/to/file.wav}}`
 
