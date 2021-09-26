@@ -1,6 +1,6 @@
 # fwupdmgr
 
-> A simple daemon that allows updating some device firmwares, including UEFI.
+> A tool for updating device firmware, including UEFI, using `fwupd`.
 > More information: <https://fwupd.org/>.
 
 - Display all devices detected by fwupd:
