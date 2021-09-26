@@ -1,6 +1,7 @@
 # ex
 
-> Command-line text editor. See also `vim`.
+> Command-line text editor.
+> See also: `vim`.
 > More information: <https://www.vim.org>.
 
 - Open a file:
