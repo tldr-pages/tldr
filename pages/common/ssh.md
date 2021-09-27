@@ -15,15 +15,15 @@
 
 `ssh {{username}}@{{remote_host}} -p {{2222}}`
 
-- Run a command on a remote server:
+- Run a command on a remote server (use `-t` to force a [t]ty allocation allowing interaction with the remote command):
 
-`ssh {{remote_host}} {{command -with -flags}}`
+`ssh {{username}}@{{remote_host}} {{command}} {{command_arguments}}`
 
 - SSH tunneling: Dynamic port forwarding (SOCKS proxy on localhost:1080):
 
 `ssh -D {{1080}} {{username}}@{{remote_host}}`
 
-- SSH tunneling: Forward a specific port (localhost:9999 to example.org:80) along with disabling pseudo-[t]ty allocation and executio[n] of remote commands:
+- SSH tunneling: Forward a specific port (localhost:9999 to example.org:80) along with disabling pseudo-[T]ty allocation and executio[N] of remote commands:
 
 `ssh -L {{9999}}:{{example.org}}:{{80}} -N -T {{username}}@{{remote_host}}`
 
