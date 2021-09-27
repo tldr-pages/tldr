@@ -14,7 +14,7 @@
 
 - Meningkatakan paket ke versi terbaru:
 
-`pip install -U {{nama_paket}}`
+`pip install --upgrade {{nama_paket}}`
 
 - Mencopot pemasangan paket:
 
@@ -26,7 +26,7 @@
 
 - Memasang paket dari berkas:
 
-`pip install -r {{requirements.txt}}`
+`pip install --requirement {{requirements.txt}}`
 
 - Menampilkan informasi paket terpasang:
 
