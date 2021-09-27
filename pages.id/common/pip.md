@@ -12,6 +12,10 @@
 
 `pip install {{nama_paket}}=={{versi_paket}}`
 
+- Instal paket ke direktori pengguna alih-alih lokasi default seluruh sistem:
+
+`pip install --user {{nama_paket}}`
+
 - Meningkatakan paket ke versi terbaru:
 
 `pip install --upgrade {{nama_paket}}`

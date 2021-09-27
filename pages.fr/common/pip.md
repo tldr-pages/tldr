@@ -11,6 +11,10 @@
 
 `pip install {{paquet}}=={{version}}`
 
+- Installer un package dans le répertoire de l'utilisateur au lieu de l'emplacement par défaut à l'échelle du système:
+
+`pip install --user {{paquet}}`
+
 - Met à jour un paquet:
 
 `pip install --upgrade {{paquet}}`

@@ -8,10 +8,13 @@
 
 `pip install {{package_name}}`
 
-
 - Install a specific version of a package:
 
 `pip install {{package}}=={{version}}`
+
+- Install a package to the user's directory instead of the system-wide default location:
+
+`pip install --user {{package}}`
 
 - Upgrade a package:
 
