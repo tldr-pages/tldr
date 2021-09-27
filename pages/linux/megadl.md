@@ -12,6 +12,6 @@
 
 `megadl --choose-files {{https://mega.nz/...}}`
 
-- Additionally limit speed to {{speed}} in kb/s and specify a path:
+- Optionally limit speed in kb/s and specify a path:
 
-`megadl --choose-files --limit-speed {{speed}} --path {{/path/to/download/}} {{https://mega.nz/...}}`
+`megadl --choose-files --limit-speed {{speed}} --path {{/path/to/file_or_directory}} {{https://mega.nz/...}}`
