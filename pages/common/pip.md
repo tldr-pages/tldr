@@ -8,6 +8,11 @@
 
 `pip install {{package_name}}`
 
+
+- Install a specific version of a package:
+
+`pip install {{package}}=={{version}}`
+
 - Upgrade a package:
 
 `pip install -U {{package_name}}`
