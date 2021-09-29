@@ -2,7 +2,7 @@
 
 > Un coltellino svizzero di strumenti per analisi genomica.
 > Usato per intersecare, raggruppare, convertire e contare dati in formato BAM, BED, GFF/GTF, VCF.
-> Maggiori informazioni: <https://bedtools.readthedocs.io/en/latest/>.
+> Maggiori informazioni: <https://bedtools.readthedocs.io>.
 
 - Interseca i fili genetici delle sequenze contenute in due file diversi e salva il risultato:
 

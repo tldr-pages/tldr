@@ -1,7 +1,7 @@
 # git cola
 
 > A powerful Git GUI with a slick and intuitive user interface.
-> More information: <https://git-cola.readthedocs.io/en/latest/>.
+> More information: <https://git-cola.readthedocs.io>.
 
 - Start git cola:
 
