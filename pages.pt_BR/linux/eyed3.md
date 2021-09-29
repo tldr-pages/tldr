@@ -1,7 +1,7 @@
 # eyeD3
 
 > Lê e manipula os metadados de arquivos MP3.
-> Mais informações: <https://eyed3.readthedocs.io/en/latest/>.
+> Mais informações: <https://eyed3.readthedocs.io>.
 
 - Visualizar as informações de um arquivo MP3:
 

@@ -1,7 +1,7 @@
 # dnf
 
 > Package management utility for RHEL, Fedora, and CentOS (replaces yum).
-> More information: <https://dnf.readthedocs.io/>.
+> More information: <https://dnf.readthedocs.io>.
 
 - Upgrade installed packages to the newest available versions:
 
