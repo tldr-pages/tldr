@@ -7,7 +7,7 @@
 
 `gpg-tui`
 
-- Start `gpg-tui` enabling color and ASCII armored output:
+- Start `gpg-tui` with color and ASCII armored output:
 
 `gpg-tui --style {{colored}} --armor`
 
