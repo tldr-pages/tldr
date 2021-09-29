@@ -2,7 +2,7 @@
 
 > Secure Shell Daemon - allows remote machines to securely log in to the current machine.
 > Remote machines can execute commands as it is executed at this machine.
-> More information: <https://linux.die.net/man/8/sshd>.
+> More information: <https://man.openbsd.org/sshd>.
 
 - Start Daemon and run in the background:
 
