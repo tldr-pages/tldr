@@ -27,10 +27,10 @@
 
 `duplicacy add {{storage_name}} {{snapshot_id}} {{storage_url}}`
 
-- Prune specific revision of snapshot:
+- Prune a specific revision of snapshot:
 
 `duplicacy prune -r {{revision}}`
 
-- Keep 1 revision every n days for revisions older than m days:
+- Prune revisions, keeping one revision every `n` days for all revisions older than `m` days:
 
 `duplicacy prune -keep {{n:m}}`
