@@ -4,6 +4,6 @@
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-clear>.
 
-- Hard reset git branch, deletes all untracked files including the ones in .gitignore:
+- Reset all tracked files, and delete all untracked files even if they are included in the `.gitignore`:
 
 `git clear`
