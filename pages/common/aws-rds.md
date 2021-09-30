@@ -1,6 +1,6 @@
 # aws rds
 
-> CLI for AWS RDS.
+> CLI for AWS Relational Database Service.
 > Create and manage relational databases.
 > More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/rds/index.html>.
 
@@ -20,18 +20,18 @@
 
 `aws rds modify-db-instance --db-instance-identifier {{instance_identifier}} {{parameters}} --apply-immediately`
 
-- Apply updates to RDS instance:
+- Apply updates to an RDS instance:
 
 `aws rds apply-pending-maintenance-action --resource-identifier {{database_arn}} --apply-action {{system-update}} --opt-in-type {{immediate}}`
 
-- Change instance identifier:
+- Change an instance identifier:
 
 `aws rds modify-db-instance --db-instance-identifier {{old_instance_identifier}} --new-db-instance-identifier {{new_instance_identifier}}`
 
-- Reboot instance:
+- Reboot an instance:
 
 `aws rds reboot-db-instance --db-instance-identifier {{instance_identifier}}`
 
-- Delete instance:
+- Delete an instance:
 
 `aws rds delete-db-instance --db-instance-identifier {{instance_identifier}} --final-db-snapshot-identifier {{snapshot_identifier}} --delete-automated-backups`
