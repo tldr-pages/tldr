@@ -30,3 +30,7 @@
 - Show accumulated I/O instead of bandwidth:
 
 `sudo iotop --accumulated`
+
+- Turn on non-interactive mode,and only show processes or threads actually doing I/O
+
+`iotop  -n1 -b -o`
