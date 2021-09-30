@@ -1,6 +1,6 @@
 # git clear
 
-> Clear a Git working directory as if it was freshly cloned with the current branch.
+> Clear a Git working directory as if it was freshly cloned with the current branch including files in `.gitignore`.
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-clear>.
 
