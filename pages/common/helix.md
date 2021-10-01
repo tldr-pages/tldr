@@ -21,12 +21,12 @@
 `:q!<Enter>`
 
 - Undo the last operation:
+
 `u`
 
 - Search for a pattern in the file (press `n`/`N` to go to next/previous match):
 
 `/{{search_pattern}}<Enter>`
-
 
 - Format the file:
 
