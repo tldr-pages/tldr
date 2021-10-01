@@ -19,13 +19,9 @@
 
 `ego profile show`
 
-- Enable a mix-in:
+- Enable/Disable mix-ins (various optional settings):
 
-`ego profile mix-in +{{gnome}}`
-
-- Disable a mix-in:
-
-`ego profile mix-in -{{gnome}}`
+`ego profile mix-in +{{gnome}} -{{kde-plasma-5}}`
 
 - Query Funtoo bugs, related to a given package:
 
