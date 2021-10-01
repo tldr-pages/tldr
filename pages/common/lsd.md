@@ -11,7 +11,7 @@
 
 `lsd -a`
 
-- List all files, with trailing `/` added to directory names:
+- List all files and directories, with trailing `/` added to directory names:
 
 `lsd -F`
 
