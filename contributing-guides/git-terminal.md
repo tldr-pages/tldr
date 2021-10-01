@@ -22,7 +22,7 @@ The overall process should look somewhat like this:
 6. Push the commit(s) to your fork:
   `git push origin {{branch_name}}`
 
-7. Go to the GitHub page for your fork and click the green "pull request" button.
+7. Go to the GitHub page for your fork and click the green "Compare & pull request" button.
 
 Please only send related changes in the same pull request.
 Typically a pull request will include changes in a single file.
