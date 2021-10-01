@@ -17,8 +17,8 @@
 
 - Set a certificate to use with a website or [s]ervice by its [c]ommon name (this will fail if several certificates with the same common name exist):
 
-`security set-identity-preference -s {{URL | hostname | service}} -c {{friendly_certificate_name_in_keychain}} {{path/to/file.keychain}}`
+`security set-identity-preference -s {{URL|hostname|service}} -c {{friendly_certificate_name_in_keychain}} {{path/to/file.keychain}}`
 
-- Add a certificate from file to a [k]eychain (if -k not specified the default keychain is used):
+- Add a certificate from file to a [k]eychain (if -k isn't specified, the default keychain is used):
 
 `security add-certificates -k {{keychain.name}} {{path/to/file}}`
