@@ -23,6 +23,6 @@
 
 `csrutil netboot add {{ip_address}}`
 
-- Reset System Integrity Protection status and clear NetBoot list:
+- Reset the System Integrity Protection status and clear the NetBoot list:
 
 `csrutil clear`
