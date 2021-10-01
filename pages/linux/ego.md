@@ -21,11 +21,11 @@
 
 - Enable a mix-in:
 
-`ego profile mix-in +{{mixin}}`
+`ego profile mix-in +{{gnome}}`
 
 - Disable a mix-in:
 
-`ego profile mix-in -{{mixin}}`
+`ego profile mix-in -{{gnome}}`
 
 - Query Funtoo bugs, related to a given package:
 
