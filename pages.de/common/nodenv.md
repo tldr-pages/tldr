@@ -23,6 +23,6 @@
 
 `nodenv version`
 
-- Zeige den Ort, wo ein Node.js Kommando installiert ist (bspw. `npm`):
+- Zeige den Ort, wo ein Node.js Befehl installiert ist (bspw. `npm`):
 
-`nodenv which {{kommando}}`
+`nodenv which {{befehl}}`
