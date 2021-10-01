@@ -3,7 +3,7 @@
 > Attach to a Java process or launch a postmortem debugger to analyze the core dump from a crashed Java Virtual Machine.
 More information: <https://manned.org/jhsdb>.
 
-- Using pid to connect to a hung process:
+- Use a PID to connect to a hung process:
 
 `jhsdb jstack --pid {{pid}}`
 
