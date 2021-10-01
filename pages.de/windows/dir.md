@@ -1,7 +1,7 @@
 # dir
 
 > Zeigt den Inhalt von Arbeitsverzeichnisses an.
-> Weitere Informationen: <https://docs.microsoft.com/de-de/windows-server/administration/windows-commands/dir>.
+> Weitere Informationen: <https://docs.microsoft.com/windows-server/administration/windows-commands/dir>.
 
 - Zeigt den Inhalt des aktuellen Arbeitsverzeichnisses an:
 
