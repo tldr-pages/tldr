@@ -5,7 +5,7 @@
 
 - View logs of a program, the arguments can be log files, directories or URLs:
 
-`lnav {{path/to/logdir}}`
+`lnav {{path/to/log_directory}}`
 
 - View logs of remote host host1.example.com (SSH passwordless login required):
 
