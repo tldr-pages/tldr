@@ -10,6 +10,10 @@
 
 `xcrun --version`
 
+- Find and run a tool from the active developer directory:
+
+`xcrun {{tool}} {{args}}`
+
 - Show verbose output:
 
 `xcrun --verbose`
