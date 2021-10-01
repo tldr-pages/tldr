@@ -5,7 +5,7 @@
 
 - Führe eine JavaScript Datei aus:
 
-`node {{path/to/file}}`
+`node {{pfad/zu/datei}}`
 
 - Starte eine REPL (Interaktive Shell):
 
@@ -21,4 +21,4 @@
 
 - Aktiviere Inspector und pausiere die Ausführung bis sich ein Debugger verbindet sobald der Quellcode vollständig geparsed ist:
 
-`node --no-lazy --inspect-brk {{path/to/file}}`
+`node --no-lazy --inspect-brk {{pfad/zu/datei}}`
