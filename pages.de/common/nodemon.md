@@ -5,7 +5,7 @@
 
 - Führe die angegebene Datei aus und warte auf Änderungen:
 
-`nodemon {{path/to/file.js}}`
+`nodemon {{pfad/zu/datei.js}}`
 
 - Manueller Neustart von Nodemon (beachte, dass Nodemon dabei aktiv sein muss):
 
@@ -13,12 +13,12 @@
 
 - Ignoriere bestimmte Dateien:
 
-`nodemon --ignore {{path/to/file_or_directory}}`
+`nodemon --ignore {{pfad/zu/datei_oder_verzeichnis}}`
 
 - Übergib Argumente an die Node Applikation:
 
-`nodemon {{path/to/file.js}} {{arguments}}`
+`nodemon {{pfad/zu/datei.js}} {{argumente}}`
 
 - Führe Nicht-Node Skripte aus:
 
-`nodemon --exec "{{python --verbose}}" {{path/to/file.py}}`
+`nodemon --exec "{{python --verbose}}" {{pfad/zu/datei.py}}`
