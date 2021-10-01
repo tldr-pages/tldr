@@ -25,4 +25,4 @@
 
 - Zeige den Ort, wo ein Node.js Kommando installiert ist (bspw. `npm`):
 
-`nodenv which {{command}}`
+`nodenv which {{kommando}}`
