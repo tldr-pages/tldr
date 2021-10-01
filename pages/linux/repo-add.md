@@ -1,6 +1,6 @@
 # repo-add
 
-> Package database maintenance utility which enables installation via pacman.
+> Package database maintenance utility which enables installation of said package via pacman.
 
 - Add all package binaries in the current directory and remove the old database file:
 
