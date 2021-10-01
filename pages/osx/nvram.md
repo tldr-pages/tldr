@@ -23,6 +23,6 @@
 
 `sudo nvram -c`
 
-- Set firmware variable from a specific [x]ML [f]ile:
+- Set a firmware variable from a specific [x]ML [f]ile:
 
 `sudo nvram -xf {{path/to/file.xml}}`
