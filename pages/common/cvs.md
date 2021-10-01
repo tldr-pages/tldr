@@ -5,27 +5,27 @@
 
 - Create repository (need to manually set CVSROOT to /path/to/repo in .bashrc):
 
-`cvs -d /path/to/repo init`
+`cvs -d {{path/to/repo}} init`
 
 - Add project to repository. Navigate to project folder and run:
 
-`cvs import -m "message" projectname version vendor`
+`cvs import -m "{{message}}" {{projectname}} {{version}} {{vendor}}`
 
 - Checkout a project:
 
-`cvs checkout projectname`
+`cvs checkout {{project_name}}`
 
 - Check file diff/changes:
 
-`cvs diff file.txt`
+`cvs diff {{path/to/file}}`
 
 - Add a file:
 
-`cvs add file.txt`
+`cvs add {{path/to/file}}`
 
 - Commit a file:
 
-`cvs commit -m "commit message" file.txt`
+`cvs commit -m "{{message}}" {{path/to/file}}`
 
 - Update working directory from repository:
 
