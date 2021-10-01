@@ -3,7 +3,7 @@
 > List directory contents.
 > More information: <https://github.com/Peltoche/lsd>.
 
-- List files and directories, one per line.
+- List files and directories, one per line:
 
 `lsd -1`
 
