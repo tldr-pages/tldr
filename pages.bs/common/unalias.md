@@ -1,11 +1,11 @@
 # unalias
 
-> Ukloni alijase.
+> Ukloni pseudonime.
 
-- Ukloni alijas:
+- Ukloni pseudonim:
 
 `unalias {{ime_alijasa}}`
 
-- Ukloni sve alijase:
+- Ukloni sve pseudonime:
 
 `unalias -a`
