@@ -13,4 +13,4 @@
 
 - Validate log format of log files against the configuration and report any errors:
 
-`lnav -C {{path/to/logdir}}`
+`lnav -C {{path/to/log_directory}}`
