@@ -78,7 +78,7 @@ exceptions can always be considered, via open community discussion.)
 
 ## How to change roles
 
-*Note: this section is aimed at owners in the tldr-pages organization
+*Note: This section is aimed at owners in the tldr-pages organization
 (i.e. the group of people who are able to perform these changes).*
 
 If you notice a contributor being particularly active,
