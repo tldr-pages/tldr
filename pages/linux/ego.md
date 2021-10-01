@@ -7,7 +7,7 @@
 
 `ego sync`
 
-- Update bootloader configuration:
+- Update the bootloader configuration:
 
 `ego boot update`
 
