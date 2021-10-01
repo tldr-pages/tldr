@@ -11,7 +11,7 @@
 
 `ego boot update`
 
-- Read a Funtoo wiki page:
+- Read a Funtoo wiki page by name:
 
 `ego doc {{wiki_page}}`
 
