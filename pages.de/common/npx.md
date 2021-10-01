@@ -5,11 +5,11 @@
 
 - Führe die Binärdatei eines übergebenen npm Pakets aus:
 
-`npx {{module_name}}`
+`npx {{modul_name}}`
 
 - Übergib den konkreten Namen, falls das Paket mehrere Binärdateien besitzt:
 
-`npx -p {{package_name}} {{module_name}}`
+`npx -p {{paket_name}} {{modul_name}}`
 
 - Zeige eine Hilfe an:
 
