@@ -19,7 +19,7 @@
 
 `ego profile show`
 
-- Enable/Disable mix-ins (various optional settings):
+- Enable/Disable mix-ins:
 
 `ego profile mix-in +{{gnome}} -{{kde-plasma-5}}`
 
