@@ -1,20 +1,20 @@
 # tldr
 
-> Displays simple help pages for command-line tools, from the tldr-pages project.
-> More information: <https://tldr.sh>.
+> Відображає прості сторінки допомоги для інструментів командного рядка з проекту tldr-pages
+> Більше інформації: <https://tldr.sh>.
 
-- Show the tldr page for a command (hint: this is how you got here!):
+- Показує типове використання команди (підказка: це те, як ви потрапили сюди!):
 
-`tldr {{command}}`
+`tldr {{команда}}`
 
-- Show the tldr page for `cd`, overriding the default platform:
+- Показує tldr сторінку для команди `cd` на вказаній платформі:
 
 `tldr -p {{android|linux|osx|sunos|windows}} {{cd}}`
 
-- Show the tldr page for a subcommand:
+- Показує tldr сторінку для підкоманди Git `git checkout`:
 
 `tldr {{git-checkout}}`
 
-- Update local pages (if the client supports caching):
+- Оновлює локальні tldr сторінки (якщо клієнт підтримує кешування):
 
 `tldr -u`
