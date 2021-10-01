@@ -1,6 +1,7 @@
 # ansiweather
 
 > 一个 shell 脚本，用于在终端中显示当前的天气状况。
+> 更多信息：<https://github.com/fcambus/ansiweather>.
 
 - 使用公制单位显示 Rzeszow, Poland 接下来 5 天的天气预报：
 

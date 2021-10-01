@@ -1,6 +1,7 @@
 # GetFileInfo
 
 > 获取有关 HFS+ 目录中文件的信息。
+> 更多信息：<https://www.unix.com/man-page/osx/1/GetFileInfo/>.
 
 - 显示有关给定文件的信息：
 

@@ -1,7 +1,7 @@
 # jar
 
 > Java 应用程序 / 类库打包程序。
-> 更多信息见： <https://docs.oracle.com/javase/tutorial/deployment/jar/basicsindex.html>.
+> 更多信息：<https://docs.oracle.com/javase/tutorial/deployment/jar/basicsindex.html>.
 
 - 将当前目录中的所有文件递归归档到 `.jar` 文件中：
 

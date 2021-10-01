@@ -1,6 +1,7 @@
 # choco pack
 
 > 将 nuspec 打包到已编译的 nupkg.
+> 更多信息：<https://chocolatey.org/docs/commands-pack>.
 
 - 将 nuspec 打包到已编译的 nupkg:
 

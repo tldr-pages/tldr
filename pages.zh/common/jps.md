@@ -1,7 +1,7 @@
 # jps
 
 > 显示当前用户的 JVM 进程状态。
-> 详细信息见： <https://docs.oracle.com/en/java/javase/11/tools/jps.html>.
+> 更多信息：<https://docs.oracle.com/en/java/javase/11/tools/jps.html>.
 
 - 列出所有 JVM 进程：
 

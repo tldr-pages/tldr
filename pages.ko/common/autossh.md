@@ -1,7 +1,7 @@
 # autossh
 
 > SSH 연결을 실행, 모니터링 및 재시작. port 재전송 tunnel을 유지하기 위해 자동 재연결. 모든 ssh 플래그 허용.
-> 더 많은 정보: <https://harding.motd.ca/autossh>.
+> 더 많은 정보: <https://www.harding.motd.ca/autossh>.
 
 - SSH session을 열고, 모니터링 포트가 데이터를 리턴하지 못하면 다시 시작:
 

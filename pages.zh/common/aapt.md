@@ -2,6 +2,7 @@
 
 > 安卓资源包工具（Android Asset Packaging Tools）。
 > 该工具可以查看，创建，更新资源压缩包（zip, jar, apk）。
+> 更多信息：<https://elinux.org/Android_aapt>.
 
 - 列出资源压缩包里的内容：
 

@@ -1,6 +1,7 @@
 # assoc
 
 > 显示或修改文件扩展名关联。
+> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/assoc>.
 
 - 显示所有当前文件扩展名关联的列表：
 
