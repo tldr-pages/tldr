@@ -35,3 +35,11 @@
 - Pass client certificate and key for a resource, skipping certificate validation:
 
 `curl --cert {{client.pem}} --key {{key.pem}} --insecure {{https://example.com}}`
+
+- Return an error if the HTTP response code was 400 or larger
+
+`curl -f {{https://example.com}}`
+
+- Return an error if the HTTP response code was 400 or larger but keeps the body
+
+`curl --fail-with-body {{https://example.com}}`
