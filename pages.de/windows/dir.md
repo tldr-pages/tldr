@@ -18,11 +18,3 @@
 - Zeigt den Inhalt (inklusive versteckte Inhalte) des angegebenen Arbeitsverzeichnisses an:
 
 `dir {{pfad/zu/verzeichnis}} /A`
-
-- Zeigt den Inhalt mit Dateibesitzinformationen des aktuellen Arbeitsverzeichnisses an:
-
-`dir /q`
-
-- Zeigt den Inhalt mit Dateibesitzinformationen des angegebenen Arbeitsverzeichnisses an:
-
-`dir {{pfad/zu/verzeichnis}} /q`
