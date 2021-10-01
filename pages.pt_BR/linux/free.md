@@ -18,4 +18,3 @@
 - Atualizar a saída padrão a cada 2 segundos:
 
 `free -s {{2}}`
-
