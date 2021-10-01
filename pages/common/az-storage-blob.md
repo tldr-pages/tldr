@@ -22,4 +22,4 @@
 
 - Generate a shared access signature for a blob:
 
-az storage blob generate-sas --account-name {{storage_account_name}} --account-key {{storage_account_key}} -c {{container_name}} -n {{path/to/blob}} --permissions r --expiry {{Y-m-d'T'H:M'Z'}} --https-only
+`az storage blob generate-sas --account-name {{storage_account_name}} --account-key {{storage_account_key}} -c {{container_name}} -n {{path/to/blob}} --permissions r --expiry {{Y-m-d'T'H:M'Z'}} --https-only`
