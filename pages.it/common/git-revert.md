@@ -5,7 +5,7 @@
 
 - Inverti il commit più recente:
 
-`git revert HEAD`
+`git revert {{HEAD}}`
 
 - Inverti il quintùltimo commit:
 
