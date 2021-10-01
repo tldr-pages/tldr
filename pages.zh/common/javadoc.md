@@ -1,7 +1,7 @@
 # javadoc
 
 > 从源代码以 HTML 格式生成 Java API 文档。
-> 更多信息见： <https://docs.oracle.com/javase/9/javadoc/javadoc-command.htm>.
+> 更多信息：<https://docs.oracle.com/javase/9/javadoc/javadoc-command.htm>.
 
 - 生成 Java 源代码的文档并将结果保存在文件夹中：
 

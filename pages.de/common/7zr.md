@@ -2,7 +2,7 @@
 
 > Ein Dateiarchivierer mit hoher Kompressionsrate.
 > Eine alleinstehende Version von `7z`, die nur `.7z` Dateien unterstützt.
-> Weitere Informationen: <https://www.7-zip.org/>.
+> Weitere Informationen: <https://www.7-zip.org>.
 
 - [a]rchiviere eine Datei oder ein Verzeichnis:
 

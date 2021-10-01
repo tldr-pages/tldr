@@ -1,6 +1,7 @@
 # color
 
 > 设置控制台的前景色和背景色。
+> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/color>.
 
 - 将控制台颜色恢复至默认值：
 

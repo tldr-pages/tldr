@@ -1,7 +1,7 @@
 # git merge
 
 > Pour fusionner des branches `git`.
-> Plus d'informations : <https://Pour fusionner des docs `git`/git-merge>.
+> Plus d'informations : <https://git-scm.com/docs/git-merge>.
 
 - Fusionne une branche dans votre branche courante :
 

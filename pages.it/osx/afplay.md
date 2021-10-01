@@ -1,6 +1,7 @@
 # afplay
 
 > Riproduttore audio a riga di comando.
+> Maggiori informazioni: <https://ss64.com/osx/afplay.html>.
 
 - Riproduci un file audio (fino a quando non finisce la riproduzione):
 

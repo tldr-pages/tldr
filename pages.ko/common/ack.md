@@ -1,7 +1,7 @@
 # ack
 
 > 프로그래머에게 최적화된 grep과 같은 검색툴.
-> 더 많은 정보: <https://beyondgrep.com/documentation/>.
+> 더 많은 정보: <https://beyondgrep.com/documentation>.
 
 - "foo"를 포함하고 있는 파일 검색:
 

@@ -1,7 +1,7 @@
 # dnf
 
 > Administrador de paquetes para RHEL, CentOS y Fedora (Reemplaza a yum).
-> Más información: <https://dnf.readthedocs.io>.
+> Más información: <https://dnf.readthedocs.io/>.
 
 - Actualiza todos los paquetes a la última versión disponible:
 

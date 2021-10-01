@@ -1,7 +1,7 @@
 # ansible-galaxy
 
 > 创建和管理 Ansible 角色。
-> 主页： <https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html>.
+> 更多信息：<https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html>.
 
 - 安装一个角色：
 

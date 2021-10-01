@@ -1,6 +1,7 @@
 # reg save
 
 > 将注册表键、子键的所有值保存到一个文件中。
+> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/reg-save>.
 
 - 将注册表键、子键的所有值保存到一个文件中：
 
