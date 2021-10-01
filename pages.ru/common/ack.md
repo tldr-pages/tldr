@@ -1,7 +1,7 @@
 # ack
 
 > Утилита для поиска, подобная grep, оптимизировання для программистов.
-> Больше информации: <https://beyondgrep.com/documentation/>.
+> Больше информации: <https://beyondgrep.com/documentation>.
 
 - Найти файлы, содержащие "foo":
 

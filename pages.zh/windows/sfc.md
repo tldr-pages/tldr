@@ -1,6 +1,7 @@
 # sfc
 
 > 扫描 Windows 系统文件的完整性。
+> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/sfc>.
 
 - 显示命令的使用方法：
 

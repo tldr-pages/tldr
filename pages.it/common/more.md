@@ -1,7 +1,7 @@
 # more
 
 > Aprire un file per la lettura interattiva, con scorrimento e ricerca.
-> Maggiori Informazioni: <https://manned.org/more>.
+> Maggiori informazioni: <https://manned.org/more>.
 
 - Apri un file:
 

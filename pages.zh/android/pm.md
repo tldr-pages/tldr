@@ -1,7 +1,7 @@
 # pm
 
 > 显示关于 Android 设备上的应用程序的信息。
-> 更多信息见： <https://developer.android.com/studio/command-line/adb#pm>.
+> 更多信息：<https://developer.android.com/studio/command-line/adb#pm>.
 
 - 打印所有已安装应用程序的列表：
 

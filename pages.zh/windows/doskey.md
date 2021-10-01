@@ -1,6 +1,7 @@
 # doskey
 
 > 管理宏，Windows 命令和命令行。
+> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/doskey>.
 
 - 列出可用的宏：
 
