@@ -19,6 +19,10 @@
 
 `nodemon {{path/to/file.js}} {{arguments}}`
 
+- Pass arguments to node itself if they're not nodemon arguments already (e.g. --inspect):
+
+`nodemon {{arguments}} {{path/to/file.js}}`
+
 - Run non-node scripts:
 
 `nodemon --exec "{{python --verbose}}" {{path/to/file.py}}`
