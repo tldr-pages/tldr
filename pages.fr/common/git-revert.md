@@ -5,7 +5,7 @@
 
 - Crée un commit qui annule les changements du dernier commit :
 
-`git revert {{@}}`
+`git revert HEAD`
 
 - Crée un commit qui annule les changements des 5 dernier commit :
 
