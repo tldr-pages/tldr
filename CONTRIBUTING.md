@@ -104,7 +104,7 @@ Some examples of valid locale tags:
  - Chinese (Singapore): `zh_SG`.
  - Portuguese (Brazil): `pt_BR`.
 
-A list of translated templates for alias pages can be found in [here](contributing-guides/alias-pages.md).
+A list of translated templates for alias pages can be found in [here](contributing-guides/translation-templates/alias-pages.md).
 
 ### Default language for newly added pages
 
