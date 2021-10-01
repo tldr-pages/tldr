@@ -6,4 +6,4 @@
 
 - Run a Go file:
 
-`go run {{path/to/source_code.go}}`
+`go run {{path/to/file.go}}`
