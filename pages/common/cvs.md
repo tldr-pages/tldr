@@ -9,7 +9,7 @@
 
 - Add project to repository. Navigate to project folder and run:
 
-`cvs import -m "{{message}}" {{projectname}} {{version}} {{vendor}}`
+`cvs import -m "{{message}}" {{project_name}} {{version}} {{vendor}}`
 
 - Checkout a project:
 
