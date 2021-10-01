@@ -8,7 +8,7 @@
 
 `helix {{path/to/file}}`
 
-- Changes Helix theme:
+- Change Helix theme:
 
 `:theme {{theme_name}}`
 
@@ -28,6 +28,6 @@
 `/{{search_pattern}}<Enter>`
 
 
-- Formats the file:
+- Format the file:
 
 `:format`
