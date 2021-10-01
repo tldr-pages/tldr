@@ -5,7 +5,7 @@
 
 - Execute the specified file and watch a specific file for changes:
 
-`nodemon --inspect {{path/to/file.js}}`
+`nodemon {{path/to/file.js}}`
 
 - Manually restart nodemon (note nodemon must already be active for this to work):
 
