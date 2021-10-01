@@ -20,6 +20,6 @@
 
 `az storage account delete -g {{group_name}} -n {{account_name}}`
 
-- Update storage account min tls setting:
+- Update the minimum tls version setting for a storage account:
 
 `az storage account update --min-tls-version TLS1_2 -g {{group_name}} -n {{account_name}}`
