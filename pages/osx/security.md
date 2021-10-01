@@ -21,4 +21,4 @@
 
 - Add a certificate from file to a [k]eychain (if -k isn't specified, the default keychain is used):
 
-`security add-certificates -k {{keychain.name}} {{path/to/file}}`
+`security add-certificates -k {{keychain.name}} {{path/to/file.pem}}`
