@@ -23,6 +23,6 @@
 
 `ego profile mix-in +{{gnome}} -{{kde-plasma-5}}`
 
-- Query Funtoo bugs, related to a given package:
+- Query Funtoo bugs, related to a specified package:
 
 `ego query bug {{package}}`
