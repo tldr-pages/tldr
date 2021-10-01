@@ -15,7 +15,7 @@
 
 `security create-keychain -p {{password}} {{keychain.name}}`
 
-- Set a certificate to use with a website or [s]ervice by its [c]ommon name (this will fail if several certificates with the same common name exist):
+- Set a certificate to use with a website or [s]ervice by its [c]ommon name (fails if several certificates with the same common name exist):
 
 `security set-identity-preference -s {{URL|hostname|service}} -c "{{common_name}}" {{path/to/file.keychain}}`
 
