@@ -5,7 +5,7 @@
 
 - Erzeugen eines neuen Benutzers mit einem Standard-Home-Verzeichnis und Aufforderung an den Benutzer, ein Passwort festzulegen:
 
-`adduser {{username}}`
+`adduser {{benutzername}}`
 
 - Erzeugen eines neuen Benutzers ohne Home-Verzeichnis:
 
