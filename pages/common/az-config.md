@@ -4,7 +4,7 @@
 > Part of `azure-cli`.
 > More information: <https://docs.microsoft.com/cli/azure/config>.
 
-- Get all configurations:
+- Print all configurations:
 
 `az config get`
 
