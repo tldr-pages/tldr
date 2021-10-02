@@ -1,0 +1,28 @@
+# adduser
+
+> Tool um Benutzer hinzuzufügen.
+> Mehr Informationen: <https://manpages.debian.org/latest/adduser/adduser.html>.
+
+- Erzeugen eines neuen Benutzers mit einem Standard-Home-Verzeichnis und Aufforderung an den Benutzer, ein Passwort festzulegen:
+
+`adduser {{username}}`
+
+- Erzeugen eines neuen Benutzers ohne Home-Verzeichnis:
+
+`adduser --no-create-home {{username}}`
+
+- Erzeugen eines neuen Benutzers mit einem Home-Verzeichnis unter dem angegebenen Pfad:
+
+`adduser --home {{path/to/home}} {{username}}`
+
+- Erzeugen eines neuen Benutzers, bei dem die angegebene Shell als Anmeldeshell eingestellt ist:
+
+`adduser --shell {{path/to/shell}} {{username}}`
+
+- Erzeugen eines neuen Benutzers, der zur angegebenen Gruppe gehört:
+
+`adduser --ingroup {{group}} {{username}}`
+
+- Hinzufügen eines vorhandenen Benutzers zur angegebenen Gruppe:
+
+`adduser {{username}} {{group}}`
