@@ -2,7 +2,7 @@
 
 > Kernelparameter zur Laufzeit auflisten und ändern. Als Parameter stehen die Werte unter `/proc/sys/` zur Verfügung (in Unterordner organisiert).
 
-- Liste alle verfügbaren Kernelparameter und ihren Werten auf:
+- Liste alle verfügbaren Kernelparameter mit ihren Werten auf:
 
 `sysctl -a`
 
