@@ -2,6 +2,7 @@
 
 > Alat Pemaketan Android Asset.
 > Menyusun dan memaketkan resource aplikasi Android.
+> Informasi lebih lanjut: <https://elinux.org/Android_aapt>.
 
 - Daftar berkas-berkas yang termuat dalam arsip APK:
 

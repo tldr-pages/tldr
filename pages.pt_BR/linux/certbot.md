@@ -2,6 +2,7 @@
 
 > O agente da Let's Encrypt para obtenção e renovação de certificados TLS automaticamente.
 > Sucessor do `letsencrypt`.
+> Mais informações: <https://certbot.eff.org/docs/using.html>.
 
 - Obter um novo certificado via autorização webroot, porém sem instalá-lo automaticamente:
 

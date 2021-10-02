@@ -1,7 +1,7 @@
 # grep
 
 > கோப்பில் தேடுகுறித்தொடர்களுடன் தேடு.
-> மேலும் விவரத்திற்கு: <https://www.gnu.org/software/grep/manual/grep.html>.
+> மேலும் தகவல்: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - கோப்பில் தேடு:
 

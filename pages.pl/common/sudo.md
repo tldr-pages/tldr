@@ -1,6 +1,7 @@
 # sudo
 
 > Wykonuje pojedyncze polecenie jako superuser lub inny użytkownik.
+> Więcej informacji: <https://www.sudo.ws/sudo.html>.
 
 - Uruchom polecenie jako superuser:
 

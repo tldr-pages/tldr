@@ -2,7 +2,7 @@
 
 > Um compactador de arquivos com alta taxa de compressão.
 > Versão do `7z` com suporte apenas para o formato `.7z`.
-> Mais informações: <https://www.7-zip.org/>.
+> Mais informações: <https://www.7-zip.org>.
 
 - Compactar um arquivo ou diretório:
 

@@ -1,6 +1,7 @@
 # mklink
 
 > 创建符号链接。
+> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/mklink>.
 
 - 创建指向文件的符号链接：
 
