@@ -15,7 +15,7 @@
 
 `du -sh {{pfad/zu/verzeichnis}}`
 
-- Liste die Größe eines Verzeichnisses und seiner Dateien in für Menschen lesbaren Einheiten:
+- Liste die Größe eines Verzeichnisses und seiner Dateien in menschenlesbaren Einheiten:
 
 `du -ah {{pfad/zu/verzeichnis}}`
 
