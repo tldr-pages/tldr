@@ -1,20 +1,20 @@
 # mongo
 
-> Client shell pour MongoDB
+> Client shell pour MongoDB.
 > Plus d'informations: <https://docs.mongodb.com/manual/reference/program/mongo>.
 
-- Se connecter à une base de données (database):
+- Connecte à une base de données (database):
 
-`mongo {{nom de la base de données}}`
+`mongo {{nom_de_la_base_de_données}}`
 
-- Se connecter à une base de données (database) sur un hôte (host) distant et un port donné
+- Connecte à une base de données (database) sur un hôte (host) distant et un port donné:
 
-`mongo --host {{hôte}} --port {{port}} {{nom de la base de données}}`
+`mongo --host {{hôte}} --port {{port}} {{nom_de_la_base_de_données}}`
 
-- Se connecter à une base de données (database) avec un nom d'utilisateur (username); L'utilisateur sera invité à saisir son mot de passe:
+- Connecte à une base de données (database) avec un nom d'utilisateur (username): L'utilisateur sera invité à saisir son mot de passe:
 
-`mongo --username {{nom d'utilisateur}} {{nom de la base de données}} --password`
+`mongo --username {{nom_d'utilisateur}} {{nom_de_la_base_de_données}} --password`
 
-- Évaluer une expression Javascript sur une base de données (database)
+- Évalue une expression Javascript sur une base de données (database):
 
-`mongo --eval '{{JSON.stringify(db.foo.findOne())}}' {{nom de la base de données}}`
+`mongo --eval '{{JSON.stringify(db.foo.findOne())}}' {{nom_de_la_base_de_données}}`
