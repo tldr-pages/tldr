@@ -6,7 +6,7 @@
 
 - Replace the personal email and name of Jack to his work ones:
 
-`git reauthor --old-email jack@perso.me --correct-email jack@work.com --correct-name 'Jack Foobar'`
+`git reauthor --old-email {{old@example.com}} --correct-email {{new@example.com}} --correct-name "{{name}}"`
 
 - Replace the email and name of Jack to the ones defined in the Git config:
 
