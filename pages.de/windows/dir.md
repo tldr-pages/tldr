@@ -3,7 +3,7 @@
 > Zeige den Inhalt von Verzeichnissen an.
 > Weitere Informationen: <https://docs.microsoft.com/windows-server/administration/windows-commands/dir>.
 
-- Zeigt den Inhalt des aktuellen Arbeitsverzeichnisses an:
+- Zeige den Inhalt des aktuellen Verzeichnisses an:
 
 `dir`
 
@@ -11,7 +11,7 @@
 
 `dir {{pfad/zu/verzeichnis}}`
 
-- Zeige den Inhalt, inklusive versteckter Inhalte, des aktuellen Arbeitsverzeichnisses an:
+- Zeige den Inhalt, inklusive versteckter Inhalte, des aktuellen Verzeichnisses an:
 
 `dir /A`
 
