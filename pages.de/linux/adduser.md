@@ -21,7 +21,7 @@
 
 - Erzeugen eines neuen Benutzers, der zur angegebenen Gruppe gehört:
 
-`adduser --ingroup {{group}} {{username}}`
+`adduser --ingroup {{gruppe}} {{benutzername}}`
 
 - Hinzufügen eines vorhandenen Benutzers zur angegebenen Gruppe:
 
