@@ -25,4 +25,4 @@
 
 - Hinzufügen eines vorhandenen Benutzers zur angegebenen Gruppe:
 
-`adduser {{username}} {{group}}`
+`adduser {{benutzername}} {{gruppe}}`
