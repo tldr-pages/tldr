@@ -3,9 +3,9 @@
 > A fast, feature-rich, GPU based terminal emulator.
 > More information: <https://sw.kovidgoyal.net/kitty/>.
 
-- Open the terminal with a title of `Example`:
+- Open a terminal with the specified title for the window:
 
-`kitty --title {{Example}}`
+`kitty --title "{{title}}"`
 
 - Start the theme-chooser builtin:
 
