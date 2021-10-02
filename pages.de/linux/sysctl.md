@@ -8,7 +8,7 @@
 
 - Setze einen veränderbaren Kernelparameter:
 
-`sysctl -w {{Sektion.tunable}}={{Wert}}`
+`sysctl -w {{sektion.tunable}}={{Wert}}`
 
 - Aktuell geöffnete Datei-Handle (Filehandle) abfragen:
 
