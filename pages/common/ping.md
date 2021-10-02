@@ -1,7 +1,7 @@
 # ping
 
 > Send ICMP ECHO_REQUEST packets to network hosts.
-> More information: <https://manned.org/ping>.
+> More information: <https://man.openbsd.org/ping>.
 
 - Ping host:
 
