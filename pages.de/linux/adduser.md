@@ -9,7 +9,7 @@
 
 - Erzeugen eines neuen Benutzers ohne Home-Verzeichnis:
 
-`adduser --no-create-home {{username}}`
+`adduser --no-create-home {{benutzername}}`
 
 - Erzeugen eines neuen Benutzers mit einem Home-Verzeichnis unter dem angegebenen Pfad:
 
