@@ -1,4 +1,5 @@
 # sysctl
+
 > Kernelparameter zur Laufzeit auflisten und ändern. Als Parameter stehen die Werte unter `/proc/sys/` zur Verfügung (in Unterordner organisiert).
 
 - Liste alle verfügbaren Kernelparameter und ihren Werten auf:
@@ -10,7 +11,7 @@
 `sysctl -w {{Sektion.tunable}}={{Wert}}`
 
 - Aktuell geöffnete Datei-Handle (Filehandle) abfragen:
-TODO: tldp fs.file-nr denote: allocated, used and maximu file handles.
+
 `sysctl fs.file-nr`
 
 - Frage maximale Anzahl geöffneter Dateien ab:
