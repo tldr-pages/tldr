@@ -2,7 +2,7 @@
 
 > Distribuirani sistem kontrole verzija.
 > Neke podkomande kao što je `git commit` imaju svoj primer u dokumentaciji.
-> More information: <https://git-scm.com/>.
+> Više informacija na: <https://git-scm.com/>.
 
 - Proverava Git verziju:
 

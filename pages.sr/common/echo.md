@@ -19,6 +19,6 @@
 
 `echo "{{Hello World}}" >> {{file.txt}}`
 
-- Omogućava interpretaciju posebnih karektera (prethodi im "\"):
+- Omogućava interpretaciju posebnih karektera (prethodi im "\\"):
 
 `echo -e "{{Column 1\tColumn 2}}"`
