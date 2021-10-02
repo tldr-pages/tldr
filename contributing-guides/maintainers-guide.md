@@ -47,7 +47,7 @@ as a guideline for current and future maintainers.
 
 - Try to **keep the entire contribution process web-based**, if possible,
   to ensure it is accessible and straightforward.
-  If you're comfortable with git, consider offering to perform
+  If you're comfortable with Git, consider offering to perform
   interactive rebases or other command-line operations
   on behalf of contributors,
   or assisting them if they want to do it themselves.
