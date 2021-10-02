@@ -9,12 +9,12 @@
 
 - Enable filesystem encryption for a directory:
 
-`fscrypt encrypt /path/to/dir`
+`fscrypt encrypt {{path/to/directory}}`
 
 - Unlock an encrypted directory:
 
-`fscrypt unlock /path/to/dir`
+`fscrypt unlock {{path/to/encrypted_directory}}`
 
 - Lock an encrypted directory:
 
-`fscrypt lock /path/to/dir`
+`fscrypt lock {{path/to/encrypted_directory}}`
