@@ -11,7 +11,7 @@
 
 `goaccess {{path/to/logfile}} --log-format={{format}}`
 
-- Tracing a logfile and pipe it to goacces:
+- Trace a logfile and pipe it to goacces:
 
 `tail -f {{path/to/logfile}} | goaccess -`
 
