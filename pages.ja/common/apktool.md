@@ -1,13 +1,13 @@
 # apktool
 
-> APKファイルの解析ツール
+> APK ファイルの解析ツール
 > 詳しくはこちら: <https://ibotpeaches.github.io/Apktool/>.
 
-- APKファイルのデコード
+- APK ファイルのデコード
 
-`apktool d {{APKファイルのパス}}`
+`apktool d {{APK ファイルのパス}}`
 
-- 指定したディレクトリからAPKファイルを生成:
+- 指定したディレクトリから APK ファイルを生成:
 
 `apktool b {{ディレクトリへのパス}}`
 
