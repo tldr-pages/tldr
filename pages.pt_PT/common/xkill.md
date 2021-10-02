@@ -2,7 +2,7 @@
 
 > Termina o cliente associado a um elemento gráfico.
 > Utilizado para forçar a terminação de processos que não respondem ou não apresentam botão "fechar".
-> Mais informações: <https://manned.org/xkill>.
+> Mais informações: <https://man.openbsd.org/xkill>.
 
 - Ativar um cursor para fechar uma janela com o clique do botão esquerdo do rato (pressionar qualquer outro botão para cancelar):
 

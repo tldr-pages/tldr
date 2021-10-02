@@ -2,7 +2,7 @@
 
 > Execute a command with piped arguments coming from another command, a file, etc.
 > The input is treated as a single block of text and split into separate pieces on spaces, tabs, newlines and end-of-file.
-> More information: <https://manned.org/xargs>.
+> More information: <https://man.openbsd.org/xargs>.
 
 - Run a command using the input data as arguments:
 
