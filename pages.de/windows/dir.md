@@ -1,20 +1,20 @@
 # dir
 
-> Zeigt den Inhalt von Arbeitsverzeichnisses an.
+> Zeige den Inhalt von Verzeichnissen an.
 > Weitere Informationen: <https://docs.microsoft.com/windows-server/administration/windows-commands/dir>.
 
 - Zeigt den Inhalt des aktuellen Arbeitsverzeichnisses an:
 
 `dir`
 
-- Zeigt den Inhalt des angegebenen Arbeitsverzeichnisses an:
+- Zeige den Inhalt des angegebenen Verzeichnisses an:
 
 `dir {{pfad/zu/verzeichnis}}`
 
-- Zeigt den Inhalt (inklusive versteckte Inhalte) des aktuellen Arbeitsverzeichnisses an:
+- Zeige den Inhalt, inklusive versteckter Inhalte, des aktuellen Arbeitsverzeichnisses an:
 
 `dir /A`
 
-- Zeigt den Inhalt (inklusive versteckte Inhalte) des angegebenen Arbeitsverzeichnisses an:
+- Zeige den Inhalt, inklusive versteckte Inhalte, des angegebenen Verzeichnisses an:
 
 `dir {{pfad/zu/verzeichnis}} /A`
