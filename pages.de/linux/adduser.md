@@ -17,7 +17,7 @@
 
 - Erzeugen eines neuen Benutzers, bei dem die angegebene Shell als Anmeldeshell eingestellt ist:
 
-`adduser --shell {{path/to/shell}} {{username}}`
+`adduser --shell {{pfad/zu/shell}} {{benutzername}}`
 
 - Erzeugen eines neuen Benutzers, der zur angegebenen Gruppe gehört:
 
