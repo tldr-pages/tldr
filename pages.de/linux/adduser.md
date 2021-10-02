@@ -13,7 +13,7 @@
 
 - Erzeugen eines neuen Benutzers mit einem Home-Verzeichnis unter dem angegebenen Pfad:
 
-`adduser --home {{path/to/home}} {{username}}`
+`adduser --home {{pfad/zu/home}} {{benutzername}}`
 
 - Erzeugen eines neuen Benutzers, bei dem die angegebene Shell als Anmeldeshell eingestellt ist:
 
