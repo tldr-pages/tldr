@@ -5,23 +5,23 @@
 
 - Größe von Verzeichnissen und Unterverzeichnissen in den gegebenen Einheiten (B/KB/MB) auflisten:
 
-`du -{{b|k|m}} {{Pfad/zum/Verzeichnis}}`
+`du -{{b|k|m}} {{pfad/zu/verzeichnis}}`
 
 - Liste die Größe von Verzeichnissen und Unterverzeichnissen in für Menschen lesbaren Einheiten auf (d. h. die automatische Auswahl der geeigneten Einheit für jede Größe):
 
-`du -h {{Pfad/zum/Verzeichnis}}`
+`du -h {{pfad/zu/verzeichnis}}`
 
 - Zeige die Größe eines Verzeichnisses in für Menschen lesbaren Einheiten:
 
-`du -sh {{Pfad/zum/Verzeichnis}}`
+`du -sh {{pfad/zu/verzeichnis}}`
 
 - Liste die Größe eines Verzeichnisses und seiner Dateien in für Menschen lesbaren Einheiten:
 
-`du -ah {{Pfad/zum/Verzeichnis}}`
+`du -ah {{pfad/zu/verzeichnis}}`
 
 - Auflistung der menschenlesbaren Größen eines Verzeichnisses und aller Unterverzeichnisse, bis zu einer Tiefe von `N` Ebenen:
 
-`du -h --max-depth=N {{Pfad/zum/Verzeichnis}}`
+`du -h --max-depth=N {{pfad/zu/verzeichnis}}`
 
 - Liste die Größe aller `.jpg`-Dateien in Unterverzeichnissen des aktuellen Verzeichnisses auf, in für menschenlesbaren Einheiten und zeige am Ende die kumulierte Gesamtsumme an:
 
