@@ -7,7 +7,7 @@
 
 `du -{{b|k|m}} {{pfad/zu/verzeichnis}}`
 
-- Liste die Größe von Verzeichnissen und Unterverzeichnissen in für Menschen lesbaren Einheiten auf (d. h. die automatische Auswahl der geeigneten Einheit für jede Größe):
+- Liste die Größe von Verzeichnissen und Unterverzeichnissen in menschenlesbaren Einheiten auf (d.h. automatische Auswahl der geeigneten Einheit für jede Größe):
 
 `du -h {{pfad/zu/verzeichnis}}`
 
