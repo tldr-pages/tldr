@@ -11,9 +11,9 @@
 
 `kitty +kitten themes`
 
-- Display `Example.jpg` in the terminal:
+- Display an image in the terminal:
 
-`kitty +kitten icat {{Example.jpg}}`
+`kitty +kitten icat {{path/to/image.jpg}}`
 
 - Put `hooray` into the system clipboard:
 
