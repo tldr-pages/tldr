@@ -1,6 +1,7 @@
 # xmllint
 
 > XML parser and linter that supports XPath, a syntax for navigating XML trees.
+> More information: <https://manned.org/xmllint>.
 
 - Return all nodes (tags) named "foo":
 

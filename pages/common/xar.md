@@ -1,6 +1,7 @@
 # xar
 
 > Manage .xar archives.
+> More information: <https://manned.org/xar>.
 
 - Create a xar archive of all files in a given directory:
 

@@ -1,6 +1,7 @@
 # xxd
 
 > Mostra la rappresentazione esadecimale (hexdump) di un file binario e viceversa.
+> Maggiori informazioni: <https://manned.org/xxd>.
 
 - Creare l'hexdump di un file binario e mostrare l'output:
 
