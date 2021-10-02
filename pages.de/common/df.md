@@ -1,0 +1,24 @@
+# df
+
+> Verschafft einen Überblick über verfügbaren Speicherplatz im Dateisystem.
+> Weitere Informationen: <https://www.gnu.org/software/coreutils/df>.
+
+- Zeige verfügbaren Platz auf allen eingehängten Dateisystemen:
+
+`df`
+
+- Zeige verfügbaren Platz auf allen eingehängten Dateisystemen in einem menschenlesbaren Format:
+
+`df -h`
+
+- Zeige das Dateisystem und dessen Speicherverbrauch, das die angegebene Datei oder Verzeichnis enthält:
+
+`df {{Pfad/zu/Datei_oder_Verzeichnis}}`
+
+- Zeige Statistiken über die Anzahl freier Inodes:
+
+`df -i`
+
+- Zeige alle Dateisystem bis auf die eines bestimmten Typs:
+
+`df -x {{squashfs}} -x {{tmpfs}}`
