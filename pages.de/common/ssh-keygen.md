@@ -1,6 +1,7 @@
 # ssh-keygen
 
 > Generiert ssh Schlüssel für Authentifizierung, Passwort-lose Logins und mehr.
+> Weitere Informationen: <https://manned.org/ssh-keygen>.
 
 - Erstelle ein SSH Schlüssel-Paar interaktiv:
 
