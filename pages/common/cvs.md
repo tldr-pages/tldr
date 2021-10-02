@@ -3,7 +3,7 @@
 > Concurrent Versions System, a revision control system.
 > More information: <http://cvs.nongnu.org>.
 
-- Create repository (need to manually set CVSROOT to /path/to/repo in .bashrc):
+- Create repository (requires the `CVSROOT` environment variable to be set externally):
 
 `cvs -d {{path/to/repo}} init`
 
