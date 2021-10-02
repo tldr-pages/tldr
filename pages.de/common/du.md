@@ -3,7 +3,7 @@
 > Disk usage: Plattenplatzverbrauch von Dateien und Verzeichnissen ermitteln.
 > Weitere Informationen: <https://www.gnu.org/software/coreutils/du>.
 
-- Größe von Verzeichnissen und Unterverzeichnissen in den gegebenen Einheiten (B/KB/MB) auflisten:
+- Liste die Größe von Verzeichnissen und Unterverzeichnissen in den gegebenen Einheiten (B/KB/MB) auf:
 
 `du -{{b|k|m}} {{pfad/zu/verzeichnis}}`
 
@@ -15,7 +15,7 @@
 
 `du -sh {{pfad/zu/verzeichnis}}`
 
-- Liste die Größe eines Verzeichnisses und seiner Dateien in menschenlesbaren Einheiten:
+- Liste die Größe von Verzeichnissen und Unterverzeichnissen und aller ihrer Dateien in menschenlesbaren Einheiten auf:
 
 `du -ah {{pfad/zu/verzeichnis}}`
 
