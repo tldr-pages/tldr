@@ -7,7 +7,7 @@
 
 `Rscript {{path/to/file.R}}`
 
-- Run an script in vanilla mode (i.e. a blank session that doesn't save the workspace at the end):
+- Run a script in vanilla mode (i.e. a blank session that doesn't save the workspace at the end):
 
 `Rscript --vanilla {{path/to/file.R}}`
 
