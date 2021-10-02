@@ -21,7 +21,7 @@
 
 - Stream logs for a specified container in a pod:
 
-`kubectl logs -f -c {{container_name}} {{pod_name}}
+`kubectl logs -f -c {{container_name}} {{pod_name}}`
 
 - Show pod logs newer than a relative time like 10s, 5m, or 1h:
 
