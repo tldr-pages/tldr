@@ -4,18 +4,14 @@
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-reauthor>.
 
-- Replace the personal email and name of Jack to his work ones:
+- Change the email and name:
 
-`git reauthor --old-email jack@perso.me --correct-email jack@work.com --correct-name 'Jack Foobar'`
+`git reauthor --old-email {{old@example.com}} --correct-email {{new@example.com}} --correct-name "{{name}}"`
 
-- Replace the email and name of Jack to the ones defined in the Git config:
+- Change the email and name to the ones defined in the Git config:
 
-`git reauthor --old-email jack@perso.me --use-config`
+`git reauthor --old-email {{old@example.com}} --use-config`
 
-- Set Jack's identity as the only one of the whole repository:
+- Change the email and name of all commits:
 
-`git reauthor --all --correct-email jack@perso.me --correct-name Jack`
-
-- Set Jack as the only committer of the whole repository (keeps authors):
-
-`git reauthor --all --correct-email jack@perso.me --correct-name Jack --type committer`
+`git reauthor --all --correct-email {{name@example.com}} --correct-name {{name}}`
