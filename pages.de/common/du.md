@@ -23,6 +23,6 @@
 
 `du -h --max-depth=N {{pfad/zu/verzeichnis}}`
 
-- Liste die Größe aller `.jpg`-Dateien in Unterverzeichnissen des aktuellen Verzeichnisses auf, in für menschenlesbaren Einheiten und zeige am Ende die kumulierte Gesamtsumme an:
+- Liste die menschenlesbare Größe aller `.jpg`-Dateien in Unterverzeichnissen des aktuellen Verzeichnisses auf und zeige am Ende die kumulierte Gesamtsumme an:
 
 `du -ch */*.jpg`
