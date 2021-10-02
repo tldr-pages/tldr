@@ -13,7 +13,7 @@
 
 - Zeige das Dateisystem und dessen Speicherverbrauch, das die angegebene Datei oder Verzeichnis enthält:
 
-`df {{Pfad/zu/Datei_oder_Verzeichnis}}`
+`df {{pfad/zu/datei_oder_verzeichnis}}`
 
 - Zeige Statistiken über die Anzahl freier Inodes:
 
