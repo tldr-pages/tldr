@@ -19,7 +19,7 @@
 
 `du -ah {{pfad/zu/verzeichnis}}`
 
-- Auflistung der menschenlesbaren Größen eines Verzeichnisses und aller Unterverzeichnisse, bis zu einer Tiefe von `N` Ebenen:
+- Liste die menschenlesbaren Größen eines Verzeichnisses und aller Unterverzeichnisse, bis zu einer Tiefe von `N` Ebenen:
 
 `du -h --max-depth=N {{pfad/zu/verzeichnis}}`
 
