@@ -5,16 +5,16 @@
 
 - Se connecter à une base de données (database):
 
-`mongo {{database}}`
+`mongo {{nom de la base de données}}`
 
-- Se connecter à une base de données (database) sur un hôte distant et un port donné
+- Se connecter à une base de données (database) sur un hôte (host) distant et un port donné
 
-`mongo --host {{host}} --port {{port}} {{database}}`
+`mongo --host {{hôte}} --port {{port}} {{nom de la base de données}}`
 
-- Se connecter à une base de données avec un nom d'utilisateur; L'utilisateur sera invité à saisir son mot de passe:
+- Se connecter à une base de données (database) avec un nom d'utilisateur (username); L'utilisateur sera invité à saisir son mot de passe:
 
-`mongo --username {{username}} {{database}} --password`
+`mongo --username {{nom d'utilisateur}} {{nom de la base de données}} --password`
 
-- Évaluer une expression Javascript sur une base de données
+- Évaluer une expression Javascript sur une base de données (database)
 
-`mongo --eval '{{JSON.stringify(db.foo.findOne())}}' {{database}}`
+`mongo --eval '{{JSON.stringify(db.foo.findOne())}}' {{nom de la base de données}}`
