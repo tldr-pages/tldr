@@ -3,7 +3,7 @@
 > Run a script with the R programming language.
 > More information: <https://www.r-project.org>.
 
-- Run an script:
+- Run a script:
 
 `Rscript {{path/to/file.R}}`
 
@@ -15,6 +15,6 @@
 
 `Rscript -e {{expression1}} -e {{expression2}}`
 
-- Check R version:
+- Display R version:
 
 `Rscript --version`
