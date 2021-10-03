@@ -12,7 +12,7 @@
 
 `az bicep build --file {{path/to/file.bicep}}`
 
-- Attempt to decompile an ARM template JSON file to a Bicep file:
+- Attempt to decompile an ARM template file to a Bicep file:
 
 `az bicep decompile --file {{path/to/template_file.json}}`
 
