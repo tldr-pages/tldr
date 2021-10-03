@@ -31,6 +31,6 @@
 
 `pacstall -Qi {{package_name}}`
 
-- List all packages are installed:
+- List all installed packages:
 
 `pacstall -L`
