@@ -16,7 +16,7 @@
 
 `pip uninstall {{paketname}}`
 
-- Speichere eine Liste der installierten Pakete in eine Datei:
+- Speichere eine Liste aller installierten Pakete in eine Datei:
 
 `pip freeze > {{requirements.txt}}`
 
