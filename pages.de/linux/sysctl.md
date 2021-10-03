@@ -8,7 +8,7 @@
 
 - Setze einen veränderbaren Kernelparameter:
 
-`sysctl -w {{sektion.tunable}}={{Wert}}`
+`sysctl -w {{sektion.tunable}}={{wert}}`
 
 - Frage aktuell geöffnete Datei-Handler ab:
 
