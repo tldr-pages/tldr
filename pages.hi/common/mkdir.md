@@ -1,7 +1,7 @@
 # mkdir
 
 > एक निर्देशिका बनाता है।
-> अधिक जानकारी: <https://www.gnu.org/software/coreutils/mkdir>.
+> अधिक जानकारी: <https://www.gnu.org/software/coreutils/mkdir>।
 
 - वर्तमान निर्देशिका या दिए गए पथ में एक निर्देशिका बनाएँ:
 
