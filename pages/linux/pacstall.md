@@ -1,6 +1,6 @@
 # pacstall
 
-> Pacstall, making easier to install programs.
+> Pacstall, make it easier to install AUR packages for Ubuntu.
 > More information: <https://github.com/pacstall/pacstall>.
 
 - Search for program in repositories, its equivalent of apt search:
