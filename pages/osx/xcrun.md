@@ -13,7 +13,7 @@
 
 - Find and run a tool from the active developer directory:
 
-`xcrun {{tool}} {{args}}`
+`xcrun {{tool}} {{arguments}}`
 
 - Show verbose output:
 
