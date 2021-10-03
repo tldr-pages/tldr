@@ -3,11 +3,11 @@
 > Affiche les informations des propriétés système Android.
 > Plus d'informations : <https://manned.org/getprop>.
 
-- Affiche les informations des propriétés système Android:
+- Affiche les informations des propriétés système Android :
 
 `getprop`
 
-- Affiche les informations d'une propriété spécifique:
+- Affiche les informations d'une propriété spécifique :
 
 `getprop {{prop}}`
 
