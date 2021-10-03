@@ -3,7 +3,7 @@
 > Local ad blocker. Like Pi-hole but local and using your operating system. 
 > More information: <https://github.com/tanrax/maza-ad-blocking>.
 
-- Update database:
+- Update the Maza database:
 
 `maza update`
 
