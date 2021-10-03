@@ -1,10 +1,9 @@
 # ssh_config
 
-> Put ssh parameters in a configuration file
-> More information: <https://www.openssh.com/>
+> Put ssh parameters in a configuration file.
+> More information: <https://www.openssh.com/>.
 
-- Create a section with host specific settings
-- Put the following in ~/.ssh/config (user specific) or /etc/ssh/ssh_config (global)
+- Create a section with host specific settings in ~/.ssh/config (user specific) or /etc/ssh/ssh_config (global):
 
 ```
 Host {{your host alias}}
