@@ -15,7 +15,7 @@
 
 `adduser --home {{pfad/zu/home}} {{benutzername}}`
 
-- Erzeugen eines neuen Benutzers, bei dem die angegebene Shell als Anmeldeshell eingestellt ist:
+- Erstelle einen neuen Benutzer, bei dem die angegebene Shell als Anmeldeshell eingestellt ist:
 
 `adduser --shell {{pfad/zu/shell}} {{benutzername}}`
 
