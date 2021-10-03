@@ -24,7 +24,7 @@
 
 `az bicep version`
 
-- List out all available versions of Bicep CLI:
+- List all available versions of Bicep CLI:
 
 `az bicep list-versions`
 
