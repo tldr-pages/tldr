@@ -11,7 +11,7 @@
 
 `cd`
 
-- Gå upp till överordnad katalog till nuvarande katalog:
+- Gå till överordnad katalog:
 
 `cd ..`
 
