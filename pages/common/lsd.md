@@ -7,7 +7,7 @@
 
 `lsd -1`
 
-- List all files, including hidden files:
+- List all files and directories, including hidden ones, in the current directory:
 
 `lsd -a`
 
