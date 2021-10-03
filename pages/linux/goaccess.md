@@ -3,7 +3,7 @@
 > An open source real-time web log analyzer.
 > More information: <https://goaccess.io>.
 
-- Run `goaccess` in interactive mode:
+- Run in interactive mode:
 
 `goaccess {{path/to/file}} [{{path/to/file}}]`
 
