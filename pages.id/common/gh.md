@@ -6,7 +6,7 @@
 
 - Mengklon sebuah GitHub repositori di lokal
 
-`gh repo clone {{owner}}/{{repositori}}`
+`gh repo clone {{pemilik}}/{{repositori}}`
 
 - Membuat issue baru:
 
