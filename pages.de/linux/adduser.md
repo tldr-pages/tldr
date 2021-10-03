@@ -3,7 +3,7 @@
 > Tool um Benutzer hinzuzufügen.
 > Mehr Informationen: <https://manpages.debian.org/latest/adduser/adduser.html>.
 
-- Erzeugen eines neuen Benutzers mit einem Standard-Home-Verzeichnis und Aufforderung an den Benutzer, ein Passwort festzulegen:
+- Erstelle einen neuen Benutzer mit einem Standard-Home-Verzeichnis und Aufforderung an den Benutzer, ein Passwort festzulegen:
 
 `adduser {{benutzername}}`
 
