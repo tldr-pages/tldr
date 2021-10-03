@@ -13,4 +13,4 @@
 
 - Clear clipboard:
 
-`wl-copy -c`
+`wl-copy --clear`
