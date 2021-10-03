@@ -10,7 +10,7 @@
 
 `sysctl -w {{sektion.tunable}}={{Wert}}`
 
-- Aktuell geöffnete Datei-Handle (Filehandle) abfragen:
+- Frage aktuell geöffnete Datei-Handler ab:
 
 `sysctl fs.file-nr`
 
