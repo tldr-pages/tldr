@@ -1,7 +1,7 @@
 # halt
 
 > Arresta, spegne o riavvia la macchina.
-> Maggiori informazioni: <https://www.freedesktop.org/software/systemd/man/halt.html>.
+> Maggiori informazioni: <https://www.man7.org/linux/man-pages/man8/halt.8.html>.
 
 - Arresta la macchina:
 

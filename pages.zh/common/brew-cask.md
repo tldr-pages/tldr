@@ -1,6 +1,7 @@
 # brew cask
 
 > macOS 上的应用程序包管理工具。
+> 更多信息：<https://github.com/Homebrew/homebrew-cask>.
 
 - 模糊搜索可用命令行工具和软件包：
 

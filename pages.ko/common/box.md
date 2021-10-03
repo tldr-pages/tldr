@@ -1,7 +1,7 @@
 # box
 
 > Phar의 빌드 및 관리를 위한 PHP 어플리케이션.
-> 더 많은 정보: <https://box-project.github.io/box2>.
+> 더 많은 정보: <https://github.com/box-project/box>.
 
 - 새 Phar 파일 작성:
 

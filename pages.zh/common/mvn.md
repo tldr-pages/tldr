@@ -2,7 +2,7 @@
 
 > Apache Maven.
 > 用于构建和管理基于 Java 的项目的工具。
-> 更多信息见： <https://maven.apache.org>.
+> 更多信息：<https://maven.apache.org>.
 
 - 编译项目：
 

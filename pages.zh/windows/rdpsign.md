@@ -1,6 +1,7 @@
 # rdpsign
 
 > 用于签名远程桌面协议（RDP）文件的工具。
+> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/rdpsign>.
 
 - 为一个 RDP 文件签名：
 

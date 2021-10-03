@@ -1,6 +1,7 @@
 # choco feature
 
 > Chocolatey 的交互功能。
+> 更多信息：<https://chocolatey.org/docs/commands-feature>.
 
 - 显示可用的功能列表：
 

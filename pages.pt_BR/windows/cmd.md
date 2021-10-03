@@ -1,7 +1,7 @@
 # cmd
 
 > O interpretador de comandos do Windows.
-> Mais informações: <https://docs.microsoft.com/pt-br/windows-server/administration/windows-commands/cmd>.
+> Mais informações: <https://docs.microsoft.com/windows-server/administration/windows-commands/cmd>.
 
 - Iniciar nova instância do interpretador de comandos:
 

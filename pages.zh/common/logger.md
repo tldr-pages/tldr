@@ -1,6 +1,7 @@
 # logger
 
 > 向系统日志增加记录（/var/log/syslog）。
+> 更多信息：<https://manned.org/logger>.
 
 - 向系统日志增加记录：
 
