@@ -1,6 +1,6 @@
 # alias
 
-> Créé des alias -- mots qui sont remplacés par une commande textuelle
+> Créé des alias -- mots qui sont remplacés par une commande textuelle.
 > Les alias expirent avec la session courante shell, sauf s'il a été défini dans le fichier de configuration shell, par exemple `~/.bashrc`.
 > Plus d'informations : <https://tldp.org/LDP/abs/html/aliases.html>.
 
