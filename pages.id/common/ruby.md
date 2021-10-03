@@ -9,7 +9,7 @@
 
 - Menjalankan skrip Ruby:
 
-`ruby {{script.rb}}`
+`ruby {{lokasi/ke/script.rb}}`
 
 - Menjalankan sebuah perintah Ruby dalam _command-line_:
 
@@ -17,7 +17,7 @@
 
 - Memeriksa kesalahan sintaks dari skrip Ruby:
 
-`ruby -c {{script.rb}}`
+`ruby -c {{lokasi/ke/script.rb}}`
 
 - Menampilkan versi Ruby yang anda gunakan:
 
