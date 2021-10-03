@@ -11,6 +11,10 @@
 
 `sbt new {{scala/hello-world.g8}}`
 
+- Compile and run all tests:
+
+`sbt test`
+
 - Use the specified version of sbt:
 
 `sbt -sbt-version {{version}}`
