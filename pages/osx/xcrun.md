@@ -23,6 +23,6 @@
 
 `xcrun --sdk {{sdk_name}}`
 
-- Find a tool for given toolchain:
+- Find a tool for a given toolchain:
 
 `xcrun --toolchain {{name}}`
