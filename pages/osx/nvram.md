@@ -11,7 +11,7 @@
 
 `nvram -xp`
 
-- Set a firmware variable:
+- Modify the value of a firmware variable:
 
 `sudo nvram {{name}}="{{value}}"`
 
