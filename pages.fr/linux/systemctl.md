@@ -7,19 +7,19 @@
 
 `systemctl --failed`
 
-- Démarrer/arrêter/redémarrer/recharger un service :
+- Démarre/arrête/redémarre/recharge un service :
 
 `systemctl {{start|stop|restart|reload}} {{unité}}`
 
-- Afficher le statut d'une unité :
+- Affiche le statut d'une unité :
 
 `systemctl status {{unité}}`
 
-- Activer/désactiver une unité à démarrer au démarrage :
+- Active/désactive une unité à démarrer au démarrage :
 
 `systemctl {{enable|disable}} {{unité}}`
 
-- Masquer/démasquer une unité pour empêcher l'activation et l'activation manuelle :
+- Masque/démasque une unité pour empêcher l'activation et l'activation manuelle :
 
 `systemctl {{mask|unmask}} {{unité}}`
 
@@ -27,10 +27,10 @@
 
 `systemctl daemon-reload`
 
-- Vérifiez si une unité est en cours de fonctionnement :
+- Vérifie si une unité est en cours de fonctionnement :
 
 `systemctl is-active {{unité}}`
 
-- Vérifiez si une unité est activée :
+- Vérifie si une unité est activée :
 
 `systemctl is-enabled {{unité}}`
