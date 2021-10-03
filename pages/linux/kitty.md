@@ -17,7 +17,7 @@
 
 - Display an image in the terminal:
 
-`kitty +kitten icat {{path/to/image.jpg}}`
+`kitty +kitten icat {{path/to/image}}`
 
 - Copy the contents of stdin to the clipboard:
 
