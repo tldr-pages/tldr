@@ -23,7 +23,7 @@
 
 `pacstall -U`
 
-- Update packages, its the same of apt upgrade:
+- Update packages, equivalent of apt upgrade:
 
 `pacstall -Up`
 
