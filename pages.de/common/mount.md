@@ -8,7 +8,7 @@
 
 - Hänge ein Gerät in ein Verzeichnis ein:
 
-`mount -t {{Dateisystemtyp}} {{pfad/zu/gerätedatei}} {{pfad/zu/zielverzeichnis}}`
+`mount -t {{dateisystemtyp}} {{pfad/zu/gerätedatei}} {{pfad/zu/zielverzeichnis}}`
 
 - Hänge ein CD-ROM-Gerät, das unter `/dev/cdrom` liegt (Dateisystemtyp ISO9660), in das Verzeichnis `/cdrom` schreibgeschützt ein:
 
