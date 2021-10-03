@@ -1,6 +1,6 @@
 # flatpak
 
-> Construa, instale e execute aplicações flatpak e plataformas.
+> Construa, instale e execute aplicações e plataformas flatpak.
 > Mais informações: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak>.
 
 - Executar uma aplicação instalada:
