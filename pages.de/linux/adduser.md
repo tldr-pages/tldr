@@ -11,7 +11,7 @@
 
 `adduser --no-create-home {{benutzername}}`
 
-- Erzeugen eines neuen Benutzers mit einem Home-Verzeichnis unter dem angegebenen Pfad:
+- Erstelle einen neuen Benutzer mit einem Home-Verzeichnis unter dem angegebenen Pfad:
 
 `adduser --home {{pfad/zu/home}} {{benutzername}}`
 
