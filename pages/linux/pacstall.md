@@ -11,7 +11,7 @@
 
 `pacstall -I program`
 
-- Remove program, its the same of apt remove:
+- Remove program, equivalent of apt remove:
 
 `pacstall -R program`
 
