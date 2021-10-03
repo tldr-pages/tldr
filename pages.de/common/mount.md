@@ -18,7 +18,7 @@
 
 `mount -a`
 
-- Hänge ein Dateisystem, dessen Einhängepunkt, Dateisystemtyp und Optionen in der Dateisystemtabelle `/etc/fstab` beschrieben sind ein (z. B. `/dev/sda1 /meine_platte ext2 defaults 0 2`):
+- Hänge ein Dateisystem ein, das in `/etc/fstab` beschrieben ist (z. B. `/dev/sda1 /meine_platte ext2 defaults 0 2`):
 
 `mount {{/meine_platte}}`
 
