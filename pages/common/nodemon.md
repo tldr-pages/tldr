@@ -5,7 +5,7 @@
 
 - Execute the specified file and watch a specific file for changes:
 
-`nodemon --inspect {{path/to/file.js}}`
+`nodemon {{path/to/file.js}}`
 
 - Manually restart nodemon (note nodemon must already be active for this to work):
 
@@ -18,6 +18,10 @@
 - Pass arguments to the node application:
 
 `nodemon {{path/to/file.js}} {{arguments}}`
+
+- Pass arguments to node itself if they're not nodemon arguments already (e.g. `--inspect`):
+
+`nodemon {{arguments}} {{path/to/file.js}}`
 
 - Run non-node scripts:
 
