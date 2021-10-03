@@ -4,15 +4,15 @@
 > Beberapa subcommands seperti `gh config` memiliki dokumentasi sendiri.
 > Informasi lebih lanjut: <https://cli.github.com/>.
 
-- Clone sebuah GitHub repository pada local:
+- Mengklon sebuah GitHub repositori di lokal
 
-`gh repo clone {{owner}}/{{repository}}`
+`gh repo clone {{owner}}/{{repositori}}`
 
 - Membuat issue baru:
 
 `gh issue create`
 
-- Melihat dan filter issue yang sedang open pada repository:
+- Melihat dan filter issue yang sedang open pada repositori:
 
 `gh issue list`
 
