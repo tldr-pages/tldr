@@ -9,24 +9,24 @@
 
 - Show logs for a specified container in a pod:
 
-`kubectl logs -c {{container_name}} {{pod_name}}`
+`kubectl logs --container {{container_name}} {{pod_name}}`
 
 - Show logs for all containers in a pod:
 
-`kubectl logs --all-containers=true {{pod_name}}`
+`kubectl logs --all-containers={{true}} {{pod_name}}`
 
 - Stream pod logs:
 
-`kubectl logs -f {{pod_name}}`
+`kubectl logs --follow {{pod_name}}`
 
 - Stream logs for a specified container in a pod:
 
 `kubectl logs -f -c {{container_name}} {{pod_name}}`
 
-- Show pod logs newer than a relative time like 10s, 5m, or 1h:
+- Show pod logs newer than a relative time like `10s`, `5m`, or `1h`:
 
 `kubectl logs --since={{relative_time}} {{pod_name}}`
 
 - Show the 10 most recent logs in a pod:
 
-`kubectl logs --tail=10 {{pod_name}}`
+`kubectl logs --tail={{10}} {{pod_name}}`
