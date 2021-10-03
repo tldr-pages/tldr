@@ -18,6 +18,6 @@
 
 `sysctl fs.file-max`
 
-- Änderungen aus der `/etc/sysctl.conf` Datei übernehmen:
+- Übernimm Änderungen aus der `/etc/sysctl.conf` Datei:
 
 `sysctl -p`
