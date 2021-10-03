@@ -1,7 +1,7 @@
 # touch
 
 > एक फ़ाइल का उपयोग और संशोधन समय (atime, mtime) बदलें।
-> अधिक जानकारी: <https://www.gnu.org/software/coreutils/touch>.
+> अधिक जानकारी: <https://www.gnu.org/software/coreutils/touch>।
 
 - एक नई खाली फ़ाइल बनाएं (मौजूदा फ़ाइल के लिए समय बदल दें):
 
