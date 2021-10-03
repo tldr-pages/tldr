@@ -19,7 +19,7 @@
 
 `xcrun --verbose`
 
-- Find tool for given SDK:
+- Find a tool for a given SDK:
 
 `xcrun --sdk {{sdk_name}}`
 
