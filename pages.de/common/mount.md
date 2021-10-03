@@ -14,7 +14,7 @@
 
 `mount -t {{iso9660}} -o ro {{/dev/cdrom}} {{/cdrom}}`
 
-- Hänge alle Dateisysteme ein die in `/etc/fstab` definiert sind:
+- Hänge alle Dateisysteme ein, die in `/etc/fstab` definiert sind:
 
 `mount -a`
 
