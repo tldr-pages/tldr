@@ -19,6 +19,6 @@
 
 `pip install -f {{url|pfad/zur/datei}}`
 
-- Installiere das lokale Paket im aktuellen Verzeichnis im Entwichlungs-/Bearbeitungsmodus:
+- Installiere das lokale Paket im aktuellen Verzeichnis im Entwicklungs-/Bearbeitungsmodus:
 
 `pip install -e .`
