@@ -7,7 +7,7 @@
 
 `maza update`
 
-- Start:
+- Start Maza:
 
 `sudo maza start`
 
