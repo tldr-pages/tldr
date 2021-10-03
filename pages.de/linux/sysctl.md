@@ -14,7 +14,7 @@
 
 `sysctl fs.file-nr`
 
-- Frage maximale Anzahl geöffneter Dateien ab:
+- Frage die maximale Anzahl geöffneter Dateien ab:
 
 `sysctl fs.file-max`
 
