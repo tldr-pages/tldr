@@ -22,6 +22,6 @@
 
 `mount {{/meine_platte}}`
 
-- Hänge ein Verzeichnis an eine andere Stelle im Dateisystem, danach sind die Inhalte über beide Pfade verfügbar:
+- Hänge ein Verzeichnis in ein anderes Verzeichnis ein (danach sind die Inhalte über beide Pfade verfügbar):
 
 `mount --bind {{pfad/zu/altem_verzeichnis}} {{pfad/zu/neuem_verzeichnis}}`
