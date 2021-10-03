@@ -6,7 +6,7 @@
 
 - Build a Bicep file:
 
-`az bicep build --file {bicep_file}`
+`az bicep build --file {{path/to/file.bicep}}`
 
 - Attempt to decompile an ARM template file to a Bicep file:
 
