@@ -15,6 +15,6 @@
 
 `sudo maza stop`
 
-- Show status:
+- Show the status of Maza:
 
 `maza status`
