@@ -1,6 +1,7 @@
 # kwrite
 
 > Text editor of the KDE Desktop project.
+> See also `kate`.
 > More information: <https://apps.kde.org/kwrite/>.
 
 - Open a text file:
