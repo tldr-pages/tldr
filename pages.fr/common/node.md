@@ -5,7 +5,7 @@
 
 - Éxecute un fichier JavaScript:
 
-`node {{chemin/vers/le/fichier}}`
+`node {{chemin/vers/fichier}}`
 
 - Démarre un REPL (shell interactif):
 
@@ -21,4 +21,4 @@
 
 - Active l'inspecteur, mets en pause l'éxécution jusqu'à ce qu'un debugger soit connecté une fois que le code source est totalement interprété:
 
-`node --no-lazy --inspect-brk {{path/to/file}}`
+`node --no-lazy --inspect-brk {{chemin/vers/fichier}}`
