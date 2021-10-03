@@ -17,7 +17,7 @@
 
 - Show verbose output:
 
-`xcrun --verbose`
+`xcrun {{tool}} {{arguments}} --verbose`
 
 - Find a tool for a given SDK:
 
