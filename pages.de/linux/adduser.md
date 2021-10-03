@@ -19,7 +19,7 @@
 
 `adduser --shell {{pfad/zu/shell}} {{benutzername}}`
 
-- Erzeugen eines neuen Benutzers, der zur angegebenen Gruppe gehört:
+- Erzeuge einen neuen Benutzer und füge ihn zur angegebenen Gruppe hinzu:
 
 `adduser --ingroup {{gruppe}} {{benutzername}}`
 
