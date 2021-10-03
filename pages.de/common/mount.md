@@ -1,6 +1,6 @@
 # mount
 
-> Dateisyteme in Dateibaum einhängen.
+> Ermöglicht den Zugriff auf ein gesamtes Dateisystem in einem Verzeichnis.
 
 - Zeige alle eingehängten Dateisyteme:
 
