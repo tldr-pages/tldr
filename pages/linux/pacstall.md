@@ -7,7 +7,7 @@
 
 `pacstall -S program`
 
-- Install program, its the same of apt install:
+- Install program, equivalent of apt install:
 
 `pacstall -I program`
 
