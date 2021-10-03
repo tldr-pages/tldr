@@ -1,6 +1,6 @@
 # sysctl
 
-> Kernelparameter zur Laufzeit auflisten und ändern. Als Parameter stehen die Werte unter `/proc/sys/` zur Verfügung (in Unterordner organisiert).
+> Laufzeit-Kernelparameter auflisten und ändern.
 
 - Liste alle verfügbaren Kernelparameter mit ihren Werten auf:
 
