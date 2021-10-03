@@ -8,7 +8,7 @@
 
 `pip install {{paketname}}`
 
-- Upgrade ein Paket:
+- Aktualisiere ein Paket:
 
 `pip install -U {{paketname}}`
 
@@ -20,6 +20,6 @@
 
 `pip freeze > {{requirements.txt}}`
 
-- Zeige die installierten Pakete an:
+- Zeige Informationen über ein installiertes Paket an:
 
 `pip show {{paketname}}`
