@@ -6,7 +6,7 @@
 
 `mount`
 
-- Hänge ein Gerät (en. Device) in das Dateiverzeichnis ein:
+- Hänge ein Gerät in ein Verzeichnis ein:
 
 `mount -t {{Dateisystemtyp}} {{pfad/zu/gerätedatei}} {{pfad/zu/zielverzeichnis}}`
 
