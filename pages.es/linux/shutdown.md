@@ -1,6 +1,7 @@
 # shutdown
 
 > Detiene, apaga o reinicia la máquina.
+> Más información: <https://manned.org/shutdown.8>.
 
 - Detiene inmediatamente:
 
