@@ -10,7 +10,7 @@
 
 `mount -t {{dateisystemtyp}} {{pfad/zu/gerätedatei}} {{pfad/zu/zielverzeichnis}}`
 
-- Hänge ein CD-ROM-Gerät, das unter `/dev/cdrom` liegt (Dateisystemtyp ISO9660), in das Verzeichnis `/cdrom` schreibgeschützt ein:
+- Hänge ein CD-ROM-Gerät (Dateisystemtyp ISO9660) in das Verzeichnis `/cdrom` schreibgeschützt ein:
 
 `mount -t {{iso9660}} -o ro {{/dev/cdrom}} {{/cdrom}}`
 
