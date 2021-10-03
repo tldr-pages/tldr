@@ -10,7 +10,7 @@
 
 - Attempt to decompile an ARM template file to a Bicep file:
 
-`az bicep decompile --file {json_template_file}`
+`az bicep decompile --file {{path/to/template_file.json}}`
 
 - Install Bicep CLI:
 
