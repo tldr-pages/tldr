@@ -7,7 +7,7 @@
 
 `goaccess {{path/to/file}} [{{path/to/file}}]`
 
-- Use a specific log-format (or pre-defined formats like **combined**):
+- Use a specific log-format (or pre-defined formats like "combined"):
 
 `goaccess {{path/to/file}} --log-format={{format}}`
 
