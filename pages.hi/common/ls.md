@@ -1,7 +1,7 @@
 # ls
 
 > निर्देशिका सामग्री को सूचीबद्ध करें।
-> अधिक जानकारी: <https://www.gnu.org/software/coreutils/ls>.
+> अधिक जानकारी: <https://www.gnu.org/software/coreutils/ls>।
 
 - प्रति पंक्ति एक फ़ाइल की सूची बनाएं:
 
