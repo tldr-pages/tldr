@@ -3,11 +3,11 @@
 > A development environment for Ethereum software.
 > More information: <https://hardhat.org>.
 
-- List available commands (or create a new project if no configuration exists):
+- List available subcommands (or create a new project if no configuration exists):
 
 `hardhat`
 
-- Compile the project and build all artifacts:
+- Compile the current project and build all artifacts:
 
 `hardhat compile`
 
@@ -19,7 +19,7 @@
 
 `hardhat test`
 
-- Run one or more specific space-separated test files:
+- Run all given test files:
 
 `hardhat test {{path/to/file1.js}} {{path/to/file2.js}}`
 
