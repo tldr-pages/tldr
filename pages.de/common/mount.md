@@ -1,6 +1,6 @@
 # mount
 
-> Dateisyteme in Dateibaum einhängen
+> Dateisyteme in Dateibaum einhängen.
 
 - Zeige alle eingehängten Dateisyteme:
 
