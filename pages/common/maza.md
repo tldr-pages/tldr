@@ -11,7 +11,7 @@
 
 `sudo maza start`
 
-- Stop:
+- Stop Maza:
 
 `sudo maza stop`
 
