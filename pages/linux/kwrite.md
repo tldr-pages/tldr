@@ -15,6 +15,6 @@
 
 `kwrite --encoding={{UTF-8}} {{path/to/file}}`
 
-- Navigate to a specific line and column in a text file:
+- Open a text file and navigate to a specific line and column:
 
 `kwrite -l {{line_number}} -c {{column_number}} {{path/to/file}}`
