@@ -15,7 +15,7 @@
 
 `lsd -F`
 
-- Long format list (permissions, ownership, size, and modification date) of all files:
+- List all files and directories in long format (permissions, ownership, size, and modification date):
 
 `lsd -la`
 
