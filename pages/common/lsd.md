@@ -23,7 +23,7 @@
 
 `lsd -lh`
 
-- Long format list sorted by size (descending):
+- List all files and directories in long format, sorted by size (descending):
 
 `lsd -lS`
 
