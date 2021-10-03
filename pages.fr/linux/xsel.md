@@ -2,11 +2,11 @@
 
 > Outil de sélection et de manipulation du presse-papiers X11.
 
-- Utiliser la sortie d'une commande comme entrée du presse-papiers (équivalent de `Ctrl + C`) :
+- Utilise la sortie d'une commande comme entrée du presse-papiers (équivalent de `Ctrl + C`) :
 
-`echo 123 | xsel -ib`
+`echo {{123}} | xsel -ib`
 
-- Utiliser le contenu d'un fichier comme entrée du presse-papiers :
+- Utilise le contenu d'un fichier comme entrée du presse-papiers :
 
 `cat {{fichier}} | xsel -ib`
 
@@ -18,7 +18,7 @@
 
 `xsel -ob > {{fichier}}`
 
-- Effacer le presse-papiers :
+- Efface le presse-papiers :
 
 `xsel -cb`
 
