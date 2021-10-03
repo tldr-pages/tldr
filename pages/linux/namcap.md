@@ -1,12 +1,16 @@
 # namcap
 
-> A tool to check binary packages and source PKGBUILDs for common packaging mistakes, which can also be automatically enabled.
+> Check binary packages and source `PKGBUILD`s for common packaging mistakes.
 > More information: <https://wiki.archlinux.org/title/Namcap>.
 
-- To run `namcap` on a file, where filename is `PKGBUILD` or the name of a binary pkg.tar.xz:
+- To run `namcap` on `PKGBUILD` file:
 
-`namcap {{filename}}`
+`namcap PKGBUILD`
 
-- To see extra informational messages, invoke `namcap` with the -i flag:
+- To run `namcap` on file `pkg.tar.xz`:
 
-`namcap -i {{filename}}`
+`namcap pkg.tar.xz`
+
+- Check a file printing extra [i]nformational messages:
+
+`nnamcap -i {{path/to/file}}`
