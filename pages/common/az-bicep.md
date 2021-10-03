@@ -20,7 +20,7 @@
 
 `az bicep upgrade`
 
-- Show the installed version of Bicep CLI:
+- Display the installed version of Bicep CLI:
 
 `az bicep version`
 
