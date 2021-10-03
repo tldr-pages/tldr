@@ -1,6 +1,6 @@
 # goaccess
 
-> GoAccess is an open source real-time web log analyzer.
+> An open source real-time web log analyzer.
 > More information: <https://goaccess.io>.
 
 - Run `goaccess` in interactive mode:
