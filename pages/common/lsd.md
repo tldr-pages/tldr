@@ -19,7 +19,7 @@
 
 `lsd -la`
 
-- Long format list with size displayed using human-readable units (KiB, MiB, GiB):
+- List all files and directories in long format with size displayed using human-readable units (KiB, MiB, GiB):
 
 `lsd -lh`
 
