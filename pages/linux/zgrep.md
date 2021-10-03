@@ -1,6 +1,7 @@
 # zgrep
 
 > Grep text patterns from files within compressed file (equivalent to grep -Z).
+> More information: <https://manned.org/zgrep>.
 
 - Grep a pattern in a compressed file (case-sensitive):
 
