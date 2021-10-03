@@ -3,6 +3,10 @@
 > A fast, feature-rich, GPU based terminal emulator.
 > More information: <https://sw.kovidgoyal.net/kitty/>.
 
+- Open a new terminal:
+
+`kitty`
+
 - Open a terminal with the specified title for the window:
 
 `kitty --title "{{title}}"`
