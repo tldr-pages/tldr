@@ -8,7 +8,7 @@
 
 `pacman --sync --refresh --sysupgrade`
 
-- Ein neues Paket installieren
+- Ein neues Paket installieren:
 
 `pacman --sync {{paket_name}}`
 
@@ -24,7 +24,7 @@
 
 `pacman --query`
 
-- Nur ausdrücklick installierte Pakete und dessen Versionen auflisten:
+- Nur ausdrücklich installierte Pakete und dessen Versionen auflisten:
 
 `pacman --query --explicit`
 
@@ -32,6 +32,6 @@
 
 `pacman --query --unrequired --deps --quiet`
 
-- Gesamten pacman cache leeren:
+- Gesamten pacman Cache leeren:
 
 `pacman --sync --clean --clean`
