@@ -23,6 +23,6 @@
 
 `adduser --ingroup {{gruppe}} {{benutzername}}`
 
-- Hinzufügen eines vorhandenen Benutzers zur angegebenen Gruppe:
+- Füge einen vorhandenen Benutzer zur angegebenen Gruppe hinzu:
 
 `adduser {{benutzername}} {{gruppe}}`
