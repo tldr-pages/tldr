@@ -27,7 +27,7 @@
 
 `lsd -lS`
 
-- Long format list of all files, sorted by modification date (oldest first):
+- List all files and directories in long format, sorted by modification date (oldest first):
 
 `lsd -ltr`
 
