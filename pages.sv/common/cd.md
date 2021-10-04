@@ -1,7 +1,7 @@
 # cd
 
 > Byt nuvarande katalog.
-> Mer information: <https://man.archlinux.org/man/cd.n>.
+> Mer information: <https://manned.org/cd>.
 
 - Gå till en given katalog:
 
