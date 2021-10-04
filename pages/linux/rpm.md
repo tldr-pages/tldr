@@ -1,7 +1,7 @@
 # rpm
 
 > RPM Package Manager.
-> More information: <https://manned.org/rpm>.
+> More information: <https://rpm.org/>.
 
 - Show version of httpd package:
 
