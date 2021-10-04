@@ -8,7 +8,7 @@
 
 `gh repo clone {{pemilik}}/{{repositori}}`
 
-- Membuat issue baru:
+- Membuat isu baru:
 
 `gh issue create`
 
@@ -16,7 +16,7 @@
 
 `gh issue list`
 
-- Melihat issue di browser:
+- Melihat isu di browser:
 
 `gh issue view --web {{nomor_issue}}`
 
