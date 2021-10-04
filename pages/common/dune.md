@@ -15,6 +15,6 @@
 
 `dune runtest`
 
-- Start the [utop](https://github.com/ocaml-community/utop) REPL with compiled modules automatically loaded into it, to remove the need to load them by hand:
+- Start the utop REPL with compiled modules automatically loaded into it, to remove the need to load them by hand:
 
 `dune utop`
