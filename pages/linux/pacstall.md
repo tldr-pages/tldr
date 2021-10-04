@@ -21,7 +21,7 @@
 
 - Update pacstall's scripts:
 
-`pacstall -U`
+`pacstall --update`
 
 - Update packages, equivalent of apt upgrade:
 
