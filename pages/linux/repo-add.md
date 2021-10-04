@@ -10,6 +10,6 @@
 
 `repo-add --quiet {{path/to/database.db.tar.gz}} {{*.pkg.tar.zst}}`
 
-- Remove color from output:
+- Add all package binaries in the current directory without showing color:
 
-`repo-add --nocolor {{your_database_name.db.tar.gz *.pkg.tar.zst}}`
+`repo-add --nocolor {{path/to/database.db.tar.gz}} {{*.pkg.tar.zst}}`
