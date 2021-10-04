@@ -13,7 +13,7 @@
 
 - Connect to a headless debug server:
 
-`dlv connect {{id_address}}`
+`dlv connect {{ip_address}}`
 
 - Attach to running process and begin debugging:
 
