@@ -7,7 +7,7 @@
 
 `lnav {{path/to/log_or_directory|URL}}`
 
-- View logs of remote host host1.example.com (SSH passwordless login required):
+- View logs of a specific remote host (SSH passwordless login required):
 
 `lnav {{ssh}} {{user}}@{{host1.example.com}}:{{/var/log/syslog.log}}`
 
