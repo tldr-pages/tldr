@@ -18,4 +18,4 @@
 
 - Open a text file and navigate to a specific line and column:
 
-`kwrite -l {{line_number}} -c {{column_number}} {{path/to/file}}`
+`kwrite --line {{line_number}} --column {{column_number}} {{path/to/file}}`
