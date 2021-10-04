@@ -11,7 +11,7 @@
 
 `highlight -O html --fragment --syntax={{language}} {{source file}}`
 
-- Inline all CSS styling in every tag:
+- Inline the CSS styling in every tag:
 
 `highlight -O html --inline-css --syntax={{language}} {{source file}}`
 
