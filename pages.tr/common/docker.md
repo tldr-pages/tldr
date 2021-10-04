@@ -17,7 +17,7 @@
 
 - Varolan bir konteyneri başlat veya durdur:
 
-`docker {{baslat|durdur}} {{konteyner_ismi}}`
+`docker {{start|stop}} {{konteyner_ismi}}`
 
 - Bir docker kaydından imge çek:
 
