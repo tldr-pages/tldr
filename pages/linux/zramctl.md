@@ -2,6 +2,7 @@
 
 > Setup and control zram devices.
 > Use `mkfs` or `mkswap` to format zram devices to partitions.
+> More information: <https://manned.org/zramctl>.
 
 - Check if zram is enabled:
 
