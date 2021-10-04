@@ -5,7 +5,7 @@
 
 - Produce a complete HTML document from a source code file:
 
-`highlight -O html --style {{theme name}} --syntax={{language}} {{source file}}`
+`highlight -O {{html}} --style {{theme_name}} --syntax={{language}} {{path/to/source_code}}`
 
 - Produce an HTML fragment, suitable for inclusion in a larger document:
 
