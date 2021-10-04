@@ -8,7 +8,7 @@
 
 - Add all package binaries in the current directory in silent mode except for warning and error messages:
 
-`repo-add --quiet {{your_database_name.db.tar.gz *.pkg.tar.zst}}`
+`repo-add --quiet {{path/to/database.db.tar.gz}} {{*.pkg.tar.zst}}`
 
 - Remove color from output:
 
