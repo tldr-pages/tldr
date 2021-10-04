@@ -1,7 +1,7 @@
 # watch
 
 > Execute a program periodically, showing output fullscreen.
-> More information: <https://manned.org/watch>
+> More information: <https://manned.org/watch>.
 
 - Repeatedly run a command and show the result:
 

@@ -1,7 +1,7 @@
 # watch
 
 > Executa um comando repetidas vezes, e monitora a saída em tela cheia.
-> Mais informações: <https://manned.org/watch>
+> Mais informações: <https://manned.org/watch>.
 
 - Monitora arquivos no diretório atual:
 
