@@ -8,22 +8,22 @@
 
 `pacman --database --help`
 
-- Ein Paket als implizit installiert markieren:
+- Markiere ein Paket als implizit installiert:
 
 `sudo pacman --database --asdeps {{paketname}}`
 
-- Ein Paket als explizit installiert markieren:
+- Markiere ein Paket als explizit installiert:
 
 `sudo pacman --database --asexplicit {{paketname}}`
 
-- Überprüfen dass alle Paketabhängigkeiten installiert sind:
+- Überprüfe, dass alle Paketabhängigkeiten installiert sind:
 
 `pacman --database --check`
 
-- In den Repositorien überprüfen, dass alle angegebenen Abhängigkeiten verfügbar sind:
+- Überprüfe in den Repositorien, dass alle angegebenen Abhängigkeiten verfügbar sind:
 
 `pacman --database --check --check`
 
-- Nur Fehlermeldungen anzeigen:
+- Zeige nur Fehlermeldungen:
 
 `pacman --database --check --quiet`
