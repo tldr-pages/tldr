@@ -15,6 +15,6 @@
 
 `rpmspec --query --srpm {{rpm.spec}}`
 
-- Prase the rpm spec file to `stdout`:
+- Parse the rpm spec file to `stdout`:
 
 `rpmspec --parse {{rpm.spec}}`
