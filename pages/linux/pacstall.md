@@ -25,7 +25,7 @@
 
 - Update all packages:
 
-`pacstall -Up`
+`pacstall --upgrade`
 
 - Show package info:
 
