@@ -9,20 +9,20 @@
 
 - Installiere ein neues Paket:
 
-`apk add {{Paket}}`
+`apk add {{paket}}`
 
 - Entferne ein Paket:
 
-`apk del {{Paket}}`
+`apk del {{paket}}`
 
 - Reparieren Sie das Paket oder aktualisieren es, ohne die Hauptabhängigkeiten zu ändern:
 
-`apk fix {{Paket}}`
+`apk fix {{paket}}`
 
 - Suche Pakete mit einem Schlüsselwort:
 
-`apk search {{Schlüsselwort}}`
+`apk search {{schlüsselwort}}`
 
 - Bekomme Informationen von einem spezifischen Paket:
 
-`apk info {{Paket}}`
+`apk info {{paket}}`
