@@ -3,9 +3,13 @@
 > Debugger for the Go programming language.
 > More information: <https://github.com/go-delve/delve/blob/master/Documentation/usage/dlv.md/>.
 
-- Compile and begin debugging main package in current directory, or the package specified:
+- Compile and begin debugging main package in current directory (by default, with no arguments):
 
 `dlv debug`
+
+- Compile and begin debugging in specified package:
+
+`dlv debug {{package}} {{flags}}`
 
 - Compile a test binary and begin debugging the compiled program:
 
