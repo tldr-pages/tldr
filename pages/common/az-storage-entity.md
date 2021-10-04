@@ -10,7 +10,7 @@
 
 - Delete an existing entity from a table:
 
-`az storage entity delete --partition-key {{partion_key}} --row-key {{row_key}} --table-name {{table_name}} --account-name {{storage_account_name}} --account-key {{storage_account_key}}`
+`az storage entity delete --partition-key {{partition_key}} --row-key {{row_key}} --table-name {{table_name}} --account-name {{storage_account_name}} --account-key {{storage_account_key}}`
 
 - Update an existing entity by merging its properties:
 
@@ -22,4 +22,4 @@
 
 - Get an entity from the specified table:
 
-`az storage entity show --partition-key {{partion_key}} --row-key {{row_key}} --table-name {{table_name}} --account-name {{storage_account_name}} --account-key {{storage_account_key}}`
+`az storage entity show --partition-key {{partition_key}} --row-key {{row_key}} --table-name {{table_name}} --account-name {{storage_account_name}} --account-key {{storage_account_key}}`
