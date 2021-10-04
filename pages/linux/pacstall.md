@@ -33,4 +33,4 @@
 
 - List all installed packages:
 
-`pacstall -L`
+`pacstall --list`
