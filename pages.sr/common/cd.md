@@ -1,6 +1,6 @@
 # cd
 
-> Menja trnutnu radnu površinu..
+> Menja trenutnu radnu površinu.
 > Više informacija na: <https://manned.org/cd>.
 
 - Ulazi u dati direktorijum:
