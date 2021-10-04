@@ -3,7 +3,7 @@
 > An AUR package manager for Ubuntu.
 > More information: <https://github.com/pacstall/pacstall>.
 
-- Search for program in repositories, its equivalent of apt search:
+- Search the package database for a package name:
 
 `pacstall -S program`
 
