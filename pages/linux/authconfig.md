@@ -1,4 +1,4 @@
-+# authconfig
+# authconfig
 
 > A CLI interface for configuring system authentication resources.
 > More information: <https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system-level_authentication_guide/authconfig-install>.

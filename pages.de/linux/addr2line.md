@@ -9,8 +9,8 @@
 
 - Zeige den Funktionsnamen, Dateinamen und Zeilennummer:
 
-`addr2line --exe={{pfad/zum/executable}} --functions {{adresse}}
+`addr2line --exe={{pfad/zum/executable}} --functions {{adresse}}`
 
 - Entmangele den Funktionsnamen für C++ Code:
 
-`addr2line --exe={{pfad/zum/executable}} --functions --demangle {{adresse}}
+`addr2line --exe={{pfad/zum/executable}} --functions --demangle {{adresse}}`
