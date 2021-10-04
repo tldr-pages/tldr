@@ -17,7 +17,7 @@
 
 - Add one more repository to search:
 
-`pacstall -A {{https://github/gitlab.com/example}}`
+`pacstall --add-repo {{remote_repository_location}}`
 
 - Update pacstall's scripts:
 
