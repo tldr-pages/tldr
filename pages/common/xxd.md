@@ -1,6 +1,7 @@
 # xxd
 
 > Create a hexadecimal representation (hexdump) from a binary file, or vice-versa.
+> More information: <https://manned.org/xxd>.
 
 - Generate a hexdump from a binary file and display the output:
 
