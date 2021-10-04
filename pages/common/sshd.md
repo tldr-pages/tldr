@@ -4,7 +4,7 @@
 > Remote machines can execute commands as it is executed at this machine.
 > More information: <https://man.openbsd.org/sshd>.
 
-- Start Daemon and run in the background:
+- Start daemon in the background:
 
 `sshd`
 
