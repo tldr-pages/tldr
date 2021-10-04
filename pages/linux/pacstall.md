@@ -9,7 +9,7 @@
 
 - Install a package:
 
-`pacstall -I program`
+`pacstall --install {{package_name}}`
 
 - Remove program, equivalent of apt remove:
 
