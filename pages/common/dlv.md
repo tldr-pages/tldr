@@ -21,4 +21,4 @@
 
 - Compile and begin tracing a program:
 
-`dlv trace {{package}} --regexp {{flags}}`
+`dlv trace {{package}} --regexp '{{regex_pattern}}'`
