@@ -8,7 +8,7 @@
 
 `sshd`
 
-- Start Daemon and keep foreground:
+- Run sshd in the foreground:
 
 `sshd -D`
 
