@@ -11,7 +11,7 @@
 
 `dune clean`
 
-- Run tests:
+- Run all tests:
 
 `dune runtest`
 
