@@ -12,7 +12,7 @@
 
 `sshd -D`
 
-- Start Daemon and show logging details:
+- Run with verbose output (for debugging):
 
 `sshd -D -d`
 
