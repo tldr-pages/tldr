@@ -3,7 +3,7 @@
 > Erweiterter `chroot`-Befehl zur Unterstützung des Arch Linux-Installationsprozesses.
 > Weitere Informationen: <https://man.archlinux.org/man/arch-chroot.8>.
 
-- Starte eine interaktive Shell (Standardmässig `bash`) in einem neuen Root-Verzeichnis:
+- Starte eine interaktive Shell (Standardmäßig `bash`) in einem neuen Root-Verzeichnis:
 
 `arch-chroot {{pfad/zu/neuem/root}}`
 
