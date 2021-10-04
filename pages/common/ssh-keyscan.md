@@ -1,6 +1,7 @@
 # ssh-keyscan
 
 > Get the public ssh keys of remote hosts.
+> More information: <https://man.openbsd.org/ssh-keyscan>.
 
 - Retrieve all public ssh keys of a remote host:
 

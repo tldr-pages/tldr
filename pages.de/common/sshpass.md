@@ -1,6 +1,7 @@
 # sshpass
 
 > Stelle SSH Passwörtern bereit.
+> Weitere Informationen: <https://manned.org/sshpass>.
 
 - Stelle eine Verbindung zu einem externen Server über ein Passwort aus einem Datei-Objekt her (in diesem Fall stdin):
 

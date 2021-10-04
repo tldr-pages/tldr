@@ -1,6 +1,7 @@
 # ssh-copy-id
 
 > Installiere den öffentlichen Teil eines SSH Schlüssels in der `authorized_keys` Datei auf einem externen Server.
+> Weitere Informationen: <https://manned.org/ssh-copy-id>.
 
 - Kopiere den eigenen öffentlichen SSH Schlüssels zu einem externen Server:
 
