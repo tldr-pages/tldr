@@ -1,6 +1,6 @@
 # mount
 
-> Provides access to an entire filesystem in one directory.
+> Provides access to an entire filesystem in one directory. More information: https://manned.org/mount/a879c886
 
 - Show all mounted filesystems:
 
