@@ -1,6 +1,7 @@
 # monop
 
 > Finds and displays signatures of Types and methods inside .NET assemblies.
+> More information: <https://manpages.ubuntu.com/manpages/impish/en/man1/monop.1.html>.
 
 - Show the structure of a Type built-in of the .NET Framework:
 

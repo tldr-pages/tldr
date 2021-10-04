@@ -1,6 +1,7 @@
 # most
 
 > Open one or several files for interactive reading, allowing scrolling and search.
+> More information: <https://manpages.ubuntu.com/manpages/impish/en/man1/most.1.html>.
 
 - Open a file:
 

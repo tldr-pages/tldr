@@ -1,6 +1,7 @@
 # mailx
 
 > Send and receive mail.
+> More information: <https://linux.die.net/man/1/mail>.
 
 - Send mail (the content should be typed after the command, and ended with `Ctrl+D`):
 
