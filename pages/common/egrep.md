@@ -1,6 +1,6 @@
 # egrep
 
-> Find patterns in files using extended regular expression (support `?`, `+`, `{}`, `()` and `|`).
+> Find patterns in files using extended regular expression (supports `?`, `+`, `{}`, `()` and `|`).
 > More information: <https://manned.org/egrep>.
 
 - Search for a pattern within a file:
@@ -11,9 +11,9 @@
 
 `egrep "{{search_pattern}}" {{path/to/file1}} {{path/to/file2}} {{path/to/file3}}`
 
-- Find a pattern in a command result:
+- Search stdin for a pattern:
 
-`{{shell_command}} | egrep {{search_pattern}}`
+`cat {{path/to/file}} | egrep {{search_pattern}}`
 
 - Print file name and line number for each match:
 
