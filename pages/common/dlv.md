@@ -15,7 +15,7 @@
 
 `dlv connect {{ip_address}}`
 
-- Attach to running process and begin debugging:
+- Attach to a running process and begin debugging:
 
 `div attach {{pid}}`
 
