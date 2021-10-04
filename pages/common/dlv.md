@@ -19,6 +19,6 @@
 
 `div attach {{pid}}`
 
-- Compile and begin tracing program:
+- Compile and begin tracing a program:
 
 `dlv trace {{package}} --regexp {{flags}}`
