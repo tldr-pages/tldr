@@ -5,7 +5,7 @@
 
 - Prikazuje tekstualnu poruku. Napomena: navodnici su opcionalni:
 
-`echo "{{Hello World}}"`
+`echo "{{Zdravo Svete}}"`
 
 - Prikazuje poruku sa promenljivom:
 
@@ -13,11 +13,11 @@
 
 - Prikazuje poruku bez dodatne linije:
 
-`echo -n "{{Hello World}}"`
+`echo -n "{{Zdravo Svete}}"`
 
 - Dodaje poruku u fajl:
 
-`echo "{{Hello World}}" >> {{fajl.txt}}`
+`echo "{{Zdravo Svete}}" >> {{fajl.txt}}`
 
 - Omogućava interpretaciju posebnih karektera (prethodi im "\\"):
 
