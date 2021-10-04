@@ -15,7 +15,7 @@
 
 `pacstall --remove {{package_name}}`
 
-- Add one more repository to search:
+- Add a repository to the database (only GitHub and GitLab are supported):
 
 `pacstall --add-repo {{remote_repository_location}}`
 
