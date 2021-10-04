@@ -5,11 +5,11 @@
 
 - Executar uma aplicação instalada:
 
-`flatpak run {{name}}`
+`flatpak run {{nome}}`
 
 - Instalar uma aplicação de uma fonte remota:
 
-`flatpak install {{remote}} {{name}}`
+`flatpak install {{remoto}} {{nome}}`
 
 - Listar todas as aplicações e plataformas instaladas:
 
@@ -21,7 +21,7 @@
 
 - Adicionar uma fonte remota:
 
-`flatpak remote-add --if-not-exists {{remote_name}} {{remote_url}}`
+`flatpak remote-add --if-not-exists {{nome_remoto}} {{url_remoto}}`
 
 - Listar todas fontes remotas configuradas:
 
@@ -29,8 +29,8 @@
 
 - Remover uma aplicação instalada:
 
-`flatpak remove {{name}}`
+`flatpak remove {{nome}}`
 
 - Mostrar informações sobre uma aplicação instalada:
 
-`flatpak info {{name}}`
+`flatpak info {{nome}}`
