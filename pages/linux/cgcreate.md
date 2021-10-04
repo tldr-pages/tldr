@@ -2,7 +2,7 @@
 
 > Create cgroups, used to limite, mesure, and control resources used by processes.
 > You can create cgroups with types like `memory`, `cpu`, `net_cls`, etc.
-> More information: `https://www.kernel.org/doc/Documentation/cgroup-v1/`
+> More information: <https://www.kernel.org/doc/Documentation/cgroup-v1/>
 
 - To install use:
 
