@@ -7,7 +7,7 @@
 
 `dlv debug`
 
-- Compile test binary and begin debugging program:
+- Compile a test binary and begin debugging the compiled program:
 
 `dlv test`
 
