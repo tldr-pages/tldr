@@ -11,13 +11,13 @@
 
 `sbt new {{scala/hello-world.g8}}`
 
-- Compile the main sources in `src/main/scala` and `src/main/java` directories:
-
-`sbt compile`
-
 - Delete all generated files in the `target` directory:
 
 `sbt clean`
+
+- Compile the main sources in `src/main/scala` and `src/main/java` directories:
+
+`sbt compile`
 
 - Use the specified version of sbt:
 
