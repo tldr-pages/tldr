@@ -15,6 +15,6 @@
 
 `pacman --deptest "{{bash>5}}"`
 
-- Zeige hilfe an:
+- Zeige Hilfe an:
 
 `pacman --deptest --help`
