@@ -10,15 +10,15 @@
 
 - Ein neues Paket installieren:
 
-`pacman --sync {{paket_name}}`
+`pacman --sync {{paketname}}`
 
 - Ein Paket und dessen Abhängigkeiten entfernen:
 
-`pacman --remove --recursive {{paket_name}}`
+`pacman --remove --recursive {{paketname}}`
 
 - In der Paketdatenbank nach einem regulären Ausdruck oder Schlüsselwort suchen:
 
-`pacman --sync --search "{{such_muster}}"`
+`pacman --sync --search "{{suchmuster}}"`
 
 - Installierte Pakete und dessen Versionen auflisten:
 
