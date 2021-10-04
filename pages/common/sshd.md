@@ -16,6 +16,6 @@
 
 `sshd -D -d`
 
-- Run on another port:
+- Run on a specific port:
 
 `sshd -p {{port}}`
