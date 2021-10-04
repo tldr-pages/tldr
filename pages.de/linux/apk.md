@@ -3,7 +3,7 @@
 > Alpine Linux-Paketverwaltungstool.
 > Weitere Informationen: <https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management>.
 
-- Aktualisiere die Indexe von allen externen Repositories:
+- Aktualisiere die Indizes von allen externen Repositories:
 
 `apk update`
 
@@ -15,7 +15,7 @@
 
 `apk del {{paket}}`
 
-- Reparieren Sie das Paket oder aktualisieren es, ohne die Hauptabhängigkeiten zu ändern:
+- Repariere oder aktualisiere ein Paket, ohne die Hauptabhängigkeiten zu ändern:
 
 `apk fix {{paket}}`
 
@@ -23,6 +23,6 @@
 
 `apk search {{schlüsselwort}}`
 
-- Bekomme Informationen von einem spezifischen Paket:
+- Erhalte Informationen über ein bestimmtes Paket:
 
 `apk info {{paket}}`
