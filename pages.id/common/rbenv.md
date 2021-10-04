@@ -17,11 +17,11 @@
 
 - Gunakan spesifik versi Ruby di seluruh sistem:
 
-`rbenv global {{version}}`
+`rbenv global {{versi}}`
 
 - Gunakan spesifik versi Ruby untuk suatu direktori aplikasi/proyek:
 
-`rbenv local {{version}}`
+`rbenv local {{versi}}`
 
 - Tampilkan versi Ruby yang saat ini dipilih:
 
@@ -29,7 +29,7 @@
 
 - Hapus sebuah versi Ruby:
 
-`rbenv uninstall {{version}}`
+`rbenv uninstall {{versi}}`
 
 - Tampilkan semua versi Ruby yang mengandung file yang dapat dieksekusi sesuai dengan yang disebut:
 
