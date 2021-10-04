@@ -27,7 +27,7 @@
 
 `pacstall --upgrade`
 
-- Show package info:
+- Display information about a package:
 
 `pacstall -Qi {{package_name}}`
 
