@@ -5,7 +5,7 @@
 
 - Cria um relatório de uso e custo do AWS definido de a partir de um arquivo JSON:
 
-`aws cur put-report-definition --report-definition file://{{caminho/para/definição-do-relatório.json}}`
+`aws cur put-report-definition --report-definition file://{{caminho/para/definição_do_relatório.json}}`
 
 - Lista as definições dos relatórios de uso para a conta logada:
 
