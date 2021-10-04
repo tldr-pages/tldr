@@ -13,7 +13,7 @@
 
 - Remove program, equivalent of apt remove:
 
-`pacstall -R program`
+`pacstall --remove {{package_name}}`
 
 - Add one more repository to search:
 
