@@ -1,7 +1,7 @@
 # cd
 
 > Verander de huidige map.
-> Meer informatie: <https://man.archlinux.org/man/cd.n>.
+> Meer informatie: <https://manned.org/cd>.
 
 - Ga naar de gegeven map:
 
