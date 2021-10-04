@@ -9,7 +9,7 @@
 
 - Prikazuje poruku sa promenljivom:
 
-`echo "{{My path is $PATH}}"`
+`echo "{{Moja lokacija je $PATH}}"`
 
 - Prikazuje poruku bez dodatne linije:
 
@@ -17,8 +17,8 @@
 
 - Dodaje poruku u fajl:
 
-`echo "{{Hello World}}" >> {{file.txt}}`
+`echo "{{Hello World}}" >> {{fajl.txt}}`
 
 - Omogućava interpretaciju posebnih karektera (prethodi im "\\"):
 
-`echo -e "{{Column 1\tColumn 2}}"`
+`echo -e "{{Kolona 1\tKolona 2}}"`

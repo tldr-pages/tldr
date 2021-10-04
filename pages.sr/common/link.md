@@ -5,4 +5,4 @@
 
 - Kreira link između novog i zadatog fajla:
 
-`link {{path/to/existing_file}} {{path/to/new_file}}`
+`link {{putanja/do/postojećeg_fajla}} {{putanja/do/novog_fajla}}`

@@ -14,16 +14,16 @@
 
 - Prikazuje pomoć o Git podkomandi (npr. `commit`, `log`, itd.):
 
-`git help {{subcommand}}`
+`git help {{podkomanda}}`
 
 - Izvršava Git podkomandu:
 
-`git {{subcommand}}`
+`git {{podkomanda}}`
 
 - Izvršava Git podkomandu u zadatoj početnoj lokaciji repozitorijuma:
 
-`git -C {{path/to/repo}} {{subcommand}}`
+`git -C {{putanja/do/repozitorijuma}} {{podkomanda}}`
 
 - Izvršava Git podkomandu sa zadatim setom konfiguracija:
 
-`git -c '{{config.key}}={{value}}' {{subcommand}}`
+`git -c '{{config.key}}={{value}}' {{podkomanda}}`

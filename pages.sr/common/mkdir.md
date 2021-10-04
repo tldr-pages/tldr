@@ -5,12 +5,12 @@
 
 - Kreira direktorijum u trenutnom direktorijumu ili zadatoj lokaciji:
 
-`mkdir {{directory}}`
+`mkdir {{direktorijum}}`
 
 - Kreira više direktorijuma u trenutnom direktorijumu:
 
-`mkdir {{directory_1 directory_2 ...}}`
+`mkdir {{direktorijum_1 direktorijum_2 ...}}`
 
 - Kreira direktorijum koristeći rekurziju:
 
-`mkdir -p {{path/to/directory}}`
+`mkdir -p {{putanja/do/direktorijuma}}`
