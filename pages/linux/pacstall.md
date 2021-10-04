@@ -5,7 +5,7 @@
 
 - Search the package database for a package name:
 
-`pacstall -S program`
+`pacstall --search {{package_name}}`
 
 - Install program, equivalent of apt install:
 
