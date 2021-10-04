@@ -1,7 +1,7 @@
 # Xephyr
 
 > A nested X server that runs as an X application.
-> More information: <https://cgit.freedesktop.org/xorg/xserver/plain/hw/kdrive/ephyr/README>.
+> More information: <https://manned.org/xserver-xephyr>.
 
 - Create a black window with display ID ":2":
 
