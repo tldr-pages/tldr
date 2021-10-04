@@ -4,34 +4,34 @@
 > Manche Unterbefehle wie `pacman sync` sind separat dokumentiert.
 > Weitere Informationen: <https://man.archlinux.org/man/pacman.8.de>.
 
-- Synchronisieren und alle Pakete aktualisieren:
+- Synchronisiere und aktualisiere alle Pakete:
 
 `pacman --sync --refresh --sysupgrade`
 
-- Ein neues Paket installieren:
+- Installiere ein neues Paket:
 
 `pacman --sync {{paketname}}`
 
-- Ein Paket und dessen Abhängigkeiten entfernen:
+- Entferne ein Paket und dessen Abhängigkeiten:
 
 `pacman --remove --recursive {{paketname}}`
 
-- In der Paketdatenbank nach einem regulären Ausdruck oder Schlüsselwort suchen:
+- Suche in der Paketdatenbank nach einem regulären Ausdruck oder Schlüsselwort:
 
 `pacman --sync --search "{{suchmuster}}"`
 
-- Installierte Pakete und dessen Versionen auflisten:
+- Liste alle installierten Pakete und dessen Versionen auf:
 
 `pacman --query`
 
-- Nur ausdrücklich installierte Pakete und dessen Versionen auflisten:
+- Liste alle ausdrücklich installierten Pakete und dessen Versionen auf:
 
 `pacman --query --explicit`
 
-- Verwaiste Pakete anzeigen, die als Abhängigkeiten installiert wurden, aber nicht mehr von anderen Paketen benötigt werden.
+- Zeige verwaiste Pakete an, welche als Abhängigkeiten installiert wurden, aber nicht mehr von anderen Paketen benötigt werden.
 
 `pacman --query --unrequired --deps --quiet`
 
-- Gesamten pacman Cache leeren:
+- Leere den gesamten pacman Cache:
 
 `pacman --sync --clean --clean`
