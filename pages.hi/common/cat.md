@@ -1,7 +1,7 @@
 # cat
 
 > फ़ाइलों को प्रिंट और संक्षिप्त करें।
-> अधिक जानकारी: <https://www.gnu.org/software/coreutils/cat>.
+> अधिक जानकारी: <https://www.gnu.org/software/coreutils/cat>।
 
 - मानक आउटपुट में फ़ाइल की सामग्री प्रिंट करें:
 
