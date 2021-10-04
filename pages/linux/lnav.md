@@ -9,7 +9,7 @@
 
 - View logs of remote host host1.example.com (SSH passwordless login required):
 
-`lnav {{ssh user@host1.example.com:/var/log/syslog.log}}`
+`lnav {{ssh}} {{user}}@{{host1.example.com}}:{{/var/log/syslog.log}}`
 
 - Validate log format of log files against the configuration and report any errors:
 
