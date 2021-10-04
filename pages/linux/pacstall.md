@@ -29,7 +29,7 @@
 
 - Display information about a package:
 
-`pacstall -Qi {{package_name}}`
+`pacstall --query-info {{package_name}}`
 
 - List all installed packages:
 
