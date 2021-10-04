@@ -3,13 +3,13 @@
 > Check binary packages and source `PKGBUILD`s for common packaging mistakes.
 > More information: <https://wiki.archlinux.org/title/Namcap>.
 
-- To run `namcap` on `PKGBUILD` file:
+- Check a specific `PKGBUILD` file:
 
-`namcap PKGBUILD`
+`namcap {{path/to/pkgbuild}}`
 
-- To run `namcap` on file `pkg.tar.xz`:
+- Check a specific package file:
 
-`namcap pkg.tar.xz`
+`namcap {{path/to/package.pkg.tar.zst}}`
 
 - Check a file printing extra [i]nformational messages:
 
