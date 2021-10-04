@@ -10,7 +10,7 @@
 
 - Download blobs from a blob container recursively:
 
-`az storage blob download-batch --account-name {{storage_account_name}} --account-key {{storage_account_key}} -s {{container_name}} -d {{ path/to/remote}} --pattern {{filename_regex}} --destination {{path/to/destination}}`
+`az storage blob download-batch --account-name {{storage_account_name}} --account-key {{storage_account_key}} -s {{container_name}} -d {{path/to/remote}} --pattern {{filename_regex}} --destination {{path/to/destination}}`
 
 - Upload a local file to blob storage:
 
