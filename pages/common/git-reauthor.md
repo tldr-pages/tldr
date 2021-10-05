@@ -12,6 +12,6 @@
 
 `git reauthor --old-email {{old@example.com}} --use-config`
 
-- Change the email and name of all commits:
+- Change the email and name of all commits, regardless of their original author:
 
 `git reauthor --all --correct-email {{name@example.com}} --correct-name {{name}}`
