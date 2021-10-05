@@ -4,7 +4,7 @@
 > Verschiedene Attribute von installierten Paketen bearbeiten.
 > Weitere Informationen: <https://man.archlinux.org/man/pacman.8.de>.
 
-- Hilfe anzeigen:
+- Zeige Hilfe an:
 
 `pacman --database --help`
 

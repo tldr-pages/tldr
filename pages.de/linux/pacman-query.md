@@ -19,11 +19,11 @@
 
 `pacman --query --info {{paketname}}`
 
-- Liste Dateien auf welche einem Paket gehören:
+- Liste alle Dateien auf welche einem Paket gehören:
 
 `pacman --query --list {{paketname}}`
 
-- Liste verwaiste Pakete auf (Pakete welche als Abhängigkeit installiert wurden, aber von keinem Paket benötigt wird):
+- Liste verwaiste Pakete auf (Pakete welche als Abhängigkeit installiert wurden, aber von keinem Paket benötigt werden):
 
 `pacman --query --unrequired --deps --quiet`
 

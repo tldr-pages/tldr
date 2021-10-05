@@ -19,7 +19,7 @@
 
 `sudo pacman --remove --noconfirm {{paketname}}`
 
-- Entferne verwaiste Pakete (Pakete welche als Abhängigkeit installiert wurden, aber von keinem Paket benötigt wird):
+- Entferne verwaiste Pakete (Pakete welche als Abhängigkeit installiert wurden, aber von keinem Paket benötigt werden):
 
 `sudo pacman --remove --recursive --nosave $(pacman --query --unrequired --deps --quiet)`
 

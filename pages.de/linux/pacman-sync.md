@@ -11,7 +11,7 @@
 
 `sudo pacman --sync --refresh --sysupgrade`
 
-- Aktualisiere alle Pakete und installiere ein neues ohne eine Bestätigung aufzufordern:
+- Aktualisiere alle Pakete und installiere ein neues ohne Bestätigungsaufforderung:
 
 `sudo pacman --sync --refresh --sysupgrade --noconfirm {{paketname}}`
 
@@ -27,7 +27,7 @@
 
 `sudo pacman --sync --refresh --sysupgrade --overwrite {{pfad/zur/datei}}`
 
-- Synchronisiere und aktualisiere alle Pakete, ignoriere aber ein spezifisches Paket (kann mehr als einmal genutzt werden):
+- Synchronisiere und aktualisiere alle Pakete, ignoriere aber ein bestimmtes Paket (kann mehr als einmal angegeben werden):
 
 `sudo pacman --sync --refresh --sysupgrade --ignore {{paketname}}`
 

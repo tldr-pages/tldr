@@ -8,7 +8,7 @@
 
 `pacman --files --help`
 
-- Aktualisiere Paketdatenbank:
+- Aktualisiere die Paketdatenbank:
 
 `sudo pacman --files --refresh`
 
