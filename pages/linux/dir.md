@@ -1,4 +1,3 @@
-
 # dir
 
 > Dir is equivalent to ls -C -b; that is, by default files are listed in columns, sorted vertically, and special characters are represented by backslash escape sequences.
