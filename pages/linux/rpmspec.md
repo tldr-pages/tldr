@@ -9,7 +9,7 @@
 
 - Get summary information for single binary packages generated from rpm spec file:
 
-`rpmspec --query --queryformat {{"%{name}: %{summary}\n"}} {{rpm.spec}}`
+`rpmspec --query --queryformat "{{%{name}: %{summary}\n}}" {{rpm.spec}}`
 
 - Get the source package which would be generated from the rpm spec file:
 
