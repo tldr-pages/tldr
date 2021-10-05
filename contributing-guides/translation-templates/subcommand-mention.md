@@ -103,7 +103,7 @@ Not translated yet.
 ---
 ### ja
 
-Not translated yet.
+`example command` のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
 
 ---
 ### ko
