@@ -1,6 +1,6 @@
 # git reauthor
 
-> Replace details about an author identity, since this command rewrites git's history --force will be needed when `git push` is used.
+> Change details about an author identity. Since this command rewrites the Git history, `--force` will be needed when pushing next time.
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-reauthor>.
 
