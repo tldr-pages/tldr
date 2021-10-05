@@ -25,7 +25,7 @@
 
 - Acquisisci informazioni su un ruolo di un utente
 
-`ansible-galaxy role info {{username}}.{{nome_ruolo}}`
+`ansible-galaxy role info {{nome_utente}}.{{nome_ruolo}}`
 
 - Acquisisci informazioni su una collection:
 
