@@ -140,7 +140,7 @@ Not translated yet.
 ---
 ### ru
 
-Not translated yet.
+Некоторые подкоманды, такие как `example command`, имеют собственную документацию по использованию.
 
 ---
 ### sh
