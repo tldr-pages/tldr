@@ -1,6 +1,7 @@
 # mount
 
 > Provides access to an entire filesystem in one directory.
+> More information: <https://manned.org/mount.8>.
 
 - Show all mounted filesystems:
 
