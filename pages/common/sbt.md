@@ -15,6 +15,10 @@
 
 `sbt clean`
 
+- Compile the main sources in `src/main/scala` and `src/main/java` directories:
+
+`sbt compile`
+
 - Use the specified version of sbt:
 
 `sbt -sbt-version {{version}}`
