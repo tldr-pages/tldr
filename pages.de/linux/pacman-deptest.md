@@ -1,7 +1,7 @@
 # pacman --deptest
 
 > Überprüfe alle angegebenen Abhängigkeiten und gib eine Liste von Abhängigkeiten zurück, welche auf dem System nicht erfüllt sind.
-> Weitere Informationen: <https://man.archlinux.org/man/pacman.8.de>.
+> Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
 
 - Zeige Paketnamen von Abhängigkeiten an, welche nicht installiert sind:
 

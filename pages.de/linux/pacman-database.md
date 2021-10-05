@@ -2,7 +2,7 @@
 
 > Mit der Arch Linux Paketdatenbank arbeiten.
 > Verschiedene Attribute von installierten Paketen bearbeiten.
-> Weitere Informationen: <https://man.archlinux.org/man/pacman.8.de>.
+> Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
 
 - Zeige Hilfe an:
 

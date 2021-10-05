@@ -2,7 +2,7 @@
 
 > Arch Linux Paket Management tool.
 > Siehe auch `pkgfile`.
-> Weitere Informationen: <https://man.archlinux.org/man/pacman.8.de>.
+> Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
 
 - Zeige Hilfe an:
 
