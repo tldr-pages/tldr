@@ -1,7 +1,7 @@
 # mmv
 
 > Move and rename files in bulk.
-> More information: <https://manpages.ubuntu.com/manpages/impish/en/man1/mmv.1.html>.
+> More information: <https://manned.org/mmv.1>.
 
 - Rename all files with a certain extension to a different extension:
 
