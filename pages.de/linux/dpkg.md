@@ -1,7 +1,7 @@
 # dpkg
 
 > Debian Paketmanager.
-> Einige Unterbefehle wie `dpkg deb` haben ihre eigene Gebrauchsdokumentation.
+> Manche Unterbefehle wie `dpkg deb` sind separat dokumentiert.
 > Weitere Informationen: <https://manpages.debian.org/buster/dpkg/dpkg.1.en.html>.
 
 - Installiere ein Paket:
@@ -10,7 +10,7 @@
 
 - Entferne ein Paket:
 
-`dpkg -r {{paket_name}}`
+`dpkg -r {{paketname}}`
 
 - Liste installierte Pakete auf:
 
@@ -18,12 +18,12 @@
 
 - Liste die Inhalte eines Pakets auf:
 
-`dpkg -L {{paket_name}}`
+`dpkg -L {{paketname}}`
 
 - Liste die Inhalte einer lokalen Paketdatei auf:
 
 `dpkg -c {{pfad/zur/datei.deb}}`
 
-- FInde heraus welche Pakete eine Datei besitzen:
+- Finde heraus welche Pakete eine Datei besitzen:
 
 `dpkg -S {{dateiname}}`
