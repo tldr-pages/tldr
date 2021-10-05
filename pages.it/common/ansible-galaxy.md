@@ -29,4 +29,4 @@
 
 - Acquisisci informazioni su una collection:
 
-`ansible-galaxy collection info {{username}}.{{collection_name}}`
+`ansible-galaxy collection info {{nome_utente}}.{{nome_raccolta}}`
