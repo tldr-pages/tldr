@@ -7,6 +7,7 @@ page template decided upon in
 The templates can be changed when necessary.
 
 [en](#en) •
+[ar](#ar) •
 [bs](#bs) •
 [da](#da) •
 [de](#de) •
@@ -34,7 +35,6 @@ The templates can be changed when necessary.
 [uk](#uk) •
 [zh](#zh) •
 [zh_TW](#zh_tw)
-[ar](#ar) •
 
 ---
 ### en
@@ -45,6 +45,19 @@ The templates can be changed when necessary.
 > This command is an alias of `example`.
 
 - View documentation for the original command:
+
+`tldr example`
+```
+
+---
+### ar
+
+```markdown
+# example
+
+> هذا الأمر هو اسم مستعار لـ `example`.
+
+- إعرض التوثيقات للأمر الأصلي:
 
 `tldr example`
 ```
@@ -340,19 +353,6 @@ Not translated yet.
 > 這是 `example` 命令的一個別名。
 
 - 原命令的文檔在：
-
-`tldr example`
-```
-
----
-### ar
-
-```markdown
-# example
-
-> هذا الأمر هو اسم مستعار لـ `example`
-
-- إعرض التوثيقات للأمر الأصلي:
 
 `tldr example`
 ```

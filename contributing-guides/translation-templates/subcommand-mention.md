@@ -6,6 +6,7 @@ In order to notify the user that such sub-command pages exist, we put a little n
 This file contains the translation templates of this notice.
 
 [en](#en) •
+[ar](#ar) •
 [bs](#bs) •
 [da](#da) •
 [de](#de) •
@@ -33,13 +34,19 @@ This file contains the translation templates of this notice.
 [uk](#uk) •
 [zh](#zh) •
 [zh_TW](#zh_tw)
-[ar](#ar) •
 
 ---
 ### en
 
 ```markdown
 Some subcommands such as `example command` have their own usage documentation.
+```
+
+---
+### ar
+
+```markdown
+بعض الأوامر الفرعية لديها توثيقات الاستخدام الخاصة بها مثل: `example command`.
 ```
 
 ---
@@ -188,11 +195,4 @@ Not translated yet.
 
 ```markdown
 此命令也有關於其子命令的文件，例如：`example command`.
-```
-
----
-### ar
-
-```markdown
-بعض الأوامر الفرعية لديها توثيقات الاستخدام الخاصة بها مثل: `example command`
 ```
