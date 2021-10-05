@@ -1,7 +1,7 @@
 # Get-ChildItem
 
 > List items in a directory.
-> More information: <https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-childitem?view=powershell-7.1>
+> More information: <https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-childitem>
 
 - List all non-hidden items in the current directory:
 
