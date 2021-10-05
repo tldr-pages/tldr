@@ -14,7 +14,7 @@
 
 - Set a configuration:
 
-`az config set {{key_value}}`
+`az config set {{configuration_name}}={{value}}`
 
 - Unset a configuration:
 
