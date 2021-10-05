@@ -1,7 +1,7 @@
 # dlv
 
 > Debugger for the Go programming language.
-> More information: <https://github.com/go-delve/delve/blob/master/Documentation/usage/dlv.md/>.
+> More information: <https://github.com/go-delve/delve/blob/master/Documentation/usage/dlv.md>.
 
 - Compile and begin debugging main package in current directory (by default, with no arguments):
 
