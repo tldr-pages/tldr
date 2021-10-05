@@ -8,7 +8,7 @@
 
 `az config get`
 
-- Print configurations for a section:
+- Print configurations for a specific section:
 
 `az config get {{section_name}}`
 
