@@ -1,6 +1,7 @@
 # mount
 
 > Fornisce accesso a un intero filesystem in una cartella specifica.
+> Maggiori informazioni: <https://manned.org/mount.8>.
 
 - Mostra tutti i filesystem montati:
 
