@@ -2,6 +2,7 @@
 
 > Menampilkan detail informasi pengguna saat ini.
 > Info lebih lanjut: <https://docs.microsoft.com/windows-server/administration/windows-commands/whoami>.
+
 - Menampilkan username pengguna saat ini:
 
 `whoami`
