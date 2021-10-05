@@ -125,7 +125,7 @@ Not translated yet.
 ---
 ### pt_BR
 
-Not translated yet.
+Alguns subcomandos como `example command` tem sua própia documentação de uso.
 
 ---
 ### pt_PT
