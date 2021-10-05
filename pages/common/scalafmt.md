@@ -5,9 +5,9 @@
 > More information: <https://scalameta.org/scalafmt>.
 
 - Standard formatting for all the `.scala` files in the current directory and recursively, it searches the configuration in the following order Format all files in the current project, the configuration is determined in this order:
-       1.  `.scalafmt.conf` file in current directory
-      2. `.scalafmt.conf` inside the root directory of the current git repo
-      3. no configuration, default style
+  1.  `.scalafmt.conf` file in current directory
+  2.  `.scalafmt.conf` inside the root directory of the current git repo
+  3.  no configuration, default style
 
 `scalafmt`
 
