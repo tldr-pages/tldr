@@ -25,4 +25,4 @@
 
 - Compile and begin tracing a program:
 
-`dlv trace {{package}} --regexp '{{regex_pattern}}'`
+`dlv trace {{package}} --regexp '{{regular_expression}}'`
