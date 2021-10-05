@@ -15,10 +15,10 @@
 
 `docker stats --format "{{.Name}}:\t{{.CPUPerc}}"`
 
-- Exibe estatíticas para todos os containers (tanto em execução como parados):
+- Exibe estatísticas para todos os containers (tanto em execução como parados):
 
 `docker stats --all`
 
-- Desabilita estatíticas atualizadas e só exibe o status naquele momento:
+- Desabilita estatísticas atualizadas e só exibe o status naquele momento:
 
 `docker stats --no-stream`
