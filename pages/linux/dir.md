@@ -1,6 +1,6 @@
 # dir
 > dir is equivalent to ls -C -b; that is, by default files are listed in columns, sorted vertically, and special characters are represented by backslash escape sequences.
-> More information: <https://manned.org/dir>
+> More information: <https://manned.org/dir>.
 
 - Displays all the hidden files along with two files denoted by "." and "..":
 `dir -a`
