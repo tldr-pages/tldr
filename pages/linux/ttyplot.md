@@ -9,7 +9,7 @@
 
 - Set a specific title and unit:
 
-`{ echo 1 2 3; cat } | ttyplot -t {{title}} -u {{unit}}`
+`{ echo {{1 2 3}}; cat } | ttyplot -t {{title}} -u {{unit}}`
 
 - Use a while loop to continuously plot random values:
 
