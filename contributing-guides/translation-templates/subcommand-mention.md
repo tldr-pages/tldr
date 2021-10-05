@@ -91,7 +91,7 @@ Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `examp
 ### it
 
 ```markdown
-Alcuni comandi aggiuntivi, come `esempio di un comando`, hanno la propria documentazione.
+Alcuni comandi aggiuntivi, come `example command`, hanno la propria documentazione.
 ```
 
 ---
