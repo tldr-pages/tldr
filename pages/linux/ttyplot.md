@@ -5,7 +5,7 @@
 
 - Plot the values `1`, `2` and `3` (`cat` prevents ttyplot to exit):
 
-`{ echo 1 2 3; cat } | ttyplot`
+`{ echo {{1 2 3}}; cat } | ttyplot`
 
 - Set a specific title and unit:
 
