@@ -18,4 +18,4 @@
 
 - Unset a configuration:
 
-`az config unset {{key}}`
+`az config unset {{configuration_name}}`
