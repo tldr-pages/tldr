@@ -90,7 +90,9 @@ Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `examp
 ---
 ### it
 
-Not translated yet.
+```markdown
+Alcuni comandi aggiuntivi, come `esempio di un comando`, hanno la propria documentazione.
+```
 
 ---
 ### ja
