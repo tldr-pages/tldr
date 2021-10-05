@@ -7,7 +7,7 @@
 
 `dir -all`
 
-- List files including the author (`-l` is required):
+- List files including their author (`-l` is required):
 
 `dir -l --author`
 
