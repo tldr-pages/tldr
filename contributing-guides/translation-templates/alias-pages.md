@@ -34,6 +34,7 @@ The templates can be changed when necessary.
 [uk](#uk) •
 [zh](#zh) •
 [zh_TW](#zh_tw)
+[ar](#ar) •
 
 ---
 ### en
@@ -339,6 +340,19 @@ Not translated yet.
 > 這是 `example` 命令的一個別名。
 
 - 原命令的文檔在：
+
+`tldr example`
+```
+
+---
+### ar
+
+```markdown
+# example
+
+> هذا الأمر هو اسم مستعار لـ `example`
+
+- إعرض التوثيقات للأمر الأصلي:
 
 `tldr example`
 ```

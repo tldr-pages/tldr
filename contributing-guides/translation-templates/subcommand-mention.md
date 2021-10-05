@@ -33,6 +33,7 @@ This file contains the translation templates of this notice.
 [uk](#uk) •
 [zh](#zh) •
 [zh_TW](#zh_tw)
+[ar](#ar) •
 
 ---
 ### en
@@ -187,4 +188,11 @@ Not translated yet.
 
 ```markdown
 此命令也有關於其子命令的文件，例如：`example command`.
+```
+
+---
+### ar
+
+```markdown
+بعض الأوامر الفرعية لديها توثيقات الاستخدام الخاصة بها مثل: `example command`
 ```
