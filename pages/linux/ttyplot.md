@@ -15,6 +15,6 @@
 
 `{ while true; do echo $RANDOM; sleep 1; done } | ttyplot`
 
-- Parse the output from other commands and visualize it:
+- Parse the output from `ping` and visualize it:
 
 `ping {{8.8.8.8}} | sed -u '{{s/^.*time=//g; s/ ms//g}}' | ttyplot -t "{{ping to 8.8.8.8}}" -u {{ms}}`
