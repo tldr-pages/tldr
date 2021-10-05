@@ -2,7 +2,7 @@
 
 > Encuentra coincidencias en el texto introducido.
 > Soporta patrones simples y expresiones regulares.
-> Más información: <https://www.gnu.org/software/grep/manual/grep.html>
+> Más información: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - Busca un patrón dentro de un archivo:
 

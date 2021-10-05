@@ -1,6 +1,7 @@
 # ftype
 
 > 显示或修改用于文件扩展名关联的文件类型。
+> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/ftype>.
 
 - 显示所有文件类型的列表：
 

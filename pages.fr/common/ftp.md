@@ -1,6 +1,7 @@
 # ftp
 
 > Outils permettant d'interagir avec un serveur avec le protocole FTP.
+> Plus d'informations : <https://manned.org/ftp>.
 
 - Se connecter à un serveur FTP :
 

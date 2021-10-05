@@ -1,6 +1,7 @@
 # shutdown
 
 > 用于关闭，重新启动或注销计算机的工具。
+> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/shutdown>.
 
 - 关闭当前的计算机：
 

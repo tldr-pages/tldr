@@ -1,6 +1,7 @@
 # del
 
 > 删除一个或多个文件。
+> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/del>.
 
 - 删除一个或多个以空格分隔的文件：
 

@@ -2,6 +2,7 @@
 
 > Analizzatore dei metadata dei file audio per macOS.
 > Comando integrato di macOS.
+> Maggiori informazioni: <https://ss64.com/osx/afinfo.html>.
 
 - Mostra le informazioni relative ad un file audio specificato:
 

@@ -1,6 +1,7 @@
 # choco upgrade
 
 > 使用 Chocolatey 升级一个或多个包。
+> 更多信息：<https://chocolatey.org/docs/commands-upgrade>.
 
 - 升级一个或多个用空格分隔的软件包：
 

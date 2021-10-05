@@ -53,7 +53,7 @@ The templates can be changed when necessary.
 ```markdown
 # example
 
-> Ova komanda je alijas za `example`.
+> Ova komanda je pseudonim za `example`.
 
 - Pogledaj dokumentaciju za izvornu komandu:
 

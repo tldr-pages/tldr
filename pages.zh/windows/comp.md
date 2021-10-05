@@ -2,6 +2,7 @@
 
 > 比较两个文件或文件集的内容。
 > 使用通配符（*）来比较文件集。
+> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/comp>.
 
 - 交互式比较文件：
 

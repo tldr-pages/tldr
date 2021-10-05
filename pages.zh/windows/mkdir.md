@@ -1,6 +1,7 @@
 # mkdir
 
 > 创建一个目录。
+> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/mkdir>.
 
 - 创建一个目录：
 

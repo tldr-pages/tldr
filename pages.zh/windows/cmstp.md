@@ -1,6 +1,7 @@
 # cmstp
 
 > 用于管理连接服务配置文件的命令行工具。
+> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/cmstp>.
 
 - 安装指定的配置文件：
 

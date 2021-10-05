@@ -1,7 +1,7 @@
 # exit
 
 > 退出终端程序。
-> 更多信息见： <https://manned.org/exit>.
+> 更多信息：<https://manned.org/exit>.
 
 - 使用最后执行命令的退出代码，退出终端程序：
 

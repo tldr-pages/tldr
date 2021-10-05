@@ -2,6 +2,7 @@
 
 > An ssh password provider.
 > It works by creating a TTY, feeding the password into it, and then redirecting stdin to the ssh session.
+> More information: <https://manned.org/sshpass>.
 
 - Connect to a remote server using a password supplied on a file descriptor (in this case, stdin):
 
