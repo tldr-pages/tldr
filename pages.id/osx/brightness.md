@@ -6,10 +6,10 @@
 
 `brightness -l`
 
-- Mengubah brightness menjadi 100%::
+- Mengubah brightness menjadi 100%:
 
 `brightness {{1}}`
 
-- Mengubah brightness menjadi 50%::
+- Mengubah brightness menjadi 50%:
 
 `brightness {{0.5}}`
