@@ -1,7 +1,7 @@
 # ls
 
 > ディレクトリの内容を一覧表示します。
-> 詳しくはこちら: <https://www.gnu.org/software/coreutils/ls>.
+> 詳しくはこちら: <https://www.gnu.org/software/coreutils/ls>
 
 - ファイルを1行ごとに一覧表示:
 

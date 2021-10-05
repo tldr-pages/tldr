@@ -1,7 +1,7 @@
 # mysql
 
 > MySQL のコマンドラインツールです。
-> 詳しくはこちら: <https://www.mysql.com/>.
+> 詳しくはこちら: <https://www.mysql.com/>
 
 - データベースへの接続:
 
