@@ -3,22 +3,22 @@
 > Dir is equivalent to ls -C -b; that is, by default files are listed in columns, sorted vertically, and special characters are represented by backslash escape sequences.
 > More information: <https://manned.org/dir>.
 
-- Displays all the hidden files along with two files denoted by "." and "..":
+- List all files, including hidden files:
 
-`dir -a`
+`dir -all`
 
-- Displays author of all the files. -l is required to display the contents in the form of a list:
+- List files including the author (`-l` is required):
 
 `dir -l --author`
 
-- Ignore files describe by shell PATTERN while list the contents of a directory:
+- List files excluding those that match a specified pattern:
 
-`dir --hide=PATTERN`
+`dir --hide={{pattern}}`
 
-- List subdirectories recursively.:
+- List subdirectories recursively:
 
-`dir -R`
+`dir --recursive`
 
-- Display the help options and exit:
+- Display help:
 
 `dir --help`
