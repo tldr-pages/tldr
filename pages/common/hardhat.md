@@ -23,11 +23,11 @@
 
 `hardhat test {{path/to/file1.js}} {{path/to/file2.js}}`
 
-- Start a local Ethereum JSON-RPC for development:
+- Start a local Ethereum JSON-RPC node for development:
 
 `hardhat node`
 
-- Start a local Ethereum JSON-RPC with a specific hostname and port:
+- Start a local Ethereum JSON-RPC node with a specific hostname and port:
 
 `hardhat node --hostname {{hostname}} --port {{port}}`
 
