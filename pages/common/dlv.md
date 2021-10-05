@@ -7,7 +7,7 @@
 
 `dlv debug`
 
-- Compile and begin debugging in specified package:
+- Compile and begin debugging a specific package:
 
 `dlv debug {{package}} {{flags}}`
 
