@@ -5,7 +5,7 @@
 
 - Update the database to a specified migration:
 
-`dotnet ef database update`
+`dotnet ef database update {{migration}}`
 
 - Drop the database:
 
@@ -17,11 +17,11 @@
 
 - Generate code for a `DbContext` and entity types for a database:
 
-`dotnet ef dbcontext scaffold`
+`dotnet ef dbcontext scaffold {{connection_string}} {{provider}}`
 
 - Add a new migration:
 
-`dotnet ef migrations add`
+`dotnet ef migrations add {{name}}`
 
 - Remove the last migration, rolling back the code changes that were done for the latest migration:
 
@@ -31,6 +31,6 @@
 
 `dotnet ef migrations list`
 
-- Generate a SQL script from migrations:
+- Generate a SQL script from migrations range:
 
-`dotnet ef migrations script`
+`dotnet ef migrations script {{from_migration}} {{to_migration}}`
