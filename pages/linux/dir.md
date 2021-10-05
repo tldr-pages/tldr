@@ -12,7 +12,7 @@
 
 `dir -l --author`
 
-- Ignores files describe by shell PATTERN while listing the contents of a directory:
+- Ignore files described by shell PATTERN while listing the contents of a directory:
 
 `dir --hide=PATTERN`
 
