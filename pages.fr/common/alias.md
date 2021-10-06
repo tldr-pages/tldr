@@ -14,11 +14,11 @@
 
 - Affiche la commande associée à un alias donné :
 
-`alias {{word}}`
+`alias {{mot}}`
 
 - Enlève un alias :
 
-`unalias {{word}}`
+`unalias {{mot}}`
 
 - Transforme `rm` en une commande intéractive :
 
