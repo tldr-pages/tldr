@@ -9,7 +9,7 @@
 
 - Compile and begin debugging a specific package:
 
-`dlv debug {{package}} {{flags}}`
+`dlv debug {{package}} {{arguments}}`
 
 - Compile a test binary and begin debugging the compiled program:
 
