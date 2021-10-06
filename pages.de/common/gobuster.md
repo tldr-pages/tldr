@@ -5,7 +5,7 @@
 
 - Finde Verzeichnisse und Dateien, die den Wörtern der Wortliste entsprechen.
 
-`gobuster dir --url {{https://example.com/}} --wordlist {{pfad/zu/datei}}`
+`gobuster dir --url {{https://beispiel.com/}} --wordlist {{pfad/zu/datei}}`
 
 - Finde Subdomains:
 
