@@ -7,7 +7,7 @@ import re
 import subprocess
 import sys
 
-IGNORE_FILES = (".DS_Store", "tldr.md")
+IGNORE_FILES = (".DS_Store", "tldr.md", "aria2.md")
 
 
 def get_tldr_root():
