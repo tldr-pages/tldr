@@ -83,10 +83,6 @@ def get_templates():
     return templates
 
 
-# A dictionary of all alias page translations
-templates = get_templates()
-
-
 def get_alias_page(file):
     """
     Determine whether the given file is an alias page.
@@ -208,9 +204,12 @@ def main():
     parser.add_argument("command", type=str, nargs="?", default="")
     args = parser.parse_args()
 
+    # A dictionary of all alias page translations
+    global templates
+    templates = get_templates()
+
     root = get_tldr_root()
     pages_dirs = [d for d in os.listdir(root) if d.startswith("pages")]
-
     rel_paths = []
 
     # Use '--page' option
