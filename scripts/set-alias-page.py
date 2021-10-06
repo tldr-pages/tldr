@@ -95,7 +95,7 @@ def set_alias_page(file, command):
     else:
         status = "\x1b[34mpage updated"
 
-    alias_name = os.path.basename(file).strip(".md")
+    alias_name = os.path.basename(file[:-3])
     text = (
         templates[locale].replace("example", alias_name, 1).replace("example", command)
     )
