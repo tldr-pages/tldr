@@ -3,7 +3,7 @@
 > Query a RPM spec file.
 > More information: <https://manned.org/rpmspec>.
 
-- List binary packages which would be generated from the rpm spec file:
+- List binary packages which would be generated from a rpm spec file:
 
 `rpmspec --query {{rpm.spec}}`
 
