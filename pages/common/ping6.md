@@ -1,6 +1,7 @@
 # ping6
 
 > Send ICMP ECHO_REQUEST packets to network hosts via IPv6 address.
+> More information: <https://manned.org/ping6>.
 
 - Ping a host:
 

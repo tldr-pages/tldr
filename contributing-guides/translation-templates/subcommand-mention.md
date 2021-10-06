@@ -30,6 +30,7 @@ This file contains the translation templates of this notice.
 [ta](#ta) •
 [th](#th) •
 [tr](#tr) •
+[uk](#uk) •
 [zh](#zh) •
 [zh_TW](#zh_tw)
 
@@ -94,7 +95,7 @@ Not translated yet.
 ---
 ### ja
 
-Not translated yet.
+`example command` のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
 
 ---
 ### ko
@@ -124,7 +125,7 @@ Not translated yet.
 ---
 ### pt_BR
 
-Not translated yet.
+Alguns subcomandos como `example command` tem sua própia documentação de uso.
 
 ---
 ### pt_PT
@@ -166,6 +167,13 @@ Not translated yet.
 ### tr
 
 Not translated yet.
+
+---
+### uk
+
+```markdown
+Певна підкоманда, як от `example command`, що має свою власну документацію.
+```
 
 ---
 ### zh

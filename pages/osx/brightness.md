@@ -6,10 +6,10 @@
 
 `brightness -l`
 
-- Set the brightness to 100%::
+- Set the brightness to 100%:
 
 `brightness {{1}}`
 
-- Set the brightness to 50%::
+- Set the brightness to 50%:
 
 `brightness {{0.5}}`

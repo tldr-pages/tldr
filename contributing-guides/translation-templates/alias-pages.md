@@ -31,6 +31,7 @@ The templates can be changed when necessary.
 [ta](#ta) •
 [th](#th) •
 [tr](#tr) •
+[uk](#uk) •
 [zh](#zh) •
 [zh_TW](#zh_tw)
 
@@ -302,6 +303,19 @@ Not translated yet.
 ### tr
 
 Not translated yet.
+
+---
+### uk
+
+```markdown
+# example
+
+> Ця команда є псевдонімом для `example`.
+
+- Дивись документацію для оригінальної команди:
+
+`tldr example`
+```
 
 ---
 ### zh
