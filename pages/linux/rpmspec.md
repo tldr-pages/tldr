@@ -11,7 +11,7 @@
 
 `rpmspec --query --queryformat "{{%{name}: %{summary}\n}}" {{rpm.spec}}`
 
-- Get the source package which would be generated from the rpm spec file:
+- Get the source package which would be generated from a rpm spec file:
 
 `rpmspec --query --srpm {{rpm.spec}}`
 
