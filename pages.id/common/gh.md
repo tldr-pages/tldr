@@ -18,7 +18,7 @@
 
 - Melihat isu di browser:
 
-`gh issue view --web {{nomor_issue}}`
+`gh issue view --web {{nomor_isu}}`
 
 - Membuat sebuah pull request:
 
