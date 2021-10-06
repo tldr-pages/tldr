@@ -17,4 +17,4 @@
 
 - Parse a rpm spec file to `stdout`:
 
-`rpmspec --parse {{rpm.spec}}`
+`rpmspec --parse {{path/to/rpm.spec}}`
