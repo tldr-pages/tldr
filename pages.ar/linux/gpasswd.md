@@ -3,22 +3,22 @@
 > إدارة `/etc/group` و `/etc/gshadow`.
 > لمزيد من التفاصيل: <https://manned.org/gpasswd>.
 
-- عرّف مديرين المجموعة:
+- عرّف مديرين المجموعة المسماة:
 
-`sudo gpasswd -A {{user1,user2}} {{group}}`
+`sudo gpasswd -A {{مدير 2, مدير 1}} {{مجموعة}}`
 
-- عين أعضاء المجموعة:
+- عين أعضاء المجموعة المسماة:
 
-`sudo gpasswd -M {{user1,user2}} {{group}}`
+`sudo gpasswd -M {{عضو 2, عضو 1}} {{مجموعة}}`
 
 - إنشئ رقم سري للمجموعة المسماة:
 
-`gpasswd {{group}}`
+`gpasswd {{مجموعة}}`
 
 - أضف عضو إلي المجموعة المسماة:
 
-`gpasswd -a {{user}} {{group}}`
+`gpasswd -a {{عضو}} {{مجموعة}}`
 
 - إحذف عضو من المجموعة المسماة:
 
-`gpasswd -d {{user}} {{group}}`
+`gpasswd -d {{عضو}} {{مجموعة}}`
