@@ -21,4 +21,4 @@
 
 - Set the dirty bit state of a volume:
 
-`fsutil dirty set {{drive letter | volume path}}`
+`fsutil dirty set {{drive_letter|volume_path}}`
