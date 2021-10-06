@@ -5,15 +5,15 @@
 
 - Produce a complete HTML document from a source code file:
 
-`highlight --out-format={{html}} --style {{theme_name}} --syntax={{language}} {{path/to/source_code}}`
+`highlight --out-format={{html}} --style {{theme_name}} --syntax {{language}} {{path/to/source_code}}`
 
 - Produce an HTML fragment, suitable for inclusion in a larger document:
 
-`highlight --out-format={{html}} --fragment --syntax={{language}} {{source_file}}`
+`highlight --out-format={{html}} --fragment --syntax {{language}} {{source_file}}`
 
 - Inline the CSS styling in every tag:
 
-`highlight --out-format={{html}} --inline-css --syntax={{language}} {{source_file}}`
+`highlight --out-format={{html}} --inline-css --syntax {{language}} {{source_file}}`
 
 - List all supported languages, themes, or plugins:
 
