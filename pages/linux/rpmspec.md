@@ -5,7 +5,7 @@
 
 - List binary packages which would be generated from a rpm spec file:
 
-`rpmspec --query {{rpm.spec}}`
+`rpmspec --query {{path/to/rpm.spec}}`
 
 - Get summary information for single binary packages generated from a rpm spec file:
 
