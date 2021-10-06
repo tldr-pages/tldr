@@ -13,7 +13,7 @@
 
 - Get the source package which would be generated from a rpm spec file:
 
-`rpmspec --query --srpm {{rpm.spec}}`
+`rpmspec --query --srpm {{path/to/rpm.spec}}`
 
 - Parse a rpm spec file to `stdout`:
 
