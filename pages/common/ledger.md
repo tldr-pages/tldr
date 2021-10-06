@@ -5,7 +5,7 @@
 
 - Print a balance report showing totals:
 
-`ledger balance --file path/to/ledger.journal`
+`ledger balance --file {{path/to/ledger.journal}}`
 
 - List all postings in Expenses ordered by amount:
 
