@@ -9,7 +9,7 @@
 
 - Use a specific log-format (or pre-defined formats like "combined"):
 
-`goaccess {{path/to/file}} --log-format={{format}}`
+`goaccess {{path/to/logfile}} --log-format={{format}}`
 
 - Analyse a log from stdin:
 
