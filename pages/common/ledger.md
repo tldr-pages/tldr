@@ -9,7 +9,7 @@
 
 - List all postings in Expenses ordered by amount:
 
-`ledger register {{Expenses}} --sorted {{amount}}`
+`ledger register {{expenses}} --sorted {{amount}}`
 
 - Print total Expenses other than Drinks and Food:
 
