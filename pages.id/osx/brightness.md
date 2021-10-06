@@ -13,4 +13,3 @@
 - Mengubah brightness menjadi 50%:
 
 `brightness {{0.5}}`
-
