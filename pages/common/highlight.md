@@ -13,7 +13,7 @@
 
 - Inline the CSS styling in every tag:
 
-`highlight -O html --inline-css --syntax={{language}} {{source file}}`
+`highlight --out-format={{html}} --inline-css --syntax={{language}} {{source file}}`
 
 - List all supported languages, themes, or plugins:
 
