@@ -1,17 +1,17 @@
 # tbl
 
-> Format tables for troff.
+> Format tables for `troff`.
 > More information: <https://manned.org/tbl>.
 
-- Format tables in troff:
+- Format tables for `troff` and print it to stdout:
 
 `cat {{path/to/file.troff}} | tbl`
 
-- Format tables in troff in "compatibility mode":
+- Format tables for `troff` in "compatibility mode":
 
 `cat {{path/to/file.troff}} | tbl -C`
 
-- Format tables in troff from a file:
+- Format tables for `troff` from a file:
 
 `tbl {{path/to/file.troff}}`
 
