@@ -16,7 +16,7 @@
 
 `:wq<Enter>`
 
-- Force Quit (no saving):
+- Force-quit without saving:
 
 `:q!<Enter>`
 
