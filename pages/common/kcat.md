@@ -31,6 +31,6 @@
 
 `kcat -L -t {{topic}} -b {{brokers}}`
 
-- Get offset for a topic/partition for a specific point in time:
+- Get the offset for a topic or partition for a specific point in time:
 
 `kcat -Q -t {{topic}}:{{partition}}:{{unix_timestamp}} -b {{brokers}}`
