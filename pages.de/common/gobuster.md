@@ -9,7 +9,7 @@
 
 - Finde Subdomains:
 
-`gobuster dns --domain {{example.com}} --wordlist {{pfad/zu/datei}}`
+`gobuster dns --domain {{beispiel.com}} --wordlist {{pfad/zu/datei}}`
 
 - Finde Amazon S3-Buckets:
 
@@ -17,12 +17,12 @@
 
 - Finde andere virtuelle Hosts eines Servers:
 
-`gobuster vhost --url {{https://example.com/}} --wordlist {{pfad/zu/datei}}`
+`gobuster vhost --url {{https://beispiel.com/}} --wordlist {{pfad/zu/datei}}`
 
 - Fuzze den Wert eines URL-Parameters:
 
-`gobuster fuzz --url {{https://example.com/?parameter=FUZZ}} --wordlist {{pfad/zu/datei}}`
+`gobuster fuzz --url {{https://beispiel.com/?parameter=FUZZ}} --wordlist {{pfad/zu/datei}}`
 
 - Fuzze den Namen eines URL-Parameters
 
-`gobuster fuzz --url {{https://example.com/?FUZZ=value}} --wordlist {{pfad/zu/datei}}`
+`gobuster fuzz --url {{https://beispiel.com/?FUZZ=value}} --wordlist {{pfad/zu/datei}}`
