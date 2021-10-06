@@ -6,7 +6,7 @@
 
 - Installiere ein Paket:
 
-`dpkg -i {{pfad/zur/datei.deb}}`
+`dpkg -i {{pfad/zu/datei.deb}}`
 
 - Entferne ein Paket:
 
