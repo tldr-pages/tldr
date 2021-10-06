@@ -118,7 +118,9 @@ Not translated yet.
 ---
 ### nl
 
-Not translated yet.
+```markdown
+Sommige subcommando's zoals `example command` hebben een eigen documentatie pagina.
+```
 
 ---
 ### no
