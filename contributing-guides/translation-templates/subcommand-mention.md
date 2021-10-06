@@ -74,7 +74,7 @@ Not translated yet.
 ### fr
 
 ```markdown
-Certaines commandes comme `example command` ont leur propre documentation.
+Certaines sous-commandes comme `example command` ont leur propre documentation.
 ```
 
 ---
