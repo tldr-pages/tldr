@@ -21,7 +21,7 @@
 
 - List all installed syntax highlighting themes:
 
-`highlight --list-scripts {{themes}}`
+`highlight --list-scripts themes`
 
 - Print a CSS stylesheet for a theme:
 
