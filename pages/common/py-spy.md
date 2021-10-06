@@ -13,7 +13,7 @@
 
 - Produce an SVG flame graph of the function call execution time:
 
-`py-spy record -o profile.svg --pid {{pid}}`
+`py-spy record -o {{path/to/profile.svg}} --pid {{pid}}`
 
 - Dump the call stack of a running process:
 
