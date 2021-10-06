@@ -9,7 +9,7 @@
 
 - Produce an HTML fragment, suitable for inclusion in a larger document:
 
-`highlight -O html --fragment --syntax={{language}} {{source file}}`
+`highlight --out-format={{html}} --fragment --syntax={{language}} {{source file}}`
 
 - Inline the CSS styling in every tag:
 
