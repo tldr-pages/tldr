@@ -22,7 +22,7 @@
 
 - Liste die Inhalte einer lokalen Paketdatei auf:
 
-`dpkg -c {{pfad/zur/datei.deb}}`
+`dpkg -c {{pfad/zu/datei.deb}}`
 
 - Finde heraus welche Pakete eine Datei besitzen:
 
