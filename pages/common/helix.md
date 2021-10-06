@@ -8,7 +8,7 @@
 
 `helix {{path/to/file}}`
 
-- Change Helix theme:
+- Change the Helix theme:
 
 `:theme {{theme_name}}`
 
