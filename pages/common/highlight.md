@@ -15,9 +15,9 @@
 
 `highlight -O html --inline-css --syntax={{language}} {{source file}}`
 
-- List all supported languages:
+- List all supported languages, themes, or plugins:
 
-`highlight --list-scripts lang`
+`highlight --list-scripts {{langs|themes|plugins}}`
 
 - List all installed syntax highlighting themes:
 
