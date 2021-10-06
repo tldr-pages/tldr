@@ -19,7 +19,7 @@
 
 `query session /server:{{hostname}}`
 
-- Display running processes:
+- Display all running processes:
 
 `query process`
 
