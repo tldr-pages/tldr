@@ -7,7 +7,7 @@
 
 `rpmspec --query {{rpm.spec}}`
 
-- Get summary information for single binary packages generated from rpm spec file:
+- Get summary information for single binary packages generated from a rpm spec file:
 
 `rpmspec --query --queryformat "{{%{name}: %{summary}\n}}" {{rpm.spec}}`
 
