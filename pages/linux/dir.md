@@ -1,6 +1,7 @@
 # dir
 
-> Dir is equivalent to ls -C -b; that is, by default files are listed in columns, sorted vertically, and special characters are represented by backslash escape sequences.
+> List directory contents using one line per file, special characters are represented by backslash escape sequences.
+> Works as `ls -C --escape`.
 > More information: <https://manned.org/dir>.
 
 - List all files, including hidden files:
@@ -11,7 +12,7 @@
 
 `dir -l --author`
 
-- List files excluding those that match a specified pattern:
+- List files excluding those that match a specified blob pattern:
 
 `dir --hide={{pattern}}`
 
