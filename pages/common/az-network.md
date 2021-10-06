@@ -18,4 +18,4 @@
 
 - Enable accelerated networking for a network interface card:
 
-`az network nic update --accelerated-networking true --name {{my_nic}} --resource-group {{resource_group}}`
+`az network nic update --accelerated-networking true --name {{nic}} --resource-group {{resource_group}}`
