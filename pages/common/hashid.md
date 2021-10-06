@@ -9,20 +9,20 @@
 
 - Identify hashes passed as arguments (multiple hashes can be passed):
 
-`hashid 72b302bf297a228a75730123efef7c41`
+`hashid {{hash}}`
 
 - Identify hashes on a file (one hash per line):
 
-`hashid hashes.txt`
+`hashid {{path/to/hashes.txt}}`
 
 - Show all possible hash types (including salted hashes):
 
-`hashid --extended 72b302bf297a228a75730123efef7c41`
+`hashid --extended {{hash}}`
 
 - Show `hashcat`'s mode number and `john`'s format string of the hash types:
 
-`hashid --mode --john 72b302bf297a228a75730123efef7c41`
+`hashid --mode --john {{hash}}`
 
 - Save output to a file instead of printing to standard output:
 
-`hashid --outfile hash_type.txt 72b302bf297a228a75730123efef7c41`
+`hashid --outfile {{path/to/output.txt}} {{hash}}`
