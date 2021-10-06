@@ -15,6 +15,6 @@
 
 `tail -f {{path/to/logfile}} | goaccess -`
 
-- Realtime HTML output in a single file (you can even mail this):
+- Analyze a log and write it to an HTML file in real-time:
 
 `goaccess {{path/to/file}} --output {{path/to/file}} --real-time-html`
