@@ -25,4 +25,4 @@
 
 - Display running processes by session or user name:
 
-`query process {{session name | user name}}`
+`query process {{session_name|user_name}}`
