@@ -1,6 +1,7 @@
 # objdump
 
 > View information about object files.
+> More information: <https://manned.org/objdump.1>.
 
 - Display the file header information:
 
