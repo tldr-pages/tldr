@@ -15,7 +15,7 @@
 
 `gobuster s3 --wordlist {{pfad/zu/datei}}`
 
-- Finde andere virtuelle Hosts des Servers der URL:
+- Finde andere virtuelle Hosts eines Servers:
 
 `gobuster vhost --url {{https://example.com/}} --wordlist {{pfad/zu/datei}}`
 
