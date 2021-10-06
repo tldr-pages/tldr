@@ -1,7 +1,7 @@
 # searchsploit
 
-> Searchsploit searches exploit database's database for exploits, shellcodes and/or papers
-> If you insert known version numbers as search terms, searchsploit will show exploits for both the exact version and others whose version range covers the one specified
+> Searchsploit searches exploit database's database for exploits, shellcodes and/or papers.
+> If you insert known version numbers as search terms, searchsploit will show exploits for both the exact version and others whose version range covers the one specified.
 > More information: <https://www.exploit-db.com/searchsploit>.
 
 - Search for an exploit/shellcode/paper:
@@ -16,14 +16,14 @@
 
 `searchsploit --www dirty cow`
 
-- Makes a copy of the resource onto the current directory (requires the number of the exploit):
+- Make a copy of the resource on the current directory (requires the number of the exploit):
 
 `searchsploit --mirror 49313`
 
-- Explores the exploit with the pager defined in the `$PAGER` environmental variable:
+- Open the resource to read with the pager defined in the `$PAGER` environment variable:
 
 `searchsploit --explore 13171`
 
-- Updates the local exploit database:
+- Update the local exploit database:
 
 `searchsploit --update`
