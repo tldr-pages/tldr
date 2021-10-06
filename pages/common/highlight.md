@@ -25,4 +25,4 @@
 
 - Print a CSS stylesheet for a theme:
 
-`highlight -O html --print-style --style {{theme name}} --syntax {{language}}] --stdout`
+`highlight --out-format={{html}} --print-style --style {{theme name}} --syntax {{language}}] --stdout`
