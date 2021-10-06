@@ -15,7 +15,7 @@
 
 `kcat -G {{group_id}} -t {{topic}} -b {{brokers}}`
 
-- Publish message by reading from stdin:
+- Publish a message, reading it from stdin:
 
 ` echo {{message}} | kcat -P -t {{topic}} -b {{brokers}}`
 
