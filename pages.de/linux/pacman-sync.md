@@ -1,6 +1,6 @@
 # pacman --sync
 
-> Arch Linux Paket Management tool.
+> Arch Linux Paketverwaltungs-Werkzeug.
 > Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
 
 - Installiere ein neues Paket:
@@ -31,6 +31,6 @@
 
 `sudo pacman --sync --refresh --sysupgrade --ignore {{paketname}}`
 
-- Entferne nicht installierte Pakete und ungenutzte Repositorien vom Cache (nutze zwei `--clean` Operationen um alle Pakete aufzuräumen):
+- Entferne nicht installierte Pakete und ungenutzte Repositorys vom Cache (nutze zwei `--clean` Operationen um alle Pakete aufzuräumen):
 
 `sudo pacman --sync --clean`

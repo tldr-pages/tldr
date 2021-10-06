@@ -1,6 +1,6 @@
 # pacman --remove
 
-> Arch Linux Paket Management tool.
+> Arch Linux Paketverwaltungs-Werkzeug.
 > Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
 
 - Zeige Hilfe für diesen Unterbefehl an:
@@ -11,7 +11,7 @@
 
 `sudo pacman --remove --recursive {{paketname}}`
 
-- Entferne ein Paket, dessen Abhängigkeiten und Konfigurationsdateien:
+- Entferne ein Paket sowie alle Abhängigkeiten und Konfigurationsdateien:
 
 `sudo pacman --remove --recursive --nosave {{paketname}}`
 

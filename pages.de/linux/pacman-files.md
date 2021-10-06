@@ -1,6 +1,6 @@
 # pacman --files
 
-> Arch Linux Paket Management tool.
+> Arch Linux Paketverwaltungs-Werkzeug.
 > Siehe auch `pkgfile`.
 > Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
 

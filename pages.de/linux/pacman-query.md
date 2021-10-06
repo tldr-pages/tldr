@@ -1,6 +1,6 @@
 # pacman --query
 
-> Arch Linux Paket Management tool.
+> Arch Linux Paketverwaltungs-Werkzeug.
 > Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
 
 - Liste alle installierten Pakete und dessen Versionen auf:

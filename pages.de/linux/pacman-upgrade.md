@@ -1,6 +1,6 @@
 # pacman --upgrade
 
-> Arch Linux Paket Management tool.
+> Arch Linux Paketverwaltungs-Werkzeug.
 > Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
 
 - Zeige Hilfe an:
