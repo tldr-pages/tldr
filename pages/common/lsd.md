@@ -1,6 +1,7 @@
 # lsd
 
 > List directory contents.
+> The next generation `ls` command, written in Rust.
 > More information: <https://github.com/Peltoche/lsd>.
 
 - List files and directories, one per line:
