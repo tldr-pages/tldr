@@ -6,4 +6,4 @@
 
 - Disable the ability to commit changes of a local file:
 
-`git lock {{file}}`
+`git lock {{path/to/file}}`
