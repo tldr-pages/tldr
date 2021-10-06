@@ -9,7 +9,7 @@
 
 - Displays information about a volume‘s file system:
 
-`fsutil fsInfo volumeInfo {{drive letter | volume path}}`
+`fsutil fsInfo volumeInfo {{drive_letter|volume_path}}`
 
 - Display the current state of file system auto-repair for all volumes:
 
