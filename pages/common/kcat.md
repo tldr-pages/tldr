@@ -19,7 +19,7 @@
 
 ` echo {{message}} | kcat -P -t {{topic}} -b {{brokers}}`
 
-- Publish messages by reading from a file:
+- Publish messages, reading them from a file:
 
 `kcat -P -t {{topic}} -b {{brokers}} {{path/to/file}}`
 
