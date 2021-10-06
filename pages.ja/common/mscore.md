@@ -1,4 +1,4 @@
-# score
+# mscore
 
 > このコマンドは `musescore` のエイリアスです.
 

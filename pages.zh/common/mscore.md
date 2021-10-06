@@ -1,4 +1,4 @@
-# score
+# mscore
 
 > 这是 `musescore` 命令的一个别名。
 

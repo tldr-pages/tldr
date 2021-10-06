@@ -1,4 +1,4 @@
-# score
+# mscore
 
 > Questo comando è un alias per `musescore`.
 

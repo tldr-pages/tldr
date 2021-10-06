@@ -1,4 +1,4 @@
-# score
+# mscore
 
 > Perintah ini merupakan alias dari `musescore`.
 

@@ -1,4 +1,4 @@
-# score
+# mscore
 
 > यह आदेश `musescore` का उपनाम है।
 
