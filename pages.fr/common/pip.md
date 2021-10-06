@@ -1,6 +1,7 @@
 # pip
 
 > Gestionnaire des paquets pour Python.
+> Certaines commandes comme `pip install` ont leur propre documentation.
 > Plus d'informations : <https://pip.pypa.io>.
 
 - Installe un paquet :
