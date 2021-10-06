@@ -1,4 +1,4 @@
-# llvm-n
+# llvm-nm
 
 > Perintah ini merupakan alias dari `nm`.
 

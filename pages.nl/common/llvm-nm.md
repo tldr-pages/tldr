@@ -1,4 +1,4 @@
-# llvm-n
+# llvm-nm
 
 > Dit commando is een alias van `nm`.
 

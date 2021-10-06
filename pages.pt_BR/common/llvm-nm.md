@@ -1,4 +1,4 @@
-# llvm-n
+# llvm-nm
 
 > Este comando é um pseudônimo de `nm`.
 

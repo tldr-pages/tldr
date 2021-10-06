@@ -1,4 +1,4 @@
-# llvm-n
+# llvm-nm
 
 > Det här kommandot är ett alias för `nm`.
 

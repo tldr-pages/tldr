@@ -1,4 +1,4 @@
-# llvm-n
+# llvm-nm
 
 > Te polecenie jest aliasem `nm`.
 
