@@ -1,7 +1,6 @@
 # mpd
 
 > Music Player Daemon.
-> A daemon for playing music.
 > More information: <https://www.musicpd.org/>.
 
 - Start MPD:
@@ -12,7 +11,7 @@
 
 `mpd --no-config`
 
-- Start MPD and don't detach from console:
+- Start MPD and don't detach it from the console:
 
 `mpd --no-daemon`
 
