@@ -1,7 +1,7 @@
 # nslookup
 
 > Query name server(s) for various domain records.
-> More information: <https://manned.org/nslookup.1>.
+> More information: <https://manned.org/nslookup>.
 
 - Query your system's default name server for an IP address (A record) of the domain:
 
