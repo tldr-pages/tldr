@@ -1,13 +1,13 @@
 # cvs
 
 > Concurrent Versions System, a revision control system.
-> More information: <http://cvs.nongnu.org>.
+> More information: <https://cvs.nongnu.org>.
 
-- Create repository (requires the `CVSROOT` environment variable to be set externally):
+- Create a new repository (requires the `CVSROOT` environment variable to be set externally):
 
-`cvs -d {{path/to/repo}} init`
+`cvs -d {{path/to/repository}} init`
 
-- Add project to repository. Navigate to project folder and run:
+- Add a project to the repository:
 
 `cvs import -m "{{message}}" {{project_name}} {{version}} {{vendor}}`
 
@@ -15,7 +15,7 @@
 
 `cvs checkout {{project_name}}`
 
-- Check file diff/changes:
+- Show changes made to files:
 
 `cvs diff {{path/to/file}}`
 
@@ -27,6 +27,6 @@
 
 `cvs commit -m "{{message}}" {{path/to/file}}`
 
-- Update working directory from repository:
+- Update the working directory from the remote repository:
 
 `cvs update`
