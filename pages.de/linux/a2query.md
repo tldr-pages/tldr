@@ -15,7 +15,7 @@
 
 `sudo a2query -s`
 
-- Zeigt das aktuell aktivierte Multi-Processing-Modul an:
+- Zeige das aktuell aktivierte Multi-Processing-Modul an:
 
 `sudo a2query -M`
 
