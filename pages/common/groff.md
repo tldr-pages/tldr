@@ -1,9 +1,7 @@
 # groff
 
-> Typesetting program that reads plain text mixed with formatting commands
-> and produces formatted output.
-> It is the GNU replacement for the `troff` and `nroff` Unix command for text
-> formatting.
+> Typesetting program that reads plain text mixed with formatting commands and produces formatted output.
+> It is the GNU replacement for the `troff` and `nroff` Unix command for text formatting.
 > More information: <https://www.gnu.org/software/groff>
 
 - Trivial example input with no formatting:

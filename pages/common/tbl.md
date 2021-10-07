@@ -1,8 +1,7 @@
 # tbl
 
 > Table preprocessor for the groff (GNU Troff) document formatting system.
-> Input consists of plain text, troff formatting commands, troff macros,
-> and special table formatting commands.
+> Input consists of plain text, troff formatting commands, and table formatting commands.
 > See also `groff` and `troff`.
 > More information: <https://manned.org/tbl>
 
