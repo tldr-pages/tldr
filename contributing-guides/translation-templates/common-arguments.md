@@ -20,7 +20,7 @@ Only the left-alignment of the header gets lost and has to be readded again (`|-
 | ja    |                      |                        |                                   |           |          |
 | ko    |                      |                        |                                   |           |          |
 | ml    |                      |                        |                                   |           |          |
-| nl    |                      |                        |                                   |           |          |
+| nl    | pad/naar/bestand     | pad/naar/directory     | pad/naar/bestand_of_directory     |           |          |
 | no    |                      |                        |                                   |           |          |
 | pl    |                      |                        |                                   |           |          |
 | pt_BR | caminho/para/arquivo | caminho/para/diretorio | caminho/para/arquivo_ou_diretorio | pacote    | usuário  |
