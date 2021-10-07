@@ -15,7 +15,7 @@
 
 `query user`
 
-- Display all user session on a remote computer:
+- Display all user sessions on a remote computer:
 
 `query session /server:{{hostname}}`
 
