@@ -16,7 +16,7 @@ Only the left-alignment of the header gets lost and has to be readded again (`|-
 | fr    |                      |                        |                                   |           |          |
 | hi    |                      |                        |                                   |           |          |
 | id    |                      |                        |                                   |           |          |
-| it    | percorso/del/file    | percorso/al/directory  | percorso/al/file_o_directory      | pacchetto | utente   |
+| it    | percorso/al/file    | percorso/al/directory  | percorso/al/file_o_directory      | pacchetto | utente   |
 | ja    |                      |                        |                                   |           |          |
 | ko    |                      |                        |                                   |           |          |
 | ml    |                      |                        |                                   |           |          |
