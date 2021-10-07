@@ -4,6 +4,7 @@
 > Input consists of plain text, troff formatting commands, troff macros,
 > and special graph formatting commands. Technically grap converts descriptions
 > of graphs into pictures, which then get rendered using pic and groff/troff.
+> See also `pic` and `groff`.
 > More information: <https://manned.org/grap>
 
 - Sample input for generating a scatter plot of 5 points:

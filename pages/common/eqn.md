@@ -3,6 +3,7 @@
 > Equation preprocessor for the groff (GNU Troff) document formatting system.
 > Input consists of plain text, troff formatting commands, troff macros,
 > and special equation formatting commands.
+> See also `troff` and `groff`.
 > More information: <https://manned.org/eqn>.
 
 - Sample input with both block and inline equations:

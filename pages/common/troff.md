@@ -4,6 +4,7 @@
 > Input can be plain text, text with embedded formatting commands, or text
 > with predefined formatting macros. Output must be converted to its final form
 > by a device-dependent post-processor.
+> See also `groff`.
 > More information: <https://manned.org/troff>
 
 - Trivial example input with no formatting:
