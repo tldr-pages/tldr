@@ -1,6 +1,6 @@
 # puppet
 
-> Puppet bietet tools an um das Infrastruktur-Management zu automatisieren.
+> Puppet bietet Tools an um das Infrastruktur-Management zu automatisieren.
 > Einige Unterbefehle wie `puppet agent` sind separat dokumentiert.
 > Weitere Informationen: <https://puppet.com/>.
 
