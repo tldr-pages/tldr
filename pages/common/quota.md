@@ -1,6 +1,7 @@
 # quota
 
 > Display users' disk space usage and allocated limits.
+> More information: <https://manned.org/quota>.
 
 - Show disk quotas in human-readable units for the current user:
 

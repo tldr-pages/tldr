@@ -1,7 +1,7 @@
 # echo
 
 > 与えられた引数を表示します。
-> 詳しくはこちら: <https://www.gnu.org/software/coreutils/echo>.
+> 詳しくはこちら: <https://www.gnu.org/software/coreutils/echo>
 
 - テキストメッセージを印刷する。備考: 引用符は任意:
 
