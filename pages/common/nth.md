@@ -5,7 +5,7 @@
 
 - Name a hash:
 
-`nth -t '5f4dcc3b5aa765d61d8327deb882cf99`
+`nth -t {{5f4dcc3b5aa765d61d8327deb882cf99}}`
 
 - Name hashes in a file:
 
