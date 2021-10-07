@@ -7,4 +7,3 @@
 - Insert an additional author to the last Git commit:
 
 `git coauthor {{name}} {{name@example.com}}`
-
