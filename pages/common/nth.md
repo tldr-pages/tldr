@@ -17,4 +17,4 @@
 
 - Decodes hashes in Base64 before indentification:
 
-`nth -t '5f4dcc3b5aa765d61d8327deb882cf99 -b64`
+`nth -t {{NWY0ZGNjM2I1YWE3NjVkNjFkODMyN2RlYjg4MmNmOTkK}} -b64`
