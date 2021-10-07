@@ -6,6 +6,7 @@ In order to notify the user that such sub-command pages exist, we put a little n
 This file contains the translation templates of this notice.
 
 [en](#en) •
+[ar](#ar) •
 [bs](#bs) •
 [da](#da) •
 [de](#de) •
@@ -42,6 +43,13 @@ Some subcommands such as `example command` have their own usage documentation.
 ```
 
 ---
+### ar
+
+```markdown
+بعض الأوامر الفرعية لديها توثيقات الاستخدام الخاصة بها مثل: `example command`
+```
+
+---
 ### bs
 
 Not translated yet
@@ -73,7 +81,9 @@ Not translated yet.
 ---
 ### fr
 
-Not translated yet.
+```markdown
+Certaines sous-commandes comme `example command` ont leur propre documentation.
+```
 
 ---
 ### hi
@@ -90,7 +100,9 @@ Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `examp
 ---
 ### it
 
-Not translated yet.
+```markdown
+Alcuni comandi aggiuntivi, come `example command`, hanno la propria documentazione.
+```
 
 ---
 ### ja
@@ -110,7 +122,9 @@ Not translated yet.
 ---
 ### nl
 
-Not translated yet.
+```markdown
+Sommige subcommando's zoals `example command` hebben een eigen documentatie pagina.
+```
 
 ---
 ### no
@@ -140,7 +154,7 @@ Not translated yet.
 ---
 ### ru
 
-Not translated yet.
+Некоторые подкоманды, такие как `example command`, имеют собственную документацию по использованию.
 
 ---
 ### sh

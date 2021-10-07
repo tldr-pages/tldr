@@ -1,24 +1,24 @@
 # git help
 
 > Afficher le manuel de Git.
-> Plus d'informations : <https://git-scm.com/docs/git-help>.
+> Plus d'informations : <https://git-scm.com/docs/git-help>.
 
-- Afficher le manuel d'une sous-commande :
+- Afficher le manuel d'une sous-commande :
 
 `git help {{subcommand}}`
 
-- Même chose dans un navigateur :
+- Même chose dans un navigateur :
 
 `git help --web {{subcommand}}`
 
-- Afficher la liste des sous-commandes disponibles :
+- Afficher la liste des sous-commandes disponibles :
 
 `git help --all`
 
-- Lister les manuels disponibles :
+- Lister les manuels disponibles :
 
 `git help --guide`
 
-- Lister toutes les variables de configuration disponibles :
+- Lister toutes les variables de configuration disponibles :
 
 `git help --config`
