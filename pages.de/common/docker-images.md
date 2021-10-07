@@ -19,6 +19,6 @@
 
 `docker images --filter dangling=true`
 
-- Liste alle Docker Images mit eine bestimmten Zeichenfolge im Namen auf:
+- Liste alle Docker Images mit einer bestimmten Zeichenfolge im Namen auf:
 
 `docker images "{{*name*}}"`

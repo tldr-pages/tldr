@@ -3,19 +3,19 @@
 > Führe Befehle in einem bereits laufenden Docker Container aus:
 > Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/exec/>.
 
-- Öffne eine Konsole innerhalb eines bereits laufenden Containers:
+- Öffne eine Shell innerhalb eines bereits laufenden Containers:
 
 `docker exec --interactive --tty {{container_name}} {{/bin/bash}}`
 
-- Führe einen Befehl im Hintegrund (losgelöst) in einem laufenden Container aus:
+- Führe einen Befehl im Hintergrund (losgelöst) in einem laufenden Container aus:
 
 `docker exec --detach {{container_name}} {{befehl}}`
 
-- Bestimme das Arbeitsverzeichnis, in welchem der Befehl ausgeführt werden soll:
+- Bestimme das Arbeitsverzeichnis, in dem der Befehl ausgeführt werden soll:
 
 `docker exec --interactive -tty --workdir {{pfad/zum/verzeichnis}} {{container_name}} {{befehl}}`
 
-- Führe einen Befehl im Hintergrund in einem laufenden Container aus, aber erhalte die Ausgabe:
+- Führe einen Befehl im Hintergrund in einem laufenden Container aus, aber lies von der Standardeingabe:
 
 `docker exec --interactive --detach {{container_name}} {{befehl}}`
 

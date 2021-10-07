@@ -7,7 +7,7 @@
 
 `docker-machine ls`
 
-- Erzeuge eine neue Docker Maschine und benenne sie:
+- Erzeuge eine neue Docker Maschine mit einem spezifischen Namen:
 
 `docker-machine create {{name}}`
 

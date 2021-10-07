@@ -1,6 +1,6 @@
 # docker-compose
 
-> Starte und Verwalte Docker Applikationen bestehend aus mehreren Containern.
+> Starte und verwalte Docker Applikationen bestehend aus mehreren Containern.
 > Weitere Informationen: <https://docs.docker.com/compose/reference/overview/>.
 
 - Liste zur Zeit laufende Container auf:
@@ -11,7 +11,7 @@
 
 `docker-compose up -d`
 
-- Starte alle Container und baue diese neu, wenn nötig:
+- Starte alle Container und baue sie neu, wenn nötig:
 
 `docker-compose up --build`
 
@@ -27,10 +27,10 @@
 
 `docker-compose down --rmi all --volumes`
 
-- Zeige die Logs aller Container an und aktualisiere sie automatisch:
+- Zeige die Logs aller Container kontinuierlich an:
 
 `docker-compose logs --follow`
 
-- Zeige die Logs eines bestimmten Containers an und aktualisiere sie automatisch:
+- Zeige die Logs eines spezifischen Containers kontinuierlich an:
 
 `docker-compose logs --follow {{container_name}}`

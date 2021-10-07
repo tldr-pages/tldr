@@ -3,11 +3,11 @@
 > Baut ein Image aus einem Dockerfile.
 > Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/build/>.
 
-- Baue ein Docker Image aus einem Dockerfile im aktuellen Verzeichnis:
+- Baue ein Docker Image aus dem Dockerfile im aktuellen Verzeichnis:
 
 `docker build .`
 
-- Baue ein Docker Image aus einem Dockerfile von einer angegebenen URL:
+- Baue ein Docker Image aus einem Dockerfile an einer angegebenen URL:
 
 `docker build {{github.com/creack/docker-firefox}}`
 

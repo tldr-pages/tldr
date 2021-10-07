@@ -7,15 +7,15 @@
 
 `docker container ls`
 
-- Starte einen oder mehr gestoppte Container:
+- Starte einen oder mehrere gestoppte Container:
 
 `docker container start {{container1_name}} {{container2_name}}`
 
-- Beende einen oder mehr laufende Container sofort:
+- Beende einen oder mehrere laufende Container sofort:
 
 `docker container kill {{container_name}}`
 
-- Stoppe einen oder mehr laufende Container:
+- Stoppe einen oder mehrere laufende Container:
 
 `docker container stop {{container_name}}`
 

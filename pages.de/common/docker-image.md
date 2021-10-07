@@ -16,6 +16,6 @@
 
 `docker image prune --all`
 
-- Zeige die Historie eines lokalen Docker Images:
+- Zeige die Geschichte eines lokalen Docker Images:
 
 `docker image history {{image}}`

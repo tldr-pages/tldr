@@ -1,13 +1,13 @@
 # docker rmi
 
-> Lösche ein oder mehrere Docker Images.
+> Lösche eines oder mehrere Docker Images.
 > Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/rmi/>.
 
 - Zeige Hilfe:
 
 `docker rmi`
 
-- Lösche ein oder mehrere Docker Images anhand der angegebenen Namen:
+- Lösche eines oder mehrere Docker Images anhand der angegebenen Namen:
 
 `docker rmi {{image1 image2 ...}}`
 

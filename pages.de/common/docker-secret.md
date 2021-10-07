@@ -15,10 +15,10 @@
 
 `docker secret ls`
 
-- Zeige detaillierte Informationen zu einem oder mehreren Secrets in einem für Menschen lesbaren Format:
+- Zeige detaillierte Informationen zu einem oder mehreren Secrets in einem menschenlesbaren Format:
 
 `docker secret inspect --pretty {{secret_name1 secret_name2 ...}}`
 
-- Lösche ein oder mehrere Secrets:
+- Lösche eines oder mehrere Secrets:
 
 `docker secret rm {{secret_name1 secret_name2 ...}}`
