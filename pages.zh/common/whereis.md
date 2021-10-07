@@ -1,6 +1,7 @@
 # whereis
 
 > 找到命令的二进制，源文件和手册文件。
+> 更多信息：<https://manned.org/whereis>.
 
 - 找到 `ssh` 命令的二进制、源文件和手册页：
 
