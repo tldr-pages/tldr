@@ -3,7 +3,7 @@
 > Retrieves the client configuration from the Puppet server and applies it to the local host.
 > More information: <https://puppet.com/docs/puppet/7/man/agent.html>.
 
-- Register the node at the puppetserver and apply the received catalog:
+- Register a node at a puppetserver and apply the received catalog:
 
 `puppet agent --test --server {{puppetserver_fqdn}} --serverport {{port}} --waitforcert {{poll_time}}`
 
