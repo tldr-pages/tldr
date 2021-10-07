@@ -3,7 +3,7 @@
 > Displays information about user sessions and process.
 > More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/query>.
 
-- Display current user sessions:
+- Display all user sessions:
 
 `query session`
 
@@ -15,7 +15,7 @@
 
 `query user`
 
-- Display logged in users on a remote computer:
+- Display all user session on a remote computer:
 
 `query session /server:{{hostname}}`
 
