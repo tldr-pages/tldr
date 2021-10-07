@@ -1,0 +1,20 @@
+# nth
+
+> Name That Hash - Instantly name the type of any hash!
+> More information: <https://github.com/hashpals/name-that-hash>.
+
+- Name a hash:
+
+`nth -t '5f4dcc3b5aa765d61d8327deb882cf99`
+
+- Name hashes in a file:
+
+`nth -f hash`
+
+- Output in json format:
+
+`nth -t '5f4dcc3b5aa765d61d8327deb882cf99 --greppable`
+
+- Decodes hashes in Base64 before indentification:
+
+`nth -t '5f4dcc3b5aa765d61d8327deb882cf99 -b64`
