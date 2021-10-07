@@ -1,10 +1,10 @@
-# groff
+# troff
 
-> Typesetting program that reads plain text mixed with formatting commands
-> and produces formatted output.
-> It is the GNU replacement for the `troff` and `nroff` Unix command for text
-> formatting.
-> More information: <https://www.gnu.org/software/groff>
+> Typesetting processor for the groff (GNU Troff) document fomatting system.
+> Input can be plain text, text with embedded formatting commands, or text
+> with predefined formatting macros. Output must be converted to its final form
+> by a device-dependent post-processor.
+> More information: <https://manned.org/troff>
 
 - Trivial example input with no formatting:
 
@@ -44,21 +44,25 @@ This is a second paragraph.
 
 - Format output for a PostScript printer, saving the output to a file:
 
-`groff {{input_file}} > {{output_file.ps}}`
+```
+troff {{input_file}} | grops > {{output_file.ps}}
+```
 
-- Render a man page using the ASCII output device, and display it using a pager:
 
-`groff -man -T ascii {{manpage.1}} | less`
+- Format output for a PostScript printer using the [me] macro package,
+  saving the output to a file:
 
-- Render a man page into an HTML file:
+```
+troff -{{me}} {{input_file}} | grops > {{output_file.ps}}
+```
 
-`groff -man -T html {{manpage.1}} > {{page.html}}`
+- Format output as [a]SCII text using the [man] macro package:
 
-- Process a roff file using the `tbl` and `pic` preprocessors, and the `me`
-  macro set, to PDF, saving the output to a file:
+```
+troff -T {{ascii}} -{{man}} {{input_file}} | grotty
+```
 
-`groff -t -p -me -T pdf {{foo.me}} > {{foo.pdf}}`
+- Format output as a [pdf] file, saving the output to a file:
 
-- Run a `groff` command with preprocessor and macro options guessed by the `grog` utility:
+`troff -T {{pdf}} {{input_file}} | gropdf > {{output_file.pdf}}`
 
-`eval "$(grog -T utf8 {{foo.me}})"`
