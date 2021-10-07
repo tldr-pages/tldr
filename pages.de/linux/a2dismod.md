@@ -3,7 +3,7 @@
 > Deaktiviert ein Apache Modul auf Debian-basierten Betriebssystemen.
 > Weitere Informationen: <https://manpages.debian.org/latest/apache2/a2dismod.8.en.html>.
 
-- Modul deaktivieren:
+- Deaktiviere ein Modul:
 
 `sudo a2dismod {{modul}}`
 
