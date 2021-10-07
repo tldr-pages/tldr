@@ -11,7 +11,7 @@
 
 `sudo a2query -m {{modulname}}`
 
-- Zeigt aktivierte virtuelle Hosts:
+- Zeige aktivierte virtuelle Hosts an:
 
 `sudo a2query -s`
 
