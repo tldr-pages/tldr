@@ -5,8 +5,8 @@
 
 - Modul aktivieren:
 
-`sudo a2enmod {{module}}`
+`sudo a2enmod {{modul}}`
 
-- Keine Informationsmeldungen anzeigen:
+- Zeige keine Informationsnachrichten an:
 
-`sudo a2enmod --quiet {{module}}`
+`sudo a2enmod --quiet {{modul}}`

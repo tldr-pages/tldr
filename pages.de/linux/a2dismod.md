@@ -5,8 +5,8 @@
 
 - Modul deaktivieren:
 
-`sudo a2dismod {{module}}`
+`sudo a2dismod {{modul}}`
 
-- Keine Informationsmeldungen anzeigen:
+- Zeige keine Informationsnachrichten an:
 
-`sudo a2dismod --quiet {{module}}`
+`sudo a2dismod --quiet {{modul}}`

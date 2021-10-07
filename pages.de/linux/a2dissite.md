@@ -5,8 +5,8 @@
 
 - Virtuellen Host deaktivieren:
 
-`sudo a2dissite {{virtual_host}}`
+`sudo a2dissite {{virtueller_host}}`
 
-- Keine Informationsmeldungen anzeigen:
+- Zeige keine Informationsnachrichten an:
 
-`sudo a2dissite --quiet {{virtual_host}}`
+`sudo a2dissite --quiet {{virtueller_host}}`

@@ -5,8 +5,8 @@
 
 - Virtuellen Host aktivieren:
 
-`sudo a2ensite {{virtual_host}}`
+`sudo a2ensite {{virtueller_host}}`
 
-- Keine Informationsmeldungen anzeigen:
+- Zeige keine Informationsnachrichten an:
 
-`sudo a2ensite --quiet {{virtual_host}}`
+`sudo a2ensite --quiet {{virtueller_host}}`
