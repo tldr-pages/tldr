@@ -11,6 +11,6 @@
 
 `xwinwrap -b -nf -fs -ov -o 0.8 --- mpv -wid WID --loop --no-audio --no-resume-playback --panscan=1.0 video.mp4`
 
-- Run 2 videos using mpv in 1920x1080 and 1600x900 monitors:
-`xwinwrap -g 1920x1080 -b -nf -ov -- mpv -wid WID --loop --no-audio --no-resume-playback --panscan=1.0 video_1.mp4`
-`xwinwrap -g 1600x900+1920 -b -nf -ov -- mpv -wid WID --loop --no-audio --no-resume-playback --panscan=1.0 video_2.mkv`
+- Run a video using mpv in a second monitor 1600x900 with 1920 offset on X-axis:
+
+`xwinwrap -g 1600x900+1920 -b -nf -ov -- mpv -wid WID --loop --no-audio --no-resume-playback --panscan=1.0 video.mkv`
