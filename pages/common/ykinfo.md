@@ -1,6 +1,6 @@
 # ykinfo
 
-> Get basic information from a YubiKey
+> Get basic information from a YubiKey.
 > More information: <https://developers.yubico.com/yubikey-personalization/Manuals/ykinfo.1.html>.
 
 - Get all information from YubiKey:
