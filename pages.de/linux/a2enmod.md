@@ -3,7 +3,7 @@
 > Aktiviert ein Apache Modul auf Debian-basierten Betriebssystemen.
 > Weitere Informationen: <https://manpages.debian.org/latest/apache2/a2enmod.8.en.html>.
 
-- Modul aktivieren:
+- Aktiviere ein Modul:
 
 `sudo a2enmod {{modul}}`
 
