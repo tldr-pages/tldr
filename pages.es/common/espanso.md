@@ -1,6 +1,6 @@
 # espanso
 
-> Espanso de texto multiplataforma escrito en Rust.
+> Expansor de texto multiplataforma escrito en Rust.
 > Más información: <https://espanso.org>.
 
 - Comprueba el estado de Espanso:
