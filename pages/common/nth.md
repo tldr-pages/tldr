@@ -1,6 +1,6 @@
 # nth
 
-> Name That Hash - Instantly name the type of any hash!
+> Name That Hash - Instantly name the type of any hash.
 > More information: <https://github.com/hashpals/name-that-hash>.
 
 - Name a hash:
