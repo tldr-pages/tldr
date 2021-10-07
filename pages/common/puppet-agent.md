@@ -11,7 +11,7 @@
 
 `puppet agent`
 
-- Run the agent once in foreground, then exit:
+- Run the agent once in the foreground, then exit:
 
 `puppet agent --test`
 
