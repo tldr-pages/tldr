@@ -11,6 +11,10 @@
 
 `sbt new {{scala/hello-world.g8}}`
 
+- Compile and run all tests:
+
+`sbt test`
+
 - Delete all generated files in the `target` directory:
 
 `sbt clean`
