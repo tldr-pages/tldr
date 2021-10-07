@@ -7,7 +7,7 @@
 
 `fsutil volume list`
 
-- Displays information about a volume‘s file system:
+- Display information about a volume‘s file system:
 
 `fsutil fsInfo volumeInfo {{drive_letter|volume_path}}`
 
