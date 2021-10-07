@@ -7,7 +7,7 @@
 
 `puppet agent --test --server {{puppetserver_fqdn}} --serverport {{port}} --waitforcert {{poll_time}}`
 
-- Run the agent in the background (uses settings from `/opt/puppetlabs/puppet/puppet.conf`):
+- Run the agent in the background (uses settings from `puppet.conf`):
 
 `puppet agent`
 
