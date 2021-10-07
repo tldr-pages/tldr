@@ -13,8 +13,8 @@
 
 - Tampilkan nama file dari direktori saat ini:
 
-`dir /f`
+`tree /f`
 
 - Tampilkan struktur dari direktori saat ini dalam bentuk teks alih-alih karakter grafis:
 
-`dir /a`
+`tree /a`
