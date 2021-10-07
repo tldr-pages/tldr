@@ -15,6 +15,6 @@
 
 `nth -t {{5f4dcc3b5aa765d61d8327deb882cf99}} -g`
 
-- Decode hashe in Base64 before name it:
+- Decode hash in Base64 before name it:
 
 `nth -t {{NWY0ZGNjM2I1YWE3NjVkNjFkODMyN2RlYjg4MmNmOTkK}} -b64`
