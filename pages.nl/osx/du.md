@@ -25,4 +25,4 @@
 
 - Toont de grootte in leesbare vorm van alle `.jpg` bestanden in sub-directories van de huidige directory en laat een cumulatief totaal zien op het eind:
 
-`du -ch */*.jpg`
+`du -ch {{*/*.jpg}}`
