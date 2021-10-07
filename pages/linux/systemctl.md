@@ -31,10 +31,6 @@
 
 `systemctl daemon-reload`
 
-- Check if a unit is active:
-
-`systemctl is-active {{unit}}`
-
 - Check if a unit is enabled:
 
 `systemctl is-enabled {{unit}}`
