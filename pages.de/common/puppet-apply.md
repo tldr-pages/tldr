@@ -3,7 +3,7 @@
 > Wende ein Puppet-Manifest lokal an.
 > Weitere Informationen: <https://puppet.com/docs/puppet/7/man/apply.html>.
 
-- Wende das Manifest an:
+- Wende ein Manifest an:
 
 `puppet apply {{pfad/zum/manifest}}`
 
