@@ -15,6 +15,6 @@
 
 `dir /f`
 
-- Tampilkan struktur grafis dari direktori saat ini dalam bentuk ASCII:
+- Tampilkan struktur dari direktori saat ini dalam bentuk teks alih-alih karakter grafis:
 
 `dir /a`
