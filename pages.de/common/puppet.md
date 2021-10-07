@@ -4,7 +4,7 @@
 > Einige Unterbefehle wie `puppet agent` sind separat dokumentiert.
 > Weitere Informationen: <https://puppet.com/>.
 
-- Gib die installierte Puppet Version aus:
+- Gib die installierte Version von Puppet aus:
 
 `puppet --version`
 
