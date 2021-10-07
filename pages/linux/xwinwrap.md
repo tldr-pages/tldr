@@ -1,6 +1,6 @@
 # xwinwrap
 
-> Run a player or a program as a background
+> Run a player or a program as background.
 > More information: <https://github.com/ujjwal96/xwinwrap>.
 
 - Run a fullscreen video using mpv:
