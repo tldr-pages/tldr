@@ -9,7 +9,7 @@
 
 - Name hashes in a file:
 
-`nth -f hash`
+`nth -f {{path/to/hashes}}`
 
 - Output in json format:
 
