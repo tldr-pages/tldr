@@ -19,6 +19,6 @@
 
 `sudo a2query -M`
 
-- Zeigt die Apache Versionsnummer:
+- Zeige die Apache Versionsnummer an:
 
 `sudo a2query -v`
