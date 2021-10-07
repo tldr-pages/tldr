@@ -14,7 +14,7 @@
 
 - Execute um script:
 
-`sh {{caminho/do/script.sh}}`
+`sh {{caminho/para/script.sh}}`
 
 - Leia e execute comandos da entrada stdin (entrada padrão):
 

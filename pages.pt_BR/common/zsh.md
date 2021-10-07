@@ -14,11 +14,11 @@
 
 - Execute um script:
 
-`zsh {{caminho/do/script.zsh}}`
+`zsh {{caminho/para/script.zsh}}`
 
 - Execute um script, imprimindo cada comando antes de executá-lo:
 
-`zsh --xtrace {{caminho/do/script.zsh}}`
+`zsh --xtrace {{caminho/para/script.zsh}}`
 
 - Inicie uma sessão shell interativa no modo verboso, imprimindo cada comando antes de executá-lo:
 
