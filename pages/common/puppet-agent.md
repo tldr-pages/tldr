@@ -19,6 +19,6 @@
 
 `puppet agent --test --noop`
 
-- Log every resource being evaluated (even if nothing is changed):
+- Log every resource being evaluated (even if nothing is being changed):
 
 `puppet agent --test --evaltrace`
