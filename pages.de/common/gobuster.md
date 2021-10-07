@@ -25,4 +25,4 @@
 
 - Fuzze den Namen eines URL-Parameters
 
-`gobuster fuzz --url {{https://beispiel.com/?FUZZ=value}} --wordlist {{pfad/zu/datei}}`
+`gobuster fuzz --url {{https://beispiel.com/?FUZZ=wert}} --wordlist {{pfad/zu/datei}}`
