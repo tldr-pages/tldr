@@ -3,7 +3,7 @@
 > Aktiviert einen Apache virtuellen Host auf Debian-basierten Betriebssystemen.
 > Weitere Informationen: <https://manpages.debian.org/latest/apache2/a2ensite.8.en.html>.
 
-- Virtuellen Host aktivieren:
+- Aktiviere einen virtuellen Host:
 
 `sudo a2ensite {{virtueller_host}}`
 
