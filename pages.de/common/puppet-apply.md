@@ -11,6 +11,6 @@
 
 `puppet apply --execute {{code}}`
 
-- Nutze ein spezifisches Modul- und Hieraverzeichnis:
+- Nutze ein spezifisches Modulverzeichnis und Hiera-Konfigurationsdatei:
 
-`puppet apply --modulepath {{pfad/zum/ordner}} --hiera_data {{pfad/zum/ordner}} {{pfad/zum/manifest}}`
+`puppet apply --modulepath {{pfad/zum/ordner}} --hiera_config {{pfad/zur/datei}} {{pfad/zum/manifest}}`
