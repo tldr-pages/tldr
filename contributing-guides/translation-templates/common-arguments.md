@@ -5,32 +5,32 @@ The best way to edit this file is by using [tableconvert.com](https://tableconve
 There, the old table can be **imported**, **edited** in a WYSIWYG editor and **exported** again.  
 Only the left-alignment of the header gets lost and has to be readded again (`|----` → `|:---`).
 
-| en    | path/to/file       | path/to/directory    | path/to/file_or_directory      | package | user     |
-|-------|--------------------|----------------------|--------------------------------|---------|----------|
-| ar    |                    |                      |                                |         |          |
-| bs    |                    |                      |                                |         |          |
-| da    |                    |                      |                                |         |          |
-| de    | pfad/zu/datei      | pfad/zu/verzeichnis  | pfad/zu/datei_oder_verzeichnis | paket   | benutzer |
-| es    | ruta/al/archivo    | ruta/al/directorio   | ruta/al/archivo_o_directorio   | paquete | usuario  |
-| fa    |                    |                      |                                |         |          |
-| fr    |                    |                      |                                |         |          |
-| hi    |                    |                      |                                |         |          |
-| id    |                    |                      |                                |         |          |
-| it    |                    |                      |                                |         |          |
-| ja    |                    |                      |                                |         |          |
-| ko    |                    |                      |                                |         |          |
-| ml    |                    |                      |                                |         |          |
-| nl    |                    |                      |                                |         |          |
-| no    |                    |                      |                                |         |          |
-| pl    |                    |                      |                                |         |          |
-| pt_BR | caminho/do/arquivo | caminho/do/diretorio |                                | pacote  | usuário  |
-| pt_PT |                    |                      |                                |         |          |
-| ro    |                    |                      |                                |         |          |
-| ru    |                    |                      |                                |         |          |
-| sh    |                    |                      |                                |         |          |
-| sv    |                    |                      |                                |         |          |
-| ta    |                    |                      |                                |         |          |
-| th    |                    |                      |                                |         |          |
-| tr    |                    |                      |                                |         |          |
-| zh    |                    |                      |                                |         |          |
-| zh_TW |                    |                      |                                |         |          |
+| en    | path/to/file         | path/to/directory      | path/to/file_or_directory         | package   | user     |
+|-------|----------------------|------------------------|-----------------------------------|-----------|----------|
+| ar    |                      |                        |                                   |           |          |
+| bs    |                      |                        |                                   |           |          |
+| da    |                      |                        |                                   |           |          |
+| de    | pfad/zu/datei        | pfad/zu/verzeichnis    | pfad/zu/datei_oder_verzeichnis    | paket     | benutzer |
+| es    | ruta/al/archivo      | ruta/al/directorio     | ruta/al/archivo_o_directorio      | paquete   | usuario  |
+| fa    |                      |                        |                                   |           |          |
+| fr    |                      |                        |                                   |           |          |
+| hi    |                      |                        |                                   |           |          |
+| id    |                      |                        |                                   |           |          |
+| it    | percorso/del/file    | percorso/al/directory  | percorso/al/file_o_directory      | pacchetto | utente   |
+| ja    |                      |                        |                                   |           |          |
+| ko    |                      |                        |                                   |           |          |
+| ml    |                      |                        |                                   |           |          |
+| nl    |                      |                        |                                   |           |          |
+| no    |                      |                        |                                   |           |          |
+| pl    |                      |                        |                                   |           |          |
+| pt_BR | caminho/para/arquivo | caminho/para/diretorio | caminho/para/arquivo_ou_diretorio | pacote    | usuário  |
+| pt_PT |                      |                        |                                   |           |          |
+| ro    |                      |                        |                                   |           |          |
+| ru    | путь/до/файла        | путь/до/папки          | путь/до/файла_или_папки           |           |          |
+| sh    |                      |                        |                                   |           |          |
+| sv    |                      |                        |                                   |           |          |
+| ta    |                      |                        |                                   |           |          |
+| th    |                      |                        |                                   |           |          |
+| tr    |                      |                        |                                   |           |          |
+| zh    |                      |                        |                                   |           |          |
+| zh_TW |                      |                        |                                   |           |          |
