@@ -7,7 +7,7 @@
 
 `sudo a2query -m`
 
-- Prüft, ob ein bestimmtes Modul installiert ist:
+- Prüfe, ob ein bestimmtes Modul installiert ist:
 
 `sudo a2query -m {{modulname}}`
 
