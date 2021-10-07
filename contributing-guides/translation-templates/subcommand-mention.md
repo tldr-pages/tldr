@@ -81,7 +81,9 @@ Not translated yet.
 ---
 ### fr
 
-Not translated yet.
+```markdown
+Certaines sous-commandes comme `example command` ont leur propre documentation.
+```
 
 ---
 ### hi
