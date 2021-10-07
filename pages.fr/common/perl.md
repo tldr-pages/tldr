@@ -9,7 +9,7 @@
 
 - Vérifier la syntaxe sans exécuter le programme :
 
-`perl -c {{programme}}`
+`perl -c {{fichier.pl}}`
 
 - Exécuter une expression Perl :
 
@@ -17,7 +17,7 @@
 
 - Lancer le programme avec le debugger Perl :
 
-`perl -d {{programme}}`
+`perl -d {{fichier.pl}}`
 
 - Itérer sur toutes les lignes d'un fichier, en les modifiant sur place en utilisant une expression de recherche et de remplacement :
 
