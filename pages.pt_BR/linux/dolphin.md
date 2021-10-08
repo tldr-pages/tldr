@@ -1,4 +1,3 @@
-
 # dolphin
 
 > Gerenciador de arquivos do KDE.
@@ -31,4 +30,3 @@
 - Exibe log de ajuda (em inglês):
 
 `dolphin --help`
-
