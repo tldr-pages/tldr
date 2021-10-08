@@ -4,31 +4,31 @@
 > Gerenciador de arquivos do KDE.
 > Para mais informações: https://apps.kde.org/pt-br/dolphin/#
 
-- Inicializar o Dolphin:
+- Inicializa o Dolphin:
 
 `dolphin`
 
-- Inicializar o Dolphin em um diretório específico:
+- Inicializa o Dolphin em um diretório específico:
 
-`dolphin {{caminho/do/diretório}}`
+`dolphin {{caminho/para/diretório}}`
 
-- Inicializar o Dolphin com um arquivo ou diretório específico:
+- Inicializa o Dolphin com um arquivo ou diretório específico:
 
-`dolphin --select {{caminho/do/arquivo-ou-diretório}}`
+`dolphin --select {{caminho/para/arquivo-ou-diretório}}`
 
-- Inicializar o Dolphin em uma janela separada:
+- Inicializa o Dolphin em uma janela separada:
 
 `dolphin --new-window`
 
-- Inicializar o Dolphin no modo de divisão de tela:
+- Inicializa o Dolphin no modo de divisão de tela:
 
-`dolphin --split {{caminho/diretório1}} {{caminho/diretório2}}`
+`dolphin --split`
 
-- Inicializar o deamon do Dolphin:
+- Inicializa o daemon do Dolphin (necessário apenas para usar a interface do DBus):
 
 `dolphin --daemon`
 
-- Exibir log de ajuda (em inglês):
+- Exibe log de ajuda (em inglês):
 
 `dolphin --help`
 
