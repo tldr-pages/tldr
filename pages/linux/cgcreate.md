@@ -14,7 +14,7 @@
 
 - Create a new group with multiple cgroup types:
 
-`cgcreate -g {{groupType1}},{{groupType2}}:{{groupName}}`
+`cgcreate -g {{group_type1}},{{group_type2}}:{{group_name}}`
 
 - To create subgroups:
 
