@@ -13,7 +13,7 @@
 
 - Execute um programa `.jar`, com o debugger tentando conectar-se na porta 5005:
 
-`java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {{nome_do_jar.jar}}`
+`java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {{arquivo.jar}}`
 
 - Exiba a versão do JDK, JRE e Hotspot:
 
