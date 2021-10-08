@@ -16,6 +16,6 @@
 
 `cgcreate -g {{group_type1}},{{group_type2}}:{{group_name}}`
 
-- To create subgroups:
+- Create a subgroup:
 
 `mkdir /sys/fs/cgroup/{{groupType}}/{{groupName}}/{{subgroupName}}`
