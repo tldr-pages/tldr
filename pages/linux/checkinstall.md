@@ -21,4 +21,4 @@
 
 - Create the package and specify where to save it:
 
-'sudo checkinstall --pakdir {{directory}}'
+'sudo checkinstall --pakdir {{path/to/<placeholder>}}'
