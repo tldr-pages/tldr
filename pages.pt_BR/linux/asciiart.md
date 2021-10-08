@@ -7,7 +7,7 @@
 
 `asciiart {{caminho/para/imagem.jpg}}`
 
-- Le uma imagem de uma URL e imprime em ASCII:
+- Lê uma imagem de uma URL e imprime em ASCII:
 
 `asciiart {{www.exemplo.com/imagem.jpg}}`
 
