@@ -10,7 +10,7 @@
 
 - Format a specific Go package in your import path (`$GOPATH/src`):
 
-`go fmt {{package}}`
+`go fmt {{path/to/package}}`
 
 - Format the package in the current directory and all subdirectories (note the `...`):
 
