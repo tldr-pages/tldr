@@ -7,7 +7,7 @@
 
 `puppet apply {{path/to/manifest}}`
 
-- Execute puppet code from the commandline:
+- Execute puppet code:
 
 `puppet apply --execute {{code}}`
 
