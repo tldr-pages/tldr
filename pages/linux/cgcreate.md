@@ -12,7 +12,7 @@
 
 `cgcreate -g {{group_type}}:{{group_name}}`
 
-- To create a new group with multiple croup types:
+- Create a new group with multiple cgroup types:
 
 `cgcreate -g {{groupType1}},{{groupType2}}:{{groupName}}`
 
