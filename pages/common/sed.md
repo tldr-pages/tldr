@@ -36,4 +36,5 @@
 `sed 's#{{find}}#{{replace}}#' {{filename}}`
 
 - Remove ANSI Color Codes:
- `sed 's/\x1b\[[0-9;]*m//g' filename`
+
+`sed 's/\x1b\[[0-9;]*m//g' filename`
