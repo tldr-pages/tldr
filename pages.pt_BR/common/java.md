@@ -3,7 +3,7 @@
 > Inicializador de Programas Java.
 > Mais informações: <https://java.com>.
 
-- Execute um arquivo Java `.class` que contém um método main, usando o nome da classe:
+- Executa um arquivo Java `.class` que contém um método main, usando o nome da classe:
 
 `java {{nome_da_classe}}`
 
