@@ -1,24 +1,24 @@
 # checkinstall
 
-> Track the local installation of a software package, and produce a binary package which can be managed via your native package manager.
+> Track the local installation of a software package, and produce a binary package which can be used with a system's native package manager.
 > More information: <http://checkinstall.izto.org/>.
 
-- Create and install the package with default settings:
+- Create and install a package with default settings:
 
 `sudo checkinstall -y`
 
-- Create the package but do not install:
+- Create a package but don't install it:
 
 `sudo checkinstall --install=no`
 
-- Create the package without docs:
+- Create the package without documentation:
 
 `sudo checkinstall --nodoc`
 
-- Create the package and set the name:
+- Create a package and set the name:
 
 `sudo checkinstall --pkgname {{package}}`
 
-- Create the package and specify where to save it:
+- Create a package and specify where to save it:
 
-`sudo checkinstall --pakdir {{path/to/<placeholder>}}`
+`sudo checkinstall --pakdir {{path/to/directory}}`
