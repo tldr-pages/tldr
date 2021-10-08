@@ -8,7 +8,7 @@
 
 `apt install cgroup-lite cgroup-tools`
 
-- To create a new group use:
+- Create a new group:
 
 `cgcreate -g {{groupType}}:{{groupName}}`
 
