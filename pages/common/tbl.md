@@ -9,7 +9,7 @@
   Note that the input contains hard tab characters between columns, not spaces,
   and that the contents on different rows do not always line up:
 
-```
+```troff
 .TS
 l c r n.
 left-aligned	centered	right-aligned	numeric
@@ -21,7 +21,7 @@ text	text	text	123.45
   a header that spans multiple columns, special formatting for header rows and
   columns, and drawing lines between headers and the main table data:
 
-```
+```troff
 .TS
 tab({{@}});
 cb s s s
@@ -43,7 +43,7 @@ More bold@more centered@more right text@67.890
 - Process input containing a table and typeset the result to [PDF] with groff
   using the [me] macro package, saving the output to a file:
 
-```
+```troff
 tbl -T {{pdf}} {{input_file}} | groff -{{me}} -T {{pdf}} > {{outputfile.pdf}}
 # OR
 groff -t -T {{pdf}} -{{me}} {{input_file}} > {{outputfile.pdf}}

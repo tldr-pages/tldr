@@ -15,7 +15,7 @@ A blank line is treated as a paragraph break.
 
 - Example input with a few basic formatting commands:
 
-```
+```troff
 .ce {{1}}       \" center the next 1 line
 This line is centered
 .sp {{0.5}}     \" skip {{0.5 lines}} of vertical space
@@ -29,7 +29,7 @@ This is a second "paragraph".
 
 - Example input using the [me] macro package:
 
-```
+```troff
 .ce {{1}}       \" raw troff commands still work
 This line is centered
 .pp
