@@ -13,7 +13,7 @@
 
 - Zeige die Commits von bestimmten Dateien oder Verzeichnissen:
 
-`tig {{path1 path2 …}}`
+`tig {{pfad1 pfad2 …}}`
 
 - Zeige die Unterschiede zwischen zwei Referenzen (wie z.B. Branches oder Tags):
 
