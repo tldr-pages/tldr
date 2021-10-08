@@ -9,7 +9,7 @@
 
 - Execute um programa `.jar`:
 
-`java -jar {{nome_do_jar.jar}}`
+`java -jar {{arquivo.jar}}`
 
 - Execute um programa `.jar`, com o debugger tentando conectar-se na porta 5005:
 
