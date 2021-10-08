@@ -5,20 +5,20 @@
 
 - Create and install the package with default settings:
 
-`checkinstall -y`
+`sudo checkinstall -y`
 
 - Create the package but do not install:
 
-`checkinstall --install=no`
+`sudo checkinstall --install=no`
 
 - Create the package without docs:
 
-`checkinstall --nodoc`
+`sudo checkinstall --nodoc`
 
 - Create the package and set the name:
 
-'checkinstall --pkgname {{package}}'
+'sudo checkinstall --pkgname {{package}}'
 
 - Create the package and specify where to save it:
 
-'checkinstall --pakdir {{directory}}'
+'sudo checkinstall --pakdir {{directory}}'
