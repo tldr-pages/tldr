@@ -16,7 +16,7 @@
 
 `go fmt {{./...}}`
 
-- Print what format commands would've been run:
+- Print what format commands would've been run, without modifying anything:
 
 `go fmt -n`
 
