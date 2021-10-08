@@ -2,7 +2,7 @@
 
 > Event Monitor service that accepts events from various services, runs them through a simple rules engine, and takes action.
 > The actions can run commands, send email, or SMS messages.
-> More information: <https://www.xorrior.com/emond-persistence/>
+> More information: <https://www.xorrior.com/emond-persistence/>.
 
 - Start the daemon:
 
