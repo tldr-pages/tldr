@@ -1,6 +1,7 @@
 # choco new
 
 > 使用 Chocolatey 生成新的包规范文件。
+> 更多信息：<https://chocolatey.org/docs/commands-new>.
 
 - 创建一个新的包框架：
 

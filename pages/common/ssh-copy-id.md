@@ -1,6 +1,7 @@
 # ssh-copy-id
 
 > Install your public key in a remote machine's authorized_keys.
+> More information: <https://manned.org/ssh-copy-id>.
 
 - Copy your keys to the remote machine:
 

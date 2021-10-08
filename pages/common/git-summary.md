@@ -16,6 +16,6 @@
 
 `git summary --dedup-by-email`
 
-- Display data about a Git repository, showing the number of lines modified by each contributer:
+- Display data about a Git repository, showing the number of lines modified by each contributor:
 
 `git summary --line`

@@ -5,20 +5,20 @@
 
 - Exibir as informações referentes a senha do usuário:
 
-`chage -l {{nome_do_usuario}}`
+`chage --list {{nome_do_usuario}}`
 
 - Habilitar a expiração da senha do usuário em 10 dias:
 
-`sudo chage -M {{10}} {{nome_do_usuario}}`
+`sudo chage --maxdays {{10}} {{nome_do_usuario}}`
 
 - Desabilitar a expiração da senha do usuário:
 
-`sudo chage -M -1 {{nome_do_usuario}}`
+`sudo chage --maxdays {{-1}} {{nome_do_usuario}}`
 
 - Definir a data de expiração da conta do usuário:
 
-`sudo chage -E {{YYYY-MM-DD}}`
+`sudo chage --expiredate {{YYYY-MM-DD}} {{nome_do_usuario}}`
 
 - Obrigar o usuário a alterar sua senha no próximo login:
 
-`sudo chage -d 0`
+`sudo chage --lastday {{0}} {{nome_do_usuario}}`

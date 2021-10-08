@@ -3,7 +3,7 @@
 > Subdomain and directory discovery tool.
 > More information: <https://github.com/ffuf/ffuf>.
 
-- Discover directories using a [w]ordlist on a target [u]rl with [c]olorized and [v]erbose ouput:
+- Discover directories using a [w]ordlist on a target [u]rl with [c]olorized and [v]erbose output:
 
 `ffuf -w {{path/to/wordlist}} -u {{https://target/FUZZ}} -c -v`
 

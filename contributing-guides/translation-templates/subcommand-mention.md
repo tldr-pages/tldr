@@ -1,11 +1,12 @@
 # Mentioning sub-commands
 
-When a command has a sub-command, which can't be covered in the original page, it get's its own page.
+When a command has a sub-command, which can't be covered in the original page, it gets its own page.
 An example for this is `git` and it's sub-command pages like `git-commit`, `git-push`, etc.
 In order to notify the user that such sub-command pages exist, we put a little notice in the base command's description.
 This file contains the translation templates of this notice.
 
 [en](#en) •
+[ar](#ar) •
 [bs](#bs) •
 [da](#da) •
 [de](#de) •
@@ -30,6 +31,7 @@ This file contains the translation templates of this notice.
 [ta](#ta) •
 [th](#th) •
 [tr](#tr) •
+[uk](#uk) •
 [zh](#zh) •
 [zh_TW](#zh_tw)
 
@@ -38,6 +40,13 @@ This file contains the translation templates of this notice.
 
 ```markdown
 Some subcommands such as `example command` have their own usage documentation.
+```
+
+---
+### ar
+
+```markdown
+بعض الأوامر الفرعية لديها توثيقات الاستخدام الخاصة بها مثل: `example command`
 ```
 
 ---
@@ -61,7 +70,7 @@ Manche Unterbefehle wie `example command` sind separat dokumentiert.
 ### es
 
 ```markdown
-Este comando también tiene documentación sobre sus subcomandos, ejemplo `example command`.
+Algunos subcomandos, como `example command`, tienen su propia documentación de uso.
 ```
 
 ---
@@ -72,7 +81,9 @@ Not translated yet.
 ---
 ### fr
 
-Not translated yet.
+```markdown
+Certaines sous-commandes comme `example command` ont leur propre documentation.
+```
 
 ---
 ### hi
@@ -89,12 +100,14 @@ Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `examp
 ---
 ### it
 
-Not translated yet.
+```markdown
+Alcuni comandi aggiuntivi, come `example command`, hanno la propria documentazione.
+```
 
 ---
 ### ja
 
-Not translated yet.
+`example command` のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
 
 ---
 ### ko
@@ -109,7 +122,9 @@ Not translated yet.
 ---
 ### nl
 
-Not translated yet.
+```markdown
+Sommige subcommando's zoals `example command` hebben een eigen documentatie pagina.
+```
 
 ---
 ### no
@@ -124,7 +139,7 @@ Not translated yet.
 ---
 ### pt_BR
 
-Not translated yet.
+Alguns subcomandos como `example command` tem sua própia documentação de uso.
 
 ---
 ### pt_PT
@@ -139,7 +154,7 @@ Not translated yet.
 ---
 ### ru
 
-Not translated yet.
+Некоторые подкоманды, такие как `example command`, имеют собственную документацию по использованию.
 
 ---
 ### sh
@@ -166,6 +181,13 @@ Not translated yet.
 ### tr
 
 Not translated yet.
+
+---
+### uk
+
+```markdown
+Певна підкоманда, як от `example command`, що має свою власну документацію.
+```
 
 ---
 ### zh

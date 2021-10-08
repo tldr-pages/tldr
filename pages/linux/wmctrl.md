@@ -1,6 +1,7 @@
 # wmctrl
 
 > CLI for X Window Manager.
+> More information: <https://manned.org/wmctrl>.
 
 - List all windows, managed by the window manager:
 

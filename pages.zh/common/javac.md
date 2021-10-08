@@ -1,6 +1,7 @@
 # javac
 
 > Java 程序编译器。
+> 更多信息：<https://docs.oracle.com/en/java/javase/17/docs/specs/man/javac.html>.
 
 - 编译一个 `.java` 文件：
 

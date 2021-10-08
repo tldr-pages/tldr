@@ -1,6 +1,7 @@
 # xctool
 
 > 用于构建 Xcode 项目的工具。
+> 更多信息：<https://github.com/facebook/xctool>.
 
 - 在没有任何工作区的情况下生成单个项目：
 

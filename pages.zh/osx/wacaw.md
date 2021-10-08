@@ -1,6 +1,7 @@
 # wacaw
 
 > 一个用于 macOS 的小命令行工具，允许您从连接的摄像头捕获静止图片和视频。
+> 更多信息：<http://webcam-tools.sourceforge.net>.
 
 - 从网络摄像机拍照：
 

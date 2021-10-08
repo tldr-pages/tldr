@@ -1,6 +1,7 @@
 # ftp
 
 > 在本地和远程 FTP 服务器之间交互式传输文件。
+> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/ftp>.
 
 - 交互式连接一个远程的 FTP 服务：
 

@@ -43,8 +43,4 @@ More bold@more centered@more right text@67.890
 - Process input containing a table and typeset the result to [PDF] with groff
   using the [me] macro package, saving the output to a file:
 
-```troff
-tbl -T {{pdf}} {{input_file}} | groff -{{me}} -T {{pdf}} > {{outputfile.pdf}}
-# OR
-groff -t -T {{pdf}} -{{me}} {{input_file}} > {{outputfile.pdf}}
-```
+`tbl -T {{pdf}} {{input_file}} | groff -{{me}} -T {{pdf}} > {{outputfile.pdf}}`

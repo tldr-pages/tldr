@@ -1,7 +1,7 @@
 # cat
 
 > Verkette und gib einzelne oder mehrere Dateien aus.
-> Mehrere Informationen: <https://www.gnu.org/software/coreutils/cat>.
+> Weitere Informationen: <https://www.gnu.org/software/coreutils/cat>.
 
 - Gib den Inhalt einer Datei aus:
 

@@ -14,14 +14,14 @@ function initialize {
 
 function build_index {
   npm run build-index
-  echo "Pages index succesfully built."
+  echo "Pages index successfully built."
 }
 
 function build_archive {
   rm -f "$TLDR_ARCHIVE"
   cd "$TLDRHOME/"
   zip -q -r "$TLDR_ARCHIVE" pages* LICENSE.md index.json
-  echo "Pages archive succesfully built."
+  echo "Pages archive successfully built."
 }
 
 ###################################

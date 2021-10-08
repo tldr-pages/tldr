@@ -1,7 +1,7 @@
 # settings
 
 > 获取关于 Android OS 的信息。
-> 更多信息见： <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
+> 更多信息：<https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
 
 - 在 `全局` 命名空间中显示环境变量列表：
 
