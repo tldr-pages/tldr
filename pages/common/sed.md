@@ -34,3 +34,6 @@
 - Replace separator `/` by any other character not used in the find or replace patterns, e.g. `#`:
 
 `sed 's#{{find}}#{{replace}}#' {{filename}}`
+
+- Remove ANSI Color Codes:
+ `sed 's/\x1b\[[0-9;]*m//g' filename`
