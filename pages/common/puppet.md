@@ -8,7 +8,7 @@
 
 `puppet --version`
 
-- Show general help:
+- Display help:
 
 `puppet --help`
 
