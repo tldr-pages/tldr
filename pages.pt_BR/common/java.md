@@ -1,7 +1,7 @@
 # java
 
 > Inicializador de Programas Java.
-> Mais informações em: <https://java.com>.
+> Mais informações: <https://java.com>.
 
 - Execute um arquivo Java `.class` que contém um método main, usando o nome da classe:
 
