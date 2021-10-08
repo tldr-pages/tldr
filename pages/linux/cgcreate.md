@@ -18,4 +18,4 @@
 
 - Create a subgroup:
 
-`mkdir /sys/fs/cgroup/{{groupType}}/{{groupName}}/{{subgroupName}}`
+`mkdir /sys/fs/cgroup/{{group_type}}/{{group_name}}/{{subgroup_name}}`
