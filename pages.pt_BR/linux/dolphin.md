@@ -9,11 +9,11 @@
 
 - Inicializa o Dolphin em um diretório específico:
 
-`dolphin {{caminho/para/diretório}}`
+`dolphin {{caminho/para/diretorio}}`
 
 - Inicializa o Dolphin com um arquivo ou diretório específico:
 
-`dolphin --select {{caminho/para/arquivo-ou-diretório}}`
+`dolphin --select {{caminho/para/arquivo-ou-diretorio}}`
 
 - Inicializa o Dolphin em uma janela separada:
 
