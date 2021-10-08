@@ -10,7 +10,7 @@
 
 - Create a new group:
 
-`cgcreate -g {{groupType}}:{{groupName}}`
+`cgcreate -g {{group_type}}:{{group_name}}`
 
 - To create a new group with multiple croup types:
 
