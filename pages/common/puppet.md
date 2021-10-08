@@ -12,7 +12,7 @@
 
 `puppet --help`
 
-- Show help on a Puppet subcommand (like `agent`, `apply`, etc.):
+- Display help for a subcommand:
 
 `puppet help {{subcommand}}`
 
