@@ -1,6 +1,6 @@
 # puppet
 
-> Puppet provides tools to automate managing your infrastructure.
+> Help to manage and automate the configuration of servers.
 > Some subcommands such as `puppet agent` have their own usage documentation.
 > More information: <https://puppet.com/>.
 
