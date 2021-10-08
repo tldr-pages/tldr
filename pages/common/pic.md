@@ -3,7 +3,7 @@
 > Picture preprocessor for the groff (GNU Troff) document formatting system.
 > Input consists of plain text, troff formatting commands, troff macros, and picture formatting commands.
 > See also `groff` and `troff`.
-> More information: <https://manned.org/pic>
+> More information: <https://manned.org/pic>.
 
 - Sample input picture of a rectangle containing a label:
 

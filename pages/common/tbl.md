@@ -3,7 +3,7 @@
 > Table preprocessor for the groff (GNU Troff) document formatting system.
 > Input consists of plain text, troff formatting commands, and table formatting commands.
 > See also `groff` and `troff`.
-> More information: <https://manned.org/tbl>
+> More information: <https://manned.org/tbl>.
 
 - Sample input table showing the four basic types of column.
   Note that the input contains hard tab characters between columns, not spaces,
