@@ -1,9 +1,9 @@
 # cd
 
 > Altera o diretório de trabalho atual.
-> Mais informação: <https://manned.org/cd>.
+> Mais informações: <https://manned.org/cd>.
 
-- Vai para o diretório dado:
+- Vai para o diretório informado:
 
 `cd {{caminho/para/diretório}}`
 
