@@ -7,7 +7,7 @@
 
 `java {{nome_da_classe}}`
 
-- Execute um programa `.jar`:
+- Executa um programa `.jar`:
 
 `java -jar {{arquivo.jar}}`
 
