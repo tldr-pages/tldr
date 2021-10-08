@@ -11,7 +11,7 @@
 
 `cd`
 
-- Vai para o diretório pai do diretório atual
+- Vai para o diretório pai do diretório atual:
 
 `cd ..`
 
