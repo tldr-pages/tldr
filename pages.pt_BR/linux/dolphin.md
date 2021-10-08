@@ -2,7 +2,7 @@
 # dolphin
 
 > Gerenciador de arquivos do KDE.
-> Para mais informações: https://apps.kde.org/pt-br/dolphin/#
+> Mais informações: https://apps.kde.org/pt-br/dolphin/#
 
 - Inicializa o Dolphin:
 
