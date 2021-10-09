@@ -11,7 +11,7 @@
 
 `timidity --loop {{path/to/file.mid}}`
 
-- Play a MIDI file in a specific key (0 = C major/a minor, -1 = F major/d minor, +1 = G major/e minor etc.):
+- Play a MIDI file in a specific key (0 = C major/A minor, -1 = F major/D minor, +1 = G major/E minor, etc.):
 
 `timidity --force-keysig={{-flats|+sharps}} {{path/to/file.mid}}`
 
