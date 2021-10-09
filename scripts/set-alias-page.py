@@ -3,7 +3,7 @@
 
 """
 A Python script to generate or update alias pages.
-Calling --help to get more information.
+Call the script with --help to get more information.
 
 For example, add 'vi' as an alias page of 'vim':
 python script/set-alias-page.py -p common/vi vim
