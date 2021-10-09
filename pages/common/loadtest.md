@@ -7,7 +7,7 @@
 
 `loadtest --concurrency {{10}} --rps {{200}} {{https://example.com}}`
 
-- Run with custom header:
+- Run with a custom HTTP header:
 
 `loadtest --headers "{{accept:text/plain;text-html}}" {{https://example.com}}`
 
