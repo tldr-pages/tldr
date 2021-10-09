@@ -5,7 +5,7 @@
 
 - Run with concurrent users and request per second:
 
-`loadtest -c 10 --rps 200 {{http://example.com}}`
+`loadtest --concurrency {{10}} --rps {{200}} {{https://example.com}}`
 
 - Run with custom header:
 
