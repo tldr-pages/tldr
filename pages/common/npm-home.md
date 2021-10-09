@@ -11,6 +11,6 @@
 
 `npm-home -g {{package}}`
 
-- Open the Yarn homepage of a specific package in the web browser:
+- Open the Yarn page of a specific package in the web browser:
 
 `npm-home -y {{package}}`
