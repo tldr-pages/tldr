@@ -1,6 +1,7 @@
 # zipinfo
 
 > List detailed information about the contents of a zip file.
+> More information: <https://manned.org/zipinfo>.
 
 - Long format list:
 
