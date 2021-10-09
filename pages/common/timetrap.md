@@ -1,6 +1,6 @@
 # timetrap
 
-> Timetrap is a simple command line time tracker written in ruby.
+> Simple command-line time tracker written in Ruby.
 > More information: <https://github.com/samg/timetrap>.
 
 - Create the new timesheet:
