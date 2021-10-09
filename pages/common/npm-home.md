@@ -1,16 +1,16 @@
 # npm-home
 
-> Open the npm page, Yarn page, or GitHub repo of a package.
+> Open the npm page, Yarn page, or GitHub repo of a package in the web browser.
 > More information: <https://github.com/sindresorhus/npm-home>.
 
-- Open the npm page of the package:
+- Open the npm page of a specific package in the web browser:
 
 `npm-home {{package}}`
 
-- Open the github repo of the package:
+- Open the GitHub repository of a specific package in the web browser:
 
-`npm-home {{package}} -g`
+`npm-home -g {{package}}`
 
-- Open the yarn homepage of the package:
+- Open the Yarn homepage of a specific package in the web browser:
 
-`npm-home {{package}} -y`
+`npm-home -y {{package}}`
