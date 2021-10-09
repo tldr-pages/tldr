@@ -9,4 +9,4 @@
 
 - List only file names:
 
-`zipinfo -1 {{compressed.zip}}`
+`zipinfo -1 {{path/to/archive.zip}}`
