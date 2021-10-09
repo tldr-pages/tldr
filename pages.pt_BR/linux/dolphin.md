@@ -13,7 +13,7 @@
 
 - Inicializa o Dolphin com um arquivo ou diretório específico:
 
-`dolphin --select {{caminho/para/arquivo-ou-diretorio}}`
+`dolphin --select {{caminho/para/arquivo_ou_diretorio}}`
 
 - Inicializa o Dolphin em uma janela separada:
 
