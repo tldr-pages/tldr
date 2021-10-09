@@ -1,19 +1,19 @@
-# zless
+# zmore
 
 > View gzip compressed files with `more`.
 > More information: <https://manned.org/zmore>.
 
-- Page through a compressed archive with `more`:
+- Open a compressed file:
 
 `zmore {{path/to/file.txt.gz}}`
 
 - Display the next page of the file:
 
-`<space>`
+`<Space>`
 
-- Search for a match to provided regular expression (press `n` to search for the next match):
+- Search for a pattern in the file (press `n` to go to next match):
 
-`/{{regex}}`
+`/{{regular_expression}}`
 
 - Exit:
 
