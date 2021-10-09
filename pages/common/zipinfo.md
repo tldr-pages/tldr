@@ -3,7 +3,7 @@
 > List detailed information about the contents of a zip file.
 > More information: <https://manned.org/zipinfo>.
 
-- Long format list:
+- Long format list (permissions, ownership, size, and modification date) of all files:
 
 `zipinfo {{path/to/archive.zip}}`
 
