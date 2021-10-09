@@ -11,7 +11,7 @@
 
 `sudo checkinstall --install=no`
 
-- Create the package without documentation:
+- Create a package without documentation:
 
 `sudo checkinstall --nodoc`
 
