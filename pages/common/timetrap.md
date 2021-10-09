@@ -7,7 +7,7 @@
 
 `timetrap sheet {{timesheet}}`
 
-- Check in time with a note:
+- Check in an entry started 5 minutes ago:
 
 `timetrap in --at "{{5 minutes ago}}" {{entry_notes}}`
 
