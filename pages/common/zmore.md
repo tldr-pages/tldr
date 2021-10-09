@@ -5,7 +5,7 @@
 
 - Page through a compressed archive with `more`:
 
-`zmore {{file.txt.gz}}`
+`zmore {{path/to/file.txt.gz}}`
 
 - Display the next page of the file:
 
