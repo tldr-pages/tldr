@@ -5,7 +5,7 @@
 
 - Long format list:
 
-`zipinfo {{compressed.zip}}`
+`zipinfo {{path/to/archive.zip}}`
 
 - List only file names:
 
