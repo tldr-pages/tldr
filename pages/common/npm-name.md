@@ -7,6 +7,6 @@
 
 `npm-name {{package}}`
 
-- Find similar package names:
+- Find similar package names in the npm registry:
 
 `npm-name {{package}} --similar`
