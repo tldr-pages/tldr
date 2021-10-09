@@ -7,6 +7,6 @@
 
 `zipinfo {{path/to/archive.zip}}`
 
-- List only file names:
+- Print what's inside of a ZIP archive, showing only filenames:
 
 `zipinfo -1 {{path/to/archive.zip}}`
