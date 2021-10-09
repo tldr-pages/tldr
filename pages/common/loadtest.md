@@ -11,6 +11,6 @@
 
 `loadtest --headers "{{accept:text/plain;text-html}}" {{https://example.com}}`
 
-- Run with method:
+- Run with a specific HTTP method:
 
 `loadtest -m {{GET} {{http://example.com}}`
