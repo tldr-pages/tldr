@@ -9,7 +9,7 @@
 
 - Run with custom header:
 
-`loadtest -H "accept:text/plain;text-html" {{http://example.com}}`
+`loadtest --headers "{{accept:text/plain;text-html}}" {{https://example.com}}`
 
 - Run with method:
 
