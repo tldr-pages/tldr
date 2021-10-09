@@ -1,6 +1,6 @@
 # puppet agent
 
-> Retrieves the client configuration from the Puppet server and applies it to the local host.
+> Retrieves the client configuration from a Puppet server and applies it to the local host.
 > More information: <https://puppet.com/docs/puppet/7/man/agent.html>.
 
 - Register a node at a puppetserver and apply the received catalog:
