@@ -2,6 +2,7 @@
 
 > Transfer files either to or from a remote host (not between two remote hosts).
 > Can transfer single files, or multiple files matching a pattern.
+> More information: <https://manned.org/rsync.1>.
 
 - Transfer file from local to remote host:
 

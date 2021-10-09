@@ -1,6 +1,7 @@
 # rev
 
 > Reverse a line of text.
+> More information: <https://manned.org/rev.1>.
 
 - Reverse the text string "hello":
 
