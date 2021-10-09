@@ -7,7 +7,7 @@
 
 `puppet apply {{pfad/zu/manifest}}`
 
-- Führe Puppetcode in der Kommandozeile aus:
+- Führe Puppetcode aus:
 
 `puppet apply --execute {{code}}`
 
