@@ -18,7 +18,7 @@
 
 - Open a new pane (inside a zellij session):
 
-`Alt + N`
+`Alt-n`
 
 - Detach from the current session (inside a zellij session):
 
