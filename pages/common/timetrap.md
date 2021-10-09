@@ -9,7 +9,7 @@
 
 - Check in time with a note:
 
-`timetrap in --at {{'5 minutes ago'}} {{doing some stuff}}`
+`timetrap in --at "{{5 minutes ago}}" {{entry_notes}}`
 
 - View current timesheet:
 
