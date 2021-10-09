@@ -9,4 +9,4 @@
 
 - Find similar package names in the npm registry:
 
-`npm-name {{package}} --similar`
+`npm-name --similar {{package}}`
