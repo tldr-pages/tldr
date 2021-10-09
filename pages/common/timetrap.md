@@ -11,6 +11,6 @@
 
 `timetrap in --at "{{5 minutes ago}}" {{entry_notes}}`
 
-- View current timesheet:
+- Display the current timesheet:
 
 `timetrap display`
