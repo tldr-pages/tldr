@@ -3,7 +3,7 @@
 > Simple command-line time tracker written in Ruby.
 > More information: <https://github.com/samg/timetrap>.
 
-- Create the new timesheet:
+- Create a new timesheet:
 
 `timetrap sheet {{timesheet}}`
 
