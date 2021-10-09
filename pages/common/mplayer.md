@@ -1,7 +1,7 @@
 # mplayer
 
 > Cross-platform multimedia player.
-> More information: <https://mplayerhq.hu/DOCS/man/en/mplayer.1.html>.
+> More information: <https://mplayerhq.hu/DOCS/HTML/en/commandline.html>.
 
 - Play the specified file or URL:
 
