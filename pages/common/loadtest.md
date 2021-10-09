@@ -13,4 +13,4 @@
 
 - Run with a specific HTTP method:
 
-`loadtest -m {{GET} {{http://example.com}}`
+`loadtest --method {{GET}} {{https://example.com}}`
