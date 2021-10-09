@@ -5,7 +5,7 @@
 
 - Wende ein Manifest an:
 
-`puppet apply {{pfad/zum/manifest}}`
+`puppet apply {{pfad/zu/manifest}}`
 
 - Führe Puppetcode von der Kommandozeile aus:
 
