@@ -14,4 +14,3 @@
 - Ein Paket suchen:
 
 `winget search {{package}}`
-
