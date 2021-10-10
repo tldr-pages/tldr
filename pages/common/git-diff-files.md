@@ -11,7 +11,7 @@
 
 `git diff-files {{path/to/file}}`
 
-- Show only names of changed files:
+- Show only the names of changed files:
 
 `git diff --name-only`
 
