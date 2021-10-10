@@ -9,7 +9,7 @@
 
 - Log statistics to a file instead of stdout:
 
-`runlim -o {{file name}} {{command}}`
+`runlim --output-file={{path/to/file}} {{command}} {{command_arguments}}`
 
 - Limit time to an upper bound (in seconds):
 
