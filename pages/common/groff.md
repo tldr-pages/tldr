@@ -15,10 +15,9 @@
 
 `groff -man -T html {{manpage.1}} > {{manpage.html}}`
 
-- Process a roff file using the `tbl` and `pic` preprocessors, and the `me`
-  macro set, to PDF, saving the output to a file:
+- Typeset a roff file containing [t]ables and [p]ictures, using the [me] macro set, to PDF, saving the output:
 
-`groff -t -p -me -T pdf {{foo.me}} > {{foo.pdf}}`
+`groff {{-t}} {{-p}} -{{me}} -T {{pdf}} {{filename.me}} > {{filename.pdf}}`
 
 - Run a `groff` command with preprocessor and macro options guessed by the `grog` utility:
 
