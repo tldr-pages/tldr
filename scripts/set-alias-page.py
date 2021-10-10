@@ -34,10 +34,9 @@ def get_tldr_root():
     if "TLDR_ROOT" in os.environ:
         return os.environ["TLDR_ROOT"]
     else:
-        print(
-            "\x1b[31mPlease set TLDR_ROOT to the location of a clone of https://github.com/tldr-pages/tldr."
+        raise SystemExit(
+            "\x1b[31mPlease set TLDR_ROOT to the location of a clone of https://github.com/tldr-pages/tldr.\x1b[0m"
         )
-        sys.exit(1)
 
 
 def get_templates():
