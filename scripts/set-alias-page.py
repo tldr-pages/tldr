@@ -47,7 +47,7 @@ def get_templates(root):
     root (string): The path of local tldr repository, i.e., TLDR_ROOT.
 
     Returns:
-    dict of (str, str): Language l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
+    dict of (str, str): Language labels map to alias page templates.
     """
 
     template_file = os.path.join(
