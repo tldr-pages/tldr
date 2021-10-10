@@ -9,7 +9,7 @@
 
 - Run a video in fullscreen using mpv:
 
-`xwinwrap -b -nf -fs -ov -- {{mpv}} -wid {{wid}} --loop --no-audio --no-resume-playback --panscan=1.0 {{path/to/video.mp4}}`
+`xwinwrap -b -nf -fs -ov -- {{mpv}} -wid {{wid}} --loop --no-audio --no-resume-playback --panscan={{1.0}} {{path/to/video.mp4}}`
 
 - Run a video using mpv with 80% opacity:
 
