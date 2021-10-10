@@ -1,6 +1,6 @@
 # hashid
 
-> Hashid is a python3 program that identifies data and password hashes.
+> Python3 program that identifies data and password hashes.
 > More information: <https://github.com/psypanda/hashID>.
 
 - Identify hashes from standard input (through typing, copying and pasting, or piping the hash into the program):
