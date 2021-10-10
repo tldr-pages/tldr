@@ -7,7 +7,7 @@
 
 `racket`
 
-- Execute script in a given Racket file:
+- Execute a Racket script:
 
 `racket {{script.rkt}}`
 
