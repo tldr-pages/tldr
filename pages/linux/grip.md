@@ -1,6 +1,6 @@
 # grip
 
-> Preview Github Markdown files locally 
+> Preview Github Markdown files locally.
 > More information: <https://github.com/joeyespo/grip>.
 
 - To render the readme of a repository:
@@ -13,7 +13,7 @@
 
 - To automatically open a tab in the browser after the server starts:
 
-`grip --browser'
+`grip --browser`
 
 - To specify a port:
 
