@@ -15,7 +15,7 @@
 
 `docker build --tag {{name:tag}} .`
 
-- Baue ein Docker image ohne Build Context:
+- Baue ein Docker Image ohne Build-Kontext:
 
 `docker build --tag {{name:tag}} - < {{Dockerfile}}`
 

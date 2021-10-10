@@ -11,7 +11,7 @@
 
 `docker run -d {{image}} {{befehl}}`
 
-- Führe einen Befehl in einem kurzlebigen Container im interaktiven Modus mit einer Pseudo-TTY aus:
+- Führe einen Befehl in einem kurzlebigen Container im interaktiven Modus mit einem Pseudo-TTY aus:
 
 `docker run --rm -it {{image}} {{befehl}}`
 
