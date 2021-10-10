@@ -5,7 +5,7 @@
 
 - Create and install a package with default settings:
 
-`sudo checkinstall -y`
+`sudo checkinstall --default`
 
 - Create a package but don't install it:
 
