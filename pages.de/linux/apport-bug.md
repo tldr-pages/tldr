@@ -7,7 +7,7 @@
 
 `apport-bug`
 
-- Reiche einen Fehlerbericht über das ein spezifisches Paket ein:
+- Reiche einen Fehlerbericht über ein bestimmtes Paket ein:
 
 `apport-bug {{paket}}`
 
