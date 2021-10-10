@@ -1,6 +1,6 @@
 # amixer
 
-> Mixer für den ALSA Soundkarten Treiber.
+> Mixer für den ALSA Soundkarten-Treiber.
 > Mehr Informationen: <https://manned.org/amixer>.
 
 - Erhöhe die Haupt Lautstärke um 10%:

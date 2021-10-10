@@ -1,11 +1,11 @@
 # addr2line
 
-> Konvertiere Adressen von Binaries in Dateinamen und Zeilennummern.
+> Konvertiere Adressen von Binärdateien in Dateinamen und Zeilennummern.
 > Mehr Informationen: <https://manned.org/addr2line>.
 
-- Zeige den Dateinamen und die Zeilennummer im Quellcode von einer Anweisungsadresse eines Executables:
+- Zeige den Dateinamen und die Zeilennummer des Quellcodes von einer Befehlssadresse einer ausführbaren Datei an:
 
-`addr2line --exe={{pfad/zum/executable}} {{adresse}}`
+`addr2line --exe={{pfad/zur/ausführbaren_datei}} {{adresse}}`
 
 - Zeige den Funktionsnamen, Dateinamen und Zeilennummer:
 

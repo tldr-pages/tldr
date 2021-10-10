@@ -1,28 +1,28 @@
 # acpi
 
-> Zeigt den Batterie Statis oder Temperatur Informationen.
+> Zeigt den Akkustatus oder Temperatur-Informationen an.
 > Mehr Informationen: <https://sourceforge.net/projects/acpiclient/files/acpiclient/>.
 
-- Zeige Batterie Informationen:
+- Zeige Informationen über den Akku an:
 
 `acpi`
 
-- Zeige Temperatur Informationen:
+- Zeige Informationen zur Temperatur an:
 
 `acpi -t`
 
-- Zeige Informationen über die Kühlung:
+- Zeige Informationen über die Kühlung an:
 
 `acpi -c`
 
-- Zeige Temperatur Informationen in Fahrenheit:
+- Zeige Temperatur-Informationen in Fahrenheit an:
 
 `acpi -tf`
 
-- Zeige alle Informationen:
+- Zeige alle Informationen an:
 
 `acpi -V`
 
-- Extrahiere Informationen von `/proc` statt von `/sys`:
+- Extrahiere Informationen von `/proc`, anstatt von `/sys`:
 
 `acpi -p`

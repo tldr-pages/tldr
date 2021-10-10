@@ -11,10 +11,10 @@
 
 `apport-bug {{paket}}`
 
-- Reiche einen Fehlerbericht über ein spezifisches Executable ein:
+- Reiche einen Fehlerbericht über eine bestimmte ausführbare Datei ein:
 
 `apport-bug {{pfad/zum/executable}}`
 
-- Reiche einen Fehlerbericht über einen spezifischen Prozess ein:
+- Reiche einen Fehlerbericht über einen bestimmten Prozess ein:
 
 `apport-bug {{PID}}`
