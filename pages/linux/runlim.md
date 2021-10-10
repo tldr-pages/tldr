@@ -13,7 +13,7 @@
 
 - Limit time to an upper bound (in seconds):
 
-`runlim -t {{number}} {{command}}`
+`runlim --time-limit={{number}} {{command}} {{command_arguments}}`
 
 - Limit real-time to an upper bound (in seconds):
 
