@@ -1,6 +1,7 @@
 # lp
 
 > Print files.
+> More information: <https://manned.org/lp>.
 
 - Print the output of a command to the default printer (see `lpstat` command):
 

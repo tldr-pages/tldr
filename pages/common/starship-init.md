@@ -17,4 +17,4 @@
 
 - Append the `starship` integration code to `~/.zshrc`:
 
-`starship init {{zsh]} >> {{~/.zshrc}}`
+`starship init {{zsh}} >> {{~/.zshrc}}`

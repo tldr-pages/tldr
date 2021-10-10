@@ -1,6 +1,7 @@
 # last
 
 > View the last logged in users.
+> More information: <https://manned.org/last>.
 
 - View last logins, their duration and other information as read from `/var/log/wtmp`:
 

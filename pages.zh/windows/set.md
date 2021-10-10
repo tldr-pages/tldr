@@ -1,6 +1,7 @@
 # set
 
 > 显示或设置当前命令行实例的环境变量。
+> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/set>.
 
 - 列出当前所有环境变量：
 

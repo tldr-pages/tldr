@@ -1,7 +1,7 @@
 # w
 
 > 显示登录者及其进程。
-> 更多信息： <https://www.geeksforgeeks.org/w-command-in-linux-with-examples/>.
+> 更多信息：<https://www.geeksforgeeks.org/w-command-in-linux-with-examples/>.
 
 - 显示当前登录的所有用户的信息：
 

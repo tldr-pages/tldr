@@ -4,7 +4,7 @@
 > Part of `az`, the command-line client for Microsoft Azure.
 > More information: <https://docs.microsoft.com/cli/azure/vm>.
 
-- List details of availible Virtual Machines:
+- List details of available Virtual Machines:
 
 `az vm list`
 
@@ -28,6 +28,6 @@
 
 `az vm restart --resource-group {{rg}} --name {{vm_name}}`
 
-- List VM images availiable in the Azure Marketplace:
+- List VM images available in the Azure Marketplace:
 
 `az vm image list`

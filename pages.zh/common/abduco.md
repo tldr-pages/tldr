@@ -1,6 +1,7 @@
 # abduco
 
 > 终端会话管理器。
+> 更多信息：<http://www.brain-dump.org/projects/abduco/>.
 
 - 列出会话：
 

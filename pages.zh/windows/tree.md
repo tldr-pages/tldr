@@ -1,6 +1,7 @@
 # tree
 
 > 以目录树的形式显示指定目录的所有文件夹和文件。
+> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/tree>.
 
 - 显示当前目录的目录树：
 

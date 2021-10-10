@@ -1,6 +1,7 @@
 # exec
 
 > Replace the current process with another process.
+> More information: <https://linuxcommand.org/lc3_man_pages/exech.html>.
 
 - Replace with the specified command using the current environment variables:
 
