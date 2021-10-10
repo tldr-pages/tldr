@@ -16,7 +16,6 @@ import argparse
 import os
 import re
 import subprocess
-import sys
 
 IGNORE_FILES = (".DS_Store", "tldr.md", "aria2.md")
 
@@ -43,12 +42,12 @@ def get_templates(root):
     """
     Get all alias page translation templates from
     TLDR_ROOT/contributing-guides/translation-templates/alias-pages.md.
-    
+
     Parameters:
     root (string): The path of local tldr repository, i.e., TLDR_ROOT.
-    
+
     Returns:
-    dict of (str, str): Language labels map to alias page templates.
+    dict of (str, str): Language l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
     """
 
     template_file = os.path.join(
