@@ -5,7 +5,7 @@
 
 - Run a video using mpv:
 
-`xwinwrap -b -nf -ov -- {{mpv}} -wid {{wid}} --loop --no-audio --no-resume-playback --panscan=1.0 {{path/to/video.mp4}}`
+`xwinwrap -b -nf -ov -- {{mpv}} -wid {{wid}} --loop --no-audio --no-resume-playback --panscan={{1.0}} {{path/to/video.mp4}}`
 
 - Run a video in fullscreen using mpv:
 
