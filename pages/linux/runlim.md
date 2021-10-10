@@ -7,7 +7,7 @@
 
 `runlim {{command}}`
 
-- Create output file for logging:
+- Log statistics to a file instead of stdout:
 
 `runlim -o {{file name}} {{command}}`
 
