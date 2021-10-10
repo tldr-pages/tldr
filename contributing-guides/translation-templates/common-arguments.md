@@ -6,7 +6,7 @@ There, the old table can be **imported**, **edited** in a WYSIWYG editor and **e
 Only the left-alignment of the header gets lost and has to be readded again (`|----` → `|:---`).
 
 | en    | path/to/file         | path/to/directory      | path/to/file_or_directory         | package   | username     |
-|-------|----------------------|------------------------|-----------------------------------|-----------|--------------|
+|:------|:---------------------|:-----------------------|:----------------------------------|:----------|:-------------|
 | ar    |                      |                        |                                   |           |              |
 | bs    |                      |                        |                                   |           |              |
 | da    |                      |                        |                                   |           |              |
