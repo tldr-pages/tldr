@@ -1,6 +1,6 @@
 # grip
 
-> Preview Github Markdown files locally.
+> Preview GitHub Markdown files locally.
 > More information: <https://github.com/joeyespo/grip>.
 
 - To render the readme of a repository:
