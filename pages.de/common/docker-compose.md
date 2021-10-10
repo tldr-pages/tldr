@@ -15,7 +15,7 @@
 
 `docker-compose up --build`
 
-- Starte alle Container unter der Verwendung einer alternativen Compose Datei:
+- Starte alle Container unter Verwendung einer alternativen Compose Datei:
 
 `docker-compose --file {{pfad/zu/verzeichnis}} up`
 

@@ -7,7 +7,7 @@
 
 `docker inspect`
 
-- Zeige Informationen über einen Container, Image oder Volumen anhand des Namens oder der ID:
+- Zeige Informationen über einen Container, ein Image oder Volume anhand des Namens oder der ID:
 
 `docker inspect {{container|image|ID}}`
 
@@ -15,7 +15,7 @@
 
 `docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' {{container}}`
 
-- Zeige den Pfad zu der Logdatei eines Containers:
+- Zeige den Pfad zur Logdatei eines Containers:
 
 `docker inspect --format='{{.LogPath}}' {{container}}`
 

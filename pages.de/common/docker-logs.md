@@ -15,7 +15,7 @@
 
 `docker logs {{container_name}} --tail {{5}}`
 
-- Zeige die Logs und füge Ihnen Zeitstempel hinzu:
+- Zeige die Logs und füge ihnen Zeitstempel hinzu:
 
 `docker logs -t {{container_name}}`
 

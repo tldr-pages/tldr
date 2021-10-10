@@ -1,6 +1,6 @@
 # docker swarm
 
-> Ein Container Orchestrierungs Werkzeug.
+> Ein Container-Orchestrierungswerkzeug.
 > Weitere Informationen: <https://docs.docker.com/engine/swarm/>.
 
 - Initialisiere ein Swarm Cluster:
