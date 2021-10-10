@@ -21,4 +21,4 @@
 
 - Limit space to an upper bound (in MB):
 
-`runlim -s {{number}} {{command}}`
+`runlim --space-limit={{number}} {{command}} {{command_arguments}}`
