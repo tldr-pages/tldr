@@ -9,7 +9,7 @@
 
 - Create a package but don't install it:
 
-`sudo checkinstall --install=no`
+`sudo checkinstall --install={{no}}`
 
 - Create a package without documentation:
 
