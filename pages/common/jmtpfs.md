@@ -5,11 +5,11 @@
 
 - Mount an MTP device to a directory:
 
-`jmtpfs {{/path/to/directory}}`
+`jmtpfs {{path/to/directory}}`
 
 - Set mount options:
 
-`jmtpfs -o {{allow_other,auto_unmount}} {{/path/to/directory}}`
+`jmtpfs -o {{allow_other,auto_unmount}} {{path/to/directory}}`
 
 - List available MTP devices:
 
@@ -17,7 +17,7 @@
 
 - If multiple devices are present, mount a specific device:
 
-`jmtpfs -device={{bus_id}},{{device_id}} {{/path/to/directory}}`
+`jmtpfs -device={{bus_id}},{{device_id}} {{path/to/directory}}`
 
 - Unmount MTP device:
 
