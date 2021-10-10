@@ -5,7 +5,7 @@
 
 - Print the time and memory usage of a command:
 
-`runlim {{command}}`
+`runlim {{command}} {{command_arguments}}`
 
 - Log statistics to a file instead of stdout:
 
