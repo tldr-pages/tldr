@@ -17,4 +17,4 @@
 
 - Einloggen mit einem Passwort, welches von stdin gelesen wird:
 
-` echo "{{passwort}}" | docker login --username {{benutzername}} --password-stdin`
+`echo "{{passwort}}" | docker login --username {{benutzername}} --password-stdin`
