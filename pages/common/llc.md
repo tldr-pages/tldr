@@ -7,9 +7,13 @@
 
 `llc {{path/to/file.ll}}`
 
-- Enable all optimizations and output assembly to a specific file:
+- Enable all optimizations:
 
-`llc -O3 {{path/to/input.ll}} --output {{path/to/output.s}}`
+`llc -O3 {{path/to/input.ll}}`
+
+- Output assembly to a specific file:
+
+`llc --output {{path/to/output.s}}`
 
 - Emit fully relocateable, position independent code:
 
