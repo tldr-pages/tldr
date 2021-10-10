@@ -7,7 +7,7 @@
 
 `git diff-files`
 
-- Compare only the selected files:
+- Compare only specified files:
 
 `git diff-files {{path/to/file}}`
 
