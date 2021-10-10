@@ -7,7 +7,7 @@
 
 `addr2line --exe={{pfad/zur/ausführbaren_datei}} {{adresse}}`
 
-- Zeige den Funktionsnamen, Dateinamen und Zeilennummer:
+- Zeige den Funktionsnamen, Dateinamen und Zeilennummer an:
 
 `addr2line --exe={{pfad/zum/executable}} --functions {{adresse}}`
 
