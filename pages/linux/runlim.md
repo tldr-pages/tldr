@@ -17,7 +17,7 @@
 
 - Limit real-time to an upper bound (in seconds):
 
-`runlim -r {{number}} {{command}}`
+`runlim --real-time-limit={{number}} {{command}} {{command_arguments}}`
 
 - Limit space to an upper bound (in MB):
 
