@@ -3,7 +3,7 @@
 > Run a load test on the selected HTTP or WebSockets URL.
 > More information: <https://github.com/alexfernandez/loadtest>.
 
-- Run with concurrent users and request per second:
+- Run with concurrent users and a specified amount of requests per second:
 
 `loadtest --concurrency {{10}} --rps {{200}} {{https://example.com}}`
 
