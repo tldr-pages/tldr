@@ -215,13 +215,10 @@ def main():
 
     # Use '--page' option
     if args.page != "":
-        target_paths = []
-
         if not args.page.lower().endswith(".md"):
             args.page = f"{args.page}.md"
 
         target_paths = [os.path.join(root, p, args.page) for p in pages_dirs]
-
         target_paths.sort()
 
         for path in target_paths:
