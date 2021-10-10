@@ -11,7 +11,7 @@
 
 `fsutil fsInfo volumeInfo {{drive_letter|volume_path}}`
 
-- Display the current state of file system auto-repair for all volumes:
+- Display the current state of the file system auto-repair for all volumes:
 
 `fsutil repair state`
 
