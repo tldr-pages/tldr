@@ -1,7 +1,7 @@
 # route
 
 > Use route cmd to set the route table.
-> More information: <https://manned.org/route.8>.
+> More information: <https://manned.org/route>.
 
 - Display the information of route table:
 
