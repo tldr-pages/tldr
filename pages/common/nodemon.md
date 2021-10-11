@@ -25,4 +25,4 @@
 
 - Run non-node scripts:
 
-`nodemon --exec "{{python --verbose}}" {{path/to/file.py}}`
+`nodemon --exec "{{command_to_run_script}} {{arguments}}" {{path/to/script/file}}`
