@@ -25,4 +25,4 @@
 
 - List the human-readable size of all `.jpg` files in subdirectories of the current directory, and show a cumulative total at the end:
 
-`du -ch */*.jpg`
+`du -ch {{*/*.jpg}}`
