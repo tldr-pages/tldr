@@ -22,3 +22,7 @@
 - Use standard input to count lines, words and characters (bytes) in that order:
 
 `{{find .}} | wc`
+
+- Count the length of the longest line in number of characters:
+
+`wc -L {{file}}`
