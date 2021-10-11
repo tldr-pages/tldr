@@ -1,6 +1,7 @@
 # lldb
 
 > LLVM 低级调试器。
+> 更多信息：<https://lldb.llvm.org>.
 
 - 调试可执行文件：
 
