@@ -8,7 +8,6 @@
 
 `troff {{filename.roff}} | grops > {{filename.ps}}`
 
-
 - Format output for a PostScript printer using the [me] macro package, saving the output to a file:
 
 `troff -{{me}} {{filename.roff}} | grops > {{filename.ps}}`
