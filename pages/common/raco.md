@@ -15,10 +15,10 @@
 
 `raco pkg install`
 
-- Build (or rebuild) bytecode, documentation, executables, and metadata indexes for a package:
+- Build (or rebuild) bytecode, documentation, executables, and metadata indexes for a collection:
 
-`raco setup {{module/path/of/package}}`
+`raco setup {{racket/base}}`
 
-- Run tests in a file:
+- Run tests in files:
 
-`raco test {{path/to/source.rkt}}`
+`raco test {{path/to/tests1.rkt path/to/tests2.rkt ...}}`
