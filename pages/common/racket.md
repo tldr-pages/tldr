@@ -18,3 +18,7 @@
 - Run module as a script (terminates option list):
 
 `racket --lib {{module_name}} --main {{arguments}}`
+
+- Start a REPL (interactive shell) for the `typed/racket` hashlang:
+
+`racket -I typed/racket`
