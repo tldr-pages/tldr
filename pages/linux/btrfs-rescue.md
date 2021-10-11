@@ -18,3 +18,7 @@
 - To recover from interrupted transactions (fixes log replay problems):
 
 `sudo btrfs rescue zero-log {{path/to/btrfs_mount}}`
+
+- To create a /dev/btrfs-control control device when mknod is not installed:
+
+`sudo btrfs rescue create-control-device`
