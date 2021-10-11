@@ -9,7 +9,7 @@
 
 - Search for a module by name:
 
-`module spider {{module_name}}`
+`module avail {{module_name}}`
 
 - Load a module:
 
@@ -21,7 +21,7 @@
 
 - Unload a specific loaded module:
 
-`module {{module_name}}`
+`module unload {{module_name}}`
 
 - Unload all loaded modules:
 
