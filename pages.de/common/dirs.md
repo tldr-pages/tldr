@@ -12,7 +12,7 @@
 
 `dirs -p`
 
-- Zeige den N-ten Eintrag der zuletzt besuchten Ordner an:
+- Zeige den N-ten Eintrag der zuletzt besuchten Ordner an, beginnend mit 0:
 
 `dirs +{{N}}`
 
