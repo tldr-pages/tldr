@@ -22,3 +22,7 @@
 - Run tests in files:
 
 `raco test {{path/to/tests1.rkt path/to/tests2.rkt ...}}`
+
+- Search local documentation:
+
+`raco docs {{search_terms ...}}`
