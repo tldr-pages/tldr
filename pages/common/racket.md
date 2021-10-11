@@ -15,10 +15,6 @@
 
 `racket --eval "{{expression}}"`
 
-- Install a package, automatically installing dependencies:
-
-`raco pkg install --auto {{package_name}}`
-
 - Run module as a script (terminates option list):
 
 `racket --lib {{module_name}} --main {{arguments}}`
