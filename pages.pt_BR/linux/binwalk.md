@@ -19,7 +19,7 @@
 
 `binwalk --dd '{{png image:png}}' {{caminho/para/binário}}`
 
-- Analiza a entropia de um binário, salvando o gráfico com o mesmo nome que o binário e a extensão `.png`:
+- Analisa a entropia de um binário, salvando o gráfico com o mesmo nome que o binário e a extensão `.png`:
 
 `binwalk --entropy --save {{caminho/para/binário}}`
 
