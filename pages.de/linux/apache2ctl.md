@@ -4,7 +4,7 @@
 > Dieser Befehl wird mit Debian-basierten Betriebssystemen geliefert, für RHEL siehe `httpd`.
 > Mehr Informationen: <https://manpages.debian.org/latest/apache2/apache2ctl.8.en.html>.
 
-- Starte den Apache daemon. Wirft einen Fehler wenn er bereits läuft:
+- Starte den Apache daemon. Gibt einen Fehler aus, wenn er bereits läuft:
 
 `sudo apache2ctl start`
 
