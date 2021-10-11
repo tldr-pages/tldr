@@ -7,6 +7,6 @@
 
 `amixer -D pulse sset Master {{10%+}}`
 
-- Verringere die Haupt Lautstärke um 10%:
+- Verringere den Gesamtpegel um 10%:
 
 `amixer -D pulse sset Master {{10%-}}`
