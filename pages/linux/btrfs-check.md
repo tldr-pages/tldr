@@ -13,7 +13,7 @@
 
 - Show progress during check:
 
-`sudo btrfs check -p {{path/to/device}}`
+`sudo btrfs check --progress {{path/to/device}}`
 
 - Verify data blocks' checksum (if filesystem is good):
 
