@@ -1,7 +1,7 @@
 # git symbolic-ref
 
 > Read, change or delete files that store references.
-> Why it's not actual symbolic links, and more, see <https://git-scm.com/docs/git-symbolic-ref>.
+> More information: <https://git-scm.com/docs/git-symbolic-ref>.
 
 - Write to {{name}} (should begin with `ref/`), with ref preferably being a valid reference or commitish:
 
