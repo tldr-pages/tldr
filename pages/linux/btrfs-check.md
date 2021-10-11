@@ -21,7 +21,7 @@
 
 - Use the `n`-th superblock (`n` can be 0, 1 or 2):
 
-`sudo btrfs check -s {{n}} {{path/to/device}}`
+`sudo btrfs check --super {{n}} {{path/to/device}}`
 
 - Rebuild checksum tree:
 
