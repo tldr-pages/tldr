@@ -1,7 +1,7 @@
 # pdfgrep
 
 > Search text in PDF files.
-> More information: <https://pdfgrep.org>
+> More information: <https://pdfgrep.org>.
 
 - Find lines that match pattern in a PDF:
 
