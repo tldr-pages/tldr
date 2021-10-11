@@ -7,11 +7,11 @@
 
 `sudo btrfs rescue chunk-recover {{path/to/btrfs_mount}}`
 
-- To fix device size alignment related problems (like unable to mount the fs with super total bytes mismatch)
+- To fix device size alignment related problems (like unable to mount the fs with super total bytes mismatch):
 
 `sudo btrfs rescue fix-device-size {{path/to/btrfs_mount}}`
 
-- To recover corrupted superblock from correct copies (recover the root of filesystem tree)
+- To recover corrupted superblock from correct copies (recover the root of filesystem tree):
 
 `sudo btrfs rescue super-recover {{path/to/btrfs_mount}}`
 
