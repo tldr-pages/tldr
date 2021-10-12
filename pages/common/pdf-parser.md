@@ -7,7 +7,7 @@
 
 `pdf-parser --stats {{path/to/file.pdf}}`
 
-- Select objects of type {{/Font}} in a PDF file:
+- Select objects of type `/Font` in a PDF file:
 
 `pdf-parser --type={{/Font}} {{path/to/file.pdf}}`
 
