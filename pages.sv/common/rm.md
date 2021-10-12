@@ -5,7 +5,7 @@
 
 - Ta bort filer från ett godtyckligt ställe:
 
-`rm {{path/to/file}} {{path/to/another/file}}`
+`rm {{sökväg/till/fil}} {{sökväg/till/en/annan/fil}}`
 
 - Rekursivt ta bort en mapp och dess undermappar:
 
