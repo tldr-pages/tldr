@@ -14,7 +14,7 @@
 
 - Display a cow at the specified [X] and [Y] coordinates:
 
-`xcowsay --at={X},{Y}`
+`xcowsay --at={{X}},{{Y}}`
 
 - Display a different sized cow (small, med, or large):
 
