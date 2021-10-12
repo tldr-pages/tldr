@@ -5,7 +5,7 @@
 
 - Verzögere in Sekunden:
 
-`sleep {{seconds}}`
+`sleep {{sekunden}}`
 
 - Verzögere in Minuten:
 
