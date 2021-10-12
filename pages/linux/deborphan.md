@@ -1,9 +1,9 @@
 # deborphan
 
-> Display orphan packages on Debian-based OSes.
+> Display orphan packages on operating systems using the APT package manager.
 > More information: <https://manpages.debian.org/latest/deborphan/deborphan.html>.
 
-- Display library packages (from the "libs" section of the package repository) that are not required by another package:
+- Display library packages (from the "libs" section of the package repository) which are not required by another package:
 
 `deborphan`
 
@@ -11,6 +11,6 @@
 
 `deborphan --guess-all`
 
-- Consider that a package is orphaned when it is only recommended or suggested (but not required) by another package:
+- Find packages which are only recommended or suggested (but not required) by another package:
 
 `deborphan --nice-mode`
