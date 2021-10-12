@@ -1,6 +1,6 @@
 # docker-compose
 
-> Starte und verwalte Anwendungen, welche aus mehreren Docker Containern bestehen. Für alle Befehle werden standardmäßig Containerdefinitionen aus der `docker-compose.yml` Datei im aktuellen Arbeitsverzeichnis ausgelesen.
+> Starte und verwalte Anwendungen, welche aus mehreren Docker Containern bestehen.
 > Weitere Informationen: <https://docs.docker.com/compose/reference/>.
 
 - Liste alle laufenden Container auf:
@@ -11,13 +11,13 @@
 
 `docker-compose up -d`
 
-- Starte alle Container. Erzeuge zugehörige Docker Images bei Bedarf neu.
+- Starte alle Container. Erzeuge zugehörige Docker Images bei Bedarf neu:
 
 `docker-compose up --build`
 
 - Starte alle Container für eine alternative docker-compose Datei:
 
-`docker-compose --file {{Pfad/zur/Datei}} up`
+`docker-compose --file {{pfad/zur/datei}} up`
 
 - Stoppe alle laufenden Container:
 
@@ -33,4 +33,4 @@
 
 - Zeige aktuelle Log-Nachrichten eines spezifischen Containers an:
 
-`docker-compose logs --follow {{Name_des_Containers}}`
+`docker-compose logs --follow {{name_des_containers}}`
