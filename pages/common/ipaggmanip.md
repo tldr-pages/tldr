@@ -1,4 +1,4 @@
-# ipaggcreate
+# ipaggmanip
 
 > Manipulate aggregate statistics produced by `ipaggcreate`.
 > More information: <https://read.seas.harvard.edu/~kohler/ipsumdump/aggmanipman.html>.
