@@ -17,7 +17,7 @@
 
 - Interaktivt ta bort flera filer, genom att fråga om borttagning för varje fil:
 
-`rm -i {{file(s)}}`
+`rm -i {{fil(er)}}`
 
 - Ta bort filer och visa ett meddelande för varje borttagning:
 
