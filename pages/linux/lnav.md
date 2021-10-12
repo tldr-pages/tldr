@@ -5,7 +5,7 @@
 
 - View logs of a program, specifying log files, directories or URLs:
 
-`lnav {{path/to/log_or_directory|URL}}`
+`lnav {{path/to/log_or_directory|url}}`
 
 - View logs of a specific remote host (SSH passwordless login required):
 
