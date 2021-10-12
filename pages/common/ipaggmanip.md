@@ -5,7 +5,7 @@
 
 - Combine labels equal in their {{16}} high-order bits:
 
-`ipaggmanip -p {{16}} {{path/to/file}}`
+`ipaggmanip --prefix {{16}} {{path/to/file}}`
 
 - Remove labels with a count smaller than {{100}} and output a random sample of at most {{5}} such labels:
 
