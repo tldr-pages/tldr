@@ -9,11 +9,11 @@
 
 - Rekursivt ta bort en mapp och dess undermappar:
 
-`rm -r {{path/to/directory}}`
+`rm -r {{sökväg/till/mapp}}`
 
 - Tvinga borttagning av en mapp utan att konfirmera eller visa error meddelanden:
 
-`rm -rf {{path/to/directory}}`
+`rm -rf {{sökväg/till/mapp}}`
 
 - Interaktivt ta bort flera filer, genom att fråga om borttagning för varje fil:
 
@@ -21,4 +21,4 @@
 
 - Ta bort filer och visa ett meddelande för varje borttagning:
 
-`rm -v {{path/to/directory/*}}`
+`rm -v {{sökväg/till/mapp/*}}`
