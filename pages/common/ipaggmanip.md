@@ -13,4 +13,4 @@
 
 - Replace each label's count with 1 if it is non-zero:
 
-`ipaggmanip -P {{path/to/file}}`
+`ipaggmanip --posterize {{path/to/file}}`
