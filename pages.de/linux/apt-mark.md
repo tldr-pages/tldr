@@ -5,15 +5,15 @@
 
 - Markiere ein Paket als automatisch installiert:
 
-`sudo apt-mark auto {{paket_name}}`
+`sudo apt-mark auto {{paketname}}`
 
 - Halte ein Paket auf seiner aktuellen Version und verhindere dass es aktualisiert wird:
 
-`sudo apt-mark hold {{paket_name}}`
+`sudo apt-mark hold {{paketname}}`
 
 - Erlaube dass ein Paket wieder aktualisiert werden darf:
 
-`sudo apt-mark unhold {{package_name}}`
+`sudo apt-mark unhold {{paketname}}`
 
 - Zeige manuell installierte Pakete:
 

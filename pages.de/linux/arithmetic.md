@@ -3,7 +3,7 @@
 > Quiz über simple arithmetische Probleme.
 > Mehr Informationen: <https://manpages.debian.org/bsdgames/arithmetic.6.en.html>.
 
-- Starte ein arithmetisches Quiz.
+- Starte ein arithmetisches Quiz:
 
 `arithmetic`
 
