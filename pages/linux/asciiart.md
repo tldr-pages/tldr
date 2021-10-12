@@ -13,7 +13,7 @@
 
 - Choose the output width (default is 100):
 
-`asciiart -width {{50}} {{path/to/image.jpg}}`
+`asciiart --width {{50}} {{path/to/image.jpg}}`
 
 - Colorize the ASCII output:
 
