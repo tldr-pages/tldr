@@ -9,7 +9,7 @@
 
 - Print the timestamps, source address, source port, destination address, destination port and protocol of all packets read from network interface {{eth0}}:
 
-`ipsumdump -i {{eth0}} -tsSdDp`
+`ipsumdump --interface {{eth0}} -tsSdDp`
 
 - Print the anonymised source address, anonymised destination address, and IP packet length of all packets in a pcap file:
 
