@@ -1,6 +1,7 @@
 # pinky
 
 > Print user information using the `finger` protocol.
+> More information: <https://linux.die.net/man/1/pinky>.
 
 - Display details about the current user:
 

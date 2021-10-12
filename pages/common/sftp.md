@@ -3,6 +3,7 @@
 > Secure File Transfer Program.
 > Interactive program to copy files between hosts over SSH.
 > For non-interactive file transfers, see `scp` or `rsync`.
+> More information: <https://linux.die.net/man/1/sftp>.
 
 - Connect to a remote server and enter an interactive command mode:
 

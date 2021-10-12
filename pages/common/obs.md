@@ -2,6 +2,7 @@
 
 > Open Broadcaster Software.
 > Video recording and livestreaming program.
+> More informatiom: <https://obsproject.com/>.
 
 - Launch OBS:
 

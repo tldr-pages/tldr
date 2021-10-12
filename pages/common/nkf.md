@@ -2,6 +2,7 @@
 
 > Network kanji filter.
 > Converts kanji code from one encoding to another.
+> More information: <https://linux.die.net/man/1/nkf>.
 
 - Convert to UTF-8 encoding:
 
