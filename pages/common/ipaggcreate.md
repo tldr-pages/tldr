@@ -9,7 +9,7 @@
 
 - Group and count packets read from network interface {{eth0}} by IP length:
 
-`ipaggcreate -i {{eth0}} -l`
+`ipaggcreate --interface {{eth0}} --length`
 
 - Count the number of bytes sent between each address pair appearing in a pcap file:
 
