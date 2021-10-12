@@ -13,4 +13,4 @@
 
 - Search for strings in indirect objects:
 
-`pdf-parser -s {{search_string}} {{path/to/file.pdf}}`
+`pdf-parser --search={{search_string}} {{path/to/file.pdf}}`
