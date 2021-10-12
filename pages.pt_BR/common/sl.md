@@ -1,7 +1,7 @@
-#sl
+# sl
 
->Locomotiava a vapor passando pelo seu terminal.
->Mais informações: <https://github.com/mtoyoda/sl>.
+> Locomotiava a vapor passando pelo seu terminal.
+> Mais informações: <https://github.com/mtoyoda/sl>.
 
 - Faz uma locomotiva a vampor passar pelo seu terminal:
 
