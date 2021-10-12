@@ -9,7 +9,7 @@
 
 - Verzögere in Minuten:
 
-`sleep {{minutes}}m`
+`sleep {{minuten}}m`
 
 - Verzögere in Stunden:
 
