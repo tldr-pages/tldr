@@ -1,7 +1,7 @@
 # ipaggcreate
 
 > Produce aggregate statistics of TCP/IP dumps.
-> More information: <https://read.seas.harvard.edu/~kohler/ipsumdump/aggcreateman.html>.
+> More information: <https://manned.org/ipaggcreate>.
 
 - Count the number of packets sent from each source address appearing in a pcap file:
 
