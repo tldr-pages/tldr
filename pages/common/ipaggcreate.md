@@ -13,4 +13,4 @@
 
 - Count the number of bytes sent between each address pair appearing in a pcap file:
 
-`ipaggcreate --address-pairs -B {{path/to/file.pcap}}`
+`ipaggcreate --address-pairs --bytes {{path/to/file.pcap}}`
