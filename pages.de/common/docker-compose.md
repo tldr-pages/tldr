@@ -27,10 +27,6 @@
 
 `docker-compose down --rmi all --volumes`
 
-- Zeige Log-Nachrichten aller laufender Container inklusive Zeitstempel an:
-
-`docker-compose logs -t`
-
 - Zeige aktuelle Log-Nachrichten laufender Container an:
 
 `docker-compose logs --follow`
