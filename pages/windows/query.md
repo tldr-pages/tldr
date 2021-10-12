@@ -7,7 +7,7 @@
 
 `query session`
 
-- Display current user sessions on a remote computer:
+- Display the current user sessions on a remote computer:
 
 `query session /server:{{hostname}}`
 
