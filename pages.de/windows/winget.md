@@ -1,16 +1,16 @@
 # winget
 
 > Windows Package Manager CLI.
-> Mehr Informationen: <https://docs.microsoft.com/de-de/windows/package-manager/winget/>.
+> Weitere Informationen: <https://docs.microsoft.com/windows/package-manager/winget/>.
 
 - Paket installieren:
 
-`winget install {{package}}`
+`winget install {{paket}}`
 
 - Informationen über ein Paket anzeigen:
 
-`winget show {{package}}`
+`winget show {{paket}}`
 
 - Ein Paket suchen:
 
-`winget search {{package}}`
+`winget search {{paket}}`
