@@ -7,9 +7,9 @@
 
 `pdf-parser --stats {{path/to/file.pdf}}`
 
-- Select objects of a given type in a PDF file:
+- Select objects of type {{/Font}} in a PDF file:
 
-`pdf-parser -t {{/type}} {{path/to/file.pdf}}`
+`pdf-parser --type={{/Font}} {{path/to/file.pdf}}`
 
 - Search for strings in indirect objects:
 
