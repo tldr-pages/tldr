@@ -3,7 +3,7 @@
 > Zeigt einen Kalender an, in dem der aktuelle Tag markiert ist.
 > Weitere Informationen: <https://manned.org/cal>.
 
-- Zeige einen Kalender für den aktuellen Monat an:
+- Zeige den Kalender für den aktuellen Monat an:
 
 `cal`
 
