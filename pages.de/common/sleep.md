@@ -13,4 +13,4 @@
 
 - Verzögere in Stunden:
 
-`sleep {{hours}}h`
+`sleep {{stunden}}h`
