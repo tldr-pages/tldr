@@ -1,7 +1,7 @@
 # docker-compose
 
 > Executa e gerencia multi-containers de aplicações Docker
-> Mais Informações: <https://docs.docker.com/compose/reference/overview/>.
+> Mais Informações: <https://docs.docker.com/compose/reference/>.
 
 - Lista todos os containers em execução:
 
