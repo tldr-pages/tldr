@@ -1,7 +1,7 @@
 # ipaggmanip
 
 > Manipulate aggregate statistics produced by `ipaggcreate`.
-> More information: <https://read.seas.harvard.edu/~kohler/ipsumdump/aggmanipman.html>.
+> More information: <https://manned.org/ipaggmanip>.
 
 - Combine labels equal in their {{16}} high-order bits:
 
