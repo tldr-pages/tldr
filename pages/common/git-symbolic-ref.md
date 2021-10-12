@@ -3,22 +3,22 @@
 > Read, change or delete files that store references.
 > More information: <https://git-scm.com/docs/git-symbolic-ref>.
 
-- Write to {{name}} (should begin with `ref/`), with ref preferably being a valid reference or commitish:
+- Store a reference by a name (that preferably begins with "ref/"):
 
 `git symbolic-ref {{name}} {{ref}}`
 
-- Write, including a message with a reason for the update:
+- Store a reference by name, including a message with a reason for the update:
 
 `git symbolic-ref -m "Automated deploy" refs/production refs/heads/main`
 
-- Read (complains if the read {{ref}} is not a valid reference within the repository):
+- Read a reference by name:
 
 `git symbolic-ref {{name}}`
 
-- Delete (-m not allowed, name must begin with ref/):
+- Delete a reference by name (name must begin with ref/):
 
 `git symbolic-ref --delete {{name}}`
 
-- For scripting add --quiet to hide error outputs, and --short to simplify (typically hiding "refs/heads/") when returning a read {{name}}:
+- For scripting, hide errors with --quiet and use --short to simplify ("refs/heads/X" prints as "X"):
 
-`git symbolic-ref --quiet --short {{nam}}`
+`git symbolic-ref --quiet --short {{name}}`
