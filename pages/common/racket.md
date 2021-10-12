@@ -1,7 +1,7 @@
 # racket
 
 > Racket language interpreter.
-> More information: <https://racket-lang.org/>.
+> More information: <https://racket-lang.org>.
 
 - Start a REPL (interactive shell):
 
@@ -9,7 +9,7 @@
 
 - Execute a Racket script:
 
-`racket {{script.rkt}}`
+`racket {{path/to/script.rkt}}`
 
 - Execute a Racket expression:
 
