@@ -13,4 +13,4 @@
 
 - Print the anonymised source address, anonymised destination address, and IP packet length of all packets in a pcap file:
 
-`ipsumdump -sdl -A {{path/to/file.pcap}}`
+`ipsumdump --src --dst --length --anonymize {{path/to/file.pcap}}`
