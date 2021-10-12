@@ -29,4 +29,4 @@
 
 - Display help:
 
-`docker commit --help
+`docker commit --help`
