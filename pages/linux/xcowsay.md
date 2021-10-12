@@ -17,7 +17,7 @@
 
 - Display a different sized cow (small, med, or large):
 
-`xcowsay --cow-size={{size}}
+`xcowsay --cow-size={{size}}`
 
 - Display a thought bubble instead of a speech bubble:
 
