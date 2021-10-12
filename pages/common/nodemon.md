@@ -25,4 +25,4 @@
 
 - Run non-node scripts:
 
-`nodemon --exec "{{command_to_run_script}} {{arguments}}" {{path/to/script/file}}`
+`nodemon --exec "{{command_to_run_script}} {{options}}" {{path/to/script/file}}`
