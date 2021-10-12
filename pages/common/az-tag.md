@@ -16,10 +16,10 @@
 
 `az tag delete --name {{tag_name}}`
 
-- List the entire set of tags on a subscription:
+- List all tags on a subscription:
 
 `az tag list --resource-id /subscriptions/{{subscription_id}}`
 
-- Delete a predefined tag value for a predefined tag name:
+- Delete a tag value for a specific tag name:
 
 `az tag remove-value --name {{tag_name}} --value {{tag_value}}`
