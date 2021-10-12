@@ -5,7 +5,7 @@
 
 - Display statistics for a PDF file:
 
-`pdf-parser -a {{path/to/file.pdf}}`
+`pdf-parser --stats {{path/to/file.pdf}}`
 
 - Select objects of a given type in a PDF file:
 
