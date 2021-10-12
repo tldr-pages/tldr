@@ -3,14 +3,6 @@
 > Run or locate development tools and properties.
 > More information: <https://www.unix.com/man-page/osx/1/xcrun/>.
 
-- Get help:
-
-`xcrun --help`
-
-- Get version:
-
-`xcrun --version`
-
 - Find and run a tool from the active developer directory:
 
 `xcrun {{tool}} {{arguments}}`
@@ -26,3 +18,11 @@
 - Find a tool for a given toolchain:
 
 `xcrun --toolchain {{name}}`
+
+- Get help:
+
+`xcrun --help`
+
+- Get version:
+
+`xcrun --version`
