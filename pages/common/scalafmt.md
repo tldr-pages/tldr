@@ -16,7 +16,7 @@
 
 - Check if files are correctly formatted (return -1 if not):
 
-`scalafmt --config customDir/.scalafmt.conf --test`
+`scalafmt --config {{path/to/.scalafmt.conf}} --test`
 
 - Format excluding files of directory:
 
