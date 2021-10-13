@@ -22,6 +22,6 @@
 
 `scalafmt --exclude myTargetDir myTargetFile.scala`
 
-- Format only files that were edited against the master branch (files edited in the current commit allowing incremental refectory of a codebase):
+- Format only files that were edited against the current branch:
 
 `scalafmt --config customDir/.scalafmt.conf --mode diff`
