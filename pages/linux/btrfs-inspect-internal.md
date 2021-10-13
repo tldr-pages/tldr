@@ -3,26 +3,26 @@
 > Query internal information of a btrfs filesystem.
 > More information: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-inspect-internal>.
 
-- Show superblock's information:
+- Print superblock's information:
 
 `sudo btrfs inspect-internal dump-super {{path/to/partition}}`
 
-- Show superblock's and all its copies' information:
+- Print superblock's and all its copies' information:
 
 `sudo btrfs inspect-internal dump-super --all {{path/to/partition}}`
 
-- Show tree's information:
+- Print tree's information:
 
 `sudo btrfs inspect-internal dump-tree {{path/to/partition}}`
 
-- Show list of files of inode `n`-th:
+- Print list of files of inode `n`-th:
 
 `sudo btrfs inspect-internal inode-resolve {{n}} {{path/to/btrfs_mount}}`
 
-- Show list of files at a given logical address:
+- Print list of files at a given logical address:
 
 `sudo btrfs inspect-internal logical-resolve {{logical_address}} {{path/to/btrfs_mount}}`
 
-- Show stats of root, extent, csum and fs trees:
+- Print stats of root, extent, csum and fs trees:
 
 `sudo btrfs inspect-internal tree-stats {{path/to/partition}}`
