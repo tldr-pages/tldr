@@ -7,7 +7,7 @@
 
 `sudo btrfs inspect-internal dump-super {{path/to/partition}}`
 
-- Print superblock's and all its copies' information:
+- Print superblock's and all of its copies' information:
 
 `sudo btrfs inspect-internal dump-super --all {{path/to/partition}}`
 
@@ -15,7 +15,7 @@
 
 `sudo btrfs inspect-internal dump-tree {{path/to/partition}}`
 
-- Print list of files of inode `n`-th:
+- Print list of files in inode `n`-th:
 
 `sudo btrfs inspect-internal inode-resolve {{n}} {{path/to/btrfs_mount}}`
 
