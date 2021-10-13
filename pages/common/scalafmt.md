@@ -24,4 +24,4 @@
 
 - Format only files that were edited against the current branch:
 
-`scalafmt --config customDir/.scalafmt.conf --mode diff`
+`scalafmt --config {{path/to/.scalafmt.conf}} --mode diff`
