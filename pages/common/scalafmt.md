@@ -18,7 +18,7 @@
 
 `scalafmt --config {{path/to/.scalafmt.conf}} --test`
 
-- Format excluding files of directory:
+- Exclude files or directories:
 
 `scalafmt --exclude myTargetDir myTargetFile.scala`
 
