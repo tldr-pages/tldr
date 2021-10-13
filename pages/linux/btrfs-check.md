@@ -11,11 +11,11 @@
 
 `sudo btrfs check --repair {{path/to/partition}}`
 
-- Show progress during check:
+- Show the progress of the check:
 
 `sudo btrfs check --progress {{path/to/partition}}`
 
-- Verify data blocks' checksum (if filesystem is good):
+- Verify the checksum of each data block (if the filesystem is good):
 
 `sudo btrfs check --check-data-csum {{path/to/partition}}`
 
@@ -23,10 +23,10 @@
 
 `sudo btrfs check --super {{n}} {{path/to/partition}}`
 
-- Rebuild checksum tree:
+- Rebuild the checksum tree:
 
 `sudo btrfs check --repair --init-csum-tree {{path/to/partition}}`
 
-- Rebuild extent tree:
+- Rebuild the extent tree:
 
 `sudo btrfs check --repair --init-extent-tree {{path/to/partition}}`
