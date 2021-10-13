@@ -3,7 +3,7 @@
 > Zum schnellen finden von Dateinamen.
 > Weitere Informationen: <https://manned.org/locate>.
 
-- Sucht nach Dateien in der Datenbanl. Hinweis: Die Datenbank wird periodisch (für gewöhnlich täglich oder wöchentlich) aktualisiert.
+- Suche nach Dateien in der Datenbank. Hinweis: Die Datenbank wird periodisch (für gewöhnlich täglich oder wöchentlich) aktualisiert:
 
 `locate {{muster}}`
 
