@@ -11,6 +11,6 @@
 
 `lpinfo -m`
 
-- Search installed printer drivers by specified make and model:
+- Search installed printer drivers by make and model:
 
 `lpinfo --make-and-model "{{Printer Model}}" -m`
