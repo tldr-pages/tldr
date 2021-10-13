@@ -6,16 +6,16 @@
 
 - বর্তমান ব্র্যাঞ্চে কমিট করুন:
 
-`git cherry-pick {{commit}}`
+`git cherry-pick {{কমিট}}`
 
 - বর্তমান ব্র্যাঞ্চে বিভিন্ন ধরনের কমিট করুন (এছাড়াও দেখুন 'git rebase --onto`):
 
-`git cherry-pick {{start_commit}}~..{{end_commit}}`
+`git cherry-pick {{শুরুর_কমিট}}~..{{শেষের_কমিট}}`
 
 - বর্তমান ব্র্যাঞ্চে  একাধিক (অ-ক্রমিক) কমিট  করুন:
 
-`git cherry-pick {{commit_1}} {{commit_2}}`
+`git cherry-pick {{কমিট_১}} {{কমিট_২}}`
 
 - কমিট তৈরি না করেই ওয়ার্কিং ডিরেক্টরিতে কমিটের পরিবর্তন যোগ করুন:
 
-`git cherry-pick -n {{commit}}`
+`git cherry-pick -n {{কমিট}}`
