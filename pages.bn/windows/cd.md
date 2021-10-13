@@ -1,20 +1,20 @@
 # cd
 
-> Displays the name of or changes the current working directory.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/cd>.
+> বর্তমান ওয়ার্কিং ডিরেক্টরির নাম প্রদর্শন বা পরিবর্তন করে।
+> আরও তথ্য পাবেন: <https://docs.microsoft.com/windows-server/administration/windows-commands/cd>.
 
-- Go to a directory in the same drive:
+- একই ড্রাইভে একটি ডিরেক্টরিতে যান:
 
 `cd {{path/to/directory}}`
 
-- Display the name of the current directory:
+- বর্তমান ডিরেক্টরি নাম প্রদর্শন করুন:
 
 `cd`
 
-- Go up to the parent of the current directory:
+- বর্তমান ডিরেক্টরিটির প্যারেন্টে পৌঁছান: 
 
 `cd ..`
 
-- Go to a directory in a different drive:
+- ভিন্ন ড্রাইভে থাকা একটি ডিরেক্টরিতে যান:
 
 `cd {{path/to/directory}} /d`
