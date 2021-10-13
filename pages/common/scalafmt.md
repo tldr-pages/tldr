@@ -10,7 +10,7 @@
 
 `scalafmt`
 
-- Reformat specific files or directories with custom formatting configuration:
+- Reformat specific files or directories with a custom formatting configuration:
 
 `scalafmt --config {{path/to/.scalafmt.conf}} {{path/to/file_or_directory}} {{path/to/file_or_directory}} ...`
 
