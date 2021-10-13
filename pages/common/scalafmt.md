@@ -6,7 +6,7 @@
 > Rules for configuring the formatting: <https://scalameta.org/scalafmt/docs/configuration.html>.
 > More information: <https://scalameta.org/scalafmt>.
 
-- Reformat all the `.scala` files available in the current directory (and recursively in all the children directories):
+- Reformat all the `.scala` files in the current directory recursively:
 
 `scalafmt`
 
