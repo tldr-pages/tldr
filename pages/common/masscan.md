@@ -1,7 +1,7 @@
 # Masscan
 
 > Masscan - network scanner meant to scan the entire Internet as fast as possible.
-> Best run with elevated priviledges. Nmap compability run 'masscan --nmap' to find out more.
+> Best run with elevated priviledges. Nmap compability run `masscan --nmap` to find out more.
 > More information: <https://github.com/robertdavidgraham/masscan>.
 
 - Scan a ip or network subnet for port 443:
@@ -16,7 +16,7 @@
 
 `masscan {{10.0.0.0/16}} ‐‐top-ports {{100}} ‐‐excludefile {{path/to/file}}`
 
-- Scan the Internet for the port 443:
+- Scan the Internet for port 443:
 
 `masscan {{0.0.0.0/0}} --ports {{443}} ––rate {{10000000}}`
 
