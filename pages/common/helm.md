@@ -23,9 +23,9 @@
 
 `helm repo remove {{repo_name}}`
 
-- Install a helm chart:
+- Install a helm chart with a custom name and providing overrides:
 
-`helm install {{repo_name}}/{{chart_name}}`
+`helm install {{name}} {{repo_name}}/{{chart_name}} --values {{values.yaml}} --set {{parameter1}}={{value1}},{{parameter2}}={{value2}}`
 
 - Download helm chart as a tar archive:
 
