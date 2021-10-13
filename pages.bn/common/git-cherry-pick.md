@@ -1,21 +1,21 @@
 # git cherry-pick
 
-> Apply the changes introduced by existing commits to the current branch.
-> To apply changes to another branch, first use `git checkout` to switch to the desired branch.
-> More information: <https://git-scm.com/docs/git-cherry-pick>.
+> বিদ্যমান কমিট দ্বারা প্রবর্তিত পরিবর্তনগুলি বর্তমান ব্র্যাঞ্চে প্রয়োগ করুন। 
+> অন্য ব্র্যাঞ্চে পরিবর্তনগুলি প্রয়োগ করতে, প্রথমে পছন্দসই ব্র্যাঞ্চে স্যুইচ করতে `git checkout` ব্যবহার করুন।
+> আরও তথ্য পাবেন: <https://git-scm.com/docs/git-cherry-pick>.
 
-- Apply a commit to the current branch:
+- বর্তমান ব্র্যাঞ্চে কমিট করুন:
 
 `git cherry-pick {{commit}}`
 
-- Apply a range of commits to the current branch (see also `git rebase --onto`):
+- বর্তমান ব্র্যাঞ্চে বিভিন্ন ধরনের কমিট করুন (এছাড়াও দেখুন 'git rebase --onto`):
 
 `git cherry-pick {{start_commit}}~..{{end_commit}}`
 
-- Apply multiple (non-sequential) commits to the current branch:
+- বর্তমান ব্র্যাঞ্চে  একাধিক (অ-ক্রমিক) কমিট  করুন:
 
 `git cherry-pick {{commit_1}} {{commit_2}}`
 
-- Add the changes of a commit to the working directory, without creating a commit:
+- কমিট তৈরি না করেই ওয়ার্কিং ডিরেক্টরিতে কমিটের পরিবর্তন যোগ করুন:
 
 `git cherry-pick -n {{commit}}`
