@@ -12,7 +12,7 @@
 
 - Reformat specific files or directories with custom formatting configuration:
 
-`scalafmt --config customConfigDir/.scalafmt.conf myFile1.scala myFile2.scala myDir`
+`scalafmt --config {{path/to/.scalafmt.conf}} {{path/to/file_or_directory}} {{path/to/file_or_directory}} ...`
 
 - Check if files are correctly formatted (return -1 if not):
 
