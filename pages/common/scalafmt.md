@@ -20,7 +20,7 @@
 
 - Exclude files or directories:
 
-`scalafmt --exclude myTargetDir myTargetFile.scala`
+`scalafmt --exclude {{path/to/directory}} {{path/to/file.scala}}`
 
 - Format only files that were edited against the current branch:
 
