@@ -12,13 +12,13 @@
 
 `ls | xcowsay`
 
-- Display a cow at the specified [X] and [Y] coordinates:
+- Display a cow at the specified `X` and `Y` coordinates:
 
 `xcowsay --at={{X}},{{Y}}`
 
-- Display a different sized cow (small, med, or large):
+- Display a different sized cow:
 
-`xcowsay --cow-size={{size}}`
+`xcowsay --cow-size={{small|med|large}}`
 
 - Display a thought bubble instead of a speech bubble:
 
