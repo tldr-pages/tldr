@@ -61,7 +61,9 @@ as a guideline for current and future maintainers.
   (4) have been open for at least **24 hours** unless the changes are trivial
 
 - If a PR fails to get a review from a second maintainer after a few days,
-  the first maintainer should ping others for review.
+  the first maintainer should ping others for review. If it still lingers around
+  for **over a week without a second maintainer’s approval**,
+  the first maintainer can go ahead and merge it.
 
 - If the only issues holding up a merge are **trivial fixes**
   (typos, syntax errors, etc.), and the author doesn't respond in a day or two,
