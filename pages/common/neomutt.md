@@ -1,11 +1,11 @@
 # neomutt
 
-> NeoMutt is a command line email client.
+> NeoMutt command line email client.
 > More information: <https://neomutt.org>.
 
 - Open the specified mailbox:
 
-`neomutt -f {{mailbox}}`
+`neomutt -f {{path/to/mailbox}}`
 
 - Start writing an email and specify a subject and a cc recipient:
 
