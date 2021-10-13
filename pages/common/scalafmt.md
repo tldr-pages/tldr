@@ -1,10 +1,7 @@
 # scalafmt
 
-> Code formatter for Scala: Scalafmt is a formatter written in and for the Scala language. It is primarily designed to operate on entire text files.
-> The formatting configuration is determined by searching for the `.scalafmt.conf` file.
-> The configuration is searched firstly in the current directory, secondly, by searching in the root directory of the current git repo and finally, if  any configuration file is found, it proceeds with the default style.
-> Rules for configuring the formatting: <https://scalameta.org/scalafmt/docs/configuration.html>.
-> More information: <https://scalameta.org/scalafmt>.
+> Code formatter for Scala: Scalafmt is a formatter written in and for the Scala language. It formats the code following the configurations found in the `.scalafmt.conf` file.
+> Rules for configuring the formatting: <https://scalameta.org/scalafmt/docs/configuration.html>. More information at: <https://scalameta.org/scalafmt>.
 
 - Reformat all the `.scala` files in the current directory recursively:
 
@@ -14,7 +11,7 @@
 
 `scalafmt --config {{path/to/.scalafmt.conf}} {{path/to/file_or_directory}} {{path/to/file_or_directory}} ...`
 
-- Check if files are correctly formatted (return -1 if not):
+- Check if files are correctly formatted, it returns `0` if files respect the formatting style:
 
 `scalafmt --config {{path/to/.scalafmt.conf}} --test`
 
