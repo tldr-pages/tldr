@@ -9,7 +9,7 @@
 
 - Show superblock's and all its copies' information:
 
-`sudo btrfs inspect-internal dump-super -a {{path/to/partition}}`
+`sudo btrfs inspect-internal dump-super --all {{path/to/partition}}`
 
 - Show tree's information:
 
