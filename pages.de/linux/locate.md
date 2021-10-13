@@ -1,6 +1,6 @@
 # locate
 
-> Zum schnellen finden von Dateinamen.
+> Zum schnellen Finden von Dateinamen.
 > Weitere Informationen: <https://manned.org/locate>.
 
 - Suche nach Dateien in der Datenbank. Hinweis: Die Datenbank wird periodisch (für gewöhnlich täglich oder wöchentlich) aktualisiert:
