@@ -26,4 +26,4 @@
 
 - Display a different image instead of the default cow:
 
-`xcowsay --image={{file}}`
+`xcowsay --image={{path/to/file}}`
