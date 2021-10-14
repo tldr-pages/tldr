@@ -7,7 +7,7 @@
 
 `pip uninstall {{package_name}}`
 
-- Uninstall packages listed in a file:
+- Uninstall packages listed in a specific file:
 
 `pip uninstall -r {{requirements.txt}}`
 
