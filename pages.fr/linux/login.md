@@ -3,18 +3,18 @@
 > Démarre une session pour un utilisateur
 > Plus d'informations : <https://manned.org/login>.
 
-- Démarrer une session en tant qu'utilisateur *user* :
+- Démarrer une session en tant qu'utilisateur :
 
-`login {{user}}`
+`login {{utilisateur}}`
 
-- Démarrer une session en tant qu'utilisateur *user* sans authentification si jamais *user* est déjà pré-authentifié:
+- Démarrer une session en tant qu'utilisateur sans authentification si jamais *user* est déjà pré-authentifié :
 
-`login -f {{user}}`
+`login -f {{utilisateur}}`
 
-- Démarrer une session en tant qu'utilisateur *user* et en préservant l'environnement courant :
+- Démarrer une session en tant qu'utilisateur et en préservant l'environnement courant :
 
-`login -p {{user}}`
+`login -p {{utilisateur}}`
 
-- Démarrer une session en tant qu'utilisateure *user* sur un hôte distant :
+- Démarrer une session en tant qu'utilisateur sur un hôte distant :
 
-`login -h {{host}} {{user}}`
+`login -h {{hote}} {{utilisateur}}`
