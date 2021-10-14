@@ -7,7 +7,7 @@
 
 `neomutt -f {{path/to/mailbox}}`
 
-- Start writing an email and specify a subject and a cc recipient:
+- Start writing an email and specify a subject and a `cc` recipient:
 
 `neomutt -s "{{subject}}" -c {{cc@example.com}} {{recipient@example.com}}`
 
