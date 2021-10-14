@@ -1,7 +1,7 @@
 # id3tag
 
 > Strumento per leggere, scrivere, e manipolare i tag (etichette) ID3v1 e ID3v2 di file MP3.
-> Maggiori informazioni: <https://www.systutorials.com/docs/linux/man/1-id3tag>
+> Maggiori informazioni: <https://manned.org/id3tag>.
 
 - Imposta l'etichetta dell'artista e del titolo in un file MP3:
 

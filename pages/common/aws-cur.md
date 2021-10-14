@@ -5,7 +5,7 @@
 
 - Create an AWS cost and usage report definition from a JSON file:
 
-`aws cur put-report-definition --report-definition file://{{path/to/report-definition.json}}`
+`aws cur put-report-definition --report-definition file://{{path/to/report_definition.json}}`
 
 - List usage report definitions defined for the logged in account:
 

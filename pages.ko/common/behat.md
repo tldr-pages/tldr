@@ -1,7 +1,7 @@
 # behat
 
 > Behaviour-Driven 개발을 위한 PHP 프레임워크.
-> 더 많은 정보: <https://behat.org/>.
+> 더 많은 정보: <https://behat.org>.
 
 - 새로운 Behat 프로젝트 초기화:
 

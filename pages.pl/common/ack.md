@@ -1,7 +1,7 @@
 # ack
 
 > Narzędzie wyszukiwania, takie jak grep, zoptymalizowane dla programistów.
-> Więcej informacji: <https://beyondgrep.com/documentation/>.
+> Więcej informacji: <https://beyondgrep.com/documentation>.
 
 - Znajdź pliki zawierające „foo”:
 

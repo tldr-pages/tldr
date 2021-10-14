@@ -1,6 +1,7 @@
 # asar
 
 > Electron 平台的文件打包工具。
+> 更多信息：<https://github.com/electron/asar>.
 
 - 打包一个文件或目录：
 

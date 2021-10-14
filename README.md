@@ -79,7 +79,8 @@ both for the command-line and for other platforms:
   - [tldr-sh-client](https://github.com/raylee/tldr-sh-client)
   - [tldr-bash-client](https://gitlab.com/pepa65/tldr-bash-client)
 - [C# client](https://github.com/principis/tldr-sharp)
-- [C++ client](https://github.com/marchersimon/tldr-cpp)
+- [C++ client](https://github.com/marchersimon/tldr-cpp):
+  `yay -S tldr-cpp-git`
 - [C client](https://github.com/tldr-pages/tldr-c-client):
   `brew install tldr`
 - [Chrome Extension](https://github.com/hill/tldr-chrome) available on
@@ -203,6 +204,10 @@ to see the current progress of all translations.
 - [devhints](https://devhints.io/)
   Rico's cheatsheets are not just focused on the command-line and
   include a plethora of other cheatsheets related to programming.
+
+- [cheat.sh](https://cheat.sh/)
+  Aggregates cheat sheets from multiple sources (including tldr-pages)
+  into 1 unified interface.
 
 ## What does "tldr" mean?
 

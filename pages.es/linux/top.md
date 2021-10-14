@@ -1,6 +1,7 @@
 # top
 
 > Muestra información dinámica en tiempo real sobre procesos ejecutándose.
+> Más información: <https://manned.org/top>.
 
 - Inicia top:
 

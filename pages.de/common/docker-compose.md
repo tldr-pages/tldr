@@ -1,9 +1,9 @@
 # docker-compose
 
-> Starte und verwalte Docker Applikationen bestehend aus mehreren Containern.
+> Starte und verwalte Anwendungen, welche aus mehreren Docker Containern bestehen.
 > Weitere Informationen: <https://docs.docker.com/compose/reference/overview/>.
 
-- Liste zur Zeit laufende Container auf:
+- Liste alle laufenden Container auf:
 
 `docker-compose ps`
 
@@ -11,7 +11,7 @@
 
 `docker-compose up -d`
 
-- Starte alle Container und baue sie neu, wenn nötig:
+- Starte alle Container. Erzeuge zugehörige Docker Images bei Bedarf neu:
 
 `docker-compose up --build`
 
@@ -23,7 +23,7 @@
 
 `docker-compose stop`
 
-- Stoppe und lösche alle Container, Netzwerke, Images und Volumes:
+- Stoppe und entferne alle Container inklusive zugehöriger Netzwerke, Volumes und Images:
 
 `docker-compose down --rmi all --volumes`
 

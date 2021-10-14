@@ -1,6 +1,7 @@
 # choco install
 
 > 使用 Chocolatey 下载一个或多个包。
+> 更多信息：<https://chocolatey.org/docs/commands-install>.
 
 - 安装一个或多个用空格分隔的软件包：
 

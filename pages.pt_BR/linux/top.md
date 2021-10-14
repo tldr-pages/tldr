@@ -1,6 +1,7 @@
 # top
 
 > Utilitário para exibir informações, em tempo real, sobre os processos em execução.
+> Mais informações: <https://manned.org/top>.
 
 - Iniciar top:
 

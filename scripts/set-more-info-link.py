@@ -9,12 +9,13 @@ import sys
 
 labels = {
     "en": "More information:",
+    "ar": "لمزيد من التفاصيل:",
     "bs": "Više informacija:",
     "da": "Mere information:",
     "de": "Weitere Informationen:",
     "es": "Más información:",
     "fa": "اطلاعات بیشتر:",
-    "fr": "Plus d'informations\xa0:",
+    "fr": "Plus d'informations :",
     "sh": "Više informacija:",
     "hi": "अधिक जानकारी:",
     "id": "Informasi lebih lanjut:",
@@ -78,7 +79,11 @@ def set_link(file, link):
         locale = "en"
 
     # build new line
-    if locale == "zh" or locale == "zh_TW":
+    if locale == "hi":
+        new_line = f"> {labels[locale]} <{link}>।\n"
+    elif locale == "ja":
+        new_line = f"> {labels[locale]} <{link}>\n"
+    elif locale == "zh" or locale == "zh_TW":
         new_line = f"> {labels[locale]}<{link}>.\n"
     else:
         new_line = f"> {labels[locale]} <{link}>.\n"

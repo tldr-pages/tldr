@@ -7,6 +7,7 @@ page template decided upon in
 The templates can be changed when necessary.
 
 [en](#en) •
+[ar](#ar) •
 [bs](#bs) •
 [da](#da) •
 [de](#de) •
@@ -31,6 +32,7 @@ The templates can be changed when necessary.
 [ta](#ta) •
 [th](#th) •
 [tr](#tr) •
+[uk](#uk) •
 [zh](#zh) •
 [zh_TW](#zh_tw)
 
@@ -48,12 +50,25 @@ The templates can be changed when necessary.
 ```
 
 ---
+### ar
+
+```markdown
+# example
+
+> هذا الأمر هو اسم مستعار لـ `example`.
+
+- إعرض التوثيقات للأمر الأصلي:
+
+`tldr example`
+```
+
+---
 ### bs
 
 ```markdown
 # example
 
-> Ova komanda je alijas za `example`.
+> Ova komanda je pseudonim za `example`.
 
 - Pogledaj dokumentaciju za izvornu komandu:
 
@@ -302,6 +317,19 @@ Not translated yet.
 ### tr
 
 Not translated yet.
+
+---
+### uk
+
+```markdown
+# example
+
+> Ця команда є псевдонімом для `example`.
+
+- Дивись документацію для оригінальної команди:
+
+`tldr example`
+```
 
 ---
 ### zh

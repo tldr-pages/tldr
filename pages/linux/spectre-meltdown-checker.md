@@ -1,7 +1,7 @@
 # spectre-meltdown-checker
 
 > Spectre and Meltdown mitigation detection tool.
-> More information: <https://manned.org/spectre-meltdown-checker.1>.
+> More information: <https://manned.org/spectre-meltdown-checker>.
 
 - Check the currently running kernel for Spectre or Meltdown:
 

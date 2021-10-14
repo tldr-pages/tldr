@@ -2,7 +2,7 @@
 
 > Un tool di ricerca simile a `grep`, ottimizzato per programmatori.
 > Vedi anche: `rg`, che è molto più veloce.
-> Maggiori informazioni: <https://beyondgrep.com/documentation/>.
+> Maggiori informazioni: <https://beyondgrep.com/documentation>.
 
 - Cerca ricorsivamente file contenenti una stringa o un'espressione regolare nella cartella corrente:
 

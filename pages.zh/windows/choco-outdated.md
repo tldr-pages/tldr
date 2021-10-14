@@ -1,6 +1,7 @@
 # choco outdated
 
 > 使用 Chocolatey 检查过时的包。
+> 更多信息：<https://chocolatey.org/docs/commands-outdated>.
 
 - 用表格的形式列出过时的包：
 

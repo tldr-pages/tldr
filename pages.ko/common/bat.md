@@ -1,6 +1,7 @@
 # bat
 
 > 파일들을 출력하고 연결. 구문 강조와 Git 통합을 가진`cat`클론.
+> 더 많은 정보: <https://github.com/sharkdp/bat>.
 
 - 파일 내용을 표준 출력으로 출력:
 

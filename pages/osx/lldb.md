@@ -1,6 +1,7 @@
 # lldb
 
 > The LLVM Low-Level Debugger.
+> More information: <https://lldb.llvm.org>.
 
 - Debug an executable:
 

@@ -1,6 +1,7 @@
 # apt-add-repository
 
 > 管理 apt 仓库。
+> 更多信息：<https://manpages.debian.org/latest/software-properties-common/apt-add-repository.1.html>.
 
 - 添加一个 apt 仓库：
 

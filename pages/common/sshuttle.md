@@ -2,6 +2,7 @@
 
 > Transparent proxy server that tunnels traffic over an SSH connection.
 > Doesn't require root or any special setup on the remote SSH server, though root access on the local machine is prompted for.
+> More information: <https://manned.org/sshuttle>.
 
 - Forward all IPv4 TCP traffic via a remote SSH server:
 

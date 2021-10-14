@@ -1,6 +1,7 @@
 # pv
 
 > Monitor the progress of data through a pipe.
+> More information: <https://manned.org/pv>.
 
 - Print the contents of the file and display a progress bar:
 
