@@ -9,7 +9,7 @@
 
 - Uninstall packages listed in a specific file:
 
-`pip uninstall -r {{requirements.txt}}`
+`pip uninstall --requirement {{path/to/requirements.txt}}`
 
 - Uninstall package without asking for confirmation:
 
