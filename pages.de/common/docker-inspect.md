@@ -27,6 +27,6 @@
 
 `docker inspect --format='{{json .Config}}' {{container}}`
 
-- Zeige all Port-Bindungen:
+- Zeige alle Port Bindings:
 
 `docker inspect --format='{{range $p, $conf := .NetworkSettings.Ports}} {{$p}} -> {{(index $conf 0).HostPort}} {{end}}' {{container}}`
