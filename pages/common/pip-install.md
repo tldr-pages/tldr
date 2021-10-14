@@ -21,4 +21,4 @@
 
 - Install the local package in the current directory in develop (editable) mode:
 
-`pip install --editable .`
+`pip install --editable {{.}}`
