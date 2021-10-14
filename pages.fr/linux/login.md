@@ -7,7 +7,7 @@
 
 `login {{utilisateur}}`
 
-- Démarrer une session en tant qu'utilisateur sans authentification si jamais *user* est déjà pré-authentifié :
+- Démarrer une session en tant qu'utilisateur sans authentification si jamais l'utilisateur est déjà pré-authentifié :
 
 `login -f {{utilisateur}}`
 
