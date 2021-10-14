@@ -1,7 +1,6 @@
 # wsl-open
 
-> Open a file or URL from within the Windows Subsystem for Linux command
-line in user's preferred Windows GUI applications.
+> Open a file or URL from within the Windows Subsystem for Linux command line in user's preferred Windows GUI applications.
 > More information: <https://gitlab.com/4U6U57/wsl-open>.
 
 - Open the current directory in Windows Explorer:
