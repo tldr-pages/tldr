@@ -13,4 +13,4 @@
 
 - Uninstall package without asking for confirmation:
 
-`pip uninstall -y {{package_name}}`
+`pip uninstall --yes {{package_name}}`
