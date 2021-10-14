@@ -1,6 +1,6 @@
 # photolibraryd
 
-> This handles all photo library requests.
+> The photo library agent.
 > It should not be invoked manually.
 
 - Start the daemon:
