@@ -5,15 +5,15 @@
 
 - Permette il caricamento del `.envrc` presente nella cartella corrente:
 
-`direnv allow .`
+`direnv allow {{.}}`
 
 - Revoca il permesso del `.envrc` presente nella cartella corrente:
 
-`direnv deny .`
+`direnv deny {{.}}`
 
 - Permette la modifica del `.envrc` nell'editor di testo predefinito, in seguito ricarica l'ambiente:
 
-`direnv edit .`
+`direnv edit {{.}}`
 
 - Ricarica l'ambiente corrente:
 
