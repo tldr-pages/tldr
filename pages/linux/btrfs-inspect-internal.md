@@ -11,7 +11,7 @@
 
 `sudo btrfs inspect-internal dump-super --all {{path/to/partition}}`
 
-- Print tree's information:
+- Print filesystem's metadata information:
 
 `sudo btrfs inspect-internal dump-tree {{path/to/partition}}`
 
