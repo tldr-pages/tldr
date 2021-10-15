@@ -27,6 +27,6 @@
 
 `mongodump --username {{username}} {{database}} --password`
 
-- Create a dump from the uri; user, password, port & database will be in the uri
+- Create a dump from the uri; user, password, port & database will be in the uri:
 
 `mongodump --uri={{uri}}`
