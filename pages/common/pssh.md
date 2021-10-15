@@ -1,7 +1,7 @@
 # pssh
 
 > Parallel SSH program.
-> More information: <https://linux.die.net/man/1/pssh>.
+> More information: <https://manned.org/pssh>.
 
 - Run a command on two hosts, and print its output on each server inline:
 
