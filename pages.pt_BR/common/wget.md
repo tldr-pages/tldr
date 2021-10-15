@@ -8,7 +8,7 @@
 
 `wget {{https://exemplo.com/foo}}`
 
-- - Baixa o conteúdo de uma URL para o arquivo (nomeado como "bar" neste caso):
+- Baixa o conteúdo de uma URL para o arquivo (nomeado como "bar" neste caso):
 
 `wget --output-document {{bar}} {{https://exemplo.com/foo}}`
 
