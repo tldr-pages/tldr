@@ -4,7 +4,7 @@
 > Configurations are stored in the `.scalafmt.conf` file.
 > More information: <https://scalameta.org/scalafmt>.
 
-- Reformat all the `.scala` files in the current directory recursively:
+- Reformat all `.scala` files in the current directory recursively:
 
 `scalafmt`
 
