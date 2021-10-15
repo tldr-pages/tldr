@@ -3,7 +3,7 @@
 > Find patterns in files in a ZIP archive using extended regular expression (supports `?`, `+`, `{}`, `()` and `|`).
 > More information: <https://manned.org/zipgrep>.
 
-- Search for a pattern within ZIP archive:
+- Search for a pattern within a ZIP archive:
 
 `zipgrep "{{search_pattern}}" {{path/to/file.zip}}`
 
@@ -15,10 +15,10 @@
 
 `zipgrep -v "{{search_pattern}}" {{path/to/file.zip}}`
 
-- Specify files inside the ZIP archive from search:
+- Specify files inside a ZIP archive from search:
 
 `zipgrep "{{search_pattern}}" {{path/to/file.zip}} {{file/to/search1}} {{file/to/search2}}`
 
-- Exclude files inside the ZIP archive from search:
+- Exclude files inside a ZIP archive from search:
 
 `zipgrep "{{search_pattern}}" {{path/to/file.zip}} -x {{file/to/exclude1}} {{file/to/exclude2}}`
