@@ -19,6 +19,6 @@
 
 `todo show {{task_id}}`
 
-- Delete task:
+- Delete a task:
 
 `todo delete {{task_id}}`
