@@ -26,3 +26,7 @@
 - Display the current date using the RFC-3339 format (`YYYY-MM-DD hh:mm:ss TZ`):
 
 `date --rfc-3339=s`
+
+- Set the current date using the format `MMDDhhmm[YYYY][.ss]`:
+
+`date 09302359`
