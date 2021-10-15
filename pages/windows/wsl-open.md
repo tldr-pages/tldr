@@ -5,20 +5,20 @@
 
 - Open the current directory in Windows Explorer:
 
-`wsl-open .`
+`wsl-open {{.}}`
 
-- Open a URL in the default Windows browser:
+- Open a URL in the default web browser in Windows:
 
 `wsl-open {{https://example.com}}`
 
-- Open an image in the default Windows image viewer:
+- Open a specific file in the in the default application in Windows:
 
-`wsl-open {{path/to/image.png}}`
+`wsl-open {{path/to/file}}`
 
-- Associate wsl-open with links (set wsl-open as your shell's BROWSER):
+- Set `wsl-open` as your shell's web browser (open links with `wsl-open`):
 
 `wsl-open -w`
 
 - Display help:
 
-`wsl-open -help`
+`wsl-open -h`
