@@ -1,7 +1,7 @@
 # pdfimages
 
 > Utility for extracting images from PDFs.
-> More information: <https://linux.die.net/man/1/pdfimages>.
+> More information: <https://manned.org/pdfimages>.
 
 - Extract all images from a PDF file and save them as PNGs:
 
