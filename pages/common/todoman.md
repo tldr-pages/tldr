@@ -3,7 +3,7 @@
 > A simple, standards-based, cli todo manager.
 > More information: <https://todoman.readthedocs.io>.
 
-- Add new task in work list:
+- Add a new task to the work list:
 
 `todo new {{thing_to_do}} --list {{work}}`
 
