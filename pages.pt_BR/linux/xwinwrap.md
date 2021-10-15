@@ -5,7 +5,7 @@
 
 - Reproduz um vídeo usando mpv:
 
-`xwinwrap -b -nf -ov -- {{mpv}} -wid {{wid}} --loop --no-audio --no-resume-playback --panscan={{1.0}} {{caminho/para/o/video.mp4}}`
+`xwinwrap -b -nf -ov -- {{mpv}} -wid {{wid}} --loop --no-audio --no-resume-playback --panscan={{1.0}} {{caminho/para/video.mp4}}`
 
 - Reproduz um vídeo em tela cheia usando mpv:
 
