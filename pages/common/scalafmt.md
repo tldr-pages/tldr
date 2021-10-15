@@ -20,6 +20,6 @@
 
 `scalafmt --exclude {{path/to/directory}} {{path/to/file.scala}}`
 
-- Format only files that were edited against the current branch:
+- Format only files that were edited against the current Git branch:
 
 `scalafmt --config {{path/to/.scalafmt.conf}} --mode diff`
