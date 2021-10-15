@@ -18,7 +18,7 @@
 
 - Exclude files or directories:
 
-`scalafmt --exclude {{path/to/directory}} {{path/to/file.scala}}`
+`scalafmt --exclude {{path/to/file_or_directory}} {{...}}`
 
 - Format only files that were edited against the current Git branch:
 
