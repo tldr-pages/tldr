@@ -13,7 +13,7 @@
 
 - Reproduz um vídeo usando mpv com 80% de opacidade:
 
-`xwinwrap -b -nf -ov -o 0.8 --- {{mpv}} -wid {{wid}} --loop --no-audio --no-resume-playback --panscan={{1.0}} {{caminho/para/o/video.mp4}}`
+`xwinwrap -b -nf -ov -o 0.8 --- {{mpv}} -wid {{wid}} --loop --no-audio --no-resume-playback --panscan={{1.0}} {{caminho/para/video.mp4}}`
 
 - Reproduz um vídeo usando mpv em um segundo monitor 1600x900 com 1920 de distância do eixo X:
 
