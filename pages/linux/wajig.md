@@ -11,17 +11,9 @@
 
 `wajig install {{package}}`
 
-- Remove a package:
-
-`wajig remove {{package}}`
-
 - Remove a package and its configuration files:
 
 `wajig purge {{package}}`
-
-- Upgrade all installed packages to their newest available versions:
-
-`wajig upgrade`
 
 - Perform an update then a dist-upgrade:
 
