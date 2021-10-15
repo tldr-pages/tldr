@@ -1,24 +1,24 @@
 # kotlinc
 
-> Kotlin Language Compiler.
+> Kotlin compiler.
 > More information: <https://kotlinlang.org/docs/command-line.html>.
 
-- Call a Kotlin interactive shell (REPL):
+- Start a REPL (interactive shell):
 
 `kotlinc`
 
 - Compile a Kotlin file:
 
-`kotlinc {{file.kt}}`
+`kotlinc {{path/to/file.kt}}`
 
 - Compile several Kotlin files:
 
-`kotlinc {{file1.kt}} {{file2.kt}} {{file3.kt}}`
+`kotlinc {{path/to/file1.kt path/to/file2.kt ...}}`
 
-- Execute a given Kotlin Script file:
+- Execute a specific Kotlin Script file:
 
-`kotlinc -script file.kts`
+`kotlinc -script {{path/to/file.kts}}`
 
 - Compile a Kotlin file into a self contained jar file with the Kotlin runtime library included:
 
-`kotlinc {{file.kt}} -include-runtime -d {{output.jar}}`
+`kotlinc {{path/to/file.kt}} -include-runtime -d {{path/to/file.jar}}`
