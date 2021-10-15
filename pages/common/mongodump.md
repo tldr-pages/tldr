@@ -29,4 +29,4 @@
 
 - Create a dump from the uri; user, password, port & database will be in the uri:
 
-`mongodump --uri={{uri}}`
+`mongodump --uri={{connection_string}}`
