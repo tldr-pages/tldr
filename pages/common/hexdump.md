@@ -3,7 +3,7 @@
 > An ASCII, decimal, hexadecimal, octal dump.
 > More information: <https://manned.org/hexdump>.
 
-- Print the hexadecimal representation of a file. Duplicate lines are replaced by '*':
+- Print the hexadecimal representation of a file, replacing duplicate lines by '*':
 
 `hexdump {{file}}`
 
