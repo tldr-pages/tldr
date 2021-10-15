@@ -4,7 +4,7 @@
 > Siehe auch `pacman`.
 > Weitere Informationen: <https://github.com/Jguer/yay>.
 
-- Suche und installiere pakete von den Repositorys und AUR interaktiv:
+- Suche und installiere Pakete von den Repositorys und AUR interaktiv:
 
 `yay {{paketname|suchbegriff}}`
 
@@ -24,7 +24,7 @@
 
 `yay -Rns {{paketname}}`
 
-- Suche in der Paketdatenbank nach einem Schlüsselwort in den Repositories und AUR:
+- Suche in der Paketdatenbank nach einem Schlüsselwort in den Repositorys und AUR:
 
 `yay -Ss {{schlüsselwort}}`
 
@@ -32,6 +32,6 @@
 
 `yay -Yc`
 
-- Zeige statistiken für installierte Pakete sowie Gesundheit des Systems an:
+- Zeige Statistiken für installierte Pakete sowie Gesundheit des Systems an:
 
 `yay -Ps`
