@@ -1,7 +1,7 @@
 # pax
 
 > Archiving and copying utility.
-> More information: <https://linux.die.net/man/1/pax>.
+> More information: <https://manned.org/pax.1p>.
 
 - List the contents of an archive:
 
