@@ -17,4 +17,4 @@
 
 - Reproduz um vídeo usando mpv em um segundo monitor 1600x900 com 1920 de distância do eixo X:
 
-`xwinwrap -g 1600x900+1920 -b -nf -ov -- {{mpv}} -wid {{wid}} --loop --no-audio --no-resume-playback --panscan={{1.0}} {{caminho/para/o/video.mkv}}`
+`xwinwrap -g 1600x900+1920 -b -nf -ov -- {{mpv}} -wid {{wid}} --loop --no-audio --no-resume-playback --panscan={{1.0}} {{caminho/para/video.mkv}}`
