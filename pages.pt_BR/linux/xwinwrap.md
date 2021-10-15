@@ -9,7 +9,7 @@
 
 - Reproduz um vídeo em tela cheia usando mpv:
 
-`xwinwrap -b -nf -fs -ov -- {{mpv}} -wid {{wid}} --loop --no-audio --no-resume-playback --panscan={{1.0}} {{caminho/para/o/video.mp4}}`
+`xwinwrap -b -nf -fs -ov -- {{mpv}} -wid {{wid}} --loop --no-audio --no-resume-playback --panscan={{1.0}} {{caminho/para/video.mp4}}`
 
 - Reproduz um vídeo usando mpv com 80% de opacidade:
 
