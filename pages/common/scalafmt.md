@@ -12,7 +12,7 @@
 
 `scalafmt --config {{path/to/.scalafmt.conf}} {{path/to/file_or_directory}} {{path/to/file_or_directory}} {{...}}`
 
-- Check if files are correctly formatted, it returns `0` if files respect the formatting style:
+- Check if files are correctly formatted, returning `0` if all files respect the formatting style:
 
 `scalafmt --config {{path/to/.scalafmt.conf}} --test`
 
