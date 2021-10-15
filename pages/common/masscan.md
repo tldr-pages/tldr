@@ -4,7 +4,7 @@
 > Best run with elevated priviledges. Nmap compability run `masscan --nmap` to find out more.
 > More information: <https://github.com/robertdavidgraham/masscan>.
 
-- Scan a ip or network subnet for port 443:
+- Scan an ip or a network subnet for port 443:
 
 `masscan {{ip_address|network_prefix}} --ports {{443}}`
 
