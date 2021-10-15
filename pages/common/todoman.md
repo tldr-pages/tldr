@@ -11,7 +11,7 @@
 
 `todo list --startable`
 
-- Mark task as completed:
+- Mark a task as completed:
 
 `todo done {{task_id}}`
 
