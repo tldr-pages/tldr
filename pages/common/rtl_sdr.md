@@ -1,6 +1,6 @@
 # rtl_sdr
 
-> I/Q recorder for RTL-SDR receivers
+> I/Q recorder for RTL-SDR receivers.
 > More information: <https://osmocom.org/projects/rtl-sdr/wiki/Rtl-sdr>.
 
 - Save RAW data from frequency specified in Hz in file:
