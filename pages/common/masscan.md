@@ -1,10 +1,10 @@
 # Masscan
 
-> network scanner meant to scan an entire Internet as fast as possible.
+> Network scanner meant to scan an entire Internet as fast as possible.
 > Best run with elevated priviledges. Nmap compability run `masscan --nmap` to find out more.
 > More information: <https://github.com/robertdavidgraham/masscan>.
 
-- Scan a ip or network subnet for port 80:
+- Scan an IP or network subnet for port 80:
 
 `masscan {{ip_address|network_prefix}} --ports {{80}}`
 
