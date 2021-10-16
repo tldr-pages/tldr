@@ -1,6 +1,6 @@
 # Masscan
 
-> Network scanner meant to scan an entire Internet as fast as possible.
+> Network scanner for scanning as fast as possible.
 > Best run with elevated priviledges. Nmap compability run `masscan --nmap` to find out more.
 > More information: <https://github.com/robertdavidgraham/masscan>.
 
