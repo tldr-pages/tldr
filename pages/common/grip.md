@@ -1,6 +1,6 @@
 # grip
 
-> Preview GitHub markdown files locally.
+> Preview GitHub-flavoured Markdown files locally.
 > More information: <https://github.com/joeyespo/grip>.
 
 - Start the server and serve the rendered `README` file of a current directory:
