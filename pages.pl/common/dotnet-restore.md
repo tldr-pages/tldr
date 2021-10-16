@@ -9,7 +9,7 @@
 
 - Przywróć zależności dla projektu lub solucji w wybranym katalogu:
 
-`dotnet restore {{ścieżka/do/pliku_projektu_lub_solucji}}`
+`dotnet restore {{ścieżka/do/projektu_lub_solucji}}`
 
 - Przywróć zależnośći pomijając cache zapytań HTTP:
 
