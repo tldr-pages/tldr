@@ -1,6 +1,7 @@
 # unzip
 
 > Extract compressed files in a ZIP archive.
+> More information: <https://linux.die.net/man/1/unzip>.
 
 - Extract zip file(s) (for multiple files, separate file paths by spaces):
 
