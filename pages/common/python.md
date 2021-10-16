@@ -19,11 +19,11 @@
 
 `python -c "{{expression}}"`
 
-- Run library module as a script (terminates option list):
+- Run the script of the specified library module:
 
 `python -m {{module}} {{arguments}}`
 
-- Install a package using pip:
+- Install a package using `pip`:
 
 `python -m pip install {{package_name}}`
 
