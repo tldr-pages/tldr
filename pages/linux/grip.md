@@ -7,9 +7,9 @@
 
 `grip`
 
-- Start the server and serve a specific file:
+- Start the server and serve a specific Markdown file:
 
-`grip {{path/to/file}}`
+`grip {{path/to/file.md}}`
 
 - Start the server and open the `README` file of the current directory in the browser:
 
