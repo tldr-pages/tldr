@@ -9,7 +9,7 @@
 
 - Kompiluj w konfiguracji debugowania:
 
-`dotnet build {{path/to/project_or_solution}}`
+`dotnet build {{ściezka/do/projektu_lub_solucji}}`
 
 - Kompiluj w konfiguracji wydania:
 
@@ -25,8 +25,8 @@
 
 - Kompiluj dla wybranego środowiska uruchomieniowego:
 
-`dotnet build --runtime {{runtime_identifier}}`
+`dotnet build --runtime {{identyfikator_runtime}}`
 
 - Kompiluj do wybranego katalogu:
 
-`dotnet build --output {{path/to/directory}}`
+`dotnet build --output {{ścieżka/do/katalogu}}`
