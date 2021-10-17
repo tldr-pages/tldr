@@ -6,11 +6,11 @@
 
 - Ouvrir cmus dans le dossier spécifié (celui-ci deviendra le dossier de travail):
 
-`cmus {{path/to/directory}}`
+`cmus {{chemin/vers/dossier}}`
 
 - Ajouter un fichier/dossier à la bibliothèque:
 
-`:add {{path/to/file_or_directory}}`
+`:add {{chemin/vers/fichier_ou_dossier}}`
 
 - Mettre en pause/relancer la musique actuelle:
 
