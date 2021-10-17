@@ -5,6 +5,6 @@
 > Este comando foi descontinuado a partir do Android 11 (SDK 30)
 > Mais informações: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/bugreport>.
 
-- Mostrar um relatório completo de bugs de um dispositivo Android:
+- Mostra um relatório completo de bugs de um dispositivo Android:
 
 `bugreport`

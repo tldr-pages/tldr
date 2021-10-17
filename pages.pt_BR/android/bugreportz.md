@@ -4,18 +4,18 @@
 > Esse comando só pode ser utilizado por meio de  `adb shell`.
 > Mais informações:<https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/bugreportz>.
 
-- Mostrar um relatório completo de bugs de um dispositivo Android em formato .zip:
+- Mostra um relatório completo de bugs de um dispositivo Android em formato .zip:
 
 `bugreportz`
 
-- Mostrar o progresso de `bugreportz` em execução:
+- Mostra o progresso de `bugreportz` em execução:
 
 `bugreportz -p`
 
-- Mostrar a versão de `bugreportz`:
+- Mostra a versão de `bugreportz`:
 
 `bugreportz -v`
 
-- Mostrar a ajuda:
+- Mostra a ajuda:
 
 `bugreportz -h`
