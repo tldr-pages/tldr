@@ -20,6 +20,6 @@
 
 `masscan {{0.0.0.0/0}} --ports {{443}} ––rate {{10000000}}`
 
-- Scan the Internet for specific port range and export to file output:
+- Scan the Internet for a specific port range and export to a file:
 
 `masscan {{0.0.0.0/0}} --ports {{0-65535}} -output-format {{binary|grepable|json|list|xml}} --output-filename {{path/to/file}}`
