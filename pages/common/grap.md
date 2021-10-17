@@ -6,7 +6,7 @@
 
 - Process a `grap` file and save the output file for future processing with `pic` and `groff`:
 
-`grap {{filename.grap}} > {{filename.pic}}`
+`grap {{path/to/input.grap}} > {{path/to/output.pic}}`
 
 - Typeset a `grap` file to PDF using the [me] macro package, saving the output to a file:
 

@@ -6,7 +6,7 @@
 
 - Process input with equations, saving the output for future typesetting with groff to PostScript:
 
-`eqn {{filename.eqn}} > {{filename.roff}}`
+`eqn {{path/to/input.eqn}} > {{path/to/output.roff}}`
 
 - Typeset an input file with equations to PDF using the [me] macro package:
 
