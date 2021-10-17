@@ -5,16 +5,16 @@
 
 - Instala um app Android em um emulador/dispositivo:
 
-`adb install {{caminho/para/arquivo.apk}}`
+`adb install {{caminho/para/o/arquivo.apk}}`
 
 - Reinstala um app existente, mantendo seus dados:
 
-`adb install -r {{path/to/file.apk}}`
+`adb install -r {{caminho/para/o/arquivo.apk}}`
 
 - Concede todas as permissões listadas no manifesto do app:
 
-`adb install -g {{path/to/file.apk}}`
+`adb install -g {{caminho/para/o/arquivo.apk}}`
 
 - Atualiza rapidamente um app já instalado atualizando apenas as partes do APK que mudaram:
 
-`adb install --fastdeploy {{path/to/file.apk}}`
+`adb install --fastdeploy {{caminho/para/o/arquivo.apk}}`
