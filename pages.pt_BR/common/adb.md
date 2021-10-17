@@ -22,7 +22,7 @@
 
 - Copia um arquivo/pasta do dispositivo desejado:
 
-`adb pull {{caminho/para/o/arquivo_ou_pasta_no_dispositivo}} {{caminho/para/a/pasta_de_destino_local}}`
+`adb pull {{caminho/para/arquivo_ou_pasta_no_dispositivo}} {{caminho/para/pasta_de_destino_local}}`
 
 - Copia um arquivo/pasta para o dispositivo desejado:
 
