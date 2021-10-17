@@ -26,4 +26,4 @@
 
 - Time out ni belgilash (sekundlarda):
 
-`dumpsys -t {{seconds}}`
+`dumpsys -t {{sekund}}`
