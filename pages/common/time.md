@@ -2,6 +2,6 @@
 
 > See how long a command takes.
 
-- Time "ls":
+- Time a command:
 
-`time ls`
+`time {{command_name}}`
