@@ -5,7 +5,7 @@
 
 - Instala um app Android em um emulador/dispositivo:
 
-`adb install {{caminho/para/o/arquivo.apk}}`
+`adb install {{caminho/para/arquivo.apk}}`
 
 - Reinstala um app existente, mantendo seus dados:
 
