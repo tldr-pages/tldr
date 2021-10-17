@@ -1,7 +1,7 @@
 # pm
 
 > Executa ações e consultas em pacotes de apps instalados no dispositivo.
-> Este comando pode ser usado através de `adb shell`, excluindo a necessidade de prefixar ele com `adb`.
+> Esse comando pode ser usado através de `adb shell`, excluindo a necessidade de prefixar ele com `adb`.
 > Mais informações: <https://developer.android.com/studio/command-line/adb#pm>.
 
 - Exibir uma lista com todos os apps instalados:
