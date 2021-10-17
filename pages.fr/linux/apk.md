@@ -1,6 +1,6 @@
 # apk
 
-> Gestionnaire de paquet d'Alpine Linux
+> Gestionnaire de paquet d'Alpine Linux.
 > Plus d'informations: <https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management>.
 
 - Mettre à jour les indexes de tous les dêpots distants:
