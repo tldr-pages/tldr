@@ -5,4 +5,4 @@
 
 - Java dasturini ishga tushirish:
 
-`dalvikvm -classpath {{path/to/file.jar}} {{classname}}`
+`dalvikvm -classpath {{fayl/uchun/yo'l.jar}} {{klassnomi}}`
