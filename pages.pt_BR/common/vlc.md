@@ -9,7 +9,7 @@
 
 - Reproduzir em tela cheia:
 
-`vlc --fullscreen {{caminho/do/arquivo}}`
+`vlc --fullscreen {{caminho/para/arquivo}}`
 
 - Reproduzir mudo:
 
