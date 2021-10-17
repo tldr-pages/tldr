@@ -13,7 +13,7 @@ Only the left-alignment of the header gets lost and has to be readded again (`|-
 | de    | pfad/zu/datei        | pfad/zu/verzeichnis    | pfad/zu/datei_oder_verzeichnis    | paket     | benutzername      |
 | es    | ruta/al/archivo      | ruta/al/directorio     | ruta/al/archivo_o_directorio      | paquete   |                   |
 | fa    |                      |                        |                                   |           |                   |
-| fr    | chemin/vers/fichier  | chemin/vers/dossier    | chemin/vers/fichier_ou_dossier    | paquet    | nom_d-utilisateur |
+| fr    | chemin/vers/fichier  | chemin/vers/dossier    | chemin/vers/fichier_ou_dossier    | paquet    | nom_d_utilisateur |
 | hi    |                      |                        |                                   |           |                   |
 | id    |                      |                        |                                   |           |                   |
 | it    | percorso/al/file     | percorso/al/directory  | percorso/al/file_o_directory      | pacchetto |                   |
