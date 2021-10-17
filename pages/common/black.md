@@ -15,7 +15,7 @@
 
 `black --diff {{path/to/file_or_directory}}`
 
-- Check the need of auto-formatting without altering the files:
+- Perform a dry run (print what would be done without actually doing it):
 
 `black --check {{path/to/file_or_directory}}`
 
