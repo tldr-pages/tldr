@@ -7,7 +7,7 @@
 
 `deborphan`
 
-- Also try to find orphaned libraries based on their name:
+- List orphan packages from the "libs" section as well as orphan packages that have a name that looks like a library name:
 
 `deborphan --guess-all`
 
