@@ -12,11 +12,11 @@
 
 `:add {{path/to/file_or_directory}}`
 
-- Mettre en pause/Relancer la musique actuelle:
+- Mettre en pause/relancer la musique actuelle:
 
 `c`
 
-- Activer/Désactiver le mode aléatoire:
+- Activer/désactiver le mode aléatoire:
 
 `s`
 
