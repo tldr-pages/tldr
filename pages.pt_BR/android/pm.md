@@ -4,22 +4,22 @@
 > Este comando pode ser usado através de `adb shell`, excluindo a necessidade de prefixar ele com `adb`.
 > Mais informações: <https://developer.android.com/studio/command-line/adb#pm>.
 
-- Exibe uma lista com todos os apps instalados:
+- Exibir uma lista com todos os apps instalados:
 
 `pm list packages`
 
-- Exibe uma lista com todos os apps do sistema instalado:
+- Exibir uma lista com todos os apps do sistema instalado:
 
 `pm list packages -s`
 
-- Exibe uma lista com todos os apps de terceiros instalados:
+- Exibir uma lista com todos os apps de terceiros instalados:
 
 `pm list packages -3`
 
-- Exibe uma lista com todos os apps cujos nomes estejam incluídos em `{{keywords}}`:
+- Exibir uma lista com todos os apps cujos nomes estejam incluídos em `{{keywords}}`:
 
 `pm list packages {{keywords}}`
 
-- Exibe o caminho para o APK de um app:
+- Exibir o caminho para o APK de um app:
 
 `pm path {{app}}`
