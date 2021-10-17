@@ -17,7 +17,7 @@
 
 - Exibe uma lista com todos os apps cujos nomes estejam incluídos em palavras-chave:
 
-`pm list packages {{palavra_chave}}`
+`pm list packages {{palavras_chave}}`
 
 - Exibe o caminho para o APK de um app:
 
