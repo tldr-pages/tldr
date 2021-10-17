@@ -21,7 +21,7 @@
 
 - Copiar arquivos de texto para outra localização, em modo interativo (exige confirmação do usuário antes de sobrescrever):
 
-`cp -i {{*.txt}} {{caminho/do/diretório_alvo}}`
+`cp -i {{*.txt}} {{caminho/para/diretório_alvo}}`
 
 - Seguir links simbólicos antes de copiar:
 
