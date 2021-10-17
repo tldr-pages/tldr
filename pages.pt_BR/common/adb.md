@@ -18,7 +18,7 @@
 
 - Instala um app Android no emulador/dispositivo:
 
-`adb install -r {{caminho/para/o/arquivo.apk}}`
+`adb install -r {{caminho/para/arquivo.apk}}`
 
 - Copia um arquivo/pasta do dispositivo desejado:
 
@@ -26,7 +26,7 @@
 
 - Copia um arquivo/pasta para o dispositivo desejado:
 
-`adb push {{caminho/para/o/arquivo_ou_pasta_local}} {{caminho/para/a/pasta_de_destino_no_dispositivo}}`
+`adb push {{caminho/para/arquivo_ou_pasta_local}} {{caminho/para/pasta_de_destino_no_dispositivo}}`
 
 - Exibe a lista de dispositivos conectados:
 
