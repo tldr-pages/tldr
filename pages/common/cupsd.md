@@ -19,7 +19,7 @@
 
 `cupsd -c {{path/to/cupsd.conf}}`
 
-- Start `cupsd` using the specified cups-file[s].conf configuration file:
+- Start `cupsd` using the specified `cups-file`[`s`]`.conf` configuration file:
 
 `cupsd -s {{path/to/cups-files.conf}}`
 
