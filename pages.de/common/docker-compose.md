@@ -1,7 +1,7 @@
 # docker-compose
 
 > Starte und verwalte Anwendungen, welche aus mehreren Docker Containern bestehen.
-> Weitere Informationen: <https://docs.docker.com/compose/reference/overview/>.
+> Weitere Informationen: <https://docs.docker.com/compose/reference/>.
 
 - Liste alle laufenden Container auf:
 
