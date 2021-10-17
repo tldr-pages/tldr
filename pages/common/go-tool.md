@@ -18,4 +18,4 @@
 
 - Display documentation for a specified tool:
 
-`go doc cmd/{{tool}`
+`go tool {{command}} --help`
