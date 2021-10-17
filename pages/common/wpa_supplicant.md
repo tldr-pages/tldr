@@ -1,7 +1,7 @@
 # wpa_supplicant
 
 > Manage protected wireless networks.
-> More information: <https://linux.die.net/man/8/wpa_supplicant>.
+> More information: <https://manned.org/wpa_supplicant.1>.
 
 - Join a protected wireless network:
 

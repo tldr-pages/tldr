@@ -1,7 +1,7 @@
 # which
 
 > Locate a program in the user's path.
-> More information: <https://linux.die.net/man/1/which>.
+> More information: <https://manned.org/which.1>.
 
 - Search the PATH environment variable and display the location of any matching executables:
 

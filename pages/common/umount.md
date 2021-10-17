@@ -2,7 +2,7 @@
 
 > Unlink a filesystem from its mount point, making it no longer accessible.
 > A filesystem cannot be unmounted when it is busy.
-> More information: <https://man7.org/linux/man-pages/man8/umount.8.html>.
+> More information: <https://manned.org/umount.8>.
 
 - Unmount a filesystem, by passing the path to the source it is mounted from:
 
