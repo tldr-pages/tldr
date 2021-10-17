@@ -5,7 +5,7 @@
 
 - Copiar um arquivo para outra localização:
 
-`cp {{caminho/do/arquivo_entrada.ext}} {{caminho/do/arquivo_saída.ext}}`
+`cp {{caminho/para/arquivo_entrada.ext}} {{caminho/para/arquivo_saída.ext}}`
 
 - Copiar um arquivo para dentro de outro diretório, mantendo o nome:
 
