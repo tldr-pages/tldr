@@ -9,7 +9,7 @@
 
 - Copiar um arquivo para dentro de outro diretório, mantendo o nome:
 
-`cp {{caminho/do/arquivo.ext}} {{caminho/do/diretório}}`
+`cp {{caminho/para/arquivo.ext}} {{caminho/para/diretório}}`
 
 - Recursivamente copiar os conteúdos de um diretório para outra localização (se a destinação existe, o diretório é copiado para dentro dela):
 
