@@ -17,7 +17,7 @@
 
 - Flash a given image:
 
-`fastboot flash {{file.zip}}`
+`fastboot flash {{file.img}}`
 
 - Flash a custom recovery image:
 
