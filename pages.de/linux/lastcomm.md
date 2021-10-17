@@ -9,11 +9,11 @@
 
 - Zeige die ausgeführten Befehle eines bestimmten Benutzers an:
 
-`lastcomm --user {{user}}`
+`lastcomm --user {{benutzer}}`
 
 - Zeige Informationen zu einem bestimmten Befehl an, der auf dem System ausgeführt wird:
 
-`lastcomm --command {{command}}`
+`lastcomm --command {{befehl}}`
 
 - Zeige Informationen zu Befehlen an, die auf einem bestimmten Terminal ausgeführt werden:
 
