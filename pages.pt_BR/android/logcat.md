@@ -9,7 +9,7 @@
 
 - Salva a saída da mensagem de registro em um arquivo:
 
-`logcat -f {{caminho_para_arquivo}}`
+`logcat -f {{caminho/para/arquivo}}`
 
 - Exibe apenas linhas em que a mensagem de registro corresponda a uma expressão regular:
 
