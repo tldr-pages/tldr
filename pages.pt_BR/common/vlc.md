@@ -21,4 +21,4 @@
 
 - Reproduzir vídeo de um URL:
 
-`vlc {{https://www.youtube.com/watch?v=oHg5SJYRHA0}}`
+`vlc {{https://www.youtube.com/watch?v=fxNlpQYRz7s}}`
