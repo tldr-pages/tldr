@@ -13,11 +13,11 @@
 
 - Supprimer un paquet, ses dépendances et ses fichiers de configuration :
 
-`sudo pacman --remove --recursive --nosave {{package_name}}`
+`sudo pacman --remove --recursive --nosave {{paquet}}`
 
 - Supprimer un paquet silencieusement :
 
-`sudo pacman --remove --noconfirm {{package_name}}`
+`sudo pacman --remove --noconfirm {{paquet}}`
 
 - Supprimer les paquets orphelins (installés en tant que dépendance mais requis par aucun paquet installé) :
 
@@ -25,8 +25,8 @@
 
 - Supprimer un paquet et les paquets qui en dépendent :
 
-`sudo pacman --remove --cascade {{package_name}}`
+`sudo pacman --remove --cascade {{paquet}}`
 
 - Afficher les paquets qui seraient affectés par la commande sans agir :
 
-`pacman --remove --print {{package_name}}`
+`pacman --remove --print {{paquet}}`
