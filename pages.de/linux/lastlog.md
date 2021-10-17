@@ -9,7 +9,7 @@
 
 - Zeige den lastlog Datensatz des angegebenen Benutzers an:
 
-`lastlog -u {{username}}`
+`lastlog -u {{benutzername}}`
 
 - Zeige die Datensätze vor 7 Tagen an:
 
