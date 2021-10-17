@@ -1,7 +1,7 @@
 # jrnl
 
 > Una semplice applicazione da linea di comando per tenere un diario.
-> Ulteriori informazioni: <http://jrnl.sh>.
+> Maggiori informazioni: <http://jrnl.sh>.
 
 - Inserisci una nuova nota con il tuo editor:
 
