@@ -7,7 +7,7 @@
 
 `docker-compose ps`
 
-- Erstelle alle Container und starte diese im Hintergrund:
+- Erzeuge und starte alle Container im Hintergrund unter der Verwendung der Datei `docker-compose.yml` im aktuellen Verzeichnis:
 
 `docker-compose up -d`
 
@@ -15,9 +15,9 @@
 
 `docker-compose up --build`
 
-- Starte alle Container für eine alternative docker-compose Datei:
+- Starte alle Container unter Verwendung einer alternativen Compose Datei:
 
-`docker-compose --file {{pfad/zur/datei}} up`
+`docker-compose --file {{pfad/zu/verzeichnis}} up`
 
 - Stoppe alle laufenden Container:
 
@@ -27,10 +27,10 @@
 
 `docker-compose down --rmi all --volumes`
 
-- Zeige aktuelle Log-Nachrichten laufender Container an:
+- Zeige die Logs aller Container kontinuierlich an:
 
 `docker-compose logs --follow`
 
-- Zeige aktuelle Log-Nachrichten eines spezifischen Containers an:
+- Zeige die Logs eines spezifischen Containers kontinuierlich an:
 
-`docker-compose logs --follow {{name_des_containers}}`
+`docker-compose logs --follow {{container_name}}`
