@@ -5,7 +5,7 @@
 
 - Installer un nouveau paquet :
 
-`sudo pacman --sync {{package_name}}`
+`sudo pacman --sync {{paquet}}`
 
 - Synchroniser et mettre à jour :
 
@@ -13,7 +13,7 @@
 
 - Synchroniser, mettre à jour et installer un paquet sans demander de confirmation :
 
-`sudo pacman --sync --refresh --sysupgrade --noconfirm {{package_name}}`
+`sudo pacman --sync --refresh --sysupgrade --noconfirm {{paquet}}`
 
 - Rechercher un paquet en utilisant un nom ou une expression régulière :
 
@@ -21,7 +21,7 @@
 
 - Afficher des informations sur un paquet :
 
-`pacman --sync --info {{package_name}}`
+`pacman --sync --info {{paquet}}`
 
 - Ecrire par dessus des fichiers pendant une mise à jour :
 
@@ -29,7 +29,7 @@
 
 - Synchroniser et mettre à jour les paquets, en ignorant un paquet (peut être utilisé plusieurs fois) :
 
-`sudo pacman --sync --refresh --sysupgrade --ignore {{package_name}}`
+`sudo pacman --sync --refresh --sysupgrade --ignore {{paquet}}`
 
 - Supprimer les fichiers concernant des paquets non installés et les dépôts supprimés du cache de pacman :
 
