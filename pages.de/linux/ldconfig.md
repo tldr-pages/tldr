@@ -10,7 +10,7 @@
 
 - Aktualisiere die symbolischen Verknüpfungen für ein bestimmtes Verzeichnis:
 
-`sudo ldconfig -n {{path/to/directory}}`
+`sudo ldconfig -n {{pfad/zum/ordner}}`
 
 - Gebe die Bibliotheken im Zwichenspeicher aus und prüfe ob eine bestimmte Bibliothek vorhanden ist:
 
