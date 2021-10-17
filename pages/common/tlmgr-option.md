@@ -11,7 +11,7 @@
 
 `tlmgr option show`
 
-- Print all TeX Live settings as JSON:
+- Print all TeX Live settings in JSON format:
 
 `tlmgr option showall --json`
 
