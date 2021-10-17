@@ -1,7 +1,7 @@
 # wajig
 
 > Wajig is a simplified, all-in-one-place, system support tool for Debian and Ubuntu.
-> More information: <https://wajig.togaware.com/>.
+> More information: <https://wajig.togaware.com>.
 
 - Update the list of available packages and versions:
 
@@ -19,11 +19,11 @@
 
 `wajig daily-upgrade`
 
-- Display installed sizes of given packages:
+- Display installed sizes of installed packages:
 
 `wajig sizes`
 
-- List version and distribution of given packages:
+- List version and distribution of installed packages:
 
 `wajig versions`
 
@@ -33,4 +33,4 @@
 
 - Display packages which have some form of dependency on the given package:
 
-`wajig dependents`
+`wajig dependents {{package}}`
