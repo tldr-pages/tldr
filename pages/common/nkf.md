@@ -2,6 +2,7 @@
 
 > Network kanji filter.
 > Converts kanji code from one encoding to another.
+> More information: <https://manned.org/nkf>.
 
 - Convert to UTF-8 encoding:
 
