@@ -16,6 +16,6 @@
 
 `bugreportz -v`
 
-- Mostrar ajuda:
+- Mostrar a ajuda:
 
 `bugreportz -h`
