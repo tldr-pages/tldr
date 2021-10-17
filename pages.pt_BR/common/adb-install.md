@@ -3,11 +3,11 @@
 > Android Debug Bridge Install: Instalar apps em uma instância do Android emulator ou dispositivos conectados.
 > Mais informações: <https://developer.android.com/studio/command-line/adb>.
 
-- Instalar um app Android em um emulador/dispositivo:
+- Instala um app Android em um emulador/dispositivo:
 
 `adb install {{path/to/file.apk}}`
 
-- Reinstalar um app existente, mantendo seus dados:
+- Reinstala um app existente, mantendo seus dados:
 
 `adb install -r {{path/to/file.apk}}`
 
