@@ -12,7 +12,7 @@
 
 `go tool link {{path/to/main.o}}`
 
-- Print the command that would be executed, but do not execute it (similar to whereis):
+- Print the command that would be executed, but do not execute it (similar to `whereis`):
 
 `go tool -n {{command}} {{arguments}}`
 
