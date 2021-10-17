@@ -11,7 +11,7 @@
 
 `rm -r {{sökväg/till/mapp}}`
 
-- Tvinga borttagning av en mapp utan att konfirmera eller visa error meddelanden:
+- Tvinga borttagning av en mapp utan att bekräfta eller visa felmeddelanden:
 
 `rm -rf {{sökväg/till/mapp}}`
 
