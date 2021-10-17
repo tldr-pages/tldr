@@ -9,8 +9,8 @@
 
 - Salva a saída da mensagem de registro em um arquivo:
 
-`logcat -f {{path/to/file}}`
+`logcat -f {{caminho_para_o_arquivo}}`
 
 - Exibe apenas linhas em que a mensagem de registro corresponda a uma expressão regular:
 
-`logcat --regex {{regular_expression}}`
+`logcat --regex {{expressao_regular}}`

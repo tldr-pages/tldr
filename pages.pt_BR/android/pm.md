@@ -15,9 +15,9 @@
 
 `pm list packages -3`
 
-- Exibe uma lista com todos os apps cujos nomes estejam incluídos em `{{keywords}}`:
+- Exibe uma lista com todos os apps cujos nomes estejam incluídos em `{{palavra_chave}}`:
 
-`pm list packages {{keywords}}`
+`pm list packages {{palavra_chave}}`
 
 - Exibe o caminho para o APK de um app:
 
