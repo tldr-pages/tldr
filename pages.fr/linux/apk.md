@@ -9,20 +9,20 @@
 
 - Installer un nouveau paquet:
 
-`apk add {{package}}`
+`apk add {{paquet}}`
 
 - Désinstaller un paquet:
 
-`apk del {{package}}`
+`apk del {{paquet}}`
 
 - Essayer de réparer un paquet ou mettre à jour un paquet sans ses dépendances:
 
-`apk fix {{package}}`
+`apk fix {{paquet}}`
 
 - Rechercher des paquets à partir d'un mot-clé:
 
-`apk search {{keyword}}`
+`apk search {{mot_cle}}`
 
 - Obtenir des information à propos d'un paquet précis:
 
-`apk info {{package}}`
+`apk info {{paquet}}`
