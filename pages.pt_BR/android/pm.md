@@ -15,7 +15,7 @@
 
 `pm list packages -3`
 
-- Exibe uma lista com todos os apps cujos nomes estejam incluídos em `{{palavra_chave}}`:
+- Exibe uma lista com todos os apps cujos nomes estejam incluídos em palavras-chave:
 
 `pm list packages {{palavra_chave}}`
 
