@@ -10,7 +10,7 @@
 
 - Gera um diagnóstico de um serviço do sistema específico:
 
-`dumpsys {{service}}`
+`dumpsys {{serviço}}`
 
 - Lista todos os serviços que o `dumpsys` pode obter informações:
 
@@ -18,12 +18,12 @@
 
 - Lista argumentos específicos-de-um-serviço para um serviço:
 
-`dumpsys {{service}} -h`
+`dumpsys {{serviço}} -h`
 
 - Omite um serviço em específico do diagnóstico:
 
-`dumpsys --skip {{service}}`
+`dumpsys --skip {{serviço}}`
 
 - Específica um periodo de _timeout_ (por padrão é 10s):
 
-`dumpsys -t {{seconds}}`
+`dumpsys -t {{segundos}}`

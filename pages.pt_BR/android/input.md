@@ -6,11 +6,11 @@
 
 - Envia um código de evento de um caractere para um dispositivo Android:
 
-`input keyevent {{event_code}}`
+`input keyevent {{codigo_de_evento}}`
 
 - Envia texto para um dispositivo Android (`%s` representa espaços):
 
-`input text "{{text}}"`
+`input text "{{texto}}"`
 
 - Envia um único toque para um dispositivo Android:
 
@@ -18,8 +18,8 @@
 
 - Envia um gesto de deslizar para um dispositivo Android:
 
-`input swipe {{x_start}} {{y_start}} {{x_end}} {{y_end}} {{duration_in_ms}}`
+`input swipe {{x_inicio}} {{y_inicio}} {{x_fim}} {{y_fim}} {{duração_em_ms}}`
 
 - Envia um pressionamento longo usando gesto de deslizar para um dispositivo Android:
 
-`input swipe {{x_pos}} {{y_pos}} {{x_pos}} {{y_pos}} {{duration_in_ms}}`
+`input swipe {{x_pos}} {{y_pos}} {{x_pos}} {{y_pos}} {{duração_em_ms}}`
