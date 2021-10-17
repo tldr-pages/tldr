@@ -17,7 +17,7 @@
 
 - Reproduzir repetidamente:
 
-`vlc --loop {{caminho/do/arquivo}}`
+`vlc --loop {{caminho/para/arquivo}}`
 
 - Reproduzir vídeo de um URL:
 
