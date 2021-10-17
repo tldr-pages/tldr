@@ -10,11 +10,11 @@
 
 - Marquer un paquet comme étant installé en tant que dépendance:
 
-`sudo pacman --database --asdeps {{package}}`
+`sudo pacman --database --asdeps {{paquet}}`
 
 - Marquer un paquet comme étant explicitement installé:
 
-`sudo pacman --database --asexplicit {{package}}`
+`sudo pacman --database --asexplicit {{paquet}}`
 
 - Vérifier les dépendances de tous les paquets installés:
 
