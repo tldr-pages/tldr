@@ -5,7 +5,7 @@
 
 - Reproduzir um arquivo:
 
-`vlc {{caminho/do/arquivo}}`
+`vlc {{caminho/para/arquivo}}`
 
 - Reproduzir em tela cheia:
 
