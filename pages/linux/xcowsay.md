@@ -12,7 +12,7 @@
 
 `ls | xcowsay`
 
-- Display a cow at the specified `X` and `Y` coordinates:
+- Display a cow at the specified X and Y coordinates:
 
 `xcowsay --at={{X}},{{Y}}`
 
