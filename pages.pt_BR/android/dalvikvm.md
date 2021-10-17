@@ -5,4 +5,4 @@
 
 - Inicia um programa Java:
 
-`dalvikvm -classpath {{caminho/para/o/arquivo.jar}} {{nome_da_classe}}`
+`dalvikvm -classpath {{caminho/para/arquivo.jar}} {{nome_da_classe}}`
