@@ -1,0 +1,28 @@
+# bluetoothctl
+
+> കമാൻഡ് ലൈനിൽ നിന്ന് ബ്ലൂടൂത്ത് ഉപകരണങ്ങൾ മാനേജുചെയ്യുക.
+> കൂടുതൽ വിവരങ്ങൾ: <https://www.npmjs.com/package/bluetoothctl>.
+
+- ബ്ലൂടൂത്ത്സിറ്റിഎൽ ഷെല്ലിൽ കേറാൻ 
+
+`bluetoothctl`
+
+- ഉപകരണങ്ങളുടെ പട്ടിക കാണാൻ
+
+`bluetoothctl -- devices`
+
+- ഒരു ഉപകരണം ജോടിയാക്കുക
+
+`bluetoothctl -- pair {{mac_address}}`
+
+- ഒരു ഉപകരണം നീക്കംചെയ്യുക
+
+`bluetoothctl -- remove {{mac_address}}`
+
+- ജോഡിയായ ഉപകരണവുമായി ബന്ധിപ്പിക്കുക
+
+`bluetoothctl -- connect {{mac_address}}`
+
+- ഒരു ജോഡിയായ ഉപകരണവുമായുള്ള ബന്ധം വിച്ഛേദിക്കുക
+
+`bluetoothctl -- disconnect {{mac_address}}`
