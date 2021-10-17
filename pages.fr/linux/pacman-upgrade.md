@@ -9,20 +9,20 @@
 
 - Installer un ou des paquets depuis le système de fichiers :
 
-`sudo pacman --upgrade {{chemin/vers/fichier1}} {{chemin/vers/fichier2}}`
+`sudo pacman --upgrade {{chemin/vers/paquet1.pkg.tar.zst}} {{chemin/vers/paquet2.pkg.tar.zst}}`
 
 - Installer un paquet silencieusement :
 
-`sudo pacman --upgrade --noconfirm {{chemin/vers/fichier}}`
+`sudo pacman --upgrade --noconfirm {{chemin/vers/paquet.pkg.tar.zst}}`
 
 - Ecrire par dessus les fichiers en conflit pendant l'installation du paquet :
 
-`sudo pacman --upgrade --overwrite {{chemin/vers/fichier}} {{chemin/vers/fichier}}`
+`sudo pacman --upgrade --overwrite {{chemin/vers/fichier}} {{chemin/vers/paquet.pkg.tar.zst}}`
 
 - Installer un paquet sans vérifier les dépendances :
 
-`sudo pacman --upgrade --nodeps {{chemin/vers/fichier}}`
+`sudo pacman --upgrade --nodeps {{chemin/vers/paquet.pkg.tar.zst}}`
 
 - Afficher ce qui se passerait si la commande était exécutée mais sans agir :
 
-`pacman --query --print {{chemin/vers/fichier}}`
+`pacman --query --print {{chemin/vers/paquet.pkg.tar.zst}}`
