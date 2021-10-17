@@ -8,6 +8,6 @@
 
 `grap {{filename.grap}} > {{filename.pic}}`
 
-- Typeset a `grap` file to [PDF] using the [me] macro package, saving the output to a file:
+- Typeset a `grap` file to PDF using the [me] macro package, saving the output to a file:
 
-`grap {{filename.grap}} | pic -T {{pdf}} | groff -{{me}} -T {{pdf}} > {{filename.pdf}}`
+`grap {{path/to/input.grap}} | pic -T {{pdf}} | groff -{{me}} -T {{pdf}} > {{path/to/output.pdf}}`

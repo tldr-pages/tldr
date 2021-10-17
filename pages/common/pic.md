@@ -6,8 +6,8 @@
 
 - Process input with pictures, saving the output for future typesetting with groff to PostScript:
 
-`pic {{filename.pic}} > {{filename.roff}}`
+`pic {{path/to/input.pic}} > {{path/to/output.roff}}`
 
-- Typeset input with pictures to [PDF] using the [me] macro package, saving the output:
+- Typeset input with pictures to PDF using the [me] macro package:
 
-`pic -T {{pdf}} {{filename.pic}} | groff -{{me}} -T {{pdf}} > {{filename.pdf}}`
+`pic -T {{pdf}} {{path/to/input.pic}} | groff -{{me}} -T {{pdf}} > {{path/to/output.pdf}}`

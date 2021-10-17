@@ -8,6 +8,6 @@
 
 `eqn {{filename.eqn}} > {{filename.roff}}`
 
-- Typeset input with equations to [PDF] using the [me] macro package, saving the output:
+- Typeset an input file with equations to PDF using the [me] macro package:
 
-`eqn -T {{pdf}} {{filename.eqn}} | groff -{{me}} -T {{pdf}} > {{filename.pdf}}`
+`eqn -T {{pdf}} {{path/to/input.eqn}} | groff -{{me}} -T {{pdf}} > {{path/to/output.pdf}}`

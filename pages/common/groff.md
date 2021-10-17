@@ -5,7 +5,7 @@
 
 - Format output for a PostScript printer, saving the output to a file:
 
-`groff {{filename.roff}} > {{filename.ps}}`
+`groff {{path/to/input.roff}} > {{path/to/output.ps}}`
 
 - Render a man page using the ASCII output device, and display it using a pager:
 
@@ -13,7 +13,7 @@
 
 - Render a man page into an HTML file:
 
-`groff -man -T html {{manpage.1}} > {{manpage.html}}`
+`groff -man -T html {{manpage.1}} > {{path/to/manpage.html}}`
 
 - Typeset a roff file containing [t]ables and [p]ictures, using the [me] macro set, to PDF, saving the output:
 

@@ -6,16 +6,16 @@
 
 - Format output for a PostScript printer, saving the output to a file:
 
-`troff {{filename.roff}} | grops > {{filename.ps}}`
+`troff {{path/to/input.roff}} | grops > {{path/to/output.ps}}`
 
 - Format output for a PostScript printer using the [me] macro package, saving the output to a file:
 
-`troff -{{me}} {{filename.roff}} | grops > {{filename.ps}}`
+`troff -{{me}} {{path/to/input.roff}} | grops > {{path/to/output.ps}}`
 
 - Format output as [a]SCII text using the [man] macro package:
 
-`troff -T {{ascii}} -{{man}} {{filename.roff}} | grotty`
+`troff -T {{ascii}} -{{man}} {{path/to/input.roff}} | grotty`
 
 - Format output as a [pdf] file, saving the output to a file:
 
-`troff -T {{pdf}} {{filename.roff}} | gropdf > {{filename.pdf}}`
+`troff -T {{pdf}} {{path/to/input.roff}} | gropdf > {{path/to/output.pdf}}`
