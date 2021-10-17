@@ -10,11 +10,11 @@
 
 - Run the go link tool:
 
-`go tool link main.o`
+`go tool link {{path/to/main.o}}`
 
 - Print the command that would be executed, but do not execute it:
 
-`go tool -n dist clean`
+`go tool -n {{command}} {{arguments}}`
 
 - Display documentation for a specified tool:
 
