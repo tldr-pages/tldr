@@ -29,4 +29,4 @@
 
 - Usar todo o caminho dos arquivos fonte, criando quaisquer diretórios intermediários ausentes quando copia:
 
-`cp --parents {{fonte/caminho/do/arquivo}} {{caminho/do/arquivo_alvo}}`
+`cp --parents {{fonte/caminho/para/arquivo}} {{caminho/para/arquivo_alvo}}`
