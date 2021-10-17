@@ -13,7 +13,7 @@
 
 - Reproduzir mudo:
 
-`vlc --no-audio {{caminho/do/arquivo}}`
+`vlc --no-audio {{caminho/para/arquivo}}`
 
 - Reproduzir repetidamente:
 
