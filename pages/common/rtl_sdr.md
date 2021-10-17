@@ -5,7 +5,7 @@
 
 - Save RAW data from frequency specified in Hz in file:
 
-`rtl_sdr -f {{100000000}} {{filename}}`
+`rtl_sdr -f {{100000000}} {{path/to/file}}`
 
 - Pipe data to another program:
 
