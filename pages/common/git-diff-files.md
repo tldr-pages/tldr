@@ -1,6 +1,6 @@
 # git diff-files
 
-> Compare files in the working tree and index.
+> Compare files using their sha1 hashes and modes.
 > More information: <https://git-scm.com/docs/git-diff-files>.
 
 - Compare all changed files:
