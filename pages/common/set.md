@@ -17,3 +17,7 @@
 - Set various options, e.g. enable `vi` style line editing:
 
 `set -o {{vi}}`
+
+- Set the shell to exit as soon as the first error is encountered. Mostly used in scripts:
+
+`set -e`
