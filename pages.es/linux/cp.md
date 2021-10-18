@@ -17,7 +17,7 @@
 
 - Copia un directorio de forma recursiva en modo verbose (muestra los archivos a medida que se copian):
 
-`cp -vr {{path/to/source_directory}} {{path/to/target_directory}}`
+`cp -vr {{ruta/al/directorio_origen}} {{ruta/al/directorio_destino}}`
 
 - Copia archivos de texto en otra ubicación en modo interactivo (pregunta al usuario antes de sobreescribir):
 
