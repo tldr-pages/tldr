@@ -1,6 +1,7 @@
 # warp-diag
 
-> Diagnostic and feedback tool for Cloudflare's WARP service (`warp-cli`).
+> Diagnostic and feedback tool for Cloudflare's WARP service.
+> See also: `warp-cli`.
 > More information: <https://developers.cloudflare.com/warp-client/setting-up/linux>.
 
 - Generate a complete zipped log file of the `warp-cli` process:
