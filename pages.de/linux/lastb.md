@@ -15,7 +15,7 @@
 
 `sudo lastb --until {{YYYY-MM-DD}}`
 
-- Zeige eine Liste aller angemeldeten Benutzer zu einem bestimmten Zeitpunnkt an:
+- Zeige eine Liste aller angemeldeten Benutzer zu einem bestimmten Zeitpunkt an:
 
 `sudo lastb --present {{hh:mm}}`
 
