@@ -17,7 +17,7 @@
 
 - Ejecuta un programa, limita el uso del CPU a 50% y corre cpulimit en segundo plano:
 
-`cpulimit --limit {{50}} --background -- {{program}}`
+`cpulimit --limit {{50}} --background -- {{programa}}`
 
 - Mata su proceso si el uso del CPU del programa supera el 50%:
 
