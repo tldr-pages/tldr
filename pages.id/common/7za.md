@@ -30,7 +30,7 @@
 
 - Me[l]ihat daftar isi dari sebuah file arsip:
 
-`7za l {{path/to/archive.7z}}`
+`7za l {{jalan/menuju/arsip.7z}}`
 
 - Mengetahui daftar format file arsip yang didukung:
 
