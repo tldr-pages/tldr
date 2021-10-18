@@ -13,7 +13,7 @@
 
 - Copia de forma recursiva el contenido de un directorio a otra ubicación (si el destino existe, el directorio es copiado en esa ubicación):
 
-`cp -r {{path/to/source_directory}} {{path/to/target_directory}}`
+`cp -r {{ruta/al/directorio_origen}} {{ruta/al/directorio_destino}}`
 
 - Copia un directorio de forma recursiva en modo verbose (muestra los archivos a medida que se copian):
 
