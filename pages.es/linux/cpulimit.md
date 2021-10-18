@@ -9,7 +9,7 @@
 
 - Limita un programa existente por su nombre de ejecución:
 
-`cpulimit --exe {{program}} --limit {{25}}`
+`cpulimit --exe {{programa}} --limit {{25}}`
 
 - Ejecuta un programa determinado y limita su uso a solo el 50% del CPU:
 
