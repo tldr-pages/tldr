@@ -13,7 +13,7 @@
 
 - Show only the names of changed files:
 
-`git diff --name-only`
+`git diff-files --name-only`
 
 - Output a summary of extended header information:
 
