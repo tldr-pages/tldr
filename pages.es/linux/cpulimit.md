@@ -23,6 +23,6 @@
 
 `cpulimit --limit 50 --kill -- {{program}}`
 
-- Regula su proceso y sus procesos secundarios para que ninguno supere el  25% del CPU:
+- Regula su proceso y sus subprocesos para que ninguno supere el 25% del CPU:
 
 `cpulimit --limit {{25}} --monitor-forks -- {{programa}}`
