@@ -11,11 +11,11 @@
 
 `list disk`
 
-- Assign a drive letter to the selected volume:
+- Select a volume:
 
 `select volume {{volume}}`
 
-Then:
+- Assign a drive letter to the selected volume:
 
 `assign letter {{letter}}`
 
@@ -24,10 +24,6 @@ Then:
 `create partition primary`
 
 - Activate a volume:
-
-`select volume {{volume}}`
-
-Then:
 
 `active`
 
