@@ -25,4 +25,4 @@
 
 - Regula su proceso y sus procesos secundarios para que ninguno supere el  25% del CPU:
 
-`cpulimit --limit {{25}} --monitor-forks -- {{program}}`
+`cpulimit --limit {{25}} --monitor-forks -- {{programa}}`
