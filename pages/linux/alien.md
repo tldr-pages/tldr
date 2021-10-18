@@ -1,23 +1,24 @@
 # alien
 
-> Converts different instalation packages to multiple other formats. More information: http://manpages.ubuntu.com/manpages/trusty/man1/alien.1p.html.
+> Converts different instalation packages to multiple other formats. 
+> More information: http://manpages.ubuntu.com/manpages/trusty/man1/alien.1p.html.
 
-- Convert the installation file to [d]ebian linux format [deb]:
+- Convert a specific installation file to Debian format (`.deb extension):
 
-`alien -d {{file}}`
+`sudo alien --to-deb {{path/to/file}}`
 
-- Convert the installation file to [r]ed hat linux format [rpm]:
+- Convert a specific installation file to Red Hat format (`.rpm extension):
 
-`alien -r {{file}`
+`sudo alien --to-rpm {{path/to/file}]`
 
-- Convert the installation file to Stampede [SLP] format:
+- Convert a specific installation file to Stampede [SLP] format:
 
-`alien --to-slp {{file}}`
+`sudo alien --to-slp {{path/to/file}}`
 
-- Convert the installation file to a Slackware [t]gz installation file [tgz]:
+- Convert a specific installation file to a Slackware installation file (`.tgz extension`):
 
-`alien -t {{file}}`
+`sudo alien --to-tgz {{file}}`
 
-- [I]nstall a package as soon as it finishes converting:
+- Convert a specific installation file to Debian format and install on the system:
 
-`alien {{options}} {{file}} -i`
+`sudo alien --to-deb --install {{file}}`
