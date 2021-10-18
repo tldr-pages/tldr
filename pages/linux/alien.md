@@ -1,7 +1,7 @@
 # alien
 
-> Converts different instalation packages to multiple other formats. 
-> More information: http://manpages.ubuntu.com/manpages/trusty/man1/alien.1p.html.
+> Converts different instalation packages to multiple other formats.
+> More information: <http://manpages.ubuntu.com/manpages/trusty/man1/alien.1p.html>.
 
 - Convert a specific installation file to Debian format (`.deb extension):
 
