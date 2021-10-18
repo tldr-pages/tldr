@@ -11,10 +11,10 @@
 
 `warp-diag --add-ts`
 
-- Save the output file under a specific name and directory:
+- Save the output file under a specific directory:
 
-`warp-diag --output {{path/to/file}}`
+`warp-diag --output {{path/to/directory}}`
 
-- Submit a new feedback to Cloudflare's WARP team:
+- Submit a new feedback to Cloudflare's WARP interactively:
 
 `warp-diag feedback`

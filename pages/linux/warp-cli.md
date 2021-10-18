@@ -3,11 +3,11 @@
 > Official command-line client for Cloudflare's WARP service.
 > More information: <https://developers.cloudflare.com/warp-client/setting-up/linux>.
 
-- Register your device to WARP (must be run before first connection):
+- Register the current device to WARP (must be run before first connection):
 
 `warp-cli register`
 
-- Connect to WARP service:
+- Connect to WARP:
 
 `warp-cli connect`
 
@@ -15,11 +15,11 @@
 
 `warp-cli disconnect`
 
-- Check your WARP connection status:
+- Display WARP connection status:
 
 `warp-cli status`
 
-- Display general help:
+- Display help:
 
 `warp-cli help`
 
