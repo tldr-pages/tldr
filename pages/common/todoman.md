@@ -7,7 +7,7 @@
 
 `todo new {{thing_to_do}} --list {{work}}`
 
-- List only startable tasks:
+- List startable tasks:
 
 `todo list --startable`
 
