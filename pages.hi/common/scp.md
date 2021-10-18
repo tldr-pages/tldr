@@ -30,4 +30,4 @@
 
 - दूरस्थ होस्ट के साथ प्रमाणीकरण के लिए विशिष्ट ssh निजी कुंजी का उपयोग करें:
 
-`scp -i {{~/.ssh/private_key}} {{local_file}} {{remote_host}}:{{/path/remote_file}}` 
+`scp -i {{~/.ssh/private_key}} {{local_file}} {{remote_host}}:{{/path/remote_file}}`
