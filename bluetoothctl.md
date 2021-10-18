@@ -13,16 +13,16 @@
 
 - ഒരു ഉപകരണം ജോടിയാക്കുക
 
-`bluetoothctl -- pair {{mac_address}}`
+`bluetoothctl -- pair {{മാക് വിലാസം}}`
 
 - ഒരു ഉപകരണം നീക്കംചെയ്യുക
 
-`bluetoothctl -- remove {{mac_address}}`
+`bluetoothctl -- remove {{മാക് വിലാസം}}`
 
 - ജോഡിയായ ഉപകരണവുമായി ബന്ധിപ്പിക്കുക
 
-`bluetoothctl -- connect {{mac_address}}`
+`bluetoothctl -- connect {{മാക് വിലാസം}}`
 
 - ഒരു ജോഡിയായ ഉപകരണവുമായുള്ള ബന്ധം വിച്ഛേദിക്കുക
 
-`bluetoothctl -- disconnect {{mac_address}}`
+`bluetoothctl -- disconnect {{മാക് വിലാസം}}`
