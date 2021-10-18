@@ -5,11 +5,11 @@
 
 - Führe einen Befehl mit angegebenen Argument(en) aus und speichere die Ausgabe in eine Logdatei:
 
-`logsave {{pfad/zum/logfile}} {{befehl}}`
+`logsave {{pfad/zur/logdatei}} {{befehl}}`
 
 - Überneme die Eingabe der Standardeingabe und speichere diese in eine Logdatei:
 
-`logsave {{logfile}} -`
+`logsave {{logdatei}} -`
 
 - Hänge die Ausgabe an eine Logdatei an, anstatt deren aktuellen Inhalt zu ersetzen:
 
