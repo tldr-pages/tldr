@@ -11,10 +11,6 @@
 
 `sudo alien --to-rpm {{path/to/file}}`
 
-- Convert a specific installation file to Stampede format (`.slp` extension):
-
-`sudo alien --to-slp {{path/to/file}}`
-
 - Convert a specific installation file to a Slackware installation file (`.tgz` extension):
 
 `sudo alien --to-tgz {{path/to/file}}`
