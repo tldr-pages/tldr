@@ -14,4 +14,4 @@
 
 - Gebe die Bibliotheken im Zwichenspeicher aus und prüfe ob eine bestimmte Bibliothek vorhanden ist:
 
-`ldconfig -p | grep {{library_name}}`
+`ldconfig -p | grep {{bibliotheksname}}`
