@@ -5,16 +5,16 @@
 
 - Run a process that can live beyond the terminal:
 
-`nohup {{command}} {{command_options}}`
+`nohup {{command}} {{command_arguments}}`
 
 - Launch nohup in background mode:
 
-`nohup {{command}} {{command_options}} &`
+`nohup {{command}} {{command_arguments}} &`
 
 - Run a shell script that can live beyond the terminal:
 
-`nohup {{path/to/shell/script}} &`
+`nohup {{path/to/script.sh}} &`
 
-- Run a process and choose a path for nohup.out log file:
+- Run a process and write the output to a specific file:
 
-`nohup {{command}} {{command_options}} > {{path/to/custom.out}} &`
+`nohup {{command}} {{command_arguments}} > {{path/to/output_file.log}} &`
