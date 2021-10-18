@@ -21,7 +21,7 @@
 
 - Copia archivos de texto en otra ubicación en modo interactivo (pregunta al usuario antes de sobreescribir):
 
-`cp -i {{*.txt}} {{path/to/target_directory}}`
+`cp -i {{*.txt}} {{ruta/al/directorio_destino}}`
 
 - Sigue los enlaces simbólicos antes de copiar:
 
