@@ -1,7 +1,7 @@
 # time
 
 > See how long a command takes.
-> More information: <https://manned.org/time.1>.
+> More information: <https://manned.org/time>.
 
 - Time "ls":
 

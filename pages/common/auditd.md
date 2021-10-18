@@ -2,7 +2,7 @@
 
 > This responds to requests from the audit utility and notifications from the kernel.
 > It should not be invoked manually.
-> More information: <https://manned.org/auditd.8>.
+> More information: <https://manned.org/auditd>.
 
 - Start the daemon:
 
