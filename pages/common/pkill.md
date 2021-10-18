@@ -12,7 +12,7 @@
 
 `pkill -f "{{command_name}}"`
 
-- Force kill process which mapches, can't be blocked:
+- Force kill process which matches, can't be blocked:
 
 `pkill -9 "{{process_name}}"`
 
