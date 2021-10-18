@@ -17,4 +17,4 @@
 
 - Case-insensitive pattern matching within a tar file:
 
-`ptargrep -i "{{search_pattern}}" {{path/to/file}}`
+`ptargrep --ignore-case "{{search_pattern}}" {{path/to/file}}`
