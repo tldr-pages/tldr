@@ -15,6 +15,6 @@
 
 `ptargrep --basename "{{search_pattern}}" {{path/to/file}}`
 
-- Case-insensitive pattern matching within a tar file:
+- Search for a case-insensitive pattern matching within a tar file:
 
 `ptargrep --ignore-case "{{search_pattern}}" {{path/to/file}}`
