@@ -25,7 +25,7 @@
 
 - Sigue los enlaces simbólicos antes de copiar:
 
-`cp -L {{link}} {{path/to/target_directory}}`
+`cp -L {{link}} {{ruta/al/directorio_destino}}`
 
 - Usa la ruta completa de los archivos de origen, creando los directorios intermedios faltantes al copiar:
 
