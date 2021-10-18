@@ -29,4 +29,4 @@
 
 - Usa la ruta completa de los archivos de origen, creando los directorios intermedios faltantes al copiar:
 
-`cp --parents {{source/path/to/file}} {{path/to/target_file}}`
+`cp --parents {{ruta_de_origen/al/archivo}} {{ruta/al/archivo_destino}}`
