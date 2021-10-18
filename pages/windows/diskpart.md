@@ -15,6 +15,8 @@
 
 `select volume {{volume}}`
 
+Then,
+
 `assign letter {{letter}}`
 
 - Create a new partition:
@@ -24,6 +26,8 @@
 - Activate a volume:
 
 `select volume {{volume}}`
+
+Then,
 
 `active`
 
