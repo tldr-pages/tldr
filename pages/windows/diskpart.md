@@ -3,7 +3,7 @@
 > Disk, volume and partition manager.
 > More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/diskpart>.
 
-- Run diskpart by itself in an administrative command prompt to enter its command line.
+- Run diskpart by itself in an administrative command prompt to enter its command line:
 
 `diskpart`
 
@@ -15,7 +15,7 @@
 
 `select volume {{volume}}`
 
-Then,
+Then:
 
 `assign letter {{letter}}`
 
@@ -27,7 +27,7 @@ Then,
 
 `select volume {{volume}}`
 
-Then,
+Then:
 
 `active`
 
