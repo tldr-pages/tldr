@@ -21,7 +21,7 @@
 
 - Mata su proceso si el uso del CPU del programa supera el 50%:
 
-`cpulimit --limit 50 --kill -- {{program}}`
+`cpulimit --limit 50 --kill -- {{programa}}`
 
 - Regula su proceso y sus subprocesos para que ninguno supere el 25% del CPU:
 
