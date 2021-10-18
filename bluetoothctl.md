@@ -9,20 +9,20 @@
 
 - ഉപകരണങ്ങളുടെ പട്ടിക കാണാൻ
 
-`bluetoothctl -- devices`
+`bluetoothctl --devices`
 
 - ഒരു ഉപകരണം ജോടിയാക്കുക
 
-`bluetoothctl -- pair {{മാക് വിലാസം}}`
+`bluetoothctl --pair {{മാക്_വിലാസം}}`
 
 - ഒരു ഉപകരണം നീക്കംചെയ്യുക
 
-`bluetoothctl -- remove {{മാക് വിലാസം}}`
+`bluetoothctl --remove {{മാക്_വിലാസം}}`
 
 - ജോഡിയായ ഉപകരണവുമായി ബന്ധിപ്പിക്കുക
 
-`bluetoothctl -- connect {{മാക് വിലാസം}}`
+`bluetoothctl --connect {{മാക്_വിലാസം}}`
 
 - ഒരു ജോഡിയായ ഉപകരണവുമായുള്ള ബന്ധം വിച്ഛേദിക്കുക
 
-`bluetoothctl -- disconnect {{മാക് വിലാസം}}`
+`bluetoothctl --disconnect {{മാക്_വിലാസം}}`
