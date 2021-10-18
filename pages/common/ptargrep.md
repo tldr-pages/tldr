@@ -13,7 +13,7 @@
 
 - Extract to the current directory using the basename of the file from the archive:
 
-`ptargrep -b "{{search_pattern}}" {{path/to/file}}`
+`ptargrep --basename "{{search_pattern}}" {{path/to/file}}`
 
 - Case-insensitive pattern matching within a tar file:
 
