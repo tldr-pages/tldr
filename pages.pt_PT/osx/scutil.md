@@ -17,7 +17,7 @@
 
 - Altera o nome do computador:
 
-`sudo scutil --set ComputerName {{computer_name}}`
+`sudo scutil --set ComputerName {{nome_computador}}`
 
 - Obtêm o nome de rede do computador:
 
@@ -25,4 +25,4 @@
 
 - Altera o nome de rede do computador:
 
-`scutil --set HostName {{hostname}}`
+`scutil --set HostName {{nome_rede_computador}}`
