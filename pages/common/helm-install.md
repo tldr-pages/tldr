@@ -5,11 +5,11 @@
 
 - Install a helm chart:
 
-`helm install {{name}} {{repo_name}}/{{chart_name}}`
+`helm install {{name}} {{repository_name}}/{{chart_name}}`
 
 - Install a helm chart from an unpacked chart directory:
 
-`helm install {{name}} {{./folder}}`
+`helm install {{name}} {{path/to/directory}}`
 
 - Install a helm chart from an url:
 
@@ -17,16 +17,16 @@
 
 - Install a helm chart and generate a name:
 
-`helm install {{repo_name}}/{{chart_name}} --generate-name`
+`helm install {{repository_name}}/{{chart_name}} --generate-name`
 
 - Perform a dry run:
 
-`helm install {{name}} {{repo_name}}/{{chart_name}} --dry-run`
+`helm install {{name}} {{repository_name}}/{{chart_name}} --dry-run`
 
 - Install a helm chart with custom values:
 
-`helm install {{name}} {{repo_name}}/{{chart_name}} --set {{parameter1}}={{value1}},{{parameter2}}={{value2}}`
+`helm install {{name}} {{repository_name}}/{{chart_name}} --set {{parameter1}}={{value1}},{{parameter2}}={{value2}}`
 
 - Install a helm chart passing a values file:
 
-`helm install {{name}} {{repo_name}}/{{chart_name}} --values {{values.yaml}}`
+`helm install {{name}} {{repository_name}}/{{chart_name}} --values {{path/to/values.yaml}}`
