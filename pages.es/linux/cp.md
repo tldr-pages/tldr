@@ -5,7 +5,7 @@
 
 - Copia un archivo a otro directorio:
 
-`cp {{path/to/source_file.ext}} {{path/to/target_file.ext}}`
+`cp {{ruta/al/archivo_origen.ext}} {{ruta/al/archivo_destino.ext}}`
 
 - Copia un archivo en otro directorio, conservando el nombre del archivo:
 
