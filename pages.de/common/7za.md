@@ -26,7 +26,7 @@
 
 - [a]rchiviere mit einem bestimmten Archivtyp:
 
-`7za a -t{{zip|gzip|bzip2|tar}} {{pfad/zu/archiv.7z}} {{pfad/zu/datei_oder_verzeichnis}}`
+`7za a -t{{7z|zip|gzip|bzip2|lzip|tar}} {{pfad/zu/archiv.7z}} {{pfad/zu/datei_oder_verzeichnis}}`
 
 - [l]iste den Inhalt einer Archivdatei auf:
 
