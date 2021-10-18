@@ -3,7 +3,7 @@
 > Zeige die zuletzt ausgeführten Befehle an:
 > Weitere Informationen: <https://manpages.debian.org/stable/acct/lastcomm.1.en.html>.
 
-- Gebe Informationen zu allen Befehlen in acct aus (Aufzeichnungsdatei):
+- Gib Informationen zu allen Befehlen in acct aus (Aufzeichnungsdatei):
 
 `lastcomm`
 

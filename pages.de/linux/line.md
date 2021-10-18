@@ -1,6 +1,6 @@
 # line
 
-> Liest eine einzelnen Eingabezeile
+> Liest eine einzelne Eingabezeile
 > Weitere Informationen: <https://manned.org/line>.
 
 - Eingabe lesen:

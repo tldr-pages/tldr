@@ -3,7 +3,7 @@
 > Zeigt eine Liste der zuletzt angemeldeten Benutzer an.
 > Weitere Informationen: <https://manned.org/lastb>.
 
-- Zeige eine Liste aller zuletzt eingeloggten Benutzer an:
+- Zeige eine Liste aller zuletzt angemeldeten Benutzer an:
 
 `sudo lastb`
 
@@ -15,7 +15,7 @@
 
 `sudo lastb --until {{YYYY-MM-DD}}`
 
-- Zeige eine Liste aller angemeldeter Benutzer zu einem bestimmten Zeitpunnkt an:
+- Zeige eine Liste aller angemeldeten Benutzer zu einem bestimmten Zeitpunnkt an:
 
 `sudo lastb --present {{hh:mm}}`
 
