@@ -4,7 +4,7 @@
 > See also: `warp-cli`.
 > More information: <https://developers.cloudflare.com/warp-client/setting-up/linux>.
 
-- Generate a complete zipped log file of the `warp-cli` process:
+- Generate a zip file with information about the system configuration and the WARP connection:
 
 `warp-diag`
 
