@@ -4,30 +4,30 @@
 > Voir aussi `histexpand` pour l'expansion de l'historique.
 > Plus d'informations : <https://gnu.org/software/bash/>.
 
-- Démarrer une session shell interactive :
+- Démarre une session shell interactive :
 
 `bash`
 
-- Exécuter une commande, puis terminer la session :
+- Exécute une commande, puis termine la session :
 
 `bash -c "{{commande}}"`
 
-- Exécuter un script :
+- Exécute un script :
 
 `bash {{chemin/vers/le/script.sh}}`
 
-- Exécuter un script en affichant chaque commande avant de l'exécuter :
+- Exécute un script en affichant chaque commande avant de l'exécuter :
 
 `bash -x {{chemin/vers/le/script.sh}}`
 
-- Exécuter un script en s'arrêtant à la première erreur :
+- Exécute un script en s'arrêtant à la première erreur :
 
 `bash -e {{chemin/vers/le/script.sh}}`
 
-- Lire et exécuter des commandes depuis l'entrée standard `stdin` :
+- Lit et exécute des commandes depuis l'entrée standard `stdin` :
 
 `bash -s`
 
-- Afficher la version de Bash (`$BASH_VERSION` ne contenant que la version, sans les informations de license):
+- Affiche la version de Bash (`$BASH_VERSION` ne contenant que la version, sans les informations de license):
 
 `bash --version`
