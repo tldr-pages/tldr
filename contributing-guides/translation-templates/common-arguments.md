@@ -29,9 +29,11 @@ Only the left-alignment of the header gets lost and has to be readded again (`|-
 | ro    |                      |                        |                                   |           |              |
 | ru    | путь/до/файла        | путь/до/папки          | путь/до/файла_или_папки           |           |              |
 | sh    |                      |                        |                                   |           |              |
+| sr    |                      |                        |                                   |           |              |
 | sv    |                      |                        |                                   |           |              |
 | ta    |                      |                        |                                   |           |              |
 | th    |                      |                        |                                   |           |              |
 | tr    |                      |                        |                                   |           |              |
+| uk    |                      |                        |                                   |           |              |
 | zh    |                      |                        |                                   |           |              |
 | zh_TW |                      |                        |                                   |           |              |
