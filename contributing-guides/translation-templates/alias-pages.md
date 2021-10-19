@@ -29,6 +29,7 @@ The templates can be changed when necessary.
 [ro](#ro) •
 [ru](#ru) •
 [sh](#sh) •
+[sr](#sr) •
 [sv](#sv) •
 [ta](#ta) •
 [th](#th) •
@@ -277,6 +278,11 @@ Not translated yet.
 
 ---
 ### sh
+
+Not translated yet.
+
+---
+### sr
 
 Not translated yet.
 
