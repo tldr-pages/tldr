@@ -3,34 +3,34 @@
 > Réutiliser et développer l'historique des commandes shell dans `sh`, `bash`, `zsh`, `rbash` et `ksh`.
 > Plus d'informations : <https://www.gnu.org/software/bash/manual/html_node/History-Interaction>.
 
-- Exécuter de nouveau la commande précédente en tant que root (`!!` est remplacé par la commande précédente) :
+- Exécute de nouveau la commande précédente en tant que root (`!!` est remplacé par la commande précédente) :
 
 `sudo !!`
 
-- Exécuter une commande avec le dernier argument de la commande précédente :
+- Exécute une commande avec le dernier argument de la commande précédente :
 
 `{{commande}} !$`
 
-- Exécuter une commande avec le premier argument de la commande précédente :
+- Exécute une commande avec le premier argument de la commande précédente :
 
 `{{command}} !^`
 
-- Exécuter la `n`-ème commande de l'historique :
+- Exécute la `n`-ème commande de l'historique, en partant de la plus ancienne :
 
 `!{{n}}`
 
-- Exécuter la `n`-ème commande de l'historique, en partant de la dernière exécutée :
+- Exécute la `n`-ème commande de l'historique, en partant de la plus récente :
 
 `!-{{n}}`
 
-- Exécuter la commande qui contient `string` la plus récente :
+- Exécute la commande contenant `string` la plus récente :
 
 `!?{{string}}?`
 
-- Exécuter la commande précédente, en remplaçant `string1` par `string2` :
+- Exécute la commande précédente, en remplaçant `string1` par `string2` :
 
 `^{{string1}}^{{string2}}^`
 
-- Effectuer une expansion de l'historique, mais affiche la commande qui aurait du être exécutée au lieu de l'exécuter  :
+- Effectue une expansion de l'historique, mais affiche la commande qui aurait du être exécutée au lieu de l'exécuter  :
 
 `{{!-n}}:p`

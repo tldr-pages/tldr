@@ -4,18 +4,18 @@
 > Voir aussi `histexpand` pour l'expansion de l'historique.
 > Plus d'informations : <http://kornshell.com>.
 
-- Démarrer une session shell interactive :
+- Démarre une session shell interactive :
 
 `ksh`
 
-- Exécuter une commande, puis terminer la session :
+- Exécute une commande, puis termine la session :
 
 `ksh -c "{{commande}}"`
 
-- Exécuter un script :
+- Exécute un script :
 
 `ksh {{chemin/vers/le/script.ksh}}`
 
-- Exécuter un script en affichant chaque commande avant de l'exécuter :
+- Exécute un script en affichant chaque commande avant de l'exécuter :
 
 `ksh -x {{chemin/vers/le/script.ksh}}`

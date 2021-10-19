@@ -4,18 +4,18 @@
 > Voir aussi `histexpand` pour l'expansion de l'historique.
 > Plus d'informations : <https://manned.org/sh>.
 
-- Démarrer une session shell interactive :
+- Démarre une session shell interactive :
 
 `sh`
 
-- Exécuter une commande, puis terminer la session :
+- Exécute une commande, puis termine la session :
 
 `sh -c "{{commande}}"`
 
-- Exécuter un script :
+- Exécute un script :
 
 `sh {{chemin/vers/le/script.sh}}`
 
-- Lire et exécuter des commandes depuis l'entrée standard `stdin` :
+- Lit et exécute des commandes depuis l'entrée standard `stdin` :
 
 `sh -s`
