@@ -27,6 +27,6 @@
 
 `cargo test --package {{package}}`
 
-- Run tests without capturing standard output:
+- Run tests without hiding output from test executions:
 
 `cargo test -- --nocapture`
