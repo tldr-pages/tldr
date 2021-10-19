@@ -1,6 +1,6 @@
 # lastcomm
 
-> Zeige die zuletzt ausgeführten Befehle an:
+> Zeige die zuletzt ausgeführten Befehle an.
 > Weitere Informationen: <https://manpages.debian.org/stable/acct/lastcomm.1.en.html>.
 
 - Gib Informationen zu allen Befehlen in acct aus (Aufzeichnungsdatei):
