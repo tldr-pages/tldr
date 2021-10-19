@@ -10,6 +10,7 @@ import sys
 labels = {
     "en": "More information:",
     "ar": "لمزيد من التفاصيل:",
+    "bn": "আরও তথ্য পাবেন:",
     "bs": "Više informacija:",
     "da": "Mere information:",
     "de": "Weitere Informationen:",
