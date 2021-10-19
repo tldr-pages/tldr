@@ -26,11 +26,11 @@
 
 - Meng[a]rsipkan file atau direktori menggunakan format file arsip tertentu:
 
-`7za a -t{{7z|zip|gzip|bzip2|lzip}} {{jalan/menuju/arsip.7z}} {{jalan/menuju/file_atau_direktori}}`
+`7za a -t{{7z|bzip2|gzip|lzip|tar|zip}} {{jalan/menuju/arsip.7z}} {{jalan/menuju/file_atau_direktori}}`
 
 - Me[l]ihat daftar isi dari sebuah file arsip:
 
-`7za l {{path/to/archive.7z}}`
+`7za l {{jalan/menuju/arsip.7z}}`
 
 - Mengetahui daftar format file arsip yang didukung:
 
