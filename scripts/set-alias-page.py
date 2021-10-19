@@ -1,16 +1,30 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: MIT
 
+"""
+A Python script to generate or update alias pages.
+Call the script with --help to get more information.
+
+For example, add 'vi' as an alias page of 'vim':
+python3 script/set-alias-page.py -p common/vi vim
+
+Read English alias pages and synchronize them into all translations:
+python3 script/set-alias-page.py -S
+"""
+
 import argparse
 import os
 import re
 import subprocess
-import sys
 
 IGNORE_FILES = (".DS_Store", "tldr.md", "aria2.md")
 
 
 def get_tldr_root():
+    """
+    Get the path of local tldr repository for environment variable TLDR_ROOT.
+    """
+
     # If this script is running from tldr/scripts, the parent's parent is the root
     f = os.path.normpath(__file__)
     if f.endswith("tldr/scripts/set-more-info-link.py"):
@@ -19,15 +33,25 @@ def get_tldr_root():
     if "TLDR_ROOT" in os.environ:
         return os.environ["TLDR_ROOT"]
     else:
-        print(
-            "\x1b[31mPlease set TLDR_ROOT to the location of a clone of https://github.com/tldr-pages/tldr."
+        raise SystemExit(
+            "\x1b[31mPlease set TLDR_ROOT to the location of a clone of https://github.com/tldr-pages/tldr.\x1b[0m"
         )
-        sys.exit(1)
 
 
-def get_templates():
+def get_templates(root):
+    """
+    Get all alias page translation templates from
+    TLDR_ROOT/contributing-guides/translation-templates/alias-pages.md.
+
+    Parameters:
+    root (string): The path of local tldr repository, i.e., TLDR_ROOT.
+
+    Returns:
+    dict of (str, str): Language labels map to alias page templates.
+    """
+
     template_file = os.path.join(
-        get_tldr_root(), "contributing-guides/translation-templates/alias-pages.md"
+        root, "contributing-guides/translation-templates/alias-pages.md"
     )
     with open(template_file) as f:
         lines = f.readlines()
@@ -60,14 +84,20 @@ def get_templates():
     return templates
 
 
-# A dictionary of all alias page translations
-templates = get_templates()
-
-
 def get_alias_page(file):
+    """
+    Determine whether the given file is an alias page.
+
+    Parameters:
+    file (string): Path to a page
+
+    Returns:
+    str: "" If the file doesn't exit or is not an alias page,
+         otherwise return what command the alias stands for.
+    """
+
     if not os.path.isfile(file):
         return ""
-
     with open(file) as f:
         lines = f.readlines()
     for line in lines:
@@ -77,6 +107,20 @@ def get_alias_page(file):
 
 
 def set_alias_page(file, command):
+    """
+    Write an alias page to disk.
+
+    Parameters:
+    file (string): Path to an alias page
+    command (string): The command that the alias stands for.
+
+    Returns:
+    str: Execution status
+         "" if the alias page standing for the same command already exists.
+         "\x1b[36mpage added" if it's a new alias page.
+         "\x1b[34mpage updated" if the command updates.
+    """
+
     # compute locale
     pages_dir = os.path.basename(os.path.dirname(os.path.dirname(file)))
     if "." in pages_dir:
@@ -107,6 +151,19 @@ def set_alias_page(file, command):
 
 
 def sync(root, pages_dirs, alias_name, orig_command):
+    """
+    Synchronize an alias page into all translations:
+
+    Parameters:
+    root (str): TLDR_ROOT
+    pages_dirs (list of str): Strings of page entry and platform, e.g. "page.fr/common".
+    alias_name (str): An alias command with .md extension like "vi.md".
+    orig_command (string): An Original command like "vim".
+
+    Returns:
+    str: a list of paths to be staged into git, using by --stage option.
+    """
+
     rel_paths = []
     for page_dir in pages_dirs:
         path = os.path.join(root, page_dir, alias_name)
@@ -149,19 +206,19 @@ def main():
     args = parser.parse_args()
 
     root = get_tldr_root()
-    pages_dirs = [d for d in os.listdir(root) if d.startswith("pages")]
 
+    # A dictionary of all alias page translations
+    global templates
+    templates = get_templates(root)
+    pages_dirs = [d for d in os.listdir(root) if d.startswith("pages")]
     rel_paths = []
 
     # Use '--page' option
     if args.page != "":
-        target_paths = []
-
         if not args.page.lower().endswith(".md"):
             args.page = f"{args.page}.md"
 
         target_paths = [os.path.join(root, p, args.page) for p in pages_dirs]
-
         target_paths.sort()
 
         for path in target_paths:

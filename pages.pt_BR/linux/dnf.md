@@ -1,7 +1,7 @@
 # dnf
 
 > Gerenciador de pacotes das distribuições baseadas em RHEL (substituto do yum).
-> Mais informações: <https://dnf.readthedocs.io/>.
+> Mais informações: <https://dnf.readthedocs.io>.
 
 - Instalar um novo pacote:
 
