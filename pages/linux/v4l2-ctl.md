@@ -2,6 +2,7 @@
 
 > Control video devices.
 > More information: <https://www.mankier.com/1/v4l2-ctl>.
+
 - List all video devices:
 
 `v4l2-ctl --list-devices`
