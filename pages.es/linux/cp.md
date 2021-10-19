@@ -9,7 +9,7 @@
 
 - Copia un archivo en otro directorio, conservando el nombre del archivo:
 
-`cp {{path/to/source_file.ext}} {{path/to/target_parent_directory}}`
+`cp {{path/to/archivo_origen.ext}} {{ruta/al/directorio_principal}}`
 
 - Copia de forma recursiva el contenido de un directorio a otra ubicación (si el destino existe, el directorio es copiado en esa ubicación):
 
