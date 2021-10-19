@@ -5,10 +5,10 @@
 > Voir également `ssh-add`, qui permet d'ajouter et de gérer les clés enregistrées par l'agent SSH.
 > Plus d'informations : <https://man.openbsd.org/ssh-agent>.
 
-- Démarrer un agent SSH pour le shell actuel :
+- Démarre un agent SSH pour le shell actuel :
 
 `eval $(ssh-agent)`
 
-- Arrêter l'agent actuellement en fonctionnement :
+- Arrête l'agent actuellement en fonctionnement :
 
 `ssh-agent -k`
