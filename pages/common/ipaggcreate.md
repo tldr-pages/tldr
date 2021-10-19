@@ -7,7 +7,7 @@
 
 `ipaggcreate --src {{path/to/file.pcap}}`
 
-- Group and count packets read from network interface {{eth0}} by IP length:
+- Group and count packets read from a network interface by packet length:
 
 `ipaggcreate --interface {{eth0}} --length`
 
