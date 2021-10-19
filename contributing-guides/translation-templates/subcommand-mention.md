@@ -7,6 +7,7 @@ This file contains the translation templates of this notice.
 
 [en](#en) •
 [ar](#ar) •
+[bn](#bn) •
 [bs](#bs) •
 [da](#da) •
 [de](#de) •
@@ -50,9 +51,14 @@ Some subcommands such as `example command` have their own usage documentation.
 ```
 
 ---
+### bn
+
+Not translated yet.
+
+---
 ### bs
 
-Not translated yet
+Not translated yet.
 
 ---
 ### da
