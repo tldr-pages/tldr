@@ -7,9 +7,9 @@
 
 `todo list`
 
-- Print all outstanding tasks from list {{work}} that take place in {{office}} and order them by their due date:
+- Print all outstanding tasks from list {{work}} that take place in {{office}} and order them by their start date:
 
-`todo list --location {{office}} --sort {{due}} {{work}}`
+`todo list --location {{office}} --sort {{start}} {{work}}`
 
 - Add a new task for cleaning the room to list {{private}} which is due on 23/12/2021:
 
