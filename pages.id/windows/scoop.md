@@ -5,11 +5,11 @@
 
 - Memasang sebuah paket:
 
-`scoop install {{package}}`
+`scoop install {{paket}}`
 
 - Mencopot pemasangan sebuah paket:
 
-`scoop uninstall {{package}}`
+`scoop uninstall {{paket}}`
 
 - Memperbarui semua paket yang terpasang:
 
@@ -21,11 +21,11 @@
 
 - Menampilkan informasi tentang sebuah paket:
 
-`scoop info {{package}}`
+`scoop info {{paket}}`
 
 - Mencari paket:
 
-`scoop search {{package}}`
+`scoop search {{paket}}`
 
 - Menghapus versi lama dari semua paket dan membersihkan cache unduhan:
 

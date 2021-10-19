@@ -14,12 +14,12 @@
 
 - Menambahkan bucket yang dikenal berdasarkan namanya:
 
-`scoop bucket add {{name}}`
+`scoop bucket add {{nama}}`
 
 - Menambahkan bucket yang tidak dikenal bersarkan nama dan URL repository Git:
 
-`scoop bucket add {{name}} {{https://example.com/repository.git}}`
+`scoop bucket add {{nama}} {{https://contoh.com/repository.git}}`
 
 - Menghapus bucket berdasarkan namanya:
 
-`scoop bucket rm {{name}}`
+`scoop bucket rm {{nama}}`
