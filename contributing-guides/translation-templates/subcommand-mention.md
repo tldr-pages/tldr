@@ -28,6 +28,7 @@ This file contains the translation templates of this notice.
 [ro](#ro) •
 [ru](#ru) •
 [sh](#sh) •
+[sr](#sr) •
 [sv](#sv) •
 [ta](#ta) •
 [th](#th) •
@@ -164,6 +165,11 @@ Not translated yet.
 
 ---
 ### sh
+
+Not translated yet.
+
+---
+### sr
 
 Not translated yet.
 
