@@ -1,7 +1,7 @@
 # scoop bucket
 
-> Mengelola bucket: Repository Git yang berisi berkas yang menjelaskan bagaimana scoop menginstall
-> aplikasi. Jika Scoop tidak tahu dimana sebuah bucket terletak, lokasi repository harus ditentukan.
+> Mengelola bucket: Repository Git yang berisi berkas yang menjelaskan bagaimana scoop menginstall aplikasi.
+> Jika Scoop tidak tahu dimana sebuah bucket terletak, lokasi repository harus ditentukan.
 > Informasi lebih lanjut: <https://github.com/lukesampson/scoop/wiki/Buckets>.
 
 - Daftar semua bucket yang sedang digunakan:
