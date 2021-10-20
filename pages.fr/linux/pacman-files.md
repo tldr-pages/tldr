@@ -2,7 +2,7 @@
 
 > Interagis avec les bases de données de fichiers.
 > Voir aussi `pkgfile`.
-> Plus d'informations : <https://man.archlinux.org/man/community/man-pages-fr/pacman.8.fr>.
+> Plus d'informations : <https://man.archlinux.org/man/pacman.8>.
 
 - Affiche l'aide :
 
