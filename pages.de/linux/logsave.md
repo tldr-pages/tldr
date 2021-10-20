@@ -5,7 +5,7 @@
 
 - Führe einen Befehl mit angegebenen Argument(en) aus und speichere die Ausgabe in eine Logdatei:
 
-`logsave {{pfad/zur/logdatei}} {{befehl}}`
+`logsave {{pfad/zu/logdatei}} {{befehl}}`
 
 - Übernimm die Eingabe der Standardeingabe und speichere diese in eine Logdatei:
 
