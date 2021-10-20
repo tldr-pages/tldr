@@ -3,7 +3,7 @@
 > Zeigt den letzten Login aller Benutzer oder eines bestimmten Benutzers an.
 > Weitere Informationen: <https://manned.org/lastlog>.
 
-- Zeige den letzten login aller Benutzer an:
+- Zeige den letzten Login aller Benutzer an:
 
 `lastlog`
 
