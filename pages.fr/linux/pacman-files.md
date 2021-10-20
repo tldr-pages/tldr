@@ -1,29 +1,29 @@
 # pacman --files
 
-> Outil de gestion de paquets d'Arch Linux.
+> Interagis avec les bases de données de fichiers.
 > Voir aussi `pkgfile`.
 > Plus d'informations : <https://man.archlinux.org/man/community/man-pages-fr/pacman.8.fr>.
 
-- Afficher l'aide :
+- Affiche l'aide :
 
 `pacman --files --help`
 
-- Mettre à jour les bases de données des fichiers :
+- Mets à jour les bases de données des fichiers :
 
 `sudo pacman --files --refresh`
 
-- Trouver les paquets contenant un fichier spécifique :
+- Trouve les paquets contenant un fichier spécifique :
 
 `pacman --files {{fichier}}`
 
-- Trouver les paquets contenant un fichier spécifique en utilisant une expression régulière :
+- Trouve les paquets contenant un fichier spécifique en utilisant une expression régulière :
 
 `pacman --files --regex '{{expression_reguliere}}'`
 
-- Lister uniquement les noms de paquets :
+- Liste uniquement les noms de paquets :
 
 `pacman --files --quiet {{fichier}}`
 
-- Lister les fichiers contenus dans un paquet :
+- Liste les fichiers contenus dans un paquet :
 
 `pacman --files --list {{paquet}}`
