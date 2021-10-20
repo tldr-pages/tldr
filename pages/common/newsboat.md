@@ -15,6 +15,10 @@
 
 `newsboat -r`
 
+- Execute command(s) to run Newsboat unattended.
+
+`newsboat -x {{reload|print-unread}}`
+
 - See keyboard shortcuts (the most relevant are visible in the status line):
 
 `?`
