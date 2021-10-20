@@ -3,7 +3,7 @@
 > Fasst viele verschiedene Logs für gängige Dienste (z.B. Apache, pam_unix, sshd, usw.) in einem einzelnen Bericht zusammen.
 > Weitere Informationen: <https://manned.org/logwatch>.
 
-- Analysiere Logs für verschiedene Zeiträume auf einer bestimmten Detailebene:
+- Analysiere Logs für einen Zeitraum auf einer bestimmten Detailebene:
 
 `logwatch --range {{yesterday|today|all|help}} --detail {{low|medium|others}}'`
 
