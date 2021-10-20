@@ -33,4 +33,4 @@
 
 - Display information about a specific function:
 
-`php --rf {{function}}`
+`php --rf {{function_name}}`
