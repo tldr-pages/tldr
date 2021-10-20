@@ -3,10 +3,10 @@
 > Put files or directories under Fossil version control.
 > More information: <https://fossil-scm.org/home/help/add>.
 
-- Add files or directories to the current checkout at the next commit:
+- Stage files or directories for the next commit to the current checkout:
 
 `fossil add {{path/to/file_or_directory}}`
 
-- Reset the add state of a checkout such that newly added but not committed files are no longer added; that is, undo uncommitted add command(s):
+- Undo all add commands issued since the last commit to the current checkout:
 
 `fossil add --reset`
