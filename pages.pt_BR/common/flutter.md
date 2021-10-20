@@ -1,6 +1,6 @@
 # flutter
 
-> SDK livre e open source do Google para desenvolvimento de aplicativos mobile cross-platform
+> SDK livre e open source do Google para desenvolvimento de aplicativos mobile cross-platform.
 > Mais informações: <https://github.com/flutter/flutter/wiki/The-flutter-tool>.
 
 - Mostra ajuda sobre algum comando específico:
