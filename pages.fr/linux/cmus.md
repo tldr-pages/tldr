@@ -4,22 +4,22 @@
 > Utiliser les flèches pour naviguer, `<enter/return>` pour sélectionner, et les nombres 1-8 pour se déplacer dans les différentes vues.
 > Plus d'informations : <https://cmus.github.io>.
 
-- Ouvrir cmus dans le dossier spécifié (celui-ci deviendra le dossier de travail) :
+- Ouvre cmus dans le dossier spécifié (celui-ci deviendra le dossier de travail) :
 
 `cmus {{chemin/vers/dossier}}`
 
-- Ajouter un fichier/dossier à la bibliothèque :
+- Ajoute un fichier/dossier à la bibliothèque :
 
 `:add {{chemin/vers/fichier_ou_dossier}}`
 
-- Mettre en pause/relancer la musique actuelle :
+- Mets en pause/relancer la musique actuelle :
 
 `c`
 
-- Activer/désactiver le mode aléatoire :
+- Active/désactive le mode aléatoire :
 
 `s`
 
-- Quitter cmus :
+- Quitte cmus :
 
 `q`
