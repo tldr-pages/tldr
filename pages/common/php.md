@@ -31,6 +31,6 @@
 
 `php -i`
 
-- Display information about function
+- Display information about a specific function:
 
 `php --rf {{function}}`
