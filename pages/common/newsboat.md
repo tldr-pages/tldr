@@ -15,7 +15,7 @@
 
 `newsboat -r`
 
-- Execute command(s) to run Newsboat unattended.
+- Execute command(s) to run Newsboat unattended:
 
 `newsboat -x {{reload|print-unread}}`
 
