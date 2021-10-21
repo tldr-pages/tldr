@@ -9,12 +9,12 @@
 
 - Zeige den lastlog Datensatz des angegebenen Benutzers an:
 
-`lastlog --user {{benutzername}}`
+`lastlog -u {{benutzername}}`
 
-- Zeige Datensätze älter als 7 Tage an:
+- Zeige die Datensätze vor 7 Tagen an:
 
-`lastlog --before {{7}}`
+`lastlog -b {{7}}`
 
-- Zeige Datensätze jünger als 3 Tage an:
+- Zeige Datensätze an, die jünger als 3 Tage sind:
 
-`lastlog --time {{3}}`
+`lastlog -t {{3}}`

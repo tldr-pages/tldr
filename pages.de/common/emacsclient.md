@@ -20,7 +20,7 @@
 
 `emacsclient --eval '({{befehl}})'`
 
-- Gib einen alternativen Editor an für den Fall, dass kein Emacs-Server läuft:
+- Gebe einen alternativen Editor an für den Fall, dass kein Emacs-Server läuft:
 
 `emacsclient --alternate-editor {{editor}} {{pfad/zu/datei}}`
 

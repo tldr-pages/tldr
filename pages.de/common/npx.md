@@ -7,7 +7,7 @@
 
 `npx {{modul_name}}`
 
-- Übergib den konkreten Namen, falls das Paket mehrere Binärdateien besitzt:
+- Übergebe den konkreten Namen, falls das Paket mehrere Binärdateien besitzt:
 
 `npx -p {{paket_name}} {{modul_name}}`
 

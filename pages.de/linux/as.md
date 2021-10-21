@@ -12,7 +12,7 @@
 
 `as {{datei.s}} -o {{out.o}}`
 
-- Generiere den Output schneller indem Leerzeichen und Kommentare nicht verarbeitet werden. (Sollte nur für vertauenswürdige Compiler benutzt werden):
+- Generiere den Output schneller indem Leerzeichen und Kommentare nicht verarbeitet werden. (Sollte nur für vertrauenswürdige Compiler benutzt werden):
 
 `as -f {{datei.s}}`
 

@@ -1,4 +1,4 @@
-# brew bundle
+# brew bundl
 
 > Bundler für Homebrew, Homebrew Cask und den Mac App Store.
 > Weitere Informationen: <https://github.com/Homebrew/homebrew-bundle>.
@@ -15,7 +15,7 @@
 
 `brew bundle dump`
 
-- Deinstalliere Pakete, die nicht in der Brewfile aufgelisted sind:
+- Deinstalliere Pakete, die nicht in der Brewfile aufgelistet sind:
 
 `brew bundle cleanup --force`
 

@@ -4,7 +4,7 @@
 > Notiz: `apt-key` ist deprecated (außer für `apt-key del` in Maintainer Scripts).
 > Mehr Informationen: <https://manpages.debian.org/latest/apt/apt-key.8.html>.
 
-- Liste alle vertauten Schlüssel:
+- Liste alle vertrauten Schlüssel auf:
 
 `apt-key list`
 

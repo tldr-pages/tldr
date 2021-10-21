@@ -19,7 +19,7 @@
 
 `asciiart --color {{pfad/zum/bild.jpg}}`
 
-- Wähle das outout format (default ist text):
+- Wähle das output Format (default ist text):
 
 `asciiart --format {{text|html}} {{pfad/zum/bild.jpg}}`
 
