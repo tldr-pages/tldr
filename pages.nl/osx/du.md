@@ -3,7 +3,7 @@
 > Disk gebruik: schat en groepeer bestand en directory ruimte gebruik.
 > Meer informatie: <https://ss64.com/osx/du.html>.
 
-- Toont de grootte van een directory en mogelijke sub-directories, met een gegeven eenheid (KB/MB/GB):
+- Toont de grootte van een directory en mogelijke sub-directories, met een gegeven eenheid (KiB/MiB/GiB):
 
 `du -{{k|m|g}} {{pad/naar/directory}}`
 
