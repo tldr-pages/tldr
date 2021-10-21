@@ -7,22 +7,22 @@
 
 `todo list`
 
-- Print all outstanding tasks from list {{work}} that take place in {{office}} and order them by their start date:
+- Print all outstanding tasks from a given list that take place in a given location and order them by their start date:
 
-`todo list --location {{office}} --sort {{start}} {{work}}`
+`todo list --location {{location_name}} --sort {{start}} {{list_name}}`
 
-- Add a new task for cleaning the room to list {{private}} which is due on 23/12/2021:
+- Add a new task which is due on a specific date to a given list:
 
-`todo new --list {{private}} --due 23/12/2021 {{Clean the room}}`
+`todo new --list {{list_name}} --due {{due_date}} {{task_description}}`
 
-- Add location {{office}} to task with ID {{42}}:
+- Add a location to a task with a given ID:
 
-`todo edit --location {{office}} {{42}}`
+`todo edit --location {{location_name}} {{task_id}}`
 
-- Mark tasks with ID {{2}} and {{3}} as done:
+- Mark tasks with the specified IDs as done:
 
 `todo done {{2}} {{3}}`
 
-- Delete done tasks and reset the task ids:
+- Delete done tasks and reset the IDs of the remaining tasks:
 
 `todo flush`
