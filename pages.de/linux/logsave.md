@@ -1,6 +1,6 @@
 # logsave
 
-> Speichert die Ausgabe eines Befehls in einer Logdatei.
+> Speichert die Ausgabe eines Befehls in eine Logdatei.
 > Weitere Informationen: <https://manned.org/logsave>.
 
 - Führe einen Befehl mit angegebenen Argument(en) aus und speichere die Ausgabe in eine Logdatei:
