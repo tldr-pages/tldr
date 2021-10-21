@@ -23,6 +23,10 @@
 
 `nodemon {{arguments}} {{path/to/file.js}}`
 
-- Run non-node scripts:
+- Run an arbitrary non-node script:
 
-`nodemon --exec "{{python --verbose}}" {{path/to/file.py}}`
+`nodemon --exec "{{command_to_run_script}} {{options}}" {{path/to/script}}`
+
+- Run a Python script:
+
+`nodemon --exec "python {{options}}" {{path/to/file.py}}`
