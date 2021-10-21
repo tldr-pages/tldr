@@ -1,6 +1,6 @@
 # pbcopy
 
-> Menempatkan output standar di clipboard
+> Menempatkan output standar di clipboard.
 
 - Menempatkan konten file di clipboard:
 
