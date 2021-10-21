@@ -127,7 +127,7 @@ Check out the step-by-step instructions (with screenshots) on
 Alternatively, you can do most of the process
 [using Git on the command-line](contributing-guides/git-terminal.md).
 
-# Creating and Accepting Suggestions within a pull request
+# Accepting suggestions within a pull request
 
 The easiest way to apply suggested changes is to accept the suggestion made on your pull request. Refer to the [Github docs](https://docs.github.com/en/enterprise-server@3.2/github/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/incorporating-feedback-in-your-pull-request) for more details.
 
