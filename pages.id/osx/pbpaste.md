@@ -6,6 +6,6 @@
 
 `pbpaste > {{file}}`
 
-- Menggunakan konten papan klip (_clipboard_) sebagai input ke sebuah perintah:
+- Menggunakan konten papan klip (_clipboard_) sebagai input bagi sebuah perintah:
 
 `pbpaste | grep foo`
