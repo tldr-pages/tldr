@@ -15,6 +15,6 @@
 
 `lastcomm --command {{befehl}}`
 
-- Zeige Informationen zu Befehlen an, die auf einem bestimmten Terminal ausgeführt werden:
+- Zeige Informationen zu Befehlen an, die auf einem bestimmten Terminal ausgeführt wurden:
 
 `lastcomm --tty {{terminal_name}}`
