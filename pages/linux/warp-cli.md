@@ -15,7 +15,7 @@
 
 `warp-cli disconnect`
 
-- Display WARP connection status:
+- Display the WARP connection status:
 
 `warp-cli status`
 
