@@ -11,7 +11,7 @@
 
 `date -u +"%Y-%m-%dT%H:%M:%SZ"`
 
-- Menampilkan tanggal saat ini sebagai _Unix timestamp_ (detick sejak jaman Unix):
+- Menampilkan tanggal saat ini sebagai _Unix timestamp_ (detik sejak jaman Unix):
 
 `date +%s`
 
