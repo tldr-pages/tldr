@@ -11,7 +11,7 @@
 
 `cal -3`
 
-- Menampilkan kalender pada bulan tertentu (1-12 or name):
+- Menampilkan kalender pada bulan tertentu (angka 1-12 atau nama):
 
 `cal -m {{bulan}}`
 
