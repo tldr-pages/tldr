@@ -3,7 +3,7 @@
 > Display PowerShell command history.
 > More information: <https://docs.microsoft.com/powershell/module/microsoft.powershell.core/get-history>.
 
-- Get PowerShell command history:
+- Display the commands history list with ID:
 
 `Get-History`
 
