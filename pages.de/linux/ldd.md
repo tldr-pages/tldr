@@ -5,7 +5,7 @@
 
 - Zeige Abhängigkeiten von gemeinsam genutzen Bibliotheken einer Binärdatei an:
 
-`ldd {{pfad/zu/binaerdatei}}`
+`ldd {{pfad/zu/binärdatei}}`
 
 - Zeige ungenutzte direkte Abhängigkeiten an:
 
