@@ -1,6 +1,6 @@
 # ldd
 
-> Zeigt Abhängigkeiten von gemeinsam genutzen Bibliotheken an.
+> Zeigt Abhängigkeiten von dynamischen Bibliotheken an.
 > Weitere Informationen: <https://manned.org/ldd>.
 
 - Zeige Abhängigkeiten von gemeinsam genutzen Bibliotheken einer Binärdatei an:
