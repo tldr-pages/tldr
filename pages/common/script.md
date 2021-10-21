@@ -1,6 +1,7 @@
 # script
 
 > Make a typescript file of a terminal session.
+> More information: <https://manned.org/script>.
 
 - Start recording in file named "typescript":
 

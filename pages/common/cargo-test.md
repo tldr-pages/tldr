@@ -26,3 +26,7 @@
 - Run tests for a package:
 
 `cargo test --package {{package}}`
+
+- Run tests without hiding output from test executions:
+
+`cargo test -- --nocapture`

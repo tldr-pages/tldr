@@ -205,6 +205,10 @@ to see the current progress of all translations.
   Rico's cheatsheets are not just focused on the command-line and
   include a plethora of other cheatsheets related to programming.
 
+- [cheat.sh](https://cheat.sh/)
+  Aggregates cheat sheets from multiple sources (including tldr-pages)
+  into 1 unified interface.
+
 ## What does "tldr" mean?
 
 TL;DR stands for "Too Long; Didn't Read".

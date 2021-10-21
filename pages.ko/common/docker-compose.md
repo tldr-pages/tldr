@@ -1,7 +1,7 @@
 # docker-compose
 
 > 다중 도커 응용 프로그램 실행 및 관리합니다.
-> 더 많은 정보: <https://docs.docker.com/compose/reference/overview/>.
+> 더 많은 정보: <https://docs.docker.com/compose/reference/>.
 
 - 실행 중인 모든 컨테이너들 목록:
 

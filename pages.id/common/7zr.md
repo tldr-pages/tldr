@@ -26,7 +26,7 @@
 
 - Me[l]ihat daftar isi dari sebuah file arsip:
 
-`7zr l {{path/to/archive.7z}}`
+`7zr l {{jalan/menuju/arsip.7z}}`
 
 - Mengetahui daftar format file arsip yang didukung:
 
