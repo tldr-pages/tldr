@@ -9,4 +9,4 @@
 
 - Zeige ungenutzte direkte Abhängigkeiten an:
 
-`ldd -u {{pfad/zu/binaerdatei}}`
+`ldd -u {{pfad/zu/binärdatei}}`
