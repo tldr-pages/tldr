@@ -3,7 +3,7 @@
 > Speichert die Ausgabe eines Befehls in eine Logdatei.
 > Weitere Informationen: <https://manned.org/logsave>.
 
-- Führe einen Befehl mit angegebenen Argument(en) aus und speichere die Ausgabe in eine Logdatei:
+- Führe einen Befehl mit angegebenen Argumenten aus und speichere die Ausgabe in eine Logdatei:
 
 `logsave {{pfad/zu/logdatei}} {{befehl}}`
 
