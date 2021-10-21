@@ -13,7 +13,7 @@
 
 - Menampilkan kalender pada bulan tertentu (1-12 or name):
 
-`cal -m {{month}}`
+`cal -m {{bulan}}`
 
 - Menampilkan kalender pada tahun yang sedang berjalan:
 
@@ -21,12 +21,12 @@
 
 - Menampilkan kalender pada tahun tertentu (4 digit):
 
-`cal {{year}}`
+`cal {{tahun}}`
 
 - Menampilkan kalender pada bulan dan tahun tertentu:
 
-`cal {{month}} {{year}}`
+`cal {{bulan}} {{tahun}}`
 
 - Menampilkan tanggal Hari Raya Paskah (Gereja Kristen Barat) pada tahun tertentu:
 
-`ncal -e {{year}}`
+`ncal -e {{tahun}}`
