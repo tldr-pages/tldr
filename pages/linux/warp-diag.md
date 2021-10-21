@@ -8,7 +8,7 @@
 
 `warp-diag`
 
-- Set if timestamp should be added to output file name:
+- Generate a zip file with debug information including a timestamp to the output filename:
 
 `warp-diag --add-ts`
 
