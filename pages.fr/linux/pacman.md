@@ -1,7 +1,7 @@
 # pacman
 
 > Outil de gestion de paquets sur Arch Linux.
-> Plus d'informations : <https://man.archlinux.org/man/pacman.8>.
+> Plus d'informations : <https://man.archlinux.org/man/pacman.8>.
 
 - Synchronise et mets à jour tous les paquets :
 

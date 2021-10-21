@@ -1,7 +1,7 @@
 # deluged
 
 > Un processus démon pour le client BitTorrent Deluge.
-> Plus d'informations : <https://deluge-torrent.org>.
+> Plus d'informations : <https://deluge-torrent.org>.
 
 - Lance le démon Deluge :
 

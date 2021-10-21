@@ -1,7 +1,7 @@
 # git clean
 
 > Supprimer les fichiers non-suivis d'un dépôt Git.
-> Plus d'informations : <https://git-scm.com/docs/git-clean>.
+> Plus d'informations : <https://git-scm.com/docs/git-clean>.
 
 - Supprimer les fichiers non-suivis :
 

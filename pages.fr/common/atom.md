@@ -2,7 +2,7 @@
 
 > Un éditeur de texte multiplateforme proposant de nombreuses extensions.
 > Les extensions sont gérées par `apm`.
-> Plus d'informations : <https://atom.io/>.
+> Plus d'informations : <https://atom.io/>.
 
 - Ouvrir un fichier ou un dossier :
 

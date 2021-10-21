@@ -1,7 +1,7 @@
 # git stash
 
 > Stocker les modifications Git locales dans une zone temporaire.
-> Plus d'informations : <https://git-scm.com/docs/git-stash>.
+> Plus d'informations : <https://git-scm.com/docs/git-stash>.
 
 - Stocker les changements courants, sauf les fichiers non-suivis :
 

@@ -1,7 +1,7 @@
 # logcat
 
 > Exporte une log depuis les messages système.
-> Plus d'informations : <https://developer.android.com/studio/command-line/logcat>.
+> Plus d'informations : <https://developer.android.com/studio/command-line/logcat>.
 
 - Affiche la journalisation système :
 

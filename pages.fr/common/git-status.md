@@ -2,7 +2,7 @@
 
 > Affiche les changements sur les fichiers dans la branche courante.
 > Affiche les fichiers édités, déplacés, renommés, ajoutés, supprimés par rapport à la référence de la branche courante.
-> Plus d'informations : <https://git-scm.com/docs/git-status>.
+> Plus d'informations : <https://git-scm.com/docs/git-status>.
 
 - Affiche les fichiers modifiés qui n'ont pas encore été ajoutés pour le commit :
 

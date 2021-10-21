@@ -1,7 +1,7 @@
 # z
 
 > Recherche les répertoires les plus utilisés et permet une navigation rapide à l'aide de chaînes de caractères ou d'expressions régulières.
-> Plus d'informations : <https://github.com/rupa/z>.
+> Plus d'informations : <https://github.com/rupa/z>.
 
 - Aller dans un répertoire qui contient "foo" dans son nom :
 

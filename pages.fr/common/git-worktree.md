@@ -1,7 +1,7 @@
 # git worktree
 
 > Gérer plusieurs arbres de travail attachés au même dépôt.
-> Plus d'informations : <https://git-scm.com/docs/git-worktree>.
+> Plus d'informations : <https://git-scm.com/docs/git-worktree>.
 
 - Créer un nouvel arbre de travail avec une branche spécifiée :
 

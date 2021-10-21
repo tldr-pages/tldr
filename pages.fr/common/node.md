@@ -1,7 +1,7 @@
 # node
 
 > Plateforme Javascript côté serveur.
-> Plus d'informations : <https://nodejs.org>.
+> Plus d'informations : <https://nodejs.org>.
 
 - Éxecute un fichier JavaScript:
 

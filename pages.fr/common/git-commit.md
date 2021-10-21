@@ -1,7 +1,7 @@
 # git commit
 
 > Enregistrer (`commit`) les fichiers dans le dépôt.
-> Plus d'informations : <https://git-scm.com/docs/git-commit>.
+> Plus d'informations : <https://git-scm.com/docs/git-commit>.
 
 - Commit les fichiers en stage dans le dépôt avec un message :
 

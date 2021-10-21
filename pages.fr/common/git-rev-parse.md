@@ -1,7 +1,7 @@
 # git rev-parse
 
 > Afficher les métadonnées liées à des révisions spécifiques.
-> Plus d'informations : <https://git-scm.com/docs/git-rev-parse>.
+> Plus d'informations : <https://git-scm.com/docs/git-rev-parse>.
 
 - Afficher l'empreinte du commit de la branche courante :
 

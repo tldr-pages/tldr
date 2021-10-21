@@ -2,7 +2,7 @@
 
 > Créer, lister, vérifier et supprimer des tags.
 > Un tag est une référence statique vers un commit.
-> Plus d'informations : <https://git-scm.com/docs/git-tag>.
+> Plus d'informations : <https://git-scm.com/docs/git-tag>.
 
 - Lister tout les tags :
 

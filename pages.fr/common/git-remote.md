@@ -1,7 +1,7 @@
 # git remote
 
 > Organisation des dépôts suivis ("remotes").
-> Plus d'informations : <https://git-scm.com/docs/git-remote>.
+> Plus d'informations : <https://git-scm.com/docs/git-remote>.
 
 - Affiche les dépôts existants, leur nom et URL :
 

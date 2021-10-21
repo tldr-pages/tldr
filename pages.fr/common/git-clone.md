@@ -1,7 +1,7 @@
 # git clone
 
 > Clone un dépôt existant.
-> Plus d'informations : <https://git-scm.com/docs/git-clone>.
+> Plus d'informations : <https://git-scm.com/docs/git-clone>.
 
 - Clone un dépôt existant :
 

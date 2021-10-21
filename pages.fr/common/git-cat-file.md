@@ -1,7 +1,7 @@
 # git cat-file
 
 > Fournir des informations sur le contenu ou le type et la taille des objets du dépôt Git.
-> Plus d'informations : <https://git-scm.com/docs/git-cat-file>.
+> Plus d'informations : <https://git-scm.com/docs/git-cat-file>.
 
 - Obtenir la taille [s] du commit HEAD en octets :
 

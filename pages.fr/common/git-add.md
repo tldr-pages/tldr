@@ -1,7 +1,7 @@
 # git add
 
 > Ajoute les fichiers modifiés à l'index.
-> Plus d'informations : <https://git-scm.com/docs/git-add>.
+> Plus d'informations : <https://git-scm.com/docs/git-add>.
 
 - Ajouter un fichier à l'index :
 

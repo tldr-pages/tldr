@@ -1,7 +1,7 @@
 # ip address
 
 > Sous-commande de gestion des adresses IP.
-> Plus d'informations : <https://manned.org/ip-address>.
+> Plus d'informations : <https://manned.org/ip-address>.
 
 - Liste les interfaces réseau et leurs adresses IP associées :
 

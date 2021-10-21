@@ -2,7 +2,7 @@
 
 > Rechercher une occurrence de texte n'importe où dans l'historique d'un dépôt git.
 > Comprend la plupart des arguments du `grep` classique.
-> Plus d'informations : <https://git-scm.com/docs/git-grep>.
+> Plus d'informations : <https://git-scm.com/docs/git-grep>.
 
 - Rechercher une occurrence dans les fichiers suivis :
 

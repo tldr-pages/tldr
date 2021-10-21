@@ -1,7 +1,7 @@
 # git
 
 > Système de gestion de versions décentralisé.
-> Plus d'informations : <https://git-scm.com/>.
+> Plus d'informations : <https://git-scm.com/>.
 
 - Obtenir la version de Git :
 

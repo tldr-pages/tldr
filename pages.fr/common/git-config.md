@@ -2,7 +2,7 @@
 
 > Gérer les options de configuration personnalisées pour les référentiels Git.
 > Ces configurations peuvent être locales (pour le référentiel courant) ou globales (pour l'utilisateur).
-> Plus d'informations : <https://git-scm.com/docs/git-config>.
+> Plus d'informations : <https://git-scm.com/docs/git-config>.
 
 - Liste les entrées de configurations locales (stockées dans `.git/config` du répertoire courant) :
 

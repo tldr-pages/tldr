@@ -1,7 +1,7 @@
 # git flow
 
 > Une collection d'extensions Git pour procurer des opérations supplémentaires sur les dépôts.
-> Plus d'informations : <https://github.com/nvie/gitflow>.
+> Plus d'informations : <https://github.com/nvie/gitflow>.
 
 - Initialiser dans un registre Git existant :
 
