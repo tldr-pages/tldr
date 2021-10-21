@@ -11,6 +11,6 @@
 
 `Get-History -Id {{id}}`
 
-- Get certain number of PowerShell history items:
+- Display the last N commands:
 
 `Get-History -Count {{count}}`
