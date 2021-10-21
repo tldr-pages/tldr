@@ -1,6 +1,7 @@
 # ps
 
 > Information about running processes.
+> More information: <https://manned.org/ps>.
 
 - List all running processes:
 
