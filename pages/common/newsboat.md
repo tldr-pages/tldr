@@ -15,7 +15,7 @@
 
 `newsboat -r`
 
-- Execute space separated command(s) in non-interactive mode:
+- Execute a space-separated list of commands in non-interactive mode:
 
 `newsboat -x {{reload print-unread ...}}`
 
