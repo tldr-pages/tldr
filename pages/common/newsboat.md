@@ -17,7 +17,7 @@
 
 - Execute space separated command(s) in non-interactive mode:
 
-`newsboat -x {{reload|print-unread}}`
+`newsboat -x {{reload print-unread ...}}`
 
 - See keyboard shortcuts (the most relevant are visible in the status line):
 
