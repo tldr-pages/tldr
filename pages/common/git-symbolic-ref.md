@@ -9,7 +9,7 @@
 
 - Store a reference by name, including a message with a reason for the update:
 
-`git symbolic-ref -m "Automated deploy" refs/production refs/heads/main`
+`git symbolic-ref -m "{{message}}" refs/{{name}} refs/heads/{{branch_name}}`
 
 - Read a reference by name:
 
