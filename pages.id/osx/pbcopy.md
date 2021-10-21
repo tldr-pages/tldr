@@ -1,11 +1,11 @@
 # pbcopy
 
-> Menempatkan output standar di clipboard
+> Menempatkan output standar pada papan klip (_clipboard_).
 
-- Menempatkan konten file di clipboard:
+- Menempatkan konten file pada papan klip (_clipboard_):
 
 `pbcopy < {{file}}`
 
-- Menempatkan hasil perintah di clipboard:
+- Menempatkan hasil perintah pada papan klip (_clipboard_):
 
 `find . -type t -name "*.png" | pbcopy`
