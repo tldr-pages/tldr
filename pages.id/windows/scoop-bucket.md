@@ -4,11 +4,11 @@
 > Jika Scoop tidak tahu dimana sebuah bucket terletak, lokasi repository harus ditentukan.
 > Informasi lebih lanjut: <https://github.com/lukesampson/scoop/wiki/Buckets>.
 
-- Daftar semua bucket yang sedang digunakan:
+- Menampilkan daftar semua bucket yang sedang digunakan:
 
 `scoop bucket list`
 
-- Daftar semua bucket yang dikenal:
+- Menampilkan daftar semua bucket yang dikenal:
 
 `scoop bucket known`
 

@@ -15,7 +15,7 @@
 
 `scoop update *`
 
-- Daftar paket yang terpasang:
+- Menampilkan daftar paket yang terpasang:
 
 `scoop list`
 
