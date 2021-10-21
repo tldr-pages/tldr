@@ -26,7 +26,7 @@
 
 - [a]rchive using a specific archive type:
 
-`7z a -t{{7z|zip|gzip|bzip2|lzip}} {{path/to/archive.7z}} {{path/to/file_or_directory}}`
+`7za a -t{{7z|bzip2|gzip|lzip|tar|zip}} {{path/to/archive.7z}} {{path/to/file_or_directory}}`
 
 - [l]ist the contents of an archive:
 

@@ -4,14 +4,14 @@
 > N'applique aucune modification. Voir `git gc` pour nettoyer.
 > Plus d'informations : <https://git-scm.com/docs/git-fsck>.
 
-- Vérifier le registre courant :
+- Vérifier le registre courant :
 
 `git fsck`
 
-- Lister tous les tags trouvés :
+- Lister tous les tags trouvés :
 
 `git fsck --tags`
 
-- Lister tout les nœuds racine trouvés :
+- Lister tout les nœuds racine trouvés :
 
 `git fsck --root`

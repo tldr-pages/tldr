@@ -1,7 +1,7 @@
 # docker-compose
 
 > Ejecuta y gestiona múltiples contenedores Docker.
-> Más información: <https://docs.docker.com/compose/reference/overview/>.
+> Más información: <https://docs.docker.com/compose/reference/>.
 
 - Lista los contenedores en ejecución:
 

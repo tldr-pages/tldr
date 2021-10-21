@@ -1,6 +1,7 @@
 # strings
 
 > Find printable strings in an object file or binary.
+> More information: <https://manned.org/strings>.
 
 - Print all strings in a binary:
 

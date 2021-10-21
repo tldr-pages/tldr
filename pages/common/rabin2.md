@@ -2,6 +2,7 @@
 
 > Get information about binary files (ELF, PE, Java CLASS, Mach-O) - symbols, sections, linked libraries, etc.
 > Comes bundled with `radare2`.
+> More information: <https://manned.org/rabin2>.
 
 - Display general information about a binary (architecture, type, endianness):
 

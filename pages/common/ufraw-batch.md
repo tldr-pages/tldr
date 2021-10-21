@@ -1,6 +1,7 @@
 # ufraw-batch
 
 > Convert RAW files from cameras into standard image files.
+> More information: <https://manned.org/ufraw-batch>.
 
 - Simply convert RAW files to JPG:
 

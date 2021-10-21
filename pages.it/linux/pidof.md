@@ -16,4 +16,4 @@
 
 - Uccide tutti i processi con un dato nome:
 
-`kill "$(pidof {{nome}})" `
+`kill $(pidof {{nome}})`

@@ -94,6 +94,12 @@ Use backticks on the following:
 - Extensions, ex. `.dll`.
 - Commands, ex. `ls`.
 
+## Imperative Mood
+
+Example descriptions have to be phrased in imperative mood.  
+For example, use `List all files`, instead of `Listing all files` or `File listing`.  
+This also applies to all translations by default, unless this is not possible for some reason.  
+
 ## Serial Comma
 
 When declaring a list of 3 or more items,
