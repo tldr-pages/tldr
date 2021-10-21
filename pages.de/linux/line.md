@@ -3,6 +3,6 @@
 > Liest eine einzelne Eingabezeile.
 > Weitere Informationen: <https://manned.org/line>.
 
-- Eingabe lesen:
+- Lies eine Eingabezeile:
 
 `line`
