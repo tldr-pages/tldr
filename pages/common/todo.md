@@ -1,4 +1,4 @@
-# todoman
+# todo
 
 > A simple task manager for the command line.
 > More information: <https://todoman.readthedocs.io/en/stable/>.
