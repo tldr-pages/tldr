@@ -1,7 +1,7 @@
 # aws ses
 
-> CLI for AWS SES
-> High-scale inbound and outbound cloud email service
+> CLI for AWS SES.
+> High-scale inbound and outbound cloud email service.
 > More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ses/index.html>.
 
 - Show help for specific SES subcommand:
