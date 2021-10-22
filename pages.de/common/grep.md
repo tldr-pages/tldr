@@ -12,7 +12,7 @@
 
 `grep -F {{exakter_ausdruck}} {{pfad/zu/datei}}`
 
-- Suche nach Ausdrücken [r]ekursiv im aktuellen Verzeichnis, zeige zugehörige Zeilen[n]ummern und [i]gnoriere Binärdateien:
+- Suche nach Ausdrücken [R]ekursiv im aktuellen Verzeichnis, zeige zugehörige Zeilen[n]ummern und [I]gnoriere Binärdateien:
 
 `grep -RIn {{ausdruck}} .`
 
@@ -24,7 +24,7 @@
 
 `grep -{{C|B|A}} 3 {{ausdruck}} {{pfad/zu/datei}}`
 
-- Gebe Dateinamen mit zugehöriger Zeilennummer für jedes Ergebnis aus:
+- Gib den Dateinamen mit zugehöriger Zeilennummer für jedes Ergebnis aus:
 
 `grep -Hn {{ausdruck}} {{pfad/zu/datei}}`
 

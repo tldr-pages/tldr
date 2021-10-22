@@ -23,7 +23,7 @@
 
 `cradle package update {{paket}}`
 
-- Aktualisiere ein Pakete zu einer bestimmten Paket-Version:
+- Aktualisiere ein Paket zu einer bestimmten Paket-Version:
 
 `cradle package update {{paket}} {{version}}`
 

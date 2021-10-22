@@ -19,6 +19,6 @@
 
 `aspell --lang={{cs}}`
 
-- Zeige alle falsch geschriebenen Wörter von Standard Input und ignoriere alle Wörter in deiner persönlichen Wortliste:
+- Zeige alle falsch geschriebenen Wörter von Standard Input und ignoriere alle Wörter in einer persönlichen Wortliste:
 
 `cat {{file}} | aspell --personal={{persönliche-wort-liste.pws}} {{list}}`

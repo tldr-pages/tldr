@@ -1,7 +1,7 @@
 # bash
 
 > Bourne-Again SHell.
-> `sh`-kompatibler [Kommandozeilen Interpreter](Kommandozeilen-Interpreter).
+> `sh`-kompatibler Kommandozeilen-Interpreter.
 > Weitere Informationen: <https://gnu.org/software/bash/>.
 
 - Interaktive Shell starten:

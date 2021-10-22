@@ -7,7 +7,7 @@
 
 `logsave {{pfad/zu/logdatei}} {{befehl}}`
 
-- Übernehme die Eingabe der Standardeingabe und speichere diese in eine Logdatei:
+- Übernimm die Eingabe der Standardeingabe und speichere diese in eine Logdatei:
 
 `logsave {{logdatei}} -`
 

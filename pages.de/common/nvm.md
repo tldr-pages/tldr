@@ -12,7 +12,7 @@
 
 `nvm use {{node_version}}`
 
-- Setze die standard Node.js Version:
+- Setze die Node.js-Standardversion:
 
 `nvm alias default {{node_version}}`
 
