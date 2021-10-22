@@ -9,4 +9,4 @@
 
 - Get a file's hash using the SHA1, SHA256, SHA384, SHA512, or MD5 algorithm:
 
-`Get-FileHash {{file}} -Algorithm {{SHA1|SHA384|SHA256|SHA512|MD5}}`
+`Get-FileHash {{path/to/file}} -Algorithm {{SHA1|SHA384|SHA256|SHA512|MD5}}`
