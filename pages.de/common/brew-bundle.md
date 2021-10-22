@@ -15,7 +15,7 @@
 
 `brew bundle dump`
 
-- Deinstalliere Pakete, die nicht in der Brewfile aufgelisted sind:
+- Deinstalliere Pakete, die nicht in der Brewfile aufgelistet sind:
 
 `brew bundle cleanup --force`
 

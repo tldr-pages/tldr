@@ -16,7 +16,7 @@
 
 `gpg2 --symmetric {{pfad/zu/datei.txt}}`
 
-- Verschlüssle eine bestimmte Datei und schreibe des Ergebnis auf STDOUT:
+- Verschlüssle eine bestimmte Datei und schreibe das Ergebnis auf STDOUT:
 
 `gpg2 --decrypt {{pfad/zu/datei.txt.gpg}}`
 
