@@ -1,4 +1,5 @@
 # python
+
 > O interpretador de linguagem Python.
 > Mais informações: <https://www.python.org>.
 
