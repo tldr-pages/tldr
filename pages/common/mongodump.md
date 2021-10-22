@@ -29,4 +29,4 @@
 
 - Create a dump from a specific instance; host, user, password and database will be defined in the connection string:
 
-`mongodump --uri={{connection_string}}`
+`mongodump --uri {{connection_string}}`
