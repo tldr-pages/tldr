@@ -26,7 +26,7 @@
 
 - Liste seulement les paquets installés explicitement et leurs versions :
 
-`pacman --quiet --explicit`
+`pacman --query --explicit`
 
 - Trouve à quel paquet un certain fichier appartient :
 

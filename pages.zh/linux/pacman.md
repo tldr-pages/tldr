@@ -25,7 +25,7 @@
 
 - 仅列出明确安装的软件包和版本：
 
-`pacman --quiet --explicit`
+`pacman --query --explicit`
 
 - 查找哪个包拥有某个文件：
 

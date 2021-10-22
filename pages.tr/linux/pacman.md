@@ -25,7 +25,7 @@
 
 - Sadece özellikle belirtilen paket ve sürümleri sırala:
 
-`pacman --quiet --explicit`
+`pacman --query --explicit`
 
 - Hangi paketin belirtilen dosyaya sahip olduğunu bul:
 
