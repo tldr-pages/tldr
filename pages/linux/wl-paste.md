@@ -1,7 +1,7 @@
 # wl-paste
 
 > Tool to access data stored in the clipboard for Wayland.
-> Pairs well with wl-copy.
+> See also: `wl-copy`.
 > More information: <https://manned.org/wl-paste>.
 
 - Output the contents of the clipboard:
@@ -14,7 +14,7 @@
 
 - Paste the contents of the clipboard to a file:
 
-`wl-paste > {{filename}}`
+`wl-paste > {{path/to/file}}`
 
 - Pipe the contents of the clipboard to a command:
 
