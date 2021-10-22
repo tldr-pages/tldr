@@ -5,7 +5,7 @@
 
 - Get a file's hash using SHA256:
 
-`Get-FileHash {{file}}`
+`Get-FileHash {{path/to/file}}`
 
 - Get a file's hash using the SHA1, SHA256, SHA384, SHA512, or MD5 algorithm:
 
