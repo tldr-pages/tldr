@@ -25,11 +25,11 @@
 
 - Tire uma screenshot de uma página web no modo headless:
 
-`firefox --headless --screenshot {{path/to/output_file.png}} {{https://example.com/}}`
+`firefox --headless --screenshot {{caminho/ao/arquivo_de_saida.png}} {{https://exemplo.com/}}`
 
 - Use um perfil específico para permitir que múltiplas instâncias separadas do Firefox rodem ao mesmo tempo:
 
-`firefox --profile {{path/to/directory}} {{https://example.com/}}`
+`firefox --profile {{caminho/ao/diretório}} {{https://example.com/}}`
 
 - Configure o Firefox como o navegador padrão:
 
