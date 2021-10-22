@@ -1,6 +1,6 @@
 # aspell
 
-> Interaktiver Korrektur Leser.
+> Interaktiver Korrekturleser.
 > Mehr Informationen: <http://aspell.net/>.
 
 - Überprüfe eine einzelne Datei auf Fehler:
@@ -19,6 +19,6 @@
 
 `aspell --lang={{cs}}`
 
-- Zeige alle falsch geschriebenen Wörter von Standard Input und ignoriere ale Wörter, in deiner persönlichen Wort Liste:
+- Zeige alle falsch geschriebenen Wörter von Standard Input und ignoriere alle Wörter in einer persönlichen Wortliste:
 
 `cat {{file}} | aspell --personal={{persönliche-wort-liste.pws}} {{list}}`

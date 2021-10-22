@@ -1,6 +1,6 @@
 # ldconfig
 
-> Symbolische Verknüpfungen und Zwischenspeicher für Abhängigkeiten von gemeinsam genutzen Bibliotheken konfigurieren.
+> Symbolische Verknüpfungen und Zwischenspeicher für Abhängigkeiten von gemeinsam genutzten Bibliotheken konfigurieren.
 > Weitere Informationen: <https://manned.org/ldconfig>.
 
 - Aktualisiere symbolische Verknüpfungen und erstelle den Zwischenspeicher neu (wird normalerweise ausgeführt, wenn eine neue Bibliothek installiert wird):
@@ -11,6 +11,6 @@
 
 `sudo ldconfig -n {{pfad/zu/verzeichnis}}`
 
-- Gib die Bibliotheken im Zwichenspeicher aus und prüfe ob eine bestimmte Bibliothek vorhanden ist:
+- Gib die Bibliotheken im Zwischenspeicher aus und prüfe ob eine bestimmte Bibliothek vorhanden ist:
 
 `ldconfig -p | grep {{bibliotheksname}}`
