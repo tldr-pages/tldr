@@ -1,6 +1,6 @@
 # Get-FileHash
 
-> Calculate and display a file's hash.
+> Calculate a hash for a file.
 > More information: <https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/get-filehash>.
 
 - Calculate a hash for a specified file using the SHA256 algorithm:
