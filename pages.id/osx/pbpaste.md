@@ -1,11 +1,11 @@
 # pbpaste
 
-> Mengirim isi papan klip (_clipboard_) ke output standar.
+> Mengirim isi papan klip (clipboard) ke output standar.
 
-- Menulis konten papan klip (_clipboard_) ke dalam sebuah file:
+- Menulis konten papan klip ke dalam sebuah file:
 
 `pbpaste > {{file}}`
 
-- Menggunakan konten papan klip (_clipboard_) sebagai input bagi sebuah perintah:
+- Menggunakan konten papan klip sebagai input bagi sebuah perintah:
 
 `pbpaste | grep foo`
