@@ -1,6 +1,6 @@
 # pbcopy
 
-> Menempatkan output standar pada papan klip (_clipboard_).
+> Menempatkan output standar pada papan klip (clipboard).
 
 - Menempatkan konten file pada papan klip:
 
