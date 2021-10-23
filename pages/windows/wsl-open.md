@@ -7,15 +7,15 @@
 
 `wsl-open {{.}}`
 
-- Open a URL in the default web browser in Windows:
+- Open a URL in the system default web browser in Windows:
 
 `wsl-open {{https://example.com}}`
 
-- Open a specific file in the in the default application in Windows:
+- Open a specific file in the system default application in Windows:
 
 `wsl-open {{path/to/file}}`
 
-- Set `wsl-open` as your shell's web browser (open links with `wsl-open`):
+- Set `wsl-open` as the shell's web browser (open links with `wsl-open`):
 
 `wsl-open -w`
 
