@@ -33,4 +33,4 @@
 
 - Zeige alle Commits zwischen zwei Zeitpunkten an:
 
-`git log --before={{datum}} --after={{datum}}`
+`git log --before="{{JAN 29 2017}}" --after="{{JAN 17 2017}}"`
