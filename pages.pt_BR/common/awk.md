@@ -27,10 +27,10 @@
 
 `awk '{if ($1 == "foo") print "Correspondência completa foo"; else if ($1 ~ "bar") print "Correspondência parcial bar"; else print "Baz"}' {{nome_do_arquivo}}`
 
-- Imprime todas as linhas em que a 10ª coluna é igual a um dado valor :
+- Imprime todas as linhas em que a 10ª coluna é igual a um dado valor:
 
 `awk '($10 == valor)'`
 
-- Imprime todas as linhas em que o valor da 10ª coluna está entre um mínimo e um máximo :
+- Imprime todas as linhas em que o valor da décima coluna está entre um mínimo e um máximo:
 
 `awk '($10 >= valor_minimo && $10 <= valor_maximo)'`
