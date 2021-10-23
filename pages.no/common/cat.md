@@ -3,7 +3,7 @@
 > Skriv ut og sammenføy filer.
 > Mer informasjon: <https://www.gnu.org/software/coreutils/cat>.
 
-- Skriv ut innholdet i en fil til standardutgangen:
+- Skriv ut innholdet i en fil til standard utgang:
 
 `cat {{fil}}`
 
