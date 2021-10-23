@@ -2,7 +2,7 @@
 
 > Diagnostic and feedback tool for Cloudflare's WARP service.
 > See also: `warp-cli`.
-> More information: <https://developers.cloudflare.com/warp-client/setting-up/linux>.
+> More information: <https://developers.cloudflare.com/warp-client/>.
 
 - Generate a zip file with information about the system configuration and the WARP connection:
 

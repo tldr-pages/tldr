@@ -1,7 +1,7 @@
 # warp-cli
 
 > Official command-line client for Cloudflare's WARP service.
-> More information: <https://developers.cloudflare.com/warp-client/setting-up/linux>.
+> More information: <https://developers.cloudflare.com/warp-client/>.
 
 - Register the current device to WARP (must be run before first connection):
 
