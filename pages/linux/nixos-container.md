@@ -23,6 +23,6 @@
 
 `sudo $EDITOR /var/lib/container/{{container_name}}/etc/nixos/configuration.nix && sudo nixos-container update {{container_name}}`
 
-- Enter in a container:
+- Enter an interactive shell session on an already-running container:
 
 `sudo nixos-container root-login {{container_name}}`
