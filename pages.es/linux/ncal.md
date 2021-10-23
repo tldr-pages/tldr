@@ -2,6 +2,6 @@
 
 > Esta orden es un alias de `cal`.
 
-- Consulte la documentación de la orden original:
+- Ver documentación para el comando original:
 
 `tldr cal`
