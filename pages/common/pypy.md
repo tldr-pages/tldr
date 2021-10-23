@@ -1,7 +1,7 @@
 # pypy
 
 > Fast and compliant alternative implementation of the Python language.
-> More information: <https://doc.pypy.org/en/latest/>.
+> More information: <https://doc.pypy.org>.
 
 - Start a REPL (interactive shell):
 
@@ -9,11 +9,11 @@
 
 - Execute script in a given Python file:
 
-`pypy {{script.py}}`
+`pypy {{path/to/file.py}}`
 
 - Execute script as part of an interactive shell:
 
-`pypy -i {{script.py}}`
+`pypy -i {{path/to/file.py}}`
 
 - Execute a Python expression:
 
@@ -29,4 +29,4 @@
 
 - Interactively debug a Python script:
 
-`pypy -m pdb {{script.py}}`
+`pypy -m pdb {{path/to/file.py}}`
