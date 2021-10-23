@@ -29,7 +29,7 @@
 
 - Use um perfil específico para permitir que múltiplas instâncias separadas do Firefox rodem ao mesmo tempo:
 
-`firefox --profile {{caminho/ao/diretório}} {{https://example.com/}}`
+`firefox --profile {{caminho/para/diretório}} {{https://example.com/}}`
 
 - Configure o Firefox como o navegador padrão:
 
