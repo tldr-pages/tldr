@@ -4,4 +4,4 @@
 
 - نمایش محل فایل اجرایی یک دستور:
 
-`whatis {{command}}`
+`where {{command}}`
