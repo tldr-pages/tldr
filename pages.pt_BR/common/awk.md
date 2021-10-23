@@ -1,7 +1,7 @@
 # awk
 
 > Uma linguagem de programação versátil para trabalhar com arquivos.
-> Mais informação em: <https://github.com/onetrueawk/awk>.
+> Mais informações: <https://github.com/onetrueawk/awk>.
 
 - Imprime a quinta coluna (também chamada de campo) em um arquivo separado por espaços:
 
