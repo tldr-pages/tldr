@@ -17,4 +17,4 @@
 
 - Mostra eventos de um calendário personalizado, salvo no caminho especificado ([f]ile):
 
-`calendar -f {{caminho/para/o/arquivo}}`
+`calendar -f {{caminho/para/arquivo}}`
