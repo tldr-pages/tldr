@@ -7,7 +7,7 @@
 
 `sudo apt update`
 
-- Pesquisar pacotes correspondentes ao critério de pesquisa:
+- Pesquisa pacotes correspondentes ao critério de pesquisa:
 
 `apt search {{criterio_de_pesquisa}}`
 
