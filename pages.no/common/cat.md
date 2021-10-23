@@ -15,7 +15,7 @@
 
 `cat {{fil1}} {{fil2}} >> {{målfil}}`
 
-- Nummerer alle utgangslinjer::
+- Nummerer alle utgangslinjer:
 
 `cat -n {{fil}}`
 
