@@ -7,6 +7,6 @@
 
 `time`
 
-- Display the current system time without prompting for a new time.
+- Display the current system time without prompting for a new time:
 
 `time /t`
