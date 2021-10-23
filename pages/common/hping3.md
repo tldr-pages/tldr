@@ -8,14 +8,14 @@
 
 `hping3 --icmp --count {{4}} {{ip_or_hostname}}`
 
-- Scan for port 80 controlling which local source port 5090 initiates the scan: 
+- Scan for port 80 controlling which local source port 5090 initiates the scan:
 
 `hping3 --verbose --syn --destport 80 --baseport 5090 {{ip_or_hostname}}`
 
-- Traceroute to a specific port 80
+- Traceroute to a specific port 80:
 
 `hping3 --traceroute --verbose --syn --destport 80 --baseport 5090 {{ip_or_hostname}}`
 
-- Perform ACK scan to check if a host is alive
+- Perform ACK scan to check if a host is alive:
 
 `hping3 --count 2 --verbose --destport 80 -baseport 5090 -A {{ip_or_hostname}}`
