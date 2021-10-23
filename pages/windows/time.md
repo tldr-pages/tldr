@@ -9,4 +9,4 @@
 
 - Display the current system time without prompting for a new time.
 
-`time /T`
+`time /t`
