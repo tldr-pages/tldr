@@ -1,0 +1,28 @@
+# textql
+
+> Execute SQL against structured text like csv or tsv files.
+> More information: <https://github.com/dinedal/textql>.
+
+- Query `.csv` file:
+
+`textql -sql "select * from filename" {{path/to/filename.csv}}`
+
+- Query `.tsv` file:
+
+`textql -dlm=tab -sql "select * from filename" {{path/to/filename.tsv}}`
+
+- Query file with header row:
+
+`textql -dlm={{delimiter}} -header -sql "SELECT * from filename" {{path/to/filename.csv}}`
+
+- Read data from stdin:
+
+`{{output}} | textql -sql "select * from stdin"`
+
+- Join two files `file1.csv` and `file2.csv` on column `c1`, a common column:
+
+`textql -header -sql "select * from file1 join file2 on file1.c1 = file2.c1 limit 10" -output-header file1.csv file2.csv`
+
+- Format output using an output delimiter with an output header line:
+
+`textql -output-dlm={{delimiter}} -output-header -sql "SELECT {{column}} as {{alias}} from filename" {{path/to/filename.csv}}`
