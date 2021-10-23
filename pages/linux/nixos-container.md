@@ -15,7 +15,7 @@
 
 `sudo nixos-container {{start|stop|terminate|destroy|status}} {{container_name}}`
 
-- Run a command in the container:
+- Run a command in a running container:
 
 `sudo nixos-container run {{container_name}} -- {{command}}`
 
