@@ -31,6 +31,6 @@
 
 `keyctl pipe {{key_name}}`
 
-- Revoke a key and prevents any further action on it:
+- Revoke a key and prevent any further action on it:
 
 `keyctl revoke {{key_name}}`
