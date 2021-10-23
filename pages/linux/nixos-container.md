@@ -17,7 +17,7 @@
 
 - Run a command in a running container:
 
-`sudo nixos-container run {{container_name}} -- {{command}}`
+`sudo nixos-container run {{container_name}} -- {{command}} {{command_arguments}}`
 
 - Update a container configuration:
 
