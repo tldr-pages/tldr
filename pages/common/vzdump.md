@@ -3,11 +3,11 @@
 > Backup Utility for VMs and Containers.
 > More information: <https://pve.proxmox.com/pve-docs/vzdump.1.html>.
 
-- Dump guest VM into default dump directory(usually /var/lib/vz/dump/), no snapshot:
+- Dump guest VM into default dump directory (usually /var/lib/vz/dump/), no snapshot:
 
 `vzdump {{VM_ID}}`
 
-- Backup more than one guest (selectively):
+- Backup guest 101, 102, and 103:
 
 `vzdump {{101 102 103}}`
 
