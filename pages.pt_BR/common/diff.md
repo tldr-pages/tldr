@@ -29,4 +29,4 @@
 
 - Cria um arquivo patch para o Git a partir das diferenças entre dois arquivos, tratando arquivos ausentes como vazios:
 
-`diff --text --unified --new-file {{old_file}} {{new_file}} > {{diff.patch}}`
+`diff --text --unified --new-file {{arquivo_antigo}} {{arquivo_novo}} > {{diferenca.patch}}`
