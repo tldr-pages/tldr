@@ -1,7 +1,7 @@
 # keyctl
 
 > Manipulate the Linux kernel keyring.
-> More information: <https://manned.org/keyctl.1>.
+> More information: <https://manned.org/keyctl>.
 
 - List keys in a specific keyring:
 
