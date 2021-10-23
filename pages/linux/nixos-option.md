@@ -1,7 +1,7 @@
 # nixos-option
 
 > Inspect a NixOS configuration.
-> More information: <https://nixos.org/manual/nixos/stable/index.html#sec-modularity>
+> More information: <https://nixos.org/manual/nixos/stable/index.html#sec-modularity>.
 
 - List all keys of an option key:
 
