@@ -11,7 +11,7 @@
 
 `sudo nixos-container create {{container_name}} --config-file {{nix_config_file_path}}`
 
-- Start/stop/terminate/destroy a container:
+- Start/stop/terminate/destroy a specific container:
 
 `sudo nixos-container {{start|stop|terminate|destroy|status}} {{container_name}}`
 
