@@ -1,11 +1,11 @@
 # chromium
 
 > Navegador código aberto do Google.
-> Mais informação em: <https://chromium.org>.
+> Mais informações: <https://chromium.org>.
 
 - Abre um arquivo:
 
-`chromium {{caminho/para/o/arquivo.html}}`
+`chromium {{caminho/para/arquivo.html}}`
 
 - Abre uma URL:
 
