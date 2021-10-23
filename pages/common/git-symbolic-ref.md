@@ -19,6 +19,6 @@
 
 `git symbolic-ref --delete refs/{{name}}`
 
-- For scripting, hide errors with --quiet and use --short to simplify ("refs/heads/X" prints as "X"):
+- For scripting, hide errors with `--quiet` and use `--short` to simplify ("refs/heads/X" prints as "X"):
 
 `git symbolic-ref --quiet --short refs/{{name}}`
