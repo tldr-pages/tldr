@@ -7,11 +7,11 @@
 
 `python`
 
-- Execute script in a given Python file:
+- Execute a specific Python file:
 
 `python {{path/to/file.py}}`
 
-- Execute script as part of an interactive shell:
+- Execute a specific Python file and start a REPL:
 
 `python -i {{path/to/file.py}}`
 
