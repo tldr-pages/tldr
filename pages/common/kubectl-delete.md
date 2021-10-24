@@ -7,7 +7,7 @@
 
 `kubectl delete pod {{pod_name}}`
 
-- Delete a deployment:
+- Delete a specific deployment:
 
 `kubect delete deployment {{deployment_name}}`
 
