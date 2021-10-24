@@ -11,7 +11,7 @@
 
 `kubect delete deployment {{deployment_name}}`
 
-- Delete a node:
+- Delete a specific node:
 
 `kubectl delete node {{node_name}}`
 
