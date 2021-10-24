@@ -25,11 +25,11 @@
 
 - Salva a lista de pacotes instalados em um arquivo:
 
-`pip3 freeze > {{requisitos.txt}}`
+`pip3 freeze > {{requirements.txt}}`
 
 - Instala pacotes salvos em um arquivo:
 
-`pip3 install --requirement {{requisitos.txt}}`
+`pip3 install --requirement {{requirements.txt}}`
 
 - Mostra informações sobre um pacote instalado:
 
