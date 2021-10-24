@@ -4,14 +4,30 @@
 > Part of `azure-cli`.
 > More information: <https://docs.microsoft.com/cli/azure/pipelines>.
 
+- Create a new Azure Pipeline (YAML based):
+
+`az pipelines create --org {{organization_url}} --project {{project_name}} --name {{pipeline_name}} --description {{description}} --repository {{repository_name}} --branch {{branch_name}}`
+
+- Delete a pipeline:
+
+`az pipelines delete --org {{organization_url}} --project {{project_name}} --id {{pipeline_id}}`
+
+- List pipelines:
+
+`az pipelines list --org {{organization_url}} --project {{project_name}}`
+
 - Queue (run) a pipeline:
 
 `az pipelines run --org {{organization_url}} --project {{project_name}} --name {{pipeline_name}}`
 
+- Get the details of a pipeline:
+
+`az pipelines show --org {{organization_url}} --project {{project_name}} --name {{pipeline_name}}`
+
+- Update a pipeline:
+
+`az pipelines update --org {{organization_url}} --project {{project_name}} --name {{pipeline_name}}` --new-name {{pipeline_new_name}} --new-folder-path {{pipeline_new_folder_path}}
+
 - Get a list of agents in a pool:
 
 `az pipelines agent list --org {{organization_url}} --pool-id {{agent_pool}}`
-
-- List build definitions:
-
-`az pipelines build definition list --org {{organization_url}} --project {{project_name}}`
