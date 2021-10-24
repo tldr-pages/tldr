@@ -1,6 +1,6 @@
 # vipw
 
-> Edita el fichero de contraseñas.
+> Edita el archivo de contraseñas.
 > Más información: <https://manned.org/vipw>.
 
 - Edita el archivo de contraseñas:
