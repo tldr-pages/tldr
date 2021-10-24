@@ -26,7 +26,7 @@
 
 - Update a pipeline:
 
-`az pipelines update --org {{organization_url}} --project {{project_name}} --name {{pipeline_name}}` --new-name {{pipeline_new_name}} --new-folder-path {{pipeline_new_folder_path}}
+`az pipelines update --org {{organization_url}} --project {{project_name}} --name {{pipeline_name}}` \ --new-name {{pipeline_new_name}} --new-folder-path {{user1/production_pipelines}}
 
 - Get a list of agents in a pool:
 
