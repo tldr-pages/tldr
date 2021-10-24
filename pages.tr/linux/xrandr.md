@@ -1,6 +1,6 @@
 # xrandr
 
-> Bir ekran için boyut, yön ve/veya çıkış yansımasını ayarla
+> Bir ekran için boyut, yön ve/veya çıkış yansımasını ayarla.
 > Daha fazla bilgi için: <https://www.x.org/releases/current/doc/man/man1/xrandr.1.xhtml>.
 
 - Sistemin mevcut durumunu göster (bilinen ekranlar, çözünürlükler, ...):
