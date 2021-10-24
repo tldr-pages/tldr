@@ -9,7 +9,7 @@
 
 - List current keys in the user default session:
 
-`keyctl list @us`
+`keyctl list {{@us}}`
 
 - Store a key in a specific keyring:
 
