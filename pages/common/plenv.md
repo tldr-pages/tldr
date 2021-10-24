@@ -3,11 +3,11 @@
 > Easily switch between multiple versions of Perl.
 > More information: <https://github.com/tokuhirom/plenv>.
 
-- Show general usage and briefly describe the available commands:
+- Display help:
 
 `plenv`
 
-- Show more detailed help for a specific command:
+- Display help for a command:
 
 `plenv help {{command}}`
 
