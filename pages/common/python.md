@@ -9,11 +9,11 @@
 
 - Execute script in a given Python file:
 
-`python {{script.py}}`
+`python {{path/to/file.py}}`
 
 - Execute script as part of an interactive shell:
 
-`python -i {{script.py}}`
+`python -i {{path/to/file.py}}`
 
 - Execute a Python expression:
 
@@ -29,7 +29,7 @@
 
 - Interactively debug a Python script:
 
-`python -m pdb {{script.py}}`
+`python -m pdb {{path/to/file.py}}`
 
 - Start the built-in HTTP server on port 8000 in the current directory:
 
