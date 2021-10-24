@@ -18,4 +18,3 @@
 - Open a specific file in read-only mode:
 
 `joe -rdonly {{path/to/file}}`
-
