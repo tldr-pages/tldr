@@ -1,7 +1,7 @@
 # bzgrep
 
 > Find patterns in bzip2 compressed files using grep.
-> More information: <https://manned.org/bzgrep.1>.
+> More information: <https://manned.org/bzgrep>.
 
 - Search for a pattern within a compressed file:
 
