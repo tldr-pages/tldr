@@ -8,7 +8,7 @@
 
 `warp-diag`
 
-- Membuat sebuah file arsip diagnostik dengan membubuhkan stempel waktu dalam nama file:
+- Membuat sebuah file arsip diagnostik dengan membubuhkan stempel waktu ke dalam nama file:
 
 `warp-diag --add-ts`
 
