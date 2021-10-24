@@ -1,6 +1,6 @@
 # xfreerdp
 
-> FreeRDP - A Free Remote Desktop Protocol Implementation for Windows.
+> Free Remote Desktop Protocol implementation.
 > More information: <https://www.freerdp.com/>.
 
 - Connect to a FreeRDP server:
