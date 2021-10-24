@@ -1,7 +1,7 @@
 # asdf
 
 > さまざまなパッケージのバージョンを管理するためのコマンドラインインターフェイスです。
-> 詳細はこちら。<https://asdf-vm.com>。
+> 詳細はこちら。<https://asdf-vm.com>
 
 - 利用可能なプラグインの一覧を表示:
 
@@ -9,20 +9,20 @@
 
 - プラグインのインストール:
 
-`asdf plugin-add {{name}}`
+`asdf plugin-add {{プラグイン名}}`
 
 - パッケージで利用可能なすべてのバージョンの一覧を表示:
 
-`asdf list-all {{name}}`
+`asdf list-all {{パッケージ名}}`
 
 - パッケージの特定バージョンのインストール:
 
-`asdf install {{name}} {{version}}`
+`asdf install {{パッケージ名}} {{バージョン}}`
 
 - パッケージのグローバルバージョンの設定:
 
-`asdf global {{name}} {{version}}`
+`asdf global {{パッケージ名}} {{バージョン}}`
 
 - パッケージのローカルバージョンの設定:
 
-`asdf local {{name}} {{version}}`
+`asdf local {{パッケージ名}} {{バージョン}}`
