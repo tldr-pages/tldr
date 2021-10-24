@@ -1,6 +1,7 @@
 # docker
 
 > Mengatur kontainer Docker dan image.
+> Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `docker run`.
 > Informasi lebih lanjut: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
 - Menampilkan semua daftar kontainer docker yang sedang berjalan:

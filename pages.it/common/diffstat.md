@@ -1,6 +1,7 @@
 # diffstat
 
 > Crea un istogramma dall'output del comando `diff`.
+> Maggiori informazioni: <https://manned.org/diffstat>.
 
 - Mostra i cambiamenti in un istogramma:
 

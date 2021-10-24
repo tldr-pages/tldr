@@ -1,8 +1,8 @@
 # gpg
 
-> GNU Privacy Guard。
-> 请参阅`gpg2`了解 GNU Privacy Guard 2。
-> 更多信息：<https://docs.releng.linuxfoundation.org/en/latest/gpg.html>。
+> GNU Privacy Guard.
+> 请参阅`gpg2`了解 GNU Privacy Guard 2.
+> 更多信息：<https://gnupg.org>.
 
 - 不加密，仅对`doc.txt`进行签名（生成`doc.txt.asc`，格式为 ASCII 码形式）：
 

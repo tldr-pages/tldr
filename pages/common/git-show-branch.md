@@ -31,6 +31,6 @@
 
 `git show-branch --sha1-name --current {{current|branch_name|ref}}`
 
-- Keep going a given number of commits past the common ancester:
+- Keep going a given number of commits past the common ancestor:
 
 `git show-branch --more {{5}} {{commit|branch_name|ref}} {{commit|branch_name|ref}} {{...}}`

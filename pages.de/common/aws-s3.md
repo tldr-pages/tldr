@@ -1,28 +1,28 @@
 # aws s3
 
-> Kommandozeilen Werkzeug für AWS S3. AWS S3 stellt Speicherplatz in der Cloud zur Verfügung.
-> Mehr Informationen: <https://aws.amazon.com/cli>.
+> CLI für AWS S3. AWS S3 stellt Speicherplatz in der Cloud zur Verfügung.
+> Weitere Informationen: <https://aws.amazon.com/cli>.
 
-- Auflistung aller Objekte in einem Bucket:
+- Liste alle Objekte in einem Bucket auf:
 
 `aws s3 ls {{bucket_name}}`
 
-- Synchronisieren von Dateien und Verzeichnissen zu einem Bucket:
+- Synchronisiere Dateien und Verzeichnissen zu einem Bucket:
 
-`aws s3 sync {{path/to/files}} s3://{{bucket_name}}`
+`aws s3 sync {{pfad/zu/datei_oder_verzeichnis}} s3://{{bucket_name}}`
 
-- Synchronisieren von Dateien und Verzeichnissen von einem Bucket:
+- Synchronisiere Dateien und Verzeichnissen von einem Bucket:
 
-`aws s3 sync s3://{{bucket_name}} {{path/to/target}}`
+`aws s3 sync s3://{{bucket_name}} {{pfad/zu/ziel}}`
 
-- Synchronisieren von Dateien und Verzeichnissen mit Ausnahmen:
+- Synchronisiere Dateien und Verzeichnissen mit Ausnahmen:
 
-`aws s3 sync {{path/to/files}} s3://{{bucket_name}} --exclude {{path/to/file}} --exclude {{path/to/directory}}/*`
+`aws s3 sync {{pfad/zu/datei_oder_verzeichnis}} s3://{{bucket_name}} --exclude {{pfad/zu/datei}} --exclude {{pfad/zu/verzeichnis}}/*`
 
-- Entfernen eines Objektes von einem Bucket:
+- Entferne ein Objekt von einem Bucket:
 
-`aws s3 rm s3://{{bucket}}/{{path/to/file}}`
+`aws s3 rm s3://{{bucket}}/{{pfad/zu/datei}}`
 
 - Probelauf eines angegeben Kommandos ohne diesen auszuführen:
 
-`aws s3 {{any_command}} --dryrun`
+`aws s3 {{befehl}} --dryrun`

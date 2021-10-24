@@ -2,6 +2,7 @@
 
 > Assembler GNU multiplataforma.
 > Seu objetivo inicial é realizar o montagem do arquivo gerado pelo `gcc` para ser utilizado pelo `ld`.
+> Mais informações: <https://manned.org/as>.
 
 - Realizar a montagem de um arquivo, o resultado dessa operação será gravado no arquivo a.out:
 

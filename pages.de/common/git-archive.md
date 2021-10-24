@@ -1,28 +1,28 @@
 # git archive
 
-> Erstellt ein Archiv von Dateien.
-> Mehr Informationen: <https://git-scm.com/docs/git-archive>.
+> Erstelle ein Archiv von Dateien.
+> Weitere Informationen: <https://git-scm.com/docs/git-archive>.
 
-- Erstellt ein Tar-Archiv aus dem Inhalt des aktuellen HEAD und gibt dies aus:
+- Erstelle ein tar-Archiv aus dem Inhalt des aktuellen HEAD und gib dieses aus:
 
 `git archive --verbose HEAD`
 
-- Erstellt ein Zip-Archiv aus dem Inhalt des aktuellen HEAD und gibt dies aus:
+- Erstelle ein zip-Archiv aus dem Inhalt des aktuellen HEAD und gib dieses aus:
 
 `git archive --verbose --format=zip HEAD`
 
-- Wie zuvor, aber nun wir das Zip-Archiv in eine Datei geschrieben:
+- Erstelle ein zip-Archiv aus dem Inhalt des aktuellen HEAD und speichere dieses in eine Datei:
 
-`git archive --verbose --output={{pfad/zur/datei.zip}} HEAD`
+`git archive --verbose --output={{pfad/zu/datei.zip}} HEAD`
 
-- Erstellt ein Tar-Archiv aus dem Inhalt des letzten Commits eines bestimmten Branches:
+- Erstelle ein tar-Archiv aus dem Inhalt des letzten Commits eines bestimmten Branches:
 
-`git archive --output={{pfad/zur/datei.tar}} {{branch_name}}`
+`git archive --output={{pfad/zu/datei.tar}} {{branch_name}}`
 
-- Erstellt ein Tar-Archiv von dem Inhalt eines bestimmten Ordners:
+- Erstelle ein tar-Archiv aus dem Inhalt eines bestimmten Verzeichnisses:
 
-`git archive --output={{pfad/zur/datei.tar}} HEAD:{{pfad/zum/ordner}}`
+`git archive --output={{pfad/zu/datei.tar}} HEAD:{{pfad/zu/verzeichnis}}`
 
-- Jeder Datei wird ein Pfad vorangestellt, um sie in einem bestimmten Verzeichnis zu archivieren:
+- Stelle jeder Datei einen Pfad voran, um sie in einem bestimmten Verzeichnis zu archivieren:
 
-`git archive --output={{pfad/zur/datei.tar}} --prefix={{pfadh/zum/voranstellen}}/ HEAD`
+`git archive --output={{pfad/zu/datei.tar}} --prefix={{pfad/zu/verzeichnis}}/ HEAD`

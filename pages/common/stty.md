@@ -1,6 +1,7 @@
 # stty
 
 > Set options for a terminal device interface.
+> More information: <https://www.gnu.org/software/coreutils/stty>.
 
 - Display all settings for the current terminal:
 
@@ -16,7 +17,7 @@
 
 - Get the actual transfer speed of a device:
 
-`stty -f {{path/to/device_file}} speed`
+`stty -F {{path/to/device_file}} speed`
 
 - Reset all modes to reasonable values for the current terminal:
 

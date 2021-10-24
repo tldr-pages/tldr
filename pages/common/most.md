@@ -1,6 +1,7 @@
 # most
 
 > Open one or several files for interactive reading, allowing scrolling and search.
+> More information: <https://manned.org/most>.
 
 - Open a file:
 

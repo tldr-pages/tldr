@@ -1,6 +1,7 @@
 # chgrp
 
 > Change group ownership of files and directories.
+> More information: <https://www.gnu.org/software/coreutils/chgrp>.
 
 - Change the owner group of a file/directory:
 

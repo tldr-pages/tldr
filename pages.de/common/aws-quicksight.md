@@ -1,28 +1,28 @@
 # aws quicksight
 
-> Kommandozeilen Werkzeug für AWS QuickSight.
-> Mehr Informationen: <https://docs.aws.amazon.com/cli/latest/reference/quicksight/index.html>.
+> CLI für AWS QuickSight.
+> Weitere Informationen: <https://docs.aws.amazon.com/cli/latest/reference/quicksight/>.
 
-- Auflistung aller Datensätze:
+- Liste alle Datensätze auf:
 
 `aws quicksight list-data-sets --aws-account-id {{aws_account_id}}`
 
-- Auflistung aller Benutzer:
+- Liste alle Benutzer auf:
 
 `aws quicksight list-users --aws-account-id {{aws_account_id}} --namespace default`
 
-- Auflistung aller Gruppen:
+- Liste alle Gruppen auf:
 
 `aws quicksight list-groups --aws-account-id {{aws_account_id}} --namespace default`
 
-- Auflistung aller Dashboards:
+- Liste alle Dashboards auf:
 
 `aws quicksight list-dashboards --aws-account-id {{aws_account_id}}`
 
-- Detail-Auflistung eines Datensatzes:
+- Liste einen Datensatz detailliert aus:
 
-`aws quicksight describe-data-set --aws-account-id {{aws_account_id}} --data-set-id {{data_set_id}}`
+`aws quicksight describe-data-set --aws-account-id {{aws_account_id}} --data-set-id {{datensatz_id}}`
 
-- Auflistung der Zugängsberechtungen zu einem Datensatz:
+- Liste Zugangsberechtigungen zu einem Datensatz auf:
 
-`aws quicksight describe-data-set-permissions --aws-account-id {{aws_account_id}} --data-set-id {{data_set_id}}`
+`aws quicksight describe-data-set-permissions --aws-account-id {{aws_account_id}} --data-set-id {{datensatz_id}}`

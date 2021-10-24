@@ -1,37 +1,37 @@
 # vim
 
-> Vim (Vi IMproved), un editeur de texte en ligne de commandes, fournit plusieurs modes pour differentes manipulations de texte.
+> Vim (Vi IMproved), un éditeur de texte en ligne de commandes, fournit plusieurs modes pour différentes manipulations de texte.
 > Pressez `i` pour passer en mode édition. `<Esc>` revient au mode normal, qui ne permet pas l insertion de code.
-> Plus d'informations : <https://www.vim.org>.
+> Plus d'informations : <https://www.vim.org>.
 
-- Ouvrir un fichier :
+- Ouvrir un fichier :
 
 `vim {{chemin/vers/fichier}}`
 
-- consulter le manuel utilisateur :
-
-`:help<Enter>`
-
-- Sauvegarder et fermer :
-
-`:wq<Enter>`
-
-- Ouvrir un fichier a une ligne specifiée :
+- Ouvrir un fichier à une ligne spécifiée :
 
 `vim +{{numero_ligne}} {{chemin/vers/fichier}}`
 
-- Annuler la derniere operation :
+- consulter le manuel utilisateur :
+
+`:help<Entrée>`
+
+- Sauvegarder et fermer :
+
+`:wq<Entrée>`
+
+- Annuler la dernière opération :
 
 `u`
 
-- Rechercher un pattern dans un fichier (appuyez `n`/`N` pour aller a la prochaine/précedante occurence) :
+- Rechercher un motif dans un fichier (appuyez `n`/`N` pour aller à la prochaine / précédente occurrence) :
 
-`/{{pattern_recherche}}<Enter>`
+`/{{motif_recherché}}<Entrée>`
 
-- Effectuer une substition par éxpression reguliere dans tout le fichier :
+- Effectuer une substitution par expression régulière dans tout le fichier :
 
-`:%s/{{pattern}}/{{replacement}}/g<Enter>`
+`:%s/{{motif}}/{{remplacement}}/g<Entrée>`
 
-- Afficher les numeros de ligne :
+- Afficher les numéros de ligne :
 
-`:set nu<Enter>`
+`:set nu<Entrée>`

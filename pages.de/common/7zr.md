@@ -1,17 +1,33 @@
 # 7zr
 
 > Ein Dateiarchivierer mit hoher Kompressionsrate.
-> Eine alleinstehende Version von `7z`, die nur .7z Dateien unterstützt.
-> Mehr Informationen: <https://www.7-zip.org/>.
+> Eine alleinstehende Version von `7z`, die nur `.7z` Dateien unterstützt.
+> Weitere Informationen: <https://www.7-zip.org>.
 
-- Archiviere eine Datei oder ein Verzeichnis:
+- [a]rchiviere eine Datei oder ein Verzeichnis:
 
-`7zr a {{archiv.7z}} {{pfad/zu/datei_oder_verzeichnis}}`
+`7zr a {{pfad/zu/archiv.7z}} {{pfad/zu/datei_oder_verzeichnis}}`
 
-- Extrahiere eine existierende 7z-Datei:
+- Verschlüssle ein vorhandenes Archiv (einschließlich Dateinamen):
 
-`7zr x {{archiv.7z}}`
+`7zr a {{pfad/zu/verschlüsselt.7z}} -p{{passwort}} -mhe=on {{pfad/zu/archiv.7z}}`
 
-- Listet den Inhalt einer Archivdatei auf:
+- E[x]trahiere ein Archiv und behalte die originale Verzeichnisstruktur bei:
 
-`7zr l {{archiv}}`
+`7zr x {{pfad/zu/archiv.7z}}`
+
+- E[x]trahiere ein Archiv in ein bestimmtes Verzeichnis:
+
+`7zr x {{pfad/zu/archiv.7z}} -o{{pfad/zu/verzeichnis}}`
+
+- E[x]trahiere ein Archiv nach stdout:
+
+`7zr x {{pfad/zu/archiv.7z}} -so`
+
+- [l]iste den Inhalt einer Archivdatei auf:
+
+`7zr l {{pfad/zu/archiv.7z}}`
+
+- Liste alle verfügbaren Archivtypen auf:
+
+`7zr i`

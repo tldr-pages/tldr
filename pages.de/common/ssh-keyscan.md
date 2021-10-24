@@ -1,19 +1,20 @@
 # ssh-keyscan
 
-> Abruf von öffentlichen SSH Schlüssels eines externen Servers.
+> Rufe öffentliche SSH Schlüssel eines externen Servers ab.
+> Weitere Informationen: <https://man.openbsd.org/ssh-keyscan>.
 
-- Abruf aller öffentlichen SSH Schlüssel:
+- Rufe alle öffentlichen SSH Schlüssel eines Servers ab:
 
-`ssh-keyscan {{Server}}`
+`ssh-keyscan {{server}}`
 
-- Abruf aller öffentlichen SSH Schlüssel unter einem bestimmten Port:
+- Rufe alle öffentlichen SSH Schlüssel unter einem bestimmten Port ab:
 
-`ssh-keyscan -p {{Port}} {{Server}}`
+`ssh-keyscan -p {{port}} {{server}}`
 
-- Abruf bestimmter SSH Schüssel-Typen:
+- Rufe bestimmte SSH Schüssel-Typen ab:
 
-`ssh-keyscan -t {{rsa,dsa,ecdsa,ed25519}} {{Server}}`
+`ssh-keyscan -t {{rsa,dsa,ecdsa,ed25519}} {{server}}`
 
-- Manuelle Aktualisierung der `known_hosts` SSH Datei mit dem Fingerabdruck eines bestimmten Servers:
+- Aktualisiere die `known_hosts` SSH Datei mit dem Fingerabdruck eines bestimmten Servers:
 
-`ssh-keyscan -H {{Server}} >> ~/.ssh/known_hosts`
+`ssh-keyscan -H {{server}} >> ~/.ssh/known_hosts`

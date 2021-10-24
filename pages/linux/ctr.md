@@ -1,6 +1,6 @@
 # ctr
 
-> Manage Containerd containers and images.
+> Manage `containerd` containers and images.
 > More information: <https://containerd.io>.
 
 - List all containers (running and stopped):
@@ -17,4 +17,4 @@
 
 - Tag an image:
 
-`ctr images tag {{souce_image}}:{{source_tag}}  {{target_image}}:{{target_tag}}`
+`ctr images tag {{souce_image}}:{{source_tag}} {{target_image}}:{{target_tag}}`

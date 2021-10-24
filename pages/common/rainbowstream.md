@@ -4,7 +4,7 @@
 > Online help with `h`, up and down arrows for history, tab to auto-complete and 2-tab for suggestion.
 > More information: <https://github.com/orakaro/rainbowstream>.
 
-- Open rainbowstream:
+- Open RainbowStream:
 
 `rainbowstream`
 
@@ -20,11 +20,11 @@
 
 `t {{message}}`
 
-- Retweet the tweet with given id (id is beside the time):
+- Retweet the tweet with given ID (ID is beside the time):
 
 `rt {{tweet_id}}`
 
-- Favorite the tweet with given id:
+- Favorite the tweet with given ID:
 
 `fav {{tweet_id}}`
 

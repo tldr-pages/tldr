@@ -1,36 +1,36 @@
 # aws iam
 
-> Kommandozeilen Werkzeug für AWS IAM.
-> Mehr Informationen: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/iam/index.html>.
+> CLI für AWS IAM.
+> Weitere Informationen: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/iam/index.html>.
 
-- Zeige die AWS IAM Hilfe Seite (beinhaltet auch Hinweise für alle Unter-Kommandos):
+- Zeige die AWS IAM Hilfeseite (beinhaltet auch Hinweise für alle Unterbefehle):
 
 `aws iam help`
 
-- Auflistung aller Benutzer:
+- Liste aller Benutzer auf:
 
 `aws iam list-users`
 
-- Auflistung aller Richtlinien:
+- Liste aller Richtlinien auf:
 
 `aws iam list-policies`
 
-- Auflistung aller Gruppen:
+- Liste aller Gruppen auf:
 
 `aws iam list-groups`
 
-- Auflistung aller Benutzer zu einer Gruppe:
+- Liste aller Benutzer zu einer Gruppe auf:
 
-`aws iam get-group --group-name {{group_name}}`
+`aws iam get-group --group-name {{gruppe}}`
 
-- Detail-Auflistung einer IAM Richtlinie:
+- Liste einer IAM Richtlinie detailliert auf:
 
-`aws iam get-policy --policy-arn arn:aws:iam::aws:policy/{{policy_name}}`
+`aws iam get-policy --policy-arn arn:aws:iam::aws:policy/{{richtlinie}}`
 
-- Auflistung aller Zugriffsschlüssel:
+- Liste alle Zugriffsschlüssel auf:
 
 `aws iam list-access-keys`
 
-- Auflistung der Zugriffsschlüssel für einen Benutzer:
+- Liste alle Zugriffsschlüssel für einen Benutzer auf:
 
-`aws iam list-access-keys --user-name {{user_name}}`
+`aws iam list-access-keys --user-name {{benutzername}}`

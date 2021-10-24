@@ -1,11 +1,12 @@
 # whoami
 
-> Ausgabe des Benutzernamens des aktuellen Benutzers.
+> Gib den Benutzernamen des aktuellen Benutzers aus.
+> Weitere Informationen: <https://www.gnu.org/software/coreutils/whoami>.
 
-- Ausgabe des aktiven Benutzernamens:
+- Gib den aktiven Benutzernamen aus:
 
 `whoami`
 
-- Ausgabe des Benutzernamens nach einer Änderung der Benutzer Identität:
+- gib den Benutzernamen nach einer Änderung der Benutzeridentität aus:
 
 `sudo whoami`

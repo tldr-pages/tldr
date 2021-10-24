@@ -1,6 +1,7 @@
 # lslocks
 
 > List local system locks.
+> More information: <https://manned.org/lslocks>.
 
 - List all local system locks:
 
@@ -18,6 +19,6 @@
 
 `lslocks --pid {{PID}}`
 
-- List locks with json output to stdout:
+- List locks with JSON output to stdout:
 
 `lslocks --json`

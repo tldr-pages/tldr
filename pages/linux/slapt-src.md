@@ -16,7 +16,7 @@
 
 `slapt-src --install {{slackbuild_name}}`
 
-- Locate slackbuilds of interest by their name or description:
+- Locate slackbuilds by their name or description:
 
 `slapt-src --search {{search_term}}`
 

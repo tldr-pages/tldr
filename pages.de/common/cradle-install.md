@@ -1,24 +1,24 @@
 # cradle install
 
-> Installiert Cradle PHP Framework Komponenten.
-> Mehr Informationen: <https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-Tools.html#install>.
+> Installiere Cradle PHP Framework Komponenten.
+> Weitere Informationen: <https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-Tools.html#install>.
 
-- Installieren von Cradle Komponenten (öffnet erst einen Dialog):
+- Installiere Cradle Komponenten mithilfe eines Dialogs:
 
 `cradle install`
 
-- Gewaltsames Installieren:
+- Installiere Cradle Komponenten gewaltsam:
 
 `cradle install --force`
 
-- Überspringen von SQL Migrationen:
+- Überspringe SQL Migrationen:
 
 `cradle install --skip-sql`
 
-- Überspringen von Paket Aktualisierungen:
+- Überspringe Paket-Aktualisierungen:
 
 `cradle install --skip-versioning`
 
-- Benutzer-spezifische Datenbanken Details:
+- Zeige Details über eine benutzer-spezifische Datenbank:
 
-`cradle install -h {{Hostname}} -u {{Benutzer}} -p {{Passwort}}`
+`cradle install -h {{hostname}} -u {{benutzer}} -p {{passwort}}`

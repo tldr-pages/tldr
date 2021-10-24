@@ -1,6 +1,7 @@
 # lscpu
 
 > Displays information about the CPU architecture.
+> More information: <https://manned.org/lscpu>.
 
 - Display information about all CPUs:
 

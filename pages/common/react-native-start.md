@@ -1,6 +1,6 @@
 # react-native start
 
-> Command line tools to start the React Native server.
+> Command-line tools to start the React Native server.
 > More information: <https://github.com/react-native-community/cli/blob/master/docs/commands.md#start>.
 
 - Start the server that communicates with connected devices:

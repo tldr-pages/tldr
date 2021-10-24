@@ -1,6 +1,8 @@
 # tlp
 
-> Advanced power management for Linux. See `tlp-stat` page for additional information.
+> Advanced power management for Linux.
+> See also `tlp-stat`.
+> More information: <https://linrunner.de/tlp/>.
 
 - Apply settings (according to the actual power source):
 

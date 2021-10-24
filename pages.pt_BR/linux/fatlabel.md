@@ -1,6 +1,7 @@
 # fatlabel
 
 > Define ou exibe o rótulo de uma partição FAT32.
+> Mais informações: <https://manned.org/fatlabel>.
 
 - Exibir o rótulo de uma partição FAT32:
 

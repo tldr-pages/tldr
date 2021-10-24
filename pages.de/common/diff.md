@@ -1,23 +1,23 @@
 # diff
 
 > Vergleiche Dateien und Verzeichnisse.
-> Mehr Informationen: <https://man7.org/linux/man-pages/man1/diff.1.html>.
+> Weitere Informationen: <https://man7.org/linux/man-pages/man1/diff.1.html>.
 
-- Vergleiche Dateien (Listet jene Veränderungen auf, mit denen `alte_datei` zu `neue_datei` wird):
+- Vergleiche Dateien (Listet jene Veränderungen auf, mit denen `datei1` zu `datei2` wird):
 
-`diff {{alte_datei}} {{neue_datei}}`
+`diff {{pfad/zu/datei1}} {{pfad/zu/datei2}}`
 
 - Vergleiche Dateien und ignoriere Leerzeichen:
 
-`diff -w {{alte_datei}} {{neue_datei}}`
+`diff -w {{pfad/zu/datei1}} {{pfad/zu/datei2}}`
 
 - Vergleiche Dateien und zeige Unterschiede nebeneinander:
 
-`diff -y {{alte_datei}} {{neue_datei}}`
+`diff -y {{pfad/zu/datei1}} {{pfad/zu/datei2}}`
 
 - Vergleiche Dateien und zeige Unterschiede in vereinheitlichtem Format (wie in `git diff`):
 
-`diff -u {{alte_datei}} {{neue_datei}}`
+`diff -u {{pfad/zu/datei1}} {{pfad/zu/datei2}}`
 
 - Vergleiche Verzeichnisse rekursiv (zeigt sowohl Namen von unterschiedlichen Dateien/Verzeichnissen, als auch Unterschiede zwischen Dateien):
 

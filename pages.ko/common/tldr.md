@@ -7,7 +7,7 @@
 
 `tldr {{명령어}}`
 
-- linux에서 tar에 대한 tldr 문서 표시하기:
+- Linux에서 tar에 대한 tldr 문서 표시하기:
 
 `tldr -p {{linux}} {{tar}}`
 

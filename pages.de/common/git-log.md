@@ -1,17 +1,17 @@
 # git log
 
 > Zeigt die Commit-Historie an.
-> Mehr Informationen: <https://git-scm.com/docs/git-log>.
+> Weitere Informationen: <https://git-scm.com/docs/git-log>.
 
-- Zeige die Sequenz der Commits des Git-Repository im aktuellen Ordner, beginnend mit dem aktuellen, an. In umgekehrter chronologischer Reihenfolge:
+- Zeige die Sequenz der Commits des Git-Repository im aktuellen Verzeichnis, beginnend mit dem aktuellen, an.
 
 `git log`
 
 - Zeige die Historie einer bestimmten Datei oder eines Verzeichnisses, inklusive Unterschiede, an:
 
-`git log -p {{pfad/zu/datei_oder_ordner}}`
+`git log -p {{pfad/zu/datei_oder_verzeichnis}}`
 
-- Zeige einen Überblick der Commits an, und welche Datei(en) jeweils geändert wurde(n):
+- Zeige einen Überblick der Commits an und welche Dateien jeweils verändert wurden:
 
 `git log --stat`
 
@@ -23,14 +23,14 @@
 
 `git log --oneline --decorate --all --graph`
 
-- Zeige nur Commits, deren Commit-Nachricht einen gegebenen Text enthalten (Ohne Beachtung von Groß- und Kleinschreibung):
+- Zeige nur Commits, deren Commit-Nachricht einen bestimmten Text enthalten (Ohne Beachtung von Groß- und Kleinschreibung):
 
-`git log -i --grep {{suchtext}}`
+`git log -i --grep {{text}}`
 
 - Zeige die letzten N Commits eines bestimmten Autors:
 
 `git log -n {{anzahl}} --author={{autor}}`
 
-- Zeige alle Commits zwischen zwei Daten an:
+- Zeige alle Commits zwischen zwei Zeitpunkten an:
 
 `git log --before={{datum}} --after={{datum}}`

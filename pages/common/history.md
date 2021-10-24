@@ -1,12 +1,13 @@
 # history
 
-> Command Line history.
+> Command-line history.
+> More information: <https://www.gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html>.
 
 - Display the commands history list with line numbers:
 
 `history`
 
-- Display the last 20 commands:
+- Display the last 20 commands (in `zsh` it displays all commands starting from the 20th):
 
 `history {{20}}`
 

@@ -2,27 +2,28 @@
 
 > Ausgabe und Verkettung von einzelnen Dateien.
 > Ein `cat`-Ersatz mit Syntax-Hervorhebung und Git-Integration.
+> Weitere Informationen: <https://github.com/sharkdp/bat>.
 
-- Gebe den Inhalt einer Datei in der Standardausgabe aus:
+- Gib den Inhalt einer Datei in stdout aus:
 
-`bat {{datei}}`
+`bat {{pfad/zu/datei}}`
 
-- Verkette mehrere Dateien in eine Zieldatei:
+- Verkette mehrere Dateien zu eine Zieldatei:
 
-`bat {{datei1}} {{datei2}} > {{ziel_datei}}`
+`bat {{pfad/zu/datei1}} {{pfad/zu/datei2}} > {{pfad/zu/ziel_datei}}`
 
 - Hänge mehrere Dateien an eine Zieldatei an:
 
-`bat {{datei1}} {{datei2}} >> {{ziel_datei}}`
+`bat {{pfad/zu/datei1}} {{pfad/zu/datei2}} >> {{pfad/zu/ziel_datei}}`
 
 - Nummeriere alle ausgegebenen Zeilen:
 
-`bat -n {{datei}}`
+`bat -n {{pfad/zu/datei}}`
 
-- Syntax-Hervorhebung für eine json Datei:
+- Hebe den Syntax einer JSON-Datei hervor:
 
-`bat --language json {{datei.json}}`
+`bat --language {{json}} {{pfad/zu/datei.json}}`
 
-- Zeige alle unterstüten Sprachen an:
+- Zeige alle unterstützten Sprachen an:
 
 `bat --list-languages`

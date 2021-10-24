@@ -1,6 +1,7 @@
 # inotifywait
 
 > Waits for changes to one or more files.
+> More information: <https://manned.org/inotifywait>.
 
 - Run a command when a file changes:
 
@@ -16,7 +17,7 @@
 
 - Exclude files matching a regular expression:
 
-`while inotifywait --recursive {{path/to/directory}} --exlude '{{regex}}'; do {{command}}; done`
+`while inotifywait --recursive {{path/to/directory}} --exclude '{{regular_expression}}'; do {{command}}; done`
 
 - Wait at most 30 seconds:
 

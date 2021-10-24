@@ -22,16 +22,16 @@
 
 - Download a package and install it globally:
 
-`npm install -g {{module_name}}`
+`npm install --global {{module_name}}`
 
 - Uninstall a package and remove it from the list of dependencies in `package.json`:
 
 `npm uninstall {{module_name}}`
 
-- Print a tree of locally-installed dependencies:
+- Print a tree of locally installed dependencies:
 
 `npm list`
 
 - List top-level globally installed modules:
 
-`npm list -g --depth={{0}}`
+`npm list --global --depth={{0}}`

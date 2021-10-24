@@ -3,7 +3,7 @@
 > Scan networks for NetBIOS name information.
 > More information: <https://github.com/resurrecting-open-source-projects/nbtscan>.
 
-- Scan a network for NETBIOS names:
+- Scan a network for NetBIOS names:
 
 `nbtscan {{192.168.0.1/24}}`
 

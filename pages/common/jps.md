@@ -1,6 +1,7 @@
 # jps
 
 > Show JVM Process Status of current user.
+> More information: <https://docs.oracle.com/en/java/javase/11/tools/jps.html>.
 
 - List all JVM processes:
 

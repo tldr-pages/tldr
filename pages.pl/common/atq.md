@@ -1,6 +1,7 @@
 # atq
 
 > Pokaż oczekujące zadania użytkownika wprowadzone wcześniej przez polecenia `at` lub `batch`.
+> Więcej informacji: <https://man.archlinux.org/man/at.1>.
 
 - Pokaż zaplanowane zadania:
 

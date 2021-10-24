@@ -2,6 +2,7 @@
 
 > A large file compression program.
 > See also `lrunzip`, `lrztar`, `lrzuntar`.
+> More information: <https://manned.org/lrzip>.
 
 - Compress a file with LZMA - slow compression, fast decompression:
 

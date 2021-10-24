@@ -1,32 +1,37 @@
 # speedtest-cli
 
-> Command line interface for testing internet bandwidth using https://speedtest.net.
+> Unofficial command-line interface for testing internet bandwidth using https://speedtest.net.
+> See also `speedtest` for the official CLI.
 > More information: <https://github.com/sivel/speedtest-cli>.
 
 - Run a speed test:
 
 `speedtest-cli`
 
+- Run a speed test and display values in bytes, instead of bits:
+
+`speedtest-cli --bytes`
+
+- Run a speed test using `HTTPS`, instead of `HTTP`:
+
+`speedtest-cli --secure`
+
 - Run a speed test without performing download tests:
 
 `speedtest-cli --no-download`
 
-- Run a speed test and generate an image of the results (useful for sharing):
+- Run a speed test and generate an image of the results:
 
 `speedtest-cli --share`
 
-- Run a speed test to the given speedtest.net server id:
+- List all `speedtest.net` servers, sorted by distance:
+
+`speedtest-cli --list`
+
+- Run a speed test to a specific speedtest.net server:
 
 `speedtest-cli --server {{server_id}}`
 
-- Save a list of all speedtest.net servers, sorted by distance:
-
-`speedtest-cli --list > {{speedtest_servers.txt}}`
-
-- Display results as CSV (suppressing progress information):
-
-`speedtest-cli --csv --csv-delimiter {{delimiter_char}}`
-
-- Display results as JSON (suppressing progress information):
+- Run a speed test and display the results as JSON (suppresses progress information):
 
 `speedtest-cli --json`

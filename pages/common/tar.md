@@ -4,11 +4,11 @@
 > Often combined with a compression method, such as gzip or bzip2.
 > More information: <https://www.gnu.org/software/tar>.
 
-- [c]reate an archive from [f]iles:
+- [c]reate an archive and write it to a [f]ile:
 
 `tar cf {{target.tar}} {{file1}} {{file2}} {{file3}}`
 
-- [c]reate a g[z]ipped archive from [f]iles:
+- [c]reate a g[z]ipped archive and write it to a [f]ile:
 
 `tar czf {{target.tar.gz}} {{file1}} {{file2}} {{file3}}`
 
@@ -16,15 +16,15 @@
 
 `tar czf {{target.tar.gz}} --directory={{path/to/directory}} .`
 
-- E[x]tract a (compressed) archive [f]ile into the current directory:
+- E[x]tract a (compressed) archive [f]ile into the current directory [v]erbosely:
 
-`tar xf {{source.tar[.gz|.bz2|.xz]}}`
+`tar xvf {{source.tar[.gz|.bz2|.xz]}}`
 
 - E[x]tract a (compressed) archive [f]ile into the target directory:
 
 `tar xf {{source.tar[.gz|.bz2|.xz]}} --directory={{directory}}`
 
-- [c]reate a compressed archive from [f]iles, using [a]rchive suffix to determine the compression program:
+- [c]reate a compressed archive and write it to a [f]ile, using [a]rchive suffix to determine the compression program:
 
 `tar caf {{target.tar.xz}} {{file1}} {{file2}} {{file3}}`
 
@@ -32,6 +32,6 @@
 
 `tar tvf {{source.tar}}`
 
-- E[x]tract [f]iles matching a pattern:
+- E[x]tract files matching a pattern from an archive [f]ile:
 
 `tar xf {{source.tar}} --wildcards "{{*.html}}"`

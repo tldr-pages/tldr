@@ -1,6 +1,7 @@
 # e2fsck
 
 > Check a Linux ext2/ext3/ext4 filesystem. The filesystem should be unmounted at the time the command is run.
+> More information: <https://manned.org/e2fsck>.
 
 - Check filesystem, reporting any damaged blocks:
 

@@ -2,11 +2,11 @@
 
 > Kompiliere C++ Quelldateien.
 > Teil der GCC (GNU Compiler Collection).
-> Mehr  Informationen: <https://gcc.gnu.org>.
+> Weitere Informationen: <https://gcc.gnu.org>.
 
 - Kompiliere eine Quelldatei in eine ausführbare Binärdatei:
 
-`g++ {{quelldatei.cpp}} -o {{output_datei}`
+`g++ {{quelldatei.cpp}} -o {{output_datei}}`
 
 - Zeige (fast) alle Fehler und Warnungen an:
 

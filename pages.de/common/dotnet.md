@@ -1,20 +1,21 @@
 # dotnet
 
 > Plattformübergreifende Kommandozeilenandwendungen für .NET Core.
-> Mehr Informationen: <https://docs.microsoft.com/dotnet/core/tools/>.
+> Manche Unterbefehle wie `dotnet build` sind separat dokumentiert.
+> Weitere Informationen: <https://docs.microsoft.com/dotnet/core/tools>.
 
-- Ein neues .NET Projekt initialisieren:
+- Initialisiere ein neues .NET Projekt:
 
-`dotnet new {{template_name}}`
+`dotnet new {{vorlagen_name}}`
 
-- nuget-Pakete wiederherstellen:
+- Stelle nuget-Pakete wieder her:
 
 `dotnet restore`
 
-- Das .NET Projekt im aktuellen Ordner bauen und ausführen:
+- Baue des .NET Projekt im aktuellen Ordner und führe es aus:
 
 `dotnet run`
 
-- Eine gebaute dotnet-Applikation ausführen (Benötigt nur die Laufzeitumgebung. Die anderen Befehle benötigen auch den Entwicklungsteil):
+- Führe eine gebaute dotnet-Applikation aus (Benötigt nur die Laufzeitumgebung. Die anderen Befehle benötigen auch den Entwicklungsteil):
 
-`dotnet {{Pfad/zur/Anwendung.dll}}`
+`dotnet {{pfad/zu/anwendung.dll}}`

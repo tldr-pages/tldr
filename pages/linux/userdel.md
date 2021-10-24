@@ -2,7 +2,7 @@
 
 > Remove a user account or remove a user from a group.
 > Note: all commands must be executed as root.
-> More information: <https://man7.org/linux/man-pages/man8/userdel.8.html>.
+> More information: <https://manned.org/userdel>.
 
 - Remove a user:
 

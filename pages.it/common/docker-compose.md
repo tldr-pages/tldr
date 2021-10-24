@@ -1,7 +1,11 @@
 # docker-compose
 
 > Esegui e gestisci applicazioni Docker composte da più container.
-> Maggiori informazioni: <https://docs.docker.com/compose/reference/overview/>.
+> Maggiori informazioni: <https://docs.docker.com/compose/reference/>.
+
+- Elenca i container in esecuzione:
+
+`docker-compose ps`
 
 - Crea ed avvia tutti i container in background utilizzando il file `docker-compose.yml` nella directory corrente:
 
@@ -26,3 +30,7 @@
 - Segui i log di tutti i container:
 
 `docker-compose logs --follow`
+
+- Segui i log di un container specifico:
+
+`docker-compose logs --follow {{nome_container}}`

@@ -4,15 +4,15 @@
 > Automatically does multiple runs when needed.
 > More information: <https://mg.readthedocs.io/latexmk.html>.
 
-- Compile a dvi (DeVice Independent file) document from every source:
+- Compile a DVI (Device Independent file) document from every source:
 
 `latexmk`
 
-- Compile a dvi document from a specific source file:
+- Compile a DVI document from a specific source file:
 
 `latexmk {{source.tex}}`
 
-- Compile a pdf document:
+- Compile a PDF document:
 
 `latexmk -pdf {{source.tex}}`
 
@@ -20,10 +20,10 @@
 
 `latexmk -f {{source.tex}}`
 
-- Clean up temporary tex files created for a specific tex file:
+- Clean up temporary TEX files created for a specific TEX file:
 
 `latexmk -c {{source.tex}}`
 
-- Clean up all temporary tex files in the current directory:
+- Clean up all temporary TEX files in the current directory:
 
 `latexmk -c`

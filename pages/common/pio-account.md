@@ -1,7 +1,7 @@
 # pio account
 
-> Manage your PlatformIO account in the command line.
-> More information: <https://docs.platformio.org/en/latest/core/userguide/account/index.html>.
+> Manage your PlatformIO account in the command-line.
+> More information: <https://docs.platformio.org/en/latest/core/userguide/account/>.
 
 - Register a new PlatformIO account:
 
@@ -11,11 +11,11 @@
 
 `pio account destroy`
 
-- Login to your PlatformIO account:
+- Log in to your PlatformIO account:
 
 `pio account login --username {{username}} --password {{password}}`
 
-- Logout of your PlatformIO account:
+- Log out of your PlatformIO account:
 
 `pio account logout`
 

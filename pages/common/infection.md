@@ -19,7 +19,7 @@
 
 `infection --min-covered-msi {{percentage}}`
 
-- Use a specific test framework (defaults to phpunit):
+- Use a specific test framework (defaults to PHPUnit):
 
 `infection --test-framework {{phpunit|phpspec}}`
 

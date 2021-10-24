@@ -19,10 +19,14 @@
 
 `git add -f`
 
-- Añade partes de archivos interativamente:
+- Añade partes de archivos interactivamente:
 
 `git add -p`
 
-- Añade partes de un archivo interactivamente:
+- Añade partes de un archivo dado interactivamente:
 
 `git add -p {{ruta/al/archivo}}`
+
+- Añade un archivo interactivamente:
+
+`git add -i`

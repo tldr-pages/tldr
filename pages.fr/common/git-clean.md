@@ -1,28 +1,28 @@
 # git clean
 
-> Supprimer les fichiers non suivis du repertoire.
-> Plus d'informations : <https://git-scm.com/docs/git-clean>.
+> Supprimer les fichiers non-suivis d'un dépôt Git.
+> Plus d'informations : <https://git-scm.com/docs/git-clean>.
 
-- Supprimer les fichiers non suivis par Git :
+- Supprimer les fichiers non-suivis :
 
 `git clean`
 
-- Supprimer les fichiers non suivis par Git de manière interactive :
+- Supprimer les fichiers non-suivis de manière interactive :
 
 `git clean -i`
 
-- Affiche les fichiers non suivis qui peuvent étre suprimmés :
+- Affiche les fichiers non-suivis qui peuvent être supprimés :
 
 `git clean --dry-run`
 
-- Nettoyage forcé des fichiers non suivis par Git :
+- Nettoyage forcé des fichiers non-suivis :
 
 `git clean -f`
 
-- Nettoyage forcé des repertoires non suivis par Git :
+- Nettoyage forcé des répertoires non-suivis :
 
 `git clean -fd`
 
-- Supprime tout les fichiers suivis, incluant ceux repertoriés par `.gitignore` et `.git/info/exclude` :
+- Supprime tous les fichiers suivis, incluant ceux répertoriés par `.gitignore` et `.git/info/exclude` :
 
 `git clean -x`

@@ -4,6 +4,10 @@
 > See `gpg2` for GNU Privacy Guard 2.
 > More information: <https://gnupg.org>.
 
+- Create a GPG public and private key interactively:
+
+`gpg --full-generate-key`
+
 - Sign `doc.txt` without encryption (writes output to `doc.txt.asc`):
 
 `gpg --clearsign {{doc.txt}}`

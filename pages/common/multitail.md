@@ -1,7 +1,7 @@
 # multitail
 
 > Extension of tail.
-> More information: <https://www.vanheusden.com/multitail/examples.php>.
+> More information: <https://manned.org/multitail>.
 
 - Tail all files matching a pattern in a single stream:
 

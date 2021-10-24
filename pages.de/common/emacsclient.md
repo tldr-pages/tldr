@@ -1,24 +1,29 @@
 # emacsclient
 
-> Öffnet Dateien in einem bestehenden Emacs Server.
-> Mehr Informationen: <https://www.emacswiki.org/emacs/EmacsClient>.
+> Öffnet Dateien in einem laufenden Emacs-Server.
+> Siehe auch `emacs`.
+> Weitere Informationen: <https://www.emacswiki.org/emacs/EmacsClient>.
 
-- Öffnen einer Datei (direkt in der GUI wenn möglich):
+- Öffne eine Datei in einem laufenden Emacs-Server (mit GUI wenn möglich):
 
-`emacsclient {{Datei-Name}}`
+`emacsclient {{pfad/zu/datei}}`
 
-- Öffnen einer Datei innerhalb der Konsole (ohne X-Fenster):
+- Öffne eine Datei in der Konsole (ohne X-Fenster):
 
-`emacsclient -nw {{Datei-Name}}`
+`emacsclient --no-window-system {{pfad/zu/datei}}`
 
-- Öffnen einer Datei in Emacs mit direktem Zurückkehren in die Konsole:
+- Öffne eine Datei in einem neuen Emacs Fenster:
 
-`emacsclient -n {{Datei-Name}}`
+`emacsclient --create-frame {{pfad/zu/datei}}`
 
-- Öffnen einer Datei in einem neuen Emacs Fenster:
+- Führe einen Befehl aus und schreibe das Ergebnis in stdout:
 
-`emacsclient -c {{Datei-Name}}`
+`emacsclient --eval '({{befehl}})'`
 
-- Ausführen eines Kommandos in einem neuen Emacs Fenster:
+- Gib einen alternativen Editor an für den Fall, dass kein Emacs-Server läuft:
 
-`emacsclient -c -e '({{Kommando}})'`
+`emacsclient --alternate-editor {{editor}} {{pfad/zu/datei}}`
+
+- Beende einen laufenden Emacs-Server und alle Instanzen und frage nach Bestätigung für ungespeicherte Dateien:
+
+`emacsclient --eval '(save-buffers-kill-emacs)'`

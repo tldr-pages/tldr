@@ -2,7 +2,7 @@
 
 > Bourne-Again SHell.
 > `sh`-kompatibler Kommandozeilen-Interpreter.
-> Mehr Informationen: <https://gnu.org/software/bash>.
+> Weitere Informationen: <https://gnu.org/software/bash/>.
 
 - Interaktive Shell starten:
 
@@ -12,22 +12,22 @@
 
 `bash -c "{{befehl}}"`
 
-- Befehle aus einer Datei ausführen:
+- Führe Befehle aus einer Datei aus:
 
-`bash {{datei.sh}}`
+`bash {{pfad/zu/datei.sh}}`
 
-- Ausführen von Befehlen aus einer Datei, Protokollierung aller ausgeführten Befehle an das Terminal:
+- Führe Befehle aus einer Datei aus und protokolliere alle ausgeführten Befehle an das Terminal:
 
-`bash -x {{datei.sh}}`
+`bash -x {{pfad/zu/datei.sh}}`
 
-- Führe Befehle aus einer Datei aus und stoppen Sie beim ersten Fehler:
+- Führe Befehle aus einer Datei aus und stoppe beim ersten Fehler:
 
-`bash -e {{datei.sh}}`
+`bash -e {{pfad/zu/datei.sh}}`
 
-- Befehle von stdin ausführen:
+- Führe Befehle von stdin aus:
 
 `bash -s`
 
-- Drucke die Versionsinformationen der bash aus (verwende `echo $BASH_VERSION`, um nur die Versionszeichenkette anzuzeigen):
+- Gib die Version von bash aus (verwende `echo $BASH_VERSION`, um nur die Versionszeichenkette anzuzeigen):
 
 `bash --version`

@@ -1,6 +1,7 @@
 # fsck
 
 > Controlla l'integrità di un filesystem o lo ripara. Il filesystem non dev'essere montato al momento in cui il comando viene eseguito.
+> Maggiori informazioni: <https://manned.org/fsck>.
 
 - Controlla il filesystem `/dev/sdX`, riportando eventuali blocchi danneggiati:
 

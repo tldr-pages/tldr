@@ -1,6 +1,6 @@
 # lmms
 
-> Free, open source, multiplatform digital audio workstation.
+> Free, open source, cross-platform digital audio workstation.
 > Render a `.mmp` or `.mmpz` project file, dump a `.mmpz` as XML, or start the GUI.
 > More information: <https://lmms.io>.
 

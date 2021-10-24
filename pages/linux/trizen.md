@@ -1,6 +1,7 @@
 # trizen
 
 > Arch Linux utility for building packages from the Arch User Repository (AUR).
+> More information: <https://github.com/trizen/trizen>.
 
 - Synchronize and update all AUR packages:
 

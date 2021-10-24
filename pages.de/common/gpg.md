@@ -1,7 +1,12 @@
 # gpg
 
 > GNU Privacy Guard.
-> Mehr Informationen: <https://gnupg.org>.
+> Siehe `gpg2` für GNU Privacy Guard 2.
+> Weitere Informationen: <https://gnupg.org>.
+
+- Erstelle einen öffentlichen und privaten GPG Schlüssel interaktiv:
+
+`gpg --full-generate-key`
 
 - Signiere `doc.txt` ohne Verschlüsselung (Ausabe nach `doc.txt.asc`):
 
@@ -19,14 +24,14 @@
 
 `gpg --decrypt {{doc.txt.gpg}}`
 
-- Importiere einen Öffentlichen Schlüssel:
+- Importiere einen öffentlichen Schlüssel:
 
-`gpg --import {{public.gpg}}`
+`gpg --import {{schlüssel.gpg}}`
 
-- Exportiere Öffentlichen Schlüssel von alice@beispiel.de (Ausgabe nach stdout):
+- Exportiere den öffentlichen Schlüssel von alice@beispiel.de (Ausgabe nach stdout):
 
 `gpg --export --armor {{alice@beispiel.de}}`
 
-- Exportiere Privaten Schlüssel von alice@beispiel.de (Ausgabe nach stdout):
+- Exportiere den privaten Schlüssel von alice@beispiel.de (Ausgabe nach stdout):
 
 `gpg --export-secret-keys --armor {{alice@beispiel.de}}`

@@ -2,6 +2,7 @@
 
 > Audio file metadata parser for OS X.
 > Built-in command of OS X.
+> More information: <https://ss64.com/osx/afinfo.html>.
 
 - Display info of a given audio file:
 
@@ -15,7 +16,7 @@
 
 `afinfo -i {{path/to/file}}`
 
-- Print output in xml format:
+- Print output in XML format:
 
 `afinfo -x {{path/to/file}}`
 

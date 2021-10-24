@@ -1,13 +1,14 @@
 # ssh-agent
 
-> Erstellt einen SSH Agenten-Prozess.
+> Erstelle einen SSH Agenten-Prozess.
 > Ein SSH Agent behält die hinzugefügten SSH Schlüssel solange verschlüsselt im Arbeitsspeicher, bis diese entfernt werden oder der Agenten-Prozess beendet wird.
-> Hierfür wird im Folgenden das Programm `ssh-add` verwendet.
+> Siehe auch `ssh-add`, um Schlüssel zu verwalten.
+> Weitere Informationen: <https://man.openbsd.org/ssh-agent>.
 
-- Starten eines SSH Agenten-Prozesses für die aktuelle Shell:
+- Starte einen SSH Agenten-Prozesses für die aktuelle Shell:
 
 `eval $(ssh-agent)`
 
-- Beenden eines aktuell laufenden SSH Agenten-Prozesses:
+- Beende den aktuell laufenden SSH Agenten-Prozesses:
 
 `ssh-agent -k`

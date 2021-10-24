@@ -13,4 +13,4 @@
 
 - Execute a Lua expression:
 
-`lua -e '{{print( "Hello World" )}}`
+`lua -e '{{print( "Hello World" )}}'`

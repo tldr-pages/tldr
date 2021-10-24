@@ -1,37 +1,37 @@
 # aws
 
-> Das offiziellen Kommandozeilen Werkzeug für Amazon Web Services.
-> Ausführungssassistent, SSO, Autovervollständigung von Ressourcen sowie YAML Optionen sind nur unter Version v2 verfügbar.
-> Mehr Informationen: <https://aws.amazon.com/cli>.
+> Das offizielle CLI für Amazon Web Services.
+> Manche Unterbefehle wie `aws s3` sind separat dokumentiert.
+> Weitere Informationen: <https://aws.amazon.com/cli>.
 
-- Konfigurieren der AWS Kommandozeile:
+- Konfiguriere die AWS Kommandozeile:
 
 `aws configure wizard`
 
-- Konfigurieren der AWS Kommandozeile mit Hilfe von SSO:
+- Konfiguriere die AWS Kommandozeile mithilfe von SSO:
 
 `aws configure sso`
 
-- Anzeigen der Hilfe für ein Kommando:
+- Zeige Hilfe für ein Kommando an:
 
-`aws {{command}} help`
+`aws {{befehl}} help`
 
-- Detail-Auflistung der eigenen angenommen Identität (häufig benutzt für die Fehlersuche):
+- Zeige Informationen über die eigene angenomme Identität (häufig benutzt zur Fehlersuche):
 
 `aws sts get-caller-identity`
 
-- Auflistung aller AWS Ressourcen in einer Region mit YAML Formatierung:
+- Liste alle AWS Ressourcen in einer Region mit YAML Formatierung auf:
 
 `aws dynamodb list-tables --region {{us-east-1}} --output yaml`
 
-- Erstellen eines IAM Benutzers mit Ausführungsassistent:
+- Erstelle einen IAM Benutzer mit Ausführungsassistent:
 
 `aws iam create-user --cli-auto-prompt`
 
-- Öffnen eines Assitenten für eine AWS Ressource:
+- Öffne einen Assitenten für eine AWS Ressource:
 
-`aws dynamodb wizard {{new-table}}`
+`aws dynamodb wizard {{neue_tabelle}}`
 
-- Erstellung eines JSON Kommandozeilen-Aufbaus (hilfreich für Infrastruktur Automation):
+- Erstelle einen JSON CLI-Aufbau (hilfreich für Infrastruktur-Automation):
 
 `aws dynamodb update-table --generate-cli-skeleton`

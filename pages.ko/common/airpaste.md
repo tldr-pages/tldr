@@ -1,6 +1,7 @@
 # airpaste
 
 > 동일 네트워크 내에서 메시지와 파일들 공유.
+> 더 많은 정보: <https://github.com/mafintosh/airpaste>.
 
 - 메시지 대기와 수신 시 표시:
 

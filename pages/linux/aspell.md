@@ -1,6 +1,7 @@
 # aspell
 
 > Interactive spell checker.
+> More information: <http://aspell.net/>.
 
 - Spell check a single file:
 
@@ -14,7 +15,7 @@
 
 `aspell dicts`
 
-- Run aspell with different language (takes two letter ISO 639 language code):
+- Run aspell with a different language (takes two-letter ISO 639 language code):
 
 `aspell --lang={{cs}}`
 

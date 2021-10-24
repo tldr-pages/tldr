@@ -1,7 +1,7 @@
 # tex
 
 > Kompiliere eine TeX Quelldatei in ein DVI Dokument.
-> Mehr Informationen: <https://www.tug.org/begin.html>.
+> Weitere Informationen: <https://www.tug.org/begin.html>.
 
 - Kompiliere ein DVI Dokument:
 

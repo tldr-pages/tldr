@@ -1,6 +1,7 @@
 # dbus-daemon
 
 > The D-Bus message daemon, allowing multiple programs to exchange messages.
+> More information: <https://www.freedesktop.org/wiki/Software/dbus/>.
 
 - Run the daemon with a configuration file:
 
@@ -18,7 +19,7 @@
 
 `dbus-daemon --address {{address}}`
 
-- Output the process id to stdout:
+- Output the process ID to stdout:
 
 `dbus-daemon --print-pid`
 

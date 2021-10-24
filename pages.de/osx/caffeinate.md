@@ -1,15 +1,16 @@
 # caffeinate
 
-> Hindert den Mac daran in den Schlaf-Modus zu gehen.
+> Hindert den Mac daran, in den Schlaf-Modus zu gehen.
+> Weitere Informationen: <https://ss64.com/osx/caffeinate.html>.
 
-- Verhindern, dass der Mac für 1 Stunde (3600 Sekunden) schläft:
+- Halte den Mac für 1 Stunde (3600 Sekunden) wach:
 
 `caffeinate -u -t {{3600}}`
 
-- Verhindern, dass der Mac schläft, bis der Befehl abgeschlossen ist:
+- Halte den Mac wach, bis ein bestimmter Befehl abgeschlossen ist:
 
-`caffeinate -s {{command}}`
+`caffeinate -s {{befehl}}`
 
-- Verhindern, dass der Mac in den Schlaf-Modus geht, bis Sie Control-C eingeben:
+- Halte den Mac wach, bis `caffeinate` durch Cmd-C beendet wird:
 
 `caffeinate -i`

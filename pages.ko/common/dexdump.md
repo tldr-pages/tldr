@@ -1,7 +1,7 @@
 # dexdump
 
 > 안드로이드 DEX 파일들에 대한 정보 출력.
-> 더 많은 정보: <https://manpages.ubuntu.com/manpages/latest/en/man1/dexdump.1.html>.
+> 더 많은 정보: <https://manned.org/dexdump>.
 
 - APK 파일으로부터 클래스들과 메서드들 추출:
 

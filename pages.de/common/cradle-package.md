@@ -1,32 +1,32 @@
 # cradle package
 
-> Management von Paketen für Cradle Instanzen.
-> Mehr Informationen: <https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-Tools.html#package>.
+> Verwalte Pakete für Cradle Instanzen.
+> Weitere Informationen: <https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-Tools.html#package>.
 
-- Auflistung aller verfügbaren Pakete:
+- Liste aller verfügbaren Pakete auf:
 
 `cradle package list`
 
 - Suche nach einem Paket:
 
-`cradle package search {{Paket}}`
+`cradle package search {{paket}}`
 
-- Installieren eines Paketes von Packagist:
+- Installiere ein Paket von Packagist:
 
-`cradle package install {{Paket}}`
+`cradle package install {{paket}}`
 
-- Installieren einer bestimmten Paket-Version:
+- Installiere eine bestimmte Version eines Pakets:
 
-`cradle package install {{Paket}} {{Version}}`
+`cradle package install {{paket}} {{version}}`
 
-- Aktualisierung eines Pakates:
+- Aktualisiere ein Paket:
 
-`cradle package update {{Paket}}`
+`cradle package update {{paket}}`
 
-- Aktualisierung eines Paketes zu einer bestimmten Paket-Version:
+- Aktualisiere ein Paket zu einer bestimmten Paket-Version:
 
-`cradle package update {{Paket}} {{Version}}`
+`cradle package update {{paket}} {{version}}`
 
-- Entfernung eines Paketes:
+- Entferne ein Paket:
 
-`cradle package remove {{Paket}}`
+`cradle package remove {{paket}}`

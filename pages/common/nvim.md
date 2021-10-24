@@ -24,9 +24,9 @@
 
 `<Esc>/{{search_pattern}}<Enter>`
 
-- Perform a regex substitution in the whole file:
+- Perform a regular expression substitution in the whole file:
 
-`<Esc>:%s/{{pattern}}/{{replacement}}/g<Enter>`
+`<Esc>:%s/{{regular_expression}}/{{replacement}}/g<Enter>`
 
 - Save (write) the file, and quit:
 

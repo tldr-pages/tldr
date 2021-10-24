@@ -7,7 +7,7 @@
 
 `sudo partx --list {{path/to/device_or_disk_image}}`
 
-- Add all the paritions found in a given block device to the kernel:
+- Add all the partitions found in a given block device to the kernel:
 
 `sudo partx --add --verbose {{path/to/device_or_disk_image}}`
 

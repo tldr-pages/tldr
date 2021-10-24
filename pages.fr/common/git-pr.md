@@ -1,19 +1,20 @@
 # git pr
 
-> Récupére les pull-request GitHub localement.
+> Récupère les pull-requests GitHub localement.
+> Plus d'informations : <https://github.com/tj/git-extras/blob/master/Commands.md#git-pr>.
 
-- Récupére une pull-request spécifique :
+- Récupère une pull-request spécifique :
 
 `git pr {{pr_number}}`
 
-- Récupére une pull-request d un dépot spécifique :
+- Récupère une pull-request d'un dépôt spécifique :
 
 `git pr {{pr_number}} {{distant}}`
 
-- Récupére une pull-request depuis sont url :
+- Récupère une pull-request depuis son URL :
 
 `git pr {{url}}`
 
-- Nettoie les branches de pull-request terminés :
+- Nettoie les branches de pull-requests terminées :
 
 `git pr clean`

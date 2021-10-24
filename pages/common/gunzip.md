@@ -1,6 +1,7 @@
 # gunzip
 
 > Extract file(s) from a gzip (.gz) archive.
+> More information: <https://manned.org/gunzip>.
 
 - Extract a file from an archive, replacing the original file if it exists:
 
@@ -8,8 +9,12 @@
 
 - Extract a file to a target destination:
 
-`gunzip -c {{archive.tar.gz}} > {{archive.tar}}`
+`gunzip --stdout {{archive.tar.gz}} > {{archive.tar}}`
+
+- Extract a file and keep the archive file:
+
+`gunzip --keep {{archive.tar.gz}}`
 
 - List the contents of a compressed file:
 
-`gunzip -l {{file.txt.gz}}`
+`gunzip --list {{file.txt.gz}}`

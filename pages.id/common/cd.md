@@ -1,6 +1,7 @@
 # cd
 
 > Mengganti direktori yang dikunjungi saat ini.
+> Informasi lebih lanjut: <https://manned.org/cd>.
 
 - Menuju ke direktori yang telah ditentukan:
 

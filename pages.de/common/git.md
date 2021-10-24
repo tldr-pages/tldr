@@ -1,28 +1,29 @@
 # git
 
 > Verteiltes Versionskontrollsystem.
-> Mehr Informationen: <https://git-scm.com/>.
+> Manche Unterbefehle wie `git commit` sind separat dokumentiert.
+> Weitere Informationen: <https://git-scm.com/>.
 
-- Gibt die installierte Git Version aus:
+- Gib die installierte Git Version aus:
 
 `git --version`
 
-- Zeigt die generelle Hilfsseite an:
+- Zeige die generelle Hilfeseite an:
 
 `git --help`
 
-- Zeigt die Hilfsseite der angegeben Aktion an:
+- Zeige die Hilfeseite eines Unterbefehls an:
 
-`git help {{aktion}}`
+`git help {{unterbefehl}}`
 
-- Führt eine Git-Aktion aus:
+- Führe einen Git-Unterbefehl aus:
 
-`git {{aktion}}`
+`git {{unterbefehl}}`
 
-- Führt eine Git-Aktion auf einem benutzerdefinierten Repository aus:
+- Führe einen Git-Unterbefehl auf einem benutzerdefinierten Repository aus:
 
-`git -C {{pfad/zum/repo}} {{aktion}}`
+`git -C {{pfad/zu/repository}} {{unterbefehl}}`
 
-- Führt eine Git-Aktion mit der angegebenen Konfiguration aus:
+- Führe einen Git-Unterbefehl mit der angegebenen Konfiguration aus:
 
-`git -c '{{config.key}}={{value}}' {{subcommand}}`
+`git -c '{{config.key}}={{wert}}' {{unterbefehl}}`

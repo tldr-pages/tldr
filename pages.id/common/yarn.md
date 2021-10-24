@@ -11,7 +11,7 @@
 
 `yarn install`
 
-- Memasang modul dan menyimpannya sebagai dependensi ke berkas `package.json`  (tambahkan `--dev` untuk menyimpannya sebagai dependensi pengembangan):
+- Memasang modul dan menyimpannya sebagai dependensi ke berkas `package.json` (tambahkan `--dev` untuk menyimpannya sebagai dependensi pengembangan):
 
 `yarn add {{nama_modul}}@{{versi}}`
 

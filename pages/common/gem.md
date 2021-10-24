@@ -5,9 +5,9 @@
 
 - Search for remote gem(s) and show all available versions:
 
-`gem search {{regexp}} --all`
+`gem search {{regular_expression}} --all`
 
-- Install latest version of a gem:
+- Install the latest version of a gem:
 
 `gem install {{gemname}}`
 

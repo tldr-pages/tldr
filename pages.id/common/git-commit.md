@@ -5,11 +5,11 @@
 
 - Komit file bertahap ke repositori dengan sebuah pesan:
 
-`git commit -m {{pesan}}`
+`git commit -m "{{pesan}}"`
 
 - Otomatis merubah semua file yang dimodifikasi menjadi ke status stage dan menambahkan sebuah pesan:
 
-`git commit -a -m {{pesan}}`
+`git commit -a -m "{{pesan}}"`
 
 - Ganti komit terakhir dengan perubahan yang ada di status stage saat ini:
 

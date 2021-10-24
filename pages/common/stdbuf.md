@@ -1,6 +1,7 @@
 # stdbuf
 
 > Run a command with modified buffering operations for its standard streams.
+> More information: <https://www.gnu.org/software/coreutils/stdbuf>.
 
 - Change the standard input buffer size to 512 KiB:
 

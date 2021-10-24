@@ -1,21 +1,22 @@
 # parted
 
 > A partition manipulation program.
+> See also: `partprobe`.
 > More information: <https://www.gnu.org/software/parted/parted.html>.
 
 - List partitions on all block devices:
 
 `sudo parted --list`
 
-- Start to manipulate disk partition:
+- Start interactive mode with the specified disk selected:
 
 `sudo parted {{/dev/sdX}}`
 
-- Create a new partition table of label-type directly, label-type can be gpt, msdos etc:
+- Create a new partition table of the specified label-type:
 
-`sudo parted --script {{/dev/sdX}} mklabel {{gpt}}`
+`sudo parted --script {{/dev/sdX}} mklabel {{aix|amiga|bsd|dvh|gpt|loop|mac|msdos|pc98|sun}}`
 
-- Show disk partition information in interactive mode:
+- Show partition information in interactive mode:
 
 `print`
 
@@ -23,14 +24,14 @@
 
 `select {{/dev/sdX}}`
 
-- Interactively create a 16GB partition with a given filesystem:
+- Create a 16 GB partition with the specified filesystem in interactive mode:
 
-`mkpart {{primary|logical|extended}} {{filesystem}} {{0%}} {{16G}}`
+`mkpart {{primary|logical|extended}} {{btrfs|ext2|ext3|ext4|fat16|fat32|hfs|hfs+|linux-swap|ntfs|reiserfs|udf|xfs}} {{0%}} {{16G}}`
 
-- Resize partition size:
+- Resize a partition in interactive mode:
 
 `resizepart {{/dev/sdXN}} {{end_position_of_partition}}`
 
-- Remove partition:
+- Remove a partition in interactive mode:
 
 `rm {{/dev/sdXN}}`

@@ -1,6 +1,7 @@
 # cal
 
 > Muestra el calendario, con el día actual resaltado.
+> Más información: <https://manned.org/cal>.
 
 - Muestra el calendario para el mes actual:
 
@@ -16,8 +17,8 @@
 
 - Muestra el calendario para un año concreto (4 dígitos):
 
-`cal {{year}}`
+`cal {{año}}`
 
-- Muestra el calendario para un año y mes concretos:
+- Muestra el calendario para un mes y año concretos:
 
-`cal {{month}} {{year}}`
+`cal {{mes}} {{año}}`

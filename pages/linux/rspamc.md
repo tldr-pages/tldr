@@ -1,6 +1,6 @@
 # rspamc
 
-> Command line client for rspamd servers.
+> Command-line client for rspamd servers.
 
 - Train the bayesian filter to recognise an email as spam:
 

@@ -1,6 +1,7 @@
 # shutdown
 
 > Shutdown and reboot the system.
+> More information: <https://manned.org/shutdown.8>.
 
 - Power off (halt) immediately:
 

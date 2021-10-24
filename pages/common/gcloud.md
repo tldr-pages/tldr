@@ -7,7 +7,7 @@
 
 `gcloud config list`
 
-- Login to Google account:
+- Log in to Google account:
 
 `gcloud auth login`
 

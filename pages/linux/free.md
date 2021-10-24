@@ -1,6 +1,7 @@
 # free
 
 > Display amount of free and used memory in the system.
+> More information: <https://manned.org/free>.
 
 - Display system memory:
 
@@ -10,7 +11,7 @@
 
 `free -{{b|k|m|g}}`
 
-- Display memory in human readable units:
+- Display memory in human-readable units:
 
 `free -h`
 

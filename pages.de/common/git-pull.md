@@ -1,16 +1,16 @@
 # git pull
 
-> Holen eines Branches von einem entfernten Repository und zusammenführen in das lokale Repository.
-> Mehr Informationen: <https://git-scm.com/docs/git-pull>.
+> Hole Branches von einem entfernten Repository und binde sie in das lokale Repository ein.
+> Weitere Informationen: <https://git-scm.com/docs/git-pull>.
 
-- Änderungen vom Standard-Repository herunterladen und zusammenführen:
+- Lade Änderungen vom Standard-Repository herunter und führe diese zusammen:
 
 `git pull`
 
-- Änderungen aus dem Standard-Repository herunterladen und einen Rebase anwenden:
+- Lade Änderungen vom Standard-Repository herunter und wende einen Rebase an:
 
 `git pull --rebase`
 
-- Änderungen von einem bestimmten entfernten Repository und Branch herunter und zusammenführen in den HEAD:
+- Lade Änderungen vom Standard-Repository herunter und führe diese in den HEAD zusammen:
 
 `git pull {{remote_name}} {{branch}}`

@@ -1,24 +1,25 @@
 # ip address
 
-> IP Adressen Management Sub-Befehl.
+> IP Adressen Management Unterbefehl.
+> Weitere Informationen: <https://manned.org/ip-address>.
 
-- Zeigt Netzwerk Interfaces mit ihren Adressen:
+- Zeige Netzwerk-Interfaces mit ihren Adressen:
 
 `ip address`
 
-- Zeigt nur die aktiven Netzwerk Interfaces:
+- Zeige nur die aktiven Netzwerk-Interfaces:
 
 `ip address show up`
 
-- Zeigt Informationen über ein spezielles Interface:
+- Zeige Informationen über ein bestimmtes Interface:
 
 `ip address show dev {{eth0}}`
 
-- Fügt eine Adresse zu einem Interface hinzu:
+- Füge eine Adresse zu einem Interface hinzu:
 
 `ip address add {{ip_adresse}} dev {{eth0}}`
 
-- Entfernt eine Adresse von einem Interface:
+- Entferne eine Adresse von einem Interface:
 
 `ip address delete {{ip_adresse}} dev {{eth0}}`
 

@@ -4,7 +4,7 @@
 > See also `zcp` and `zln`.
 > More information: <http://zsh.sourceforge.net/Doc/Release/User-Contributions.html>.
 
-- Move files using a regex-like pattern:
+- Move files using a regular expression-like pattern:
 
 `zmv '{{(*).log}}' '{{$1.txt}}'`
 

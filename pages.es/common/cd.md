@@ -1,6 +1,7 @@
 # cd
 
 > Cambiar el directorio de trabajo.
+> Más información: <https://manned.org/cd>.
 
 - Accede al directorio especificado:
 

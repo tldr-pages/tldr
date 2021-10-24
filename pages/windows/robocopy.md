@@ -20,9 +20,9 @@
 
 `robocopy {{path/to/source}} {{path/to/destination}} /E /XO`
 
-- List all files 50 MBytes or larger in size instead of copying them:
+- List all files 50 MB or larger instead of copying them:
 
-`robocopy {{path/to/source}} {{path/to/destination}} /MIN:52428800 /L`
+`robocopy {{path/to/source}} {{path/to/destination}} /MIN:{{52428800}} /L`
 
 - Allow resuming if network connection is lost and limit retries to 5 and wait time to 15 sec:
 

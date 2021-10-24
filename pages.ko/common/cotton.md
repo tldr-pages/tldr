@@ -3,7 +3,7 @@
 > 마크다운 테스트 사양 러너.
 > 더 많은 정보: <https://github.com/chonla/cotton>.
 
-- 특정 기본 url 사용하기:
+- 특정 기본 URL 사용하기:
 
 `cotton -u {{기본_url}} {{파일}}.md`
 

@@ -2,6 +2,7 @@
 
 > Compiler for Inno Setup installers.
 > It compiles an Inno Setup scripts into an Windows installer executable.
+> More information: <https://jrsoftware.org/isinfo.php>.
 
 - Compile an Inno Setup script:
 

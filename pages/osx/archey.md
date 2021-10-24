@@ -1,6 +1,7 @@
 # archey
 
 > Simple tool for stylishly displaying system information.
+> More information: <https://github.com/joshfinnie/archey-osx>.
 
 - Show system information:
 

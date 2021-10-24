@@ -4,11 +4,11 @@
 > Wizard, SSO, Resource Autocompletion, i opcje YAML są tylko v2.
 > Więcej informacji: <https://aws.amazon.com/cli>.
 
-- Konfiguruj AWS Command Line:
+- Konfiguruj AWS Command-line:
 
 `aws configure wizard`
 
-- Konfiguruj AWS Command Line używając SSO:
+- Konfiguruj AWS Command-line używając SSO:
 
 `aws configure sso`
 

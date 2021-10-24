@@ -1,36 +1,37 @@
 # docker
 
-> Zum Verwalten von Docker Containern und Images.
-> Mehr Informationen: <https://docs.docker.com/engine/reference/commandline/cli/>.
+> Verwalte Docker Container und Images.
+> Manche Unterbefehle wie `docker run` sind separat dokumentiert.
+> Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- Zur Zeit laufende Container auflisten:
+- Liste zur Zeit laufende Container auf:
 
 `docker ps`
 
-- Alle Container auflisten (laufende und gestoppte):
+- Liste laufende und gestoppte Container auf:
 
 `docker ps -a`
 
 - Erzeuge einen Container aus einem Image und benenne ihn:
 
-`docker run --name {{container_name}} {{image}}`
+`docker run --name {{container_name}} {{pfad/zu/image}}`
 
-- Einen existierenden Container starten oder stoppen:
+- Stoppe oder starte einen existierenden Container:
 
 `docker {{start|stop}} {{container_name}}`
 
-- Ein Image herunterladen:
+- Lade ein Image herunter:
 
-`docker pull {{image}}`
+`docker pull {{pfad/zu/image}}`
 
-- Eine Konsole innerhalb eines bereits laufenden Containers öffnen:
+- Öffne eine Konsole innerhalb eines bereits laufenden Containers:
 
 `docker exec -it {{container_name}} {{sh}}`
 
-- Einen gestoppten Container löschen:
+- Lösche einen gestoppten Container:
 
 `docker rm {{container_name}}`
 
-- Die Logs eines Containers anzeigen und automatisch aktualisieren:
+- Zeige die Logs eines Containers an und aktualisiere sie automatisch:
 
 `docker logs -f {{container_name}}`

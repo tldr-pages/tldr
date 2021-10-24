@@ -29,7 +29,7 @@
 
 - Memasang paket dari berkas:
 
-`pip3 install --requirements {{requirements.txt}}`
+`pip3 install --requirement {{requirements.txt}}`
 
 - Menampilkan informasi paket terinstal:
 

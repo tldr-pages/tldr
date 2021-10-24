@@ -1,13 +1,13 @@
 # gh alias
 
-> Manage GitHub CLI command aliases from the command line.
+> Manage GitHub CLI command aliases from the command-line.
 > More information: <https://cli.github.com/manual/gh_alias>.
 
 - Display the subcommand help:
 
 `gh alias`
 
-- List all of the aliases `gh` is configured to use:
+- List all the aliases `gh` is configured to use:
 
 `gh alias list`
 

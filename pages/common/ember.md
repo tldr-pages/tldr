@@ -1,6 +1,6 @@
 # ember
 
-> The Ember.js command line utility.
+> The Ember.js command-line utility.
 > Used for creating and maintaining Ember.js applications.
 > More information: <https://cli.emberjs.com>.
 

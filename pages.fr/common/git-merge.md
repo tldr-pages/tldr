@@ -1,24 +1,24 @@
 # git merge
 
-> Merge branches.
-> Plus d'informations : <https://git-scm.com/docs/git-merge>.
+> Pour fusionner des branches `git`.
+> Plus d'informations : <https://git-scm.com/docs/git-merge>.
 
-- Merge une branche dans votre branche courrante :
+- Fusionne une branche dans votre branche courante :
 
 `git merge {{nom_de_branche}}`
 
-- Editer le message de merge :
+- Editer le message de fusion (`merge commit`) :
 
 `git merge -e {{nom_de_branche}}`
 
-- Merge une branche et créer un commit de merge :
+- Fusionner une branche et créer un commit de fusion (`merge commit`) :
 
 `git merge --no-ff {{nom_de_branche}}`
 
-- Annuler un merge en cas de conflit :
+- Annuler une fusion en cas de conflit :
 
 `git merge --abort`
 
-- Continuer un merge apreés une résolution de conflit :
+- Continuer une fusion après une résolution de conflit :
 
 `git merge --continue`

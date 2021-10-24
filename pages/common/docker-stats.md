@@ -11,7 +11,7 @@
 
 `docker stats {{container_name}}`
 
-- Change the columns format to display container's cpu usage percentage:
+- Change the columns format to display container's CPU usage percentage:
 
 `docker stats --format "{{.Name}}:\t{{.CPUPerc}}"`
 

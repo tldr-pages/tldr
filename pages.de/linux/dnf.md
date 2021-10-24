@@ -1,36 +1,36 @@
 # dnf
 
 > Paketmanagement Tool für RHEL, Fedora, und CentOS (ersetzt yum).
-> Mehr Informationen: <https://dnf.readthedocs.io/>.
+> Weitere Informationen: <https://dnf.readthedocs.io>.
 
-- Aktualisierte alle Pakete auf die neuste Version:
+- Aktualisiere alle Pakete auf die neueste Version:
 
 `sudo dnf upgrade`
 
-- Sucht nach speziellen Schlüsselwörtern:
+- Suche nach Paketen:
 
-`dnf search {{Schlüsselwörter}}`
+`dnf search {{schlüsselwort}}`
 
-- Zeigt Daten über das Paket an:
+- Zeige Daten über ein bestimmtes Paket an:
 
-`dnf info {{Paket}}`
+`dnf info {{paket}}`
 
-- Installiert ein neues Paket:
+- Installiere ein neues Paket:
 
-`sudo dnf install {{Paket}}`
+`sudo dnf install {{paket}}`
 
-- Installiert ein neues Paket und akzeptiert alles:
+- Installiere ein neues Paket und antworte "ja" auf alle Fragen:
 
-`sudo dnf -y install {{Paket}}`
+`sudo dnf -y install {{paket}}`
 
-- Entfernt ein Paket:
+- Entferne ein Paket:
 
-`sudo dnf remove {{Paket}}`
+`sudo dnf remove {{paket}}`
 
-- Listet alle Pakete:
+- Liste alle Pakete auf:
 
 `dnf list --installed`
 
-- Zeige welches Paket eine Datei hat:
+- Zeige welches Paket eine Datei besitzt:
 
-`dnf provides {{Datei}}`
+`dnf provides {{pfad/zu/datei}}`

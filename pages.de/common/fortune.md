@@ -1,7 +1,7 @@
 # fortune
 
 > Gib ein zufälliges Glückskeks-Zitat aus.
-> Mehr Informationen: <https://en.wikipedia.org/wiki/Fortune_(Unix)>.
+> Weitere Informationen: <https://man.archlinux.org/man/fortune.6>.
 
 - Gib ein Zitat aus:
 

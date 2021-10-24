@@ -1,6 +1,7 @@
 # cal
 
 > Exibe as informações do calendário, destacando o dia atual.
+> Mais informações: <https://manned.org/cal>.
 
 - Exibir o calendário do mês atual:
 

@@ -1,6 +1,7 @@
 # man
 
 > Utilitário para exibir páginas do manual.
+> Mais informações: <https://www.man7.org/linux/man-pages/man1/man.1.html>.
 
 - Visualizar o manual de um comando:
 
@@ -8,7 +9,7 @@
 
 - Visualizar a página da seção 7 do manual de um comando:
 
-`man {{comando}}.{{7}}`
+`man {{7}} {{comando}}`
 
 - Visualizar o caminho procurado pelas páginas do manual:
 

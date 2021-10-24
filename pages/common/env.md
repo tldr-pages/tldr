@@ -1,6 +1,7 @@
 # env
 
 > Show the environment or run a program in a modified environment.
+> More information: <https://www.gnu.org/software/coreutils/env>.
 
 - Show the environment:
 

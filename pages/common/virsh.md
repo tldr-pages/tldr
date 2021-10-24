@@ -1,12 +1,12 @@
 # virsh
 
-> Manage virsh guest domains.
-> NOTE: 'guest_id' can be the id, name or UUID of the guest.
+> Manage virsh guest domains. (NOTE: 'guest_id' can be the id, name or UUID of the guest).
+> Some subcommands such as `virsh list` have their own usage documentation.
 > More information: <https://libvirt.org/virshcmdref.html>.
 
 - Connect to a hypervisor session:
 
-`virsh connect {{qemu://system}}`
+`virsh connect {{qemu:///system}}`
 
 - List all domains:
 

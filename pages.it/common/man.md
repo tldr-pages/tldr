@@ -1,6 +1,7 @@
 # man
 
 > Formatta e mostra pagine manuale.
+> Maggiori informazioni: <https://www.man7.org/linux/man-pages/man1/man.1.html>.
 
 - Mostra la pagina di manuale di un comando:
 
@@ -8,7 +9,7 @@
 
 - Mostra la pagina di manuale per un comando dalla sezione 7:
 
-`man {{comando}}.{{7}}`
+`man {{7}} {{comando}}`
 
 - Mostra il percorso in cui vengono cercate le pagine:
 

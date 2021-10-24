@@ -1,32 +1,32 @@
 # git push
 
-> Schiebe Commits zu einem Remote-Repository.
-> Mehr Informationen: <https://git-scm.com/docs/git-push>.
+> Lade Commits in ein Remote-Repository hoch.
+> Weitere Informationen: <https://git-scm.com/docs/git-push>.
 
-- Sende lokale Änderungen des aktuellen Branches zu seinem entfernten Gegenstück (Remote Branch):
+- Sende lokale Änderungen des aktuellen Branches zu seinem entfernten Repository (Remote Branch):
 
 `git push`
 
-- Sende lokale Änderungen des angegebenen Branches zu seinem entfernten Gegenstück (Remote Branch):
+- Sende lokale Änderungen des angegebenen Branches zu seinem entfernten Repository:
 
-`git push {{remote_name}} {{local_branch}}`
+`git push {{remote_name}} {{lokaler_branch}}`
 
-- Veröffentlichen des aktuellen Branches in einem entfernten Repository, mit Angabe des Namens des entfernten Branches:
+- Lade den aktuellen Branch in ein entferntes Repository mit Angabe des Namens des entfernten Branches hoch:
 
 `git push {{remote_name}} -u {{remote_branch}}`
 
-- Sende Änderungen aller lokalen Branches zu ihren entfernten Gegenstücken (Remote Branches) eines bestimmten Repositories:
+- Lade Änderungen aller lokalen Branches zu ihrem entfernten Repository hoch:
 
 `git push --all {{remote_name}}`
 
-- Löschen eines Branches in einem entfernten Repositories:
+- Lösche einen Branch in einem entfernten Repository:
 
 `git push {{remote_name}} --delete {{remote_branch}}`
 
-- Entfernen aller entfernter Branches, welche kein lokales Gegenstück besitzen:
+- Entferne alle remote Branches, welche kein lokales Gegenstück besitzen:
 
 `git push --prune {{remote_name}}`
 
-- Veröffentlichen von Tags, welche noch nicht im entfernten Repository vorhanden sind:
+- Veröffentliche Tags, welche noch nicht im entfernten Repository vorhanden sind:
 
 `git push --tags`

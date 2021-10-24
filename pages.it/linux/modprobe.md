@@ -1,6 +1,7 @@
 # modprobe
 
 > Aggiunge o rimuove moduli del kernel Linux.
+> Maggiori informazioni: <https://manned.org/modprobe>.
 
 - Fa finta di carica un modulo nel kernel, ma non lo fa veramente:
 

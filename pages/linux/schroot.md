@@ -15,7 +15,7 @@
 
 `schroot --all {{command}}`
 
-- Start an interactive shell with in a specific chroot as a specific user:
+- Start an interactive shell within a specific chroot as a specific user:
 
 `schroot --chroot {{chroot}} --user {{user}}`
 

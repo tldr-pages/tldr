@@ -1,6 +1,7 @@
 # svcadm
 
 > Manipulate service instances.
+> More information: <https://www.unix.com/man-page/linux/1m/svcadm>.
 
 - Enable a service in the service database:
 

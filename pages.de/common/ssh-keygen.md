@@ -1,35 +1,36 @@
 # ssh-keygen
 
 > Generiert ssh Schlüssel für Authentifizierung, Passwort-lose Logins und mehr.
+> Weitere Informationen: <https://man.openbsd.org/ssh-keygen>.
 
-- Interaktives Erstellen eines SSH Schlüssel-Paars:
+- Erstelle ein SSH Schlüssel-Paar interaktiv:
 
 `ssh-keygen`
 
-- Erstellen eines Schlüssel-Paars unter einem bestimmten Dateinamen:
+- Erstelle ein Schlüssel-Paar unter einem bestimmten Dateinamen:
 
-`ssh-keygen -f ~/.ssh/{{Dateiname}}`
+`ssh-keygen -f {{~/.ssh/datei}}`
 
-- Generieren eines ed25519 Schlüssel-Paars mit 100 Schlüssel Ableitungs-Iterationen:
+- Generiere ein ed25519 Schlüssel-Paar mit 100 Schlüssel-Ableitungs-Iterationen:
 
-`ssh-keygen -t ed25519 -a 100`
+`ssh-keygen -t {{ed25519}} -a {{100}}`
 
-- Generieren eines 4096 Bit langen RSA Schlüssel-Paars mit der Email im Kommentarfeld:
+- Generiere ein 4096 Bit langen RSA Schlüssel-Paar mit der E-Mail im Kommentarfeld:
 
-`ssh-keygen -t rsa -b 4096 -C "{{Email}}"`
+`ssh-keygen -t {{dsa|ecdsa|ed25519|rsa}} -b {{4096}} -C "{{kommentar|e-mail}}"`
 
-- Abrufen des Schlüssel Fingerabdrucks von einem Server (hilfreich um die Authentizität eines Servers beim ersten Verbinden zu überprüfen):
+- Entferne den Schlüssel eines Servers aus der `known_hosts` Datei (hilfreich wenn ein Server seinen Schlüssel aktualisiert hat und der alte somit nicht mehr gilt):
 
-`ssh-keygen -l -F {{Externer_Server}}`
+`ssh-keygen -R {{externer_server}}`
 
-- Entfernen der Schlüssel eines Servers aus der `known_hosts` Datei (hilfreich wenn ein Server seinen Schlüssel aktualisiert hat und der alte somit nicht mehr gilt):
+- Rufe den Fingerabdruck eines Schlüssels im MD5 Hex Format ab:
 
-`ssh-keygen -R {{Externer_Server}}`
+`ssh-keygen -l -E {{md5}} -f {{~/.ssh/datei}}`
 
-- Abrufen des Fingerabdrucks eines Schlüssels im MD5 Hex Format:
+- Ändere das Passwort eines privaten Schlüssels:
 
-`ssh-keygen -l -E md5 -f ~/.ssh/{{Dateiname}}`
+`ssh-keygen -p -f {{~/.ssh/datei}}`
 
-- Ändern des Passworts eines privaten Schlüssels:
+- Ändern Sie den Typ des Schlüsselformats (z. B. vom OPENSSH-Format in PEM), die Datei wird an Ort und Stelle neu geschrieben:
 
-`ssh-keygen -p -f ~/.ssh/{{Dateiname}}`
+`ssh-keygen -p -N "" -m {{PEM}} -f ~/.ssh/{{datei}}`

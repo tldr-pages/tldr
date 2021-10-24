@@ -1,7 +1,7 @@
 # mongodump
 
 > Utility to export the contents of a MongoDB instance.
-> More information: <https://docs.mongodb.com/manual/reference/program/mongodump>.
+> More information: <https://docs.mongodb.com/database-tools/mongodump/>.
 
 - Create a dump of all databases (this will place the files inside a directory called "dump"):
 
@@ -26,3 +26,7 @@
 - Create a dump of a given database with a given username; user will be prompted for password:
 
 `mongodump --username {{username}} {{database}} --password`
+
+- Create a dump from a specific instance; host, user, password and database will be defined in the connection string:
+
+`mongodump --uri {{connection_string}}`

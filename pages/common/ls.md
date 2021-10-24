@@ -1,6 +1,7 @@
 # ls
 
 > List directory contents.
+> More information: <https://www.gnu.org/software/coreutils/ls>.
 
 - List files one per line:
 
@@ -18,7 +19,7 @@
 
 `ls -la`
 
-- Long format list with size displayed using human readable units (KiB, MiB, GiB):
+- Long format list with size displayed using human-readable units (KiB, MiB, GiB):
 
 `ls -lh`
 
@@ -29,3 +30,7 @@
 - Long format list of all files, sorted by modification date (oldest first):
 
 `ls -ltr`
+
+- Only list directories:
+
+`ls -d */`

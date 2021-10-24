@@ -2,6 +2,7 @@
 
 > Edit quotas for a user or group. By default it operates on all filesystems with quotas.
 > Quota information is stored permanently in the `quota.user` and `quota.group` files in the root of the filesystem.
+> More information: <https://manned.org/edquota>.
 
 - Edit quota of the current user:
 

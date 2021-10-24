@@ -1,17 +1,17 @@
 # git help
 
 > Zeige Hilfe für Git an.
-> Mehr Informationen: <https://git-scm.com/docs/git-help>.
+> Weitere Informationen: <https://git-scm.com/docs/git-help>.
 
-- Zeige Hilfe für ein bestimmtes Git-Unterkommando an:
+- Zeige Hilfe für einen bestimmten Git-Unterbefehl an:
 
-`git help {{unterkommando}}`
+`git help {{unterbefehl}}`
 
-- Zeige Hilfe für ein bestimmtes Git-Unterkommando im Web-Browser an:
+- Zeige Hilfe für einen bestimmten Git-Unterbefehl im Web-Browser an:
 
-`git help --web {{unterkommando}}`
+`git help --web {{unterbefehl}}`
 
-- Zeige eine Liste von allen verfügbaren Git-Unterkommandos an:
+- Zeige eine Liste von allen verfügbaren Git-Unterbefehlen an:
 
 `git help --all`
 

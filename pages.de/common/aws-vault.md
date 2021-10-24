@@ -1,28 +1,28 @@
 # aws-vault
 
-> Ein Tresor für Entwicklungsumgebungen um AWS Sicherheitsschlüssel sicher speichern und abrufen zu können.
-> Mehr Informationen: <https://github.com/99designs/aws-vault>.
+> Ein Tresor für Entwicklungsumgebungen, um AWS Sicherheitsschlüssel sicher speichern und abrufen zu können.
+> Weitere Informationen: <https://github.com/99designs/aws-vault>.
 
-- Sicherheitsschlüssel als Profil zu einem Tresor hinzufügen:
+- Füge einen Sicherheitsschlüssel als Profil zu einem Tresor hinzu:
 
-`aws-vault add {{profile}}`
+`aws-vault add {{profil}}`
 
-- Ausführen eines Kommandos mit AWS Sicherheitsschlüsseln aus dem angegebenen Profil:
+- Führe einen Befehl mit AWS Sicherheitsschlüsseln aus dem angegebenen Profil aus:
 
-`aws-vault exec {{profile}} -- {{aws s3 ls}}`
+`aws-vault exec {{profil}} -- {{aws s3 ls}}`
 
-- Öffnen eines Browser Fensters für den Login in die AWS Konsole:
+- Öffne ein Browserfenster für den Login in die AWS Konsole:
 
-`aws-vault login {{profile}}`
+`aws-vault login {{profil}}`
 
-- Auflistung aller Profile zusammen mit deren Sicherheitsschlüsseln und Sitzungen:
+- Liste alle Profile zusammen mit deren Sicherheitsschlüsseln und Sitzungen auf:
 
 `aws-vault list`
 
-- Rotierung der AWS Sicherheitsschlüssel für ein Profil:
+- Rotiere die AWS Sicherheitsschlüssel für ein Profil:
 
-`aws-vault rotate {{profile}}`
+`aws-vault rotate {{profil}}`
 
-- Entfernen von Sicherheitsschlüsseln eines Profils aus dem Tresor:
+- Entferne Sicherheitsschlüsseln eines Profils aus dem Tresor:
 
-`aws-vault remove {{profile}}`
+`aws-vault remove {{profil}}`

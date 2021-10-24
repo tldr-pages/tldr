@@ -20,9 +20,17 @@
 
 `yay -S {{package_name}}`
 
+- Remove an installed package and both its dependencies and configuration files:
+
+`yay -Rns {{package_name}}`
+
 - Search the package database for a keyword from the repos and AUR:
 
 `yay -Ss {{keyword}}`
+
+- Remove orphaned packages (installed as dependencies but not required by any package):
+
+`yay -Yc`
 
 - Show statistics for installed packages and system health:
 

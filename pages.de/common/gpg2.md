@@ -2,7 +2,7 @@
 
 > GNU Privacy Guard 2.
 > Siehe `gpg` für GNU Privacy Guard 1.
-> Mehr Informationen: <https://docs.releng.linuxfoundation.org/en/latest/gpg.html>.
+> Weitere Informationen: <https://docs.releng.linuxfoundation.org/en/latest/gpg.html>.
 
 - Liste alle importierten Schlüssel auf:
 
@@ -16,7 +16,7 @@
 
 `gpg2 --symmetric {{pfad/zu/datei.txt}}`
 
-- Verschlüssle eine bestimmte Datei und schreibe des Ergebnis auf STDOUT:
+- Verschlüssle eine bestimmte Datei und schreibe das Ergebnis auf STDOUT:
 
 `gpg2 --decrypt {{pfad/zu/datei.txt.gpg}}`
 

@@ -19,6 +19,14 @@
 
 `gh help reference`
 
+- Display help about formatting JSON output from `gh` using `jq`:
+
+`gh help formatting`
+
+- Display help about using `gh` with MinTTY:
+
+`gh help mintty`
+
 - Display help for a subcommand:
 
 `gh help {{subcommand}}`

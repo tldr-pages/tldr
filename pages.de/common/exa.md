@@ -1,28 +1,36 @@
 # exa
 
 > Ein moderner Ersatz für `ls` (Verzeichnisinhalte auflisten).
-> Mehr Informationen: <https://the.exa.website>.
+> Weitere Informationen: <https://the.exa.website>.
 
-- Listet pro Zeile eine Datei auf:
+- Liste eine Datei pro Zeile auf:
 
 `exa --oneline`
 
-- Alle Dateien auflisten, einschließlich versteckter Dateien:
+- Liste alle Dateien auf, einschließlich versteckter Dateien:
 
 `exa --all`
 
-- Lange Formatliste (Berechtigungen, Eigentümer, Größe und Änderungsdatum) aller Dateien:
+- Liste alle Dateien im langen Format auf (Berechtigungen, Eigentümer, Größe und Änderungsdatum):
 
 `exa --long --all`
 
-- Listen Sie die Dateien mit den größten oben auf:
+- Liste Dateien nach Größe absteigend sortiert auf:
 
 `exa --reverse --sort={{size}}`
 
-- Zeigt Dateien in einer Baumstruktur an, der drei Ebenen tief ist:
+- Zeige Dateien in einer Baumstruktur an, die drei Ebenen tief ist:
 
 `exa --long --tree --level={{3}}`
 
-- Dateien nach Änderungsdatum sortiert auflisten (älteste zuerst):
+- Liste Dateien nach Änderungsdatum aufsteigend sortiert auf:
 
 `exa --long --sort={{modified}}`
+
+- Liste Dateien inklusive Header, Icons und Git-Status:
+
+`exa --long --header --icons --git`
+
+- Liste keine Dateien auf, die in `.gitignore` erwähnt werden:
+
+`exa --git-ignore`

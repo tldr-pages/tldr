@@ -25,7 +25,7 @@
 
 - Trova file il quale contenuto soddisfi una determinata espressione regolare:
 
-`ag '{{regexp}}'`
+`ag '{{espressione_regolare}}'`
 
 - Trova file il quale nome contiene "foo":
 

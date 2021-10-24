@@ -1,6 +1,6 @@
 # cabal
 
-> Command line interface to the Haskell package infrastructure (Cabal).
+> Command-line interface to the Haskell package infrastructure (Cabal).
 > Manage Haskell projects and Cabal packages from the Hackage package repository.
 > More information: <https://cabal.readthedocs.io/en/latest/intro.html>.
 

@@ -1,6 +1,7 @@
 # pwd
 
 > Print name of current/working directory.
+> More information: <https://www.gnu.org/software/coreutils/pwd>.
 
 - Print the current directory:
 

@@ -1,6 +1,7 @@
 # chown
 
 > 파일과 디렉토리의 사용자 및 그룹 소유권을 변경.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/chown>.
 
 - 파일/디렉토리의 소유 사용자 변경:
 

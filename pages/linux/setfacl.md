@@ -10,7 +10,7 @@
 
 `setfacl -d -m u::rw {{file}}`
 
-- Remove ACL of a file for an user:
+- Remove ACL of a file for a user:
 
 `setfacl -x u:{{username}} {{file}}`
 

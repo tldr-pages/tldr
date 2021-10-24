@@ -16,6 +16,6 @@
 
 `lvcreate -l {{60%VG}} -n {{mylv}} {{vg1}}`
 
-- Create a logical volume called mylv that uses all of the unallocated space in the volume group vg1:
+- Create a logical volume called mylv that uses all the unallocated space in the volume group vg1:
 
 `lvcreate -l {{100%FREE}} -n {{mylv}} {{vg1}}`

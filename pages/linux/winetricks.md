@@ -7,7 +7,7 @@
 
 `winetricks`
 
-- Specify a custom Wine directory to run winetricks in:
+- Specify a custom Wine directory to run Winetricks in:
 
 `WINEPREFIX={{path/to/wine_directory}} winetricks`
 

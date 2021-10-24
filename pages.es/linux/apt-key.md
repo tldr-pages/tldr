@@ -1,6 +1,7 @@
 # apt-key
 
 > Herramienta para la gestión de claves para el Gestor de Paquetes APT (APT Package Manager) en Debian y Ubuntu.
+> Más información: <https://manpages.debian.org/latest/apt/apt-key.8.html>.
 
 - Muestra las claves de confianza:
 

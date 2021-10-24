@@ -1,6 +1,7 @@
 # date
 
 > Set or display the system date.
+> More information: <https://ss64.com/osx/date.html>.
 
 - Display the current date using the default locale's format:
 
@@ -8,7 +9,7 @@
 
 - Display the current date in UTC and ISO 8601 format:
 
-`date -u +"%Y-%m-%dT%H:%M:%S%Z"`
+`date -u +"%Y-%m-%dT%H:%M:%SZ"`
 
 - Display the current date as a Unix timestamp (seconds since the Unix epoch):
 

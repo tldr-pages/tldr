@@ -9,11 +9,11 @@
 
 - Instalar pacotes a partir de um aquivo de configuração personalizado:
 
-`choco install {{caminho/para/os/pacotes.config}}`
+`choco install {{caminho/para/pacotes.config}}`
 
 - Instalar um arquivo específico `nuspec` ou `nupkg`:
 
-`choco install {{caminho/para/o/arquivo}}`
+`choco install {{caminho/para/arquivo}}`
 
 - Instalar uma versão específica de um pacote:
 

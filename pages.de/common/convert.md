@@ -1,32 +1,36 @@
 # convert
 
-> Imagemagick Bildkonvertierungswerkzeug.
-> Mehr Informationen: <https://imagemagick.org/script/convert.php>.
+> ImageMagick Bildkonvertierungswerkzeug.
+> Weitere Informationen: <https://imagemagick.org/script/convert.php>.
 
-- Konvertiert ein Bild von JPG nach PNG:
+- Konvertiere ein Bild von JPG nach PNG:
 
-`convert {{bild.jpg}} {{bild.png}}`
+`convert {{pfad/zu/bild.jpg}} {{pfad/zu/bild.png}}`
 
-- Ein Bild auf 50% seiner Originalgröße skalieren:
+- Skaliere ein Bild auf 50% seiner Originalgröße:
 
-`convert {{bild.png}} -resize 50% {{bild2.png}}`
+`convert {{pfad/zu/bild.png}} -resize 50% {{pfad/zu/bild2.png}}`
 
-- Skaliert ein Bild unter Beibehaltung des ursprünglichen Seitenverhältnisses auf eine maximale Größe von 640x480:
+- Skaliere ein Bild unter Beibehaltung des ursprünglichen Seitenverhältnisses auf eine maximale Größe von 640x480:
 
-`convert {{bild.png}} -resize 640x480 {{bild2.png}}`
+`convert {{pfad/zu/bild.png}} -resize 640x480 {{pfad/zu/bild2.png}}`
 
-- Bilder horizontal aneinader hängen:
+- Hänge Bilder horizontal aneinander:
 
-`convert {{bild1.png}} {{bild2.png}} {{bild3.png}} +append {{bild123.png}}`
+`convert {{pfad/zu/bild1.png}} {{pfad/zu/bild2.png}} {{pfad/zu/bild3.png}} +append {{pfad/zu/bild123.png}}`
 
-- Bilder vertikal aneinander hängen:
+- Hänge Bilder vertikal aneinander:
 
-`convert {{bild1.png}} {{bild2.png}} {{bild3.png}} -append {{bild123.png}}`
+`convert {{pfad/zu/bild1.png}} {{pfad/zu/bild2.png}} {{pfad/zu/bild3.png}} -append {{pfad/zu/bild123.png}}`
 
-- Erstellt ein animiertes Gif-Bild aus einer Serie von Bildern mit einer Verzögerung von 100 ms zwischen den Bildern:
+- Erstelle ein animiertes GIF aus einer Serie von Bildern mit einer Verzögerung von 100 ms zwischen den Bildern:
 
-`convert {{bild1.png}} {{bild2.png}} {{bild3.png}} -delay {{10}} {{animation.gif}}`
+`convert {{pfad/zu/bild1.png}} {{pfad/zu/bild2.png}} {{pfad/zu/bild3.png}} -delay {{10}} {{pfad/zu/animation.gif}}`
 
-- Erstellt ein Bild mit nichts als einem festen Hintergrund:
+- Erstelle ein Bild mit nichts als einem festen Hintergrund:
 
-`convert -size {{800x600}} "xc:{{#ff0000}}" {{bild.png}}`
+`convert -size {{800x600}} "xc:{{#ff0000}}" {{pfad/zu/bild.png}}`
+
+- Erstelle ein Favicon aus mehreren Bildern verschiedener Größe:
+
+`convert {{pfad/zu/bild1.png}} {{pfad/zu/bild2.png}} {{pfad/zu/bild3.png}} {{pfad/zu/bild.ico}}`

@@ -15,6 +15,6 @@
 
 `cmatrix -r`
 
-- Set screen update delay to 2 centiseconds:
+- Set screen update delay to 2 centiseconds (20 milliseconds):
 
 `cmatrix -u {{2}}`

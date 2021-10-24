@@ -1,6 +1,7 @@
 # ftp
 
 > Tools to interact with a server via File Transfer Protocol.
+> More information: <https://manned.org/ftp>.
 
 - Connect to an FTP server:
 

@@ -1,6 +1,7 @@
 # foreman
 
 > Manage Procfile-based applications.
+> More information: <https://manned.org/foreman>.
 
 - Start an application with the Procfile in the current directory:
 

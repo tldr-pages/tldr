@@ -1,28 +1,29 @@
 # alias
 
-> Erstellt Aliase - Wörter, die durch eine Befehlszeile ersetzt werden.
-> Aliase laufen mit der aktuellen Shell-Sitzung ab, es sei denn, sie sind in der Konfigurationsdatei der Shell definiert, z.B. `~/.bashrc`.
+> Erstellt Aliasse - Alterative Namen für Befehle.
+> Aliasse laufen mit der aktuellen Shell-Sitzung ab, es sei denn, sie werden in der Konfigurationsdatei der Shell definiert, z.B. `~/.bashrc`.
+> Weitere Informationen: <https://tldp.org/LDP/abs/html/aliases.html>.
 
-- Listet alle Aliase auf:
+- Listet alle Aliasse auf:
 
 `alias`
 
 - Erstellt einen Alias:
 
-`alias {{wort}}="{{befehl}}"`
+`alias {{alias}}="{{befehl}}"`
 
 - Zeigt den mit einem bestimmten Alias verknüpften Befehl an:
 
-`alias {{wort}}`
+`alias {{alias}}`
 
 - Entferne einen Alias:
 
-`unalias {{wort}}`
+`unalias {{alias}}`
 
 - Macht `rm` zu einem interaktiven Befehl:
 
 `alias {{rm}}="{{rm -i}}"`
 
-- Erstellt `la` als Abkürzung für `ls -a`:
+- Erstellt den Alias `la` für `ls -a`:
 
 `alias {{la}}="{{ls -a}}"`

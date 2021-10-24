@@ -1,8 +1,9 @@
 # pathchk
 
 > Check the validity and portability of one or more pathnames.
+> More information: <https://www.gnu.org/software/coreutils/pathchk>.
 
-- Check pathames for validity in the current system:
+- Check pathnames for validity in the current system:
 
 `pathchk {{path1 path2 …}}`
 

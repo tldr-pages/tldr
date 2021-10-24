@@ -36,5 +36,5 @@ jobs:
         close-pr-message: |
           Hi everyone.
           This thread is being closed as there was no response to the previous prompt.
-          However, please leave a comment whenever you're ready to resume,
-          so the thread can be reopened. Thanks again!
+          However, please leave a comment whenever you're ready to resume, so the thread can be reopened.
+          Thanks again!

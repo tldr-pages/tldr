@@ -23,6 +23,6 @@
 
 `pdftocairo {{path/to/file.pdf}} -tiff -gray -paper A3`
 
-- Convert to PNG cropping x and y pixels from the top left corner:
+- Convert to PNG cropping x and y pixels from the top-left corner:
 
 `pdftocairo {{path/to/file.pdf}} -png -x {{x_pixels}} -y {{y_pixels}}`

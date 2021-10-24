@@ -1,6 +1,7 @@
 # apt-cache
 
 > Buscador de pacotes para distribuições baseadas no Debian.
+> Mais informações: <https://manpages.debian.org/latest/apt/apt-cache.8.html>.
 
 - Buscar pacotes, no cache de pacotes APT, correspondentes ao critério de busca:
 

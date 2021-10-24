@@ -1,6 +1,7 @@
 # apachectl
 
 > Apache HTTP Server control interface for macOS.
+> More information: <https://www.unix.com/man-page/osx/8/apachectl/>.
 
 - Start the `org.apache.httpd` launchd job:
 

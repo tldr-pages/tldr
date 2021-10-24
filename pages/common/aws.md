@@ -1,14 +1,14 @@
 # aws
 
 > The official CLI tool for Amazon Web Services.
-> Wizard, SSO, Resource Autocompletion, and YAML options are v2 only.
+> Some subcommands such as `aws s3` have their own usage documentation.
 > More information: <https://aws.amazon.com/cli>.
 
-- Configure the AWS Command Line:
+- Configure the AWS Command-line:
 
 `aws configure wizard`
 
-- Configure the AWS Command Line using SSO:
+- Configure the AWS Command-line using SSO:
 
 `aws configure sso`
 
@@ -20,7 +20,7 @@
 
 `aws sts get-caller-identity`
 
-- List AWS resources in a region and output in yaml:
+- List AWS resources in a region and output in YAML:
 
 `aws dynamodb list-tables --region {{us-east-1}} --output yaml`
 

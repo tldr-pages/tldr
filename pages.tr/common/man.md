@@ -1,6 +1,7 @@
 # man
 
 > Kılavuz sayfalarını biçimlendir ve göster.
+> Daha fazla bilgi için: <https://www.man7.org/linux/man-pages/man1/man.1.html>.
 
 - Bir komut için man sayfasını görüntüle:
 
@@ -8,7 +9,7 @@
 
 - Sayfanın 7. bölümündeki bir komut için man sayfasını görüntüle:
 
-`man {{komut}}.{{7}}`
+`man {{7}} {{komut}}`
 
 - Mansayfaları için aratılan yolu göster:
 

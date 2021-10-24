@@ -8,9 +8,9 @@
 
 `minetest`
 
-- Minetest'i sunucu modunda başlat:
+- Minetest'i belirtilen dünyayı host edecek şekilde sunucu modunda başlat:
 
-`minetest --server`
+`minetest --server --world {{isim}}`
 
 - Belirtilmiş bir dosyaya geçmişi yaz:
 

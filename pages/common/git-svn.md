@@ -7,7 +7,7 @@
 
 `git svn clone {{https://example.com/subversion_repo}} {{local_dir}}`
 
-- Clone a SVN repository starting at a given revision number:
+- Clone an SVN repository starting at a given revision number:
 
 `git svn clone -r{{1234}}:HEAD {{https://svn.example.net/subversion/repo}} {{local_dir}}`
 

@@ -12,9 +12,9 @@
 
 `git reset {{path/to/file(s)}}`
 
-- Unstage portions of a file:
+- Interactively unstage portions of a file:
 
-`git reset -p {{path/to/file}}`
+`git reset --patch {{path/to/file}}`
 
 - Undo the last commit, keeping its changes (and any further uncommitted changes) in the filesystem:
 

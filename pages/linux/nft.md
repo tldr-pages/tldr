@@ -2,6 +2,7 @@
 
 > Allows configuration of tables, chains and rules provided by the Linux kernel firewall.
 > Nftables replaces iptables.
+> More information: <https://wiki.nftables.org/wiki-nftables/index.php/Main_Page>.
 
 - View current configuration:
 

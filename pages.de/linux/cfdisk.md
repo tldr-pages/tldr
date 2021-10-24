@@ -1,12 +1,12 @@
 # cfdisk
 
 > Ein Programm zur Verwaltung von Partitionstabellen mittels einer Curses-basierten UI.
-> Mehr Informationen: <https://linux.die.net/man/8/cfdisk>.
+> Weitere Informationen: <https://manned.org/cfdisk>.
 
-- Das Partitionierungsinterface für eine bestimmte Festplatte öffnen:
+- Öffne das Partitionierungsinterface für eine bestimmte Festplatte:
 
 `cfdisk {{/dev/sdX}}`
 
-- Eine neue Partitionierungstabelle für eine bestimmte Festplatte erzeugen und bearbeiten:
+- Erzeuge und bearbeite eine neue Partitionierungstabelle für eine bestimmte Festplatte:
 
 `cfdisk --zero {{/dev/sdX}}`

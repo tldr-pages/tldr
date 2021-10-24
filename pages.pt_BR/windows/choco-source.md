@@ -17,7 +17,7 @@
 
 - Adicionar uma nova fonte de pacotes com certificado do cliente:
 
-`choco source add --name {{nome}} --source {{url_da_fonte}} --cert {{caminho/para/o/certificado}}`
+`choco source add --name {{nome}} --source {{url_da_fonte}} --cert {{caminho/para/certificado}}`
 
 - Habilitar uma fonte de pacotes:
 

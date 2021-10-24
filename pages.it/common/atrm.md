@@ -2,6 +2,7 @@
 
 > Rimuovi job programmati dai comandi `at` o `batch`.
 > Per trovare i numeri dei job utilizzare `atq`.
+> Maggiori informazioni: <https://man.archlinux.org/man/at.1>.
 
 - Rimuovi il job numero 10:
 

@@ -1,12 +1,13 @@
 # df
 
 > Gives an overview of the filesystem disk space usage.
+> More information: <https://www.gnu.org/software/coreutils/df>.
 
 - Display all filesystems and their disk usage:
 
 `df`
 
-- Display all filesystems and their disk usage in human readable form:
+- Display all filesystems and their disk usage in human-readable form:
 
 `df -h`
 
@@ -18,6 +19,6 @@
 
 `df -i`
 
-- Display filesystems but exclude the specified type:
+- Display filesystems but exclude the specified types:
 
 `df -x {{squashfs}} -x {{tmpfs}}`

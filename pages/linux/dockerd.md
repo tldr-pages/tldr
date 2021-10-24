@@ -7,7 +7,7 @@
 
 `dockerd`
 
-- Run docker daemon and config it to listen to specific sockets(unix,tcp):
+- Run docker daemon and config it to listen to specific sockets (UNIX and TCP):
 
 `dockerd --host unix://{{path/to/tmp.sock}} --host tcp://{{ip}}`
 

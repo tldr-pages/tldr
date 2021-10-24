@@ -1,6 +1,7 @@
 # zgrep
 
 > Grep text patterns from files within compressed file (equivalent to grep -Z).
+> More information: <https://manned.org/zgrep>.
 
 - Grep a pattern in a compressed file (case-sensitive):
 
@@ -24,7 +25,7 @@
 
 - Use extended regular expressions (supporting `?`, `+`, `{}`, `()` and `|`):
 
-`zgrep -E {{^regex$}} {{path/to/file}}`
+`zgrep -E {{regular_expression}} {{path/to/file}}`
 
 - Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match:
 

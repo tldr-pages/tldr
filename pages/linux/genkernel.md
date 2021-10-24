@@ -1,6 +1,7 @@
 # genkernel
 
 > Gentoo Linux utility to compile and install kernels.
+> More information: <https://wiki.gentoo.org/wiki/Genkernel>.
 
 - Automatically compile and install a generic kernel:
 
@@ -18,6 +19,6 @@
 
 `sudo genkernel --kernname={{custom_name}} all`
 
-- Use a kernel source outside of the default directory `/usr/src/linux`:
+- Use a kernel source outside the default directory `/usr/src/linux`:
 
 `sudo genkernel --kerneldir={{path/to/directory}} all`

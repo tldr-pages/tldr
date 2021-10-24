@@ -2,7 +2,7 @@
 
 > Ein plattformübergreifender erweiterbarer Texteditor.
 > Erweiterungen werden durch `apm` verwaltet.
-> Mehr Informationen: <https://atom.io/>.
+> Weitere Informationen: <https://atom.io/>.
 
 - Öffne eine Datei oder ein Verzeichnis:
 
@@ -24,6 +24,6 @@
 
 `atom --foreground`
 
-- Wartet, bis Atom geschlossen wurde, bevor die Eingabeaufforderung wieder aktiv wird (Nützlich als git commit Editor):
+- Wartet, bis Atom geschlossen wurde, bevor die Eingabeaufforderung wieder aktiv wird (Nützlich als `git commit` Editor):
 
 `atom --wait`

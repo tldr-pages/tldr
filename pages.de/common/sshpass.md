@@ -1,16 +1,16 @@
 # sshpass
 
-> Für die Bereitstellung von SSH Passwörtern.
-> Es funktioniert über die Übergabe des Passwortes and ein temporäres TTY und die Weiterleitung des stdin an die SSH Sitzung.
+> Stelle SSH Passwörtern bereit.
+> Weitere Informationen: <https://manned.org/sshpass>.
 
-- Verbindung zu einem externen Server über ein Passwort aus einem Datei-Objekt (in diesem Fall stdin):
+- Stelle eine Verbindung zu einem externen Server über ein Passwort aus einem Datei-Objekt her (in diesem Fall stdin):
 
-`sshpass -d {{0}} ssh {{Benutzer}}@{{Server}}`
+`sshpass -d {{0}} ssh {{benutzer}}@{{server}}`
 
-- Verbindung zu einem externen Server mit Hilfe eines Passworts bei automatischer Akzeptierung von unbekannten SSH Schlüsseln:
+- Stelle eine Verbindung zu einem externen Server mit Hilfe eines Passworts bei automatischer Akzeptierung von unbekannten SSH Schlüsseln her:
 
-`sshpass -p {{Passwort}} ssh -o StrictHostKeyChecking=no {{Benutzer}}@{{Server}}`
+`sshpass -p {{passwort}} ssh -o StrictHostKeyChecking=no {{benutzer}}@{{server}}`
 
-- Verbindung zu einem externen Server mit Hilfe eines Passworts aus der ersten Zeile einer Datei bei automatischer Akzeptierung von unbekannten SSH Schlüsseln mit anschließender Ausführung eines Kommandos:
+- Stelle eine Verbindung zu einem externen Server mit Hilfe eines Passworts aus der ersten Zeile einer Datei bei automatischer Akzeptierung von unbekannten SSH Schlüsseln mit anschließender Ausführung eines Befehls her:
 
-`sshpass -f {{Datei}} ssh -o StrictHostKeyChecking=no {{Benutzer}}@{{Server}} "{{Kommando}}"`
+`sshpass -f {{pfad/zu/datei}} ssh -o StrictHostKeyChecking=no {{benutzer}}@{{server}} "{{befehl}}"`

@@ -1,6 +1,7 @@
 # guix package
 
 > Install, upgrade and remove Guix packages, or rollback to previous configurations.
+> More information: <https://guix.gnu.org/manual/html_node/Invoking-guix-package.html>.
 
 - Install a new package:
 

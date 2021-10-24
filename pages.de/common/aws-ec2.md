@@ -1,37 +1,37 @@
 # aws ec2
 
-> Kommandozeilen Werkzeug für AWS EC2.
-> AWS EC2 stellt eine sichere und skalierbare Einheit in der AWS Cloud zur Verfügung um ein schnelleres Entwickeln und Ausrollen von Software zu ermöglichen.
-> Mehr Informationen: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ec2/index.html>.
+> CLI für AWS EC2.
+> AWS EC2 stellt eine sichere und skalierbare Einheit in der AWS Cloud zur Verfügung, um ein schnelleres Entwickeln und Ausrollen von Software zu ermöglichen.
+> Weitere Informationen: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ec2/index.html>.
 
-- Auflistung aller verfügbaren EC2 Kommandos:
+- Liste alle verfügbaren EC2 Befehle auf:
 
 `aws ec2 help`
 
-- Anzeigen einer Hilfe für bestimmte EC2 Unter-Kommandos:
+- Zeige Hilfe für bestimmte EC2 Unterbefehle an:
 
-`aws ec2 {{subcommand}} help`
+`aws ec2 {{unterbefehl}} help`
 
-- Auflistung von Informationen zu einer bestimmten Instanz:
+- Liste Informationen zu einer bestimmten Instanz auf:
 
-`aws ec2 describe-instances --instance-ids {{instance_id}}`
+`aws ec2 describe-instances --instance-ids {{instanz_id}}`
 
-- Auflistung von Informationen zu allen Instanzen:
+- Liste Informationen zu allen Instanzen auf:
 
 `aws ec2 describe-instances`
 
-- Auflistung von Informationen zu allen EC2 Volumen:
+- Liste Informationen zu allen EC2 Volumen auf:
 
 `aws ec2 describe-volumes`
 
-- Auflistung von Informationen zu einem einzigen EC2 Volumen:
+- Liste Informationen zu einem bestimmten EC2 Volumen auf:
 
-`aws ec2 delete-volume --volume-id {{volume_id}}`
+`aws ec2 describe-volume --volume-id {{volumen_id}}`
 
-- Erstellung eines Snapshots basierend auf einem EC2 Volumen:
+- Erstelle einen Snapshot, basierend auf einem EC2 Volumen:
 
-`aws ec2 create-snapshot --volume-id {{volume_id}}`
+`aws ec2 create-snapshot --volume-id {{volumen_id}}`
 
-- Auflistung aller verfügbaren AMIs (Amazon Machine Images):
+- Liste alle verfügbaren AMIs (Amazon Machine Images) auf:
 
 `aws ec2 describe-images`

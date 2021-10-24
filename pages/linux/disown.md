@@ -2,6 +2,7 @@
 
 > Allow sub-processes to live beyond the shell that they are attached to.
 > See also the `jobs` command.
+> More information: <https://www.gnu.org/software/bash/manual/bash.html#index-disown>.
 
 - Disown the current job:
 

@@ -3,7 +3,7 @@
 > Find vulnerabilities in your code and remediate risks.
 > More information: <https://snyk.io>.
 
-- Login to your Snyk account:
+- Log in to your Snyk account:
 
 `snyk auth`
 

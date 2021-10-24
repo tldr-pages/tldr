@@ -1,20 +1,20 @@
 # git worktree
 
-> Gérez plusieurs arborescences de travail attachées au même dépot.
-> Plus d'informations : <https://git-scm.com/docs/git-worktree>.
+> Gérer plusieurs arbres de travail attachés au même dépôt.
+> Plus d'informations : <https://git-scm.com/docs/git-worktree>.
 
-- Créer un nouveau sous arbre avec la branche spécifiée extraite dedans :
+- Créer un nouvel arbre de travail avec une branche spécifiée :
 
-`git worktree add {{chemin/vers/repertoire}} {{branche}}`
+`git worktree add {{chemin/vers/répertoire}} {{branche}}`
 
-- Créer un nouveau sous arbre branche extraite dedans :
+- Créer un nouvel arbre de travail avec une nouvelle branche :
 
-`git worktree add {{chemin/vers/repertoire}} -b {{nouvelle_branche}}`
+`git worktree add {{chemin/vers/répertoire}} -b {{nouvelle_branche}}`
 
-- Répertoriez tous les sous arbres attachés à ce dépot :
+- Répertorier tous les arbres de travail attachés à ce dépôt :
 
 `git worktree list`
 
-- Suprime les sous arbres (apres avoir suprimé les repertoires de travail) :
+- Supprimer les arbres de travail (après avoir supprimé les répertoires de travail) :
 
 `git worktree prune`

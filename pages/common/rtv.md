@@ -20,7 +20,7 @@
 
 `o`
 
-- Login:
+- Log in:
 
 `u`
 

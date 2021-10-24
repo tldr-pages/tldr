@@ -1,6 +1,7 @@
 # debugfs
 
 > An interactive ext2/ext3/ext4 filesystem debugger.
+> More information: <https://manned.org/debugfs>.
 
 - Open the filesystem in read only mode:
 

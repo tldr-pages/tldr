@@ -1,6 +1,6 @@
 # kops
 
-> Create, destroy, upgrade and maintain Kubernetes clusters from the command line.
+> Create, destroy, upgrade and maintain Kubernetes clusters from the command-line.
 > More information: <https://github.com/kubernetes/kops/>.
 
 - Create a cluster from the configuration specification:
@@ -15,7 +15,7 @@
 
 `kops export kubecfg {{cluster_name}}`
 
-- Get the cluster configuration as yaml:
+- Get the cluster configuration as YAML:
 
 `kops get cluster {{cluster_name}} -o yaml`
 

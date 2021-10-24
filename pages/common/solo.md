@@ -11,7 +11,7 @@
 
 `solo key update`
 
-- Blink the led of a specific Solo:
+- Blink the LED of a specific Solo:
 
 `solo key wink --serial {{serial_number}}`
 

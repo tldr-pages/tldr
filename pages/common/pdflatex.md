@@ -1,7 +1,7 @@
 # pdflatex
 
 > Compile a PDF document from LaTeX source files.
-> More information: <https://linux.die.net/man/1/pdflatex>.
+> More information: <https://manned.org/pdflatex>.
 
 - Compile a PDF document:
 
@@ -11,6 +11,6 @@
 
 `pdflatex -output-directory={{path/to/directory}} {{source.tex}}`
 
-- Compile a PDF document, halting on each error:
+- Compile a PDF document, exiting on each error:
 
 `pdflatex -halt-on-error {{source.tex}}`

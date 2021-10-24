@@ -1,28 +1,28 @@
 # plantuml
 
-> Erstellen Sie UML-Diagramme aus einer reinen Textsprache und rendern Sie sie in verschiedenen Formaten.
-> Mehr Informationen: <https://plantuml.com/en/command-line>.
+> Erstelle UML-Diagramme aus einer reinen Textsprache und rendere sie in verschiedenen Formaten.
+> Weitere Informationen: <https://plantuml.com/en/command-line>.
 
-- Rendern von Diagrammen im Standardformat (PNG):
+- Rendere Diagramme im Standardformat (PNG):
 
-`plantuml {{diagramm1.puml}} {{diagramm2.puml}}`
+`plantuml {{pfad/zu/diagramm1.puml}} {{pfad/zu/diagramm2.puml}}`
 
-- Rendern eines Diagramms im vorgegebenen Format (z.B. `png`, `pdf`, `svg`, `txt`):
+- Rendere eine Diagramm im vorgegebenen Format (z.B. `png`, `pdf`, `svg`, `txt`):
 
-`plantuml -t {{Format}} {{diagram.puml}}`
+`plantuml -t {{format}} {{pfad/zu/diagramm.puml}}`
 
-- Rendern Sie alle Diagramme eines Verzeichnisses:
+- Rendere alle Diagramme eines Verzeichnisses:
 
-`plantuml {{Pfad/der/Diagramme}}`
+`plantuml {{pfad/zu/verzeichnis}}`
 
-- Rendern Sie ein Diagramm in das Ausgabeverzeichnis:
+- Rendere ein Diagramm in ein bestimmtes Ausgabeverzeichnis:
 
-`plantuml -o {{Pfad/zur/Ausgabe}} {{diagramm.puml}}`
+`plantuml -o {{pfad/zu/verzeichnis}} {{pfad/zu/diagramm.puml}}`
 
-- Rendern Sie ein Diagramm mit der Konfigurationsdatei:
+- Rendere ein Diagramm mit einer bestimmten Konfigurationsdatei:
 
-`plantuml -config {{konfig.cfg}} {{diagramm.puml}}`
+`plantuml -config {{pfad/zu/konfig.cfg}} {{pfad/zu/diagramm.puml}}`
 
-- Hilfe anzeigen:
+- Zeige Hilfe an:
 
 `plantuml -help`

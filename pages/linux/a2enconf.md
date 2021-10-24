@@ -1,7 +1,7 @@
 # a2enconf
 
 > Enable an Apache configuration file on Debian-based OSes.
-> More information: <https://manpages.debian.org/buster/apache2/a2enconf.8.en.html>.
+> More information: <https://manpages.debian.org/latest/apache2/a2enconf.8.en.html>.
 
 - Enable a configuration file:
 

@@ -1,7 +1,8 @@
 # zless
 
-> Lire des fichiers compréssés.
+> Lire des fichiers compressés.
+> Plus d'informations : <https://manned.org/zless>.
 
-- Parcourrir une archive compréssé avec `less` :
+- Parcourir une archive compressée avec `less` :
 
 `zless {{fichier.txt.gz}}`

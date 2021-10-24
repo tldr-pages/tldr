@@ -1,16 +1,16 @@
 # ssh-copy-id
 
-> Installiert den öffentlichen Teil eines SSH Schlüssels in der `authorized_keys` Datei eines Benutzers von einem externen Server.
-> Ermöglicht darüber das zukünftige Einloggen unter diesem Benutzernamen bei diesem Server mit diesem Schlüssel.
+> Installiere den öffentlichen Teil eines SSH Schlüssels in der `authorized_keys` Datei auf einem externen Server.
+> Weitere Informationen: <https://manned.org/ssh-copy-id>.
 
-- Kopieren des eigenen öffentlichen SSH Schlüssels zu einem externen Server:
+- Kopiere den eigenen öffentlichen SSH Schlüssels zu einem externen Server:
 
-`ssh-copy-id {{Benutzer@Externer_Server}}`
+`ssh-copy-id {{benutzer}}@{{externer_server}}`
 
-- Kopieren des angegebenen öffentlichen SSH Schlüssels zu einem externen Server:
+- Kopiere den angegebenen öffentlichen SSH Schlüssels zu einem externen Server:
 
-`ssh-copy-id -i {{Pfad/zum/öffentlichen/Schlüssel}} {{Benutzer}}@{{Externer_Server}}`
+`ssh-copy-id -i {{pfad/zu/öffentlichem_schlüssel}} {{benutzer}}@{{externer_server}}`
 
-- Kopieren des angegeben öffentlichen SSH Schlüssels zu einem externen Server unter Angabe eines bestimmten SSH Ports:
+- Kopiere den angegeben öffentlichen SSH Schlüssels zu einem externen Server unter Angabe eines bestimmten SSH Ports:
 
-`ssh-copy-id -i {{Pfad/zum/öffentlichen/Schlüssel}} -p {{port}} {{Benutzer}}@{{Externer_Server}}`
+`ssh-copy-id -i {{pfad/zu/öffentlichem_schlüssel}} -p {{port}} {{benutzer}}@{{externer_server}}`

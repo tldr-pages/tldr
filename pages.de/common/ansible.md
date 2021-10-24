@@ -1,29 +1,33 @@
 # ansible
 
-> Verwalten von Computergruppen per Fernzugriff über SSH.
-> Verwenden Sie die Datei `/etc/ansible/hosts`, um neue Gruppen/Hosts hinzuzufügen.
+> Verwalte Computergruppen per Fernzugriff über SSH (Verwende die Datei `/etc/ansible/hosts`, um neue Gruppen/Hosts hinzuzufügen).
+> Manche Unterbefehle wie `ansible galaxy` sind separat dokumentiert.
 > Weitere Informationen: <https://www.ansible.com/>.
 
-- Hosts auflisten, die zu einer Gruppe gehören:
+- Liste Hosts auf, die zu einer Gruppe gehören:
 
-`ansible {{Gruppe}} --list-hosts`
+`ansible {{gruppe}} --list-hosts`
 
-- Pingen Sie eine Gruppe von Hosts an, indem Sie das Ping-Modul aufrufen:
+- Pinge eine Gruppe von Hosts an:
 
-`mögliche {{Gruppe}} -m ping`
+`ansible {{gruppe}} -m ping`
 
-- Zeigen Sie Fakten über eine Gruppe von Hosts an, indem Sie das Setup-Modul aufrufen:
+- Zeige Informationen über eine Gruppe von Hosts an:
 
-`mögliche {{Gruppe}} -m setup`
+`ansible {{gruppe}} -m setup`
 
-- Führen Sie einen Befehl auf einer Gruppe von Hosts aus, indem Sie das Command-Modul mit Argumenten aufrufen:
+- Führe einen Befehl auf einer Gruppe von Hosts aus:
 
-`mögliche {{Gruppe}} -m command -a '{{mein_command}}'`
+`ansible {{gruppe}} -m command -a '{{befehl}}'`
 
-- Führen Sie einen Befehl mit administrativen Privilegien aus:
+- Führe einen Befehl mit administrativen Privilegien aus:
 
-`möglich {{Gruppe}} --become --ask-become-pass -m command -a '{{mein_command}}'`
+`ansible {{gruppe}} --become --ask-become-pass -m command -a '{{befehl}}'`
 
-- Führen Sie einen Befehl mit einer benutzerdefinierten Inventardatei aus:
+- Führe einen Befehl mit einer benutzerdefinierten Inventardatei aus:
 
-`möglich {{Gruppe}} -i {{Inventardatei}} -m command -a '{{mein_command}}'`
+`ansible {{Gruppe}} -i {{inventardatei}} -m command -a '{{befehl}}'`
+
+- Liste alle Gruppen eines Inventars auf:
+
+`ansible localhost -m debug -a '{{var=groups.keys()}}'`

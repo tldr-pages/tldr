@@ -1,33 +1,33 @@
 # borg
 
 > Deduplizierendes Sicherungswerkzeug.
-> Erstellt lokale oder entfernte Sicherungen, die als Dateisysteme mountbar sind.
-> Mehr Informationen: <https://borgbackup.readthedocs.io/en/stable/usage/general.html>.
+> Erstellt lokale oder entfernte Sicherungen, die als Dateisysteme einhängbar sind.
+> Weitere Informationen: <https://borgbackup.readthedocs.io/en/stable/usage/general.html>.
 
-- Initialisiert ein (lokales) Repository:
+- Initialisiere ein lokales Repository:
 
-`borg init {{/pfad/zum/repo_verzeichnis}}`
+`borg init {{pfad/zu/repo_verzeichnis}}`
 
-- Sichern Sie ein Verzeichnis in das Repository und erstellen Sie ein Archiv mit dem Namen "Montag":
+- Sichere ein Verzeichnis in das Repository und erstelle ein Archiv mit dem Namen "Montag":
 
-`borg create --progress {{/pfad/zum/repo_verzeichnis}}::{{Montag}} {{/pfad/zum/quell_verzeichnis}}`
+`borg create --progress {{pfad/zu/repo_verzeichnis}}::{{Montag}} {{pfad/zu/quell_verzeichnis}}`
 
-- Alle Archive in einem Repository auflisten:
+- Liste alle Archive in einem Repository auf:
 
-`borg list {{/pfad/zum/repo_verzeichnis}}`
+`borg list {{pfad/zu/repo_verzeichnis}}`
 
-- Extrahieren eines bestimmten Verzeichnisses aus dem "Monday"-Archiv in einem entfernten Repository, unter Ausschluss aller *.ext-Dateien:
+- Extrahiere ein bestimmtes Verzeichnis aus dem "Montag"-Archiv in einem entfernten Repository, unter Ausschluss aller `*.ext`-Dateien:
 
-`borg extract {{benutzer}}@{{host}}:{{/pfad/zum/repo_verzeichnis}}::{{Montag}} {{/pfad/zum/ziel_verzeichnis} --exclude '{{*.ext}}'`
+`borg extract {{benutzer}}@{{host}}:{{pfad/zu/repo_verzeichnis}}::{{Montag}} {{pfad/zu/ziel_verzeichnis} --exclude '{{*.ext}}'`
 
-- Bereinigen Sie ein Repository, indem Sie alle Archive löschen, die älter als 7 Tage sind und Änderungen auflisten:
+- Bereinige ein Repository, indem alle Archive gelöscht werden, die älter als 7 Tage sind und Änderungen aufweisen:
 
-`borg prune --keep-within {{7d}} --list {{/pfad/zum/repo_verzeichnis}}`
+`borg prune --keep-within {{7d}} --list {{pfad/zu/repo_verzeichnis}}`
 
-- Mounten Sie ein Repository als FUSE-Dateisystem:
+- Hänge ein Repository als FUSE-Dateisystem ein:
 
-`borg mount {{/pfad/zum/repo_verzeichnis}}::{{Montag}} {{/pfad/zum/mountpoint}}`
+`borg mount {{pfad/zu/repo_verzeichnis}}::{{Montag}} {{pfad/zu/mountpoint}}`
 
-- Hilfe zur Erstellung von Archiven anzeigen:
+- Zeige Hilfe zur Erstellung von Archiven an:
 
 `borg create --help`

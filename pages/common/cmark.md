@@ -3,11 +3,11 @@
 > Converts CommonMark Markdown formatted text to other formats.
 > More information: <https://github.com/commonmark/cmark>.
 
-- Render a Commonmark Markdown file to HTML:
+- Render a CommonMark Markdown file to HTML:
 
 `cmark --to html {{filename.md}}`
 
-- Convert data from standard input to latex:
+- Convert data from standard input to LaTeX:
 
 `cmark --to latex`
 
@@ -15,6 +15,6 @@
 
 `cmark --smart --to html {{filename.md}}`
 
-- Validate utf8 characters:
+- Validate UTF-8 characters:
 
 `cmark --validate-utf8 {{filename.md}}`

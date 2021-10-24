@@ -1,20 +1,20 @@
 # avrdude
 
 > Treiberprogramm für Atmel AVR Mikrocontroller-Programmierung.
-> Mehr Informationen: <https://www.nongnu.org/avrdude/>.
+> Weitere Informationen: <https://www.nongnu.org/avrdude/>.
 
-- Schreibt Speicherinhalt des AVR Mikrocontrollers in datei.hex:
+- Schreibt den Speicherinhalt eines AVR-Mikrocontrollers in eine Datei:
 
-`avrdude -p {{AVR_gerät}} -c {{programmer}} -U flash:r:{{datei.hex}}:i`
+`avrdude -p {{avr_gerät}} -c {{programmer}} -U flash:r:{{pfad/zu/datei.hex}}:i`
 
-- Schreibt den Inhalt von datei.hex in den AVR Mikrocontroller:
+- Schreibt den Inhalt einer Datei in einen AVR-Mikrocontroller:
 
-`avrdude -p {{AVR_gerät}} -c {{programmer}} -U flash:w:{{datei.hex}}`
+`avrdude -p {{avr_gerät}} -c {{programmer}} -U flash:w:{{pfad/zu/datei.hex}}`
 
-- Liste alle verfügbaren AVR Geräte auf:
+- Liste alle verfügbaren AVR-Geräte auf:
 
 `avrdude -p \?`
 
-- Liste alle verfügbaren AVR Programmer auf:
+- Liste alle verfügbaren AVR-Programmer auf:
 
 `avrdude -c \?`

@@ -1,7 +1,7 @@
 # cmd
 
 > L'interprete dei comandi di Windows.
-> Maggiori informazioni: <https://docs.microsoft.com/it-it/windows-server/administration/windows-commands/cmd>.
+> Maggiori informazioni: <https://docs.microsoft.com/windows-server/administration/windows-commands/cmd>.
 
 - Lancia una nuova istanza dell'interprete dei comandi:
 
@@ -31,6 +31,6 @@
 
 `cmd /v:{{on|off}}`
 
-- Forza l'encoding delle stringhe in unicode per l'output:
+- Forza l'encoding delle stringhe in Unicode per l'output:
 
 `cmd /u`

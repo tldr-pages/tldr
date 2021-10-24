@@ -1,11 +1,15 @@
 # pihole
 
-> Terminal interface for the Pi-Hole ad-blocking DNS server.
+> Terminal interface for the Pi-hole ad-blocking DNS server.
 > More information: <https://pi-hole.net>.
 
 - Check the Pi-hole daemon's status:
 
 `pihole status`
+
+- Update Pi-hole:
+
+`pihole updatePihole`
 
 - Monitor detailed system status:
 
@@ -26,3 +30,7 @@
 - Search the lists for a domain:
 
 `pihole query {{example.com}}`
+
+- Open a real-time log of connections:
+
+`pihole tail`

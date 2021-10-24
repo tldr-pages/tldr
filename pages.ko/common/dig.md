@@ -19,7 +19,7 @@
 
 `dig @{{8.8.8.8}} {{example.com}}`
 
-- IP  주소에서 역방향 DNS 조회하기 (PTR record):
+- IP 주소에서 역방향 DNS 조회하기 (PTR record):
 
 `dig -x {{8.8.8.8}}`
 

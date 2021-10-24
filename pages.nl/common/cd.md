@@ -1,6 +1,7 @@
 # cd
 
 > Verander de huidige map.
+> Meer informatie: <https://manned.org/cd>.
 
 - Ga naar de gegeven map:
 

@@ -9,6 +9,10 @@ jobs:
     name: CI
 
     steps:
+    - name: Setup Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
 
     - name: Checkout
       uses: actions/checkout@v2
@@ -22,6 +26,9 @@ jobs:
     - name: Install npm dependencies
       run: npm ci
 
+    - name: Install python dependencies
+      run: python3 -m pip install -r requirements.txt
+
     - name: Test
       run: npm test
 
@@ -29,20 +36,20 @@ jobs:
       run: bash scripts/build.sh
 
     - name: Setup Python for PDF generation
-      if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/master'
+      if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
       uses: actions/setup-python@v2
       with:
         python-version: '3.x'
 
     - name: Build PDF
-      if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/master'
+      if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
       run: |
         cd scripts/pdf/
         pip3 install -r requirements.txt
         python3 render.py ../../pages -c solarized-light
 
     - name: Deploy
-      if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/master'
+      if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
       run: bash scripts/deploy.sh
       env:
         DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}

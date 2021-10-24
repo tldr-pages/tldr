@@ -1,8 +1,16 @@
 # identify
 
-> Command line utility of Image Magick project to describe the format and characteristics of one or more image files.
+> Command-line utility of Image Magick project to describe the format and characteristics of one or more image files.
 > More information: <https://imagemagick.org/script/identify.php>.
 
-- Collect dimensions of all jpeg files under current directory:
+- Describe the format and basic characteristics of an image:
 
-`identify -format "%f,%w,%h\n" *.{{jpg}} > {{filelist.csv}}`
+`identify {{path/to/image}}`
+
+- Describe the format and verbose characteristics of an image:
+
+`identify -verbose {{path/to/image}}`
+
+- Collect dimensions of all JPEG files under current directory:
+
+`identify -format "%f,%w,%h\n" *.{{jpg}} > {{path/to/filelist.csv}}`

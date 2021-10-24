@@ -2,35 +2,36 @@
 
 > Debian und Ubuntu Paket Management Tool.
 > Suche mit `apt-cache` nach Paketen.
+> Weitere Informationen: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
 
-- Aktualisiert die Liste der Paketquellen (es wird empfohlen diesen Befehl als erstes auszuführen):
+- Aktualisiere die Liste der Paketquellen (es wird empfohlen diesen Befehl zu Beginn auszuführen):
 
 `apt-get update`
 
-- Installiert ein Paket oder aktualisiert es zur neusten Version:
+- Installiere ein Paket oder aktualisiere es zur neuesten Version:
 
-`apt-get install {{Paket}}`
+`apt-get install {{paket}}`
 
-- Entfernt ein Paket:
+- Entferne ein Paket:
 
-`apt-get remove {{Paket}}`
+`apt-get remove {{paket}}`
 
-- Entfernt ein Paket und die dazugehörigen Konfigurationen:
+- Entferne ein Paket und die dazugehörigen Konfigurationen:
 
-`apt-get purge {{Paket}}`
+`apt-get purge {{paket}}`
 
-- Aktualisiert alle Pakete auf die neuste Version:
+- Aktualisiere alle Pakete auf die neueste Version:
 
 `apt-get upgrade`
 
-- Reinigt das Repository - entfernt alle Dateinen (`.deb`) welche nichtmehr heruntergeladen werden können:
+- Reinige das Repository
 
 `apt-get autoclean`
 
-- Entfernt alle Pakete welche nichtmehr benötigt werden:
+- Entferne alle Pakete, die nicht mehr benötigt werden:
 
 `apt-get autoremove`
 
-- Aktualisiert alle Pakete (wie `upgrade`), aber entfernt alle obsoleten Pakete:
+- Aktualisiere alle Pakete (wie `upgrade`), aber entfernt alle obsoleten Pakete:
 
 `apt-get dist-upgrade`
