@@ -3,7 +3,7 @@
 > Try to recover a damaged btrfs filesystem.
 > More information: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-rescue>.
 
-- Rebuild filesystem metadata tree (very slow):
+- Rebuild the filesystem metadata tree (very slow):
 
 `sudo btrfs rescue chunk-recover {{path/to/partition}}`
 
@@ -11,11 +11,11 @@
 
 `sudo btrfs rescue fix-device-size {{path/to/partition}}`
 
-- Recover corrupted superblock from correct copies (recover the root of filesystem tree):
+- Recover a corrupted superblock from correct copies (recover the root of filesystem tree):
 
 `sudo btrfs rescue super-recover {{path/to/partition}}`
 
-- Recover from interrupted transactions (fixes log replay problems):
+- Recover from an interrupted transactions (fixes log replay problems):
 
 `sudo btrfs rescue zero-log {{path/to/partition}}`
 
