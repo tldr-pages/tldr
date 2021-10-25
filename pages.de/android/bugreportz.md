@@ -4,7 +4,7 @@
 > Dieser Befehl kann nur mit `adb shell` verwendet werden.
 > Weitere Informationen: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/bugreportz>.
 
-- Generiere einen vollständigen Fehlerbericht eines Android Geräts:
+- Generiere einen vollständigen Fehlerbericht eines Androidgeräts:
 
 `bugreportz`
 

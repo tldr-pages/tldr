@@ -4,7 +4,7 @@
 > Häufig kombiniert mit anderen Methoden zur Komprimierung, wie gzip oder bzip2.
 > Weitere Informationen: <https://www.gnu.org/software/tar>.
 
-- Erstelle ein Archiv von Datein:
+- Erstelle ein Archiv von Dateien:
 
 `tar cf {{pfad/zu/ziel.tar}} {{pfad/zu/datei1}} {{pfad/zu/datei2}} {{pfad/zu/datei3}}`
 

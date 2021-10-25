@@ -32,6 +32,6 @@
 
 `curl --user benutzername:passwort {{http://beispiel.de}}`
 
-- Übergib Client-Zertifikat und -Schlüssel für eine Resource und überspringe die Zertifikatsüberprüfung:
+- Übergib Client-Zertifikat und -Schlüssel für eine Ressource und überspringe die Zertifikatsüberprüfung:
 
 `curl --cert {{client.pem}} --key {{key.pem}} --insecure {{https://beispiel.de}}`
