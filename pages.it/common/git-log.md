@@ -31,6 +31,6 @@
 
 `git log -n {{numero}} --author={{autore}}`
 
-- Mostra i commit effettuati tra due date:
+- Mostra i commit effettuati tra due date (yyyy-mm-dd):
 
-`git log --before="{{JAN 29 2017}}" --after="{{JAN 17 2017}}"`
+`git log --before="{{2017-01-29}}" --after="{{2017-01-17}}"`
