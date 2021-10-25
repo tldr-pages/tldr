@@ -6,15 +6,15 @@
 
 - Sincroniza e atualiza todos os pacotes:
 
-`pacman --sync --refresh --sysupgrade`
+`sudo pacman --sync --refresh --sysupgrade`
 
 - Instala um novo pacote:
 
-`pacman --sync {{nome_do_pacote}}`
+`sudo pacman --sync {{nome_do_pacote}}`
 
 - Remove um pacote e suas dependências:
 
-`pacman --remove --recursive {{nome_do_pacote}}`
+`sudo pacman --remove --recursive {{nome_do_pacote}}`
 
 - Procura no banco de dados de pacotes por uma expressão regular ou palavra-chave:
 
@@ -34,4 +34,4 @@
 
 - Esvazia completamente o cache do pacman:
 
-`pacman --sync --clean --clean`
+`sudo pacman --sync --clean --clean`
