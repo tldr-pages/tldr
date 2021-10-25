@@ -8,11 +8,11 @@
 
 `git --version`
 
-- Zeige die generelle Hilfsseite an:
+- Zeige die generelle Hilfeseite an:
 
 `git --help`
 
-- Zeige die Hilfsseite eines Unterbefehls an:
+- Zeige die Hilfeseite eines Unterbefehls an:
 
 `git help {{unterbefehl}}`
 
