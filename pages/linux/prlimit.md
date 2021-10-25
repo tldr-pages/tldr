@@ -14,4 +14,4 @@
 
 - Run a command with a custom number of open files limit:
 
-`prlimit --nofile={{number of open files}} {{command}}`
+`prlimit --nofile={{10}} {{command}}`
