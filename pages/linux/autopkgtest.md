@@ -1,0 +1,22 @@
+# autopkgtest
+
+> Run tests on Debian packages.
+> More information: <https://wiki.debian.org/ContinuousIntegration/autopkgtest>.
+
+- From within a Debian source package, build it and run all tests using the 'null' virtualization server:
+
+`autopkgtest -- null`
+
+- Only run the given test:
+
+`autopkgtest --test-name={{test}} -- null`
+
+- Download the given package, build it, and run all tests:
+
+`autopkgtest {{package}} -- null`
+
+- Test the package inside the given chroot:
+`autopkgtest -- chroot {{/path/to/chroot}}`
+
+- Test the package without rebuilding it:
+`autopkgtest --no-built-binaries -- null`
