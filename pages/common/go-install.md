@@ -11,7 +11,7 @@
 
 `go install {{./cmd/...}}`
 
-- Install the latest version of a program, ignoring `go.mod` in the current directory (if any):
+- Install the latest version of a program, ignoring `go.mod` in the current directory:
 
 `go install {{golang.org/x/tools/gopls}}@{{latest}}`
 
