@@ -11,6 +11,6 @@
 
 `locate */{{dateiname}}`
 
-- Aktualisiere die Datenbank. Dies ist nötig, falls kürzlich hinzugefügte Datein gefunden werden sollen:
+- Aktualisiere die Datenbank. Dies ist nötig, falls kürzlich hinzugefügte Dateien gefunden werden sollen:
 
 `sudo updatedb`

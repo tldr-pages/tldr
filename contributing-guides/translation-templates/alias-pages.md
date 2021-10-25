@@ -8,6 +8,7 @@ The templates can be changed when necessary.
 
 [en](#en) •
 [ar](#ar) •
+[bn](#bn) •
 [bs](#bs) •
 [da](#da) •
 [de](#de) •
@@ -28,6 +29,7 @@ The templates can be changed when necessary.
 [ro](#ro) •
 [ru](#ru) •
 [sh](#sh) •
+[sr](#sr) •
 [sv](#sv) •
 [ta](#ta) •
 [th](#th) •
@@ -61,6 +63,11 @@ The templates can be changed when necessary.
 
 `tldr example`
 ```
+
+---
+### bn
+
+Not translated yet.
 
 ---
 ### bs
@@ -179,7 +186,15 @@ Not translated yet.
 ---
 ### ko
 
-Not translated yet.
+```markdown
+# example
+
+> 이 명령은 `example` 의 에일리어스 (별칭) 입니다.
+
+- 원본 명령의 도큐멘테이션 (설명서) 보기:
+
+`tldr example`
+```
 
 ---
 ### ml
@@ -271,6 +286,11 @@ Not translated yet.
 
 ---
 ### sh
+
+Not translated yet.
+
+---
+### sr
 
 Not translated yet.
 

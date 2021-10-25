@@ -1,6 +1,6 @@
 # caffeinate
 
-> Hindert den Mac daran in den Schlaf-Modus zu gehen.
+> Hindert den Mac daran, in den Schlaf-Modus zu gehen.
 > Weitere Informationen: <https://ss64.com/osx/caffeinate.html>.
 
 - Halte den Mac für 1 Stunde (3600 Sekunden) wach:

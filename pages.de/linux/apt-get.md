@@ -4,7 +4,7 @@
 > Suche mit `apt-cache` nach Paketen.
 > Weitere Informationen: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
 
-- Aktualisiere die Liste der Paketquellen (es wird empfohlen diesen Befehl zu Begin auszuführen):
+- Aktualisiere die Liste der Paketquellen (es wird empfohlen diesen Befehl zu Beginn auszuführen):
 
 `apt-get update`
 
