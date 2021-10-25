@@ -14,7 +14,7 @@
 
 - Download a file, following location redirects, and automatically continuing (resuming) a previous file transfer and return error on server error:
 
-`curl --fail-with-body --remote-name --location --continue-at - {{http://example.com/filename}}`
+`curl --fail --remote-name --location --continue-at - {{http://example.com/filename}}`
 
 - Send form-encoded data (POST request of type `application/x-www-form-urlencoded`). Use `--data @file_name` or `--data @'-'` to read from STDIN:
 
