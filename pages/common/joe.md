@@ -1,6 +1,6 @@
 # joe
 
-> Joe's own (text) editor.
+> Joe's own text editor.
 > More information: <https://joe-editor.sourceforge.io>.
 
 - Open a new file in joe:
