@@ -1,4 +1,4 @@
-# todoman
+# todo
 
 > Un semplice gestore per i todo da linea di comando.
 > Ulteriori informazioni: <https://todoman.readthedocs.io>.
