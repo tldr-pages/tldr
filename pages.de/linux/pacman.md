@@ -6,15 +6,15 @@
 
 - Synchronisiere und aktualisiere alle Pakete:
 
-`pacman --sync --refresh --sysupgrade`
+`sudo pacman --sync --refresh --sysupgrade`
 
 - Installiere ein neues Paket:
 
-`pacman --sync {{paketname}}`
+`sudo pacman --sync {{paketname}}`
 
 - Entferne ein Paket und dessen Abhängigkeiten:
 
-`pacman --remove --recursive {{paketname}}`
+`sudo pacman --remove --recursive {{paketname}}`
 
 - Suche in der Paketdatenbank nach einem regulären Ausdruck oder Schlüsselwort:
 
@@ -34,4 +34,4 @@
 
 - Leere den gesamten pacman Cache:
 
-`pacman --sync --clean --clean`
+`sudo pacman --sync --clean --clean`
