@@ -1,4 +1,4 @@
-# todoman
+# todo
 
 > A simple, standards-based, cli todo manager.
 > More information: <https://todoman.readthedocs.io>.
