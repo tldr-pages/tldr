@@ -24,10 +24,6 @@
 
 `rsync -r {{remote_host}}:{{path/to/remote_directory}}/ {{path/to/local_directory}}`
 
-- Transfer a directory and all its children except files matching a certain pattern from a remote to local:
-
-`rsync -r --exclude=PATTERN {{remote_host}}:{{path/to/remote_directory}} {{path/to/local_directory}}`
-
 - Transfer a directory [r]ecursively, in [a]rchive to preserve attributes, resolving contained soft[l]inks , and ignoring already transferred files [u]nless newer:
 
 `rsync -rauL {{remote_host}}:{{path/to/remote_file}} {{path/to/local_directory}}`
