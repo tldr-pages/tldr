@@ -11,6 +11,6 @@
 
 `sudo visudo -c`
 
-- Display version information 
+- Display version information:
 
 `sudo visudo --version`
