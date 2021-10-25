@@ -7,6 +7,10 @@
 
 `docker build .`
 
+- Build a docker image and name it:
+
+`docker build . -t {{name}}`
+
 - Build a docker image from a Dockerfile at a specified URL:
 
 `docker build {{github.com/creack/docker-firefox}}`
