@@ -13,4 +13,4 @@
 
 - Display version information:
 
-`sudo visudo --version`
+`visudo --version`
