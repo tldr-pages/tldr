@@ -7,22 +7,6 @@
 
 `bspwm -c {{path/to/config}}`
 
-- Define two virtual desktop:
+- View documentation for `bspc`:
 
-`bspc monitor --reset-desktops {{1}} {{2}}`
-
-- Focus the given desktop:
-
-`bspc desktop --focus {{number}}`
-
-- Close the windows rooted at the selected node:
-
-`bspc node --close`
-
-- Send the selected node to the given desktop:
-
-`bspc node --to-desktop {{number}}`
-
-- Toggle full screen mode for the selected node:
-
-`bspc node --state ~fullscreen`
+`tldr bspc`
