@@ -3,6 +3,7 @@
 > Muestra la tabla de contenidos del DMI (también conocido como SMBIOS) en un formato legible por humanos.
 > Require de privilegios de root.
 > Más información: <https://manned.org/dmidecode>.
+
 - Muestra todos la tabla de contenidos de DMI:
 
 `sudo dmidecode`
