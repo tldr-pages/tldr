@@ -13,11 +13,11 @@
 
 - Build a package in a pbuilder environment for Debian Bullseye:
 
-`DIST=bullseye ARCH=amd64 gbp buildpackage -jauto -us -uc --git-builder=git-pbuilder`
+`DIST={{bullseye}} ARCH={{amd64}} gbp buildpackage -jauto -us -uc --git-builder={{git-pbuilder}}`
 
-- Specify that this is a source-only upload in .changes file (see https://wiki.debian.org/SourceOnlyUpload):
+- Specify that this is a source-only upload in `.changes` file (see https://wiki.debian.org/SourceOnlyUpload):
 
-`gbp buildpackage -jauto -us -uc --changes-options=-S`
+`gbp buildpackage -jauto -us -uc --changes-options={{-S}}`
 
 - Import a new upstream release:
 
