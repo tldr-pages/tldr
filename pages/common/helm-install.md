@@ -11,7 +11,7 @@
 
 `helm install {{name}} {{path/to/directory}}`
 
-- Install a helm chart from an url:
+- Install a helm chart from a URL:
 
 `helm install {{mynginx}} {{https://example.com/charts/nginx-1.2.3.tgz}}`
 
