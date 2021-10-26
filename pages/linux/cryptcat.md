@@ -1,7 +1,7 @@
 # cryptcat
 
 > Cryptcat is netcat with encryption capabilities.
-> More information: <https://nmap.org/cryptcatat>.
+> More information: <http://cryptcat.sourceforge.net/>.
 
 - Listen on a specified port and print any data received:
 
@@ -22,5 +22,3 @@
 - Act as proxy and forward data from a local TCP port to the given remote host:
 
 `cryptcat -k {{password}} -l -p {{local_port}} | cryptcat -k {{password}} {{hostname}} {{remote_port}}`
-
-
