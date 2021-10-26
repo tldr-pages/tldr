@@ -151,7 +151,7 @@ Alguns subcomandos como `example command` tem sua própia documentação de uso.
 ---
 ### pt_PT
 
-Not translated yet.
+Alguns subcomandos como `example command` tem sua própria documentação de uso.
 
 ---
 ### ro
