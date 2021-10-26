@@ -21,6 +21,7 @@ The templates can be changed when necessary.
 [ja](#ja) •
 [ko](#ko) •
 [ml](#ml) •
+[ne](#ne) •
 [nl](#nl) •
 [no](#no) •
 [pl](#pl) •
@@ -205,6 +206,19 @@ Not translated yet.
 > ഈ കമാൻഡ് `example` എന്നത്തിന്റെ അപരനാമമാണ്.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
+
+`tldr example`
+```
+
+---
+### ne
+
+```markdown
+# example
+
+> यो आदेश `example` को उपनाम हो |
+
+- मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 
 `tldr example`
 ```
