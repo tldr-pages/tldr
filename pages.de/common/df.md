@@ -19,6 +19,6 @@
 
 `df -i`
 
-- Zeige alle Dateisystem bis auf die eines bestimmten Typs:
+- Zeige alle Dateisysteme bis auf die eines bestimmten Typs:
 
 `df -x {{squashfs}} -x {{tmpfs}}`

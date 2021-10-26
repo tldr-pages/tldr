@@ -16,7 +16,7 @@
 
 `bash {{pfad/zu/datei.sh}}`
 
-- Führe Befehle aus einer Datei aus and protokolliere alle ausgeführten Befehle an das Terminal:
+- Führe Befehle aus einer Datei aus und protokolliere alle ausgeführten Befehle an das Terminal:
 
 `bash -x {{pfad/zu/datei.sh}}`
 

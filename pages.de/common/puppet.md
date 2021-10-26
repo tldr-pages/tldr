@@ -1,6 +1,6 @@
 # puppet
 
-> Puppet bietet Tools an um die Konfiguration von Servern zu automatisieren.
+> Puppet bietet Tools, an um die Konfiguration von Servern zu automatisieren.
 > Einige Unterbefehle wie `puppet agent` sind separat dokumentiert.
 > Weitere Informationen: <https://puppet.com/>.
 

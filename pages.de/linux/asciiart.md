@@ -11,15 +11,15 @@
 
 `asciiart {{www.example.com/bild.jpg}}`
 
-- Wähle die output Breite (default ist 100):
+- Wähle die Breite der Ausgabe (standardmäßig 100):
 
 `asciiart -width {{50}} {{pfad/zum/bild.jpg}}`
 
-- Zeige den output in Farbe:
+- Zeige die Ausgabe in Farbe:
 
 `asciiart --color {{pfad/zum/bild.jpg}}`
 
-- Wähle das outout format (default ist text):
+- Wähle das Ausgabeformat (standardmäßig text):
 
 `asciiart --format {{text|html}} {{pfad/zum/bild.jpg}}`
 

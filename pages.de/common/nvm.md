@@ -1,6 +1,6 @@
 # nvm
 
-> Installiere, Deinstalliere oder wechsle zwischen Node.js Versionen.
+> Installiere, deinstalliere oder wechsle zwischen Node.js Versionen.
 > Unterstützt Versionsnummern wie "0.12" oder "v4.2", und Label wie "stable", "system", etc.
 > Weitere Informationen: <https://github.com/creationix/nvm>.
 
@@ -12,11 +12,11 @@
 
 `nvm use {{node_version}}`
 
-- Setze die Standard Node.js Version:
+- Setze die Node.js-Standardversion:
 
 `nvm alias default {{node_version}}`
 
-- Zeige alle verfügbaren Node.js Versionen und hebe die Standard Version hervor:
+- Zeige alle verfügbaren Node.js Versionen und hebe die Standardversion hervor:
 
 `nvm list`
 

@@ -19,10 +19,10 @@
 
 `aws quicksight list-dashboards --aws-account-id {{aws_account_id}}`
 
-- Liste eine Datensatz detailliert aus:
+- Liste einen Datensatz detailliert aus:
 
 `aws quicksight describe-data-set --aws-account-id {{aws_account_id}} --data-set-id {{datensatz_id}}`
 
-- Liste Zugangsberechtungen zu einem Datensatz auf:
+- Liste Zugangsberechtigungen zu einem Datensatz auf:
 
 `aws quicksight describe-data-set-permissions --aws-account-id {{aws_account_id}} --data-set-id {{datensatz_id}}`
