@@ -5,7 +5,7 @@
 
 - Run default checks on a source file:
 
-`clang-tidy {{file.cpp}}`
+`clang-tidy {{path/to/file.cpp}}`
 
 - Don't run any checks other than the cppcoreguidelines checks on a file:
 
