@@ -11,7 +11,7 @@
 
 `wsl-open {{https://example.com}}`
 
-- Open a specific file in the system default application in Windows:
+- Open a specific file in the user's default application in Windows:
 
 `wsl-open {{path/to/file}}`
 
