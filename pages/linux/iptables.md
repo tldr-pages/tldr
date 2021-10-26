@@ -21,7 +21,7 @@
 
 - Add a rule to NAT all traffic from the 192.168.0.0/24 subnet to the host's public IP:
 
-`sudo iptables -t nat -A POSTROUTING -s 192.168.0.0/24 -j MASQUERADE`
+`sudo iptables -t {{nat}} -A {{POSTROUTING}} -s {{192.168.0.0/24}} -j {{MASQUERADE}}`
 
 - Delete chain rule:
 
