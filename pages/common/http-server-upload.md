@@ -9,7 +9,7 @@
 
 - Start a HTTP server with the specified maximum allowed file size for uploads in MiB (defaults to 200 MiB):
 
-`MAX_FILE_SIZE={{size_in_megabytes}}`
+`MAX_FILE_SIZE={{size_in_megabytes}} http-server-upload`
 
 - Start a HTTP server in a specific port to upload files in the current directory:
 
