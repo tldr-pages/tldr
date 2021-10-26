@@ -1,6 +1,6 @@
 # dmidecode
 
-> Muestra los contenidos del DMI (conocido también como SMBIOS) en un formato legible por humanos.
+> Muestra la tabla de contenidos del DMI (también conocido como SMBIOS) en un formato legible por humanos.
 > Require de privilegios de root.
 > Más información: <https://manned.org/dmidecode>.
 - Muestra todos los contenidos de la tabla DMI:
