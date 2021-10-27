@@ -1,6 +1,6 @@
 # plenv
 
-> Easily switch between multiple versions of Perl.
+> Switch between multiple versions of Perl.
 > More information: <https://github.com/tokuhirom/plenv>.
 
 - Display help:
