@@ -29,4 +29,4 @@
 
 - Set the current date using the format `MMDDhhmm[YYYY][.ss]`:
 
-`date 09302359`
+`date {{09302359}}`
