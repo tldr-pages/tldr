@@ -9,7 +9,7 @@
 
 - Install a helm chart from an unpacked chart directory:
 
-`helm install {{name}} {{path/to/directory}}`
+`helm install {{name}} {{path/to/source_directory}}`
 
 - Install a helm chart from a URL:
 
