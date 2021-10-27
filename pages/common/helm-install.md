@@ -27,6 +27,6 @@
 
 `helm install {{name}} {{repository_name}}/{{chart_name}} --set {{parameter1}}={{value1}},{{parameter2}}={{value2}}`
 
-- Install a helm chart passing a values file:
+- Install a helm chart passing a custom values file:
 
 `helm install {{name}} {{repository_name}}/{{chart_name}} --values {{path/to/values.yaml}}`
