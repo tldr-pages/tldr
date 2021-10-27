@@ -13,7 +13,7 @@
 
 - Install a helm chart from a URL:
 
-`helm install {{mynginx}} {{https://example.com/charts/nginx-1.2.3.tgz}}`
+`helm install {{package_name}} {{https://example.com/charts/packagename-1.2.3.tgz}}`
 
 - Install a helm chart and generate a name:
 
