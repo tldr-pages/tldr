@@ -7,7 +7,7 @@
 
 `wsl-open {{.}}`
 
-- Open a URL in the system default web browser in Windows:
+- Open a URL in the user's default web browser in Windows:
 
 `wsl-open {{https://example.com}}`
 
