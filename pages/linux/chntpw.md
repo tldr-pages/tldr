@@ -12,6 +12,6 @@
 
 `chntpw -u {{user_name}} {{path/to/SAM_file}}`
 
-- Use chntpw [i]nteractively
+- Use chntpw [i]nteractively:
 
 `chntpw -i {{path/to/SAM_file}}`
