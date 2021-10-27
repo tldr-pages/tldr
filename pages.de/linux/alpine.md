@@ -7,7 +7,7 @@
 
 `alpine`
 
-- Öffne alpine im Email-Editor um eine Email an eine bestimmte Adresse zu verfassen:
+- Öffne alpine im E-Mail-Editor, um eine E-Mail an eine bestimmte Adresse zu verfassen:
 
 `alpine {{email@example.net}}`
 
