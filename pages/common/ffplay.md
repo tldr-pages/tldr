@@ -5,7 +5,7 @@
 
 - Play a media file:
 
-`ffplay {{path/to/file}}
+`ffplay {{path/to/file}}`
 
 - Play a video and show motion vectors in real time:
 
