@@ -1,4 +1,4 @@
-#apt
+# apt
 
 > Debian tabanlı dağıtımlar için paket yönetim aracı.
 > Ubuntu 16.04 ve sonraki sürümlerde interaktif kullanıldığında apt-get için önerilen değiştirme.
