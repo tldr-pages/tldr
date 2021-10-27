@@ -1,6 +1,6 @@
 # zegrep
 
-> Find extended regular expression patterns in compressed compressed files using egrep.
+> Find extended regular expression patterns in compressed files using `egrep`.
 > More information: <https://www.unix.com/man-page/freebsd/1/zegrep/>.
 
 - Search for extended regular expressions (supporting `?`, `+`, `{}`, `()` and `|`) in a compressed file (case-sensitive):
