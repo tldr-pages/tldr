@@ -23,7 +23,7 @@
 
 `create partition primary`
 
-- Activate a volume:
+- Activate the selected volume:
 
 `active`
 
