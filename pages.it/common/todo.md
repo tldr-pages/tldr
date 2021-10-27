@@ -1,7 +1,7 @@
 # todo
 
 > Un semplice gestore per i todo da linea di comando.
-> Ulteriori informazioni: <https://todoman.readthedocs.io>.
+> Maggiori informazioni: <https://todoman.readthedocs.io>.
 
 - Aggiungere un nuovo task alla lista delle cose da fare per lavoro:
 
