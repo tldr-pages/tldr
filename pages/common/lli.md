@@ -9,7 +9,7 @@
 
 - Execute with command line arguments:
 
-`lli {{path/to/file.ll}} {{arg1 arg2 ...}}`
+`lli {{path/to/file.ll}} {{argument1 argument2 ...}}`
 
 - Enable all optimizations:
 
