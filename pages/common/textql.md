@@ -3,7 +3,7 @@
 > Execute SQL against structured text like csv or tsv files.
 > More information: <https://github.com/dinedal/textql>.
 
-- Query `.csv` file:
+- Print the lines in the specified `.csv` file that match a SQL query to stdout:
 
 `textql -sql "select * from filename" {{path/to/filename.csv}}`
 
