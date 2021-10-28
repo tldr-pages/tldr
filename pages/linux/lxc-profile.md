@@ -1,0 +1,28 @@
+# lxc profile
+
+> Manage profile for LXD containers.
+> More information: <https://linuxcontainers.org/lxd/docs/master/profiles>.
+
+- List available profiles:
+
+`lxc profile list`
+
+- Show configuration of a profile:
+
+`lxc profile show {{profile_name}}`
+
+- Edit profile with editor:
+
+`lxc profile edit {{profile_name}}`
+
+- Edit profile by importing a file:
+
+`lxc profile edit {{profile_name}} < {{config.yaml}}`
+
+- Launch a new container with profiles:
+
+`lxc launch {{container_image}} {{container_name}} --profile {{profile1}} --profile {{profile2}}`
+
+- Change the profiles of a running container:
+
+`lxc profile assign {{container_name}} {{profile1,profile2}}`

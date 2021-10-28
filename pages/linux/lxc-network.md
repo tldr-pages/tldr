@@ -1,0 +1,28 @@
+# lxc network
+
+> Manage networks for LXD containers.
+> More information: <https://linuxcontainers.org/lxd/docs/master/networks>.
+
+- List available networks:
+
+`lxc network list`
+
+- Show configuration of an existing network:
+
+`lxc network show {{network_name}}`
+
+- Add a running instance to a network:
+
+`lxc network attach {{network_name}} {{container_name}}`
+
+- Create a new managed network:
+
+`lxc network create {{network_name}}`
+
+- Set bridge interface of a network:
+
+`lxc network set {{network_name}} bridge.external_interfaces {{eth0}}`
+
+- Disable NAT for a network:
+
+`lxc network set {{network_name}} ipv{{4}}.nat false`
