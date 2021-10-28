@@ -3,7 +3,7 @@
 > Run tests on Debian packages.
 > More information: <https://wiki.debian.org/ContinuousIntegration/autopkgtest>.
 
-- Build the package in the current directory and run all tests using the 'null' virtualization server:
+- Build the package in the current directory and run all tests using the `null` virtualization server:
 
 `autopkgtest -- null`
 
