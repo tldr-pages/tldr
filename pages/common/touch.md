@@ -13,7 +13,7 @@
 
 - Set the time on a file to one hour in the past:
 
-`touch -d "-1 hour" {{filename}}
+`touch -d "{{-1 hour}}" {{filename}}
 
 - Use the times from a file to set the times on a second file:
 
