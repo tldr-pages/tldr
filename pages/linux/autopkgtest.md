@@ -15,7 +15,7 @@
 
 `autopkgtest {{package}} -- null`
 
-- Test the package inside the given chroot:
+- Test the package in the current directory using a new root directory:
 
 `autopkgtest -- chroot {{path/to/chroot}}`
 
