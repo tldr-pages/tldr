@@ -1,32 +1,32 @@
 # mt
 
 > Control magnetic tape drive operation (commonly LTO tape).
-> More information: <https://linux.die.net/man/1/mt>.
+> More information: <https://manned.org/mt>.
 
 - Check tape status:
 
-`mt -f <device> status`
+`mt -f {{/dev/[nst|st]N}} status`
 
 - Rewind the tape to beginning:
 
-`mt -f <device> rewind`
+`mt -f {{/dev/[nst|st]N}} rewind`
 
 - Forward `<count>` files, then position tape on first block of next file:
 
-`mt -f <device> fsf <count>`
+`mt -f {{/dev/[nst|st]N}} fsf <count>`
 
 - Rewind the tape, then position tape at beginning of `<count>` file:
 
-`mt -f <device> asf <count>`
+`mt -f {{/dev/[nst|st]N}} asf <count>`
 
 - Position tape at the end of valid data:
 
-`mt -f <device> eod`
+`mt -f {{/dev/[nst|st]N}} eod`
 
 - Rewind the tape and unload/eject it:
 
-`mt -f <device> eject`
+`mt -f {{/dev/[nst|st]N}} eject`
 
 - Write EOF (End-of-file) mark at current position:
 
-`mt -f <device> eof`
+`mt -f {{/dev/[nst|st]N}} eof`
