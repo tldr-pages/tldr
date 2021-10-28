@@ -7,7 +7,7 @@
 
 `autopkgtest -- null`
 
-- Only run the given test:
+- Run a specific test for the package in the current directory:
 
 `autopkgtest --test-name={{test}} -- null`
 
