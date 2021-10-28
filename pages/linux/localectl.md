@@ -3,7 +3,7 @@
 > Control the system locale and keyboard layout settings.
 > More information: <https://www.freedesktop.org/software/systemd/man/localectl.html>.
 
-- Show current settings of the system locale and keyboard mapping.:
+- Show current settings of the system locale and keyboard mapping:
 
 `localectl`
 
