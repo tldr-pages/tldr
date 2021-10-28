@@ -17,7 +17,7 @@
 `jupyter nbconvert --to {{html|markdown|pdf|script}} {{exemplo.ipynb}}`
 
 - Inicie um servidor em uma porta específica:
- 
+
 `jupyter notebook --port={{porta}}`
 
 - Lista de servidores de notebooks atualmente em funcionamento:
@@ -31,4 +31,3 @@
 - Inicie o JupyterLab, se instalado, no diretório atual:
 
 `jupyter lab`
-
