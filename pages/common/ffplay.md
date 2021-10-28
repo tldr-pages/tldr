@@ -13,4 +13,4 @@
 
 - Show only video keyframes:
 
-`ffplay -vf select="eq(pict_type\,PICT_TYPE_I)" {{path/to/file}}`
+`ffplay -vf select="{{eq(pict_type\,PICT_TYPE_I)}}" {{path/to/file}}`
