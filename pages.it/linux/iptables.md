@@ -8,24 +8,24 @@
 
 - Imposta regola ad una catena
 
-`sudo iptables -P {{chain}} {{rule}}`
+`sudo iptables -P {{catena}} {{regola}}`
 
 - Appendi regola ad una catena di policy per IP
 
-`sudo iptables -A {{chain}} -s {{ip}} -j {{rule}}`
+`sudo iptables -A {{catena}} -s {{ip}} -j {{regola}}`
 
 - Appeni regola ad una catena di policy per IP considerando protocollo e porta
 
-`sudo iptables -A {{chain}} -s {{ip}} -p {{protocol}} --dport {{port}} -j {{rule}}`
+`sudo iptables -A {{catena}} -s {{ip}} -p {{protocollo}} --dport {{porta}} -j {{regola}}`
 
 - Cancella regola da una catena
 
-`sudo iptables -D {{chain}} {{rule_line_number}}`
+`sudo iptables -D {{catena}} {{numero di linea della regola}}`
 
 - Salva la configurazione di ip tables di una specifica tabella in un file
 
-`sudo iptables-save -t {{tablename}} > {{path/to/iptables_file}}`
+`sudo iptables-save -t {{nome tabella}} > {{percorso/al/file_iptables}}`
 
 - Ripristina la configurazione di iptables da un file
 
-`sudo iptables-restore < {{path/to/iptables_file}}`
+`sudo iptables-restore < {{percorso/al/file_iptables}}`
