@@ -19,6 +19,6 @@
 
 `autopkgtest -- chroot {{path/to/new/root}}`
 
-- Test the package without rebuilding it:
+- Test the package in the current directory without rebuilding it:
 
 `autopkgtest --no-built-binaries -- null`
