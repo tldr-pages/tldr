@@ -13,7 +13,7 @@
 
 - Set a system locale variable:
 
-`set-locale {{LANG}}={{en_US.UTF-8}}`
+`localectl set-locale {{LANG}}={{en_US.UTF-8}}`
 
 - Set the system keyboard mapping for the console and X11:
 
