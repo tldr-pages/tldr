@@ -5,32 +5,32 @@
 
 - Tüm paketleri senkronize et ve güncelle:
 
-`pacman -Syu`
+`sudo pacman --sync --refresh --sysupgrade`
 
 - Yeni bir paket indir:
 
-`pacman -S {{paket_ismi}}`
+`sudo pacman --sync {{paket_ismi}}`
 
 - Bir paket ve bağlılıklarını sil:
 
-`pacman -Rs {{paket_ismi}}`
+`sudo pacman --remove --recursive {{paket_ismi}}`
 
 - Paket veritabanını girilen ifade ile arat:
 
-`pacman -Ss "{{arama_şablonu}}"`
+`pacman --sync --search "{{arama_şablonu}}"`
 
 - İndirilmiş paket ve sürümleri sırala:
 
-`pacman -Q`
+`pacman --query`
 
 - Sadece özellikle belirtilen paket ve sürümleri sırala:
 
-`pacman -Qe`
+`pacman --query --explicit`
 
 - Hangi paketin belirtilen dosyaya sahip olduğunu bul:
 
-`pacman -Qo {{dosya_ismi}}`
+`pacman --query --owns {{dosya_ismi}}`
 
 - Paket çerezlerini boş alan açmak için temizle:
 
-`pacman -Scc`
+`sudo pacman --sync --clean --clean`
