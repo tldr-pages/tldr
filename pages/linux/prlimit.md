@@ -8,7 +8,7 @@
 
 `prlimit`
 
-- Display limit values for all current resources of a given process:
+- Display limit values for all current resources of a specified process:
 
 `prlimit --pid {{pid number}}`
 
