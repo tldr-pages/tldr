@@ -17,7 +17,7 @@
 
 - Test the package inside the given chroot:
 
-`autopkgtest -- chroot {{/path/to/chroot}}`
+`autopkgtest -- chroot {{path/to/chroot}}`
 
 - Test the package without rebuilding it:
 
