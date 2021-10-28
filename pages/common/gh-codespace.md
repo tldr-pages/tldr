@@ -19,7 +19,7 @@
 
 `gh codespace cp {{path/to/source_file}} remote:{{path/to/remote_file}}`
 
-- List ports of a codespace interactively:
+- List the ports of a codespace interactively:
 
 `gh codespace ports`
 
