@@ -11,6 +11,6 @@
 
 `pwd -P`
 
-- Print the current logic directory
+- Print the current logic directory:
 
 `pwd -L`
