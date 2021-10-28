@@ -3,7 +3,7 @@
 > Dosyaları ve dizinleri karşılaştırın.
 > Daha fazla bilgi: <https://man7.org/linux/man-pages/man1/diff.1.html>.
 
-- Dosyaları karşılaştır (`eski_dosya`yı `yeni_dosya`ya dönüştürmek için yapılan değişiklikleri listeler):
+- Dosyaları karşılaştır (`eski_dosya`'yı `yeni_dosya`'ya dönüştürmek için yapılan değişiklikleri listeler):
 
 `diff {{eski_dosya}} {{yeni_dosya}}`
 
