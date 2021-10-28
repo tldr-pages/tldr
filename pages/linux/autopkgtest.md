@@ -11,7 +11,7 @@
 
 `autopkgtest --test-name={{testname}} -- null`
 
-- Download the given package, build it, and run all tests:
+- Download and build a specific package, then run all tests:
 
 `autopkgtest {{package}} -- null`
 
