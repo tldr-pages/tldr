@@ -15,7 +15,7 @@
 
 `plantuml {{pfad/zu/verzeichnis}}`
 
-- Rendere ein Diagramm in ein bistimmtes Ausgabeverzeichnis:
+- Rendere ein Diagramm in ein bestimmtes Ausgabeverzeichnis:
 
 `plantuml -o {{pfad/zu/verzeichnis}} {{pfad/zu/diagramm.puml}}`
 

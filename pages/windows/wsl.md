@@ -27,7 +27,7 @@
 
 `wsl --import {{distribution}} {{path/to/install_location}} {{path/to/distro_fs.tar}}`
 
-- Change the version of the specified distribution:
+- Change the version of wsl used for the specified distribution:
 
 `wsl --set-version {{distribution}} {{version}}`
 
