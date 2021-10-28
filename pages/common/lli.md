@@ -13,8 +13,8 @@
 
 - Enable all optimizations:
 
-`lli -O3 {{path/to/input.ll}}`
+`lli -O3 {{path/to/file.ll}}`
 
 - Load a dynamic library before linking:
 
-`lli --dlopen={{path/to/library.dll}} {{path/to/input.ll}}`
+`lli --dlopen={{path/to/library.dll}} {{path/to/file.ll}}`
