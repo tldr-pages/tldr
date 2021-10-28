@@ -17,7 +17,7 @@
 
 - Test the package in the current directory using a new root directory:
 
-`autopkgtest -- chroot {{path/to/chroot}}`
+`autopkgtest -- chroot {{path/to/new/root}}`
 
 - Test the package without rebuilding it:
 
