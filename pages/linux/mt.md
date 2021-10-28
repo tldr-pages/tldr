@@ -1,6 +1,6 @@
 # mt
 
-> Control magnetic tape drive operation (commonly LTO tape).<br>
+> Control magnetic tape drive operation (commonly LTO tape).
 > More information: <https://linux.die.net/man/1/mt>.
 
 - Check tape status:
