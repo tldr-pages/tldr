@@ -5,15 +5,15 @@
 
 - Starte eine Linux-Shell (in der Standard-Distribution):
 
-`wsl {{shell_command}}`
+`wsl {{shell_kommando}}`
 
 - Führe ein Linux-Kommando aus ohne eine Shell zu benutzen:
 
-`wsl --exec {{command}} {{command_arguments}}`
+`wsl --exec {{kommando}} {{kommando_argumente}}`
 
 - Gib eine bestimmte Distribution an:
 
-`wsl --distribution {{distribution}} {{shell_command}}`
+`wsl --distribution {{distribution}} {{shell_kommando}}`
 
 - Liste verfügbare Distributionen auf:
 
@@ -21,11 +21,11 @@
 
 - Exportiere eine Distribution in eine `.tar` Datei:
 
-`wsl --export {{distribution}} {{path/to/distro_fs.tar}}`
+`wsl --export {{distribution}} {{pfad/für/tar_datei.tar}}`
 
 - Importiere eine Distribution von einer `.tar` Datei:
 
-`wsl --import {{distribution}} {{path/to/install_location}} {{path/to/distro_fs.tar}}`
+`wsl --import {{distribution}} {{pfad/zum/installations_ordner}} {{pfad/zur/tar_datei.tar}}`
 
 - Ändere die WSL-Version einer bestimmten Distribution:
 
