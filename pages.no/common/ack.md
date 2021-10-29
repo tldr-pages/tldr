@@ -4,7 +4,7 @@
 > Se også: `rg`, som er mye raskere.
 > Mer informasjon: <https://beyondgrep.com/documentation>.
 
-- Søk etter filer som inneholder en streng eller regulært uttrykk i gjeldende katalog rekursivt: 
+- Søk etter filer som inneholder en streng eller regulært uttrykk i gjeldende katalog rekursivt:
 
 `ack "{{søkemønster}}"`
 
@@ -24,7 +24,7 @@
 
 `ack --type=no{{ruby}} "{{søkemønster}}"`
 
-- Tell totalt antall treff funnet: 
+- Tell totalt antall treff funnet:
 
 `ack --count --no-filename "{{søkemønster}}"`
 
