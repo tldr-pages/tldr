@@ -23,7 +23,7 @@
 
 `sudo iptables -D {{catena}} {{numero_di_linea_della_regola}}`
 
-- Salva la configurazione di ip tables di una specifica tabella in un file
+- Salva la configurazione di ip tables di una specifica tabella in un file:
 
 `sudo iptables-save -t {{nome tabella}} > {{percorso/al/file_iptables}}`
 
