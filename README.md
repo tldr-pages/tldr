@@ -1,5 +1,5 @@
 <div align="center">
-<h1><img alt="tldr-pages" src="images/banner.png" width=600/></h1>
+  <h1><a href="https://tldr.sh/"><img alt="tldr-pages" src="images/banner.png" width=600/></a></h1>
 
 [![Build status][github-actions-image]][github-actions-url]
 [![Gitter chat][gitter-image]][gitter-url]
