@@ -21,7 +21,7 @@
 
 - Join two files on a specified common column:
 
-`textql -header -sql "select * from file1 join file2 on file1.c1 = file2.c1 limit 10" -output-header file1.csv file2.csv`
+`textql -header -sql "SELECT * FROM {{file1}} JOIN {{file2}} on {{file1}}.{{c1}} = {{file2}}.{{c1}} LIMIT {{10}}" -output-header {{path/to/file1.csv}} {{path/to/file2.csv}}`
 
 - Format output using an output delimiter with an output header line:
 
