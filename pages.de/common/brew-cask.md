@@ -1,8 +1,8 @@
 # brew cask
 
-> Paketmanager für macOS-Anwendungen, die als Binärdateien verteilt werden. 
+> Paketmanager für macOS-Anwendungen, die als Binärdateien verteilt werden.
 > Weitere Informationen: <https://github.com/Homebrew/homebrew-cask>.
- 
+
 - Suche nach Formeln und Casks:
 
 `brew search {{Text}}`
@@ -19,7 +19,7 @@
 
 `brew outdated --cask`
 
--Aktualisiere ein installiertes Cask (wenn kein Cask-Name angegeben wird, werden alle installierten Casks aktualisiert):
+- Aktualisiere ein installiertes Cask (wenn kein Cask-Name angegeben wird, werden alle installierten Casks aktualisiert):
 
 `brew upgrade --cask {{Cask-Name}}`
 
