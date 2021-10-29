@@ -3,10 +3,10 @@
 > Der Webbrowser von Google.
 > Mehr Informationen: <https://chrome.google.com>.
 
-- Ausführung mit einem benutzerdefinierten Profilverzeichnis:
+- Starte mit einem benutzerdefinierten Profilverzeichnis:
 
-`google-chrome --user-data-dir={{path/to/directory}}`
+`google-chrome --user-data-dir={{pfad/zu/ordner}}`
 
-- Ausführung ohne CORS-Validierung, nützlich zum Testen einer API:
+- Starte ohne CORS-Validierung, nützlich zum Testen einer API:
 
-`google-chrome --user-data-dir={{path/to/directory}} --disable-web-security`
+`google-chrome --user-data-dir={{pfad/zu/ordner}} --disable-web-security`
