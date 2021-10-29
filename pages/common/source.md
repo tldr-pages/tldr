@@ -7,6 +7,6 @@
 
 `source {{path/to/file}}`
 
-- Evaluate contents of a given file( alternatively replacing `source` with `.`):
+- Evaluate contents of a given file (alternatively replacing `source` with `.`):
 
 `. {{path/to/file}}`
