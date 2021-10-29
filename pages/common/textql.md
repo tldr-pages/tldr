@@ -9,7 +9,7 @@
 
 - Query `.tsv` file:
 
-`textql -dlm=tab -sql "select * from filename" {{path/to/filename.tsv}}`
+`textql -dlm=tab -sql "{{SELECT * FROM filename}}" {{path/to/filename.tsv}}`
 
 - Query file with header row:
 
