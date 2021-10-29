@@ -11,11 +11,11 @@
 
 `zip -r {{compressed.zip}} {{path/to/directory}} -x {{path/to/exclude}}`
 
-- 使用最高压缩级别 9 归档目录及其内容：
+- 使用最高压缩级别 9 压缩目录和内容：
 
 `zip -r -{{9}} {{compressed.zip}} {{path/to/directory}}`
 
-- 创建一个加密档案（用户将被提示输入密码）：
+- 创建一个加密压缩档案（将会提示输入密码）：
 
 `zip -e -r {{compressed.zip}} {{path/to/directory}}`
 
@@ -27,10 +27,10 @@
 
 `zip -d {{compressed.zip}} "{{foo/*.tmp}}"`
 
-- 将目录及其内容存档到多个拆分的 zip 文件（例如：每个 3 GB 的包）：
+- 将指定目录及其内容打包并拆分为多个 zip 文件（例如：若干个 3GB 的 zip 包）：
 
 `zip -r -s {{3g}} {{compressed.zip}} {{path/to/directory}}`
 
-- 列出指定存档中的文件（不提取文件）：
+- 列出指定压缩档案中的文件（不提取文件）：
 
 `zip -sf {{compressed.zip}}`
