@@ -19,7 +19,7 @@
 
 `cat {{path/to/file}} | textql -sql "{{select * from stdin}}"`
 
-- Join two files `file1.csv` and `file2.csv` on column `c1`, a common column:
+- Join two files on a specified common column:
 
 `textql -header -sql "select * from file1 join file2 on file1.c1 = file2.c1 limit 10" -output-header file1.csv file2.csv`
 
