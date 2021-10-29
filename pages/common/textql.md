@@ -25,4 +25,4 @@
 
 - Format output using an output delimiter with an output header line:
 
-`textql -output-dlm={{delimiter}} -output-header -sql "SELECT {{column}} as {{alias}} from filename" {{path/to/filename.csv}}`
+`textql -output-dlm={{delimiter}} -output-header -sql "SELECT {{column}} AS {{alias}} FROM {{filename}}" {{path/to/filename.csv}}`
