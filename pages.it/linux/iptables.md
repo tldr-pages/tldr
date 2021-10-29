@@ -19,7 +19,7 @@
 
 `sudo iptables -A {{catena}} -s {{ip}} -p {{protocollo}} --dport {{porta}} -j {{regola}}`
 
-- Cancella regola da una catena
+- Cancella regola da una catena:
 
 `sudo iptables -D {{catena}} {{numero_di_linea_della_regola}}`
 
