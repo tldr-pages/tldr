@@ -3,7 +3,7 @@
 > Setze die Kommandozeilen Vordergrund- und Hintergrundfarben.
 > Weiterre Informationen: <https://docs.microsoft.com/windows-server/administration/windows-commands/color>.
 
-- Setze Kommandozeilenfarben auf die Standardwerte:
+- Setze die Kommandozeilenfarben auf die Standardwerte:
 
 `color`
 
@@ -11,6 +11,6 @@
 
 `color /?`
 
-- Setze die Kommandozeilen Vordergrund- und Hintergrundfarbe auf eine spezifische Farbe:
+- Setze die Vordergrund- und Hintergrundfarbe der Kommandozeilen auf eine spezifische Farbe:
 
 `color {{vordergrundfarbe_code}}{{hintergrundfarbe_code}}`
