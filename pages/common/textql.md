@@ -5,7 +5,7 @@
 
 - Print the lines in the specified `.csv` file that match a SQL query to stdout:
 
-`textql -sql "select * from filename" {{path/to/filename.csv}}`
+`textql -sql "{{SELECT * FROM filename}}" {{path/to/filename.csv}}`
 
 - Query `.tsv` file:
 
