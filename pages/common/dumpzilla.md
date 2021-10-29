@@ -5,7 +5,7 @@
 
 - Gather summary data from browser profile:
 
-`dumpzilla {{path/to/browser_profile}} --summary`
+`dumpzilla {{path/to/browser_profile}} --Summary`
 
 - Extract everything except the DOM data:
 
