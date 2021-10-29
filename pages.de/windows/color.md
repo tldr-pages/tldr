@@ -11,6 +11,6 @@
 
 `color /?`
 
--Setze die Kommandozeilen Vordergrund- und Hintergrundfarbe auf eine spezifische Farbe:
+- Setze die Kommandozeilen Vordergrund- und Hintergrundfarbe auf eine spezifische Farbe:
 
 `color {{vordergrundfarbe_code}}{{hintergrundfarbe_code}}`
