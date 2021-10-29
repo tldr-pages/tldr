@@ -3,22 +3,22 @@
 > A small command-line application to view images from the terminal.
 > More information: <https://github.com/atanunq/viu>.
 
-- Render image or GIF:
+- Render an image or GIF:
 
-`viu {{filename}}`
+`viu {{path/to/file}}`
 
-- Render image or GIF from the internet with help of `curl`:
+- Render an image or GIF from the internet using `curl`:
 
 `curl -s {{https://example.com/image.png}} | viu -`
 
-- Render transparent image with transparent background:
+- Render a transparent image with a transparent background:
 
-`viu -t {{filename}}`
+`viu -t {{path/to/file}}`
 
-- Render image with specific width and height:
+- Render an image with a specific width and height in pixels:
 
-`viu -w {{width}} -h {{height}} {{filename}}`
+`viu -w {{width}} -h {{height}} {{path/to/file}}`
 
-- Render PNG and GIF files alongside their names:
+- Render PNG or GIF files with their original names:
 
 `viu -n {{*.{png,gif}}}`
