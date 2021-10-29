@@ -21,7 +21,7 @@
 
 - Cancella regola da una catena
 
-`sudo iptables -D {{catena}} {{numero di linea della regola}}`
+`sudo iptables -D {{catena}} {{numero_di_linea_della_regola}}`
 
 - Salva la configurazione di ip tables di una specifica tabella in un file
 
