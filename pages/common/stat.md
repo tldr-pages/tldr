@@ -1,6 +1,7 @@
 # stat
 
 > Display file and filesystem information.
+> More information: <https://man.archlinux.org/man/stat.1>.
 
 - Show file properties such as size, permissions, creation and access dates among others:
 
