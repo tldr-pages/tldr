@@ -3,14 +3,6 @@
 > Switch between multiple versions of Perl.
 > More information: <https://github.com/tokuhirom/plenv>.
 
-- Display help:
-
-`plenv`
-
-- Display help for a command:
-
-`plenv help {{command}}`
-
 - Show the currently selected Perl version and how it was selected:
 
 `plenv version`
@@ -30,3 +22,11 @@
 - Set the shell-specific Perl version (used for the current session only):
 
 `plenv shell {{version}}`
+
+- Display help:
+
+`plenv`
+
+- Display help for a command:
+
+`plenv help {{command}}`
