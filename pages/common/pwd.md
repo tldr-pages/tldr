@@ -11,6 +11,6 @@
 
 `pwd --physical`
 
-- Print the current logic directory:
+- Print the current logical directory:
 
 `pwd --logical`
