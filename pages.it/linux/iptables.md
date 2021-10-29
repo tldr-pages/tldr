@@ -27,6 +27,6 @@
 
 `sudo iptables-save -t {{nome tabella}} > {{percorso/al/file_iptables}}`
 
-- Ripristina la configurazione di iptables da un file
+- Ripristina la configurazione di iptables da un file:
 
 `sudo iptables-restore < {{percorso/al/file_iptables}}`
