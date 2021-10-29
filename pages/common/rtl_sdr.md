@@ -1,6 +1,7 @@
 # rtl_sdr
 
-> I/Q recorder for RTL-SDR receivers.
+> Raw data recorder for RTL-SDR receivers.
+> Data is encoded using I/Q sampling (aka quadrature sampling).
 > More information: <https://osmocom.org/projects/rtl-sdr/wiki/Rtl-sdr>.
 
 - Save RAW data from a frequency (specified in Hz) to a file:
