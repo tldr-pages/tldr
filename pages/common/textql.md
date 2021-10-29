@@ -13,7 +13,7 @@
 
 - Query file with header row:
 
-`textql -dlm={{delimiter}} -header -sql "SELECT * from filename" {{path/to/filename.csv}}`
+`textql -dlm={{delimiter}} -header -sql "{{SELECT * FROM filename}}" {{path/to/filename.csv}}`
 
 - Read data from stdin:
 
