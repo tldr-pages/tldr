@@ -1,6 +1,6 @@
 # git symbolic-ref
 
-> Read, change or delete files that store references.
+> Read, change, or delete files that store references.
 > More information: <https://git-scm.com/docs/git-symbolic-ref>.
 
 - Store a reference by a name:
