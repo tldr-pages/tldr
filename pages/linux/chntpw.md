@@ -1,7 +1,7 @@
 # chntpw
 
 > A utility that can edit windows registry, reset user password, promote users to administrator by modifying the Windows SAM.
-> Boot target machine with live cd like Kali Linux and run with elevated privileges. 
+> Boot target machine with live cd like Kali Linux and run with elevated privileges.
 > More information: <http://pogostick.net/~pnh/ntpasswd>.
 
 - List all users in the SAM file:
