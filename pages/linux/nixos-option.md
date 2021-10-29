@@ -11,9 +11,9 @@
 
 `nixos-option boot.kernelModules`
 
-- List authorized keys for a given user:
+- List authorized keys for a specific user:
 
-`nixos-option users.users.{{user}}.openssh.authorizedKeys.{{keyFiles|keys}}`
+`nixos-option users.users.{{username}}.openssh.authorizedKeys.{{keyFiles|keys}}`
 
 - List all remote builders:
 
