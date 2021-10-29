@@ -2,7 +2,7 @@
 
 > Un visualizzatore di documenti ispirato a vim, con una linea di comando integrata.
 > Assicurati che sia installata un backend (poppler, PostScript, o DjVu).
-> Ulteriori informazioni: <https://pwmt.org/projects/zathura/>.
+> Maggiori informazioni: <https://pwmt.org/projects/zathura/>.
 
 - Aprire un file:
 
