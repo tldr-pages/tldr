@@ -3,7 +3,7 @@
 > Inspect a NixOS configuration.
 > More information: <https://nixos.org/manual/nixos/stable/index.html#sec-modularity>.
 
-- List all keys of an option key:
+- List all subkeys of a given option key:
 
 `nixos-option {{option_key}}`
 
@@ -19,7 +19,7 @@
 
 `nixos-option nix.buildMachines`
 
-- List key on another NixOS configuration:
+- List all subkeys of a given key on another NixOS configuration:
 
 `NIXOS_CONFIG={{path_to_configuration.nix}} nixos-option {{option_key}}`
 
