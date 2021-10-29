@@ -7,7 +7,7 @@
 
 `sudo iptables -vnL`
 
-- Imposta regola ad una catena
+- Imposta regola ad una catena:
 
 `sudo iptables -P {{catena}} {{regola}}`
 
