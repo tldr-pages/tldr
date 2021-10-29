@@ -1,6 +1,7 @@
 # transcode
 
 > Transcode video and audio codecs, and convert between media formats.
+> More information: <https://manned.org/transcode>.
 
 - Create stabilisation file to be able to remove camera shakes:
 
