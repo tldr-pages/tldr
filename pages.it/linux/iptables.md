@@ -15,7 +15,7 @@
 
 `sudo iptables -A {{catena}} -s {{ip}} -j {{regola}}`
 
-- Appendi regola ad una catena di policy per IP considerando protocollo e porta
+- Appendi regola ad una catena di policy per IP considerando protocollo e porta:
 
 `sudo iptables -A {{catena}} -s {{ip}} -p {{protocollo}} --dport {{porta}} -j {{regola}}`
 
