@@ -13,4 +13,4 @@
 
 - Print the current logic directory:
 
-`pwd -L`
+`pwd --logical`
