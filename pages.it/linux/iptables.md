@@ -11,7 +11,7 @@
 
 `sudo iptables -P {{catena}} {{regola}}`
 
-- Appendi regola ad una catena di policy per IP
+- Appendi regola ad una catena di policy per IP:
 
 `sudo iptables -A {{catena}} -s {{ip}} -j {{regola}}`
 
