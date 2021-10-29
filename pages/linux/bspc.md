@@ -1,4 +1,4 @@
-# bspwm
+# bspc
 
 > A tool to control `bspwm`.
 > More information: <https://github.com/baskerville/bspwm>.
