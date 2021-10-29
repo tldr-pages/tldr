@@ -1,6 +1,6 @@
 # reset
 
-> Reinicializa la terminal actual.  Despeja toda la pantalla de la terminal.
+> Reinicializa la terminal actual. Borra toda la pantalla de la terminal.
 
 - Reinicializa la terminal actual:
 
