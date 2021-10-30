@@ -3,7 +3,7 @@
 > Ferramenta CLI para exibir informações sobre seu sistema operacional, software e hardware.
 > Mais informações: <https://github.com/dylanaraps/neofetch>.
 
-- Volte à configuração padrão, ou crie-a se for a primeira vez que o programa for executado:
+- Volta à configuração padrão, ou crie-a se for a primeira vez que o programa for executado:
 
 `neofetch`
 
