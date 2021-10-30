@@ -4,7 +4,7 @@
 > Veja também `emacsclient`.
 > Mais informações: <https://www.gnu.org/software/emacs>.
 
-- Iniciar o Emacs e abra um arquivo:
+- Inicia o Emacs e abra um arquivo:
 
 `emacs {{caminho/para/arquivo}}`
 
