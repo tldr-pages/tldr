@@ -15,7 +15,7 @@
 
 `keyctl add {{type_keyring}} {{key_name}} {{key_value}} {{target_keyring}}`
 
-- Store a key with its value on the standard input:
+- Store a key with its value from standard input:
 
 `echo -n {{key_value}} | keyctl padd {{type_keyring}} {{key_name}} {{target_keyring}}`
 
@@ -23,11 +23,11 @@
 
 `keyctl timeout {{key_name}} {{timeout_in_seconds}}`
 
-- Read a key and formats it as a hex-dump if not printable:
+- Read a key and format it as a hex-dump if not printable:
 
 `keyctl read {{key_name}}`
 
-- Read a key and formats as-is:
+- Read a key and format as-is:
 
 `keyctl pipe {{key_name}}`
 
