@@ -3,26 +3,26 @@
 > Gibt das Ende einer Datei aus.
 > Weitere Informationen: <https://www.gnu.org/software/coreutils/tail>.
 
-- Zeige die letzten 'num' Zeilen der Datei 'file' an:
+- Zeige die letzten 'anzahl' Zeilen der Datei 'datei' an:
 
-`tail -n {{num}} {{file}}`
+`tail -n {{anzahl}} {{datei}}`
 
-- Zeige alle Zeilen der Datei 'file' ab Zeile 'num' an:
+- Zeige alle Zeilen der Datei 'datei' ab Zeile 'anzahl' an:
 
-`tail -n +{{num}} {{file}}`
+`tail -n +{{anzahl}} {{datei}}`
 
-- Zeige die letzten 'num' Bytes der Datei 'file' an:
+- Zeige die letzten 'anzahl' Bytes der Datei 'datei' an:
 
-`tail -c {{num}} {{file}}`
+`tail -c {{anzahl}} {{datei}}`
 
-- Lese aus der Datei 'file', bis `Ctrl + C` gedrückt wird:
+- Lese aus der Datei 'datei', bis `Ctrl + C` gedrückt wird:
 
-`tail -f {{file}}`
+`tail -f {{datei}}`
 
-- Lese aus der Datei 'file', bis `Ctrl + C` gedrückt wird, selbst, wenn 'file' nicht zugänglich ist:
+- Lese aus der Datei 'datei', bis `Ctrl + C` gedrückt wird, selbst, wenn 'datei' nicht zugänglich ist:
 
-`tail -F {{file}}`
+`tail -F {{datei}}`
 
-- Zeige die letzten 'num' Zeilen der Datei 'file' an und lade alle 'n' Sekunden neu:
+- Zeige die letzten 'anzahl' Zeilen der Datei 'datei' an und lade alle 'n' Sekunden neu:
 
-`tail -n {{num}} -s {{n}} -f {{file}}`
+`tail -n {{anzahl}} -s {{n}} -f {{datei}}`
