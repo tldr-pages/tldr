@@ -21,7 +21,7 @@
 
 - Use snapshot mode (no downtime) and non-default dump directory:
 
-`vzdump {{vm_id}} --dumpdir {{/mnt/backup}} --mode snapshot`
+`vzdump {{vm_id}} --dumpdir {{path/to/directory}} --mode snapshot`
 
 - Backup all guests excluding 101 and 102:
 
