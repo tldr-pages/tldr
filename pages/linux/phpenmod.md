@@ -1,6 +1,7 @@
 # phpenmod
 
 > Enable PHP extensions on Debian-based OSes.
+> More information: https://linuxcommandlibrary.com/man/phpenmod
 
 - Enable the JSON extension for every SAPI of every PHP version:
 
