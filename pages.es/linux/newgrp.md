@@ -6,6 +6,6 @@
 
 `newgrp {{nombre_grupo}}`
 
-- Restablece el grupo primario de pertenencia al grupo del usuario predefinido en `/etc/passwd`:
+- Restablece el grupo primario de pertenencia al grupo por defecto del usuario `/etc/passwd`:
 
 `newgrp`
