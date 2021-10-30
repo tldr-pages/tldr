@@ -11,7 +11,7 @@
 
 `lxc profile show {{profile_name}}`
 
-- Edit profile with editor:
+- Edit a specific profile in the default editor:
 
 `lxc profile edit {{profile_name}}`
 
