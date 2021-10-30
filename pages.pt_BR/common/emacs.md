@@ -16,7 +16,7 @@
 
 `emacs --no-window-system`
 
-- Iniciar um servidor Emacs em segundo plano (acessível através do `emacsclient`):
+- Inicia um servidor Emacs em segundo plano (acessível através do `emacsclient`):
 
 `emacs --daemon`
 
