@@ -7,6 +7,6 @@
 
 `powerprofilesctl list`
 
-- Set a particular power profile:
+- Set a specific power profile:
 
 `powerprofilesctl set {{profile_name}}`
