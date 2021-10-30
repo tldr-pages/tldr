@@ -15,7 +15,7 @@
 
 `lxc profile edit {{profile_name}}`
 
-- Edit profile by importing a file:
+- Edit a specific profile importing the configuration values from a file:
 
 `lxc profile edit {{profile_name}} < {{config.yaml}}`
 
