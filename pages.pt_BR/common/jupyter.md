@@ -28,6 +28,6 @@
 
 `jupyter notebook stop`
 
-- Inicie o JupyterLab, se instalado, no diretório atual:
+- Inicia o JupyterLab, se instalado, no diretório atual:
 
 `jupyter lab`
