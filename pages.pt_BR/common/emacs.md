@@ -8,7 +8,7 @@
 
 `emacs {{caminho/para/arquivo}}`
 
-- Abrir um arquivo em uma linha especificada:
+- Abre um arquivo em uma linha especificada:
 
 `emacs +{{numero_linha}} {{caminho/para/arquivo}}`
 
