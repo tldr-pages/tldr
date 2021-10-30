@@ -1,7 +1,7 @@
 # ipcalc
 
 > Einfache Operationen und Berechnungen mit IP-Adressen und Netzwerken durchführen.
-> Mehr Informationen: <https://manned.org/ipcalc>.
+> Weitere Informationen: <https://manned.org/ipcalc>.
 
 - Informationen über eine Adresse oder ein Netzwerk mit einer bestimmten Subnetzmaske anzeigen:
 
