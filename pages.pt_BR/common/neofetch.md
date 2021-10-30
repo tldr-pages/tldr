@@ -15,6 +15,6 @@
 
 `neofetch --os_arch {{on|off}}`
 
-- Habilitar/desabilitar a marca da CPU na saída:
+- Habilita/Desabilita a marca da CPU na saída:
 
 `neofetch --cpu_brand {{on|off}}`
