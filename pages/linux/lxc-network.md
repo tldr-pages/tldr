@@ -7,7 +7,7 @@
 
 `lxc network list`
 
-- Show configuration of an existing network:
+- Show configuration of a specific network:
 
 `lxc network show {{network_name}}`
 
