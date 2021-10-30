@@ -3,7 +3,7 @@
 > Système de construction logicielle multiplateforme, qui permet de générer des recettes de construction pour les systèmes de construction natifs.
 > Plus d'informations : <https://cmake.org/cmake/help/latest/manual/cmake.1.html>.
 
-- Générer une recette de construction `CMakeLists.txt` depuis le répertoire d'un projet :
+- Génère une recette de construction `CMakeLists.txt` depuis le répertoire d'un projet :
 
 `cmake {{chemin/vers/le/répertoire_du_projet}}`
 
