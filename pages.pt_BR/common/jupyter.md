@@ -8,7 +8,7 @@
 
 `jupyter notebook`
 
-- Abrir um caderno Jupyter específico:
+- Abre um caderno Jupyter específico:
 
 `jupyter notebook {{exemplo.ipynb}}`
 
