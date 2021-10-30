@@ -3,18 +3,18 @@
 > Gibt den ersten Teil einer Datei aus.
 > Weitere Informationen: <https://www.gnu.org/software/coreutils/head>.
 
-- Gebe die ersten 'anzahl' Zeilen der Datei 'datei' aus:
+- Gebe die ersten Zeilen einer Datei aus:
 
-`head -n {{anzahl}} {{datei}}`
+`head -n {{anzahl_zeilen}} {{datei}}`
 
-- Gebe die ersten 'anzahl' Bytes der Datei 'datei' aus:
+- Gebe die ersten Bytes einer Datei aus:
 
-`head -c {{anzahl}} {{datei}}`
+`head -c {{anzahl_bytes}} {{datei}}`
 
-- Gebe alle bis auf die letzten 'anzahl' Zeilen der Datei 'datei' aus:
+- Gebe alle bis auf die letzten Zeilen einer Datei aus:
 
-`head -n -{{anzahl}} {{datei}}`
+`head -n -{{anzahl_zeilen}} {{datei}}`
 
-- Gebe alle bis auf die letzten 'anzahl' Bytes der Datei 'datei' aus:
+- Gebe alle bis auf die letzten Bytes einer Datei aus:
 
-`head -c -{{anzahl}} {{datei}}`
+`head -c -{{anzahl_bytes}} {{datei}}`
