@@ -1,0 +1,20 @@
+# neofetch
+
+> Ferramenta CLI para exibir informações sobre seu sistema operacional, software e hardware.
+> Mais informações: <https://github.com/dylanaraps/neofetch>.
+
+- Volte à configuração padrão, ou crie-a se for a primeira vez que o programa for executado:
+
+`neofetch`
+
+- Habilite/Desabilite uma linha de informação da saída, onde 'infoname' é o nome da função no arquivo de configuração, por exemplo, 'memory':
+
+`neofetch --{{enable|disable}} {{infoname}}`
+
+- Ocultar/Mostrar arquitetura do SO:
+
+`neofetch --os_arch {{on|off}}`
+
+- Habilitar/desabilitar a marca da CPU na saída:
+
+`neofetch --cpu_brand {{on|off}}`
