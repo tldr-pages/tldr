@@ -28,6 +28,6 @@
 
 `Ctrl + X, Ctrl + S`
 
-- Deixar o Emacs:
+- Deixa o Emacs:
 
 `Ctrl + X, Ctrl + C`
