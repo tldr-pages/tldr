@@ -7,7 +7,7 @@
 
 `lxc profile list`
 
-- Show configuration of a profile:
+- Show configuration of a specific profile:
 
 `lxc profile show {{profile_name}}`
 
