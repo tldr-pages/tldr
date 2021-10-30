@@ -19,7 +19,7 @@
 
 `lxc network create {{network_name}}`
 
-- Set bridge interface of a network:
+- Set a bridge interface of a specific network:
 
 `lxc network set {{network_name}} bridge.external_interfaces {{eth0}}`
 
