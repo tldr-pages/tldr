@@ -1,23 +1,28 @@
 # mv
 
-> Verschieben oder Umbenennen von Dateien oder Ordnern.
+> Verschiebe Dateien oder Verzeichnisse oder benenne diese um.
+> Weitere Informationen: <https://www.gnu.org/software/coreutils/mv>.
 
-- Verschieben von Dateien an einen beliebigen Ort:
+- Verschiebe eine Datei an einen beliebigen Ort:
 
-`mv {{quelle}} {{ziel}}`
+`mv {{pfad/zu/datei}} {{pfad/zu/zieldatei}}`
+
+- Verschiebe mehrere Dateien in ein anderes Verzeichnis und behalte deren Namen bei:
+
+`mv {{datei1}} {{datei2}} {{datei3}} {{pfad/zu/ziel_verzeichnis}}`
 
 - Überschreibe bereits existierende Dateien ohne vorherige Bestätigung:
 
-`mv -f {{quelle}} {{ziel}}`
+`mv -f {{pfad/zu/datei}} {{pfad/zu/zieldatei}}`
 
 - Überschreibe bereits existierende Dateien nach Bestätigung (unabhängig von Dateirechten):
 
-`mv -i {{quelle}} {{ziel}}`
+`mv -i {{pfad/zu/datei}} {{pfad/zu/zieldatei}}`
 
-- Verhindert das Überschreiben existierender Dateien am Zielort:
+- Verhindere das Überschreiben existierender Dateien am Zielort:
 
-`mv -n {{quelle}} {{ziel}}`
+`mv -n {{pfad/zu/datei}} {{pfad/zu/zieldatei}}`
 
-- Verschieben von Dateien im ausführlichen Modus - inklusive Auflistung während des Kopierens:
+- Liste Dateien und deren Details auf während sie verschoben werden:
 
-`mv -v {{quelle}} {{ziel}}`
+`mv -v {{pfad/zu/datei}} {{pfad/zu/zieldatei}}`

@@ -2,6 +2,7 @@
 
 > Change DOS-style line endings to Unix-style.
 > Replaces CRLF with CR.
+> More information: <https://manned.org/dos2unix>.
 
 - Change the line endings of a file:
 

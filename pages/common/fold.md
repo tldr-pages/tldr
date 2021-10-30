@@ -1,6 +1,7 @@
 # fold
 
 > Wraps each line in an input file to fit a specified width and prints it to the standard output.
+> More information: <https://www.gnu.org/software/coreutils/fold>.
 
 - Wrap each line to default width (80 characters):
 

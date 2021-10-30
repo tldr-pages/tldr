@@ -11,7 +11,7 @@
 
 `ffmpeg -i {{video.mpg|video.gif}} {{frame_%d.png}}`
 
-- Combine numbered images (frame_1.jpg, frame_2.jpg, etc) into a video or GIF:
+- Combine numbered images (`frame_1.jpg`, `frame_2.jpg`, etc) into a video or GIF:
 
 `ffmpeg -i {{frame_%d.jpg}} -f image2 {{video.mpg|video.gif}}`
 

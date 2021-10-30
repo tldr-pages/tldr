@@ -1,7 +1,7 @@
-# Homeshick
+# homeshick
 
 > Synchronize Git dotfiles.
-> More information <https://github.com/andsens/homeshick/wiki>.
+> More information: <https://github.com/andsens/homeshick/wiki>.
 
 - Create a new castle:
 

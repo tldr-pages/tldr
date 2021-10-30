@@ -19,7 +19,7 @@
 
 `tsc --build {{tsconfig.json}}`
 
-- Run the compiler using command line options and arguments fetched from a text file:
+- Run the compiler using command-line options and arguments fetched from a text file:
 
 `tsc @{{args.txt}}`
 

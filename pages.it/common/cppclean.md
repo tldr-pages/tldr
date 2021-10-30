@@ -11,7 +11,7 @@
 
 `cppclean {{percorso/a/directory_progetto}} --include-path={{inc1}} --include-path={{inc2}}`
 
-- Esegui su di uno specifico file "main.cpp":
+- Esegui su di uno specifico file `main.cpp`:
 
 `cppclean {{main.cpp}}`
 

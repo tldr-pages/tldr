@@ -1,6 +1,7 @@
 # now
 
 > Cloud platform for serverless deployment.
+> This command is deprecated. See `vercel`, the updated version of this tool.
 > More information: <https://zeit.co/now>.
 
 - Deploy the current directory:

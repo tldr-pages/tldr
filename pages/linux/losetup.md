@@ -1,6 +1,7 @@
 # losetup
 
 > Set up and control loop devices.
+> More information: <https://manned.org/losetup>.
 
 - List loop devices with detailed info:
 

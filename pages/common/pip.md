@@ -1,15 +1,12 @@
 # pip
 
 > Python package manager.
+> Some subcommands such as `pip install` have their own usage documentation.
 > More information: <https://pip.pypa.io>.
 
-- Install a package:
+- Install a package (see `pip install` for more install examples):
 
 `pip install {{package_name}}`
-
-- Install a specific version of a package:
-
-`pip install {{package_name}}=={{package_version}}`
 
 - Upgrade a package:
 
@@ -22,10 +19,6 @@
 - Save installed packages to file:
 
 `pip freeze > {{requirements.txt}}`
-
-- Install packages from file:
-
-`pip install -r {{requirements.txt}}`
 
 - Show installed package info:
 

@@ -7,7 +7,7 @@
 
 `nc -l {{port}}`
 
-- Connect to a certain port (you can then write to this port):
+- Connect to a certain port:
 
 `nc {{ip_address}} {{port}}`
 
@@ -15,19 +15,11 @@
 
 `nc -w {{timeout_in_seconds}} {{ipaddress}} {{port}}`
 
-- Serve a file:
-
-`nc -l {{port}} < {{file}}`
-
-- Receive a file:
-
-`nc {{ip_address}} {{port}} > {{file}}`
-
-- Server stay up after client detach:
+- Keep the server up after the client detaches:
 
 `nc -k -l {{port}}`
 
-- Client stay up after EOF:
+- Keep the client up even after EOF:
 
 `nc -q {{timeout}} {{ip_address}}`
 

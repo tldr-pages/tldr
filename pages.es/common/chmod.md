@@ -1,8 +1,9 @@
 # chmod
 
 > Cambiar los permisos de acceso de un archivo o directorio.
+> Más información: <https://www.gnu.org/software/coreutils/chmod>.
 
-- Otorga al [u]suario que es propietario del archivo a ejecutarlo (x).
+- Otorga al [u]suario que es propietario del archivo permiso para [x] ejecutarlo:
 
 `chmod u+x {{archivo}}`
 

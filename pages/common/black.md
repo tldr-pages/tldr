@@ -9,16 +9,20 @@
 
 - Format the code passed in as a string:
 
-`black -c {{path/to/file_or_directory}}`
+`black -c "{{code}}"`
 
-- Output a diff for each file on stdout:
+- Output the changes that would be applied for each file:
 
 `black --diff {{path/to/file_or_directory}}`
 
-- Return the status without writing the files back:
+- Perform a dry run (print what would be done without actually doing it):
 
 `black --check {{path/to/file_or_directory}}`
 
 - Auto-format a file or directory emitting exclusively error messages to stderr:
 
 `black --quiet {{path/to/file_or_directory}}`
+
+- Auto-format a file or directory without replacing single quotes with double quotes (adoption helper, avoid using this for new projects):
+
+`black --skip-string-normalization {{path/to/file_or_directory}}`

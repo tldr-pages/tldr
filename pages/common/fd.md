@@ -18,8 +18,12 @@
 
 - Find files in a specific directory:
 
-`fd {{pattern}} {{path/to/dir}}`
+`fd {{pattern}} {{path/to/directory}}`
 
 - Include ignored and hidden files in the search:
 
 `fd --hidden --no-ignore {{pattern}}`
+
+- Execute a command on each search result returned:
+
+`fd {{pattern}} --exec {{command}}`

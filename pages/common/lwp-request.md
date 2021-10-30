@@ -10,7 +10,7 @@
 
 - Upload a file with a POST request:
 
-`cat {{/path/to/file}} | lwp-request -m POST {{http://example.com/some/path}}`
+`lwp-request -m POST {{http://example.com/some/path}} < {{path/to/file}}`
 
 - Make a request with a custom user agent:
 

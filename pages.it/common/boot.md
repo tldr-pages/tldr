@@ -7,7 +7,7 @@
 
 `boot repl`
 
-- Builda un singolo "uberjar":
+- Builda un singolo `uberjar`:
 
 `boot jar`
 

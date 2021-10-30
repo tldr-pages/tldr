@@ -1,33 +1,33 @@
 # cargo
 
-> Rust Paketmanager.
 > Verwalte Rust-Projekte und deren Abhängigkeiten (crates).
-> Mehr Informationen: <https://crates.io/>.
+> Manche Unterbefehle wie `cargo build` sind separat dokumentiert.
+> Weitere Informationen: <https://crates.io/>.
 
 - Suche nach Abhängigkeiten (crates):
 
-`cargo search {{suchwort}}`
+`cargo search {{suche}}`
 
 - Installiere eine Abhängigkeit (crate):
 
-`cargo install {{abhängigkeits_name}}`
+`cargo install {{abhängigkeit}}`
 
 - Liste alle installierten Abhängigkeiten (crates) auf:
 
 `cargo install --list`
 
-- Erzeuge eine neues Rust-Projekt als Anwendung oder Bibliothek im aktuellen Verzeichnis:
+- Erzeuge ein neues Rust-Projekt als Anwendung oder Bibliothek im aktuellen Verzeichnis:
 
 `cargo init --{{bin|lib}}`
 
-- Erzeuge eine neues Rust-Projekt als Anwendung oder Bibliothek im angegebenen Verzeichnis:
+- Erzeuge ein neues Rust-Projekt als Anwendung oder Bibliothek im angegebenen Verzeichnis:
 
-`cargo new {{pfad/zum/verzeichnis}} --{{bin|lib}}`
+`cargo new {{pfad/zu/verzeichnis}} --{{bin|lib}}`
 
-- Erstelle (bzw. kompiliere) das Rust-Projekt im aktuellen Verzeichnis:
+- Erstelle (bzw. kompiliere) ein Rust-Projekt im aktuellen Verzeichnis:
 
 `cargo build`
 
-- Erstelle (bzw. kompiliere) mit einer bestimmten Anzahl an Threads (Standard ist die Anzahl der CPU-Kerne):
+- Erstelle (bzw. kompiliere) ein Rust-Projekt mit einer bestimmten Anzahl an Threads (standardmäßig die Anzahl der CPU-Kerne):
 
-`cargo build -j {{jobs}}`
+`cargo build --jobs {{thread_anzahl}}`

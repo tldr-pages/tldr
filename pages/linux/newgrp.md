@@ -6,6 +6,6 @@
 
 `newgrp {{group_name}}`
 
-- Reset primary group membership to user's default group in /etc/passwd:
+- Reset primary group membership to user's default group in `/etc/passwd`:
 
 `newgrp`

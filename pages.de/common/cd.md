@@ -1,19 +1,20 @@
 # cd
 
-> Ändern des aktuellen Arbeitsverzeichnis.
+> Ändere das aktuelle Arbeitsverzeichnis.
+> Weitere Informationen: <https://manned.org/cd>.
 
-- Wechsel in das angegebene Verzeichnis:
+- Wechsle in das angegebene Verzeichnis:
 
-`cd {{pfad/zum/verzeichnis}}`
+`cd {{pfad/zu/verzeichnis}}`
 
-- Zum Home-Verzeichnis des aktuellen Benutzers gehen:
+- Wechsle in das Home-Verzeichnis des aktuellen Benutzers:
 
 `cd`
 
-- Gehe zum übergeordneten Verzeichnis des aktuellen Verzeichnisses:
+- Wechsle zum Verzeichnis über dem aktuellen Verzeichnis:
 
 `cd ..`
 
-- Gehe zum vorher gewählten Verzeichnis:
+- Wechsle zum zuletzt gewählten Verzeichnis:
 
 `cd -`

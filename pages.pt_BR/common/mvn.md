@@ -1,7 +1,7 @@
 # mvn
 
 > Ferramenta para a criação e gerenciamento de projetos Java.
-> Mais informações: <https://maven.apache.org/>.
+> Mais informações: <https://maven.apache.org>.
 
 - Compilar um projeto:
 
@@ -13,7 +13,7 @@
 
 - Criar um artefato de distribuição sem executar testes unitários:
 
-`mvn package -Dmaven.test.skip=true`
+`mvn package -DskipTests`
 
 - Instalar um artefato gerado em um repositório local:
 

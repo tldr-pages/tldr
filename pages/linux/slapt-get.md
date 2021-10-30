@@ -17,9 +17,9 @@
 
 - Upgrade all installed packages to their latest available versions:
 
-`slapt-get --upgrade {{package_name}}`
+`slapt-get --upgrade`
 
-- Locate packages of interest by the package name, disk set, or version:
+- Locate packages by the package name, disk set, or version:
 
 `slapt-get --search {{package_name}}`
 

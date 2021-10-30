@@ -1,6 +1,7 @@
 # caffeinate
 
 > Impedisci al mac di sospendersi.
+> Maggiori informazioni: <https://ss64.com/osx/caffeinate.html>.
 
 - Impedisci la sospensione per un'ora (3600 secondi):
 

@@ -2,6 +2,7 @@
 
 > Adjust parameters of an ext2, ext3 or ext4 filesystem.
 > May be used on mounted filesystems.
+> More information: <https://manned.org/tune2fs>.
 
 - Set the max number of counts before a filesystem is checked to 2:
 

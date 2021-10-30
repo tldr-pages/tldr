@@ -2,6 +2,7 @@
 
 > Gerenciador de pacotes das distribuições baseadas em Debian.
 > Procure por pacotes utilizando o `apt-cache`.
+> Mais informações: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
 
 - Atualizar a lista de pacotes disponíveis (recomenda-se executá-lo antes de outros comandos `apt-get`):
 
@@ -23,7 +24,7 @@
 
 `apt-get upgrade`
 
--  Limpar o repositório local — removendo os arquivos de pacotes (.deb) de downloads interrompidos que não podem mais ser baixados:
+- Limpar o repositório local — removendo os arquivos de pacotes (`.deb`) de downloads interrompidos que não podem mais ser baixados:
 
 `apt-get autoclean`
 

@@ -1,6 +1,7 @@
 # lpstat
 
 > Show status information about printers.
+> More information: <https://manned.org/lpstat>.
 
 - List printers present on the machine and whether they are enabled for printing:
 

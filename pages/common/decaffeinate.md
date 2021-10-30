@@ -11,7 +11,7 @@
 
 `decaffeinate --use-cs2 {{path/to/file.coffee}}`
 
-- Convert require and module.exports to import and export:
+- Convert require and `module.exports` to import and export:
 
 `decaffeinate --use-js-modules {{path/to/file.coffee}}`
 

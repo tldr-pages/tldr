@@ -1,6 +1,7 @@
 # apt-mark
 
 > Utilitário que altera as configurações dos pacotes instalados.
+> Mais informações: <https://manpages.debian.org/latest/apt/apt-mark.8.html>.
 
 - Marcar um pacote como instalado automaticamente:
 

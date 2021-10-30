@@ -7,6 +7,6 @@
 
 `nix-build --attr {{expression_name}}`
 
-- Build a sandboxed Nix expression (on non-nixOS):
+- Build a sandboxed Nix expression (on non-NixOS):
 
 `nix-build --attr {{expression_name}} --option sandbox true`

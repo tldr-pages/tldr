@@ -2,6 +2,7 @@
 
 > Network kanji filter.
 > Converts kanji code from one encoding to another.
+> More information: <https://manned.org/nkf>.
 
 - Convert to UTF-8 encoding:
 
@@ -15,7 +16,7 @@
 
 `nkf -w --overwrite {{path/to/file.txt}}`
 
-- Set new line code to LF and overwrite (unix type):
+- Set new line code to LF and overwrite (UNIX type):
 
 `nkf -d --overwrite {{path/to/file.txt}}`
 

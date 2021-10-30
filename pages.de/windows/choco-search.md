@@ -1,7 +1,7 @@
 # choco search
 
 > Suche mit Chocolatey nach einem lokal oder im Internet verfügbaren Paket.
-> Mehr Informationen: <https://chocolatey.org/docs/commands-search>.
+> Weitere Informationen: <https://chocolatey.org/docs/commands-search>.
 
 - Suche nach einem Paket:
 

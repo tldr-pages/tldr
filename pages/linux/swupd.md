@@ -3,7 +3,7 @@
 > Package management utility for Clear Linux.
 > More information: <https://docs.01.org/clearlinux/latest/guides/clear/swupd.html>.
 
-- Update to latest version:
+- Update to the latest version:
 
 `sudo swupd update`
 

@@ -1,6 +1,7 @@
 # xxd
 
 > Create a hexadecimal representation (hexdump) from a binary file, or vice-versa.
+> More information: <https://manned.org/xxd>.
 
 - Generate a hexdump from a binary file and display the output:
 
@@ -9,6 +10,10 @@
 - Generate a hexdump from a binary file and save it as a text file:
 
 `xxd {{input_file}} {{output_file}}`
+
+- Display a more compact output, replacing consecutive zeros (if any) with a star:
+
+`xxd -a {{input_file}}`
 
 - Display the output with 10 columns of one octet (byte) each:
 

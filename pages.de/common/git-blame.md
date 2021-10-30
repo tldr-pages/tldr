@@ -1,12 +1,12 @@
 # git blame
 
-> Zeigt Commit Hash und den letzten Autor jeder Zeile einer Datei.
-> Mehr Informationen: <https://git-scm.com/docs/git-blame>.
+> Zeige den Commit-Hash und den letzten Autor jeder Zeile einer Datei.
+> Weitere Informationen: <https://git-scm.com/docs/git-blame>.
 
-- Gibt die Datei mit den Commit-Hashes und dem Autor pro Zeile aus:
+- Gib die Commit-Hashes und dem Autor jeder Zeile einer Datei aus:
 
-`git blame {{datei}}`
+`git blame {{pfad/zu/datei}}`
 
-- Gibt die Datei mit den Commit-Hashes und dem Autor (inklusive Email) pro Zeile aus:
+- Gib die Commit-Hashes und dem Autor (inklusive E-Mail) jeder Zeile einer Datei aus:
 
-`git blame -e {{datei}}`
+`git blame -e {{pfad/zu/datei}}`

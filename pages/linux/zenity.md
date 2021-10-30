@@ -1,7 +1,8 @@
 # zenity
 
-> Display dialogs from the command line/shell scripts.
+> Display dialogs from the command-line/shell scripts.
 > Return user-inserted values or 1 if error.
+> More information: <https://manned.org/zenity>.
 
 - Display the default question dialog:
 

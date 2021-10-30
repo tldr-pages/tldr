@@ -11,7 +11,7 @@
 
 `git shortlog -n`
 
-- View a summary of all the commits made, grouped by the commiter identities (name and email):
+- View a summary of all the commits made, grouped by the committer identities (name and email):
 
 `git shortlog -c`
 

@@ -25,7 +25,7 @@
 
 - Build only the specified binary:
 
-`cargo --bin {{name}}`
+`cargo build --bin {{name}}`
 
 - Build only the specified test target:
 

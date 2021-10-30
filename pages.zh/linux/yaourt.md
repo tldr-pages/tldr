@@ -1,6 +1,7 @@
 # yaourt
 
 > Arch Linux 中用于从 Arch User Repository 中构建软件包的工具。
+> 更多信息：<https://linuxcommandlibrary.com/man/yaourt>.
 
 - 同步并更新所有软件包（包括 AUR）：
 
@@ -18,6 +19,6 @@
 
 `yaourt -Ss {{软件包}}`
 
-- 列出已安装的软件包、版本和仓库（AUR 软件包将被列在 'local' 仓库下):
+- 列出已安装的软件包、版本和仓库（AUR 软件包将被列在 'local' 仓库下）：
 
 `yaourt -Q`

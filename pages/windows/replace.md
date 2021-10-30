@@ -24,7 +24,7 @@
 
 `replace {{path/to/file_or_directory}} {{path/to/destination}} /w`
 
-- Replace all files in subfolders of the destination:
+- Replace all files in subdirectories of the destination:
 
 `replace {{path/to/file_or_directory}} {{path/to/destination}} /s`
 

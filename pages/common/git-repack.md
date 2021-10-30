@@ -1,6 +1,6 @@
 # git repack
 
-> Pack unpacked objects in a git repository.
+> Pack unpacked objects in a Git repository.
 > More information: <https://git-scm.com/docs/git-repack>.
 
 - Pack unpacked objects in the current directory:

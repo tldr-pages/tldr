@@ -1,12 +1,13 @@
 # update-alternatives
 
 > A convenient tool for maintaining symbolic links to determine default commands.
+> More information: <https://manned.org/update-alternatives>.
 
 - Add a symbolic link:
 
 `sudo update-alternatives --install {{path/to/symlink}} {{command_name}} {{path/to/command_binary}} {{priority}}`
 
-- Configure a symbolic link for "java":
+- Configure a symbolic link for `java`:
 
 `sudo update-alternatives --config {{java}}`
 

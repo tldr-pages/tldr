@@ -1,12 +1,13 @@
 # lshw
 
 > List detailed information about hardware configurations as root user.
+> More information: <https://manned.org/lshw>.
 
 - Launch the GUI:
 
 `sudo lshw -X`
 
-- List all hardwares in tabular format:
+- List all hardware in tabular format:
 
 `sudo lshw -short`
 

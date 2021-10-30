@@ -1,35 +1,36 @@
 # less
 
-> Datei für interaktives lesen öffnen, erlaubt Scrollen und Suchen.
+> Öffne eine Datei für interaktives lesen, erlaubt scrollen und suchen.
+> Weitere Informationen: <https://greenwoodsoftware.com/less/>.
 
-- Datei öffnen:
+- Öffne eine Datei:
 
-`less {{datei}}`
+`less {{pfad/zu/datei}}`
 
-- Seite runter / hoch:
+- Scrolle eine Seite runter / hoch:
 
-`<Space> (runter), b (hoch)`
+`<Leertaste> (runter), b (hoch)`
 
-- Zum Ende / Anfang der Datei springen:
+- Springe zum Ende / Anfang der Datei:
 
 `G (Ende), g (Anfang)`
 
-- Forwärtssuche nach eine Zeichenkette (n/N um zur nächsten/vorherigen Übereinstimmung zu springen):
+- Suche nach einer Zeichenkette vorwärts (n/N um zur nächsten/vorherigen Übereinstimmung zu springen):
 
 `/{{suche}}`
 
-- Rückwärtssuche nach eine Zeichenkette (n/N um zur nächsten/vorherigen Übereinstimmung zu springen):
+- Suche nach einer Zeichenkette rückwärts (n/N um zur nächsten/vorherigen Übereinstimmung zu springen):
 
 `?{{suche}}`
 
-- Ausgabe des geöffeten buffers folgen:
+- Folge der Ausgabe des geöffneten Buffers:
 
 `F`
 
-- Datei in einem Editor öffnen:
+- Öffne die Datei in einem Editor:
 
 `v`
 
-- Schließen:
+- Beende `less`:
 
 `q`

@@ -1,6 +1,7 @@
 # ls
 
 > 列出目錄內容。
+> 更多資訊：<https://www.gnu.org/software/coreutils/ls>.
 
 - 列出目錄中的檔案，其中每個檔案佔一行：
 
@@ -18,7 +19,7 @@
 
 `ls -la`
 
-- 列出完整檔案列表，其中檔案大小會用 K、M、G 表示：
+- 列出完整檔案列表，其中檔案大小會用 KiB、MiB、GiB 表示：
 
 `ls -lh`
 

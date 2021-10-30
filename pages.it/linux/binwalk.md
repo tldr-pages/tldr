@@ -1,7 +1,7 @@
 # binwalk
 
 > Strumento per l'analisi di file binari.
-> Per ulteriori informazioni: <https://github.com/ReFirmLabs/binwalk>.
+> Maggiori informazioni: <https://github.com/ReFirmLabs/binwalk>.
 
 - Scansiona un file binario:
 

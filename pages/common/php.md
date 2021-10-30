@@ -1,9 +1,9 @@
 # php
 
-> PHP command line interface.
+> PHP command-line interface.
 > More information: <https://php.net>.
 
-- Parse and execute a php script:
+- Parse and execute a PHP script:
 
 `php {{file}}`
 
@@ -30,3 +30,7 @@
 - Display information about the current PHP configuration:
 
 `php -i`
+
+- Display information about a specific function:
+
+`php --rf {{function_name}}`

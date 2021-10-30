@@ -1,6 +1,7 @@
 # chown
 
 > Modifie l'utilisateur et le groupe propriétaire des fichiers et dossiers.
+> Plus d'informations : <https://www.gnu.org/software/coreutils/chown>.
 
 - Modifie le propriétaire d'un fichier/dossier :
 
@@ -18,6 +19,6 @@
 
 `chown -h {{utilisateur}} {{chemin/vers/lien_symbolique}}`
 
-- Modifie the propriétaire d'un fichuer/dossier pour correspondre à un fichier de référence :
+- Modifie le propriétaire d'un fichier / dossier pour correspondre à un fichier de référence :
 
 `chown --reference={{chemin/vers/fichier_de_référence}} {{chemin/vers/fichier_ou_dossier}}`

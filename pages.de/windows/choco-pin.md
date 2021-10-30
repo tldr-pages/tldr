@@ -2,7 +2,7 @@
 
 > Hefte ein Chocolatey-Paket bei einer bestimmten Version an.
 > Angeheftete Pakete werden nicht weiter aktualisiert.
-> Mehr Informationen: <https://chocolatey.org/docs/commands-pin>.
+> Weitere Informationen: <https://chocolatey.org/docs/commands-pin>.
 
 - Zeige eine Liste der angehefteten Pakete und ihrer Versionen an:
 

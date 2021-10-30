@@ -1,27 +1,36 @@
 # ls
 
-> Auflisten aller Inhalte eines Ordners.
+> Liste den Inhalt eines Verzeichnisses auf.
+> Weitere Informationen: <https://www.gnu.org/software/coreutils/ls>.
 
-- Auflisten mit einer Datei pro Zeile:
+- Liste den Inhalt in einer Datei pro Zeile auf:
 
 `ls -1`
 
-- Auflisten aller Dateien inklusive versteckter Dateien:
+- Liste alle Dateien inklusive versteckter Dateien auf:
 
 `ls -a`
 
-- Liste aller Dateien mit Berechtigungen, Besitzer, Größe und Änderungsdatum:
+- Liste alle Dateien mit einem abschließenden `/` bei Verzeichnis-Namen auf:
+
+`ls -F`
+
+- Liste alle Dateien mit Berechtigungen, Besitzer, Größe und Änderungsdatum auf:
 
 `ls -la`
 
-- Liste aller Dateien mit Dateigrößen in für Menschen lesbaren Einheiten (KB, MB, GB):
+- Liste alle Dateien mit Dateigröße in für Menschen lesbaren Einheiten (KiB, MiB, GiB):
 
 `ls -lh`
 
-- Detaillierte Liste sortiert nach der Dateigröße (absteigend):
+- Liste Dateien nach sortiert nach Dateigröße mit größter beginnend auf:
 
 `ls -lS`
 
-- Liste aller Dateien sortiert nach dem Änderungsdatum (älteste zuerst):
+- Liste alle Dateien sortiert nach dem Änderungsdatum mit ältester beginnend auf:
 
 `ls -ltr`
+
+- Liste nur Verzeichnisse auf:
+
+`ls -d {{*/}}`

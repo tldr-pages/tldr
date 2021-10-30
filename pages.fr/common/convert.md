@@ -1,6 +1,6 @@
 # convert
 
-> Outil de conversion d'image de Imagemagick.
+> Outil de conversion d'image d'ImageMagick.
 > Plus d'informations : <https://imagemagick.org/script/convert.php>.
 
 - Convertir une image JPG en PNG :
@@ -18,6 +18,10 @@
 - Coller plusieurs images horizontallement :
 
 `convert {{image1.png}} {{image2.png}} {{image3.png}} +append {{image123.png}}`
+
+- Coller plusieurs images verticalement :
+
+`convert {{image1.png}} {{image2.png}} {{image3.png}} -append {{image123.png}}`
 
 - Créer un gif à partir d'une série d'images avec un délai de 100ms entre chaque :
 

@@ -1,6 +1,7 @@
 # seq
 
-> Output a sequence of numbers to `stdout`.
+> Output a sequence of numbers to stdout.
+> More information: <https://www.gnu.org/software/coreutils/seq>.
 
 - Sequence from 1 to 10:
 

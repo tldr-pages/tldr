@@ -1,6 +1,6 @@
 # borg
 
-> Outil de sauvegarde avec déduplication.
+> Outil de sauvegarde avec dé-duplication.
 > Crée des sauvegardes distantes ou locales qui peuvent être montées comme un système de fichiers.
 > Plus d'informations : <https://borgbackup.readthedocs.io/en/stable/usage/general.html>.
 

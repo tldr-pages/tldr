@@ -1,6 +1,6 @@
 # mysql
 
-> Herramienta de línea de comandos para gestionar bases de datos MySQL
+> Herramienta de línea de comandos para gestionar bases de datos MySQL.
 > Más información: <https://www.mysql.com/>.
 
 - Conecta a una base de datos:
@@ -15,7 +15,7 @@
 
 `mysql -h {{maquina_remota}} {{nombre_base_de_datos}}`
 
-- Conecta a una base de datos a través de un socket unix
+- Conecta a una base de datos a través de un socket unix:
 
 `mysql --socket {{ruta/al/socket.sock}}`
 

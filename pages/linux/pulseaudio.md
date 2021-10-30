@@ -1,16 +1,17 @@
 # pulseaudio
 
-> The pulseaudio sound system daemon and manager.
+> The PulseAudio sound system daemon and manager.
+> More information: <https://www.freedesktop.org/wiki/Software/PulseAudio/>.
 
-- Check if pulseaudio is running (a non-zero exit code means it is not running):
+- Check if PulseAudio is running (a non-zero exit code means it is not running):
 
 `pulseaudio --check`
 
-- Start the pulseaudio daemon in the background:
+- Start the PulseAudio daemon in the background:
 
 `pulseaudio --start`
 
-- Kill the running pulseaudio daemon:
+- Kill the running PulseAudio daemon:
 
 `pulseaudio --kill`
 

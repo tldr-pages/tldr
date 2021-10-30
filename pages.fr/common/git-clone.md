@@ -5,11 +5,11 @@
 
 - Clone un dépôt existant :
 
-`git clone {{remote_repository_location}}`
+`git clone {{location_du_depot_distant}}`
 
 - Clone un dépôt existant et ses sous-modules :
 
-`git clone --recursive {{remote_repository_location}}`
+`git clone --recursive {{location_du_depot_distant}}`
 
 - Clone un dépôt local :
 
@@ -21,4 +21,4 @@
 
 - Clone un dépôt existant en ne récupérant que les 10 commits les plus récents sur la branche par défaut (plus rapide) :
 
-`git clone --depth {{10}} {{remote_repository_location}}`
+`git clone --depth {{10}} {{location_du_depot_distant}}`

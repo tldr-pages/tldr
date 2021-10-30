@@ -13,7 +13,7 @@
 
 - Compile and run explicitly using the VVP runtime:
 
-`iverilog -o {{execuable}} -tvvp {{source.v}}`
+`iverilog -o {{executable}} -tvvp {{source.v}}`
 
 - Compile using Verilog library files from a different path:
 

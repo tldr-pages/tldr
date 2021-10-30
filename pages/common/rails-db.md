@@ -1,6 +1,7 @@
 # rails db
 
 > Various database-related subcommands for Ruby on Rails.
+> More information: <https://guides.rubyonrails.org/command_line.html>.
 
 - Create databases, load the schema, and initialize with seed data:
 
@@ -30,6 +31,6 @@
 
 `rails db:rollback`
 
-- Fill the current database with data defined in db/seeds.rb:
+- Fill the current database with data defined in `db/seeds.rb`:
 
 `rails db:seed`

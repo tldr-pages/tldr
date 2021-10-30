@@ -1,6 +1,7 @@
 # airpaste
 
 > Condividi messaggi e file nella stessa rete.
+> Maggiori informazioni: <https://github.com/mafintosh/airpaste>.
 
 - Aspetta un messaggo e mostralo una volta ricevuto:
 

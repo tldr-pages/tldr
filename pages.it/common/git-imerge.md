@@ -1,6 +1,6 @@
 # git-imerge
 
-> Esegui un'unione (merge) o rebase tra due rami git in modo incrementale.
+> Esegui un'unione (merge) o rebase tra due rami Git in modo incrementale.
 > Eventuali conflitti tra i due rami sono tracciati in coppie di commit distinti, per semplificarne la risoluzione.
 > Maggiori informazioni: <https://github.com/mhagger/git-imerge>.
 

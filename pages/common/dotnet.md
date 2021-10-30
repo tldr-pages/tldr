@@ -1,13 +1,14 @@
 # dotnet
 
-> Cross platform .NET command line tools for .NET Core.
+> Cross platform .NET command-line tools for .NET Core.
+> Some subcommands such as `dotnet build` have their own usage documentation.
 > More information: <https://docs.microsoft.com/dotnet/core/tools>.
 
 - Initialize a new .NET project:
 
 `dotnet new {{template_short_name}}`
 
-- Restore nuget packages:
+- Restore NuGet packages:
 
 `dotnet restore`
 

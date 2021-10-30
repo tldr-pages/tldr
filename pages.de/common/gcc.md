@@ -1,24 +1,24 @@
 # gcc
 
 > Präprozessiert und kompiliert C und C++ Quellcodedateien und linkt diese anschließend zusammen.
-> Mehr Informationen: <https://gcc.gnu.org>.
+> Weitere Informationen: <https://gcc.gnu.org>.
 
-- Kompiliert mehrere Quellcodedateien zu einer ausführbaren Datei:
+- Kompiliere mehrere Quellcodedateien zu einer ausführbaren Datei:
 
-`gcc {{Quelldatei1.c}} {{Quelldatei2.c}} -o {{Ausgabebinärdatei}}`
+`gcc {{pfad/zu/datei1.c}} {{pfad/zu/datei2.c}} --output {{pfad/zu/binärdatei}}`
 
-- Erlaubt Warnungen und debug-Symbole in der Ausgabedatei:
+- Erlaube Warnungen und debug-Symbole in der Ausgabedatei:
 
-`gcc {{source.c}} -Wall -Og -o {{Ausgabebinärdatei}}`
+`gcc {{pfad/zu/datei.c}} -Wall -Og --output {{pfad/zu/binärdatei}}`
 
-- Inkludiert Bibliotheken aus anderen Ordnern:
+- Inkludiere Bibliotheken aus anderen Verzeichnissen:
 
-`gcc {{Quelldatei.c}} -o {{Ausgabebinärdatei}} -I{{Pfad/zu/Headerdatei}} -L{{Pfad/zu/Bibliothek1}} -l{{Pfad/zu/Bibliothek2}}`
+`gcc {{pfad/zu/datei.c}} --output {{pfad/zu/binärdatei}} -I{{pfad/zu/headerdatei}} -L{{pfad/zu/bibliothek1}} -l{{pfad/zu/bibliothek2}}`
 
-- Kompiliert Quellcodedateien zu Assemblerinstruktionen:
+- Kompiliere Quellcodedateien zu Assemblerinstruktionen:
 
-`gcc -S {{Quelldatei.c}}`
+`gcc -S {{pfad/zu/datei.c}}`
 
-- Kompiliert Quellcodedatei/-en ohne diese zu linken:
+- Kompiliere eine oder mehrere Quellcodedateien ohne diese zu linken:
 
-`gcc -c {{Quelldatei.c}}`
+`gcc -c {{pfad/zu/datei.c}}`

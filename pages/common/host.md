@@ -1,6 +1,7 @@
 # host
 
 > Lookup Domain Name Server.
+> More information: <https://manned.org/host>.
 
 - Lookup A, AAAA, and MX records of a domain:
 

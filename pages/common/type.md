@@ -1,8 +1,9 @@
 # type
 
-> Display the kind of command the shell will execute.
+> Display the type of command the shell will execute.
+> More information: <https://manned.org/type>.
 
-- Display the kind of a command:
+- Display the type of a command:
 
 `type {{command}}`
 

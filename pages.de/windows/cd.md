@@ -1,20 +1,20 @@
 # cd
 
-> Zeigt den Namen des aktuellen Arbeitsverzeichnisses an oder ändert dieses.
-> Mehr Informationen: <https://docs.microsoft.com/windows-server/administration/windows-commands/cd>.
+> Zeige den Namen des aktuellen Arbeitsverzeichnisses an oder ändere dieses.
+> Weitere Informationen: <https://docs.microsoft.com/windows-server/administration/windows-commands/cd>.
 
-- Wechsel zu einem Verzeichnis im selben Laufwerk:
+- Wechsle zu einem Verzeichnis im selben Laufwerk:
 
-`cd {{pfad/zum/verzeichnis}}`
+`cd {{pfad/zu/verzeichnis}}`
 
-- Den Namen des aktuellen Verzeichnisses anzeigen:
+- Zeige den Namen des aktuellen Verzeichnisses an:
 
 `cd`
 
-- Zum übergeordneten Verzeichnis des aktuellen Verzeichnisses wechseln:
+- Wechsle zum übergeordneten Verzeichnis des aktuellen Verzeichnisses:
 
 `cd ..`
 
-- Wechsel in ein Verzeichnis auf einem anderen Laufwerk:
+- Wechsle in ein Verzeichnis auf einem anderen Laufwerk:
 
-`cd {{pfad/zum/verzeichnis}} /d`
+`cd {{pfad/zu/verzeichnis}} /d`

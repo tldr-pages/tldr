@@ -1,6 +1,7 @@
 # pax
 
 > Archiving and copying utility.
+> More information: <https://manned.org/pax.1p>.
 
 - List the contents of an archive:
 
@@ -24,4 +25,4 @@
 
 - Copy to a directory, while keeping the original metadata; `target/` must exist:
 
-`pax -rw {{path/to/file1}} {{path/to/dir1}} {{path/to/dir2}} {{target/}}`
+`pax -rw {{path/to/file1}} {{path/to/directory1}} {{path/to/directory2}} {{target/}}`

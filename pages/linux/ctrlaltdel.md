@@ -6,7 +6,7 @@
 
 `ctrlaltdel`
 
-- Set CRTL+ALT+DEL to reboot immediately, without any preparation:
+- Set CTRL+ALT+DEL to reboot immediately, without any preparation:
 
 `sudo ctrlaltdel hard`
 

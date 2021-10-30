@@ -8,7 +8,7 @@
 
 `astyle {{file_sorgente}}`
 
-- Applica lo stile java con parentesi graffe aperte sulla stessa riga (attached braces):
+- Applica lo stile Java con parentesi graffe aperte sulla stessa riga (attached braces):
 
 `astyle --style=java {{percorso/al/file}}`
 

@@ -1,9 +1,9 @@
 # lpass
 
-> Command line interface for the LastPass password manager.
+> Command-line interface for the LastPass password manager.
 > More information: <https://github.com/lastpass/lastpass-cli>.
 
-- Login to your LastPass account, by entering your master password when prompted:
+- Log in to your LastPass account, by entering your master password when prompted:
 
 `lpass login {{username}}`
 
@@ -15,7 +15,7 @@
 
 `lpass ls`
 
-- Generate a new password for "gmail.com" with identifier "myinbox" and add to LastPass:
+- Generate a new password for gmail.com with the identifier `myinbox` and add to LastPass:
 
 `lpass generate --username {{username}} --url {{gmail.com}} {{myinbox}} {{password_length}}`
 

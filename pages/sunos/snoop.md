@@ -2,6 +2,7 @@
 
 > Network packet sniffer.
 > SunOS equivalent of tcpdump.
+> More information: <https://www.unix.com/man-page/sunos/1m/snoop>.
 
 - Capture packets on a specific network interface:
 
@@ -19,6 +20,6 @@
 
 `snoop to port {{port}} from host {{hostname}}`
 
-- Capture and show an hex-dump of network packets exchanged between two IP addresses:
+- Capture and show a hex-dump of network packets exchanged between two IP addresses:
 
 `snoop -x0 -p4 {{ip_address_1}} {{ip_address_2}}`

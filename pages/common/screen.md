@@ -1,6 +1,8 @@
 # screen
 
 > Hold a session open on a remote server. Manage multiple windows with a single SSH connection.
+> See also `tmux` and `zellij`.
+> More information: <https://manned.org/screen>.
 
 - Start a new screen session:
 
@@ -10,7 +12,7 @@
 
 `screen -S {{session_name}}`
 
-- Start a new daemon and log the output to screenlog.x:
+- Start a new daemon and log the output to `screenlog.x`:
 
 `screen -dmLS {{session_name}} {{command}}`
 

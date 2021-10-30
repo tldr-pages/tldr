@@ -2,6 +2,7 @@
 
 > Split a file into pieces.
 > This generates files named "xx00", "xx01", and so on.
+> More information: <https://www.gnu.org/software/coreutils/csplit>.
 
 - Split a file at lines 5 and 23:
 
@@ -21,4 +22,4 @@
 
 - Split a file at a line matching a regular expression:
 
-`csplit {{file}} /{{regex}}/`
+`csplit {{file}} /{{regular_expression}}/`

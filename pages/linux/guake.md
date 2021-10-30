@@ -1,8 +1,9 @@
 # guake
 
 > A drop-down terminal for GNOME.
+> More information: <http://guake-project.org/>.
 
-- Toggle Guake visiblity:
+- Toggle Guake visibility:
 
 `F12`
 

@@ -1,7 +1,7 @@
 # iwconfig
 
 > Configure and show the parameters of a wireless network interface.
-> More information: <https://linux.die.net/man/8/iwconfig>.
+> More information: <https://manned.org/iwconfig>.
 
 - Show the parameters and statistics of all the interfaces:
 
@@ -11,7 +11,7 @@
 
 `iwconfig {{interface}}`
 
-- Set the ESSID (network name) of the specified interface (e.g., eth0 or wlp2s0):
+- Set the ESSID (network name) of the specified interface (e.g. eth0 or wlp2s0):
 
 `iwconfig {{interface}} {{new_network_name}}`
 

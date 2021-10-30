@@ -11,7 +11,7 @@
 
 `fswebcam -r {{width}}x{{height}} {{filename}}`
 
-- Take a picture from selected device(Default is /dev/video0):
+- Take a picture from selected device(Default is `/dev/video0`):
 
 `fswebcam -d {{device}} {{filename}}`
 

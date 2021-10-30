@@ -1,6 +1,7 @@
 # echo
 
 > Print given arguments.
+> More information: <https://www.gnu.org/software/coreutils/echo>.
 
 - Print a text message. Note: quotes are optional:
 

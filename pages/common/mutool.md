@@ -3,7 +3,7 @@
 > Convert PDF files, query information and extract data.
 > More information: <https://mupdf.com/docs>.
 
-- Convert pages 1-10 into 10 PNG images:
+- Convert pages 1-10 into 10 PNGs:
 
 `mutool convert -o {{image%d.png}} {{file.pdf}} {{1-10}}`
 
@@ -22,3 +22,7 @@
 - Extract all images, fonts and resources embedded in a PDF out into the current directory:
 
 `mutool extract {{input.pdf}}`
+
+- Print the outline (table of contents) of a PDF:
+
+`mutool show {{input.pdf}} outline`

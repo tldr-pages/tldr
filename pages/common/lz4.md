@@ -11,13 +11,13 @@
 
 `lz4 -d {{file.lz4}}`
 
-- Decompress a file and write to `stdout`:
+- Decompress a file and write to stdout:
 
 `lz4 -dc {{file.lz4}}`
 
 - Package and compress a directory and its contents:
 
-`tar cvf - {{path/to/dir}} | lz4 - {{dir.tar.lz4}}`
+`tar cvf - {{path/to/directory}} | lz4 - {{dir.tar.lz4}}`
 
 - Decompress and unpack a directory and its contents:
 

@@ -1,6 +1,6 @@
 # bup
 
-> Backup system based on the git packfile format, providing incremental saves and global deduplication.
+> Backup system based on the Git packfile format, providing incremental saves and global deduplication.
 > More information: <https://github.com/bup/bup>.
 
 - Initialize a backup repository in the specified local directory:

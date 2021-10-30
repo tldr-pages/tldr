@@ -1,7 +1,7 @@
 # bat
 
 > Affiche et concatène le contenu d'un ou plusieurs fichiers.
-> Un clon de `cat` avec mise en valeur de la syntaxe et integration avec Git.
+> Un clone de `cat` avec mise en valeur de la syntaxe et intégration avec Git.
 > Plus d'informations : <https://github.com/sharkdp/bat>.
 
 - Affiche le contenu d'un fichier sur la sortie standard :
@@ -24,6 +24,6 @@
 
 `bat --language json {{fichier.json}}`
 
-- Affiche toutes les langages prises en charge :
+- Affiche tous les langages pris en charge :
 
 `bat --list-languages`

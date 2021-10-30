@@ -3,11 +3,11 @@
 > Elimina archivos sin rastrear del árbol de trabajo.
 > Más información: <https://git-scm.com/docs/git-clean>.
 
-- Elimina archivos que no son rastreados por git:
+- Elimina archivos que no son rastreados por Git:
 
 `git clean`
 
-- Elimina interactivamente archivos que no son rastreados por git:
+- Elimina interactivamente archivos que no son rastreados por Git:
 
 `git clean -i`
 
@@ -15,11 +15,11 @@
 
 `git clean --dry-run`
 
-- Elimina forzosamente los archivos que no son rastreados por git:
+- Elimina forzosamente los archivos que no son rastreados por Git:
 
 `git clean -f`
 
-- Elimina forzosamente los directorios que no son rastreados por git:
+- Elimina forzosamente los directorios que no son rastreados por Git:
 
 `git clean -fd`
 

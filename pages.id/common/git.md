@@ -1,7 +1,8 @@
 # git
 
 > Sistem kontrol versi terdistribusi.
-> Informasi selengkapnya: <https://git-scm.com/>.
+> Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `git commit`.
+> Informasi lebih lanjut: <https://git-scm.com/>.
 
 - Memeriksa versi Git:
 

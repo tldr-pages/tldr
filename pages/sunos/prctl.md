@@ -2,12 +2,13 @@
 
 > Get or set the resource controls of running processes,.
 > Tasks, and projects.
+> More information: <https://www.unix.com/man-page/sunos/1/prctl>.
 
 - Examine process limits and permissions:
 
 `prctl {{PID}}`
 
-- Examine process limits and permissions in machine parseable format:
+- Examine process limits and permissions in machine parsable format:
 
 `prctl -P {{PID}}`
 

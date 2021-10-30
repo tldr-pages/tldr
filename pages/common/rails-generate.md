@@ -1,7 +1,7 @@
 # rails generate
 
 > Generate new Rails templates in an existing project.
-> More information: <https://guides.rubyonrails.org/command_line.html#rails-generate>.
+> More information: <https://guides.rubyonrails.org/command_line.html#bin-rails-generate>.
 
 - List all available generators:
 

@@ -3,7 +3,7 @@
 > Ruby programming language interpreter.
 > More information: <https://www.ruby-lang.org>.
 
-- Open an Interactive Ruby Shell (REPL):
+- Start a REPL (interactive shell):
 
 `irb`
 
@@ -11,7 +11,7 @@
 
 `ruby {{script.rb}}`
 
-- Execute a single Ruby command in the command line:
+- Execute a single Ruby command in the command-line:
 
 `ruby -e {{command}}`
 

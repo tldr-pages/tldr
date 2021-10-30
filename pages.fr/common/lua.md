@@ -1,10 +1,9 @@
 # lua
 
-> Un langage de programmation puissant, léger, et convenable aux 
-systèmes embarqués.
-> Plus d'informations: <https://www.lua.org>.
+> Un langage de programmation puissant, léger, et convenable aux systèmes embarqués.
+> Plus d'informations : <https://www.lua.org>.
 
-- Démarre une session de commandes intéractive Lua :
+- Démarre une session de commandes interactive Lua :
 
 `lua`
 
@@ -14,4 +13,4 @@ systèmes embarqués.
 
 - Exécute une expression Lua :
 
-`lua -e '{{print( "Hello World" )}}`
+`lua -e '{{print( "Hello World" )}}'`

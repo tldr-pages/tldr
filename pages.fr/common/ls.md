@@ -1,6 +1,7 @@
 # ls
 
 > Liste le contenu d'un répertoire.
+> Plus d'informations : <https://www.gnu.org/software/coreutils/ls>.
 
 - Liste les fichiers, un par ligne :
 
@@ -14,7 +15,7 @@
 
 `ls -la`
 
-- Liste les fichiers avec un format détaillé en utilisant des prefixes d'unités (ko, Mo, Go) :
+- Liste les fichiers avec un format détaillé en utilisant des préfixes d'unités (KiB, MiB, GiB) :
 
 `ls -lh`
 

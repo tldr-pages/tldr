@@ -1,4 +1,4 @@
-# uvicorn 
+# uvicorn
 
 > Python ASGI HTTP Server, for asynchronous projects.
 > More information: <https://www.uvicorn.org/>.

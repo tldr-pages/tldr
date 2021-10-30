@@ -3,6 +3,7 @@
 > Get or set program I/O scheduling class and priority.
 > Scheduling classes: 1 (realtime), 2 (best-effort), 3 (idle).
 > Priority levels: 0 (the highest) - 7 (the lowest).
+> More information: <https://manned.org/ionice>.
 
 - Set I/O scheduling class of a running process:
 

@@ -4,13 +4,13 @@
 > Supports HTTP, HTTPS, and FTP.
 > More information: <https://www.gnu.org/software/wget>.
 
-- Download the contents of an URL to a file (named "foo" in this case):
+- Download the contents of a URL to a file (named "foo" in this case):
 
 `wget {{https://example.com/foo}}`
 
-- Download the contents of an URL to a file (named "bar" in this case):
+- Download the contents of a URL to a file (named "bar" in this case):
 
-`wget -O {{bar}} {{https://example.com/foo}}`
+`wget --output-document {{bar}} {{https://example.com/foo}}`
 
 - Download a single web page and all its resources with 3-second intervals between requests (scripts, stylesheets, images, etc.):
 
@@ -30,8 +30,8 @@
 
 - Continue an incomplete download:
 
-`wget -c {{https://example.com}}`
+`wget --continue {{https://example.com}}`
 
 - Download all URLs stored in a text file to a specific directory:
 
-`wget -P {{path/to/directory}} -i {{URLs.txt}}`
+`wget --directory-prefix {{path/to/directory}} --input-file {{URLs.txt}}`

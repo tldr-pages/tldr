@@ -1,6 +1,7 @@
 # explorer
 
 > The Windows File Explorer.
+> More information: <https://ss64.com/nt/explorer.html>.
 
 - Open Windows Explorer:
 

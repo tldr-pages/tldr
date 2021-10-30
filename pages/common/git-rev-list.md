@@ -14,3 +14,7 @@
 - List all merge commits on a specific commit:
 
 `git rev-list --merges {{commit}}`
+
+- Print the number of commits since a specific tag:
+
+`git rev-list {{tag_name}}..HEAD --count`

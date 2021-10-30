@@ -3,14 +3,14 @@
 > Ein E-Mail und Usenet Client mit pico/nano-inspirierten Interface.
 > Unterstützt die meisten modernen IMAP Server.
 
-- Öffnet Apline:
+- Öffne Apline:
 
 `alpine`
 
-- Öffnen Sie alpine direkt zum Bildschirm für die Nachrichtenzusammenstellung, um eine E-Mail an eine bestimmte E-Mail-Adresse zu senden:
+- Öffne alpine im E-Mail-Editor, um eine E-Mail an eine bestimmte Adresse zu verfassen:
 
 `alpine {{email@example.net}}`
 
-- Beendet Alpine:
+- Beende Alpine:
 
-`'q' dann 'y'`
+`'q', dann 'y'`

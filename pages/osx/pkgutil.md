@@ -16,4 +16,4 @@
 
 - Extract the contents of a package file into a directory:
 
-`pkgutil  --expand-full {{path/to/filename.pkg}} {{path/to/directory}}`
+`pkgutil --expand-full {{path/to/filename.pkg}} {{path/to/directory}}`

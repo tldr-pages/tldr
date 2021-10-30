@@ -15,9 +15,9 @@
 
 `git diff --staged`
 
-- Muestra los cambios de todos los commits a partir de una fecha/tiempo específico (una expresión de fecha, por ej., "1 semana 2 días" o una fecha ISO):
+- Muestra los cambios de todos los commits a partir de una fecha/tiempo específico (una expresión de fecha, por ej., "1 week 2 days" o una fecha ISO):
 
-`git diff 'HEAD@{3 meses|semanas|días|horas|segundos}'`
+`git diff 'HEAD@{3 months|weeks|days|hours|seconds ago}`
 
 - Muestra solo los nombres de los archivos cambiados con un commit específico:
 
@@ -29,8 +29,8 @@
 
 - Compara un único archivo entre dos ramas o commits:
 
-`git diff {{rama_1}}..{{rama_2}} [--] {{ruta/del/archivo}}`
+`git diff {{rama_1}}..{{rama_2}} [--] {{ruta/al/archivo}}`
 
 - Compara diferentes archivos de la rama actual con otra rama:
 
-`git diff {{rama}}:{{ruta/del/archivo}} {{ruta/del/archivo2}}`
+`git diff {{rama}}:{{ruta/al/archivo}} {{ruta/al/archivo2}}`

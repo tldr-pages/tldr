@@ -8,7 +8,7 @@
 
 `astyle {{소스파일명}}`
 
-- java 스타일 코드로 적용:
+- Java 스타일 코드로 적용:
 
 `astyle --style=java {{경로/파일명}}`
 

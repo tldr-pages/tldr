@@ -1,9 +1,9 @@
 # git fetch
 
 > Lade Objekte und Referenzen (refs) von einem entfernten Repository.
-> Mehr Informationen: <https://git-scm.com/docs/git-fetch>.
+> Weitere Informationen: <https://git-scm.com/docs/git-fetch>.
 
-- Hole die neusten Änderungen von dem standardmäßigen Repository im Upstream (wenn gesetzt):
+- Hole die neuesten Änderungen von dem standardmäßigen Repository im Upstream (wenn gesetzt):
 
 `git fetch`
 
@@ -11,7 +11,7 @@
 
 `git fetch {{name_des_upstream_repository}}`
 
-- Hole die neusten Änderungen von allen Repositories im Upstream:
+- Hole die neuesten Änderungen von allen Repositories im Upstream:
 
 `git fetch --all`
 

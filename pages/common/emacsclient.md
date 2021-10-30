@@ -1,24 +1,29 @@
 # emacsclient
 
-> Open files in an existing emacs server.
+> Open files in an existing Emacs server.
+> See also `emacs`.
 > More information: <https://www.emacswiki.org/emacs/EmacsClient>.
 
-- Open files in an existing Emacs server (using GUI if available):
+- Open a file in an existing Emacs server (using GUI if available):
 
-`emacsclient {{filename}}`
+`emacsclient {{path/to/file}}`
 
-- Open file in console mode (without X window):
+- Open a file in console mode (without an X window):
 
-`emacsclient -nw {{filename}}`
+`emacsclient --no-window-system {{path/to/file}}`
 
-- Open a file in an existing emacs frame and return immediately:
+- Open a file in a new Emacs window:
 
-`emacsclient -n {{filename}}`
+`emacsclient --create-frame {{path/to/file}}`
 
-- Open file in a new emacs frame:
+- Evaluate a command, printing the output to stdout, and then quit:
 
-`emacsclient -c {{filename}}`
+`emacsclient --eval '({{command}})'`
 
-- Eval command in a new emacs frame:
+- Specify an alternative editor in case no Emacs server is running:
 
-`emacsclient -c -e '({{command}})'`
+`emacsclient --alternate-editor {{editor}} {{path/to/file}}`
+
+- Stop a running Emacs server and all its instances, asking for confirmation on unsaved files:
+
+`emacsclient --eval '(save-buffers-kill-emacs)'`

@@ -5,7 +5,7 @@
 
 - Ajouter un fichier à l'index :
 
-`git add {{path/to/file}}`
+`git add {{chemin/vers/fichier}}`
 
 - Ajouter tous les fichiers (suivis et non-suivis) :
 
@@ -21,4 +21,12 @@
 
 - Ajoute des parties de fichiers interactivement :
 
-`git add -p {{path/to/file}}`
+`git add -p`
+
+- Ajoute interactivement les parties d'un fichier spécifié :
+
+`git add -p {{chemin/vers/fichier}}`
+
+- Ajouter un fichier interactivement :
+
+`git add -i`

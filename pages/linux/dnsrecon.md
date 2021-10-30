@@ -11,7 +11,7 @@
 
 `dnsrecon --domain {{example.com}} --name_server {{nameserver.example.com}} --type axfr`
 
-- Scan a domain, using a dictionary of subdomains and hostnames for bruteforcing:
+- Scan a domain, using a brute-force attack and a dictionary of subdomains and hostnames:
 
 `dnsrecon --domain {{example.com}} --dictionary {{path/to/dictionary.txt}} --type brt`
 

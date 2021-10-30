@@ -1,23 +1,24 @@
 # cat
 
-> Ausgabe und Verkettung von einzelnen Dateien.
+> Verkette und gib einzelne oder mehrere Dateien aus.
+> Weitere Informationen: <https://www.gnu.org/software/coreutils/cat>.
 
-- Ausgabe der Inhalte einer Datei an die Standardausgabe:
+- Gib den Inhalt einer Datei aus:
 
-`cat {{datei}}`
+`cat {{pfad/zu/datei}}`
 
-- Verkettung mehrerer einzelner Dateien in eine Zieldatei:
+- Verkette mehrere Dateien und speichere das Ergebnis in einer neuen Datei:
 
-`cat {{datei1}} {{datei2}} > {{ziel_datei}}`
+`cat {{pfad/zu/datei1}} {{pfad/zu/datei2}} > {{pfad/zu/ziel_datei}}`
 
-- Anhängen mehrerer Dateien in eine Ziekdatei:
+- Verkette mehrere Dateien und hänge das Ergebnis an eine Datei an:
 
-`cat {{datei1}} {{datei2}} >> {{ziel_datei}}`
+`cat {{pfad/zu/datei1}} {{pfad/zu/datei2}} >> {{pfad/zu/ziel_datei}}`
 
-- Nummerierung aller ausgegebenen Zeilen:
+- Nummeriere alle ausgegebenen Zeilen:
 
-`cat -n {{datei}}`
+`cat -n {{pfad/zu/datei}}`
 
-- Ausgabe inklusive aller unsichtbaren Leerzeichen (mit `M-` Präfix wenn sie nicht ASCII sind):
+- Gib eine Datei inklusive aller unsichtbaren Leerzeichen aus (mit `M-` Präfix wenn sie nicht ASCII sind):
 
-`cat -v -t -e {{datei}}`
+`cat -v -t -e {{pfad/zu/datei}}`

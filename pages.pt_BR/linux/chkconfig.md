@@ -1,6 +1,7 @@
 # chkconfig
 
 > Gerencia o runlevel dos serviços no CentOS 6.
+> Mais informações: <https://manned.org/chkconfig>.
 
 - Exibir os serviços com os respectivos runlevels:
 

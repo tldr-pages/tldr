@@ -1,6 +1,7 @@
 # dig
 
 > Utilità di lookup DNS.
+> Maggiori informazioni: <https://manpages.debian.org/dnsutils/dig.1.html>.
 
 - Mostra gli IP associati ad un hostname (record A):
 

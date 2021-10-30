@@ -20,7 +20,7 @@
 
 `%s{{foo}}<Enter>c{{bar}}<Escape>`
 
-- Un-select all secondary selections, and keep only the main one:
+- Unselect all secondary selections, and keep only the main one:
 
 `<Space>`
 

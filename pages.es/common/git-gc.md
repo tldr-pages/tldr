@@ -1,7 +1,7 @@
 # git gc
 
 > Optimiza el repositorio local eliminando archivos innecesarios.
-> Mas información: <https://git-scm.com/docs/git-gc>.
+> Más información: <https://git-scm.com/docs/git-gc>.
 
 - Optimiza el repositorio:
 

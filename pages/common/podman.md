@@ -1,8 +1,8 @@
 # podman
 
 > Simple management tool for pods, containers and images.
-> Podman provides a Docker-CLI comparable command line. Simply put: `alias docker=podman`.
-> More information: <https://github.com/containers/libpod/blob/master/commands.md>.
+> Podman provides a Docker-CLI comparable command-line. Simply put: `alias docker=podman`.
+> More information: <https://github.com/containers/podman/blob/main/commands-demo.md>.
 
 - Print out information about containers:
 
@@ -24,7 +24,7 @@
 
 `podman pull {{image_name}}:{{image_tag}}`
 
-- Open a shell inside of an already running container:
+- Open a shell inside an already running container:
 
 `podman exec --interactive --tty {{container_name}} {{sh}}`
 

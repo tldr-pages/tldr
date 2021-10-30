@@ -1,6 +1,7 @@
 # usermod
 
 > Modifies a user account.
+> More information: <https://manned.org/usermod>.
 
 - Change a user's name:
 
@@ -12,4 +13,4 @@
 
 - Create a new home directory for a user and move their files to it:
 
-`usermod -m -d {{/path/to/home}} {{user}}`
+`usermod -m -d {{path/to/home}} {{user}}`

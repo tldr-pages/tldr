@@ -16,10 +16,14 @@
 
 `atom --add {{chemin/vers/fichier_ou_dossier}}`
 
-- Ouvrir atom en mode sans-échec (les extensions ne seront pas chargées) :
+- Ouvrir en mode sans-échec (les extensions ne seront pas chargées) :
 
 `atom --safe`
 
-- Empêcher atom de se lancer en arrière-plan, en le forçant à s'attacher au terminal :
+- Empêcher Atom de se lancer en arrière-plan, en le forçant à s'attacher au terminal :
 
 `atom --foreground`
+
+- Attendre la fermeture de la fenêtre avant de quitter (utile pour l'éditeur de commits Git) :
+
+`atom --wait`

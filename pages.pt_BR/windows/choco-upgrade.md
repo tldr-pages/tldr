@@ -29,4 +29,4 @@
 
 - Fornecer um nome e uma senha para autenticação:
 
-`choco upgrade {{pacote}} --user {{usuario}} --password {{senha}}`
+`choco upgrade {{pacote}} --user {{usuário}} --password {{senha}}`

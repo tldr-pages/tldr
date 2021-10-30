@@ -7,7 +7,7 @@
 
 `gibo list`
 
-- Write a boilerplate to `stdout`:
+- Write a boilerplate to stdout:
 
 `gibo dump {{boilerplate}}`
 

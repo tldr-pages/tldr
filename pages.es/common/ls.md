@@ -1,6 +1,7 @@
 # ls
 
 > Lista los contenidos de directorios.
+> Más información: <https://www.gnu.org/software/coreutils/ls>.
 
 - Lista un archivo por línea:
 
@@ -18,7 +19,7 @@
 
 `ls -la`
 
-- Lista con formato largo y tamaño legible por humanos (KB, MB, GB):
+- Lista con formato largo y tamaño legible por humanos (KiB, MiB, GiB):
 
 `ls -lh`
 

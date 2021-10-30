@@ -2,6 +2,7 @@
 
 > Debian and Ubuntu package management utility.
 > Search for packages using `apt-cache`.
+> More information: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
 
 - Update the list of available packages and versions (it's recommended to run this before other `apt-get` commands):
 
@@ -23,7 +24,7 @@
 
 `apt-get upgrade`
 
-- Clean the local repository - removing package files (.deb) from interrupted downloads that can no longer be downloaded:
+- Clean the local repository - removing package files (`.deb`) from interrupted downloads that can no longer be downloaded:
 
 `apt-get autoclean`
 

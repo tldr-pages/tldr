@@ -1,6 +1,6 @@
 # http_load
 
-> A HTTP benchmarking tool.
+> An HTTP benchmarking tool.
 > Runs multiple HTTP fetches in parallel to test the throughput of a web server.
 > More information: <http://www.acme.com/software/http_load/>.
 

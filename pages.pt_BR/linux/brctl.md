@@ -1,6 +1,7 @@
 # brctl
 
 > Administração de pontes de rede.
+> Mais informações: <https://manned.org/brctl>.
 
 - Exibir uma lista com informações das pontes de rede existentes:
 

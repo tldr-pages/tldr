@@ -20,6 +20,14 @@
 
 `sdk list`
 
+- List all available versions for a specific Software Development Kit:
+
+`sdk list {{sdk_name}}`
+
+- List all installed Software Development Kits:
+
+`sdk current`
+
 - Update Gradle to the latest version:
 
 `sdk upgrade {{gradle}}`

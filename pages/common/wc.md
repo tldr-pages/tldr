@@ -1,6 +1,7 @@
 # wc
 
 > Count lines, words, or bytes.
+> More information: <https://www.gnu.org/software/coreutils/wc>.
 
 - Count lines in file:
 
@@ -21,3 +22,7 @@
 - Use standard input to count lines, words and characters (bytes) in that order:
 
 `{{find .}} | wc`
+
+- Count the length of the longest line in number of characters:
+
+`wc --max-line-length {{file}}`

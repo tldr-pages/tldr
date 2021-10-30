@@ -7,7 +7,7 @@
 
 `cmark --to html {{file.md}}`
 
-- Converti in latex da standard input:
+- Converti in LaTeX da standard input:
 
 `cmark --to latex`
 
@@ -15,6 +15,6 @@
 
 `cmark --smart --to html {{file.md}}`
 
-- Converti validando i caratteri UTF8:
+- Converti validando i caratteri UTF-8:
 
 `cmark --validate-utf8 {{file.md}}`

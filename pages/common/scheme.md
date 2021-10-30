@@ -1,9 +1,9 @@
 # scheme
 
-> MIT Scheme language interperter and REPL (interactive shell).
+> MIT Scheme language interpreter and REPL (interactive shell).
 > More information: <https://www.gnu.org/software/mit-scheme>.
 
-- Open an interactive shell (REPL):
+- Start a REPL (interactive shell):
 
 `scheme`
 

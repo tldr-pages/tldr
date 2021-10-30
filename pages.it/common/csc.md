@@ -3,7 +3,7 @@
 > Compilatore per Microsoft C#.
 > Maggiori informazioni: <https://docs.microsoft.com/dotnet/csharp/language-reference/compiler-options/command-line-building-with-csc-exe>.
 
-- Compila uno o più file C# in un eseguibile da command line:
+- Compila uno o più file C# in un eseguibile da command-line:
 
 `csc {{percorso/al/file_input_a.cs}} {{percorso/al/file_input_b.cs}}`
 
@@ -11,7 +11,7 @@
 
 `csc /out:{{percorso/al/nome_file_output}} {{percorso/al/file_input.cs}}`
 
-- Compila in una libreria '.dll' invece che in un eseguibile:
+- Compila in una libreria `.dll` invece che in un eseguibile:
 
 `csc /target:library {{percorso/al/file_input.cs}}`
 

@@ -5,7 +5,7 @@
 
 - Revierte el commit más reciente:
 
-`git revert {{@}}`
+`git revert {{HEAD}}`
 
 - Revierte el quinto último commit:
 

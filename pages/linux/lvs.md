@@ -1,7 +1,8 @@
 # lvs
 
-> Display information about LVM logical volumes.
-> More information: <https://www.man7.org/linux/man-pages/man8/lvs.8.html>.
+> Display information about logical volumes.
+> See also: `lvm`.
+> More information: <https://man7.org/linux/man-pages/man8/lvs.8.html>.
 
 - Display information about logical volumes:
 

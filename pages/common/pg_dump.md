@@ -3,7 +3,7 @@
 > Extract a PostgreSQL database into a script file or other archive file.
 > More information: <https://www.postgresql.org/docs/current/app-pgdump.html>.
 
-- Dump database into a SQL-script file:
+- Dump database into an SQL-script file:
 
 `pg_dump {{db_name}} > {{output_file.sql}}`
 

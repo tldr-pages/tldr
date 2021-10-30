@@ -15,7 +15,7 @@
 
 `poetry init`
 
-- Get the latest version of all dependencies and update poetry.lock:
+- Get the latest version of all dependencies and update `poetry.lock`:
 
 `poetry update`
 

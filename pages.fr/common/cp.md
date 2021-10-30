@@ -1,6 +1,7 @@
 # cp
 
 > Copie des fichiers et des répertoires.
+> Plus d'informations : <https://www.gnu.org/software/coreutils/cp>.
 
 - Copier un fichier vers un autre emplacement :
 
@@ -25,7 +26,3 @@
 - Déréférencer les liens symboliques avant de copier :
 
 `cp -L {{link}} {{chemin/vers/répertoire_cible}}`
-
-- Copier en utilisant le chemin complet des fichiers source, en créant les répertoires intermédiaires manquants :
-
-`cp --parents {{source/chemin/vers/fichier}} {{chemin/vers/fichier_cible}}`

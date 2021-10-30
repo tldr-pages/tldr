@@ -1,6 +1,7 @@
 # sleep
 
 > Fördröjning under bestämd tid.
+> Mer information: <https://www.gnu.org/software/coreutils/sleep>.
 
 - Fördröj i sekunder:
 

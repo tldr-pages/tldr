@@ -1,7 +1,7 @@
 # ranger
 
-> VI キーバインドのコンソールファイルマネージャー
-> 詳しくはこちら: <https://github.com/ranger/ranger>.
+> VI キーバインドのコンソールファイルマネージャー。
+> 詳しくはこちら: <https://github.com/ranger/ranger>
 
 - ranger を起動する。
 

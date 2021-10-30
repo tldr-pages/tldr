@@ -1,6 +1,7 @@
 # cd
 
 > Mudar o diretório atual.
+> Mais informações: <https://manned.org/cd>.
 
 - Ir para um dado diretório:
 

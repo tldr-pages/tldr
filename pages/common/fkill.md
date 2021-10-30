@@ -7,6 +7,6 @@
 
 `fkill`
 
-- Kill the process by pid, name or port:
+- Kill the process by PID, name or port:
 
 `fkill {{pid|name|:port}}`

@@ -1,6 +1,7 @@
 # chcon
 
 > 파일 또는 파일/디렉토리의 SELinux 보안 내용 변경.
+> 더 많은 정보: <https://www.gnu.org/software/coreutils/chcon>.
 
 - 파일의 보안 내용 보기:
 

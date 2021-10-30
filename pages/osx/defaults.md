@@ -1,6 +1,7 @@
 # defaults
 
 > Read and write macOS user configuration for applications.
+> More information: <https://ss64.com/osx/defaults.html>.
 
 - Read system defaults for an application option:
 
@@ -9,6 +10,10 @@
 - Read default values for an application option:
 
 `defaults read -app {{application}} {{option}}`
+
+- Search for a keyword in domain names, keys, and values:
+
+`defaults find {{keyword}}`
 
 - Write the default value of an application option:
 

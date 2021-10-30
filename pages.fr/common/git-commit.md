@@ -1,20 +1,20 @@
 # git commit
 
-> Commit les fichers dans le repository.
+> Enregistrer (`commit`) les fichiers dans le dépôt.
 > Plus d'informations : <https://git-scm.com/docs/git-commit>.
 
 - Commit les fichiers en stage dans le dépôt avec un message :
 
-`git commit -m {{message}}`
+`git commit -m "{{message}}"`
 
 - Commit tous les fichiers modifiés avec un message :
 
-`git commit -a -m {{message}}`
+`git commit -am "{{message}}"`
 
-- Mets à jour le dernier commit avec les modifications en stage :
+- Met à jour le dernier commit avec les modifications en stage :
 
 `git commit --amend`
 
 - Commit seulement les fichiers spécifiés (qui sont déjà en stage) :
 
-`git commit {{path/to/my/file1}} {{path/to/my/file2}}`
+`git commit {{chemin/vers/mon/fichier1}} {{chemin/vers/mon/fichier2}}`

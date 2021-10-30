@@ -2,8 +2,9 @@
 
 > Ensamblador portable GNU.
 > Principalmente destinado a ensamblar la salida de `gcc` para ser utilizada por` ld`.
+> Más información: <https://www.unix.com/man-page/osx/1/as/>.
 
-- Ensambla un archivo, escribiendo la salida en a.out:
+- Ensambla un archivo, escribiendo la salida en `a.out`:
 
 `as {{archivo.s}}`
 
@@ -15,6 +16,6 @@
 
 `as -f {{archivo.s}}`
 
-- Incluye una ruta determinada a la lista de directorios para buscar archivos especificados en las directivas .include:
+- Incluye una ruta determinada a la lista de directorios para buscar archivos especificados en las directivas `.include`:
 
 `as -I {{ruta/al/directorio}} {{archivo.s}}`

@@ -1,6 +1,6 @@
 # pi
 
-> Compute decimal Archimedes' constant Pi on the command line.
+> Compute decimal Archimedes' constant Pi on the command-line.
 > More information: <http://manpages.ubuntu.com/manpages/trusty/man1/pi.1.html>.
 
 - Display 100 decimal digits of Archimedes' constant Pi:

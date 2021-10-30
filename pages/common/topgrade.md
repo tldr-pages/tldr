@@ -1,7 +1,7 @@
 # topgrade
 
 > Update all applications on the system.
-> More at <https://github.com/r-darwish/topgrade>.
+> More information: <https://github.com/r-darwish/topgrade>.
 
 - Run updates:
 
@@ -17,7 +17,7 @@
 
 - Disable a certain update operation:
 
-`topgrade -disable {{operation}}`
+`topgrade --disable {{operation}}`
 
 - Only perform a certain update operation:
 

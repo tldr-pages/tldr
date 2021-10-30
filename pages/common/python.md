@@ -3,7 +3,7 @@
 > Python language interpreter.
 > More information: <https://www.python.org>.
 
-- Call a Python interactive shell (REPL):
+- Start a REPL (interactive shell):
 
 `python`
 
@@ -19,9 +19,13 @@
 
 `python -c "{{expression}}"`
 
-- Run library module as a script (terminates option list):
+- Run the script of the specified library module:
 
 `python -m {{module}} {{arguments}}`
+
+- Install a package using `pip`:
+
+`python -m pip install {{package_name}}`
 
 - Interactively debug a Python script:
 

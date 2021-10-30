@@ -4,7 +4,7 @@
 > Un pacchetto può essere una abbreviazione utente/repo GitHub, un endpoint Git, un URL o un pacchetto registrato.
 > Maggiori informazioni: <https://bower.io/>.
 
-- Installa le dipendenze di un progetto, listate nel suo file bower.json:
+- Installa le dipendenze di un progetto, listate nel suo file `bower.json`:
 
 `bower install`
 
@@ -28,6 +28,6 @@
 
 `bower init`
 
-- Installa unoa specifica versione di una dipendenza ed aggiungila al file bower.json:
+- Installa unoa specifica versione di una dipendenza ed aggiungila al file `bower.json`:
 
 `bower install {{nome_locale}}={{pacchetto}}#{{versione}} --save`

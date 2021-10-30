@@ -2,6 +2,7 @@
 
 > A tool to modify CPU frequency settings.
 > The frequency value should range between the output of command `cpufreq-info -l`.
+> More information: <https://manned.org/cpufreq-set>.
 
 - Set the CPU frequency policy of CPU 1 to "userspace":
 

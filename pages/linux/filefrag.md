@@ -1,7 +1,7 @@
 # filefrag
 
 > Report how badly fragmented a particular file might be.
-> More information: <https://linux.die.net/man/8/filefrag>.
+> More information: <https://manned.org/filefrag>.
 
 - Display a report for a specific file:
 

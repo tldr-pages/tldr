@@ -1,12 +1,13 @@
 # afplay
 
 > Riproduttore audio a riga di comando.
+> Maggiori informazioni: <https://ss64.com/osx/afplay.html>.
 
 - Riproduci un file audio (fino a quando non finisce la riproduzione):
 
 `afplay {{percorso/del/file}}`
 
-- Riproduci un file audio al doppio della velocità: 
+- Riproduci un file audio al doppio della velocità:
 
 `afplay --rate 2 {{percorso/del/file}}`
 

@@ -1,20 +1,37 @@
 # ack
 
 > Un tool di ricerca simile a `grep`, ottimizzato per programmatori.
-> Maggiori informazioni: <https://beyondgrep.com/documentation/>.
+> Vedi anche: `rg`, che è molto più veloce.
+> Maggiori informazioni: <https://beyondgrep.com/documentation>.
 
-- Trova file contenenti "foo":
+- Cerca ricorsivamente file contenenti una stringa o un'espressione regolare nella cartella corrente:
 
-`ack {{foo}}`
+`ack "{{pattern_di_ricerca}}"`
 
-- Trova file Ruby contenenti una specifica parola chiave:
+- Cerca un pattern in modalità case-insensitive:
 
-`ack --ruby {{each_with_object}}`
+`ack --ignore-case "{{pattern_di_ricerca}}"`
 
-- Conta il numero di file contenenti "foo":
+- Cerca righe di testo contenenti un pattern, mostrando solo il testo corrispondente e non il resto della riga:
 
-`ack -ch {{foo}}`
+`ack -o "{{pattern_di_ricerca}}"`
 
-- Mostra i nomi dei file contenenti "foo" insieme al numero di occorrenze del termine all'interno di essi:
+- Limita la ricerca ai file di un tipo specifico:
 
-`ack -cl {{foo}}`
+`ack --type={{ruby}} "{{pattern_di_ricerca}}`
+
+- Non cercare nei file di un tipo specifico:
+
+`ack --type=no{{ruby}} "{{pattern_di_ricerca}}`
+
+- Conta il numero totale di corrispondenze trovate:
+
+`ack --count --no-filename "{{pattern_di_ricerca}}"`
+
+- Mostra i nomi dei file e il numero di corrispondenze per ogni singolo file:
+
+`ack --count --files-with-matches "{{pattern_di_ricerca}}"`
+
+- Mostra la lista di tutti i valori che possono essere usati con `--type`:
+
+`ack --help-types`

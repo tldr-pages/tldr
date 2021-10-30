@@ -11,6 +11,6 @@
 
 `astronomer {{tldr-pages/tldr-node-client}} --stars {{50}}`
 
--  비교 보고서를 포함한 리포지토리 스캔:
+- 비교 보고서를 포함한 리포지토리 스캔:
 
-`astronomer {{tldr-pages/tldr-node-client}} --verbose
+`astronomer {{tldr-pages/tldr-node-client}} --verbose`

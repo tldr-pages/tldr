@@ -1,6 +1,7 @@
 # zypper
 
 > SUSE & openSUSE 的软件包管理工具。
+> 更多信息：<https://en.opensuse.org/SDB:Zypper_manual>.
 
 - 同步可用的软件包和版本列表：
 

@@ -1,6 +1,7 @@
 # lspci
 
 > List all PCI devices.
+> More information: <https://manned.org/lspci>.
 
 - Show a brief list of devices:
 

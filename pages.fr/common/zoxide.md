@@ -12,7 +12,7 @@
 
 `zoxide query {{foo}} {{bar}}`
 
-- Démarre une recherche de répertoire interactive (requires `fzf`) :
+- Démarre une recherche de répertoire interactive (nécessite `fzf`) :
 
 `zoxide query --interactive`
 
@@ -20,10 +20,10 @@
 
 `zoxide add {{chemin/du/répertoire}}`
 
-- Supprime un répertoire de la base de donnée de `zoxide` :
+- Supprime un répertoire de la base de données de `zoxide` :
 
 `zoxide remove {{chemin/du/répertoire}}`
 
-- Génére la configuration du shell pour la mise en place des alias de commandes (`z`, `za`, `zi`, `zq`, `zr`) :
+- Génère la configuration du shell pour la mise en place des alias de commandes (`z`, `za`, `zi`, `zq`, `zr`) :
 
 `zoxide init {{bash|fish|zsh}}`

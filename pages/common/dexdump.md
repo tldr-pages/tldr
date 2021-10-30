@@ -1,6 +1,7 @@
 # dexdump
 
 > Display information about Android DEX files.
+> More information: <https://manned.org/dexdump>.
 
 - Extract classes and methods from an APK file:
 

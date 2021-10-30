@@ -1,6 +1,7 @@
 # dd
 
 > Converti e copia un file.
+> Maggiori informazioni: <https://www.gnu.org/software/coreutils/dd>.
 
 - Crea un disco USB avviabile da un file ISO e mostra il progresso:
 

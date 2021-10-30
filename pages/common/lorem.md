@@ -1,6 +1,7 @@
 # lorem
 
 > Create more or less random lorem ipsum text.
+> More information: <https://manned.org/lorem>.
 
 - Print the specified number of words:
 
@@ -14,6 +15,6 @@
 
 `lorem -s {{5}} --raven`
 
-- Print 40 random characters from Boccacio's Decameron:
+- Print 40 random characters from Boccaccio's Decameron:
 
 `lorem --randomize -c {{40}} --decamerone`

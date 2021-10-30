@@ -14,7 +14,7 @@
 
 `port installed`
 
-- Update port and fetch latest list of available packages:
+- Update port and fetch the latest list of available packages:
 
 `sudo port selfupdate`
 

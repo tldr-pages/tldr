@@ -1,9 +1,10 @@
 # git
 
 > Sistema di controllo versione distribuito.
+> Alcuni comandi aggiuntivi, come `git commit`, hanno la propria documentazione.
 > Maggiori informazioni: <https://git-scm.com/>.
 
-- Controlla la versione di git:
+- Controlla la versione di Git:
 
 `git --version`
 
@@ -15,6 +16,6 @@
 
 `git help {{command}}`
 
-- Esegui un comando git:
+- Esegui un comando Git:
 
 `git {{command}}`

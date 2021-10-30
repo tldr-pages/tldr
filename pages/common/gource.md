@@ -12,7 +12,7 @@
 
 `gource -{{width}}x{{height}}`
 
-- Set a custom time scale for the animation:
+- Set a custom timescale for the animation:
 
 `gource -c {{time_scale_multiplier}}`
 

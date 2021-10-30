@@ -1,6 +1,7 @@
 # zdb
 
 > ZFS debugger.
+> More information: <https://manned.org/zdb>.
 
 - Show detailed configuration of all mounted ZFS zpools:
 

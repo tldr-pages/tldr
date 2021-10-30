@@ -1,37 +1,37 @@
-# ripgrep
+# rg
 
-> A recursive line-oriented CLI search tool.
+> Ripgrep is a recursive line-oriented CLI search tool.
 > Aims to be a faster alternative to `grep`.
 > More information: <https://github.com/BurntSushi/ripgrep>.
 
-- Recursively search the current directory for a regex pattern:
+- Recursively search the current directory for a regular expression:
 
-`rg {{pattern}}`
+`rg {{regular_expression}}`
 
-- Search for pattern including all .gitignored and hidden files:
+- Search for regular expressions recursively in the current directory, including hidden files and files listed in `.gitignore`:
 
-`rg -uu {{pattern}}`
+`rg --no-ignore --hidden {{regular_expression}}`
 
-- Search for a pattern only in a certain filetype (e.g., html, css, etc.):
+- Search for a regular expression only in a certain filetype (e.g. HTML, CSS, etc.):
 
-`rg -t {{filetype}} {{pattern}}`
+`rg --type {{filetype}} {{regular_expression}}`
 
-- Search for a pattern only in a subset of directories:
+- Search for a regular expression only in a subset of directories:
 
-`rg {{pattern}} {{set_of_subdirs}}`
+`rg {{regular_expression}} {{set_of_subdirs}}`
 
-- Search for a pattern in files matching a glob (e.g., `README.*`):
+- Search for a regular expression in files matching a glob (e.g. `README.*`):
 
-`rg {{pattern}} -g {{glob}}`
+`rg {{regular_expression}} --glob {{glob}}`
 
 - Only list matched files (useful when piping to other commands):
 
-`rg --files-with-matches {{pattern}}`
+`rg --files-with-matches {{regular_expression}}`
 
-- Show lines that do not match the given pattern:
+- Show lines that do not match the given regular expression:
 
-`rg --invert-match {{pattern}}`
+`rg --invert-match {{regular_expression}}`
 
 - Search a literal string pattern:
 
-`rg -F {{string}}`
+`rg --fixed-strings -- {{string}}`

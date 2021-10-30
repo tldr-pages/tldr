@@ -2,13 +2,13 @@
 
 > Interfaccia da linea di comando per il programma di grafica Blender 3D.
 > Gli argomenti sono eseguiti nell'ordine in cui sono dati.
-> Maggiori informazioni: <https://docs.blender.org/manual/en/latest/render/workflows/command_line.html>.
+> Maggiori informazioni: <https://docs.blender.org/manual/en/latest/advanced/command_line/>.
 
 - Renderizza tutti i frame di una animazione in background, senza caricare l'interfaccia grafica (l'output è salvato in `/tmp`):
 
 `blender -b {{nome_file}}.blend -a`
 
-- Renderizza un'animazione usando uno specifico pattern, in un percorso relativo (`//`) al file .blend:
+- Renderizza un'animazione usando uno specifico pattern, in un percorso relativo (`//`) al file `.blend`:
 
 `blender -b {{nome_file}}.blend -o //{{render/frame_###.png}} -a`
 

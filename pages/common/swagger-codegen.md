@@ -7,7 +7,7 @@
 
 `swagger-codegen generate -i {{swagger_file}} -l {{language}}`
 
-- Generate java code using the library retrofit2 and the option useRxJava2:
+- Generate Java code using the library retrofit2 and the option useRxJava2:
 
 `swagger-codegen generate -i {{http://petstore.swagger.io/v2/swagger.json}} -l {{java}} --library {{retrofit2}} -D{{useRxJava2}}={{true}}`
 

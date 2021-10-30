@@ -1,6 +1,7 @@
 # apg
 
 > Crea password randomiche arbitrariamente complesse.
+> Maggiori informazioni: <https://manned.org/apg>.
 
 - Genera password randomiche (la lunghezza predefinita è 8):
 

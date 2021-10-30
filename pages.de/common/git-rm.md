@@ -1,16 +1,16 @@
 # git rm
 
-> Entferne Dateien aus dem Index des Repositories und von dem lokalen Dateisystem.
-> Mehr Informationen: <https://git-scm.com/docs/git-rm>.
+> Entferne Dateien aus dem Index des Repositories und vom lokalen Dateisystem.
+> Weitere Informationen: <https://git-scm.com/docs/git-rm>.
 
-- Entferne eine Datei aus dem Index und von dem lokalen Dateisystem:
+- Entferne eine Datei aus dem Index und vom lokalen Dateisystem:
 
-`git rm {{datei}}`
+`git rm {{pfad/zu/datei}}`
 
 - Entferne ein Verzeichnis:
 
-`git rm -r {{verzeichnis}}`
+`git rm -r {{pfad/zu/verzeichnis}}`
 
-- Entferne eine Datei aus dem Index des Repository, aber behalte sie lokal:
+- Entferne eine Datei aus dem Index des Repositories, aber behalte sie lokal:
 
-`git rm --cached {{datei}}`
+`git rm --cached {{pfad/zu/datei}}`

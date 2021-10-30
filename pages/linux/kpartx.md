@@ -1,6 +1,7 @@
 # kpartx
 
 > Create device maps from partition tables.
+> More information: <https://manned.org/kpartx>.
 
 - Add partition mappings:
 

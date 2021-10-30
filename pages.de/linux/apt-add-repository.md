@@ -1,19 +1,20 @@
 # apt-add-repository
 
 > Editiere die Repository-Listen.
+> Weitere Informationen: <https://manpages.debian.org/latest/software-properties-common/apt-add-repository.1.html>.
 
-- Fügt ein neues Repository hinzu:
+- Füge ein neues Repository hinzu:
 
 `apt-add-repository {{repository_spec}}`
 
-- Entfernt ein Repository:
+- Entferne ein Repository:
 
-`apt-add-repository --remove {{repository_spec}}`
+`apt-add-repository --remove {{repository}}`
 
-- Aktualisiert den Cache nachdem das Repository hinzugefügt wurde:
+- Aktualisiere den Cache nachdem das Repository hinzugefügt wurde:
 
-`apt-add-repository --update {{repository_spec}}`
+`apt-add-repository --update {{repository}}`
 
-- Aktiviert Source Pakete:
+- Aktiviere Source Pakete:
 
-`apt-add-repository --enable-source {{repository_spec}}`
+`apt-add-repository --enable-source {{repository}}`

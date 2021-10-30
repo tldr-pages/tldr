@@ -1,36 +1,36 @@
 # git branch
 
-> Befehl zum Arbeiten mit Branches.
-> Mehr Informationen: <https://git-scm.com/docs/git-branch>.
+> Verwalte und Arbeite mit Git Branches.
+> Weitere Informationen: <https://git-scm.com/docs/git-branch>.
 
-- Auflisten der lokalen Branches. Der momentan aktive (ausgecheckte) Branch wird mit `*` markiert:
+- Liste alle lokalen Branches auf. Der momentan aktive (ausgecheckte) Branch wird mit `*` markiert:
 
 `git branch`
 
-- Auflisten aller Branches (Lokal und Remote):
+- Liste alle Branches auf (Lokal und Remote):
 
 `git branch -a`
 
-- Zeigt den Namen des aktuellen Branches:
+- Zeige den Namen des aktuellen Branches:
 
 `git branch --show-current`
 
-- Erstellt einen neuen Branch auf Basis des letzten Commits:
+- Erstelle einen neuen Branch auf Basis des letzten Commits:
 
 `git branch {{branch_name}}`
 
-- Erstellt einen neuen Branch auf Basis eines spezifischen Commits:
+- Erstelle einen neuen Branch auf Basis eines bestimmten Commits:
 
 `git branch {{branch_name}} {{commit_hash}}`
 
-- Umbenennen eines Branches (der Branch muss nicht ausgecheckt sein):
+- Benenne einen Branches um (der Branch muss nicht ausgecheckt sein):
 
 `git branch -m {{alter_branch_name}} {{neuer_branch_name}}`
 
-- Löschen eines lokalen Branches (der Branch muss nicht ausgecheckt sein):
+- Lösche einen lokalen Branch (der Branch muss nicht ausgecheckt sein):
 
 `git branch -d {{branch_name}}`
 
-- Löschen eines remote Branches:
+- Lösche einen remote-Branch:
 
 `git push {{remote_name}} --delete {{remote_branch_name}}`

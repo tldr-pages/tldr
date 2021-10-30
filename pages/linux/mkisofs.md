@@ -2,6 +2,7 @@
 
 > Create ISO files from directories.
 > Also aliased as `genisoimage`.
+> More information: <https://manned.org/mkisofs>.
 
 - Create an ISO from a directory:
 

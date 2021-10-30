@@ -1,6 +1,7 @@
 # ipcrm
 
 > Delete IPC (Inter-process Communication) resources.
+> More information: <https://manned.org/ipcrm>.
 
 - Delete a shared memory segment by ID:
 

@@ -1,6 +1,6 @@
 # asdf
 
-> 여러 패키지 버전을 관리하기 위한 CLI(Command Line Interface) 입니다.
+> 여러 패키지 버전을 관리하기 위한 CLI(Command-line Interface) 입니다.
 > 더 많은 정보: <https://asdf-vm.com>.
 
 - 사용 가능한 모든 플러그인을 나열:

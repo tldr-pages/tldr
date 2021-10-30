@@ -23,6 +23,6 @@
 
 `rdesktop -u {{username}} -p {{password}} -d {{domainname}} {{host:port}}`
 
-- Use the 16 bit color (speed up):
+- Use the 16-bit color (speed up):
 
 `rdesktop -u {{username}} -p {{password}} -a 16 {{host:port}}`

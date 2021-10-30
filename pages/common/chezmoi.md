@@ -23,7 +23,7 @@
 
 `chezmoi -v apply`
 
-- Set chezmoi up on another machine by downloading existing dotfiles from a git repo:
+- Set chezmoi up on another machine by downloading existing dotfiles from a Git repository:
 
 `chezmoi init {{https://example.com/path/to/repository.git}}`
 

@@ -4,7 +4,7 @@
 > It also provides menu-style autocomplete suggestions for `git` commands.
 > More information: <https://github.com/donnemartin/gitsome>.
 
-- Enter the gitsome shell (optional), to enable autocompletion and interactive help for git (and gh) commands:
+- Enter the gitsome shell (optional), to enable autocompletion and interactive help for Git (and gh) commands:
 
 `gitsome`
 

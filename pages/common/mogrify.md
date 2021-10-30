@@ -12,7 +12,7 @@
 
 `mogrify -resize {{800x600}} {{DSC*}}`
 
-- Convert all PNG images in the directory to JPEG:
+- Convert all PNGs in the directory to JPEG:
 
 `mogrify -format {{jpg}} {{*.png}}`
 

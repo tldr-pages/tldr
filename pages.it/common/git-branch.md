@@ -1,6 +1,6 @@
 # git branch
 
-> Il principale comando git per lavorare con i rami.
+> Il principale comando Git per lavorare con i rami.
 > Maggiori informazioni: <https://git-scm.com/docs/git-branch>.
 
 - Elenca i rami locali. Il ramo corrente è evidenziato da un `*`:

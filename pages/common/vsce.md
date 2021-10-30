@@ -15,7 +15,7 @@
 
 `vsce unpublish {{extension_id}}`
 
-- Package the current working directory as .vsix file:
+- Package the current working directory as a `.vsix` file:
 
 `vsce package`
 

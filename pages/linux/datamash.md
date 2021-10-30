@@ -1,6 +1,7 @@
 # datamash
 
 > Tool to perform basic numeric, textual and statistical operations on input textual data files.
+> More information: <http://www.gnu.org/software/datamash/>.
 
 - Get max, min, mean and median of a single column of numbers:
 
