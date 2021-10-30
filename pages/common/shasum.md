@@ -1,6 +1,7 @@
 # shasum
 
 > Calculate or check cryptographic SHA checksums.
+> More information: https://man.archlinux.org/man/shasum.1perl
 
 - Calculate the SHA1 checksum for a file:
 
