@@ -3,11 +3,11 @@
 > Safely edit the sudoers file.
 > More information: <https://manned.org/visudo>.
 
-- Edit sudoers file:
+- Edit the sudoers file:
 
 `sudo visudo`
 
-- Check sudoers file for errors:
+- Check the sudoers file for errors:
 
 `sudo visudo -c`
 
