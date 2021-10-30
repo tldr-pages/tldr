@@ -24,7 +24,7 @@
 
 `emacsclient --eval '(save-buffers-kill-emacs)'`
 
-- Salvar um arquivo em Emacs:
+- Salva um arquivo em Emacs:
 
 `Ctrl + X, Ctrl + S`
 
