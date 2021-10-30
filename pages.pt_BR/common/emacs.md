@@ -12,7 +12,7 @@
 
 `emacs +{{numero_linha}} {{caminho/para/arquivo}}`
 
-- Iniciar o Emacs em modo console (sem uma janela X):
+- Inicia o Emacs em modo console (sem uma janela X):
 
 `emacs --no-window-system`
 
