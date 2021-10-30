@@ -1,7 +1,7 @@
 # google-chrome
 
 > Der Webbrowser von Google.
-> Mehr Informationen: <https://chrome.google.com>.
+> Weitere Informationen: <https://chrome.google.com>.
 
 - Starte mit einem benutzerdefinierten Profilverzeichnis:
 
