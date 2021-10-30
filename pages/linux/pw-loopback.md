@@ -15,7 +15,7 @@
 
 `pw-loopback -m '{{[FL FR]}}' --playback-props='{{media.class=Audio/Source}}'`
 
-- Create a dummy loopback that doesn't automatically connect to anything:
+- Create a dummy loopback device that doesn't automatically connect to anything:
 
 `pw-loopback -m '{{[FL FR]}}' --capture-props='{{media.class=Audio/Sink}}' --playback-props='{{media.class=Audio/Source}}'`
 
