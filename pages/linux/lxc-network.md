@@ -11,7 +11,7 @@
 
 `lxc network show {{network_name}}`
 
-- Add a running instance to a network:
+- Add a running instance to a specific network:
 
 `lxc network attach {{network_name}} {{container_name}}`
 
