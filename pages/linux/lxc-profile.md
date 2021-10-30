@@ -19,7 +19,7 @@
 
 `lxc profile edit {{profile_name}} < {{config.yaml}}`
 
-- Launch a new container with profiles:
+- Launch a new container with specific profiles:
 
 `lxc launch {{container_image}} {{container_name}} --profile {{profile1}} --profile {{profile2}}`
 
