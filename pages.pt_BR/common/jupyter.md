@@ -24,7 +24,7 @@
 
 `jupyter notebook list`
 
-- Pare o servidor atualmente em funcionamento:
+- Para o servidor atualmente em funcionamento:
 
 `jupyter notebook stop`
 
