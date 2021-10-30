@@ -12,7 +12,7 @@
 
 `jupyter notebook {{exemplo.ipynb}}`
 
-- Exportar um caderno Jupyter específico para outro formato:
+- Exporta um caderno Jupyter específico para outro formato:
 
 `jupyter nbconvert --to {{html|markdown|pdf|script}} {{exemplo.ipynb}}`
 
