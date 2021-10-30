@@ -11,7 +11,7 @@
 
 `neofetch --{{enable|disable}} {{infoname}}`
 
-- Ocultar/Mostrar arquitetura do SO:
+- Oculta/Mostra arquitetura do SO:
 
 `neofetch --os_arch {{on|off}}`
 
