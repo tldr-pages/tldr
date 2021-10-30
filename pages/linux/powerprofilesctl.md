@@ -1,6 +1,6 @@
 # powerprofilesctl
 
-> Makes power profiles handling available over D-Bus.
+> Make power profiles handling available over D-Bus.
 > More information: <https://gitlab.freedesktop.org/hadess/power-profiles-daemon/>.
 
 - List available power profiles:
