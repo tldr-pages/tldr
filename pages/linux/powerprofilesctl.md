@@ -9,4 +9,4 @@
 
 - Set a particular power profile:
 
-`powerprofilesctl set {{arg_value}}`
+`powerprofilesctl set {{profile_name}}`
