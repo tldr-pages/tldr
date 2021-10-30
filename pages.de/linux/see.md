@@ -5,8 +5,8 @@
 
 - Die Aktion see kann verwendet werden, um eine beliebige Datei (in der Regel ein Bild) im Standard-Mailcap-Explorer anzuzeigen.
 
-`see {{filename}}`
+`see {{dateiname}}`
 
 - Verwenden mit `run-mailcap`:
 
-`run-mailcap --action=view {{filename}}`
+`run-mailcap --action=view {{dateiname}}`
