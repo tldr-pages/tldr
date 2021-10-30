@@ -16,7 +16,7 @@
 
 `jupyter nbconvert --to {{html|markdown|pdf|script}} {{exemplo.ipynb}}`
 
-- Inicie um servidor em uma porta específica:
+- Inicia um servidor em uma porta específica:
 
 `jupyter notebook --port={{porta}}`
 
