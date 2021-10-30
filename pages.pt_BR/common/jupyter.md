@@ -4,7 +4,7 @@
 > Usado principalmente para análise de dados, computação científica e aprendizado de máquinas (machine learning).
 > Mais informações: <https://jupyter.org>.
 
-- Inicie um servidor de notebooks Jupyter no diretório atual:
+- Inicia um servidor de notebooks Jupyter no diretório atual:
 
 `jupyter notebook`
 
