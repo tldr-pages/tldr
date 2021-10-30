@@ -23,6 +23,6 @@
 
 `lxc network set {{network_name}} bridge.external_interfaces {{eth0}}`
 
-- Disable NAT for a network:
+- Disable NAT for a specific network:
 
 `lxc network set {{network_name}} ipv{{4}}.nat false`
