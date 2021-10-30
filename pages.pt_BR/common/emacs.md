@@ -20,7 +20,7 @@
 
 `emacs --daemon`
 
-- Parar um servidor Emacs em funcionamento e todas as suas instâncias, pedindo confirmação em arquivos não salvos:
+- Para um servidor Emacs em funcionamento e todas as suas instâncias, pedindo confirmação em arquivos não salvos:
 
 `emacsclient --eval '(save-buffers-kill-emacs)'`
 
