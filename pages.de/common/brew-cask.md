@@ -5,11 +5,11 @@
 
 - Suche nach Formeln und Casks:
 
-`brew search {{Text}}`
+`brew search {{text}}`
 
 - Installiere ein Cask:
 
-`brew cask install {{Cask-Name}}`
+`brew cask install {{caskname}}`
 
 - Liste alle installierten Casks auf:
 
@@ -19,18 +19,18 @@
 
 `brew outdated --cask`
 
-- Aktualisiere ein installiertes Cask (wenn kein Cask-Name angegeben wird, werden alle installierten Casks aktualisiert):
+- Aktualisiere ein installiertes Cask (wenn kein Caskname angegeben wird, werden alle installierten Casks aktualisiert):
 
-`brew upgrade --cask {{Cask-Name}}`
+`brew upgrade --cask {{caskname}}`
 
 - Deinstalliere ein Cask
 
-`brew cask uninstall {{Cask-Name}}`
+`brew cask uninstall {{caskname}}`
 
 - Deinstalliere ein Cask und entferne zugehörige Einstellungen und Dateien:
 
-`brew upgrade --cask {{Cask-Name}}`
+`brew upgrade --cask {{caskname}}`
 
 - Zeige informationen zu einem bestimmten Cask an:
 
-`brew cask uninstall {{Cask-Name}}`
+`brew cask uninstall {{caskname}}`
