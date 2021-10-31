@@ -1,20 +1,20 @@
 # numlockx
 
-> Steuern Sie den Status der Tastensperre in X11-Sitzungen.
+> Steuern des Zahlensperrenstatus in X11-Sitzungen.
 > Weitere Informationen: <http://www.mike-devlin.com/linux/README-numlockx.htm>.
 
-- Anzeige des aktuellen Status der Nummernsperre:
+- Zeige den aktuellen Status der Zahlensperre an:
 
 `numlockx status`
 
-- Einschalten der Zahlensperre:
+- Schalte die Zahlensperre ein:
 
 `numlockx on`
 
-- Ausschalten der Zahlensperre:
+- Schalte die Zahlensperre aus:
 
 `numlockx off`
 
-- Umschalten des aktuellen Zustands:
+- Schalte die Zahlensperre um:
 
 `numlockx toggle`
