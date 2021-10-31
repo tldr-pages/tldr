@@ -11,7 +11,7 @@
 
 `u3d list`
 
-- List download-ready versions of Unity.
+- List available versions of Unity that can be downloaded:
 
 `u3d available`
 
