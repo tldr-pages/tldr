@@ -21,7 +21,7 @@
 
 - Exportiere eine Distribution in eine `.tar` Datei:
 
-`wsl --export {{distribution}} {{pfad/für/tar_datei.tar}}`
+`wsl --export {{distribution}} {{pfad/zu/tar_datei.tar}}`
 
 - Importiere eine Distribution von einer `.tar` Datei:
 
