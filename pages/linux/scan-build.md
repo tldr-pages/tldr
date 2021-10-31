@@ -3,7 +3,7 @@
 > A command-line utility to run a static analyzer over a codebase as part of performing a regular build.
 > More information: <https://clang-analyzer.llvm.org/scan-build.html>.
 
-Basic usage of scan-build is designed to be simple: just place the word `scan-build` in front of your build command:
+Build and analyze the project in the current directory:
 
 `scan-build {{make}}`
 
