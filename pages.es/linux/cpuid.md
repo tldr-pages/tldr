@@ -3,14 +3,14 @@
 > Muestra información detallada sobre todas los CPUs.
 > Más información: <http://etallen.com/cpuid.html>.
 
-- Display information for all CPUs:
+- Muestra información de todas los CPUs:
 
 `cpuid`
 
-- Muestra información sobre todas los CPUs:
+- Muestra información sólo para la CPU actual:
 
 `cpuid -1`
 
-- Mostrar la información hexadecimal en bruto sin decodificar:
+- Muestra la información hexadecimal en bruto sin decodificar:
 
 `cpuid -r`
