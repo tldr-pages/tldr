@@ -7,7 +7,7 @@
 
 `pulseaudio --check`
 
-- Esegui il daemon di PulseAudio in background:
+- Esegue il daemon di PulseAudio in background:
 
 `pulseaudio --start`
 
