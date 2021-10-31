@@ -30,3 +30,7 @@
 - Interactively debug a Python script:
 
 `python -m pdb {{script.py}}`
+
+- Start the built-in HTTP server on port 8000 in the current directory:
+
+`python -m {{http.server}}`
