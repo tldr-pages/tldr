@@ -3,7 +3,7 @@
 > Reporta información sobre procesos, memoria, paginación, IO en bloque, traps, discos y actividad del CPU.
 > Más información: <https://manned.org/vmstat>.
 
-- Mostrar las estadísticas de la memoria virtual:
+- Muestra las estadísticas de la memoria virtual:
 
 `vmstat`
 
