@@ -11,6 +11,10 @@
 
 `pmset -g batt`
 
+- 立即让显示器进入休眠状态：
+
+`pmset displaysleepnow`
+
 - 当充电器通电时，将显示器设置为从不休眠：
 
 `sudo pmset -c displaysleep 0`
