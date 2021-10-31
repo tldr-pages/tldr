@@ -1,12 +1,8 @@
 # aws ses
 
-> CLI for AWS SES.
+> CLI for AWS Simple Email Service.
 > High-scale inbound and outbound cloud email service.
 > More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ses/index.html>.
-
-- Show help for specific SES subcommand:
-
-`aws ses {{subcommand}} help`
 
 - Create a new receipt rule set:
 
@@ -34,4 +30,8 @@
 
 - Send an email:
 
-`aws ses send-email --from {{from_address}} --destination "ToAddresses={{addresses}}" --message "Subject={Data={{subject_text}},Charset=utf8},Body={Text={Data={{body_text}},Charset=utf8},Html={Data={{}},Charset=utf8}}"`
+`aws ses send-email --from {{from_address}} --destination "ToAddresses={{addresses}}" --message "Subject={Data={{subject_text}},Charset=utf8},Body={Text={Data={{body_text}},Charset=utf8},Html={Data={{message_body_containing_html}},Charset=utf8}}"`
+
+- Show help for a specific SES subcommand:
+
+`aws ses {{subcommand}} help`
