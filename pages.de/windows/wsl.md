@@ -25,7 +25,7 @@
 
 - Importiere eine Distribution von einer `.tar` Datei:
 
-`wsl --import {{distribution}} {{pfad/zum/installations_ordner}} {{pfad/zur/tar_datei.tar}}`
+`wsl --import {{distribution}} {{pfad/zu/installations_ordner}} {{pfad/zu/tar_datei.tar}}`
 
 - Ändere die WSL-Version einer bestimmten Distribution:
 
