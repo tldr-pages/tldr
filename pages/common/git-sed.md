@@ -1,4 +1,4 @@
-# git summary
+# git sync
 
 > Run grep as directed but replace the given files with the pattern.
 > Works only on git tracked files
