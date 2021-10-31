@@ -12,7 +12,7 @@
 
 `ufw disable`
 
-- Mostrar reglas del ufw, junto con sus números:
+- Muestra reglas del ufw, junto con sus números:
 
 `ufw status numbered`
 
