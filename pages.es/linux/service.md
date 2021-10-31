@@ -11,7 +11,7 @@
 
 `service {{nombre_de_servicio}} {{start|stop|restart|reload}}`
 
-- Hacer un reinicio completo (ejecuta el script dos veces con start y stop):
+- Hace un reinicio completo (ejecuta el script dos veces con _start_ y _stop_):
 
 `service {{nombre_de_servicio}} --full-restart`
 
