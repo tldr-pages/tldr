@@ -11,7 +11,7 @@
 
 `pulseaudio --start`
 
-- Interrompi l'esecuzione del daemon di PulseAudio:
+- Interrompe l'esecuzione del daemon di PulseAudio:
 
 `pulseaudio --kill`
 
