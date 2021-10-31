@@ -6,7 +6,7 @@
 
 - Erstelle ein neues Rails Projekt:
 
-`rails new "{{project_name}}"`
+`rails new "{{projekt_name}}"`
 
 - Starte einen lokalen Server für das gegenwärtige Project unter Port 3000:
 
