@@ -7,7 +7,7 @@
 
 `service --status-all`
 
-- Iniciar/Parar/Reiniciar/Recargar servicio (iniciar/parar debería estar siempre disponible):
+- Inicia/Para/Reinicia/Recarga servicio (_start_/_stop_ debería estar siempre disponible):
 
 `service {{nombre_de_servicio}} {{start|stop|restart|reload}}`
 
