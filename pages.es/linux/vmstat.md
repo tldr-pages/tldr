@@ -1,6 +1,6 @@
 # vmstat
 
-> Reporte de información sobre procesos, memoria, paginación, IO en bloque, traps, discos y actividad del CPU.
+> Reporta información sobre procesos, memoria, paginación, IO en bloque, traps, discos y actividad del CPU.
 > Más información: <https://manned.org/vmstat>.
 
 - Mostrar las estadísticas de la memoria virtual:
