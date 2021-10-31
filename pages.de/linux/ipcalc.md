@@ -3,22 +3,22 @@
 > Einfache Operationen und Berechnungen mit IP-Adressen und Netzwerken durchführen.
 > Weitere Informationen: <https://manned.org/ipcalc>.
 
-- Informationen über eine Adresse oder ein Netzwerk mit einer bestimmten Subnetzmaske anzeigen:
+- Zeige Informationen über eine Adresse oder ein Netzwerk mit einer bestimmten Subnetzmaske an:
 
 `ipcalc {{1.2.3.4}} {{255.255.255.0}}`
 
-- Informationen über eine Adresse oder ein Netzwerk in CIDR-Notation anzeigen:
+- Zeige Informationen über eine Adresse oder ein Netzwerk in CIDR-Notation an:
 
 `ipcalc {{1.2.3.4}}/{{24}}`
 
-- Anzeige der Broadcast-Adresse einer Adresse oder eines Netzwerks:
+- Zeige die Broadcast-Adresse einer Adresse oder eines Netzwerks an:
 
 `ipcalc -b {{1.2.3.4}}/{{30}}`
 
-- Anzeige der Netzwerkadresse der angegebenen IP-Adresse und Netzmaske:
+- Zeige die Netzwerkadresse der angegebenen IP-Adresse und Netzmaske an:
 
 `ipcalc -n {{1.2.3.4}}/{{24}}`
 
-- Anzeige geografischer Informationen zu einer bestimmten IP-Adresse:
+- Zeige geografische Informationen zu einer bestimmten IP-Adresse an:
 
 `ipcalc -g {{1.2.3.4}}`
