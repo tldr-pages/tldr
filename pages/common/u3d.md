@@ -17,7 +17,7 @@
 
 - Download and install latest stable Unity version:
 
-`u3d install {{latest_stable}}`
+`u3d install latest_stable`
 
 - Download and install Unity version and editor [p]ackages:
 
