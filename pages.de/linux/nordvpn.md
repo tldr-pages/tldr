@@ -7,7 +7,7 @@
 
 `nordvpn login`
 
-- Anzeige des Verbindungsstatus:
+- Zeige den Verbindungsstatus an:
 
 `nordvpn status`
 
@@ -15,7 +15,7 @@
 
 `nordvpn connect`
 
-- Alle verfügbaren Länder auflisten:
+- Liste alle verfügbaren Länder auf:
 
 `nordvpn countries`
 
