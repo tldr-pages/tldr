@@ -1,7 +1,7 @@
 # pkginfo
 
 > Query the package database on a CRUX system.
-> More information: <https://crux.nu/Main/Handbook3-6>
+> More information: <https://manned.org/pkginfo.1>.
 
 - List installed packages and their versions:
 
