@@ -1,0 +1,11 @@
+name: 'PR Labeler'
+description: 'Automatically label new pull requests for tldr-pages/tldr repo'
+author: 'tldr-pages'
+inputs:
+  repo-token:
+    description: 'The GITHUB_TOKEN secret'
+    required: true
+
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

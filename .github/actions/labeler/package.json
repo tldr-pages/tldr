@@ -1,0 +1,28 @@
+{
+  "name": "@tldr-pages/labeler",
+  "version": "1.0.0",
+  "description": "Action to handle automatic PR labeling",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc && ncc build lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tldr-pages/tldr.git"
+  },
+  "author": "tldr-pages",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tldr-pages/tldr/issues"
+  },
+  "homepage": "https://github.com/tldr-pages/tldr#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.20.36",
+    "@vercel/ncc": "^0.31.1",
+    "typescript": "^4.4.4"
+  }
+}
