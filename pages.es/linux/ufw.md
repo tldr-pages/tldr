@@ -8,7 +8,7 @@
 
 `ufw enable`
 
-- Desactivar ufw:
+- Desactiva ufw:
 
 `ufw disable`
 
