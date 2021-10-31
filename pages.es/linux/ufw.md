@@ -1,6 +1,6 @@
 # ufw
 
-> Cortafuegos sin complicaciones (Uncomplicated Firewall).
+> Cortafuegos sin complicaciones (_Uncomplicated Firewall_).
 > Interfaz de usuario de iptables para facilitar la configuración de un firewall.
 > Más información: <https://wiki.ubuntu.com/UncomplicatedFirewall>.
 
