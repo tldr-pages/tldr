@@ -15,6 +15,6 @@
 
 `service {{nombre_de_servicio}} --full-restart`
 
-- Mostrar el estado actual de un servicio:
+- Muestra el estado actual de un servicio:
 
 `service {{nombre_de_servicio}} status`
