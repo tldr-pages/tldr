@@ -5,7 +5,7 @@
 
 Basic usage of scan-build is designed to be simple: just place the word `scan-build` in front of your build command:
 
-`scan-build make; scan-build xcodebuild`
+`scan-build {{make}}`
 
 In the first case scan-build analyzes the code of a project built with `make` and in the second case scan-build analyzes a project built using `xcodebuild`.
 
