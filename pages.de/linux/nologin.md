@@ -2,10 +2,10 @@
 
 > Alternative Shell, die verhindert, dass sich ein Benutzer einloggt.
 
-- Die Login-Shell eines Benutzers auf `nologin` setzen, um zu verhindern, dass der Benutzer sich anmeldet:
+- Setze die Login-Shell eines Benutzers auf `nologin`, um zu verhindern, dass der Benutzer sich anmeldet:
 
 `chsh -s {{user}} nologin`
 
-- Nachricht für Benutzer mit Login-Shell `nologin` anpassen:
+- Passe die Nachricht für Benutzer mit Login-Shell `nologin` an:
 
-`echo "{{declined_login_message}}" > /etc/nologin.txt`
+`echo "{{nachricht}}" > /etc/nologin.txt`
