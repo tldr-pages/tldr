@@ -33,4 +33,4 @@
 
 - 列出指定压缩档案中的文件（不提取文件）：
 
-`zip -sf {{compressed.zip}}`
+`zip -sf {{压缩文件.zip}}`
