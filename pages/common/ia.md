@@ -1,6 +1,6 @@
 # ia
 
-> Command line tool to interact with archive.org.
+> Command-line tool to interact with archive.org.
 > More information: <https://archive.org/services/docs/api/internetarchive/cli.html>.
 
 - Configure ia to get your API keys; certain functions won't work without this step:
