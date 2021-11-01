@@ -2,7 +2,7 @@
 
 > Pokazuje kto jest zalogowany i co aktualnie robi.
 > Wyświetla login, TTY, zdalny host, czas zalogowania, czas bezczynności i aktualny proces.
-> Więcej informacji: <https://manned.org/w>.
+> Więcej informacji: <https://ss64.com/osx/w.html>.
 
 - Pokazuje informacje o aktualnie zalogowanych użytkownikach:
 
