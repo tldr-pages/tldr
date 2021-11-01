@@ -21,7 +21,7 @@
 
 - 将文件添加到现有的 zip 文件：
 
-`zip {{compressed.zip}} {{path/to/file}}`
+`zip {{压缩文件.zip}} {{路径/到/文件}}`
 
 - 从现有 zip 文件中删除文件：
 
