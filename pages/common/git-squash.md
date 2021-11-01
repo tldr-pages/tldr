@@ -4,7 +4,7 @@
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-squash>.
 
-- Squash everything from a specific branch info the current branch:
+- Squash everything from a specific branch into the current branch:
 
 `git squash {{source-branch|commit-ref}}`
 
