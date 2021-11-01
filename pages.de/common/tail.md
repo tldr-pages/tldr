@@ -19,7 +19,7 @@
 
 `tail -f {{datei}}`
 
-- Lese aus einer Datei, bis `Ctrl + C` gedrückt wird, selbst, wenn die Datei nicht zugänglich ist:
+- Lies aus einer Datei, bis `Ctrl + C` gedrückt wird, selbst, wenn die Datei nicht zugänglich ist:
 
 `tail -F {{datei}}`
 
