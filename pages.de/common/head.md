@@ -15,6 +15,6 @@
 
 `head -n -{{anzahl_an_zeilen}} {{datei}}`
 
-- Gebe alle bis auf die letzten Bytes einer Datei aus:
+- Gib alle bis auf die letzten Bytes einer Datei aus:
 
 `head -c -{{anzahl_bytes}} {{datei}}`
