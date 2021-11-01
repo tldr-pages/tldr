@@ -7,11 +7,11 @@
 
 `clang-tidy {{path/to/file.cpp}}`
 
-- Don't run any checks other than the cppcoreguidelines checks on a file:
+- Don't run any checks other than the `cppcoreguidelines` checks on a file:
 
 `clang-tidy {{path/to/file.cpp}} -checks={{-*,cppcoreguidelines-*}}`
 
-- List all checks:
+- List all available checks:
 
 `clang-tidy -checks={{*}} -list-checks`
 
