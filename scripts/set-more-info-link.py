@@ -33,7 +33,7 @@ labels = {
     "ru": "Больше информации:",
     "sr": "Više informacija na:",
     "sv": "Mer information:",
-    "ta": "மேலும் தகவல்:",
+    "ta": "மேலும் விவரத்திற்கு:",
     "th": "ดูเพิ่มเติม:",
     "tr": "Daha fazla bilgi için:",
     "uk": "Більше інформації:",
