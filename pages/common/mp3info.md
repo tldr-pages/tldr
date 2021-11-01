@@ -11,7 +11,7 @@
 
 `mp3info -i {{path/to/mp3file}}`
 
-- Set values for ID3v1 tags in a MP3 file:
+- Set values for ID3v1 tags in a specific MP3 file:
 
 `mp3info -a "{{artist_name}}" -t "{{song_title}}" -l "{{album_title}}" -y {{year}} -c "{{comment_text}}" {{path/to/file.mp3}}`
 
