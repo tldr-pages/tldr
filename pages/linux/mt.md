@@ -3,7 +3,7 @@
 > Control magnetic tape drive operation (commonly LTO tape).
 > More information: <https://manned.org/mt>.
 
-- Check tape status:
+- Check the status of a tape drive:
 
 `mt -f {{/dev/[nst|st]N}} status`
 
