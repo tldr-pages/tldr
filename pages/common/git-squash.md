@@ -1,6 +1,6 @@
 # git squash
 
-> Squash N last changes up to a ref'ed commit.
+> Squash N last changes up to a ref'ed commit into current HEAD.
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-squash>.
 
