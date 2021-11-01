@@ -3,7 +3,7 @@
 > Viewer/editor for ID3v1 (but not ID3v2) tags of MP3 files.
 > More information: <http://www.ibiblio.org/mp3info>.
 
-- Show all ID3v1 tags of a MP3 file:
+- Show all ID3v1 tags of a specific MP3 file:
 
 `mp3info {{path/to/file.mp3}}`
 
