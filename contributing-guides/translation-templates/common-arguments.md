@@ -35,5 +35,5 @@ Only the left-alignment of the header gets lost and has to be readded again (`|-
 | th    |                      |                        |                                   |           |                   |
 | tr    |                      |                        |                                   |           |                   |
 | uk    |                      |                        |                                   |           |                   |
-| zh    |                      |                        |                                   |           |                   |
-| zh_TW |                      |                        |                                   |           |                   |
+| zh    | 路径/到/文件         | 路径/到/目录           | 路径/到/文件或目录                | 包        | 用户名        |
+| zh_TW | 檔案/完整/路徑       | 目錄/完整/路徑         | 檔案或目錄/完整/路徑              | 套件      | 使用者名稱    |
