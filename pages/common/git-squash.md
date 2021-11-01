@@ -6,7 +6,11 @@
 
 - Squash everything from a specific branch into the current branch:
 
-`git squash {{source-branch|commit-ref}}`
+`git squash {{source-branch}}`
+
+- Squash everything from a commit reference into the current branch:
+
+`git squash {{commit-ref}}`
 
 - Squash the `n` latest commits and commit with a message:
 
