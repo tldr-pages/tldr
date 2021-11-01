@@ -11,7 +11,7 @@
 
 `head -c {{anzahl_an_bytes}} {{datei}}`
 
-- Gebe alle bis auf die letzten Zeilen einer Datei aus:
+- Gib alle bis auf die letzten Zeilen einer Datei aus:
 
 `head -n -{{anzahl_zeilen}} {{datei}}`
 
