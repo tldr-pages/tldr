@@ -16,7 +16,7 @@
 
 `test -f "{{ścieżka/do/pliku}}"`
 
-- Sprawdź czy katalog nie istnieje
+- Sprawdź czy katalog nie istnieje:
 
 `test ! -d "{{ścieżka/do/katalogu}}"`
 
