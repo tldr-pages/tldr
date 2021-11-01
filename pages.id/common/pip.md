@@ -12,7 +12,7 @@
 
 `pip install {{nama_paket}}=={{versi_paket}}`
 
-- Instal paket ke direktori pengguna alih-alih lokasi default seluruh sistem:
+- Memasang paket untuk hanya digunakan oleh pengguna saat ini:
 
 `pip install --user {{nama_paket}}`
 
