@@ -25,4 +25,4 @@
 
 - Zeige die letzten Zeilen einer Datei an und lade alle paar Sekunden neu:
 
-`tail -n {{anzahl_zeilen}} -s {{anzahl_sekunden}} -f {{datei}}`
+`tail -n {{anzahl_an_zeilen}} -s {{anzahl_an_sekunden}} -f {{datei}}`
