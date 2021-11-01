@@ -5,7 +5,7 @@
 
 - Show all ID3v1 tags of a MP3 file:
 
-`mp3info {{path/to/mp3file}}`
+`mp3info {{path/to/file.mp3}}`
 
 - Edit ID3v1 tags interactively:
 
