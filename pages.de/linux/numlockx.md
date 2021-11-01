@@ -7,14 +7,14 @@
 
 `numlockx status`
 
-- Schalte die Zahlensperre ein:
+- Schalte die Num-Lock-Taste ein:
 
 `numlockx on`
 
-- Schalte die Zahlensperre aus:
+- Schalte die Num-Lock-Taste aus:
 
 `numlockx off`
 
-- Schalte die Zahlensperre um:
+- Schalte die Num-Lock-Taste um:
 
 `numlockx toggle`
