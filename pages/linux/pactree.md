@@ -1,13 +1,13 @@
 # pactree
 
 > Package dependency tree viewer for pacman.
-> More information: <https://man.archlinux.org/man/community/pacman-contrib/pactree.8.en>.
+> More information: <https://man.archlinux.org/man/pactree.8>.
 
-- View the dependency tree of a package:
+- Print the dependency tree of a specific package:
 
 `pactree {{package}}`
 
-- View what packages depend on this package:
+- Print what packages depend on a specific package:
 
 `pactree --reverse {{package}}`
 
@@ -15,10 +15,10 @@
 
 `pactree --unique {{package}}`
 
-- Include optional dependencies of a package and colorize the output:
+- Include optional dependencies of a specific package and colorize the output:
 
 `pactree --optional --color {{package}}`
 
-- Show the help page:
+- Display help:
 
 `pactree`
