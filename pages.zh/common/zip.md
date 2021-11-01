@@ -17,7 +17,7 @@
 
 - 创建一个加密压缩档案（将会提示输入密码）：
 
-`zip -e -r {{compressed.zip}} {{path/to/directory}}`
+`zip -e -r {{压缩文件.zip}} {{路径/到/目录}}`
 
 - 将文件添加到现有的 zip 文件：
 
