@@ -15,9 +15,9 @@
 
 `mt -f {{/dev/[nst|st]N}} fsf <count>`
 
-- Rewind the tape, then position tape at beginning of `<count>` file:
+- Rewind the tape, then position the tape at beginning of the given file:
 
-`mt -f {{/dev/[nst|st]N}} asf <count>`
+`mt -f {{/dev/nstX}} asf {{count}}`
 
 - Position the tape at the end of valid data:
 
