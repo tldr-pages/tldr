@@ -9,7 +9,7 @@
 
 - 添加到压缩档案中并排除不需要的文件：
 
-`zip -r {{compressed.zip}} {{path/to/directory}} -x {{path/to/exclude}}`
+`zip -r {{压缩文件.zip}} {{路径/到/目录}} -x {{路径/到/不需要的文件}}`
 
 - 使用最高压缩级别 9 压缩目录和内容：
 
