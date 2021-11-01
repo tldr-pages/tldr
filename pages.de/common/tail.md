@@ -13,7 +13,7 @@
 
 - Zeige die letzten Bytes einer Datei an:
 
-`tail -c {{anzahl_bytes}} {{datei}}`
+`tail -c {{anzahl_an_bytes}} {{datei}}`
 
 - Lese aus einer Datei, bis `Ctrl + C` gedrückt wird:
 
