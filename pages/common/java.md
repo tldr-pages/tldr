@@ -1,7 +1,7 @@
 # java
 
 > Java Application Launcher.
-> More information: <https://www.oracle.com/java/technologies/javase-documentation.html>.
+> More information: <https://docs.oracle.com/en/java/javase/17/docs/specs/man/java.html>.
 
 - Execute a java `.class` file that contains a main method by using just the class name:
 
