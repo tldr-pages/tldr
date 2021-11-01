@@ -19,7 +19,7 @@
 
 `mt -f {{/dev/[nst|st]N}} asf <count>`
 
-- Position tape at the end of valid data:
+- Position the tape at the end of valid data:
 
 `mt -f {{/dev/[nst|st]N}} eod`
 
