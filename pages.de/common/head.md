@@ -9,7 +9,7 @@
 
 - Gebe die ersten Bytes einer Datei aus:
 
-`head -c {{anzahl_bytes}} {{datei}}`
+`head -c {{anzahl_an_bytes}} {{datei}}`
 
 - Gebe alle bis auf die letzten Zeilen einer Datei aus:
 
