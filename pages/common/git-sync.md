@@ -1,17 +1,17 @@
 # git sync
 
-> Sync local branch with remote branch.
+> Sync local branches with remote branches.
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-sync>.
 
-- Sync local branch with its remote branch:
+- Sync the current local branch with its remote branch:
 
 `git sync`
 
-- Sync local branch with origin/master:
+- Sync the current local branch with the remote main branch:
 
-`git sync origin master`
+`git sync origin main`
 
 - Sync without cleaning untracked files:
 
-`git sync -s origin master`
+`git sync -s {{remote_name}} {{branch_name}}`
