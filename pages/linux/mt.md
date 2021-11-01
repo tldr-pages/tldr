@@ -11,9 +11,9 @@
 
 `mt -f {{/dev/[nst|st]N}} rewind`
 
-- Forward `<count>` files, then position tape on first block of next file:
+- Move forward a given files, then position the tape on first block of next file:
 
-`mt -f {{/dev/[nst|st]N}} fsf <count>`
+`mt -f {{/dev/nstX}} fsf {{count}}`
 
 - Rewind the tape, then position the tape at beginning of the given file:
 
