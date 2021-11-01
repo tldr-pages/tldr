@@ -1,7 +1,7 @@
 # ddcutil
 
 > Control the settings of connected displays via DDC/CI.
-> More information: <https://www.ddcutil.com/>.
+> More information: <https://www.ddcutil.com>.
 
 - List all compatible displays:
 
