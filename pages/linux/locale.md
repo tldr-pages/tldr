@@ -3,7 +3,7 @@
 > Get locale-specific information.
 > More information: <https://manned.org/locale>.
 
-- List the global locale variables and their values:
+- List all global environment variables describing the user's locale:
 
 `locale`
 
