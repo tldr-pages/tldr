@@ -7,7 +7,7 @@
 
 `head -n {{anzahl_an_zeilen}} {{datei}}`
 
-- Gebe die ersten Bytes einer Datei aus:
+- Gib die ersten Bytes einer Datei aus:
 
 `head -c {{anzahl_an_bytes}} {{datei}}`
 
