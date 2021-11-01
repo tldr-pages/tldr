@@ -3,7 +3,7 @@
 > Gestionnaire de paquet d'Alpine Linux.
 > Plus d'informations : <https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management>.
 
-- Mets à jour les indexes de tous les dêpots distants :
+- Mets à jour les indexes de tous les dépôts distants :
 
 `apk update`
 
@@ -15,7 +15,7 @@
 
 `apk del {{paquet}}`
 
-- Essaye de réparer un paquet ou mettre à jour un paquet sans ses dépendances :
+- Essaye de réparer un paquet ou de mettre à jour un paquet sans ses dépendances :
 
 `apk fix {{paquet}}`
 
