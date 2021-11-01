@@ -1,7 +1,6 @@
 # git sync
 
-> Run grep as directed but replace the given files with the pattern.
-> Works only on git tracked files.
+> Replace patterns in git-controlled files using sed.
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-sed>.
 
