@@ -27,6 +27,6 @@
 
 `mt -f {{/dev/[nst|st]N}} eject`
 
-- Write EOF (End-of-file) mark at current position:
+- Write EOF (End-of-file) mark at the current position:
 
 `mt -f {{/dev/[nst|st]N}} eof`
