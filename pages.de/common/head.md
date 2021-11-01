@@ -17,4 +17,4 @@
 
 - Gib alle bis auf die letzten Bytes einer Datei aus:
 
-`head -c -{{anzahl_bytes}} {{datei}}`
+`head -c -{{anzahl_an_bytes}} {{datei}}`
