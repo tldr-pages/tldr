@@ -20,6 +20,6 @@
 
 `test ! -d "{{ścieżka/do/katalogu}}"`
 
-- Zapis jeśli porawne-jeśli fałszywe
+- Zapis jeśli porawne-jeśli fałszywe:
 
 `test {{warunek}} && {{echo "gdy poprawne"}} || {{echo "gdy fałszywe"}}`
