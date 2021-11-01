@@ -5,7 +5,7 @@
 
 - Zeige die letzten Zeilen einer Datei an:
 
-`tail -n {{anzahl_zeilen}} {{datei}}`
+`tail -n {{anzahl_an_zeilen}} {{datei}}`
 
 - Zeige alle Zeilen einer Datei ab einer bestimmten Zeile an:
 
