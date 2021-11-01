@@ -19,14 +19,18 @@
 
 `python -c "{{expression}}"`
 
-- Run library module as a script (terminates option list):
+- Run the script of the specified library module:
 
 `python -m {{module}} {{arguments}}`
 
-- Install a package using pip:
+- Install a package using `pip`:
 
 `python -m pip install {{package_name}}`
 
 - Interactively debug a Python script:
 
 `python -m pdb {{script.py}}`
+
+- Start the built-in HTTP server on port 8000 in the current directory:
+
+`python -m {{http.server}}`

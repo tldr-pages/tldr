@@ -1,6 +1,7 @@
 # less
 
 > Öffne eine Datei für interaktives lesen, erlaubt scrollen und suchen.
+> Weitere Informationen: <https://greenwoodsoftware.com/less/>.
 
 - Öffne eine Datei:
 
@@ -14,7 +15,7 @@
 
 `G (Ende), g (Anfang)`
 
-- Suche nach einer Zeichenkette forwärts (n/N um zur nächsten/vorherigen Übereinstimmung zu springen):
+- Suche nach einer Zeichenkette vorwärts (n/N um zur nächsten/vorherigen Übereinstimmung zu springen):
 
 `/{{suche}}`
 
@@ -22,7 +23,7 @@
 
 `?{{suche}}`
 
-- Folge der Ausgabe des geöffeten Buffers:
+- Folge der Ausgabe des geöffneten Buffers:
 
 `F`
 

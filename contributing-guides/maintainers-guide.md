@@ -47,7 +47,7 @@ as a guideline for current and future maintainers.
 
 - Try to **keep the entire contribution process web-based**, if possible,
   to ensure it is accessible and straightforward.
-  If you're comfortable with git, consider offering to perform
+  If you're comfortable with Git, consider offering to perform
   interactive rebases or other command-line operations
   on behalf of contributors,
   or assisting them if they want to do it themselves.
@@ -56,9 +56,9 @@ as a guideline for current and future maintainers.
 
 - PRs should be merged once they
   (1) **pass the automated tests** (GitHub Actions, CLA signing, etc.),
-  (2) have the **review comments addressed**, and
-  (3) get **approved reviews by two maintainers**
-  (the second maintainer can perform the merge immediately after accepting.)
+  (2) have the **review comments addressed**,
+  (3) get **approved reviews by two maintainers**, (the second maintainer can merge immediately after approving) and
+  (4) have been open for at least **24 hours** unless the changes are trivial
 
 - If a PR fails to get a review from a second maintainer after a few days,
   the first maintainer should ping others for review. If it still lingers around
@@ -71,7 +71,7 @@ as a guideline for current and future maintainers.
   and proceed with the merge process.
 
 - If a PR **stops getting feedback from the submitter** and is marked as stale
-  by [probot-stale](../.github/stale.yml),
+  by [probot-stale](../.github/workflows/stale.yml),
   any maintainer can choose to take over the PR
   and make the necessary changes to get the content ready for merging.
 

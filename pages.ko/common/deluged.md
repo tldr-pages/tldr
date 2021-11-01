@@ -1,7 +1,7 @@
 # deluged
 
 > Deluge BitTorrent 클라이언트를 위한 데몬 프로세스.
-> 더 많은 정보: <https://deluge-torrent.org/>.
+> 더 많은 정보: <https://deluge-torrent.org>.
 
 - Deluge 데몬 시작하기:
 

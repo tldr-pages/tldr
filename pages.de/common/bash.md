@@ -2,7 +2,7 @@
 
 > Bourne-Again SHell.
 > `sh`-kompatibler Kommandozeilen-Interpreter.
-> Weitere Informationen: <https://gnu.org/software/bash>.
+> Weitere Informationen: <https://gnu.org/software/bash/>.
 
 - Interaktive Shell starten:
 
@@ -16,7 +16,7 @@
 
 `bash {{pfad/zu/datei.sh}}`
 
-- Führe Befehle aus einer Datei aus and protokolliere alle ausgeführten Befehle an das Terminal:
+- Führe Befehle aus einer Datei aus und protokolliere alle ausgeführten Befehle an das Terminal:
 
 `bash -x {{pfad/zu/datei.sh}}`
 

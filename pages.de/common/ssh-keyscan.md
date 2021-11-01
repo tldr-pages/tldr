@@ -1,6 +1,7 @@
 # ssh-keyscan
 
 > Rufe öffentliche SSH Schlüssel eines externen Servers ab.
+> Weitere Informationen: <https://man.openbsd.org/ssh-keyscan>.
 
 - Rufe alle öffentlichen SSH Schlüssel eines Servers ab:
 

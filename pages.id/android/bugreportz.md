@@ -2,7 +2,7 @@
 
 > Membuat sebuah laporan masalah Android dalam format file arsip (zip).
 > Perintah ini hanya dapat digunakan di dalam `adb shell`.
-> Informasi lebih lanjut: <https://android.googlesource.com/platform/frameworks/native/+/master/cmds/bugreport/>.
+> Informasi lebih lanjut: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/bugreportz>.
 
 - Membuat sebuah arsip laporan masalah perangkat Android secara lengkap:
 

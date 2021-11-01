@@ -14,6 +14,8 @@ The overall process should look somewhat like this:
 3. Create a feature branch, e.g. named after the command you plan to edit:
   `git checkout -b {{branch_name}}`
 
+  > :warning: It is bad practice to submit a PR from the `main` branch of your forked repository. Please create pull requests from a well named feature branch.
+
 4. Make your changes (edit existing files or create new ones)
 
 5. Commit the changes (following the [commit message guidelines][commit-msg]):
@@ -22,11 +24,13 @@ The overall process should look somewhat like this:
 6. Push the commit(s) to your fork:
   `git push origin {{branch_name}}`
 
-7. Go to the GitHub page for your fork and click the green "pull request" button.
+  > :warning: Please avoid force-pushing since it makes the review process harder.
+
+7. Go to the GitHub page for your fork and click the green "Compare & pull request" button.
 
 Please only send related changes in the same pull request.
-Typically a pull request will include changes in a single file.
-(Exceptions are [occasionally acceptable][mass-changes].)
+Typically a pull request will include changes in a single file **unless the pull request is introducing translations**.
+(Exceptions are [occasionally acceptable][mass-changes])
 
 [pr-howto]: ../CONTRIBUTING.md#submitting-a-pull-request
 [commit-msg]: ../CONTRIBUTING.md#commit-message
@@ -40,7 +44,7 @@ There are two ways to update your fork.
 
 1. Via the GitHub web interface. Click `Fetch upstream` and then `Fetch and merge` on the fork as shown below:
 
-![Fetch and merge button in GitHub](../images/github-fetch-and-merge-button.png).
+![Fetch and merge button in GitHub](../images/github-fetch-and-merge-button.png)
 
 2. Using Git in the terminal:
 

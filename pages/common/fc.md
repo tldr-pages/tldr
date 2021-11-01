@@ -15,3 +15,11 @@
 - List recent commands from history:
 
 `fc -l`
+
+- List recent commands in reverse order:
+
+`fc -r`
+
+- List commands in a given interval:
+
+`fc '{{416}}' '{{420}}'`

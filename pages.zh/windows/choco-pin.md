@@ -2,6 +2,7 @@
 
 > 使用 Chocolatey 将一个包固定到指定的版本。
 > 被固定版本的包会在更新时自动忽略。
+> 更多信息：<https://chocolatey.org/docs/commands-pin>.
 
 - 显示被固定的包以及他们对应的版本号：
 

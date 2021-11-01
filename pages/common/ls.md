@@ -33,4 +33,4 @@
 
 - Only list directories:
 
-`ls -d {{*/}}`
+`ls -d */`

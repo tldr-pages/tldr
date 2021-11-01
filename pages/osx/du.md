@@ -3,7 +3,7 @@
 > Disk usage: estimate and summarize file and directory space usage.
 > More information: <https://ss64.com/osx/du.html>.
 
-- List the sizes of a directory and any subdirectories, in the given unit (KB/MB/GB):
+- List the sizes of a directory and any subdirectories, in the given unit (KiB/MiB/GiB):
 
 `du -{{k|m|g}} {{path/to/directory}}`
 
@@ -25,4 +25,4 @@
 
 - List the human-readable size of all `.jpg` files in subdirectories of the current directory, and show a cumulative total at the end:
 
-`du -ch */*.jpg`
+`du -ch {{*/*.jpg}}`

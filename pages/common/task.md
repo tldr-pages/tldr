@@ -1,6 +1,7 @@
 # task
 
 > TODO list manager.
+> More information: <https://manned.org/task>.
 
 - Add new task:
 

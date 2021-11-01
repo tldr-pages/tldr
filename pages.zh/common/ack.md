@@ -1,6 +1,7 @@
 # ack
 
 > 一个类似 grep 的搜索工具，为程序员优化。
+> 更多信息：<https://beyondgrep.com/documentation>.
 
 - 寻找包含"小明"的文件：
 

@@ -1,6 +1,7 @@
 # htop
 
 > Muestra información dinámica en tiempo real sobre los procesos ejecutándose. Una versión mejorada de `top`.
+> Más información: <https://htop.dev/>.
 
 - Inicia htop:
 

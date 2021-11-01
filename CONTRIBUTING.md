@@ -104,7 +104,10 @@ Some examples of valid locale tags:
  - Chinese (Singapore): `zh_SG`.
  - Portuguese (Brazil): `pt_BR`.
 
-A list of translated templates for alias pages can be found in [here](contributing-guides/alias-pages.md).
+A list of translated templates for alias pages can be found in [here](contributing-guides/translation-templates/alias-pages.md).
+
+Pull requests that introduce translations are the exception to the single file change per Pull Request rule. It is
+acceptable for several pages to be translated in one pull request.
 
 ### Default language for newly added pages
 
@@ -123,6 +126,14 @@ Check out the step-by-step instructions (with screenshots) on
 
 Alternatively, you can do most of the process
 [using Git on the command-line](contributing-guides/git-terminal.md).
+
+### Accepting suggestions within a pull request
+
+The easiest way to apply suggested changes is to accept the suggestion made on your pull request. Refer to the [GitHub docs](https://docs.github.com/en/enterprise-server@3.2/github/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/incorporating-feedback-in-your-pull-request) for more details.
+
+To commit a suggestion to your pull request, simply click on `Commit suggestion`:
+
+![Commit suggestion button in Github](./images/commit-suggestion-button.png)
 
 ### Commit message
 

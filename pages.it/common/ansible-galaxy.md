@@ -22,3 +22,11 @@
 - Crea un nuovo ruolo:
 
 `ansible-galaxy init {{nome_nuovo_ruolo}}`
+
+- Acquisisci informazioni su un ruolo di un utente:
+
+`ansible-galaxy role info {{nome_utente}}.{{nome_ruolo}}`
+
+- Acquisisci informazioni su una collection:
+
+`ansible-galaxy collection info {{nome_utente}}.{{nome_raccolta}}`

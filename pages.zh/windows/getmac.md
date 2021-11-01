@@ -1,6 +1,7 @@
 # getmac
 
 > 显示系统的 MAC 地址。
+> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/getmac>.
 
 - 显示当前系统的 MAC 地址：
 

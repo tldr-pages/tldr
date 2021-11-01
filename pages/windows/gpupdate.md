@@ -9,7 +9,7 @@
 
 - Specify the target Group Policy settings to check for update:
 
-`gpupdate /target=:{{computer|user}}`
+`gpupdate /target:{{computer|user}}`
 
 - Force all Group Policy settings to be reapplied:
 

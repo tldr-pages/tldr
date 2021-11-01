@@ -1,6 +1,7 @@
 # ip
 
 > Zeige und manipuliere routing, Geräte, Policy routing und Tunnel.
+> Weitere Informationen: <https://www.man7.org/linux/man-pages/man8/ip.8.html>.
 
 - Zeige Interfaces mit detaillierten Informationen:
 
@@ -22,7 +23,7 @@
 
 `ip neighbour`
 
-- Schaltee ein bestimmten Interface ein oder aus:
+- Schalte ein bestimmtes Interface ein oder aus:
 
 `ip link set {{interface}} {{up|down}}`
 

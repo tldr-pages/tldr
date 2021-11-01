@@ -1,7 +1,7 @@
 # cat
 
 > Verkette und gib einzelne oder mehrere Dateien aus.
-> Mehrere Informationen: <https://www.gnu.org/software/coreutils/cat>.
+> Weitere Informationen: <https://www.gnu.org/software/coreutils/cat>.
 
 - Gib den Inhalt einer Datei aus:
 
@@ -11,7 +11,7 @@
 
 `cat {{pfad/zu/datei1}} {{pfad/zu/datei2}} > {{pfad/zu/ziel_datei}}`
 
-- Verkette mehrere Dateien und hänge des Ergebnis an eine Datei an:
+- Verkette mehrere Dateien und hänge das Ergebnis an eine Datei an:
 
 `cat {{pfad/zu/datei1}} {{pfad/zu/datei2}} >> {{pfad/zu/ziel_datei}}`
 
