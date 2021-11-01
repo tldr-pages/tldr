@@ -25,7 +25,7 @@
 
 - 从现有 zip 文件中删除文件：
 
-`zip -d {{compressed.zip}} "{{foo/*.tmp}}"`
+`zip -d {{压缩文件.zip}} "{{foo/*.tmp}}"`
 
 - 将指定目录及其内容打包并拆分为多个 zip 文件（例如：若干个 3GB 的 zip 包）：
 
