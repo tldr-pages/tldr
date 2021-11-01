@@ -1,6 +1,6 @@
 # tail
 
-> Gibt das Ende einer Datei aus.
+> Gib das Ende einer Datei aus.
 > Weitere Informationen: <https://www.gnu.org/software/coreutils/tail>.
 
 - Zeige die letzten Zeilen einer Datei an:
