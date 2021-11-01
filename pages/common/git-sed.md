@@ -9,13 +9,13 @@
 
 `git sed '{{find_text}}' '{{replace_text}}'`
 
-- Replace the string and then commit the resulting changes with a standard commit message:
+- Replace the specified text and then commit the resulting changes with a standard commit message:
 
-`git sed -c 'this' 'that'`
+`git sed -c '{{find_text}}' '{{replace_text}}'`
 
-- Replace the string passing regex flags to `sed`:
+- Replace the specified text passing regex flags to `sed`:
 
-`git sed -f g 'this' 'that'`
+`git sed -f g '{{find_text}}' '{{replace_text}}'`
 
 - Replace a specific text from files under a given directory:
 
