@@ -1,9 +1,9 @@
 # numlockx
 
-> Steuern des Zahlensperrenstatus in X11-Sitzungen.
+> Steuere den Num-Lock-Tasten-Status in X11-Sitzungen.
 > Weitere Informationen: <http://www.mike-devlin.com/linux/README-numlockx.htm>.
 
-- Zeige den aktuellen Status der Zahlensperre an:
+- Zeige den aktuellen Status der Num-Lock-Taste an:
 
 `numlockx status`
 
