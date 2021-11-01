@@ -7,7 +7,7 @@
 
 `java {{classname}}`
 
-- Execute a java program and use additional third-party or user-defined classes
+- Execute a java program and use additional third-party or user-defined classes:
 
 `java -classpath {{path/to/classes1}}:{{path/to/classes2}}:. {{classname}}`
 
