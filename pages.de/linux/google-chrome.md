@@ -5,7 +5,7 @@
 
 - Starte mit einem benutzerdefinierten Profilverzeichnis:
 
-`google-chrome --user-data-dir={{pfad/zu/ordner}}`
+`google-chrome --user-data-dir={{pfad/zu/verzeichnis}}`
 
 - Starte ohne CORS-Validierung, nützlich zum Testen einer API:
 
