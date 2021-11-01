@@ -24,10 +24,6 @@
 
 `pip freeze > {{requirements.txt}}`
 
-- Install packages from a file:
-
-`pip install --requirement {{requirements.txt}}`
-
 - Show installed package info:
 
 `pip show {{package_name}}`
