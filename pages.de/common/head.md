@@ -13,7 +13,7 @@
 
 - Gib alle bis auf die letzten Zeilen einer Datei aus:
 
-`head -n -{{anzahl_zeilen}} {{datei}}`
+`head -n -{{anzahl_an_zeilen}} {{datei}}`
 
 - Gebe alle bis auf die letzten Bytes einer Datei aus:
 
