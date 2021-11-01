@@ -11,7 +11,7 @@
 
 `nordvpn status`
 
-- Verbinden dem nächsten NordVPN-Server:
+- Stelle eine Verbindung zum nächsten NordVPN-Server her:
 
 `nordvpn connect`
 
@@ -19,6 +19,6 @@
 
 `nordvpn countries`
 
-- Mit einem NordVPN-Server in einem bestimmten Land verbinden:
+- Stelle eine Verbindung zu einem NordVPN-Server in einem bestimmten Land her:
 
 `nordvpn connect {{Germany}}`
