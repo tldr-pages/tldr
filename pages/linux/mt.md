@@ -5,7 +5,7 @@
 
 - Check the status of a tape drive:
 
-`mt -f {{/dev/[nst|st]N}} status`
+`mt -f {{/dev/nstX}} status`
 
 - Rewind the tape to beginning:
 
