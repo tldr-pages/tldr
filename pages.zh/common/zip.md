@@ -5,7 +5,7 @@
 
 - 递归地打包和压缩文件和目录：
 
-`zip -r {{compressed.zip}} {{path/to/file}} {{path/to/directory1}} {{path/to/directory2}}`
+`zip -r {{压缩文件.zip}} {{路径/到/文件}} {{路径/到/目录1}} {{路径/到/目录2}}`
 
 - 添加到压缩档案中并排除不需要的文件：
 
