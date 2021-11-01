@@ -5,7 +5,7 @@
 
 - Policz linie w pliku
 
-`wc -l {{plik}}`
+`wc -l {{ścieżka/do/pliku}}`
 
 - Policz słowa w pliku:
 
