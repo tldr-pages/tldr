@@ -13,7 +13,7 @@
 
 - Set values for ID3v1 tags in a MP3 file:
 
-`mp3info -a "{{artist_name}}" -t "{{song_title}}" -l "{{album_title}}" -y {{year}} -c "{{comment_text}}" {{path/to/mp3file}}`
+`mp3info -a "{{artist_name}}" -t "{{song_title}}" -l "{{album_title}}" -y {{year}} -c "{{comment_text}}" {{path/to/file.mp3}}`
 
 - Set number of track on album:
 
