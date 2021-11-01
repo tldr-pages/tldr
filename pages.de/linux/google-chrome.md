@@ -9,4 +9,4 @@
 
 - Starte ohne CORS-Validierung, nützlich zum Testen einer API:
 
-`google-chrome --user-data-dir={{pfad/zu/ordner}} --disable-web-security`
+`google-chrome --user-data-dir={{pfad/zu/verzeichnis}} --disable-web-security`
