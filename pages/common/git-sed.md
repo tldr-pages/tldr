@@ -7,16 +7,16 @@
 
 - Replace the string 'this' with 'that':
 
-`git sed 'this' 'that'`
+`git sed '{{find_text}}' '{{replace_text}}'`
 
 - Replace the string and then commit the resulting changes with a standard commit message:
 
 `git sed -c 'this' 'that'`
 
-- Replace the string passing regex flags to `sed` :
+- Replace the string passing regex flags to `sed`:
 
 `git sed -f g 'this' 'that'`
 
-- Replace the string only in the given pathspec:
+- Replace a specific text from files under a given directory:
 
-`git sed 'this' 'that' -- lake/`
+`git sed '{{find_text}}' '{{replace_text}}' -- {{path/to/directory}}`
