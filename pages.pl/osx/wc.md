@@ -13,7 +13,7 @@
 
 - Policz znaki (bajty) w pliku:
 
-`wc -c {{plik}}`
+`wc -c {{ścieżka/do/pliku}}`
 
 - Policz znaki w pliku (uwzględniając znaki zapisane więcej niż jednym bajtem):
 
