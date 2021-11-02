@@ -19,6 +19,6 @@
 
 `ia delete {{identifier_value}} {{file_value}}`
 
-- Search on archive.org; results are retrieved in JSON format:
+- Search on archive.org, returning results as JSON:
 
 `ia search 'subject:{{subject_value}} collection:{{collection_value}}`
