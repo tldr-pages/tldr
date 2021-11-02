@@ -182,7 +182,9 @@ Not translated yet.
 ---
 ### ta
 
-Not translated yet.
+```markdown
+`example command` போன்ற சிலச் சார்கட்டளைகளுக்குத் தனிப் பக்கம் உள்ளது.
+```
 
 ---
 ### th
