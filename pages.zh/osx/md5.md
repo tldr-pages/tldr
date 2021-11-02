@@ -1,6 +1,7 @@
 # md5
 
 > 计算 MD5 加密和校验。
+> 更多信息：<https://www.unix.com/man-page/osx/1/MD5/>.
 
 - 计算一个文件的 MD5 校验值：
 
