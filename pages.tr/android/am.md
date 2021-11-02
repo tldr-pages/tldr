@@ -1,6 +1,6 @@
 # am
 
-> Android aktivite yöneticisi
+> Android aktivite yöneticisi.
 > Daha fazla bilgi için: <https://developer.android.com/studio/command-line/adb#am>.
 
 - Belirtilmiş bir aktiviteyi başlat:
