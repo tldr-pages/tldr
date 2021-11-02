@@ -8,7 +8,7 @@
 
 `az pipelines create --org {{organization_url}} --project {{project_name}} --name {{pipeline_name}} --description {{description}} --repository {{repository_name}} --branch {{branch_name}}`
 
-- Delete a pipeline:
+- Delete a specific pipeline:
 
 `az pipelines delete --org {{organization_url}} --project {{project_name}} --id {{pipeline_id}}`
 
@@ -16,15 +16,15 @@
 
 `az pipelines list --org {{organization_url}} --project {{project_name}}`
 
-- Queue (run) a pipeline:
+- Enqueue a specific pipeline to run:
 
 `az pipelines run --org {{organization_url}} --project {{project_name}} --name {{pipeline_name}}`
 
-- Get the details of a pipeline:
+- Get the details of a specific pipeline:
 
 `az pipelines show --org {{organization_url}} --project {{project_name}} --name {{pipeline_name}}`
 
-- Update a pipeline:
+- Update a specific pipeline:
 
 `az pipelines update --org {{organization_url}} --project {{project_name}} --name {{pipeline_name}} --new-name {{pipeline_new_name}} --new-folder-path {{user1/production_pipelines}}`
 
