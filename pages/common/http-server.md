@@ -19,11 +19,11 @@
 
 `http-server -d {{false}}`
 
-- Start a HTTP server on the default port with SSL using the specified certificates:
+- Start a HTTPS server on the default port using the specified certificates:
 
 `http-server --ssl --cert {{path/to/cert.pem}} --key {{path/to/key.pem}}`
 
-- Start a HTTP server and include the client's IP in the output logging:
+- Start a HTTP server and include the client's IP address in the output logging:
 
 `http-server --log-ip`
 
@@ -31,6 +31,6 @@
 
 `http-server --cors`
 
-- Start a HTTP server with log messages disabled:
+- Start a HTTP server with logging disabled:
 
 `http-server --silent`
