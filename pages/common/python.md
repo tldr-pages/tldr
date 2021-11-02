@@ -25,11 +25,11 @@
 
 - Install a package using `pip`:
 
-`python -m pip install {{package_name}}`
+`python -m {{pip}} install {{package_name}}`
 
 - Interactively debug a Python script:
 
-`python -m pdb {{path/to/file.py}}`
+`python -m {{pdb}} {{path/to/file.py}}`
 
 - Start the built-in HTTP server on port 8000 in the current directory:
 
