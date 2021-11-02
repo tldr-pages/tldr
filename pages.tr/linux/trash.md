@@ -19,7 +19,7 @@
 
 `trash-empty`
 
-- Çöpü {{10}} gün öncesinden daha yeni atılan dosyalar hariç boşalt:
+- Çöpü 10 gün öncesinden daha yeni atılan dosyalar hariç boşalt:
 
 `trash-empty {{10}}`
 
