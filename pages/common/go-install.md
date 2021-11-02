@@ -3,7 +3,7 @@
 > Compile and install packages named by the import paths.
 > More information: <https://pkg.go.dev/cmd/go#hdr-Compile_and_install_packages_and_dependencies>.
 
-- Compile and install current package:
+- Compile and install the current package:
 
 `go install`
 
