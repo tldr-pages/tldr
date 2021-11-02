@@ -17,7 +17,7 @@
 
 - Policz znaki w pliku (uwzględniając znaki zapisane więcej niż jednym bajtem):
 
-`wc -m {{plik}}`
+`wc -m {{ścieżka/do/pliku}}`
 
 - Użyj standardowego wejścia aby policzyć po kolei linie, słowa, i znaki (bajty):
 
