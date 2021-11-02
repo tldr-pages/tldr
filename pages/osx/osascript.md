@@ -1,6 +1,7 @@
 # osascript
 
 > Run AppleScript or JavaScript for Automation (JXA) from the command-line.
+> More information: <https://ss64.com/osx/osascript.html>.
 
 - Run an AppleScript command:
 
