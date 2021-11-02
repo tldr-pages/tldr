@@ -19,7 +19,7 @@
 
 `sudo iptables -A {{chain}} -s {{ip}} -p {{protocol}} --dport {{port}} -j {{rule}}`
 
-- Add a rule to NAT all traffic from the 192.168.0.0/24 subnet to the host's public IP:
+- Add a NAT rule to translate all traffic from the `192.168.0.0/24` subnet to the host's public IP:
 
 `sudo iptables -t {{nat}} -A {{POSTROUTING}} -s {{192.168.0.0/24}} -j {{MASQUERADE}}`
 
