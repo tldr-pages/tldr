@@ -18,4 +18,4 @@
 
 - Squash the `n` latest commits and commit concatenating all messages:
 
-`git squash --squash-msg @~{{n}}`
+`git squash --squash-msg HEAD~{{n}}`
