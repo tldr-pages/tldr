@@ -1,9 +1,9 @@
 # zypper
 
-> SUSE & openSUSE Package Management Werkzeug.
+> SUSE & openSUSE Package-Management-Werkzeug.
 > Weitere Informationen: <https://en.opensuse.org/SDB:Zypper_manual>.
 
-- Synchronisiere Liste von Paketen und verfügbaren Versionen:
+- Synchronisiere die Liste von Paketen und verfügbaren Versionen:
 
 `zypper refresh`
 
@@ -15,7 +15,7 @@
 
 `zypper remove {{paket}}`
 
-- Upgrade installierte Pakete zu der neuesten verfügbaren Version:
+- Aktualisiere installierte Pakete zur neuesten verfügbaren Version:
 
 `zypper update`
 
