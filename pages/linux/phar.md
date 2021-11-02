@@ -1,7 +1,7 @@
 # phar
 
 > Create, update or extract PHP archives (PHAR).
-> More information: https://man.archlinux.org/man/phar.1
+> More information: <https://manned.org/phar>.
 
 - Add space-separated files or directories to a Phar file:
 
