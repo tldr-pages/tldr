@@ -7,9 +7,9 @@
 
 `scan-build {{make}}`
 
-- Here is the general format for invoking scan-build:
+- Invoke `scan-build`:
 
-`scan-build [scan-build options] <command> [command options]`
+`scan-build [scan-build options] {{command}} [command options]`
 
 - Operationally, scan-build literally runs `<command>` with all of the subsequent options passed to it:
 
