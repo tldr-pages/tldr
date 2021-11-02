@@ -1,24 +1,9 @@
 # todoman
 
 > A simple, standards-based, cli todo manager.
-> More information: <https://todoman.readthedocs.io>.
+> `todoman` is a common name for the command `todo`, but not a command itself.
+> More information: <https://todoman.readthedocs.io/>.
 
-- Add a new task to the work list:
+- View documentation for the actual command:
 
-`todo new {{thing_to_do}} --list {{work}}`
-
-- List startable tasks:
-
-`todo list --startable`
-
-- Mark a task as completed:
-
-`todo done {{task_id}}`
-
-- Show details about a task:
-
-`todo show {{task_id}}`
-
-- Delete a task:
-
-`todo delete {{task_id}}`
+`tldr todo`
