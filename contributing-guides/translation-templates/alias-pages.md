@@ -241,7 +241,7 @@ Not translated yet.
 ```markdown
 # example
 
-> Te polecenie jest aliasem `example`.
+> To polecenie jest aliasem `example`.
 
 - Zobacz dokumentację orginalnego polecenia:
 
