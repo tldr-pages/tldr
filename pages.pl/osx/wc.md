@@ -9,7 +9,7 @@
 
 - Policz słowa w pliku:
 
-`wc -w {{plik}}`
+`wc -w {{ścieżka/do/pliku}}`
 
 - Policz znaki (bajty) w pliku:
 
