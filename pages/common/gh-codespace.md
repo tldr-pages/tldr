@@ -15,7 +15,7 @@
 
 `gh codespace ssh`
 
-- Copy a file to a codespace interactively:
+- Transfer a file to a codespace interactively:
 
 `gh codespace cp {{path/to/source_file}} remote:{{path/to/remote_file}}`
 
