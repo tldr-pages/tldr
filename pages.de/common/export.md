@@ -1,6 +1,6 @@
 # export
 
-> Befehl zum Markieren von Shell-Variablen in der aktuellen Umgebung, die mit allen neu gegabelten Unterprozessen exportiert werden sollen.
+> Befehl zum Markieren von Shell-Variablen in der aktuellen Umgebung, die mit allen neu abgezweigten Unterprozessen exportiert werden sollen.
 > Weitere Informationen: <https://www.gnu.org/software/bash/manual/bash.html#index-export>.
 
 - Lege eine neue Umgebungsvariable fest:
@@ -15,6 +15,6 @@
 
 `export -f {{funktionsname}}`
 
-- Hänge etwas an die Pfad-Variable an:
+- Hänge etwas an die PATH-Variable an:
 
 `export PATH=$PATH:{{pfad/zu/anhängen}}`
