@@ -1,6 +1,7 @@
 # m
 
 > macOS 上的瑞士军刀。
+> 更多信息：<https://github.com/rgcr/m-cli>.
 
 - 获取电池状态：
 
