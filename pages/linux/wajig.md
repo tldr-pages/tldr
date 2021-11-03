@@ -23,7 +23,7 @@
 
 `wajig sizes`
 
-- List version and distribution of installed packages:
+- List the version and distribution for all installed packages:
 
 `wajig versions`
 
