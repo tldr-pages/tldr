@@ -3,7 +3,7 @@
 > Fais des requêtes dans la base de données des paquets installés.
 > Plus d'informations : <https://man.archlinux.org/man/pacman.8>.
 
-- Liste les paquets installés et leur version:
+- Liste les paquets installés et leur version :
 
 `pacman --query`
 

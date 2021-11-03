@@ -9,11 +9,11 @@
 
 - Vérifie que le paquet installé a une version supérieure ou égale :
 
-`pacman --deptest "{{paquet>=version}}"`
+`pacman --deptest "{{bash>=5}}"`
 
 - Vérifie qu'une version ultérieure du paquet est installée :
 
-`pacman --deptest "{{paquet>version}}"`
+`pacman --deptest "{{bash>5}}"`
 
 - Affiche l'aide :
 

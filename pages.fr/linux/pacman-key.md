@@ -31,6 +31,6 @@
 
 `sudo pacman-key --lsign-key "{{uid|nom|email}}"`
 
-- Supprime une clé:
+- Supprime une clé :
 
 `sudo pacman-key --delete "{{uid|nom|email}}"`
