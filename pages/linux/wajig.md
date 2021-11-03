@@ -1,6 +1,6 @@
 # wajig
 
-> Wajig is a simplified, all-in-one-place, system support tool for Debian-based OSes.
+> Simplified all-in-one-place system support tool for Debian-based systems.
 > More information: <https://wajig.togaware.com>.
 
 - Update the list of available packages and versions:
