@@ -1,7 +1,7 @@
 # md5
 
 > Calculate MD5 cryptographic checksums.
-> More information: <https://www.unix.com/man-page/osx/1/MD5/>.
+> More information: <https://ss64.com/osx/md5.html>.
 
 - Calculate the MD5 checksum for a file:
 
