@@ -11,7 +11,7 @@
 
 `steam -console`
 
-- Enable the Steam console tab while Steam is running:
+- Enable and open the Steam console tab in a running Steam instance:
 
 `steam steam://open/console`
 
