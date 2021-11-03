@@ -7,7 +7,7 @@
 
 `dolt clone {{repository_url}} {{directory_name}}`
 
-- Clone a repository and add a remote (defaults to origin):
+- Clone an existing repository and add a specific remote (defaults to origin):
 
 `dolt clone --remote {{remote_name}} {{repository_url}}`
 
