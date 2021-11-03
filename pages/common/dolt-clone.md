@@ -3,7 +3,7 @@
 > Clone a repository into a new directory.
 > More information: <https://docs.dolthub.com/interfaces/cli#dolt-clone>.
 
-- Clone a repository into a new directory (defaults to the repository name):
+- Clone an existing repository into a specific directory (defaults to the repository name):
 
 `dolt clone {{repository_url}} {{directory_name}}`
 
