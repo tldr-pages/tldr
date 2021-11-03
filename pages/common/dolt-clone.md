@@ -11,7 +11,7 @@
 
 `dolt clone --remote {{remote_name}} {{repository_url}}`
 
-- Clone a branch in the repository (defaults to all branches):
+- Clone an existing repository only fetching a specific branch (defaults to all branches):
 
 `dolt clone --branch {{branch_name}} {{repository_url}}`
 
