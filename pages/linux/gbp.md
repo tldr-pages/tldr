@@ -7,7 +7,7 @@
 
 `gbp import-dsc {{software_0.1-2.dsc}}`
 
-- Build a package using the default builder (debuild):
+- Build a package using the default builder (`debuild`):
 
 `gbp buildpackage -jauto -us -uc`
 
