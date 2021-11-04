@@ -11,7 +11,7 @@
 
 `gbp buildpackage -jauto -us -uc`
 
-- Build a package in a pbuilder environment for Debian Bullseye:
+- Build a package in a `pbuilder` environment for Debian Bullseye:
 
 `DIST={{bullseye}} ARCH={{amd64}} gbp buildpackage -jauto -us -uc --git-builder={{git-pbuilder}}`
 
