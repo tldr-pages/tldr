@@ -18,6 +18,6 @@
 
 `set -o {{vi}}`
 
-- Set the shell to exit as soon as the first error is encountered. Mostly used in scripts:
+- Set the shell to exit as soon as the first error is encountered (mostly used in scripts):
 
 `set -e`
