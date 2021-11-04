@@ -11,7 +11,7 @@
 
 `curl -s {{https://example.com/image.png}} | viu -`
 
-- Render a transparent image with a transparent background:
+- Render an image with a transparent background:
 
 `viu -t {{path/to/file}}`
 
