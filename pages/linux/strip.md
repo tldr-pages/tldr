@@ -9,7 +9,7 @@
 
 - Put the stripped output in file, rather than replacing the existing one:
 
-`strip {{/path/to/input_file}} -o {{/path/to/output_file}}`
+`strip {{path/to/input_file}} -o {{path/to/output_file}}`
 
 - Strip debug symbols only:
 
