@@ -5,7 +5,7 @@
 
 - Replace the input file with its stripped version:
 
-`strip {{/path/to/file}}`
+`strip {{path/to/file}}`
 
 - Put the stripped output in file, rather than replacing the existing one:
 
