@@ -194,7 +194,7 @@ to see the current progress of all translations.
 - [kb](https://github.com/gnebbia/kb)
   is a minimalist command-line knowledge base manager.
   kb can be used to organize your notes and cheatsheets in a minimalist
-  and clean way. It supports  non-text files also.
+  and clean way. It also supports non-text files.
 
 - [eg](https://github.com/srsudar/eg)
   provides detailed examples with explanations on the command-line.
