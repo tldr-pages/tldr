@@ -19,6 +19,6 @@
 
 `viu -w {{width}} -h {{height}} {{path/to/file}}`
 
-- Render PNG or GIF files with their original names:
+- Render an image or GIF and display its file name:
 
-`viu -n {{*.{png,gif}}}`
+`viu -n {{path/to/file}}`
