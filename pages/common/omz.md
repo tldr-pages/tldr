@@ -15,7 +15,7 @@
 
 `omz reload`
 
-- List plugins:
+- List all available plugins:
 
 `omz plugin list`
 
