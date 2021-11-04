@@ -15,6 +15,10 @@
 
 `localectl set-locale {{LANG}}={{en_US.UTF-8}}`
 
+- List available keymaps:
+
+`localectl list-keymaps`
+
 - Set the system keyboard mapping for the console and X11:
 
-`localectl set-keymap {{en}}`
+`localectl set-keymap {{us}}`
