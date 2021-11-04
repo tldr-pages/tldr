@@ -12,7 +12,7 @@
 
 `curl --remote-name {{http://example.com/filename}}`
 
-- Download a file, following location redirects, and automatically continuing (resuming) a previous file transfer and return error on server error:
+- Download a file, following location redirects, and automatically continuing (resuming) a previous file transfer and return an error on server error:
 
 `curl --fail --remote-name --location --continue-at - {{http://example.com/filename}}`
 
