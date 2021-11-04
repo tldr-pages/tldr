@@ -12,9 +12,9 @@
 
 `curl --remote-name {{http://example.com/filename}}`
 
-- Download a file, following location redirects, and automatically continuing (resuming) a previous file transfer:
+- Download a file, following location redirects, and automatically continuing (resuming) a previous file transfer and return an error on server error:
 
-`curl --remote-name --location --continue-at - {{http://example.com/filename}}`
+`curl --fail --remote-name --location --continue-at - {{http://example.com/filename}}`
 
 - Send form-encoded data (POST request of type `application/x-www-form-urlencoded`). Use `--data @file_name` or `--data @'-'` to read from STDIN:
 
