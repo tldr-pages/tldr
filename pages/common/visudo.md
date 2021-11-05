@@ -1,7 +1,7 @@
 # visudo
 
 > Safely edit the sudoers file.
-> More information: <https://manned.org/visudo>.
+> More information: <https://www.sudo.ws/man/1.8.13/visudo.man.html>
 
 - Edit the sudoers file:
 
