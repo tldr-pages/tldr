@@ -28,7 +28,7 @@
 
 `rsync -rauL {{remote_host}}:{{path/to/remote_file}} {{path/to/local_directory}}`
 
-- Transfer file over SSH and delete local files that do not exist on remote host:
+- Transfer file over SSH and delete remote files that do not exist locally:
 
 `rsync -e ssh --delete {{remote_host}}:{{path/to/remote_file}} {{path/to/local_file}}`
 
