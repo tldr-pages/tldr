@@ -12,10 +12,10 @@
 
 `git sed -c '{{find_text}}' '{{replace_text}}'`
 
-- Replace the specified text passing regex flags to `sed`:
+- Replace the specified text, using regular expressions:
 
 `git sed -f g '{{find_text}}' '{{replace_text}}'`
 
-- Replace a specific text from files under a given directory:
+- Replace a specific text in all files under a given directory:
 
 `git sed '{{find_text}}' '{{replace_text}}' -- {{path/to/directory}}`
