@@ -7,7 +7,7 @@
 
 `rpmspec --query {{path/to/rpm.spec}}`
 
-- List all queryformat options:
+- List all options for `--queryformat`:
 
 `rpmspec --querytags`
 
