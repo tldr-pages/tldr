@@ -194,7 +194,7 @@ to see the current progress of all translations.
 - [kb](https://github.com/gnebbia/kb)
   is a minimalist command-line knowledge base manager.
   kb can be used to organize your notes and cheatsheets in a minimalist
-  and clean way. It supports also non-text files.
+  and clean way. It also supports non-text files.
 
 - [eg](https://github.com/srsudar/eg)
   provides detailed examples with explanations on the command-line.
@@ -212,6 +212,6 @@ to see the current progress of all translations.
 ## What does "tldr" mean?
 
 TL;DR stands for "Too Long; Didn't Read".
-It originates in Internet slang, where it is used to indicate that a long text
+It originated as Internet slang, where it is used to indicate that a long text
 (or parts of it) has been skipped as too lengthy.
 Read more in How-To Geek's [article](https://www.howtogeek.com/435266/what-does-tldr-mean-and-how-do-you-use-it/).
