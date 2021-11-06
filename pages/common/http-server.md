@@ -27,7 +27,7 @@
 
 `http-server --log-ip`
 
-- Start a HTTP server with CORS enabled via the `Access-Control-Allow-Origin: *` header:
+- Start a HTTP server with CORS enabled by including the `Access-Control-Allow-Origin: *` header in all responses:
 
 `http-server --cors`
 
