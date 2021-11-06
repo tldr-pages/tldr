@@ -23,6 +23,6 @@
 
 `UPLOAD_TMP_DIR={{path/to/directory}} http-server-upload`
 
-- Start a HTTP server accepting uploads with a specific token in the header:
+- Start a HTTP server accepting uploads with a specific token field in the HTTP post:
 
 `TOKEN={{secret}} http-server-upload`
