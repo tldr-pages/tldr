@@ -3,11 +3,11 @@
 > Simple static HTTP server to serve static files.
 > More information: <https://github.com/http-party/http-server>.
 
-- Start a HTTP server listening on the default port to serve the current directory:
+- Start an HTTP server listening on the default port to serve the current directory:
 
 `http-server`
 
-- Start a HTTP server on a specific port to serve files from a specific directory:
+- Start a HTTP server on a specific port to serve a specific directory:
 
 `http-server {{path/to/directory}} --port {{port}}`
 
@@ -19,7 +19,7 @@
 
 `http-server -d {{false}}`
 
-- Start a HTTPS server on the default port using the specified certificates:
+- Start a HTTPS server on the default port using the specified certificate:
 
 `http-server --ssl --cert {{path/to/cert.pem}} --key {{path/to/key.pem}}`
 
