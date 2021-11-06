@@ -20,6 +20,7 @@ This file contains the translation templates of this notice.
 [ja](#ja) •
 [ko](#ko) •
 [ml](#ml) •
+[ne](#ne) •
 [nl](#nl) •
 [no](#no) •
 [pl](#pl) •
@@ -125,6 +126,13 @@ Not translated yet.
 ### ml
 
 Not translated yet.
+
+---
+### ne
+
+```markdown
+केही उपादेशहरु जस्तै `example command` को आफ्नै प्रयोग कागजात हुन्छ।
+```
 
 ---
 ### nl
