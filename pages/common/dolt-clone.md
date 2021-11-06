@@ -21,7 +21,7 @@
 
 - Clone a repository, using an AWS credentials file:
 
-`dolt clone --aws-creds-file {{creds_file}} {{repository_url}}`
+`dolt clone --aws-creds-file {{credentials_file}} {{repository_url}}`
 
 - Clone a repository, using an AWS credentials profile (uses the default profile if none is provided):
 
@@ -29,4 +29,4 @@
 
 - Clone a repository, using an AWS credentials type:
 
-`dolt clone --aws-creds-type {{creds_type}} {{repository_url}}`
+`dolt clone --aws-creds-type {{credentials_type}} {{repository_url}}`
