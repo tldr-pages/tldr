@@ -9,20 +9,20 @@
 
 - Edit ID3v1 tags interactively:
 
-`mp3info -i {{path/to/mp3file}}`
+`mp3info -i {{path/to/file.mp3}}`
 
 - Set values for ID3v1 tags in a specific MP3 file:
 
 `mp3info -a "{{artist_name}}" -t "{{song_title}}" -l "{{album_title}}" -y {{year}} -c "{{comment_text}}" {{path/to/file.mp3}}`
 
-- Set number of track on album:
+- Set number of track on album for a specific MP3 file:
 
-`mp3info -n {{track_number}} {{path/to/mp3file}}`
+`mp3info -n {{track_number}} {{path/to/file.mp3}}`
 
 - Print list of numbers for all music genres:
 
 `mp3info -G`
 
-- Set music genre for MP3 file:
+- Set music genre for a specific MP3 file:
 
 `mp3info -g {{genre_number}} {{path/to/file.mp3}}`
