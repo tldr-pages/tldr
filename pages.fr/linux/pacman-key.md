@@ -1,7 +1,7 @@
 # pacman-key
 
 > Script enrobeur pour GnuPG utilisé pour gérer le trousseau de clés de pacman.
-> Plus d'informations : <https://man.archlinux.org/man/community/man-pages-fr/pacman-key.8.fr>.
+> Plus d'informations : <https://man.archlinux.org/man/pacman-key>.
 
 - Initialise le trousseau de clés de pacman :
 
