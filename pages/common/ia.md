@@ -11,7 +11,7 @@
 
 `ia upload {{identifier_value}} {{path/to/file}} --metadata="{{mediatype_value}}" --metadata="{{metadata_value}}"`
 
-- Download item(s) from archive.org:
+- Download one or more items from `archive.org`:
 
 `ia download {{item_value}}`
 
