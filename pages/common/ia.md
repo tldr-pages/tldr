@@ -15,10 +15,10 @@
 
 `ia download {{item_value}}`
 
-- Delete item(s) from archive.org:
+- Delete one or more items from `archive.org`:
 
 `ia delete {{identifier_value}} {{file_value}}`
 
-- Search on archive.org, returning results as JSON:
+- Search on `archive.org`, returning results as JSON:
 
-`ia search 'subject:{{subject_value}} collection:{{collection_value}}`
+`ia search 'subject:{{subject}} collection:{{collection}}`
