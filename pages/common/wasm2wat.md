@@ -1,6 +1,7 @@
 # wasm2wat
 
 > Convert a file from the WebAssembly binary format to the text format.
+> More information: <https://github.com/WebAssembly/wabt>.
 
 - Convert a file to the text format and display it to the console:
 
