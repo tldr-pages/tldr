@@ -12,6 +12,6 @@
 
 `fossil rm --hard {{path/to/file_or_directory}}`
 
-- Re-add all previously removed and uncommitted files to Fossil version control.
+- Re-add all previously removed and uncommitted files to Fossil version control:
 
 `fossil rm --reset`
