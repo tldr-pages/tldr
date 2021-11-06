@@ -4,14 +4,14 @@
 > Can alternatively be called as `fossil delete` or `fossil forget`.
 > More information: <https://fossil-scm.org/home/help>.
 
-- Remove files or directories from Fossil version control:
+- Remove a file or directory from Fossil version control:
 
 `fossil rm {{path/to/file_or_directory}}`
 
-- Remove files or directories from Fossil version control, also deleting the files or directories from the local checkout:
+- Remove a file or directory from Fossil version control, and also delete it from the disk:
 
 `fossil rm --hard {{path/to/file_or_directory}}`
 
-- Reset the deleted state of a checkout such that newly rm'd but not committed files are no longer deleted; that is, undo uncommitted rm command(s):
+- Re-add all previously removed and uncommitted files to Fossil version control.
 
 `fossil rm --reset`
