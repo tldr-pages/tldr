@@ -3,11 +3,11 @@
 > Manage networks for LXD containers.
 > More information: <https://linuxcontainers.org/lxd/docs/master/networks>.
 
-- List available networks:
+- List all available networks:
 
 `lxc network list`
 
-- Show configuration of a specific network:
+- Show the configuration of a specific network:
 
 `lxc network show {{network_name}}`
 
