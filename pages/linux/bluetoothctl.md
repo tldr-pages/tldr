@@ -31,6 +31,6 @@
 
 `bluetoothctl disconnect {{mac_address}}`
 
-- Show help for `bluetoothctl`:
+- Display help:
 
 `bluetoothctl help`
