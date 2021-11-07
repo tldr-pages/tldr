@@ -15,7 +15,7 @@
 
 `mp3info -a "{{artist_name}}" -t "{{song_title}}" -l "{{album_title}}" -y {{year}} -c "{{comment_text}}" {{path/to/file.mp3}}`
 
-- Set number of track on album for a specific MP3 file:
+- Set the number of the track in the album for a specific MP3 file:
 
 `mp3info -n {{track_number}} {{path/to/file.mp3}}`
 
