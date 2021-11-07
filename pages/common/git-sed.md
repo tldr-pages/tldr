@@ -4,7 +4,7 @@
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-sed>.
 
-- Replace the string 'this' with 'that':
+- Replace the specified text in the current repository:
 
 `git sed '{{find_text}}' '{{replace_text}}'`
 
