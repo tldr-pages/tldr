@@ -9,7 +9,7 @@
 
 - Generate a mirror list using the default Behaviour:
 
-`sudo pacman-mirrors refresh`
+`sudo shiny-mirrors refresh`
 
 - Display the current settings file:
 
