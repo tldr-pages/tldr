@@ -15,6 +15,6 @@
 
 `shiny-mirrors config show`
 
-- Switch to a different branch:
+- Switch to a different branch interactively:
 
 `sudo shiny-mirrors config --branch`
