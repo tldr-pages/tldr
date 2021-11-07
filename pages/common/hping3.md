@@ -4,7 +4,7 @@
 > Best run with elevated priviledges.
 > More information: <https://github.com/antirez/hping>.
 
-- Ping a destination with 4 counts of ICMP requests:
+- Ping a destination with 4 ICMP ping requests:
 
 `hping3 --icmp --count {{4}} {{ip_or_hostname}}`
 
