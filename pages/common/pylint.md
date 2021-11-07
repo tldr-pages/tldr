@@ -11,6 +11,6 @@
 
 `pylint --rcfile {{path/to/pylintrc}} {{path/to/file.py}}`
 
-- Disable a specific error code:
+- Lint a file and disable a specific error code:
 
 `pylint -d error_code file`
