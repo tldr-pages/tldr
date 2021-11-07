@@ -7,30 +7,30 @@
 
 `http-server`
 
-- Start a HTTP server on a specific port to serve a specific directory:
+- Start an HTTP server on a specific port to serve a specific directory:
 
 `http-server {{path/to/directory}} --port {{port}}`
 
-- Start a HTTP server using basic authentication:
+- Start an HTTP server using basic authentication:
 
 `http-server --username {{username}} --password {{password}}`
 
-- Start a HTTP server with directory listings disabled:
+- Start an HTTP server with directory listings disabled:
 
 `http-server -d {{false}}`
 
-- Start a HTTPS server on the default port using the specified certificate:
+- Start an HTTPS server on the default port using the specified certificate:
 
 `http-server --ssl --cert {{path/to/cert.pem}} --key {{path/to/key.pem}}`
 
-- Start a HTTP server and include the client's IP address in the output logging:
+- Start an HTTP server and include the client's IP address in the output logging:
 
 `http-server --log-ip`
 
-- Start a HTTP server with CORS enabled by including the `Access-Control-Allow-Origin: *` header in all responses:
+- Start an HTTP server with CORS enabled by including the `Access-Control-Allow-Origin: *` header in all responses:
 
 `http-server --cors`
 
-- Start a HTTP server with logging disabled:
+- Start an HTTP server with logging disabled:
 
 `http-server --silent`
