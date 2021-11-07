@@ -19,7 +19,7 @@
 
 `mp3info -n {{track_number}} {{path/to/file.mp3}}`
 
-- Print list of numbers for all music genres:
+- Print a list of valid genres and their numeric codes:
 
 `mp3info -G`
 
