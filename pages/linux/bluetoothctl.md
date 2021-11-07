@@ -7,22 +7,30 @@
 
 `bluetoothctl`
 
-- List devices:
+- List all known devices:
 
-`bluetoothctl -- devices`
+`bluetoothctl devices`
+
+- Power the bluetooth controller on or off:
+
+`bluetoothctl power {{on|off}}`
 
 - Pair a device:
 
-`bluetoothctl -- pair {{mac_address}}`
+`bluetoothctl pair {{mac_address}}`
 
 - Remove a device:
 
-`bluetoothctl -- remove {{mac_address}}`
+`bluetoothctl remove {{mac_address}}`
 
-- Connect a paired device:
+- Connect to a paired device:
 
-`bluetoothctl -- connect {{mac_address}}`
+`bluetoothctl connect {{mac_address}}`
 
-- Disconnect a paired device:
+- Disconnect from a paired device:
 
-`bluetoothctl -- disconnect {{mac_address}}`
+`bluetoothctl disconnect {{mac_address}}`
+
+- Show help for `bluetoothctl`:
+
+`bluetoothctl help`
