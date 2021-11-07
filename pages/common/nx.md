@@ -3,15 +3,15 @@
 > CLI utility for managing `nx` workspaces.
 > More information: <https://nx.dev/l/r/getting-started/nx-cli>.
 
-- Build a single project:
+- Build a specific project:
 
 `nx build {{project}}`
 
-- Test a single project:
+- Test a specific project:
 
 `nx test {{project}}`
 
-- Execute a target on a single project:
+- Execute a target on a specific project:
 
 `nx run {{project}}:{{target}}`
 
