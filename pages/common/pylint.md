@@ -2,6 +2,7 @@
 
 > A Python code linter.
 > More information: <https://pylint.pycqa.org/en/latest/>.
+
 - Show lint errors in a file:
 
 `pylint file`
