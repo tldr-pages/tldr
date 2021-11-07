@@ -23,6 +23,6 @@
 
 `mp3info -G`
 
-- Set music genre for a specific MP3 file:
+- Set the music genre for a specific MP3 file:
 
 `mp3info -g {{genre_number}} {{path/to/file.mp3}}`
