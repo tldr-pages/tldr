@@ -13,4 +13,4 @@
 
 - Lint a file and disable a specific error code:
 
-`pylint -d error_code file`
+`pylint --disable {{C,W,no-error,design}} {{path/to/file}}`
