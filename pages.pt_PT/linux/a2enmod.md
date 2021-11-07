@@ -1,6 +1,6 @@
 # a2enmod
 
-> Activa um módulo do Apache nas distribuições baseadas em Debian.
+> Activa um módulo do Apache em distribuições baseadas em Debian.
 > Mais informações: <https://manpages.debian.org/latest/apache2/a2enmod.8.en.html>.
 
 - Activa um módulo:
