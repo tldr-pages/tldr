@@ -7,7 +7,7 @@
 
 `pylint file`
 
-- Use the configuration from a configuration file, usually named `pylintrc`:
+- Lint a file and use a configuration file (usually named `pylintrc`):
 
 `pylint --rcfile ~/path/to/pylintrc file`
 
