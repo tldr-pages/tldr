@@ -3,7 +3,7 @@
 > Manage Bluetooth devices from the command-line.
 > More information: <https://www.npmjs.com/package/bluetoothctl>.
 
-- Enter the bluetoothctl shell:
+- Enter the `bluetoothctl` shell:
 
 `bluetoothctl`
 
@@ -11,11 +11,11 @@
 
 `bluetoothctl devices`
 
-- Power the bluetooth controller on or off:
+- Power the Bluetooth controller on or off:
 
 `bluetoothctl power {{on|off}}`
 
-- Pair a device:
+- Pair with a device:
 
 `bluetoothctl pair {{mac_address}}`
 
