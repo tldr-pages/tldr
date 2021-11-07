@@ -5,7 +5,7 @@
 
 - Show lint errors in a file:
 
-`pylint file`
+`pylint {{path/to/file.py}}`
 
 - Lint a file and use a configuration file (usually named `pylintrc`):
 
