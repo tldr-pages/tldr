@@ -7,7 +7,7 @@
 
 `shiny-mirrors status`
 
-- Generate a mirror list using the default Behaviour:
+- Generate a mirror list using the default behavior:
 
 `sudo shiny-mirrors refresh`
 
