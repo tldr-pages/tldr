@@ -8,9 +8,13 @@
 
 `pip install {{package_name}}`
 
+- Install a package to the user's directory instead of the system-wide default location:
+
+`pip install --user {{package}}`
+
 - Upgrade a package:
 
-`pip install -U {{package_name}}`
+`pip install --upgrade {{package_name}}`
 
 - Uninstall a package:
 
