@@ -63,7 +63,7 @@ just like you would write `man tar` to show its manpage.
 However, if you just want to browse without installing anything, check
 out the [PDF version](https://tldr.sh/assets/tldr-book.pdf).
 
-There are also various other clients provided by the community,
+There are also **various other clients** provided by the community,
 both for the command-line and for other platforms.
 For a comprehensive list of clients, head over to our [Wiki](https://github.com/tldr-pages/tldr/wiki/tldr-pages-clients).
 
