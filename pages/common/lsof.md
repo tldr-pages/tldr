@@ -32,6 +32,6 @@
 
 `lsof +D {{path/to/directory}}`
 
-- Find the process that is listening on a local IPv6 TCP port, don't convert network numbers or port numbers:
+- Find the process that is listening on a local IPv6 TCP port and don't convert network or port numbers:
 
 `lsof -i6TCP:{{port}} -sTCP:LISTEN -n -P`
