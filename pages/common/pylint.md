@@ -9,7 +9,7 @@
 
 - Lint a file and use a configuration file (usually named `pylintrc`):
 
-`pylint --rcfile ~/path/to/pylintrc file`
+`pylint --rcfile {{path/to/pylintrc}} {{path/to/file.py}}`
 
 - Disable a specific error code:
 
