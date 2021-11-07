@@ -151,7 +151,7 @@ Alguns subcomandos como `example command` tem sua própia documentação de uso.
 ---
 ### pt_PT
 
-Alguns subcomandos como `example command` tem sua própria documentação de uso.
+Alguns subcomandos, como `example command`, tem a sua própria documentação de uso.
 
 ---
 ### ro
