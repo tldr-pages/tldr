@@ -1,6 +1,6 @@
 # git squash
 
-> Squash N last changes up to a ref'ed commit into current HEAD.
+> Squash multiple commits into a single commit.
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-squash>.
 
@@ -8,7 +8,7 @@
 
 `git squash {{source-branch}}`
 
-- Squash everything from a commit reference into the current branch:
+- Squash all commits starting with a specific commit on the current branch:
 
 `git squash {{commit-ref}}`
 
@@ -16,6 +16,6 @@
 
 `git squash HEAD~{{n}} "{{message}}"`
 
-- Squash the `n` latest commits and commit concatenating all messages:
+- Squash the `n` latest commits and commit concatenating all individual messages:
 
 `git squash --squash-msg HEAD~{{n}}`
