@@ -20,6 +20,10 @@
 
 `sudo nft add rule {{inet}} {{filter}} {{input}} {{tcp}} {{dport \{ telnet, ssh, http, https \} accept}}`
 
+- Add a NAT rule to translate all traffic from the `192.168.0.0/24` subnet to the host's public IP:
+
+`sudo nft add rule {{nat}} {{postrouting}} ip saddr {{192.168.0.0/24}} {{masquerade}}`
+
 - Show rule handles:
 
 `sudo nft --handle --numeric list chain {{family}} {{table}} {{chain}}`

@@ -26,3 +26,11 @@
 - Run command in a new container with published ports:
 
 `docker run -p {{host_port}}:{{container_port}} {{image}} {{command}}`
+
+- Run command in a new container overwriting the entrypoint of the image:
+
+`docker run --entrypoint {{command}} {{image}}`
+
+- Run command in a new container connecting it to a network:
+
+`docker run --network {{network}} {{image}}`

@@ -23,7 +23,7 @@ Only the left-alignment of the header gets lost and has to be readded again (`|-
 | ml    |                      |                        |                                   |           |                   |
 | nl    | pad/naar/bestand     | pad/naar/directory     | pad/naar/bestand_of_directory     |           |                   |
 | no    |                      |                        |                                   |           |                   |
-| pl    |                      |                        |                                   |           |                   |
+| pl    | ścieżka/do/pliku     | ścieżka/do/katalogu    | ścieżka/do/pliku_lub_katalogu     | pakiet    | nazwa_użytkownika |
 | pt_BR | caminho/para/arquivo | caminho/para/diretorio | caminho/para/arquivo_ou_diretorio | pacote    |                   |
 | pt_PT |                      |                        |                                   |           |                   |
 | ro    |                      |                        |                                   |           |                   |
@@ -31,7 +31,7 @@ Only the left-alignment of the header gets lost and has to be readded again (`|-
 | sh    |                      |                        |                                   |           |                   |
 | sr    |                      |                        |                                   |           |                   |
 | sv    |                      |                        |                                   |           |                   |
-| ta    |                      |                        |                                   |           |                   |
+| ta    | கோப்பு               | அடைவு                | கோப்போ/அடைவோ                | நிரல்தொகுப்பு | பயனர்ப்பெயர்   |
 | th    |                      |                        |                                   |           |                   |
 | tr    |                      |                        |                                   |           |                   |
 | uk    |                      |                        |                                   |           |                   |

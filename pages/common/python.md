@@ -7,13 +7,13 @@
 
 `python`
 
-- Execute script in a given Python file:
+- Execute a specific Python file:
 
-`python {{script.py}}`
+`python {{path/to/file.py}}`
 
-- Execute script as part of an interactive shell:
+- Execute a specific Python file and start a REPL:
 
-`python -i {{script.py}}`
+`python -i {{path/to/file.py}}`
 
 - Execute a Python expression:
 
@@ -25,11 +25,11 @@
 
 - Install a package using `pip`:
 
-`python -m pip install {{package_name}}`
+`python -m {{pip}} install {{package_name}}`
 
 - Interactively debug a Python script:
 
-`python -m pdb {{script.py}}`
+`python -m {{pdb}} {{path/to/file.py}}`
 
 - Start the built-in HTTP server on port 8000 in the current directory:
 
