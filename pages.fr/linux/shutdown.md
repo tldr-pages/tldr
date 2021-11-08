@@ -1,7 +1,7 @@
 # shutdown
 
 > Éteint et redémarre le système.
-> Plus d'informations: <https://manned.org/shutdown.8>.
+> Plus d'informations : <https://manned.org/shutdown.8>.
 
 - Éteint (arrête) immédiatement :
 

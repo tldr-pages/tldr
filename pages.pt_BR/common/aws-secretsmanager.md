@@ -1,7 +1,7 @@
 # aws secretsmanager
 
 > Armazena, gerencia, e obtem secrets.
-> Mais informações: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/secretsmanager/index.html>.
+> Mais informações: <https://docs.aws.amazon.com/cli/latest/reference/secretsmanager/>.
 
 - Lista secrets armazenados pelo gerenciador de secretes na conta atual:
 

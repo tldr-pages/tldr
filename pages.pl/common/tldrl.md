@@ -1,8 +1,7 @@
 # tldrl
 
-> To polecenie jest skrótem do komendy `tldr-lint`.
-> Więcej informacji: <https://github.com/tldr-pages/tldr-lint>.
+> Te polecenie jest aliasem `tldr-lint`.
 
-- Przeczytaj dokumentację głównej komendy:
+- Zobacz dokumentację orginalnego polecenia:
 
 `tldr tldr-lint`

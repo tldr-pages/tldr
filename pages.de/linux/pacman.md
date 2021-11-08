@@ -2,7 +2,7 @@
 
 > Arch Linux Paket Management Tool.
 > Manche Unterbefehle wie `pacman sync` sind separat dokumentiert.
-> Weitere Informationen: <https://man.archlinux.org/man/pacman.8.de>.
+> Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
 
 - Synchronisiere und aktualisiere alle Pakete:
 
