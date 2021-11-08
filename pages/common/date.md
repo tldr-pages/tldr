@@ -27,6 +27,6 @@
 
 `date --rfc-3339=s`
 
-- Set the current date using the format `MMDDhhmm[YYYY][.ss]`:
+- Set the current date using the format `MMDDhhmmYYYY.ss` (`YYYY` and `.ss` are optional):
 
-`date {{09302359}}`
+`date {{093023592021.59}}`
