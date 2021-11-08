@@ -1,6 +1,6 @@
 # hping3
 
-> Advanced ping utility which supports protocols such TCP, UDP, and Raw-IP.
+> Advanced ping utility which supports protocols such TCP, UDP, and raw IP.
 > Best run with elevated priviledges.
 > More information: <https://github.com/antirez/hping>.
 
