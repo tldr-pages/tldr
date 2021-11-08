@@ -4,13 +4,13 @@
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-squash>.
 
-- Squash everything from a specific branch into the current branch:
+- Merge all commits from a specific branch into the current branch as a single commit:
 
 `git squash {{source-branch}}`
 
 - Squash all commits starting with a specific commit on the current branch:
 
-`git squash {{commit-ref}}`
+`git squash {{commit}}`
 
 - Squash the `n` latest commits and commit with a message:
 
