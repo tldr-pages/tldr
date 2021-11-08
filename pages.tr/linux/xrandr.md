@@ -26,7 +26,3 @@
 - LVDS1 için parlaklığı 50% yap:
 
 `xrandr --output {{LVDS1}} --brightness {{0.5}}`
-
-- Ekran donanımı bilgisini göster:
-
-`xrandr -q`

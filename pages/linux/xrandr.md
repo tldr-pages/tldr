@@ -23,10 +23,6 @@
 
 `xrandr --output {{VGA1}} --off`
 
-- Set brightness for LVDS1 to 50%:
+- Set the brightness for LVDS1 to 50%:
 
 `xrandr --output {{LVDS1}} --brightness {{0.5}}`
-
-- See display hardware information:
-
-`xrandr -q`

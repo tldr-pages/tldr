@@ -26,7 +26,3 @@
 - Setze die Bildschirmhelligkeit von LVDS1 auf 50%:
 
 `xrandr --output {{LVDS1}} --brightness {{0.5}}`
-
-- Zeige Hardwareinformation der Bildschirme an:
-
-`xrandr -q`
