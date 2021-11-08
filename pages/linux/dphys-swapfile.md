@@ -3,7 +3,7 @@
 > Manage the swap file on Debian-based Linux systems.
 > More information: <https://manpages.debian.org/jessie/dphys-swapfile/dphys-swapfile.8.en.html>.
 
-- Disable swap file:
+- Disable the swap file:
 
 `dphys-swapfile swapoff`
 
