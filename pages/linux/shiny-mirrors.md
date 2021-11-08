@@ -12,7 +12,7 @@
 
 `sudo shiny-mirrors refresh`
 
-- Display the current settings file:
+- Display the current configuration file:
 
 `shiny-mirrors config show`
 
