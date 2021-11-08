@@ -11,7 +11,7 @@
 
 `pactree --reverse {{package}}`
 
-- List dependencies at the start of the line and only with unique entries:
+- Dump dependencies one per line, skipping duplicates:
 
 `pactree --unique {{package}}`
 
