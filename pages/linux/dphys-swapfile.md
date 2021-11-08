@@ -11,6 +11,6 @@
 
 `dphys-swapfile swapon`
 
-- Create new swap file (e.g., after changes in file `/etc/dphys-swapfile `):
+- Create a new swap file:
 
 `dphys-swapfile setup`
