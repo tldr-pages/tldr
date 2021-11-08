@@ -1,7 +1,7 @@
 # git
 
 > Distributed version control system.
-> Some subcommands such as `commit`, `checkout`, etc. have their own usage documentation. To see tldr for them use `tldr git {{subcommand}}`.
+> Some subcommands such as `commit`, `add`, `branch`, `checkout`, `push`, etc. have their own usage documentation, accessible via `tldr git subcommand`.
 > More information: <https://git-scm.com/>.
 
 - Check the Git version:
