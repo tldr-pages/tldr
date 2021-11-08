@@ -1,32 +1,32 @@
 # pve-firewall
 
-> Manage Proxmox VE firewall.
+> Manage Proxmox VE Firewall.
 > More information: <https://pve.proxmox.com/wiki/Firewall>.
 
-- Compile and print firewall rules:
+- Compile and print all firewall rules:
 
 `pve-firewall compile`
 
-- Show information about local network:
+- Show information about the local network:
 
 `pve-firewall localnet`
 
-- Restart the Proxmox VE firewall service:
+- Restart the Proxmox VE Firewall service:
 
 `pve-firewall restart`
 
-- Start the Proxmox VE firewall service:
+- Start the Proxmox VE Firewall service:
 
 `pve-firewall start`
 
-- Stop the Proxmox VE firewall service:
+- Stop the Proxmox VE Firewall service:
 
 `pve-firewall stop`
 
-- Simulate firewall rules:
+- Simulate all firewall rules:
 
 `pve-firewall simulate`
 
-- Show Proxmox VE firewall status:
+- Show the status of Proxmox VE Firewall:
 
 `pve-firewall status`
