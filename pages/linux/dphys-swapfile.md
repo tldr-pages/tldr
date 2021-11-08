@@ -7,7 +7,7 @@
 
 `dphys-swapfile swapoff`
 
-- Enable swap file:
+- Enable the swap file:
 
 `dphys-swapfile swapon`
 
