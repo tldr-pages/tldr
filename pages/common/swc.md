@@ -15,7 +15,7 @@
 
 `swc {{path/to/file}} --watch`
 
-- Transpile a specified input directory and output to a specific file:
+- Transpile a specified input directory and output to a specific directory:
 
 `swc {{path/to/input_directory}} --config-file {{path/to/.swcrc}} --out-dir {{path/to/output_directory}}`
 
