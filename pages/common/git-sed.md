@@ -1,4 +1,4 @@
-# git sync
+# git sed
 
 > Replace patterns in git-controlled files using sed.
 > Part of `git-extras`.
