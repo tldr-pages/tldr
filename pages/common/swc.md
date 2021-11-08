@@ -17,7 +17,7 @@
 
 - Transpile a specified input directory and output to a specific directory:
 
-`swc {{path/to/input_directory}} --config-file {{path/to/.swcrc}} --out-dir {{path/to/output_directory}}`
+`swc {{path/to/input_directory}} --out-dir {{path/to/output_directory}}`
 
 - Transpile a specified input directory using a specific configuration file:
 
