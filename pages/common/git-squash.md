@@ -6,7 +6,7 @@
 
 - Merge all commits from a specific branch into the current branch as a single commit:
 
-`git squash {{source-branch}}`
+`git squash {{source_branch}}`
 
 - Squash all commits starting with a specific commit on the current branch:
 
