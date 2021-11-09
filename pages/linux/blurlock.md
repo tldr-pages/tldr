@@ -19,4 +19,3 @@
 - Lock the screen and show the number of failed login attempts:
 
 `blurlock --show-failed-attempts`
-
