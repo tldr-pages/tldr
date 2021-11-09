@@ -11,7 +11,7 @@
 
 `scan-build [scan-build options] {{command}} [command options]`
 
-- Operationally, scan-build literally runs `<command>` with all of the subsequent options passed to it:
+- Run a command and pass all subsequent options to it:
 
 `scan-build {{command}} {{arguments}}`
 
