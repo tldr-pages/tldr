@@ -19,7 +19,7 @@
 
 `wajig daily-upgrade`
 
-- Display installed sizes of installed packages:
+- Display the sizes of installed packages:
 
 `wajig sizes`
 
