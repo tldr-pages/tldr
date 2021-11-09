@@ -3,7 +3,7 @@
 > A system to integrate the Debian package build system with Git.
 > More information: <http://honk.sigxcpu.org/projects/git-buildpackage/manual-html/gbp.html>.
 
-- Convert a pre-existing Debian package to gbp:
+- Convert an existing Debian package to gbp:
 
 `gbp import-dsc {{software_0.1-2.dsc}}`
 
