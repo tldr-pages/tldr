@@ -13,7 +13,7 @@
 
 - Operationally, scan-build literally runs `<command>` with all of the subsequent options passed to it:
 
-`scan-build {{command}}`
+`scan-build {{command}} {{arguments}}`
 
 - It is also possible to use `scan-build` to analyze specific files:
 
