@@ -5,7 +5,7 @@
 
 - Convert an existing Debian package to gbp:
 
-`gbp import-dsc {{software_0.1-2.dsc}}`
+`gbp import-dsc {{path/to/package.dsc}}`
 
 - Build a package using the default builder (`debuild`):
 
