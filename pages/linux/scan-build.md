@@ -17,4 +17,4 @@
 
 - It is also possible to use `scan-build` to analyze specific files:
 
-`scan-build gcc -c t1.c t2.c`
+`scan-build {{command}}`
