@@ -7,13 +7,13 @@
 
 `swc {{path/to/file}}`
 
-- Transpile a specified input file and output to a specific file:
-
-`swc {{path/to/input_file}} --out-file {{path/to/output_file}}`
-
 - Transpile the input file every time it is changed:
 
 `swc {{path/to/file}} --watch`
+
+- Transpile a specified input file and output to a specific file:
+
+`swc {{path/to/input_file}} --out-file {{path/to/output_file}}`
 
 - Transpile a specified input directory and output to a specific directory:
 
