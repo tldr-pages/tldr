@@ -21,4 +21,4 @@
 
 - Import a new upstream release:
 
-`gbp import-orig --pristine-tar {{software-0.1.tar.gz}}`
+`gbp import-orig --pristine-tar {{path/to/package.tar.gz}}`
