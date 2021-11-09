@@ -15,7 +15,7 @@
 
 `wajig purge {{package}}`
 
-- Perform an update then a dist-upgrade:
+- Perform an update and then a dist-upgrade:
 
 `wajig daily-upgrade`
 
