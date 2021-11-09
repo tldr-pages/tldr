@@ -1,6 +1,6 @@
 # cgcreate
 
-> Create cgroups, used to limite, mesure, and control resources used by processes.
+> Create cgroups, used to limit, measure, and control resources used by processes.
 > cgroups types can be `memory`, `cpu`, `net_cls`, etc.
 > More information: <https://manned.org/cgcreate>.
 
