@@ -10,16 +10,16 @@
 
 - Copy files to the destination, setting their ownership:
 
-`install -o {{user}} {{path/to/source}} {{path/to/destination}}`
+`install --owner {{user}} {{path/to/source}} {{path/to/destination}}`
 
 - Copy files to the destination, setting their group ownership:
 
-`install -g {{user}} {{path/to/source}} {{path/to/destination}}`
+`install --group {{user}} {{path/to/source}} {{path/to/destination}}`
 
 - Copy files to the destination, setting their `mode`:
 
-`install -m {{+x}} {{path/to/source}} {{path/to/destination}}`
+`install --mode {{+x}} {{path/to/source}} {{path/to/destination}}`
 
 - Copy files and apply access/modification times of source to the destination:
 
-`install -p {{path/to/source}} {{path/to/destination}}`
+`install --preserve-timestamps {{path/to/source}} {{path/to/destination}}`
