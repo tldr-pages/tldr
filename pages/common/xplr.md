@@ -11,7 +11,7 @@
 
 `xplr {{path/to/file}}`
 
-- Focus on a directory
+- Focus on a directory:
 
 `xplr {{path/to/directory}} --force-focus`
 
