@@ -15,7 +15,7 @@
 
 `i3exit shutdown`
 
-- Suspend the machine:
+- Suspend the system:
 
 `i3exit suspend`
 
@@ -23,10 +23,10 @@
 
 `i3exit switch_user`
 
-- Hibernate the machine:
+- Hibernate the system:
 
 `i3exit hibernate`
 
-- Reboot the machine:
+- Reboot the system:
 
 `i3exit reboot`
