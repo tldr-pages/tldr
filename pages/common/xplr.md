@@ -13,8 +13,8 @@
 
 - Focus on a directory:
 
-`xplr {{path/to/directory}} --force-focus`
+`xplr --force-focus {{path/to/directory}}`
 
 - Open a directory with selected paths:
 
-`xplr {{path/to/directory}} {{path/to/select/1}} {{path/to/select/2}}`
+`xplr {{path/to/directory}} {{path/to/selected_file_or_directory1}} {{path/to/selected_file_or_directory2}}`
