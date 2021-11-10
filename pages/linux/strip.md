@@ -7,7 +7,7 @@
 
 `strip {{path/to/file}}`
 
-- Put the stripped output in file, rather than replacing the existing one:
+- Strip symbols from a file, saving the output to a specific file:
 
 `strip {{path/to/input_file}} -o {{path/to/output_file}}`
 
