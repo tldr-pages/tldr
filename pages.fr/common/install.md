@@ -10,15 +10,15 @@
 
 - Copie des fichiers vers une destination en mettant à jour leur propriétaire :
 
-`install --owner={{utilisateur}} {{chemin/fichier/source}} {{chemin/repertoire/destination}}`
+`install --owner {{utilisateur}} {{chemin/fichier/source}} {{chemin/repertoire/destination}}`
 
 - Copie des fichiers vers une destination en mettant à jour leur groupe d'appartenance :
 
-`install --group={{utilisateur}} {{chemin/fichier/source}} {{chemin/repertoire/destination}}`
+`install --group {{utilisateur}} {{chemin/fichier/source}} {{chemin/repertoire/destination}}`
 
 - Copie des fichiers vers une destination en mettant à jour leur mode :
 
-`install --mode={{+x}} {{chemin/fichier/source}} {{chemin/repertoire/destination}}`
+`install --mode {{+x}} {{chemin/fichier/source}} {{chemin/repertoire/destination}}`
 
 - Copie des fichiers en mettant à jour leur dates d'accès et de modification à partir de leurs sources respectives :
 

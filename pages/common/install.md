@@ -10,15 +10,15 @@
 
 - Copy files to the destination, setting their ownership:
 
-`install --owner={{user}} {{path/to/source}} {{path/to/destination}}`
+`install --owner {{user}} {{path/to/source}} {{path/to/destination}}`
 
 - Copy files to the destination, setting their group ownership:
 
-`install --group={{user}} {{path/to/source}} {{path/to/destination}}`
+`install --group {{user}} {{path/to/source}} {{path/to/destination}}`
 
 - Copy files to the destination, setting their `mode`:
 
-`install --mode={{+x}} {{path/to/source}} {{path/to/destination}}`
+`install --mode {{+x}} {{path/to/source}} {{path/to/destination}}`
 
 - Copy files and apply access/modification times of source to the destination:
 
