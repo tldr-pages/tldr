@@ -13,7 +13,7 @@
 
 - Lock the screen to a PNG background:
 
-`i3lock --image {{path/to/picture.png}}`
+`i3lock --image {{path/to/file.png}}`
 
 - Lock the screen and disable the unlock indicator (removes feedback on keypress):
 
