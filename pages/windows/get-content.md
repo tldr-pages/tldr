@@ -1,6 +1,7 @@
 # Get-Content
 
 > Get the content of the item at the specified location.
+> This command can only be used through `powershell`.
 > More information: <https://docs.microsoft.com/powershell/module/microsoft.powershell.management/get-content>.
 
 - Display the content of a file:
