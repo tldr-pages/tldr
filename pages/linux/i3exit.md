@@ -11,7 +11,7 @@
 
 `i3exit lock`
 
-- Shut down the machine:
+- Shut down the system:
 
 `i3exit shutdown`
 
