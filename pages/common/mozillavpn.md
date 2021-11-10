@@ -3,7 +3,7 @@
 > A Virtual Private Network from the makers of Firefox.
 > More information: <https://github.com/mozilla-mobile/mozilla-vpn-client/wiki/Command-line-interface>.
 
-- Log in with interactive prompt:
+- Log in with an interactive prompt:
 
 `mozillavpn login`
 
@@ -11,7 +11,7 @@
 
 `mozillavpn activate`
 
-- Display connection status:
+- Display the connection status:
 
 `mozillavpn status`
 
