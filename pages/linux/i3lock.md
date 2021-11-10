@@ -25,7 +25,7 @@
 
 - Lock the screen to a PNG background tiled over all monitors:
 
-`i3lock --image {{path/to/picture.png}} --tiling`
+`i3lock --image {{path/to/file.png}} --tiling`
 
 - Lock the screen and show the number of failed login attempts:
 
