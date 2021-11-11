@@ -19,7 +19,7 @@
 
 `i3exit suspend`
 
-- Switch the current user:
+- Switch to the login screen to log in as a different user:
 
 `i3exit switch_user`
 
