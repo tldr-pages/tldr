@@ -9,7 +9,7 @@
 
 - Upload one or more item to `archive.org`:
 
-`ia upload {{identifier_value}} {{path/to/file}} --metadata="{{mediatype_value}}" --metadata="{{metadata_value}}"`
+`ia upload {{identifier}} {{path/to/file}} --metadata="{{mediatype:data}}" --metadata="{{title:example}}"`
 
 - Download one or more items from `archive.org`:
 
