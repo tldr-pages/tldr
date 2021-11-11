@@ -21,4 +21,4 @@
 
 - Search on `archive.org`, returning results as JSON:
 
-`ia search 'subject:{{subject}} collection:{{collection}}`
+`ia search '{{subject:"subject" collection:collection}}'`
