@@ -13,7 +13,7 @@
 
 - Download one or more items from `archive.org`:
 
-`ia download {{item_value}}`
+`ia download {{item}}`
 
 - Delete one or more items from `archive.org`:
 
