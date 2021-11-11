@@ -17,7 +17,7 @@
 
 - Delete one or more items from `archive.org`:
 
-`ia delete {{identifier_value}} {{file_value}}`
+`ia delete {{identifier}} {{file}}`
 
 - Search on `archive.org`, returning results as JSON:
 
