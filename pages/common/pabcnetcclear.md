@@ -5,7 +5,7 @@
 
 - Compile a source file into an executable with the same name:
 
-`pabcnetcclear {{source.pas}}`
+`pabcnetcclear {{path/to/file.pas}}`
 
 - Compile source file into executable along with debug info:
 
