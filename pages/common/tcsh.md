@@ -1,4 +1,4 @@
-# csh
+# tcsh
 
 > C shell with file name completion and command line editing.
 > More information: <https://linux.die.net/man/1/tcsh>.
