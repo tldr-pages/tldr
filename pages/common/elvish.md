@@ -11,10 +11,10 @@
 
 `elvish -c "{{command}}"`
 
-- Execute a script:
+- Execute a script and then exit:
 
 `elvish {{path/to/script.elv}}`
 
-- Print the Elvish version:
+- Print the Elvish version and then exit:
 
 `elvish -version`
