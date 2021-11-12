@@ -8,7 +8,7 @@
 
 `ksh`
 
-- Execute a command and then exit:
+- Execute a [c]ommand:
 
 `ksh -c "{{command}}"`
 
@@ -16,6 +16,14 @@
 
 `ksh {{path/to/script.ksh}}`
 
-- Execute a script, printing each command before executing it:
+- Check a script for syntax errors:
+
+`ksh -n {{path/to/script.ksh}}`
+
+- Execute a script while printing each command before executing it:
 
 `ksh -x {{path/to/script.ksh}}`
+
+- Print the version:
+
+`ksh --version`
