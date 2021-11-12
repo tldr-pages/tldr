@@ -7,10 +7,10 @@
 
 `pabcnetcclear {{path/to/file.pas}}`
 
-- Compile a source file into an executable along with debug info:
+- Compile a source file into an executable with the same name along with debug info:
 
 `pabcnetcclear /Debug:1 {{path/to/file.pas}}`
 
-- Allow units to be searched in a path while compiling a source file into an executable:
+- Allow units to be searched in a path while compiling a source file into an executable with the same name:
 
 `pabcnetcclear /SearchDir:{{path/to/dir}} {{path/to/file.pas}}`
