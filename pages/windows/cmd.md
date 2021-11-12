@@ -11,6 +11,10 @@
 
 `cmd /c "{{command}}"`
 
+- Execute a script:
+
+`cmd {{path/to/file.bat}}`
+
 - Execute a command and then enter an interactive shell:
 
 `cmd /k "{{command}}"`
@@ -22,7 +26,3 @@
 - Start an interactive shell session with enabled or disabled command [e]xtensions:
 
 `cmd /e:{{on|off}}`
-
-- Execute a script:
-
-`cmd "{{path/to/file.bat}}"`
