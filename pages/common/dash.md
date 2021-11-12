@@ -19,17 +19,17 @@
 
 `dash -n {{path/to/script.dash}}`
 
-- Run commands from a script, printing each command before executing it:
+- Execute a script while printing each command before executing it:
 
-`dash -x {{path/to/script.dash}}`
+`bash -x {{path/to/script.sh}}`
 
-- Execute commands from a script, stopping at the first error:
+- Execute a script and stop at a first [e]rror:
 
-`dash -e {{path/to/script.dash}}`
+`bash -e {{path/to/script.sh}}`
 
-- Read and execute commands from stdin:
+- Execute a command from [s]tdin:
 
-`dash -s`
+`bash -s`
 
 - Print the version:
 
