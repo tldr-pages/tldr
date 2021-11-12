@@ -5,12 +5,12 @@
 
 - Компилирует исходный файл в запускаемое приложение с тем же именем:
 
-`pabcnetcclear {{path/to/file.pas}}`
+`pabcnetcclear {{путь/до/файла.pas}}`
 
 - Компилирует исходный файл в запускаемое приложение с тем же именем вместе с отладочной информацией:
 
-`pabcnetcclear /Debug:1 {{path/to/file.pas}}`
+`pabcnetcclear /Debug:1 {{путь/до/файла.pas}}`
 
 - Разрешает искать модули в указанной папке во время компиляции исходного файла в запускаемое приложение:
 
-`pabcnetcclear /SearchDir:{{path/to/dir}} {{path/to/file.pas}}`
+`pabcnetcclear /SearchDir:{{путь/до/папки}} {{путь/до/файла.pas}}`
