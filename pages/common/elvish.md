@@ -7,7 +7,7 @@
 
 `elvish`
 
-- Execute a command and then exit:
+- Execute a [c]ommand and then exit:
 
 `elvish -c "{{command}}"`
 
@@ -17,4 +17,4 @@
 
 - Print the Elvish version:
 
-`elvish --version`
+`elvish -version`
