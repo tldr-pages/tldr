@@ -10,4 +10,3 @@
 - Compile source file into executable along with debug info:
 
 `pabcnetcclear /Debug:1 {{source.pas}}`
-
