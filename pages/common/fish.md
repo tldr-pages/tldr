@@ -7,22 +7,26 @@
 
 `fish`
 
-- Start an interactive shell session in [p]rivate mode, where the shell does not access old history or save new history:
+- Start an interactive shell session without loading startup configs:
 
-`fish -p`
+`fish -N`
 
-- Execute a [c]ommand and then exit:
+- Execute a [c]ommand:
 
 `fish -c "{{command}}"`
 
-- Execute a script and then exit:
+- Execute a script:
 
 `fish {{path/to/script.fish}}`
 
-- Check a script for syntax errors but [n]ot execute it and then exit:
+- Check a script for syntax errors but [n]ot execute it:
 
 `fish -n {{path/to/script.fish}}`
 
-- Print the Fish version and then exit:
+- Start an interactive shell session in [p]rivate mode, where the shell does not access old history or save new history:
+
+`fish -P`
+
+- Print the Fish version:
 
 `fish -v`
