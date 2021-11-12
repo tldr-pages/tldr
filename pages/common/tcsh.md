@@ -21,7 +21,7 @@
 
 - Check a script for syntax errors and then exit:
 
-`tcsh {{path/to/script.tcsh}}`
+`tcsh -n {{path/to/script.tcsh}}`
 
 - Print a version and then exit:
 
