@@ -14,7 +14,3 @@
 - Execute a script and then exit:
 
 `csh {{path/to/script.csh}}`
-
-- Print the version and then exit:
-
-`csh -v`
