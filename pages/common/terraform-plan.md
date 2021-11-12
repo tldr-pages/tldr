@@ -17,7 +17,7 @@
 
 - Specify values for input variables:
 
-`terraform plan -var '{{name1=value1}}' -var '{{name2=value2}}'`
+`terraform plan -var '{{name1}}={{value1}}' -var '{{name2}}={{value2}}'`
 
 - Focus Terraform's attention on only a subset of resources:
 
