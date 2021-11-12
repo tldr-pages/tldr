@@ -9,4 +9,4 @@
 
 - Compile a source file into an executable along with debug info:
 
-`pabcnetcclear /Debug:1 {{source.pas}}`
+`pabcnetcclear /Debug:1 {{path/to/file.pas}}`
