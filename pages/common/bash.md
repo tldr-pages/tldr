@@ -8,26 +8,34 @@
 
 `bash`
 
-- Execute a command and then exit:
+- Start an interactive shell session without loading startup configs:
+
+`bash --norc`
+
+- Execute a [c]ommand:
 
 `bash -c "{{command}}"`
 
 - Execute a script:
 
-`bash {{path/to/script.sh}}`
+`bash {{path/to/script.bash}}`
 
-- Execute a script, printing each command before executing it:
+- Execute a script while printing each command before executing it:
 
 `bash -x {{path/to/script.sh}}`
 
-- Execute commands from a script, stopping at the first error:
+- Execute a script and stop at a first [e]rror:
 
 `bash -e {{path/to/script.sh}}`
 
-- Read and execute commands from stdin:
+- Execute a command from [s]tdin:
 
 `bash -s`
 
-- Print the Bash version (`$BASH_VERSION` contains the version without license information):
+- Print the version:
 
 `bash --version`
+
+
+
+
