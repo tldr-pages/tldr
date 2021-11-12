@@ -27,6 +27,6 @@
 
 `fish -P`
 
-- Print the Fish version:
+- Print the version:
 
 `fish -v`
