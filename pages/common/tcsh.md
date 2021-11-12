@@ -11,18 +11,18 @@
 
 `tcsh -f`
 
-- Execute a [c]ommand and then exit:
+- Execute a [c]ommand:
 
 `tcsh -c "{{command}}"`
 
-- Execute a script and then exit:
+- Execute a script:
 
 `tcsh {{path/to/script.tcsh}}`
 
-- Check a script for syntax errors and then exit:
+- Check a script for syntax errors:
 
 `tcsh -n {{path/to/script.tcsh}}`
 
-- Print a version and then exit:
+- Print a version:
 
 `tcsh --version`
