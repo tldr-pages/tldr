@@ -7,26 +7,22 @@
 
 `fish`
 
-- Execute a command and then exit:
+- Start an interactive shell session in [p]rivate mode, where the shell does not access old history or save new history:
+
+`fish -p`
+
+- Execute a [c]ommand and then exit:
 
 `fish -c "{{command}}"`
 
-- Execute a script:
+- Execute a script and then exit:
 
 `fish {{path/to/script.fish}}`
 
-- Check a script for syntax errors:
+- Check a script for syntax errors but [n]ot execute it and then exit:
 
-`fish --no-execute {{path/to/script.fish}}`
+`fish -n {{path/to/script.fish}}`
 
-- Start an interactive shell session in private mode, where the shell does not access old history or save new history:
+- Print the Fish version and then exit:
 
-`fish --private`
-
-- Display version information and exit:
-
-`fish --version`
-
-- Set and export environmental variables that persist across shell restarts (from within the shell only):
-
-`set -Ux {{variable_name}} {{variable_value}}`
+`fish -v`
