@@ -1,4 +1,4 @@
-# Elvish
+# elvish
 
 > Expressive programming language and a versatile interactive shell.
 > More information: <https://elv.sh/learn/>.
