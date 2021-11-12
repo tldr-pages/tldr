@@ -13,7 +13,7 @@
 
 - Replace all occurrences of a string [i]n a file, overwriting the file (i.e. in-place):
 
-`sed -i '' 's/{{find}}/{{replace}}/g' {{filename}}`
+`sed -i 's/{{find}}/{{replace}}/g' {{filename}}`
 
 - Replace only on lines matching the line pattern:
 
