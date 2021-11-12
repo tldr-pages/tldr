@@ -1,9 +1,9 @@
 # terraform plan
 
-> Generate and show an execution plan.
+> Generate and show Terraform execution plans.
 > More information: <https://www.terraform.io/docs/cli/commands/plan.html>.
 
-- Generate and show an execution plan:
+- Generate and show the execution plan in the currently directory;
 
 `terraform plan`
 
@@ -11,7 +11,7 @@
 
 `terraform plan -destroy`
 
-- Refresh-only mode - Show plan to update the Terraform state and output values:
+- Show a plan to update the Terraform state and output values:
 
 `terraform plan -refresh-only`
 
@@ -21,12 +21,12 @@
 
 - Focus Terraform's attention on only a subset of resources:
 
-`terraform plan -target resource_type.resource_name[instance index]`
+`terraform plan -target {{resource_type.resource_name[instance index]}}`
 
-- Output with JSON:
+- Output a plan as JSON:
 
 `terraform plan -json`
 
-- Output plan to specific file:
+- Write a plan to a specific file:
 
-`terraform plan -no-color >> plan.txt`
+`terraform plan -no-color > {{path/to/file}}'
