@@ -13,4 +13,4 @@
 
 - 重新建立文件数据索引数据库。如果要查找最近添加的文件，则需要执行此操作：
 
-`sudo /usr/libexec/locate.updatedb`
+`sudo updatedb`
