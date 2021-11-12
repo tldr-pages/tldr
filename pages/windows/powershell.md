@@ -3,11 +3,23 @@
 > Command-line shell and scripting language designed especially for system administration.
 > More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/powershell>.
 
-- Start a Windows PowerShell session in a Command Prompt window:
+- Start an interactive shell session:
 
 `powershell`
 
-- Load a specific PowerShell console file:
+- Start an interactive shell session without loading startup configs:
+
+`powershell -NoProfile`
+
+- Execute a command:
+
+`powershell -Command "{{command}}"`
+
+- Execute a script:
+
+`powershell -File {{path/to/script.ps1}}`
+
+- Load a specific console file:
 
 `powershell -PSConsoleFile {{path/to/file}}`
 
@@ -26,7 +38,3 @@
 - Determine how output from PowerShell is formatted:
 
 `powershell -OutputFormat {{Text|XML}}`
-
-- Display help:
-
-`powershell -Help`
