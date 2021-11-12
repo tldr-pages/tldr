@@ -7,10 +7,10 @@
 
 `csh`
 
-- Execute a [c]ommand and then exit:
+- Execute a [c]ommand:
 
 `csh -c "{{command}}"`
 
-- Execute a script and then exit:
+- Execute a script:
 
 `csh {{path/to/script.csh}}`
