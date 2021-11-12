@@ -7,7 +7,7 @@
 
 `cmd`
 
-- Execute a [c]ommand and then exit:
+- Execute a [c]ommand:
 
 `cmd /c "{{command}}"`
 
@@ -23,6 +23,6 @@
 
 `cmd /e:{{on|off}}`
 
-- Execute a script and then exit:
+- Execute a script:
 
 `cmd "{{path/to/file.bat}}"`
