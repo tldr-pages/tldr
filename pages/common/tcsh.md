@@ -23,6 +23,6 @@
 
 `tcsh -n {{path/to/script.tcsh}}`
 
-- Print a version:
+- Print the version:
 
 `tcsh --version`
