@@ -3,7 +3,7 @@
 > Preprocess and compile PascalABC.NET source files.
 > More information: <http://pascalabc.net>.
 
-- Compile source file into executable:
+- Compile a source file into an executable with the same name:
 
 `pabcnetcclear {{source.pas}}`
 
