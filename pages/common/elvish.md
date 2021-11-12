@@ -1,6 +1,6 @@
 # Elvish
 
-> Elvish expressive programming language and a versatile interactive shell.
+> Expressive programming language and a versatile interactive shell.
 > More information: <https://elv.sh/learn/>.
 
 - Start an interactive shell session:
