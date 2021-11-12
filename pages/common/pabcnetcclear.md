@@ -7,6 +7,6 @@
 
 `pabcnetcclear {{path/to/file.pas}}`
 
-- Compile source file into executable along with debug info:
+- Compile a source file into an executable along with debug info:
 
 `pabcnetcclear /Debug:1 {{source.pas}}`
