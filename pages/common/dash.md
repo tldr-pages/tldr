@@ -21,15 +21,15 @@
 
 - Execute a script while printing each command before executing it:
 
-`bash -x {{path/to/script.sh}}`
+`dash -x {{path/to/script.dash}}`
 
 - Execute a script and stop at a first [e]rror:
 
-`bash -e {{path/to/script.sh}}`
+`dash -e {{path/to/script.dash}}`
 
 - Execute a command from [s]tdin:
 
-`bash -s`
+`dash -s`
 
 - Print the version:
 
