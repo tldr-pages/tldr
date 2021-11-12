@@ -7,6 +7,10 @@
 
 `csh`
 
+- Start an interactive shell session without loading startup configs:
+
+`csh -f`
+
 - Execute a [c]ommand:
 
 `csh -c "{{command}}"`
