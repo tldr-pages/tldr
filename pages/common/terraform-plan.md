@@ -3,7 +3,7 @@
 > Generate and show Terraform execution plans.
 > More information: <https://www.terraform.io/docs/cli/commands/plan.html>.
 
-- Generate and show the execution plan in the currently directory;
+- Generate and show the execution plan in the currently directory:
 
 `terraform plan`
 
@@ -29,4 +29,4 @@
 
 - Write a plan to a specific file:
 
-`terraform plan -no-color > {{path/to/file}}'
+`terraform plan -no-color > {{path/to/file}}`
