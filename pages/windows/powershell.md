@@ -19,10 +19,6 @@
 
 `powershell -File {{path/to/script.ps1}}`
 
-- Load a specific console file:
-
-`powershell -PSConsoleFile {{path/to/file}}`
-
 - Start a session with a specified version of PowerShell:
 
 `powershell -Version {{version}}`
