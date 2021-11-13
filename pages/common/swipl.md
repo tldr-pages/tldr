@@ -11,6 +11,10 @@
 
 `swipl {{path/to/file.pl}}`
 
+- Print shell configuration variables:
+
+`swipl --dump-runtime-variables`
+
 - Print the version:
 
 `swipl --version`
