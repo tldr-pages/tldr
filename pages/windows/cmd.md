@@ -26,3 +26,11 @@
 - Start an interactive shell session with enabled or disabled command [e]xtensions:
 
 `cmd /e:{{on|off}}`
+
+- Start an interactive shell session with enabled or disabled command [e]xtensions:
+
+`cmd /e:{{on|off}}`
+
+- Start an interactive shell session with used Unicode encoding:
+
+`cmd /u`
