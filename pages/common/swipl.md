@@ -7,6 +7,10 @@
 
 `swipl`
 
+- Execute a command:
+
+`swipl --quiet -t "{{command}}"`
+
 - Execute a script:
 
 `swipl {{path/to/file.pl}}`
