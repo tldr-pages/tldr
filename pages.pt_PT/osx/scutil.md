@@ -2,6 +2,7 @@
 
 > Gere parametros da configuração do sistema.
 > Necessita de permissões de root para modificar configurações.
+> Mais informações: <https://ss64.com/osx/scutil.html>.
 
 - Mostra as configurações de DNS:
 
