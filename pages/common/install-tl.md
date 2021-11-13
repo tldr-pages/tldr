@@ -26,4 +26,3 @@
 - Show help for `install-tl`:
 
 `install-tl -help`
-
