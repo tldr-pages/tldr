@@ -7,7 +7,7 @@
 
 `ia configure`
 
-- Upload one or more item to `archive.org`:
+- Upload one or more items to `archive.org`:
 
 `ia upload {{identifier}} {{path/to/file}} --metadata="{{mediatype:data}}" --metadata="{{title:example}}"`
 
