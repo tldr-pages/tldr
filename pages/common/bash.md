@@ -35,7 +35,3 @@
 - Print the version:
 
 `bash --version`
-
-
-
-
