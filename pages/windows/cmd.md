@@ -23,9 +23,9 @@
 
 `cmd /q`
 
-- Start an interactive shell session with enabled or disabled command [e]xtensions:
+- Start an interactive shell session with enabled or disabled delayed [v]ariable expansion:
 
-`cmd /e:{{on|off}}`
+`cmd /v:{{on|off}}`
 
 - Start an interactive shell session with enabled or disabled command [e]xtensions:
 
