@@ -15,7 +15,7 @@
 
 `swipl {{path/to/file.pl}}`
 
-- Print shell configuration variables:
+- Print all shell configuration variables:
 
 `swipl --dump-runtime-variables`
 
