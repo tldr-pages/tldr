@@ -1,6 +1,6 @@
 # swipl
 
-> SWI-Prolog a comprehensive free Prolog environment.
+> SWI-Prolog - A comprehensive free Prolog environment.
 > More information: <https://www.swi-prolog.org/>.
 
 - Start an interactive session:
