@@ -19,7 +19,7 @@
 
 `cmd /k "{{command}}"`
 
-- Start an interactive shell session with disabled usage of `echo` in command output:
+- Start an interactive shell session where `echo` is disabled in command output:
 
 `cmd /q`
 
