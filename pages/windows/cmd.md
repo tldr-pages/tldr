@@ -27,7 +27,7 @@
 
 `cmd /v:{{on|off}}`
 
-- Start an interactive shell session with enabled or disabled command [e]xtensions:
+- Start an interactive shell session with command [e]xtensions enabled or disabled:
 
 `cmd /e:{{on|off}}`
 
