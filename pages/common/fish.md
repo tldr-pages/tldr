@@ -19,7 +19,7 @@
 
 `fish {{path/to/script.fish}}`
 
-- Check a script for syntax errors but do not execute it:
+- Check a script for syntax errors:
 
 `fish --no-execute {{path/to/script.fish}}`
 
