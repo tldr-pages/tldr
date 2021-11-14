@@ -9,20 +9,20 @@
 
 - Start an interactive shell session without loading startup configs:
 
-`pwsh -nop`
+`pwsh -NoProfile`
 
-- Execute a [c]ommand:
+- Execute a command:
 
-`pwsh -c "{{command}}"`
+`pwsh -Command "{{command}}"`
 
 - Execute a script:
 
 `pwsh {{path/to/script.ps1}}`
 
-- Start an interactive shell session with specified [e]xecution [p]olicy:
+- Start an interactive shell session with a specified execution policy:
 
-`pwsh -ep {{AllSigned|Bypass|Default|RemoteSigned|Restricted|Undefined|Unrestricted}}`
+`pwsh -ExecutionPolicy {{AllSigned|Bypass|Default|RemoteSigned|Restricted|Undefined|Unrestricted}}`
 
-- Print the [v]ersion:
+- Print the version:
 
-`pwsh -v`
+`pwsh -Version`
