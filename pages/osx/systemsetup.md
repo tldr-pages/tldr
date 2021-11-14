@@ -1,6 +1,7 @@
 # systemsetup
 
 > Configure System Preferences machine settings.
+> More information: <https://ss64.com/osx/systemsetup.html>.
 
 - Enable remote login (SSH):
 
