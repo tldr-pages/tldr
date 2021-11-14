@@ -3,22 +3,30 @@
 > Simple screen locker built for the i3 window manager.
 > More information: <https://i3wm.org/i3lock>.
 
-- Lock screen with a simple color background (rrggbb format):
+- Lock the screen showing a white background:
 
-`i3lock -c {{0000ff}}`
+`i3lock`
 
-- Lock screen to a PNG background:
+- Lock the screen with a simple color background (rrggbb format):
 
-`i3lock -i {{path/to/picture.png}}`
+`i3lock --color {{0000ff}}`
 
-- Disable the unlock indicator (removes feedback on keypress):
+- Lock the screen to a PNG background:
 
-`i3lock -u`
+`i3lock --image {{path/to/file.png}}`
 
-- Display mouse pointer instead of hiding it ('default' for default pointer, 'win' for an MS Windows pointer):
+- Lock the screen and disable the unlock indicator (removes feedback on keypress):
 
-`i3lock -p {{default|win}}`
+`i3lock --no-unlock-indicator`
 
-- Lock screen to a PNG background displayed in multiple monitors, with enabled mouse pointer:
+- Lock the screen and don't hide the mouse pointer:
 
-`i3lock -i {{path/to/picture.png}} -p {{default|win}} -t`
+`i3lock --pointer {{default}}`
+
+- Lock the screen to a PNG background tiled over all monitors:
+
+`i3lock --image {{path/to/file.png}} --tiling`
+
+- Lock the screen and show the number of failed login attempts:
+
+`i3lock --show-failed-attempts`
