@@ -7,7 +7,7 @@
 
 `swipl`
 
-- Execute a command:
+- Execute a command without showing any output:
 
 `swipl --quiet -t "{{command}}"`
 
