@@ -23,7 +23,7 @@
 
 `cmd /q`
 
-- Start an interactive shell session with enabled or disabled delayed [v]ariable expansion:
+- Start an interactive shell session with delayed [v]ariable expansion enabled or disabled:
 
 `cmd /v:{{on|off}}`
 
