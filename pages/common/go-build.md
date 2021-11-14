@@ -3,7 +3,7 @@
 > Compile Go sources.
 > More information: <https://golang.org/cmd/go/#hdr-Compile_packages_and_dependencies>.
 
-- Compile a file:
+- Compile a file (output will be filename without extension):
 
 `go build {{path/to/main.go}}`
 
