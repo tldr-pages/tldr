@@ -27,6 +27,10 @@
 
 `fish --private`
 
+- Define and export environmental variable that persist across shell restarts (builtin):
+
+`set --universal --export {{variable_name}} {{variable_value}}`
+
 - Print the version:
 
 `fish --version`
