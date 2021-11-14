@@ -1,6 +1,7 @@
 # sysctl
 
 > 访问内核状态信息。
+> 更多信息：<https://ss64.com/osx/sysctl.html>.
 
 - 显示所有可用变量及其值：
 
