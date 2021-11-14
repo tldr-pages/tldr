@@ -9,24 +9,24 @@
 
 - Start an interactive shell session without loading startup configs:
 
-`fish -N`
+`fish --no-config`
 
-- Execute a [c]ommand:
+- Execute a command:
 
-`fish -c "{{command}}"`
+`fish --command "{{command}}"`
 
 - Execute a script:
 
 `fish {{path/to/script.fish}}`
 
-- Check a script for syntax errors but [n]ot execute it:
+- Check a script for syntax errors but do not execute it:
 
-`fish -n {{path/to/script.fish}}`
+`fish --no-execute {{path/to/script.fish}}`
 
-- Start an interactive shell session in [p]rivate mode, where the shell does not access old history or save new history:
+- Start an interactive shell session in private mode, where the shell does not access old history or save new history:
 
-`fish -P`
+`fish --private`
 
 - Print the version:
 
-`fish -v`
+`fish --version`
