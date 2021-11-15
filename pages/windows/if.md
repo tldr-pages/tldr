@@ -1,9 +1,9 @@
-# for
+# if
 
 > Performs conditional processing in batch programs.
-> More information: <https://ss64.com/nt/for.html>.
+> More information: <https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/if>.
 
-- Check whether %errorlevel% is greater than or equal to:
+- Check whether `%errorlevel%` is greater than or equal to specified value:
 
 `if errorlevel {{exit_code}} {{command}}`
 
