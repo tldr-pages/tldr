@@ -7,11 +7,11 @@
 
 `ykman info`
 
-- Get information for given application from YubiKey:
+- Get information for a given application from YubiKey:
 
 `ykman {{fido|oath|openpgp|otp|piv}} info`
 
-- Get list of enabled applications over NFC from YubiKey:
+- Get a list of enabled applications over NFC from YubiKey:
 
 `ykman config nfc --list`
 
