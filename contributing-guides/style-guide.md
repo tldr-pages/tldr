@@ -74,6 +74,10 @@ Extensions
   For instance, in `find.md`'s example "Find files by extension" (`find {{root_path}} -name '{{*.ext}}'`)
   using `{{*.ext}}` explains the command without being unnecessarily specific;
   while in `wc -l {{file}}` using `{{file}}` (without extension) is sufficient.
+  
+### Options
+
+- Prefer long options instead of short ones whenever is possible.
 
 ### Special cases
 - If a command performs irreversible changes to a file system or devices,
