@@ -98,6 +98,59 @@ Use backticks on the following:
 - Extensions, ex. `.dll`.
 - Commands, ex. `ls`.
 
+### Shell-specific pages
+
+If a page describes some shell (Bash for instance) then when it's possible try follow this structure:
+
+- Start an interactive shell session:
+- Start an interactive shell session without loading startup configs:
+- Execute a command:
+- Execute a script:
+- Check a script for syntax errors:
+- _any other examples_
+- Print the version:
+
+If you want to include shell builtin sample please mark it with `(builtin)` word. For example:
+
+```md
+# fish
+
+> The Friendly Interactive SHell, a command-line interpreter designed to be user friendly.
+> More information: <https://fishshell.com>.
+
+- Start an interactive shell session:
+
+`fish`
+
+- Start an interactive shell session without loading startup configs:
+
+`fish --no-config`
+
+- Execute a command:
+
+`fish --command "{{command}}"`
+
+- Execute a script:
+
+`fish {{path/to/script.fish}}`
+
+- Check a script for syntax errors:
+
+`fish --no-execute {{path/to/script.fish}}`
+
+- Start an interactive shell session in private mode, where the shell does not access old history or save new history:
+
+`fish --private`
+
+- Define and export environmental variable that persist across shell restarts (builtin):
+
+`set --universal --export {{variable_name}} {{variable_value}}`
+
+- Print the version:
+
+`fish --version`
+```
+
 ## Imperative Mood
 
 Example descriptions have to be phrased in imperative mood.  
