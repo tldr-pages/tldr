@@ -12,26 +12,26 @@
 
 `git rebase -i {{target_base_branch_or_commit_hash}}`
 
-- Einen Rebase fortsetzen, der durch einen Merge Fehler unterbrochen wurde, nachdem die Konflikte aufgelöst wurden:
+- Setze einen Rebase fort, der durch einen Merge Fehler unterbrochen wurde, nachdem die Konflikte aufgelöst wurden:
 
 `git rebase --continue`
 
-- Einen Rebase fortsetzen, der durch einen Merge Fehler unterbrochen wurde, indem der in Konflikt stehende Commit ausgelassen wird:
+- Setze einen Rebase fort, der durch einen Merge Fehler unterbrochen wurde, durch auslassen des in Konflikt stehenden Commits:
 
 `git rebase --skip`
 
-- Einen laufenden Rebase abbrechen (z.B. wenn er durch Merge Konflikte unterbrochen wurde):
+- Brich einen laufenden Rebase ab (z.B. wenn er durch Merge Konflikte unterbrochen wurde):
 
 `git rebase --abort`
 
 - Einen Teil des aktuellen Branches auf eine neue Basis verschieben und dabei die alte Basis angeben, ab der die Änderungen verwendet werden sollen:
 
-`git rebase --onto {{new_base}} {{old_base}}`
+`git rebase --onto {{neue_basis}} {{alte_basis}}`
 
-- Interaktiver Rebase der letzten 5 commits (z.B. um mehrere Commits zusammenzuführen):
+- Interaktiver Rebase der letzten 5 Commits (z.B. um mehrere Commits zusammenzuführen):
 
 `git rebase -i {{HEAD~5}}`
 
-- Konflikte automatisch auflösen, indem der aktuelle Branch bevorzugt wird (das Schlüsselwort `theirs` hat in diesem Fall eiine umgekehrte Bedeutung):
+- Konflikte automatisch auflösen, indem der aktuelle Branch bevorzugt wird (das Schlüsselwort `theirs` hat in diesem Fall eine umgekehrte Bedeutung):
 
 `git rebase -X theirs {{branch_name}}`
