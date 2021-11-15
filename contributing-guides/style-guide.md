@@ -66,7 +66,7 @@ Keep the following guidelines in mind when choosing tokens:
 - In case of a possible reference both to a file or a directory,
   use `{{path/to/file_or_directory}}`.
 
-Extensions
+### Extensions
 
 - If a particular extension is expected for the file, append it.
   For example, `unrar x {{compressed.rar}}`.
