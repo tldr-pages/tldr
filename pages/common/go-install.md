@@ -7,14 +7,14 @@
 
 `go install`
 
-- Compile and install a local package:
+- Compile and install a specific local package:
 
-`go install {{./cmd/...}}`
+`go install {{path/to/package}}`
 
 - Install the latest version of a program, ignoring `go.mod` in the current directory:
 
 `go install {{golang.org/x/tools/gopls}}@{{latest}}`
 
-- Install a program at the version selected by the module in the current directory:
+- Install a program at the version selected by `go.mod` in the current directory:
 
 `go install {{golang.org/x/tools/gopls}}`
