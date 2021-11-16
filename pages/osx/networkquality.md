@@ -15,6 +15,6 @@
 
 `networkQuality -I {{en0}}`
 
--  Test the network quality with verbose output:
+- Test the network quality with verbose output:
 
 `networkQuality -v`
