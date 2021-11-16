@@ -1,17 +1,16 @@
 # wdctl
 
-> Shoes hardware watchdog status.
-> The Linux kernel can reset the system if serious problems are detected. This can be implemented via special watchdog hardware, or via a slightly less reliable software-only watchdog inside the kernel.
-> More information: <https://man7.org/linux/man-pages/man8/wdctl.8.html>.
+> Shows the hardware watchdog status.
+> More information: <https://manned.org/wdctl>.
 
-- Display watchdog status:
+- Display the watchdog status:
 
 `wdctl`
 
-- Display watchdog status on a single line (`key=value` pairs):
+- Display the watchdog status in a single line in `key=value` pairs:
 
 `wdctl --oneline`
 
-- Display only some watchdog flags (list is driver specific):
+- Display only specific watchdog flags (list is driver specific):
 
-`wdctl --flags {{flag list}}`
+`wdctl --flags {{flag_list}}`
