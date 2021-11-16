@@ -1,7 +1,7 @@
 # if
 
 > Performs conditional processing in batch programs.
-> More information: <https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/if>.
+> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/if>.
 
 - Check whether `%errorlevel%` is greater than or equal to specified value:
 
