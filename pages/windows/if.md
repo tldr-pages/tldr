@@ -19,6 +19,6 @@
 
 `if exist {{path/to/file}} {{command}}`
 
-- Check whether negated condition is true:
+- Check whether a condition is false:
 
 `if not {{condition}} {{command}}`
