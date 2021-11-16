@@ -3,9 +3,9 @@
 > Fully featured scripting language created specifically for Ops. REPL is being developed.
 > More information: <https://github.com/ngs-lang/ngs>.
 
-- Execute a command:
+- Execute a code:
 
-`ngs -e "{{command}}"`
+`ngs -e "{{code}}"`
 
 - Execute a script:
 
