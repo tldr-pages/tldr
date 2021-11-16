@@ -15,7 +15,7 @@
 
 `if /i {{string}} == {{string}} {{command}}`
 
-- Check whether file exist:
+- Check whether a file exist:
 
 `if exist {{path/to/file}} {{command}}`
 
