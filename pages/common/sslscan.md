@@ -9,7 +9,7 @@
 
 - Test a specified port:
 
-`sslscan {{example.com:465}}`
+`sslscan {{example.com}}:{{465}}`
 
 - Show certificate information:
 
