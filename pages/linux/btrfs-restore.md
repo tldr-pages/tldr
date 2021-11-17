@@ -1,6 +1,6 @@
 # btrfs restore
 
-> Try to salvage files from a damaged btrfs filesystem
+> Try to salvage files from a damaged btrfs filesystem.
 > More information: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-restore>.
 
 - Restore all files from btrfs filesystem to given directory:
@@ -15,7 +15,7 @@
 
 `sudo btrfs restore --path-regex {{regex}} -c {{path/to/btrfs-device}} {{path/to/target-directory}}`
 
-- Restore files from btrfs filesystem using specific root tree `bytenr` (see `btrfs-find-root`)
+- Restore files from btrfs filesystem using specific root tree `bytenr` (see `btrfs-find-root`):
 
 `sudo btrfs restore -t {{bytenr}} {{path/to/btrfs-device}} {{path/to/target-directory}}`
 
