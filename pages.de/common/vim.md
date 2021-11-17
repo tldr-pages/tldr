@@ -1,30 +1,36 @@
 # vim
-> Vim (Vi IMproved), ein Commandline Texteditor, bietet mehrere Modi für verschiedene Arten der Textmanipulation.
->
-> Das Drücken von `i` schaltet in den Editier-Modus. `<Esc>` wechselt in den Befehls-Modus, der die Verwendung von Vim-Befehlen ermöglicht.
->
-> Mehr Informationen: <https://www.vim.org>.
+> Vim (Vi IMproved), ein Befehlszeilen-Texteditor, bietet mehrere Modi für verschiedene Arten der Textmanipulation an.
+> Das Drücken von `i` schaltet den Editier-Modus ein. `<Esc>` wechselt in den Befehls-Modus, der die Verwendung von Vim-Befehlen ermöglicht.
+> Weitere Informationen: <https://www.vim.org>.
 
-- Eine Datei öffnen:
+- Öffne eine Datei:
 
-`vim {{pfad/zur/datei}}`
+`vim {{pfad/zu/datei}}`
 
-- Speichern und Schließen:
+- Öffne eine Datei an einer bestimmten Zeilennummer:
+
+`vim +{{zeilennummer}} {{pfad/zu/datei}}`
+
+- Zeige Vim's Benutzeranleitung:
+
+`:help<Enter>`
+
+- Speichere und schließe die aktuelle Datei:
 
 `:wq<Enter>`
 
-- Ich habe mich verrannt und will ohne Speichern einfach nur raus:
+- Mache die letzte Aktion rückgängig:
 
-`<Esc>:q!`
+`u`
 
-- Suche nach einem Muster in der Datei (per `n`/`N` zum nächsten/vorherigen Treffer gehen):
+- Suche nach einem Muster in der Datei (mit `n`/`N` zum nächsten/vorherigen Treffer gehen):
 
 `/{{suchmuster}}<Enter>`
 
-- Per RegEx einen Begriff suchen/ersetzen - jeder Treffer wird ersetzt:
+- Ersetze einen regulären Ausdruck alle Treffer in einer Datei:
 
-`:%s/{{regular_expression}}/{{neuer_text}}/g<Enter>`
+`:%s/{{regulärer_ausdruck}}/{{neuer_text}}/g<Enter>`
 
-- Die letzte Aktion rückgängig machen:
+- Zeige Zeilennummern an:
 
-`u`
+`:set nu<Enter>`
