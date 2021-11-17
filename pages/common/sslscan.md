@@ -7,7 +7,7 @@
 
 `sslscan {{example.com}}`
 
-- Test a different port:
+- Test a specified port:
 
 `sslscan {{example.com:465}}`
 
