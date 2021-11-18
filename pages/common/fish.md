@@ -27,7 +27,7 @@
 
 `fish --private`
 
-- Define and export environmental variable that persist across shell restarts (builtin):
+- Define and export an environmental variable that persists across shell restarts (builtin):
 
 `set --universal --export {{variable_name}} {{variable_value}}`
 
