@@ -10,4 +10,3 @@
 - 展示所有的变化, 同时列出冲突:
 
 `diff3 --show-all {{file1}} {{file2}} {{file3}}`
-
