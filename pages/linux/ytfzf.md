@@ -5,24 +5,24 @@
 
 - Search videos in YouTube and display the thumbnails:
 
-`ytfzf -t {{search text}}`
+`ytfzf --show-thumbnails {{search_pattern}}`
 
 - Play only audio of first item in loop:
 
-`ytfzf -mal {{search text}}`
+`ytfzf --audio-only --auto-select --loop {{search_pattern}}`
 
 - Download a video from history:
 
-`ytfzf -dH`
+`ytfzf --download --choose-from-history`
 
 - Play all the music found in one search:
 
-`ytfzf -mA {{search text}}`
+`ytfzf --audio-only --select-all {{search_pattern}}`
 
 - See the trending videos in external menu:
 
-`ytfzf -TD {{search text}}`
+`ytfzf --trending --ext-menu {{search_pattern}}`
 
 - Search PeerTube instead of YouTube:
 
-`ytfzf -P {{search text}}`
+`ytfzf --peertube {{search_pattern}}`
