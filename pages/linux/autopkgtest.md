@@ -11,7 +11,7 @@
 
 `autopkgtest --test-name={{test_name}} -- {{null}}`
 
-- Download and build a specific package, then run all tests:
+- Download and build a specific package with `apt-get`, then run all tests:
 
 `autopkgtest {{package}} -- null`
 
