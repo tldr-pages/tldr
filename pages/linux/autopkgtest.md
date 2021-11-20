@@ -13,7 +13,7 @@
 
 - Download and build a specific package with `apt-get`, then run all tests:
 
-`autopkgtest {{package}} -- null`
+`autopkgtest {{package}} -- {{null}}`
 
 - Test the package in the current directory using a new root directory:
 
