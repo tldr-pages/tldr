@@ -7,7 +7,7 @@
 
 `networkQuality`
 
-- Test sequential upload and download instead of parallel:
+- Test the upload and download speeds sequentially instead of in parallel:
 
 `networkQuality -s`
 
