@@ -21,4 +21,4 @@
 
 - Test the package in the current directory without rebuilding it:
 
-`autopkgtest --no-built-binaries -- null`
+`autopkgtest --no-built-binaries -- {{null}}`
