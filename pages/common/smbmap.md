@@ -11,11 +11,11 @@
 
 `smbmap --host-file {{path/to/file}} -u {{username}} -p {{password}} -q`
 
-- Connect to an ip or hostname through smb using username and password:
+- Connect to an ip or hostname through smb using a username and password:
 
 `smbmap -u {{username}} -p {{password}} -d {{domain}} -H {{ip_or_hostname}}`
 
-- Locate and download files [R]ecursively up to N levels depth searching for filename pattern (regex) excluding certain shares:
+- Locate and download files [R]ecursively up to N levels depth, searching for filename pattern (regex), and excluding certain shares:
 
 `smbmap --host-file {{path/to/file}} -u {{username}} -p {{password}} -q -R --depth {{number}} --exclude {{sharename}} -A {{filepattern}}`
 
