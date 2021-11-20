@@ -9,7 +9,7 @@
 
 - Run a specific test for the package in the current directory:
 
-`autopkgtest --test-name={{testname}} -- null`
+`autopkgtest --test-name={{test_name}} -- {{null}}`
 
 - Download and build a specific package, then run all tests:
 
