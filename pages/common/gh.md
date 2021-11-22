@@ -24,9 +24,9 @@
 
 `gh pr create`
 
-- View a pull request in the browser:
+- Create a pull request to a specified branch instead of the default:
 
-`gh pr view --web {{pr_number}}`
+`gh pr create --base {{dev}}`
 
 - Locally check out the branch of a pull request, given its number:
 
