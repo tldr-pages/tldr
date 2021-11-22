@@ -20,6 +20,10 @@
 
 `hub pull-request --no-edit`
 
+- Create a PR against a specified branch instead of the default branch:
+
+`hub pull-request --base {{dev}}`
+
 - Create a new branch with the contents of a pull request and switch to it:
 
 `hub pr checkout {{pr_number}}`
