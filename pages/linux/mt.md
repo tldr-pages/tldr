@@ -9,7 +9,7 @@
 
 - Rewind the tape to beginning:
 
-`mt -f {{/dev/[nst|st]N}} rewind`
+`mt -f {{/dev/nstX}} rewind`
 
 - Move forward a given files, then position the tape on first block of next file:
 
@@ -21,12 +21,12 @@
 
 - Position the tape at the end of valid data:
 
-`mt -f {{/dev/[nst|st]N}} eod`
+`mt -f {{/dev/nstX}} eod`
 
 - Rewind the tape and unload/eject it:
 
-`mt -f {{/dev/[nst|st]N}} eject`
+`mt -f {{/dev/nstX}} eject`
 
 - Write EOF (End-of-file) mark at the current position:
 
-`mt -f {{/dev/[nst|st]N}} eof`
+`mt -f {{/dev/nstX} eof`
