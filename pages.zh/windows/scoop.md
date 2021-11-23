@@ -27,10 +27,6 @@
 
 `scoop search {{包名}}`
 
-- 列出所有已知的桶（“桶”代表程序的仓库）：
+- 移除所有包的旧版本并清理下载缓存：
 
-`scoop bucket known`
-
-- 通过别名或 Git 存储库 URL 添加存储桶：
-
-`scoop bucket add {{bucket}}`
+`scoop cleanup -k *`
