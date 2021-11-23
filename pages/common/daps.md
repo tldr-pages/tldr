@@ -5,7 +5,7 @@
 
 - Check if a DocBook XML file is valid:
 
-`daps -d {{path/to/docbook.xml}} validate`
+`daps -d {{path/to/file.xml}} validate`
 
 - Convert a DocBook XML file into PDF:
 
