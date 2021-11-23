@@ -3,10 +3,10 @@
 > AV1 Image File Format (AVIF) encoder.
 > More information: <https://aomediacodec.github.io/av1-avif/>.
 
-- Convert an image from png to avif:
+- Convert a specific PNG image to AVIF:
 
-`avifenc image.png image.avif`
+`avifenc {{path/to/image.png}} {{path/to/image.avif}}`
 
-- Encoder speed (0-10, slowest-fastest, default: 6):
+- Encode with a specific speed, where 0=slowest, 10=fastest, and 6=default:
 
-`avifenc --speed 2 image.png image.avif`
+`avifenc --speed {{2}} {{path/to/image.png}} {{path/to/image.avif}}`
