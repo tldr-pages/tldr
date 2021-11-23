@@ -11,10 +11,10 @@
 
 `vswhere -products * -latest -prerelease -find **/Hostx64/x64/*`
 
-- Find the directory of the Clang bundled with Visual Studio bundled (clang-cl, clang-tidy, etc):
+- Find the directory of Clang bundled with Visual Studio bundled (clang-cl, clang-tidy, etc):
 
 `vswhere -products * -latest -prerelease -find **/Llvm/bin/*`
 
-- Find the path of the MSBuild.exe :
+- Find the path of `MSBuild.exe`:
 
 `vswhere -products * -latest -prerelease -find MSBuild/**/Bin/MSBuild.exe`
