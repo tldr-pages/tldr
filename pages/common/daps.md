@@ -3,17 +3,17 @@
 > DAPS is an open source program for transforming DocBook XML into output formats such as HTML or PDF.
 > More information: <https://opensuse.github.io/daps/doc/index.html>.
 
-- Check your DocBook XML file is vaild:
+- Check if a DocBook XML file is valid:
 
 `daps -d {{path/to/docbook.xml}} validate`
 
-- Convert your XML file into PDF:
+- Convert a DocBook XML file into PDF:
 
-`daps -d {{path/to/DC-file}} pdf`
+`daps -d {{path/to/file.xml}} pdf`
 
-- Convert your XML file into HTML:
+- Convert a DocBook XML file into a single HTML file:
 
-`daps -d {{path/to/DC-file}} html --single`
+`daps -d {{path/to/file.xml}} html --single`
 
 - Display help:
 
