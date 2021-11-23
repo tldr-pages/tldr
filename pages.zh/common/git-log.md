@@ -25,7 +25,7 @@
 
 - 查看提交消息中包含特定字符串（大小写敏感）的提交：
 
-`git log -i --grep {{search_string}}`
+`git log -i --grep {{字符串}}`
 
 - 查看特定作者的最近 N 条提交：
 
