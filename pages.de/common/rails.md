@@ -4,7 +4,7 @@
 > Manche Unterbefehle wie `rails generate` sind separat dokumentiert.
 > Weitere Informationen: <https://guides.rubyonrails.org/command_line.html>.
 
-- Erstelle ein neues Rails Projekt:
+- Erstelle ein neues Rails-Projekt:
 
 `rails new "{{projektname}}"`
 
