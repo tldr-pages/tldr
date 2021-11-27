@@ -23,7 +23,7 @@
 
 `dash -x {{path/to/script.dash}}`
 
-- Execute a script and stop at a first [e]rror:
+- Execute a script and stop at the first [e]rror:
 
 `dash -e {{path/to/script.dash}}`
 

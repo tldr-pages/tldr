@@ -24,7 +24,7 @@
 
 `bash -x {{path/to/script.sh}}`
 
-- Execute a script and stop at a first [e]rror:
+- Execute a script and stop at the first [e]rror:
 
 `bash -e {{path/to/script.sh}}`
 
