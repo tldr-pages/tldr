@@ -11,6 +11,10 @@
 
 `if not {{condition}} {{command}}`
 
+- Execute the first specified command if the condition is true otherwise execute the second specified command:
+
+`if {{condition}} ({{first_command}}) else ({{second_command}})`
+
 - Check whether `%errorlevel%` is greater than or equal to the specified exit code:
 
 `if errorlevel {{exit_code}} {{command}}`
