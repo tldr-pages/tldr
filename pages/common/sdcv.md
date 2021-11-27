@@ -30,4 +30,4 @@
 
 - Search for dictionaries in a specific directory:
 
-`sdvc --data-dir {{path/to/directory}} {{search_term}}`
+`sdcv --data-dir {{path/to/directory}} {{search_term}}`

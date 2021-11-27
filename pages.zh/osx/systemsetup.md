@@ -1,6 +1,7 @@
 # systemsetup
 
 > 配置系统首选项计算机设置。
+> 更多信息：<https://ss64.com/osx/systemsetup.html>.
 
 - 启用远程登录（SSH）：
 
