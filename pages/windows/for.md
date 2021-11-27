@@ -9,12 +9,12 @@
 
 - Iterate over range:
 
-`for /l %I in ({{from}}, {{step}}, {{to}}) do {{command}}`
+`for /l %{{variable}} in ({{from}}, {{step}}, {{to}}) do ({{commands}})`
 
 - Iterate over files:
 
-`for %F in ({{file_set}}) do {{command}}`
+`for %{{variable}} in ({{file_set}}) do ({{commands}})`
 
 - Iterate over directories:
 
-`for /d %D in ({{folder_set}}) do {{command}}`
+`for /d %{{variable}} in ({{folder_set}}) do ({{commands}})`
