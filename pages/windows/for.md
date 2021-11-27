@@ -3,6 +3,10 @@
 > Conditionally perform a command several times.
 > More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/for>.
 
+- Execute the specified commands for the specified set:
+
+`for %{{variable}} in ({{set}}) do ({{commands}})`
+
 - Iterate over range:
 
 `for /l %I in ({{from}}, {{step}}, {{to}}) do {{command}}`
