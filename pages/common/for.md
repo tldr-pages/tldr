@@ -17,8 +17,8 @@
 
 - Perform a command with different arguments:
 
-`for {{variable}} in 1 2 3; do {{command}} ${{variable}}; done`
+`for {{variable}} in {{arguments}}; do {{command}} "${{variable}}"; done`
 
 - Perform a command in every directory:
 
-`for {{variable}} in */; do (cd ${{variable}}; {{command}}) done`
+`for {{variable}} in */; do (cd "${{variable}}" || continue; {{command}}) done`
