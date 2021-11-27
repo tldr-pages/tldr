@@ -3,7 +3,7 @@
 > Performs conditional processing in batch programs.
 > More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/if>.
 
-- Check whether `%errorlevel%` is greater than or equal to specified value:
+- Check whether `%errorlevel%` is greater than or equal to the specified exit code:
 
 `if errorlevel {{exit_code}} {{command}}`
 
