@@ -3,30 +3,30 @@
 > Performs conditional processing in batch programs.
 > More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/if>.
 
-- Execute the specified command if the condition is true:
+- Execute the specified commands if the condition is true:
 
-`if {{condition}} {{command}}`
+`if {{condition}} {{commands}}`
 
-- Execute the specified command if the condition is false:
+- Execute the specified commands if the condition is false:
 
-`if not {{condition}} {{command}}`
+`if not {{condition}} {{commands}}`
 
-- Execute the first specified command if the condition is true otherwise execute the second specified command:
+- Execute the first specified commands if the condition is true otherwise execute the second specified commands:
 
-`if {{condition}} ({{first_command}}) else ({{second_command}})`
+`if {{condition}} ({{first_commands}}) else ({{second_commands}})`
 
 - Check whether `%errorlevel%` is greater than or equal to the specified exit code:
 
-`if errorlevel {{exit_code}} {{command}}`
+`if errorlevel {{exit_code}} {{commands}}`
 
 - Check whether two strings are equal:
 
-`if {{string}} == {{string}} {{command}}`
+`if {{string}} == {{string}} {{commands}}`
 
 - Check whether two strings are equal without respecting letter case:
 
-`if /i {{string}} == {{string}} {{command}}`
+`if /i {{string}} == {{string}} {{commands}}`
 
 - Check whether a file exist:
 
-`if exist {{path/to/file}} {{command}}`
+`if exist {{path/to/file}} {{commands}}`
