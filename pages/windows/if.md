@@ -3,6 +3,14 @@
 > Performs conditional processing in batch programs.
 > More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/if>.
 
+- Execute the specified command if the condition is true:
+
+`if {{condition}} {{command}}`
+
+- Execute the specified command if the condition is false:
+
+`if not {{condition}} {{command}}`
+
 - Check whether `%errorlevel%` is greater than or equal to the specified exit code:
 
 `if errorlevel {{exit_code}} {{command}}`
@@ -18,7 +26,3 @@
 - Check whether a file exist:
 
 `if exist {{path/to/file}} {{command}}`
-
-- Check whether a condition is false:
-
-`if not {{condition}} {{command}}`
