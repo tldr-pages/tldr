@@ -32,6 +32,6 @@
 
 `bash -s`
 
-- Print the version:
+- Print the version (`$BASH_VERSION` contains the version without the license information):
 
 `bash --version`

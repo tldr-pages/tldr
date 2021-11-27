@@ -31,6 +31,6 @@
 
 `set --universal --export {{variable_name}} {{variable_value}}`
 
-- Print the version:
+- Print the version (`$FISH_VERSION` contains the version without the license information):
 
 `fish --version`

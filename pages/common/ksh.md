@@ -24,6 +24,6 @@
 
 `ksh -x {{path/to/script.ksh}}`
 
-- Print the version:
+- Print the version (`$KSH_VERSION` contains the version without the license information):
 
 `ksh --version`

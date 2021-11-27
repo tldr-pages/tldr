@@ -23,6 +23,6 @@
 
 `pwsh -ExecutionPolicy {{AllSigned|Bypass|Default|RemoteSigned|Restricted|Undefined|Unrestricted}}`
 
-- Print the version:
+- Print the version (`$host.Version.ToString()` contains the version without the license information):
 
 `pwsh -Version`
