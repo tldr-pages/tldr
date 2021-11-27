@@ -7,9 +7,9 @@
 
 `cmd`
 
-- Execute a [c]ommand:
+- Execute [c]ommands:
 
-`cmd /c "{{command}}"`
+`cmd /c "{{commands}}"`
 
 - Execute a script:
 

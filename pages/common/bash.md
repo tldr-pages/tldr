@@ -12,9 +12,9 @@
 
 `bash --norc`
 
-- Execute a [c]ommand:
+- Execute [c]ommands:
 
-`bash -c "{{command}}"`
+`bash -c "{{commands}}"`
 
 - Execute a script:
 

@@ -11,9 +11,9 @@
 
 `fish --no-config`
 
-- Execute a command:
+- Execute commands:
 
-`fish --command "{{command}}"`
+`fish --command "{{commands}}"`
 
 - Execute a script:
 

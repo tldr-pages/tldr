@@ -11,9 +11,9 @@
 
 `csh -f`
 
-- Execute a [c]ommand:
+- Execute [c]ommands:
 
-`csh -c "{{command}}"`
+`csh -c "{{commands}}"`
 
 - Execute a script:
 

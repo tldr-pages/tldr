@@ -7,9 +7,9 @@
 
 `dash`
 
-- Execute a [c]ommand:
+- Execute [c]ommands:
 
-`dash -c "{{command}}"`
+`dash -c "{{commands}}"`
 
 - Execute a script:
 

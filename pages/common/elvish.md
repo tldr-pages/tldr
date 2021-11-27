@@ -7,7 +7,7 @@
 
 `elvish`
 
-- Execute a [c]ommand and then exit:
+- Execute [c]ommand and then exit:
 
 `elvish -c "{{command}}"`
 

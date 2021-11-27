@@ -11,9 +11,9 @@
 
 `tcsh -f`
 
-- Execute a [c]ommand:
+- Execute [c]ommands:
 
-`tcsh -c "{{command}}"`
+`tcsh -c "{{commands}}"`
 
 - Execute a script:
 

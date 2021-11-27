@@ -11,9 +11,9 @@
 
 `pwsh -NoProfile`
 
-- Execute a command:
+- Execute commands:
 
-`pwsh -Command "{{command}}"`
+`pwsh -Command "{{commands}}"`
 
 - Execute a script:
 

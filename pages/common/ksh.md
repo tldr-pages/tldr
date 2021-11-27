@@ -8,9 +8,9 @@
 
 `ksh`
 
-- Execute a [c]ommand:
+- Execute [c]ommands:
 
-`ksh -c "{{command}}"`
+`ksh -c "{{commands}}"`
 
 - Execute a script:
 

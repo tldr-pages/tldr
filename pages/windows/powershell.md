@@ -11,9 +11,9 @@
 
 `powershell -NoProfile`
 
-- Execute a command:
+- Execute commands:
 
-`powershell -Command "{{command}}"`
+`powershell -Command "{{commands}}"`
 
 - Execute a script:
 
