@@ -7,14 +7,14 @@
 
 `elvish`
 
-- Execute [c]ommand and then exit:
+- Execute [c]ommands:
 
-`elvish -c "{{command}}"`
+`elvish -c "{{commands}}"`
 
-- Execute a script and then exit:
+- Execute a script:
 
 `elvish {{path/to/script.elv}}`
 
-- Print the Elvish version and then exit:
+- Print the version:
 
 `elvish -version`
