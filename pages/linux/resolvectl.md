@@ -12,7 +12,7 @@
 
 `resolvectl query {{domain}}`
 
-- Retrieve the domain of {{IP}}:
+- Retrieve the domain of a specified IP:
 
 `resolvectl query {{ip}}`
 
