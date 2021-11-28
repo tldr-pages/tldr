@@ -14,7 +14,7 @@
 
 - Retrieve the domain of a specified IP:
 
-`resolvectl query {{ip}}`
+`resolvectl query {{IP}}`
 
 - Retrieve MX record of {{domain}}:
 
