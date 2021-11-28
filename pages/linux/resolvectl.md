@@ -16,7 +16,7 @@
 
 `resolvectl query {{IP}}`
 
-- Retrieve an MX record of {{domain}}:
+- Retrieve an MX record of domain:
 
 `resolvectl  --legend=no -t MX query  {{domain}}`
 
