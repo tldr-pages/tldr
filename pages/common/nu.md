@@ -7,7 +7,7 @@
 
 `nu`
 
-- Execute a command and then exit:
+- Execute commands:
 
 `nu --commands "{{command}}"`
 
@@ -19,6 +19,6 @@
 
 `nu --loglevel {{error|warn|info|debug|trace}} {{path/to/script.nu}}`
 
-- Print the Nushell version:
+- Print the version:
 
 `nu --version`
