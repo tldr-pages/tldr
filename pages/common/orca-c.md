@@ -18,7 +18,7 @@
 
 - Start ORCA and set the size of the grid:
 
-`orca-c --initial-size {{collunms}}x{{rows}}`
+`orca-c --initial-size {{columns}}x{{rows}}`
 
 - Start ORCA and set the maximum number of undo steps (defaults to 100):
 
