@@ -1,7 +1,7 @@
 # nitrogen
 
 > Nitrogen is a fast and lightweight desktop background browser and setter for X Window.
-> More information: <https://github.com/l3ib/nitrogen/>.
+> More information: <https://github.com/l3ib/nitrogen>.
 
 - View and set the desired wallpaper/s from a specific directory:
 
