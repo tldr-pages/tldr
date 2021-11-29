@@ -29,11 +29,11 @@
 你也可以在提交前在本地测试自己的贡献：
 
 ```
-npm install tldr-lint
-tldrl -f {{page.md}}
+npm install --global tldr-lint
+tldr-lint -f {{page.md}}
 ```
 
-关于 `tldrl` 的更多使用方法，例如检查批量检查一整个目录的格式，[`tldr tldrl`](https://github.com/tldr-pages/tldr/blob/master/pages/common/tldrl.md) 是你的不二去处！
+关于 `tldr-lint` 的更多使用方法，例如检查批量检查一整个目录的格式，[`tldr tldr-lint`](https://github.com/tldr-pages/tldr/blob/master/pages/common/tldr-lint.md) 是你的不二去处！
 
 如果你用 tldr-pages 的 Node.js 客户端，你可以在命令后加 `-f` (`--render`) 来在本地预览自己的页面：
 
