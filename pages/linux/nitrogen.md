@@ -14,5 +14,3 @@
 - Restore the previous wallpaper:
 
 `nitrogen --restore &`
-
-
