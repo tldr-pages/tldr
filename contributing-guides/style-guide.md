@@ -32,7 +32,7 @@ tldr-lint -f {{page.md}}
 ```
 
 For other ways to use `tldr-lint`, such as linting an entire directory, check out (what else!)
-[`tldr tldr-lint`](https://github.com/tldr-pages/tldr/blob/main/pages/common/tldr-lint.md). Alternatively, you can also use it's alias `tldrl`.
+[`tldr tldr-lint`](https://github.com/tldr-pages/tldr/blob/main/pages/common/tldr-lint.md). Alternatively, you can also use its alias `tldrl`.
 
 Your client may be able to preview a page locally using the `--render` flag:
 
