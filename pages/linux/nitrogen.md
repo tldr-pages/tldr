@@ -9,7 +9,7 @@
 
 - Set the wallpaper with automatic size settings:
 
-`nitrogen --set-auto {{/path/to/file}}`
+`nitrogen --set-auto {{path/to/file}}`
 
 - Restore the previous wallpaper:
 
