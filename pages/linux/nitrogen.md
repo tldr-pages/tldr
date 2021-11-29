@@ -5,7 +5,7 @@
 
 - View and set the desired wallpaper/s from a specific directory:
 
-`nitrogen {{path/to/directory/}}`
+`nitrogen {{path/to/directory}}`
 
 - Set the wallpaper with automatic size settings:
 
