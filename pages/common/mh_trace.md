@@ -5,7 +5,7 @@
 
 - Add this comment to tag a function/block/class/file:
 
-`%| pragma Tag ({{"my_tag"}});`
+`%| pragma Tag ("{{tag_name}}");`
 
 - Add this comment to exclude a function/block/class/file:
 
@@ -13,7 +13,7 @@
 
 - Or use the existing TestTags feature from MATLAB:
 
-`classdef (TestTags = {{{'my_tag'}}})`
+`classdef (TestTags = {'{{tag_name}}'})`
 
 - Extract tracing tags from all files:
 
@@ -21,8 +21,8 @@
 
 - Extract tracing tags from all files in a file:
 
-`mh_trace {{filename.m}}`
+`mh_trace {{path/to/file.m}}`
 
 - Specify the name of the JSON file:
 
-`mh_trace --json={{filename.json}}`
+`mh_trace --json={{path/to/file.json}}`
