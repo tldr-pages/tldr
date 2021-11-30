@@ -24,7 +24,7 @@
 
 `resolvectl service _{{service}}._{{protocol}} {{name}}`
 
-- Retrieve the public key from an email address with an OPENPGP Record:
+- Retrieve the public key from an email address from an OPENPGPKEY DNS record:
 
 `resolvectl opengpg {{email}}`
 
