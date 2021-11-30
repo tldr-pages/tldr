@@ -4,7 +4,7 @@
 > See also: `test`, `[`.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#Conditional-Constructs>.
 
-- Execute the specified commands if the condition command exit status is zero:
+- Execute the specified commands if the condition command's exit status is zero:
 
 `if {{condition_command}}; then {{commands}}; fi`
 
