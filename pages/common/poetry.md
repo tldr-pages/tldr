@@ -11,7 +11,7 @@
 
 `poetry add {{dependency}}`
 
-- Install a dev dependency and its subdependencies:
+- Install a development dependency and its subdependencies:
 
 `poetry add --dev {{dependency}}`
 
