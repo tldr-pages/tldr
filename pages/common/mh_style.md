@@ -23,6 +23,6 @@
 
 `mh_style {{path/to/<placeholder>}}`
 
-- Process and fix everything in the current directory
+- Process and fix everything in the current directory:
 
 `mh_style --fix`

@@ -7,7 +7,7 @@
 
 `%| pragma Tag ({{"my_tag"}});`
 
-- Add this comment to exclude a function/block/class/file
+- Add this comment to exclude a function/block/class/file:
 
 `%| pragma No_Tracing;`
 
