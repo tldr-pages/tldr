@@ -5,8 +5,8 @@
 
 - Update the year (range) to include the current year for a single file:
 
-`mh_copyright --primary-entity={{"Legal Entity"}} --update-year {{filename.m}}`
+`mh_copyright --primary-entity="{{Legal Entity}}" --update-year {{path/to/file.m}}`
 
 - Update the year (range) to include the current year for all files:
 
-`mh_copyright --primary-entity={{"Legal Entity"}} --update-year`
+`mh_copyright --primary-entity="{{Legal Entity}}" --update-year`
