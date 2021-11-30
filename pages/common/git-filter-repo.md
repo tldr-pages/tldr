@@ -1,12 +1,12 @@
 # git filter-repo
 
-> A versatile tool for rewriting git history.
+> A versatile tool for rewriting Git history.
 > See also: `bfg`.
-> More information: <https://manned.org/git-filter-repo>.
+> More information: <https://github.com/newren/git-filter-repo>.
 
 - Replace sensitive string in all files:
 
-`git filter-repo --replace-text {{<(echo 'my_password==>xxxxxxxx')}}`
+`git filter-repo --replace-text <(echo '{{find}}==>{{replacement}}')`
 
 - Extract a single folder, keeping history:
 
