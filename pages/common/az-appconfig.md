@@ -2,13 +2,13 @@
 
 > Manage App configurations on Azure.
 > Part of `az`, the command-line client for Microsoft Azure.
-> More information: <https://docs.microsoft.com/en-us/cli/azure/appconfig?view=azure-cli-latest>.
+> More information: <https://docs.microsoft.com/cli/azure/appconfig>.
 
 - Create an App Configuration:
 
-`az appconfig create --resource-group {{rg_name}} --name {{appconfig_name}} --location {{location}}`
+`az appconfig create --name {{name}} --resource-group {{group_name}} --location {{location}}`
 
-- Delete an App Configuration:
+- Delete a specific App Configuration:
 
 `az appconfig delete --resource-group {{rg_name}} --name {{appconfig_name}}`
 
@@ -16,7 +16,7 @@
 
 `az appconfig list`
 
-- List all App Configurations under a resource group:
+- List all App Configurations under a specific resource group:
 
 `az appconfig list --resource-group {{rg_name}}`
 
@@ -24,6 +24,6 @@
 
 `az appconfig show --name {{appconfig_name}}`
 
-- Update an App Configuration:
+- Update a specific App Configuration:
 
 `az appconfig update --resource-group {{rg_name}} --name {{appconfig_name}}`
