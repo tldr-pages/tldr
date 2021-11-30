@@ -8,7 +8,7 @@
 
 `if {{condition_command}}; then {{commands}}; fi`
 
-- Execute the specified commands if the condition command exit status is nonzero:
+- Execute the specified commands if the condition command's exit status is nonzero:
 
 `if ! {{condition_command}}; then {{commands}}; fi`
 
