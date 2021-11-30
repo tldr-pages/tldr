@@ -6,15 +6,15 @@
 
 - Check a MATLAB file:
 
-`mh_lint {{filename.m}}`
+`mh_lint {{path/to/file.m}}`
 
 - Check an Octave file:
 
-`mh_lint --octave {{filename.m}}`
+`mh_lint --octave {{path/to/file.m}}`
 
 - Check everything in a directory:
 
-`mh_lint {{path/to/<placeholder>}}`
+`mh_lint {{path/to/directory}}`
 
 - Check everything in the current directory tree:
 
