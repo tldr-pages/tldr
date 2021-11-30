@@ -5,15 +5,15 @@
 
 - Display code metrics for a MATLAB file:
 
-`mh_metric {{filename.m}}`
+`mh_metric {{path/to/file.m}}`
 
 - Display code metrics for an Octave file:
 
-`mh_metric --octave {{filename.m}}`
+`mh_metric --octave {{path/to/file.m}}`
 
 - Display code metrics for everything in a directory:
 
-`mh_metric {{path/to/<placeholder>}}`
+`mh_metric {{path/to/directory}}`
 
 - Display code metrics for everything in the current directory tree:
 
@@ -21,8 +21,8 @@
 
 - Produce an HTML report instead of plain text:
 
-`mh_metric --html {{filename.html}}`
+`mh_metric --html {{path/to/file.html}}`
 
 - Produce a JSON report instead of plain text:
 
-`mh_metric --json {{filename.json}}`
+`mh_metric --json {{path/to/file.json}}`
