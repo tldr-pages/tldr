@@ -12,7 +12,7 @@
 
 `if ! {{condition_command}}; then {{commands}}; fi`
 
-- Execute the first specified commands if the condition command exit status is zero otherwise execute the second specified commands:
+- Execute the first specified commands if the condition command's exit status is zero otherwise execute the second specified commands:
 
 `if {{condition_command}}; then {{first_commands}}; else {{second_commands}}; fi`
 
