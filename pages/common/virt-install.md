@@ -20,9 +20,5 @@
 `virt-install --name {{vm_name}} --cpu {{host-model}},topology.sockets={{1}},topology.cores={{4}},topology.threads={{2}} --memory {{16384}} --disk path={{path/to/image.qcow2}},size={{250}} --cdrom {{path/to/debian.iso}}`
 
 - Create a virtual machine and kickstart an automated deployment based on Fedora 35 using only remote ressources (no ISO required):
- 
+
 `virt-install --name {{vm_name}} --memory {{2048}} --disk path={{path/to/image.qcow2}},size={{20}} --location={{https://download.fedoraproject.org/pub/fedora/linux/releases/35/Everything/x86_64/os/}} --extra-args={{"inst.ks=https://path/to/valid/kickstart.org"}}`
-
-- Create a virtual machine using mostly paravirtualization (virtio-devices), a Spice display server that doesn't listen (only available locally and compatible with 3D acceleration), a channel for Spice and a channel for the QEMU Guest Agent:
-
-`virt-install --name {{vm_name}} --memory {{2028}} --video {{virtio}} --graphics {{spice}},listen={{none}} --channel {{spicevmc}} --channel {{unix}},target.type={{virtio}},target.name={{org.qemu.guest_agent.0}} --controller type={{virtio-serial}}  --controller type={{scsi}},model={{virtio-scsi}}  --network network={{default}},model={{virtio}} --input type={{keyboard}},bus={{virtio}} --input type={{tablet}},bus={{virtio}} --console {{pty}},target.type={{virtio}} --rng {{/dev/urandom}},model={{virtio}} --disk path={{/path/to/disk.img}},format={{raw}},bus={{virtio}},cache={{writeback}},size={{5}} --cdrom {{path/to/fedora.iso}}`
