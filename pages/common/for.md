@@ -5,15 +5,15 @@
 
 - Iterate over range:
 
-`for {{variable}} in {{{from}}..{{to}}..{{step}}}; do {{commands}}; done`
+`for {{variable}} in {{{from}}..{{to}}..{{step}}}; do echo "Variable {{variable}} is ${{variable}} now"; done`
 
 - Iterate over files:
 
-`for {{variable}} in *; do {{commands}}; done`
+`for {{variable}} in *; do echo "Variable {{variable}} is ${{variable}} now"; done`
 
 - Iterate over directories:
 
-`for {{variable}} in */; do {{commands}}; done`
+`for {{variable}} in */; do echo "Variable {{variable}} is ${{variable}} now"; done`
 
 - Perform a command with different arguments:
 
