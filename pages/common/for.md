@@ -15,10 +15,6 @@
 
 `for {{variable}} in */; do echo "Variable {{variable}} is ${{variable}} now"; done`
 
-- Perform a command with different arguments:
-
-`for {{variable}} in {{arguments}}; do {{command}} "${{variable}}"; done`
-
 - Perform a command in every directory:
 
 `for {{variable}} in */; do (cd "${{variable}}" || continue; {{command}}) done`
