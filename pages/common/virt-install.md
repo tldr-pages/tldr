@@ -3,7 +3,7 @@
 > Create virtual machines with libvirt and begin OS installation.
 > More information: <https://virt-manager.org/>.
 
-- Create a virtual machine with 1 GiB RAM and 12 GiB storage and start a Debian installation:
+- Create a virtual machine with 1 GB RAM and 12 GB storage and start a Debian installation:
 
 `virt-install --name {{vm_name}} --memory {{1024}} --disk path={{path/to/image.qcow2}},size={{12}} --cdrom {{path/to/debian.iso}}`
 
@@ -19,6 +19,6 @@
 
 `virt-install --name {{vm_name}} --cpu {{host-model}},topology.sockets={{1}},topology.cores={{4}},topology.threads={{2}} --memory {{16384}} --disk path={{path/to/image.qcow2}},size={{250}} --cdrom {{path/to/debian.iso}}`
 
-- Create a virtual machine and kickstart an automated deployment based on Fedora 35 using only remote ressources (no ISO required):
+- Create a virtual machine and kickstart an automated deployment based on Fedora 35 using only remote resources (no ISO required):
 
 `virt-install --name {{vm_name}} --memory {{2048}} --disk path={{path/to/image.qcow2}},size={{20}} --location={{https://download.fedoraproject.org/pub/fedora/linux/releases/35/Everything/x86_64/os/}} --extra-args={{"inst.ks=https://path/to/valid/kickstart.org"}}`
