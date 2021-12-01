@@ -14,15 +14,15 @@
 
 - Execute a script:
 
-`ksh {{path/to/script.ksh}}`
+`ksh "{{path/to/script.ksh}}"`
 
 - Check a script for syntax errors:
 
-`ksh -n {{path/to/script.ksh}}`
+`ksh -n "{{path/to/script.ksh}}"`
 
 - Execute a script while printing each command before executing it:
 
-`ksh -x {{path/to/script.ksh}}`
+`ksh -x "{{path/to/script.ksh}}"`
 
 - Print the version (`$KSH_VERSION` contains the version without the license information):
 

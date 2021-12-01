@@ -17,7 +17,7 @@
 
 - Execute a script:
 
-`csh {{path/to/script.csh}}`
+`csh "{{path/to/script.csh}}"`
 
 - Print the version:
 

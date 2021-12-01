@@ -17,11 +17,11 @@
 
 - Execute a script:
 
-`fish {{path/to/script.fish}}`
+`fish "{{path/to/script.fish}}"`
 
 - Check a script for syntax errors:
 
-`fish --no-execute {{path/to/script.fish}}`
+`fish --no-execute "{{path/to/script.fish}}"`
 
 - Start an interactive shell session in private mode, where the shell does not access old history or save new history:
 
