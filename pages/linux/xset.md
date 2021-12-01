@@ -1,7 +1,7 @@
 # xset
 
 > User preference utility for X.
-> More information: <https://wiki.archlinux.org/title/Display_Power_Management_Signaling>.
+> More information: <https://manned.org/xset>.
 
 - Disable screensaver:
 
