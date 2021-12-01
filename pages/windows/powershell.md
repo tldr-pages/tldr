@@ -13,7 +13,7 @@
 
 - Execute commands:
 
-`powershell -Command "{{commands}}"`
+`powershell -Command "echo 'powershell is executed'"`
 
 - Execute a script:
 

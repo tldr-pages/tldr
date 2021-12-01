@@ -9,7 +9,7 @@
 
 - Execute [c]ommands:
 
-`elvish -c "{{commands}}"`
+`elvish -c "echo 'elvish is executed'"`
 
 - Execute a script:
 

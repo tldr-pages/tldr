@@ -13,7 +13,7 @@
 
 - Execute commands:
 
-`fish --command "{{commands}}"`
+`fish --command "echo 'fish is executed'"`
 
 - Execute a script:
 

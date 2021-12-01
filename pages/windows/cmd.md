@@ -9,7 +9,7 @@
 
 - Execute [c]ommands:
 
-`cmd /c "{{commands}}"`
+`cmd /c "echo cmd is executed"`
 
 - Execute a script:
 
@@ -17,7 +17,7 @@
 
 - Execute a command and then enter an interactive shell:
 
-`cmd /k "{{command}}"`
+`cmd /k "echo cmd is executed"`
 
 - Start an interactive shell session where `echo` is disabled in command output:
 
