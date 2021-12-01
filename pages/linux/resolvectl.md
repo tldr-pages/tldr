@@ -10,7 +10,7 @@
 
 - Resolve the IPv4 and IPv6 addresses for one or more domains:
 
-`resolvectl query {{domain}}`
+`resolvectl query {{domain1 domain2 ...}}`
 
 - Retrieve the domain of a specified IP:
 
