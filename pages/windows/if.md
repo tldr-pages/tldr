@@ -13,7 +13,7 @@
 
 - Execute the first specified commands if the condition is true otherwise execute the second specified commands:
 
-`if {{condition}} ({{first_commands}}) else (echo Condition is false)`
+`if {{condition}} (echo Condition is true) else (echo Condition is false)`
 
 - Check whether `%errorlevel%` is greater than or equal to the specified exit code:
 
