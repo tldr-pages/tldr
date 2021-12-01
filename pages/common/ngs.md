@@ -5,11 +5,11 @@
 
 - Execute a code:
 
-`ngs -e "{{code}}"`
+`ngs -e "echo('ngs is executed')"`
 
 - Execute a script:
 
-`ngs {{path/to/script.ngs}}`
+`ngs "{{path/to/script.ngs}}"`
 
 - Print the version:
 
