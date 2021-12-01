@@ -1,7 +1,7 @@
 # makepkg
 
 > Creates a package which can be used with `pacman`.
-> Uses the `PKGBUILD` file in the current working directory.
+> Uses the `PKGBUILD` file in the current working directory by default.
 > More information: <https://man.archlinux.org/man/makepkg.8>.
 
 - Make a package:
