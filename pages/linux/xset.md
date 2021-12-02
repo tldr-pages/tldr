@@ -7,6 +7,6 @@
 
 `xset s off`
 
-- Set screensaver to start after 60 minutes of inactivity:
+- Set the screensaver to start after 60 minutes of inactivity:
 
 `xset s 3600 3600`
