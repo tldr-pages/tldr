@@ -11,7 +11,7 @@
 
 `typeorm migration:create --name {{migration_name}}`
 
-- Create a migration file with the SQL sentences to update the schema:
+- Create a migration file with the SQL statements to update the schema:
 
 `typeorm migration:generate --name {{migration_name}}`
 
@@ -23,11 +23,11 @@
 
 `typeorm entity:create --name {{entity}} --dir {{path/to/directory}}`
 
-- Display the SQL sentences to be executed by `typeorm schema:sync` on the default connection:
+- Display the SQL statements to be executed by `typeorm schema:sync` on the default connection:
 
 `typeorm schema:log`
 
-- Execute a specific SQL sentence on the default connection:
+- Execute a specific SQL statement on the default connection:
 
 `typeorm query {{sql_sentence}}`
 
