@@ -1,9 +1,9 @@
 # typeorm
 
-> A JavaScript ORM that can run in Node.js, browsers, Cordova, Ionic, React Native, NativeScript, and Electron platforms.
+> A JavaScript ORM that can run on Node.js, browser, Cordova, Ionic, React Native, NativeScript, and Electron platforms.
 > More information: <https://typeorm.io/>.
 
-- Generate initial TypeORM project structure:
+- Generate a new initial TypeORM project structure:
 
 `typeorm init`
 
@@ -19,7 +19,7 @@
 
 `typeorm migration:run`
 
-- Create a new entity file into a specific directory:
+- Create a new entity file in a specific directory:
 
 `typeorm entity:create --name {{entity}} --dir {{path/to/directory}}`
 
