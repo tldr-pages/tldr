@@ -3,7 +3,7 @@
 > User preference utility for X.
 > More information: <https://manned.org/xset>.
 
-- Disable screensaver:
+- Disable the screensaver:
 
 `xset s off`
 
