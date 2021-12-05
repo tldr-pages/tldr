@@ -10,11 +10,11 @@
 
 - Rename an existing abbreviation:
 
-`abbr -r gco gch`
+`abbr --rename gco gch`
 
 - Erase an existing abbreviation:
 
-`abbr -e gco`
+`abbr --erase gco`
 
 - Import the abbreviations defined on another_host over SSH.:
 
