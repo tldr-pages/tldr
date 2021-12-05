@@ -8,18 +8,26 @@
 
 `zsh`
 
-- Execute a command and then exit:
+- Execute [c]ommands:
 
-`zsh -c "{{command}}"`
+`zsh -c "echo 'zsh is executed'"`
 
 - Execute a script:
 
 `zsh {{path/to/script.zsh}}`
 
-- Execute a script, printing each command before executing it:
+- Check a script for syntax errors:
+
+`zsh --no-exec "{{path/to/script.zsh}}"`
+
+- Execute a script while printing each command before executing it:
 
 `zsh --xtrace {{path/to/script.zsh}}`
 
-- Start an interactive shell session in verbose mode, printing each command before executing it:
+- Start an interactive shell session in verbose mode while printing each command before executing it:
 
 `zsh --verbose`
+
+- Print the version (`$ZSH_VERSION` contains the version without the license information):
+
+`zsh --version`
