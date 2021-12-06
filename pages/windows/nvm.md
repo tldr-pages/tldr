@@ -19,11 +19,3 @@
 - Uninstall a given Node.js version:
 
 `nvm uninstall {{node_version}}`
-
-- Launch the REPL of a specific version of Node.js:
-
-`node`
-
-- Execute a script in a specific version of Node.js:
-
-`node {{app.js}}`
