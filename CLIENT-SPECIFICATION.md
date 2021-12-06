@@ -85,7 +85,9 @@ The main version of every page is stored inside (but not directly) the `pages` d
    - `osx/`
    - ...etc.
 
-Additional platforms MAY be added in the future. Clients MAY NOT support new platforms (though such support is RECOMMENDED), but MUST NOT break if additional platforms are added.
+It is RECOMMENDED that client supports `macos` as an alias for `osx`.
+
+Additional platforms MAY be added in the future. Clients MAY NOT support new platforms (though such support is RECOMMENDED), but MUST NOT break if additional platforms are added. 
 
 The pages themselves reside inside the appropriate platform folder, with the extension `.md`. Here are some example mappings:
 
