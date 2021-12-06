@@ -8,7 +8,7 @@
 
 `nvm install {{node_version}}`
 
-- Sets the default version of Node.js (must be run as Administrator):
+- Set the default version of Node.js (must be run as Administrator):
 
 `nvm use {{node_version}}`
 
