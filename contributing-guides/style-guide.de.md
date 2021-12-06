@@ -28,7 +28,7 @@
 
  ```
  npm install --global tldr-lint
- tldr-lint -f {{seite.md}}
+ tldr-lint {{seite.md}}
  ```
 
  Für andere Optionen von `tldr-lint`, wie zum Beispiel das Linten eines ganzen Verzeichnisses:

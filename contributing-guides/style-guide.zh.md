@@ -30,7 +30,7 @@
 
 ```
 npm install --global tldr-lint
-tldr-lint -f {{page.md}}
+tldr-lint {{page.md}}
 ```
 
 关于 `tldr-lint` 的更多使用方法，例如检查批量检查一整个目录的格式，[`tldr tldr-lint`](https://github.com/tldr-pages/tldr/blob/master/pages/common/tldr-lint.md) 是你的不二去处！

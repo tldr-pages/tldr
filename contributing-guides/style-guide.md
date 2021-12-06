@@ -28,7 +28,7 @@ but you may install it to test your contributions locally before submitting them
 
 ```
 npm install --global tldr-lint
-tldr-lint -f {{page.md}}
+tldr-lint {{page.md}}
 ```
 
 For other ways to use `tldr-lint`, such as linting an entire directory, check out (what else!)
