@@ -1,7 +1,6 @@
 # msiexec
 
 > Install, update, repair, or uninstall Windows programs through MSI and MSP apckage files.
-> This command can only be run in Command Prompt (`cmd.exe`).
 > More information: <https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/msiexec>.
 
 - Install a program from its MSI package:
