@@ -15,6 +15,6 @@
 
 `msiexec /update {{path/to/file.msp}}`
 
-- Uninstall a program or patch through their respective MSI or MSP file:
+- Uninstall a program or patch using their respective MSI or MSP file:
 
 `msiexec /uninstall {{path/to/file}}`
