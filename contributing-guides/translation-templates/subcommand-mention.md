@@ -20,6 +20,7 @@ This file contains the translation templates of this notice.
 [ja](#ja) •
 [ko](#ko) •
 [ml](#ml) •
+[ne](#ne) •
 [nl](#nl) •
 [no](#no) •
 [pl](#pl) •
@@ -127,6 +128,13 @@ Not translated yet.
 Not translated yet.
 
 ---
+### ne
+
+```markdown
+केही उपादेशहरु जस्तै `example command` को आफ्नै प्रयोग कागजात हुन्छ।
+```
+
+---
 ### nl
 
 ```markdown
@@ -151,7 +159,7 @@ Alguns subcomandos como `example command` tem sua própia documentação de uso.
 ---
 ### pt_PT
 
-Not translated yet.
+Alguns subcomandos, como `example command`, tem a sua própria documentação de uso.
 
 ---
 ### ro
@@ -182,7 +190,9 @@ Not translated yet.
 ---
 ### ta
 
-Not translated yet.
+```markdown
+`example command` போன்ற சிலச் சார்கட்டளைகளுக்குத் தனிப் பக்கம் உள்ளது.
+```
 
 ---
 ### th

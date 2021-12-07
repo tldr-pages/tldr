@@ -8,6 +8,10 @@
 
 `micro {{file}}`
 
+- Save a file:
+
+`Ctrl + S`
+
 - Cut the entire line:
 
 `Ctrl + K`

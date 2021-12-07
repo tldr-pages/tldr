@@ -1,7 +1,7 @@
 # aws s3
 
 > AWS S3용 CLI - 웹 서비스 인터페이스를 통해 스토리지를 제공합니다.
-> 더 많은 정보: <https://aws.amazon.com/cli>.
+> 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/index.html>.
 
 - 버킷 안의 파일 보기:
 

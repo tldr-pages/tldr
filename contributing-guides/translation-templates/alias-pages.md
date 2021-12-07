@@ -21,6 +21,7 @@ The templates can be changed when necessary.
 [ja](#ja) •
 [ko](#ko) •
 [ml](#ml) •
+[ne](#ne) •
 [nl](#nl) •
 [no](#no) •
 [pl](#pl) •
@@ -210,6 +211,19 @@ Not translated yet.
 ```
 
 ---
+### ne
+
+```markdown
+# example
+
+> यो आदेश `example` को उपनाम हो |
+
+- मौलिक आदेशको लागि कागजात हेर्नुहोस्:
+
+`tldr example`
+```
+
+---
 ### nl
 
 ```markdown
@@ -241,7 +255,7 @@ Not translated yet.
 ```markdown
 # example
 
-> Te polecenie jest aliasem `example`.
+> To polecenie jest aliasem `example`.
 
 - Zobacz dokumentację orginalnego polecenia:
 

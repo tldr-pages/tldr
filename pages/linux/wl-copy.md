@@ -1,7 +1,8 @@
 # wl-copy
 
 > Wayland clipboard manipulation tool.
-> More information: <https://manned.org/wl-copy>.
+> See also: `wl-paste`.
+> More information: <https://github.com/bugaevc/wl-clipboard>.
 
 - Copy text to the clipboard:
 

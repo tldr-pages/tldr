@@ -1,11 +1,16 @@
 # sw_vers
 
-> 打印 macOS 软件版本信息。
+> 打印 macOS 操作系统的版本信息。
+> 更多信息：<https://ss64.com/osx/sw_vers.html>.
 
-- 打印 macOS 版本：
+- 打印所有可用信息（操作系统名称、版本号和构建版本）：
+
+`sw_vers`
+
+- 只打印操作系统的版本号：
 
 `sw_vers -productVersion`
 
-- 打印 macOS 构建版本：
+- 只打印构建版本的标识符：
 
 `sw_vers -buildVersion`

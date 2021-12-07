@@ -26,3 +26,11 @@
 - 列出所有已配置的远程源：
 
 `flatpak remote-list`
+
+- 移除一个已安装的应用程序：
+
+`flatpak remove {{应用名}}`
+
+- 显示一个已安装的应用程序的信息：
+
+`flatpak info {{应用名}}`

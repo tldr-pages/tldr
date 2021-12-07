@@ -23,7 +23,7 @@ Just open an issue or send a pull request and we'll incorporate it as soon as po
 To get started, please [sign](https://cla-assistant.io/tldr-pages/tldr) the
 [Contributor License Agreement](https://gist.github.com/waldyrious/e50feec13683e565769fbd58ce503d4e).
 
-*Note*: when submitting a new command, don't forget to check if there's already a pull request in progress for it.
+*Note*: when submitting a new command, please base your PR against the `main` branch, and check if there's already a pull request in progress for it.
 
 ## Guidelines
 
@@ -106,6 +106,9 @@ Some examples of valid locale tags:
 
 A list of translated templates for alias pages can be found in [here](contributing-guides/translation-templates/alias-pages.md).
 
+Pull requests that introduce translations are the exception to the single file change per Pull Request rule. It is
+acceptable for several pages to be translated in one pull request.
+
 ### Default language for newly added pages
 
 The default language used for pages is English (US). Pages written in English are stored in the default `pages` directory (notice the absence of a specific language tag). Although not strictly required, if you'd like to add a new page in a different language, please consider creating the English page too.
@@ -123,6 +126,14 @@ Check out the step-by-step instructions (with screenshots) on
 
 Alternatively, you can do most of the process
 [using Git on the command-line](contributing-guides/git-terminal.md).
+
+### Accepting suggestions within a pull request
+
+The easiest way to apply suggested changes is to accept the suggestion made on your pull request. Refer to the [GitHub docs](https://docs.github.com/en/enterprise-server@3.2/github/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/incorporating-feedback-in-your-pull-request) for more details.
+
+To commit a suggestion to your pull request, simply click on `Commit suggestion`:
+
+![Commit suggestion button in Github](./images/commit-suggestion-button.png)
 
 ### Commit message
 
