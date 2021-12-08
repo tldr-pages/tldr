@@ -1,6 +1,6 @@
 # ngs
 
-> Fully featured scripting language created specifically for Ops. REPL is being developed.
+> Scripting language created specifically for Ops.
 > More information: <https://github.com/ngs-lang/ngs>.
 
 - Execute a code:
