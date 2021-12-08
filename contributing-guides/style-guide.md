@@ -75,9 +75,9 @@ Keep the following guidelines in mind when choosing tokens:
   using `{{*.ext}}` explains the command without being unnecessarily specific;
   while in `wc -l {{file}}` using `{{file}}` (without extension) is sufficient.
   
-### Options
+### Flags
 
-- Prefer long options instead of short ones whenever is possible.
+- Always use long flags when applicable, for example instead of `bash -c`, use `bash --command`, so the reader can understand the meaning of a flag.
 
 ### Special cases
 - If a command performs irreversible changes to a file system or devices,
