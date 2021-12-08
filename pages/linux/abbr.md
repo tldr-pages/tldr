@@ -10,7 +10,7 @@
 
 - Rename an existing abbreviation:
 
-`abbr --rename gco gch`
+`abbr --rename {{old_name}} {{new_name}}`
 
 - Erase an existing abbreviation:
 
