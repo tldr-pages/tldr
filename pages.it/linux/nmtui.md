@@ -1,7 +1,8 @@
 # nmtui
 
-> Interfaccia utente solo testo per NetworkManager
-> Usa le frecce e invio per navigare
+> Interfaccia utente solo testo per NetworkManager.
+> Usa le frecce e invio per navigare.
+> Maggiori informazioni: <https://networkmanager.dev/docs/api/latest/nmtui.html>.
 
 - Apri interfaccia utente:
 
