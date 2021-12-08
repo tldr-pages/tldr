@@ -49,8 +49,7 @@ Keep the following guidelines in mind when choosing tokens:
 
 ### Naming
 
-- Use short but descriptive tokens,
-  such as `{{source_file}}` or `{{wallet.txt}}`.
+- Use short but descriptive tokens, such as `{{source_file}}` or `{{wallet.txt}}`.
 - Use [`snake_case`](https://wikipedia.org/wiki/snake_case) for multi-word tokens.
 - Use an actual value rather than a generic placeholder where appropriate.
   For example, use `iostat {{2}}` rather than `iostat {{interval_in_secs}}`.
@@ -79,7 +78,7 @@ Keep the following guidelines in mind when choosing tokens:
   
 ### Flags
 
-- Always use long flags when applicable, for example instead of `bash -c`, use `bash --command`, so the reader can understand the meaning of a flag.
+- Always use long flags when applicable, for example instead of `fish -c`, use `fish --command`, so the reader can understand the meaning of a flag.
 
 ### Special cases
 
