@@ -3,7 +3,7 @@
 > Scripting language created specifically for Ops.
 > More information: <https://github.com/ngs-lang/ngs>.
 
-- Execute a code:
+- Execute a code snippet:
 
 `ngs -e "echo('ngs is executed')"`
 
