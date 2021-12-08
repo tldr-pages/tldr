@@ -18,4 +18,4 @@
 
 - Import the abbreviations defined on another_host over SSH.:
 
-`ssh another_host abbr -s | source`
+`ssh {{host_name}} abbr --show | source`
