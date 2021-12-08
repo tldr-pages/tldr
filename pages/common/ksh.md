@@ -10,7 +10,7 @@
 
 - Execute [c]ommands:
 
-`ksh -c "echo 'ksh is executed'"`
+`ksh -c "{{echo 'ksh is executed'}}"`
 
 - Execute a script:
 

@@ -13,7 +13,7 @@
 
 - Execute [c]ommands:
 
-`tcsh -c "echo 'tcsh is executed'"`
+`tcsh -c "{{echo 'tcsh is executed'}}"`
 
 - Execute a script:
 

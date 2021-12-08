@@ -10,7 +10,7 @@
 
 - Execute [c]ommands:
 
-`zsh -c "echo 'zsh is executed'"`
+`zsh -c "{{echo 'zsh is executed'}}"`
 
 - Execute a script:
 

@@ -13,7 +13,7 @@
 
 - Execute [c]ommands:
 
-`csh -c "echo 'csh is executed'"`
+`csh -c "{{echo 'csh is executed'}}"`
 
 - Execute a script:
 

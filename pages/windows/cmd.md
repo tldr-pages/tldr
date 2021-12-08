@@ -9,7 +9,7 @@
 
 - Execute [c]ommands:
 
-`cmd /c "echo cmd is executed"`
+`cmd /c "{{echo cmd is executed}}"`
 
 - Execute a script:
 

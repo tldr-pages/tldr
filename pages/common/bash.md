@@ -14,7 +14,7 @@
 
 - Execute [c]ommands:
 
-`bash -c "echo 'bash is executed'"`
+`bash -c "{{echo 'bash is executed'}}"`
 
 - Execute a script:
 

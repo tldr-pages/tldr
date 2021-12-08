@@ -9,7 +9,7 @@
 
 - Execute [c]ommands:
 
-`dash -c "echo 'dash is executed'"`
+`dash -c "{{echo 'dash is executed'}}"`
 
 - Execute a script:
 

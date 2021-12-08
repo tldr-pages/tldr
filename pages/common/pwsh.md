@@ -13,7 +13,7 @@
 
 - Execute commands:
 
-`pwsh -Command "echo 'pwsh is executed'"`
+`pwsh -Command "{{echo 'pwsh is executed'}}"`
 
 - Execute a script:
 
