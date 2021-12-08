@@ -5,16 +5,16 @@
 
 - Iterate over range:
 
-`for {{variable}} in {{{from}}..{{to}}..{{step}}}; do echo "Variable {{variable}} is ${{variable}} now"; done`
+`for {{variable}} in {{{from}}..{{to}}..{{step}}}; do {{echo "Loop is executed"}}; done`
 
 - Iterate over files:
 
-`for {{variable}} in *; do echo "Variable {{variable}} is ${{variable}} now"; done`
+`for {{variable}} in *; do {{echo "Loop is executed"}}; done`
 
 - Iterate over directories:
 
-`for {{variable}} in */; do echo "Variable {{variable}} is ${{variable}} now"; done`
+`for {{variable}} in */; do {{echo "Loop is executed"}}; done`
 
 - Perform a command in every directory:
 
-`for {{variable}} in */; do (cd "${{variable}}" || continue; {{command}}) done`
+`for {{variable}} in */; do (cd "${{variable}}" || continue; {{echo "Loop is executed"}}) done`
