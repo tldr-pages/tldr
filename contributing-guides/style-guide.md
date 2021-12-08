@@ -129,27 +129,27 @@ If you want to include shell builtin sample please mark it with `(builtin)` word
 
 `fish --no-config`
 
-- Execute a command:
+- Execute commands:
 
-`fish --command "{{command}}"`
+`fish --command "{{echo 'fish is executed'}}"`
 
 - Execute a script:
 
-`fish {{path/to/script.fish}}`
+`fish "{{path/to/script.fish}}"`
 
 - Check a script for syntax errors:
 
-`fish --no-execute {{path/to/script.fish}}`
+`fish --no-execute "{{path/to/script.fish}}"`
 
 - Start an interactive shell session in private mode, where the shell does not access old history or save new history:
 
 `fish --private`
 
-- Define and export environmental variable that persist across shell restarts (builtin):
+- Define and export an environmental variable that persists across shell restarts (builtin):
 
 `set --universal --export {{variable_name}} {{variable_value}}`
 
-- Print the version:
+- Print the version (`$FISH_VERSION` contains the version without the license information):
 
 `fish --version`
 ```
