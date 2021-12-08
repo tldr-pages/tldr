@@ -6,7 +6,7 @@ This page lists specific formatting instructions for `tldr` pages.
 
 The basic format of each page should match the following template:
 
-```
+```md
 # command-name
 
 > Short, snappy description.
@@ -26,7 +26,7 @@ There actually is a linter/formatter that enforces the format above.
 It is run automatically on every pull request,
 but you may install it to test your contributions locally before submitting them:
 
-```
+```bash
 npm install tldr-lint
 tldrl -f {{page.md}}
 ```
@@ -36,7 +36,7 @@ For other ways to use `tldrl`, such as linting an entire directory, check out (w
 
 Your client may be able to preview a page locally using the `--render` flag:
 
-```
+```bash
 tldr --render {{page.md}}
 ```
 
@@ -48,6 +48,7 @@ in order to allow `tldr` clients to highlight them.
 Keep the following guidelines in mind when choosing tokens:
 
 ### Naming
+
 - Use short but descriptive tokens,
   such as `{{source_file}}` or `{{wallet.txt}}`.
 - Use [`snake_case`](https://wikipedia.org/wiki/snake_case) for multi-word tokens.
@@ -55,6 +56,7 @@ Keep the following guidelines in mind when choosing tokens:
   For example, use `iostat {{2}}` rather than `iostat {{interval_in_secs}}`.
 
 ### Paths
+
 - Use `{{filename}}` rather than `{{file_name}}`.
 - For any reference to paths of files or directories,
   use the format `{{path/to/<placeholder>}}`,
@@ -80,6 +82,7 @@ Keep the following guidelines in mind when choosing tokens:
 - Prefer long options instead of short ones whenever is possible.
 
 ### Special cases
+
 - If a command performs irreversible changes to a file system or devices,
   write every example in a way that they cannot be thoughtlessly copy-pasted.
   For example, instead of `ddrescue --force --no-scrape /dev/sda /dev/sdb`
@@ -167,8 +170,9 @@ since omitting it can create ambiguity.
 > Delete the Git branches, tags and remotes.
 
 The example above does not use a serial comma, so this could mean one of two things:
-* Delete the Git branches named `tags` and `remotes`.
-* Delete all of the following: Git branches, Git tags, and Git remotes.
+
+- Delete the Git branches named `tags` and `remotes`.
+- Delete all of the following: Git branches, Git tags, and Git remotes.
 
 This can be resolved by inserting a comma before the "and" or "or" in the final element in the list.
 
