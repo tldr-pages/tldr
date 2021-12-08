@@ -14,7 +14,7 @@
 
 - Erase an existing abbreviation:
 
-`abbr --erase gco`
+`abbr --erase {{abbreviation_name}}`
 
 - Import the abbreviations defined on another_host over SSH.:
 
