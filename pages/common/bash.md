@@ -18,7 +18,7 @@
 
 - Execute a script:
 
-`bash "{{path/to/script.bash}}"`
+`bash "{{path/to/script.sh}}"`
 
 - Execute a script while printing each command before executing it:
 
