@@ -5,28 +5,28 @@
 
 - Execute the specified commands if the condition is true:
 
-`if {{condition}} (echo Condition is true)`
+`if {{condition}} ({{echo Condition is true}})`
 
 - Execute the specified commands if the condition is false:
 
-`if not {{condition}} (echo Condition is true)`
+`if not {{condition}} ({{echo Condition is true}})`
 
 - Execute the first specified commands if the condition is true otherwise execute the second specified commands:
 
-`if {{condition}} (echo Condition is true) else (echo Condition is false)`
+`if {{condition}} ({{echo Condition is true}}) else ({{echo Condition is false}})`
 
 - Check whether `%errorlevel%` is greater than or equal to the specified exit code:
 
-`if errorlevel {{exit_code}} (echo Condition is true)`
+`if errorlevel {{exit_code}} ({{echo Condition is true}})`
 
 - Check whether two strings are equal:
 
-`if {{string}} == {{string}} (echo Condition is true)`
+`if {{string}} == {{string}} ({{echo Condition is true}})`
 
 - Check whether two strings are equal without respecting letter case:
 
-`if /i {{string}} == {{string}} (echo Condition is true)`
+`if /i {{string}} == {{string}} ({{echo Condition is true}})`
 
 - Check whether a file exist:
 
-`if exist {{path/to/file}} (echo Condition is true)`
+`if exist {{path/to/file}} ({{echo Condition is true}})`
