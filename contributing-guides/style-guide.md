@@ -112,7 +112,13 @@ If a page describes some shell (Bash for instance) then when it's possible try f
 - _any other examples_
 - Print the version:
 
-If you want to include shell builtin sample please mark it with `(builtin)` word. For example:
+If you want to include shell builtin sample please place `(builtin)` word at the end of example description such as:
+
+```md
+- Define and export an environmental variable that persists across shell restarts (builtin):
+
+`set --universal --export {{variable_name}} {{variable_value}}`
+```
 
 ```md
 # fish
