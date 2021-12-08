@@ -6,7 +6,7 @@
 
 - Add a new abbreviation:
 
-`abbr --add gco git checkout`
+`abbr --add {{abbreviation_name}} {{command}} {{command_arguments}}`
 
 - Rename an existing abbreviation:
 
