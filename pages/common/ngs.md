@@ -5,7 +5,7 @@
 
 - Execute a code snippet:
 
-`ngs -e "echo('ngs is executed')"`
+`ngs -e "{{echo('ngs is executed')}}"`
 
 - Execute a script:
 
