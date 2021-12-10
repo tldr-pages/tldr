@@ -19,7 +19,7 @@
 
 `volta pin {{node|npm|yarn}}@version`
 
-- Print help listings all sub-commands and all flags:
+- Display help:
 
 `volta help`
 
