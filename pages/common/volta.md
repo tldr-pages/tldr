@@ -23,6 +23,6 @@
 
 `volta help`
 
-- Print detailed help for a single sub-command:
+- Display help for a subcommand:
 
 `volta help {{fetch|install|uninstall|pin|list|completions|which|setup|run|help}}`
