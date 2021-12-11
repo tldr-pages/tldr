@@ -5,7 +5,7 @@
 
 - Execute the specified commands for the specified set:
 
-`for %{{variable}} in ({{set}}) do ({{echo Loop is executed}})`
+`for %{{variable}} in ({{item_a item_b item_c}}) do ({{echo Loop is executed}})`
 
 - Iterate over range:
 
@@ -13,8 +13,8 @@
 
 - Iterate over files:
 
-`for %{{variable}} in ({{file_set}}) do ({{echo Loop is executed}})`
+`for %{{variable}} in ({{file_a.ext file_b.ext file_c.ext}}) do ({{echo Loop is executed}})`
 
 - Iterate over directories:
 
-`for /d %{{variable}} in ({{folder_set}}) do ({{echo Loop is executed}})`
+`for /d %{{variable}} in ({{directory_a/ directory_b/ directory_c/}}) do ({{echo Loop is executed}})`
