@@ -18,3 +18,7 @@
 - Iterate over directories:
 
 `for /d %{{variable}} in ({{directory_a/ directory_b/ directory_c/}}) do ({{echo Loop is executed}})`
+
+- Perform a command in every directory:
+
+`for /d %{{variable}} in (*) do (if exist %{{variable}} {{echo Loop is executed}})`
