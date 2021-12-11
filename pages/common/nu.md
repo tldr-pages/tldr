@@ -9,7 +9,7 @@
 
 - Execute commands:
 
-`nu --commands "echo 'nu is executed'"`
+`nu --commands "{{echo 'nu is executed'}}"`
 
 - Execute a script:
 
