@@ -7,6 +7,10 @@
 
 `pabcnetcclear {{path/to/file.pas}}`
 
+- Compile a source file into an executable with the specified name:
+
+`pabcnetcclear /Output:{{path/to/file.pas}} {{path/to/file.pas}}`
+
 - Compile a source file into an executable with the same name along with or without debug info:
 
 `pabcnetcclear /Debug:{{0|1}} {{path/to/file.pas}}`
@@ -14,3 +18,7 @@
 - Allow units to be searched in a path while compiling a source file into an executable with the same name:
 
 `pabcnetcclear /SearchDir:{{path/to/dir}} {{path/to/file.pas}}`
+
+- Compile a source file into an executable with the specified name and defined symbols:
+
+`pabcnetcclear /Define:{{symbol}} {{path/to/file.pas}}`
