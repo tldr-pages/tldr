@@ -5,7 +5,7 @@
 
 - Execute the specified commands for the specified set:
 
-`for {{variable}} in item_a item_b item_c; do {{echo "Loop is executed"}}; done`
+`for {{variable}} in {{item_a item_b item_c}}; do {{echo "Loop is executed"}}; done`
 
 - Iterate over range:
 
