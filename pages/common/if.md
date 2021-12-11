@@ -18,15 +18,15 @@
 
 - Check whether a file exists:
 
-`if [[ -f "{{path/to/file}}" ]]; then {{echo "Condition is true"}}; fi`
+`if [[ -f {{path/to/file}} ]]; then {{echo "Condition is true"}}; fi`
 
 - Check whether a directory exists:
 
-`if [[ -d "{{path/to/directory}}" ]]; then {{echo "Condition is true"}}; fi`
+`if [[ -d {{path/to/directory}} ]]; then {{echo "Condition is true"}}; fi`
 
 - Check whether a file or directory exists:
 
-`if [[ -e "{{path/to/file_or_directory}}" ]]; then {{echo "Condition is true"}}; fi`
+`if [[ -e {{path/to/file_or_directory}} ]]; then {{echo "Condition is true"}}; fi`
 
 - Check whether a variable is defined:
 
