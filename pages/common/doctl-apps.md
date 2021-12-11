@@ -1,11 +1,7 @@
-# doctl-apps
+# doctl apps
 
 > Used to manage digitalocean apps.
 > More information: <https://docs.digitalocean.com/>.
-
-- Display commands for working with apps:
-
-`doctl apps`
 
 - Create an app:
 
@@ -15,7 +11,7 @@
 
 `doctl apps create-deployment`
 
-- Deletes an app:
+- Delete an app interactively:
 
 `doctl apps delete`
 
