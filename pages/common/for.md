@@ -13,11 +13,11 @@
 
 - Iterate over files:
 
-`for {{variable}} in *; do {{echo "Loop is executed"}}; done`
+`for {{variable}} in {{file_a.ext file_b.ext file_c.ext}}; do {{echo "Loop is executed"}}; done`
 
 - Iterate over directories:
 
-`for {{variable}} in */; do {{echo "Loop is executed"}}; done`
+`for {{variable}} in {{directory_a/ directory_b/ directory_c/}}; do {{echo "Loop is executed"}}; done`
 
 - Perform a command in every directory:
 
