@@ -11,13 +11,9 @@
 
 `typeset -i {{variable}}="{{value}}"`
 
-- Declare a readonly string variable:
+- Declare a readonly variable:
 
 `typeset -r {{variable}}="{{value}}"`
-
-- Declare a readonly integer variable:
-
-`typeset -ir {{variable}}="{{value}}"`
 
 - Declare an array variable:
 

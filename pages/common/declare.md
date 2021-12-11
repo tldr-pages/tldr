@@ -15,10 +15,6 @@
 
 `declare -r {{variable}}="{{value}}"`
 
-- Declare a readonly integer variable:
-
-`declare -ir {{variable}}="{{value}}"`
-
 - Declare an array variable:
 
 `declare {{variable}}=({{item_a item_b item_c}})`
