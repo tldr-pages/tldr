@@ -16,15 +16,15 @@
 
 `if {{condition_command}}; then {{echo "Condition is true"}}; else {{echo "Condition is false"}}; fi`
 
-- Check whether a file exists:
+- Check whether a [f]ile exists:
 
 `if [[ -f {{path/to/file}} ]]; then {{echo "Condition is true"}}; fi`
 
-- Check whether a directory exists:
+- Check whether a [d]irectory exists:
 
 `if [[ -d {{path/to/directory}} ]]; then {{echo "Condition is true"}}; fi`
 
-- Check whether a file or directory exists:
+- Check whether a file or directory [e]xists:
 
 `if [[ -e {{path/to/file_or_directory}} ]]; then {{echo "Condition is true"}}; fi`
 
