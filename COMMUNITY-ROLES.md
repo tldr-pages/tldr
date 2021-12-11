@@ -196,9 +196,8 @@ using one of the template messages below as a base.
    Make sure to include `Closes #<issue number>` in the PR description.
    The issue will then be automatically closed once the PR is merged.
 
-
 ## Who can change roles
 Any member of the community can (and is encouraged to) propose role changes
 by following the process outlined [above](#how-to-change-roles).
-[Owners of the tldr-pages organization](MAINTAINERS.md#current-organization-owners)
+[Owners of the tldr-pages organization](MAINTAINERS.md#organization-owners)
 can then perform the actual role changes.
