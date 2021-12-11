@@ -18,15 +18,15 @@
 
 - Execute a script:
 
-`bash "{{path/to/script.sh}}"`
+`bash {{path/to/script.sh}}`
 
 - Execute a script while printing each command before executing it:
 
-`bash -x "{{path/to/script.sh}}"`
+`bash -x {{path/to/script.sh}}`
 
 - Execute a script and stop at the first [e]rror:
 
-`bash -e "{{path/to/script.sh}}"`
+`bash -e {{path/to/script.sh}}`
 
 - Execute a command from [s]tdin:
 

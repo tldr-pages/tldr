@@ -18,7 +18,7 @@
 
 - Check a script for syntax errors:
 
-`zsh --no-exec "{{path/to/script.zsh}}"`
+`zsh --no-exec {{path/to/script.zsh}}`
 
 - Execute a script while printing each command before executing it:
 

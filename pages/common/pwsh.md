@@ -17,7 +17,7 @@
 
 - Execute a script:
 
-`pwsh "{{path/to/script.ps1}}"`
+`pwsh {{path/to/script.ps1}}`
 
 - Start an interactive shell session with a specified execution policy:
 

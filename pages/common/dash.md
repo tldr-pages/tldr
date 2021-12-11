@@ -13,19 +13,19 @@
 
 - Execute a script:
 
-`dash "{{path/to/script.dash}}"`
+`dash {{path/to/script.dash}}`
 
 - Check a script for syntax errors:
 
-`dash -n "{{path/to/script.dash}}"`
+`dash -n {{path/to/script.dash}}`
 
 - Execute a script while printing each command before executing it:
 
-`dash -x "{{path/to/script.dash}}"`
+`dash -x {{path/to/script.dash}}`
 
 - Execute a script and stop at the first [e]rror:
 
-`dash -e "{{path/to/script.dash}}"`
+`dash -e {{path/to/script.dash}}`
 
 - Execute a command from [s]tdin:
 

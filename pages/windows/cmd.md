@@ -13,7 +13,7 @@
 
 - Execute a script:
 
-`cmd "{{path/to/script.bat}}"`
+`cmd {{path/to/script.bat}}`
 
 - Execute a command and then enter an interactive shell:
 
