@@ -11,10 +11,10 @@
 
 `declare -i {{variable}}="{{value}}"`
 
-- Declare an readonly string variable:
+- Declare a readonly string variable:
 
 `declare -r {{variable}}="{{value}}"`
 
-- Declare an readonly integer variable:
+- Declare a readonly integer variable:
 
 `declare -ir {{variable}}="{{value}}"`
