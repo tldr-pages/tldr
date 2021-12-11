@@ -21,11 +21,11 @@
 
 - Check whether two strings are equal:
 
-`if {{string}} == {{string}} ({{echo Condition is true}})`
+`if %{{variable}}% == {{string}} ({{echo Condition is true}})`
 
 - Check whether two strings are equal without respecting letter case:
 
-`if /i {{string}} == {{string}} ({{echo Condition is true}})`
+`if /i %{{variable}}% == {{string}} ({{echo Condition is true}})`
 
 - Check whether a file exist:
 
