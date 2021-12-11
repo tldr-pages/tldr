@@ -18,3 +18,11 @@
 - Declare a readonly integer variable:
 
 `typeset -ir {{variable}}="{{value}}"`
+
+- Declare an array variable:
+
+`typeset {{variable}}=({{item_a item_b item_c}})`
+
+- Declare an associative array variable:
+
+`typeset -A {{variable}}=({{[key_a]=item_a [key_b]=item_b [key_c]=item_c}})`
