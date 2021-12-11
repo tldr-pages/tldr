@@ -22,3 +22,7 @@
 - Declare a readonly string variable:
 
 `declare -r {{variable}}="{{value}}"`
+
+- Declare a global variable even within function:
+
+`declare -g {{variable}}="{{value}}"`

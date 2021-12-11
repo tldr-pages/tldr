@@ -22,3 +22,7 @@
 - Declare a readonly variable:
 
 `typeset -r {{variable}}="{{value}}"`
+
+- Declare a global variable even within function:
+
+`typeset -g {{variable}}="{{value}}"`
