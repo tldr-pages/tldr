@@ -13,11 +13,11 @@
 
 - Execute a script:
 
-`nu "{{path/to/script.nu}}"`
+`nu {{path/to/script.nu}}`
 
 - Execute a script with logging:
 
-`nu --loglevel {{error|warn|info|debug|trace}} "{{path/to/script.nu}}"`
+`nu --loglevel {{error|warn|info|debug|trace}} {{path/to/script.nu}}`
 
 - Print the version:
 
