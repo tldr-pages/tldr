@@ -1,6 +1,6 @@
 # doctl account
 
-> Retrieve information about digital ocean accounts.
+> Retrieve information about Digital Ocean accounts.
 > More information: <https://docs.digitalocean.com/reference/doctl/reference/account/>.
 
 - Show available commands:
