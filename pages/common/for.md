@@ -7,15 +7,15 @@
 
 `for {{variable}} in {{item_a item_b item_c}}; do {{echo "Loop is executed"}}; done`
 
-- Iterate over range:
+- Iterate over a range of numbers:
 
 `for {{variable}} in {{{from}}..{{to}}..{{step}}}; do {{echo "Loop is executed"}}; done`
 
-- Iterate over files:
+- Iterate over a list of files:
 
 `for {{variable}} in {{file_a.ext file_b.ext file_c.ext}}; do {{echo "Loop is executed"}}; done`
 
-- Iterate over directories:
+- Iterate over a list of directories:
 
 `for {{variable}} in {{directory_a/ directory_b/ directory_c/}}; do {{echo "Loop is executed"}}; done`
 
