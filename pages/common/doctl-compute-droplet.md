@@ -9,7 +9,7 @@
 
 - Delete a droplet:
 
-`doctl compute droplet delete {{droplet_id}}`
+`doctl compute droplet delete {{droplet_id|droplet_name}}`
 
 - List droplets:
 
