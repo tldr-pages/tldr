@@ -11,6 +11,6 @@
 
 `doctl account get`
 
-- Show the hourly API limit, progress towards it, and when the limit resets:
+- Show the hourly API limit, progress towards it, and when the rate limit resets:
 
 `doctl account ratelimit`
