@@ -19,6 +19,6 @@
 
 `pabcnetcclear /SearchDir:{{path/to/dir}} {{path/to/file.pas}}`
 
-- Compile a source file into an executable with the specified name and defined symbols:
+- Compile a source file into an executable, defining a symbol:
 
 `pabcnetcclear /Define:{{symbol}} {{path/to/file.pas}}`
