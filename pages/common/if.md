@@ -8,7 +8,7 @@
 
 `if {{condition_command}}; then {{echo "Condition is true"}}; fi`
 
-- Execute the specified commands if the condition command's exit status is nonzero:
+- Execute the specified commands if the condition command's exit status is not zero:
 
 `if ! {{condition_command}}; then {{echo "Condition is true"}}; fi`
 
