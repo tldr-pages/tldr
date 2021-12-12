@@ -3,10 +3,6 @@
 > Authenticate doctl with one or more API tokens.
 > More information: <https://docs.digitalocean.com/reference/doctl/reference/auth/>.
 
-- Show available commands:
-
-`doctl auth --help`
-
 - Open a prompt to enter an API token and label its context:
 
 `doctl auth init --context {{token_label}}`
@@ -22,3 +18,7 @@
 - Remove a context (API token):
 
 `doctl auth remove --context {{token_label}}`
+
+- Show available commands:
+
+`doctl auth --help`
