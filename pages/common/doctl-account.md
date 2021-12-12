@@ -7,7 +7,7 @@
 
 `doctl account --help`
 
-- Show account info:
+- Display account info:
 
 `doctl account get`
 
