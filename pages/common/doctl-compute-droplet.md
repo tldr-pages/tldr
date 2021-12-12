@@ -11,6 +11,6 @@
 
 `doctl compute droplet delete {{droplet_id}}`
 
-- List Droplets:
+- List droplets:
 
 `doctl compute droplet list`
