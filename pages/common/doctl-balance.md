@@ -3,7 +3,7 @@
 > Show Digital Ocean account balance.
 > More information: <https://docs.digitalocean.com/reference/doctl/reference/balance/>.
 
-- Get balance of an account associated with current context:
+- Get balance of the account associated with the current context:
 
 `doctl balance get`
 
