@@ -9,7 +9,7 @@
 
 - Install the latest version of a tool:
 
-`volta install {{node|npm|yarn}}`
+`volta install {{node|npm|yarn|package_name}}`
 
 - Install a specific version of a tool:
 
