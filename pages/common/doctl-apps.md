@@ -29,7 +29,7 @@
 
 - Get logs from a specific app:
 
-`doctl apps logs`
+`doctl apps logs {{app_id}}`
 
 - Update a specific app with a given app spec:
 
