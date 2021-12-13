@@ -1,7 +1,7 @@
 # doctl apps
 
 > Used to manage digitalocean apps.
-> More information: <https://docs.digitalocean.com/>.
+> More information: <https://docs.digitalocean.com/reference/doctl/reference/apps>.
 
 - Create an app:
 
@@ -13,7 +13,7 @@
 
 - Delete an app interactively:
 
-`doctl apps delete`
+`doctl apps delete {{app_id}}`
 
 - Get an app:
 
