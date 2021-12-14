@@ -16,8 +16,8 @@
 
 - Start a new process with affinity for multiple non-sequential CPUs:
 
-`taskset --cpu-list {{cpu_id_1}} {{cpu_id_2}} {{cpu_id_3}}`
+`taskset --cpu-list {{cpu_id_1}},{{cpu_id_2}},{{cpu_id_3}}`
 
 - Start a new process with affinity for CPUs 1 through 4:
 
-`taskset --cpu-list {{cpu_id_1}},{{cpu_id_4}}`
+`taskset --cpu-list {{cpu_id_1}}-{{cpu_id_4}}`
