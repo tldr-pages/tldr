@@ -1,7 +1,7 @@
 # nvm
 
 > Memasang, melepas, atau mengganti versi Node.js yang dipakai.
-> Mendukung nomor versi seperti "0.12" or "v4.2", dan label versi seperti "stable", "system", dsb.
+> Mendukung nomor versi seperti "12.8" or "v16.13.1", dan label versi seperti "stable", "system", dsb.
 > Informasi lebih lanjut: <https://github.com/creationix/nvm>.
 
 - Memasang versi Node.js yang ditentukan:
