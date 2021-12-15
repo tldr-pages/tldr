@@ -2,6 +2,7 @@
 
 > Directly edit the Samba user database.
 > Can do more fancy things than `smbpasswd`.
+> More information: <https://manned.org/pdbedit.8>.
 
 - List all Samba users (use verbose flag to shows their settings):
 
