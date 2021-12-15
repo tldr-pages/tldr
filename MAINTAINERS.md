@@ -102,8 +102,6 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [9 April 2021](https://github.com/tldr-pages/tldr/issues/5722) — present
 - **Florian Benscheidt ([@Waples](https://github.com/Waples))**:
   [19 May 2021](https://github.com/tldr-pages/tldr/issues/5989) — present
-- **CleanMachine1 ([@CleanMachine1](https://github.com/CleanMachine1))**:
-  [14 June 2021](https://github.com/tldr-pages/tldr/issues/6123) — present
 - **Muhammad Falak R Wani ([@mfrw](https://github.com/mfrw))**:
   [21 June 2021](https://github.com/tldr-pages/tldr/issues/6142) — present
 - **Seth Falco ([@SethFalco](https://github.com/SethFalco))**:
@@ -120,6 +118,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [5 October 2020](https://github.com/tldr-pages/tldr/issues/4504) — [7 April 2021](https://github.com/tldr-pages/tldr/issues/5703)
 - bl-ue ([@bl-ue](https://github.com/bl-ue)):
   [2 February 2021](https://github.com/tldr-pages/tldr/issues/5219) — [25 June 2021](https://gitter.im/tldr-pages/tldr?at=60d615598a40b117282a96d7)
+- CleanMachine1 ([@CleanMachine1](https://github.com/CleanMachine1)):
+  [14 June 2021](https://github.com/tldr-pages/tldr/issues/6123) — [14 December 2021](https://github.com/tldr-pages/tldr/issues/7541)
 
 ## Organization owners
 
@@ -143,6 +143,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [3 February 2021](https://github.com/tldr-pages/tldr/issues/5224) — present
 - **Axel Navarro ([@navarroaxel](https://github.com/navarroaxel))**:
   [7 April 2021](https://github.com/tldr-pages/tldr/issues/5703) - present
+- **CleanMachine1 ([@CleanMachine1](https://github.com/CleanMachine1))**:
+  [14 December 2021](https://github.com/tldr-pages/tldr/issues/7541) - present
 - Igor Shubovych ([@igorshubovych](https://github.com/igorshubovych)):
   until [18 January 2018](https://github.com/tldr-pages/tldr/issues/1878#issuecomment-358610454)
 - Ruben Vereecken ([@rubenvereecken](https://github.com/rubenvereecken)):
