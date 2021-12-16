@@ -158,4 +158,4 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
 - Waldir Pimenta ([@waldyrious](https://github.com/waldyrious)):
   until [26 August 2018](https://github.com/tldr-pages/tldr/issues/2257)
 - Zlatan Vasović ([@zlatanvasovic](https://github.com/zlatanvasovic)):
-  [18 June 2020](https://github.com/tldr-pages/tldr/issues/4113) — [14 December 2021](https://github.com/tldr-pages/tldr/issues/7538)
+  until [14 December 2021](https://github.com/tldr-pages/tldr/issues/7538)
