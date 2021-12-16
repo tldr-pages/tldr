@@ -68,7 +68,7 @@ git push --force-with-lease
 
 # Changing the email of any commit(s)
 
-1. Perform an [interactive rebase](https://git-scm.com/docs/git-rebase#Documentation/git-rebase.txt--i) specifying the reference of the earliest commit to modify as the argument. For example, if the earlist commit with the wrong email address was 6 commits ago, you can specify the commit hash or just `HEAD~6`.
+1. Perform an [interactive rebase](https://git-scm.com/docs/git-rebase#Documentation/git-rebase.txt--i), specifying the reference of the earliest commit to modify as the argument. For example, if the earliest commit with the wrong email address was 6 commits ago, you can specify the commit hash or just `HEAD~6`.
 
 ```bash
 git rebase --interactive HEAD~6
@@ -76,7 +76,7 @@ git rebase --interactive HEAD~6
 
 2. You'll see a list of commits starting from the referenced commit to `HEAD`. All of them will default to the instruction `pick`, this means use the commit as-is when replaying them. For the commits you want to edit, replace the word `pick` for `edit`, then save and exit the editor.
 
-3. The branch will rewind to the referenced commit, then replay them until it reaches a commit with the `edit` instruction. Amend the commit for the correct email address, then continue rebasing. Repeat this step until you've succesfully finishing rebasing and replayed all commits.
+3. The branch will rewind to the referenced commit, then replay them until it reaches a commit with the `edit` instruction. Amend the commit for the correct email address, then continue rebasing. Repeat this step until you've successfully finishing rebasing and replayed all commits.
 
 ```bash
 git commit --amend --author "Your Name <correct@example.org>"
