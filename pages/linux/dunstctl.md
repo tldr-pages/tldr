@@ -15,6 +15,6 @@
 
 `dunstctl close-all`
 
-- To see other options:
+- Display help:
 
 `dunstctl --help`
