@@ -23,6 +23,6 @@
 
 `declare -r {{variable}}="{{value}}"`
 
-- Declare a global variable even within a function with the specified value:
+- Declare a global variable within a function with the specified value:
 
 `declare -g {{variable}}="{{value}}"`
