@@ -3,17 +3,25 @@
 > The original Unix text editor.
 > More information: <https://manned.org/ed.1>.
 
-- Start an interactive ed session:
+- Start an interactive editor session:
 
 `ed`
 
-- Start an interactive ed session with the specified prompt:
+- Start an interactive editor session with the specified prompt:
 
 `ed --prompt='> '`
 
-- Start an interactive ed session with user-friendly errors:
+- Start an interactive editor session with user-friendly errors:
 
 `ed --verbose`
+
+- Start an interactive editor session without diagnostics, byte counts and '!' prompt:
+
+`ed --quiet`
+
+- Start an interactive editor session without exit status change when command fails:
+
+`ed --loose-exit-status`
 
 - Edit a file (this shows the byte count of the loaded file):
 
@@ -26,10 +34,6 @@
 - Print file contents:
 
 `,p`
-
-- Don't change exit status when command fails:
-
-`ed --loose-exit-status`
 
 - Print the version:
 
