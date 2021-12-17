@@ -11,7 +11,7 @@
 
 `awk --file {{path/to/file}}`
 
-- Check a script for syntax errors
+- Check a script for syntax errors:
 
 `awk --lint --file {{path/to/file}}`
 
