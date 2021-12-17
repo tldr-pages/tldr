@@ -3,34 +3,34 @@
 > A versatile programming language for working on files.
 > More information: <https://manned.org/awk.1>.
 
-- Print the fifth column (a.k.a. field) in a space-separated file:
+- Execute an expression:
 
-`awk '{print $5}' {{filename}}`
+`awk "{{expression}}"`
 
-- Print the second column of the lines containing "foo" in a space-separated file:
+- Execute a script:
 
-`awk '/{{foo}}/ {print $2}' {{filename}}`
+`awk --file {{path/to/file}}`
 
-- Print the last column of each line in a file, using a comma (instead of space) as a field separator:
+- Check a script for syntax errors
 
-`awk -F ',' '{print $NF}' {{filename}}`
+`awk --lint --file {{path/to/file}}`
 
-- Sum the values in the first column of a file and print the total:
+- Execute an expression with the specified field separator:
 
-`awk '{s+=$1} END {print s}' {{filename}}`
+`awk --field-separator="{{,}}" "{{expression}}"`
 
-- Print every third line starting from the first line:
+- Execute an expression with the specified variables:
 
-`awk 'NR%3==1' {{filename}}`
+`awk --assign "{{variable}}={{value}}" "{{expression}}"`
 
-- Print different values based on conditions:
+- Print the specified field of each line:
 
-`awk '{if ($1 == "foo") print "Exact match foo"; else if ($1 ~ "bar") print "Partial match bar"; else print "Baz"}' {{filename}}`
+`awk "{ print \$1 }"`
 
-- Print all lines where the 10th column value equals the specified value :
+- Print the specified field range of each line:
 
-`awk '($10 == value)'`
+`awk "{ for (i=1; i <= 10; i++) print \$i }"`
 
-- Print all the lines which the 10th column value is between a min and a max :
+- Print the version:
 
-`awk '($10 >= min_value && $10 <= max_value)'`
+`awk --version`
