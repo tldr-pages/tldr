@@ -226,6 +226,9 @@ the form `vX.Y`) should be done immediately AFTER merging the version bump, as
 the commit hash changes when merging with squash or rebase.
 -->
 
+ - Unreleased
+   -  Add recommendation to support `macos` alias for `osx` ([#7514](https://github.com/tldr-pages/tldr/pull/7514))
+
  - [v1.5, March 17th 2021](https://github.com/tldr-pages/tldr/blob/v1.5/CLIENT-SPECIFICATION.md) ([#5428](https://github.com/tldr-pages/tldr/pull/5428))
    - Add requirement for converting command names to lowercase before running the page resolution algorithm.
    - Use HTTPS for archive links.
