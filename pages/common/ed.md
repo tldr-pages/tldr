@@ -31,10 +31,6 @@
 
 `,s/{{regular_expression}}/{{replacement}}/g`
 
-- Print file contents:
-
-`,p`
-
 - Print the version:
 
 `ed --version`
