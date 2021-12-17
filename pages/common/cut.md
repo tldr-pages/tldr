@@ -5,16 +5,16 @@
 
 - Print the specified character range of each line of stdin:
 
-`cut --characters={{index|index1,index2,...|from..to|from..|..to}}`
+`cut --characters={{index|index1,index2,...|from-to|from-|-to}}`
 
 - Print the specified field range of each line of stdin:
 
-`cut --fields={{index|index1,index2,...|from..to|from..|..to}}`
+`cut --fields={{index|index1,index2,...|from-to|from-|-to}}`
 
 - Print a given field range of each line of stdin with the specified delimiter:
 
-`cut --delimiter={{,}} --characters={{index|index1,index2,...|from..to|from..|..to}}`
+`cut --delimiter={{,}} --characters={{index|index1,index2,...|from-to|from-|-to}}`
 
 - Print a given field range of each line of the specified file:
 
-`cut --characters={{index|index1,index2,...|from..to|from..|..to}} {{path/to/file}}`
+`cut --characters={{index|index1,index2,...|from-to|from-|-to}} {{path/to/file}}`
