@@ -3,34 +3,34 @@
 > The original Unix text editor.
 > More information: <https://manned.org/ed.1>.
 
-- Start ed, editing an empty document (which can be saved as a new file in the current directory):
+- Start an interactive ed session:
 
 `ed`
 
-- Start ed, editing an empty document, with `:` as a command prompt indicator:
+- Start an interactive ed session with the specified prompt:
 
-`ed -p :`
+`ed --prompt='> '`
 
-- Start ed editing an existing file (this shows the byte count of the loaded file):
+- Edit a file (this shows the byte count of the loaded file):
 
-`ed -p : {{path/to/file}}`
+`ed {{path/to/file}}`
 
-- Toggle the printing of error explanations. (By default, explanations are not printed and only a `?` appears):
+- Start an interactive ed session with user-friendly errors:
 
-`H`
+`ed --verbose`
 
-- Add text to the current document. Mark completion by entering a period by itself in a new line:
+- Replace a string with the specified one for all lines:
 
-`a<Enter>{{text_to_insert}}<Enter>.`
+`,s/{{regular_expression}}/{{replacement}}/g`
 
-- Print the entire document (`,` is a shortcut to the range `1,$` which covers the start to the end of the document):
+- Add a text to the current file terminated with a period on a separate line:
+
+`a<Enter>{{text}}<Enter>.`
+
+- Print file contents:
 
 `,p`
 
-- Write the current document to a new file (the filename can be omitted if `ed` was called with an existing file):
+- Print the version:
 
-`w {{filename}}`
-
-- Quit ed:
-
-`q`
+`ed --version`
