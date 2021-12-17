@@ -1,28 +1,20 @@
 # cut
 
 > Cut out fields from stdin or files.
-> More information: <https://www.gnu.org/software/coreutils/cut>.
+> More information: <https://manned.org/cut.1>.
 
-- Cut out the first sixteen characters of each line of stdin:
+- Print the specified character range of each line of stdin:
 
-`cut -c {{1-16}}`
+`cut --characters={{index|index1,index2,...|from..to|from..|..to}}`
 
-- Cut out the first sixteen characters of each line of the given files:
+- Print the specified field range of each line of stdin:
 
-`cut -c {{1-16}} {{file}}`
+`cut --fields={{index|index1,index2,...|from..to|from..|..to}}`
 
-- Cut out everything from the 3rd character to the end of each line:
+- Print a given field range of each line of stdin with the specified delimiter:
 
-`cut -c {{3-}}`
+`cut --delimiter={{,}} --characters={{index|index1,index2,...|from..to|from..|..to}}`
 
-- Cut out the fifth field of each line, using a colon as a field delimiter (default delimiter is tab):
+- Print a given field range of each line of the specified file:
 
-`cut -d'{{:}}' -f{{5}}`
-
-- Cut out the 2nd and 10th fields of each line, using a semicolon as a delimiter:
-
-`cut -d'{{;}}' -f{{2,10}}`
-
-- Cut out the fields 3 through to the end of each line, using a space as a delimiter:
-
-`cut -d'{{ }}' -f{{3-}}`
+`cut --characters={{index|index1,index2,...|from..to|from..|..to}} {{path/to/file}}`
