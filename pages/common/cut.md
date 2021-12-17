@@ -13,7 +13,7 @@
 
 - Print a field/fields/field range of each line with the specified delimiter:
 
-`cut --delimiter={{,}} --fields={{1|1,10|1-10|1-|-10}}`
+`cut --delimiter="{{,}}" --fields={{1|1,10|1-10|1-|-10}}`
 
 - Print a field/fields/field range of each line of the specified file:
 
