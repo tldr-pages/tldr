@@ -3,34 +3,30 @@
 > Edit text in a scriptable manner.
 > More information: <https://manned.org/sed.1>.
 
-- Replace the first occurrence of a string in a file, and print the result:
+- Execute an expression:
 
-`sed 's/{{find}}/{{replace}}/' {{filename}}`
+`sed "{{expression}}"`
 
-- Replace all occurrences of an extended regular expression in a file:
+- Execute a script:
 
-`sed -E 's/{{regular_expression}}/{{replace}}/g' {{filename}}`
+`sed --file={{path/to/file}}`
 
-- Replace all occurrences of a string [i]n a file, overwriting the file (i.e. in-place):
+- Execute an expression with enabled extended regular expressions:
 
-`sed -i '' 's/{{find}}/{{replace}}/g' {{filename}}`
+`sed --regexp-extended "{{expression}}"`
 
-- Replace only on lines matching the line pattern:
+- Execute a script and replace file with it's output:
 
-`sed '/{{line_pattern}}/s/{{find}}/{{replace}}/' {{filename}}`
+`sed --in-place --file={{path/to/file}}`
 
-- Print only text between n-th line till the next empty line:
+- Execute an expression without automatic buffer printing:
 
-`sed -n '{{line_number}},/^$/p' {{filename}}`
+`sed --quiet "{{expression}}"`
 
-- Apply multiple find-replace expressions to a file:
+- Replace a string with the specified replacement for all lines:
 
-`sed -e 's/{{find}}/{{replace}}/' -e 's/{{find}}/{{replace}}/' {{filename}}`
+`sed "s/{{regular_expression}}/{{replacement}}/g" {{path/to/file}}`
 
-- Replace separator `/` by any other character not used in the find or replace patterns, e.g. `#`:
+- Print the version:
 
-`sed 's#{{find}}#{{replace}}#' {{filename}}`
-
-- [d]elete the line at the specific line number [i]n a file, overwriting the file:
-
-`sed -i '' '{{line_number}}d' {{filename}}`
+`sed --version`
