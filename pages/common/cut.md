@@ -11,10 +11,14 @@
 
 `cut --fields={{1|1,10|1-10|1-|-10}}`
 
-- Print a given field/fields/field range of each line of stdin with the specified delimiter:
+- Print a field/fields/field range of each line of stdin with the specified delimiter:
 
 `cut --delimiter={{,}} --fields={{1|1,10|1-10|1-|-10}}`
 
-- Print a given field/fields/field range of each line of the specified file:
+- Print a field/fields/field range of each line of the specified file:
 
 `cut --fields={{1|1,10|1-10|1-|-10}} {{path/to/file}}`
+
+- Print the version:
+
+`cut --version`
