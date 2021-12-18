@@ -15,7 +15,7 @@
 
 `color {{foreground_code}}{{background_code}}`
 
-- Allowed values: `1-9,a-f`
+Allowed values: `1-9,a-f`
 | 1-9           | a-f             |
 |---------------|-----------------|
 | 0: Black      |                 |
