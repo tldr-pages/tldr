@@ -137,8 +137,6 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989) — present
 - **Marco Bonelli ([@mebeim](https://github.com/mebeim))**:
   [21 December 2019](https://github.com/tldr-pages/tldr/issues/3672) — present
-- **Zlatan Vasović ([@zlatanvasovic](https://github.com/zlatanvasovic))**:
-  [18 June 2020](https://github.com/tldr-pages/tldr/issues/4113) — present
 - **Lucas Schneider ([@schneiderl](https://github.com/schneiderl))**:
   [3 February 2021](https://github.com/tldr-pages/tldr/issues/5224) — present
 - **Axel Navarro ([@navarroaxel](https://github.com/navarroaxel))**:
@@ -161,3 +159,5 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   until [18 January 2018](https://github.com/tldr-pages/tldr/issues/1878#issuecomment-358610454)
 - Waldir Pimenta ([@waldyrious](https://github.com/waldyrious)):
   until [26 August 2018](https://github.com/tldr-pages/tldr/issues/2257)
+- Zlatan Vasović ([@zlatanvasovic](https://github.com/zlatanvasovic)):
+  until [14 December 2021](https://github.com/tldr-pages/tldr/issues/7538)
