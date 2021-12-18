@@ -9,7 +9,7 @@
 
 - Change the current user's login shell:
 
-`chsh {{/path/to/shell}}`
+`chsh {{path/to/shell}}`
 
 - Change the login shell for a given user to Zsh:
 
