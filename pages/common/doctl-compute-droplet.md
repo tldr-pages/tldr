@@ -5,7 +5,7 @@
 
 - Create a droplet:
 
-`doctl compute droplet create --region {{region}} --image {{OS_image}} --size {{vps_type}} {{droplet_name}}`
+`doctl compute droplet create --region {{region}} --image {{os_image}} --size {{vps_type}} {{droplet_name}}`
 
 - Delete a droplet:
 
