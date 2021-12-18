@@ -18,13 +18,13 @@
 Allowed values: `1-9,a-f`
 | 1-9           | a-f             |
 |---------------|-----------------|
-| 0: Black      |                 |
-| 1: Blue       | a: L Green      |
-| 2: Green      | b: L Aqua       |
-| 3: Aqua       | c: L Red        |
-| 4: Red        | d: L Purple     |
-| 5: Purple     | e: L Yellow     |
-| 6: Yellow     | f: Bright White |
+| 0: Black      | a: L Green      |
+| 1: Blue       | b: L Aqua       |
+| 2: Green      | c: L Red        |
+| 3: Aqua       | d: L Purple     |
+| 4: Red        | e: L Yellow     |
+| 5: Purple     | f: Bright White |
+| 6: Yellow     |                 |
 | 7: White      |                 |
 | 8: Gray       |                 |
 | 9: Light Blue |                 |
