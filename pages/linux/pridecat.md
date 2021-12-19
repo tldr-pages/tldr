@@ -7,7 +7,7 @@
 
 `pridecat {{file}}`
 
-- Output file in trans colors:
+- Print contents of a file in trans colors:
 
 `pridecat {{file}} --{{transgender|trans}}`
 
