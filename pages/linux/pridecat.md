@@ -3,7 +3,7 @@
 > Like cat but more colorful :).
 > More information: <https://github.com/lunasorcery/pridecat>.
 
-- Output file in pride colors:
+- Print the contents of a file in pride colors to the standard output:
 
 `pridecat {{file}}`
 
