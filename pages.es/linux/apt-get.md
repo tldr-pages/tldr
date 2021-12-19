@@ -31,3 +31,11 @@
 - Actualiza paquetes instalados (como `upgrade`), pero elimina paquete obsoletos e instala paquetes adiciones para satisfacer nuevas dependencias:
 
 `apt-get dist-upgrade`
+
+- Actualiza solo el paquete seleccionado
+
+`apt-get --only-upgrade install {{paquete}}`
+
+- Reinstala el paquete seleccionado
+
+`apt-get install --reinstall {{paquete}}`
