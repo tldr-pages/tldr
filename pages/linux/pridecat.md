@@ -15,7 +15,7 @@
 
 `pridecat {{file}} --lesbian --bi`
 
-- Output file with the background colors changed:
+- Print contents of a file with the background colors changed:
 
 `pridecat {{file}} -b`
 
