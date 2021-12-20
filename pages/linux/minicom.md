@@ -6,3 +6,11 @@
 - Open a given serial port:
 
 `sudo minicom --device {{/dev/ttyUSB0}}`
+
+- Open a given serial port with a given baudrate:
+
+`sudo minicom --device {{/dev/ttyUSB0}} --baudrate 115200`
+
+- Entering setup page before doing communication with a given serial port:
+
+`sudo minicom --device {{/dev/ttyUSB0}} --setup`
