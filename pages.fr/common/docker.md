@@ -4,10 +4,6 @@
 > Certaines commandes comme `docker run` ont leur propre documentation.
 > Plus d'informations : <https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- Liste les conteneurs Docker en cours d'exécution :
-
-`docker ps`
-
 - Liste tous les conteneurs Docker (en cours d'exécution ou arrêtés) :
 
 `docker ps -a`
