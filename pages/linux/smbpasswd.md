@@ -1,6 +1,6 @@
 # smbpasswd
 
-> Add/remove a Samba user or change their SMB password.
+> Add/remove a Samba user or change its password.
 > Samba users must have an existing local Unix account.
 > More information: <https://manned.org/smbpasswd.8>.
 
