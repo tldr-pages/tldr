@@ -1,6 +1,6 @@
 # doctl balance
 
-> Show the balanced of a Digital Ocean account.
+> Show the balance of a Digital Ocean account.
 > More information: <https://docs.digitalocean.com/reference/doctl/reference/balance/>.
 
 - Get balance of the account associated with the current context:
