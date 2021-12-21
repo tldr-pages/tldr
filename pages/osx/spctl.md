@@ -1,18 +1,18 @@
 # spctl
 
 > Manage the security assessment policy subsystem.
-> Utility for managing Gatekeeper in OS X
+> Utility for managing Gatekeeper in macOS.
 > More information: <https://www.unix.com/man-page/osx/8/SPCTL/>.
 
-- Turn off gatekeeper:
+- Turn off Gatekeeper:
 
 `spctl --master-disable`
 
 - Add a rule to allow an application to run (Labeling of rule is optional):
 
-`spctl --add --label "RuleName" {{path/to/file}}`
+`spctl --add --label "{{rule_name}}" {{path/to/file}}`
 
-- Turn on gatekeeper:
+- Turn on Gatekeeper:
 
 `spctl --master-enable`
 
