@@ -20,6 +20,10 @@
 
 `docker pull {{image}}`
 
+- Display the list of already downloaded images:
+
+`docker images`
+
 - Open a shell inside a running container:
 
 `docker exec -it {{container_name}} {{sh}}`
