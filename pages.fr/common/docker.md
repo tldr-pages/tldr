@@ -24,6 +24,10 @@
 
 `docker pull {{image}}`
 
+- Affiche les images déjà téléchargées :
+
+`docker images`
+
 - Ouvre un shell dans un conteneur déjà en cours d'exécution :
 
 `docker exec -it {{nom_conteneur}} {{sh}}`
