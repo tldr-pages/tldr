@@ -15,16 +15,4 @@
 
 `color {{foreground_code}}{{background_code}}`
 
-Allowed values: `1-9,a-f`
-| 1-9           | a-f             |
-|---------------|-----------------|
-| 0: Black      | a: L Green      |
-| 1: Blue       | b: L Aqua       |
-| 2: Green      | c: L Red        |
-| 3: Aqua       | d: L Purple     |
-| 4: Red        | e: L Yellow     |
-| 5: Purple     | f: Bright White |
-| 6: Yellow     |                 |
-| 7: White      |                 |
-| 8: Gray       |                 |
-| 9: Light Blue |                 |
+- Allowed values: `1-9,a-f`
