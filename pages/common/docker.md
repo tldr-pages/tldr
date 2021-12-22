@@ -6,7 +6,7 @@
 
 - List all docker containers (running and stopped):
 
-`docker ps -a`
+`docker ps --all`
 
 - Start a container from an image, with a custom name:
 
