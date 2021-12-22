@@ -18,11 +18,11 @@
 
 - Open all files inside a directory containing specific keyword:
 
-`Invoke-Item -Path {{path/to/directory/*}} -Include *{{keyword}}*`
+`Invoke-Item -Path {{path/to/directory/*}} -Include {{*keyword*}}`
 
 - Open all files inside a directory except those containing specific keyword:
 
-`Invoke-Item -Path {{path/to/directory/*}} -Exclude *{{keyword}}*`
+`Invoke-Item -Path {{path/to/directory/*}} -Exclude {{*keyword*}}`
 
 - Perform a dry run to determine which files will be opened inside a directory through `Invoke-Item`:
 
