@@ -8,7 +8,7 @@
 
 `spctl --master-disable`
 
-- Add a rule to allow an application to run (Labeling of rule is optional):
+- Add a rule to allow an application to run (labeling of rule is optional):
 
 `spctl --add --label "{{rule_name}}" {{path/to/file}}`
 
