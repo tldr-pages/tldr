@@ -6,7 +6,7 @@
 
 - Liste tous les conteneurs Docker (en cours d'exécution ou arrêtés) :
 
-`docker ps -a`
+`docker ps --all`
 
 - Démarre un conteneur à partir d'une image, avec un nom personnalisé :
 
