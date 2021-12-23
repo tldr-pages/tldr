@@ -1,6 +1,6 @@
 # minicom
 
-> A program to do a serial communication with a device.
+> A program to communicate with the serial interface of a device.
 > More information: <https://manned.org/minicom>.
 
 - Open a given serial port:
@@ -11,6 +11,6 @@
 
 `sudo minicom --device {{/dev/ttyUSB0}} --baudrate {{115200}}`
 
-- Enter setup page before doing communication with a given serial port:
+- Enter the configuration menu before communicating with a given serial port:
 
 `sudo minicom --device {{/dev/ttyUSB0}} --setup`
