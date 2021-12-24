@@ -5,7 +5,7 @@
 
 - Download an exercise:
 
-`exercism download --exercise={{exercise-slug}} --track={{track-slug}}`
+`exercism download --exercise={{exercise_slug}} --track={{track_slug}}`
 
 - Submit an exercise:
 
