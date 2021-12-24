@@ -3,7 +3,7 @@
 > Command-interface for downloading and solving problems on exercism.org.
 > More information: <https://exercism.org/docs/using/solving-exercises/working-locally>.
 
-- Configure exercism with application token and preferred workspace:
+- Configure application token and preferred workspace for Exercism:
 
 `exercism configure --token={{your-application-token}} --workspace={{/path/to/preferred/workspace}}`
 
