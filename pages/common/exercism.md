@@ -1,6 +1,6 @@
 # exercism
 
-> Command-interface for downloading and solving problems on exercism.org.
+> Download and solve problems from the command-line.
 > More information: <https://exercism.org/docs/using/solving-exercises/working-locally>.
 
 - Configure application token and preferred workspace for Exercism:
