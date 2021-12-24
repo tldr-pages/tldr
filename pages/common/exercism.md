@@ -7,7 +7,7 @@
 
 `exercism configure --token={{your-application-token}} --workspace={{/path/to/preferred/workspace}}`
 
-- Download an exercise:
+- Download a specific exercise:
 
 `exercism download --exercise={{exercise_slug}} --track={{track_slug}}`
 
