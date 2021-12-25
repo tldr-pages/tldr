@@ -5,7 +5,7 @@
 
 - Install packages and synchronize them with the remote repository:
 
-`xbps-install --synchronize {{package_name1}} {{package_name2}}`
+`xbps-install --sync {{package_name1}} {{package_name2}}`
 
 - Search for a package in the remote repository:
 
@@ -21,7 +21,7 @@
 
 - Synchronize your repository databases and update your system and dependencies:
 
-`xbps-install --synchronize -u`
+`xbps-install --sync --update`
 
 - Remove packages that were installed as dependencies and aren't currently needed:
 
