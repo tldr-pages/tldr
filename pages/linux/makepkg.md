@@ -23,3 +23,11 @@
 - Clean up work directories after a successful build:
 
 `makepkg --clean`
+
+- Verify the hashes of the sources:
+
+`makepkg --verifysource`
+
+- Generate and save the source information into `.srcinfo`:
+
+`makepkg --printsrcinfo`
