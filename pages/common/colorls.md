@@ -9,12 +9,12 @@
 
 - List all files, including hidden files:
 
-`colorls -a`
+`colorls --all`
 
 - Long format list (permissions, ownership, size, and modification date) of all files:
 
-`colorls -la`
+`colorls --long --all`
 
 - Only list directories:
 
-`colorls -d`
+`colorls --dirs`
