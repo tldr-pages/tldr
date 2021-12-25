@@ -30,4 +30,4 @@
 
 - Generate and save the source information into `.srcinfo`:
 
-`makepkg --printsrcinfo`
+`makepkg --printsrcinfo > .srcinfo`
