@@ -1,28 +1,28 @@
 # git mergetool
 
-> Run merge conflict resolution tools to resolve merge conflicts.
-> More information: <https://git-scm.com/docs/git-mergetool>.
+> Birleştirme sırasında yaşanan karışıklıkları çözmek için karışıklık çözücü araçları çalıştırır.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-mergetool>.
 
-- Launch the default merge tool to resolve conflicts:
+- Karışıklıkları çözmek için varsayılan birleştirme aracını başlat:
 
 `git mergetool`
 
-- List valid merge tools:
+- Kullanılabilir birleştirme araçlarını sırala:
 
 `git mergetool --tool-help`
 
-- Launch the merge tool identified by a name:
+- Belirtilen birleştirme aracını başlat:
 
-`git mergetool --tool {{tool_name}}`
+`git mergetool --tool {{araç_ismi}}`
 
-- Don't prompt before each invocation of the merge tool:
+- Her birleştirme aracı çağrılışında harekete geçme:
 
 `git mergetool --no-prompt`
 
-- Explicitly use the GUI merge tool (see the `merge.guitool` config variable):
+- Özellikle grafiksel (GUI) birleştirme aracını kullan (merge.guitool değişkenine göz at):
 
 `git mergetool --gui`
 
-- Explicitly use the regular merge tool (see the `merge.tool` config variable):
+- Özellikle normal birleştirme aracını kullan (merge.guitool değişkenine göz at):
 
 `git mergetool --no-gui`
