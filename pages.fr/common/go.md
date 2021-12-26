@@ -3,6 +3,7 @@
 > Outil de gestion du code source Go.
 > Certaines sous-commandes telles que `go build` ont leur propre documentation d'utilisation.
 > Plus d'informations : <https://golang.org>.
+
 - Télécharger et installer un paquet, spécifié par son chemin d'importation :
 
 `go get {{chemin_du_paquet}}`
