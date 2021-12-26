@@ -1,7 +1,7 @@
 # dunstctl
 
 > Control command for `dunst`.
-> More information: <https://man.archlinux.org/man/community/dunst/dunstctl.1.en>.
+> More information: <https://manned.org/dunstctl>.
 
 - Pause notifications:
 
