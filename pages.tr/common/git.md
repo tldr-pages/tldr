@@ -7,11 +7,11 @@
 
 `git --version`
 
-- Genel yardım göster:
+- Genel yardım sayfasını görüntüle:
 
 `git --help`
 
-- Bir Git alt komutu (`commit`, `log` gibi) için yardım göster:
+- Bir Git alt komutu (`commit`, `log` gibi) için yardım sayfasını görüntüle:
 
 `git help {{alt_komut}}`
 
