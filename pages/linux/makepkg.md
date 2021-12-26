@@ -28,6 +28,6 @@
 
 `makepkg --verifysource`
 
-- Generate and save the source information into `.srcinfo`:
+- Generate and save the source information into `.SRCINFO`:
 
-`makepkg --printsrcinfo > .srcinfo`
+`makepkg --printsrcinfo > .SRCINFO`
