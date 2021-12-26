@@ -1,36 +1,36 @@
 # git notes
 
-> Add or inspect object notes.
-> More information: <https://git-scm.com/docs/git-notes>.
+> Nesne notları ekle veya incele.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-notes>.
 
-- List all notes and the objects they are attached to:
+- Tüm notları ve bağlı oldukları nesneleri sırala:
 
 `git notes list`
 
-- List all notes attached to a given object (defaults to HEAD):
+- Belirtilen nesneye bağlanan tüm notları sırala (varsayılan HEAD'dedir):
 
-`git notes list [{{object}}]`
+`git notes list [{{nesne}}]
 
-- Show the notes attached to a given object (defaults to HEAD):
+- Belirtilen nesneye bağlanan tüm notları göster (varsayılan HEAD'dedir):
 
-`git notes show [{{object}}]`
+`git notes show [{{nesne}}]`
 
-- Append a note to a specified object (opens the default text editor):
+- Belirtilen nesneye bir not ekle (varsayılan metin editörü açılır):
 
-`git notes append {{object}}`
+`git notes append {{nesne}}`
 
-- Append a note to a specified object, specifying the message:
+- Mesajı belirterek belirtilen nesneye bir not ekle:
 
-`git notes append --message="{{message_text}}"`
+`git notes append --message="{{messaj_yazısı}}"`
 
-- Edit an existing note (defaults to HEAD):
+- Varolan bir notu düzenle (varsayılan HEAD'dedir):
 
-`git notes edit [{{object}}]`
+`git notes edit [{{nesne}}]`
 
-- Copy a note from one object to another:
+- Bir notu bir nesneden öbürüne kopyala:
 
-`git notes copy {{source_object}} {{target_object}}`
+`git notes copy {{kaynak_nesne}} {{hedef_nesne}}`
 
-- Remove all the notes added to a specified object:
+- Belirtilen nesneye eklenen tüm notları sil:
 
-`git notes remove {{object}}`
+`git notes remove {{nesne}}`
