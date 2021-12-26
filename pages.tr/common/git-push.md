@@ -1,32 +1,32 @@
 # git push
 
-> Push commits to a remote repository.
-> More information: <https://git-scm.com/docs/git-push>.
+> Commit'leri uzak depoya yolla.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-push>.
 
-- Send local changes in the current branch to its remote counterpart:
+- Mevcut daldaki yerel değişiklikleri onun uzak eşine gönder:
 
 `git push`
 
-- Send local changes in a given branch to its remote counterpart:
+- Belirtilen daldaki yerel değişiklikleri onun uzak eşine gönder:
 
-`git push {{remote_name}} {{local_branch}}`
+`git push {{uzak_bağlantı}} {{yerel_dal}}`
 
-- Publish the current branch to a remote repository, setting the remote branch name:
+- Mevcut dalı bir uzak dal ismi ayarlayarak uzak depoda yayınla:
 
-`git push {{remote_name}} -u {{remote_branch}}`
+`git push {{uzak_bağlantı}} -u {{uzak_dal}}`
 
-- Send changes on all local branches to their counterparts in a given remote repository:
+- Yerel dallardaki tüm değişiklikleri onların belirtilen uzak depodaki uzak eşlerine gönder:
 
-`git push --all {{remote_name}}`
+`git push --all {{uzak_bağlantı}}`
 
-- Delete a branch in a remote repository:
+- Uzak depodaki bir dalı sil:
 
-`git push {{remote_name}} --delete {{remote_branch}}`
+`git push {{uzak_bağlantı}} --delete {{uzak_dal}}`
 
-- Remove remote branches that don't have a local counterpart:
+- Yerel eşi olmayan uzak dalları sil:
 
-`git push --prune {{remote_name}}`
+`git push --prune {{uzak_bağlantı}}`
 
-- Publish tags that aren't yet in the remote repository:
+- Daha yzak depoda olmayan etiketleri yayınla:
 
 `git push --tags`
