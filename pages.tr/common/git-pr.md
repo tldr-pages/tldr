@@ -1,20 +1,20 @@
 # git pr
 
-> Check out GitHub pull requests locally.
-> More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-pr>.
+> Github çekme isteklerini (pr) yerelde kontrol et.
+> Daha fazla bilgi için: <https://github.com/tj/git-extras/blob/master/Commands.md#git-pr>.
 
-- Check out a specific pull request:
+- Belirtilen çekme isteğini kontrol et:
 
-`git pr {{pr_number}}`
+`git pr {{pr_numarası}}`
 
-- Check out a pull request for a specific remote:
+- Belirtilen dış bağlantıdan gelen bir çekme isteğini kontrol et:
 
-`git pr {{pr_number}} {{remote}}`
+`git pr {{pr_numarası}} {{dış_bağlantı}}`
 
-- Check out a pull request from its URL:
+- Belirtilen URL'den gelen çekme isteğini kontrol et:
 
 `git pr {{url}}`
 
-- Clean up old pull request branches:
+- Eski çekme isteği dallarını temizle:
 
 `git pr clean`
