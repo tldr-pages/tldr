@@ -1,16 +1,16 @@
 # git mv
 
-> Move or rename files and update the Git index.
-> More information: <https://git-scm.com/docs/git-mv>.
+> Dosyaları taşı veya yeniden adlandır ve Git indeksini güncelle.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-mv>.
 
-- Move file inside the repo and add the movement to the next commit:
+- Depo içindeki dosyayı taşı ve bu hareketi sonraki commit'e ekle:
 
-`git mv {{path/to/file}} {{new/path/to/file}}`
+`git mv {{dosya/konumu}} {{yeni/dosya/konumu}}`
 
-- Rename file and add renaming to the next commit:
+- Dosyayı yeniden adlandır ve yeniden adlandırma hareketini sonraki commit'e ekle:
 
-`git mv {{filename}} {{new_filename}}`
+`git mv {{dosya_ismi}} {{yeni_dosya_ismi}}`
 
-- Overwrite the file in the target path if it exists:
+- Eğer varsa belirtilen hedefteki dosyanın üstüne yaz:
 
-`git mv --force {{file}} {{target}}`
+`git mv --force {{dosya}} {{hedef}}`
