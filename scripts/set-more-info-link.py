@@ -38,6 +38,7 @@ labels = {
     "th": "ดูเพิ่มเติม:",
     "tr": "Daha fazla bilgi:",
     "uk": "Більше інформації:",
+    "uz": "Ko'proq malumot:",
     "zh_TW": "更多資訊：",
     "zh": "更多信息：",
 }
