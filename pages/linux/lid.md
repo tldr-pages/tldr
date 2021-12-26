@@ -7,6 +7,6 @@
 
 `sudo lid {{user}}`
 
-- show a group's users:
+- Show a group's users:
 
 `sudo lid --group {{group}}`
