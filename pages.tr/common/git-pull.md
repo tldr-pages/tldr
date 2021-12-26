@@ -1,16 +1,16 @@
 # git pull
 
-> Fetch branch from a remote repository and merge it to local repository.
-> More information: <https://git-scm.com/docs/git-pull>.
+> Uzak bir depodan dal getir ve yerel depo ile birleştir.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-pull>.
 
-- Download changes from default remote repository and merge it:
+- Varsayılan uzak depodan değişiklikleri indir ve birleştir:
 
 `git pull`
 
-- Download changes from default remote repository and use fast forward:
+- Varsayılan uzak depodan değişiklikleri indir ve ileri sarmayı kullan:
 
 `git pull --rebase`
 
-- Download changes from given remote repository and branch, then merge them into HEAD:
+- Belirtilen uzak depodan ve daldan değişiklikleri indir, ve sonra onları HEAD ile birleştir:
 
-`git pull {{remote_name}} {{branch}}`
+`git pull {{uzak_bağlantı}} {{dal}}`
