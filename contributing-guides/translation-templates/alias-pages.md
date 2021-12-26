@@ -36,6 +36,7 @@ The templates can be changed when necessary.
 [th](#th) •
 [tr](#tr) •
 [uk](#uk) •
+[uz](#uz) •
 [zh](#zh) •
 [zh_TW](#zh_tw)
 
@@ -364,6 +365,11 @@ Not translated yet.
 
 `tldr example`
 ```
+
+---
+### uz
+
+Not translated yet.
 
 ---
 ### zh
