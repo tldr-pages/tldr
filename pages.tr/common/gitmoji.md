@@ -1,32 +1,32 @@
 # gitmoji
 
-> An interactive command line tool for using emojis on commits.
-> More information: <https://github.com/carloscuesta/gitmoji-cli>.
+> Commit'lerde emoji kullanmak içni interaktif bir komut satırı aracı.
+> Daha fazla bilgi için: <https://github.com/carloscuesta/gitmoji-cli>.
 
-- Start the commit wizard:
+- Commit sihirbazını çalıştır:
 
 `gitmoji --commit`
 
-- Initialize the git hook (so `gitmoji` will be run every time `git commit` is run):
+- Git hook'u başlat (bu sayede `git commit` çalıştırıldığı zaman `gitmoji` otomatik olarak çalıştırılabilir):
 
 `gitmoji --init`
 
-- Remove the git hook:
+- Git hook'u sil:
 
 `gitmoji --remove`
 
-- List all available emojis and their descriptions:
+- Tüm kullanılabilir emojileri ve açıklamalarını sırala:
 
 `gitmoji --list`
 
-- Search emoji list for a list of keywords:
+- Belirtilen kelime sırası için emoji sırası ara:
 
-`gitmoji --search {{keyword1}} {{keyword2}}`
+`gitmoji --search {{kelime1}} {{kelime2}}`
 
-- Update cached list of emojis from main repository:
+- Ana depodan emojileri güncelle:
 
 `gitmoji --update`
 
-- Configure global preferences:
+- Genel tercihleri düzenle:
 
 `gitmoji --config`
