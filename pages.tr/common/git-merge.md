@@ -1,20 +1,20 @@
 # git merge
 
-> Merge branches.
-> More information: <https://git-scm.com/docs/git-merge>.
+> Dalları birleştir.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-merge>.
 
-- Merge a branch into your current branch:
+- Mevcut dal ile belirtilen dalı birleştir:
 
-`git merge {{branch_name}}`
+`git merge {{dal_ismi}}`
 
-- Edit the merge message:
+- Birleştirme mesajını düzenle:
 
-`git merge -e {{branch_name}}`
+`git merge -e {{dal_ismi}}`
 
-- Merge a branch and create a merge commit:
+- Bir dalı birleştir ve birleştirme commit'i oluştur:
 
-`git merge --no-ff {{branch_name}}`
+`git merge --no-ff {{dal_ismi}}`
 
-- Abort a merge in case of conflicts:
+- Karışıklık durumlarına karşı birleştirme işlemini durdur:
 
 `git merge --abort`
