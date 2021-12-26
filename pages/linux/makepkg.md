@@ -29,4 +29,5 @@
 `makepkg --verifysource`
 
 - Generate and save the source information into `.SRCINFO`:
+
 `makepkg --printsrcinfo > .SRCINFO`
