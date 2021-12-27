@@ -1,8 +1,8 @@
 # git update-index
 
-> Git command for manipulating the index.
-> More information: <https://git-scm.com/docs/git-update-index>.
+> İndeksi manipüle etmeye yarayan bir Git komutu.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-update-index>.
 
-- Pretend that a modified file is unchanged (`git status` will not show this as changed):
+- Düzenlenmiş bir dosya değiştirilmemiş gibi davran (`git status` bunu değişmiş gibi göstermeyecek):
 
-`git update-index --skip-worktree {{path/to/modified_file}}`
+`git update-index --skip-worktree {{örnek/düzenlenen_dosya}}`
