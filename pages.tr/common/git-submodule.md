@@ -1,20 +1,20 @@
 # git submodule
 
-> Inspects, updates and manages submodules.
-> More information: <https://git-scm.com/docs/git-submodule>.
+> Alt modülleri incele, güncelle ve yönet.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-submodule>.
 
-- Install a repository's specified submodules:
+- Deponun belirtilen alt modüllerini indir:
 
 `git submodule update --init --recursive`
 
-- Add a Git repository as a submodule:
+- Bir Git deposunu alt modül olarak ekle:
 
-`git submodule add {{repository_url}}`
+`git submodule add {{depo_url'si}}`
 
-- Add a Git repository as a submodule at the specified directory:
+- Bir Git deposunu alt modül olarak belirtilen dizinde ekle:
 
-`git submodule add {{repository_url}} {{path/to/directory}}`
+`git submodule add {{depo_url'si}} {{dizin/konumu}}`
 
-- Update every submodule to its latest commit:
+- Tüm alt modülleri son commit'lerine güncelle:
 
 `git submodule foreach git pull`
