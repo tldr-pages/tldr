@@ -1,11 +1,11 @@
 # smalltalkci
 
 > Framework for testing Smalltalk projects with GitHub Actions, Travis CI, AppVeyor, GitLab CI, and others.
-> More information: <https://github.com/hpi-swa/smalltalkCI#readme>
+> More information: <https://github.com/hpi-swa/smalltalkCI>.
 
-- Run tests for a config file:
+- Run tests for a configuration file:
 
-`smalltalkci {{/path/to/.smalltalk.ston}}`
+`smalltalkci {{path/to/.smalltalk.ston}}`
 
 - Run tests for the `.smalltalk.ston` configuration in the current directory:
 
@@ -17,11 +17,12 @@
 
 - Specify prepared [S]malltalk image:
 
-`smalltalkci -s {{Squeak64-Trunk}}`
+`smalltalkci --smalltalk {{Squeak64-Trunk}}`
 
-- Specify custom Smalltalk image and VM:
 
-`smalltalkci --image {{/path/to/Smalltalk.image}} -- vm {{/path/to/vm}}`
+- Specify a custom Smalltalk image and VM:
+
+`smalltalkci --image {{path/to/Smalltalk.image}} -- vm {{path/to/vm}}`
 
 - Clean up caches and delete builds:
 
