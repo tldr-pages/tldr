@@ -1,16 +1,16 @@
 # git rm
 
-> Remove files from repository index and local filesystem.
+> Dosyaları dizin indeksinden ve yerel dosya sisteminden sil.
 > More information: <https://git-scm.com/docs/git-rm>.
 
-- Remove file from repository index and filesystem:
+- Dosyayı dizin indeksinden ve dosya sisteminden sil:
 
-`git rm {{file}}`
+`git rm {{dosya}}`
 
-- Remove directory:
+- Dizini sil:
 
-`git rm -r {{directory}}`
+`git rm -r {{dizin}}`
 
-- Remove file from repository index but keep it untouched locally:
+- Dizin indeksinden dosyayı sil lakin yerelde dosyaya dokunma:
 
-`git rm --cached {{file}}`
+`git rm --cached {{dosya}}`
