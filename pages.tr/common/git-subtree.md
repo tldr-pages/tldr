@@ -1,24 +1,24 @@
 # git subtree
 
-> Tool to manage project dependencies as subprojects.
-> More information: <https://manpages.debian.org/testing/git-man/git-subtree.1.en.html>.
+> Proje bağımlılıklarını alt proje olarak yönetmeye yarayan bir araç.
+> Daha fazla bilgi için: <https://manpages.debian.org/testing/git-man/git-subtree.1.en.html>.
 
-- Add a Git repository as a subtree:
+- Bir Git deposunu alt ağaç olarak ekle:
 
-`git subtree add --prefix={{path/to/directory/}} --squash {{repository_url}} {{branch_name}}`
+`git subtree add --prefix={{dizin/konumu}} --squash {{depo_url'si}} {{dal_ismi}}`
 
-- Update subtree repository to its latest commit:
+- Alt ağaç deposunu son commit'ine güncelle:
 
-`git subtree pull --prefix={{path/to/directory/}} {{repository_url}} {{branch_name}}`
+`git subtree pull --prefix={{dizin/konumu}} {{depo_url'si}} {{dal_ismi}}`
 
-- Merge recent changes up to the latest subtree commit into the subtree:
+- Son alt ağaca kadar olan değişiklikleri alt ağaca commit'le:
 
-`git subtree merge --prefix={{path/to/directory/}} --squash {{repository_url}} {{branch_name}}`
+`git subtree merge --prefix={{dizin/konumu}}} --squash {{depo_url'si}} {{dal_ismi}}`
 
-- Push commits to a subtree repository:
+- Commit'leri bir alt ağaç deposuna yolla:
 
-`git subtree push --prefix={{path/to/directory/}} {{repository_url}} {{branch_name}}`
+`git subtree push --prefix={{dizin/konumu}}} {{depo_url'si}} {{dal_ismi}}`
 
-- Extract a new project history from the history of a subtree:
+- Bir alt ağacın geçmişinden yeni bir proje geçmişi dışa aktar:
 
-`git subtree split --prefix={{path/to/directory/}} {{repository_url}} -b {{branch_name}}`
+`git subtree split --prefix={{dizin/konumu}}} {{depo_url'si}} -b {{dal_ismi}}`
