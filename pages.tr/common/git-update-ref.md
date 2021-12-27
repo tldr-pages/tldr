@@ -1,12 +1,12 @@
 # git update-ref
 
-> Git command for creating, updating, and deleting Git refs.
-> More information: <https://git-scm.com/docs/git-update-ref>.
+> Git referanslarını yaratmak, güncellemek ve silmeye yarayan bir Git komutu.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-update-ref>.
 
-- Delete a ref, useful for soft resetting the first commit:
+- Bir referansı sil (ilk commit'i hafifçe sıfırlamaya yarar):
 
 `git update-ref -d {{HEAD}}`
 
-- Update ref with a message:
+- Referansı bir mesaj ile güncelle:
 
-`git update-ref -m {{message}} {{HEAD}} {{4e95e05}}`
+`git update-ref -m {{mesaj}} {{HEAD}} {{4e95e05}}`
