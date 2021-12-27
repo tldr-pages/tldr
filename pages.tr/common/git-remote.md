@@ -1,28 +1,28 @@
 # git remote
 
-> Manage set of tracked repositories ("remotes").
-> More information: <https://git-scm.com/docs/git-remote>.
+> İzlenen depolar dizisini (uzak bağlantıları) yönet.
+> Daha fazla bilgi: <https://git-scm.com/docs/git-remote>.
 
-- Show a list of existing remotes, their names and URL:
+- Varolan uzak bağlantıların isim ve URL'leriyle bir listesini göster:
 
 `git remote -v`
 
-- Show information about a remote:
+- Uzak bağlantı ile ilgili bilgi göster:
 
-`git remote show {{remote_name}}`
+`git remote show {{uzak_bağlantı_ismi}}`
 
-- Add a remote:
+- Uzak bağlantı ekle:
 
-`git remote add {{remote_name}} {{remote_url}}`
+`git remote add {{uzak_bağlantı_ismi}} {{uzak_bağlantı_url'si}}`
 
-- Change the URL of a remote (use `--add` to keep the existing URL):
+- Uzak bağlantının URL'sini değiştir:
 
-`git remote set-url {{remote_name}} {{new_url}}`
+`git remote set-url {{uzak_bağlantı_ismi}} {{yeni_url}}`
 
-- Remove a remote:
+- Uzak bağlantıyı sil:
 
-`git remote remove {{remote_name}}`
+`git remote remove {{uzak_bağlantı_ismi}}`
 
-- Rename a remote:
+- Uzak bağlantıyı yeniden adlandır:
 
-`git remote rename {{old_name}} {{new_name}}`
+`git remote rename {{eski_isim}} {{yeni_isim}}`
