@@ -1,20 +1,20 @@
 # git show-ref
 
-> Git command for listing references.
-> More information: <https://git-scm.com/docs/git-show-ref>.
+> Referans sıralamak için git komutu.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-show-ref>.
 
-- Show all refs in the repository:
+- Depodaki tüm referansları göster:
 
 `git show-ref`
 
-- Show only heads references:
+- Yalnızca kafa referanslarını göster:
 
 `git show-ref --heads`
 
-- Show only tags references:
+- Yalnızca etiket referanslarını göster:
 
 `git show-ref --tags`
 
-- Verify that a given reference exists:
+- Belirtilen referansın varolduğunu doğrula:
 
-`git show-ref --verify {{path/to/ref}}`
+`git show-ref --verify {{referans/konumu}}`
