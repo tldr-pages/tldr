@@ -1,28 +1,28 @@
 # git shortlog
 
-> Summarizes the `git log` output.
-> More information: <https://git-scm.com/docs/git-shortlog>.
+> 'git log' çıktısını özetle.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-shortlog>.
 
-- View a summary of all the commits made, grouped alphabetically by author name:
+- Yapılan tüm commit'lerin yazar ismiyle alfabetik olarak guruplanmış özetini göster:
 
 `git shortlog`
 
-- View a summary of all the commits made, sorted by the number of commits made:
+- Yapılan tüm commit'lerin en çok commit yapan yazar ismi en üstte olacak şekilde özetini göster:
 
 `git shortlog -n`
 
-- View a summary of all the commits made, grouped by the committer identities (name and email):
+- Yapılan tüm commit'lerin yazar bilgilerini (isim ve e-posta) gösterecek şekilde özetini göster:
 
 `git shortlog -c`
 
-- View a summary of the last 5 commits (i.e. specify a revision range):
+- En son yapılan 5 commit'in özetini göster (sürüm aralığı belirt):
 
 `git shortlog HEAD~{{5}}..HEAD`
 
-- View all users, emails and the number of commits in the current branch:
+- Mevcut daldaki tüm kullanıcıları, e-postalarını ve yaptıkları commit sayısını göster:
 
 `git shortlog -sne`
 
-- View all users, emails and the number of commits in all branches:
+- Tüm dallardaki tüm kullanıcıları, e-postalarını ve yaptıkları commit sayısını göster:
 
 `git shortlog -sne --all`
