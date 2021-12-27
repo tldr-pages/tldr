@@ -1,16 +1,16 @@
 # git rev-list
 
-> List revisions (commits) in reverse chronological order.
-> More information: <https://git-scm.com/docs/git-rev-list>.
+> Değişiklikleri (commit'leri) ters kronolojik sırada sırala.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-rev-list>.
 
-- List all commits on the current branch:
+- Mevcut daldaki tüm commit'leri sırala:
 
 `git rev-list {{HEAD}}`
 
-- List commits more recent than a specific date, on a specific branch:
+- Belirtilen daldaki belirtilen tarihten daha yakın olan commit'leri sırala:
 
-`git rev-list --since={{'2019-12-01 00:00:00'}} {{branch_name}}`
+`git rev-list --since={{'2019-12-01 00:00:00'}} {{dal_ismi}}`
 
-- List all merge commits on a specific commit:
+- Belirtilen commit'deki tüm birleştirme commit'lerini sırala:
 
 `git rev-list --merges {{commit}}`
