@@ -1,24 +1,24 @@
 # git svn
 
-> Bidirectional operation between a Subversion repository and Git.
-> More information: <https://git-scm.com/docs/git-svn>.
+> Bir alt sürüm deposu ve Git arasında çift yönlü operasyon.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-svn>.
 
-- Clone an SVN repository:
+- Bit SVN deposunu klonla:
 
-`git svn clone {{https://example.com/subversion_repo}} {{local_dir}}`
+`git svn clone {{https://ornek.com/altsürüm_deposu}} {{yerel_dizin}}`
 
-- Clone a SVN repository starting at a given revision number:
+- Bir SVN deposunu belirtilen düzenleme numarasından başlayarak klonla:
 
-`git svn clone -r{{1234}}:HEAD {{https://svn.example.net/subversion/repo}} {{local_dir}}`
+`git svn clone -r{{1234}}:HEAD {{https://svn.ornek.net/altsürüm/depo}} {{yerel_dizin}}`
 
-- Update local clone from the remote SVN repository:
+- Uzak SVN deposundan yerel klonu güncelle:
 
 `git svn rebase`
 
-- Fetch updates from the remote SVN repository without changing the Git HEAD:
+- Git HEAD'i değiştirmeden uzak SVN deposundan güncellemeleri çek:
 
 `git svn fetch`
 
-- Commit back to the SVN repository:
+- SVN deposuna geri commit'le:
 
 `git svn dcommit`
