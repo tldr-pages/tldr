@@ -1,16 +1,16 @@
 # git reflog
 
-> Show a log of changes to local references like HEAD, branches or tags.
-> More information: <https://git-scm.com/docs/git-reflog>.
+> HEAD, dal ve etiketler gibi yerel referansların geçirdiği değişimlerin kaydını göster:
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-reflog>.
 
-- Show the reflog for HEAD:
+- HEAD için referans kaydını göster:
 
 `git reflog`
 
-- Show the reflog for a given branch:
+- Belirtilen dal için referans kaydını göster:
 
-`git reflog {{branch_name}}`
+`git reflog {{dal_ismi}}`
 
-- Show only the 5 latest entries in the reflog:
+- Referans kaydında sadece son 5 değişimi göster:
 
 `git reflog -n {{5}}`
