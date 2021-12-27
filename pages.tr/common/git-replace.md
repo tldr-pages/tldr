@@ -1,16 +1,16 @@
 # git replace
 
-> Create, list, and delete refs to replace objects.
+> Nesnelerin yerini değiştirmek için referans oluştur, sırala ve sil.
 > More information: <https://git-scm.com/docs/git-replace>.
 
-- Replace any commit with a different one, leaving other commits unchanged:
+- Öbür commit'lere dokunmadan bir commit'in başka bir commit ile yerini değiştir:
 
-`git replace {{object}} {{replacement}}`
+`git replace {{nesne}} {{yer_değiştirme}}`
 
-- Delete existing replace refs for the given objects:
+- Belirtilen nesnede varolan yer değiştirme referanslarını sil:
 
-`git replace --delete {{object}}`
+`git replace --delete {{nesne}}`
 
-- Edit an object’s content interactively:
+- Bir nesnenin içeriğini etkileşimli olarak düzenle:
 
-`git replace --edit {{object}}`
+`git replace --edit {{nesne}}`
