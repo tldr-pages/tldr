@@ -1,36 +1,36 @@
 # git show
 
-> Show various types of Git objects (commits, tags, etc.).
-> More information: <https://git-scm.com/docs/git-show>.
+> Çeşitli Git nesnelerini (commit'ler, etiketler vs.) görüntüle.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-show>.
 
-- Show information about the latest commit (hash, message, changes, and other metadata):
+- Son commit'e dair bilgi (değer, mesaj, değişimler ve öbür metaveriler) göster:
 
 `git show`
 
-- Show information about a given commit:
+- Belirtilen commit'e dair bilgi göster:
 
 `git show {{commit}}`
 
-- Show information about the commit associated with a given tag:
+- Belirtilen etiket ile özleşen commit'e dair bilgi göster:
 
 `git show {{tag}}`
 
-- Show information about the 3rd commit from the HEAD of a branch:
+- Dalın HEAD'indeki 3. commit'e dair bilgi göster:
 
-`git show {{branch}}~{{3}}`
+`git show {{dal}}~{{3}}`
 
-- Show a commit's message in a single line, suppressing the diff output:
+- Commit'in mesajını diff çıktısını önleyerek tek satırda göster:
 
 `git show --oneline -s {{commit}}`
 
-- Show only statistics (added/removed characters) about the changed files:
+- Yalnızca değiştirilen dosyalarla ilgili istatistik (eklenen/silinen karakterler) göster:
 
 `git show --stat {{commit}}`
 
-- Show only the list of added, renamed or deleted files:
+- Yalnızca eklenen, yeniden adlandırılan veya silinen dosyaların listesini göster:
 
 `git show --summary {{commit}}`
 
-- Show the contents of a file as it was at a given revision (e.g. branch, tag or commit):
+- Bir dosyanın belirtilen sürümdeki (örneğin dal, etiket veya commit) içeriğini göster:
 
-`git show {{revision}}:{{path/to/file}}`
+`git show {{sürüm}}:{{dosya/konumu}}`
