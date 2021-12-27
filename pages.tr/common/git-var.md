@@ -1,13 +1,13 @@
 # git var
 
-> Prints a Git logical variable's value.
-> See `git config`, which is preferred over `git var`.
-> More information: <https://git-scm.com/docs/git-var>.
+> Bir Git mantıksal değişkeninin değerini yazdırır.
+> Ayrıca bu komuttan daha çok tercih edilen `git config`'e bakılması önerilir.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-var>.
 
-- Print the value of a Git logical variable:
+- Yerel bir Git mantıksal değişkeninin değerini yazdır:
 
 `git var {{GIT_AUTHOR_IDENT|GIT_COMMITTER_IDENT|GIT_EDITOR|GIT_PAGER}}`
 
-- [l]ist all Git logical variables:
+- Tüm Git mantıksal değerlerini sırala:
 
 `git var -l`
