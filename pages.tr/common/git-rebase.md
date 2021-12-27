@@ -1,37 +1,37 @@
 # git rebase
 
-> Reapply commits from one branch on top of another branch.
-> Commonly used to "move" an entire branch to another base, creating copies of the commits in the new location.
-> More information: <https://git-scm.com/docs/git-rebase>.
+> Bir daldan başka bir dalın üstüne commit'leri tekrar temeller.
+> Sıklıkla bir dalı commit'leriyle beraber başka bir tabana "taşımak" için kullanılır.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-rebase>.
 
-- Rebase the current branch on top of another specified branch:
+- Mevcut dalı belirtilen öbür dal üzerine temelle:
 
-`git rebase {{new_base_branch}}`
+`git rebase {{yeni_taban_dal}}`
 
-- Start an interactive rebase, which allows the commits to be reordered, omitted, combined or modified:
+- Commit'lerin sıralanması, çıkartılması, birleştirilmesi veya modifiye edilmesine izin vermek için tekrar temellemeyi etkileşimli olacak şekilde başlat:
 
-`git rebase -i {{target_base_branch_or_commit_hash}}`
+`git rebase -i {{hedef_taban_dalı_veya_commit_değeri}}`
 
-- Continue a rebase that was interrupted by a merge failure, after editing conflicting files:
+- Bir birleştirme hatası tarafından durdurulan tekrar temelleme işlemini çekişen dosyaları düzenledikten sonra devam ettir:
 
 `git rebase --continue`
 
-- Continue a rebase that was paused due to merge conflicts, by skipping the conflicted commit:
+- Birleştirme çatışmasından ötürü durdurulan tekrar temelleme işlemini çekişen commit'leri atlayarak devam ettir:
 
 `git rebase --skip`
 
-- Abort a rebase in progress (e.g. if it is interrupted by a merge conflict):
+- Devam eden tekrar temelleme işlemini iptal et (örneğin birleştirmede çatışma yaşandığında): 
 
 `git rebase --abort`
 
-- Move part of the current branch onto a new base, providing the old base to start from:
+- Mevcut dalın bir parçasını belirtilen eski tabandan yeni tabana taşı:
 
-`git rebase --onto {{new_base}} {{old_base}}`
+`git rebase --onto {{yeni_taban}} {{eski_taban}}`
 
-- Reapply the last 5 commits in-place, stopping to allow them to be reordered, omitted, combined or modified:
+- Son 3 commit'i etkileşimli olmayacak şekilde yeniden uygula:
 
 `git rebase -i {{HEAD~5}}`
 
-- Auto-resolve any conflicts by favoring the working branch version (`theirs` keyword has reversed meaning in this case):
+- Herhangi bir çatışmayı çalışan dal sürümünü kurtarmak üzere otomatik olarak çöz (`theirs` argümanı burada ters anlama sahip):
 
-`git rebase -X theirs {{branch_name}}`
+`git rebase -X theirs {{dal_ismi}}`
