@@ -1,29 +1,29 @@
 # gitsome
 
-> A terminal-based interface for GitHub, accessed via the `gh` command.
-> It also provides menu-style autocomplete suggestions for `git` commands.
-> More information: <https://github.com/donnemartin/gitsome>.
+> GitHub için gh komutuyla erişilebilen terminal tabanlı arayüz.
+> Ayrıca `git` komutları için menu tarzı otomatik tamamlanmış öneriler sunar.
+> Daha fazla bilgi için: <https://github.com/donnemartin/gitsome>.
 
-- Enter the gitsome shell (optional), to enable autocompletion and interactive help for Git (and gh) commands:
+- Otomatik tamamlamayı ve Git ile gh komutları için etkileşimli yardımı etkinleştirmek için gitsome kabuğuna gir:
 
 `gitsome`
 
-- Setup GitHub integration with the current account:
+- Mevcut hesap ile GitHub entegrasyonunu ayarla:
 
 `gh configure`
 
-- List notifications for the current account (as would be seen in https://github.com/notifications):
+- Mevcut hesap için bildirimleri (https://github.com/notifications adresinde görülebildiği gibi) sırala:
 
 `gh notifications`
 
-- List the current account's starred repos, filtered by a given search string:
+- Mevcut hesabın yıldızlanan depolarını belirtilen filtre ile sırala:
 
 `gh starred "{{python 3}}"`
 
-- View the recent activity feed of a given GitHub repository:
+- Belirtilen GitHub deposunun güncel etkileşimini görüntüle:
 
 `gh feed {{tldr-pages/tldr}}`
 
-- View the recent activity feed for a given GitHub user, using the default pager (e.g. `less`):
+- Belirtilen GitHub kullanıcısının güncel etkileşimini varsayılan sayfacı ile (örneğin `less`) göster:
 
 `gh feed {{torvalds}} -p`
