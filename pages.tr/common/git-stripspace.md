@@ -1,16 +1,16 @@
 # git stripspace
 
-> Read text (e.g. commit messages, notes, tags, and branch descriptions) from the standard input and clean it into the manner used by Git.
-> More information: <https://git-scm.com/docs/git-stripspace>.
+> Gereksiz boşlukları sil.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-stripspace>.
 
-- Trim whitespace from a file:
+- Gereksiz boşlukları dosyadan kırp:
 
-`cat {{path/to/file}} | git stripspace`
+`cat {{örnek/dosya}} | git stripspace`
 
-- Trim whitespace and Git comments from a file:
+- Gereksiz boşlukları ve Git yorumlarını dosyadan kırp:
 
-`cat {{path/to/file}} | git stripspace --strip-comments`
+`cat {{örnek/dosya}} | git stripspace --strip-comments`
 
-- Convert all lines in a file into Git comments:
+- Bir dosyadaki tüm satırları Git yorumlarına çevir:
 
-`git stripspace --comment-lines < {{path/to/file}}`
+`git stripspace --comment-lines < {{örnek/dosya}}`
