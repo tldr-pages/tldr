@@ -1,36 +1,36 @@
 # git stash
 
-> Stash local Git changes in a temporary area.
-> More information: <https://git-scm.com/docs/git-stash>.
+> Yerel Git düzenlemelerini geçici bir alanda sakla.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-stash>.
 
-- Stash current changes, except new (untracked) files:
+- Yeni (izlenmeyen) dosyalar hariç mevcut değişiklikleri sakla:
 
-`git stash [push -m {{optional_stash_message}}]`
+`git stash [push -m {{keyfi_saklama_mesajı}}]`
 
-- Stash current changes, including new (untracked) files:
+- Yeni (izlenmeyen) dosyalar dahil mevcut değişiklikleri sakla:
 
 `git stash -u`
 
-- Interactively select parts of changed files for stashing:
+- Değiştirilen dosyaların parçalarını etkileşimli şekilde seçip sakla:
 
 `git stash -p`
 
-- List all stashes (shows stash name, related branch and message):
+- Tüm saklananları göster (saklanan ismi, bağlı olduğu dal ve mesaj gösterilir):
 
 `git stash list`
 
-- Apply a stash (default is the latest, named stash@{0}):
+- Bir saklananı uygula (varsayılan son saklanandır ve stash@{0} olarak belirtilir):
 
-`git stash apply {{optional_stash_name_or_commit}}`
+`git stash apply {{keyfi_saklanan_veya_commit_ismi}}`
 
-- Apply a stash (default is stash@{0}), and remove it from the stash list if applying doesn't cause conflicts:
+- Bir saklananı uygula (varsayılan stash@{0}), ve eğer uygulanması sıkıntı çıkarmıyorsa onu saklanan listesinden kaldır:
 
-`git stash pop {{optional_stash_name}}`
+`git stash pop {{keyfi_saklanan_ismi}}`
 
-- Drop a stash (default is stash@{0}):
+- Bir saklananı bırak (varsayılan stash@{0}):
 
-`git stash drop {{optional_stash_name}}`
+`git stash drop {{keyfi_saklanan_ismi}}`
 
-- Drop all stashes:
+- Tüm saklananları bırak:
 
 `git stash clear`
