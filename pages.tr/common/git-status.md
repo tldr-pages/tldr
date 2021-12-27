@@ -1,21 +1,21 @@
 # git status
 
-> Show the changes to files in a Git repository.
-> Lists changed, added and deleted files compared to the currently checked-out commit.
-> More information: <https://git-scm.com/docs/git-status>.
+> Bir git deposundaki dosyalara yapılan değişiklikleri göster.
+> Mevcut commit'e kıyasla değiştirilen, eklenen ve silinen dosyaları sıralar.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-status>.
 
-- Show changed files which are not yet added for commit:
+- Daha commit'e eklenmemiş değiştirilen dosyaları göster:
 
 `git status`
 
-- Give output in [s]hort format:
+- Çıktıyı özetlenmiş şekilde göster:
 
 `git status -s`
 
-- Don't show untracked files in the output:
+- Çıktıda izlenmeyen dosyaları gösterme:
 
 `git status --untracked-files=no`
 
-- Show output in [s]hort format along with [b]ranch info:
+- Çıktıyı özetlenmiş şekilde dal bilgisiyle beraber göster:
 
 `git status -sb`
