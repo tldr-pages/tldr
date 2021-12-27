@@ -1,16 +1,16 @@
 # git rev-parse
 
-> Display metadata related to specific revisions.
-> More information: <https://git-scm.com/docs/git-rev-parse>.
+> Belirtilen sürümler için metaveri görüntüle.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-rev-parse>.
 
-- Get the commit hash of a branch:
+- Bir dalın commit verisini göster:
 
-`git rev-parse {{branch_name}}`
+`git rev-parse {{dal_ismi}}`
 
-- Get the current branch name:
+- Mevcut dal ismini göster:
 
 `git rev-parse --abbrev-ref {{HEAD}}`
 
-- Get the absolute path to the root directory:
+- Kök dizinin mutlak konumunu göster:
 
 `git rev-parse --show-toplevel`
