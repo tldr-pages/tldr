@@ -1,33 +1,33 @@
 # git restore
 
-> Restore working tree files. Requires Git version 2.23+.
-> See also `git checkout` and `git reset`.
-> More information: <https://git-scm.com/docs/git-restore>.
+> Çalışan ağaç dosyalarını onar. Git sürümü 2.23+ olmalıdır.
+> `git checkout` ve `git reset` komutlarına da ayrıca bakılması tavsiye edilir.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-restore>.
 
-- Restore an unstaged file to the version of the current commit (HEAD):
+- Sahnelenmemiş bir dosyayı mevcut commit'in sürümüne kavuştur:
 
-`git restore {{path/to/file}}`
+`git restore {{dosya/konumu}}`
 
-- Restore an unstaged file to the version of a specific commit:
+- Sahnelenmemiş bir dosyayı belirtilen commit'in sürümüne kavuştur:
 
-`git restore --source {{commit}} {{path/to/file}}`
+`git restore --source {{commit}} {{dosya/konumu}}`
 
-- Discard all unstaged changes to tracked files:
+- İzlenen dosyalardaki sahnelenmemiş tüm değişiklikleri iptal et:
 
 `git restore :/`
 
-- Unstage a file:
+- Bir dosyayı sahnelenmemiş hale getir:
 
-`git restore --staged {{path/to/file}}`
+`git restore --staged {{dosya/konumu}}`
 
-- Unstage all files:
+- Tüm dosyaları sahnelenmemiş hale getir:
 
 `git restore --staged :/`
 
-- Discard all changes to files, both staged and unstaged:
+- Dosyalara yapılan sahnelenmiş veya sahnelenmemiş tüm değişiklikleri iptal et:
 
 `git restore --worktree --staged :/`
 
-- Interactively select sections of files to restore:
+- Onarılacak dosya parçalarını etkileşimli olarak seç:
 
 `git restore --patch`
