@@ -5,8 +5,8 @@
 
 - Bir dosyayı yazdır:
 
-`print {{filename}}`
+`print {{dosya_ismi}}`
 
 - `run-mailcap` ile yazdır:
 
-`run-mailcap --action=print {{filename}}`
+`run-mailcap --action=print {{dosya_ismi}}`
