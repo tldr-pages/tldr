@@ -11,7 +11,7 @@
 
 `git add -A`
 
-- Sadece izlenen dosyaları ekle:
+- Yalnızca izlenen dosyaları ekle:
 
 `git add -u`
 

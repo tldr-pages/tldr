@@ -1,33 +1,33 @@
 # git stage
 
-> Dosya içeriklerini sahnelenen alana ekle.
-> `git add` komutunun eş anlamlısı.
-> Daha fazla bilgi için: <https://git-scm.com/docs/git-stage>.
+> Değiştirilmiş dosyaları indekse ekle.
+> Bu komut `git add`'in eş anlamlısıdır.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-add>.
 
 - İndekse bir dosya ekle:
 
-`git stage {{dosya/konumu}}`
+`git stage {{örnek/dosya}}`
 
-- Tüm dosyaları (izlenen ve izlenmeyen) ekle:
+- Tüm (izlenen veya izlenmeyen) dosyaları ekle:
 
 `git stage -A`
 
-- Yalnızca halihazırda izlenen dosyaları ekle:
+- Yalnızca izlenen dosyaları ekle:
 
 `git stage -u`
 
-- Görmezden gelinen dosyaları da ekle:
+- Yoksayılan dosyaları dahi ekle:
 
 `git stage -f`
 
-- Dosyaların parçalarını etkileşimli şekilde sahnele:
+- Dosyaların parçalarını etkileşimli olarak sahnele:
 
 `git stage -p`
 
-- Belirtilen dosyanın parçalarını etkileşimli şekilde sahnele:
+- Belirtilen dosyaların parçalarını etkileşimli olarak sahnele:
 
-`git stage -p {{dosya/konumu}}`
+`git stage -p {{örnek/dosya}}`
 
-- Bir dosyayı etkileşimli şekilde sahnele:
+- Bir dosyayı etkileşimli olarak sahnele:
 
 `git stage -i`
