@@ -4,7 +4,7 @@
 > See also: `bfg`.
 > More information: <https://github.com/newren/git-filter-repo>.
 
-- Replace sensitive string in all files:
+- Replace a sensitive string in all files:
 
 `git filter-repo --replace-text <(echo '{{find}}==>{{replacement}}')`
 
