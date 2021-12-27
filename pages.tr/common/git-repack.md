@@ -1,12 +1,12 @@
 # git repack
 
-> Pack unpacked objects in a Git repository.
-> More information: <https://git-scm.com/docs/git-repack>.
+> Bir Git deposundaki paketlenmemiş nesneleri paketle.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-repack>.
 
-- Pack unpacked objects in the current directory:
+- Mevcut dizindeki paketlenmemiş nesneleri paketle:
 
 `git repack`
 
-- Also remove redundant objects after packing:
+- Paketlemeden sonra gereksiz nesneleri sil:
 
 `git repack -d`
