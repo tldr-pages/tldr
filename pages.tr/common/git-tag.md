@@ -1,33 +1,33 @@
 # git tag
 
-> Create, list, delete or verify tags.
-> A tag is a static reference to a specific commit.
-> More information: <https://git-scm.com/docs/git-tag>.
+> Etiketleri oluştur, sırala, sil veya doğrula.
+> Bir etiket, belirtilmiş bir commit'e bağlı statik bir referanstır.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-tag>.
 
-- List all tags:
+- Tüm etiketleri sırala:
 
 `git tag`
 
-- Create a tag with the given name pointing to the current commit:
+- Belirtilen isim ile mevcut commit'e bağlı bir etiket yarat:
 
-`git tag {{tag_name}}`
+`git tag {{etiket_ismi}}
 
-- Create a tag with the given name pointing to a given commit:
+- Belirtilen isim ile belirtilen commit'e bağlı bir etiket yarat:
 
-`git tag {{tag_name}} {{commit}}`
+`git tag {{etiket_ismi}} {{commit}}`
 
-- Create an annotated tag with the given message:
+- Belirtilen mesaja sahip açıklamalı bir etiket yarat:
 
-`git tag {{tag_name}} -m {{tag_message}}`
+`git tag {{etiket_ismi}} -m {{etiket_mesajı}}`
 
-- Delete the tag with the given name:
+- Belirtilen isimdeki etiketi sil:
 
-`git tag -d {{tag_name}}`
+`git tag -d {{etiket_ismi}}`
 
-- Get updated tags from upstream:
+- Ana projeden güncellenmiş etiketleri al:
 
 `git fetch --tags`
 
-- List all tags whose ancestors include a given commit:
+- Belirtilen commit'i içeren/içermiş tüm etiketleri sırala:
 
 `git tag --contains {{commit}}`

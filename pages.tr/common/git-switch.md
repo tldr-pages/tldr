@@ -1,29 +1,29 @@
 # git switch
 
-> Switch between Git branches. Requires Git version 2.23+.
-> See also `git checkout`.
-> More information: <https://git-scm.com/docs/git-switch>.
+> Git dalları arasında geçiş yap. Gir sürümü 2.23+ olmalıdır.
+> Ayrıca benzer işlev gören `git checkout` komutuna bakılması önerilir.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-switch>.
 
-- Switch to an existing branch:
+- Varolan bir dala geç:
 
-`git switch {{branch_name}}`
+`git switch {{dal_ismi}}`
 
-- Create a new branch and switch to it:
+- Yeni bir dal yarat ve ona geç:
 
-`git switch --create {{branch_name}}`
+`git switch --create {{dal_ismi}}`
 
-- Create a new branch based on an existing commit and switch to it:
+- Varolan commit üzerine yeni bir dal yarat ve ona geç:
 
-`git switch --create {{branch_name}} {{commit}}`
+`git switch --create {{dal_ismi}} {{commit}}`
 
-- Switch to the previous branch:
+- Önceki dala geç:
 
 `git switch -`
 
-- Switch to a branch and update all submodules to match:
+- Bir dala geç ve tüm alt modülleri uyum için güncelle:
 
-`git switch --recurse-submodules {{branch_name}}`
+`git switch --recurse-submodules {{dal_ismi}}`
 
-- Switch to a branch and automatically merge the current branch and any uncommitted changes into it:
+- Bir dala geç ve mevcut dal ile commit'lenmeyen değişiklikleri bu dal ile birleştir:
 
-`git switch --merge {{branch_name}}`
+`git switch --merge {{dal_ismi}}`
