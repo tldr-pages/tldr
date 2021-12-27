@@ -1,33 +1,33 @@
 # git stage
 
-> Add file contents to the staging area.
-> Synonym of `git add`.
-> More information: <https://git-scm.com/docs/git-stage>.
+> Dosya içeriklerini sahnelenen alana ekle.
+> `git add` komutunun eş anlamlısı.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-stage>.
 
-- Add a file to the index:
+- İndekse bir dosya ekle:
 
-`git stage {{path/to/file}}`
+`git stage {{dosya/konumu}}`
 
-- Add all files (tracked and untracked):
+- Tüm dosyaları (izlenen ve izlenmeyen) ekle:
 
 `git stage -A`
 
-- Only add already tracked files:
+- Yalnızca halihazırda izlenen dosyaları ekle:
 
 `git stage -u`
 
-- Also add ignored files:
+- Görmezden gelinen dosyaları da ekle:
 
 `git stage -f`
 
-- Interactively stage parts of files:
+- Dosyaların parçalarını etkileşimli şekilde sahnele:
 
 `git stage -p`
 
-- Interactively stage parts of a given file:
+- Belirtilen dosyanın parçalarını etkileşimli şekilde sahnele:
 
-`git stage -p {{path/to/file}}`
+`git stage -p {{dosya/konumu}}`
 
-- Interactively stage a file:
+- Bir dosyayı etkileşimli şekilde sahnele:
 
 `git stage -i`
