@@ -1,28 +1,28 @@
 # git apply
 
-> Apply a patch to files and/or to the index.
-> More information: <https://git-scm.com/docs/git-apply>.
+> İndeks veya dosyalara yama uygula.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-apply>.
 
-- Print messages about the patched files:
+- Yamalanan dosyalarla ilgili mesajları yazdır:
 
-`git apply --verbose {{path/to/file}}`
+`git apply --verbose {{örnek/dosya}}`
 
-- Apply and add the patched files to the index:
+- Yamalanan dosyaları indekse uygula ve ekle:
 
-`git apply --index {{path/to/file}}`
+`git apply --index {{örnek/dosya}}`
 
-- Apply a remote patch file:
+- Uzak yama dosyası uygula:
 
-`curl {{https://example.com/file.patch}} | git apply`
+`curl {{https://ornek.com/dosya.patch}} | git apply`
 
-- Output diffstat for the input and apply the patch:
+- Çıktı için fark statistiği çıkar ve yamayı uygula:
 
-`git apply --stat --apply {{path/to/file}}`
+`git apply --stat --apply {{örnek/dosya}}`
 
-- Apply the patch in reverse:
+- Yamayı tersten uygula:
 
-`git apply --reverse {{path/to/file}}`
+`git apply --reverse {{örnek/dosya}}`
 
-- Store the patch result in the index without modifying the working tree:
+- Yama sonucunu çalışan ağacı değiştirmeden indekste sakla:
 
-`git apply --cache {{path/to/file}}`
+`git apply --cache {{örnek/dosya}}`
