@@ -1,6 +1,6 @@
 # keychain
 
-> re-use ssh-agent and/or gpg-agent between logins
+> Re-use ssh-agent and/or gpg-agent between logins
 > More information: <http://funtoo.org/Keychain>.
 
 - Check for a running ssh-agent, and start one if needed:
@@ -11,11 +11,11 @@
 
 `keychain --agents "gpg,ssh"`
 
-- List signatures of all active keys and exit:
+- List signatures of all active keys:
 
 `keychain --list`
 
-- List fingerprints of all active keys and exit:
+- List fingerprints of all active keys:
 
 `keychain --list-fp`
 
