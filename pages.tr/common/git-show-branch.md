@@ -1,36 +1,36 @@
 # git show-branch
 
-> Show branches and their commits.
-> More information: <https://git-scm.com/docs/git-show-branch>.
+> Dalları ve içerdikleri commit'leri göster:
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-show-branch>.
 
-- Show a summary of the latest commit on a branch:
+- Bir daldaki son commit'lerin bir özetini göster:
 
-`git show-branch {{branch_name|ref|commit}}`
+`git show-branch {{dal_ismi|referans|commit}}`
 
-- Compare commits in the history of multiple commits or branches:
+- Çeşitli commit veya daldaki commit'lerin geçmişini karşılaştır:
 
-`git show-branch {{branch_name|ref|commit}}`
+`git show-branch {{dal_ismi|referans|commit}}`
 
-- Compare all remote tracking branches:
+- Tüm uzak takip dallarını karşılaştır:
 
 `git show-branch --remotes`
 
-- Compare both local and remote tracking branches:
+- Hem yerel, hem de uzak takip dallarını karşılaştır:
 
 `git show-branch --all`
 
-- List the latest commits in all branches:
+- Tüm dallardaki son commit'leri sırala:
 
 `git show-branch --all --list`
 
-- Compare a given branch with the current branch:
+- Belirtilen dalı mevcut dal ile karşılaştır:
 
-`git show-branch --current {{commit|branch_name|ref}}`
+`git show-branch --current {{commit|dal_ismi|referans}}`
 
-- Display the commit name instead of the relative name:
+- Bağlı isim yerine commit ismini görüntüle:
 
-`git show-branch --sha1-name --current {{current|branch_name|ref}}`
+`git show-branch --sha1-name --current {{current|dal_ismi|referans}}`
 
-- Keep going a given number of commits past the common ancester:
+- Commit'lerin ortak atasından sonraki commit'leri belirtilen sayı kadar görüntüle:
 
-`git show-branch --more {{5}} {{commit|branch_name|ref}} {{commit|branch_name|ref}} {{...}}`
+`git show-branch --more {{5}} {{commit|dal_ismi|referans}} {{commit|dal_ismi|referans}} {{...}}`
