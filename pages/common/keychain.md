@@ -13,11 +13,11 @@
 
 - List signatures of all active keys and exit:
 
-`keychain -l`
+`keychain --list`
 
 - List fingerprints of all active keys and exit:
 
-`keychain -L`
+`keychain --list-fp`
 
 - Add a timeout for identities added to the agent, in minutes:
 
