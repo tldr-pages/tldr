@@ -15,7 +15,7 @@
 
 `smalltalkci --headful`
 
-- Specify prepared [S]malltalk image:
+- Specify prepared Smalltalk image:
 
 `smalltalkci --smalltalk {{Squeak64-Trunk}}`
 
