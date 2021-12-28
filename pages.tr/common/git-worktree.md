@@ -1,20 +1,20 @@
 # git worktree
 
-> Manage multiple working trees attached to the same repository.
-> More information: <https://git-scm.com/docs/git-worktree>.
+> Aynı depoya bağlı çoklu çalışan ağaçları yönet.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-worktree>.
 
-- Create a new directory with the specified branch checked out into it:
+- Belirtilen dala sahip yeni bir dizin yarat:
 
-`git worktree add {{path/to/directory}} {{branch}}`
+`git worktree add {{örnek/dizin}} {{dal}}`
 
-- Create a new directory with a new branch checked out into it:
+- Yeni bir dala sahip yeni bir dizin yarat:
 
-`git worktree add {{path/to/directory}} -b {{new_branch}}`
+`git worktree add {{örnek/dizin}} -b {{yeni_dal}}`
 
-- List all the working directories attached to this repository:
+- Bu depoya bağlı tüm çalışan dizinleri sırala:
 
 `git worktree list`
 
-- Remove a worktree (after deleting worktree directory):
+- Bir çalışma ağacını (çalışma ağacı dizinini sildikten sonra) kaldır:
 
 `git worktree prune`
