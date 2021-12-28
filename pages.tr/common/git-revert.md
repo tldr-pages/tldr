@@ -1,20 +1,20 @@
 # git revert
 
-> Create new commits which reverse the effect of earlier ones.
-> More information: <https://git-scm.com/docs/git-revert>.
+> Öncekilerin etkilerini geri alan yeni bir commit oluştur.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-revert>.
 
-- Revert the most recent commit:
+- En son commit'leri geri al:
 
 `git revert {{@}}`
 
-- Revert the 5th last commit:
+- En son 5. commit'i geri al:
 
 `git revert HEAD~{{4}}`
 
-- Revert multiple commits:
+- Birden fazla commit'i geri al:
 
-`git revert {{branch_name~5..branch_name~2}}`
+`git revert {{dal_ismi~5..dal_ismi~2}}`
 
-- Don't create new commits, just change the working tree:
+- Yeni commit'ler oluşturma, yalnızca çalışan ağacı değiştir:
 
 `git revert -n {{0c01a9..9a1743}}`
