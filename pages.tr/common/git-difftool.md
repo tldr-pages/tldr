@@ -11,7 +11,7 @@
 
 `git config --global diff.tool "{{meld}}"`
 
--Varsayılan diff aracını sahnelenmiş değişiklikleri göstermek için kullan:
+- Varsayılan diff aracını sahnelenmiş değişiklikleri göstermek için kullan:
 
 `git difftool --staged`
 

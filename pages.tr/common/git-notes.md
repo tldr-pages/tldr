@@ -9,7 +9,7 @@
 
 - Belirtilen nesneye bağlanan tüm notları sırala (varsayılan HEAD'dedir):
 
-`git notes list [{{nesne}}]
+`git notes list [{{nesne}}]`
 
 - Belirtilen nesneye bağlanan tüm notları göster (varsayılan HEAD'dedir):
 

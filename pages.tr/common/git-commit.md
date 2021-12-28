@@ -1,6 +1,6 @@
 # git commit
 
-> Depoya dosya commit'le. 
+> Depoya dosya commit'le.
 > Daha fazla bilgi için: <https://git-scm.com/docs/git-commit>.
 
 - Sahnelenmiş dosyaları belirtilen mesaj ile commit'le:

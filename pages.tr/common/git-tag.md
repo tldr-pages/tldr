@@ -10,7 +10,7 @@
 
 - Belirtilen isim ile mevcut commit'e bağlı bir etiket yarat:
 
-`git tag {{etiket_ismi}}
+`git tag {{etiket_ismi}}`
 
 - Belirtilen isim ile belirtilen commit'e bağlı bir etiket yarat:
 

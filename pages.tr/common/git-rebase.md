@@ -20,7 +20,7 @@
 
 `git rebase --skip`
 
-- Devam eden tekrar temelleme işlemini iptal et (örneğin birleştirmede çatışma yaşandığında): 
+- Devam eden tekrar temelleme işlemini iptal et (örneğin birleştirmede çatışma yaşandığında):
 
 `git rebase --abort`
 
