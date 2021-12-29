@@ -22,7 +22,3 @@
 - Add a timeout for identities added to the agent, in minutes:
 
 `keychain --timeout {{minutes}}`
-
-- Enforce using gpg2 over gpg (for distributions like Ubuntu that have both)
-
-`keychain --gpg2`
