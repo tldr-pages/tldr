@@ -1,21 +1,21 @@
 # gitlab
 
-> Ruby wrapper and CLI for the GitLab API.
-> Some subcommands such as `gitlab ctl` have their own usage documentation.
-> More information: <https://narkoz.github.io/gitlab/>.
+> GitLab API'si için Ruby sarıcı ve CLI aracı.
+> `gitlab ctl` gibi bazı alt komutların kendi kullanım kılavuzları vardır.
+> Daha fazla bilgi için: <https://narkoz.github.io/gitlab/>.
 
-- Create a new project:
+- Yeni bir proje oluştur:
 
-`gitlab create_project {{project_name}}`
+`gitlab create_project {{proje_ismi}}`
 
-- Get info about a specific commit:
+- Belirtilen commit ile ilgili bilgi al:
 
-`gitlab commit {{project_name}} {{commit_hash}}`
+`gitlab commit {{proje_ismi}} {{commit_değeri}}`
 
-- Get info about jobs in a CI pipeline:
+- Bit CI pipeline'ındaki işler ile ilgili bilgi al:
 
-`gitlab pipeline_jobs {{project_name}} {{pipeline_id}}`
+`gitlab pipeline_jobs {{proje_ismi}} {{pipeline_id'si}}`
 
-- Start a specific CI job:
+- Belirtilen CI işini başlat:
 
-`gitlab job_play {{project_name}} {{job_id}}`
+`gitlab job_play {{proje_ismi}} {{iş_id'si}}`
