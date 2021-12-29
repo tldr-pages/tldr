@@ -1,28 +1,28 @@
 # gitlab-ctl
 
-> CLI tool for managing the GitLab omnibus.
-> More information: <https://docs.gitlab.com/omnibus/maintenance/>.
+> Çok amaçlı GitLab yönetim CLI aracı.
+> Daha fazla bilgi için: <https://docs.gitlab.com/omnibus/maintenance/>.
 
-- Display the status of every service:
+- Tüm servislerin durumunu görüntüle:
 
 `sudo gitlab-ctl status`
 
-- Display the status of a specific service:
+- Belirtilen servisin durumunu görüntüle:
 
 `sudo gitlab-ctl status {{nginx}}`
 
-- Restart every service:
+- Tüm servisleri yeniden başlat:
 
 `sudo gitlab-ctl restart`
 
-- Restart a specific service:
+- Belirtilen servisi yeniden başlat:
 
 `sudo gitlab-ctl restart {{nginx}}`
 
-- Display the logs of every service and keep reading until `Ctrl + C` is pressed:
+- Tüm servislerin kaydını görüntüle ve `Ctrl + C` basılana kadar okumaya devam et:
 
 `sudo gitlab-ctl tail`
 
-- Display the logs of a specific service:
+- Belirtilen servisin kaydını görüntüle:
 
 `sudo gitlab-ctl tail {{nginx}}`
