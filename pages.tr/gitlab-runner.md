@@ -1,28 +1,28 @@
 # gitlab-runner
 
-> CLI tool for managing GitLab runners.
-> More information: <https://docs.gitlab.com/runner/>.
+> GitLab koşucuları için CLI aracı.
+> Daha fazla bilgi için: <https://docs.gitlab.com/runner/>.
 
-- Register a runner:
+- Bir koşucuyu kayıt ettir:
 
-`sudo gitlab-runner register --url {{https://gitlab.example.com}} --registration-token {{token}} --name {{name}}`
+`sudo gitlab-runner register --url {{https://gitlab.ornek.com}} --registration-token {{token}} --name {{isim}}`
 
-- Register a runner with a Docker executor:
+- Bir koşucuyu Docker çalıştırıcısıyla kayı ettir:
 
-`sudo gitlab-runner register --url {{https://gitlab.example.com}} --registration-token {{token}} --name {{name}} --executor {{docker}}`
+`sudo gitlab-runner register --url {{https://gitlab.ornek.com}} --registration-token {{token}} --name {{isim}} --executor {{docker}}`
 
-- Unregister a runner:
+- Bir koşucunun kaydını geri al:
 
-`sudo gitlab-runner unregister --name {{name}}`
+`sudo gitlab-runner unregister --name {{isim}}`
 
-- Display the status of the runner service:
+- Koşucu servisinin durumunu görüntüle:
 
 `sudo gitlab-runner status`
 
-- Restart the runner service:
+- Koşucu servisini yeniden başlat:
 
 `sudo gitlab-runner restart`
 
-- Check if the registered runners can connect to GitLab:
+- Kayıt edilen koşucuların GitLab'e bağlanabilme durumlarını kontrol et:
 
 `sudo gitlab-runner verify`
