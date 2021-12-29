@@ -1,24 +1,24 @@
 # github-label-sync
 
-> A command-line interface for synchronising GitHub labels.
-> More information: <https://npmjs.com/package/github-label-sync>.
+> GitHub etiketlerini senkronize etmeye yarayan komut satırı arayüzü.
+> Daha fazla bilgi için: <https://npmjs.com/package/github-label-sync>.
 
-- Synchronise labels using a local `labels.json` file:
+- Yerel bir `labels.json` dosyası kullanarak etiketleri senkronize et:
 
-`github-label-sync --access-token {{token}} {{repository_name}}`
+`github-label-sync --access-token {{token}} {{depo_ismi}}`
 
-- Synchronise labels using a specific labels JSON file:
+- Belirli bir etiketlenen JSON dosyası kullanarak etiketleri senkronize et:
 
-`github-label-sync --access-token {{token}} --labels {{url|path/to/json_file}} {{repository_name}}`
+`github-label-sync --access-token {{token}} --labels {{url|örnek/json_dosyası}} {{depo_ismi}}`
 
-- Perform a dry run instead of actually synchronising labels:
+- Programı etiketleri gerçekten senkronize etmeden çalıştır:
 
-`github-label-sync --access-token {{token}} --dry-run {{repository_name}}`
+`github-label-sync --access-token {{token}} --dry-run {{depo_ismi}}`
 
-- Keep labels that aren't in `labels.json`:
+- `labels.json` içinde olmayan etiketleri sakla:
 
-`github-label-sync --access-token {{token}} --allow-added-labels {{repository_name}}`
+`github-label-sync --access-token {{token}} --allow-added-labels {{depo_ismi}}`
 
-- Synchronise using the `GITHUB_ACCESS_TOKEN` environment variable:
+- `GITHUB_ACCESS_TOKEN` ortam değişkenini kullanarak senkronize et:
 
-`github-label-sync {{repository_name}}`
+`github-label-sync {{depo_ismi}}`
