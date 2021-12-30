@@ -1,16 +1,16 @@
 # logcat
 
-> Dump a log of system messages.
-> More information: <https://developer.android.com/studio/command-line/logcat>.
+> Sistem mesajlarının kaydını görüntüle.
+> Daha fazla bilgi için: <https://developer.android.com/studio/command-line/logcat>.
 
-- Display system logs:
+- Sistem kaydını görüntüle:
 
 `logcat`
 
-- Write system logs to a file:
+- Sistem kayıtlarını bir dosyaya yaz:
 
-`logcat -f {{path/to/file}}`
+`logcat -f {{örnek/dosya}}`
 
-- Display lines that match a regular expression:
+- Düzenli ifadeye uyan satırları görüntüle:
 
-`logcat --regex {{regular_expression}}`
+`logcat --regex {{düzenli_ifade}}`
