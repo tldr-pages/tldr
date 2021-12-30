@@ -1,21 +1,21 @@
 # bugreportz
 
-> Generate a zipped Android bug report.
-> This command can only be used through `adb shell`.
-> More information: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/bugreportz>.
+> Ziplenmiş bir Android bug raporu oluştur.
+> Bu komut yalnızca `adb shell` ile kullanılabilir.
+> Daha fazla bilgi için: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/bugreportz>.
 
-- Generate a complete zipped bug report of an Android device:
+- Bir Android cihazı için ziplenmiş şekilde eksizsiz bir bug raporu oluşturGenerate a complete zipped bug report of an Android device:
 
 `bugreportz`
 
-- Show the progress of a running `bugreportz` operation:
+- Çalışan `bugreportz` işleminin durumunu göster:
 
 `bugreportz -p`
 
-- Show the version of `bugreportz`:
+- `bugreportz` sürümünü göster:
 
 `bugreportz -v`
 
-- Display help:
+- Yardım görüntüle:
 
 `bugreportz -h`
