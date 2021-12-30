@@ -1,24 +1,24 @@
 # pkg
 
-> Package management utility for Termux.
-> More information: <https://wiki.termux.com/wiki/Package_Management>.
+> Termux için paket yönetim aracı.
+> Daha fazla bilgi için: <https://wiki.termux.com/wiki/Package_Management>.
 
-- Upgrade all installed packages:
+- İndirilmiş tüm paketleri yükselt:
 
 `pkg upgrade`
 
-- Install a package:
+- Belirtilen paketi indir:
 
-`pkg install {{package}}`
+`pkg install {{paket}}`
 
-- Uninstall a package:
+- Belirtilen paketi kaldır:
 
-`pkg uninstall {{package}}`
+`pkg uninstall {{paket}}`
 
-- Reinstall a package:
+- Belirtilen paketi yeniden indir:
 
-`pkg reinstall {{package}}`
+`pkg reinstall {{paket}}`
 
-- Search for a package:
+- Belirtilen paketi ara:
 
-`pkg search {{package}}`
+`pkg search {{paket}}`
