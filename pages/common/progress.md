@@ -1,12 +1,20 @@
 # progress
 
-> Show progress of an ongoing system command.
+> Display/Monitor the progress of running coreutils.
 > More information: <https://github.com/Xfennec/progress>.
 
-- Show progress of ongoing commands, updates every 2 seconds:
+- Show the progress of running coreutils:
 
-`watch progress`
+`progress`
 
-- Show progress of ongoing commands, includes estimate of remaining time:
+- Show the progress of running coreutils in quiet mode:
 
-`watch progress -w`
+`progress -q`
+
+- Launch and monitor a single long-running command:
+
+`{{command}} & progress -mp $!`
+
+- Includes estimate of time remaining for completion:
+
+`progress -w`
