@@ -1,7 +1,6 @@
 # pipwin
 
-> Complementary tool for pip on Windows.
-> Pipwin installs unofficial python package binaries for windows.
+> Complementary tool to install unofficial Python package binaries on Windows.
 > More information: <https://github.com/lepisma/pipwin>.
 
 - List all available packages for download:
