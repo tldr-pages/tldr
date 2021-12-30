@@ -1,32 +1,32 @@
 # getprop
 
-> Show information about Android system properties.
-> More information: <https://manned.org/getprop>.
+> Android sistem özellikleri ile ilgili bilgi görüntüle.
+> Daha fazla bilgi için: <https://manned.org/getprop>.
 
-- Display information about Android system properties:
+- Android sistem özellikleri ile ilgili bilgi görüntüle:
 
 `getprop`
 
-- Display information about a specific property:
+- Belirtilen özellik ile ilgili bilgi görüntüle:
 
 `getprop {{prop}}`
 
-- Display the SDK API level:
+- SDK API seviyesini görüntüle:
 
 `getprop {{ro.build.version.sdk}}`
 
-- Display the Android version:
+- Android sürümünü görüntüle:
 
 `getprop {{ro.build.version.release}}`
 
-- Display the Android device model:
+- Android cihaz modelini görüntüle:
 
 `getprop {{ro.vendor.product.model}}`
 
-- Display the OEM unlock status:
+- OEM kilit durumunu görüntüle:
 
 `getprop {{ro.oem_unlock_supported}}`
 
-- Display the MAC address of the Android's Wi-Fi card:
+- Android'in Wi-Fi kartının MAC adreslerini görüntüle:
 
 `getprop {{ro.boot.wifimacaddr}}`
