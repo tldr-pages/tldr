@@ -1,8 +1,8 @@
 # dalvikvm
 
-> Android Java virtual machine.
-> More information: <https://source.android.com/devices/tech/dalvik>.
+> Android Java sanal makinesi.
+> Daha fazla bilgi için: <https://source.android.com/devices/tech/dalvik>.
 
-- Start a Java program:
+- Bir Java programı başlar:
 
-`dalvikvm -classpath {{path/to/file.jar}} {{classname}}`
+`dalvikvm -classpath {{örnek/dosya.jar}} {{sınıf_ismi}}`
