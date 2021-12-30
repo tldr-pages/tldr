@@ -1,20 +1,20 @@
 # settings
 
-> Get information about the Android OS.
-> More information: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
+> Android işletim sistemi ile ilgili bilgi al.
+> Daha fazla bilgi için: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
 
-- Display a list of settings in the `global` namespace:
+- `global` isim alanındaki ayarların sırasını görüntüle:
 
 `settings list {{global}}`
 
-- Get the value of a specific setting:
+- Belirtilen ayarın değerini al:
 
 `settings get {{global}} {{airplane_mode_on}}`
 
-- Set the value of a setting:
+- Bir ayarın değerini belirle:
 
 `settings put {{system}} {{screen_brightness}} {{42}}`
 
-- Delete a specific setting:
+- Belirtilen ayarı sil:
 
 `settings delete {{secure}} {{screensaver_enabled}}`
