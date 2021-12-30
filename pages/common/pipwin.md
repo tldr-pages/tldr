@@ -19,7 +19,7 @@
 
 `pipwin uninstall {{package_name}}`
 
-- Download only (to special directory if provided):
+- Download only (to a specific directory if provided):
 
 `pipwin download -d {{path/to/directory}} {{package_name}}`
 
