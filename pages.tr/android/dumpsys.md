@@ -1,29 +1,29 @@
 # dumpsys
 
-> Provide information about Android system services.
-> This command can only be used through `adb shell`.
-> More information: <https://developer.android.com/studio/command-line/dumpsys>.
+> Android sistem servisleri ile ilgili bilgi sağla.
+> Bu komut yalnızca `adb shell` ile kullanılabilir.
+> Daha fazla bilgi için: <https://developer.android.com/studio/command-line/dumpsys>.
 
-- Get diagnostic output for all system services:
+- Tüm sistem servisleri için tanısal bir çıktı al:
 
 `dumpsys`
 
-- Get diagnostic output for a specific system service:
+- Belirtilen sistem servisi için tanısal bir çıktı al:
 
-`dumpsys {{service}}`
+`dumpsys {{servis}}`
 
-- List all services `dumpsys` can give information about:
+- `dumpsys` komutunun hakkında bilgi verebileceği tüm servisleri sırala:
 
 `dumpsys -l`
 
-- List service-specific arguments for a service:
+- Bir servis için servise özel argümanları sırala:
 
-`dumpsys {{service}} -h`
+`dumpsys {{servis}} -h`
 
-- Exclude a specific service from the diagnostic output:
+- Tanı çıktısından belirtilen servisi çıkart:
 
-`dumpsys --skip {{service}}`
+`dumpsys --skip {{servis}}`
 
-- Specify a timeout period in seconds (defaults to 10s):
+- Saniye bazında bir zaman aşımı süresi belirle (varsayılan 10 saniyedir):
 
-`dumpsys -t {{seconds}}`
+`dumpsys -t {{saniye}}
