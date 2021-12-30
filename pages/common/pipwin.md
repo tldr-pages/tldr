@@ -15,7 +15,7 @@
 
 `pipwin install {{package_name}}`
 
-- Uninstall a package(Can directly use pip for this):
+- Uninstall a package (can directly use pip for this):
 
 `pipwin uninstall {{package_name}}`
 
