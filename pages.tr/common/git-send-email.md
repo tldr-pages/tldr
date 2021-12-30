@@ -18,8 +18,8 @@
 
 - Gönderilecek yama serisi için bir giriş e-posta mesajı gönder:
 
-`git send-email -{{commit}} --compose`
+`git send-email -{{commits_sayı}} --compose`
 
 - Gönderilecek her bir yama için e-posta mesajını görüntüle ve düzenle:
 
-`git send-email -{{commit}} --annotate`
+`git send-email -{{commits_sayı}} --annotate`
