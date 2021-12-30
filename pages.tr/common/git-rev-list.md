@@ -14,3 +14,7 @@
 - Belirtilen commit'deki tüm birleştirme commit'lerini sırala:
 
 `git rev-list --merges {{commit}}`
+
+- Belirtilen etiketten itibaren olan commit sayılarını çıkar:
+
+`git rev-list {{tag_name}}..HEAD --count`
