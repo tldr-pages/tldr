@@ -1,16 +1,16 @@
 # cmd
 
-> Android service manager.
-> More information: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/cmd/>.
+> Android servis yöneticisi.
+> Daha fazla bilgi için: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/cmd/>.
 
-- List every running service:
+- Tüm çalışan servisleri sırala:
 
 `cmd -l`
 
-- Call a specific service:
+- Belirtilen servisi çağır:
 
 `cmd {{alarm}}`
 
-- Call a service with arguments:
+- Belirtilen argümanlar ile servis çağır:
 
 `cmd {{vibrator}} {{vibrate 300}}`
