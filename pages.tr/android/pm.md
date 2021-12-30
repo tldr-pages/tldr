@@ -1,24 +1,24 @@
 # pm
 
-> Show information about apps on an Android device.
-> More information: <https://developer.android.com/studio/command-line/adb#pm>.
+> Android cihazındaki uygulamalar ile ilgili bilgi göster.
+> Daha fazla bilgi için: <https://developer.android.com/studio/command-line/adb#pm>.
 
-- Print a list of all installed apps:
+- İndirilen tüm uygulamaların sırala:
 
 `pm list packages`
 
-- Print a list of all installed system apps:
+- İndirilen tüm sistem uygulamalarını sırala:
 
 `pm list packages -s`
 
-- Print a list of all installed 3rd-Party apps:
+- İndirilen tüm üçüncü el uygulamaları sırala:
 
 `pm list packages -3`
 
-- Print a list of apps matching specific keywords:
+- Belirtilen anahtar kelimelere uyan uygulamaları sırala:
 
-`pm list packages {{keywords}}`
+`pm list packages {{anahtar_kelimeler}}`
 
-- Print the path of the APK of a specific app:
+- Belirtilen uygulamanın APK'sine giden yolu görüntüle:
 
-`pm path {{app}}`
+`pm path {{uygulama}}`
