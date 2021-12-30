@@ -21,7 +21,7 @@
 
 - Download only (to a specific directory if provided):
 
-`pipwin download -d {{path/to/directory}} {{package_name}}`
+`pipwin download --dest={{path/to/directory}} {{package_name}}`
 
 - Install from requirements file:
 
