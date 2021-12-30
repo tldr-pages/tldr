@@ -26,4 +26,4 @@
 
 - Saniye bazında bir zaman aşımı süresi belirle (varsayılan 10 saniyedir):
 
-`dumpsys -t {{saniye}}
+`dumpsys -t {{saniye}}`
