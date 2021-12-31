@@ -7,7 +7,7 @@
 
 `git pr {{pr_number}}`
 
-- Check out a pull request for a specific remote:
+- Check out a pull request from a specific remote:
 
 `git pr {{pr_number}} {{remote}}`
 
