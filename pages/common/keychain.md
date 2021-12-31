@@ -9,7 +9,7 @@
 
 - Also check for gpg-agent:
 
-`keychain --agents "gpg,ssh"`
+`keychain --agents "{{gpg,ssh}}"`
 
 - List signatures of all active keys:
 
