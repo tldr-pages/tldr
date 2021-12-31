@@ -9,11 +9,11 @@
 
 - 向 Slurm 数据库添加集群：
 
-`sacctmgr add cluster {{cluster_name}}`
+`sacctmgr add cluster {{集群名}}`
 
 - 向 Slurm 数据库添加账户：
 
-`sacctmgr add account {{account_name}} cluster={{cluster_of_account}}`
+`sacctmgr add account {{账户名}} cluster={{账户所在集群}}`
 
 - 以指定格式显示用户、账户资源关联、集群、账户的详细信息：
 
