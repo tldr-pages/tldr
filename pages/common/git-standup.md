@@ -1,6 +1,7 @@
 # git standup
 
 > See commits from a specified user.
+> Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-standup>.
 
 - Show someones commits from the last 10 days:
