@@ -25,4 +25,4 @@
 
 - Install packages according to `requirements.txt`:
 
-`pipwin install --file={{path/to/requirements.txt}}`
+`pipwin install --file {{path/to/requirements.txt}}`
