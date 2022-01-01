@@ -23,6 +23,6 @@
 
 `pipwin download --dest={{path/to/directory}} {{package_name}}`
 
-- Install from requirements file:
+- Install packages according to `requirements.txt`:
 
 `pipwin install --file={{path/to/requirements.txt}}`
