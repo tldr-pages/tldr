@@ -9,7 +9,7 @@
 
 - Search packages:
 
-`pipwin search {{partial_name/name}}`
+`pipwin search {{partial_name|name}}`
 
 - Install a package:
 
