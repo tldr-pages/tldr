@@ -18,4 +18,4 @@
 
 - Rename all files in the current directory replacing underscores with spaces ('/regex/replace/modifier'):
 
-`rnm -rs '/_/ /g' ./*`
+`rnm -rs '{{/_/ /g}}' {{./*}}`
