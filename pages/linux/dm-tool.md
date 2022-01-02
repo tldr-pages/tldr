@@ -1,0 +1,7 @@
+# dm-tool
+A tool to commnicate with the lightdm display manager. EG: lock currect session and show lightdm, list all open sessions, connect an existing x server to the display manager.
+More informatioin: https://www.mankier.com/1/dm-tool.
+
+- show the greeter while keeping current desktop session in ram and waiting to be restored upon autentication by logged in uuser
+`dm-tool switch-to-greeter`
+
