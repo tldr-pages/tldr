@@ -8,7 +8,7 @@
 
 `rnm -ns '/fn/ some text to add' oldfile`
 
-- Rename all by appending index to file names:
+- Rename all files in the current directory appending an index to the filename:
 
 `rnm -ns '/n/ /i/./e/' ./*`
 
