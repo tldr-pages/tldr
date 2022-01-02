@@ -11,7 +11,7 @@
 
 `pabcnetcclear /Output:{{path/to/file.pas}} {{path/to/file.pas}}`
 
-- Compile a given source file into an executable with the same name along with/without debug info:
+- Compile a given source file into an executable with the same name along with/without debug information:
 
 `pabcnetcclear /Debug:{{0|1}} {{path/to/file.pas}}`
 
