@@ -10,7 +10,7 @@
 
 - Rename all files in the current directory appending an index to the filename:
 
-`rnm -ns '/n/ /i/./e/' ./*`
+`rnm -ns '{{/n/ /i/./e/}}' {{./*}}`
 
 - Append index with leading zeroes and with starting index 4:
 
