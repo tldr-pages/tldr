@@ -16,6 +16,6 @@
 
 `rnm -ns '/n/ /id/./e/' -ifl 3 -inc 1 -si 4 ./*`
 
-- Change underscores to spaces in file name ('/regex/replace/modifier'):
+- Rename all files in the current directory replacing underscores with spaces ('/regex/replace/modifier'):
 
 `rnm -rs '/_/ /g' ./*`
