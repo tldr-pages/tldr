@@ -1,6 +1,6 @@
 # pipwin
 
-> A Tool to install unofficial Python package binaries on Windows.
+> A tool to install unofficial Python package binaries on Windows.
 > More information: <https://github.com/lepisma/pipwin>.
 
 - List all available packages for download:
