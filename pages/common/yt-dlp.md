@@ -8,7 +8,7 @@
 `yt-dlp "https://www.youtube.com/watch?v=oHg5SJYRHA0"`
 
 - Download best format that contains video, and if it doesn't already have an audio stream, merge it with best audio-only format (Default)
-`yt-dlp -f "bv*+ba/b "https://www.youtube.com/watch?v=oHg5SJYRHA0"`
+`yt-dlp --format "{{bv*+ba/b}}" "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
 - Download YouTube playlist videos in separate directory indexed by video order in a playlist
 `yt-dlp -o "%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s" "https://www.youtube.com/playlist?list=PLwiyx1dc3P2JR9N8gQaQN_BCvlSlap7re"`
