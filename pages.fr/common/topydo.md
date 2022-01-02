@@ -1,7 +1,7 @@
 # topydo
 
 > Une application de liste de choses à faire qui utilise le format todo.txt.
-> Plus d'informations: <https://github.com/topydo/topydo>.
+> Plus d'informations : <https://github.com/topydo/topydo>.
 
 - Ajouter une tâche à un projet spécifique avec un contexte donné:
 
