@@ -6,7 +6,7 @@
 
 - Rename a file adding a specific text to the filename:
 
-`rnm -ns '/fn/ some text to add' oldfile`
+`rnm -ns '/fn/{{text_to_add}}' {{path/to/file}}`
 
 - Rename all files in the current directory appending an index to the filename:
 
