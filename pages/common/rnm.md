@@ -1,7 +1,6 @@
 # rnm
 
-> Batch renaming tool.  
-
+> Batch renaming tool.
 > More information: <https://github.com/neurobin/rnm>.
 
 - Rename a file adding a specific text to the filename:
