@@ -4,7 +4,7 @@
 
 > More information: https://github.com/neurobin/rnm
 
-- Rename by adding something to oldname:
+- Rename a file adding a specific text to the filename:
 
 `rnm -ns '/fn/ some text to add' oldfile`
 
