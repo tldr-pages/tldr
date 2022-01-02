@@ -11,7 +11,7 @@
 `yt-dlp --format "{{bv*+ba/b}}" "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
 - Download YouTube playlist videos in separate directory indexed by video order in a playlist
-`yt-dlp -o "%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s" "https://www.youtube.com/playlist?list=PLwiyx1dc3P2JR9N8gQaQN_BCvlSlap7re"`
+`yt-dlp --output "{{%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s}}" "{{https://www.youtube.com/playlist?list=PLwiyx1dc3P2JR9N8gQaQN_BCvlSlap7re}}"`
 
 - Download YouTube playlist videos in separate directories according to their uploaded year
 `yt-dlp -o "%(upload_date>%Y)s/%(title)s.%(ext)s" "https://www.youtube.com/playlist?list=PLwiyx1dc3P2JR9N8gQaQN_BCvlSlap7re"`
