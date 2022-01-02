@@ -2,7 +2,7 @@
 
 > A youtube-dl fork with additional features and fixes.
 > Download videos from YouTube and other websites.
-> More information: <https://github.com/yt-dlp/yt-dlp>
+> More information: <https://github.com/yt-dlp/yt-dlp>.
 
 - Download a video or playlist (with the default options from command below):
 `yt-dlp "https://www.youtube.com/watch?v=oHg5SJYRHA0"`
