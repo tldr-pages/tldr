@@ -18,4 +18,3 @@
 - Check status of VPN tunnel:
 
 `mullvad status`
-
