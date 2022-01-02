@@ -1,4 +1,4 @@
-# git delete merged branches
+# git delete-merged-branches
 
 > Delete branches that are listed in `git branch --merged` excluding master.
 > Part of `git-extras`.
