@@ -21,7 +21,7 @@
 
 - Make requests over a proxy:
 
-`sherlock {{username}} --proxy {{proxyurl}}`
+`sherlock {{username}} --proxy {{proxy_uri}}`
 
 - Browse to all results on default browser:
 
