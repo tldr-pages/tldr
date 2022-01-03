@@ -11,7 +11,7 @@
 
 `sherlock {{username1 username2 ...}} --folderoutput {{path/to/directory}}`
 
-- Make requests over Tor:
+- Search for a specific username on social networks using the Tor network:
 
 `sherlock --tor {{username}}`
 
