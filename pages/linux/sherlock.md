@@ -5,7 +5,7 @@
 
 - Search for a specific username on social networks saving the results to a file:
 
-`sherlock {{username}} --output {{filename}}`
+`sherlock {{username}} --output {{path/to/file}}`
 
 - Save result to folder (if using multiple usernames):
 
