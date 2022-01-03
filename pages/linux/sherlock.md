@@ -7,7 +7,7 @@
 
 `sherlock {{username}} --output {{path/to/file}}`
 
-- Save result to folder (if using multiple usernames):
+- Search for specific usernames on social networks saving the results into a directory:
 
 `sherlock {{username1 username2 ...}} --folderoutput {{path/to/directory}}`
 
