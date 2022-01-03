@@ -23,7 +23,7 @@
 
 `sherlock {{username}} --proxy {{proxy_uri}}`
 
-- Browse to all results on default browser:
+- Search for a specific username on social networks and open results in the default web browser:
 
 `sherlock {{username}} --browse`
 
