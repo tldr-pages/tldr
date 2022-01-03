@@ -9,7 +9,7 @@
 
 - Save result to folder (if using multiple usernames):
 
-`sherlock {{usernames}} --folderoutput {{foldername}}`
+`sherlock {{usernames}} --folderoutput {{path/to/directory}}`
 
 - Make requests over Tor:
 
