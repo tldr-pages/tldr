@@ -1,10 +1,7 @@
 # sherlock
 
 > Find usernames across social networks.
-
-- Display help:
-
-`sherlock --help`
+> More information: <https://github.com/sherlock-project/sherlock>.
 
 - Save result to file (if using single username):
 
@@ -12,13 +9,13 @@
 
 - Save result to folder (if using multiple usernames):
 
-`sherlock {{[usernames]}} --folderoutput {{foldername}}`
+`sherlock {{usernames}} --folderoutput {{foldername}}`
 
 - Make requests over Tor:
 
 `sherlock --tor {{username}}`
 
-- Make requests over Tor with new Tor circuit after each request:
+- Make requests over Tor with a new Tor circuit after each request:
 
 `sherlock --unique-tor {{username}}`
 
@@ -30,3 +27,6 @@
 
 `sherlock {{username}} --browse`
 
+- Display help:
+
+`sherlock --help`
