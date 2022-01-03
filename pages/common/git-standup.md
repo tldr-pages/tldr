@@ -8,7 +8,7 @@
 
 `git standup -a {{name|email}} -d {{10}}`
 
-- Show someones commits from the last 10 days and if they are GPG signed:
+- Show a given author's commits from the last 10 days and whether they are GPG signed:
 
 `git standup -a {[name|email}} -d {{10}} -g`
 
