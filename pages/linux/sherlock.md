@@ -19,7 +19,7 @@
 
 `sherlock --unique-tor {{username}}`
 
-- Make requests over a proxy:
+- Search for a specific username on social networks using a proxy:
 
 `sherlock {{username}} --proxy {{proxy_uri}}`
 
