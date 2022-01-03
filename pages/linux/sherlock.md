@@ -3,7 +3,7 @@
 > Find usernames across social networks.
 > More information: <https://github.com/sherlock-project/sherlock>.
 
-- Save result to file (if using single username):
+- Search for a specific username on social networks saving the results to a file:
 
 `sherlock {{username}} --output {{filename}}`
 
