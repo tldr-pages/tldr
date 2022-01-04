@@ -2,7 +2,7 @@
 
 > Dizin yığını görüntüler veya üzerinde oynama yapar.
 > Dizin yığını, `pushd` ve `popd` komutlarıyla üzerinde oynama yapılabilen, son ziyaret edilen dizinleri gösteren bir listedir.
-> Daha fazla bilgi için: <https://www.gnu.org/software/bash/manual/bash.html#Directory-Stack-Builtins>.
+> Daha fazla bilgi: <https://www.gnu.org/software/bash/manual/bash.html#Directory-Stack-Builtins>.
 
 - Dizin yığınını her madde arasında boşluk olacak şekilde görüntüle:
 

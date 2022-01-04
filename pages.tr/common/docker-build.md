@@ -1,7 +1,7 @@
 # docker build
 
 > Bir Dockerfile'dan imge yaratın.
-> Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/build/>.
+> Daha fazla bilgi: <https://docs.docker.com/engine/reference/commandline/build/>.
 
 - Mevcut dizindeki Dockerfile'dan bir docker imgesi oluşturun:
 

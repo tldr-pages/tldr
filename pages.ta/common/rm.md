@@ -1,7 +1,7 @@
 # rm
 
 > கோப்புகளையோ அடைவுகளையோ அழி.
-> மேலும் தகவல்: <https://www.gnu.org/software/coreutils/rm>.
+> மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/rm>.
 
 - கோப்புகளை அழி:
 
