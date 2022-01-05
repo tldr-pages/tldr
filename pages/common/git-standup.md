@@ -4,7 +4,7 @@
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-standup>.
 
-- Show someones commits from the last 10 days:
+- Show a given author's commits from the last 10 days:
 
 `git standup -a {{name|email}} -d {{10}}`
 
