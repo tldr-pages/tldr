@@ -21,7 +21,7 @@
 
 - Search for a specific username on social networks using a proxy:
 
-`sherlock {{username}} --proxy {{proxy_uri}}`
+`sherlock {{username}} --proxy {{proxy_url}}`
 
 - Search for a specific username on social networks and open results in the default web browser:
 
