@@ -87,7 +87,7 @@ The main version of every page is stored inside (but not directly) the `pages` d
 
 It is RECOMMENDED that clients support `macos` as an alias for `osx`.
 
-Additional platforms MAY be added in the future. Clients MAY NOT support new platforms (though such support is RECOMMENDED), but MUST NOT break if additional platforms are added. 
+While clients do not need to support new platforms automatically (though such support is RECOMMENDED), they MUST NOT break if additional platforms are added to tldr-pages.
 
 The pages themselves reside inside the appropriate platform folder, with the extension `.md`. Here are some example mappings:
 
