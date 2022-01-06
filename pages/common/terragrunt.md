@@ -23,6 +23,6 @@
 
 `terragrunt destroy`
 
-- Build or change infrastructure from a tree of terragrunt modules (stack):
+- Build or change infrastructure from a tree of Terragrunt modules (stack):
 
 `terragrunt run-all apply`
