@@ -13,7 +13,7 @@
 
 - Launch and monitor a single long-running command:
 
-`{{command}} & progress -mp $!`
+`{{command}} & progress --monitor --pid $!`
 
 - Include estimate of time remaining for completion:
 
