@@ -4,11 +4,11 @@
 > Beberapa subperintah seperti `dpkg deb` memiliki dokumentasi penggunaannya sendiri.
 > Informasi lebih lanjut: <https://manpages.debian.org/buster/dpkg/dpkg.1.en.html>.
 
-- Instal sebuah paket:
+- Memasang paket dari sebuah file DEB:
 
 `dpkg -i {{jalan/menuju/file.deb}}`
 
-- Menghapus sebuah paket:
+- Menghapus pemasangan sebuah paket:
 
 `dpkg -r {{nama_paket}}`
 
@@ -26,4 +26,4 @@
 
 - Mencari tahu paket yang memiliki sebuah file:
 
-`dpkg -S {{nama file}}`
+`dpkg -S {{nama_file}}`
