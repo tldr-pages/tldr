@@ -17,4 +17,4 @@
 
 - Include estimate of time remaining for completion:
 
-`progress -w`
+`progress --wait --command {{firefox}}`
