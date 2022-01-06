@@ -15,6 +15,6 @@
 
 `glab auth status`
 
-- Log in with a specific GitLab instance:
+- Log in to a specific GitLab instance:
 
 `glab auth login --hostname {{gitlab.example.com}}`
