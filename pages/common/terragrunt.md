@@ -1,8 +1,7 @@
 # terragrunt
 
-> Keep your Terraform CLI arguments DRY
+> Keep your Terraform CLI arguments DRY.
 > More information: <https://terragrunt.gruntwork.io/>.
-
 
 - Generate and show an execution plan:
 
@@ -24,7 +23,6 @@
 
 `terragrunt destroy`
 
-- Runs the provided terragrunt command against a ‘stack’, where a ‘stack’ is a tree of terragrunt modules
+- Build or change infrastructure from a tree of terragrunt modules (stack):
 
 `terragrunt run-all apply`
-
