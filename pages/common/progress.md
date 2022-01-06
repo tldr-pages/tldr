@@ -15,6 +15,6 @@
 
 `{{command}} & progress -mp $!`
 
-- Includes estimate of time remaining for completion:
+- Include estimate of time remaining for completion:
 
 `progress -w`
