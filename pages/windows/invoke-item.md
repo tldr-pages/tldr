@@ -16,7 +16,7 @@
 
 `Invoke-Item -Path {{path/to/directory/*.png}}`
 
-- Open all files inside a directory containing specific keyword:
+- Open all files inside a directory containing a specific keyword:
 
 `Invoke-Item -Path {{path/to/directory/*}} -Include {{*keyword*}}`
 
