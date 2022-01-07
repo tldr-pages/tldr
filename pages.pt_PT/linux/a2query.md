@@ -1,7 +1,7 @@
 # a2query
 
 > Mostra configurações runtime do Apache em distribuições baseadas em Debian.
-> Mais informações: <https://manpages.debian.org/buster/apache2/a2query.1.en.html>.
+> Mais informações: <https://manpages.debian.org/latest/apache2/a2query.html>.
 
 - Lista módulos Apache activados:
 
