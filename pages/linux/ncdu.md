@@ -6,6 +6,10 @@
 
 `ncdu`
 
+- Colorize output:
+
+`ncdu --color dark`
+
 - Analyze a given directory:
 
 `ncdu {{path/to/directory}}`
