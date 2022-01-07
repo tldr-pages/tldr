@@ -20,7 +20,7 @@
 
 `Invoke-Item -Path {{path/to/directory/*}} -Include {{*keyword*}}`
 
-- Open all files inside a directory except those containing specific keyword:
+- Open all files inside a directory except those containing a specific keyword:
 
 `Invoke-Item -Path {{path/to/directory/*}} -Exclude {{*keyword*}}`
 
