@@ -3,7 +3,7 @@
 > Membuat sistem file ext4 didalam sebuah partisi.
 > Informasi lebih lanjut: <https://manned.org/mkfs.ext4>.
 
-- Membuat sistem file ext4 didalam partisi 1 di perangkat b (`sdb1`):
+- Membuat sistem file ext4 di dalam partisi 1 di perangkat B (`sdb1`):
 
 `sudo mkfs.ext4 {{/dev/sdb1}}`
 
