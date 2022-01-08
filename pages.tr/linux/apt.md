@@ -1,7 +1,7 @@
 # apt
 
 > Debian tabanlı dağıtımlar için paket yönetim aracı.
-> Ubuntu 16.04 ve sonraki sürümlerde interaktif kullanıldığında apt-get için önerilen değiştirme.
+> Ubuntu 16.04 ve sonraki sürümlerde interaktif kullanıldığında `apt-get` için önerilen değiştirme.
 > Daha fazla bilgi: <https://manpages.debian.org/latest/apt/apt.8.html>.
 
 - Kullanılabilir paket ve versiyonların listesini yenile (Bu komutu diğer `apt` komutlarından önce kullanmanız önerilir):
