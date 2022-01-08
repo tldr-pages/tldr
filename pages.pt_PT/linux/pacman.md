@@ -1,10 +1,11 @@
 # pacman
 
-> Utilitário para gerir pacotes Arch Linux
-> Sub comandos como `pacman sync` tem a sua própria documentação
-> Mais informações em: <https://man.archlinux.org/man/pacman.8>.
+> Utilitário para gerir pacotes Arch Linux.
+> Sub comandos como `pacman sync` tem a sua própria documentação.
+> Mais informações: <https://man.archlinux.org/man/pacman.8>.
 
-- Sincronizar e actualizar todos os pacotes:
+- Sincroniza e actualiza todos os pacotes:
+
 `sudo pacman --sync --refresh --sysupgrade`
 
 - Instalar um novo pacote:
@@ -13,7 +14,7 @@
 
 - Remover um pacote e todas as dependencias:
 
-`sudo pacman --remove --recursive {{package_name}}`
+`sudo pacman --remove --recursive {{nome_do_pacote}}`
 
 - Procurar um pacote na base de dados por palavra chave ou expressão regular (regex):
 
