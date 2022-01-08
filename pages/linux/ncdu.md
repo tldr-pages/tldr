@@ -7,9 +7,9 @@
 
 `ncdu`
 
-- Colorize output:
+- Colorize output (available colors `off`, `dark`):
 
-`ncdu --color dark`
+`ncdu --color {{dark}}`
 
 - Analyze a given directory:
 
