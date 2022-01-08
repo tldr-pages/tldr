@@ -4,7 +4,7 @@
 > Sub comandos como `pacman sync` tem a sua própria documentação.
 > Mais informações: <https://man.archlinux.org/man/pacman.8>.
 
-- Sincroniza e actualiza todos os pacotes:
+- Sincronizar e actualizar todos os pacotes:
 
 `sudo pacman --sync --refresh --sysupgrade`
 
