@@ -1,7 +1,7 @@
 # archinstall
 
-> Instalador com instruções para Arch Linux 
-> Mais informações em: <https://archinstall.readthedocs.io>.
+> Instalador com instruções para Arch Linux.
+> Mais informações: <https://archinstall.readthedocs.io>.
 
 - Iniciar o instalador guiado:
 
