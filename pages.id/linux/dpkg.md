@@ -2,7 +2,7 @@
 
 > Manajer paket Debian.
 > Beberapa subperintah seperti `dpkg deb` memiliki dokumentasi penggunaannya sendiri.
-> Informasi lebih lanjut: <https://manpages.debian.org/buster/dpkg/dpkg.1.en.html>.
+> Informasi lebih lanjut: <https://manpages.debian.org/latest/dpkg/dpkg.html>.
 
 - Memasang paket dari sebuah file DEB:
 
