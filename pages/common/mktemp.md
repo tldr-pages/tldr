@@ -11,6 +11,6 @@
 
 `mktemp --suffix "{{.ext}}"`
 
-- Create a temporary directory and print the absolute path to it:
+- Create a temporary directory and print the absolute path to it (non-portable long option: --directory):
 
 `mktemp -d`
