@@ -14,11 +14,11 @@
 
 - Extract audio from videos (required ffmpeg or ffprobe):
 
-`yt-dlp --extract-audio "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"` 
+`yt-dlp --extract-audio "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
 - Specify audio format of extracted audio (best(default), aac, flac, mp3, m4a, opus, vorbis, wav, alac):
 
-`yt-dlp --extract-audio --audio-format {{mp3}} "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"` 
+`yt-dlp --extract-audio --audio-format {{mp3}} "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
 - Specify audio quality of extracted audio (between 0 (best) and 10 (worst), default = 5):
 
