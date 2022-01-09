@@ -9,4 +9,4 @@
 
 - Connect to a FreeRDP server and Activate audio output redirection using device sys:alsa
 
-`xfreerdp /u:{{username}} /p:{{password}} /v:{{ip_address}} /sound:sys:alsa`
+`xfreerdp /u:{{username}} /p:{{password}} /v:{{ip_address}} /sound:{{sys:alsa}}`
