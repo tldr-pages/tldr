@@ -11,7 +11,7 @@
 
 `rnm -ns '{{/n/ /i/./e/}}' {{./*}}`
 
-- Append index with leading zeroes and with starting index 4:
+- Append an index with leading zeroes, starting at an index of 4:
 
 `rnm -ns '/n/ /id/./e/' -ifl 3 -inc 1 -si 4 ./*`
 
