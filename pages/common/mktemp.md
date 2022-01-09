@@ -13,4 +13,4 @@
 
 - Create a temporary directory and print the absolute path to it:
 
-`mktemp --directory`
+`mktemp -d`
