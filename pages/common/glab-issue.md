@@ -19,6 +19,6 @@
 
 `glab issue list --closed --author {{username}}`
 
-- Reopen an issue:
+- Reopen a specific issue:
 
 `glab issue reopen {{issue_number}}`
