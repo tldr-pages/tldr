@@ -1,6 +1,6 @@
 # distrobox-list
 
-> Manual page viewer for distrobox
+> Manual page viewer for distrobox.
 
 - List all distrobox containers:
 

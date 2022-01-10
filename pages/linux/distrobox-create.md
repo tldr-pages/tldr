@@ -1,6 +1,6 @@
 # distrobox-create
 
-> Manual page viewer for distrobox
+> Manual page viewer for distrobox.
 
 - Create a distrobox:
 
@@ -9,4 +9,3 @@
 - Clone a distrobox:
 
 `distrobox-create --clone ubuntu-container ubuntu-copy`
-

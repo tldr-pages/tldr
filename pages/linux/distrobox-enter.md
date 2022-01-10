@@ -1,6 +1,6 @@
 # distrobox-enter
 
-> Manual page viewer for distrobox
+> Manual page viewer for distrobox.
 
 - Enter a distrobox and run `sh -l`:
 

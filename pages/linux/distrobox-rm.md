@@ -1,6 +1,6 @@
 # distrobox-rm
 
-> Manual page viewer for distrobox
+> Manual page viewer for distrobox.
 
 - Remove a distrobox:
 
@@ -9,4 +9,3 @@
 - Remove a distrobox forcefully:
 
 `distrobox-rm container-name --force`
-
