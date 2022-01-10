@@ -19,6 +19,6 @@
 
 `glab mr create --target-branch {{target_branch}} --title "{{title}}" --description "{{description}}"`
 
-- Start opening a merge request in the browser:
+- Start opening a merge request in the default web browser:
 
 `glab mr create --web`

@@ -1,7 +1,7 @@
 # glab mr
 
 > Manage Gitlab merge requests from the command-line.
-> More information: <https://glab.readthedocs.io/en/latest/mr/index.html>.
+> More information: <https://glab.readthedocs.io/en/latest/mr/>.
 
 - Create a merge request:
 
