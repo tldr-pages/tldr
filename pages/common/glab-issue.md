@@ -1,7 +1,7 @@
 # glab issue
 
 > Manage Gitlab issues from the command-line.
-> More information: <https://glab.readthedocs.io/en/latest/issue/index.html#synopsis>.
+> More information: <https://glab.readthedocs.io/en/latest/issue/>.
 
 - Print out the issue:
 
