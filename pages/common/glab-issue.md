@@ -7,7 +7,7 @@
 
 `glab issue view {{issue_number}}`
 
-- Create a new issue in the web browser:
+- Create a new issue in the default web browser:
 
 `glab issue create --web`
 
