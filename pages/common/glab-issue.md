@@ -3,7 +3,7 @@
 > Manage Gitlab issues from the command-line.
 > More information: <https://glab.readthedocs.io/en/latest/issue/>.
 
-- Print out the issue:
+- Display a specific issue:
 
 `glab issue view {{issue_number}}`
 
