@@ -1,6 +1,6 @@
 # glab mr merge
 
-> Merge Gitlab merge requests.
+> Merge GitLab merge requests.
 > More information: <https://glab.readthedocs.io/en/latest/mr/merge.html>.
 
 - Merge the merge request associated with the current branch interactively:
