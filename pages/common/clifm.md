@@ -1,7 +1,7 @@
 # clifm
 
 > The command line file manager.
-> More information: <https://github.com/leo-arch/clifm/>.
+> More information: <https://github.com/leo-arch/clifm>.
 
 - Change to/open the file whose ELN (entry list number) is 12 (ELN can be replaced by the actual file name, e.g. `/etc`):
 
