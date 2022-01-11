@@ -1,7 +1,7 @@
 # glab release
 
-> Manage Gitlab releases from the command-line.
-> More information: <https://glab.readthedocs.io/en/latest/release/>.
+> Manage GitLab releases from the command-line.
+> More information: <https://glab.readthedocs.io/en/latest/release>.
 
 - List releases in a Gitlab repository, limited to 30 items:
 
