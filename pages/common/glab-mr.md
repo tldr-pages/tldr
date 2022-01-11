@@ -16,7 +16,7 @@
 
 `glab mr diff`
 
-- Approve the merge request of the current branch:
+- Approve the merge request for the current branch:
 
 `glab mr approve`
 
