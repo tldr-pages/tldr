@@ -1,7 +1,7 @@
 # distrobox-enter
 
 > Manual page viewer for distrobox.
-> More information: <https://distrobox.privatedns.org>
+> More information: <https://distrobox.privatedns.org>.
 
 - Enter a distrobox and run `sh -l`:
 

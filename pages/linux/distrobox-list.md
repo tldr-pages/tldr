@@ -1,7 +1,7 @@
 # distrobox-list
 
 > Manual page viewer for distrobox.
-> More information: <https://distrobox.privatedns.org>
+> More information: <https://distrobox.privatedns.org>.
 
 - List all distrobox containers:
 

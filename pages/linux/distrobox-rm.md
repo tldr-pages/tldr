@@ -1,7 +1,7 @@
 # distrobox-rm
 
 > Manual page viewer for distrobox.
-> More information: <https://distrobox.privatedns.org>
+> More information: <https://distrobox.privatedns.org>.
 
 - Remove a distrobox:
 
