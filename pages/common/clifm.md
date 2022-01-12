@@ -13,7 +13,7 @@
 
 - Go back and forth in the directory history list:
 
-<kbd>Shift-Left</kbd> (or <kbd>Alt-j</kbd>) / <kbd>Shift-Right</kbd> (or <kbd>Alt-k</kbd>)
+`Shift-Left` (or `Alt-j`) / `Shift-Right` (or `Alt-k`)
 
 - Select all PNG files in the current directory: 
 
@@ -33,4 +33,4 @@
 
 - Open the bookmarks screen:
 
-`bm` (or <kbd>Alt-b</kbd>)
+`bm` (or `Alt-b`)
