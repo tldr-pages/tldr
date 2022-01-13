@@ -21,7 +21,7 @@
 
 - Dump only database data into an SQL-script file:
 
-`pg_dumpall -a > {{output_file.sql}}`
+`pg_dumpall --data-only > {{path/to/file.sql}}`
 
 - Dump only schema (data definitions) into an SQL-script file:
 
