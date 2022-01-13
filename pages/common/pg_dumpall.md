@@ -5,7 +5,7 @@
 
 - Dump all databases:
 
-`pg_dumpall > {{output_file.sql}}`
+`pg_dumpall > {{path/to/file.sql}}`
 
 - Same as above, customize username:
 
