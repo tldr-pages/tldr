@@ -9,7 +9,7 @@
 
 - Same as above, customize username:
 
-`pg_dumpall -U {{username}} > {{output_file.sql}}`
+`pg_dumpall --username={{username}} > {{path/to/file.sql}}`
 
 - Same as above, customize host and port:
 
