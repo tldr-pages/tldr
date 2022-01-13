@@ -7,7 +7,7 @@
 
 `pg_dumpall > {{path/to/file.sql}}`
 
-- Same as above, customize username:
+- Dump all databases using a specific username:
 
 `pg_dumpall --username={{username}} > {{path/to/file.sql}}`
 
