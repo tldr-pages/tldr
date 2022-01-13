@@ -3,7 +3,7 @@
 > The command line file manager.
 > More information: <https://github.com/leo-arch/clifm>.
 
-- Change to/open the file whose ELN (entry list number) is 12 (ELN can be replaced by the actual file name, e.g. `/etc`):
+- Change to/open the file whose ELN (entry list number) is 12 (ELN can be replaced by the actual file name, e.g. /etc):
 
 `12`
 
@@ -13,9 +13,9 @@
 
 - Go back and forth in the directory history list:
 
-`Shift-Left` (or `Alt-j`) / `Shift-Right` (or `Alt-k`)
+`Shift-Left (or Alt-j) / Shift-Right (or Alt-k)`
 
-- Select all PNG files in the current directory: 
+- Select all PNG files in the current directory:
 
 `s *.png`
 
@@ -23,7 +23,7 @@
 
 `/*.pdf`
 
-- Remove the file whose ELN is 24 (use `t` to trash the file instead):
+- Remove the file whose ELN is 24 (use t to trash the file instead):
 
 `r 24`
 
@@ -33,4 +33,4 @@
 
 - Open the bookmarks screen:
 
-`bm` (or `Alt-b`)
+`bm (or Alt-b)`
