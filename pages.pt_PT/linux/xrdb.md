@@ -14,4 +14,3 @@
 - Consultar base de dados de recursos e mostrar estado actual dos recursos:
 
 `xrdb -query`
-
