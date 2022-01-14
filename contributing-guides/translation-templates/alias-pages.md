@@ -279,6 +279,16 @@ Not translated yet.
 ---
 ### pt_PT
 
+```markdown
+# example
+
+> Este comando é um alias de `example`.
+
+- Ver documentação do comando original:
+
+`tldr example`
+```
+
 Not translated yet.
 
 ---
