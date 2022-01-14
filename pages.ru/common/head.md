@@ -1,6 +1,6 @@
 # head
 
-> Output the first part of files.
+> Выводит первую часть файлов.
 > Больше информации: <https://www.gnu.org/software/coreutils/head>.
 
 - Выводит первые несколько строк из файла:
