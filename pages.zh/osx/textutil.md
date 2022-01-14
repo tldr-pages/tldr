@@ -1,6 +1,7 @@
 # textutil
 
 > 用于操作各种格式的文本文件。
+> 更多信息：<https://ss64.com/osx/textutil.html>.
 
 - 显示有关 `foo.rtf` 的信息：
 

@@ -1,6 +1,7 @@
 # textutil
 
 > Used to manipulate text files of various formats.
+> More information: <https://ss64.com/osx/textutil.html>.
 
 - Display information about `foo.rtf`:
 
