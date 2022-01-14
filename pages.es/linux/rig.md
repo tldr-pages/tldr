@@ -1,7 +1,7 @@
 # rig
 
 > Utilidad para generar un nombre, apellido, calle y número, junto a ubicación geográfica consistente (un conjunto válido de ciudad, estado y código postal).
-> Más información: <https://manpages.ubuntu.com/manpages/focal/man6/rig.6.html>.
+> Más información: <https://manned.org/rig>.
 
 - Muestra un nombre aleatorio (masculino o femenino) y una dirección:
 
