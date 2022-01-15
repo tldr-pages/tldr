@@ -289,8 +289,6 @@ Not translated yet.
 `tldr example`
 ```
 
-Not translated yet.
-
 ---
 ### ro
 
