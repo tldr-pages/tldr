@@ -3,7 +3,11 @@
 > The command line file manager.
 > More information: <https://github.com/leo-arch/clifm>.
 
-- Change to/open the file whose ELN (entry list number) is 12 (ELN can be replaced by the actual file name, e.g. /etc):
+- Start CliFM:
+
+`clifm`
+
+- Open the file or directory whose ELN (entry list number) is 12:
 
 `12`
 
@@ -11,26 +15,22 @@
 
 `n file dir/`
 
-- Go back and forth in the directory history list:
+- Search for PDF files in the current directory:
 
-`Shift-Left (or Alt-j) / Shift-Right (or Alt-k)`
+`/*.pdf`
 
 - Select all PNG files in the current directory:
 
 `s *.png`
 
-- Search for PDF files in the current directory:
+- Remove the previously selected files (use t to send the files to the recycle bin instead):
 
-`/*.pdf`
+`r sel`
 
-- Remove the file whose ELN is 24 (use t to trash the file instead):
+- Learn more:
 
-`r 24`
+`?`
 
-- Copy selected files into the current directory:
+- Exit CliFM:
 
-`c sel`
-
-- Open the bookmarks screen:
-
-`bm (or Alt-b)`
+`q`
