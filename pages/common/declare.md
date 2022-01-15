@@ -13,7 +13,7 @@
 
 - Declare an array variable with the specified value:
 
-`declare {{variable}}=({{item_a item_b item_c}})`
+`declare -a {{variable}}=({{item_a item_b item_c}})`
 
 - Declare an associative array variable with the specified value:
 
