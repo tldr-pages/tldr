@@ -2,7 +2,7 @@
 
 > Command-line interface to the Blender 3D computer graphics application.
 > Arguments are executed in the order they are given.
-> More information: <https://manned.org/blender.1>.
+> More information: <https://manned.org/blender>.
 
 - Render all frames of an animation in the background, without loading the UI (output is saved to `/tmp`):
 
