@@ -6,12 +6,12 @@
 
 - Remove a user:
 
-`userdel {{user_name}}`
+`userdel {{user}}`
 
 - Remove a user in other root directory:
 
-`userdel --root {{path/to/other/root}} {{user_name}}`
+`userdel --root {{path/to/other/root}} {{user}}`
 
 - Remove a user along with the home directory and mail spool:
 
-`userdel --remove {{user_name}}`
+`userdel --remove {{user}}`
