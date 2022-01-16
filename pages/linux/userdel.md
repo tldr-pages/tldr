@@ -8,10 +8,6 @@
 
 `userdel {{user_name}}`
 
-- Remove a user from the group:
-
-`userdel {{user_name}} {{group_name}}`
-
 - Remove a user in other root directory:
 
 `userdel --root {{path/to/other/root}} {{user_name}}`
