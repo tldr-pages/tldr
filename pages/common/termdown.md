@@ -13,7 +13,7 @@
 
 - Start a 1m 30s countdown with binking terminal at the end:
 
-`termdown {{1m30s}} -b`
+`termdown {{1m30s}} --blink`
 
 - Show title above countdown:
 
