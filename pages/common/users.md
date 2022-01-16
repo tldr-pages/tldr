@@ -1,12 +1,12 @@
 # users
 
 > Display a list of logged in users.
-> More information: <https://www.gnu.org/software/coreutils/users>.
+> More information: <https://manned.org/man/users.1>.
 
-- Display a list of logged in users:
+- Print logged in user names:
 
 `users`
 
-- Display a list of logged in users according to a specific file:
+- Print logged in user names according to a specific file:
 
 `users {{/var/log/wmtp}}`
