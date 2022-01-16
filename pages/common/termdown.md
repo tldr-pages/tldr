@@ -15,7 +15,7 @@
 
 `termdown {{1m30s}} --blink`
 
-- Show title above countdown:
+- Show a title above countdown:
 
 `termdown {{1m30s}} --title "{{Interesting title}}"`
 
