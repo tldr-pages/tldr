@@ -1,6 +1,7 @@
 # whence
 
 > A zsh builtin to indicate how a given command would be interpreted.
+> More information: <https://docs.oracle.com/cd/E19683-01/816-0210/6m6nb7mq1/index.html>.
 
 - Interpret {{command}}, with expansion if defined as an `alias` (similar to the `command -v` builtin):
 

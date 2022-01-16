@@ -1,6 +1,7 @@
 # shuf
 
 > Generate random permutations.
+> More information: <https://www.unix.com/man-page/linux/1/shuf/>.
 
 - Randomize the order of lines in a file and output the result:
 
@@ -8,12 +9,12 @@
 
 - Only output the first 5 entries of the result:
 
-`shuf -n {{5}} {{filename}}`
+`shuf --head-count={{5}} {{filename}}`
 
 - Write output to another file:
 
-`shuf {{filename}} -o {{output_filename}}`
+`shuf {{filename}} --output={{output_filename}}`
 
 - Generate random numbers in range 1-10:
 
-`shuf -i {{1-10}}`
+`shuf --input-range={{1-10}}`

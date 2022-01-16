@@ -1,6 +1,7 @@
 # oathtool
 
 > OATH one-time password tool.
+> More information: <https://www.mankier.com/1/oathtool>.
 
 - Generate TOTP token (behaves like Google Authenticator):
 

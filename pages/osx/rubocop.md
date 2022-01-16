@@ -1,6 +1,7 @@
 # rubocop
 
 > Lint Ruby files.
+> More information: <https://docs.rubocop.org/rubocop/usage/basic_usage.html#command-line-flags>.
 
 - Check all files in the current directory (including subdirectories):
 
