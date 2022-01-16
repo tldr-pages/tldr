@@ -7,6 +7,10 @@
 
 `useradd {{user_name}}`
 
+- Create a new user with the specified user id:
+
+`useradd --uid {{user_id}} {{user_name}}`
+
 - Create a new user with the specified shell:
 
 `useradd --shell {{path/to/shell}} {{user_name}}`
