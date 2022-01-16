@@ -9,4 +9,4 @@
 
 - Create new group with a specific groupid:
 
-`groupadd {{group_name}} -g {{group_id}}`
+`groupadd {{group_name}} --gid {{group_id}}`
