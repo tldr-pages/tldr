@@ -3,10 +3,14 @@
 > Add user groups to the system.
 > More information: <https://manned.org/groupadd>.
 
-- Create a new Linux group:
+- Create a new group:
 
 `groupadd {{group_name}}`
 
-- Create new group with a specific groupid:
+- Create a new system group:
 
-`groupadd {{group_name}} --gid {{group_id}}`
+`groupadd --system {{group_name}}`
+
+- Create a new group with the specific groupid:
+
+`groupadd --gid {{group_id}} {{group_name}}`
