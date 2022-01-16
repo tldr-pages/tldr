@@ -17,7 +17,7 @@
 
 - Show title above countdown:
 
-`termdown {{1m30s}} -T "{{Interesting title}}"`
+`termdown {{1m30s}} --title "{{Interesting title}}"`
 
 - Show current time:
 
