@@ -19,6 +19,6 @@
 
 `termdown {{1m30s}} --title "{{Interesting title}}"`
 
-- Show current time:
+- Display current time:
 
 `termdown --time`
