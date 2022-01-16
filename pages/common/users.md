@@ -7,6 +7,6 @@
 
 `users`
 
-- Print logged in user names according to a specific file:
+- Print logged in user names according to a given file:
 
 `users {{/var/log/wmtp}}`
