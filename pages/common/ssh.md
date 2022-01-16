@@ -20,11 +20,11 @@
 
 `ssh {{username}}@{{remote_host}} -t {{command}} {{command_arguments}}`
 
-- SSH tunneling: Dynamic port forwarding (SOCKS proxy on `localhost:1080):
+- SSH tunneling: Dynamic port forwarding (SOCKS proxy on `localhost:1080`):
 
 `ssh -D {{1080}} {{username}}@{{remote_host}}`
 
-- SSH tunneling: Forward a specific port (`localhost:9999` to `example.org:80`) along with disabling pseudo-[T]ty allocation and executio[N] of remote commands:
+- SSH tunneling: Forward a specific port (`localhost:9999` to `example.org:80`) along with disabling pseudo-[T]ty allocation and execution[N] of remote commands:
 
 `ssh -L {{9999}}:{{example.org}}:{{80}} -N -T {{username}}@{{remote_host}}`
 
