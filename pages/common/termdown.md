@@ -7,7 +7,7 @@
 
 `termdown`
 
-- Start a 1 minut and 30 second coundown:
+- Start a 1 minute and 30 seconds countdown:
 
 `termdown {{1m30s}}`
 
