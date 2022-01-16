@@ -5,12 +5,12 @@
 
 - Create a new group:
 
-`groupadd {{group_name}}`
+`groupadd {{group}}`
 
 - Create a new system group:
 
-`groupadd --system {{group_name}}`
+`groupadd --system {{group}}`
 
 - Create a new group with the specific groupid:
 
-`groupadd --gid {{group_id}} {{group_name}}`
+`groupadd --gid {{id}} {{group}}`

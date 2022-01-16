@@ -5,8 +5,8 @@
 
 - Change the group name:
 
-`groupmod --new-name {{new_group_name}} {{old_group_name}}`
+`groupmod --new-name {{new_group}} {{group}}`
 
 - Change the group id:
 
-`groupmod --gid {{new_group_id}} {{old_group_name}}`
+`groupmod --gid {{id}} {{group}}`

@@ -5,4 +5,4 @@
 
 - Delete an existing group:
 
-`groupdel {{group_name}}`
+`groupdel {{group}}`
