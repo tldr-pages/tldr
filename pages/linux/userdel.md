@@ -6,16 +6,16 @@
 
 - Remove a user:
 
-`userdel {{name}}`
+`userdel {{user_name}}`
 
-- Remove a user along with their home directory and mail spool:
+- Remove a user from the group:
 
-`userdel --remove {{name}}`
-
-- Remove a user from a group:
-
-`userdel {{name}} {{group}}`
+`userdel {{user_name}} {{group_name}}`
 
 - Remove a user in other root directory:
 
-`userdel --root {{path/to/other/root}} {{name}}`
+`userdel --root {{path/to/other/root}} {{user_name}}`
+
+- Remove a user along with the home directory and mail spool:
+
+`userdel --remove {{user_name}}`
