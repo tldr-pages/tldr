@@ -1,16 +1,12 @@
 # groups
 
 > Print group memberships for a user.
-> More information: <https://www.gnu.org/software/coreutils/groups>.
+> More information: <https://manned.org/man/users.1>.
 
 - Print group memberships for the current user:
 
 `groups`
 
-- Print group memberships for a specific user:
+- Print group memberships for given users (1 or more):
 
-`groups {{username}}`
-
-- Print group memberships for a list of users:
-
-`groups {{username1}} {{username2}} {{username3}}`
+`groups {{user_a}} {{user_b}}`
