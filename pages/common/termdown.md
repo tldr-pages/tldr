@@ -21,4 +21,4 @@
 
 - Show current time:
 
-`termdown -z`
+`termdown --time`
