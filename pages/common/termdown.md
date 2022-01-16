@@ -11,7 +11,7 @@
 
 `termdown {{1m30s}}`
 
-- Start a 1 minute 30 seconds countdown with blinking terminal at the end:
+- Start a 1 minute 30 seconds countdown with blinking the terminal at the end:
 
 `termdown {{1m30s}} --blink`
 
