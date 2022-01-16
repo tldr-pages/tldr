@@ -3,14 +3,22 @@
 > Modifies a user account.
 > More information: <https://manned.org/usermod>.
 
-- Change a user's name:
+- Change a user name:
 
-`usermod --login {{newname}} {{user}}`
+`usermod --login {{new_user}} {{user}}`
 
-- Add user to supplementary groups (mind the whitespace):
+- Change a user id:
 
-`usermod --append --groups {{group1,group2}} {{user}}`
+`usermod --uid {{id}} {{user}}`
 
-- Create a new home directory for a user and move their files to it:
+- Change a user shell:
 
-`usermod --move-home --home {{path/to/home}} {{user}}`
+`usermod --shell {{path/to/shell}} {{user}}`
+
+- Add a user to supplementary groups (mind the lack of whitespace):
+
+`usermod --append --groups {{group_a,group_b}} {{user}}`
+
+- Change a user home directory:
+
+`usermod --move-home --home {{path/to/new_home}} {{user}}`
