@@ -21,7 +21,7 @@
 
 - Create a new user with the home directory filled by template directory files:
 
-`useradd --skel {{path/to/template_directory}}} --create-home {{user_name}}`
+`useradd --skel {{path/to/template_directory}} --create-home {{user_name}}`
 
 - Create a new system user without the home directory:
 
