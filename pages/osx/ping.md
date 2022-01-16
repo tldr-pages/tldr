@@ -5,24 +5,24 @@
 
 - Ping the specified host:
 
-`ping {{host}}`
+`ping ""{{host}}""`
 
 - Ping a host a specific number of times:
 
-`ping -c {{count}} {{host}}`
+`ping -c {{count}} "{{host}}"`
 
 - Ping `host`, specifying the interval in `seconds` between requests (default is 1 second):
 
-`ping -i {{seconds}} {{host}}`
+`ping -i {{seconds}} "{{host}}"`
 
 - Ping `host` without trying to lookup symbolic names for addresses:
 
-`ping -n {{host}}`
+`ping -n "{{host}}"`
 
 - Ping `host` and ring the bell when a packet is received (if your terminal supports it):
 
-`ping -a {{host}}`
+`ping -a "{{host}}"`
 
 - Ping `host` and prints the time a packet was received (this option is an Apple addition):
 
-`ping --apple-time {{host}}`
+`ping --apple-time "{{host}}"`

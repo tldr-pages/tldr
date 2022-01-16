@@ -22,7 +22,7 @@
 
 - Convert an image from CMYK to RGB:
 
-`sips --matchTo '/System/Library/ColorSync/Profiles/Generic RGB Profile.icc' {{path/to/image.ext}} {{path/to/out_dir}}`
+`sips --matchTo "/System/Library/ColorSync/Profiles/Generic RGB Profile.icc" {{path/to/image.ext}} {{path/to/out_dir}}`
 
 - Remove ColorSync ICC profile from an image:
 

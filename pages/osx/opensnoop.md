@@ -9,7 +9,7 @@
 
 - Track all file opens by a process by name:
 
-`sudo opensnoop -n {{process_name}}`
+`sudo opensnoop -n "{{process_name}}"`
 
 - Track all file opens by a process by PID:
 

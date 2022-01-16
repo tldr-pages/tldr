@@ -9,7 +9,7 @@
 
 - Run a graphical macOS application:
 
-`open -a {{Application}}`
+`open -a "{{Application}}"`
 
 - Run a graphical macOS app based on the bundle identifier (refer to `osascript` for an easy way to get this):
 

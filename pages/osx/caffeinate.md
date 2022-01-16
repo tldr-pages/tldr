@@ -9,7 +9,7 @@
 
 - Prevent from sleeping until a command completes:
 
-`caffeinate -s {{command}}`
+`caffeinate -s "{{command}}"`
 
 - Prevent from sleeping until you type Ctrl-C:
 

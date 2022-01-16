@@ -13,7 +13,7 @@
 
 - Monitor a specific process:
 
-`nettop -p {{process_id|process_name}}`
+`nettop -p "{{process_id|process_name}}"`
 
 - Display a per-process summary:
 
