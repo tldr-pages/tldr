@@ -11,7 +11,7 @@
 
 `color /?`
 
-- Set the console foreground and background to a specific color:
+- Set the console foreground and background to a specific color using hexadecimal numbers (`1-9,a-f`):
 
 `color {{foreground_code}}{{background_code}}`
 
