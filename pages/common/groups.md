@@ -1,7 +1,7 @@
 # groups
 
 > Print group memberships for a user.
-> More information: <https://manned.org/man/users.1>.
+> More information: <https://manned.org/groups.1>.
 
 - Print group memberships for the current user:
 
