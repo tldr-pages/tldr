@@ -3,22 +3,26 @@
 > Create a new user.
 > More information: <https://manned.org/useradd>.
 
-- Create new user:
+- Create a new user:
 
-`useradd {{name}}`
+`useradd {{user_name}}`
 
-- Create new user with a default home directory:
+- Create a new user with the specified shell:
 
-`useradd --create-home {{name}}`
+`useradd --shell {{path/to/shell}} {{user_name}}`
 
-- Create new user with specified shell:
+- Create a new user belonging to additional groups (mind the lack of whitespace):
 
-`useradd --shell {{path/to/shell}} {{name}}`
+`useradd --groups {{group_a,group_b}} {{user_name}}`
 
-- Create new user belonging to additional groups (mind the lack of whitespace):
+- Create a new user with the default home directory:
 
-`useradd --groups {{group1,group2}} {{name}}`
+`useradd --create-home {{user_name}}`
 
-- Create new system user without a home directory:
+- Create a new user with the home directory filled by template directory files:
 
-`useradd --no-create-home --system {{name}}`
+`useradd --skel {{path/to/template_directory}}} --create-home {{user_name}}`
+
+- Create a new system user without the home directory:
+
+`useradd --system {{user_name}}`
