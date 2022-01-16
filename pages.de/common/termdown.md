@@ -1,6 +1,7 @@
 # termdown
 
 > Command-line Countdown-Timer.
+> Weitere Informationen: <https://github.com/trehn/termdown>.
 
 - Starte Stoppuhr:
 
