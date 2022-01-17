@@ -1,12 +1,12 @@
 # awk
 
 > A versatile programming language for working on files.
-> Get help or version: awk {{--help|--version}}.
+> Get help or version: awk --help|--version.
 > More information: <https://manned.org/awk.1>.
 
-- Execute an expression:
+- Execute commands:
 
-`awk "{{expression}}"`
+`awk '{ print gensub("apple", "mango", "g") }'`
 
 - Execute a script:
 
@@ -16,18 +16,18 @@
 
 `awk --lint --file {{path/to/file}}`
 
-- Execute an expression with the specified field separator:
+- Execute commands with the specified field separator:
 
-`awk --field-separator="{{,}}" "{{expression}}"`
+`awk --field-separator="{{,}}" '{ print $1 }'`
 
-- Execute an expression with the specified variables:
+- Replace a string with the specified replacement for all lines:
 
-`awk --assign "{{variable}}={{value}}" "{{expression}}"`
+`awk '{ print gensub("{{regular_expression}}", "{{replacement}}", "g") }'`
 
 - Print the specified field of each line:
 
-`awk "{ print \$1 }"`
+`awk '{ print ${{1}} }'`
 
 - Print the specified field range of each line:
 
-`awk "{ for (i=1; i <= 10; i++) print \$i }"`
+`awk '{ for (i={{1}}; i <= {{10}}; i++) print $i }'`
