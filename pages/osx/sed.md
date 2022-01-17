@@ -6,7 +6,7 @@
 
 - Execute commands:
 
-`sed "{{s/.*/entire string is replaced/}}"`
+`sed "{{s/apple/mango/g}}"`
 
 - Execute a script:
 
@@ -14,7 +14,7 @@
 
 - Execute commands with enabled extended regular expressions:
 
-`sed --regexp-extended "{{s/.*/entire string is replaced/}}"`
+`sed --regexp-extended "{{s/apple/mango/g}}"`
 
 - Execute a script and replace file with it's output:
 
