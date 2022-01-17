@@ -6,7 +6,7 @@
 
 - Execute commands:
 
-`sed "{{s/apple/mango/g}}"`
+`sed '{{s/apple/mango/g}}'`
 
 - Execute a script:
 
@@ -14,7 +14,7 @@
 
 - Execute commands with enabled extended regular expressions:
 
-`sed --regexp-extended "{{s/apple/mango/g}}"`
+`sed --regexp-extended '{{s/apple/mango/g}}'`
 
 - Execute a script and replace file with it's output:
 
@@ -22,12 +22,12 @@
 
 - Execute commands without automatic buffer printing:
 
-`sed --quiet "{{1p}}"`
+`sed --quiet '{{1p}}'`
 
 - Replace a string with the specified replacement for all lines:
 
-`sed "s/{{regular_expression}}/{{replacement}}/g" {{path/to/file}}`
+`sed 's/{{regular_expression}}/{{replacement}}/g' {{path/to/file}}`
 
 - Print just the first line:
 
-`sed --quiet "{{1p}}" {{path/to/file}}`
+`sed --quiet '{{1}}p' {{path/to/file}}`
