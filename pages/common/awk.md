@@ -1,6 +1,7 @@
 # awk
 
 > A versatile programming language for working on files.
+> Get help or version: awk {{--help|--version}}.
 > More information: <https://manned.org/awk.1>.
 
 - Execute an expression:
@@ -30,7 +31,3 @@
 - Print the specified field range of each line:
 
 `awk "{ for (i=1; i <= 10; i++) print \$i }"`
-
-- Print the version:
-
-`awk --version`

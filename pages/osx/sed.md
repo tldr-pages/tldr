@@ -1,6 +1,7 @@
 # sed
 
 > Edit text in a scriptable manner.
+> Get help or version: sed {{--help|--version}}.
 > More information: <https://manned.org/sed.1>.
 
 - Execute an expression:
@@ -26,7 +27,3 @@
 - Replace a string with the specified replacement for all lines:
 
 `sed "s/{{regular_expression}}/{{replacement}}/g" {{path/to/file}}`
-
-- Print the version:
-
-`sed --version`

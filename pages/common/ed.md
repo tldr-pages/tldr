@@ -1,6 +1,7 @@
 # ed
 
 > The original Unix text editor.
+> Get help or version: ed {{--help|--version}}.
 > More information: <https://manned.org/ed.1>.
 
 - Start an interactive editor session:
@@ -30,7 +31,3 @@
 - Replace a string with the specified replacement for all lines:
 
 `,s/{{regular_expression}}/{{replacement}}/g`
-
-- Print the version:
-
-`ed --version`
