@@ -1,8 +1,8 @@
 # sed
 
 > Edit text in a scriptable manner.
-> Get help or version: sed --help|--version.
-> More information: <https://manned.org/sed.1>.
+> There are no options to get help or version.
+> More information: <https://manned.org/man/freebsd-13.0/sed.1>.
 
 - Execute commands:
 
@@ -10,19 +10,19 @@
 
 - Execute a script:
 
-`sed --file={{path/to/file}}`
+`sed -f {{path/to/file}}`
 
-- Execute commands with enabled extended regular expressions:
+- Execute commands with enabled [E]xtended regular expressions:
 
-`sed --regexp-extended '{{s/apple/mango/g}}'`
+`sed -E '{{s/apple/mango/g}}'`
 
 - Execute a script and replace file with it's output:
 
-`sed --in-place --file={{path/to/file}}`
+`sed -i -f {{path/to/file}}`
 
 - Execute commands without automatic buffer printing:
 
-`sed --quiet '{{1p}}'`
+`sed -n '{{1p}}'`
 
 - Replace a string with the specified replacement for all lines:
 
@@ -30,4 +30,4 @@
 
 - Print just the first line:
 
-`sed --quiet '{{1}}p' {{path/to/file}}`
+`sed -n '{{1}}p' {{path/to/file}}`
