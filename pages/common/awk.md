@@ -10,11 +10,11 @@
 
 - Execute a script:
 
-`awk --file {{path/to/file}}`
+`awk --file {{path/to/script.awk}}`
 
 - Check a script for syntax errors:
 
-`awk --lint --file {{path/to/file}}`
+`awk --lint --file {{path/to/script.awk}}`
 
 - Execute commands with the specified field separator:
 

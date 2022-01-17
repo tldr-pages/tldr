@@ -10,7 +10,7 @@
 
 - Execute a script:
 
-`awk -f {{path/to/file}}`
+`awk -f {{path/to/script.awk}}`
 
 - Execute commands with the specified field separator:
 
