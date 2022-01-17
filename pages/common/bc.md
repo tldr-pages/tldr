@@ -10,11 +10,11 @@
 
 - Calculate the result of an expression:
 
-`bc <<< '(1 + 2) * 2 ^ 2'`
+`echo '(1 + 2) * 2 ^ 2' | bc`
 
 - Calculate the result of an expression and force the number of decimal places to 10:
 
-`bc <<< 'scale=10; 5 / 3'`
+`echo 'scale=10; 5 / 3' | bc`
 
 - Calculate the result of an expression with sine and cosine using `mathlib`:
 
