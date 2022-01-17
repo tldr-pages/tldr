@@ -10,24 +10,24 @@
 
 - Execute a script:
 
-`sed -f {{path/to/file}}`
+`sed -f {{path/to/script.sed}}`
 
 - Execute commands with enabled [E]xtended regular expressions:
 
 `sed -E '{{s/(apple)/\U\1/g}}'`
 
-- Execute a script and replace file with it's output:
-
-`sed -i -f {{path/to/file}}`
-
 - Execute commands without automatic buffer printing:
 
 `sed -n '{{1p}}'`
 
+- Execute commands and replace file with it's output:
+
+`sed -i '{{s/apple/mango/g}}' {{path/to/file}}`
+
 - Replace a string with the specified replacement for all lines:
 
-`sed 's/{{regular_expression}}/{{replacement}}/g' {{path/to/file}}`
+`sed 's/{{regular_expression}}/{{replacement}}/g'`
 
 - Print just the first line:
 
-`sed -n '{{1}}p' {{path/to/file}}`
+`sed -n '{{1}}p'`
