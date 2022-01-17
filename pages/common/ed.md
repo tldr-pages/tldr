@@ -1,7 +1,7 @@
 # ed
 
 > The original Unix text editor.
-> Get help or version: ed {{--help|--version}}.
+> Get help or version: ed --help|--version.
 > More information: <https://manned.org/ed.1>.
 
 - Start an interactive editor session:
@@ -10,7 +10,7 @@
 
 - Start an interactive editor session with the specified prompt:
 
-`ed --prompt='> '`
+`ed --prompt="> "`
 
 - Start an interactive editor session with user-friendly errors:
 
