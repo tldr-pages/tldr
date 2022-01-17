@@ -4,11 +4,11 @@
 > Get help or version: ed --help|--version.
 > More information: <https://manned.org/ed.1>.
 
-- Start an interactive editor session:
+- Start an interactive editor session with an empty document:
 
 `ed`
 
-- Start an interactive editor session with the specified prompt:
+- Start an interactive editor session with an empty document and the specified prompt:
 
 `ed --prompt="> "`
 
@@ -16,7 +16,7 @@
 
 `ed --verbose`
 
-- Start an interactive editor session without diagnostics, byte counts and '!' prompt:
+- Start an interactive editor session with an empty document and without diagnostics, byte counts and '!' prompt:
 
 `ed --quiet`
 

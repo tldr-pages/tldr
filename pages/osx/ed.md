@@ -4,15 +4,15 @@
 > There are no options to get help or version.
 > More information: <https://manned.org/man/freebsd-13.0/ed.1>.
 
-- Start an interactive editor session:
+- Start an interactive editor session with an empty document:
 
 `ed`
 
-- Start an interactive editor session with the specified [p]rompt:
+- Start an interactive editor session with an empty document and the specified [p]rompt:
 
 `ed -p "> "`
 
-- Start an interactive editor session without diagnostics, byte counts and '!' prompt:
+- Start an interactive editor session with an empty document and without diagnostics, byte counts and '!' prompt:
 
 `ed -s`
 
