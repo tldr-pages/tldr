@@ -14,7 +14,7 @@
 
 - Execute commands with enabled extended regular expressions:
 
-`sed --regexp-extended '{{s/apple/mango/g}}'`
+`sed --regexp-extended '{{s/(apple)/\U\1/g}}'`
 
 - Execute a script and replace file with it's output:
 
