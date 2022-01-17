@@ -10,11 +10,11 @@
 
 - Execute dc script in file:
 
-`dc --file={{file}}`
+`dc --file={{path/to/file}}`
 
 - Calculate 4 times 5 [4 5 *], subtract 17 [17 -], and [p]rint the output (using echo):
 
-`echo '4 5 * 17 - p'| dc`
+`echo '4 5 * 17 - p' | dc`
 
 - Set number of decimal places to 7 [7 k], calculate 5 divided by -3 [5 _3 /] and [p]rint (using dc -e):
 
