@@ -5,7 +5,7 @@
 
 - Ping the specified host:
 
-`ping ""{{host}}""`
+`ping "{{host}}"`
 
 - Ping a host a specific number of times:
 
