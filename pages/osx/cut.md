@@ -14,7 +14,7 @@
 
 - Print a field/fields/field range of each line with the specified [d]elimiter:
 
-`cut -d "{{,}}" --fields={{1|1,10|1-10|1-|-10}}`
+`cut -d "{{,}}" -f {{1|1,10|1-10|1-|-10}}`
 
 - Print a [f]ield/[f]ields/[f]ield range of each line of the specified file:
 
