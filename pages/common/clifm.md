@@ -23,7 +23,7 @@
 
 `s *.png`
 
-- Remove the previously selected files (use t to send the files to the recycle bin instead):
+- Remove the previously selected files (use `t` to send the files to the recycle bin instead):
 
 `r sel`
 
