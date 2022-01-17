@@ -4,26 +4,30 @@
 > Get help or version: sed {{--help|--version}}.
 > More information: <https://manned.org/sed.1>.
 
-- Execute an expression:
+- Execute commands:
 
-`sed "{{expression}}"`
+`sed "{{s/.*/entire string is replaced/}}"`
 
 - Execute a script:
 
 `sed --file={{path/to/file}}`
 
-- Execute an expression with enabled extended regular expressions:
+- Execute commands with enabled extended regular expressions:
 
-`sed --regexp-extended "{{expression}}"`
+`sed --regexp-extended "{{s/.*/entire string is replaced/}}"`
 
 - Execute a script and replace file with it's output:
 
 `sed --in-place --file={{path/to/file}}`
 
-- Execute an expression without automatic buffer printing:
+- Execute commands without automatic buffer printing:
 
-`sed --quiet "{{expression}}"`
+`sed --quiet "{{1p}}"`
 
 - Replace a string with the specified replacement for all lines:
 
 `sed "s/{{regular_expression}}/{{replacement}}/g" {{path/to/file}}`
+
+- Print just the first line:
+
+`sed --quiet "{{1p}}" {{path/to/file}}`
