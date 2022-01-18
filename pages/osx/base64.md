@@ -18,4 +18,4 @@
 
 - Decode from stdin:
 
-`echo -n "{{base64_text}}" | base64 --decode`
+`echo -n {{base64_text}} | base64 --decode`
