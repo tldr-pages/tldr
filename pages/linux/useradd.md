@@ -17,7 +17,7 @@
 
 - Create a new user belonging to additional groups (mind the lack of whitespace):
 
-`useradd --groups {{group_a,group_b}} {{user}}`
+`useradd --groups {{group1,group2}} {{username}}`
 
 - Create a new user with the default home directory:
 
