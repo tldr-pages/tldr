@@ -9,11 +9,11 @@
 
 - Validate a specific commit:
 
-`core-validate-commit {{commit}}`
+`core-validate-commit {{commit_hash}}`
 
 - Validate a range of commits:
 
-`git rev-list {{commit}}..HEAD | xargs core-validate-commit`
+`git rev-list {{commit_hash}}..HEAD | xargs core-validate-commit`
 
 - List all validation rules:
 
