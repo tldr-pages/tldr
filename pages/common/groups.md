@@ -7,6 +7,6 @@
 
 `groups`
 
-- Print group memberships for given users (1 or more):
+- Print group memberships for a list of users:
 
-`groups {{user_a}} {{user_b}}`
+`groups {{username1 username2 ...}}`
