@@ -3,10 +3,10 @@
 > Display a list of logged in users.
 > More information: <https://manned.org/man/users.1>.
 
-- Print logged in user names:
+- Print logged in usernames:
 
 `users`
 
-- Print logged in user names according to a given file:
+- Print logged in usernames according to a given file:
 
 `users {{/var/log/wmtp}}`

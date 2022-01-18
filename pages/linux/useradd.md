@@ -5,15 +5,15 @@
 
 - Create a new user:
 
-`useradd {{user}}`
+`useradd {{username}}`
 
 - Create a new user with the specified user id:
 
-`useradd --uid {{id}} {{user}}`
+`useradd --uid {{id}} {{username}}`
 
 - Create a new user with the specified shell:
 
-`useradd --shell {{path/to/shell}} {{user}}`
+`useradd --shell {{path/to/shell}} {{username}}`
 
 - Create a new user belonging to additional groups (mind the lack of whitespace):
 
@@ -21,12 +21,12 @@
 
 - Create a new user with the default home directory:
 
-`useradd --create-home {{user}}`
+`useradd --create-home {{username}}`
 
 - Create a new user with the home directory filled by template directory files:
 
-`useradd --skel {{path/to/template_directory}} --create-home {{user}}`
+`useradd --skel {{path/to/template_directory}} --create-home {{username}}`
 
 - Create a new system user without the home directory:
 
-`useradd --system {{user}}`
+`useradd --system {{username}}`
