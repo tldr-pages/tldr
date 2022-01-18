@@ -1,7 +1,7 @@
 # users
 
 > Display a list of logged in users.
-> More information: <https://manned.org/man/users.1>.
+> More information: <https://www.gnu.org/software/coreutils/users>.
 
 - Print logged in usernames:
 
