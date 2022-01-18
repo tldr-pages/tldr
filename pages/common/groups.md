@@ -1,7 +1,7 @@
 # groups
 
 > Print group memberships for a user.
-> More information: <https://manned.org/groups.1>.
+> More information: <https://www.gnu.org/software/coreutils/groups>.
 
 - Print group memberships for the current user:
 
