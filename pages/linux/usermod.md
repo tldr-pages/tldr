@@ -17,7 +17,7 @@
 
 - Add a user to supplementary groups (mind the lack of whitespace):
 
-`usermod --append --groups {{group1,group2}} {{username}}`
+`usermod --append --groups {{group1,group2,...}} {{username}}`
 
 - Change a user home directory:
 
