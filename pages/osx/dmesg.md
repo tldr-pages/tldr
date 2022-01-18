@@ -1,6 +1,7 @@
 # dmesg
 
 > Write the kernel messages to standard output.
+> Get help or version: dmesg --help|--version.
 > More information: <https://man7.org/linux/man-pages/man1/dmesg.1.html>.
 
 - Show kernel messages:

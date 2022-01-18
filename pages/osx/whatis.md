@@ -1,6 +1,7 @@
 # whatis
 
 > Tool that searches a set of database files containing short descriptions of system commands for keywords.
+> There are no options to get help or version.
 > More information: <http://www.linfo.org/whatis.html>.
 
 - Search for information about keyword:

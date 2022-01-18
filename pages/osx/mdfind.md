@@ -1,6 +1,7 @@
 # mdfind
 
 > List files matching a given query.
+> There are no options to get help or version.
 > More information: <https://ss64.com/osx/mdfind.html>.
 
 - Find a file by its name:

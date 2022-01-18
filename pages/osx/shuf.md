@@ -1,6 +1,7 @@
 # shuf
 
 > Generate random permutations.
+> Get help or version: shuf --help|--version.
 > More information: <https://www.unix.com/man-page/linux/1/shuf/>.
 
 - Randomize the order of lines in a file and output the result:

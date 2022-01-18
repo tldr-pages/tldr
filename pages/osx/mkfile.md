@@ -1,6 +1,7 @@
 # mkfile
 
 > Create one or more empty files of any size.
+> There are no options to get help or version.
 > More information: <https://ss64.com/osx/mkfile.html>.
 
 - Create an empty file of 15 kilobytes:

@@ -1,6 +1,7 @@
 # stat
 
 > Display file status.
+> There are no options to get help or version.
 > More information: <https://ss64.com/osx/stat.html>.
 
 - Show file properties such as size, permissions, creation and access dates among others:

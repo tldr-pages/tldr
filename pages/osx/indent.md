@@ -1,6 +1,7 @@
 # indent
 
 > Change the appearance of a C/C++ program by inserting or deleting whitespace.
+> Get version: indent --version.
 > More information: <https://www.freebsd.org/cgi/man.cgi?query=indent>.
 
 - Format C/C++ source according to the Berkeley style:

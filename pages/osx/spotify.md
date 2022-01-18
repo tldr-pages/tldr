@@ -1,6 +1,7 @@
 # spotify
 
 > A command-line interface to Spotify.
+> There are no options to get help or version.
 > More information: <https://github.com/hnarayanan/shpotify>.
 
 - Find a song by name and play it:

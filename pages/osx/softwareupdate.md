@@ -1,6 +1,7 @@
 # softwareupdate
 
 > A tool for updating macOS App Store apps via the command-line.
+> Get help: softwareupdate --help.
 > More information: <https://ss64.com/osx/softwareupdate.html>.
 
 - List all available updates:

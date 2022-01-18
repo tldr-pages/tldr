@@ -1,6 +1,7 @@
 # lldb
 
 > The LLVM Low-Level Debugger.
+> Get help or version: lldb --help|--version.
 > More information: <https://lldb.llvm.org/man/lldb.html>.
 
 - Debug an executable:

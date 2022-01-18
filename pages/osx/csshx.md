@@ -1,6 +1,7 @@
 # csshX
 
 > Cluster SSH tool for macOS.
+> Get help: csshX --man.
 > More information: <https://github.com/brockgr/csshx>.
 
 - Connect to multiple hosts:

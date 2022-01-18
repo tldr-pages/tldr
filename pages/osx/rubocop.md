@@ -1,6 +1,7 @@
 # rubocop
 
 > Lint Ruby files.
+> Get help or version: rubocop --help|--version.
 > More information: <https://docs.rubocop.org/rubocop/usage/basic_usage.html>.
 
 - Check all files in the current directory (including subdirectories):

@@ -1,6 +1,7 @@
 # bless
 
 > Set volume boot capability and startup disk options.
+> Get help or version: bless -help|--version.
 > More information: <https://ss64.com/osx/bless.html>.
 
 - Bless a volume with only Mac OS X or Darwin, and create the BootX and `boot.efi` files as needed:

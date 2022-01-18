@@ -2,6 +2,7 @@
 
 > Manually manipulate the routing tables.
 > Necessitates to be root.
+> There are no options to get help or version.
 > More information: <https://www.manpagez.com/man/8/route/>.
 
 - Add a route to a destination through a gateway:

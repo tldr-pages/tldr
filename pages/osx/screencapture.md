@@ -1,6 +1,7 @@
 # screencapture
 
 > Utility to take screenshots and screen recordings.
+> Get help: screencapture -help.
 > More information: <https://ss64.com/osx/screencapture.html>.
 
 - Take a screenshot and save it to a file:

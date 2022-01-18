@@ -1,6 +1,7 @@
 # base64
 
 > Encode and decode using Base64 representation.
+> Get help or version: base64 --help|--version.
 > More information: <https://www.unix.com/man-page/osx/1/base64/>.
 
 - Encode a file:

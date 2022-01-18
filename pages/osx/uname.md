@@ -2,6 +2,7 @@
 
 > Print details about the current machine and the operating system running on it.
 > Note: for additional information about the operating system, try the `sw_vers` command.
+> There are no options to get help or version.
 > More information: <https://ss64.com/osx/uname.html>.
 
 - Print kernel name:

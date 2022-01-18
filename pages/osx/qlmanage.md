@@ -1,6 +1,7 @@
 # qlmanage
 
 > QuickLook server tool.
+> Get help: qlmanage -h.
 > More information: <https://ss64.com/osx/qlmanage.html>.
 
 - Display QuickLook for one or multiple files:

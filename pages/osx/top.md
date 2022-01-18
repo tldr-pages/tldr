@@ -1,6 +1,7 @@
 # top
 
 > Display dynamic real-time information about running processes.
+> Get help: top -h.
 > More information: <https://ss64.com/osx/top.html>.
 
 - Start top, all options are available in the interface:
@@ -18,7 +19,3 @@
 - Start top displaying only processes owned by given user:
 
 `top -user {{user_name}}`
-
-- Get help about interactive commands:
-
-`?`

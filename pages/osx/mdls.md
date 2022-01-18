@@ -1,6 +1,7 @@
 # mdls
 
 > Display the metadata attributes for a file.
+> There are no options to get help or version.
 > More information: <https://ss64.com/osx/mdls.html>.
 
 - Display the list of metadata attributes for file:

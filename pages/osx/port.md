@@ -1,6 +1,7 @@
 # port
 
 > Package manager for macOS.
+> There are no options to get help or version.
 > More information: <https://www.thegeekstuff.com/2014/01/mac-osx-port-command/>.
 
 - Search for a package:

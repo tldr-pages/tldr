@@ -1,6 +1,7 @@
 # istats
 
 > CLI tool that shows statistics such as CPU temperature, fan speeds and battery status.
+> Get help or version: istats --help|--version.
 > More information: <https://github.com/Chris911/iStats>.
 
 - Show all the stats:

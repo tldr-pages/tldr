@@ -1,6 +1,7 @@
 # pod
 
 > Dependency manager for Swift and Objective-C Cocoa projects.
+> Get help or version: pod --help|--version.
 > More information: <https://guides.cocoapods.org/terminal/commands.html>.
 
 - Create a Podfile for the current project with the default contents:

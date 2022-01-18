@@ -1,6 +1,7 @@
 # fileicon
 
 > A macOS CLI to manage custom file and folder icons.
+> Get help or version: fileicon --help|--version.
 > More information: <https://github.com/mklement0/fileicon>.
 
 - Set a custom icon for a specific file or directory:

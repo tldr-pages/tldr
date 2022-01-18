@@ -1,6 +1,7 @@
 # duti
 
 > Set default applications for document types and URL schemes on macOS.
+> There are no options to get help or version.
 > More information: <https://github.com/moretension/duti>.
 
 - Set Safari as the default handler for HTML documents:

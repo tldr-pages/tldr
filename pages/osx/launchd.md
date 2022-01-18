@@ -2,6 +2,7 @@
 
 > This manages processes, both for the system and users.
 > You cannot invoke launchd manually, use launchctl to interact with it.
+> There are no options to get help or version.
 > More information: <https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/Introduction.html>.
 
 - Run init:
