@@ -14,7 +14,7 @@
 
 - Scan for available wireless networks:
 
-`airport --scan=`
+`airport --scan`
 
 - Disassociate from current airport network:
 
