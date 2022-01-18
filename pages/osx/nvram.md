@@ -14,7 +14,7 @@
 
 - Modify the value of a firmware variable:
 
-`sudo nvram "{{name}}={{value}}"`
+`sudo nvram {{name}}="{{value}}"`
 
 - [d]elete a firmware variable:
 

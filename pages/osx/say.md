@@ -18,7 +18,7 @@
 
 - List the available voices:
 
-`say "--voice=?"`
+`say --voice="?"`
 
 - Create an audio file of the spoken text:
 
