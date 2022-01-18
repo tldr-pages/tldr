@@ -9,4 +9,4 @@
 
 - Change the group id:
 
-`groupmod --gid {{id}} {{group}}`
+`groupmod --gid {{new_id}} {{group}}`
