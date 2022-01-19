@@ -5,24 +5,24 @@
 
 - Show last 'num' lines in file:
 
-`tail -n {{num}} {{file}}`
+`tail --lines {{count}} {{path/to/file}}`
 
 - Show all file since line 'num':
 
-`tail -n +{{num}} {{file}}`
+`tail --lines +{{count}} {{path/to/file}}`
 
 - Show last 'num' bytes in file:
 
-`tail -c {{num}} {{file}}`
+`tail --bytes {{count}} {{path/to/file}}`
 
 - Keep reading file until `Ctrl + C`:
 
-`tail -f {{file}}`
+`tail --follow {{path/to/file}}`
 
 - Keep reading file until `Ctrl + C`, even if the file is inaccessible:
 
-`tail -F {{file}}`
+`tail --follow={{path/to/file}} --retry`
 
 - Show last 'num' lines in 'file' and refresh every 'n' seconds:
 
-`tail -n {{num}} -s {{n}} -f {{file}}`
+`tail --lines {{count}} --sleep-interval {{seconds}} --follow {{path/to/file}}`
