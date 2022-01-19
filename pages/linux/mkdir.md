@@ -17,4 +17,3 @@
 - If the directory is not empty you can use rm -r.  NOTE, this will permanently delete all of your files in this directory as well as the directory itself:
 
 `rm -r directory_name`
-
