@@ -1,6 +1,6 @@
 # distrobox-create
 
-> This command takes care of creating the container with input name and image.
+> Create Distrobox containers with an input name and image.
 > The created container will be tightly integrated with the host, allowing sharing of the HOME directory of the user, external storage, external usb devices and graphical apps (X11/Wayland), and audio.
 > More information: <https://distrobox.privatedns.org>.
 
