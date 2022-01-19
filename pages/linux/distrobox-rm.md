@@ -1,6 +1,6 @@
 # distrobox-rm
 
-> This command deletes one of the available distroboxes.
+> Delete Distrobox containers.
 > More information: <https://distrobox.privatedns.org>.
 
 - Remove a distrobox:
