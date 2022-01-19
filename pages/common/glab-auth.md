@@ -7,11 +7,11 @@
 
 `glab auth login`
 
-- Log in with a token from standard input (created in https://gitlab.com/-/profile/personal_access_tokens):
+- Log in with a token (created in https://gitlab.com/-/profile/personal_access_tokens):
 
-`echo {{your_token}} | glab auth login --stdin`
+`glab auth login --token {{your_token}}`
 
-- Check if you are logged in:
+- Check authentication status:
 
 `glab auth status`
 
