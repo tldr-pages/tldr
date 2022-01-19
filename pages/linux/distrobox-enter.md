@@ -1,6 +1,6 @@
 # distrobox-enter
 
-> This command takes care of entering the container with the name specified.
+> Run a command in a Distrobox container.
 > Default command executed is your SHELL, but you can specify different shells or entire commands to execute. If used inside a script, an application, or a service, you can specify the --headless mode to disable tty and interactivity.
 > More information: <https://distrobox.privatedns.org>.
 
