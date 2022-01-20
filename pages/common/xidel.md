@@ -5,11 +5,11 @@
 
 - Print all URLs found by a google search:
 
-`xidel https://www.google.de/search?q=test --extract "//a/extract(@href, 'url[?]q=([^&]+)&', 1)[. != '']"`
+`xidel https://www.google.com/search?q=test --extract "//a/extract(@href, 'url[?]q=([^&]+)&', 1)[. != '']"`
 
 - Print the title of all pages found by a google search and download them:
 
-`xidel {{https://www.google.de/search?q=test}} --follow "{{//a/extract(@href, 'url[?]q=([^&]+)&', 1)[. != '']}}" --extract {{//title}} --download {{'{$host}/'}}`
+`xidel {{https://www.google.com/search?q=test}} --follow "{{//a/extract(@href, 'url[?]q=([^&]+)&', 1)[. != '']}}" --extract {{//title}} --download {{'{$host}/'}}`
 
 - Follow all links on a page and print the titles, With XPath:
 
@@ -31,6 +31,6 @@
 
 `xidel {{http://stackoverflow.com/feeds}} -e "{{<entry><title>{title:=.}</title><link>{uri:=@href}</link></entry>+}}"`
 
-- Check if you have Reddit mail, Webscraping, combining CSS, XPath, JSONiq, and automatically form evaluation:
+- Check for unread Reddit mail, Webscraping, combining CSS, XPath, JSONiq, and automatically form evaluation:
 
 `xidel {{https://reddit.com}} -f "{{form(css('form.login-form')[1], {'user': '$your_username', 'passwd': '$your_password'})}}" -e "{{css('#mail')/@title}}"`
