@@ -1,10 +1,15 @@
 # ncdu
 
 > Disk usage analyzer with an ncurses interface.
+> More information: <https://manned.org/ncdu>.
 
 - Analyze the current working directory:
 
 `ncdu`
+
+- Colorize output:
+
+`ncdu --color {{dark|off}}`
 
 - Analyze a given directory:
 

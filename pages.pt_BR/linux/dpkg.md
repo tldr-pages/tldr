@@ -2,7 +2,7 @@
 
 > Gerenciador de pacotes Debian.
 > Alguns subcomandos como `dpkg deb` tem sua própia documentação de uso.
-> Mais informações: <https://manpages.debian.org/buster/dpkg/dpkg.1.en.html>.
+> Mais informações: <https://manpages.debian.org/latest/dpkg/dpkg.html>.
 
 - Instalar um pacote:
 

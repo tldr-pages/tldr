@@ -1,7 +1,7 @@
 # a2query
 
 > Exibe configurações de execução do Apache em sistemas operacionais baseados no Debian.
-> Mais informações: <https://manpages.debian.org/buster/apache2/a2query.1.en.html>.
+> Mais informações: <https://manpages.debian.org/latest/apache2/a2query.html>.
 
 - Lista módulos ativos do Apache:
 

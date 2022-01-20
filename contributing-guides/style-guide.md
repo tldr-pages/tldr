@@ -27,12 +27,12 @@ It is run automatically on every pull request,
 but you may install it to test your contributions locally before submitting them:
 
 ```
-npm install tldr-lint
-tldrl -f {{page.md}}
+npm install --global tldr-lint
+tldr-lint {{page.md}}
 ```
 
-For other ways to use `tldrl`, such as linting an entire directory, check out (what else!)
-[`tldr tldrl`](https://github.com/tldr-pages/tldr/blob/main/pages/common/tldrl.md).
+For other ways to use `tldr-lint`, such as linting an entire directory, check out (what else!)
+[`tldr tldr-lint`](https://github.com/tldr-pages/tldr/blob/main/pages/common/tldr-lint.md). Alternatively, you can also use its alias `tldrl`.
 
 Your client may be able to preview a page locally using the `--render` flag:
 

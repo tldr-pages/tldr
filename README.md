@@ -84,34 +84,38 @@ to see the current progress of all translations.
 
 ## Similar projects
 
-- [Cheat](https://github.com/cheat/cheat)
-  allows you to create and view interactive cheatsheets on the command-line.
-  It was designed to help remind *nix system administrators of options
-  for commands that they use frequently, but not frequently enough to remember.
-
 - [Bro pages](http://bropages.org/)
   are a highly readable supplement to man pages.
   Bro pages show concise, common-case examples for Unix commands.
   The examples are submitted by the user base, and can be voted up or down;
   the best entries are what people see first when they look up a command.
 
-- [kb](https://github.com/gnebbia/kb)
-  is a minimalist command-line knowledge base manager.
-  kb can be used to organize your notes and cheatsheets in a minimalist
-  and clean way. It also supports non-text files.
+- [Cheat](https://github.com/cheat/cheat)
+  allows you to create and view interactive cheatsheets on the command-line.
+  It was designed to help remind *nix system administrators of options
+  for commands that they use frequently, but not frequently enough to remember.
 
-- [eg](https://github.com/srsudar/eg)
-  provides detailed examples with explanations on the command-line.
-  Examples come from the repository, but `eg` supports displaying
-  custom examples and commands alongside the defaults.
+- [cheat.sh](https://cheat.sh/)
+  Aggregates cheat sheets from multiple sources (including tldr-pages)
+  into 1 unified interface.
 
 - [devhints](https://devhints.io/)
   Rico's cheatsheets are not just focused on the command-line and
   include a plethora of other cheatsheets related to programming.
 
-- [cheat.sh](https://cheat.sh/)
-  Aggregates cheat sheets from multiple sources (including tldr-pages)
-  into 1 unified interface.
+- [eg](https://github.com/srsudar/eg)
+  provides detailed examples with explanations on the command-line.
+  Examples come from the repository, but `eg` supports displaying
+  custom examples and commands alongside the defaults.
+  
+- [kb](https://github.com/gnebbia/kb)
+  is a minimalist command-line knowledge base manager.
+  kb can be used to organize your notes and cheatsheets in a minimalist
+  and clean way. It also supports non-text files.
+
+- [navi](https://github.com/denisidoro/navi)
+  is an interactive cheatsheet tool, which allows you to browse through
+  specific examples or complete commands on the fly.
 
 ## What does "tldr" mean?
 

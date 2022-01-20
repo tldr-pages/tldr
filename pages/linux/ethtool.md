@@ -11,6 +11,10 @@
 
 `ethtool --driver {{eth0}}`
 
+- Display all supported features for an interface:
+
+`ethtool --show-features {{eth0}}`
+
 - Display the network usage statistics for an interface:
 
 `ethtool --statistics {{eth0}}`

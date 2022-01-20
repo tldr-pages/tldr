@@ -36,6 +36,7 @@ The templates can be changed when necessary.
 [th](#th) •
 [tr](#tr) •
 [uk](#uk) •
+[uz](#uz) •
 [zh](#zh) •
 [zh_TW](#zh_tw)
 
@@ -278,7 +279,15 @@ Not translated yet.
 ---
 ### pt_PT
 
-Not translated yet.
+```markdown
+# example
+
+> Este comando é um alias de `example`.
+
+- Ver documentação do comando original:
+
+`tldr example`
+```
 
 ---
 ### ro
@@ -364,6 +373,11 @@ Not translated yet.
 
 `tldr example`
 ```
+
+---
+### uz
+
+Not translated yet.
 
 ---
 ### zh

@@ -1,7 +1,7 @@
 # dpkg-deb
 
 > Impacchetta, spacchetta e fornisce informazioni su archivi Debian.
-> Maggiori informazioni: <https://manpages.debian.org/buster/dpkg/dpkg-deb.1.en.html>.
+> Maggiori informazioni: <https://manpages.debian.org/latest/dpkg/dpkg-deb.html>.
 
 - Mostra le informazioni riguardo ad un pacchetto:
 

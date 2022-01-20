@@ -35,6 +35,7 @@ This file contains the translation templates of this notice.
 [th](#th) •
 [tr](#tr) •
 [uk](#uk) •
+[uz](#uz) •
 [zh](#zh) •
 [zh_TW](#zh_tw)
 
@@ -210,6 +211,11 @@ Not translated yet.
 ```markdown
 Певна підкоманда, як от `example command`, що має свою власну документацію.
 ```
+
+---
+### uz
+
+Not translated yet.
 
 ---
 ### zh
