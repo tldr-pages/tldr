@@ -26,4 +26,4 @@
 
 - Print the specified field range of each line:
 
-`awk '{ for (i={{1}}; i <= {{10}}; i++) print $i }'`
+`awk '{ for (i = {{1}}; i <= {{10}}; i++) print $i }'`
