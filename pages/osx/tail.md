@@ -1,6 +1,7 @@
 # tail
 
 > Display the last part of a file.
+> See also: `head`.
 > More information: <https://manned.org/man/freebsd-13.0/tail.1>.
 
 - Show last 'count' lines in file:
