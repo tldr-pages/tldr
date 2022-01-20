@@ -1,7 +1,7 @@
 # bc
 
 > An arbitrary precision calculator language.
-> Get help or version: bc --help|--version.
+> See also: `dc`.
 > More information: <https://manned.org/man/bc.1>.
 
 - Start an interactive session:
