@@ -8,15 +8,15 @@
 
 `tail -n {{count}} {{path/to/file}}`
 
-- Show all file since line 'count':
+- Print a file from a specific line number:
 
 `tail -n +{{count}} {{path/to/file}}`
 
-- Show last 'count' bytes in file:
+- Print a specific count of bytes from the end of a given file:
 
 `tail -c {{count}} {{path/to/file}}`
 
-- Keep reading file until `Ctrl + C`:
+- Print the last lines of a given file and keep reading file until `Ctrl + C`:
 
 `tail -f {{path/to/file}}`
 
