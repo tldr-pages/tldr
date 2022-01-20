@@ -4,15 +4,15 @@
 > See also: `head`.
 > More information: <https://www.gnu.org/software/coreutils/tail>.
 
-- Show last 'num' lines in file:
+- Show last 'count' lines in file:
 
 `tail --lines {{count}} {{path/to/file}}`
 
-- Show all file since line 'num':
+- Show all file since line 'count':
 
 `tail --lines +{{count}} {{path/to/file}}`
 
-- Show last 'num' bytes in file:
+- Show last 'count' bytes in file:
 
 `tail --bytes {{count}} {{path/to/file}}`
 
