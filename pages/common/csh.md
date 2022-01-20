@@ -18,7 +18,3 @@
 - Execute a script:
 
 `csh {{path/to/script.csh}}`
-
-- Print the version:
-
-`dpkg --list csh`

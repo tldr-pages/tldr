@@ -30,7 +30,3 @@
 - Execute a command from [s]tdin:
 
 `dash -s`
-
-- Print the version:
-
-`dash --version`

@@ -30,7 +30,3 @@
 - Define and export an environmental variable that persists across shell restarts (builtin):
 
 `set --universal --export {{variable_name}} {{variable_value}}`
-
-- Print the version (`$FISH_VERSION` contains the version without the license information):
-
-`fish --version`

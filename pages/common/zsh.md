@@ -27,7 +27,3 @@
 - Start an interactive shell session in verbose mode while printing each command before executing it:
 
 `zsh --verbose`
-
-- Print the version (`$ZSH_VERSION` contains the version without the license information):
-
-`zsh --version`

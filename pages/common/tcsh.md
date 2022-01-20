@@ -22,7 +22,3 @@
 - Check a script for syntax errors:
 
 `tcsh -n {{path/to/script.tcsh}}`
-
-- Print the version (`$version` contains the version):
-
-`tcsh --version`

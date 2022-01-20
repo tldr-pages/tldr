@@ -14,7 +14,3 @@
 - Execute a script:
 
 `elvish {{path/to/script.elv}}`
-
-- Print the version:
-
-`elvish -version`

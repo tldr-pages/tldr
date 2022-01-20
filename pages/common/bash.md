@@ -31,7 +31,3 @@
 - Execute a command from [s]tdin:
 
 `bash -s`
-
-- Print the version (`$BASH_VERSION` contains the version without the license information):
-
-`bash --version`
