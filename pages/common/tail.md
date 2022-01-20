@@ -21,7 +21,7 @@
 
 - Keep reading file until `Ctrl + C`, even if the file is inaccessible:
 
-`tail --follow={{path/to/file}} --retry`
+`tail --retry --follow {{path/to/file}}`
 
 - Show last 'num' lines in 'file' and refresh every 'n' seconds:
 
