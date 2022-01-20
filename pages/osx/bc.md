@@ -1,7 +1,6 @@
 # bc
 
 > An arbitrary precision calculator language.
-> Get help or version: bc --help|--version.
 > More information: <https://manned.org/man/freebsd-13.0/bc.1>.
 
 - Start an interactive session:

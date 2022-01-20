@@ -1,7 +1,6 @@
 # dc
 
 > An arbitrary precision calculator. Uses reverse polish notation (RPN).
-> Get help or version: dc --help|--version.
 > More information: <https://www.gnu.org/software/bc/manual/dc-1.05/html_mono/dc.html>.
 
 - Start an interactive session:
