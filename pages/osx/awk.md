@@ -1,7 +1,7 @@
 # awk
 
 > A versatile programming language for working on files.
-> Get version: awk -version.
+> See also: `sed`, `ed`.
 > More information: <https://manned.org/man/freebsd-13.0/awk.1>.
 
 - Execute commands:

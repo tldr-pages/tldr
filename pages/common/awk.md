@@ -1,7 +1,7 @@
 # awk
 
 > A versatile programming language for working on files.
-> Get help or version: awk --help|--version.
+> See also: `sed`, `ed`.
 > More information: <https://manned.org/awk.1>.
 
 - Execute commands:

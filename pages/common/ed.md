@@ -1,7 +1,7 @@
 # ed
 
 > The original Unix text editor.
-> Get help or version: ed --help|--version.
+> See also: `awk`, `sed`.
 > More information: <https://manned.org/ed.1>.
 
 - Start an interactive editor session with an empty document:

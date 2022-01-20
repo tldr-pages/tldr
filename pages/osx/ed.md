@@ -1,7 +1,7 @@
 # ed
 
 > The original Unix text editor.
-> There are no options to get help or version.
+> See also: `awk`, `sed`.
 > More information: <https://manned.org/man/freebsd-13.0/ed.1>.
 
 - Start an interactive editor session with an empty document:

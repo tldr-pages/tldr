@@ -1,7 +1,7 @@
 # sed
 
 > Edit text in a scriptable manner.
-> Get help or version: sed --help|--version.
+> See also: `awk`, `ed`.
 > More information: <https://manned.org/sed.1>.
 
 - Execute commands:

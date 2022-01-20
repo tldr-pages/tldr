@@ -1,7 +1,7 @@
 # sed
 
 > Edit text in a scriptable manner.
-> There are no options to get help or version.
+> See also: `awk`, `ed`.
 > More information: <https://manned.org/man/freebsd-13.0/sed.1>.
 
 - Execute commands:
