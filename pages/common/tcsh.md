@@ -1,6 +1,7 @@
 # tcsh
 
 > C shell with file name completion and command line editing.
+> See also: `csh`.
 > More information: <https://manned.org/tcsh>.
 
 - Start an interactive shell session:

@@ -1,6 +1,7 @@
 # csh
 
 > The shell (command interpreter) with C-like syntax.
+> See also: `tcsh`.
 > More information: <https://www.mkssoftware.com/docs/man1/csh.1.asp>.
 
 - Start an interactive shell session:
