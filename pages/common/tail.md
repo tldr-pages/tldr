@@ -12,7 +12,7 @@
 
 `tail --lines +{{count}} {{path/to/file}}`
 
-- Print a specific count of bytes from the end of a given file.
+- Print a specific count of bytes from the end of a given file:
 
 `tail --bytes {{count}} {{path/to/file}}`
 
