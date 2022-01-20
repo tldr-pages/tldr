@@ -1,6 +1,7 @@
 # elvish
 
 > Expressive programming language and a versatile interactive shell.
+> See also: `nu`.
 > More information: <https://elv.sh>.
 
 - Start an interactive shell session:
