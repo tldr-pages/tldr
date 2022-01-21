@@ -1,7 +1,6 @@
 # opensnoop
 
 > Tool that tracks file opens on your system.
-> There are no options to get help or version.
 > More information: <https://ss64.com/osx/opensnoop.html>.
 
 - Print all file opens as they occur:

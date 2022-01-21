@@ -1,7 +1,6 @@
 # networksetup
 
 > Configuration tool for Network System Preferences.
-> Get help or version: networksetup -help|-version.
 > More information: <https://www.manpagez.com/man/8/networksetup/>.
 
 - List available network service providers (Ethernet, Wi-Fi, Bluetooth, etc):

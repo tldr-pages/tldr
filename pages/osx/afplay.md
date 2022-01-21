@@ -1,7 +1,6 @@
 # afplay
 
 > Command-line audio player.
-> Get help: afplay --help.
 > More information: <https://ss64.com/osx/afplay.html>.
 
 - Play a sound file (waits until playback ends):

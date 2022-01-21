@@ -2,7 +2,6 @@
 
 > Audio file metadata parser for OS X.
 > Built-in command of OS X.
-> Get help: afinfo --help.
 > More information: <https://ss64.com/osx/afinfo.html>.
 
 - Display info of a given audio file:
@@ -24,3 +23,7 @@
 - Print warnings for the audio file if any:
 
 `afinfo --warnings {{path/to/file}}`
+
+- Display help for full usage:
+
+`afinfo --help`

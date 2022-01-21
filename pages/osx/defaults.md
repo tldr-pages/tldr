@@ -1,7 +1,6 @@
 # defaults
 
 > Read and write macOS user configuration for applications.
-> Get help: defaults help.
 > More information: <https://ss64.com/osx/defaults.html>.
 
 - Read system defaults for an application option:

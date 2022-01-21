@@ -1,7 +1,6 @@
 # xed
 
 > Opens files for editing in Xcode.
-> Get help or version: xed --help|--version.
 > More information: <https://www.manpagez.com/man/1/xed/>.
 
 - Open file in Xcode:

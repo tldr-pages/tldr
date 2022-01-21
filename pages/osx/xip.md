@@ -2,7 +2,6 @@
 
 > Create or expand compressed files in a secure xip archive.
 > Only archives signed by Apple are trusted, so this tool should not be used to create archives.
-> There are no options to get help or version.
 > More information: <https://www.manpagez.com/man/1/xip/>.
 
 - Expand the archive into the current working directory:

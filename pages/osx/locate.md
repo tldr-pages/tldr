@@ -1,7 +1,6 @@
 # locate
 
 > Find filenames quickly.
-> Get help or version: locate --help|--version.
 > More information: <https://manned.org/locate>.
 
 - Look for pattern in the database. Note: the database is recomputed periodically (usually weekly or daily):

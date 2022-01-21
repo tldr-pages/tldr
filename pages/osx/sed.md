@@ -1,7 +1,6 @@
 # sed
 
 > Edit text in a scriptable manner.
-> There are no options to get help or version.
 > More information: <https://ss64.com/osx/sed.html>.
 
 - Replace the first occurrence of a string in a file, and print the result:

@@ -1,7 +1,6 @@
 # security
 
 > Administer Keychains, keys, certificates and the Security framework.
-> There are no options to get help or version.
 > More information: <https://ss64.com/osx/security.html>.
 
 - List the available keychains:

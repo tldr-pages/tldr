@@ -1,7 +1,6 @@
 # say
 
 > Converts text to speech.
-> There are no options to get help or version.
 > More information: <https://ss64.com/osx/say.html>.
 
 - Say a phrase aloud:

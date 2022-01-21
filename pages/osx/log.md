@@ -1,7 +1,6 @@
 # log
 
 > View, export, and configure logging systems.
-> Get help: log help.
 > More information: <https://www.dssw.co.uk/reference/log.html>.
 
 - Stream live system logs:

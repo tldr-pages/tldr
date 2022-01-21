@@ -1,7 +1,6 @@
 # system_profiler
 
 > Report system hardware and software configuration.
-> Get help: system_profiler -usage.
 > More information: <https://ss64.com/osx/system_profiler.html>.
 
 - Display a full system profiler report which can be opened by System Profiler.app:

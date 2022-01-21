@@ -1,7 +1,6 @@
 # diskutil
 
 > Utility to manage local disks and volumes.
-> There are no options to get help or version.
 > More information: <https://ss64.com/osx/diskutil.html>.
 
 - List all currently available disks, partitions and mounted volumes:

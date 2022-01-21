@@ -2,7 +2,6 @@
 
 > Manage system configuration parameters.
 > Necessitates to be root when setting configuration.
-> There are no options to get help or version.
 > More information: <https://ss64.com/osx/scutil.html>.
 
 - Display DNS Configuration:

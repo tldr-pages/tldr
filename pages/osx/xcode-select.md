@@ -2,7 +2,6 @@
 
 > Switch between different versions of Xcode and the included developer tools.
 > Also used to update the path to Xcode if it is moved after installation.
-> Get help or version: xcode-select --help|--version.
 > More information: <https://www.manpagez.com/man/1/xcode-select/>.
 
 - Install Xcode's command-line tools:

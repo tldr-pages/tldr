@@ -1,7 +1,6 @@
 # xcodebuild
 
 > Build Xcode projects.
-> There are no options to get help or version.
 > More information: <https://www.manpagez.com/man/1/xcodebuild/>.
 
 - Build workspace:

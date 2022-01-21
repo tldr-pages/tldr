@@ -1,7 +1,6 @@
 # brightness
 
 > Get and set the brightness level of all internal and certain external displays.
-> There are no options to get help or version.
 > More information: <https://github.com/nriley/brightness>.
 
 - Show current brightness:

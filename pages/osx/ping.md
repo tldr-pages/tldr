@@ -1,7 +1,6 @@
 # ping
 
 > Send ICMP ECHO_REQUEST packets to network hosts.
-> There are no options to get help or version.
 > More information: <https://ss64.com/osx/ping.html>.
 
 - Ping the specified host:

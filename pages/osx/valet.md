@@ -1,7 +1,6 @@
 # valet
 
 > A Laravel development environment that allows hosting sites via local tunnels on `http://<example>.test`.
-> There are no options to get help or version.
 > More information: <https://laravel.com/docs/8.x/valet>.
 
 - Start the valet daemon:

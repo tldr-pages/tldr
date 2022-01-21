@@ -1,7 +1,6 @@
 # yaa
 
 > Create and manipulate YAA archives.
-> Get help: yaa -h.
 > More information: <https://www.manpagez.com/man/1/yaa/>.
 
 - Create an archive from a directory:

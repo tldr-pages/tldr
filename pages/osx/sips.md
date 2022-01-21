@@ -2,7 +2,6 @@
 
 > Apple Scriptable Image Processing System.
 > Raster/Query images and ColorSync ICC Profiles.
-> Get help: sips --help.
 > More information: <https://ss64.com/osx/sips.html>.
 
 - Specify an output directory so that originals do not get modified:

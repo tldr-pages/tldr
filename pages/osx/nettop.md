@@ -1,7 +1,6 @@
 # nettop
 
 > Display updated information about the network.
-> There are no options to get help or version.
 > More information: <https://www.manpagez.com/man/1/nettop/>.
 
 - Monitor TCP and UDP sockets from all interfaces:

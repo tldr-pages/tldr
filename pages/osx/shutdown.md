@@ -1,7 +1,6 @@
 # shutdown
 
 > Shutdown and reboot the system.
-> There are no options to get help or version.
 > More information: <https://ss64.com/osx/shutdown.html>.
 
 - Power off (halt) immediately:

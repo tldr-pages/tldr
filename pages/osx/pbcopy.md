@@ -1,7 +1,6 @@
 # pbcopy
 
 > Place standard output in the clipboard.
-> There are no options to get help or version.
 > More information: <https://ss64.com/osx/pbcopy.html>.
 
 - Place the contents of a file in the clipboard:

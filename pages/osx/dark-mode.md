@@ -1,7 +1,6 @@
 # dark-mode
 
 > Control macOS dark mode from the command-line.
-> Get help: dark-mode --help.
 > More information: <https://github.com/sindresorhus/dark-mode>.
 
 - Toggle dark mode (turn it on if it's currently off, off if it's currently on):

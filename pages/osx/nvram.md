@@ -1,7 +1,6 @@
 # nvram
 
 > Manipulate firmware variables.
-> There are no options to get help or version.
 > More information: <https://ss64.com/osx/nvram.html>.
 
 - [p]rint all the variables stored in the NVRAM:

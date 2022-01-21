@@ -2,7 +2,6 @@
 
 > Event Monitor service that accepts events from various services, runs them through a simple rules engine, and takes action.
 > The actions can run commands, send email, or SMS messages.
-> There are no options to get help or version.
 > More information: <https://www.manpagez.com/man/8/emond/>.
 
 - Start the daemon:

@@ -1,7 +1,6 @@
 # m
 
 > Swiss Army Knife for macOS.
-> Get help: m help.
 > More information: <https://github.com/rgcr/m-cli>.
 
 - Get the battery status:

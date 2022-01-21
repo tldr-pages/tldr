@@ -2,7 +2,6 @@
 
 > Show who is logged on and what they are doing.
 > Print user login, TTY, remote host, login time, idle time, current process.
-> There are no options to get help or version.
 > More information: <https://ss64.com/osx/w.html>.
 
 - Show logged-in users info:

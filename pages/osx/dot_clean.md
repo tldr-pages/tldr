@@ -1,7 +1,6 @@
 # dot_clean
 
 > Merge ._* files with corresponding native files.
-> Get help: dot_clean -h.
 > More information: <https://ss64.com/osx/dot_clean.html>.
 
 - Merge all `._*` files recursively:
