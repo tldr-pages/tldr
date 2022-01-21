@@ -6,4 +6,4 @@
 
 - Delete an existing group:
 
-`groupdel {{group_name}}`
+`sudo groupdel {{group_name}}`

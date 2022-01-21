@@ -6,12 +6,12 @@
 
 - Create a new group:
 
-`groupadd {{group_name}}`
+`sudo groupadd {{group_name}}`
 
 - Create a new system group:
 
-`groupadd --system {{group_name}}`
+`sudo groupadd --system {{group_name}}`
 
 - Create a new group with the specific groupid:
 
-`groupadd --gid {{id}} {{group_name}}`
+`sudo groupadd --gid {{id}} {{group_name}}`
