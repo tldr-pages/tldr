@@ -2,6 +2,7 @@
 
 > Remove a user account or remove a user from a group.
 > Note: all commands must be executed as root.
+> See also: `users`, `useradd`, `usermod`.
 > More information: <https://manned.org/userdel>.
 
 - Remove a user:
