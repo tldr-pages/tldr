@@ -6,7 +6,7 @@
 
 - Execute commands:
 
-`awk '{ print gensub("apple", "mango", "g") }'`
+`awk '{{{ print gensub("apple", "mango", "g") }}}'`
 
 - Execute a script:
 
@@ -14,7 +14,7 @@
 
 - Execute commands with the specified field separator:
 
-`awk -F "{{,}}" '{ print $1 }'`
+`awk -F "{{,}}" '{{{ print $1 }}}'`
 
 - Replace a string with the specified replacement for all lines:
 
