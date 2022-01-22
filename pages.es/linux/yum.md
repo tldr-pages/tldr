@@ -15,7 +15,7 @@
 
 `yum provides {{command}}`
 
-- Elimina un paquete
+- Elimina un paquete:
 
 `yum remove {{package}}`
 
