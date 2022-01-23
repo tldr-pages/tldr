@@ -1,6 +1,7 @@
 # xterm
 
 > Emulator terminal untuk sistem window X.
+> Informasi lebih lanjut: <https://manned.org/xterm>.
 
 - Membuka terminal dengan judul `Example`:
 
