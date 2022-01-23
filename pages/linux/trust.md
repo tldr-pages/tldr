@@ -13,7 +13,7 @@
 
 - Store a specific trust anchor in the trust policy store:
 
-`trust anchor {{path/to/certificate.crt}]`
+`trust anchor {{path/to/certificate.crt}}`
 
 - Remove a specific anchors from the trust policy store:
 
