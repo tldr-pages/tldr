@@ -1,6 +1,7 @@
 # xterm
 
 > A terminal emulator for the X Window System.
+> More information: <https://manned.org/xterm>.
 
 - Open the terminal with a title of `Example`:
 
