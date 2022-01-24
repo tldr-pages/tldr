@@ -1,7 +1,7 @@
 # yum
 
 > Administrador de paquetes para RHEL, CentOS y Fedora (para versiones anteriores).
-> Más información: <https://man7.org/linux/man-pages/man8/yum.8.html>.
+> Más información: <https://manned.org/yum>.
 
 - Instala un nuevo paquete:
 
