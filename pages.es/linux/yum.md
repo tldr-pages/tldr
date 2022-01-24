@@ -23,6 +23,6 @@
 
 `yum check-update`
 
-- Actualice los paquetes instalados a las versiones más recientes disponibles:
+- Actualiza los paquetes instalados a las versiones más recientes disponibles:
 
 `yum upgrade`
