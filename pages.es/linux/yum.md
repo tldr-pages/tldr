@@ -7,7 +7,7 @@
 
 `yum install {{package}}`
 
-- Instala un nuevo paquete respondiendo si a todas las preguntas:
+- Instala un nuevo paquete respondiendo si a todas las preguntas (también trabaja con actualizaciones, util para actualizaciones automáticas):
 
 `yum -y install {{package}}`
 
