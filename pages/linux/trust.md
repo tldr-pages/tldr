@@ -15,7 +15,7 @@
 
 `trust anchor {{path/to/certificate.crt}}`
 
-- Remove a specific anchors from the trust policy store:
+- Remove a specific anchor from the trust policy store:
 
 `trust anchor --remove {{path/to/certificate.crt}}`
 
