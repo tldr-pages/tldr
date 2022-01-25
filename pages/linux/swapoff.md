@@ -1,6 +1,7 @@
 # swapoff
 
 > Disables device or file for swapping.
+> More information: <https://manned.org/swapoff>.
 
 - Disable a given swap partition:
 
