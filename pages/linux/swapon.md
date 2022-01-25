@@ -1,6 +1,7 @@
 # swapon
 
 > Enables device or file for swapping.
+> More information: <https://manned.org/swapon>.
 
 - Get swap information:
 
