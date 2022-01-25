@@ -3,7 +3,7 @@
 > Tool for managing links between ports in pipewire.
 > More information: <https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Virtual-Devices>.
 
-- Display the help page:
+- Display help:
 
 `pw-link -h`
 
