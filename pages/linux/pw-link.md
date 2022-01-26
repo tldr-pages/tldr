@@ -1,6 +1,6 @@
 # pw-link
 
-> Tool for managing links between ports in pipewire.
+> Manage links between ports in PipeWire.
 > More information: <https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Virtual-Devices>.
 
 - Display help:
