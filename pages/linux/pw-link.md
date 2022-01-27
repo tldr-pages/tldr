@@ -11,7 +11,7 @@
 
 `pw-link --output --input'`
 
-- Create a link between an output and an input ports:
+- Create a link between an output and an input port:
 
 `pw-link {{output_port_name}} {{input_port_name}}`
 
