@@ -26,4 +26,4 @@
 
 - Ejecuta un subcomando de Git con la configuración definida:
 
-`git -c '{{clave.de.configuración}}={{valor}}' {{subcomando}}`
+`git -c '{{config.clave}}={{valor}}' {{subcomando}}`
