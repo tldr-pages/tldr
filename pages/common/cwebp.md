@@ -3,15 +3,15 @@
 > Compress an image file to a WebP file
 > More information: <https://developers.google.com/speed/webp/docs/cwebp>.
 
-- Compress a WebP with default (quality = 75) settings:
+- Compress a WebP with default settings (q = 75) to the [o]utput file:
 
 `cwebp {{path/to/image_file}} -o {{path/to/output.webp}}`
 
-- Compress a WebP with the best quality and largest file size:
+- Compress a WebP with the best [q]uality and largest file size:
 
 `cwebp {{path/to/image_file}} -o {{path/to/output.webp}} -q {{100}}`
 
-- Compress a WebP with the worst quality and smallest file size:
+- Compress a WebP with the worst [q]uality and smallest file size:
 
 `cwebp {{path/to/image_file}} -o {{path/to/output.webp}} -q {{0}}`
 
