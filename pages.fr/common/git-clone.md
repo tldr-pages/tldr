@@ -1,24 +1,36 @@
 # git clone
 
-> Clone un dépôt existant.
+> Cloner un dépôt existant.
 > Plus d'informations : <https://git-scm.com/docs/git-clone>.
 
-- Clone un dépôt existant :
+- Cloner un dépôt existant :
 
-`git clone {{location_du_depot_distant}}`
+`git clone {{emplacement_du_depot_distant}}`
 
-- Clone un dépôt existant et ses sous-modules :
+- Cloner un dépôt existant dans un répertoire spécifique:
 
-`git clone --recursive {{location_du_depot_distant}}`
+`git clone {{emplacement_du_depot_distant}} {{chemin/vers/repertoire}}`
 
-- Clone un dépôt local :
+- Cloner un dépôt existant et ses sous-modules :
 
-`git clone -l`
+`git clone --recursive {{emplacement_du_depot_distant}}`
 
-- Clone silencieusement :
+- Cloner un dépôt local :
 
-`git clone -q`
+`git clone -l {{chemin/vers/depot/local`
 
-- Clone un dépôt existant en ne récupérant que les 10 commits les plus récents sur la branche par défaut (plus rapide) :
+- Cloner silencieusement :
 
-`git clone --depth {{10}} {{location_du_depot_distant}}`
+`git clone -q {{emplacement_du_depot_distant}}`
+
+- Cloner un dépôt existant en ne récupérant que les 10 commits les plus récents sur la branche par défaut (plus rapide):
+
+`git clone --depth {{10}} {{emplacement_du_depot_distant}}`
+
+- Cloner un dépôt existant en ne récupérant qu'une branche spécifique:
+
+`git clone --branch {{nom}} --single-branch {{emplacement_du_depot_distant}}`
+
+- Cloner un dépôt existant en utilisant une commande SSH spécifique:
+
+`git clone --config core.sshCommand="{{ssh -i chemin/vers/clef_ssh_privee}}" {{emplacement_du_depot_distant}}`
