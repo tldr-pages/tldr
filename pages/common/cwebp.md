@@ -1,6 +1,6 @@
 # cwebp
 
-> Compress an image file to a WebP file
+> Compress an image file to a WebP file.
 > More information: <https://developers.google.com/speed/webp/docs/cwebp>.
 
 - Compress a WebP with default settings (q = 75) to the [o]utput file:
