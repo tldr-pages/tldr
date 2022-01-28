@@ -17,7 +17,7 @@
 
 - Cloner un dépôt local :
 
-`git clone -l {{chemin/vers/depot/local`
+`git clone -l {{chemin/vers/depot/local}}`
 
 - Cloner silencieusement :
 
