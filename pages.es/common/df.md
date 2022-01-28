@@ -1,6 +1,6 @@
 # df
 
-> Entrega información general del uso de espacio de disco en sistemas de archivos.
+> Entrega información general del uso de espacio en disco del sistema de archivos.
 > Más información: <https://www.gnu.org/software/coreutils/df>.
 
 - Muestra todos los sistemas de archivos y sus usos de disco:

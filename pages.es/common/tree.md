@@ -23,11 +23,11 @@
 
 `tree -s -h --du`
 
-- Imprime archivos dentro de la jerarquía de árbol, especificando un patrón comodín, y excluye los directorios que no contengan archivos coincidentes:
+- Imprime archivos dentro de la jerarquía de árbol, especificando un patrón comodín, excluyendo los directorios que no contengan archivos coincidentes:
 
 `tree -P '{{*.txt}}' --prune`
 
-- Imprime archivos dentro de la jerarquía de árbol, especificando un patrón, y excluye los directorios que no sean ancestros del especificado:
+- Imprime archivos dentro de la jerarquía de árbol, especificando un patrón, excluyendo los directorios que no sean ancestros del especificado:
 
 `tree -P {{nombre_del_directorio}} --matchdirs --prune`
 

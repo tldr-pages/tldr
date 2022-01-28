@@ -3,19 +3,19 @@
 > Utilidad de consulta para DNS.
 > Más información: <https://manned.org/dig>.
 
-- Consulta la(s) IP(s) asociadas a un nombre de equipo (récords A):
+- Consulta la(s) IP(s) asociadas a un nombre de equipo (registros A):
 
 `dig +short {{example.com}}`
 
-- Obtiene una respuesta detallada para un dominio determinado (ŕecords A):
+- Obtiene una respuesta detallada para un dominio determinado (registros A):
 
 `dig +noall +answer {{example.com}}`
 
-- Consulta un tipo de récord DNS específico asociado a un dominio determinado:
+- Consulta un tipo de registro DNS específico asociado a un dominio determinado:
 
 `dig +short {{example.com}} {{A|MX|TXT|CNAME|NS}}`
 
-- Obtiene todos los tipos de récords para un dominio determinado:
+- Obtiene todos los tipos de registros para un dominio determinado:
 
 `dig {{example.com}} ANY`
 
@@ -23,11 +23,11 @@
 
 `dig @{{8.8.8.8}} {{example.com}}`
 
-- Realiza una búsqueda DNS inversa para una dirección IP (récord PTR):
+- Realiza una búsqueda DNS inversa para una dirección IP (registro PTR):
 
 `dig -x {{8.8.8.8}}`
 
-- Encuentra servidores de nombre autoritativos para la zona y muestra récords SOA:
+- Encuentra servidores de nombre autoritativos para la zona y muestra registros SOA:
 
 `dig +nssearch {{example.com}}`
 
