@@ -1,7 +1,7 @@
 # addr2line
 
 > Konvertiere Adressen von Binärdateien in Dateinamen und Zeilennummern.
-> Mehr Informationen: <https://manned.org/addr2line>.
+> Weitere Informationen: <https://manned.org/addr2line>.
 
 - Zeige den Dateinamen und die Zeilennummer des Quellcodes von einer Befehlssadresse einer ausführbaren Datei an:
 

@@ -1,7 +1,7 @@
 # spotify
 
 > Interface de linha de comando para Spotify.
-> Mais informação: <https://github.com/hnarayanan/shpotify>.
+> Mais informações: <https://github.com/hnarayanan/shpotify>.
 
 - Procura uma música por nome e reprouz:
 
