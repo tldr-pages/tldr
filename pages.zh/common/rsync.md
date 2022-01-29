@@ -1,7 +1,7 @@
 # rsync
 
 > 一种快速，通用，远程（和本地）文件复制工具。
-> 更多信息：<https://man7.org/linux/man-pages/man1/rsync.1.html>.
+> 更多信息：<https://manned.org/rsync>.
 
 - 从本地传输文件到远程主机：
 

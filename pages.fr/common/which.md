@@ -1,6 +1,7 @@
 # which
 
 > Localise un programme dans le chemin de l'utilisateur.
+> Plus d'informations : <https://manned.org/which>.
 
 - Fouille la variable d'environnement « PATH » et affiche l'emplacement des programmes exécutables correspondants à la requête :
 

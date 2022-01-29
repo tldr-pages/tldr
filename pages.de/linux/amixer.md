@@ -1,7 +1,7 @@
 # amixer
 
 > Mixer für den ALSA Soundkarten-Treiber.
-> Mehr Informationen: <https://manned.org/amixer>.
+> Weitere Informationen: <https://manned.org/amixer>.
 
 - Erhöhe den Gesamtpegel um 10%:
 

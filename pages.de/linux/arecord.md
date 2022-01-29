@@ -1,7 +1,7 @@
 # arecord
 
 > Sound Recorder für den ALSA Soundkarten Treiber.
-> Mehr Informationen: <https://manned.org/arecord>.
+> Weitere Informationen: <https://manned.org/arecord>.
 
 - Nehme einen Schnipsel in "CD" Qualität auf (beende die Aufnahme mit CTRL-C):
 
