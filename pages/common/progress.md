@@ -15,6 +15,6 @@
 
 `{{command}} & progress --monitor --pid $!`
 
-- Include estimate of time remaining for completion:
+- Include an estimate of time remaining for completion:
 
 `progress --wait --command {{firefox}}`
