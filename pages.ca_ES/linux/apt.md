@@ -24,7 +24,7 @@
 
 `sudo apt remove {{paquet}}`
 
-- Actualitza tots els paquets a les noves versions disponibles:
+- Actualitza tots els paquets instal·lats a les noves versions disponibles:
 
 `sudo apt upgrade`
 

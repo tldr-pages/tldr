@@ -5,16 +5,16 @@
 
 - Afegeix un nou repositori apt:
 
-`apt-add-repository {{repositorio}}`
+`apt-add-repository {{repositori}}`
 
 - Elimina un repositori apt:
 
-`apt-add-repository --remove {{repositorio}}`
+`apt-add-repository --remove {{repositori}}`
 
 - Actualiza la memoria cau de paquets després d'afegir un repositori:
 
-`apt-add-repository --update {{repositorio}}`
+`apt-add-repository --update {{repositori}}`
 
 - Activar les fonts de paquets:
 
-`apt-add-repository --enable-source {{repositorio}}`
+`apt-add-repository --enable-source {{repositori}}`
