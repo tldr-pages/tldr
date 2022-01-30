@@ -3,7 +3,9 @@
 > Eina de gestió de paquets per a distribucions basades en Debian.
 > Es recomana substituïr-lo per `apt-get` quan es faci servir interactivament en Ubuntu 16.04 o en versions posteriors.
 > Més informació: <https://manpages.debian.org/latest/apt/apt.8.html>.
+
 - Actualitza la llista de paquets i versions disponbles (es recomana executar aquest comandament abans que qualsevol altre `apt`):
+
 `sudo apt update`
 
 - Busca un paquet:
@@ -14,7 +16,7 @@
 
 `apt show {{paquet}}`
 
-- Instala un paquet o l'actualitza a la última versió disponible:
+- Instala un paquet o l'actualitza a l'última versió disponible:
 
 `sudo apt install {{paquet}}`
 
