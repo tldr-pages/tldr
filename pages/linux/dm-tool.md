@@ -1,7 +1,7 @@
 # dm-tool
 
 > A tool to commnicate with the display manager. EG: lock currect session and show lightdm, list all open sessions, connect an existing x server to the display manager.
-> More information: <https://manned.org/dm-tool.1>.
+> More information: <https://manned.org/dm-tool>.
 
 - Show the greeter while keeping current desktop session in ram and waiting to be restored upon autentication by logged in user:
 
