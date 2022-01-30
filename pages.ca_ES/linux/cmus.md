@@ -4,22 +4,22 @@
 > Utilitzeu les tecles de direcció per navegar, `<enter/return>` per seleccionar, i els y los números 1-8 per canviar entre les diferents vistes.
 > Més informació: <https://cmus.github.io>.
 
-- Obre cmus en un directorio concreto:
+- Obre cmus en un directori concret:
 
-`cmus {{ruta/al/directorio}}`
+`cmus {{ruta/al/directori}}`
 
-- Añade un archivo/directorio a la librería:
+- Afegeix un arxiu/directori a la llibreria:
 
-`:add {{ruta/al/archivo_o_directorio}}`
+`:add {{ruta/al/arxiu_o_directori}}`
 
-- Pausa/reproduce la canción actual:
+- Pausa/reprodueix la cançó actual:
 
 `c`
 
-- Activa/desactiva modo aleatorio:
+- Activa/desactiva mode aleatori:
 
 `s`
 
-- Cierra cmus:
+- Tanca cmus:
 
 `q`
