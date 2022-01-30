@@ -19,6 +19,6 @@
 
 `lsusb -D {{dispositiu}}`
 
-- Llista només dispositius amb un ID d'ensamblador i producte determinat:
+- Llista només dispositius amb un ID d'assemblador i producte determinat:
 
-`lsusb -d {{ensamblador}}:{{producte}}`
+`lsusb -d {{assemblador}}:{{producte}}`
