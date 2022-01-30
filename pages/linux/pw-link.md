@@ -3,10 +3,6 @@
 > Manage links between ports in PipeWire.
 > More information: <https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Virtual-Devices>.
 
-- Display help:
-
-`pw-link -h`
-
 - List all audio output and input ports:
 
 `pw-link --output --input'`
@@ -18,3 +14,7 @@
 - Disconnect two ports:
 
 `pw-link --disconnect {{output_port_name}} {{input_port_name}}`
+
+- Display help:
+
+`pw-link -h`
