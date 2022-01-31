@@ -17,4 +17,4 @@
 
 - Add a new X server instance:
 
-`dm-tool add-seat [{{name}}={{value}}]`
+`dm-tool add-seat {{xlocal}} {{name}}={{value}}`
