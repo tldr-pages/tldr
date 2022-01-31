@@ -7,7 +7,7 @@
 
 `cwebp {{path/to/image_file}} -o {{path/to/output.webp}}`
 
-- Compress a WebP with the best [q]uality and largest file size:
+- Compress a WebP file with the best [q]uality and largest file size:
 
 `cwebp {{path/to/image_file}} -o {{path/to/output.webp}} -q {{100}}`
 
