@@ -13,7 +13,7 @@
 
 - Swicth to a specific user, showing an authentication prompt if required:
 
-`dm-tool switch-to-user {{username}} [{{session}}]`
+`dm-tool switch-to-user {{username}} {{session}}`
 
 - Add a new X server instance:
 
