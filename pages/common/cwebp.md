@@ -11,7 +11,7 @@
 
 `cwebp {{path/to/image_file}} -o {{path/to/output.webp}} -q {{100}}`
 
-- Compress a WebP with the worst [q]uality and smallest file size:
+- Compress a WebP file with the worst [q]uality and smallest file size:
 
 `cwebp {{path/to/image_file}} -o {{path/to/output.webp}} -q {{0}}`
 
@@ -19,6 +19,6 @@
 
 `cwebp {{path/to/image_file}} -o {{path/to/output.webp}} -resize {{width}} {{height}}`
 
-- Compress a WebP and drop alpha channel information:
+- Compress a WebP file and drop alpha channel information:
 
 `cwebp {{path/to/image_file}} -o {{path/to/output.webp}} -noalpha`
