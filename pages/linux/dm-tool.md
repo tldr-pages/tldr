@@ -15,6 +15,6 @@
 
 `dm-tool switch-to-user {{username}} {{session}}`
 
-- Add a new X server instance:
+- Add a dynamic seat from within a running LightDM session:
 
 `dm-tool add-seat {{xlocal}} {{name}}={{value}}`
