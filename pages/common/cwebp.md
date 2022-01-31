@@ -3,7 +3,7 @@
 > Compress an image file to a WebP file.
 > More information: <https://developers.google.com/speed/webp/docs/cwebp>.
 
-- Compress a WebP with default settings (q = 75) to the [o]utput file:
+- Compress a WebP file with default settings (q = 75) to the [o]utput file:
 
 `cwebp {{path/to/image_file}} -o {{path/to/output.webp}}`
 
