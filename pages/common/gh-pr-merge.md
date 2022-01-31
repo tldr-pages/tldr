@@ -19,6 +19,10 @@
 
 `gh pr merge --{{merge|squash|rebase}}`
 
+- Merge the current pull request with the specified merge strategy and commit message:
+
+`gh pr merge --{{merge|squash|rebase}} --subject {{commit_message}}`
+
 - Squash the current pull request into one commit with the message body and merge:
 
 `gh pr merge --squash --body="{{commit_message_body}}"`
