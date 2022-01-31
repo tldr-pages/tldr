@@ -30,3 +30,7 @@
 - Download a file:
 
 `http --download {{https://example.com}}`
+
+- Follow Redirects and show intermediary request / response:
+
+`http --follow --all {{https://example.com}}`
