@@ -15,7 +15,7 @@
 
 `cwebp {{path/to/image_file}} -o {{path/to/output.webp}} -q {{0}}`
 
-- Compress a WebP and apply resize to image:
+- Compress a WebP file and apply resize to image:
 
 `cwebp {{path/to/image_file}} -o {{path/to/output.webp}} -resize {{width}} {{height}}`
 
