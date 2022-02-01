@@ -1,9 +1,10 @@
 # turbo
 
-> High-performance Build System for JavaScript and TypeScript Codebases.
+> High-performance build system for JavaScript and TypeScript codebases.
+> See also: `nx`.
 > More information: <https://turborepo.org/docs/reference/command-line-reference>.
 
-- Log in using the default web browser:
+- Log in using the default web browser with a Vercel account:
 
 `turbo login`
 
