@@ -2,6 +2,7 @@
 
 > Generate bindings between C / C++ code and various high level languages such as JavaScript, Python, C#, and more.
 > It uses special .i or .swg files to generate the bindings (C/C++ with SWIG directives, then outputs a C/C++ file that contains all the wrapper code needed to build an extension module.
+> More information: <http://www.swig.org>.
 
 - Generate a binding between C++ and Python:
 

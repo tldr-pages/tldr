@@ -1,6 +1,7 @@
 # slimrb
 
 > Convert Slim files to HTML.
+> More information: <https://rdoc.info/gems/slim/frames#slim-command-slimrb>.
 
 - Convert a Slim file to HTML:
 
