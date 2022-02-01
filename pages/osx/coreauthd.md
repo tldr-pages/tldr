@@ -1,6 +1,6 @@
 # coreauthd
 
-> A system daemon providing the `LocalAuthentication` framework.
+> A system daemon providing the `LocalAuthentication` framework. See also: `coreautha`.
 > It should not be invoked manually.
 > More information: <https://www.manpagez.com/man/8/coreauthd/>.
 
