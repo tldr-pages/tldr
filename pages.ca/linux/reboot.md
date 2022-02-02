@@ -7,6 +7,18 @@
 
 `reboot`
 
-- Reinicia inmediatament sense fer un apagat net:
+- Apaga el sistema (el mateix que `poweroff`):
 
-`reboot -f`
+`reboot --poweroff`
+
+- Atura el sistema (el mateix que halt):
+
+`reboot --halt`
+
+- Reinicia inmediatament sense contactar l'adminstrador del sistema:
+
+`reboot --force --force`
+
+- Escriu l'entrada wtmp shutdown sense reiniciar el sistema:
+
+`reboot --wtmp-only`

@@ -1,6 +1,7 @@
 # apt-key
 
 > Eina de gestió de claus per al Gestor de Paquets APT (APT Package Manager) en Debian i Ubuntu.
+> Nota: `apt-key` és obsolet (excepte l'ús de `apt-key del` en scrits de mantenidor).
 > Més informació: <https://manpages.debian.org/latest/apt/apt-key.8.html>.
 
 - Mostra les claus de confiança:

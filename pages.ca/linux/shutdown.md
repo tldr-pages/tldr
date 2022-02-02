@@ -5,10 +5,6 @@
 
 - Deté inmediatament:
 
-`shutdown -H now`
-
-- Apaga inmediatament:
-
 `shutdown -h now`
 
 - Reinicia inmediatament:

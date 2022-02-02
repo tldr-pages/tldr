@@ -23,6 +23,10 @@
 
 `sudo dnf install -y {{paquet}}`
 
+- Desinstal·la un paquet:
+
+`sudo dnf remove {{paquet}}`
+
 - Llista tots els paquets instal·lats:
 
 `dnf list --installed`

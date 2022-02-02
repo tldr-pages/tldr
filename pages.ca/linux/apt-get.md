@@ -1,4 +1,4 @@
-# apt-get
+t# apt-get
 
 > Eina de gestió de paquets per a distribucions basades en Debian.
 > Busca paquets utilizant `apt-cache`.
@@ -23,6 +23,10 @@
 - Actualitza tots els paquets instal·lats a les noves versions disponibles:
 
 `apt-get upgrade`
+
+- Neteja el repositori local - eliminant fitxers de paquet (`.deb`) de descàrregues interrompudes que ja no es poden descarregar:
+
+`apt-get autoclean`
 
 - Elimina tots els paquets inneccessaris:
 

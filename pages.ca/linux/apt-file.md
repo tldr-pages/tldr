@@ -14,3 +14,7 @@
 - Mostra el contingut del paquet especificat:
 
 `apt-file list {{nom_paquet}}`
+
+- Busca paquets que igualin l'expressió regular donada en `patró`:
+
+`apt-file {{search|find}} --regexp {{expressió_regular}}`
