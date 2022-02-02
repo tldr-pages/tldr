@@ -9,4 +9,4 @@
 
 - Mengevaluasi konten pada file yang ditentukan (`.` alternatif dari `source`)
 
-`. {{path/to/file}}`
+`. {{jalan/menuju/file}}`
