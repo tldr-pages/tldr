@@ -15,6 +15,10 @@
 
 `meson compile -C {{path/to/build_dir}}`
 
+- Run all tests in the project:
+
+`meson test`
+
 - Show the help:
 
 `meson --help`
