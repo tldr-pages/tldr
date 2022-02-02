@@ -5,7 +5,7 @@
 
 - Mengevaluasi konten pada file yang ditentukan:
 
-`source {{path/to/file}}`
+`source {{jalan/menuju/file}}`
 
 - Mengevaluasi konten pada file yang ditentukan (`.` alternatif dari `source`)
 
