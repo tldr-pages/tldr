@@ -21,7 +21,7 @@
 
 - Start an HTTPS server on the default port using the specified certificate:
 
-`serve --ssl-cert path/to/cert.pem --ssl-key path/to/key.pem`
+`serve --ssl-cert {{path/to/cert.pem}} --ssl-key {{path/to/key.pem}}`
 
 - Start an HTTP server on the default port using a specific configuration file:
 
