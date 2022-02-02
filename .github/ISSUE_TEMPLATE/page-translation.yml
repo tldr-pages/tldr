@@ -1,7 +1,7 @@
 name: 📄 Page request
 title: "page translation: "
 description: Page translation request template
-labels: new command
+labels: new command, translation
 body:
   - type: textarea
     attributes:
