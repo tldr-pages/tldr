@@ -1,7 +1,7 @@
 # npx
 
 > Führt Binärdateien von `npm` Paketen aus.
-> Weitere Informationen: <https://www.npmjs.com/package/npx>.
+> Weitere Informationen: <https://github.com/npm/npx>.
 
 - Führe die Binärdatei eines übergebenen npm Pakets aus:
 
