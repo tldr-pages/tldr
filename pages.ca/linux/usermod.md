@@ -8,7 +8,7 @@
 
 `sudo_usermod -l {{nou_nom_usuari}} {{nom_usuari}}`
 
-- Canvia l'id d'usuari
+- Canvia l'id d'usuari:
 
 `sudo_usermod --uid {{id}} {{nom_usuari}}`
 

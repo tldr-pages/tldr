@@ -1,4 +1,4 @@
-t# apt-get
+# apt-get
 
 > Eina de gestió de paquets per a distribucions basades en Debian.
 > Busca paquets utilizant `apt-cache`.
