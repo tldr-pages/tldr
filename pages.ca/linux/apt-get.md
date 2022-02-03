@@ -32,6 +32,6 @@
 
 `apt-get autoremove`
 
-- Actualitza paquets instal·lats (com `upgrade`), però elimina els paquets obsolets i instala paquets adicionals per satisfer les dependències:
+- Actualitza paquets instal·lats (com `upgrade`), però elimina els paquets obsolets i instal·la paquets adicionals per satisfer les dependències:
 
 `apt-get dist-upgrade`
