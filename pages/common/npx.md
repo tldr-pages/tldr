@@ -5,12 +5,20 @@
 
 - Execute the binary from a given npm module:
 
-`npx {{module_name}}`
+`npx {{module_name}} {{command_arguments}}`
 
 - In case a package has multiple binaries, specify the package name along with the binary:
 
-`npx -p {{package_name}} {{module_name}}`
+`npx --package {{package_name}} {{module_name}}`
 
-- View help contents:
+- Run a command if existis in the current path or in `node_modules/.bin`:
+
+`npx --no-install {{command}} {{command_arguments}}`
+
+- Execute the binary from a given npm module suppressing any output from `npx` itself:
+
+`npx --quiet {{module_name}} {{command_arguments}}`
+
+- Display help:
 
 `npx --help`
