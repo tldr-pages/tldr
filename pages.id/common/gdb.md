@@ -5,20 +5,20 @@
 
 - Menjalankan debug pada sebuah berkas yang dapat dieksekusi:
 
-`gdb {{berkas-exe}}`
+`gdb {{berkas_exe}}`
 
-- menambahkan sebuah proses pada gdb:
+- Menambahkan sebuah proses pada gdb:
 
-`gdb -p {{berkas-exe}}`
+`gdb -p {{berkas_exe}}`
 
 - Menjalankan debug dengan berkas core:
 
-`gdb -c {{core}} {{berkas-exe}}`
+`gdb -c {{core}} {{berkas_exe}}`
 
 - Mengeksekusi perintah GDB pada saat dijanlakan:
 
-`gdb -ex "{{perintah}}" {{berkas-exe}}`
+`gdb -ex "{{perintah}}" {{berkas_exe}}`
 
 - Menjalankan gdb dan melemparkan argumen pada berkas yang dieksekusi:
 
-`gdb --args {{berkas-exe}} {{argumen1}} {{argumen2}}`
+`gdb --args {{berkas_exe}} {{argumen1}} {{argumen2}}`
