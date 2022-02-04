@@ -11,7 +11,7 @@
 
 `lerna bootstrap`
 
-- Run `npm run {{script}}` for every package that contains that `{{script}}`:
+- Run a specific script for every package that contains it in its `package.json`:
 
 `lerna run {{script}}`
 
