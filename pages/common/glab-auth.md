@@ -7,9 +7,9 @@
 
 `glab auth login`
 
-- Log in with a token (created in https://gitlab.com/-/profile/personal_access_tokens):
+- Log in with a token:
 
-`glab auth login --token {{your_token}}`
+`glab auth login --token {{token}}`
 
 - Check authentication status:
 
