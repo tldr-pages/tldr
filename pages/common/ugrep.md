@@ -2,7 +2,7 @@
 
 > Ultra fast search tool with query UI, fuzzy search and more.
 > Try also `ugrep --help {{something}}`.
-> More information: <https://github.com/Genivia/ugrep>
+> More information: <https://github.com/Genivia/ugrep>.
 
 - Start a [q]uery TUI to search files in the working directory recursively (CTRL-Z for help):
 

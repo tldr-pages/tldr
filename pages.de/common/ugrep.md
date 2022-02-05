@@ -1,5 +1,7 @@
+# ugrep
+
 > Ultraschnelles Suchtool mit Abfrage-UI.
-> Weitere Informationen: <https://github.com/Genivia/ugrep>
+> Weitere Informationen: <https://github.com/Genivia/ugrep>.
 
 - Ausführen das interaktives Suchtool TUI (CTRL-Z um Hilfe):
 
