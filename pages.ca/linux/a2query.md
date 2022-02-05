@@ -1,7 +1,7 @@
 # a2query
 
 > Recupera la configuració del temps d'execució d'Apache en sistemes operatius basats en Debian.
-> Més Informació: <https://manpages.debian.org/latest/apache2/a2query.html>.
+> Més informació: <https://manpages.debian.org/latest/apache2/a2query.html>.
 
 - Llista mòduls Apache activats:
 

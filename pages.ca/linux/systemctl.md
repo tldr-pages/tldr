@@ -21,7 +21,7 @@
 
 - Habilita/Deshabilita una unitat perquè s'inicii en l'arrencada:
 
-`systemctl {{enable/disable}} {{unitat}}`
+`systemctl {{enable|disable}} {{unitat}}`
 
 - Enmascara/Desenmascara una unitat per evitar la seva habilitació i activació manual:
 

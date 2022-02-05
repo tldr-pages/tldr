@@ -1,7 +1,7 @@
 # a2enconf
 
 > Activa un fitxer de configuració d'Apache en sistemes operatius basats en debian.
-> Més Informació: <https://manpages.debian.org/latest/apache2/a2enconf.8.en.html>.
+> Més informació: <https://manpages.debian.org/latest/apache2/a2enconf.8.en.html>.
 
 - Activa un fitxer de configuració:
 
