@@ -12,3 +12,7 @@ See also https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md
 - [ ] The page description includes a link to documentation or a homepage (if applicable).
 
 **Version of the command being documented (if known):**
+
+## ToDo
+
+- [ ] Describe changes you are going to make or already finished via this [task list](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-task-lists#about-task-lists).
