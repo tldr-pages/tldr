@@ -10,6 +10,7 @@ The templates can be changed when necessary.
 [ar](#ar) •
 [bn](#bn) •
 [bs](#bs) •
+[ca](#ca) • 
 [da](#da) •
 [de](#de) •
 [es](#es) •
@@ -80,6 +81,19 @@ Not translated yet.
 > Ova komanda je pseudonim za `example`.
 
 - Pogledaj dokumentaciju za izvornu komandu:
+
+`tldr example`
+```
+
+---
+### ca
+
+```markdown
+# example
+
+> Aquest comandament és un àlies de `example`.
+
+- Veure documentació pel comandament original:
 
 `tldr example`
 ```
