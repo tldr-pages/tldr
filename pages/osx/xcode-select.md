@@ -2,6 +2,7 @@
 
 > Switch between different versions of Xcode and the included developer tools.
 > Also used to update the path to Xcode if it is moved after installation.
+> More information: <https://developer.apple.com/library/archive/technotes/tn2339/_index.html>.
 
 - Install Xcode's command-line tools:
 
