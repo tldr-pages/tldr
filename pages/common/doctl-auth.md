@@ -15,7 +15,7 @@
 
 `doctl auth switch --context {{token_label}}`
 
-- Remove a context (API token):
+- Remove a stored authentication context (API token):
 
 `doctl auth remove --context {{token_label}}`
 
