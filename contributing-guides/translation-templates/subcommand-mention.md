@@ -9,6 +9,7 @@ This file contains the translation templates of this notice.
 [ar](#ar) •
 [bn](#bn) •
 [bs](#bs) •
+[ca](#ca) •
 [da](#da) •
 [de](#de) •
 [es](#es) •
@@ -62,6 +63,13 @@ Not translated yet.
 ### bs
 
 Not translated yet.
+
+---
+### ca
+
+```markdown
+Alguns subcomandaments com `example command` tenen la seva pròpia documentació.
+```
 
 ---
 ### da
