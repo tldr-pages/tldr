@@ -22,3 +22,11 @@
 - Reload Bash profile with enabled error/warning/entire logging:
 
 `bash-it doctor {{errors|warnings|all}}`
+
+- Search for Bash-it aliases/plugins/completions:
+
+`bash-it search {{alias|plugin|completion}}`
+
+- Search for Bash-it aliases/plugins/completions and enable/disable all found items:
+
+`bash-it search --{{enable|disable}} {{alias|plugin|completion}}`
