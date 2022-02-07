@@ -21,4 +21,4 @@
 
 - Get sync status of a specific file or folder:
 
-`maestral filestatus {{local_path}}`
+`maestral filestatus {{path/to/file_or_directory}}`
