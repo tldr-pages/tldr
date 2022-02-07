@@ -7,7 +7,7 @@
 
 `maestral gui`
 
-- Get current status of Maestral:
+- Print current status of Maestral:
 
 `maestral status`
 
