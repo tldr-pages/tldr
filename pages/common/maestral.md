@@ -1,6 +1,7 @@
 # maestral
 
 > Maestral is a lightweight Dropbox client for macOS and Linux.
+> More information: <https://maestral.app/cli>.
 
 - Start the GUI:
 
