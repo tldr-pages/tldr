@@ -19,6 +19,6 @@
 
 `maestral resume`
 
-- Get sync status of a specific file or folder:
+- Print sync status of a specific file or folder:
 
 `maestral filestatus {{path/to/file_or_directory}}`
