@@ -31,6 +31,6 @@
 
 `docker-compose logs --follow`
 
-- Sigue los registros de  un contenedor específico:
+- Sigue los registros de un contenedor específico:
 
 `docker-compose logs --follow {{nombre_de_contenedor}}`
