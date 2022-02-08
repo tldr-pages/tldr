@@ -1,6 +1,6 @@
 # xidel
 
-> A command line tool to download and extract data from HTML/XML pages as well as JSON APIs.
+> Download and extract data from HTML/XML pages as well as JSON APIs.
 > More information: <https://www.videlibri.de/xidel.html>.
 
 - Print all URLs found by a google search:
@@ -23,9 +23,9 @@
 
 `xidel {{https://example.org}} -f "{{<a>{.}</a>*}}" -e "{{<title>{.}</title>}}"`
 
-- If you have an example.xml file, you can read the important part like (which will also check, if the element containing "ood" is there, and fail otherwise):
+- Read the pattern from example.xml (which will also check if the element containing "ood" is there, and fail otherwise):
 
-`xidel {{example.xml}} -e "{{<x><foo>ood</foo><bar>{.}</bar></x>}}"`
+`xidel {{path/to/example.xml}} -e "{{<x><foo>ood</foo><bar>{.}</bar></x>}}"`
 
 - Print all newest Stackoverflow questions with title and url using pattern matching on their RSS feed:
 
