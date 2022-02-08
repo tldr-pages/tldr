@@ -1,7 +1,7 @@
 # pdftoppm
 
 > Convert PDF document pages to Portable Pixmap (image formats).
-> More information: <https://linux.die.net/man/1/pdftoppm>.
+> More information: <https://manned.org/pdftoppm>.
 
 - Specify the first page to convert:
 
