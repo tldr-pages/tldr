@@ -14,3 +14,7 @@
 - Muestra todos los commits fusionados en un commit específico:
 
 `git rev-list --merges {{commit}}`
+
+- Imprime el número de commits desde una etiqueta específica:
+
+`git rev-list {{nombre_de_la_etiqueta}}..HEAD --count`
