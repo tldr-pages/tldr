@@ -5,7 +5,7 @@
 
 - Specify the range of pages to convert (N-first page, M-last page):
 
-`pdftoppm -f {{N}} -l {{M}} {{file.pdf}} {{image_name_prefix}}`
+`pdftoppm -f {{N}} -l {{M}} {{path/to/file.pdf}} {{image_name_prefix}}`
 
 - Convert only the first page:
 
