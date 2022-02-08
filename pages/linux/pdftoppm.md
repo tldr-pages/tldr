@@ -9,7 +9,7 @@
 
 - Convert only the first page:
 
-`pdftoppm -singlefile {{file.pdf}} {{image_name_prefix}}`
+`pdftoppm -singlefile {{path/to/file.pdf}} {{image_name_prefix}}`
 
 - Generate a monochrome PBM file (instead of a color PPM file):
 
