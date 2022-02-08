@@ -11,15 +11,15 @@
 
 `xidel {{https://www.google.com/search?q=test}} --follow "{{//a/extract(@href, 'url[?]q=([^&]+)&', 1)[. != '']}}" --extract {{//title}} --download {{'{$host}/'}}`
 
-- Follow all links on a page and print the titles, With XPath:
+- Follow all links on a page and print the titles, with XPath:
 
 `xidel {{https://example.org}} -f {{//a}} -e {{//title}}`
 
-- Follow all links on a page and print the titles, With CSS selectors:
+- Follow all links on a page and print the titles, with CSS selectors:
 
 `xidel {{https://example.org}} -f "{{css('a')}}" --css {{title}}`
 
-- Follow all links on a page and print the titles, With pattern matching:
+- Follow all links on a page and print the titles, with pattern matching:
 
 `xidel {{https://example.org}} -f "{{<a>{.}</a>*}}" -e "{{<title>{.}</title>}}"`
 
