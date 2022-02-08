@@ -13,12 +13,12 @@
 
 - Generate a monochrome PBM file (instead of a color PPM file):
 
-`pdftoppm -mono {{file.pdf}} {{image_name_prefix}}`
+`pdftoppm -mono {{path/to/file.pdf}} {{image_name_prefix}}`
 
 - Generate a grayscale PGM file (instead of a color PPM file):
 
-`pdftoppm -gray {{file.pdf}} {{image_name_prefix}}`
+`pdftoppm -gray {{path/to/file.pdf}} {{image_name_prefix}}`
 
 - Generate a PNG file instead a PPM file:
 
-`pdftoppm -png {{file.pdf}} {{image_name_prefix}}`
+`pdftoppm -png {{path/to/file.pdf}} {{image_name_prefix}}`
