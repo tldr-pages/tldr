@@ -3,11 +3,11 @@
 > Download and extract data from HTML/XML pages as well as JSON APIs.
 > More information: <https://www.videlibri.de/xidel.html>.
 
-- Print all URLs found by a google search:
+- Print all URLs found by a Google search:
 
 `xidel https://www.google.com/search?q=test --extract "//a/extract(@href, 'url[?]q=([^&]+)&', 1)[. != '']"`
 
-- Print the title of all pages found by a google search and download them:
+- Print the title of all pages found by a Google search and download them:
 
 `xidel {{https://www.google.com/search?q=test}} --follow "{{//a/extract(@href, 'url[?]q=([^&]+)&', 1)[. != '']}}" --extract {{//title}} --download {{'{$host}/'}}`
 
@@ -27,7 +27,7 @@
 
 `xidel {{path/to/example.xml}} -e "{{<x><foo>ood</foo><bar>{.}</bar></x>}}"`
 
-- Print all newest Stackoverflow questions with title and url using pattern matching on their RSS feed:
+- Print all newest Stack Overflow questions with title and URL using pattern matching on their RSS feed:
 
 `xidel {{http://stackoverflow.com/feeds}} -e "{{<entry><title>{title:=.}</title><link>{uri:=@href}</link></entry>+}}"`
 
