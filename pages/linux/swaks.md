@@ -7,11 +7,11 @@
 
 `swaks --to {{user@example.com}} --server {{test-server.example.net}}`
 
-- Deliver a standard test email, requiring CRAM-MD5 authentication as user me@example.com. An "X-Test" header will be added to the email body. The authentication password will be prompted for if it cannot be obtained from your .netrc file.
+- Deliver a standard test email, requiring CRAM-MD5 authentication as user me@example.com. An "X-Test" header will be added to the email body. The authentication password will be prompted for if it cannot be obtained from your .netrc file:
 
 `swaks --to {{user@example.com}} --from {{me@example.com}} --auth {{CRAM-MD5}} --auth-user {{me@example.com}} --header-X-Test {{"test email"}}`
 
-- Test a virus scanner using EICAR in an attachment. Don't show the message DATA part.:
+- Test a virus scanner using EICAR in an attachment. Don't show the message DATA part:
 
 `swaks -t {{user@example.com}} --attach - --server {{test-server.example.com}} --suppress-data {{/path/to/eicar.txt}}`
 
@@ -19,6 +19,6 @@
 
 `swaks --to {{user@example.com}} --body {{/path/to/gtube/file}}`
 
-- Deliver a standard test email to user@example.com using the LMTP protocol via a UNIX domain socket file
+- Deliver a standard test email to user@example.com using the LMTP protocol via a UNIX domain socket file:
 
 `swaks --to {{user@example.com}} --socket {{/var/lda.sock}} --protocol {{LMTP}}`
