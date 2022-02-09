@@ -7,7 +7,7 @@
 
 `pdftoppm -f {{N}} -l {{M}} {{path/to/file.pdf}} {{image_name_prefix}}`
 
-- Convert only the first page:
+- Convert only the first page of a PDF:
 
 `pdftoppm -singlefile {{path/to/file.pdf}} {{image_name_prefix}}`
 
