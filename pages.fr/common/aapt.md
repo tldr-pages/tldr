@@ -8,7 +8,7 @@
 
 `aapt list {{chemin/vers/app.apk}}`
 
-- Affiche les metadatas d'une application (version, permissions, etc.) :
+- Affiche les metadatas d'une application (version, autorisations, etc.):
 
 `aapt dump badging {{chemin/vers/app.apk}}`
 
