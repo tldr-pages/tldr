@@ -1,9 +1,9 @@
 # bash-it
 
-> Bash-it is a collection of community Bash commands and scripts for Bash 3.2+.
+> A collection of community Bash commands and scripts for Bash 3.2+.
 > More information: <https://bash-it.readthedocs.io/en/latest/>.
 
-- Update Bash-it version to the latest stable/development one:
+- Update Bash-it to the latest stable/development version:
 
 `bash-it update {{stable|dev}}`
 
@@ -11,7 +11,7 @@
 
 `bash-it reload`
 
-- Restart Bash entirely:
+- Restart Bash:
 
 `bash-it restart`
 
