@@ -15,6 +15,6 @@
 
 `gdal_translate -outsize {{40%}} {{40%}} {{elevation.tif}} {{small.tif}}`
 
-- Convert a GeoTiff to a Cloud Optimzed GeoTiff.
+- Convert a GeoTiff to a Cloud Optimzed GeoTiff:
 
 `gdal_translate {{input.tif}} {{output.tif}} -of COG -co COMPRESS=LZW`
