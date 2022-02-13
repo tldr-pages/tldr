@@ -21,4 +21,4 @@ See also https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md
 Please tick this box after the CI has reported no issues
 -->
 
-- [] Resolved issue(s) reported from tldr-bot (if applicable).
+- [ ] Resolved issue(s) reported from tldr-bot (if applicable).
