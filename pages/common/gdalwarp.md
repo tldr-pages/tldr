@@ -17,4 +17,4 @@
 
 - Crop a raster datasets by features of a vector layer:
 
-`gdalwarp -cutline {{path/to/countries.shp}} -cwhere {{"NAME IN ('Germany', 'France')"}} -crop_to_cutline {{path/to/input.tif}} {{path/to/output.tif}}``
+`gdalwarp -cutline {{path/to/countries.shp}} -cwhere {{"NAME IN ('Germany', 'France')"}} -crop_to_cutline {{path/to/input.tif}} {{path/to/output.tif}}`
