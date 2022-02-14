@@ -3,7 +3,7 @@
 > Intel(R) Enclosure LED Control Application.
 > More information: <https://manned.org/ledctl>.
 
-- Turn on the Locate LED for the device(s):
+- Turn on the "Locate" LED for the device(s):
 
 `sudo ledctl locate={{/dev/sda,/dev/sdb}}`
 
