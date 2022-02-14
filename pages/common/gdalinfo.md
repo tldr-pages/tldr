@@ -11,7 +11,7 @@
 
 `gdalinfo {{path/to/input.tif}}`
 
-- List information about a raster dataset as JSON:
+- List information about a raster dataset in JSON format:
 
 `gdalinfo -json {{path/to/input.tif}}`
 
@@ -19,10 +19,10 @@
 
 `gdalinfo -hist {{path/to/input.tif}}`
 
-- List information about a Web Map Service(WMS):
+- List information about a Web Map Service (WMS):
 
 `gdalinfo WMS:{{https://services.meggsimum.de/geoserver/ows}}`
 
-- List information about a specific dataset of a Web Map Service(WMS):
+- List information about a specific dataset of a Web Map Service (WMS):
 
 `gdalinfo WMS:{{https://services.meggsimum.de/geoserver/ows}} -sd {{4}}`
