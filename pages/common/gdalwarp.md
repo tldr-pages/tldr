@@ -5,7 +5,7 @@
 
 - Reproject a raster dataset:
 
-`gdalwarp -t_srs {{EPSG:4326}} {{input.tif}} {{output.tif}}`
+`gdalwarp -t_srs {{EPSG:4326}} {{path/to/input.tif}} {{path/to/output.tif}}`
 
 - Crop a raster dataset by coordinates:
 

@@ -5,8 +5,8 @@
 
 - Create a vector dataset with contour lines every 100 meter and name the elevation property "ele":
 
-`gdal_contour -a {{ele}} -i {{100.0}} {{input.tif}} {{output.gpkg}}`
+`gdal_contour -a {{ele}} -i {{100.0}} {{path/to/input.tif}} {{path/to/output.gpkg}}`
 
 - Create a vector dataset with polygons every 100 meter:
 
-`gdal_contour -i {{100.0}} -p {{input.tif}} {{output.gpkg}}`
+`gdal_contour -i {{100.0}} -p {{path/to/input.tif}} {{path/to/output.gpkg}}`

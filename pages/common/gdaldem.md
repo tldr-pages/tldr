@@ -1,11 +1,11 @@
 # gdaldem
 
-> Tool to analyze and visualize digital elevation models(DEM).
+> Tool to analyze and visualize DEM (digital elevation models).
 > More information: <https://gdal.org/programs/gdaldem.html>.
 
 - Create a hillshade from a DEM:
 
-`gdaldem hillshade {{input.tif}} {{output.tif}}`
+`gdaldem hillshade {{path/to/input.tif}} {{path/to/output.tif}}`
 
 - Compute the slope of a DEM:
 
