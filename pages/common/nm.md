@@ -5,15 +5,15 @@
 
 - List global (extern) functions in a file (prefixed with T):
 
-`nm --extern-only {{path/to/file.o}}`
+`nm -g {{path/to/file.o}}`
 
 - List only undefined symbols in a file:
 
-`nm --undefined-only {{path/to/file.o}}`
+`nm -u {{path/to/file.o}}`
 
 - List all symbols, even debugging symbols:
 
-`nm --debug-syms {{path/to/file.o}}`
+`nm -a {{path/to/file.o}}`
 
 - Demangle C++ symbols (make them readable):
 
