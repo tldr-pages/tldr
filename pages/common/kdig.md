@@ -1,7 +1,7 @@
 # kdig
 
 > Advanced DNS lookup utility.
-> More information: https://manned.org/kdig.
+> More information: <https://manned.org/kdig>.
 
 - Get A records for example.com:
 
