@@ -5,4 +5,4 @@
 
 - Build overview images of a raster dataset with "average" resampling:
 
-`gdaladdo -r {{average}} {{path/to/file.tif}}`
+`gdaladdo -r {{average}} {{path/to/input.tif}}`

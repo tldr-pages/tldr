@@ -9,8 +9,8 @@
 
 - Compute the slope of a DEM:
 
-`gdaldem slope {{input.tif}} {{output.tif}}`
+`gdaldem slope {{path/to/input.tif}} {{path/to/output.tif}}`
 
 - Compute the aspect of a DEM:
 
-`gdaldem aspect {{input.tif}} {{output.tif}}`
+`gdaldem aspect {{path/to/input.tif}} {{path/to/output.tif}}`

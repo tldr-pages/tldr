@@ -9,15 +9,15 @@
 
 - List information about a raster dataset:
 
-`gdalinfo {{input.tif}}`
+`gdalinfo {{path/to/input.tif}}`
 
 - List information about a raster dataset as JSON:
 
-`gdalinfo -json {{input.tif}}`
+`gdalinfo -json {{path/to/input.tif}}`
 
 - Show histogram values of a raster dataset:
 
-`gdalinfo -hist {{input.tif}}`
+`gdalinfo -hist {{path/to/input.tif}}`
 
 - List information about a Web Map Service(WMS):
 
