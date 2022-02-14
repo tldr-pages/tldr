@@ -1,23 +1,23 @@
 # wc
 
 > Count lines, words, or bytes.
-> More information: <https://www.gnu.org/software/coreutils/wc>.
+> More information: <https://ss64.com/osx/wc.html>.
 
 - Count lines in file:
 
-`wc --lines {{path/to/file}}`
+`wc -l {{path/to/file}}`
 
 - Count words in file:
 
-`wc --words {{path/to/file}}`
+`wc -w {{path/to/file}}`
 
 - Count characters (bytes) in file:
 
-`wc --bytes {{path/to/file}}`
+`wc -c {{path/to/file}}`
 
 - Count characters in file (taking multi-byte character sets into account):
 
-`wc --chars {{path/to/file}}`
+`wc -m {{path/to/file}}`
 
 - Use standard input to count lines, words and characters (bytes) in that order:
 
