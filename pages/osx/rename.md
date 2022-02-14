@@ -1,7 +1,7 @@
 # rename
 
 > Rename a file or group of files with a regular expression.
-> More information: <https://man7.org/linux/man-pages/man1/rename.1.html>.
+> More information: <https://www.manpagez.com/man/2/rename/>.
 
 - Replace `from` with `to` in the filenames of the specified files:
 

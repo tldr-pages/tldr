@@ -1,7 +1,7 @@
 # open
 
 > Opens files, directories and applications.
-> More information: <https://www.unix.com/man-page/osx/1/open/>.
+> More information: <https://ss64.com/osx/open.html>.
 
 - Open a file with the associated application:
 
