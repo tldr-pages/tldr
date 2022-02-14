@@ -17,4 +17,4 @@
 
 - Connect to a particular Wi-Fi network:
 
-`networksetup -setairportnetwork {{en0}} "{{Airport Network SSID}}" {{password}}`
+`networksetup -setairportnetwork {{en0}} {{Airport Network SSID}} {{password}}`

@@ -13,4 +13,4 @@
 
 - Print the system serial number:
 
-`system_profiler SPHardwareDataType|grep "Serial Number (system)" |awk '{print $4}'`
+`system_profiler SPHardwareDataType|grep "Serial Number (system)" | awk '{ print $4 }'`

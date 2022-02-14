@@ -17,4 +17,4 @@
 
 - Print a checksum of the given string:
 
-`md5 -s {{string}}`
+`md5 -s "{{string}}"`

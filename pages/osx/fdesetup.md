@@ -1,7 +1,7 @@
 # fdesetup
 
 > Set and retrieve FileVault related information.
-> Main information: <https://www.unix.com/man-page/mojave/8/fdesetup/>.
+> More information: <https://www.unix.com/man-page/mojave/8/fdesetup/>.
 
 - List current FileVault enabled users:
 

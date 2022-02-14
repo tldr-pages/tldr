@@ -9,7 +9,7 @@
 
 - Specify timezone, NTP Server and enable network time:
 
-`systemsetup -settimezone {{US/Pacific}} -setnetworktimeserver {{us.pool.ntp.org}} -setusingnetworktime on`
+`systemsetup -settimezone "{{US/Pacific}}" -setnetworktimeserver {{us.pool.ntp.org}} -setusingnetworktime on`
 
 - Make the machine never sleep and automatically restart on power failure or kernel panic:
 
