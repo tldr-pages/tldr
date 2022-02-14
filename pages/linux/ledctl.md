@@ -1,6 +1,6 @@
 # ledctl
 
-> Storage enclosure LED control application.
+> Intel(R) Enclosure LED Control Application.
 > More information: <https://manned.org/ledctl.8>.
 
 - Turn on the Locate LED for the device(s). 
