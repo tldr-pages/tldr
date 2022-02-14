@@ -9,12 +9,12 @@
 
 - Crop a raster dataset by coordinates:
 
-`gdalwarp -te {{min_x}} {{min_y}} {{max_x}} {{max_y}} -te_srs {{EPSG:4326}} {{input.tif}} {{output.tif}}`
+`gdalwarp -te {{min_x}} {{min_y}} {{max_x}} {{max_y}} -te_srs {{EPSG:4326}} {{path/to/input.tif}} {{path/to/output.tif}}`
 
 - Crop a raster dataset by a vector layer:
 
-`gdalwarp -cutline {{aoi.geojson}} -crop_to_cutline {{world.tif}} {{out.tif}}`
+`gdalwarp -cutline {{path/to/area_to_cut.geojson}} -crop_to_cutline {{path/to/input.tif}} {{path/to/output.tif}}`
 
 - Crop a raster datasets by features of a vector layer:
 
-`gdalwarp -cutline {{countries.shp}} -cwhere {{"NAME IN ('Germany', 'France')"}} -crop_to_cutline {{input.tif}} {{many_countries.tif}}`
+`gdalwarp -cutline {{path/to/countries.shp}} -cwhere {{"NAME IN ('Germany', 'France')"}} -crop_to_cutline {{path/to/input.tif}} {{path/to/output.tif}}``
