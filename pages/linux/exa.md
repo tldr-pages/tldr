@@ -20,4 +20,4 @@
 
 - List directories before other files:
 
-`exa -la --group-directories-first
+`exa -la --group-directories-first`
