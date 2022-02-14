@@ -1,7 +1,7 @@
 # networksetup
 
 > Configuration tool for Network System Preferences.
-> More information: <https://www.manpagez.com/man/8/networksetup/>.
+> More information: <https://support.apple.com/guide/remote-desktop/about-networksetup-apdd0c5a2d5/mac>.
 
 - List available network service providers (Ethernet, Wi-Fi, Bluetooth, etc):
 

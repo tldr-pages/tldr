@@ -1,6 +1,7 @@
 # su
 
 > Kabuk ortamında başka bir kullanıcıya geçiş yapın.
+> Daha fazla bilgi: <https://manned.org/su>.
 
 - Süper kullanıcıya geçin (kök şifresi gerektirir):
 

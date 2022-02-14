@@ -2,6 +2,7 @@
 
 > Show status info about runlevels.
 > See also `openrc`.
+> More information: <https://manned.org/rc-status>.
 
 - Show a summary of services and their status:
 

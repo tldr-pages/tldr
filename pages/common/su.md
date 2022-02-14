@@ -1,6 +1,7 @@
 # su
 
 > Switch shell to another user.
+> More information: <https://manned.org/su>.
 
 - Switch to superuser (requires the root password):
 

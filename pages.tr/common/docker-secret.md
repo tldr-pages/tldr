@@ -1,7 +1,7 @@
 # docker secret
 
 > Docker swarm sırlarını yönet.
-> Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/secret/>.
+> Daha fazla bilgi: <https://docs.docker.com/engine/reference/commandline/secret/>.
 
 - stdin'den yeni bir sır yarat:
 

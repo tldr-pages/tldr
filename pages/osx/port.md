@@ -1,7 +1,7 @@
 # port
 
 > Package manager for macOS.
-> More information: <https://www.thegeekstuff.com/2014/01/mac-osx-port-command/>.
+> More information: <https://www.macports.org>.
 
 - Search for a package:
 

@@ -1,7 +1,7 @@
 # explorer
 
 > Windows File Explorer: penjelajah file pada Windows.
-> Informasi Lebih Lanjut: <https://ss64.com/nt/explorer.html>.
+> Informasi lebih lanjut: <https://ss64.com/nt/explorer.html>.
 
 - Membuka Windows Explorer:
 

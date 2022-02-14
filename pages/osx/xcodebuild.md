@@ -1,7 +1,7 @@
 # xcodebuild
 
 > Build Xcode projects.
-> More information: <https://www.manpagez.com/man/1/xcodebuild/>.
+> More information: <https://developer.apple.com/library/archive/technotes/tn2339/_index.html>.
 
 - Build workspace:
 

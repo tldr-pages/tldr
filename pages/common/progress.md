@@ -13,4 +13,8 @@
 
 - Launch and monitor a single long-running command:
 
-`{{command}} & progress -mp $!`
+`{{command}} & progress --monitor --pid $!`
+
+- Include an estimate of time remaining for completion:
+
+`progress --wait --command {{firefox}}`

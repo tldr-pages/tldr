@@ -1,7 +1,7 @@
 # xfce4-screenshooter
 
 > XFCE4 ekran görüntüsü aracı.
-> Daha fazla bilgi için: <https://docs.xfce.org/apps/xfce4-screenshooter/start>.
+> Daha fazla bilgi: <https://docs.xfce.org/apps/xfce4-screenshooter/start>.
 
 - Ekran görüntüsü alma grafik arayüzünü başlat:
 

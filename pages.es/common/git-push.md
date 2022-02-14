@@ -15,6 +15,10 @@
 
 `git push {{nombre_remoto}} -u {{rama_remota}}`
 
+- Envia los cambios locales de una rama específica a una rama específica en el remoto:
+
+`git push {{nombre_remoto}} {{rama_local}}:{{rama_remota}}`
+
 - Envia los cambios de todas las ramas locales a sus respectivas ramas en el repositorio remoto:
 
 `git push --all {{nombre_remoto}}`
