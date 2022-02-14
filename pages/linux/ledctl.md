@@ -15,6 +15,6 @@
 
 `sudo ledctl off={{/dev/sda,/dev/sdb}}`
 
-- Turn off the Status LED, Failure LED and Locate LED for the given device(s):
+- Turn off the "Status" LED, "Failure" LED and "Locate" LED for the given device(s):
 
 `sudo ledctl normal={{/dev/sda,/dev/sdb}}`
