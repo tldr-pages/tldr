@@ -1,6 +1,6 @@
 # for
 
-> Conditionally perform a command several times.
+> Perform a command several times.
 > More information: <https://www.gnu.org/software/bash/manual/bash.html#Looping-Constructs>.
 
 - Execute given commands for the specified set:
