@@ -11,7 +11,7 @@
 
 `chsh {{path/to/shell}}`
 
-- Change the login shell for a given user to Zsh:
+- Change the login shell for a given user:
 
 `chsh --shell {{path/to/shell}} {{username}}`
 
