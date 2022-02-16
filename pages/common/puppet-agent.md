@@ -22,3 +22,12 @@
 - Log every resource being evaluated (even if nothing is being changed):
 
 `puppet agent --test --evaltrace`
+
+- Disable puppet agent
+
+`puppet agent --disable "<your message>"
+`
+
+- Enable puppet agent
+
+`puppet agent --enable`
