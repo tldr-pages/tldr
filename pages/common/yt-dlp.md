@@ -8,7 +8,7 @@
 
 `yt-dlp "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
-- Download best format that contains video, and if it doesn't already have an audio stream, merge it with best audio-only format (Default):
+- Download a video with a defined format. In this case merging the best video format with the best audio format (Default):
 
 `yt-dlp --format "{{bv*+ba/b}}" "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
