@@ -25,8 +25,7 @@
 
 - Disable puppet agent
 
-`puppet agent --disable "<your message>"
-`
+`puppet agent --disable "<your message>"`
 
 - Enable puppet agent
 
