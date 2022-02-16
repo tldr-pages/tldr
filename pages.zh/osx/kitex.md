@@ -5,20 +5,20 @@
 > 并支持生成一个服务端项目的骨架。
 > 更多信息: <https://www.cloudwego.io>.
 
-> 语法: kitex [options] IDL
+语法: kitex [options] IDL
 
-- 生成客户端代码。（默认：项目在 `$GOPATH` 目录下）
+- 生成客户端代码，项目在 `$GOPATH` 目录下：
 
 `kitex path_to_your_idl.thrift`
 
-- 生成客户端代码。（项目不在 `$GOPATH` 目录下。）
+- 生成客户端代码，项目不在 `$GOPATH` 目录下：
 
 ` kitex -module [github.com/xx-org/xx-name] path_to_your_idl.thrift`
 
-- 根据 protobuf IDL 文件生成客户端代码。
+- 根据 protobuf IDL 文件生成客户端代码：
 
 `kitex -type protobuf path_to_your_idl.proto`
 
-- 生成服务端代码。
+- 生成服务端代码：
 
 `kitex -service [svc-name] path_to_your_idl.thrift`
