@@ -23,10 +23,10 @@
 
 `puppet agent --test --evaltrace`
 
-- Disable puppet agent
+- Disable the agent:
 
-`puppet agent --disable "<your message>"`
+`puppet agent --disable "{{message}}"`
 
-- Enable puppet agent
+- Enable the agent:
 
 `puppet agent --enable`
