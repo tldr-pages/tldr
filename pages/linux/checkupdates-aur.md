@@ -1,6 +1,6 @@
 # checkupdates-aur
 
-> Tool to check pending updates in Arch User Repository (AUR).
+> Tool to check pending updates from the Arch User Repository (AUR).
 > More information: <https://metacpan.org/dist/OS-CheckUpdates-AUR>.
 
 - List pending updates for AUR packages:
