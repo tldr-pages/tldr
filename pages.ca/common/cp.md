@@ -5,7 +5,7 @@
 
 - Copia un fitxer a un altre directori:
 
-`cp {camí/al/fitxer_origen.ext}} {{camí/al/fitxer_destí.ext}}`
+`cp {{camí/al/fitxer_origen.ext}} {{camí/al/fitxer_destí.ext}}`
 
 - Copia un fitxer a un altre directori, mantenint el nom:
 
