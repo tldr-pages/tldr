@@ -1,8 +1,7 @@
 # kitex
 
-> kitex is a command line tool for code generation provided by the RPC framework Kitex.
-> At present, kitex accepts both thrift and protobuf IDLs,
-> and supports generating a skeleton of a server side project.
+> Kitex is a command line tool for code generation provided by the Go RPC framework Kitex.
+> At present, kitex accepts both thrift and protobuf IDLs, and supports generating a skeleton of a server side project.
 > More information: <https://www.cloudwego.io>.
 
 - Generate client codes when a project is in `$GOPATH`:
