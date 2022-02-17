@@ -9,7 +9,7 @@
 
 - Allow warnings, debug symbols in output:
 
-`gcc {{source.c}} -Wall -Og --output {{executable}}`
+`gcc {{source.c}} -Wall -g --output {{executable}}`
 
 - Include libraries from a different path:
 
