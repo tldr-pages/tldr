@@ -1,6 +1,6 @@
 # createrepo
 
-> Initializes an RPM repository in the given directory, including all XML and SQLite.
+> Initializes an RPM repository in the given directory, including all XML and SQLite files.
 > More information: <https://linux.die.net/man/8/createrepo>.
 
 - Initialize a basic repository in a directory:
