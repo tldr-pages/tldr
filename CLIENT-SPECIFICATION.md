@@ -85,7 +85,9 @@ The main version of every page is stored inside (but not directly) the `pages` d
    - `osx/`
    - ...etc.
 
-Additional platforms MAY be added in the future. Clients MAY NOT support new platforms (though such support is RECOMMENDED), but MUST NOT break if additional platforms are added.
+It is RECOMMENDED that clients support `macos` as an alias for `osx`.
+
+While clients do not need to support new platforms automatically (though such support is RECOMMENDED), they MUST NOT break if additional platforms are added to tldr-pages.
 
 The pages themselves reside inside the appropriate platform folder, with the extension `.md`. Here are some example mappings:
 
@@ -223,6 +225,9 @@ including the changes. NOTE: tagging of the commit with a new version tag (in
 the form `vX.Y`) should be done immediately AFTER merging the version bump, as
 the commit hash changes when merging with squash or rebase.
 -->
+
+ - Unreleased
+   -  Add recommendation to support `macos` alias for `osx` ([#7514](https://github.com/tldr-pages/tldr/pull/7514))
 
  - [v1.5, March 17th 2021](https://github.com/tldr-pages/tldr/blob/v1.5/CLIENT-SPECIFICATION.md) ([#5428](https://github.com/tldr-pages/tldr/pull/5428))
    - Add requirement for converting command names to lowercase before running the page resolution algorithm.
