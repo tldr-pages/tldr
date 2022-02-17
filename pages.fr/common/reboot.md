@@ -1,7 +1,7 @@
 # reboot
 
 > Réinitialiser le système
-> Plus d'informations: https://www.man7.org/linux/man-pages/man8/reboot.8.html
+> Plus d'informations : <https://www.man7.org/linux/man-pages/man8/reboot.8.html>.
 
 - Réinitialiser le système normalement
 
