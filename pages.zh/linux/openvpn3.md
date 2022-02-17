@@ -1,7 +1,8 @@
 # openvpn3
 
 > OpenVPN 3 Linux 客户端。
-> 更多信息： <https://community.openvpn.net/openvpn/wiki/OpenVPN3Linux>.
+> 更多信息：<https://community.openvpn.net/openvpn/wiki/OpenVPN3Linux>.
+
 - 打开一个新的 VPN 会话：
 
 `openvpn3 session-start --config {{path/to/config.conf}}`
