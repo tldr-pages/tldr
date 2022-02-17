@@ -5,20 +5,18 @@
 > and supports generating a skeleton of a server side project.
 > More information: <https://www.cloudwego.io>.
 
-Syntax: kitex [options] IDL
+- Generate client codes when a project is in `$GOPATH`:
 
-- Generate client codes,if your project in `$GOPATH`:
+`kitex {{path/to/IDL_file.thrift}}`
 
-`kitex path_to_your_idl.thrift`
+- Generate client codes when a project is not in `$GOPATH`:
 
-- Generate client codes,your project Outside of `$GOPATH`:
-
-` kitex -module github.com/xx-org/xx-name path_to_your_idl.thrift`
+` kitex -module {{github.com/xx-org/xx-name}} {{path/to/IDL_file.thrift}}`
 
 - Generate client codes with protobuf IDL:
 
-`kitex -type protobuf path_to_your_idl.proto`
+`kitex -type protobuf {{path/to/IDL_file.proto}}`
 
 - Generate server codes:
 
-`kitex -service [svc-name] path_to_your_idl.thrift`
+`kitex -service {{svc_name}} {{path/to/IDL_file.thrift}}`
