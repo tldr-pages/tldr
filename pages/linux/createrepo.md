@@ -3,7 +3,7 @@
 > Initializes an RPM repository in the given directory, including all XML and SQLite.
 > More information: <https://linux.die.net/man/8/createrepo>.
 
-- Initialize basic repository in a directory
+- Initialize a basic repository in a directory:
 
 `createrepo /path/to/directory`
 
