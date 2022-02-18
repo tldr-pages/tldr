@@ -6,7 +6,7 @@
 
 - 生成客户端代码，项目在 `$GOPATH` 目录下：
 
-`kitex {{path/to/IDL_file.thrift}}`
+`kitex {{路径/到/IDL文件.thrift}}`
 
 - 生成客户端代码，项目不在 `$GOPATH` 目录下：
 
