@@ -14,7 +14,7 @@
 
 - 根据 protobuf IDL 文件生成客户端代码：
 
-`kitex -type protobuf {{path/to/IDL_file.proto}}`
+`kitex -type protobuf {{路径/到/IDL文件.proto}}`
 
 - 生成服务端代码：
 
