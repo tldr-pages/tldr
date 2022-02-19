@@ -7,7 +7,7 @@
 
 `chsh`
 
-- Change the current user's login shell:
+- Change the login shell of the current user:
 
 `chsh -s {{path/to/shell}}`
 
