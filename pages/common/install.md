@@ -23,3 +23,7 @@
 - Copy files and apply access/modification times of source to the destination:
 
 `install --preserve-timestamps {{path/to/source}} {{path/to/destination}}`
+
+- Copy files and create the directories in the path if they don't exist
+
+`install -D {{path/to/source}} {{path/to/destination}}`
