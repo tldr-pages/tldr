@@ -11,6 +11,6 @@
 
 `createrepo -v -x {{test_*.rpm}} {{path/to/directory}}`
 
-- Initialize a repository, using SHA1 as the checksum algorithm, and ignore symbolic links:
+- Initialize a repository, using SHA1 as the checksum algorithm, and ignoring symbolic links:
 
 `createrepo -S -s {{sha1}} {{path/to/directory}}`
