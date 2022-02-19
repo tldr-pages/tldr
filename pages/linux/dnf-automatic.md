@@ -5,11 +5,11 @@
 
 - Override config file and only notify of available updates:
 
-`systemctl enable --now dnf-automatic-notifyonly.timer`
+`sudo systemctl enable --now dnf-automatic-notifyonly.timer`
 
 - Run with default config file:
 
-`systemctl enable --now dnf-automatic.timer`
+`sudo systemctl enable --now dnf-automatic.timer`
 
 - Use dnf-automatic in a custom systemd timer:
 
