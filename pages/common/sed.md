@@ -4,7 +4,7 @@
 > See also: `awk`, `ed`.
 > More information: <https://manned.org/sed.1>.
 
-- Execute commands:
+- Execute an expression:
 
 `sed '{{s/apple/mango/g}}'`
 
@@ -12,7 +12,7 @@
 
 `sed --file={{path/to/script.sed}}`
 
-- Execute an expression, enabling extended regular expressions:
+- Execute an expression with enabled extended regular expressions:
 
 `sed --regexp-extended '{{s/(apple)/\U\1/g}}'`
 
