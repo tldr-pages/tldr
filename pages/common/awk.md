@@ -16,7 +16,7 @@
 
 `awk --lint --file {{path/to/script.awk}}`
 
-- Execute an AWK expression with the specified field separator:
+- Execute an expression with the specified field separator:
 
 `awk --field-separator="{{,}}" '{{{ print $1 }}}'`
 
