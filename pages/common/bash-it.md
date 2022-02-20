@@ -1,6 +1,6 @@
 # bash-it
 
-> A collection of community Bash commands and scripts for Bash 3.2+.
+> A collection of community contributed Bash commands and scripts for Bash 3.2+.
 > More information: <https://bash-it.readthedocs.io/en/latest/>.
 
 - Update Bash-it to the latest stable/development version:
