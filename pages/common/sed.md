@@ -12,15 +12,15 @@
 
 `sed --file={{path/to/script.sed}}`
 
-- Execute commands with enabled extended regular expressions:
+- Execute an expression, enabling extended regular expressions:
 
 `sed --regexp-extended '{{s/(apple)/\U\1/g}}'`
 
-- Execute commands without automatic buffer printing:
+- Execute an expression without automatic buffer printing:
 
 `sed --quiet '{{1p}}'`
 
-- Execute commands and replace file with it's output:
+- Execute an expression and replace a file with it's output:
 
 `sed --in-place '{{s/apple/mango/g}}' {{path/to/file}}`
 

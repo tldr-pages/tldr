@@ -4,7 +4,7 @@
 > See also: `sed`, `ed`.
 > More information: <https://manned.org/awk.1>.
 
-- Execute commands:
+- Execute an expression:
 
 `awk '{{{ print gensub("apple", "mango", "g") }}}'`
 
@@ -16,7 +16,7 @@
 
 `awk --lint --file {{path/to/script.awk}}`
 
-- Execute commands with the specified field separator:
+- Execute an AWK expression with the specified field separator:
 
 `awk --field-separator="{{,}}" '{{{ print $1 }}}'`
 

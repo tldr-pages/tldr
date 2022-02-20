@@ -4,7 +4,7 @@
 > See also: `sed`, `ed`.
 > More information: <https://manned.org/man/freebsd-13.0/awk.1>.
 
-- Execute commands:
+- Execute an expression:
 
 `awk '{{{ print gensub("apple", "mango", "g") }}}'`
 
@@ -12,7 +12,7 @@
 
 `awk -f {{path/to/script.awk}}`
 
-- Execute commands with the specified field separator:
+- Execute an expression with the specified field separator:
 
 `awk -F "{{,}}" '{{{ print $1 }}}'`
 
