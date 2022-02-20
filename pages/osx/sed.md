@@ -16,7 +16,7 @@
 
 `sed -E '{{s/(apple)/\U\1/g}}'`
 
-- Execute am expression without automatic buffer printing:
+- Execute an expression without automatic buffer printing:
 
 `sed -n '{{1p}}'`
 
