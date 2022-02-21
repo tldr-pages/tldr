@@ -19,7 +19,7 @@
 
 `standard-version --release-as {{major|minor|patch}}`
 
-- Tag a release preventing hooks from being verified during the commit step:
+- Tag a release, preventing hooks from being verified during the commit step:
 
 `standard-version --no-verify`
 
