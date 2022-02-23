@@ -1,6 +1,7 @@
 # tput
 
 > Accède et modifie les paramètres du terminal.
+> Plus d'informations : <https://manned.org/tput>.
 
 - Déplace le curseur à un endroit donné sur l'écran :
 

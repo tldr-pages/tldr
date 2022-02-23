@@ -1,6 +1,7 @@
 # screencapture
 
 > Utilitário para fazer capturas de ecrã e gravações de ecrã.
+> Mais informações: <https://ss64.com/osx/screencapture.html>.
 
 - Faz um captura de ecrã e guarda-a num ficheiro:
 

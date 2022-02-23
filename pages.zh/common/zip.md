@@ -1,7 +1,7 @@
 # zip
 
 > 将文件打包并压缩（存档）为 zip 文件。
-> 更多信息： <https://manned.org/zip>.
+> 更多信息：<https://manned.org/zip>.
 
 - 递归地打包和压缩文件和目录：
 

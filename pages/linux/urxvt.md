@@ -2,6 +2,7 @@
 
 > Rxvt-unicode.
 > A customizable terminal emulator.
+> More information: <https://manned.org/urxvt>.
 
 - Open a new urxvt window:
 

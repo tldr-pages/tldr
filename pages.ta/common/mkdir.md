@@ -1,7 +1,7 @@
 # mkdir
 
 > அடைவை உருவாக்கு.
-> மேலும் தகவல்: <https://www.gnu.org/software/coreutils/mkdir>.
+> மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/mkdir>.
 
 - அடைவொன்றைத் தற்போதைய அடைவிலோக் குறிப்பிட்ட பாதையிலோ உருவாக்கு:
 

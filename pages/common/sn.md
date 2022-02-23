@@ -1,6 +1,7 @@
 # sn
 
 > Mono StrongName utility for signing and verifying IL assemblies.
+> More information: <https://manned.org/sn>.
 
 - Generate a new StrongNaming key:
 

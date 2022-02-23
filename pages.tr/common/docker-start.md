@@ -1,7 +1,7 @@
 # docker start
 
 > Bir veya daha fazla durmuş konteyneri başlar.
-> Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/start/>.
+> Daha fazla bilgi: <https://docs.docker.com/engine/reference/commandline/start/>.
 
 - Yardım göster:
 

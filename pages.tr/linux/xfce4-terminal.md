@@ -1,7 +1,7 @@
 # xfce4-terminal
 
 > XFCE4 terminal öykünücüsü.
-> Daha fazla bilgi için: <https://docs.xfce.org/apps/xfce4-terminal/start>.
+> Daha fazla bilgi: <https://docs.xfce.org/apps/xfce4-terminal/start>.
 
 - Yeni bir terminal penceresi aç:
 

@@ -1,6 +1,7 @@
 # unalias
 
 > alias を削除します。
+> 詳しくはこちら: <https://manned.org/unalias>
 
 - alias を削除する:
 

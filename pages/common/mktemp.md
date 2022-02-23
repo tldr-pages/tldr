@@ -3,14 +3,14 @@
 > Create a temporary file or directory.
 > More information: <https://www.gnu.org/software/autogen/mktemp.html>.
 
-- Create an empty temporary file and return the absolute path to it:
+- Create an empty temporary file and print the absolute path to it:
 
 `mktemp`
 
-- Create a temporary directory and return the absolute path to it:
+- Create an empty temporary file with a given suffix and print the absolute path to file:
+
+`mktemp --suffix "{{.ext}}"`
+
+- Create a temporary directory and print the absolute path to it (non-portable long option: --directory):
 
 `mktemp -d`
-
-- Create a temporary file with a specified suffix:
-
-`mktemp --suffix "{{.txt}}"`

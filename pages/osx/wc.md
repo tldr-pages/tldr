@@ -1,7 +1,7 @@
 # wc
 
 > Count lines, words, or bytes.
-> More information: <https://www.gnu.org/software/coreutils/wc>.
+> More information: <https://ss64.com/osx/wc.html>.
 
 - Count lines in file:
 

@@ -19,6 +19,10 @@
 
 `code --reuse-window {{path/to/file_or_directory}}`
 
+- Open a file or directory in a new VS Code window:
+
+`code --new-window {{path/to/file_or_directory}}`
+
 - Compare two files in VS Code:
 
 `code -d {{file1}} {{file2}}`

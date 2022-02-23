@@ -1,20 +1,29 @@
 # bc
 
 > An arbitrary precision calculator language.
-> More information: <https://manned.org/bc>.
+> See also: `dc`.
+> More information: <https://manned.org/man/bc.1>.
 
-- Start `bc` in interactive mode using the standard math library:
+- Start an interactive session:
 
-`bc -l`
+`bc`
 
-- Calculate the result of an expression:
+- Start an interactive session with the standard math library enabled:
 
-`bc <<< "(1 + 2) * 2 ^ 2"`
+`bc --mathlib`
 
-- Calculate the result of an expression and force the number of decimal places to 10:
+- Calculate an expression:
 
-`bc <<< "scale=10; 5 / 3"`
+`echo '{{5 / 3}}' | bc`
 
-- Calculate the result of an expression with sine and cosine using `mathlib`:
+- Execute a script:
 
-`bc -l <<< "s(1) + c(1)"`
+`bc {{path/to/script.bc}}`
+
+- Calculate an expression with the specified scale:
+
+`echo 'scale = {{10}}; {{5 / 3}}' | bc`
+
+- Calculate a sine/cosine/arctangent/natural logarithm/exponential function using `mathlib`:
+
+`echo '{{s|c|a|l|e}}({{1}})' | bc --mathlib`

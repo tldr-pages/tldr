@@ -1,7 +1,7 @@
 # bluetoothctl
 
 > 从命令行管理蓝牙设备。
-> 更多信息：<https://www.npmjs.com/package/bluetoothctl>.
+> 更多信息：<https://bitbucket.org/serkanp/bluetoothctl>.
 
 - 进入 bluetoothctl 外壳程序：
 

@@ -1,6 +1,7 @@
 # xclock
 
 > Display the time in analog or digital form.
+> More information: <https://manned.org/xclock>.
 
 - Display an analog clock:
 

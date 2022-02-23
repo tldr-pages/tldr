@@ -1,6 +1,7 @@
 # wpa_supplicant
 
 > Gerenciador de redes wireless protegidas.
+> Mais informações: <https://manned.org/wpa_supplicant.1>.
 
 - Entrar em uma rede wireless protegida:
 
