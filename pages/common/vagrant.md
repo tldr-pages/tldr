@@ -34,7 +34,3 @@
 - List all local boxes:
 
 `vagrant box list`
-
-- Add the local box file to the box local list:
-
-`vagrant box add {{file.box}} --name {{name}}`
