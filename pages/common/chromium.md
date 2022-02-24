@@ -1,7 +1,7 @@
 # chromium
 
 > Open-source web browser principally developed and maintained by Google.
-> More information: <https://chromium.org>.
+> More information: <https://www.chromium.org/developers/how-tos/run-chromium-with-flags/>.
 
 - Open a specific URL or file:
 
@@ -15,7 +15,7 @@
 
 `chromium --new-window {{example.com}}`
 
-- Open in app mode (without toolbars, URL bar, buttons, etc.):
+- Open in application mode (without toolbars, URL bar, buttons, etc.):
 
 `chromium --app={{https://example.com}}`
 
