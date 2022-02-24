@@ -27,7 +27,7 @@
 
 `chromium --user-data-dir={{path/to/directory}}`
 
-- Open without CORS validation, useful to test an API:
+- Open without CORS validation (useful to test an API):
 
 `chromium --user-data-dir={{path/to/directory}} --disable-web-security`
 
