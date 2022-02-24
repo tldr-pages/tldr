@@ -5,7 +5,7 @@
 
 - Open a specific URL or file:
 
-`chromium {{url|path/to/file.html}}`
+`chromium {{https://example.com|path/to/file.html}}`
 
 - Open in incognito mode:
 
@@ -31,6 +31,6 @@
 
 `chromium --user-data-dir={{path/to/directory}} --disable-web-security`
 
-- Open and open a DevTools window for each tab opened:
+- Open with a DevTools window for each tab opened:
 
 `chromium --auto-open-devtools-for-tabs`
