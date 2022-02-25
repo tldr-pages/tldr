@@ -19,6 +19,6 @@
 
 `gow -e={{go,html}} run .`
 
-- Help
+- Display help:
 
 `gow -h`
