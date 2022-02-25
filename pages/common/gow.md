@@ -13,7 +13,7 @@
 
 - Watch subdirectories in verbose mode
 
-`gow -v -w={{dir1,dir2 ...}} run .`
+`gow -v -w={{path/to/directory1,path/to/directory2,...}} run .`
 
 - Watch the specified file extensions:
 
