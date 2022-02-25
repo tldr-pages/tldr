@@ -13,4 +13,4 @@
 
 - Use dnf-automatic in a custom systemd timer:
 
-`/usr/bin/dnf-automatic /path/to/automatic.conf --timer`
+`/usr/bin/dnf-automatic {{/path/to/automatic.conf}} --timer`
