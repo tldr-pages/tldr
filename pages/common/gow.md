@@ -7,7 +7,7 @@
 
 `gow run .`
 
-- Pass arguments to the app
+- Start the application with the specified arguments:
 
 `gow run . {{argument1 argument2 ...}}`
 
