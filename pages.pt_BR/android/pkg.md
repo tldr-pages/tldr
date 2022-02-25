@@ -13,12 +13,12 @@
 
 - Desinstala um pacote:
 
-`pkg uninstall {{package}}`
+`pkg uninstall {{pacote}}`
 
 - Reinstala um pacote:
 
-`pkg reinstall {{package}}`
+`pkg reinstall {{pacote}}`
 
 - Busca por um pacote:
 
-`pkg search {{package}}`
+`pkg search {{pacote}}`
