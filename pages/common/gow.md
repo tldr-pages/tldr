@@ -11,7 +11,7 @@
 
 `gow run . {{argument1 argument2 ...}}`
 
-- Watch subdirectories in verbose mode
+- Watch subdirectories in verbose mode:
 
 `gow -v -w={{path/to/directory1,path/to/directory2,...}} run .`
 
