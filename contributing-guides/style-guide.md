@@ -78,7 +78,9 @@ Keep the following guidelines in mind when choosing tokens:
   
 ### Flags
 
-- Always use long flags when applicable, for example instead of `fish -c`, use `fish --command`, so the reader can understand the meaning of a flag.
+- Always use long flags when available for pages in `linux/` directory. For example instead of `fish -c`, use `fish --command`, so the reader can understand the meaning of a flag.
+- Always use short flags when available for pages in `osx/` and `windows/` directories.
+- Use short flags for most used cases when available and short ones for the others. For example instead of `git commit --message`, use `git commit -m`, so the reader can type command faster.
 
 ### Special cases
 
