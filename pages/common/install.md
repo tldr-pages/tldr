@@ -24,6 +24,6 @@
 
 `install --preserve-timestamps {{path/to/source}} {{path/to/destination}}`
 
-- Copy files and create the directories in the path if they don't exist:
+- Copy files and create the directories at the destination if they don't exist:
 
 `install -D {{path/to/source}} {{path/to/destination}}`
