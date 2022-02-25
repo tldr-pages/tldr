@@ -26,7 +26,7 @@ There actually is a linter/formatter that enforces the format above.
 It is run automatically on every pull request,
 but you may install it to test your contributions locally before submitting them:
 
-```bash
+```sh
 npm install tldr-lint
 tldrl -f {{page.md}}
 ```
@@ -36,7 +36,7 @@ For other ways to use `tldrl`, such as linting an entire directory, check out (w
 
 Your client may be able to preview a page locally using the `--render` flag:
 
-```bash
+```sh
 tldr --render {{page.md}}
 ```
 
@@ -102,7 +102,7 @@ Use backticks on the following:
 
 ### Shell-specific pages
 
-If a page describes some shell (Bash for instance) then when it's possible try follow this structure:
+If a page describes a shell, when it's possible try to follow this structure:
 
 - Start an interactive shell session:
 - Start an interactive shell session without loading startup configs:
