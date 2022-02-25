@@ -17,7 +17,7 @@
 
 - Watch the specified file extensions:
 
-`gow -e={{go,html ...}} run .`
+`gow -e={{go,html}} run .`
 
 - Help
 
