@@ -9,7 +9,7 @@
 
 - Pass arguments to the app
 
-`gow run . {{arg1 arg2 ...}}`
+`gow run . {{argument1 argument2 ...}}`
 
 - Watch subdirectories in verbose mode
 
