@@ -15,7 +15,7 @@
 
 `gow -v -w={{dir1,dir2 ...}} run .`
 
-- Specify file extensions to watch
+- Watch the specified file extensions:
 
 `gow -e={{go,html ...}} run .`
 
