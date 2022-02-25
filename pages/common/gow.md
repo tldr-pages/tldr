@@ -3,7 +3,7 @@
 > Watches Go files and restarts the app on changes.
 > More information: <https://github.com/mitranim/gow>.
 
-- Start and watch current directory:
+- Start and watch the current directory:
 
 `gow run .`
 
