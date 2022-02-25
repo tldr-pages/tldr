@@ -31,6 +31,6 @@
 
 `sudo --login --user={{utilisateur}}`
 
-- Lister les commandes autorisées (et interdites) pour l'utilisateur invoquant:
+- Lister les commandes autorisées (et interdites) pour l'utilisateur courant :
 
 `sudo --list`
