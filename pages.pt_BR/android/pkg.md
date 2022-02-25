@@ -9,7 +9,7 @@
 
 - Instala um pacote:
 
-`pkg install {{package}}`
+`pkg install {{pacote}}`
 
 - Desinstala um pacote:
 
