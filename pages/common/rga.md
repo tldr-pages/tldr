@@ -13,7 +13,7 @@
 
 - Change which adapters to use (e.g. ffmpeg, pandoc, poppler etc.):
 
-`rga --rga-adapters={{adapter,adapter}} {{regular_expression}}`
+`rga --rga-adapters={{adapter1,adapter2}} {{regular_expression}}`
 
 - Use more accurate but slower matching by mime type:
 
