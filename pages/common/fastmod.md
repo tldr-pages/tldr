@@ -1,7 +1,7 @@
 # fastmod
 
 > A fast partial replacement for the codemod tool, replace and replace all in the whole codebase.
-> Regexes are match with the regex crate: <https://crates.io/crates/regex>
+> Regexes are match with the regex crate: <https://crates.io/crates/regex>.
 > More information: <https://github.com/facebookincubator/fastmod>.
 
 - Replace regex pattern:

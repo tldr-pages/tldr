@@ -1,7 +1,7 @@
 # fastmod
 
 > أداة للاستبدال الجزئي للنصوص في قاعدة الأكواد لديك.
-> التعبيرات الاعتيادية تعالجها : <https://crates.io/crates/regex>
+> التعبيرات الاعتيادية تعالجها : <https://crates.io/crates/regex>.
 > لمزيد من العلومات: <https://github.com/facebookincubator/fastmod>.
 
 - استبدال بالتعبيرات الاعتيادية مع تحديد المكان الذي يُستبدل فيه:
