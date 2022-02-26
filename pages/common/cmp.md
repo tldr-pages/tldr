@@ -18,5 +18,3 @@
 - Compare files but output nothing, yield only the exit status:
 
 `cmp --quiet {{path/to/file1}} {{path/to/file2}}`
-
-
