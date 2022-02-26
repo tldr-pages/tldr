@@ -6,7 +6,7 @@
 
 - Mengubah berkas sumber kode menjadi program:
 
-`g++ {{sumber.cpp}} -o {{program}}`
+`g++ {{jalan/menuju/sumber.cpp}} -o {{jalan/menuju/program}}`
 
 - Menampilkan (hampir) semua kesalahan dan peringatan:
 
