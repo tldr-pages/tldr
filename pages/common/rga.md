@@ -15,7 +15,7 @@
 
 `rga --rga-adapters={{adapter1,adapter2}} {{regular_expression}}`
 
-- Use more accurate but slower matching by mime type:
+- Search for a pattern using the mime type instead of the file extension (slower):
 
 `rga --rga-accurate {{regular_expression}}`
 
