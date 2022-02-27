@@ -1,20 +1,32 @@
 # gzip
 
-> Ferramenta de compactação de arquivos com compressão gzip.
+> Ferramenta de compressão e descompressão de arquivos com formato gzip (LZ77).
 > Mais informações: <https://www.gnu.org/software/gzip/manual/gzip.html>.
 
-- Alterar compressão de um arquivo compactado com compressão gzip:
+- Comprimir um arquivo substituindo o original por sua versão compactada:
 
 `gzip {{arquivo.ext}}`
 
-- Descompactar arquivo gzip definindo arquivo final:
+- Descomprimir um arquivo removendo o arquivo gzip:
 
-`gzip -c -d {{arquivo.ext}}.gz > {{arquivo_descompactado.ext}}`
+`gzip --decompress {{arquivo.ext}}.gz`
 
-- Compactar arquivo definindo arquivo final:
+- Comprimir um arquivo definindo o nível de máximo de compressão [9]:
 
-`gzip -c {{arquivo.ext}} > {{arquivo_compactado.ext.gz}}`
+`gzip -{{9}} {{arquivo.ext}}`
 
-- Compactando arquivos em gzip definindo o nível de compressão [9]:
+- Comprimir um arquivo mantendo o original:
 
-`gzip -{{9}} -c {{arquivo.ext}} > {{arquivo_compactado.ext.gz}}`
+`gzip --keep {{arquivo.ext}}`
+
+- Descomprimir um arquivo mantendo o arquivo gzip:
+
+`gzip --decompress --keep {{arquivo.ext}}.gz`
+
+- Comprimir arquivo mantendo o original e definindo o nome do arquivo comprimido:
+
+`gzip --to-stdout {{arquivo.ext}} > {{arquivo_comprimido.ext.gz}}`
+
+- Descomprimir um arquivo mantendo o arquivo gzip e definindo o nome do arquivo descomprimido:
+
+`gzip --decompress --to-stdout {{arquivo.ext}}.gz > {{arquivo_descomprimido.ext}}`
