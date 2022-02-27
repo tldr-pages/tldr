@@ -3,7 +3,7 @@
 > Ripgrep wrapper with rich file type searching capabilities.
 > More information: <https://github.com/phiresky/ripgrep-all>.
 
-- Recursively search the current directory for a regular expression:
+- Search recursively for a pattern in all files in the current directory:
 
 `rga {{regular_expression}}`
 
