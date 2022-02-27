@@ -7,7 +7,7 @@
 
 `rga {{regular_expression}}`
 
-- List all known adapters:
+- List available adapters:
 
 `rga --rga-list-adapters`
 
