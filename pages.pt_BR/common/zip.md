@@ -3,30 +3,30 @@
 > Ferramenta de compressão de arquivos em arquivos zip.
 > Mais informações: <https://manned.org/zip>.
 
-- Compactando arquivos em um arquivo zip:
+- Compactar arquivos:
 
-`zip {{output.zip}} {{arquivo1}} {{arquivo2}} {{arquivo3}}`
+`zip {{compactado.zip}} {{arquivo1}} {{arquivo2}} {{arquivo3}}`
 
-- Compactando todos os arquivos de um diretório:
+- Compactar arquivos e diretórios [r]ecursivamente:
 
-`zip {{output.zip}} {{caminho/do/diretorio/*}}`
+`zip -r {{compactado.zip}} {{arquivo}} {{caminho/do/diretorio1}} {{caminho/do/diretorio2}}`
 
-- Adicionando arquivos a um arquivo zip existente:
+- Compactar arquivos usando o nível de compressão máximo [9]:
 
-`zip {{arquivo_existente.zip}} {{caminho/do/diretorio}}`
+`zip -r -{{9}} {{compactado.zip}} {{caminho/do/diretorio}}`
 
-- Compactando todos os arquivos de um diretório mantendo estruturas de diretórios:
+- Compactar arquivos de um diretório excluindo arquivos específicos:
 
-`zip -r {{output.zip}} {{caminho/do/diretorio}}`
+`zip -r {{compactado.zip}} {{caminho/do/diretorio}} -x {{caminho/a/ser/excluido}}`
 
-- Compactando arquivos de um diretório excluindo arquivos específicos:
+- Adicionar arquivos a um arquivo zip existente:
 
-`zip -r {{output.zip}} {{caminho/do/diretorio}} -x {{caminho/a/ser/excluido}}`
+`zip {{arquivo_existente.zip}} {{arquivo}}`
 
-- Compactando arquivos definindo o nível de compressão [9]:
+- Remover arquivo dentro de um arquivo zip existente:
 
-`zip -r -{{9}} {{output.zip}} {{caminho/do/diretorio}}`
+`zip -d {{arquivo_existente.zip}} "{{arquivo}}"`
 
-- Deletando arquivos de um arquivo zip:
+- Listar arquivos dentro de um zip sem extraí-los:
 
-`zip -d {{output.zip}} "{{foo/*.ext}}"`
+`zip -sf {{arquivo.zip}}`
