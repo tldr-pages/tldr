@@ -3,7 +3,7 @@
 > Ferramenta de compressão de arquivos em arquivos zip.
 > Mais informações: <https://manned.org/zip>.
 
-- Compactar arquivos:
+- Compacta arquivos:
 
 `zip {{compactado.zip}} {{arquivo1}} {{arquivo2}} {{arquivo3}}`
 
