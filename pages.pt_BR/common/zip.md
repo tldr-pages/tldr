@@ -27,6 +27,6 @@
 
 `zip -d {{arquivo_existente.zip}} "{{arquivo}}"`
 
-- Listar arquivos dentro de um zip sem extraí-los:
+- Lista arquivos dentro de um zip sem extraí-los:
 
 `zip -sf {{arquivo.zip}}`
