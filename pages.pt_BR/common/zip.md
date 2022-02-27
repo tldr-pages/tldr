@@ -23,7 +23,7 @@
 
 `zip {{arquivo_existente.zip}} {{arquivo}}`
 
-- Remover arquivo dentro de um arquivo zip existente:
+- Remove um arquivo dentro de um arquivo zip existente:
 
 `zip -d {{arquivo_existente.zip}} "{{arquivo}}"`
 
