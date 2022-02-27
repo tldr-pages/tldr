@@ -19,7 +19,7 @@
 
 `zip -r {{compactado.zip}} {{caminho/do/diretorio}} -x {{caminho/a/ser/excluido}}`
 
-- Adicionar arquivos a um arquivo zip existente:
+- Adiciona arquivos a um arquivo zip existente:
 
 `zip {{arquivo_existente.zip}} {{arquivo}}`
 
