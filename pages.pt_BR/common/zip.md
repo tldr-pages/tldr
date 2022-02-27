@@ -11,7 +11,7 @@
 
 `zip -r {{compactado.zip}} {{arquivo}} {{caminho/do/diretorio1}} {{caminho/do/diretorio2}}`
 
-- Compactar arquivos usando o nível de compressão máximo [9]:
+- Compacta arquivos usando o nível de compressão máximo [9]:
 
 `zip -r -{{9}} {{compactado.zip}} {{caminho/do/diretorio}}`
 
