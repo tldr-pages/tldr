@@ -7,26 +7,30 @@
 
 `zip {{compactado.zip}} {{arquivo1}} {{arquivo2}} {{arquivo3}}`
 
-- Compactar arquivos e diretórios [r]ecursivamente:
+- Compacta arquivos e diretórios recursivamente:
 
-`zip -r {{compactado.zip}} {{arquivo}} {{caminho/do/diretorio1}} {{caminho/do/diretorio2}}`
+`zip --recurse-paths {{compactado.zip}} {{arquivo}} {{caminho/do/diretorio1}} {{caminho/do/diretorio2}}`
 
-- Compacta arquivos usando o nível de compressão máximo [9]:
+- Compacta um diretório usando o nível de compressão máximo [9]:
 
-`zip -r -{{9}} {{compactado.zip}} {{caminho/do/diretorio}}`
+`zip --{{9}} --recurse-paths {{compactado.zip}} {{caminho/do/diretorio}}`
+
+- Cria um arquivo compactado criptografado (o usuário deverá inserir uma senha):
+
+`zip --encrypt --recurse-paths {{compactado.zip}} {{caminho/do/diretorio}}`
 
 - Compacta arquivos de um diretório excluindo arquivos específicos:
 
-`zip -r {{compactado.zip}} {{caminho/do/diretorio}} -x {{caminho/a/ser/excluido}}`
+`zip --exclude {{caminho/a/ser/excluido}} --recurse-paths {{compactado.zip}} {{caminho/do/diretorio}}`
 
 - Adiciona arquivos a um arquivo zip existente:
 
 `zip {{arquivo_existente.zip}} {{arquivo}}`
 
-- Remove um arquivo dentro de um arquivo zip existente:
+- Remove arquivo dentro de um arquivo zip existente:
 
-`zip -d {{arquivo_existente.zip}} "{{arquivo}}"`
+`zip --delete {{arquivo_existente.zip}} "{{arquivo}}"`
 
 - Lista arquivos dentro de um zip sem extraí-los:
 
-`zip -sf {{arquivo.zip}}`
+`zip --show-files {{arquivo.zip}}`
