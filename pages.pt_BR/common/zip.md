@@ -15,7 +15,7 @@
 
 `zip -r -{{9}} {{compactado.zip}} {{caminho/do/diretorio}}`
 
-- Compactar arquivos de um diretório excluindo arquivos específicos:
+- Compacta arquivos de um diretório excluindo arquivos específicos:
 
 `zip -r {{compactado.zip}} {{caminho/do/diretorio}} -x {{caminho/a/ser/excluido}}`
 
