@@ -1,7 +1,7 @@
 # wait
 
 > Wait for a process to complete before proceeding.
-> More information: <https://www.unix.com/man-page/Linux/1/wait>.
+> More information: <https://manned.org/wait>.
 
 - Wait for a process to finish given its process ID (PID) and return its exit status:
 
