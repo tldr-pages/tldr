@@ -8,7 +8,7 @@
 
 `fastmod {{regex_pattern}} {{replacement}}`
 
-- Replace regex pattern and choose your target files:
+- Replace a regex pattern in all file in a specific directory:
 
 `fastmod {{regex}} {{replacement}} -d {{src/}} --iglob {{'**/*.{js,json}'}}`
 
