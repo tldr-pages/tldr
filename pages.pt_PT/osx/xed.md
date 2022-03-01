@@ -1,6 +1,7 @@
 # xed
 
 > Abre ficheiros para editar no Xcode.
+> Mais informações: <https://www.manpagez.com/man/1/xed/>.
 
 - Abre um ficheiro no Xcode:
 
