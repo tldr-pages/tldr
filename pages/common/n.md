@@ -1,7 +1,7 @@
 # n
 
 > Tool to manage multiple node versions.
-> More information: <https://www.npmjs.com/package/n>.
+> More information: <https://github.com/tj/n>.
 
 - Install a given version of node. If the version is already installed, it will be activated:
 
