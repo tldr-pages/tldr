@@ -10,7 +10,7 @@
 
 - Replace a regex pattern in all file in a specific directory:
 
-`fastmod {{regex}} {{replacement}} -d {{src/}} --iglob {{'**/*.{js,json}'}}`
+`fastmod {{regex}} {{replacement}} --dir {{path/to/directory}} --iglob {{'**/*.{js,json}'}}`
 
 - Replace fixed non-regex string in .js or .json files:
 
