@@ -1,6 +1,7 @@
 # rubocop
 
 > 格式化 Ruby 文件。
+> 更多信息：<https://docs.rubocop.org/rubocop/usage/basic_usage.html>.
 
 - 检查当前目录中的所有文件（包括子目录）：
 
