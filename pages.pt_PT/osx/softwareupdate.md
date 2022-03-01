@@ -1,6 +1,7 @@
 # softwareupdate
 
 > Ferramenta de atualização de aplicativos da App Store via linha de comandos.
+> Mais informações: <https://ss64.com/osx/softwareupdate.html>.
 
 - Lista todos as atualizações disponíveis:
 

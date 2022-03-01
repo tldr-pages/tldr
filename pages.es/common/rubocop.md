@@ -1,6 +1,7 @@
 # rubocop
 
 > Analiza archivos de Ruby.
+> Más información: <https://docs.rubocop.org/rubocop/usage/basic_usage.html>.
 
 - Verifica todos los archivos en el directorio actual (incluyendo subdirectorios):
 
