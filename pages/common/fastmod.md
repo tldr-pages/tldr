@@ -14,7 +14,7 @@
 
 - Replace fixed non-regex string in .js or .json files:
 
-`fastmod -F {{match}} {{replacement}} -e {{json,js}}`
+`fastmod --fixed-strings {{match}} {{replacement}} --extensions {{json,js}}`
 
 - Replace all with non-regex string and without prompt for a confirmation:
 
