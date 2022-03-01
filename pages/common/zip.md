@@ -29,7 +29,7 @@
 
 - Delete entries from an existing zip file:
 
-`zip --delete {{compressed.zip}} "{{foo/*.tmp}}"`
+`zip --delete {{compressed.zip}} "{{foo/file}}" "{{foo/bar/*}}" "{{*.ext}}"`
 
 - List files within a specified archive (without extracting them):
 
