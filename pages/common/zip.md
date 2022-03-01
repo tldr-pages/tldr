@@ -27,7 +27,7 @@
 
 `zip {{compressed.zip}} {{path/to/file}}`
 
-- Delete files from an existing zip file:
+- Delete entries from an existing zip file:
 
 `zip --delete {{compressed.zip}} "{{foo/*.tmp}}"`
 
