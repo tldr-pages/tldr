@@ -18,7 +18,7 @@
 
 - Replace all with non-regex string and without prompt for a confirmation:
 
-`fastmod --accept-all -F {{match}} {{replacement}}`
+`fastmod --accept-all --fixed-strings {{match}} {{replacement}}`
 
 - Replace all like previous example, and print changed files:
 
