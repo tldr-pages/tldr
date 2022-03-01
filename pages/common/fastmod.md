@@ -1,21 +1,25 @@
 # fastmod
 
 > A fast partial replacement for the codemod tool, replace and replace all in the whole codebase.
-> Regexes are match with the regex crate: <https://crates.io/crates/regex>.
+> Regexes are matched by Rust regex crate: <https://docs.rs/regex/latest/regex>.
 > More information: <https://github.com/facebookincubator/fastmod>.
 
-- Replace regex pattern:
+- Replace regex pattern in current directory in all non-ignored files, you can ignore files with .ignore or .gitignore:
 
-`fastmod {{regex_pattern}} {{replacement}} -d {{dir}} --iglob {{wildcard_patterns}}`
+`fastmod {{regex_pattern}} {{replacement}}`
 
-- Replace fixed string as it is (not regex), .js or .json files only:
+- Replace regex pattern and choose your target files:
 
-`fastmod -F {{match_string}} {{replacement_string}} -e json,js`
+`fastmod {{regex}} {{replacement}} -d {{src/}} --iglob {{'**/*.{js,json}'}}`
 
-- Replace-all without confirmation, replace string as it is (not regex):
+- Replace fixed non-regex string in .js or .json files:
 
-`fastmod --accept-all -F {{match_string}} {{replacement_string}}`
+`fastmod -F {{match}} {{replacement}} -e {{json,js}}`
 
-- Replace-all similar to the above, but print changed files as well:
+- Replace all with non-regex string and without confirmation:
 
-`fastmod --accept-all --print-changed-files -F {{match_string}} {{replacement_string}}`
+`fastmod --accept-all -F {{match}} {{replacement}}`
+
+- Replace all like previous example, and print changed files:
+
+`fastmod --accept-all --print-changed-files -F {{match}} {{replacement}}`
