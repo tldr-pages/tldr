@@ -12,6 +12,10 @@
 
 `{{command}} | wl-copy`
 
+- Copy for only one paste and then clear it:
+
+`wl-copy --paste-once`
+
 - Clear the clipboard:
 
 `wl-copy --clear`
