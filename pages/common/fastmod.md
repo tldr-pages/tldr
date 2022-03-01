@@ -16,7 +16,7 @@
 
 `fastmod -F {{match}} {{replacement}} -e {{json,js}}`
 
-- Replace all with non-regex string and without confirmation:
+- Replace all with non-regex string and without prompt for a confirmation:
 
 `fastmod --accept-all -F {{match}} {{replacement}}`
 
