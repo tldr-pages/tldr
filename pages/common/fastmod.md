@@ -8,18 +8,18 @@
 
 `fastmod {{regex_pattern}} {{replacement}}`
 
-- Replace a regex pattern in all file in a specific directory:
+- Replace a regex pattern in in a specific directory files filtered with a case-insensitive glob pattern:
 
 `fastmod {{regex}} {{replacement}} --dir {{path/to/directory}} --iglob {{'**/*.{js,json}'}}`
 
-- Replace fixed non-regex string in .js or .json files:
+- Replace for an exact string in .js or .json files:
 
-`fastmod --fixed-strings {{match}} {{replacement}} --extensions {{json,js}}`
+`fastmod --fixed-strings {{exact_string}} {{replacement}} --extensions {{json,js}}`
 
-- Replace all with non-regex string and without prompt for a confirmation:
+- Replace for an exact string without prompt for a confirmation (disables regular expressions):
 
-`fastmod --accept-all --fixed-strings {{match}} {{replacement}}`
+`fastmod --accept-all --fixed-strings {{exact_string}} {{replacement}}`
 
-- Replace all like previous example, and print changed files:
+- Replace for an exact string without prompt for a confirmation, printing changed files:
 
-`fastmod --accept-all --print-changed-files -F {{match}} {{replacement}}`
+`fastmod --accept-all --print-changed-files --fixed-strings {{exact_string}} {{replacement}}`
