@@ -7,9 +7,9 @@
 
 - Make a simple man-in-the-middle attack between two local hosts (run both at the same time, via `screen` or multiple terminal sessions):
 
-`arpspoof -i {{eth0}} -t {{192.168.0.1}} {{192.168.0.2}}`
-`arpspoof -i {{eth0}} -t {{192.168.0.2}} {{192.168.0.1}}`
+`sudo arpspoof -i {{eth0}} -t {{192.168.0.1}} {{192.168.0.2}}`
+`sudo arpspoof -i {{eth0}} -t {{192.168.0.2}} {{192.168.0.1}}`
 
 - Make a simple man-in-the-middle attack for all local clients:
 
-`arpspoof -i {{eth0}} {{192.168.0.1}}`
+`sudo arpspoof -i {{eth0}} {{192.168.0.1}}`
