@@ -2,7 +2,6 @@
 
 > Flexible I/O tester.
 > Tool that will spawn a number of threads or processes doing a particular type of I/O action.
-> More examples: <https://docs.oracle.com/en-us/iaas/Content/Block/References/samplefiocommandslinux.htm>.
 > More information: <https://fio.readthedocs.io/en/latest/fio_doc.html>.
 
 - Test random reads:
