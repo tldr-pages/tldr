@@ -117,6 +117,12 @@ This can be resolved by inserting a comma before the "and" or "or" in the final 
 
 > Delete the Git branches, tags, and remotes.
 
+## More information links
+
+On the `More information` line, prefer linking to the author's provided documentation.
+
+When not available, use <https://manned.org/> as the default fallback. 
+
 ## Chinese-Specific Rules
 
 When Chinese words, Latin words and Arabic numerals are written in the same sentence, it takes more attention to copywriting.
