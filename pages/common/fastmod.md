@@ -4,9 +4,13 @@
 > Regexes are matched by Rust regex crate.
 > More information: <https://github.com/facebookincubator/fastmod>.
 
-- Replace regex pattern in current directory in all files, ignoring files on .ignore and .gitignore:
+- Replace regex pattern in all files of the current directory, ignoring files on .ignore and .gitignore:
 
 `fastmod {{regex_pattern}} {{replacement}}`
+
+- Case-insensitively replace regex pattern in specific files even if ignored, or directory ignoring files on .ignore and .gitignore:
+
+`fastmod --ignore-case {{regex_pattern}} {{replacement}} -- {{file}} {{dir/}} {{...}}`
 
 - Replace a regex pattern in in a specific directory files filtered with a case-insensitive glob pattern:
 
