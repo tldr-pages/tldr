@@ -27,3 +27,4 @@
 - Replace for an exact string without prompt for a confirmation, printing changed files:
 
 `fastmod --accept-all --print-changed-files --fixed-strings {{exact_string}} {{replacement}}`
+
