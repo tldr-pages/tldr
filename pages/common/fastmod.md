@@ -8,7 +8,7 @@
 
 `fastmod {{regex_pattern}} {{replacement}}`
 
-- Replace a regex pattern in case-insensitive mode in specific files or directories: 
+- Replace a regex pattern in case-insensitive mode in specific files or directories:
 
 `fastmod --ignore-case {{regex_pattern}} {{replacement}} -- {{path/to/file path/to/directory ...}}`
 
@@ -27,4 +27,3 @@
 - Replace for an exact string without prompt for a confirmation, printing changed files:
 
 `fastmod --accept-all --print-changed-files --fixed-strings {{exact_string}} {{replacement}}`
-
