@@ -4,7 +4,7 @@
 > It currently does not support sending files to devices owned by other users even on the same Tailscale network.
 > More information: <https://tailscale.com/kb/1106/taildrop/>.
 
-- Send a file to another device on the Tailscale network:
+- Send a file to a specific node:
 
 `sudo tailscale file cp {{path/to/file}} {{hostname_or_ip}}:`
 
