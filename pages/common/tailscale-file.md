@@ -8,6 +8,6 @@
 
 `sudo tailscale file cp {{path/to/file}} {{hostname_or_ip}}:`
 
-- Receive a file that was sent to the device:
+- Store files that was sent to the current node into a specific directory:
 
 `sudo tailscale file get {{path/to/directory}}`
