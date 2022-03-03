@@ -10,4 +10,4 @@
 
 - Receive a file that was sent to the device:
 
-`sudo tailscale file get {{/path/to/save}}`
+`sudo tailscale file get {{path/to/directory}}`
