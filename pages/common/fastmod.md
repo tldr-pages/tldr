@@ -8,9 +8,9 @@
 
 `fastmod {{regex_pattern}} {{replacement}}`
 
-- Case-insensitively replace regex pattern in specific files even if ignored, or directory ignoring files on .ignore and .gitignore:
+- Replace a regex pattern in case-insensitive mode in specific files or directories: 
 
-`fastmod --ignore-case {{regex_pattern}} {{replacement}} -- {{file}} {{dir/}} {{...}}`
+`fastmod --ignore-case {{regex_pattern}} {{replacement}} -- {{path/to/file path/to/directory ...}}`
 
 - Replace a regex pattern in in a specific directory files filtered with a case-insensitive glob pattern:
 
