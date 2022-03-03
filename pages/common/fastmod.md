@@ -4,7 +4,7 @@
 > Regexes are matched by Rust regex crate.
 > More information: <https://github.com/facebookincubator/fastmod>.
 
-- Replace regex pattern in all files of the current directory, ignoring files on .ignore and .gitignore:
+- Replace a regex pattern in all files of the current directory, ignoring files on .ignore and .gitignore:
 
 `fastmod {{regex_pattern}} {{replacement}}`
 
