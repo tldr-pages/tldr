@@ -219,7 +219,9 @@ Not translated yet.
 ---
 ### tr
 
-Not translated yet.
+```markdown
+`example command` gibi bazı alt komutların kendi kullanım belgeleri vardır.
+```
 
 ---
 ### uk
