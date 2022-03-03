@@ -7,7 +7,7 @@
 
 `comby {{'assert_eq!(:[a], :[b])'}} {{'assert_eq!(:[b], :[a])'}} {{.rs}}`
 
-- Match and rewrite with rewrite properties
+- Match and rewrite with rewrite properties:
 
 `comby {{'assert_eq!(:[a], :[b])'}} {{'assert_eq!(:[b].Capitalize, :[a])'}} {{.rs}}`
 
