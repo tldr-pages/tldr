@@ -6,7 +6,7 @@
 
 - Send a file to another device on the Tailscale network:
 
-`sudo tailscale file cp {{/path/to/file}} {{hostname_or_ip}}:`
+`sudo tailscale file cp {{path/to/file}} {{hostname_or_ip}}:`
 
 - Receive a file that was sent to the device:
 
