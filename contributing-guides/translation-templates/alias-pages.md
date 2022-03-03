@@ -373,7 +373,15 @@ Not translated yet.
 ---
 ### tr
 
-Not translated yet.
+```markdown
+# example
+
+> Bu komut `example` için bir takma addır.
+
+- Asıl komutun belgelerini görüntüleyin:
+
+`tldr example`
+```
 
 ---
 ### uk
