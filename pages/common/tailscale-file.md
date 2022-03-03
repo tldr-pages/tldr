@@ -8,6 +8,6 @@
 
 `sudo tailscale file cp {{path/to/file}} {{hostname_or_ip}}:`
 
-- Store files that was sent to the current node into a specific directory:
+- Store files that were sent to the current node into a specific directory:
 
 `sudo tailscale file get {{path/to/directory}}`
