@@ -1,6 +1,7 @@
 # kde-inhibit
 
 > Inhibit various desktop functions while a command runs.
+> More information: <https://www.phoronix.com/scan.php?page=news_item&px=KDE-Inhibit-Script-Plus-More>.
 
 - Inhibit power management:
 

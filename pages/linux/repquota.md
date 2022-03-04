@@ -1,6 +1,7 @@
 # repquota
 
 > Display a summary of existing file quotas for a filesystem.
+> More information: <https://manned.org/repquota.8>.
 
 - Report stats for all quotas in use:
 

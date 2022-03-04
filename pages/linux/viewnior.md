@@ -1,6 +1,7 @@
 # viewnior
 
 > Simple and elegant image viewer.
+> More information: <https://manned.org/viewnior.1>.
 
 - View an image:
 

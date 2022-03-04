@@ -1,6 +1,7 @@
 # tcpkill
 
 > Kills specified in-progress TCP connections.
+> More information: <https://manned.org/tcpkill.8>.
 
 - Kill in-progress connections at a specified interface, host and port:
 

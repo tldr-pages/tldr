@@ -2,6 +2,7 @@
 
 > Summarizes accounting information. Part of the acct package.
 > Shows commands called by users, including basic info on CPU time spent processing and I/O rates.
+> More information: <https://linux.die.net/man/8/sa>.
 
 - Display executable invocations per user (username not displayed):
 

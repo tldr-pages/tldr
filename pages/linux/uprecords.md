@@ -1,6 +1,7 @@
 # uprecords
 
 > Displays a summary of historical uptime records.
+> More information: <https://manned.org/uprecords.1>.
 
 - Display a summary of the top 10 historical uptime records:
 

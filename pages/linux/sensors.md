@@ -1,6 +1,7 @@
 # sensors
 
 > Report sensors information.
+> More information: <https://manned.org/sensors.1>.
 
 - Show the current readings of all sensor chips:
 

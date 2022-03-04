@@ -1,6 +1,7 @@
 # sensible-editor
 
 > Open the default editor.
+> More information: <https://manned.org/sensible-editor.1>.
 
 - Open a file in the default editor:
 

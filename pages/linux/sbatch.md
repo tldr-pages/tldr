@@ -1,6 +1,7 @@
 # sbatch
 
 > Submit a batch job to the SLURM scheduler.
+> More information: <https://manned.org/sbatch.1>.
 
 - Submit a batch job:
 

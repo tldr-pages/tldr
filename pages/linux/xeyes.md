@@ -1,6 +1,7 @@
 # xeyes
 
 > Display eyes on the screen that follow the mouse cursor.
+> More information: <https://manned.org/xeyes.1>.
 
 - Launch xeyes on the local machine's default display:
 

@@ -1,6 +1,7 @@
 # strace
 
 > Troubleshooting tool for tracing system calls.
+> More information: <https://manned.org/strace.1>.
 
 - Start tracing a specific process by its PID:
 
