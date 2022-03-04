@@ -16,7 +16,7 @@
 
 `setsid --fork {{program}}`
 
-- Return the exit value of a program as the return value of setsid when the program exits:
+- Return the exit code of a program as the exit code of setsid when the program exits:
 
 `setsid --wait {{program}}`
 
