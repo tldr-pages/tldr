@@ -1,7 +1,7 @@
 # xtrlock
 
 > Lock the X display until the user supplies their password.
-> More information: <https://manned.org/xtrlock.1>.
+> More information: <https://manned.org/xtrlock>.
 
 - Lock the display and show a padlock instead of the cursor:
 

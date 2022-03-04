@@ -1,7 +1,7 @@
 # ctrlaltdel
 
 > Utility to control what happens when CTRL+ALT+DEL is pressed.
-> More information: <https://manned.org/ctrlaltdel.8>.
+> More information: <https://manned.org/ctrlaltdel>.
 
 - Get current setting:
 

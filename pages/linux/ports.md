@@ -1,7 +1,7 @@
 # ports
 
 > Update/list the ports tree on a CRUX system.
-> More information: <https://www.freebsd.org/cgi/man.cgi?ports(7)>.
+> More information: <https://manned.org/ports>.
 
 - Update the ports tree:
 
