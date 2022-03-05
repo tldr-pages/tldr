@@ -1,6 +1,6 @@
 # createdb
 
-> Create a PostgreSQL database
+> Create a PostgreSQL database.
 > More information: <https://www.postgresql.org/docs/current/app-createdb.html>.
 
 - Create a database owned by the current user:
