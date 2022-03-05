@@ -14,4 +14,3 @@
 - Create a database from a template:
 
 `createdb -T {{template_database}} {{database}}`
-
