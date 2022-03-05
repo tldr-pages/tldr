@@ -5,7 +5,7 @@
 
 - Create a database owned by the current user:
 
-`createdb {{database}}`
+`createdb {{database_name}}`
 
 - Create a database owned by a specific user, with an optional description:
 
