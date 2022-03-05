@@ -13,8 +13,8 @@
 
 - Match and rewrite in-place:
 
-`comby -in-place {{match_pattern}} {{rewrite_pattern}}`
+`comby -in-place '{{match_pattern}}' '{{rewrite_pattern}}'`
 
 - Only perform matching and print matches:
 
-`comby -match-only {{match_pattern}} ""`
+`comby -match-only '{{match_pattern}}' ""`
