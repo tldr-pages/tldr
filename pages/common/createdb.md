@@ -9,7 +9,7 @@
 
 - Create a database owned by a specific user, with an optional description:
 
-`createdb -O {{user}} {{database}} 'Description of the database'`
+`createdb --owner={{username}} {{database_name}} '{{description}}'`
 
 - Create a database from a template:
 
