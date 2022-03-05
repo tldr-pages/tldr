@@ -1,7 +1,7 @@
 # setxkbmap
 
 > Set the keyboard using the X Keyboard Extension.
-> More information: <https://manned.org/setxkbmap.1>.
+> More information: <https://manned.org/setxkbmap>.
 
 - Set the keyboard in French AZERTY:
 

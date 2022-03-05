@@ -1,7 +1,7 @@
 # ndctl
 
 > Utility for managing Non-Volatile DIMMs.
-> More information: <https://manned.org/ndctl.1>.
+> More information: <https://manned.org/ndctl>.
 
 - Create an 'fsdax' mode namespace:
 

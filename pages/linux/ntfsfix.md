@@ -1,7 +1,7 @@
 # ntfsfix
 
 > Fix common problems on an NTFS partition.
-> More information: <https://manned.org/ntfsfix.8>.
+> More information: <https://manned.org/ntfsfix>.
 
 - Fix a given NTFS partition:
 

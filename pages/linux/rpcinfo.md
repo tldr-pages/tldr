@@ -1,7 +1,7 @@
 # rpcinfo
 
 > Makes an RPC call to an RPC server and reports what it finds.
-> More information: <https://manned.org/rpcinfo.7>.
+> More information: <https://manned.org/rpcinfo>.
 
 - Show full table of all RPC services registered on localhost:
 

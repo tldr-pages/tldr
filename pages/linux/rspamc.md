@@ -1,7 +1,7 @@
 # rspamc
 
 > Command-line client for rspamd servers.
-> More information: <https://manned.org/rspamc.1>.
+> More information: <https://manned.org/rspamc>.
 
 - Train the bayesian filter to recognise an email as spam:
 

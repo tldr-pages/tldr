@@ -1,7 +1,7 @@
 # utmpdump
 
 > Dump and load btmp, utmp and wtmp accounting files.
-> More information: <https://manned.org/utmpdump.1>.
+> More information: <https://manned.org/utmpdump>.
 
 - Dump the `/var/log/wtmp` file to the standard output as plain text:
 

@@ -1,7 +1,7 @@
 # squeue
 
 > View the jobs queued in the SLURM scheduler.
-> More information: <https://manned.org/squeue.1>.
+> More information: <https://manned.org/squeue>.
 
 - View the queue:
 

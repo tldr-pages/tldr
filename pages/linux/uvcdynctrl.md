@@ -1,7 +1,7 @@
 # uvcdynctrl
 
 > A libwebcam command-line tool to manage dynamic controls in uvcvideo.
-> More information: <https://manned.org/uvcdynctrl.1>.
+> More information: <https://manned.org/uvcdynctrl>.
 
 - List all available cameras:
 
