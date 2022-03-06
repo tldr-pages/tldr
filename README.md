@@ -6,8 +6,6 @@
 [![GitHub contributors][contributors-image]][contributors-url]
 [![license][license-image]][license-url]
 
-[github-actions-url]: https://github.com/tldr-pages/tldr/actions
-[github-actions-image]: https://img.shields.io/github/workflow/status/tldr-pages/tldr/CI.svg
 [gitter-url]: https://gitter.im/tldr-pages/tldr
 [gitter-image]: https://img.shields.io/badge/chat-on_gitter-deeppink
 [prs-merged-url]: https://github.com/tldr-pages/tldr/pulls?q=is:pr+is:merged
