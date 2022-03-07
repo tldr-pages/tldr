@@ -2,7 +2,6 @@
 
 > Intercept packets on a switched LAN.
 > Redirects packets from a target host (or all hosts) on the LAN intended for another host on the LAN by forging ARP replies. This is an effective way of sniffing traffic on a switch.
-> Kernel IP forwarding must be turned on ahead of time.
 > More information: <https://manned.org/arpspoof>
 
 - Make a simple man-in-the-middle attack between two local hosts (run both at the same time, via `screen` or multiple terminal sessions):
