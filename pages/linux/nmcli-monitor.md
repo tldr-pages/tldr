@@ -1,7 +1,7 @@
 # nmcli monitor
 
 > Monitor changes to the NetworkManager connection status.
-> More information: <https://developer.gnome.org/NetworkManager/stable/nmcli.html>.
+> More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
 - Start monitoring NetworkManager changes:
 
