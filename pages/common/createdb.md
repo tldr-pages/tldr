@@ -7,7 +7,7 @@
 
 `createdb {{database_name}}`
 
-- Create a database owned by a specific user, with an optional description:
+- Create a database owned by a specific user with a description:
 
 `createdb --owner={{username}} {{database_name}} '{{description}}'`
 
