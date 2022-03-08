@@ -11,6 +11,6 @@
 
 `nmcli agent polkit`
 
-- Register nmcli as both a secret and a polkit agent:
+- Register nmcli as a secret agent and a polkit agent:
 
 `nmcli agent all`
