@@ -21,4 +21,4 @@
 
 - Lookup the IP(s) associated with a hostname (A records) using DNS over HTTPS (DoH):
 
-`kdig -d @{{8.8.8.8}} +https +tls-hostname={{dns.google}} example.com`
+`kdig -d @{{1.1.1.1}} +https +tls-hostname={{1dot1dot1dot1.cloudflare-dns.com}} {{example.com}}`
