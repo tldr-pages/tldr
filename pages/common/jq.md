@@ -11,6 +11,10 @@
 
 `jq '.[]' {{file.json}}`
 
+- Output elements from arrays which match provided filter:
+
+`jq '.[] | select(.key == "value")'
+
 - Read JSON objects from a file into an array, and output it (inverse of `jq .[]`):
 
 `jq --slurp . {{file.json}}`
