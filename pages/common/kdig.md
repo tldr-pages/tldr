@@ -7,7 +7,7 @@
 
 `kdig {{example.com}}`
 
-- Specify an DNS server to query(e.g. google DNS):
+- Specify a specific DNS server to query (e.g. Google DNS):
 
 `kdig {{example.com}} @{{8.8.8.8}}`
 
