@@ -17,7 +17,7 @@
 
 - Lookup the IP(s) associated with a hostname (A records) using DNS over TLS (DoT):
 
-`kdig -d @{{8.8.8.8}} +tls-ca +tls-host={{dns.google}} example.com`
+`kdig -d @{{8.8.8.8}} +tls-ca +tls-host={{dns.google}} {{example.com}}`
 
 - Lookup the IP(s) associated with a hostname (A records) using DNS over HTTPS (DoH):
 
