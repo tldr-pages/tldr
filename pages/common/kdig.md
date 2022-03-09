@@ -15,7 +15,7 @@
 
 `kdig {{example.com}} {{A|AAAA|NS|SOA|DNSKEY|ANY}}`
 
-- Get A record for example.com use TLS(DoT):
+- Lookup the IP(s) associated with a hostname (A records) using DNS over TLS (DoT):
 
 `kdig -d @{{8.8.8.8}} +tls-ca +tls-host={{dns.google}} example.com`
 
