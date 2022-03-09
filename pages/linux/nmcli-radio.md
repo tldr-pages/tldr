@@ -16,9 +16,9 @@
 
 `nmcli radio wwan`
 
-- Turn WWAN off in NetworkManager:
+- Turn WWAN on|off in NetworkManager:
 
-`nmcli radio wwan {{off}}`
+`nmcli radio wwan {{on|off}}`
 
 - Show status of both switches in NetworkManager:
 
