@@ -8,7 +8,7 @@
 
 `nmcli radio wifi`
 
-- Turn Wi-Fi on|off in NetworkManager:
+- Turn Wi-Fi on or off in NetworkManager:
 
 `nmcli radio wifi {{on|off}}`
 
@@ -16,7 +16,7 @@
 
 `nmcli radio wwan`
 
-- Turn WWAN on|off in NetworkManager:
+- Turn WWAN on or off in NetworkManager:
 
 `nmcli radio wwan {{on|off}}`
 
@@ -24,6 +24,6 @@
 
 `nmcli radio all`
 
-- Turn both switches on|off in NetworkManager:
+- Turn both switches on or off in NetworkManager:
 
 `nmcli radio all {{on|off}}`
