@@ -8,9 +8,9 @@
 
 `nmcli radio wifi`
 
-- Turn Wi-Fi on in NetworkManager:
+- Turn Wi-Fi on|off in NetworkManager:
 
-`nmcli radio wifi {{on}}`
+`nmcli radio wifi {{on|off}}`
 
 - Show status of WWAN in NetworkManager:
 
