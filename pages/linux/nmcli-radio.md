@@ -24,6 +24,6 @@
 
 `nmcli radio all`
 
-- Turn both switches on in NetworkManager:
+- Turn both switches on|off in NetworkManager:
 
-`nmcli radio all {{on}}`
+`nmcli radio all {{on|off}}`
