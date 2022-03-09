@@ -19,6 +19,6 @@
 
 `kdig -d @{{8.8.8.8}} +tls-ca +tls-host={{dns.google}} example.com`
 
-- Get A record for example.com use HTTPS(DoH):
+- Lookup the IP(s) associated with a hostname (A records) using DNS over HTTPS (DoH):
 
 `kdig -d @{{8.8.8.8}} +https +tls-hostname={{dns.google}} example.com`
