@@ -73,7 +73,7 @@ All contributions are welcome!
 
 Some ways to contribute include:
 
-- Adding your a command which isn't covered.
+- Adding your favorite a command which isn't covered.
 - Adding more to an existing page.
 - Translating pages into different languages.
 
