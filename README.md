@@ -71,7 +71,7 @@ For a comprehensive list of clients, head over to our [Wiki](https://github.com/
 
 All contributions are welcome!
 
-Some ways include to contribute are:
+Some ways to contribute include:
 
 - Adding your a command which isn't covered.
 - Adding more to an existing page.
