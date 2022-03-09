@@ -43,7 +43,7 @@ How about:
 ![animated svg of the tldr client displaying the tar command](images/tldr.svg)
 
 This repository is just that: an ever-growing collection of examples
-for the most common UNIX, Linux, macOS, SunOS and Windows command-line tools.
+for the most common UNIX, Linux, macOS, SunOS, Android and Windows command-line tools.
 
 ## How do I use it?
 
@@ -53,34 +53,38 @@ which is supported by the tldr-pages project maintainers:
 
     npm install -g tldr
 
-You can also use the fully-featured [official Python client](https://github.com/tldr-pages/tldr-python-client) which can be installed via `pip3`.
+Alternatively, you can also use the fully-featured official [Python client](https://github.com/tldr-pages/tldr-python-client) which can be installed via `pip3`.
 
     pip3 install tldr
 
-That way you can write `tldr tar` in the terminal to show the tldr page for `tar`,
-just like you would write `man tar` to show its manpage.
+Then you have direct access to less complicated, easier-to-read help for commands, accessable through typing `tldr tar` instead of the standard `man tar`
 
 However, if you just want to browse without installing anything, check
-out the [PDF version](https://tldr.sh/assets/tldr-book.pdf).
+out the [PDF version](https://tldr.sh/assets/tldr-book.pdf),
+which is always up-to-date with the most recent pages and commits.
 
 There are also **various other clients** provided by the community,
 both for the command-line and for other platforms.
 For a comprehensive list of clients, head over to our [Wiki](https://github.com/tldr-pages/tldr/wiki/tldr-pages-clients).
 
-## How do I contribute?
+## How do I contribute to tldr-pages?
 
-- Your favourite command isn't covered?
-- You can think of more examples for an existing command?
+All contributions are welcome!
+
+Some ways include to contribute are:
+
+- Adding your a command which isn't covered.
+- Adding more to an existing page.
+- Translating pages into different languages.
 
 All `tldr` pages are kept as Markdown files right here in this repository,
 so you can edit them directly and submit your changes as pull requests.
 
-All contributions are welcome!
 We strive to maintain a [welcoming and collaborative](GOVERNANCE.md) community.
-Have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!
+To begin, have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!
 
-If you'd like to contribute to translations, you can visit <https://lukwebsforge.github.io/tldri18n/>
-to see the current progress of all translations.
+For translations, you can visit <https://lukwebsforge.github.io/tldri18n/>
+to see the current progress of all translations to see which pages need to be translated.
 
 ## Similar projects
 
