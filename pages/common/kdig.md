@@ -3,7 +3,7 @@
 > Advanced DNS lookup utility.
 > More information: <https://www.knot-dns.cz/docs/latest/html/man_kdig.html>.
 
-- Get A records for example.com:
+- Lookup the IP(s) associated with a hostname (A records):
 
 `kdig {{example.com}}`
 
