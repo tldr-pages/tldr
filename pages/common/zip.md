@@ -5,11 +5,11 @@
 
 - Package and compress files:
 
-`zip {{compressed.zip}} {{path/to/file1}} {{path/to/file2}}`
+`zip {{compressed.zip}} {{path/to/file_1}} {{path/to/file_2}}`
 
 - Package and compress files and directories recursively:
 
-`zip --recurse-paths {{compressed.zip}} {{path/to/file}} {{path/to/directory1}} {{path/to/directory2}}`
+`zip --recurse-paths {{compressed.zip}} {{path/to/file}} {{path/to/directory_1}} {{path/to/directory_2}}`
 
 - Archive a directory and its contents with the highest level [9] of compression:
 
