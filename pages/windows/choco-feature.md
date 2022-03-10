@@ -7,6 +7,6 @@
 
 `choco feature list`
 
-- Enable/disable the specified feature:
+- Enable/disable the specified feature (allowGlobalConfirmation):
 
-`choco feature {{enable|disable}} --name {{feature_name}}`
+`choco feature {{enable|disable}} --name {{allowGlobalConfirmation}}`
