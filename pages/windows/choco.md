@@ -4,18 +4,18 @@
 > Some subcommands such as `choco install` have their own usage documentation.
 > More information: <https://chocolatey.org>.
 
-- Execute Chocolatey command:
+- Execute the command:
 
 `choco {{command}}`
 
-- Call general help:
+- Print the help for the specified command:
 
-`choco -?`
+`choco {{command}} --help`
 
-- Call help on a specific command:
+- Print the help:
 
-`choco {{command}} -?`
+`choco --help`
 
-- Check the Chocolatey version:
+- Print the version:
 
 `choco --version`
