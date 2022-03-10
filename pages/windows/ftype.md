@@ -1,16 +1,17 @@
 # ftype
 
-> Display or modify file types used for file extension association.
+> Print or modify file types used for file extension association.
+> See also: `assoc`.
 > More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/ftype>.
 
-- Display a list of all file types:
+- Print all file types:
 
 `ftype`
 
-- Display the associated program for a specific file type:
+- Print the associated program for a given file type (txtfile):
 
-`ftype {{file_type}}`
+`ftype {{txtfile}}`
 
-- Set the associated program for a specific file type:
+- Set/remove the associated program (Windows\System32\notepad.exe) for a given file type (txtfile):
 
-`ftype {{file_type}}="{{path/to/executable_command}}"`
+`ftype {{txtfile}}="{{Windows\System32\notepad.exe|}}"`

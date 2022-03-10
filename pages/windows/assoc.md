@@ -1,16 +1,17 @@
 # assoc
 
 > Display or modify file extension associations.
+> See also: `ftype`.
 > More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/assoc>.
 
-- Display all associated filetypes:
+- Print all associated filetypes:
 
 `assoc`
 
-- Display the associated filetype for a specific extension:
+- Print the associated filetype for a given extension (.txt):
 
 `assoc {{.txt}}`
 
-- Modify the associated filetype for a specific extension:
+- Set/remove the associated filetype (txtfile) for a given extension (.txt):
 
-`assoc {{.txt}}={{txtfile}}`
+`assoc {{.txt}}={{txtfile| }}`
