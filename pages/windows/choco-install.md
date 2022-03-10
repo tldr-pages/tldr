@@ -3,34 +3,34 @@
 > Install one or more packages with Chocolatey.
 > More information: <https://docs.chocolatey.org/en-us/choco/commands/install>.
 
-- Install one or more space-separated packages:
+- Install one or more specified packages:
 
-`choco install {{package(s)}}`
+`choco install {{package_name1 package_name2 ...}}`
 
-- Install packages from a custom configuration file:
+- Install the specified version of the package:
 
-`choco install {{path/to/packages.config}}`
+`choco install {{package_name}} --version {{package_version}}`
 
-- Install a specific nuspec or nupkg file:
+- Allow installing multiple versions of the specified package:
 
-`choco install {{path/to/file}}`
-
-- Install a specific version of a package:
-
-`choco install {{package}} --version {{version}}`
-
-- Allow installing multiple versions of a package:
-
-`choco install {{package}} --allow-multiple`
+`choco install {{package_name}} --allow-multiple`
 
 - Confirm all prompts automatically:
 
-`choco install {{package}} --yes`
+`choco install {{package_name}} --yes`
 
-- Specify a custom source to receive packages from:
+- Install packages from the specified configuration file:
 
-`choco install {{package}} --source {{source_url|alias}}`
+`choco install {{path/to/packages.config}}`
 
-- Provide a username and password for authentication:
+- Install the specified nuspec or nupkg file:
 
-`choco install {{package}} --user {{username}} --password {{password}}`
+`choco install {{path/to/file.nuspec}}`
+
+- Install packages from the specified source:
+
+`choco install {{package_name}} --source {{source_url|alias}}`
+
+- Provide the username and the password for authentication:
+
+`choco install {{package_name}} --user {{username}} --password {{password}}`
