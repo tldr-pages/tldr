@@ -3,30 +3,30 @@
 > Upgrade one or more packages with Chocolatey.
 > More information: <https://docs.chocolatey.org/en-us/choco/commands/upgrade>.
 
-- Upgrade one or more space-separated packages:
+- Upgrade one or more specified packages:
 
-`choco upgrade {{package(s)}}`
+`choco upgrade {{package_name1 package_name2 ...}}`
 
-- Upgrade to a specific version of a package:
+- Upgrade to the specified version of the package:
 
-`choco upgrade {{package}} --version {{version}}`
+`choco upgrade {{package_name}} --version {{package_version}}`
+
+- Upgrade all except specified comma-separated packages:
+
+`choco upgrade all --except {{package_name1 package_name2 ...}}`
 
 - Upgrade all packages:
 
 `choco upgrade all`
 
-- Upgrade all except specified comma-separated packages:
-
-`choco upgrade all --except "{{package(s)}}"`
-
 - Confirm all prompts automatically:
 
-`choco upgrade {{package}} --yes`
+`choco upgrade {{package_name}} --yes`
 
-- Specify a custom source to receive packages from:
+- Upgrade package from the specified source:
 
-`choco upgrade {{package}} --source {{source_url|alias}}`
+`choco upgrade {{package_name}} --source {{source_url|source_alias}}`
 
-- Provide a username and password for authentication:
+- Provide the username and the password for authentication:
 
-`choco upgrade {{package}} --user {{username}} --password {{password}}`
+`choco upgrade {{package_name}} --user {{username}} --password {{password}}`
