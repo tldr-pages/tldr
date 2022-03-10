@@ -53,7 +53,7 @@ which is supported by the tldr-pages project maintainers:
 
     npm install -g tldr
 
-Alternatively, you can also use the fully-featured official [Python client](https://github.com/tldr-pages/tldr-python-client) which can be installed via `pip3`.
+Alternatively, you can also use the [Python client](https://github.com/tldr-pages/tldr-python-client) which can be installed via `pip3`.
 
     pip3 install tldr
 
@@ -62,7 +62,7 @@ accessible through typing `tldr tar` instead of the standard `man tar`
 
 However, if you just want to browse without installing anything, check
 out the [PDF version](https://tldr.sh/assets/tldr-book.pdf),
-which is always up-to-date with the most recent pages and commits.
+which is always up-to-date with the latest pages and commits.
 
 There are also **various other clients** provided by the community,
 both for the command-line and for other platforms.
@@ -74,8 +74,8 @@ All contributions are welcome!
 
 Some ways to contribute include:
 
-- Adding your favorite a command which isn't covered.
-- Adding more to an existing page.
+- Adding your favorite command which isn't covered.
+- Adding examples or improving the content of an existing page.
 - Translating pages into different languages.
 
 All `tldr` pages are kept as Markdown files right here in this repository,
@@ -85,7 +85,7 @@ We strive to maintain a [welcoming and collaborative](GOVERNANCE.md) community.
 To begin, have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!
 
 For translations, you can visit <https://lukwebsforge.github.io/tldri18n/>
-to see the current progress of all translations to see which pages need to be translated.
+to see the overall progress of all translations, and which translations are missing or outdated.
 
 ## Similar projects
 
