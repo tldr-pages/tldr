@@ -3,18 +3,18 @@
 > Displays the name of or changes the current working directory.
 > More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/cd>.
 
-- Go to a directory in the same drive:
+- Go to the specified directory:
 
 `cd {{path/to/directory}}`
-
-- Display the name of the current directory:
-
-`cd`
 
 - Go up to the parent of the current directory:
 
 `cd ..`
 
-- Go to a directory in a different drive:
+- Go to the given directory on another drive:
 
-`cd {{path/to/directory}} /d`
+`cd /d {{drive}}:{{path/to/directory}}`
+
+- Print the name of the current directory:
+
+`cd`
