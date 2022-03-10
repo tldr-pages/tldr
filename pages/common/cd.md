@@ -7,7 +7,7 @@
 
 `cd {{path/to/directory}}`
 
-- Go up to the parent of the current directory
+- Go up to the parent of the current directory:
 
 `cd ..`
 
