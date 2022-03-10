@@ -3,7 +3,7 @@
 > Manage API keys for Chocolatey sources.
 > More information: <https://docs.chocolatey.org/en-us/create/commands/api-key>.
 
-- Print sources and their API keys:
+- Print all sources and their API keys:
 
 `choco apikey`
 

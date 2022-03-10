@@ -27,7 +27,7 @@
 
 `choco install {{path/to/file.nuspec}}`
 
-- Install packages from the specified source:
+- Install package from the specified source:
 
 `choco install {{package_name}} --source {{source_url|alias}}`
 
