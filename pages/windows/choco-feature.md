@@ -3,14 +3,10 @@
 > Interact with features with Chocolatey.
 > More information: <https://docs.chocolatey.org/en-us/choco/commands/feature>.
 
-- Display a list of available features:
+- Print all available features:
 
 `choco feature list`
 
-- Enable a feature:
+- Enable/disable the specified feature:
 
-`choco feature enable --name {{name}}`
-
-- Disable a feature:
-
-`choco feature disable --name {{name}}`
+`choco feature {{enable|disable}} --name {{feature_name}}`
