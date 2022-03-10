@@ -3,26 +3,26 @@
 > Displays or changes file and directory attributes.
 > More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/attrib>.
 
-- Display the attributes of the files in the current directory:
+- Print the attributes of all files in the current directory:
 
 `attrib`
 
-- Display the attributes of the files in the current directory and sub-directories:
+- Print the attributes of all files in the current directory and sub-directories recur[s]ively:
 
-`attrib /S`
+`attrib /s`
 
-- Display the attributes of the files and directories in the current directory and sub-directories:
+- Print the attributes of the files and directories in the current [d]irectory:
 
-`attrib /S /D`
+`attrib /d`
 
-- Add the read-only attribute to a file:
+- Set the [r]ead-only/[a]rchive/[s]ystem/[h]idden attribute to a file/directory:
 
-`attrib +R {{document.txt}}`
+`attrib +{{r|a|s|h}} {{path/to/file_or_directory}}`
 
-- Remove the system and hidden attributes of a file:
+- Remove the [r]ead-only/[a]rchive/[s]ystem/[h]idden attribute from a file/directory:
 
-`attrib -S -H {{document.txt}}`
+`attrib -{{r|a|s|h}} {{path/to/file_or_directory}}`
 
-- Add the hidden attribute to a directory:
+- Set multiple attributes to a file/directory:
 
-`attrib +H {{path\to\directory}}`
+`attrib +r +a {{path/to/file_or_directory}}`
