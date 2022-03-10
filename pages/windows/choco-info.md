@@ -3,18 +3,18 @@
 > Display detailed information about a package with Chocolatey.
 > More information: <https://docs.chocolatey.org/en-us/choco/commands/info>.
 
-- Display information on a specific package:
+- Print information for the specified package:
 
-`choco info {{package}}`
+`choco info {{package_name}}`
 
-- Display information for a local package only:
+- Print information for the specified local package:
 
-`choco info {{package}} --local-only`
+`choco info {{package_name}} --local-only`
 
-- Specify a custom source to receive packages information from:
+- Get package information from the specified source:
 
-`choco info {{package}} --source {{source_url|alias}}`
+`choco info {{package_name}} --source {{source_url|alias}}`
 
-- Provide a username and password for authentication:
+- Provide the username and the password for authentication:
 
-`choco info {{package}} --user {{username}} --password {{password}}`
+`choco info {{package_name}} --user {{username}} --password {{password}}`
