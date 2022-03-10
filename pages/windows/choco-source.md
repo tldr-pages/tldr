@@ -3,30 +3,26 @@
 > Manage sources for packages with Chocolatey.
 > More information: <https://docs.chocolatey.org/en-us/choco/commands/source>.
 
-- List currently available sources:
+- Print all currently available sources:
 
 `choco source list`
 
-- Add a new package source:
+- Add the new package source:
 
-`choco source add --name {{name}} --source {{url}}`
+`choco source add --name {{source_alias}} --source {{source_url}}`
 
-- Add a new package source with credentials:
+- Add the new package source with the specified credentials:
 
-`choco source add --name {{name}} --source {{url}} --user {{username}} --password {{password}}`
+`choco source add --name {{source_alias}} --source {{source_url}} --user {{username}} --password {{password}}`
 
-- Add a new package source with a client certificate:
+- Add the new package source with the specified client certificate:
 
-`choco source add --name {{name}} --source {{url}} --cert {{path/to/certificate}}`
+`choco source add --name {{source_alias}} --source {{source_url}} --cert {{path/to/certificate}}`
 
-- Enable a package source:
+- Enable/disable the specified package source:
 
-`choco source enable --name {{name}}`
+`choco source {{enable|disable}} --name {{source_alias}}`
 
-- Disable a package source:
+- Remove the specified package source:
 
-`choco source disable --name {{name}}`
-
-- Remove a package source:
-
-`choco source remove --name {{name}}`
+`choco source remove --name {{source_alias}}`
