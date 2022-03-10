@@ -17,7 +17,7 @@
 
 - Go to the home directory of the specified user:
 
-`cd ~{{user_name}}`
+`cd ~{{username}}`
 
 - Go to the previously chosen directory:
 
