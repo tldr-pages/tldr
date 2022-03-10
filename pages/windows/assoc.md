@@ -8,10 +8,10 @@
 
 `assoc`
 
-- Print the associated filetype for a given extension (.txt):
+- Print the associated filetype for the specified extension (.txt):
 
 `assoc {{.txt}}`
 
-- Set/remove the associated filetype (txtfile) for a given extension (.txt):
+- Set/remove the associated filetype (txtfile) for the specified extension (.txt):
 
 `assoc {{.txt}}={{txtfile| }}`

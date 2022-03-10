@@ -8,10 +8,10 @@
 
 `ftype`
 
-- Print the associated program for a given file type (txtfile):
+- Print the associated program for the specified file type (txtfile):
 
 `ftype {{txtfile}}`
 
-- Set/remove the associated program (Windows\System32\notepad.exe) for a given file type (txtfile):
+- Set/remove the associated program (Windows\System32\notepad.exe) for the specified file type (txtfile):
 
 `ftype {{txtfile}}="{{Windows\System32\notepad.exe|}}"`
