@@ -1,28 +1,8 @@
 # choco search
 
-> Search for a local or remote package with Chocolatey.
+> This command is an alias of `choco list`.
 > More information: <https://docs.chocolatey.org/en-us/choco/commands/search>.
 
-- Search for a package:
+- View documentation for the original command:
 
-`choco search {{query}}`
-
-- Search for a package locally:
-
-`choco search {{query}} --local-only`
-
-- Only include exact matches in the results:
-
-`choco search {{query}} --exact`
-
-- Confirm all prompts automatically:
-
-`choco search {{query}} --yes`
-
-- Specify a custom source to search for packages in:
-
-`choco search {{query}} --source {{source_url|alias}}`
-
-- Provide a username and password for authentication:
-
-`choco search {{query}} --user {{username}} --password {{password}}`
+`tldr choco list`
