@@ -21,7 +21,7 @@
 
 - Print all packages from the specified source matching the given pattern:
 
-`choco list --source {{source_url|alias}}`
+`choco list --source {{source_url|source_alias}}`
 
 - Provide the username and the password for authentication:
 

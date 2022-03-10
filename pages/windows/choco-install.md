@@ -29,7 +29,7 @@
 
 - Install package from the specified source:
 
-`choco install {{package_name}} --source {{source_url|alias}}`
+`choco install {{package_name}} --source {{source_url|source_alias}}`
 
 - Provide the username and the password for authentication:
 

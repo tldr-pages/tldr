@@ -13,7 +13,7 @@
 
 - Check packages from the specified source:
 
-`choco outdated --source {{source_url|alias}}`
+`choco outdated --source {{source_url|source_alias}}`
 
 - Provide the username and the password for authentication:
 

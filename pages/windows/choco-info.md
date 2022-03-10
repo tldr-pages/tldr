@@ -13,7 +13,7 @@
 
 - Get package information from the specified source:
 
-`choco info {{package_name}} --source {{source_url|alias}}`
+`choco info {{package_name}} --source {{source_url|source_alias}}`
 
 - Provide the username and the password for authentication:
 
