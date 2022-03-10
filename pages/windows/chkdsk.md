@@ -7,7 +7,7 @@
 
 `chkdsk {{drive:|mount_point|volume_name}}`
 
-- Repair the specified volume:
+- [F]ix the specified volume:
 
 `chkdsk {{volume}} /f`
 
@@ -15,6 +15,6 @@
 
 `chkdsk {{volume}} /x`
 
-- Set the log file size to the specified size (only for NTFS):
+- Set the [l]og file size to the specified size (only for NTFS):
 
 `chkdsk /l:{{size}}`

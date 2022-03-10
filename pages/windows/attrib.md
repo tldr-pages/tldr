@@ -19,9 +19,9 @@
 
 `attrib +{{r|a|s|h}} {{path/to/file_or_directory}}`
 
-- Remove the [r]ead-only/[a]rchive/[s]ystem/[h]idden attribute from a file/directory:
+- Remove the specified attribute from a file/directory:
 
-`attrib -{{r|a|s|h}} {{path/to/file_or_directory}}`
+`attrib -{{r}} {{path/to/file_or_directory}}`
 
 - Set multiple attributes to a file/directory:
 
