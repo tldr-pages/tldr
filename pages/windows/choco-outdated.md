@@ -3,7 +3,7 @@
 > Check for outdated packages with Chocolatey.
 > More information: <https://docs.chocolatey.org/en-us/choco/commands/outdated>.
 
-- Display a list of outdated packages in table format:
+- Print all outdated packages in table format:
 
 `choco outdated`
 
@@ -11,10 +11,10 @@
 
 `choco outdated --ignore-pinned`
 
-- Specify a custom source to check packages from:
+- Check packages from the specified source:
 
 `choco outdated --source {{source_url|alias}}`
 
-- Provide a username and password for authentication:
+- Provide the username and the password for authentication:
 
 `choco outdated --user {{username}} --password {{password}}`
