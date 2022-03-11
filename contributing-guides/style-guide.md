@@ -40,6 +40,20 @@ Your client may be able to preview a page locally using the `--render` flag:
 tldr --render {{page.md}}
 ```
 
+## Aliases
+
+If some command is an alias for another then you can provide for it such Tl;Dr page:
+
+```md
+# command-name
+
+> This command is an alias of `<original-command>`.
+> More information: <original-command-help-page>.
+- View documentation for the original command:
+
+`tldr <original-command>`
+```
+
 ## Token syntax
 
 User-provided values should use the `{{token}}` syntax
