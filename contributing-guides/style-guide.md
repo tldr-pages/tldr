@@ -49,9 +49,9 @@ Keep the following guidelines in mind when choosing tokens:
 
 ### Naming
 
-- Use short but descriptive tokens, such as `{{source_file}}` or `{{wallet.txt}}`.
-- Use [`snake_case`](https://wikipedia.org/wiki/snake_case) for multi-word tokens.
-- Use an actual value rather than a generic placeholder where appropriate (such cases are described below).
+1. Use short but descriptive tokens, such as `{{source_file}}` or `{{wallet.txt}}`.
+2. Use [`snake_case`](https://wikipedia.org/wiki/snake_case) for multi-word tokens.
+3. Use an actual value rather than a generic placeholder where appropriate (such cases are described below).
   For example, use `iostat {{2}}` rather than `iostat {{interval_in_secs}}`.
 
 ### Paths
@@ -65,9 +65,9 @@ Keep the following guidelines in mind when choosing tokens:
 > ✔️ **Use** just one of most well known file extensions when more than 5 extensions are allowed by documentation or file name is not a placeholder. Otherwise list them via `|` character.
 
 1. Use `{{filename}}` placeholder just when **no absolute/relative path is required**. In other case prefer `{{path/to/file}}`.
-1. Use `{{filename.ext}}`/`{{path/to/file.ext}}` (where `.ext` is a file extension) placeholders just when **allowed extension is provided** (above rule applies here).
-1. Replace `filename`/`file`/`ext` in placeholders described above with concreete values when **documentation provides cocreete file names/extensions**.
-1. Replace `filename`/`file`/`ext` in placeholders described above with concreete values describing meaning of the argument when **argument used with short options/subcommands** to easily understand argument meaning.
+2. Use `{{filename.ext}}`/`{{path/to/file.ext}}` (where `.ext` is a file extension) placeholders just when **allowed extension is provided** (above rule applies here).
+3. Replace `filename`/`file`/`ext` in placeholders described above with concreete values when **documentation provides cocreete file names/extensions**.
+4. Replace `filename`/`file`/`ext` in placeholders described above with concreete values describing meaning of the argument when **argument used with short options/subcommands** to easily understand argument meaning.
 
 > :scroll: **Example**: `unrar x {{path/to/compressed.rar}}` - `compressed.rar` is used instead of `path/to/file.ext` because it's hard to understand what is `compressed.rar`.
 
@@ -78,23 +78,23 @@ Keep the following guidelines in mind when choosing tokens:
 > ✔️ **Use** `{{path/to/directory}}` generic placeholder for directory path unless documentation provides any information about allowed values explicitly.
 
 1. Use `{{directory}}` placeholder just when **no absolute/relative path is required**. In other case prefer `{{path/to/directory}}`.
-1. Replace `directory` in placeholders described above with concreete values when **documentation provides cocreete directory names** (above rule applies here).
-1. Replace `directory` in placeholders described above with concreete values describing meaning of the argument when **argument used with short options/subcommands**  to easily understand argument meaning.
+2. Replace `directory` in placeholders described above with concreete values when **documentation provides cocreete directory names** (above rule applies here).
+3. Replace `directory` in placeholders described above with concreete values describing meaning of the argument when **argument used with short options/subcommands**  to easily understand argument meaning.
 
 #### Mixing file names and directories
 
 1. Use `|` as a delimiter **between** file/directory paths.
-1. Place file path **before** directory one.
-1. Use `{{file_or_directory}}` placeholder shorthand just when **no absolute/relative paths are required** and **no allowed extensions are provided**.
-1. Use `{{path/to/file_or_directory}}` placeholder shorthand just when **absolute/relative paths are required** and **no allowed extensions are provided**.
+2. Place file path **before** directory one.
+3. Use `{{file_or_directory}}` placeholder shorthand just when **no absolute/relative paths are required** and **no allowed extensions are provided**.
+4. Use `{{path/to/file_or_directory}}` placeholder shorthand just when **absolute/relative paths are required** and **no allowed extensions are provided**.
 
 > :scroll: **Examples**: `{{filename|directory}}`, `{{path/to/file.ext|directory}}`, `{{path/to/file.ext|path/to/directory}}`, `{{path/to/file_or_directory}}`.
 
 ### Flags
 
 1. Use long flags when available for pages in `linux/` directory.
-1. Always use short flags when available for pages in `osx/` and `windows/` directories.
-1. Use short flags for frequently used options when available.
+2. Always use short flags when available for pages in `osx/` and `windows/` directories.
+3. Use short flags for frequently used options when available.
 
 > :scroll: **Example**: `fish --command` (in `common/` directory) - `--command` is used instead of `-c` because it's hard to understand what is `-c`.
 
@@ -102,12 +102,12 @@ Keep the following guidelines in mind when choosing tokens:
 
 ### Special cases
 
-- If a command performs irreversible changes to a file system or devices,
+1. If a command performs irreversible changes to a file system or devices,
   write every example in a way that they cannot be thoughtlessly copy-pasted.
   For example, instead of `ddrescue --force --no-scrape /dev/sda /dev/sdb`
   write `ddrescue --force --no-scrape {{/dev/sdX}} {{/dev/sdY}}`
   and use the `{{/dev/sdXY}}` placeholder for *block devices* instead of `/dev/sda1`.
-- If a command can take a variable number of arguments, use an ellipsis: `{{arg1 arg2 ...}}`
+2. If a command can take a variable number of arguments, use an ellipsis: `{{arg1 arg2 ...}}`
   If one of multiple options is possible, write it as `{{either|or}}`.
 
 In general, tokens should make it as intuitive as possible
