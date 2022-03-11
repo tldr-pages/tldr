@@ -1,7 +1,7 @@
 # bluetoothctl
 
 > കമാൻഡ് ലൈനിൽ നിന്ന് ബ്ലൂടൂത്ത് ഉപകരണങ്ങൾ മാനേജുചെയ്യുക.
-> കൂടുതൽ വിവരങ്ങൾ: <https://www.npmjs.com/package/bluetoothctl>.
+> കൂടുതൽ വിവരങ്ങൾ: <https://bitbucket.org/serkanp/bluetoothctl>.
 
 - ബ്ലൂടൂത്ത്സിറ്റിഎൽ ഷെല്ലിൽ കേറാൻ:
 

@@ -1,6 +1,7 @@
 # open
 
 > Öffne Dateien, Verzeichnisse und Anwendungen.
+> Weitere Informationen: <https://ss64.com/osx/open.html>.
 
 - Öffne eine Datei in der zugehörigen Anwendung:
 

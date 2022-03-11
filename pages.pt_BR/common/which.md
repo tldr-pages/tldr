@@ -1,6 +1,7 @@
 # which
 
 > Localiza um programa no path do usuário.
+> Mais informações: <https://manned.org/which>.
 
 - Procura na variável PATH e exibe a localização do executável se encontrado:
 

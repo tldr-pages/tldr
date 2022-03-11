@@ -1,7 +1,7 @@
 # ab
 
 > அப்பாச்சி தரப்படுத்தல் கருவி. சுமை சோதனை செய்ய எளிய கருவி.
-> மேலும் தகவல்: <https://httpd.apache.org/docs/current/programs/ab.html>.
+> மேலும் விவரத்திற்கு: <https://httpd.apache.org/docs/current/programs/ab.html>.
 
 - கொடுக்கப்பட்ட முகவரி க்கு 100 HTTP GET கோரிக்கைகளை இயக்கவும்:
 

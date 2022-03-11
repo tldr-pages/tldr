@@ -1,6 +1,7 @@
 # split
 
 > Split a file into pieces.
+> More information: <https://ss64.com/osx/split.html>.
 
 - Split a file, each split having 10 lines (except the last split):
 

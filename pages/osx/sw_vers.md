@@ -1,6 +1,7 @@
 # sw_vers
 
 > Print macOS operating system version information.
+> More information: <https://ss64.com/osx/sw_vers.html>.
 
 - Print all available information (OS name, version number, and build):
 

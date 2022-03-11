@@ -1,7 +1,7 @@
 # java
 
 > ஜாவா பயன்பாட்டு துவக்கி.
-> மேலும் தகவல்: <https://java.com>.
+> மேலும் விவரத்திற்கு: <https://docs.oracle.com/en/java/javase/17/docs/specs/man/java.html>.
 
 - ஒரு main செயல்பாட்டைக் கொண்ட ஜாவா .class கோப்பை வெறும் class பெயரை பயன்படுத்தி இயக்கவும்:
 

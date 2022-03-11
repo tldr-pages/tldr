@@ -14,11 +14,11 @@
 
 - Scan a class B subnet avoiding ranges from a specific exclude file:
 
-`masscan {{10.0.0.0/16}} ‐‐top-ports {{100}} ‐‐excludefile {{path/to/file}}`
+`masscan {{10.0.0.0/16}} --top-ports {{100}} --excludefile {{path/to/file}}`
 
 - Scan the Internet for port 443:
 
-`masscan {{0.0.0.0/0}} --ports {{443}} ––rate {{10000000}}`
+`masscan {{0.0.0.0/0}} --ports {{443}} --rate {{10000000}}`
 
 - Scan the Internet for a specific port range and export to a file:
 

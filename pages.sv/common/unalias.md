@@ -1,6 +1,7 @@
 # unalias
 
 > Ta bort alias.
+> Mer information: <https://manned.org/unalias>.
 
 - Ta bort en alias:
 

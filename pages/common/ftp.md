@@ -7,6 +7,10 @@
 
 `ftp {{ftp.example.com}}`
 
+- Connect to an FTP server specifying its IP address and port:
+
+`ftp {{ip_address}} {{port}}`
+
 - Switch to binary transfer mode (graphics, compressed files, etc):
 
 `binary`

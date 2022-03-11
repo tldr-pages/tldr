@@ -3,14 +3,18 @@
 > List information about an OGR-supported data source.
 > More information: <https://gdal.org/programs/ogrinfo.html>.
 
-- List layers of a GeoPackage:
+- List supported formats:
 
-`ogrinfo {{input}}.gpkg`
+`ogrinfo --formats`
 
-- Get detailed information about a specific layer of a GeoPackage:
+- List layers of a data source:
 
-`ogrinfo {{input}}.gpkg {{layer_name}}`
+`ogrinfo {{path/to/input.gpkg}}`
 
-- Only show summary information about a specific layer of a GeoPackage:
+- Get detailed information about a specific layer of a data source:
 
-`ogrinfo -so {{input}}.gpkg {{layer_name}}`
+`ogrinfo {{path/to/input.gpkg}} {{layer_name}}`
+
+- Only show summary information about a specific layer of a data source:
+
+`ogrinfo -so {{path/to/input.gpkg}} {{layer_name}}`

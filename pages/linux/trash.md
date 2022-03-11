@@ -1,32 +1,32 @@
 # trash
 
-> A CLI for managing your trashcan / recycling bin.
+> A CLI for managing the trashcan / recycling bin.
 > More information: <https://github.com/andreafrancia/trash-cli>.
 
-- Delete a file (send to trash):
+- Delete a file and send it to the trash:
 
 `trash {{path/to/file}}`
 
-- List files in trash:
+- List all files in the trash:
 
 `trash-list`
 
-- Restore file from trash:
+- Interactively restore a file from the trash:
 
 `trash-restore`
 
-- Empty trash:
+- Empty the trash:
 
 `trash-empty`
 
-- Empty trash, keeping files trashed less than {{10}} days ago:
+- Permanentely delete all files in the trash which are older than 10 days:
 
 `trash-empty {{10}}`
 
-- Remove all files named 'foo' from the trash:
+- Remove all files in the trash, which match a specific blob pattern:
 
-`trash-rm foo`
+`trash-rm "{{*.o}}"`
 
-- Remove all files with a given original location:
+- Remove all files with a specific original location:
 
-`trash-rm {{/absolute/path/to/file_or_directory}}`
+`trash-rm {{/path/to/file_or_directory}}`

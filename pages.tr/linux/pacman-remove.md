@@ -1,7 +1,7 @@
 # pacman --remove
 
 > Arch Linux paket yönetim aracı.
-> Daha fazla bilgi için: <https://man.archlinux.org/man/pacman.8>.
+> Daha fazla bilgi: <https://man.archlinux.org/man/pacman.8>.
 
 - Bu alt komut için yardım göster:
 

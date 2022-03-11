@@ -2,6 +2,7 @@
 
 > 管理系统配置参数。
 > 设置配置时必须是 root 权限。
+> 更多信息：<https://ss64.com/osx/scutil.html>.
 
 - 显示 DNS 配置：
 

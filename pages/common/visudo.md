@@ -1,11 +1,16 @@
 # visudo
 
 > Safely edit the sudoers file.
+> More information: <https://www.sudo.ws/man/1.8.13/visudo.man.html>.
 
-- Edit sudoers file:
+- Edit the sudoers file:
 
 `sudo visudo`
 
-- Check sudoers file for errors:
+- Check the sudoers file for errors:
 
 `sudo visudo -c`
+
+- Display version information:
+
+`visudo --version`

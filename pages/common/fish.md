@@ -7,9 +7,13 @@
 
 `fish`
 
-- Execute a command and then exit:
+- Start an interactive shell session without loading startup configs:
 
-`fish -c "{{command}}"`
+`fish --no-config`
+
+- Execute a command:
+
+`fish --command "{{command}}"`
 
 - Execute a script:
 
@@ -23,10 +27,10 @@
 
 `fish --private`
 
-- Display version information and exit:
+- Define and export an environmental variable that persists across shell restarts (builtin):
+
+`set --universal --export {{variable_name}} {{variable_value}}`
+
+- Print the version:
 
 `fish --version`
-
-- Set and export environmental variables that persist across shell restarts (from within the shell only):
-
-`set -Ux {{variable_name}} {{variable_value}}`

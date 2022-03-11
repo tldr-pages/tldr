@@ -2,7 +2,7 @@
 
 > Utilitário de Arch Linux para gerenciamento de pacotes.
 > Alguns subcomandos como `pacman sync` possuem sua própria documentação de uso.
-> Mais informações: <https://man.archlinux.org/man/pacman.8>
+> Mais informações: <https://man.archlinux.org/man/pacman.8>.
 
 - Sincroniza e atualiza todos os pacotes:
 

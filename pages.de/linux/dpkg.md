@@ -2,7 +2,7 @@
 
 > Debian Paketmanager.
 > Manche Unterbefehle wie `dpkg deb` sind separat dokumentiert.
-> Weitere Informationen: <https://manpages.debian.org/buster/dpkg/dpkg.1.en.html>.
+> Weitere Informationen: <https://manpages.debian.org/latest/dpkg/dpkg.html>.
 
 - Installiere ein Paket:
 

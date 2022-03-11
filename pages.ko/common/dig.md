@@ -1,7 +1,7 @@
 # dig
 
 > DNS 조회 유틸리티.
-> 더 많은 정보: <https://manpages.debian.org/dnsutils/dig.1.html>.
+> 더 많은 정보: <https://manned.org/dig>.
 
 - 호스트이름과 관련된 IP 조회하기 (A records):
 

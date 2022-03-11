@@ -1,6 +1,7 @@
 # while
 
 > Simple shell loop.
+> More information: <https://manned.org/while>.
 
 - Read stdin and perform an action on every line:
 

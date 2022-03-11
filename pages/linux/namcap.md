@@ -13,4 +13,4 @@
 
 - Check a file, printing extra [i]nformational messages:
 
-`nnamcap -i {{path/to/file}}`
+`namcap -i {{path/to/file}}`

@@ -7,14 +7,22 @@
 
 `pw-loopback`
 
-- Create a sink that can be selected in applications that forwards the data to another sink:
+- Create a loopback device that automatically connects to the speakers:
 
-`pw-loopback -m '{{[FL FR]}}' --capture-props='{{media.class=Audio/Sink node.name=my-sink}}'`
+`pw-loopback -m '{{[FL FR]}}' --capture-props='{{media.class=Audio/Sink}}'`
 
-- Create a sink that can be selected in applications that swaps the left and right channels to another sink:
+- Create a loopback device that automatically connects to the microphone:
 
-`pw-loopback --capture-props='{{media.class=Audio/Sink node.name=my-sink audio.position=[FL FR]}}' --playback-props='{{audio.position=[FR FL]}}'`
+`pw-loopback -m '{{[FL FR]}}' --playback-props='{{media.class=Audio/Source}}'`
 
-- Create a source that can be selected in applications that swaps the left and right channels from another source:
+- Create a dummy loopback device that doesn't automatically connect to anything:
 
-`pw-loopback --capture-props='{{audio.position=[FR FL]}}' --playback-props='{{media.class=Audio/Source node.name=my-source audio.position=[FL FR]}}'`
+`pw-loopback -m '{{[FL FR]}}' --capture-props='{{media.class=Audio/Sink}}' --playback-props='{{media.class=Audio/Source}}'`
+
+- Create a loopback device that automatically connects to the speakers and swaps the left and right channels between the sink and source:
+
+`pw-loopback --capture-props='{{media.class=Audio/Sink audio.position=[FL FR]}}' --playback-props='{{audio.position=[FR FL]}}'`
+
+- Create a loopback device that automatically connects to the microphone and swaps the left and right channels between the sink and source:
+
+`pw-loopback --capture-props='{{audio.position=[FR FL]}}' --playback-props='{{media.class=Audio/Source audio.position=[FL FR]}}'`

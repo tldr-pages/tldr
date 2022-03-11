@@ -12,6 +12,7 @@ labels = {
     "ar": "لمزيد من التفاصيل:",
     "bn": "আরও তথ্য পাবেন:",
     "bs": "Više informacija:",
+    "ca": "Més informació:",
     "da": "Mere information:",
     "de": "Weitere Informationen:",
     "es": "Más información:",
@@ -38,6 +39,7 @@ labels = {
     "th": "ดูเพิ่มเติม:",
     "tr": "Daha fazla bilgi:",
     "uk": "Більше інформації:",
+    "uz": "Ko'proq malumot:",
     "zh_TW": "更多資訊：",
     "zh": "更多信息：",
 }
