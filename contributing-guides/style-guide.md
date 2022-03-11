@@ -76,7 +76,7 @@ Keep the following guidelines in mind when choosing tokens:
 
 > ✔️ **Use** `{{path/to/file.ext}}` generic placeholder for file path unless documentation provides any information about allowed values explicitly.
 
-> ✔️ **Use** just one of most well known file extensions when more than 5 extensions are allowed by documentation or file name is not a placeholder. Otherwise list them via `|` character.
+> ✔️ **List** all file extensions via `|` when less then 6 extensions are allowed by documentation and file name is not a placeholder. Otherwise use just one extension of all permited.
 
 1. Use `{{filename}}` placeholder just when **no absolute/relative path is required**. In other case prefer `{{path/to/file}}`.
 2. Use `{{filename.ext}}`/`{{path/to/file.ext}}` (where `.ext` is a file extension) placeholders just when **allowed extension is provided** (above rule applies here).
