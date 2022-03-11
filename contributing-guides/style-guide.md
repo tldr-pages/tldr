@@ -51,30 +51,42 @@ Keep the following guidelines in mind when choosing tokens:
 
 - Use short but descriptive tokens, such as `{{source_file}}` or `{{wallet.txt}}`.
 - Use [`snake_case`](https://wikipedia.org/wiki/snake_case) for multi-word tokens.
-- Use an actual value rather than a generic placeholder where appropriate.
+- Use an actual value rather than a generic placeholder where appropriate (such cases are described below).
   For example, use `iostat {{2}}` rather than `iostat {{interval_in_secs}}`.
 
 ### Paths
 
-- Use `{{filename}}` rather than `{{file_name}}`.
-- For any reference to paths of files or directories,
-  use the format `{{path/to/<placeholder>}}`,
-  except when the location is implicit.
-- When the path cannot be relative,
-  but has to start at the root of the filesystem,
-  prefix it with a slash,
-  such as `get {{/path/to/remote_file}}`.
-- In case of a possible reference both to a file or a directory,
-  use `{{path/to/file_or_directory}}`.
+> :x: **Don't use** concreete values for paths unless documentation provides such ones explicitly.
 
-### Extensions
+#### File paths
 
-- If a particular extension is expected for the file, append it.
-  For example, `unrar x {{compressed.rar}}`.
-- In case a generic extension is needed, use `{{.ext}}`, but **only** if an extension is required.
-  For instance, in `find.md`'s example "Find files by extension" (`find {{root_path}} -name '{{*.ext}}'`)
-  using `{{*.ext}}` explains the command without being unnecessarily specific;
-  while in `wc -l {{file}}` using `{{file}}` (without extension) is sufficient.
+> ✔️ **Use** `{{path/to/file.ext}}` generic placeholder for file path unless documentation provides any information about allowed values explicitly.
+
+- Use `{{filename}}` placeholder just when **no absolute/relative path is required**. In other case prefer `{{path/to/file}}`.
+- Use `{{filename.ext}}`/`{{path/to/file.ext}}` (where `.ext` is a file extension) placeholders just when **allowed extension is provided** (above rule applies here).
+- Replace `filename`/`file`/`ext` in placeholders described above with concreete values when **documentation provides cocreete file names/extensions**.
+- Replace `filename`/`file`/`ext` in placeholders described above with concreete values describing meaning of the argument when **argument used with short options/subcommands** to easily understand argument meaning.
+
+> :scroll: **Example**: `unrar x {{path/to/compressed.rar}}` - `compressed.rar` is used instead of `path/to/file.ext` because it's hard to understand what is `compressed.rar` .
+
+#### Directory paths
+
+> :x: **Don't forget** add `/` for absolute paths.
+
+> ✔️ **Use** `{{path/to/directory}}` generic placeholder for directory path unless documentation provides any information about allowed values explicitly.
+
+- Use `{{directory}}` placeholder just when **no absolute/relative path is required**. In other case prefer `{{path/to/directory}}`.
+- Replace `directory` in placeholders described above with concreete values when **documentation provides cocreete directory names** (above rule applies here).
+- Replace `directory` in placeholders described above with concreete values describing meaning of the argument when **argument used with short options/subcommands**  to easily understand argument meaning.
+
+#### Mixing file names and directories
+
+- Use `|` as a delimiter **between** file/directory paths.
+- Place file path **before** directory one.
+- Use `{{file_or_directory}}` placeholder shorthand just when **no absolute/relative paths are required** and **no allowed extensions are provided**.
+- Use `{{path/to/file_or_directory}}` placeholder shorthand just when **absolute/relative paths are required** and **no allowed extensions are provided**.
+
+> :scroll: **Example**: `{{filename|directory}}`, `{{path/to/file.ext|directory}}`, `{{path/to/file.ext|path/to/directory}}`, `{{path/to/file_or_directory}}`.
   
 ### Flags
 
