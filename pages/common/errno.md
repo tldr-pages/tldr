@@ -5,7 +5,7 @@
 
 - Lookup errno description by name or code:
 
-`errno {{name_or_code}}`
+`errno {{name|code}}`
 
 - List all errno names, codes, and descriptions:
 
