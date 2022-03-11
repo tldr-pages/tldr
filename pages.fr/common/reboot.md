@@ -7,14 +7,14 @@
 
 `reboot`
 
-- Réinitialisez le système maintenant mais propre
+- Réinitialisez le système maintenant mais propre :
 
 `reboot -f`
 
-- Mettrez le système hors tension
+- Mettrez le système hors tension :
 
 `reboot --poweroff`
 
-- Arrêtez toutes les fonctions du CPU 
+- Arrêtez toutes les fonctions du CPU :
 
 `reboot --halt`
