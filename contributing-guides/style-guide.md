@@ -64,10 +64,10 @@ Keep the following guidelines in mind when choosing tokens:
 
 > ✔️ **Use** just one of most well known file extensions when more than 5 extensions are allowed by documentation or file name is not a placeholder. Otherwise list them via `|` character.
 
-- Use `{{filename}}` placeholder just when **no absolute/relative path is required**. In other case prefer `{{path/to/file}}`.
-- Use `{{filename.ext}}`/`{{path/to/file.ext}}` (where `.ext` is a file extension) placeholders just when **allowed extension is provided** (above rule applies here).
-- Replace `filename`/`file`/`ext` in placeholders described above with concreete values when **documentation provides cocreete file names/extensions**.
-- Replace `filename`/`file`/`ext` in placeholders described above with concreete values describing meaning of the argument when **argument used with short options/subcommands** to easily understand argument meaning.
+1. Use `{{filename}}` placeholder just when **no absolute/relative path is required**. In other case prefer `{{path/to/file}}`.
+1. Use `{{filename.ext}}`/`{{path/to/file.ext}}` (where `.ext` is a file extension) placeholders just when **allowed extension is provided** (above rule applies here).
+1. Replace `filename`/`file`/`ext` in placeholders described above with concreete values when **documentation provides cocreete file names/extensions**.
+1. Replace `filename`/`file`/`ext` in placeholders described above with concreete values describing meaning of the argument when **argument used with short options/subcommands** to easily understand argument meaning.
 
 > :scroll: **Example**: `unrar x {{path/to/compressed.rar}}` - `compressed.rar` is used instead of `path/to/file.ext` because it's hard to understand what is `compressed.rar`.
 
@@ -77,18 +77,18 @@ Keep the following guidelines in mind when choosing tokens:
 
 > ✔️ **Use** `{{path/to/directory}}` generic placeholder for directory path unless documentation provides any information about allowed values explicitly.
 
-- Use `{{directory}}` placeholder just when **no absolute/relative path is required**. In other case prefer `{{path/to/directory}}`.
-- Replace `directory` in placeholders described above with concreete values when **documentation provides cocreete directory names** (above rule applies here).
-- Replace `directory` in placeholders described above with concreete values describing meaning of the argument when **argument used with short options/subcommands**  to easily understand argument meaning.
+1. Use `{{directory}}` placeholder just when **no absolute/relative path is required**. In other case prefer `{{path/to/directory}}`.
+1. Replace `directory` in placeholders described above with concreete values when **documentation provides cocreete directory names** (above rule applies here).
+1. Replace `directory` in placeholders described above with concreete values describing meaning of the argument when **argument used with short options/subcommands**  to easily understand argument meaning.
 
 #### Mixing file names and directories
 
-- Use `|` as a delimiter **between** file/directory paths.
-- Place file path **before** directory one.
-- Use `{{file_or_directory}}` placeholder shorthand just when **no absolute/relative paths are required** and **no allowed extensions are provided**.
-- Use `{{path/to/file_or_directory}}` placeholder shorthand just when **absolute/relative paths are required** and **no allowed extensions are provided**.
+1. Use `|` as a delimiter **between** file/directory paths.
+1. Place file path **before** directory one.
+1. Use `{{file_or_directory}}` placeholder shorthand just when **no absolute/relative paths are required** and **no allowed extensions are provided**.
+1. Use `{{path/to/file_or_directory}}` placeholder shorthand just when **absolute/relative paths are required** and **no allowed extensions are provided**.
 
-> :scroll: **Example**: `{{filename|directory}}`, `{{path/to/file.ext|directory}}`, `{{path/to/file.ext|path/to/directory}}`, `{{path/to/file_or_directory}}`.
+> :scroll: **Examples**: `{{filename|directory}}`, `{{path/to/file.ext|directory}}`, `{{path/to/file.ext|path/to/directory}}`, `{{path/to/file_or_directory}}`.
 
 ### Flags
 
