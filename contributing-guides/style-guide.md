@@ -63,10 +63,14 @@ Keep the following guidelines in mind when choosing tokens:
 
 ### Naming
 
-1. Use short but descriptive tokens, such as `{{source_file}}` or `{{wallet.txt}}`.
-2. Use [`snake_case`](https://wikipedia.org/wiki/snake_case) for multi-word tokens.
-3. Use an actual value rather than a generic placeholder where appropriate (such cases are described below).
+1. Use short but descriptive placeholders, such as `{{path/to/source_file}}` or `{{path/to/wallet.txt}}`.
+2. Use [`snake_case`](https://wikipedia.org/wiki/snake_case) for multi-word placeholders.
+3. Use an actual value rather than a generic placeholder where possible (such cases are described below.
   For example, use `iostat {{2}}` rather than `iostat {{interval_in_secs}}`.
+4. Don't join several placeholders, such as `{{_config.}}{{toml|yml}}`. Separate them via at least one symbol: `{{_config}}.{{toml|yml}}`.
+5. Don't use `or` as a placeholder delimiter, prefer `|` always except [some cases](#mixing-file-names-and-directories):
+    - `{{file_or_directory}}`
+    - `{{path/to/file_or_directory}}`
 
 ### Paths
 
