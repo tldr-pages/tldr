@@ -3,22 +3,22 @@
 > Mettrez le système hors tension
 > Plus d'informations: https://linux.die.net/man/8/shutdown
 
-- Mettrez le système hors tension maintenant
+- Mettrez le système hors tension maintenant :
 
 `shutdown -h now`
 
-- Réinitialisez le système maintenant
+- Réinitialisez le système maintenant :
 
 `shutdown -r now`
 
-- Mettrez le système hors tension en cinq minutes 
+- Mettrez le système hors tension en cinq minutes :
 
 `shutdown -r +5 &`
 
-- Mettrez le système hors tension à 8h 
+- Mettrez le système hors tension à 8h :
 
 `shutdown -h 08:00`
 
-- Arrêtez une mise hors tension en attente 
+- Arrêtez une mise hors tension en attente :
 
 `shutdown -c`
