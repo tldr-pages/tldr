@@ -134,33 +134,11 @@ Use backticks on the following:
 - Extensions, ex. `.dll`.
 - Commands, ex. `ls`.
 
-### Shell-specific pages
-
-If a page describes a shell, when it's possible try to follow this structure:
-
-- Start an interactive shell session:
-- Start an interactive shell session without loading startup configs:
-- Execute a command:
-- Execute a script:
-- Check a script for syntax errors:
-- _any other examples_
-- Print the version:
-
-If you want to include shell builtin sample please place `(builtin)` word at the end of example description such as:
-
-```md
-- Define and export an environmental variable that persists across shell restarts (builtin):
-
-`set --universal --export {{variable_name}} {{variable_value}}`
-```
-
-Please consult [fish](https://github.com/tldr-pages/tldr/blob/main/pages/common/fish.md) tldr page for a complete example.
-
 ## Imperative Mood
 
-Example descriptions have to be phrased in imperative mood.  
-For example, use `List all files`, instead of `Listing all files` or `File listing`.  
-This also applies to all translations by default, unless this is not possible for some reason.  
+Example descriptions have to be phrased in imperative mood.
+For example, use `List all files`, instead of `Listing all files` or `File listing`.
+This also applies to all translations by default, unless this is not possible for some reason.
 
 ## Serial Comma
 
@@ -184,7 +162,11 @@ This can be resolved by inserting a comma before the "and" or "or" in the final 
 
 On the `More information` line, prefer linking to the author's provided documentation.
 
-When not available, use <https://manned.org/> as the default fallback. 
+When not available, use <https://manned.org/> as the default fallback.
+
+## Tool oriented guides
+
+- [How to write pages about shells?](https://github.com/tldr-pages/tldr/tree/main/contributing-guides/tool-oriented-guides/shells.md)
 
 ## Chinese-Specific Rules
 
@@ -192,17 +174,17 @@ When Chinese words, Latin words and Arabic numerals are written in the same sent
 
 The following guidelines are applied to Chinese (zh) and traditional Chinese (zh_TW):
 
-1. Place one space before/after English words and numbers.  
-   For example, use `列出所有 docker 容器` rather than `列出所有docker容器`.  
+1. Place one space before/after English words and numbers.
+   For example, use `列出所有 docker 容器` rather than `列出所有docker容器`.
    For example, use `宽度为 50 个字` rather than `宽度为50个字`.
-2. Place one space between numbers and units **except** degrees and percentages.  
-   For example, use `容量 50 MB` rather than `容量 50MB`.  
+2. Place one space between numbers and units **except** degrees and percentages.
+   For example, use `容量 50 MB` rather than `容量 50MB`.
    For instances of degree and percentage, use `50°C` and `50%` rather than `50 °C` and `50 %`.
-3. No additional spaces before/after full-width punctuations.  
+3. No additional spaces before/after full-width punctuations.
    For example, use `开启 shell，进入交互模式` rather than `开启 shell ，进入交互模式`
-4. Use full-width punctuations except for long Latin clauses.  
+4. Use full-width punctuations except for long Latin clauses.
    For example, use `嗨，你好。` rather than `嗨, 你好.`
-5. Use a half-width punctuation to end a sentence when the last character is half-width.  
+5. Use a half-width punctuation to end a sentence when the last character is half-width.
    For example, use `将代码转化为 Python 3.` rather than `将代码转化为 Python 3。`
 6. Use precise form for technical terms, and do not use unofficial Chinese abbreviations.
    For example, use `Facebook` rather than `facebook`, `fb` or `脸书`.
