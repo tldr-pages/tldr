@@ -15,6 +15,6 @@
 
 `errno --search {{text}}`
 
-- Seach for code who's description contains all of the given text (all locales):
+- Search for code who's description contains all of the given text (all locales):
 
 `errno --search-all-locales {{text}}`
