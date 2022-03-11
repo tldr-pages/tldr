@@ -35,3 +35,8 @@
 - Empty the entire pacman cache:
 
 `sudo pacman --sync --clean --clean`
+
+- Find a package that contains a filename
+
+`pacman --files {{filename}}`
+
