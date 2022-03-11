@@ -92,9 +92,13 @@ Keep the following guidelines in mind when choosing tokens:
 
 ### Flags
 
-- Use long flags when available for pages in `linux/` directory. For example instead of `fish -c`, use `fish --command`, so the meaning of the flag can be understood.
-- Always use short flags when available for pages in `osx/` and `windows/` directories.
-- Use short flags for frequently used options when available. For example instead of `git commit --message`, use `git commit -m`, so the command can be typed faster.
+1. Use long flags when available for pages in `linux/` directory.
+1. Always use short flags when available for pages in `osx/` and `windows/` directories.
+1. Use short flags for frequently used options when available.
+
+> :scroll: **Example**: `fish --command` (in `common/` directory) - `--command` is used instead of `-c` because it's hard to understand what is `-c`.
+
+> :scroll: **Example**: `git commit -m` (in `common/` directory) - `-m` is used instead of `--message` because it's faster to type `-m` and it's frequently used.
 
 ### Special cases
 
