@@ -7,7 +7,7 @@ This page lists specific formatting instructions for `tldr` pages.
 The basic format of each page should match the following template:
 
 ```md
-# command-name
+# <command-name>
 
 > Short, snappy description.
 > Preferably one line; two are acceptable if necessary.
@@ -15,11 +15,11 @@ The basic format of each page should match the following template:
 
 - Example description:
 
-`command -opt1 -opt2 -arg1 {{arg_value}}`
+`<command-name> -opt1 -opt2 -arg1 {{arg_value}}`
 
 - Example description:
 
-`command -opt1 -opt2`
+`<command-name> -opt1 -opt2`
 ```
 
 There actually is a linter/formatter that enforces the format above.
