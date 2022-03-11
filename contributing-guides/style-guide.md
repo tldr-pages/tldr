@@ -62,12 +62,14 @@ Keep the following guidelines in mind when choosing tokens:
 
 > ✔️ **Use** `{{path/to/file.ext}}` generic placeholder for file path unless documentation provides any information about allowed values explicitly.
 
+> ✔️ **Use** just one of most well known file extensions when more than 5 extensions are allowed by documentation or file name is not a placeholder. Otherwise list them via `|` character.
+
 - Use `{{filename}}` placeholder just when **no absolute/relative path is required**. In other case prefer `{{path/to/file}}`.
 - Use `{{filename.ext}}`/`{{path/to/file.ext}}` (where `.ext` is a file extension) placeholders just when **allowed extension is provided** (above rule applies here).
 - Replace `filename`/`file`/`ext` in placeholders described above with concreete values when **documentation provides cocreete file names/extensions**.
 - Replace `filename`/`file`/`ext` in placeholders described above with concreete values describing meaning of the argument when **argument used with short options/subcommands** to easily understand argument meaning.
 
-> :scroll: **Example**: `unrar x {{path/to/compressed.rar}}` - `compressed.rar` is used instead of `path/to/file.ext` because it's hard to understand what is `compressed.rar` .
+> :scroll: **Example**: `unrar x {{path/to/compressed.rar}}` - `compressed.rar` is used instead of `path/to/file.ext` because it's hard to understand what is `compressed.rar`.
 
 #### Directory paths
 
@@ -87,7 +89,7 @@ Keep the following guidelines in mind when choosing tokens:
 - Use `{{path/to/file_or_directory}}` placeholder shorthand just when **absolute/relative paths are required** and **no allowed extensions are provided**.
 
 > :scroll: **Example**: `{{filename|directory}}`, `{{path/to/file.ext|directory}}`, `{{path/to/file.ext|path/to/directory}}`, `{{path/to/file_or_directory}}`.
-  
+
 ### Flags
 
 - Use long flags when available for pages in `linux/` directory. For example instead of `fish -c`, use `fish --command`, so the meaning of the flag can be understood.
