@@ -11,6 +11,10 @@
 
 `jq '.[]' {{file.json}}`
 
+- Output elements from arrays which match provided filter:
+
+`jq '.[] | select(.{{key_name}} == {{value}})'`
+
 - Read JSON objects from a file into an array, and output it (inverse of `jq .[]`):
 
 `jq --slurp . {{file.json}}`
@@ -26,10 +30,6 @@
 - Output the value of multiple keys as a new JSON object (assuming the input JSON has the keys `key_name` and `other_key_name`):
 
 `cat {{file.json}} | jq '{{{my_new_key}}: .{{key_name}}, {{my_other_key}}: .{{other_key_name}}}'`
-
-- Combine multiple filters:
-
-`cat {{file.json}} | jq 'unique | sort | reverse'`
 
 - Output the value of a given key to a string (and disable JSON output):
 
