@@ -10,7 +10,7 @@
 
 - Uncompress a file:
 
-`zlib-flate -uncompress < {{compressed.zlib}} > {{file}}`
+`zlib-flate -uncompress < {{path/to/compressed.zlib}} > {{path/to/output_file}}`
 
 - Compress a file with a specified compression level [0-9]:
 
