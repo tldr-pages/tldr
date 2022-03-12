@@ -76,7 +76,7 @@ Keep the following below described guidelines in mind when choosing tokens.
 
 > :x: **Don't use** quotes for arguments unless documentation mandates them explicitly or you exactly know they are required (and it's not one of the cases below).
 
-- Don't use quotes for any **path arguments**.
+- Don't use quotes for any [**path arguments**](#paths).
 - Use single quotes for **inlined scripts** such as Sed/Awk ones.
 - Use double quotes where **documentation mandates them**.
 - Rely on POSIX-compliant shell rules with repsect to exceptions above until some special shell syntax is demonstrated.
@@ -116,7 +116,7 @@ Keep the following below described guidelines in mind when choosing tokens.
 
 #### Mixing file names and directories
 
-1. Use `|` as a delimiter **between** file/directory paths.
+1. Use `|` as a delimiter **between** [file](#file-paths)/[directory](#directory-paths) paths.
 2. Place file path **before** directory one.
 3. Use `{{file_or_directory}}` placeholder shorthand just when **no absolute/relative paths are required** and **no allowed extensions are provided**.
 4. Use `{{path/to/file_or_directory}}` placeholder shorthand just when **absolute/relative paths are required** and **no allowed extensions are provided**.
