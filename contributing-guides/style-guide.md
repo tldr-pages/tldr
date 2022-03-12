@@ -140,6 +140,13 @@ not to strictly follow POSIX shell syntax.
 
 :x: Nested placeholders are **not** supported now in Tl;Dr clients.
 
+### Preferred placeholders
+
+- `{{file}}`, but not `{{filename}}`
+- `{{directory}}`, but not `{{directory_name}}`
+- `{{user}}`, but not `{{username}}`
+- `{{package}}`, but not `{{package_name}}`
+
 ## Flags
 
 1. Use long flags when available for pages in `linux/` directory.
