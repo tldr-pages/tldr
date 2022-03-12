@@ -59,7 +59,7 @@ If some command is an alias for another then you can provide for it such Tl;Dr p
 User-provided values should use the `{{token}}` syntax
 in order to allow `tldr` clients to highlight them.
 
-Keep the following guidelines in mind when choosing tokens:
+Keep the following below described guidelines in mind when choosing tokens.
 
 ### Naming
 
