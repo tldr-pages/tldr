@@ -147,6 +147,25 @@ Keep the following below described guidelines in mind when choosing tokens.
 
 > ✔️ **Use** `sudo` command when root privileges are explicitly required by documentation.
 
+## help and version examples
+
+- Include such examples just when **no other examples can be included**.
+- Place help example **before** version one.
+- Place both examples at the bottom of the page.
+- Use rules for [flags](#flags) to choose what `--help`/`-h`/other variant to use.
+
+Recommended syntax for such examples is:
+
+```md
+- Print the help:
+
+command --help
+
+- Print the version:
+
+command --version
+```
+
 ## Special cases
 
 If a command performs irreversible changes to a file system or devices,
