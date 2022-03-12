@@ -14,4 +14,4 @@
 
 - Compress a file with a specified compression level [0-9]:
 
-`zlib-flate -compress={{compression_level}} < {{file}} > {{compressed.zlib}}`
+`zlib-flate -compress={{compression_level}} < {{path/to/input_file}} > {{path/to/compressed.zlib}}`
