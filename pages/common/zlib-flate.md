@@ -6,7 +6,7 @@
 
 - Compress a file:
 
-`zlib-flate -compress < {{file}} > {{compressed.zlib}}`
+`zlib-flate -compress < {{path/to/input_file}} > {{path/to/compressed.zlib}}`
 
 - Uncompress a file:
 
