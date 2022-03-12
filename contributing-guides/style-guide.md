@@ -159,11 +159,11 @@ Recommended syntax for such examples is:
 ```md
 - Print the help:
 
-command --help
+`command --help`
 
 - Print the version:
 
-command --version
+`command --version`
 ```
 
 ## Special cases
