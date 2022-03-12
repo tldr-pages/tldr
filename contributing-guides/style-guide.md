@@ -133,15 +133,23 @@ Keep the following below described guidelines in mind when choosing tokens.
 
 > :scroll: **Example**: `git commit -m` (in `common/` directory) - `-m` is used instead of `--message` because it's faster to type `-m` and it's frequently used.
 
+### Ellipsis
+
+1. Use placeholder with ellipsis (`{{arg1 arg2 ...}}`) just when **documentation allows one or more similar arguments**.
+
+> :scroll: **Example**: `choco install {{package_name1 package_name2 ...}}`.
+
+### Nested placeholders
+
+> :x: Nested placeholders are **not** supported now in Tl;Dr clients.
+
 ### Special cases
 
-1. If a command performs irreversible changes to a file system or devices,
+If a command performs irreversible changes to a file system or devices,
   write every example in a way that they cannot be thoughtlessly copy-pasted.
   For example, instead of `ddrescue --force --no-scrape /dev/sda /dev/sdb`
   write `ddrescue --force --no-scrape {{/dev/sdX}} {{/dev/sdY}}`
   and use the `{{/dev/sdXY}}` placeholder for *block devices* instead of `/dev/sda1`.
-2. If a command can take a variable number of arguments, use an ellipsis: `{{arg1 arg2 ...}}`
-  If one of multiple options is possible, write it as `{{either|or}}`.
 
 In general, tokens should make it as intuitive as possible
 to figure out how to use the command and fill it in with values.
