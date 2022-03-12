@@ -123,16 +123,6 @@ Keep the following below described guidelines in mind when choosing tokens.
 
 > :scroll: **Examples**: `{{filename|directory}}`, `{{path/to/file.ext|directory}}`, `{{path/to/file.ext|path/to/directory}}`, `{{path/to/file_or_directory}}`.
 
-### Flags
-
-1. Use long flags when available for pages in `linux/` directory.
-2. Always use short flags when available for pages in `osx/` and `windows/` directories.
-3. Use short flags for frequently used options when available.
-
-> :scroll: **Example**: `fish --command` (in `common/` directory) - `--command` is used instead of `-c` because it's hard to understand what is `-c`.
-
-> :scroll: **Example**: `git commit -m` (in `common/` directory) - `-m` is used instead of `--message` because it's faster to type `-m` and it's frequently used.
-
 ### Ellipsis
 
 1. Use placeholder with ellipsis (`{{arg1 arg2 ...}}`) just when **documentation allows one or more similar arguments**.
@@ -143,11 +133,21 @@ Keep the following below described guidelines in mind when choosing tokens.
 
 > :x: Nested placeholders are **not** supported now in Tl;Dr clients.
 
-### sudo command
+## Flags
+
+1. Use long flags when available for pages in `linux/` directory.
+2. Always use short flags when available for pages in `osx/` and `windows/` directories.
+3. Use short flags for frequently used options when available.
+
+> :scroll: **Example**: `fish --command` (in `common/` directory) - `--command` is used instead of `-c` because it's hard to understand what is `-c`.
+
+> :scroll: **Example**: `git commit -m` (in `common/` directory) - `-m` is used instead of `--message` because it's faster to type `-m` and it's frequently used.
+
+## sudo command
 
 > ✔️ **Use** `sudo` command when root privileges are explicitly required by documentation.
 
-### Special cases
+## Special cases
 
 If a command performs irreversible changes to a file system or devices,
   write every example in a way that they cannot be thoughtlessly copy-pasted.
