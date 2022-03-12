@@ -129,6 +129,13 @@ Keep the following below described guidelines in mind when choosing tokens.
 
 > :scroll: **Example**: `choco install {{package_name1 package_name2 ...}}`.
 
+### Globs and regular expressions
+
+> ✔️ **Use** any [basic globbing][globbing]/[extended regular expression][ere] patterns unless you have to demonstrate more complex syntax.
+
+[globbing]: https://linuxhint.com/bash_globbing_tutorial/
+[ere]: https://linuxize.com/post/regular-expressions-in-grep/
+
 ### Nested placeholders
 
 > :x: Nested placeholders are **not** supported now in Tl;Dr clients.
