@@ -157,6 +157,12 @@ not to strictly follow POSIX shell syntax.
 
 :scroll: **Example**: `git commit -m` (in `common/` directory) - `-m` is used instead of `--message` because it's faster to type `-m` and it's frequently used.
 
+### Highlighting
+
+While highlighting the first option letter via `[` and `]` in code description respect to case
+sensivity of options. For instance if command doesn't distinguish between up and lower case don't
+care about what case highlither letter in code description has.
+
 ## sudo command
 
 ✔️ **Use** `sudo` command when root privileges are explicitly required by documentation.
