@@ -72,6 +72,15 @@ Keep the following below described guidelines in mind when choosing tokens.
     - `{{file_or_directory}}`
     - `{{path/to/file_or_directory}}`
 
+### Quoting
+
+> :x: **Don't use** quotes for arguments unless documentation mandates them explicitly.
+
+- Don't use quotes for any **path arguments**.
+- Use single quotes for **inlined scripts** such as Sed/Awk ones.
+- Use double quotes where **documentation mandates them**.
+- Rely on POSIX-compliant shell rules with repsect to exceptions above until some special shell syntax is demonstrated.
+
 ### Paths
 
 > :x: **Don't use** concreete values for paths unless documentation provides such ones explicitly.
