@@ -183,7 +183,7 @@ On the `More information` line, prefer linking to the author's provided document
 
 ## See also links
 
-If you know some related commands to that one you edit now you can add `See also:` line
+If you know some related commands to that one you edit now you can add `See also` line
 before `More information` link (if it exists). All listed commands on this line must be comma-separated and wrapped in backticks.
 
 ## Tool oriented guides
