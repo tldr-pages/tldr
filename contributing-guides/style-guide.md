@@ -74,41 +74,41 @@ Keep the following below described guidelines in mind when choosing tokens.
 
 ### Quoting
 
-> :x: **Don't use** quotes for arguments unless documentation mandates them explicitly or you exactly know they are required (and it's not one of the cases below).
+:x: **Don't use** quotes for arguments unless documentation mandates them explicitly or you exactly know they are required (and it's not one of the cases below).
 
 - Don't use quotes for any [**path arguments**](#paths).
 - Use single quotes for **inlined scripts** such as Sed/Awk ones.
 - Use double quotes where **documentation mandates them**.
 - Rely on POSIX-compliant shell rules with repsect to exceptions above until some special shell syntax is demonstrated.
 
-> :bulb: Many shells have [word splitting][word_splitting] enabled by default so unquoted arguments may be splitted to
-  several ones. But the main goal of Tl;Dr pages is to provide easy to read and simple in use pages but
-  not to strictly follow POSIX shell syntax.
+:bulb: Many shells have [word splitting][word_splitting] enabled by default so unquoted arguments may be splitted to
+several ones. But the main goal of Tl;Dr pages is to provide easy to read and simple in use pages but
+not to strictly follow POSIX shell syntax.
 
 [word_splitting]: https://mywiki.wooledge.org/WordSplitting
 
 ### Paths
 
-> :x: **Don't use** concreete values for paths unless documentation provides such ones explicitly.
+:x: **Don't use** concreete values for paths unless documentation provides such ones explicitly.
 
 #### File paths
 
-> ✔️ **Use** `{{path/to/file.ext}}` generic placeholder for file path unless documentation provides any information about allowed values explicitly.
+✔️ **Use** `{{path/to/file.ext}}` generic placeholder for file path unless documentation provides any information about allowed values explicitly.
 
-> ✔️ **List** all file extensions via `|` when less then 6 extensions are allowed by documentation and file name is not a placeholder. Otherwise use just one extension of all permited.
+✔️ **List** all file extensions via `|` when less then 6 extensions are allowed by documentation and file name is not a placeholder. Otherwise use just one extension of all permited.
 
 1. Use `{{filename}}` placeholder just when **no absolute/relative path is required**. In other case prefer `{{path/to/file}}`.
 2. Use `{{filename.ext}}`/`{{path/to/file.ext}}` (where `.ext` is a file extension) placeholders just when **allowed extension is provided** (above rule applies here).
 3. Replace `filename`/`file`/`ext` in placeholders described above with concreete values when **documentation provides cocreete file names/extensions**.
 4. Replace `filename`/`file`/`ext` in placeholders described above with concreete values describing meaning of the argument when **argument used with short options/subcommands** to easily understand argument meaning.
 
-> :scroll: **Example**: `unrar x {{path/to/compressed.rar}}` - `compressed.rar` is used instead of `path/to/file.ext` because it's hard to understand what is `compressed.rar`.
+:scroll: **Example**: `unrar x {{path/to/compressed.rar}}` - `compressed.rar` is used instead of `path/to/file.ext` because it's hard to understand what is `compressed.rar`.
 
 #### Directory paths
 
-> :x: **Don't forget** add `/` for absolute paths.
+:x: **Don't forget** add `/` for absolute paths.
 
-> ✔️ **Use** `{{path/to/directory}}` generic placeholder for directory path unless documentation provides any information about allowed values explicitly.
+✔️ **Use** `{{path/to/directory}}` generic placeholder for directory path unless documentation provides any information about allowed values explicitly.
 
 1. Use `{{directory}}` placeholder just when **no absolute/relative path is required**. In other case prefer `{{path/to/directory}}`.
 2. Replace `directory` in placeholders described above with concreete values when **documentation provides cocreete directory names** (above rule applies here).
@@ -121,24 +121,24 @@ Keep the following below described guidelines in mind when choosing tokens.
 3. Use `{{file_or_directory}}` placeholder shorthand just when **no absolute/relative paths are required** and **no allowed extensions are provided**.
 4. Use `{{path/to/file_or_directory}}` placeholder shorthand just when **absolute/relative paths are required** and **no allowed extensions are provided**.
 
-> :scroll: **Examples**: `{{filename|directory}}`, `{{path/to/file.ext|directory}}`, `{{path/to/file.ext|path/to/directory}}`, `{{path/to/file_or_directory}}`.
+:scroll: **Examples**: `{{filename|directory}}`, `{{path/to/file.ext|directory}}`, `{{path/to/file.ext|path/to/directory}}`, `{{path/to/file_or_directory}}`.
 
 ### Ellipsis
 
 1. Use placeholder with ellipsis (`{{arg1 arg2 ...}}`) just when **documentation allows one or more similar arguments**.
 
-> :scroll: **Example**: `choco install {{package_name1 package_name2 ...}}`.
+:scroll: **Example**: `choco install {{package_name1 package_name2 ...}}`.
 
 ### Globs and regular expressions
 
-> ✔️ **Use** any [basic globbing][globbing]/[extended regular expression][ere] patterns unless you have to demonstrate more complex syntax.
+✔️ **Use** any [basic globbing][globbing]/[extended regular expression][ere] patterns unless you have to demonstrate more complex syntax.
 
 [globbing]: https://linuxhint.com/bash_globbing_tutorial/
 [ere]: https://linuxize.com/post/regular-expressions-in-grep/
 
 ### Nested placeholders
 
-> :x: Nested placeholders are **not** supported now in Tl;Dr clients.
+:x: Nested placeholders are **not** supported now in Tl;Dr clients.
 
 ## Flags
 
@@ -146,13 +146,13 @@ Keep the following below described guidelines in mind when choosing tokens.
 2. Always use short flags when available for pages in `osx/` and `windows/` directories.
 3. Use short flags for frequently used options when available.
 
-> :scroll: **Example**: `fish --command` (in `common/` directory) - `--command` is used instead of `-c` because it's hard to understand what is `-c`.
+:scroll: **Example**: `fish --command` (in `common/` directory) - `--command` is used instead of `-c` because it's hard to understand what is `-c`.
 
-> :scroll: **Example**: `git commit -m` (in `common/` directory) - `-m` is used instead of `--message` because it's faster to type `-m` and it's frequently used.
+:scroll: **Example**: `git commit -m` (in `common/` directory) - `-m` is used instead of `--message` because it's faster to type `-m` and it's frequently used.
 
 ## sudo command
 
-> ✔️ **Use** `sudo` command when root privileges are explicitly required by documentation.
+✔️ **Use** `sudo` command when root privileges are explicitly required by documentation.
 
 ## help and version examples
 
