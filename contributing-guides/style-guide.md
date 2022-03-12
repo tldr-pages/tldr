@@ -132,7 +132,7 @@ not to strictly follow POSIX shell syntax.
 1. Use placeholder with ellipsis (`{{arg1 arg2 ...}}`) just when **documentation allows one or more similar arguments**.
 2. Add note `(zero or one)`/`(zero or more)` just when **documentation allows zero or one/more similar arguments**.
 
-:scroll: **Example**: `choco install {{package_name1 package_name2 ...}}`.
+:scroll: **Example**: `choco install {{package1 package2 ...}}`.
 
 ### Globs and regular expressions
 
