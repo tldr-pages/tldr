@@ -143,6 +143,10 @@ Keep the following below described guidelines in mind when choosing tokens.
 
 > :x: Nested placeholders are **not** supported now in Tl;Dr clients.
 
+### sudo command
+
+> ✔️ **Use** `sudo` command when root privileges are explicitly required by documentation.
+
 ### Special cases
 
 If a command performs irreversible changes to a file system or devices,
