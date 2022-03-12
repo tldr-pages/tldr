@@ -97,10 +97,10 @@ not to strictly follow POSIX shell syntax.
 
 ✔️ **List** all file extensions via `|` when less then 6 extensions are allowed by documentation and file name is not a placeholder. Otherwise use just one extension of all permited.
 
-1. Use `{{filename}}` placeholder just when **no absolute/relative path is required**. In other case prefer `{{path/to/file}}`.
-2. Use `{{filename.ext}}`/`{{path/to/file.ext}}` (where `.ext` is a file extension) placeholders just when **allowed extension is provided** (above rule applies here).
-3. Replace `filename`/`file`/`ext` in placeholders described above with concreete values when **documentation provides cocreete file names/extensions**.
-4. Replace `filename`/`file`/`ext` in placeholders described above with concreete values describing meaning of the argument when **argument used with short options/subcommands** to easily understand argument meaning.
+1. Use `{{file}}` placeholder just when **no absolute/relative path is required**. In other case prefer `{{path/to/file}}`.
+2. Use `{{file.ext}}`/`{{path/to/file.ext}}` (where `.ext` is a file extension) placeholders just when **allowed extension is provided** (above rule applies here).
+3. Replace `file`/`ext` in placeholders described above with concreete values when **documentation provides cocreete file names/extensions**.
+4. Replace `file`/`ext` in placeholders described above with concreete values describing meaning of the argument when **argument used with short options/subcommands** to easily understand argument meaning.
 
 :scroll: **Example**: `unrar x {{path/to/compressed.rar}}` - `compressed.rar` is used instead of `path/to/file.ext` because it's hard to understand what is `compressed.rar`.
 
@@ -121,7 +121,7 @@ not to strictly follow POSIX shell syntax.
 3. Use `{{file_or_directory}}` placeholder shorthand just when **no absolute/relative paths are required** and **no allowed extensions are provided**.
 4. Use `{{path/to/file_or_directory}}` placeholder shorthand just when **absolute/relative paths are required** and **no allowed extensions are provided**.
 
-:scroll: **Examples**: `{{filename|directory}}`, `{{path/to/file.ext|directory}}`, `{{path/to/file.ext|path/to/directory}}`, `{{path/to/file_or_directory}}`.
+:scroll: **Examples**: `{{file|directory}}`, `{{path/to/file.ext|directory}}`, `{{path/to/file.ext|path/to/directory}}`, `{{path/to/file_or_directory}}`.
 
 ### Ellipsis
 
