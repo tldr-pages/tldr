@@ -199,21 +199,15 @@ This also applies to all translations by default, unless this is not possible fo
 
 ## Serial Comma
 
-When declaring a list of 3 or more items,
-use a [serial comma](https://en.wikipedia.org/wiki/Serial_comma),
-also known as the Oxford comma,
-since omitting it can create ambiguity.
+✔️ **Use** [serial comma](https://en.wikipedia.org/wiki/Serial_comma) (also known as the Oxford comma,
+since omitting it can create ambiguity) when declaring a list of 3 or more items.
 
-> Delete the Git branches, tags and remotes.
-
-The example above does not use a serial comma, so this could mean one of two things:
+:scroll: **Example**: `Delete the Git branches, tags and remotes.` There is no a serial comma, so this could mean one of two things
 
 - Delete the Git branches named `tags` and `remotes`.
 - Delete all of the following: Git branches, Git tags, and Git remotes.
 
-This can be resolved by inserting a comma before the "and" or "or" in the final element in the list.
-
-> Delete the Git branches, tags, and remotes.
+This can be resolved by inserting a comma before the "and" or "or" in the final element in the list: `Delete the Git branches, tags, and remotes.`
 
 ## More information links
 
