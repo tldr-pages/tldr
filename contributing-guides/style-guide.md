@@ -125,7 +125,12 @@ not to strictly follow POSIX shell syntax.
 
 ### Ellipsis
 
+:x: **Don't separate** suffix numbers with any chars.
+
+✔️ **Use** numbering from 1.
+
 1. Use placeholder with ellipsis (`{{arg1 arg2 ...}}`) just when **documentation allows one or more similar arguments**.
+2. Add note `(zero or one)`/`(zero or more)` just when **documentation allows zero or one/more similar arguments**.
 
 :scroll: **Example**: `choco install {{package_name1 package_name2 ...}}`.
 
@@ -142,10 +147,11 @@ not to strictly follow POSIX shell syntax.
 
 ### Preferred placeholders
 
-- `{{file}}`, but not `{{filename}}`
-- `{{directory}}`, but not `{{directory_name}}`
-- `{{user}}`, but not `{{username}}`
-- `{{package}}`, but not `{{package_name}}`
+- `{{file}}` (but not `{{filename}}`)
+- `{{input_file}}` when used with input redirection: `command < {{input_file}}`
+- `{{directory}}` (but not `{{directory_name}}`)
+- `{{user}}` (but not `{{username}}`)
+- `{{package}}` (but not `{{package_name}}`)
 
 ## Flags
 
