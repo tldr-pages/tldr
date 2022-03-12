@@ -179,9 +179,12 @@ This can be resolved by inserting a comma before the "and" or "or" in the final 
 
 ## More information links
 
-On the `More information` line, prefer linking to the author's provided documentation.
+On the `More information` line, prefer linking to the author's provided documentation. When not available, use <https://manned.org/> as the default fallback (or any other is there is no the corresponding page on manned.org). Otherwise don't create `More information` link.
 
-When not available, use <https://manned.org/> as the default fallback.
+## See also links
+
+If you know some related commands to that one you edit now you can add `See also:` line
+before `More information` link (if it exists). All listed commands on this line must be comma-separated and wrapped in backticks.
 
 ## Tool oriented guides
 
