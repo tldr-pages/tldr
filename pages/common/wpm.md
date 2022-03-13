@@ -11,7 +11,7 @@
 
 `wpm --short`
 
-- Start wpm using a custom txt file:
+- Start wpm using a specific text file:
 
 `wpm --load {{path/to/file.txt}}`
 
