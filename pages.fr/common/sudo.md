@@ -7,7 +7,7 @@
 
 `sudo {{less /var/log/syslog}}`
 
-- Éditer un fichier en tant que super-utilisateur avec votre éditeur par défaut:
+- Éditer un fichier en tant que super-utilisateur avec votre éditeur par défaut :
 
 `sudo --edit {{/etc/fstab}}`
 
