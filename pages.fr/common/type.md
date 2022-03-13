@@ -3,7 +3,7 @@
 > Afficher le type de la commande que le terminal exécuterait.
 > Plus d'information: <https://manned.org/type>.
 
-- Afficher le type d'une commande:
+- Afficher le type d'une commande :
 
 `type {{commande}}`
 
