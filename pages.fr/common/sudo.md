@@ -11,7 +11,7 @@
 
 `sudo --edit {{/etc/fstab}}`
 
-- Exécuter une commande en tant qu'un autre utilisateur et/ou groupe:
+- Exécuter une commande en tant qu'un autre utilisateur et/ou groupe :
 
 `sudo --user={{utilisateur}} --group={{groupe}} {{id -a}}`
 
