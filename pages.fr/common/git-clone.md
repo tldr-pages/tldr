@@ -31,6 +31,6 @@
 
 `git clone --branch {{nom}} --single-branch {{emplacement_du_depot_distant}}`
 
-- Cloner un dépôt existant en utilisant une commande SSH spécifique:
+- Cloner un dépôt existant en utilisant une commande SSH spécifique :
 
 `git clone --config core.sshCommand="{{ssh -i chemin/vers/clef_ssh_privee}}" {{emplacement_du_depot_distant}}`
