@@ -27,7 +27,7 @@
 
 `git clone --depth {{10}} {{emplacement_du_depot_distant}}`
 
-- Cloner un dépôt existant en ne récupérant qu'une branche spécifique:
+- Cloner un dépôt existant en ne récupérant qu'une branche spécifique :
 
 `git clone --branch {{nom}} --single-branch {{emplacement_du_depot_distant}}`
 
