@@ -3,7 +3,7 @@
 > Exécute une commande unique en tant que super-utilisateur (super-user) ou un autre utilisateur.
 > Plus d'information: <https://www.sudo.ws/sudo.html>.
 
-- Exécuter une commande en tant que super-utilisateur:
+- Exécuter une commande en tant que super-utilisateur :
 
 `sudo {{less /var/log/syslog}}`
 
