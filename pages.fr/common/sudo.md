@@ -23,7 +23,7 @@
 
 `sudo --login`
 
-- Lancer le terminal par défaut avec des privilèges de super-utilisateur sans modifier l'environnement:
+- Lancer le terminal par défaut avec des privilèges de super-utilisateur sans modifier l'environnement :
 
 `sudo --shell`
 
