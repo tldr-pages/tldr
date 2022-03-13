@@ -11,6 +11,6 @@
 
 `type -a {{commande}}`
 
-- Afficher le nom du fichier disque qui serait exécuté:
+- Afficher le nom du fichier qui serait exécuté :
 
 `type -p {{commande}}`
