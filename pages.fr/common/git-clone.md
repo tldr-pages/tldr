@@ -7,7 +7,7 @@
 
 `git clone {{emplacement_du_depot_distant}}`
 
-- Cloner un dépôt existant dans un répertoire spécifique:
+- Cloner un dépôt existant dans un répertoire spécifique :
 
 `git clone {{emplacement_du_depot_distant}} {{chemin/vers/repertoire}}`
 
@@ -23,7 +23,7 @@
 
 `git clone -q {{emplacement_du_depot_distant}}`
 
-- Cloner un dépôt existant en ne récupérant que les 10 commits les plus récents sur la branche par défaut (plus rapide):
+- Cloner un dépôt existant en ne récupérant que les 10 commits les plus récents sur la branche par défaut (plus rapide) :
 
 `git clone --depth {{10}} {{emplacement_du_depot_distant}}`
 
