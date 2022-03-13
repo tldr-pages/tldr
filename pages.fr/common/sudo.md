@@ -15,11 +15,11 @@
 
 `sudo --user={{utilisateur}} --group={{groupe}} {{id -a}}`
 
-- Répéter la dernière commande préfixée de `sudo` (uniquement dans `bash`, `zsh`, etc.):
+- Répéter la dernière commande préfixée de `sudo` (uniquement dans `bash`, `zsh`, etc.) :
 
 `sudo !!`
 
-- Lancer le terminal par défaut avec des privilèges de super-utilisateur et exécuter des fichiers à profil spécifique (`.profile`, `.bash_profile`, etc.):
+- Lancer le terminal par défaut avec des privilèges de super-utilisateur et exécuter des fichiers à profil spécifique (`.profile`, `.bash_profile`, etc.) :
 
 `sudo --login`
 
