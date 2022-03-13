@@ -27,6 +27,6 @@
 
 `svgr --out-dir {{path/to/output_directory}} --filename-case {{camel|kebab|pascal}} {{path/to/input_directory}}`
 
-- Transform all SVG files from a directory to React components into a specific directory without generate an index file:
+- Transform all SVG files from a directory to React components into a specific directory without generating an index file:
 
 `svgr --out-dir {{path/to/output_directory}} --no-index {{path/to/input_directory}}`
