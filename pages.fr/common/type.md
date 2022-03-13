@@ -7,7 +7,7 @@
 
 `type {{commande}}`
 
-- Afficher tous les emplacements contenants l'exécutable spécifié:
+- Afficher tous les emplacements contenants l'exécutable spécifié :
 
 `type -a {{commande}}`
 
