@@ -25,8 +25,7 @@ The **tldr-pages** project is a collection of community-maintained help pages
 for command-line tools, that aims to be a simpler, more approachable complement
 to traditional [man pages](https://en.wikipedia.org/wiki/Man_page).
 
-Maybe you are new to the command-line world; or maybe just a little rusty;
-or perhaps you can't always remember the arguments to `lsof`, or `tar`?
+Maybe you're new to the command-line world? Perhaps you're just a little rusty or can't always recall the arguments for commands like `lsof`, or `tar`?
 
 It certainly doesn't help that the first option explained in `man tar` is:
 
