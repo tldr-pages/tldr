@@ -7,7 +7,7 @@
 
 `cat {{path/to/input.xml}} | zek`
 
-- Generate a Go struct from an XML from stdin and send output to a file:
+- Generate a Go struct from a given XML from stdin and send output to a file:
 
 `curl -s {{https://url.to.xml}} | zek -o {{path/to/output.go}}`
 
