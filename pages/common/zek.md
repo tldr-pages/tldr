@@ -11,6 +11,6 @@
 
 `curl -s {{https://url.to.xml}} | zek -o {{path/to/output.go}}`
 
-- Generate an example Go program from an XML from stdin and send output to a file:
+- Generate an example Go program from a given XML from stdin and send output to a file:
 
 `cat {{path/to/input.xml}} | zek -p -o {{path/to/output.go}}`
