@@ -57,7 +57,9 @@ npm install -g tldr
 
 Alternatively, you can also use the [Python client](https://github.com/tldr-pages/tldr-python-client) which can be installed via `pip3`.
 
-    pip3 install tldr
+```sh
+pip3 install tldr
+```
 
 Then you have direct access to less complicated, easier-to-read help for commands, such as tar,
 accessible through typing `tldr tar` instead of the standard `man tar`
