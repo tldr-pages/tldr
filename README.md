@@ -60,11 +60,10 @@ Alternatively, you can also use the [Python client](https://github.com/tldr-page
 Then you have direct access to less complicated, easier-to-read help for commands, such as tar,
 accessible through typing `tldr tar` instead of the standard `man tar`
 
-However, if you just want to browse without an internet connection or installing software,
-checkout the [PDF version](https://tldr.sh/assets/tldr-book.pdf),
-which is always up-to-date with the latest pages and commits.
+If you just want to browse without an internet connection or installing software,
+checkout the [PDF version](https://tldr.sh/assets/tldr-book.pdf).
 
-Also, for browsing without installing a client to your computer,
+For browsing without installing a client to your computer,
 see our [web client](https://tldr.ostera.io/)  
 
 There are also **various other clients** provided by the community,
