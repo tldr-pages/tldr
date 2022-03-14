@@ -1,7 +1,7 @@
 # zlib-flate
 
 > Raw zlib compression and decompression program.
-> The zlib-flate program is part of the qpdf package.
+> Part of `qpdf`.
 > More information: <https://manned.org/zlib-flate>.
 
 - Compress a file:
