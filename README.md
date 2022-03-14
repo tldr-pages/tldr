@@ -68,7 +68,7 @@ If you just want to browse without an internet connection or installing software
 checkout the [PDF version](https://tldr.sh/assets/tldr-book.pdf).
 
 For browsing without installing a client to your computer,
-see our [web client](https://tldr.ostera.io/)  
+see the web client at <https://tldr.ostera.io>.
 
 There are also **various other clients** provided by the community,
 both for the command-line and for other platforms.
