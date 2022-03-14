@@ -1,20 +1,20 @@
 # pmap
 
-> Report memory map of a process or processes.
+> Report memory map of a process.
 > More information: <https://manned.org/pmap>.
 
-- Print memory map for a process selected by its process id (PID):
+- Print memory map for a specific process id (PID):
 
 `pmap {{pid}}`
 
 - Show the extended format:
 
-`pmap -x {{pid}}`
+`pmap --extended {{pid}}`
 
 - Show the device format:
 
-`pmap -d {{pid}}`
+`pmap --device {{pid}}`
 
 - Limit results to a memory address range specified by _low_ and _high_:
 
-`pmap -A {{low}},{{high}}`
+`pmap --range {{low}},{{high}}`
