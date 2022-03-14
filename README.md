@@ -51,7 +51,9 @@ A popular and convenient way to access these pages on your computer
 is to install the [Node.js client](https://github.com/tldr-pages/tldr-node-client),
 which is supported by the tldr-pages project maintainers:
 
-    npm install -g tldr
+```sh
+npm install -g tldr
+```
 
 Alternatively, you can also use the [Python client](https://github.com/tldr-pages/tldr-python-client) which can be installed via `pip3`.
 
