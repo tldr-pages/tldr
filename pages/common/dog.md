@@ -5,7 +5,7 @@
 
 - Query the A record of a domain using default settings:
 
-`dog example.net`
+`dog {{example.com}}`
 
 - Look up MX records instead:
 
