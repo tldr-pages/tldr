@@ -14,7 +14,7 @@
 
 - Specify a specific DNS server to query (e.g. Cloudflare):
 
-`dog example.net MX @1.1.1.1`
+`dog {{example.com}} MX @{{1.1.1.1}}`
 
 - Query using TCP rather than UDP:
 
