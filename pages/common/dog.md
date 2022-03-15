@@ -8,7 +8,7 @@
 
 `dog {{example.com}}`
 
-- Look up MX records instead:
+- Query MX records type associated with a given domain name:
 
 `dog example.net MX`
 
