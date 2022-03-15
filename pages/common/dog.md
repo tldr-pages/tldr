@@ -1,6 +1,7 @@
 # dog
 
-> Dog is a command-line DNS client.  It has colourful output, supports the DNS-over-TLS and DNS-over-HTTPS protocols, and can emit JSON.
+> DNS lookup utility.
+> It has colorful output, supports DNS-over-TLS and DNS-over-HTTPS protocols, and can emit JSON.
 > More information: <https://dns.lookup.dog>.
 
 - Lookup the IP(s) associated with a hostname (A records):
