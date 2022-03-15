@@ -4,13 +4,9 @@
 > Certaines commandes comme `docker run` ont leur propre documentation.
 > Plus d'informations : <https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- Liste les conteneurs Docker en cours d'exécution :
-
-`docker ps`
-
 - Liste tous les conteneurs Docker (en cours d'exécution ou arrêtés) :
 
-`docker ps -a`
+`docker ps --all`
 
 - Démarre un conteneur à partir d'une image, avec un nom personnalisé :
 
@@ -23,6 +19,10 @@
 - Télécharge une image depuis un registre Docker :
 
 `docker pull {{image}}`
+
+- Affiche les images déjà téléchargées :
+
+`docker images`
 
 - Ouvre un shell dans un conteneur déjà en cours d'exécution :
 

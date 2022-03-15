@@ -1,7 +1,7 @@
 # docker logs
 
 > Konteyner kaydını yazdırır.
-> Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/logs>.
+> Daha fazla bilgi: <https://docs.docker.com/engine/reference/commandline/logs>.
 
 - Bir konteyner içindeki kayıtları yazdır:
 

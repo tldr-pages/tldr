@@ -1,6 +1,7 @@
 # unrar
 
 > Descompactar arquivos comprimidos no formato RAR.
+> Mais informações: <https://manned.org/unrar>.
 
 - Descompactar o arquivo mantendo a estrutura de diretórios original:
 

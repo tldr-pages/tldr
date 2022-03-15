@@ -1,6 +1,7 @@
 # unrar
 
 > Extrae archivos RAR.
+> Más información: <https://manned.org/unrar>.
 
 - Extrae archivos comprimidos respetando la estructura original del archivo:
 

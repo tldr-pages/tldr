@@ -1,6 +1,7 @@
 # sysctl
 
 > List and change kernel runtime variables.
+> More information: <https://manned.org/sysctl.8>.
 
 - Show all available variables and their values:
 

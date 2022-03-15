@@ -1,6 +1,7 @@
 # rar
 
 > Archiwizator RAR. Obsługuje wielotomowe archiwa, które mogą być opcjonalnie samorozpakowujące się.
+> Więcej informacji: <https://manned.org/rar>.
 
 - Zarchiwizuj 1 lub więcej plików:
 

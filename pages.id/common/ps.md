@@ -1,6 +1,7 @@
 # ps
 
 > Informasi tentang proses-proses yang berlangsung.
+> Informasi lebih lanjut: <https://manned.org/ps>.
 
 - Menampilkan daftar semua proses yang berlangsung:
 

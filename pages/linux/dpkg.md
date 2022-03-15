@@ -2,7 +2,7 @@
 
 > Debian package manager.
 > Some subcommands such as `dpkg deb` have their own usage documentation.
-> More information: <https://manpages.debian.org/buster/dpkg/dpkg.1.en.html>.
+> More information: <https://manpages.debian.org/latest/dpkg/dpkg.html>.
 
 - Install a package:
 

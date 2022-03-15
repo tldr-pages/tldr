@@ -38,7 +38,7 @@ Option             | Required?   | Meaning
 `-v`, `--version`  | Yes         | Shows the current version of the client, and the version of this specification that it implements.
 `-p`, `--platform` | Yes         | Specifies the platform to be used to perform the action (either listing or searching) as an argument. If this option is specified, the selected platform MUST be checked first instead of the current platform as described below.
 `-u`, `--update`   | Conditional | Updates the offline cache of pages. MUST be implemented if cache is supported.
-`-l`, `--list`     | No          | Lists all the pages in the current platform to the standard output. If the special platform `all` is specified a list of all pages in all platforms MUST be displayed.
+`-l`, `--list`     | No          | Lists all the pages in the current platform to the standard output.
 `-L`, `--language` | No          | Specifies the preferred language for the page returned. Overrides other language detection mechanisms. See the [language section](#language) for more information.
 
 Clients MAY choose to only implement the short version of an option, ignoring the long form.
@@ -85,7 +85,9 @@ The main version of every page is stored inside (but not directly) the `pages` d
    - `osx/`
    - ...etc.
 
-Additional platforms MAY be added in the future. Clients MAY NOT support new platforms (though such support is RECOMMENDED), but MUST NOT break if additional platforms are added.
+It is RECOMMENDED that clients support `macos` as an alias for `osx`.
+
+While clients do not need to support new platforms automatically (though such support is RECOMMENDED), they MUST NOT break if additional platforms are added to tldr-pages.
 
 The pages themselves reside inside the appropriate platform folder, with the extension `.md`. Here are some example mappings:
 
@@ -223,6 +225,9 @@ including the changes. NOTE: tagging of the commit with a new version tag (in
 the form `vX.Y`) should be done immediately AFTER merging the version bump, as
 the commit hash changes when merging with squash or rebase.
 -->
+
+ - Unreleased
+   -  Add recommendation to support `macos` alias for `osx` ([#7514](https://github.com/tldr-pages/tldr/pull/7514))
 
  - [v1.5, March 17th 2021](https://github.com/tldr-pages/tldr/blob/v1.5/CLIENT-SPECIFICATION.md) ([#5428](https://github.com/tldr-pages/tldr/pull/5428))
    - Add requirement for converting command names to lowercase before running the page resolution algorithm.

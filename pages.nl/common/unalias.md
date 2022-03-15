@@ -1,6 +1,7 @@
 # unalias
 
 > Verwijder aliassen.
+> Meer informatie: <https://manned.org/unalias>.
 
 - Verwijder een alias:
 

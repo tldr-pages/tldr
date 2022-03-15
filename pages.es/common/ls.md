@@ -30,3 +30,7 @@
 - Lista todos los archivos con formato largo, ordenado por fecha de modificación (archivos más viejos en primer lugar):
 
 `ls -ltr`
+
+- Lista solamente directorios:
+
+`ls -d */`

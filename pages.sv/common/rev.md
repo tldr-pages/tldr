@@ -1,6 +1,7 @@
 # rev
 
 > Omvänd en textrad.
+> Mer information: <https://manned.org/rev>.
 
 - Omvänd textraden "hello":
 

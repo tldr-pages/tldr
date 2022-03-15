@@ -1,7 +1,7 @@
 # w
 
 > 顯示目前的登錄者以及他們正在進行的動作。
-> 更多資訊：<https://www.geeksforgeeks.org/w-command-in-linux-with-examples/>.
+> 更多資訊：<https://manned.org/w>.
 
 - 顯示目前的登錄者的訊息：
 

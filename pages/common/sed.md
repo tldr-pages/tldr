@@ -2,7 +2,7 @@
 
 > Edit text in a scriptable manner.
 > See also: `awk`, `ed`.
-> More information: <https://manned.org/sed.1>.
+> More information: <https://www.gnu.org/software/sed/manual/sed.html>.
 
 - Execute an expression:
 
