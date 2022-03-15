@@ -18,7 +18,7 @@
 
 - Query using TCP rather than UDP:
 
-`dog example.net MX @1.1.1.1 -T`
+`dog example.net MX @{{1.1.1.1}} --tcp`
 
 - As above, but using explicit arguments:
 
