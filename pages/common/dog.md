@@ -23,3 +23,7 @@
 - Query the MX records type associated with a given domain name over TCP using explicit arguments:
 
 `dog --query {{example.com}} --type MX --nameserver {{1.1.1.1}} --tcp`
+
+- Query over DNS-over-HTTPS (DoH):
+
+`dog {{example.com}} --https @https://cloudflare-dns.com/dns-query`
