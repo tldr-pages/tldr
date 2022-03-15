@@ -12,7 +12,7 @@
 
 `dog {{example.com}} MX`
 
-- Query using a specific nameserver instead:
+- Specify a specific DNS server to query (e.g. Cloudflare):
 
 `dog example.net MX @1.1.1.1`
 
