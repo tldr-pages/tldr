@@ -64,7 +64,7 @@ Then you have direct access to simplified, easy-to-read help for commands, such 
 accessible through typing `tldr tar` instead of the standard `man tar`
 
 If you just want to browse without an internet connection or installing software,
-checkout the [PDF version](https://tldr.sh/assets/tldr-book.pdf).
+check out the [PDF version](https://tldr.sh/assets/tldr-book.pdf).
 
 For browsing without installing a client to your computer,
 see the web client at <https://tldr.ostera.io>.
