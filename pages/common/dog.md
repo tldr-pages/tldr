@@ -8,7 +8,7 @@
 
 `dog {{example.com}}`
 
-- Query MX records type associated with a given domain name:
+- Query the MX records type associated with a given domain name:
 
 `dog {{example.com}} MX`
 
@@ -16,10 +16,10 @@
 
 `dog {{example.com}} MX @{{1.1.1.1}}`
 
-- Query using TCP rather than UDP:
+- Query over TCP rather than UDP:
 
-`dog example.net MX @{{1.1.1.1}} --tcp`
+`dog {{example.com}} MX @{{1.1.1.1}} --tcp`
 
-- As above, but using explicit arguments:
+- Query the MX records type associated with a given domain name over TCP using explicit arguments:
 
-`dog -q {{example.com}} --type MX --nameserver {{1.1.1.1}} --tcp`
+`dog --query {{example.com}} --type MX --nameserver {{1.1.1.1}} --tcp`
