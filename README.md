@@ -83,8 +83,7 @@ Some ways to contribute include:
 - Adding examples or improving the content of an existing page.
 - Translating pages into different languages.
 
-All `tldr` pages are kept as Markdown files right here in this repository,
-so you can edit them directly and submit your changes as pull requests.
+All `tldr` pages are written in markdown, so they can be edited fairly simply.
 
 We strive to maintain a [welcoming and collaborative](GOVERNANCE.md) community.
 If it's your first time contributing, have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!
