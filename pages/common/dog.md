@@ -10,7 +10,7 @@
 
 - Query MX records type associated with a given domain name:
 
-`dog example.net MX`
+`dog {{example.com}} MX`
 
 - Query using a specific nameserver instead:
 
