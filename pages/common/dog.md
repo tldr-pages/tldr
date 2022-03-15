@@ -22,4 +22,4 @@
 
 - As above, but using explicit arguments:
 
-`dog -q example.net -t MX -n 1.1.1.1 -T`
+`dog -q {{example.com}} --type MX --nameserver {{1.1.1.1}} --tcp`
