@@ -88,7 +88,7 @@ All `tldr` pages are written in markdown, so they can be edited fairly simply.
 We strive to maintain a [welcoming and collaborative](GOVERNANCE.md) community.
 If it's your first time contributing, have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!
 
-For translations, you can visit <https://lukwebsforge.github.io/tldri18n/>
+If you'd like to contribute to translations, you can visit <https://lukwebsforge.github.io/tldri18n/>
 to see the overall progress of all translations, and which translations are missing or outdated.
 
 ## Similar projects
