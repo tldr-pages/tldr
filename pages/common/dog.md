@@ -24,6 +24,6 @@
 
 `dog --query {{example.com}} --type MX --nameserver {{1.1.1.1}} --tcp`
 
-- Query over DNS-over-HTTPS (DoH):
+- Lookup the IP(s) associated with a hostname (A records) using DNS over HTTPS (DoH):
 
-`dog {{example.com}} --https @https://cloudflare-dns.com/dns-query`
+`dog {{example.com}} --https @{{https://cloudflare-dns.com/dns-query}}`
