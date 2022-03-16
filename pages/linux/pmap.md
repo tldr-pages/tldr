@@ -15,10 +15,10 @@
 
 `pmap --device {{pid}}`
 
-- Limit results to a memory address range specified by _low_ and _high_:
+- Limit results to a memory address range specified by `low` and `high`:
 
 `pmap --range {{low}},{{high}}`
 
 - Print memory maps for multiple processes:
 
-`pmap {{pid1}} {{pid2}}`
+`pmap {{pid1 pid2 ...}}`
