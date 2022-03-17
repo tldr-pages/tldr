@@ -15,7 +15,7 @@
 
 `choice /cs {{AaBb}}`
 
-- Use the [d]efault choise (`A`) after a [t]imeout (`5`):
+- Use the [d]efault choise (`A`) after a [t]imeout in seconds (`5`):
 
 `choice /c {{AB}} /t {{5}} /d {{A}}`
 
