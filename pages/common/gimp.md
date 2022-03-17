@@ -1,6 +1,7 @@
 # gimp
 
 > GNU image manipulation program.
+> See also: `krita`.
 > More information: <https://docs.gimp.org/en/gimp-fire-up.html#gimp-concepts-running-command-line>.
 
 - Launch GIMP:
