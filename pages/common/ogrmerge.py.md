@@ -9,7 +9,7 @@
 
 - Create a virtual datasource (VRT) with a layer for each input GeoJSON:
 
-`ogrmerge.py -f {{VRT}} -o {{path/to/output.vrt}} {{path/to/input_1.geojson path/to/input_2.geojson ...}}`
+`ogrmerge.py -f {{VRT}} -o {{path/to/output.vrt}} {{path/to/input1.geojson path/to/input2.geojson ...}}`
 
 - Concatenate two vector datasets and store source name of dataset in attribute 'source_name':
 
