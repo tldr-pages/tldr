@@ -23,5 +23,5 @@ If the page describes the graphics editorhell, when it's possible try to follow 
 
 `<example>`
 
-- _any other examples_
+# any other examples
 ```
