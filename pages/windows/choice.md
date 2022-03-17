@@ -7,7 +7,7 @@
 
 `choice`
 
-- Use the custom list of [c]hoices (`AB`):
+- Use the specified list of [c]hoices (`AB`):
 
 `choice /c {{AB}}`
 
@@ -19,7 +19,7 @@
 
 `choice /c {{AB}} /t {{5}} /d {{A}}`
 
-- Use the custom [m]essage instead of default (`[A,B]?`):
+- Use the specified [m]essage instead of default (`[A,B]?`):
 
 `choice /c {{AB}} /m {{message}}`
 
