@@ -99,7 +99,7 @@ not to strictly follow POSIX shell syntax.
 ✔️ **List** all file extensions via `|` when less then 6 extensions are allowed by documentation and file name is not a placeholder. Otherwise use just one extension of all permited.
 
 1. Use `{{file}}` placeholder just when **no absolute/relative path is required**. In other case prefer `{{path/to/file}}`.
-2. Use `{{file.ext}}`/`{{path/to/file.ext}}` (where `.ext` is a file extension) placeholders just when **allowed extension is provided** (above rule applies here).
+2. Use `{{file.ext}}`/`{{path/to/file.ext}}` (where `.ext` is a file extension) placeholders just when **extension is accepted** (above rule applies here).
 3. Replace `file`/`ext` in placeholders described above with concreete values when **documentation provides cocreete file names/extensions**.
 4. Replace `file`/`ext` in placeholders described above with concreete values describing meaning of the argument when **argument used with short options/subcommands** to easily understand argument meaning.
 
