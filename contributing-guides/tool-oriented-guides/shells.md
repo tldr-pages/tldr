@@ -23,7 +23,7 @@ If the page describes the shell, when it's possible try to follow this structure
 
 `<example>`
 
-- _any other examples_
+# any other examples
 ```
 
 If you want to include shell builtin sample please place `(builtin)` word at the end of example description such as:
