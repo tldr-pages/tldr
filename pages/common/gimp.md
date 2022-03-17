@@ -12,9 +12,9 @@
 
 `gimp --no-splash`
 
-- Open the specified files::
+- Open the specified files:
 
-`gimp {{path/to/image_file1.ext path/to/image_file2.ext ...}}`
+`gimp {{path/to/image_file1 path/to/image_file2 ...}}`
 
 - Start the new instance, even if there is already a running one:
 
