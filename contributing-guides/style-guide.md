@@ -128,6 +128,8 @@ not to strictly follow POSIX shell syntax.
 
 :x: **Don't separate** suffix numbers with any chars.
 
+:x: **Don't use** ellipsis for non-path arguments with spaces inside them.
+
 ✔️ **Use** numbering from 1.
 
 1. Use placeholder with ellipsis (`{{arg1 arg2 ...}}`) just when **documentation allows one or more similar arguments**.
