@@ -5,16 +5,12 @@
 
 - Create a GeoPackage with a layer for each input Shapefile:
 
-`ogrmerge.py -f {{GPKG}} -o {{path/to/merged}}.gpkg {{path/to/}}*.shp`
+`ogrmerge.py -f {{GPKG}} -o {{path/to/output}}.gpkg {{path/to/input_a.shp path/to/input_b.shp ...}}`
 
-- Create a virtual datasource (VRT) with a layer for each input Shapefile:
+- Create a virtual datasource (VRT) with a layer for each input GeoJSON:
 
-`ogrmerge.py -f {{VRT}} -o {{merged}}.vrt {{path/to/}}*.shp`
-
-- Concatenate three vector datasets into one:
-
-`ogrmerge.py -single -o {{path/to/output.geojson}} {{path/to/input_a.geojson}} {{path/to/input_b.geojson}} {{path/to/input_c.geojson}}`
+`ogrmerge.py -f {{VRT}} -o {{path/to/output}}.vrt {{path/to/input_a.geojson path/to/input_b.geojson ...}}`
 
 - Concatenate two vector datasets and store source name of dataset in attribute 'source_name':
 
-`ogrmerge.py -single -o {{path/to/output.geojson}} {{path/to/input_a.geojson}} {{path/to/input_b.geojson}} -src_layer_field_name country {{source_name}}`
+`ogrmerge.py -single -o {{path/to/output.geojson}} -src_layer_field_name country {{source_name}} {{path/to/input_a.shp path/to/input_b.shp ...}}`
