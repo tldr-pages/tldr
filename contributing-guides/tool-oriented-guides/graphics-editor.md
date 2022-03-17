@@ -19,7 +19,7 @@ If the page describes the graphics editor, when it's possible try to follow this
 
 `<example>`
 
-- Start in fullscreen mode:
+- Start in the fullscreen mode:
 
 `<example>`
 
