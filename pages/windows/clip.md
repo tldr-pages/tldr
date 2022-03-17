@@ -3,18 +3,10 @@
 > Copy input content to the Windows clipboard.
 > More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/clip>.
 
-- Pipe command-line output to the Windows clipboard:
+- Pipe the command (`dir`) output to the clipboard:
 
 `{{dir}} | clip`
 
-- Copy the contents of a file to the Windows clipboard:
+- Copy the contents of the file to the clipboard:
 
 `clip < {{path/to/file.ext}}`
-
-- Copy text with a trailing newline to the Windows clipboard:
-
-`echo {{some text}} | clip`
-
-- Copy text without a trailing newline to the Windows clipboard:
-
-`echo | set /p="some text" | clip`
