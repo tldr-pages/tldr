@@ -240,6 +240,8 @@ before `More information` link (if it exists). All listed commands on this line 
 ## Tool oriented guides
 
 - [How to write pages about shells?](https://github.com/tldr-pages/tldr/tree/main/contributing-guides/tool-oriented-guides/shells.md)
+- [How to write pages about package managers?](https://github.com/tldr-pages/tldr/tree/main/contributing-guides/tool-oriented-guides/package-manager.md)
+- [How to write pages about graphics editors?](https://github.com/tldr-pages/tldr/tree/main/contributing-guides/tool-oriented-guides/graphics-editor.md)
 
 ## Chinese-Specific Rules
 
