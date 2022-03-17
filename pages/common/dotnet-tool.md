@@ -1,7 +1,7 @@
 # dotnet tool
 
 > Manage .NET tools and search published tools in NuGet.
-> More information: <https://docs.microsoft.com/ef/core/cli/dotnet>.
+> More information: <https://docs.microsoft.com/dotnet/core/tools/global-tools>.
 
 - Install Entity Framework Core as a global tool:
 
