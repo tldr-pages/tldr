@@ -5,23 +5,23 @@ If the page describes the shell, when it's possible try to follow this structure
 ```
 - Start the interactive shell session:
 
-> <example>
+`<example>`
 
 - Start the interactive shell session without loading startup configs:
 
-> <example>
+`<example>`
 
 - Execute the command:
 
-> <example>
+`<example>`
 
 - Execute the script:
 
-> <example>
+`<example>`
 
 - Check the script for syntax errors:
 
-> <example>
+`<example>`
 
 - _any other examples_
 ```
