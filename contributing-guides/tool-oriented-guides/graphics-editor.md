@@ -1,6 +1,6 @@
 ## Graphics editor page format
 
-If the page describes the graphics editorhell, when it's possible try to follow this structure:
+If the page describes the graphics editor, when it's possible try to follow this structure:
 
 ```
 - Start <command-name>:
