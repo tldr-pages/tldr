@@ -25,7 +25,7 @@
 
 - Show detailed information of features matching a condition:
 
-`ogrinfo -where '{{my_attribute > 42}}' {{path/to/input.gpkg}} {{layer_name}}`
+`ogrinfo -where '{{attribute_name > 42}}' {{path/to/input.gpkg}} {{layer_name}}`
 
 - Update a layer in the data source with SQL:
 
