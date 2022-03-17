@@ -20,6 +20,6 @@
 
 `krita --workspace {{Animation}}`
 
-- Start in fullscreen mode:
+- Start in the fullscreen mode:
 
 `krita --fullscreen`
