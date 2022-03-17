@@ -3,14 +3,18 @@
 > Set the console foreground and background colors.
 > More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/color>.
 
-- Set the console colors to the default values:
+- Set the colors to the default values:
 
 `color`
 
-- List available color values and detailed information:
+- Set the specified foreground color:
+
+`color {{0-9|a-f}}`
+
+- Set the specified foreground and background colors:
+
+`color {{0-9|a-f}}{{0-9|a-f}}`
+
+- Print all available colors:
 
 `color /?`
-
-- Set the console foreground and background to a specific color using hexadecimal numbers (`1-9,a-f`):
-
-`color {{foreground_code}}{{background_code}}`
