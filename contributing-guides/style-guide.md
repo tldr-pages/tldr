@@ -170,9 +170,8 @@ not to strictly follow POSIX shell syntax.
 
 ### Highlighting
 
-While highlighting the first option letter via `[` and `]` in code description respect to case
-sensivity of options. For instance if command doesn't distinguish between up and lower case don't
-care about what case highlither letter in code description has.
+While highlighting the first option letter via `[` and `]` in code description respect to case of the options. Don't highlight letter
+with a different case than the option has.
 
 ## sudo command
 
