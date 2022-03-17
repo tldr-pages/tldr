@@ -14,7 +14,7 @@
 
 - Open the specified files:
 
-`gimp {{path/to/image_file1 path/to/image_file2 ...}}`
+`gimp {{path/to/image1 path/to/image2 ...}}`
 
 - Start the new instance, even if there is already a running one:
 
