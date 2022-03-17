@@ -77,7 +77,7 @@ Keep the following below described guidelines in mind when choosing tokens.
 :x: **Don't use** quotes for arguments unless documentation mandates them explicitly or you exactly know they are required (and it's not one of the cases below).
 
 - Don't use quotes for any [**path arguments**](#paths).
-- Use single quotes for **inlined scripts** such as Sed/Awk ones.
+- Use single quotes for **arguments without any [substitutions][substitutions]**. In other cases prefer double quotes.
 - Use double quotes where **documentation mandates them**.
 - Rely on POSIX-compliant shell rules with repsect to exceptions above until some special shell syntax is demonstrated.
 
@@ -85,6 +85,7 @@ Keep the following below described guidelines in mind when choosing tokens.
 several ones. But the main goal of Tl;Dr pages is to provide easy to read and simple in use pages but
 not to strictly follow POSIX shell syntax.
 
+[substitutions]: https://tldp.org/LDP/abs/html/parameter-substitution.html
 [word_splitting]: https://mywiki.wooledge.org/WordSplitting
 
 ### Paths
