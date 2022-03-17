@@ -29,4 +29,4 @@
 
 - Update a layer in the data source with SQL:
 
-`ogrinfo {{path/to/input.geojson}} -dialect SQLite -sql {{"UPDATE input SET attribute_name='foo'"}}`
+`ogrinfo {{path/to/input.geojson}} -dialect SQLite -sql "{{UPDATE input SET attribute_name = 'foo'}}"`
