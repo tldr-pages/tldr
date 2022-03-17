@@ -5,7 +5,7 @@
 
 - Create a GeoPackage with a layer for each input Shapefile:
 
-`ogrmerge.py -f {{GPKG}} -o {{path/to/output}}.gpkg {{path/to/input_a.shp path/to/input_b.shp ...}}`
+`ogrmerge.py -f {{GPKG}} -o {{path/to/output.gpkg}} {{path/to/input1.shp path/to/input2.shp ...}}`
 
 - Create a virtual datasource (VRT) with a layer for each input GeoJSON:
 
