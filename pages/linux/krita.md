@@ -14,7 +14,7 @@
 
 - Open the specified files:
 
-`krita {{path/to/image_file1 path/to/image_file2 ...}}`
+`krita {{path/to/image1 path/to/image2 ...}}`
 
 - Start with the specified workspace (`Animation`):
 
