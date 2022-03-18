@@ -72,7 +72,7 @@ this placeholder is also the valid file name).
 1. *Use* short but descriptive placeholders. Examples:
    1. `{{path/to/source_file.cs}}` for `C#` compiler
    2. `{{1-10}}` for `cut` command
-2. *Use* the actual value (or it's part) just when **documentation lists allowed values explicitly** (enum) *or* **mentions their type** (seconds, extensions, etc.). Examples:
+2. *Use* the actual value (or it's part) just when **documentation lists allowed values explicitly** (enum, regex/glob pattern) *or* **mentions their type** (seconds, extensions, etc.). Examples:
     1. `{{path/to/source_file.cs}}` for `C#` compiler
     2. `{{1-10}}` for `cut` command
 3. *Use* [`snake_case`](https://wikipedia.org/wiki/snake_case) for multi-word placeholders.
