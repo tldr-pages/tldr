@@ -3,30 +3,30 @@
 > Manage macros, windows commands and command-lines.
 > More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/doskey>.
 
-- List available macros:
+- Print all macros:
 
 `doskey /macros`
 
-- Create a new macro:
+- Create the new macro:
 
 `doskey {{name}} = "{{command}}"`
 
-- Create a new macro for a specific executable:
+- Create the new macro for the specified executable:
 
 `doskey /exename={{executable}} {{name}} = "{{command}}"`
 
-- Remove a macro:
+- Remove the macro:
 
 `doskey {{name}} =`
 
-- Display all commands that are stored in memory:
+- Print all commands that are stored in memory:
 
 `doskey /history`
 
-- Save macros to a file for portability:
+- Save macros to the file for portability:
 
 `doskey /macros > {{macinit}}`
 
-- Load macros from a file:
+- Load macros from the specified file:
 
 `doskey /macrofile = {{macinit}}`
