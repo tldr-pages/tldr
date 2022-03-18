@@ -55,23 +55,32 @@ If some command is an alias for another then you can provide for it such Tl;Dr p
 `tldr <original-command>`
 ```
 
-## Token syntax
+## Placeholder syntax
 
-User-provided values should use the `{{token}}` syntax
+User-provided values should use the `{{placeholder}}` syntax
 in order to allow `tldr` clients to highlight them.
 
 Keep the following below described guidelines in mind when choosing tokens.
 
 ### Naming
 
-1. Use short but descriptive placeholders, such as `{{path/to/source_file}}` or `{{path/to/wallet.txt}}`.
-2. Use [`snake_case`](https://wikipedia.org/wiki/snake_case) for multi-word placeholders.
-3. Use an actual value rather than a generic placeholder where possible (such cases are described below.
-  For example, use `iostat {{2}}` rather than `iostat {{interval_in_secs}}`.
-4. Don't join several placeholders, such as `{{_config.}}{{toml|yml}}`. Separate them via at least one symbol: `{{_config}}.{{toml|yml}}`.
-5. Don't use `or` as a placeholder delimiter, prefer `|` always except [some cases](#mixing-file-names-and-directories):
-    - `{{file_or_directory}}`
-    - `{{path/to/file_or_directory}}`
+> :x: **Don't treat** treat all placeholders literally. In one cases they can mean the actual value
+and in the others the generic placeholder. Example: `source_file` in `{{path/to/source_file.cs}}`
+doesn't mean the actual value and is a generic placeholder with descriptive name (although
+this placeholder is also the valid file name).
+
+1. *Use* short but descriptive placeholders. Examples:
+   1. `{{path/to/source_file.cs}}` for `C#` compiler
+   2. `{{1-10}}` for `cut` command
+2. *Use* the actual value (or it's part) just when **documentation lists allowed values explicitly** (enum) *or* **mentions their type** (seconds, extensions, etc.). Examples:
+    1. `{{path/to/source_file.cs}}` for `C#` compiler
+    2. `{{1-10}}` for `cut` command
+3. *Use* [`snake_case`](https://wikipedia.org/wiki/snake_case) for multi-word placeholders.
+4. *Separate* several placeholders via at least one symbol. Examples:
+    1. `{{_config}}.{{toml|yml}}`.
+5. *Use* `|` as the placeholder delimiter always except [some cases](#mixing-file-names-and-directories):
+    1. `{{file_or_directory}}`
+    2. `{{path/to/file_or_directory}}`
 
 ### Quoting
 
