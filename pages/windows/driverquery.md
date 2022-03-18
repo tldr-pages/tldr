@@ -3,15 +3,15 @@
 > Display information about installed device drivers.
 > More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/driverquery>.
 
-- Display a list of all installed device drivers:
+- Print all drivers:
 
 `driverquery`
 
-- Display a list of drivers in the specified format:
+- Print all drivers in the specified format:
 
 `driverquery /fo {{table|list|csv}}`
 
-- Display a list of drivers with a column to indicate if they are signed:
+- Print all drivers with the column to indicate if they are signed:
 
 `driverquery /si`
 
@@ -19,14 +19,14 @@
 
 `driverquery /nh`
 
-- Display a list of drivers for a remote machine:
+- Print all drivers for the remote machine:
 
 `driverquery /s {{hostname}} /u {{username}} /p {{password}}`
 
-- Display a list of drivers with verbose information:
+- Print all drivers in the verbose format:
 
 `driverquery /v`
 
-- Display detailed usage information:
+- Print the help:
 
 `driverquery /?`
