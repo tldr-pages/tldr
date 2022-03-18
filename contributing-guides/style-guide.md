@@ -84,12 +84,11 @@ this placeholder is also the valid file name).
 
 ### Quoting
 
-:x: **Don't use** quotes for arguments unless documentation mandates them explicitly or you exactly know they are required (and it's not one of the cases below).
+> :x: **Don't use** quotes for path-arguments. In other cases quote arguments just when documentation mandates quotes explicitly or you exactly know they are required (and the documentation just missing
+information about this).
 
-- Don't use quotes for any [**path arguments**](#paths).
-- Use single quotes for **arguments without any [substitutions][substitutions]**. In other cases prefer double quotes.
-- Use double quotes where **documentation mandates them**.
-- Rely on POSIX-compliant shell rules with repsect to exceptions above until some special shell syntax is demonstrated.
+- *Use* single quotes for **arguments without any [substitutions][substitutions]**. In other cases prefer double quotes.
+- *Rely* on POSIX-compliant shell rules with repsect to exceptions above until some special shell syntax is demonstrated.
 
 :bulb: Many shells have [word splitting][word_splitting] enabled by default so unquoted arguments may be splitted to
 several ones. But the main goal of Tl;Dr pages is to provide easy to read and simple in use pages but
