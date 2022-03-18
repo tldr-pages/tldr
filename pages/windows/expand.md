@@ -1,13 +1,13 @@
 # expand
 
-> Uncompress one or more Windows Cabinet files.
+> Uncompress one or more Windows Cabinet files. Wildcards are supported.
 > More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/expand>.
 
-- Uncompress a single-file Cabinet file to the specified directory:
+- Uncompress the single-file Cabinet file to the specified directory:
 
 `expand {{path/to/file.cab}} {{path/to/directory}}`
 
-- Display the list of files in a source Cabinet file:
+- Print all files in the specified Cabinet file:
 
 `expand {{path/to/file.cab}} {{path/to/directory}} -d`
 
@@ -15,10 +15,10 @@
 
 `expand {{path/to/file.cab}} {{path/to/directory}} -f:*`
 
-- Uncompress a specific file from a Cabinet file:
+- Uncompress the specified file from the Cabinet file:
 
-`expand {{path/to/file.cab}} {{path/to/directory}} -f:{{file}}`
+`expand {{path/to/file.cab}} {{path/to/directory}} -f:{{path/to/file}}`
 
-- Ignore the directory structure when uncompressing, and add them to a single directory:
+- Ignore the directory structure when uncompressing, and add them to the single directory:
 
 `expand {{path/to/file.cab}} {{path/to/directory}} -i`
