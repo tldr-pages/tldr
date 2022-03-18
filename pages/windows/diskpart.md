@@ -3,23 +3,23 @@
 > Disk, volume and partition manager.
 > More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/diskpart>.
 
-- Run diskpart by itself in an administrative command prompt to enter its command line:
+- Start diskpart (requires administrative rights):
 
 `diskpart`
 
-- List all disks:
+- Print all disks:
 
 `list disk`
 
-- Select a volume:
+- Select the specified volume:
 
 `select volume {{volume}}`
 
-- Assign a drive letter to the selected volume:
+- Assign the drive letter to the selected volume:
 
 `assign letter {{letter}}`
 
-- Create a new partition:
+- Create the new partition:
 
 `create partition primary`
 
