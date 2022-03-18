@@ -1,20 +1,16 @@
 # dir
 
-> List directory contents.
+> List directory contents. Wildcards are supported.
 > More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/dir>.
 
-- Show the contents of the current directory:
+- Print the contents of the current directory:
 
 `dir`
 
-- Show the contents of a given directory:
+- Print the contents of the specified directories:
 
-`dir {{path/to/directory}}`
+`dir {{path/to/directory1 path/to/directory2 ...}}`
 
-- Show the contents of the current directory, including hidden ones:
+- Print the files/subdirectories of the current directory with the specified [a]ttributes:
 
-`dir /A`
-
-- Show the contents of a given directory, including hidden ones:
-
-`dir {{path/to/directory}} /A`
+`dir /a {{attributes}}`
