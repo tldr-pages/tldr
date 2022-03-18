@@ -107,7 +107,7 @@ information about this).
 - *Use* single quotes for **arguments without any [substitutions][substitutions]**. In other cases prefer double quotes.
 - *Rely* on POSIX-compliant shell rules with repsect to exceptions above until some special shell syntax is demonstrated.
 
-:bulb: Many shells have [word splitting][word_splitting] enabled by default so unquoted arguments may be splitted to
+> :bulb: Many shells have [word splitting][word_splitting] enabled by default so unquoted arguments may be splitted to
 several ones. But the main goal of Tl;Dr pages is to provide easy to read and simple in use pages but
 not to strictly follow POSIX shell syntax.
 
@@ -118,7 +118,7 @@ not to strictly follow POSIX shell syntax.
 
 #### File paths
 
-✔️ **Use** `{{path/to/file.ext}}` generic placeholder for file path unless documentation provides any information about allowed values explicitly.
+> ✔️ **Use** `{{path/to/file.ext}}` generic placeholder for file path unless documentation provides any information about allowed values explicitly.
 
 1. *Use* `{{path/to/file}}` placeholder just when **extension is not required**. *Otherwise* prefer `{{path/to/file.ext}}` (where `.ext` is a file extension). Examples:
     1. No extensions are provided in `krita {{path/to/image1 path/to/image2 ...}}` because [`krita`][krita] can recognize images without extensions, they are not required.
@@ -131,9 +131,9 @@ not to strictly follow POSIX shell syntax.
 
 #### Directory paths
 
-:x: **Don't forget** add `/` for absolute paths.
+> :x: **Don't forget** add `/` for absolute paths.
 
-✔️ **Use** `{{path/to/directory}}` generic placeholder for directory path unless documentation provides any information about allowed values explicitly.
+> ✔️ **Use** `{{path/to/directory}}` generic placeholder for directory path unless documentation provides any information about allowed values explicitly.
 
 1. Replace `directory` in placeholder described above with concreete value when **documentation provides cocreete directory names**.
 2. Replace `directory` in placeholders described above with concreete values describing meaning of the argument when **argument used with short options/subcommands** to easily understand argument meaning.
