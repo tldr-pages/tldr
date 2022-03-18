@@ -1,4 +1,4 @@
-# duc
+# duc: Dude, where are my bytes
 
 > Duc: index, query and graph disk usage
 > More information: <https://duc.zevv.nl/>
