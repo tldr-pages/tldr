@@ -135,9 +135,8 @@ not to strictly follow POSIX shell syntax.
 
 ✔️ **Use** `{{path/to/directory}}` generic placeholder for directory path unless documentation provides any information about allowed values explicitly.
 
-1. Use `{{directory}}` placeholder just when **no absolute/relative path is required**. In other case prefer `{{path/to/directory}}`.
-2. Replace `directory` in placeholders described above with concreete values when **documentation provides cocreete directory names** (above rule applies here).
-3. Replace `directory` in placeholders described above with concreete values describing meaning of the argument when **argument used with short options/subcommands**  to easily understand argument meaning.
+1. Replace `directory` in placeholder described above with concreete value when **documentation provides cocreete directory names**.
+2. Replace `directory` in placeholders described above with concreete values describing meaning of the argument when **argument used with short options/subcommands** to easily understand argument meaning.
 
 #### Mixing file names and directories
 
