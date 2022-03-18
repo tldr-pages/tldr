@@ -3,14 +3,14 @@
 > Quit the current CMD instance or the current batch file.
 > More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/exit>.
 
-- Quit the current CMD instance:
+- Exit the current CMD instance:
 
 `exit`
 
-- Quit the current batch script:
+- Exit the current batch script:
 
 `exit /b`
 
-- Quit using a specific exit code:
+- Exit with the specified exit code:
 
 `exit {{exit_code}}`
