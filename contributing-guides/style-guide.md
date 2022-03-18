@@ -122,7 +122,7 @@ not to strictly follow POSIX shell syntax.
 
 1. *Use* `{{path/to/file}}` placeholder just when **extension is not required**. *Otherwise* prefer `{{path/to/file.ext}}` (where `.ext` is a file extension). Examples:
     1. No extensions are provided in `krita {{path/to/image1 path/to/image2 ...}}` because [`krita`][krita] can recognize images without extensions, they are not required.
-2. Replace `file`/`ext` in placeholders described above with concreete values when **documentation provides cocreete file names/extensions** *or* **argument used with short options/subcommands**. Examples:
+2. *Replace* `file`/`ext` in placeholders described above with concreete values when **documentation provides cocreete file names/extensions** *or* **argument used with short options/subcommands**. Examples:
     1. `compressed.rar` is used in `unrar x {{path/to/compressed.rar}}` because it's hard to
         understand what does short command [`x`][unrar].
 
@@ -135,8 +135,7 @@ not to strictly follow POSIX shell syntax.
 
 > ✔️ **Use** `{{path/to/directory}}` generic placeholder for directory path unless documentation provides any information about allowed values explicitly.
 
-1. Replace `directory` in placeholder described above with concreete value when **documentation provides cocreete directory names**.
-2. Replace `directory` in placeholders described above with concreete values describing meaning of the argument when **argument used with short options/subcommands** to easily understand argument meaning.
+1. *Replace* `directory` in placeholder described above with concreete value when **documentation provides cocreete directory names** *or* **argument used with short options/subcommands**.
 
 #### Mixing file names and directories
 
@@ -149,45 +148,38 @@ not to strictly follow POSIX shell syntax.
 
 ### Ellipsis
 
-:x: **Don't separate** suffix numbers with any chars.
+> :x: **Don't separate** suffix numbers with any chars.
 
-:x: **Don't use** ellipsis for non-path arguments with spaces inside them.
+> :x: **Don't use** ellipsis for non-path arguments with spaces inside them.
 
-✔️ **Use** numbering from 1.
+> ✔️ **Use** numbering from 1.
 
-1. Use placeholder with ellipsis (`{{arg1 arg2 ...}}`) just when **documentation allows one or more similar arguments**.
-2. Add note `(zero or one)`/`(zero or more)` just when **documentation allows zero or one/more similar arguments**.
-
-:scroll: **Example**: `choco install {{package1 package2 ...}}`.
+1. *Use* placeholder with ellipsis (`{{arg1 arg2 ...}}`) just when **documentation allows one or more similar arguments**. Examples:
+   1. `choco install {{package1 package2 ...}}`
+2. *Add note* `(zero or one)`/`(zero or more)` just when **documentation allows zero or one/more similar arguments**.
 
 ### Globs and regular expressions
 
-✔️ **Use** any [basic globbing][globbing]/[extended regular expression][ere] patterns unless you have to demonstrate more complex syntax.
+> ✔️ **Use** any [basic globbing][globbing]/[extended regular expression][ere] patterns unless you have to demonstrate more complex syntax.
 
 [globbing]: https://linuxhint.com/bash_globbing_tutorial/
 [ere]: https://linuxize.com/post/regular-expressions-in-grep/
 
 ### Nested placeholders
 
-:x: Nested placeholders are **not** supported now in Tl;Dr clients.
+> :x: Nested placeholders are **not** supported now in Tl;Dr clients.
 
 ### Preferred placeholders
 
-- `{{file}}` (but not `{{filename}}`)
-- `{{input_file}}` when used with input redirection: `command < {{input_file}}`
-- `{{directory}}` (but not `{{directory_name}}`)
 - `{{user}}` (but not `{{username}}`)
 - `{{package}}` (but not `{{package_name}}`)
 
 ## Flags
 
-1. Use long flags when available for pages in `linux/` directory.
-2. Always use short flags when available for pages in `osx/` and `windows/` directories.
-3. Use short flags for frequently used options when available.
-
-:scroll: **Example**: `fish --command` (in `common/` directory) - `--command` is used instead of `-c` because it's hard to understand what is `-c`.
-
-:scroll: **Example**: `git commit -m` (in `common/` directory) - `-m` is used instead of `--message` because it's faster to type `-m` and it's frequently used.
+1. *Use* long flags when available for pages in `linux/` directory. 
+2. *Use* short flags when available for pages in `osx/` and `windows/` directories.
+3. *Use* short flags for frequently used options when available. Examples:
+    1. `-m` is used in `git commit -m` (in `common/` directory) because it's faster to type `-m` and it's frequently used
 
 ### Highlighting
 
@@ -196,7 +188,7 @@ with a different case than the option has.
 
 ## sudo command
 
-✔️ **Use** `sudo` command when root privileges are explicitly required by documentation.
+> ✔️ **Use** `sudo` command when root privileges are explicitly required by documentation.
 
 ## help and version examples
 
@@ -243,10 +235,10 @@ This also applies to all translations by default, unless this is not possible fo
 
 ## Serial Comma
 
-✔️ **Use** [serial comma](https://en.wikipedia.org/wiki/Serial_comma) (also known as the Oxford comma,
+> ✔️ **Use** [serial comma](https://en.wikipedia.org/wiki/Serial_comma) (also known as the Oxford comma,
 since omitting it can create ambiguity) when declaring a list of 3 or more items.
 
-:scroll: **Example**: `Delete the Git branches, tags and remotes.` There is no a serial comma, so this could mean one of two things
+Example: `Delete the Git branches, tags and remotes.` There is no a serial comma, so this could mean one of two things
 
 - Delete the Git branches named `tags` and `remotes`.
 - Delete all of the following: Git branches, Git tags, and Git remotes.
