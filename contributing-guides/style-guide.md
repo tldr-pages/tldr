@@ -140,12 +140,12 @@ not to strictly follow POSIX shell syntax.
 
 #### Mixing file names and directories
 
-1. Use `|` as a delimiter **between** [file](#file-paths)/[directory](#directory-paths) paths.
-2. Place file path **before** directory one.
-3. Use `{{file_or_directory}}` placeholder shorthand just when **no absolute/relative paths are required** and **no allowed extensions are provided**.
-4. Use `{{path/to/file_or_directory}}` placeholder shorthand just when **absolute/relative paths are required** and **no allowed extensions are provided**.
+> :bulb: **Use** `{{path/to/file_or_directory}}` as the shorthand for `{{path/to/file.ext|path/to/directory}}`.
 
-:scroll: **Examples**: `{{file|directory}}`, `{{path/to/file.ext|directory}}`, `{{path/to/file.ext|path/to/directory}}`, `{{path/to/file_or_directory}}`.
+1. Use `|` as a delimiter **between** [file](#file-paths)/[directory](#directory-paths) paths.
+2. Place file path **before** directory one. Examples:
+    1. `{{path/to/file.ext|path/to/directory}}` is valid but long
+    2. `{{path/to/file_or_directory}}`
 
 ### Ellipsis
 
