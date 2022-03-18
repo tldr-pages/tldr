@@ -1,6 +1,6 @@
 # gacutil
 
-> Global Assembly Cache management utility.
+> Global Assembly Cache (CAG) management utility.
 > More information: <https://manned.org/gacutil.1>.
 
 - Install the specified assembly into GAC:
