@@ -1,6 +1,6 @@
 # comp
 
-> Compare the contents of two files or sets of files. Wildcards supported: `*` and `?`.
+> Compare the contents of two files or sets of files. Wildcards are supported.
 > More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/comp>.
 
 - Compare files interactively:
