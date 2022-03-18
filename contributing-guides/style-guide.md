@@ -49,6 +49,7 @@ If some command is an alias for another then you can provide for it such Tl;Dr p
 
 > This command is an alias of `<original-command>`.
 > More information: <original-command-help-page>.
+
 - View documentation for the original command:
 
 `tldr <original-command>`
