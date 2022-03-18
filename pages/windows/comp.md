@@ -1,37 +1,32 @@
 # comp
 
-> Compare the contents of two files or sets of files.
-> Use wildcards (*) to compare sets of files.
+> Compare the contents of two files or sets of files. Wildcards supported: `*` and `?`.
 > More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/comp>.
 
 - Compare files interactively:
 
 `comp`
 
-- Compare two specified files:
+- Compare the specified files:
 
-`comp {{path/to/file_1}} {{path/to/file_2}}`
+`comp {{path/to/file1}} {{path/to/file2}}`
 
-- Compare two sets of files:
+- Print the differences in [d]ecimal format:
 
-`comp {{path/to/directory_1/*}} {{path/to/directory_2/*}}`
+`comp /d {{path/to/file1}} {{path/to/file2}}`
 
-- Display differences in decimal format:
+- Print the differences in ASCII format:
 
-`comp /d {{path/to/file_1}} {{path/to/file_2}}`
+`comp /a {{path/to/file1}} {{path/to/file2}}`
 
-- Display differences in ASCII format:
+- Print the [l]ine numbers for differences:
 
-`comp /a {{path/to/file_1}} {{path/to/file_2}}`
+`comp /l {{path/to/file1}} {{path/to/file2}}`
 
-- Display line numbers for differences:
+- Compare the specified files [c]ase-insensitively:
 
-`comp /l {{path/to/file_1}} {{path/to/file_2}}`
+`comp /c {{path/to/file1}} {{path/to/file2}}`
 
-- Compare files case-insensitively:
+- Compare the first 5 lines of each file:
 
-`comp /c {{path/to/file_1}} {{path/to/file_2}}`
-
-- Compare only the first 5 lines of each file:
-
-`comp /n={{5}} {{path/to/file_1}} {{path/to/file_2}}`
+`comp /n={{5}} {{path/to/file1}} {{path/to/file2}}`
