@@ -70,17 +70,29 @@ doesn't mean the actual value and is a generic placeholder with descriptive name
 this placeholder is also the valid file name).
 
 1. *Use* short but descriptive placeholders. Examples:
-   1. `{{path/to/source_file.cs}}` for `C#` compiler
-   2. `{{1-10}}` for `cut` command
-2. *Use* the actual value (or it's part) just when **documentation lists allowed values explicitly** (enum, regex/glob pattern) *or* **mentions their type** (seconds, extensions, etc.). Examples:
-    1. `{{path/to/source_file.cs}}` for `C#` compiler
-    2. `{{1-10}}` for `cut` command
+   1. `{{path/to/source_file.cs}}` for [`C#` compiler][mcs]
+   2. `{{1-10}}` for [`cut` command][cut]
+2. *Use* the actual value (or it's part) just when **documentation lists allowed values explicitly** (enum, regex/glob pattern). *Otherwise* use one of the generic placeholders provided below. Examples:
+    1. `{{path/to/source_file.cs}}` for [`C#` compiler][mcs] because just extension must be `.cs`
+       filename because it can be any)
+    2. `{{5}}s` for [`sleep` command][sleep] (full value is shown)
 3. *Use* [`snake_case`](https://wikipedia.org/wiki/snake_case) for multi-word placeholders.
 4. *Separate* several placeholders via at least one symbol. Examples:
-    1. `{{_config}}.{{toml|yml}}`.
-5. *Use* `|` as the placeholder delimiter always except [some cases](#mixing-file-names-and-directories):
+    1. `{{_config}}.{{toml|yml}}` - `.` is used to separate placeholders
+5. *Separate* several actual values via the placeholder delimiter `|` just when
+   **documentation lists 1-5 allowed values explicitly** (enum, regex/glob pattern). *Otherwise* use one
+   of the allowed value just when **it comes after long option/subcommand** *else* prefer one of the generic placeholders provided below. This rule doesn't applies for the arbitrary numbers and
+   strings. Examples:
+   1. `5{{s|m|h}}` for [`sleep` command][sleep] because there are 3 allowed suffixes
+   2. `dir /a {{attributes}}` for [`dir` command][dir] because there are 7 allowed values
+6. *Use* `|` as the placeholder delimiter inside `{{`, `}}` except [some cases](#mixing-file-names-and-directories):
     1. `{{file_or_directory}}`
     2. `{{path/to/file_or_directory}}`
+
+[mcs]: https://manned.org/mcs.1
+[cut]: https://manned.org/cut.1
+[sleep]: https://manned.org/cut.1
+[dir]: https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/dir
 
 ### Quoting
 
@@ -98,8 +110,6 @@ not to strictly follow POSIX shell syntax.
 [word_splitting]: https://mywiki.wooledge.org/WordSplitting
 
 ### Paths
-
-:x: **Don't use** concreete values for paths unless documentation provides such ones explicitly.
 
 #### File paths
 
