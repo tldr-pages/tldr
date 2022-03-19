@@ -15,6 +15,18 @@
 
 `ogrinfo {{path/to/input.gpkg}} {{layer_name}}`
 
-- Only show summary information about a specific layer of a data source:
+- Show summary information about a specific layer of a data source:
 
 `ogrinfo -so {{path/to/input.gpkg}} {{layer_name}}`
+
+- Show summary of all layers of the data source:
+
+`ogrinfo -so -al {{path/to/input.gpkg}}`
+
+- Show detailed information of features matching a condition:
+
+`ogrinfo -where '{{attribute_name > 42}}' {{path/to/input.gpkg}} {{layer_name}}`
+
+- Update a layer in the data source with SQL:
+
+`ogrinfo {{path/to/input.geojson}} -dialect SQLite -sql "{{UPDATE input SET attribute_name = 'foo'}}"`
