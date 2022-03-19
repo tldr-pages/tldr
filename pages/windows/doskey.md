@@ -9,7 +9,7 @@
 
 - Create the new macro:
 
-`doskey {{name}} = "{{command}}"`
+`doskey {{name}} = {{command}}`
 
 - Create the new macro for the specified executable:
 
