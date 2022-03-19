@@ -11,7 +11,7 @@
 
 `binwalk --extract --directory {{输出目录}} {{二进制文件}}`
 
-- 递归解压一个二进制文件并限制递归深度为 2:
+- 递归解压一个二进制文件并限制递归深度为 2：
 
 `binwalk --extract --matryoshka --depth {{2}} {{二进制文件}}`
 

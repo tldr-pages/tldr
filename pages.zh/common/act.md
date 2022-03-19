@@ -7,15 +7,15 @@
 
 `act -l`
 
-- 运行默认 event:
+- 运行默认 event：
 
 `act`
 
-- 运行指定 event:
+- 运行指定 event：
 
 `act {{事件类型}}`
 
-- 运行指定 action:
+- 运行指定 action：
 
 `act -a {{action_id}}`
 

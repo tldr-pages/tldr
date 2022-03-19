@@ -20,7 +20,7 @@
 
 `arping -c {{count}} {{host_ip}}`
 
-- 브로드캐스트 ARP 요청 패킷을 통해 이웃 ARP 캐시 업데이트 :
+- 브로드캐스트 ARP 요청 패킷을 통해 이웃 ARP 캐시 업데이트:
 
 `arping -U {{ip_to_broadcast}}`
 
