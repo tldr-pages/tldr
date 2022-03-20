@@ -27,6 +27,6 @@
 
 `comp /c {{path/to/file1}} {{path/to/file2}}`
 
-- Compare the first 5 lines of each file:
+- Compare the specified first lines (`5`) of each file:
 
 `comp /n={{5}} {{path/to/file1}} {{path/to/file2}}`
