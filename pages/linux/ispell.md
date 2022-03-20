@@ -3,7 +3,7 @@
 > Interactive spell checking.
 > More information: <https://www.cs.hmc.edu/~geoff/ispell.html>.
 
-- Launch interactive spell checker in command-line:
+- Start an interactive session:
 
 `ispell`
 
