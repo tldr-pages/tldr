@@ -82,7 +82,7 @@ this placeholder is also the valid file name).
 5. *Separate* several actual values via the placeholder delimiter `|` just when
    **documentation lists 1-5 allowed values explicitly** (enum, regex/glob pattern). *Otherwise* use one
    of the allowed value just when **it comes after long option/subcommand** *else* prefer one of the generic placeholders. This rule doesn't applies for the arbitrary numbers and
-   strings. Examples:
+   strings: you can use any sample number or string. Examples:
    1. `{{5}}s` for [`sleep` command][sleep] because there are too many numbers to list them explicitly
    2. `dir /a {{attributes}}` for [`dir` command][dir] because there are 7 allowed values
 6. *Use* `|` as the placeholder delimiter inside `{{`, `}}` except [some cases](#mixing-file-names-and-directories):
