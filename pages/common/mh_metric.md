@@ -5,13 +5,13 @@
 
 - Print the code metrics for the specified files:
 
-`mh_metric {{path/to/file.m}}`
+`mh_metric {{path/to/file1.m path/to/file2.m ...}}`
 
 - Print the code metrics for the specified Octave files:
 
-`mh_metric --octave {{path/to/file.m}}`
+`mh_metric --octave {{path/to/file1.m path/to/file2.m ...}}`
 
-- Display code metrics for a specific directory:
+- Print the code metrics for the specified directory:
 
 `mh_metric {{path/to/directory}}`
 
@@ -19,10 +19,6 @@
 
 `mh_metric`
 
-- Produce a code metrics report in HTML format:
+- Print the code metrics report in HTML or JSON format:
 
-`mh_metric --html {{path/to/file.html}}`
-
-- Produce a code metrics report in JSON format:
-
-`mh_metric --json {{path/to/file.json}}`
+`mh_metric --{{html|json}} {{path/to/output_file}}`
