@@ -3,11 +3,11 @@
 > Calculate and enforce code metrics for MATLAB or Octave code.
 > More information: <https://misshit.org>.
 
-- Display code metrics for a MATLAB file:
+- Print the code metrics for the specified files:
 
 `mh_metric {{path/to/file.m}}`
 
-- Display code metrics for an Octave file:
+- Print the code metrics for the specified Octave files:
 
 `mh_metric --octave {{path/to/file.m}}`
 
@@ -15,7 +15,7 @@
 
 `mh_metric {{path/to/directory}}`
 
-- Display code metrics for the current directory:
+- Print the code metrics for the current directory:
 
 `mh_metric`
 
