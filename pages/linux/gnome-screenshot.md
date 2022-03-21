@@ -23,10 +23,6 @@
 
 `gnome-screenshot --interactive`
 
-- Display the version:
-
-`gnome-screenshot --version`
-
 - Take a screenshot of the current window and save it to the specified file location:
 
 `gnome-screenshot --window --file {{path/to/file}}`
@@ -34,3 +30,7 @@
 - Take a screenshot after the specified number of seconds and save it to the clipboard:
 
 `gnome-screenshot --delay {{10}} --clipboard`
+
+- Display the version:
+
+`gnome-screenshot --version`
