@@ -1,6 +1,6 @@
 # unshare
 
-> Execute a command in a new namespace.
+> Execute a command in new user-defined namespaces.
 > More information: <https://www.kernel.org/doc/html/latest/userspace-api/unshare.html>.
 
 - Execute a command without sharing access to connected networks:
