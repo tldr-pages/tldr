@@ -3,7 +3,7 @@
 > Add and remove applications and update your system.
 > More information: <https://apps.gnome.org/app/org.gnome.Software/>.
 
-- Launch the GNOME Software GUI, does nothing if it's already open:
+- Launch the GNOME Software GUI if it's not already running:
 
 `gnome-software`
 
