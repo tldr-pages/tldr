@@ -1,6 +1,7 @@
 # smbclient
 
 > FTP-like client to access SMB/CIFS resources on servers.
+> More information: <https://manned.org/smbclient>.
 
 - Connect to a share (user will be prompted for password; `exit` to quit the session):
 

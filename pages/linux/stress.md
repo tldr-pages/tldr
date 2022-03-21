@@ -1,6 +1,7 @@
 # stress
 
 > A tool to stress test CPU, memory, and IO on a Linux system.
+> More information: <https://manned.org/stress>.
 
 - Spawn 4 workers to stress test CPU:
 
