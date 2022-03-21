@@ -9,7 +9,7 @@
 
 - Link two object files together:
 
-`ld {{path/to/file.o}} {{path/to/file1.o}} --output {{path/to/executable}}`
+`ld {{path/to/file1.o}} {{path/to/file2.o}} --output {{path/to/output_executable}}`
 
 - Dynamically link a 64-bit program to glibc (file paths change depending on system):
 
