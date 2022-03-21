@@ -1,6 +1,7 @@
 # script
 
 > Record all terminal output to file.
+> More information: <https://manned.org/script>.
 
 - Record a new session to a file named `typescript` in the current directory:
 
