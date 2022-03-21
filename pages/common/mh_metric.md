@@ -11,7 +11,7 @@
 
 `mh_metric --octave {{path/to/file1.m path/to/file2.m ...}}`
 
-- Print the code metrics for the specified directory:
+- Print the code metrics for the specified directory recursively:
 
 `mh_metric {{path/to/directory}}`
 
