@@ -15,11 +15,11 @@
 
 `choice /cs {{AaBb}}`
 
-- Use the [d]efault choise (`A`) after a [t]imeout in seconds (`5`):
+- Use the [d]efault choise (`A`) after the [t]imeout in seconds (`5`):
 
 `choice /c {{AB}} /t {{5}} /d {{A}}`
 
-- Use the specified [m]essage instead of default (`[A,B]?`):
+- Use the specified [m]essage instead of the default (`[A,B]?`):
 
 `choice /c {{AB}} /m {{message}}`
 

@@ -5,24 +5,24 @@
 
 - Install the specified profile:
 
-`cmstp "{{path/to/profile}}"`
+`cmstp {{path/to/profile}}`
 
 - [U]ninstall the specified profile:
 
-`cmstp /u "{{path/to/profile}}"`
+`cmstp /u {{path/to/profile}}`
 
 - Install the specified profile [s]ilently without any prompts:
 
-`cmstp /s "{{path/to/profile}}"`
+`cmstp /s {{path/to/profile}}`
 
 - Install the specified profile without checking for dependencies:
 
-`cmstp /nf "{{path/to/profile}}"`
+`cmstp /nf {{path/to/profile}}`
 
 - Install the specified profile for the current user:
 
-`cmstp /su "{{path/to/profile}}"`
+`cmstp /su {{path/to/profile}}`
 
 - Install the specified profile for [a]ll [u]sers (requires administrator privileges):
 
-`cmstp /au "{{path/to/profile}}"`
+`cmstp /au {{path/to/profile}}`

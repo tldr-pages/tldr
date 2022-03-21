@@ -15,6 +15,6 @@
 
 `color {{0-9|a-f}}{{0-9|a-f}}`
 
-- Print all available colors:
+- Print the help:
 
 `color /?`
