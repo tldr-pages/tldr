@@ -7,7 +7,7 @@
 
 `cmstp {{path/to/profile}}`
 
-- [U]ninstall the specified profile:
+- Uninstall the specified profile:
 
 `cmstp /u {{path/to/profile}}`
 
