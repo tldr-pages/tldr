@@ -3,7 +3,7 @@
 > Link object files together.
 > More information: <https://sourceware.org/binutils/docs-2.38/ld.html>.
 
-- Link the object file with no dependencies into the executable:
+- Link an object file with no dependencies into the executable:
 
 `ld {{path/to/file.o}} --output {{path/to/output_executable}}`
 
