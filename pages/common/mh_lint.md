@@ -8,7 +8,7 @@
 
 `mh_lint`
 
-- Check a specific directory:
+- Check a specific directory recursively:
 
 `mh_lint {{path/to/directory}}`
 
