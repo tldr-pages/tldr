@@ -1,9 +1,9 @@
 # ld
 
-> The GNU ELF linker.
-> More information: <https://ftp.gnu.org/old-gnu/Manuals/ld-2.9.1/html_mono/ld.html>.
+> Link object files together.
+> More information: <https://sourceware.org/binutils/docs-2.38/ld.html>.
 
-- Link an object file with no dependencies into an executable:
+- Link the object file with no dependencies into the executable:
 
 `ld {{path/to/file.o}} --output {{path/to/output_executable}}`
 
@@ -11,6 +11,6 @@
 
 `ld {{path/to/file1.o}} {{path/to/file2.o}} --output {{path/to/output_executable}}`
 
-- Dynamically link a 64-bit program to glibc (file paths change depending on system):
+- Dynamically link an x86_64 program to glibc (file paths change depending on the system):
 
 `ld --output {{path/to/output_executable}} --dynamic-linker /lib/ld-linux-x86-64.so.2 /lib/crt1.o /lib/crti.o -lc {{path/to/file.o}} /lib/crtn.o`
