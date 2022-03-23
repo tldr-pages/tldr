@@ -13,7 +13,7 @@
 
 - Turn off the "Status" LED and "Failure" LED for specified device(s):
 
-`sudo ledctl off={{/dev/sda,/dev/sdb...}}`
+`sudo ledctl off={{/dev/sda,/dev/sdb,...}}`
 
 - Turn off the "Status" LED, "Failure" LED and "Locate" LED for specified device(s):
 
