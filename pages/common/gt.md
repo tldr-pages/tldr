@@ -1,19 +1,19 @@
 # gt
 
-> Create and manage sequences of dependent code changes (stacks) for `git` and GitHub.
-> More information: <https://docs.graphite.dev/>.
+> Create and manage sequences of dependent code changes (stacks) for Git and GitHub.
+> More information: <https://docs.graphite.dev>.
 
 - Authenticate the CLI with GitHub:
 
 `gt auth --token {{your_cli_auth_token}}`
 
-- Initialise `gt` for the current repo:
+- Initialise `gt` for the repository in the current directory:
 
 `gt repo init`
 
 - Create a new branch stacked on top of the current branch and commit staged changes with:
 
-`gt bc {{branch_name}}`
+`gt branch create {{branch_name}}`
 
 - Create a new commit and fix upstack branches:
 
@@ -27,6 +27,6 @@
 
 `gt ls`
 
-- List help documentation:
+- Print help for a subcommand:
 
 `gt {{subcommand}} --help`
