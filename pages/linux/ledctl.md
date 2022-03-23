@@ -5,7 +5,7 @@
 
 - Turn on the "Locate" LED for specified device(s):
 
-`sudo ledctl locate={{/dev/sda,/dev/sdb...}}`
+`sudo ledctl locate={{/dev/sda,/dev/sdb,...}}`
 
 - Turn off the "Locate" LED for specified device(s):
 
