@@ -3,9 +3,9 @@
 > Create and manage sequences of dependent code changes (stacks) for Git and GitHub.
 > More information: <https://docs.graphite.dev>.
 
-- Authenticate the CLI with GitHub:
+- Authenticate the CLI with Graphite's API:
 
-`gt auth --token {{your_cli_auth_token}}`
+`gt auth --token {{graphite_cli_auth_token}}`
 
 - Initialise `gt` for the repository in the current directory:
 
@@ -17,15 +17,15 @@
 
 - Create a new commit and fix upstack branches:
 
-`gt cc -m {{commit_message}}`
+`gt commit create -m {{commit_message}}`
 
 - Force push all branches in the current stack to GitHub and create or update a PRs:
 
-`gt ss`
+`gt stack submit`
 
 - Log all tacked stacks:
 
-`gt ls`
+`gt log short`
 
 - Print help for a subcommand:
 
