@@ -11,7 +11,7 @@
 
 `gt repo init`
 
-- Create a new branch stacked on top of the current branch and commit staged changes with:
+- Create a new branch stacked on top of the current branch and commit staged changes:
 
 `gt branch create {{branch_name}}`
 
@@ -19,11 +19,11 @@
 
 `gt commit create -m {{commit_message}}`
 
-- Force push all branches in the current stack to GitHub and create or update a PRs:
+- Force push all branches in the current stack to GitHub and create or update PRs:
 
 `gt stack submit`
 
-- Log all tacked stacks:
+- Log all tracked stacks:
 
 `gt log short`
 
