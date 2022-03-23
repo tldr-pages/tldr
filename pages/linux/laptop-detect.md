@@ -3,7 +3,7 @@
 > Attempt to determine if the script is running on a laptop or desktop.
 > More information: <https://gitlab.com/debiants/laptop-detect>.
 
-- Exit with 0 if likely running on a laptop, or 1 otherwise:
+- Return an exit status of 0 if the current device is likely a laptop, else returns 1:
 
 `laptop-detect`
 
