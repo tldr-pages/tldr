@@ -1,6 +1,7 @@
 # prt-get
 
 > The CRUX package manager.
+> More information: <https://crux.nu/doc/prt-get%20-%20User%20Manual.html>.
 
 - Install a package:
 
