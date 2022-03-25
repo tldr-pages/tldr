@@ -1,7 +1,10 @@
 # duc: Dude, where are my bytes
 
-> Duc is a collection of tools for indexing, inspecting and visualizing disk usage. Duc maintains a database of accumulated sizes of directories of the file system, and allows you to query this database with some tools, or create fancy graphs showing you where your bytes are.  
-> More information: <https://duc.zevv.nl/>
+> Duc is a collection of tools for indexing, inspecting and visualizing disk usage.
+> Duc maintains a database of accumulated sizes of directories of the file system,
+> and allows you to query this database with some tools,
+> or create fancy graphs showing you where your bytes are.
+> More information: <https://duc.zevv.nl/>.
 
 - Index the /usr directory, writing to the default database location ~/.duc.db:
 
