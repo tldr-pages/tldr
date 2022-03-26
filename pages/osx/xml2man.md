@@ -5,12 +5,12 @@
 
 - Compile an MPGL file to a viewable man page:
 
-`xml2man {{command.mxml}}`
+`xml2man {{path/to/command.mxml}}`
 
 - Compile an MPGL file to a specific output file:
 
-`xml2man {{service.mxml}} {{service.7}}`
+`xml2man {{path/to/service.mxml}} {{path/to/service.7}}`
 
 - Compile an MPGL file to a specific output file, overwriting if it already exists:
 
-`xml2man -f {{function.mxml}} {{function.3}}`
+`xml2man -f {{path/to/function.mxml}} {{path/to/function.3}}`
