@@ -24,7 +24,7 @@
 
 `sed -i '{{s/apple/mango/g}}' {{path/to/file}}`
 
-- Replace the specified string with the specified replacement for all lines (`[s]ubstitute` command):
+- Replace the string with the specified replacement for all lines (`[s]ubstitute` command):
 
 `sed 's/{{regular_expression}}/{{replacement}}/g'`
 
