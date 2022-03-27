@@ -1,36 +1,33 @@
 # sed
 
 > Edit text in a scriptable manner.
-> More information: <https://ss64.com/osx/sed.html>.
+> See also: `awk`, `ed`.
+> More information: <https://manned.org/man/freebsd-13.0/sed.1>.
 
-- Replace the first occurrence of a string in a file, and print the result:
+- Execute the specified expression:
 
-`sed 's/{{find}}/{{replace}}/' {{filename}}`
+`sed '{{s/apple/mango/g}}'`
 
-- Replace all occurrences of an extended regular expression in a file:
+- Execute the specified script:
 
-`sed -E 's/{{regular_expression}}/{{replace}}/g' {{filename}}`
+`sed -f {{path/to/script.sed}}`
 
-- Replace all occurrences of a string [i]n a file, overwriting the file (i.e. in-place):
+- Execute the specified expression with enabled extended regular expressions:
 
-`sed -i '' 's/{{find}}/{{replace}}/g' {{filename}}`
+`sed -E '{{s/(apple)/\U\1/g}}'`
 
-- Replace only on lines matching the line pattern:
+- Execute the specified expression without automatic buffer printing:
 
-`sed '/{{line_pattern}}/s/{{find}}/{{replace}}/' {{filename}}`
+`sed -n '{{1p}}'`
 
-- Print only text between n-th line till the next empty line:
+- Execute the specified expression and replace the file with it's output:
 
-`sed -n '{{line_number}},/^$/p' {{filename}}`
+`sed -i '{{s/apple/mango/g}}' {{path/to/file}}`
 
-- Apply multiple find-replace expressions to a file:
+- Replace the specified string with the specified replacement for all lines (`[s]ubstitute` command):
 
-`sed -e 's/{{find}}/{{replace}}/' -e 's/{{find}}/{{replace}}/' {{filename}}`
+`sed 's/{{regular_expression}}/{{replacement}}/g'`
 
-- Replace separator `/` by any other character not used in the find or replace patterns, e.g. `#`:
+- Print just the first line (`[p]rint` command):
 
-`sed 's#{{find}}#{{replace}}#' {{filename}}`
-
-- [d]elete the line at the specific line number [i]n a file, overwriting the file:
-
-`sed -i '' '{{line_number}}d' {{filename}}`
+`sed -n '{{1}}p'`
