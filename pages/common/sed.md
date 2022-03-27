@@ -1,36 +1,33 @@
 # sed
 
 > Edit text in a scriptable manner.
+> See also: `awk`, `ed`.
 > More information: <https://www.gnu.org/software/sed/manual/sed.html>.
 
-- Replace the first occurrence of a regular expression in each line of a file, and print the result:
+- Execute the specified expression:
 
-`sed 's/{{regular_expression}}/{{replace}}/' {{filename}}`
+`sed '{{s/apple/mango/g}}'`
 
-- Replace all occurrences of an extended regular expression in a file, and print the result:
+- Execute the specified script:
 
-`sed -r 's/{{regular_expression}}/{{replace}}/g' {{filename}}`
+`sed --file={{path/to/script.sed}}`
 
-- Replace all occurrences of a string in a file, overwriting the file (i.e. in-place):
+- Execute the specified expression with enabled extended regular expressions:
 
-`sed -i 's/{{find}}/{{replace}}/g' {{filename}}`
+`sed --regexp-extended '{{s/(apple)/\U\1/g}}'`
 
-- Replace only on lines matching the line pattern:
+- Execute the specified expression without automatic buffer printing:
 
-`sed '/{{line_pattern}}/s/{{find}}/{{replace}}/' {{filename}}`
+`sed --quiet '{{1p}}'`
 
-- Delete lines matching the line pattern:
+- Execute the specified expression and replace the file with it's output:
 
-`sed '/{{line_pattern}}/d' {{filename}}`
+`sed --in-place '{{s/apple/mango/g}}' {{path/to/file}}`
 
-- Print the first 11 lines of a file:
+- Replace the specified string with the specified replacement for all lines (`[s]ubstitute` command):
 
-`sed 11q {{filename}}`
+`sed 's/{{regular_expression}}/{{replacement}}/g'`
 
-- Apply multiple find-replace expressions to a file:
+- Print just the first line (`[p]rint` command):
 
-`sed -e 's/{{find}}/{{replace}}/' -e 's/{{find}}/{{replace}}/' {{filename}}`
-
-- Replace separator `/` by any other character not used in the find or replace patterns, e.g. `#`:
-
-`sed 's#{{find}}#{{replace}}#' {{filename}}`
+`sed --quiet '{{1}}p'`
