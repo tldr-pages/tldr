@@ -19,11 +19,11 @@
 
 `nmcli connection add ifname {{arayüz_adı}} type {{ethernet}} ipv4.method {{auto}} ipv6.method {{auto}}`
 
-- Statik bir yalnızca IPv6 bağlantısı oluştur :
+- Statik bir yalnızca IPv6 bağlantısı oluştur:
 
 `nmcli connection add ifname {{arayüz_adı}} type {{ethernet}} ip6 {{2001:db8::2/64}} gw6 {{2001:db8::1}} ipv6.dns {{2001:db8::1}} ipv4.method {{ignore}}`
 
-- Statik bir yalnızca IPv4 bağlantısı oluştur :
+- Statik bir yalnızca IPv4 bağlantısı oluştur:
 
 `nmcli connection add ifname {{arayüz_adı}} type {{ethernet}} ip4 {{10.0.0.7/8}} gw4 {{10.0.0.1}} ipv4.dns {{10.0.0.1}} ipv6.method {{ignore}}`
 

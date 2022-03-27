@@ -10,7 +10,7 @@ The templates can be changed when necessary.
 [ar](#ar) •
 [bn](#bn) •
 [bs](#bs) •
-[ca](#ca) • 
+[ca](#ca) •
 [da](#da) •
 [de](#de) •
 [es](#es) •

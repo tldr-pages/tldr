@@ -23,7 +23,7 @@
 
 `authconfig --update --enablenis`
 
-- 开启 Kerberos:
+- 开启 Kerberos：
 
 `authconfig --update --enablekrb5`
 

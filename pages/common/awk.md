@@ -27,10 +27,10 @@
 
 `awk '{if ($1 == "foo") print "Exact match foo"; else if ($1 ~ "bar") print "Partial match bar"; else print "Baz"}' {{filename}}`
 
-- Print all lines where the 10th column value equals the specified value :
+- Print all lines where the 10th column value equals the specified value:
 
 `awk '($10 == value)'`
 
-- Print all the lines which the 10th column value is between a min and a max :
+- Print all the lines which the 10th column value is between a min and a max:
 
 `awk '($10 >= min_value && $10 <= max_value)'`
