@@ -3,26 +3,14 @@
 > Cut out fields from stdin or files.
 > More information: <https://www.gnu.org/software/coreutils/cut>.
 
-- Cut out the first sixteen characters of each line of stdin:
+- Print the specified character/field range of each line (`--{{characters|fields}}={{1|1,10|1-10|1-|-10}}` is referred later as `{{range}}`):
 
-`cut -c {{1-16}}`
+`cut --{{characters|fields}}={{1|1,10|1-10|1-|-10}}`
 
-- Cut out the first sixteen characters of each line of the given files:
+- Print the specified range of each line with the specified delimiter:
 
-`cut -c {{1-16}} {{file}}`
+`cut --delimiter="{{,}}" {{range}}`
 
-- Cut out everything from the 3rd character to the end of each line:
+- Print the specified range of each line of the specified file:
 
-`cut -c {{3-}}`
-
-- Cut out the fifth field of each line, using a colon as a field delimiter (default delimiter is tab):
-
-`cut -d'{{:}}' -f{{5}}`
-
-- Cut out the 2nd and 10th fields of each line, using a semicolon as a delimiter:
-
-`cut -d'{{;}}' -f{{2,10}}`
-
-- Cut out the fields 3 through to the end of each line, using a space as a delimiter:
-
-`cut -d'{{ }}' -f{{3-}}`
+`cut {{range}} {{path/to/file}}`
