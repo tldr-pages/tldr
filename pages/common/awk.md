@@ -1,36 +1,33 @@
 # awk
 
 > A versatile programming language for working on files.
-> More information: <https://github.com/onetrueawk/awk>.
+> See also: `sed`, `ed`.
+> More information: <https://manned.org/awk.1>.
 
-- Print the fifth column (a.k.a. field) in a space-separated file:
+- Execute the specified expression:
 
-`awk '{print $5}' {{filename}}`
+`awk '{{{ print gensub("apple", "mango", "g") }}}'`
 
-- Print the second column of the lines containing "foo" in a space-separated file:
+- Execute the specified script:
 
-`awk '/{{foo}}/ {print $2}' {{filename}}`
+`awk --file {{path/to/script.awk}}`
 
-- Print the last column of each line in a file, using a comma (instead of space) as a field separator:
+- Check the specified script for syntax errors:
 
-`awk -F ',' '{print $NF}' {{filename}}`
+`awk --lint --file {{path/to/script.awk}}`
 
-- Sum the values in the first column of a file and print the total:
+- Execute the expression with the specified field separator:
 
-`awk '{s+=$1} END {print s}' {{filename}}`
+`awk --field-separator="{{,}}" '{{{ print $1 }}}'`
 
-- Print every third line starting from the first line:
+- Replace the string with the specified replacement for all lines (`gensub` function):
 
-`awk 'NR%3==1' {{filename}}`
+`awk '{ print gensub("{{regular_expression}}", "{{replacement}}", "g") }'`
 
-- Print different values based on conditions:
+- Print the specified field of each line (`print` statement):
 
-`awk '{if ($1 == "foo") print "Exact match foo"; else if ($1 ~ "bar") print "Partial match bar"; else print "Baz"}' {{filename}}`
+`awk '{ print ${{1}} }'`
 
-- Print all lines where the 10th column value equals the specified value:
+- Print the specified field range of each line (`for` loop):
 
-`awk '($10 == value)'`
-
-- Print all the lines which the 10th column value is between a min and a max:
-
-`awk '($10 >= min_value && $10 <= max_value)'`
+`awk '{ for (i = {{1}}; i <= {{10}}; i++) print $i }'`
