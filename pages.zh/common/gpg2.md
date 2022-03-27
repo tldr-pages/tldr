@@ -8,7 +8,7 @@
 
 `gpg2 --list-keys`
 
-- 为指定的接收者加密指定的文件，将输出结果写到一个新的文件中，并附加`.gpg`:
+- 为指定的接收者加密指定的文件，将输出结果写到一个新的文件中，并附加 `.gpg`：
 
 `gpg2 --encrypt --recipient {{alice@example.com}} {{path/to/doc.txt}}`
 
