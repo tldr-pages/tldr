@@ -19,7 +19,7 @@
 
 `md5sum --check {{path/to/file.md5}}`
 
-- Only show a message for files for which verification fails or missing files:
+- Only show a message for missing files or when verification fails:
 
 `md5sum --check --quiet {{path/to/file.md5}}`
 

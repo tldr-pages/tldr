@@ -19,7 +19,7 @@
 
 `b2sum --check {{path/to/file.b2}}`
 
-- Only show a message for files for which verification fails or missing files:
+- Only show a message for missing files or when verification fails:
 
 `b2sum --check --quiet {{path/to/file.b2}}`
 
