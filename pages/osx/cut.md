@@ -5,11 +5,11 @@
 
 - Print the specified character/field range of each line (`-{{c|f}} {{1|1,10|1-10|1-|-10}}` is referred later as `{{range}}`):
 
-`cut -{{c|f}} {{1|1,10|1-10|1-|-10}}`
+`{{command}} | cut -{{c|f}} {{1|1,10|1-10|1-|-10}}`
 
 - Print the range of each line with the specified delimiter:
 
-`cut -d "{{,}}" {{range}}`
+`{{command}} | cut -d "{{,}}" {{range}}`
 
 - Print the range of each line of the specified file:
 
