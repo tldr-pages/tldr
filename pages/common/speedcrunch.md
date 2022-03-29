@@ -15,11 +15,11 @@
 
 `Ctrl + 1`
 
-- Clear calculator of calculations:
+- Clear the calculator of recent calculations:
 
 `Ctrl + N`
 
-- Wrap highlighted in parathesis (defaults to wrapping all if nothing selected):
+- Wrap highlighted in parentheses (defaults to wrapping all if nothing selected):
 
 `Ctrl + P`
 
