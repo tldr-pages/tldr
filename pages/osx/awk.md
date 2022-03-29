@@ -6,24 +6,24 @@
 
 - Execute the specified expression:
 
-`awk '{{{ print gensub("apple", "mango", "g") }}}'`
+`{{command}} | awk '{{{ print gensub("apple", "mango", "g") }}}'`
 
 - Execute the specified script:
 
-`awk -f {{path/to/script.awk}}`
+`{{command}} | awk -f {{path/to/script.awk}}`
 
 - Execute the expression with the specified field separator:
 
-`awk -F "{{,}}" '{{{ print $1 }}}'`
+`{{command}} | awk -F "{{,}}" '{{{ print $1 }}}'`
 
 - Replace the string with the specified replacement for all lines (`gensub` function):
 
-`awk '{ print gensub("{{regular_expression}}", "{{replacement}}", "g") }'`
+`{{command}} | awk '{ print gensub("{{regular_expression}}", "{{replacement}}", "g") }'`
 
 - Print the specified field of each line (`print` statement):
 
-`awk '{ print ${{1}} }'`
+`{{command}} | awk '{ print ${{1}} }'`
 
 - Print the specified field range of each line (`for` loop):
 
-`awk '{ for (i = {{1}}; i <= {{10}}; i++) print $i }'`
+`{{command}} | awk '{ for (i = {{1}}; i <= {{10}}; i++) print $i }'`
