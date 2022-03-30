@@ -1,7 +1,7 @@
 # jq
 
 > A command-line JSON processor that uses a domain-specific language.
-> More information: <https://stedolan.github.io/jq>.
+> More information: <https://stedolan.github.io/jq/manual/>.
 
 - Output a JSON file, in pretty-print format:
 
