@@ -3,7 +3,7 @@
 > A command-line JSON processor that uses a domain-specific language.
 > More information: <https://stedolan.github.io/jq/manual/>.
 
-- Execute the specified expression:
+- Execute the specified expression (print a colored and formatted json):
 
 `{{json_output_command}} | jq '{{.}}'`
 
@@ -14,10 +14,6 @@
 - Pass the specifed arguments:
 
 `{{json_output_command}} | jq {{--arg "name1" "value1" --arg "name2" "value2" ...}} '{{. + $ARGS.named}}'`
-
-- Print a colored and formatted json:
-
-`{{json_output_command}} | jq '{{.}}'`
 
 - Print the specifed keys:
 
