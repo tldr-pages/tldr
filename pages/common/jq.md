@@ -29,4 +29,4 @@
 
 - Add/remove the specified keys:
 
-`{{json_output_command}} | jq '{{.}} {{+|-}} {{{"key1": "value1", "key2": "value2", ...\}}}'`
+`{{json_output_command}} | jq '{{.}} {{+|-}} {{{"key1": "value1", "key2": "value2", ...}}}'`
