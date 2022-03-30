@@ -15,13 +15,13 @@
 
 `{{json_output_command}} | jq '{{.}}'`
 
-- Print the specifed key:
+- Print the specifed keys:
 
-`{{json_output_command}} | jq '.{{key}}'`
+`{{json_output_command}} | jq '{{.key1, .key2, ...}}'`
 
-- Print the specifed array item:
+- Print the specifed array items:
 
-`{{json_output_command}} | jq '.[{{index}}]'`
+`{{json_output_command}} | jq '{{.[index1], .[index2], ...}}'`
 
 - Print all array items/object keys:
 
