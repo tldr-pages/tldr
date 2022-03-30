@@ -11,6 +11,10 @@
 
 `{{json_output_command}} | jq --from-file {{path/to/script.jq}}'`
 
+- Pass the specifed arguments:
+
+`{{json_output_command}} | jq {{--arg "name1" "value1" --arg "name2" "value2" ...}} '{{. + $ARGS.named}}'`
+
 - Print a colored and formatted json:
 
 `{{json_output_command}} | jq '{{.}}'`
