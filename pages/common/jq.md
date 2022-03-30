@@ -5,28 +5,28 @@
 
 - Execute the specified expression (print a colored and formatted json):
 
-`{{json_output_command}} | jq '{{.}}'`
+`{{cat path/to/file.json}} | jq '{{.}}'`
 
 - Execute the specified script:
 
-`{{json_output_command}} | jq --from-file {{path/to/script.jq}}'`
+`{{cat path/to/file.json}} | jq --from-file {{path/to/script.jq}}'`
 
 - Pass the specifed arguments:
 
-`{{json_output_command}} | jq {{--arg "name1" "value1" --arg "name2" "value2" ...}} '{{. + $ARGS.named}}'`
+`{{cat path/to/file.json}} | jq {{--arg "name1" "value1" --arg "name2" "value2" ...}} '{{. + $ARGS.named}}'`
 
 - Print the specifed keys:
 
-`{{json_output_command}} | jq '{{.key1, .key2, ...}}'`
+`{{cat path/to/file.json}} | jq '{{.key1, .key2, ...}}'`
 
 - Print the specifed array items:
 
-`{{json_output_command}} | jq '{{.[index1], .[index2], ...}}'`
+`{{cat path/to/file.json}} | jq '{{.[index1], .[index2], ...}}'`
 
 - Print all array items/object keys:
 
-`{{json_output_command}} | jq '.[]'`
+`{{cat path/to/file.json}} | jq '.[]'`
 
 - Add/remove the specified keys:
 
-`{{json_output_command}} | jq '{{.}} {{+|-}} {{{"key1": "value1", "key2": "value2", ...}}}'`
+`{{cat path/to/file.json}} | jq '{{.}} {{+|-}} {{{"key1": "value1", "key2": "value2", ...}}}'`
