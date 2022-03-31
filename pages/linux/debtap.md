@@ -1,6 +1,7 @@
 # debtap
 
 > Convert .deb packages into Arch Linux packages.
+> See also: `pacman-upgrade`.
 > More information: <https://github.com/helixarch/debtap>.
 
 - Update debtap database (before first run):
