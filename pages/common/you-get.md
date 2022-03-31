@@ -3,22 +3,22 @@
 > Download media contents (videos, audios, images) from the Web.
 > More information: <https://you-get.org>.
 
-- See all media information from web:
+- Print media information about a specific media on the web:
 
-`you-get -i {{https://example.com/video?id=jNQXAC9IVRw}}`
+`you-get --info {{https://example.com/video?id=value}}`
 
-- Download media from web:
+- Download a media from a specific URL:
 
-`you-get {{https://example.com/video?id=jNQXAC9IVRw}}`
+`you-get {{https://example.com/video?id=value}}`
 
 - Search on Google Videos and download:
 
 `you-get {{keywords}}`
 
-- Set the path and name of downloaded file:
+- Download a media to a specific location:
 
-`you-get -o {{path}} -O {{filename}} {{https://example.com/watch?v=jNQXAC9IVRw}}`
+`you-get --output-dir {{path/to/directory}} --output-filename {{path/to/filename}} {{https://example.com/watch?v=value}}`
 
-- Set http proxy server:
+- Download a media using a proxy:
 
-`you-get -x {{proxy server}}   {{https://example.com/watch?v=jNQXAC9IVRw}}`
+`you-get --http-proxy {{proxy_server}}   {{https://example.com/watch?v=value}}`
