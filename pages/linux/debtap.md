@@ -12,7 +12,7 @@
 
 `debtap {{path/to/package.deb}}`
 
-- Convert the specified package (bypass all questions, not recommended):
+- Convert the specified package bypassing all questions, except for editing metadata files:
 
 `debtap --quiet {{path/to/package.deb}}`
 
