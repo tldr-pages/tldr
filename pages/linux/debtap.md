@@ -22,4 +22,4 @@
 
 - Generate PKGBUILD file:
 
-`debtap -P {{package.deb}}`
+`debtap --pkgbuild {{path/to/package.deb}}`
