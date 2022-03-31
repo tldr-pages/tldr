@@ -6,7 +6,7 @@
 
 - Update debtap database (before first run):
 
-`sudo debtap -u`
+`sudo debtap --update`
 
 - Convert a package:
 
