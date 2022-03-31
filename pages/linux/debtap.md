@@ -10,7 +10,7 @@
 
 - Convert the specified package:
 
-`debtap {{package.deb}}`
+`debtap {{path/to/package.deb}}`
 
 - Convert the specified package (bypass all questions, not recommended):
 
