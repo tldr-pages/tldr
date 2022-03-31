@@ -8,18 +8,14 @@
 
 `sudo debtap --update`
 
-- Convert a package:
+- Convert the specified package:
 
 `debtap {{package.deb}}`
 
-- Convert a package (bypass all questions, not recommended):
+- Convert the specified package (bypass all questions, not recommended):
 
 `debtap --quiet {{path/to/package.deb}}`
 
-- Then install with pacman:
-
-`sudo pacman -U {{package.pkg.tar.zst}}`
-
-- Generate PKGBUILD file:
+- Generate a PKGBUILD file:
 
 `debtap --pkgbuild {{path/to/package.deb}}`
