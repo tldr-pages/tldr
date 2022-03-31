@@ -14,7 +14,7 @@
 
 - Convert a package (bypass all questions, not recommended):
 
-`debtap -Q {{package.deb}}`
+`debtap --quiet {{path/to/package.deb}}`
 
 - Then install with pacman:
 
