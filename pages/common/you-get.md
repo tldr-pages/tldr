@@ -22,5 +22,3 @@
 - Set http proxy server:
 
 `you-get -x {{proxy server}}   {{https://example.com/watch?v=jNQXAC9IVRw}}`
-
-
