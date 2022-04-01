@@ -5,8 +5,8 @@
 
 - Execute a command without sharing access to connected networks:
 
-`unshare --net {{command}}`
+`unshare --net {{command}} {{command_arguments}}`
 
 - Execute a command as a child process without sharing mounts, processes, or networks:
 
-`unshare --mount --pid --net --fork {{command}}`
+`unshare --mount --pid --net --fork {{command}} {{command_arguments}}`
