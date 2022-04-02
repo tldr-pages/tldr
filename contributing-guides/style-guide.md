@@ -6,27 +6,27 @@ This page lists specific formatting instructions for `tldr` pages.
 
 The basic format of each page should match the following template:
 
-```
-# command-name
+```md
+# <command-name>
 
 > Short, snappy description.
 > Preferably one line; two are acceptable if necessary.
-> More information: <https://example.com>.
+> More information: <https://example.com/command-name/man/page>.
 
 - Example description:
 
-`command -opt1 -opt2 -arg1 {{arg_value}}`
+`<command-name> -opt1 -opt2 -arg1 {{arg1_value}}`
 
 - Example description:
 
-`command -opt1 -opt2`
+`<command-name> -opt1 -opt2`
 ```
 
 There actually is a linter/formatter that enforces the format above.
 It is run automatically on every pull request,
 but you may install it to test your contributions locally before submitting them:
 
-```
+```sh
 npm install --global tldr-lint
 tldr-lint {{page.md}}
 ```
@@ -36,7 +36,7 @@ For other ways to use `tldr-lint`, such as linting an entire directory, check ou
 
 Your client may be able to preview a page locally using the `--render` flag:
 
-```
+```sh
 tldr --render {{page.md}}
 ```
 
