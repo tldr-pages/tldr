@@ -7,7 +7,7 @@ This page lists specific formatting instructions for `tldr` pages.
 The basic format of each page should match the following template:
 
 ```md
-# <command-name>
+# command-name
 
 > Short, snappy description.
 > Preferably one line; two are acceptable if necessary.
@@ -15,11 +15,11 @@ The basic format of each page should match the following template:
 
 - Example description:
 
-`<command-name> -opt1 -opt2 -arg1 {{arg1_value}}`
+`command-name -opt1 -opt2 -arg1 {{arg1_value}}`
 
 - Example description:
 
-`<command-name> -opt1 -opt2`
+`command-name -opt1 -opt2`
 ```
 
 There actually is a linter/formatter that enforces the format above.
@@ -47,11 +47,12 @@ If some command is an alias for another then you can provide for it such Tl;Dr p
 ```md
 # command-name
 
-> This command is an alias of `<original-command-name>`.
+> This command is an alias of `original-command-name`.
 > More information: <original-command-help-page>.
+
 - View documentation for the original command:
 
-`tldr <original-command-name>`
+`tldr original-command-name`
 ```
 
 ## Token syntax
