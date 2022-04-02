@@ -3,25 +3,25 @@
 > Manage .NET tools and search published tools in NuGet.
 > More information: <https://docs.microsoft.com/dotnet/core/tools/global-tools>.
 
-- Install Entity Framework Core as a global tool:
+- Install a global tool (don't use `--global` for local tools):
 
-`dotnet tool install --global dotnet-ef`
+`dotnet tool install --global {{dotnetsay}}`
 
 - Install tools defined in the local tool manifest:
 
 `dotnet tool restore`
 
-- Update a specific global tool:
+- Update a specific global tool (don't use `--global` for local tools):
 
 `dotnet tool update --global {{tool_name}}`
 
-- Uninstall a local tool (use `--global` for global tools):
+- Uninstall a global tool (don't use `--global` for local tools):
 
-`dotnet tool uninstall {{tool_name}}`
+`dotnet tool uninstall --global {{tool_name}}`
 
-- List installed local tools (use `--global` for global tools):
+- List installed global tools (don't use `--global` for local tools):
 
-`dotnet tool list`
+`dotnet tool list --global`
 
 - Search tools in NuGet:
 
