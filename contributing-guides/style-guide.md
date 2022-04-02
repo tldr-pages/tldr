@@ -47,11 +47,11 @@ If some command is an alias for another then you can provide for it such Tl;Dr p
 ```md
 # command-name
 
-> This command is an alias of `<original-command>`.
+> This command is an alias of `<original-command-name>`.
 > More information: <original-command-help-page>.
 - View documentation for the original command:
 
-`tldr <original-command>`
+`tldr <original-command-name>`
 ```
 
 ## Token syntax
