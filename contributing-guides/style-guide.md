@@ -15,11 +15,11 @@ The basic format of each page should match the following template:
 
 - Example description:
 
-`command-name -opt1 -opt2 -arg1 {{arg1_value}}`
+`command_name -opt1 -opt2 -arg1 {{arg1_value}}`
 
 - Example description:
 
-`command-name -opt1 -opt2`
+`command_name -opt1 -opt2`
 ```
 
 There actually is a linter/formatter that enforces the format above.
