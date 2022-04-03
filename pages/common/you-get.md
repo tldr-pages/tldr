@@ -21,4 +21,4 @@
 
 - Download a media using a proxy:
 
-`you-get --http-proxy {{proxy_server}}   {{https://example.com/watch?v=value}}`
+`you-get --http-proxy {{proxy_server}} {{https://example.com/watch?v=value}}`
