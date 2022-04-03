@@ -4,7 +4,7 @@
 > See also: `pacman-upgrade`.
 > More information: <https://github.com/helixarch/debtap>.
 
-- Update debtap database (before first run):
+- Update debtap database (before the first run):
 
 `sudo debtap --update`
 
