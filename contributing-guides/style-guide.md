@@ -9,7 +9,7 @@ This page lists specific formatting instructions for `tldr` pages.
 The basic format of each page should match the following template and have at most 8 code examples:
 
 ```md
-# {{command-name}}
+# {{command_name}}
 
 > Short, snappy command description.
 > Preferably one line; two are acceptable if necessary.
@@ -17,11 +17,11 @@ The basic format of each page should match the following template and have at mo
 
 - {{Code description}}:
 
-`command_name {{-opt1 -opt2 -arg1 arg1_value}}`
+`{{command_name}} {{-opt1 -opt2 -arg1 arg1_value}}`
 
 - {{Code description}}:
 
-`command_name {{-opt1 -opt2}}`
+`{{command_name}} {{-opt1 -opt2}}`
 
 ...
 ```
@@ -52,14 +52,14 @@ tldr --render {{page.md}}
 If two or more commands are the same, alias pages can be created to provide the name of the correct page for the user.
 
 ```md
-# command-name
+# {{command_name}}
 
 > This command is an alias of `{{original-command-name}}`.
 > More information: <{{https://example.com/original/command/help/page}}>.
 
 - View documentation for the original command:
 
-`tldr {{original-command-name}}`
+`tldr {{original_command_name}}`
 ```
 
 ## Token syntax
