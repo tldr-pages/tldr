@@ -4,7 +4,7 @@ This page lists specific formatting instructions for `tldr` pages.
 
 ## Layout
 
-:bulb: Placeholder syntax used in this document: `{{tip}}`.
+> :bulb: Placeholder syntax used in this document: `{{tip}}`.
 
 The basic format of each page should match the following template and have at most 8 code examples:
 
