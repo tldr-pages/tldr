@@ -4,22 +4,26 @@ This page lists specific formatting instructions for `tldr` pages.
 
 ## Layout
 
-The basic format of each page should match the following template:
+:bulb: Placeholder syntax used in this document: `{{tip}}`.
+
+The basic format of each page should match the following template and have at most 8 code examples:
 
 ```md
-# command-name
+# {{command-name}}
 
-> Short, snappy description.
+> Short, snappy command description.
 > Preferably one line; two are acceptable if necessary.
-> More information: <https://example.com/command-name/man/page>.
+> More information: <{{https://example.com/command-name/man/page}}>.
 
-- Example description:
+- {{Code description}}:
 
-`command_name -opt1 -opt2 -arg1 {{arg1_value}}`
+`command_name {{-opt1 -opt2 -arg1 arg1_value}}`
 
-- Example description:
+- {{Code description}}:
 
-`command_name -opt1 -opt2`
+`command_name {{-opt1 -opt2}}`
+
+...
 ```
 
 There actually is a linter/formatter that enforces the format above.
@@ -47,12 +51,12 @@ If two or more commands are the same, alias pages can be created to provide the 
 ```md
 # command-name
 
-> This command is an alias of `original-command-name`.
-> More information: <original-command-help-page>.
+> This command is an alias of `{{original-command-name}}`.
+> More information: <{{https://example.com/original/command/help/page}}>.
 
 - View documentation for the original command:
 
-`tldr original-command-name`
+`tldr {{original-command-name}}`
 ```
 
 ## Token syntax
