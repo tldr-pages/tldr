@@ -42,7 +42,7 @@ tldr --render {{page.md}}
 
 ### Aliases
 
-If some command is an alias for another then you can provide for it such Tl;Dr page:
+If two or more commands are the same, alias pages can be created to provide the name of the correct page for the user.
 
 ```md
 # command-name
