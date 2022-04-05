@@ -64,7 +64,7 @@ Example:
 `krita --fullscreen`
 ```
 
-> :bulb: Help page is an any documentation/tutorial page here, not just man page.
+> :bulb: Help page is an any documentation/project/tutorial page here, not just man page.
 > Docs are preffered.
 
 There actually is a linter/formatter that enforces the format above.
