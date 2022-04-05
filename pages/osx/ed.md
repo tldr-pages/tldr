@@ -8,7 +8,7 @@
 
 `ed`
 
-- Start an interactive editor session with an empty document and the specified [p]rompt:
+- Start an interactive editor session with an empty document and a specific [p]rompt:
 
 `ed -p "> "`
 
@@ -16,10 +16,10 @@
 
 `ed -s`
 
-- Edit the specified file (this shows the byte count of the loaded file):
+- Edit a specific file (this shows the byte count of the loaded file):
 
 `ed {{path/to/file}}`
 
-- Replace the string with the specified replacement for all lines:
+- Replace a string with a specific replacement for all lines:
 
 `,s/{{regular_expression}}/{{replacement}}/g`
