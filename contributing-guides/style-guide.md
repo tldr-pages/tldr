@@ -34,6 +34,36 @@ The basic format of each page should match the following template and have at mo
 ...
 ```
 
+Example:
+
+```md
+# krita
+
+> Krita is a sketching and painting program designed for digital artists.
+> See also: `gimp`.
+> More information: <https://docs.krita.org/en/reference_manual/linux_command_line.html>.
+
+- Start krita:
+
+`krita`
+
+- Start without a splash screen:
+
+`krita --nosplash`
+
+- Open specific files:
+
+`krita {{path/to/image1 path/to/image2 ...}}`
+
+- Start with a specific workspace (`Animation`):
+
+`krita --workspace {{Animation}}`
+
+- Start in a fullscreen mode:
+
+`krita --fullscreen`
+```
+
 > :bulb: Help page is an any documentation/tutorial page here, not just man page.
 > Docs are preffered.
 
@@ -68,6 +98,18 @@ If two or more commands are the same, alias pages can be created to provide the 
 - View documentation for the original command:
 
 `tldr original_command_name`
+```
+
+Example:
+
+```md
+# vi
+
+> This command is an alias of `vim`.
+
+- View documentation for the original command:
+
+`tldr vim`
 ```
 
 ## Token syntax
