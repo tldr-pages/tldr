@@ -4,24 +4,32 @@ This page lists specific formatting instructions for `tldr` pages.
 
 ## Layout
 
-> :bulb: Placeholder syntax used in this document: `{{tip}}`.
+> :bulb: Placeholder syntax is not used in this chapter, but instead of:
+> - `command_name`
+> - `https://example.com/command-name/help/page`
+> - `Code description`
+> - `first_options`
+> - `second_options`
+> - `page_name`
+>
+> you can use any valid value as they are placeholders.
 
 The basic format of each page should match the following template and have at most 8 code examples:
 
 ```md
-# {{command_name}}
+# command_name
 
 > Short, snappy command description.
 > Preferably one line; two are acceptable if necessary.
-> More information: <{{https://example.com/command-name/help/page}}>.
+> More information: <https://example.com/command-name/help/page>.
 
-- {{Code description}}:
+- Code description:
 
-`{{command_name}} {{-opt1 -opt2 -arg1 arg1_value}}`
+`command_name first_options`
 
-- {{Code description}}:
+- Code description:
 
-`{{command_name}} {{-opt1 -opt2}}`
+`command_name second_options`
 
 ...
 ```
@@ -35,7 +43,7 @@ but you may install it to test your contributions locally before submitting them
 
 ```sh
 npm install --global tldr-lint
-tldr-lint {{page.md}}
+tldr-lint page_name.md
 ```
 
 For other ways to use `tldr-lint`, such as linting an entire directory, check out (what else!)
@@ -44,7 +52,7 @@ For other ways to use `tldr-lint`, such as linting an entire directory, check ou
 Your client may be able to preview a page locally using the `--render` flag:
 
 ```sh
-tldr --render {{page.md}}
+tldr --render page_name.md
 ```
 
 ### Aliases
@@ -52,14 +60,14 @@ tldr --render {{page.md}}
 If two or more commands are the same, alias pages can be created to provide the name of the correct page for the user.
 
 ```md
-# {{command_name}}
+# command_name
 
-> This command is an alias of `{{original-command-name}}`.
-> More information: <{{https://example.com/original/command/help/page}}>.
+> This command is an alias of `original-command-name`.
+> More information: <https://example.com/original/command/help/page>.
 
 - View documentation for the original command:
 
-`tldr {{original_command_name}}`
+`tldr original_command_name`
 ```
 
 ## Token syntax
