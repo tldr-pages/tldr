@@ -5,6 +5,7 @@ This page lists specific formatting instructions for `tldr` pages.
 ## Layout
 
 > :bulb: Placeholder syntax is not used in this chapter, but instead of:
+>
 > - `command_name`
 > - `https://example.com/command-name/help/page`
 > - `Code description`
