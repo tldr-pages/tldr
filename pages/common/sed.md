@@ -16,7 +16,7 @@
 
 `{{command}} | sed --regexp-extended '{{s/(apple)/\U\1/g}}'`
 
-- Execute the specified expression without automatic buffer printing:
+- Execute the specified expression without automatic buffer printing (print just the first line (`[p]rint` command)):
 
 `{{command}} | sed --quiet '{{1p}}'`
 
@@ -27,7 +27,3 @@
 - Replace the string with the specified replacement for all lines (`[s]ubstitute` command):
 
 `{{command}} | sed 's/{{regular_expression}}/{{replacement}}/g'`
-
-- Print just the first line (`[p]rint` command):
-
-`{{command}} | sed --quiet '{{1}}p'`
