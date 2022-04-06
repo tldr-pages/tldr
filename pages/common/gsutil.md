@@ -22,7 +22,7 @@
 
 - Rename or move objects in a bucket:
 
-`gsutil mv gs://{{BUCKET_NAME}}/{{OLD_OBJECT_NAME}} gs://{{BUCKET_NAME}}/{{NEW_OBJECT_NAME}}`
+`gsutil mv gs://{{bucket_name}}/{{old_object_name}} gs://{{bucket_name}}/{{new_object_name}}`
 
 - Create a new bucket in the project you are logged into:
 
