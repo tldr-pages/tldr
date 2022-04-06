@@ -1,0 +1,33 @@
+# gsutil
+
+> The gsutil CLI is a Python application that lets you access Cloud Storage from the command line.
+> You can use gsutil to do a wide range of bucket and object management tasks.
+> More information: <https://cloud.google.com/storage/docs/gsutil>.
+
+- List all buckets in a project you are logged into:
+
+`gsutil ls`
+
+- List the objects in a bucket:
+
+`gsutil ls -r gs://{{BUCKET_NAME}}/{{PREFIX}}**`
+
+- Download an object from a bucket:
+
+`gsutil cp gs://{{BUCKET_NAME}}/{{OBJECT_NAME}} {{SAVE_TO_LOCATION}}`
+
+- Upload an object to a bucket:
+
+`gsutil cp {{OBJECT_LOCATION}} gs://{{DESTINATION_BUCKET_NAME}}/`
+
+- Rename or move objects in a bucket:
+
+`gsutil mv gs://{{BUCKET_NAME}}/{{OLD_OBJECT_NAME}} gs://{{BUCKET_NAME}}/{{NEW_OBJECT_NAME}}`
+
+- Create a new bucket in the project you are logged into:
+
+`gsutil mb gs://{{BUCKET_NAME}}`
+
+- Delete a bucket and remove all the objects in it:
+
+`gsutil rm -r gs://{{BUCKET_NAME}}`
