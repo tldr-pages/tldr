@@ -17,7 +17,7 @@
 
 - List all datasets in a project:
 
-`bq ls --filter labels.{{KEY:VALUE}} --max_results {{INTEGER}} --format=prettyjson --project_id {{PROJECT_ID}}`
+`bq ls --filter labels.{{KEY}}:{{VALUE}} --max_results {{INTEGER}} --format=prettyjson --project_id {{PROJECT_ID}}`
 
 - Batch load data from a specific file in formats such as CSV, JSON, Parquet, and Avro to a table:
 
