@@ -21,4 +21,4 @@
 
 - Create multiple files:
 
-`touch {{path/to/file{1,2,3}.txt}}`
+`touch {{path/to/file1 path/to/file2 ...}}`
