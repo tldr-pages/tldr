@@ -30,4 +30,4 @@
 
 - Delete a bucket and remove all the objects in it:
 
-`gsutil rm -r gs://{{BUCKET_NAME}}`
+`gsutil rm -r gs://{{bucket_name}}`
