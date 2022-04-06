@@ -26,7 +26,7 @@
 
 - Create a new bucket in the project you are logged into:
 
-`gsutil mb gs://{{BUCKET_NAME}}`
+`gsutil mb gs://{{bucket_name}}`
 
 - Delete a bucket and remove all the objects in it:
 
