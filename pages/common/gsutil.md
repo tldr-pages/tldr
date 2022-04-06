@@ -14,7 +14,7 @@
 
 - Download an object from a bucket:
 
-`gsutil cp gs://{{BUCKET_NAME}}/{{OBJECT_NAME}} {{SAVE_TO_LOCATION}}`
+`gsutil cp gs://{{bucket_name}}/{{object_name}} {{path/to/save_location}}`
 
 - Upload an object to a bucket:
 
