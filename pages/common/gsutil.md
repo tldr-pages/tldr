@@ -18,7 +18,7 @@
 
 - Upload an object to a bucket:
 
-`gsutil cp {{OBJECT_LOCATION}} gs://{{DESTINATION_BUCKET_NAME}}/`
+`gsutil cp {{object_location}} gs://{{destination_bucket_name}}/`
 
 - Rename or move objects in a bucket:
 
