@@ -19,7 +19,7 @@
 
 `bq ls --filter labels.{{KEY:VALUE}} --max_results {{INTEGER}} --format=prettyjson --project_id {{PROJECT_ID}}`
 
-- Batch load data from a file in formats such as CSV, JSON, Parquet, and Avro to a table:
+- Batch load data from a specific file in formats such as CSV, JSON, Parquet, and Avro to a table:
 
 `bq load --location={{LOCATION}} --source_format={{FORMAT}} {{DATASET}}.{{TABLE}} {{PATH_TO_SOURCE}}`
 
