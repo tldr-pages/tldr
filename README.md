@@ -85,7 +85,7 @@ Some ways to contribute include:
 
 All `tldr` pages are written in markdown, so they can be edited fairly simply and changes can be submitted in
 pull requests here using Git on the command-line or
-using the GitHub web interface
+using the GitHub web interface.
 
 We strive to maintain a [welcoming and collaborative](GOVERNANCE.md) community.
 If it's your first time contributing, have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!
