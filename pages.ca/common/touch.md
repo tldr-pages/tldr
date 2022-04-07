@@ -21,4 +21,4 @@
 
 - Crea múltiples fitxers:
 
-`touch {{path/to/file{1,2,3}.txt}}`
+`touch {{camí/al/fitxer{1,2,3}.txt}}`
