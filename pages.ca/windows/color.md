@@ -13,4 +13,4 @@
 
 - Estableix els colors de lletra i del fons de la consola fent servir valors hexadecimals (`1-9,a-f`):
 
-`color {{foreground_code}}{{background_code}}`
+`color {{codi_de_primer_pla}}{{codi_fons}}`
