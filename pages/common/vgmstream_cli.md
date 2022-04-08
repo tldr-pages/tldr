@@ -6,7 +6,7 @@
 
 - Decode a adc file to wav. (Default output name is `input.wav`):
 
-`vgmstream_cli {{input.adc}} -o {{output.wav}}`
+`vgmstream_cli {{path/to/input.adc}} -o {{path/to/output.wav}}`
 
 - Print metadata without decoding the audio:
 
