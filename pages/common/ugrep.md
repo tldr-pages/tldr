@@ -1,37 +1,36 @@
 # ugrep
 
-> Ultra fast search tool with query UI, fuzzy search and more.
-> Try also `ugrep --help {{something}}`.
-> More information: <https://github.com/Genivia/ugrep>.
+> Ultra fast search tool with query TUI.
+> More information: <https://github.com/Genivia/ugrep> and `ugrep --help {{option_or_word}}`.
 
-- Start a [q]uery TUI to search files in the working directory recursively (CTRL-Z for help):
+- Start a query TUI to search files in the current directory recursively (press Control-Z for help):
 
-`ugrep -Q`
+`ugrep --query`
 
-- Search the working directory recursively for files containing a regex pattern:
+- Search the current directory recursively for files containing a regex search pattern:
 
-`ugrep "{{pattern}}"`
+`ugrep "{{search_pattern}}"`
 
-- Search for a case-[i]nsensitive regex pattern:
+- Search a specific file or search all files in the specified directory, showing line numbers of matches:
 
-`ugrep -i "{{pattern}}"`
+`ugrep --line-number "{{search_pattern}}" {{path/to/file_or_directory}}`
 
-- [L]ist the matching files:
+- List the matching files in the current directory recursively:
 
-`ugrep -l "{{pattern}}"`
+`ugrep --files-with-matches "{{search_pattern}}"`
 
-- Search compressed files, [z]ip and tar archives recursively:
+- Fuzzy search files with up to 3 extra, missing or mismatching characters in the pattern:
 
-`ugrep -z "{{pattern}}"`
+`ugrep --fuzzy=3 "{{search_pattern}}"`
 
-- Fu[z]zy search files with up to 3 extra, missing or mismatching characters in the pattern:
+- Search compressed files, zip and tar archives recursively:
 
-`ugrep -Z3 "{{pattern}}"`
+`ugrep --decompress "{{search_pattern}}"`
 
-- Search only files whose filenames match a [g]lob pattern:
+- Search only files whose filenames match the `foo*.???` glob pattern:
 
-`ugrep -g "{{glob}}" "{{pattern}}"`
+`ugrep --glob="foo*.???" "{{search_pattern}}"`
 
-- Search only files of a specific [t]ype or another type and not a type:
+- Search only C++ source files (use `--type=list` to list all file types):
 
-`ugrep -t {{type}},{{or_type}},^{{not_type}} "{{pattern}}"`
+`ugrep --type=cpp "{{search_pattern}}"`

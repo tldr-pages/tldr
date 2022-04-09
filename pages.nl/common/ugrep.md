@@ -1,36 +1,36 @@
 # ugrep
 
 > Ultrasnelle bestandszoeker met interactive UI.
-> Meer informatie: <https://github.com/Genivia/ugrep>.
+> Meer informatie: <https://github.com/Genivia/ugrep> en `ugrep --help {{optie_of_woord}}`.
 
-- Open een interactieve TUI om recursief bestanden te zoeken (CTRL-Z help):
+- Open een interactieve TUI om recursief bestanden te zoeken (druk Control-Z voor hulp):
 
-`ugrep -Q`
+`ugrep --query`
 
-- Zoek recursief naar bestanden met inhoud die past bij een reguliere expressie patroon:
+- Zoek recursief met een regex zoekpatroon in de huidige directory naar passende bestanden:
 
-`ugrep "{{patroon}}"`
+`ugrep "{{zoekpatroon}}"`
 
-- Zoek recursief naar passende bestanden zonder voorkeur voor kleine- of hoofdletters:
+- Zoek een gegeven bestand of bestanden in een gegeven directory en laat de passende regelnummers zien:
 
-`ugrep -i "{{patroon}}"`
+`ugrep --line-number "{{zoekpatroon}}" {{pad/naar/bestand_of_directory}}`
 
-- Geef een [l]ijst met passende bestanden:
+- Zoek recursief in de huidige directory en geef een lijst met passende bestanden:
 
-`ugrep -l "{{patroon}}"`
+`ugrep --files-with-matches "{{zoekpatroon}}"`
 
-- Zoek passende gecomprimeerde bestanden, [z]ip en tar archieven:
+- Zoek "fuzzy" met maximaal 3 extra, missende of verwisselende karakters in het patroon:
 
-`ugrep -z "{{patroon}}"`
+`ugrep --fuzzy=3 "{{zoekpatroon}}"`
 
-- Fu[z]zy zoeken met maximaal 3 extra, missende or verwisselende karakters in het patroon:
+- Zoek passende gecomprimeerde bestanden, zip en tar archieven recursief in de huidige directory:
 
-`ugrep -Z3 "{{patroon}}"`
+`ugrep --decompress "{{zoekpatroon}}"`
 
-- Zoek alleen bestanden met namen die overeenkomen met een passende [g]lob:
+- Zoek alleen naar bestanden met namen die overeenkomen met een passende `foo*.???` glob patroon:
 
-`ugrep -g "{{glob}}" "{{patroon}}"`
+`ugrep --glob="{{foo*.???}}" "{{zoekpatroon}}"`
 
-- Zoek alleen passende bestanden van een specifiek [t]ype of ander type en niet een derde type:
+- Zoek alleen passende bestanden van het type C++ (gebruik `--type=list` voor een lijst van typenamen):
 
-`ugrep -t {{type}},{{of_type}},^{{niet_type}} "{{patroon}}"`
+`ugrep --type=cpp "{{zoekpatroon}}"`

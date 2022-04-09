@@ -1,36 +1,36 @@
 # ugrep
 
-> Ultraschnelles Suchtool mit Abfrage-UI.
-> Weitere Informationen: <https://github.com/Genivia/ugrep>.
+> Ultraschnelles Suchtool mit Abfrage-TUI.
+> Weitere Informationen: <https://github.com/Genivia/ugrep> und `ugrep --help {{Option_oder_Wort}}`.
 
-- Ausführen das interaktives Suchtool TUI (CTRL-Z um Hilfe):
+- Ausführen das interaktives Suchtool TUI (presse Control-Z um Hilfe):
 
-`ugrep -Q`
+`ugrep --query`
 
 - Suche rekursiv alle Dateien die ein reguläres Ausdrucksmuster enthalten:
 
 `ugrep "{{SuchMuster}}"`
 
-- Fallunabhängige Suche:
+- Suche rekursiv alle Dateien die ein reguläres Ausdrucksmuster enthalten:
 
-`ugrep -i "{{SuchMuster}}"`
+`ugrep --line-number "{{SuchMuster}}" {{path/to/file_or_directory}}`
 
-- [L]iste der passenden Dateien:
+- Liste der passenden Dateien:
 
-`ugrep -l "{{SuchMuster}}"`
+`ugrep --files-with-matches "{{SuchMuster}}"`
 
-- Suche komprimierte Dateien, [z]ip- und tar-Archive:
+- Suche "fuzzy" reguläres Ausdrucksmuster mit maximal 3 zusätzliche, fehlende oder nicht übereinstimmende Zeichen:
 
-`ugrep -z "{{SuchMuster}}"`
+`ugrep --fuzzy=3 "{{SuchMuster}}"`
 
-- Suche fu[z]zy reguläres Ausdrucksmuster mit maximal 3 zusätzliche, fehlende oder nicht übereinstimmende Zeichen:
+- Suche rekursiv alle komprimierte Dateien, zip- und tar-Archive:
 
-`ugrep -Z3 "{{SuchMuster}}"`
+`ugrep --decompress "{{SuchMuster}}"`
 
-- Suche nur Dateien deren Dateinamen mit einem [g]lob-Muster übereinstimmen:
+- Suche nur Dateien deren Dateinamen mit einem `foo*.???` glob-Muster übereinstimmen:
 
-`ugrep -g "{{GlobMuster}}" "{{SuchMuster}}"`
+`ugrep --glob="foo*.???" "{{SuchMuster}}"`
 
-- Suche nur nach Dateien eines bestimmten [T]yps oder eines anderen Typs und nicht nach einem Typ
+- Suche nur C++-Quelldateien (verwenden `--type=list` um alle Dateitypen aufzulisten):
 
-`ugrep -t {{Typ}},{{oder_Typ}},^{{night_Typ}} "{{SuchMuster}}"`
+`ugrep --type=cpp "{{SuchMuster}}"`
