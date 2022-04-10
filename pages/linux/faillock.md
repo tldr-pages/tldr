@@ -1,16 +1,16 @@
 # faillock
 
 > Display and modify authentication failure record files.
-> More information: <https://github.com/linux-pam/linux-pam>.
+> More information: <https://manned.org/faillock>.
 
 - List login failures of all users:
 
 `sudo faillock`
 
-- List login failures of the specified user:
+- List login failures for the specified user:
 
 `sudo faillock --user {{user}}`
 
-- Reset specified user's failure records:
+- Reset the failure records of the specified user:
 
 `sudo faillock --user {{user}} --reset`
