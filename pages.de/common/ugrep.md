@@ -1,7 +1,7 @@
 # ugrep
 
 > Ultraschnelles Suchtool mit Abfrage-TUI.
-> Weitere Informationen: <https://github.com/Genivia/ugrep> und `ugrep --help {{Option_oder_Wort}}`.
+> Weitere Informationen: <https://github.com/Genivia/ugrep>.
 
 - Ausführen das interaktives Suchtool TUI (presse Control-Z um Hilfe):
 
@@ -29,7 +29,7 @@
 
 - Suche nur Dateien deren Dateinamen mit einem `foo*.???` glob-Muster übereinstimmen:
 
-`ugrep --glob="foo*.???" "{{SuchMuster}}"`
+`ugrep --glob="{{foo*.???}}" "{{SuchMuster}}"`
 
 - Suche nur C++-Quelldateien (verwenden `--type=list` um alle Dateitypen aufzulisten):
 

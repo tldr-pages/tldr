@@ -1,7 +1,7 @@
 # ugrep
 
 > Ultra fast search tool with query TUI.
-> More information: <https://github.com/Genivia/ugrep> and `ugrep --help {{option_or_word}}`.
+> More information: <https://github.com/Genivia/ugrep>.
 
 - Start a query TUI to search files in the current directory recursively (press Control-Z for help):
 
@@ -29,7 +29,7 @@
 
 - Search only files whose filenames match the `foo*.???` glob pattern:
 
-`ugrep --glob="foo*.???" "{{search_pattern}}"`
+`ugrep --glob="{{foo*.???}}" "{{search_pattern}}"`
 
 - Search only C++ source files (use `--type=list` to list all file types):
 
