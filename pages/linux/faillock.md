@@ -7,7 +7,7 @@
 
 `sudo faillock`
 
-- List login failures for the specified user:
+- List login failures of the specified user:
 
 `sudo faillock --user {{user}}`
 
