@@ -11,18 +11,18 @@
 
 `duc ls --classify --graph {{/usr/local}}`
 
-List all files and directories under /usr/local using treeview recursively:
+- List all files and directories under /usr/local using treeview recursively:
 
 `duc ls --classify --graph --recursive {{/usr/local}}`
 
-Start the graphical interface to explore the file system using sunburst graphs:
+- Start the graphical interface to explore the file system using sunburst graphs:
 
 `duc gui {{/usr}}`
 
-Run the ncurses console interface to explore the file system:
+- Run the ncurses console interface to explore the file system:
 
 `duc ui {{/usr}}`
 
-Dump database info:
+- Dump database info:
 
 `duc info`
