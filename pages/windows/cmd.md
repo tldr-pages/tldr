@@ -7,17 +7,17 @@
 
 `cmd`
 
-- Execute a [c]ommand:
+- Execute specific [c]ommands:
 
-`cmd /c "{{command}}"`
+`cmd /c "{{echo cmd is executed}}"`
 
-- Execute a script:
+- Execute a specific script:
 
-`cmd {{path/to/file.bat}}`
+`cmd {{path/to/script.bat}}`
 
-- Execute a command and then enter an interactive shell:
+- Execute specific commands and then enter an interactive shell:
 
-`cmd /k "{{command}}"`
+`cmd /k "{{echo cmd is executed}}"`
 
 - Start an interactive shell session where `echo` is disabled in command output:
 
