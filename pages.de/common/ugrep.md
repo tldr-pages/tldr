@@ -3,7 +3,7 @@
 > Ultraschnelles Suchtool mit Abfrage-TUI.
 > Weitere Informationen: <https://github.com/Genivia/ugrep>.
 
-- Ausführen das interaktives Suchtool TUI (presse Control-Z um Hilfe):
+- Ausführen das interaktives Suchtool TUI (CTRL-Z um Hilfe):
 
 `ugrep --query`
 
