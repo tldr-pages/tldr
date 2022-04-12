@@ -30,4 +30,4 @@
 
 - Execute specific commands from [s]tdin:
 
-`{{echo "'bash is executed'"}} | bash -s`
+`{{echo "echo 'bash is executed'"}} | bash -s`
