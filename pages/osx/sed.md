@@ -20,10 +20,10 @@
 
 `{{command}} | sed -n '{{1p}}'`
 
-- Execute a specific expression and replace the file with it's output:
+- Execute a specific expression and replace a file with it's output:
 
 `sed -i '{{s/apple/mango/g}}' {{path/to/file}}`
 
-- Replace the string with a specific replacement for all lines (`[s]ubstitute` command):
+- Replace a string with a specific replacement for all lines (`[s]ubstitute` command):
 
 `{{command}} | sed 's/{{regular_expression}}/{{replacement}}/g'`
