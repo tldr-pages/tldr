@@ -4,11 +4,10 @@ Please fill in the following checklist, removing items that do not apply.
 See also https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md
 -->
 
-> :bulb: Command info:
->
-> **Version of the command being documented:** `latest`
->
-> **Brief description of the command being documented:** unspecified
+# Command info
+
+- **Version of the command being documented:** `latest`
+- **Brief description of the command being documented:** unspecified
 <!-- Replace `latest` with a concreete version when you know it exactly. -->
 
 - [x] New command pages or translations are added. <!-- Uncheck if you modify Tl;Dr tooling such as CI. -->
