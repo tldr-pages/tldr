@@ -1,6 +1,6 @@
 # rm
 
-> Remove files or directories.
+> Removes files or directories.
 > More information: <https://www.gnu.org/software/coreutils/rm>.
 
 - Remove files from arbitrary locations:
