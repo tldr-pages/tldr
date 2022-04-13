@@ -4,26 +4,26 @@
 > See also: `awk`, `ed`.
 > More information: <https://www.gnu.org/software/sed/manual/sed.html>.
 
-- Execute the specified expression:
+- Execute a specific expression:
 
 `{{command}} | sed '{{s/apple/mango/g}}'`
 
-- Execute the specified script:
+- Execute a specific script:
 
 `{{command}} | sed --file={{path/to/script.sed}}`
 
-- Execute the specified expression with enabled extended regular expressions:
+- Execute a specific expression with enabled extended regular expressions:
 
 `{{command}} | sed --regexp-extended '{{s/(apple)/\U\1/g}}'`
 
-- Execute the specified expression without automatic buffer printing (print just the first line (`[p]rint` command)):
+- Execute a specific expression without automatic buffer printing (print just the first line (`[p]rint` command)):
 
 `{{command}} | sed --quiet '{{1p}}'`
 
-- Execute the specified expression and replace the file with it's output:
+- Execute a specific expression and replace the file with it's output:
 
 `sed --in-place '{{s/apple/mango/g}}' {{path/to/file}}`
 
-- Replace the string with the specified replacement for all lines (`[s]ubstitute` command):
+- Replace the string with a specific replacement for all lines (`[s]ubstitute` command):
 
 `{{command}} | sed 's/{{regular_expression}}/{{replacement}}/g'`
