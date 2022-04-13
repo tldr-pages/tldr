@@ -1,36 +1,40 @@
 # zip
 
-> Package and compress (archive) files into zip file.
+> Packages and compresses (archives) files into zip file.
 > More information: <https://manned.org/zip>.
 
-- Package and compress files and directories [r]ecursively:
+- Archive specific files:
 
-`zip -r {{compressed.zip}} {{path/to/file}} {{path/to/directory1}} {{path/to/directory2}}`
+`zip {{path/to/compressed.zip}} {{path/to/file{1,2,...}}}`
 
-- E[x]clude unwanted files from being added to the compressed archive:
+- Archive specific files/directories [r]ecursively:
 
-`zip -r {{compressed.zip}} {{path/to/directory}} -x {{path/to/exclude}}`
+`zip -r {{path/to/compressed.zip}} {{path/to/file_or_directory{1,2,...}}}`
 
-- Archive a directory and its contents with the highest level [9] of compression:
+- Add files/directories to a specific archive:
 
-`zip -r -{{9}} {{compressed.zip}} {{path/to/directory}}`
+`zip -r {{path/to/compressed.zip}} {{path/to/file_or_directory{1,2,...}}}`
 
-- Create an encrypted archive (user will be prompted for a password):
+- Remove files/directories from a specific archive:
 
-`zip -e -r {{compressed.zip}} {{path/to/directory}}`
+`zip -d {{path/to/compressed.zip}} {{path/to/file_or_directory{1,2,...}}}`
 
-- Add files to an existing zip file:
+- Archive files/directories e[x]cluding specified ones:
 
-`zip {{compressed.zip}} {{path/to/file}}`
+`zip {{path/to/compressed.zip}} {{path/to/file_or_directory{1,2,...}}} -x {{path/to/excluded_files_or_directories}}`
 
-- Delete files from an existing zip file:
+- Archive files/directories with a specific compression level (`0` - the lowest, `9` - the highest):
 
-`zip -d {{compressed.zip}} "{{foo/*.tmp}}"`
+`zip -r -{{0-9}} {{path/to/compressed.zip}} {{path/to/file_or_directory{1,2,...}}}`
 
-- Archive a directory and its contents to a multi-part [s]plit zip file (e.g. 3 GB parts):
+- Create an [e]ncrypted archive with a specific password:
 
-`zip -r -s {{3g}} {{compressed.zip}} {{path/to/directory}}`
+`zip -r -e {{path/to/compressed.zip}} {{path/to/file_or_directory{1,2,...}}}`
 
-- List files within a specified archive (without extracting them):
+- Archive files/directories to a multi-part [s]plit zip file (e.g. 3 GB parts):
 
-`zip -sf {{compressed.zip}}`
+`zip -r -s {{3g}} {{path/to/compressed.zip}} {{path/to/file_or_directory{1,2,...}}}`
+
+- Print a specific archive contents:
+
+`zip -sf {{path/to/compressed.zip}}`
