@@ -11,4 +11,4 @@ See also https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md
 - [ ] The PR title conforms to the recommended [templates](/tldr-pages/tldr/blob/main/CONTRIBUTING.md#commit-message).
 - [ ] The page follows the [content guidelines](/tldr-pages/tldr/blob/main/CONTRIBUTING.md#guidelines).
 
-**Version of the command being documented (if known):**
+**Version of the command being documented (if known):** latest
