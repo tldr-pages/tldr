@@ -11,7 +11,7 @@
 
 `tldr --platform {{android|linux|osx|sunos|windows}} {{cd}}`
 
-- Print a tldr page for a command in a specific language:
+- Print a tldr page for a command in a specific language (client may not support this option):
 
 `tldr --language {{ru}} {{cd}}`
 
@@ -19,6 +19,6 @@
 
 `tldr {{git}}-{{checkout}}`
 
-- Update local pages if a client supports caching:
+- Update local pages (client may not support caching with this option):
 
 `tldr --update`
