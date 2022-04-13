@@ -11,15 +11,15 @@
 
 `{{cat path/to/file.json}} | jq --from-file {{path/to/script.jq}}'`
 
-- Pass a specific arguments:
+- Pass specific arguments:
 
 `{{cat path/to/file.json}} | jq {{--arg "name1" "value1" --arg "name2" "value2" ...}} '{{. + $ARGS.named}}'`
 
-- Print a specific keys:
+- Print specific keys:
 
 `{{cat path/to/file.json}} | jq '{{.key1, .key2, ...}}'`
 
-- Print a specific array items:
+- Print specific array items:
 
 `{{cat path/to/file.json}} | jq '{{.[index1], .[index2], ...}}'`
 
@@ -27,6 +27,6 @@
 
 `{{cat path/to/file.json}} | jq '.[]'`
 
-- Add/remove a specific keys:
+- Add/remove specific keys:
 
 `{{cat path/to/file.json}} | jq '{{.}} {{+|-}} {{{"key1": "value1", "key2": "value2", ...}}}'`
