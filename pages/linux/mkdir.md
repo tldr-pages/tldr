@@ -1,6 +1,6 @@
 # mkdir
 
-> Creates directories and sets their permissions.
+> Create directories and set their permissions.
 > More information: <https://www.gnu.org/software/coreutils/mkdir>.
 
 - Create specific directories:
