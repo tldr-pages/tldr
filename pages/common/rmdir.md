@@ -1,6 +1,6 @@
 # rmdir
 
-> Removes directories without files.
+> Remove directories without files.
 > See also: `rm`.
 > More information: <https://www.gnu.org/software/coreutils/rmdir>.
 
