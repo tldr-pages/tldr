@@ -27,6 +27,6 @@
 
 `expr {{expression1}} \| {{expression2}}`
 
-- Get the second expression if it's value non-zero and not null otherwise get the first one:
+- Get the first expression if both expressions are non-zero and not null otherwise get zero:
 
 `expr {{expression1}} \& {{expression2}}`
