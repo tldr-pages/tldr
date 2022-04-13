@@ -3,10 +3,6 @@
 > Packages and compresses (archives) files into zip file.
 > More information: <https://manned.org/zip>.
 
-- Archive specific files:
-
-`zip {{path/to/compressed.zip}} {{path/to/file{1,2,...}}}`
-
 - Archive specific files/directories [r]ecursively:
 
 `zip -r {{path/to/compressed.zip}} {{path/to/file_or_directory{1,2,...}}}`
