@@ -23,7 +23,7 @@
 
 `bower help {{명령}}`
 
-- 패키지에 대한 bower.json 파일 생성 :
+- 패키지에 대한 bower.json 파일 생성:
 
 `bower init`
 

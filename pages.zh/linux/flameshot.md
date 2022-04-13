@@ -3,7 +3,7 @@
 > 带有 gui 界面的 Screenshot 工具，支持基本的图像编辑，例如文本，形状，颜色和 imgur.
 > 更多信息：<https://flameshot.org>.
 
-- 在 GUI 模式下启动 Flameshot:
+- 在 GUI 模式下启动 Flameshot：
 
 `flameshot launcher`
 
