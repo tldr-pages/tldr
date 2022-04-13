@@ -1,24 +1,25 @@
 # rm
 
 > Removes files or directories.
+> See also: `rmdir`.
 > More information: <https://www.gnu.org/software/coreutils/rm>.
 
-- Remove files from arbitrary locations:
+- Remove specific files:
 
-`rm {{path/to/file}} {{path/to/another/file}}`
+`rm {{path/to/file{1,2,...} }}`
 
-- Recursively remove a directory and all its subdirectories:
+- Remove specific files ignoring nonexistent ones:
 
-`rm -r {{path/to/directory}}`
+`rm -f {{path/to/file{1,2,...} }}`
 
-- Forcibly remove a directory, without prompting for confirmation or showing error messages:
+- Remove specific files interactively prompting before each removal:
 
-`rm -rf {{path/to/directory}}`
+`rm -i {{path/to/file{1,2,...} }}`
 
-- Interactively remove multiple files, with a prompt before every removal:
+- Remove specific files printing info about each removal:
 
-`rm -i {{file(s)}}`
+`rm -v {{path/to/file{1,2,...} }}`
 
-- Remove files in verbose mode, printing a message for each removed file:
+- Remove specific files/directories [r]ecursively:
 
-`rm -v {{path/to/directory/*}}`
+`rm -r {{path/to/file_or_directory{1,2,...} }}`
