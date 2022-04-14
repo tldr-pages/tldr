@@ -23,6 +23,10 @@
 
 `tcsh -n {{path/to/script.tcsh}}`
 
+- Execute specific commands from stdin:
+
+`{{echo "echo 'ksh is executed'"}} | ksh`
+
 - Print the version:
 
 `tcsh --version`
