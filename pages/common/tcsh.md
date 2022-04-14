@@ -23,3 +23,7 @@
 - Check a specific script for syntax errors:
 
 `tcsh -n {{path/to/script.tcsh}}`
+
+- Execute specific commands from stdin:
+
+`{{echo "echo 'tcsh is executed'"}} | tcsh`
