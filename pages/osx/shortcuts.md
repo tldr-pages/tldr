@@ -1,6 +1,6 @@
 # shortcuts
 
-> Use the Terminal app to run shortcuts from command-line instead from the `Shortcuts` app.
+> Manage shortcuts from the command-line instead of the `Shortcuts` app.
 > More information: <https://support.apple.com/guide/shortcuts-mac/run-shortcuts-from-the-command-line-apd455c82f02/mac>.
 
 - Run the specified shortcut (`Count holidays`):
