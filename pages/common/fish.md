@@ -23,6 +23,10 @@
 
 `fish --no-execute {{path/to/script.fish}}`
 
+- Execute specific commands from stdin:
+
+`{{echo "echo 'fish is executed'"}} | fish`
+
 - Start an interactive shell session in private mode, where the shell does not access old history or save new history:
 
 `fish --private`
