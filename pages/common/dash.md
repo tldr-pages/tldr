@@ -27,6 +27,6 @@
 
 `dash -e {{path/to/script.dash}}`
 
-- Execute specific commands from [s]tdin:
+- Execute specific commands from stdin:
 
-`{{echo "echo 'dash is executed'"}} | dash -s`
+`{{echo "echo 'dash is executed'"}} | dash`
