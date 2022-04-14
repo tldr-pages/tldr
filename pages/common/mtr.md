@@ -22,3 +22,7 @@
 - Wait for a given time (in seconds) before sending another packet to the same hop:
 
 `mtr -i {{seconds}} {{host}}`
+
+- Show the Autonomous System Number (ASN) for each hop:
+
+`mtr -z {{host}}`
