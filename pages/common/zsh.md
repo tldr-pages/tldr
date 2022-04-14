@@ -20,6 +20,10 @@
 
 `zsh --no-exec {{path/to/script.zsh}}`
 
+- Execute specific commands from stdin:
+
+`{{echo "echo 'zsh is executed'"}} | zsh`
+
 - Execute a specific script while printing each command before executing it:
 
 `zsh --xtrace {{path/to/script.zsh}}`
