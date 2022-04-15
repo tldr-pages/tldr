@@ -9,11 +9,11 @@
 
 - Open specific directories in separate windows:
 
-`caja {{path/to/directory{1,2,...}}}`
+`caja {{path/to/directory1 path/to/directory2 ...}}`
 
 - Open specific directories in tabs:
 
-`caja --tabs {{path/to/directory{1,2,...}}}`
+`caja --tabs {{path/to/directory1 path/to/directory2 ...}}`
 
 - Open a directory with a specific window size:
 
