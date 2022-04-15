@@ -1,6 +1,6 @@
 # chmod
 
-> Change the access permissions of a file or directory.
+> Change file/directory access permissions.
 > More information: <https://www.gnu.org/software/coreutils/chmod>.
 
 - Give the [u]ser who owns a file the right to e[x]ecute it:
