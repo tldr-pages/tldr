@@ -15,6 +15,10 @@
 
 `chmod {{users}}{{+|-|=}}{{permissions}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
+- Add/remove/replace all permissions:
+
+`chmod {{users}}= {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
+
 - Change permissions recursively:
 
 `chmod --recursive {{users}}{{+|-|=}}{{permissions}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
