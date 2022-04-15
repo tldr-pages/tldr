@@ -9,11 +9,11 @@
 
 - Open specific directories in separate windows:
 
-`nemo {{path/to/directory{1,2,...}}}`
+`nemo {{path/to/directory1 path/to/directory2 ...}}`
 
 - Open specific directories in tabs:
 
-`nemo --tabs {{path/to/directory{1,2,...}}}`
+`nemo --tabs {{path/to/directory1 path/to/directory2 ...}}`
 
 - Open a directory with a specific window size:
 
