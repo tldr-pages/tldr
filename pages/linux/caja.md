@@ -3,7 +3,7 @@
 > Manages files and directories in MATE desktop environment.
 > More information: <https://manned.org/caja>.
 
-- Open a current user home directory:
+- Open the current user home directory:
 
 `caja`
 
