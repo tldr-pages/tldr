@@ -9,8 +9,8 @@
 
 - Print a range of each line with a specific delimiter:
 
-`{{command}} | cut --delimiter="{{,}}" --{{characters|fields}}={{1|1,10|1-10|1-|-10}}`
+`{{command}} | cut --delimiter="{{,}}" --{{characters}}={{1}}`
 
 - Print a range of each line of the specific file:
 
-`cut --{{characters|fields}}={{1|1,10|1-10|1-|-10}} {{path/to/file}}`
+`cut --{{characters}}={{1}} {{path/to/file}}`
