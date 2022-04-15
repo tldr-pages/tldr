@@ -6,20 +6,20 @@
 
 - Remove specific files:
 
-`rm {{path/to/file{1,2,...} }}`
+`rm {{path/to/file1 path/to/file2 ...}}`
 
 - Remove specific files ignoring nonexistent ones:
 
-`rm --force {{path/to/file{1,2,...} }}`
+`rm --force {{path/to/file1 path/to/file2 ...}}`
 
 - Remove specific files interactively prompting before each removal:
 
-`rm --interactive {{path/to/file{1,2,...} }}`
+`rm --interactive {{path/to/file1 path/to/file2 ...}}`
 
 - Remove specific files printing info about each removal:
 
-`rm --verbose {{path/to/file{1,2,...} }}`
+`rm --verbose {{path/to/file1 path/to/file2 ...}}`
 
 - Remove specific files/directories [r]ecursively:
 
-`rm --recursive {{path/to/file_or_directory{1,2,...} }}`
+`rm --recursive {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
