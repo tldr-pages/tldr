@@ -5,12 +5,12 @@
 
 - Create specific directories:
 
-`mkdir {{path/to/directory{1,2,...}}}`
+`mkdir {{path/to/directory1 path/to/directory2 ...}}`
 
 - Create specific nested directories recursively:
 
-`mkdir --parents {{path/to/directory{1,2,...}}}`
+`mkdir --parents {{path/to/directory1 path/to/directory2 ...}}`
 
 - Create directories with specific permissions:
 
-`mkdir --mode={{rwxrw-r--}} {{path/to/directory{1,2,...}}}`
+`mkdir --mode={{rwxrw-r--}} {{path/to/directory1 path/to/directory2 ...}}`
