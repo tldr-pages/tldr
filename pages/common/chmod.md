@@ -15,7 +15,7 @@
 
 `chmod {{users}}{{+|-|=}}{{permissions}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
-- Add/remove/replace all permissions:
+- Remove all permissions:
 
 `chmod {{users}}= {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
