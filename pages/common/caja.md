@@ -3,7 +3,11 @@
 > Manages files and directories in MATE desktop environment.
 > More information: <https://manned.org/caja.1>.
 
-- Open specific directories:
+- Open a current user home directory:
+
+`caja`
+
+- Open specific directories in separate windows:
 
 `caja {{path/to/directory{1,2,...}}}`
 
