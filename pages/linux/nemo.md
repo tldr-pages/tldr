@@ -3,7 +3,7 @@
 > Manages files and directories in Cinnamon desktop environment.
 > More information: <https://manned.org/nemo.1>.
 
-- Open a current user home directory:
+- Open the current user home directory:
 
 `nemo`
 
