@@ -10,7 +10,7 @@ See also https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md
 - **Brief description of the command being documented:** unspecified
 <!-- Replace `latest` with a concreete version when you know it exactly. -->
 
-- [x] New command pages or translations are added. <!-- Uncheck if you modify Tl;Dr tooling such as CI. -->
+- [ ] New command pages or translations are added. <!-- Check if you create a documentation page to tldr-pages. -->
 - [ ] All command pages are in correct platform directories: `common`, `linux`, `osx`, `windows`, `sunos`, `android`. <!-- Check when you are sure in it. -->
 - [ ] All command pages have 8 or fewer examples.
 - [ ] All command page descriptions have links to documentation or a homepage.
