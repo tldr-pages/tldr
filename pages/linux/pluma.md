@@ -9,11 +9,11 @@
 
 - Open specific documents:
 
-`pluma {{path/to/document{1,2,...}}}`
+`pluma {{path/to/document1 path/to/document2 ...}}`
 
 - Open documents in a specific encoding:
 
-`pluma --encoding {{WINDOWS-1252}} {{path/to/document{1,2,...}}}`
+`pluma --encoding {{WINDOWS-1252}} {{path/to/document1 path/to/document2 ...}}`
 
 - Print all supported encodings:
 
