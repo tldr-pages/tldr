@@ -1,6 +1,6 @@
 # xed
 
-> Edits files in Cinnamon desktop environment.
+> Edit files in Cinnamon desktop environment.
 > More information: <https://github.com/linuxmint/xed>.
 
 - Start xed:
