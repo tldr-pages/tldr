@@ -1,6 +1,6 @@
 # mate-calc-cmd
 
-> Calculates mathematic expressions in MATE desktop environment in terminal.
+> Calculate mathematic expressions in MATE desktop environment in terminal.
 > More information: <https://manned.org/mate-calc-cmd>.
 
 - Start an interactive calculator session:
