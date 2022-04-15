@@ -6,8 +6,8 @@
 
 - Remove specific directories:
 
-`rmdir {{path/to/directory{1,2,...}}}`
+`rmdir {{path/to/directory1 path/to/directory2 ...}}`
 
 - Remove specific nested directories recursively:
 
-`rmdir --parents {{path/to/directory{1,2,...}}}`
+`rmdir --parents {{path/to/directory1 path/to/directory2 ...}}`
