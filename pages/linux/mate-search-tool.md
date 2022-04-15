@@ -7,7 +7,7 @@
 
 `mate-search-tool --named={{string}} --path={{path/to/directory}}`
 
-- Search files without waiting a user:
+- Search files without waiting a user confirmation:
 
 `mate-search-tool --start --named={{string}} --path={{path/to/directory}}`
 
