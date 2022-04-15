@@ -4,7 +4,7 @@
 > See also: `krita`.
 > More information: <https://docs.gimp.org/en/gimp-fire-up.html#gimp-concepts-running-command-line>.
 
-- Start GIMP:
+- Start the editor:
 
 `gimp`
 
@@ -12,15 +12,15 @@
 
 `gimp --no-splash`
 
-- Open the specified files:
+- Open specific files:
 
 `gimp {{path/to/image1 path/to/image2 ...}}`
 
-- Start the new instance, even if there is already a running one:
+- Start a new instance, even if there is already a running one:
 
 `gimp --new-instance`
 
-- Print errors and warnings to the console instead of showing them in a dialog box:
+- Print errors and warnings to a console instead of showing them in a dialog box:
 
 `gimp --console-messages`
 

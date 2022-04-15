@@ -4,7 +4,7 @@
 > See also: `gimp`.
 > More information: <https://docs.krita.org/en/reference_manual/linux_command_line.html>.
 
-- Start krita:
+- Start the editor:
 
 `krita`
 
@@ -12,7 +12,7 @@
 
 `krita --nosplash`
 
-- Open the specified files:
+- Open specific files:
 
 `krita {{path/to/image1 path/to/image2 ...}}`
 
@@ -20,6 +20,6 @@
 
 `krita --workspace {{Animation}}`
 
-- Start in the fullscreen mode:
+- Start in a fullscreen mode:
 
 `krita --fullscreen`
