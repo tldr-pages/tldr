@@ -9,11 +9,11 @@
 
 - Open specific documents:
 
-`xed {{path/to/document{1,2,...}}}`
+`xed {{path/to/document1 path/to/document2 ...}}`
 
 - Open documents in a specific encoding:
 
-`xed --encoding {{WINDOWS-1252}} {{path/to/document{1,2,...}}}`
+`xed --encoding {{WINDOWS-1252}} {{ppath/to/document1 path/to/document2 ...}}`
 
 - Print all supported encodings:
 
