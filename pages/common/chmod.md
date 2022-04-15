@@ -13,7 +13,7 @@
 
 - Add/remove/replace specific permissions:
 
-`chmod {{u|g|o|a}}{{+|-|=}}{{r|w|x}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
+`chmod {{users}}{{+|-|=}}{{permissions}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
 - Remove all permissions:
 
