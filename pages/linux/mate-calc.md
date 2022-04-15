@@ -1,6 +1,6 @@
 # mate-calc
 
-> Calculates mathematic expressions in MATE desktop environment.
+> Calculate mathematic expressions in MATE desktop environment.
 > More information: <https://manned.org/mate-calc>.
 
 - Start the calculator:
