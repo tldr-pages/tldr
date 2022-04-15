@@ -3,34 +3,18 @@
 > Change file/directory access permissions.
 > More information: <https://www.gnu.org/software/coreutils/chmod>.
 
-- Give the [u]ser who owns a file the right to e[x]ecute it:
+- Add [r]ead/[w]rite/e[x]ecute permissions (`{{r|w|x}}` is referred later as `{{permissions}}`) for a file/directory owner:
 
-`chmod u+x {{file}}`
+`chmod +{{r|w|x}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
-- Give the [u]ser rights to [r]ead and [w]rite to a file/directory:
+- Add specific permissions for an owner/users in [g]roup/[o]ther users/[a]ll at once (`{{u|g|o|a}}` is referred later as `{{users}}`):
 
-`chmod u+rw {{file_or_directory}}`
+`chmod {{u|g|o|a}}+{{permissions}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
-- Remove e[x]ecutable rights from the [g]roup:
+- Add/remove/replace specific permissions:
 
-`chmod g-x {{file}}`
+`chmod {{users}}{{+|-|=}}{{permissions}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
-- Give [a]ll users rights to [r]ead and e[x]ecute:
+- Change permissions recursively:
 
-`chmod a+rx {{file}}`
-
-- Give [o]thers (not in the file owner's group) the same rights as the [g]roup:
-
-`chmod o=g {{file}}`
-
-- Remove all rights from [o]thers:
-
-`chmod o= {{file}}`
-
-- Change permissions recursively giving [g]roup and [o]thers the ability to [w]rite:
-
-`chmod -R g+w,o+w {{directory}}`
-
-- Recursively give [a]ll users [r]ead permissions to files and e[X]ecute permissions to sub-directories within a directory:
-
-`chmod -R a+rX {{directory}}`
+`chmod --recursive {{users}}{{+|-|=}}{{permissions}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
