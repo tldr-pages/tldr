@@ -18,3 +18,7 @@
 - Open a directory with a specific window size:
 
 `caja --geometry={{600}}x{{400}} {{path/to/directory}}`
+
+- Close all windows:
+
+`caja --quit`
