@@ -7,11 +7,11 @@
 
 `mate-screenshot`
 
-- Create an active window screenshot with borders:
+- Create an active window screenshot:
 
 `mate-screenshot --window`
 
-- Create an active window screenshot without borders:
+- Create a screenshot without borders:
 
 `mate-screenshot --window --remove-border`
 
