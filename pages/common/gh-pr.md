@@ -11,7 +11,7 @@
 
 `gh pr checkout {{pr_number}}`
 
-- View the changes made in the pull request:
+- View the changes made in the pull request for the current branch:
 
 `gh pr diff`
 

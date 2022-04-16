@@ -16,7 +16,7 @@
 
 `gh issue list`
 
-- View an issue in the default browser:
+- View an issue in the default web browser:
 
 `gh issue view --web {{issue_number}}`
 
