@@ -3,34 +3,30 @@
 > Find files or directories under the given directory tree, recursively.
 > More information: <https://manned.org/find>.
 
-- Find files by extension:
+- Search files by a specific case sensitive glob pattern/case insensitive glob pattern/case sensitive regular expression/case insensitive regular expression:
 
-`find {{root_path}} -name '{{*.ext}}'`
+`find {{path/to/search_root_directory}} -type {{f}} -{{name|iname|regex|iregex}} '{{*.sh}}'`
 
-- Find files matching multiple path/name patterns:
+- Set a specific regular expression flavour:
 
-`find {{root_path}} -path '{{**/path/**/*.ext}}' -or -name '{{*pattern*}}'`
+`find {{path/to/search_root_directory}} -type {{f}} -regextype {{emacs|posix-awk|posix-basic|posix-egrep|posix-extended}} -{{regex}} '{{\..*\.sh}}'`
 
-- Find directories matching a given name, in case-insensitive mode:
+- Search files with a specific size in 512-byte blocks/bytes/2-byte words/kibibytes/mebibytes/gibibytes:
 
-`find {{root_path}} -type d -iname '{{*lib*}}'`
+`find {{path/to/search_root_directory}} -type {{f}} -size {{5}}{{b|c|w|k|M|G}}'`
 
-- Find files matching a given pattern, excluding specific paths:
+- Search specific blocks/characters/directories/named pipes/regular files/symbolic links:
 
-`find {{root_path}} -name '{{*.py}}' -not -path '{{*/site-packages/*}}'`
+`find {{path/to/search_root_directory}} -type {{b|c|d|p|f|l}}'`
 
-- Find files matching a given size range:
+- Search files/directories owned by a specific user/group:
 
-`find {{root_path}} -size {{+500k}} -size {{-10M}}`
+`find {{path/to/search_root_directory}} -{{user|group}} {{value}}'`
 
-- Run a command for each file (use `{}` within the command to access the filename):
+- Group specific conditions:
 
-`find {{root_path}} -name '{{*.ext}}' -exec {{wc -l {} }}\;`
+`find {{path/to/search_root_directory}} {{-not -type f}} -{{and|or}} {{-name '*.sh'}}`
 
-- Find files modified in the last 7 days and delete them:
+- Execute a specific command for found files/directories:
 
-`find {{root_path}} -daystart -mtime -{{7}} -delete`
-
-- Find empty (0 byte) files and delete them:
-
-`find {{root_path}} -type {{f}} -empty -delete`
+`find {{path/to/search_root_directory}} {{-not -type f}} -execdir {{stat '{}' ';'}}`
