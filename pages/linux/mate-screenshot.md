@@ -11,6 +11,14 @@
 
 `mate-screenshot --window`
 
+- Create a specific area screenshot:
+
+`mate-screenshot --area`
+
+- Create a screenshot interactively:
+
+`mate-screenshot --interactive`
+
 - Create a screenshot without borders:
 
 `mate-screenshot --window --remove-border`
