@@ -10,7 +10,7 @@
 
 - Run command in an existing process's network namespace:
 
-`nsenter -t {{pid}} -n {{command}} {{command_arguments}}`
+`nsenter --target {{pid}} --net {{command}} {{command_arguments}}`
 
 - Run command in an existing process's PID namespace:
 
