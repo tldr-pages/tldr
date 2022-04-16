@@ -7,7 +7,7 @@
 
 `wine {{command}}`
 
-- Run a specific program in a background:
+- Run a specific program in background:
 
 `wine start {{command}}`
 
