@@ -23,6 +23,6 @@
 
 `mtr -i {{seconds}} {{host}}`
 
-- Show the Autonomous System Number (ASN) for each hop:
+- Display the Autonomous System Number (ASN) for each hop:
 
 `mtr --aslookup {{hostname}}`
