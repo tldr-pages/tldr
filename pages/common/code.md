@@ -1,6 +1,6 @@
 # code
 
-> Visual Studio Code is a lightweight and powerful code editor .
+> Cross platform and extensible code editor.
 > More information: <https://github.com/microsoft/vscode>.
 
 - Start Visual Studio Code:
