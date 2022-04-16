@@ -12,9 +12,9 @@
 
 `find {{path/to/search_root_directory}} -type {{f}} -size {{5}}{{b|c|w|k|M|G}}'`
 
-- Search specific blocks/characters/directories/named pipes/regular files/symbolic links:
+- Search specific blocks/characters/directories/named pipes/regular files/symbolic links/socket/door:
 
-`find {{path/to/search_root_directory}} -type {{b|c|d|p|f|l}}'`
+`find {{path/to/search_root_directory}} -type {{b|c|d|p|f|l|s|D}}'`
 
 - Search files/directories owned by a specific user/group:
 
