@@ -7,11 +7,11 @@
 
 `choco apikey`
 
-- Print the specified source and its API key:
+- Print a specified source and the associated API key:
 
 `choco apikey --source "{{source_url}}"`
 
-- Set the API key for the specified source:
+- Set an API key for the specified source:
 
 `choco apikey --source "{{source_url}}" --key "{{api_key}}"`
 

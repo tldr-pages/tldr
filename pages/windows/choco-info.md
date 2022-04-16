@@ -7,7 +7,7 @@
 
 `choco info {{package_name}}`
 
-- Print information for the specified local package:
+- Print information for a specified local package:
 
 `choco info {{package_name}} --local-only`
 
@@ -15,6 +15,6 @@
 
 `choco info {{package_name}} --source {{source_url|source_alias}}`
 
-- Provide the username and the password for authentication:
+- Provide a specific username and password for authentication:
 
 `choco info {{package_name}} --user {{username}} --password {{password}}`

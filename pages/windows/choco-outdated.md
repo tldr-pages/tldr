@@ -15,6 +15,6 @@
 
 `choco outdated --source {{source_url|source_alias}}`
 
-- Provide the username and the password for authentication:
+- Provide a specific username and password for authentication:
 
 `choco outdated --user {{username}} --password {{password}}`

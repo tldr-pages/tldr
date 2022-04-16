@@ -8,14 +8,14 @@
 
 `choco pin`
 
-- Pin the specified package at its current version:
+- Pin a specified package at its current version:
 
 `choco pin add --name {{package_name}}`
 
-- Pin the package at the specified version:
+- Pin a package at a specified version:
 
 `choco pin add --name {{package_name}} --version {{package_version}}`
 
-- Remove the pin for the specified package:
+- Remove a pin for a specified package:
 
 `choco pin remove --name {{package_name}}`
