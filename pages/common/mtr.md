@@ -25,4 +25,4 @@
 
 - Show the Autonomous System Number (ASN) for each hop:
 
-`mtr -z {{host}}`
+`mtr --aslookup {{hostname}}`
