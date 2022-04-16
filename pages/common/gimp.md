@@ -16,7 +16,7 @@
 
 `gimp {{path/to/image1 path/to/image2 ...}}`
 
-- Start the new instance, even if there is already a running one:
+- Start a new instance, even if there is already a running one:
 
 `gimp --new-instance`
 
