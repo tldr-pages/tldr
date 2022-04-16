@@ -5,22 +5,30 @@
 > See also: `find`.
 > More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/xargs.html>.
 
-- Run a command using the input data as arguments:
+- Execute a specific command with arguments read from the standard input:
 
-`{{arguments_source}} | xargs {{command}}`
+`{{cat path/to/file}} | xargs {{command}}`
 
-- Run multiple chained commands on the input data:
+- Execute a command with a specific argument delimiter:
 
-`{{arguments_source}} | xargs sh -c "{{command1}} && {{command2}} | {{command3}}"`
+`{{cat path/to/file}} | xargs --delimiter='{{,}}' {{command}}`
 
-- Delete all files with a `.backup` extension (`-print0` uses a null character to split file names, and `-0` uses it as delimiter):
+- Execute a command with a specific end of file string:
 
-`find . -name {{'*.backup'}} -print0 | xargs -0 rm -v`
+`{{cat path/to/file}} | xargs --eof='{{EOF}}' {{command}}`
 
-- Execute the command once for each input line, replacing any occurrences of the placeholder (here marked as `_`) with the input line:
+- Execute a command with a specific argument count until all are consumed:
 
-`{{arguments_source}} | xargs -I _ {{command}} _ {{optional_extra_arguments}}`
+`{{cat path/to/file}} | xargs --max-args={{5}} {{command}}`
 
-- Parallel runs of up to `max-procs` processes at a time; the default is 1. If `max-procs` is 0, xargs will run as many processes as possible at a time:
+- Execute a command with a specific argument replacement string:
 
-`{{arguments_source}} | xargs -P {{max-procs}} {{command}}`
+`{{cat path/to/file}} | xargs --replace='{{%}}' {{command}} {{%}}`
+
+- Set a specific limit for parallel processes (`0` disables this limit):
+
+`{{cat path/to/file}} | xargs --max-procs='{{5}}' {{command}}`
+
+- Execute a command with a `\0` argument delimiter:
+
+`{{find . -name '*.sh' -print0}} | xargs --null {{command}}`
