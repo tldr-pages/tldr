@@ -2,11 +2,15 @@
 
 > Find files or directories under the given directory tree, recursively.
 > See also: `xargs`.
-> More information: <https://manned.org/man/freebsd-13.0/find.1>.
+> More information: <https://www.gnu.org/software/findutils/manual/html_mono/find.html>.
 
 - Search files by a specific case sensitive glob pattern/case insensitive glob pattern/case sensitive regular expression/case insensitive regular expression:
 
 `find {{path/to/search_root_directory}} -type {{f}} -{{name|iname|regex|iregex}} '{{*.sh}}'`
+
+- Set a specific regular expression flavour:
+
+`find {{path/to/search_root_directory}} -type {{f}} -regextype {{emacs|posix-awk|posix-basic|posix-egrep|posix-extended}} -{{regex}} '{{\..*\.sh}}'`
 
 - Search files with a specific size in 512-byte blocks/bytes/2-byte words/kibibytes/mebibytes/gibibytes:
 
