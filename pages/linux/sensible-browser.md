@@ -1,6 +1,7 @@
 # sensible-browser
 
 > Open the default browser.
+> More information: <https://manned.org/sensible-browser>.
 
 - Open a new window of the default browser:
 

@@ -2,7 +2,7 @@
 
 > Swift 和 Objective-C Cocoa 项目的依赖关系管理。
 
-- 为当前项目初始化包含默认内容的 podfile:
+- 为当前项目初始化包含默认内容的 podfile：
 
 `pod init`
 
@@ -10,7 +10,7 @@
 
 `pod install`
 
-- 列出所有可用的 pod:
+- 列出所有可用的 pod：
 
 `pod list`
 
@@ -26,6 +26,6 @@
 
 `pod update {{pod_名}}`
 
-- 从 Xcode 项目中删除 CocoaPods:
+- 从 Xcode 项目中删除 CocoaPods：
 
 `pod deintegrate {{xcode_项目}}`

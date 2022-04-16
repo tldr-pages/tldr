@@ -3,7 +3,7 @@
 > Konsole: KDE 终端模拟器。
 > 更多信息：<https://konsole.kde.org>.
 
-- 在特定目录中打开一个新的 Konsole:
+- 在特定目录中打开一个新的 Konsole：
 
 `konsole --workdir {{path/to/directory}}`
 
@@ -19,6 +19,6 @@
 
 `konsole --background-mode`
 
-- 使用紧急备冗配置文件打开 Konsole:
+- 使用紧急备冗配置文件打开 Konsole：
 
 `konsole --fallback-profile`

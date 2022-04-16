@@ -1,7 +1,7 @@
 # SafeEjectGPU
 
 > Eject a GPU safely.
-> Visit the man page for more info.
+> More information: <https://www.unix.com/man-page/mojave/8/safeejectgpu>.
 
 - Eject all GPUs:
 

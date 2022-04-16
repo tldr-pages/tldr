@@ -1,6 +1,7 @@
 # vpnc
 
 > A VPN client for the Cisco 3000 VPN Concentrator.
+> More information: <https://manned.org/vpnc>.
 
 - Connect with a defined configuration file:
 
