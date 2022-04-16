@@ -14,7 +14,7 @@
 
 - Run command in an existing process's PID namespace:
 
-`nsenter -t {{pid}} -p {{command}} {{command_arguments}}`
+`nsenter --target {{pid}} --pid {{command}} {{command_arguments}}`
 
 - Run command in an existing process's IPC namespace:
 
