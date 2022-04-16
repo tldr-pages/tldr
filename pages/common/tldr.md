@@ -15,10 +15,10 @@
 
 `tldr {{-p|--platform}} {{android|linux|osx|sunos|windows}} {{cd}}`
 
-- Print a tldr page for a command in a specific language (client may not support this option):
+- Print a tldr page for a command in a specific language:
 
 `tldr {{-l|--language}} {{ru}} {{cd}}`
 
-- Update local pages (client may not support caching with this option):
+- Update local pages:
 
 `tldr {{-u|--update}}`
