@@ -1,6 +1,6 @@
 # code
 
-> Visual Studio Code.
+> Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux.
 > More information: <https://github.com/microsoft/vscode>.
 
 - Start Visual Studio Code:
