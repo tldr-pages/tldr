@@ -20,6 +20,6 @@
 
 `rm -v {{path/to/file1 path/to/file2 ...}}`
 
-- Remove specific files/directories [r]ecursively:
+- Remove specific files and directories [r]ecursively:
 
 `rm -r {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
