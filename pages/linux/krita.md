@@ -4,7 +4,7 @@
 > See also: `gimp`.
 > More information: <https://docs.krita.org/en/reference_manual/linux_command_line.html>.
 
-- Start krita:
+- Start Krita:
 
 `krita`
 
