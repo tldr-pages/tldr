@@ -8,18 +8,18 @@
 
 `krita`
 
-- Start without the splash screen:
-
-`krita --nosplash`
-
-- Open the specified files:
+- Open specific files:
 
 `krita {{path/to/image1 path/to/image2 ...}}`
 
-- Start with the specified workspace (`Animation`):
+- Start without a splash screen:
+
+`krita --nosplash`
+
+- Start with a specific workspace:
 
 `krita --workspace {{Animation}}`
 
-- Start in the fullscreen mode:
+- Start in fullscreen mode:
 
 `krita --fullscreen`
