@@ -6,7 +6,7 @@
 
 - Run command using all the same namespaces as an existing process:
 
-`nsenter -t {{pid}} -a {{command}} {{command_arguments}}`
+`nsenter --target {{pid}} --all {{command}} {{command_arguments}}`
 
 - Run command in an existing process's network namespace:
 
