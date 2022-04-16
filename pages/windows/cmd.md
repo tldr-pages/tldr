@@ -9,7 +9,7 @@
 
 - Execute specific [c]ommands:
 
-`cmd /c "{{echo cmd is executed}}"`
+`cmd /c {{echo cmd is executed}}`
 
 - Execute a specific script:
 
@@ -17,7 +17,7 @@
 
 - Execute specific commands and then enter an interactive shell:
 
-`cmd /k "{{echo cmd is executed}}"`
+`cmd /k {{echo cmd is executed}}`
 
 - Start an interactive shell session where `echo` is disabled in command output:
 
