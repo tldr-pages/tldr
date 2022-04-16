@@ -3,7 +3,7 @@
 > Visual Studio Code.
 > More information: <https://github.com/microsoft/vscode>.
 
-- Start the editor:
+- Start Visual Studio Code:
 
 `code`
 
