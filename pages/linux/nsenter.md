@@ -18,4 +18,4 @@
 
 - Run command in an existing process's IPC namespace:
 
-`nsenter -t {{pid}} -i {{command}} {{command_arguments}}`
+`nsenter --target {{pid}} --ipc {{command}} {{command_arguments}}`
