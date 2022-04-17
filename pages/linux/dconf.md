@@ -4,14 +4,22 @@
 > See also `gsettings`.
 > More information: <https://manned.org/dconf.1>.
 
-- Print the value of a dconf path:
+- Print a specific key value:
 
-`dconf read {{/example/dconf/path}}`
+`dconf read {{/path/to/key}}`
 
-- List contents of a dconf path:
+- Print a specific path sub-directories and sub-keys:
 
-`dconf list {{/example/dconf/path}}`
+`dconf list {{/path/to/directory/}}`
 
-- Watch for dconf database changes in a path and subpaths:
+- Write a specific key value:
 
-`dconf watch {{/example/dconf/path}}`
+`dconf write {{/path/to/key}} "{{value}}"`
+
+- Watch a specific key/directory for changes:
+
+`dconf watch {{/path/to/key|/path/to/directory/}}`
+
+- Dump a specific directory in INI file format:
+
+`dconf dump {{/path/to/directory/}}`
