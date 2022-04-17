@@ -7,7 +7,7 @@
 
 `pw-cli list-objects Node`
 
-- Print information about an object with the specified ID:
+- Print information about an object with a specific ID:
 
 `pw-cli info {{4}}`
 
