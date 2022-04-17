@@ -3,7 +3,7 @@
 > The PipeWire Command Line Interface.
 > More information: <https://docs.pipewire.org/page_man_pw_cli_1.html>.
 
-- List all nodes (sinks and sources) along with their IDs:
+- Print all nodes (sinks and sources) along with their IDs:
 
 `pw-cli list-objects Node`
 
