@@ -16,6 +16,10 @@
 
 `dconf write {{/path/to/key}} "{{value}}"`
 
+- Reset a specific key value:
+
+`dconf reset {{/path/to/key}}`
+
 - Watch a specific key/directory for changes:
 
 `dconf watch {{/path/to/key|/path/to/directory/}}`
