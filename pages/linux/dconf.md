@@ -1,8 +1,8 @@
 # dconf
 
-> Simple tool for manipulating dconf databases.
-> See also `dconf write`.
-> More information: <https://developer.gnome.org/dconf>.
+> Manage dconf databases.
+> See also `gsettings`.
+> More information: <https://manned.org/dconf.1>.
 
 - Print the value of a dconf path:
 
