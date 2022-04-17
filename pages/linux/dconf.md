@@ -2,7 +2,7 @@
 
 > Manage dconf databases.
 > See also: `dconf-read`, `dconf-reset`, `dconf-write`, `gsettings`.
-> More information: <https://manned.org/dconf.1>.
+> More information: <https://manned.org/dconf>.
 
 - Print a specific key value:
 
