@@ -1,24 +1,29 @@
 # dconf write
 
-> Write a value to a dconf database path.
-> More information: <https://developer.gnome.org/dconf>.
+> Write key values in dconf databases.
+> See also: `dconf`.
+> More information: <https://manned.org/dconf>.
 
-- Write a string to a dconf path (note the nested quotes):
+- Write a specific key value:
 
-`dconf write {{/example/dconf/path}} "'{{Example Value}}'"`
+`dconf write {{/path/to/key}} "{{value}}"`
 
-- Write a boolean to a dconf path:
+- Write a specific string key value:
 
-`dconf write {{/example/dconf/path}} {{true|false}}`
+`dconf write {{/path/to/key}} "'{{string}}'"`
 
-- Write an integer to a dconf path:
+- Write a specific integer key value:
 
-`dconf write {{/example/dconf/path}} {{16}}`
+`dconf write {{/path/to/key}} "{{5}}"`
 
-- Write an array to a dconf path:
+- Write a specific boolean key value:
 
-`dconf write {{/example/dconf/path}} "[{{'My First Value', 'My Second Value'}}]"`
+`dconf write {{/path/to/key}} "{{true|false}}"`
 
-- Write an empty array to a dconf path:
+- Write a specific array key value:
 
-`dconf write {{/example/dconf/path}} "@as []"`
+`dconf write {{/path/to/key}} "[{{'first', 'second', ...}}]"`
+
+- Write a specific empty array key value:
+
+`dconf write {{/path/to/key}} "@as []"`
