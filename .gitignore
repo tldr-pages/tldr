@@ -1,7 +1,7 @@
 # VS Code
 .vscode/
 
-# jetbrains ide
+# Jetbrains IDE
 .idea/
 
 # macOS filesystem custom folder attributes
