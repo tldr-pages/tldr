@@ -4,10 +4,6 @@
 > See also: `unzip`.
 > More information: <https://manned.org/zip>.
 
-- Archive specific files/directories [r]ecursively:
-
-`zip -r {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
-
 - Add files/directories to a specific archive:
 
 `zip -r {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
