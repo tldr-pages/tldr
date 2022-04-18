@@ -1,6 +1,9 @@
 # VS Code
 .vscode/
 
+# jetbrains ide
+.idea/
+
 # macOS filesystem custom folder attributes
 .DS_Store
 
