@@ -15,7 +15,7 @@
 
 `chromium --new-window {{exemple.com}}`
 
-- Ouvrir en mode application (sans barres d'outils, barre d'URL, boutons, etc) :
+- Ouvre en mode application (sans barres d'outils, barre d'URL, boutons, etc) :
 
 `chromium --app={{https://exemple.com}}`
 
