@@ -10,7 +10,7 @@
 
 - Print metadata without decoding the audio:
 
-`vgmstream_cli {{input.adc}} -m`
+`vgmstream_cli {{path/to/input.adc}} -m`
 
 - Decode audio without loops:
 
