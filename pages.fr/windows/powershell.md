@@ -27,6 +27,6 @@
 
 `powershell -OutputFormat {{Texte|XML}}`
 
-- Afficher l'aide :
+- Affiche l'aide :
 
 `powershell -Help`
