@@ -28,7 +28,7 @@
 
 `flameshot gui --raw`
 
-- Create a screenshot and copy it to a clipboard:
+- Create a screenshot and copy it to the clipboard:
 
 `flameshot gui --clipboard`
 
