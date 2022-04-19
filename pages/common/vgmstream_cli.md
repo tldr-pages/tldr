@@ -14,16 +14,16 @@
 
 - Decode audio without loops:
 
-`vgmstream_cli {{input.adc}} -o {{output.wav}} -i`
+`vgmstream_cli {{path/to/input.adc}} -o {{path/to/output.wav}} -i`
 
 - Decode with three loops, then add a 3s delay followed by a 5s fadeout:
 
-`vgmstream_cli {{input.adc}} -o {{output.wav}} -l 3.0 -f 5.0 -d 3.0`
+`vgmstream_cli {{path/to/input.adc}} -o {{path/to/output.wav}} -l 3.0 -f 5.0 -d 3.0`
 
 - Convert multiple files to `bgm_(name).wav` (Default is `?f.wav`):
 
-`vgmstream_cli -o {{bgm_?f.wav}} {{file1.adc}} {{file2.adc}}`
+`vgmstream_cli -o {{path/to/bgm_?f.wav}} {{path/to/file1.adc}} {{path/to/file2.adc}}`
 
 - Play the file looping endlessly (`channels` and `rate` must match metadata):
 
-`vgmstream_cli {{input.adc}} -pec | aplay --format cd --channels {{1}} --rate {{44100}}`
+`vgmstream_cli {{path/to/input.adc}} -pec | aplay --format cd --channels {{1}} --rate {{44100}}`
