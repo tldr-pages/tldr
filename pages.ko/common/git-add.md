@@ -1,6 +1,5 @@
 # git add
 
-> Adds changed files to the index.
 > 변경된 파일들을 인덱스에 추가합니다.
 > 더 많은 정보: <https://git-scm.com/docs/git-add>.
 
