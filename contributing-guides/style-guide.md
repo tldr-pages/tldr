@@ -198,7 +198,7 @@ When not available, use <https://manned.org/> as the default fallback.
 
 ## Chinese-Specific Rules
 
-When Chinese words, Latin words and Arabic numerals are written in the same sentence, it takes more attention to copywriting.
+When Chinese words, Latin words and Arabic numerals are written in the same sentence, more attention must be paid to copywriting.
 
 The following guidelines are applied to Chinese (zh) and traditional Chinese (zh_TW):
 
