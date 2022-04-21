@@ -3,9 +3,9 @@
 > Control a linux machine's backlight using percentage values.
 > More information: <https://github.com/Hendrikto/backlight_control>.
 
-- Lower the backlight by 5%:
+- Increase/decrease the backlight by a specific percent count:
 
-`backlight_control -5`
+`backlight_control {{+|-}}{{5}}`
 
 - Increase the backlight by 5%:
 
