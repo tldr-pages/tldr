@@ -15,6 +15,6 @@
 
 `backlight_control {{90}}`
 
-- Get the help message:
+- Print the help:
 
 `backlight_control`
