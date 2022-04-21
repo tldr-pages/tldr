@@ -18,4 +18,3 @@
 - Get the help message:
 
 `backlight_control`
-
