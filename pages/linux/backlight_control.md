@@ -11,9 +11,9 @@
 
 `backlight_control +5`
 
-- Set the backlight strength to 90%:
+- Set the backlight strength to a specific percent count:
 
-`backlight_control 90`
+`backlight_control {{90}}`
 
 - Get the help message:
 
