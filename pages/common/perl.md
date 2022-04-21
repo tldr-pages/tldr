@@ -19,13 +19,9 @@
 
 `perl -d {{script.pl}}`
 
-- Loo[p] over all lines of a file, editing them [i]n-place using a find/replace [e]xpression:
+- Loo[p] over all lines of a file, editing them [i]n-place with a find/replace [e]xpression and saving the original file with a new extension:
 
-`perl -p -i -e 's/{{find}}/{{replace}}/g' {{filename}}`
-
-- Run a find/replace expression on a file, saving the original file with a given extension:
-
-`perl -p -i'.old' -e 's/{{find}}/{{replace}}/g' {{filename}}`
+`perl -p -i'.{{extension}}' -e 's/{{find}}/{{replace}}/g' {{filename}}`
 
 - Run a multiline find/replace expression on a file, and save the result in another file:
 
