@@ -7,10 +7,6 @@
 
 `backlight_control {{+|-}}{{5}}`
 
-- Increase the backlight by 5%:
-
-`backlight_control +5`
-
 - Set the backlight strength to a specific percent count:
 
 `backlight_control {{90}}`
