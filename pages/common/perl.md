@@ -31,6 +31,10 @@
 
 `perl -p0e 's/{{foo\nbar}}/{{foobar}}/g' {{input_file}} > {{output_file}}`
 
-- Run a regular expression on stdin, printing out the first capture group for each line:
+- Run a regular expression on stdin, printing out matching [l]ines:
 
-`cat {{path/to/input_file}} | perl -nle 'if (/.*({{foo}}).*/) {print "$1"; last;}'`
+`cat {{filename}} | perl -n -l -e 'print if /{{pattern}}/'`
+
+- Run a regular expression on stdin, printing out only the first capture group for each matching [l]ine:
+
+`cat {{filename}} | perl -n -l -e 'print $1 if /{{before}}({{pattern}}){{after}}/'`
