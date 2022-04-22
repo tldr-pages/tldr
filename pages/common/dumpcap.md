@@ -1,7 +1,6 @@
 # dumpcap - Dump network traffic
 
 > A network traffic dump tool.
-> Preferably one line; two are acceptable if necessary.
 > More information: <https://www.wireshark.org/docs/man-pages/dumpcap.html>.
 
 - Get a list of available interfaces:
