@@ -5,7 +5,7 @@
 
 - Get a list of available interfaces:
 
-`dumpcap -D`
+`dumpcap --list-interfaces`
 
 - Start capturing packets on the first interface:
 
