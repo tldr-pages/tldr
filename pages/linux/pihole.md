@@ -7,7 +7,7 @@
 
 `pihole status`
 
-- Update Pi-hole (software and adlists):
+- Update Pi-hole and Gravity:
 
 `pihole -up`
 
