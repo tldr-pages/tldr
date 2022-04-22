@@ -9,7 +9,7 @@
 
 - Start capturing packets on the first interface:
 
-`dumpcap -i 1`
+`dumpcap --interface 1`
 
 - Start capturing packets on the first interface to a specific location:
 
