@@ -1,7 +1,7 @@
 # rich
 
 > Rich CLI - fancy terminal display.
-> More information: <https://github.com/Textualize/rich-cli>
+> More information: <https://github.com/Textualize/rich-cli>.
 
 - Show file contents with syntax highlighting:
 
