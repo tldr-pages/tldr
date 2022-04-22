@@ -1,4 +1,4 @@
-# dumpcap - Dump network traffic
+# dumpcap
 
 > A network traffic dump tool.
 > More information: <https://www.wireshark.org/docs/man-pages/dumpcap.html>.
