@@ -2,6 +2,7 @@
 
 > Manage services by running init scripts.
 > The full script path should be omitted (`/etc/init.d/` is assumed).
+> More information: <https://manned.org/service>.
 
 - List the name and status of all services:
 

@@ -22,3 +22,11 @@
 - Connect to a NordVPN server in a specific country:
 
 `nordvpn connect {{Germany}}`
+
+- Connect to a NordVPN server in a specific country and city:
+
+`nordvpn connect {{Germany}} {{Berlin}}`
+
+- Set autoconnect option:
+
+`nordvpn set autoconnect on`

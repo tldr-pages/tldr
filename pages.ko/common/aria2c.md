@@ -12,18 +12,18 @@
 
 `aria2c {{url_1}} {{url_2}}`
 
-- 파일에 나열된 URI 다운로드 :
+- 파일에 나열된 URI 다운로드:
 
 `aria2c -i {{filename}}`
 
-- 여러 연결로 다운로드 :
+- 여러 연결로 다운로드:
 
 `aria2c -s {{connections_num}} {{url}}`
 
-- 사용자 이름과 암호가 있는 FTP 다운로드 :
+- 사용자 이름과 암호가 있는 FTP 다운로드:
 
 `aria2c --ftp-user={{username}} --ftp-passwd={{password}} {{url}}`
 
-- 다운로드 속도를 바이트/s로 제한 :
+- 다운로드 속도를 바이트/s로 제한:
 
 `aria2c --max-download-limit={{speed}} {{url}}`

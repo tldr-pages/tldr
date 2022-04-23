@@ -1,6 +1,7 @@
 # opkg
 
 > A lightweight package manager used to install OpenWrt packages.
+> More information: <https://openwrt.org/docs/guide-user/additional-software/opkg>.
 
 - Install a package:
 

@@ -1,6 +1,7 @@
 # xsetwacom
 
 > Command-line tool to change settings for Wacom pen tablets at runtime.
+> More information: <https://manned.org/xsetwacom>.
 
 - List all the available Wacom devices. The device name is in the first column:
 

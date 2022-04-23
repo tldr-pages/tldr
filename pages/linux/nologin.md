@@ -1,6 +1,7 @@
 # nologin
 
 > Alternative shell that prevents a user from logging in.
+> More information: <https://manned.org/nologin.5>.
 
 - Set a user's login shell to `nologin` to prevent the user from logging in:
 

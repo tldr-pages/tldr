@@ -15,7 +15,7 @@
 
 `adduser --home {{home 路径}} {{用户名}}`
 
-- 创建一个新用户，并指定登录 shell:
+- 创建一个新用户，并指定登录 shell：
 
 `adduser --shell {{shell 路径}} {{用户名}}`
 

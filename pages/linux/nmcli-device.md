@@ -1,7 +1,7 @@
 # nmcli device
 
 > Hardware device management with NetworkManager.
-> More information: <https://man.archlinux.org/man/nmcli.1>.
+> More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
 - Print the statuses of all network interfaces:
 

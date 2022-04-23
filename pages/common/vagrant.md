@@ -30,3 +30,7 @@
 - Output the SSH configuration file of the running Vagrant machine:
 
 `vagrant ssh-config`
+
+- List all local boxes:
+
+`vagrant box list`

@@ -13,7 +13,7 @@
 
 - Encode from stdin:
 
-`echo -n {{plain_text}} | base64`
+`echo -n "{{plain_text}}" | base64`
 
 - Decode from stdin:
 

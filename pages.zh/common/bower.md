@@ -24,10 +24,10 @@
 
 `bower help {{指令}}`
 
-- 创建你的项目的 `bower.json`:
+- 创建你的项目的 `bower.json`：
 
 `bower init`
 
-- 安装时候指定依赖的版本号，并添加到 `bower.json`:
+- 安装时候指定依赖的版本号，并添加到 `bower.json`：
 
 `bower install {{local_name}}={{package}}#{{version}} --save`
