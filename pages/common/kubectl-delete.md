@@ -9,7 +9,7 @@
 
 - Delete a specific deployment:
 
-`kubect delete deployment {{deployment_name}}`
+`kubectl delete deployment {{deployment_name}}`
 
 - Delete a specific node:
 

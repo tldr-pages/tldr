@@ -7,14 +7,14 @@
 
 `am start -n {{com.android.settings/.Settings}}`
 
-- Inicia uma activity e passar parâmetros para ela:
+- Inicia uma activity e passa dados para ela:
 
 `am start -a {{android.intent.action.VIEW}} -d {{tel:123}}`
 
-- Incia uma activity correspondente a uma ação e categoria específicas:
+- Inicia uma activity correspondente a uma ação e categoria específicas:
 
 `am start -a {{android.intent.action.MAIN}} -c {{android.intent.category.HOME}}`
 
-- Converte uma intent para uma URI:
+- Converte uma intent em uma URI:
 
 `am to-uri -a {{android.intent.action.VIEW}} -d {{tel:123}}`

@@ -4,7 +4,7 @@
 > `launchd`加载放置在适当位置的基于 XML 的`*.plist`文件，并根据其定义的计划运行相应的命令。
 > 更多信息：<https://manned.org/launchctl>.
 
-- 每当用户登录时，自动将 plist 文件加载到 `launchd` :
+- 每当用户登录时，自动将 plist 文件加载到 `launchd`：
 
 `launchctl load ~/Library/LaunchAgents/{{我的脚本}}.plist`
 

@@ -1,6 +1,7 @@
 # ports
 
 > Update/list the ports tree on a CRUX system.
+> More information: <https://manned.org/ports>.
 
 - Update the ports tree:
 

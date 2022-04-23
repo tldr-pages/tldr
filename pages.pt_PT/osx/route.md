@@ -2,6 +2,7 @@
 
 > Alteração manual da tabela de rotas.
 > Necessita de root.
+> Mais informações: <https://www.manpagez.com/man/8/route/>.
 
 - Adiciona uma rota para um destino passando por um gateway:
 
@@ -23,6 +24,6 @@
 
 `sudo route delete {{endereco_ip_destino}}/24`
 
-- Procura e mostra a rota para um destino (nome da máquina ou endereço IP)
+- Procura e mostra a rota para um destino (nome da máquina ou endereço IP):
 
 `sudo route get {{destino}}`

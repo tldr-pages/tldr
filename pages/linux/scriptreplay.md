@@ -1,6 +1,7 @@
 # scriptreplay
 
 > Replay a typescript created by the `script` command to the standard output.
+> More information: <https://manned.org/scriptreplay>.
 
 - Replay a typescript at the speed it was recorded:
 
