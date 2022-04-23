@@ -7,7 +7,7 @@
 
 `composer require {{사용자/패키지명}}`
 
-- 프로젝트의 `composer.json` 안에 모든 의존성(dependency)를 설치합니다 :
+- 프로젝트의 `composer.json` 안에 모든 의존성(dependency)를 설치합니다:
 
 `composer install`
 

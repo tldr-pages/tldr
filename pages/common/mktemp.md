@@ -1,7 +1,7 @@
 # mktemp
 
 > Create a temporary file or directory.
-> More information: <https://www.gnu.org/software/autogen/mktemp.html>.
+> More information: <https://ss64.com/osx/mktemp.html>.
 
 - Create an empty temporary file and print the absolute path to it:
 
@@ -11,6 +11,6 @@
 
 `mktemp --suffix "{{.ext}}"`
 
-- Create a temporary directory and print the absolute path to it (non-portable long option: --directory):
+- Create a temporary directory and print the absolute path to it:
 
 `mktemp -d`

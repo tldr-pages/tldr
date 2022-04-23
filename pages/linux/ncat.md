@@ -1,6 +1,7 @@
 # ncat
 
 > Use the normal `cat` functionality over networks.
+> More information: <https://manned.org/ncat>.
 
 - Listen for input on the specified port and write it to the specified file:
 

@@ -3,11 +3,11 @@
 > 一款全网广告拦截与反跟踪软件。
 > 更多信息：<https://github.com/AdguardTeam/AdGuardHome>.
 
-- 运行 AdGuard Home:
+- 运行 AdGuard Home：
 
 `AdGuardHome`
 
-- 使用给定的配置文件运行 AdGuard Home:
+- 使用给定的配置文件运行 AdGuard Home：
 
 `AdGuardHome --config {{给定的/配置文件.yaml}}`
 

@@ -3,7 +3,7 @@
 > Visual Studio Code.
 > 更多資訊：<https://github.com/microsoft/vscode>.
 
-- 執行 VS Code:
+- 執行 VS Code：
 
 `code`
 
@@ -23,6 +23,6 @@
 
 `code -d {{檔案一}} {{檔案二}}`
 
-- 用超級使用者 (sudo) 權限執行 VS Code:
+- 用超級使用者 (sudo) 權限執行 VS Code：
 
 `sudo code {{檔案或目錄/完整/路徑}} --user-data-dir`

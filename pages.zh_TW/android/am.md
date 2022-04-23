@@ -15,6 +15,6 @@
 
 `am start -a {{android.intent.action.MAIN}} -c {{android.intent.category.HOME}}`
 
-- 將意圖（intent）轉換為 URI:
+- 將意圖（intent）轉換為 URI：
 
 `am to-uri -a {{android.intent.action.VIEW}} -d {{tel:123}}`

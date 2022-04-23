@@ -5,7 +5,7 @@
 
 - Sign into the Mac App Store for the first time:
 
-`mas signin {{user@example.com}}`
+`mas signin "{{user@example.com}}"`
 
 - Show all installed applications and their product identifiers:
 
@@ -13,7 +13,7 @@
 
 - Search for an application, displaying the price alongside the results:
 
-`mas search {{application}} --price`
+`mas search "{{application}}" --price`
 
 - Install or update an application:
 

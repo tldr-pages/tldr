@@ -3,7 +3,7 @@
 > 用图形显示有关正在运行的进程的动态实时信息。类似于 `gtop` 和 `htop`.
 > 更多信息：<https://github.com/aristocratos/bpytop>.
 
-- 运行 bpytop:
+- 运行 bpytop：
 
 `bpytop`
 

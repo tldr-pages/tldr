@@ -19,6 +19,10 @@
 
 `sha1sum --check {{path/to/file.sha1}}`
 
-- Only show a message for files for which verification fails:
+- Only show a message for missing files or when verification fails:
 
 `sha1sum --check --quiet {{path/to/file.sha1}}`
+
+- Only show a message for files for which verification fails, ignoring missing files:
+
+`sha1sum --ignore-missing --check --quiet {{path/to/file.sha1}}`

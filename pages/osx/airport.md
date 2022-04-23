@@ -5,7 +5,7 @@
 
 - Show current wireless status information:
 
-`airport -I`
+`airport --getinfo`
 
 - Sniff wireless traffic on channel 1:
 
@@ -13,8 +13,8 @@
 
 - Scan for available wireless networks:
 
-`airport -s`
+`airport --scan`
 
 - Disassociate from current airport network:
 
-`sudo airport -z`
+`sudo airport --disassociate`
