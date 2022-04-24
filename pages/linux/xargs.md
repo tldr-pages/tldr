@@ -2,7 +2,6 @@
 
 > Execute a command with piped arguments coming from another command, a file, etc.
 > The input is treated as a single block of text and split into separate pieces on spaces, tabs, newlines and end-of-file.
-> See also: `find`.
 > More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/xargs.html>.
 
 - Execute a specific command with arguments read from the standard input:

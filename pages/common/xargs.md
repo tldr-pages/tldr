@@ -2,7 +2,6 @@
 
 > Execute a command with piped arguments coming from another command, a file, etc.
 > The input is treated as a single block of text and split into separate pieces on spaces, tabs, newlines and end-of-file.
-> See also: `find`.
 > More information: <https://manned.org/man/freebsd-13.0/xargs.1>.
 
 - Execute a specific command with arguments read from the standard input:
