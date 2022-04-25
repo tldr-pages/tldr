@@ -21,7 +21,7 @@
 
 - Display contents from a URL:
 
-`rich https://raw.githubusercontent.com/Textualize/rich-cli/main/README.md --markdown --pager`
+`rich {{https://raw.githubusercontent.com/Textualize/rich-cli/main/README.md}} --markdown --pager`
 
 - Export a file as HTML:
 
