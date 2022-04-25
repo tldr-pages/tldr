@@ -17,7 +17,7 @@
 
 - Display file in an interactive pager:
 
-`rich file.py --pager`
+`rich {{path/to/file.py}} --pager`
 
 - Display contents from a URL:
 
