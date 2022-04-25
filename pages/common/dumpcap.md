@@ -7,7 +7,7 @@
 
 `dumpcap --list-interfaces`
 
-- Start capturing packets on the first interface:
+- Capture packets on a specific interface:
 
 `dumpcap --interface {{1}}`
 
