@@ -11,7 +11,7 @@
 
 `dumpcap --interface {{1}}`
 
-- Start capturing packets on the first interface to a specific location:
+- Capture packets to a specific location:
 
 `dumpcap --interface {{1}} -w {{path/to/output_file.pcapng}}`
 
