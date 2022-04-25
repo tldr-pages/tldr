@@ -23,7 +23,7 @@
 
 `rich {{https://raw.githubusercontent.com/Textualize/rich-cli/main/README.md}} --markdown --pager`
 
-- Export a file as HTML:
+- Export a specific file as HTML:
 
 `rich {{path/to/file.md}} -o {{path/to/file.html}}`
 
