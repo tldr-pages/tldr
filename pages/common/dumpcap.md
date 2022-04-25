@@ -17,4 +17,4 @@
 
 - Start capturing packets on the first interface to a specific location and writing to a ring buffer with a max of 10 files of 500MB each:
 
-`dumpcap --interface 1 -w {{path/to/output_file.pcapng}} --ring-buffer filesize:500000 --ring-buffer files:10`
+`dumpcap --interface {{1}} -w {{path/to/output_file.pcapng}} --ring-buffer filesize:{{500000}} --ring-buffer files:{{10}}`
