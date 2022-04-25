@@ -25,7 +25,7 @@
 
 - Export a file as HTML:
 
-`rich file.md -o file.html`
+`rich {{path/to/file.md}} -o {{path/to/file.html}}`
 
 - Print text with formatting tags, custom alignment, and fixed line width:
 
