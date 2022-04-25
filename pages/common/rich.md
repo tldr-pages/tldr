@@ -9,7 +9,7 @@
 
 - Add line numbers, and indentation guides:
 
-`rich file.py --line-number --guides`
+`rich {{path/to/file.py}} --line-number --guides`
 
 - Apply a theme:
 
