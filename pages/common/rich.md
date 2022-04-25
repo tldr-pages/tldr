@@ -5,7 +5,7 @@
 
 - Show file contents with syntax highlighting:
 
-`rich file.py`
+`rich {{path/to/file.py}}`
 
 - Add line numbers, and indentation guides:
 
