@@ -13,7 +13,7 @@
 
 - Apply a theme:
 
-`rich file.py --theme monokai`
+`rich {{path/to/file.py}} --theme {{monokai}}`
 
 - Display file in an interactive pager:
 
