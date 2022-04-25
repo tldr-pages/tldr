@@ -11,7 +11,7 @@
 
 `rich {{path/to/file.py}} --line-number --guides`
 
-- Apply a theme:
+- Apply a specific theme:
 
 `rich {{path/to/file.py}} --theme {{monokai}}`
 
