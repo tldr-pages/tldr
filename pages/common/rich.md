@@ -19,7 +19,7 @@
 
 `rich {{path/to/file.py}} --pager`
 
-- Display contents from a URL:
+- Display contents from a specific URL:
 
 `rich {{https://raw.githubusercontent.com/Textualize/rich-cli/main/README.md}} --markdown --pager`
 
