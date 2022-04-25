@@ -19,6 +19,6 @@
 
 `pluma --list-encodings`
 
-- Open document and go to a specific line (`10`):
+- Open document and go to a specific line:
 
 `pluma +{{10}} {{path/to/document}}`
