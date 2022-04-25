@@ -15,7 +15,7 @@
 
 `rich {{path/to/file.py}} --theme {{monokai}}`
 
-- Display file in an interactive pager:
+- Display a specific file in an interactive pager:
 
 `rich {{path/to/file.py}} --pager`
 
