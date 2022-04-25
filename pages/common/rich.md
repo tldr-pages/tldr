@@ -3,7 +3,7 @@
 > Rich CLI - fancy terminal display.
 > More information: <https://github.com/Textualize/rich-cli>.
 
-- Show file contents with syntax highlighting:
+- Display a specific file with syntax highlighting:
 
 `rich {{path/to/file.py}}`
 
