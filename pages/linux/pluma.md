@@ -21,4 +21,4 @@
 
 - Open document and go to a specific line:
 
-`pluma +{{10}} {{path/to/document}}`
+`pluma +{{10}} {{path/to/file}}`
