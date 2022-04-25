@@ -22,7 +22,7 @@
 
 - Create a screenshot from a specific monitor:
 
-`flameshot screen --number {{5}}`
+`flameshot screen --number {{2}}`
 
 - Create a screenshot and print it to the standard output:
 
