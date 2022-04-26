@@ -29,7 +29,7 @@
 
 - Run a regular expression on stdin, printing out matching [l]ines:
 
-`cat {{filename}} | perl -n -l -e 'print if /{{pattern}}/'`
+`cat {{path/to/file}} | perl -n -l -e 'print if /{{regular_expression}}/'`
 
 - Run a regular expression on stdin, printing out only the first capture group for each matching [l]ine:
 
