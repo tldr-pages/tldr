@@ -33,4 +33,4 @@
 
 - Run a regular expression on stdin, printing out only the first capture group for each matching [l]ine:
 
-`cat {{filename}} | perl -n -l -e 'print $1 if /{{before}}({{pattern}}){{after}}/'`
+`cat {{path/to/file}} | perl -n -l -e 'print $1 if /{{before}}({{regular_expression}}){{after}}/'`
