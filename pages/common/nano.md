@@ -1,6 +1,6 @@
 # nano
 
-> Edit files in a terminale.
+> Command-line text editor.
 > More information: <https://nano-editor.org>.
 
 - Start the editor:
