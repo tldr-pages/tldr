@@ -21,7 +21,7 @@
 
 - Edit all file lines [i]n-place with a specific replacement [e]xpression and save a file with a new extension:
 
-`perl -p -i'.{{extension}}' -e 's/{{find}}/{{replace}}/g' {{filename}}`
+`perl -p -i'.{{extension}}' -e 's/{{regular_expression}}/{{replacement}}/g' {{path/to/file}}`
 
 - Run a multiline find/replace expression on a file, and save the result in another file:
 
