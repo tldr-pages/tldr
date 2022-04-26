@@ -7,11 +7,11 @@
 
 `xed`
 
-- Open specific documents:
+- Open specific files:
 
 `xed {{path/to/file1 path/to/file2 ...}}`
 
-- Open documents in a specific encoding:
+- Open files in a specific encoding:
 
 `xed --encoding {{WINDOWS-1252}} {{path/to/file1 path/to/file2 ...}}`
 
@@ -19,6 +19,6 @@
 
 `xed --list-encodings`
 
-- Open document and go to a specific line:
+- Open file and go to a specific line:
 
 `xed +{{10}} {{path/to/file}}`
