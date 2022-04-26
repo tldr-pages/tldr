@@ -1,6 +1,6 @@
 # rich
 
-> Rich CLI - fancy terminal display.
+> Rich CLI is a toolbox for fancy output in the terminal.
 > More information: <https://github.com/Textualize/rich-cli>.
 
 - Display a file with syntax highlighting:
@@ -25,7 +25,7 @@
 
 - Export a file as HTML:
 
-`rich {{path/to/file.md}} -o {{path/to/file.html}}`
+`rich {{path/to/file.md}} --export-html {{path/to/file.html}}`
 
 - Display text with formatting tags, custom alignment, and line width:
 
