@@ -23,7 +23,7 @@
 
 `perl -p -i'.{{extension}}' -e 's/{{regular_expression}}/{{replacement}}/g' {{path/to/file}}`
 
-- Run a multiline find/replace expression on a file, and save the result in another file:
+- Run a multi-line replacement expression on a file, and save the result in a specific file:
 
 `perl -p -e 's/{{foo\nbar}}/{{foobar}}/g' {{input_file}} > {{output_file}}`
 
