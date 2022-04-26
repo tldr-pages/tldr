@@ -25,7 +25,7 @@
 
 - Run a multi-line replacement expression on a file, and save the result in a specific file:
 
-`perl -p -e 's/{{foo\nbar}}/{{foobar}}/g' {{input_file}} > {{output_file}}`
+`perl -p -e 's/{{foo\nbar}}/{{foobar}}/g' {{path/to/input_file}} > {{path/to/output_file}}`
 
 - Run a regular expression on stdin, printing out matching [l]ines:
 
