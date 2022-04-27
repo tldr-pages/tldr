@@ -1,9 +1,9 @@
 # tac
 
-> Print and concatenate files with lines in reversed order.
+> Display and concatenate files with lines in reversed order.
 > More information: <https://www.gnu.org/software/coreutils/tac>.
 
-- Display specific files in reversed order:
+- Concatenate specific files in reversed order:
 
 `tac {{path/to/file1 path/to/file2 ...}}`
 
