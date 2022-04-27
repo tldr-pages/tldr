@@ -11,7 +11,7 @@
 
 `sudo btrbk list`
 
-- Print what run command would do:
+- Print what would happen in a run without making the displayed changes:
 
 `sudo btrbk --verbose dryrun`
 
