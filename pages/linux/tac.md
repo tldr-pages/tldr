@@ -1,6 +1,7 @@
 # tac
 
 > Display and concatenate files with lines in reversed order.
+> See also: `cat`.
 > More information: <https://www.gnu.org/software/coreutils/tac>.
 
 - Concatenate specific files in reversed order:
