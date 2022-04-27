@@ -15,10 +15,10 @@
 
 `tac -s {{separator}} {{path/to/file1 path/to/file2 ...}}`
 
-- Use a specific regex as a separator:
+- Use a specific [r]egex as a [s]eparator:
 
 `tac -r -s {{separator}} {{path/to/file1 path/to/file2 ...}}`
 
-- Use a separator before each file:
+- Use a separator [b]efore each file:
 
 `tac -b {{path/to/file1 path/to/file2 ...}}`
