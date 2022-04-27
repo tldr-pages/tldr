@@ -1,24 +1,36 @@
 # cat
 
-> Print and concatenate files.
+> Display and concatenate files.
 > More information: <https://www.gnu.org/software/coreutils/cat>.
 
-- Print the contents of a file to the standard output:
+- Concatenate specific files:
 
-`cat {{file}}`
+`cat {{path/to/file1 path/to/file2 ...}}`
 
-- Concatenate several files into the target file:
+- Display `stdin`:
 
-`cat {{file1}} {{file2}} > {{target_file}}`
+`{{echo 'Hello world!'}} | cat`
 
-- Append several files into the target file:
+- Squeeze repeated empty lines:
 
-`cat {{file1}} {{file2}} >> {{target_file}}`
+`cat -s {{path/to/file1 path/to/file2 ...}}`
 
-- Number all output lines:
+- Number all/non-[b]lank lines:
 
-`cat -n {{file}}`
+`cat -{{n|b}} {{path/to/file1 path/to/file2 ...}}`
 
-- Display non-printable and whitespace characters (with `M-` prefix if non-ASCII):
+- Display `tab` as `^I`:
 
-`cat -v -t -e {{file}}`
+`cat -T {{path/to/file1 path/to/file2 ...}}`
+
+- Display `$` after each line:
+
+`cat -E {{path/to/file1 path/to/file2 ...}}`
+
+- Display non-printable characters via `^`/`M-` notation:
+
+`cat -v {{path/to/file1 path/to/file2 ...}}`
+
+- Display `^I`, `$` and non-printable characters:
+
+`cat -A {{path/to/file1 path/to/file2 ...}}`
