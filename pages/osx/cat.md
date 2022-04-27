@@ -1,6 +1,7 @@
 # cat
 
 > Display and concatenate files.
+> See also: `tac`.
 > More information: <https://manned.org/man/freebsd-13.0/cat>.
 
 - Concatenate specific files:

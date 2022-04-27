@@ -1,6 +1,7 @@
 # cat
 
 > Display and concatenate files.
+> See also: `tac`.
 > More information: <https://www.gnu.org/software/coreutils/cat>.
 
 - Concatenate specific files:
