@@ -1,16 +1,12 @@
 # tac
 
-> Print and concatenate files in reverse (last line first).
+> Print and concatenate files with lines in reversed order.
 > More information: <https://www.gnu.org/software/coreutils/tac>.
 
-- Print the contents of *file1* reversed to the standard output:
+- Display specific files in reversed order:
 
-`tac {{file1}}`
+`tac {{path/to/file1 path/to/file2 ...}}`
 
-- Print the contents of the standard input reversed to the standard output:
+- Display `stdin` in reversed order:
 
-`{{command}} | tac`
-
-- Concatenate several files reversed into the target file:
-
-`tac {{file1}} {{file2}} > {{target_file}}`
+`{{cat path/to/file}} | tac`
