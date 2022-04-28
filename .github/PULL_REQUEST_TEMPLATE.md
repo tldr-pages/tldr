@@ -6,8 +6,8 @@ See also https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md
 
 # Command info
 
-- **Version of the command being documented:** `latest`
-- **Brief description of the command being documented:** unspecified
+- **Version of the command being documented:** 
+- **Brief description of the command being documented:** 
 <!-- Replace `latest` with a concreete version when you know it exactly. -->
 
 - [ ] New command pages or translations are added. <!-- Check if you create a documentation page to tldr-pages. -->
