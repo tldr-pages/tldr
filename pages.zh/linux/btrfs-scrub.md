@@ -4,7 +4,7 @@
 > 建议每月运行一次 scrub.
 > 更多信息：<https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-scrub>.
 
-- 开始 scrub:
+- 开始 scrub：
 
 `sudo btrfs scrub start {{指向挂载点的路径}}`
 
@@ -12,11 +12,11 @@
 
 `sudo btrfs scrub status {{指向挂载点的路径}}`
 
-- 取消正在进行的 scrub:
+- 取消正在进行的 scrub：
 
 `sudo btrfs scrub cancel {{指向挂载点的路径}}`
 
-- 恢复先前取消的 scrub:
+- 恢复先前取消的 scrub：
 
 `sudo btrfs scrub resume {{指向挂载点的路径}}`
 

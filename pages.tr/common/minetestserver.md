@@ -2,7 +2,7 @@
 
 > Çok oyunculu sınırsız dünyalı bloklu sanbox sunucusu.
 > Ayrıca `minetest` sayfasına bakılması önerilir.
-> Daha fazla bilgi için: <https://wiki.minetest.net/Setting_up_a_server>.
+> Daha fazla bilgi: <https://wiki.minetest.net/Setting_up_a_server>.
 
 - Sunucuyu başlar:
 

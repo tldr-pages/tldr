@@ -1,7 +1,7 @@
 # hsw-cli
 
 > The command-line REST tool for the Handshake wallet.
-> More information: <https://npmjs.com/package/hs-client>.
+> More information: <https://github.com/handshake-org/hs-client>.
 
 - Unlock the current wallet (timeout in seconds):
 

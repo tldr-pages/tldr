@@ -10,6 +10,7 @@ Only the left-alignment of the header gets lost and has to be readded again (`|-
 | ar    |                      |                        |                                   |           |                   |
 | bn    |                      |                        |                                   |           |                   |
 | bs    |                      |                        |                                   |           |                   |
+| ca    | camí/al/fitxer       | camí/al/directori      | camí/al/fitxer_o_directori        | paquet    | nom_usuari        |
 | da    |                      |                        |                                   |           |                   |
 | de    | pfad/zu/datei        | pfad/zu/verzeichnis    | pfad/zu/datei_oder_verzeichnis    | paket     | benutzername      |
 | es    | ruta/al/archivo      | ruta/al/directorio     | ruta/al/archivo_o_directorio      | paquete   |                   |
@@ -33,7 +34,7 @@ Only the left-alignment of the header gets lost and has to be readded again (`|-
 | sv    |                      |                        |                                   |           |                   |
 | ta    | கோப்பு               | அடைவு                | கோப்போ/அடைவோ                | நிரல்தொகுப்பு | பயனர்ப்பெயர்   |
 | th    |                      |                        |                                   |           |                   |
-| tr    |                      |                        |                                   |           |                   |
+| tr    | dosya/yolu           | dizin/yolu             | dosya_veya_dizin/yolu             | paket     | kullanıcı_adı     |
 | uk    |                      |                        |                                   |           |                   |
 | uz    |                      |                        |                                   |           |                   |
 | zh    | 路径/到/文件         | 路径/到/目录           | 路径/到/文件或目录                | 包        | 用户名            |

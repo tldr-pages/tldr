@@ -12,11 +12,11 @@
 
 `adb kill-server`
 
-- 在目标模拟器 / 设备实例上开启一个远程 shell:
+- 在目标模拟器 / 设备实例上开启一个远程 shell：
 
 `adb shell`
 
-- 将 Android 应用程序推送到模拟器 / 设备 :
+- 将 Android 应用程序推送到模拟器 / 设备：
 
 `adb install -r {{路径/到/应用.apk}}`
 

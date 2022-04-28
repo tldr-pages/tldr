@@ -20,6 +20,6 @@
 
 `atom --safe`
 
-- 在终端前台运行 Atom:
+- 在终端前台运行 Atom：
 
 `atom --foreground`

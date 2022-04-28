@@ -2,7 +2,7 @@
 
 > Affiche un rapport de bug Android.
 > Cette commande peut être utilisé uniquement depuis `adb shell`.
-> Plus d'informations : <https://android.googlesource.com/platform/frameworks/native/+/master/cmds/bugreport/>.
+> Plus d'informations : <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/bugreport>.
 
 - Affiche un rapport de bug d'un appareil Android :
 

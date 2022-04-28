@@ -14,3 +14,7 @@
 - Show ignored and untracked files:
 
 `git ls-files --others`
+
+- Show untracked files, not ignored:
+
+`git ls-files --others --exclude-standard`

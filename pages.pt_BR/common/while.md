@@ -1,6 +1,7 @@
 # while
 
 > Loop simples da shell.
+> Mais informações: <https://manned.org/while>.
 
 - Lê a entrada default (stdin) e realiza uma ação a cada linha:
 

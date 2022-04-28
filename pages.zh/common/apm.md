@@ -4,7 +4,7 @@
 > 参见 `atom`.
 > 更多信息：<https://github.com/atom/apm>.
 
-- 下载包：http://atom.io/packages 和主题 http://atom.io/themes:
+- 下载包：http://atom.io/packages 和主题 http://atom.io/themes：
 
 `apm install {{包名}}`
 

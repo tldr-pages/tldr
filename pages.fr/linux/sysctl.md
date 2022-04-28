@@ -1,6 +1,7 @@
 # sysctl
 
 > Liste et modifie les variables d'exécution du noyau.
+> Plus d'informations : <https://manned.org/sysctl.8>.
 
 - Affiche toutes les variables disponibles et leurs valeurs :
 

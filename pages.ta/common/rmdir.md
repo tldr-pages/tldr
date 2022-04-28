@@ -1,7 +1,7 @@
 # rmdir
 
 > அடைவை அழி.
-> மேலும் தகவல்: <https://www.gnu.org/software/coreutils/rmdir>.
+> மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/rmdir>.
 
 - அடைவு வெறுமையாகயிருந்தால் அதனை அழி. உள்ளடக்கமுடைய அடைவை நீக்க `rm` யைப் பயன்படுத்தவும்:
 

@@ -1,12 +1,13 @@
 # users
 
 > Display a list of logged in users.
+> See also: `useradd`, `userdel`, `usermod`.
 > More information: <https://www.gnu.org/software/coreutils/users>.
 
-- Display a list of logged in users:
+- Print logged in usernames:
 
 `users`
 
-- Display a list of logged in users according to a specific file:
+- Print logged in usernames according to a given file:
 
 `users {{/var/log/wmtp}}`

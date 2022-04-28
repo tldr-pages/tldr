@@ -4,7 +4,7 @@
 > 此命令也有关于其子命令的文件，例如：`docker run`.
 > 更多信息：<https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- 列出目前正在运行的 docker 容器:
+- 列出目前正在运行的 docker 容器：
 
 `docker ps`
 
@@ -24,7 +24,7 @@
 
 `docker pull {{镜像}}`
 
-- 从正在运行的容器内打开一个 shell:
+- 从正在运行的容器内打开一个 shell：
 
 `docker exec -it {{容器名称}} {{sh}}`
 

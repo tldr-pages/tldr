@@ -2,7 +2,7 @@
 
 > Génère une archive d'un rapport de bug Android.
 > Cette commande peut être utilisé uniquement depuis `adb shell`.
-> Plus d'informations : <https://android.googlesource.com/platform/frameworks/native/+/master/cmds/bugreportz/>.
+> Plus d'informations : <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/bugreportz>.
 
 - Génère une archive à partir d'un rapport de bug d'un appareil Android :
 
