@@ -14,7 +14,7 @@ body:
     attributes:
       label: Command details
       description: Describe any details related to a command
-      placeholder: Tell us a command version for instance
+      placeholder: e.g. command version
   - type: dropdown
     attributes:
       label: OS
@@ -32,4 +32,4 @@ body:
     attributes:
       label: OS details
       description: Describe any details related to an operating system
-      placeholder: Tell us an OS version for instance
+      placeholder: e.g. OS version
