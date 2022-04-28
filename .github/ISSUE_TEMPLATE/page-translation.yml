@@ -1,24 +1,24 @@
 name: 📄 Page request
 title: "page translation: "
-description: Page translation request template
+description: Page translation request template.
 labels: new command, translation
 body:
   - type: textarea
     attributes:
       label: Command description
-      description: Describe a command you want to be translated
+      description: Describe a command you want to be translated.
       placeholder: Tell us what TLDR page you want to see!
     validations:
       required: true
   - type: input
     attributes:
       label: Command details
-      description: Describe any details related to a command
+      description: Describe any details related to a command.
       placeholder: e.g. command version
   - type: dropdown
     attributes:
       label: OS
-      description: Specify an operation system this command is implemented for (if you don't know please select "Other")
+      description: Specify an operation system this command is implemented for (if you don't know please select "Other").
       multiple: false
       options:
         - Linux
@@ -31,5 +31,5 @@ body:
   - type: input
     attributes:
       label: OS details
-      description: Describe any details related to an operating system
+      description: Describe any details related to an operating system.
       placeholder: e.g. OS version obtained via `uname -a`
