@@ -33,4 +33,8 @@ body:
     attributes:
       label: OS details
       description: Describe any details related to an operating system.
-      placeholder: e.g. OS version obtained via `uname -a`
+      placeholder: |
+        e.g. OS version obtained via:
+        `uname -a` for Linux
+        `sw_vers` for macOS
+        `ver` for Windows
