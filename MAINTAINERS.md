@@ -122,6 +122,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [2 February 2021](https://github.com/tldr-pages/tldr/issues/5219) — [25 June 2021](https://gitter.im/tldr-pages/tldr?at=60d615598a40b117282a96d7)
 - CleanMachine1 ([@CleanMachine1](https://github.com/CleanMachine1)):
   [14 June 2021](https://github.com/tldr-pages/tldr/issues/6123) — [14 December 2021](https://github.com/tldr-pages/tldr/issues/7541)
+- **Emily Grace Seville ([@EmilySeville7cfg](https://github.com/EmilySeville7cfg))**:
+  [25 April 2022](https://github.com/tldr-pages/tldr/issues/8053) — present
 
 ## Organization owners
 
