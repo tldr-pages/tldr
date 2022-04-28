@@ -7,7 +7,7 @@ body:
     attributes:
       label: Command description
       description: Describe a command you want to be summarized
-      placeholder: Tell us what Tl;Dr page you want to see!
+      placeholder: Tell us what TLDR page you want to see!
     validations:
       required: true
   - type: input
