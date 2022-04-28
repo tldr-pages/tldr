@@ -32,4 +32,4 @@ body:
     attributes:
       label: OS details
       description: Describe any details related to an operating system
-      placeholder: e.g. OS version
+      placeholder: e.g. OS version obtained via `uname -a`
