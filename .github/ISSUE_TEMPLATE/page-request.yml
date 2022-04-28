@@ -22,7 +22,7 @@ body:
       multiple: false
       options:
         - Linux
-        - Mac OS
+        - macOS
         - Windows
         - General
         - Other
