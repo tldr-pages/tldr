@@ -82,7 +82,7 @@ If you are an owner of the organization, you can see an automated list
   [6 September 2018](https://github.com/tldr-pages/tldr/issues/2306) — [21 June 2021](https://github.com/tldr-pages/tldr/issues/6142)
 - Seth Falco ([@SethFalco](https://github.com/SethFalco)):
   [19 May 2021](https://github.com/tldr-pages/tldr/issues/5993) - [21 June 2021](https://github.com/tldr-pages/tldr/issues/6149)
-- **Emily Grace Seville ([@EmilySeville7cfg](https://github.com/EmilySeville7cfg))**:
+- Emily Grace Seville ([@EmilySeville7cfg](https://github.com/EmilySeville7cfg)):
   [19 January 2022](https://github.com/tldr-pages/tldr/issues/1209#issuecomment-285924778) — [24 April 2022](https://github.com/tldr-pages/tldr/issues/8053)
 
 ## Organization members
