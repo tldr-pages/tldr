@@ -18,7 +18,7 @@ body:
   - type: dropdown
     attributes:
       label: OS
-      description: Specify an operation system this command is implemented for (if you don't know please select "Other").
+      description: Select an operating system category which this command falls into.
       multiple: false
       options:
         - Linux
