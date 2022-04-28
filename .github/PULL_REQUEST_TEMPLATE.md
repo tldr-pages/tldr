@@ -8,11 +8,10 @@ See also https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md
 
 - **Version of the command being documented:** 
 - **Brief description of the command being documented:** 
-<!-- Replace `latest` with a concreete version when you know it exactly. -->
 
-- [ ] New command pages or translations are added. <!-- Check if you create a documentation page to tldr-pages. -->
+- [ ] New command pages or translations are added.
 - [ ] All command pages are in correct platform directories: `common`, `linux`, `osx`, `windows`, `sunos`, `android`.
 - [ ] All command pages have 8 or fewer examples.
 - [ ] All command page descriptions have links to documentation or a homepage.
-- [ ] All command pages follow the [content guidelines](/tldr-pages/tldr/blob/main/CONTRIBUTING.md#guidelines). <!-- Check when you are sure in it. -->
-- [ ] The PR title conforms to the recommended [templates](/tldr-pages/tldr/blob/main/CONTRIBUTING.md#commit-message). <!-- Check when you are sure in it. -->
+- [ ] All command pages follow the [content guidelines](/tldr-pages/tldr/blob/main/CONTRIBUTING.md#guidelines).
+- [ ] The PR title conforms to the recommended [templates](/tldr-pages/tldr/blob/main/CONTRIBUTING.md#commit-message).
