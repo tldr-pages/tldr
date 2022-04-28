@@ -23,14 +23,14 @@
 
 `perl -p -i'.{{extension}}' -e 's/{{regular_expression}}/{{replacement}}/g' {{path/to/file}}`
 
-- Run a multi-line replacement expression on a file, and save the result in a specific file:
+- Run a multi-line replacement [e]xpression on a file, and save the result in a specific file:
 
 `perl -p -e 's/{{foo\nbar}}/{{foobar}}/g' {{path/to/input_file}} > {{path/to/output_file}}`
 
-- Run a regular expression on stdin, printing out matching [l]ines:
+- Run a regular [e]xpression on stdin, printing out matching [l]ines:
 
 `cat {{path/to/file}} | perl -n -l -e 'print if /{{regular_expression}}/'`
 
-- Run a regular expression on stdin, printing out only the first capture group for each matching [l]ine:
+- Run a regular [e]xpression on stdin, printing out only the first capture group for each matching [l]ine:
 
 `cat {{path/to/file}} | perl -n -l -e 'print $1 if /{{before}}({{regular_expression}}){{after}}/'`
