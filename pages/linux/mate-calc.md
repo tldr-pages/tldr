@@ -7,6 +7,6 @@
 
 `mate-calc`
 
-- Calculate a specific mathematic expession:
+- Calculate a specific mathematic expression:
 
 `mate-calc --solve {{2 + 5}}`
