@@ -31,6 +31,6 @@
 
 `gh pr edit --base {{branch_name}}`
 
-- Check the status of a repository's pull requests:
+- Check the status of the current repository's pull requests:
 
 `gh pr status`
