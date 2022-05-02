@@ -11,7 +11,7 @@
 
 `xed {{path/to/file1 path/to/file2 ...}}`
 
-- Open files in a specific encoding:
+- Open files using a specific encoding:
 
 `xed --encoding {{WINDOWS-1252}} {{path/to/file1 path/to/file2 ...}}`
 
