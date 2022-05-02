@@ -23,6 +23,6 @@
 
 `prettier --single-quote --trailing-comma {{none}} --write {{path/to/file_or_directory}}`
 
-- Format files with matching extensions:
+- Format JavaScript and TypeScript files recursively, replacing the original:
 
 `prettier --write "**/*.{js,jsx,ts,tsx}"`
