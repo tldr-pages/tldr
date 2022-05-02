@@ -19,6 +19,6 @@
 
 `xed --list-encodings`
 
-- Open file and go to a specific line:
+- Open a file and go to a specific line:
 
 `xed +{{10}} {{path/to/file}}`
