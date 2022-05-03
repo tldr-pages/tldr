@@ -3,7 +3,7 @@
 > Show KDE dialog boxes from within shell scripts.
 > More information: <https://develop.kde.org/deploy/kdialog/>.
 
-- Open a dialog box displaying a custom message:
+- Open a dialog box displaying a specific message:
 
 `kdialog --msgbox "{{message}}" "{{optional_detailed_message}}"`
 
@@ -19,11 +19,11 @@
 
 `kdialog --inputbox "{{message}}" "{{optional_default_text}}"`
 
-- Open a dialog to prompt for a password and print it to stdout:
+- Open a dialog to prompt for a specific password and print it to stdout:
 
 `kdialog --password "{{message}}"`
 
-- Open a dialog containing a dropdown menu and print the selected item to stdout:
+- Open a dialog containing a specific dropdown menu and print the selected item to stdout:
 
 `kdialog --combobx "{{message}}" "{{item1}}" "{{item2}}" "{{...}}"`
 
