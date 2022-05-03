@@ -6,7 +6,7 @@
 
 - List CPUs:
 
-`sudo cpupower --cpu cpulist`
+`sudo cpupower --cpu {{all}} info`
 
 - Print information about all cores:
 
