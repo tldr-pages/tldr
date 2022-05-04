@@ -17,7 +17,7 @@
 
 - Download a specific from a bucket:
 
-`s3cmd get s3://{{bucket}}/{{file}} {{local_file}}`
+`s3cmd get s3://{{bucket_name}}/{{path/to/file}} {{path/to/local_file}}`
 
 - Put file into bucket:
 
