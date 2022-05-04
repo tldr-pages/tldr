@@ -15,7 +15,7 @@
 
 `s3cmd mb s3://{{bucket}}`
 
-- Get file from Bucket:
+- Download a specific from a bucket:
 
 `s3cmd get s3://{{bucket}}/{{file}} {{local_file}}`
 
