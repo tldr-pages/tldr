@@ -23,7 +23,7 @@
 
 `s3cmd put {{local_file}} s3://{{bucket}}/{{file}}`
 
-- Move object:
+- Move an object to a specific bucket location:
 
 `s3cmd mv s3://{{src_bucket}}/{{src_object}} s3://{{dst_bucket}}/{{dst_object}}`
 
