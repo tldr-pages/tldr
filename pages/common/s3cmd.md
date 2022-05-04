@@ -3,13 +3,13 @@
 > Command line tool and client for uploading, retrieveing and managing data in S3 compatible object storage.
 > More information: <https://s3tools.org/s3cmd>.
 
-- Initial configuration:
+- Invoke configuration/reconfiguration tool:
 
 `s3cmd --configure`
 
 - List Buckets/Folders/Objects:
 
-`s3cmd ls s3://{{bucket}}`
+`s3cmd ls s3://{{bucket|path/to/file}}`
 
 - Make Bucket/Folder:
 
@@ -19,7 +19,7 @@
 
 `s3cmd get s3://{{bucket_name}}/{{path/to/file}} {{path/to/local_file}}`
 
-- Put file into bucket:
+- Upload a file to a bucket:
 
 `s3cmd put {{local_file}} s3://{{bucket}}/{{file}}`
 
