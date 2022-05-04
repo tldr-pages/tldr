@@ -27,6 +27,6 @@
 
 `s3cmd mv s3://{{src_bucket}}/{{src_object}} s3://{{dst_bucket}}/{{dst_object}}`
 
-- Delete object:
+- Delete a specific object:
 
 `s3cmd rm s3://{{bucket}}/{{object}}`
