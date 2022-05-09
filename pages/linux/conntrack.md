@@ -20,6 +20,6 @@
 
 `conntrack --event --orig-src {{ip_address}}`
 
-- Delete all flows to the specified source IP address:
+- Delete all flows for a specific source IP address:
 
 `conntrack --delete --orig-src {{ip_address}}`
