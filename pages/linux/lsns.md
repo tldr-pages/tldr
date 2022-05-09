@@ -1,6 +1,6 @@
 # lsns
 
-> List information about all namespaces or about the given namespace.
+> List information about all namespaces or about the specified namespace.
 > More information: <https://man7.org/linux/man-pages/man8/lsns.8.html>.
 
 - List all namespaces:
