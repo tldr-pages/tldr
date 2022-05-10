@@ -14,3 +14,7 @@
 - Monitor the contents of a directory, highlighting differences as they appear:
 
 `watch -d {{ls -l}}`
+
+- Execute with pipes in the command
+
+`watch '{{command_1}} | {{command_2}} | {{command_3}}'`
