@@ -6,7 +6,7 @@ See also https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md
 
 # Command info
 
-- **Version of the command being documented:**  
+- **Version of the command being documented (if known):**  
 
 - [ ] New command pages or translations are added.
 - [ ] All command pages are in correct platform directories: `common`, `linux`, `osx`, `windows`, `sunos`, `android`.
