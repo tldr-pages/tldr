@@ -34,3 +34,11 @@
 - Read from a given dump file:
 
 `tcpdump -r {{dumpfile.pcap}}`
+
+- Show the protocol head and package contents
+
+`tcpdump -X`
+
+- Print Data Link Layer's head, like source mac and destination mac, and Network Layer protocol.
+
+`tcpdump -e`
