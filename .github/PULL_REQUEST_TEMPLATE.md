@@ -8,7 +8,6 @@ See also https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md
 
 - **Version of the command being documented (if known):**  
 
-- [ ] New command pages or translations are added.
 - [ ] All command pages are in correct platform directories: `common`, `linux`, `osx`, `windows`, `sunos`, `android`.
 - [ ] All command pages have 8 or fewer examples.
 - [ ] All command page descriptions have links to documentation or a homepage.
