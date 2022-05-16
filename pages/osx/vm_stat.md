@@ -1,7 +1,7 @@
 # vm_stat
 
 > Show virtual memory statistics.
-> More information: <https://www.unix.com/man-page/osx/1/vm_stat/>.
+> More information: <https://www.unix.com/man-page/osx/1/vm_stat>.
 
 - Display virtual memory statistics:
 
