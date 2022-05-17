@@ -1,6 +1,7 @@
 # pidstat
 
 > Show system resource usage, including CPU, memory, IO etc.
+> More information: <https://manned.org/pidstat>.
 
 - Show CPU statistics at a 2 second interval for 10 times:
 

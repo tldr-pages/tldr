@@ -8,10 +8,6 @@
 
 `wl-paste`
 
-- Paste the contents of the clipboard and then clear it:
-
-`wl-paste --paste-once`
-
 - Write the contents of the clipboard to a file:
 
 `wl-paste > {{path/to/file}}`
@@ -19,7 +15,3 @@
 - Pipe the contents of the clipboard to a command:
 
 `wl-paste | {{command}}`
-
-- Clear the clipboard:
-
-`wl-paste --clear`

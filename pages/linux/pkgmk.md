@@ -1,6 +1,7 @@
 # pkgmk
 
 > Make a binary package for use with pkgadd on CRUX.
+> More information: <https://docs.oracle.com/cd/E19683-01/816-0210/6m6nb7mha/index.html>.
 
 - Make and download a package:
 

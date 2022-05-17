@@ -1,6 +1,7 @@
 # reboot
 
 > Reboot the system.
+> More information: <https://ss64.com/osx/reboot.html>.
 
 - Reboot immediately:
 

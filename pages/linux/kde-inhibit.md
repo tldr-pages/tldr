@@ -1,6 +1,7 @@
 # kde-inhibit
 
 > Inhibit various desktop functions while a command runs.
+> More information: <https://invent.kde.org/plasma/kde-cli-tools/-/blob/master/kdeinhibit/main.cpp>.
 
 - Inhibit power management:
 

@@ -19,6 +19,6 @@
 
 `whoami /upn`
 
-- 显示当前用户的登录 id:
+- 显示当前用户的登录 id：
 
 `whoami /logonid`

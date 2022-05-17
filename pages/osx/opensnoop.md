@@ -1,6 +1,7 @@
 # opensnoop
 
 > Tool that tracks file opens on your system.
+> More information: <https://ss64.com/osx/opensnoop.html>.
 
 - Print all file opens as they occur:
 
@@ -8,7 +9,7 @@
 
 - Track all file opens by a process by name:
 
-`sudo opensnoop -n {{process_name}}`
+`sudo opensnoop -n "{{process_name}}"`
 
 - Track all file opens by a process by PID:
 

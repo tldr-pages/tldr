@@ -1,7 +1,7 @@
 # fusermount
 
 > Mount and unmount FUSE filesystems.
-> More information: <https://man.archlinux.org/man/fusermount.1>.
+> More information: <https://manned.org/fusermount>.
 
 - Unmount a FUSE filesystem:
 

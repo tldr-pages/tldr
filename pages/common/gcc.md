@@ -5,20 +5,20 @@
 
 - Compile multiple source files into executable:
 
-`gcc {{source1.c}} {{source2.c}} --output {{executable}}`
+`gcc {{path/to/source1.c path/to/source2.c ...}} --output {{path/to/output_executable}}`
 
 - Allow warnings, debug symbols in output:
 
-`gcc {{source.c}} -Wall -Og --output {{executable}}`
+`gcc {{path/to/source.c}} -Wall -Og --output {{path/to/output_executable}}`
 
 - Include libraries from a different path:
 
-`gcc {{source.c}} --output {{executable}} -I{{header_path}} -L{{library_path}} -l{{library_name}}`
+`gcc {{path/to/source.c}} --output {{path/to/output_executable}} -I{{path/to/header}} -L{{path/to/library}} -l{{library_name}}`
 
 - Compile source code into Assembler instructions:
 
-`gcc -S {{source.c}}`
+`gcc -S {{path/to/source.c}}`
 
 - Compile source code without linking:
 
-`gcc -c {{source.c}}`
+`gcc -c {{path/to/source.c}}`

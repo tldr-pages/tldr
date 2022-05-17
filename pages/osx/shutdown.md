@@ -17,7 +17,7 @@
 
 - Reboot in 5 minutes:
 
-`shutdown -r +{{5}}`
+`shutdown -r "+{{5}}"`
 
 - Power off (halt) at 1:00 pm (Uses 24h clock):
 

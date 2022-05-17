@@ -7,11 +7,11 @@
 
 `carthage update`
 
-- 仅针对 IOS 平台，升级依赖文件 :
+- 仅针对 IOS 平台，升级依赖文件：
 
 `carthage update --platform ios`
 
-- 仅更新依赖，但不编译它们 :
+- 仅更新依赖，但不编译它们：
 
 `carthage update --no-build`
 
@@ -19,6 +19,6 @@
 
 `carthage bootstrap`
 
-- 重新编译特定依赖项 :
+- 重新编译特定依赖项：
 
 `carthage build {{依赖包}}`

@@ -11,7 +11,7 @@ jobs:
     steps:
 
     - name: Stale Bot
-      uses: actions/stale@v3
+      uses: actions/stale@v5
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
 

@@ -2,6 +2,7 @@
 
 > Remote Desktop Protocol client.
 > It can be used to connect the remote computer using the RDP protocol.
+> More information: <https://manned.org/rdesktop>.
 
 - Connect to a remote computer (default port is 3389):
 

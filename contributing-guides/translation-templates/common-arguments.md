@@ -34,7 +34,7 @@ Only the left-alignment of the header gets lost and has to be readded again (`|-
 | sv    |                      |                        |                                   |           |                   |
 | ta    | கோப்பு               | அடைவு                | கோப்போ/அடைவோ                | நிரல்தொகுப்பு | பயனர்ப்பெயர்   |
 | th    |                      |                        |                                   |           |                   |
-| tr    |                      |                        |                                   |           |                   |
+| tr    | dosya/yolu           | dizin/yolu             | dosya_veya_dizin/yolu             | paket     | kullanıcı_adı     |
 | uk    |                      |                        |                                   |           |                   |
 | uz    |                      |                        |                                   |           |                   |
 | zh    | 路径/到/文件         | 路径/到/目录           | 路径/到/文件或目录                | 包        | 用户名            |

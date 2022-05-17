@@ -17,8 +17,8 @@
 
 - Show tasks for a specified number of days:
 
-`icalBuddy -n tasksDueBefore:today+{{days}}`
+`icalBuddy -n "tasksDueBefore:today+{{days}}"`
 
 - Show events in a time range:
 
-`icalBuddy eventsFrom:'{{start_date}}' to:'{{end_date}}'`
+`icalBuddy eventsFrom:{{start_date}} to:{{end_date}}`
