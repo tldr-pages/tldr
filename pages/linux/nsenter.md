@@ -19,3 +19,11 @@
 - Run a specific command in an existing process's IPC namespace:
 
 `nsenter --target {{pid}} --ipc {{command}} {{command_arguments}}`
+
+- Run a specific command in an existing process's UTS, time, and IPC namespaces:
+
+`nsenter --target {{pid}} --uts --time --ipc -- {{command}} {{command_arguments}}`
+
+- Run a specific command in an existing process's namespace by referencing procfs:
+
+`nsenter --pid=/proc/{{pid}}/pid/net -- {{command}} {{command_arguments}}`
