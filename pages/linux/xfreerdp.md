@@ -21,4 +21,4 @@
 
 - Connect to a FreeRDP server ignoring any certificate checks:
 
-`xfreerdp /cert:ignore /v:{{ip_address}} /u:{{username}} /p:{{password}}`
+`xfreerdp /v:{{ip_address}} /u:{{username}} /p:{{password}} /cert:ignore`
