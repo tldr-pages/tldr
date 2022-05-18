@@ -17,7 +17,7 @@
 
 - Connect to a FreeRDP server with clipboard redirection:
 
-`xfreerdp +clipboard /v:{{ip_address}} /u:{{username}} /p:{{password}}`
+`xfreerdp /v:{{ip_address}} /u:{{username}} /p:{{password}} +clipboard`
 
 - Connect to a FreeRDP server ignoring any certificate checks:
 
