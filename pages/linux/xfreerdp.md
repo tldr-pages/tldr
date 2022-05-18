@@ -11,6 +11,14 @@
 
 `xfreerdp /u:{{username}} /p:{{password}} /v:{{ip_address}} /sound:{{sys:alsa}}`
 
-- Connect to a FreeRDP server with dynamic resolution, clipboard redirection and ignore any certificate checks:
+- Connect to a FreeRDP server with dynamic resolution:
 
-`xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:{{ip_address}} /u:{{username}} /p:{{password}}`
+`xfreerdp /dynamic-resolution /v:{{ip_address}} /u:{{username}} /p:{{password}}`
+
+- Connect to a FreeRDP server with clipboard redirection:
+
+`xfreerdp +clipboard /v:{{ip_address}} /u:{{username}} /p:{{password}}`
+
+- Connect to a FreeRDP server ignoring any certificate checks:
+
+`xfreerdp /cert:ignore /v:{{ip_address}} /u:{{username}} /p:{{password}}`
