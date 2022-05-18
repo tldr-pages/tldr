@@ -13,7 +13,7 @@
 
 - Connect to a FreeRDP server with dynamic resolution:
 
-`xfreerdp /dynamic-resolution /v:{{ip_address}} /u:{{username}} /p:{{password}}`
+`xfreerdp /v:{{ip_address}} /u:{{username}} /p:{{password}} /dynamic-resolution`
 
 - Connect to a FreeRDP server with clipboard redirection:
 
