@@ -1,8 +1,7 @@
 # hashcat
 
 > Fast and advanced password recovery tool.
-> [Official Documentation](https://hashcat.net/wiki/doku.php?id=hashcat).
-> [Example hashes](https://hashcat.net/wiki/doku.php?id=example_hashes).
+> More information: <https://hashcat.net/wiki/doku.php?id=hashcat>.
 
 - Perform a brute-force attack (mode 3) with the default hashcat mask:
 
