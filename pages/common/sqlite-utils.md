@@ -5,7 +5,7 @@
 
 - Create a database:
 
-`sqlite-utils create-database person.db`
+`sqlite-utils create-database {{path/to/database.db}}`
 
 - Create a table:
 
