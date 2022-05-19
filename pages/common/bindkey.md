@@ -5,7 +5,7 @@
 
 - Bind a hotkey to a specific command:
 
-`bindkey '^k' kill-line`
+`bindkey "{{^k}}" {{kill-line}}`
 
 - Bind a hotkey to arbitary key sequence:
 
