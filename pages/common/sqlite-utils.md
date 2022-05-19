@@ -25,7 +25,7 @@
 
 - Drop a table:
 
-`sqlite-utils drop-table person.db people`
+`sqlite-utils drop-table {{path/to/database.db}} {{table_name}}`
 
 - Show help information:
 
