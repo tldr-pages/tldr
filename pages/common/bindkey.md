@@ -3,7 +3,7 @@
 > Add keybindings to Z-Shell.
 > More information: <https://zsh.sourceforge.io/Guide/zshguide04.html>.
 
-- Bind a hotkey to a command:
+- Bind a hotkey to a specific command:
 
 `bindkey '^k' kill-line`
 
