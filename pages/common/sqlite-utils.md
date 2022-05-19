@@ -21,7 +21,7 @@
 
 - Delete a record:
 
-`sqlite-utils query person.db "delete from people where name = 'Tony Hoare'"`
+`sqlite-utils query {{path/to/database.db}} {{"delete from people where name = 'Tony Hoare'"}}`
 
 - Drop a table:
 
