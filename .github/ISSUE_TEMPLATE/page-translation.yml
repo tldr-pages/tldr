@@ -1,0 +1,40 @@
+name: 📄 Page translation request
+title: "page translation: "
+description: Page translation request template.
+labels: new command, translation
+body:
+  - type: textarea
+    attributes:
+      label: Command description
+      description: Describe a command you want to be translated.
+      placeholder: Tell us what TLDR page you want to see!
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Command details
+      description: Describe any details related to a command.
+      placeholder: e.g. command version
+  - type: dropdown
+    attributes:
+      label: OS
+      description: Select an operating system category which this command falls into.
+      multiple: false
+      options:
+        - Linux
+        - Android
+        - macOS
+        - Windows
+        - General
+        - Other
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: OS details
+      description: Describe any details related to an operating system.
+      placeholder: |
+        e.g. OS version obtained via:
+        `uname -a` for Linux
+        `sw_vers` for macOS
+        `ver` for Windows
