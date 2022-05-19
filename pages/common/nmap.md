@@ -30,7 +30,7 @@
 
 - Scan web server running on standard ports 80 and 443 using all available `http-*` NSE scripts:
 
-`nmap --script "http-*" {{address_or_addresses}}` -p 80,443
+`nmap --script "http-*" {{address_or_addresses}} -p 80,443`
 
 - Perform a stealthy very slow scan (`-T0`) trying to avoid detection by IDS/IPS and use decoy (`-D`) source IP addresses:
 
