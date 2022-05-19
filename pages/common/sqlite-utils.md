@@ -9,7 +9,7 @@
 
 - Create a table:
 
-`sqlite-utils create-table person.db people id integer name text height float photo blob --pk id`
+`sqlite-utils create-table {{path/to/database.db}} {{table_name}} {{id integer name text height float photo blob --pk id}}`
 
 - Upsert a record:
 
