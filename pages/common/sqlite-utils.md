@@ -17,7 +17,7 @@
 
 - Select records:
 
-`sqlite-utils rows person.db people`
+`sqlite-utils rows {{path/to/database.db}} {{table_name}}`
 
 - Delete a record:
 
