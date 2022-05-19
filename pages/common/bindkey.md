@@ -7,7 +7,7 @@
 
 `bindkey "{{^k}}" {{kill-line}}`
 
-- Bind a hotkey to arbitary key sequence:
+- Bind a hotkey to a specific key sequence:
 
 `bindkey -s '^o' 'cd ..\n'`
 
