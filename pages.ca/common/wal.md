@@ -13,15 +13,15 @@
 
 - Crea un esquema de colors clars:
 
-`wal -il {{imatge.png}}`
+`wal -i {{imatge.png}} -l`
 
 - No canvia el fons de pantalla:
 
-`wal -in {{imatge.png}}`
+`wal -i {{imatge.png}} -n`
 
 - No canvia els colors de la terminal:
 
-`wal -is {{imatge.png}}`
+`wal -i {{imatge.png}} -s`
 
 - Restableix l'anterior fonts de pantalla i esquema de colors generat:
 
