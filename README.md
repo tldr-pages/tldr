@@ -84,7 +84,7 @@ to see the current progress of all translations.
 
 ## Similar projects
 
-- [Bro pages](http://bropages.org/)
+- [Bro pages (deprecated)](http://bropages.org)
   are a highly readable supplement to man pages.
   Bro pages show concise, common-case examples for Unix commands.
   The examples are submitted by the user base, and can be voted up or down;
