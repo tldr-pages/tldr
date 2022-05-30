@@ -17,4 +17,4 @@
 
 - Force an update of the desktop menu system:
 
-`xdg-desktop-menu --forceupdate {{user|system}}`
+`xdg-desktop-menu forceupdate --mode {{user|system}}`
