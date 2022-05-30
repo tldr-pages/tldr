@@ -12,7 +12,7 @@
 
 `hydra -l {{username}} -P {{path/to/wordlist.txt}} {{host_ip}} {{ssh}}`
 
-- Guess HTTPS webform credentials using a list of usernames and a list of passwords:
+- Guess HTTPS webform credentials using two specific lists of usernames and passwords ("https_post_request" can be like "username=^USER^&password=^PASS^"):
 
 `hydra -L {{path/to/usernames.txt}} -P {{path/to/wordlist.txt}} {{host_ip}} {{https-post-form}} "{{url_without_host}}:{{https_post_request}}:{{login_failed_string}}"`
 
