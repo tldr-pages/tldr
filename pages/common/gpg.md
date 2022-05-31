@@ -12,9 +12,9 @@
 
 `gpg --clearsign {{doc.txt}}`
 
-- Encrypt `doc.txt` for alice@example.com (output to `doc.txt.gpg`):
+- Encrypt and sign `doc.txt` for alice@example.com and bob@example.com (output to `doc.txt.gpg`):
 
-`gpg --encrypt --recipient {{alice@example.com}} {{doc.txt}}`
+`gpg --encrypt --sign --recipient {{alice@example.com}} --recipient {{bob@example.com}} {{doc.txt}}`
 
 - Encrypt `doc.txt` with only a passphrase (output to `doc.txt.gpg`):
 
