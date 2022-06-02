@@ -1,7 +1,7 @@
 # gpg
 
 > GNU Privacy Guard.
-> See `gpg2` for GNU Privacy Guard 2.
+> See `gpg2` for GNU Privacy Guard 2. Most operating systems symlink `gpg` to `gpg2`.
 > More information: <https://gnupg.org>.
 
 - Create a GPG public and private key interactively:
