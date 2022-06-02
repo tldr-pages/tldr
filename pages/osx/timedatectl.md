@@ -1,7 +1,7 @@
 # timedatectl
 
 > Show or control the system date and time.
-> More information: <https://www.freedesktop.org/software/systemd/man/timedatectl.html>.
+> More information: <https://manned.org/timedatectl>.
 
 - Show current time/date, and options:
 
