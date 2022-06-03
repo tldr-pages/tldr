@@ -15,6 +15,6 @@
 
 `watch -d {{ls -l}}`
 
-- Execute with pipes in the command:
+- Repeatedly run a pipeline and show the result:
 
 `watch '{{command_1}} | {{command_2}} | {{command_3}}'`
