@@ -9,7 +9,7 @@
 
 - Save a video as GIF, scaling the height to 1000px and setting framerate to 15:
 
-`ffmpeg -i {{video.mp4}} -vf 'scale=-1:1000' -r 15 {{output}}.gif`
+`ffmpeg -i {{video.mp4}} -vf 'scale=-1:{{1000}}' -r {{15}} {{output.gif}}`
 
 - Combine numbered images (`frame_1.jpg`, `frame_2.jpg`, etc) into a video or GIF:
 
