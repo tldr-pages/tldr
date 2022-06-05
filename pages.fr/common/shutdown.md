@@ -1,7 +1,7 @@
 # shutdown
 
-> Mettrez le système hors tension
-> Plus d'informations: https://linux.die.net/man/8/shutdown
+> Mettrez le système hors tension.
+> Plus d'informations: <https://manned.org/shutdown.8>.
 
 - Mettrez le système hors tension maintenant :
 
