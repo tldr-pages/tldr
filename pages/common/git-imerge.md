@@ -1,7 +1,7 @@
 # git-imerge
 
 > Performs incremental merge or rebase between two Git branches.
-> Conflicts between are tracked down to pairs of individual commits, to simplify conflict resolution.
+> Conflicts between branches are tracked down to pairs of individual commits, to simplify conflict resolution.
 > More information: <https://github.com/mhagger/git-imerge>.
 
 - Start imerge-based rebase (checkout the branch to be rebased, first):
