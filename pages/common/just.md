@@ -11,7 +11,7 @@
 
 `just --init`
 
-- Edit justfile with editor given by $VISUAL or $EDITOR, falling back to vim:
+- Edit justfile in the default editor:
 
 `just -e`
 
