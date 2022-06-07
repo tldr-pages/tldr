@@ -20,7 +20,7 @@
 
 `git-imerge continue`
 
-- Finish merge or rebaes, after all conflicts are resolved:
+- Finish a merge or a rebase, after all conflicts are resolved:
 
 `git-imerge finish`
 
