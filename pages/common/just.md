@@ -1,6 +1,6 @@
 # just
 
-> A handy way to save and run project-specific commands.
+> Save and run project-specific commands.
 > More information: <https://github.com/casey/just>.
 
 - Run a recipe specified in the justfile:
