@@ -40,10 +40,10 @@ It certainly doesn't help that the first option explained in `man tar` is:
 There seems to be room for simpler help pages, focused on practical examples.
 How about:
 
-![animated svg of the tldr client displaying the tar command](images/tldr.svg)
+![Animated SVG of the tldr client displaying the tar command.](images/tldr.svg)
 
 This repository is just that: an ever-growing collection of examples
-for the most common UNIX, Linux, macOS, SunOS and Windows command-line tools.
+for the most common UNIX, Linux, macOS, SunOS, and Windows command-line tools.
 
 ## How do I use it?
 
@@ -69,7 +69,7 @@ For a comprehensive list of clients, head over to our [Wiki](https://github.com/
 
 ## How do I contribute?
 
-- Your favourite command isn't covered?
+- Your favorite command isn't covered?
 - You can think of more examples for an existing command?
 
 All `tldr` pages are kept as Markdown files right here in this repository,
@@ -83,12 +83,6 @@ If you'd like to contribute to translations, you can visit <https://lukwebsforge
 to see the current progress of all translations.
 
 ## Similar projects
-
-- [Bro pages](http://bropages.org/)
-  are a highly readable supplement to man pages.
-  Bro pages show concise, common-case examples for Unix commands.
-  The examples are submitted by the user base, and can be voted up or down;
-  the best entries are what people see first when they look up a command.
 
 - [Cheat](https://github.com/cheat/cheat)
   allows you to create and view interactive cheatsheets on the command-line.
@@ -116,6 +110,12 @@ to see the current progress of all translations.
 - [navi](https://github.com/denisidoro/navi)
   is an interactive cheatsheet tool, which allows you to browse through
   specific examples or complete commands on the fly.
+
+- [bropages (deprecated)](http://bropages.org)
+  are a highly readable supplement to man pages.
+  It shows concise, common-case examples for Unix commands.
+  The examples are submitted by the user base, and can be voted up or down;
+  the best entries are what people see first when they look up a command.
 
 ## What does "tldr" mean?
 
