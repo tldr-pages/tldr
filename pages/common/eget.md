@@ -7,7 +7,7 @@
 
 `eget {{zyedidia/micro}}`
 
-- Download from a URL, which doesn't have to be on GitHub:
+- Download from a URL:
 
 `eget {{https://go.dev/dl/go1.17.5.linux-amd64.tar.gz}}`
 
