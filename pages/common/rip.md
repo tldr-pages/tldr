@@ -3,7 +3,7 @@
 > Remove files or directories by sending them to the graveyard, allowing for them to be recovered.
 > More information: <https://github.com/nivekuil/rip>.
 
-- Remove files or directories from arbitrary locations and place them in the graveyard:
+- Remove files or directories from specified locations and place them in the graveyard:
 
 `rip {{path/to/file_or_directory}} {{path/to/another/file_or_directory}}`
 
