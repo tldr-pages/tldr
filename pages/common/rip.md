@@ -11,7 +11,7 @@
 
 `rip -i {{path/to/file_or_directory}} {{path/to/another/file_or_directory}}`
 
-- List all files in the graveyard that were somewhere in the current directory:
+- List all files in the graveyard that were originally somewhere in the current directory:
 
 `rip -s`
 
