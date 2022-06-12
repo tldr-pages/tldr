@@ -19,10 +19,10 @@
 
 `rip -d`
 
-- Undo the last removal:
+- Put back the files and directories which were affected by the most recent removal:
 
 `rip -u`
 
-- Undo all removals that are listed by `rip -s`:
+- Put back all files and directories that are listed by `rip -s`:
 
 `rip -su`
