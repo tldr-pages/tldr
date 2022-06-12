@@ -11,6 +11,10 @@
 
 `sqlite-utils create-table {{path/to/database.db}} {{table_name}} {{id integer name text height float photo blob --pk id}}`
 
+- List tables:
+
+`sqlite-utils tables {{path/to/database.db}}`
+
 - Upsert a record:
 
 `{{echo '[ {"id": 1, "name": "Linus Torvalds"}, {"id": 2, "name": "Steve Wozniak"}, {"id": 3, "name": "Tony Hoare"} ]'}} | sqlite-utils upsert {{path/to/database.db}} {{table_name}} - {{--pk id}}`
