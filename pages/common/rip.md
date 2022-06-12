@@ -23,6 +23,6 @@
 
 `rip -u`
 
-- Put back all files and directories that are listed by `rip -s`:
+- Put back every file and directory that is listed by `rip -s`:
 
 `rip -su`
