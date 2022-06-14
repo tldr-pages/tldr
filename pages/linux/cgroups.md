@@ -4,8 +4,6 @@
 > Cgroups however is not a command, but rather a collection of commands, see the relevant pages below.
 > More information: <https://www.kernel.org/doc/Documentation/cgroup-v2.txt>.
 
-cgroups does not have man page. `cgcreate`, `cgexec`, and `cgclassify` are the tools collectively known as cgroups. These tools are used or responsible for management of `cgroup`. Please refer to the respective man pages for futher info.
-
 - Show the tldr page for `cgclassify`:
 
 `tldr cgclassify`
