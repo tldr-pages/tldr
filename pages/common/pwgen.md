@@ -1,7 +1,7 @@
 # pwgen
 
 > Generate pronounceable passwords.
-> More information: <https://github.com/tytso/pwgen>
+> More information: <https://github.com/tytso/pwgen>.
 
 - Generate random password with s[y]mbols:
 
