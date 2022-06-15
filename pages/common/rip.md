@@ -17,7 +17,7 @@
 
 - Permanently delete every file and directory in the graveyard:
 
-`rip -d`
+`rip --decompose`
 
 - Put back the files and directories which were affected by the most recent removal:
 
