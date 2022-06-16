@@ -7,7 +7,7 @@
 
 `isisdl`
 
-- Limit the download rate to 20 MiB/s and download with 5 threads 
+- Limit the download rate to 20 MiB/s and download with 5 threads:
 
 `isisdl -d 20 -t 5`
 
