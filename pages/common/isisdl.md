@@ -9,7 +9,7 @@
 
 - Limit the download rate to 20 MiB/s and download with 5 threads:
 
-`isisdl -d 20 -t 5`
+`isisdl --download-rate {{20}} --max-num-threads {{5}}`
 
 - Run the initialization configuration wizard:
 
