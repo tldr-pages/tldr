@@ -23,6 +23,6 @@
 
 `isisdl --sync`
 
-- Start ffmpeg and compress your downloaded videos:
+- Start ffmpeg to compress downloaded videos:
 
 `isisdl --compress`
