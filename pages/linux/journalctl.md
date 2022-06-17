@@ -11,8 +11,7 @@
 
 `journalctl -b -1`
 
-- Delete journal logs which are older than 2 days 
-
+- Delete journal logs which are older than 2 days:
 
 `journalctl --vacuum-time{{2d}}`
 
