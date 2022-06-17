@@ -19,7 +19,7 @@
 
 `isisdl --config`
 
-- Do a full synchronization of the database computing all the checksums in the process:
+- Initiate a full synchronization of the database and compute the checksum of every file:
 
 `isisdl --sync`
 
