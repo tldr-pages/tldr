@@ -13,7 +13,7 @@
 
 - Delete journal logs which are older than 2 days:
 
-`journalctl --vacuum-time{{2d}}`
+`journalctl --vacuum-time={{2d}}`
 
 - [f]ollow new messages (like `tail -f` for traditional syslog):
 
