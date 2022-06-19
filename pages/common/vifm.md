@@ -14,10 +14,8 @@ vifm (VI File Manager) is a command line file manager
 
 `~/.config/vifm/vifmrc`
 
-## misc
-
 Preview images and other files with vifmimg https://github.com/cirala/vifmimg
 
-Get new theme with https://github.com/cirala/vifmimg
+Get new themes from https://github.com/cirala/vifmimg
 
 Check out the cheatsheet https://vifm.info/cheatsheets.shtml
