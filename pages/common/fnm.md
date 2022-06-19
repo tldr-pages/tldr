@@ -10,7 +10,7 @@
 
 - List all available Node.js versions and highlight the default one:
 
-`fnm ls`
+`fnm list`
 
 - Use a specific version of Node.js in the current shell:
 

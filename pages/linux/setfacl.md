@@ -1,6 +1,7 @@
 # setfacl
 
 > Set file access control lists (ACL).
+> More information: <https://manned.org/setfacl>.
 
 - Modify ACL of a file for user with read and write access:
 

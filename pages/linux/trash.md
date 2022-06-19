@@ -19,7 +19,7 @@
 
 `trash-empty`
 
-- Permanentely delete all files in the trash which are older than 10 days:
+- Permanently delete all files in the trash which are older than 10 days:
 
 `trash-empty {{10}}`
 

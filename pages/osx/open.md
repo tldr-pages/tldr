@@ -1,6 +1,7 @@
 # open
 
 > Opens files, directories and applications.
+> More information: <https://ss64.com/osx/open.html>.
 
 - Open a file with the associated application:
 
@@ -8,7 +9,7 @@
 
 - Run a graphical macOS application:
 
-`open -a {{Application}}`
+`open -a "{{Application}}"`
 
 - Run a graphical macOS app based on the bundle identifier (refer to `osascript` for an easy way to get this):
 

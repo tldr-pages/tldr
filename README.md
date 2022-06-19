@@ -39,9 +39,10 @@ It certainly doesn't help that the first option explained in `man tar` is:
 There seems to be room for simpler help pages, focused on practical examples.
 How about:
 
-![animated svg of the tldr client displaying the tar command](images/tldr.svg)
+![Animated SVG of the tldr client displaying the tar command.](images/tldr.svg)
 
 This repository is just that: an ever-growing collection of examples
+
 for the most common UNIX, Linux, macOS, SunOS, Android and Windows command-line tools.
 
 ## How do I use it?
@@ -95,12 +96,6 @@ to see the overall progress of all translations, and which translations are miss
 
 ## Similar projects
 
-- [Bro pages](http://bropages.org/)
-  are a highly readable supplement to man pages.
-  Bro pages show concise, common-case examples for Unix commands.
-  The examples are submitted by the user base, and can be voted up or down;
-  the best entries are what people see first when they look up a command.
-
 - [Cheat](https://github.com/cheat/cheat)
   allows you to create and view interactive cheatsheets on the command-line.
   It was designed to help remind *nix system administrators of options
@@ -127,6 +122,12 @@ to see the overall progress of all translations, and which translations are miss
 - [navi](https://github.com/denisidoro/navi)
   is an interactive cheatsheet tool, which allows you to browse through
   specific examples or complete commands on the fly.
+
+- [bropages (deprecated)](http://bropages.org)
+  are a highly readable supplement to man pages.
+  It shows concise, common-case examples for Unix commands.
+  The examples are submitted by the user base, and can be voted up or down;
+  the best entries are what people see first when they look up a command.
 
 ## What does "tldr" mean?
 

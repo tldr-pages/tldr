@@ -11,6 +11,6 @@
 
 `po4a-gettextize --help-format`
 
-- Convert a text file along with a translated document to a PO file (`-l` option can be provied multiple times):
+- Convert a text file along with a translated document to a PO file (`-l` option can be provided multiple times):
 
 `po4a-gettextize --format {{text}} --master {{path/to/master.txt}} --localized {{path/to/translated.txt}} --po {{path/to/result.po}}`

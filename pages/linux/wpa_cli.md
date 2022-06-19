@@ -1,6 +1,7 @@
 # wpa_cli
 
 > Add and configure wlan interfaces.
+> More information: <https://manned.org/wpa_cli>.
 
 - Scan for available networks:
 

@@ -7,15 +7,15 @@
 
 `gh pr create`
 
-- Check out a pull request locally:
+- Check out a specific pull request locally:
 
 `gh pr checkout {{pr_number}}`
 
-- View the changes made in the PR:
+- View the changes made in the pull request for the current branch:
 
 `gh pr diff`
 
-- Approve the pull request of the current branch:
+- Approve the pull request for the current branch:
 
 `gh pr review --approve`
 
@@ -30,3 +30,7 @@
 - Edit the base branch of a pull request:
 
 `gh pr edit --base {{branch_name}}`
+
+- Check the status of the current repository's pull requests:
+
+`gh pr status`
