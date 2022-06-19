@@ -1,4 +1,5 @@
 # vifm
+
 vifm (VI File Manager) is a command line file manager 
 
 - open current directory:
