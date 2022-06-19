@@ -5,11 +5,11 @@
 
 - Tag a specific file with multiple tags:
 
-`tmsu tag {{summer.mp3}} {{music}} {{big-jazz}} {{mp3}}`
+`tmsu tag {{path/to/file.mp3}} {{music}} {{big-jazz}} {{mp3}}`
 
 - Tag multiple files:
 
-`tmsu tag --tags {{"music mp3"}} {{*.mp3}}`
+`tmsu tag --tags "{{music mp3}}" {{*.mp3}}`
 
 - List tags of specified file(s):
 
@@ -25,4 +25,4 @@
 
 - Mount tmsu virtual filesystem to an existing directory:
 
-`tmsu mount {{path/to/tmsu-virtual-fs}}`
+`tmsu mount {{path/to/directory}}`
