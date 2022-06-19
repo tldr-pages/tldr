@@ -7,7 +7,7 @@
 
 `cloud-init status`
 
-- Wait for cloud-init to finish running, then report status:
+- Wait for cloud-init to finish running and then report status:
 
 `cloud-init status --wait`
 
