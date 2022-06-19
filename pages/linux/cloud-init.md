@@ -11,7 +11,7 @@
 
 `cloud-init status --wait`
 
-- List metadata keys available to query:
+- List available top-level metadata keys to query:
 
 `cloud-init query --list-keys`
 
