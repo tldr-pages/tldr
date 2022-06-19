@@ -2,15 +2,15 @@
 
 Vifm (VI File Manager) is a command line file manager 
 
-- open current directory:
+- Open current directory:
 
 `vifm .`
 
-- open specified directories on left or right plane:
+- Open specified directories on left or right plane:
 
 `vifm ~/Downloads ~/Pictures`
 
-- configuration file location:
+- Configuration file location:
 
 `~/.config/vifm/vifmrc`
 
