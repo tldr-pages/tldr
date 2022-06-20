@@ -2,7 +2,6 @@
 
 > Vifm (VI File Manager) is a command line file manager.
 > More information: <https://github.com/vifm/vifm>.
-> Check out the cheatsheet at <https://vifm.info/cheatsheets.shtml>.
 
 - Open current directory:
 
