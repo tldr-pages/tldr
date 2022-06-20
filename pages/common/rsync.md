@@ -16,6 +16,10 @@
 
 `rsync -azvhP {{path/to/local_file}} {{remote_host}}:{{path/to/remote_directory}}`
 
+- Transfer file in [a]rchive and preserves the [A]ccess list and e[X]tended attributes with [d]elete option which only transfer difference existing between the source and the destination:
+
+`rsync -aAXv –-delete {{path/to/local_file}} {{remote_host}}:{{path/to/remote_directory}}`
+
 - Transfer a directory and all its children from a remote to local:
 
 `rsync -r {{remote_host}}:{{path/to/remote_directory}} {{path/to/local_directory}}`
@@ -23,6 +27,10 @@
 - Transfer directory contents (but not the directory itself) from a remote to local:
 
 `rsync -r {{remote_host}}:{{path/to/remote_directory}}/ {{path/to/local_directory}}`
+
+- Transfer directory [e]xclude specific directory inside it: 
+
+`rsync -r --exclude={{path/to/local_directory}} {{path/to/local_file}} {{remote_host}}:{{path/to/remote_directory}}`
 
 - Transfer a directory [r]ecursively, in [a]rchive to preserve attributes, resolving contained soft[l]inks , and ignoring already transferred files [u]nless newer:
 
