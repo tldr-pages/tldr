@@ -10,7 +10,7 @@
 
 - Open specified directories on left or right plane:
 
-`vifm ~/Downloads ~/Pictures`
+`vifm {{path/to/directory_1}} {{path/to/directory_2}}`
 
 - Configuration file location:
 
