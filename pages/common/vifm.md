@@ -11,7 +11,3 @@
 - Open specified directories on left or right plane:
 
 `vifm {{path/to/directory_1}} {{path/to/directory_2}}`
-
-- Configuration file location:
-
-`~/.config/vifm/vifmrc`
