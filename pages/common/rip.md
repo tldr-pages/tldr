@@ -23,6 +23,6 @@
 
 `rip --unbury`
 
-- Put back every file and directory that is listed by `rip -s`:
+- Put back every file and directory that is listed by `rip --seance`:
 
 `rip --seance --unbury`
