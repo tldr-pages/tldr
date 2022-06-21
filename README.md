@@ -42,7 +42,6 @@ How about:
 ![Animated SVG of the tldr client displaying the tar command.](images/tldr.svg)
 
 This repository is just that: an ever-growing collection of examples
-
 for the most common UNIX, Linux, macOS, SunOS, Android and Windows command-line tools.
 
 ## How do I use it?
