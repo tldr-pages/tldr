@@ -25,4 +25,4 @@
 
 - Put back every file and directory that is listed by `rip -s`:
 
-`rip -su`
+`rip --seance --unbury`
