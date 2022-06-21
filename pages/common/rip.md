@@ -21,7 +21,7 @@
 
 - Put back the files and directories which were affected by the most recent removal:
 
-`rip -u`
+`rip --unbury`
 
 - Put back every file and directory that is listed by `rip -s`:
 
