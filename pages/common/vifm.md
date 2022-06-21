@@ -3,7 +3,7 @@
 > Vifm (VI File Manager) is a command line file manager.
 > More information: <https://github.com/vifm/vifm>.
 
-- Open current directory:
+- Open the current directory:
 
 `vifm {{.}}`
 
