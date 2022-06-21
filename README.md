@@ -61,7 +61,7 @@ Alternatively, you can also use the [Python client](https://github.com/tldr-page
 pip3 install tldr
 ```
 
-Then you have direct access to simplified, easy-to-read help for commands, such as tar,
+Then you have direct access to simplified, easy-to-read help for commands, such as `tar`,
 accessible through typing `tldr tar` instead of the standard `man tar`.
 
 If you want an offline version without installing any software,
