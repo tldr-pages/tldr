@@ -13,7 +13,7 @@
 
 - List all files and directories in the graveyard that were originally within the current directory:
 
-`rip -s`
+`rip --seance`
 
 - Permanently delete every file and directory in the graveyard:
 
