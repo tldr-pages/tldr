@@ -1,6 +1,6 @@
 # ani-cli
 
-> A cli to browse and watch anime (alone AND with friends).
+> A cli to browse and watch anime.
 > More information: <https://github.com/pystardust/ani-cli>.
 
 - Search anime by name:
@@ -23,6 +23,6 @@
 
 `ani-cli -c`
 
-- Fetch update from github:
+- Update ani-cli:
 
 `ani-cli -U`
