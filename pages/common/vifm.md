@@ -5,7 +5,7 @@
 
 - Open the current directory:
 
-`vifm {{.}}`
+`vifm .`
 
 - Open specified directories on left or right plane:
 
