@@ -9,7 +9,7 @@
 
 - Interactively remove files or directories, with a prompt before every removal:
 
-`rip -i {{path/to/file_or_directory}} {{path/to/another/file_or_directory}}`
+`rip --inspect {{path/to/file_or_directory}} {{path/to/another/file_or_directory}}`
 
 - List all files and directories in the graveyard that were originally within the current directory:
 
