@@ -11,7 +11,7 @@
 
 `ugrep "{{SuchMuster}}"`
 
-- Suche rekursiv alle Dateien die ein reguläres Ausdrucksmuster enthalten:
+- Suche in einer Datei oder in allen Dateien in einem bestimmten Verzeichnis und zeige die Zeilennummer jedes Treffers:
 
 `ugrep --line-number "{{SuchMuster}}" {{path/to/file_or_directory}}`
 
