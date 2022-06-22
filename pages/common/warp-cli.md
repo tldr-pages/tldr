@@ -3,6 +3,10 @@
 > Official command-line client for Cloudflare's WARP service.
 > More information: <https://developers.cloudflare.com/warp-client/>.
 
+- Start WARP service if it is not already enabled:
+
+`sudo systemctl start warp-svc`
+
 - Register the current device to WARP (must be run before first connection):
 
 `warp-cli register`
