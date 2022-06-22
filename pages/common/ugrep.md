@@ -29,7 +29,7 @@
 
 - Search only files whose filenames match a specific glob pattern:
 
-`ugrep --glob="{{foo*.???}}" "{{search_pattern}}"`
+`ugrep --glob="{{glob_pattern}}" "{{search_pattern}}"`
 
 - Search only C++ source files (use `--type=list` to list all file types):
 
