@@ -21,4 +21,4 @@
 
 - Change permissions recursively:
 
-`chmod --recursive {{u}}{{+|-|=}}{{r}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
+`chmod --recursive {{u}}{{+}}{{r}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
