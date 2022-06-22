@@ -9,16 +9,16 @@
 
 - Add specific permissions for an owner/users in [g]roup/[o]ther users/[a]ll at once:
 
-`chmod {{u|g|o|a}}+{{permissions}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
+`chmod {{u|g|o|a}}+{{r}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
 - Add/remove/replace specific permissions:
 
-`chmod {{users}}{{+|-|=}}{{permissions}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
+`chmod {{u}}{{+|-|=}}{{r}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
 - Remove all permissions:
 
-`chmod {{users}}= {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
+`chmod {{u}}= {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
 - Change permissions recursively:
 
-`chmod --recursive {{users}}{{+|-|=}}{{permissions}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
+`chmod --recursive {{u}}{{+|-|=}}{{r}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
