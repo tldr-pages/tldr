@@ -7,7 +7,7 @@
 
 `ugrep --query`
 
-- Suche rekursiv alle Dateien die ein reguläres Ausdrucksmuster enthalten:
+- Suche im aktuellen Verzeichnis rekursiv nach Dateien, die einem bestimmten regulären Ausdruck entsprechen:
 
 `ugrep "{{SuchMuster}}"`
 
