@@ -1,6 +1,6 @@
 # flyctl
 
-> Command-line tool for flyctl.io
+> Command-line tool for flyctl.io.
 > More information: <https://github.com/superfly/flyctl>.
 
 - Sign into fly account:
