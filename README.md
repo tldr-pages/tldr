@@ -83,7 +83,7 @@ Some ways to contribute include:
 - Adding examples or improving the content of an existing page.
 - Translating pages into different languages.
 
-All `tldr` pages are written in markdown, so they can be edited fairly simply and changes can be submitted in
+All `tldr` pages are written in markdown, so they can be edited quite easily and changes can be submitted in
 pull requests here using Git on the command-line or
 using the GitHub web interface.
 
