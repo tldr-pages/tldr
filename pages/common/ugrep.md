@@ -27,7 +27,7 @@
 
 `ugrep --decompress "{{search_pattern}}"`
 
-- Search only files whose filenames match the `foo*.???` glob pattern:
+- Search only files whose filenames match a specific glob pattern:
 
 `ugrep --glob="{{foo*.???}}" "{{search_pattern}}"`
 
