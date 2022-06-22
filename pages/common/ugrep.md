@@ -31,6 +31,6 @@
 
 `ugrep --glob="{{glob_pattern}}" "{{search_pattern}}"`
 
-- Search only C++ source files (use `--type=list` to list all file types):
+- Search only C++ source files (use `--file-type=list` to list all file types):
 
 `ugrep --file-type=cpp "{{search_pattern}}"`
