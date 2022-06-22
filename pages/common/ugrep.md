@@ -11,7 +11,7 @@
 
 `ugrep "{{search_pattern}}"`
 
-- Search a specific file or search all files in the specified directory, showing line numbers of matches:
+- Search in a specific file or in all files in a specific directory, showing line numbers of matches:
 
 `ugrep --line-number "{{search_pattern}}" {{path/to/file_or_directory}}`
 
