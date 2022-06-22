@@ -19,7 +19,7 @@
 
 `ugrep --files-with-matches "{{SuchMuster}}"`
 
-- Suche "fuzzy" reguläres Ausdrucksmuster mit maximal 3 zusätzliche, fehlende oder nicht übereinstimmende Zeichen:
+- Suche nach einem "fuzzy" regulären Ausdruck mit bis zu 3 zusätzlichen, fehlenden oder nicht übereinstimmenden Zeichen:
 
 `ugrep --fuzzy=3 "{{SuchMuster}}"`
 
