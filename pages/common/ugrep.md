@@ -33,4 +33,4 @@
 
 - Search only C++ source files (use `--type=list` to list all file types):
 
-`ugrep --type=cpp "{{search_pattern}}"`
+`ugrep --file-type=cpp "{{search_pattern}}"`
