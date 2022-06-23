@@ -29,7 +29,7 @@
 
 - View app status:
 
-`flyctl status -app {{app_name}}`
+`flyctl status --app {{app_name}}`
 
 - Show version information:
 
