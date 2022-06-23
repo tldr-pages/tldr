@@ -7,9 +7,9 @@
 
 `flyctl auth login`
 
-- Launch from your own Dockerfile:
+- Launch from your own Dockerfile (Default path is current working directory):
 
-`flyctl launch`
+`flyctl launch --dockerfile {{path/to/Dockerfile}}`
 
 - Open browser to current deployed application:
 
@@ -17,7 +17,7 @@
 
 - Deploy Fly applications:
 
-`flyctl deploy`
+`flyctl deploy --dockerfile {{path/to/Dockerfile}}`
 
 - Open web browser on Fly Web UI for this app:
 
@@ -29,7 +29,7 @@
 
 - View app status:
 
-`flyctl status -a {{app_name}}`
+`flyctl status -app {{app_name}}`
 
 - Show version information:
 
