@@ -11,7 +11,7 @@
 
 `s3cmd ls s3://{{bucket|path/to/file}}`
 
-- Make Bucket/Folder:
+- Create Bucket/Folder:
 
 `s3cmd mb s3://{{bucket}}`
 
