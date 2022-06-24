@@ -15,6 +15,6 @@
 
 `printf "{{username}}:{{new_encrypted_password}}" | sudo chpasswd --encrypted`
 
-- Change password for a user and use a specific cryptographic method to encrypt the password to be stored:
+- Change the password for a specific user, and use a specific encryption for the stored password:
 
 `printf "{{username}}:{{new_password}}" | sudo chpasswd --crypt-method {{NONE|DES|MD5|SHA256|SHA512}}`
