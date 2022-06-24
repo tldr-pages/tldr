@@ -17,7 +17,7 @@
 
 - Deploy the Fly applications from a specific Dockerfile:
 
-`flyctl deploy --dockerfile {{path/to/Dockerfile}}`
+`flyctl deploy --dockerfile {{path/to/dockerfile}}`
 
 - Open the Fly Web UI for the current application in a web browser:
 
