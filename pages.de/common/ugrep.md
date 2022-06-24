@@ -15,7 +15,7 @@
 
 `ugrep --line-number "{{suchmuster}}" {{pfad/zu/datei_oder_verzeichnis}}`
 
-- Liste der passenden Dateien:
+- Suche in allen Dateien im aktuellen Verzeichnis rekursiv und zeige den Dateinamen jeder passenden Datei:
 
 `ugrep --files-with-matches "{{SuchMuster}}"`
 
