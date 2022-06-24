@@ -25,12 +25,12 @@
 
 - Suche auch in allen komprimierten Dateien und `zip`- und `tar`-Archive:
 
-`ugrep --decompress "{{SuchMuster}}"`
+`ugrep --decompress "{{suchmuster}}"`
 
-- Suche nur Dateien deren Dateinamen mit einem `foo*.???` glob-Muster übereinstimmen:
+- Suche nur in Dateien deren Dateinamen mit einem bestimmten glob-Muster übereinstimmen:
 
-`ugrep --glob="{{foo*.???}}" "{{SuchMuster}}"`
+`ugrep --glob="{{glob_muster}}" "{{suchmuster}}"`
 
-- Suche nur C++-Quelldateien (verwenden `--type=list` um alle Dateitypen aufzulisten):
+- Suche nur in C++ Quelldateien (verwende `--file-type=list`, um mögliche Optionen aufzulisten):
 
-`ugrep --type=cpp "{{SuchMuster}}"`
+`ugrep --file-type=cpp "{{suchmuster}}"`
