@@ -17,7 +17,7 @@
 
 - Suche in allen Dateien im aktuellen Verzeichnis rekursiv und zeige den Dateinamen jeder passenden Datei:
 
-`ugrep --files-with-matches "{{SuchMuster}}"`
+`ugrep --files-with-matches "{{suchmuster}}"`
 
 - Suche nach einem "fuzzy" regulären Ausdruck mit bis zu 3 zusätzlichen, fehlenden oder nicht übereinstimmenden Zeichen:
 
