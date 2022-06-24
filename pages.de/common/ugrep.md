@@ -9,7 +9,7 @@
 
 - Suche im aktuellen Verzeichnis rekursiv nach Dateien, die einem bestimmten regulären Ausdruck entsprechen:
 
-`ugrep "{{SuchMuster}}"`
+`ugrep "{{suchmuster}}"`
 
 - Suche in einer Datei oder in allen Dateien in einem bestimmten Verzeichnis und zeige die Zeilennummer jedes Treffers:
 
