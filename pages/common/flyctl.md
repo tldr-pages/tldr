@@ -3,31 +3,31 @@
 > Command-line tool for flyctl.io.
 > More information: <https://github.com/superfly/flyctl>.
 
-- Sign into fly account:
+- Sign into a Fly account:
 
 `flyctl auth login`
 
 - Launch an application from a specific Dockerfile (the default path is the current working directory):
 
-`flyctl launch --dockerfile {{path/to/Dockerfile}}`
+`flyctl launch --dockerfile {{path/to/dockerfile}}`
 
-- Open browser to current deployed application:
+- Open the browser to the current deployed application:
 
 `flyctl open`
 
-- Deploy Fly applications:
+- Deploy the Fly applications from a specific Dockerfile:
 
 `flyctl deploy --dockerfile {{path/to/Dockerfile}}`
 
-- Open web browser on Fly Web UI for this app:
+- Open the Fly Web UI for the current application in a web browser:
 
 `flyctl dashboard`
 
-- List apps:
+- List all applications in your Fly.io account:
 
 `flyctl apps list`
 
-- View app status:
+- View the status of a specific running application:
 
 `flyctl status --app {{app_name}}`
 
