@@ -1,17 +1,17 @@
 # chpasswd
 
-> Change passwords for multiple users via taking input from stdin.
-> More information: <https://manpages.debian.org/jessie/passwd/chpasswd.8.en.html>.
+> Change the passwords for multiple users by using stdin.
+> More information: <https://manned.org/chpasswd.8>.
 
-- Change password for a user:
+- Change the password for a specific user:
 
 `printf "{{username}}:{{new_password}}" | sudo chpasswd`
 
-- Change passwords for multiple users (Mind the lack of space in the stdin text):
+- Change the passwords for multiple users (the input text must not contain any spaces):
 
-`printf "{{username_one}}:{{new_password_one}}\n{{username_two}}:{{new_password_two}}" | sudo chpasswd`
+`printf "{{username_1}}:{{new_password_1}}\n{{username_2}}:{{new_password_2}}" | sudo chpasswd`
 
-- Change password into the supplied encrypted password for a user:
+- Change the password for a specific user, and specify it in encrypted form:
 
 `printf "{{username}}:{{new_encrypted_password}}" | sudo chpasswd --encrypted`
 
