@@ -21,7 +21,7 @@
 
 - Suche nach einem "fuzzy" regulären Ausdruck mit bis zu 3 zusätzlichen, fehlenden oder nicht übereinstimmenden Zeichen:
 
-`ugrep --fuzzy=3 "{{SuchMuster}}"`
+`ugrep --fuzzy={{3}} "{{suchmuster}}"`
 
 - Suche auch in allen komprimierten Dateien und `zip`- und `tar`-Archive:
 
