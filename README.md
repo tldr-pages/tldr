@@ -25,8 +25,7 @@ The **tldr-pages** project is a collection of community-maintained help pages
 for command-line tools, that aims to be a simpler, more approachable complement
 to traditional [man pages](https://en.wikipedia.org/wiki/Man_page).
 
-Maybe you are new to the command-line world? Or just a little rusty?
-Or perhaps you can't always remember the arguments to `lsof`, or `tar`?
+Maybe you're new to the command-line world? Perhaps you're just a little rusty or can't always recall the arguments for commands like `lsof`, or `tar`?
 
 It certainly doesn't help that the first option explained in `man tar` is:
 
@@ -43,7 +42,7 @@ How about:
 ![Animated SVG of the tldr client displaying the tar command.](images/tldr.svg)
 
 This repository is just that: an ever-growing collection of examples
-for the most common UNIX, Linux, macOS, SunOS, and Windows command-line tools.
+for the most common UNIX, Linux, macOS, SunOS, Android and Windows command-line tools.
 
 ## How do I use it?
 
@@ -51,36 +50,48 @@ A popular and convenient way to access these pages on your computer
 is to install the [Node.js client](https://github.com/tldr-pages/tldr-node-client),
 which is supported by the tldr-pages project maintainers:
 
-    npm install -g tldr
+```sh
+npm install -g tldr
+```
 
-You can also use the fully-featured [official Python client](https://github.com/tldr-pages/tldr-python-client) which can be installed via `pip3`.
+Alternatively, you can also use the [Python client](https://github.com/tldr-pages/tldr-python-client) which can be installed via `pip3`.
 
-    pip3 install tldr
+```sh
+pip3 install tldr
+```
 
-That way you can write `tldr tar` in the terminal to show the tldr page for `tar`,
-just like you would write `man tar` to show its manpage.
+Then you have direct access to simplified, easy-to-read help for commands, such as `tar`,
+accessible through typing `tldr tar` instead of the standard `man tar`.
 
-However, if you just want to browse without installing anything, check
-out the [PDF version](https://tldr.sh/assets/tldr-book.pdf).
+If you want an offline version without installing any software,
+check out the [PDF version](https://tldr.sh/assets/tldr-book.pdf).
+
+For browsing without installing a client to your computer,
+see the web client at <https://tldr.ostera.io>.
 
 There are also **various other clients** provided by the community,
 both for the command-line and for other platforms.
 For a comprehensive list of clients, head over to our [Wiki](https://github.com/tldr-pages/tldr/wiki/tldr-pages-clients).
 
-## How do I contribute?
-
-- Your favorite command isn't covered?
-- You can think of more examples for an existing command?
-
-All `tldr` pages are kept as Markdown files right here in this repository,
-so you can edit them directly and submit your changes as pull requests.
+## How do I contribute to tldr-pages?
 
 All contributions are welcome!
+
+Some ways to contribute include:
+
+- Adding your favorite command which isn't covered.
+- Adding examples or improving the content of an existing page.
+- Translating pages into different languages.
+
+All `tldr` pages are written in markdown, so they can be edited quite easily and changes can be submitted in
+pull requests here using Git on the command-line or
+using the GitHub web interface.
+
 We strive to maintain a [welcoming and collaborative](GOVERNANCE.md) community.
-Have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!
+If it's your first time contributing, have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!
 
 If you'd like to contribute to translations, you can visit <https://lukwebsforge.github.io/tldri18n/>
-to see the current progress of all translations.
+to see the overall progress of all translations, and which translations are missing or outdated.
 
 ## Similar projects
 
