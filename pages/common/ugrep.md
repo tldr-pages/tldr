@@ -15,7 +15,7 @@
 
 `ugrep --line-number "{{search_pattern}}" {{path/to/file_or_directory}}`
 
-- List the matching files in the current directory recursively:
+- Search in all files in the current directory recursively and print the name of each matching file:
 
 `ugrep --files-with-matches "{{search_pattern}}"`
 
