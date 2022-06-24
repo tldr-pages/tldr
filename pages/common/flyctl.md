@@ -7,7 +7,7 @@
 
 `flyctl auth login`
 
-- Launch from your own Dockerfile (Default path is current working directory):
+- Launch an application from a specific Dockerfile (the default path is the current working directory):
 
 `flyctl launch --dockerfile {{path/to/Dockerfile}}`
 
