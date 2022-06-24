@@ -9,7 +9,7 @@
 
 - Disable SSH on the host:
 
-`sudo tailscaleSSH to a Tailscale machine (Linux Only). up --ssh=false`
+`sudo tailscale up --ssh=false`
 
 - SSH to a host which has Tailscale-SSH enabled:
 
