@@ -7,7 +7,7 @@
 
 `printf "{{username}}:{{new_password}}" | sudo chpasswd`
 
-- Change the passwords for multiple users (the input text must not contain any spaces):
+- Change the passwords for multiple users (The input text must not contain any spaces.):
 
 `printf "{{username_1}}:{{new_password_1}}\n{{username_2}}:{{new_password_2}}" | sudo chpasswd`
 
