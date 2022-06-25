@@ -18,7 +18,7 @@
 
 - Scan a specific list of ports (use '-p-' for all ports from 1 to 65535):
 
-`nmap -p {{port1,port2,…,portN}} {{address_or_addresses}}`
+`nmap -p {{port1,port2,...,portN}} {{address_or_addresses}}`
 
 - Perform service and version detection of the top 1000 ports using default NSE scripts; writing results ('-oN') to output file:
 
@@ -34,4 +34,4 @@
 
 - Perform a stealthy very slow scan ('-T0') trying to avoid detection by IDS/IPS and use decoy ('-D') source IP addresses:
 
-`nmap -T0 -D {{decoy1_ipaddress,decoy2_ipaddress,…,decoyN_ipaddress}} {{address_or_addresses}}`
+`nmap -T0 -D {{decoy1_ipaddress,decoy2_ipaddress,...,decoyN_ipaddress}} {{address_or_addresses}}`
