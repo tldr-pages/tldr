@@ -11,7 +11,7 @@
 
 `stat -t {{file}}`
 
-- Show file system information:
+- Show filesystem information:
 
 `stat -f {{file}}`
 
