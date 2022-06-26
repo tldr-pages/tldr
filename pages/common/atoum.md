@@ -3,7 +3,7 @@
 > A simple, modern and intuitive unit testing framework for PHP.
 > More information: <http://atoum.org>.
 
-- Initialise a configuration file:
+- Initialize a configuration file:
 
 `atoum --init`
 
