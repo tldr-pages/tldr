@@ -8,9 +8,9 @@
 `sudo eopkg install {{package_name}}`
 
 - Update all packages:
-  
+
 `sudo eopkg upgrade`
 
 - Search for packages:
-  
+
 `sudo eopkg search {{search_term}}`
