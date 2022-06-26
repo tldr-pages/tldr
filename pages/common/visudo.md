@@ -11,7 +11,7 @@
 
 `sudo visudo -c`
 
-- Explicitly define which editor to use:
+- Edit the sudoers file using a specific editor:
 
 `sudo EDITOR={{editor}} visudo`
 
