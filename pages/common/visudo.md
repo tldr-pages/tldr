@@ -11,6 +11,9 @@
 
 `sudo visudo -c`
 
+- Explicitly define which editor to use
+`sudo EDITOR={{editor}} visudo`
+
 - Display version information:
 
 `visudo --version`
