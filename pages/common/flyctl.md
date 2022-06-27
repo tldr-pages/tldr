@@ -23,7 +23,7 @@
 
 `flyctl dashboard`
 
-- List all applications in your Fly.io account:
+- List all applications in the logged-in Fly account:
 
 `flyctl apps list`
 
