@@ -11,7 +11,7 @@
 
 `flyctl launch --dockerfile {{path/to/dockerfile}}`
 
-- Open the browser to the current deployed application:
+- Open the current deployed application in the default web browser:
 
 `flyctl open`
 
