@@ -7,6 +7,10 @@
 
 `adb install {{path/to/file.apk}}`
 
+- Push an Android application to a specific emulator/device (overrides `$ANDROID_SERIAL`):
+
+`adb -s {{serial_number}} install {{path/to/file.apk}}`
+
 - Reinstall an existing app, keeping its data:
 
 `adb install -r {{path/to/file.apk}}`
