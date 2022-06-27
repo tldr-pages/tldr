@@ -7,10 +7,10 @@
 
 `hcloud`
 
-- Show help for hcloud:
+- Show help for `hcloud`:
 
 `hcloud -h`
 
-- Show available commands and flags for hcloud contexts
+- Show available commands and flags for `hcloud` contexts:
 
 `hcloud context`
