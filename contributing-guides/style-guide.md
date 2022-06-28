@@ -68,7 +68,7 @@ Example:
 > :bulb: Help page can be any documentation/project/tutorial page, not just a man page.
 > Documentation pages are preferred.
 
-There actually is a linter/formatter that enforces the format above.
+There is a linter that enforces the format above.
 It is run automatically on every pull request,
 but you may install it to test your contributions locally before submitting them:
 
