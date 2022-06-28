@@ -17,7 +17,7 @@
 
 - Remove all permissions:
 
-`chmod {{u}}= {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
+`chmod {{o}}= {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
 - Change permissions recursively:
 
