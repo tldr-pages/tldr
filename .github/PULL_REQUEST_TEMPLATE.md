@@ -4,8 +4,6 @@ Please fill in the following checklist, removing items that do not apply.
 See also https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md
 -->
 
-# Command info
-
 - **Version of the command being documented (if known):**  
 
 - [ ] All command page(s) are in correct platform directories: `common`, `linux`, `osx`, `windows`, `sunos`, `android`.
