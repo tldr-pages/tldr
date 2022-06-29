@@ -19,7 +19,7 @@
 
 `?`
 
-- Switch to a different tab: 
+- Switch to a different tab:
 
 `tab`
 
