@@ -1,6 +1,6 @@
 # chmod
 
-> Change file/directory access permissions.
+> Change access permissions of files and (or) directories.
 > More information: <https://www.gnu.org/software/coreutils/chmod>.
 
 - Add [r]ead/[w]rite/e[x]ecute permissions for a file/directory owner:
