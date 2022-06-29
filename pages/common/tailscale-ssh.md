@@ -3,13 +3,9 @@
 > SSH to a Tailscale machine (Linux Only).
 > More information: <https://tailscale.com/kb/1193/tailscale-ssh>.
 
-- Advertise SSH on the host:
+- Advertise/Disable SSH on the host:
 
-`sudo tailscale up --ssh=true`
-
-- Disable SSH on the host:
-
-`sudo tailscale up --ssh=false`
+`sudo tailscale up --ssh={{true|false}}`
 
 - SSH to a host which has Tailscale-SSH enabled:
 
