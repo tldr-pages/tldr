@@ -3,7 +3,7 @@
 > List various information about a GDAL supported raster dataset.
 > More information: <https://gdal.org/programs/gdalinfo.html>.
 
-- List supported raster formats:
+- List all supported raster formats:
 
 `gdalinfo --formats`
 
