@@ -7,6 +7,6 @@
 
 `sudo tailscale up --ssh={{true|false}}`
 
-- SSH to a host which has Tailscale-SSH enabled:
+- SSH to a specific host which has Tailscale-SSH enabled:
 
 `tailscale ssh {{username}}@{{host}}`
