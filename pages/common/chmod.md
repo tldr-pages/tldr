@@ -5,7 +5,7 @@
 
 - Add [r]ead/[w]rite/e[x]ecute permissions for a file/directory owner:
 
-`chmod +{{r|w|x}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
+`chmod u+{{r|w|x}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
 - Add specific permissions for an owner/users in [g]roup/[o]ther users/[a]ll at once:
 
