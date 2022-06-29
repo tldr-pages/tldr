@@ -7,15 +7,15 @@
 
 `gdalinfo --formats`
 
-- List information about a raster dataset:
+- List information about a specific raster dataset:
 
 `gdalinfo {{path/to/input.tif}}`
 
-- List information about a raster dataset in JSON format:
+- List information about a specific raster dataset in JSON format:
 
 `gdalinfo -json {{path/to/input.tif}}`
 
-- Show histogram values of a raster dataset:
+- Show histogram values of a specific raster dataset:
 
 `gdalinfo -hist {{path/to/input.tif}}`
 
