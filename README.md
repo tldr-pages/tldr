@@ -81,6 +81,7 @@ Some ways to contribute include:
 
 - Adding your favorite command which isn't covered.
 - Adding examples or improving the content of an existing page.
+- Adding requested pages from our issues with the [help wanted](https://github.com/tldr-pages/tldr/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) label.
 - Translating pages into different languages.
 
 All `tldr` pages are written in markdown, so they can be edited quite easily and changes can be submitted in
