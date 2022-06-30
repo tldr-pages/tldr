@@ -11,15 +11,15 @@ The basic format of each page should match the following template and have at mo
 
 > Short, snappy command description.
 > Preferably one line; two are acceptable if necessary.
-> More information: <https://example.com/command-name/help/page>.
+> More information: <https://example.com/command_name/help/page>.
 
 - Code description:
 
-`command_name first_options`
+`command_name options`
 
 - Code description:
 
-`command_name second_options`
+`command_name options`
 
 ...
 ```
