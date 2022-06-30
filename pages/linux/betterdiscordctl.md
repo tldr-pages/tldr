@@ -9,16 +9,16 @@
 
 - Install BetterDiscord on Discord Canary:
 
-`sudo betterdiscordctl -f canary install`
+`sudo betterdiscordctl --d-flavors canary install`
 
 - Install BetterDiscord on Discord PTB:
 
-`sudo betterdiscordctl -f ptb install`
+`sudo betterdiscordctl --d-flavors ptb install`
 
 - Install BetterDiscord on Discord installed with Flatpak:
 
-`sudo betterdiscordctl -i flatpak install`
+`sudo betterdiscordctl --d-install flatpak install`
 
 - Install BetterDiscord on Discord installed with Snap:
 
-`sudo betterdiscordctl -i snap install`
+`sudo betterdiscordctl --d-install snap install`
