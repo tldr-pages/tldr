@@ -1,6 +1,6 @@
 # smem
 
-> Show memory usage for programs.
+> Print memory usage for programs.
 > More information: <https://manned.org/smem>.
 
 - Print memory usage for current processes:
