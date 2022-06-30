@@ -4,17 +4,6 @@ This page lists specific formatting instructions for `tldr` pages.
 
 ## Layout
 
-> :bulb: Placeholder syntax is not used in this chapter, but instead of:
->
-> - `command_name`
-> - `https://example.com/command-name/help/page`
-> - `Code description`
-> - `first_options`
-> - `second_options`
-> - `page_name`
->
-> you can use any valid value as they are placeholders.
-
 The basic format of each page should match the following template and have at most 8 command examples:
 
 ```md
