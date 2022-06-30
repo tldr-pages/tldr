@@ -1,7 +1,7 @@
 # unix2dos
 
 > Change Unix-style line endings to DOS-style.
-> Replaces CR with CRLF.
+> Replaces LF with CRLF.
 > More information: <https://waterlan.home.xs4all.nl/dos2unix.html>.
 
 - Change the line endings of a file:
