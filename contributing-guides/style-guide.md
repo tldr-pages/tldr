@@ -15,7 +15,7 @@ This page lists specific formatting instructions for `tldr` pages.
 >
 > you can use any valid value as they are placeholders.
 
-The basic format of each page should match the following template and have at most 8 code examples:
+The basic format of each page should match the following template and have at most 8 command examples:
 
 ```md
 # command_name
