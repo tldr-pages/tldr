@@ -1,6 +1,6 @@
 # deb-get
 
-> apt-get functionality for .debs published in 3rd party repositories or via direct download. It works on Ubuntu and derivative distributions.
+> The apt-get functionality for .debs published in 3rd party repositories or via direct download. It works on Ubuntu and derivative distributions.
 > More information: <https://github.com/wimpysworld/deb-get>.
 
 - Update the list of available packages and versions (it's recommended to run this before other commands):
