@@ -2,6 +2,7 @@
 
 > Ein E-Mail und Usenet Client mit pico/nano-inspirierten Interface.
 > Unterstützt die meisten modernen IMAP Server.
+> Weitere Informationen: <https://manned.org/alpine>.
 
 - Öffne Apline:
 

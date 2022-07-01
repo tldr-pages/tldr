@@ -1,36 +1,32 @@
 # jq
 
 > A command-line JSON processor that uses a domain-specific language.
-> More information: <https://stedolan.github.io/jq>.
+> More information: <https://stedolan.github.io/jq/manual/>.
 
-- Output a JSON file, in pretty-print format:
+- Execute a specific expression (print a colored and formatted json):
 
-`jq . {{file.json}}`
+`{{cat path/to/file.json}} | jq '{{.}}'`
 
-- Output all elements from arrays (or all the values from objects) in a JSON file:
+- Execute a specific script:
 
-`jq '.[]' {{file.json}}`
+`{{cat path/to/file.json}} | jq --from-file {{path/to/script.jq}}`
 
-- Read JSON objects from a file into an array, and output it (inverse of `jq .[]`):
+- Pass specific arguments:
 
-`jq --slurp . {{file.json}}`
+`{{cat path/to/file.json}} | jq {{--arg "name1" "value1" --arg "name2" "value2" ...}} '{{. + $ARGS.named}}'`
 
-- Output the first element in a JSON file:
+- Print specific keys:
 
-`jq '.[0]' {{file.json}}`
+`{{cat path/to/file.json}} | jq '{{.key1, .key2, ...}}'`
 
-- Output the value of a given key of each element in a JSON text from stdin:
+- Print specific array items:
 
-`cat {{file.json}} | jq 'map(.{{key_name}})'`
+`{{cat path/to/file.json}} | jq '{{.[index1], .[index2], ...}}'`
 
-- Output the value of multiple keys as a new JSON object (assuming the input JSON has the keys `key_name` and `other_key_name`):
+- Print all array items/object keys:
 
-`cat {{file.json}} | jq '{{{my_new_key}}: .{{key_name}}, {{my_other_key}}: .{{other_key_name}}}'`
+`{{cat path/to/file.json}} | jq '.[]'`
 
-- Combine multiple filters:
+- Add/remove specific keys:
 
-`cat {{file.json}} | jq 'unique | sort | reverse'`
-
-- Output the value of a given key to a string (and disable JSON output):
-
-`cat {{file.json}} | jq --raw-output '"some text: \(.{{key_name}})"'`
+`{{cat path/to/file.json}} | jq '{{.}} {{+|-}} {{{"key1": "value1", "key2": "value2", ...}}}'`

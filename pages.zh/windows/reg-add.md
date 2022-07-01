@@ -11,7 +11,7 @@
 
 `reg add {{键名}} /v {{值}}`
 
-- Add a new value with specific data:
+- Add a new value with specific data：
 
 `reg add {{键名}} /d {{数据}}`
 

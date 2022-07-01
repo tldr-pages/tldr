@@ -1,6 +1,7 @@
 # reflector
 
 > Arch script to fetch and sort mirrorlists.
+> More information: <https://manned.org/reflector>.
 
 - Get all mirrors, sort for download speed and save them:
 

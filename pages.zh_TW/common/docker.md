@@ -24,7 +24,7 @@
 
 `docker pull {{映像檔}}`
 
-- 從正在運行的容器內打開一個 shell:
+- 從正在運行的容器內打開一個 shell：
 
 `docker exec -it {{容器名稱}} {{sh}}`
 

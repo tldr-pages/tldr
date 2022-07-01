@@ -1,7 +1,7 @@
 # cmd
 
 > விண்டோஸ் கட்டளை மொழிபெயர்ப்பாளர்.
-> மேலும் தகவல்: <https://docs.microsoft.com/windows-server/administration/windows-commands/cmd>.
+> மேலும் விவரத்திற்கு: <https://docs.microsoft.com/windows-server/administration/windows-commands/cmd>.
 
 - கட்டளை மொழிபெயர்ப்பாளரின் புதிய நிகழ்வைத் தொடங்கவும்:
 

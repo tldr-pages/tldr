@@ -1,6 +1,7 @@
 # brightness
 
 > Menampilkan dan mengubah brightness (tingkat kecerahan) untuk internal dan external displays.
+> Informasi lebih lanjut: <https://github.com/nriley/brightness>.
 
 - Menampilkan brightness sekarang:
 

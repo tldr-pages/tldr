@@ -1,7 +1,7 @@
 # chroot
 
 > Komut veya etkileşimli komut satırını özel kök diziniyle çalıştırır.
-> Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/chroot>.
+> Daha fazla bilgi: <https://www.gnu.org/software/coreutils/chroot>.
 
 - Komutu yeni kök dizini olarak çalıştır:
 

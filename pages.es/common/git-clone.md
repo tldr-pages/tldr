@@ -30,3 +30,7 @@
 - Clona un repositorio existente solo descargando un branch específico:
 
 `git clone --branch {{nombre}} --single-branch {{ubicacion_remota_del_repositorio}}`
+
+- Clona un repositorio existente usando un comando SSH específico:
+
+`git clone --config core.sshCommand="{{ssh -i ruta/a/clave_ssh_privada}}" {{ubicacion_remota_del_repositorio}}`

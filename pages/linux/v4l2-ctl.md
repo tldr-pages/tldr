@@ -19,7 +19,7 @@
 
 `v4l2-ctl --all --device {{path/to/video_device}}`
 
-- Capture a JPEG photo with a specfic resolution from video device:
+- Capture a JPEG photo with a specific resolution from video device:
 
 `v4l2-ctl --device {{path/to/video_device}} --set-fmt-video=width={{width}},height={{height}},pixelformat=MJPG --stream-mmap --stream-to={{path/to/output.jpg}} --stream-count=1`
 

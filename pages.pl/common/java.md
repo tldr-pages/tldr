@@ -1,7 +1,7 @@
 # java
 
 > Java Application Launcher.
-> Więcej informacji: <https://java.com>.
+> Więcej informacji: <https://docs.oracle.com/en/java/javase/17/docs/specs/man/java.html>.
 
 - Uruchom plik .class java, który zawiera główną metodę, używając tylko nazwy klasy:
 

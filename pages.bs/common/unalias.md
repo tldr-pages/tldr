@@ -1,6 +1,7 @@
 # unalias
 
 > Ukloni pseudonime.
+> Više informacija: <https://manned.org/unalias>.
 
 - Ukloni pseudonim:
 

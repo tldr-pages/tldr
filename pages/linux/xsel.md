@@ -1,6 +1,7 @@
 # xsel
 
 > X11 selection and clipboard manipulation tool.
+> More information: <https://manned.org/xsel>.
 
 - Use a command's output as input of the clip[b]oard (equivalent to `Ctrl + C`):
 

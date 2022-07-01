@@ -2,6 +2,7 @@
 
 > A VNC server that will enable VNC on an existing display server.
 > By default, the server will automatically terminate once all clients disconnect from it.
+> More information: <https://manned.org/x11vnc>.
 
 - Launch a VNC server that allows multiple clients to connect:
 

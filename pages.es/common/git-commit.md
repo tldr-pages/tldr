@@ -22,3 +22,7 @@
 - Realiza un commit para archivos específicos (marcados previamente):
 
 `git commit {{ruta/al/archivo1}} {{ruta/al/archivo2}}`
+
+- Crea un commit, incluso si no hay archivos marcados:
+
+`git commit -m "{{mensaje}}" --allow-empty`

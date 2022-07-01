@@ -1,7 +1,7 @@
 # reportbug
 
 > Bug report tool of Debian distribution.
-> More information: <https://manpages.debian.org/buster/reportbug/reportbug.1.en.html>.
+> More information: <https://manpages.debian.org/latest/reportbug/reportbug.html>.
 
 - Generate a bug report about a specific package, then send it by e-mail:
 

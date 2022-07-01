@@ -1,6 +1,7 @@
 # newgrp
 
 > Switch primary group membership.
+> More information: <https://manned.org/newgrp>.
 
 - Change user's primary group membership:
 

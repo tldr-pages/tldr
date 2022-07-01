@@ -1,6 +1,7 @@
 # pdfimages
 
 > Narzędzie do wyodrębniania obrazów z plików PDF.
+> Więcej informacji: <https://manned.org/pdfimages>.
 
 - Wyodrębnij wszystkie obrazy z pliku PDF i zapisz je jako pliki PNG:
 

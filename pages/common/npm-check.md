@@ -1,7 +1,7 @@
 # npm-check
 
 > Check for outdated, incorrect, and unused npm package dependencies.
-> More information: <https://www.npmjs.com/package/npm-check/>.
+> More information: <https://github.com/dylang/npm-check>.
 
 - Display a report of outdated, incorrect, and unused dependencies:
 

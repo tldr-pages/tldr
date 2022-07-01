@@ -1,6 +1,7 @@
 # vnstat
 
 > A console-based network traffic monitor.
+> More information: <https://manned.org/vnstat>.
 
 - Display traffic summary for all interfaces:
 

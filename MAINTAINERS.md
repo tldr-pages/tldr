@@ -82,6 +82,8 @@ If you are an owner of the organization, you can see an automated list
   [6 September 2018](https://github.com/tldr-pages/tldr/issues/2306) — [21 June 2021](https://github.com/tldr-pages/tldr/issues/6142)
 - Seth Falco ([@SethFalco](https://github.com/SethFalco)):
   [19 May 2021](https://github.com/tldr-pages/tldr/issues/5993) - [21 June 2021](https://github.com/tldr-pages/tldr/issues/6149)
+- Emily Grace Seville ([@EmilySeville7cfg](https://github.com/EmilySeville7cfg)):
+  [19 January 2022](https://github.com/tldr-pages/tldr/issues/1209#issuecomment-285924778) — [24 April 2022](https://github.com/tldr-pages/tldr/issues/8053)
 
 ## Organization members
 
@@ -106,6 +108,8 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [21 June 2021](https://github.com/tldr-pages/tldr/issues/6142) — present
 - **Seth Falco ([@SethFalco](https://github.com/SethFalco))**:
   [21 June 2021](https://github.com/tldr-pages/tldr/issues/6149) — present
+- **Emily Grace Seville ([@EmilySeville7cfg](https://github.com/EmilySeville7cfg))**:
+  [25 April 2022](https://github.com/tldr-pages/tldr/issues/8053) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
@@ -137,8 +141,6 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989) — present
 - **Marco Bonelli ([@mebeim](https://github.com/mebeim))**:
   [21 December 2019](https://github.com/tldr-pages/tldr/issues/3672) — present
-- **Zlatan Vasović ([@zlatanvasovic](https://github.com/zlatanvasovic))**:
-  [18 June 2020](https://github.com/tldr-pages/tldr/issues/4113) — present
 - **Lucas Schneider ([@schneiderl](https://github.com/schneiderl))**:
   [3 February 2021](https://github.com/tldr-pages/tldr/issues/5224) — present
 - **Axel Navarro ([@navarroaxel](https://github.com/navarroaxel))**:
@@ -161,3 +163,5 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
   until [18 January 2018](https://github.com/tldr-pages/tldr/issues/1878#issuecomment-358610454)
 - Waldir Pimenta ([@waldyrious](https://github.com/waldyrious)):
   until [26 August 2018](https://github.com/tldr-pages/tldr/issues/2257)
+- Zlatan Vasović ([@zlatanvasovic](https://github.com/zlatanvasovic)):
+  until [14 December 2021](https://github.com/tldr-pages/tldr/issues/7538)

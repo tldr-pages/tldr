@@ -10,15 +10,15 @@
 
 - Print a one line description of the audio file:
 
-`afinfo -b {{path/to/file}}`
+`afinfo --brief {{path/to/file}}`
 
 - Print metadata info and contents of the audio file's InfoDictionary:
 
-`afinfo -i {{path/to/file}}`
+`afinfo --info {{path/to/file}}`
 
 - Print output in XML format:
 
-`afinfo -x {{path/to/file}}`
+`afinfo --xml {{path/to/file}}`
 
 - Print warnings for the audio file if any:
 
@@ -26,4 +26,4 @@
 
 - Display help for full usage:
 
-`afinfo -h`
+`afinfo --help`

@@ -1,7 +1,7 @@
 # dig
 
 > Utilitário de pesquisa de DNS.
-> Mais informações: <https://manpages.debian.org/dnsutils/dig.1.html>.
+> Mais informações: <https://manned.org/dig>.
 
 - Pesquisa o(s) IP(s) associados a um hostname (Registros A):
 

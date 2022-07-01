@@ -9,4 +9,4 @@
 
 - Look for lines ignoring case:
 
-`look -f {{prefix}} {{file}}`
+`look --ignore-case {{prefix}} {{file}}`
