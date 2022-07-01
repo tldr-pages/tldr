@@ -13,7 +13,7 @@
 
 - Only list specific devices & mount points:
 
-`duf /home /some/file`
+`duf {{/path/to/directory1 /path/to/directory2}}`
 
 - Sort the output:
 
