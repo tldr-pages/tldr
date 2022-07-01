@@ -17,4 +17,4 @@
 
 - Sort the output:
 
-`duf --sort size`
+`duf --sort {{size|used|avail|usage}}`
