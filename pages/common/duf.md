@@ -11,7 +11,7 @@
 
 `duf --all`
 
-- Only list specific devices & mount points:
+- Only list specific devices or mount points:
 
 `duf {{/path/to/directory1 /path/to/directory2}}`
 
