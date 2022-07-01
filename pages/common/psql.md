@@ -15,10 +15,22 @@
 
 `psql -h {{host}} -p {{port}} -U {{username}} -W {{database}}`
 
-- Execute a single SQL query or PostgreSQL command on the given database (useful in shell scripts):
-
-`psql -c '{{query}}' {{database}}`
-
 - Execute commands from a file on the given database:
 
 `psql {{database}} -f {{file.sql}}`
+
+- Select all items in a given table:
+
+`psql -c 'SELECT * FROM {{table}};' {{database}}`
+
+- Update all items under certain conditions:
+
+`psql -c 'UPDATE {{table}} SET ({{column1}}, {{column2}}) = ({{value1}}, {{value2}}) WHERE {{condition}};' {{database}}`
+
+- Insert new items:
+
+`psql -c 'INSERT INTO {{table}} ({{column1}}, {{column2}}) VALUES ({{value1}}, {{value2}});' {{database}}`
+
+- Delete items under certain conditions:
+
+`psql -c 'DELETE FROM {{table}} WHERE {{condition}};' {{database}}`
