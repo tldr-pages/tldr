@@ -1,7 +1,7 @@
 # duf
 
 > Disk Usage/Free Utility - a better 'df' alternative.
-> More information at https://github.com/muesli/duf.
+> More information: <https://github.com/muesli/duf>.
 
 - List accessible devices:
 
