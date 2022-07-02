@@ -30,3 +30,7 @@
 - Show changed, missing and/or incorrectly installed files of matching packages:
 
 `rpm --verify --all '{{php-*}}'`
+
+- Display changelog of a specific package:
+
+`rpm --query --changelog {{package_name}}`
