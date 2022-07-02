@@ -3,7 +3,7 @@
 > A PHP-based task manager for Laravel remote servers.
 > More information: <https://laravel.com/docs/envoy>.
 
-- Initialise a configuration file:
+- Initialize a configuration file:
 
 `envoy init {{host_name}}`
 
