@@ -25,4 +25,4 @@
 
 - Kill all processes with a TCP connection on a specific port:
 
-`fuser --kill {{port/tcp}}`
+`fuser --kill {{port}}/tcp`
