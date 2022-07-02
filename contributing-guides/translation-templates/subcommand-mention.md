@@ -9,6 +9,7 @@ This file contains the translation templates of this notice.
 [ar](#ar) •
 [bn](#bn) •
 [bs](#bs) •
+[ca](#ca) •
 [da](#da) •
 [de](#de) •
 [es](#es) •
@@ -35,6 +36,7 @@ This file contains the translation templates of this notice.
 [th](#th) •
 [tr](#tr) •
 [uk](#uk) •
+[uz](#uz) •
 [zh](#zh) •
 [zh_TW](#zh_tw)
 
@@ -61,6 +63,13 @@ Not translated yet.
 ### bs
 
 Not translated yet.
+
+---
+### ca
+
+```markdown
+Alguns subcomandaments com `example command` tenen la seva pròpia documentació.
+```
 
 ---
 ### da
@@ -115,7 +124,9 @@ Alcuni comandi aggiuntivi, come `example command`, hanno la propria documentazio
 ---
 ### ja
 
+```markdown
 `example command` のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
+```
 
 ---
 ### ko
@@ -154,12 +165,16 @@ Not translated yet.
 ---
 ### pt_BR
 
+```markdown
 Alguns subcomandos como `example command` tem sua própia documentação de uso.
+```
 
 ---
 ### pt_PT
 
+```markdown
 Alguns subcomandos, como `example command`, tem a sua própria documentação de uso.
+```
 
 ---
 ### ro
@@ -169,7 +184,9 @@ Not translated yet.
 ---
 ### ru
 
+```markdown
 Некоторые подкоманды, такие как `example command`, имеют собственную документацию по использованию.
+```
 
 ---
 ### sh
@@ -202,7 +219,9 @@ Not translated yet.
 ---
 ### tr
 
-Not translated yet.
+```markdown
+`example command` gibi bazı alt komutların kendi kullanım belgeleri vardır.
+```
 
 ---
 ### uk
@@ -210,6 +229,11 @@ Not translated yet.
 ```markdown
 Певна підкоманда, як от `example command`, що має свою власну документацію.
 ```
+
+---
+### uz
+
+Not translated yet.
 
 ---
 ### zh

@@ -1,6 +1,7 @@
 # qsub
 
 > Submits a script to the queue management system TORQUE.
+> More information: <https://manned.org/qsub.1>.
 
 - Submit a script with default settings (depends on TORQUE settings):
 

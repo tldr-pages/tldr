@@ -16,6 +16,6 @@
 
 `trap 'echo "检测到信号 {{SIGHUP}}"' {{SIGHUP}}`
 
-- 移除活动 trap:
+- 移除活动 trap：
 
 `trap - {{SIGHUP}} {{SIGINT}}`

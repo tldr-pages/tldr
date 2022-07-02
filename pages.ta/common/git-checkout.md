@@ -1,7 +1,7 @@
 # git checkout
 
 > வேலை செய்யும் மரத்திற்கு ஒரு கிளை அல்லது பாதைகளை செக்கவுட் செய்ய.
-> மேலும் தகவல்: <https://git-scm.com/docs/git-checkout>.
+> மேலும் விவரத்திற்கு: <https://git-scm.com/docs/git-checkout>.
 
 - புதிய கிளையை உருவாக்கி மாறவும்:
 

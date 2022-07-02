@@ -7,10 +7,10 @@
 
 `fls -r -m {{C:}} {{/dev/loop1p1}}`
 
-- Analyse a single partition, providing the sector offset at which the filesystem starts in the image:
+- Analyze a single partition, providing the sector offset at which the filesystem starts in the image:
 
 `fls -r -m {{C:}} -o {{sector}} {{path/to/image_file}}`
 
-- Analyse a single partition, providing the timezone of the original system:
+- Analyze a single partition, providing the timezone of the original system:
 
 `fls -r -m {{C:}} -z {{timezone}} {{/dev/loop1p1}}`

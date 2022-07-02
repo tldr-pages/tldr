@@ -3,13 +3,14 @@
 This page provides translations of commonly used arguments to simplify maintaining pages in foreign languages.  
 The best way to edit this file is by using [tableconvert.com](https://tableconvert.com/).  
 There, the old table can be **imported**, **edited** in a WYSIWYG editor and **exported** again.  
-Only the left-alignment of the header gets lost and has to be readded again (`|----` → `|:---`).
+Only the left-alignment of the header gets lost and has to be re-added again (`|----` → `|:---`).
 
 | en    | path/to/file         | path/to/directory      | path/to/file_or_directory         | package   | username          |
 |:------|:---------------------|:-----------------------|:----------------------------------|:----------|:------------------|
 | ar    |                      |                        |                                   |           |                   |
 | bn    |                      |                        |                                   |           |                   |
 | bs    |                      |                        |                                   |           |                   |
+| ca    | camí/al/fitxer       | camí/al/directori      | camí/al/fitxer_o_directori        | paquet    | nom_usuari        |
 | da    |                      |                        |                                   |           |                   |
 | de    | pfad/zu/datei        | pfad/zu/verzeichnis    | pfad/zu/datei_oder_verzeichnis    | paket     | benutzername      |
 | es    | ruta/al/archivo      | ruta/al/directorio     | ruta/al/archivo_o_directorio      | paquete   |                   |
@@ -33,7 +34,8 @@ Only the left-alignment of the header gets lost and has to be readded again (`|-
 | sv    |                      |                        |                                   |           |                   |
 | ta    | கோப்பு               | அடைவு                | கோப்போ/அடைவோ                | நிரல்தொகுப்பு | பயனர்ப்பெயர்   |
 | th    |                      |                        |                                   |           |                   |
-| tr    |                      |                        |                                   |           |                   |
+| tr    | dosya/yolu           | dizin/yolu             | dosya_veya_dizin/yolu             | paket     | kullanıcı_adı     |
 | uk    |                      |                        |                                   |           |                   |
-| zh    | 路径/到/文件         | 路径/到/目录           | 路径/到/文件或目录                | 包        | 用户名        |
-| zh_TW | 檔案/完整/路徑       | 目錄/完整/路徑         | 檔案或目錄/完整/路徑              | 套件      | 使用者名稱    |
+| uz    |                      |                        |                                   |           |                   |
+| zh    | 路径/到/文件         | 路径/到/目录           | 路径/到/文件或目录                | 包        | 用户名            |
+| zh_TW | 檔案/完整/路徑       | 目錄/完整/路徑         | 檔案或目錄/完整/路徑              | 套件      | 使用者名稱        |

@@ -27,12 +27,12 @@ It is run automatically on every pull request,
 but you may install it to test your contributions locally before submitting them:
 
 ```
-npm install tldr-lint
-tldrl -f {{page.md}}
+npm install --global tldr-lint
+tldr-lint {{page.md}}
 ```
 
-For other ways to use `tldrl`, such as linting an entire directory, check out (what else!)
-[`tldr tldrl`](https://github.com/tldr-pages/tldr/blob/main/pages/common/tldrl.md).
+For other ways to use `tldr-lint`, such as linting an entire directory, check out (what else!)
+[`tldr tldr-lint`](https://github.com/tldr-pages/tldr/blob/main/pages/common/tldr-lint.md). Alternatively, you can also use its alias `tldrl`.
 
 Your client may be able to preview a page locally using the `--render` flag:
 
@@ -116,6 +116,12 @@ The example above does not use a serial comma, so this could mean one of two thi
 This can be resolved by inserting a comma before the "and" or "or" in the final element in the list.
 
 > Delete the Git branches, tags, and remotes.
+
+## More information links
+
+On the `More information` line, prefer linking to the author's provided documentation.
+
+When not available, use <https://manned.org/> as the default fallback. 
 
 ## Chinese-Specific Rules
 

@@ -1,7 +1,7 @@
 # cp
 
 > கோப்புகளையோ அடைவுகளையோ நகலெடு.
-> மேலும் தகவல்: <https://www.gnu.org/software/coreutils/cp>.
+> மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/cp>.
 
 - கோப்பை நகலெடு:
 

@@ -3,7 +3,7 @@
 > 将 nuspec 打包到已编译的 nupkg.
 > 更多信息：<https://chocolatey.org/docs/commands-pack>.
 
-- 将 nuspec 打包到已编译的 nupkg:
+- 将 nuspec 打包到已编译的 nupkg：
 
 `choco pack {{nuspec 的路径}}`
 

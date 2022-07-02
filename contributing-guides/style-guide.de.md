@@ -27,12 +27,12 @@
  er kann aber auch manuell installiert werden, um seine Seiten schon vorher zu überprüfen:
 
  ```
- npm install tldr-lint
- tldrl -f {{seite.md}}
+ npm install --global tldr-lint
+ tldr-lint {{seite.md}}
  ```
 
- Für andere Optionen von `tldrl`, wie zum Beispiel das Linten eines ganzen Verzeichnisses:
- [`tldr tldrl`](https://github.com/tldr-pages/tldr/blob/main/pages/common/tldrl.md)
+ Für andere Optionen von `tldr-lint`, wie zum Beispiel das Linten eines ganzen Verzeichnisses:
+ [`tldr tldr-lint`](https://github.com/tldr-pages/tldr/blob/main/pages/common/tldr-lint.md). Alternativ, kann man auch den Alias `tldrl` verwenden.
 
  Viele Clients unterstützen die `--render` Flag zum Anzeigen einer Seite:
 

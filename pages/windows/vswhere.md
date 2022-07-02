@@ -5,7 +5,7 @@
 
 - Find the path of vcvarsall.bat to set environment variables:
 
-`vswhere -products * -latest -prerelease -find "**/VC/Auxiliary/Build/vcvarsall.bat"`
+`vswhere -products * -latest -prerelease -find **/VC/Auxiliary/Build/vcvarsall.bat`
 
 - Find the directory of the x64 MSVC compiler (cl.exe, etc):
 

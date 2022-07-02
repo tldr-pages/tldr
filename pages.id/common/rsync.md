@@ -2,6 +2,7 @@
 
 > Transfer file ke atau dari sebuah _remote host_ (bukan di antara 2 _remote host_).
 > Bisa transfer satuan file, maupun beberapa file yang sesuai dengan pola tertentu.
+> Informasi lebih lanjut: <https://manned.org/rsync>.
 
 - Transfer file dari lokal ke _remote host_:
 

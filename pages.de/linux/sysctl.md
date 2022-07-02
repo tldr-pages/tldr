@@ -1,6 +1,7 @@
 # sysctl
 
 > Laufzeit-Kernelparameter auflisten und ändern.
+> Weitere Informationen: <https://manned.org/sysctl.8>.
 
 - Liste alle verfügbaren Kernelparameter mit ihren Werten auf:
 

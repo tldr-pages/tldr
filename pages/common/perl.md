@@ -19,18 +19,18 @@
 
 `perl -d {{script.pl}}`
 
-- Loo[p] over all lines of a file, editing them [i]n-place using a find/replace [e]xpression:
+- Edit all file lines [i]n-place with a specific replacement [e]xpression and save a file with a new extension:
 
-`perl -p -i -e 's/{{find}}/{{replace}}/g' {{filename}}`
+`perl -p -i'.{{extension}}' -e 's/{{regular_expression}}/{{replacement}}/g' {{path/to/file}}`
 
-- Run a find/replace expression on a file, saving the original file with a given extension:
+- Run a multi-line replacement [e]xpression on a file, and save the result in a specific file:
 
-`perl -p -i'.old' -e 's/{{find}}/{{replace}}/g' {{filename}}`
+`perl -p -e 's/{{foo\nbar}}/{{foobar}}/g' {{path/to/input_file}} > {{path/to/output_file}}`
 
-- Run a multiline find/replace expression on a file, and save the result in another file:
+- Run a regular [e]xpression on stdin, printing matching [l]ines:
 
-`perl -p0e 's/{{foo\nbar}}/{{foobar}}/g' {{input_file}} > {{output_file}}`
+`cat {{path/to/file}} | perl -n -l -e 'print if /{{regular_expression}}/'`
 
-- Run a regular expression on stdin, printing out the first capture group for each line:
+- Run a regular [e]xpression on stdin, printing only the first capture group for each matching [l]ine:
 
-`cat {{path/to/input_file}} | perl -nle 'if (/.*({{foo}}).*/) {print "$1"; last;}'`
+`cat {{path/to/file}} | perl -n -l -e 'print $1 if /{{before}}({{regular_expression}}){{after}}/'`

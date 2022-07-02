@@ -2,6 +2,7 @@
 
 > An email client and Usenet newsgroup program with a pico/nano-inspired interface.
 > Supports most modern email services through IMAP.
+> More information: <https://manned.org/alpine>.
 
 - Open alpine normally:
 

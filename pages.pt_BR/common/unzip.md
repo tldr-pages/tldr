@@ -1,6 +1,7 @@
 # unzip
 
 > Ferramenta de descompactação de arquivos zip.
+> Mais informações: <https://manned.org/unzip>.
 
 - Extraindo arquivos zip:
 

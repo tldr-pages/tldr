@@ -10,16 +10,16 @@
 
 - Enumerate using given login credentials:
 
-`enum4liux -u {{user_name}} -p {{password}} {{remote_host}}`
+`enum4linux -u {{user_name}} -p {{password}} {{remote_host}}`
 
 - List usernames from a given host:
 
-`enum4liux -U {{remote_host}}`
+`enum4linux -U {{remote_host}}`
 
 - List shares:
 
-`enum4liux -S {{remote_host}}`
+`enum4linux -S {{remote_host}}`
 
 - Get OS information:
 
-`enum4liux -o {{remote_host}}`
+`enum4linux -o {{remote_host}}`

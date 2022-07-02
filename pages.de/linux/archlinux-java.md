@@ -1,7 +1,7 @@
 # archlinux-java
 
 > Ein Helfer Script das Funktionen für Java Umgebungen bereitstellt.
-> Mehr Informationen: <https://github.com/michaellass/archlinux-java-run>.
+> Weitere Informationen: <https://github.com/michaellass/archlinux-java-run>.
 
 - Liste installierte Java Umgebungen:
 

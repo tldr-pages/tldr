@@ -2,6 +2,7 @@
 
 > An SNTP server.
 > It should not be invoked manually.
+> More information: <https://linux.die.net/man/8/snmpd>.
 
 - Start the daemon:
 

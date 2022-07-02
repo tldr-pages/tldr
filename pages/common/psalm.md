@@ -7,15 +7,15 @@
 
 `psalm --init`
 
-- Analyse the current working directory:
+- Analyze the current working directory:
 
 `psalm`
 
-- Analyse a specific directory or file:
+- Analyze a specific directory or file:
 
 `psalm {{path/to/file_or_directory}}`
 
-- Analyse a project with a specific configuration file:
+- Analyze a project with a specific configuration file:
 
 `psalm --config {{path/to/psalm.xml}}`
 
@@ -23,10 +23,10 @@
 
 `psalm --show-info`
 
-- Analyse a project and display statistics:
+- Analyze a project and display statistics:
 
 `psalm --stats`
 
-- Analyse a project in parallel with 4 threads:
+- Analyze a project in parallel with 4 threads:
 
 `psalm --threads {{4}}`
