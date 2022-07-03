@@ -1,7 +1,7 @@
 # deb-get
 
 > `apt-get` functionality for `.deb` packages published in third party repositories or via direct download.
-> Works with Linux distributions which use apt-get.
+> Works with Linux distributions which use `apt-get`.
 > More information: <https://github.com/wimpysworld/deb-get>.
 
 - Update the list of available packages and versions:
