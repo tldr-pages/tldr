@@ -8,7 +8,7 @@
 
 - View documentation for the original `wget` command:
 
-`tldr common/wget`
+`tldr wget -p common`
 
 - View documentation for PowerShell's `Invoke-WebRequest` command:
 

@@ -8,7 +8,7 @@
 
 - View documentation for the original `curl` command:
 
-`tldr common/curl`
+`tldr curl -p common`
 
 - View documentation for PowerShell's `Invoke-WebRequest` command:
 
