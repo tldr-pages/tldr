@@ -12,7 +12,7 @@
 
 `sudo deb-get search {{package}}`
 
-- Show information for a package:
+- Show information about a package:
 
 `sudo deb-get show {{package}}`
 
