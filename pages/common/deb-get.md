@@ -4,7 +4,7 @@
 > Works with Linux distributions which use apt-get.
 > More information: <https://github.com/wimpysworld/deb-get>.
 
-- Update the list of available packages and versions (it's recommended to run this before other commands):
+- Update the list of available packages and versions:
 
 `sudo deb-get update`
 
