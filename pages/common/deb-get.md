@@ -28,6 +28,6 @@
 
 `sudo deb-get upgrade`
 
-- List all packages:
+- List all available packages:
 
 `deb-get list`
