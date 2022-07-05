@@ -11,6 +11,10 @@
 
 `man {{7}} {{command}}`
 
+- List all available sections for a command:
+
+`man -f {{command}}`
+
 - Display the path searched for manpages:
 
 `man --path`
