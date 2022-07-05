@@ -1,8 +1,7 @@
 # crontab
 
 > Schedule cron jobs to run on a time interval for the current user.
-> Job definition format: "(min) (hour) (day_of_month) (month) (day_of_week) command_to_execute".
-> More information: <https://manned.org/crontab>.
+> More information: <https://crontab.guru/>.
 
 - Edit the crontab file for the current user:
 
@@ -28,9 +27,9 @@
 
 `0 10 * * * {{command_to_execute}}`
 
-- Sample job which runs every minute on the 3rd of April:
+- Sample job which runs every 10 minutes:
 
-`* * 3 Apr * {{command_to_execute}}`
+`*/10 * * * * {{command_to_execute}}`
 
 - Sample job which runs a certain script at 02:30 every Friday:
 
