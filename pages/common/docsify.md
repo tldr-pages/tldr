@@ -9,16 +9,16 @@
 
 - Initialize a new documentation in the specified directory:
 
-`docsify init {{path}}`
+`docsify init {{path/to/directory}}`
 
 - Serve local documentation on `localhost:3000` with live reload:
 
-`docsify serve {{path}}`
+`docsify serve {{path/to/directory}}`
 
 - Serve local documentation on `localhost` at the specified port:
 
-`docsify serve -p {{port}} {{path}}`
+`docsify serve --port {{port}} {{path/to/directory}}`
 
 - Generate a sidebar markdown file in the specified directory:
 
-`docsify generate {{path}}`
+`docsify generate {{path/to/directory}}`
