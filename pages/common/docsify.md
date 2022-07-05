@@ -17,7 +17,7 @@
 
 - Serve local documentation on `localhost` at the specified port:
 
-`docsify serve -p {{port}} {{path}}
+`docsify serve -p {{port}} {{path}}`
 
 - Generate a sidebar markdown file in the specified directory:
 
