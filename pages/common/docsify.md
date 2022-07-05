@@ -1,7 +1,7 @@
 # docsify
 
 > Initialize and serve markdown documentation.
-> More information: <https://cli.docsifyjs.org/#/>
+> More information: <https://cli.docsifyjs.org>.
 
 - Initialize new documentation in the current directory
 
