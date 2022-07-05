@@ -11,6 +11,6 @@
 
 `docsify init {{path}}`
 
-- Serve local documentation on localhost:3000 with live reload:
+- Serve local documentation on `localhost:3000` with live reload:
 
 `docsify serve {{path}}`
