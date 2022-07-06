@@ -10,19 +10,19 @@
 
 - Remove files/directories from a specific archive:
 
-`zip -d {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
+`zip --delete {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
 - Archive files/directories e[x]cluding specified ones:
 
-`zip {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}} -x {{path/to/excluded_files_or_directories}}`
+`zip {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}} --exclude {{path/to/excluded_files_or_directories}}`
 
 - Archive files/directories with a specific compression level (`0` - the lowest, `9` - the highest):
 
 `zip -r -{{0-9}} {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
-- Create an [e]ncrypted archive with a specific password:
+- Create an encrypted archive with a specific password:
 
-`zip -r -e {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
+`zip -r --encrypt {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
 - Archive files/directories to a multi-part [s]plit zip file (e.g. 3 GB parts):
 
