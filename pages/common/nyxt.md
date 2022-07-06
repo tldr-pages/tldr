@@ -11,10 +11,10 @@
 
 `nyxt --list-data-profiles`
 
-- Set init.lisp file path:
+- Set the `init.lisp` file path:
 
 `nyxt --init {{path/to/file}}`
 
-- Change the auto-config.lisp:
+- Change the path to the auto-config file:
 
 `nyxt --auto-config {{path/to/file}}`
