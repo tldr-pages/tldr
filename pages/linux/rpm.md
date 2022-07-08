@@ -31,6 +31,6 @@
 
 `rpm --verify --all '{{php-*}}'`
 
-- Display changelog of a specific package:
+- Display the changelog of a specific package:
 
 `rpm --query --changelog {{package_name}}`
