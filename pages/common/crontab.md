@@ -31,6 +31,6 @@
 
 `*/10 * * * * {{command_to_execute}}`
 
-- Sample job which runs a certain script at 02:30 every Friday:
+- Sample crontab entry, which runs a certain script at 02:30 every Friday:
 
 `30 2 * * Fri {{/absolute/path/to/script.sh}}`
