@@ -24,6 +24,6 @@
 
 `zsh --verbose`
 
-- Execute a command inside `zsh` with disabled glob patterns:
+- Execute a specific command inside `zsh` with disabled glob patterns:
 
 `noglob {{command}}`
