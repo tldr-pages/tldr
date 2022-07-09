@@ -27,7 +27,7 @@
 
 `0 10 * * * {{command_to_execute}}`
 
-- Sample job which runs every 10 minutes:
+- Sample crontab entry, which runs a command every 10 minutes:
 
 `*/10 * * * * {{command_to_execute}}`
 
