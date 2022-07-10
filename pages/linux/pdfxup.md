@@ -3,7 +3,7 @@
 > N-up PDF pages.
 > More information: <https://ctan.org/pkg/pdfxup>.
 
-- 2-up a PDF:
+- Create a 2-up PDF:
 
 `pdfxup -o {{output.pdf}} {{input.pdf}}`
 
