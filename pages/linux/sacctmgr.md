@@ -17,4 +17,4 @@
 
 - Show details of user/association/cluster/account using a specific format:
 
-`sacctmgr show {{user|association|cluster|account}} format="Accout%10" format="GrpTRES%30"`
+`sacctmgr show {{user|association|cluster|account}} format="Account%10" format="GrpTRES%30"`
