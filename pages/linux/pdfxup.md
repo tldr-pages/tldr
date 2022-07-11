@@ -13,4 +13,4 @@
 
 - Booklet mode (2-up and pages are sorted to form a book when folded):
 
-`pdfxup -b -o {{output.pdf}} {{input.pdf}}`
+`pdfxup -b -o {{path/to/output.pdf}} {{path/to/input.pdf}}`
