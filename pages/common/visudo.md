@@ -11,6 +11,10 @@
 
 `sudo visudo -c`
 
+- Edit the sudoers file using a specific editor:
+
+`sudo EDITOR={{editor}} visudo`
+
 - Display version information:
 
 `visudo --version`

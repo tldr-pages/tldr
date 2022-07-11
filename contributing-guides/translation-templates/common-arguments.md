@@ -3,7 +3,7 @@
 This page provides translations of commonly used arguments to simplify maintaining pages in foreign languages.  
 The best way to edit this file is by using [tableconvert.com](https://tableconvert.com/).  
 There, the old table can be **imported**, **edited** in a WYSIWYG editor and **exported** again.  
-Only the left-alignment of the header gets lost and has to be readded again (`|----` → `|:---`).
+Only the left-alignment of the header gets lost and has to be re-added again (`|----` → `|:---`).
 
 | en    | path/to/file         | path/to/directory      | path/to/file_or_directory         | package   | username          |
 |:------|:---------------------|:-----------------------|:----------------------------------|:----------|:------------------|

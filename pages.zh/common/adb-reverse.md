@@ -7,7 +7,7 @@
 
 `adb reverse --list`
 
-- 将 TCP 端口从安卓模拟器或设备中映射到 localhost:
+- 将 TCP 端口从安卓模拟器或设备中映射到 localhost：
 
 `adb reverse tcp:{{远程端口}} tcp:{{本地端口}}`
 
