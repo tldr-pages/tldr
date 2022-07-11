@@ -5,7 +5,7 @@
 
 - Create a 2-up PDF:
 
-`pdfxup -o {{output.pdf}} {{input.pdf}}`
+`pdfxup -o {{path/to/output.pdf}} {{path/to/input.pdf}}`
 
 - Create a PDF with 3 columns and 2 lines per page:
 
