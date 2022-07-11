@@ -1,6 +1,7 @@
 # pacaur
 
 > A utility for Arch Linux to build and install packages from the Arch User Repository.
+> More information: <https://github.com/rmarquis/pacaur>.
 
 - Synchronize and update all packages (includes AUR):
 

@@ -11,7 +11,7 @@
 
 `autopep8 --diff {{path/to/file}}`
 
-- Format a file in-pace and save the changes:
+- Format a file in-place and save the changes:
 
 `autopep8 --in-place {{path/to/file.py}}`
 

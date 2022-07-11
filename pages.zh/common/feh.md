@@ -3,7 +3,7 @@
 > 轻量级图像查看工具。
 > 更多信息：<https://feh.finalrewind.org>.
 
-- 查看本地图像或使用 URL:
+- 查看本地图像或使用 URL：
 
 `feh {{图片路径}}`
 

@@ -8,7 +8,7 @@
 
 `glab mr create`
 
-- Check out a merge request locally:
+- Check out a specific merge request locally:
 
 `glab mr checkout {{mr_number}}`
 

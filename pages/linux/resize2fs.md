@@ -2,6 +2,7 @@
 
 > Resize an ext2, ext3 or ext4 filesystem.
 > Does not resize the underlying partition. The filesystem may have to be unmounted first, read the man page for more details.
+> More information: <https://manned.org/resize2fs>.
 
 - Automatically resize a filesystem:
 
