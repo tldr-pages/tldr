@@ -6,7 +6,7 @@
 
 - Analisa o texto do stdin:
 
-`echo {{His network looks good}} | alex --stdin`
+`echo {{A rede dele parece boa}} | alex --stdin`
 
 - Analisa todos arquivos no diretório atual:
 
