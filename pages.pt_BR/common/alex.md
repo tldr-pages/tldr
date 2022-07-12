@@ -14,7 +14,7 @@
 
 - Analisa um arquivo específico:
 
-`alex {{textfile.md}}`
+`alex {{archivo_do_texto.md}}`
 
 - Analisa todos arquivos em Markdown exceto `example.md`:
 
