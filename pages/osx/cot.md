@@ -17,7 +17,7 @@
 
 - Open and wait until done editing a specific file:
 
-`code --wait {{path/to/file}}`
+`cot --wait {{path/to/file}}`
 
 - Open a file with the cursor at a specific line and column:
 
