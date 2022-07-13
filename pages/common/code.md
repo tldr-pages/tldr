@@ -33,4 +33,4 @@
 
 - Start the editor as a superuser (root) while storing user data in a specific directory:
 
-`sudo code --user-data-dir {[path/to/directory}}`
+`sudo code --user-data-dir {{path/to/directory}}`
