@@ -9,6 +9,6 @@
 `sudo arpspoof -i {{eth0}} -t {{192.168.0.1}} {{192.168.0.2}}`
 `sudo arpspoof -i {{eth0}} -t {{192.168.0.2}} {{192.168.0.1}}`
 
-- Make a simple man-in-the-middle attack for all local clients:
+- Perform a simple man-in-the-middle attack for all local clients:
 
 `sudo arpspoof -i {{eth0}} {{192.168.0.1}}`
