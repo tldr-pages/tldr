@@ -15,7 +15,7 @@
 
 `mate --type {{filetype}} {{path/to/file}}`
 
-- Open and wait until done editing a specific file:
+- Open and wait until finished editing a specific file:
 
 `mate --wait {{path/to/file}}`
 
