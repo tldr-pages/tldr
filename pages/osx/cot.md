@@ -15,7 +15,7 @@
 
 `cot {{path/to/file1 path/to/file2 ...}}`
 
-- Open and wait until done editing a specific file:
+- Open and wait until finished editing a specific file:
 
 `cot --wait {{path/to/file}}`
 
