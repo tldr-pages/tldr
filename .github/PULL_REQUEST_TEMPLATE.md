@@ -6,8 +6,8 @@ See also https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md
 
 - **Version of the command being documented (if known):**  
 
-- [ ] All command page(s) are in correct platform directories: `common`, `linux`, `osx`, `windows`, `sunos`, `android`, etc.
-- [ ] All command page(s) have 8 or fewer examples.
-- [ ] All command page description(s) have links to documentation or a homepage.
-- [ ] All command page(s) follow the [content guidelines](/tldr-pages/tldr/blob/main/CONTRIBUTING.md#guidelines).
+- [ ] The page(s) are in the correct platform directories: `common`, `linux`, `osx`, `windows`, `sunos`, `android`, etc.
+- [ ] The page(s) have 8 or fewer examples.
+- [ ] The page description(s) have links to documentation or a homepage.
+- [ ] The page(s) follow the [content guidelines](/tldr-pages/tldr/blob/main/CONTRIBUTING.md#guidelines).
 - [ ] The PR title conforms to the recommended [templates](/tldr-pages/tldr/blob/main/CONTRIBUTING.md#commit-message).
