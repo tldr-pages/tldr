@@ -9,7 +9,7 @@
 
 - Set the default web browser to Firefox:
 
-`xdg-settings set default-web-browser firefox.desktop`
+`xdg-settings set {{default-web-browser}} {{firefox.desktop}}`
 
 - Set default mail URL scheme handler to evolution.desktop:
 
