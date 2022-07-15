@@ -11,7 +11,7 @@
 
 `xdg-settings set {{default-web-browser}} {{firefox.desktop}}`
 
-- Set default mail URL scheme handler to evolution.desktop:
+- Set the default mail URL scheme handler to Evolution:
 
 `xdg-settings set default-url-scheme-handler mailto evolution.desktop`
 
