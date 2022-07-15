@@ -54,8 +54,8 @@ Example:
 `krita --fullscreen`
 ```
 
-> :bulb: Help page can be any documentation/project/tutorial page, not just a man page.
-> Documentation pages are preferred.
+> :bulb: The help page can be any documentation/project/tutorial page, not just a man page,
+> but documentation pages are preferred.
 
 There is a linter that enforces the format above.
 It is run automatically on every pull request,
@@ -63,7 +63,7 @@ but you may install it to test your contributions locally before submitting them
 
 ```sh
 npm install --global tldr-lint
-tldr-lint page_name.md
+tldr-lint path/to/tldr_page.md
 ```
 
 For other ways to use `tldr-lint`, such as linting an entire directory, check out (what else!)
@@ -72,12 +72,12 @@ For other ways to use `tldr-lint`, such as linting an entire directory, check ou
 Your client may be able to preview a page locally using the `--render` flag:
 
 ```sh
-tldr --render page_name.md
+tldr --render path/to/tldr_page.md
 ```
 
 ### Aliases
 
-If two or more commands are the same, alias pages can be created to provide the name of the correct page for the user.
+If a command can be called with alternative names (like `vim' can be called by `vi`), alias pages can be created to point the user to the original command name.
 
 ```md
 # command_name
@@ -100,6 +100,8 @@ Example:
 - View documentation for the original command:
 
 `tldr vim`
+
+Pre-translated alias page templates can be found [here](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/alias-pages.md).
 ```
 
 ## Token syntax
