@@ -23,10 +23,6 @@
 
 `calc -m {{mode}}`
 
-- Open the `calc` manual:
-
-`calc help`
-
 - View an introduction to `calc`:
 
 `calc help intro`
@@ -34,3 +30,7 @@
 - View an overview of `calc`:
 
 `calc help overview`
+
+- Open the `calc` manual:
+
+`calc help`

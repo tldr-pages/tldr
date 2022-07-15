@@ -15,17 +15,13 @@
 
 `calc -p '{{4/3 * pi() * 5^3}}'`
 
-- Führe eine Berechnung durch und wechsle dann in den interaktiven Modus:
+- Führe eine Berechnung durch und wechsle dann in den [i]nteraktiven Modus:
 
 `calc -i '{{sqrt(2)}}'`
 
-- Starte `calc` in einem bestimmten Berechtigungs-Modus (0 bis 7, standardmäßig 7):
+- Starte `calc` in einem bestimmten Berechtigungs[m]odus (0 bis 7, standardmäßig 7):
 
 `calc -m {{mode}}`
-
-- Öffne die Bedienungsanleitung von `calc`:
-
-`calc help`
 
 - Öffne eine Einführung zu `calc`:
 
@@ -34,3 +30,7 @@
 - Öffne eine Übersicht von `calc`:
 
 `calc help overview`
+
+- Öffne die Bedienungsanleitung von `calc`:
+
+`calc help`
