@@ -13,7 +13,7 @@
 
 - Set the default mail URL scheme handler to Evolution:
 
-`xdg-settings set default-url-scheme-handler mailto evolution.desktop`
+`xdg-settings set {{default-url-scheme-handler}} {{mailto}} {{evolution.desktop}}`
 
 - Set default PDF document viewer:
 
