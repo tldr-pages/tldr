@@ -15,7 +15,7 @@
 
 `xdg-settings set {{default-url-scheme-handler}} {{mailto}} {{evolution.desktop}}`
 
-- Set default PDF document viewer:
+- Set the default PDF document viewer:
 
 `xdg-settings {{pdf-viewer.desktop}}`
 
