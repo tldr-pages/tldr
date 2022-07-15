@@ -34,3 +34,9 @@
 - Start the built-in HTTP server on port 8000 in the current directory:
 
 `python -m {{http.server}}`
+
+- Creating virtual environments:
+
+`python3 -m venv {{path/to/myenv}}`
+
+ 
