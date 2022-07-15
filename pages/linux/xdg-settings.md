@@ -1,6 +1,6 @@
 # xdg-settings
 
-> Get various settings from the desktop environment.
+> Manage settings of XDG-compatible desktop environments.
 > More information: <https://portland.freedesktop.org/doc/xdg-settings.html>.
 
 - Print default web browser:
