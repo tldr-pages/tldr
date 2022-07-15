@@ -5,7 +5,7 @@
 
 - Print the default web browser:
 
-`xdg-settings get default-web-browser`
+`xdg-settings get {{default-web-browser}}`
 
 - Set default web browser to Firefox:
 
