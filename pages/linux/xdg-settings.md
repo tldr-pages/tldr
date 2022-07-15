@@ -7,7 +7,7 @@
 
 `xdg-settings get {{default-web-browser}}`
 
-- Set default web browser to Firefox:
+- Set the default web browser to Firefox:
 
 `xdg-settings set default-web-browser firefox.desktop`
 
