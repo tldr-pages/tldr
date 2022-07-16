@@ -7,7 +7,7 @@
 
 `licensor {{MIT}} > {{LICENSE}}`
 
-- Write the MIT license with a placeholder copyright notice to a file named `LICENSE`:
+- Write the MIT license with a [p]laceholder copyright notice to a file named `LICENSE`:
 
 `licensor -p {{MIT}} > {{LICENSE}}`
 
