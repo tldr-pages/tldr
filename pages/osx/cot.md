@@ -19,6 +19,6 @@
 
 `cot --wait {{path/to/file}}`
 
-- Open a file with the cursor at a specific line and column:
+- Open a specific file with the cursor at a specific line and column:
 
 `cot --line {{line_number}} --column {{column_number}} {{path/to/file}}`
