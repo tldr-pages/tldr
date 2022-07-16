@@ -34,3 +34,11 @@
 - Find which packages provide a given file:
 
 `dnf provides {{file}}`
+
+- View all past operations:
+
+`dnf history`
+
+- View details of past install/remove/update operations of a package:
+
+`dnf history info {{package}}`
