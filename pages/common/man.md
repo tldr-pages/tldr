@@ -13,7 +13,7 @@
 
 - List all available sections for a command:
 
-`man -f {{command}}`
+`man --whatis {{command}}`
 
 - Display the path searched for manpages:
 
@@ -21,7 +21,7 @@
 
 - Display the location of a manpage rather than the manpage itself:
 
-`man -w {{command}}`
+`man --where {{command}}`
 
 - Display the man page using a specific locale:
 
@@ -29,4 +29,4 @@
 
 - Search for manpages containing a search string:
 
-`man -k "{{search_string}}"`
+`man --apropos "{{search_string}}"`
