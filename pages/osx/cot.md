@@ -15,7 +15,7 @@
 
 `cot {{path/to/file1 path/to/file2 ...}}`
 
-- Open and wait until finished editing a specific file:
+- Open a specific file in the foreground (blocking the terminal until the editor is closed):
 
 `cot --wait {{path/to/file}}`
 
