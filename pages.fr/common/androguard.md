@@ -1,6 +1,6 @@
 # androguard
 
-> Reverse engineering tool for Android applications. Written in Python.
+> Outil d’ingénierie inverse pour les applications Android. Écrit en Python.
 > Plus d'informations : <https://github.com/androguard/androguard>.
 
 - Affiche le manifest d'application Android :
