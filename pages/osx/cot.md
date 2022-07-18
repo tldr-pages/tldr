@@ -7,15 +7,15 @@
 
 `cot`
 
-- Open specific files:
+- Open specific files in the background:
 
 `cot {{path/to/file1 path/to/file2 ...}}`
 
-- Open a new blank document:
+- Open a new blank document in the background:
 
 `cot --new`
 
-- Open a specific file in the foreground (blocking the terminal until the editor is closed):
+- Open a specific file (blocking the terminal until the editor is closed):
 
 `cot --wait {{path/to/file}}`
 
