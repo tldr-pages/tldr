@@ -17,7 +17,7 @@
 
 - Specify licence exceptions with a WITH expression:
 
-`licensor {{"Apache-2.0 WITH LLVM-exception"}} > {{LICENSE}}`
+`licensor "{{Apache-2.0 WITH LLVM-exception}}" > {{LICENSE}}`
 
 - List all available licenses:
 
