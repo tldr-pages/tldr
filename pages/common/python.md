@@ -37,6 +37,6 @@
 
 - Creating virtual environments:
 
-`python3 -m venv {{path/to/myenv}}`
+`python3 -m venv {{path/to/environment}}`
 
  
