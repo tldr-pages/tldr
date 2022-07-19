@@ -21,4 +21,4 @@
 
 - Search for packages that own files corresponding to the given pattern:
 
-`dpkg-query --search {{filename_search_pattern ...}}`
+`dpkg-query --search {{filename}}`
