@@ -1,6 +1,6 @@
 # cmctl
 
-> cmctl is a CLI tool that can help you to manage cert-manager resources inside your cluster.
+> A CLI tool that can help you to manage cert-manager resources inside your cluster.
 > Check cert signing status, approve/deny requests, and issue new certificate requests.
 > More information: <https://cert-manager.io/docs/usage/cmctl/>.
 
