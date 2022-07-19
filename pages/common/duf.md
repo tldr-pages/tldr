@@ -1,17 +1,17 @@
 # duf
 
-> Disk Usage/Free Utility - a better 'df' alternative.
+> Disk Usage/Free Utility.
 > More information: <https://github.com/muesli/duf>.
 
 - List accessible devices:
 
 `duf`
 
-- List everything (including pseudo, duplicate, inaccessible file systems):
+- List everything (such as pseudo, duplicate or inaccessible file systems):
 
 `duf --all`
 
-- Only list specific devices or mount points:
+- Only show specified devices or mount points:
 
 `duf /{{path/to/directory1 path/to/directory2 ...}}`
 
