@@ -15,6 +15,6 @@
 
 `duf {{path/to/directory1 path/to/directory2 ...}}`
 
-- Sort the output:
+- Sort the output by a specified criteria:
 
 `duf --sort {{size|used|avail|usage}}`
