@@ -5,16 +5,20 @@
 
 - List all installed packages:
 
-`dpkg-query -l`
+`dpkg-query --list`
 
 - List installed packages matching a pattern:
 
-`dpkg-query -l '{{pattern}}'`
+`dpkg-query --list '{{pattern}}'`
 
 - List all files installed by a package:
 
-`dpkg-query -L {{package_name}}`
+`dpkg-query --listfiles {{package_name}}`
 
 - Show information about a package:
 
-`dpkg-query -s {{package_name}}`
+`dpkg-query --status {{package_name}}`
+
+- Search for packages that own files corresponding to the given pattern:
+
+`dpkg-query --search {{filename_search_pattern ...}}`
