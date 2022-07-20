@@ -18,3 +18,7 @@
 - Update local pages (if the client supports caching):
 
 `tldr -u`
+
+- Search for a specific tldr-page:
+
+`tldr --search {{search_term}}`
