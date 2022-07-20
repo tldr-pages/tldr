@@ -4,31 +4,66 @@ This page lists specific formatting instructions for `tldr` pages.
 
 ## Layout
 
-The basic format of each page should match the following template:
+The basic format of each page should match the following template and have at most 8 command examples:
 
-```
-# command-name
+```md
+# command name
 
-> Short, snappy description.
+> Short, snappy command description.
 > Preferably one line; two are acceptable if necessary.
-> More information: <https://example.com>.
+> More information: <https://example.com/command_name/help/page>.
 
-- Example description:
+- Code description:
 
-`command -opt1 -opt2 -arg1 {{arg_value}}`
+`command_name options`
 
-- Example description:
+- Code description:
 
-`command -opt1 -opt2`
+`command_name options`
+
+...
 ```
 
-There actually is a linter/formatter that enforces the format above.
+Example:
+
+```md
+# krita
+
+> Krita is a sketching and painting program designed for digital artists.
+> See also: `gimp`.
+> More information: <https://docs.krita.org/en/reference_manual/linux_command_line.html>.
+
+- Start krita:
+
+`krita`
+
+- Start without a splash screen:
+
+`krita --nosplash`
+
+- Open specific files:
+
+`krita {{path/to/image1 path/to/image2 ...}}`
+
+- Start with a specific workspace (`Animation`):
+
+`krita --workspace {{Animation}}`
+
+- Start in a fullscreen mode:
+
+`krita --fullscreen`
+```
+
+> :bulb: The help page can be any documentation/project/tutorial page, not just a man page,
+> but documentation pages are preferred.
+
+There is a linter that enforces the format above.
 It is run automatically on every pull request,
 but you may install it to test your contributions locally before submitting them:
 
-```
+```sh
 npm install --global tldr-lint
-tldr-lint {{page.md}}
+tldr-lint path/to/tldr_page.md
 ```
 
 For other ways to use `tldr-lint`, such as linting an entire directory, check out (what else!)
@@ -36,8 +71,37 @@ For other ways to use `tldr-lint`, such as linting an entire directory, check ou
 
 Your client may be able to preview a page locally using the `--render` flag:
 
+```sh
+tldr --render path/to/tldr_page.md
 ```
-tldr --render {{page.md}}
+
+### Aliases
+
+If a command can be called with alternative names (like `vim' can be called by `vi`), alias pages can be created to point the user to the original command name.
+
+```md
+# command_name
+
+> This command is an alias of `original-command-name`.
+> More information: <https://example.com/original/command/help/page>.
+
+- View documentation for the original command:
+
+`tldr original_command_name`
+```
+
+Example:
+
+```md
+# vi
+
+> This command is an alias of `vim`.
+
+- View documentation for the original command:
+
+`tldr vim`
+
+Pre-translated alias page templates can be found [here](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/alias-pages.md).
 ```
 
 ## Token syntax
@@ -125,7 +189,7 @@ When not available, use <https://manned.org/> as the default fallback.
 
 ## Chinese-Specific Rules
 
-When Chinese words, Latin words and Arabic numerals are written in the same sentence, it takes more attention to copywriting.
+When Chinese words, Latin words and Arabic numerals are written in the same sentence, more attention must be paid to copywriting.
 
 The following guidelines are applied to Chinese (zh) and traditional Chinese (zh_TW):
 
@@ -134,8 +198,8 @@ The following guidelines are applied to Chinese (zh) and traditional Chinese (zh
    For example, use `宽度为 50 个字` rather than `宽度为50个字`.
 2. Place one space between numbers and units **except** degrees and percentages.  
    For example, use `容量 50 MB` rather than `容量 50MB`.  
-   For instances of degree and percentage, use `50°C` and `50%` rather than `50 °C` and `50 %`.
-3. No additional spaces before/after full-width punctuations.  
+   For instances of degree and percentage, use `50°C` and `50%` rather than `50 °C` and `50 %`.  
+3. No additional spaces before/after full-width punctuations.
    For example, use `开启 shell，进入交互模式` rather than `开启 shell ，进入交互模式`
 4. Use full-width punctuations except for long Latin clauses.  
    For example, use `嗨，你好。` rather than `嗨, 你好.`
