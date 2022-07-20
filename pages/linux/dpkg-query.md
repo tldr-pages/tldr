@@ -19,6 +19,6 @@
 
 `dpkg-query --status {{package_name}}`
 
-- Search for packages that own files corresponding to the given pattern:
+- Search for packages that own files matching a pattern:
 
 `dpkg-query --search {{pattern}}`
