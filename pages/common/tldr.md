@@ -19,6 +19,6 @@
 
 `tldr -u`
 
-- Search for a specific tldr-page:
+- Show a tldr-page which name contains the search term:
 
 `tldr --search {{search_term}}`
