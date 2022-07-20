@@ -3,7 +3,7 @@
 > Le manager de module shell le plus rapide.
 > Plus d'informations : <https://getantibody.github.io>.
 
-- Regroupe tous modules pour un chargement statique :
+- Regroupe tous les modules pour un chargement statique :
 
 `antibody bundle < {{~/.zsh_modules.txt}} > {{~/.zsh_modules.sh}}`
 
