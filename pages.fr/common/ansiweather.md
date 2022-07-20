@@ -7,10 +7,10 @@
 
 `ansiweather -u {{metric}} -f {{5}} -l {{Paris,FR}}`
 
-- Affiche une prévision avec des symboles et les données d'ensoleillement sur votre position actuelle :
+- Affiche une prévision avec des symboles et les données d'ensoleillement pour votre position actuelle :
 
 `ansiweather -s {{true}} -d {{true}}`
 
-- Affiche une prévision avec les données sur le vent et l'humidité sur votre position actuelle :
+- Affiche une prévision avec les données sur le vent et l'humidité pour votre position actuelle :
 
 `ansiweather -w {{true}} -h {{true}}`
