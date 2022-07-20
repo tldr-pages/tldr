@@ -7,7 +7,7 @@ This page lists specific formatting instructions for `tldr` pages.
 The basic format of each page should match the following template and have at most 8 command examples:
 
 ```md
-# command_name
+# command name
 
 > Short, snappy command description.
 > Preferably one line; two are acceptable if necessary.
