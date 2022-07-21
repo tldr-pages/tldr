@@ -12,6 +12,6 @@
 
 `apm remove {{package_name}}`
 
-- Upgrade package/theme:
+- Upgrade a package/theme:
 
 `apm upgrade {{package_name}}`
