@@ -24,7 +24,7 @@
 
 `sdk list`
 
-- List all versions of a SDK:
+- List all versions of an SDK:
 
 `sdk list {{sdk_name}}`
 
