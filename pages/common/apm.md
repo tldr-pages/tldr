@@ -4,7 +4,7 @@
 > See `atom`.
 > More information: <https://github.com/atom/apm>.
 
-- Install package from http://atom.io/packages or theme from http://atom.io/themes:
+- Install a package from http://atom.io/packages or theme from http://atom.io/themes:
 
 `apm install {{package_name}}`
 
