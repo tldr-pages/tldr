@@ -4,7 +4,7 @@
 > Supports Java, Groovy, Scala, Kotlin, Gradle, Maven, Vert.x and many others.
 > More information: <https://sdkman.io/usage>.
 
-- Install a SDK version:
+- Install an SDK version:
 
 `sdk install {{sdk_name}} {{sdk_version}}`
 
