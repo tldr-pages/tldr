@@ -11,6 +11,6 @@
 
 `apktool b {{path/to/directory}}`
 
-- Install and store framework:
+- Install and store a framework:
 
 `apktool if {{framework.apk}}`
