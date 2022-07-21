@@ -32,6 +32,6 @@
 
 `sdk upgrade {{sdk_name}}`
 
-- Uninstall a SDK version:
+- Uninstall a specific SDK version:
 
 `sdk rm {{sdk_name}} {{sdk_version}}`
