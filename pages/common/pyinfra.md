@@ -3,26 +3,18 @@
 > Automates infrastructure at a large scale.
 > More information: <https://docs.pyinfra.com>.
 
-- Execute a command over ssh:
+- Execute a command over `SSH`:
 
 `pyinfra {{target_ip_address}} exec -- {{command_name_and_arguments}}`
 
 - Execute contents of a deploy file on a list of targets:
 
-`pyinfra {{path/to/inventory.py}} {{path/to/deploy.py}}`
+`pyinfra {{path/to/target_list.py}} {{path/to/deploy.py}}`
 
-- Execute commands on your local machine:
-
-`pyinfra @local exec -- {{command_name_and_arguemnts}}`
-
-or
+- Execute commands on locally:
 
 `pyinfra @local {{path/to/deploy.py}}`
 
 - Execute commands over Docker:
-
-`pyinfra @docker/{{container}} exec -- {{command_name_and_arguemnts}}`
-
-or
 
 `pyinfra @docker/{{container}} {{path/to/deploy.py}}`
