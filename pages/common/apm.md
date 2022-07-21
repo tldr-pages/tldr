@@ -8,7 +8,7 @@
 
 `apm install {{package_name}}`
 
-- Remove package/theme:
+- Remove a package/theme:
 
 `apm remove {{package_name}}`
 
