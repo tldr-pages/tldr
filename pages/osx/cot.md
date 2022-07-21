@@ -7,11 +7,11 @@
 
 `cot`
 
-- Open specific files in the background:
+- Open specific files:
 
 `cot {{path/to/file1 path/to/file2 ...}}`
 
-- Open a new blank document in the background:
+- Open a new blank document:
 
 `cot --new`
 
