@@ -15,7 +15,7 @@
 
 `cot --new`
 
-- Open a specific file (blocking the terminal until the editor is closed):
+- Open a specific file and block the terminal until it is closed:
 
 `cot --wait {{path/to/file}}`
 
