@@ -16,7 +16,7 @@
 
 `sdk current {{sdk_name}}`
 
-- Show the stable versions of installed SDKs:
+- Show the stable versions of all installed SDKs:
 
 `sdk current`
 
