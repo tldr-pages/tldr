@@ -8,7 +8,7 @@
 
 `sdk install {{sdk_name}} {{sdk_version}}`
 
-- Use a specific SDK version in the current terminal:
+- Use a specific SDK version for the current terminal session:
 
 `sdk use {{sdk_name}} {{sdk_version}}`
 
