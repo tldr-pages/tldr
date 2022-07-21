@@ -28,7 +28,7 @@
 
 `sdk list {{sdk_name}}`
 
-- Upgrade a SDK to the latest stable version:
+- Upgrade an SDK to the latest stable version:
 
 `sdk upgrade {{sdk_name}}`
 
