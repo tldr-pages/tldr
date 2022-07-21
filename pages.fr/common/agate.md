@@ -1,6 +1,6 @@
 # agate
 
-> Un server simple pour le protocol réseau Gemini.
+> Un serveur simple pour le protocole réseau Gemini.
 > Plus d'informations : <https://github.com/mbrubeck/agate>.
 
 - Exécute et génère une clé privée et un certificat :
