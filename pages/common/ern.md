@@ -23,7 +23,7 @@
 
 `ern publish-container --publisher {{maven}} --platform {{android}} --extra {{'{"groupId":"com.walmart.ern","artifactId":"quickstart"}'}}`
 
-- Transforms an iOS container to a pre-compiled binary framework:
+- Transform an iOS container to a pre-compiled binary framework:
 
 `ern transform-container --platform {{ios}} --transformer {{xcframework}}`
 
