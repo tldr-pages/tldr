@@ -3,7 +3,7 @@
 > Automates infrastructure at a large scale.
 > More information: <https://docs.pyinfra.com>.
 
-- Execute a command over `SSH`:
+- Execute a command over SSH:
 
 `pyinfra {{target_ip_address}} exec -- {{command_name_and_arguments}}`
 
