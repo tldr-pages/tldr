@@ -1,8 +1,8 @@
-# vim
+# helix
 
 > Helix, A post-modern text editor, provides several modes for different kinds of text manipulation.
 > Pressing `i` enters insert mode. `<Esc>` enters normal mode, which enables the use of Helix commands.
-> More information: <https://helix-editor.com/>.
+> More information: <https://helix-editor.com>.
 
 - Open a file:
 
