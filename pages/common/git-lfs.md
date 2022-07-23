@@ -3,7 +3,7 @@
 > Work with large files in Git repositories.
 > More information: <https://git-lfs.github.com>.
 
-- Initialise Git LFS:
+- Initialize Git LFS:
 
 `git lfs install`
 

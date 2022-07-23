@@ -13,7 +13,7 @@
 
 - Create a `glab` subcommand alias:
 
-`glab alias set {{pv}} '{{pr view}}'`
+`glab alias set {{mrv}} '{{mr view}}'`
 
 - Set a shell command as a `glab` subcommand:
 
