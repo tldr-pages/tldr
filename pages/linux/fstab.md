@@ -20,7 +20,7 @@
 
 `Type of the partition`
 
-- Here you can tell fstab what additional settings you want to mount your partition with. For example: `defaults -> Mounts with all default options (see manpage)`, `exec -> Allow programs to be run`, `users -> All users are able to auto-mount this partition`. Seperate each option with , (without spaces inbetween):
+- Here you can tell fstab what additional settings you want to mount your partition with. Seperate each option with , (without spaces inbetween):
 
 `Options for mounting`
 
