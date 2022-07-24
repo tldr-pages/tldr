@@ -8,33 +8,22 @@
 
 `UUID/Label | Directory to mount to | Type of the partition | Options for mounting | Dump | Order in which partitions are read by 'fsck'`
 
-- UUID/Label
+- Here you put the "UUID" of the partition you wish to auto-mount. You can get the UUID by running: `sudo blkid`. You can also define this with Partition Labels, if you have that:
 
->Here you put the "UUID" of the partition you wish to auto-mount. You can get the UUID by running:
-`sudo blkid`
->You can also define this with Partition Labels, if you have that.
+`UUID/Label`
 
-- Directory
+- Tell fstab where to mount your partition to, for example: `/media/Harddrive`. Be aware that the directory needs to exist before you can mount to it. Create the directory you want with 'mkdir':
 
->Tell fstab where to mount your partition to, for example:
-`/media/Harddrive`
->Be aware that the directory needs to exist before you can mount to it. Create the directory you want with 'mkdir'.
+`Directory`
 
-- Type of the partition
+- Put the type of your partition here. To figure out what partition type your partition is, run: `sudo blkid`:
 
->Put the type of your partition here. To figure out what partition type your partition is, run:
-`sudo blkid`
+`Type of the partition`
 
-- Options for mounting
+- Here you can tell fstab what additional settings you want to mount your partition with. For example: `defaults -> Mounts with all default options (see manpage)`, `exec -> Allow programs to be run`, `users -> All users are able to auto-mount this partition`. Seperate each option with , (without spaces inbetween):
 
->Here you can tell fstab what additional settings you want to mount your partition with. For example:
-`defaults -> Mounts with all default options (see manpage)`
-`exec -> Allow programs to be run`
-`users -> All users are able to auto-mount this partition`
->Seperate each option with , (without spaces inbetween)
+`Options for mounting`
 
-- Dump/Pass
+- These Options aren't as important, you can just set them both to 0. Pass: Tell fstab which partitions to check first on boot (with fsck):
 
->These Options aren't as important, you can just set them both to 0.
->Dump:
->Pass: Tell fstab which partitions to check first on boot (with fsck).
+`Dump/Pass`
