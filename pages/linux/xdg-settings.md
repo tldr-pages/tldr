@@ -17,7 +17,7 @@
 
 - Set the default PDF document viewer:
 
-`xdg-settings {{pdf-viewer.desktop}}`
+`xdg-settings set {{pdf-viewer.desktop}}`
 
 - Display help:
 
