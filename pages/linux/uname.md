@@ -3,39 +3,39 @@
 >uname prints information about the machine and operating system it is run on. 
 >More information: <https://www.gnu.org/software/coreutils/manual/html_node/uname-invocation.html>.
 
-- Prints all information:
+- Print all information:
   
 `uname -a, uname --all`
 
-- Prints the kernal name:
+- Print the kernal name:
   
 `uname -s, uname --kernel-name , uname`
 
-- Prints the network node host name:
+- Print the network node host name:
 
 `uname -n, uname --nodename`
 
-- Prints the kernel release:
+- Print the kernel release:
   
 `uname -r, uname --kernel-release`
 
-- Prints the kernel version:
+- Print the kernel version:
 
 `uname -v, uname --kernel-version`
 
-- Prints the machine hardware name:
+- Print the machine hardware name:
 
 `uname -m, uname--machine`
 
-- Prints the processor type (non- portable):
+- Print the processor type (non- portable):
 
 `uname -p, uname --processor`
 
-- Prints the hardware platform (non-portable):
+- Print the hardware platform (non-portable):
 
 `uname -i, uname --hardware-platform`
 
-- Prints the operating system name:
+- Print the operating system name:
 
  `uname -o, --operating-system`
 
