@@ -5,44 +5,36 @@
 
 - Print all information:
 
-`uname -a, uname --all`
+`uname -a`
 
 - Print the kernal name:
 
-`uname -s, uname --kernel-name , uname`
+`uname -s`
 
 - Print the network node host name:
 
-`uname -n, uname --nodename`
+`uname -n`
 
 - Print the kernel release:
 
-`uname -r, uname --kernel-release`
+`uname -r`
 
 - Print the kernel version:
 
-`uname -v, uname --kernel-version`
+`uname -v`
 
 - Print the machine hardware name:
 
-`uname -m, uname--machine`
+`uname -m`
 
 - Print the processor type (non- portable):
 
-`uname -p, uname --processor`
+`uname -p`
 
 - Print the hardware platform (non-portable):
 
-`uname -i, uname --hardware-platform`
+`uname -i`
 
 - Print the operating system name:
 
- `uname -o, --operating-system`
-
-- Check the uname version:
-
-`uname --version`
-
-- Show general help:
-
-`uname --help`
+ `uname -o`
