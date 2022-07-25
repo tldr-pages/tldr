@@ -127,7 +127,7 @@ in order to allow `tldr` clients to highlight them.
   In other cases quote arguments just when documentation mandates quotes explicitly or
   you exactly know they are required and the documentation just missing information about this.
 - Use double quotes for placeholders where variable or another substitution occures.
-  In other cases prefer single quotes.
+  In other cases use single quotes.
 
 > :bulb: Many shells have [word splitting][word_splitting] enabled by default so unquoted arguments may be splitted to
 several ones. But the main goal of Tl;Dr pages is to provide easy to read and simple in use pages but
@@ -136,25 +136,26 @@ not to strictly follow POSIX shell syntax.
 [word_splitting]: https://mywiki.wooledge.org/WordSplitting
 
 ### Paths
-- Use `{{filename}}` rather than `{{file_name}}`.
-- For any reference to paths of files or directories,
-  use the format `{{path/to/<placeholder>}}`,
-  except when the location is implicit.
-- When the path cannot be relative,
-  but has to start at the root of the filesystem,
-  prefix it with a slash,
-  such as `get {{/path/to/remote_file}}`.
-- In case of a possible reference both to a file or a directory,
-  use `{{path/to/file_or_directory}}`.
 
-Extensions
+- Use `{{path/to/file}}` or `{{path/to/directory}}` placeholders for file and directory paths respectively.
+- Where file and directory paths are vaild use `{{path/to/file_or_directory}}` placeholder.
+- For absolute paths add leading slash at the beggining of placeholder such as `{{/path/to/file}}` or `{{/path/to/directory}}`.
+- Replace `file` and `directory` words from placeholders above with more descriptive ones
+  just when documentation describes command argument semantics explicitly or you exactly know placeholder meaning
+  and the documentation just missing information about this.
 
-- If a particular extension is expected for the file, append it.
-  For example, `unrar x {{compressed.rar}}`.
-- In case a generic extension is needed, use `{{.ext}}`, but **only** if an extension is required.
-  For instance, in `find.md`'s example "Find files by extension" (`find {{root_path}} -name '{{*.ext}}'`)
-  using `{{*.ext}}` explains the command without being unnecessarily specific;
-  while in `wc -l {{file}}` using `{{file}}` (without extension) is sufficient.
+### Extensions
+
+- Append `.ext` to the end of a file path placeholder just when:
+  - documentation requires extension explicitly
+  - you exactly know it is required (maybe from source code) and the documentation just missing information about this
+  - adding extension is an good practise described anywhere
+  
+  For example: `unrar x {{path/to/compressed.rar}}`
+- Replace `ext` word from placeholder above with one of concreete extensions
+  just when:
+  - documentation describes valid extensions explicitly
+  - you exactly know them (maybe from source code) and the documentation just missing information about this
 
 ### Special cases
 - If a command performs irreversible changes to a file system or devices,
