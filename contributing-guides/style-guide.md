@@ -111,12 +111,15 @@ in order to allow `tldr` clients to highlight them.
 
 Keep the following guidelines in mind when choosing tokens:
 
-### Naming
+### General rules
+
 - Use short but descriptive tokens,
-  such as `{{source_file}}` or `{{wallet.txt}}`.
+  such as `{{path/to/source.cs}}` or `{{wallet.txt}}`.
 - Use [`snake_case`](https://wikipedia.org/wiki/snake_case) for multi-word tokens.
 - Use an actual value rather than a generic placeholder where appropriate.
   For example, use `iostat {{2}}` rather than `iostat {{interval_in_secs}}`.
+
+> :bulb: Formal rules are described below.
 
 ### Paths
 - Use `{{filename}}` rather than `{{file_name}}`.
