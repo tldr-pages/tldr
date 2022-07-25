@@ -12,7 +12,7 @@
 
 `sdk use {{sdk_name}} {{sdk_version}}`
 
-- Show the stable version of a SDK:
+- Show the stable version of any available SDK:
 
 `sdk current {{sdk_name}}`
 
@@ -20,7 +20,7 @@
 
 `sdk current`
 
-- List all SDKs:
+- List all available SDKs:
 
 `sdk list`
 
