@@ -1,14 +1,14 @@
 # uname
 
->uname prints information about the machine and operating system it is run on. 
->More information: <https://www.gnu.org/software/coreutils/manual/html_node/uname-invocation.html>.
+> uname prints information about the machine and operating system it is run on.
+> More information: <https://www.gnu.org/software/coreutils/manual/html_node/uname-invocation.html>.
 
 - Print all information:
-  
+
 `uname -a, uname --all`
 
 - Print the kernal name:
-  
+
 `uname -s, uname --kernel-name , uname`
 
 - Print the network node host name:
@@ -16,7 +16,7 @@
 `uname -n, uname --nodename`
 
 - Print the kernel release:
-  
+
 `uname -r, uname --kernel-release`
 
 - Print the kernel version:
