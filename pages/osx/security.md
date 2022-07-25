@@ -22,3 +22,11 @@
 - Add a certificate from file to a [k]eychain (if -k isn't specified, the default keychain is used):
 
 `security add-certificates -k {{keychain.name}} {{path/to/file.pem}}`
+
+- Add a CA certificate to the per-user Trust Settings:
+
+`security add-trusted-cert -k {{path/to/login.keychain-db}} {{ca-cert.pem}}`
+
+- Remove a CA certificate from the per-user Trust Settings:
+
+`security remove-trusted-cert -d {{ca-cert.pem}}`
