@@ -104,22 +104,22 @@ Example:
 Pre-translated alias page templates can be found [here](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/alias-pages.md).
 ```
 
-## Token syntax
+## Placeholder syntax
 
-User-provided values should use the `{{token}}` syntax
+User-provided values should use the `{{placeholder}}` syntax
 in order to allow `tldr` clients to highlight them.
-
-Keep the following guidelines in mind when choosing tokens:
 
 ### General rules
 
-- Use short but descriptive tokens,
+- Use short but descriptive placeholders,
   such as `{{path/to/source.cs}}` or `{{wallet.txt}}`.
-- Use [`snake_case`](https://wikipedia.org/wiki/snake_case) for multi-word tokens.
+- Use [snake_case][snake_case] for multi-word tokens.
 - Use an actual value rather than a generic placeholder where appropriate.
   For example, use `iostat {{2}}` rather than `iostat {{interval_in_secs}}`.
 
 > :bulb: Formal rules are described below.
+
+[snake_case]: https://wikipedia.org/wiki/snake_case
 
 ### Paths
 - Use `{{filename}}` rather than `{{file_name}}`.
