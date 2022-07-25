@@ -124,8 +124,9 @@ in order to allow `tldr` clients to highlight them.
 ### Quoting
 
 - Don't quote path placeholders for page simplicity although shell may require quotes.
-  In other cases quote arguments just when documentation mandates quotes explicitly or
-  you exactly know they are required and the documentation just missing information about this.
+  In other cases quote arguments just when:
+  - documentation mandates quotes explicitly
+  - you exactly know they are required and the documentation just missing information about this
 - Use double quotes for placeholders where variable or another substitution occures.
   In other cases use single quotes.
 
