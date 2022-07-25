@@ -139,11 +139,12 @@ not to strictly follow POSIX shell syntax.
 ### Paths
 
 - Use `{{path/to/file}}` or `{{path/to/directory}}` placeholders for file and directory paths respectively.
-- Where file and directory paths are vaild use `{{path/to/file_or_directory}}` placeholder.
+- Where file and directory paths are both vaild use `{{path/to/file_or_directory}}` placeholder.
 - For absolute paths add leading slash at the beggining of placeholder such as `{{/path/to/file}}` or `{{/path/to/directory}}`.
 - Replace `file` and `directory` words from placeholders above with more descriptive ones
-  just when documentation describes command argument semantics explicitly or you exactly know placeholder meaning
-  and the documentation just missing information about this.
+  just when:
+  - documentation describes command argument semantics explicitly
+  - you exactly know placeholder meaning (maybe from source code) and the documentation just missing information about this.
 
 ### Extensions
 
