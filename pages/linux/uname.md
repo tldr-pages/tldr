@@ -20,7 +20,7 @@
 `uname -r, uname --processor`
 
 - Print the kernel version:
- 
+
 `uname -v, uname --kernel-version`
 
 - Print the machine hardware name:
@@ -33,4 +33,4 @@
 
 - Print the operating system name:
 
- `uname -o, uname --operating-system`
+`uname -o, uname --operating-system`
