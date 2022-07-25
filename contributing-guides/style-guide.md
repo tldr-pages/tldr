@@ -121,6 +121,20 @@ in order to allow `tldr` clients to highlight them.
 
 [snake_case]: https://wikipedia.org/wiki/snake_case
 
+### Quoting
+
+- Don't quote path placeholders for page simplicity although shell may require quotes.
+  In other cases quote arguments just when documentation mandates quotes explicitly or
+  you exactly know they are required and the documentation just missing information about this.
+- Use double quotes for placeholders where variable or another substitution occures.
+  In other cases prefer single quotes.
+
+> :bulb: Many shells have [word splitting][word_splitting] enabled by default so unquoted arguments may be splitted to
+several ones. But the main goal of Tl;Dr pages is to provide easy to read and simple in use pages but
+not to strictly follow POSIX shell syntax.
+
+[word_splitting]: https://mywiki.wooledge.org/WordSplitting
+
 ### Paths
 - Use `{{filename}}` rather than `{{file_name}}`.
 - For any reference to paths of files or directories,
