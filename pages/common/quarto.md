@@ -9,11 +9,11 @@
 
 - Create a new website project:
 
-`quarto create-project **{{destination_directory}}** --type {{website}}`
+`quarto create-project {{destination_directory}} --type {{website}}`
 
 - Create a new book project:
 
-`quarto create-project **{{destination_directory}}** --type {{book}}`
+`quarto create-project {{destination_directory}} --type {{book}}`
 
 - Render an R Markdown file to HTML:
 
