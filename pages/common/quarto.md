@@ -15,7 +15,7 @@
 
 `quarto create-project {{destination_directory}} --type book`
 
-- Render R Markdown file to HTML:
+- Render an R Markdown file to HTML:
 
 `quarto render {{input.rmd}} --to html`
 
