@@ -3,11 +3,11 @@
 > Administer keychains, keys, certificates and the Security framework.
 > More information: <https://ss64.com/osx/security.html>.
 
-- List available keychains:
+- List all available keychains:
 
 `security list-keychains`
 
-- Delete a keychain:
+- Delete a specific keychain:
 
 `security delete-keychain {{path/to/file.keychain}}`
 
