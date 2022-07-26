@@ -7,7 +7,7 @@
 
 `uname --all`
 
-- Print the kernal name:
+- Print the kernel name:
 
 `uname --s, uname --kernel-name, uname`
 
