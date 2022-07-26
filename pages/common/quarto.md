@@ -27,10 +27,10 @@
 
 `quarto render {{path/to/file.ipynb}} --to html`
 
-- Render a document to PDF:
+- Render a Quarto file to PDF:
 
 `quarto render {{path/to/file.qmd}} --to pdf`
 
-- Render a document to Microsoft docx document:
+- Render a Quarto file to Microsoft docx document:
 
 `quarto render {{path/to/file.qmd}} --to docx`
