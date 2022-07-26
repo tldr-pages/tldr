@@ -27,10 +27,10 @@
 
 `quarto render {{path/to/file.ipynb}} --to {{html}}`
 
-- Render a Quarto file to PDF:
+- Render an R Markdown, Jupyter, or Quarto file to PDF:
 
-`quarto render {{path/to/file.qmd}} --to {{pdf}}`
+`quarto render {{path/to/file}} --to {{pdf}}`
 
-- Render a Quarto file to Microsoft docx document:
+- Render an R Markdown, Jupyter, or Quarto file to a Microsoft `docx` document:
 
-`quarto render {{path/to/file.qmd}} --to {{docx}}`
+`quarto render {{path/to/file}} --to {{docx}}`
