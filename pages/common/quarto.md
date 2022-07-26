@@ -19,7 +19,7 @@
 
 `quarto render {{path/to/file.rmd}} --to html`
 
-- Render Quarto file to HTML:
+- Render a Quarto file to HTML:
 
 `quarto render {{input.qmd}} --to html`
 
