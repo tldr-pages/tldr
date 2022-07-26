@@ -1,6 +1,6 @@
 # picom-trans
 
-> Set window opacity.
+> Set the window opacity for the `picom` window compositor.
 > More information: <https://github.com/yshui/picom>.
 
 - Set the currently focused window opacity to a specific percentage:
