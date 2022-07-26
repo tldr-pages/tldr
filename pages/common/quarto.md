@@ -9,11 +9,11 @@
 
 - Create a new website project:
 
-`quarto create-project {{destination_directory}} --type {{website}}`
+`quarto create-project **{{destination_directory}}** --type {{website}}`
 
 - Create a new book project:
 
-`quarto create-project {{destination_directory}} --type book`
+`quarto create-project **{{destination_directory}}** --type {{book}}`
 
 - Render an R Markdown file to HTML:
 
@@ -21,16 +21,16 @@
 
 - Render a Quarto file to HTML:
 
-`quarto render {{input.qmd}} --to html`
+`quarto render {{path/to/file.qmd}} --to html`
 
-- Render Jupyter notebooks to HTML:
+- Render a Jupyter notebook to HTML:
 
-`quarto render {{input.ipynb}} --to html`
+`quarto render {{path/to/file.ipynb}} --to html`
 
-- Render document to PDF:
+- Render a document to PDF:
 
-`quarto render {{input.qmd}} --to pdf`
+`quarto render {{path/to/file.qmd}} --to pdf`
 
-- Render document to Microsoft docx document:
+- Render a document to Microsoft docx document:
 
-`quarto render {{input.qmd}} --to docx`
+`quarto render {{path/to/file.qmd}} --to docx`
