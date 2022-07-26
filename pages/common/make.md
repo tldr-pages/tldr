@@ -28,10 +28,10 @@
 
 `make --always-make {{target}}`
 
-- Override variables defined in the Makefile by the environment:
-
-`make --environment-overrides {{target}}`
-
 - Override a variable defined in the Makefile:
 
 `make {{target}} {{variable}}={{new_value}}`
+
+- Override variables defined in the Makefile by the environment:
+
+`make --environment-overrides {{target}}`
