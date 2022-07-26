@@ -5,25 +5,21 @@
 
 - Create a new `ern` application (`MiniApp`):
 
-`ern create-miniapp {{appName}}`
+`ern create-miniapp {{application_name}}`
 
-- Run one or more `MiniApps` in the iOS Runner application:
+- Run one or more `MiniApps` in the iOS / Android Runner application:
 
-`ern run-ios`
-
-- Run one or more `MiniApps` in the Android Runner application:
-
-`ern run-android`
+`ern run-{{ios|android}}`
 
 - Create an Electrode Native container:
 
-`ern create-container --miniapps {{/absolute/path/to/miniapp_directory}} --platform {{ios|android}}`
+`ern create-container --miniapps {{/path/to/miniapp_directory}} --platform {{ios|android}}`
 
-- Publish an Electrode Native container to local Maven repository:
+- Publish an Electrode Native container to a local Maven repository:
 
 `ern publish-container --publisher {{maven}} --platform {{android}} --extra {{'{"groupId":"com.walmart.ern","artifactId":"quickstart"}'}}`
 
-- Transform an iOS container to a pre-compiled binary framework:
+- Transform an iOS container into a pre-compiled binary framework:
 
 `ern transform-container --platform {{ios}} --transformer {{xcframework}}`
 
@@ -31,6 +27,6 @@
 
 `ern platform versions`
 
-- Set the `ern` tool logging level:
+- Set a logging level:
 
 `ern platform config set logLevel {{trace|debug}}`
