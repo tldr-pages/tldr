@@ -1,6 +1,7 @@
 # reboot
 
 > 重启系统。
+> 更多信息：<https://ss64.com/osx/reboot.html>.
 
 - 立刻重启：
 
