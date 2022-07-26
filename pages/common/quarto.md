@@ -17,20 +17,20 @@
 
 - Render an R Markdown file to HTML:
 
-`quarto render {{path/to/file.rmd}} --to html`
+`quarto render {{path/to/file.rmd}} --to {{html}}`
 
 - Render a Quarto file to HTML:
 
-`quarto render {{path/to/file.qmd}} --to html`
+`quarto render {{path/to/file.qmd}} --to {{html}}`
 
 - Render a Jupyter notebook to HTML:
 
-`quarto render {{path/to/file.ipynb}} --to html`
+`quarto render {{path/to/file.ipynb}} --to {{html}}`
 
 - Render a Quarto file to PDF:
 
-`quarto render {{path/to/file.qmd}} --to pdf`
+`quarto render {{path/to/file.qmd}} --to {{pdf}}`
 
 - Render a Quarto file to Microsoft docx document:
 
-`quarto render {{path/to/file.qmd}} --to docx`
+`quarto render {{path/to/file.qmd}} --to {{docx}}`
