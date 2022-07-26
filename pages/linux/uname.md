@@ -5,7 +5,7 @@
 
 - Print all information:
 
-`uname --a, uname --all`
+`uname --all`
 
 - Print the kernal name:
 
