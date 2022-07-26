@@ -9,7 +9,7 @@
 
 - Print the kernel name:
 
-`uname --s, uname --kernel-name, uname`
+`uname --kernel-name`
 
 - Print the network node host name:
 
