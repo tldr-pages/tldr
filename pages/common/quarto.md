@@ -17,7 +17,7 @@
 
 - Render an R Markdown file to HTML:
 
-`quarto render {{input.rmd}} --to html`
+`quarto render {{path/to/file.rmd}} --to html`
 
 - Render Quarto file to HTML:
 
