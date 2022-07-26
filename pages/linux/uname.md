@@ -13,7 +13,7 @@
 
 - Print the network node host name:
 
-`uname -n, uname --nodename`
+`uname --nodename`
 
 - Print the kernel release:
 
