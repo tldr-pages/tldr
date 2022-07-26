@@ -5,7 +5,7 @@
 
 - Create a Quarto project:
 
-`quarto create-project {{destination_directory}}`
+`quarto create-project {{path/to/project}}`
 
 - Create a new website project:
 
