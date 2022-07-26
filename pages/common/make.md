@@ -32,6 +32,6 @@
 
 `make --environment-overrides {{target}}`
 
-- Override a variable defined in the Makefile via the command line:
+- Override a variable defined in the Makefile:
 
-`make {{target}} {{variable}}={{override}}`
+`make {{target}} {{variable}}={{new_value}}`
