@@ -1,6 +1,7 @@
 # spatial
 
 > A set of commands for managing and developing SpatialOS projects.
+> More information: <https://ims.improbable.io/products/spatialos>.
 
 - Run this when you use a project for the first time:
 
