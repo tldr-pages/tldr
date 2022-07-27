@@ -13,7 +13,7 @@
 
 - Create a new book project:
 
-`quarto create-project {{destination_directory}} --type {{book}}`
+`quarto create-project {{path/to/destination_directory}} --type {{book}}`
 
 - Render an R Markdown file to HTML:
 
