@@ -9,7 +9,7 @@
 
 - Show the current `texmf`, `tlmgr`, or `updmap` configuration:
 
-`tlmgr conf texmf|tlmgr|updmap`
+`tlmgr conf {{texmf|tlmgr|updmap}}`
 
 - Show only a specific configuration option:
 
