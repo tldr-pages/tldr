@@ -9,7 +9,7 @@
 
 - Create a new website project:
 
-`quarto create-project {{destination_directory}} --type {{website}}`
+`quarto create-project {{path/to/destination_directory}} --type {{website}}`
 
 - Create a new book project:
 
