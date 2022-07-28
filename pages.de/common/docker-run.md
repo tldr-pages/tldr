@@ -9,20 +9,20 @@
 
 - Führe einen Befehl in einem neuen Container im Hintergrund aus und zeige die ID:
 
-`docker run -d {{image}} {{befehl}}`
+`docker run --detach {{image}} {{befehl}}`
 
 - Führe einen Befehl in einem kurzlebigen Container im interaktiven Modus mit einem Pseudo-TTY aus:
 
-`docker run --rm -it {{image}} {{befehl}}`
+`docker run --rm --interactive --tty {{image}} {{befehl}}`
 
 - Führe einen Befehl in einem neuen Container mit übergebenen Umgebungsvariablen aus:
 
-`docker run -e '{{variable}}={{wert}}' -e {{variable}} {{image}} {{befehl}}`
+`docker run --env '{{variable}}={{wert}}' --env {{variable}} {{image}} {{befehl}}`
 
 - Führe einen Befehl in einem neuen Container mit eingebundenen Datenträgern aus:
 
-`docker run -v {{pfad/zu/host_verzeichnis}}:{{pfad/zu/container_verzeichnis}} {{image}} {{befehl}}`
+`docker run --volume {{pfad/zu/host_verzeichnis}}:{{pfad/zu/container_verzeichnis}} {{image}} {{befehl}}`
 
 - Führe einen Befehl in einem neuen Container mit veröffentlichten Ports aus:
 
-`docker run -p {{host_port}}:{{container_port}} {{image}} {{befehl}}`
+`docker run --publish {{host_port}}:{{container_port}} {{image}} {{befehl}}`
