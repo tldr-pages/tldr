@@ -23,7 +23,7 @@
 
 `rustup-init.sh --default-toolchain {{none}}`
 
-- Run `rustup-init` and specify a specific installation profile:
+- Run `rustup-init` and specify an installation profile:
 
 `rustup-init.sh --profile {{minimal|default|complete}}`
 
