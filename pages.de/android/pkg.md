@@ -1,7 +1,7 @@
 # pkg
 
 > Paketverwaltungs-Werkzeug für Termux.
-> Weitere Information: <https://wiki.termux.com/wiki/Package_Management>.
+> Weitere Informationen: <https://wiki.termux.com/wiki/Package_Management>.
 
 - Aktualisiere alle installierten Pakete:
 

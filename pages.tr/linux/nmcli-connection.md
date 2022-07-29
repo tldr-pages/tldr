@@ -1,7 +1,7 @@
 # nmcli connection
 
 > NetworkManager ile bağlantı yönetimi.
-> Daha fazla bilgi: <https://man.archlinux.org/man/nmcli.1>.
+> Daha fazla bilgi: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
 - Tüm NetworkManager bağlantılarını listele (ad, UUID, tür ve aygıtı gösterir):
 

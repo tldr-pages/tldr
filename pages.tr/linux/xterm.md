@@ -1,6 +1,7 @@
 # xterm
 
 > X Ekran Sistemi için terminal öykünücüsü.
+> Daha fazla bilgi: <https://manned.org/xterm>.
 
 - `Örnek` başlığına sahip bir terminal aç:
 
