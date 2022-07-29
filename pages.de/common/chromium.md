@@ -1,7 +1,7 @@
 # chromium
 
 > Open-Source-Webbrowser von Google.
-> Weitere Informationen: <https://chromium.org>.
+> Weitere Informationen: <https://www.chromium.org/developers/how-tos/run-chromium-with-flags/>.
 
 - Öffne eine html-Datei:
 
