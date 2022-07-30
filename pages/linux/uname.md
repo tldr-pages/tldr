@@ -19,9 +19,9 @@
 
 `uname --kernel-release`
 
-- Print the kernel version:
+- Print the current kernel version:
 
-`uname -v, uname --kernel-version`
+`uname --kernel-version`
 
 - Print the machine hardware name:
 
