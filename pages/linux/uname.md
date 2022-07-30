@@ -31,6 +31,6 @@
 
 `uname --processor`
 
-- Print the operating system name:
+- Print the current operating system name:
 
-`uname -o, uname --operating-system`
+`uname --operating-system`
