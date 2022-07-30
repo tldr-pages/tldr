@@ -23,9 +23,9 @@
 
 `uname --kernel-version`
 
-- Print the machine hardware name:
+- Print the current machine hardware name:
 
-`uname -m, uname --machine`
+`uname --machine`
 
 - Print the processor type (non- portable):
 
