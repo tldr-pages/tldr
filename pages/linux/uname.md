@@ -15,7 +15,7 @@
 
 `uname --nodename`
 
-- Print the kernel release:
+- Print the current kernel release:
 
 `uname --kernel-release`
 
