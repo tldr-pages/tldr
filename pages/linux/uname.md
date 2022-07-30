@@ -11,7 +11,7 @@
 
 `uname --kernel-name`
 
-- Print the network node host name:
+- Print the current network node host name:
 
 `uname --nodename`
 
