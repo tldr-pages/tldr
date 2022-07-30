@@ -27,9 +27,9 @@
 
 `uname --machine`
 
-- Print the processor type (non- portable):
+- Print the current processor type:
 
-`uname -p, uname --processor`
+`uname --processor`
 
 - Print the operating system name:
 
