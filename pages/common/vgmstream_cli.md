@@ -3,7 +3,7 @@
 > Play a wide variety of audio formats used in video games and convert them into `wav`.
 > More information: <https://vgmstream.org/doc/USAGE>.
 
-- Decode a adc file to wav. (Default output name is `input.wav`):
+- Decode an `adc` file to `wav`. (Default output name is `input.wav`):
 
 `vgmstream_cli {{path/to/input.adc}} -o {{path/to/output.wav}}`
 
