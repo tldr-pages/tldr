@@ -17,7 +17,7 @@
 
 - Print the kernel release:
 
-`uname -r, uname --processor`
+`uname --kernel-release`
 
 - Print the kernel version:
 
