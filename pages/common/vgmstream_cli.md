@@ -11,7 +11,7 @@
 
 `vgmstream_cli {{path/to/input.adc}} -m`
 
-- Decode audio without loops:
+- Decode an audio file without loops:
 
 `vgmstream_cli {{path/to/input.adc}} -o {{path/to/output.wav}} -i`
 
