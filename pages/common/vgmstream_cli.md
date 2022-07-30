@@ -1,4 +1,4 @@
-# vgmstream CLI decoder
+# vgmstream_cli
 
 > Play a wide variety of audio formats used in video games.
 > Converts playable files to wav.
