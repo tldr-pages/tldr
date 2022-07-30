@@ -1,7 +1,6 @@
 # vgmstream_cli
 
-> Play a wide variety of audio formats used in video games.
-> Converts playable files to wav.
+> Play a wide variety of audio formats used in video games and convert them into `wav`.
 > More information: <https://vgmstream.org/doc/USAGE>.
 
 - Decode a adc file to wav. (Default output name is `input.wav`):
