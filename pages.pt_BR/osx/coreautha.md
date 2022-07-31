@@ -4,6 +4,6 @@
 > Não deve ser invocado manualmente. Veja também: `coreauthd`.
 > Mais informações: <https://www.manpagez.com/man/8/coreautha/>.
 
-- Iniciar o agente:
+- Inicia o agente:
 
 `coreautha`

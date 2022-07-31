@@ -4,6 +4,6 @@
 > Não deve ser invocado manualmente. Veja também: `coreautha`.
 > Mais informações: <https://www.manpagez.com/man/8/coreauthd/>.
 
-- Iniciar o daemon:
+- Inicia o daemon:
 
 `coreauthd`

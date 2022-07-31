@@ -4,6 +4,6 @@
 > Não deve ser invocado manualmente.
 > Mais informações: <https://developer.apple.com/library/archive/documentation/MusicAudio/Conceptual/CoreAudioOverview/WhatisCoreAudio/WhatisCoreAudio.html>.
 
-- Iniciar o daemon:
+- Inicia o daemon:
 
 `coreaudiod`
