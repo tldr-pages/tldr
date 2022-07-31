@@ -7,10 +7,10 @@
 
 `gdalwarp -t_srs {{EPSG:4326}} {{path/to/input.tif}} {{path/to/output.tif}}`
 
-- Crop a raster dataset by coordinates:
+- Crop a raster dataset by using specific coordinates:
 
 `gdalwarp -te {{min_x}} {{min_y}} {{max_x}} {{max_y}} -te_srs {{EPSG:4326}} {{path/to/input.tif}} {{path/to/output.tif}}`
 
-- Crop a raster dataset by a vector layer:
+- Crop a raster dataset using a vector layer:
 
 `gdalwarp -cutline {{path/to/area_to_cut.geojson}} -crop_to_cutline {{path/to/input.tif}} {{path/to/output.tif}}`
