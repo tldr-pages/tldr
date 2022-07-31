@@ -11,7 +11,7 @@
 
 `gdal_translate -a_srs {{EPSG:4326}} {{path/to/input.tif}} {{path/to/output.tif}}`
 
-- Reduce the size of a raster dataset:
+- Reduce the size of a raster dataset to a specific fraction:
 
 `gdal_translate -outsize {{40%}} {{40%}} {{path/to/input.tif}} {{path/to/output.tif}}`
 
