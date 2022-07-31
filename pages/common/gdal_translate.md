@@ -3,7 +3,7 @@
 > Convert raster data between different formats.
 > More information: <https://gdal.org/programs/gdal_translate>.
 
-- Convert raster dataset to different format:
+- Convert a raster dataset to JPEG format:
 
 `gdal_translate -of {{JPEG}} {{path/to/input.tif}} {{path/to/output.jpeg}}`
 
