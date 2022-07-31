@@ -18,3 +18,7 @@
 - Update local pages (if the client supports caching):
 
 `tldr -u`
+
+- Override the default language:
+
+`tldr --language {{language}} {{command}}`
