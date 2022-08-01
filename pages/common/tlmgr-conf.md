@@ -13,15 +13,15 @@
 
 - Show only a specific configuration option:
 
-`tlmgr conf texmf|tlmgr|updmap {{configuration_key}}`
+`tlmgr conf {{texmf|tlmgr|updmap}} {{configuration_key}}`
 
 - Set a specific configuration option:
 
-`tlmgr conf texmf|tlmgr|updmap {{configuration_key}} {{value}}`
+`tlmgr conf {{texmf|tlmgr|updmap}} {{configuration_key}} {{value}}`
 
 - Delete a specific configuration option:
 
-`tlmgr conf texmf|tlmgr|updmap --delete {{configuration_key}}`
+`tlmgr conf {{texmf|tlmgr|updmap}} --delete {{configuration_key}}`
 
 - Disable the execution of system calls via `\write18`:
 
