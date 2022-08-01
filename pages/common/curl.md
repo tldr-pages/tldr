@@ -35,3 +35,11 @@
 - Pass client certificate and key for a resource, skipping certificate validation:
 
 `curl --cert {{client.pem}} --key {{key.pem}} --insecure {{https://example.com}}`
+
+- Send a request for HTTP headers only without the body response content:
+
+`curl --head {{http://example.com}}`
+
+- Alternatively to above (because some servers may not correctly respond to HEAD requests), send a GET request but then print response code and headers and drop the connection without receiving the response body:
+
+`curl --head -X GET {{http://example.com}}`
