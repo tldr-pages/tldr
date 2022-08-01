@@ -32,6 +32,6 @@
 
 `flameshot gui --clipboard`
 
-- Create a screenshot with a specific delay in seconds:
+- Create a screenshot with a specific delay in milliseconds:
 
-`flameshot full --delay {{5}}`
+`flameshot full --delay {{5000}}`
