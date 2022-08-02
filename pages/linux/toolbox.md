@@ -16,6 +16,6 @@
 
 `toolbox help {{subcommand}}`
 
-- Run subcommands:
+- Run a `toolbox` subcommand:
 
-`toolbox {{subcommand}}{{subcommand}}`
+`toolbox {{subcommand}}`
