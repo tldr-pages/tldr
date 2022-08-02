@@ -1,6 +1,7 @@
 # toolbox init-container
 
-> Initialize a running container.
+> Initialize a running `toolbox` container.
+> This command is not expected to be directly invoked by humans, and cannot be used on the host.
 > More information: <https://www.mankier.com/1/toolbox-init-container>.
 
 - Pass gid as the user's numerical group ID from the host to the `toolbox` container:
