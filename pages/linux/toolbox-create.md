@@ -3,7 +3,7 @@
 > Create a new `toolbox` container.
 > More information: <https://manned.org/toolbox-create.1>.
 
-- Create a `toolbox` container for a different distribution other than the host:
+- Create a `toolbox` container for a specific distribution:
 
 `toolbox create --distro {{distribution}}`
 
