@@ -17,4 +17,4 @@
 
 - Create a toolbox container using the default image for Fedora 36:
 
-`toolbox create --distro fedora --release f36`
+`toolbox create --distro {{fedora}} --release {{f36}}`
