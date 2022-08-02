@@ -23,6 +23,12 @@
 
 `grep --{{context|before-context|after-context}}={{3}} "{{search_pattern}}" {{path/to/file}}`
 
+- `-A` = print x num of lines after each match
+- `-B` = print x num of lines before each match
+- `-C` = print x num of lines before and after each match
+
+`grep -C 3 "{{search_pattern}}" {{path/to/file}}`
+
 - Print file name and line number for each match with color output:
 
 `grep --with-filename --line-number --color=always "{{search_pattern}}" {{path/to/file}}`
