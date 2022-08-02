@@ -1,6 +1,6 @@
 # toolbox rm
 
-> Remove one or more toolbox conatiners.
+> Remove one or more `toolbox` conatiners.
 > More information: <https://www.mankier.com/1/toolbox-rm>.
 
 - Remove all `toolbox` containers:
