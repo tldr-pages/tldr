@@ -3,9 +3,9 @@
 > Remove one or more `toolbox` images.
 > More information: <https://manned.org/toolbox-rmi.1>.
 
-- Remove a toolbox container:
+- Remove a toolbox image:
 
-`toolbox rmi {{container name}}`
+`toolbox rmi {{image_name}}`
 
 - Remove all `toolbox` images:
 
