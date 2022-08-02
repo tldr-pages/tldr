@@ -11,6 +11,6 @@
 
 `toolbox run --distro {{distribution}}`
 
-- Run command inside a `toolbox` container for a distribution release other than the host:
+- Run a command inside a `toolbox` container for a specific distribution release:
 
 `toolbox run --release {{release}}`
