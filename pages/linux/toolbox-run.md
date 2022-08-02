@@ -13,4 +13,4 @@
 
 - Run emacs inside a toolbox container using the default image for Fedora 36:
 
-`toolbox run --distro fedora --release f36 emacs`
+`toolbox run --distro {{fedora}} --release {{f36}} {{emacs}}`
