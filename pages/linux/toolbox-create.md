@@ -15,6 +15,10 @@
 
 `toolbox create --image {{name}}`
 
-- Create a toolbox container using the default image for Fedora 36:
+- Create a custom `toolbox` container from a custom image:
+
+`toolbox create --image registry.fedoraproject.org/fedora-toolbox:36`
+
+- Create a `toolbox` container using the default image for Fedora 36:
 
 `toolbox create --distro {{fedora}} --release {{f36}}`
