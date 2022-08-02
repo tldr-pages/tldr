@@ -3,14 +3,14 @@
 > Run a command in an existing `toolbox` container.
 > More information: <https://www.mankier.com/1/toolbox-run>.
 
-- Run command inside a `toolbox` container with the given NAME:
+- Run command inside a `toolbox` container with the given name:
 
-`toolbox run --container {{NAME}}`
+`toolbox run --container {{name}}`
 
-- Run command inside a `toolbox` container for a different operating system DISTRO than the host:
+- Run command inside a `toolbox` container for a different distribution other than the host:
 
-`toolbox run --distro {{DISTRO}}`
+`toolbox run --distro {{distribution}}`
 
-- Run command inside a `toolbox` container for a different operating system RELEASE than the host:
+- Run command inside a `toolbox` container for a distribution release other than the host:
 
-`toolbox run --release {{RELEASE}}`
+`toolbox run --release {{release}}`
