@@ -3,7 +3,7 @@
 > Run a command in an existing `toolbox` container.
 > More information: <https://manned.org/toolbox-run>.
 
-- Run command inside a `toolbox` container with the given name:
+- Run a command inside a specific `toolbox` container:
 
 `toolbox run --container {{name}}`
 
