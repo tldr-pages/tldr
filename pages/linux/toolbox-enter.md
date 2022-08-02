@@ -7,7 +7,7 @@
 
 `toolbox enter --distro {{distribution}}`
 
-- Enter a `toolbox` container for a different distribution other than the host:
+- Enter a `toolbox` container using the default image of a specific release of the current distribution:
 
 `toolbox enter --release {{release}}`
 
