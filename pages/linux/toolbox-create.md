@@ -14,3 +14,7 @@
 - Change the name of the image used to create the `toolbox` container:
 
 `toolbox create --image {{name}}`
+
+- Create a toolbox container using the default image for Fedora 36:
+
+`toolbox create --distro fedora --release f36`
