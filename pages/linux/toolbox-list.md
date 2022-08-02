@@ -1,6 +1,6 @@
 # toolbox list
 
-> List existing `toolbox` containers and images in toolbox.
+> List existing `toolbox` containers and images.
 > More information: <https://www.mankier.com/1/toolbox-list>.
 
 - List all `toolbox` containers and images:
