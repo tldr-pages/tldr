@@ -5,7 +5,7 @@
 
 - Run a command inside a specific `toolbox` container:
 
-`toolbox run --container {{name}} {{command}}`
+`toolbox run --container {{container_name}} {{command}}`
 
 - Run a command inside a `toolbox` container for a specific release of a distribution:
 
