@@ -1,7 +1,7 @@
 # toolbox list
 
 > List existing `toolbox` containers and images.
-> More information: <https://www.mankier.com/1/toolbox-list>.
+> More information: <https://manned.org/toolbox-list.1>.
 
 - List all `toolbox` containers and images:
 
