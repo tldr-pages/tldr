@@ -23,10 +23,13 @@
 
 `grep --{{context|before-context|after-context}}={{3}} "{{search_pattern}}" {{path/to/file}}`
 
-You can use these 3 flags to add more context of your search
-- `A` = print x num of lines after each match
-- `B` = print x num of lines before each match
-- `C` = print x num of lines before and after each match
+You can also use these 3 flags to add more context of your search
+
+`-A num` = print x num of lines after each match
+
+`-B num` = print x num of lines before each match
+
+`-C num` = print x num of lines before and after each match
 
 `grep -C 3 "{{search_pattern}}" {{path/to/file}}`
 
