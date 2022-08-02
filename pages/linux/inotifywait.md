@@ -26,3 +26,7 @@
 - Only watch for file modification events:
 
 `while inotifywait --event {{modify}} {{path/to/file}}; do {{command}}; done`
+
+- Continuously watch the file without exiting when an event occurs:
+
+`while inotifywait --monitor {{path/to/file}}; do {{command}}; done`
