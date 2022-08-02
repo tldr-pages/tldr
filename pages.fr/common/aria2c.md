@@ -14,7 +14,7 @@
 
 - Télécharge plusieurs fichiers (différents) en parallèle :
 
-`aria2c --force-sequential {{url_1}} {{url_2}}`
+`aria2c --force-sequential {{false}} {{url_1}} {{url_2}}`
 
 - Télécharge depuis plusieurs sources avec chaque URI pointant vers le même fichier :
 
