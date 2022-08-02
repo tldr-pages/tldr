@@ -10,3 +10,7 @@
 - Enter a `toolbox` container for a different distribution other than the host:
 
 `toolbox enter --release {{release}}`
+
+- Enter a toolbox container using the default image for Fedora 36:
+
+`toolbox enter --distro fedora --release f36`
