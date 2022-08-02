@@ -7,7 +7,7 @@
 
 `toolbox list`
 
-- List only `toolbox` containers without images:
+- List only `toolbox` containers:
 
 `toolbox list --containers`
 
