@@ -5,12 +5,12 @@
 
 - Run a command inside a specific `toolbox` container:
 
-`toolbox run --container {{name}}`
+`toolbox run --container {{name}} {{command}}`
 
-- Run a command inside a `toolbox` container for a specific distribution:
+- Run a command inside a `toolbox` container for a specific release of a distribution:
 
-`toolbox run --distro {{distribution}}`
+`toolbox run --distro {{distribution}} --release {{release}} {{command}}`
 
-- Run a command inside a `toolbox` container for a specific distribution release:
+- Run emacs inside a toolbox container using the default image for Fedora 36:
 
-`toolbox run --release {{release}}`
+`toolbox run --distro fedora --release f36 emacs`
