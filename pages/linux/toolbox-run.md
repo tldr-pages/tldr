@@ -7,7 +7,7 @@
 
 `toolbox run --container {{name}}`
 
-- Run command inside a `toolbox` container for a different distribution other than the host:
+- Run a command inside a `toolbox` container for a specific distribution:
 
 `toolbox run --distro {{distribution}}`
 
