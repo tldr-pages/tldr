@@ -4,7 +4,7 @@
 > Some subcommands such as `toolbox create` have their own usage documentation.
 > Some distributions require toolbox to run as superuser. More information: <https://github.com/containers/toolbox>.
 
-- Check the toolbox version:
+- Show the `toolbox` version:
 
 `toolbox --version`
 
