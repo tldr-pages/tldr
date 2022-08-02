@@ -1,7 +1,7 @@
 # toolbox run
 
 > Run a command in an existing `toolbox` container.
-> More information: <https://www.mankier.com/1/toolbox-run>.
+> More information: <https://manned.org/toolbox-run>.
 
 - Run command inside a `toolbox` container with the given name:
 
