@@ -2,7 +2,7 @@
 
 > Tool for containerized command line environments on Linux.
 > Some subcommands such as `toolbox create` have their own usage documentation.
-> Some distributions require toolbox to run as superuser. More information: <https://github.com/containers/toolbox>.
+> More information: <https://github.com/containers/toolbox>.
 
 - Show the `toolbox` version:
 
