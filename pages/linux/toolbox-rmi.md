@@ -1,7 +1,11 @@
 # toolbox rmi
 
 > Remove one or more `toolbox` images.
-> More information: <https://www.mankier.com/1/toolbox-rmi>.
+> More information: <https://manned.org/toolbox-rmi.1>.
+
+- Remove a toolbox container:
+
+`toolbox rmi {{container name}}`
 
 - Remove all `toolbox` images:
 
