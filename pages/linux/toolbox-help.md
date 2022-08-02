@@ -1,6 +1,6 @@
 # toolbox help
 
-> Displays help information about toolbox.
+> Displays help information about `toolbox`.
 > More information: <https://www.mankier.com/1/toolbox-help>.
 
 - Display the `toolbox` manual:
