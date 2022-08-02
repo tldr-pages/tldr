@@ -4,11 +4,11 @@
 > Manage ostree deployments, package layers, filesystem overlays, and boot configuration.
 > More information: <https://coreos.github.io/rpm-ostree/administrator-handbook/>.
 
-- Show rpm-ostree deployments in the order they'll appear in the bootloader:
+- Show rpm-ostree deployments in the order they will appear in the bootloader:
 
 `rpm-ostree status`
 
-- Show package updates that will be performed on the next rpm-ostree upgrade:
+- Show packages which are outdated and can be updated:
 
 `rpm-ostree upgrade --preview`
 
@@ -16,7 +16,7 @@
 
 `rpm-ostree upgrade --reboot`
 
-- Roll back and reboot into the previous ostree deployment:
+- Reboot into the previous ostree deployment:
 
 `rpm-ostree rollback --reboot`
 
