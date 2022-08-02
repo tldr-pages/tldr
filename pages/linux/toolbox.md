@@ -12,7 +12,7 @@
 
 `toolbox --help`
 
-- Show help on a toolbox subcommand (like `create`, `enter`,`rm`,`rmi`,etc.):
+- Show help for a `toolbox` subcommand (like `create`, `enter`, `rm`, `rmi`, etc.):
 
 `toolbox help {{subcommand}}`
 
