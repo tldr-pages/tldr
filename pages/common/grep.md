@@ -23,15 +23,9 @@
 
 `grep --{{context|before-context|after-context}}={{3}} "{{search_pattern}}" {{path/to/file}}`
 
-You can also use these 3 flags to add more context of your search
+- The short argument version of the above would be
 
-`-A num` = print x num of lines after each match
-
-`-B num` = print x num of lines before each match
-
-`-C num` = print x num of lines before and after each match
-
-`grep -C 3 "{{search_pattern}}" {{path/to/file}}`
+`grep -{{C|B|A}} 3 "{{search_pattern}}" {{path/to/file}}`
 
 - Print file name and line number for each match with color output:
 
