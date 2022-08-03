@@ -1,6 +1,7 @@
 # toolbox rmi
 
 > Remove one or more `toolbox` images.
+> See also: `toolbox rm`.
 > More information: <https://manned.org/toolbox-rmi.1>.
 
 - Remove a `toolbox` image:
