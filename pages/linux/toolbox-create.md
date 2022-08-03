@@ -11,11 +11,11 @@
 
 `toolbox create --release {{release}}`
 
-- Change the name of the image used to create the `toolbox` container:
+- Create a `toolbox` container with a custom image:
 
 `toolbox create --image {{name}}`
 
-- Create a custom `toolbox` container from a custom image:
+- Create a `toolbox` container from a custom Fedora image:
 
 `toolbox create --image {{registry.fedoraproject.org/fedora-toolbox:36}}`
 
