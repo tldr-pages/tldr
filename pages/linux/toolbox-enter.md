@@ -1,6 +1,7 @@
 # toolbox enter
 
 > Enter a `toolbox` container for interactive use.
+> See also: `toolbox run`.
 > More information: <https://manned.org/toolbox-enter.1>.
 
 - Enter a `toolbox` container using the default image of a specific distribution:
