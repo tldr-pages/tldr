@@ -1,7 +1,7 @@
 # tlmgr backup
 
 > Manage backups of TeX Live packages.
-> The default backup location is saved in the `backupdir` setting, which can be obtained with `tlmgr option`.
+> The default backup directory is specified by the `backupdir` option, and can be obtained with `tlmgr option`.
 > More information: <https://www.tug.org/texlive/tlmgr.html>.
 
 - Make a backup of one or more packages:
@@ -12,7 +12,7 @@
 
 `tlmgr backup --all`
 
-- Make a backup to a specific directory:
+- Make a backup to a custom directory:
 
 `tlmgr backup {{package}} --backupdir {{path/to/backup_directory}}`
 
