@@ -1,9 +1,9 @@
 # wine
 
-> Run Windows programs on Unix.
+> Run Windows executables on Unix-based systems.
 > More information: <https://wiki.winehq.org/>.
 
-- Run a specific program:
+- Run a specific program inside the `wine` environment:
 
 `wine {{command}}`
 
@@ -15,14 +15,14 @@
 
 `wine msiexec /{{i|x}} {{path/to/package.msi}}`
 
-- Run `File Explorer`/`Notepad`/`WordPad`:
+- Run `File Explorer`, `Notepad`, or `WordPad`:
 
 `wine {{explorer|notepad|write}}`
 
-- Run `Registry Editor`/`Control Panel`/`Task Manager`:
+- Run `Registry Editor`, `Control Panel`, or `Task Manager`:
 
 `wine {{regedit|control|taskmgr}}`
 
-- Run configuration tool:
+- Run the configuration tool:
 
 `wine winecfg`
