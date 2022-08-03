@@ -5,7 +5,7 @@
 
 - 同步并更新所有软件包：
 
-`sudo pacman --sync --refresh --sysupgrade`
+`sudo pacman --sync --refresh --sysupgrade {{(-Syu)}}`
 
 - 安装一个新的软件包：
 
@@ -21,11 +21,11 @@
 
 - 列出已安装的软件包和版本：
 
-`pacman --query`
+`pacman --query {{(-Q)}}`
 
 - 仅列出明确安装的软件包和版本：
 
-`pacman --query --explicit`
+`pacman --query --explicit {{(-Qe)}}`
 
 - 查找哪个包拥有某个文件：
 
@@ -33,4 +33,4 @@
 
 - 清空软件包缓存以释放空间：
 
-`sudo pacman --sync --clean --clean`
+`sudo pacman --sync --clean --clean {{(-Scc)}}`

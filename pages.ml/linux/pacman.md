@@ -5,7 +5,7 @@
 
 - ഇൻസ്റ്റാൾ ചെയ്‌ത എല്ലാ പാക്കേജും അപ്‌ഡേറ്റു ചെയ്യുക:
 
-`sudo pacman --sync --refresh --sysupgrade`
+`sudo pacman --sync --refresh --sysupgrade {{(-Syu)}}`
 
 - പുതിയ പാക്കേജ് ഇൻസ്റ്റാൾ ചെയ്യുക:
 
@@ -21,11 +21,11 @@
 
 - ഇൻസ്റ്റാൾ ചെയ്‌ത എല്ലാ പാക്കേജുകളും അതിന്റെ പതിപ്പും കാണിക്കുക:
 
-`pacman --query`
+`pacman --query {{(-Q)}}`
 
 - നേരെ ഇൻസ്റ്റാൾ ചെയ്ത പാക്കേജ്‌സ് മാത്റം കാണിക്കുക:
 
-`pacman --query --explicit`
+`pacman --query --explicit {{(-Qe)}}`
 
 - ഏത് പാക്കേജാണ് ഒരു ഫയലിന്റെ ഉടമ എന്ന് കണ്ടുപിടിക്കാൻ:
 
@@ -33,4 +33,4 @@
 
 - പാക്കേജ് ക്യാഷ് കാലിയാക്കി സ്റ്റോറേജ്‌ മുക്തമാക്കുക:
 
-`sudo pacman --sync --clean --clean`
+`sudo pacman --sync --clean --clean {{(-Scc)}}`

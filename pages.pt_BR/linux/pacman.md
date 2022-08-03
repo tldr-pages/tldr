@@ -6,7 +6,7 @@
 
 - Sincroniza e atualiza todos os pacotes:
 
-`sudo pacman --sync --refresh --sysupgrade`
+`sudo pacman --sync --refresh --sysupgrade {{(-Syu)}}`
 
 - Instala um novo pacote:
 
@@ -22,16 +22,16 @@
 
 - Lista pacotes instalados e versões:
 
-`pacman --query`
+`pacman --query {{(-Q)}}`
 
 - Lista apenas os pacotes explicitamente instalados e versões:
 
-`pacman --query --explicit`
+`pacman --query --explicit {{(-Qe)}}`
 
 - Lista pacotes órfãos (instalado como dependência mas não requerido por qualquer pacote):
 
-`pacman --query --unrequired --deps --quiet`
+`pacman --query --unrequired --deps --quiet {{(-Qtdq)}}`
 
 - Esvazia completamente o cache do pacman:
 
-`sudo pacman --sync --clean --clean`
+`sudo pacman --sync --clean --clean {{(-Scc)}}`

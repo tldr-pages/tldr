@@ -6,7 +6,7 @@
 
 - Synchronize and update all packages:
 
-`sudo pacman --sync --refresh --sysupgrade`
+`sudo pacman --sync --refresh --sysupgrade {{(-Syu)}}`
 
 - Install a new package:
 
@@ -22,16 +22,16 @@
 
 - List installed packages and versions:
 
-`pacman --query`
+`pacman --query {{(-Q)}}`
 
 - List only the explicitly installed packages and versions:
 
-`pacman --query --explicit`
+`pacman --query --explicit {{(-Qe)}}`
 
 - List orphan packages (installed as dependencies but not actually required by any package):
 
-`pacman --query --unrequired --deps --quiet`
+`pacman --query --unrequired --deps --quiet {{(-Qtdq)}}`
 
 - Empty the entire pacman cache:
 
-`sudo pacman --sync --clean --clean`
+`sudo pacman --sync --clean --clean {{(-Scc)}}`

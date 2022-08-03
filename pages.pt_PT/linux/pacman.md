@@ -6,7 +6,7 @@
 
 - Sincronizar e actualizar todos os pacotes:
 
-`sudo pacman --sync --refresh --sysupgrade`
+`sudo pacman --sync --refresh --sysupgrade {{(-Syu)}}`
 
 - Instalar um novo pacote:
 
@@ -22,16 +22,16 @@
 
 - Listar versão dos pactotes instalados:
 
-`pacman --query`
+`pacman --query {{(-Q)}}`
 
 - Listar versão dos pactotes instalados explicitamente:
 
-`pacman --query --explicit`
+`pacman --query --explicit {{(-Qe)}}`
 
 - Listar pacotes órfãos (instalados como dependencia mas não exigidos por nenhum pacote):
 
-`pacman --query --unrequired --deps --quiet`
+`pacman --query --unrequired --deps --quiet {{(-Qtdq)}}`
 
 - Remover memória armazenada (cache) do `pacman`:
 
-`sudo pacman --sync --clean --clean`
+`sudo pacman --sync --clean --clean {{(-Scc)}}`

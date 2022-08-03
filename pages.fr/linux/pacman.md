@@ -6,7 +6,7 @@
 
 - Synchronise et mets à jour tous les paquets :
 
-`sudo pacman --sync --refresh --sysupgrade`
+`sudo pacman --sync --refresh --sysupgrade {{(-Syu)}}`
 
 - Installe un nouveau paquet :
 
@@ -22,11 +22,11 @@
 
 - Liste les paquets installés et leurs versions :
 
-`pacman --query`
+`pacman --query {{(-Q)}}`
 
 - Liste seulement les paquets installés explicitement et leurs versions :
 
-`pacman --query --explicit`
+`pacman --query --explicit {{(-Qe)}}`
 
 - Trouve à quel paquet un certain fichier appartient :
 
@@ -34,4 +34,4 @@
 
 - Vide le cache des paquets pour libérer de l'espace :
 
-`sudo pacman --sync --clean --clean`
+`sudo pacman --sync --clean --clean {{(-Scc)}}`
