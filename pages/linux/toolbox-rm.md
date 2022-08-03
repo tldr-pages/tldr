@@ -11,6 +11,6 @@
 
 `toolbox rm --all`
 
-- Force the removal of all currently active `toolbox` containers:
+- Force the removal of a currently active `toolbox` container:
 
-`toolbox rm --force`
+`toolbox rm --force {{container_name}}`
