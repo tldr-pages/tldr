@@ -11,6 +11,6 @@
 
 `toolbox rmi --all`
 
-- Force the removal of `toolbox` images that are currently used by containers (the containers will be removed as well):
+- Force the removal of a `toolbox` image which is currently being used by a container (the container will be removed as well):
 
-`toolbox rmi --force`
+`toolbox rmi --force {{image_name}}`
