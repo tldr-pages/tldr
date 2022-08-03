@@ -7,7 +7,7 @@
 
 `toolbox create --distro {{distribution}}`
 
-- Create a `toolbox` container for specific release of the current distribution:
+- Create a `toolbox` container for a specific release of the current distribution:
 
 `toolbox create --release {{release}}`
 
