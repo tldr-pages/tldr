@@ -1,6 +1,7 @@
 # toolbox rm
 
 > Remove one or more `toolbox` containers.
+> See also: `toolbox rmi`.
 > More information: <https://manned.org/toolbox-rm.1>.
 
 - Remove a toolbox container:
