@@ -1,7 +1,6 @@
 # fc
 
 > Abre o último comando executado em um editor de texto.
-> Alguns subcomandos como `fc list` tem sua própia documentação de uso.
 > Mais informações: <https://manned.org/fc>.
 
 - Abrir o último comando executado no editor de texto padrão do sistema:
