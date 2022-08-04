@@ -1,6 +1,6 @@
 # touch
 
-> Creates files and sets access/modification time.
+> Create files and set access/modification time.
 > More information: <https://www.gnu.org/software/coreutils/touch>.
 
 - Create specific files:

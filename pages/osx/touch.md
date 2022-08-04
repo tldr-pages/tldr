@@ -1,6 +1,6 @@
 # touch
 
-> Creates files and sets access/modification time.
+> Create files and set access/modification time.
 > More information: <https://manned.org/man/freebsd-13.0/touch>.
 
 - Create specific files:
