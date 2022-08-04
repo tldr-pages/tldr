@@ -22,4 +22,4 @@
 
 - Install a package into a new ostree deployment and reboot into the new deployment:
 
-`rpm-ostree install {{htop}} --reboot`
+`rpm-ostree install {{package}} --reboot`
