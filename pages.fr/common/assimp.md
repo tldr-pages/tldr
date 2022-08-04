@@ -20,7 +20,7 @@
 
 `assimp export {{fichier_d_entrée.stl}} {{fichier_de_sortie.obj}} {{paramètres}}`
 
-- Affiche un sommaire du contenu d'un fichier 3D.
+- Affiche un sommaire du contenu d'un fichier 3D :
 
 `assimp info {{chemin/vers/fichier}}`
 
