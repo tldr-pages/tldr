@@ -3,34 +3,34 @@
 > Mengubah hak akses pengguna ([u]ser) suatu file atau direktori.
 > Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/chmod>.
 
-- Memberikan pengguna pembuat file hak untuk mengeksekusinya (misal: sebagai script):
+- Berikan pengguna pembuat file hak untuk mengeksekusinya (misal: sebagai script):
 
 `chmod u+x {{file}}`
 
-- Memberikan hak kepada pengguna untuk membaca ([r]ead) dan menulis ([w]rite) suatu file atau direktori:
+- Berikan hak kepada pengguna untuk membaca ([r]ead) dan menulis ([w]rite) suatu file atau direktori:
 
-`chmod u+rw {{file_atau_direktori}}`
+`chmod u+rw {{jalan/menuju/file_atau_direktori}}`
 
-- Memberhentikan hak akses terhadap [g]rup untuk mengeksekusi suatu file:
+- Hentikan hak akses terhadap [g]rup untuk mengeksekusi suatu file:
 
-`chmod g-x {{file}}`
+`chmod g-x {{jalan/menuju/file}}`
 
-- Memberikan semua pengguna hak untuk membaca dan mengeksekusi suatu file:
+- Berikan semua pengguna hak untuk membaca dan mengeksekusi suatu file:
 
-`chmod a+rx {{file}}`
+`chmod a+rx {{jalan/menuju/file}}`
 
-- Memberikan hak-hak akses suatu file yang sama dari [g]rup kepada pengguna di luar grup ([o]thers):
+- Berikan hak-hak akses suatu file yang sama dari [g]rup kepada pengguna di luar grup ([o]thers):
 
-`chmod o=g {{file}}`
+`chmod o=g {{jalan/menuju/file}}`
 
-- Menghentikan semua hak akses suatu file:
+- Hentikan semua hak akses suatu file:
 
-`chmod o= {{file}}`
+`chmod o= {{jalan/menuju/file}}`
 
-- Memberikan hak tulis suatu direktori bagi [g]rup dan lainnya secara [R]ekursif (termasuk seluruh file yang terkandung di dalamnya):
+- Berikan hak tulis suatu direktori bagi [g]rup dan lainnya secara [R]ekursif (termasuk seluruh file yang terkandung di dalamnya):
 
-`chmod -R g+w,o+w {{direktori}}`
+`chmod -R g+w,o+w {{jalan/menuju/direktori}}`
 
-- Memberikan hak semua pengguna untuk membaca seluruh file dan mengeksekusi para sub-direktori dalam suatu direktori:
+- Berikan hak semua pengguna untuk membaca seluruh file dan mengeksekusi para sub-direktori dalam suatu direktori:
 
-`chmod -R a+rX {{direktori}}`
+`chmod -R a+rX {{jalan/menuju/direktori}}`
