@@ -20,10 +20,6 @@
 
 `rpm-ostree rollback --reboot`
 
-- Install a package into a new ostree deployment and apply that deployment to the live deployment:
-
-`rpm-ostree install <htop> --apply-live`
-
 - Install a package into a new ostree deployment and reboot into the new deployment:
 
-`rpm-ostree install <htop> --reboot`
+`rpm-ostree install {{htop}} --reboot`
