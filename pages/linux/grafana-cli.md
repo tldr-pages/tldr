@@ -3,14 +3,10 @@
 > A small executable that is bundled with Grafana serve.
 > More information: <https://grafana.com>.
 
-- Install a grafana plugin:
+- Install/update/remove specific plugins:
 
-`grafana-cli plugins install "{{plugin-id}}"`
+`grafana-cli plugins {{install|update|remove}} {{plugin_id1 plugin_id2 ...}}`
 
 - List installed plugins:
 
 `grafana-cli plugins ls`
-
-- Remove one plugin:
-
-`grafana-cli plugins remove "{{plugin-id}}"`
