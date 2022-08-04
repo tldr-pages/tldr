@@ -8,7 +8,11 @@
 
 - View documentation for the original `wget` command:
 
-`tldr wget -p common`
+`tldr wget --platform common`
+
+- View documentation for the original `wget` command in older versions of `tldr` command-line client:
+
+`tldr wget --os common`
 
 - View documentation for PowerShell's `Invoke-WebRequest` command:
 

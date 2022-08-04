@@ -8,7 +8,11 @@
 
 - View documentation for the original `curl` command:
 
-`tldr curl -p common`
+`tldr curl --platform common`
+
+- View documentation for the original `curl` command in older versions of `tldr` command-line client:
+
+`tldr curl --os common`
 
 - View documentation for PowerShell's `Invoke-WebRequest` command:
 
