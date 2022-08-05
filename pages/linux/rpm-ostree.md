@@ -20,6 +20,6 @@
 
 `rpm-ostree rollback --reboot`
 
-- Install a package into a new ostree deployment and reboot into the new deployment:
+- Install a package into a new ostree deployment and reboot into it:
 
 `rpm-ostree install {{package}} --reboot`
