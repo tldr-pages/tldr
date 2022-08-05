@@ -7,9 +7,7 @@ body:
     attributes:
       label: Command description
       description: Describe a command you want to be summarized.
-      placeholder: Tell us what TLDR page you want to see!
-    validations:
-      required: true
+      placeholder: Tell us about the command!
   - type: input
     attributes:
       label: Command details
@@ -25,16 +23,7 @@ body:
         - Android
         - macOS
         - Windows
-        - General
         - Other
+        - More than one operating system
     validations:
       required: true
-  - type: input
-    attributes:
-      label: OS details
-      description: Describe any details related to an operating system.
-      placeholder: |
-        e.g. OS version obtained via:
-        `uname -a` for Linux
-        `sw_vers` for macOS
-        `ver` for Windows
