@@ -32,7 +32,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | sh    |                      |                        |                                   |           |                   |
 | sr    |                      |                        |                                   |           |                   |
 | sv    |                      |                        |                                   |           |                   |
-| ta    | கோப்பு               | அடைவு                | கோப்போ/அடைவோ                | நிரல்தொகுப்பு | பயனர்ப்பெயர்   |
+| ta    |பாதை/டு/கோப்பு    |அடைவிற்குப்/பாதை   |பாதை/டு/கோப்பு_அல்லது_அடைவு|நிரல்தொகுப்பு|பயனர்ப்பெயர் |
 | th    |                      |                        |                                   |           |                   |
 | tr    | dosya/yolu           | dizin/yolu             | dosya_veya_dizin/yolu             | paket     | kullanıcı_adı     |
 | uk    |                      |                        |                                   |           |                   |
