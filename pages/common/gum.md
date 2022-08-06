@@ -15,7 +15,6 @@
 
 `gum confirm "{{Continue?}}" --default=false --affirmative "{{Yes}}" --negative "{{No}}" {{&& : || exit 1}}`
 
-
 - Show a spinner while a command is taking place with text alongside:
 
 `gum spin --spinner {{dot|line|minidot|jump|pulse|points|globe|moon|monkey|meter|hamburger}} --title "{{loading...}}" -- {{command}}`
