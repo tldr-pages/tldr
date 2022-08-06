@@ -54,6 +54,8 @@ If you are an owner of the organization, you can see an automated list
   [10 December 2021](https://github.com/tldr-pages/tldr/issues/7522) — present
 - **Nicolas Hansse ([@Nico385412](https://github.com/Nico385412))**:
   [19 July 2022](https://github.com/tldr-pages/tldr/issues/8224) — present
+- **Dharun Krishna ([@kbdharun](https://github.com/kbdharun))**:
+  [06 August 2022](https://github.com/tldr-pages/tldr/issues/8309) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
@@ -86,7 +88,7 @@ If you are an owner of the organization, you can see an automated list
   [19 May 2021](https://github.com/tldr-pages/tldr/issues/5993) - [21 June 2021](https://github.com/tldr-pages/tldr/issues/6149)
 - Emily Grace Seville ([@EmilySeville7cfg](https://github.com/EmilySeville7cfg)):
   [19 January 2022](https://github.com/tldr-pages/tldr/issues/1209#issuecomment-285924778) — [24 April 2022](https://github.com/tldr-pages/tldr/issues/8053)
-
+  
 ## Organization members
 
 In addition to everything that repository collaborators can do, organization members
