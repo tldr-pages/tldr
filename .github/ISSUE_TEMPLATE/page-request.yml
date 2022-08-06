@@ -1,7 +1,7 @@
 name: 📄 Page request
 title: "page request: "
 description: Page request template.
-labels: new command
+labels: new command, help wanted
 body:
   - type: textarea
     attributes:
