@@ -54,7 +54,7 @@ If you are an owner of the organization, you can see an automated list
   [10 December 2021](https://github.com/tldr-pages/tldr/issues/7522) — present
 - **Nicolas Hansse ([@Nico385412](https://github.com/Nico385412))**:
   [19 July 2022](https://github.com/tldr-pages/tldr/issues/8224) — present
-- **Dharun Krishna ([@kbdharun](https://github.com/kbdharun))**:
+- **K.B.Dharun Krishna ([@kbdharun](https://github.com/kbdharun))**:
   [06 August 2022](https://github.com/tldr-pages/tldr/issues/8309) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
