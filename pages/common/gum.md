@@ -1,0 +1,29 @@
+# gum
+
+> A tool for making glamorous shell scripts.
+> More information: <https://github.com/charmbracelet/gum>.
+
+- Interactively pick an option to print to `STDOUT`:
+
+`gum choose "{{option_1}}" "{{option_2}}" "{{option_3}}"`
+
+- Open an interactive prompt for the user to input a string with a placeholder:
+
+`gum input --placeholder "{{placeholder_string}}"`
+
+- Interactvely pick an option which will exit if "No" is chosen:
+
+`gum confirm "{{Continue?}}" --default=false --affirmative "{{Yes}}" --negative "{{No}}" {{&& : || exit 1}}`
+
+
+- Show a spinner while a command is taking place with text alongside:
+
+`gum spin --spinner {{dot|line|minidot|jump|pulse|points|globe|moon|monkey|meter|hamburger}} --title "{{loading...}}" -- {{command}}`
+
+- Format text to include emojis:
+
+`echo "{{:smile: :heart hello}}" | gum format -t {{emoji}}`
+
+- Interactively prompt for multi-line text (CTRL + D to save) and write to `data.txt`:
+
+`gum write > {{data.txt}}`
