@@ -1,6 +1,6 @@
 # grub-bios-setup
 
-> Set up a device to use GRUB.
+> Set up a device to use GRUB with a BIOS configuration.
 > You should use `grub-install` instead of `grub-bios-setup` in most cases.
 > More information: <https://manned.org/grub-bios-setup.8>.
 
