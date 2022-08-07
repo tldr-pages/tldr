@@ -3,7 +3,7 @@
 > A tool for making glamorous shell scripts.
 > More information: <https://github.com/charmbracelet/gum>.
 
-- Interactively pick an option to print to `STDOUT`:
+- Interactively pick a specific option to print to `stdout`:
 
 `gum choose "{{option_1}}" "{{option_2}}" "{{option_3}}"`
 
