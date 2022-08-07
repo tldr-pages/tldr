@@ -1,7 +1,7 @@
 # flatpak
 
 > பிளாட்பேக் பயன்பாடுகள் மற்றும் இயக்க நேரங்களை உருவாக்கவும், நிறுவவும் மற்றும் இயக்கவும்.
-> மேலும் தகவல்: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak>.
+> மேலும் விவரத்திற்கு: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak>.
 
 - நிறுவப்பட்ட பயன்பாட்டை இயக்கவும்:
 
