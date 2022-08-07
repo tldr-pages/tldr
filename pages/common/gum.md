@@ -13,7 +13,7 @@
 
 - Interactvely pick an option which will exit if "No" is chosen:
 
-`gum confirm "{{Continue?}}" --default=false --affirmative "{{Yes}}" --negative "{{No}}" {{&& : || exit 1}}`
+`gum confirm "{{Continue?}}" --default=false --affirmative "{{Yes}}" --negative "{{No}}" {{&& echo "Yes selected" || echo "No selected"}}`
 
 - Show a spinner while a command is taking place with text alongside:
 
