@@ -1,7 +1,7 @@
 # uname
 
 > Uname அது இயங்கும் இயந்திரம் மற்றும் இயக்க முறைமை பற்றிய தகவல்களை அச்சிடுகிறது.
-> மேலும் தகவல்: <https://www.gnu.org/software/coreutils/manual/html_node/uname-invocation.html>.
+> மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/manual/html_node/uname-invocation.html>.
 
 - அனைத்து தகவல்களையும் அச்சிடவும்:
 
