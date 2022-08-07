@@ -9,7 +9,7 @@
 
 - Open an interactive prompt for the user to input a string with a specific placeholder:
 
-`gum input --placeholder "{{placeholder_string}}"`
+`gum input --placeholder "{{value}}"`
 
 - Interactvely pick an option which will exit if "No" is chosen:
 
