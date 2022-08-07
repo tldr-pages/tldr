@@ -7,3 +7,7 @@
 - Set up a device to boot with GRUB:
 
 `grub-bios-setup {{/dev/sdX}}`
+
+- Install GRUB in a specific directory:
+
+`grub-bios-setup --directory={{/boot/grub}} {{/dev/sdX}}`
