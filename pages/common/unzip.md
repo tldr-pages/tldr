@@ -20,6 +20,6 @@
 
 `unzip -O {{gbk}} {{path/to/archive1 path/to/archive2 ...}}`
 
-- Print contents of a specific archive:
+- List the contents of a specific archive without extracting them:
 
 `unzip -l {{path/to/archive.zip}}`
