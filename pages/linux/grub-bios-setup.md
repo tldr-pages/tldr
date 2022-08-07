@@ -6,4 +6,4 @@
 
 - Set up a device to boot with GRUB:
 
-`grub-bios-setup {{/path/to/device/file}}`
+`grub-bios-setup {{/dev/sdX}}`
