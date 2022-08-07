@@ -7,7 +7,7 @@
 
 `atoum --init`
 
-- Lance les tests:
+- Lance les tests :
 
 `atoum`
 
