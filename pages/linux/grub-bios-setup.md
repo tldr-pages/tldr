@@ -8,6 +8,10 @@
 
 `grub-bios-setup {{/dev/sdX}}`
 
+- Install even if problems are detected:
+
+`grub-bios-setup --force {{/dev/sdX}}`
+
 - Install GRUB in a specific directory:
 
 `grub-bios-setup --directory={{/boot/grub}} {{/dev/sdX}}`
