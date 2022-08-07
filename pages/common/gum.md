@@ -7,7 +7,7 @@
 
 `gum choose "{{option_1}}" "{{option_2}}" "{{option_3}}"`
 
-- Open an interactive prompt for the user to input a string with a placeholder:
+- Open an interactive prompt for the user to input a string with a specific placeholder:
 
 `gum input --placeholder "{{placeholder_string}}"`
 
