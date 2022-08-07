@@ -8,7 +8,7 @@
 
 `astyle {{fichier_source}}`
 
-- Applique le style Java avec le style `attached`:
+- Applique le style Java avec le style `attached` :
 
 `astyle --style=java {{chemin/vers/fichier}}`
 
