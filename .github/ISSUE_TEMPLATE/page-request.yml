@@ -19,10 +19,10 @@ body:
       description: Select which operating system(s) this command works with.
       options:
         - label: Android
-        - label: macOS
-        - label: Windows
         - label: Linux
+        - label: macOS
         - label: sunOS
+        - label: Windows
      validations:
       required: true
 
