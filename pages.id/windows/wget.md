@@ -8,11 +8,11 @@
 
 - Tampilkan dokumentasi untuk perintah `wget` yang asli:
 
-`tldr wget --platform common`
+`tldr wget -p common`
 
 - Tampilkan dokumentasi untuk perintah `wget` yang asli dalam program `tldr` versi lawas:
 
-`tldr wget --os common`
+`tldr wget -o common`
 
 - Tampilkan dokumentasi untuk perintah `Invoke-WebRequest`:
 

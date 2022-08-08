@@ -8,11 +8,11 @@
 
 - Tampilkan dokumentasi untuk perintah `curl` yang asli:
 
-`tldr curl --platform common`
+`tldr curl -p common`
 
 - Tampilkan dokumentasi untuk perintah `curl` yang asli dalam program `tldr` versi lawas:
 
-`tldr curl --os common`
+`tldr curl -o common`
 
 - Tampilkan dokumentasi untuk perintah `Invoke-WebRequest`:
 
