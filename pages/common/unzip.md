@@ -1,6 +1,6 @@
 # unzip
 
-> Extract compressed files/directories from zip archives.
+> Extract compressed files/directories from .zip archives.
 > See also: `zip`.
 > More information: <https://manned.org/unzip>.
 
