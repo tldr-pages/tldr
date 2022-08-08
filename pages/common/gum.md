@@ -21,7 +21,7 @@
 
 - Format text to include emojis:
 
-`echo "{{:smile: :heart: hello}}" | gum format -t {{emoji}}`
+`gum format -t {{emoji}} "{{:smile: :heart: hello}}"`
 
 - Interactively prompt for multi-line text (CTRL + D to save) and write to `data.txt`:
 
