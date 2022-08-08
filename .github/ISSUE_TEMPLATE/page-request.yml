@@ -23,7 +23,7 @@ body:
         - label: Windows
         - label: Linux
         - label: sunOS
-      validations:
-       required: true
+     validations:
+      required: true
 
         
