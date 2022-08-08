@@ -17,12 +17,13 @@ body:
     attributes:
       label: OS
       description: Select which operating system(s) this command works with.
-      required: true
       options:
-
         - label: Android
         - label: macOS
         - label: Windows
         - label: Linux
         - label: sunOS
+        validations:
+          required: true
+
         
