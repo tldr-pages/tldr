@@ -17,9 +17,9 @@ body:
     attributes:
       label: OS
       description: Select which operating system(s) this command works with
-      validations:
-        required: true
       options:
+        validation:
+          required: true
         - label: Android
         - label: macOS
         - label: Windows
