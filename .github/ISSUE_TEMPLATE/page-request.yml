@@ -16,10 +16,10 @@ body:
   - type: checkboxes
     attributes:
       label: OS
-      description: Select which operating system(s) this command works with
+      description: Select which operating system(s) this command works with.
+      required: true
       options:
-        validation:
-          required: true
+
         - label: Android
         - label: macOS
         - label: Windows
