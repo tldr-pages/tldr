@@ -6,32 +6,32 @@
 
 - Synchronize and update all packages:
 
-`sudo pacman --sync --refresh --sysupgrade {{(-Syu)}}`
+`sudo pacman -Syu`
 
 - Install a new package:
 
-`sudo pacman --sync {{package_name}}`
+`sudo pacman -S {{package_name}}`
 
 - Remove a package and its dependencies:
 
-`sudo pacman --remove --recursive {{package_name}}`
+`sudo pacman -Rs {{package_name}}`
 
 - Search the package database for a regular expression or keyword:
 
-`pacman --sync --search "{{search_pattern}}"`
+`pacman -Ss "{{search_pattern}}"`
 
 - List installed packages and versions:
 
-`pacman --query {{(-Q)}}`
+`pacman -Q`
 
 - List only the explicitly installed packages and versions:
 
-`pacman --query --explicit {{(-Qe)}}`
+`pacman -Qe`
 
 - List orphan packages (installed as dependencies but not actually required by any package):
 
-`pacman --query --unrequired --deps --quiet {{(-Qtdq)}}`
+`pacman -Qtdq`
 
 - Empty the entire pacman cache:
 
-`sudo pacman --sync --clean --clean {{(-Scc)}}`
+`sudo pacman -Scc`
