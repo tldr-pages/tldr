@@ -7,7 +7,7 @@
 
 `termusic {path/to/directory}`
 
-- Disable the album cover:
+- Disable showing the album cover for a specific file:
 
 `termusic -c {path/to/music_file}`
 
