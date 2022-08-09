@@ -11,7 +11,7 @@
 
 `feh --recursive {{ruta/al/directorio}}`
 
-- Para ver imagenes sin bordes:
+- Muestra imágenes sin bordes:
 
 `feh --borderless {{ruta/a/imagen}}`
 
