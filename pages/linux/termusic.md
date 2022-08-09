@@ -7,6 +7,10 @@
 
 `termusic {path/to/music}`
 
+- Disable the album cover:
+
+`termusic -c {path/to/music_file}`
+
 - View termusic's usage info:
 
 `termusic --help`
