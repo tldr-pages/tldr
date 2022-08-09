@@ -7,7 +7,7 @@
 
 `feh {{ruta/a/imagen}}`
 
-- Para ver imagenes recursivamente:
+- Muestra imágenes recursivamente:
 
 `feh --recursive {{ruta/al/directorio}}`
 
