@@ -11,7 +11,7 @@
 
 `pyenv versions`
 
-- List all Python versions which can be installed from upstream:
+- List all Python versions that can be installed from upstream:
 
 `pyenv install --list`
 
