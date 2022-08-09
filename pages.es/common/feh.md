@@ -3,7 +3,7 @@
 > Utilidad ligera de visualización de imágenes.
 > Para mas informacion: <https://feh.finalrewind.org>.
 
-- Para imagenes locales o de URL:
+- Muestra imágenes localmente o usando una URL:
 
 `feh {{ruta/a/imagen}}`
 
