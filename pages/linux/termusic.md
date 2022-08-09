@@ -5,7 +5,7 @@
 
 - Open termusic to a specific directory. (It can be set permanently in `~/.config/termusic/config.toml`):
 
-`termusic <PATH/TO/MUSIC>`
+`termusic {path/to/music}`
 
 - View termusic's usage info:
 
