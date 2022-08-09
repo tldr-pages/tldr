@@ -12,7 +12,7 @@
 
 `rpm-ostree upgrade --preview`
 
-- Prepare a new ostree deployment with upgraded packages and reboot into the new deployment:
+- Prepare a new ostree deployment with upgraded packages and reboot into it:
 
 `rpm-ostree upgrade --reboot`
 
