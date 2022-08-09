@@ -15,7 +15,7 @@
 
 `feh --borderless {{ruta/a/imagen}}`
 
-- Para cerrar despues de una imagen:
+- Cierra después de la última imagen:
 
 `feh --cycle-once {{ruta/a/imagen}}`
 
