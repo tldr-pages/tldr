@@ -22,4 +22,3 @@
 - Erstelle einen neuen Benutzer und füge ihn zur angegebenen Gruppe hinzu:
 
 `adduser --ingroup {{gruppe}} {{benutzername}}`
-
