@@ -27,6 +27,6 @@
 
 `feh --bg-{{center|fill|max|scale|tile}} {{ruta/a/imagen}}`
 
-- Crea un montage de todas las imagenes en un directorio. Produce una nueva imagen.
+- Crea un montage de todas las imágenes en un directorio. Produce una nueva imagen.
 
 `feh --montage --thumb-height {{150}} --thumb-width {{150}} --index-info "{{%nn%wx%h}}" --output {{ruta/a/nueva_imagen}}`
