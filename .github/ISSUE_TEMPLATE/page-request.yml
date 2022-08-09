@@ -23,7 +23,5 @@ body:
         - label: macOS
         - label: sunOS
         - label: Windows
-     validations:
-      required: true
 
         
