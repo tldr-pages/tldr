@@ -1,6 +1,6 @@
 # feh
 
-> Visor de imagenes.
+> Utilidad ligera de visualización de imágenes.
 > Para mas informacion: <https://feh.finalrewind.org>.
 
 - Para imagenes locales o de URL:
