@@ -1,24 +1,36 @@
 # task
 
-> TODO list manager.
-> More information: <https://manned.org/task>.
+> Manage your TODO list from the command line.
+> More information: <https://taskwarrior.org/docs/>.
 
-- Add new task:
+- Add a new task:
 
-`task add {{thing_to_do}}`
+`task add {{description}} due:{{tomorrow}}`
 
-- List tasks:
+- Modify a task:
 
-`task list`
+`task {{task_id}} modify priority:{{H|M|L}}`
 
-- Mark task as completed:
+- Mark a task as completed:
 
 `task {{task_id}} done`
 
-- Modify task:
-
-`task {{task_id}} modify {{new_thing_to_do}}`
-
-- Delete task:
+- Delete a task:
 
 `task {{task_id}} delete`
+
+- List all open tasks:
+
+`task list`
+
+- List open tasks due before the end of the week:
+
+`task list due.before:{{eow}}`
+
+- Show a graphical burndown chart, by day:
+
+`task burndown.daily`
+
+- List all reports:
+
+`task reports`
