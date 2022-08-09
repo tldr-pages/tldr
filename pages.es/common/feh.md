@@ -23,7 +23,7 @@
 
 `feh --slideshow-delay {{secundos}} {{ruta/a/imagen}}`
 
-- Cambia tu fondo de pantalla (centrado, llenar, maximizado, ampliado o amontonado):
+- Cambia el fondo de pantalla (centrado, llenar, maximizado, ampliado o amontonado):
 
 `feh --bg-{{center|fill|max|scale|tile}} {{ruta/a/imagen}}`
 
