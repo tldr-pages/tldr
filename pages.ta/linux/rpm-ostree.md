@@ -22,4 +22,4 @@
 
 - ஒரு புதிய ostree வரிசைப்படுத்தலில் ஒரு தொகுப்பை நிறுவி அதில் மீண்டும் துவக்கவும்:
 
-`rpm-ostree install {{package}} --reboot`
+`rpm-ostree install {{தொகுப்பு}} --reboot`
