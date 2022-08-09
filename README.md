@@ -1,3 +1,5 @@
+## PLEASE READ THIS DOCUMENT BEFORE CONTINUING
+
 <div align="center">
   <h1><a href="https://tldr.sh/"><img alt="tldr-pages" src="images/banner.png" width=600/></a></h1>
 
