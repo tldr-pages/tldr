@@ -5,7 +5,7 @@
 
 - Open termusic to a specific directory. (It can be set permanently in `~/.config/termusic/config.toml`):
 
-`termusic {path/to/music}`
+`termusic {path/to/directory}`
 
 - Disable the album cover:
 
