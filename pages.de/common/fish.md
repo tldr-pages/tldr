@@ -16,7 +16,7 @@
 
 `fish --command "{{echo 'fish wird ausgeführt'}}"`
 
-- Führe ein bistemmtes Skript aus:
+- Führe ein bestimmtes Skript aus:
 
 `fish {{pfad/zu/skript.fish}}`
 
