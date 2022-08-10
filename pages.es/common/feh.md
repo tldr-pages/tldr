@@ -19,7 +19,7 @@
 
 `feh --cycle-once {{ruta/a/imagen}}`
 
-- Agrega una demora al ciclo de la presentacion:
+- Agrega una demora al ciclo de la presentación:
 
 `feh --slideshow-delay {{secundos}} {{ruta/a/imagen}}`
 
