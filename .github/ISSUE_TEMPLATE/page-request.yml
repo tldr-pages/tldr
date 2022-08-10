@@ -1,40 +1,27 @@
 name: 📄 Page request
 title: "page request: "
 description: Page request template.
-labels: new command
+labels: new command, help wanted
 body:
   - type: textarea
     attributes:
       label: Command description
       description: Describe a command you want to be summarized.
-      placeholder: Tell us what TLDR page you want to see!
-    validations:
-      required: true
+      placeholder: Tell us about the command!
   - type: input
     attributes:
       label: Command details
       description: Describe any details related to a command.
       placeholder: e.g. command version
-  - type: dropdown
+  - type: checkboxes
     attributes:
       label: OS
-      description: Select an operating system category which this command falls into.
-      multiple: false
+      description: Select which operating system(s) this command works with.
       options:
-        - Linux
-        - Android
-        - macOS
-        - Windows
-        - General
-        - Other
-    validations:
-      required: true
-  - type: input
-    attributes:
-      label: OS details
-      description: Describe any details related to an operating system.
-      placeholder: |
-        e.g. OS version obtained via:
-        `uname -a` for Linux
-        `sw_vers` for macOS
-        `ver` for Windows
+        - label: Android
+        - label: Linux
+        - label: macOS
+        - label: sunOS
+        - label: Windows
+
+        
