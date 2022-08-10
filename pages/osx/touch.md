@@ -13,8 +13,8 @@
 
 - Update file [t]ime to a specific one:
 
-`touch -c -{{time_mode}} -t {{YYYYMMDDHHMM.SS}} {{path/to/file1 path/to/file2 ...}}`
+`touch -c -{{a|m}} -t {{YYYYMMDDHHMM.SS}} {{path/to/file1 path/to/file2 ...}}`
 
 - Update file time to a specific file time:
 
-`touch -c -{{time_mode}} -r {{path/to/file}} {{path/to/file1 path/to/file2 ...}}`
+`touch -c -{{a|m}} -r {{path/to/file}} {{path/to/file1 path/to/file2 ...}}`
