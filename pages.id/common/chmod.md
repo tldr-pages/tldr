@@ -1,6 +1,6 @@
 # chmod
 
-> Mengubah hak akses pengguna ([u]ser) suatu file atau direktori.
+> Mengubah hak akses pengguna suatu file atau direktori.
 > Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/chmod>.
 
 - Berikan pengguna pembuat file hak untuk mengeksekusinya (misal: sebagai script):
