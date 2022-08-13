@@ -4,18 +4,18 @@
 > Some subcommands such as `toolbox create` have their own usage documentation.
 > More information: <https://manned.org/toolbox.1>.
 
-- Show the `toolbox` version:
+- Run a `toolbox` subcommand:
 
-`toolbox --version`
-
-- Show general help:
-
-`toolbox --help`
+`toolbox {{subcommand}}`
 
 - Show help for a `toolbox` subcommand (such as `create`, `enter`, `rm`, `rmi`, etc.):
 
 `toolbox help {{subcommand}}`
 
-- Run a `toolbox` subcommand:
+- Show general help:
 
-`toolbox {{subcommand}}`
+`toolbox --help`
+
+- Show the `toolbox` version:
+
+`toolbox --version`
