@@ -13,14 +13,14 @@
 
 - Prompt user to select a choise with a specific [m]essage:
 
-`choice /m "{{message}}"` 
+`choice /m "{{message}}"`
 
 - Prompt user to select a [c]ase-[s]ensitive [c]hoice from a specific set:
 
 `choice /cs /c {{Ab}}`
 
 - Prompt user to select a choise and prefer the [d]efault choise in a specific [t]ime:
- 
+
 `choice /t {{5}} /d {{N}}`
 
 - Display the help:
