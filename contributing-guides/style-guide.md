@@ -112,12 +112,22 @@ in order to allow `tldr` clients to highlight them.
 ### General rules
 
 - Use short but descriptive placeholders,
-  such as `{{path/to/source.cs}}` or `{{wallet.txt}}`.
+  such as `{{path/to/source.cs}}` or `{{drive}}`.
 - Use [snake_case][snake_case] for multi-word tokens.
-- Use an actual value rather than a generic placeholder where appropriate.
-  For example, use `iostat {{2}}` rather than `iostat {{interval_in_secs}}`.
+- Use an actual value in placeholder such as `{{5}}` rather than
+  a placeholder with value description inside it such as `{{seconds}}`
+  when one of the following conditions are met:
+  - there is long (consisting of several letters) option immidiately before
+    this placeholder which allows us understand the meaning of
+    an actual value
+  - there is a short (consisting of one letter) option immidiately before this
+    placeholder with a mnemonic provided via square brackets in a code
+    example description
+  - the command or it's the most nested subcommand performs one simple task such as `sleep` 
+   
+  For example, use `iostat {{2}}` rather than `iostat {{seconds}}`.
 
-> :bulb: Formal rules are described below.
+> :bulb: More formal rules are described below.
 
 [snake_case]: https://wikipedia.org/wiki/snake_case
 
