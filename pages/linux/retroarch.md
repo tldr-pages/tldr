@@ -4,7 +4,7 @@
 > It is the reference implementation of libretro API.
 > More information: <https://github.com/libretro/RetroArch>.
 
-- Start `retroarch` in menu mode:
+- Start in the menu mode:
 
 `retroarch`
 
