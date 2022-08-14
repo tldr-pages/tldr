@@ -1,0 +1,23 @@
+ame: Codespell
+
+on: ['push', 'pull_request']
+  branches: [ "main" ] 
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v3
+          
+      - name: Get a list of changed files
+        uses: jitterbit/get-changed-files@v1
+        id: changed_files
+        
+      - uses: codespell-project/actions-codespell@master
+        with:
+          ignore_words_file: .github/codespell-ignore
+          only_warn: 1 
+          path: ${{ steps.changed_files.outputs.all }} 
+          skip: pages.*/*/* 
