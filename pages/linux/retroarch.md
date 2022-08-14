@@ -12,7 +12,7 @@
 
 `retroarch --fullscreen`
 
-- List all features compiled into `retroarch`:
+- List all compiled features:
 
 `retroarch --features`
 
