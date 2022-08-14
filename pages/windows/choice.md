@@ -23,6 +23,6 @@
  
 `choice /t {{5}} /d {{N}}`
 
-- Display the help message:
+- Display the help:
 
 `choice /?`
