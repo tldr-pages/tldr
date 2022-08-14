@@ -19,7 +19,7 @@
 
 `choice /cs /c {{Ab}}`
 
-- Prompt user to select a choise and prefer the [d]efault choise in a specific [t]ime:
+- Prompt user to select a choise and prefer the [d]efault choice in a specific [t]ime:
 
 `choice /t {{5}} /d {{N}}`
 
