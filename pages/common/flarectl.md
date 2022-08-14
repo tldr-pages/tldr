@@ -1,7 +1,6 @@
-# flarectl 
+# flarectl
 
-> Official CLI for Cloudflare
-> 
+> Official CLI for Cloudflare.
 > More information: <https://github.com/cloudflare/cloudflare-go/blob/master/cmd/flarectl/README.md>.
 
 - Block an IP via the IP Firewall:
