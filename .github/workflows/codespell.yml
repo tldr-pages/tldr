@@ -1,4 +1,4 @@
-ame: Codespell
+name: Codespell
 
 on: ['push', 'pull_request']
 branches: [ "main" ] 
