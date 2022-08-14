@@ -4,7 +4,7 @@
 > 
 > More information: <https://github.com/cloudflare/cloudflare-go/blob/master/cmd/flarectl/README.md>.
 
-- Block a bad actor's IP via the IP Firewall:
+- Block an IP via the IP Firewall:
 
 `flarectl firewall rules create --zone="{{example.com}}" --value="{{8.8.8.8}}" --mode="{{block}}" --notes="{{Block bad actor}}"`
 
