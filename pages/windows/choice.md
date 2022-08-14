@@ -11,7 +11,7 @@
 
 `choice /c {{AB}}`
 
-- Prompt user to select a choise with a specific [m]essage:
+- Prompt user to select a choice with a specific [m]essage:
 
 `choice /m "{{message}}"`
 
