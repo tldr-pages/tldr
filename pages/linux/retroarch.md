@@ -18,7 +18,7 @@
 
 - Set the path to configuration file:
 
-`retroarch --config={path/to/config_file}`
+`retroarch --config={{path/to/config_file}}`
 
 - Display general help:
 
