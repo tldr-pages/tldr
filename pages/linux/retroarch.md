@@ -16,7 +16,7 @@
 
 `retroarch --features`
 
-- Set the path to configuration file:
+- Set the path of a configuration file:
 
 `retroarch --config={{path/to/config_file}}`
 
