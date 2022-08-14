@@ -20,10 +20,10 @@
 
 `retroarch --config={{path/to/config_file}}`
 
-- Display general help:
+- Display the help:
 
 `retroarch --help`
 
-- Display `retroarch` version:
+- Display the version:
 
 `retroarch --version`
