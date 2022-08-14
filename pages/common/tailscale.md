@@ -32,6 +32,6 @@
 
 `tailscale bugreport`
 
-- Display help for a subcommand:
+- Display debug helper commands (undocumented):
 
-`tailscale {{subcommand}} --help`
+`tailscale debug --help`
