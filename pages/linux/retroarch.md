@@ -8,7 +8,7 @@
 
 `retroarch`
 
-- Start in the full screen mode:
+- Start in full screen mode:
 
 `retroarch --fullscreen`
 
@@ -20,10 +20,10 @@
 
 `retroarch --config={{path/to/config_file}}`
 
-- Display the help:
+- Display help:
 
 `retroarch --help`
 
-- Display the version:
+- Display version:
 
 `retroarch --version`
