@@ -26,4 +26,3 @@
 - Remove a specific attribute of files or directories:
 
 `attrib -{{r|a|s|h|i}} {{path\to\file_or_directory1 path\to\file_or_directory2 ...}}`
-
