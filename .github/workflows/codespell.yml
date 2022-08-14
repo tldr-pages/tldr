@@ -20,3 +20,4 @@ jobs:
           only_warn: 1 
           path: ${{ steps.changed_files.outputs.all }} 
           skip: pages.*/*/* # Only applies to English pages
+          check_hidden: true
