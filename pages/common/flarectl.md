@@ -19,3 +19,7 @@
 - Create many new Cloudflare zones automatically:
 
 `for domain in $(cat {{domains.txt}}); do flarectl zone info --zone=$domain; done`
+
+- List all firewall rules:
+
+`flarectl firewall rules list`
