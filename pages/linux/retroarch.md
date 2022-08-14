@@ -8,7 +8,7 @@
 
 `retroarch`
 
-- Start `retroarch` in full screen mode:
+- Start in the full screen mode:
 
 `retroarch --fullscreen`
 
