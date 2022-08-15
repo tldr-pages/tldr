@@ -158,6 +158,8 @@ not to strictly follow POSIX shell syntax.
   - documentation describes command argument semantics explicitly
   - you exactly know placeholder meaning (maybe from source code) and the documentation just missing information about this.
 
+> :bulb: If some command is cross-platform then Unix-style path placeholders are preferred.
+
 ### Extensions
 
 - Append `.ext` to the end of a file path placeholder just when:
