@@ -10,7 +10,7 @@
 
 - Start an interactive editor session with an empty document and a specific prompt:
 
-`ed --prompt="> "`
+`ed --prompt='> '`
 
 - Start an interactive editor session with user-friendly errors:
 
