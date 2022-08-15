@@ -113,13 +113,12 @@ in order to allow `tldr` clients to highlight them.
 
 - Use short but descriptive placeholders,
   such as `{{path/to/source.cs}}` or `{{drive}}`.
-- Use [snake_case][snake_case] for multi-word tokens.
+- Use [snake_case][snake_case] for multi-word placeholders.
 - Use an actual value in placeholder such as `{{5}}` rather than
-  a placeholder with value description inside it such as `{{seconds}}`
+  a placeholder with a value description inside it such as `{{seconds}}`
   when one of the following conditions are met:
-  - there is long (consisting of several letters) option immidiately before
-    this placeholder which allows us understand the meaning of
-    an actual value
+  - there is a long (consisting of several letters) option immidiately before
+    this placeholder 
   - there is a short (consisting of one letter) option immidiately before this
     placeholder with a mnemonic provided via square brackets in a code
     example description
