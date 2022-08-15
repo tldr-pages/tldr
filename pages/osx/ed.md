@@ -10,7 +10,7 @@
 
 - Start an interactive editor session with an empty document and a specific [p]rompt:
 
-`ed -p "> "`
+`ed -p '> '`
 
 - Start an interactive editor session with an empty document and without diagnostics, byte counts and '!' prompt:
 
