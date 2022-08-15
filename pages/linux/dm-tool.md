@@ -11,7 +11,7 @@
 
 `dm-tool lock`
 
-- Swicth to a specific user, showing an authentication prompt if required:
+- Switch to a specific user, showing an authentication prompt if required:
 
 `dm-tool switch-to-user {{username}} {{session}}`
 

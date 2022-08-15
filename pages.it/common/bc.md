@@ -1,7 +1,7 @@
 # bc
 
 > Calcolatore.
-> Maggiori informazioni: <https://manned.org/bc>.
+> Maggiori informazioni: <https://manned.org/man/bc.1>.
 
 - Esegui in modalità interattiva utilizzando la libreria math della standard library:
 

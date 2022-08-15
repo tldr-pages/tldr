@@ -1,7 +1,7 @@
 # systemsetup
 
 > Configura as definições de Preferencias do Sistema da máquina
-> Mais informações: <https://ss64.com/osx/systemsetup.html>.
+> Mais informações: <https://support.apple.com/guide/remote-desktop/about-systemsetup-apd95406b8d/mac>.
 
 - Ativa autenticação remota (SSH):
 

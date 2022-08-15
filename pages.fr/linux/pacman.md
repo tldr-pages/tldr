@@ -6,32 +6,32 @@
 
 - Synchronise et mets à jour tous les paquets :
 
-`sudo pacman --sync --refresh --sysupgrade`
+`sudo pacman -Syu`
 
 - Installe un nouveau paquet :
 
-`sudo pacman --sync {{nom_paquet}}`
+`sudo pacman -S {{nom_paquet}}`
 
 - Efface un paquet et ses dépendances :
 
-`sudo pacman --remove --recursive {{nom_paquet}}`
+`sudo pacman -Rs {{nom_paquet}}`
 
 - Recherche dans la base de données des paquets une expression régulière ou mot clé :
 
-`pacman --sync --search "{{terme_recherche}}"`
+`pacman -Ss "{{terme_recherche}}"`
 
 - Liste les paquets installés et leurs versions :
 
-`pacman --query`
+`pacman -Q`
 
 - Liste seulement les paquets installés explicitement et leurs versions :
 
-`pacman --query --explicit`
+`pacman -Qe`
 
 - Trouve à quel paquet un certain fichier appartient :
 
-`pacman --query --owns {{fichier}}`
+`pacman -Qo {{fichier}}`
 
 - Vide le cache des paquets pour libérer de l'espace :
 
-`sudo pacman --sync --clean --clean`
+`sudo pacman -Scc`

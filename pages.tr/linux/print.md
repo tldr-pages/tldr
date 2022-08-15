@@ -2,6 +2,7 @@
 
 > `run-mailcap` komutunun print özelliğinin öbür adı.
 > Normalde `run-mailcap` komutu mime-tarzı/dosya işlemek için kullanılır.
+> Daha fazla bilgi: <https://manned.org/print>.
 
 - Bir dosyayı yazdır:
 

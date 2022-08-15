@@ -11,7 +11,7 @@
 
 `htpdate -q {{host}}`
 
-- Compensate the systematisch clock drift:
+- Compensate the systematic clock drift:
 
 `sudo htpdate -x {{host}}`
 

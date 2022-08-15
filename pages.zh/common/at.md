@@ -2,7 +2,7 @@
 
 > 在一段时间后，执行单次命令。
 > atd 服务（或 atrun）需要处于运行状态，以保证命令成功执行。
-> 更多信息：<https://man.archlinux.org/man/at.1>.
+> 更多信息：<https://manned.org/at>.
 
 - 5 分钟后，执行标准输入中的命令（命令输入完成后按 `Ctrl + D`）：
 

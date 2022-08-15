@@ -2,7 +2,7 @@
 
 > Abkürzungen für die fish shell verwalten.
 > Die vom Nutzer definierten Abkürzungen werden nach der Eingabe durch die Langversionen ersetzt.
-> Mehr Informationen: <https://fishshell.com/docs/current/cmds/abbr.html>.
+> Weitere Informationen: <https://fishshell.com/docs/current/cmds/abbr.html>.
 
 - Neue Abkürzung hinzufügen:
 
