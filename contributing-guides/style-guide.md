@@ -147,9 +147,12 @@ not to strictly follow POSIX shell syntax.
 
 ### Paths
 
-- Use `{{path/to/file}}` or `{{path/to/directory}}` placeholders for file and directory paths respectively.
-- Where file and directory paths are both vaild use `{{path/to/file_or_directory}}` placeholder.
-- For absolute paths add leading slash at the beggining of placeholder such as `{{/path/to/file}}` or `{{/path/to/directory}}`.
+- Use `{{path/to/file}}` or `{{path/to/directory}}` placeholders for Unix-like command pages for file and directory paths respectively.
+  For Windows command pages use `{{path\to\file}}` or `{{path\to\directory}}` placeholders.
+- Where file and directory paths are both vaild use `{{path/to/file_or_directory}}` placeholder for Unix-like command pages
+  or `{{path\to\file_or_directory}}` for Windows command pages.
+- For absolute paths add leading slash (or backslash for Windows command pages) at the beggining of placeholder such
+  as `{{/path/to/file}}` or `{{/path/to/directory}}`.
 - Replace `file` and `directory` words from placeholders above with more descriptive ones
   just when:
   - documentation describes command argument semantics explicitly
