@@ -8,21 +8,13 @@
 
 `ed`
 
-- Start an interactive editor session with an empty document and a specific prompt:
+- Start an interactive editor session with an empty document and a specific [p]rompt:
 
-`ed --prompt='> '`
-
-- Start an interactive editor session with user-friendly errors:
-
-`ed --verbose`
+`ed -p '> '`
 
 - Start an interactive editor session with an empty document and without diagnostics, byte counts and '!' prompt:
 
-`ed --quiet`
-
-- Start an interactive editor session without exit status change when command fails:
-
-`ed --loose-exit-status`
+`ed -s`
 
 - Edit a specific file (this shows the byte count of the loaded file):
 
