@@ -4,14 +4,6 @@
 > Provisionne, sécurise et des capacités de calcul redimensionnable dans le cloud AWS pour accélérer le développement et le déploiement d'applications.
 > Plus d'informations : <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ec2/index.html>.
 
-- Affiche la liste de toutes les commandes EC2 disponible :
-
-`aws ec2 help`
-
-- Affiche l'aide pour une sous-commande EC2 spécifique :
-
-`aws ec2 {{sous-commande}} help`
-
 - Affiche les informations sur une instance spécifique :
 
 `aws ec2 describe-instances --instance-ids {{id_d_instance}}`
@@ -35,3 +27,11 @@
 - Liste toutes les AMIs (Images de Machine Amazon) disponible :
 
 `aws ec2 describe-images`
+
+- Affiche la liste de toutes les commandes EC2 disponible :
+
+`aws ec2 help`
+
+- Affiche l'aide pour une sous-commande EC2 spécifique :
+
+`aws ec2 {{sous-commande}} help`
