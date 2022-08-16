@@ -11,19 +11,26 @@ jobs:
     steps:
 
     - name: Stale Bot
-      uses: actions/stale@v3
+      uses: actions/stale@v5
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
 
         # Number of days of inactivity before an issue or PR is considered stale
-        days-before-stale: 15
+        days-before-pr-stale: 15
+
+        days-before-issue-stale: 45
+
 
         # Number of days of inactivity before a stale issue or PR is closed
-        days-before-close: 30
+        days-before-pr-close: 30
+
+        days-before-issue-close: 90 
 
         # Issues or PRs with these labels will never be considered stale
         exempt-pr-labels: stalebot ignore
 
+        exempt-issue-labels: stalebot ignore,help wanted
+        
         # Label to use when marking an issue or PR as stale
         stale-pr-label: waiting
 

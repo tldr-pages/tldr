@@ -1,6 +1,7 @@
 # tcpkill
 
 > Mata les conexions TCP en curs especificades.
+> Més informació: <https://manned.org/tcpkill>.
 
 - Mata les conexions en curs d'una interfície, màquina i port indicats:
 

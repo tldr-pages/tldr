@@ -3,7 +3,7 @@
 This page provides translations of commonly used arguments to simplify maintaining pages in foreign languages.  
 The best way to edit this file is by using [tableconvert.com](https://tableconvert.com/).  
 There, the old table can be **imported**, **edited** in a WYSIWYG editor and **exported** again.  
-Only the left-alignment of the header gets lost and has to be readded again (`|----` → `|:---`).
+Only the left-alignment of the header gets lost and has to be re-added again (`|----` → `|:---`).
 
 | en    | path/to/file         | path/to/directory      | path/to/file_or_directory         | package   | username          |
 |:------|:---------------------|:-----------------------|:----------------------------------|:----------|:------------------|
@@ -32,7 +32,7 @@ Only the left-alignment of the header gets lost and has to be readded again (`|-
 | sh    |                      |                        |                                   |           |                   |
 | sr    |                      |                        |                                   |           |                   |
 | sv    |                      |                        |                                   |           |                   |
-| ta    | கோப்பு               | அடைவு                | கோப்போ/அடைவோ                | நிரல்தொகுப்பு | பயனர்ப்பெயர்   |
+| ta    |பாதை/டு/கோப்பு    |அடைவிற்குப்/பாதை   |பாதை/டு/கோப்பு_அல்லது_அடைவு|நிரல்தொகுப்பு|பயனர்ப்பெயர் |
 | th    |                      |                        |                                   |           |                   |
 | tr    | dosya/yolu           | dizin/yolu             | dosya_veya_dizin/yolu             | paket     | kullanıcı_adı     |
 | uk    |                      |                        |                                   |           |                   |

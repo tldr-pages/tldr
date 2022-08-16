@@ -1,7 +1,7 @@
 # vcgencmd
 
 > Print system information for a Raspberry Pi.
-> More information: <https://www.raspberrypi.org/documentation/raspbian/applications/vcgencmd.md>.
+> More information: <https://www.raspberrypi.org/documentation/computers/os.html#vcgencmd>.
 
 - List all available commands:
 

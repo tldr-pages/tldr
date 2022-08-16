@@ -1,6 +1,7 @@
 # sensible-browser
 
 > Obre el navegador predeterminat.
+> Més informació: <https://manned.org/sensible-browser>.
 
 - Obre una nova finestra del navegador predeterminat:
 

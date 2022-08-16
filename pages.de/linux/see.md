@@ -2,6 +2,7 @@
 
 > Alias für die Ansicht von `run-mailcap`.
 > Ein Alias für die Aktion print eines `run-mailcap`.
+> Weitere Informationen: <https://manned.org/see>.
 
 - Die Aktion see kann verwendet werden, um eine beliebige Datei (in der Regel ein Bild) im Standard-Mailcap-Explorer anzuzeigen.
 

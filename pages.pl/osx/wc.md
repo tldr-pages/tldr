@@ -1,7 +1,7 @@
 # wc
 
 > Zlicza linie, słowa, i bajty
-> Więcej informacji: <https://www.gnu.org/software/coreutils/wc>.
+> Więcej informacji: <https://ss64.com/osx/wc.html>.
 
 - Policz linie w pliku
 

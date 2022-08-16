@@ -15,7 +15,7 @@
 
 `zig init-exe`
 
-- Intitialize a `zig build` library:
+- Initialize a `zig build` library:
 
 `zig init-lib`
 

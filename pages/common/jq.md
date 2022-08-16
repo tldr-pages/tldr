@@ -3,23 +3,23 @@
 > A command-line JSON processor that uses a domain-specific language.
 > More information: <https://stedolan.github.io/jq/manual/>.
 
-- Execute the specified expression (print a colored and formatted json):
+- Execute a specific expression (print a colored and formatted json):
 
 `{{cat path/to/file.json}} | jq '{{.}}'`
 
-- Execute the specified script:
+- Execute a specific script:
 
-`{{cat path/to/file.json}} | jq --from-file {{path/to/script.jq}}'`
+`{{cat path/to/file.json}} | jq --from-file {{path/to/script.jq}}`
 
-- Pass the specifed arguments:
+- Pass specific arguments:
 
 `{{cat path/to/file.json}} | jq {{--arg "name1" "value1" --arg "name2" "value2" ...}} '{{. + $ARGS.named}}'`
 
-- Print the specifed keys:
+- Print specific keys:
 
 `{{cat path/to/file.json}} | jq '{{.key1, .key2, ...}}'`
 
-- Print the specifed array items:
+- Print specific array items:
 
 `{{cat path/to/file.json}} | jq '{{.[index1], .[index2], ...}}'`
 
@@ -27,6 +27,6 @@
 
 `{{cat path/to/file.json}} | jq '.[]'`
 
-- Add/remove the specified keys:
+- Add/remove specific keys:
 
 `{{cat path/to/file.json}} | jq '{{.}} {{+|-}} {{{"key1": "value1", "key2": "value2", ...}}}'`

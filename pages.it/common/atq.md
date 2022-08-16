@@ -1,7 +1,7 @@
 # atq
 
 > Mostra job programmati dai comandi `at` o `batch`.
-> Maggiori informazioni: <https://man.archlinux.org/man/at.1>.
+> Maggiori informazioni: <https://manned.org/atq>.
 
 - Mostra i job programmati per l'utente corrente:
 
