@@ -3,7 +3,7 @@
 > Prompt user to select a choice and return the selected choice index.
 > More information: <https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/choice>.
 
-- Prompt the current user to select `Y` or `N` choice:
+- Prompt the current user to select a `Y` or `N` choice:
 
 `choice`
 
@@ -19,7 +19,7 @@
 
 `choice /cs /c {{Ab}}`
 
-- Prompt the current user to select a choise and prefer the [d]efault choice in a specific [t]ime:
+- Prompt the current user to select a choice and prefer the [d]efault choice in a specific [t]ime:
 
 `choice /t {{5}} /d {{N}}`
 
