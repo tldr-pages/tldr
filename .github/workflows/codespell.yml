@@ -17,7 +17,7 @@ jobs:
       - uses: codespell-project/actions-codespell@master
         with:
           exclude_file: /.github/workflows/codespell.yml
-          ignore_words_file: .github/codespell-ignore 
+          ignore_words_file: /.github/codespell-ignore 
           only_warn: 1 
           skip: pages.*/*/* # Only applies to English pages
           path: ${{ steps.changed_files.outputs.all }} 
