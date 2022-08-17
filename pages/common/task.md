@@ -11,7 +11,7 @@
 
 `task {{task_id}} modify priority:{{H|M|L}}`
 
-- Mark a task as completed:
+- Complete a task:
 
 `task {{task_id}} done`
 
