@@ -1,13 +1,13 @@
 # task
 
-> Manage your TODO list from the command line.
+> Command-line to-do list manager.
 > More information: <https://taskwarrior.org/docs/>.
 
-- Add a new task:
+- Add a new task which is due tomorrow:
 
 `task add {{description}} due:{{tomorrow}}`
 
-- Modify a task:
+- Update a task's priority:
 
 `task {{task_id}} modify priority:{{H|M|L}}`
 
