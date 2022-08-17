@@ -1,9 +1,9 @@
 # assoc
 
-> Display or change associations of file names.
+> Display or change the default program which handles specific file types 
 > More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/assoc>.
 
-- List all associated file types:
+- List all file types with their default program which uses them:
 
 `assoc`
 
