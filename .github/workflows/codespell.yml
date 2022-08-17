@@ -9,7 +9,8 @@ jobs:
     steps:
 
       - uses: actions/checkout@v3
-        - name: Get a list of changed files
+      
+      - name: Get a list of changed files
         uses: jitterbit/get-changed-files@v1
         id: changed_files
         
