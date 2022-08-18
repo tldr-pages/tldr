@@ -1,6 +1,6 @@
 # gnmic subscribe
 
-> It is used to send a Subscribe Request to the specified target(s) and expects one or multiple Subscribe Response
+> It is used to send a Subscribe Request to the specified target(s) and expects one or multiple Subscribe Response.
 > More information: <https://gnmic.kmrd.dev/cmd/subscribe>.
 
 - Subscribe to a target:
