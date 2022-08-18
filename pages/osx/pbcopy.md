@@ -1,6 +1,6 @@
 # pbcopy
 
-> Place standard output in the clipboard.
+> Copy data from STDIN to the clipboard.
 > More information: <https://ss64.com/osx/pbcopy.html>.
 
 - Place the contents of a file in the clipboard:
