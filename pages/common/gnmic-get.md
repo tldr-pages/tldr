@@ -1,7 +1,7 @@
 # gnmic get
 
 > It is used to send a GetRequest to the specified target(s) (using the global flag --address and expects one GetResponse per target, per path.
-> More information: <https://gnmic.kmrd.dev/cmd/get/>
+> More information: <https://gnmic.kmrd.dev/cmd/get>.
 
 - Get State of path:
 

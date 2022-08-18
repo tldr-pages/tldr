@@ -1,7 +1,7 @@
 # gnmic
 
 > A gNMI CLI client that provides full support for Capabilities, Get, Set and Subscribe RPCs with collector capabilities.
-> More information: <https://gnmic.kmrd.dev>
+> More information: <https://gnmic.kmrd.dev>.
 
 - Request capabilities (gnmic capabilities):
 
