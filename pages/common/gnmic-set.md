@@ -2,7 +2,7 @@
 
 > It is used to send a Set Request to the specified target(s) and expects one Set Response per target.
 > Set RPC allows the client to modify the state of data on the target. The data specified referenced by a path can be updated, replaced or deleted.
-> More information: <https://gnmic.kmrd.dev/cmd/set/>
+> More information: <https://gnmic.kmrd.dev/cmd/set>
 
 - Update the value of a path:
 
