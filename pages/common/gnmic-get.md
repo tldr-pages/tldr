@@ -9,8 +9,8 @@
 
 - Get RPC with multiple paths:
 
-`gnmic -a <ip:port> get --path {{path1}} --path {{path2}}`
+`gnmic -a {{ip:port}} get --path {{path1}} --path {{path2}}`
 
 - Get RPC with path-prefix:
 
-`gnmic -a <ip:port> get --prefix {{prefix}} --path {{path1}} --path {{path2}}`
+`gnmic -a {{ip:port}} get --prefix {{prefix}} --path {{path1}} --path {{path2}}`
