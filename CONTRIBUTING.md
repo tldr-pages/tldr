@@ -66,17 +66,16 @@ As a quick reference, the format of each page should match the following templat
 `command --option1 --option2 {{arg_value}}`
 ```
 
-Examples:
+To see some examples of preexisting pages, you can look at:
 
 - [pwd](https://github.com/tldr-pages/tldr/blob/main/pages/common/pwd.md) - one of the simpliest command examples
-- [caja](https://github.com/tldr-pages/tldr/blob/main/pages/linux/caja.md) - page with placeholders (read notes below)
+- [caja](https://github.com/tldr-pages/tldr/blob/main/pages/common/tar.md) - page with placeholders 
 
-Everything inside doubled curly braces and them itself called placeholders. We use them to highlight places in `tldr` pages
-where user can write arbitrary arguments such as directories, numbers, .etc. The most common placeholders are:
+In our pages, we use placeholders which are defined as being things within curly brackets, for example `sleep {{5}}`, in this case the user can change 5 to any number.
+Other examples but not limited to of our placeholder syntax are:
 
-- `{{path/to/directory}}` - just one directory
-- `{{path/to/directory1 path/to/directory2 ...}}` - any number of directories. We don't not mention anything about how many directories
-  user have to pass to some command.
+- `{{path/to/directory}}`
+- `{{path/to/directory1 path/to/directory2 ...}}`
 
 For more detailed formatting guidelines,
 refer to the [style guide](contributing-guides/style-guide.md).
