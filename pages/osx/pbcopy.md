@@ -3,7 +3,7 @@
 > Copy data from stdin to the clipboard.
 > More information: <https://ss64.com/osx/pbcopy.html>.
 
-- Place the contents of a file in the clipboard:
+- Place the contents of a specific file in the clipboard:
 
 `pbcopy < {{file}}`
 
