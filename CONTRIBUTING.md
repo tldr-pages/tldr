@@ -71,7 +71,7 @@ To see some examples of preexisting pages, you can look at:
 - [pwd](https://github.com/tldr-pages/tldr/blob/main/pages/common/pwd.md) - one of the simpliest command examples
 - [caja](https://github.com/tldr-pages/tldr/blob/main/pages/common/tar.md) - page with placeholders 
 
-In our pages, we use placeholders which are defined as being things within curly brackets, for example `sleep {{5}}`, in this case the user can change 5 to any number.
+In our pages, we use placeholders which are defined as being tokens within curly brackets, for example `sleep {{5}}`, in this case the user can change 5 to any number.
 Other examples but not limited to of our placeholder syntax are:
 
 - `{{path/to/directory}}`
