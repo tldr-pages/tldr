@@ -14,7 +14,8 @@ jobs:
         id: changed-files
         uses: tj-actions/changed-files@v26.1
         with:
-          files_ignore: pages.*/*/* # Currently ignores all other languages except English
+          # Ignore all other languages except English
+          files_ignore: pages.*/*/* 
         
       - uses: codespell-project/actions-codespell@master
         with:
