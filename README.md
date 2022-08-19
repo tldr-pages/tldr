@@ -109,6 +109,11 @@ to see the overall progress of all translations, and which translations are miss
   Rico's cheatsheets are not just focused on the command-line and
   include a plethora of other cheatsheets related to programming.
 
+- [learnxinyminutes](https://learnxinyminutes.com/)
+  Whirlwind tours of (several, hopefully many someday) popular and
+  ought-to-be-more-popular programming languages, presented as valid,
+  commented code and explained as they go.
+
 - [eg](https://github.com/srsudar/eg)
   provides detailed examples with explanations on the command-line.
   Examples come from the repository, but `eg` supports displaying
