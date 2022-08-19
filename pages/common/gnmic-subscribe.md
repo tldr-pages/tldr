@@ -1,9 +1,9 @@
 # gnmic subscribe
 
-> It is used to send a Subscribe Request to the specified target(s) and expects one or multiple Subscribe Response.
+> Subscribe to a gnmic network device state updates.
 > More information: <https://gnmic.kmrd.dev/cmd/subscribe>.
 
-- Subscribe to a target:
+- Subscribe to target state updates under the subtree {{path}}:
 
 `gnmic -a {{ip:port}} subscribe --path {{path}}`
 
@@ -15,6 +15,10 @@
 
 `gnmic -a {{ip:port}} subscribe --path {{path}} --stream-mode on-change --heartbeat-interval 1m`
 
-- Subscribe to a target once:
+- Subscribe to a target for only one update:
 
 `gnmic -a {{ip:port}} subscribe --path {{path}} --mode once`
+
+- Subscribe to a target and specify reponse encoding (json_ietf):
+
+`gnmic -a {{ip:port}} subscribe --path {{path}} --encoding json_ietf`
