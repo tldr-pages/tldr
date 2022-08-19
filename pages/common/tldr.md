@@ -6,11 +6,11 @@
 
 - Print the tldr page for a specific command (hint: this is how you got here!):
 
-`tldr {{cd}}`
+`tldr {{command}}`
 
 - Print the tldr page for a specific subcommand:
 
-`tldr {{git}}-{{checkout}}`
+`tldr {{command}}-{{subcommand}}`
 
 - Print the tldr page for a command for a specific platform:
 
