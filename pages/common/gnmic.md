@@ -2,7 +2,7 @@
 
 > A gNMI command-line client.
 > Manage gNMI network device configuration and view operational data.
-> More information: <https://gnmic.kmrd.dev>
+> More information: <https://gnmic.kmrd.dev>.
 
 - Request device capabilities:
 
