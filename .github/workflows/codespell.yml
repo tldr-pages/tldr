@@ -21,4 +21,5 @@ jobs:
         with:
           ignore_words_file: .github/codespell-ignorelist
           only_warn: 1 # Will exit with 0 regardless
-          path: ${{ steps.changed-files.outputs.all_changed_files }} # Checks files in PR
+          # Only check files in the PR
+          path: ${{ steps.changed-files.outputs.all_changed_files }} 
