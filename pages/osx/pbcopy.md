@@ -1,12 +1,12 @@
 # pbcopy
 
-> Place standard output in the clipboard.
+> Copy data from stdin to the clipboard.
 > More information: <https://ss64.com/osx/pbcopy.html>.
 
-- Place the contents of a file in the clipboard:
+- Place the contents of a specific file in the clipboard:
 
-`pbcopy < {{file}}`
+`pbcopy < {{path/to/file}}`
 
-- Place the results of a command in the clipboard:
+- Place the results of a specific command in the clipboard:
 
 `find . -type t -name "*.png" | pbcopy`
