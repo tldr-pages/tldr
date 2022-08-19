@@ -17,5 +17,4 @@
 
 - Print the tldr page for a command in a specific language:
 
-
 `tldr {{-u|--update}}`
