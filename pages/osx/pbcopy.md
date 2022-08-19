@@ -5,8 +5,8 @@
 
 - Place the contents of a specific file in the clipboard:
 
-`pbcopy < {{file}}`
+`pbcopy < {{path/to/file}}`
 
-- Place the results of a command in the clipboard:
+- Place the results of a specific command in the clipboard:
 
 `find . -type t -name "*.png" | pbcopy`
