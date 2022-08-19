@@ -1,23 +1,24 @@
 # tldr
 
 > Display simple help pages for command-line tools from the tldr-pages project.
+> Different tldr clients do not have the full specification of features, therefore some of these commands may not be accessible to your client
 > More information: <https://tldr.sh>.
 
-- Print a tldr page for a specific command (hint: this is how you got here!):
+- Print the tldr page for a specific command (hint: this is how you got here!):
 
 `tldr {{cd}}`
 
-- Print a tldr page for a specific subcommand:
+- Print the tldr page for a specific subcommand:
 
 `tldr {{git}}-{{checkout}}`
 
-- Print a tldr page for a command for a specific platform:
+- Print the tldr page for a command for a specific platform:
 
 `tldr {{-p|--platform}} {{android|linux|osx|sunos|windows}} {{cd}}`
 
-- Print a tldr page for a command in a specific language:
+- Print the tldr page for a command in a specific language:
 
-`tldr {{-l|--language}} {{ru}} {{cd}}`
+`tldr {{-l|--language}} {{ru}} {{command}}`
 
 - Update local pages:
 
