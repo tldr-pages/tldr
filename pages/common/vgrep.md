@@ -14,11 +14,11 @@
 
 - Open the "4th" match from the cache in the default editor:
 
-`vgrep --show 4`
+`vgrep --show {{4}}`
 
 - Display a context of "3" lines for each match in the cache:
 
-`vgrep --show=context3`
+`vgrep --show=context{{3}}`
 
 - Display the number of matches for each directory in the tree:
 
