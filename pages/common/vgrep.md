@@ -1,6 +1,6 @@
 # vgrep
 
-> A user friendly pager for grep
+> A user friendly pager for grep.
 > See also: `ugrep`, `rg`.
 > More information: <https://github.com/vrothberg/vgrep>.
 
