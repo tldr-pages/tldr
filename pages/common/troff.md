@@ -1,6 +1,6 @@
 # troff
 
-> Typesetting processor for the groff (GNU Troff) document fomatting system.
+> Typesetting processor for the groff (GNU Troff) document formatting system.
 > See also `groff`.
 > More information: <https://manned.org/troff>.
 
