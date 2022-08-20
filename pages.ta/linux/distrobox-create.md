@@ -6,8 +6,8 @@
 
 - ஆல்பைன் படத்தைப் பயன்படுத்தி டிஸ்ட்ரோபாக்ஸை உருவாக்கவும்:
 
-`distrobox-create {{container_name}} --image alpine`
+`distrobox-create {{கொள்கலன்_பெயர்}} --image alpine`
 
 - ஒரு டிஸ்ட்ரோபாக்ஸ் குளோன்:
 
-`distrobox-create --clone {{container_name}} {{cloned_container_name}}`
+`distrobox-create --clone {{கொள்கலன்_பெயர்}} {{குளோன் செய்யப்பட்ட_கன்டெய்னர்_பெயர்}}`
