@@ -17,7 +17,7 @@
 
 - Run a command as a daemon, writing logs to a specific file:
 
-`daemon --name="{{name}}" --errlog={{path/to/logfile}} {{command}}`
+`daemon --name="{{name}}" --errlog={{path/to/file.log}} {{command}}`
 
 - Stop a daemon:
 
