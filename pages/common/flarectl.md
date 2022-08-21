@@ -3,7 +3,7 @@
 > Official CLI for Cloudflare.
 > More information: <https://github.com/cloudflare/cloudflare-go/blob/master/cmd/flarectl/README.md>.
 
-- Block an IP via the IP Firewall:
+- Block a specific IP:
 
 `flarectl firewall rules create --zone="{{example.com}}" --value="{{8.8.8.8}}" --mode="{{block}}" --notes="{{Block bad actor}}"`
 
