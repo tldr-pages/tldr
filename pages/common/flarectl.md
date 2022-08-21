@@ -15,7 +15,7 @@
 
 `flarectl ips --ip-type {{ipv4|ipv6|all}}`
 
-- Create many new Cloudflare zones automatically:
+- Create many new Cloudflare zones automatically with names from `domains.txt`:
 
 `for domain in $(cat {{domains.txt}}); do flarectl zone info --zone=$domain; done`
 
