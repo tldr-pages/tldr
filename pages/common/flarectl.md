@@ -11,7 +11,7 @@
 
 `flarectl dns create --zone="{{example.com}}" --name="{{app}}" --type="{{CNAME}}" --content="{{myapp.herokuapp.com}}" --proxy`
 
-- Get a list of all Cloudflare IPv4/IPv6 ranges:
+- List all Cloudflare IPv4/IPv6 ranges:
 
 `flarectl ips --ip-type {{ipv4|ipv6|all}}`
 
