@@ -19,6 +19,6 @@
 
 `gcc -S {{path/to/source.c}}`
 
-- Compile source code without linking, into object file:
+- Compile source code into an object file without linking:
 
 `gcc -c {{path/to/source.c}}`
