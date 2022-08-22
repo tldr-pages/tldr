@@ -13,7 +13,7 @@
 
 - Print the tldr page for a command for a specific platform:
 
-`tldr {{-p|--platform}} {{android|linux|osx|sunos|windows}} {{command}}`
+`tldr {{-p}} {{android|linux|osx|sunos|windows}} {{command}}`
 
 - Print the tldr page for a command in a specific language:
 
