@@ -25,7 +25,7 @@ Here is an example of page describing `pwd` command:
 `pwd --logical`
 ```
 
-Although `tldr` pages use Markdown syntax we have to note some moments:
+Although `tldr` pages use Markdown syntax, we should note some conventions that we follow:
 
 - The first line is a header of the page.
 - Lines beginning with a `>` contain the short command description (in an imperative mood) and link the GNU Core Utilities (coreutils) `pwd` page.
