@@ -7,7 +7,7 @@
 
 `expr length {{string}}`
 
-- Get a specific substring of a string:
+- Get the substring of a string with a specific range:
 
 `expr substr {{string}} {{from}} {{length}}`
 
