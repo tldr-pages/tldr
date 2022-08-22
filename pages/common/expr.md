@@ -3,7 +3,7 @@
 > Evaluate expressions and manipulate strings.
 > More information: <https://www.gnu.org/software/coreutils/expr>.
 
-- Get a specific string length:
+- Get the length of a specific string:
 
 `expr length {{string}}`
 
