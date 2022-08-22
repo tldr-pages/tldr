@@ -15,6 +15,6 @@
 
 `tldr {{-p}} {{android|linux|osx|sunos|windows}} {{command}}`
 
-- Print the tldr page for a command in a specific language:
+- Update the cache of tldr pages:
 
 `tldr {{-u|--update}}`
