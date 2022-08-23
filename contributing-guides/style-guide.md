@@ -111,21 +111,25 @@ in order to allow `tldr` clients to highlight them.
 
 ### General rules
 
-- Use short but descriptive placeholders,
-  such as `{{path/to/source.cs}}` or `{{drive}}`.
+- Use short but descriptive placeholders.
+  Examples: `{{path/to/source.cs}}` or `{{drive}}`.
 - Use [snake_case][snake_case] for multi-word placeholders.
-- Use an actual value in placeholder such as `{{5}}` rather than
-  a placeholder with a value description inside it such as `{{seconds}}`
-  when one of the following conditions are met:
+  Examples: `{{path/to/csharp_solution.sln}}` or `{{language_id}}`.
+- Use an actual value in a placeholder rather than a placeholder
+  with a value description inside it when one of the following conditions are met:
   - there is a long (consisting of several letters) option immidiately before
     this placeholder 
+    Examples: `pwsh -Command "{{echo 'Hello world!'}}"` or `cut --delimiter="{{,}}" --{{characters}}={{1}}`.
   - there is a short (consisting of one letter) option immidiately before this
     placeholder with a mnemonic provided via square brackets in a code
     example description
-  - the command or it's the most nested subcommand performs one simple task such as `sleep` 
-   
-  For example, use `iostat {{2}}` rather than `iostat {{seconds}}`.
+    Examples: `bash -c "echo 'Hello world!'"` with `Execute specific [c]ommands:` description.
+  - the command or it's the most nested subcommand have just one placeholder mentioned above
+    Examples: `wine {{explorer}}` or `iostat {{5}}`.
 
+That's why we prefer `expr substr {{string}} {{from}} {{length}}` over `expr substr {{hello}} {{2}} {{3}}`.
+Code sample descriptions must be concise and don't refer to placeholders by their position.
+ 
 > :bulb: More formal rules are described below.
 
 [snake_case]: https://wikipedia.org/wiki/snake_case
