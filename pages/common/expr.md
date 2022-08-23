@@ -7,7 +7,7 @@
 
 `expr length {{string}}`
 
-- Get the substring of a string with a specific range:
+- Get the substring of a string with a specific length:
 
 `expr substr {{string}} {{from}} {{length}}`
 
@@ -15,7 +15,7 @@
 
 `expr match {{string}} {{pattern}}`
 
-- Get a substring position in a specific string:
+- Get the substring position in a specific string:
 
 `expr index {{string}} {{substring}}`
 
