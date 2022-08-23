@@ -19,7 +19,7 @@
 
 `expr index {{string}} {{substring}}`
 
-- Calculate a specific mathematic expession:
+- Calculate a specific mathematic expession (`+`, `-`, `*`, `/`, `%` operators are supported):
 
 `expr {{expression1}} {{operator}} {{expression2}}`
 
