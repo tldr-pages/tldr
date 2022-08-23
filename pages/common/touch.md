@@ -17,4 +17,4 @@
 
 - Set file time of a specific file to the time of another file:
 
-`touch --no-create --time={{access|modify}} --reference={{path/to/file}} {{path/to/file1 path/to/file2 ...}}`
+`touch --no-create --time={{access|modify}} --reference={{~/.emacs}} {{path/to/file1 path/to/file2 ...}}`
