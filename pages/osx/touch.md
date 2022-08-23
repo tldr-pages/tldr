@@ -17,4 +17,4 @@
 
 - Update file time to a specific file time:
 
-`touch -c -{{a|m}} -r {{path/to/file}} {{path/to/file1 path/to/file2 ...}}`
+`touch -c -{{a|m}} -r {{~/.emacs}} {{path/to/file1 path/to/file2 ...}}`
