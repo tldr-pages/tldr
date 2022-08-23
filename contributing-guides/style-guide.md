@@ -116,7 +116,7 @@ in order to allow `tldr` clients to highlight them.
 - Use [snake_case][snake_case] for multi-word placeholders.
   Examples: `{{path/to/csharp_solution.sln}}` or `{{language_id}}`.
 - Use an actual value in a placeholder rather than a placeholder
-  with a value description inside it when one of the following conditions are met:
+  with a value description inside it when at least one of the following conditions are met:
   - there is a long (consisting of several letters) option immidiately before
     this placeholder 
     Examples: `pwsh -Command "{{echo 'Hello world!'}}"` or `cut --delimiter="{{,}}" --{{characters}}={{1}}`.
@@ -126,6 +126,18 @@ in order to allow `tldr` clients to highlight them.
     Examples: `bash -c "echo 'Hello world!'"` with `Execute specific [c]ommands:` description.
   - the command or it's the most nested subcommand have just one placeholder mentioned above
     Examples: `wine {{explorer}}` or `iostat {{5}}`.
+- Use the following actual placeholders when they are valid values for a command
+  and at least one of the previous three conditions are met:
+  - `5` for integers:
+    Example: `iostat {{5}}`
+  - `5.2` for floats:
+    Example: `sleep {{5.2}}`
+  - `hello` for strings:
+    Example: `expr length '{{hello}}'`.
+  - `echo "Hello world!"` for commands:
+    Example: `bash -c "{{echo 'Hello world!'}}"`.
+  - `~/.emacs` for files:
+    Example: `touch --no-create --time={{access|modify}} --reference={{~/.emacs}} {{path/to/file1 path/to/file2 ...}}`.
 
 That's why we prefer `expr substr {{string}} {{from}} {{length}}` over `expr substr {{hello}} {{2}} {{3}}`.
 Code sample descriptions must be concise and don't refer to placeholders by their position.
