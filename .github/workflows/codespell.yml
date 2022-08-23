@@ -18,7 +18,7 @@ jobs:
         
       - uses: codespell-project/actions-codespell@master
         with:
-          ignore_words_file: .github/codespell-ignorelist
+          ignore_words_file: .github/codespell-ignore
           # Exit with 0 regardless of typos.
           only_warn: 1 
           # Only check files in the PR
