@@ -151,8 +151,9 @@ Code sample descriptions must be concise and don't refer to placeholders by thei
 - Don't quote path placeholders for page simplicity although shell may require quotes.
   In other cases quote placeholders just when:
   - documentation mandates quotes explicitly.
-  - you exactly know they are required and the documentation is just missing information about this.
-- Use double quotes for placeholders where variable or another substitution occures.
+  - you exactly know they are required because command argument may contain spaces
+    and the documentation is just missing information about this.
+- Use double quotes for placeholders where variable or another substitution occures (in the tldr page).
   In other cases use single quotes.
 
 > :bulb: Many shells have [word splitting][word_splitting] enabled by default so unquoted arguments may be splitted to
