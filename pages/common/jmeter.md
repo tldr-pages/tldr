@@ -1,7 +1,7 @@
 # jmeter
 
-Open source java application designed for load testing functional behavior and measure performance.
-More information: <https://jmeter.apache.org/>.
+> Open source java application designed for load testing functional behavior and measure performance.
+> More information: <https://jmeter.apache.org>.
 
 - Run jmeter in cli mode for a test plan:
 
