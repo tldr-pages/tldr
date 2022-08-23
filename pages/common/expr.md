@@ -5,7 +5,7 @@
 
 - Get the length of a specific string:
 
-`expr length {{string}}`
+`expr length '{{hello world}}'`
 
 - Get the substring of a string with a specific length:
 
@@ -21,7 +21,7 @@
 
 - Calculate a specific mathematic expession:
 
-`expr {{2}} {{+|-|\*|/|%}} {{5}}`
+`expr {{expression1}} {{operator}} {{expression2}}`
 
 - Get the first expression if it's value non-zero and not null otherwise get the second one:
 
