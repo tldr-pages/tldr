@@ -19,7 +19,7 @@
 
 `daemon --name="{{name}}" --errlog={{path/to/file.log}} {{command}}`
 
-- Kill a daemon:
+- Kill a daemon (SIGTERM):
 
 `daemon --name="{{name}}" --stop`
 
