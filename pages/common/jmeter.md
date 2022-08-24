@@ -6,6 +6,7 @@
 - Run in nongui mode for a specific test plan:
 
 `jmeter --nongui --testfile {{path/to/file}}.jmx`
+
 - Use a specific log file:
 
 `jmeter --nogui --testfile {{path/to/file}}.jmx --logfile {{path/to/logfile}}.jtl`
