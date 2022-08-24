@@ -12,7 +12,7 @@
 
 - Use a specific proxy server and a specific port:
 
-`jmeter --nongui --testfile {{path/to/file}}.jmx --proxyHost {{proxy_server_url}} --proxyPort {{port}}`
+`jmeter --nongui --testfile {{path/to/file}}.jmx --proxyHost {{127.0.0.1}} --proxyPort {{8888}}`
 
 - Define user variables:
 
