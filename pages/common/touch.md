@@ -13,8 +13,8 @@
 
 - Set the file [t]ime to a specific value:
 
-`touch --no-create --time={{access|modify}} -t {{YYYYMMDDHHMM.SS}} {{path/to/file1 path/to/file2 ...}}`
+`touch --no-create --time={{access}} -t {{YYYYMMDDHHMM.SS}} {{path/to/file1 path/to/file2 ...}}`
 
-- Set file time of a specific file to the time of another file:
+- Set the file time of a specific file to the time of another file:
 
-`touch --no-create --time={{access|modify}} --reference={{~/.emacs}} {{path/to/file1 path/to/file2 ...}}`
+`touch --no-create --time={{access}} --reference={{~/.emacs}} {{path/to/file1 path/to/file2 ...}}`
