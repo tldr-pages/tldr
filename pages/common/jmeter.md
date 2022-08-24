@@ -3,18 +3,17 @@
 > Open source java application designed for load testing functional behavior and measure performance.
 > More information: <https://jmeter.apache.org>.
 
-- Run jmeter in cli mode for a test plan:
+- Run in nongui mode for a specific test plan:
 
-`jmeter -n -t {{name}}.jmx`
-    
-- Run jmeter and specify the log output:
+`jmeter --nongui --testfile {{path/to/file}}.jmx`
+- Use a specific log file:
 
-`jmeter -n -t {{name}}.jmx -l {{logfile}}.jtl`
+`jmeter --nogui --testfile {{path/to/file}}.jmx --logfile {{path/to/logfile}}.jtl`
 
-- Run jmeter using a proxy server and a port:
+- Use a specific proxy server and a specific port:
 
-`jmeter -n -t {{name}}.jmx -H {{proxy_server_url}} -P {{port}}`
+`jmeter --nongui --testfile {{path/to/file}}.jmx --proxyHost {{proxy_server_url}} --proxyPort {{port}}`
 
-- Run jmeter with user defined variables:
+- Define user variables:
 
-`jmeter -J{{key}}={{value}} -n -t {{file_name}}.jmx`
+`jmeter --jmeterproperty {{key}}='{{value}}' --nongui --testfile {{path/to/file}}.jmx`
