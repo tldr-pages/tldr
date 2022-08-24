@@ -11,10 +11,10 @@
 
 `jmeter --nogui --testfile {{path/to/file}}.jmx --logfile {{path/to/logfile}}.jtl`
 
-- Use a specific proxy server and a specific port:
+- Run a test plan in nongui mode using a specific proxy:
 
 `jmeter --nongui --testfile {{path/to/file}}.jmx --proxyHost {{127.0.0.1}} --proxyPort {{8888}}`
 
-- Define user variables:
+- Run a test plan in nongui mode using a specific JMeter property:
 
 `jmeter --jmeterproperty {{key}}='{{value}}' --nongui --testfile {{path/to/file}}.jmx`
