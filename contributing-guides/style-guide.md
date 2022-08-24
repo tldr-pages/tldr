@@ -77,7 +77,7 @@ tldr --render path/to/tldr_page.md
 
 ### Aliases
 
-If a command can be called with alternative names (like `vim' can be called by `vi`), alias pages can be created to point the user to the original command name.
+If a command can be called with alternative names (like `vim` can be called by `vi`), alias pages can be created to point the user to the original command name.
 
 ```md
 # command_name
