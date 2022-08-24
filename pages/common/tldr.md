@@ -11,10 +11,10 @@
 
 `tldr {{command}}-{{subcommand}}`
 
-- Print the tldr page for a command for a specific platform:
+- Print the tldr page for a command for a specific [p]latform:
 
 `tldr {{-p}} {{android|linux|osx|sunos|windows}} {{command}}`
 
-- Update the cache of tldr pages:
+- [u]pdate the cache of tldr pages:
 
 `tldr {{-u}}`
