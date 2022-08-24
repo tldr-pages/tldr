@@ -3,11 +3,11 @@
 > Open source java application designed for load testing functional behavior and measure performance.
 > More information: <https://jmeter.apache.org>.
 
-- Run in nongui mode for a specific test plan:
+- Run a specific test plan in nongui mode:
 
 `jmeter --nongui --testfile {{path/to/file}}.jmx`
 
-- Use a specific log file:
+- Run a test plan in nongui mode using a specific log file:
 
 `jmeter --nogui --testfile {{path/to/file}}.jmx --logfile {{path/to/logfile}}.jtl`
 
