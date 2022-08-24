@@ -17,4 +17,4 @@
 
 - Update the cache of tldr pages:
 
-`tldr {{-u|--update}}`
+`tldr {{-u}}`
