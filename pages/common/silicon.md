@@ -1,16 +1,16 @@
 # silicon
 
-> Create beautiful image of your source code.
-> More information: <https://github.com/Aloxaf/silicon/>.
+> Create images of source code files.
+> More information: <https://github.com/Aloxaf/silicon>.
 
-- Generate image from source file:
+- Generate an image from a specific source file:
 
-`silicon  {{path/to/code.py}} -o {{path/to/image.png}}`
+`silicon  {{path/to/source_file}} --output {{path/to/output_image.png}}`
 
-- Generate image from source file with special program language syntax highlighting:
+- Generate an image from a source file with a specific programing language syntax highlighting (e.g. `rust`, `py`, `js`, etc.):
 
-`silicon  {{path/to/code.py}} -o {{path/to/image.png}} -l {{program lanauge}}`
+`silicon  {{path/to/source_file}} --output {{path/to/output_image.png}} --language {{language_or_file_extension}}`
 
-- Generate image from pipe:
+- Generate an image from pipe:
 
-`{{command}} | silicon -o {{path/to/image.png}}`
+`{{command}} | silicon --output {{path/to/output_image.png}}`
