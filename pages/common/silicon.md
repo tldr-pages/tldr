@@ -11,6 +11,6 @@
 
 `silicon  {{path/to/source_file}} --output {{path/to/output_image.png}} --language {{language_or_file_extension}}`
 
-- Generate an image from pipe:
+- Generate an image from stdin:
 
 `{{command}} | silicon --output {{path/to/output_image.png}}`
