@@ -1,6 +1,6 @@
 # silicon
 
-> Create images of source code files.
+> Create images of source code.
 > More information: <https://github.com/Aloxaf/silicon>.
 
 - Generate an image from a specific source file:
