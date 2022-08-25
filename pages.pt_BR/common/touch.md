@@ -21,4 +21,4 @@
 
 - Criar múltiplos arquivos:
 
-`touch -c {{arquivo{1,2,3}.txt}}`
+`touch -c {{caminho/para/arquivo{1,2,3}.txt}}`
