@@ -5,7 +5,7 @@
 
 - Criar novo(s) arquivo(s) vazio(s) ou alterar os timestamps do(s) arquivo(s) para o timestamp atual:
 
-`touch {{arquivo}}`
+`touch {{caminho/para/arquivo}}`
 
 - Definir os timestamps de um arquivo para uma data e hora específica:
 
