@@ -13,7 +13,7 @@
 
 - Definir os timestamps de um arquivo para uma hora no passado:
 
-`touch -d "{{-1 hour}}" {{arquivo}}`
+`touch -d "{{-1 hour}}" {{caminho/para/arquivo}}`
 
 - Usar as timestamps de um arquivo para definir as timestamps de um segundo arquivo:
 
