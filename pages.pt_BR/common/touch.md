@@ -17,7 +17,7 @@
 
 - Usar as timestamps de um arquivo para definir as timestamps de um segundo arquivo:
 
-`touch -r {{arquivo1}} {{arquivo2}}`
+`touch -r {{caminho/para/arquivo1}} {{caminho/para/arquivo2}}`
 
 - Criar múltiplos arquivos:
 
