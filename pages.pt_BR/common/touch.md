@@ -9,7 +9,7 @@
 
 - Definir os timestamps de um arquivo para uma data e hora específica:
 
-`touch -t {{YYYYMMDDHHMM.SS}} {{arquivo}}`
+`touch -t {{YYYYMMDDHHMM.SS}} {{caminho/para/arquivo}}`
 
 - Definir os timestamps de um arquivo para uma hora no passado:
 
