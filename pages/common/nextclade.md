@@ -1,6 +1,6 @@
 # nextclade
 
-> Bioinformatics tool for virus genome alignment, clade assignment and qc checks
+> Bioinformatics tool for virus genome alignment, clade assignment and qc checks.
 > More information: <https://docs.nextstrain.org/projects/nextclade/en/stable/user/nextclade-cli.html>.
 
 - Run Nextclade to create TSV report, auto-downloading the latest [d]ataset:
