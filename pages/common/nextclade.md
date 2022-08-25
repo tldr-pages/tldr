@@ -17,12 +17,12 @@
 
 - Use a downloaded [D]ataset, producing all [O]utputs:
 
-`nextclade run -D {{path/to/dataset-dir}} -O {{output-dir}} {{path/to/dataset-dir/sequences.fasta}}`
+`nextclade run -D {{path/to/dataset_dir}} -O {{path/to/output_dir}} {{path/to/dataset_dir/sequences.fasta}}`
 
 - Run on multiple files:
 
-`nextclade run -d {{dataset-name}} -t {{path/to/output-tsv}} -- {{input-fasta-1}} {{input-fasta-2}}`
+`nextclade run -d {{dataset_name}} -t {{path/to/output_tsv}} -- {{path/to/input_fasta_1 path/to/input_fasta_2 ...}}`
 
 - Try reverse complement if sequence does not align:
 
-`nextclade run --retry-reverse-complement -d {{dataset-name}} -t {{path/to/output-tsv}} {{input-fasta}}`
+`nextclade run --retry-reverse-complement -d {{dataset_name}} -t {{path/to/output_tsv}} {{path/to/input_fasta}}`
