@@ -14,7 +14,7 @@
 
 - Atualiza um pacote:
 
-`pip install -U {{nome_pacote}}`
+`pip install --upgrade {{nome_pacote}}`
 
 - Desinstala um pacote:
 
