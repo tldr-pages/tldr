@@ -56,17 +56,18 @@ as a guideline for current and future maintainers.
 
 - PRs should be merged once they
   (1) **pass the automated tests** (GitHub Actions, CLA signing, etc.),
-  (2) have the **review comments addressed**,
-  (3) get **approved reviews by two maintainers**, (the second maintainer can merge immediately after approving) and
+  (2) have all the **review comments addressed and resolved**,
+  (3) get **approved reviews by at least two maintainers**, (the last maintainer can merge immediately after approving) and
   (4) have been open for at least **24 hours** unless the changes are trivial
 
-- If a PR fails to get a review from a second maintainer after a few days,
+- If a PR fails to get a review from a second maintainer after a week,
   the first maintainer should ping others for review. If it still lingers around
   for **over a week without a second maintainer’s approval**,
-  the first maintainer can go ahead and merge it.
+  the first maintainer can go ahead and merge it while dismissing all reviewers who
+  didn't reviewed the PR.
 
 - If the only issues holding up a merge are **trivial fixes**
-  (typos, syntax errors, etc.), and the author doesn't respond in a day or two,
+  (typos, syntax errors), and the author doesn't respond in a day or two,
   **maintainers can make the necessary changes themselves**,
   and proceed with the merge process.
 
@@ -79,6 +80,9 @@ as a guideline for current and future maintainers.
   are not **overwhelmed with too many change requests**.
   Be mindful of signs of fatigue (less enthusiastic responses, slower reactions),
   and relax review standards if necessary — minor issues can always be fixed later.
+  It doesn't mean that maintainers reviewing PRs from new contributors should violate
+  style guide for simplifying feedback. It means that feedback should be better written
+  with more details.
 
 - When merging PRs, use the **merge strategy that produces a clean Git history**:
   If there's a single commit in the PR,
@@ -94,8 +98,7 @@ as a guideline for current and future maintainers.
   then prefer squash, else do a rebase.
 
 - Although having push access allows committing directly to the repository,
-  please **create pull requests for all of your changes**,
-  except the simplest ones (e.g. typo fixes).
+  please **create pull requests for all of your changes**.
   This ensures that the entire process that regular contributors go through
   is also exposed to maintainers,
   who can then identify and address bottlenecks or inconveniences.
