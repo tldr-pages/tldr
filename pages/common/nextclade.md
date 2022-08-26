@@ -11,7 +11,7 @@
 
 `nextclade dataset list`
 
-- Download latest SARS-CoV-2 dataset:
+- Download the latest SARS-CoV-2 dataset:
 
 `nextclade dataset get --name sars-cov-2 --output-dir {{path/to/directory}}`
 
