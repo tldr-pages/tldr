@@ -88,7 +88,8 @@ as a guideline for current and future maintainers.
   If there's a single commit in the PR,
   or if the multiple commits are not semantically independent changes,
   use the `Squash and merge` method.
-  (Don't forget to clean up the body of the squashed commit message.)
+  (Don't forget to clean up the body of the squashed commit message: remove all
+  lines starting with `Co-authored by:`.)
   If instead the PR author took the time to craft
   individual, informative messages for each commit,
   then use the `Rebase and merge` method,

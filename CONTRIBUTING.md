@@ -158,10 +158,6 @@ Examples:
   - For a new translation of an existing page: `cp: add Tamil translation`
   - For related changes to several pages: `grep, find, locate: synchronize format of wildcards`
 
-### Merging a pull request
-
-While merging a pull request please remove all lines starting with `Co-authored-by:` in the commit message.
- 
 ## Licensing
 
 This repository is licensed under the [Creative Commons Attribution 4.0 International License](LICENSE.md).
