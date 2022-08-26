@@ -3,9 +3,9 @@
 > Subscribe to a gnmic network device state updates.
 > More information: <https://gnmic.kmrd.dev/cmd/subscribe>.
 
-- Subscribe to target state updates under the subtree {{path}}:
+- Subscribe to target state updates under the subtree of a specific path:
 
-`gnmic -a {{ip:port}} subscribe --path {{path}}`
+`gnmic --address {{ip:port}} subscribe --path {{path}}`
 
 - Subscribe to a target with a sample interval of 30s (default is 10s):
 

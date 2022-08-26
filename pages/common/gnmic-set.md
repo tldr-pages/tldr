@@ -5,7 +5,7 @@
 
 - Update the value of a path:
 
-`gnmic -a {{ip:port}} set --update-path {{path}} --update-value {{value}}`
+`gnmic --address {{ip:port}} set --update-path {{path}} --update-value {{value}}`
 
 - Update the value of a path to match the contents of a json file:
 

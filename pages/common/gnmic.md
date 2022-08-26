@@ -12,14 +12,14 @@
 
 `gnmic --address {{ip:port}} --username {{username}} --password {{password}} --insecure capabilities`
 
-- Get a snapshot of the device state at {{path}}:
+- Get a snapshot of the device state at a specific path:
 
 `gnmic -a {{ip:port}} --insecure get --path {{path}}`
 
-- Update device state at {{path}}:
+- Update device state at a specific path:
 
 `gnmic -a {{ip:port}} --insecure set --update-path {{path}} --update-value {{value}}`
 
-- Subscribe to target state updates under the subtree {{path}}:
+- Subscribe to target state updates under the subtree at a specific path:
 
 `gnmic -a {{ip:port}} --insecure subscribe --path {{path}}`
