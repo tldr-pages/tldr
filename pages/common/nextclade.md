@@ -3,7 +3,7 @@
 > Bioinformatics tool for virus genome alignment, clade assignment and qc checks.
 > More information: <https://docs.nextstrain.org/projects/nextclade/en/stable/user/nextclade-cli.html>.
 
-- Create TSV report, auto-downloading the latest [d]ataset:
+- Create a TSV report, auto-downloading the latest [d]ataset:
 
 `nextclade run -d {{dataset_name}} {{path/to/fasta}} -t {{path/to/output_tsv}}`
 
