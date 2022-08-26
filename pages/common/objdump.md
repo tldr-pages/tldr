@@ -11,7 +11,7 @@
 
 `objdump -d {{binary}}`
 
-- Disaply the disassembled executable sections in intel syntax:
+- Display the disassembled executable sections in intel syntax:
 
 `objdump -M intel -d {{binary}}`
 
