@@ -9,7 +9,7 @@
 
 - Subscribe to a target with a sample interval of 30s (default is 10s):
 
-`gnmic -a {{ip:port}} sub --path {{path}} --sample-interval 30s`
+`gnmic -a {{ip:port}} subscribe --path {{path}} --sample-interval 30s`
 
 - Subscribe to a target with sample interval and updates only on change:
 
