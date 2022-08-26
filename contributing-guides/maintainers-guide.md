@@ -88,8 +88,8 @@ as a guideline for current and future maintainers.
   If there's a single commit in the PR,
   or if the multiple commits are not semantically independent changes,
   use the `Squash and merge` method.
-  (Don't forget to clean up the body of the squashed commit message: remove all
-  lines starting with `Co-authored by:`.)
+  Don't forget to clean up the body of the squashed commit message, specially the `Co-authored by:` trailer, giving all the credit to the pull request's author is a good incentive to keep contributing.
+  (You can always use the body if you want to include useful information.)
   If instead the PR author took the time to craft
   individual, informative messages for each commit,
   then use the `Rebase and merge` method,
