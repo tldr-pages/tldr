@@ -1,9 +1,9 @@
 # keep-header
 
-> Keep first line untouched by a command, passing it directly to stdout
+> Keep first line untouched by a command, passing it directly to stdout.
 > More information: <https://github.com/eBay/tsv-utils#keep-header>.
 
-- Sort a file and keep the first line at the top
+- Sort a file and keep the first line at the top:
 
 `keep-header {{path/to/file}} -- sort`
 
