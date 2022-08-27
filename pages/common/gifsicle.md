@@ -11,7 +11,7 @@
 
 `gifsicle -b {{path/to/input.gif}} --unoptimize`
 
-- Extract a frame from an animation:
+- Extract a frame from a GIF:
 
 `gifsicle {{path/to/input.gif}} '#{{0}}' > {{path/to/firstframe.gif}}`
 
