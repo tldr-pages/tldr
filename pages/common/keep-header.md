@@ -1,20 +1,20 @@
 # keep-header
 
-> Convenience utility that runs Unix commands in a header-aware fashion.
+> Keep first line untouched by a command, passing it directly to stdout
 > More information: <https://github.com/eBay/tsv-utils#keep-header>.
 
-- Pass all but the first line to command and keep the first line:
-
-`keep-header {{path/to/file}} -- {{command}}`
-
-- Sort files except for retaining a single header line:
+- Sort a file and keep the first line at the top
 
 `keep-header {{path/to/file}} -- sort`
 
+- Output first line directly to stdout, pass rest through command:
+
+`keep-header {{path/to/file}} -- {{command}}`
+
 - Read from stdin, sorting all except the first line:
 
-`cat {{path/to/file}} | keep-header -- sort`
+`cat {{path/to/file}} | keep-header -- {{command}}`
 
-- Grep a file, keeping the header line:
+- Grep a file, keeping the first line whether it matches or not:
 
 `keep-header {{path/to/file}} -- grep {{pattern}}`
