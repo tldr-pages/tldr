@@ -15,7 +15,7 @@
 
 `gifsicle {{path/to/input.gif}} '#{{0}}' > {{path/to/firstframe.gif}}`
 
-- Make a GIF animation from selected still/animated GIFs:
+- Make a GIF animation from selected GIFs:
 
 `gifsicle {{*.gif}} --delay={{10}} --loop > {{path/to/output.gif}}`
 
