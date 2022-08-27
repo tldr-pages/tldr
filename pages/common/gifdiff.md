@@ -1,6 +1,7 @@
 # gifdiff
 
 > `diff` for GIFs.
+> See also: `gifsicle`.
 > More information: <https://www.lcdf.org/gifsicle>.
 
 - Check how GIFs differ:
