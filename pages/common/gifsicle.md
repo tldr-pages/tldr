@@ -17,7 +17,7 @@
 
 - Make a GIF animation from selected still/animated GIFs:
 
-`gifsicle {{*.gif}} --delay={{10}} --loop > {{path/to/input.gif}}`
+`gifsicle {{*.gif}} --delay={{10}} --loop > {{path/to/output.gif}}`
 
 - Reduce file size using multiple methods at the expense of quality:
 
