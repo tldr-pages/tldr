@@ -19,7 +19,7 @@
 
 `gifsicle {{*.gif}} --delay={{10}} --loop > {{path/to/output.gif}}`
 
-- Reduce file size using multiple methods at the expense of quality:
+- Reduce file size using lossy compression:
 
 `gifsicle -b {{path/to/input.gif}} --optimize=3 --lossy={{100}} --colors={{16}} --dither`
 
