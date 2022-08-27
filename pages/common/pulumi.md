@@ -3,7 +3,7 @@
 > Define infrastructure on any cloud using familiar programming languages.
 > More information: <https://www.pulumi.com/docs/>.
 
-- Creates a new project using a template:
+- Create a new project using a template:
 
 `pulumi new`
 
