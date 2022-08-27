@@ -1,6 +1,6 @@
 # gifdiff
 
-> Compare two GIFs for identical visual appearance. 
+> Compare two GIFs for identical visual appearance.
 > See also: `gifsicle`.
 > More information: <https://www.lcdf.org/gifsicle>.
 
