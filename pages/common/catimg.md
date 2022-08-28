@@ -18,4 +18,4 @@
 
 - Specify custom [w]idth or [H]eight:
 
-`catimg {{-w|-H}} {{custom}} {{path/to/file}}`
+`catimg {{-w|-H}} {{40}} {{path/to/file}}`
