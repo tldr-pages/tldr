@@ -1,0 +1,8 @@
+# zstdless
+
+> View `zstd` compressed files in `less`.
+> More information: <https://manpages.debian.org/testing/zstd/zstdless.1.en.html>.
+
+- Page through a `zstd` compressed file with `less`:
+
+`zstdless file.txt.zst`
