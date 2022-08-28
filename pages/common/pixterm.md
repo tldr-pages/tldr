@@ -12,7 +12,7 @@
 
 `pixterm -s 2 {{path/to/file}}`
 
-- Specify a custom aspect ratio with [t]erminal [r]ows and [c]olumns:
+- Specify a custom aspect ratio using a specific number of [t]erminal [r]ows and [c]olumns:
 
 `pixterm -tr {{24}} -tc {{80}} {{path/to/file}}`
 
