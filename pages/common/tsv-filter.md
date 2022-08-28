@@ -23,7 +23,7 @@
 
 `tsv-filter --invert --not-empty {{column_number}} {{path/to/tsv_file}}`
 
-- Filter lines that satisfy two conditions:
+- Display lines that satisfy two conditions:
 
 `tsv-filter --eq {{column_number1}}:{{number}} --str-eq {{column_number2}}:{{string}} {{path/to/tsv_file}}`
 
