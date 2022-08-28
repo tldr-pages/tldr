@@ -20,6 +20,6 @@
 
 `chafa --symbols vhalf {{path/to/file}}`
 
-- Render a monochrome image with only Braille characters:
+- Render a monochrome image with only braille characters:
 
 `chafa -c none --symbols braille {{path/to/file}}`
