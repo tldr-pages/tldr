@@ -1,7 +1,7 @@
 # chafa
 
 > Image printing in the terminal.
-> See also: `catimg` and `pixterm`.
+> See also: `catimg`, `pixterm`.
 > More information: <https://hpjansson.org/chafa>.
 
 - Print an image or animated GIF to the terminal:
