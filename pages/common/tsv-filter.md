@@ -3,7 +3,7 @@
 > Filter lines of a TSV file by running tests against individual fields.
 > More information: <https://github.com/eBay/tsv-utils#tsv-filter>.
 
-- Output all lines where column with field_name is numerically equal to value:
+- Print the lines where a specific column is numerically equal to a given number:
 
 `tsv-filter -H --eq {{field_name}}:{{number}} {{path/to/tsv_file}}`
 
