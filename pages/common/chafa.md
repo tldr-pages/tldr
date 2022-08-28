@@ -4,7 +4,7 @@
 > See also: `catimg`, `pixterm`.
 > More information: <https://hpjansson.org/chafa>.
 
-- Render an image or animated GIF directly in the terminal:
+- Render an image directly in the terminal:
 
 `chafa {{path/to/file}}`
 
