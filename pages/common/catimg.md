@@ -8,7 +8,7 @@
 
 `catimg {{path/to/file}}`
 
-- Double the [r]esolution of an image: 
+- Double the [r]esolution of an image:
 
 `catimg -r 2 {{path/to/file}}`
 
