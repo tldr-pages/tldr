@@ -4,22 +4,22 @@
 > See also: `catimg`, `pixterm`.
 > More information: <https://hpjansson.org/chafa>.
 
-- Print an image or animated GIF to the terminal:
+- Render an image or animated GIF directly in the terminal:
 
 `chafa {{path/to/file}}`
 
-- Use 24-bit [c]olor:
+- Render an image with 24-bit [c]olor:
 
 `chafa -c full {{path/to/file}}`
 
-- Use dithering to improve output with small color palettes:
+- Improve image rendering with small color palettes using dithering:
 
 `chafa -c 16 --dither ordered {{path/to/file}}`
 
-- Generate output like a low-resolution raster image:
+- Render an image in the terminal to appear pixelated:
 
 `chafa --symbols vhalf {{path/to/file}}`
 
-- Generate monochrome output with only Braille characters:
+- Render a monochrome image with only Braille characters:
 
 `chafa -c none --symbols braille {{path/to/file}}`
