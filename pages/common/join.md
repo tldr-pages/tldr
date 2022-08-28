@@ -18,3 +18,7 @@
 - Produce a line for each unpairable line for file1:
 
 `join -a {{1}} {{file1}} {{file2}}`
+
+- Join two files, the '-' file from standard input
+
+`join {{-}} {{file2}}`
