@@ -14,7 +14,7 @@
 
 - Specify a custom aspect ratio with [t]erminal [r]ows and [c]olumns:
 
-`pixterm -tr {{rows}} -tc {{columns}} {{path/to/file}}`
+`pixterm -tr {{24}} -tc {{80}} {{path/to/file}}`
 
 - Filter the output with a [m]atte background color and character [d]ithering:
 
