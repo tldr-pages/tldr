@@ -15,6 +15,6 @@
 
 `cat {{path/to/file}} | keep-header -- {{command}}`
 
-- Grep a file, keeping the first line whether it matches or not:
+- Grep a file, keeping the first line regardless of the search pattern:
 
 `keep-header {{path/to/file}} -- grep {{pattern}}`
