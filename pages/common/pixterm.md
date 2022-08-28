@@ -6,16 +6,16 @@
 
 - Print a static image to the terminal:
 
-`pixterm {{path/to/input}}`
+`pixterm {{path/to/file}}`
 
 - Use the image's original aspect ratio:
 
-`pixterm -s 2 {{path/to/input}}`
+`pixterm -s 2 {{path/to/file}}`
 
 - Specify a custom aspect ratio with [t]erminal [r]ows and [c]olumns:
 
-`pixterm -tr {{rows}} -tc {{columns}} {{path/to/input}}`
+`pixterm -tr {{rows}} -tc {{columns}} {{path/to/file}}`
 
 - Filter the output with a [m]atte background color and character [d]ithering:
 
-`pixterm -m {{000000}} -d 2 {{path/to/input}}`
+`pixterm -m {{000000}} -d 2 {{path/to/file}}`
