@@ -5,4 +5,4 @@
 
 - Page through a `zstd` compressed file with `less`:
 
-`zstdless file.txt.zst`
+`zstdless {{path/to/file.txt.zst}}`
