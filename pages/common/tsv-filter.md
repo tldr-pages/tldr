@@ -11,7 +11,7 @@
 
 `tsv-filter --{{eq|ne|lt|le|gt|ge}} {{column_number}}:{{number}} {{path/to/tsv_file}}`
 
-- Filter on string (in-)equality, partial strings, case insensitive:
+- Display the lines where a specific column is [eq]ual/[n]ot [e]qual/part of/not part of a string:
 
 `tsv-filter --str-{{eq|ne|in-fld|not-in-fld}} {{column_number}}:{{string}} {{path/to/tsv_file}}`
 
