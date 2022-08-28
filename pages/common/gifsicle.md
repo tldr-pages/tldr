@@ -27,6 +27,6 @@
 
 `gifsicle -b {{path/to/input.gif}} --delete '#{{0-9}}' '#{{20-}}'`
 
-- Modify an animation with various transformations. Put these before the animation filename to avoid specifying frame ranges:
+- Modify all frames of a GIF using specific transformation options:
 
 `gifsicle -b --crop {{50}},{{50}}+{{-50}}x{{-50}} --scale {{0.25}} --flip-horizontal --rotate-90 {{path/to/input.gif}}`
