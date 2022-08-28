@@ -16,7 +16,7 @@
 
 `chafa -c 16 --dither ordered {{path/to/file}}`
 
-- Render an image in the terminal to appear pixelated:
+- Render an image, making it appear pixelated:
 
 `chafa --symbols vhalf {{path/to/file}}`
 
