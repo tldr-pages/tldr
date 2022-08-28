@@ -16,6 +16,6 @@
 
 `catimg -t {{path/to/file}}`
 
-- Specify custom [w]idth or [H]eight:
+- Specify a custom [w]idth or [H]eight:
 
 `catimg {{-w|-H}} {{40}} {{path/to/file}}`
