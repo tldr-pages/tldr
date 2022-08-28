@@ -13,7 +13,7 @@
 
 - Filter on string (in-)equality, partial strings, case insensitive:
 
-`tsv-filter --{{str-eq|str-ne|str-in-fld|str-not-in-fld}} {{column_number}}:{{string}} {{path/to/tsv_file}}`
+`tsv-filter --str-{{eq|ne|in-fld|not-in-fld}} {{column_number}}:{{string}} {{path/to/tsv_file}}`
 
 - Filter for non-empty fields:
 
