@@ -4,7 +4,7 @@
 > See also: `chafa`, `catimg`.
 > More information: <https://github.com/eliukblau/pixterm>.
 
-- Print a static image to the terminal:
+- Render a static image directly in the terminal:
 
 `pixterm {{path/to/file}}`
 
