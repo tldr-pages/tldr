@@ -7,7 +7,7 @@
 
 `keep-header {{path/to/file}} -- sort`
 
-- Output first line directly to stdout, pass rest through command:
+- Output first line directly to stdout, passing the remainder of the file through the specified command command:
 
 `keep-header {{path/to/file}} -- {{command}}`
 
