@@ -68,7 +68,7 @@ As a quick reference, the format of each page should match the following templat
 
 To see some examples of preexisting pages, you can look at:
 
-- [pwd](https://github.com/tldr-pages/tldr/blob/main/pages/common/pwd.md) - one of the simpliest command examples
+- [pwd](https://github.com/tldr-pages/tldr/blob/main/pages/common/pwd.md) - one of the simplest command examples
 - [caja](https://github.com/tldr-pages/tldr/blob/main/pages/common/tar.md) - page with placeholders 
 
 In our pages, we use placeholders which are defined as being tokens within curly brackets, for example `sleep {{5}}`, in this case the user can change 5 to any number.
