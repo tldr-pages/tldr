@@ -19,6 +19,6 @@
 
 `join -a {{1}} {{file1}} {{file2}}`
 
-- Join two files, the '-' file from standard input:
+- Join '-' and file, the '-' from stdin:
 
-`join {{-}} {{file2}}`
+`cat {{path/to/file1}} | join - {{path/to/file2}}`
