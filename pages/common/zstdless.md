@@ -4,6 +4,6 @@
 > See also: `zstd`, `less`.
 > More information: <https://manned.org/zstdless>.
 
-- Page through a `zstd` compressed file with `less`:
+- Open a `zstd` compressed file:
 
 `zstdless {{path/to/file.zst}}`
