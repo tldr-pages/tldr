@@ -11,7 +11,7 @@
 
 `pulumi stack init`
 
-- Configure variables such as keys, regions, and so on:
+- Interactively configure variables such as keys, regions, etc:
 
 `pulumi config`
 
