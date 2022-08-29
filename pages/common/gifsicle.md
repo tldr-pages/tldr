@@ -23,7 +23,7 @@
 
 `gifsicle -b {{path/to/input.gif}} --optimize=3 --lossy={{100}} --colors={{16}} --dither`
 
-- Delete the first 10 frames and all frames after #20 from a GIF:
+- Delete the first 10 frames and all frames after frame 20 from a GIF:
 
 `gifsicle -b {{path/to/input.gif}} --delete '#{{0-9}}' '#{{20-}}'`
 
