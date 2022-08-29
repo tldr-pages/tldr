@@ -15,7 +15,11 @@
 
 `adb install -r {{path/to/file.apk}}`
 
-- Grant all permissions listed in the app manifest:
+- Allow version code downgrade (debuggable packages only):
+
+`adb install -d {{path/to/file.apk}}`
+
+- Grant all permissions listed in the app manifest(is able to grant some system permissions like `android.permission.WRITE_SECURE_SETTINGS`):
 
 `adb install -g {{path/to/file.apk}}`
 
