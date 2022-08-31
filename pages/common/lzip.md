@@ -1,6 +1,6 @@
 # lzip
 
-> Lzip is a lossless data compressor with a user interface similar to the one of gzip or bzip2. 
+> Lzip is a lossless data compressor with a user interface similar to the one of gzip or bzip2.
 Lzip uses a simplified form of the "Lempel-Ziv-Markovchain-Algorithm"z (LZMA) stream format and provides a 3 factor integrity checking to maximize interoperability and optimize safety.
 > More information: <https://www.nongnu.org/lzip>.
 
