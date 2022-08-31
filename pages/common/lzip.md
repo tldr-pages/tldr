@@ -12,7 +12,7 @@
 
 `lzip -k {{path/to/file}}`
 
-- Archive a file with best compression (level=9):
+- Archive a file with the best compression (level=9):
 
 `lzip -k {{path/to/file}} --best`
 
