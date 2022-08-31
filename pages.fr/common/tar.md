@@ -12,11 +12,11 @@
 
 `tar czf {{cible.tar.gz}} {{fichier1 fichier2 fichier3}}`
 
-- Extraie une archive (compressée) dans le dossier courant :
+- Extraire une archive (compressée) dans le dossier courant :
 
 `tar xf {{source.tar[.gz|.bz2|.xz]}}`
 
-- Extraie une archive dans un dossier cible :
+- Extraire une archive dans un dossier cible :
 
 `tar xf {{source.tar}} -C {{dossier}}`
 
