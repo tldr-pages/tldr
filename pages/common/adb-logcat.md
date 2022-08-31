@@ -1,4 +1,4 @@
-# logcat
+# adb-logcat
 
 > Dump a log of system messages.
 > More information: <https://developer.android.com/studio/command-line/logcat>.
