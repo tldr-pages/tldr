@@ -32,6 +32,6 @@
 
 `lzip -d -k {{compressed.ext}}.lz`
 
-- List files of archive and compression stats:
+- List files which are in an archive and show compression stats:
 
 `lzip --list {{compressed.ext}}.lz`
