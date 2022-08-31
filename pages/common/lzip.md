@@ -20,7 +20,7 @@
 
 `lzip -k {{path/to/file}} --fast`
 
-- Test integrity of compressed file:
+- Test the integrity of compressed file:
 
 `lzip --test {{compressed.ext}}.lz`
 
