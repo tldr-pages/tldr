@@ -19,7 +19,7 @@
 
 `adb install -d {{path/to/file.apk}}`
 
-- Grant all permissions listed in the app manifest(is able to grant some system permissions like `android.permission.WRITE_SECURE_SETTINGS`):
+- Grant all permissions listed in the app manifest:
 
 `adb install -g {{path/to/file.apk}}`
 
