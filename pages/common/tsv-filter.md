@@ -31,6 +31,6 @@
 
 `tsv-filter --or --eq {{column_number1}}:{{number}} --str-eq {{column_number2}}:{{string}} {{path/to/tsv_file}}`
 
-- Count matching lines, interpreting first line as [H]eader:
+- Count matching lines, interpreting first line as a [H]eader:
 
 `tsv-filter --count -H --eq {{field_name}}:{{number}} {{path/to/tsv_file}}`
