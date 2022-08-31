@@ -16,7 +16,7 @@
 
 `lzip -k {{path/to/file}} --best`
 
-- Archive a file at the fastest speed (level=0): 
+- Archive a file at the fastest speed (level=0):
 
 `lzip -k {{path/to/file}} --fast`
 
