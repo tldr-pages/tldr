@@ -28,7 +28,7 @@
 
 `lzip -d {{compressed.ext}}.lz`
 
-- Decompress a file keeping the input file:
+- Decompress a file, keeping the archive:
 
 `lzip -d -k {{compressed.ext}}.lz`
 
