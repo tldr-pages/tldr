@@ -15,6 +15,6 @@
 
 `adb logcat {{tag0:V}} {{tag1:D}} *:S`
 
-- Color the log(usually use with filters)
+- Color the log(usually use with filters):
 
 `adb logcat -v color`
