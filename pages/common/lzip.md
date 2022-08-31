@@ -8,7 +8,7 @@
 
 `lzip {{path/to/file}}`
 
-- Archive a file keeping the input file:
+- Archive a file, keeping the input file:
 
 `lzip -k {{path/to/file}}`
 
