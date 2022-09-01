@@ -11,9 +11,17 @@
 
 `adb logcat -e {{regular_expression}}`
 
-- Filter the log with filterspecs(`{{complete_tag:[V | D | I | W | E | F | S]}}`), `*` for all but not a wildcard(`*:S` suppresses others):
+- Display logs for a tag in a specific mode ([V]erbose, [D]ebug, [I]nfo, [W]arning, [E]rror, [F]atal, [S]ilent), filtering other tags:
 
-`adb logcat {{tag0:V}} {{tag1:D}} *:S`
+`adb logcat {{tag}}:{{mode}} *:S`
+
+- Display logs for React Native applications in [V]erbose mode [S]ilencing other tags:
+
+`adb logcat ReactNative:V ReactNativeJS:V *:S`
+
+- Display logs for all tags with priority level [W]arning and higher:
+
+`adb logcat *:W`
 
 - Color the log(usually use with filters):
 
