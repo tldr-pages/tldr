@@ -58,6 +58,8 @@ If you are an owner of the organization, you can see an automated list
   [06 August 2022](https://github.com/tldr-pages/tldr/issues/8309) — present
 - **Adrien Thebo ([@adrienthebo](https://github.com/adrienthebo))**:
   [17 August 2022](https://github.com/tldr-pages/tldr/issues/8321) — present
+- **Cairn ([@CairnThePerson](https://github.com/CairnThePerson))**:
+  [1 September 2022](https://github.com/tldr-pages/tldr/issues/8438) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [11 January 2018](https://github.com/tldr-pages/tldr/issues/1885) — [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
