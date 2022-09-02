@@ -12,7 +12,7 @@
 
 `mg +{{line_number}} {{path/to/file}}`
 
-- Open files read-only for viewing:
+- Open files in a read-only mode:
 
 `mg -R {{path/to/file1 path/to/file2 ...}}`
 
