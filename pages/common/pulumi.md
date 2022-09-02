@@ -7,11 +7,11 @@
 
 `pulumi new`
 
-- Create a new stack, an isolated deployment target:
+- Create a new stack using an isolated deployment target:
 
 `pulumi stack init`
 
-- Interactively configure variables such as keys, regions, etc:
+- Configure variables (e.g. keys, regions, etc.) interactively:
 
 `pulumi config`
 
@@ -19,7 +19,7 @@
 
 `pulumi up`
 
-- Preview changes explicitly before deploying:
+- Preview deployment changes without performing them (dry-run):
 
 `pulumi preview`
 
