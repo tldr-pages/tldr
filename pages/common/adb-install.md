@@ -15,7 +15,7 @@
 
 `adb install -r {{path/to/file.apk}}`
 
-- Allow version code downgrade (debuggable packages only):
+- Push an Android application allowing version code downgrade (debuggable packages only):
 
 `adb install -d {{path/to/file.apk}}`
 
