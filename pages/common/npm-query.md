@@ -19,7 +19,7 @@
 
 `npm query #{{package_name}}@{{semantic_version}}`
 
-- Print dependencies with no dependencies:
+- Print dependencies which have no dependencies:
 
 `npm query ':empty'`
 
@@ -27,6 +27,6 @@
 
 `npm query ":attr(scripts, [postinstall])" | jq 'map(.name) | join("\n")' -r | xargs -I {} npm uninstall {}`
 
-- Find all Git dependencies and print who required them:
+- Find all Git dependencies and print which application requires them:
 
 `npm query ":type(git)" | jq 'map(.name)' | xargs -I {} npm why {}`
