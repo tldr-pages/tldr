@@ -21,7 +21,7 @@
 
 - Specify a location for the generated theme (default is `$XDG_CACHE_HOME/wal-telegram` or `~/.cache/wal-telegram`):
 
-`wal-telegram --destination={{path/to/save/theme/in}}`
+`wal-telegram --destination={{path/to/destination}}`
 
 - Restart the telegram app after generation:
 
