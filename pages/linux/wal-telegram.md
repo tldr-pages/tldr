@@ -19,7 +19,7 @@
 
 `wal-telegram -g`
 
-- Specify a location for the generated theme (Default is '$XDG_CACHE_HOME/wal-telegram' or '~/.cache/wal-telegram'):
+- Specify a location for the generated theme (default is `$XDG_CACHE_HOME/wal-telegram` or `~/.cache/wal-telegram`):
 
 `wal-telegram --destination={{path/to/save/theme/in}}`
 
