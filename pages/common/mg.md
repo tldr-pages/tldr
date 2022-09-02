@@ -1,6 +1,6 @@
 # mg
 
-> A small, fast, portable text editor.
+> A small, fast, and portable text editor.
 > Based on `emacs`.
 > More information: <https://github.com/hboetes/mg>.
 
