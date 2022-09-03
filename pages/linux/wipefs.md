@@ -13,7 +13,7 @@
 
 - Wipd all available signatures for specified device at all block levels using a glob pattern:
 
-`sudo wipefs --all {{/dev/sdX*}}
+`sudo wipefs --all {{/dev/sdX*}}`
 
 - Perform dry run:
 
