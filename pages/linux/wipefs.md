@@ -7,9 +7,13 @@
 
 `sudo wipefs {{/dev/sdX}}`
 
-- Wipe all available signatures for specified device:
+- Wipe all available signatures for specified device level (no recursion to sub-level block layers):
 
 `sudo wipefs --all {{/dev/sdX}}`
+
+- Wipd all available signatures for specified device at all block levels using a glob pattern:
+
+`sudo wipefs --all {{/dev/sdX*}}
 
 - Perform dry run:
 
