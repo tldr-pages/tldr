@@ -1,4 +1,4 @@
-#java
+# java
 
 > ஜாவா பயன்பாட்டு துவக்கி.
 > மேலும் விவரத்திற்கு: <https://docs.oracle.com/en/java/javase/17/docs/specs/man/java.html>.
