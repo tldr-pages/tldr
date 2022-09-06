@@ -11,7 +11,7 @@
 
 `git stash -u`
 
-- Stash current changes, [k]eeping index (`push` only)
+- Stash current changes, [k]eeping index (`push` only):
 
 `git stash -k [push -m {{optional_stash_message}}]`
 
