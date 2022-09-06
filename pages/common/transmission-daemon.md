@@ -18,4 +18,4 @@
 
 - Run the daemon with explicit settings for the web interface:
 
-`transmission-daemon --auth --username {{username}} --password {{password}} --port {{9091}} --allowed "{{127.0.0.1}}"`
+`transmission-daemon --auth --username {{username}} --password {{password}} --port {{9091}} --allowed {{127.0.0.1}}`
