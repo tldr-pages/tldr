@@ -12,6 +12,6 @@
 
 `transmission-show --magnet {{path/to/file.torrent}}`
 
-- Query a torrent's trackers to get the current number of peers:
+- Query a torrent's trackers and print the current number of peers:
 
 `transmission-show --scrape {{path/to/file.torrent}}`
