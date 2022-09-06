@@ -12,11 +12,11 @@
 
 `Ctrl + w {{h|l}}`
 
-- Jump to the next difference:
+- Jump to the previous difference:
 
 `[c`
 
-- Jump to the previous difference:
+- Jump to the next difference:
 
 `]c`
 
