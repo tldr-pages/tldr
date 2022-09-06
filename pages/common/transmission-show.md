@@ -8,7 +8,7 @@
 
 `transmission-show {{path/to/file.torrent}}`
 
-- Generate a magnet link for a torrent:
+- Generate a magnet link for a specific torrent:
 
 `transmission-show --magnet {{path/to/file.torrent}}`
 
