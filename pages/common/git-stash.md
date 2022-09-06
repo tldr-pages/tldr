@@ -7,6 +7,14 @@
 
 `git stash [push -m {{optional_stash_message}}]`
 
+- Stash specific file(s), except new (untracked) files:
+
+`git stash push [-m {{optional_stash_message}}] {{file1}} {{file2}}`
+
+- Stash current changes, [k]eeping index (`push` only)
+
+`git stash -k [push -m {{optional_stash_message}}]`
+
 - Stash current changes, including new (untracked) files:
 
 `git stash -u`
