@@ -1,6 +1,6 @@
 # transmission-show
 
-> Get info about a torrent file.
+> Get information about a torrent file.
 > See also: `transmission`.
 > More information: <https://manned.org/transmission-show>.
 
