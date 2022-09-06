@@ -15,6 +15,10 @@
 
 `adb install -r {{path/to/file.apk}}`
 
+- Push an Android application allowing version code downgrade (debuggable packages only):
+
+`adb install -d {{path/to/file.apk}}`
+
 - Grant all permissions listed in the app manifest:
 
 `adb install -g {{path/to/file.apk}}`
