@@ -25,7 +25,7 @@
 
 - Display the man page using a specific locale:
 
-`man {{command}} --locale={{locale}}`
+`man --locale={{locale}} {{command}}`
 
 - Search for manpages containing a search string:
 
