@@ -12,7 +12,7 @@
 
 `transmission-daemon --watch-dir {{path/to/directory}}`
 
-- Generate a configuration file for the daemon:
+- Dump daemon settings in JSON format:
 
 `transmission-daemon --dump-settings > {{path/to/file.json}}`
 
