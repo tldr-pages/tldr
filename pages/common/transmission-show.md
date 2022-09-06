@@ -4,7 +4,7 @@
 > See also: `transmission`.
 > More information: <https://manned.org/transmission-show>.
 
-- Output a torrent's metadata:
+- Display metadata for a specific a torrent:
 
 `transmission-show {{path/to/file.torrent}}`
 
