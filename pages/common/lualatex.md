@@ -7,14 +7,14 @@
 
 `lualatex`
 
-- Compile Tex file to PDF:
+- Compile a Tex file to PDF:
 
 `lualatex {{path/to/file.tex}}`
 
-- Compile Tex file without error interruption:
+- Compile a Tex file without error interruption:
 
 `lualatex -interaction nonstopmode {{path/to/file.tex}}`
 
-- Compile Tex file with a specific output file name:
+- Compile a Tex file with a specific output file name:
 
 `lualatex -jobname={{filename}} {{path/to/file.tex}}`
