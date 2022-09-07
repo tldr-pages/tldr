@@ -3,7 +3,7 @@
 > Windows media creation tool.
 > More information: <https://github.com/WoeUSB/WoeUSB>.
 
-- Completely WIPE the entire USB storage device, then build a bootable Windows USB device from scratch:
+- Format a USB then create a bootable Windows installation drive:
 
 `woeusb --device {{source media path}} {{device}}`
 
