@@ -7,6 +7,6 @@
 
 `vigr`
 
-- Display the current version of `vigr`:
+- Display version:
 
 `vigr --version`
