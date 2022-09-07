@@ -9,4 +9,4 @@
 
 - Copy Windows files to an existing partition of a USB storage device and make it bootable, without erasing the current data:
 
-`woeusb --partition {{source media path}} {{partition}}`
+`woeusb --partition {{path/to/windows.iso}} {{/dev/sdXN}}`
