@@ -1,4 +1,4 @@
-# WoeUSB
+# woeusb
 
 > Microsoft Windows® USB installation media creator for GNU+Linux.
 > More information: <https://github.com/WoeUSB/WoeUSB>.
