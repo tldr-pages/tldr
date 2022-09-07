@@ -27,7 +27,7 @@
 
 `tsv-filter --eq {{column_number1}}:{{number}} --str-eq {{column_number2}}:{{string}} {{path/to/tsv_file}}`
 
-- Display lines that match at least one condition:
+- Print the lines that match at least one condition:
 
 `tsv-filter --or --eq {{column_number1}}:{{number}} --str-eq {{column_number2}}:{{string}} {{path/to/tsv_file}}`
 
