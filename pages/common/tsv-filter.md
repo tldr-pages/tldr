@@ -19,7 +19,7 @@
 
 `tsv-filter --not-empty {{column_number}} {{path/to/tsv_file}}`
 
-- Display fields that are empty in a specific column:
+- Print the lines where a specific column is empty:
 
 `tsv-filter --invert --not-empty {{column_number}} {{path/to/tsv_file}}`
 
