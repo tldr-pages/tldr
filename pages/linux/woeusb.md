@@ -7,6 +7,6 @@
 
 `woeusb --device {{path/to/windows.iso}} {{/dev/sdX}}`
 
-- Copy Windows files to an existing partition of a USB storage device and make it bootable. This allows files to coexist as long as no filename conflict exists:
+- Copy Windows files to an existing partition of a USB storage device and make it bootable, without erasing the current data:
 
 `woeusb --partition {{source media path}} {{partition}}`
