@@ -3,7 +3,7 @@
 > An extended version of TeX using Lua to compile.
 > More information: <https://manned.org/lualatex.1>.
 
-- Start `texlua` to act as Lua interpreter:
+- Start `texlua` to act as a Lua interpreter:
 
 `lualatex`
 
