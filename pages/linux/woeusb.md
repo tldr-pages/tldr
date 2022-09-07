@@ -1,6 +1,6 @@
 # woeusb
 
-> Microsoft Windows® USB installation media creator for GNU+Linux.
+> Windows media creation tool.
 > More information: <https://github.com/WoeUSB/WoeUSB>.
 
 - Completely WIPE the entire USB storage device, then build a bootable Windows USB device from scratch:
