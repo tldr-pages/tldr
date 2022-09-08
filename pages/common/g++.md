@@ -4,7 +4,7 @@
 > Part of GCC (GNU Compiler Collection).
 > More information: <https://gcc.gnu.org>.
 
-- Check compiler version information:
+- Display version:
 
 `g++ --version`
 
