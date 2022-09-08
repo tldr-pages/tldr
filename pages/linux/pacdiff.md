@@ -1,8 +1,7 @@
 # pacdiff
 
 > Pacorig, pacnew and pacsave maintenance utility for pacman.
-> If you want to use a different program for diffs, set the `DIFFPROG` enviromental variable to point to your desired binary, with any needed flags. `vim -d` is the default.
-> More information: <https://man.archlinux.org/man/pacdiff.8>.
+> More information: <https://manned.org/pacdiff>.
 
 - Look for files that need maintenance:
 
@@ -10,20 +9,24 @@
 
 - Use sudoedit to merge or remove files:
 
-`pacdiff -s`
+`pacdiff --sudo`
 
-- Save old versions of modified files as `.bak` files:
+- Store the original version of any file you `(O)verwrite with` as a `.bak`
 
-`pacdiff -b`
+`pacdiff --backup`
+
+- Override the program for `(M)erge`ing changes (`vim -d` is default):
+
+`DIFFPROG=meld pacdiff`
 
 - Find files that need maintenance, apply changes with sudoedit, and keep backups:
 
 `pacdiff -b -s`
 
-- Scan for files with `locate` instead of using pacmandb (much slower, but finds files missing from db):
+- Scan for files with `locate` instead of searching pacmandb to find untracked files:
 
-`pacdiff -l`
+`pacdiff --locate`
 
 - Display help:
 
-`pacdiff -h`
+`pacdiff --help`
