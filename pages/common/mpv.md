@@ -5,7 +5,7 @@
 
 - Play a video or audio file:
 
-`mpv {{file}}`
+`mpv {{path/to/file}}`
 
 - Play a video or audio file from a URL:
 
@@ -25,11 +25,11 @@
 
 - Play a file at a specified speed (0.01 to 100, default 1):
 
-`mpv --speed {{speed}} {{file}}`
+`mpv --speed {{speed}} {{path/to/file}}`
 
 - Play a file using a profile defined in the `mpv.conf` file:
 
-`mpv --profile {{profile_name}} {{file}}`
+`mpv --profile {{profile_name}} {{path/to/file}}`
 
 - Display the output of webcam or other video input device:
 
