@@ -7,7 +7,7 @@
 
 `pacdiff`
 
-- Use sudoedit to merge or remove files:
+- Use sudo and sudoedit to remove and merge files.
 
 `pacdiff --sudo`
 
@@ -19,7 +19,7 @@
 
 `DIFFPROG=meld pacdiff`
 
-- Find files that need maintenance, apply changes with sudoedit, and keep backups:
+- Find files that need maintenance, apply changes with sudo/sudoedit, and keep backups:
 
 `pacdiff -b -s`
 
