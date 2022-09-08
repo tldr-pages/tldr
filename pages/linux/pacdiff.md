@@ -7,7 +7,7 @@
 
 `pacdiff`
 
-- Use sudo and sudoedit to remove and merge files.
+- Use sudo and sudoedit to remove and merge files:
 
 `pacdiff --sudo`
 
