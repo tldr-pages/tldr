@@ -11,7 +11,7 @@
 
 `sudo wipefs --all {{/dev/sdX}}`
 
-- Wipd all available signatures for specified device at all block levels using a glob pattern:
+- Wipd all available signatures for the specified device at all block levels using a glob pattern:
 
 `sudo wipefs --all {{/dev/sdX*}}`
 
