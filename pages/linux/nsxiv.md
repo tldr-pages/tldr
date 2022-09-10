@@ -11,7 +11,7 @@
 
 `nsxiv {{path/to/directory1 path/to/directory2 ...}}`
 
-- Search the given directories recursively for images to view:
+- Search directories recursively for images to view:
 
 `nsxiv -r {{path/to/directory1 path/to/directory2 ...}}`
 
