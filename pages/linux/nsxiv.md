@@ -7,7 +7,7 @@
 
 `nsxiv {{path/to/file1 path/to/file2 ...}}`
 
-- Open images from a directories in image mode:
+- Open images from directories in image mode:
 
 `nsxiv {{path/to/directory1 path/to/directory2 ...}}`
 
