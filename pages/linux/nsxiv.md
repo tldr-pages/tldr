@@ -27,6 +27,6 @@
 
 `n, Space`
 
--  Count images backward in Image mode:
+- Count images backward in Image mode:
 
 `p, Backspace`
