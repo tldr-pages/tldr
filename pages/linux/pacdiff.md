@@ -21,7 +21,7 @@
 
 - Find files that need maintenance, apply changes with sudo/sudoedit, and keep backups:
 
-`pacdiff -b -s`
+`pacdiff --backup --sudo`
 
 - Scan for files with `locate` instead of searching pacmandb to find untracked files:
 
