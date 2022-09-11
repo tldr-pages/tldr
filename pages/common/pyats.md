@@ -18,3 +18,11 @@
 - Run a `pyATS` subcommand:
 
 `pyats {{subcommand}}`
+
+- Display version:
+
+`pyats version check`
+
+- Display help:
+
+`pyats --help`
