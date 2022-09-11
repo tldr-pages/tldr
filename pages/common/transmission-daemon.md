@@ -8,7 +8,7 @@
 
 `transmission-daemon`
 
-- Start and watch a specific directory for new torrent files:
+- Start and watch a specific directory for new torrents:
 
 `transmission-daemon --watch-dir {{path/to/directory}}`
 
