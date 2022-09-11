@@ -1,6 +1,6 @@
 # e2fsck
 
-> Check a Linux ext2/ext3/ext4 filesystem. Unmount the partition before running a command.
+> Check a Linux ext2/ext3/ext4 filesystem. Unmount the partition first!
 > More information: <https://manned.org/e2fsck>.
 
 - Check filesystem, reporting any damaged blocks:
