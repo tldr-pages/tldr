@@ -25,8 +25,8 @@
 
 - Count images forward in Image mode:
 
-`n, Space`
+`n`
 
 - Count images backward in Image mode:
 
-`p, Backspace`
+`p`
