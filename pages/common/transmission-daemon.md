@@ -4,7 +4,7 @@
 > See also: `transmission`.
 > More information: <https://manned.org/transmission-daemon>.
 
-- Start a headless Transmission session:
+- Start a headless `transmission` session:
 
 `transmission-daemon`
 
