@@ -3,13 +3,6 @@
 > A vendor agnostic test automation framework by Cisco Systems, used for network and systems testing.
 > More information: <https://developer.cisco.com/pyats/>.
 
-- Display version:
-
-`pyats version check`
-
-- Display help:
-
-`pyats --help`
 
 - Display help about a specific subcommand:
 
