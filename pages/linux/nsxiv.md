@@ -23,7 +23,7 @@
 
 `Return`
 
-- Count images forward in Image mode:
+- Count images forward in image mode:
 
 `n`
 
