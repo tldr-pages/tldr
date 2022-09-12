@@ -19,7 +19,7 @@
 
 `q`
 
-- Switch to thumbnail mode / open selected image in image mode:
+- Switch to thumbnail mode or open selected image in image mode:
 
 `Return`
 
