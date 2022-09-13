@@ -3,7 +3,7 @@
 > A better way to navigate directories.
 > More information: <https://github.com/Canop/broot>.
 
-- Install or reinstall the br shell function:
+- Install or reinstall the `br` shell function:
 
 `broot --install`
 
