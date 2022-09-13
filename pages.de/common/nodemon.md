@@ -25,7 +25,7 @@
 
 - Führe Nicht-Node Skripte aus:
 
-`nodemon --exec "{{befehl_um_skript_auszuführen argumente}}" {{pfad/zu/skript}}`
+`nodemon --exec "{{befehl_um_skript_auszuführen}} {{argumente}}" {{pfad/zu/skript}}`
 
 - Führe ein Python-Skript aus:
 

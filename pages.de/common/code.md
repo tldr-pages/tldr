@@ -9,7 +9,7 @@
 
 - Öffne bestimmte Dateien und/oder Verzeichnisse:
 
-`code {{pfad/zu/datei_oder_verzeichnis1}} {{pfad/zu/datei_oder_verzeichnis2}} {{...}}`
+`code {{pfad/zu/datei_oder_verzeichnis1 pfad/zu/datei_oder_verzeichnis2 ...}}`
 
 - Vergleiche zwei bestimmte Dateien:
 
@@ -17,7 +17,7 @@
 
 - Öffne bestimmte Dateien und/oder Verzeichnisse in einem neuen Fenster:
 
-`code --new-window {{pfad/zu/datei_oder_verzeichnis1}} {{pfad/zu/datei_oder_verzeichnis2}} {{...}}`
+`code --new-window {{pfad/zu/datei_oder_verzeichnis1 pfad/zu/datei_oder_verzeichnis2 ...}}`
 
 - Installiere oder lösche bestimmte Erweiterung:
 
