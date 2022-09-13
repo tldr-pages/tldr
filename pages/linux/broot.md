@@ -7,7 +7,7 @@
 
 `broot --install`
 
-- Navigate the directory:
+- Navigate the current directory:
 
 `br`
 
