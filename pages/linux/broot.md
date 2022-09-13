@@ -11,7 +11,7 @@
 
 `br`
 
-- Show the size of files & directories:
+- Display the size of files and directories:
 
 `br -s`
 
