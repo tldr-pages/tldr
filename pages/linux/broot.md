@@ -15,7 +15,7 @@
 
 `br -s`
 
-- Show permissions:
+- Display permissions:
 
 `br -p`
 
