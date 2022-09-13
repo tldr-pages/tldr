@@ -23,6 +23,6 @@
 
 `br -f`
 
-- Show hidden files & directories:
+- Display hidden files and directories:
 
 `br -h`
