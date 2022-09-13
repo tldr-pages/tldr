@@ -13,8 +13,8 @@
 
 - Print the tldr page for a command for a specific [p]latform:
 
-`tldr {{-p}} {{android|linux|osx|sunos|windows}} {{command}}`
+`tldr -p {{android|linux|osx|sunos|windows}} {{command}}`
 
-- [u]pdate the cache of tldr pages:
+- [u]pdate the local cache of tldr pages:
 
-`tldr {{-u}}`
+`tldr -u`
