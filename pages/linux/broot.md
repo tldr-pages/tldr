@@ -19,7 +19,7 @@
 
 `br -p`
 
-- Only show directories:
+- Display directories only:
 
 `br -f`
 
