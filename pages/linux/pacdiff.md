@@ -17,7 +17,7 @@
 
 - Override the program for `(M)erge`ing changes (`vim -d` is default):
 
-`DIFFPROG=meld pacdiff`
+`DIFFPROG={{meld}} pacdiff`
 
 - Find files that need maintenance, apply changes with sudo/sudoedit, and keep backups:
 
