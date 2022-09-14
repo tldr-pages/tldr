@@ -28,6 +28,10 @@
 
 `cargo build`
 
+- Build the rust project in the current directory using the nightly compiler:
+
+`cargo +nightly build`
+
 - Build using a specific number of threads (default is the number of CPU cores):
 
 `cargo build --jobs {{number_of_threads}}`
