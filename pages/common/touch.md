@@ -7,14 +7,14 @@
 
 `touch {{path/to/file1 path/to/file2 ...}}`
 
-- Set the file access/modification times to the current one:
+- Set the file [a]ccess or [m]odification times to the current one and don't [c]reate file if it doesn't exist:
 
-`touch --no-create --time={{access|modify}} {{path/to/file1 path/to/file2 ...}}`
+`touch -c -{{a|m}} {{path/to/file1 path/to/file2 ...}}`
 
-- Set the file [t]ime to a specific value:
+- Set the file [t]ime to a specific value and don't [c]reate file if it doesn't exist:
 
-`touch --no-create --time={{access}} -t {{YYYYMMDDHHMM.SS}} {{path/to/file1 path/to/file2 ...}}`
+`touch -c -t {{YYYYMMDDHHMM.SS}} {{path/to/file1 path/to/file2 ...}}`
 
-- Set the file time of a specific file to the time of another file:
+- Set the file time of a specific file to the time of anothe[r] file and don't [c]reate file if it doesn't exist:
 
-`touch --no-create --time={{access}} --reference={{~/.emacs}} {{path/to/file1 path/to/file2 ...}}`
+`touch -c -r {{~/.emacs}} {{path/to/file1 path/to/file2 ...}}`
