@@ -19,3 +19,7 @@
 - Skip a commit during a bisect (e.g. one that fails the tests due to a different issue):
 
 `git bisect skip`
+
+- Display a log of what has been done so far:
+
+`git bisect log`
