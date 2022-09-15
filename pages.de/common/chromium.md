@@ -29,7 +29,7 @@
 
 - Öffne Chromium ohne CORS-Verifizierung (nützlich, um eine API zu testen):
 
-`chromium --user-data-dir={pfad/zu/verzeichnis} --disable-web-security`
+`chromium --user-data-dir={{pfad/zu/verzeichnis}} --disable-web-security`
 
 - Öffne Chromium mit einem `DevTools`-Fenster für jeden geöffneten Tab:
 
