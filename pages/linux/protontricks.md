@@ -23,6 +23,6 @@
 
 `protontricks -l`
 
-- Search for a game's App ID by entering it's name:
+- Search for a game's App ID by name:
 
 `protontricks -s {{Game_Name}}`
