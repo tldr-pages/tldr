@@ -3,13 +3,9 @@
 > Open-Source-Webbrowser von Google.
 > Weitere Informationen: <https://www.chromium.org/developers/how-tos/run-chromium-with-flags/>.
 
-- Öffne eine html-Datei:
+- Öffne eine bestimmte Datei oder URL:
 
-`chromium {{pfad/zu/datei.html}}`
-
-- Öffne eine bestimmte URL:
-
-`chromium {{beispiel.com}}`
+`chromium {{https://beispiel.com|pfad/zu/datei.html}}`
 
 - Öffne eine URL im Inkognito-Modus:
 
@@ -26,3 +22,15 @@
 - Öffne eine URL und verwende einen Proxy-Server:
 
 `chromium --proxy-server="{{socks5://hostname:66}}" {{beispiel.com}}`
+
+- Öffne Chromium mit einem eigenen Profil-Verzeichnis:
+
+`chromium --user-data-dir={{pfad/zu/verzeichnis}}`
+
+- Öffne Chromium ohne CORS-Verifizierung (nützlich, um eine API zu testen):
+
+`chromium --user-data-dir={{pfad/zu/verzeichnis}} --disable-web-security`
+
+- Öffne Chromium mit einem `DevTools`-Fenster für jeden geöffneten Tab:
+
+`chromium --auto-open--devtools-for-tabs`

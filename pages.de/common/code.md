@@ -3,26 +3,34 @@
 > Visual Studio Code.
 > Weitere Informationen: <https://github.com/microsoft/vscode>.
 
-- Öffne VS Code:
+- Öffne Visual Studio Code:
 
 `code`
 
-- Öffne das aktuelle Verzeichnis in VS Code:
+- Öffne bestimmte Dateien und/oder Verzeichnisse:
 
-`code .`
+`code {{pfad/zu/datei_oder_verzeichnis1 pfad/zu/datei_oder_verzeichnis2 ...}}`
 
-- Öffne eine bestimmte Datei oder Verzeichnis in VS Code:
+- Vergleiche zwei bestimmte Dateien:
 
-`code {{pfad/zu/datei_oder_verzeichnis}}`
+`code --diff {{pfad/zu/datei1}} {{pfad/zu/datei2}}`
 
-- Öffne eine Datei oder ein Verzeichnis im aktuell geöffnetem VS Code Fenster:
+- Öffne bestimmte Dateien und/oder Verzeichnisse in einem neuen Fenster:
 
-`code --reuse-window {{pfad/zu/datei_oder_verzeichnis}}`
+`code --new-window {{pfad/zu/datei_oder_verzeichnis1 pfad/zu/datei_oder_verzeichnis2 ...}}`
 
-- Öffne mehrere Dateien in VS Code:
+- Installiere oder lösche bestimmte Erweiterung:
 
-`code -d {{pfad/zu/datei1}} {{pfad/zu/datei2}}`
+`code --{{install|uninstall}}-extension {{herausgeber.erweiterung}}`
 
-- Öffne VS Code root:
+- Liste alle installierten Erweiterungen auf:
 
-`sudo code {{pfad/zu/datei_oder_verzeichnis}} --user-data-dir`
+`code --list-extensions`
+
+- Liste alle installierten Erweiterungen und deren Version auf:
+
+`code --list-extensions --show-versions`
+
+- Starte Visual Studio Code als Superuser und speichere Benutzerdaten in einem bestimmten Verzeichnis:
+
+`sudo code --user-data-dir {{pfad/zu/verzeichnis}}`
