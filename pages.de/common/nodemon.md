@@ -19,6 +19,14 @@
 
 `nodemon {{pfad/zu/datei.js}} {{argumente}}`
 
+- Übergib Argumente an node selbst, wenn sie nicht bereits Argumente von nodemon sind (z.B. `--inspect`):
+
+`nodemon {{argumente}} {{pfad/zu/datei.js}}`
+
 - Führe Nicht-Node Skripte aus:
 
-`nodemon --exec "{{python --verbose}}" {{pfad/zu/datei.py}}`
+`nodemon --exec "{{befehl_um_skript_auszuführen}} {{argumente}}" {{pfad/zu/skript}}`
+
+- Führe ein Python-Skript aus:
+
+`nodemon --exec "python {{argumente}}" {{pfad/zu/datei.py}}`

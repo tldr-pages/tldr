@@ -26,3 +26,11 @@
 - Führe einen Befehl in einem neuen Container mit veröffentlichten Ports aus:
 
 `docker run --publish {{host_port}}:{{container_port}} {{image}} {{befehl}}`
+
+- Führe einen Befehl in einem neuen Container aus und überschreibe den Einstiegspunkt des Images:
+
+`docker run --entrypoint {{befehl}} {{image}}`
+
+- Führe einen Befehl in einem neuen Container aus und verbinde ihn mit einem Netzwerk:
+
+`docker run --network {{netzwerk}} {{image}}`
