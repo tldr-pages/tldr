@@ -27,4 +27,3 @@
 - 在给定参数条件下，执行 git 的子命令:
 
 `git -c 'config.key=value' {{子命令}}`
-
