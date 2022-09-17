@@ -13,7 +13,7 @@
 `git --help`
 
 - 显示 git 子命令的详细帮助文档（如 clone, add, push, log 等子命令）:
-    
+
 `git help {{子命令}}`
 
 - 执行 git 的子命令:
@@ -27,3 +27,4 @@
 - 在给定参数条件下，执行 git 的子命令:
 
 `git -c 'config.key=value' {{子命令}}`
+
