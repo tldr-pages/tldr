@@ -8,6 +8,6 @@
 
 `git browse-ci`
 
-- Opn the current `git` repository's CI configuration on its upstream website for a specific remote:
+- Open the current `git` repository's CI configuration on its upstream website for a specific remote:
 
 `git browse-ci {{remote}}`
