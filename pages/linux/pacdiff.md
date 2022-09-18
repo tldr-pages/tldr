@@ -1,7 +1,7 @@
 # pacdiff
 
 > Pacorig, pacnew and pacsave maintenance utility for pacman.
-> More information: <https://manned.org/pacdiff>.
+> More information: <https://man.archlinux.org/man/pacdiff>.
 
 - Look for files that need maintenance:
 
