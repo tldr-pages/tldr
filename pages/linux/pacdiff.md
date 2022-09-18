@@ -13,15 +13,11 @@
 
 - Store the original version of any file you `(O)verwrite with` as a `.bak`:
 
-`pacdiff --backup`
+`pacdiff -s --backup`
 
 - Override the program for `(M)erge`ing changes (`vim -d` is default):
 
 `DIFFPROG={{meld}} pacdiff`
-
-- Find files that need maintenance, apply changes with sudo/sudoedit, and keep backups:
-
-`pacdiff --backup --sudo`
 
 - Scan for files with `locate` instead of searching pacmandb to find untracked files:
 
