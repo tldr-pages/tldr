@@ -3,10 +3,6 @@
 > A simple wrapper that runs Winetricks commands for Proton enabled games.
 > More information: <https://github.com/Matoking/protontricks>.
 
-- Show the protontricks help message:
-
-`protontricks --help`
-
 - Run the protontricks GUI:
 
 `protontricks --gui`
@@ -26,3 +22,7 @@
 - [s]earch for a game's App ID by name:
 
 `protontricks -s {{game_name}}`
+
+- Show the protontricks help message:
+
+`protontricks --help`
