@@ -33,4 +33,4 @@
 
 - 使用SSH命令克隆一个现有的代码库：
 
-`git clone --config core.sshCommand="{{ssh -i path/to/private_ssh_key}}" {{remote_repository_location}}`
+`git clone --config core.sshCommand="{{ssh -i 路径/到/ssh_私钥}}" {{远程代码库地址}}`
