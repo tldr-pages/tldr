@@ -19,10 +19,10 @@
 
 `protontricks -c {{command}} {{appid}}`
 
-- List all installed games:
+- [l]ist all installed games:
 
 `protontricks -l`
 
-- Search for a game's App ID by name:
+- [s]earch for a game's App ID by name:
 
-`protontricks -s {{Game_Name}}`
+`protontricks -s {{game_name}}`
