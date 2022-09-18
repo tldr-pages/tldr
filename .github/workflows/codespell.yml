@@ -1,0 +1,25 @@
+name: Codespell
+
+on: ['pull_request']
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v26.1
+        with:
+          # Ignore all other languages except English
+          files_ignore: pages.*/*/* 
+        
+      - uses: codespell-project/actions-codespell@master
+        with:
+          ignore_words_file: .github/codespell-ignore
+          # Exit with 0 regardless of typos.
+          only_warn: 1 
+          # Only check files in the PR
+          path: ${{ steps.changed-files.outputs.all_changed_files }} 
