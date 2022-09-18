@@ -3,7 +3,7 @@
 > Pacorig, pacnew and pacsave maintenance utility for pacman.
 > More information: <https://man.archlinux.org/man/pacdiff>.
 
-- Look for files that need maintenance:
+- Review files that need maintenance in interactive mode:
 
 `pacdiff`
 
