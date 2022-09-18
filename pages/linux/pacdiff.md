@@ -17,7 +17,7 @@
 
 - Override the program for `(M)erge`ing changes (`vim -d` is default):
 
-`DIFFPROG={{meld}} pacdiff`
+`DIFFPROG={{editor}} pacdiff`
 
 - Scan for files with `locate` instead of searching pacmandb to find untracked files:
 
