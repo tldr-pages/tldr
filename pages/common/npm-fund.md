@@ -3,14 +3,14 @@
 > Retrive funding information.
 > More information: <https://docs.npmjs.com/cli/v8/commands/npm-fund>.
 
-- List information on funding dependencies of the current project:
+- List dependencies with funding URL for the project in the current directory:
 
 `npm fund`
 
-- Fund a specific package:
+- Open the funding URL for a specific package in the default web browser:
 
 `npm fund {{package}}`
 
-- Fund dependencies by filtering a specific [w]orkspace in the current project:
+- List dependencies with a funding URL for a specific [w]orkspace for the project in the current directory:
 
 `npm fund -w {{workspace}}`
