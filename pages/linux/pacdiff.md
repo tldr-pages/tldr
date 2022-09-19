@@ -15,7 +15,7 @@
 
 `pacdiff --sudo --backup`
 
-- Override the program for `(M)erge`ing changes (`vim -d` is default):
+- Use a specific editor to view and merge configuration files (default is `vim -d`):
 
 `DIFFPROG={{editor}} pacdiff`
 
