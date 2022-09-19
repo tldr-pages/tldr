@@ -13,7 +13,7 @@
 
 - Store the original version of any file you `(O)verwrite with` as a `.bak`:
 
-`pacdiff -s --backup`
+`pacdiff --sudo --backup`
 
 - Override the program for `(M)erge`ing changes (`vim -d` is default):
 
