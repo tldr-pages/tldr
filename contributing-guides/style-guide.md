@@ -101,8 +101,8 @@ Example:
 
 `tldr vim`
 
-Pre-translated alias page templates can be found [here](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/alias-pages.md).
 ```
+- Pre-translated alias page templates can be found [here](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/alias-pages.md).
 
 ## Token syntax
 
@@ -185,7 +185,7 @@ This can be resolved by inserting a comma before the "and" or "or" in the final 
 
 On the `More information` line, prefer linking to the author's provided documentation.
 
-When not available, use <https://manned.org/> as the default fallback. 
+When not available, use <https://manned.org> as the default fallback. 
 
 ## Chinese-Specific Rules
 
@@ -210,4 +210,4 @@ The following guidelines are applied to Chinese (zh) and traditional Chinese (zh
 
 In order to maintain readability and normalization, please comply the 6 rules above as much as possible when translating pages into Chinese.
 
-For more information and examples of Chinese-specific rules, check out [*Chinese Copywriting Guidelines*](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.en-US.md).
+For more information and examples of Chinese-specific rules, check out [*Chinese Copywriting Guidelines*](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.en.md).
