@@ -19,7 +19,7 @@
 
 `DIFFPROG={{editor}} pacdiff`
 
-- Scan for files with `locate` instead of searching pacmandb to find untracked files:
+- Scan for configuration files with `locate` instead of using pacman database:
 
 `pacdiff --locate`
 
