@@ -1,7 +1,7 @@
 # git pull
 
 > 从远程代码库拉取分支，并将其合并到本地代码库。
-> 更多信息: <https://git-scm.com/docs/git-pull>.
+> 更多信息：<https://git-scm.com/docs/git-pull>.
 
 - 从默认的远程分支中拉取代码并执行合并：
 
