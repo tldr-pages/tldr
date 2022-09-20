@@ -4,7 +4,7 @@
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-browse-ci>.
 
-- Open the current `git` repository's CI configuration on its upstream website:
+- Open the current repository's CI configuration on its upstream website:
 
 `git browse-ci`
 
