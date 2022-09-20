@@ -20,7 +20,7 @@
 
 `g++ {{path/to/source.cpp}} -o {{path/to/output_executable}} -I{{path/to/header}} -L{{path/to/library}} -l{{library_name}}`
 
-- Compile and link multiple source code files into executable binary:
+- Compile and link multiple source code files into an executable binary:
 
 `g++ -c {{path/to/source_1.cpp path/to/source_2.cpp ...}} && g++ -o {{path/to/output_executable}} {{path/to/source_1.o path/to/source_2.o ...}}`
 
