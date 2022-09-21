@@ -5,12 +5,12 @@
 
 - Copier un fichier ou un répertoire de l'hôte vers un conteneur :
 
-`docker cp {{path/to/file_or_directory_on_host}} {{container_name}}:{{path/to/file_or_directory_in_container}}`
+`docker cp {{chemin/vers/le_fichier_ou_le_dossier_de_l_hote} {{nom_du_conteneur}}:{{chemin/vers/le_fichier_ou_le_dossier_de_conteneur}}`
 
 - Copier un fichier ou un répertoire d'un conteneur vers l'hôte :
 
-`docker cp {{container_name}}:{{path/to/file_or_directory_in_container}} {{path/to/file_or_directory_on_host}}`
+`docker cp {{nom_du_conteneur}}:{{chemin/vers/le_fichier_ou_le_dossier_de_conteneur}} {{chemin/vers/le_fichier_ou_le_dossier_de_l_hote}`
 
 - Copier un fichier ou un répertoire de l'hôte vers un conteneur, en suivant les liens symboliques (copie les fichiers liés directement, pas les liens symboliques eux-mêmes) :
 
-`docker cp --follow-link {{path/to/symlink_on_host}} {{container_name}}:{{path/to/file_or_directory_in_container}}`
+`docker cp --follow-link {{chemin/vers/le_lien_symbolique_de_l_hote}} {{nom_du_conteneur}}:{{chemin/vers/le_fichier_ou_le_dossier_de_conteneur}}`
