@@ -1,0 +1,16 @@
+# latexdiff
+
+> Determine differences between two LaTeX files.
+> More information: <https://ctan.org/pkg/latexdiff>.
+
+- Determine changes between different versions of a LaTeX file. The resulting LaTeX file can be compiled and shows differences underlined:
+
+`latexdiff {{old.tex}} {{new.tex}} > {{diff.tex}}`
+
+- Determine changes between different versions of a LaTeX file. Differences are highlighted in boldface:
+
+`latexdiff --type=BOLD {{old.tex}} {{new.tex}} > {{diff.tex}}`
+
+- Determine changes between different versions of a LaTeX file, show minor changes in equations and and both added and deleted graphics:
+
+`latexdiff --math-markup=fine --graphics-markup=both {{old.tex}} {{new.tex}} > {{diff.tex}}`
