@@ -11,14 +11,14 @@
 
 `brittany --write-mode=inplace {{*.hs}}`
 
-- Check whether a Haskell source file needs changes; indicate the result through the exit code.
+- Check whether a Haskell source file needs changes; indicate the result through the exit code:
 
 `brittany --check-mode {{file.hs}}`
 
-- Format a Haskell source file using the specified amount of spaces per indentation level and line length.
+- Format a Haskell source file using the specified amount of spaces per indentation level and line length:
 
 `brittany --indent {{4}} --columns {{100}} {{file.hs}}`
 
-- Format a Haskell source file according to the style defined in the specified config file.
+- Format a Haskell source file according to the style defined in the specified config file:
 
 `brittany --config-file {{config.yaml}} {{file.hs}}`
