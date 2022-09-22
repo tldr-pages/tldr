@@ -5,7 +5,7 @@
 
 - Download a Course:
 
-`llvd -c "course-slug" --cookies`
+`llvd -c {{course-slug}} --cookies`
 
 - Download a Path with throttling:
 
