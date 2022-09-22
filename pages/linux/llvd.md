@@ -9,7 +9,7 @@
 
 - Download a Path with throttling:
 
-`llvd -p "path-slug" -t 10,30 --cookies`
+`llvd -p {{path-slug}} -t {{10,30}} --cookies`
 
 - Download Captions (Option):
 
