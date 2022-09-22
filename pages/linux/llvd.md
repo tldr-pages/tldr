@@ -7,7 +7,7 @@
 
 `llvd -c {{course-slug}} --cookies`
 
-- Download a Path with throttling:
+- Download a course [p]ath with [t]hrottling between 10 to 30 seconds:
 
 `llvd -p {{path-slug}} -t {{10,30}} --cookies`
 
