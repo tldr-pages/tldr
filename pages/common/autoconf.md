@@ -3,7 +3,7 @@
 > Generate configuration scripts to automatically configure software source code packages.
 > More information: <https://www.gnu.org/software/autoconf>.
 
-- Generate a configuration script from `configure.ac` (if present) or `configure.in`; save this script to `configure`:
+- Generate a configuration script from `configure.ac` (if present) or `configure.in` and save this script to `configure`:
 
 `autoconf`
 
