@@ -11,6 +11,6 @@
 
 `latexdiff --type=BOLD {{old.tex}} {{new.tex}} > {{diff.tex}}`
 
-- Determine changes between different versions of a LaTeX file, show minor changes in equations and and both added and deleted graphics:
+- Determine changes between different versions of a LaTeX file, and display minor changes in equations with both added and deleted graphics:
 
 `latexdiff --math-markup=fine --graphics-markup=both {{old.tex}} {{new.tex}} > {{diff.tex}}`
