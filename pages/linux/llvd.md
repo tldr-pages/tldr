@@ -3,7 +3,7 @@
 > Linkedin Learning Video Downloader.
 > More information: <https://github.com/knowbee/llvd>.
 
-- Download a Course:
+- Download an [c]ourse using cookie-based authentication:
 
 `llvd -c {{course-slug}} --cookies`
 
