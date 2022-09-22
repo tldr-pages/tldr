@@ -13,7 +13,7 @@
 
 - Download a course with [c]aptions(subtitles):
 
- `llvd -c {{course-slug}} --caption`
+`llvd -c {{course-slug}} --caption`
  
 - Download a course [p]ath with [t]hrottling between 10 to 30 seconds:
 
