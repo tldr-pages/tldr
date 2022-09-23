@@ -20,4 +20,3 @@
 `llvd -p {{path-slug}} -t {{10,30}} --cookies`
 
 `llvd --caption`
-- Set Video resolution (Option):
