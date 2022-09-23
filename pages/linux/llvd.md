@@ -11,7 +11,7 @@
 
 `llvd -c {{course-slug}} -r 720`
 
-- Download a course with [c]aptions(subtitles):
+- Download a course with [c]aptions (subtitles):
 
 `llvd -c {{course-slug}} --caption`
 
