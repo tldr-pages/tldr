@@ -3,7 +3,7 @@
 > Determine differences between two LaTeX files.
 > More information: <https://ctan.org/pkg/latexdiff>.
 
-- Determine changes between different versions of a LaTeX file. The resulting LaTeX file can be compiled and shows differences underlined:
+- Determine changes between different versions of a LaTeX file (The resulting LaTeX file can be compiled to show differences underlined.):
 
 `latexdiff {{old.tex}} {{new.tex}} > {{diff.tex}}`
 
