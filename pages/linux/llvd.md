@@ -21,4 +21,3 @@
 
 `llvd --caption`
 - Set Video resolution (Option):
-`llvd --resolution`
