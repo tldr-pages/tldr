@@ -1,8 +1,8 @@
 # fastfetch
 
 > A neofetch-like tool but, faster & prettier.
-> More information: <https://github.com/LinusDierheimer/fastfetch>.
 > Modify ~/.config/fastfetch/config.conf for persistent flags.
+> More information: <https://github.com/LinusDierheimer/fastfetch>.
 
 - Display system information as configured in ~/.config/fastfetch/config.conf:
 
