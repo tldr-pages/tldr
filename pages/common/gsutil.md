@@ -10,7 +10,7 @@
 
 - List the objects in a bucket:
 
-`gsutil ls -r gs://{{bucket_name}}/{{prefix}}**`
+`gsutil ls -r 'gs://{{bucket_name}}/{{prefix}}**'`
 
 - Download an object from a bucket:
 
