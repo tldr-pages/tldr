@@ -19,6 +19,10 @@
 
 `fdupes {{directory1}} -R {{directory2}}`
 
+- Search recursively and replace duplicates with hardlinks:
+
+`fdupes -rH {{directory}}`
+
 - Search recursively for duplicates and display interactive prompt to pick which ones to keep, deleting the others:
 
 `fdupes -rd {{directory}}`
