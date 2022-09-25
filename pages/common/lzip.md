@@ -34,4 +34,4 @@
 
 - List files which are in an archive and show compression stats:
 
-`lzip --list {{path/to/archive.lz}}
+`lzip --list {{path/to/archive.lz}}`
