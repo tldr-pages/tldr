@@ -11,7 +11,7 @@
 
 `pacdiff --sudo`
 
-- Store the original version of any file you `(O)verwrite with` as a `.bak`:
+- Review pacfiles, creating `.bak`ups of the original when you `(O)verwrite with`:
 
 `pacdiff --sudo --backup`
 
