@@ -1,8 +1,7 @@
 # rfetch
 
-> A neofetch-like tool but, faster & prettier.
-> More information: <https://github.com/LinusDierheimer/fastfetch>.
-> Modify ~/.config/fastfetch/config.conf for persistent flags.
+> A fast, pretty, and configurable fetch program to output system information.
+> More information: <https://github.com/kamui-fin/rfetch>.
 
 - Display system information:
 
