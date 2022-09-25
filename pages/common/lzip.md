@@ -1,10 +1,10 @@
 # lzip
 
-> Lzip is a lossless data compressor with a user interface similar to the one of gzip or bzip2.
+> Lzip is a lossless data compressor with a user interface similar to gzip or bzip2.
 > Lzip uses a simplified form of the "Lempel-Ziv-Markovchain-Algorithm"z (LZMA) stream format and provides a 3 factor integrity checking to maximize interoperability and optimize safety.
 > More information: <https://www.nongnu.org/lzip>.
 
-- Archive a file, replacing it with an lzipped compressed version:
+- Archive a file, replacing it with with a compressed version:
 
 `lzip {{path/to/file}}`
 
@@ -22,16 +22,16 @@
 
 - Test the integrity of compressed file:
 
-`lzip --test {{compressed.ext}}.lz`
+`lzip --test {{path/to/archive.lz}}`
 
 - Decompress a file, replacing it with the original uncompressed version:
 
-`lzip -d {{compressed.ext}}.lz`
+`lzip -d {{path/to/archive.lz}}`
 
 - Decompress a file, keeping the archive:
 
-`lzip -d -k {{compressed.ext}}.lz`
+`lzip -d -k {{path/to/archive.lz}}
 
 - List files which are in an archive and show compression stats:
 
-`lzip --list {{compressed.ext}}.lz`
+`lzip --list {{path/to/archive.lz}}
