@@ -1,6 +1,7 @@
 # networksetup
 
 > 网络系统首选项配置工具。
+> 更多信息：<https://support.apple.com/guide/remote-desktop/about-networksetup-apdd0c5a2d5/mac>.
 
 - 列出可用的网络服务源（以太网、Wi-Fi、蓝牙等）：
 
@@ -14,6 +15,6 @@
 
 `networksetup -getairportnetwork {{en0}}`
 
-- 连接到给定的 Wi-Fi 网络 Connect to a particular Wi-Fi network:
+- 连接到给定的 Wi-Fi 网络 Connect to a particular Wi-Fi network：
 
 `networksetup -setairportnetwork {{en0}} "{{无线网 SSID}}" {{密码}}`

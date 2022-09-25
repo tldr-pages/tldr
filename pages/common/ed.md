@@ -1,36 +1,33 @@
 # ed
 
 > The original Unix text editor.
+> See also: `awk`, `sed`.
 > More information: <https://www.gnu.org/software/ed/manual/ed_manual.html>.
 
-- Start ed, editing an empty document (which can be saved as a new file in the current directory):
+- Start an interactive editor session with an empty document:
 
 `ed`
 
-- Start ed, editing an empty document, with `:` as a command prompt indicator:
+- Start an interactive editor session with an empty document and a specific prompt:
 
-`ed -p :`
+`ed --prompt='> '`
 
-- Start ed editing an existing file (this shows the byte count of the loaded file):
+- Start an interactive editor session with user-friendly errors:
 
-`ed -p : {{path/to/file}}`
+`ed --verbose`
 
-- Toggle the printing of error explanations. (By default, explanations are not printed and only a `?` appears):
+- Start an interactive editor session with an empty document and without diagnostics, byte counts and '!' prompt:
 
-`H`
+`ed --quiet`
 
-- Add text to the current document. Mark completion by entering a period by itself in a new line:
+- Start an interactive editor session without exit status change when command fails:
 
-`a<Enter>{{text_to_insert}}<Enter>.`
+`ed --loose-exit-status`
 
-- Print the entire document (`,` is a shortcut to the range `1,$` which covers the start to the end of the document):
+- Edit a specific file (this shows the byte count of the loaded file):
 
-`,p`
+`ed {{path/to/file}}`
 
-- Write the current document to a new file (the filename can be omitted if `ed` was called with an existing file):
+- Replace a string with a specific replacement for all lines:
 
-`w {{filename}}`
-
-- Quit ed:
-
-`q`
+`,s/{{regular_expression}}/{{replacement}}/g`

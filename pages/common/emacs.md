@@ -12,6 +12,10 @@
 
 `emacs +{{line_number}} {{path/to/file}}`
 
+- Run an Emacs Lisp file as a script:
+
+`emacs --script {{path/to/file.el}}`
+
 - Start Emacs in console mode (without an X window):
 
 `emacs --no-window-system`

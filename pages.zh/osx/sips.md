@@ -2,6 +2,7 @@
 
 > 苹果的处理文件脚本系统。
 > 光栅 / 查询图像 和 颜色同步 ICC 配置文件。
+> 更多信息：<https://ss64.com/osx/sips.html>.
 
 - S 指定一个输出目录，这样原始文件就不会被修改：
 
@@ -19,7 +20,7 @@
 
 `sips --resampleWidth {{960}} {{目标 / 文件夹 / 所有图片文件}}`
 
-- 将图像从 CMYK 转换为 RGB:
+- 将图像从 CMYK 转换为 RGB：
 
 `sips --matchTo '/System/Library/ColorSync/Profiles/Generic RGB Profile.icc' {{目标 / 文件夹 / 图片。扩展}} {{目标 / 文件夹 / 输出文件夹}}`
 

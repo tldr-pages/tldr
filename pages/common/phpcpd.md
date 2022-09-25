@@ -3,11 +3,11 @@
 > A copy and paste detector for PHP code.
 > More information: <https://github.com/sebastianbergmann/phpcpd>.
 
-- Analyse duplicated code for a specific file or directory:
+- Analyze duplicated code for a specific file or directory:
 
 `phpcpd {{path/to/file_or_directory}}`
 
-- Analyse using fuzzy matching for variable names:
+- Analyze using fuzzy matching for variable names:
 
 `phpcpd --fuzzy {{path/to/file_or_directory}}`
 

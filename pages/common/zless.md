@@ -1,8 +1,8 @@
 # zless
 
-> View compressed files.
+> View `gzip` and `xz` compressed files.
 > More information: <https://manned.org/zless>.
 
-- Page through a compressed archive with `less`:
+- Page through a `gzip` compressed file with `less`:
 
 `zless {{file.txt.gz}}`

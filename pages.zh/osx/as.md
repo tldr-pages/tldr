@@ -4,7 +4,7 @@
 > 主要用于汇编 `gcc` 的输出以供 `ld` 使用。
 > 更多信息：<https://www.unix.com/man-page/osx/1/as/>.
 
-- 汇编文件，将输出写入 a.out:
+- 汇编文件，将输出写入 a.out：
 
 `as {{文件.s}}`
 

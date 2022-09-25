@@ -9,8 +9,4 @@
 
 - Print the current directory, and resolve all symlinks (i.e. show the "physical" path):
 
-`pwd --physical`
-
-- Print the current logical directory:
-
-`pwd --logical`
+`pwd -P`

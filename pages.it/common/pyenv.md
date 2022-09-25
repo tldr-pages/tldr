@@ -11,6 +11,10 @@
 
 `pyenv versions`
 
+- Elenca tutte le versioni di Python che possono essere installate da upstream:
+
+`pyenv install --list`
+
 - Installa una distribuzione di Python nella cartella `${PYENV_ROOT}/versions`:
 
 `pyenv install {{2.7.10}}`

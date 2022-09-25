@@ -12,7 +12,7 @@
 
 `aria2c {{http://mirror1.org/myLinux.iso}} {{http://mirror2.org/myLinux.iso}}`
 
-- 호스트당 2개의 연결을 사용하여 다운로드 :
+- 호스트당 2개의 연결을 사용하여 다운로드:
 
 `aria2c -x{{2}} {{http://example.org/myLinux.iso}}`
 

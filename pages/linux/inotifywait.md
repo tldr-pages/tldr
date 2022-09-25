@@ -3,26 +3,34 @@
 > Waits for changes to one or more files.
 > More information: <https://manned.org/inotifywait>.
 
-- Run a command when a file changes:
+- Watch a specific file for events, exiting after the first one:
 
-`while inotifywait {{path/to/file}}; do {{command}}; done`
+`inotifywait {{path/to/file}}`
 
-- Be quiet about watching for changes:
+- Continuously watch a specific file for events without exiting:
 
-`while inotifywait --quiet {{path/to/file}}; do {{command}}; done`
+`inotifywait --monitor {{path/to/file}}`
 
-- Watch a directory recursively for changes:
+- Watch a directory recursively for events:
 
-`while inotifywait --recursive {{path/to/directory}}; do {{command}}; done`
+`inotifywait --monitor --recursive {{path/to/directory}}`
 
-- Exclude files matching a regular expression:
+- Watch a directory for changes, excluding files, whose names match a regular expression:
 
-`while inotifywait --recursive {{path/to/directory}} --exclude '{{regular_expression}}'; do {{command}}; done`
+`inotifywait --monitor --recursive --exclude "{{regular_expression}}" {{path/to/directory}}`
 
-- Wait at most 30 seconds:
+- Watch a file for changes, exiting when no event occurs for 30 seconds:
 
-`while inotifywait --timeout {{30}} {{path/to/file}}; do {{command}}; done`
+`inotifywait --monitor --timeout {{30}} {{path/to/file}}`
 
-- Only watch for file modification events:
+- Only watch a file for file modification events:
 
-`while inotifywait --event {{modify}} {{path/to/file}}; do {{command}}; done`
+`inotifywait --event {{modify}} {{path/to/file}}`
+
+- Watch a file printing only events, and no status messages:
+
+`inotifywait --quiet {{path/to/file}}`
+
+- Run a command when a file is accessed:
+
+`inotifywait --event {{access}} {{path/to/file}} && {{command}}`

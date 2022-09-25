@@ -15,7 +15,7 @@
 
 `glab repo fork {{owner}}/{{repository}} --clone`
 
-- View a repository in the web browser:
+- View a repository in the default web browser:
 
 `glab repo view {{owner}}/{{repository}} --web`
 

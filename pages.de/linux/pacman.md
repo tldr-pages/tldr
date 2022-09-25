@@ -6,32 +6,32 @@
 
 - Synchronisiere und aktualisiere alle Pakete:
 
-`sudo pacman --sync --refresh --sysupgrade`
+`sudo pacman -Syu`
 
 - Installiere ein neues Paket:
 
-`sudo pacman --sync {{paketname}}`
+`sudo pacman -S {{paketname}}`
 
 - Entferne ein Paket und dessen Abhängigkeiten:
 
-`sudo pacman --remove --recursive {{paketname}}`
+`sudo pacman -Rs {{paketname}}`
 
 - Suche in der Paketdatenbank nach einem regulären Ausdruck oder Schlüsselwort:
 
-`pacman --sync --search "{{suchmuster}}"`
+`pacman -Ss "{{suchmuster}}"`
 
 - Liste alle installierten Pakete und dessen Versionen auf:
 
-`pacman --query`
+`pacman -Q`
 
 - Liste alle ausdrücklich installierten Pakete und dessen Versionen auf:
 
-`pacman --query --explicit`
+`pacman -Qe`
 
 - Zeige verwaiste Pakete an, welche als Abhängigkeiten installiert wurden, aber nicht mehr von anderen Paketen benötigt werden.
 
-`pacman --query --unrequired --deps --quiet`
+`pacman -Qtdq`
 
 - Leere den gesamten pacman Cache:
 
-`sudo pacman --sync --clean --clean`
+`sudo pacman -Scc`

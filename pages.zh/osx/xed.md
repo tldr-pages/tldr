@@ -1,8 +1,9 @@
 # xed
 
 > 用 Xcode 打开要编辑的文件。
+> 更多信息：<https://www.manpagez.com/man/1/xed/>.
 
-- 用 Xcode 打开文件 :
+- 用 Xcode 打开文件：
 
 `xed {{文件名}}`
 

@@ -31,6 +31,6 @@
 
 `asciinema cat {{文件路径}}.cast`
 
-- 从本地上传一个录屏到 asciinema.org:
+- 从本地上传一个录屏到 asciinema.org：
 
 `asciinema upload {{文件路径}}.cast`

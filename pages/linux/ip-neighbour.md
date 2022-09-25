@@ -1,4 +1,4 @@
-# ip-neighbour
+# ip neighbour
 
 > Neighbour/ARP tables management IP subcommand.
 > More information: <https://manned.org/ip-neighbour.8>.
