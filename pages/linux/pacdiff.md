@@ -11,7 +11,7 @@
 
 `pacdiff --sudo`
 
-- Review pacfiles, creating `.bak`ups of the original when you `(O)verwrite with`:
+- Review files needing maintenance, creating `.bak`ups of the original if you `(O)verwrite`:
 
 `pacdiff --sudo --backup`
 
