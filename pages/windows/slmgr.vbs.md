@@ -24,7 +24,7 @@
 
 `slmgr /ato`
 
-- [a]c[t]ivate the Windows [p]roduct license offline. Requires Administrator priviledges and an Confirmation ID provided by Microsoft Product Activation Center:
+- [a]c[t]ivate the Windows [p]roduct license offline. Requires Administrator privileges and an Confirmation ID provided by Microsoft Product Activation Center:
 
 `slmgr /atp {{confirmation_id}}`
 
