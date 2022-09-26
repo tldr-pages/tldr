@@ -1,6 +1,6 @@
 # rfetch
 
-> A fast, pretty, and configurable fetch program to output system information.
+> A configurable fetch program to output system information.
 > More information: <https://github.com/kamui-fin/rfetch>.
 
 - Display system information:
