@@ -16,11 +16,11 @@
 
 `slmgr /xpr`
 
-- [i]nstall a new Windows license [p]roduct [k]ey. Requires Administrator priviledges and will override your existing license:
+- [i]nstall a new Windows license [p]roduct [k]ey. Requires Administrator privileges and will override the existing license:
 
 `slmgr /ipk {{product_key}}`
 
-- [a]c[t]ivate the Windows product license [o]nline. Requires Administrator priviledges to do so:
+- [a]c[t]ivate the Windows product license [o]nline. Requires Administrator privileges to do so:
 
 `slmgr /ato`
 
