@@ -13,4 +13,4 @@
 
 - Show a summary of differences between files in JSON format using a specific column as an unique identifier:
 
-`csv-diff {{one.csv}} {{two.csv}} --key={{key}} --json`
+`csv-diff {{one.csv}} {{two.csv}} --key={{column_name}} --json`
