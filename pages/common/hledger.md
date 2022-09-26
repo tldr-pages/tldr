@@ -15,6 +15,6 @@
 
 `hledger incomestatement --monthly --depth 2`
 
-- Print the amount of cash spent on food.
+- Print the amount of cash spent on food:
 
 `hledger print assets:cash | hledger -f- -I balance expenses:food --depth 2`
