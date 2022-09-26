@@ -1,6 +1,7 @@
 # shc
 
 > Generic shell script compiler.
+> More information: <https://manned.org/shc>.
 
 - Compile a shell script:
 

@@ -3,7 +3,7 @@
 > A PHP framework for Behaviour-Driven Development.
 > More information: <https://behat.org>.
 
-- Initialise a new Behat project:
+- Initialize a new Behat project:
 
 `behat --init`
 

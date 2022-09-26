@@ -1,7 +1,7 @@
 # npm-check
 
 > Prüft veraltete, inkorrekte und nicht verwendete Abhängigkeiten.
-> Weitere Informationen: <https://www.npmjs.com/package/npm-check/>.
+> Weitere Informationen: <https://github.com/dylang/npm-check>.
 
 - Zeige einen Bericht von veralteten, inkorrekten und nicht verwendeten Abhängigkeiten:
 

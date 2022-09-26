@@ -1,6 +1,7 @@
 # shasum
 
 > 计算或检查加密 SHA 校验值。
+> 更多信息：<https://manned.org/shasum>.
 
 - 计算文件的 SHA1 校验值：
 

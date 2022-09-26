@@ -15,7 +15,7 @@
 
 `convert {{pfad/zu/bild.png}} -resize 640x480 {{pfad/zu/bild2.png}}`
 
-- Hänge Bilder horizontal aneinader:
+- Hänge Bilder horizontal aneinander:
 
 `convert {{pfad/zu/bild1.png}} {{pfad/zu/bild2.png}} {{pfad/zu/bild3.png}} +append {{pfad/zu/bild123.png}}`
 

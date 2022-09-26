@@ -1,33 +1,33 @@
 # bash
 
 > Bourne-Again SHell, an `sh`-compatible command-line interpreter.
-> See also `histexpand` for history expansion.
+> See also: `zsh`, `histexpand` (history expansion).
 > More information: <https://gnu.org/software/bash/>.
 
 - Start an interactive shell session:
 
 `bash`
 
-- Execute a command and then exit:
+- Start an interactive shell session without loading startup configs:
 
-`bash -c "{{command}}"`
+`bash --norc`
 
-- Execute a script:
+- Execute specific [c]ommands:
+
+`bash -c "{{echo 'bash is executed'}}"`
+
+- Execute a specific script:
 
 `bash {{path/to/script.sh}}`
 
-- Execute a script, printing each command before executing it:
+- Execute a specific script while printing each command before executing it:
 
 `bash -x {{path/to/script.sh}}`
 
-- Execute commands from a script, stopping at the first error:
+- Execute a specific script and stop at the first [e]rror:
 
 `bash -e {{path/to/script.sh}}`
 
-- Read and execute commands from stdin:
+- Execute specific commands from stdin:
 
-`bash -s`
-
-- Print the Bash version (`$BASH_VERSION` contains the version without license information):
-
-`bash --version`
+`{{echo "echo 'bash is executed'"}} | bash`

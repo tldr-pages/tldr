@@ -11,6 +11,10 @@
 
 `steam -console`
 
+- Enable and open the Steam console tab in a running Steam instance:
+
+`steam steam://open/console`
+
 - Log into Steam with the specified credentials:
 
 `steam -login {{username}} {{password}}`

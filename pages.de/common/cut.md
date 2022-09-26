@@ -3,26 +3,14 @@
 > Schneide Felder von stdin oder einer Datei aus.
 > Weitere Informationen: <https://www.gnu.org/software/coreutils/cut>.
 
-- Schneide die ersten 16 Zeichen jeder Zeile von stdin aus:
+- Schneide bestimmte Zeichen oder einen Feldbereich jeder Zeile aus:
 
-`cut -c {{1-16}}`
+`{{befehl}} | cut --{{characters|fields}}={{1|1,10|1-10|1-|-10}}`
 
-- Schneide die ersten 16 Zeichen jeder Zeile der angegebenen Datei aus:
+- Schneide einen bestimmten Bereich jeder Zeile mit einem bestimmten Trennzeichen aus:
 
-`cut -c {{1-16}} {{pfad/zu/datei}}`
+`{{befehl}} | cut --delimiter="{{,}} --{{characters}}={{1}}"`
 
-- Schneide alles ab dem dritten Zeichen bis zum Ende der Zeile aus:
+- Schneide einen bestimmten Bereich jeder Zeile einer bestimmten Datei aus:
 
-`cut -c {{3-}}`
-
-- Schneide das fünfte Feld jeder Zeile aus und nutze den Doppelpunkt als Trennzeichen (standardmäßig Tab):
-
-`cut -d'{{:}}' -f{{5}}`
-
-- Schneide das 2. und 10. Feld jeder Zeile aus und nutze Semikolon als Trennzeichen:
-
-`cut -d'{{;}}' -f{{2,10}}`
-
-- Schneide alles ab dem dritten Zeichen bis zum Ende der Zeile aus und nutze Leerzeichen als Trennzeichen:
-
-`cut -d'{{ }}' -f{{3-}}`
+`cut --{{characters}}={{1}} {{pfad/zu/datei}}`

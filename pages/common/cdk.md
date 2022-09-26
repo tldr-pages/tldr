@@ -29,4 +29,4 @@
 
 - Open the CDK API reference in your browser:
 
-`cdk doc`
+`cdk docs`

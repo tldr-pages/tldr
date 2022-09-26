@@ -2,7 +2,7 @@
 
 > Interface de linha de comando para AWS S3.
 > Provê armazenamento através de uma interface de web services.
-> Mais informações: <https://aws.amazon.com/cli>.
+> Mais informações: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/index.html>.
 
 - Exibe arquivos de um bucket:
 

@@ -1,7 +1,7 @@
 # apt
 
 > Servizio di gestione dei pacchetti per distribuzioni basate su Debian.
-> Rimpiazzo raccomandato di apt-get quando usato interattivamente su Ubuntu 16.04 e versioni successive.
+> Rimpiazzo raccomandato di `apt-get` quando usato interattivamente su Ubuntu 16.04 e versioni successive.
 > Maggiori informazioni: <https://manpages.debian.org/latest/apt/apt.8.html>.
 
 - Aggiorna la lista dei pacchetti e delle loro versioni disponibili (è consigliato eseguire questo comando prima di altri comandi `apt`):

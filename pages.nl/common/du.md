@@ -3,7 +3,7 @@
 > Disk gebruik: schat en groepeer bestand en directory ruimte gebruik.
 > Meer informatie: <https://www.gnu.org/software/coreutils/du>.
 
-- Toont de grootte van een directory en mogelijke sub-directories, met een gegeven eenheid (B/KB/MB):
+- Toont de grootte van een directory en mogelijke sub-directories, met een gegeven eenheid (B/KiB/MiB):
 
 `du -{{b|k|m}} {{pad/naar/directory}}`
 

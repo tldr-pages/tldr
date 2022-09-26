@@ -12,9 +12,13 @@
 
 `pip install {{nama_paket}}=={{versi_paket}}`
 
+- Memasang paket untuk hanya digunakan oleh pengguna saat ini:
+
+`pip install --user {{nama_paket}}`
+
 - Meningkatakan paket ke versi terbaru:
 
-`pip install -U {{nama_paket}}`
+`pip install --upgrade {{nama_paket}}`
 
 - Mencopot pemasangan paket:
 
@@ -26,7 +30,7 @@
 
 - Memasang paket dari berkas:
 
-`pip install -r {{requirements.txt}}`
+`pip install --requirement {{requirements.txt}}`
 
 - Menampilkan informasi paket terpasang:
 

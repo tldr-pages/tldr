@@ -1,7 +1,7 @@
 # npm-why
 
 > Identifies why an npm package is installed.
-> More information: <https://www.npmjs.com/package/npm-why>.
+> More information: <https://github.com/amio/npm-why>.
 
 - Show why an npm package is installed:
 

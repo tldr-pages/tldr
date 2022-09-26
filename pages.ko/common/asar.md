@@ -15,6 +15,6 @@
 
 `asar extract-file {{archived.asar}} {{file}}`
 
-- 보관소 파일의 내용을 나열 :
+- 보관소 파일의 내용을 나열:
 
 `asar list {{archived.asar}}`

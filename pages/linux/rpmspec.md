@@ -7,6 +7,10 @@
 
 `rpmspec --query {{path/to/rpm.spec}}`
 
+- List all options for `--queryformat`:
+
+`rpmspec --querytags`
+
 - Get summary information for single binary packages generated from a rpm spec file:
 
 `rpmspec --query --queryformat "{{%{name}: %{summary}\n}}" {{path/to/rpm.spec}}`

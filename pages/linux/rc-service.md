@@ -2,6 +2,7 @@
 
 > Locate and run OpenRC services with arguments.
 > See also `openrc`.
+> More information: <https://manned.org/rc-service>.
 
 - Show a service's status:
 
@@ -13,7 +14,7 @@
 
 - Stop a service:
 
-`sudo rc-servie {{service_name}} stop`
+`sudo rc-service {{service_name}} stop`
 
 - Restart a service:
 

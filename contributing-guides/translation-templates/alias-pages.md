@@ -8,7 +8,9 @@ The templates can be changed when necessary.
 
 [en](#en) •
 [ar](#ar) •
+[bn](#bn) •
 [bs](#bs) •
+[ca](#ca) •
 [da](#da) •
 [de](#de) •
 [es](#es) •
@@ -20,6 +22,7 @@ The templates can be changed when necessary.
 [ja](#ja) •
 [ko](#ko) •
 [ml](#ml) •
+[ne](#ne) •
 [nl](#nl) •
 [no](#no) •
 [pl](#pl) •
@@ -28,11 +31,13 @@ The templates can be changed when necessary.
 [ro](#ro) •
 [ru](#ru) •
 [sh](#sh) •
+[sr](#sr) •
 [sv](#sv) •
 [ta](#ta) •
 [th](#th) •
 [tr](#tr) •
 [uk](#uk) •
+[uz](#uz) •
 [zh](#zh) •
 [zh_TW](#zh_tw)
 
@@ -63,6 +68,11 @@ The templates can be changed when necessary.
 ```
 
 ---
+### bn
+
+Not translated yet.
+
+---
 ### bs
 
 ```markdown
@@ -71,6 +81,19 @@ The templates can be changed when necessary.
 > Ova komanda je pseudonim za `example`.
 
 - Pogledaj dokumentaciju za izvornu komandu:
+
+`tldr example`
+```
+
+---
+### ca
+
+```markdown
+# example
+
+> Aquest comandament és un àlies de `example`.
+
+- Veure documentació pel comandament original:
 
 `tldr example`
 ```
@@ -179,7 +202,15 @@ Not translated yet.
 ---
 ### ko
 
-Not translated yet.
+```markdown
+# example
+
+> 이 명령은 `example` 의 에일리어스 (별칭) 입니다.
+
+- 원본 명령의 도큐멘테이션 (설명서) 보기:
+
+`tldr example`
+```
 
 ---
 ### ml
@@ -190,6 +221,19 @@ Not translated yet.
 > ഈ കമാൻഡ് `example` എന്നത്തിന്റെ അപരനാമമാണ്.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
+
+`tldr example`
+```
+
+---
+### ne
+
+```markdown
+# example
+
+> यो आदेश `example` को उपनाम हो |
+
+- मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 
 `tldr example`
 ```
@@ -226,7 +270,7 @@ Not translated yet.
 ```markdown
 # example
 
-> Te polecenie jest aliasem `example`.
+> To polecenie jest aliasem `example`.
 
 - Zobacz dokumentację orginalnego polecenia:
 
@@ -249,7 +293,15 @@ Not translated yet.
 ---
 ### pt_PT
 
-Not translated yet.
+```markdown
+# example
+
+> Este comando é um alias de `example`.
+
+- Ver documentação do comando original:
+
+`tldr example`
+```
 
 ---
 ### ro
@@ -271,6 +323,11 @@ Not translated yet.
 
 ---
 ### sh
+
+Not translated yet.
+
+---
+### sr
 
 Not translated yet.
 
@@ -316,7 +373,15 @@ Not translated yet.
 ---
 ### tr
 
-Not translated yet.
+```markdown
+# example
+
+> Bu komut `example` için bir takma addır.
+
+- Asıl komutun belgelerini görüntüleyin:
+
+`tldr example`
+```
 
 ---
 ### uk
@@ -330,6 +395,11 @@ Not translated yet.
 
 `tldr example`
 ```
+
+---
+### uz
+
+Not translated yet.
 
 ---
 ### zh

@@ -9,7 +9,7 @@
 
 - Set an APF share or SMB share as the backup destination:
 
-`sudo tmutil setdestination {{protocol://user[:password]@host/share}}`
+`sudo tmutil setdestination "{{protocol://user[:password]@host/share}}"`
 
 - Append the given destination to the list of destinations:
 

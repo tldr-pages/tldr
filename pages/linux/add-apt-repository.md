@@ -15,6 +15,6 @@
 
 `add-apt-repository --update {{repository_spec}}`
 
-- Enable source packages:
+- Allow source packages to be downloaded from the repository:
 
 `add-apt-repository --enable-source {{repository_spec}}`

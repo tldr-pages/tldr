@@ -1,6 +1,7 @@
 # xsltproc
 
 > Transform XML with XSLT to produce output (usually HTML or XML).
+> More information: <http://www.xmlsoft.org/xslt/xsltproc.html>.
 
 - Transform an XML file with a specific XSLT stylesheet:
 
@@ -8,4 +9,4 @@
 
 - Pass a value to a parameter in the stylesheet:
 
-`xsltproc --output {{output.html}} --stringparam {{name}} {{value}} {{stylesheet.xslt}} {{xmlfile.xml}}`
+`xsltproc --output {{output.html}} --stringparam "{{name}}" "{{value}}" {{stylesheet.xslt}} {{xmlfile.xml}}`

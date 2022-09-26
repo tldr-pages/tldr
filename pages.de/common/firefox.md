@@ -11,7 +11,7 @@
 
 `firefox --new-window {{https://www.duckduckgo.com}}`
 
-- Öffne ein privates (Icognito) Fenster:
+- Öffne ein privates (Inkognito) Fenster:
 
 `firefox --private-window`
 

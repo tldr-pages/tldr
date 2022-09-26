@@ -25,4 +25,4 @@
 
 - Display help:
 
-`protonvpn connect --help`
+`protonvpn-cli connect --help`

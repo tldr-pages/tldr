@@ -31,3 +31,7 @@
 - Initialize a new Git repository (any changes done by pass will be committed automatically):
 
 `pass git init`
+
+- Run a Git command on behalf of the password storage:
+
+`pass git {{command}}`

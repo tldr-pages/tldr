@@ -1,6 +1,7 @@
 # pkgutil
 
 > Query and manipulate Mac OS X Installer packages and receipts.
+> More information: <https://ss64.com/osx/pkgutil.html>.
 
 - List package IDs for all installed packages:
 

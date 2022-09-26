@@ -4,30 +4,34 @@
 > Supports basic image editing, such as text, shapes, colors, and imgur.
 > More information: <https://flameshot.org>.
 
-- Launch flameshot with a simpler interactive mode:
-
-`flameshot launcher`
-
-- Launch flameshot and immediately start interactively annotating parts of the screen to screenshot:
-
-`flameshot gui`
-
-- Take a full screenshot (all monitors):
+- Create a fullscreen screenshot:
 
 `flameshot full`
 
-- Take a screenshot from monitor 1:
+- Create a screenshot interactively:
 
-`flameshot screen --number {{1}}`
+`flameshot gui`
 
-- Set the save path to write screenshots to:
+- Create a screenshot and save it to a specific path:
 
-`flameshot full --path {{path/to/directory}}`
+`flameshot gui --path {{path/to/directory}}`
 
-- Delay the screenshot for N milliseconds and output to clipboard:
+- Create a screenshot interactively in a simplified mode:
 
-`flameshot full --delay {{2000}} --clipboard`
+`flameshot launcher`
 
-- Take a screenshot and export it to standard-output:
+- Create a screenshot from a specific monitor:
+
+`flameshot screen --number {{2}}`
+
+- Create a screenshot and print it to the standard output:
 
 `flameshot gui --raw`
+
+- Create a screenshot and copy it to the clipboard:
+
+`flameshot gui --clipboard`
+
+- Create a screenshot with a specific delay in milliseconds:
+
+`flameshot full --delay {{5000}}`

@@ -2,6 +2,7 @@
 
 > Text user interface for controlling NetworkManager.
 > Use arrow keys to navigate, enter to select an option.
+> More information: <https://networkmanager.dev/docs/api/latest/nmtui.html>.
 
 - Open the user interface:
 

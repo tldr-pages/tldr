@@ -1,6 +1,7 @@
 # runuser
 
 > Run commands as a specific user and group without asking for password (needs root privileges).
+> More information: <https://manned.org/runuser>.
 
 - Run command as a different user:
 

@@ -6,12 +6,12 @@
   "repository": "tldr-pages/tldr",
   "homepage": "https://tldr.sh/",
   "dependencies": {
-    "glob": "7.1.7",
-    "markdownlint-cli": "0.27.1",
-    "tldr-lint": "~0.0.11"
+    "glob": "7.2.0",
+    "markdownlint-cli": "^0.31.1",
+    "tldr-lint": "^0.0.13"
   },
   "devDependencies": {
-    "husky": "^7.0.1"
+    "husky": "^7.0.4"
   },
   "scripts": {
     "lint-markdown": "markdownlint pages*/**/*.md",

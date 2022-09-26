@@ -1,25 +1,24 @@
 # groff
 
-> Typesetting program that reads plain text mixed with formatting commands and produces formatted output.
-> It is the GNU replacement for the `troff` and `nroff` Unix commands for text formatting.
+> GNU replacement for the `troff` and `nroff` typesetting utilities.
 > More information: <https://www.gnu.org/software/groff>.
 
-- Render a man page as plain text, and display the result:
+- Format output for a PostScript printer, saving the output to a file:
 
-`groff -man -T utf8 {{manpage.1}}`
+`groff {{path/to/input.roff}} > {{path/to/output.ps}}`
 
 - Render a man page using the ASCII output device, and display it using a pager:
 
-`groff -man -T ascii {{manpage.1}} | less`
+`groff -man -T ascii {{path/to/manpage.1}} | less --RAW-CONTROL-CHARS`
 
 - Render a man page into an HTML file:
 
-`groff -man -T html {{manpage.1}} > {{page.html}}`
+`groff -man -T html {{path/to/manpage.1}} > {{path/to/manpage.html}}`
 
-- Process a roff file using the `tbl` and `pic` preprocessors, and the `me` macro set:
+- Typeset a roff file containing [t]ables and [p]ictures, using the [me] macro set, to PDF, saving the output:
 
-`groff -t -p -me -T utf8 {{foo.me}}`
+`groff {{-t}} {{-p}} -{{me}} -T {{pdf}} {{path/to/input.me}} > {{path/to/output.pdf}}`
 
 - Run a `groff` command with preprocessor and macro options guessed by the `grog` utility:
 
-`eval "$(grog -T utf8 {{foo.me}})"`
+`eval "$(grog -T utf8 {{path/to/input.me}})"`

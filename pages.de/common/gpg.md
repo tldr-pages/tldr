@@ -24,7 +24,7 @@
 
 `gpg --decrypt {{doc.txt.gpg}}`
 
-- Importiere einen Öffentlichen Schlüssel:
+- Importiere einen öffentlichen Schlüssel:
 
 `gpg --import {{schlüssel.gpg}}`
 

@@ -2,6 +2,7 @@
 
 > Secure Shell est un protocole utilisé pour se connecter de façon sécurisée à des systèmes distants.
 > On peut l'utiliser pour se connecter ou exécuter des commandes sur un serveur distant.
+> Plus d'informations : <https://man.openbsd.org/ssh>.
 
 - Se connecter à un serveur distant :
 

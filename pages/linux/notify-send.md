@@ -1,6 +1,7 @@
 # notify-send
 
 > Uses the current desktop environment's notification system to create a notification.
+> More information: <https://manned.org/notify-send>.
 
 - Show a notification with the title "Test" and the content "This is a test":
 
@@ -14,6 +15,6 @@
 
 `notify-send -t 5000 "{{Test}}" "{{This is a test}}"`
 
-- Show a notification with an app's icon:
+- Show a notification with an app's icon and name:
 
-`notify-send "{{Test}}" --icon={{google-chrome}}`
+`notify-send "{{Test}}" --icon={{google-chrome}} --app-name="{{Google Chrome}}"`

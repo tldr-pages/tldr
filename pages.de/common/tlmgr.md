@@ -12,7 +12,7 @@
 
 `tlmgr remove {{package}}`
 
-- Zeige Informationen über ein Pagkage an:
+- Zeige Informationen über ein Package an:
 
 `tlmgr info {{package}}`
 
@@ -24,7 +24,7 @@
 
 `tlmgr update --list`
 
-- Starte die graphische Oberfläche von tlmgr:
+- Starte die grafische Oberfläche von tlmgr:
 
 `tlmgr gui`
 

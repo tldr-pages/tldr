@@ -19,7 +19,7 @@
 
 `ansible-vault encrypt_string`
 
-- Zeige eine verschlüsselten Datei an, wobei eine Kennwortdatei zum Entschlüsseln verwendet wird:
+- Zeige eine verschlüsselte Datei an, wobei eine Kennwortdatei zum Entschlüsseln verwendet wird:
 
 `ansible-vault view --vault-password-file={{schlüsseldatei}} {{vault_datei}}`
 

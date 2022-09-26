@@ -24,6 +24,6 @@
 
 `bat --language {{json}} {{pfad/zu/datei.json}}`
 
-- Zeige alle unterstüzten Sprachen an:
+- Zeige alle unterstützten Sprachen an:
 
 `bat --list-languages`

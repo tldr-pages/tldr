@@ -1,7 +1,7 @@
 # cd
 
 > தற்போதைய பணி அடைவின் பெயரைக் காட்டுகிறது அல்லது மாற்றுகிறது.
-> மேலும் தகவல்: <https://docs.microsoft.com/windows-server/administration/windows-commands/cd>.
+> மேலும் விவரத்திற்கு: <https://docs.microsoft.com/windows-server/administration/windows-commands/cd>.
 
 - அதே இயக்ககத்தில் ஒரு கோப்பகத்திற்குச் செல்லவும்:
 

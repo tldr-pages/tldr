@@ -7,26 +7,30 @@
 
 `fish`
 
-- Execute a command and then exit:
+- Start an interactive shell session without loading startup configs:
 
-`fish -c "{{command}}"`
+`fish --no-config`
 
-- Execute a script:
+- Execute specific commands:
+
+`fish --command "{{echo 'fish is executed'}}"`
+
+- Execute a specific script:
 
 `fish {{path/to/script.fish}}`
 
-- Check a script for syntax errors:
+- Check a specific script for syntax errors:
 
 `fish --no-execute {{path/to/script.fish}}`
+
+- Execute specific commands from stdin:
+
+`{{echo "echo 'fish is executed'"}} | fish`
 
 - Start an interactive shell session in private mode, where the shell does not access old history or save new history:
 
 `fish --private`
 
-- Display version information and exit:
+- Define and export an environmental variable that persists across shell restarts (builtin):
 
-`fish --version`
-
-- Set and export environmental variables that persist across shell restarts (from within the shell only):
-
-`set -Ux {{variable_name}} {{variable_value}}`
+`set --universal --export {{variable_name}} {{variable_value}}`

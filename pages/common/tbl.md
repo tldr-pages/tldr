@@ -1,24 +1,13 @@
 # tbl
 
-> Format tables for `troff`.
+> Table preprocessor for the groff (GNU Troff) document formatting system.
+> See also `groff` and `troff`.
 > More information: <https://manned.org/tbl>.
 
-- Format tables for `troff` and print it to stdout:
+- Process input with tables, saving the output for future typesetting with groff to PostScript:
 
-`cat {{path/to/file.troff}} | tbl`
+`tbl {{path/to/input_file}} > {{path/to/output.roff}}`
 
-- Format tables for `troff` in "compatibility mode":
+- Typeset input with tables to PDF using the [me] macro package:
 
-`cat {{path/to/file.troff}} | tbl -C`
-
-- Format tables for `troff` from a file:
-
-`tbl {{path/to/file.troff}}`
-
-- Mark the beginning of a table ("Table Start"):
-
-`.TS`
-
-- Mark the end of the table ("Table End"):
-
-`.TE`
+`tbl -T {{pdf}} {{path/to/input.tbl}} | groff -{{me}} -T {{pdf}} > {{path/to/output.pdf}}`

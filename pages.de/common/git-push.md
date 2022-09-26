@@ -11,15 +11,19 @@
 
 `git push {{remote_name}} {{lokaler_branch}}`
 
-- Lade den aktuellen Branches in ein entferntes Repository mit Angabe des Namens des entfernten Branches hoch:
+- Lade den aktuellen Branch in ein entferntes Repository mit Angabe des Namens des entfernten Branches hoch:
 
-`git push {{remote_name}} -u {{remote_branch}}`
+`git push -u {{remote_name}} {{remote_branch}}`
+
+- Lade Änderungen eines bestimmten lokalen Branches zu einem bestimmten entfernten Branch hoch:
+
+`git push {{remote_name}} {{lokaler_branch}}:{{entfernter_branch}}`
 
 - Lade Änderungen aller lokalen Branches zu ihrem entfernten Repository hoch:
 
 `git push --all {{remote_name}}`
 
-- Lösche einen Branches in einem entfernten Repository:
+- Lösche einen Branch in einem entfernten Repository:
 
 `git push {{remote_name}} --delete {{remote_branch}}`
 

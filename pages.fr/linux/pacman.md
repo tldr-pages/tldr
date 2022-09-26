@@ -6,15 +6,15 @@
 
 - Synchronise et mets à jour tous les paquets :
 
-`pacman -Syu`
+`sudo pacman -Syu`
 
 - Installe un nouveau paquet :
 
-`pacman -S {{nom_paquet}}`
+`sudo pacman -S {{nom_paquet}}`
 
 - Efface un paquet et ses dépendances :
 
-`pacman -Rs {{nom_paquet}}`
+`sudo pacman -Rs {{nom_paquet}}`
 
 - Recherche dans la base de données des paquets une expression régulière ou mot clé :
 
@@ -34,4 +34,4 @@
 
 - Vide le cache des paquets pour libérer de l'espace :
 
-`pacman -Scc`
+`sudo pacman -Scc`

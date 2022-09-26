@@ -1,6 +1,7 @@
 # shasum
 
 > Calculate or check cryptographic SHA checksums.
+> More information: <https://manned.org/shasum>.
 
 - Calculate the SHA1 checksum for a file:
 

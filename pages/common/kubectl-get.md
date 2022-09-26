@@ -23,6 +23,10 @@
 
 `kubectl get services -n {{namespace}}`
 
+- Get all resources in a specified namespace:
+
+`kubectl get all -n {{namespace}}`
+
 - Get Kubernetes objects defined in a YAML manifest:
 
 `kubectl get -f {{path/to/manifest}}.yaml`

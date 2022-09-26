@@ -1,7 +1,8 @@
 # mscore
 
 > Ova komanda je pseudonim za `musescore`.
+> Više informacija: <https://musescore.org/handbook/command-line-options>.
 
-- Pregledaj dokumentaciju za izvornu komandu:
+- Pogledaj dokumentaciju za izvornu komandu:
 
 `tldr musescore`

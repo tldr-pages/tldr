@@ -1,6 +1,7 @@
 # yank
 
 > Read input from stdin and display a selection interface that allows a field to be selected and copied to the clipboard.
+> More information: <https://manned.org/yank>.
 
 - Yank using the default delimiters (\f, \n, \r, \s, \t):
 

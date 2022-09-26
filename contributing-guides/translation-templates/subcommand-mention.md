@@ -7,7 +7,9 @@ This file contains the translation templates of this notice.
 
 [en](#en) •
 [ar](#ar) •
+[bn](#bn) •
 [bs](#bs) •
+[ca](#ca) •
 [da](#da) •
 [de](#de) •
 [es](#es) •
@@ -19,6 +21,7 @@ This file contains the translation templates of this notice.
 [ja](#ja) •
 [ko](#ko) •
 [ml](#ml) •
+[ne](#ne) •
 [nl](#nl) •
 [no](#no) •
 [pl](#pl) •
@@ -27,11 +30,13 @@ This file contains the translation templates of this notice.
 [ro](#ro) •
 [ru](#ru) •
 [sh](#sh) •
+[sr](#sr) •
 [sv](#sv) •
 [ta](#ta) •
 [th](#th) •
 [tr](#tr) •
 [uk](#uk) •
+[uz](#uz) •
 [zh](#zh) •
 [zh_TW](#zh_tw)
 
@@ -50,9 +55,21 @@ Some subcommands such as `example command` have their own usage documentation.
 ```
 
 ---
+### bn
+
+Not translated yet.
+
+---
 ### bs
 
-Not translated yet
+Not translated yet.
+
+---
+### ca
+
+```markdown
+Alguns subcomandaments com `example command` tenen la seva pròpia documentació.
+```
 
 ---
 ### da
@@ -107,7 +124,9 @@ Alcuni comandi aggiuntivi, come `example command`, hanno la propria documentazio
 ---
 ### ja
 
+```markdown
 `example command` のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
+```
 
 ---
 ### ko
@@ -118,6 +137,13 @@ Not translated yet.
 ### ml
 
 Not translated yet.
+
+---
+### ne
+
+```markdown
+केही उपादेशहरु जस्तै `example command` को आफ्नै प्रयोग कागजात हुन्छ।
+```
 
 ---
 ### nl
@@ -139,12 +165,16 @@ Not translated yet.
 ---
 ### pt_BR
 
+```markdown
 Alguns subcomandos como `example command` tem sua própia documentação de uso.
+```
 
 ---
 ### pt_PT
 
-Not translated yet.
+```markdown
+Alguns subcomandos, como `example command`, tem a sua própria documentação de uso.
+```
 
 ---
 ### ro
@@ -154,10 +184,17 @@ Not translated yet.
 ---
 ### ru
 
+```markdown
 Некоторые подкоманды, такие как `example command`, имеют собственную документацию по использованию.
+```
 
 ---
 ### sh
+
+Not translated yet.
+
+---
+### sr
 
 Not translated yet.
 
@@ -170,7 +207,9 @@ Not translated yet.
 ---
 ### ta
 
-Not translated yet.
+```markdown
+`example command` போன்ற சிலச் சார்கட்டளைகளுக்குத் தனிப் பக்கம் உள்ளது.
+```
 
 ---
 ### th
@@ -180,7 +219,9 @@ Not translated yet.
 ---
 ### tr
 
-Not translated yet.
+```markdown
+`example command` gibi bazı alt komutların kendi kullanım belgeleri vardır.
+```
 
 ---
 ### uk
@@ -188,6 +229,11 @@ Not translated yet.
 ```markdown
 Певна підкоманда, як от `example command`, що має свою власну документацію.
 ```
+
+---
+### uz
+
+Not translated yet.
 
 ---
 ### zh

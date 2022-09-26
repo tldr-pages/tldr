@@ -1,6 +1,7 @@
 # unzip
 
 > Extract compressed files in a ZIP archive.
+> More information: <https://manned.org/unzip>.
 
 - Extract zip file(s) (for multiple files, separate file paths by spaces):
 

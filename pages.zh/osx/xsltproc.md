@@ -1,6 +1,7 @@
 # xsltproc
 
 > 用 XSLT 转换 XML 以生成输出（通常是 HTML 或 XML）。
+> 更多信息：<http://www.xmlsoft.org/xslt/xsltproc.html>.
 
 - 使用特定的 XSLT 样式表转换 XML 文件：
 

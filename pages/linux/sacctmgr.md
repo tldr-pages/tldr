@@ -15,6 +15,6 @@
 
 `sacctmgr add account {{account_name}} cluster={{cluster_of_account}}`
 
-- Show details of user/association/cluster/account:
+- Show details of user/association/cluster/account using a specific format:
 
-`sacctmgr show {{user/association/cluster/account}}`
+`sacctmgr show {{user|association|cluster|account}} format="Account%10" format="GrpTRES%30"`

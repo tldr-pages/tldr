@@ -1,6 +1,6 @@
 # aws-vault
 
-> Ein Tresor für Entwicklungsumgebungen um AWS Sicherheitsschlüssel sicher speichern und abrufen zu können.
+> Ein Tresor für Entwicklungsumgebungen, um AWS Sicherheitsschlüssel sicher speichern und abrufen zu können.
 > Weitere Informationen: <https://github.com/99designs/aws-vault>.
 
 - Füge einen Sicherheitsschlüssel als Profil zu einem Tresor hinzu:

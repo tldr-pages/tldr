@@ -17,4 +17,4 @@
 
 - Compile a `.java` file and place the resulting class file in a specific directory:
 
-`javac -d {{path/to/some/directory}} {{file.java}}`
+`javac -d {{path/to/directory}} {{file.java}}`

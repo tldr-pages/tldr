@@ -2,6 +2,7 @@
 
 > Secure Shell ist ein Protokoll für das sichere einloggen auf einem externen System.
 > Es kann dafür eingesetzt werden um Befehle auf externen Systemen auszuführen.
+> Weitere Informationen: <https://man.openbsd.org/ssh>.
 
 - Stelle eine Verbindung zu einem externen Server her:
 

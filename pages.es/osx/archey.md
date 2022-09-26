@@ -11,7 +11,7 @@
 
 `archey --nocolor`
 
-- Muestra información del sistema, usando MacPorts en lugar de Hombrew:
+- Muestra información del sistema, usando MacPorts en lugar de Homebrew:
 
 `archey --macports`
 

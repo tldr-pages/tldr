@@ -1,7 +1,7 @@
 # nvm
 
 > Install, uninstall or switch between Node.js versions.
-> Supports version numbers like "0.12" or "v4.2", and labels like "stable", "system", etc.
+> Supports version numbers like "12.8" or "v16.13.1", and labels like "stable", "system", etc.
 > More information: <https://github.com/creationix/nvm>.
 
 - Install a specific version of Node.js:

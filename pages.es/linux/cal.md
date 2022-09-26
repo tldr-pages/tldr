@@ -17,8 +17,8 @@
 
 - Muestra el calendario para un año concreto (4 dígitos):
 
-`cal {{year}}`
+`cal {{año}}`
 
-- Muestra el calendario para un año y mes concretos:
+- Muestra el calendario para un mes y año concretos:
 
-`cal {{month}} {{year}}`
+`cal {{mes}} {{año}}`

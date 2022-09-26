@@ -1,24 +1,28 @@
 # wc
 
-> Cuenta líneas, palabras, o bytes.
+> Cuenta líneas, palabras, y bytes.
 > Más información: <https://www.gnu.org/software/coreutils/wc>.
 
-- Cuenta las líneas en un archivo:
+- Cuenta todas las líneas en un archivo:
 
-`wc -l {{ruta/al/archivo}}`
+`wc --lines {{ruta/al/archivo}}`
 
-- Cuenta las palabras en un archivo:
+- Cuenta todas las palabras en un archivo:
 
-`wc -w {{ruta/al/archivo}}`
+`wc --words {{ruta/al/archivo}}`
 
-- Cuenta caracteres (bytes) en un archivo:
+- Cuenta todos los bytes en un archivo:
 
-`wc -c {{ruta/al/archivo}}`
+`wc --bytes {{ruta/al/archivo}}`
 
-- Cuenta caracteres en un archivo (considerando los caracteres de varios bytes):
+- Cuenta todos los caracteres en un archivo (considerando los caracteres de varios bytes):
 
-`wc -m {{ruta/al/archivo}}`
+`wc --chars {{ruta/al/archivo}}`
 
-- Usa la entrada estandar para contar líneas, palabras o caracteres (bytes), en ese orden:
+- Cuenta todas las lineas, palabras y bytes desde stdin:
 
 `{{find .}} | wc`
+
+- Cuenta la longitud de la linea más larga en número de caracteres:
+
+`wc --max-line-length {{ruta/al/archivo}}`

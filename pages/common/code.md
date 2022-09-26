@@ -1,28 +1,36 @@
 # code
 
-> Visual Studio Code.
+> Cross platform and extensible code editor.
 > More information: <https://github.com/microsoft/vscode>.
 
-- Open VS Code:
+- Start Visual Studio Code:
 
 `code`
 
-- Open the current directory in VS Code:
+- Open specific files/directories:
 
-`code .`
+`code {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
-- Open a file or directory in VS Code:
+- Compare two specific files:
 
-`code {{path/to/file_or_directory}}`
+`code --diff {{path/to/file1}} {{path/to/file2}}`
 
-- Open a file or directory in the currently open VS Code window:
+- Open specific files/directories in a new window:
 
-`code --reuse-window {{path/to/file_or_directory}}`
+`code --new-window {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
-- Compare two files in VS Code:
+- Install/uninstall a specific extension:
 
-`code -d {{file1}} {{file2}}`
+`code --{{install|uninstall}}-extension {{publisher.extension}}`
 
-- Open VS Code with superuser (sudo) permissions:
+- Print installed extensions:
 
-`sudo code {{path/to/file_or_directory}} --user-data-dir`
+`code --list-extensions`
+
+- Print installed extensions with their versions:
+
+`code --list-extensions --show-versions`
+
+- Start the editor as a superuser (root) while storing user data in a specific directory:
+
+`sudo code --user-data-dir {{path/to/directory}}`

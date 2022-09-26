@@ -1,7 +1,7 @@
 # mongo
 
 > Client shell pour MongoDB.
-> Plus d'informations: <https://docs.mongodb.com/manual/reference/program/mongo>.
+> Plus d'informations : <https://docs.mongodb.com/manual/reference/program/mongo>.
 
 - Connecte à une base de données (database) :
 
@@ -15,6 +15,6 @@
 
 `mongo --username {{nom_d'utilisateur}} {{nom_de_la_base_de_données}} --password`
 
-- Évalue une expression Javascript sur une base de données (database) :
+- Évalue une expression JavaScript sur une base de données (database) :
 
 `mongo --eval '{{JSON.stringify(db.foo.findOne())}}' {{nom_de_la_base_de_données}}`

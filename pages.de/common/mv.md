@@ -3,7 +3,7 @@
 > Verschiebe Dateien oder Verzeichnisse oder benenne diese um.
 > Weitere Informationen: <https://www.gnu.org/software/coreutils/mv>.
 
-- Verschiebe eine Dateien an einen beliebigen Ort:
+- Verschiebe eine Datei an einen beliebigen Ort:
 
 `mv {{pfad/zu/datei}} {{pfad/zu/zieldatei}}`
 

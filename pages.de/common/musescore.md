@@ -11,7 +11,7 @@
 
 `musescore --bitrate {{bitrate}}`
 
-- Starte MuseScorre im Debug-Modus:
+- Starte MuseScore im Debug-Modus:
 
 `musescore --debug`
 

@@ -7,7 +7,7 @@
 
 `dirb {{https://example.org}}`
 
-- Scan a webserver using a non-default wordlist:
+- Scan a webserver using a custom wordlist:
 
 `dirb {{https://example.org}} {{path/to/wordlist.txt}}`
 

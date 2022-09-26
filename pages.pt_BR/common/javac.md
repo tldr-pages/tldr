@@ -17,4 +17,4 @@
 
 - Compile um arquivo `.java` e coloque a classe resultante em um diretório específico:
 
-`javac -d {{caminho/para/algum/diretorio}} {{arquivo.java}}`
+`javac -d {{caminho/para/diretorio}} {{arquivo.java}}`

@@ -11,7 +11,7 @@
 
 `cat {{pfad/zu/datei1}} {{pfad/zu/datei2}} > {{pfad/zu/ziel_datei}}`
 
-- Verkette mehrere Dateien und hänge des Ergebnis an eine Datei an:
+- Verkette mehrere Dateien und hänge das Ergebnis an eine Datei an:
 
 `cat {{pfad/zu/datei1}} {{pfad/zu/datei2}} >> {{pfad/zu/ziel_datei}}`
 

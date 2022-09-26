@@ -1,6 +1,7 @@
 # sd
 
 > Intuitive find & replace CLI.
+> More information: <https://github.com/chmln/sd>.
 
 - Trim some whitespace using a regular expression:
 

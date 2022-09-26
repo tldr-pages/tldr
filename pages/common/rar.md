@@ -1,6 +1,7 @@
 # rar
 
 > The RAR archiver. Supports multi-volume archives that can be optionally self-extracting.
+> More information: <https://manned.org/rar>.
 
 - Archive 1 or more files:
 

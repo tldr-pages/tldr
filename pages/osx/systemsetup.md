@@ -1,6 +1,7 @@
 # systemsetup
 
 > Configure System Preferences machine settings.
+> More information: <https://support.apple.com/guide/remote-desktop/about-systemsetup-apd95406b8d/mac>.
 
 - Enable remote login (SSH):
 
@@ -8,7 +9,7 @@
 
 - Specify timezone, NTP Server and enable network time:
 
-`systemsetup -settimezone {{US/Pacific}} -setnetworktimeserver {{us.pool.ntp.org}} -setusingnetworktime on`
+`systemsetup -settimezone "{{US/Pacific}}" -setnetworktimeserver {{us.pool.ntp.org}} -setusingnetworktime on`
 
 - Make the machine never sleep and automatically restart on power failure or kernel panic:
 

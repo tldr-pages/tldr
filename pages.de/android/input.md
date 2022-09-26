@@ -20,6 +20,6 @@
 
 `input swipe {{x_start}} {{y_start}} {{x_ende}} {{y_ende}} {{dauer_in_ms}}`
 
-- Sende ein langes Tippen auf den Touschscreen an ein Gerät:
+- Sende ein langes Tippen auf den Touchscreen an ein Gerät:
 
 `input swipe {{x_pos}} {{y_pos}} {{x_pos}} {{y_pos}} {{dauer_in_ms}}`

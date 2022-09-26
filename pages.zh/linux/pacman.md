@@ -5,15 +5,15 @@
 
 - 同步并更新所有软件包：
 
-`pacman -Syu`
+`sudo pacman -Syu`
 
 - 安装一个新的软件包：
 
-`pacman -S {{软件包}}`
+`sudo pacman -S {{软件包}}`
 
 - 删除一个软件包及其依赖：
 
-`pacman -Rs {{软件包}}`
+`sudo pacman -Rs {{软件包}}`
 
 - 在软件包数据库中搜索正则表达式或关键字：
 
@@ -33,4 +33,4 @@
 
 - 清空软件包缓存以释放空间：
 
-`pacman -Scc`
+`sudo pacman -Scc`

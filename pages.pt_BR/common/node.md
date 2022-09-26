@@ -18,3 +18,7 @@
 - Executar um arquivo JavaScript, imprimindo o resultado:
 
 `node -p "{{script}}"`
+
+- Ativar o inspetor, pausando a execução até que um depurador seja conectado depois que o código-fonte for totalmente analisado:
+
+`node --no-lazy --inspect-brk {{caminho/para/arquivo}}`

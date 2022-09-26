@@ -2,7 +2,7 @@
 
 > Usuwa zadania o zadanych identyfikatorach (numerach) wcześniej zakolejkowane przez `at` lub `batch`
 > Aby znaleźć numery zadań, użyj `atq`.
-> Więcej informacji: <https://man.archlinux.org/man/at.1>.
+> Więcej informacji: <https://manned.org/atrm>.
 
 - Usuń zadanie numer 10:
 

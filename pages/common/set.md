@@ -1,6 +1,7 @@
 # set
 
 > Display, set or unset values of shell attributes and positional parameters.
+> More information: <https://manned.org/set>.
 
 - Display the names and values of shell variables:
 
@@ -17,3 +18,7 @@
 - Set various options, e.g. enable `vi` style line editing:
 
 `set -o {{vi}}`
+
+- Set the shell to exit as soon as the first error is encountered (mostly used in scripts):
+
+`set -e`

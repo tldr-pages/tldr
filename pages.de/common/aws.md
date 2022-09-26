@@ -8,7 +8,7 @@
 
 `aws configure wizard`
 
-- Konfiguriere die AWS Kommandozeile mit Hilfe von SSO:
+- Konfiguriere die AWS Kommandozeile mithilfe von SSO:
 
 `aws configure sso`
 

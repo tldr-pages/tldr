@@ -1,6 +1,7 @@
 # unalias
 
 > Fjern aliaser.
+> Mer informasjon: <https://manned.org/unalias>.
 
 - Fjern et alias:
 

@@ -23,7 +23,7 @@ Just open an issue or send a pull request and we'll incorporate it as soon as po
 To get started, please [sign](https://cla-assistant.io/tldr-pages/tldr) the
 [Contributor License Agreement](https://gist.github.com/waldyrious/e50feec13683e565769fbd58ce503d4e).
 
-*Note*: when submitting a new command, don't forget to check if there's already a pull request in progress for it.
+*Note*: when submitting a new command, please base your PR against the `main` branch, and check if there's already a pull request in progress for it.
 
 ## Guidelines
 
@@ -59,14 +59,25 @@ As a quick reference, the format of each page should match the following templat
 
 - Example description:
 
-`command -opt1 -opt2`
+`command --option`
 
 - Example description:
 
-`command -opt1 -opt2 -arg1 {{arg_value}}`
+`command --option1 --option2 {{arg_value}}`
 ```
 
-For more detailed page formatting guidelines,
+To see some examples of preexisting pages, you can look at:
+
+- [pwd](https://github.com/tldr-pages/tldr/blob/main/pages/common/pwd.md) - one of the simplest command examples
+- [caja](https://github.com/tldr-pages/tldr/blob/main/pages/common/tar.md) - page with placeholders 
+
+In our pages, we use placeholders which are defined as being tokens within curly brackets, for example `sleep {{5}}`, in this case the user can change 5 to any number.
+Other examples but not limited to of our placeholder syntax are:
+
+- `{{path/to/directory}}`
+- `{{path/to/directory1 path/to/directory2 ...}}`
+
+For more detailed formatting guidelines,
 refer to the [style guide](contributing-guides/style-guide.md).
 
 ## Subcommands
@@ -106,6 +117,9 @@ Some examples of valid locale tags:
 
 A list of translated templates for alias pages can be found in [here](contributing-guides/translation-templates/alias-pages.md).
 
+Pull requests that introduce translations are the exception to the single file change per Pull Request rule. It is
+acceptable for several pages to be translated in one pull request.
+
 ### Default language for newly added pages
 
 The default language used for pages is English (US). Pages written in English are stored in the default `pages` directory (notice the absence of a specific language tag). Although not strictly required, if you'd like to add a new page in a different language, please consider creating the English page too.
@@ -123,6 +137,14 @@ Check out the step-by-step instructions (with screenshots) on
 
 Alternatively, you can do most of the process
 [using Git on the command-line](contributing-guides/git-terminal.md).
+
+### Accepting suggestions within a pull request
+
+The easiest way to apply suggested changes is to accept the suggestion made on your pull request. Refer to the [GitHub docs](https://docs.github.com/en/enterprise-server@3.2/github/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/incorporating-feedback-in-your-pull-request) for more details.
+
+To commit a suggestion to your pull request, simply click on `Commit suggestion`:
+
+![Commit suggestion button in Github](./images/commit-suggestion-button.png)
 
 ### Commit message
 

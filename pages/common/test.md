@@ -1,6 +1,6 @@
 # test
 
-> Evaluate condition.
+> Check file types and compare values.
 > Returns 0 if the condition evaluates to true, 1 if it evaluates to false.
 > More information: <https://www.gnu.org/software/coreutils/test>.
 

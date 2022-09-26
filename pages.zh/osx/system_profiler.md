@@ -1,6 +1,7 @@
 # system_profiler
 
 > 报告系统硬件和软件配置。
+> 更多信息：<https://ss64.com/osx/system_profiler.html>.
 
 - 显示可由 System Profiler.app 打开的完整系统资源报告：
 

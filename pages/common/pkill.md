@@ -6,11 +6,15 @@
 
 - Kill all processes which match:
 
-`pkill -9 "{{process_name}}"`
+`pkill "{{process_name}}"`
 
 - Kill all processes which match their full command instead of just the process name:
 
-`pkill -9 --full "{{command_name}}"`
+`pkill -f "{{command_name}}"`
+
+- Force kill matching processes (can't be blocked):
+
+`pkill -9 "{{process_name}}"`
 
 - Send SIGUSR1 signal to processes which match:
 
