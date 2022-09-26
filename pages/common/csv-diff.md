@@ -5,7 +5,7 @@
 
 - Show a human-readable summary of differences between files using a specific column as an unique identifier:
 
-`csv-diff {{one.csv}} {{two.csv}} --key={{key}}`
+`csv-diff {{one.csv}} {{two.csv}} --key={{column_name}}`
 
 - Show a human-readable summary of differences between files that includes unchanges values in rows that have at least one change:
 
