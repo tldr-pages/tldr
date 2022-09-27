@@ -1,12 +1,12 @@
 # zdiff
 
-> Compare gzip compressed files.
+> Invoke `diff` on gzipped files.
 > More information: <https://www.gnu.org/software/gzip/manual/gzip.html>.
 
-- Compare two files, uncompressing then if necessary:
+- Compare two files, uncompressing them if necessary:
 
-`zdiff {{file1.txt.gz}} {{file2.txt.gz}}`
+`zdiff {{path/to/file1.txt.gz}} {{path/to/file2.txt.gz}}`
 
-- Compare a file to its compressed version (assumed to have a `.gz` extension):
+- Invoke `diff` on `path/to/file.txt` and `path/to/file.txt.gz` (which is assumed to exist):
 
-`zdiff {{file.txt}}`
+`zdiff {{path/to/file.txt}}`
