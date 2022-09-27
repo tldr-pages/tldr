@@ -21,7 +21,7 @@
 
 - Specify a custom Smalltalk image and VM:
 
-`smalltalkci --image {{path/to/Smalltalk.image}} -- vm {{path/to/vm}}`
+`smalltalkci --image {{path/to/Smalltalk.image}} --vm {{path/to/vm}}`
 
 - Clean up caches and delete builds:
 
