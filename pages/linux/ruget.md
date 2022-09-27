@@ -3,7 +3,7 @@
 > Alternative to wget written in Rust.
 > More information: <https://github.com/ksk001100/ruget>.
 
-- Download the contents of a URL to a file (named "foo" in this case):
+- Download the contents of a URL to a file:
 
 `ruget https://example.com/foo`
 
