@@ -5,7 +5,7 @@
 
 - Download the contents of a URL to a file:
 
-`ruget https://example.com/foo`
+`ruget {{https://example.com/file}}`
 
 - Download the contents of a URL to a file with a specified [o]utput file (named "bar" in this case):
 
