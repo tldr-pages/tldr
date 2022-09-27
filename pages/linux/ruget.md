@@ -9,4 +9,4 @@
 
 - Download the contents of a URL to a file with a specified [o]utput file (named "bar" in this case):
 
-`ruget --output bar https://example.com/foo`
+`ruget --output bar {{https://example.com/file}}`
