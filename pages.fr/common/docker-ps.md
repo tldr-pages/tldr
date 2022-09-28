@@ -11,7 +11,7 @@
 
 `docker ps --all`
 
-- Afficher le dernier conteneur Docker créé (avec tous les infos):
+- Afficher le dernier conteneur Docker créé (avec tous les états) :
 
 `docker ps --latest`
 
