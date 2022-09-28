@@ -7,7 +7,7 @@
 
 `docker network ls`
 
-- Créer un réseau :
+- Créer un réseau défini par l'utilisateur :
 
 `docker network create --driver {{nom_du_driver}} {{nom_du_reseau}}`
 
