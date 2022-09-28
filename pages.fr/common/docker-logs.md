@@ -7,7 +7,7 @@
 
 `docker logs {{nom_du_conteneur}}`
 
-- Afficher les journaux d'un conteneur en les suivants (comme `tail -f`) :
+- Afficher les journaux d'un conteneur en les suivants :
 
 `docker logs -f {{nom_du_conteneur}}`
 
