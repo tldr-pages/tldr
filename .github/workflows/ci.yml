@@ -2,6 +2,9 @@ name: CI
 
 on: ['push', 'pull_request']
 
+permissions:
+  contents: read # to fetch code (actions/checkout)
+
 jobs:
   ci:
     runs-on: ubuntu-latest
