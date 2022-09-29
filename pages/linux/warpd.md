@@ -7,19 +7,19 @@
 
 `warpd --normal`
 
-- Moving cursor left:
+- Move cursor left:
 
 `h`
 
-- Moving cursor down:
+- Move cursor down:
 
 `j`
 
-- Moving cursor up:
+- Move cursor up:
 
 `k`
 
-- Moving cursor right:
+- Move cursor right:
 
 `l`
 
