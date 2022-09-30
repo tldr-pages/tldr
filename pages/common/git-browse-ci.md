@@ -1,6 +1,6 @@
 # git browse-ci
 
-> Opens the current `git` repository's CI on websites such as Git.
+> Opens the current `git` repository's CI website in the default web browser.
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-browse-ci>.
 
