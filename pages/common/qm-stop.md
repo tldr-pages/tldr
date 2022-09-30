@@ -11,7 +11,7 @@
 
 `qm stop --timeout {{10}} {{VM_ID}}`
 
-- Stop virtual machine and skip lock(only root can use this option):
+- Stop virtual machine and skip lock (only root can use this option):
 
 `qm stop --skiplock {{true}} {{VM_ID}}`
 
