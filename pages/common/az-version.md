@@ -6,7 +6,7 @@
  
 - Show the current version of Azure CLI modules and extensions:
 
-`az version` 
+`az version`
 
 - Show the current version of Azure CLI modules and extensions in a given format (default JSON):
 
