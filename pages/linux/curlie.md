@@ -9,7 +9,7 @@
 
 - Send a POST request:
 
-`curlie post httpbin.org/post name=john age:=25`
+`curlie post {{httpbin.org/post}} {{name=john}} {{age:=25}}`
 
 - Send a GET request with query parameters (e.g. `first_param=5&second_param=true`):
 
