@@ -5,7 +5,7 @@
 
 - Send a file or directories:
 
-`qrcp send {{path/to/file_or_directory}}`
+`qrcp send {{path/to/file_or_directory path/to/file_directory ...}}`
 
 - Receive file(s):
 
