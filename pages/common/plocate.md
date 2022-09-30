@@ -11,6 +11,6 @@
 
 `locate */{{filename}}`
 
-- Recompute the database. You need to do it if you want to find recently added files:
+- Recompute the database (to find recently added files):
 
 `sudo updatedb`
