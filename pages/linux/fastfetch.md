@@ -22,7 +22,3 @@
 - Set the color of the keys:
 
 `fastfetch --color`
-
-- Set the logo to use:
-
-`fastfetch --separator`
