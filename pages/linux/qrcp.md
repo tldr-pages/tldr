@@ -11,7 +11,7 @@
 
 `qrcp receive`
 
-- [z]ip content before transferring:
+- Compress content before transferring:
 
 `qrcp send --zip {{path/to/file_or_directory}}`
 
