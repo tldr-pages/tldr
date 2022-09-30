@@ -13,4 +13,4 @@
 
 - Display the record with specified type:
 
-`ahost -t {{type}} {{example.com}}`
+`ahost -t {{a|aaaa}} {{example.com}}`
