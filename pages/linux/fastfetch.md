@@ -13,7 +13,7 @@
 
 - Load a custom config file:
 
-`fastfetch --load-config <file>`
+`fastfetch --load-config {{path/to/config_file}}`
 
 - Set the logo to use:
 
