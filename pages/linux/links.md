@@ -5,7 +5,7 @@
 
 - Visit a website:
 
-`links {{example.com}}`
+`links {{https://example.com}}`
 
 - Apply restrictions for anonymous account:
 
