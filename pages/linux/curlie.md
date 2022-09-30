@@ -13,7 +13,7 @@
 
 - Send a GET request with query parameters (e.g. `first_param=5&second_param=true`):
 
-`curlie get httpbin.org/get first_param==5 second_param==true`
+`curlie get {{httpbin.org/get}} {{first_param==5}} {{second_param==true}}`
 
 - Send a GET request with a custom header:
 
