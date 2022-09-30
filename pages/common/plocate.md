@@ -3,7 +3,7 @@
 > Find filenames quickly.
 > More information: <https://plocate.sesse.net>.
 
-- Look for pattern in the database. Note: the database is recomputed periodically (usually weekly or daily):
+- Look for patterns in the database (recomputed periodically):
 
 `plocate {{pattern}}`
 
