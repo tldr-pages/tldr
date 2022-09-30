@@ -17,7 +17,7 @@
 
 - Set the logo to use:
 
-`fastfetch --logo`
+`fastfetch --logo {{logo}}`
 
 - Set the color of the keys:
 
