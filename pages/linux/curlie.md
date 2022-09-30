@@ -17,4 +17,4 @@
 
 - Send a GET request with a custom header:
 
-`curlie get httpbin.org/get header-name:header-value`
+`curlie get {{httpbin.org/get}} {{header-name:header-value}}`
