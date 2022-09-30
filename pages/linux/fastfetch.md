@@ -1,6 +1,6 @@
 # fastfetch
 
-> A neofetch-like tool but, faster & prettier.
+> A CLI tool to display information about your operating system, software and hardware.
 > More information: <https://github.com/LinusDierheimer/fastfetch>.
 
 - Display system information:
