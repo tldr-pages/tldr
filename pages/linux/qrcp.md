@@ -17,7 +17,7 @@
 
 - Specify [p]ort to use for the server:
 
-`qrcp send/receive --port port`
+`qrcp send/receive --port {{port_number}}`
 
 - Specify the network [i]nterface to use:
 
