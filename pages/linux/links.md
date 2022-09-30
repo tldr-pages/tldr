@@ -13,7 +13,7 @@
 
 - Enable Cookies (1 to enable):
 
-`links -enable-cookies <0/1> {{example.com}}`
+`links -enable-cookies {{0|1}} {{example.com}}`
 
 - Navigate forwards and backwards through the links on a page:
 
