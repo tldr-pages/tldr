@@ -5,7 +5,7 @@
 
 - Send a GET request:
 
-`curlie httpbin.org/get`
+`curlie {{httpbin.org/get}}`
 
 - Send a POST request:
 
