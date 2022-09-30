@@ -21,4 +21,4 @@
 
 - Set the color of the keys:
 
-`fastfetch --color <color>`
+`fastfetch --color {{blue}}`
