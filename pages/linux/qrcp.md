@@ -15,7 +15,7 @@
 
 `qrcp send --zip {{path/to/file_or_directory}}`
 
-- Specify [p]ort to use for the server:
+- Specify a [p]ort to use:
 
 `qrcp {{send|receive}} --port {{port_number}}`
 
