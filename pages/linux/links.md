@@ -9,7 +9,7 @@
 
 - Apply restrictions for anonymous account:
 
-`links -anonymous {{example.com}}`
+`links -anonymous {{https://example.com}}`
 
 - Enable Cookies (1 to enable):
 
