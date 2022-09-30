@@ -9,7 +9,7 @@
 
 - Set the structure of the fetch:
 
-`fastfetch --structure <structure>`
+`fastfetch --structure {{structure}}`
 
 - Load a custom config file:
 
