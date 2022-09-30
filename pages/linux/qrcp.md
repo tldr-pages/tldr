@@ -3,7 +3,7 @@
 > A file transfer tool.
 > More information: <https://github.com/claudiodangelis/qrcp>.
 
-- Send a file(s) or directories:
+- Send a file or directories:
 
 `qrcp send {{path/to/file_or_directory}}`
 
