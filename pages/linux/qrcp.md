@@ -25,4 +25,4 @@
 
 - Keep the server alive:
 
-`qrcp send/receive --keep-alive`
+`qrcp {{send|receive}} --keep-alive`
