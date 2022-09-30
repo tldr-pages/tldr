@@ -11,7 +11,7 @@
 
 `links -anonymous {{https://example.com}}`
 
-- Enable Cookies (1 to enable):
+- Enable Cookies (`1` to enable):
 
 `links -enable-cookies {{0|1}} {{https://example.com}}`
 
