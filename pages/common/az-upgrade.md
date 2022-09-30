@@ -4,7 +4,7 @@
 > Part of `az`, the command-line client for Microsoft Azure.
 > More information: <https://learn.microsoft.com/cli/azure/reference-index?view=azure-cli-latest#az-upgrade>.
 
-- Upgrade Azure CLI: 
+- Upgrade Azure CLI:
 
 `az upgrade`
 
