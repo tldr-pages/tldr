@@ -9,7 +9,7 @@
 
 - Look for a file by its exact filename (a pattern containing no globbing characters is interpreted as `*pattern*`):
 
-`locate */{{filename}}`
+`plocate */{{filename}}`
 
 - Recompute the database (to find recently added files):
 
