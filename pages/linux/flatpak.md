@@ -23,10 +23,6 @@
 
 `flatpak remote-add --if-not-exists {{remote_name}} {{remote_url}}`
 
-- List all configured remote sources:
-
-`flatpak remote-list`
-
 - Remove an installed application:
 
 `flatpak remove {{name}}`
