@@ -11,6 +11,6 @@
 
 `ahost -d {{example.com}}`
 
-- Display the record with specified type:
+- Display the record with a specified type:
 
 `ahost -t {{a|aaaa|u}} {{example.com}}`
