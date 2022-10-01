@@ -11,7 +11,7 @@
 
 `bundle exec {{commande}} {{arguments}}`
 
-- Met à jour toutes les gems selon les règles définies dans le `Gemfile` et régénérer `Gemfile.lock` :
+- Mets à jour toutes les gems selon les règles définies dans le `Gemfile` et régénére le fichier `Gemfile.lock` :
 
 `bundle update`
 
