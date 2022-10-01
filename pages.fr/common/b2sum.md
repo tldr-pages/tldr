@@ -15,7 +15,7 @@
 
 `{{commande}} | b2sum`
 
-- Lit un fichier contenant des sommes de contrôle BLAKE2 et des noms de fichier et vérifie que tous les fichiers ont des sommes de contrôle correspondantes :
+- Lis un fichier contenant des sommes de contrôle BLAKE2 et des noms de fichier et vérifie que tous les fichiers ont des sommes de contrôle correspondantes :
 
 `b2sum --check {{chemin/vers/fichier.b2}}`
 
