@@ -1,6 +1,7 @@
 # plocate
 
 > Find filenames quickly.
+> Make sure to use the `sudo updatedb` to include new files.
 > More information: <https://plocate.sesse.net>.
 
 - Look for patterns in the database (recomputed periodically):
@@ -10,7 +11,3 @@
 - Look for a file by its exact filename (a pattern containing no globbing characters is interpreted as `*pattern*`):
 
 `plocate */{{filename}}`
-
-- Recompute the database (to find recently added files):
-
-`sudo updatedb`
