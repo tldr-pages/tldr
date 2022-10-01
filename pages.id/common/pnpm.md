@@ -20,7 +20,7 @@
 
 `pnpm add -D {{module_name}}`
 
-- Unduh paket dan instal secara global:
+- Unduh paket dan instal secara [g]lobal:
 
 `pnpm add -g {{module_name}}`
 
