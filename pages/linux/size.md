@@ -7,7 +7,7 @@
 
 `size {{path/to/file}}`
 
-- To display the size of sections in a given object or executable file in [o]ctal:
+- Display the size of sections in a given object or executable file in [o]ctal:
 
 `size {{-o|--radix=8}} {{path/to/file}}`
 
