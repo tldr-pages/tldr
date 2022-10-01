@@ -21,7 +21,7 @@
 
 - Remove all JUCE-style comments (`//=====`, `//-----` or `///////`):
 
-`projucer --tidy-divider-comments {{target_folder}}`
+`projucer --tidy-divider-comments {{path/to/target_folder}}`
 
 - Show help:
 
