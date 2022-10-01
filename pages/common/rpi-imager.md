@@ -1,6 +1,6 @@
 # rpi-imager
 
-> Flash images onto storage drives.
+> Flash images onto storage devices.
 > More information: <https://github.com/raspberrypi/rpi-imager>.
 
 - Write a specific image to a specific block device:
