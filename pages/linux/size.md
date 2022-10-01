@@ -14,7 +14,6 @@
 
 `size -d {{file}}`
 
-
 - To display the size of an executable file in he[x]adecimal:
 
 `size -x {{file}}`
