@@ -4,7 +4,7 @@
 > It can also be used as an HTML post-processor or metadata extractor.
 > More information: <https://soupault.app>.
 
-- Initialize a minimal website project:
+- Initialize a minimal website project in the current working directory:
 
 `soupault --init`
 
