@@ -9,7 +9,7 @@
 
 - Resave all files and resources in a project:
 
-`projucer --resave {{project_file}}`
+`projucer --resave {{path/to/project_file}}`
 
 - Update the version number in a project:
 
