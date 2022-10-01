@@ -1,6 +1,7 @@
 # size
 
 > Displays the sizes of sections inside binary files.
+> More information: <https://www.ibm.com/docs/en/aix/7.2?topic=s-size-command>.
 
 - Display the size of sections of object or executable file:
 
