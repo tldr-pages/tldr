@@ -5,24 +5,24 @@
 
 - Display the help manual:
 
-`Projucer --help`
+`projucer --help`
 
 - Display information about the project:
 
-`Projucer --status`
+`projucer --status`
 
 - Resave all files and resources in a project:
 
-`Projucer --resave {{project_file}}`
+`projucer --resave {{project_file}}`
 
 - Update the version number in a project:
 
-`Projucer --set-version {{version_number}} {{project_file}}`
+`projucer --set-version {{version_number}} {{project_file}}`
 
 - Generate a JUCE project from a PIP file:
 
-`Projucer --create-project-from-pip {{path/to/PIP}} {{path/to/output}}`
+`projucer --create-project-from-pip {{path/to/PIP}} {{path/to/output}}`
 
 - Remove all JUCE-style comments (`//=====` or `//-----` or `///////`):
 
-`Projucer --tidy-divider-comments {{target_folder}}`
+`projucer --tidy-divider-comments {{target_folder}}`
