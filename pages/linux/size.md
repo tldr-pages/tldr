@@ -1,4 +1,4 @@
-## size
+# size
 
 > Displays the sizes of sections inside binary files.
 
