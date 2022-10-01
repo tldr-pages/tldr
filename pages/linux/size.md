@@ -15,6 +15,6 @@
 
 `size {{-d|--radix=10}} {{path/to/file}}`
 
-- To display the size of an executable file in he[x]adecimal:
+- To display the size of sections in a given object or executable file in he[x]adecimal:
 
-`size -x {{file}}`
+`size {{-x|--radix=16}} {{path/to/file}}`
