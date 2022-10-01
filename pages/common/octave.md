@@ -1,6 +1,6 @@
 # octave
 
-> GNU Octave is a programming language for scientific computing..
+> GNU Octave is a programming language for scientific computing.
 > More information: <https://docs.octave.org/latest/Invoking-Octave-from-the-Command-Line.html>.
 
 - Start an interactive Octave session:
