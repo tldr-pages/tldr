@@ -19,7 +19,7 @@
 
 `projucer --create-project-from-pip {{path/to/PIP}} {{path/to/output}}`
 
-- Remove all JUCE-style comments (`//=====` or `//-----` or `///////`):
+- Remove all JUCE-style comments (`//=====`, `//-----` or `///////`):
 
 `projucer --tidy-divider-comments {{target_folder}}`
 
