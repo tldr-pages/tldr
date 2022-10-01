@@ -19,7 +19,7 @@
 
 `ddev composer`
 
-- Install Node.js version 12:
+- Install a specific Node.js version
 
 `ddev nvm install {{version}}`
 
