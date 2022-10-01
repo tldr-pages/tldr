@@ -32,6 +32,6 @@
 
 `pnpm list`
 
-- Buat daftar modul tingkat atas yang diinstal secara global:
+- Buat daftar modul tingkat atas yang diinstal secara [g]lobal:
 
 `pnpm list -g --depth={{0}}`
