@@ -26,3 +26,7 @@
 - Show RAID info:
 
 `sudo mdadm --detail {{/dev/md0}}`
+
+- Reset disk by deleting RAID metadata:
+
+`sudo mdadm --zero-superblock {{/dev/sdXN}}`
