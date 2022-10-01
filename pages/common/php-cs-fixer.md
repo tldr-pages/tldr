@@ -3,7 +3,7 @@
 > Automatic coding style fixer for PHP.
 > More information: <https://github.com/FriendsOfPHP/PHP-CS-Fixer>.
 
-- Execute code style fixing:
+- Execute code style fixing in the current directory:
 
 `php-cs-fixer fix`
 
