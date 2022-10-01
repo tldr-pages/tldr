@@ -7,7 +7,7 @@
 
 `adig {{example.com}}`
 
-- Display extra debugging output:
+- Display extra [d]ebugging output:
 
 `adig -d {{example.com}}`
 
