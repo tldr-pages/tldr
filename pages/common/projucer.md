@@ -3,9 +3,9 @@
 > A project manager for JUCE framework applications.
 > More information: <https://juce.com/discover/stories/projucer-manual#10.4-command-line-tools>.
 
-- Display information about the project:
+- Display information about a project:
 
-`projucer --status`
+`projucer --status {{path/to/project_file}}`
 
 - Resave all files and resources in a project:
 
