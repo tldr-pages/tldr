@@ -16,7 +16,7 @@
 
 `pnpm add {{nama_modul}}@{{versi}}`
 
-- Unduh paket dan menambahkan ke daftar dependensi dev di package.json:
+- Unduh paket dan menambahkan ke daftar dependensi [D]ev di package.json:
 
 `pnpm add -D {{module_name}}`
 
