@@ -29,4 +29,4 @@
 
 - Update the container's apt package lists:
 
-`ddev exec sudo apt-get update`
+`ddev exec {{echo 1}}`
