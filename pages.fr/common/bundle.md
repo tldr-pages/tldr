@@ -15,15 +15,15 @@
 
 `bundle update`
 
-- Met à jour une ou plusieurs gem(s) spécifique(s) définie(s) dans le `Gemfile` :
+- Mets à jour une ou plusieurs gem(s) spécifique(s) définie(s) dans le `Gemfile` :
 
 `bundle update {{nom_de_la_gem}} {{nom_de_la_gem}}`
 
-- Met à jour une ou plusieurs gem(s) spécifique(s) définie(s) dans le `Gemfile` mais seulement vers la prochaine version de patch :
+- Mets à jour une ou plusieurs gem(s) spécifique(s) définie(s) dans le `Gemfile` mais seulement vers la prochaine version de patch :
 
 `bundle update --patch {{nom_de_la_gem}} {{nom_de_la_gem}}`
 
-- Met à jour toutes les gem(s) du groupe donné dans le `Gemfile` :
+- Mets à jour toutes les gem(s) du groupe donné dans le `Gemfile` :
 
 `bundle update --group {{nom_groupe}}`
 
