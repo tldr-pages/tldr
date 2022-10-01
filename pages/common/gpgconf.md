@@ -1,7 +1,7 @@
 # gpgconf
 
-> Modify .gnupg home directories
-> More information: https://www.gnupg.org/documentation/manuals/gnupg/gpgconf.html
+> Modify .gnupg home directories.
+> More information: <https://www.gnupg.org/documentation/manuals/gnupg/gpgconf.html>.
 
 - List all components:
 
