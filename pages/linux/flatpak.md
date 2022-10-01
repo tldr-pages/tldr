@@ -31,6 +31,10 @@
 
 `flatpak remove {{name}}`
 
+- Remove all unused applications:
+
+`flatpak remove --unused`
+
 - Show information about an installed application:
 
 `flatpak info {{name}}`
