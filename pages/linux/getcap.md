@@ -7,6 +7,6 @@
 
 `getcap {{path/to/file1 path/to/file2 ...}}`
 
-- Displays all searched entries even if no capabilities set:
+- Displays all searched entries even if no capabilities are set:
 
 `getcap -v {{path/to/file1 path/to/file2 ...}}`
