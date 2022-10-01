@@ -1,7 +1,7 @@
 # acountry
 
->  Print the country where an IPv4 address or hostname is located.
->  More information: <https://manned.org/acountry>.
+> Print the country where an IPv4 address or hostname is located.
+> More information: <https://manned.org/acountry>.
 
 - Print the country where an IPv4 address or host is located:
 
