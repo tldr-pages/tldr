@@ -1,4 +1,4 @@
-# projucer
+# Projucer
 
 > A project manager for JUCE framework applications.
 > More information: <https://juce.com/discover/stories/projucer-manual#10.4-command-line-tools>.
