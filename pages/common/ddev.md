@@ -21,7 +21,7 @@
 
 - Install Node.js version 12:
 
-`ddev nvm install 12`
+`ddev nvm install {{version}}`
 
 - Export a database:
 
