@@ -18,4 +18,4 @@
 
 - Test with parameters from a job file:
 
-`sudo fio {{path/to/jobfile}}`
+`sudo fio {{path/to/job_file}}`
