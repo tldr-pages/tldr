@@ -10,3 +10,4 @@
 - Displays all searched entries even if no capabilities are set:
 
 `getcap -v {{path/to/file1 path/to/file2 ...}}`
+
