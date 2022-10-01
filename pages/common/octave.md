@@ -11,7 +11,7 @@
 
 `octave {{path/to/script.m}}`
 
-- Execute a script file and pass arguments:
+- Execute a script file with arguments:
 
 `octave {{path/to/script.m}} {{arg1}} {{arg2}}`
 
