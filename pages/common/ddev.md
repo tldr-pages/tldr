@@ -27,6 +27,6 @@
 
 `ddev export-db --file=/tmp/db.sql.gz`
 
-- Update the container's apt package lists:
+- Run a specific command within a container:
 
 `ddev exec {{echo 1}}`
