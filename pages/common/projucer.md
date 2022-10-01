@@ -3,10 +3,6 @@
 > A project manager for JUCE framework applications.
 > More information: <https://juce.com/discover/stories/projucer-manual#10.4-command-line-tools>.
 
-- Show help:
-
-`projucer --help`
-
 - Display information about the project:
 
 `projucer --status`
@@ -26,3 +22,7 @@
 - Remove all JUCE-style comments (`//=====` or `//-----` or `///////`):
 
 `projucer --tidy-divider-comments {{target_folder}}`
+
+- Show help:
+
+`projucer --help`
