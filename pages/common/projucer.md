@@ -23,6 +23,6 @@
 
 `Projucer --tidy-divider-comments {{path/to/target_folder}}`
 
-- Show help:
+- Display help:
 
 `Projucer --help`
