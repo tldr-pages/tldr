@@ -5,7 +5,7 @@
 
 - Display the size of sections of object or executable file:
 
-`size {{file}}`
+`size {{path/to/file}}`
 
 - To display the size of an executable file in [o]ctal:
 
