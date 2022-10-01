@@ -1,7 +1,7 @@
 # plocate
 
 > Find filenames quickly.
-> Make sure to use the `sudo updatedb` to include new files.
+> Make sure to use `sudo updatedb` to include new files.
 > More information: <https://plocate.sesse.net>.
 
 - Look for patterns in the database (recomputed periodically):
