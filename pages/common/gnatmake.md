@@ -11,6 +11,6 @@
 
 `gnatmake -o {{executable_name}} {{source_file.adb}}`
 
-- Force recompilation:
+- [f]orce recompilation:
 
 `gnatmake -f {{source_file.adb}}`
