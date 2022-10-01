@@ -13,7 +13,7 @@
 
 - Update the version number in a project:
 
-`projucer --set-version {{version_number}} {{project_file}}`
+`projucer --set-version {{version_number}} {{path/to/project_file}}`
 
 - Generate a JUCE project from a PIP file:
 
