@@ -19,6 +19,6 @@
 
 `fastfetch --logo {{logo}}`
 
-- Set the color of the keys:
+- Set the color of the keys and title:
 
 `fastfetch --color {{blue}}`
