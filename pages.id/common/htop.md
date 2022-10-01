@@ -9,7 +9,7 @@
 
 - Mulai htop menampilkan proses yang dimiliki oleh pengguna tertentu:
 
-`htop --user {{nama pengguna}}`
+`htop --user {{nama_pengguna}}`
 
 - Urutkan proses berdasarkan `sort_item` yang ditentukan (gunakan `htop --sort help` untuk opsi yang tersedia  ):
 
