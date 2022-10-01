@@ -1,0 +1,24 @@
+# aws route53
+
+> CLI for AWS Route53 - Route 53 is a highly available and scalable Domain Name System (DNS) web service.
+> More information: https://awscli.amazonaws.com/v2/documentation/api/latest/reference/route53/index.html.
+
+- List all hosted zones, private and public:
+
+`aws route53 list-hosted-zones `
+
+- Show all records in a zone:
+
+`aws route53 list-resource-record-sets --hosted-zone-id {{zone_id}}`
+
+- Create a new, public zone:
+
+`aws route53 create-hosted-zone --name {{name}} --caller-reference {{any-text-for-your-own-reference}}`
+
+- Delete a zone (it has to be empty from any records but the default NS ones):
+
+`aws route53 delete-hosted-zone --id {{zone_id}} `
+
+- Test DNS resolving by Amazon servers of a given zone:
+
+`aws route53 test-dns-answer --hosted-zone-id {{zone_id}}  --record-name {{name}} --record-type {{type}}`
