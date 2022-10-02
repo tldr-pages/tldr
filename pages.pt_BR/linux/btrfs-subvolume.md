@@ -19,7 +19,7 @@
 
 `sudo btrfs subvolume snapshot -r {{caminho/para/subvolume_de_origem}} {{caminho/para/destino}}`
 
-- Criar um snapshot de leitura/gravação de um subvolume existente:
+- Cria um snapshot de leitura/gravação de um subvolume existente:
 
 `sudo btrfs subvolume snapshot {{caminho/para/subvolume_de_origem}} {{caminho/para/destino}}`
 
