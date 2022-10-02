@@ -23,6 +23,6 @@
 
 `octave --help`
 
-- Display version information:
+- Display version:
 
 `octave --version`
