@@ -1,7 +1,7 @@
 # getcap
 
 > Command to display the name and capabilities of each specified file.
-> More information: <https://www.man7.org/linux/man-pages/man8/getcap.8.html>.
+> More information: <https://manned.org/getcap>.
 
 - Get capabilities for the given files:
 
