@@ -13,7 +13,7 @@
 
 - Inclure les bibliothèques depuis un chemin différent du chemin par défaut :
 
-`gcc {{chemin/vers/le/fichiersource.c}} -o {{chemin/vers/l'exécutable/à/produire}} -I{{chemin/vers/les/fichiers/d'en-tête}} -L{{chemin/vers/la/bibliothèque}} -l{{bibliothèque}}
+`gcc {{chemin/vers/le/fichiersource.c}} -o {{chemin/vers/l'exécutable/à/produire}} -I{{chemin/vers/les/fichiers/d'en-tête}} -L{{chemin/vers/la/bibliothèque}} -l{{bibliothèque}}`
 
 - Compiler le code source en des instructions d'assemblage :
 
@@ -22,3 +22,4 @@
 - Compiler le code source en un fichier objet sans le lier :
 
 `gcc -c {{chemin/vers/le/fichiersource.c}}`
+

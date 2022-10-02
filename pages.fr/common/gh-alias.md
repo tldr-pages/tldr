@@ -13,7 +13,7 @@
 
 - Créer un alias de sous-commande pour `gh` :
 
-`gh alias set {{alias}} '{{commande_gh}}'
+`gh alias set {{alias}} '{{commande_gh}}`
 
 - Définir une commande shell comme sous-commande de `gh` :
 
@@ -22,3 +22,4 @@
 - Supprimer un raccourci de commande :
 
 `gh alias delete {{nom_de_l'alias}}`
+

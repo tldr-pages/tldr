@@ -34,3 +34,4 @@
 - Regarder le statut des pull requests d'un dépôt :
 
 `gh pr status`
+
