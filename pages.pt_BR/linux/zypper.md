@@ -23,6 +23,6 @@
 
 `zypper search {{palavra-chave}}`
 
-- Mostrar informações relacionadas aos repositórios configurados:
+- Mostra informações relacionadas aos repositórios configurados:
 
 `zypper repos --sort-by-priority`
