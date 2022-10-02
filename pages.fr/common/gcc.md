@@ -11,7 +11,7 @@
 
 `gcc {{chemin/vers/le/fichiersource.c}} -Wall -Og -o {{chemin/vers/l'exécutable/à/produire}}`
 
-- Inclure les bibliothèques depuis un chemin différent du chemin par défaut :
+- Inclure les bibliothèques depuis un chemin différent de celui par défaut :
 
 `gcc {{chemin/vers/le/fichiersource.c}} -o {{chemin/vers/l'exécutable/à/produire}} -I{{chemin/vers/les/fichiers/d'en-tête}} -L{{chemin/vers/la/bibliothèque}} -l{{bibliothèque}}`
 
