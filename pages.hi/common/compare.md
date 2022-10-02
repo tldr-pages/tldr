@@ -1,4 +1,4 @@
-# तुलना करना
+# compare
 
 > 2 छवियों के बीच अंतर देखें।
 > अधिक जानकारी: <https://imagemagick.org/script/compare.php>।
