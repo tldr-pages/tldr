@@ -9,8 +9,20 @@
 
 - Inicializar htop mostrando somente processos pertencentes a um usuário:
 
-`htop -u {{nome_usuário}}`
+`htop --user {{nome_usuário}}`
 
-- Obter ajuda acerca de comandos interativos:
+- Ordenar processos por um `item-de-ordenacao` (utilize `htop --sort help` para ver as opçōes disponíveis):
+
+`htop --sort {{item-de-ordenacao}}`
+
+- Ver comandos interativos enquanto roda `htop`:
 
 `?`
+
+- Mudar para uma aba diferente:
+
+`tab`
+
+- Mostrar ajuda:
+
+`htop --help`
