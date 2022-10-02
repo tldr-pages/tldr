@@ -11,7 +11,7 @@
 
 `ddev config`
 
-- Follow the log trail:
+- [f]ollow the log trail:
 
 `ddev logs -f`
 
