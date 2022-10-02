@@ -7,7 +7,7 @@
 
 `snapper list-configs`
 
-- Criar configuração do snapper:
+- Cria configuração do snapper:
 
 `snapper -c {{configuração}} create-config {{caminho/para/diretório}}`
 
