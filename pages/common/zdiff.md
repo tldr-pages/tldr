@@ -5,7 +5,7 @@
 
 - Compare two files, uncompressing them if necessary:
 
-`zdiff {{path/to/file1.txt.gz}} {{path/to/file2.txt.gz}}`
+`zdiff {{path/to/file1.gz}} {{path/to/file2.gz}}`
 
 - Invoke `diff` on `path/to/file.txt` and `path/to/file.txt.gz` (which is assumed to exist):
 
