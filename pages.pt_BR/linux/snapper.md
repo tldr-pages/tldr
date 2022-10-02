@@ -19,7 +19,7 @@
 
 `snapper -c {{configuração}} list`
 
-- Excluir um snapshot:
+- Exclue um snapshot:
 
 `snapper -c {{configuração}} delete {{número_do_snapshot}}`
 
