@@ -11,26 +11,26 @@
 
 `git branch -a`
 
-- Tunjukkan nama cabang saat ini:
+- Menampilkan nama cabang saat ini:
 
 `git branch --show-current`
 
-- Buat cabang baru berdasarkan komit saat ini:
+- Membuat cabang baru berdasarkan komit saat ini:
 
 `git branch {{nama_cabang}}`
 
-- Buat cabang baru berdasarkan komit tertentu:
+- Membuat cabang baru berdasarkan komit tertentu:
 
 `git branch {{nama_cabang}} {{hash_komit}}`
 
-- Ganti nama cabang (harus bukan cabang saat ini untuk melakukannya):
+- Mengganti nama cabang (harus bukan cabang saat ini untuk melakukannya):
 
 `git branch -m {{nama_cabang_lama}} {{nama_cabang_baru}}`
 
-- Hapus cabang lokal (harus bukan cabang saat ini untuk melakukannya):
+- Menghapus cabang lokal (harus bukan cabang saat ini untuk melakukannya):
 
 `git branch -d {{nama_cabang}}`
 
-- Hapus cabang remote:
+- Menghapus cabang remote:
 
 `git push {{nama_remote}} --delete {{nama_cabang_remote}}`
