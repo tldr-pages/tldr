@@ -11,6 +11,10 @@
 
 `adb install -r {{chemin/vers/le/fichier.apk}}`
 
+- Pousse une application Android en autorisant la rétrogradation de version (uniquement pour les paquets debuggable) :
+
+`adb install -d {{chemin/vers/le/fichier.apk}}`
+
 - Accorde toutes les permissions listées dans le manifeste de l'application :
 
 `adb install -g {{chemin/vers/le/fichier.apk}}`
