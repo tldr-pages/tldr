@@ -31,6 +31,6 @@
 
 `bundle outdated`
 
-- Crée un nouveau squelette de gemme :
+- Crée un nouveau squelette de gem :
 
 `bundle gem {{nom_de_la_gem}}`
