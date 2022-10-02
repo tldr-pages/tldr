@@ -24,6 +24,6 @@
 
 `aws quicksight describe-data-set --aws-account-id {{id_compte_aws}} --data-set-id {{id_data_set}}`
 
-- Affiche les personnes qui peuvent accéder au dataset et quels actions ils peuvent effectuer sur ce dernier :
+- Affiche les personnes qui peuvent accéder au dataset et quelles actions ils peuvent effectuer sur ce dernier :
 
 `aws quicksight describe-data-set-permissions --aws-account-id {{id_compte_aws}} --data-set-id {{id_data_set}}`
