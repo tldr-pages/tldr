@@ -11,6 +11,6 @@
 
 `ausyscall {{system_call_number}}`
 
-- Display all system calls for a specific architechture:
+- Display all system calls for a specific architecture:
 
 `ausyscall {{arch}} --dump`
