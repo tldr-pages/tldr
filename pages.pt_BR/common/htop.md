@@ -7,7 +7,7 @@
 
 `htop`
 
-- Inicializar htop mostrando somente processos pertencentes a um usuário:
+- Inicializa htop mostrando somente processos pertencentes a um usuário:
 
 `htop --user {{nome_usuário}}`
 
