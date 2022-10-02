@@ -3,13 +3,13 @@
 > Perintah Git utama untuk bekerja dengan cabang (*branch*).
 > Informasi lebih lanjut: <https://git-scm.com/docs/git-branch>.
 
-- Menampilkan daftar cabang lokal. Cabang saat ini ditandai oleh `*`:
+- Menampilkan daftar semua cabang (local dan remote; cabang saat ini ditandai oleh `*`) :
 
-`git branch`
+`git branch --all`
 
-- Menampilkan daftar semua cabang (lokal dan remote):
+- Menampilkan daftar semua cabang yang memiliki komit tertentu di dalam riwayat:
 
-`git branch -a`
+`git branch --all --contains {{hash_komit}}`
 
 - Menampilkan nama cabang saat ini:
 
