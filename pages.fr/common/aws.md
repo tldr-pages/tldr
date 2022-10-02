@@ -24,7 +24,7 @@
 
 `aws dynamodb list-tables --region {{us-east-1}} --output yaml`
 
-- Utilise l'aide automatique au remplissage pour une commande :
+- Utilise l'aide automatique au remplissage d'une commande :
 
 `aws iam create-user --cli-auto-prompt`
 
