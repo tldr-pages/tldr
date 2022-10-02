@@ -1,8 +1,8 @@
 # caffeine
 
-> Prevent Linux from sleeping.
+> Prevent Desktop from sleeping.
 > See also: `caffeinate`.
-> More information: <https://manned.org/caffeine.1>.
+> More information: <https://manned.org/caffeine>.
 
 - Keep the desktop awake while a program is running in full-screen mode:
 
