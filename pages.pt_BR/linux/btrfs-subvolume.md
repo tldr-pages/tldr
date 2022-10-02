@@ -23,6 +23,6 @@
 
 `sudo btrfs subvolume snapshot {{caminho/para/subvolume_de_origem}} {{caminho/para/destino}}`
 
-- Mostrar informações detalhadas sobre um subvolume:
+- Mostra informações detalhadas sobre um subvolume:
 
 `sudo btrfs subvolume show {{caminho/para/subvolume}}`
