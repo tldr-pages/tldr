@@ -1,7 +1,7 @@
 # msiexec
 
 > Install, update, repair, or uninstall Windows programs using MSI and MSP package files.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/msiexec>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/msiexec>.
 
 - Install a program from its MSI package:
 

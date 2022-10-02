@@ -1,7 +1,7 @@
 # dotnet tool
 
 > Manage .NET tools and search published tools in NuGet.
-> More information: <https://docs.microsoft.com/dotnet/core/tools/global-tools>.
+> More information: <https://learn.microsoft.com/dotnet/core/tools/global-tools>.
 
 - Install a global tool (don't use `--global` for local tools):
 

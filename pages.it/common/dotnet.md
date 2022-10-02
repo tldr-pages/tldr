@@ -2,7 +2,7 @@
 
 > Strumenti .NET da linea di comando multipiattaforma per .NET Core.
 > Alcuni comandi aggiuntivi, come `dotnet build`, hanno la propria documentazione.
-> Maggiori informazioni: <https://docs.microsoft.com/dotnet/core/tools>.
+> Maggiori informazioni: <https://learn.microsoft.com/dotnet/core/tools>.
 
 - Inizializza un nuovo progetto .NET:
 

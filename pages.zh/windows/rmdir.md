@@ -1,7 +1,7 @@
 # rmdir
 
 > 删除一个目录和其中的内容。
-> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/rmdir>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/rmdir>.
 
 - 删除一个空目录：
 

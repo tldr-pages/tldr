@@ -1,7 +1,7 @@
 # reg compare
 
 > Compare keys and their values in the registry.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/reg-compare>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg-compare>.
 
 - Compare all values under a specific key with a second key:
 

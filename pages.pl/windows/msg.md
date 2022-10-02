@@ -1,7 +1,7 @@
 # msg
 
 > Wyślij wiadomość do wybranego użytnownika lub sesji:
-> Więcej informacji: <https://docs.microsoft.com/windows-server/administration/windows-commands/msg>.
+> Więcej informacji: <https://learn.microsoft.com/windows-server/administration/windows-commands/msg>.
 
 - Wysyła wiadomość do użytkownika lub sesji:
 

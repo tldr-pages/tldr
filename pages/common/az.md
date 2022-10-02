@@ -2,7 +2,7 @@
 
 > The official CLI tool for Microsoft Azure.
 > Some subcommands such as `az login` have their own usage documentation.
-> More information: <https://docs.microsoft.com/cli/azure>.
+> More information: <https://learn.microsoft.com/cli/azure>.
 
 - Log in to Azure:
 
