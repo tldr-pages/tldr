@@ -15,7 +15,7 @@
 
 `snapper -c {{configuração}} create -d "{{descrição_do_snapshot}}"`
 
-- Listar snapshots para uma configuração:
+- Lista snapshots para uma configuração:
 
 `snapper -c {{configuração}} list`
 
