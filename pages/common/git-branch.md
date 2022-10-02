@@ -23,6 +23,10 @@
 
 `git branch {{branch_name}} {{commit_hash}}`
 
+- Rename a current branch:
+
+`git branch -m {{new_branch_name}}`
+
 - Rename a branch (must not have it checked out to do this):
 
 `git branch -m {{old_branch_name}} {{new_branch_name}}`
@@ -30,6 +34,10 @@
 - Delete a local branch (must not have it checked out to do this):
 
 `git branch -d {{branch_name}}`
+
+- Force delete a local branch (must not have it checked out to do this):
+
+`git branch -D {{branch_name}}`
 
 - Delete a remote branch:
 
