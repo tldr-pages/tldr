@@ -15,7 +15,7 @@
 
 `paru -Sua`
 
-- Obter informações sobre um pacote:
+- Obtém informações sobre um pacote:
 
 `paru -Si {{nome_do_pacote}}`
 
