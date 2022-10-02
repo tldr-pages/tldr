@@ -422,7 +422,7 @@ Not translated yet.
 
 > 這是 `example` 命令的一個別名。
 
-- 原命令的文檔在：
+- 原命令的文件在：
 
 `tldr example`
 ```
