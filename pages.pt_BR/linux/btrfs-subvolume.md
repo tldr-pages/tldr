@@ -11,7 +11,7 @@
 
 `sudo btrfs subvolume list {{caminho/para/sistema_de_arquivos_btrfs}}`
 
-- Excluir um subvolume:
+- Exclui um subvolume:
 
 `sudo btrfs subvolume delete {{caminho/para/subvolume}}`
 
