@@ -19,6 +19,6 @@
 
 `certutil -A -n "Server-cert" -t ",," -i server.crt -d .`
 
-- To add subject alternative names, use a comma seperated list with the option -8 IE:
+- To add subject alternative names, use a comma separated list with the option -8 IE:
 
 `certutil -S -f pwdfile.txt -d . -t ",," -c "Server-Cert" -n "server1" -g 2048 -s "CN=testuser1,O=testrelm.test"`
