@@ -19,6 +19,6 @@
 
 `gh alias set --shell {{nom_de_l'alias}} {{commande}}`
 
-- Supprimer un raccourci de commande :
+- Supprimer un alias :
 
 `gh alias delete {{nom_de_l'alias}}`
