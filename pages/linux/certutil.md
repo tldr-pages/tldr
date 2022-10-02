@@ -3,19 +3,19 @@
 > Manage keys and certificate in both NSS databases and other NSS tokens.
 > More information: <https://manpages.ubuntu.com/manpages/xenial/man1/certutil.1.html>.
 
-- Create a new certificate database
+- Create a new certificate database:
 
 `certutil -N -d .`
 
-- List all certificates in a database
+- List all certificates in a database:
 
 `certutil -L -d .`
 
-- List all private keys in a database
+- List all private keys in a database:
 
 `certutil -K -d . -f pwdfile.txt`
 
-- Import the signed certificate into the requesters database
+- Import the signed certificate into the requesters database:
 
 `certutil -A -n "Server-cert" -t ",," -i server.crt -d .`
 
