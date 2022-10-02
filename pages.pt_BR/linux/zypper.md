@@ -19,7 +19,7 @@
 
 `zypper update`
 
-- Pesquisar pacote por palavra-chave:
+- Pesquisa pacote por palavra-chave:
 
 `zypper search {{palavra-chave}}`
 
