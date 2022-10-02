@@ -15,6 +15,6 @@
 
 `mosquitto --port {{8883}}`
 
-- Colocar como um processo rodando em background:
+- Cria um processo rodando em background:
 
 `mosquitto --daemon`
