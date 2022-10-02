@@ -1,4 +1,4 @@
-#rmdir
+# rmdir
 
 > निर्देशिका को हटाता है।
 > अधिक जानकारी: <https://www.gnu.org/software/coreutils/rmdir>।
