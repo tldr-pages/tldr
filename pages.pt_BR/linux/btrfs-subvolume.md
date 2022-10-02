@@ -1,0 +1,28 @@
+# btrfs subvolume
+
+> Gerencia subvolumes e snapshots btrfs.
+> Mais informações: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-subvolume>.
+
+- Criar um novo subvolume vazio:
+
+`sudo btrfs subvolume create {{caminho/para/novo_subvolume}}`
+
+- Listar todos os subvolumes e snapshots no sistema de arquivos especificado:
+
+`sudo btrfs subvolume list {{caminho/para/sistema_de_arquivos_btrfs}}`
+
+- Excluir um subvolume:
+
+`sudo btrfs subvolume delete {{caminho/para/subvolume}}`
+
+- Criar um snapshot somente leitura de um subvolume existente:
+
+`sudo btrfs subvolume snapshot -r {{caminho/para/subvolume_de_origem}} {{caminho/para/destino}}`
+
+- Criar um snapshot de leitura/gravação de um subvolume existente:
+
+`sudo btrfs subvolume snapshot {{caminho/para/subvolume_de_origem}} {{caminho/para/destino}}`
+
+- Mostrar informações detalhadas sobre um subvolume:
+
+`sudo btrfs subvolume show {{caminho/para/subvolume}}`
