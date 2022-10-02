@@ -1,7 +1,7 @@
 # certutil
 
 > Manage keys and certificate in both NSS databases and other NSS tokens.
-> More information: <https://manpages.ubuntu.com/manpages/xenial/man1/certutil.1.html>.
+> More information: <https://manned.org/certutil>.
 
 - Create a new certificate database:
 
@@ -17,8 +17,8 @@
 
 - Import the signed certificate into the requesters database:
 
-`certutil -A -n "Server-cert" -t ",," -i server.crt -d .`
+`certutil -A -n "Server-cert" -t ",," -i {{path/to/file.crt}} -d .`
 
-- To add subject alternative names, use a comma separated list with the option -8 IE:
+- Add subject alternative names to a given certificate:
 
 `certutil -S -f pwdfile.txt -d . -t ",," -c "Server-Cert" -n "server1" -g 2048 -s "CN=testuser1,O=testrelm.test"`
