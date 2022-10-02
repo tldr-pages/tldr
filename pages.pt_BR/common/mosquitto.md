@@ -7,7 +7,7 @@
 
 `mosquitto`
 
-- Especificar um arquivo de configuração para usar:
+- Especifica um arquivo de configuração para usar:
 
 `mosquitto --config-file {{caminho/para/arquivo/configuracao.conf}}`
 
