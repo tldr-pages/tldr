@@ -1,6 +1,6 @@
 # caffeinate
 
-> Keep the desktop awake.
+> Prevent Linux from sleeping.
 > See also: `caffeine`.
 > More information: <https://manned.org/caffeinate.1>.
 
