@@ -11,7 +11,7 @@
 
 `mosquitto --config-file {{caminho/para/arquivo/configuracao.conf}}`
 
-- Escutar em uma porta específica:
+- Escuta em uma porta específica:
 
 `mosquitto --port {{8883}}`
 
