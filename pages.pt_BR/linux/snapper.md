@@ -11,7 +11,7 @@
 
 `snapper -c {{configuração}} create-config {{caminho/para/diretório}}`
 
-- Criar um snapshot com uma descrição:
+- Cria um snapshot com uma descrição:
 
 `snapper -c {{configuração}} create -d "{{descrição_do_snapshot}}"`
 
