@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - name: Setup Python
-      uses: actions/setup-python@v3
+      uses: actions/setup-python@v4
       with:
         python-version: 3.8
 
@@ -40,7 +40,7 @@ jobs:
 
     - name: Setup Python for PDF generation
       if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
         python-version: '3.x'
 
