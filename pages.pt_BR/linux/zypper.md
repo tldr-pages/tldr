@@ -11,7 +11,7 @@
 
 `zypper install {{pacote}}`
 
-- Remover um pacote:
+- Remove um pacote:
 
 `zypper remove {{pacote}}`
 
