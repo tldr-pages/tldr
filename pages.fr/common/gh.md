@@ -4,34 +4,34 @@
 > Certaines commandes comme `gh config` ont leur propre documentation.
 > Plus d'informations : <https://cli.github.com/>.
 
-- Cloner un dépôt GitHub localement :
+- Clone un dépôt GitHub localement :
 
 `gh repo clone {{utilisateur}}/{{dépôt}}`
 
-- Créer une nouvelle issue :
+- Crée une nouvelle issue :
 
 `gh issue create`
 
-- Voir et filtrer les issues ouvertes du dépôt courant :
+- Affiche et filtre les issues ouvertes du dépôt courant :
 
 `gh issue list`
 
-- Voir une issue dans le navigateur Web par défaut :
+- Affiche une issue dans le navigateur Web par défaut :
 
 `gh issue view --web {{numéro_de_l'issue}}`
 
-- Créer une pull request :
+- Crée une pull request :
 
 `gh pr create`
 
-- Voiir une pull request dans le navigateur Web par défaut :
+- Affiche une pull request dans le navigateur Web par défaut :
 
 `gh pr view --web {{numéro_de_la_PR}}`
 
-- Observer une pull request spécifique localement :
+- Observe une pull request spécifique localement :
 
 `gh pr checkout {{numéro_de_la_PR}}`
 
-- Regarder le statut des pull requests du dépôt courant:
+- Affiche le statut des pull requests du dépôt courant:
 
 `gh pr status`
