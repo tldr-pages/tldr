@@ -15,7 +15,7 @@
 
 `htop --sort {{item-de-ordenacao}}`
 
-- Ver comandos interativos enquanto roda `htop`:
+- Vê comandos interativos enquanto roda `htop`:
 
 `?`
 
