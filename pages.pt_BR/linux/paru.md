@@ -19,7 +19,7 @@
 
 `paru -Si {{nome_do_pacote}}`
 
-- Fazer o download do `PKGBUILD` e outros arquivos de origem do pacote do AUR ou ABS:
+- Faz o download do `PKGBUILD` e outros arquivos de origem do pacote do AUR ou ABS:
 
 `paru --getpkgbuild {{nome_do_pacote}}`
 
