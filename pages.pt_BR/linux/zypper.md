@@ -3,7 +3,7 @@
 > Utilitário de gerenciamento de pacotes SUSE e openSUSE.
 > Mais informações: <https://en.opensuse.org/SDB:Zypper_manual>.
 
-- Sincronizar a lista de pacotes e versões disponíveis:
+- Sincroniza a lista de pacotes e versões disponíveis:
 
 `zypper refresh`
 
