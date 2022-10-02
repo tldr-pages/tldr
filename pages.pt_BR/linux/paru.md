@@ -3,7 +3,7 @@
 > Um auxiliar do AUR e um wrapper do pacman.
 > Mais informações: <https://github.com/Morganamilo/paru>.
 
-- Pesquisar e instalar interativamente um pacote:
+- Pesquisa e instala interativamente um pacote:
 
 `paru {{nome_do_pacote_ou_termo_de_pesquisa}}`
 
