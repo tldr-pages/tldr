@@ -7,7 +7,7 @@
 
 `zypper refresh`
 
-- Instalar um novo pacote:
+- Instala um novo pacote:
 
 `zypper install {{pacote}}`
 
