@@ -9,7 +9,7 @@
 
 - Especifica um arquivo de configuração para usar:
 
-`mosquitto --config-file {{caminho/para/arquivo/configuracao.conf}}`
+`mosquitto --config-file {{caminho/para/arquivo.conf}}`
 
 - Escuta em uma porta específica:
 
