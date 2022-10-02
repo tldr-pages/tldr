@@ -11,7 +11,7 @@
 
 `as {{fichier.s}} -p {{sortie.o}}`
 
-- Génerer la sortie plus vite en évitant le preprocess des espaces et des commentaires (doit seulemeent être utilisé sur des compilateurs sûrs) :
+- Génerer la sortie plus vite en évitant le preprocess des espaces et des commentaires (doit seulement être utilisé sur des compilateurs sûrs) :
 
 `as -f {{fichier.s}}`
 
