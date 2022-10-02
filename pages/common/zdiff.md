@@ -1,7 +1,7 @@
 # zdiff
 
 > Invoke `diff` on gzipped files.
-> More information: <https://www.gnu.org/software/gzip/manual/gzip.html>.
+> More information: <https://manned.org/zdiff>.
 
 - Compare two files, uncompressing them if necessary:
 
