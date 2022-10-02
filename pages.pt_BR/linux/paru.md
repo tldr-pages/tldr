@@ -7,7 +7,7 @@
 
 `paru {{nome_do_pacote_ou_termo_de_pesquisa}}`
 
-- Sincronizar e atualizar todos os pacotes:
+- Sincroniza e atualizar todos os pacotes:
 
 `paru`
 
