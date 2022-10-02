@@ -7,7 +7,7 @@
 
 `sudo btrfs subvolume create {{caminho/para/novo_subvolume}}`
 
-- Listar todos os subvolumes e snapshots no sistema de arquivos especificado:
+- Lista todos os subvolumes e snapshots no sistema de arquivos especificado:
 
 `sudo btrfs subvolume list {{caminho/para/sistema_de_arquivos_btrfs}}`
 
