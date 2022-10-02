@@ -11,7 +11,7 @@
 
 `paru`
 
-- Atualizar pacotes do AUR:
+- Atualiza pacotes do AUR:
 
 `paru -Sua`
 
