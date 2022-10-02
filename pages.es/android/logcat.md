@@ -1,16 +1,16 @@
 # logcat
 
-> Vuelca un registro de mensajes del sistema, incluidos los seguimientos de pila, los casos de error del sistema y los mensajes que escribes desde tu app con la clase Log.
+> Vuelca un registro de mensajes del sistema, incluyendo seguimientos de pila cuando ocurren errores, y mensajes informativos enviados por las aplicaciones.
 > Más información: <https://developer.android.com/studio/command-line/logcat>.
 
-- Mostrar registros del sistema:
+- Muestra registros del sistema:
 
 `logcat`
 
-- Escribir registros del sistema a un archivo:
+- Escribe registros del sistema a un archivo:
 
 `logcat -f {{ruta/al/archivo}}`
 
-- Mostrar líneas que coincidan con una expresión regular:
+- Muestra líneas que coincidan con una expresión regular:
 
 `logcat --regex {{expresión_regular}}`
