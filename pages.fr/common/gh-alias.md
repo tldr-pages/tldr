@@ -22,4 +22,3 @@
 - Supprimer un raccourci de commande :
 
 `gh alias delete {{nom_de_l'alias}}`
-

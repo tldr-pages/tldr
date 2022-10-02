@@ -14,4 +14,3 @@
 - Créer une archive si elle n'existe pas et y ajouter des fichiers :
 
 `ark --add-to {{archive}} {{fichier1}} {{fichier2}} ...`
-

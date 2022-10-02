@@ -22,4 +22,3 @@
 - Affiche un calendrier pour un mois et une année en particulier :
 
 `cal {{mois}} {{année}}`
-

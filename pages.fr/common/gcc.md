@@ -22,4 +22,3 @@
 - Compiler le code source en un fichier objet sans le lier :
 
 `gcc -c {{chemin/vers/le/fichiersource.c}}`
-
