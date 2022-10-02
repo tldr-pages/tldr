@@ -25,7 +25,7 @@
 
 - Export a database:
 
-`ddev export-db --file=/tmp/db.sql.gz`
+`ddev export-db --file={{/tmp/db.sql.gz}}`
 
 - Run a specific command within a container:
 
