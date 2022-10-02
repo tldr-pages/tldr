@@ -3,7 +3,7 @@
 > Gerencia subvolumes e snapshots btrfs.
 > Mais informações: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-subvolume>.
 
-- Criar um novo subvolume vazio:
+- Cria um novo subvolume vazio:
 
 `sudo btrfs subvolume create {{caminho/para/novo_subvolume}}`
 
