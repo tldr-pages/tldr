@@ -23,6 +23,6 @@
 
 `snapper -c {{configuração}} delete {{número_do_snapshot}}`
 
-- Excluir um intervalo de snapshots:
+- Exclue um intervalo de snapshots:
 
 `snapper -c {{configuração}} delete {{snapshot_X}}-{{snapshot_Y}}`
