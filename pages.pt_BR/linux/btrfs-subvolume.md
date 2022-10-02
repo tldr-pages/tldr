@@ -15,7 +15,7 @@
 
 `sudo btrfs subvolume delete {{caminho/para/subvolume}}`
 
-- Criar um snapshot somente leitura de um subvolume existente:
+- Cria um snapshot somente leitura de um subvolume existente:
 
 `sudo btrfs subvolume snapshot -r {{caminho/para/subvolume_de_origem}} {{caminho/para/destino}}`
 
