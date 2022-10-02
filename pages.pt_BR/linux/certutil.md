@@ -1,7 +1,7 @@
 # certutil
 
 > Gerencie chaves e certificados em bancos de dados e tokens NSS
-> Mais informações: <https://manpages.ubuntu.com/manpages/xenial/man1/certutil.1.html>.
+> Mais informações: <https://manned.org/certutil>.
 
 - Criar um novo banco de dados de certificados:
 
@@ -17,8 +17,8 @@
 
 - Importar o certificado assinado para o banco de dados dos solicitantes:
 
-`certutil -A -n "Server-cert" -t ",," -i server.crt -d .`
+`certutil -A -n "Server-cert" -t ",," -i {{path/to/file.crt}} -d .`
 
-- Para adicionar nomes de assunto alternativos, use uma list separada por vírgulas com a opção -8 IE:
+- Adicionar nomes de assunto a um determinado certificado:
 
 `certutil -S -f pwdfile.txt -d . -t ",," -c "Server-Cert" -n "server1" -g 2048 -s "CN=testuser1,O=testrelm.test"`
