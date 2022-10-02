@@ -1,9 +1,9 @@
 # zcmp
 
-> Invoke `cmp` on gzipped files.
-> More information: <https://www.gnu.org/software/gzip/manual/gzip.html>.
+> Compare compressed files.
+> More information: <https://manned.org/zcmp>.
 
-- Invoke `cmp` on two files, uncompressing them if necessary:
+- Invoke `cmp` on two files compressed via `gzip`:
 
 `zcmp {{path/to/file1.txt.gz}} {{path/to/file2.txt.gz}}`
 
