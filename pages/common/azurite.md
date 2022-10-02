@@ -13,7 +13,7 @@
 
 - Enable [d]ebug log by providing a file path as log destination:
 
-`azurite {{-d|--debug}}{{path/to/debug.log}}`
+`azurite {{-d|--debug}} {{path/to/debug.log}}`
 
 - Customize the listening address of Blob/Queue/Table service:
 
