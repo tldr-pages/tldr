@@ -3,7 +3,7 @@
 > Ferramenta de gerenciamento de snapshots do sistema de arquivos.
 > Mais informações: <http://snapper.io/manpages/snapper.html>.
 
-- Listar configurações de snapshots:
+- Lista configurações de snapshots:
 
 `snapper list-configs`
 
