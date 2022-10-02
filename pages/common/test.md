@@ -20,9 +20,6 @@
 
 `test ! -d "{{path/to/directory}}"`
 
-- If-else statement:
+- If A is true, then do B, or C in the case of an error (notice that C may run even if A fails):
 
 `test {{condition}} && {{echo "true"}} || {{echo "false"}}`
-
-(Please, notice that in the above example `{{echo "false"}}` is evaluated and executed if **either** `{{condition}}` fails **or** `{{echo "true"}}` fails.\n
-So, it is unsafe to use and `test {{condition}}; then {{echo "true}}; else {{echo "false"}}` would be the safest option.)
