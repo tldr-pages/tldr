@@ -19,7 +19,7 @@
 
 `?`
 
-- Mudar para uma aba diferente:
+- Muda para uma aba diferente:
 
 `tab`
 
