@@ -23,6 +23,6 @@
 
 `tab`
 
-- Mostrar ajuda:
+- Mostra ajuda:
 
 `htop --help`
