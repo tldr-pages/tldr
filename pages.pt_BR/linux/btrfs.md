@@ -6,6 +6,7 @@
 > Mais informações: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs>.
 
 - Cria subvolume:
+
 `sudo btrfs subvolume create {{caminho/para/subvolume}}`
 
 - Lista subvolumes:
