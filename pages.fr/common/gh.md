@@ -32,6 +32,6 @@
 
 `gh pr checkout {{numéro_de_la_PR}}`
 
-- Regarder le statut des pull requests d'un dépôt :
+- Regarder le statut des pull requests du dépôt courant:
 
 `gh pr status`
