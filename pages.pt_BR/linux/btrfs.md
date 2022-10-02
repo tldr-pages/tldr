@@ -1,4 +1,3 @@
-
 # btrfs
 
 > Um sistema de arquivos baseado no princípio copy-on-write (COW) para Linux.
