@@ -11,11 +11,11 @@
 
 `cat {{file}} | aspell list`
 
-- Zeige verfügbare Wörterbücher Sprachen:
+- Zeige verfügbare Wörterbuchsprachen:
 
 `aspell dicts`
 
-- Nutze aspell mit einem anderen Wörterbuch (nimmt 2-Buchstaben-Sprachkürzel laut ISO 639 Sprach Code):
+- Nutze aspell mit einem anderen Wörterbuch (nimmt 2-Zeichen-Locale laut ISO 639 Sprach Code):
 
 `aspell --lang={{cs}}`
 
