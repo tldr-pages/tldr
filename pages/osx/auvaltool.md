@@ -1,6 +1,6 @@
 # auvaltool
 
-> Mac OS X AudioUnit validation tool.
+> AudioUnit validation tool for Mac.
 > More information: <https://www.unix.com/man-page/mojave/1/auvaltool>.
 
 - List all available AudioUnits of any type:
