@@ -25,4 +25,4 @@
 
 - Attach a network interface to a specific VM:
 
-`nova interface-attach --net-id <net_id> <server>`
+`nova interface-attach --net-id {{net_id}} {{server}}`
