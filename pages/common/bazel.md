@@ -3,10 +3,6 @@
 > Open-source build and test tool similar to Make, Maven, and Gradle.
 > More information: <https://bazel.build/reference/command-line-reference>.
 
-- Show available commands and usage:
-
-`bazel help`
-
 - Display runtime info about the bazel server:
 
 `bazel info`
@@ -26,3 +22,7 @@
 - Stop the bazel server:
 
 `bazel shutdown`
+
+- Show available commands and usage:
+
+`bazel help`
