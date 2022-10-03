@@ -1,7 +1,6 @@
 # psexec
 
 > Execute a command-line process on a remote machine.
-
 > More information: <https://learn.microsoft.com/en-us/sysinternals/downloads/psexec>.
 
 - Usage:
