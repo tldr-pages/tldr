@@ -21,7 +21,7 @@
 
 - Start a server:
 
-`nova start <server>`
+`nova start {{server}}`
 
 - Attach a network interface to a specific VM:
 
