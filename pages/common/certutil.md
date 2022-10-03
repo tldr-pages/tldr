@@ -21,4 +21,4 @@
 
 - Add subject alternative names to a given certificate:
 
-`certutil -S -f pwdfile.txt -d . -t ",," -c "Server-Cert" -n "server1" -g 2048 -s "CN=testuser1,O=testrelm.test"`
+`certutil -S -f {{path/to/pwdfile.txt}} -d . -t ",," -c "{{Server-Cert}}" -n "{{server1}}" -g {{2048}} -s "CN={{testuser1}},O={{testrelm.test}}"`
