@@ -11,6 +11,6 @@
 
 `git pull --rebase`
 
-- Unduh perubahan dari repositori remote dan cabang yang diberikan, kemudian menggabungkannya ke KEPALA:
+- Unduh perubahan dari repositori remote dan cabang yang diberikan, kemudian menggabungkannya ke HEAD:
 
 `git pull {{nama_remote}} {{cabang}}`
