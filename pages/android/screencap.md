@@ -6,4 +6,4 @@
 
 - Take a screenshot:
 
-`adb shell screencap filename`
+`adb shell screencap filename`.
