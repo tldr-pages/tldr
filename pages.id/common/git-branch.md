@@ -3,11 +3,11 @@
 > Perintah Git utama untuk bekerja dengan cabang (_branch_).
 > Informasi lebih lanjut: <https://git-scm.com/docs/git-branch>.
 
-- Tampil daftar semua cabang (local dan remote; cabang saat ini ditandai oleh `*`) :
+- Tampil daftar semua cabang (lokal dan remote; cabang saat ini ditandai oleh `*`) :
 
 `git branch --all`
 
-- Tampil daftar semua cabang yang memiliki komit tertentu di dalam riwayat:
+- Tampil daftar semua cabang yang memiliki komit Git tertentu di dalam riwayat:
 
 `git branch --all --contains {{hash_komit}}`
 
