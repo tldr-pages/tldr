@@ -1,7 +1,7 @@
 # rmdir
 
 > Remove a directory and its contents.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/rmdir>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/rmdir>.
 
 - Remove an empty directory:
 

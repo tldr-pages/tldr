@@ -1,7 +1,7 @@
 # findstr
 
 > Find specified text within one or more files.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/findstr>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/findstr>.
 
 - Find space-separated string(s) in all files:
 

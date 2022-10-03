@@ -1,7 +1,7 @@
 # whoami
 
 > Affiche des détails sur l'utilisateur courant.
-> Plus d'informations : <https://docs.microsoft.com/windows-server/administration/windows-commands/whoami>.
+> Plus d'informations : <https://learn.microsoft.com/windows-server/administration/windows-commands/whoami>.
 
 - Affiche le nom de l'utilisateur courant :
 

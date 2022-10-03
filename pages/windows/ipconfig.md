@@ -1,7 +1,7 @@
 # ipconfig
 
 > Display and manage the network configuration of Windows.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/ipconfig>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/ipconfig>.
 
 - Show a list of network adapters:
 

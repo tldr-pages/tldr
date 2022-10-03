@@ -1,7 +1,7 @@
 # rdpsign
 
 > A tool for signing Remote Desktop Protocol (RDP) files.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/rdpsign>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/rdpsign>.
 
 - Sign an RDP file:
 
