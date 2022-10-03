@@ -7,6 +7,6 @@
 
 `zdiff {{path/to/file1.gz}} {{path/to/file2.gz}}`
 
-- Invoke `diff` on `path/to/file.txt` and `path/to/file.txt.gz` (which is assumed to exist):
+- Compare a file to a gzipped archive with the same name:
 
-`zdiff {{path/to/file.txt}}`
+`zdiff {{path/to/file}}`
