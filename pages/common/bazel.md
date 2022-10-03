@@ -23,6 +23,6 @@
 
 `bazel clean`
 
-- Stops the bazel server:
+- Stop the bazel server:
 
 `bazel shutdown`
