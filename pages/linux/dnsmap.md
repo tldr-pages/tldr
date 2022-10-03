@@ -11,7 +11,7 @@
 
 `dnsmap {{example.com}} -w {{/path/to/wordlist.txt}}`
 
-- Store results in a CSV file:
+- Store results to a CSV file:
 
 `dnsmap {{example.com}} -c {{/path/to/file.csv}}`
 
