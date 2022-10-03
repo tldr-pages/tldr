@@ -4,7 +4,7 @@
 > This is an advanced command and it might potentially be dangerous.
 > More information: <https://learn.microsoft.com/en-us/sysinternals/downloads/psexec>.
 
-- Execute a command using cmd in a remote shell:
+- Execute a command using `cmd` in a remote shell:
 
 `psexec \\{{remote_host}} cmd`
 
