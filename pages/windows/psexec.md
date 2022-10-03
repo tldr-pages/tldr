@@ -20,6 +20,6 @@
 
 `psexec \\{{remote_host}} -d -i {{program_name}}`
 
-- Example:
+- Display the IP configuration of the remote host:
 
 `psexec \\{{remote_host}} ipconfig /all`
