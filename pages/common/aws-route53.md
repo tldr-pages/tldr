@@ -11,7 +11,7 @@
 
 `aws route53 list-resource-record-sets --hosted-zone-id {{zone_id}}`
 
-- Create a new, public zone:
+- Create a new, public zone using a request identifier to retry the operation safely:
 
 `aws route53 create-hosted-zone --name {{name}} --caller-reference {{request_identifier}}`
 
