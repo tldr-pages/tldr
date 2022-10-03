@@ -7,6 +7,10 @@
 
 `warpd --normal`
 
+- Run warpd in hint mode:
+
+`warpd --hint`
+
 - Move cursor left:
 
 `h`
@@ -26,7 +30,3 @@
 - Emulate left click:
 
 `m`
-
-- Run warpd in hint mode:
-
-`warpd --hint`
