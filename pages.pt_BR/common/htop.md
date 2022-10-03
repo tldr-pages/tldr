@@ -13,7 +13,7 @@
 
 - Ordena processos por um `item-de-ordenacao` (utilize `htop --sort help` para ver as opçōes disponíveis):
 
-`htop --sort {{item-de-ordenacao}}`
+`htop --sort {{item_de_ordenacao}}`
 
 - Vê comandos interativos enquanto roda `htop`:
 
