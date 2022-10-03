@@ -5,4 +5,4 @@
 
 - Uruchom program Java:
 
-`dalvikvm -classpath {{path/to/file.jar}} {{classname}}`
+`dalvikvm -classpath {{ścieżka/do/pliku.jar}} {{nazwaklasy}}`

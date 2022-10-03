@@ -10,7 +10,7 @@
 
 - Uzyskaj dane diagnostyczne dla określonej usługi systemowej:
 
-`dumpsys {{service}}`
+`dumpsys {{usługa}}`
 
 - Lista wszystkich usług, o których `dumpsys` może dać informacje:
 
@@ -18,12 +18,12 @@
 
 - Lista argumentów specyficznych dla usługi:
 
-`dumpsys {{service}} -h`
+`dumpsys {{usługa}} -h`
 
 - Wykluczenie określonej usługi z wyjścia diagnostycznego:
 
-`dumpsys --skip {{service}}`
+`dumpsys --skip {{usługa}}`
 
 - Określenie czasu oczekiwania w sekundach (domyślnie 10s):
 
-`dumpsys -t {{seconds}}`
+`dumpsys -t {{sekundy}}`

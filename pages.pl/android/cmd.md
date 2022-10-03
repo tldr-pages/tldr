@@ -13,4 +13,4 @@
 
 - Uruchom usługę z argumentami:
 
-`cmd {{vibrator}} {{vibrate 300}}`
+`cmd {{wibrator}} {{wibruj 300}}`
