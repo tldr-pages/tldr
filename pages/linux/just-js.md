@@ -1,6 +1,6 @@
 # just
 
-> A V8 JavaScript runtime for Linux only.
+> A V8 JavaScript runtime for Linux.
 > More information: <https://github.com/just-js/just>.
 
 - Start a REPL (interactive shell):
