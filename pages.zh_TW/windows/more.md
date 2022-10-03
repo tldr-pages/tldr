@@ -1,7 +1,7 @@
 # more
 
 > 分頁顯示標準輸入或文件的輸出。
-> 更多資訊：<https://docs.microsoft.com/windows-server/administration/windows-commands/more>.
+> 更多資訊：<https://learn.microsoft.com/windows-server/administration/windows-commands/more>.
 
 - 分頁顯示標準輸入的輸出：
 
