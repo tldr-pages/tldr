@@ -9,7 +9,7 @@
 
 - Klon repositori yang ada ke direktori tertentu:
 
-`git clone {{lokasi_repositori_remote}} {{alamat/ke/direktori}}`
+`git clone {{lokasi_repositori_remote}} {{jalan/menuju/direktori}}`
 
 - Klon repositori yang ada dan submodulnya:
 
@@ -17,7 +17,7 @@
 
 - Klon repositori lokal:
 
-`git clone -l {{alamat/ke/repositori/lokal}}`
+`git clone -l {{jalan/menuju/repositori/lokal}}`
 
 - Klon dengan senyap:
 
@@ -33,4 +33,4 @@
 
 - Klon repositori yang sudah ada menggunakan perintah SSH tertentu:
 
-`git clone --config core.sshCommand="{{ssh -i alamat/ke/kunci_ssh_pribadi}}" {{lokasi_repositori_remote}}`
+`git clone --config core.sshCommand="{{ssh -i jalan/menuju/kunci_ssh_pribadi}}" {{lokasi_repositori_remote}}`
