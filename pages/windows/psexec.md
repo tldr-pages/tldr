@@ -1,14 +1,25 @@
-# psexec
+# PsExec
 
 > Execute a command-line process on a remote machine.
+> This is an advanced command and it might potentially be dangerous.
 > More information: <https://learn.microsoft.com/en-us/sysinternals/downloads/psexec>.
 
-- Usage:
+- Execute a command using cmd in a remote shell:
 
-`psexec [\\computer[,computer2[,...] | @file]][-u user [-p psswd][-n s][-r servicename][-h][-l][-s|-e][-x][-i [session]][-c executable [-f|-v]][-w directory][-d][-<priority>][-a n,n,...] cmd [arguments]`
+`psexec \\{{remote_host}} cmd`
 
-- Parameters / Descriptions:
+- Execute a command on a remote computer:
 
-`computer :  The computer on which psexec will run command.` 
-              
-`command :  Name of the program to execute on the remote machine.`
+`psexec \\{{remote_host}} -u {{user_name}} -p {{password}}`
+
+- Execute a command remotely and output the result to a file:
+
+`psexec \\{{remote_host}} cmd /c {{command}} -an ^>{{path/to/file.txt}}`
+
+- Execute a program to interact with users:
+
+`psexec \\{{remote_host}} -d -i {{program_name}}`
+
+- Example:
+
+`psexec \\{{remote_host}} ipconfig /all`
