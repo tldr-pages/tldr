@@ -17,7 +17,7 @@
 
 - Replace an existing machine (requires archiving it):
 
-`qm create {{100}} --archive {{/path/to/backup_file.tar}} --force 1`
+`qm create {{100}} --archive {{path/to/backup_file.tar}} --force 1`
 
 - Specify a script that is executed on specific triggers during machine lifetime:
 
