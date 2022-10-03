@@ -13,7 +13,7 @@
 
 - Create a new, public zone:
 
-`aws route53 create-hosted-zone --name {{name}} --caller-reference {{any-text-for-your-own-reference}}`
+`aws route53 create-hosted-zone --name {{name}} --caller-reference {{request_identifier}}`
 
 - Delete a zone (it has to be empty from any records but the default NS ones):
 
