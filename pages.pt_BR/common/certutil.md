@@ -13,12 +13,12 @@
 
 - Listar todas as chaves privadas em um banco de dados:
 
-`certutil -K -d . -f pwdfile.txt`
+`certutil -K -d . -f {{caminho/para/pwdfile.txt}}`
 
 - Importar o certificado assinado para o banco de dados dos solicitantes:
 
-`certutil -A -n "Server-cert" -t ",," -i {{path/to/file.crt}} -d .`
+`certutil -A -n "{{Server-cert}}" -t ",," -i {{path/to/file.crt}} -d .`
 
 - Adicionar nomes de assunto a um determinado certificado:
 
-`certutil -S -f pwdfile.txt -d . -t ",," -c "Server-Cert" -n "server1" -g 2048 -s "CN=testuser1,O=testrelm.test"`
+`certutil -S -f {{caminho/para/pwdfile.txt}} -d . -t ",," -c "{{Server-Cert}}" -n "{{server1}}" -g {{2048}} -s "CN={{testuser1}},O={{testrelm.test}}"`
