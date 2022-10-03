@@ -1,17 +1,17 @@
 # git branch
 
-> Perintah Git utama untuk bekerja dengan cabang (*branch*).
+> Perintah Git utama untuk bekerja dengan cabang (_branch_).
 > Informasi lebih lanjut: <https://git-scm.com/docs/git-branch>.
 
-- Menampilkan daftar cabang lokal. Cabang saat ini ditandai oleh `*`:
+- Tampilkan daftar semua cabang (lokal dan remote; cabang saat ini ditandai oleh `*`) :
 
-`git branch`
+`git branch --all`
 
-- Menampilkan daftar semua cabang (lokal dan remote):
+- Tampilkan daftar semua cabang yang memiliki komit Git tertentu di dalam riwayat:
 
-`git branch -a`
+`git branch --all --contains {{hash_komit}}`
 
-- Tunjukkan nama cabang saat ini:
+- Tampilkan nama cabang saat ini:
 
 `git branch --show-current`
 
@@ -23,7 +23,7 @@
 
 `git branch {{nama_cabang}} {{hash_komit}}`
 
-- Ganti nama cabang (harus bukan cabang saat ini untuk melakukannya):
+- Ubah nama cabang (harus bukan cabang saat ini untuk melakukannya):
 
 `git branch -m {{nama_cabang_lama}} {{nama_cabang_baru}}`
 
