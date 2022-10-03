@@ -3,7 +3,7 @@
 > AudioUnit validation tool for Mac.
 > More information: <https://www.unix.com/man-page/mojave/1/auvaltool>.
 
-- List all available AudioUnits of any type:
+- List all [a]vailable AudioUnits of any type:
 
 `auvaltool -a`
 
