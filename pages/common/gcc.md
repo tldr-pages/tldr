@@ -7,7 +7,7 @@
 
 `gcc {{path/to/source1.c path/to/source2.c ...}} -o {{path/to/output_executable}}`
 
-- Allow warnings, debug symbols in output:
+- Show common warnings, debug symbols in output:
 
 `gcc {{path/to/source.c}} -Wall -Og -o {{path/to/output_executable}}`
 
