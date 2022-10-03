@@ -15,11 +15,11 @@
 
 `gh label create {{name}} --description "{{description}}" --color {{color_hex}}`
 
-- Delete a label for the repository in the current directory prompting for confirmation:
+- Delete a label for the repository in the current directory, prompting for confirmation:
 
 `gh label delete {{name}}`
 
-- Update name and description for a specific label for the repository in the current directory:
+- Update the name and description for a specific label for the repository in the current directory:
 
 `gh label edit {{name}} --name {{new_name}} --description "{{description}}"`
 
