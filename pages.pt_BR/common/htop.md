@@ -3,7 +3,7 @@
 > Visualizar informação dinâmica em tempo real acerca de processos em execução. Uma versão melhorada do comando `top`.
 > Mais informações: <https://htop.dev/>.
 
-- Inicializar htop:
+- Inicializa htop:
 
 `htop`
 
