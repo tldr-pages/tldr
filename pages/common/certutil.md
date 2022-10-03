@@ -13,7 +13,7 @@
 
 - List all private keys in a database:
 
-`certutil -K -d . -f pwdfile.txt`
+`certutil -K -d . -f {{path/to/pwdfile.txt}}`
 
 - Import the signed certificate into the requesters database:
 
