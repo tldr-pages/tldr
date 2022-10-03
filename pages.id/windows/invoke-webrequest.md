@@ -2,7 +2,7 @@
 
 > Membuat panggilan dan permintaan HTTP/HTTPS.
 > Perintah ini hanya dapat digunakan dalam PowerShell.
-> Informasi lebih lanjut: <https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
+> Informasi lebih lanjut: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Unduh konten URL ke file:
 
