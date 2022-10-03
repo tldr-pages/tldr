@@ -13,7 +13,7 @@
 
 - Boot a VM on a specific host:
 
-`nova boot --nic net-id=<net_id> --image <image_id> --flavor <flavor> --availability-zone nova:<host_name> <vm_name>`
+`nova boot --nic net-id={{net_id}} --image {{image_id}} --flavor {{flavor}} --availability-zone nova:{{host_name}} {{vm_name}}`
 
 - Stop a server:
 
