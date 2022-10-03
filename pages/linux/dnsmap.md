@@ -9,7 +9,7 @@
 
 - Specify a list of subdomains to check for:
 
-`dnsmap {{example.com}} -w {{/path/to/wordlist.txt}}`
+`dnsmap {{example.com}} -w {{path/to/wordlist.txt}}`
 
 - Store results to a CSV file:
 
