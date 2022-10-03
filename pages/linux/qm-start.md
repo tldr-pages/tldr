@@ -7,7 +7,7 @@
 
 `qm start {{100}}`
 
-- Specify the Qemu machine type (i.e. the CPU to emulate):
+- Specify the QEMU machine type (i.e. the CPU to emulate):
 
 `qm start {{100}} --machine {{q35}}`
 
