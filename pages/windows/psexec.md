@@ -8,7 +8,7 @@
 
 `psexec \\{{remote_host}} cmd`
 
-- Execute a command on a remote computer:
+- Execute a command on a remote host (pre-authenticated):
 
 `psexec \\{{remote_host}} -u {{user_name}} -p {{password}}`
 
