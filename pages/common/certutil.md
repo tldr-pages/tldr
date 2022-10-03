@@ -1,6 +1,6 @@
 # certutil
 
-> Manage keys and certificate in both NSS databases and other NSS tokens.
+> Manage keys and certificates in both NSS databases and other NSS tokens.
 > More information: <https://manned.org/certutil>.
 
 - Create a new certificate database:
