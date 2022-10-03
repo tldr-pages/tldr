@@ -11,7 +11,7 @@
 
 `htop --user {{nome_usuário}}`
 
-- Ordena processos por um `item-de-ordenacao` (utilize `htop --sort help` para ver as opçōes disponíveis):
+- Ordena processos por um `item_de_ordenacao` (utilize `htop --sort help` para ver as opçōes disponíveis):
 
 `htop --sort {{item_de_ordenacao}}`
 
