@@ -17,7 +17,7 @@
 
 - Stop a server:
 
-`nova stop <server>`
+`nova stop {{server}}`
 
 - Start a server:
 
