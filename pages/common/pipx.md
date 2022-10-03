@@ -25,4 +25,4 @@
 
 - Install a package in a virtual environment with pip arguments:
 
-`pipx install --pip-args='--pre' {{package}}`
+`pipx install --pip-args='{{pip-args}}' {{package}}`
