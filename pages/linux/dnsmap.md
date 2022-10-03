@@ -1,7 +1,7 @@
 # dnsmap
 
-> The dnsmap command scans a domain for common subdomains e.g. smtp.domain.org
-> More information: <https://github.com/resurrecting-open-source-projects/dnsmap>
+> The dnsmap command scans a domain for common subdomains e.g. smtp.domain.org.
+> More information: <https://github.com/resurrecting-open-source-projects/dnsmap>.
 
 - Scan for subdomains using the internal wordlist:
 
