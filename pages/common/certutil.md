@@ -17,7 +17,7 @@
 
 - Import the signed certificate into the requesters database:
 
-`certutil -A -n "Server-cert" -t ",," -i {{path/to/file.crt}} -d .`
+`certutil -A -n "{{Server-cert}}" -t ",," -i {{path/to/file.crt}} -d .`
 
 - Add subject alternative names to a given certificate:
 
