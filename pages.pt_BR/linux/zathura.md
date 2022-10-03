@@ -20,9 +20,9 @@
 
 `Ctrl + R`
 
-- Procura por um texto no documento:
+- Procura por uma string no documento:
 
-`/{{texto}}`
+`/{{string}}`
 
 - Cria/remove marcadores de página:
 
