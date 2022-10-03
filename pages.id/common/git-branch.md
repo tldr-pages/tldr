@@ -3,15 +3,15 @@
 > Perintah Git utama untuk bekerja dengan cabang (_branch_).
 > Informasi lebih lanjut: <https://git-scm.com/docs/git-branch>.
 
-- Tampil daftar semua cabang (lokal dan remote; cabang saat ini ditandai oleh `*`) :
+- Tampilkan daftar semua cabang (lokal dan remote; cabang saat ini ditandai oleh `*`) :
 
 `git branch --all`
 
-- Tampil daftar semua cabang yang memiliki komit Git tertentu di dalam riwayat:
+- Tampilkan daftar semua cabang yang memiliki komit Git tertentu di dalam riwayat:
 
 `git branch --all --contains {{hash_komit}}`
 
-- Tampil nama cabang saat ini:
+- Tampilkan nama cabang saat ini:
 
 `git branch --show-current`
 
