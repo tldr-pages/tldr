@@ -7,6 +7,6 @@
 
 `auvaltool -a`
 
-- List all available AudioUnits of any type and their location:
+- List all [a]vailable AudioUnits of any type with their [l]ocation:
 
 `auvaltool -al`
