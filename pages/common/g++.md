@@ -8,7 +8,7 @@
 
 `g++ {{path/to/source.cpp}} -o {{path/to/output_executable}}`
 
-- Display (almost) all errors and warnings:
+- Display common warnings:
 
 `g++ {{path/to/source.cpp}} -Wall -o {{path/to/output_executable}}`
 
