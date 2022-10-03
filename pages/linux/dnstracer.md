@@ -17,7 +17,7 @@
 
 - Retry each request 5 times on failure:
 
-`dnstracer -r 5 {{www.example.com}}`
+`dnstracer -r {{5}} {{www.example.com}}`
 
 - Display all steps during execution:
 
