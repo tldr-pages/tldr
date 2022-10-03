@@ -1,37 +1,37 @@
 # pacman
 
-> Manajer paket untuk Arch Linux.
-> Beberapa sub-perintah seperti `pacman sync` memiliki dokumentasi penggunaannya sendiri.
+> Kegunaan manajer paket Arch Linux.
+> Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `pacman sync`.
 > Informasi lebih lanjut: <https://man.archlinux.org/man/pacman.8>.
 
-- Memperbarui daftar paket yang tersedia dan memperbarui semua paket ke versi yang terbaru:
+- Sinkronkan dan perbarui semua paket:
 
 `sudo pacman -Syu`
 
-- Menginstal paket baru:
+- Instal paket baru:
 
-`sudo pacman -S {{name_paket}}`
+`sudo pacman -S {{nama_paket}}`
 
-- Menghapus paket dan dependensinya:
+- Hapus paket beserta dependensinya:
 
 `sudo pacman -Rs {{nama_paket}}`
 
-- Mencari paket dalam database menggunakan regular expression atau kata kunci:
+- Cari paket dalam database berdasarkan regular expression atau kata kunci:
 
-`pacman -Ss "{{kata_kunci}}"`
+`pacman -Ss "{{pola_pencarian}}"`
 
-- Memperlihatakan seluruh daftar paket yang terpasang beserta versinya:
+- Daftar paket dan versi yang diinstal:
 
 `pacman -Q`
 
-- Memperlihatakan daftar paket beserta versinya yang dipasang secara eksplisit:
+- Daftar paket dan versi yang diinstal secara eksplisit:
 
 `pacman -Qe`
 
-- Memperlihatkan daftar paket yang tidak dibutuhkan (dependensi yang terpasang namun tidak dibutuhkan oleh paket lain):
+- Daftar paket yatim piatu (diinstal sebagai dependensi namun tidak dibutuhkan oleh paket apa pun):
 
 `pacman -Qtdq`
 
-- Mengosongkan seluruh pacman cache:
+- Kosongkan seluruh cache pacman:
 
 `sudo pacman -Scc`
