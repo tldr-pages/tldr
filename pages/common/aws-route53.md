@@ -5,7 +5,7 @@
 
 - List all hosted zones, private and public:
 
-`aws route53 list-hosted-zones `
+`aws route53 list-hosted-zones`
 
 - Show all records in a zone:
 
