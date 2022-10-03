@@ -17,4 +17,4 @@
 
 - Ignore 2 IPs that are false positives (up to 5 possible):
 
-`dnsmap {{example.com}} -i {{123.45.67.89,98.76.54.321}}`
+`dnsmap {{example.com}} -i {{123.45.67.89,98.76.54.32}}`
