@@ -13,7 +13,7 @@
 
 - Store results in a CSV file:
 
-`dnsmap {{example.com}} -c /path/to/file.csv`
+`dnsmap {{example.com}} -c {{/path/to/file.csv}}`
 
 - Ignore 2 IPs that are false positives (up to 5 possible):
 
