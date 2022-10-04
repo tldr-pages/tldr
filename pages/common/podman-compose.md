@@ -1,7 +1,7 @@
 # podman-compose
 
 > Run and manage compose spec container definitions
-> More information: <https://podman.readthedocs.io/>
+> More information: <https://podman.readthedocs.io/>.
 
 - List all running containers:
 
