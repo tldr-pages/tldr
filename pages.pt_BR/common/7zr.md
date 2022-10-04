@@ -8,10 +8,26 @@
 
 `7zr a {{arquivo_compactado.7z}} {{caminho/arquivo_ou_diretorio}}`
 
+- Criptografar um arquivo existente (incluindo cabeçalhos):
+
+`7zr a {{arquivo_criptografado.7z}} -p{{senha}} -mhe=on {{arquivo.7z}}`
+
 - Descompactar um arquivo mantendo a estrutura de diretórios original:
 
 `7zr x {{arquivo_compactado.7z}}`
 
+- Descompactar um arquivo em um diretório específicado pelo usuário:
+
+`7zr x {{arquivo.7z}} -o{{caminho/diretório}}`
+
+- Descompactar um arquivo para a saída padrão:
+
+`7zr x {{path/to/archive.7z}} -so`
+
 - Exibir o conteúdo de um arquivo:
 
-`7zr l {{arquivo_compactado.7z}}`
+`7zr l {{arquivo.7z}}`
+
+- Exibir os tipos de arquivamento/compressão disponíveis:
+
+`7zr i`
