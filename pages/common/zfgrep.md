@@ -2,7 +2,7 @@
 
 > Matches fixed strings in possibly compressed files.
 > Equivalent to `grep -F` but first decompresses input if necessary.
-> More information: <https://www.gnu.org/software/grep/manual/grep.html>.
+> More information: <https://manned.org/zfgrep>.
 
 - Search for an exact string in a file:
 
