@@ -1,7 +1,7 @@
 # zfgrep
 
 > Matches fixed strings in possibly compressed files.
-> Equivalent to `grep -F` but first decompresses input if necessary.
+> Equivalent to `grep -F` with input decompressed first if necessary.
 > More information: <https://manned.org/zfgrep>.
 
 - Search for an exact string in a file:
