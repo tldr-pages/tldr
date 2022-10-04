@@ -3,10 +3,6 @@
 > Open-source build and test tool similar to Make, Maven, and Gradle.
 > More information: <https://bazel.build/reference/command-line-reference>.
 
-- Print version information for bazel:
-
-`bazel version`
-
 - Build the specified targets in the workspace:
 
 `bazel build`
@@ -26,3 +22,7 @@
 - Display help:
 
 `bazel help`
+
+- Display version:
+
+`bazel version`
