@@ -7,7 +7,7 @@
 
 `bazel build`
 
-- Remove output files and optionally stop the server:
+- Remove output files and stop the server if running:
 
 `bazel clean`
 
