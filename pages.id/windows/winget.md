@@ -3,29 +3,29 @@
 > Manajer Paket Antarmuka Baris Perintah Windows.
 > Informasi lebih lanjut: <https://learn.microsoft.com/id-id/windows/package-manager/winget>.
 
-- Instal aplikasi:
+- Instal paket:
 
-`winget install {{nama_aplikasi}}`
+`winget install {{nama_paket}}`
 
-- Menampilkan informasi tentang aplikasi:
+- Menampilkan informasi tentang paket:
 
-`winget show {{nama_aplikasi}}`
+`winget show {{nama_paket}}`
 
-- Cari aplikasi:
+- Cari paket:
 
-`winget search {{nama_aplikasi}}`
+`winget search {{nama_paket}}`
 
-- Perbarui aplikasi:
+- Perbarui paket:
 
-`winget upgrade {{nama_aplikasi}}`
+`winget upgrade {{nama_paket}}`
 
-- Mencari aplikasi:
+- Tampilkan paket:
 
-`winget list {{nama_aplikasi}}`
+`winget list {{nama_paket}}`
 
-- Menghapus aplikasi:
+- Hapus paket:
 
-`winget uninstall {{nama_aplikasi}}`
+`winget uninstall {{nama_paket}}`
 
 - Bantuan daftar lengkap perintah:
 
