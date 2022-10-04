@@ -17,8 +17,8 @@
 
 - Importa o certificado assinado para o banco de dados dos solicitantes:
 
-`certutil -A -n "{{server_certificate}}" -t ",," -i {{caminho/para/arquivo.crt}} -d .`
+`certutil -A -n "{{certificado_do_servidor}}" -t ",," -i {{caminho/para/arquivo.crt}} -d .`
 
 - Adiciona nomes de assunto a um determinado certificado:
 
-`certutil -S -f {{caminho/para/pwdfile.txt}} -d . -t ",," -c "{{server_certificate}}" -n "{{servidor1}}" -g {{2048}} -s "CN={{usuarioteste1}},O={{testrelm.test}}"`
+`certutil -S -f {{caminho/para/pwdfile.txt}} -d . -t ",," -c "{{certificado_do_servidor}}" -n "{{servidor1}}" -g {{2048}} -s "CN={{usuarioteste1}},O={{testrelm.test}}"`
