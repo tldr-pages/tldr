@@ -21,4 +21,4 @@
 
 - Specify a script that is executed on specific triggers during machine lifetime:
 
-`qm create {{100}} --hookscript {{path/to/execution_script.pl}}`
+`qm create {{100}} --hookscript {{path/to/script.pl}}`
