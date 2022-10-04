@@ -7,7 +7,7 @@
 
 `winget install {{nama_paket}}`
 
-- Menampilkan informasi tentang paket:
+- Tampilkan informasi tentang paket:
 
 `winget show {{nama_paket}}`
 
