@@ -3,11 +3,11 @@
 > Provides formatting for [Snakemake](https://snakemake.readthedocs.io/) files.
 > More information: <https://github.com/snakemake/snakefmt#full-usage>.
 
-- Formats a single Snakefile:
+- Format a single Snakefile:
 
 `snakefmt {{path/to/snakefile}}`
 
-- Formats all Snakefiles within a directory:
+- Format all Snakefiles within a directory:
 
 `snakefmt {{path/to/directory}}`
 
