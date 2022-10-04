@@ -7,7 +7,7 @@
 
 `mkdir {{path/to/directory1 path/to/directory2 ...}}`
 
-- Create specific nested directories recursively:
+- Create directories and their parents if needed:
 
 `mkdir -p {{path/to/directory1 path/to/directory2 ...}}`
 
