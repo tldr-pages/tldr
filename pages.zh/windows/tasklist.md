@@ -1,7 +1,7 @@
 # tasklist
 
 > 显示本地或远程计算机上当前正在运行的进程的列表。
-> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/tasklist>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/tasklist>.
 
 - 显示当前正在运行的进程：
 

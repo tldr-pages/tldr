@@ -1,7 +1,7 @@
 # winget
 
 > Windows 软件包管理器命令行工具。
-> 更多信息：<https://docs.microsoft.com/windows/package-manager/winget>.
+> 更多信息：<https://learn.microsoft.com/windows/package-manager/winget>.
 
 - 安装一个软件包：
 

@@ -1,7 +1,7 @@
 # attrib
 
 > Display or change attributes of files or directories.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/attrib>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/attrib>.
 
 - Display all set attributes of files in the current directory:
 
