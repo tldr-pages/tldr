@@ -29,6 +29,18 @@ Maybe you're new to the command-line world? Perhaps you're just a little rusty o
 
 It certainly doesn't help that the first option explained in `man tar` is:
 
+```
+-b blocksize
+   Specify the block size, in 512-byte records, for tape drive I/O.
+   As a rule, this argument is only needed when reading from or writing to tape drives,
+   and usually not even then as the default block size of 20 records (10240 bytes) is very common.
+```
+
+There seems to be room for simpler help pages, focused on practical examples.
+How about:
+
+![Screenshot of the tldr client displaying the tar command.](images/tldr.png)
+
 ```shell-session
 $ tldr tar
   tar
@@ -61,11 +73,6 @@ $ tldr tar
   - E[x]tract files matching a pattern from an archive [f]ile:
     tar xf source.tar --wildcards "*.html"
 ```
-
-There seems to be room for simpler help pages, focused on practical examples.
-How about:
-
-![Screenshot of the tldr client displaying the tar command.](images/tldr.png)
 
 This repository is just that: an ever-growing collection of examples
 for the most common UNIX, Linux, macOS, SunOS, Android and Windows command-line tools.
