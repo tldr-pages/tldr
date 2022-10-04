@@ -8,7 +8,7 @@
 
 `test "{{$MY_VAR}}" == "{{/bin/zsh}}"`
 
-- Test if a given variable is empty[z]/non-empty:
+- Test if a given variable is empty[z]/[n]on-empty:
 
 `test {{-z|-n}} "{{$GIT_BRANCH}}"`
 
