@@ -11,7 +11,7 @@
 
 `{{arguments_source}} | xe {{command}} {} {{optional_extra_arguments}}`
 
-- Execute a shellscript, joining every `N` lines into a single call.
+- Execute a shellscript, joining every `N` lines into a single call:
 
 `echo -e 'a\nb' | xe -N{{2}} -s 'echo $2 $1'`
 
