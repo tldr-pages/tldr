@@ -23,6 +23,6 @@
 
 `dnstracer -v {{www.example.com}}`
 
-- Display an overview of all received answers after execution:
+- Display an [o]verview of all received answers after execution:
 
 `dnstracer -o {{www.example.com}}`
