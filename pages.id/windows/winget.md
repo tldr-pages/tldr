@@ -1,3 +1,5 @@
+# winget
+
 Manajer Paket Antarmuka Baris Perintah Windows. Informasi lebih lanjut: https://learn.microsoft.com/id-id/windows/package-manager/winget.
 
 Instal aplikasi:
