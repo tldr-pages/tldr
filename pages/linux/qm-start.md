@@ -11,6 +11,6 @@
 
 `qm start {{100}} --machine {{q35}}`
 
-- Timeout if the machine doesn't start within 60 seconds:
+- Start a specific virtual machine with a timeout in 60 seconds:
 
 `qm start {{100}} --timeout {{60}}`
