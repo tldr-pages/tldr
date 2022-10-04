@@ -7,7 +7,7 @@
 
 `mkdir {{path/to/directory1 path/to/directory2 ...}}`
 
-- Create directories and their parents if needed:
+- Create specific directories and their [p]arents if needed:
 
 `mkdir -p {{path/to/directory1 path/to/directory2 ...}}`
 
