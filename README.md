@@ -39,7 +39,7 @@ It certainly doesn't help that the first option explained in `man tar` is:
 There seems to be room for simpler help pages, focused on practical examples.
 How about:
 
-![Animated SVG of the tldr client displaying the tar command.](images/tldr.svg)
+![Screenshot of the tldr client displaying the tar command.](images/tldr.png)
 
 This repository is just that: an ever-growing collection of examples
 for the most common UNIX, Linux, macOS, SunOS, Android and Windows command-line tools.
