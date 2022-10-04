@@ -7,7 +7,7 @@
 
 `dnstracer {{www.example.com}}`
 
-- Start with a specific DNS that you already know:
+- Start with a [s]pecific DNS that you already know:
 
 `dnstracer -s {{dns.example.org}} {{www.example.com}}`
 
