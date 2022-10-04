@@ -4,34 +4,34 @@ Manajer Paket Antarmuka Baris Perintah Windows. Informasi lebih lanjut: https://
 
 Instal aplikasi:
 
-winget install {{namaaplikasi}}
+`winget install {{namaaplikasi}}`
 
 
 Menampilkan informasi tentang aplikasi:
 
-winget show {{namaaplikasi}}
+`winget show {{namaaplikasi}}`
 
 
 Cari aplikasi:
 
-winget search {{namaaplikasi}}
+`winget search {{namaaplikasi}}`
 
 
 Perbarui aplikasi:
 
-winget upgrade {{namaaplikasi}}
+`winget upgrade {{namaaplikasi}}`
 
 
 Mencari aplikasi:
 
-winget list {{namaaplikasi}}
+`winget list {{namaaplikasi}}`
 
 
 Menghapus aplikasi:
 
-winget uninstall {{namaaplikasi}}
+`winget uninstall {{namaaplikasi}}`
 
 
 Bantuan daftar lengkap perintah:
 
-winget --help
+`winget --help`
