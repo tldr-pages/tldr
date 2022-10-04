@@ -1,4 +1,4 @@
-# PsExec
+# psexec
 
 > Execute a command-line process on a remote machine.
 > This is an advanced command and it might potentially be dangerous.
