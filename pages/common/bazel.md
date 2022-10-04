@@ -3,9 +3,9 @@
 > Open-source build and test tool similar to Make, Maven, and Gradle.
 > More information: <https://bazel.build/reference/command-line-reference>.
 
-- Build the specified targets in the workspace:
+- Build the specified target in the workspace:
 
-`bazel build`
+`bazel build {{target}}`
 
 - Remove output files and stop the server if running:
 
