@@ -6,32 +6,32 @@
 
 - Instal aplikasi:
 
-`winget install {{namaaplikasi}}`
+`winget install {{nama_aplikasi}}`
 
 
 - Menampilkan informasi tentang aplikasi:
 
-`winget show {{namaaplikasi}}`
+`winget show {{nama_aplikasi}}`
 
 
 - Cari aplikasi:
 
-`winget search {{namaaplikasi}}`
+`winget search {{nama_aplikasi}}`
 
 
 - Perbarui aplikasi:
 
-`winget upgrade {{namaaplikasi}}`
+`winget upgrade {{nama_aplikasi}}`
 
 
 - Mencari aplikasi:
 
-`winget list {{namaaplikasi}}`
+`winget list {{nama_aplikasi}}`
 
 
 - Menghapus aplikasi:
 
-`winget uninstall {{namaaplikasi}}`
+`winget uninstall {{nama_aplikasi}}`
 
 
 - Bantuan daftar lengkap perintah:
