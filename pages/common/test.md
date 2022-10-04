@@ -2,15 +2,15 @@
 
 > Check file types and compare values.
 > Returns 0 if the condition evaluates to true, 1 if it evaluates to false.
-> More information: <https://www.gnu.org/software/coreutils/test>.
+> More information: <https://www.gnu.
 
 - Test if a given variable is equal to a given string:
 
 `test "{{$MY_VAR}}" == "{{/bin/zsh}}"`
 
-- Test if a given variable is empty:
+- Test if a given variable is empty[z]/non-empty:
 
-`test -z "{{$GIT_BRANCH}}"`
+`test {{-z|-n}} "{{$GIT_BRANCH}}"`
 
 - Test if a file exists:
 
@@ -20,6 +20,6 @@
 
 `test ! -d "{{path/to/directory}}"`
 
-- If A is true, then do B, or C in the case of an error (notice that C may run even if A fails):
+- If condition is true, echo "true" runs, if the condition is false then echo "false" runs:
 
 `test {{condition}} && {{echo "true"}} || {{echo "false"}}`
