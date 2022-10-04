@@ -1,7 +1,7 @@
 # rmdir
 
 > Verwijdert een directory en zijn inhoud.
-> Meer informatie: <https://docs.microsoft.com/windows-server/administration/windows-commands/rmdir>.
+> Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/rmdir>.
 
 - Verwijder een lege directory:
 

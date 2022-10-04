@@ -1,7 +1,7 @@
 # csc
 
 > Compilatore per Microsoft C#.
-> Maggiori informazioni: <https://docs.microsoft.com/dotnet/csharp/language-reference/compiler-options/command-line-building-with-csc-exe>.
+> Maggiori informazioni: <https://learn.microsoft.com/dotnet/csharp/language-reference/compiler-options/command-line-building-with-csc-exe>.
 
 - Compila uno o più file C# in un eseguibile da command-line:
 

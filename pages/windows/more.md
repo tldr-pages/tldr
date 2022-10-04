@@ -1,7 +1,7 @@
 # more
 
 > Display paginated output from stdin or a file.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/more>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/more>.
 
 - Display paginated output from stdin:
 
