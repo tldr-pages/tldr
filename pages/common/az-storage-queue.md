@@ -16,6 +16,6 @@
 
 `az storage queue list --prefix {{filter_prefix}} --account-name {{storage_account_name}}`
 
-- Delete the specified queue and any messages it contains.
+- Delete the specified queue and any messages it contains:
 
 `az storage queue delete --account-name {{storage_account_name}} --name {{queue_name}} --fail-not-exist`
