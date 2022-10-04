@@ -23,6 +23,6 @@
 
 `bazel info`
 
-- Show available commands and usage:
+- Display help:
 
 `bazel help`
