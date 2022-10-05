@@ -27,7 +27,7 @@
 
 `podman-compose down --volumes`
 
-- Follow logs for a containers (omit container name for all):
+- Follow logs for a container (omit all container names):
 
 `podman-compose logs --follow {{container_name}}`
 
