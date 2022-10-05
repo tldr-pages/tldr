@@ -31,6 +31,6 @@
 
 `podman-compose logs --follow {{container_name}}`
 
-- Run a one-time command in a service (no ports are mapped):
+- Run a one-time command in a service with no ports mapped:
 
 `podman-compose run {{service_name}} {{command}}`
