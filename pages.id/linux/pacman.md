@@ -20,15 +20,15 @@
 
 `pacman -Ss "{{pola_pencarian}}"`
 
-- Daftar paket dan versi yang diinstal:
+- Tampilkan daftar paket dan versi yang diinstal:
 
 `pacman -Q`
 
-- Daftar paket dan versi yang diinstal secara eksplisit:
+- Tampilkan daftar paket dan versi yang diinstal secara eksplisit:
 
 `pacman -Qe`
 
-- Daftar paket yatim piatu (diinstal sebagai dependensi namun tidak dibutuhkan oleh paket apa pun):
+- Tampilkan daftar paket yatim piatu (diinstal sebagai dependensi namun tidak dibutuhkan oleh paket apa pun):
 
 `pacman -Qtdq`
 

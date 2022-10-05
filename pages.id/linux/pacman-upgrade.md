@@ -23,6 +23,6 @@
 
 `sudo pacman --upgrade --nodeps {{jalan/menuju/paket.pkg.tar.zst}}`
 
-- Daftar paket yang akan terpengaruh (tidak menginstal paket apa pun):
+- Tampilkan daftar paket yang akan terpengaruh (tidak menginstal paket apa pun):
 
 `pacman --query --print {{jalan/menuju/paket.pkg.tar.zst}}`

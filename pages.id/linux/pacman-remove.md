@@ -27,6 +27,6 @@
 
 `sudo pacman --remove --cascade {{nama_paket}}`
 
-- Daftar paket yang akan terpengaruh (tidak menghapus paket apa pun):
+- Tampilkan daftar paket yang akan terpengaruh (tidak menghapus paket apa pun):
 
 `pacman --remove --print {{nama_paket}}`
