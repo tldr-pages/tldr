@@ -26,7 +26,7 @@
 
 - Compactar utilizando um tipo específico de arquivamento/compressão:
 
-`7za a -t{{zip|gzip|bzip2|tar}} {{arquivo_compactado.7z}} {{caminho/arquivo_ou_diretório}}`
+`7za a -t{{zip|gzip|bzip2|tar}} {{caminho/para/arquivo.7z}} {{caminho/arquivo_ou_diretório}}`
 
 - Exibir o conteúdo de um arquivo:
 
