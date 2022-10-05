@@ -7,7 +7,7 @@
 
 `octave`
 
-- Execute a script file:
+- Execute a specific script file:
 
 `octave {{path/to/script.m}}`
 
