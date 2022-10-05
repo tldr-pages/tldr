@@ -18,7 +18,7 @@
 
 - Descompactar um arquivo em um diretório específicado pelo usuário:
 
-`7za x {{arquivo.7z}} -o{{caminho/diretório}}`
+`7za x {{caminho/para/arquivo.7z}} -o{{caminho/para/diretório}}`
 
 - Descompactar um arquivo para a saída padrão:
 
