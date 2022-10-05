@@ -1,6 +1,6 @@
 # caffeine
 
-> Prevent Desktop from sleeping.
+> Prevent the desktop from sleeping.
 > See also: `caffeinate`.
 > More information: <https://manned.org/caffeine>.
 

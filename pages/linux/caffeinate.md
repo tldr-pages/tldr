@@ -1,6 +1,6 @@
 # caffeinate
 
-> Prevent Desktop from sleeping.
+> Prevent the desktop from sleeping while a command is running.
 > See also: `caffeine`.
 > More information: <https://manned.org/caffeinate>.
 
