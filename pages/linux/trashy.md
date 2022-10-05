@@ -1,0 +1,32 @@
+# trashy
+
+> Trashy is a simple, fast, and featureful alternative to rm and trash-cli written in rust.
+> More information: <https://github.com/oberblastmeister/trashy>.
+
+- Trash several files:
+
+`trash {{path/to/file}}`
+
+- Trash several files:
+
+`trash {{path/to/file1}} {{path/to/file2}} {{path/to/file3}}`
+
+- List items in the trash:
+
+`trash list`
+
+- Restore file from trash:
+
+`trash restore {{file}}`
+
+- Empty file from trash:
+
+`trash empty {{file}}`
+
+- Restore all files:
+
+`trash restore --all`
+
+- Empty all files:
+
+`trash empty --all`
