@@ -1,7 +1,7 @@
 # devfsadm
 
 > Administratie commando voor `/dev`. Beheert de `/dev` namespace.
-> meer informatie: <https://www.unix.com/man-page/sunos/1m/devfsadm>.
+> Meer informatie: <https://www.unix.com/man-page/sunos/1m/devfsadm>.
 
 - Scannen voor nieuwe schijven:
 
