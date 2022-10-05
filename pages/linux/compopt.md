@@ -7,6 +7,6 @@
 
 `compopt`
 
-- Print the completion options for given commands:
+- Print the completion options for given command:
 
-`compopt {{commands}}`
+`compopt {{command}}`
