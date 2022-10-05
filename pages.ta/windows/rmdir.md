@@ -1,7 +1,7 @@
 # rmdir
 
 > ஒரு கோப்பகம் மற்றும் அதன் உள்ளடக்கங்களை அகற்றவும்.
-> மேலும் விவரத்திற்கு: <https://docs.microsoft.com/windows-server/administration/windows-commands/rmdir>.
+> மேலும் விவரத்திற்கு: <https://learn.microsoft.com/windows-server/administration/windows-commands/rmdir>.
 
 - வெற்று கோப்பகத்தை அகற்றவும்:
 

@@ -1,7 +1,7 @@
 # dotnet restore
 
 > Восстанавливает зависимости и утилиты для проекта .NET.
-> Больше информации: <https://docs.microsoft.com/dotnet/core/tools/dotnet-restore>.
+> Больше информации: <https://learn.microsoft.com/dotnet/core/tools/dotnet-restore>.
 
 - Восстановить зависимости для проекта или решения .NET в текущей директории:
 

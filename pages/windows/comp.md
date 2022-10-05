@@ -2,7 +2,7 @@
 
 > Compare the contents of two files or sets of files.
 > Use wildcards (*) to compare sets of files.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/comp>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/comp>.
 
 - Compare files interactively:
 
