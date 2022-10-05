@@ -2,7 +2,7 @@
 
 > Manage blob storage containers in Azure.
 > Part of `azure-cli`.
-> More information: <https://learn.microsoft.com/en-us/cli/azure/storage/container>.
+> More information: <https://learn.microsoft.com/cli/azure/storage/container>.
 
 - Create a container in a storage account:
 
