@@ -15,7 +15,7 @@
 
 `octave {{path/to/script.m}} {{arg1 arg2 ...}}`
 
-- Start an interactive Octave session with a GUI:
+- Start an interactive session with a GUI:
 
 `octave --gui`
 
