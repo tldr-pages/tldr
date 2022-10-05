@@ -41,7 +41,7 @@ How about:
 
 ![Screenshot of the tldr client displaying the tar command.](images/tldr.png)
 
-```shell-session
+```console
 $ tldr tar
   tar
 
