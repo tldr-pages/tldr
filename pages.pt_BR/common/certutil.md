@@ -21,4 +21,4 @@
 
 - Adiciona nomes de assunto a um determinado certificado:
 
-`certutil -S -f {{caminho/para/pwdfile.txt}} -d . -t ",," -c "{{certificado_do_servidor}}" -n "{{servidor1}}" -g {{2048}} -s "CN={{usuarioteste1}},O={{testrelm.test}}"`
+`certutil -S -f {{caminho/para/arquivo_de_senha.txt}} -d . -t ",," -c "{{certificado_do_servidor}}" -n "{{nome_do_servidor}}" -g {{2048}} -s "CN={{nome_comum}},O={{organização}}"`
