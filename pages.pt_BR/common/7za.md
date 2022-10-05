@@ -6,7 +6,7 @@
 
 - Compactar um arquivo ou diretório:
 
-`7za a {{arquivo_compactado.7z}} {{caminho/arquivo_ou_diretório}}`
+`7za a {{caminho/para/arquivo_compactado.7z}} {{caminho/para/arquivo_ou_diretório}}`
 
 - Criptografar um arquivo existente (incluindo cabeçalhos):
 
