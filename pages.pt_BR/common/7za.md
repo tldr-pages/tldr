@@ -30,7 +30,7 @@
 
 - Exibir o conteúdo de um arquivo:
 
-`7za l {{arquivo.7z}}`
+`7za l {{caminho/para/arquivo.7z}}`
 
 - Exibir os tipos de arquivamento/compressão disponíveis:
 
