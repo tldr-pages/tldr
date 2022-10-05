@@ -2,7 +2,7 @@
 
 > Manage NoSQL key-value storage in Azure.
 > Part of `azure-cli`.
-> More information: <https://learn.microsoft.com/en-us/cli/azure/storage/table>.
+> More information: <https://learn.microsoft.com/cli/azure/storage/table>.
 
 - Create a new table in the storage account:
 
