@@ -1,7 +1,7 @@
 # bg
 
 > Reprend l'exécution de tâches qui ont été suspendues (en utilisant `Ctrl + Z` par exemple) en arrière-plan.
--  Plus d'informations: <https://manned.org/bg>.
+> Plus d'informations: <https://manned.org/bg>.
 
 - Reprend l'exécution de la dernière tâche suspendue en arrière-plan:
 
