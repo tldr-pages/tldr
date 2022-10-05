@@ -11,14 +11,14 @@
 
 `blight show`
 
-- Show maximum display brightness:
+- Print maximum display brightness:
 
 `blight max`
 
 - Increase display brightness in %:
 
-`blight inc {{your-number}} -r`
+`blight inc {{number}} -r`
 
 - Decrease display brightness with internal units:
 
-`blight dec {{your-number}}`
+`blight dec {{number}}`
