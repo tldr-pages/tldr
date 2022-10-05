@@ -15,13 +15,13 @@
 
 `nova boot --nic net-id={{net_id}} --image {{image_id}} --flavor {{flavor}} --availability-zone nova:{{host_name}} {{vm_name}}`
 
-- Stop a server:
-
-`nova stop {{server}}`
-
 - Start a server:
 
 `nova start {{server}}`
+
+- Stop a server:
+
+`nova stop {{server}}`
 
 - Attach a network interface to a specific VM:
 
