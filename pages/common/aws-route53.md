@@ -15,7 +15,7 @@
 
 `aws route53 create-hosted-zone --name {{name}} --caller-reference {{request_identifier}}`
 
-- Delete a zone (it has to be empty from any records but the default NS ones):
+- Delete a zone (if the zone has non-defaults SOA and NS records the command will fail):
 
 `aws route53 delete-hosted-zone --id {{zone_id}} `
 
