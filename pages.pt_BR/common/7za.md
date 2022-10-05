@@ -32,6 +32,6 @@
 
 `7za l {{caminho/para/arquivo.7z}}`
 
-- Exibir os tipos de arquivamento/compressão disponíveis:
+- Exibe os tipos de arquivamento/compressão disponíveis:
 
 `7za i`
