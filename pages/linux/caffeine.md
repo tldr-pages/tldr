@@ -11,6 +11,6 @@
 
 `caffeine --help`
 
-- Show program's version number and exit:
+- Display version:
 
 `caffeine --version`
