@@ -13,4 +13,4 @@
 
 - 搜尋指定封裝：
 
-`winget search {{package}}`
+`winget search {{套件}}`
