@@ -7,7 +7,7 @@
 
 `caffeine`
 
-- Show the help and exit:
+- Display help:
 
 `caffeine --help`
 
