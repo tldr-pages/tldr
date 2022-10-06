@@ -1,7 +1,7 @@
 # mkdir
 
 > Yeni bir dizin oluştur.
-> Daha çok bilgi: <https://www.gnu.org/software/coreutils/mkdir>.
+> Daha fazla bilgi: <https://www.gnu.org/software/coreutils/mkdir>.
 
 - Mevcut dizinde ya da verilen dizinde yeni bir dizin oluştur:
 
