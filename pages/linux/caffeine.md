@@ -13,4 +13,4 @@
 
 - Show program's version number and exit:
 
-`caffeine -V`
+`caffeine --version`
