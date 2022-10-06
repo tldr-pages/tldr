@@ -1,7 +1,7 @@
 # robocopy
 
 > Robustes Kopieren von Dateien und Ordnern.
-> Standardmäßig werden Dateien nur kopiert, wenn die Quell- und Zieldatei ein unterschiedliches Änderungsdatum oder eine unterschiedliche Dateigröße haben.  
+> Standardmäßig werden Dateien nur kopiert, wenn die Quell- und Zieldatei ein unterschiedliches Änderungsdatum oder eine unterschiedliche Dateigröße haben.
 > Weitere Informationen: <https://learn.microsoft.com/de-de/windows-server/administration/windows-commands/robocopy>.
 
 - Alle `.jpg` und `.bmp` Dateien aus dem einen Verzeichnis in ein anderes Verzeichnis kopieren:
