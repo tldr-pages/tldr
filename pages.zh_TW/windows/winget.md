@@ -9,7 +9,7 @@
 
 - 顯示指定封裝的相關資訊：
 
-`winget show {{package}}`
+`winget show {{套件}}`
 
 - 搜尋指定封裝：
 
