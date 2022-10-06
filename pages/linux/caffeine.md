@@ -9,7 +9,7 @@
 
 - Show the help and exit:
 
-`caffeine -h`
+`caffeine --help`
 
 - Show program's version number and exit:
 
