@@ -5,7 +5,7 @@
 
 - 安裝一個封裝：
 
-`winget install {{package}}`
+`winget install {{套件}}`
 
 - 顯示指定封裝的相關資訊：
 
