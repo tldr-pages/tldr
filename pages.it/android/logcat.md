@@ -1,7 +1,7 @@
 # logcat
 
-> Scarica il registro dei messaggi di sistema, comprese le _stack traces_ quando si verifica un errore, e i messaggi di log delle applicazioni.
-> Informazioni aggiuntive: <https://developer.android.com/studio/command-line/logcat>.
+> Scarica il registro dei messaggi di sistema, comprese le stack traces quando si verifica un errore, e i messaggi di log delle applicazioni.
+> Maggiori informazioni: <https://developer.android.com/studio/command-line/logcat>.
 
 - Mostra il log di sistema:
 
@@ -11,6 +11,6 @@
 
 `logcat -f {{percorso/al/file}}`
 
-- Mostra le righe corrispondenti ad una specifica _regular expression_:
+- Mostra le righe corrispondenti ad una specifica espressione regolare:
 
-`logcat --regex {{regular_expression}}`
+`logcat --regex {{espressione_regolare}}`
