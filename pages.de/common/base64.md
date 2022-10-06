@@ -11,7 +11,7 @@
 
 `base64 --decode {{datei_name}}`
 
-- Kodiert von stdin:
+- Kodieren von stdin:
 
 `{{ein_kommando}} | base64`
 
