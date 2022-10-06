@@ -13,4 +13,4 @@
 
 - 在沒有提示的情況下遞迴刪除目錄和裡面的內容：
 
-`rmdir {{path/to/directory}} /s /q`
+`rmdir {{目錄/完整/路徑}} /s /q`
