@@ -13,7 +13,7 @@
 
 - Lista todas as chaves privadas em um banco de dados:
 
-`certutil -K -d . -f {{caminho/para/pwdfile.txt}}`
+`certutil -K -d . -f {{caminho/para/arquivo_de_senha.txt}}`
 
 - Importa o certificado assinado para o banco de dados dos solicitantes:
 
