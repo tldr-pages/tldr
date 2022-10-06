@@ -1,6 +1,6 @@
 # base64
 
-> Kodierung oder Dekodierung von Dateien oder Standardeingaben in und aus Base64, zur Standardausgabe (stdout).
+> Kodierung oder Dekodierung von Dateien oder Standardeingaben in/aus Base64, zur Standardausgabe.
 > Weitere Informationen: <https://www.gnu.org/software/coreutils/base64>.
 
 - Kodiert den Inhalt einer Datei als base64 und schreibt das Ergebnis nach stdout:
