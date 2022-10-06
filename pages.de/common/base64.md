@@ -15,6 +15,6 @@
 
 `{{ein_kommando}} | base64`
 
-- Dekodiert von stdin:
+- Dekodieren von stdin:
 
 `{{ein_kommando}} | base64 --decode`
