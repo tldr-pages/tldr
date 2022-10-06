@@ -5,16 +5,16 @@
 
 - Kodiert den Inhalt einer Datei als base64 und schreibt das Ergebnis nach stdout:
 
-`base64 {{filename}}`
+`base64 {{datei_name}}`
 
 - Dekodiert den Inhalt einer Datei als base64 und schreibt das Ergebnis nach stdout:
 
-`base64 --decode {{filename}}`
+`base64 --decode {{datei_name}}`
 
 - Kodiert von stdin:
 
-`{{somecommand}} | base64`
+`{{ein_kommando}} | base64`
 
 - Dekodiert von stdin:
 
-`{{somecommand}} | base64 --decode`
+`{{ein_kommando}} | base64 --decode`
