@@ -19,6 +19,6 @@
 
 `find . -name {{'*.backup'}} | xe rm -v`
 
-- Parallel runs of up to `max-jobs` processes at a time; the default is 1. If `max-jobs` is 0, xe will run as many processes as cpu cores:
+- Run up to `max-jobs` processes in parallel; the default is 1. If `max-jobs` is 0, xe will run as many processes as cpu cores:
 
 `{{arguments_source}} | xe -j {{max-jobs}} {{command}}`
