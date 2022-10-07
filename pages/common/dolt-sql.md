@@ -9,11 +9,10 @@
 
 - Runs multiple SQL statements:
 
-```dolt sql <<SQL
+`dolt sql <<SQL
 ALTER TABLE t ADD c INT;
 INSERT INTO t VALUES (1, 2, 1);
-SQL
-```
+SQL`
 
 - List all saved queries.
 
