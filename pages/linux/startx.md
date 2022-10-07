@@ -13,7 +13,7 @@
 
 - Start an X session with a predefined dpi value:
 
-`startx -- -dpi {{number}}`
+`startx -- -dpi {{value}}`
 
 - Override your `.xinitrc` settings and start a new X session:
 
