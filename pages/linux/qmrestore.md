@@ -11,7 +11,7 @@
 
 `qmrestore {{path/to/vzdump-qemu-100-2022_10_07-09_10_10.vma.lzo}} {{100}} --force true`
 
-- Restore virtual machine from given backup file on a specific [storage]:
+- Restore the virtual machine from a given backup file on specific storage:
 
 `qmrestore {{path/to/vzdump-qemu-100-2022_10_07-09_10_10.vma.lzo}} {{100}} --storage {{local}}`
 
