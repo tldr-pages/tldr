@@ -9,7 +9,7 @@
 
 - Start an X session with a predefined depth value:
 
-`startx -- -depth {{number}}`
+`startx -- -depth {{value}}`
 
 - Start an X session with a predefined dpi value:
 
