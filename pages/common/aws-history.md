@@ -1,4 +1,4 @@
-# aws pricing
+# aws history
 
 > Commands to interact with the history of AWS CLI commands ran over time (the record of history of AWS CLI commands must be enabled).
 > More information: <https://docs.aws.amazon.com/cli/latest/reference/history/>.
