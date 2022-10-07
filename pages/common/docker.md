@@ -32,10 +32,6 @@
 
 `docker rm {{container_name}}`
 
-- Remove an image that does not have a present container:
-
-`docker rmi {{image_name}}:{{image_tag}}`
-
 - Fetch and follow the logs of a container:
 
 `docker logs -f {{container_name}}`

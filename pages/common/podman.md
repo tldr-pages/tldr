@@ -32,10 +32,6 @@
 
 `podman rm {{container_name|container_id}}`
 
-- Remove one or more images that do not have present containers:
-
-`podman rmi {{image_name}}:{{image_tag}}`
-
 - Display the logs of one or more containers and follow log output:
 
 `podman logs --follow {{container_name|container_id}}`
