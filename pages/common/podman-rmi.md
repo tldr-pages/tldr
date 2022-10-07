@@ -1,0 +1,20 @@
+# podman rmi
+
+> Remove one or more Podman images.
+> More information: <https://docs.podman.com/engine/reference/commandline/rmi/>.
+
+- Show help:
+
+`podman rmi`
+
+- Remove one or more images given their names:
+
+`podman rmi {{image:tag}} {{image2:tag}} {{...}}`
+
+- Force remove an image:
+
+`podman rmi --force {{image}}`
+
+- Remove an image without deleting untagged parents:
+
+`podman rmi --no-prune {{image}}`
