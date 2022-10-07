@@ -11,17 +11,9 @@
 
 `tc qdisc add dev eth0 root netem delay {{mean_delay_ms}}ms {{delay_std_ms}}ms`
 
-- Add package loss to a portion of packages:
+- Add package corruption/loss/duplication to a portion of packages:
 
-`tc qdisc add dev eth0 root netem loss {{effect_percentage}}%`
-
-- Add package corruption to a portion of packages:
-
-`tc qdisc add dev eth0 root netem corruption {{effect_percentage}}%`
-
-- Add package duplication to a portion of packages:
-
-`tc qdisc add dev eth0 root netem duplicate {{effect_percentage}}%`
+`tc qdisc add dev eth0 root netem {{corruption|loss|duplication}} {{effect_percentage}}%`
 
 - Limit bandwith, burst rate and max latency:
 
