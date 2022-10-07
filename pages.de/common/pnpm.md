@@ -4,7 +4,7 @@
 > Ein Kommandozeilenwerkzeug für die Verwaltung von JavaScript und Node.js Paketen (Packages).
 > Weitere Informationen: <https://pnpm.io>.
 
-- Erstelle eine `package.json` Datei interaktiv::
+- Erstelle eine `package.json` Datei interaktiv:
 
 `pnpm init`
 
