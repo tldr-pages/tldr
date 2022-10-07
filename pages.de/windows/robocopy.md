@@ -6,27 +6,27 @@
 
 - Alle `.jpg` und `.bmp` Dateien aus dem einen Verzeichnis in ein anderes Verzeichnis kopieren:
 
-`robocopy {{path/to/source}} {{path/to/destination}} {{*.jpg}} {{*.bmp}}`
+`robocopy {{Pfad/Zur/Quelle}} {{Pfad/Zum/Ziel}} {{*.jpg}} {{*.bmp}}`
 
 - Alle Dateien und Unterverzeichnisse kopieren, einschließlich der leeren Verzeichnisse:
 
-`robocopy {{path/to/source}} {{path/to/destination}} /E`
+`robocopy {{Pfad/Zur/Quelle}} {{Pfad/Zum/Ziel}} /E`
 
 - Ein Verzeichnis spiegeln/synchronisieren. Dabei wird Alles, was nicht in der Quelle vorhanden ist, gelöscht sowie alle Attribute und Berechtigungen übertragen:
 
-`robocopy {{path/to/source}} {{path/to/destination}} /MIR /COPYALL`
+`robocopy {{Pfad/Zur/Quelle}} {{Pfad/Zum/Ziel}} /MIR /COPYALL`
 
 - Alle Dateien und Unterverzeichnisse kopieren, ausgenommen der Quelldateien, die älter sind als die vorhandenen Zieldateien:
 
-`robocopy {{path/to/source}} {{path/to/destination}} /E /XO`
+`robocopy {{Pfad/Zur/Quelle}} {{Pfad/Zum/Ziel}} /E /XO`
 
 - Gibt alle Dateien aus, die 50 MB und größer sind, anstatt sie zu kopieren:
 
-`robocopy {{path/to/source}} {{path/to/destination}} /MIN:{{52428800}} /L`
+`robocopy {{Pfad/Zur/Quelle}} {{Pfad/Zum/Ziel}} /MIN:{{52428800}} /L`
 
 - Erlaubt das Fortsetzen des Vorgangs bei Netzwerkverlust, begrenzt die Anzahl an Versuchen auf 5 und die Wartezeit zwischen Versuchen auf 15 Sekunden:
 
-`robocopy {{path/to/source}} {{path/to/destination}} /Z /R:5 /W:15`
+`robocopy {{Pfad/Zur/Quelle}} {{Pfad/Zum/Ziel}} /Z /R:5 /W:15`
 
 - Gibt detaillierte Nutzungshinweise aus:
 
