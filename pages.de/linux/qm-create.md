@@ -17,8 +17,8 @@
 
 - Ersetze eine bestehende virtuelle Maschine (setzt deren Archivierung voraus):
 
-`qm create {{100}} --archive {{path/to/backup_file.tar}} --force 1`
+`qm create {{100}} --archive {{pfad/zu/backup_file.tar}} --force 1`
 
 - Lege ein Skript fest, welches automatisch abhängig vom Zustand der virtuellen Maschine ausgelöst werden soll:
 
-`qm create {{100}} --hookscript {{path/to/script.pl}}`
+`qm create {{100}} --hookscript {{pfad/zu/script.pl}}`
