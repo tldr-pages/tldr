@@ -7,7 +7,7 @@
 
 `qmrestore {{path/to/vzdump-qemu-100-2022_10_07-09_10_10.vma.lzo}} {{100}}`
 
-- Overwrite existing virtual machine from given backup file on the original storage:
+- Overwrite existing virtual machine from a given backup file on the original storage:
 
 `qmrestore {{path/to/vzdump-qemu-100-2022_10_07-09_10_10.vma.lzo}} {{100}} --force true`
 
