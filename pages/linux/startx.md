@@ -17,4 +17,4 @@
 
 - Override your `.xinitrc` settings and start a new X session:
 
-`startx /path/to/{{window_manager | desktop_environment }}}`
+`startx /{{path/to/window_manager_or_desktop_environment}}`
