@@ -10,7 +10,7 @@
 
 - Start a container from an image, with a custom name:
 
-`docker run --name {{container_name}} {{image}}:{{latest}}`
+`docker run --name {{container_name}} {{image}}`
 
 - Start or stop an existing container:
 
@@ -18,7 +18,7 @@
 
 - Pull an image from a docker registry:
 
-`docker pull {{image}}:{{image_tag}}`
+`docker pull {{image}}`
 
 - Display the list of already downloaded images:
 
