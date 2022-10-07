@@ -14,19 +14,19 @@
 
 - Installiere eine spezifische Version eines Packages und füge es automatisch der `package.json` Datei hinzu:
 
-`pnpm add {{module_name}}@{{version}}`
+`pnpm add {{modul_name}}@{{version}}`
 
 - Installiere ein Package und füge es als Entwicklungs-Abhängigkeit der `package.json` Datei hinzu:
 
-`pnpm add -D {{module_name}}`
+`pnpm add -D {{modul_name}}`
 
 - Installiere ein Package global:
 
-`pnpm add -g {{module_name}}`
+`pnpm add -g {{modul_name}}`
 
 - Deinstalliere ein Package und entferne es automatisch aus der `package.json` Datei:
 
-`pnpm remove {{module_name}}`
+`pnpm remove {{modul_name}}`
 
 - Gib eine Liste aller lokal installierten Packages aus:
 
