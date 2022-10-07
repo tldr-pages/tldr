@@ -9,10 +9,7 @@
 
 - Runs multiple SQL statements:
 
-`dolt sql <<SQL
-ALTER TABLE t ADD c INT;
-INSERT INTO t VALUES (1, 2, 1);
-SQL`
+`dolt sql <<SQL ALTER TABLE t ADD c INT; INSERT INTO t VALUES (1, 2, 1); SQL`
 
 - List all saved queries.
 
