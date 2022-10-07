@@ -1,7 +1,7 @@
 # sysbench
 
-> Benchmark your System's cpu, io and memory. 
-> More information : <https://github.com/akopytov/sysbench> 
+> Benchmark your System's cpu, io and memory.
+> More information: <https://github.com/akopytov/sysbench/>
 
 - Run a cpu benchmark with 1 thread for 10 seconds:
 
@@ -11,7 +11,7 @@
 
 `sysbench --threads={{number_of_threads}} --time={{seconds}}`
 
-- Run a memory benchmark with 1 thread for 10 seconds
+- Run a memory benchmark with 1 thread for 10 seconds:
 
 `sysbench memory run`
 
