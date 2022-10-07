@@ -6,4 +6,3 @@
 - Display the status:
 
 `dolt status`
-
