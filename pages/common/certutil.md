@@ -13,12 +13,12 @@
 
 - List all private keys in a database:
 
-`certutil -K -d . -f {{path/to/pwdfile.txt}}`
+`certutil -K -d . -f {{path/to/password_file.txt}}`
 
 - Import the signed certificate into the requesters database:
 
-`certutil -A -n "{{Server-cert}}" -t ",," -i {{path/to/file.crt}} -d .`
+`certutil -A -n "{{server_certificate}}" -t ",," -i {{path/to/file.crt}} -d .`
 
 - Add subject alternative names to a given certificate:
 
-`certutil -S -f {{path/to/pwdfile.txt}} -d . -t ",," -c "{{Server-Cert}}" -n "{{server1}}" -g {{2048}} -s "CN={{testuser1}},O={{testrelm.test}}"`
+`certutil -S -f {{path/to/password_file.txt}} -d . -t ",," -c "{{server_certificate}}" -n "{{server_name}}" -g {{2048}} -s "CN={{common_name}},O={{organization}}"`
