@@ -14,11 +14,11 @@
 
 - Start one or more containers:
 
-`podman start {{container_name}} {{container_id}}`
+`podman start {{container_name|container_id}}`
 
 - Stop one or more running containers:
 
-`podman stop {{container_name}} {{container_id}}`
+`podman stop {{container_name|container_id}}`
 
 - Pull an image from a registry (defaults to the Docker Hub):
 
@@ -26,12 +26,16 @@
 
 - Open a shell inside an already running container:
 
-`podman exec --interactive --tty {{container_name}} {{sh}}`
+`podman exec --interactive --tty {{container_name|container_id}} {{sh}}`
 
 - Remove one or more stopped containers:
 
-`podman rm {{container_name}} {{container_id}}`
+`podman rm {{container_name|container_id}}`
+
+- Remove one or more images that do not have present containers:
+
+`podman rmi {{image_name}}:{{image_tag}}`
 
 - Display the logs of one or more containers and follow log output:
 
-`podman logs --follow {{container_name}} {{container_id}}`
+`podman logs --follow {{container_name|container_id}}`
