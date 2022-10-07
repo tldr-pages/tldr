@@ -1,6 +1,6 @@
 # qm start
 
-> Starte eine virtuelle Maschine per QEMU/KVM Virtual Machine Manager. 
+> Starte eine virtuelle Maschine per QEMU/KVM Virtual Machine Manager.
 > Weitere Informationen (Englisch): <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
 - Starte eine bestimmte virtuelle Maschine:
