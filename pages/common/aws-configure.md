@@ -23,7 +23,7 @@
 
 `aws configure set {{name}} {{value}}`
 
-- Set a configuration value from a profile configuration file:
+- Set the value of a configuration variable in a specific profile:
 
 `aws configure set {{name}} {{value}} --profile {{profile_name}}`
 
