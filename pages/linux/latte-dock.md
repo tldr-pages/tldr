@@ -17,4 +17,4 @@
 
 - Import and load a layout:
 
-`latte-dock --import-layout  {{path/to/file}}`
+`latte-dock --import-layout {{path/to/file}}`
