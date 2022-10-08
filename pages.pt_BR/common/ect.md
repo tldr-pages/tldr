@@ -5,6 +5,7 @@
 > Mais informações: <https://github.com/fhanau/Efficient-Compression-Tool>.
 
 - Comprimir um arquivo:
+
 `ect {{caminho/para/arquivo.png}}`
 
 - Comprimir um artigo com level de compressão específico e multithreading (1=Mais rápido (pior), 9=Mais lento (Melhor). O padrão é 3:
