@@ -9,7 +9,7 @@
 
 - Trash several files:
 
-`trash {{path/to/file1}} {{path/to/file2}} {{path/to/file3}}`
+`trash {{path/to/file1 path/to/file2 ...}}`
 
 - List items in the trash:
 
