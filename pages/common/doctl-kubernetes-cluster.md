@@ -25,4 +25,4 @@
 
 - Delete a cluster:
 
-`doctl kubernetes cluster delete {{cluster-name}}` 
+`doctl kubernetes cluster delete {{cluster-name}}`
