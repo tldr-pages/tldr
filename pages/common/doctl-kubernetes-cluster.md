@@ -1,7 +1,7 @@
 # doctl kubernetes cluster
 
 > For managing Kubernetes clusters and viewing configuration options relating to clusters.
-> More information: <https://docs.digitalocean.com/reference/doctl/reference/kubernetes/>.
+> More information: <https://docs.digitalocean.com/reference/doctl/reference/kubernetes/cluster/>.
 
 - Create a Kubernetes cluster:
 
