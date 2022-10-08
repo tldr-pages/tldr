@@ -23,7 +23,7 @@
 
 `trash empty {{file}}`
 
-- Restore all files:
+- Restore all files from the trash:
 
 `trash restore --all`
 
