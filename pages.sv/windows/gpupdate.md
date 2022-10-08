@@ -9,7 +9,7 @@
 
 - Ange för vilka Group Policy inställningar du vill kontrollera för uppdateringar:
 
-`gpupdate /target:{{computer|user}}`
+`gpupdate /target:{{datornamn|användare}}`
 
 - Tvinga alla Group Policy inställningar att tillämpas igen:
 
