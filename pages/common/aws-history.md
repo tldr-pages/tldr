@@ -9,4 +9,4 @@
 
 - Get the various events related to running a specific CLI command with its command id:
 
-`aws history show {{1affe293-ed81-451c-a044-ea99223a93bf}}`
+`aws history show {{command_id}}`
