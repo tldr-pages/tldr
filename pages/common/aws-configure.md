@@ -7,7 +7,7 @@
 
 `aws configure`
 
-- Configure a named profile for AWS CLI interactively (new profile or updating the existing):
+- Configure a named profile for AWS CLI interactively (creates a new profile or updates an existing one):
 
 `aws configure --profile {{production}}`
 
