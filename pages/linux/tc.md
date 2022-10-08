@@ -29,4 +29,4 @@
 
 - Change traffic control rule:
 
-`tc qdisc change dev eth0 root netem {{policy}} {{policy_parameters}}`
+`tc qdisc change dev {{eth0}} root netem {{policy}} {{policy_parameters}}`
