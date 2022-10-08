@@ -9,7 +9,7 @@
 
 - Configure a named profile for AWS CLI interactively (creates a new profile or updates an existing one):
 
-`aws configure --profile {{production}}`
+`aws configure --profile {{profile_name}}`
 
 - Display the value from a specific configuration variable:
 
