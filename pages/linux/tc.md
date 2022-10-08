@@ -13,7 +13,7 @@
 
 - Add package corruption/loss/duplication to a portion of packages:
 
-`tc qdisc add dev eth0 root netem {{corruption|loss|duplication}} {{effect_percentage}}%`
+`tc qdisc add dev {{eth0}} root netem {{corruption|loss|duplication}} {{effect_percentage}}%`
 
 - Limit bandwidth, burst rate and max latency:
 
