@@ -5,7 +5,7 @@
 
 - Create bucket in a specific region:
 
-`aws s3api create-bucket --bucket {{bucket_name}} --region ap-south-1 --create-bucket-configuration LocationConstraint=ap-south-1`
+`aws s3api create-bucket --bucket {{bucket_name}} --region {{region}} --create-bucket-configuration LocationConstraint={{region}}`
 
 - Delete a bucket:
 
