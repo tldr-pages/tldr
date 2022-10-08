@@ -15,7 +15,7 @@
 
 `sysbench memory run`
 
-- Prepare a fileio read benchmark:
+- Prepare a filesystem-level read benchmark:
 
 `sysbench fileio prepare`
 
