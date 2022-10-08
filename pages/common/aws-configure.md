@@ -3,7 +3,7 @@
 > Configure AWS CLI options.
 > More information: <https://docs.aws.amazon.com/cli/latest/reference/configure/>.
 
-- Configure AWS CLI interactively (new configuration or updating the default):
+- Configure AWS CLI interactively (creates a new configuration or updates the default):
 
 `aws configure`
 
