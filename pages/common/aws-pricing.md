@@ -7,7 +7,7 @@
 
 `aws pricing describe-services --region {{us-east-1}}`
 
-- Get a a list of attributes for a given service code:
+- List attributes for a given service code in a specific region:
 
 `aws pricing describe-services --service-code {{AmazonEC2}} --region {{us-east-1}}`
 
