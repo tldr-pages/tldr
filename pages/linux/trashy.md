@@ -27,6 +27,6 @@
 
 `trash restore --all`
 
-- Empty all files:
+- Remove all files from the trash:
 
 `trash empty --all`
