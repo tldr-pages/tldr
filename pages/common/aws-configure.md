@@ -15,7 +15,7 @@
 
 `aws configure get {{name}}`
 
-- Get a configuration value from a profile configuration file:
+- Display the value for a configuration variable in a specific profile:
 
 `aws configure get {{region}} --profile {{production}}`
 
