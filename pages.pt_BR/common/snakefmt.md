@@ -5,20 +5,20 @@
 
 - Formata um Snakefile específico:
 
-`snakefmt {{path/to/snakefile}}`
+`snakefmt {{caminho/para/snakefile}}`
 
 - Formata todos os Snakefiles recursivamente em uma pasta específica:
 
-`snakefmt {{path/to/directory}}`
+`snakefmt {{caminho/para/diretorio}}`
 
 - Formata um arquivo usando um arquivo de configuração específico:
 
-`snakefmt --config {{path/to/config.toml}} {{path/to/snakefile}}`
+`snakefmt --config {{caminho/para/config.toml}} {{caminho/para/snakefile}}`
 
 - Formata um arquivo usando um comprimento máximo de linha específico:
 
-`snakefmt --line-length 100 {{path/to/snakefile}}`
+`snakefmt --line-length {{100}} {{caminho/para/snakefile}}`
 
 - Exibe às mudanças que seriam realizadas sem realiza-las:
 
-`snakefmt --diff {{path/to/snakefile}}`
+`snakefmt --diff {{caminho/para/snakefile}}`
