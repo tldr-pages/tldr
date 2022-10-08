@@ -15,6 +15,6 @@
 
 `latte-dock --layout {{layout_name}}`
 
-- Import and load a layout:
+- Import and load a specific layout:
 
 `latte-dock --import-layout {{path/to/file}}`
