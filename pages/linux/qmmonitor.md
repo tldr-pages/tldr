@@ -1,8 +1,6 @@
-# qm monitor<vmid>
+# qm monitor
 
-> To Enter a Qemu Monitor Interface.
-> Refer for more information <https://pve.proxmox.com/pve-docs/qm.1.html>. 
+> Enter  to Qemu Monitor Interfaces.
+> More information <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
-<vmid>:Integer(1-N)
-
--The unique ID of Virtual Machine.
+`qm monitor {{vm_id}}`
