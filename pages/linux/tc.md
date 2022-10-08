@@ -23,7 +23,7 @@
 
 `tc qdisc show dev eth0`
 
-- Delete all trafic control rules:
+- Delete all traffic control rules:
 
 `tc qdisc del dev eth0`
 
