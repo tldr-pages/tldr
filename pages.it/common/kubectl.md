@@ -1,7 +1,7 @@
 # kubectl
 
 > nterfaccia interattiva da linea di comando per eseguire comandi sui clusters Kubernetes.
-> Alcuni sottocomandi, come `kubectl run` hanno la loro documentazione per l'uso.
+> Alcuni comandi aggiuntivi, come `kubectl run`, hanno la propria documentazione..
 > Maggiorni informazioni: <https://kubernetes.io/docs/reference/kubectl/>.
 
 - Elenca le informazioni su una risorsa in maniera dettagliata:
