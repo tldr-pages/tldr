@@ -162,7 +162,7 @@ Use backticks on the following:
 
 Example descriptions have to be phrased in imperative mood.  
 For example, use `List all files`, instead of `Listing all files` or `File listing`.  
-This also applies to all translations by default, unless otherwise specified in the language-specific section below.  
+This also applies to all translations by default, unless otherwise specified in the [language specific rules](./language-specific-rules.md).  
 
 ## Serial Comma
 
