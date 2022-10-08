@@ -13,4 +13,4 @@
 
 - Ställ in vilken färg bakgrunden och texten ska ha med hjälp av hexadecimala tal (`1-9,a-f`):
 
-`color {{foreground_code}}{{background_code}}`
+`color {{tal_textfärg}}{{tal_bakgrundsfärg}}`
