@@ -7,6 +7,6 @@
 
 `aws history list`
 
-- Get the various events related to running a specific CLI command with its command id:
+- Display events related to a specific command given a command ID:
 
 `aws history show {{command_id}}`
