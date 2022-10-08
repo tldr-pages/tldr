@@ -6,7 +6,7 @@
 
 - Create a container in a storage account:
 
-`az storage container create --account-name {{storage_account_name}}  --name {{container_name}} --public-access {{access_level}} --fail-on-exist`
+`az storage container create --account-name {{storage_account_name}} --name {{container_name}} --public-access {{access_level}} --fail-on-exist`
 
 - Generate a shared access signature for the container:
 
@@ -14,7 +14,7 @@
 
 - List containers in a storage account:
 
-`az storage container list --account-name {{storage_account_name}} --prefix {{filter_prefix}} `
+`az storage container list --account-name {{storage_account_name}} --prefix {{filter_prefix}}`
 
 - Mark the specified container for deletion:
 
