@@ -19,7 +19,7 @@
 
 `trash restore {{file}}`
 
-- Empty file from trash:
+- Remove a specific file from the trash:
 
 `trash empty {{file}}`
 
