@@ -1,0 +1,16 @@
+# qm wait
+
+> Wait until the virtual machine is stopped.
+> More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+
+- Wait until the virtual machine is stopped:
+
+`qm wait {{vm_id}}`
+
+- Wait maximum 10 seconds until the virtual machine is stopped:
+
+`qm wait --timeout {{10}} {{vm_id}}`
+
+- Send a shutdown request, then wait maximum 10 seconds until the virtual machine is stopped:
+
+`qm shutdown {{vm_id}} && qm wait --timeout {{10}} {{vm_id}}`
