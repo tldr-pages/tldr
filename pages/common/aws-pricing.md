@@ -11,7 +11,7 @@
 
 `aws pricing describe-services --service-code {{AmazonEC2}} --region {{us-east-1}}`
 
-- Get pricing information for a service code:
+- Print pricing information for a service code in a specific region:
 
 `aws pricing get-products --service-code {{AmazonEC2}} --region {{us-east-1}}`
 
