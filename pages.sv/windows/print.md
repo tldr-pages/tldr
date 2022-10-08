@@ -5,8 +5,8 @@
 
 - Skriv ut en textfil till standardskrivaren:
 
-`print {{path/to/file}}`
+`print {{sökväg/till/filen}}`
 
 - Skriv ut en textfil till en specifik skrivare:
 
-`print /d:{{printer}} {{path/to/file}}`
+`print /d:{{skrivare}} {{sökväg/till/filen}}`
