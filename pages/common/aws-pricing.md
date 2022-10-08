@@ -21,4 +21,4 @@
 
 - Get pricing information for a service code and attribute using a filter on the instance type and location:
 
-`aws pricing get-products --service-code {{AmazonEC2}} --filters {{"Type=TERM_MATCH,Field=instanceType,Value=m5.xlarge"}} {{"Type=TERM_MATCH,Field=location,Value=US East (N. Virginia)"}} --region {{us-east-1}}`
+`aws pricing get-products --service-code {{AmazonEC2}} --filters "{{Type=TERM_MATCH,Field=instanceType,Value=m5.xlarge}}" "{{Type=TERM_MATCH,Field=location,Value=US East (N. Virginia)}}" --region {{us-east-1}}`
