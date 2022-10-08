@@ -3,7 +3,7 @@
 > An alternative to `rm` and `trash-cli` written in Rust.
 > More information: <https://github.com/oberblastmeister/trashy>.
 
-- Trash several files:
+- Move a specific file to the trash:
 
 `trash {{path/to/file}}`
 
