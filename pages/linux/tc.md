@@ -9,7 +9,7 @@
 
 - Add normal distributed network delay to outbound packages:
 
-`tc qdisc add dev eth0 root netem delay {{mean_delay_ms}}ms {{delay_std_ms}}ms`
+`tc qdisc add dev {{eth0}} root netem delay {{mean_delay_ms}}ms {{delay_std_ms}}ms`
 
 - Add package corruption/loss/duplication to a portion of packages:
 
