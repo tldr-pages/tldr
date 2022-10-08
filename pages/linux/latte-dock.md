@@ -3,7 +3,7 @@
 > Replacement dock for Plasma desktop.
 > More information: <https://github.com/KDE/latte-dock>.
 
-- Clear qml cache:
+- Clear QML cache:
 
 `latte-dock --cc`
 
