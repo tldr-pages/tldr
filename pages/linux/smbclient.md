@@ -26,3 +26,7 @@
 - Upload a file to the server:
 
 `smbclient {{//server/share}} --directory {{path/to/directory}} --command "put {{file.txt}}"`
+
+- Anonymously list the shares on a server:
+
+`smbclient -N -L {{//server}}`
