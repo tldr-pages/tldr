@@ -31,6 +31,6 @@
 
 `aws configure list`
 
-- List the AWS CLI profile configuration data:
+- List the configuration entries for a specific profile:
 
 `aws configure list --profile {{production}}`
