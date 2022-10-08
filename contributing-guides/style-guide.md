@@ -185,7 +185,7 @@ This can be resolved by inserting a comma before the "and" or "or" in the final 
 
 On the `More information` line, prefer linking to the author's provided documentation.
 
-When not available, use <https://manned.org> as the default fallback. 
+When not available, use <https://manned.org> as the default fallback.
 
 ## Language-Specific Rules
 

@@ -115,7 +115,9 @@ Some examples of valid locale tags:
  - Chinese (Singapore): `zh_SG`.
  - Portuguese (Brazil): `pt_BR`.
 
-A list of translated templates for alias pages can be found in [here](contributing-guides/translation-templates/alias-pages.md).
+A list of translated templates for alias pages can be found [here](contributing-guides/translation-templates/alias-pages.md).
+
+Specific rules of Chinese and French can be found [here](contributing-guides/language-specific-rules.md).
 
 Pull requests that introduce translations are the exception to the single file change per Pull Request rule. It is
 acceptable for several pages to be translated in one pull request.
