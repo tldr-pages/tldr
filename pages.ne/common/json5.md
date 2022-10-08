@@ -5,23 +5,23 @@
 
 - JSON5 stdin लाई JSON stdout मा रूपान्तरण गर्नुहोस्:
 
-`echo {{input}} | json5`
+`echo {{निवेश}} | json5`
 
 - JSON5 फाइललाई JSON र आउटपुटलाई stdout मा रूपान्तरण गर्नुहोस्:
 
-`json5 {{path/to/input_file.json5}}`
+`json5 {{निवेशफाइल/को/पथ}}`
 
 - JSON5 फाइललाई निर्दिष्ट JSON फाइलमा रूपान्तरण गर्नुहोस्:
 
-`json5 {{path/to/input_file.json5}} --out-file {{path/to/output_file.json}}`
+`json5 {{निवेशफाइल/को/पथ}} --out-file {{निर्गमफाइल/को/पथ}}`
 
 - JSON5 फाइल प्रमाणित गर्नुहोस्:
 
-`json5 {{path/to/input_file.json5}} --validate`
+`json5 {{निवेशफाइल/को/पथ}} --validate`
 
 - इन्डेन्ट द्वारा (वा ट्याबहरूको लागि "t") गर्न खाली ठाउँहरूको संख्या निर्दिष्ट गर्नुहोस्:
 
-`json5 --space {{indent_amount}}`
+`json5 --space {{इन्डेन्ट मात्रा}}`
 
 - उपलब्ध विकल्पहरू हेर्नुहोस्:
 
