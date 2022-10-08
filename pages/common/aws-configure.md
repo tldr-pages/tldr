@@ -13,7 +13,7 @@
 
 - Display the value from a specific configuration variable:
 
-`aws configure get {{region}}`
+`aws configure get {{name}}`
 
 - Get a configuration value from a profile configuration file:
 
