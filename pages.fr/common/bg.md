@@ -7,6 +7,6 @@
 
 `bg`
 
-- Reprend l'exécution d'une tâche précise (utiliser `jobs -l` pour obtenir son ID) en arrière-plan:
+- Reprend l'exécution d'une tâche précise (utiliser `jobs -l` pour obtenir son ID) en arrière-plan :
 
 `bg %{{job_id}}`
