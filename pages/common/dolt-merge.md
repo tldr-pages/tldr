@@ -11,14 +11,14 @@
 
 `dolt merge --squash {{branch_name}}`
 
-- Create a merge commit even when the merge resolves as a fast-forward:
+- Merge a branch and create a merge commit even when the merge resolves as a fast-forward:
 
 `dolt merge --no-ff {{branch_name}}`
 
-- Use the given {{message}} as the commit message:
+- Merge a branch and create a merge commit with a specific commit message:
 
-`dolt merge --no-ff -m {{message}} {{branch_name}}`
+`dolt merge --no-ff -m "{{message}}" {{branch_name}}`
 
-- Abort the current conflict resolution process, and try to reconstruct the pre-merge state:
+- Abort the current conflict resolution process:
 
 `dolt merge --abort`
