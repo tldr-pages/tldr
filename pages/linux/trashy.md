@@ -15,7 +15,7 @@
 
 `trash list`
 
-- Restore file from trash:
+- Restore a specific file from the trash:
 
 `trash restore {{file}}`
 
