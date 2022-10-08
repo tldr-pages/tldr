@@ -1,6 +1,6 @@
 # trashy
 
-> Trashy is a simple, fast, and featureful alternative to rm and trash-cli written in rust.
+> An alternative to `rm` and `trash-cli` written in Rust.
 > More information: <https://github.com/oberblastmeister/trashy>.
 
 - Trash several files:
