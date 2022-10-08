@@ -27,7 +27,7 @@
 
 `aws configure set {{name}} {{value}} --profile {{profile_name}}`
 
-- List the AWS CLI configuration data:
+- List the configuration entries:
 
 `aws configure list`
 
