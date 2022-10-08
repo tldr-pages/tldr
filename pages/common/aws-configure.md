@@ -33,4 +33,4 @@
 
 - List the configuration entries for a specific profile:
 
-`aws configure list --profile {{production}}`
+`aws configure list --profile {{profile_name}}`
