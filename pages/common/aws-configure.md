@@ -25,7 +25,7 @@
 
 - Set a configuration value from a profile configuration file:
 
-`aws configure set {{region}} {{us-west-1}} --profile {{production}}`
+`aws configure set {{name}} {{value}} --profile {{profile_name}}`
 
 - List the AWS CLI configuration data:
 
