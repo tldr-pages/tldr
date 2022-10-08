@@ -21,7 +21,7 @@
 
 - Set the value of a specific configuration variable:
 
-`aws configure set {{region}} {{us-west-1}}`
+`aws configure set {{name}} {{value}}`
 
 - Set a configuration value from a profile configuration file:
 
