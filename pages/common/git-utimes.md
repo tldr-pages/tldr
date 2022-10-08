@@ -8,6 +8,6 @@
 
 `git utimes`
 
-- Change files modification time that are newer than their last commit date, preserving original modification time of files that were committed from the local repo:
+- Change files modification time that are newer than their last commit date, preserving original modification time of files that were committed from the local repository:
 
 `git utimes --newer`
