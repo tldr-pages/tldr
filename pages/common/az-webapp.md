@@ -4,7 +4,7 @@
 > Part of `azure-cli`.
 > Mode information: <https://learn.microsoft.com/cli/azure/webapp>.
 
-- List avilable runtimes for a webapp:
+- List available runtimes for a webapp:
 
 `az webapp -list-runtime --os-type {{windows|linux}}`
 
