@@ -22,6 +22,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | ja    |                      |                        |                                   |           |                   |
 | ko    |                      |                        |                                   |           |                   |
 | ml    |                      |                        |                                   |           |                   |
+| ne    | फाइल/को/पथ            | निर्देशिका/को/पथ            | फाइल_वा_निर्देशिका/को/पथ                 | प्याकेज      | प्रयोगकर्ता_नाम        |
 | nl    | pad/naar/bestand     | pad/naar/directory     | pad/naar/bestand_of_directory     |           |                   |
 | no    |                      |                        |                                   |           |                   |
 | pl    | ścieżka/do/pliku     | ścieżka/do/katalogu    | ścieżka/do/pliku_lub_katalogu     | pakiet    | nazwa_użytkownika |
