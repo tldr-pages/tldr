@@ -3,7 +3,7 @@
 > Centralized and convenient way to programmatically query Amazon Web Services for services, products, and pricing information.
 > More information: <https://docs.aws.amazon.com/cli/latest/reference/pricing/>.
 
-- Get a list of service codes to query later for:
+- List service codes of a specific region:
 
 `aws pricing describe-services --region {{us-east-1}}`
 
