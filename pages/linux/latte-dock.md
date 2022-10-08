@@ -11,7 +11,7 @@
 
 `latte-dock --default-layout`
 
-- Load specific layout on startup:
+- Load a specific layout on startup:
 
 `latte-dock --layout {{layout_name}}`
 
