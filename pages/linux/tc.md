@@ -21,7 +21,7 @@
 
 - Show active traffic control policies:
 
-`tc qdisc show dev eth0`
+`tc qdisc show dev {{eth0}}`
 
 - Delete all traffic control rules:
 
