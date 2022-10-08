@@ -6,7 +6,7 @@
 
 - Create a new table in the storage account:
 
-`az storage table create --account-name {{storage_account_name}}  --name {{table_name}} --fail-on-exist`
+`az storage table create --account-name {{storage_account_name}} --name {{table_name}} --fail-on-exist`
 
 - Generate a shared access signature for the table:
 
