@@ -5,7 +5,7 @@
 
 - Clear QML cache:
 
-`latte-dock --cc`
+`latte-dock --clear-cache`
 
 - Import and load default layout on startup:
 
