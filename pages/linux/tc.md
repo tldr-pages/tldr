@@ -25,7 +25,7 @@
 
 - Delete all traffic control rules:
 
-`tc qdisc del dev eth0`
+`tc qdisc del dev {{eth0}}`
 
 - Change traffic control rule:
 
