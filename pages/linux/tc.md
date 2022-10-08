@@ -5,7 +5,7 @@
 
 - Add constant network delay to outbound packages:
 
-`tc qdisc add dev eth0 root netem delay {{delay_in_milliseconds}}ms`
+`tc qdisc add dev {{eth0}} root netem delay {{delay_in_milliseconds}}ms`
 
 - Add normal distributed network delay to outbound packages:
 
