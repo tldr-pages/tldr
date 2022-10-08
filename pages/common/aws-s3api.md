@@ -7,6 +7,10 @@
 
 `aws s3api create-bucket --bucket {{bucket_name}}`
 
+- Create bucket outside us-east-1:
+
+`aws s3api create-bucket --bucket {{bucket_name}} --region ap-south-1 --create-bucket-configuration LocationConstraint=ap-south-1`
+
 - Delete a bucket:
 
 `aws s3api delete-bucket --bucket {{bucket_name}}`
