@@ -1,6 +1,6 @@
 # podman-compose
 
-> Run and manage compose spec container definition.
+> Run and manage Compose Specification container definition.
 > More information: <https://github.com/containers/podman-compose>.
 
 - List all running containers:
