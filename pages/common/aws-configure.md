@@ -19,7 +19,7 @@
 
 `aws configure get {{name}} --profile {{profile_name}}`
 
-- Set a configuration value from the configuration file:
+- Set the value of a specific configuration variable:
 
 `aws configure set {{region}} {{us-west-1}}`
 
