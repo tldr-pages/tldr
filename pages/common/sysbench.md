@@ -1,13 +1,13 @@
 # sysbench
 
-> Benchmark your System's cpu, io and memory.
+> Benchmark your System's CPU, IO and memory.
 > More information: <https://github.com/akopytov/sysbench/>.
 
-- Run a cpu benchmark with 1 thread for 10 seconds:
+- Run a CPU benchmark with 1 thread for 10 seconds:
 
 `sysbench cpu run`
 
-- Run a cpu benchmark with multiple threads for a specified time:
+- Run a CPU benchmark with multiple threads for a specified time:
 
 `sysbench --threads={{number_of_threads}} --time={{seconds}}`
 
@@ -19,6 +19,6 @@
 
 `sysbench fileio prepare`
 
-- Run a fileio benchmark {seqwr, seqrewr, seqrd, rndrd, rndwr, rndrw}:
+- Run a filesystem-level benchmark:
 
-`sysbench --file-test-mode={{test_mode}} fileio run`
+`sysbench --file-test-mode={{rndrd|rndrw|rndwr|seqrd|seqrewr|seqwr}} fileio run`
