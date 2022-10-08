@@ -6,7 +6,3 @@
 - Enter to a Qemu monitor interface:
 
 `qm monitor {{vm_id}}`
-
-- EG:
-
-`qm monitor {{100}}`
