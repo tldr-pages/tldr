@@ -1,6 +1,6 @@
 # aws pricing
 
-> Centralized and convenient way to programmatically query Amazon Web Services for services, products, and pricing information.
+> Query services, products, and pricing information from Amazon Web Services.
 > More information: <https://docs.aws.amazon.com/cli/latest/reference/pricing/>.
 
 - List service codes of a specific region:
