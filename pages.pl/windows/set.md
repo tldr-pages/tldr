@@ -9,12 +9,12 @@
 
 - Ustaw zmienną środowiskową na określoną wartość:
 
-`set {{name}}={{value}}`
+`set {{nazwa}}={{wartość}}`
 
 - Wymień zmienne środowiskowe zaczynające się od podanego ciągu znaków:
 
-`set {{name}}`
+`set {{nazwa}}`
 
 - Pyta użytkownika o wartość dla określonej zmiennej:
 
-`set /p {{name}}={{prompt_string}}`
+`set /p {{nazwa}}={{wprowadzona_wartość}}`
