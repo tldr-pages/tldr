@@ -1,7 +1,7 @@
 # mount
 
 > Mount Network File System (NFS) network shares.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/mount>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/mount>.
 
 - Mount a share to the "Z" drive letter:
 

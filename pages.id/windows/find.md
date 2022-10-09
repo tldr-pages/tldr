@@ -1,7 +1,7 @@
 # find
 
 > Mencari teks tertentu di dalam suatu file atau direktori.
-> Informasi lebih lanjut: <https://docs.microsoft.com/windows-server/administration/windows-commands/find>.
+> Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/find>.
 
 - Mencari baris-baris dalam file yang mengandung teks tertentu:
 

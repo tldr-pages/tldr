@@ -2,7 +2,7 @@
 
 > Performs a HTTP/HTTPS request to the Web.
 > This command can only be used through PowerShell.
-> More information: <https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
+> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Download the contents of a URL to a file:
 

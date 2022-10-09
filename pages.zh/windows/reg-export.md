@@ -1,7 +1,7 @@
 # reg export
 
 > 将指定的子键和值导出到文件中。
-> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/reg-export>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/reg-export>.
 
 - 导出指定键下所有的子键和值：
 

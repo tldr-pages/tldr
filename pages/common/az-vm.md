@@ -2,7 +2,7 @@
 
 > Manage virtual machines in Azure.
 > Part of `az`, the command-line client for Microsoft Azure.
-> More information: <https://docs.microsoft.com/cli/azure/vm>.
+> More information: <https://learn.microsoft.com/cli/azure/vm>.
 
 - List details of available Virtual Machines:
 

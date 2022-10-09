@@ -1,7 +1,7 @@
 # gpupdate
 
 > A tool to check and apply Windows Group Policy settings.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/gpupdate>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/gpupdate>.
 
 - Check and apply updated Group Policy settings:
 

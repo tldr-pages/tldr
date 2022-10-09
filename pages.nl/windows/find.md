@@ -1,7 +1,7 @@
 # find
 
 > Vind een gespecificieerde string in een bestand.
-> Meer informatie: <https://docs.microsoft.com/windows-server/administration/windows-commands/find>.
+> Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/find>.
 
 - Vind de lijnen dat een specifieke string bevatten:
 
