@@ -2,7 +2,8 @@
 
 > Nucleotide-Nucleotide BLAST.
 > More information: <https://www.ncbi.nlm.nih.gov/books/NBK279696/>.
-- Print USAGE and DESCRIPTION;  ignore all other parameters:
+
+- Print usage and description (ignoring all other parameters):
 
 `blastn -h`
 
