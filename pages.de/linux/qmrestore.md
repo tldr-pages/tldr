@@ -1,7 +1,7 @@
 # qmrestore
 
 > Wiederherstellung von QemuServer vzdump Backups.
-> Weitere Informationen (Englisch): <https://pve.proxmox.com/pve-docs/qmrestore.1.html>.
+> Weitere Informationen: <https://pve.proxmox.com/pve-docs/qmrestore.1.html>.
 
 - Wiederherstellung einer virtuellen Maschine mittels Backupdatei auf dem ursprünglichen Speicher:
 
