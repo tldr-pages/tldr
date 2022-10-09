@@ -15,7 +15,7 @@
 
 `aws pricing get-products --service-code {{AmazonEC2}} --region {{us-east-1}}`
 
-- Get a list of attribute values to use while filtering:
+- List values for a specific attribute for a service code in a specific region:
 
 `aws pricing get-attribute-values --service-code {{AmazonEC2}} --attribute-name {{instanceType}} --region {{us-east-1}}`
 
