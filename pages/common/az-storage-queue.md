@@ -6,7 +6,7 @@
 
 - Create a queue:
 
-`az storage queue create --account-name {{storage_account_name}} --name {{queue_name}}  --metadata {{queue_metadata}}`
+`az storage queue create --account-name {{storage_account_name}} --name {{queue_name}} --metadata {{queue_metadata}}`
 
 - Generate a shared access signature for the queue:
 
