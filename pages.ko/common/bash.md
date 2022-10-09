@@ -16,15 +16,15 @@
 
 `bash -c "{{echo 'bash is executed'}}"`
 
-- 특정 스크립트 실행하기:
+- `path/to/script.sh` 스크립트 실행하기:
 
 `bash {{path/to/script.sh}}`
 
-- 각 명령어 실행 전 명령어 인쇄하며 스크립트 실행하기:
+- 각 명령어 실행 전 명령어 인쇄하며 `path/to/script.sh` 스크립트 실행하기:
 
 `bash -x {{path/to/script.sh}}`
 
-- 에러([e]rror)가 발생하면 멈추도록 특정 스크립트 실행하기:
+- 첫 번째 에러([e]rror)가 발생하면 중지되도록 하며 `path/to/script.sh` 스크립트 실행하기:
 
 `bash -e {{path/to/script.sh}}`
 
