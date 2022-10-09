@@ -1,8 +1,8 @@
 # xz
 
-> Data compression software with a high compression ratio
+> Data compression software with a high compression ratio.
 > Can compress typical files ~30% smaller than gzip and ~15% smaller output than bzip2.
-> Syntax is similar to that of gzip
+> Syntax is similar to that of gzip.
 > More information: <https://tukaani.org/xz/>.
 
 - Compress a single file:
