@@ -6,7 +6,7 @@
 
 - Stamp the last commit message referencing it with the issue number from your bug tracker:
 
-`git stamp issue {{FOO-123}}`
+`git stamp {{issue_number}}`
 
 - Stamp the last commit message linking it to its review page:
 
