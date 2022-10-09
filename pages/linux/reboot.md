@@ -17,7 +17,7 @@
 
 - Reboot immediately without contacting the system manager:
 
-`reboot --force --force`
+`reboot --force`
 
 - Write the wtmp shutdown entry without rebooting the system:
 
