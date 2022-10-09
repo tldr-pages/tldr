@@ -11,6 +11,6 @@
 
 `qm wait --timeout {{10}} {{vm_id}}`
 
-- Send a shutdown request, then wait maximum 10 seconds until the virtual machine is stopped:
+- Send a shutdown request, then wait until the virtual machine is stopped with a 10 second timeout:
 
 `qm shutdown {{vm_id}} && qm wait --timeout {{10}} {{vm_id}}`
