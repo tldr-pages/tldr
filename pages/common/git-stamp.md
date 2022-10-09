@@ -14,4 +14,4 @@
 
 - Stamp the last commit message replacing previous issues with a new one:
 
-`git stamp --replace issue {{BAR-123}}`
+`git stamp --replace {{issue_number}}`
