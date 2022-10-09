@@ -16,17 +16,17 @@
 
 `bash -c "{{echo 'bash is executed'}}"`
 
-- `path/to/script.sh` 스크립트 실행하기:
+- 특정 스크립트 실행하기:
 
-`bash {{path/to/script.sh}}`
+`bash {{경로/대상/script.sh}}`
 
-- 각 명령어 실행 전 명령어 인쇄하며 `path/to/script.sh` 스크립트 실행하기:
+- 각 명령어 실행 전 명령어 인쇄하며 특정 스크립트 실행하기:
 
-`bash -x {{path/to/script.sh}}`
+`bash -x {{경로/대상/script.sh}}`
 
-- 첫 번째 에러([e]rror)가 발생하면 중지되도록 하며 `path/to/script.sh` 스크립트 실행하기:
+- 첫 번째 에러([e]rror)가 발생하면 중지되도록 하며 특정 스크립트 실행하기:
 
-`bash -e {{path/to/script.sh}}`
+`bash -e {{경로/대상/script.sh}}`
 
 - stdin에서 bash 실행하기:
 
