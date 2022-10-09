@@ -5,26 +5,26 @@
 > Syntax is similar to that of gzip
 > More information: <https://tukaani.org/xz/>.
 
-- Compress a single file
+- Compress a single file:
 
 `xz {{file}}`
 
-- Compress multiple files
+- Compress multiple files:
 
 `xz {{file1}} {{file2}} {{file3}}`
 
-- Decompress a file
+- Decompress a file:
 
 `xz -d {{file.xz}}`
 
-- Keep the input file (by default xz replaces the input file with the compressed/decompressed file)
+- Keep the input file (by default xz replaces the input file with the compressed/decompressed file):
 
 `xz -k {{file}}`
 
-- Write the compressed or decompressed data to standard output
+- Write the compressed or decompressed data to standard output:
 
 `xz -cd {{file}}`
 
-- Set the compression level (0 to 9, default is 6)
+- Set the compression level (0 to 9, default is 6):
 
 `xz {{-9}} {{file}}`
