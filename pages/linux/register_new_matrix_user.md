@@ -1,7 +1,7 @@
 # register_new_matrix_user
 
 > Used to register new users with a given home server when registration has been disabled.
-> More information: <https://manned.org/register_new_matrix_user.1>.
+> More information: <https://manned.org/register_new_matrix_user>.
 
 - Create a user interactively:
 
