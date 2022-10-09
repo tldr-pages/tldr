@@ -1,8 +1,8 @@
 # qm listsnapshot
 
-> List all the snapshots of a virtual machine.
+> List snapshots of virtual machines.
 > More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
-- List all snapshots:
+- List all snapshots of a specific virtual machine:
 
 `qm listsnapshot {{vm_id}}`
