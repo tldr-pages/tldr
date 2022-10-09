@@ -4,6 +4,6 @@
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-gh-pages>.
 
-- Create Github pages (gh-pages) branch inside current local repository:
+- Create the GitHub pages branch inside the repository in the current directory:
 
 `git gh-pages`
