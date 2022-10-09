@@ -13,7 +13,7 @@
 
 - Wipe all available signature types for the device and partitions using a glob pattern:
 
-`sudo wipefs --all {{/dev/sdX*}}`
+`sudo wipefs --all {{/dev/sdX}}*`
 
 - Perform dry run:
 
