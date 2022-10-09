@@ -29,4 +29,4 @@
 
 - Delete resources defined in a YAML manifest:
 
-`kubectl delete --filename {{path/to/manifest.yaml}}`
+`kubectl delete --filename {{path/to/manifest}}.yaml`
