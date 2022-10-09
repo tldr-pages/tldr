@@ -10,7 +10,7 @@
 
 - Stamp the last commit message linking it to its review page:
 
-`git stamp review {{https://reviews.example.org/r/4567/}}`
+`git stamp {{Review https://example.org/path/to/review}}`
 
 - Stamp the last commit message replacing previous issues with a new one:
 
