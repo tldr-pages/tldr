@@ -4,7 +4,7 @@
 > 참조 : `zsh`, `histexpand` (history expansion).
 > 더 많은 정보는 여기서 찾아볼 수 있습니다: <https://gnu.org/software/bash/>.
 
-- 대화형 쉘 시작하기: 
+- 대화형 쉘 시작하기:
 
 `bash`
 
