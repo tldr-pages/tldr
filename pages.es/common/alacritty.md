@@ -21,4 +21,4 @@
 
 - Ejecuta con recarga automática de la configuración activada (puede activarse por defecto en `alacritty.yml`):
 
-`alacritty --live-config-reload --config-file {{path/to/config.yml}}`
+`alacritty --live-config-reload --config-file {{ruta/al/config.yml}}`
