@@ -25,5 +25,4 @@
 
 - Search the remote non-redundant nucleotide database using a nucleotide query:
 
-
 `blastn -query {{query.fa}} -db {{nt}} -remote`
