@@ -13,7 +13,7 @@
 
 - Ejecuta un comando en una nueva ventana de Alacritty:
 
-`alacritty -e {{command}}`
+`alacritty -e {{comando}}`
 
 - Especifica un archivo de configuración alternativo (por defecto es `$XDG_CONFIG_HOME/alacritty/alacritty.yml`):
 
