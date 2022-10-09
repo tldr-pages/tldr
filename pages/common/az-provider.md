@@ -6,7 +6,7 @@
 
 - Register a provider:
 
-`az provider register --namespace '{{Microsoft.PolicyInsights}}'`
+`az provider register --namespace {{Microsoft.PolicyInsights}}`
 
 - Unregister a provider:
 
