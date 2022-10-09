@@ -9,7 +9,7 @@
 
 - Ejecuta Alacritty en un directorio específico:
 
-`alacritty --working-directory {{path/to/directory}}`
+`alacritty --working-directory {{ruta/al/directorio}}`
 
 - Ejecuta un comando en una nueva ventana de Alacritty:
 
