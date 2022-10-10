@@ -15,7 +15,7 @@
 
 `brew upgrade {{formula}}`
 
-- Homebrew 저장소에서 Homebrew와 함께 모든 공식(formulae)과 캐스크(casks)의 최신 버전 가져오기
+- Homebrew 저장소에서 Homebrew와 함께 모든 공식(formulae)과 캐스크(casks)의 최신 버전 가져오기:
 
 `brew update`
 
