@@ -27,7 +27,7 @@
 
 `brew search {{text}}`
 
-- 공식(formula) 혹은 캐스크(cask)에 대한 정보 표시 (버전, 설치 경로, 의존성 등)
+- 공식(formula) 혹은 캐스크(cask)에 대한 정보 표시 (버전, 설치 경로, 의존성 등):
 
 `brew info {{formula}}`
 
