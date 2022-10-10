@@ -17,7 +17,7 @@
 
 - Convert the contents of a file to speech:
 
-`flite -f {{path/to/file}}`
+`flite -f {{path/to/file.txt}}`
 
 - Specify which voice to use:
 
