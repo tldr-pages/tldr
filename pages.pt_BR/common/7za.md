@@ -24,7 +24,7 @@
 
 `7za x {{path/to/archive.7z}} -so`
 
-- Compactar utilizando um tipo específico de arquivamento/compressão:
+- Compacta utilizando um tipo específico de arquivamento/compressão:
 
 `7za a -t{{zip|gzip|bzip2|tar}} {{caminho/para/arquivo.7z}} {{caminho/arquivo_ou_diretório}}`
 
