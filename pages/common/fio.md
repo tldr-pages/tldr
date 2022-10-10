@@ -20,6 +20,6 @@
 
 `sudo fio {{path/to/job_file}}`
 
-- Convert a specific job file to command line options:
+- Convert a specific job file to command-line options:
 
 `fio --showcmd {{path/to/job_file}}`
