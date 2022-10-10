@@ -24,7 +24,7 @@
 
 `7zr x {{path/to/archive.7z}} -so`
 
-- Exibir o conteúdo de um arquivo:
+- Exibe o conteúdo de um arquivo:
 
 `7zr l {{arquivo.7z}}`
 
