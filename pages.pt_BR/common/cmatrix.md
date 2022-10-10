@@ -11,7 +11,7 @@
 
 `cmatrix -C {{red}}`
 
-- Habilitar modo arco-iris:
+- Habilita modo arco-iris:
 
 `cmatrix -r`
 
