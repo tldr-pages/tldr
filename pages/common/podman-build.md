@@ -20,6 +20,6 @@
 
 `podman build --no-cache {{path/to/directory}}`
 
-- Do not output build instructions and progress:
+- Create an image suppressing all output:
 
 `podman build --quiet {{path/to/directory}}`
