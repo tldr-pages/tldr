@@ -28,7 +28,7 @@
 
 `7za a -t{{zip|gzip|bzip2|tar}} {{caminho/para/arquivo.7z}} {{caminho/arquivo_ou_diretório}}`
 
-- Exibir o conteúdo de um arquivo:
+- Exibe o conteúdo de um arquivo:
 
 `7za l {{caminho/para/arquivo.7z}}`
 
