@@ -20,7 +20,7 @@
 
 `7za x {{caminho/para/arquivo.7z}} -o{{caminho/para/diretório}}`
 
-- Descompactar um arquivo para a saída padrão:
+- Descompacta um arquivo para a saída padrão:
 
 `7za x {{path/to/archive.7z}} -so`
 
