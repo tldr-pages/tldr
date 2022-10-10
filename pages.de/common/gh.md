@@ -4,7 +4,7 @@
 > Manche Unterbefehle wie `gh config` sind separat dokumentiert.
 > Weitere Informationen: <https://cli.github.com/>.
 
-- Klone ein GitHub repository lokal:
+- Klone ein GitHub Repository lokal:
 
 `gh repo clone {{besitzer}}/{{repository}}`
 
