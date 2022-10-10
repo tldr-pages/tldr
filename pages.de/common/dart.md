@@ -1,7 +1,7 @@
 # dart
 
 > Das Werkzeug zur Verwaltung von Dart-Projekten.
-> Mehr informationen: <https://dart.dev/tools/dart-tool>.
+> Weitere Informationen: <https://dart.dev/tools/dart-tool>.
 
 - Initialisiere ein neues Dart-Projekt in einem Verzeichnis mit demselben Namen:
 
