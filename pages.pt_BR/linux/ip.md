@@ -20,7 +20,7 @@
 
 `ip route`
 
-- Mostra vizinhos (ARP cache):
+- Mostra vizinhos (ARP tabela):
 
 `ip neighbour`
 
