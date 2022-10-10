@@ -16,7 +16,7 @@
 
 `7za x {{arquivo_compactado.7z}}`
 
-- Descompactar um arquivo em um diretório específicado pelo usuário:
+- Descompacta um arquivo em um diretório específicado pelo usuário:
 
 `7za x {{caminho/para/arquivo.7z}} -o{{caminho/para/diretório}}`
 
