@@ -7,10 +7,6 @@
 
 `dolt sql --query "{{INSERT INTO t values (1, 3);}}"`
 
-- Run multiple SQL statements:
-
-`dolt sql <<SQL ALTER TABLE t ADD c INT; INSERT INTO t VALUES (1, 2, 1); SQL`
-
 - List all saved queries:
 
 `dolt sql --list-saved`
