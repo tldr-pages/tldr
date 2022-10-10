@@ -9,9 +9,9 @@
 
 - Kompiliert ein .NET Projekt oder eine Projektmappendatei Debug-Modus:
 
-`dotnet build {{path/to/project_or_solution}}`
+`dotnet build {{Pfad/zum/Projekt_oder_Projektmappendatei}}`
 
-- Kompiliert m Release-Modus:
+- Kompiliert im Release-Modus:
 
 `dotnet build --configuration {{Release}}`
 
@@ -25,8 +25,8 @@
 
 - Kompiliert für eine spezifische Laufzeitumgebung:
 
-`dotnet build --runtime {{runtime_identifier}}`
+`dotnet build --runtime {{Laufzeitbezeichner}}`
 
 - Kompiliert in ein spezifischen Ordner:
 
-`dotnet build --output {{path/to/directory}}`
+`dotnet build --output {{Pfad/zum/Verzeichnis}}`
