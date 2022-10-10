@@ -7,7 +7,7 @@
 
 `einfo -dbs`
 
-- Print all information of the protein database (XML format):
+- Print all information of the protein database in XML format:
 
 `einfo -db {{protein}}`
 
