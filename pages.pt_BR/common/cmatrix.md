@@ -7,7 +7,7 @@
 
 `cmatrix -a`
 
-- Exibir texto em vermelho:
+- Exibe texto em vermelho:
 
 `cmatrix -C {{red}}`
 
