@@ -3,7 +3,7 @@
 > Exibe um padrão semelhante à Matrix rolando na tela do terminal.
 > Mais informações: <https://github.com/abishekvashok/cmatrix>.
 
-- Habilitar rolagem assincrona:
+- Habilita rolagem assincrona:
 
 `cmatrix -a`
 
