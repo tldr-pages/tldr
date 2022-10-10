@@ -1,7 +1,7 @@
 # blastn
 
 > Nucleotide-Nucleotide BLAST.
-> More information: <https://www.ncbi.nlm.nih.gov/books/NBK279696/>.
+> More information: <https://www.ncbi.nlm.nih.gov/books/NBK279684/table/appendices.T.blastn_application_options/>.
 
 - Display help (use `-help` for detailed help):
 
