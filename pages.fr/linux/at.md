@@ -3,7 +3,7 @@
 > Exécute des commandes à des temps détermintés.
 > Plus d'informations : <https://man.archlinux.org/man/at.1>.
 
-- Ouvre une invite `at` afin de créer un nouvel ensemble de commandes programmées, presser `Ctrl + D` pour sauvegarder et quitter.
+- Ouvre une invite `at` afin de créer un nouvel ensemble de commandes programmées, presser `Ctrl + D` pour sauvegarder et quitter :
 
 `at {{hh:mm}}`
 
