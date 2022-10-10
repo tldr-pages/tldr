@@ -13,7 +13,7 @@
 
 - Execute a script file with specific arguments:
 
-`octave {{path/to/script.m}} {{arg1 arg2 ...}}`
+`octave {{path/to/script.m}} {{argument1 argument2 ...}}`
 
 - Start an interactive session with a GUI:
 
