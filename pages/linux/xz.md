@@ -7,24 +7,24 @@
 
 - Compress a single file:
 
-`xz {{file}}`
+`xz {{path/to/file}}`
 
 - Compress multiple files:
 
-`xz {{file1}} {{file2}} {{file3}}`
+`xz {{path/to/file1}} {{path/to/file2}} {{path/to/file3}}`
 
 - Decompress a file:
 
-`xz -d {{file.xz}}`
+`xz -d {{path/to/file.xz}}`
 
 - Keep the input file (by default xz replaces the input file with the compressed/decompressed file):
 
-`xz -k {{file}}`
+`xz -k {{path/to/file}}`
 
 - Write the compressed or decompressed data to standard output:
 
-`xz -cd {{file}}`
+`xz -cd {{path/to/file}}`
 
 - Set the compression level (0 to 9, default is 6):
 
-`xz {{-9}} {{file}}`
+`xz {{-9}} {{path/to/file}}`
