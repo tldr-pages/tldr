@@ -22,3 +22,7 @@
 - Wechsle zum zuletzt gewählten Verzeichnis:
 
 `cd -`
+
+- Wechseln in das Stammverzeichnis:
+
+`cd /`

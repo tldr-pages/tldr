@@ -16,7 +16,7 @@
 
 `pacman --files {{dateiname}}`
 
-- Finde das Paket, welches eine bestimmte Datei besitzt, mittels einem regulärem Ausdruck:
+- Finde das Paket, welches eine bestimmte Datei besitzt, mittels eines regulären Ausdrucks:
 
 `pacman --files --regex '{{suchmuster}}'`
 
