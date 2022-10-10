@@ -1,7 +1,7 @@
 # dust
 
 > Dust gib einen sofortigen Überblick, welche Verzeichnisse Festplatten Speicherplatz benutzen.
-> Mehr Informationen: <https://github.com/bootandy/dust>.
+> Weitere Informationen: <https://github.com/bootandy/dust>.
 
 - Informationen für das aktuelle Verzeichnis anzeigen:
 
