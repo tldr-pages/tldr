@@ -4,7 +4,7 @@
 > Faz parte da biblioteca de ferramentas Calibre e-book.
 > Mais informações: <https://manual.calibre-ebook.com/generated/en/ebook-convert.html>.
 
-- Converter um e-book em outro formato:
+- Converte um e-book em outro formato:
 
 `ebook-convert {{original}} {{formato_pretendido}}`
 
