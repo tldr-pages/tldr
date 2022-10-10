@@ -4,7 +4,7 @@
 > Files can also be renamed in the zip archive.
 > More information: <https://linux.die.net/man/1/zipnote>.
 
-- View the comments of zip archive:
+- View the comments on a zip archive:
 
 `zipnote {{path/to/file.zip}}`
 
