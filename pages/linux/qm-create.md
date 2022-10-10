@@ -19,6 +19,6 @@
 
 `qm create {{100}} --archive {{path/to/backup_file.tar}} --force 1`
 
-- Specify a script that is executed on specific triggers during machine lifetime:
+- Specify a script that is executed automatically depending on the state of the virtual machine:
 
 `qm create {{100}} --hookscript {{path/to/script.pl}}`

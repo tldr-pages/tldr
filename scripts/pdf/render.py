@@ -10,7 +10,6 @@ through CSS, and finally rendering them as PDF. There is no LaTeX dependency for
 import os
 import sys
 import glob
-import re
 import markdown
 import argparse
 from datetime import datetime
@@ -34,10 +33,10 @@ def main(loc, colorscheme):
     html = (
         '<!doctype html><html><head><meta charset="utf-8"></head>'
         + "<body><h1 class=title-main>tldr pages</h1>"
-        + "<h4 class=title-sub>Simplified and community-driven man pages</h4>"
-        + "<h6 class=title-sub><em><small>Generated on "
+        + "<div class=title-sub>Simplified and community-driven man pages</div>"
+        + "<div class=title-sub><em><small>Generated on "
         + datetime.now().strftime("%c")
-        + "</small></em></h6>"
+        + "</small></em></div>"
         + '<p style="page-break-before: always" ></p>'
     )
 
@@ -46,9 +45,9 @@ def main(loc, colorscheme):
 
         # Required string to create directory title pages
         html += (
-            "<h2 class=title-dir>"
+            "<h1 class=title-dir>"
             + operating_sys.capitalize()
-            + "</h2>"
+            + "</h1>"
             + '<p style="page-break-before: always" ></p>'
         )
 
@@ -58,9 +57,12 @@ def main(loc, colorscheme):
         ):
             with open(md, "r") as inp:
                 text = inp.readlines()
+                # modify our page to have an H2 header, so that it is grouped under
+                # the H1 header for the directory
+                text[0] = "<h2 class='title-page'>" + text[0][2:] + "</h2>"
                 for line in text:
-                    if re.match(r"^>", line):
-                        line = line[:0] + "####" + line[1:]
+                    if line.startswith(">"):
+                        line = "####" + line[1:]
                     html += markdown.markdown(line)
             html += '<p style="page-break-before: always" ></p>'
             print(f"Rendered page {page_number} of the directory {operating_sys}")

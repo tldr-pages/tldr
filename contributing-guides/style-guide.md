@@ -162,7 +162,7 @@ Use backticks on the following:
 
 Example descriptions have to be phrased in imperative mood.  
 For example, use `List all files`, instead of `Listing all files` or `File listing`.  
-This also applies to all translations by default, unless this is not possible for some reason.  
+This also applies to all translations by default, unless otherwise specified in the language-specific section below.  
 
 ## Serial Comma
 
@@ -187,7 +187,9 @@ On the `More information` line, prefer linking to the author's provided document
 
 When not available, use <https://manned.org> as the default fallback. 
 
-## Chinese-Specific Rules
+## Language-Specific Rules
+
+### Chinese-Specific Rules
 
 When Chinese words, Latin words and Arabic numerals are written in the same sentence, more attention must be paid to copywriting.
 
@@ -211,3 +213,8 @@ The following guidelines are applied to Chinese (zh) and traditional Chinese (zh
 In order to maintain readability and normalization, please comply the 6 rules above as much as possible when translating pages into Chinese.
 
 For more information and examples of Chinese-specific rules, check out [*Chinese Copywriting Guidelines*](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.en.md).
+
+### French-Specific Rules
+
+Example descriptions on pages in French must use the third person singular present indicative tense (présent de l'indicatif à la troisième personne du singulier).
+For example, use `Extrait une archive` rather than `Extraire une archive` or `Extrais une archive`.
