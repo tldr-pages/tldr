@@ -7,7 +7,7 @@
 
 `dolt fetch`
 
-- Fetch refs and update remote-tracking branches from a specific remote:
+- Fetch latest changes from a specific remote upstream repository:
 
 `dolt fetch {{remote_name}}`
 
