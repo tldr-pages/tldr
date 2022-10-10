@@ -12,15 +12,22 @@ jobs:
     name: CI
 
     steps:
-    - name: Setup Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: 3.8
-
     - name: Checkout
       uses: actions/checkout@v3
       with:
         fetch-depth: 0
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+        cache: 'pip'
+
+    - name: Setup Node
+      uses: actions/setup-node@v3
+      with:
+        node-version: 'lts/*'
+        cache: 'npm'
 
     - name: Set up PR environment
       if: github.event.number != null
@@ -29,8 +36,10 @@ jobs:
     - name: Install npm dependencies
       run: npm ci
 
-    - name: Install python dependencies
-      run: python3 -m pip install -r requirements.txt
+    - name: Install pip dependencies
+      run: |
+        pip install --upgrade pip
+        pip install -r requirements.txt -r scripts/pdf/requirements.txt
 
     - name: Test
       run: npm test
@@ -38,18 +47,11 @@ jobs:
     - name: Build
       run: bash scripts/build.sh
 
-    - name: Setup Python for PDF generation
-      if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.x'
-
     - name: Build PDF
       if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
       run: |
         cd scripts/pdf/
-        pip3 install -r requirements.txt
-        python3 render.py ../../pages -c solarized-light
+        python render.py ../../pages -c solarized-light
 
     - name: Deploy
       if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
