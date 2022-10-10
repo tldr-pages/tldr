@@ -17,11 +17,11 @@
 
 - Werte für Eingabevariablen festlegen:
 
-`terraform plan -var '{{name1}}={{value1}}' -var '{{name2}}={{value2}}'`
+`terraform plan -var '{{name1}}={{wert1}}' -var '{{name2}}={{wert2}}'`
 
 - Anzeigen eines Plans auf eine Teilmenge von Ressourcen:
 
-`terraform plan -target {{resource_type.resource_name[instance index]}}`
+`terraform plan -target {{resource_type.resource_name[index]}}`
 
 - Ausgabe eines Plans als JSON:
 
@@ -29,4 +29,4 @@
 
 - Ausgabe eines Plans in eine separate Datei:
 
-`terraform plan -no-color > {{path/to/file}}`
+`terraform plan -no-color > {{pfad/zu/datei}}`
