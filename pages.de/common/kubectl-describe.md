@@ -1,7 +1,7 @@
 # kubectl describe
 
 > Details von Kubernetes-Objekten und -Ressourcen anzeigen.
-> Mehr Informationen: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#describe>.
+> Weitere Informationen: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#describe>.
 
 - Details zu Pods in einem Namespace anzeigen:
 
