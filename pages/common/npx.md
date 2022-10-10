@@ -7,7 +7,7 @@
 
 `npx {{module_name}} {{command_arguments}}`
 
-- In case a package has multiple binaries, specify the package name along with the binary:
+- In case a module has multiple binaries, specify the package name:
 
 `npx --package {{package_name}} {{module_name}}`
 
