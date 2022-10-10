@@ -40,7 +40,7 @@ The templates can be changed when necessary.
 [uz](#uz) •
 [zh](#zh) •
 [zh_TW](#zh_tw) •
-[la](#la) •
+[la](#la)
 ---
 ### en
 
