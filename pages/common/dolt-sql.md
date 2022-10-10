@@ -5,7 +5,7 @@
 
 - Run a single query:
 
-`dolt sql -q "INSERT INTO t values (1, 3);"`
+`dolt sql --query "{{INSERT INTO t values (1, 3);}}"`
 
 - Run multiple SQL statements:
 
