@@ -3,19 +3,19 @@
 > A CLI utility to customize the Spotify client UI and functionality.
 > More information: <https://spicetify.app>.
 
-- Generate config file on very first run and show help text:
+- Generate a configuration file on very first run and display help:
 
 `spicetify`
 
-- Backup and preprocess Spotify app files:
+- Backup and preprocess Spotify application files:
 
 `spicetify backup`
 
-- Print all config fields and values:
+- Print all configuration fields and values:
 
 `spicetify config`
 
-- Change the value of a config field:
+- Change the value of a configuration field:
 
 `spicetify config {{field}} {{value}}`
 
