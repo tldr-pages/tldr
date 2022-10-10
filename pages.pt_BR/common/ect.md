@@ -4,7 +4,7 @@
 > Otimizador de arquivos escrito em C++. Suporta arquivos do tipo `.png`, `.jpg`, `.gzip` and `.zip`.
 > Mais informações: <https://github.com/fhanau/Efficient-Compression-Tool>.
 
-- Comprimir um arquivo:
+- Comprime um arquivo:
 
 `ect {{caminho/para/arquivo.png}}`
 
