@@ -13,4 +13,4 @@
 
 - Display all system calls for a specific architecture:
 
-`ausyscall {{arch}} --dump`
+`ausyscall {{architecture}} --dump`
