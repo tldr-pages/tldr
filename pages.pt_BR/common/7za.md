@@ -8,7 +8,7 @@
 
 `7za a {{caminho/para/arquivo_compactado.7z}} {{caminho/para/arquivo_ou_diretório}}`
 
-- Criptografar um arquivo existente (incluindo cabeçalhos):
+- Criptografa um arquivo existente (incluindo cabeçalhos):
 
 `7za a {{caminho/para/arquivo_criptografado.7z}} -p{{senha}} -mhe=on {{arquivo.7z}}`
 
