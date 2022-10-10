@@ -31,6 +31,6 @@
 
 `brew info {{formula}}`
 
-- 설치된 Homebrew에 문제가 있는 확인
+- 설치된 Homebrew에 문제가 있는 확인:
 
 `brew doctor`
