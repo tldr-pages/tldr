@@ -3,7 +3,7 @@
 > Nucleotide-Nucleotide BLAST.
 > More information: <https://www.ncbi.nlm.nih.gov/books/NBK279696/>.
 
-- Print usage and description (ignoring all other parameters):
+- Display help (use `-help` for detailed help):
 
 `blastn -h`
 
