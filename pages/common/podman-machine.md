@@ -12,7 +12,7 @@
 
 `podman machine init`
 
-- Create a new machine with specific name:
+- Create a new machine with a specific name:
 
 `podman machine init {{name}}`
 
