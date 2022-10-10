@@ -29,4 +29,4 @@
 
 - Alle Objekte abfragen, welche in einer YAML Datei definiert sind:
 
-`kubectl get -f {{path/to/manifest}}.yaml`
+`kubectl get -f {{pfad/zu/manifest}}.yaml`

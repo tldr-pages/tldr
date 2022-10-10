@@ -21,4 +21,4 @@
 
 - Details zu Objekten anzeigen, welche in einer YAML Datei definiert sind:
 
-`kubectl describe -f {{path/to/manifest}}.yaml`
+`kubectl describe -f {{pfad/zu/manifest}}.yaml`
