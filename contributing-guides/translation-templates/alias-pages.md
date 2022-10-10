@@ -39,8 +39,8 @@ The templates can be changed when necessary.
 [uk](#uk) •
 [uz](#uz) •
 [zh](#zh) •
-[zh_TW](#zh_tw)
-
+[zh_TW](#zh_tw) •
+[la](#la) •
 ---
 ### en
 
@@ -423,6 +423,19 @@ Not translated yet.
 > 這是 `example` 命令的一個別名。
 
 - 原命令的文件在：
+
+`tldr example`
+```
+
+---
+### la
+
+```markdown
+# example
+
+> ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `example`.
+
+- ເປີດເບິ່ງລາຍລະອຽດຂອງຄຳສັ່ງແບບເຕັມ:
 
 `tldr example`
 ```
