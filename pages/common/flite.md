@@ -1,7 +1,7 @@
 # flite
 
 > A small simple speech synthesizer.
-> More information: <http://www.festvox.org/flite/doc/index.html>.
+> More information: <http://www.festvox.org/flite/doc/>.
 
 - Show flite version information:
 
