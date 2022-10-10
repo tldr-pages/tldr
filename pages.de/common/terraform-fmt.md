@@ -1,7 +1,7 @@
 # terraform fmt
 
 > Formatierung der Konfiguration gemäß den Konventionen der Terraform-Sprache.
-> Mehr Informationen: <https://www.terraform.io/docs/commands/fmt.html>.
+> Weitere Informationen: <https://www.terraform.io/docs/commands/fmt.html>.
 
 - Formatieren der Konfiguration im aktuellen Verzeichnis:
 
