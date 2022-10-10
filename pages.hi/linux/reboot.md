@@ -1,7 +1,7 @@
 # reboot
 
 > मशीन को `reboot` करें
-> अधिक जानकारी: <https://www.man7.org/linux/man-pages/man8/reboot.8.html>.
+> अधिक जानकारी: <https://manned.org/reboot.8>.
 
 - तुरंत पुनरारंभ करें:
 
@@ -17,7 +17,7 @@
 
 - Sysadmin से संपर्क किए बिना तुरंत पुनरारंभ करें:
 
-`reboot --force --force`
+`reboot --force`
 
 - सिस्टम को रिबूट किए बिना wtmp शटडाउन प्रविष्टि टाइप करें:
 
