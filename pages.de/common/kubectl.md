@@ -2,7 +2,7 @@
 
 > Befehlszeilenschnittstelle zur Ausführung von Befehlen gegen Kubernetes-Cluster.
 > Einige Unterbefehle wie `kubectl run` haben ihre eigene Dokumentation zur Verwendung.
-> Mehr Informationen: <https://kubernetes.io/docs/reference/kubectl/>.
+> Weitere Informationen: <https://kubernetes.io/docs/reference/kubectl/>.
 
 - Informationen über eine Ressource mit weiteren Details auflisten:
 
