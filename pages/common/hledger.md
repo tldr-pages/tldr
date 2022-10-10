@@ -1,13 +1,13 @@
 # hledger
 
-> A plain text accounting software for the command line.
+> A plain text accounting software for the command-line.
 > More information: <https://hledger.org>.
 
-- Use the interactive `add` command to add transactions to your journal:
+- Add transactions to your journal interactively:
 
 `hledger add`
 
-- Show the account hierarchy, using a journal file in a non-standard location:
+- Show the account hierarchy, using a specific journal file:
 
 `hledger --file {{path/to/file.journal}} accounts --tree`
 
