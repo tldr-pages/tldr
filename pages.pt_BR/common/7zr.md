@@ -28,6 +28,6 @@
 
 `7zr l {{arquivo.7z}}`
 
-- Exibir os tipos de arquivamento/compressão disponíveis:
+- Exibe os tipos de arquivamento/compressão disponíveis:
 
 `7zr i`
