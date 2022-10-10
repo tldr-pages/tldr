@@ -12,7 +12,7 @@
 
 `ect -{{9}} --mt-deflate {{caminho/para/arquivo.zip}}`
 
-- Comprimir todos os arquivos em um diretório recursivamente:
+- Comprime todos os arquivos em um diretório recursivamente:
 
 `ect -recurse {{caminho/para/diretório}}`
 
