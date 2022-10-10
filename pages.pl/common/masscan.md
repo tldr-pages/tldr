@@ -1,4 +1,4 @@
-# Masscan
+# masscan
 
 > Bardzo efektywny skaner sieci.
 > Najlepiej używać z podwyższonymi uprawnieniami. Żeby sprawdzić kompatybilność z Nmap'em, użyj komendy `masscan --nmap`.
