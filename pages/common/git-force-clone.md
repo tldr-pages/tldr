@@ -6,7 +6,7 @@
 
 - Clone a Git repository into a new folder:
 
-`git force-clone -b {{main}} {{https://github.com/tldr-pages/tldr}} {{./tldr}}`
+`git force-clone -b {{main}} {{remote_repository_location}} {{path/to/directory}}`
 
 - Clone a Git repository into an existing folder of a git repository, performing a force-reset to resemble it to the remote:
 
