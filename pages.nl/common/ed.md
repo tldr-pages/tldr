@@ -3,6 +3,7 @@
 > O editor de texto original do Unix.
 > Veja também: `awk`, `sed`.
 > Mais informações: <https://www.gnu.org/software/ed/manual/ed_manual.html>.
+
 - Inicia uma sessão do editor interativo com um documento vazio:
 
 `ed`
