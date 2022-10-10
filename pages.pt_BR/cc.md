@@ -6,4 +6,3 @@
 - Veja a documentação para o comando original:
 
 `tldr gcc`
-
