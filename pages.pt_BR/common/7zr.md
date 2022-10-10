@@ -12,7 +12,7 @@
 
 `7zr a {{arquivo_criptografado.7z}} -p{{senha}} -mhe=on {{arquivo.7z}}`
 
-- Descompactar um arquivo mantendo a estrutura de diretórios original:
+- Descompacta um arquivo mantendo a estrutura de diretórios original:
 
 `7zr x {{arquivo_compactado.7z}}`
 
