@@ -1,7 +1,7 @@
 # dotnet build
 
 > Baut eine .NET Anwendung und ihre Abhängigkeiten.
-> Mehr Informationen: <https://learn.microsoft.com/de-de/dotnet/core/tools/dotnet-build>.
+> Weitere Informationen: <https://learn.microsoft.com/de-de/dotnet/core/tools/dotnet-build>.
 
 - Kompiliert das Projekt oder eine Projektmappendatei in dem aktuellen Ordner:
 
