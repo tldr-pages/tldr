@@ -1,6 +1,6 @@
 # zipsplit
 
-> Zipsplit reads a zipfile and splits it into smaller zipfiles.
+> Read a zipfile and split it into smaller zipfiles.
 > More information: <https://manned.org/zipsplit>.
 
 - Split zipfile into pieces that are no larger than a particular size [n]:
