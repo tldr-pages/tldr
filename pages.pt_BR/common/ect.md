@@ -8,7 +8,7 @@
 
 `ect {{caminho/para/arquivo.png}}`
 
-- Comprimir um artigo com level de compressão específico e multithreading (1=Mais rápido (pior), 9=Mais lento (Melhor). O padrão é 3:
+- Comprime um arquivo com level de compressão específico e multithreading (1=Mais rápido (pior), 9=Mais lento (Melhor). O padrão é 3):
 
 `ect -{{9}} --mt-deflate {{caminho/para/arquivo.zip}}`
 
