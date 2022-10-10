@@ -1,16 +1,16 @@
 # zipsplit
 
 > Zipsplit reads a zipfile and splits it into smaller zipfiles.
-> More information: <https://linux.die.net/man/1/zipsplit>.
+> More information: <https://manned.org/zipsplit>.
 
-- Split zipfile into pieces that are no larger than 1 megabyte:
+- Split zipfile into pieces that are no larger than a particular size [n]:
 
-`zipsplit -n 1048576 archive.zip`
+`zipsplit -n {{size}} {{path/to/archive.zip}}`
 
-- Pause between the creation of each split file:
+- [p]ause between the creation of each split zipfile:
 
-`zipsplit -p -n 2097152 archive.zip`
+`zipsplit -p -n {{size}} {{path/to/archive.zip}}`
 
-- Write the split zipfiles into the directory /archive:
+- Output the split zipfiles into the `archive` directory:
 
-`zipsplit -b /archive -n 2097152 archive.zip`
+`zipsplit -b {{archive}} -n {{size}} {{path/to/archive.zip}}`
