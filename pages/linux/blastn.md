@@ -9,7 +9,7 @@
 
 - Align two or more sequences using megablast (default), with the e-value threshold of 1e-9, pairwise output format (default):
 
-`blastn -query {{query.fa}} -subject {{subject.fa}} -evalue 1e-9`
+`blastn -query {{query.fa}} -subject {{subject.fa}} -evalue {{1e-9}}`
 
 - Align two or more sequences using blastn:
 
