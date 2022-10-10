@@ -17,6 +17,5 @@
 `clamscan --recursive --infected {{path/to/directory}}`
 
 - แสกนหาไวรัสบนไดเรคทอรีแบบครอบคลุมไดเรคทอรีรอง ย้ายทั้งหมดไปที่กักกัน
-- Scan directories recursively and move them into quarantine:
 
 `clamscan --recursive --move={{directory}}`
