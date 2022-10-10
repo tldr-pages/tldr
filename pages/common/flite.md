@@ -1,6 +1,6 @@
 # flite
 
-> A small simple speech synthesizer.
+> Speech synthesis engine.
 > More information: <http://www.festvox.org/flite/doc/>.
 
 - Show flite version information:
