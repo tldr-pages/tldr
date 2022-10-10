@@ -1,7 +1,7 @@
 # tc
 
 > Show / manipulate traffic control settings.
-> More information: <https://man7.org/linux/man-pages/man8/tc.8.html>.
+> More information: <https://manned.org/tc>.
 
 - Add constant network delay to outbound packages:
 
