@@ -1,7 +1,7 @@
 # steam
 
 > Eine Plattform für Videospiele von Valve.
-> Weitere Informationen: <https://developer.valvesoftware.com/wiki/Command_Line_Options#Steam_.28Windows.29>.
+> Weitere Informationen: <https://developer.valvesoftware.com/wiki/Command_Line_Options>.
 
 - Starte Steam und gebe Debug-Nachrichten auf die Standardausgabe aus:
 
