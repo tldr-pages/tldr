@@ -14,7 +14,7 @@
 
 - 특정 명령어([c]ommands) 실행하기:
 
-`bash -c "{{echo 'bash is executed'}}"`
+`bash -c "{{echo 'bash가 실행되었습니다'}}"`
 
 - 특정 스크립트 실행하기:
 
@@ -30,4 +30,4 @@
 
 - stdin에서 bash 실행하기:
 
-`{{echo "echo 'bash is executed'"}} | bash`
+`{{echo "echo 'bash가 실행되었습니다'"}} | bash`
