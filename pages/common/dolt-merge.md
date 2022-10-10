@@ -3,7 +3,7 @@
 > Join two or more development histories together.
 > More information: <https://github.com/dolthub/dolt>.
 
-- Incorporate changes from the named commits (since the time their histories diverged from the current branch) into the current branch:
+- Incorporate changes from the named commits into the current branch:
 
 `dolt merge {{branch_name}}`
 
