@@ -8,7 +8,7 @@
 
 `zipnote {{path/to/file.zip}}`
 
-- Extract comments of zip archive to a temporary file:
+- Extract the comments on a zip archive to a file:
 
 `zipnote {{path/to/file.zip}} > {{path/to/file.txt}}`
 
