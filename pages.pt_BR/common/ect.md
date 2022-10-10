@@ -20,6 +20,6 @@
 
 `ect -keep {{caminho/para/arquivo.png}}`
 
-- Comprimir um arquivo, removendo metadados:
+- Comprime um arquivo, removendo metadados:
 
 `ect -strip {{caminho/para/arquivo.png}}`
