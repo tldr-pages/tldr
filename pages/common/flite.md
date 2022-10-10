@@ -25,4 +25,4 @@
 
 - Store output into a wav file:
 
-`flite -voice {{file://path/to/filename.flitevox | url}} -f {{path/to/textfile}} -o {{output.wav}}`
+`flite -voice {{file://path/to/filename.flitevox|url}} -f {{path/to/file.txt}} -o {{output.wav}}`
