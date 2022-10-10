@@ -6,7 +6,7 @@
 
 - Converte um e-book em outro formato:
 
-`ebook-convert {{original}} {{formato_pretendido}}`
+`ebook-convert {{caminho/para/arquivo_entrada}} {{arquivo_saída}}`
 
 - Converte Markdown ou HTML em um e-book com ToC, título e autor:
 
