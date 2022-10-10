@@ -1,7 +1,7 @@
 # vale
 
 > Extensible style checker that supports multiple markup formats, such as Markdown and AsciiDoc.
-> More information: <https://vale.sh/>.
+> More information: <https://vale.sh>.
 
 - Check the style of a file:
 
@@ -15,11 +15,11 @@
 
 `vale --output=JSON {{file}}`
 
-- Only list issues at or above the specified severity:
+- Check style issues at the specific severity and higher:
 
 `vale --minAlertLeve={{suggestion|warning|error}} {{file}}`
 
-- Check the style from STDIN, specifying markup format:
+- Check the style from stdin, specifying markup format:
 
 `cat {{file.md}} | vale --ext=.md`
 
