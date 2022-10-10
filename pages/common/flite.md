@@ -21,7 +21,7 @@
 
 - Specify which voice to use:
 
-`flite -voice {{file://path/to/filename.flitevox | url}}`
+`flite -voice {{file://path/to/filename.flitevox|url}}`
 
 - Store output into a wav file:
 
