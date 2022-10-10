@@ -23,7 +23,7 @@
 
 `brew outdated`
 
-- 사용 가능한 공식(formulae)과 캐스크(casks) 검색
+- 사용 가능한 공식(formulae)과 캐스크(casks) 검색:
 
 `brew search {{text}}`
 
