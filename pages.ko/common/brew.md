@@ -19,7 +19,7 @@
 
 `brew update`
 
-- 최신 버전이 아닌 공식(formulae)과 캐스크(casks) 나열
+- 최신 버전이 아닌 공식(formulae)과 캐스크(casks) 나열:
 
 `brew outdated`
 
