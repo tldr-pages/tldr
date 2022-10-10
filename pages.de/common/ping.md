@@ -11,15 +11,15 @@
 
 `ping -c {{anzahl}} {{ziel}}`
 
-- Sende Pings und bestimme das Interval in Sekunden zwischen diesen, standardmäßig ist es eine Sekunde:
+- Sende Pings und bestimme das Interval in Sekunden zwischen diesen (standardmäßig ist es eine Sekunde):
 
 `ping -i {{sekunden}} {{ziel}}`
 
-- Sende Pings ohne symbolische Namen für Adressen aufzulösen:
+- Sende Pings ohne symbolische Namen nach Adressen aufzulösen:
 
 `ping -n {{ziel}}`
 
-- Sende Pings und signalisiere eine erfolgreiche Antwort durch ein Signal in der Konsole, diese muss das Signal unterstützen:
+- Sende Pings und signalisiere eine erfolgreiche Antwort durch ein Bell Signal (wenn das Terminal es unterstützt):
 
 `ping -a {{ziel}}`
 
