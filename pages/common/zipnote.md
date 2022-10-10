@@ -2,7 +2,7 @@
 
 > View, add, or edit a zip archive's comments.
 > Files can also be renamed in the zip archive.
-> More information: <https://linux.die.net/man/1/zipnote>.
+> More information: <https://manned.org/zipnote>.
 
 - View the comments on a zip archive:
 
