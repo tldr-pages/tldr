@@ -15,6 +15,6 @@
 
 `cmatrix -r`
 
-- Determina um atraso de 2 centsegundos (20 milisegundos) na atualização da tela:
+- Determina um atraso de 2 centisegundos (20 milisegundos) na atualização da tela:
 
 `cmatrix -u {{2}}`
