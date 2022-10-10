@@ -16,7 +16,7 @@
 
 `ect -recurse {{caminho/para/diretório}}`
 
-- Comprimir um arquivo, mantendo o tempo de modificação original:
+- Comprime um arquivo, mantendo o tempo de modificação original:
 
 `ect -keep {{caminho/para/arquivo.png}}`
 
