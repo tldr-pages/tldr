@@ -3,7 +3,7 @@
 > Speech synthesis engine.
 > More information: <http://www.festvox.org/flite/doc/>.
 
-- Show flite version information:
+- Display version:
 
 `flite --version`
 
