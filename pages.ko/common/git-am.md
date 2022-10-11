@@ -1,7 +1,6 @@
 # git am
 
 > 패치 파일을 적용한다. 이메일로 커밋을 받을 때 유용함. 패치 파일을 생성 할 수 있는 `git format-patch` 또한 참고.
-
 > 더 많은 정보: <https://git-scm.com/docs/git-am>.
 
 - 패치 파일 적용:
