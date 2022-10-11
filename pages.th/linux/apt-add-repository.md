@@ -5,16 +5,16 @@
 
 - เพิ่มที่หมายของคลัง apt
 
-`apt-add-repository {{repository_spec}}`
+`apt-add-repository {{ที่อยู่จำเพาะของคลัง}}`
 
 - ลบคลัง apt
 
-`apt-add-repository --remove {{repository_spec}}`
+`apt-add-repository --remove {{ที่อยู่จำเพาะของคลัง}}`
 
 - อัพเดตข้อมูลแคชหลังจากเพิ่มคลัง apt
 
-`apt-add-repository --update {{repository_spec}}`
+`apt-add-repository --update {{ที่อยู่จำเพาะของคลัง}}`
 
 - อนุญาตให้เข้าถึงซอรส์โค้ดของโปรแกรมในคลัง
 
-`apt-add-repository --enable-source {{repository_spec}}`
+`apt-add-repository --enable-source {{ที่อยู่จำเพาะของคลัง}}`
