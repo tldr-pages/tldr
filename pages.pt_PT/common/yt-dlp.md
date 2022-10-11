@@ -24,7 +24,7 @@
 
 `yt-dlp --extract-audio --audio-format {{mp3}} --audio-quality {{0}} "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
-- Descarregar todas as playlists de um canal/usuário do YouTube, mantendo cada playlist num diretório em separado:
+- Descarregar todas as playlists de um canal/usuário de YouTube, mantendo cada playlist num diretório em separado:
 
 `yt-dlp -o "{{%(uploader)s/%(playlist)s/%(indice_playlist)s - %(titulo)s.%(ext)s}}" "{{https://www.youtube.com/user/TheLinuxFoundation/playlists}}"`
 
