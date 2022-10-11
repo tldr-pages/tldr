@@ -12,7 +12,6 @@
 
 `aws lightsail list-bundles`
 
-
 - List all available instance images, or blueprints:
 
 `aws lightsail list-blueprints`
