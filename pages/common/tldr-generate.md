@@ -9,7 +9,7 @@
 
 - Specify local additions:
 
-`tlmgr generate --localcfg {{local_conf_file}}`
+`tlmgr generate --localcfg {{local_configuration_file}}`
 
 - Run necessary programs after rebuilding config files:
 
