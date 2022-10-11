@@ -10,4 +10,3 @@
 - Search nucleotide and then find related biosamples:
 
 `esearch -db nuccore -query "insulin [PROT] AND rodents [ORGN]" | elink -target biosample`
-
