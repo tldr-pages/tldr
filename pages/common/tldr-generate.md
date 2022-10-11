@@ -3,7 +3,7 @@
 > Remake configuration files from information stored locally.
 > More information: <https://www.tug.org/texlive/tlmgr.html>.
 
-- Specify output file:
+- Remake the configuration file storing into a specific location:
 
 `tlmgr generate --dest {{output_file}}`
 
