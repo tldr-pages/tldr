@@ -12,19 +12,14 @@ jobs:
     name: CI
 
     steps:
-    - name: Checkout
-      uses: actions/checkout@v3
-      with:
-        fetch-depth: 0
+    - uses: actions/checkout@v3
 
-    - name: Setup Python
-      uses: actions/setup-python@v4
+    - uses: actions/setup-python@v4
       with:
         python-version: '3.10'
         cache: 'pip'
 
-    - name: Setup Node
-      uses: actions/setup-node@v3
+    - uses: actions/setup-node@v3
       with:
         node-version: 'lts/*'
         cache: 'npm'
@@ -38,7 +33,6 @@ jobs:
 
     - name: Install pip dependencies
       run: |
-        pip install --upgrade pip
         pip install -r requirements.txt -r scripts/pdf/requirements.txt
 
     - name: Test
@@ -49,8 +43,8 @@ jobs:
 
     - name: Build PDF
       if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
+      working-directory: ./scripts/pdf
       run: |
-        cd scripts/pdf/
         python render.py ../../pages -c solarized-light
 
     - name: Deploy
