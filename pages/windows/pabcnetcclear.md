@@ -9,7 +9,7 @@
 
 - Compile the specified source file into an executable with the specified name:
 
-`pabcnetcclear /Output:{{path/to/file.pas}} {{path/to/source_file.pas}}`
+`pabcnetcclear /Output:{{path/to/file.exe}} {{path/to/source_file.pas}}`
 
 - Compile the specified source file into an executable with the same name along with/without debug information:
 
