@@ -17,7 +17,7 @@
 
 - Delete a zone (if the zone has non-defaults SOA and NS records the command will fail):
 
-`aws route53 delete-hosted-zone --id {{zone_id}} `
+`aws route53 delete-hosted-zone --id {{zone_id}}`
 
 - Test DNS resolving by Amazon servers of a given zone:
 
