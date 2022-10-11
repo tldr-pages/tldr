@@ -12,6 +12,6 @@
 
 `zipnote {{path/to/file.zip}} > {{path/to/file.txt}}`
 
-- Add/Update comments/filename on/in a zip archive from a file:
+- Add/Update comments in a zip archive from a file:
 
 `zipnote -w {{path/to/file.zip}} < {{path/to/file.txt}}`
