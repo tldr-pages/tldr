@@ -4,10 +4,13 @@
 > 더 많은 정보: <https://git-scm.com/docs/git-am>.
 
 - 패치 파일 적용:
-  `git am {{path/to/file.patch}}`
+
+`git am {{path/to/file.patch}}`
 
 - 패치 파일 적용 프로세스 중단:
-  `git am --abort`
+
+`git am --abort`
 
 - 가능한 많은 수의 패치 파일 적용, 실패한 파일은 거절 파일에 저장:
-  `git am --reject {{path/to/file.patch}}`
+
+`git am --reject {{path/to/file.patch}}`
