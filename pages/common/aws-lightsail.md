@@ -1,14 +1,13 @@
 # aws lightsail
 
-> CLI for Lightsail.
-> You can manage your Lightsail resources using the cli.
+> Manage Amazon Lightsail resources using the CLI.
 > More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/lightsail/index.html>.
 
-- List all Amazon Lightsail virtual private servers, or instances:
+- List all virtual private servers, or instances:
 
 `aws lightsail get-instances`
 
-- List all Lightsail bundles (instance plans):
+- List all bundles (instance plans):
 
 `aws lightsail list-bundles`
 
@@ -18,16 +17,16 @@
 
 - Create an instance:
 
-`aws lightsail create-instances --instance-names {{name}} --availability-zone {{ap-southeast-1a}} --bundle-id {{nano_2_0}} --blueprint-id {{nodejs}}`
+`aws lightsail create-instances --instance-names {{name}} --availability-zone {{region}} --bundle-id {{nano_2_0}} --blueprint-id {{blueprint_id}}`
 
-- Get instance state:
+- Print the state of a specific instance:
 
 `aws lightsail get-instance-state --instance-name {{name}}`
 
-- Stop instance:
+- Stop a specific instance:
 
 `aws lightsail stop-instance --instance-name {{name}}`
 
-- Delete instance:
+- Delete a specific instance:
 
 `aws lightsail delete-instance --instance-name {{name}}`
