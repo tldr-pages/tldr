@@ -32,8 +32,7 @@ jobs:
       run: npm ci
 
     - name: Install pip dependencies
-      run: |
-        pip install -r requirements.txt -r scripts/pdf/requirements.txt
+      run: pip install -r requirements.txt -r scripts/pdf/requirements.txt
 
     - name: Test
       run: npm test
@@ -44,8 +43,7 @@ jobs:
     - name: Build PDF
       if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
       working-directory: ./scripts/pdf
-      run: |
-        python render.py ../../pages -c solarized-light
+      run: python render.py ../../pages -c solarized-light
 
     - name: Deploy
       if: github.repository == 'tldr-pages/tldr' && github.ref == 'refs/heads/main'
