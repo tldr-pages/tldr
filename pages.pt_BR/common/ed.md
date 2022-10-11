@@ -30,4 +30,4 @@
 
 - Substitui a string com um substituto específico em todas as linhas:
 
-`,s/{{regular_expression}}/{{replacement}}/g`
+`,s/{{regular_expression}}/{{substituto}}/g`
