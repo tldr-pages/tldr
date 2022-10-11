@@ -22,3 +22,15 @@
 - Check that your distribution’s long description should render correctly on PyPI:
 
 `twine check dist/*`
+
+- Upload with a specific pypirc configuration file (<https://packaging.python.org/en/latest/specifications/pypirc>):
+
+`twine upload --config-file {{config_file}} dist/*`
+
+- Continue uploading files if one already exists. (Only valid when uploading to PyPI. Other implementations may not support this.):
+
+`twine upload --skip-existing dist/*`
+
+- Display extra verbosity during upload:
+
+`twine upload --verbose dist/*`
