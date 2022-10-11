@@ -2,7 +2,7 @@
 
 > Makes a fast tree from genomes.
 > Does not make a phylogeny.
-> Home page is [https://github.com/lskatz/mashtree](https://github.com/lskatz/mashtree).
+> More information: <https://github.com/lskatz/mashtree>.
 
 - Fastest method:
 
