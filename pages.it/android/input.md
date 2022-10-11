@@ -6,20 +6,20 @@
 
 - Invia un codice evento per un singolo carattere a un dispositivo Android:
 
-`input keyevent {{event_code}}`
+`input keyevent {{codice_evento}}`
 
 - Invia un testo a un dispositivo Android (`%s` rappresenta lo spazio):
 
-`input text "{{text}}"`
+`input text "{{testo}}"`
 
 - Invia un singolo tap a un dispositivo Android:
 
-`input tap {{x_pos}} {{y_pos}}`
+`input tap {{pos_x}} {{pos_y}}`
 
 - Invia una gesture di scorrimento a un dispositivo Android:
 
-`input swipe {{x_start}} {{y_start}} {{x_end}} {{y_end}} {{duration_in_ms}}`
+`input swipe {{inizio_x}} {{inizio_y}} {{fine_x}} {{fine_y}} {{durata_in_ms}}`
 
 - Invia un tap lungo a un dispositivo Android usando una gesture di scorrimento:
 
-`input swipe {{x_pos}} {{y_pos}} {{x_pos}} {{y_pos}} {{duration_in_ms}}`
+`input swipe {{pos_x}} {{pos_y}} {{pos_x}} {{pos_y}} {{durata_in_ms}}`
