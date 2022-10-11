@@ -16,7 +16,7 @@
 
 `yt-dlp --extract-audio "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
-- Especificar o formato de áudio extraído (best(predefinição), acc, flac, mp3, m4a, opus, vorbis, wav, alac): 
+- Especificar o formato de áudio extraído (best(predefinição), acc, flac, mp3, m4a, opus, vorbis, wav, alac):
 
 `yt-dlp --extract-audio --audio-format {{mp3}} "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
