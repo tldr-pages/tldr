@@ -11,6 +11,6 @@
 
 `tlmgr generate --localcfg {{local_configuration_file}}`
 
-- Run necessary programs after rebuilding config files:
+- Run necessary programs after rebuilding configuration files:
 
 `tlmgr generate --rebuild-sys`
