@@ -3,10 +3,6 @@
 > Protein-Protein BLAST.
 > More information: <https://www.ncbi.nlm.nih.gov/books/NBK279684/table/appendices.T.blastp_application_options/>.
 
-- Display help (use `-help` for detailed help):
-
-`blastp -h`
-
 - Align two or more sequences using blastp, with the e-value threshold of 1e-9, pairwise output format, output to screen:
 
 `blastp -query {{query.fa}} -subject {{subject.fa}} -evalue {{1e-9}}`
@@ -26,3 +22,7 @@
 - Search the remote non-redundant protein database using a protein query:
 
 `blastp -query {{query.fa}} -db {{nr}} -remote`
+
+- Display help (use `-help` for detailed help):
+
+`blastp -h`
