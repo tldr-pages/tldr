@@ -1,6 +1,6 @@
 # twine
 
-> Twine is a utility for publishing Python packages on PyPI.
+> Utility for publishing Python packages on PyPI.
 > Subcommands such as `twine upload` have their own usage documentation.
 > More information: <https://twine.readthedocs.io>.
 
@@ -12,10 +12,10 @@
 
 `twine upload dist/*`
 
-- Specify [u]sername and [p]assword while uploading to PyPI:
+- Upload to PyPI with a specified [u]sername and [p]assword:
 
 `twine upload -u {{username}} -p {{password}} dist/*`
 
-- Upload to an alternative repository url:
+- Upload to an alternative repository URL:
 
 `twine upload --repository-url {{repository_url}} dist/*`
