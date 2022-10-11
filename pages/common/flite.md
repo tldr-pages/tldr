@@ -3,10 +3,6 @@
 > Speech synthesis engine.
 > More information: <http://www.festvox.org/flite/doc/>.
 
-- Display version:
-
-`flite --version`
-
 - List all available voices:
 
 `flite -lv`
@@ -26,3 +22,7 @@
 - Store output into a wav file:
 
 `flite -voice {{file://path/to/filename.flitevox|url}} -f {{path/to/file.txt}} -o {{output.wav}}`
+
+- Display version:
+
+`flite --version`
