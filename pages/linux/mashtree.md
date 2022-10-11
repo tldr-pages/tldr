@@ -1,4 +1,4 @@
-# command-name
+# Mashtree
 
 > Makes a fast tree from genomes.
 > Does not make a phylogeny.
