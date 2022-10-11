@@ -14,4 +14,4 @@
 
 - Clone a Git repository into an existing folder of a git repository, performing a force-reset to resemble it to the remote and checking out an specific branch:
 
-`git force-clone -b {{main}} {{https://github.com/tldr-pages/tldr}} {{./tldr}}`
+`git force-clone -b {{branch_name}} {{remote_repository_location}} {{path/to/directory}}`
