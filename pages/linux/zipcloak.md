@@ -1,6 +1,6 @@
 # zipcloak
 
-> Encrypt the contents within an existing zipfile.
+> Encrypt the contents within a zipfile.
 > More information: <https://manned.org/zipcloak>.
 
 - Encrypt the contents of a zipfile:
