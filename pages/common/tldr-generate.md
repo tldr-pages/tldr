@@ -7,7 +7,7 @@
 
 `tlmgr generate --dest {{output_file}}`
 
-- Specify local additions:
+- Remake the configuration file using a local configuration file:
 
 `tlmgr generate --localcfg {{local_configuration_file}}`
 
