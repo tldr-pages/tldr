@@ -26,7 +26,7 @@
 
 - Edita um arquivo específico (mostra a contagem de bytes do arquivo carregado):
 
-`ed {{path/to/file}}`
+`ed {{caminho/para/arquivo}}`
 
 - Substitui a string com um substituto específico em todas as linhas:
 
