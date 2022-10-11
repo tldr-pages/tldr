@@ -4,7 +4,7 @@
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-force-clone>.
 
-- Clone a Git repository into a new folder:
+- Clone a Git repository into a new directory:
 
 `git force-clone {{remote_repository_location}} {{path/to/directory}}`
 
