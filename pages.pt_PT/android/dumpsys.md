@@ -4,26 +4,26 @@
 > Este comando só pode ser usado com a `adb shell`.
 > Mais informações: <https://developer.android.com/studio/command-line/dumpsys>.
 
-- Gera um diagnóstico de todos os serviços do sistema:
+- Gerar um diagnóstico de todos os serviços do sistema:
 
 `dumpsys`
 
-- Gera um diagnóstico de um serviço do sistema específico:
+- Gerar um diagnóstico de um serviço do sistema específico:
 
 `dumpsys {{servico}}`
 
-- Lista todos os serviços dos quais o `dumpsys` pode obter informações:
+- Listar todos os serviços dos quais o `dumpsys` pode obter informações:
 
 `dumpsys -l`
 
-- Lista argumentos específicos de um serviço para um serviço:
+- Listar argumentos específicos de um serviço para um serviço:
 
 `dumpsys {{servico}} -h`
 
-- Omite um serviço em específico do diagnóstico:
+- Omitir um serviço em específico do diagnóstico:
 
 `dumpsys --skip {{servico}}`
 
-- Específica um periodo de _timeout_ (por padrão é 10s):
+- Especificar um periodo de _timeout_ (por padrão é 10s):
 
 `dumpsys -t {{segundos}}`
