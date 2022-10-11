@@ -3,7 +3,7 @@
 > Flips Applies and creates IPS and BPS patches.
 > More information: <https://www.smwcentral.net/?a=details&id=11474&p=section>.
 
-- Open user interface to create/apply patch
+- Open user interface to create/apply patch:
 
 `flips`
 
