@@ -1,7 +1,7 @@
 # blastp
 
 > Protein-Protein BLAST.
-> More information: https://www.ncbi.nlm.nih.gov/books/NBK279684/table/appendices.T.blastp_application_options/.
+> More information: <https://www.ncbi.nlm.nih.gov/books/NBK279684/table/appendices.T.blastp_application_options/>.
 
 Display help (use `-help` for detailed help):
 
