@@ -1,7 +1,7 @@
 # tasklist
 
 > Display a list of currently running processes on a local or remote machine.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/tasklist>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/tasklist>.
 
 - Display currently running processes:
 

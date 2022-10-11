@@ -1,7 +1,7 @@
 # whoami
 
 > Display details about the current user.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/whoami>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/whoami>.
 
 - Display the username of the current user:
 

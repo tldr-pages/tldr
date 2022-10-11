@@ -1,7 +1,7 @@
 # xcopy
 
 > Membuat salinan file dan direktori.
-> Informasi lebih lanjut: <https://docs.microsoft.com/windows-server/administration/windows-commands/xcopy>.
+> Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/xcopy>.
 
 - Membuat salinan file atau direktori ke lokasi lain:
 

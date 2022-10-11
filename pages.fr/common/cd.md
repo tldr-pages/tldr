@@ -22,3 +22,7 @@
 - Retourne au répertoire précédent :
 
 `cd -`
+
+- Se déplace vers le répertoire racine :
+
+`cd /`

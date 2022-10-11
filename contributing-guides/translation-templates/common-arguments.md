@@ -16,12 +16,13 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | es    | ruta/al/archivo      | ruta/al/directorio     | ruta/al/archivo_o_directorio      | paquete   |                   |
 | fa    |                      |                        |                                   |           |                   |
 | fr    | chemin/vers/fichier  | chemin/vers/dossier    | chemin/vers/fichier_ou_dossier    | paquet    | nom_d_utilisateur |
-| hi    |                      |                        |                                   |           |                   |
+| hi    | फ़ाइल/का/पथ            | निर्देशिका/का/पथ            | फ़ाइल_या_निर्देशिका/का/पथ                 | पैकेज      | उपयोगकर्ता-नाम         |
 | id    | jalan/menuju/file    | jalan/menuju/direktori | jalan/menuju/file_atau_direktori  | paket     | nama_pengguna     |
 | it    | percorso/al/file     | percorso/al/directory  | percorso/al/file_o_directory      | pacchetto |                   |
 | ja    |                      |                        |                                   |           |                   |
 | ko    |                      |                        |                                   |           |                   |
-| ml    |                      |                        |                                   |           |                   |
+| ml    |ഫയലിലേക്കുള്ള/പാത            |ഡയറക്ടറിയിലേക്കുള്ള/പാത          |ഫയലിലേക്കോ_ഡയറക്ടറിയിലേക്കോ/ഉള്ള/പാത         |പാക്കേജ്      |ഉപയോക്തൃനാമം         |
+| ne    | फाइल/को/पथ            | निर्देशिका/को/पथ            | फाइल_वा_निर्देशिका/को/पथ                 | प्याकेज      | प्रयोगकर्ता_नाम        |
 | nl    | pad/naar/bestand     | pad/naar/directory     | pad/naar/bestand_of_directory     |           |                   |
 | no    |                      |                        |                                   |           |                   |
 | pl    | ścieżka/do/pliku     | ścieżka/do/katalogu    | ścieżka/do/pliku_lub_katalogu     | pakiet    | nazwa_użytkownika |
@@ -35,7 +36,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | ta    |பாதை/டு/கோப்பு    |அடைவிற்குப்/பாதை   |பாதை/டு/கோப்பு_அல்லது_அடைவு|நிரல்தொகுப்பு|பயனர்ப்பெயர் |
 | th    |                      |                        |                                   |           |                   |
 | tr    | dosya/yolu           | dizin/yolu             | dosya_veya_dizin/yolu             | paket     | kullanıcı_adı     |
-| uk    |                      |                        |                                   |           |                   |
+| uk    | шлях/до/файлу        | шлях/до/директорії     | шлях/до/файлу_чи_директорії       | пакунок   | ім'я_користувача  |
 | uz    |                      |                        |                                   |           |                   |
 | zh    | 路径/到/文件         | 路径/到/目录           | 路径/到/文件或目录                | 包        | 用户名            |
 | zh_TW | 檔案/完整/路徑       | 目錄/完整/路徑         | 檔案或目錄/完整/路徑              | 套件      | 使用者名稱        |

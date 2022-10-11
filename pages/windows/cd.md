@@ -1,7 +1,7 @@
 # cd
 
 > Display the current working directory or move to a different directory.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/cd>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
 - Display the path of the current directory:
 

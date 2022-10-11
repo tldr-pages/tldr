@@ -1,7 +1,7 @@
 # clip
 
 > 入力コンテンツをWindowsクリップボードにコピーします。
-> 詳しくはこちら: <https://docs.microsoft.com/windows-server/administration/windows-commands/clip>
+> 詳しくはこちら: <https://learn.microsoft.com/windows-server/administration/windows-commands/clip>
 
 - コマンドライン出力をWindowsクリップボードにパイプします:
 
