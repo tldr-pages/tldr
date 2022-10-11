@@ -8,7 +8,7 @@
 
 `git force-clone {{remote_repository_location}} {{path/to/directory}}`
 
-- Clone a Git repository into a new folder, checking out an specific branch:
+- Clone a Git repository into a new directory, checking out an specific branch:
 
 `git force-clone -b {{branch_name}} {{remote_repository_location}} {{path/to/directory}}`
 
