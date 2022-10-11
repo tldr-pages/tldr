@@ -1,7 +1,7 @@
 # input
 
 > Envia códigos de eventos ou toques no ecrã para um dispositivo Android.
-> Esse comando só pode ser usado com a `adb shell`.
+> Este comando só pode ser usado com a `adb shell`.
 > Mais informações: <https://developer.android.com/reference/android/view/KeyEvent.html#constants_1>.
 
 - Enviar um código de evento de um caractere para um dispositivo Android:
