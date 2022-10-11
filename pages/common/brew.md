@@ -1,8 +1,8 @@
 # brew
 
 > Package manager for macOS and Linux.
-> More information: <https://brew.sh>.
 > See also: `brew-cask`.
+> More information: <https://brew.sh>.
 
 - Install the latest stable version of a formula or cask (use `--devel` for development versions):
 
