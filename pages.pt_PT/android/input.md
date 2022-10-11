@@ -20,6 +20,6 @@
 
 `input swipe {{x_inicio}} {{y_inicio}} {{x_fim}} {{y_fim}} {{duração_em_ms}}`
 
-- Envia um toque duradouro usando um gesto de deslize para um dispositivo Android:
+- Envia um toque prolongado usando um gesto de deslize para um dispositivo Android:
 
 `input swipe {{x_pos}} {{y_pos}} {{x_pos}} {{y_pos}} {{duração_em_ms}}`

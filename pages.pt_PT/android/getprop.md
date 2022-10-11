@@ -1,6 +1,6 @@
 # getprop
 
-> Obtém informações sobre propriedades do sistema Android (system props).
+> Obtém informações sobre propriedades do sistema (system props) Android.
 > Mais informações: <https://manned.org/getprop>.
 
 - Mostra todas as propriedades do sistema:

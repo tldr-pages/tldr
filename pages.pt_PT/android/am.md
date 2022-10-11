@@ -15,6 +15,6 @@
 
 `am start -a {{android.intent.action.MAIN}} -c {{android.intent.category.HOME}}`
 
-- Converter um intent num URI:
+- Converter um `intent` num URI:
 
 `am to-uri -a {{android.intent.action.VIEW}} -d {{tel:123}}`
