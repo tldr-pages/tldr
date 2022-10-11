@@ -19,6 +19,10 @@
 
 `unzip -c {{file.zip}}`
 
+- [p]rint just a single file from the archive to stdout:
+
+`unzip -p {{file.zip}} {{file}}`
+
 - Extract a zip file created on Windows, containing files with non-ASCII (e.g. Chinese or Japanese characters) filenames:
 
 `unzip -O {{gbk}} {{file.zip}}`
