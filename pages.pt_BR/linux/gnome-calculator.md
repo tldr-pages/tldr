@@ -3,7 +3,7 @@
 > A calculadora oficial para o ambiente de desktop GNOME.
 > Mais informações: <https://wiki.gnome.org/Apps/Calculator>.
 
-- Iniciar a GNOME Calculator GUI:
+- Inicia a GNOME Calculator GUI:
 
 `gnome-calculator`
 
