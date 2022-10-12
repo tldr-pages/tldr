@@ -3,7 +3,7 @@
 > Exibir ou alterar associações entre extensões de arquivo e tipos de arquivos.
 > Mais informações: <https://learn.microsoft.com/windows-server/administration/windows-commands/assoc>.
 
-- Listar todas as associações entre extensões de arquivo e tipos de arquivos:
+- Lista todas as associações entre extensões de arquivo e tipos de arquivos:
 
 `assoc`
 
