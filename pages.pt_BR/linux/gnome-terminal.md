@@ -15,6 +15,6 @@
 
 `gnome-terminal --tab`
 
-- Definir o título da nova aba:
+- Define o título da nova aba:
 
 `gnome-terminal --tab --title "{{título}}"`
