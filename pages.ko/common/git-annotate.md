@@ -5,8 +5,8 @@
 
 - 각각의 라인에 작성자의 이름과 커밋 해쉬를 앞쪽에 더하여 파일 출력:
 
-`git annotate {{path/to/file}}`
+`git annotate {{경로/목적지/파일이름}}`
 
 - 각각의 라인에 작성자의 이메일과 커밋 해쉬를 앞쪽에 더하여 파일 출력:
 
-`git annotate -e {{path/to/file}}`
+`git annotate -e {{경로/목적지/파일이름}}`
