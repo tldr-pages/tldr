@@ -5,7 +5,7 @@
 
 - 패치 파일 적용:
 
-`git am {{path/to/file.patch}}`
+`git am {{경로/목적지/파일이름.patch}}`
 
 - 패치 파일 적용 프로세스 중단:
 
@@ -13,4 +13,4 @@
 
 - 가능한 많은 수의 패치 파일 적용, 실패한 파일은 거절 파일에 저장:
 
-`git am --reject {{path/to/file.patch}}`
+`git am --reject {{경로/목적지/파일이름.patch}}`
