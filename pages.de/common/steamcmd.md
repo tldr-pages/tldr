@@ -5,7 +5,7 @@
 
 - Installiere und aktualisiere eine Anwendung ohne dich einzuloggen:
 
-`steamcmd +login anonymous +app_update {{anwendungs_id}} +quit`
+`steamcmd +login {{anonymous}} +app_update {{anwendungs_id}} +quit`
 
 - Installiere oder aktualisiere eine Anwendung unter Angabe deiner Zugangsdaten:
 
