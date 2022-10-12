@@ -1,6 +1,6 @@
 # qm snapshot
 
-> Create a virtual machine snapshot.
+> Create virtual machine snapshots.
 > More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
 - Create a snapshot:
