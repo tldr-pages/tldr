@@ -5,7 +5,7 @@
 
 - Esegue un file JavaScript:
 
-`node {{percorso/del/file}}`
+`node {{percorso/al/file}}`
 
 - Avvia una REPL (shell interattiva):
 
@@ -15,10 +15,10 @@
 
 `node -e "{{codice}}"`
 
-- Mostra come risultato le versioni delle dipendenze di node:
+- Valuta un'espressione e ne stampa il risultato, questo comando specifico è utile per vedere le versioni delle dipendenze di node:
 
 `node -p "process.versions"`
 
-- Attiva il debugger mettendo in pausa l'esecuzione fino a quando il codice sorgente viene caricato:
+- Attiva il debugger mettendo in pausa l'esecuzione finché il codice sorgente non viene caricato:
 
-`node --no-lazy --inspect-brk {{percorso/del/file}}`
+`node --no-lazy --inspect-brk {{percorso/al/file}}`
