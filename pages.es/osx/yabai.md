@@ -1,0 +1,24 @@
+# yabai
+
+> Un administrador de ventanas en mosaico para macOS basado en la partición de espacio binario.
+> Más información: <https://github.com/koekeishiya/yabai>.
+
+- Establecer el diseño a bsp:
+
+`yabai -m config layout {{bsp}}`
+
+- Establecer el espacio de la ventana en 10pt:
+
+`yabai -m config window_gap {{10}}`
+
+- Habilitar opacidad:
+
+`yabai -m config window_opacity on`
+
+- Deshabilitar sombra de la ventana:
+
+`yabai -m config window_shadow off`
+
+- Habilitar barra de estado:
+
+`yabai -m config status_bar on`
