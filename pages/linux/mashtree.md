@@ -4,14 +4,14 @@
 > Does not make a phylogeny.
 > More information: <https://github.com/lskatz/mashtree>.
 
-- Fastest method:
+- Fastest method to create a tree from fastq and/or fasta files using multiple threads, piping into a DND file:
 
-`mashtree --numcpus {{12}} *.fastq.gz [*.fasta] > mashtree.dnd`
+`mashtree --numcpus {{12}} {{*.fastq.gz}} {{*.fasta}} > {{mashtree.dnd}}`
 
-- Most accurate method:
+- Most accurate method to create a tree from fastq and/or fasta files using multiple threads, piping into a DND file:
 
-`mashtree --mindepth {{0}} --numcpus {{12}} *.fastq.gz [*.fasta] > mashtree.dnd`
+`mashtree --mindepth {{0}} --numcpus {{12}} {{*.fastq.gz}} {{*.fasta}} > {{mashtree.dnd}}`
 
-- Add confidence values (note the `--` to separate options specific to bootstrapping):
+- Most accurate method to create a tree with confidence values (note that any options for `mashtree` itself has to be on the right side of the `--`):
 
-`mashtree_bootstrap.pl --reps {{100}} --numcpus {{12}} *.fastq.gz -- --min-depth {{0}} > mashtree.bootstrap.dnd`
+`mashtree_bootstrap.pl --reps {{100}} --numcpus {{12}} {{*.fastq.gz}} -- --min-depth {{0}} > {{mashtree.bootstrap.dnd}}`
