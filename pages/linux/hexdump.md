@@ -1,7 +1,7 @@
 # hexdump
 
 > Display file contents in hexadecimal, decimal, octal, or ascii.
-> More information: <https://man7.org/linux/man-pages/man1/hexdump.1.html>
+> More information: <https://man7.org/linux/man-pages/man1/hexdump.1.html>.
 
 - Display the input offset in hexadecimal, followed by three columns of data in octal, per line:
 
