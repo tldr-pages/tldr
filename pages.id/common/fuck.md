@@ -1,6 +1,6 @@
 # fuck
 
-> Mengoreksi perintah konsol sebelumnya
+> Mengoreksi perintah konsol sebelumnya.
 > Informasi selanjutnya: <https://github.com/nvbn/thefuck>.
 
 - Memasang `fuck` alias ke alat `thefuck`:
