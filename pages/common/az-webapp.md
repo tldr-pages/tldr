@@ -6,7 +6,7 @@
 
 - List available runtimes for a webapp:
 
-`az webapp -list-runtimes --os-type {{windows|linux}}`
+`az webapp list-runtimes --os-type {{windows|linux}}`
 
 - Create a web app:
 
