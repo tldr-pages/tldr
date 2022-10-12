@@ -3,7 +3,7 @@
 > Create and apply patches for IPS and BPS files.
 > More information: <https://github.com/Alcaro/Flips>.
 
-- Open user interface to create/apply patch:
+- Open to create and apply patches interactively:
 
 `flips`
 
