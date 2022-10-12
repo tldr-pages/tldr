@@ -5,4 +5,4 @@
 
 - Ver documentación para el comando original:
 
-`tldr choco push`
+`tldr choco-push`
