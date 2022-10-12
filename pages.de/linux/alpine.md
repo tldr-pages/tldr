@@ -4,7 +4,7 @@
 > Unterstützt die meisten modernen IMAP Server.
 > Weitere Informationen: <https://manned.org/alpine>.
 
-- Öffne Apline:
+- Öffne Alpine:
 
 `alpine`
 
