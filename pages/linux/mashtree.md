@@ -6,12 +6,12 @@
 
 - Fastest method:
 
-`mashtree --numcpus 12 *.fastq.gz [*.fasta] > mashtree.dnd`
+`mashtree --numcpus {{12}} *.fastq.gz [*.fasta] > mashtree.dnd`
 
 - Most accurate method:
 
-`mashtree --mindepth 0 --numcpus 12 *.fastq.gz [*.fasta] > mashtree.dnd`
+`mashtree --mindepth {{0}} --numcpus {{12}} *.fastq.gz [*.fasta] > mashtree.dnd`
 
 - Add confidence values (note the `--` to separate options specific to bootstrapping):
 
-`mashtree_bootstrap.pl --reps 100 --numcpus 12 *.fastq.gz -- --min-depth 0 > mashtree.bootstrap.dnd`
+`mashtree_bootstrap.pl --reps {{100}} --numcpus {{12}} *.fastq.gz -- --min-depth {{0}} > mashtree.bootstrap.dnd`
