@@ -1,0 +1,16 @@
+# gnome-calculator
+
+> A calculadora oficial para o ambiente de desktop GNOME.
+> Mais informações: <https://wiki.gnome.org/Apps/Calculator>.
+
+- Iniciar a GNOME Calculator GUI:
+
+`gnome-calculator`
+
+- Resolver uma equação específica na linha de comando sem iniciar o aplicativo de desktop:
+
+`gnome-calculator --solve {{2^5 * 2 + 5}}`
+
+- Exibir a versão:
+
+`gnome-calculator --version`
