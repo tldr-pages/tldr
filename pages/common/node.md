@@ -15,7 +15,7 @@
 
 `node -e "{{code}}"`
 
-- Print as result the node's dependencies versions:
+- Evaluate and print the result, this specific command is useful to print node's dependencies versions:
 
 `node -p "process.versions"`
 
