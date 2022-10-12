@@ -4,8 +4,7 @@
 
 ## 레이아웃
 
-각 페이지의 기본 포맷은 다음 템플릿과 일치해야 하며,<br>
-다음과 최대 8개의 명령어 예제를 포함해야 합니다:
+각 페이지의 기본 포맷은 다음 템플릿과 일치해야 하며, 다음과 최대 8개의 명령어 예제를 포함해야 합니다:
 ```md
 # 명령어 이름
 
@@ -67,10 +66,9 @@ npm install --global tldr-lint
 tldr-lint path/to/tldr_page.md
 ```
 
-`tldr-lint'를 사용하기 위한 여러 방법들이 많습니다.
-다음은 이에 대한 안내 페이지입니다.
-확인해 보세요!
-[`tldr tldr-lint`](https://github.com/tldr-pages/tldr/blob/main/pages/common/tldr-lint.md). 별칭 `tldrl`을 쓸 수도 있습니다.
+`tldr-lint`를 사용하기 위한 여러 방법들이 많습니다. 다음은 이에 대한 안내 페이지입니다. 확인해 보세요! [`tldr tldr-lint`](https://github.com/tldr-pages/tldr/blob/main/pages/common/tldr-lint.md).
+
+별칭 `tldrl`을 쓸 수도 있습니다.
 
 
 Client는 `--render` 명령어를 통해 local에서 페이지를 미리 볼 수 있습니다.
@@ -99,8 +97,7 @@ tldr --render path/to/tldr_page.md
 
 ## Token syntax
 
-사용자 입력 값은 `{{token}}` 구문을 사용해야 합니다.
-`tldr` client가 강조 표시될 수 있도록 합니다.
+사용자 입력 값은 `tldr` 클라이언트에게 강조될 수 있도록 `{{token}}` 구문을 사용해야 합니다.
 
 토큰을 선택할 때 다음의 가이드라인을 염두에 두십시오:
 
@@ -148,7 +145,7 @@ tldr --render path/to/tldr_page.md
 
 ## Serial Comma
 
-3개 이상의 항목 목록을 선언할 때, Oxford 쉼표라고도 부르는 [연속 쉼표(https://en.wikipedia.org/wiki/Serial_comma)]를 사용합니다.
+3개 이상의 항목 목록을 선언할 때, Oxford 쉼표라고도 부르는 [연속 쉼표](https://en.wikipedia.org/wiki/Serial_comma)를 사용합니다.
 
 > Git brances, tags, remotes를 삭제하세요.
 
