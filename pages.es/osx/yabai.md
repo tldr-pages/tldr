@@ -19,6 +19,6 @@
 
 `yabai -m config window_shadow off`
 
-- Habilitar barra de estado:
+- Habilita la barra de estado:
 
 `yabai -m config status_bar on`
