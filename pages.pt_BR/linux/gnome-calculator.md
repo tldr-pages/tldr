@@ -7,7 +7,7 @@
 
 `gnome-calculator`
 
-- Resolver uma equação específica na linha de comando sem iniciar o aplicativo de desktop:
+- Resolve uma equação específica na linha de comando sem iniciar o aplicativo de desktop:
 
 `gnome-calculator --solve {{2^5 * 2 + 5}}`
 
