@@ -7,7 +7,7 @@
 
 `qm snapshot {{vm_id}} {{snapshot_name}}`
 
-- Give a textual description or comment:
+- Create a snapshot with a specific description:
 
 `qm snapshot {{vm_id}} {{snapshot_name}} --description {{description}}`
 
