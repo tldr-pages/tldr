@@ -1,13 +1,13 @@
 # twine
 
 > Utility for publishing Python packages on PyPI.
-> More information: <https://twine.readthedocs.io>.
+> More information: <https://twine.readthedocs.io/en/stable/#commands>.
 
 - Upload to PyPI:
 
 `twine upload dist/*`
 
-- Upload to the Test PyPI [r]epository and verify things look right:
+- Upload to the Test PyPI [r]epository to verify things look right:
 
 `twine upload -r testpypi dist/*`
 
@@ -27,7 +27,7 @@
 
 `twine upload --config-file {{configuration_file}} dist/*`
 
-- Continue uploading files if one already exists. (Only valid when uploading to PyPI. Other implementations may not support this.):
+- Continue uploading files if one already exists (only valid when uploading to PyPI):
 
 `twine upload --skip-existing dist/*`
 
