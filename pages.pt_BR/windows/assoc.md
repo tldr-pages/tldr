@@ -7,10 +7,10 @@
 
 `assoc`
 
-- Exibir o tipo de arquivo associado para uma extensão específica:
+- Exibe o tipo de arquivo associado para uma extensão específica:
 
 `assoc {{.txt}}`
 
-- Definir o tipo de arquivo associado para uma extensão específica:
+- Define o tipo de arquivo associado para uma extensão específica:
 
 `assoc .{{txt}}={{arquivotxt}}`
