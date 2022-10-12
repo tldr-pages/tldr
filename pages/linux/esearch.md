@@ -1,8 +1,7 @@
 # esearch
 
 > Perform a new Entrez search using terms in indexed fields.
-> It requires a `-db` argument for the database name and uses `-query` for the search terms.
-> It is part of the edirect package.
+> It is part of the `edirect` package.
 > More information: <https://www.ncbi.nlm.nih.gov/books/NBK179288/>.
 
 - Search the pubmed database for selective serotonin reuptake inhibitor:
