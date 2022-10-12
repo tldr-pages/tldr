@@ -7,7 +7,7 @@
 
 `gnome-terminal`
 
-- Executar um comando específico em uma nova janela de terminal:
+- Executa um comando específico em uma nova janela de terminal:
 
 `gnome-terminal -- {{commando}}`
 
