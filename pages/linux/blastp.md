@@ -15,7 +15,7 @@
 
 `blastp -query {{query.fa}} -subject {{subject.fa}} -outfmt {{'6 qseqid qlen qstart qend sseqid slen sstart send bitscore evalue pident'}} -out {{output.tsv}}`
 
-- Search protein databases using a protein query, 16 threads (CPUs) to use in the BLAST search, with a maximum number of 10 aligned sequences to keep:
+- Search protein databases using a protein query, 16 threads to use in the BLAST search, with a maximum number of 10 aligned sequences to keep:
 
 `blastp -query {{query.fa}} -db {{blast_database_name}} -num_threads {{16}} -max_target_seqs {{10}}`
 
