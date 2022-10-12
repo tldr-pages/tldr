@@ -1,6 +1,6 @@
 # doctl kubernetes options
 
-> Provides values available for use with doctl's kubernetes commands.
+> Provides values available for use with doctl's Kubernetes commands.
 > More information: <https://docs.digitalocean.com/reference/doctl/reference/kubernetes/options/>.
 
 - List regions that support Kubernetes clusters:
