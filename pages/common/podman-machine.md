@@ -18,7 +18,7 @@
 
 - Create a new machine with different resources:
 
-`podman machine init --cpus=4 --memory=4096 --disk-size=50`
+`podman machine init --cpus={{4}} --memory={{4096}} --disk-size={{50}}`
 
 - Start or stop a machine:
 
