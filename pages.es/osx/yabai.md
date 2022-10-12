@@ -11,7 +11,7 @@
 
 `yabai -m config window_gap {{10}}`
 
-- Habilitar opacidad:
+- Habilita opacidad:
 
 `yabai -m config window_opacity on`
 
