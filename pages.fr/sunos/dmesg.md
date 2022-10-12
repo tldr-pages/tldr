@@ -12,4 +12,5 @@
 `dmesg | grep -i memory`
 
 - Afficher les messages du kernel une page a la fois:
+
 `dmesg | less`
