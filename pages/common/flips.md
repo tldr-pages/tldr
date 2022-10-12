@@ -7,7 +7,7 @@
 
 `flips`
 
-- Apply patch by creating new file:
+- Apply a patch and create a new ROM file:
 
 `flips --apply {{patch.bps}} {{rom.smc}} {{hack.smc}}`
 
