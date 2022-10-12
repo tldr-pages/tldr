@@ -5,7 +5,7 @@
 
 - Print checksums with algorithm selection:
 
-`xxhsum -H{{0 | 32 | 64 | 128}} {{path/to/file}}`
+`xxhsum -H{{0|32|64|128}} {{path/to/file}}`
 
 - Run benchmark:
 
