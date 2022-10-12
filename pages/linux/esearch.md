@@ -2,12 +2,13 @@
 
 > Perform a new Entrez search using terms in indexed fields.
 > It requires a `-db` argument for the database name and uses `-query` for the search terms.
-> It is part of the edirect package: <https://www.ncbi.nlm.nih.gov/books/NBK179288/>.
+> It is part of the edirect package.
+> More information: <https://www.ncbi.nlm.nih.gov/books/NBK179288/>.
 
-- Search pubmed:
+- Search the pubmed database for selective serotonin reuptake inhibitor:
 
 `esearch -db pubmed -query "{{selective serotonin reuptake inhibitor}}"`
 
-- Search nucleotide:
+- Search the nucleotide database for sequences whose metadata contain insulin and rodents:
 
 `esearch -db nuccore -query "{{insulin [PROT] AND rodents [ORGN]}}"`
