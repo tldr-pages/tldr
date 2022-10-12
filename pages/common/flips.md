@@ -1,7 +1,7 @@
 # flips
 
 > Flips Applies and creates IPS and BPS patches.
-> More information: <https://www.smwcentral.net/?a=details&id=11474&p=section>.
+> More information: <https://github.com/Alcaro/Flips>.
 
 - Open user interface to create/apply patch:
 
