@@ -6,4 +6,3 @@
 - Get automatically generated cloudinit configs:
 
 `qm cloudinit dump {{vmid}} {{type}}`
-
