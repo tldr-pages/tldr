@@ -14,7 +14,6 @@
 - ปิดการใช้งานไดรฟ์ที่เลือกก่อนการตรวจสอบ:
 
 `chkdsk {{volume}} /x`
-Change the log file size to the specified size
 
 - เปลี่ยนขนาดของไฟล์ log เป็นไปตามขนาดที่ระบุ (เฉพาะ NTFS):
 
