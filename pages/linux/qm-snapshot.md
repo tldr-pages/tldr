@@ -11,6 +11,6 @@
 
 `qm snapshot {{vm_id}} {{snapshot_name}} --description {{description}}`
 
-- Save the vmstate:
+- Create a snapshot including the vmstate:
 
 `qm snapshot {{vm_id}} {{snapshot_name}} --description {{description}} --vmstate 1`
