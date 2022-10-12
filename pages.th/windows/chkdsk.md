@@ -1,4 +1,5 @@
 # chkdsk
+
 > ความสมบูรณ์ของระบบไฟล์และข้อมูลเมตาของระบบไฟล์บนดิสก์โวลุ่มและแก้ไขข้อผิดพลาดของระบบ
 > ข้อมูลเพิ่มเติม: <https://learn.microsoft.com/windows-server/administration/windows-commands/chkdsk>.
 
@@ -14,6 +15,7 @@
 
 `chkdsk {{volume}} /x`
 Change the log file size to the specified size
+
 - เปลี่ยนขนาดของไฟล์ log เป็นไปตามขนาดที่ระบุ (เฉพาะ NTFS):
 
 `chkdsk /l {{size}}`
