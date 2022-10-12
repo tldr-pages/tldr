@@ -7,7 +7,7 @@
 
 `dolt merge {{branch_name}}`
 
-- Incorporate changes from the named commits (since the time their histories diverged from the current branch) into the current branch without updating the commit history:
+- Incorporate changes from the named commits into the current branch without updating the commit history:
 
 `dolt merge --squash {{branch_name}}`
 
