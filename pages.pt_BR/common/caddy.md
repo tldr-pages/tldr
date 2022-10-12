@@ -1,6 +1,6 @@
 # caddy
 
-> Um poderoso servidor web open source, pronto para empresas, com HTTPS automático, escrito em Go.
+> Um servidor web open source, pronto para empresas, com HTTPS automático, escrito em Go.
 > Mais informações: <https://caddyserver.com>.
 
 - Inicia Caddy em primeiro plano:
