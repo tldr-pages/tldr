@@ -11,7 +11,7 @@
 
 `gnome-terminal -- {{commando}}`
 
-- Abrir uma nova aba na última janela aberta:
+- Abre uma nova aba na última janela aberta:
 
 `gnome-terminal --tab`
 
