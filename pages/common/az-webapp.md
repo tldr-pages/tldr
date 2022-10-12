@@ -1,16 +1,16 @@
 # az webapp
 
-> Manage Azure Cloud Services (Web Apps).
+> Manage Web Applications hosted in Azure Cloud Services.
 > Part of `azure-cli`.
 > Mode information: <https://learn.microsoft.com/cli/azure/webapp>.
 
 - List available runtimes for a webapp:
 
-`az webapp -list-runtime --os-type {{windows|linux}}`
+`az webapp -list-runtimes --os-type {{windows|linux}}`
 
 - Create a web app:
 
-`az webapp up -n {{app_name}} -l {{location}} --runtime {{runtime}}`
+`az webapp up --name {{app_name}} --location {{location}} --runtime {{runtime}}`
 
 - List all web apps:
 
@@ -18,4 +18,4 @@
 
 - Delete a web app:
 
-`az webapp delete -n {{app_name}} -g {{resource_group}}`
+`az webapp delete --name {{app_name}} --resource-group {{resource_group}}`
