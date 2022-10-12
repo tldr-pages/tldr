@@ -3,7 +3,7 @@
 > Create virtual machine snapshots.
 > More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
-- Create a snapshot:
+- Create a snapshot of a specific virtual machine:
 
 `qm snapshot {{vm_id}} {{snapshot_name}}`
 
