@@ -1,7 +1,7 @@
 # ldd
 
 > Display shared library dependencies of a binary.
-> Warning: do not use on an untrusted binary, use objdump for that instead
+> Do not use on an untrusted binary, use objdump for that instead.
 > More information: <https://manned.org/ldd>.
 
 - Display shared library dependencies of a binary:
@@ -22,4 +22,4 @@
 
 - Report missing data objects and functions, and perform relocations for both (ELF ONLY):
 
-`ldd --function-relocs {{path/to/binary}}
+`ldd --function-relocs {{path/to/binary}}`
