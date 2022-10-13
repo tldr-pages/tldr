@@ -7,7 +7,7 @@
 
 `yabai -m config layout {{bsp}}`
 
-- Establecer el espacio de la ventana en 10pt:
+- Establece el espacio de la ventana en 10pt:
 
 `yabai -m config window_gap {{10}}`
 
@@ -15,7 +15,7 @@
 
 `yabai -m config window_opacity on`
 
-- Deshabilitar sombra de la ventana:
+- Deshabilita la sombra de la ventana:
 
 `yabai -m config window_shadow off`
 
