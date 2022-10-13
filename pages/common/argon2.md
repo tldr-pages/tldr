@@ -11,7 +11,7 @@
 
 `echo "{{password}}" | argon2 "{{salt_text}}" -{{d|i|id}}`
 
-- Only show the output hash without additional info:
+- Display the output hash without additional info:
 
 `echo "{{password}}" | argon2 "{{salt_text}}" -e`
 
