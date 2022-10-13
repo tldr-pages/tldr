@@ -19,6 +19,6 @@
 
 `file -k {{nome_file}}`
 
-- Determina il tipo *MIME* di un file:
+- Determina il tipo MIME di un file:
 
 `file -i {{nome_file}}`
