@@ -201,7 +201,9 @@ Not translated yet.
 ---
 ### sv
 
-Not translated yet.
+```markdown
+En del underkommandon som t.ex: `example command` har sin egen användningsdokumentation.
+```
 
 
 ---
