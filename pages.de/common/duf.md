@@ -16,6 +16,5 @@
 `duf {{path/to/directory1 path/to/directory2 ...}}`
 
 - Sortiere die Ergebnisse durch ein spezifisches Kriterium:
-Sort the output by a specified criteria:
 
 `duf --sort {{size|used|avail|usage}}`
