@@ -5,4 +5,4 @@
 
 - Get automatically generated cloudinit configs:
 
-`qm cloudinit dump {{vmid}} {{type}}`
+`qm cloudinit dump {{vmid}} {{meta|network|user}}`
