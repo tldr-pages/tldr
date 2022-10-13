@@ -1,7 +1,7 @@
 # arpaname
 
 > Provides corresponding ARPA name for a IP address.
-> More information: https://manned.org/arpaname.
+> More information: <https://manned.org/arpaname>.
 
 - Tanslate IP addresses (IPv4 and IPv6) to the corresponding ARPA name:
 
