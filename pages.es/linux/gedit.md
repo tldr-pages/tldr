@@ -3,18 +3,18 @@
 > Editor de texto del proyecto GNOME.
 > Más información: <https://help.gnome.org/users/gedit/stable/>.
 
-- Abrir un fichero de texto:
+- Abre un archivo de texto:
 
-`gedit {{path/to/file}}`
+`gedit {{ruta/al/archivo}}`
 
-- Abrir varios ficheros de texto:
+- Abre varios archivos de texto:
 
-`gedit {{file1 file2 ...}}`
+`gedit {{archivo1 archivo2 ...}}`
 
-- Abrir un fichero de texto con una codificación específica:
+- Abre un archivo de texto con una codificación específica:
 
-`gedit --encoding={{UTF-8}} {{path/to/file}}`
+`gedit --encoding={{UTF-8}} {{ruta/al/archivo}}`
 
-- Mostrar una lista de las codificaciones disponibles:
+- Muestra una lista de las codificaciones disponibles:
 
 `gedit --list-encodings`
