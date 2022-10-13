@@ -1,4 +1,4 @@
-# histexpand
+# history expansion
 
 > Повторное использование и подстановка команд из списка истории в `sh`, `bash`, `zsh`, `rbash` and `ksh`.
 > Больше информации: <https://www.gnu.org/software/bash/manual/html_node/History-Interaction>.
