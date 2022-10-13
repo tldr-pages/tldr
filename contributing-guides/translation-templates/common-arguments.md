@@ -32,7 +32,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | ru    | путь/до/файла        | путь/до/папки          | путь/до/файла_или_папки           |           |                   |
 | sh    |                      |                        |                                   |           |                   |
 | sr    |                      |                        |                                   |           |                   |
-| sv    |                      |                        |                                   |           |                   |
+| sv    | sökväg/till/fil      | sökväg/till/katalog    | sökväg/till/fil_eller_katalog     | paket     | användarnamn      |
 | ta    |பாதை/டு/கோப்பு    |அடைவிற்குப்/பாதை   |பாதை/டு/கோப்பு_அல்லது_அடைவு|நிரல்தொகுப்பு|பயனர்ப்பெயர் |
 | th    |                      |                        |                                   |           |                   |
 | tr    | dosya/yolu           | dizin/yolu             | dosya_veya_dizin/yolu             | paket     | kullanıcı_adı     |
