@@ -1,4 +1,3 @@
-
 # ebook-convert
 
 > Kann verwendet werden, um E-Books zu geläufigen Dateiformaten umzuwandeln, z.B. PDF, EPUB und MOBI. Teil des Tools Calibre e-book library.
