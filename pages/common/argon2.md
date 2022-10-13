@@ -7,9 +7,9 @@
 
 `echo "{{password}}" | argon2 "{{salt_text}}"`
 
-- Calculate a hash with the specified algorithm (i, d, or id):
+- Calculate a hash with the specified algorithm:
 
-`echo "{{password}}" | argon2 "{{salt_text}}" -{{id}}`
+`echo "{{password}}" | argon2 "{{salt_text}}" -{{d|i|id}}`
 
 - Only show the output hash without additional info:
 
