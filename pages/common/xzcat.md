@@ -8,9 +8,9 @@
 
 `xzcat --compress {{path/to/file}}`
 
-- Decompress a file:
+- Decompress a specific archive then delete it:
 
-`xzcat --decopress {{path/to/file.xz}}`
+`xzcat --decompress {{path/to/archive.xz}}`
 
 - Test the integrity of a specific archive:
 
@@ -24,10 +24,10 @@
 
 `xzcat --keep {{path/to/file}}`
 
-- Force overwrite output files and decompress links:
+- Compress a file overwriting the output archive and decompress links:
 
 `xzcat --force {{path/to/file}}`
 
-- Suppress warnings (Specify twice to suppress warning and errors):
+- Compress a file suppressing warnings (use two `--quiet` flags to suppress errors too):
 
 `xzcat --quiet {{path/to/file}}`
