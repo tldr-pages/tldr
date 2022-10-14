@@ -1,6 +1,6 @@
 # mv
 
-> Sposta o rinomina file e directory.
+> Sposta o rinomina file e cartelle.
 > Maggiori informazioni: <https://www.gnu.org/software/coreutils/mv>.
 
 - Sposta file:

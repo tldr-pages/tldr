@@ -7,15 +7,15 @@
 
 `aws s3 ls {{nome_bucket}}`
 
-- Sincronizza file e directory locali su un bucket:
+- Sincronizza file e cartelle locali su un bucket:
 
 `aws s3 sync {{percorso/ai/file}} s3://{{nome_bucket}}`
 
-- Sincronizza file e directory da un bucket in locle:
+- Sincronizza file e cartelle da un bucket in locle:
 
 `aws s3 sync s3://{{nome_bucket}} {{path/to/target}}`
 
-- Sincronizza file e directory escludendo alcuni file o directory:
+- Sincronizza file e cartelle escludendo alcuni file o directory:
 
 `aws s3 sync {{percorso/ai/file}} s3://{{nome_bucket}} --exclude {{percorso/al/file}} --exclude {{directory}}/*`
 

@@ -3,7 +3,7 @@
 > Mostra i contenuti della cartella corrente come un albero.
 > Maggiori informazioni: <http://mama.indstate.edu/users/ice/tree/>.
 
-- Stampa file e cartella fino al 'num'-esimo livello di profondità (dove 1 significa la cartella corrente):
+- Stampa file e cartelle fino al 'num'-esimo livello di profondità (dove 1 significa la cartella corrente):
 
 `tree -L {{num}}`
 
