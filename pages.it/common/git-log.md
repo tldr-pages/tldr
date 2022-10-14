@@ -9,7 +9,7 @@
 
 - Mostra la cronologia di un dato file o cartella, mostrando anche le modifiche:
 
-`git log -p {{percorso/al/file_o_cartella}}`
+`git log -p {{percorso/del/file_o_cartella}}`
 
 - Offri una panoramica dei file che sono cambiati ad ogni commit:
 

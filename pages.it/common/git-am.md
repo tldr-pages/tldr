@@ -6,7 +6,7 @@
 
 - Applica un file di patch:
 
-`git am {{percorso/al/file.patch}}`
+`git am {{percorso/del/file.patch}}`
 
 - Interrompi l'applicazione di un file di patch:
 
@@ -14,4 +14,4 @@
 
 - Applica quanto possibile di un file di patch, salvando le parti non applicabili in file `.rej`:
 
-`git am --reject {{percorso/al/file.patch}}`
+`git am --reject {{percorso/del/file.patch}}`

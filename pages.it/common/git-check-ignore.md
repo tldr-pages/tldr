@@ -5,11 +5,11 @@
 
 - Verifica se un file o una cartella sono ignorati:
 
-`git check-ignore {{percorso/al/file_o_cartella}}`
+`git check-ignore {{percorso/del/file_o_cartella}}`
 
 - Verifica se più file o cartelle sono ignorati:
 
-`git check-ignore {{percorso/al/file}} {{percorso/alla/cartella}}`
+`git check-ignore {{percorso/del/file}} {{percorso/alla/cartella}}`
 
 - Leggi i percorsi di file o cartelle da stdin (uno per riga) invece che dalla riga di comando:
 

@@ -25,8 +25,8 @@
 
 - Salva la configurazione di ip tables di una specifica tabella in un file:
 
-`sudo iptables-save -t {{nome tabella}} > {{percorso/al/file_iptables}}`
+`sudo iptables-save -t {{nome tabella}} > {{percorso/del/file_iptables}}`
 
 - Ripristina la configurazione di iptables da un file:
 
-`sudo iptables-restore < {{percorso/al/file_iptables}}`
+`sudo iptables-restore < {{percorso/del/file_iptables}}`

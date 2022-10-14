@@ -5,7 +5,7 @@
 
 - Imposta l'etichetta dell'artista e del titolo in un file MP3:
 
-`id3tag --artist={{artista}} --title={{titolo}} {{percorso/al/file.mp3}}`
+`id3tag --artist={{artista}} --title={{titolo}} {{percorso/del/file.mp3}}`
 
 - Imposta il titolo dell'album di tutti i file MP3 nella cartella corrente:
 

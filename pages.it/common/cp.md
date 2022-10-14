@@ -5,11 +5,11 @@
 
 - Copia un file in un'altra posizione:
 
-`cp {{percorso/al/file}} {{percorso/alla/copia}}`
+`cp {{percorso/del/file}} {{percorso/alla/copia}}`
 
 - Copia un file in una cartella mantenendo il nome:
 
-`cp {{percorso/al/file}} {{percorso/alla/cartella}}`
+`cp {{percorso/del/file}} {{percorso/alla/cartella}}`
 
 - Copia una cartella ricorsivamente in un'altra posizione:
 

@@ -5,7 +5,7 @@
 
 - Archivia un file o una cartella:
 
-`asar pack {{percorso/al/file}} {{archivio.asar}}`
+`asar pack {{percorso/del/file}} {{archivio.asar}}`
 
 - Estrai un archivio:
 

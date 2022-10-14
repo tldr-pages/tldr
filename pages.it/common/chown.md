@@ -21,4 +21,4 @@
 
 - Cambia il proprietario di un file/cartella rendendolo uguale a quello di un altro file di riferimento:
 
-`chown --reference={{percorso/al/file_riferimento}} {{percorso/a/file_o_cartella}}`
+`chown --reference={{percorso/del/file_riferimento}} {{percorso/a/file_o_cartella}}`

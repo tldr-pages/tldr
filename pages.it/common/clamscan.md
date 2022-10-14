@@ -5,7 +5,7 @@
 
 - Analizza un file cercando vulnerabilità:
 
-`clamscan {{percorso/al/file}}`
+`clamscan {{percorso/del/file}}`
 
 - Analizza ricorsivamente tutti i file in una specifica cartella:
 

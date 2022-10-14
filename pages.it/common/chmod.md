@@ -5,7 +5,7 @@
 
 - Dai il permesso di eseguire (x) un file al suo proprietario (u):
 
-`chmod u+x {{percorso/al/file}}`
+`chmod u+x {{percorso/del/file}}`
 
 - Dai permessi di lettura (r) e scrittura (w) per un file/cartella al suo proprietario:
 
@@ -13,15 +13,15 @@
 
 - Rimuovi i permessi di esecuzione al [g]ruppo proprietario del file:
 
-`chmod g-x {{percorso/al/file}}`
+`chmod g-x {{percorso/del/file}}`
 
 - Dai a tutti gli utenti (a) diritti di lettura ed esecuzione:
 
-`chmod a+rx {{percorso/al/file}}`
+`chmod a+rx {{percorso/del/file}}`
 
 - Dai ad altri utenti (non nel gruppo proprietario) gli stessi diritti del gruppo:
 
-`chmod o=g {{percorso/al/file}}`
+`chmod o=g {{percorso/del/file}}`
 
 - Cambia permessi ricorsivamente dando al [g]ruppo e agli altri utenti (o) diritto di scrittura:
 

@@ -5,11 +5,11 @@
 
 - Copia un file in un'altra posizione:
 
-`cp {{persorso/al/file_da_copiare.est}} {{percorso/al/file_di_destinazione.est}}`
+`cp {{persorso/al/file_da_copiare.est}} {{percorso/del/file_di_destinazione.est}}`
 
 - Copia un file all'interno di una cartella, mantenendone uguale il nome:
 
-`cp {{percorso/al/file_da_copiare.est}} {{percorso/alla/cartella}}`
+`cp {{percorso/del/file_da_copiare.est}} {{percorso/alla/cartella}}`
 
 - Copia ricorsivamente i contenuti di una cartella in un'altra posizione (se la destinazione esiste, la cartella è copiata al suo interno):
 
@@ -29,4 +29,4 @@
 
 - Utilizza il percorso completo dei file originali, creando ogni cartella intermedia mancante mentre durante la copia:
 
-`cp --parents {{percorso/dei/file/da/copiare}} {{percorso/al/file/destinazione}}`
+`cp --parents {{percorso/dei/file/da/copiare}} {{percorso/del/file/destinazione}}`
