@@ -14,5 +14,3 @@
 - Attempt to set the value of system.sysLocation.0 to "My Workgroup"
 
 `braa private@{ip}:.1.3.6.1.2.1.1.6.0=sMy Workgroup`
-
-
