@@ -20,7 +20,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | id    | jalan/menuju/file    | jalan/menuju/direktori | jalan/menuju/file_atau_direktori  | paket     | nama_pengguna     |
 | it    | percorso/al/file     | percorso/al/directory  | percorso/al/file_o_directory      | pacchetto |                   |
 | ja    |                      |                        |                                   |           |                   |
-| ko    |                      |                        |                                   |           |                   |
+| ko    | 경로/대상/파일        | 경로/대상/폴더          | 경로/대상/파일_또는_폴더           | 패키지    |  사용자 명        |
 | ml    |ഫയലിലേക്കുള്ള/പാത            |ഡയറക്ടറിയിലേക്കുള്ള/പാത          |ഫയലിലേക്കോ_ഡയറക്ടറിയിലേക്കോ/ഉള്ള/പാത         |പാക്കേജ്      |ഉപയോക്തൃനാമം         |
 | ne    | फाइल/को/पथ            | निर्देशिका/को/पथ            | फाइल_वा_निर्देशिका/को/पथ                 | प्याकेज      | प्रयोगकर्ता_नाम        |
 | nl    | pad/naar/bestand     | pad/naar/directory     | pad/naar/bestand_of_directory     |           |                   |
