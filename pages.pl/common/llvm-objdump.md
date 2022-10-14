@@ -1,6 +1,6 @@
 # llvm-objdump
 
-> To poleceniejest aliasem `objdump`.
+> To polecenie jest aliasem `objdump`.
 
 - Zobacz dokumentację orginalnego polecenia:
 

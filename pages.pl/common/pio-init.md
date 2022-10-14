@@ -1,6 +1,6 @@
 # pio-init
 
-> To poleceniejest aliasem `pio project`.
+> To polecenie jest aliasem `pio project`.
 
 - Zobacz dokumentację orginalnego polecenia:
 

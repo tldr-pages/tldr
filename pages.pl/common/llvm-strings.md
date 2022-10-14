@@ -1,6 +1,6 @@
 # llvm-strings
 
-> To poleceniejest aliasem `strings`.
+> To polecenie jest aliasem `strings`.
 
 - Zobacz dokumentację orginalnego polecenia:
 
