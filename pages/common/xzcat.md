@@ -16,7 +16,7 @@
 
 `xzcat --test {{path/to/file}}`
 
-- List information about .xz file:
+- List the contents of a specific archive:
 
 `xzcat --list {{path/to/file}}`
 
