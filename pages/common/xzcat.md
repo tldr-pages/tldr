@@ -8,7 +8,7 @@
 
 `xzcat --compress {{path/to/file}}`
 
-- Force decompress:
+- Decompress a file:
 
 `xzcat --decopress {{path/to/file.xz}}`
 
