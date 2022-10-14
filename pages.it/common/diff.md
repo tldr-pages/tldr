@@ -19,10 +19,10 @@
 
 `diff -u {{vecchio_file}} {{nuovo_file}}`
 
-- Confronta due directory ricorsivamente (mostra i nomi dei file/directory diversi e le differenze trai file):
+- Confronta due cartelle ricorsivamente (mostra i nomi dei file/directory diversi e le differenze trai file):
 
 `diff -r {{old_directory}} {{new_directory}}`
 
-- Confronta due directory mostrando solamente il nome dei file diversi:
+- Confronta due cartelle mostrando solamente il nome dei file diversi:
 
 `diff -rq {{old_directory}} {{new_directory}}`

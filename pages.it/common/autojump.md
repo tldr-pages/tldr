@@ -16,7 +16,7 @@
 
 `jo {{parola_chiave}}`
 
-- Rimuovi directory non esistenti dal database di autojump:
+- Rimuovi cartelle non esistenti dal database di autojump:
 
 `j --purge`
 

@@ -1,6 +1,6 @@
 # rm
 
-> Rimuovi file o directory.
+> Rimuovi file o cartelle.
 > Maggiori informazioni: <https://www.gnu.org/software/coreutils/rm>.
 
 - Rimuovi file:

@@ -20,11 +20,11 @@
 
 `adb install -r {{percorso/al/file.apk}}`
 
-- Copia file o directory dal dispositivo target:
+- Copia file o cartelle dal dispositivo target:
 
 `adb pull {{percorso/a/file_o_directory_dispositivo}} {{percorso/a/file_o_directory_locale}}`
 
-- Copia file/directory sul dispositivo target:
+- Copia file/cartelle sul dispositivo target:
 
 `adb push {{percorso/a/file_o_directory_locale}} {{percorso/a/directory_destinazione_dispositivo}}`
 
