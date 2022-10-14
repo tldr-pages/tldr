@@ -17,7 +17,7 @@
 
 - Cambia il proprietario di un link simbolico:
 
-`chown -h {{utente}} {{percorso/al/link_simbolico}}`
+`chown -h {{utente}} {{percorso/del/link_simbolico}}`
 
 - Cambia il proprietario di un file/cartella rendendolo uguale a quello di un altro file di riferimento:
 

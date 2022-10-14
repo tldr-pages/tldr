@@ -5,7 +5,7 @@
 
 - Inizializzare un filesystem crittografato:
 
-`gocryptfs -init {{percorso/al/cifrata}}`
+`gocryptfs -init {{percorso/del/cifrata}}`
 
 - Montare un filesystem crittografato:
 

@@ -9,7 +9,7 @@
 
 - Monta un dispositivo in una cartella:
 
-`mount -t {{tipo_di_filesystem}} {{percorso/al/dispositivo}} {{percorso/della/cartella_desiderata}}`
+`mount -t {{tipo_di_filesystem}} {{percorso/del/dispositivo}} {{percorso/della/cartella_desiderata}}`
 
 - Monta un CD-ROM (con il filetypo ISO9660) a `/cdrom` (sola lettura):
 
