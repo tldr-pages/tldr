@@ -7,7 +7,7 @@
 
 `npx {{command}} {{command_arguments}}`
 
-- In case multiple commands with the same name exist, it is possibile to specify the package name:
+- In case multiple commands with the same name exist, it is possible to specify the package name:
 
 `npx --package {{package_name}} {{command}}`
 
