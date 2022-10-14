@@ -9,7 +9,7 @@
 
 - Specifica il nome del file output:
 
-`csc /out:{{percorso/al/nome_file_output}} {{percorso/del/file_input.cs}}`
+`csc /out:{{percorso/del/nome_file_output}} {{percorso/del/file_input.cs}}`
 
 - Compila in una libreria `.dll` invece che in un eseguibile:
 
@@ -17,7 +17,7 @@
 
 - Referenzia un altro assembly:
 
-`csc /reference:{{percorso/a/libreria.dll}} {{percorso/del/file_input.cs}}`
+`csc /reference:{{percorso/della/libreria.dll}} {{percorso/del/file_input.cs}}`
 
 - Includi una risorsa:
 
@@ -29,8 +29,8 @@
 
 - Specifica un'icona:
 
-`csc /win32icon:{{percorso/a/icona.ico}} {{percorso/del/file_input.cs}}`
+`csc /win32icon:{{percorso/dell/icona.ico}} {{percorso/del/file_input.cs}}`
 
 - Firma un assembly con un nome sicuro utilizzando una chiave:
 
-`csc /keyfile:{{percorso/a/chiave.snk}} {{percorso/del/file_input.cs}}`
+`csc /keyfile:{{percorso/della/chiave.snk}} {{percorso/del/file_input.cs}}`

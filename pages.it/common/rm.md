@@ -21,4 +21,4 @@
 
 - Rimuovi file in modalità verbosa, scrivendo un messaggio a schermo per ogni file rimosso:
 
-`rm -v {{percorso/a/un/file}}`
+`rm -v {{percorso/del/file}}`

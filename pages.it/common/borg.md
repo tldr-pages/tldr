@@ -26,7 +26,7 @@
 
 - Monta una repository come filesystem FUSE:
 
-`borg mount {{/percorso/del/repo_o_cartella}}::{{Lunedi}} {{/percorso/a/mountpoint}}`
+`borg mount {{/percorso/del/repo_o_cartella}}::{{Lunedi}} {{/percorso/del/mountpoint}}`
 
 - Mostra aiuto sul come creare archivi:
 

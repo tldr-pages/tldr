@@ -21,4 +21,4 @@
 
 - Ripristina uno specifico backup in una determinata cartella locale:
 
-`bup -d {{percorso/del/repository}} restore -C {{percorso/a/destinazione}} {{nome_backup}}`
+`bup -d {{percorso/del/repository}} restore -C {{percorso/della/destinazione}} {{nome_backup}}`
