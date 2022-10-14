@@ -3,7 +3,6 @@
 > Remove one or more Podman images.
 > More information: <https://docs.podman.io/en/latest/markdown/podman-rmi.1.html>
 
-
 - Show help:
 
 `podman rmi`
