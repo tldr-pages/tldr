@@ -19,6 +19,6 @@
 
 `reboot --force`
 
-- Escreva a entrada wtmp shutdown sem reinicializar o sistema:
+- Escreve a entrada wtmp shutdown sem reinicializar o sistema:
 
 `reboot --wtmp-only`
