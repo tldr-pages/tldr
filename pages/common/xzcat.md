@@ -12,7 +12,7 @@
 
 `xzcat --decopress {{path/to/file}}`
 
-- Test compressed file integrity:
+- Test the integrity of a specific archive:
 
 `xzcat --test {{path/to/archive.xz}}`
 
