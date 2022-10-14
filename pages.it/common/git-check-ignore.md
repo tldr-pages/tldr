@@ -17,8 +17,8 @@
 
 - Non controllare nell'indice (usato per determinare il motivo per cui alcuni percorsi non sono ignorati):
 
-`git check-ignore --no-index {{percorsi/ai/file_o_cartelle}}`
+`git check-ignore --no-index {{percorsi/dei/file_o_cartelle}}`
 
 - Includi dettagli sul pattern corrispondente per ogni percorso specificato:
 
-`git check-ignore --verbose {{percorsi/ai/file_o_cartelle}}`
+`git check-ignore --verbose {{percorsi/dei/file_o_cartelle}}`
