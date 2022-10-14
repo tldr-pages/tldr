@@ -34,4 +34,4 @@
 
 - टेक्स्ट फ़ाइल में संग्रहीत सभी URL को एक विशिष्ट निर्देशिका में डाउनलोड करें:
 
-`wget --directory-prefix {{path/to/directory}} --input-file {{URLs.txt}}`
+`wget --directory-prefix {{निर्देशिका/का/पथ}} --input-file {{URLs.txt}}`
