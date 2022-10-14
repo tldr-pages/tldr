@@ -3,13 +3,13 @@
 > Avvia un web-server locale che si aggiorna al cambiamento dei file.
 > Maggiori informazioni: <https://browsersync.io/docs/command-line>.
 
-- Avvia un server da una specifica directory:
+- Avvia un server da una specifica cartella:
 
-`browser-sync start --server {{percorso/a/directory}} --files {{percorso/a/directory}}`
+`browser-sync start --server {{percorso/a/cartella}} --files {{percorso/a/cartella}}`
 
-- Avvia un server da una directory locale, monitorando tutti i file CSS:
+- Avvia un server da una cartella locale, monitorando tutti i file CSS:
 
-`browser-sync start --server --files '{{percorso/a/directory/*.css}}'`
+`browser-sync start --server --files '{{percorso/a/cartella/*.css}}'`
 
 - Crea un file di configurazione:
 

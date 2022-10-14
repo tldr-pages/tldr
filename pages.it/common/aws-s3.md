@@ -17,7 +17,7 @@
 
 - Sincronizza file e cartelle escludendo alcuni file o cartelle:
 
-`aws s3 sync {{percorso/ai/file}} s3://{{nome_bucket}} --exclude {{percorso/al/file}} --exclude {{directory}}/*`
+`aws s3 sync {{percorso/ai/file}} s3://{{nome_bucket}} --exclude {{percorso/al/file}} --exclude {{cartella}}/*`
 
 - Rimuovi un file dal bucket:
 

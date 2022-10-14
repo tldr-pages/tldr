@@ -1,20 +1,20 @@
 # cd
 
-> Cambia la directory corrente.
+> Cambia la cartella corrente.
 > Maggiori informazioni: <https://manned.org/cd>.
 
-- Vai alla directory specificata:
+- Vai alla cartella specificata:
 
-`cd {{percorso/a/directory}}`
+`cd {{percorso/a/cartella}}`
 
-- Vai alla directory home dell'utente corrente:
+- Vai alla cartella home dell'utente corrente:
 
 `cd`
 
-- Vai alla directory madre della corrente:
+- Vai alla cartella madre della corrente:
 
 `cd ..`
 
-- Vai alla directory precedentemente scelta:
+- Vai alla cartella precedentemente scelta:
 
 `cd -`

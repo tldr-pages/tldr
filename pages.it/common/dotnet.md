@@ -12,7 +12,7 @@
 
 `dotnet restore`
 
-- Costruisci ed esegui il progetto .NET nella directory corrente:
+- Costruisci ed esegui il progetto .NET nella cartella corrente:
 
 `dotnet run`
 

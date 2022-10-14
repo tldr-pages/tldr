@@ -3,17 +3,17 @@
 > Sistema di backup basato sul formato dei packfile Git, fornendo salvataggi incrementali veloci e deduplicazione globale.
 > Maggiori informazioni: <https://github.com/bup/bup>.
 
-- Inizializza una repository di backup nella directory locale specificata:
+- Inizializza una repository di backup nella cartella locale specificata:
 
 `bup -d {{percorso/a/repository}} init`
 
 - Prepara una certa cartella prima di fare un backup:
 
-`bup -d {{percorso/a/repository}} index {{percorso/a/directory}}`
+`bup -d {{percorso/a/repository}} index {{percorso/a/cartella}}`
 
 - Esegui il backup di una cartella in una repository locale:
 
-`bup -d {{percorso/a/repository}} save -n {{nome_backup}} {{percorso/a/directory}}`
+`bup -d {{percorso/a/repository}} save -n {{nome_backup}} {{percorso/a/cartella}}`
 
 - Elenca i di backup attualmente nella repository:
 

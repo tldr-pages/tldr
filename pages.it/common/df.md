@@ -11,6 +11,6 @@
 
 `df -h`
 
-- Mostra il file system ed contenente il file o directory dato ed il suo utilizzo del disco:
+- Mostra il file system ed contenente il file o cartella dato ed il suo utilizzo del disco:
 
-`df {{percorso/a/file_o_directory}}`
+`df {{percorso/a/file_o_cartella}}`

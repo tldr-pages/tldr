@@ -7,7 +7,7 @@
 
 `deluser {{nome}}`
 
-- Rimuovi un utente insieme alla sua directory home e raccolta mail:
+- Rimuovi un utente insieme alla sua cartella home e raccolta mail:
 
 `deluser -r {{nome}}`
 

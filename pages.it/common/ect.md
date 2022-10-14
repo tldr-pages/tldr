@@ -11,6 +11,6 @@
 
 `ect -9 --mt-deflate {{file.png}}`
 
-- Comprimi tutti i file in una directory ricorsivamente, mantenendo la data di modifica originale:
+- Comprimi tutti i file in una cartella ricorsivamente, mantenendo la data di modifica originale:
 
-`ect -keep -recurse {{percorso/a/directory}}`
+`ect -keep -recurse {{percorso/a/cartella}}`

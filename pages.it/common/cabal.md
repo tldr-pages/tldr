@@ -16,14 +16,14 @@
 
 `cabal install {{nome_pacchetto}}`
 
-- Crea un nuovo progetto Haskell nella directory corrente:
+- Crea un nuovo progetto Haskell nella cartella corrente:
 
 `cabal init`
 
-- Compila il progetto nella directory corrente:
+- Compila il progetto nella cartella corrente:
 
 `cabal build`
 
-- Esegui i test del progetto nella directory corrente:
+- Esegui i test del progetto nella cartella corrente:
 
 `cabal test`

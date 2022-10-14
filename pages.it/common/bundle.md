@@ -3,7 +3,7 @@
 > Gestore di dipendenze per il linguaggio di programmazione Ruby.
 > Maggiori informazioni: <https://bundler.io/man/bundle.1.html>.
 
-- Installa tutte le gem definite nel gemfile della directory corrente:
+- Installa tutte le gem definite nel gemfile della cartella corrente:
 
 `bundle install`
 

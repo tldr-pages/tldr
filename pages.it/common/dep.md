@@ -3,7 +3,7 @@
 > Strumento di gestione delle dipendenze per progetti Go.
 > Maggiori informazioni: <https://deployer.org>.
 
-- Inizializza la directory corrente come radice di un progetto Go:
+- Inizializza la cartella corrente come radice di un progetto Go:
 
 `dep init`
 

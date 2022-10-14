@@ -3,7 +3,7 @@
 > Web server Darkhttpd.
 > Maggiori informazioni: <https://unix4lyfe.org/darkhttpd>.
 
-- Avvia il server utilizzando la directory specificata come document root:
+- Avvia il server utilizzando la cartella specificata come document root:
 
 `darkhttpd {{percorso/a/docroot}}`
 

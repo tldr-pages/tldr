@@ -3,14 +3,14 @@
 > Conta e calcola le differenze di linee di codice sorgente e commenti.
 > Maggiori informazioni: <https://github.com/AlDanial/cloc>.
 
-- Conta tutte le linee di codice in una directory:
+- Conta tutte le linee di codice in una cartella:
 
-`cloc {{percorso/alla/directory}}`
+`cloc {{percorso/alla/cartella}}`
 
-- Conta tutte le linee di codice in una directory, mostrando una barra di avanzamento durante l'operazione:
+- Conta tutte le linee di codice in una cartella, mostrando una barra di avanzamento durante l'operazione:
 
-`cloc --progress=1 {{percorso/alla/directory}}`
+`cloc --progress=1 {{percorso/alla/cartella}}`
 
-- Compara i file sorgente in 2 diverse directory e conta le differenze tra di essi:
+- Compara i file sorgente in 2 diverse cartella e conta le differenze tra di essi:
 
-`cloc --diff {{percorso/a/directory1}} {{percorso/a/directory2}}`
+`cloc --diff {{percorso/a/cartella1}} {{percorso/a/cartella2}}`

@@ -17,13 +17,13 @@
 
 `cargo install --list`
 
-- Crea un nuovo progetto Rust binario o di libreria nella directory corrente:
+- Crea un nuovo progetto Rust binario o di libreria nella cartella corrente:
 
 `cargo init --{{bin|lib}}`
 
-- Crea un nuovo progetto Rust binario o di libreria nella directory specificata:
+- Crea un nuovo progetto Rust binario o di libreria nella cartella specificata:
 
-`cargo new {{path/a/directory}} --{{bin|lib}}`
+`cargo new {{path/a/cartella}} --{{bin|lib}}`
 
 - Builda il progetto Rust nella cartella corrente:
 

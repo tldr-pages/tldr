@@ -21,4 +21,4 @@
 
 - Generare uno snapshot cifrato di una cartella:
 
-`gocryptfs --reverse {{percorso/al/directory}} {{percorso/cartella/cifrata}}`
+`gocryptfs --reverse {{percorso/al/cartella}} {{percorso/cartella/cifrata}}`

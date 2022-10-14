@@ -7,9 +7,9 @@
 
 `ag {{foo}}`
 
-- Trova file contenenti "foo" in una specifica directory:
+- Trova file contenenti "foo" in una specifica cartella:
 
-`ag {{foo}} {{percorso/alla/directory}}`
+`ag {{foo}} {{percorso/alla/cartella}}`
 
 - Trova file contenenti "foo" elencandone solamente i nomi:
 

@@ -15,13 +15,13 @@
 
 `babel {{percorso/al/file}} --watch`
 
-- Transpila un'intera directory di file:
+- Transpila un'intera cartella di file:
 
-`babel {{percorso/a/directory_input}}`
+`babel {{percorso/a/cartella_input}}`
 
-- Transpila un'intera directory ignorando specifici file separati da virgola:
+- Transpila un'intera cartella ignorando specifici file separati da virgola:
 
-`babel {{percorso/a/directory_input}} --ignore {{file_ignorati}}`
+`babel {{percorso/a/cartella_input}} --ignore {{file_ignorati}}`
 
 - Transpila minimizzando il codice JavaScript in output:
 

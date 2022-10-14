@@ -13,8 +13,8 @@
 
 - Rendi le code di lavoro persistenti salvandole su disco:
 
-`beanstalkd -b {{percorso/a/directory_persistente}}`
+`beanstalkd -b {{percorso/a/cartella_persistente}}`
 
 - Sincronizza con una cartella persistente ogni 500 millisecondi:
 
-`beanstalkd -b {{percorso/a/directory_persistente}} -f {{500}}`
+`beanstalkd -b {{percorso/a/cartella_persistente}} -f {{500}}`

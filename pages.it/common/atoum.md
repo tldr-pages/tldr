@@ -19,9 +19,9 @@
 
 `atoum -f {{percorso/al/file}}`
 
-- Esegui una specifica directory di test:
+- Esegui una specifica cartella di test:
 
-`atoum -d {{path/to/directory}}`
+`atoum -d {{path/to/cartella}}`
 
 - Esegui tutti i test sotto uno specifico namespace:
 

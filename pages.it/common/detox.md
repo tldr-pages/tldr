@@ -8,10 +8,10 @@
 
 `detox {{file}}`
 
-- Mostra come detox rinominerebbe tutti i file in una directory ricorsivamente:
+- Mostra come detox rinominerebbe tutti i file in una cartella ricorsivamente:
 
-`detox --dry-run -r {{directory}}`
+`detox --dry-run -r {{cartella}}`
 
-- Rimuovi spazi e altri caratteri indesiderabili da tutti i file in una directory ricorsivamente:
+- Rimuovi spazi e altri caratteri indesiderabili da tutti i file in una cartella ricorsivamente:
 
-`detox -r {{directory}}`
+`detox -r {{cartella}}`

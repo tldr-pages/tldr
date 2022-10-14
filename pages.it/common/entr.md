@@ -3,7 +3,7 @@
 > Esegui comandi arbitrari al cambiamento di file.
 > Maggiori informazioni: <https://manned.org/entr>.
 
-- Ricompila con `make` se qualsiasi file in quasiasi sottodirectory cambia:
+- Ricompila con `make` se qualsiasi file in quasiasi sottocartella cambia:
 
 `{{ag -l}} | entr {{make}}`
 

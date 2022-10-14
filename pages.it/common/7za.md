@@ -4,9 +4,9 @@
 > Versione standalone di `7z` con supporto a meno tipi di archivi.
 > Maggiori informazioni: <https://www.7-zip.org>.
 
-- Archivia un file o una directory:
+- Archivia un file o una cartella:
 
-`7za a {{archivio.7z}} {{percorso/a/file_o_directory}}`
+`7za a {{archivio.7z}} {{percorso/a/file_o_cartella}}`
 
 - Estrai un archivio mantenendo la gerarchia delle cartelle:
 
@@ -14,7 +14,7 @@
 
 - Archivia utilizzando uno specifico tipo di archivio:
 
-`7za a -t {{zip|gzip|bzip2|tar}} {{archivio.7z}} {{percorso/a/file_o_directory}}`
+`7za a -t {{zip|gzip|bzip2|tar}} {{archivio.7z}} {{percorso/a/file_o_cartella}}`
 
 - Elenca i tipi di archivio supportati:
 
