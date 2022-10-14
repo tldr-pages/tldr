@@ -8,7 +8,7 @@
 
 `ldd {{path/to/binary}}`
 
-- Display _all_ information about dependencies:
+- Display all information about dependencies:
 
 `ldd --verbose {{path/to/binary}}`
 
