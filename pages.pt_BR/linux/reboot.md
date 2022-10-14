@@ -3,7 +3,7 @@
 > Reinicie o sistema.
 > Mais Informações: <https://manned.org/reboot.8>.
 
-- Reinicie o sistema:
+- Reinicia o sistema:
 
 `reboot`
 
