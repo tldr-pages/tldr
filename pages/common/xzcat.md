@@ -14,7 +14,7 @@
 
 - Test compressed file integrity:
 
-`xzcat --test {{path/to/file}}`
+`xzcat --test {{path/to/archive.xz}}`
 
 - List the contents of a specific archive:
 
