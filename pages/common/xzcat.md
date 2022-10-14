@@ -20,7 +20,7 @@
 
 `xzcat --list {{path/to/file}}`
 
-- Keep/Avoid deleting input files:
+- Compress a file without delete it:
 
 `xzcat --keep {{path/to/file}}`
 
