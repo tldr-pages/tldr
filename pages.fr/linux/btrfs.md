@@ -8,7 +8,7 @@
 
 `sudo btrfs subvolume create {{path/to/subvolume}}`
 
-- Lister les sous-volumes:
+- Lister les sous-volumes :
 
 `sudo btrfs subvolume list {{path/to/mount_point}}`
 
