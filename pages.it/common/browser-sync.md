@@ -5,11 +5,11 @@
 
 - Avvia un server da una specifica cartella:
 
-`browser-sync start --server {{percorso/a/cartella}} --files {{percorso/a/cartella}}`
+`browser-sync start --server {{percorso/della/cartella}} --files {{percorso/della/cartella}}`
 
 - Avvia un server da una cartella locale, monitorando tutti i file CSS:
 
-`browser-sync start --server --files '{{percorso/a/cartella/*.css}}'`
+`browser-sync start --server --files '{{percorso/della/cartella/*.css}}'`
 
 - Crea un file di configurazione:
 

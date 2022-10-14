@@ -9,8 +9,8 @@
 
 - Calcola la cartella genitore di più percorsi:
 
-`dirname {{percorso/del/file_a}} {{percorso/a/cartella_b}}`
+`dirname {{percorso/del/file_a}} {{percorso/della/cartella_b}}`
 
 - Delimita l'output con caratteri NUL invece di newline (utile in combinazione con `xargs`):
 
-`dirname --zero {{percorso/a/cartella_a}} {{percorso/del/file_b}}`
+`dirname --zero {{percorso/della/cartella_a}} {{percorso/del/file_b}}`

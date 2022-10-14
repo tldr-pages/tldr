@@ -6,7 +6,7 @@
 
 - Esegui il backup di una cartella via FTPS su una macchina remota, cifrandolo con una password:
 
-`FTP_PASSWORD={{password_login_ftp}} PASSPHRASE={{password_cifratura}} duplicity {{percorso/a/cartella_sorgente}} {{ftps://utente@hostname/percorso/a/cartella_target/}}`
+`FTP_PASSWORD={{password_login_ftp}} PASSPHRASE={{password_cifratura}} duplicity {{percorso/della/cartella_sorgente}} {{ftps://utente@hostname/percorso/della/cartella_target/}}`
 
 - Esegui il backup di una cartella in un server Amazon S3, facendo un backup completo ogni mese:
 
@@ -22,8 +22,8 @@
 
 - Elenca i file in un backup salvato su una macchina remota, via SSH:
 
-`duplicity list-current-files --time {{YYYY-MM-DD}} scp://{{utente@hostname}}/percorso/a/cartella/backup`
+`duplicity list-current-files --time {{YYYY-MM-DD}} scp://{{utente@hostname}}/percorso/della/cartella/backup`
 
 - Ripristina una sotto-cartella da un backup locale cifrato con GnuPG in una posizione precisa:
 
-`PASSPHRASE={{password_chiave_gpg}} duplicity restore --encrypt-key {{id_chiave_gpg}} --file-to-restore {{percorso/relativo/sotto_cartella}} file://{{percorso/assoluto/a/cartella/di/backup}} {{percorso/a/cartella/dove/ripristinare}}`
+`PASSPHRASE={{password_chiave_gpg}} duplicity restore --encrypt-key {{id_chiave_gpg}} --file-to-restore {{percorso/relativo/sotto_cartella}} file://{{percorso/assoluto/a/cartella/di/backup}} {{percorso/della/cartella/dove/ripristinare}}`

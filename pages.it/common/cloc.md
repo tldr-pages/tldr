@@ -13,4 +13,4 @@
 
 - Compara i file sorgente in 2 diverse cartella e conta le differenze tra di essi:
 
-`cloc --diff {{percorso/a/cartella1}} {{percorso/a/cartella2}}`
+`cloc --diff {{percorso/della/cartella1}} {{percorso/della/cartella2}}`

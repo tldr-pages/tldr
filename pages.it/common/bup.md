@@ -9,11 +9,11 @@
 
 - Prepara una certa cartella prima di fare un backup:
 
-`bup -d {{percorso/del/repository}} index {{percorso/a/cartella}}`
+`bup -d {{percorso/del/repository}} index {{percorso/della/cartella}}`
 
 - Esegui il backup di una cartella in una repository locale:
 
-`bup -d {{percorso/del/repository}} save -n {{nome_backup}} {{percorso/a/cartella}}`
+`bup -d {{percorso/del/repository}} save -n {{nome_backup}} {{percorso/della/cartella}}`
 
 - Elenca i di backup attualmente nella repository:
 

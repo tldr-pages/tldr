@@ -10,7 +10,7 @@
 
 - Esegui il backup di una cartella nella repository, creando un archivio chiamato "Lunedi":
 
-`borg create --progress {{/percorso/del/repo_o_cartella}}::{{Lunedi}} {{/percorso/a/cartella_sorgente}}`
+`borg create --progress {{/percorso/del/repo_o_cartella}}::{{Lunedi}} {{/percorso/della/cartella_sorgente}}`
 
 - Lista tutti gli archivi in una repository:
 
@@ -18,7 +18,7 @@
 
 - Estrai una specifica cartella dall'archivio "Lunedi" in una repository remota, escludendo tutti i file `.ext`:
 
-`borg extract {{utente}}@{{host}}:{{/percorso/del/repo_o_cartella}}::{{Lunedi}} {{percorso/a/cartella_destinazione}} --exclude '{{*.ext}}'`
+`borg extract {{utente}}@{{host}}:{{/percorso/del/repo_o_cartella}}::{{Lunedi}} {{percorso/della/cartella_destinazione}} --exclude '{{*.ext}}'`
 
 - Riduci una repository eliminando tutti gli archivi più vecchi di 7 giorni, elencando i cambiamenti:
 

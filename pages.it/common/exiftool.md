@@ -9,7 +9,7 @@
 
 - Muovi avanti di 1 ora la data in cui sono state scattate tutte le foto contenute in una cartella:
 
-`exiftool "-AllDates+=0:0:0 1:0:0" {{percorso/a/cartella}}`
+`exiftool "-AllDates+=0:0:0 1:0:0" {{percorso/della/cartella}}`
 
 - Muovi indietro di 1 giorno e 2 ore la data in cui sono state scattate tutte le immagini JPEG:
 
@@ -21,4 +21,4 @@
 
 - Rinomina ricorsivamente tutti i file JPEG in una cartella in base al campo `DateTimeOriginal`:
 
-`exiftool '-filename<DateTimeOriginal' -d %Y-%m-%d_%H-%M-%S%%lc.%%e {{percorso/a/cartella}} -r -ext jpg`
+`exiftool '-filename<DateTimeOriginal' -d %Y-%m-%d_%H-%M-%S%%lc.%%e {{percorso/della/cartella}} -r -ext jpg`

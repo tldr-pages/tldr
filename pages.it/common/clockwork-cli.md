@@ -9,8 +9,8 @@
 
 - Monitora i log di Clockwork per uno specifico progetto:
 
-`clockwork-cli {{percorso/a/cartella_progetto}}`
+`clockwork-cli {{percorso/della/cartella_progetto}}`
 
 - Monitora i log di Clockwork per più progetti:
 
-`clockwork-cli {{percorso/a/cartella1 percorso/a/cartella2 …}}`
+`clockwork-cli {{percorso/della/cartella1 percorso/della/cartella2 …}}`

@@ -5,7 +5,7 @@
 
 - Vai alla cartella specificata:
 
-`cd {{percorso/a/cartella}}`
+`cd {{percorso/della/cartella}}`
 
 - Vai alla cartella home dell'utente corrente:
 

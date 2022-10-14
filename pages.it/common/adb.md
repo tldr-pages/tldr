@@ -26,7 +26,7 @@
 
 - Copia file/cartelle sul dispositivo target:
 
-`adb push {{percorso/del/file_o_cartella_locale}} {{percorso/a/cartella_destinazione_dispositivo}}`
+`adb push {{percorso/del/file_o_cartella_locale}} {{percorso/della/cartella_destinazione_dispositivo}}`
 
 - Mostra una lista dei dispositivi connessi:
 

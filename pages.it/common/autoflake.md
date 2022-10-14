@@ -17,4 +17,4 @@
 
 - Rimuovi le variabili inutilizzate da tutti i file in una cartella, ricorsivamente e sovrascrivendoli:
 
-`autoflake --remove-unused-variables --in-place --recursive {{percorso/a/cartella}}`
+`autoflake --remove-unused-variables --in-place --recursive {{percorso/della/cartella}}`

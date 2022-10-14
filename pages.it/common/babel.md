@@ -17,11 +17,11 @@
 
 - Transpila un'intera cartella di file:
 
-`babel {{percorso/a/cartella_input}}`
+`babel {{percorso/della/cartella_input}}`
 
 - Transpila un'intera cartella ignorando specifici file separati da virgola:
 
-`babel {{percorso/a/cartella_input}} --ignore {{file_ignorati}}`
+`babel {{percorso/della/cartella_input}} --ignore {{file_ignorati}}`
 
 - Transpila minimizzando il codice JavaScript in output:
 

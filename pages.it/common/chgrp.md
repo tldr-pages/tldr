@@ -9,7 +9,7 @@
 
 - Cambia ricorsivamente il gruppo proprietario di una cartella e dei suoi contenuti:
 
-`chgrp -R {{gruppo}} {{percorso/a/cartella}}`
+`chgrp -R {{gruppo}} {{percorso/della/cartella}}`
 
 - Cambia il gruppo proprietario di un link simbolico:
 

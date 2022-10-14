@@ -29,7 +29,7 @@
 
 - Sposta i file infetti in una specifica cartella:
 
-`clamscan --move {{percorso/a/cartella_quarantena}}`
+`clamscan --move {{percorso/della/cartella_quarantena}}`
 
 - Elimina i file infetti:
 
