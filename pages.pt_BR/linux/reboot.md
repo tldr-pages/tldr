@@ -15,7 +15,7 @@
 
 `reboot --halt`
 
-- Reinicie imediatamente sem entrar em contato com o gerente do sistema:
+- Reinicia imediatamente sem entrar em contato com o gerente do sistema:
 
 `reboot --force`
 
