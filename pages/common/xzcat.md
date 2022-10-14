@@ -1,6 +1,6 @@
 # xzcat
 
-> A general purpose data compression tool similar to gzip and bzip2 syntaxes.
+> Data compression tool similar to `gzip` and `bzip2` syntax.
 > Compresses or decompresses `.xz` and `.lzma` files.
 > More information: <https://www.unix.com/man-page/linux/1/xzcat/>.
 
