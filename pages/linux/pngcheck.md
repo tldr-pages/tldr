@@ -16,6 +16,6 @@
 
 `pngcheck -ts {{image}}`
 
-- Search for and e[x]tract embedded PNGs within the file:
+- Search for, and e[x]tract embedded PNGs within the file:
 
 `pngcheck -x {{image}}`
