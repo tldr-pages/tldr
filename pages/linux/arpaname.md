@@ -5,4 +5,4 @@
 
 - Translate IP addresses (IPv4 and IPv6) to the corresponding ARPA name:
 
-`arpaname {{1.2.3.4}}`
+`arpaname {{ip_address}}`
