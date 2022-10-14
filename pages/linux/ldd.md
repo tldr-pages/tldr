@@ -20,6 +20,6 @@
 
 `ldd --data-relocs {{path/to/binary}}`
 
-- Report missing data objects and functions, and perform relocations for both (ELF ONLY):
+- Report missing data objects and functions, and perform relocations for both:
 
 `ldd --function-relocs {{path/to/binary}}`
