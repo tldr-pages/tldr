@@ -1,4 +1,4 @@
-# Got Your Back (GYB)
+# Got Your Back - GYB
 
 > Command line tool for backing up your Gmail messages to your computer using Gmail's API over HTTPS.
 > More information: <https://github.com/GAM-team/got-your-back>.
