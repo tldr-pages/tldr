@@ -4,11 +4,11 @@
 > Does not make a phylogeny.
 > More information: <https://github.com/lskatz/mashtree>.
 
-- Fastest method to create a tree from fastq and/or fasta files using multiple threads, piping into a DND file:
+- Fastest method in mashtree to create a tree from fastq and/or fasta files using multiple threads, piping into a newick file:
 
 `mashtree --numcpus {{12}} {{*.fastq.gz}} {{*.fasta}} > {{mashtree.dnd}}`
 
-- Most accurate method to create a tree from fastq and/or fasta files using multiple threads, piping into a DND file:
+- Most accurate method in mashtree to create a tree from fastq and/or fasta files using multiple threads, piping into a newick file:
 
 `mashtree --mindepth {{0}} --numcpus {{12}} {{*.fastq.gz}} {{*.fasta}} > {{mashtree.dnd}}`
 
