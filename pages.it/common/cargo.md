@@ -23,7 +23,7 @@
 
 - Crea un nuovo progetto Rust binario o di libreria nella cartella specificata:
 
-`cargo new {{path/a/cartella}} --{{bin|lib}}`
+`cargo new {{path/della/cartella}} --{{bin|lib}}`
 
 - Builda il progetto Rust nella cartella corrente:
 

@@ -18,7 +18,7 @@
 
 - Elenca i backup disponibili:
 
-`duplicity collection-status "file://{{percorso/assoluto/a/cartella/di/backup}}"`
+`duplicity collection-status "file://{{percorso/assoluto/della/cartella/di/backup}}"`
 
 - Elenca i file in un backup salvato su una macchina remota, via SSH:
 
@@ -26,4 +26,4 @@
 
 - Ripristina una sotto-cartella da un backup locale cifrato con GnuPG in una posizione precisa:
 
-`PASSPHRASE={{password_chiave_gpg}} duplicity restore --encrypt-key {{id_chiave_gpg}} --file-to-restore {{percorso/relativo/sotto_cartella}} file://{{percorso/assoluto/a/cartella/di/backup}} {{percorso/della/cartella/dove/ripristinare}}`
+`PASSPHRASE={{password_chiave_gpg}} duplicity restore --encrypt-key {{id_chiave_gpg}} --file-to-restore {{percorso/relativo/sotto_cartella}} file://{{percorso/assoluto/della/cartella/di/backup}} {{percorso/della/cartella/dove/ripristinare}}`
