@@ -1,7 +1,7 @@
 # xzcat
 
 > A general purpose data compression tool similar to gzip and bzip2 syntaxes.
-> Compresses or decompresses .xz and .lzma files.
+> Compresses or decompresses `.xz` and `.lzma` files.
 > More information: <https://www.unix.com/man-page/linux/1/xzcat/>.
 
 - Force compress:
