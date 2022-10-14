@@ -8,7 +8,7 @@
 `sudo btrfs subvolume create {{chemin/vers/nouveau_subvolume}}`
 
 - Lister tout les sous-volumes et snapshots du système de fichier indiqué :
-- 
+
 `sudo btrfs subvolume list {{chemin/vers/btrfs_filesystem}}`
 
 - Supprimer un sous-volume :
