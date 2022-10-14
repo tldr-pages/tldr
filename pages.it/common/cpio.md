@@ -8,10 +8,10 @@
 
 `echo "{{file1}} {{file2}} {{file3}}" | cpio -o > {{archivio.cpio}}`
 
-- Copia tutti i file e le directory in una directory ed aggiungili ad un archivio, in modalità verbosa:
+- Copia tutti i file e le cartelle in una directory ed aggiungili ad un archivio, in modalità verbosa:
 
 `find {{path/to/directory}} | cpio -ov > {{archivio.cpio}}`
 
-- Estrai file da un archivio, generando le directory necessarie, in modalità verbosa:
+- Estrai file da un archivio, generando le cartelle necessarie, in modalità verbosa:
 
 `cpio -idv < {{archivio.cpio}}`

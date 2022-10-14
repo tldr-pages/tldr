@@ -1,6 +1,6 @@
 # autojump
 
-> Salta velocemente tra le directory che usi più spesso.
+> Salta velocemente tra le cartelle che usi più spesso.
 > Alias come j o jc sono disponibili per una maggiore velocità di scrittura.
 > Maggiori informazioni: <https://github.com/wting/autojump>.
 
