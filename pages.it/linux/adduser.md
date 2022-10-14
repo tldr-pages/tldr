@@ -13,7 +13,7 @@
 
 - Crea un utente con una cartella home nel percorso specificato:
 
-`adduser --home {{percorso/all/home}} {{nome_utente}}`
+`adduser --home {{percorso/della/home}} {{nome_utente}}`
 
 - Crea un nuovo utente con l'interprete di comandi(shell) specificato come shell di accesso:
 
