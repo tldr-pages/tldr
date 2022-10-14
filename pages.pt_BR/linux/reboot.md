@@ -11,7 +11,7 @@
 
 `reboot --poweroff`
 
-- Suspenda o sistema (igual a `halt`):
+- Suspende o sistema (igual a `halt`):
 
 `reboot --halt`
 
