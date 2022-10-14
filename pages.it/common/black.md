@@ -5,7 +5,7 @@
 
 - Auto-formatta un file o un'intera cartella:
 
-`black {{percorso/a/file_o_cartella}}`
+`black {{percorso/del/file_o_cartella}}`
 
 - Formatta il codice che gli viene passato come stringa:
 
@@ -13,16 +13,16 @@
 
 - Mostra i cambiamenti che verrebbero applicati a ciascun file:
 
-`black --diff {{percorso/a/file_o_cartella}}`
+`black --diff {{percorso/del/file_o_cartella}}`
 
 - Verifica se i file necessitano di auto-formattazione senza modificare nulla:
 
-`black --check {{percorso/a/file_o_cartella}}`
+`black --check {{percorso/del/file_o_cartella}}`
 
 - Auto-formatta un file o una cartella senza produrre output:
 
-`black --quiet {{percorso/a/file_o_cartella}}`
+`black --quiet {{percorso/del/file_o_cartella}}`
 
 - Auto-formatta un file o una cartella senza sostituire gli apici con le doppie virgolette:
 
-`black --skip-string-normalization {{percorso/a/file_o_cartella}}`
+`black --skip-string-normalization {{percorso/del/file_o_cartella}}`

@@ -5,7 +5,7 @@
 
 - Rimuovi file:
 
-`rm {{percorso/a/file1 percorso/a/file2 ...}}`
+`rm {{percorso/del/file1 percorso/del/file2 ...}}`
 
 - Rimuovi ricorsivamente una cartella e tutti i suoi contenuti:
 

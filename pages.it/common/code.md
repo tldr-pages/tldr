@@ -13,11 +13,11 @@
 
 - Apri un file o una cartella in VS Code:
 
-`code {{percorso/a/file_o_cartella}}`
+`code {{percorso/del/file_o_cartella}}`
 
 - Apri un file o una cartella nella finestra attualmente aperta di VS Code:
 
-`code --reuse-window {{percorso/a/file_o_cartella}}`
+`code --reuse-window {{percorso/del/file_o_cartella}}`
 
 - Confronta due file in VS Code:
 

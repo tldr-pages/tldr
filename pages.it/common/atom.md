@@ -6,15 +6,15 @@
 
 - Apri un file o una cartella:
 
-`atom {{percorso/a/file_o_cartella}}`
+`atom {{percorso/del/file_o_cartella}}`
 
 - Apri un file o una cartella in una nuova finestra:
 
-`atom -n {{percorso/a/file_o_cartella}}`
+`atom -n {{percorso/del/file_o_cartella}}`
 
 - Apri un file o una cartella in una finestra esistente:
 
-`atom --add {{percorso/a/file_o_cartella}}`
+`atom --add {{percorso/del/file_o_cartella}}`
 
 - Avvia Atom in safe mode (non carica nessun pacchetto):
 

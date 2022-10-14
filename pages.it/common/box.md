@@ -17,7 +17,7 @@
 
 - Mostra informazioni su di uno specifico file Phar:
 
-`box info {{percorso/a/file_phar}}`
+`box info {{percorso/del/file_phar}}`
 
 - Valida il primo file di configurazione trovato nella cartella corrente:
 
@@ -25,7 +25,7 @@
 
 - Verifica la firma di uno specifico file Phar:
 
-`box verify {{percorso/a/file_phar}}`
+`box verify {{percorso/del/file_phar}}`
 
 - Mostra tutti i comandi ed opzioni disponibili:
 

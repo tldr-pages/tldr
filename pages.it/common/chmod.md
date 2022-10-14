@@ -9,7 +9,7 @@
 
 - Dai permessi di lettura (r) e scrittura (w) per un file/cartella al suo proprietario:
 
-`chmod u+rw {{percorso/a/file_o_cartella}}`
+`chmod u+rw {{percorso/del/file_o_cartella}}`
 
 - Rimuovi i permessi di esecuzione al [g]ruppo proprietario del file:
 

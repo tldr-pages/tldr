@@ -22,11 +22,11 @@
 
 - Copia file o cartelle dal dispositivo target:
 
-`adb pull {{percorso/a/file_o_cartella_dispositivo}} {{percorso/a/file_o_cartella_locale}}`
+`adb pull {{percorso/del/file_o_cartella_dispositivo}} {{percorso/del/file_o_cartella_locale}}`
 
 - Copia file/cartelle sul dispositivo target:
 
-`adb push {{percorso/a/file_o_cartella_locale}} {{percorso/a/cartella_destinazione_dispositivo}}`
+`adb push {{percorso/del/file_o_cartella_locale}} {{percorso/a/cartella_destinazione_dispositivo}}`
 
 - Mostra una lista dei dispositivi connessi:
 

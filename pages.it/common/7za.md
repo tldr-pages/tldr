@@ -6,7 +6,7 @@
 
 - Archivia un file o una cartella:
 
-`7za a {{archivio.7z}} {{percorso/a/file_o_cartella}}`
+`7za a {{archivio.7z}} {{percorso/del/file_o_cartella}}`
 
 - Estrai un archivio mantenendo la gerarchia delle cartelle:
 
@@ -14,7 +14,7 @@
 
 - Archivia utilizzando uno specifico tipo di archivio:
 
-`7za a -t {{zip|gzip|bzip2|tar}} {{archivio.7z}} {{percorso/a/file_o_cartella}}`
+`7za a -t {{zip|gzip|bzip2|tar}} {{archivio.7z}} {{percorso/del/file_o_cartella}}`
 
 - Elenca i tipi di archivio supportati:
 

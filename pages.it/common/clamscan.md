@@ -17,7 +17,7 @@
 
 - Specifica un file o cartella di file da usare come database virus:
 
-`clamscan --database {{percorso/a/file_o_cartella}}`
+`clamscan --database {{percorso/del/file_o_cartella}}`
 
 - Analizza la cartella corrente e mostra in output solo i file infetti:
 
@@ -25,7 +25,7 @@
 
 - Scrivi il risultato di uno scan in un file di log:
 
-`clamscan --log {{percorso/a/file_log}}`
+`clamscan --log {{percorso/del/file_log}}`
 
 - Sposta i file infetti in una specifica cartella:
 
