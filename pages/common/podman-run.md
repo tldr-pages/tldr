@@ -1,7 +1,7 @@
 # podman run
 
 > Run a command in a new Podman container.
-> More information: <https://docs.podman.com/engine/reference/commandline/run/>.
+> More information: <https://docs.podman.io/en/latest/markdown/podman-run.1.html>.
 
 - Run command in a new container from a tagged image:
 

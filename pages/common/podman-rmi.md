@@ -1,7 +1,8 @@
 # podman rmi
 
 > Remove one or more Podman images.
-> More information: <https://docs.podman.com/engine/reference/commandline/rmi/>.
+> More information: <https://docs.podman.io/en/latest/markdown/podman-rmi.1.html>
+
 
 - Show help:
 

@@ -1,7 +1,7 @@
 # podman ps
 
 > List Podman containers.
-> More information: <https://docs.podman.com/engine/reference/commandline/ps/>.
+> More information: <https://docs.podman.io/en/latest/markdown/podman-ps.1.html>.
 
 - List currently running podman containers:
 
