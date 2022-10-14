@@ -15,11 +15,11 @@
 
 `cp -r {{chemin/vers/repertoire_source}} {{chemin/vers/repertoire_cible}}`
 
-- Copier récursivement le contenu d'un répertoire vers un autre emplacement en mode verbeux (affichage des noms fichiers à mesure de leur copie):  
+- Copier récursivement le contenu d'un répertoire vers un autre emplacement en mode verbeux (affichage des noms fichiers à mesure de leur copie) :
 
 `cp -vr {{chemin/vers/repertoire_source}} {{chemin/vers/repertoire_cible}}`
 
-- Copier les fichiers textes vers un autre emplacement, en mode interactive (demande une confirmation avant d'écrire par dessus un fichier du même nom):
+- Copier les fichiers textes vers un autre emplacement, en mode interactive (demande une confirmation avant d'écrire par dessus un fichier du même nom) :
 
 `cp -i {{*.txt}} {{chemin/vers/repertoire_cible}}`
 
