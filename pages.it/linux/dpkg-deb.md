@@ -17,8 +17,8 @@
 
 - Estrae i contenuti del pacchetto in una cartella:
 
-`dpkg-deb --extract {{percorso/del/file.deb}} {{percorso/alla/cartella}}`
+`dpkg-deb --extract {{percorso/del/file.deb}} {{percorso/della/cartella}}`
 
 - Crea una pacchetto a partire da una cartella specificata:
 
-`dpkg-deb --build {{percorso/alla/cartella}}`
+`dpkg-deb --build {{percorso/della/cartella}}`

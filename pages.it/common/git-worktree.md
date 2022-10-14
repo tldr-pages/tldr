@@ -5,11 +5,11 @@
 
 - Crea una nuova cartella a partire da uno specifico ramo:
 
-`git worktree add {{percorso/alla/cartella}} {{ramo}}`
+`git worktree add {{percorso/della/cartella}} {{ramo}}`
 
 - Crea una nuova cartella a partire da un nuovo ramo:
 
-`git worktree add {{percorso/alla/cartella}} -b {{nuovo_ramo}}`
+`git worktree add {{percorso/della/cartella}} -b {{nuovo_ramo}}`
 
 - Mostra tutte le cartelle di lavoro collegate al repository corrente:
 

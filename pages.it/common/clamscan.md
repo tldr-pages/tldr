@@ -9,7 +9,7 @@
 
 - Analizza ricorsivamente tutti i file in una specifica cartella:
 
-`clamscan -r {{percorso/alla/cartella}}`
+`clamscan -r {{percorso/della/cartella}}`
 
 - Analizza dati da standard input:
 

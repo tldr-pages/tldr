@@ -13,7 +13,7 @@
 
 - Cambia ricorsivamente il proprietario di una cartella ed i suoi contenuti:
 
-`chown -R {{utente}} {{percorso/alla/cartella}}`
+`chown -R {{utente}} {{percorso/della/cartella}}`
 
 - Cambia il proprietario di un link simbolico:
 

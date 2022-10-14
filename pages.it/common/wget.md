@@ -34,4 +34,4 @@
 
 - Scarica tutti gli URL contenuti in un file di testo in una cartella specificata:
 
-`wget --cartella-prefix {{percorso/alla/cartella}} --input-file {{lista_di_URL.txt}}`
+`wget --cartella-prefix {{percorso/della/cartella}} --input-file {{lista_di_URL.txt}}`

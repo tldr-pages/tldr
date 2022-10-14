@@ -9,7 +9,7 @@
 
 - Trova file contenenti "foo" in una specifica cartella:
 
-`ag {{foo}} {{percorso/alla/cartella}}`
+`ag {{foo}} {{percorso/della/cartella}}`
 
 - Trova file contenenti "foo" elencandone solamente i nomi:
 

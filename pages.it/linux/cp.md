@@ -9,15 +9,15 @@
 
 - Copia un file all'interno di una cartella, mantenendone uguale il nome:
 
-`cp {{percorso/del/file_da_copiare.est}} {{percorso/alla/cartella}}`
+`cp {{percorso/del/file_da_copiare.est}} {{percorso/della/cartella}}`
 
 - Copia ricorsivamente i contenuti di una cartella in un'altra posizione (se la destinazione esiste, la cartella è copiata al suo interno):
 
-`cp -r {{percorso/alla/cartella_da_copiare}} {{percorso/di/destinazione}}`
+`cp -r {{percorso/della/cartella_da_copiare}} {{percorso/di/destinazione}}`
 
 - Copia una cartella ricorsivamente in modalità prolissa (mostra i file mentre vengono copiati):
 
-`cp -vr {{percorso/alla/cartella_da_copiare}} {{percorso/di/destinazione}}`
+`cp -vr {{percorso/della/cartella_da_copiare}} {{percorso/di/destinazione}}`
 
 - Copia i file di testo in un'altra posizione, in modalità interattiva (richiede conferma all'utente prima di sovrascrivere):
 

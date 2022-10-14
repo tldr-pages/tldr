@@ -17,7 +17,7 @@
 
 - Crea un nuovo utente con l'interprete di comandi(shell) specificato come shell di accesso:
 
-`adduser --shell {{percorso/alla/shell}} {{nome_utente}}`
+`adduser --shell {{percorso/della/shell}} {{nome_utente}}`
 
 - Crea un nuovo utente appartenente al gruppo specificato:
 

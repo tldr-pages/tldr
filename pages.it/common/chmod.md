@@ -25,4 +25,4 @@
 
 - Cambia permessi ricorsivamente dando al [g]ruppo e agli altri utenti (o) diritto di scrittura:
 
-`chmod -R g+w,o+w {{percorso/alla/cartella}}`
+`chmod -R g+w,o+w {{percorso/della/cartella}}`

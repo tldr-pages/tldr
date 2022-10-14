@@ -9,11 +9,11 @@
 
 - Verifica se più file o cartelle sono ignorati:
 
-`git check-ignore {{percorso/del/file}} {{percorso/alla/cartella}}`
+`git check-ignore {{percorso/del/file}} {{percorso/della/cartella}}`
 
 - Leggi i percorsi di file o cartelle da stdin (uno per riga) invece che dalla riga di comando:
 
-`git check-ignore --stdin < {{percorso/alla/lista_dei_file_o_cartelle}}`
+`git check-ignore --stdin < {{percorso/della/lista_dei_file_o_cartelle}}`
 
 - Non controllare nell'indice (usato per determinare il motivo per cui alcuni percorsi non sono ignorati):
 

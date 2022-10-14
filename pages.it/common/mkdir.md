@@ -9,4 +9,4 @@
 
 - Crea cartelle ricorsivamente (utile per creare cartelle annidate):
 
-`mkdir -p {{percorso/alla/cartella}}`
+`mkdir -p {{percorso/della/cartella}}`

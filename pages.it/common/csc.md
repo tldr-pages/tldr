@@ -25,7 +25,7 @@
 
 - Genera una documentazione XML automaticamente:
 
-`csc /doc:{{percorso/alla/documentazione.xml}} {{percorso/del/file_input.cs}}`
+`csc /doc:{{percorso/della/documentazione.xml}} {{percorso/del/file_input.cs}}`
 
 - Specifica un'icona:
 

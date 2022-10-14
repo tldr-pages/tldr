@@ -9,11 +9,11 @@
 
 - Rimuovi ricorsivamente una cartella e tutti i suoi contenuti:
 
-`rm -r {{percorso/alla/cartella}}`
+`rm -r {{percorso/della/cartella}}`
 
 - Rimuovi ricorsivamente una cartella, senza chiedere conferma o mostrare messaggi di errore:
 
-`rm -rf {{percorso/alla/cartella}}`
+`rm -rf {{percorso/della/cartella}}`
 
 - Rimuovi file interattivamente, chiedendo conferma prima di rimuovere ogni file:
 

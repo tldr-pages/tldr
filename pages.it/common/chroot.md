@@ -5,7 +5,7 @@
 
 - Esegui un comando con una diversa cartella root:
 
-`chroot {{/percorso/alla/nuova/root}} {{comando}}`
+`chroot {{/percorso/della/nuova/root}} {{comando}}`
 
 - Specifica utente e gruppo (ID o nome) da usare:
 

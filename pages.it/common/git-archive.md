@@ -21,7 +21,7 @@
 
 - Crea un archivio tar del contenuto di una specifica cartella:
 
-`git archive --output={{percorso/del/file.tar}} HEAD:{{percorso/alla/cartella}}`
+`git archive --output={{percorso/del/file.tar}} HEAD:{{percorso/della/cartella}}`
 
 - Anteponi un percorso ad ogni file cosí da archiviarlo in una cartella specifica:
 
