@@ -9,11 +9,11 @@
 
 - Instalacja pakietu lub aktualizacja do najnowszej wersji:
 
-`wajig install {{package}}`
+`wajig install {{pakiet}}`
 
 - Usunięcie pakietu i jego plików konfiguracyjnych:
 
-`wajig purge {{package}}`
+`wajig purge {{pakiet}}`
 
 - Wykonanie update, a następnie dist-upgrade:
 
@@ -33,4 +33,4 @@
 
 - Wyświetlenie pakietów, które posiadają zaleność od podanego pakietu:
 
-`wajig dependents {{package}}`
+`wajig dependents {{pakiet}}`
