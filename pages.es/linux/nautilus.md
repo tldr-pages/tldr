@@ -18,7 +18,7 @@
 
 - Inicia Nautilus con un archivo o directorio específico seleccionado:
 
-`nautilus --select {{ruta/al_archivo_o_directorio}}`
+`nautilus --select {{ruta/al/archivo_o_directorio}}`
 
 - Inicia Nautilus en una ventana separada:
 
