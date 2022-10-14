@@ -9,7 +9,7 @@
 
 - Instalacja pakietu lub aktualizacja do najnowszej wersji:
 
-`wajig install {{package}}`
+`wajig install {{pakiet}}`
 
 - Usunięcie pakietu i jego plików konfiguracyjnych:
 
