@@ -4,7 +4,7 @@
 > Compresses or decompresses `.xz` and `.lzma` files.
 > More information: <https://manned.org/xzcat>.
 
-- Force compress:
+- Compress a file then delete it:
 
 `xzcat --compress {{path/to/file}}`
 
