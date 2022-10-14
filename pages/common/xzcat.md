@@ -10,28 +10,28 @@
 
 - Force [d]ecompress:
 
-`xzcat -d {path/to/file}}`
+`xzcat -d {{path/to/file}}`
 
 - [t]est compressed file integrity:
 
-`xzcat -t {path/to/file}}`
+`xzcat -t {{path/to/file}}`
 
 - [l]ist information about the .xz file:
 
-`xzcat -l {path/to/file}}`
+`xzcat -l {{path/to/file}}`
 
 - [k]eep/Avoid deleting input files:
 
-`xzcat -k {path/to/file}}`
+`xzcat -k {{path/to/file}}`
 
 - [f]orce overwrite output files and decompress links:
 
-`xzcat -f {path/to/file}}`
+`xzcat -f {{path/to/file}}`
 
 - [e]xtreme compression using more CPU time:
 
-`xzcat -e {path/to/file}}`
+`xzcat -e {{path/to/file}}`
 
-- Keep warnings [q]uiet. (Specify twice to keep warnings and errors quiet)
+- Keep warnings [q]uiet. (Specify twice to keep warnings and errors quiet):
 
-`xzcat -q {path/to/file}}`
+`xzcat -q {{path/to/file}}`
