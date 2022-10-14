@@ -7,7 +7,7 @@
 
 `reboot`
 
-- Desligue o sistema (igual a `poweroff`):
+- Desliga o sistema (igual a `poweroff`):
 
 `reboot --poweroff`
 
