@@ -1,34 +1,37 @@
 # xzcat
+
 > A general purpose data compression tool similar to gzip and bzip2 syntaxes.
 > Compress or decompress .xz and .lzma files.
 > More information: <https://www.unix.com/man-page/linux/1/xzcat/>.
+
 - Force compress:
-`xzcat -z {{path/to/file}}`
 
-- Force [d]ecompress:
+`xzcat --compress {{path/to/file}}`
 
-`xzcat -d {{path/to/file}}`
+- Force decompress:
 
-- [t]est compressed file integrity:
+`xzcat --decompress {{path/to/file}}`
 
-`xzcat -t {{path/to/file}}`
+- Test compressed file integrity:
 
-- [l]ist information about the .xz file:
+`xzcat --test {{path/to/file}}`
 
-`xzcat -l {{path/to/file}}`
+- List information about the .xz file:
 
-- [k]eep/Avoid deleting input files:
+`xzcat --list {{path/to/file}}`
 
-`xzcat -k {{path/to/file}}`
+- Keep/Avoid deleting input files:
 
-- [f]orce overwrite output files and decompress links:
+`xzcat --keep {{path/to/file}}`
 
-`xzcat -f {{path/to/file}}`
+- Force overwrite output files and decompress links:
 
-- [e]xtreme compression using more CPU time:
+`xzcat --force {{path/to/file}}`
 
-`xzcat -e {{path/to/file}}`
+- Extreme compression using more CPU time:
 
-- Keep warnings [q]uiet. (Specify twice to keep warnings and errors quiet):
+`xzcat --extreme {{path/to/file}}`
 
-`xzcat -q {{path/to/file}}`
+- Supress Warnings. (Specify twice to supress warnings and errors):
+
+`xzcat --quiet {{path/to/file}}`
