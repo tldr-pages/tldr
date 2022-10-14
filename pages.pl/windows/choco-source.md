@@ -4,7 +4,6 @@
 > Więcej informacji: <https://chocolatey.org/docs/commands-source>.
 
 - Wylistowanie aktualnie dostępmnych źródeł:
-List currently available sources:
 
 `choco source list`
 
