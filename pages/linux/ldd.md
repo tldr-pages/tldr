@@ -16,7 +16,7 @@
 
 `ldd --unused {{path/to/binary}}`
 
-- Report missing data objects and perform data relocations (ELF ONLY):
+- Report missing data objects and perform data relocations:
 
 `ldd --data-relocs {{path/to/binary}}`
 
