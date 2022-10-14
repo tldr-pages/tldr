@@ -2,7 +2,7 @@
 
 > A general purpose data compression tool similar to gzip and bzip2 syntaxes.
 > Compress or decompress .xz and .lzma files.
-> More information: <https://www.unix.com/man-page/linux/1/xzcat/>
+> More information: <https://www.unix.com/man-page/linux/1/xzcat/>.
 
 - Force compress:
 
