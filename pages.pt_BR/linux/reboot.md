@@ -1,7 +1,7 @@
 # reboot
 
 > Reinicia o sistema.
-> Mais Informações: <https://manned.org/reboot.8>.
+> Mais informações: <https://manned.org/reboot.8>.
 
 - Reinicia o sistema:
 
