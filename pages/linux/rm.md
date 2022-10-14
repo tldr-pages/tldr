@@ -1,6 +1,6 @@
 # rm
 
-> Copy files and directories.
+> Delete files and directories.
 > More information: <https://www.gnu.org/software/coreutils/rm>.
 
 - Delete each given file:
