@@ -3,15 +3,15 @@
 > Servizio per aggiungere utenti.
 > Maggiori informazioni: <https://manpages.debian.org/latest/adduser/adduser.html>.
 
-- Crea un nuovo utente con una home directory predefinita e richiede all'utente di impostare una password:
+- Crea un nuovo utente con una cartella home predefinita e richiede all'utente di impostare una password:
 
 `adduser {{nome_utente}}`
 
-- Crea un utente senza una home directory:
+- Crea un utente senza una cartella home:
 
 `adduser --no-create-home {{nome_utente}}`
 
-- Crea un utente con una home directory nel percorso specificato:
+- Crea un utente con una cartella home nel percorso specificato:
 
 `adduser --home {{percorso/all/home}} {{nome_utente}}`
 
