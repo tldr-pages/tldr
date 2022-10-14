@@ -10,7 +10,7 @@
 
 - Force decompress:
 
-`xzcat --decopress {{path/to/file}}`
+`xzcat --decopress {{path/to/file.xz}}`
 
 - Test the integrity of a specific archive:
 
