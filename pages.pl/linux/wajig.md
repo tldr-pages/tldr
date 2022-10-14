@@ -13,7 +13,7 @@
 
 - Usunięcie pakietu i jego plików konfiguracyjnych:
 
-`wajig purge {{package}}`
+`wajig purge {{pakiet}}`
 
 - Wykonanie update, a następnie dist-upgrade:
 
