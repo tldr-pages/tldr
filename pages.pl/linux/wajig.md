@@ -33,4 +33,4 @@
 
 - Wyświetlenie pakietów, które posiadają zaleność od podanego pakietu:
 
-`wajig dependents {{package}}`
+`wajig dependents {{pakiet}}`
