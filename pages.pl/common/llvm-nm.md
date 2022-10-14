@@ -1,6 +1,6 @@
 # llvm-nm
 
-> Te polecenie jest aliasem `nm`.
+> To poleceniejest aliasem `nm`.
 
 - Zobacz dokumentację orginalnego polecenia:
 

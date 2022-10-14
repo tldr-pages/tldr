@@ -1,6 +1,6 @@
 # tlmgr-arch
 
-> Te polecenie jest aliasem `tlmgr platform`.
+> To poleceniejest aliasem `tlmgr platform`.
 > Więcej informacji: <https://www.tug.org/texlive/tlmgr.html>.
 
 - Zobacz dokumentację orginalnego polecenia:

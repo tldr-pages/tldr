@@ -1,6 +1,6 @@
 # clojure
 
-> Te polecenie jest aliasem `clj`.
+> To poleceniejest aliasem `clj`.
 
 - Zobacz dokumentację orginalnego polecenia:
 

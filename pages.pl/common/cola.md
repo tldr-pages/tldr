@@ -1,6 +1,6 @@
 # cola
 
-> Te polecenie jest aliasem `git-cola`.
+> To poleceniejest aliasem `git-cola`.
 
 - Zobacz dokumentację orginalnego polecenia:
 

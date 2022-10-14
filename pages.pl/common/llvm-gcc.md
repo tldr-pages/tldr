@@ -1,6 +1,6 @@
 # llvm-gcc
 
-> Te polecenie jest aliasem `clang`.
+> To poleceniejest aliasem `clang`.
 
 - Zobacz dokumentację orginalnego polecenia:
 

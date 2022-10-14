@@ -1,6 +1,6 @@
 # piodebuggdb
 
-> Te polecenie jest aliasem `pio debug`.
+> To poleceniejest aliasem `pio debug`.
 
 - Zobacz dokumentację orginalnego polecenia:
 
