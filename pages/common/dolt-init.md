@@ -7,6 +7,6 @@
 
 `dolt init`
 
-- Specify {name} {email} {date} and {branch_name} on the initial commit:
+- Specify details on the initial commit:
 
 `dolt init --name "{{name}}" --email "{{email}}" --date "{{2021-12-31T00:00:00}}" -b "{{branch_name}}"`
