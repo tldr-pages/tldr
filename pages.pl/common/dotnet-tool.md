@@ -13,11 +13,11 @@
 
 - Zaktualizuj wyspecyfikowane narzędzie globalne (nie używaj flagi `--global`, by użyć polecenia dla narzędzi lokalnych):
 
-`dotnet tool update --global {{tool_name}}`
+`dotnet tool update --global {{nazwa_narzędzia}}`
 
 - Odinstaluj narzędzie globalne (nie używaj flagi `--global`, by użyć polecenia dla narzędzi lokalnych):
 
-`dotnet tool uninstall --global {{tool_name}}`
+`dotnet tool uninstall --global {{nazwa_narzędzia}}`
 
 - Wyświetl zainstalowane narzędzia globalne (nie używaj flagi `--global`, by użyć polecenia dla narzędzi lokalnych):
 
@@ -25,7 +25,7 @@
 
 - Szukaj narzędzi w repozytorium NuGet:
 
-`dotnet tool search {{search_term}}`
+`dotnet tool search {{szukana_fraza}}`
 
 - Wyświetl pomoc:
 
