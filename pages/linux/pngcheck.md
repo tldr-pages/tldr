@@ -10,7 +10,7 @@
 
 - Check the file with [v]erbose and [c]olorized output:
 
-`pngcheck -vf {{file.png}}`
+`pngcheck -vf {{path/to/file.png}}`
 
 - Display contents of [t]ext chunks and [s]earch for PNGs within a specific file:
 
