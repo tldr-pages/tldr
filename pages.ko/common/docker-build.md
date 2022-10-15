@@ -13,19 +13,19 @@
 
 - 도커 이미지 빌드 및 태그 추가:
 
-`docker build --tag {{name:tag}} .`
+`docker build --tag {{이름:태그}} .`
 
 - 빌드 컨텍스트 없이 도커 이미지 빌드:
 
-`docker build --tag {{name:tag}} - < {{Dockerfile}}`
+`docker build --tag {{이름:태그}} - < {{도커파일}}`
 
 - 캐시를 사용하지 않고 도커 이미지 빌드:
 
-`docker build --no-cache --tag {{name:tag}} .`
+`docker build --no-cache --tag {{이름:태그}} .`
 
 - 특정 도커파일을 이용하여 도커 이미지 빌드:
 
-`docker build --file {{Dockerfile}} .`
+`docker build --file {{도커파일}} .`
 
 - 빌드 시 커스텀 변수 추가:
 
