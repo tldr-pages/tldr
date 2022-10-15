@@ -7,7 +7,7 @@
 
 `gyb --email {{youremail@gmail.com}} --action estimate`
 
-- Backup from youremail@gmail.com to your {{path/to/directory}}:
+- Backup your Gmail account to a specific directory:
 
 `gyb --email {{youremail@gmail.com}} --action backup --local-folder {{path/to/directory}}`
 
