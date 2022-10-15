@@ -7,9 +7,9 @@
 
 `logrotate {{path/to/logrotate.conf}} --force`
 
-- Set mail binary for logrotate:
+- Set mail binary for logrotate to Mutt:
 
-`logrotate {{path/to/logrotate.conf}} --mail {{path/to/mail/bin}}`
+`logrotate {{path/to/logrotate.conf}} --mail /usr/bin/mutt`
 
 - Run logrotate without lock or state file:
 
