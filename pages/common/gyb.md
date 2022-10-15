@@ -15,6 +15,6 @@
 
 `gyb --email {{youremail@gmail.com}} --search "is:important OR is:starred"`
 
-- Restore from your local-folder to {{youremail@gmail.com}}:
+- Restore from a local folder to your Gmail account:
 
 `gyb --email {{youremail@gmail.com}} --action restore --local-folder {{path/to/directory}}`
