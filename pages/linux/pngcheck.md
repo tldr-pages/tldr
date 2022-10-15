@@ -14,7 +14,7 @@
 
 - Display contents of [t]ext chunks and [s]earch for PNGs within a specific file:
 
-`pngcheck -ts {{file.png}}`
+`pngcheck -ts {{path/to/file.png}}`
 
 - Search for, and e[x]tract embedded PNGs within a specific file:
 
