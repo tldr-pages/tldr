@@ -1,7 +1,7 @@
 # logrotate
 
-> Rotates, compresses, and mails system logs
-> More information: https://manned.org/logrotate.8
+> Rotates, compresses, and mails system logs.
+> More information: <https://manned.org/logrotate.8>
 
 - Force logrotate to run outside of normal interval:
 
