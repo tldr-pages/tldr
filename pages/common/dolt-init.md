@@ -1,9 +1,9 @@
 # dolt init
 
 > Create an empty Dolt data repository.
-> More information: <https://docs.dolthub.com/interfaces/cli#dolt-config>.
+> More information: <https://docs.dolthub.com/cli-reference/cli#dolt-init>.
 
-- Create an empty Dolt data repository in the current directory:
+- Initialize a new Dolt data repository in the current directory:
 
 `dolt init`
 
