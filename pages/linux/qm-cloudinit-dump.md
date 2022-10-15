@@ -1,8 +1,8 @@
 # qm cloudinit dump
 
-> Get automatically generated cloudinit config.
+> Generate cloudinit configuration files.
 > More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
-- Get automatically generated cloudinit configs:
+- Generate a cloudinit file for a specific configuration type:
 
 `qm cloudinit dump {{vmid}} {{meta|network|user}}`
