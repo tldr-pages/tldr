@@ -7,6 +7,6 @@
 
 `dolt init`
 
-- Specify details on the initial commit:
+- Initialize a new Dolt data repository creating a commit with the specified metadata:
 
 `dolt init --name "{{name}}" --email "{{email}}" --date "{{2021-12-31T00:00:00}}" -b "{{branch_name}}"`
