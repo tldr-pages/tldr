@@ -3,7 +3,7 @@
 > Tool for delivering news from RSS feeds to your email program.
 > More information: <https://github.com/rss2email/rss2email>.
 
-- Open help page:
+- Display help:
 
 `r2e -h`
 
