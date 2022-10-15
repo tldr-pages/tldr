@@ -5,11 +5,11 @@
 
 - Initialise un nouveau projet Dart dans un dossier du même nom:
 
-`dart create {{project_name}}`
+`dart create {{nom_du_projet}}`
 
 - Exécuter un fichier Dart:
 
-`dart run {{path/to/file.dart}}`
+`dart run {{chemin/vers/fichier.dart}}`
 
 - Télécharger les dépendences pour le projet courant:
 
@@ -25,4 +25,4 @@
 
 - Compiler un fichier Dart vers un binaire natif:
 
-`dart compile exe {{path/to/file.dart}}`
+`dart compile exe {{chemin/vers/fichier.dart}}`
