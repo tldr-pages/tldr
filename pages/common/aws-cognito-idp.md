@@ -9,7 +9,7 @@
 
 - List all user pools:
 
-`aws cognito-idp list-user-pools --max-results 10`
+`aws cognito-idp list-user-pools --max-results {{10}}`
 
 - Delete a specific user pool:
 
