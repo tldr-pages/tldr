@@ -1,6 +1,6 @@
 # pngcheck
 
-> Useful forensics tool for validating the integrity of PNG based (.png|.jng|.mng) image files.
+> Forensics tool for validating the integrity of PNG based (`.png`, `.jng`, `.mng`) image files.
 > Can also extract embedded images and text from a file.
 > More information: <http://www.libpng.org/pub/png/apps/pngcheck.html>.
 
@@ -16,6 +16,6 @@
 
 `pngcheck -ts {{file.png}}`
 
-- Search for, and e[x]tract embedded PNGs within the file:
+- Search for, and e[x]tract embedded PNGs within a specific file:
 
-`pngcheck -x {{file.png}}`
+`pngcheck -x {{path/to/file.png}}`
