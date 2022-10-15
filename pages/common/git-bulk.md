@@ -1,18 +1,18 @@
 # git bulk
 
-> Execute operations on multiple git repositories.
+> Execute operations on multiple Git repositories.
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-bulk>.
 
-- Register a new workspace into git-bulk:
+- Register a workspace for bulk operations:
 
-`git bulk --addworkspace {{workspace_name}} {{absolute/path/to/root/directory}}`
+`git bulk --addworkspace {{workspace_name}} {{/absolute/path/to/repository}}`
 
-- Register a new workspace and a git repository attached to it:
+- Clone a repository inside a specific directory then register the repository as a workspace:
 
-`git bulk --addworkspace {{workspace-name}} {{absolute/path/to/root/directory}} --from {{git_repo_url}}`
+`git bulk --addworkspace {{workspace_name}} {{/absolute/path/to/parent_directory}} --from {{remote_repository_location}}`
 
-- Register a new workspace and attach some git repositories from a file:
+- Clone repositories from a newline-separated list of remote locations then register them as workspaces:
 
 `git bulk --addworkspace {{workspace-name}} {{absolute/path/to/root/directory}} --from {{absolute/path/to/file}}`
 
@@ -20,6 +20,6 @@
 
 `git bulk --listall`
 
-- Run a git command on the repositories of the current workspace:
+- Run a Git command on the repositories of the current workspace:
 
-`git bulk {{git_command}}`
+`git bulk {{commmand}} {{commmand_arguments}}`
