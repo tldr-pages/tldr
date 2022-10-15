@@ -1,9 +1,8 @@
 # chmod
 
 > Cambia los permisos de un archivo o directorio.
+> Los permisos se pueden especificar en octal o en notación simbólica.
 > Más información: <https://manned.org/chmod>.
-
-> Cambia los permisos de un archivo o directorio. Los permisos se pueden especificar en octal o en notación simbólica.
 
 - Octal:
 
