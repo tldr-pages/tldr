@@ -14,3 +14,4 @@
 - ஒரு குறிப்பிட்ட கோப்பகத்திற்கு ஒரு NuGet விவரக்குறிப்பை தொகுக்கவும்:
 
 `choco pack {{path/to/specification}} --output-directory {{path/to/output_directory}}`
+
