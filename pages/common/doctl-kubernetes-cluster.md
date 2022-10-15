@@ -1,11 +1,11 @@
 # doctl kubernetes cluster
 
-> For managing Kubernetes clusters and viewing configuration options relating to clusters.
+> Manage Kubernetes clusters and view configuration options relating to clusters.
 > More information: <https://docs.digitalocean.com/reference/doctl/reference/kubernetes/cluster/>.
 
 - Create a Kubernetes cluster:
 
-`doctl kubernetes cluster create --count {{3}} --region {{nyc1}} --size {{s-1vcpu-2gb}} --version {{latest}} {{cluster-name}}`
+`doctl kubernetes cluster create --count {{3}} --region {{nyc1}} --size {{s-1vcpu-2gb}} --version {{latest}} {{cluster_name}}`
 
 - List all Kubernetes clusters:
 
@@ -13,16 +13,16 @@
 
 - Fetch and save the kubeconfig:
 
-`doctl kubernetes cluster kubeconfig save {{cluster-name}}`
+`doctl kubernetes cluster kubeconfig save {{cluster_name}}`
 
 - Check for available upgrades:
 
-`doctl kubernetes cluster get-upgrades {{cluster-name}}`
+`doctl kubernetes cluster get-upgrades {{cluster_name}}`
 
-- Upgrade a cluster:
+- Upgrade a cluster to a new Kubernetes version:
 
-`doctl kubernetes cluster upgrade {{cluster-name}}`
+`doctl kubernetes cluster upgrade {{cluster_name}}`
 
 - Delete a cluster:
 
-`doctl kubernetes cluster delete {{cluster-name}}`
+`doctl kubernetes cluster delete {{cluster_name}}`
