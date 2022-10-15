@@ -33,23 +33,23 @@ Example:
 > See also: `gimp`.
 > More information: <https://docs.krita.org/en/reference_manual/linux_command_line.html>.
 
-- Start krita:
+- Start Krita:
 
 `krita`
-
-- Start without a splash screen:
-
-`krita --nosplash`
 
 - Open specific files:
 
 `krita {{path/to/image1 path/to/image2 ...}}`
 
-- Start with a specific workspace (`Animation`):
+- Start without a splash screen:
+
+`krita --nosplash`
+
+- Start with a specific workspace:
 
 `krita --workspace {{Animation}}`
 
-- Start in a fullscreen mode:
+- Start in fullscreen mode:
 
 `krita --fullscreen`
 ```
@@ -130,7 +130,7 @@ Keep the following guidelines in mind when choosing tokens:
 - In case of a possible reference both to a file or a directory,
   use `{{path/to/file_or_directory}}`.
 
-Extensions
+### Extensions
 
 - If a particular extension is expected for the file, append it.
   For example, `unrar x {{compressed.rar}}`.
@@ -141,12 +141,12 @@ Extensions
 
 ### Special cases
 - If a command performs irreversible changes to a file system or devices,
-  write every example in a way that they cannot be thoughtlessly copy-pasted.
+  write every example in a way that cannot be thoughtlessly copy-pasted.
   For example, instead of `ddrescue --force --no-scrape /dev/sda /dev/sdb`
   write `ddrescue --force --no-scrape {{/dev/sdX}} {{/dev/sdY}}`
   and use the `{{/dev/sdXY}}` placeholder for *block devices* instead of `/dev/sda1`.
-- If a command can take a variable number of arguments, use an ellipsis: `{{arg1 arg2 ...}}`
-  If one of multiple options is possible, write it as `{{either|or}}`.
+- If a command can take a variable number of arguments, use an ellipsis: `{{arg1 arg2 ...}}`.
+  If one of the multiple options is possible, write it as `{{either|or}}`.
 
 In general, tokens should make it as intuitive as possible
 to figure out how to use the command and fill it in with values.
@@ -197,20 +197,20 @@ The following guidelines are applied to Chinese (zh) and traditional Chinese (zh
 
 1. Place one space before/after English words and numbers.  
    For example, use `列出所有 docker 容器` rather than `列出所有docker容器`.  
-   For example, use `宽度为 50 个字` rather than `宽度为50个字`.
+   For example, use `宽度为 50 个字` rather than `宽度为50个字`.  
 2. Place one space between numbers and units **except** degrees and percentages.  
    For example, use `容量 50 MB` rather than `容量 50MB`.  
    For instances of degree and percentage, use `50°C` and `50%` rather than `50 °C` and `50 %`.  
-3. No additional spaces before/after full-width punctuations.
+3. No additional spaces before/after full-width punctuations.  
    For example, use `开启 shell，进入交互模式` rather than `开启 shell ，进入交互模式`
 4. Use full-width punctuations except for long Latin clauses.  
    For example, use `嗨，你好。` rather than `嗨, 你好.`
 5. Use a half-width punctuation to end a sentence when the last character is half-width.  
    For example, use `将代码转化为 Python 3.` rather than `将代码转化为 Python 3。`
-6. Use precise form for technical terms, and do not use unofficial Chinese abbreviations.
+6. Use precise form for technical terms, and do not use unofficial Chinese abbreviations.  
    For example, use `Facebook` rather than `facebook`, `fb` or `脸书`.
 
-In order to maintain readability and normalization, please comply the 6 rules above as much as possible when translating pages into Chinese.
+In order to maintain readability and normalization, please comply with the 6 rules above as much as possible when translating pages into Chinese.
 
 For more information and examples of Chinese-specific rules, check out [*Chinese Copywriting Guidelines*](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.en.md).
 
