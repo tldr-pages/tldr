@@ -1,4 +1,4 @@
-# spotify
+# shpotify
 
 > Una línea de comando para Spotify.
 > Más información: <https://github.com/hnarayanan/shpotify>.
