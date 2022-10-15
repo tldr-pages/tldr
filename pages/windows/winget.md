@@ -15,7 +15,7 @@
 
 `winget search {{package}}`
 
-- Upgrade all packages to latest versions
+- Upgrade all packages to latest versions:
 
 `winget upgrade --all`
 
