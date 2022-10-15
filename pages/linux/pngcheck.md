@@ -6,7 +6,7 @@
 
 - Verify the integrity of an image file:
 
-`pngcheck {{file.png}}`
+`pngcheck {{path/to/file.png}}`
 
 - Check the file with [v]erbose and [c]olorized output:
 
