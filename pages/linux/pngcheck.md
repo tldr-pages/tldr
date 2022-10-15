@@ -12,7 +12,7 @@
 
 `pngcheck -vf {{file.png}}`
 
-- Display contents of [t]ext chunks and [s]earch for PNGs within the file:
+- Display contents of [t]ext chunks and [s]earch for PNGs within a specific file:
 
 `pngcheck -ts {{file.png}}`
 
