@@ -11,7 +11,7 @@
 
 `gyb --email {{youremail@gmail.com}} --action backup --local-folder {{path/to/directory}}`
 
-- Backup only important or starred emails from {{youremail@gmail.com}} to the default local folder GYB-GMail-Backup-youremail@gmail.com:
+- Backup only important or starred emails from your Gmail account to the default local folder:
 
 `gyb --email {{youremail@gmail.com}} --search "is:important OR is:starred"`
 
