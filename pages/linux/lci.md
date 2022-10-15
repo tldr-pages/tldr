@@ -1,16 +1,16 @@
 # lci
 
 > LOLCODE interpreter written in C.
-> More information: <http://www.lolcode.org>.
+> More information: <https://github.com/justinmeza/lci>.
 
 - Run a file written in LOLCODE:
 
 `lci {{path/to/file}}`
 
-- Display help:
-
-`lci -h`
-
 - Display version:
 
 `lci -v`
+
+- Display help:
+
+`lci -h`
