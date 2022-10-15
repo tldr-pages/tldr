@@ -7,4 +7,3 @@
 - Display text:
 
 `xzless {{path/to/archive.xz}}`
-
