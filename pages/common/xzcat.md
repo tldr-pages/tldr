@@ -24,7 +24,7 @@
 
 `xzcat --keep {{path/to/file}}`
 
-- Compress a file overwriting the output archive and decompress links:
+- Compress a file overwriting the output archive compressing the target of symbolic links:
 
 `xzcat --force {{path/to/file}}`
 
