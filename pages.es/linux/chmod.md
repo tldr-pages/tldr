@@ -1,6 +1,7 @@
 # chmod
 
 >Cambia los permisos de un archivo o directorio.
+
 >Más información: <https://manned.org/chmod>.
 
 - Cambia los permisos de un archivo o directorio:
