@@ -5,6 +5,7 @@
 > 詳しくはこちら: <https://manpages.debian.org/latest/apt/apt.8.html>
 
 - 利用可能なパーケージとバージョンのリストの更新（他の`apt`コマンドの前での実行を推奨）:
+
 `sudo pat update`
 
 - 指定されたパッケージの検索:
@@ -34,4 +35,3 @@
 - インストールされた全てのパッケージを表示(依存関係も表示):
 
 `apt list --installed`
-
