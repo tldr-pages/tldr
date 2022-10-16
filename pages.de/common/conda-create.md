@@ -1,7 +1,7 @@
 # conda create
 
 > Erstelle neue Conda-Umgebungen.
-> Mehr Informationen: <https://docs.conda.io/projects/conda/en/latest/commands/create.html>.
+> Weitere Informationen: <https://docs.conda.io/projects/conda/en/latest/commands/create.html>.
 
 - Erstelle eine neue Umgebung mit dem Namen `py39` und installiere Python 3.9 und NumPy v1.11 (oder höher) darin:
 
