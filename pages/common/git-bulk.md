@@ -1,36 +1,38 @@
-# git alias
+# git bulk
 
-> Use to execute operation on multiple git repositories at a time.
+> Execute operations on multiple Git repositories.
+
 > Part of `git-extras`.
+
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-bulk>.
-
-- Register a workspace (only absolute path):
-
-`git bulk --addworkspace {{name}} {{path/to/workspace}}`
 
 - Register the current directory as a workspace:
 
-`git bulk --addcurrent {{name}}`
+`git bulk --addcurrent {{workspace_name}}`
 
-- Register a workspace with repository added from url:
+- Register a workspace for bulk operations:
 
-`git bulk --addcurrent {{name}} {{path/to/workspace}} --from {{repository_url}}`
+`git bulk --addworkspace {{workspace_name}} {{/absolute/path/to/repository}}`
+
+- Clone a repository inside a specific directory then register the repository as a workspace:
+
+`git bulk --addworkspace {{workspace_name}} {{/absolute/path/to/parent_directory}} --from {{remote_repository_location}}`
+
+- Clone repositories from a newline-separated list of remote locations then register them as workspaces:
+
+`git bulk --addworkspace {{workspace-name}} {{absolute/path/to/root/directory}} --from {{absolute/path/to/file}}`
 
 - List all registered workspaces:
 
 `git bulk --listall`
 
-- Run a git command on the specific workspace repositories:
+- Run a Git command on the repositories of the current workspace:
 
-`git bulk -w {{name}} {{git_command}}`
-
-- Run a git command on all workspaces and their repositories:
-
-`git bulk -a {{git_command}}`
+`git bulk {{command}} {{command_arguments}}`
 
 - Remove a registered workspace:
 
-`git bulk --removeworkspace {{name}}`
+`git bulk --removeworkspace {{workspace_name}}`
 
 - Remove all registered workspaces:
 

@@ -1,6 +1,6 @@
 # mscore
 
-> Te polecenie jest aliasem `musescore`.
+> To polecenie jest aliasem `musescore`.
 > Więcej informacji: <https://musescore.org/handbook/command-line-options>.
 
 - Zobacz dokumentację orginalnego polecenia:
