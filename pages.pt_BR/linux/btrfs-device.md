@@ -11,7 +11,7 @@
 
 `sudo btrfs device remove {{caminho/para/dispositivo|id_do_dispositivo}} [{{...}}]`
 
-- Exiba estatísticas de erro:
+- Exibe estatísticas de erro:
 
 `sudo btrfs device stats {{caminho/para/sistema_de_arquivos_btrfs}}`
 
