@@ -18,4 +18,4 @@
 
 - Delete a specific web application:
 
-`az webapp delete --name {{app_name}} --resource-group {{resource_group}}`
+`az webapp delete --name {{name}} --resource-group {{resource_group}}`
