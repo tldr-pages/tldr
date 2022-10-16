@@ -6,7 +6,7 @@
 
 - Erstelle eine neue Umgebung mit den zu installierenden Paketen:
 
-`conda create --name {{umgebungs_name}} {{python=3.9 matplotlib}}`
+`conda create --name {{umgebungsname}} {{python=3.9 matplotlib}}`
 
 - Liste alle Umgebungen auf:
 
