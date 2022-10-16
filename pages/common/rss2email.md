@@ -15,7 +15,7 @@
 
 `r2e add {{feed_address}}`
 
-- Add a feed with new email address:
+- Add a feed with a specific email address:
 
 `r2e add {{feed_address}} {{new_email@example.com}}`
 
