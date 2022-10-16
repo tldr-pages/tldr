@@ -5,8 +5,8 @@
 
 - Set the password for the provided user in a vm:
 
-`qm guest passwd {{100}} {{username}}`
+`qm guest passwd {{vm_id}} {{username}}`
 
 - Specify if the password has already been encrypted using crypt():
 
-`qm guest passwd {{100}} {{username}} --crypted 1`
+`qm guest passwd {{vm_id}} {{username}} --crypted 1`
