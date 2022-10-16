@@ -3,25 +3,25 @@
 > Lösche eine oder mehrere Dateien.
 > Mehr Informationen: <https://learn.microsoft.com/windows-server/administration/windows-commands/del>.
 
-- Lösche eine oder mehrere durch Leerzeichen getrennte Dateien oder Datei-Muster (Datei-Namen mit Platzhaltern, "Wildcards"):
+- Lösche eine oder mehrere durch Leerzeichen getrennte Dateien oder Dateimuster (Dateinamen mit Platzhaltern, "Wildcards"):
 
-`del {{datei_muster}}`
+`del {{dateimuster}}`
 
 - Fordere vor dem Löschen jeder Datei zur Bestätigung auf:
 
-`del {{datei_muster}} /p`
+`del {{dateimuster}} /p`
 
 - Erzwinge das Löschen von schreibgeschützten Dateien:
 
-`del {{datei_muster}} /f`
+`del {{dateimuster}} /f`
 
 - Lösche alle Dateien die dem Muster entsprechen rekursiv in allen Unterordnern:
 
-`del {{datei_muster}} /s`
+`del {{dateimuster}} /s`
 
 - Zeige keine Eingabeaufforderung wenn Dateien basierend auf einem globalen Platzhalter gelöscht werden sollen:
 
-`del {{datei_muster}} /q`
+`del {{dateimuster}} /q`
 
 - Zeige Hilfe an und liste verfügbare Attribute auf:
 
@@ -29,4 +29,4 @@
 
 - Lösche Dateien mit den gegebenen Attributen:
 
-`del {{datei_muster}} /a {{attribut}}`
+`del {{dateimuster}} /a {{attribut}}`
