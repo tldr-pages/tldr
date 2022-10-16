@@ -2,7 +2,7 @@
 
 > TShark is the CLI version of Wireshark which is a packet sniffer.
 > Used to capture and analyze network traffic.
-> More Information: <https://www.wireshark.org/docs/man-pages.tshark.html>.
+> More information: <https://www.wireshark.org/docs/man-pages.tshark.html>.
 
 - List Interfaces:
 
