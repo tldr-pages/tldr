@@ -19,6 +19,6 @@
 
 `sudo btrfs property get -t {{subvol|filesystem|inode|device}} {{caminho/para/sistema_de_arquivos_btrfs}}`
 
-- Defina a propriedade de `compression` (compactação) para um determinado inode btrfs (um arquivo ou diretório):
+- Define a propriedade de `compression` (compactação) para um determinado inode btrfs (um arquivo ou diretório):
 
 `sudo btrfs property set {{caminho/para/inode_btrfs}} compression {{zstd|zlib|lzo|none}}`
