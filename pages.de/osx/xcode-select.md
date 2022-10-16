@@ -2,24 +2,24 @@
 
 > Wechsel zwischen verschiedenen Xcode Versionen und den enthaltenen Entwicklertools.
 > Wird auch verwendet, um den Pfad zu Xcode zu aktualisieren, wenn dieser sich nach einer Installation geändert hat.
-> Mehr Informationen: <https://developer.apple.com/library/archive/technotes/tn2339/_index.html>.
+> Weitere Informationen: <https://developer.apple.com/library/archive/technotes/tn2339/_index.html>.
 
-- Installieren der Xcode Entwicklertools:
+- Installiere die Xcode Entwicklertools:
 
 `xcode-select --install`
 
-- Auswählen eines bestimmten Pfads als aktives Entwicklerverzeichnis:
+- Wähle einen bestimmten Pfad als aktives Entwicklerverzeichnis aus:
 
 `sudo xcode-select --switch {{pfad/zu/Xcode.app/Contents/Developer}}`
 
-- Auswählen der gegebenen Xcode-Instanz (falls mehrere Versionen installiert sind) und ändert das aktive Entwicklerverzeichnis:
+- Wähle zwischen mehreren Xcode Versionen eine aus und ändere das aktive Entwicklerverzeichnis dahin:
 
 `sudo xcode-select --switch {{pfad/zu/Xcode.app}}`
 
-- Gebe das derzeit aktive Entwicklerverzeichnis auf der Konsole aus:
+- Gib das derzeit aktive Entwicklerverzeichnis auf der Konsole aus:
 
 `xcode-select --print-path`
 
-- Verwerfe alle vom Benutzer angegebenen Entwicklerverzeichnisse. Der Standardsuchmechanismus wird dann verwendet, um diese zu finden:
+- Verwerfe alle vom Benutzer angegebenen Entwicklerverzeichnisse (fortan wird der Standardsuchmechanismus verwendet, um diese zu finden):
 
 `sudo xcode-select --reset`
