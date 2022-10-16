@@ -10,4 +10,3 @@
 - Inicie um instalador predefinido:
 
 `archinstall {{mínimo|autônomo}}`
-

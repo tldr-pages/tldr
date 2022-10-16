@@ -10,4 +10,3 @@
 - Lista todas as partições em uma tabela, incluindo os pontos de montagem atuais:
 
 `sudo blkid -o list`
-

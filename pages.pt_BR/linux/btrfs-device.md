@@ -22,4 +22,3 @@
 - Exiba estatísticas detalhadas de alocação por disco:
 
 `sudo btrfs device usage {{caminho/para/sistema_de_arquivos_btrfs}}`
-

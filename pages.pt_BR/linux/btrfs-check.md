@@ -30,4 +30,3 @@
 - Reconstrói a árvore de extensão:
 
 `sudo btrfs check --repair --init-extent-tree {{caminho/para/partição}}`
-

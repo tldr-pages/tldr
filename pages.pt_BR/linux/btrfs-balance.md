@@ -30,4 +30,3 @@
 - Cancela, pausa ou retoma uma operação de balanceamento em execução ou pausada:
 
 `sudo btrfs balance {{cancel|pause|resume}} {{caminho/para/sistema_de_arquivos_btrfs}}`
-
