@@ -15,18 +15,18 @@
 
 `del {{datei_muster}} /f`
 
-- Lösche rekursiv alle Dateien die dem Muster entsprechen in allen Unterordnern:
+- Lösche alle Dateien die dem Muster entsprechen rekursiv in allen Unterordnern:
 
 `del {{datei_muster}} /s`
 
-- Keine Eingabeaufforderung wenn Dateien basierend auf einem globalen Platzhalter gelöscht werden sollen:
+- Zeige keine Eingabeaufforderung wenn Dateien basierend auf einem globalen Platzhalter gelöscht werden sollen:
 
 `del {{datei_muster}} /q`
 
-- Hilfe anzeigen und verfügbare Attribute auflisten:
+- Zeige Hilfe an und liste verfügbare Attribute auf:
 
 `del /?`
 
-- Lösche Dateien mit gegebenen Attributen:
+- Lösche Dateien mit den gegebenen Attributen:
 
 `del {{datei_muster}} /a {{attribut}}`
