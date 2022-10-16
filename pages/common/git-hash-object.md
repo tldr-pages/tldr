@@ -3,7 +3,7 @@
 > Computes the unique hash key of content and optionally creates an object with specified type.
 > More information: <https://git-scm.com/docs/git-hash-object>.
 
-- Compute the ID that would be used to store it in git database:
+- Compute the object ID without store it:
 
 `git hash-object {{path/to/file}}`
 
