@@ -13,7 +13,7 @@
 
 - Compute the ID and specify the type of object:
 
-`git hash-object -t {blob | tree | commit | tag} {{/path/to/file}}`
+`git hash-object -t {{blob|commit|tag|tree}} {{path/to/file}}`
 
 - Compute the ID from user input instead of a file:
 
