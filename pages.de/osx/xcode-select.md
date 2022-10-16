@@ -16,7 +16,7 @@
 
 `sudo xcode-select --switch {{pfad/zu/Xcode.app}}`
 
-- Gib das derzeit aktive Entwicklerverzeichnis auf der Konsole aus:
+- Gib das derzeit aktive Entwicklerverzeichnis aus:
 
 `xcode-select --print-path`
 
