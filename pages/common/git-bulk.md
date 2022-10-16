@@ -28,7 +28,7 @@
 
 `git bulk {{command}} {{command_arguments}}`
 
-- Remove a registered workspace:
+- Remove a specific workspace:
 
 `git bulk --removeworkspace {{workspace_name}}`
 
