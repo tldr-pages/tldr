@@ -11,7 +11,7 @@
 
 `git hash-object -w {{path/to/file}}`
 
-- Compute the ID and specify the type of object:
+- Compute the object ID specifying the object type:
 
 `git hash-object -t {{blob|commit|tag|tree}} {{path/to/file}}`
 
