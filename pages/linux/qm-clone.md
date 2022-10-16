@@ -19,7 +19,7 @@
 
 `qm copy {{vm_id}} {{new_vm_id}} --full`
 
-- Copy a virtual machine using a specific format for file storage (requires a --full clone):
+- Copy a virtual machine using a specific format for file storage (requires `--full`):
 
 `qm copy {{vm_id}} {{new_vm_id}} --full --format {{qcow2|raw|vmdk}}`
 
