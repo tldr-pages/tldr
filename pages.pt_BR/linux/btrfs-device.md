@@ -19,6 +19,6 @@
 
 `sudo btrfs device scan --all-devices`
 
-- Exiba estatísticas detalhadas de alocação por disco:
+- Exibe estatísticas detalhadas de alocação por disco:
 
 `sudo btrfs device usage {{caminho/para/sistema_de_arquivos_btrfs}}`
