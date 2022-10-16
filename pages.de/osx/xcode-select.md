@@ -12,7 +12,7 @@
 
 `sudo xcode-select --switch {{pfad/zu/Xcode.app/Contents/Developer}}`
 
-- Wähle zwischen mehreren Xcode Versionen eine aus und ändere das aktive Entwicklerverzeichnis dahin:
+- Wähle eine Xcode Version aus und ändere das aktive Entwicklerverzeichnis dahin:
 
 `sudo xcode-select --switch {{pfad/zu/Xcode.app}}`
 
