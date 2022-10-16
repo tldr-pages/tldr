@@ -6,23 +6,23 @@
 
 - 利用可能なパーケージとバージョンのリストの更新（他の`apt`コマンドの前での実行を推奨）:
 
-`sudo pat update`
+`sudo apt update`
 
 - 指定されたパッケージの検索:
 
-`apt search {{package}}`
+`apt search {{パッケージ}}`
 
 - パッケージの情報を出力:
 
-`apt show {{package}}`
+`apt show {{パッケージ}}`
 
 - パッケージのインストール、または利用可能な最新バージョンに更新:
 
-`sudo apt install {{package}}`
+`sudo apt install {{パッケージ}}`
 
 - パッケージの削除（`sudo apt remove --purge`の場合設定ファイルも削除）:
 
-`sudo apt remove {{package}}`
+`sudo apt remove {{パッケージ}}`
 
 - インストールされている全てのパッケージを最新のバージョンにアップグレード:
 
@@ -32,6 +32,6 @@
 
 `apt list`
 
-- インストールされた全てのパッケージを表示(依存関係も表示):
+- インストールされた全てのパッケージを表示（依存関係も表示）:
 
 `apt list --installed`
