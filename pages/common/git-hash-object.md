@@ -15,6 +15,6 @@
 
 `git hash-object -t {{blob|commit|tag|tree}} {{path/to/file}}`
 
-- Compute the ID from user input instead of a file:
+- Compute the ID from stdin:
 
 `git hash-object --stdin`
