@@ -1,6 +1,6 @@
 # rss2email
 
-> Tool for delivering news from RSS feeds to your email program.
+> Tool for delivering news from RSS feeds to an email program.
 > More information: <https://github.com/rss2email/rss2email>.
 
 - List all feeds:
