@@ -5,8 +5,8 @@
 
 - Automatically generate a cloudinit config:
 
-`qm cloudinit dump {{100}}`
+`qm cloudinit dump {{vm_id}}`
 
 - Specify the config type:
 
-`qm cloudinit dump {{100}} {{meta | network | user}}`
+`qm cloudinit dump {{vm_id}} {{meta|network|user}}`
