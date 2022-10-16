@@ -23,6 +23,6 @@
 
 `qm copy {{100}} {{102}} --full --format {{qcow2|raw|vmdk}}`
 
-- Specify pool for the cloned VM:
+- Copy a virtual machine then add it to a specific pool:
 
 `qm copy {{100}} {{102}} --pool {{pool_name}}`
