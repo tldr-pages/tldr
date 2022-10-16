@@ -3,7 +3,7 @@
 > Create a copy of virtual machine on QEMU/KVM Virtual Machine Manager.
 > More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
-- Copy / Clone a virtual machine:
+- Copy a virtual machine:
 
 `qm copy {{100}} {{102}}`
 
