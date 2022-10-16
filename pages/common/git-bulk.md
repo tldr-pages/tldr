@@ -22,4 +22,4 @@
 
 - Run a Git command on the repositories of the current workspace:
 
-`git bulk {{commmand}} {{commmand_arguments}}`
+`git bulk {{command}} {{command_arguments}}`
