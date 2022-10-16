@@ -22,7 +22,7 @@
 
 - Lösche eine Umgebung (entferne alle Pakete):
 
-`conda remove --name {{umgebungs_name}} --all`
+`conda remove --name {{umgebungsname}} --all`
 
 - Installiere Pakete in die derzeit geladene Umgebung:
 
