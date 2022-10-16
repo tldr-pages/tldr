@@ -1,7 +1,7 @@
 # conda
 
 > Ein Kommandozeilentool und Paketverwaltung für beliebige Programmiersprachen.
-> Manche Unterbefehle (z.B. `conda create`) besitzen ihre eigene Dokumentation.
+> Manche Unterbefehle wie `conda create` sind separat dokumentiert.
 > Mehr Informationen: <https://github.com/conda/conda>.
 
 - Erstelle eine neue Umgebung mit den zu installierenden Paketen:
