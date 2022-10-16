@@ -7,7 +7,7 @@
 
 `rmlint {{path/to/directory}}`
 
-- Delete lint files found by an rmlint run:
+- Delete duplicate files found by an execution of `rmlint`:
 
 `./rmlint.sh`
 
