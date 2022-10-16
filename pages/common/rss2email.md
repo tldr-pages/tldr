@@ -19,7 +19,7 @@
 
 `r2e add {{feed_address}} {{new_email@example.com}}`
 
-- Delete a feed:
+- Delete a specific feed:
 
 `r2e delete {{number_of_feed_in_list}}`
 
