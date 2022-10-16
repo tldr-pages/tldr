@@ -11,7 +11,7 @@
 
 `qm copy {{100}} {{102}} --name {{name}}`
 
-- Set a description for the cloned VM:
+- Copy a virtual machine using a specific descriptionn:
 
 `qm copy {{100}} {{102}} --description {{description}}`
 
