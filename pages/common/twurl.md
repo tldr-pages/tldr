@@ -15,14 +15,14 @@
 
 `twurl -X POST -d '{{endpoint_params}}' {{twitter_api_endpoint}}`
 
-- Uploading media:
+- Upload a media:
 
 `twurl -H "{{twitter_upload_url}}" -X POST "{{twitter_upload_endpoint}}" --file "{{/path/to/media.jpg}}" --file-field "media"`
 
-- Accessing different twitter api host:
+- Access a different twitter api host:
 
 `twurl -H {{twitter_api_url}} -X GET {{twitter_api_endpoint}}`
 
-- Creating an alias for a request:
+- Create an alias for a request:
 
 `twurl alias {{alias_name}} {{twurl_command}}`
