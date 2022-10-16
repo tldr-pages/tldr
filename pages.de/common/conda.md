@@ -12,7 +12,7 @@
 
 `conda info --envs`
 
-- Eine Umgebung laden:
+- Lade eine Umgebung:
 
 `conda {{activate umgebungs_name}}`
 
