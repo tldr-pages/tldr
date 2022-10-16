@@ -10,7 +10,7 @@
 
 - Extract the password hash using [o]nly the specified compressed file:
 
-`zip2john -o {{compressed_file_in_zip}} {{path/to/file.zip}}`
+`zip2john -o {{path/to/compressed_file}} {{path/to/file.zip}}`
 
 - Output the extracted hash into a file so that it can be used with John the Ripper:
 
