@@ -9,20 +9,20 @@
 
 - Copy a virtual machine using a specific name:
 
-`qm copy {{100}} {{102}} --name {{name}}`
+`qm copy {{vm_id}} {{new_vm_id}} --name {{name}}`
 
 - Copy a virtual machine using a specific descriptionn:
 
-`qm copy {{100}} {{102}} --description {{description}}`
+`qm copy {{vm_id}} {{new_vm_id}} --description {{description}}`
 
 - Copy a virtual machine creating a full copy of all disks:
 
-`qm copy {{100}} {{102}} --full`
+`qm copy {{vm_id}} {{new_vm_id}} --full`
 
 - Copy a virtual machine using a specific format for file storage (requires a --full clone):
 
-`qm copy {{100}} {{102}} --full --format {{qcow2|raw|vmdk}}`
+`qm copy {{vm_id}} {{new_vm_id}} --full --format {{qcow2|raw|vmdk}}`
 
 - Copy a virtual machine then add it to a specific pool:
 
-`qm copy {{100}} {{102}} --pool {{pool_name}}`
+`qm copy {{vm_id}} {{new_vm_id}} --pool {{pool_name}}`
