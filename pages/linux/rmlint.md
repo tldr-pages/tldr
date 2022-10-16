@@ -11,6 +11,18 @@
 
 `./rmlint.sh`
 
+- Find duplicate directory trees:
+
+`rmlint --merge-directories {{path/to/directory}}`
+
+- Mark files at lower path [d]epth as originals:
+
+`rmlint --rank-by=d {{path/to/directory}}`
+
+- Mark files with shortest name [l]ength as originals:
+
+`rmlint --rank-by=l {{path/to/directory}}`
+
 - Find only duplicates that have the same filename in addition to the same contents:
 
 `rmlint --match-basename {{path/to/directory}}`
