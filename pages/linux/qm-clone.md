@@ -15,7 +15,7 @@
 
 `qm copy {{100}} {{102}} --description {{description}}`
 
-- Create a full clone of the source VM:
+- Copy a virtual machine creating a full copy of all disks:
 
 `qm copy {{100}} {{102}} --full`
 
