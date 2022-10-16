@@ -28,7 +28,7 @@
 
 `conda install {{python=3.4 numpy}}`
 
-- Auflistung aller installierten Pakete in der derzeit geladenen Umgebung:
+- Liste alle installierten Pakete in der derzeit geladenen Umgebung auf:
 
 `conda list`
 
