@@ -1,4 +1,4 @@
-# choco-apikey
+# choco apikey
 
 > Zarządzanie kluczami API dla żródeł Chocolatey.
 > Więcej informacji: <https://chocolatey.org/docs/commands-apikey>.
