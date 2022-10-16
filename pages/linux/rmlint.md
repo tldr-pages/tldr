@@ -11,7 +11,7 @@
 
 `./rmlint.sh`
 
-- Find all duplicates with the same base name:
+- Find only duplicates that have the same filename in addition to the same contents:
 
 `rmlint --match-basename {{path/to/directory}}`
 
