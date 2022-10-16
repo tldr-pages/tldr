@@ -5,4 +5,4 @@
 
 - Get status of a given pid:
 
-`qm guest exec-status {{100}} {{1}}`
+`qm guest exec-status {{vm_id}} {{pid}}`
