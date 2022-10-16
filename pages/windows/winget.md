@@ -14,3 +14,11 @@
 - Search for a package:
 
 `winget search {{package}}`
+
+- Upgrade all packages to latest versions:
+
+`winget upgrade --all`
+
+- List all packages installed that can be managed with winget:
+
+`winget list --source winget`
