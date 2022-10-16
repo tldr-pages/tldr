@@ -5,7 +5,7 @@
 
 - Copy a virtual machine:
 
-`qm copy {{100}} {{102}}`
+`qm copy {{vm_id}} {{new_vm_id}}`
 
 - Set a name for the cloned VM:
 
