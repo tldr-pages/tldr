@@ -7,6 +7,6 @@
 
 `archinstall`
 
-- Inicie um instalador predefinido:
+- Inicia um instalador predefinido:
 
 `archinstall {{mínimo|autônomo}}`
