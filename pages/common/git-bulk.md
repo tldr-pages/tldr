@@ -32,6 +32,6 @@
 
 `git bulk --removeworkspace {{workspace_name}}`
 
-- Remove all registered workspaces:
+- Remove all workspaces:
 
 `git bulk --purge`
