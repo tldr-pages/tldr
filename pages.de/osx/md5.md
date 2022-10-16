@@ -11,7 +11,7 @@
 
 `md5 {{datei_name_1}} {{datei_name_2}}`
 
-- Gib nur die MD5 Prüfsumme auf der Konsole aus:
+- Gib nur die MD5-Prüfsumme auf der Konsole aus:
 
 `md5 -q {{datei_name}}`
 
