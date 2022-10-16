@@ -21,7 +21,7 @@
 
 - Specify file format for the cloned VM (requires full clone):
 
-`qm copy {{100}} {{102}} --full --format {{qcow2 | raw | vmdk}}`
+`qm copy {{100}} {{102}} --full --format {{qcow2|raw|vmdk}}`
 
 - Specify pool for the cloned VM:
 
