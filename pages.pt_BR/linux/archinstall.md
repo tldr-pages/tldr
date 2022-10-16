@@ -3,7 +3,7 @@
 > Instalador do Arch Linux guiado com uma torção.
 > Mais informações: <https://archinstall.readthedocs.io>.
 
-- Inicie o instalador interativo:
+- Inicia o instalador interativo:
 
 `archinstall`
 
