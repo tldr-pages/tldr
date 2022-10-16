@@ -1,13 +1,13 @@
 # arecord
 
-> Sound Recorder für den ALSA Soundkarten Treiber.
+> Sound Recorder für den ALSA-Soundkarten-Treiber.
 > Weitere Informationen: <https://manned.org/arecord>.
 
-- Nehme einen Schnipsel in "CD" Qualität auf (beende die Aufnahme mit CTRL-C):
+- Nehme einen Schnipsel in CD-Qualität auf (beende die Aufnahme mit CTRL-C):
 
 `arecord -vv --format=cd {{pfad/zur/datei.wav}}`
 
-- Nehme einen Schnipsel in "CD" Qualität auf mit einer festen Länge von 10 Sekunden:
+- Nehme einen Schnipsel in CD-Qualität auf mit einer festen Länge von 10 Sekunden:
 
 `arecord -vv --format=cd --duration={{10}} {{pfad/zur/datei.wav}}`
 
