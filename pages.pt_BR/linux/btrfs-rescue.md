@@ -19,6 +19,6 @@
 
 `sudo btrfs rescue zero-log {{caminho/para/partição}}`
 
-- Crie um dispositivo de controle `/dev/btrfs-control` quando o `mknod` não estiver instalado:
+- Cria um dispositivo de controle `/dev/btrfs-control` quando o `mknod` não estiver instalado:
 
 `sudo btrfs rescue create-control-device`
