@@ -20,7 +20,7 @@
 
 `conda {{deactivate}}`
 
-- Eine Umgebung löschen (entferne alle Pakete):
+- Lösche eine Umgebung (entferne alle Pakete):
 
 `conda remove --name {{umgebungs_name}} --all`
 
