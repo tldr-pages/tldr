@@ -7,7 +7,7 @@
 
 `qm copy {{vm_id}} {{new_vm_id}}`
 
-- Set a name for the cloned VM:
+- Copy a virtual machine using a specific name:
 
 `qm copy {{100}} {{102}} --name {{name}}`
 
