@@ -7,6 +7,10 @@
 
 `cd`
 
+- Go to root of current drive:
+
+`cd\`
+
 - Go up to the parent of the current directory:
 
 `cd ..`
