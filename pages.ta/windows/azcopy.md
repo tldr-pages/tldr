@@ -1,7 +1,7 @@
 # azcopy
 
-> அஸூர் கிளவுட் ஸ்டோரேஜ் கணக்குகளில் பதிவேற்றுவதற்கான கோப்பு பரிமாற்றக் கருவி.
-> மேலும் தகவல்: <https://learn.microsoft.com/azure/storage/common/storage-use-azcopy-v10>.
+> அஸூர் கிளவுட் சேமிப்பகம் கணக்குகளில் பதிவேற்றுவதற்கான கோப்பு பரிமாற்றக் கருவி.
+> மேலும் விவரத்திற்கு: <https://learn.microsoft.com/azure/storage/common/storage-use-azcopy-v10>.
 
 - அசூர் குத்தகைதாரரிடம் உள்நுழையவும்:
 
@@ -9,15 +9,15 @@
 
 - உள்ளூர் கோப்பைப் பதிவேற்றவும்:
 
-`azcopy copy '{{path/to/source/file}}' 'https://{{storage_account_name}}.blob.core.windows.net/{{container_name}}/{{blob_name}}'`
+`azcopy copy '{{பாதை/டு/மூலம்/கோப்பு}}' 'https://{{சேமிப்பு_கணக்கு_பெயர்}}.blob.core.windows.net/{{கொள்கலன்_பெயர்}}/{{குமிழ்_பெயர்}}'`
 
 - `.txt` மற்றும் `.jpg` நீட்டிப்புகளுடன் கோப்புகளைப் பதிவேற்றவும்:
 
-`azcopy copy '{{path/to/source}}' 'https://{{storage_account_name}}.blob.core.windows.net/{{container_name}}' --include-pattern '{{*.txt;*.jpg}}'`
+`azcopy copy '{{பாதை/டு/மூலம்}}' 'https://{{சேமிப்பு_கணக்கு_பெயர்}}.blob.core.windows.net/{{கொள்கலன்_பெயர்}}' --include-pattern '{{*.txt;*.jpg}}'`
 
 - இரண்டு அசூர் சேமிப்பு கணக்குகளுக்கு இடையே நேரடியாக ஒரு கொள்கலனை நகலெடுக்கவும்:
 
-`azcopy copy 'https://{{source_storage_account_name}}.blob.core.windows.net/{{container_name}}' 'https://{{destination_storage_account_name}}.blob.core.windows.net/{{container_name}}'`
+`azcopy copy 'https://{{மூலம்_சேமிப்பு_கணக்கு_பெயர்}}.blob.core.windows.net/{{கொள்கலன்_பெயர்}}' 'https://{{சேருமிடம்_சேமிப்பு_கணக்கு_பெயர்}}.blob.core.windows.net/{{கொள்கலன்_பெயர்}}'`
 
 - ஒரு உள்ளூர் கோப்பகத்தை ஒத்திசைக்கவும், மேலும் மூலத்தில் கோப்புகள் இல்லை என்றால் இலக்கில் உள்ள கோப்புகளை நீக்கவும்:
 

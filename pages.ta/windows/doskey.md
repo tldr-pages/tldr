@@ -1,7 +1,7 @@
 # doskey
 
 > மேக்ரோக்கள், விண்டோஸ் கட்டளைகள் மற்றும் கட்டளை வரிகளை நிர்வகிக்கவும்.
-> மேலும் தகவல்: <https://learn.microsoft.com/windows-server/administration/windows-commands/doskey>.
+> மேலும் விவரத்திற்கு: <https://learn.microsoft.com/windows-server/administration/windows-commands/doskey>.
 
 - கிடைக்கக்கூடிய மேக்ரோக்களை பட்டியலிடுங்கள்:
 
@@ -9,15 +9,15 @@
 
 - புதிய மேக்ரோவை உருவாக்கவும்:
 
-`doskey {{name}} = "{{command}}"`
+`doskey {{பெயர்}} = "{{கட்டளை}}"`
 
-- ஒரு குறிப்பிட்ட இயங்கக்கூடிய ஒரு புதிய மேக்ரோவை உருவாக்கவும்:
+- ஒரு குறிப்பிட்ட இயங்கக்கூடியவைக்கு ஒரு புதிய மேக்ரோவை உருவாக்கவும்:
 
-`doskey /exename={{executable}} {{name}} = "{{command}}"`
+`doskey /exename={{இயங்கக்கூடியவை}} {{பெயர்}} = "{{கட்டளை}}"`
 
 - ஒரு மேக்ரோவை அகற்று:
 
-`doskey {{name}} =`
+`doskey {{பெயர்}} =`
 
 - நினைவகத்தில் சேமிக்கப்பட்ட அனைத்து கட்டளைகளையும் காண்பி:
 

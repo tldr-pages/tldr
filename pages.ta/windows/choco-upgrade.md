@@ -1,15 +1,15 @@
 # choco upgrade
 
 > சாக்லேட்டியுடன் ஒன்று அல்லது அதற்கு மேற்பட்ட தொகுப்புகளை மேம்படுத்தவும்.
-> மேலும் தகவல்: <https://chocolatey.org/docs/commands-upgrade>.
+> மேலும் விவரத்திற்கு: <https://chocolatey.org/docs/commands-upgrade>.
 
 - ஒன்று அல்லது அதற்கு மேற்பட்ட இடம் பிரிக்கப்பட்ட தொகுப்புகளை மேம்படுத்தவும்:
 
-`choco upgrade {{package(s)}}`
+`choco upgrade {{நிரல்தொகுப்பு(கள்)}}`
 
 - தொகுப்பின் குறிப்பிட்ட பதிப்பிற்கு மேம்படுத்தவும்:
 
-`choco upgrade {{package}} --version {{version}}`
+`choco upgrade {{நிரல்தொகுப்பு}} --version {{பதிப்பு}}`
 
 - அனைத்து தொகுப்புகளையும் மேம்படுத்தவும்:
 
@@ -17,16 +17,16 @@
 
 - குறிப்பிட்ட காற்புள்ளியால் பிரிக்கப்பட்ட தொகுப்புகளைத் தவிர அனைத்தையும் மேம்படுத்தவும்:
 
-`choco upgrade all --except "{{package(s)}}"`
+`choco upgrade all --except "{{நிரல்தொகுப்பு(கள்)}}"`
 
 - அனைத்து அறிவுறுத்தல்களையும் தானாக உறுதிப்படுத்தவும்:
 
-`choco upgrade {{package}} --yes`
+`choco upgrade {{நிரல்தொகுப்பு}} --yes`
 
 - தொகுப்புகளைப் பெற தனிப்பயன் மூலத்தைக் குறிப்பிடவும்:
 
-`choco upgrade {{package}} --source {{source_url|alias}}`
+`choco upgrade {{நிரல்தொகுப்பு}} --source {{source_url|alias}}`
 
 - அங்கீகாரத்திற்கான பயனர்பெயர் மற்றும் கடவுச்சொல்லை வழங்கவும்:
 
-`choco upgrade {{package}} --user {{username}} --password {{password}}`
+`choco upgrade {{நிரல்தொகுப்பு}} --user {{பயனர்பெயர்}} --password {{கடவுச்சொல்}}`

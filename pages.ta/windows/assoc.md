@@ -1,7 +1,7 @@
 # assoc
 
 > கோப்பு நீட்டிப்புகள் மற்றும் கோப்பு வகைகளுக்கு இடையே உள்ள தொடர்பைக் காட்டவும் அல்லது மாற்றவும்.
-> மேலும் தகவல்: <https://learn.microsoft.com/windows-server/administration/windows-commands/assoc>.
+> மேலும் விவரத்திற்கு: <https://learn.microsoft.com/windows-server/administration/windows-commands/assoc>.
 
 - கோப்பு நீட்டிப்புகள் மற்றும் கோப்பு வகைகளுக்கு இடையே உள்ள அனைத்து தொடர்புகளையும் பட்டியலிடுங்கள்:
 

@@ -1,20 +1,20 @@
 # choco info
 
 > சாக்லேட்டியுடன் கூடிய தொகுப்பு பற்றிய விரிவான தகவலைக் காண்பி.
-> மேலும் தகவல்: <https://chocolatey.org/docs/commands-info>.
+> மேலும் விவரத்திற்கு: <https://chocolatey.org/docs/commands-info>.
 
 - ஒரு குறிப்பிட்ட தொகுப்பின் தகவலைக் காட்டு:
 
-`choco info {{package}}`
+`choco info {{நிரல்தொகுப்பு}}`
 
 - உள்ளூர் தொகுப்புக்கான தகவலை மட்டும் காட்டு:
 
-`choco info {{package}} --local-only`
+`choco info {{நிரல்தொகுப்பு}} --local-only`
 
 - தொகுப்புகளின் தகவலைப் பெற தனிப்பயன் மூலத்தைக் குறிப்பிடவும்:
 
-`choco info {{package}} --source {{source_url|alias}}`
+`choco info {{நிரல்தொகுப்பு}} --source {{source_url|alias}}`
 
 - அங்கீகாரத்திற்கான பயனர்பெயர் மற்றும் கடவுச்சொல்லை வழங்கவும்:
 
-`choco info {{package}} --user {{username}} --password {{password}}`
+`choco info {{நிரல்தொகுப்பு}} --user {{பயனர்பெயர்}} --password {{கடவுச்சொல்}}`

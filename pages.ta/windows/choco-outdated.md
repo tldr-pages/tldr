@@ -1,7 +1,7 @@
 # choco outdated
 
-> சாக்லேட்டியுடன் காலாவதியான பேக்கேஜ்களைச் சரிபார்க்கவும்.
-> மேலும் தகவல்:  <https://chocolatey.org/docs/commands-outdated>.
+> சாக்லேட்டியுடன் காலாவதியான தொகுப்புகளைச் சரிபார்க்கவும்.
+> மேலும் விவரத்திற்கு:  <https://chocolatey.org/docs/commands-outdated>.
 
 - காலாவதியான தொகுப்புகளின் பட்டியலை அட்டவணை வடிவத்தில் காண்பி:
 
@@ -17,4 +17,4 @@
 
 - அங்கீகாரத்திற்கான பயனர்பெயர் மற்றும் கடவுச்சொல்லை வழங்கவும்:
 
-`choco outdated --user {{username}} --password {{password}}`
+`choco outdated --user {{பயனர்பெயர்}} --password {{கடவுச்சொல்}}`

@@ -1,7 +1,7 @@
 # clip
 
 > உள்ளீட்டு உள்ளடக்கத்தை விண்டோஸ் கிளிப்போர்டுக்கு நகலெடுக்கவும்.
-> மேலும் தகவல்: <https://learn.microsoft.com/windows-server/administration/windows-commands/clip>.
+> மேலும் விவரத்திற்கு: <https://learn.microsoft.com/windows-server/administration/windows-commands/clip>.
 
 - விண்டோஸ் கிளிப்போர்டுக்கு குழாய் கட்டளை வரி வெளியீடு:
 
@@ -9,12 +9,12 @@
 
 - ஒரு கோப்பின் உள்ளடக்கங்களை விண்டோஸ் கிளிப்போர்டுக்கு நகலெடுக்கவும்:
 
-`clip < {{path/to/file.ext}}`
+`clip < {{பாதை/டு/கோப்பு.ext}}`
 
 - விண்டோஸ் கிளிப்போர்டுக்கு புதிய வரியுடன் உரையை நகலெடுக்கவும்:
 
-`echo {{some text}} | clip`
+`echo {{ஏதாவது உரை}} | clip`
 
 - விண்டோஸ் கிளிப்போர்டுக்கு புதிய வரி இல்லாமல் உரையை நகலெடுக்கவும்:
 
-`echo | set /p="some text" | clip`
+`echo | set /p="ஏதாவது உரை" | clip`

@@ -1,7 +1,7 @@
 # color
 
 > கன்சோலின் முன்புறம் மற்றும் பின்னணி வண்ணங்களை அமைக்கவும்.
-> மேலும் தகவல்: <https://learn.microsoft.com/windows-server/administration/windows-commands/color>.
+> மேலும் விவரத்திற்கு: <https://learn.microsoft.com/windows-server/administration/windows-commands/color>.
 
 - கன்சோல் வண்ணங்களை இயல்புநிலை மதிப்புகளுக்கு அமைக்கவும்:
 
@@ -13,4 +13,4 @@
 
 - ஹெக்ஸாடெசிமல் எண்களைப் பயன்படுத்தி (`1-9,a-f`) கன்சோலின் முன்புறம் மற்றும் பின்னணியை ஒரு குறிப்பிட்ட வண்ணத்திற்கு அமைக்கவும்:
 
-`color {{foreground_code}}{{background_code}}`
+`color {{முன்புற_குறியீடு}}{{பின்னணி_குறியீடு}}`

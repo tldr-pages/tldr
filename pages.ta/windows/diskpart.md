@@ -1,9 +1,9 @@
 # diskpart
 
 > வட்டு, தொகுதி மற்றும் பகிர்வு மேலாளர்.
-> மேலும் தகவல்: <https://learn.microsoft.com/windows-server/administration/windows-commands/diskpart>.
+> மேலும் விவரத்திற்கு: <https://learn.microsoft.com/windows-server/administration/windows-commands/diskpart>.
 
-- diskpart ஐ அதன் கட்டளை வரியை உள்ளிட நிர்வாக கட்டளை வரியில் தானாகவே இயக்கவும்:
+- `diskpart` ஐ அதன் கட்டளை வரியை உள்ளிட நிர்வாக கட்டளை வரியில் தானாகவே இயக்கவும்:
 
 `diskpart`
 
@@ -13,11 +13,11 @@
 
 - ஒரு தொகுதியைத் தேர்ந்தெடுக்கவும்:
 
-`select volume {{volume}}`
+`select volume {{தொகுதி}}`
 
 - தேர்ந்தெடுக்கப்பட்ட தொகுதிக்கு ஒரு இயக்கி கடிதத்தை ஒதுக்கவும்:
 
-`assign letter {{letter}}`
+`assign letter {{கடிதம்}}`
 
 - ஒரு புதிய பகிர்வை உருவாக்கவும்:
 
@@ -27,6 +27,6 @@
 
 `active`
 
-- வட்டு பகுதி வெளியேறு:
+- வட்டு பகுதியிலிருந்து வெளியேறு:
 
 `exit`
