@@ -16,13 +16,14 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | es    | ruta/al/archivo      | ruta/al/directorio     | ruta/al/archivo_o_directorio      | paquete   |                   |
 | fa    |                      |                        |                                   |           |                   |
 | fr    | chemin/vers/fichier  | chemin/vers/dossier    | chemin/vers/fichier_ou_dossier    | paquet    | nom_d_utilisateur |
-| hi    | फ़ाइल/का/पथ            | निर्देशिका/का/पथ            | फ़ाइल_या_निर्देशिका/का/पथ                 | पैकेज      | उपयोगकर्ता-नाम         |
+| hi    | फ़ाइल/का/पथ                        | निर्देशिका/का/पथ                           | फ़ाइल_या_निर्देशिका/का/पथ                                 | पैकेज                | उपयोगकर्ता-नाम                  |
 | id    | jalan/menuju/file    | jalan/menuju/direktori | jalan/menuju/file_atau_direktori  | paket     | nama_pengguna     |
 | it    | percorso/al/file     | percorso/al/directory  | percorso/al/file_o_directory      | pacchetto |                   |
 | ja    |                      |                        |                                   |           |                   |
 | ko    |                      |                        |                                   |           |                   |
+|lo     |                      |                        |                                   |           |                   |
 | ml    |                      |                        |                                   |           |                   |
-| ne    | फाइल/को/पथ            | निर्देशिका/को/पथ            | फाइल_वा_निर्देशिका/को/पथ                 | प्याकेज      | प्रयोगकर्ता_नाम        |
+| ne    | फाइल/को/पथ                        | निर्देशिका/को/पथ                          | फाइल_वा_निर्देशिका/को/पथ                                  | प्याकेज              | प्रयोगकर्ता_नाम                    |
 | nl    | pad/naar/bestand     | pad/naar/directory     | pad/naar/bestand_of_directory     |           |                   |
 | no    |                      |                        |                                   |           |                   |
 | pl    | ścieżka/do/pliku     | ścieżka/do/katalogu    | ścieżka/do/pliku_lub_katalogu     | pakiet    | nazwa_użytkownika |
@@ -33,7 +34,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | sh    |                      |                        |                                   |           |                   |
 | sr    |                      |                        |                                   |           |                   |
 | sv    |                      |                        |                                   |           |                   |
-| ta    |பாதை/டு/கோப்பு    |அடைவிற்குப்/பாதை   |பாதை/டு/கோப்பு_அல்லது_அடைவு|நிரல்தொகுப்பு|பயனர்ப்பெயர் |
+| ta    |பாதை/டு/கோப்பு                  |அடைவிற்குப்/பாதை                    |பாதை/டு/கோப்பு_அல்லது_அடைவு                |நிரல்தொகுப்பு   |பயனர்ப்பெயர்                  |
 | th    |                      |                        |                                   |           |                   |
 | tr    | dosya/yolu           | dizin/yolu             | dosya_veya_dizin/yolu             | paket     | kullanıcı_adı     |
 | uk    | шлях/до/файлу        | шлях/до/директорії     | шлях/до/файлу_чи_директорії       | пакунок   | ім'я_користувача  |
