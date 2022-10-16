@@ -6,12 +6,12 @@
 
 - Altera a prioridade de um processo em execução:
 
-`renice -n {{niceness_value}} -p {{pid}}`
+`renice -n {{valor_de_agradabilidade}} -p {{pid}}`
 
 - Altera a prioridade de todos os processos pertencentes a um usuário:
 
-`renice -n {{niceness_value}} -u {{user}}`
+`renice -n {{valor_de_agradabilidade}} -u {{nome_do_usuario}}`
 
 - Altera a prioridade de todos os processos que pertencem a um grupo de processos:
 
-`renice -n {{niceness_value}} --pgrp {{process_group}}`
+`renice -n {{valor_de_agradabilidade}} --pgrp {{grupo_de_processos}}`
