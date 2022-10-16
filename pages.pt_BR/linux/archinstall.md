@@ -9,4 +9,4 @@
 
 - Inicia um instalador predefinido:
 
-`archinstall {{mínimo|autônomo}}`
+`archinstall {{minimal|unattended}}`
