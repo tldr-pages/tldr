@@ -17,4 +17,4 @@
 
 - Compute the ID from stdin:
 
-`git hash-object --stdin`
+`cat {{path/to/file}} | git hash-object --stdin`
