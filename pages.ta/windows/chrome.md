@@ -4,5 +4,5 @@
 > மேலும் தகவல்: <https://chrome.google.com>.
 
 - அசல் கட்டளைக்கான ஆவணங்களைக் காண்க:
- 
+
 `tldr chromium`
