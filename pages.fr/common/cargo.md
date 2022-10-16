@@ -22,7 +22,7 @@
 
 - Créer un nouveau binaire ou librairie du projet Rust dans un dossier spécifique:
 
-`cargo new {{path/to/directory}} --{{bin|lib}}`
+`cargo new {{chemin/vers/dossier}} --{{bin|lib}}`
 
 - Compiler le projet Rust dans le dossier courant:
 
