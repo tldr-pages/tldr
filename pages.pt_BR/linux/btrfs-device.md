@@ -7,7 +7,7 @@
 
 `sudo btrfs device add {{caminho/para/bloco_do_dispositivo1}} [{{caminho/para/bloco_do_dispositivo2}}] {{caminho/para/sistema_de_arquivos_btrfs}}`
 
-- Remova um dispositivo de um sistema de arquivos btrfs:
+- Remove um dispositivo de um sistema de arquivos btrfs:
 
 `sudo btrfs device remove {{caminho/para/dispositivo|id_do_dispositivo}} [{{...}}]`
 
