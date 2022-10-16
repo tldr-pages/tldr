@@ -1,9 +1,7 @@
 # git bulk
 
 > Execute operations on multiple Git repositories.
-
 > Part of `git-extras`.
-
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-bulk>.
 
 - Register the current directory as a workspace:
