@@ -16,7 +16,7 @@
 
 `conda {{activate umgebungs_name}}`
 
-- Eine Umgebung entladen:
+- Entlade eine Umgebung:
 
 `conda {{deactivate}}`
 
