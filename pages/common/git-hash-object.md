@@ -9,7 +9,7 @@
 
 - Compute the ID and store it in git database:
 
-`git hash-object -w {{/path/to/file}}`
+`git hash-object -w {{path/to/file}}`
 
 - Compute the ID and specify the type of object:
 
