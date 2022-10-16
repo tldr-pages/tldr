@@ -5,7 +5,7 @@
 
 - Compute the ID that would be used to store it in git database:
 
-`git hash-object {{/path/to/file}}`
+`git hash-object {{path/to/file}}`
 
 - Compute the ID and store it in git database:
 
