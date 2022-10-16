@@ -19,7 +19,6 @@
 
 `Ctrl + \`
 
-- Attach to a session in read-only mode:
 - Anexa a uma sessao no modo read-only (somente leitura):
 
 `abduco -Ar {{name}}`
