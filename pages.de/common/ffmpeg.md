@@ -7,11 +7,11 @@
 
 `ffmpeg -i {{pfad/zu/video.mp4}} -vn {{pfad/zu/audio.mp3}}`
 
-- Konvertiere Frames eines Videos oder Gifs zu individuellen, numerierten Bildern:
+- Konvertiere Frames eines Videos oder Gifs zu individuellen, nummerierten Bildern:
 
 `ffmpeg -i {{video.mpg|video.gif}} {{pfad/zu/frame_%d.png}}`
 
-- Kombiniere numerierte Bilder (`frame_1.jpg`, `frame_2.jpg`, etc) in ein Video oder Gif:
+- Kombiniere nummerierte Bilder (`frame_1.jpg`, `frame_2.jpg`, etc) in ein Video oder Gif:
 
 `ffmpeg -i {{pfad/zu/frame_%d.jpg}} -f bild2 {{video.mpg|video.gif}}`
 

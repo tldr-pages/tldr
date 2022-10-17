@@ -7,7 +7,7 @@
 
 `arithmetic`
 
-- Spezifiziere einen oder mehr arithemtische [O]peratoren um Probleme mit ihnen zu bekommen:
+- Spezifiziere einen oder mehr arithmetische [O]peratoren um Probleme mit ihnen zu bekommen:
 
 `arithmetic -o {{+|-|x|/}}`
 

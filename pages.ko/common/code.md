@@ -1,24 +1,36 @@
 # code
 
-> 비주얼 스튜디오 코드.
+> 확장 가능한 크로스 플랫폼 코드 에디터.
 > 더 많은 정보: <https://github.com/microsoft/vscode>.
 
-- VS Code 열기:
+- Visual Studio Code 실행:
 
 `code`
 
-- 현재 디렉토리에서 VS Code 열기:
+- 특정 파일 혹은 디렉토리 열기
 
-`code .`
+`code {{파일/혹은/디렉토리의/경로1 파일/혹은/디렉토리의/경로2 ...}}`
 
-- 파일이나 디렉토리에서 VS Code 열기:
+- 두 파일 비교
 
-`code {{경로/파일_혹은_디렉토리}}`
+`code --diff {{파일의/경로1}} {{파일의/경로2}}`
 
-- 현재 열려 있는 VS 코드 창에서 파일 또는 디렉토리를 열기:
+- 특정 파일 혹은 디렉토리를 새로운 창에서 열기
 
-`code --reuse-window {{경로/파일_혹은_디렉토리}}`
+`code --new-window {{파일/혹은/디렉토리의/경로1 파일/혹은/디렉토리의/경로2 ...}}`
 
-- 두 개의 VS Code 파일 비교:
+- 특정 확장 프로그램 설치/삭제
 
-`code -d {{파일1}} {{파일2}}`
+`code --{{install|uninstall}}-extension {{publisher.extension}}`
+
+- 설치된 확장 프로그램 나열
+
+`code --list-extensions`
+
+- 설치된 확장 프로그램을 버전과 함께 나열
+
+`code --list-extensions --show-versions`
+
+- 사용자 정보를 특정 디렉토리에 저장하면서 관리자 (루트) 권한으로 에디터 실행
+
+`sudo code --user-data-dir {{디렉토리/경로}}`

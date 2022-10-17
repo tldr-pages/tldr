@@ -105,7 +105,9 @@ Certaines sous-commandes comme `example command` ont leur propre documentation.
 ---
 ### hi
 
-Not translated yet.
+```markdown
+कुछ कमांड्स जैसे की `example command`, उनके अपने उपयोग प्रलेखन हैं|
+```
 
 ---
 ### id
@@ -201,7 +203,9 @@ Not translated yet.
 ---
 ### sv
 
-Not translated yet.
+```markdown
+En del underkommandon som t.ex: `example command` har sin egen användningsdokumentation.
+```
 
 
 ---

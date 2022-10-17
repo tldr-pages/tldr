@@ -7,7 +7,7 @@
 
 `color`
 
-- Liste alle verfügbaren Farben und detailierte Informationen auf:
+- Liste alle verfügbaren Farben und detaillierte Informationen auf:
 
 `color /?`
 
