@@ -9,7 +9,7 @@
 
 - Instala un paquete:
 
-`sudo port install {{package_name}}`
+`sudo port install {{nombre_de_paquete}}`
 
 - Lista de paquetes instalados:
 
