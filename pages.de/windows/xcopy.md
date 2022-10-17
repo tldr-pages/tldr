@@ -3,34 +3,34 @@
 > Kopieren von Dateien und Verzeichnisbäumen.
 > Weitere Informationen: <https://learn.microsoft.com/windows-server/administration/windows-commands/xcopy>.
 
-- Kopieren der Datei(en) an den angegebenen Zielort:
+- Kopiere Datei(en) an den angegebenen Zielort:
 
-`xcopy {{pfad/zu/datei_oder_verzeichnis}} {{pfad/zum/ziel}}`
+`xcopy {{pfad/zu/datei_oder_verzeichnis}} {{pfad/zu/ziel}}`
 
-- Auflisten der zu kopierenden Dateien vor dem Kopieren
+- Liste die zu kopierenden Dateien vor dem Kopieren auf:
 
-`xcopy {{pfad/zu/datei_oder_verzeichnis}} {{pfad/zum/ziel}} /p`
+`xcopy {{pfad/zu/datei_oder_verzeichnis}} {{pfad/zu/ziel}} /p`
 
-- Kopieren der Verzeichnisstruktur ohne Dateien:
+- Kopiere nur die Verzeichnisstruktur ohne Dateien:
 
-`xcopy {{pfad/zu/datei_oder_verzeichnis}} {{pfad/zum/ziel}} /t`
+`xcopy {{pfad/zu/datei_oder_verzeichnis}} {{pfad/zu/ziel}} /t`
 
-- Leere Verzeichnisse beim Kopieren einbeziehen:
+- Kopiere leere Verzeichnisse mit:
 
-`xcopy {{pfad/zu/datei_oder_verzeichnis}} {{pfad/zum/ziel}} /e`
+`xcopy {{pfad/zu/datei_oder_verzeichnis}} {{pfad/zu/ziel}} /e`
 
-- Beibehalten der Quell-Zugriffsrichtlinien (ACL) im Ziel Verzeichniss:
+- Behalte die Quell-Zugriffsrichtlinien (ACL) im Ziel Verzeichnis bei:
 
-`xcopy {{pfad/zu/datei_oder_verzeichnis}} {{pfad/zum/ziel}} /o`
+`xcopy {{pfad/zu/datei_oder_verzeichnis}} {{pfad/zu/ziel}} /o`
 
-- Wiederaufnahme des Vorgangs bei Unterbrechung der Netzwerkverbindung zulassen:
+- Setze den Vorgang nach Unterbrechung der Netzwerkverbindung fort:
 
-`xcopy {{pfad/zu/datei_oder_verzeichnis}} {{pfad/zum/ziel}} /z`
+`xcopy {{pfad/zu/datei_oder_verzeichnis}} {{pfad/zu/ziel}} /z`
 
-- Unterdrückt die Eingabeaufforderung, um zu bestätigen, dass Sie eine vorhandene Zieldatei überschreiben möchten:
+- Überschreibe bereits vorhandene Zieldateien automatisch:
 
-`xcopy {{pfad/zu/datei_oder_verzeichnis}} {{pfad/zum/ziel}} /y`
+`xcopy {{pfad/zu/datei_oder_verzeichnis}} {{pfad/zu/ziel}} /y`
 
-- Zeigt die Hilfe an der Eingabeaufforderung an:
+- Zeige die detaillierte Hilfe an:
 
 `xcopy /?`
