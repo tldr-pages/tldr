@@ -1,6 +1,6 @@
 # wwand
 
-> This is the USB WWAN device configuration daemon.
+> USB WWAN device configuration daemon.
 > This should not be invoked manually.
 > More information: <https://keith.github.io/xcode-man-pages/wwand.8.html>.
 
