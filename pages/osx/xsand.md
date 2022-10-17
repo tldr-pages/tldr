@@ -6,4 +6,4 @@
 
 - Start the daemon:
 
- `xsand`
+`xsand`
