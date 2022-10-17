@@ -1,0 +1,20 @@
+# qm guest exec
+
+> Execute a command via a guest agent.
+> More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
+
+- Execute a command via a guest agent:
+
+`qm guest exec {{vmid}} [{{extra-args}}]`
+
+- Execute a command via a guest agent asynchronously:
+
+`qm guest exec {{vmid}} [{{extra-args}}] --synchronous 0`
+
+- Execute a command via a guest agent with a specified timeout of 10 seconds:
+
+`qm guest exec {{vmid}} [{{extra-args}}] --timeout 10`
+
+- Execute a command via a guest agent and forward input from STDIN until EOF to the guest agent:
+
+`qm guest exec {{vmid}} [{{extra-args}}] --pass-stdin 1`
