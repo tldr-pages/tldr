@@ -6,4 +6,4 @@
 
 - Tira uma screenshot:
 
-`adb shell screencap {{path/to/file}}`
+`screencap {{caminho/para/arquivo}}`
