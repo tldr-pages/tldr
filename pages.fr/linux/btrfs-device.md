@@ -5,15 +5,15 @@
 
 - Ajouter un ou plusieurs devices à un système de fichier BTRFS :
 
-`sudo btrfs device add {{path/to/block_device1}} [{{path/to/block_device2}}] {{path/to/btrfs_filesystem}}`
+`sudo btrfs device add {{chemin/vers/block_device1}} [{{chemin/vers/block_device2}}] {{chemin/vers/systeme_de_fichier_btrfs}}`
 
 - Retirer un device d'un système de ficheir BTRFS :
 
-`sudo btrfs device remove {{path/to/device|device_id}} [{{...}}]`
+`sudo btrfs device remove {{chemin/vers/device|device_id}} [{{...}}]`
 
 - Afficher les statistiques d'erreurs :
 
-`sudo btrfs device stats {{path/to/btrfs_filesystem}}`
+`sudo btrfs device stats {{chemin/vers/btrfs_filesystem}}`
 
 - Scanner tout les disques et informer le noyaux de tout les sytèmes de fichiers BTRFS détectés :
 
@@ -21,4 +21,4 @@
 
 - Affichier les statistiques détaillées d'allocation par disque :
 
-`sudo btrfs device usage {{path/to/btrfs_filesystem}}`
+`sudo btrfs device usage {{chemin/vers/systeme_de_fichier_btrfs}}`
