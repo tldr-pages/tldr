@@ -8,6 +8,14 @@
 
 `esearch -db pubmed -query "{{selective serotonin reuptake inhibitor}}"`
 
+- Search the protein database using a query and regexp:
+
+`esearch -db {{protein}} -query {{'Escherichia*'}}`
+
 - Search the nucleotide database for sequences whose metadata contain insulin and rodents:
 
 `esearch -db nuccore -query "{{insulin [PROT] AND rodents [ORGN]}}"`
+
+- Display [h]elp:
+
+`esearch -h`
