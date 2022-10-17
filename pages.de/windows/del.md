@@ -3,7 +3,7 @@
 > Lösche eine oder mehrere Dateien.
 > Weitere Informationen: <https://learn.microsoft.com/windows-server/administration/windows-commands/del>.
 
-- Lösche eine oder mehrere durch Leerzeichen getrennte Dateien oder Dateimuster (Dateinamen mit Platzhaltern, "Wildcards"):
+- Lösche eine oder mehrere durch Leerzeichen getrennte Dateien oder Dateimuster:
 
 `del {{dateimuster}}`
 
