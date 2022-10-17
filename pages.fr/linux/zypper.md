@@ -1,7 +1,7 @@
 # zypper
 
 > SUSE & openSUSE utilitaire de gestion de paquets.
-> More information: <https://en.opensuse.org/SDB:Zypper_manual>.
+> Plus d'informations : <https://en.opensuse.org/SDB:Zypper_manual>.
 
 - Synchroniser la liste des paquets et versions disponibles :
 
