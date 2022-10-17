@@ -1,9 +1,10 @@
 # distrobox-rm
 
-> Delete Distrobox containers.
-> More information: <https://distrobox.privatedns.org>.
+> Remove a distrobox container.
+> Subcommand of `distrobox`. More about distrobox: `tldr distrobox`.
+> More information: <https://github.com/89luca89/distrobox/blob/main/docs/usage/distrobox-rm.md>.
 
-- Remove a distrobox:
+- Remove a distrobox (remember to stop container before removing it):
 
 `distrobox-rm {{container_name}}`
 
