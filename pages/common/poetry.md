@@ -26,3 +26,11 @@
 - Execute a command inside the project's virtual environment:
 
 `poetry run {{command}}`
+
+- Bump the minor version of the project in `pyproject.toml`:
+
+`poetry version minor`
+
+- List all commands:
+
+`poetry list`
