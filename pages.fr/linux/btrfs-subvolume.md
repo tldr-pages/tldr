@@ -5,7 +5,7 @@
 
 - Créer un nouve sous-volume vide :
 
-`sudo btrfs subvolume create {{chemin/vers/nouveau_subvolume}}`
+`sudo btrfs subvolume create {{chemin/vers/nouveau_sousvolume}}`
 
 - Lister tout les sous-volumes et snapshots du système de fichier indiqué :
 
@@ -13,16 +13,16 @@
 
 - Supprimer un sous-volume :
 
-`sudo btrfs subvolume delete {{path/to/subvolume}}`
+`sudo btrfs subvolume delete {{chemin/vers/sousvolume}}`
 
 - Créer un snapshot en lecture seule d'un sous-volume existant :
 
-`sudo btrfs subvolume snapshot -r {{path/to/source_subvolume}} {{path/to/target}}`
+`sudo btrfs subvolume snapshot -r {{chemin/vers/sousvolume_source}} {{chemin/vers/cible}}`
 
 - Créer un snapshot en lecture et écriture d'un sous-volume existant :
 
-`sudo btrfs subvolume snapshot {{path/to/source_subvolume}} {{path/to/target}}`
+`sudo btrfs subvolume snapshot {{chemin/vers/sousvolume_source}} {{chemin/vers/cible}}`
 
 - Afficher les informations détaillées d'un sous-volume :
 
-`sudo btrfs subvolume show {{path/to/subvolume}}`
+`sudo btrfs subvolume show {{chemin/vers/sousvolume}}`
