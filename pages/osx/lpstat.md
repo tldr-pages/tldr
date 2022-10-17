@@ -7,7 +7,7 @@
 
 `lpstat -l`
 
-- Force encryption when connecting to the server:
+- Force encryption when connecting to the CUPS server:
 
 `lpstat -E`
 
