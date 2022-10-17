@@ -17,7 +17,7 @@
 
 - Mark files at lower path [d]epth as originals:
 
-`rmlint --rank-by=d {{path/to/directory}}`
+`rmlint --rank-by={{d}} {{path/to/directory}}`
 
 - Mark files with shortest name [l]ength as originals:
 
