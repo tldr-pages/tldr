@@ -8,9 +8,9 @@
 
 `yt-dlp "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
-- Descarregar um vídeo num formato específico; neste caso, fundindo o melhor formato de vídeo com o melhor formato de áudio (predefinição):
+- Descarregar um vídeo num formato específico, neste caso o melhor vídeo mp4 disponível (a predefinição é "bv\*+ba/b"):
 
-`yt-dlp --format "{{bv*+ba/b}}" "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
+`yt-dlp --format "{{bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]}}" "{{https://www.youtube.com/watch?v=oHg5SJYRHA0}}"`
 
 - Extrair áudio de vídeos (requer o `ffmpeg` ou o `ffprobe`):
 
