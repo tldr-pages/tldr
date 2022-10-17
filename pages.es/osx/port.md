@@ -5,7 +5,7 @@
 
 - Busca un paquete:
 
-`port search {{search_term}}`
+`port search {{termino_de_busqueda}}`
 
 - Instala un paquete:
 
