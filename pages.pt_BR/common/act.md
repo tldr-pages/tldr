@@ -1,7 +1,7 @@
 # act
 
 > Executa GitHub Actions localmente utilizando Docker.
-> Mais informacoes: <https://github.com/nektos/act>.
+> Mais informações: <https://github.com/nektos/act>.
 
 - Lista acoes disponiveis:
 
