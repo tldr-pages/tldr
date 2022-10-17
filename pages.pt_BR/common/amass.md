@@ -2,7 +2,7 @@
 
 > Ferramenta de Attack Surface Mapping (mapeamento de superfície de ataque) e Asset Discovery (descoberta de asset) em profundidade.
 > Alguns subcomandos como `amass db` tem sua propria documentacao de uso.
-> Mais informacoes: <https://github.com/OWASP/Amass>.
+> Mais informações: <https://github.com/OWASP/Amass>.
 
 - Checa a versao de Amass:
 
