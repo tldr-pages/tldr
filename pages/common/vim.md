@@ -20,7 +20,7 @@
 
 `:wq<Enter>`
 
-- Enter normal mode and Undo the last operation:
+- Enter normal mode and undo the last operation:
 
 `<ESC>u`
 
