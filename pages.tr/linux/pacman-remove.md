@@ -3,10 +3,6 @@
 > Arch Linux paket yönetim aracı.
 > Daha fazla bilgi: <https://man.archlinux.org/man/pacman.8>.
 
-- Bu alt komut için yardım göster:
-
-`pacman --remove --help`
-
 - Bir paket ve bağlılıklarını sil:
 
 `sudo pacman --remove --recursive {{paket_ismi}}`
@@ -30,3 +26,7 @@
 - (Bir paketin silinme durumunda) Etkilenecek paketleri (silmeden) listele:
 
 `pacman --remove --print {{paket_ismi}}`
+
+- Bu alt komut için yardım göster:
+
+`pacman --remove --help`
