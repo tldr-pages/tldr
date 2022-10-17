@@ -1,6 +1,6 @@
 # qm config
 
-> Get the VM configurations with pending configuration changes applied. 
+> Get the VM configurations with pending configuration changes applied.
 > More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
 - Get the VM configurations with pending configuration changes applied:
