@@ -1,8 +1,8 @@
 # cc
 
-> This command is an alias of `gcc`.
-> More information: <https://gcc.gnu.org>.
+> To polecenie jest aliasem `cc`.
+> Więcej informacji: <https://gcc.gnu.org>.
 
-- View documentation for the original command:
+- Zobacz dokumentację orginalnego polecenia:
 
-`tldr gcc`
+`tldr cc`
