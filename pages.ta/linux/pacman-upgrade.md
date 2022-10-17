@@ -5,23 +5,23 @@
 
 - கோப்புகளிலிருந்து ஒன்று அல்லது அதற்கு மேற்பட்ட தொகுப்புகளை நிறுவவும்:
 
-`sudo pacman --upgrade {{பாதை/டு/தொகுப்பு1.pkg.tar.zst}} {{பாதை/டு/தொகுப்பு2.pkg.tar.zst}}`
+`sudo pacman --upgrade {{பாதை/டு/நிரல்தொகுப்பு1.pkg.tar.zst}} {{பாதை/டு/நிரல்தொகுப்பு2.pkg.tar.zst}}`
 
 - கேட்காமல் ஒரு தொகுப்பை நிறுவவும்:
 
-`sudo pacman --upgrade --noconfirm {{பாதை/டு/தொகுப்பு.pkg.tar.zst}}`
+`sudo pacman --upgrade --noconfirm {{பாதை/டு/நிரல்தொகுப்பு.pkg.tar.zst}}`
 
 - தொகுப்பு நிறுவலின் போது முரண்பட்ட கோப்புகளை மேலெழுதவும்:
 
-`sudo pacman --upgrade --overwrite {{பாதை/டு/கோப்பு}} {{பாதை/டு/தொகுப்பு.pkg.tar.zst}}`
+`sudo pacman --upgrade --overwrite {{பாதை/டு/கோப்பு}} {{பாதை/டு/நிரல்தொகுப்பு.pkg.tar.zst}}`
 
 - சார்பு பதிப்பு சரிபார்ப்புகளைத் தவிர்த்து, தொகுப்பை நிறுவவும்:
 
-`sudo pacman --upgrade --nodeps {{பாதை/டு/தொகுப்பு.pkg.tar.zst}}`
+`sudo pacman --upgrade --nodeps {{பாதை/டு/நிரல்தொகுப்பு.pkg.tar.zst}}`
 
 - பாதிக்கப்படக்கூடிய தொகுப்புகளைப் பட்டியலிடுங்கள் (எந்த தொகுப்புகளையும் நிறுவாது):
 
-`pacman --query --print {{பாதை/டு/தொகுப்பு.pkg.tar.zst}}`
+`pacman --query --print {{பாதை/டு/நிரல்தொகுப்பு.pkg.tar.zst}}`
 
 - உதவியைக் காட்டு:
 
