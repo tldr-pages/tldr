@@ -1,7 +1,7 @@
 # poetry
 
 > Manage Python packages and dependencies.
-> More information: <https://python-poetry.org/docs>.
+> More information: <https://python-poetry.org/docs/cli/>.
 
 - Create a new Poetry project in the directory with a specific name:
 
