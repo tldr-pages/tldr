@@ -13,7 +13,7 @@
 
 - Supprimer un paquet :
 
-`zypper remove {{package}}`
+`zypper remove {{paquet}}`
 
 - Mettre à jour un paquet installé vers la version la plus récente disponible :
 
