@@ -21,7 +21,7 @@
 
 - ஒரு உள்ளூர் கோப்பகத்தை ஒத்திசைக்கவும், மேலும் மூலத்தில் கோப்புகள் இல்லை என்றால் இலக்கில் உள்ள கோப்புகளை நீக்கவும்:
 
-`azcopy sync '{{path/to/source}}' 'https://{{storage_account_name}}.blob.core.windows.net/{{container_name}}' --recursive --delete-destination=true`
+`azcopy sync '{{பாதை/டு/மூலம்}}' 'https://{{சேமிப்பு_கணக்கு_பெயர்}}.blob.core.windows.net/{{கொள்கலன்_பெயர்}}' --recursive --delete-destination=true`
 
 - விரிவான பயன்பாட்டுத் தகவலைக் காண்பி:
 
