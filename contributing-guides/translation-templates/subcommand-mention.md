@@ -105,7 +105,9 @@ Certaines sous-commandes comme `example command` ont leur propre documentation.
 ---
 ### hi
 
-Not translated yet.
+```markdown
+कुछ कमांड्स जैसे की `example command`, उनके अपने उपयोग प्रलेखन हैं|
+```
 
 ---
 ### id
