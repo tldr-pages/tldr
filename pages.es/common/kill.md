@@ -8,7 +8,6 @@
 
 `kill signal PID`
 
-
 - Lista de las señales disponibles (para ser utilizadas sin el prefijo SIG):
 
 `kill -l`
