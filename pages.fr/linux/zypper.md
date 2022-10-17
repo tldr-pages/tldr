@@ -9,7 +9,7 @@
 
 - Installer un nouveau paquet :
 
-`zypper install {{package}}`
+`zypper install {{paquet}}`
 
 - Supprimer un paquet :
 
