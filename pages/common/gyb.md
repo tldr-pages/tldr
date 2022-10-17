@@ -5,7 +5,7 @@
 
 - Estimate the number and the size of all emails on your Gmail account:
 
-`gyb --email {{youremail@gmail.com}} --action estimate`
+`gyb --email {{email@gmail.com}} --action estimate`
 
 - Backup your Gmail account to a specific directory:
 
