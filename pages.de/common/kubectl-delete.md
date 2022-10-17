@@ -1,6 +1,6 @@
 # kubectl delete
 
-> Löschen von Kubernetes-Ressourcen.
+> Lösche Kubernetes-Ressourcen.
 > Weitere Informationen: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#delete>.
 
 - Löschen eines bestimmten Pods:
