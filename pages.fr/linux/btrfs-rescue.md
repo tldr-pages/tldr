@@ -17,7 +17,7 @@
 
 - Restaurer depuis des transactions interrompues (correction des problème de ré-exection des messages de log):
 
-`sudo btrfs rescue zero-log {{path/to/partition}}`
+`sudo btrfs rescue zero-log {{chemin/vers/partition}}`
 
 - Créer un device de contrôle sous `/dev/btrfs-control` quand l'outil `mknod` n'est pas installé :
 
