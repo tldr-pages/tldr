@@ -21,7 +21,7 @@
 
 - Mark files with shortest name [l]ength as originals:
 
-`rmlint --rank-by=l {{path/to/directory}}`
+`rmlint --rank-by={{l}} {{path/to/directory}}`
 
 - Find only duplicates that have the same filename in addition to the same contents:
 
