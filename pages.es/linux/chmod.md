@@ -1,6 +1,6 @@
 # chmod
 
->Cambia los permisos de acceso de un archivo o directorio. Más información: https://www.gnu.org/software/coreutils/chmod.
+> Cambia los permisos de acceso de un archivo o directorio. Más información: https://www.gnu.org/software/coreutils/chmod.
 
 - Dar al usuario que posee el archivo el permiso de ejecución:
 
