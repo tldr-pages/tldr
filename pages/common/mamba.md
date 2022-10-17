@@ -8,6 +8,10 @@
 
 `mamba create --name {{environment_name}} {{python=3.10 matplotlib}}`
 
+- Install packages into the current environment, specifying the package [c]hannel:
+
+`mamba install -c {{conda-forge}} {{python=3.6 numpy}}`
+
 - Update all packages in environment:
 
 `mamba update --all`
@@ -31,7 +35,3 @@
 - List all installed packages in the currently activated environment:
 
 `mamba list`
-
-- Install packages into the current environment, specifying the package [c]hannel:
-
-`mamba install -c {{conda-forge}} {{python=3.6 numpy}}`
