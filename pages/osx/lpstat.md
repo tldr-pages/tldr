@@ -3,7 +3,7 @@
 > Display status information about the current classes, jobs, and printers.
 > More information: <https://ss64.com/osx/lpstat.html>.
 
-- Show a long listing of printers, classes, or jobs:
+- Show a long listing of printers, classes, and jobs:
 
 `lpstat -l`
 
