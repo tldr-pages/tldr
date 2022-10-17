@@ -31,6 +31,6 @@
 
 `poetry version minor`
 
-- List all commands:
+- List all poetry subcommands:
 
 `poetry list`
