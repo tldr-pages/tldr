@@ -1,14 +1,13 @@
 # burpsuite
 
-> A GUI based application that's used in web application penetration testing.
-> CLI is used to control the startup behavior of Burpsuite application.
+> A GUI based application mainly used in web application penetration testing.
 > More information: <https://portswigger.net/burp/documentation/desktop/getting-started/launch-from-command-line>.
 
-- Start burpsuite application:
+- Start Burp Suite:
 
 `burpsuite`
 
-- Start burpsuite with default configurations:
+- Start Burp Suite with defaults, overriding the user's configuration:
 
 `burpsuite --use-defaults`
 
