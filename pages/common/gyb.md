@@ -9,12 +9,12 @@
 
 - Backup a Gmail account to a specific directory:
 
-`gyb --email {{youremail@gmail.com}} --action backup --local-folder {{path/to/directory}}`
+`gyb --email {{email@gmail.com}} --action backup --local-folder {{path/to/directory}}`
 
-- Backup only important or starred emails from your Gmail account to the default local folder:
+- Backup only important or starred emails from a Gmail account to the default local folder:
 
-`gyb --email {{youremail@gmail.com}} --search "is:important OR is:starred"`
+`gyb --email {{email@gmail.com}} --search "{{is:important OR is:starred}}"`
 
-- Restore from a local folder to your Gmail account:
+- Restore from a local folder to a Gmail account:
 
-`gyb --email {{youremail@gmail.com}} --action restore --local-folder {{path/to/directory}}`
+`gyb --email {{email@gmail.com}} --action restore --local-folder {{path/to/directory}}`
