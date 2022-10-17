@@ -1,6 +1,6 @@
 # mamba repoquery
 
-> Efficiently query package repositories and package dependencies.
+> Efficiently query conda and mamba package repositories and package dependencies.
 > More information: <https://mamba.readthedocs.io/en/latest/user_guide/mamba.html#repoquery>.
 
 - Search for all available versions of a particular package:
@@ -15,6 +15,6 @@
 
 `mamba repoquery depends --tree {{scipy}}`
 
-- Look for other packages who need a particular package installed in the currently activated environment (i.e., inverse of `depends`):
+- Print packages in the current environment that require a particular package to be installed (i.e. inverse of `depends`):
 
 `mamba repoquery whoneeds {{ipython}}`

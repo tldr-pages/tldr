@@ -1,6 +1,6 @@
 # mamba
 
-> The fast, cross-platform package manager, intended as a drop-in replacement for conda.
+> Fast, cross-platform package manager, intended as a drop-in replacement for conda.
 > Some subcommands such as `mamba repoquery` have their own usage documentation.
 > More information: <https://mamba.readthedocs.io/en/latest/user_guide/mamba.html>.
 
@@ -8,30 +8,30 @@
 
 `mamba create --name {{environment_name}} {{python=3.10 matplotlib}}`
 
-- List all environments:
+- Update all packages in environment:
 
-`mamba info --envs`
-
-- Activate an environment:
-
-`mamba activate {{environment_name}}`
-
-- Deactivate an environment:
-
-`mamba {{deactivate}}`
-
-- Delete an environment and remove all packages:
-
-`mamba remove --name {{environment_name}} --all`
-
-- List all installed packages in the currently activated environment:
-
-`mamba list`
+`mamba update --all`
 
 - Search for a particular package across repositories:
 
 `mamba repoquery search {{numpy}}`
 
-- Install packages into the current environment:
+- List all environments:
 
-`mamba install {{python=3.6 numpy}}`
+`mamba info --envs`
+
+- Remove unused [p]ackages and [t]arballs from cache:
+
+`mamba clean -pt`
+
+- Activate an environment:
+
+`mamba activate {{environment_name}}`
+
+- List all installed packages in the currently activated environment:
+
+`mamba list`
+
+- Install packages into the current environment, specifying the package [c]hannel:
+
+`mamba install -c {{conda-forge}} {{python=3.6 numpy}}`
