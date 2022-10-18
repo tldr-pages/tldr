@@ -1,6 +1,6 @@
 # kill
 
-> Este comando es utilizado para matar/terminar procesos.
+> Envía una señal a un proceso, usualmente relacionado a detener el proceso.
 > kill envia una señal para terminar uno o un grupo de procesos.
 > Mas Informacion: <https://linuxhint.com/linux-kill-command/>.
 
