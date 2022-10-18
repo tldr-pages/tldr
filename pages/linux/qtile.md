@@ -7,7 +7,7 @@
 
 `qtile start`
 
-- Check a configuration file for any compilation errors (default location is  `~/.config/qtile/config.py`):
+- Check the configuration file for any compilation errors (default location is  `~/.config/qtile/config.py`):
 
 `qtile check`
 
