@@ -31,6 +31,6 @@
 
 `aws configure list`
 
-- Lista os entradas da configuração de um profile específico
+- Lista os entradas da configuração de um profile específico:
 
 `aws configure list --profile {{profile_name}}`
