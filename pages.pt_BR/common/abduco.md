@@ -3,7 +3,7 @@
 > Gerenciador de sessão no terminal.
 > Mais informações: <http://www.brain-dump.org/projects/abduco/>.
 
-- Listar sessoes:
+- Lista sessoes:
 
 `abduco`
 
