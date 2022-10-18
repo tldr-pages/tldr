@@ -23,6 +23,6 @@
 
 `sudo port upgrade outdated`
 
-- Elimina versiones antiguas de paquetes instalados:
+- Remueve versiones antiguas de paquetes instalados:
 
 `sudo port uninstall inactive`
