@@ -11,7 +11,7 @@
 
 `sudo port install {{nombre_de_paquete}}`
 
-- Lista de paquetes instalados:
+- Lista los paquetes instalados:
 
 `port installed`
 
