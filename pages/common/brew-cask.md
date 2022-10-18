@@ -1,7 +1,7 @@
-# brew cask
+# brew --cask
 
-> Package manager for macOS applications distributed as binaries.
-> This subcommand has been depreciated and replaced by the `--cask` flag.
+> CLI workflow for the administration of macOS applications distributed as binaries.
+> This command was previously called `brew cask`, it has been deprecated in favor of the `brew --cask` flag.
 > More information: <https://github.com/Homebrew/homebrew-cask>.
 
 - Search for formulas and casks:
