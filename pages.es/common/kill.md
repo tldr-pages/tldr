@@ -2,7 +2,7 @@
 
 > Envía una señal a un proceso, usualmente relacionado a detener el proceso.
 > kill envia una señal para terminar uno o un grupo de procesos.
-> Mas Informacion: <https://linuxhint.com/linux-kill-command/>.
+> Más información: <https://manned.org/kill>.
 
 - Mata un proceso o grupo de procesos.
 
