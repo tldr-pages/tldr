@@ -3,7 +3,7 @@
 > Used for communication between the browser application and various configuration tools and services like cockpit-bridge.
 > More information: <https://cockpit-project.org/guide/latest/cockpit-ws.8.html>.
 
-- To check which certificate cockpit-ws will use run:
+- To check which certificate cockpit-ws will use:
 
 `sudo remotectl certificate`
 
