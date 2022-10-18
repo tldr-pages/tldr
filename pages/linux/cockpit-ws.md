@@ -26,4 +26,3 @@
 - Don't use TLS:
 
 `cockpit-ws --no-tls`
-
