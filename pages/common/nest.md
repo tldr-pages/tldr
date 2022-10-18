@@ -5,4 +5,4 @@
 
 - Create a nestjs project:
 
-`nest new {{project_name}}`:
+`nest new {{project_name}}`
