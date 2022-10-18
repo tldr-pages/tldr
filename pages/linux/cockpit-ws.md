@@ -7,5 +7,6 @@
 
 `cockpit-ws --address {{10.10.0.154}} --port {{8080}}`
 
-- Show command help:
+- Display help:
+
 `cockpit-ws --help`
