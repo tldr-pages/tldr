@@ -3,7 +3,7 @@
 > Find mønstre i filer via regulære udtryk (regular expressions).
 > Mere information: <https://www.gnu.org/software/grep/manual/grep.html>.
 
-- Søg for et mønster i en fil:
+- Søg efter et mønster i en fil:
 
 `grep "{{søgemønster}}" {{sti/til/fil}}`
 
@@ -15,7 +15,7 @@
 
 `grep --recursive --line-number --binary-files={{without-match}} "{{søgemønster}}" {{sti/til/mappe}}`
 
-- Brug udvidet regulære udtryk (understøtter `?`, `+`, `{}`, `()` og `|`), i case-insensitive modus:
+- Brug udvidede regulære udtryk (understøtter `?`, `+`, `{}`, `()` og `|`), i case-insensitive modus:
 
 `grep --extended-regexp --ignore-case "{{søgemønster}}" {{sti/til/fil}}`
 
@@ -23,7 +23,7 @@
 
 `grep --{{context|before-context|after-context}}={{3}} "{{søgemønster}}" {{sti/til/fil}}`
 
-- Print, med farveoutput, filnavn og linjenummer for hvert match.:
+- Print, filnavn og linjenummer for hvert match, med farveoutput:
 
 `grep --with-filename --line-number --color=always "{{søgemønster}}" {{sti/til/fil}}`
 
@@ -31,6 +31,6 @@
 
 `grep --only-matching "{{søgemønster}}" {{sti/til/fil}}`
 
-- Søg i stdin efter linjer der ikke matcher et mønster:
+- Søg i `stdin` efter linjer der ikke matcher et mønster:
 
 `cat {{sti/til/fil}} | grep --invert-match "{{søgemønster}}"`
