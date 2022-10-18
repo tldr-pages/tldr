@@ -5,7 +5,7 @@
 
 - Print the content of the first member in a `.zip` or `.gz` archive:
 
-`funzip {{path/to/archive[.zip|.gz]}}`
+`funzip {{path/to/archive}}`
 
 - Decrypt the archive and print the content:
 
