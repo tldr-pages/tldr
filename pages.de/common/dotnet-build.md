@@ -29,4 +29,4 @@
 
 - Kompiliert in ein spezifischen Ordner:
 
-`dotnet build --output {{Pfad/zum/Verzeichnis}}`
+`dotnet build --output {{pfad/zu/verzeichnis}}`
