@@ -1,6 +1,6 @@
 # qm guest passwd
 
-> Sets the password for the given user on QEMU/KVM Virtual Machine Manager.
+> Set the password for a specific user on QEMU/KVM Virtual Machine Manager.
 > More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
 - Set the password for a specific user in a virtual machine:
