@@ -1,4 +1,3 @@
-
 # qm pending
 
 > Get the virtual machine configuration with both current and pending values.
