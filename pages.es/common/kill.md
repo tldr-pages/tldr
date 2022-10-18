@@ -28,7 +28,7 @@
 
 `kill -{{9|KILL}} {{id_del_proceso}}`
 
-- Señal del sistema que pausa un programa hasta que la señal SIGCONT ("continue"/"continuar") se reciva:
+- Señala al sistema operativo para pausar un programa hasta que la señal SIGCONT ("continuar") es recibida:
 
 `kill -{{17|STOP}} {{process_id}}`
 
