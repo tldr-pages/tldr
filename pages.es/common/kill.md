@@ -30,7 +30,7 @@
 
 - Señala al sistema operativo para pausar un programa hasta que la señal SIGCONT ("continuar") es recibida:
 
-`kill -{{17|STOP}} {{process_id}}`
+`kill -{{17|STOP}} {{id_del_proceso}}`
 
 - Envia una señal SIGUSR1 a todos los procesos a los que tengan asignado un GID (group id/id de grupo):
 
