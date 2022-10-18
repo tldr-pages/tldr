@@ -1,6 +1,6 @@
 # funzip
 
-> Print the content of the first (non-directory) member in a zip/gz archive without extraction.
+> Print the content of the first (non-directory) member in an archive without extraction.
 > More information: <https://manned.org/funzip>.
 
 - Print the content of the first member in a `.zip` or `.gz` archive:
