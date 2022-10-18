@@ -4,6 +4,7 @@
 > More information: <https://cockpit-project.org/guide/latest/cockpit-ws.8.html>.
 
 - Set custom ip address and port:
+
 `cockpit-ws --address {{10.10.0.154}} --port {{8080}}`
 
 - Show command help:
