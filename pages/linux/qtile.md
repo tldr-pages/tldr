@@ -17,7 +17,7 @@
 
 - Open the program `xterm` as a floating window on the group named `test-group`:
 
-`qtile run-cmd -g {{test-group}} -f {{xterm}}`
+`qtile run-cmd --group {{test-group}} --float {{xterm}}`
 
 - Restart the window manager:
 
