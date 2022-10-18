@@ -4,6 +4,7 @@
 > More information: <https://cockpit-project.org/guide/latest/cockpit-bridge.1.html>.
 
 - List all cockpit packages:
+
 `cockpit-bridge --packages`
 
 - Show command help:
