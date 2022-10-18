@@ -15,7 +15,7 @@
 
 `port installed`
 
-- Actualiza el puerto y obtiene la última lista de paquetes disponibles:
+- Actualiza port y trae la última lista de paquetes disponibles:
 
 `sudo port selfupdate`
 
