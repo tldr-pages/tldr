@@ -7,6 +7,6 @@
 
 `cockpit-tls --port {{443}}`
 
-- Show command help:
+- Display help:
 
 `cockpit-tls --help`
