@@ -15,7 +15,7 @@
 
 `dotnet build --configuration {{Release}}`
 
-- Kompiliert ohne die Abhängigkeiten wiederherzustellen:
+- Kompiliere ohne die Abhängigkeiten wiederherzustellen:
 
 `dotnet build --no-restore`
 
