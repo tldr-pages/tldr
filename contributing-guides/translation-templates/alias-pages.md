@@ -192,7 +192,7 @@ Not translated yet.
 ```markdown
 # example
 
-> このコマンドは `example` のエイリアスです.
+> このコマンドは `example` のエイリアスです。
 
 - オリジナルのコマンドのドキュメントを表示する:
 
