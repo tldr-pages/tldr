@@ -1,9 +1,9 @@
 # cockpit-ws
 
-> Communicate between the browser application and various configuration tools and services like cockpit-bridge.
+> Communicate between the browser application and various configuration tools and services like `cockpit-bridge`.
 > More information: <https://cockpit-project.org/guide/latest/cockpit-ws.8.html>.
 
-- Check which certificate cockpit-ws will use:
+- Check which certificate `cockpit-ws` will use:
 
 `sudo remotectl certificate`
 
