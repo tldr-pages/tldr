@@ -10,4 +10,3 @@
 - Anzeigen möglicher Updates:
 
 `snap --nosplash --nogui --modules --list --refresh`
-
