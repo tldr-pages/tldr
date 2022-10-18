@@ -21,4 +21,4 @@
 
 - Restart the window manager:
 
-`qtile cmd-obj -o cmd -f restart`
+`qtile cmd-obj --object cmd --function restart`
