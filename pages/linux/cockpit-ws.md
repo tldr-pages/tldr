@@ -23,5 +23,7 @@
 
 `cockpit-ws --address ADDRESS`
 
+- Don't use TLS:
+
 `cockpit-ws --no-tls`
-- Don't use TLS.
+
