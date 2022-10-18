@@ -7,6 +7,10 @@
 
 `brew install {{formula}}`
 
+- Install the latest stable version of a cask (when a GUI and CLI version both exist for a given application):
+
+`brew install --cask {{cask}}`
+
 - List all installed formulae and casks:
 
 `brew list`
@@ -20,10 +24,6 @@
 `brew update`
 
 - Show formulae and casks that have a more recent version available:
-
-`brew outdated`
-
-- Search for available formulae (i.e. packages) and casks (i.e. native packages):
 
 `brew search {{text}}`
 
