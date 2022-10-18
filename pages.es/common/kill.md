@@ -4,7 +4,7 @@
 > kill envia una señal para terminar uno o un grupo de procesos.
 > Más información: <https://manned.org/kill>.
 
-- Mata un proceso o grupo de procesos.
+- Termina un programa usando la señal SIGTERM (terminar) por defecto:
 
 `kill signal PID`
 
