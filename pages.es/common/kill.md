@@ -14,7 +14,7 @@
 
 - Terminar un trabajo en segundo plano:
 
-`kill %{{job_id}}`
+`kill %{{id_de_tarea}}`
 
 - Termina un programa con  SIGHUP (hang up/colgar). Varios daemons se reiniciaran en lugar de terminar:
 
