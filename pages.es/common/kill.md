@@ -26,7 +26,7 @@
 
 - Señal del sistema que termina de inmediato un programa (Sin oportunidad de captar la señal):
 
-`kill -{{9|KILL}} {{process_id}}`
+`kill -{{9|KILL}} {{id_del_proceso}}`
 
 - Señal del sistema que pausa un programa hasta que la señal SIGCONT ("continue"/"continuar") se reciva:
 
