@@ -11,7 +11,7 @@
 
 `dotnet build {{pfad/zu/projekt_oder_projektmappendatei}}`
 
-- Kompiliert im Release-Modus:
+- Kompiliere im Release-Modus:
 
 `dotnet build --configuration {{Release}}`
 
