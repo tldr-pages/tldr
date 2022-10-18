@@ -12,7 +12,7 @@
 
 `asdf plugin add {{name}}`
 
-- Liste alle verfügbaren Versionen für ein Paket:
+- Liste alle verfügbaren Versionen für ein Paket auf:
 
 `asdf list all {{name}}`
 
