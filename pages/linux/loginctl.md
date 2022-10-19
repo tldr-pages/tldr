@@ -19,6 +19,6 @@
 
 `loginctl show-user {{userName}} --property={{propertyName}}`
 
-- Execute `loginctl` operation remotely:
+- Execute a `loginctl` operation on a remote host:
 
 `loginctl list-users -H {{hostName}}`
