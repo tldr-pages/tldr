@@ -3,7 +3,7 @@
 > Gestion des partitions dans un système de fichiers BTRFS.
 > Plus d'information : <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-device>.
 
-- Ajouter un ou plusieurs devices à un système de fichier BTRFS :
+- Ajouter un ou plusieurs périphériques à un système de fichiers btrfs :
 
 `sudo btrfs device add {{chemin/vers/block_device1}} [{{chemin/vers/block_device2}}] {{chemin/vers/systeme_de_fichier_btrfs}}`
 
