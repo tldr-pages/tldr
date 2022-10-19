@@ -17,3 +17,8 @@
 - To confirm your account deletion request:
 
 `Delete me aofrkq`
+
+-To send an Amazon Chime chat message using markdown syntax:
+
+`/md **Hello world!**`
+
