@@ -13,7 +13,7 @@
 
 - Afficher les statistiques d'erreurs :
 
-`sudo btrfs device stats {{chemin/vers/btrfs_filesystem}}`
+`sudo btrfs device stats {{chemin/vers/systeme_de_fichiers_btrfs}}`
 
 - Scanner tout les disques et informer le noyaux de tout les sytèmes de fichiers BTRFS détectés :
 
