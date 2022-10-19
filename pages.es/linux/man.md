@@ -21,7 +21,7 @@
 
 - Muestra la ubicación de la página del manual en lugar de la propia página:
 
-`man --where {{command}}`
+`man --where {{comando}}`
 
 - Muestra la página del manual usando una ubicación específica:
 
