@@ -11,14 +11,14 @@
 
 `sudo btrfs device remove {{chemin/vers/peripherique|identifiant_peripherique}} [{{...}}]`
 
-- Afficher les statistiques d'erreurs :
+- Afficher les statistiques d'erreurs :
 
 `sudo btrfs device stats {{chemin/vers/systeme_de_fichiers_btrfs}}`
 
-- Scanner tout les disques et informer le noyaux de tout les sytèmes de fichiers BTRFS détectés :
+- Scanner tous les disques et informer le noyau de tous les sytèmes de fichiers btrfs détectés :
 
 `sudo btrfs device scan --all-devices`
 
-- Affichier les statistiques détaillées d'allocation par disque :
+- Afficher les statistiques détaillées d'allocation par disque :
 
-`sudo btrfs device usage {{chemin/vers/systeme_de_fichier_btrfs}}`
+`sudo btrfs device usage {{chemin/vers/systeme_de_fichiers_btrfs}}`
