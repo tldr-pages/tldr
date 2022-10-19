@@ -1,7 +1,6 @@
-
 # chime
 
-> The Amazon Chime SDK is a set of real-time communications components that developers can use to quickly add messaging, audio, video, and screen sharing capabilities.
+> The Amazon Chime SDK is a set of real-time communications components that developers can use to quickly add messaging, audio, video, and screen sharing.
 > More information: <https://aws.amazon.com/chime/>.
 
 - To Install directly from the npm:
