@@ -3,7 +3,7 @@
 > Diskforbrugsanalyse i ncurses interface.
 > Mere information: <https://manned.org/ncdu>.
 
-- Analysér den nuværende arbejds-mappe:
+- Analysér den nuværende arbejdsmappe:
 
 `ncdu`
 
