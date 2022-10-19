@@ -3,22 +3,22 @@
 > Tenter de récupérer des fichiers depuis un système de fichiers BTRFS endommagé.
 > Plus d'information: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-restore>.
 
-- Restaurer tout les fichiers depuis un système de fichier BTRFS vers un répertoire cible indiqué :
+- Restaurer tout les fichiers depuis un système de fichier btrfs vers un répertoire cible indiqué :
 
-`sudo btrfs restore {{chemin/du/device/btrfs}} {{chemin/du/repertoire}}`
+`sudo btrfs restore {{chemin/vers/peripherique_btrfs}} {{chemin/vers/repertoire}}`
 
-- Lister (sans écriture) les fichiers qui peuvent être récupérés depuis un système de fichiers BTRFS :
+- Lister (sans écriture) les fichiers qui peuvent être récupérés depuis un système de fichiers btrfs :
 
 `sudo btrfs restore --dry-run {{chemin/du/device/btrfs}} {{chemin/du/repertoire}}`
 
-- Restaurer les fichiers correspondant à une regex donnée (non sensible à la casse) à restaurer depuis un système de fichiers BTRFS (tout les répertoires parents des fichiers doivent correspondre à la regex également) :
+- Restaurer les fichiers correspondant à une expression régulière donnée (non sensible à la casse) à restaurer depuis un système de fichiers btrfs (tous les répertoires parents des fichiers doivent correspondre également à l'expression régulière) :
 
-`sudo btrfs restore --path-regex {{regex}} -c {{chemin/du/device/btrfs}} {{chemin/du/repertoire}}`
+`sudo btrfs restore --path-regex {{expression_reguliere}} -c {{chemin/vers/peripherique_btrfs}} {{chemin/vers/repertoire}}`
 
-- Restaurer les fichiers depuis un système de fichiers BTRFS en utilisant un arbre racine spécifique `bytenr` (voir `btrfs-find-root`) :
+- Restaurer les fichiers depuis un système de fichiers btrfs en utilisant un arbre racine spécifique `bytenr` (voir `btrfs-find-root`) :
 
-`sudo btrfs restore -t {{bytenr}} {{chemin/du/device/btrfs}} {{chemin/du/repertoire}}`
+`sudo btrfs restore -t {{bytenr}} {{chemin/vers/peripherique_btrfs}} {{chemin/vers/repertoire}}`
 
-- Restaurer les fichiers depuis un système de fichiers BTRFS (avec métadata, attributs étendus, et liens symboliques), en écrivant par dessus les fichiers déjà existant dans le répertoire cible:
+- Restaurer les fichiers depuis un système de fichiers btrfs (avec métadonnées, attributs étendus, et liens symboliques) en écrivant par dessus les fichiers déjà existants dans le répertoire cible :
 
-`sudo btrfs restore --metadata --xattr --symlinks --overwrite {{chemin/du/device/btrfs}} {{chemin/du/repertoire}}`
+`sudo btrfs restore --metadata --xattr --symlinks --overwrite {{chemin/vers/peripherique_btrfs}} {{chemin/vers/repertoire}}`
