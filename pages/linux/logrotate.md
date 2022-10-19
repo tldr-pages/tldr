@@ -15,7 +15,7 @@
 
 `logrotate {{path/to/logrotate.conf}} --state /dev/null`
 
-- Skip lock file check:
+- Run skipping lock file check:
 
 `logrotate {{path/to/logrotate.conf}} --skip-state-lock`
 
