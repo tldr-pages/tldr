@@ -7,7 +7,7 @@
 
 `loginctl list-sessions`
 
-- Print all the properties of a specific session:
+- Print all properties of a specific session:
 
 `loginctl show-session {{sessionId}} --all`
 
