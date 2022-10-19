@@ -12,6 +12,6 @@
 
 `popd +N`
 
-Fjern den N'te mappe (starter fra 0 fra højre fra i liste `dirs` printer):
+- Fjern den N'te mappe (starter fra 0 fra højre fra i liste `dirs` printer):
 
 `popd -N`
