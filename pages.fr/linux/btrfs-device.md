@@ -5,7 +5,7 @@
 
 - Ajouter un ou plusieurs périphériques à un système de fichiers btrfs :
 
-`sudo btrfs device add {{chemin/vers/block_device1}} [{{chemin/vers/block_device2}}] {{chemin/vers/systeme_de_fichier_btrfs}}`
+`sudo btrfs device add {{chemin/vers/block_device1}} [{{chemin/vers/block_device2}}] {{chemin/vers/systeme_de_fichiers_btrfs}}`
 
 - Retirer un périphérique d'un système de fichiers btrfs :
 
