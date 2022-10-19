@@ -3,7 +3,7 @@
 > Da formato y muestra páginas del manual.
 > Más información: <https://www.man7.org/linux/man-pages/man1/man.1.html>.
 
-- Mostrar la página del manual para un comando:
+- Muestra la página del manual para un comando:
 
 `man {{command}}`
 
