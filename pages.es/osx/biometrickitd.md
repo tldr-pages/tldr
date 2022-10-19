@@ -1,7 +1,7 @@
 # biometrickitd
 
 > Proporciona soporte para operaciones biométricas.
-> No debe invocarse manualmente.
+> No debe ser invocado manualmente.
 > Más información: <https://www.manpagez.com/man/8/biometrickitd/>.
 
 - Inicia el daemon:
