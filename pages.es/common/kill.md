@@ -6,25 +6,25 @@
 
 - Termina un programa usando la señal SIGTERM (terminar) por defecto:
 
-`kill signal PID`
+`kill {{id_del_proceso}}`
 
 - Lista de las señales disponibles (para ser utilizadas sin el prefijo SIG):
 
 `kill -l`
 
-- Terminar un trabajo en segundo plano:
+- Termina una tarea en segundo plano:
 
 `kill %{{id_de_tarea}}`
 
-- Termina un programa con  SIGHUP (hang up/colgar). Varios daemons se reiniciaran en lugar de terminar:
+- Termina un programa usando la señal SIGHUP (hang up/colgar). Muchos programas residentes se recargarán en lugar de terminar:
 
-`kill -{{1|HUP}} {{process_id}}`
+`kill -{{1|HUP}} {{id_del_proceso}}`
 
-- Terminar un programa mediante SIGINT (interrupt/interrumpir). Esto normalmente lo hace el usuario presionando Ctrl + C:
+- Termina un programa usando la señal SIGINT (interrumpir). Esto es normalmente iniciado por el usuario presionando `Ctrl + C`:
 
-`kill -{{2|INT}} {{process_id}}`
+`kill -{{2|INT}} {{id_del_proceso}}`
 
-- Señal del sistema que termina de inmediato un programa (Sin oportunidad de captar la señal):
+- Señala al sistema operativo para terminar inmediatamente un programa (el cual no tiene oportunidad de capturar la señal):
 
 `kill -{{9|KILL}} {{id_del_proceso}}`
 
