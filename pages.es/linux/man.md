@@ -5,7 +5,7 @@
 
 - Muestra la página del manual para un comando:
 
-`man {{command}}`
+`man {{comando}}`
 
 - Mostrar la página del manual para un comando de la sección 7:
 
