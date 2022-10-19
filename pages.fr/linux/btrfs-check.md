@@ -23,10 +23,10 @@
 
 `sudo btrfs check --super {{n}} {{chemin/vers/partition}}`
 
-- Reconstruire l'arbre des sommes de contrôle (*checksum tree*) :
+- Reconstruire l'arbre des sommes de contrôle (checksum tree) :
 
 `sudo btrfs check --repair --init-csum-tree {{chemin/vers/partition}}`
 
-- Reconstruire l'arbre des domaines (extent) :
+- Reconstruire l'arbre des domaines (extent tree) :
 
 `sudo btrfs check --repair --init-extent-tree {{chemin/vers/partition}}`
