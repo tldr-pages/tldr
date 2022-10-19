@@ -15,7 +15,7 @@
 
 `sudo btrfs check --progress {{chemin/vers/partition}}`
 
-- Vérifier la somme de contrôle (*checksum*) de chaque bloc de donné (si le système de fichier à été correctement vérifié) :
+- Vérifier la somme de contrôle de chaque bloc de donné (si le système de fichier à été correctement vérifié) :
 
 `sudo btrfs check --check-data-csum {{chemin/vers/partition}}`
 
