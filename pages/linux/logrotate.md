@@ -11,7 +11,7 @@
 
 `logrotate {{path/to/logrotate.conf}} --mail /usr/bin/mutt`
 
-- Run logrotate without lock or state file:
+- Run without using a state (lock) file:
 
 `logrotate {{path/to/logrotate.conf}} --state /dev/null`
 
