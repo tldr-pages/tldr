@@ -7,7 +7,7 @@
 
 `mamba repoquery search {{package_name}}`
 
-- Search for all packages satisfying constraints on this query:
+- Search for all packages satisfying specific constraints:
 
 `mamba repoquery search {{sphinx<5}}`
 
