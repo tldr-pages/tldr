@@ -19,13 +19,9 @@
 
 `code --new-window {{ruta/al/fichero_o_directorio1 ruta/al/fichero_o_directorio2 ...}}`
 
-- Instala una extensión específica:
+- Instala/desinstala una extensión específica:
 
-`code --install-extension {{publisher.extension}}`
-
-- Desinstala una extensión específica:
-
-`code --uninstall-extension {{publisher.extension}}`
+`code {{--install-extension | --uninstall-extension}} {{publisher.extension}}`
 
 - Lista las extensiones instaladas:
 
