@@ -1,7 +1,7 @@
 # enum4linux
 
 > Strumento per ottenere informazioni da Windows e Samba da un sistema remoto.
-> Ulteriori informazioni: <https://labs.portcullis.co.uk/tools/enum4linux/>.
+> Maggiori informazioni: <https://labs.portcullis.co.uk/tools/enum4linux/>.
 
 - Ottieni informazioni utilizzando tutti i metodi disponibili:
 
