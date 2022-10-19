@@ -3,7 +3,7 @@
 > Vérifier l'état, ou réparer un système de fichier de type BTRFS.
 > Plus d'informations : <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-check>.
 
-- Vérifier l'état d'un système de fichier btrfs :
+- Vérifier l'état d'un système de fichier btrfs :
 
 `sudo btrfs check {{chemin/vers/partition}}`
 
