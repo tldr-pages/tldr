@@ -1,7 +1,7 @@
 # dnsenum
 
 > Multithreaded perl script used to enumerate DNS information from a domain.
-> More Information: <https://github.com/SparrowOchon/dnsenum2>.
+> More information: <https://github.com/SparrowOchon/dnsenum2>.
 
 - Enumerate a domain with default settings:
 
