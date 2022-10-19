@@ -3,7 +3,7 @@
 > LOLCODE interpreter written in C.
 > More information: <https://github.com/justinmeza/lci>.
 
-- Execute a file written in LOLCODE:
+- Run a LOLCODE file:
 
 `lci {{path/to/file}}`
 
