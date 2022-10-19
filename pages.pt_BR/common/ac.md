@@ -15,6 +15,6 @@
 
 `ac -p {{nome_do_usuario}}`
 
-- Imprimir a quantidade de tempo que um usuário específico está conectado em horas por dia (com total):
+- Imprime a quantidade de tempo que um usuário específico está conectado em horas por dia (com total):
 
 `ac -dp {{nome_do_usuario}}`
