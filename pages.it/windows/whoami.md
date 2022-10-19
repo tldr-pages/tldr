@@ -1,7 +1,7 @@
 # whoami
 
 > Mostra informazioni riguardo all'utente utilizzato.
-> Ulteriori informazioni: <https://learn.microsoft.com/it-it/windows-server/administration/windows-commands/whoami>.
+> Maggiori informazioni: <https://learn.microsoft.com/it-it/windows-server/administration/windows-commands/whoami>.
 
 - Mostra il nome dell'utente utilizzato:
 
