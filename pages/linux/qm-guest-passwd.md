@@ -7,6 +7,6 @@
 
 `qm guest passwd {{vm_id}} {{username}}`
 
-- Specify if the password has already been encrypted using crypt():
+- Set an already hashed password for a specific user in a virtual machine interactively:
 
 `qm guest passwd {{vm_id}} {{username}} --crypted 1`
