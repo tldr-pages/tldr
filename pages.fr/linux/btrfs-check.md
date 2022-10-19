@@ -27,6 +27,6 @@
 
 `sudo btrfs check --repair --init-csum-tree {{chemin/vers/partition}}`
 
-- Reconstruire l'arbre des domaines (*extent*) :
+- Reconstruire l'arbre des domaines (extent) :
 
 `sudo btrfs check --repair --init-extent-tree {{chemin/vers/partition}}`
