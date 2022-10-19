@@ -7,6 +7,6 @@
 
 `qm status {{vm_id}}`
 
-- Show verbose output format:
+- Show verbose output of a specific virtual machine:
 
 `qm status --verbose {{true}} {{vm_id}}`
