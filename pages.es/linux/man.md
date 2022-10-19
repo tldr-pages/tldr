@@ -9,7 +9,7 @@
 
 - Mostrar la página del manual para un comando de la sección 7:
 
-`man {{7}} {{command}}`
+`man {{7}} {{comando}}`
 
 - Listar todas las secciones disponibles para un comando:
 
