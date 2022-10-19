@@ -30,3 +30,7 @@
 - Udfør flere find-og-erstat udtryk i en fil:
 
 `sed -e 's/{{find}}/{{erstat}}/' -e 's/{{find}}/{{erstat}}/' {{filnavn}}`
+
+- Erstat separator `/` med en hvilken som helst anden karakter ikke brugt i find- eller erstat-mønstrene, f.eks. `#`:
+
+`sed 's#{{find}}#{{erstat}}#' {{filnavn}}`
