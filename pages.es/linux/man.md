@@ -25,7 +25,7 @@
 
 - Muestra la página del manual usando una ubicación específica:
 
-`man --locale={{locale}} {{command}}`
+`man --locale={{locale}} {{comando}}`
 
 - Busca las páginas del manual que contienen la string indicada:
 
