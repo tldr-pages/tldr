@@ -2,7 +2,7 @@
 
 > Verwalten der der Azure CLI-Konfiguration.
 > Teil der `Azure CLI`, der Befehlszeilenschnittstelle von Azure.
-> Mehr Informationen: <https://learn.microsoft.com/cli/azure/config>.
+> Weitere Informationen: <https://learn.microsoft.com/cli/azure/config>.
 
 - Rufen Sie alle Konfigurationen ab:
 
