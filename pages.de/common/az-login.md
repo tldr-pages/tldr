@@ -2,7 +2,7 @@
 
 > Melden Sie sich bei Azure an.
 > Teil von `az`, der Befehlszeilenschnittstelle von Azure.
-> Mehr Informationen: <https://learn.microsoft.com/cli/azure/reference-index#az_login>.
+> Weitere Informationen: <https://learn.microsoft.com/cli/azure/reference-index#az_login>.
 
 - Melden Sie sich interaktiv an:
 
