@@ -1,0 +1,24 @@
+# deno
+
+> Un entorno de ejecución seguro para Javascript y Typescript.
+> Más información: <https://deno.land/>.
+
+- Ejecuta un fichero de JavaScript o TypeScript:
+
+`deno run {{ruta/al/fichero}}`
+
+- Ejecuta un REPL (consola interactiva):
+
+`deno`
+
+- Ejecuta un fichero con acceso a la red habilitado:
+
+`deno run --allow-net {{ruta/al/fichero}}`
+
+- Ejecuta un fichero desde una URL:
+
+`deno run {{https://deno.land/std/examples/welcome.ts}}`
+
+- Instala un fichero ejecutable desde una URL:
+
+`deno install {{https://deno.land/std/examples/colors.ts}}`
