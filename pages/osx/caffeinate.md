@@ -15,6 +15,6 @@
 
 `caffeinate -i`
 
-- Prevent disk from sleeping until you type Ctrl-C:
+- Prevent disk from sleeping (use `Ctrl + C` to exit):
 
 `caffeinate -m`
