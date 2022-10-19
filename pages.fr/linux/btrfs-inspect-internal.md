@@ -23,6 +23,6 @@
 
 `sudo btrfs inspect-internal logical-resolve {{addresse_logique}} {{chemin/vers/le/point/de/montage/btrfs}}`
 
-- Afficher les statistiques concernant les arbres de racines, de domaines (*extent*), de checksum (*csum*) et de système de fichier :
+- Afficher les statistiques concernant les arbres de racines, de domaines (extent), de checksum (csum) et de système de fichier :
 
 `sudo btrfs inspect-internal tree-stats {{chemin/vers/la/partition}}`
