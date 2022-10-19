@@ -10,4 +10,4 @@
 
 - Capture packets and display information about a wireless given the mac address and channel, and save the output to a file:
 
-`sudo airodump-ng --channel {{channel}} --write {{filename}} --bssid {{mac}} {{interface}}`
+`sudo airodump-ng --channel {{channel}} --write {{path/to/file}} --bssid {{mac}} {{interface}}`
