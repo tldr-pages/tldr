@@ -2,7 +2,7 @@
 
 > Melden Sie sich ab, um den Zugriff auf Azure-Abonnements zu entfernen.
 > Teil der `Azure CLI`, der Befehlszeilenschnittstelle von Azure.
-> Mehr Informationen: <https://learn.microsoft.com/cli/azure/reference-index#az_logout>.
+> Weitere Informationen: <https://learn.microsoft.com/cli/azure/reference-index#az_logout>.
 
 - Melden Sie das aktuelle aktive Konto ab:
 
