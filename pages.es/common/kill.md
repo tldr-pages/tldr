@@ -8,7 +8,7 @@
 
 `kill {{id_del_proceso}}`
 
-- Lista de las señales disponibles (para ser utilizadas sin el prefijo SIG):
+- Lista todas las señales disponibles (para ser utilizadas sin el prefijo `SIG`):
 
 `kill -l`
 
