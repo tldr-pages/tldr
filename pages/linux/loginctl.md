@@ -11,7 +11,7 @@
 
 `loginctl show-session {{sessionId}} --all`
 
-- Print the user details:
+- Print the details of a specific user:
 
 `loginctl show-user {{userName}}`
 
