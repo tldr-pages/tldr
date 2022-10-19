@@ -29,4 +29,4 @@
 
 - Busca las páginas del manual que contienen la string indicada:
 
-`man --apropos "{{search_string}}"`
+`man --apropos "{{cadena_a_buscar}}"`
