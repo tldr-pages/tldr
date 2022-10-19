@@ -3,7 +3,7 @@
 > Manage the systemd login manager.
 > More information: <https://manned.org/loginctl>.
 
-- Print the current sessions:
+- Print all current sessions:
 
 `loginctl list-sessions`
 
