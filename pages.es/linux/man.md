@@ -13,7 +13,7 @@
 
 - Listar todas las secciones disponibles para un comando:
 
-`man --whatis {{command}}`
+`man --whatis {{comando}}`
 
 - Muestra las rutas usadas para la búsqueda de las páginas:
 
