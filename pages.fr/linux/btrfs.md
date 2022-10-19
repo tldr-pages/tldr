@@ -6,7 +6,7 @@
 
 - Créer un sous-volume :
 
-`sudo btrfs subvolume create {{chemin/vers/sousvolume}}`
+`sudo btrfs subvolume create {{chemin/vers/sous_volume}}`
 
 - Lister les sous-volumes :
 
