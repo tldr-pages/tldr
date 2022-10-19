@@ -22,4 +22,4 @@
 
 - Afficher les quotas :
 
-`sudo btrfs qgroup show {{chemin/vers/sousvolume}}`
+`sudo btrfs qgroup show {{chemin/vers/sous_volume}}`
