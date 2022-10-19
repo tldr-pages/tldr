@@ -14,3 +14,7 @@
 - Prevent from sleeping until you type Ctrl-C:
 
 `caffeinate -i`
+
+- Prevent disk from sleeping until you type Ctrl-C:
+
+`caffeinate -m`
