@@ -18,7 +18,7 @@
 
 `Delete me aofrkq`
 
--To send an Amazon Chime chat message using markdown syntax:
+- To send an Amazon Chime chat message using markdown syntax:
 
 `/md **Hello world!**`
 
