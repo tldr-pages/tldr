@@ -16,7 +16,7 @@
 
 `cargo install --list`
 
-- Crea un nuevo binario o librería en el directorio actual:
+- Crea un nuevo proyecto Rust binario o biblioteca en el directorio actual:
 
 `cargo init --{{bin|lib}}`
 
