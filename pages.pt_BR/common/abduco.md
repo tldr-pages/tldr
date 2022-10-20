@@ -3,17 +3,17 @@
 > Gerenciador de sessão no terminal.
 > Mais informações: <http://www.brain-dump.org/projects/abduco/>.
 
-- Lista sessoes:
+- Lista sessões:
 
 `abduco`
 
 - Anexa à uma sessão, criando-a se não existir:
 
-`abduco -A {{name}} {{bash}}`
+`abduco -A {{nome}} {{bash}}`
 
 - Anexa à uma sessão com `dvtm`, criando-a se não existir:
 
-`abduco -A {{name}}`
+`abduco -A {{nome}}`
 
 - Desanexa de uma sessão:
 
@@ -21,4 +21,4 @@
 
 - Anexa à uma sessão no modo read-only (somente leitura):
 
-`abduco -Ar {{name}}`
+`abduco -Ar {{nome}}`
