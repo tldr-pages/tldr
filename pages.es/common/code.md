@@ -11,7 +11,7 @@
 
 `code {{ruta/al/archivo_o_directorio1 ruta/al/archivo_o_directorio2 ...}}`
 
-- Compara dos ficheros específicos:
+- Compara dos archivos específicos:
 
 `code --diff {{ruta/al/fichero1}} {{ruta/al/fichero2}}`
 
