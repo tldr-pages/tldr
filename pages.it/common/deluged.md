@@ -13,8 +13,8 @@
 
 - Avvia il demone di Deluge utilizzando uno specifico file di configurazione:
 
-`deluged -c {{percorso/a/file_configurazione}}`
+`deluged -c {{percorso/del/file_configurazione}}`
 
 - Avvia il demone di Deluge e scrivi il log in un file:
 
-`deluged -l {{percorso/a/file_log}}`
+`deluged -l {{percorso/del/file_log}}`
