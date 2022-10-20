@@ -24,6 +24,6 @@
 
 `xcowsay --think`
 
-- 用不同的照片来代替默认的牛：
+- 用指定的照片来代替默认的牛：
 
 `xcowsay --image={{path/to/file}}`
