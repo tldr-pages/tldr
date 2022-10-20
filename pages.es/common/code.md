@@ -9,7 +9,7 @@
 
 - Abre archivos o directorios específicos:
 
-`code {{ruta/al/fichero_o_directorio1 ruta/al/fichero_o_directorio2 ...}}`
+`code {{ruta/al/archivo_o_directorio1 ruta/al/archivo_o_directorio2 ...}}`
 
 - Compara dos ficheros específicos:
 
