@@ -17,7 +17,7 @@
 
 - Abre archivos o directorios específicos en una nueva ventana:
 
-`code --new-window {{ruta/al/fichero_o_directorio1 ruta/al/fichero_o_directorio2 ...}}`
+`code --new-window {{ruta/al/archivo_o_directorio1 ruta/al/archivo_o_directorio2 ...}}`
 
 - Instala/desinstala una extensión específica:
 
