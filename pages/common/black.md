@@ -11,15 +11,15 @@
 
 `black -c "{{code}}"`
 
-- Output the changes that would be applied for each file:
-
-`black --diff {{path/to/file_or_directory}}`
-
-- Perform a dry run (print what would be done without actually doing it):
+- Output whether a file or a directory would have changes made to them if they were to be formatted:
 
 `black --check {{path/to/file_or_directory}}`
 
-- Auto-format a file or directory emitting exclusively error messages to stderr:
+- Output any changes that would be made to a file or a directory if they were to be formatted:
+
+`black --diff {{path/to/file_or_directory}}`
+
+- Auto-format a file or directory, emitting exclusively error messages to stderr:
 
 `black --quiet {{path/to/file_or_directory}}`
 
