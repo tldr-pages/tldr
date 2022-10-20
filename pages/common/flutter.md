@@ -7,10 +7,6 @@
 
 `flutter create {{project_name}}`
 
-- Display help about a specific command:
-
-`flutter help {{command}}`
-
 - Check if all external tools are correctly installed:
 
 `flutter doctor`
@@ -34,3 +30,8 @@
 - Build a release APK targeting most modern smartphones:
 
 `flutter build apk --target-platform {{android-arm}},{{android-arm64}}`
+
+- Display help about a specific command:
+
+`flutter help {{command}}`
+
