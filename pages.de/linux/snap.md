@@ -7,6 +7,6 @@
 
 `snap --help`
 
-- Anzeigen möglicher Updates:
+- Zeige alle Updates an:
 
 `snap --nosplash --nogui --modules --list --refresh`
