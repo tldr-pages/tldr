@@ -1,7 +1,7 @@
 # deno
 
 > A secure runtime for JavaScript and TypeScript.
-> More information: <https://deno.land/>.
+> More information: <https://deno.land>.
 
 - Run a JavaScript or TypeScript file:
 
