@@ -27,7 +27,7 @@
 
 `code --list-extensions`
 
-- Lista las extensiones instaladas y su versión:
+- Imprime las extensiones instaladas con su versión:
 
 `code --list-extensions --show-versions`
 
