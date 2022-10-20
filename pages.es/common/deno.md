@@ -13,7 +13,7 @@
 
 - Ejecuta un archivo con acceso a la red habilitado:
 
-`deno run --allow-net {{ruta/al/fichero}}`
+`deno run --allow-net {{ruta/al/archivo}}`
 
 - Ejecuta un fichero desde una URL:
 
