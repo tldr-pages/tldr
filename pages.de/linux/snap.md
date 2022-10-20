@@ -3,7 +3,7 @@
 > SNAP (Sentinel Application Platform) für die Prozessierung von Satellitendaten der Europäischen Raumfahrtagentur (ESA).
 > Weitere Informationen: <http://step.esa.int/main/download/snap-download/>.
 
-- Anzeigen aller Parameter:
+- Zeige Hilfe an:
 
 `snap --help`
 
