@@ -15,7 +15,7 @@
 
 `code --diff {{ruta/al/archivo1}} {{ruta/al/archivo2}}`
 
-- Abre ficheros o directorios específicos en una nueva ventana:
+- Abre archivos o directorios específicos en una nueva ventana:
 
 `code --new-window {{ruta/al/fichero_o_directorio1 ruta/al/fichero_o_directorio2 ...}}`
 
