@@ -7,7 +7,7 @@
 
 `security list-keychains`
 
-- Usuń zadany pęk kluczy
+- Usuń zadany pęk kluczy:
 
 `security delete-keychain {{ścieżka/do/pliku.keychain}}`
 

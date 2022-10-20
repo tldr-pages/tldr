@@ -28,7 +28,7 @@
 
 `pacman -Qe`
 
-- Zeige verwaiste Pakete an, welche als Abhängigkeiten installiert wurden, aber nicht mehr von anderen Paketen benötigt werden.
+- Zeige verwaiste Pakete an, welche als Abhängigkeiten installiert wurden, aber nicht mehr von anderen Paketen benötigt werden:
 
 `pacman -Qtdq`
 

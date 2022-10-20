@@ -3,7 +3,7 @@
 > Zeigt die Commit-Historie an.
 > Weitere Informationen: <https://git-scm.com/docs/git-log>.
 
-- Zeige die Sequenz der Commits des Git-Repository im aktuellen Verzeichnis, beginnend mit dem aktuellen, an.
+- Zeige die Sequenz der Commits des Git-Repository im aktuellen Verzeichnis, beginnend mit dem aktuellen, an:
 
 `git log`
 
