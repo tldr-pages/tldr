@@ -11,7 +11,7 @@
 
 `deno`
 
-- Ejecuta un fichero con acceso a la red habilitado:
+- Ejecuta un archivo con acceso a la red habilitado:
 
 `deno run --allow-net {{ruta/al/fichero}}`
 
