@@ -34,4 +34,3 @@
 - Display help about a specific command:
 
 `flutter help {{command}}`
-
