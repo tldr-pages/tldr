@@ -5,7 +5,7 @@
 
 - Ejecuta un fichero de JavaScript o TypeScript:
 
-`deno run {{ruta/al/fichero}}`
+`deno run {{ruta/al/archivo}}`
 
 - Ejecuta un REPL (consola interactiva):
 
