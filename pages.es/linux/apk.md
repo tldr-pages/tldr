@@ -3,26 +3,26 @@
 > Herramienta de gestión de paquetes de Alpine Linux.
 > Más información: <https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management>.
 
-- Actualizar los índices de repositorio desde todos los repositorios remotos:
+- Actualiza los índices de repositorio desde todos los repositorios remotos:
 
 `apk update`
 
-- Instalar un nuevo paquete:
+- Instala un nuevo paquete:
 
 `apk add {{paquete}}`
 
-- Eliminar un paquete:
+- Remueve un paquete:
 
 `apk del {{paquete}}`
 
-- Reparar paquete o actualizarlo sin modificar dependencias principales:
+- Repara un paquete o lo actualiza sin modificar dependencias principales:
 
 `apk fix {{paquete}}`
 
-- Buscar paquete mediante palabra clave:
+- Busca un paquete usando palabras clave:
 
-`apk search {{palabra clave}}`
+`apk search {{palabras_clave}}`
 
-- Obtener información sobre un paquete en específico:
+- Muestra información sobre un paquete específico:
 
 `apk info {{paquete}}`
