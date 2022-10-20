@@ -3,7 +3,7 @@
 > Editor de código extensible y multiplataforma.
 > Más información: <https://github.com/microsoft/vscode>.
 
-- Ejecuta Visual Studio Code:
+- Inicia Visual Studio Code:
 
 `code`
 
