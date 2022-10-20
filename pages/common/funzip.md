@@ -7,6 +7,6 @@
 
 `funzip {{path/to/archive}}`
 
-- Decrypt a `.gz` archive and print the content:
+- Decrypt a `.zip` or `.gz` archive and print the content:
 
 `funzip -password {{password}} {{path/to/archive}}`
