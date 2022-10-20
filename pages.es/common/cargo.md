@@ -12,7 +12,7 @@
 
 `cargo install {{nombre_del_módulo}}`
 
-- Listar módulos instalados:
+- Lista crates instalados:
 
 `cargo install --list`
 
