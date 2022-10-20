@@ -11,14 +11,14 @@
 
 `aws codecommit help`
 
-- Configure the AWS CLI with a profile 
+- Configure the AWS CLI with a profile:
 
 `aws configure`
 
-- To view a list of all available CodeCommit commands
+- To view a list of all available CodeCommit commands:
 
 `aws codecommit help`
 
-- To view information about a CodeCommit command
+- To view information about a CodeCommit command:
 
 `aws codecommit command-name help`
