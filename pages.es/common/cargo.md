@@ -28,7 +28,7 @@
 
 `cargo build`
 
-- Compila el proyecto de Rust en el directorio actual usando el compilador __nightly__:
+- Compila el proyecto Rust en el directorio actual usando el compilador nightly:
 
 `cargo +nightly build`
 
