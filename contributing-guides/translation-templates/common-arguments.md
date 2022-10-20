@@ -29,7 +29,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | pt_BR | caminho/para/arquivo | caminho/para/diretorio | caminho/para/arquivo_ou_diretorio | pacote    | nome_do_usuario   |
 | pt_PT |                      |                        |                                   |           |                   |
 | ro    |                      |                        |                                   |           |                   |
-| ru    | путь/до/файла        | путь/до/папки          | путь/до/файла_или_папки           |           |                   |
+| ru    | путь/до/файла        | путь/до/папки          | путь/до/файла_или_папки           | пакет     | имя_пользователя  |
 | sh    |                      |                        |                                   |           |                   |
 | sr    |                      |                        |                                   |           |                   |
 | sv    | sökväg/till/fil      | sökväg/till/katalog    | sökväg/till/fil_eller_katalog     | paket     | användarnamn      |

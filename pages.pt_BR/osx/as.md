@@ -12,7 +12,7 @@
 
 `as {{arquivo.s}} -o {{saida.o}}`
 
-- Gerar saída mais rapidamente ignorando espaços em branco e pré-processamento de comentários. (Só deve ser usado para compiladores confiáveis)
+- Gerar saída mais rapidamente ignorando espaços em branco e pré-processamento de comentários. (Só deve ser usado para compiladores confiáveis):
 
 `as -f {{arquivo.s}}`
 

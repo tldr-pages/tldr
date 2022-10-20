@@ -1,6 +1,7 @@
-# brew cask
+# brew --cask
 
-> Package manager for macOS applications distributed as binaries.
+> CLI workflow for the administration of macOS applications distributed as binaries.
+> This command was previously called `brew cask`, it has been deprecated in favor of the `brew --cask` flag.
 > More information: <https://github.com/Homebrew/homebrew-cask>.
 
 - Search for formulas and casks:
@@ -9,7 +10,7 @@
 
 - Install a cask:
 
-`brew cask install {{cask_name}}`
+`brew install --cask {{cask_name}}`
 
 - List all installed casks:
 
@@ -25,12 +26,12 @@
 
 - Uninstall a cask:
 
-`brew cask uninstall {{cask_name}}`
+`brew uninstall --cask {{cask_name}}`
 
 - Uninstall a cask and remove related settings and files:
 
-`brew cask zap {{cask_name}}`
+`brew zap --cask {{cask_name}}`
 
 - Display information about a given cask:
 
-`brew cask info {{cask_name}}`
+`brew info --cask {{cask_name}}`
