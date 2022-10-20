@@ -8,7 +8,7 @@
 
 `cargo search {{texto_de_búsqueda}}`
 
-- Instalar un módulo:
+- Instala un crate:
 
 `cargo install {{nombre_del_módulo}}`
 
