@@ -4,7 +4,7 @@
 > Algunos subcomandos como `cargo build` tienen su propia documentación de uso.
 > Más información: <https://crates.io>.
 
-- Buscar módulos:
+- Busca crates:
 
 `cargo search {{texto_de_búsqueda}}`
 
