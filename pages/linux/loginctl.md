@@ -1,7 +1,7 @@
 # loginctl
 
 > Manage the systemd login manager.
-> More information: <https://manned.org/loginctl>.
+> More information: <https://www.freedesktop.org/software/systemd/man/loginctl.html>.
 
 - Print all current sessions:
 
