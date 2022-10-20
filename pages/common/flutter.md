@@ -3,6 +3,10 @@
 > Google's free, open source, and cross-platform mobile app SDK.
 > More information: <https://github.com/flutter/flutter/wiki/The-flutter-tool>.
 
+- Create a flutter project in current directory:
+
+`flutter create {{project_name}}`
+
 - Display help about a specific command:
 
 `flutter help {{command}}`
