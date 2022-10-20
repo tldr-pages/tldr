@@ -1,9 +1,9 @@
 # ls
 
-> Elenca i contenuti di una cartella.
+> Elenca i contenuti di una directory.
 > Maggiori informazioni: <https://www.gnu.org/software/coreutils/ls>.
 
-- Elenca i file nella cartella corrente, uno per riga:
+- Elenca i file nella directory corrente, uno per riga:
 
 `ls -1`
 

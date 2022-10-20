@@ -4,11 +4,11 @@
 > Genera Makefile, progetti Visual Studio o altro, in base al sistema operativo.
 > Maggiori informazioni: <https://cmake.org/cmake/help/latest/manual/cmake.1.html>.
 
-- Genera un Makefile ed usalo per compilare un progetto nella stessa cartella dei sorgenti:
+- Genera un Makefile ed usalo per compilare un progetto nella stessa directory dei sorgenti:
 
 `cmake && make`
 
-- Genera un makefile ed usalo per compilare un progetto in una cartella "build" separata (out-of-source build):
+- Genera un makefile ed usalo per compilare un progetto in una directory "build" separata (out-of-source build):
 
 `cmake -H. -B{{build}} && make -C {{build}}`
 

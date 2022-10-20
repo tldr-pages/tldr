@@ -11,6 +11,6 @@
 
 `erl -remsh {{nome_nodo}}@{{hostname}} -sname {{soprannome}} -hidden -setcookie {{cookie_nodo_remoto}}`
 
-- Fai caricare alla shell Erlang dei moduli da una cartella:
+- Fai caricare alla shell Erlang dei moduli da una directory:
 
-`erl -pa {{cartella_con_file_beam}}`
+`erl -pa {{directory_con_file_beam}}`

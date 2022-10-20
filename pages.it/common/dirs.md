@@ -12,7 +12,7 @@
 
 `dirs -p`
 
-- Mostra solo l'ennesima cartella dello stack (gli indici partono da 0):
+- Mostra solo l'ennesima directory dello stack (gli indici partono da 0):
 
 `dirs +{{N}}`
 

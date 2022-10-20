@@ -8,7 +8,7 @@
 
 `echo {{Frase da analizzare}} | alex --stdin`
 
-- Analizza tutti i file nella cartella corrente:
+- Analizza tutti i file nella directory corrente:
 
 `alex`
 

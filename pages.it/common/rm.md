@@ -7,13 +7,13 @@
 
 `rm {{percorso/del/file1 percorso/del/file2 ...}}`
 
-- Rimuovi ricorsivamente una cartella e tutti i suoi contenuti:
+- Rimuovi ricorsivamente una directory e tutti i suoi contenuti:
 
-`rm -r {{percorso/della/cartella}}`
+`rm -r {{percorso/della/directory}}`
 
-- Rimuovi ricorsivamente una cartella, senza chiedere conferma o mostrare messaggi di errore:
+- Rimuovi ricorsivamente una directory, senza chiedere conferma o mostrare messaggi di errore:
 
-`rm -rf {{percorso/della/cartella}}`
+`rm -rf {{percorso/della/directory}}`
 
 - Rimuovi file interattivamente, chiedendo conferma prima di rimuovere ogni file:
 

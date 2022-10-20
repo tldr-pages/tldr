@@ -1,16 +1,16 @@
 # dirname
 
-> Determina la cartella genitore di un determinato file o percorso.
+> Determina la directory genitore di un determinato file o percorso.
 > Maggiori informazioni: <https://www.gnu.org/software/coreutils/dirname>.
 
-- Calcola la cartella genitore di un dato percorso:
+- Calcola la directory genitore di un dato percorso:
 
-`dirname {{percorso/del/file_o_cartella}}`
+`dirname {{percorso/del/file_o_directory}}`
 
-- Calcola la cartella genitore di più percorsi:
+- Calcola la directory genitore di più percorsi:
 
-`dirname {{percorso/del/file_a}} {{percorso/della/cartella_b}}`
+`dirname {{percorso/del/file_a}} {{percorso/della/directory_b}}`
 
 - Delimita l'output con caratteri NUL invece di newline (utile in combinazione con `xargs`):
 
-`dirname --zero {{percorso/della/cartella_a}} {{percorso/del/file_b}}`
+`dirname --zero {{percorso/della/directory_a}} {{percorso/del/file_b}}`

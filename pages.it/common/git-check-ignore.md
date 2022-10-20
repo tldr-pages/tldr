@@ -3,13 +3,13 @@
 > Analizza ed esegui il debug di ".gitignore" e dei file esclusi.
 > Maggiori informazioni: <https://git-scm.com/docs/git-check-ignore>.
 
-- Verifica se un file o una cartella sono ignorati:
+- Verifica se un file o una directory sono ignorati:
 
-`git check-ignore {{percorso/del/file_o_cartella}}`
+`git check-ignore {{percorso/del/file_o_directory}}`
 
 - Verifica se più file o cartelle sono ignorati:
 
-`git check-ignore {{percorso/del/file}} {{percorso/della/cartella}}`
+`git check-ignore {{percorso/del/file}} {{percorso/della/directory}}`
 
 - Leggi i percorsi di file o cartelle da stdin (uno per riga) invece che dalla riga di comando:
 

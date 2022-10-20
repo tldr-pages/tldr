@@ -7,9 +7,9 @@
 
 `chmod u+x {{percorso/del/file}}`
 
-- Dai permessi di lettura (r) e scrittura (w) per un file/cartella al suo proprietario:
+- Dai permessi di lettura (r) e scrittura (w) per un file/directory al suo proprietario:
 
-`chmod u+rw {{percorso/del/file_o_cartella}}`
+`chmod u+rw {{percorso/del/file_o_directory}}`
 
 - Rimuovi i permessi di esecuzione al [g]ruppo proprietario del file:
 
@@ -25,4 +25,4 @@
 
 - Cambia permessi ricorsivamente dando al [g]ruppo e agli altri utenti (o) diritto di scrittura:
 
-`chmod -R g+w,o+w {{percorso/della/cartella}}`
+`chmod -R g+w,o+w {{percorso/della/directory}}`

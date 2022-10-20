@@ -7,9 +7,9 @@
 
 `binwalk {{percorso/del/file}}`
 
-- Estrae file da un binario, specificando la cartella di output:
+- Estrae file da un binario, specificando la directory di output:
 
-`binwalk --extract --cartella {{cartella_di_output}} {{percorso/del/file}}`
+`binwalk --extract --directory {{directory_di_output}} {{percorso/del/file}}`
 
 - Estrae file in maniera ricorsiva a partire da un binario, limitando la profondità di ricorsione a 2 livelli:
 

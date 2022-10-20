@@ -1,9 +1,9 @@
 # tree
 
-> Mostra i contenuti della cartella corrente come un albero.
+> Mostra i contenuti della directory corrente come un albero.
 > Maggiori informazioni: <http://mama.indstate.edu/users/ice/tree/>.
 
-- Stampa file e cartelle fino al 'num'-esimo livello di profondità (dove 1 significa la cartella corrente):
+- Stampa file e cartelle fino al 'num'-esimo livello di profondità (dove 1 significa la directory corrente):
 
 `tree -L {{num}}`
 
@@ -19,7 +19,7 @@
 
 `tree -i -f`
 
-- Stampa la dimensione di ogni file e la dimensione totale di ogni cartella, in formato leggibile dall'utente:
+- Stampa la dimensione di ogni file e la dimensione totale di ogni directory, in formato leggibile dall'utente:
 
 `tree -s -h --du`
 
@@ -33,4 +33,4 @@
 
 - Stampa l'albero ignorando le cartelle date:
 
-`tree -I '{{nome_cartella1|nome_cartella2}}'`
+`tree -I '{{nome_directory1|nome_directory2}}'`

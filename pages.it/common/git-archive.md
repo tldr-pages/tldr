@@ -19,10 +19,10 @@
 
 `git archive --output={{percorso/del/file.tar}} {{nome_ramo}}`
 
-- Crea un archivio tar del contenuto di una specifica cartella:
+- Crea un archivio tar del contenuto di una specifica directory:
 
-`git archive --output={{percorso/del/file.tar}} HEAD:{{percorso/della/cartella}}`
+`git archive --output={{percorso/del/file.tar}} HEAD:{{percorso/della/directory}}`
 
-- Anteponi un percorso ad ogni file cosí da archiviarlo in una cartella specifica:
+- Anteponi un percorso ad ogni file cosí da archiviarlo in una directory specifica:
 
 `git archive --output={{percorso/del/file.tar}} --prefix={{percorso/da/anteporre}}/ HEAD`

@@ -8,11 +8,11 @@
 
 `bower install`
 
-- Installa pacchetti nella cartella bower_components:
+- Installa pacchetti nella directory bower_components:
 
 `bower install {{pacchetto1}} {{pacchetto2}} ...`
 
-- Disinstalla pacchetti localmente rimuovendolo dalla cartella bower_components:
+- Disinstalla pacchetti localmente rimuovendolo dalla directory bower_components:
 
 `bower uninstall {{pacchetto1}} {{pacchetto2}}`
 

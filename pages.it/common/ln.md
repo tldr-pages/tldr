@@ -1,9 +1,9 @@
 # ln
 
-> Crea un collegamento a un file o a una cartella.
+> Crea un collegamento a un file o a una directory.
 > Maggiori informazioni: <https://www.gnu.org/software/coreutils/ln>.
 
-- Crea un collegamento simbolico a un file (o cartella):
+- Crea un collegamento simbolico a un file (o directory):
 
 `ln -s {{/percorso/del/file}} {{percorso/del/collegamento}}`
 

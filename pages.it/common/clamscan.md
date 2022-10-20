@@ -7,19 +7,19 @@
 
 `clamscan {{percorso/del/file}}`
 
-- Analizza ricorsivamente tutti i file in una specifica cartella:
+- Analizza ricorsivamente tutti i file in una specifica directory:
 
-`clamscan -r {{percorso/della/cartella}}`
+`clamscan -r {{percorso/della/directory}}`
 
 - Analizza dati da standard input:
 
 `{{comando}} | clamscan -`
 
-- Specifica un file o cartella di file da usare come database virus:
+- Specifica un file o directory di file da usare come database virus:
 
-`clamscan --database {{percorso/del/file_o_cartella}}`
+`clamscan --database {{percorso/del/file_o_directory}}`
 
-- Analizza la cartella corrente e mostra in output solo i file infetti:
+- Analizza la directory corrente e mostra in output solo i file infetti:
 
 `clamscan --infected`
 
@@ -27,9 +27,9 @@
 
 `clamscan --log {{percorso/del/file_log}}`
 
-- Sposta i file infetti in una specifica cartella:
+- Sposta i file infetti in una specifica directory:
 
-`clamscan --move {{percorso/della/cartella_quarantena}}`
+`clamscan --move {{percorso/della/directory_quarantena}}`
 
 - Elimina i file infetti:
 

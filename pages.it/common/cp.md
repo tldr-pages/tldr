@@ -7,22 +7,22 @@
 
 `cp {{percorso/del/file}} {{percorso/della/copia}}`
 
-- Copia un file in una cartella mantenendo il nome:
+- Copia un file in una directory mantenendo il nome:
 
-`cp {{percorso/del/file}} {{percorso/della/cartella}}`
+`cp {{percorso/del/file}} {{percorso/della/directory}}`
 
-- Copia una cartella ricorsivamente in un'altra posizione:
+- Copia una directory ricorsivamente in un'altra posizione:
 
-`cp -r {{percorso/della/cartella}} {{percorso/della/copia}}`
+`cp -r {{percorso/della/directory}} {{percorso/della/copia}}`
 
-- Copia una cartella ricorsivamente in modo verboso (mostra a schermo ogni file copiato):
+- Copia una directory ricorsivamente in modo verboso (mostra a schermo ogni file copiato):
 
-`cp -vr {{percorso/della/cartella}} {{percorso/della/copia}}`
+`cp -vr {{percorso/della/directory}} {{percorso/della/copia}}`
 
-- Copia i contenuti di una cartella in una seconda cartella:
+- Copia i contenuti di una directory in una seconda directory:
 
-`cp -r {{percorso/della/cartella/*}} {{percorso/della/seconda/cartella}}`
+`cp -r {{percorso/della/directory/*}} {{percorso/della/seconda/directory}}`
 
-- Copia tutti i file di testo in una seconda cartella in modo interattivo (chiede conferma prima di sovrascrivere):
+- Copia tutti i file di testo in una seconda directory in modo interattivo (chiede conferma prima di sovrascrivere):
 
-`cp -i {{*.txt}} {{percorso/della/cartella}}`
+`cp -i {{*.txt}} {{percorso/della/directory}}`

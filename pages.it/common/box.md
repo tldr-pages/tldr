@@ -19,7 +19,7 @@
 
 `box info {{percorso/del/file_phar}}`
 
-- Valida il primo file di configurazione trovato nella cartella corrente:
+- Valida il primo file di configurazione trovato nella directory corrente:
 
 `box validate`
 

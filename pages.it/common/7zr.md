@@ -4,9 +4,9 @@
 > Versione standalone di `7z` che supporta solo file .7z.
 > Maggiori informazioni: <https://www.7-zip.org>.
 
-- Archivia un file o una cartella:
+- Archivia un file o una directory:
 
-`7zr a {{archivio.7z}} {{percorso/del/file_o_cartella}}`
+`7zr a {{archivio.7z}} {{percorso/del/file_o_directory}}`
 
 - Estrai un archivio mantenendo la gerarchia delle cartelle:
 

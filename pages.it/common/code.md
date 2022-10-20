@@ -7,17 +7,17 @@
 
 `code`
 
-- Apri la cartella corrente in VS Code:
+- Apri la directory corrente in VS Code:
 
 `code .`
 
-- Apri un file o una cartella in VS Code:
+- Apri un file o una directory in VS Code:
 
-`code {{percorso/del/file_o_cartella}}`
+`code {{percorso/del/file_o_directory}}`
 
-- Apri un file o una cartella nella finestra attualmente aperta di VS Code:
+- Apri un file o una directory nella finestra attualmente aperta di VS Code:
 
-`code --reuse-window {{percorso/del/file_o_cartella}}`
+`code --reuse-window {{percorso/del/file_o_directory}}`
 
 - Confronta due file in VS Code:
 

@@ -15,10 +15,10 @@
 
 `dpkg-deb --contents {{percorso/del/file.deb}}`
 
-- Estrae i contenuti del pacchetto in una cartella:
+- Estrae i contenuti del pacchetto in una directory:
 
-`dpkg-deb --extract {{percorso/del/file.deb}} {{percorso/della/cartella}}`
+`dpkg-deb --extract {{percorso/del/file.deb}} {{percorso/della/directory}}`
 
-- Crea una pacchetto a partire da una cartella specificata:
+- Crea una pacchetto a partire da una directory specificata:
 
-`dpkg-deb --build {{percorso/della/cartella}}`
+`dpkg-deb --build {{percorso/della/directory}}`

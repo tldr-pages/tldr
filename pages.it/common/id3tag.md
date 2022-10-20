@@ -7,7 +7,7 @@
 
 `id3tag --artist={{artista}} --title={{titolo}} {{percorso/del/file.mp3}}`
 
-- Imposta il titolo dell'album di tutti i file MP3 nella cartella corrente:
+- Imposta il titolo dell'album di tutti i file MP3 nella directory corrente:
 
 `id3tag --album={{album}} {{*.mp3}}`
 

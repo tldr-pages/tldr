@@ -7,7 +7,7 @@
 
 `docker compose ps`
 
-- Crea ed avvia tutti i container in background utilizzando il file `docker-compose.yml` nella cartella corrente:
+- Crea ed avvia tutti i container in background utilizzando il file `docker-compose.yml` nella directory corrente:
 
 `docker compose up -d`
 

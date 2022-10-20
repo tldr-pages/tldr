@@ -15,7 +15,7 @@
 
 `crystal play`
 
-- Crea una cartella di progetto per un'applicazione Crystal:
+- Crea una directory di progetto per un'applicazione Crystal:
 
 `crystal init app {{nome_applicazione}}`
 
