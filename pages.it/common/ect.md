@@ -13,4 +13,4 @@
 
 - Comprimi tutti i file in una directory ricorsivamente, mantenendo la data di modifica originale:
 
-`ect -keep -recurse {{percorso/a/directory}}`
+`ect -keep -recurse {{percorso/della/directory}}`

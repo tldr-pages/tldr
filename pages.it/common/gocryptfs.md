@@ -5,20 +5,20 @@
 
 - Inizializzare un filesystem crittografato:
 
-`gocryptfs -init {{percorso/al/cifrata}}`
+`gocryptfs -init {{percorso/della/directory_cifrata}}`
 
 - Montare un filesystem crittografato:
 
-`gocryptfs {{percorso/cartella/cifrata}} {{percorso/punto/di/mount}}`
+`gocryptfs {{percorso/della/directory_cifrata}} {{percorso/del/punto_di_mount}}`
 
 - Montare un filesystem usando la master key invece della password:
 
-`gocryptfs --masterkey {{percorso/cartella/cifrata}} {{percorso/punto/di/mount}}`
+`gocryptfs --masterkey {{percorso/della/directory_cifrata}} {{percorso/del/punto_di_mount}}`
 
 - Cambiare la password:
 
-`gocryptfs --passwd {{percorso/cartella/cifrata}}`
+`gocryptfs --passwd {{percorso/della/directory_cifrata}}`
 
-- Generare uno snapshot cifrato di una cartella:
+- Generare uno snapshot cifrato di una directory:
 
-`gocryptfs --reverse {{percorso/al/directory}} {{percorso/cartella/cifrata}}`
+`gocryptfs --reverse {{percorso/della/directory}} {{percorso/della/directory_cifrata}}`

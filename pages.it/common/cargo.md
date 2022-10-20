@@ -23,9 +23,9 @@
 
 - Crea un nuovo progetto Rust binario o di libreria nella directory specificata:
 
-`cargo new {{path/a/directory}} --{{bin|lib}}`
+`cargo new {{path/della/directory}} --{{bin|lib}}`
 
-- Builda il progetto Rust nella cartella corrente:
+- Builda il progetto Rust nella directory corrente:
 
 `cargo build`
 
