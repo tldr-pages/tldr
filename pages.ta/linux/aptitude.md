@@ -9,19 +9,19 @@
 
 - புதிய தொகுப்பு மற்றும் அதன் சார்புகளை நிறுவவும்:
 
-`aptitude install {{package}}`
+`aptitude install {{தொகுப்பு}}`
 
 - தொகுப்பைத் தேடுங்கள்:
 
-`aptitude search {{package}}`
+`aptitude search {{தொகுப்பு}}`
 
 - நிறுவப்பட்ட தொகுப்பைத் தேடவும் (`?installed` தகுதி தேடல் சொல்:
 
-`aptitude search '?installed({{package}})'`
+`aptitude search '?installed({{தொகுப்பு}})'`
 
 - ஒரு தொகுப்பு மற்றும் அதை சார்ந்த அனைத்து தொகுப்புகளையும் அகற்றவும்:
 
-`aptitude remove {{package}}`
+`aptitude remove {{தொகுப்பு}}`
 
 - நிறுவப்பட்ட தொகுப்புகளை புதிய கிடைக்கக்கூடிய பதிப்புகளுக்கு மேம்படுத்தவும்:
 
@@ -33,4 +33,4 @@
 
 - தானாக மேம்படுத்தப்படுவதைத் தடுக்க, நிறுவப்பட்ட தொகுப்பை நிறுத்தி வைக்கவும்:
 
-`aptitude hold '?installed({{package}})'`
+`aptitude hold '?installed({{தொகுப்பு}})'`
