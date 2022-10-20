@@ -7,7 +7,7 @@
 
 `deno run {{ruta/al/archivo}}`
 
-- Ejecuta un REPL (consola interactiva):
+- Inicia un REPL (intérprete de comandos interactivo):
 
 `deno`
 
