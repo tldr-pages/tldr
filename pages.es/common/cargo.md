@@ -20,7 +20,7 @@
 
 `cargo init --{{bin|lib}}`
 
-- Crea un nuevo binario o librería en el directorio especificado:
+- Crea un nuevo proyecto Rust binario o biblioteca en el directorio especificado:
 
 `cargo new {{path/to/directory}} --{{bin|lib}}`
 
