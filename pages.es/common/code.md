@@ -23,7 +23,7 @@
 
 `code --{{install-extension|uninstall-extension}} {{publisher.extension}}`
 
-- Lista las extensiones instaladas:
+- Imprime las extensiones instaladas:
 
 `code --list-extensions`
 
