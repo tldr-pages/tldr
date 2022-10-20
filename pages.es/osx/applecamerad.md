@@ -4,6 +4,6 @@
 > No debe ser invocado manualmente.
 > Más información: <https://www.theiphonewiki.com/wiki/Services>.
 
-- Inicia el daemon:
+- Inicia el proceso residente:
 
 `applecamerad`
