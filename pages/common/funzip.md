@@ -9,4 +9,4 @@
 
 - Decrypt the archive and print the content:
 
-`funzip -password {{password}} {{path/to/archive[.zip|.gz]}}`
+`funzip -password {{password}} {{path/to/archive}}`
