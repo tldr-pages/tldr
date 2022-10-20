@@ -1,6 +1,6 @@
 # wm
 
-> Exibe informações da tela de um dispositivo Android
+> Exibe informações da tela de um dispositivo Android.
 > Este comando só pode ser usado através da `adb shell`.
 > Mais informações: <https://adbinstaller.com/commands/adb-shell-wm-5b672b17e7958178a2955538>.
 

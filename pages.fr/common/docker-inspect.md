@@ -3,7 +3,7 @@
 > Retour d'informations de bas niveau sur les objets Docker.
 > Plus d'informations : <https://docs.docker.com/engine/reference/commandline/inspect/>.
 
-- Montrer l'aide
+- Montrer l'aide :
 
 `docker inspect`
 

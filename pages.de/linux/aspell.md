@@ -15,10 +15,10 @@
 
 `aspell dicts`
 
-- Nutze aspell mit einem anderen Wörterbuch (nimmt 2-Zeichen-Locale laut ISO 639 Sprach Code):
+- Nutze `aspell` mit einem anderen Wörterbuch (nimmt 2-Zeichen-Locale laut ISO 639 Sprach Code):
 
 `aspell --lang={{cs}}`
 
 - Zeige alle falsch geschriebenen Wörter von Standard Input und ignoriere alle Wörter in einer persönlichen Wortliste:
 
-`cat {{file}} | aspell --personal={{persönliche-wort-liste.pws}} {{list}}`
+`cat {{file}} | aspell --personal={{persönliche-wort-liste.pws}} list`

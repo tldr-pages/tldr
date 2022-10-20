@@ -24,7 +24,7 @@
 
 `apt-get upgrade`
 
-- Reinige das Repository
+- Reinige das Repository:
 
 `apt-get autoclean`
 
