@@ -6,7 +6,3 @@
 - Prevent desktop from sleeping (use `Ctrl + C` to exit):
 
 `caffeinate`
-
-- Prevent disk from sleeping until you type Ctrl-C:
-
-`caffeinate -m`
