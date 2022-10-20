@@ -22,7 +22,7 @@
 
 - Crea un nuevo proyecto Rust binario o biblioteca en el directorio especificado:
 
-`cargo new {{path/to/directory}} --{{bin|lib}}`
+`cargo new {{ruta/al/directorio}} --{{bin|lib}}`
 
 - Compila el proyecto Rust en el directorio actual:
 
