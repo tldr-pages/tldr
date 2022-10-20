@@ -1,20 +1,20 @@
 # clip
 
 > Weiterleiten von Inhalten der Befehlsausgabe in die Windows Zwischenablage.
-> Weitere Informationen: <https://learn.microsoft.com/de-de/windows-server/administration/windows-commands/clip>.
+> Weitere Informationen: <https://learn.microsoft.com/windows-server/administration/windows-commands/clip>.
 
-- Weiterleiten der Verzeichnisauflistung in die Windows Zwischenablage:
+- Leite die Verzeichnisauflistung in die Windows Zwischenablage weiter:
 
-`{{Verzeichnis}} | clip`
+`{{verzeichnis}} | clip`
 
-- Kopieren des Inhalts einer Datei in die Windows-Zwischenablage:
+- Kopiere den Inhalt einer Datei in die Windows-Zwischenablage:
 
-`clip < {{Pfad/zur/Datei.txt}}`
+`clip < {{pfad/zu/datei.txt}}`
 
-- Kopieren von Text mit einem nachfolgenden Zeilenumbruch in die Windows-Zwischenablage:
+- Kopiere Text mit einem nachfolgenden Zeilenumbruch in die Windows-Zwischenablage:
 
-`echo {{irgendein Text}} | clip`
+`echo {{irgendein text}} | clip`
 
-- Kopieren von Text ohne nachfolgenden Zeilenumbruch in die Windows-Zwischenablage:
+- Kopiere Text ohne nachfolgenden Zeilenumbruch in die Windows-Zwischenablage:
 
-`echo | set /p="irgendein Text" | clip`
+`echo | set /p="irgendein text" | clip`

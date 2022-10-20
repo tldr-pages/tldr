@@ -1,16 +1,16 @@
 # cipher
 
 > Verschlüsselt oder entschlüsselt Dateien auf NTFS-Laufwerken.
-> Weitere Informationen: <https://learn.microsoft.com/de-de/windows-server/administration/windows-commands/cipher>.
+> Weitere Informationen: <https://learn.microsoft.com/windows-server/administration/windows-commands/cipher>.
 
-- Verschlüsseln einer Datei oder eines Verzeichnisses:
+- Verschlüssle eine Datei oder ein Verzeichnis:
 
-`cipher /e:{{Pfad/zur/Datei_oder_Verzeichnis}}`
+`cipher /e:{{pfad/zu/datei_oder_verzeichnis}}`
 
-- Entschlüsseln einer Datei oder eines Verzeichnisses:
+- Entschlüssle eine Datei oder ein Verzeichnis:
 
-`cipher /d:{{Pfad/zur/Datei_oder_Verzeichnis}}`
+`cipher /d:{{pfad/zu/datei_oder_verzeichnis}}`
 
 - Sicheres Entfernen einer Datei oder eines Verzeichnisses:
 
-`cipher /w:{{Pfad/zur/Datei_oder_Verzeichnis}}`
+`cipher /w:{{pfad/zu/datei_oder_verzeichnis}}`
