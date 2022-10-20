@@ -34,4 +34,4 @@
 
 - Compila el proyecto Rust en el directorio actual usando un número específico de hilos (por defecto es el número de núcleos de la CPU):
 
-`cargo build --jobs {{number_of_threads}}`
+`cargo build --jobs {{numero_de_hilos}}`
