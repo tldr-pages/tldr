@@ -7,6 +7,6 @@
 
 `netstat`
 
-- Displays a list of currently open ports and related IP addresses. This command will also tell you what state the port is in; listening, established, or closed:
+- Displays a list of currently open ports and related IP addresses:
 
 `netstat -an`
