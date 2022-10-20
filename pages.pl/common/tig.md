@@ -13,7 +13,7 @@
 
 - Pokaż historię wybranych plików lub katalogów:
 
-`tig {{ścieżka1 ścieżka2 …}}`
+`tig {{ścieżka1 ścieżka2 ...}}`
 
 - Pokaż różnice pomiędzy dwiema referencjami (np. gałęziami lub tagami):
 
