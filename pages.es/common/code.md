@@ -13,7 +13,7 @@
 
 - Compara dos archivos específicos:
 
-`code --diff {{ruta/al/fichero1}} {{ruta/al/fichero2}}`
+`code --diff {{ruta/al/archivo1}} {{ruta/al/archivo2}}`
 
 - Abre ficheros o directorios específicos en una nueva ventana:
 
