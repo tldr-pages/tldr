@@ -3,9 +3,9 @@
 > Prevent macOS from sleeping.
 > More information: <https://ss64.com/osx/caffeinate.html>.
 
-- Prevent from sleeping for `x` seconds:
+- Prevent from sleeping for 1 hour (3600 seconds):
 
-`caffeinate -u -t {{x}}`
+`caffeinate -u -t {{3600}}`
 
 - Prevent from sleeping until a command completes:
 
