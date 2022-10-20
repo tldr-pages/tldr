@@ -1,4 +1,4 @@
-# codecommit
+# aws codecommit
 
 > AWS CodeCommit is a secure, highly scalable, managed source control service that hosts private Git repositories.
 > More information: <https://aws.amazon.com/codecommit/>.
