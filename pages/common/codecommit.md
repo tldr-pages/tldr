@@ -3,11 +3,7 @@
 > AWS CodeCommit is a secure, highly scalable, managed source control service that hosts private Git repositories.
 > More information: <https://aws.amazon.com/codecommit/>.
 
-- Install aws cli:
-
-`msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi`
-
-- Run this command to verify that the CodeCommit commands for the AWS CLI are installed:
+- View a list of all subcommands:
 
 `aws codecommit help`
 
@@ -15,10 +11,10 @@
 
 `aws configure`
 
-- To view a list of all available CodeCommit commands:
+- Display help:
 
 `aws codecommit help`
 
-- To view information about a CodeCommit command:
+- View information about a specific CodeCommit command:
 
-`aws codecommit command-name help`
+`aws codecommit {{command-name}} help`
