@@ -19,6 +19,6 @@
 
 `deno run {{https://deno.land/std/examples/welcome.ts}}`
 
-- Instala un fichero ejecutable desde una URL:
+- Instala un archivo de secuencia de comandos ejecutable desde una URL:
 
 `deno install {{https://deno.land/std/examples/colors.ts}}`
