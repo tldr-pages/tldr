@@ -25,7 +25,7 @@
 
 - Recherche une formule (c.a.d. un package) et/ou un casks (c.a.d une application native) :
 
-`brew search {{text}}`
+`brew search {{texte}}`
 
 - Affiche les informations d'une formule ou d'un cask (version, chemin d'installation, dépendances, etc.) :
 
