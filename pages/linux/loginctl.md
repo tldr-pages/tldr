@@ -15,7 +15,7 @@
 
 `loginctl show-user {{username}}`
 
-- Print a property of a specific user:
+- Print a specific property of a user:
 
 `loginctl show-user {{username}} --property={{property_name}}`
 
