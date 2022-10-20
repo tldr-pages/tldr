@@ -31,6 +31,6 @@
 
 `code --list-extensions --show-versions`
 
-- Ejecuta el editor como súper usuario (root) mientras que almacena los datos del usuario en un directorio específico:
+- Inicia el editor como súper usuario (root) mientras que almacena los datos del usuario en un directorio específico:
 
 `sudo code --user-data-dir {{ruta/al/directorio}}`
