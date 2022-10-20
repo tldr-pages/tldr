@@ -24,7 +24,7 @@
 
 `cargo new {{path/to/directory}} --{{bin|lib}}`
 
-- Compila el proyecto de Rust en el directorio actual:
+- Compila el proyecto Rust en el directorio actual:
 
 `cargo build`
 
