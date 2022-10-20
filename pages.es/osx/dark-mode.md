@@ -3,7 +3,7 @@
 > Controla el modo oscuro de macOS desde la línea de comandos.
 > Más información: <https://github.com/sindresorhus/dark-mode>.
 
-- Alterna el modo oscuro (actívalo si actualmente está desactivado, desactívalo si actualmente está activado):
+- Alterna el modo oscuro (lo activa si actualmente está desactivado, lo desactiva si actualmente está activado):
 
 `dark-mode`
 
