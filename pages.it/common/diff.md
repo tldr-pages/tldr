@@ -1,6 +1,6 @@
 # diff
 
-> Confronta file e cartelle.
+> Confronta file e directory.
 > Maggiori informazioni: <https://man7.org/linux/man-pages/man1/diff.1.html>.
 
 - Confronta due file (elenca cambiamenti necessari per trasformare `vecchio_file` in `nuovo_file`):
@@ -19,10 +19,10 @@
 
 `diff -u {{vecchio_file}} {{nuovo_file}}`
 
-- Confronta due cartelle ricorsivamente (mostra i nomi dei file/directory diversi e le differenze trai file):
+- Confronta due directory ricorsivamente (mostra i nomi dei file/directory diversi e le differenze trai file):
 
 `diff -r {{old_directory}} {{new_directory}}`
 
-- Confronta due cartelle mostrando solamente il nome dei file diversi:
+- Confronta due directory mostrando solamente il nome dei file diversi:
 
 `diff -rq {{old_directory}} {{new_directory}}`

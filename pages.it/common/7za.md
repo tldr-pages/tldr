@@ -8,7 +8,7 @@
 
 `7za a {{archivio.7z}} {{percorso/del/file_o_directory}}`
 
-- Estrai un archivio mantenendo la gerarchia delle cartelle:
+- Estrai un archivio mantenendo la gerarchia delle directory:
 
 `7za x {{archivio.7z}}`
 

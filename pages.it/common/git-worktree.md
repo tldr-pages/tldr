@@ -11,7 +11,7 @@
 
 `git worktree add {{percorso/della/directory}} -b {{nuovo_ramo}}`
 
-- Mostra tutte le cartelle di lavoro collegate al repository corrente:
+- Mostra tutte le directory di lavoro collegate al repository corrente:
 
 `git worktree list`
 

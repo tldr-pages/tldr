@@ -27,6 +27,6 @@
 
 `pyenv global {{2.7.10}}`
 
-- Imposta la distribuzione di Python da utilizzare nella directory corrente e in tutte le relative sottocartelle:
+- Imposta la distribuzione di Python da utilizzare nella directory corrente e in tutte le relative sottodirectory:
 
 `pyenv local {{2.7.10}}`

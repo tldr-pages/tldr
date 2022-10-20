@@ -16,7 +16,7 @@
 
 `wget --page-requisites --convert-links --wait=3 {{https://esempio.com/pagina_web.html}}`
 
-- Scarica tutti i file elencati nella directory e nelle sue sotto-cartelle (non scarica gli elementi incorporati nella pagina):
+- Scarica tutti i file elencati nella directory e nelle sue sotto-directory (non scarica gli elementi incorporati nella pagina):
 
 `wget --mirror --no-parent {{https://esempio.com/unqualchepercorso/}}`
 

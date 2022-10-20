@@ -1,12 +1,12 @@
 # mkdir
 
-> Crea cartelle.
+> Crea directory.
 > Maggiori informazioni: <https://www.gnu.org/software/coreutils/mkdir>.
 
 - Crea una directory nella directory corrente o in un dato percorso:
 
 `mkdir {{directory}}`
 
-- Crea cartelle ricorsivamente (utile per creare cartelle annidate):
+- Crea directory ricorsivamente (utile per creare directory annidate):
 
 `mkdir -p {{percorso/della/directory}}`
