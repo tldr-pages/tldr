@@ -11,10 +11,10 @@
 
 `amap -bvq {{ip_or_hostname}} {{1-1024}} -B`
 
-- Scan port 1-1024 and analyze the banners results efficiently: 
+- Scan port 1-1024 and analyze the banners results efficiently:
 
 `amap -bvq {{ip_or_hostname}} {{1-1024}} -A`
 
-- Scan port 1-1024 without banner grabbing and return open ports: 
+- Scan port 1-1024 without banner grabbing and return open ports:
 
 `amap {{ip_or_hostname}} {{1-1024}} -P`
