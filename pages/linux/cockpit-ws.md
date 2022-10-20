@@ -5,10 +5,6 @@
 
 - Check which certificate `cockpit-ws` will use:
 
-`sudo remotectl certificate`
-
-- Authenticate via SSH at `127.0.0.1` port `22`:
-
 `cockpit-ws --local-ssh`
 
 - Serve HTTP requests to a specific PORT instead of port `9090`:
