@@ -5,7 +5,7 @@
 
 - Ejecuta un archivo JavaScript o TypeScript:
 
-`deno run {{ruta/al/archivo}}`
+`deno run {{ruta/al/archivo.ts}}`
 
 - Inicia un REPL (intérprete de comandos interactivo):
 
@@ -13,7 +13,7 @@
 
 - Ejecuta un archivo con acceso a la red habilitado:
 
-`deno run --allow-net {{ruta/al/archivo}}`
+`deno run --allow-net {{ruta/al/archivo.ts}}`
 
 - Ejecuta un archivo desde una URL:
 
