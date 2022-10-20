@@ -3,7 +3,7 @@
 > Zeigt Apache Laufzeitkonfigurationen auf Debian-basierten Betriebssystemen an.
 > Weitere Informationen: <https://manpages.debian.org/latest/apache2/a2query.html>.
 
-- Zeige aktivierte Apache Module an:
+- Zeige aktivierte Apache-Module an:
 
 `sudo a2query -m`
 
@@ -19,6 +19,6 @@
 
 `sudo a2query -M`
 
-- Zeige die Apache Versionsnummer an:
+- Zeige die Apache-Versionsnummer an:
 
 `sudo a2query -v`
