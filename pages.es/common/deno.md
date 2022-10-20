@@ -15,7 +15,7 @@
 
 `deno run --allow-net {{ruta/al/archivo}}`
 
-- Ejecuta un fichero desde una URL:
+- Ejecuta un archivo desde una URL:
 
 `deno run {{https://deno.land/std/examples/welcome.ts}}`
 
