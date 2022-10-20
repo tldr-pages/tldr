@@ -32,6 +32,6 @@
 
 `cargo +nightly build`
 
-- Compila el proyecto de Rust en el directorio actual usando un número específico de hilos (por defecto es el número de núcleos del CPU):
+- Compila el proyecto Rust en el directorio actual usando un número específico de hilos (por defecto es el número de núcleos de la CPU):
 
 `cargo build --jobs {{number_of_threads}}`
