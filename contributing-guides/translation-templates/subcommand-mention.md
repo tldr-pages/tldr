@@ -77,6 +77,7 @@ Alguns subcomandaments com `example command` tenen la seva pròpia documentació
 ```markdown
 Visse underkommandoer såsom `example command` har sin egen dokumentation. 
 ```
+
 ---
 ### de
 
