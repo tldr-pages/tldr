@@ -7,7 +7,7 @@
 
 `code`
 
-- Abre ficheros o directorios específicos:
+- Abre archivos o directorios específicos:
 
 `code {{ruta/al/fichero_o_directorio1 ruta/al/fichero_o_directorio2 ...}}`
 
