@@ -1,6 +1,6 @@
 # javap
 
-> Disassemble one or more class files and view packages.
+> Disassemble one or more class files and list them.
 > Part of `JDK`.
 > More information: <https://docs.oracle.com/en/java/javase/18/docs/specs/man/javap.html>.
 
