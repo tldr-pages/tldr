@@ -3,22 +3,22 @@
 > Rotates, compresses, and mails system logs.
 > More information: <https://manned.org/logrotate.8>.
 
-- Force logrotate to run outside of normal interval:
+- Trigger a run of logrotate manually:
 
 `logrotate {{path/to/logrotate.conf}} --force`
 
-- Set mail binary for logrotate to Mutt:
+- Run logrotate using a specific mail_binary to send reports:
 
-`logrotate {{path/to/logrotate.conf}} --mail /usr/bin/mutt`
+`logrotate {{path/to/logrotate.conf}} --mail {{/usr/bin/mail_binary}}`
 
 - Run without using a state (lock) file:
 
 `logrotate {{path/to/logrotate.conf}} --state /dev/null`
 
-- Run skipping lock file check:
+- Run logrotate, skipping the state (lock) file check:
 
 `logrotate {{path/to/logrotate.conf}} --skip-state-lock`
 
-- Log instances of logrotate:
+- Tells logrotate to log verbose output into the log_file:
 
-`logrotate {{path/to/logrotate.conf}} --log {{path/to/log/file}}`
+`logrotate {{path/to/logrotate.conf}} --log {{path/to/log_file}}`
