@@ -63,7 +63,7 @@ as a guideline for current and future maintainers.
 - If a PR fails to get a review from a second maintainer after a week,
   the first maintainer should ping others for review. If it still lingers around
   for **over a week without a second maintainer’s approval**,
-  the first maintainer can go ahead and merge it while dismissing all reviewers who
+  the first maintainer can go ahead and merge it while possibly (if he/she/they) wants dismissing all reviewers who
   didn't reviewed the PR.
 
 - If the only issues holding up a merge are **trivial fixes**
