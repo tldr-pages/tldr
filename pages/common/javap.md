@@ -4,9 +4,13 @@
 > Part of `JDK`.
 > More information: <https://docs.oracle.com/en/java/javase/18/docs/specs/man/javap.html>.
 
-- Disassemble and list a class file:
+- Disassemble and list a `.class` file:
 
-`javap {{path/to/class}}`
+`javap {{path/to/file.class}}`
+
+- Disassemble and list multiple `.class` files:
+
+`javap {{path/to/file1.class}} {{path/to/file2.class}}`
 
 - Disassemble and list a built-in class file:
 
