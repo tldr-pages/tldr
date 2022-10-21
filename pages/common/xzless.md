@@ -2,8 +2,8 @@
 
 > Display text from `.xz` and `.lzma` files.
 > See also: `less`.
-> More information: <https://manned.org/xzless.1>.
+> More information: <https://manned.org/xzless>.
 
-- Display text:
+- Open a compressed file:
 
 `xzless {{path/to/archive.xz}}`
