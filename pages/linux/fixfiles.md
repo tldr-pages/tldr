@@ -1,7 +1,7 @@
 # fixfiles
 
 > Fix file SELinux security contexts.
-> More information: <https://manned.org/fixfiles.8>.
+> More information: <https://manned.org/fixfiles>.
 
 - If specified with onboot, this fixfiles will record the current date in the /.autorelabel file, so that it can be used later to speed up labeling. If used with restore, the restore will only affect files that were modified today:
 
