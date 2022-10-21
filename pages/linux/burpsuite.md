@@ -7,7 +7,7 @@
 
 `burpsuite`
 
-- Start Burp Suite with defaults, overriding the user's configuration:
+- Start Burp Suite using the default configuration:
 
 `burpsuite --use-defaults`
 
@@ -19,6 +19,6 @@
 
 `burpsuite --config-file={{path/to/file}}`
 
-- Prevent loading extensions on startup:
+- Start without extensions:
 
 `burpsuite --disable-extensions`
