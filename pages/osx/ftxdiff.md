@@ -14,5 +14,4 @@
 - Include unicode names in output:
 
 `ftxdiff --include-unicode-names`
-
 ...
