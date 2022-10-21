@@ -3,7 +3,7 @@
 > Generate a pre-signed URL for an Amazon S3 object.
 > More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/presign.html>.
 
-- Generate a pre-signed URL for a specific bucket and ket that is valid for one hour:
+- Generate a pre-signed URL for a specific bucket and key that is valid for one hour:
 
 `aws s3 presign s3://{{example_bucket_name}}/{{file_name}}.txt`
 
@@ -13,4 +13,4 @@
 
 - Display help:
 
-`aws s3 ls help`
+`aws s3 presign help`
