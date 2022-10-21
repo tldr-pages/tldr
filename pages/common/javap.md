@@ -10,7 +10,7 @@
 
 - Disassemble and list multiple `.class` files:
 
-`javap {{path/to/file1.class}} {{path/to/file2.class}}`
+`javap {{path/to/file1.class path/to/file2.class ...}}`
 
 - Disassemble and list a built-in class file:
 
