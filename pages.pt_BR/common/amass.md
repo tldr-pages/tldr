@@ -4,7 +4,7 @@
 > Alguns subcomandos como `amass db` tem sua propria documentacao de uso.
 > Mais informações: <https://github.com/OWASP/Amass>.
 
-- Checa a versao de Amass:
+- Checa a versão de Amass:
 
 `amass -version`
 
