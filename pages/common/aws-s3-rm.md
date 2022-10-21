@@ -1,17 +1,17 @@
 # aws s3 rm
 
-> Delete an S3 object.
+> Delete S3 objects.
 > More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/rm.html>.
 
-- Delete a single S3 object:
+- Delete a specific S3 object:
 
-`aws s3 rm s3://{{example_bucket_name}}/{{file_name}}.txt`
+`aws s3 rm s3://{{bucket_name}}/{{path/to/file}}`
 
 - Perform a dry-run of a single S3 object deletion:
 
-`aws s3 rm s3://{{example_bucket_name}}/{{file_name}}.txt --dryrun`
+`aws s3 rm s3://{{bucket_name}}/{{path/to/file}} --dryrun`
 
-- Delete an object from an S3 access point:
+- Delete an object from a specific S3 access point:
 
 `aws s3 rm s3://arn:aws:s3:us-west-2:123456789012:{{access_point}}/{{my_access_point}}/{{my_key}}`
 
