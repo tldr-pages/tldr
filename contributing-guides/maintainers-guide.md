@@ -98,8 +98,4 @@ as a guideline for current and future maintainers.
   then prefer squash, else do a rebase.
 
 - Although having push access allows committing directly to the repository,
-  please **create pull requests for all of your changes**.
-  This ensures that the entire process that regular contributors go through
-  is also exposed to maintainers,
-  who can then identify and address bottlenecks or inconveniences.
-  Similarly, **avoid merging your own PRs** unless approved by other maintainers.
+  please **create pull requests for all of your changes** unless they are trivial (descibed above).
