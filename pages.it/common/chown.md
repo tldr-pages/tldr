@@ -5,20 +5,20 @@
 
 - Cambia l'utente proprietario di un file/directory:
 
-`chown {{utente}} {{percorso/a/file_o_directory}}`
+`chown {{utente}} {{percorso/del/file_o_directory}}`
 
 - Cambia utente e gruppo proprietari di un file/directory:
 
-`chown {{utente}}:{{gruppo}} {{percorso/a/file_o_directory}}`
+`chown {{utente}}:{{gruppo}} {{percorso/del/file_o_directory}}`
 
-- Cambia ricorsivamente il proprietario di una cartella ed i suoi contenuti:
+- Cambia ricorsivamente il proprietario di una directory ed i suoi contenuti:
 
-`chown -R {{utente}} {{percorso/alla/directory}}`
+`chown -R {{utente}} {{percorso/della/directory}}`
 
 - Cambia il proprietario di un link simbolico:
 
-`chown -h {{utente}} {{percorso/al/link_simbolico}}`
+`chown -h {{utente}} {{percorso/del/link_simbolico}}`
 
 - Cambia il proprietario di un file/directory rendendolo uguale a quello di un altro file di riferimento:
 
-`chown --reference={{percorso/al/file_riferimento}} {{percorso/a/file_o_directory}}`
+`chown --reference={{percorso/del/file_riferimento}} {{percorso/del/file_o_directory}}`
