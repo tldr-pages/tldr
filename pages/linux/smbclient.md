@@ -27,6 +27,6 @@
 
 `smbclient {{//server/share}} --directory {{path/to/directory}} --command "put {{file.txt}}"`
 
-- Anonymously list the shares on a server:
+- List the shares from a server anonymously:
 
-`smbclient -N -L {{//server}}`
+`smbclient --list={{server}} --no-pass`
