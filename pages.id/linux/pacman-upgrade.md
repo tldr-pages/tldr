@@ -3,10 +3,6 @@
 > Kegunaan manajer paket Arch Linux.
 > Informasi lebih lanjut: <https://man.archlinux.org/man/pacman.8>.
 
-- Tampilkan bantuan:
-
-`pacman --upgrade --help`
-
 - Instal satu paket atau lebih dari file:
 
 `sudo pacman --upgrade {{jalan/menuju/paket1.pkg.tar.zst}} {{jalan/menuju/paket2.pkg.tar.zst}}`
@@ -25,4 +21,8 @@
 
 - Tampilkan daftar paket yang akan terpengaruh (tidak menginstal paket apa pun):
 
-`pacman --query --print {{jalan/menuju/paket.pkg.tar.zst}}`
+`pacman --upgrade --print {{jalan/menuju/paket.pkg.tar.zst}}`
+
+- Tampilkan bantuan:
+
+`pacman --upgrade --help`
