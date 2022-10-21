@@ -25,4 +25,4 @@
 
 - Affiche ce qui se passerait si la commande était exécutée mais sans agir :
 
-`pacman --query --print {{chemin/vers/paquet.pkg.tar.zst}}`
+`pacman --upgrade --print {{chemin/vers/paquet.pkg.tar.zst}}`
