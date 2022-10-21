@@ -7,6 +7,6 @@
 
 `netstat`
 
-- Displays a list of currently open ports and related IP addresses:
+- Display a list of currently open ports and related IP addresses:
 
 `netstat -an`
