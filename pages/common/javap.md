@@ -16,10 +16,10 @@
 
 `javap java.{{package}}.{{class}}`
 
-- Display Version:
-
-`javap -version`
-
 - Display help:
 
 `javap -help`
+
+- Display Version:
+
+`javap -version`
