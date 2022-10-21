@@ -6,7 +6,7 @@
 
 - Memulai prooses dengan nama yang dapat digunakan untuk operasi selanjutnya:
 
-`pm2 start {{app.js}} --name {{myapp}}`
+`pm2 start {{app.js}} --name {{nama_aplikasi}}`
 
 - Tampilkan daftar proses:
 
@@ -18,11 +18,11 @@
 
 - Menghentikan sebuah proses:
 
-`pm2 stop {{myapp}}`
+`pm2 stop {{nama_aplikasi}}`
 
 - Memulai ulang sebuah proses:
 
-`pm2 restart {{myapp}}`
+`pm2 restart {{nama_aplikasi}}`
 
 - Membuang semua proses dan menghidupkan mereka kembali nanti:
 
