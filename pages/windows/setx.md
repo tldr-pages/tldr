@@ -1,7 +1,7 @@
 # setx
 
 > Sets persistent environment variables.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/setx>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/setx>.
 
 - Set an environment variable for the current user:
 

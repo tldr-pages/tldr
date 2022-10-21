@@ -19,7 +19,7 @@
 
 `git checkout --track {{nome_repository_remoto}}/{{nome_ramo}}`
 
-- Annulla tutte le modifiche nella cartella corrente che non sono state aggiunte all'area di stage (vedi `git reset` per più comandi simili):
+- Annulla tutte le modifiche nella directory corrente che non sono state aggiunte all'area di stage (vedi `git reset` per più comandi simili):
 
 `git checkout .`
 

@@ -19,6 +19,6 @@
 
 `ab -k {{url}}`
 
-- Establece el máximo número de segundos utilizados para la comparación.
+- Establece el máximo número de segundos utilizados para la comparación:
 
 `ab -t {{60}} {{url}}`

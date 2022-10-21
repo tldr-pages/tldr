@@ -19,6 +19,6 @@
 
 `gnmic -a {{ip:port}} subscribe --path {{path}} --mode once`
 
-- Subscribe to a target and specify reponse encoding (json_ietf):
+- Subscribe to a target and specify response encoding (json_ietf):
 
 `gnmic -a {{ip:port}} subscribe --path {{path}} --encoding json_ietf`

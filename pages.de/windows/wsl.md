@@ -1,7 +1,7 @@
 # wsl
 
 > Verwalte das Windows Subsystem für Linux von der Kommandozeile.
-> Weitere Informationen: <https://docs.microsoft.com/windows/wsl/reference>.
+> Weitere Informationen: <https://learn.microsoft.com/windows/wsl/reference>.
 
 - Starte eine Linux-Shell (in der Standard-Distribution):
 

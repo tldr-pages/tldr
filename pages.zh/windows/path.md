@@ -1,7 +1,7 @@
 # path
 
 > 显示或设置可执行文件的搜索路径。
-> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/path>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/path>.
 
 - 显示当前的路径：
 

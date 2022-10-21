@@ -1,7 +1,7 @@
 # cmd
 
 > L'interprete dei comandi di Windows.
-> Maggiori informazioni: <https://docs.microsoft.com/windows-server/administration/windows-commands/cmd>.
+> Maggiori informazioni: <https://learn.microsoft.com/windows-server/administration/windows-commands/cmd>.
 
 - Lancia una nuova istanza dell'interprete dei comandi:
 
@@ -23,7 +23,7 @@
 
 `cmd /e:{{on|off}}`
 
-- Abilita o disabilita l'autocompletamento dei nomi di file e cartelle:
+- Abilita o disabilita l'autocompletamento dei nomi di file e directory:
 
 `cmd /f:{{on|off}}`
 

@@ -1,7 +1,7 @@
 # dotnet build
 
 > Builds a .NET application and its dependencies.
-> More information: <https://docs.microsoft.com/dotnet/core/tools/dotnet-build>.
+> More information: <https://learn.microsoft.com/dotnet/core/tools/dotnet-build>.
 
 - Compile the project or solution in the current directory:
 

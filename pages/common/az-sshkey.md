@@ -2,7 +2,7 @@
 
 > Manage ssh public key with vm.
 > Part of `azure-cli`.
-> More information: <https://docs.microsoft.com/cli/azure/sshkey>.
+> More information: <https://learn.microsoft.com/cli/azure/sshkey>.
 
 - Create a new SSH key:
 

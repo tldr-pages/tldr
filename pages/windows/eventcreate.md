@@ -2,7 +2,7 @@
 
 > Create custom entries in the event log.
 > Event IDs can be any number between 1 and 1000.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/eventcreate>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/eventcreate>.
 
 - Create a new event with a given ID (1-1000) in the log:
 
