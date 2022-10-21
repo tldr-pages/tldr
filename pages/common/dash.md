@@ -25,7 +25,7 @@
 
 - Execute a specific script and stop at the first [e]rror:
 
-`dash -e {{path/to/script.dash}}`
+`dash -e {{path/to/script.sh}}`
 
 - Execute specific commands from stdin:
 
