@@ -7,18 +7,18 @@
 
 `mysqlbinlog {{path/to/binlog}}`
 
-- Show binary log of a specific database:
+- Show entries from a binary log for a specific database:
 
 `mysqlbinlog --database {{database_name}} {{path/to/binlog}}`
 
-- Show binary log in a range:
+- Show binary log for a specific range:
 
 `mysqlbinlog --start-datetime='{{2022-01-01 01:00:00}}' --stop-datetime='{{2022-02-01 01:00:00}}' {{path/to/binlog}}`
 
-- Show binary log by using position:
+- Show events from a binary log between specific positions:
 
 `mysqlbinlog --start-position={{100}} --stop-position={{200}} {{path/to/binlog}}`
 
-- Show binary log from the MySQL server on the given host:
+- Show binary log from a MySQL server on the given host:
 
 `mysqlbinlog --host={{host_name}} {{path/to/binlog}}`
