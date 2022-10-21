@@ -7,7 +7,7 @@
 
 `caffeinate -u -t {{3600}}`
 
-- Evita entrar en modo reposo hasta que el comando finaliza:
+- Evita entrar en modo reposo hasta que un comando finaliza:
 
 `caffeinate -s "{{command}}"`
 
