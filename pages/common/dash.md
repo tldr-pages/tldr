@@ -13,15 +13,15 @@
 
 - Execute a specific script:
 
-`dash {{path/to/script.dash}}`
+`dash {{path/to/script.sh}}`
 
 - Check a specific script for syntax errors:
 
-`dash -n {{path/to/script.dash}}`
+`dash -n {{path/to/script.sh}}`
 
 - Execute a specific script while printing each command before executing it:
 
-`dash -x {{path/to/script.dash}}`
+`dash -x {{path/to/script.sh}}`
 
 - Execute a specific script and stop at the first [e]rror:
 
