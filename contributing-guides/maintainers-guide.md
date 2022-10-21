@@ -59,17 +59,14 @@ as a guideline for current and future maintainers.
   (2) have all the **review comments addressed**,
   (3) get **approved reviews by at least two maintainers**, (the second maintainer can merge immediately after approving) and
   (4) have been open for at least **24 hours** unless the changes are trivial (contains only typo fixes or shell builtin/keyword/quoting syntax fixes)
+  
+  These rules mean that trivial PRs can be merged before 24 hours left.
 
 - If a PR fails to get a review from a second maintainer after a week,
   the first maintainer should ping others for review. If it still lingers around
   for **over a week without a second maintainer’s approval**,
   the first maintainer can go ahead and merge it while possibly (if he/she/they) wants dismissing all reviewers who
   didn't reviewed the PR.
-
-- If the only issues holding up a merge are **trivial fixes**
-  (typos, syntax errors), and the author doesn't respond in a day or two,
-  **maintainers can make the necessary changes themselves**,
-  and proceed with the merge process.
 
 - If a PR **stops getting feedback from the submitter** and is marked as stale
   by [probot-stale](../.github/workflows/stale.yml),
