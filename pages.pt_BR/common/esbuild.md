@@ -15,7 +15,7 @@
 
 `esbuild --bundle --define:{{process.env.NODE_ENV=\"production\"}} --minify --sourcemap {{caminho/para/arquivo.js}}`
 
-- Empacota uma aplicação JSX para obter uma lista de navegadores separados por vírgulas:
+- Empacota uma aplicação JSX para uma lista de navegadores separados por vírgulas:
 
 `esbuild --bundle --minify --sourcemap --target={{chrome58,firefox57,safari11,edge16}} {{caminho/para/arquivo.jsx}}`
 
