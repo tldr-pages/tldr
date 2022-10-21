@@ -1,23 +1,23 @@
 # aws s3 cp
 
-> Copy a local file or S3 object to another location locally or in S3.
+> Copy local files or S3 objects to another location locally or in S3.
 > More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/cp.html>.
 
-- Copy a local file to S3:
+- Copy a file from local to a specific bucket:
 
-`aws s3 cp {{file_name}} s3://{{example_bucket_name}}/{{file_name}}.txt`
+`aws s3 cp {{path/to/file}} s3://{{bucket_name}}/{{path/to/remote_file}}`
 
-- Copy a file from S3 to S3:
+- Copy a specific S3 object into another bucket:
 
-`aws s3 cp s3://{{example_bucket_name}}/{{file_name}}.txt s3://{{example_bucket_name}}/{{file_name_2}}.txt`
+`aws s3 cp s3://{{bucket_name1}}/{{path/to/file}} s3://{{bucket_name2}}/{{path/to/target}}`
 
-- Copy an S3 object from one bucket to another:
+- Copy a specific S3 object into another bucket keeping the original name:
 
-`aws s3 cp s3://{{example_bucket_name}}/{{file_name}}.txt s3://{{example_bucket_name_2}}`
+`aws s3 cp s3://{{bucket_name1}}/{{path/to/file}} s3://{{bucket_name2}}`
 
-- Recursively copy S3 objects to a local directory:
+- Copy S3 objects to a local directory recursively:
 
-`aws s3 cp s3://{{example_bucket_name}} . --recursive`
+`aws s3 cp s3://{{bucket_name}} . --recursive`
 
 - Display help:
 
