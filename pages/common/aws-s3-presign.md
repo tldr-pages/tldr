@@ -1,15 +1,15 @@
 # aws s3 presign
 
-> Generate a pre-signed URL for an Amazon S3 object.
+> Generate pre-signed URLs for Amazon S3 objects.
 > More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/presign.html>.
 
-- Generate a pre-signed URL for a specific bucket and key that is valid for one hour:
+- Generate a pre-signed URL for a specific S3 object that is valid for one hour:
 
-`aws s3 presign s3://{{example_bucket_name}}/{{file_name}}.txt`
+`aws s3 presign s3://{{bucket_name}}/{{path/to/file}}`
 
-- Generate a pre-signed URL with a custom lifetime:
+- Generate a pre-signed URL valid for a specific lifetime:
 
-`aws s3 presign s3://{{example_bucket_name}}/{{file_name}}.txt --expires-in {{604800}}`
+`aws s3 presign s3://{{bucket_name}}/{{path/to/file}} --expires-in {{duration_in_seconds}}`
 
 - Display help:
 
