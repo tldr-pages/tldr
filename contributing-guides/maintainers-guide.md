@@ -74,7 +74,9 @@ as a guideline for current and future maintainers.
   and make the necessary changes to get the content ready for merging.
 
 - During the review process, make sure that contributors, especially new ones,
-  are not **overwhelmed with too many change requests**.
+  are not **overwhelmed with too many change requests** (you being a maintainer can
+  write less but more detailed comments in reviews to describe what the problem actually is
+  and how it should be fixed).
   Be mindful of signs of fatigue (less enthusiastic responses, slower reactions),
   and relax review standards if necessary — minor issues can always be fixed later.
   It doesn't mean that maintainers reviewing PRs from new contributors should violate
