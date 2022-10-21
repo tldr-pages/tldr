@@ -3,10 +3,6 @@
 > Kegunaan manajer paket Arch Linux.
 > Informasi lebih lanjut: <https://man.archlinux.org/man/pacman.8>.
 
-- Tampilkan bantuan untuk subperintah ini:
-
-`pacman --remove --help`
-
 - Hapus paket beserta dependensinya:
 
 `sudo pacman --remove --recursive {{nama_paket}}`
@@ -30,3 +26,7 @@
 - Tampilkan daftar paket yang akan terpengaruh (tidak menghapus paket apa pun):
 
 `pacman --remove --print {{nama_paket}}`
+
+- Tampilkan bantuan untuk subperintah ini:
+
+`pacman --remove --help`
