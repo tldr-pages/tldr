@@ -11,7 +11,7 @@
 
 `dd if=/dev/{{drive_fonte}} of=/dev/{{drive_destino}} bs=4M conv=noerror status=progress`
 
-- Gera um arquivo com 100 bytes randômicos utilizando o kernel random driver:
+- Gera um arquivo com 100 bytes aleatórios utilizando o kernel random driver:
 
 `dd if=/dev/urandom of={{arquivo_random}} bs=100 count=1`
 
