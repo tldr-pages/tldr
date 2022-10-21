@@ -5,4 +5,4 @@
 
 - Create a file holding the contents of the blob specified by its id and get the name of the temporary file (with format `merge_file_XXXXX`):
 
-`git unpack-file {{blob}}`
+`git unpack-file {{blob_id}}`
