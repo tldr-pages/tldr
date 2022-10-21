@@ -3,7 +3,7 @@
 > Google's free, open source, and cross-platform mobile app SDK.
 > More information: <https://github.com/flutter/flutter/wiki/The-flutter-tool>.
 
-- Create a flutter project in a directory:
+- Create a flutter project in specific directory:
 
 `flutter create {{directory_path}}`
 
