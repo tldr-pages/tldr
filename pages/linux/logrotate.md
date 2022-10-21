@@ -15,10 +15,10 @@
 
 `logrotate {{path/to/logrotate.conf}} --state /dev/null`
 
-- Run logrotate, skipping the state (lock) file check:
+- Run logrotate and skip the state (lock) file check:
 
 `logrotate {{path/to/logrotate.conf}} --skip-state-lock`
 
-- Tells logrotate to log verbose output into the log_file:
+- Tell logrotate to log verbose output into the log_file:
 
 `logrotate {{path/to/logrotate.conf}} --log {{path/to/log_file}}`
