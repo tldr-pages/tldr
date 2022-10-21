@@ -19,6 +19,6 @@
 
 `javap -help`
 
-- Display Version:
+- Display version:
 
 `javap -version`
