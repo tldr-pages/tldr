@@ -7,13 +7,13 @@
 
 `aws s3 rm s3://{{bucket_name}}/{{path/to/file}}`
 
-- Perform a dry-run of a single S3 object deletion:
+- Preview the deletion of a specific S3 object without deleting it (dry-run):
 
 `aws s3 rm s3://{{bucket_name}}/{{path/to/file}} --dryrun`
 
 - Delete an object from a specific S3 access point:
 
-`aws s3 rm s3://arn:aws:s3:us-west-2:123456789012:{{access_point}}/{{my_access_point}}/{{my_key}}`
+`aws s3 rm s3://arn:aws:s3:{{region}}:{{account_id}}:{{access_point}}/{{access_point_name}}/{{object_key}}`
 
 - Display help:
 
