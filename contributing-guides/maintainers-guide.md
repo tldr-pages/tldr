@@ -58,7 +58,7 @@ as a guideline for current and future maintainers.
   (1) **pass the automated tests** (GitHub Actions, CLA signing, etc.),
   (2) have all the **review comments addressed**,
   (3) get **approved reviews by at least two maintainers**, (the second maintainer can merge immediately after approving) and
-  (4) have been open for at least **24 hours** unless the changes are trivial (contains only typo fixes or shell syntax fixes)
+  (4) have been open for at least **24 hours** unless the changes are trivial (contains only typo fixes or shell builtin/keyword/quoting syntax fixes)
 
 - If a PR fails to get a review from a second maintainer after a week,
   the first maintainer should ping others for review. If it still lingers around
