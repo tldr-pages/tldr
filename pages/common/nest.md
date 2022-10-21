@@ -1,13 +1,13 @@
 # nest
 
-> The Nest CLI is a command-line interface tool that helps to initialize, develop, and maintain NestJS applications.
+> Command-line tool to initialize, develop, and maintain Nest applications.
 > More information: <https://docs.nestjs.com/cli/overview>.
 
 - Display information about installed nest version:
 
 `nest info`
 
-- Create a new NestJS project in the current directory:
+- Create a new NestJS project in a directory of the same name:
 
 `nest new {{project_name}}`
 
