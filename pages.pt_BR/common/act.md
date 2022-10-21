@@ -7,7 +7,7 @@
 
 `act -l`
 
-- Executa evento padrao:
+- Executa evento padrão:
 
 `act`
 
