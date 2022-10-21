@@ -19,6 +19,6 @@
 
 `file -k {{dateiname}}`
 
-- Bestimmen des Mime-Codierungstyp einer Datei:
+- Bestimmen des MIME-Codierungstyp einer Datei:
 
 `file -i {{dateiname}}`

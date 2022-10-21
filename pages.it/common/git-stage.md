@@ -6,7 +6,7 @@
 
 - Aggiungi un file all'indice:
 
-`git stage {{percorso/al/file}}`
+`git stage {{percorso/del/file}}`
 
 - Aggiungi tutti i file (tracciati e non):
 
@@ -26,7 +26,7 @@
 
 - Aggiungi parti di un dato file all'area di stage in modo interattivo:
 
-`git stage -p {{percorso/al/file}}`
+`git stage -p {{percorso/del/file}}`
 
 - Aggiungi all'area di stage in modo interattivo:
 

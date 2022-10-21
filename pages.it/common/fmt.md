@@ -5,16 +5,16 @@
 
 - Riformatta un file:
 
-`fmt {{percorso/al/file}}`
+`fmt {{percorso/del/file}}`
 
 - Riformatta un file producendo linee di (al massimo) `n` caratteri:
 
-`fmt -w {{n}} {{percorso/al/file}}`
+`fmt -w {{n}} {{percorso/del/file}}`
 
 - Riformatta un file senza unire assieme le linee più corte della data larghezza:
 
-`fmt -s {{percorso/al/file}}`
+`fmt -s {{percorso/del/file}}`
 
 - Riformatta un file usando una spaziatura uniforme (1 spazio tra due parole e 2 spazi tra due paragrafi):
 
-`fmt -u {{percorso/al/file}}`
+`fmt -u {{percorso/del/file}}`

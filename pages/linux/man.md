@@ -1,7 +1,7 @@
 # man
 
 > Format and display manual pages.
-> More information: <https://www.man7.org/linux/man-pages/man1/man.1.html>.
+> More information: <https://manned.org/man>.
 
 - Display the man page for a command:
 

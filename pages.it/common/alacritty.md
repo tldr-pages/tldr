@@ -7,9 +7,9 @@
 
 `alacritty`
 
-- Esegui in una cartella specifica:
+- Esegui in una directory specifica:
 
-`alacritty --working-directory {{percorso/a/cartella}}`
+`alacritty --working-directory {{percorso/della/directory}}`
 
 - Esegui un comando in una nuova finestra di Alacritty:
 

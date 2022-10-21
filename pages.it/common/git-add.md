@@ -5,7 +5,7 @@
 
 - Aggiungi un file all'area di stage:
 
-`git add {{percorso/al/file}}`
+`git add {{percorso/del/file}}`
 
 - Aggiungi tutti i file (tracciati e non tracciati):
 
@@ -21,4 +21,4 @@
 
 - Aggiungi parti di un file in modo interattivo:
 
-`git add -p {{percorso/al/file}}`
+`git add -p {{percorso/del/file}}`

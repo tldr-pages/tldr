@@ -7,6 +7,6 @@
 
 `source {{jalan/menuju/file}}`
 
-- Mengevaluasi konten pada file yang ditentukan (`.` adalah alias dari `source`)
+- Mengevaluasi konten pada file yang ditentukan (`.` adalah alias dari `source`):
 
 `. {{jalan/menuju/file}}`

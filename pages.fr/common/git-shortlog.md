@@ -15,7 +15,7 @@
 
 `git shortlog -c`
 
-- fficher un résumé des 5 derniers commits effectués :
+- Afficher un résumé des 5 derniers commits effectués :
 
 `git shortlog HEAD~{{5}}..HEAD`
 
