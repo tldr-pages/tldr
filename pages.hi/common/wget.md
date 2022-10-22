@@ -26,7 +26,7 @@
 
 - मूल प्रमाणीकरण का उपयोग करके किसी HTTP सर्वर से फ़ाइल डाउनलोड करें (FTP के लिए भी काम करता है):
 
-`wget --user={{username}} --password={{password}} {{https://example.com}}`
+`wget --user={{उपयोगकर्ता_नाम}} --password={{पासवर्ड}} {{https://example.com}}`
 
 - अधूरा डाउनलोड जारी रखें:
 
