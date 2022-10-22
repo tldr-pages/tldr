@@ -19,7 +19,7 @@
 
 `loadkeys -p (or --parse)`
 
-- Suppresses all normal output:
+- Suppress the all normal output:
 
 `loadkeys -q (or --quiet)`
 
