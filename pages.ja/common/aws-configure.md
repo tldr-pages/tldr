@@ -33,4 +33,4 @@
 
 - 特定プロファイル内の設定エントリを一覧表示する:
 
-`aws configure list --profile {{profile_name}}`
+`aws configure list --profile {{プロファイル名}}`
