@@ -1,0 +1,28 @@
+# asciiart
+
+> Convertit des images en ASCII.
+> Plus d'information : <https://github.com/nodanaonlyzuul/asciiart>.
+
+- Lit une image depuis un fichier et l'affiche en ASCII :
+
+`asciiart {{chemin/vers/limage.jpg}}`
+
+- Lit une image depuis une URL et l'affiche en ASCII :
+
+`asciiart {{www.example.com/image.jpg}}`
+
+- Choisit la largeur de sortie (valeur par défaut : 100) :
+
+`asciiart --width {{50}} {{chemin/vers/limage.jpg}}`
+
+- Colorise la sortie ASCII :
+
+`asciiart --color {{chemin/vers/limage.jpg}}`
+
+- Choisit le format de sortie (format par défaut : textuel) :
+
+`asciiart --format {{text|html}} {{chemin/vers/limage.jpg}}`
+
+- Inverse la table de caractères :
+
+`asciiart --invert-chars {{chemin/vers/limage.jpg}}`
