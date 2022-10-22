@@ -27,6 +27,6 @@
 
 `scd --alias={{name}}`
 
-- Jump to directory with previously defined alias {{name}}:
+- Jump to a directory with a previously defined alias:
 
 `scd {{name}}`
