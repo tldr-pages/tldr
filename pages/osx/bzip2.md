@@ -1,7 +1,7 @@
 # bzip2
 
 > Compress (bzip2) or decompress (bunzip2) files. Decompress files to stdout (bzcat) and recover data from damaged bzip2 files (bzip2recover.).
-> More information: <https://ss64.com/osx/bzip.html>.
+> More information: <https://manned.org/bzip2>.
 
 - Force decompression:
 
