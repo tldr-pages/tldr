@@ -16,6 +16,6 @@
 
 `az config set {{konfigurationsname}}={{wert}}`
 
-- Heben Sie eine Konfiguration auf:
+- Hebe eine Konfiguration auf:
 
 `az config unset {{konfigurationsname}}`
