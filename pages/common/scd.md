@@ -23,7 +23,7 @@
 
 `scd -v`
 
-- Alias current directory:
+- Add an alias to the current directory:
 
 `scd --alias={{name}}`
 
