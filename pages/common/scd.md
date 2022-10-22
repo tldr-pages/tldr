@@ -15,7 +15,7 @@
 
 `scd {{a}} {{b}} {{c}}`
 
-- change to a directory path that ends with "ts":
+- Change to a directory path that ends with "ts":
 
 `scd "ts$"`
 
