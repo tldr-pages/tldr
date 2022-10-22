@@ -5,7 +5,7 @@
 
 - Sposta i file nella repository e aggiungi l'operazione al commit successivo:
 
-`git mv {{percorso/al/file}} {{nuovo/percorso/al/file}}`
+`git mv {{percorso/del/file}} {{nuovo/percorso/del/file}}`
 
 - Rinomina i file e aggiungi l'operazione al commit successivo:
 
@@ -13,4 +13,4 @@
 
 - Sposta sovrascrivendo eventuali file esistenti nel percorso di destinazione:
 
-`git mv --force {{percorso/al/file}} {{nuovo/percorso/al/file}}`
+`git mv --force {{percorso/del/file}} {{nuovo/percorso/del/file}}`

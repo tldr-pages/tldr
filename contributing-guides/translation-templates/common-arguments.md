@@ -11,14 +11,14 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | bn    |                      |                        |                                   |           |                   |
 | bs    |                      |                        |                                   |           |                   |
 | ca    | camí/al/fitxer       | camí/al/directori      | camí/al/fitxer_o_directori        | paquet    | nom_usuari        |
-| da    |                      |                        |                                   |           |                   |
+| da    | sti/til/fil          | sti/til/mappe          | sti/til/fil_eller_mappe           | pakke     | brugernavn        |
 | de    | pfad/zu/datei        | pfad/zu/verzeichnis    | pfad/zu/datei_oder_verzeichnis    | paket     | benutzername      |
 | es    | ruta/al/archivo      | ruta/al/directorio     | ruta/al/archivo_o_directorio      | paquete   | nombre_de_usuario |
 | fa    |                      |                        |                                   |           |                   |
 | fr    | chemin/vers/fichier  | chemin/vers/dossier    | chemin/vers/fichier_ou_dossier    | paquet    | nom_d_utilisateur |
 | hi    | फ़ाइल/का/पथ            | निर्देशिका/का/पथ            | फ़ाइल_या_निर्देशिका/का/पथ                 | पैकेज      | उपयोगकर्ता_नाम         |
 | id    | jalan/menuju/file    | jalan/menuju/direktori | jalan/menuju/file_atau_direktori  | paket     | nama_pengguna     |
-| it    | percorso/al/file     | percorso/al/directory  | percorso/al/file_o_directory      | pacchetto |                   |
+| it    | percorso/del/file    | percorso/della/directory | percorso/del/file_o_directory     | pacchetto |                   |
 | ja    |                      |                        |                                   |           |                   |
 | ko    | 경로/대상/파일        | 경로/대상/폴더          | 경로/대상/파일_또는_폴더           | 패키지    |  사용자 명        |
 | ml    |ഫയലിലേക്കുള്ള/പാത   |ഡയറക്ടറിയിലേക്കുള്ള/പാത    |ഫയലിലേക്കോ_ഡയറക്ടറിയിലേക്കോ/ഉള്ള/പാത  |പാക്കേജ്    |ഉപയോക്തൃനാമം |

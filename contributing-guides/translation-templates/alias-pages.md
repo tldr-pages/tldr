@@ -101,7 +101,15 @@ Not translated yet.
 ---
 ### da
 
-Not translated yet.
+```markdown
+# example
+
+> Denne kommando er et alias af `example`.
+
+- Se dokumentation for den oprindelige kommando:
+
+`tldr example`
+```
 
 ---
 ### de

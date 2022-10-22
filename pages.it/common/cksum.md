@@ -6,4 +6,4 @@
 
 - Calcola e mostra un checksum di 32 bit, dimensione in byte e nome del file:
 
-`cksum {{percorso/al/file}}`
+`cksum {{percorso/del/file}}`

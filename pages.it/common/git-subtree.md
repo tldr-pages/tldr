@@ -5,20 +5,20 @@
 
 - Aggiungi un repository Git come albero secondario:
 
-`git subtree add --prefix={{percorso/alla/cartella/}} --squash {{url_repository}} {{master}}`
+`git subtree add --prefix={{percorso/della/directory/}} --squash {{url_repository}} {{master}}`
 
 - Aggiorna l'albero secondario di un repository al suo commit più recente:
 
-`git subtree pull --prefix={{percorso/alla/cartella/}} {{url_repository}} {{master}}`
+`git subtree pull --prefix={{percorso/della/directory/}} {{url_repository}} {{master}}`
 
 - Unisci un albero secondario al ramo principale (master):
 
-`git subtree merge --prefix={{percorso/alla/cartella/}} --squash {{url_repository}} {{master}}`
+`git subtree merge --prefix={{percorso/della/directory/}} --squash {{url_repository}} {{master}}`
 
 - Invia commit all'albero secondario di un repository:
 
-`git subtree push --prefix={{percorso/alla/cartella/}} {{url_repository}} {{master}}`
+`git subtree push --prefix={{percorso/della/directory/}} {{url_repository}} {{master}}`
 
 - Estrai la cronologia di un nuovo progetto dalla cronologia di un albero secondario:
 
-`git subtree split --prefix={{percorso/alla/cartella/}} {{url_repository}} -b {{nome_ramo}}`
+`git subtree split --prefix={{percorso/della/directory/}} {{url_repository}} -b {{nome_ramo}}`

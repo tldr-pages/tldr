@@ -3,7 +3,7 @@
 > Gestore di pacchetti e dipendenze per Python.
 > Maggiori informazioni: <https://python-poetry.org/docs/cli/>.
 
-- Crea un nuovo progetto Poetry nella cartella specificata:
+- Crea un nuovo progetto Poetry nella directory specificata:
 
 `poetry new {{nome_progetto}}`
 
@@ -11,7 +11,7 @@
 
 `poetry add {{dipendenza}}`
 
-- Inizializza interattivamente la nuova cartella come un nuovo progetto Poetry:
+- Inizializza interattivamente la nuova directory come un nuovo progetto Poetry:
 
 `poetry init`
 
