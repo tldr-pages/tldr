@@ -13,7 +13,7 @@
 
 - 特定の設定変数の値を表示する:
 
-`aws configure get {{name}}`
+`aws configure get {{名前}}`
 
 - 特定プロファイルの設定変数の値を表示する:
 
