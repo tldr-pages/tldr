@@ -1,7 +1,7 @@
 # az config
 
 > Verwalten der Azure CLI-Konfiguration.
-> Teil der `Azure CLI`, der Befehlszeilenschnittstelle von Azure.
+> Teil von `azure-cli`.
 > Weitere Informationen: <https://learn.microsoft.com/cli/azure/config>.
 
 - Rufen Sie alle Konfigurationen ab:
