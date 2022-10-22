@@ -14,7 +14,7 @@
 
 - AWS コマンドのヘルプを参照する:
 
-`aws {{command}} help`
+`aws {{コマンド}} help`
 
 - 操作呼び出しに使用した認証情報の取得（パーミッションのトラブルシューティングに使用します）:
 
@@ -30,7 +30,7 @@
 
 - AWS リソースの対話型ウィザードを取得する:
 
-`aws dynamodb wizard {{new_table}}`
+`aws dynamodb wizard {{新しいテーブル}}`
 
 - JSON CLI スケルトンを生成する（Infrastructure as Code に役立ちます）:
 
