@@ -5,32 +5,32 @@
 
 - Instal satu paket atau lebih paket yang dipisahkan oleh spasi:
 
-`choco install {{nama_paket}}`
+`choco install {{paket}}`
 
 - Instal paket dari file konfigurasi khusus:
 
-`choco install {{lokasi/ke/nama_paket.config}}`
+`choco install {{jalan/menuju/paket.config}}`
 
 - Instal file nuspec atau nupkg tertentu:
 
-`choco install {{lokasi/ke/file}}`
+`choco install {{jalan/menuju/file}}`
 
 - Instal versi paket tertentu:
 
-`choco install {{nama_paket}} --version {{versi}}`
+`choco install {{paket}} --version {{versi}}`
 
 - Izinkan menginstal beberapa versi paket:
 
-`choco install {{nama_paket}} --allow-multiple`
+`choco install {{paket}} --allow-multiple`
 
 - Konfirmasikan semua prompt secara otomatis:
 
-`choco install {{nama_paket}} --yes`
+`choco install {{paket}} --yes`
 
 - Tentukan sumber khusus untuk menerima paket:
 
-`choco install {{nama_paket}} --source {{url_sumber|alias}}`
+`choco install {{paket}} --source {{url_sumber|alias}}`
 
 - Berikan nama pengguna dan kata sandi untuk otentikasi:
 
-`choco install {{nama_paket}} --user {{nama_user}} --password {{kata_sandi}}`
+`choco install {{paket}} --user {{nama_pengguna}} --password {{kata_sandi}}`
