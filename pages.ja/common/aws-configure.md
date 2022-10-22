@@ -9,7 +9,7 @@
 
 - 対話形式で AWS CLI の名前付きプロファイルを設定する（新規プロファイルの作成、または既存プロファイルの更新）:
 
-`aws configure --profile {{profile_name}}`
+`aws configure --profile {{プロファイル名}}`
 
 - 特定の設定変数の値を表示する:
 
