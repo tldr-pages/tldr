@@ -17,7 +17,7 @@
 
 - 特定プロファイルの設定変数の値を表示する:
 
-`aws configure get {{name}} --profile {{profile_name}}`
+`aws configure get {{名前}} --profile {{プロファイル名}}`
 
 - 特定の設定変数の値をセットする:
 
