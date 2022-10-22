@@ -4,7 +4,7 @@
 > Teil von `azure-cli`.
 > Weitere Informationen: <https://learn.microsoft.com/cli/azure/config>.
 
-- Rufen Sie alle Konfigurationen ab:
+- Rufe alle Konfigurationen ab:
 
 `az config get`
 
