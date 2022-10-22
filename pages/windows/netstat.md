@@ -7,6 +7,34 @@
 
 `netstat`
 
+- Display all active TCP connections and the TCP and UDP ports on which the computer is listening:
+
+`netstat -a`
+
+- Display the executable involved in creating each connection or listening port:
+
+`netstat -b`
+
+- Display network adapter statistics, such as the number of bytes and packets sent and received:
+
+`netstat -e`
+
+- Display active TCP connections and express addresses and port numbers numerically:
+
+`netstat -n`
+
+- Display active TCP connections and include the process ID (PID) for each connection:
+
+`netstat -o`
+
+- Display the contents of the IP routing table:
+
+`netstat -r`
+
+- Display statistics by protocol:
+
+`netstat -s`
+
 - Display a list of currently open ports and related IP addresses:
 
 `netstat -an`
