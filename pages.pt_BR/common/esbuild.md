@@ -33,4 +33,4 @@
 
 - Empacota uma lista de arquivos em um diretório de saída:
 
-`esbuild --bundle --outdir={{caminho/para/diretório_de_saída}} {{caminho/para/arquivo1}} {{caminho/para/arquivo2}}`
+`esbuild --bundle --outdir={{caminho/para/diretório_de_saída}} {{caminho/para/arquivo1 caminho/para/arquivo2 ...}}`
