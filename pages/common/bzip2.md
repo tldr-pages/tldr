@@ -14,3 +14,19 @@
 - Decompress a file to standard output:
 
 `bzip2 -dc {{path/to/compressed_file.bz2}}`
+
+- Test compressed file integrity:
+
+`bzip2 -t {{path/to/compressed_file.bz2}}`
+
+- Verbose mode -- show the compression ratio for each file processed:
+
+`bzip2 -v {{path/to/compressed_files.bz2}}`
+
+- Print help:
+
+`bzip2 -h`
+
+- Overwrite existing output files:
+
+`bzip2 -f {{path/to/compressed_file.bz2}}`
