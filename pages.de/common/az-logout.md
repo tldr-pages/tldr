@@ -8,6 +8,6 @@
 
 `az logout`
 
-- Melden Sie einen spezifischen Kontobenutzer ab:
+- Melde einen spezifischen Benutzernamen ab:
 
 `az logout --username {{alias@somedomain.com}}`
