@@ -25,7 +25,7 @@
 
 - 特定プロファイルの設定変数の値をセットする:
 
-`aws configure set {{name}} {{value}} --profile {{profile_name}}`
+`aws configure set {{名前}} {{価値}} --profile {{プロファイル名}}`
 
 - 設定エントリを一覧表示する:
 
