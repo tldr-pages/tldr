@@ -7,6 +7,6 @@
 
 `qm help {{command}}`
 
-- Get help about specified command in verbose output format:
+- Display help for a specific command in verbose output format:
 
 `qm help {{command}} --verbose {{boolean}}`
