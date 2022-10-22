@@ -1,28 +1,28 @@
 # loadkeys
 
 > Load the kernel keymap for the console.
-> More information: <https://manned.org/loadkeys.1>.
+> More information: <https://manned.org/loadkeys>.
 
 - Load a [d]efault keymap:
 
-`loadkeys -d (or --default)`
+`loadkeys --default`
 
-- Create a kernel source table:
+- Create a kernel source table [m]:
 
-`loadkeys -m (or --mktable)`
+`loadkeys --mktable`
 
 - Create a [b]inary keymap:
 
-`loadkeys -b (or --bkeymap)`
+`loadkeys --bkeymap`
 
-- Search and [P]arse keymap without action:
+- Search and [p]arse keymap without action:
 
-`loadkeys -p (or --parse)`
+`loadkeys --parse`
 
-- Suppress the all normal output:
+- Suppress all normal output [q]:
 
-`loadkeys -q (or --quiet)`
+`loadkeys --quiet`
 
-- Print [v]ersion number and exit:
+- Print [V]ersion number and exit:
 
-`loadkeys -V (or --version)`
+`loadkeys --version`
