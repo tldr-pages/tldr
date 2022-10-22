@@ -11,10 +11,6 @@
 
 `netstat -a`
 
-- Display the executable involved in creating each connection or listening port:
-
-`netstat -b`
-
 - Display network adapter statistics, such as the number of bytes and packets sent and received:
 
 `netstat -e`
