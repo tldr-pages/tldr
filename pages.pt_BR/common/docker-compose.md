@@ -1,6 +1,6 @@
 # docker compose
 
-> Executa e gerencia multi-containers de aplicações Docker
+> Executa e gerencia multi-containers de aplicações Docker.
 > Mais informações: <https://docs.docker.com/compose/reference/>.
 
 - Lista todos os containers em execução:
@@ -31,6 +31,6 @@
 
 `docker compose logs --follow`
 
-- Segue os logs de um container específico
+- Segue os logs de um container específico:
 
 `docker compose logs --follow {{nome_container}}`

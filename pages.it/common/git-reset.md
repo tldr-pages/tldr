@@ -10,11 +10,11 @@
 
 - Rimuovi dall'area di stage uno o più file:
 
-`git reset {{percorso/al/file1}} {{percorso/al/file2}}`
+`git reset {{percorso/del/file1}} {{percorso/del/file2}}`
 
 - Rimuovi dall'area di stage solo alcune porzioni di un file in modo interattivo:
 
-`git reset --patch {{percorso/al/file}}`
+`git reset --patch {{percorso/del/file}}`
 
 - Annulla l'ultimo commit, preservando tutte le modifiche nel filesystem:
 

@@ -1,6 +1,6 @@
 # git describe
 
-> Bir nesneye varolan referans üzerinden insanlar tarafından okunabilecek biçimde olan bir isim ver:
+> Bir nesneye varolan referans üzerinden insanlar tarafından okunabilecek biçimde olan bir isim ver.
 > Daha fazla bilgi: <https://git-scm.com/docs/git-describe>.
 
 - Mevcut commit için (en son eklenmiş etiket, ilave commit'lerin sayısı ve kısaltılmış commit değerini içeren) özel bir isim oluştur:

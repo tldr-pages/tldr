@@ -1,6 +1,6 @@
 # arch
 
-> Visa namnet på systemarkitekturen:
+> Visa namnet på systemarkitekturen.
 > Se även `uname`.
 > Mer information: <https://www.gnu.org/software/coreutils/arch>.
 
