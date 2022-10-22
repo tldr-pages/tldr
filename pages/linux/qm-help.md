@@ -1,6 +1,6 @@
 # qm help
 
-> Get help about specified command.
+> Display help for a specific command.
 > More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
 - Get help about specified command:
