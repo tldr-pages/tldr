@@ -1,0 +1,24 @@
+# adduser
+
+> Outil d'ajout d'utilisateurs.
+> Plus d'informations : <https://manpages.debian.org/latest/adduser/adduser.html>.
+
+- Crée un nouvel utilisateur avec un répertoire "home" générique et demande interactivement un mot de passe :
+
+`adduser {{nom_dutilisateur}}`
+
+- Crée un nouvel utilisateur sans répertoire "home" :
+
+`adduser --no-create-home {{nom_dutilisateur}}`
+
+- Crée un nouvel utilisateur avec un répertoire "home" correspondant au chemin donné :
+
+`adduser --home {{chemin/vers/le/répertoire}} {{nom_dutilisateur}}`
+
+- Crée un nouvel utilisateur avec l'interpréteur de commandes spécifié comme interpréteur de commandes de connexion :
+
+`adduser --shell {{chemin/vers/le/shell}} {{nom_dutilisateur}}`
+
+- Crée un nouvel utilisateur appartenant au groupe donné :
+
+`adduser --ingroup {{groupe}} {{nom_dutilisateur}}`
