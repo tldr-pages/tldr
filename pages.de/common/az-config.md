@@ -12,7 +12,7 @@
 
 `az config get {{sektionsname}}`
 
-- Legen Sie eine Konfiguration fest:
+- Setze eine Konfiguration:
 
 `az config set {{konfigurationsname}}={{wert}}`
 
