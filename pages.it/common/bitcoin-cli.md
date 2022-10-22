@@ -22,4 +22,4 @@
 
 - Esporta le informazioni sul portafogli in un file di testo:
 
-`bitcoin-cli dumpwallet "{{percorso/al/file}}"`
+`bitcoin-cli dumpwallet "{{percorso/del/file}}"`

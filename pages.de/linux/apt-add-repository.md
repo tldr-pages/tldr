@@ -15,6 +15,6 @@
 
 `apt-add-repository --update {{repository}}`
 
-- Aktiviere Source Pakete:
+- Aktiviere Source-Pakete:
 
 `apt-add-repository --enable-source {{repository}}`

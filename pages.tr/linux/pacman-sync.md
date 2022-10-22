@@ -7,7 +7,7 @@
 
 `sudo pacman --sync {{paket_ismi}}`
 
-- Tüm paketleri senkronize et ve güncelle (bahsi geçen paketleri güncellemeden indirmek için `--downloadonly` eki gereklidir)
+- Tüm paketleri senkronize et ve güncelle (bahsi geçen paketleri güncellemeden indirmek için `--downloadonly` eki gereklidir):
 
 `sudo pacman --sync --refresh --sysupgrade`
 

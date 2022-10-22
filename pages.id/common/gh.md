@@ -4,7 +4,7 @@
 > Beberapa subcommands seperti `gh config` memiliki dokumentasi sendiri.
 > Informasi lebih lanjut: <https://cli.github.com/>.
 
-- Mengklon sebuah GitHub repositori di lokal
+- Mengklon sebuah GitHub repositori di lokal:
 
 `gh repo clone {{pemilik}}/{{repositori}}`
 
