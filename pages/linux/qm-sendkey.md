@@ -1,6 +1,6 @@
 # qm sendkey
 
-> Send the Qemu monitor encoding key event to the virtual machine.
+> Send the QEMU monitor encoding key event to the virtual machine.
 > More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
 - Send the specified key event to the virtual machine:
