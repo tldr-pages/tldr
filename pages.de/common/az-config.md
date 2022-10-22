@@ -8,7 +8,7 @@
 
 `az config get`
 
-- Rufen Sie alle Konfigurationen in einem Abschnitt ab:
+- Rufe alle Konfigurationen in einer Sektion ab:
 
 `az config get {{sektionsname}}`
 
