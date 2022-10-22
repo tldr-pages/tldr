@@ -5,11 +5,11 @@
 
 - Analizza un file cercando vulnerabilità:
 
-`clamscan {{percorso/al/file}}`
+`clamscan {{percorso/del/file}}`
 
 - Analizza ricorsivamente tutti i file in una specifica directory:
 
-`clamscan -r {{percorso/alla/directory}}`
+`clamscan -r {{percorso/della/directory}}`
 
 - Analizza dati da standard input:
 
@@ -17,7 +17,7 @@
 
 - Specifica un file o directory di file da usare come database virus:
 
-`clamscan --database {{percorso/a/file_o_directory}}`
+`clamscan --database {{percorso/del/file_o_directory}}`
 
 - Analizza la directory corrente e mostra in output solo i file infetti:
 
@@ -25,11 +25,11 @@
 
 - Scrivi il risultato di uno scan in un file di log:
 
-`clamscan --log {{percorso/a/file_log}}`
+`clamscan --log {{percorso/del/file_log}}`
 
 - Sposta i file infetti in una specifica directory:
 
-`clamscan --move {{percorso/a/directory_quarantena}}`
+`clamscan --move {{percorso/della/directory_quarantena}}`
 
 - Elimina i file infetti:
 

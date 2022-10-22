@@ -3,7 +3,7 @@
 > Gestore di pacchetti di Rust.
 > Gestisce progetti Rust ed i moduli dai quali sono dipendenti (detti crate).
 > Alcuni comandi aggiuntivi, come `cargo build`, hanno la propria documentazione.
-> Maggiori informazioni: <https://crates.io/>.
+> Maggiori informazioni: <https://crates.io>.
 
 - Cerca una crate:
 
@@ -23,9 +23,9 @@
 
 - Crea un nuovo progetto Rust binario o di libreria nella directory specificata:
 
-`cargo new {{path/a/directory}} --{{bin|lib}}`
+`cargo new {{path/della/directory}} --{{bin|lib}}`
 
-- Builda il progetto Rust nella cartella corrente:
+- Builda il progetto Rust nella directory corrente:
 
 `cargo build`
 

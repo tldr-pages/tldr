@@ -74,7 +74,9 @@ Alguns subcomandaments com `example command` tenen la seva pròpia documentació
 ---
 ### da
 
-Not translated yet.
+```markdown
+Visse underkommandoer såsom `example command` har sin egen dokumentation. 
+```
 
 ---
 ### de
