@@ -7,7 +7,7 @@
 
 `qm showcmd {{vm_id}}`
 
-- Puts each option on a new line to enhance human readability:
+- Put each option on a new line to enhance human readability:
 
 `qm showcmd --pretty {{true}} {{vm_id}}`
 
