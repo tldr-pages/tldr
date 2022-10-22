@@ -9,4 +9,4 @@
 
 - Get help about specified command in verbose output format:
 
-`qm help --verbose {{boolean}}`
+`qm help {{command}} --verbose {{boolean}}`
