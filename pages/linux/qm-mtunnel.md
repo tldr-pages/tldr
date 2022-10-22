@@ -4,6 +4,6 @@
 > It should not be invoked manually.
 > More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
-- Used by qmigrate:
+- Command used by `qmigrate` during data migration from a VM to another host:
 
 `qm mtunnel`
