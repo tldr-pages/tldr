@@ -4,7 +4,7 @@
 > Teil der `Azure CLI`, der Befehlszeilenschnittstelle von Azure.
 > Weitere Informationen: <https://learn.microsoft.com/cli/azure/reference-index#az_logout>.
 
-- Melden Sie das aktuelle aktive Konto ab:
+- Melde das aktuelle aktive Konto ab:
 
 `az logout`
 
