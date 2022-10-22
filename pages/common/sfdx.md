@@ -34,11 +34,3 @@
 - Assign a permission set to your Org user:
 
 `sfdx force:user:permset:assign -n {{Permission Set Name}} -u {{Org Alias}}`
-
-- Check Salesforce CLI version
-
-`sfdx -v`
-
-- Check and update Salesforce CLI
-
-`sfdx update`
