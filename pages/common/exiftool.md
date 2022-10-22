@@ -9,7 +9,7 @@
 
 - Remove all EXIF metadata from the given files:
 
-`exiftool -All= {{file1}} {{file2}} {{file3}}`
+`exiftool -All= {{file1 file2 ...}}`
 
 - Remove all EXIF metadata from the given image files, then re-add metadata for color and orientation:
 
