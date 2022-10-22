@@ -5,7 +5,7 @@
 
 - Get help about specified command:
 
-`qm help`
+`qm help {{command}}`
 
 - Get help about specified command in verbose output format:
 
