@@ -19,11 +19,11 @@
 
 `sfdx force:org:display -u {{Org Alias}}`
 
-- Push source meta data to an Org
+- Push source meta data to an Org:
 
 `sfdx force:source:push -u {{Org Alias}}`
 
-- Pull source meta data from an Org
+- Pull source meta data from an Org:
 
 `sfdx force:source:pull -u {{Org Alias}}`
 
