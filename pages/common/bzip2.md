@@ -1,7 +1,7 @@
 # bzip2
 
 > A block-sorting file compressor.
-> More information: <http://bzip.org>.
+> More information: <https://manned.org/bzip2>.
 
 - Compress a file:
 
@@ -23,10 +23,10 @@
 
 `bzip2 -v {{path/to/compressed_files.bz2}}`
 
-- Print help:
-
-`bzip2 -h`
-
 - Overwrite existing output files:
 
 `bzip2 -f {{path/to/compressed_file.bz2}}`
+
+- Print help:
+
+`bzip2 -h`
