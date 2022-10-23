@@ -1,7 +1,7 @@
 # loadkeys
 
 > Load keyboard translation tables.
-> More information: <https://manned.org/loadkeys.1>
+> More information: <https://manned.org/loadkeys.1>.
 
 - Loads the default keymap:
 
@@ -12,4 +12,6 @@
 
 `loadkeys --console {{/path/to/console}} filename`
 
-In Debian systems (like Ubuntu), install the package console-data using `sudo apt-get install console-data` and use standard names for keymaps of different locales (like `loadkeys --console {{/path/to/console}} uk`). Use root privilege if it shows an error like `could not open /path/to/console`.
+In Debian systems (like Ubuntu), install the package console-data using `sudo apt-get install console-data`.\
+Then use standard names for keymaps of different locales (like `loadkeys --console {{/path/to/console}} uk`).\
+Use root privilege if it shows an error like `could not open /path/to/console`.
