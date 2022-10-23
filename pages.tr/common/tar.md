@@ -28,7 +28,7 @@
 
 `tar caf {{target.tar.xz}} {{file1}} {{file2}} {{file3}}`
 
-- Bir tar arşivinin içeriğini listeler:
+- Bir tar arşivinin içeriğini ayrıntılı olarak listeler:
 
 `tar tvf {{source.tar}}`
 
