@@ -13,7 +13,7 @@
 
 - Zeige nur konkrete Geräte oder Mountpoints:
 
-`duf {{path/to/directory1 path/to/directory2 ...}}`
+`duf {{pfad/zu/verzeichnis1 pfad/zu/verzeichnis2 ...}}`
 
 - Sortiere die Ergebnisse durch ein spezifisches Kriterium:
 
