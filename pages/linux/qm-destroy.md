@@ -3,7 +3,7 @@
 > Destroy a virtual machine (VM) in QEMU/KVM Virtual Machine Manager.
 > More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
-- Destroy a specific VM:
+- Destroy a specific virtual machine:
 
 `qm destroy {{vm_id}}`
 
@@ -11,10 +11,10 @@
 
 `qm destroy {{vm_id}} --destroy-unreferenced-disks`
 
-- Remove VMID from all configurations such as backup & replication jobs:
+- Destroy a virtual machine and remove from all locations (inventory, backup jobs, high availability managers, etc.):
 
 `qm destroy {{vm_id}} --purge`
 
-- Ignore locks and force destroy - must be run as root:
+- Destroy a specific virtual machine ignoring locks and forcing destroy:
 
-`qm destroy {{vm_id}} --skiplock`
+`sudo qm destroy {{vm_id}} --skiplock`
