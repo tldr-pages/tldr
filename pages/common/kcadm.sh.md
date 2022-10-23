@@ -5,7 +5,7 @@
 
 - Start an authenticated session:
 
-`kcadm.sh config credentials --server {{host}} --realm {{realm_name}} --user {user_name} --password {{password}}`
+`kcadm.sh config credentials --server {{host}} --realm {{realm_name}} --user {{username}} --password {{password}}`
 
 - Create a user:
 
