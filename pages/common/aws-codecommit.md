@@ -11,10 +11,10 @@
 
 `aws configure`
 
-- Display help:
-
-`aws codecommit help`
-
 - View information about a specific CodeCommit command:
 
 `aws codecommit {{command-name}} help`
+
+- Display help:
+
+`aws codecommit help`
