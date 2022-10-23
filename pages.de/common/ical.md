@@ -1,7 +1,7 @@
 # ical
 
 > Ein islamischer (Hijri) Kalender und Konvertor für das Terminal.
-> Weitere Informationen: https://manned.org/ical.
+> Weitere Informationen: <https://manned.org/ical>.
 
 - Zeige den Kalender von diesem Monat an:
 
