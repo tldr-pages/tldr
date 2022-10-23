@@ -1,6 +1,6 @@
 # git revert
 
-> Crea nuevos commits que revierten el efecton de los anteriores.
+> Crea nuevos commits que revierten el efecto de los anteriores.
 > Más información: <https://git-scm.com/docs/git-revert>.
 
 - Revierte el commit más reciente:
