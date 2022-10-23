@@ -1,7 +1,7 @@
 # mv
 
 > Utilizado para movimentação de arquivos entre diretórios, ou renomeá-los.
-> Para mais detalhes, acesse [este site](https://url-to-upstream.tld).
+> Para mais detalhes, acesse [este site](https://manned.org/mv).
 
 - Para mover arquivos:
 
