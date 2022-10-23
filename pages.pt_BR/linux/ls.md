@@ -1,4 +1,5 @@
-# ls
+#ls
+
 > Utilizado para listar os arquivos presentes em um diretório.
 > Para mais detalhes, acesse [este site](https://manned.org/ls).
 
