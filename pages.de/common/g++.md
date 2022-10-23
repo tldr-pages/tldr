@@ -24,6 +24,6 @@
 
 `g++ -c {{pfad/zu/quelldatei_1.cpp pfad/zu/quelldatei_2.cpp ...}} && g++ -o {{pfad/zu/binärdatei}} {{pfad/zu/quelldatei_1.o pfad/zu/quelldatei_2.o ...}}`
 
-- Gib die Version von g++ aus:
+- Gib die Version von `g++` aus:
 
 `g++ --version`
