@@ -18,4 +18,4 @@
 
 `ls -la`
 
-> Esses são apenas algumas flags (-l, -a, -la) de ls. Refira ao site citado acima para mais exemplos.
+- Esses são apenas algumas flags (-l, -a, -la) de ls. Refira ao site citado acima para mais exemplos.

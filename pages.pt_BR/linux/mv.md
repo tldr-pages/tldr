@@ -5,24 +5,12 @@
 
 - Para mover arquivos:
 
-`mv <arquivo_1> <arquivo_2> <arquivo_3> <...> <destino>`
-
-> *Note que o destino sempre será o último a ser citado, e deverá ser um diretório.*
-
-> Exemplo de movimentação:
-
-`mv foto1.png foto2.png foto6.png Palestra`
+`mv {{arquivo_1}} {{arquivo_2}} {{arquivo_3}} <...> {{destino}}`
 
 - Também é possível mover todos os arquivos de um diretório para outro, utilizando-se do operador \*.
 
-`mv fotos/* viagem_ao_Rio`
-
-> *No exemplo, todas as fotos do diretório "fotos" serão movidas para o diretório "viagem_ao_Rio".*
+`mv {{diretório}}/* {{diretório_de_destino}}`
 
 - Para renomear arquivos:
 
-`mv <arquivo> <novo_nome_do_arquivo>`
-
-> Exemplo:
-
-`mv foto1.png abertura_da_palestra.png`
+`mv {{arquivo}} {{novo_nome_do_arquivo}}`
