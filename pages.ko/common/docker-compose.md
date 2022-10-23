@@ -11,11 +11,11 @@
 
 `docker compose up -d`
 
-- 모든 컨테이너 시작, 필요 시 재빌드:
+- 모든 컨테이너 실행, 필요 시 재빌드:
 
 `docker compose up --build`
 
-- 특정 구성 파일을 사용해 모든 컨테이너 시작:
+- 특정 구성 파일을 사용해 모든 컨테이너 실행:
 
 `docker compose --file {{경로/파일명}} up`
 
