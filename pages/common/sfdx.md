@@ -5,7 +5,7 @@
 
 - Authorize a Salesforce Org:
 
-`sfdx force:auth:web:login -a {{Org Alias}} -r {{Org URL}}`
+`sfdx force:auth:web:login -a {{org_alias}} -r {{org_url}}`
 
 - List all authorized Orgs:
 
@@ -13,24 +13,24 @@
 
 - Open an Org in your Browser:
 
-`sfdx force:org:open -u {{Org Alias}}`
+`sfdx force:org:open -u {{org_alias}}`
 
 - Display Org information:
 
-`sfdx force:org:display -u {{Org Alias}}`
+`sfdx force:org:display -u {{org_alias}}`
 
 - Push source meta data to an Org:
 
-`sfdx force:source:push -u {{Org Alias}}`
+`sfdx force:source:push -u {{org_alias}}`
 
 - Pull source meta data from an Org:
 
-`sfdx force:source:pull -u {{Org Alias}}`
+`sfdx force:source:pull -u {{org_alias}}`
 
 - Generate a password for your Org user:
 
-`sfdx force:user:password:generate -u {{Org Alias}}`
+`sfdx force:user:password:generate -u {{org_alias}}`
 
 - Assign a permission set to your Org user:
 
-`sfdx force:user:permset:assign -n {{Permission Set Name}} -u {{Org Alias}}`
+`sfdx force:user:permset:assign -n {{permission_set_name}} -u {{org_alias}}`
