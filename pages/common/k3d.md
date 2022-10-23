@@ -15,7 +15,7 @@
 
 `k3d node create {{node_name}}`
 
-- Import a image from docker into k3d cluster:
+- Import an image from docker into k3d [c]luster:
 
 `k3d image import {{image_name}} -c {{cluster_name}}`
 
