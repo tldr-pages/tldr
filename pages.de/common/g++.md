@@ -16,7 +16,7 @@
 
 `g++ {{pfad/zu/quelldatei.cpp}} -std={{C++98|C++11|C++14|C++17}} -o {{pfad/zu/binärdatei}}`
 
-- Binde Bibliotheken, die sich an einem anderen Pfad als die Quelldatei befinden, mit ein:
+- Binde Bibliotheken, die sich an einem anderen Pfad als die Quelldatei befinden, ein:
 
 `g++ {{pfad/zu/quelldatei.cpp}} -o {{pfad/zu/binärdatei}} -I{{pfad/zu/headerdatei}} -L{{pfad/zu/bibliothek}} -l{{bibliotheks_name}}`
 
