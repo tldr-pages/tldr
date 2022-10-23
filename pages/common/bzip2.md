@@ -27,6 +27,6 @@
 
 `bzip2 -f {{path/to/compressed_file.bz2}}`
 
-- Print help:
+- Display help:
 
 `bzip2 -h`
