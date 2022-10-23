@@ -7,7 +7,7 @@
 
 `qm destroy {{vm_id}}`
 
-- Destroy all disks with the same VMID that are not explicitly referenced in the configuration:
+- Destroy all disks that are not explicitly referenced in a specific virtual machine's configuration:
 
 `qm destroy {{vm_id}} --destroy-unreferenced-disks`
 
