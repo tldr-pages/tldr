@@ -3,7 +3,7 @@
 > Check the connection status of a PostgreSQL server.
 > More information: <https://www.postgresql.org/docs/current/app-pg-isready.html>.
 
-- Check connection with hostname and port:
+- Check connection with a specific hostname and port:
 
 `pg_isready -h {{hostname}} -p {{port}}`
 
