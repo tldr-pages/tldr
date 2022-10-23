@@ -1,6 +1,5 @@
 # docker images
 
-> Manage Docker images.
 > 도커 이미지 관리.
 > 더 많은 정보: <https://docs.docker.com/engine/reference/commandline/images/>.
 
