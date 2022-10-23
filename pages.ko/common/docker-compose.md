@@ -15,22 +15,22 @@
 
 `docker compose up --build`
 
-- 특정 구성 파일을 사용해 모든 컨테이너 시작
+- 특정 구성 파일을 사용해 모든 컨테이너 시작:
 
 `docker compose --file {{경로/파일명}} up`
 
-- 실행 중인 모든 컨테이너 중지
+- 실행 중인 모든 컨테이너 중지:
 
 `docker compose stop`
 
-- 모든 컨테이너, 네트워크, 이미지, 볼륨 중지 및 삭제
+- 모든 컨테이너, 네트워크, 이미지, 볼륨 중지 및 삭제:
 
 `docker compose down --rmi all --volumes`
 
-- 모든 컨테이너에 대한 로그 팔로우
+- 모든 컨테이너에 대한 로그 팔로우:
 
 `docker compose logs --follow`
 
-- 특정 컨테이너에 대한 로그 팔로우
+- 특정 컨테이너에 대한 로그 팔로우:
 
 `docker compose logs --follow {{컨테이너_이름}}`
