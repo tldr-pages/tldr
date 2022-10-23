@@ -12,7 +12,7 @@
 
 `git grep {{cadena_a_buscar}} -- {{patrón_de_archivos}}`
 
-- Busca una cadena en los archivos rastreados, incluyendo submodulos:
+- Busca una cadena en los archivos rastreados, incluyendo submódulos:
 
 `git grep --recurse-submodules {{cadena_a_buscar}}`
 
