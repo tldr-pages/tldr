@@ -1,6 +1,6 @@
 # kcadm.sh
 
-> With Keycloak, you can perform administration tasks from the command-line interface (CLI) by using the Admin CLI command-line tool.
+> Perform administration tasks from the command-line interface (CLI).
 > More information: <https://www.keycloak.org/docs/latest/server_admin/#admin-cli>.
 
 - Start an authenticated session:
