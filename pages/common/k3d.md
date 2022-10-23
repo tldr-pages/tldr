@@ -1,6 +1,6 @@
 # k3d
 
-> K3d is a wrapper CLI that helps you to easily create k3s clusters inside docker.
+> Wrapper CLI to easily create k3s clusters inside docker.
 > More information: <https://k3d.io/>.
 
 - Create a cluster:
