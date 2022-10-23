@@ -3,7 +3,6 @@
 > Load keyboard translation tables.
 > More information: <https://manned.org/loadkeys.1>
 
-
 - Loads the default keymap:
 
 `loadkeys --default` \
