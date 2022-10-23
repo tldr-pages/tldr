@@ -15,10 +15,10 @@
 
 `eyewitness -x {{filename}} -d {{foldername}}`
 
-- Scan multiple urls from file providing a specific useragent such as Mozilla/4.0: 
+- Scan multiple urls from file providing a specific useragent such as Mozilla/4.0:
 
 `eyewitness -f {{filename}} --useragent {{Mozilla/4.0}}`
 
 - Scan multiple urls from file using --jitter flag to randomize accessing each url with a base number of seconds:
 
-`eyewitness -f {{filename}} --jitter {{seconds}}
+`eyewitness -f {{filename}} --jitter {{seconds}}`
