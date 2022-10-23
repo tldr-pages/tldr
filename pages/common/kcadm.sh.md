@@ -9,7 +9,7 @@
 
 - Create a user:
 
-`kcadm.sh create users -s username={{user_name}} -r {{realm_name}}`
+`kcadm.sh create users -s username={{username}} -r {{realm_name}}`
 
 - List all realms:
 
