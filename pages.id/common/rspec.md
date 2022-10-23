@@ -13,20 +13,20 @@
 
 - Menjalankan file tes dalam direktori khusus:
 
-`rspec {{lokasi/ke/directory}}`
+`rspec {{jalan/ke/directory}}`
 
 - Menjalankan file tes khusus:
 
-`rspec {{lokasi/ke/file}}`
+`rspec {{jalan/ke/file}}`
 
 - Menjalankan beberapa file tes:
 
-`rspec {{lokasi/ke/file1}} {{lokasi/ke/file2}}`
+`rspec {{jalan/ke/file1}} {{jalan/ke/file2}}`
 
 - Menjalankan kasus khusus dalam file tes (misalnya tes yang ada di baris 83):
 
-`rspec {{lokasi/ke/file}}:{{83}}`
+`rspec {{jalan/ke/file}}:{{83}}`
 
-- Menjalankan tes dengan _seed_ khusus:
+- Menjalankan tes dengan seed khusus:
 
-`rspec --seed {{seed_number}}`
+`rspec --seed {{angka_seed}}`
