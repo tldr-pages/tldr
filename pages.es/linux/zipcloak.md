@@ -13,4 +13,4 @@
 
 - Genera un nuev[O] archivo zip con el contenido encriptado:
 
-`zipcloak {{ruta/al/archivo_encriptado.zip}} -O {{ruta/al/archivo_encriptado.zip}}`
+`zipcloak {{ruta/al/archivo.zip}} -O {{ruta/al/archivo_encriptado.zip}}`
