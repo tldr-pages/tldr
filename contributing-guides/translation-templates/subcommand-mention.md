@@ -20,6 +20,7 @@ This file contains the translation templates of this notice.
 [it](#it) •
 [ja](#ja) •
 [ko](#ko) •
+[lo](#lo) •
 [ml](#ml) •
 [ne](#ne) •
 [nl](#nl) •
@@ -134,6 +135,11 @@ Alcuni comandi aggiuntivi, come `example command`, hanno la propria documentazio
 
 ---
 ### ko
+
+Not translated yet.
+
+---
+### lo
 
 Not translated yet.
 
