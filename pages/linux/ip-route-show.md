@@ -31,6 +31,6 @@
 
 `ip route show cache`
 
-- Display only IPv6 | IPv4 routes
+- Display only IPv6 | IPv4 routes:
 
 `ip {{-6|-4}} route show`
