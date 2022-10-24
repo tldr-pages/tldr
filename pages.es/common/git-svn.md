@@ -11,7 +11,7 @@
 
 `git svn clone -r{{1234}}:HEAD {{https://svn.ejemplo.net/subversion/repo}} {{directorio_local}}`
 
-- Actualiza el clon local apartir del repositorio SVN:
+- Actualiza el clon local a partir del repositorio SVN:
 
 `git svn rebase`
 

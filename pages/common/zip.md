@@ -4,17 +4,17 @@
 > See also: `unzip`.
 > More information: <https://manned.org/zip>.
 
-- Add files/directories to a specific archive:
+- Add files/directories to a specific archive ([r]ecursively):
 
 `zip -r {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
-- Remove files/directories from a specific archive:
+- Remove files/directories from a specific archive ([d]elete):
 
 `zip -d {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
 - Archive files/directories e[x]cluding specified ones:
 
-`zip {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}} -x {{path/to/excluded_files_or_directories}}`
+`zip -r {{path/to/compressed.zip}} {{path/to/file_or_directory1 path/to/file_or_directory2 ...}} -x {{path/to/excluded_files_or_directories}}`
 
 - Archive files/directories with a specific compression level (`0` - the lowest, `9` - the highest):
 

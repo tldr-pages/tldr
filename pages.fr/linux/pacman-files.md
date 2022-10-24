@@ -4,10 +4,6 @@
 > Voir aussi `pkgfile`.
 > Plus d'informations : <https://man.archlinux.org/man/pacman.8>.
 
-- Affiche l'aide :
-
-`pacman --files --help`
-
 - Mets à jour les bases de données des fichiers :
 
 `sudo pacman --files --refresh`
@@ -27,3 +23,7 @@
 - Liste les fichiers contenus dans un paquet :
 
 `pacman --files --list {{paquet}}`
+
+- Affiche l'aide :
+
+`pacman --files --help`

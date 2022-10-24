@@ -13,11 +13,11 @@
 
 - Esegui test utilizzando uno specifico file di configurazione:
 
-`atoum -c {{percorso/al/file}}`
+`atoum -c {{percorso/del/file}}`
 
 - Esegui uno specifico file di test:
 
-`atoum -f {{percorso/al/file}}`
+`atoum -f {{percorso/del/file}}`
 
 - Esegui una specifica directory di test:
 
@@ -33,4 +33,4 @@
 
 - Carica un file di bootstrap personalizzato prima di eseguire i test:
 
-`atoum --bootstrap-file {{percorso/al/file}}`
+`atoum --bootstrap-file {{percorso/del/file}}`

@@ -15,6 +15,6 @@
 
 `autoflake --remove-unused-variables --in-place {{file.py}}`
 
-- Rimuovi le variabili inutilizzate da tutti i file in una cartella, ricorsivamente e sovrascrivendoli:
+- Rimuovi le variabili inutilizzate da tutti i file in una directory, ricorsivamente e sovrascrivendoli:
 
-`autoflake --remove-unused-variables --in-place --recursive {{percorso/a/cartella}}`
+`autoflake --remove-unused-variables --in-place --recursive {{percorso/della/directory}}`

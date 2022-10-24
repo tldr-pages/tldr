@@ -7,7 +7,7 @@
 
 `plantuml {{pfad/zu/diagramm1.puml}} {{pfad/zu/diagramm2.puml}}`
 
-- Rendere eine Diagramm im vorgegebenen Format (z.B. `png`, `pdf`, `svg`, `txt`):
+- Rendere ein Diagramm im vorgegebenen Format (z.B. `png`, `pdf`, `svg`, `txt`):
 
 `plantuml -t {{format}} {{pfad/zu/diagramm.puml}}`
 

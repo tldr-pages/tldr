@@ -7,7 +7,7 @@
 
 `sudo pacman-key --init`
 
-- Add the default ArchLinux keys:
+- Add the default Arch Linux keys:
 
 `sudo pacman-key --populate {{archlinux}}`
 

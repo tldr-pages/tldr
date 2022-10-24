@@ -9,7 +9,7 @@
 
 - Scrivi il log di sistema su file:
 
-`logcat -f {{percorso/al/file}}`
+`logcat -f {{percorso/del/file}}`
 
 - Mostra le righe corrispondenti ad una specifica espressione regolare:
 
