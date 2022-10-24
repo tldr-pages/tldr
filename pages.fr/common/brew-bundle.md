@@ -3,7 +3,7 @@
 > Outil de gestion de paquets pour Homebrew, Homebrew Cask et le Mac App Store.
 > Plus d'informations : <https://github.com/Homebrew/homebrew-bundle>.
 
-- Installe tous les paquets listés dans le Brewfile situé dans le chemin courant :
+- Installe tous les paquets listés dans le Brewfile situé dans le dossier courant :
 
 `brew bundle`
 
