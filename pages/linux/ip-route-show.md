@@ -19,6 +19,18 @@
 
 `ip route show table {{all|unspec|0}}`
 
+- List routes with given device only
+
+`ip route show dev {{eth0}}`
+
+- List routes with given scope only
+
+`ip route show scope link`
+
 - Display the routing cache: 
 
 `ip route show cache`
+
+- Display only IPv6 | IPv4 routes
+
+`ip {{-6|-4}} route show`
