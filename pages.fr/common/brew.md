@@ -23,7 +23,7 @@
 
 `brew outdated`
 
-- Recherche une formule (c.a.d. un package) et/ou un casks (c.a.d une application native) :
+- Recherche une formule (c.a.d. un package) et/ou un cask (c.a.d une application native) :
 
 `brew search {{texte}}`
 
