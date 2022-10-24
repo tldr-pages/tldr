@@ -25,4 +25,4 @@
 
 - Inverse la table de caractères :
 
-`asciiart --invert-chars {{chemin/vers/limage.jpg}}`
+`asciiart --invert-chars {{chemin/vers/image.jpg}}`
