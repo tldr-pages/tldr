@@ -17,7 +17,7 @@
 
 - Test a specific website in debug mode:
 
-`./goldeneye.py {{website_url}} -d"`
+`./goldeneye.py {url}} -d"`
 
 - Display help:
 
