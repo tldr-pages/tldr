@@ -3,9 +3,9 @@
 > Vim-Tutor zum Erlernen grundlegender Vim-Befehle.
 > Weitere Informationen: <https://manned.org/vimtutor>.
 
-- Öffne den Vim-Tutor in englischer|französischer|deutscher|... Sprache:
+- Öffne den Vim-Tutor in der gegebenen Sprache (de, en, fr, ...):
 
-`vimtutor {{en|fr|de|...}}`
+`vimtutor {{sprache}}`
 
 - Beende den Vim-Tutor:
 
