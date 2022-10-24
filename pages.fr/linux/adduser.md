@@ -3,7 +3,7 @@
 > Outil d'ajout d'utilisateurs.
 > Plus d'informations : <https://manpages.debian.org/latest/adduser/adduser.html>.
 
-- Crée un nouvel utilisateur avec un répertoire "home" générique et demande interactivement un mot de passe :
+- Crée un nouvel utilisateur avec un répertoire personnel générique et demande interactivement un mot de passe :
 
 `adduser {{nom_d_utilisateur}}`
 
