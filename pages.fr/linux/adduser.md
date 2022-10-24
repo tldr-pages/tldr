@@ -13,7 +13,7 @@
 
 - Crée un nouvel utilisateur avec un répertoire personnel correspondant au dossier spécifié :
 
-`adduser --home {{chemin/vers/le/répertoire}} {{nom_dutilisateur}}`
+`adduser --home {{chemin/vers/dossier}} {{nom_d_utilisateur}}`
 
 - Crée un nouvel utilisateur avec l'interpréteur de commandes spécifié comme interpréteur de commandes de connexion :
 
