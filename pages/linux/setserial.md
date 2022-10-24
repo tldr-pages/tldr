@@ -1,20 +1,20 @@
 # setserial
 
-> Read or modify a LInux serial port information.
-> More information: <https://linux.die.net/man/8/setserial>.
+> Read and modify serial ports information.
+> More information: <https://manned.org/setserial>.
 
-- Print all information of the supplied serial device (usually of the form /dev/cua[0-3]):
+- Print all information of a serial device:
 
-`setserial -a {{device}}`
+`setserial -a {{/dev/cua0}}`
 
-- Print a summary of confguration of the serial device (useful for printing during bootup process):
+- Print a summary of configuration of a specific serial device (useful for printing during bootup process):
 
 `setserial -b {{device}}`
 
-- Set configuration parameters to a device by passing commandline arguments. Superuser privilege is required in most cases:
+- Set a specific configuration parameter to a device:
 
 `sudo setserial {{device}} {{parameter}}`
 
-- Read configuration of a list of devices by using the `-g` option:
+- Print configuration of a list of devices:
 
-`setserial -g {{device1}} {{device2}} ...`
+`setserial -g {{device1 device2 ...}}`
