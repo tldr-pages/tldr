@@ -27,7 +27,7 @@
 
 `ip route show scope link`
 
-- Display the routing cache: 
+- Display the routing cache:
 
 `ip route show cache`
 
