@@ -7,21 +7,25 @@
 
 `loadkeys --default`
 
-- Create a kernel source table [m]:
+- Create a kernel source table:
 
 `loadkeys --mktable`
 
-- Create a [b]inary keymap:
+- Create a binary keymap:
 
 `loadkeys --bkeymap`
 
-- Search and [p]arse keymap without action:
+- Search and parse keymap without action:
 
 `loadkeys --parse`
 
-- Suppress all normal output [q]:
+- Suppress all normal output:
 
 `loadkeys --quiet`
+
+- Display help:
+
+`loadkeys --help`
 
 - Print [V]ersion number and exit:
 
