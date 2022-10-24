@@ -17,4 +17,4 @@
 
 - Spostati ad una specifica directory in un altro disco:
 
-`cd /d {{C}}:{{percorso\alla\directory}}`
+`cd /d {{C}}:{{percorso\della\directory}}`
