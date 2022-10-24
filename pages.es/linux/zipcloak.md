@@ -5,12 +5,12 @@
 
 - Encripta el contenido de un archivo zip:
 
-`zipcloak {{ruta/al/archivo.zip}}`
+`zipcloak {{ruta/al/archivo_encriptado.zip}}`
 
 - [d]esencripta el contenido de un archivo zip:
 
-`zipcloak -d {{ruta/al/archivo.zip}}`
+`zipcloak -d {{ruta/al/archivo_encriptado.zip}}`
 
-- Genera [O] un nuevo archivo zip con el contenido encriptado:
+- Genera un nuev[O] archivo zip con el contenido encriptado:
 
-`zipcloak {{ruta/al/archivo.zip}} -O {{ruta/al/archivo.zip}}`
+`zipcloak {{ruta/al/archivo_encriptado.zip}} -O {{ruta/al/archivo_encriptado.zip}}`
