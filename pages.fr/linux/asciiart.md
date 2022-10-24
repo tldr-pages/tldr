@@ -5,7 +5,7 @@
 
 - Lit une image depuis un fichier et l'affiche en ASCII :
 
-`asciiart {{chemin/vers/limage.jpg}}`
+`asciiart {{chemin/vers/image.jpg}}`
 
 - Lit une image depuis une URL et l'affiche en ASCII :
 

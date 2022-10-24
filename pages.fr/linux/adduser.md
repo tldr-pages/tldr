@@ -21,4 +21,4 @@
 
 - Crée un nouvel utilisateur appartenant au groupe donné :
 
-`adduser --ingroup {{groupe}} {{nom_dutilisateur}}`
+`adduser --ingroup {{groupe}} {{nom_d_utilisateur}}`
