@@ -3,7 +3,7 @@
 > Load the kernel keymap for the console.
 > More information: <https://manned.org/loadkeys>.
 
-- Load a [d]efault keymap:
+- Load a default keymap:
 
 `loadkeys --default`
 
@@ -27,6 +27,6 @@
 
 `loadkeys --help`
 
-- Print [V]ersion number and exit:
+- Display version:
 
 `loadkeys --version`
