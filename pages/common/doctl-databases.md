@@ -3,7 +3,7 @@
 > Managing your MySQL, Redis, PostgreSQL, and MongoDB database services.
 > More information: <https://docs.digitalocean.com/reference/doctl/reference/databases/>.
 
-- List your database clusters:
+- List database clusters:
 
 `doctl databases list`
 
