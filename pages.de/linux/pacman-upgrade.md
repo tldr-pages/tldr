@@ -21,7 +21,7 @@
 
 - Liste Pakete auf, welche betroffen sein würden (installiert keine Pakete):
 
-`pacman --query --print {{pfad/zu/paket.pkg.tar.zst}}`
+`pacman --upgrade --print {{pfad/zu/paket.pkg.tar.zst}}`
 
 - Zeige Hilfe an:
 

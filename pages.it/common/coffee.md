@@ -5,15 +5,15 @@
 
 - Esegui uno script:
 
-`coffee {{percorso/al/file.coffee}}`
+`coffee {{percorso/del/file.coffee}}`
 
 - Compila in JavaScript e salva lo script con lo stesso nome:
 
-`coffee --compile {{percorso/al/file.coffee}}`
+`coffee --compile {{percorso/del/file.coffee}}`
 
 - Compila in JavaScript e salva lo script specificandone il nome:
 
-`coffee --compile {{percorso/al/file.coffee}} --output {{percorso/al/file.js}}`
+`coffee --compile {{percorso/del/file.coffee}} --output {{percorso/del/file.js}}`
 
 - Esegui una console REPL interattiva:
 
@@ -21,4 +21,4 @@
 
 - Monitora cambiamenti in uno script rieseguendolo ogni volta:
 
-`coffee --watch {{percorso/al/file.coffee}}`
+`coffee --watch {{percorso/del/file.coffee}}`
