@@ -19,7 +19,7 @@
 
 `whoami /upn`
 
-- Mostra l'ID di logon dell'utente utilizzato:
+- Mostra l'ID di logon dell'utente corrente:
 
 `whoami /logonid`
 
