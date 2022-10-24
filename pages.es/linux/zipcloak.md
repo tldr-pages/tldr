@@ -1,7 +1,7 @@
 # zipcloak
 
 > Encripta el contenido de un archivo zip.
-> Más información en: <https://manned.org/zipcloak>.
+> Más información: <https://manned.org/zipcloak>.
 
 - Encripta el contenido de un archivo zip:
 
