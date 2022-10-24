@@ -19,7 +19,7 @@
 
 `brew update`
 
-- Montre les formules et les casks avec une nouvelle version disponible :
+- Montre les formules et les casks disposants d'une nouvelle version :
 
 `brew outdated`
 
