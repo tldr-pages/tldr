@@ -1,6 +1,6 @@
 # certutil
 
-> Gerencie chaves e certificados em bancos de dados e tokens NSS
+> Gerencie chaves e certificados em bancos de dados e tokens NSS.
 > Mais informações: <https://manned.org/certutil>.
 
 - Cria um novo banco de dados de certificados:

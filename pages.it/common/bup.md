@@ -5,20 +5,20 @@
 
 - Inizializza una repository di backup nella directory locale specificata:
 
-`bup -d {{percorso/a/repository}} init`
+`bup -d {{percorso/della/repository}} init`
 
-- Prepara una certa cartella prima di fare un backup:
+- Prepara una certa directory prima di fare un backup:
 
-`bup -d {{percorso/a/repository}} index {{percorso/a/directory}}`
+`bup -d {{percorso/della/repository}} index {{percorso/della/directory}}`
 
-- Esegui il backup di una cartella in una repository locale:
+- Esegui il backup di una directory in una repository locale:
 
-`bup -d {{percorso/a/repository}} save -n {{nome_backup}} {{percorso/a/directory}}`
+`bup -d {{percorso/della/repository}} save -n {{nome_backup}} {{percorso/della/directory}}`
 
 - Elenca i di backup attualmente nella repository:
 
-`bup -d {{percorso/a/repository}} ls`
+`bup -d {{percorso/della/repository}} ls`
 
-- Ripristina uno specifico backup in una determinata cartella locale:
+- Ripristina uno specifico backup in una determinata directory locale:
 
-`bup -d {{percorso/a/repository}} restore -C {{percorso/a/destinazione}} {{nome_backup}}`
+`bup -d {{percorso/della/repository}} restore -C {{percorso/della/destinazione}} {{nome_backup}}`

@@ -14,7 +14,7 @@
 
 - Controlla un determinato file, specificando quali test eseguire (di default, solo gli errori sono mostrati):
 
-`cppcheck --enable={{error|warning|style|performance|portability|information|all}} {{percorso/al/file.cpp}}`
+`cppcheck --enable={{error|warning|style|performance|portability|information|all}} {{percorso/del/file.cpp}}`
 
 - Elenca i test disponibili:
 
@@ -22,7 +22,7 @@
 
 - Controlla un determinato file, ignorando specifici test:
 
-`cppcheck --suppress={{id_test1}} --suppress={{it_test2}} {{percorso/al/file.cpp}}`
+`cppcheck --suppress={{id_test1}} --suppress={{it_test2}} {{percorso/del/file.cpp}}`
 
 - Controlla la directory corrente, fornendo percorsi da includere per file esterni (e.g. librerie esterne):
 

@@ -11,6 +11,10 @@
 
 `caffeinate -s "{{command}}"`
 
-- Prevent from sleeping until you type Ctrl-C:
+- Prevent from sleeping (use `Ctrl + C` to exit):
 
 `caffeinate -i`
+
+- Prevent disk from sleeping (use `Ctrl + C` to exit):
+
+`caffeinate -m`

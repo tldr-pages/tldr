@@ -1,5 +1,4 @@
 # btrfs
-
 > Système de fichiers basé sur le principe de copie à l’écriture ("copy-on-write", souvent désigné par son sigle anglais COW) pour Linux.
 > Certaines sous-commandes comme `btrfs device` ont leur propre documentation.
 > Plus d'informations : <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs>.
@@ -23,3 +22,4 @@
 - Afficher les quotas :
 
 `sudo btrfs qgroup show {{chemin/vers/sous_volume}}`
+

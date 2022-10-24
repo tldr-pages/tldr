@@ -5,11 +5,11 @@
 
 - Clona un repository SVN:
 
-`git svn clone {{https://esempio.com/repo_subversion}} {{cartella_locale}}`
+`git svn clone {{https://esempio.com/repo_subversion}} {{directory_locale}}`
 
 - Clona un repository SVN a partire da uno specifico numero di revisione:
 
-`git svn clone -r{{1234}}:HEAD {{https://svn.esempio.net/subversion/repo}} {{cartella_locale}}`
+`git svn clone -r{{1234}}:HEAD {{https://svn.esempio.net/subversion/repo}} {{directory_locale}}`
 
 - Aggiorna una copia locale da un repository SVN remoto:
 

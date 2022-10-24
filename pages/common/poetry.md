@@ -1,7 +1,7 @@
 # poetry
 
 > Manage Python packages and dependencies.
-> More information: <https://python-poetry.org/docs>.
+> More information: <https://python-poetry.org/docs/cli/>.
 
 - Create a new Poetry project in the directory with a specific name:
 
@@ -26,3 +26,11 @@
 - Execute a command inside the project's virtual environment:
 
 `poetry run {{command}}`
+
+- Bump the minor version of the project in `pyproject.toml`:
+
+`poetry version minor`
+
+- List all poetry subcommands:
+
+`poetry list`

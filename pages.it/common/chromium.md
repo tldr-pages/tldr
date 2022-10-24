@@ -5,7 +5,7 @@
 
 - Apri un file:
 
-`chromium {{percorso/al/file.html}}`
+`chromium {{percorso/del/file.html}}`
 
 - Apri un URL:
 

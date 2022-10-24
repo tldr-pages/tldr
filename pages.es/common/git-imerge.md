@@ -16,7 +16,7 @@
 
 `git imerge diagram`
 
-- Continua la operación imerge después de resolver los conflictos (primero añade con `git add` los archivos conflictivios):
+- Continua la operación imerge después de resolver los conflictos (primero añade con `git add` los archivos conflictivos):
 
 `git imerge continue --no-edit`
 

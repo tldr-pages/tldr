@@ -19,6 +19,6 @@
 
 `file -k {{filename}}`
 
-- Determine the mime encoding type of a file:
+- Determine the MIME encoding type of a file:
 
 `file -i {{filename}}`

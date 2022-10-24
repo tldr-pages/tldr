@@ -19,7 +19,7 @@
 
 `php -r "{{kod}}"`
 
-- uruchom wbudowany serwer PHP w bieżącym katalogu:
+- Uruchom wbudowany serwer PHP w bieżącym katalogu:
 
 `php -S {{host:port}}`
 
