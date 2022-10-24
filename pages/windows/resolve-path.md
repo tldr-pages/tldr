@@ -2,7 +2,7 @@
 
 > Resolves the wildcard characters in a path, and displays the path contents.
 > This command can only be used through PowerShell.
-> More information: <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/resolve-path>.
+> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/resolve-path>.
 
 - Resolve the home folder path:
 

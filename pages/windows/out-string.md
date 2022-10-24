@@ -2,7 +2,7 @@
 
 > Outputs input objects as a string.
 > This command can only be used through PowerShell.
-> More information: <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/out-string>.
+> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/out-string>.
 
 - Print host information as string:
 

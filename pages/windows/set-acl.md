@@ -2,7 +2,7 @@
 
 > Changes the security descriptor of a specified item, such as a file or a registry key.
 > This command can only be used through PowerShell.
-> More information: <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-acl>.
+> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.security/set-acl>.
 
 - Copy a security descriptor from one file to another:
 

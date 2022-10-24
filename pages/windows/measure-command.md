@@ -2,7 +2,7 @@
 
 > Measures the time it takes to run script blocks and cmdlets.
 > This command can only be used through PowerShell.
-> More information: <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/measure-command>.
+> More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/measure-command>.
 
 - Measure the time it takes to run a command:
 
