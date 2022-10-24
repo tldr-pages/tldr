@@ -3,7 +3,7 @@
 > Guided Arch Linux installer with a twist.
 > More information: <https://archinstall.readthedocs.io>.
 
-- Start de intercatieve installatie:
+- Start de interactieve installatie:
 
 `archinstall`
 
