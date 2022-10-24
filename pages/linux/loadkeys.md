@@ -15,6 +15,6 @@
 
 `loadkeys --console {{/path/to/console}} {{filename}}`
 
-- In Debian systems (like Ubuntu), install the package console-data using `sudo apt-get install console-data`. Then use standard names for keymaps of different locales:
+- Use standard names for keymaps of different locales:
 
 `loadkeys --console {{path/to/console}} {{uk}}`
