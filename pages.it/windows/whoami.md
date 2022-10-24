@@ -7,7 +7,7 @@
 
 `whoami`
 
-- Mostra i gruppi di cui l'utente utilizzato fa parte:
+- Mostra i gruppi di cui l'utente corrente fa parte:
 
 `whoami /groups`
 
