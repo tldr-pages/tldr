@@ -21,4 +21,4 @@
 
 - Restaurer les fichiers depuis un système de fichiers btrfs (avec métadonnées, attributs étendus, et liens symboliques) en écrivant par dessus les fichiers déjà existants dans le répertoire cible :
 
-`sudo btrfs restore --metadata --xattr --symlinks --overwrite {{chemin/vers/peripherique_btrfs}} {{chemin/vers/repertoire}}`
+`sudo btrfs restore --metadata --xattr --symlinks --overwrite {{chemin/vers/peripherique_btrfs}} {{chemin/vers/dossier}}`
