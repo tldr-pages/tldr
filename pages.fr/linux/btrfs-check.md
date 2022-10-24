@@ -1,13 +1,13 @@
 # btrfs check
 
-> Vérifier l'état, ou réparer un système de fichier de type BTRFS.
+> Vérifier l'état, ou réparer un système de fichiers de type btrfs.
 > Plus d'informations : <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-check>.
 
-- Vérifier l'état d'un système de fichier btrfs :
+- Vérifier l'état d'un système de fichiers btrfs :
 
 `sudo btrfs check {{chemin/vers/partition}}`
 
-- Vérifier l'état et réparer d'un système de fichier btrfs (dangereux) :
+- Vérifier l'état et réparer d'un système de fichiers btrfs (dangereux) :
 
 `sudo btrfs check --repair {{chemin/vers/partition}}`
 
@@ -15,7 +15,7 @@
 
 `sudo btrfs check --progress {{chemin/vers/partition}}`
 
-- Vérifier la somme de contrôle de chaque bloc de donné (si le système de fichier à été correctement vérifié) :
+- Vérifier la somme de contrôle de chaque bloc de données (si le système de fichiers à été correctement vérifié) :
 
 `sudo btrfs check --check-data-csum {{chemin/vers/partition}}`
 

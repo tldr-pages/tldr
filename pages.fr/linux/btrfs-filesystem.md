@@ -1,6 +1,6 @@
 # btrfs filesystem
 
-> Gérer les systèmes de fichiers BTRFS.
+> Gérer les systèmes de fichiers btrfs.
 > More information: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-filesystem>.
 
 - Afficher l'utilisation du système de fichiers (affiche les informations détaillées si executé en tant que `root`) :
@@ -15,14 +15,14 @@
 
 `sudo btrfs filesystem defragment -v {{chemin/vers/fichier}}`
 
-- Défragmenter récursivement un répertoire (ne franchit pas la limite de sous-volume) :
+- Défragmenter récursivement un dossier (ne franchit pas la limite de sous-volume) :
 
-`sudo btrfs filesystem defragment -v -r {{chemin/vers/repertoire}}`
+`sudo btrfs filesystem defragment -v -r {{chemin/vers/dossier}}`
 
 - Force la resynchronisation des blocs de données non écrits sur le ou les disques :
 
 `sudo btrfs filesystem sync {{chemin/vers/point_de_montage_btrfs}}`
 
-- Afficher un sommaire d'utilisation des disques pour les fichiers dans un répertoire, récursivement :
+- Afficher un sommaire d'utilisation des disques pour les fichiers dans un dossier, récursivement :
 
-`sudo btrfs filesystem du --summarize {{chemin/vers/repertoire}}`
+`sudo btrfs filesystem du --summarize {{chemin/vers/dossier}}`

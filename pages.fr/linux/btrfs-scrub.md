@@ -1,6 +1,6 @@
 # btrfs scrub
 
-> Éxaminer un système de fichiers btrfs pour vérifier l'integrité des données.
+> Éxaminer un système de fichiers btrfs pour vérifier l'intégrité de ses données.
 > Il est recommandé de faire tourner une vérification tous les mois.
 > Plus d'informations : <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-scrub>.
 
@@ -16,7 +16,7 @@
 
 `sudo btrfs scrub cancel {{chemin/vers/point_de_montage_btrfs}}`
 
-- Reprendre un examen précedemment stoppé :
+- Reprendre un examen précédemment stoppé :
 
 `sudo btrfs scrub resume {{chemin/vers/point_de_montage_btrfs}}`
 

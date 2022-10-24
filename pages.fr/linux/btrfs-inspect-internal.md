@@ -1,6 +1,6 @@
 # btrfs inspect-internal
 
-> Recherche des informations internes concernant un système de fichier BTRFS.
+> Recherche des informations internes concernant un système de fichier btrfs.
 > Plus d'information : <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-inspect-internal>.
 
 - Afficher les informations du superbloc :
@@ -23,6 +23,6 @@
 
 `sudo btrfs inspect-internal logical-resolve {{addresse_logique}} {{chemin/vers/point_de_montage_btrfs}}`
 
-- Afficher les statistiques concernant les arbres de racines, de domaines (extent), de checksum (csum) et de système de fichier :
+- Afficher les statistiques concernant les arbres de racines, de domaines (extent), de sommes de contrôle (csum) et de système de fichiers :
 
 `sudo btrfs inspect-internal tree-stats {{chemin/vers/partition}}`
