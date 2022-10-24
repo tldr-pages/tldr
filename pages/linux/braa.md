@@ -11,6 +11,6 @@
 
 `braa public@{{ip_range}}:{{.1.3.6.1.2.1.1.6.0}}`
 
-- Attempt to set the value of `system.sysLocation.0` to "My Workgroup":
+- Attempt to set the value of `system.sysLocation.0` to a specific workgroup:
 
 `braa private@{{ip}}:{{.1.3.6.1.2.1.1.6.0}}=s'{{workgroup}}'`
