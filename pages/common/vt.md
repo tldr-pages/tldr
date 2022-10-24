@@ -8,11 +8,11 @@
 
 `vt scan file {{file}}`
 
-- Search a URL for viruses:
+- Scan a URL for viruses:
 
 `vt scan url {{url}}`
 
-- Display analysis information of a scan:
+- Display analysis information:
 
 `vt analysis {{f-id|u-id}}`
 
