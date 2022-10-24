@@ -20,7 +20,7 @@
 
 `vt download {{id}} --output {{path/to/directory}} --zip --zip-password {{string}} `
 
-- Initialize or re-initialize `vt`to enter API key:
+- Initialize or re-initialize `vt` to enter API key:
 
 `vt init`
 
