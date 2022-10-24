@@ -1,6 +1,6 @@
 # az webapp
 
-> Administra aplicaciones web alojadas en servicios de nube de Azure.
+> Administra aplicaciones web alojadas en Azure Cloud Services.
 > Parte de `azure-cli`.
 > Más información: <https://learn.microsoft.com/cli/azure/webapp>.
 
