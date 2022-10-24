@@ -1,6 +1,6 @@
 # goldeneye
 
-> A http DoS test tool.
+> A HTTP DoS test tool.
 > More information: <https://github.com/jseidl/GoldenEye>.
 
 - Test a specific website:
