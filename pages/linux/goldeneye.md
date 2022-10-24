@@ -21,4 +21,4 @@
 
 - Display help:
 
-`./goldeneye.py -h"`
+`./goldeneye.py -h`
