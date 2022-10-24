@@ -9,21 +9,21 @@
 
 - Memeriksa satu atau lebih file atau direktori secara khusus:
 
-`rubocop {{lokasi/ke/file}} {{lokasi/ke/direktori}}`
+`rubocop {{jalan/ke/file}} {{jalan/ke/direktori}}`
 
 - Menulis output ke file:
 
-`rubocop --out {{lokasi/ke/file}}`
+`rubocop --out {{jalan/ke/file}}`
 
-- Melihat daftar _cop_ (aturan-aturan dalam analisis):
+- Melihat daftar cop (aturan-aturan dalam analisis):
 
 `rubocop --show-cops`
 
-- Mengecualikan _cop_:
+- Mengecualikan cop:
 
 `rubocop --except {{cop_1}} {{cop_2}}`
 
-- Menjalankan hanya beberapa _cop_:
+- Menjalankan hanya beberapa cop:
 
 `rubocop --only {{cop_1}} {{cop_2}}`
 
