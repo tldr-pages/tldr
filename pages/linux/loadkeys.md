@@ -19,7 +19,7 @@
 
 `loadkeys --parse`
 
-- Suppress all normal output:
+- Load the keymap suppressing all output:
 
 `loadkeys --quiet`
 
