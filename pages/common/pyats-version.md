@@ -17,4 +17,4 @@
 
 - Update or downgrade to to specific version:
 
-`pyats version update [VERSION]`
+`pyats version update {{version}}`
