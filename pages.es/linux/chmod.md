@@ -1,35 +1,36 @@
 # chmod
 
-> Cambia los permisos de acceso de un archivo o directorio. Más información: https://www.gnu.org/software/coreutils/chmod.
+> Cambia los permisos de acceso de un archivo o directorio.
+> Más información: https://www.gnu.org/software/coreutils/chmod.
 
-- Dar al usuario que posee el archivo el permiso de ejecución:
+- Da al [u]suario que posee al archivo el permiso de ejecución [x]:
 
 `chmod u+x {{ruta/al/archivo}}`
 
-- Dar al usuario permisos de lectura y escritura al archivo o directorio:
+- Da al [u]suario permisos de lectu[r]a y escritura [w] a un archivo o directorio:
 
 `chmod u+rw {{ruta/al/archivo_o_directorio}}`
 
-- Remover permisos de ejecución para el grupo:
+- Remueve permisos de ejecución [x] del [g]rupo:
 
 `chmod g-x {{ruta/al/archivo}}`
 
-- Dar a todos los usuarios permisos de lectura y ejecución:
+- Da a todos [a] los usuarios permisos de lectu[r]a y ejecución [x]:
 
 `chmod a+rx {{ruta/al/archivo}}`
 
-- Dar a otros usuarios los mismos permisos que el grupo:
+- Da a [o]tros usuarios (no dentro del grupo dueño del archivo) los mismos permisos que el [g]rupo:
 
 `chmod o=g {{ruta/al/archivo}}`
 
-- Remover todos los permisos de los otros:
+- Remueve todos los permisos de [o]tros:
 
 `chmod o= {{ruta/al/archivo}}`
 
-- Cambiar los permisos recursivamente dando al grupo y los otros la habilidad de escribir:
+- Cambia los permisos recursivamente dando al [g]rupo y a [o]tros la habilidad de escribir [w]:
 
 `chmod -R g+w,o+w {{ruta/al/directorio}}`
 
-- Recursivamente dar a todos los usuarios permisos de lectura y ejecución de los subdirectorios de un directorio:
+- Recursivamente da a todos [a] los usuarios permisos de lectu[r]a y ejecución [x] de los subdirectorios de un directorio:
 
 `chmod -R a+rX {{ruta/al/directorio}}`
