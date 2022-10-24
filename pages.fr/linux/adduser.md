@@ -5,7 +5,7 @@
 
 - Crée un nouvel utilisateur avec un répertoire "home" générique et demande interactivement un mot de passe :
 
-`adduser {{nom_dutilisateur}}`
+`adduser {{nom_d_utilisateur}}`
 
 - Crée un nouvel utilisateur sans répertoire "home" :
 
