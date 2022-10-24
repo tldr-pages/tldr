@@ -3,7 +3,7 @@
 > Next-generation scanning tool for pentesters.
 > More information: <https://www.thc.org>.
 
-- Scan port 80 on target IP address and print ASCII banner response, omit closed ports, verbosely:
+- Scan port 80 on a target host and print ASCII banner response, omit closed ports:
 
 `amap -bqv {{ip_or_hostname}} {{80}}`
 
