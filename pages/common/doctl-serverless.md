@@ -3,7 +3,7 @@
 > Manage serverless functions.
 > More information: <https://docs.digitalocean.com/reference/doctl/reference/serverless/>.
 
-- Connects local serverless support to a functions namespace:
+- Connect local serverless support to a functions namespace:
 
 `doctl serverless connect`
 
