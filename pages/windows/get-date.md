@@ -4,15 +4,15 @@
 > This command can only be used through PowerShell.
 > More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/get-date>.
 
-- Get the current date and time:
+- Display the current date and time:
 
 `Get-Date`
 
-- Get the date and time with a .NET format specifier:
+- Display the current date and time with a .NET format specifier:
 
-`Get-Date -Format {{"dddd MM/dd/yyyy HH:mm K"}}`
+`Get-Date -Format "{{yyyy-MM-dd HH:mm:ss}}"`
 
-- Convert the current time to UTC time:
+- Display the current date and time in UTC and ISO 8601 format:
 
 `(Get-Date).ToUniversalTime()`
 
