@@ -11,7 +11,7 @@
 
 `whoami /groups`
 
-- Mostra i privilegi dell'utente utilizzato:
+- Mostra i privilegi dell'utente corrente:
 
 `whoami /priv`
 
