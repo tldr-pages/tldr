@@ -15,7 +15,7 @@
 
 `whoami /priv`
 
-- Mostra l'UPN(User Principal Name) dell'utente utilizzato:
+- Mostra l'UPN (User Principal Name) dell'utente corrente:
 
 `whoami /upn`
 
