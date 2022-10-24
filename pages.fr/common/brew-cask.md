@@ -32,6 +32,6 @@
 
 `brew zap --cask {{nom_du_cask}}`
 
-- Affiche les informations in cask en particulier :
+- Affiche les informations d'un cask en particulier :
 
 `brew info --cask {{nom_du_cask}}`
