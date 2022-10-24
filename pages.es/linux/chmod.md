@@ -31,6 +31,6 @@
 
 `chmod -R g+w,o+w {{ruta/al/directorio}}`
 
-- Recursivamente da a todos [a] los usuarios permisos de lectu[r]a y ejecución [x] de los subdirectorios de un directorio:
+- Recursivamente da a todos [a] los usuarios permisos de lectu[r]a y ejecución [X] de los subdirectorios de un directorio:
 
 `chmod -R a+rX {{ruta/al/directorio}}`
