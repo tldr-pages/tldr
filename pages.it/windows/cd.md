@@ -13,7 +13,7 @@
 
 - Spostati ad una specifica directory sullo stesso disco:
 
-`cd {{percorso\alla\directory}}`
+`cd {{percorso\della\directory}}`
 
 - Spostati ad una specifica directory in un altro disco:
 
