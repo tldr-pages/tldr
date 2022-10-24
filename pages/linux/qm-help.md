@@ -3,7 +3,7 @@
 > Display help for a specific command.
 > More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
-- Display help:
+- Display help for a specific command:
 
 `qm help {{command}}`
 
