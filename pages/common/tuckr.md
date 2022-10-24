@@ -1,6 +1,6 @@
 # tuckr
 
-> Dotfile manager written in Rust
+> Dotfile manager written in Rust.
 > More information: <https://github.com/RaphGL/Tuckr>.
 
 - Check dotfile status:
@@ -13,7 +13,7 @@
 
 - Add all dotfiles except specified programs:
 
-`tuckr add \* -e program1,program2
+`tuckr add \* -e program1,program2`
 
 - Remove all dotfiles from system:
 
