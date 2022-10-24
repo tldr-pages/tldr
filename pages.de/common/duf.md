@@ -15,6 +15,6 @@
 
 `duf {{pfad/zu/verzeichnis1 pfad/zu/verzeichnis2 ...}}`
 
-- Sortiere die Ergebnisse durch ein spezifisches Kriterium:
+- Sortiere die Ergebnisse nach einem spezifischen Kriterium:
 
 `duf --sort {{size|used|avail|usage}}`
