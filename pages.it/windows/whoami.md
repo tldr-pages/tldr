@@ -23,6 +23,6 @@
 
 `whoami /logonid`
 
-- Mostra tutte le informazioni riguardo all'utente utilizzato:
+- Mostra tutte le informazioni riguardo all'utente corrente:
 
 `whoami /all`
