@@ -23,3 +23,7 @@
 - Generate HTML documentation for a module (output will be placed in the current directory):
 
 `nim doc {{file.nim}}`
+
+- Check a file for syntax but don't run:
+
+`nim check {{file.nim}}`
