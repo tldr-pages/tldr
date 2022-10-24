@@ -13,7 +13,7 @@
 
 - Test a specific website without verifying ssl certficate:
 
-`./goldeneye.py {{website_url}} -n"`
+`./goldeneye.py {{url}} -n"`
 
 - Test a specific website in debug mode:
 
