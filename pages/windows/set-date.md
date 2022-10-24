@@ -6,7 +6,7 @@
 
 - Add three days to the system date:
 
-`Set-Date -Date (Get-Date).AddDays(3)`
+`Set-Date -Date (Get-Date).AddDays({{3}})`
 
 - Set the system clock back 10 minutes:
 
@@ -14,4 +14,4 @@
 
 - Add 90 minutes to the system clock:
 
-`$90mins = New-TimeSpan -Minutes 90; Set-Date -Adjust $90mins`
+`$90mins = New-TimeSpan -Minutes {{90}}; Set-Date -Adjust $90mins`
