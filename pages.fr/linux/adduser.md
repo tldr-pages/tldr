@@ -11,7 +11,7 @@
 
 `adduser --no-create-home {{nom_dutilisateur}}`
 
-- Crée un nouvel utilisateur avec un répertoire "home" correspondant au chemin donné :
+- Crée un nouvel utilisateur avec un répertoire personnel correspondant au dossier spécifié :
 
 `adduser --home {{chemin/vers/le/répertoire}} {{nom_dutilisateur}}`
 
