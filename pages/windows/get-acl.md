@@ -4,9 +4,9 @@
 > This command can only be used through PowerShell.
 > More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.security/get-acl>.
 
-- Get an ACL for a folder:
+- Display the ACL for a specific directory:
 
-`Get-Acl C:\Windows`
+`Get-Acl {{path/to/directory}}`
 
 - Get an ACL for a registry key:
 
