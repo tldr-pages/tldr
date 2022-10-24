@@ -1,13 +1,17 @@
 # cipher
 
-> Encrypt or decrypt files on NTFS drives.
+> Encrypt or decrypt files on NTFS drives or show their encryption information.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/cipher>.
 
-- Encrypt a file or directory:
+- Display information about the encrypted file or directory:
+
+`cipher /c:{{path/to/file_or_directory}}`
+
+- [e]ncrypt a file or directory (files added later to the directory are also encrypted as the directory is marked):
 
 `cipher /e:{{path/to/file_or_directory}}`
 
-- Decrypt a file or directory:
+- [d]ecrypt a file or directory:
 
 `cipher /d:{{path/to/file_or_directory}}`
 
