@@ -17,7 +17,7 @@
 
 - Crée un nouvel utilisateur avec l'interpréteur de commandes spécifié comme interpréteur de commandes de connexion :
 
-`adduser --shell {{chemin/vers/le/shell}} {{nom_dutilisateur}}`
+`adduser --shell {{chemin/vers/shell}} {{nom_d_utilisateur}}`
 
 - Crée un nouvel utilisateur appartenant au groupe donné :
 
