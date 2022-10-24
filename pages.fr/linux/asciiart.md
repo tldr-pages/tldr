@@ -17,7 +17,7 @@
 
 - Colorise la sortie ASCII :
 
-`asciiart --color {{chemin/vers/limage.jpg}}`
+`asciiart --color {{chemin/vers/image.jpg}}`
 
 - Choisit le format de sortie (format par défaut : textuel) :
 
