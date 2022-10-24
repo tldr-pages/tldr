@@ -1,7 +1,8 @@
 # telinit
 
 > Change SysV runlevel.
-> Since the concept SysV runlevels is obsolete the runlevel requests will be transparently translated into systemd unit activation requests. More information: <https://manned.org/telinit>.
+> Since the concept SysV runlevels is obsolete the runlevel requests will be transparently translated into systemd unit activation requests.
+> More information: <https://manned.org/telinit>.
 
 - Power off the machine:
 
@@ -13,7 +14,7 @@
 
 - Change SysV run level (2, 3, 4, 5):
 
-`telinit {{run level number}}`
+`telinit {{run_level_number}}`
 
 - Change to rescue mode:
 
@@ -23,6 +24,6 @@
 
 `telinit q`
 
-- Do not send wall message before reboot/power-off (command 6/0):
+- Do not send a wall message before reboot/power-off (6/0):
 
-`telinit --no-wall {{command}}`
+`telinit --no-wall {{value}}`
