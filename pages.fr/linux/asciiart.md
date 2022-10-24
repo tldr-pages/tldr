@@ -21,7 +21,7 @@
 
 - Choisit le format de sortie (format par défaut : textuel) :
 
-`asciiart --format {{text|html}} {{chemin/vers/limage.jpg}}`
+`asciiart --format {{text|html}} {{chemin/vers/image.jpg}}`
 
 - Inverse la table de caractères :
 
