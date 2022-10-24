@@ -11,6 +11,6 @@
 
 `cipher /d:{{pfad/zu/datei_oder_verzeichnis}}`
 
-- Sicheres Entfernen einer Datei oder eines Verzeichnisses:
+- Entferne eine Datei oder ein Verzeichnis sicher:
 
 `cipher /w:{{pfad/zu/datei_oder_verzeichnis}}`
