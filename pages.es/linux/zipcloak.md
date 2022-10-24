@@ -5,7 +5,7 @@
 
 - Encripta el contenido de un archivo zip:
 
-`zipcloak {{ruta/al/archivo_encriptado.zip}}`
+`zipcloak {{ruta/al/archivo.zip}}`
 
 - [d]esencripta el contenido de un archivo zip:
 
