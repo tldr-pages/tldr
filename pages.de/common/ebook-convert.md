@@ -5,8 +5,8 @@
 
 - Konvertiere ein E-Book in ein anderes Format:
 
-`ebook-convert {{source}} {{destination}}`
+`ebook-convert {{pfad/zu/input_datei}} {{pfad/zu/output_datei}}`
 
 - Konvertiere eine Markdown- oder HTML Datei zu einem E-Book inklusive Inhaltsverzeichnis, Titel und Autoren:
 
-`ebook-convert {{source}} {{destination}} --level1-toc="//h:h1" --level2-toc="//h:h2" --level3-toc="//h:h3" --title={{title}} --authors={{author}}`
+`ebook-convert {{pfad/zu/input_datei}} {{pfad/zu/output_datei}} --level1-toc="//h:h1" --level2-toc="//h:h2" --level3-toc="//h:h3" --title={{titel}} --authors={{autor}}`
