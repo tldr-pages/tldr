@@ -9,11 +9,11 @@
 
 - Memeriksa satu atau lebih file atau direktori secara khusus:
 
-`rubocop {{jalan/ke/file}} {{jalan/ke/direktori}}`
+`rubocop {{jalan/menuju/file}} {{jalan/menuju/direktori}}`
 
 - Menulis output ke file:
 
-`rubocop --out {{jalan/ke/file}}`
+`rubocop --out {{jalan/menuju/file}}`
 
 - Melihat daftar cop (aturan-aturan dalam analisis):
 
