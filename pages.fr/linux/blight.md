@@ -15,7 +15,7 @@
 
 `blight max`
 
-- Augmente la luminosité de l'affichage en % :
+- Augmente la luminosité de l'affichage en pourcentage :
 
 `blight inc {{nombre}} -r`
 
