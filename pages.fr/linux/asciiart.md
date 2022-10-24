@@ -13,7 +13,7 @@
 
 - Choisit la largeur de sortie (valeur par défaut : 100) :
 
-`asciiart --width {{50}} {{chemin/vers/limage.jpg}}`
+`asciiart --width {{50}} {{chemin/vers/image.jpg}}`
 
 - Colorise la sortie ASCII :
 
