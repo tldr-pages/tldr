@@ -15,7 +15,7 @@
 
 `svcadm restart {{service_name}}`
 
-- refresh de configuratie van een service:
+- Refresh de configuratie van een service:
 
 `svcadm refresh {{service_name}}`
 

@@ -4,6 +4,10 @@
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-bulk>.
 
+- Register the current directory as a workspace:
+
+`git bulk --addcurrent {{workspace_name}}`
+
 - Register a workspace for bulk operations:
 
 `git bulk --addworkspace {{workspace_name}} {{/absolute/path/to/repository}}`
@@ -23,3 +27,11 @@
 - Run a Git command on the repositories of the current workspace:
 
 `git bulk {{command}} {{command_arguments}}`
+
+- Remove a specific workspace:
+
+`git bulk --removeworkspace {{workspace_name}}`
+
+- Remove all workspaces:
+
+`git bulk --purge`

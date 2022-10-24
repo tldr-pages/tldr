@@ -7,7 +7,7 @@
 
 `git ls-tree {{dal_name}}`
 
-- Bir commit üstündeki ağacın içeriklerini alt ağaçlara ayırarak sırala.
+- Bir commit üstündeki ağacın içeriklerini alt ağaçlara ayırarak sırala:
 
 `git ls-tree -r {{commit_değeri}}`
 

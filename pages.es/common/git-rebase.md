@@ -32,6 +32,6 @@
 
 `git rebase -i {{HEAD~5}}`
 
-- Resuelve automáticamente cualquier conflicto favoreciendo la versión de la rama en la que se esta trabajando (en este caso la palabra `theirs` tiene un significado invertido):
+- Resuelve automáticamente cualquier conflicto favoreciendo la versión de la rama en la que se está trabajando (en este caso la palabra `theirs` tiene un significado invertido):
 
 `git rebase -X theirs {{rama_de_reorganización}}`
