@@ -2,7 +2,7 @@
 
 > Administra aplicaciones web alojadas en servicios de nube de Azure.
 > Parte de `azure-cli`.
-> Más información: <https://learn.microsoft.com/es-es/cli/azure/webapp>.
+> Más información: <https://learn.microsoft.com/cli/azure/webapp>.
 
 - Lista los entornos de ejecución disponibles para una aplicación web:
 
