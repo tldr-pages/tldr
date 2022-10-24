@@ -7,7 +7,7 @@
 
 `adduser {{nom_d_utilisateur}}`
 
-- Crée un nouvel utilisateur sans répertoire "home" :
+- Crée un nouvel utilisateur sans répertoire personnel :
 
 `adduser --no-create-home {{nom_dutilisateur}}`
 
