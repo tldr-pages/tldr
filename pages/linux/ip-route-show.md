@@ -23,7 +23,7 @@
 
 `ip route show dev {{eth0}}`
 
-- List routes with given scope only
+- List routes with given scope only:
 
 `ip route show scope link`
 
