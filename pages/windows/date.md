@@ -10,3 +10,7 @@
 - Display the current system date without prompting for a new date:
 
 `date /t`
+
+- Change the current system date to a specific date:
+
+`date {{month}}-{{day}}-{{year}}`
