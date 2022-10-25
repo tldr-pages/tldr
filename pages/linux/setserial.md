@@ -5,7 +5,7 @@
 
 - Print all information of a serial device:
 
-`setserial -a {{/dev/cua0}}`
+`setserial -a {{/dev/cuaN}}`
 
 - Print the configuration summary of a specific serial device (useful for printing during bootup process):
 
