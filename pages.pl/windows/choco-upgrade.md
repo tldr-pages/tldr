@@ -9,24 +9,24 @@
 
 - Aktualizacja pakietu do konkretnej wersji:
 
-`choco upgrade {{pakiet(pakietów)}}`
+`choco upgrade {{pakiet}}`
 
 - Aktualizacja wszystkich pakietów zarządzanych przez Chocolatey:
 
 `choco upgrade all`
 
-- Aktualizacja wszystkich pakietów zarządzanych przez Chocolatey z wyjątkiem podanych w parametrze --except:
+- Uaktualnij wszystkie pakiety z wyjątkiem określonych pakietów rozdzielanych przecinkami:
 
-`choco upgrade all --except "{{nazwa_pomijanego_pakietu(pakietów)}}"`
+`choco upgrade all --except "{{pakiet(pakietów)}}"`
 
 - Automatyczna akceptacja wszystkich monitów podczas aktualizacji pakietu (--yes):
 
-`choco upgrade {{pakiet(pakietów)}} --yes`
+`choco upgrade {{pakiet}} --yes`
 
 - Ustawienie określonego źródła/repozytorium pakietów:
 
-`choco upgrade {{pakiet(pakietów)}} --source {{adres_url|alias}}`
+`choco upgrade {{pakiet}} --source {{adres_url|alias}}`
 
 - Podanie nazwy użytkownika i hasła do uwierzytelnienia:
 
-`choco upgrade {{pakiet(pakietów)}} --user {{nazwa_użytkownika}} --password {{hasło}}`
+`choco upgrade {{pakiet}} --user {{nazwa_użytkownika}} --password {{hasło}}`
