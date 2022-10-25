@@ -5,16 +5,16 @@
 
 - Wyświetlanie informacji dotyczących podanego pakietu:
 
-`choco info {{nazwa_pakietu}}`
+`choco info {{pakiet}}`
 
 - Wyświetlanie informacji dotyczących podanego pakietu zainstalowanego lokalnie:
 
-`choco info {{nazwa_pakietu}} --local-only`
+`choco info {{pakiet}} --local-only`
 
 - Ustawienie określonego źródła/repozytorium pakietów z którego pobrane zostaną informacje:
 
-`choco info {{nazwa_pakietu}} --source {{adres_url|alias}}`
+`choco info {{pakiet}} --source {{adres_url|alias}}`
 
 - Podanie nazwy użytkownika i hasła do uwierzytelnienia:
 
-`choco info {{nazwa_pakietu}} --user {{nazwa_użytkownika}} --password {{hasło}}`
+`choco info {{pakiet}} --user {{nazwa_użytkownika}} --password {{hasło}}`

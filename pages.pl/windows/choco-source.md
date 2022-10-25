@@ -11,7 +11,7 @@
 
 `choco source add --name {{nazwa}} --source {{adres_url}}`
 
-- Dodanie nowego źródła z użyciem poświadczeń (nazwa użytkownika i hasło):
+- Dodanie nowego źródła z użyciem poświadczeń:
 
 `choco source add --name {{nazwa}} --source {{adres_url}} --user {{nazwa_użytkownika}}} --password {{hasło}}`
 

@@ -5,24 +5,24 @@
 
 - Wyszkukiwanie pakietów:
 
-`choco search {{kwerenda(szukana_fraza)}}`
+`choco search {{kwerenda}}`
 
 - Wyszkukiwanie lokalnych pakietów:
 
-`choco search {{kwerenda(szukana_fraza)}} --local-only`
+`choco search {{kwerenda}} --local-only`
 
 - Wyświetlanie wyłącznie dokładnych dopasowań do podanej kwerendy/szukanej frazy:
 
-`choco search {{kwerenda(szukana_fraza)}} --exact`
+`choco search {{kwerenda}} --exact`
 
 - Automatyczna akceptacja wszystkich monitów (--yes):
 
-`choco search {{kwerenda(szukana_fraza)}} --yes`
+`choco search {{kwerenda}} --yes`
 
 - Ustawienie określonego źródła do wyszukiwania pakietów:
 
-`choco search {{kwerenda(szukana_fraza)}} --source {{adres_url|alias}}`
+`choco search {{kwerenda}} --source {{adres_url|alias}}`
 
 - Podanie nazwy użytkownika i hasła do uwierzytelnienia:
 
-`choco search {{kwerenda(szukana_fraza)}} --user {{nazwa_użytkownika}} --password {{hasło}}`
+`choco search {{kwerenda}} --user {{nazwa_użytkownika}} --password {{hasło}}`

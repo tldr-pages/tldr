@@ -5,19 +5,19 @@
 
 - Odinstalowanie jednego lub więcej pakietów (oddzielonych spacją):
 
-`choco uninstall {{nazwa_pakietu(pakietów)}}`
+`choco uninstall {{{pakiet(pakietów)}}`
 
 - Odinstalowanie konkretnej wersji pakietu:
 
-`choco uninstall {{nazwa_pakietu}} --version {{wersja}}`
+`choco uninstall {{pakiet}} --version {{wersja}}`
 
-- Automatyczna akceptacja wszystkich monitów podczas deinstalacji pakietu (--yes):
+- Automatyczna akceptacja wszystkich monitów podczas deinstalacji pakietu:
 
-`choco uninstall {{nazwa_pakietu(pakietów)}} --yes`
+`choco uninstall {{pakiet}} --yes`
 
 - Odinstalowanie wszystkich zależności podczas procesu deinstalacji danego pakietu/pakietów:
 
-`choco uninstall {{nazwa_pakietu(pakietów)}} --remove-dependencies`
+`choco uninstall {{pakiet}} --remove-dependencies`
 
 - Odinstalowanie wszystkich pakietów:
 

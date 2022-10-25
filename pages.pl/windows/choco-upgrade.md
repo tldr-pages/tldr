@@ -5,11 +5,11 @@
 
 - Aktualizacja jednego lub więcej pakietów (oddzielonych spacją):
 
-`choco upgrade {{nazwa_pakietu(pakietów)}}`
+`choco upgrade {{pakiet(pakietów)}}`
 
 - Aktualizacja pakietu do konkretnej wersji:
 
-`choco upgrade {{nazwa_pakietu(pakietów)}}`
+`choco upgrade {{pakiet(pakietów)}}`
 
 - Aktualizacja wszystkich pakietów zarządzanych przez Chocolatey:
 
@@ -21,12 +21,12 @@
 
 - Automatyczna akceptacja wszystkich monitów podczas aktualizacji pakietu (--yes):
 
-`choco upgrade {{nazwa_pakietu(pakietów)}} --yes`
+`choco upgrade {{pakiet(pakietów)}} --yes`
 
 - Ustawienie określonego źródła/repozytorium pakietów:
 
-`choco upgrade {{nazwa_pakietu(pakietów)}} --source {{adres_url|alias}}`
+`choco upgrade {{pakiet(pakietów)}} --source {{adres_url|alias}}`
 
 - Podanie nazwy użytkownika i hasła do uwierzytelnienia:
 
-`choco upgrade {{nazwa_pakietu(pakietów)}} --user {{nazwa_użytkownika}} --password {{hasło}}`
+`choco upgrade {{pakiet(pakietów)}} --user {{nazwa_użytkownika}} --password {{hasło}}`
