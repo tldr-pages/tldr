@@ -27,7 +27,7 @@
 
 `atoum -ns {{namespace}}`
 
-- Esegui tutti i test con uno speficico tag:
+- Esegui tutti i test con uno specifico tag:
 
 `atoum -t {{tag}}`
 
