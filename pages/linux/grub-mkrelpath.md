@@ -7,10 +7,10 @@
 
 `grub-mkrelpath {{path/to/relativepath}}`
 
-- Print the GRUB version number:
+- Display GRUB version number:
 
 `grub-mkrelpath --version`
 
-- Print help page:
+- Display help:
 
 `grub-mkrelpath --help`
