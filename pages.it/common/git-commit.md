@@ -17,4 +17,4 @@
 
 - Committa solo i file specificati (tra quelli presenti nell'area di stage):
 
-`git commit {{percorso/al/file1}} {{percorso/al/file2}}`
+`git commit {{percorso/del/file1}} {{percorso/del/file2}}`

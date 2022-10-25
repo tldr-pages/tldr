@@ -9,8 +9,8 @@
 
 - Genera un modello di file di configurazione:
 
-`doxygen -g {{percorso/a/file_config}}`
+`doxygen -g {{percorso/del/file_config}}`
 
 - Genera la documentazione utilizzando un file di configurazione esistente:
 
-`doxygen {{percorso/a/file_config}}`
+`doxygen {{percorso/del/file_config}}`

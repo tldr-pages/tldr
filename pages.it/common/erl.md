@@ -13,4 +13,4 @@
 
 - Fai caricare alla shell Erlang dei moduli da una directory:
 
-`erl -pa {{cartella_con_file_beam}}`
+`erl -pa {{directory_con_file_beam}}`

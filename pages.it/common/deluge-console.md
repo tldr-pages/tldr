@@ -13,7 +13,7 @@
 
 - Aggiungi un torrent al demone:
 
-`add {{url|magnet|percorso/a/file}}`
+`add {{url|magnet|percorso/del/file}}`
 
 - Mostra informazioni su tutti i torrent:
 

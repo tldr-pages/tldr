@@ -24,6 +24,7 @@ labels = {
     "it": "Maggiori informazioni:",
     "ja": "詳しくはこちら:",
     "ko": "더 많은 정보:",
+    "lo": "ຂໍ້ມູນເພີ່ມເຕີມ:",
     "ml": "കൂടുതൽ വിവരങ്ങൾ:",
     "ne": "थप जानकारी:",
     "nl": "Meer informatie:",
