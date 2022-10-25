@@ -30,4 +30,4 @@
 
 - Controlla un progetto Microsoft Visual Studio (`*.vcxproj`) o file solution (`*.sln`):
 
-`cppcheck --project={{path/to/progetto.sln}}`
+`cppcheck --project={{percorso/del/progetto.sln}}`
