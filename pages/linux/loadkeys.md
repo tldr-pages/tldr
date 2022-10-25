@@ -27,18 +27,10 @@
 
 `loadkeys --quiet`
 
-- Display help:
-
-`loadkeys --help`
-
-- Display version:
-
-`loadkeys --version`
-
 - Load a keymap from the specified file for the console:
 
-`loadkeys --console {{/dev/ttyX}} {{/path/to/filename}}`
+`loadkeys --console {{/dev/ttyN}} {{/path/to/filename}}`
 
 - Use standard names for keymaps of different locales:
 
-`loadkeys --console {{/dev/ttyX}} {{uk}}`
+`loadkeys --console {{/dev/ttyN}} {{uk}}`
