@@ -1,11 +1,11 @@
 # grub-mkrelpath
 
-> Make a file system path relative to the root of its file system.
+> Make a filesystem path relative to the root of its filesystem.
 > More information: <https://www.gnu.org/software/grub/manual/grub/html_node/Invoking-grub_002dmkrelpath.html>.
 
-- Set the file system path relative to the root which can be used by other GRUB utilities:
+- Set the filesystem path relative to the root which can be used by other GRUB utilities:
 
-`grub-mkrelpath {{path/to/relativepath}}`
+`grub-mkrelpath {{path/to/directory}}`
 
 - Display GRUB version number:
 
