@@ -24,6 +24,6 @@
 
 `nim doc {{path/to/file.nim}}`
 
-- Check a file for syntax and semantics without running it:
+- Check a file for syntax and semantics:
 
 `nim check {{path/to/file.nim}}`
