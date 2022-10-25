@@ -7,14 +7,14 @@
 
 `pyats version check`
 
-- Display out-dated packages:
+- Display outdated packages:
 
 `pyats version check --outdated`
 
-- Update to most recent version:
+- Update packages to the most recent version:
 
 `pyats version update`
 
-- Update or downgrade to to specific version:
+- Update or downgrade packages to a specific version:
 
 `pyats version update {{version}}`
