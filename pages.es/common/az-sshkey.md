@@ -1,6 +1,6 @@
 # az sshkey
 
-> Administra claves públicas SSH.
+> Administra claves públicas SSH con máquinas virtuales.
 > Parte de `azure-cli`.
 > Más información: <https://learn.microsoft.com/cli/azure/sshkey>.
 
