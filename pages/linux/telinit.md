@@ -14,7 +14,7 @@
 
 - Change SysV run level (2, 3, 4, 5):
 
-`telinit {{run_level_number}}`
+`telinit {{2|3|4|5}}`
 
 - Change to rescue mode:
 
