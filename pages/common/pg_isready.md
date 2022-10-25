@@ -5,7 +5,7 @@
 
 - Check connection with a specific hostname and port:
 
-`pg_isready -h {{hostname}} -p {{port}}`
+`pg_isready --host={{hostname}} --port={{port}}`
 
 - Run connection status quietly:
 
