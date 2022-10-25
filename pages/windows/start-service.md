@@ -6,12 +6,12 @@
 
 - Start a service by using its name:
 
-`Start-Service -Name {{"eventlog"}}`
+`Start-Service -Name {{service_name}}`
 
 - Display information without starting a service:
 
-`Start-Service -DisplayName {{*remote*}} -WhatIf`
+`Start-Service -DisplayName *{{name}}* -WhatIf`
 
 - Start a disabled service:
 
-`Set-Service {{<service_name>}} -StartupType {{manual}}; Start-Service {{<service_name>}}`
+`Set-Service {{service_name}} -StartupType {{manual}}; Start-Service {{service_name}}`

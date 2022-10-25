@@ -6,12 +6,12 @@
 
 - Stop a service on the local computer:
 
-`Stop-Service -Name {{"sysmonlog"}}`
+`Stop-Service -Name {{service_name}}`
 
 - Stop a service by using the display name:
 
-`Stop-Service -DisplayName {{"telnet"}}`
+`Stop-Service -DisplayName "{{name}}"`
 
 - Stop a service that has dependent services:
 
-`Stop-Service -Name {{"iisadmin"}} -Force -Confirm`
+`Stop-Service -Name {{service_name}} -Force -Confirm`

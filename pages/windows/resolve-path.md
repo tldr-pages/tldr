@@ -10,7 +10,7 @@
 
 - Resolve a UNC path:
 
-`Resolve-Path -Path {{"\\Server01\public"}}`
+`Resolve-Path -Path "\\{{hostname}}\{{path/to/file}}"
 
 - Get relative paths:
 

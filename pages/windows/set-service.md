@@ -6,12 +6,12 @@
 
 - Change a display name:
 
-`Set-Service -Name {{LanmanWorkstation}} -DisplayName {{"LanMan Workstation"}}`
+`Set-Service -Name {{hostname}} -DisplayName "{{name}}"`
 
 - Change the startup type of services:
 
-`Set-Service -Name {{BITS}} -StartupType {{Automatic}}`
+`Set-Service -Name {{service_name}} -StartupType {{Automatic}}`
 
 - Change the description of a service:
 
-`Set-Service -Name {{BITS}} -Description {{"Transfers files in the background using idle network bandwidth."}}`
+`Set-Service -Name {{service_name}} -Description "{{description}}"`
