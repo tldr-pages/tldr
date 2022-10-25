@@ -13,7 +13,7 @@
 
 - Cambia il gruppo proprietario di un link simbolico:
 
-`chgrp -h {{gruppo}} {{path/to/symlink}}`
+`chgrp -h {{gruppo}} {{percorso/del/symlink}}`
 
 - Cambia il gruppo proprietario di un file/directory rendendolo uguale a quello di un altro file di riferimento:
 

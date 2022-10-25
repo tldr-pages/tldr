@@ -10,7 +10,7 @@
 
 - Controlla una determinata directory ricorsivamente, senza stampare informazioni sul progresso:
 
-`cppcheck --quiet {{path/to/directory}}`
+`cppcheck --quiet {{percorso/della/directory}}`
 
 - Controlla un determinato file, specificando quali test eseguire (di default, solo gli errori sono mostrati):
 
@@ -30,4 +30,4 @@
 
 - Controlla un progetto Microsoft Visual Studio (`*.vcxproj`) o file solution (`*.sln`):
 
-`cppcheck --project={{path/to/progetto.sln}}`
+`cppcheck --project={{percorso/del/progetto.sln}}`
