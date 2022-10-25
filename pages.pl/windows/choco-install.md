@@ -17,20 +17,20 @@
 
 - Instalacja konkretnej podanej wersji pakietu:
 
-`choco install {{nazwa_pakietu}} --version {{wersja}}`
+`choco install {{pakiet}} --version {{wersja}}`
 
 - Zezwól na instalacjie wielu wersji danego pakietu:
 
-`choco install {{nazwa_pakietu}} --allow-multiple`
+`choco install {{pakiet}} --allow-multiple`
 
-- Automatyczna akceptacja wszystkich monitów podczas instalacji (--yes):
+- Automatyczna akceptacja wszystkich monitów podczas instalacji:
 
-`choco install {{nazwa_pakietu}} --yes`
+`choco install {{pakiet}} --yes`
 
 - Ustawienie określonego źródła/repozytorium pakietów:
 
-`choco install {{nazwa_pakietu}} --source {{adres_url|alias}}`
+`choco install {{pakiet}} --source {{adres_url|alias}}`
 
 - Podanie nazwy użytkownika i hasła do uwierzytelnienia:
 
-`choco install {{nazwa_pakietu}} --user {{nazwa_użytkownika}}} --password {{hasło}}`
+`choco install {{pakiet}} --user {{nazwa_użytkownika}}} --password {{hasło}}`
