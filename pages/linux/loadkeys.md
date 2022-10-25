@@ -29,7 +29,7 @@
 
 - Load a keymap from the specified file for the console:
 
-`loadkeys --console {{/dev/ttyN}} {{/path/to/filename}}`
+`loadkeys --console {{/dev/ttyN}} {{/path/to/file}}`
 
 - Use standard names for keymaps of different locales:
 
