@@ -12,7 +12,7 @@
 
 `telinit 6`
 
-- Change SysV run level (2, 3, 4, 5):
+- Change SysV run level:
 
 `telinit {{2|3|4|5}}`
 
