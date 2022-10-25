@@ -1,6 +1,6 @@
 # choco list
 
-> Wyświetlanie lusty pakietów Chocolatey.
+> Wyświetlanie listy pakietów Chocolatey.
 > Więcej informacji: <https://chocolatey.org/docs/commands-list>.
 
 - Wyświetlanie wszystkich dostępnych pakietów:
