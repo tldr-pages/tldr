@@ -13,8 +13,8 @@
 
 - Load a keymap from the specified file for the console:
 
-`loadkeys --console {{/path/to/console}} {{filename}}`
+`loadkeys --console {{/dev/ttyX}} {{/path/to/filename}}`
 
 - Use standard names for keymaps of different locales:
 
-`loadkeys --console {{path/to/console}} {{uk}}`
+`loadkeys --console {{/dev/ttyX}} {{uk}}`
