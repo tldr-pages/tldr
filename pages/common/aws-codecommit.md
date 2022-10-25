@@ -1,19 +1,11 @@
 # aws codecommit
 
 > AWS CodeCommit is a secure, highly scalable, managed source control service that hosts private Git repositories.
-> More information: <https://aws.amazon.com/codecommit/>.
+> More information: <https://docs.aws.amazon.com/cli/latest/reference/codecommit/>.
 
-- View a list of all subcommands:
+- Display help for a specific command:
 
-`aws codecommit help`
-
-- Configure the AWS CLI with a profile:
-
-`aws configure`
-
-- View information about a specific CodeCommit command:
-
-`aws codecommit {{command-name}} help`
+`aws codecommit {{command}} help`
 
 - Display help:
 
