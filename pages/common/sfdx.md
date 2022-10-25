@@ -1,36 +1,36 @@
 # sfdx
 
-> Salesforce CLI is a powerful command line interface that simplifies development and build automation when working with your Salesforce org.
+> Command-line tool for development and build automation with a Salesforce organization.
 > More information: <https://developer.salesforce.com/tools/sfdxcli>.
 
-- Authorize a Salesforce Org:
+- Authorize a Salesforce Organization:
 
-`sfdx force:auth:web:login -a {{org_alias}} -r {{org_url}}`
+`sfdx force:auth:web:login --setalias {{organization}} --instanceurl {{organization_url}}`
 
-- List all authorized Orgs:
+- List all authorized organizations:
 
 `sfdx force:org:list`
 
-- Open an Org in your Browser:
+- Open a specific organization in the default web browser:
 
-`sfdx force:org:open -u {{org_alias}}`
+`sfdx force:org:open --targetusername {{organization}}`
 
-- Display Org information:
+- Display information about the organization:
 
-`sfdx force:org:display -u {{org_alias}}`
+`sfdx force:org:display --targetusername {{organization}}`
 
-- Push source meta data to an Org:
+- Push source meta data to an Organization:
 
-`sfdx force:source:push -u {{org_alias}}`
+`sfdx force:source:push --targetusername {{organization}}`
 
-- Pull source meta data from an Org:
+- Pull source meta data from an Organization:
 
-`sfdx force:source:pull -u {{org_alias}}`
+`sfdx force:source:pull --targetusername {{organization}}`
 
-- Generate a password for your Org user:
+- Generate a password for the Organization user:
 
-`sfdx force:user:password:generate -u {{org_alias}}`
+`sfdx force:user:password:generate --targetusername {{organization}}`
 
-- Assign a permission set to your Org user:
+- Assign a permission set to the Organization user:
 
-`sfdx force:user:permset:assign -n {{permission_set_name}} -u {{org_alias}}`
+`sfdx force:user:permset:assign --permsetname {{permission_set_name}} --targetusername {{organization}}`
