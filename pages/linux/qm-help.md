@@ -9,4 +9,4 @@
 
 - Display help for a specific command with detailed information:
 
-`qm help {{command}} --verbose {{boolean}}`
+`qm help {{command}} --verbose {{true|false}}`
