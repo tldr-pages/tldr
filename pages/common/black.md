@@ -15,7 +15,7 @@
 
 `black --check {{path/to/file_or_directory}}`
 
-- Output any changes that would be made to a file or a directory if they were to be formatted:
+- Output changes that would be made to a file or a directory without performing them (dry-run):
 
 `black --diff {{path/to/file_or_directory}}`
 
