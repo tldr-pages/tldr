@@ -34,4 +34,4 @@
 
 - Display information for a specific IP address:
 
-`vt domain {{ip}}`
+`vt domain {{ip_address}}`
