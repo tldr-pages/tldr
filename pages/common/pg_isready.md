@@ -7,6 +7,6 @@
 
 `pg_isready --host={{hostname}} --port={{port}}`
 
-- Run connection status quietly:
+- Check connection status displaying a message only when the connection fails:
 
 `pg_isready --quiet`
