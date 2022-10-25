@@ -21,4 +21,4 @@
 
 - Show binary log from a MySQL server on the given host:
 
-`mysqlbinlog --host={{host_name}} {{path/to/binlog}}`
+`mysqlbinlog --host={{hostname}} {{path/to/binlog}}`
