@@ -3,7 +3,7 @@
 > Utility for processing MySQL binary log files.
 > More information: <https://dev.mysql.com/doc/refman/8.0/en/mysqlbinlog.html>.
 
-- Show the contents of the binary log file:
+- Show events from a specific binary log file:
 
 `mysqlbinlog {{path/to/binlog}}`
 
@@ -11,7 +11,7 @@
 
 `mysqlbinlog --database {{database_name}} {{path/to/binlog}}`
 
-- Show binary log for a specific range:
+- Show events from a binary log between specific dates:
 
 `mysqlbinlog --start-datetime='{{2022-01-01 01:00:00}}' --stop-datetime='{{2022-02-01 01:00:00}}' {{path/to/binlog}}`
 
