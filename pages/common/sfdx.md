@@ -15,7 +15,7 @@
 
 `sfdx force:org:open --targetusername {{organization}}`
 
-- Display information about the organization:
+- Display information about a specific organization:
 
 `sfdx force:org:display --targetusername {{organization}}`
 
@@ -27,10 +27,10 @@
 
 `sfdx force:source:pull --targetusername {{organization}}`
 
-- Generate a password for the Organization user:
+- Generate a password for the organization logged in user:
 
 `sfdx force:user:password:generate --targetusername {{organization}}`
 
-- Assign a permission set to the Organization user:
+- Assign a permission set for the organization logged in user:
 
 `sfdx force:user:permset:assign --permsetname {{permission_set_name}} --targetusername {{organization}}`
