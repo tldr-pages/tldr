@@ -3,10 +3,6 @@
 > Nucleotide-Nucleotide BLAST.
 > More information: <https://www.ncbi.nlm.nih.gov/books/NBK279684/table/appendices.T.blastn_application_options/>.
 
-- Display help (use `-help` for detailed help):
-
-`blastn -h`
-
 - Align two or more sequences using megablast (default), with the e-value threshold of 1e-9, pairwise output format (default):
 
 `blastn -query {{query.fa}} -subject {{subject.fa}} -evalue {{1e-9}}`
@@ -26,3 +22,7 @@
 - Search the remote non-redundant nucleotide database using a nucleotide query:
 
 `blastn -query {{query.fa}} -db {{nt}} -remote`
+
+- Display help (use `-help` for detailed help):
+
+`blastn -h`
