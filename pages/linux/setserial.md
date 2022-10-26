@@ -3,7 +3,7 @@
 > Read and modify serial port information.
 > More information: <https://manned.org/setserial>.
 
-- Print all information of a serial device:
+- Print all information about a specific serial device:
 
 `setserial -a {{/dev/cuaN}}`
 
