@@ -31,6 +31,6 @@
 
 `sfdx force:user:password:generate --targetusername {{organization}}`
 
-- Assign a permission set for the organization logged in user:
+- Assign a permission set for the organization's logged-in user:
 
 `sfdx force:user:permset:assign --permsetname {{permission_set_name}} --targetusername {{organization}}`
