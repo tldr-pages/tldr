@@ -19,11 +19,11 @@
 
 `sfdx force:org:display --targetusername {{organization}}`
 
-- Push source meta data to an Organization:
+- Push source metadata to an Organization:
 
 `sfdx force:source:push --targetusername {{organization}}`
 
-- Pull source meta data from an Organization:
+- Pull source metadata from an Organization:
 
 `sfdx force:source:pull --targetusername {{organization}}`
 
