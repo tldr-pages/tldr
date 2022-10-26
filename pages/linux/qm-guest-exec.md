@@ -5,7 +5,7 @@
 
 - Execute a specific command via a guest agent:
 
-`qm guest exec {{vm_id}} [{{extra-args}}]`
+`qm guest exec {{vm_id}} {{arg1 arg2 ...}}`
 
 - Execute a specific command via a guest agent asynchronously:
 
