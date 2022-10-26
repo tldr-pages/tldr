@@ -58,7 +58,7 @@ as a guideline for current and future maintainers.
   (1) **pass the automated tests** (GitHub Actions, CLA signing, etc.),
   (2) have all the **review comments addressed**,
   (3) get **approved reviews by at least two maintainers**, (the second maintainer can merge immediately after approving) and
-  (4) have been open for at least **24 hours** unless the changes are trivial (contains only typo fixes or shell builtin/keyword/quoting syntax fixes)
+  (4) have been open for at least **12 hours** unless the changes are trivial (contains only typo fixes or shell builtin/keyword/quoting syntax fixes)
   
   These rules mean that trivial PRs can be merged before 24 hours left.
 
