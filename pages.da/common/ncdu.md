@@ -1,6 +1,6 @@
 # ncdu
 
-> Diskforbrugsanalyse i ncurses interface.
+> Diskbrugsanalysator med en ncurses-grænseflade.
 > Mere information: <https://manned.org/ncdu>.
 
 - Analysér den nuværende arbejdsmappe:
