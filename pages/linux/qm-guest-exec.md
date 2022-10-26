@@ -9,7 +9,7 @@
 
 - Execute a specific command via a guest agent asynchronously:
 
-`qm guest exec {{vm_id}} [{{extra-args}}] --synchronous 0`
+`qm guest exec {{vm_id}} {{arg1 arg2 ...}} --synchronous 0`
 
 - Execute a specific command via a guest agent with a specified timeout of 10 seconds:
 
