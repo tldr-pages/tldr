@@ -27,7 +27,7 @@
 
 `sfdx force:source:pull --targetusername {{organization}}`
 
-- Generate a password for the organization logged in user:
+- Generate a password for the organization's logged-in user::
 
 `sfdx force:user:password:generate --targetusername {{organization}}`
 
