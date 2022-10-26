@@ -98,4 +98,4 @@ as a guideline for current and future maintainers.
   then prefer squash, else do a rebase.
 
 - Although having push access allows committing directly to the repository,
-  please **create pull requests for all of your changes** unless they are trivial (descibed above).
+  please **create pull requests for all of your changes** unless they are trivial (described above).
