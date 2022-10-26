@@ -1,25 +1,25 @@
 # btrfs
 
-> Un système de fichiers pour Linux basé sur le principe "copy-on-write" (COW).
-> Certaines commandes comme `btrfs device` ont leur propre documentation.
+> Système de fichiers basé sur le principe de copie à l’écriture ("copy-on-write", souvent désigné par son sigle anglais COW) pour Linux.
+> Certaines sous-commandes comme `btrfs device` ont leur propre documentation.
 > Plus d'informations : <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs>.
 
-- Crée un sous-volume :
+- Créer un sous-volume :
 
-`sudo btrfs subvolume create {{chemin/vers/le/sous-volume}}`
+`sudo btrfs subvolume create {{chemin/vers/sous_volume}}`
 
-- Liste les sous-volumes :
+- Lister les sous-volumes :
 
-`sudo btrfs subvolume list {{chemin/vers/le/point/de/montage}}`
+`sudo btrfs subvolume list {{chemin/vers/point_de_montage}}`
 
-- Affiche les informations d'utilisation de l'espace :
+- Afficher les informations d'utilisation d'espace :
 
-`sudo btrfs filesystem df {{chemin/vers/le/point/de/montage}}`
+`sudo btrfs filesystem df {{chemin/vers/point_de_montage}}`
 
-- Active le quota :
+- Activer les quotas :
 
-`sudo btrfs quote enable {{chemin/vers/le/sous-volume}}`
+`sudo btrfs quota enable {{chemin/vers/sous_volume}}`
 
-- Affiche le quota :
+- Afficher les quotas :
 
-`sudo btrfs qgroup show {{chemin/vers/le/sous-volume}}`
+`sudo btrfs qgroup show {{chemin/vers/sous_volume}}`
