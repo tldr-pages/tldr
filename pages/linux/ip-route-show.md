@@ -19,7 +19,7 @@
 
 `ip route show table {{all|unspec|0}}`
 
-- List routes with given device only:
+- List routes from a given device only:
 
 `ip route show dev {{eth0}}`
 
