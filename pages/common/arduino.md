@@ -29,8 +29,8 @@
 
 - Install latest SAM board support:
 
-`arduino --install-boards "arduino:sam"`
+`arduino --install-boards "{{arduino:sam}}"`
 
 - Install Bridge and Servo libraries:
 
-`arduino --install-library "Bridge:1.0.0,Servo:1.2.0"`
+`arduino --install-library "{{Bridge:1.0.0,Servo:1.2.0}}"`
