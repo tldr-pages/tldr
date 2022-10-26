@@ -3,19 +3,19 @@
 > Communicate between the browser application and various configuration tools and services like `cockpit-bridge`.
 > More information: <https://cockpit-project.org/guide/latest/cockpit-ws.8.html>.
 
-- Check which certificate `cockpit-ws` will use:
+- Start with authentication via SSH at `127.0.0.1` port `22` enabled:
 
 `cockpit-ws --local-ssh`
 
-- Serve HTTP requests to a specific PORT instead of port `9090`:
+- Start an HTTP server on a specific port:
 
-`cockpit-ws --port {{PORT}}`
+`cockpit-ws --port {{port}}`
 
-- Bind to a specific ADDRESS instead of binding to all available addresses:
+- Start and bind to a specific IP address (defaults to `0.0.0.0`):
 
-`cockpit-ws --address {{ADDRESS}}`
+`cockpit-ws --address {{ip_address}}`
 
-- Don't use TLS:
+- Start without TLS:
 
 `cockpit-ws --no-tls`
 
