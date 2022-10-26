@@ -1,15 +1,15 @@
 # logrotate
 
 > Rotates, compresses, and mails system logs.
-> More information: <https://manned.org/logrotate.8>.
+> More information: <https://manned.org/logrotate>.
 
 - Trigger a run of logrotate manually:
 
 `logrotate {{path/to/logrotate.conf}} --force`
 
-- Run logrotate using a specific mail_binary to send reports:
+- Run logrotate using a specific command to mail reports:
 
-`logrotate {{path/to/logrotate.conf}} --mail {{/usr/bin/mail_binary}}`
+`logrotate {{path/to/logrotate.conf}} --mail {{/usr/bin/mail_command}}`
 
 - Run without using a state (lock) file:
 
