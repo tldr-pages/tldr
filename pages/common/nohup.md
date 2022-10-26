@@ -7,7 +7,7 @@
 
 `nohup {{command}} {{command_arguments}}`
 
-- Launch nohup in background mode:
+- Launch `nohup` in background mode:
 
 `nohup {{command}} {{command_arguments}} &`
 
