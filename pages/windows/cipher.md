@@ -1,6 +1,6 @@
 # cipher
 
-> Encrypt, decrypt files on NTFS drives, or show their encryption information.
+> Displays or alters the encryption of directories and files on NTFS volumes.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/cipher>.
 
 - Display information about a specific encrypted file or directory:
