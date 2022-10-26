@@ -7,6 +7,10 @@
 
 `loadkeys --default`
 
+- Load default keymap when an unusual keymap is loaded and `-` sign cannot be found:
+
+`loadkeys defmap`
+
 - Create a kernel source table:
 
 `loadkeys --mktable`
@@ -23,10 +27,10 @@
 
 `loadkeys --quiet`
 
-- Display help:
+- Load a keymap from the specified file for the console:
 
-`loadkeys --help`
+`loadkeys --console {{/dev/ttyN}} {{/path/to/file}}`
 
-- Display version:
+- Use standard names for keymaps of different locales:
 
-`loadkeys --version`
+`loadkeys --console {{/dev/ttyN}} {{uk}}`
