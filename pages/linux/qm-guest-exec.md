@@ -17,4 +17,4 @@
 
 - Execute a specific command via a guest agent and forward input from STDIN until EOF to the guest agent:
 
-`qm guest exec {{vm_id}} [{{extra-args}}] --pass-stdin 1`
+`qm guest exec {{vm_id}} {{arg1 arg2 ...}} --pass-stdin 1`
