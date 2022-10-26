@@ -1,15 +1,15 @@
 # pyats shell
 
-> Starts a pre-loaded pyATS interactive Python Shell to save time in prototyping.
+> Start a pre-loaded pyATS interactive Python Shell to save time in prototyping.
 > More information: <https://pubhub.devnetcloud.com/media/genie-docs/docs/cli/genie_shell.html>.
 
-- Open pyATS shell with defined Testbed file:
+- Open pyATS shell with a defined Testbed file:
 
-`pyats shell --testbed-file {{/path/to/your/testbed.yaml}}`
+`pyats shell --testbed-file {{path/to/testbed.yaml}}`
 
-- Open pyATS shell with defined Pickle file:
+- Open pyATS shell with a defined Pickle file:
 
-`pyats shell --pickle-file {{/path/to/your/pickle.file}}`
+`pyats shell --pickle-file {{path/to/pickle.file}}`
 
 - Disable IPython:
 
