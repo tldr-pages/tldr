@@ -11,6 +11,6 @@
 
 `pyats shell --pickle-file {{path/to/pickle.file}}`
 
-- Disable IPython:
+- Open pyATS with IPython disabled:
 
 `pyats shell --no-ipython`
