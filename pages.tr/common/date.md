@@ -9,7 +9,7 @@
 
 - Geçerli tarihi UTC ve ISO 8601 formatında görüntüleyin:
 
-`date -u +"%Y-%m-%dT%H:%M:%SZ"`
+`date -u +"%Y-%m-%dT%H:%M:%S%Z"`
 
 - Geçerli tarihi bir Unix zaman damgası olarak görüntüleyin (Unix zamanından bu yana geçen saniyeler):
 
