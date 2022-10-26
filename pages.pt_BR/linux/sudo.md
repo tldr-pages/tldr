@@ -1,16 +1,35 @@
 # sudo
 
-> Utilizado para realizar comandos como superuser, o equivalente ao "administrador" do Windows.
-> Para mais detalhes, acesse [este site](https://manned.org/sudo).
+> Executa um único comando como o Superuser, ou como outro usuário. Para mais informações, acesse [este site](https://manned.org/sudo).
 
-- Um caso geral pode ser descrito como:
+- Executar um comando como Superuser:
 
-`sudo {{comando}}`
+`sudo {{less /var/log/syslog}}`
 
-- Por exemplo, para remover um diretório read-only (i.e. protegida com permissão apenas de leitura), é necessário o uso de sudo, como segue:
+- Editar um arquivo, como Superuser, com seu editor padrão:
 
-`sudo rm -r {{pasta}}`
+`sudo --edit {{/etc/fstab}}`
 
-- Para atualizações do sistema em distribuições Linux baseadas em Arch.
+- Executar um comando como outro usuário e/ou grupo:
 
-`sudo pacman -Syu`
+`sudo --user={{usuário}} --group={{grupo}} {{id -a}}}`
+
+- Executar um comando anterior com o prefixo `sudo` (apenas em `bash`, `zsh`, etc.):
+
+`sudo !!`
+
+- Abrir o shell padrão com privilégios de Superuser e executar arquivos de login (`.profile`, `.bash_profile`, etc.):
+
+`sudo --login`
+
+- Abrir o shell padrão com privilégios de Superuser sem alterar o ambiente de execução:
+
+`sudo --shell`
+
+- Abrir o shell padrão como dado usuário, carregando o ambiente de execução deste usuário e lendo arquivos de login (`.profile`, `.bash_profile`, etc.):
+
+`sudo --login --user={{usuário}}`
+
+- Listar os comandos permitidos (e não permitidos) para o usuário atual:
+
+`sudo --list`

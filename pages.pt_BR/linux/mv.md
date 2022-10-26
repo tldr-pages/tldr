@@ -1,16 +1,27 @@
 # mv
 
-> Utilizado para movimentação de arquivos entre diretórios, ou renomeá-los.
-> Para mais detalhes, acesse [este site](https://manned.org/mv).
+> Movimentação de arquivos entre diretórios, ou renomeá-los. Mais informações [neste site](https://url-to-upstream.tld).
 
-- Para mover arquivos:
+- Mover um arquivo para um diretório arbitrário:
 
-`mv {{arquivo_1}} {{arquivo_2}} {{arquivo_3}} <...> {{destino}}`
+`mv {{arquivo}} {{destino}}`
 
-- Também é possível mover todos os arquivos de um diretório para outro, utilizando-se do operador \*.
+- Mover arquivos para outro diretório, mantendo os nomes dos arquivos:
 
-`mv {{diretório}}/* {{diretório_de_destino}}`
+`mv {{arquivo_1}} {{arquivo_2}} {{arquivo_3}} {{destino}}`
 
-- Para renomear arquivos:
+- Não requisitar confirmação para sobrescrição de arquivos:
 
-`mv {{arquivo}} {{novo_nome_do_arquivo}}`
+`mv -f {{arquivo}} {{destino}}`
+
+- Requisitar confirmação para sobrescrição de arquivos, independentemente das permissões de arquivo:
+
+`mv -i {{arquivo}} {{destino}}`
+
+- Não sobrescrever arquivos existentes no diretório de destino:
+
+`mv -n {{arquivo}} {{destino}}`
+
+- Mova os arquivos em modo Verbose, mostrando os arquivos após sua movimentação:
+
+`mv -v {{arquivo}} {{destino}}`
