@@ -11,7 +11,7 @@
 
 `doctl databases user`
 
-- Migrate a database cluster to a new region:
+- Migrate a database cluster to a new region interactively:
 
 `doctl databases migrate`
 
