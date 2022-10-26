@@ -18,4 +18,4 @@
 
 - Includi un percorso dato alla lista delle directory in cui cercare i file specificati nelle direttive `.include`:
 
-`as -I {{path/to/directory}} {{file.s}}`
+`as -I {{percorso/della/directory}} {{file.s}}`

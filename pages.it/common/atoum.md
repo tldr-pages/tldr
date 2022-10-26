@@ -21,7 +21,7 @@
 
 - Esegui una specifica directory di test:
 
-`atoum -d {{path/to/directory}}`
+`atoum -d {{percorso/della/directory}}`
 
 - Esegui tutti i test sotto uno specifico namespace:
 
