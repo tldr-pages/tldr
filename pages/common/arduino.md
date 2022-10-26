@@ -1,7 +1,7 @@
 # arduino
 
 > Arduino Studio - Integrated Development Environment for the Arduino platform.
-> More information: <https://github.com/arduino/Arduino/blob/master/build/shared/manpage.adoc>.
+> More information: <https://github.com/arduino/Arduino/blob/master/build/shared/manpage.adoc>, <https://manned.org/arduino>.
 
 - Build a sketch:
 
@@ -26,3 +26,15 @@
 - Save any (changed) preferences to `preferences.txt`:
 
 `arduino --save-prefs`
+
+- Start the Arduino IDE, with two files open:
+
+`arduino {{path/to/sketch/file.ino}} {{path/to/sketch/file.ino}}`
+
+- Install latest SAM board support:
+
+`arduino --install-boards "arduino:sam"`
+
+- Install Bridge and Servo libraries:
+
+`arduino --install-library "Bridge:1.0.0,Servo:1.2.0"`
