@@ -1,7 +1,7 @@
 # arduino
 
 > Arduino Studio - Integrated Development Environment for the Arduino platform.
-> More information: <https://github.com/arduino/Arduino/blob/master/build/shared/manpage.adoc>, <https://manned.org/arduino>.
+> More information: <https://github.com/arduino/Arduino/blob/master/build/shared/manpage.adoc>.
 
 - Build a sketch:
 
