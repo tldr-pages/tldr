@@ -60,7 +60,7 @@ as a guideline for current and future maintainers.
   (3) get **approved reviews by at least two maintainers**, (the second maintainer can merge immediately after approving) and
   (4) have been open for at least **12 hours** unless the changes are trivial (contains only typo fixes or shell builtin/keyword/quoting syntax fixes)
   
-  These rules mean that trivial PRs can be merged before 24 hours left.
+  These rules mean that trivial PRs can be merged before 12 hours left.
 
 - If a PR fails to get a review from a second maintainer after a week,
   the first maintainer should ping others for review. If it still lingers around
