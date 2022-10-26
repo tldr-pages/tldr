@@ -27,10 +27,6 @@
 
 `arduino --save-prefs`
 
-- Start the Arduino IDE, with two files open:
-
-`arduino {{path/to/sketch/file.ino}} {{path/to/sketch/file.ino}}`
-
 - Install latest SAM board support:
 
 `arduino --install-boards "arduino:sam"`
