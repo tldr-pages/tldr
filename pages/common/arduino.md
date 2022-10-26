@@ -27,7 +27,7 @@
 
 `arduino --save-prefs`
 
-- Install latest SAM board support:
+- Install the latest SAM board:
 
 `arduino --install-boards "{{arduino:sam}}"`
 
