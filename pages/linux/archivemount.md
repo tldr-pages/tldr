@@ -3,6 +3,6 @@
 > Mount an archive for access as a file system.
 > More information: <https://manned.org/archivemount>.
 
-- Mount an archive to mountpoint:
+- Mount an archive to a specific mountpoint:
 
 `archivemount {{path/to/archive}} {{mount_point}}`
