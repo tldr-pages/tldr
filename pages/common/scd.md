@@ -29,4 +29,4 @@
 
 - Jump to a directory with a previously defined alias:
 
-`scd {{name}}`
+`scd {{word}}`
