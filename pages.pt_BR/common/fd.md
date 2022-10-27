@@ -8,7 +8,7 @@
 
 `fd {{padrão}}`
 
-- Encontra arquivos que começam com "foo":
+- Encontra arquivos que começam com `foo`:
 
 `fd {{'^foo'}}`
 
