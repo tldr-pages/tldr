@@ -25,7 +25,7 @@
 
 - Add an alias for the current directory:
 
-`scd --alias={{name}}`
+`scd --alias={{word}}`
 
 - Jump to a directory with a previously defined alias:
 
