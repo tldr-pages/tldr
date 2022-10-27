@@ -6,7 +6,7 @@
 
 - Replace all `apple` (basic regex) occurrences with `mango` (basic regex) in all input lines and print the result to `stdout`:
 
-`{{command}} | sed '{{s/apple/mango/g}}'`
+`{{command}} | sed 's/apple/mango/g'`
 
 - Execute a specific script [f]ile and print the result to `stdout`:
 
@@ -14,12 +14,12 @@
 
 - Replace all `apple` (extended regex) occurrences with `APPLE` (extended regex) in all input lines and print the result to `stdout`:
 
-`{{command}} | sed -E '{{s/(apple)/\U\1/g}}'`
+`{{command}} | sed -E 's/(apple)/\U\1/g'`
 
 - Print just a first line to `stdout`:
 
-`{{command}} | sed -n '{{1p}}'`
+`{{command}} | sed -n '1p'`
 
 - Replace all `apple` (basic regex) occurrences with `mango` (basic regex) in all input lines and save modifications to a specific file:
 
-`sed -i '{{s/apple/mango/g}}' {{path/to/file}}`
+`sed -i 's/apple/mango/g' {{path/to/file}}`
