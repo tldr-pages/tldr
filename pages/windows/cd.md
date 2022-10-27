@@ -9,7 +9,7 @@
 
 - Go to root of current drive:
 
-`cd\`
+`cd \`
 
 - Go up to the parent of the current directory:
 
