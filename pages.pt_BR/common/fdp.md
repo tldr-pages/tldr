@@ -6,19 +6,19 @@
 
 - Renderiza uma imagem `png` com um nome de arquivo baseado no nome do arquivo de entrada e formato de saída (-O maiúsculo):
 
-`fdp -T {{png}} -O {{caminho/para/entrada.gv}}`
+`fdp -T png -O {{caminho/para/entrada.gv}}`
 
 - Renderiza uma imagem `svg` com o nome do arquivo de saída especificado (-o minúsculo):
 
-`fdp -T {{svg}} -o {{caminho/para/imagem.svg}} {{caminho/para/entrada.gv}}`
+`fdp -T svg -o {{caminho/para/imagem.svg}} {{caminho/para/entrada.gv}}`
 
-- Renderiza a saída nos formatos `ps`, `pdf`, `svg`, `fig`, `png`, `gif`, `jpg`, `json`, ou `dot`:
+- Renderiza a saída nos formatos:
 
-`fdp -T {{formato}} -O {{caminho/para/entrada.gv}}`
+`fdp -T {{ps|pdf|svg|fig|png|gif|jpg|json|dot}} -O {{caminho/para/entrada.gv}}`
 
 - Renderiza uma imagem `gif` usando stdin e stdout:
 
-`echo "{{digraph {isso -> aquilo} }}" | fdp -T {{gif}} > {{caminho/para/imagem.gif}}`
+`echo "{{digraph {isso -> aquilo} }}" | fdp -T gif > {{caminho/para/imagem.gif}}`
 
 - Exibe ajuda:
 
