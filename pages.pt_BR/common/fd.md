@@ -10,7 +10,7 @@
 
 - Encontra arquivos que começam com `foo`:
 
-`fd {{'^foo'}}`
+`fd '^foo'`
 
 - Encontra arquivos com uma extensão específica:
 
