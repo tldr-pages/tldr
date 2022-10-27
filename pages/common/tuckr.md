@@ -19,6 +19,6 @@
 
 `tuckr rm \*`
 
-- Add program dotfile and run its setup script:
+- Add a program dotfile and run its setup script:
 
 `tuckr set program1`
