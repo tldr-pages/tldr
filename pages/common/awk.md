@@ -2,7 +2,7 @@
 
 > A versatile programming language for working on files.
 > See also: `sed`, `ed`.
-> More information: <https://manned.org/awk.1>.
+> More information: <https://github.com/onetrueawk/awk>.
 
 - Execute a specific expression:
 
