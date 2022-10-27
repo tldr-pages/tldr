@@ -10,3 +10,7 @@
 - Print file with author email and commit hash on each line:
 
 `git blame -e {{file}}`
+
+- Run git blame on file as it was before a specified commit:
+
+`git blame {{commit_hash}}~ {{file}}`
