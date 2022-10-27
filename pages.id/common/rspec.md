@@ -3,7 +3,7 @@
 > Kerangka pengujian dalam Behavior-driven development yang ditulis dalam bahasa Ruby untuk menguji kode Ruby.
 > Informasi lebih lanjut: <https://rspec.info>.
 
-- Menginisiasi file konfigurasi .rspec dan spec helper:
+- Menginisiasi file konfigurasi `.rspec` dan spec helper:
 
 `rspec --init`
 
