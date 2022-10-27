@@ -14,7 +14,7 @@
 
 - Encontra arquivos com uma extensão específica:
 
-`fd --extension {{txt}}`
+`fd --extension txt`
 
 - Encontra arquivos em um diretório específico:
 
