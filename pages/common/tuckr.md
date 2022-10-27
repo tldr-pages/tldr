@@ -13,7 +13,7 @@
 
 - Add all dotfiles except specified programs:
 
-`tuckr add \* -e program1,program2`
+`tuckr add \* -e {{program1}},{{program2}}`
 
 - Remove all dotfiles from system:
 
