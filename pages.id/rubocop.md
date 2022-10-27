@@ -15,7 +15,7 @@
 
 `rubocop --out {{jalan/menuju/file}}`
 
-- Melihat daftar cop (aturan-aturan dalam analisis):
+- Melihat daftar cop (aturan-aturan dalam menganalisa):
 
 `rubocop --show-cops`
 
