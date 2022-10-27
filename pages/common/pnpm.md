@@ -4,7 +4,7 @@
 > Manage Node.js projects and their module dependencies.
 > More information: <https://pnpm.io>.
 
-- Interactively create a `package.json` file:
+- Create a `package.json` file:
 
 `pnpm init`
 
@@ -14,19 +14,19 @@
 
 - Download a specific version of a package and add it to the list of dependencies in `package.json`:
 
-`pnpm install {{module_name}}@{{version}}`
+`pnpm add {{module_name}}@{{version}}`
 
-- Download a package and add it to the list of dev dependencies in `package.json`:
+- Download a package and add it to the list of [D]ev dependencies in `package.json`:
 
-`pnpm install --dev {{module_name}}`
+`pnpm add -D {{module_name}}`
 
-- Download a package and install it globally:
+- Download a package and install it [g]lobally:
 
-`pnpm install -g {{module_name}}`
+`pnpm add -g {{module_name}}`
 
 - Uninstall a package and remove it from the list of dependencies in `package.json`:
 
-`pnpm uninstall {{module_name}}`
+`pnpm remove {{module_name}}`
 
 - Print a tree of locally installed modules:
 

@@ -15,6 +15,10 @@
 
 `docker build --tag {{nom:etiquette}} .`
 
+- Construit une image docker sans contexte de construction :
+
+`docker build --tag {{nom:etiquette}} - < {{Dockerfile}}`
+
 - Ne pas utiliser le cache lors de la construction de l'image :
 
 `docker build --no-cache --tag {{nom:etiquette}} .`

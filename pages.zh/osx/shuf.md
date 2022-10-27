@@ -1,6 +1,7 @@
 # shuf
 
 > 生成随机排列。
+> 更多信息：<https://www.unix.com/man-page/linux/1/shuf/>.
 
 - 随机化文件中的行顺序并输出结果：
 

@@ -1,0 +1,27 @@
+name: 📄 Page request
+title: "page request: "
+description: Page request template.
+labels: new command, help wanted
+body:
+  - type: textarea
+    attributes:
+      label: Command description
+      description: Describe a command you want to be summarized.
+      placeholder: Tell us about the command!
+  - type: input
+    attributes:
+      label: Command details
+      description: Describe any details related to a command.
+      placeholder: e.g. command version
+  - type: checkboxes
+    attributes:
+      label: OS
+      description: Select which operating system(s) this command works with.
+      options:
+        - label: Android
+        - label: Linux
+        - label: macOS
+        - label: sunOS
+        - label: Windows
+
+        

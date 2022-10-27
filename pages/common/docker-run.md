@@ -9,23 +9,23 @@
 
 - Run command in a new container in background and display its ID:
 
-`docker run -d {{image}} {{command}}`
+`docker run --detach {{image}} {{command}}`
 
 - Run command in a one-off container in interactive mode and pseudo-TTY:
 
-`docker run --rm -it {{image}} {{command}}`
+`docker run --rm --interactive --tty {{image}} {{command}}`
 
 - Run command in a new container with passed environment variables:
 
-`docker run -e '{{variable}}={{value}}' -e {{variable}} {{image}} {{command}}`
+`docker run --env '{{variable}}={{value}}' --env {{variable}} {{image}} {{command}}`
 
 - Run command in a new container with bind mounted volumes:
 
-`docker run -v {{/path/to/host_path}}:{{/path/to/container_path}} {{image}} {{command}}`
+`docker run --volume {{/path/to/host_path}}:{{/path/to/container_path}} {{image}} {{command}}`
 
 - Run command in a new container with published ports:
 
-`docker run -p {{host_port}}:{{container_port}} {{image}} {{command}}`
+`docker run --publish {{host_port}}:{{container_port}} {{image}} {{command}}`
 
 - Run command in a new container overwriting the entrypoint of the image:
 

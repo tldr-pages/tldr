@@ -1,7 +1,7 @@
 # dir
 
 > Lis isi direktori.
-> Informasi lebih lanjut: <https://docs.microsoft.com/windows-server/administration/windows-commands/dir>.
+> Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/dir>.
 
 - Tampilkan isi direktori saat ini:
 

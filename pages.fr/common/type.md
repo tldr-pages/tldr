@@ -1,7 +1,7 @@
 # type
 
 > Affiche le type de la commande que le terminal exécuterait.
-> Plus d'information: <https://manned.org/type>.
+> Plus d'informations : <https://manned.org/type>.
 
 - Affiche le type d'une commande :
 

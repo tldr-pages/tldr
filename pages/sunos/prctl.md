@@ -1,7 +1,6 @@
 # prctl
 
-> Get or set the resource controls of running processes,.
-> Tasks, and projects.
+> Get or set the resource controls of running processes, tasks, and projects.
 > More information: <https://www.unix.com/man-page/sunos/1/prctl>.
 
 - Examine process limits and permissions:

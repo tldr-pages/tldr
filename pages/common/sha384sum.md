@@ -19,6 +19,10 @@
 
 `sha384sum --check {{path/to/file.sha384}}`
 
-- Only show a message for files for which verification fails:
+- Only show a message for missing files or when verification fails:
 
 `sha384sum --check --quiet {{path/to/file.sha384}}`
+
+- Only show a message for files for which verification fails, ignoring missing files:
+
+`sha384sum --ignore-missing --check --quiet {{path/to/file.sha384}}`

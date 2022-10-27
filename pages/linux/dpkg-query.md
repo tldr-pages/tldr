@@ -5,16 +5,20 @@
 
 - List all installed packages:
 
-`dpkg-query -l`
+`dpkg-query --list`
 
 - List installed packages matching a pattern:
 
-`dpkg-query -l '{{pattern}}'`
+`dpkg-query --list '{{libc6*}}'`
 
 - List all files installed by a package:
 
-`dpkg-query -L {{package_name}}`
+`dpkg-query --listfiles {{libc6}}`
 
 - Show information about a package:
 
-`dpkg-query -s {{package_name}}`
+`dpkg-query --status {{libc6}}`
+
+- Search for packages that own files matching a pattern:
+
+`dpkg-query --search {{/etc/ld.so.conf.d}}`

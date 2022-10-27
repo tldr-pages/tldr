@@ -6,7 +6,7 @@
 
 - Esegui il backup di una directory via FTPS su una macchina remota, cifrandolo con una password:
 
-`FTP_PASSWORD={{password_login_ftp}} PASSPHRASE={{password_cifratura}} duplicity {{percorso/a/cartella_sorgente}} {{ftps://utente@hostname/percorso/a/cartella_target/}}`
+`FTP_PASSWORD={{password_login_ftp}} PASSPHRASE={{password_cifratura}} duplicity {{percorso/della/directory_sorgente}} {{ftps://utente@hostname/percorso/della/directory_target/}}`
 
 - Esegui il backup di una directory in un server Amazon S3, facendo un backup completo ogni mese:
 
@@ -18,12 +18,12 @@
 
 - Elenca i backup disponibili:
 
-`duplicity collection-status "file://{{percorso/assoluto/a/directory/di/backup}}"`
+`duplicity collection-status "file://{{percorso/assoluto/della/directory/di/backup}}"`
 
 - Elenca i file in un backup salvato su una macchina remota, via SSH:
 
-`duplicity list-current-files --time {{YYYY-MM-DD}} scp://{{utente@hostname}}/percorso/a/directory/backup`
+`duplicity list-current-files --time {{YYYY-MM-DD}} scp://{{utente@hostname}}/percorso/della/directory/backup`
 
 - Ripristina una sotto-directory da un backup locale cifrato con GnuPG in una posizione precisa:
 
-`PASSPHRASE={{password_chiave_gpg}} duplicity restore --encrypt-key {{id_chiave_gpg}} --file-to-restore {{percorso/relativo/sotto_directory}} file://{{percorso/assoluto/a/directory/di/backup}} {{percorso/a/directory/dove/ripristinare}}`
+`PASSPHRASE={{password_chiave_gpg}} duplicity restore --encrypt-key {{id_chiave_gpg}} --file-to-restore {{percorso/relativo/sotto_directory}} file://{{percorso/assoluto/della/directory/di/backup}} {{percorso/della/directory/dove/ripristinare}}`

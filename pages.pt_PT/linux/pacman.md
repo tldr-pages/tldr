@@ -6,32 +6,32 @@
 
 - Sincronizar e actualizar todos os pacotes:
 
-`sudo pacman --sync --refresh --sysupgrade`
+`sudo pacman -Syu`
 
 - Instalar um novo pacote:
 
-`sudo pacman --sync {{package_name}}`
+`sudo pacman -S {{package_name}}`
 
 - Remover um pacote e todas as dependencias:
 
-`sudo pacman --remove --recursive {{nome_do_pacote}}`
+`sudo pacman -Rs {{nome_do_pacote}}`
 
 - Procurar um pacote na base de dados por palavra chave ou expressão regular (regex):
 
-`pacman --sync --search "{{search_pattern}}"`
+`pacman -Ss "{{search_pattern}}"`
 
 - Listar versão dos pactotes instalados:
 
-`pacman --query`
+`pacman -Q`
 
 - Listar versão dos pactotes instalados explicitamente:
 
-`pacman --query --explicit`
+`pacman -Qe`
 
 - Listar pacotes órfãos (instalados como dependencia mas não exigidos por nenhum pacote):
 
-`pacman --query --unrequired --deps --quiet`
+`pacman -Qtdq`
 
 - Remover memória armazenada (cache) do `pacman`:
 
-`sudo pacman --sync --clean --clean`
+`sudo pacman -Scc`

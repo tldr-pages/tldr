@@ -14,15 +14,15 @@
 
 - Erstelle ein mit gzip komprimiertes Archiv mit relativen Pfaden:
 
-`tar czf {{pfad/zu/ziel.tar.gz}} -C {{pfad/zu/verzeichniss/}} .`
+`tar czf {{pfad/zu/ziel.tar.gz}} -C {{pfad/zu/verzeichnis/}} .`
 
-- Extrahiere ein (komprimiertes) Archiv in das derzeitige Verzeichniss:
+- Extrahiere ein (komprimiertes) Archiv in das derzeitige Verzeichnis:
 
 `tar xf {{pfad/zu/quelle.tar[.gz|.bz2|.xz]}}`
 
-- Extrahiere ein Archiv in ein Verzeichniss:
+- Extrahiere ein Archiv in ein Verzeichnis:
 
-`tar xf {{pfad/zu/quelle.tar}} -C {{verzeichniss}}`
+`tar xf {{pfad/zu/quelle.tar}} -C {{verzeichnis}}`
 
 - Erstelle ein komprimiertes Archiv und benutze den Archiv Suffix um die Kompressionsmethode zu wählen:
 

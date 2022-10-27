@@ -14,7 +14,7 @@
 
 - Stop a service:
 
-`sudo rc-servie {{service_name}} stop`
+`sudo rc-service {{service_name}} stop`
 
 - Restart a service:
 

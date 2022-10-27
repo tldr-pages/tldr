@@ -19,6 +19,6 @@
 
 `gh pr create --base {{base_branch}} --title "{{title}}" --body "{{body}}"`
 
-- Start opening a pull request in the browser:
+- Start opening a pull request in the default web browser:
 
 `gh pr create --web`

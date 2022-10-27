@@ -1,7 +1,7 @@
 # shuf
 
 > Generate permutasi acak.
-> Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/shuf>.
+> Informasi lebih lanjut: <https://www.unix.com/man-page/linux/1/shuf/>.
 
 - Acak urutan baris di sebuah file dan outputkan hasilnya:
 

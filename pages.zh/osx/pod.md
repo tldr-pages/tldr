@@ -1,6 +1,7 @@
 # pod
 
 > Swift 和 Objective-C Cocoa 项目的依赖关系管理。
+> 更多信息：<https://guides.cocoapods.org/terminal/commands.html>.
 
 - 为当前项目初始化包含默认内容的 podfile：
 

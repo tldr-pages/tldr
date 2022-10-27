@@ -13,7 +13,7 @@
 
 - Optimise Nix store disk usage by combining duplicate files:
 
-`nix optimise-store`
+`nix store optimise`
 
 - Start an interactive environment for evaluating Nix expressions:
 

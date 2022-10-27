@@ -1,21 +1,24 @@
 # touch
 
-> Atualizar as timestamps de um arquivo para a hora atual.
-> Se o arquivo não existir, cria um arquivo vazio, a menos que seja passado o parâmetro -c ou -h.
+> Alterar os timestamps de acesso e de modificação (atime, mtime) de um arquivo.
 > Mais informações: <https://www.gnu.org/software/coreutils/touch>.
 
-- Criar um novo arquivo vazio, ou atualizar as timestamps para a hora atual:
+- Criar novo(s) arquivo(s) vazio(s) ou alterar os timestamps do(s) arquivo(s) para o timestamp atual:
 
-`touch {{arquivo}}`
+`touch {{caminho/para/arquivo}}`
 
-- Definir as timestamps de um arquivo para a hora especificada:
+- Definir os timestamps de um arquivo para uma data e hora específica:
 
-`touch -t {{YYYYMMDDHHMM.SS}} {{arquivo}}`
+`touch -t {{YYYYMMDDHHMM.SS}} {{caminho/para/arquivo}}`
 
-- Usar as timestamps do arquivo1 para definir as timestamps do arquivo2:
+- Definir os timestamps de um arquivo para uma hora no passado:
 
-`touch -r {{arquivo1}} {{arquivo2}}`
+`touch -d "{{-1 hour}}" {{caminho/para/arquivo}}`
 
-- Alterar as timestamps de um arquivo. Não cria novo arquivo se não existir:
+- Usar as timestamps de um arquivo para definir as timestamps de um segundo arquivo:
 
-`touch -c {{arquivo}}`
+`touch -r {{caminho/para/arquivo1}} {{caminho/para/arquivo2}}`
+
+- Criar múltiplos arquivos:
+
+`touch -c {{caminho/para/arquivo{1,2,3}.txt}}`

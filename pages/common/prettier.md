@@ -22,3 +22,7 @@
 - Format files or directories recursively using single quotes and no trailing commas:
 
 `prettier --single-quote --trailing-comma {{none}} --write {{path/to/file_or_directory}}`
+
+- Format JavaScript and TypeScript files recursively, replacing the original:
+
+`prettier --write "**/*.{js,jsx,ts,tsx}"`

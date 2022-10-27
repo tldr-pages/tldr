@@ -8,9 +8,13 @@
 
 `pip install {{nome_pacote}}`
 
+- Instala um pacote no diretório do usuário em vez do local padrão do sistema:
+
+`pip install --user {{nome_pacote}}`
+
 - Atualiza um pacote:
 
-`pip install -U {{nome_pacote}}`
+`pip install --upgrade {{nome_pacote}}`
 
 - Desinstala um pacote:
 
@@ -23,3 +27,7 @@
 - Mostra informações sobre um pacote instalado:
 
 `pip show {{nome_pacote}}`
+
+- Instala pacotes a partir de um arquivo:
+
+`pip install --requirement {{requirements.txt}}`

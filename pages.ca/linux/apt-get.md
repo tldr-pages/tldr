@@ -2,7 +2,7 @@
 
 > Eina de gestió de paquets per a distribucions basades en Debian.
 > Busca paquets utilizant `apt-cache`.
-> Més información: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
+> Més informació: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
 
 - Actualitza la llista de paquets i versions disponibles (es recomana executar aquest comandament abans que qualsevol altre `apt-get`):
 

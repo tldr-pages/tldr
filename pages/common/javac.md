@@ -1,6 +1,6 @@
 # javac
 
-> Java Application Compiler.
+> Java application compiler.
 > More information: <https://docs.oracle.com/en/java/javase/17/docs/specs/man/javac.html>.
 
 - Compile a `.java` file:
@@ -17,4 +17,4 @@
 
 - Compile a `.java` file and place the resulting class file in a specific directory:
 
-`javac -d {{path/to/some/directory}} {{file.java}}`
+`javac -d {{path/to/directory}} {{file.java}}`

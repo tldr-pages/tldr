@@ -18,7 +18,7 @@
 
 - Start a virtual machine in headless mode:
 
-`VBoxManage startvm {{name|uuid}} -type headless`
+`VBoxManage startvm {{name|uuid}} --type headless`
 
 - Shutdown the virtual machine and save its current state:
 

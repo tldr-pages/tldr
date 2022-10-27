@@ -11,11 +11,11 @@
 
 `phan --init --init-level {{level}}`
 
-- Analyse the current directory:
+- Analyze the current directory:
 
 `phan`
 
-- Analyse one or more directories:
+- Analyze one or more directories:
 
 `phan --directory {{path/to/directory}} --directory {{path/to/another_directory}}`
 

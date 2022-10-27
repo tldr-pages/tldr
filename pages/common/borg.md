@@ -4,7 +4,7 @@
 > Creates local or remote backups that are mountable as filesystems.
 > More information: <https://borgbackup.readthedocs.io/en/stable/usage/general.html>.
 
-- Initialise a (local) repository:
+- Initialize a (local) repository:
 
 `borg init {{path/to/repo_directory}}`
 

@@ -7,6 +7,6 @@
 
 `whoami`
 
-- gib den Benutzernamen nach einer Änderung der Benutzeridentität aus:
+- Gib den Benutzernamen nach einer Änderung der Benutzeridentität aus:
 
 `sudo whoami`

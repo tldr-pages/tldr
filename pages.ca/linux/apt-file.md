@@ -1,7 +1,7 @@
 # apt-file
 
 > Busca arxius en paquets apt, incloent els que encara no s'han instal·lat.
-> Más información: <https://manpages.debian.org/latest/apt-file/apt-file.1.html>.
+> Més informació: <https://manpages.debian.org/latest/apt-file/apt-file.1.html>.
 
 - Actualita les metadades de la base de dades:
 

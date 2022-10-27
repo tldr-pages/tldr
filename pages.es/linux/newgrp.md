@@ -1,6 +1,7 @@
 # newgrp
 
 > Cambia el grupo primario de pertenencia.
+> Más información: <https://manned.org/newgrp>.
 
 - Cambia el grupo primario de pertenencia del usuario:
 

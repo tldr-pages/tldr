@@ -13,7 +13,7 @@
 
 - Create an access point without Internet sharing:
 
-`create_ap -n {{wlan0}} {{acces_point_ssid}} {{passphrase}}`
+`create_ap -n {{wlan0}} {{access_point_ssid}} {{passphrase}}`
 
 - Create a bridged network with Internet sharing:
 

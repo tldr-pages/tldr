@@ -6,11 +6,11 @@
 
 - Ripristina un file cancellato dal contenuto del commit corrente (HEAD):
 
-`git restore {{percorso/al/file}}`
+`git restore {{percorso/del/file}}`
 
 - Ripristina un file alla versione di un commit differente:
 
-`git restore --source {{commit}} {{percorso/al/file}}`
+`git restore --source {{commit}} {{percorso/del/file}}`
 
 - Annulla le modifiche ai file nell'area di stage, ripristinandoli all'HEAD:
 

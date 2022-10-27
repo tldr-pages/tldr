@@ -5,7 +5,7 @@
 
 - Acquire a lease for resource:
 
-`stormlock aquire {{resource}}`
+`stormlock acquire {{resource}}`
 
 - Release the given lease for the given resource:
 

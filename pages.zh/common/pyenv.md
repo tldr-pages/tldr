@@ -11,6 +11,10 @@
 
 `pyenv versions`
 
+- 列出所有可以从上游安装的 Python 版本：
+
+`pyenv install --list`
+
 - 在 `${PYENV_ROOT}/versions` 目录下安装一个 Python 版本：
 
 `pyenv install {{2.7.10}}`

@@ -18,3 +18,7 @@
 - Produce a line for each unpairable line for file1:
 
 `join -a {{1}} {{file1}} {{file2}}`
+
+- Join a file from stdin:
+
+`cat {{path/to/file1}} | join - {{path/to/file2}}`

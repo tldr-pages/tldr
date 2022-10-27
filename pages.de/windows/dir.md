@@ -1,7 +1,7 @@
 # dir
 
 > Zeige den Inhalt von Verzeichnissen an.
-> Weitere Informationen: <https://docs.microsoft.com/windows-server/administration/windows-commands/dir>.
+> Weitere Informationen: <https://learn.microsoft.com/windows-server/administration/windows-commands/dir>.
 
 - Zeige den Inhalt des aktuellen Verzeichnisses an:
 

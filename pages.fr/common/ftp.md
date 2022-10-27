@@ -3,30 +3,34 @@
 > Outils permettant d'interagir avec un serveur avec le protocole FTP.
 > Plus d'informations : <https://manned.org/ftp>.
 
-- Se connecter à un serveur FTP :
+- Connexion à un serveur FTP :
 
 `ftp {{ftp.exemple.com}}`
 
-- Passer au mode de transfert binaire (médias, fichiers compressés, etc) :
+- Connexion à un serveur FTP en spécifiant son adresse IP et son port :
+
+`ftp {{adresse_IP}} {{port}}`
+
+- Passe en mode de transfert binaire (médias, fichiers compressés, etc) :
 
 `binary`
 
-- Transférer plusieurs fichiers sans demander de confirmation pour chaque :
+- Transfère plusieurs fichiers sans demander de confirmation pour chaque :
 
 `prompt off`
 
-- Télécharger plusieurs fichiers :
+- Télécharge plusieurs fichiers :
 
 `mget {{*.png}}`
 
-- Uploader plusieurs fichiers :
+- Téléverse plusieurs fichiers :
 
 `mput {{*.zip}}`
 
-- Supprimer plusieurs fichiers sur le serveur distant :
+- Supprime plusieurs fichiers sur le serveur distant :
 
 `mdelete {{*.txt}}`
 
-- Renommer un fichier sur le serveur distant :
+- Renomme un fichier sur le serveur distant :
 
 `rename {{ancien_fichier}} {{nouveau_fichier}}`

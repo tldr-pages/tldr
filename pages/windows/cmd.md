@@ -1,7 +1,7 @@
 # cmd
 
 > The Windows command interpreter.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/cmd>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/cmd>.
 
 - Start an interactive shell session:
 

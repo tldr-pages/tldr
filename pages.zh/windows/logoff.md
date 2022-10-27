@@ -1,7 +1,7 @@
 # logoff
 
 > 注销登录会话。
-> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/logoff>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/logoff>.
 
 - 注销当前会话：
 

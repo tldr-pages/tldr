@@ -59,14 +59,25 @@ As a quick reference, the format of each page should match the following templat
 
 - Example description:
 
-`command -opt1 -opt2`
+`command --option`
 
 - Example description:
 
-`command -opt1 -opt2 -arg1 {{arg_value}}`
+`command --option1 --option2 {{arg_value}}`
 ```
 
-For more detailed page formatting guidelines,
+To see some examples of preexisting pages, you can look at:
+
+- [pwd](https://github.com/tldr-pages/tldr/blob/main/pages/common/pwd.md) - one of the simplest command examples
+- [tar](https://github.com/tldr-pages/tldr/blob/main/pages/common/tar.md) - page with placeholders 
+
+In our pages, we use placeholders which are defined as being tokens within curly brackets, for example `sleep {{5}}`, in this case the user can change 5 to any number.
+Other examples but not limited to of our placeholder syntax are:
+
+- `{{path/to/directory}}`
+- `{{path/to/directory1 path/to/directory2 ...}}`
+
+For more detailed formatting guidelines,
 refer to the [style guide](contributing-guides/style-guide.md).
 
 ## Subcommands

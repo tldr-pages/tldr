@@ -1,6 +1,6 @@
 # dig
 
-> DNS Lookup utility.
+> DNS lookup utility.
 > More information: <https://manned.org/dig>.
 
 - Lookup the IP(s) associated with a hostname (A records):

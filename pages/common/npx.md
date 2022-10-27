@@ -11,7 +11,7 @@
 
 `npx --package {{package_name}} {{module_name}}`
 
-- Run a command if existis in the current path or in `node_modules/.bin`:
+- Run a command if it exists in the current path or in `node_modules/.bin`:
 
 `npx --no-install {{command}} {{command_arguments}}`
 

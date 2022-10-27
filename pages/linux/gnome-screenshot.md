@@ -1,7 +1,7 @@
 # gnome-screenshot
 
 > Capture the screen, a window, or a user-defined area and save the image to a file.
-> More information: <https://apps.gnome.org/app/org.gnome.Screenshot>.
+> More information: <https://manned.org/gnome-screenshot>.
 
 - Take a screenshot and save it to the default location, normally `~/Pictures`:
 
