@@ -1,7 +1,7 @@
 # getmac
 
 > Display the MAC addresses of a system.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/getmac>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/getmac>.
 
 - Display the MAC addresses for the current system:
 

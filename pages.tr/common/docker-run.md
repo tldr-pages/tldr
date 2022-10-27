@@ -9,20 +9,20 @@
 
 - Yeni bir konteynerde arkaplanda çalışacak şekilde komut çalıştır ve ID'sini göster:
 
-`docker run -d {{imge}} {{komut}}`
+`docker run --detach {{imge}} {{komut}}`
 
 - İnteraktif mod ve pseudo-TTY'deki bir açık-kapalı konteynerde komut çalıştır:
 
-`docker run --rm -it {{imge}} {{komut}}`
+`docker run --rm --interactive --tty {{imge}} {{komut}}`
 
 - Yeni bir konteynerde geçebilmiş çevresel değişkenler ile komut çalıştır:
 
-`docker run -e '{{değişken}}={{değer}}' -e {{değişken}} {{imge}} {{komut}}`
+`docker run --env '{{değişken}}={{değer}}' --env {{değişken}} {{imge}} {{komut}}`
 
 - Yeni bir konteynerde bağlama takılı hacimlerle komut çalıştır:
 
-`docker run -v {{örnek/host}}:{{örnek/konteyner}} {{imge}} {{komut}}`
+`docker run --volume {{örnek/host}}:{{örnek/konteyner}} {{imge}} {{komut}}`
 
 - Yayınlanmış portları içeren yeni bir konteynerde komut çalıştır:
 
-`docker run -p {{host_portu}}:{{konteyner_portu}} {{imge}} {{komut}}`
+`docker run --publish {{host_portu}}:{{konteyner_portu}} {{imge}} {{komut}}`

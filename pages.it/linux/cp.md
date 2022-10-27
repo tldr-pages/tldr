@@ -1,23 +1,23 @@
 # cp
 
-> Copia file e cartelle.
+> Copia file e directory.
 > Maggiori informazioni: <https://www.gnu.org/software/coreutils/cp>.
 
 - Copia un file in un'altra posizione:
 
-`cp {{persorso/al/file_da_copiare.est}} {{percorso/al/file_di_destinazione.est}}`
+`cp {{persorso/al/file_da_copiare.est}} {{percorso/del/file_di_destinazione.est}}`
 
-- Copia un file all'interno di una cartella, mantenendone uguale il nome:
+- Copia un file all'interno di una directory, mantenendone uguale il nome:
 
-`cp {{percorso/al/file_da_copiare.est}} {{percorso/alla/cartella}}`
+`cp {{percorso/del/file_da_copiare.est}} {{percorso/della/directory}}`
 
-- Copia ricorsivamente i contenuti di una cartella in un'altra posizione (se la destinazione esiste, la cartella è copiata al suo interno):
+- Copia ricorsivamente i contenuti di una directory in un'altra posizione (se la destinazione esiste, la directory è copiata al suo interno):
 
-`cp -r {{percorso/alla/cartella_da_copiare}} {{percorso/di/destinazione}}`
+`cp -r {{percorso/della/directory_da_copiare}} {{percorso/di/destinazione}}`
 
-- Copia una cartella ricorsivamente in modalità prolissa (mostra i file mentre vengono copiati):
+- Copia una directory ricorsivamente in modalità prolissa (mostra i file mentre vengono copiati):
 
-`cp -vr {{percorso/alla/cartella_da_copiare}} {{percorso/di/destinazione}}`
+`cp -vr {{percorso/della/directory_da_copiare}} {{percorso/di/destinazione}}`
 
 - Copia i file di testo in un'altra posizione, in modalità interattiva (richiede conferma all'utente prima di sovrascrivere):
 
@@ -27,6 +27,6 @@
 
 `cp -L {{collegamento}} {{percorso/di/destinazione}}`
 
-- Utilizza il percorso completo dei file originali, creando ogni cartella intermedia mancante mentre durante la copia:
+- Utilizza il percorso completo dei file originali, creando ogni directory intermedia mancante mentre durante la copia:
 
-`cp --parents {{percorso/dei/file/da/copiare}} {{percorso/al/file/destinazione}}`
+`cp --parents {{percorso/dei/file/da/copiare}} {{percorso/del/file/destinazione}}`

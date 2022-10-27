@@ -1,7 +1,7 @@
 # bc
 
 > Un lenguaje de calculadora de precisión arbitraria.
-> Más información: <https://manned.org/bc>.
+> Más información: <https://manned.org/man/bc.1>.
 
 - Inicia `bc` en el modo interactivo utilizando la biblioteca matemática estándar:
 

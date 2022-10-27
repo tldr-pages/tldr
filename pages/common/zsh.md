@@ -23,3 +23,7 @@
 - Start an interactive shell session in verbose mode, printing each command before executing it:
 
 `zsh --verbose`
+
+- Execute a specific command inside `zsh` with disabled glob patterns:
+
+`noglob {{command}}`

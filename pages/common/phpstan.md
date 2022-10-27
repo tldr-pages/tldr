@@ -7,19 +7,19 @@
 
 `phpstan analyse --help`
 
-- Analyse the specified space-separated directories:
+- Analyze the specified space-separated directories:
 
 `phpstan analyse {{path/to/directory}}`
 
-- Analyse a directory using a configuration file:
+- Analyze a directory using a configuration file:
 
 `phpstan analyse {{path/to/directory}} --configuration {{path/to/config}}`
 
-- Analyse using a specific rule level (0-7, higher is stricter):
+- Analyze using a specific rule level (0-7, higher is stricter):
 
 `phpstan analyse {{path/to/directory}} --level {{level}}`
 
-- Specify an autoload file to load before analysing:
+- Specify an autoload file to load before analyzing:
 
 `phpstan analyse {{path/to/directory}} --autoload-file {{path/to/autoload_file}}`
 

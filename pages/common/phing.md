@@ -7,7 +7,7 @@
 
 `phing`
 
-- Initialise a new build file:
+- Initialize a new build file:
 
 `phing -i {{path/to/build.xml}}`
 

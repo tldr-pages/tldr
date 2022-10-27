@@ -1,7 +1,7 @@
 # showmount
 
 > Display information about NFS filesystems on Windows Server.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/showmount>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/showmount>.
 
 - Display all exported filesystems:
 

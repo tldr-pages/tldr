@@ -1,7 +1,7 @@
 # chromium
 
 > 구글에서 제공하는 오픈소스 웹 브라우저.
-> 더 많은 정보: <https://chromium.org>.
+> 더 많은 정보: <https://www.chromium.org/developers/how-tos/run-chromium-with-flags/>.
 
 - 파일 열기:
 

@@ -1,7 +1,7 @@
 # fortune
 
 > Imprime por pantalla una cita aleatoria (al estilo de una galleta de la suerte).
-> Más información: <https://man.archlinux.org/man/fortune.6>.
+> Más información: <https://manned.org/fortune>.
 
 - Imprime por pantalla una cita:
 

@@ -4,10 +4,6 @@
 > Siehe auch `pkgfile`.
 > Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
 
-- Zeige Hilfe an:
-
-`pacman --files --help`
-
 - Aktualisiere die Paketdatenbank:
 
 `sudo pacman --files --refresh`
@@ -16,7 +12,7 @@
 
 `pacman --files {{dateiname}}`
 
-- Finde das Paket, welches eine bestimmte Datei besitzt, mittels einem regulärem Ausdruck:
+- Finde das Paket, welches eine bestimmte Datei besitzt, mittels eines regulären Ausdrucks:
 
 `pacman --files --regex '{{suchmuster}}'`
 
@@ -31,3 +27,7 @@
 - Liste nur den absoluten Pfad der Dateien auf:
 
 `pacman --query --list --quiet {{paketname}}`
+
+- Zeige Hilfe an:
+
+`pacman --files --help`

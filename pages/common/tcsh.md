@@ -1,6 +1,7 @@
 # tcsh
 
 > C shell with file name completion and command line editing.
+> See also: `csh`.
 > More information: <https://manned.org/tcsh>.
 
 - Start an interactive shell session:
@@ -11,18 +12,18 @@
 
 `tcsh -f`
 
-- Execute a [c]ommand:
+- Execute specific [c]ommands:
 
-`tcsh -c "{{command}}"`
+`tcsh -c "{{echo 'tcsh is executed'}}"`
 
-- Execute a script:
+- Execute a specific script:
 
 `tcsh {{path/to/script.tcsh}}`
 
-- Check a script for syntax errors:
+- Check a specific script for syntax errors:
 
 `tcsh -n {{path/to/script.tcsh}}`
 
-- Print the version:
+- Execute specific commands from stdin:
 
-`tcsh --version`
+`{{echo "echo 'tcsh is executed'"}} | tcsh`

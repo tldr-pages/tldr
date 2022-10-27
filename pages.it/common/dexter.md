@@ -9,4 +9,4 @@
 
 - Sovrascrivi la posizione predefinita della configurazione di kube:
 
-`dexter auth -i {{id-client}} -s {{segreto-client}} --kube-config {{percorso/a/config}}`
+`dexter auth -i {{id-client}} -s {{segreto-client}} --kube-config {{percorso/della/configurazione}}`

@@ -1,7 +1,7 @@
 # nmcli monitor
 
 > NetworkManager bağlantı durumundaki değişiklikleri izleyin.
-> Daha fazla bilgi: <https://developer.gnome.org/NetworkManager/stable/nmcli.html>.
+> Daha fazla bilgi: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
 - NetworkManager değişikliklerini izlemeye başla:
 

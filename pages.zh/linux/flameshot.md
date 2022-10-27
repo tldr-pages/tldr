@@ -1,24 +1,37 @@
 # flameshot
 
-> 带有 gui 界面的 Screenshot 工具，支持基本的图像编辑，例如文本，形状，颜色和 imgur.
+> 带有 GUI 界面的 Screenshot 工具。
+> 支持基本的图像编辑，例如文本，形状，颜色和 imgur。
 > 更多信息：<https://flameshot.org>.
-
-- 在 GUI 模式下启动 Flameshot：
-
-`flameshot launcher`
-
-- 通过单击并拖动来截取屏幕截图：
-
-`flameshot gui`
 
 - 全屏截图：
 
 `flameshot full`
 
-- 将保存屏幕快照的路径设置为：
+- 交互式截图：
 
-`flameshot full --path {{path/to/directory}}`
+`flameshot gui`
 
-- 将屏幕截图延迟 2000 毫秒，然后输出到剪贴板：
+- 截图并保存到特定的路径：
 
-`flameshot full --delay {{2000}} --clipboard`
+`flameshot gui --path {{路径/到/目录}}`
+
+- 简单模式下交互式截图：
+
+`flameshot launcher`
+
+- 指定屏幕截图：
+
+`flameshot screen --number {{2}}`
+
+- 截图并打印到标准输出：
+
+`flameshot gui --raw`
+
+- 截图并复制到剪切板：
+
+`flameshot gui --clipboard`
+
+- 延迟指定毫秒时间截图：
+
+`flameshot full --delay {{5000}}`

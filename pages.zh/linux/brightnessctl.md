@@ -21,4 +21,4 @@
 
 - 将亮度降低指定的递减量：
 
-`brightnessctl set {{-10%}}`
+`brightnessctl set {{10%-}}`

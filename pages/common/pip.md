@@ -27,3 +27,7 @@
 - Show installed package info:
 
 `pip show {{package_name}}`
+
+- Install packages from a file:
+
+`pip install --requirement {{requirements.txt}}`

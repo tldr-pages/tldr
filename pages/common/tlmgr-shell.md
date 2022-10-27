@@ -31,6 +31,6 @@
 
 `restart`
 
-- Print the version of the current protocoll:
+- Print the version of the current protocol:
 
 `protocol`

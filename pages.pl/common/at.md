@@ -2,7 +2,7 @@
 
 > Wykonuje polecenia o zadanym czasie.
 > Aby działać poprawnie wymaga działającego serwisu atd (lub atrun).
-> Więcej informacji: <https://man.archlinux.org/man/at.1>.
+> Więcej informacji: <https://manned.org/at>.
 
 - Wykonaj za 5 minut polecenie wprowadzone przy użyciu wejścia standardowego (aby zakończyć naciśnij `Ctrl + D`):
 

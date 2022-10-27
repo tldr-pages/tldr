@@ -19,6 +19,10 @@
 
 `git remote set-url {{remote_name}} {{new_url}}`
 
+- Show the URL of a remote:
+
+`git remote get-url {{remote_name}}`
+
 - Remove a remote:
 
 `git remote remove {{remote_name}}`

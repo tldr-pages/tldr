@@ -1,6 +1,6 @@
 # antibody
 
-> The fastest shell plugin manager.
+> "The fastest" shell plugin manager.
 > More information: <https://getantibody.github.io>.
 
 - Bundle all plugins for static loading:

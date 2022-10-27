@@ -1,6 +1,7 @@
 # ncal
 
 > 这是 `cal` 命令的一个别名。
+> 更多信息：<https://manned.org/ncal>.
 
 - 原命令的文档在：
 

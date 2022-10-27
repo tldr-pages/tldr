@@ -13,15 +13,15 @@
 
 - Create a light color scheme:
 
-`wal -il {{image.png}}`
+`wal -i {{image.png}} -l`
 
 - Skip setting the desktop wallpaper:
 
-`wal -in {{image.png}}`
+`wal -i {{image.png}} -n`
 
 - Skip setting the terminal colors:
 
-`wal -is {{image.png}}`
+`wal -i {{image.png}} -s`
 
 - Restore the previously generated color scheme and wallpaper:
 

@@ -1,6 +1,7 @@
 # cinst
 
 > ഈ കമാൻഡ് `choco install` എന്നത്തിന്റെ അപരനാമമാണ്.
+> കൂടുതൽ വിവരങ്ങൾ: <https://docs.chocolatey.org/en-us/choco/commands/install>.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
 

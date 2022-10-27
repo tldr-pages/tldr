@@ -11,7 +11,7 @@
 
 `acpi -t`
 
-- Mostra informació del dispositiu de refredament.
+- Mostra informació del dispositiu de refredament:
 
 `acpi -c`
 

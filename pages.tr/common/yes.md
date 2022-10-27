@@ -1,7 +1,7 @@
 # yes
 
-> Birşeyi tekrar tekrar yazdır.
-> Bu komut genelde yükleme işlemleri sıarsında onay için yes yazmak için kullanılır (apt-get gibi).
+> Bir şeyi tekrar tekrar yazdır.
+> Bu komut genelde yükleme işlemleri sırasında onay için yes yazmak için kullanılır (apt-get gibi).
 > Daha fazla bilgi: <https://www.gnu.org/software/coreutils/yes>.
 
 - Tekrar tekrar "mesaj" yazdır:

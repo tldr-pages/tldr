@@ -23,3 +23,7 @@
 - Starte eine interaktive Eingabeaufforderung, in der jeder Befehl ausgegeben wird, bevor er ausgeführt wird:
 
 `zsh --verbose`
+
+- Führe einen Befehl innerhalb von `zsh` mit ausgeschalteten Glob-Mustern aus:
+
+`noglob {{befehl}}`

@@ -2,6 +2,7 @@
 
 > Gestiona els serveis mitjançant l'execució de scripts init.
 > S'ha d'ometre la ruta completa del script (s'assumeix `/etc/init.d`).
+> Més informació: <https://manned.org/service>.
 
 - Llista el nom i l'estat de tots els serveis:
 

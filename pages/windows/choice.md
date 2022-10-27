@@ -1,29 +1,28 @@
 # choice
 
-> Prompts the user to select one item from a list of single-character choices in a batch program, and then returns the index of the selected choice.
-> If used without parameters, choice displays the default choices Y and N.
-> More information: <https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/choice>.
+> Prompt user to select a choice and return the selected choice index.
+> More information: <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/choice>.
 
-- A,B and C as list of choices to be used:
-
-`choice /c {{ABC}}`
-
-- Use the default [Y,N] list of choices:
+- Prompt the current user to select a `Y` or `N` choice:
 
 `choice`
 
-- Specify that the choices are case-sensitive:
+- Prompt the current user to select a [c]hoice from a specific set:
 
-`choice /CS {{AaBb}}`
+`choice /c {{AB}}`
 
-- Specify the number of seconds to pause before using the default choice specified by `/d`:
+- Prompt the current user to select a choice with a specific [m]essage:
 
-`choice /C {{AaBb}} /t {{3}} /d {{b}}`
+`choice /m "{{message}}"`
 
-- Specify a message to display before the list of choices. If `/m` is not specified, only the choice prompt is displayed:
+- Prompt the current user to select a [c]ase-[s]ensitive [c]hoice from a specific set:
 
-`choice /m {{message}} /C {{ABC}}`
+`choice /cs /c {{Ab}}`
 
-- Display help message:
+- Prompt the current user to select a choice and prefer the [d]efault choice in a specific [t]ime:
+
+`choice /t {{5}} /d {{N}}`
+
+- Display help:
 
 `choice /?`

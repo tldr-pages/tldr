@@ -1,7 +1,7 @@
 # dos2unix
 
 > Canvia salts de línia amb format DOS a salts de línia amb format Unix.
-> Reemplaça CRLF amb CR.
+> Reemplaça CRLF amb LF.
 > Més informació: <https://manned.org/dos2unix>.
 
 - Canvia els salts de línia en un arxiu:

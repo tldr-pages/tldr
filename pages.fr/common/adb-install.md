@@ -7,9 +7,17 @@
 
 `adb install {{chemin/vers/le/fichier.apk}}`
 
+- Pousse une application Android vers l'émulateur/l'appareil spécifique via son numéro de série (écrase la variable `$ANDROID_SERIAL`):
+
+`adb -s {{numero_de_serie}} install {{chemin/vers/le/fichier.apk}}`
+
 - Réinstalle une application existante, tout en gardant ses données :
 
 `adb install -r {{chemin/vers/le/fichier.apk}}`
+
+- Pousse une application Android en autorisant la rétrogradation de version (uniquement pour les paquets debuggable) :
+
+`adb install -d {{chemin/vers/le/fichier.apk}}`
 
 - Accorde toutes les permissions listées dans le manifeste de l'application :
 

@@ -31,3 +31,7 @@
 - Take a snapshot of a container:
 
 `lxc snapshot [{{remote}}:]{{container}} {{snapshot}}`
+
+- Execute a specific command inside a container:
+
+`lxc exec [{{remote}}:]{{container}} {{command}}`

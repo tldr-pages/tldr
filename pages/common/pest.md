@@ -3,7 +3,7 @@
 > A PHP testing framework with a focus on simplicity.
 > More information: <https://pestphp.com>.
 
-- Initialise a standard Pest configuration in the current directory:
+- Initialize a standard Pest configuration in the current directory:
 
 `pest --init`
 

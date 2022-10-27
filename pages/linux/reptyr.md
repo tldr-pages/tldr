@@ -1,4 +1,4 @@
-# reptry
+# reptyr
 
 > Move a running process to a new terminal.
 > Best used when you forget to start a long running task in `screen`.

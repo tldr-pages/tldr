@@ -7,11 +7,11 @@
 
 `open {{file.ext}}`
 
-- Run a graphical macOS application:
+- Run a graphical macOS [a]pplication:
 
 `open -a "{{Application}}"`
 
-- Run a graphical macOS app based on the bundle identifier (refer to `osascript` for an easy way to get this):
+- Run a graphical macOS app based on the [b]undle identifier (refer to `osascript` for an easy way to get this):
 
 `open -b {{com.domain.application}}`
 
@@ -19,10 +19,14 @@
 
 `open .`
 
-- Reveal a file in Finder:
+- [R]eveal a file in Finder:
 
 `open -R {{path/to/file}}`
 
 - Open all the files of a given extension in the current directory with the associated application:
 
 `open {{*.ext}}`
+
+- Open a [n]ew instance of an application specified via [b]undle identifier:
+
+`open -n -b {{com.domiain.application}}`

@@ -1,7 +1,7 @@
 # reg add
 
 > 将新的键值添加到注册表中。
-> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/reg-add>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/reg-add>.
 
 - 添加一个新的注册表键：
 

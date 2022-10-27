@@ -1,7 +1,7 @@
 # bc
 
 > 계산기의 기능을 수행합니다.
-> 더 많은 정보: <https://manned.org/bc>.
+> 더 많은 정보: <https://manned.org/man/bc.1>.
 
 - 표준 Math 라이브러리를 사용한 대화형 모드에서 계산기 실행하기:
 

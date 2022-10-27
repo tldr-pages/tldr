@@ -12,7 +12,7 @@
 
 `fastmod --ignore-case {{regex_pattern}} {{replacement}} -- {{path/to/file path/to/directory ...}}`
 
-- Replace a regex pattern in in a specific directory files filtered with a case-insensitive glob pattern:
+- Replace a regex pattern in a specific directory in files filtered with a case-insensitive glob pattern:
 
 `fastmod {{regex}} {{replacement}} --dir {{path/to/directory}} --iglob {{'**/*.{js,json}'}}`
 

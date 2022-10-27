@@ -1,6 +1,7 @@
 # csh
 
 > The shell (command interpreter) with C-like syntax.
+> See also: `tcsh`.
 > More information: <https://www.mkssoftware.com/docs/man1/csh.1.asp>.
 
 - Start an interactive shell session:
@@ -11,10 +12,10 @@
 
 `csh -f`
 
-- Execute a [c]ommand:
+- Execute specific [c]ommands:
 
-`csh -c "{{command}}"`
+`csh -c "{{echo 'csh is executed'}}"`
 
-- Execute a script:
+- Execute a specific script:
 
 `csh {{path/to/script.csh}}`

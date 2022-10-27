@@ -1,7 +1,7 @@
 # hping3
 
 > Advanced ping utility which supports protocols such TCP, UDP, and raw IP.
-> Best run with elevated priviledges.
+> Best run with elevated privileges.
 > More information: <https://github.com/antirez/hping>.
 
 - Ping a destination with 4 ICMP ping requests:

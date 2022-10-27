@@ -1,6 +1,7 @@
 # ping
 
 > 向网络主机发送 ICMP 回显请求数据包。
+> 更多信息：<https://ss64.com/osx/ping.html>.
 
 - Ping 指定的主机：
 

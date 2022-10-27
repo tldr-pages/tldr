@@ -3,10 +3,6 @@
 > Arch Linux Paketverwaltungs-Werkzeug.
 > Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
 
-- Zeige Hilfe für diesen Unterbefehl an:
-
-`pacman --remove --help`
-
 - Entferne ein Paket und dessen Abhängigkeiten:
 
 `sudo pacman --remove --recursive {{paketname}}`
@@ -30,3 +26,7 @@
 - Liste Pakete auf, welche betroffen sein würden (entfernt keine Pakete):
 
 `pacman --remove --print {{paketname}}`
+
+- Zeige Hilfe für diesen Unterbefehl an:
+
+`pacman --remove --help`

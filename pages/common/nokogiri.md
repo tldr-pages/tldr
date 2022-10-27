@@ -11,7 +11,7 @@
 
 `nokogiri {{url|path/to/file}} --type {{xml|html}}`
 
-- Load a specific initialisation file before parsing:
+- Load a specific initialization file before parsing:
 
 `nokogiri {{url|path/to/file}} -C {{path/to/config_file}}`
 

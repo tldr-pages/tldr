@@ -19,10 +19,10 @@
 
 `wc --chars {{ruta/al/archivo}}`
 
-- Cuenta todas las lineas, palabras y bytes desde stdin:
+- Cuenta todas las líneas, palabras y bytes desde stdin:
 
 `{{find .}} | wc`
 
-- Cuenta la longitud de la linea más larga en número de caracteres:
+- Cuenta la longitud de la línea más larga en número de caracteres:
 
 `wc --max-line-length {{ruta/al/archivo}}`

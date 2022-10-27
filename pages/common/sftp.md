@@ -13,6 +13,10 @@
 
 `sftp -P {{remote_port}} {{remote_user}}@{{remote_host}}`
 
+- Connect using a predefined host (in `~/.ssh/config`):
+
+`sftp {{host}}`
+
 - Transfer remote file to the local system:
 
 `get {{/path/remote_file}}`

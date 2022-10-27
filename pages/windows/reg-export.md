@@ -1,7 +1,7 @@
 # reg export
 
 > Export the specified sub keys and values into a file.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/reg-export>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg-export>.
 
 - Export all sub keys and values of a specific key:
 
