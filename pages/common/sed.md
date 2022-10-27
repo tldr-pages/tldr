@@ -4,23 +4,23 @@
 > See also: `awk`, `ed`.
 > More information: <https://www.gnu.org/software/sed/manual/sed.html>.
 
-- Execute a specific expression:
+- Replace all `apple` occurences with `mango` in all input lines and print the result to `stdout`:
 
 `{{command}} | sed '{{s/apple/mango/g}}'`
 
-- Execute a specific script:
+- Execute a specific script and print the result to `stdout`:
 
 `{{command}} | sed --file={{path/to/script.sed}}`
 
-- Execute a specific expression with enabled extended regular expressions:
+- Replace all `apple` occurences with `APPLE` in all input lines and print the result to `stdout`:
 
 `{{command}} | sed --regexp-extended '{{s/(apple)/\U\1/g}}'`
 
-- Execute a specific expression without automatic buffer printing (print just the first line (`[p]rint` command)):
+- Print just a first line to `stdout`:
 
 `{{command}} | sed --quiet '{{1p}}'`
 
-- Execute a specific expression and replace a file with it's output:
+- Replace all `apple` occurences with `mango` in all input lines and save modifications to a specific file:
 
 `sed --in-place '{{s/apple/mango/g}}' {{path/to/file}}`
 
