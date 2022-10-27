@@ -4,30 +4,18 @@
 > See also: `sed`, `ed`.
 > More information: <https://github.com/onetrueawk/awk>.
 
-- Execute a specific expression:
+- Replace all `apple` (basic regex) occurrences with `mango` (basic regex) in all input lines and print the result to `stdout`:
 
-`{{command}} | awk '{{{ print gensub("apple", "mango", "g") }}}'`
+`{{command}} | awk '{ print gensub("apple", "mango", "g") }'`
 
-- Execute a specific script:
+- Execute a specific script [f]ile and print the result to `stdout`:
 
-`{{command}} | awk --file {{path/to/script.awk}}`
+`{{command}} | awk -f {{path/to/script.awk}}`
 
-- Check a specific script for syntax errors:
+- Print first fields of all input lines delimited by a specific delimiter (basic regex) to `stdout`:
 
-`awk --lint --file {{path/to/script.awk}}`
+`{{command}} | awk -F ',' '{ print $1 }'`
 
-- Execute a expression with a specific field separator:
+- Print first 10 fields of all input lines delimited by a single space (basic regex) to `stdout`:
 
-`{{command}} | awk --field-separator="{{,}}" '{{{ print $1 }}}'`
-
-- Replace a string with a specific replacement for all lines (`gensub` function):
-
-`{{command}} | awk '{ print gensub("{{regular_expression}}", "{{replacement}}", "g") }'`
-
-- Print a specific field of each line (`print` statement):
-
-`{{command}} | awk '{ print ${{1}} }'`
-
-- Print a specific field range of each line (`for` loop):
-
-`{{command}} | awk '{ for (i = {{1}}; i <= {{10}}; i++) print $i }'`
+`{{command}} | awk '{ for (i = 1; i <= 10; i++) print $i }'`
