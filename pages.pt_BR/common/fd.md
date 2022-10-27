@@ -26,4 +26,4 @@
 
 - Executa um comando em cada resultado de pesquisa retornado:
 
-`fd {{padrão}} --exec {{comando}}`
+`fd '{{padrão}}' --exec {{comando}}`
