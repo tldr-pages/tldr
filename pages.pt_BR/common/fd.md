@@ -18,7 +18,7 @@
 
 - Encontra arquivos em um diretório específico:
 
-`fd {{padrão}} {{caminho/para/diretório}}`
+`fd '{{padrão}}' {{caminho/para/diretório}}`
 
 - Inclui arquivos ignorados e ocultos na pesquisa:
 
