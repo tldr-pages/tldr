@@ -8,22 +8,18 @@
 
 `{{command}} | sed '{{s/apple/mango/g}}'`
 
-- Execute a specific script and print the result to `stdout`:
+- Execute a specific script [f]ile and print the result to `stdout`:
 
-`{{command}} | sed --file={{path/to/script.sed}}`
+`{{command}} | sed -f {{path/to/script.sed}}`
 
 - Replace all `apple` occurences with `APPLE` in all input lines and print the result to `stdout`:
 
-`{{command}} | sed --regexp-extended '{{s/(apple)/\U\1/g}}'`
+`{{command}} | sed -E '{{s/(apple)/\U\1/g}}'`
 
 - Print just a first line to `stdout`:
 
-`{{command}} | sed --quiet '{{1p}}'`
+`{{command}} | sed -n '{{1p}}'`
 
 - Replace all `apple` occurences with `mango` in all input lines and save modifications to a specific file:
 
-`sed --in-place '{{s/apple/mango/g}}' {{path/to/file}}`
-
-- Replace a string with a specific replacement for all lines (`[s]ubstitute` command):
-
-`{{command}} | sed 's/{{regular_expression}}/{{replacement}}/g'`
+`sed -i '{{s/apple/mango/g}}' {{path/to/file}}`
