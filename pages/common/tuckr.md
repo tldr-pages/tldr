@@ -15,7 +15,7 @@
 
 `tuckr add \* -e {{program1}},{{program2}}`
 
-- Remove all dotfiles from system:
+- Remove all dotfiles from the system:
 
 `tuckr rm \*`
 
