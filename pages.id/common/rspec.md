@@ -13,19 +13,19 @@
 
 - Menjalankan file tes dalam direktori khusus:
 
-`rspec {{jalan/ke/directory}}`
+`rspec {{jalan/menuju/directory}}`
 
 - Menjalankan file tes khusus:
 
-`rspec {{jalan/ke/file}}`
+`rspec {{jalan/menuju/file}}`
 
 - Menjalankan beberapa file tes:
 
-`rspec {{jalan/ke/file1}} {{jalan/ke/file2}}`
+`rspec {{jalan/menuju/file1}} {{jalan/menuju/file2}}`
 
 - Menjalankan kasus khusus dalam file tes (misalnya tes yang ada di baris 83):
 
-`rspec {{jalan/ke/file}}:{{83}}`
+`rspec {{jalan/menuju/file}}:{{83}}`
 
 - Menjalankan tes dengan seed khusus:
 
