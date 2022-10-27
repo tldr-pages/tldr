@@ -5,4 +5,4 @@
 
 - Concatenate all PDF files into one:
 
-`sam2p *.pdf out.pdf`
+`sam2p *.pdf {{path/to/output.pdf}}`
