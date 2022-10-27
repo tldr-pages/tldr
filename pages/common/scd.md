@@ -3,7 +3,7 @@
 > A tiny file manager focused on shell integration.
 > More information: <https://github.com/cshuaimin/scd>.
 
-- Recursively index some paths for the very first run:
+- Index paths recursively for the very first run:
 
 `scd -ar {{path/to/directory}}`
 
