@@ -21,4 +21,4 @@
 
 - Add a program dotfile and run its setup script:
 
-`tuckr set program1`
+`tuckr set {{program}}`
