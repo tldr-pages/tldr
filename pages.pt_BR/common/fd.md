@@ -22,7 +22,7 @@
 
 - Inclui arquivos ignorados e ocultos na pesquisa:
 
-`fd --hidden --no-ignore {{padrão}}`
+`fd --hidden --no-ignore '{{padrão}}'`
 
 - Executa um comando em cada resultado de pesquisa retornado:
 
