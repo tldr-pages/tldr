@@ -22,7 +22,7 @@
 
 - Mostra un riepilogo del contenuto di un file:
 
-`assimp info {{percordo/al/file}}`
+`assimp info {{percorso/del/file}}`
 
 - Elenca tutti i sottocomandi disponibili (detti "verbs"):
 
