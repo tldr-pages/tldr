@@ -1,6 +1,7 @@
 # qm migrate
 
-> Migrate virtual machine. Creates a new migration task.
+> Migrate a virtual machine.
+> Used to create a new migration task.
 > More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
 - Migrate a specific virtual machine:
@@ -11,7 +12,7 @@
 
 `qm migrate {{vm_id}} {{target}} --bwlimit 10`
 
-- Allow to migrate virtual machines which use local devices:
+- Allow migration of virtual machines using local devices (root only):
 
 `qm migrate {{vm_id}} {{target}} --force true`
 
