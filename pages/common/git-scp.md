@@ -5,7 +5,7 @@
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-scp>.
 
-- Copy unstaged files to remote.:
+- Copy unstaged files to remote:
 
 `git scp staging`
 
