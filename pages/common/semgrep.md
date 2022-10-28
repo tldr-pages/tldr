@@ -6,7 +6,7 @@
 
 - Run semgrep on a source directory, automatically detecting matching rules:
 
-`semgrep --config=auto {{sourcecode_path}}`
+`semgrep --config=auto {{path/to/directory}}`
 
 - Run semgrep on a source directory, manually selecting the desired rulesets:
 
