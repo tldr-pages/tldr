@@ -1,6 +1,6 @@
 # archivemount
 
-> Mount an archive for access as a file system.
+> Mount an archive for access as a filesystem.
 > More information: <https://manned.org/archivemount>.
 
 - Mount an archive to a specific mountpoint:
