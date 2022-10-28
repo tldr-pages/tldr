@@ -1,6 +1,6 @@
 # semgrep
 
-> Perform *static source code analysis* (SAST) on your source code to detect security vulnerabilities.
+> Perform static source code analysis (SAST) to detect security vulnerabilities.
 > Semgrep is a fast SAST tool aiming to minimize false positives.
 > More information: <https://semgrep.dev/>.
 
