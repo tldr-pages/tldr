@@ -23,7 +23,7 @@
 
 `bzip2 -v {{path/to/compressed_files.bz2}}`
 
-- Overwrite existing output files:
+- Decompress a file overwriting existing files:
 
 `bzip2 -f {{path/to/compressed_file.bz2}}`
 
