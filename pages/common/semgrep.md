@@ -4,7 +4,7 @@
 > It is a fast SAST tool aiming to minimize false positives.
 > More information: <https://semgrep.dev/>.
 
-- Run semgrep on a source directory, automatically detecting matching rules:
+- Run on a source directory, automatically detecting matching rules:
 
 `semgrep --config=auto {{path/to/directory}}`
 
