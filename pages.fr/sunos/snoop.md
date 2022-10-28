@@ -8,7 +8,7 @@
 
 `snoop -d {{e1000g0}}`
 
-- Enregistrer les paquets capturés dans un fichier au lieu de les afficher:
+- Enregistrer les paquets capturés dans un fichier au lieu de les afficher :
 
 `snoop -o {{filename}}`
 
