@@ -5,22 +5,22 @@
 > Part of `git-extras`.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-scp>.
 
-- Copy unstaged files to remote:
+- Copy unstaged files to a remote:
 
 `git scp staging`
 
-- Copy staged and unstaged files to remote:
+- Copy staged and unstaged files to a remote:
 
 `git scp staging HEAD`
 
-- Copy files that has been changed in the last commit, plus any staged or unstaged files to remote:
+- Copy files that has been changed in the last commit and any staged or unstaged files to a remote:
 
 `git scp staging HEAD~1`
 
 - Copy specific files:
 
-`git scp staging {{path/to/file1}}...{{path/to/filen}}`
+`git scp staging {{path/to/file1}}...{{path/to/fileN}}`
 
-- Copy specific directory:
+- Copy a specific directory:
 
 `git scp staging {{path/to/directory}}`
