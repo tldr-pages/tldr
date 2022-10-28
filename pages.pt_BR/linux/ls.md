@@ -1,12 +1,13 @@
 # ls
 
-> Listar o conteúdo de um diretório. Mais informações [neste site](https://manned.org/ls).
+> Listar o conteúdo de um diretório. 
+> Mais informações: <https://manned.org/ls>.
 
-- Liste um arquivo por linha:
+- Lista um arquivo por linha:
 
 `ls -1`
 
-- Liste todos os arquivos, inclusive arquivos ocultos:
+- Lista todos os arquivos, inclusive arquivos ocultos:
 
 `ls -a`
 
@@ -30,6 +31,6 @@
 
 `ls -ltr`
 
-- Liste apenas diretórios:
+- Lista apenas diretórios:
 
 `ls -d */`

@@ -1,35 +1,36 @@
 # sudo
 
-> Executa um único comando como o Superuser, ou como outro usuário. Para mais informações, acesse [este site](https://manned.org/sudo).
+> Executa um único comando como o Superuser, ou como outro usuário.
+> Mais informações: <https://www.sudo.ws/sudo.html>.
 
-- Executar um comando como Superuser:
+- Executa um comando como Superuser:
 
 `sudo {{less /var/log/syslog}}`
 
-- Editar um arquivo, como Superuser, com seu editor padrão:
+- Edita um arquivo, como Superuser, com seu editor padrão:
 
 `sudo --edit {{/etc/fstab}}`
 
-- Executar um comando como outro usuário e/ou grupo:
+- Executa um comando como outro usuário e/ou grupo:
 
 `sudo --user={{usuário}} --group={{grupo}} {{id -a}}}`
 
-- Executar um comando anterior com o prefixo `sudo` (apenas em `bash`, `zsh`, etc.):
+- Executa um comando anterior com o prefixo `sudo` (apenas em `bash`, `zsh`, etc.):
 
 `sudo !!`
 
-- Abrir o shell padrão com privilégios de Superuser e executar arquivos de login (`.profile`, `.bash_profile`, etc.):
+- Abre o shell padrão com privilégios de Superuser e executar arquivos de login (`.profile`, `.bash_profile`, etc.):
 
 `sudo --login`
 
-- Abrir o shell padrão com privilégios de Superuser sem alterar o ambiente de execução:
+- Abre o shell padrão com privilégios de Superuser sem alterar o ambiente de execução:
 
 `sudo --shell`
 
-- Abrir o shell padrão como dado usuário, carregando o ambiente de execução deste usuário e lendo arquivos de login (`.profile`, `.bash_profile`, etc.):
+- Abre o shell padrão como dado usuário, carregando o ambiente de execução deste usuário e lendo arquivos de login (`.profile`, `.bash_profile`, etc.):
 
 `sudo --login --user={{usuário}}`
 
-- Listar os comandos permitidos (e não permitidos) para o usuário atual:
+- Lista os comandos permitidos (e não permitidos) para o usuário atual:
 
 `sudo --list`
