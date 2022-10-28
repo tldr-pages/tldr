@@ -26,3 +26,11 @@
 - Save any (changed) preferences to `preferences.txt`:
 
 `arduino --save-prefs`
+
+- Install the latest SAM board:
+
+`arduino --install-boards "{{arduino:sam}}"`
+
+- Install Bridge and Servo libraries:
+
+`arduino --install-library "{{Bridge:1.0.0,Servo:1.2.0}}"`

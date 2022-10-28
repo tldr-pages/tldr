@@ -5,7 +5,7 @@
 
 - Copia un file in un'altra posizione:
 
-`cp {{persorso/al/file_da_copiare.est}} {{percorso/del/file_di_destinazione.est}}`
+`cp {{percorso/del/file_da_copiare.est}} {{percorso/del/file_di_destinazione.est}}`
 
 - Copia un file all'interno di una directory, mantenendone uguale il nome:
 

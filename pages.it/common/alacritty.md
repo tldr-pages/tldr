@@ -17,7 +17,7 @@
 
 - Specifica un file di configurazione alternativo (predefinito a `$XDG_CONFIG_HOME/alacritty/alacritty.yml`):
 
-`alacritty --config-file {{path/to/config.yml}}`
+`alacritty --config-file {{percorso/di/config.yml}}`
 
 - Esegui con ricaricamento configurazione live (può anche essere acceso in `alacritty.yml`):
 
