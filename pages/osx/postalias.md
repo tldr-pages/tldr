@@ -15,7 +15,7 @@
 
 `postalias -d {{key}}`
 
-- Incremental mode - do not rebuild the database from scratch:
+- Incremental mode do not rebuild the database from scratch:
 
 `postalias -i`
 
