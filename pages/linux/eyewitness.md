@@ -19,6 +19,6 @@
 
 `eyewitness -f {{filename}} --useragent {{Mozilla/4.0}}`
 
-- Scan multiple urls from file using --jitter flag to randomize accessing each url with a base number of seconds:
+- Scan multiple URLs from file using the `--jitter` flag to randomize accessing each URL with a base number of seconds:
 
 `eyewitness -f {{filename}} --jitter {{seconds}}`
