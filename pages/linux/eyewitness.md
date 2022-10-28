@@ -5,7 +5,7 @@
 
 - Scan a single website using `--single` flag:
 
-`eyewitness --single {{website}}`
+`EyeWitness --single {{website}}`
 
 - Scan multiple urls from file and output to foldername:
 
