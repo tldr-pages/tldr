@@ -12,6 +12,6 @@
 
 `semgrep --config p/{{ruleset_name}} [--config p/{{another_ruleset_name}} ...] {{path/to/directory}}`
 
-- Run semgrep within a Docker container on the current directory:
+- Run within a Docker container on the current directory:
 
 `docker run --rm -v "${PWD}:/src" returntocorp/semgrep [--config p/{{ruleset_name}} ...]`
