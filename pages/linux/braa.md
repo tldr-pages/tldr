@@ -3,7 +3,7 @@
 > Ultra-fast mass SNMP scanner allowing multiple hosts simultaneously.
 > More information: <https://github.com/mteg/braa>.
 
-- Walk the SNMP tree of host with public string querying all OIDs under .1.3.6:
+- Walk the SNMP tree of host with public string querying all OIDs under `.1.3.6`:
 
 `braa public@{{ip}}:{{.1.3.6.*}}`
 
