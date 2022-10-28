@@ -20,6 +20,6 @@
 
 `snoop to port {{port}} from host {{hostname}}`
 
-- Capturez et affichez un vidage hexadécimal des paquets réseau échangés entre deux adresses IP:
+- Capturez et affichez un vidage hexadécimal des paquets réseau échangés entre deux adresses IP :
 
 `snoop -x0 -p4 {{ip_address_1}} {{ip_address_2}}`
