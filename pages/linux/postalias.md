@@ -3,26 +3,26 @@
 > creates or updates postfix alias databses
 > More information: <https://manned.org/postalias.1>.
 
-- config dir: read the main configuration file in the named directory:
+- Config dir: read the main configuration file in the named directory:
 
-'postalias {{ -c /etc/postfix/aliases}}'
+`postalias -c `
 
 - Do not fold the lookup key to lower case while creating a query table:
 
-'postalias -f'
+`postalias -f`
 
 - Search the specified maps for key and remove one entry per map:
 
-'postalias -d {{key}}'
+`postalias -d {{key}}`
 
 - Incremental mode - do not rebuild the database from scratch:
 
-'postalias -i'
+`postalias -i`
 
 - Do not include the terminating null character that terminates lookup keys and values in the database:
 
-'postalias -N'
+`postalias -N`
 
 - Do not release root privileges when processing a non-root input file:
 
-'postalias -o'
+`postalias -o`
