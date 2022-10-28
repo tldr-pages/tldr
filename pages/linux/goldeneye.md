@@ -5,7 +5,7 @@
 
 - Test a specific website:
 
-`./goldeneye.py {{url}}"`
+`./goldeneye.py {{url}}`
 
 - Test a specific website with 100 user agents and 200 concurrent sockets:
 
