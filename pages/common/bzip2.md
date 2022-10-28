@@ -15,7 +15,7 @@
 
 `bzip2 -dc {{path/to/compressed_file.bz2}}`
 
-- Test compressed file integrity:
+- Test integrity of each file inside the archive file:
 
 `bzip2 -t {{path/to/compressed_file.bz2}}`
 
