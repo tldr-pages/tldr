@@ -3,7 +3,7 @@
 > creates or updates postfix alias databses
 > More information: <https://manned.org/postalias.1>.
 
-- Config dir: read the main configuration file in the named directory:
+- Config dir read the main configuration file in the named directory:
 
 `postalias -c `
 
