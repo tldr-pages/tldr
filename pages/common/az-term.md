@@ -2,7 +2,7 @@
 
 > Manage marketplace agreement with marketplaceordering.
 > Part of `azure-cli`.
-> More information: <https://docs.microsoft.com/cli/azure/term>.
+> More information: <https://learn.microsoft.com/cli/azure/term>.
 
 - Print marketplace terms:
 

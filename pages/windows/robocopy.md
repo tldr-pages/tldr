@@ -2,7 +2,7 @@
 
 > Robust File and Folder Copy.
 > By default files will only be copied if the source and destination have different time stamps or different file sizes.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/robocopy>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/robocopy>.
 
 - Copy all `.jpg` and `.bmp` files from one directory to another:
 

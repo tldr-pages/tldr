@@ -1,7 +1,7 @@
 # nvim
 
 > Neovim, a programmer's text editor based on Vim, provides several modes for different kinds of text manipulation.
-> Pressing `i` enters edit mode. `<Esc>` goes back to normal mode, which doesn't allow regular text insertion.
+> Pressing `i` in normal mode enters insert mode. `<Esc>` goes back to normal mode, which doesn't allow regular text insertion.
 > More information: <https://neovim.io>.
 
 - Open a file:
@@ -16,7 +16,7 @@
 
 `<Esc>{{yy|dd}}`
 
-- Undo the last operation:
+- Enter normal mode and undo the last operation:
 
 `<Esc>u`
 
@@ -28,7 +28,7 @@
 
 `<Esc>:%s/{{regular_expression}}/{{replacement}}/g<Enter>`
 
-- Save (write) the file, and quit:
+- Enter normal mode and save (write) the file, and quit:
 
 `<Esc>:wq<Enter>`
 

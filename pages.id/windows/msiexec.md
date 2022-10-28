@@ -1,7 +1,7 @@
 # msiexec
 
 > Memasang, memperbarui, memperbaiki, atau menghapus program Windows melalui file MSI dan MSP yang tersedia.
-> Informasi lebih lanjut: <https://docs.microsoft.com/windows-server/administration/windows-commands/msiexec>.
+> Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/msiexec>.
 
 - Memasang sebuah program melalui file MSI:
 

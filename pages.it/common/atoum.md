@@ -13,24 +13,24 @@
 
 - Esegui test utilizzando uno specifico file di configurazione:
 
-`atoum -c {{percorso/al/file}}`
+`atoum -c {{percorso/del/file}}`
 
 - Esegui uno specifico file di test:
 
-`atoum -f {{percorso/al/file}}`
+`atoum -f {{percorso/del/file}}`
 
 - Esegui una specifica directory di test:
 
-`atoum -d {{path/to/directory}}`
+`atoum -d {{percorso/della/directory}}`
 
 - Esegui tutti i test sotto uno specifico namespace:
 
 `atoum -ns {{namespace}}`
 
-- Esegui tutti i test con uno speficico tag:
+- Esegui tutti i test con uno specifico tag:
 
 `atoum -t {{tag}}`
 
 - Carica un file di bootstrap personalizzato prima di eseguire i test:
 
-`atoum --bootstrap-file {{percorso/al/file}}`
+`atoum --bootstrap-file {{percorso/del/file}}`

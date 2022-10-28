@@ -1,7 +1,7 @@
 # fondue
 
 > 可选 Windows 功能的命令行安装程序。
-> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/fondue>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/fondue>.
 
 - 启用一个指定的 Windows 功能：
 

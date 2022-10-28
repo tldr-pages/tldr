@@ -1,7 +1,7 @@
 # xcopy
 
 > Copy files and directory trees.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/xcopy>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/xcopy>.
 
 - Copy the file(s) to the specified destination:
 

@@ -1,7 +1,7 @@
 # takeown
 
 > Take ownership of a file or directory.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/takeown>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/takeown>.
 
 - Take ownership of the specified file:
 

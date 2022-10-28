@@ -1,6 +1,6 @@
 # pkg
 
-> Manager paket untuk Termux.
+> Manajer paket untuk Termux.
 > Informasi lebih lanjut: <https://wiki.termux.com/wiki/Package_Management>.
 
 - Mutakhirkan seluruh paket yang terpasang:
@@ -11,7 +11,7 @@
 
 `pkg install {{paket}}`
 
-- Membuang paket dari instalasi Termux:
+- Buang paket dari instalasi Termux:
 
 `pkg uninstall {{paket}}`
 

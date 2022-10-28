@@ -1,6 +1,6 @@
 # git fsck
 
-> Git depo indeksindeki düğümlerin geçerliliğini ve bağlantılarını doğrula:
+> Git depo indeksindeki düğümlerin geçerliliğini ve bağlantılarını doğrula.
 > Düzenleme yapılması tavsiye edilmez. Geçersiz düğümleri çözmek için `git gc` komutu önerilir.
 > Daha fazla bilgi: <https://git-scm.com/docs/git-fsck>.
 
