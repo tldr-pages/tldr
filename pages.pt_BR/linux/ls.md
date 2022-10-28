@@ -1,6 +1,6 @@
 # ls
 
-> Listar o conteúdo de um diretório. 
+> Listar o conteúdo de um diretório.
 > Mais informações: <https://manned.org/ls>.
 
 - Lista um arquivo por linha:
