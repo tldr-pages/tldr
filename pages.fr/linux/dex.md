@@ -29,4 +29,4 @@
 
 - Exécute un programme (avec `Terminal=true` dans le fichier Desktop) dans le terminal donné :
 
-`dex --term {{terminal}} {{chemin/vers/fichier.desktop}}
+`dex --term {{terminal}} {{chemin/vers/fichier.desktop}}`
