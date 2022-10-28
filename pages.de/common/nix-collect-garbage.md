@@ -14,4 +14,4 @@
 
 - Löschen aller Speicherpfade, die älter als 30 Tage sind:
 
-`sudo nix-collect-garbage --delete-older-than {{30d}}`
+`sudo nix-collect-garbage --delete-older-than 30d`

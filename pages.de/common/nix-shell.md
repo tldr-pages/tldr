@@ -9,7 +9,7 @@
 
 - Shell-Befehl in nicht-interaktiver Shell ausführen und beenden:
 
-`nix-shell --run "{{Befehl}} {{Befehl_Argumente}}"`
+`nix-shell --run "{{befehl}} {{arg1 arg2 ...}}"`
 
 - Start mit Ausdruck in `default.nix` im aktuellen Verzeichnis:
 
@@ -17,12 +17,12 @@
 
 - Start mit aus nixpkgs geladenen Paketen:
 
-`nix-shell --packages {{Paket_name_1}} {{Paket_name_2}}`
+`nix-shell --packages {{paket_name_1 paket_name_2 ...}}`
 
 - Start mit Paketen, die aus einer bestimmten Nixpkgs-Revision geladen wurden:
 
-`nix-shell --packages {{Paket_name}} -I nixpkgs={{https://github.com/NixOS/nixpkgs/archive/nixpkgs_revision.tar.gz}}`
+`nix-shell --packages {{paket_name_1 paket_name_2 ...}} -I nixpkgs={{https://github.com/NixOS/nixpkgs/archive/nixpkgs_revision.tar.gz}}`
 
 - Den Rest der Datei mit einem bestimmten Interpreter auswerten, zur Verwendung in `#!-scripts` (siehe <https://nixos.org/manual/nix/stable/#use-as-a-interpreter>):
 
-`nix-shell -i {{interpreter}} --packages {{package_names}}`
+`nix-shell -i {{interpreter}} --packages {{paket_name_1 paket_name_2 ...}}`

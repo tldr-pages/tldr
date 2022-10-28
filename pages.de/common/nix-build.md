@@ -5,8 +5,8 @@
 
 - Erstellen eines Nix-Ausdrucks:
 
-`nix-build --attr {{ausdruck_name}}`
+`nix-build '<nixpkgs>' --attr {{firefox}}`
 
 - Erstellen eines Nix-Ausdruck mit Sandbox (auf nicht-NixOS):
 
-`nix-build --attr {{ausdruck_name}} --option sandbox true`
+`nix-build '<nixpkgs>' --attr {{firefox}} --option sandbox true`

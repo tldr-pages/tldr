@@ -9,27 +9,27 @@
 
 - Installierte Pakete abfragen:
 
-`nix-env -q {{search_term}}`
+`nix-env -q {{suchbegriff}}`
 
 - Verfügbare Pakete abfragen:
 
-`nix-env -qa {{Suche_Begriff}}`
+`nix-env -qa {{suchbegriff}}`
 
 - Paket installieren:
 
-`nix-env -iA nixpkgs.{{pkg_name}}`
+`nix-env -iA nixpkgs.{{paket_name}}`
 
 - Installieren eines Pakets von einer URL:
 
-`nix-env -i {{pkg_name}} --datei {{beispiel.com}}`
+`nix-env -i {{paket_name}} --datei {{beispiel.com}}`
 
 - Paket deinstallieren:
 
-`nix-env -e {{pkg_name}}`
+`nix-env -e {{paket_name}}`
 
 - Upgrade eines Pakets:
 
-`nix-env -u {{pkg_name}}`
+`nix-env -u {{paket_name}}`
 
 - Alle Pakete aktualisieren:
 

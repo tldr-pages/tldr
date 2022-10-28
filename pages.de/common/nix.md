@@ -5,11 +5,11 @@
 
 - Suche nach einem Paket über seinen Namen oder seine Beschreibung:
 
-`nix search {{search_term}}`
+`nix search {{suchbegriff}}`
 
 - Starten einer Nix-Shell, die die angegebenen Pakete zur Verfügung stellt:
 
-`nix run {{nixpkgs.pkg1 nixpkgs.pkg2 nixpkgs.pkg3...}}`
+`nix run {{nixpkgs.pkg1 nixpkgs.pkg2 ...}}`
 
 - Optimieren der Festplattennutzung des Nix-Speicher durch Zusammenfassen doppelter Dateien:
 
