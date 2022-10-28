@@ -7,7 +7,7 @@
 
 `braa public@{{ip}}:{{.1.3.6.*}}`
 
-- Query the whole subnet `{ip_range}` for `system.sysLocation.0`:
+- Query the whole subnet `ip_range` for `system.sysLocation.0`:
 
 `braa public@{{ip_range}}:{{.1.3.6.1.2.1.1.6.0}}`
 
