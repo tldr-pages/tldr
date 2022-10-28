@@ -16,7 +16,7 @@
 
 `snoop -V -i {{filename}}`
 
-- Capturez les paquets réseau provenant d'un nom d'hôte et accédez à un port donné:
+- Capturez les paquets réseau provenant d'un nom d'hôte et accédez à un port donné :
 
 `snoop to port {{port}} from host {{hostname}}`
 
