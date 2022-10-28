@@ -90,7 +90,8 @@ as a guideline for current and future maintainers.
   Don't forget to clean up the body of the squashed commit message, especially the `Co-authored by:` part.
   (You can always use the body if you want to include useful information.)
   
- Note: For some PRs with reviews and proofreading from contributors or native speakers outside of the tldr-pages organization the `Co-authored by` part must be included in the merge commit message.
+  Note: For all PRs from external contributors (outside of the tldr-pages organization) the `Co-authored by` part must be included in the merge commit message.
+
   If instead the PR author took the time to craft
   individual, informative messages for each commit,
   then use the `Rebase and merge` method,
