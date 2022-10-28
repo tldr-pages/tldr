@@ -1,0 +1,16 @@
+# svccfg
+
+> Importez, exportez et modifiez les configurations de service.
+> Plus d'information: <https://www.unix.com/man-page/linux/1m/svccfg>.
+
+- Valider le fichier de configuration:
+
+`svccfg validate {{smf.xml}}`
+
+- Exporter les configurations de service vers un fichier:
+
+`svccfg export {{servicename}} > {{smf.xml}}`
+
+- Importer/mettre à jour les configurations de service à partir du fichier:
+
+`svccfg import {{smf.xml}}`
