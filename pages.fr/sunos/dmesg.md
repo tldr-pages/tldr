@@ -7,7 +7,7 @@
 
 `dmesg`
 
-- Afficher la quantité de mémoire physique disponible sur ce système:
+- Afficher la quantité de mémoire physique disponible sur ce système :
 
 `dmesg | grep -i memory`
 
