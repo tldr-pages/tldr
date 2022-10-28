@@ -17,7 +17,7 @@
 
 - Tüm çıkış satırlarını numaralandırın:
 
-`cat -n {{dosya}}`
+`cat -n {{dosya/yolu}}`
 
 - Yazdırılamayan ve boşluk karakterleri görüntüleyin (ASCII değilse `M-` önekiyle):
 
