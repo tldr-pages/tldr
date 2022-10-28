@@ -9,16 +9,16 @@
 
 - Test a specific website with 100 user agents and 200 concurrent sockets:
 
-`./goldeneye.py '{{url}}' --useragents 100 --sockets 200`
+`./goldeneye.py {{url}} --useragents 100 --sockets 200`
 
-- Test a specific website without verifying ssl certficate:
+- Test a specific website without verifying the SSL certificate:
 
-`./goldeneye.py '{{url}}' --nosslcheck`
+`./goldeneye.py {{url}} --nosslcheck`
 
 - Test a specific website in debug mode:
 
-`./goldeneye.py '{{url}}' --debug`
+`./goldeneye.py {{url}} --debug`
 
 - Display help:
 
-`./goldeneye.py -h`
+`./goldeneye.py --help`
