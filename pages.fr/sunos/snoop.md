@@ -4,7 +4,7 @@
 > Équivalent SunOS de tcpdump.
 > Plus d'information : <https://www.unix.com/man-page/sunos/1m/snoop>.
 
-- Capturer des paquets sur une interface réseau spécifique:
+- Capturer des paquets sur une interface réseau spécifique :
 
 `snoop -d {{e1000g0}}`
 
