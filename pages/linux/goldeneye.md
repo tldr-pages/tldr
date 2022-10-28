@@ -1,4 +1,4 @@
-# goldeneye.py
+# goldeneye
 
 > A HTTP DoS test tool.
 > More information: <https://github.com/jseidl/GoldenEye>.
