@@ -5,7 +5,7 @@
 
 - Enumerate a domain with default settings:
 
-`dnsenum -enum {{domainname}`
+`dnsenum -enum {{example.com}`
 
 - Enumerate domain without reverse lookup and save the output to file:
 
