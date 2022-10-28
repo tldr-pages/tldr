@@ -12,7 +12,7 @@
 
 `snoop -o {{filename}}`
 
-- Afficher le résumé détaillé de la couche de protocole des paquets d'un fichier:
+- Afficher le résumé détaillé de la couche de protocole des paquets d'un fichier :
 
 `snoop -V -i {{filename}}`
 
