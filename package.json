@@ -8,6 +8,7 @@
   "dependencies": {
     "glob": "7.2.0",
     "markdownlint-cli": "^0.31.1",
+    "tldr": "^3.3.8",
     "tldr-lint": "^0.0.13"
   },
   "devDependencies": {
