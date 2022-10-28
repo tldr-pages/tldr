@@ -9,7 +9,7 @@
 
 - Enumerate domain without reverse lookup and save the output to file:
 
-`dnsenum --noreverse -o {{outputfile}} {{domainname}}`
+`dnsenum --noreverse -o {{path/to/file}} {{example.com}}`
 
 - Brute force search on subdomains along with custom file with subdomains passed as attribute:
 
