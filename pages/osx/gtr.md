@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr -p linux tr`
+`tldr --platform linux tr`

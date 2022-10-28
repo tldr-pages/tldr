@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr -p linux hostid`
+`tldr --platform linux hostid`

@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr -p linux stdbuf`
+`tldr --platform linux stdbuf`

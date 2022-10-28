@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr -p linux sha1sum`
+`tldr --platform linux sha1sum`

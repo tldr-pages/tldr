@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr -p linux env`
+`tldr --platform linux env`

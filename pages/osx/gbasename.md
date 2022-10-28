@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr -p linux basename`
+`tldr --platform linux basename`

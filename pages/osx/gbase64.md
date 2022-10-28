@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr -p linux base64`
+`tldr --platform linux base64`

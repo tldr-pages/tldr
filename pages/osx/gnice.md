@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr -p linux nice`
+`tldr --platform linux nice`

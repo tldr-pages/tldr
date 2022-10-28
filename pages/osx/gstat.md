@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr -p linux stat`
+`tldr --platform linux stat`

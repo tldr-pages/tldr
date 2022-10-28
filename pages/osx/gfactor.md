@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr -p linux factor`
+`tldr --platform linux factor`

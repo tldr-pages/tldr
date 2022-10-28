@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr -p linux csplit`
+`tldr --platform linux csplit`

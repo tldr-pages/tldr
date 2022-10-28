@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr -p linux tac`
+`tldr --platform linux tac`
