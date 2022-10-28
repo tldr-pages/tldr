@@ -1,4 +1,4 @@
-# eyewitness
+# EyeWitness
 
 > Python based tool to gather screenshots of websites, as well as additional information such as header info and default credentials if possible.
 > More information: <https://www.christophertruncer.com/eyewitness-triage-tool>.
