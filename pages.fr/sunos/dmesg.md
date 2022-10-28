@@ -11,6 +11,6 @@
 
 `dmesg | grep -i memory`
 
-- Afficher les messages du noyau 1 page à la fois:
+- Afficher les messages du noyau une page à la fois :
 
 `dmesg | less`
