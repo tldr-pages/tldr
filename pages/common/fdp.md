@@ -12,7 +12,7 @@
 
 `fdp -T svg -o {{path/to/image.svg}} {{path/to/input.gv}}`
 
-- Render the output in the formats:
+- Render the output in a specific format:
 
 `fdp -T {{ps|pdf|svg|fig|png|gif|jpg|json|dot}} -O {{path/to/input.gv}}`
 
