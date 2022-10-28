@@ -5,4 +5,4 @@
 
 - Mount an archive to a specific mountpoint:
 
-`archivemount {{path/to/archive}} {{mount_point}}`
+`archivemount {{path/to/archive}} {{path/to/mount_point}}`
