@@ -15,7 +15,7 @@
 
 `eyewitness -x {{filename}} -d {{foldername}}`
 
-- Scan multiple urls from file providing a specific useragent such as Mozilla/4.0:
+- Scan multiple URLs from a file providing a specific user agent such as Mozilla/4.0:
 
 `eyewitness -f {{filename}} --useragent {{Mozilla/4.0}}`
 
