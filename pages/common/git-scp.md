@@ -21,6 +21,6 @@
 
 `git scp staging {{path/to/file1}}...{{path/to/filen}}`
 
-- Copy specific directory
+- Copy specific directory:
 
 `git scp staging {{path/to/directory}}`
