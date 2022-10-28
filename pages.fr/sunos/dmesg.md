@@ -3,7 +3,7 @@
 > Écrire les messages du noyau sur la sortie standard.
 > Plus d'informations : <https://www.unix.com/man-page/sunos/1m/dmesg>.
 
-- Afficher les messages du noyau:
+- Afficher les messages du noyau :
 
 `dmesg`
 
