@@ -1,7 +1,7 @@
 # dmesg
 
 > Écrire les messages du noyau sur la sortie standard.
-> Plus d'information: <https://www.unix.com/man-page/sunos/1m/dmesg>.
+> Plus d'informations : <https://www.unix.com/man-page/sunos/1m/dmesg>.
 
 - Afficher les messages du noyau:
 
