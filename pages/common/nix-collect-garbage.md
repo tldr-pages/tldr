@@ -14,4 +14,4 @@
 
 - Delete all store paths older than 30 days:
 
-`sudo nix-collect-garbage --delete-older-than {{30d}}`
+`sudo nix-collect-garbage --delete-older-than 30d`
