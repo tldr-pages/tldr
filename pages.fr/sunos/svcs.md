@@ -3,7 +3,7 @@
 > Répertorier les informations sur les services en cours d'exécution.
 > Plus d'information : <https://www.unix.com/man-page/linux/1/svcs>.
 
-- Lister tous les services en cours d'exécution:
+- Lister tous les services en cours d'exécution :
 
 `svcs`
 
