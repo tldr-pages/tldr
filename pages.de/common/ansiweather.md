@@ -1,7 +1,7 @@
 # ansiweather
 
 > Ein Shell-Skript um die aktuellen Wetterbedingungen in einem Terminal anzuzeigen.
-> Mehr Informationen: <https://github.com/fcambus/ansiweather>.
+> Weitere Informationen: <https://github.com/fcambus/ansiweather>.
 
 - Zeigt eine Vorhersage für die nächsten fünf Tage für Rzeszow, Polen in metrischen Einheiten an:
 
