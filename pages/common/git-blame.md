@@ -11,6 +11,6 @@
 
 `git blame -e {{file}}`
 
-- Run git blame on file as it was before a specified commit:
+- Print file with author name and commit hash on each line at a specific commit:
 
 `git blame {{commit}}~ {{path/to/file}}`
