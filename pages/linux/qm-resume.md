@@ -7,6 +7,6 @@
 
 `qm resume {{vm_id}}`
 
-- Ignore locks when resuming a specific virtual machine (root only):
+- Resume a specific virtual machine ignoring locks (requires root):
 
-`qm resume {{vm_id}} --skiplock true`
+`sudo qm resume {{vm_id}} --skiplock true`
