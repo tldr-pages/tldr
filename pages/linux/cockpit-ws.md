@@ -3,7 +3,7 @@
 > Communicate between the browser application and various configuration tools and services like `cockpit-bridge`.
 > More information: <https://cockpit-project.org/guide/latest/cockpit-ws.8.html>.
 
-- Start with authentication via SSH at `127.0.0.1` port `22` enabled:
+- Start with authentication via SSH at `127.0.0.1` with port `22` enabled:
 
 `cockpit-ws --local-ssh`
 
