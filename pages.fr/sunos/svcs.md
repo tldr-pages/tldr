@@ -11,7 +11,7 @@
 
 `svcs -vx`
 
-- Répertorier les informations sur un service:
+- Répertorier les informations sur un service :
 
 `svcs apache`
 
