@@ -25,4 +25,4 @@
 
 - Treat all files as text:
 
-`shar -T, --text-files`
+`shar --text-files`
