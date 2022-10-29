@@ -6,4 +6,4 @@
 
 - Prendre une capture d'écran :
 
-`screencap {{path/to/file}}`
+`screencap {{chemin/vers/fichier}}`
