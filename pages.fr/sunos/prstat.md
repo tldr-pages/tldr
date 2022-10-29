@@ -7,7 +7,7 @@
 
 `prstat`
 
-- Examinez tous les processus et rapportez les statistiques triées par utilisation de la mémoire:
+- Examinez tous les processus et rapportez les statistiques triées par utilisation de la mémoire :
 
 `prstat -s rss`
 
