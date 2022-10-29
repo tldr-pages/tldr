@@ -1,7 +1,7 @@
 # shar
 
 > Create a shell archive.
-> More information: <https://manned.org/shar.1>.
+> More information: <https://manned.org/shar>.
 
 - Specify compression for input files:
 
