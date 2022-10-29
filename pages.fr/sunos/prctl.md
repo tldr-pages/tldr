@@ -11,6 +11,6 @@
 
 `prctl -P {{PID}}`
 
-- Obtenir une limite spécifique pour un processus en cours d'exécution:
+- Obtenir une limite spécifique pour un processus en cours d'exécution :
 
 `prctl -n process.max-file-descriptor {{PID}}`
