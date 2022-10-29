@@ -7,7 +7,7 @@
 
 `svcs`
 
-- Lister les services qui ne fonctionnent pas:
+- Lister les services qui ne fonctionnent pas :
 
 `svcs -vx`
 
