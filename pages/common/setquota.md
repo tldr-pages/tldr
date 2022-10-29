@@ -19,6 +19,6 @@
 
 `setquota -p, --prototype={{protoname}}`
 
-- Go through all filesystems with quotas in (/etc/mtab) and perform setting:
+- Go through all filesystems with quotas in `/etc/mtab` and perform the setting:
 
 `setquota -a, --all`
