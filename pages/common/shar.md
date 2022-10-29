@@ -13,7 +13,7 @@
 
 - Pass level for compression:
 
-`shar -g {{level}} --level-of-compression={{level}}`
+`shar --level-of-compression={{level}}`
 
 - Decide uuencoding for each file:
 
