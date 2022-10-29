@@ -19,6 +19,6 @@
 
 `svcs -L apache`
 
-- Afficher la fin d'un fichier journal de service:
+- Afficher la fin d'un fichier journal de service :
 
 `tail $(svcs -L apache)`
