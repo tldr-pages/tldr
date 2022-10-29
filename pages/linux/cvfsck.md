@@ -9,7 +9,7 @@
 
 - Provide a specific path to a configuration file that is to be used, overriding the implicit location:
 
-`cvfsck -c {{pathname}}`
+`cvfsck -c {{path/to/configuration_file}}`
 
 - Internal debug use to dump a significant amount of data to the standard output device:
 
