@@ -11,7 +11,7 @@
 
 `cvfsck -c {{path/to/configuration_file}}`
 
-- Internal debug use to dump a significant amount of data to the standard output device:
+- Dump a significant amount of data to the standard output device (Internal debug use):
 
 `cvfsck -d`
 
