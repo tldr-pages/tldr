@@ -1,6 +1,6 @@
 # cargo
 
-> Gestion d'un projet Rust et leur dependence (crates).
+> Gestion d'un projet Rust et ses dependences (crates).
 > Certaines sous-commandes comme `cargo build` ont leurs propres documentations.
 > Plus d'informations : <https://crates.io/>.
 
@@ -32,6 +32,6 @@
 
 `cargo +nightly build`
 
-- Compiler en utilisant un nombre spécifique de thread (par défaut on prend le nombre de coeur du CPU) :
+- Compiler en utilisant un nombre spécifique de threads (par défaut on prend le nombre de coeurs du CPU) :
 
 `cargo build --jobs {{nombre_de_threads}}`
