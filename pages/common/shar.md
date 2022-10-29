@@ -17,7 +17,7 @@
 
 - Decide uuencoding for each file:
 
-`shar -M, --mixed-uuencode`
+`shar --mixed-uuencode`
 
 - Treat all files as binary:
 
