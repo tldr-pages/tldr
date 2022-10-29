@@ -11,7 +11,7 @@
 
 `prstat -s rss`
 
-- Rapporter le résumé de l'utilisation totale pour chaque utilisateur:
+- Rapporter le résumé de l'utilisation totale pour chaque utilisateur :
 
 `prstat -t`
 
