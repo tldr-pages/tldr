@@ -5,7 +5,7 @@
 
 - Specify compression for input files:
 
-`shar -p --intermix-type`
+`shar --intermix-type`
 
 - Specify compaction (compression) program:
 
