@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr --platform linux pinky`
+`tldr -p linux pinky`

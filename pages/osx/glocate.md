@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr --platform linux locate`
+`tldr -p linux locate`

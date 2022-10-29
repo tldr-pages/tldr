@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr --platform linux ptx`
+`tldr -p linux ptx`

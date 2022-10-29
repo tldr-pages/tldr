@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr --platform linux split`
+`tldr -p linux split`

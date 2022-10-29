@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr --platform linux fgrep`
+`tldr -p linux fgrep`

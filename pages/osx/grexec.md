@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr --platform linux rexec`
+`tldr -p linux rexec`

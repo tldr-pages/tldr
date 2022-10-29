@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr --platform linux sha224sum`
+`tldr -p linux sha224sum`

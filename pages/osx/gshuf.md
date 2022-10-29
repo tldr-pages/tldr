@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr --platform linux shuf`
+`tldr -p linux shuf`

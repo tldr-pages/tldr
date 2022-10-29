@@ -4,4 +4,4 @@
 
 - View documentation for the original command:
 
-`tldr --platform linux touch`
+`tldr -p linux touch`
