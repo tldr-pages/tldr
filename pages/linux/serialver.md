@@ -16,6 +16,6 @@
 
 `serialver -classpath {{directory}} {{classnames}}`
 
-- Pass specified option from reference page of Java application launcher to  the Java Virtual Machine:
+- Pass specified option from reference page of Java application launcher to the Java Virtual Machine:
 
 `serialver -Joption {{classnames}}`
