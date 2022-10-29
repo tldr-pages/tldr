@@ -5,7 +5,7 @@
 
 - Edit remote quota over RPC, uses rpc.quotad on the remote host to set quota:
 
-`setquota -r, --remote`
+`setquota  --remote`
 
 - Set user quotas for named user:
 
