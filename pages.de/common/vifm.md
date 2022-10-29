@@ -7,6 +7,6 @@
 
 `vifm .`
 
-- Öffne angegebene Verzichnisse auf der linken oder rechten Seite:
+- Öffne angegebene Verzeichnisse auf der linken oder rechten Seite:
 
 `vifm {{pfad/zu/verzeichnis_1}} {{pfad/zu/verzeichnis_2}}`
