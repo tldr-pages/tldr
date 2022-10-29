@@ -1,6 +1,6 @@
 # amixer
 
-> Mikser dla sterownika ALSA kart dźwiękowych. 
+> Mikser dla sterownika ALSA kart dźwiękowych.
 > Więcej informacji: <https://manned.org/amixer>.
 
 - Zwiększenie głównego poziomu głośności o 10%:
