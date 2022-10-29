@@ -9,7 +9,7 @@
 
 - Specify compaction (compression) program:
 
-`shar -C {{program}} --compactor={{program}}`
+`shar --compactor={{program}}`
 
 - Pass level for compression:
 
