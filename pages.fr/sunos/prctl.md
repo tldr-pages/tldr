@@ -7,7 +7,7 @@
 
 `prctl {{PID}}`
 
-- Examiner les limites et les autorisations de processus dans un format analysable par machine:
+- Examiner les limites et les autorisations de processus dans un format analysable par machine :
 
 `prctl -P {{PID}}`
 
