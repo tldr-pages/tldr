@@ -13,7 +13,7 @@
 
 - Set group quotas for named group:
 
-`setquota -g, --group`
+`setquota --group`
 
 - Use quota settings of user, group or project to set the quota for the named user, group or project:
 
