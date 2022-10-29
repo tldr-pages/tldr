@@ -3,7 +3,7 @@
 > Obtenir ou définir les contrôles de ressources des processus, tâches et projets en cours d'exécution.
 > Plus d'information : <https://www.unix.com/man-page/sunos/1/prctl>.
 
-- Examiner les limites et les autorisations des processus:
+- Examiner les limites et les autorisations des processus :
 
 `prctl {{PID}}`
 
