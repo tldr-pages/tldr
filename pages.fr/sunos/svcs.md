@@ -15,7 +15,7 @@
 
 `svcs apache`
 
-- Afficher l'emplacement du fichier journal de service:
+- Afficher l'emplacement du fichier journal de service :
 
 `svcs -L apache`
 
