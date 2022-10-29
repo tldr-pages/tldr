@@ -3,7 +3,7 @@
 > Find a common ancestor of two commits.
 > More information: <https://git-scm.com/docs/git-merge-base>.
 
-- Output a best common ancestor of two commits:
+- Print the best common ancestor of two commits:
 
 `git merge-base {{commit_1}} {{commit_2}}`
 
@@ -11,6 +11,6 @@
 
 `git merge-base --all {{commit_1}} {{commit_2}}`
 
-- Return 0 if the first commit is an ancestor of the second commit, else 1:
+- Check if a commit is an ancestor of a specific commit:
 
-`git merge-base --is-ancestor {{commit_1}} {{commit_2}}`
+`git merge-base --is-ancestor {{ancestor_commit}} {{commit}}`
