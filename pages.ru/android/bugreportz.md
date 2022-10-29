@@ -4,7 +4,7 @@
 > Эту команду можно использовать только через `adb shell`.
 > Дополнительная информация: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/bugreportz>.
 
-- Создайть полный заархивированный отчет об ошибках на устройстве Android:
+- Создать полный заархивированный отчет об ошибках на устройстве Android:
 
 `bugreportz`
 
