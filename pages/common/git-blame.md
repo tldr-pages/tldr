@@ -13,4 +13,4 @@
 
 - Run git blame on file as it was before a specified commit:
 
-`git blame {{commit_hash}}~ {{file}}`
+`git blame {{commit}}~ {{path/to/file}}`
