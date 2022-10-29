@@ -6,7 +6,7 @@
 
 - Commencez à tracer un programme en l'exécutant, en suivant tous les processus enfants :
 
-`truss -f {{program}}`
+`truss -f {{programme}}`
 
 - Commencez à tracer un processus spécifique par son PID :
 
@@ -14,7 +14,7 @@
 
 - Commencez à tracer un programme en l'exécutant, en affichant les arguments et les variables d'environnement :
 
-`truss -a -e {{program}}`
+`truss -a -e {{programme}}`
 
 - Comptez le temps, les appels et les erreurs pour chaque appel système et rapportez un résumé à la sortie du programme :
 
@@ -22,4 +22,4 @@
 
 - Tracez une sortie de filtrage de processus par appel système :
 
-`truss -p {{pid}} -t {{system_call_name}}`
+`truss -p {{pid}} -t {{nom_d'appel_système}}`
