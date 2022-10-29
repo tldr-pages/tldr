@@ -19,6 +19,6 @@
 
 `prstat -m`
 
-- Imprimez une liste des 5 meilleurs processeurs utilisant des processus chaque seconde:
+- Imprimez une liste des 5 meilleurs processeurs utilisant des processus chaque seconde :
 
 `prstat -c -n 5 -s cpu 1`
