@@ -7,7 +7,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 
 | en    | path/to/file         | path/to/directory      | path/to/file_or_directory         | package   | username          |
 |:------|:---------------------|:-----------------------|:----------------------------------|:----------|:------------------|
-| ar    |                      |                        |                                   |           |                   |
+| ar    | المسار/إلى/الملف | المسار/إلى/الدليل | المسار/إلى/الملف_أو_الدليل  |          حزمة         |        اسم_المستخدم |
 | bn    |                      |                        |                                   |           |                   |
 | bs    |                      |                        |                                   |           |                   |
 | ca    | camí/al/fitxer       | camí/al/directori      | camí/al/fitxer_o_directori        | paquet    | nom_usuari        |
@@ -19,7 +19,7 @@ Only the left-alignment of the header gets lost and has to be re-added again (`|
 | hi    | फ़ाइल/का/पथ            | निर्देशिका/का/पथ            | फ़ाइल_या_निर्देशिका/का/पथ                 | पैकेज      | उपयोगकर्ता_नाम         |
 | id    | jalan/menuju/file    | jalan/menuju/direktori | jalan/menuju/file_atau_direktori  | paket     | nama_pengguna     |
 | it    | percorso/del/file    | percorso/della/directory | percorso/del/file_o_directory     | pacchetto |                   |
-| ja    |                      |                        |                                   |           |                   |
+| ja    | ファイルパス         | ディレクトリパス         | ファイルパスまたはディレクトリパス | パッケージ  | ユーザー名        |
 | ko    | 경로/대상/파일        | 경로/대상/폴더          | 경로/대상/파일_또는_폴더           | 패키지    |  사용자 명        |
 | ml    |ഫയലിലേക്കുള്ള/പാത   |ഡയറക്ടറിയിലേക്കുള്ള/പാത    |ഫയലിലേക്കോ_ഡയറക്ടറിയിലേക്കോ/ഉള്ള/പാത  |പാക്കേജ്    |ഉപയോക്തൃനാമം |
 | ne    | फाइल/को/पथ            | निर्देशिका/को/पथ            | फाइल_वा_निर्देशिका/को/पथ                 | प्याकेज      | प्रयोगकर्ता_नाम        |

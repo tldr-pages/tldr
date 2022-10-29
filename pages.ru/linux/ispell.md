@@ -1,7 +1,7 @@
 # ispell
 
 > Интерактивная проверка орфографии.
-> Больше информации: <https://www.cs.hmc.edu/~geoff/ispell.html>.
+> Больше информации: <https://www.cs.hmc.edu/~geoff/ispell-man.html>.
 
 - Начать интерактивную сессию:
 
