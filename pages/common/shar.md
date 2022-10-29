@@ -21,7 +21,7 @@
 
 - Treat all files as binary:
 
-`shar -B, --uuencode`
+`shar --uuencode`
 
 - Treat all files as text:
 
