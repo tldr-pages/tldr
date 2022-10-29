@@ -11,6 +11,6 @@
 
 `devfsadm -C -v`
 
-- Marche à sec - sortir ce qui serait changé mais ne faire aucune modification:
+- Marche à sec - sortir ce qui serait changé mais ne faire aucune modification :
 
 `devfsadm -C -v -n`
