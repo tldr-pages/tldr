@@ -1,14 +1,13 @@
 # date
 
 > Setze die Systemzeit oder zeige sie an.
-> .
 > Weitere Informationen: <https://www.gnu.org/software/coreutils/date>.
 
 - Zeige das aktuelle Datum im eingestellten Locale Format an:
 
 `date +%c`
 
-- Zeige das aktuelles Datum in koordinierter Weltzeit (UTC) im ISO 8610-Format an:
+- Zeige das aktuelle Datum in koordinierter Weltzeit (UTC) im ISO 8610-Format an:
 
 `date -u +%Y-%m-%dT%H:%M:%S%Z`
 
@@ -28,7 +27,7 @@
 
 `date --rfc-3339=s`
 
-- Setze das aktuelles Datum im Format `MMDDhhmmYYYY.ss` (`YYYY` und `.ss` sind optional):
+- Setze das aktuelle Datum im Format `MMDDhhmmYYYY.ss` (`YYYY` und `.ss` sind optional):
 
 `date {{093023592021.59}}`
 
