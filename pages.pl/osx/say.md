@@ -9,20 +9,20 @@
 
 - Przeczytaj z pliku:
 
-`say --input-file={{plik.txt}}`
+`say --input-file={{ścieżka/do/pliku.txt}}`
 
 - Przeczytaj używając konkretnego głosu i prędkości mowy:
 
 `say --voice={{głos}} --rate={{słowa_na_minutę}} "{{Przepraszam Dave, ale nie mogę Ci na to pozwolić.}}"`
 
-- Pokaż listę dostępnych głosów:
+- Pokaż listę dostępnych głosów, różne głosy obsługują różne języki:
 
 `say --voice="?"`
 
-- Powiedz coś Angielskim głosem:
+- Powiedz coś po angielsku:
 
-`say --voice=Alex "{{Here's to the Crazy Ones.}}"`
+`say --voice={{Alex}} "{{Here's to the Crazy Ones.}}"`
 
 - Stwórz plik audio z tekstu:
 
-`say --output-file={{plik.aiff}} "{{Litwo, ojczyzno moja!}}"`
+`say --output-file={{ścieżka/do/pliku.aiff}} "{{Litwo, ojczyzno moja!}}"`
