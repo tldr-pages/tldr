@@ -1,7 +1,7 @@
 # postalias
 
 > Creates or updates postfix alias databses.
-> More information: <https://manned.org/postalias.1>.
+> More information: <https://manned.org/postalias>.
 
 - Config dir read the main configuration file in the named directory:
 
