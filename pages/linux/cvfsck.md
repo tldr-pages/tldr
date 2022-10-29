@@ -7,7 +7,7 @@
 
 `cvfsck -A`
 
-- Provide a specific path to a configuration file that is to be used, overriding the implicit location:
+- Provide a specific path to a configuration file to be used for overriding the implicit location:
 
 `cvfsck -c {{path/to/configuration_file}}`
 
