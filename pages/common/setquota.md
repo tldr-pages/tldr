@@ -21,4 +21,4 @@
 
 - Go through all filesystems with quotas in `/etc/mtab` and perform the setting:
 
-`setquota -a, --all`
+`setquota --all`
