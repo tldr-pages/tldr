@@ -9,4 +9,4 @@
 
 - Ustawienie nazwy partycji FAT32:
 
-`fatlabel {{/dev/sdc3}} "{{new_label}}"`
+`fatlabel {{/dev/sdc3}} "{{nowa_etykieta}}"`
