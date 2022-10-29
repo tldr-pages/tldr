@@ -1,4 +1,4 @@
-# esptool
+# esptool.py
 
 > Espressif SoC serial bootloader utility.
 > More information: <https://docs.espressif.com/projects/esptool/en/latest/esp32/>.
