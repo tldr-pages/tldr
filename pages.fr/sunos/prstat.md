@@ -15,7 +15,7 @@
 
 `prstat -t`
 
-- Rapporter les informations comptables du processus de micro-état:
+- Rapporter les informations comptables du processus de micro-état :
 
 `prstat -m`
 
