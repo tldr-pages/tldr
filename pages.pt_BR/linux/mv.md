@@ -1,7 +1,7 @@
 # mv
 
 > Movimentação de arquivos entre diretórios, ou renomeá-los.
-> Mais informações: <https://www.gnu.org/software/coreutils/mv>
+> Mais informações: <https://www.gnu.org/software/coreutils/mv>.
 
 - Move um arquivo para um diretório arbitrário:
 
