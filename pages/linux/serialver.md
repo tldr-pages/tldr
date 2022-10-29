@@ -2,9 +2,9 @@
 
 > Returns the serialVersionUID of classes.
 > It does not set a security manager by default.
-> More information: <https://manned.org/serialver.1>.
+> More information: <https://manned.org/serialver>.
 
-- Display serialVersionUID of a class:
+- Display the serialVersionUID of a class:
 
 `serialver {{classnames}}`
 
