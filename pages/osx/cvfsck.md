@@ -7,11 +7,11 @@
 
 `cvfsck -A`
 
-- Provide a specific path to a configuration file that is to be used, overriding the implicit location:
+- Provide a specific path to a configuration file to be used for overriding the implicit location:
 
-`cvfsck -c {{pathname}}`
+`cvfsck -c {{path/to/configuration_file}}`
 
-- Internal debug use to dump a significant amount of data to the standard output device:
+- Dump a significant amount of data to the standard output device (Internal debug use):
 
 `cvfsck -d`
 
