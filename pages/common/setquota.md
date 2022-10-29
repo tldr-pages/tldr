@@ -9,7 +9,7 @@
 
 - Set user quotas for named user:
 
-`setquota -u, --user {{username}} {{block_soft_limit}} {{block_hard_limit}} {{inode_soft_limit}} {{inode_hard_limit}} {{path/to/directory}}`
+`setquota --user {{username}} {{block_soft_limit}} {{block_hard_limit}} {{inode_soft_limit}} {{inode_hard_limit}} {{path/to/directory}}`
 
 - Set group quotas for named group:
 
