@@ -1,7 +1,7 @@
 # setquota
 
 > Set disk quotas for a user or group.
-> More information: <https://manned.org/setquota.8>.
+> More information: <https://manned.org/setquota>.
 
 - Edit remote quota over RPC, uses rpc.quotad on the remote host to set quota:
 
