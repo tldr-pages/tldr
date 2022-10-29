@@ -3,7 +3,7 @@
 > Commande d'administration pour `/dev`. Maintient le `/dev` espace de noms.
 > Plus d'information : <https://www.unix.com/man-page/sunos/1m/devfsadm>.
 
-- Rechercher de nouveaux disques:
+- Rechercher de nouveaux disques :
 
 `devfsadm -c disk`
 
