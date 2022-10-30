@@ -1,16 +1,16 @@
 # go get
 
-> Add a dependency package, or download packages in legacy GOPATH mode.
-> More information: <https://pkg.go.dev/cmd/go#hdr-Add_dependencies_to_current_module_and_install_them>.
+> Bir bağımlılık paketi ekle veya eski GOPATH modunda paket indir.
+> Daha fazla bilgi için: <https://pkg.go.dev/cmd/go#hdr-Add_dependencies_to_current_module_and_install_them>.
 
-- Add a specified package to `go.mod` in module-mode or install the package in GOPATH-mode:
+- `go.mod`'a modül modunda (module-mode) belirtilen bir paket ekle veya paketi GOPATH modunda indir:
 
-`go get {{example.com/pkg}}`
+`go get {{ornek.com/pkg}}`
 
-- Modify the package with a given version in module-aware mode:
+- Paketi module-aware modunda belirtilen sürümde düzenle:
 
-`go get {{example.com/pkg}}@{{v1.2.3}}`
+`go get {{ornek.com/pkg}}@{{v1.2.3}}`
 
-- Remove a specified package:
+- Belirtilen paketi sil:
 
-`go get {{example.com/pkg}}@{{none}}`
+`go get {{ornek.com/pkg}}@{{none}}`
