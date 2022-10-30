@@ -10,7 +10,7 @@
 
 - Run on a source directory, manually selecting the desired rulesets:
 
-`semgrep --config p/{{ruleset_name}} [--config p/{{another_ruleset_name}} ...] {{path/to/directory}}`
+`semgrep --config p/{{ruleset_name1}} --config p/{{ruleset_name2}} {{path/to/directory}}`
 
 - Run within a Docker container on the current directory:
 
