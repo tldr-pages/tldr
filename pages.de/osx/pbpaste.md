@@ -7,10 +7,6 @@
 
 `pbpaste > {{datei}}`
 
-- Speichere die Zwischenablage in einer Datei im Benutzerverzwichnis an:
-
-`pbpaste > ~/{{datei}}`
-
 - Benutze die Zwischenablage als Eingabe für andere Kommandos:
 
 `pbpaste | grep foo`
