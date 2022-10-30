@@ -1,20 +1,20 @@
 # go list
 
-> List packages or modules.
-> More information: <https://golang.org/cmd/go/#hdr-List_packages_or_modules>.
+> Paket ve modülleri sırala.
+> Daha fazla bilgi için: <https://golang.org/cmd/go/#hdr-List_packages_or_modules>.
 
-- List packages:
+- Paketleri sırala:
 
 `go list ./...`
 
-- List standard packages:
+- Standart paketleri sırala:
 
 `go list std`
 
-- List packages in JSON format:
+- Paketleri JSON formatında sırala:
 
 `go list -json time net/http`
 
-- List module dependencies and available updates:
+- Modül bağımlılıklarını ve erişilebilir güncellemeleri sırala:
 
 `go list -m -u all`
