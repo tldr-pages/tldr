@@ -1,20 +1,20 @@
 # go install
 
-> Compile and install packages named by the import paths.
-> More information: <https://pkg.go.dev/cmd/go#hdr-Compile_and_install_packages_and_dependencies>.
+> İçe aktarım yollarıyla isimlendirilen paketleri derle ve indir.
+> Daha fazla bilgi için: <https://pkg.go.dev/cmd/go#hdr-Compile_and_install_packages_and_dependencies>.
 
-- Compile and install the current package:
+- Mevcut paketi derle ve indir:
 
 `go install`
 
-- Compile and install a specific local package:
+- Belirtilen yerel paketi derle ve indir:
 
-`go install {{path/to/package}}`
+`go install {{örnek/konum/paket}}`
 
-- Install the latest version of a program, ignoring `go.mod` in the current directory:
+- Bir programın son sürümünü mevcut dizindeki `go.mod`'u yoksayarak indir:
 
 `go install {{golang.org/x/tools/gopls}}@{{latest}}`
 
-- Install a program at the version selected by `go.mod` in the current directory:
+- Bir programın mevcut dizindeki `go.mod`'da belirtilen sürümünü indir:
 
 `go install {{golang.org/x/tools/gopls}}`
