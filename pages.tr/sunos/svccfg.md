@@ -1,16 +1,16 @@
 # svccfg
 
-> Import, export, and modify service configurations.
-> More information: <https://www.unix.com/man-page/linux/1m/svccfg>.
+> Servis yapılandırmalarını içe aktar, dışa aktar ve düzenle.
+> Daha fazla bilgi için: <https://www.unix.com/man-page/linux/1m/svccfg>.
 
-- Validate configuration file:
+- Yapılandırma dosyasını değerlendir:
 
 `svccfg validate {{smf.xml}}`
 
-- Export service configurations to file:
+- Servis yapılandırma dosyalarını belirtilen dosyaya yazılacak şekilde dışa aktar:
 
-`svccfg export {{servicename}} > {{smf.xml}}`
+`svccfg export {{servisismi}} > {{smf.xml}}`
 
-- Import/update service configurations from file:
+- Dosyadan servis yapılandırmalarını içe aktar/güncelle:
 
 `svccfg import {{smf.xml}}`
