@@ -1,6 +1,6 @@
 # cockpit-bridge
 
-> Used to relay messages and commands between the frontend and server in the cockpit suite.
+> Relay messages and commands between the front end and server in the cockpit suite.
 > More information: <https://cockpit-project.org/guide/latest/cockpit-bridge.1.html>.
 
 - List all cockpit packages:
