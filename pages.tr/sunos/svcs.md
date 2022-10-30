@@ -1,24 +1,24 @@
 # svcs
 
-> List information about running services.
-> More information: <https://www.unix.com/man-page/linux/1/svcs>.
+> Çalışan servislere dair bilgileri sırala.
+> Daha fazla bilgi için: <https://www.unix.com/man-page/linux/1/svcs>.
 
-- List all running services:
+- Tüm çalışan servisleri sırala:
 
 `svcs`
 
-- List services that are not running:
+- Çalışmayan servisleri sırala:
 
 `svcs -vx`
 
-- List information about a service:
+- Belirtilen servise dair bilgileri sırala:
 
 `svcs apache`
 
-- Show location of service log file:
+- Servis kayıt dosyasının yerini göster:
 
 `svcs -L apache`
 
-- Display end of a service log file:
+- Servis kayıt dosyasının sonunu görüntüle:
 
 `tail $(svcs -L apache)`
