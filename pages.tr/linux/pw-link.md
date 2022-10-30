@@ -1,20 +1,20 @@
 # pw-link
 
-> Manage links between ports in PipeWire.
-> More information: <https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Virtual-Devices>.
+> PipeWire'daki portlar arası linkleri yönet.
+> Daha fazla bilgi için: <https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Virtual-Devices>.
 
-- List all audio output and input ports:
+- Tüm ses çıktı ve girdi portlarını sırala:
 
 `pw-link --output --input'`
 
-- Create a link between an output and an input port:
+- Çıktı ve girdi portları arasında bir bağlantı yarat:
 
-`pw-link {{output_port_name}} {{input_port_name}}`
+`pw-link {{çıktı_port_ismi}} {{girdi_port_ismi}}`
 
 - Disconnect two ports:
 
-`pw-link --disconnect {{output_port_name}} {{input_port_name}}`
+`pw-link --disconnect {{çıktı_port_ismi}} {{girdi_port_ismi}}`
 
-- Display help:
+- Yardım sayfası göster:
 
 `pw-link -h`
