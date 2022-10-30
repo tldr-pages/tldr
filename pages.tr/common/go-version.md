@@ -1,12 +1,12 @@
 # go version
 
-> Print Go version.
-> More information: <https://golang.org/cmd/go/#hdr-Print_Go_version>.
+> Go sürümünü yazdır.
+> Daha fazla bilgi için: <https://golang.org/cmd/go/#hdr-Print_Go_version>.
 
-- Print Go version:
+- Go sürümünü yazdır:
 
 `go version`
 
-- Print the Go version used to build the named executable file:
+- Belirtilen çalıştırılabilir dosyanın yapımı için kullanılan Go sürümünü yazdır:
 
-`go version {{path/to/executable}}`
+`go version {{örnek/konum/çalıştırılabilir_dosya}}`
