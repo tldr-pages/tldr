@@ -11,7 +11,7 @@
 
 `getprop {{prop}}`
 
-- Muestra a nivel SDK de la API:
+- Muestra el nivel SDK de la API:
 
 `getprop {{ro.build.version.sdk}}`
 
