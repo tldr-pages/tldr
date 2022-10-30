@@ -1,25 +1,25 @@
 # snoop
 
-> Network packet sniffer.
-> SunOS equivalent of tcpdump.
-> More information: <https://www.unix.com/man-page/sunos/1m/snoop>.
+> Ağ paketi inceleyici.
+> SunOS'un tcpdump alternatifi.
+> Daha fazla bilgi için: <https://www.unix.com/man-page/sunos/1m/snoop>.
 
-- Capture packets on a specific network interface:
+- Belirtilen ağ arayüzünde paketleri yakala:
 
 `snoop -d {{e1000g0}}`
 
-- Save captured packets in a file instead of displaying them:
+- Yakalanan paketleri terminalde göstermek yerine bir dosyaya kaydet:
 
-`snoop -o {{filename}}`
+`snoop -o {{dosyaismi}}`
 
-- Display verbose protocol layer summary of packets from a file:
+- Belirtilen dosyadan paketlerin ayrıntılı protokol katman özetini görüntüle:
 
-`snoop -V -i {{filename}}`
+`snoop -V -i {{dosyaismi}}`
 
-- Capture network packets that come from a hostname and go to a given port:
+- Host isminden gelen ağ paketlerini yakala ve belirtilen port'a git:
 
-`snoop to port {{port}} from host {{hostname}}`
+`snoop to port {{port}} from host {{hostismi}}`
 
-- Capture and show a hex-dump of network packets exchanged between two IP addresses:
+- İki IP adresi arasında takas edilen ağ paketleriini yakala ve hex değerlerini göster:
 
-`snoop -x0 -p4 {{ip_address_1}} {{ip_address_2}}`
+`snoop -x0 -p4 {{ip_addresi_1}} {{ip_addresi_2}}`
