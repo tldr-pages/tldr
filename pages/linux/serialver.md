@@ -14,7 +14,7 @@
 
 - Display the serialVersionUID for a colon-separated list of classes and resources:
 
-`serialver -classpath {{directory}} {{classnames}}`
+`serialver -classpath {{directory}} {{classname1:classname2:...}}`
 
 - Pass specified option from reference page of Java application launcher to the Java Virtual Machine:
 
