@@ -1,20 +1,20 @@
 # pw-record
 
-> Shorthand tool for pw-cat --playback.
-> More information: <https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_CLI>.
+> pw-cat --playback komutu için kısayol aracı.
+> Daha fazla bilgi için: <https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_CLI>.
 
-- List all available record targets:
+- Tüm erişilebilir kayıt hedeflerini sırala:
 
 `pw-record --list-targets`
 
-- Record a sample recording using the default target:
+- Varsayılan hedefi kullanarak örnek bir ses kaydı al:
 
-`pw-record {{path/to/file.wav}}`
+`pw-record {{örnek/konum/dosya.wav}}`
 
-- Record a sample recording at a different volume level:
+- Farklı bir ses seviyesinde örnek ses kaydı al:
 
-`pw-record --volume={{0.1}} {{path/to/file.wav}}`
+`pw-record --volume={{0.1}} {{örnek/konum/dosya.wav}}`
 
-- Record a sample recording using a different sample rate:
+- Farklı bir kayıt oranı kullanarak örnek ses kaydı al:
 
-`pw-record --rate={{6000}} {{path/to/file.wav}}`
+`pw-record --rate={{6000}} {{örnek/konum/dosya.wav}}`
