@@ -15,6 +15,6 @@
 
 `verilator --lint-only -Wall`
 
-- Create XML to feed into other tools:
+- Create XML output about the design (files, modules, instance hierarchy, logic and data types) to feed into other tools:
 
-`verilator --xml-only -Wall`
+`verilator --xml-output {{out.xml}} -Wall`
