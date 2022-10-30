@@ -1,28 +1,28 @@
 # pw-loopback
 
-> Tool for creating loopback devices in pipewire.
-> More information: <https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Virtual-Devices>.
+> PipeWire'da geri döngü cihazları yaratma aracı.
+> Daha fazla bilgi için: <https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Virtual-Devices>.
 
-- Create a loopback device with the default loopback behavior:
+- Varsayılan geri döngü davranışına sahip bir geri döngü cihazı yarat:
 
 `pw-loopback`
 
-- Create a loopback device that automatically connects to the speakers:
+- Hoparlörlere otomatik olarak bağlanan bir geri döngü cihazı yarat:
 
 `pw-loopback -m '{{[FL FR]}}' --capture-props='{{media.class=Audio/Sink}}'`
 
-- Create a loopback device that automatically connects to the microphone:
+- Mikrofona otomatik olarak bağlanan bir geri döngü cihazı yarat:
 
 `pw-loopback -m '{{[FL FR]}}' --playback-props='{{media.class=Audio/Source}}'`
 
-- Create a dummy loopback device that doesn't automatically connect to anything:
+- Hiçbir şeye otomatik olarak bağlanmayan salak bir geri döngü cihazı yarat:
 
 `pw-loopback -m '{{[FL FR]}}' --capture-props='{{media.class=Audio/Sink}}' --playback-props='{{media.class=Audio/Source}}'`
 
-- Create a loopback device that automatically connects to the speakers and swaps the left and right channels between the sink and source:
+- Hoparlörlere otomatik olarak bağlanan ve taban-kaynak arasında sağ-sol kanalların yerini değiştiren bir geri döngü cihazı yarat:
 
 `pw-loopback --capture-props='{{media.class=Audio/Sink audio.position=[FL FR]}}' --playback-props='{{audio.position=[FR FL]}}'`
 
-- Create a loopback device that automatically connects to the microphone and swaps the left and right channels between the sink and source:
+- Mikrofona otomatik olarak bağlanan ve taban-kaynak arasında sağ-sol kanalların yerini değiştiren bir geri döngü cihazı yarat:
 
 `pw-loopback --capture-props='{{audio.position=[FR FL]}}' --playback-props='{{media.class=Audio/Source audio.position=[FL FR]}}'`
