@@ -1,7 +1,7 @@
 # semgrep
 
 > Perform static source code analysis (SAST) to detect security vulnerabilities.
-> It is a fast SAST tool aiming to minimize false positives.
+> It is a SAST tool aiming to minimize false positives and being fast enough to be used in CI pipelines.
 > More information: <https://semgrep.dev/docs/cli-reference/>.
 
 - Run on a source directory, automatically detecting matching rules:
