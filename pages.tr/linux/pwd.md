@@ -1,16 +1,16 @@
 # pwd
 
-> Print name of current/working directory.
-> More information: <https://www.gnu.org/software/coreutils/pwd>.
+> Mevcut/çalışan dizinin ismini yazdır.
+> Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/pwd>.
 
-- Print the current directory:
+- Mevcut dizini yazdır:
 
 `pwd`
 
-- Print the current directory, and resolve all symlinks (i.e. show the "physical" path):
+- Mevcut dizini yazdır ve tüm symlink'leri çöz (yani "fiziksel" yolu göster):
 
 `pwd --physical`
 
-- Print the current logical directory:
+- Mevcut mantıksal dizini yazdır:
 
 `pwd --logical`
