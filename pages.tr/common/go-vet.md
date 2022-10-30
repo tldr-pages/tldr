@@ -1,29 +1,29 @@
 # go vet
 
-> Check Go source code and report suspicious constructs (e.g. lint your Go source files).
-> Go vet returns a non-zero exit code if problems are found; returns a zero exit code if no problems are found.
+> Go kaynak kodunu kontrol et ve şüpheli yapıları bildir (örneğin Go kaynak dosyalarını tiftik et).
+> Go vet komutu eğer sorun bulunduysa sıfır olmayan bir çıkış kodu yazdırır. Eğer herhangi bir sorun bulunmadıysa sıfır çıkış kodu yazdırılır.
 > More information: <https://pkg.go.dev/cmd/vet>.
 
-- Check the Go package in the current directory:
+- Mevcut dizindeki Go paketini kontrol et:
 
 `go vet`
 
-- Check the Go package in the specified path:
+- Belirtilen yoldaki Go paketini kontrol et:
 
-`go vet {{path/to/file_or_directory}}`
+`go vet {{örnek/dosya_veya_dizin}}`
 
-- List available checks that can be run with go vet:
+- Go vet ile çalıştırılabilecek erişilebilir kontrolleri sırala:
 
 `go tool vet help`
 
-- View details and flags for a particular check:
+- Belirtilen bir kontrol için detayları ve bayrakları göster:
 
-`go tool vet help {{check_name}}`
+`go tool vet help {{kontrol_ismi}}`
 
-- Display offending lines plus N lines of surrounding context:
+- Kontrolün sorun bulmasına sebep olan satırları artı N sayıda ek içeriği görüntüle:
 
 `go vet -c={{N}}`
 
-- Output analysis and errors in JSON format:
+- Analiz ve hataları JSON formatında çıkart:
 
 `go vet -json`
