@@ -1,16 +1,16 @@
 # pw-play
 
-> Shorthand tool for pw-cat --playback.
-> More information: <https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_CLI>.
+> pw-cat --playback komutu için kısayol aracı.
+> Daha fazla bilgi için: <https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_CLI>.
 
-- List all available playback targets:
+- Tüm erişilebilir oynatma hedeflerini sırala:
 
 `pw-play --list-targets`
 
-- Play a wav sound file over the default target:
+- Varsayılan hedef üzerinden bir WAV sesi oynat:
 
-`pw-play {{path/to/file.wav}}`
+`pw-play {{örnek/konum/dosya.wav}}`
 
-- Play a wav sound file at a different volume level:
+- WAV sesini farklı bir ses yüksekliğinde oynat:
 
-`pw-play --volume={{0.1}} {{path/to/file.wav}}`
+`pw-play --volume={{0.1}} {{örnek/konum/dosya.wav}}`
