@@ -1,20 +1,20 @@
 # go env
 
-> Manage environment variables used by the Go toolchain.
-> More information: <https://golang.org/cmd/go/#hdr-Print_Go_environment_information>.
+> Go toolchain'in kullandığı ortam değişkenlerini yönet.
+> Daha fazla bilgi için: <https://golang.org/cmd/go/#hdr-Print_Go_environment_information>.
 
-- Show all environment variables:
+- Tüm ortam değişkenlerini göster:
 
 `go env`
 
-- Show a specific environment variable:
+- Belirtilen ortam değişkenlerini göster:
 
 `go env {{GOPATH}}`
 
-- Set an environment variable to a value:
+- Bir değere ortam değişkeni ata:
 
-`go env -w {{GOBIN}}={{path/to/directory}}`
+`go env -w {{GOBIN}}={{örnek/konum/dizin}}`
 
-- Reset an environment variable's value:
+- Ortam değişkeninin değerini sıfırla:
 
 `go env -u {{GOBIN}}`
