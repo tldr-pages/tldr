@@ -1,9 +1,9 @@
 # verilator
 
 > Converts Verilog and SystemVerilog hardware description language (HDL) designs into a C++ or SystemC model that after compiling can be executed.
-> More information: <https://veripool.org/ftp/verilator_doc.pdf>.
+> More information: <https://veripool.org/guide/latest/>.
 
-- Create a binary:
+- Build the C project in the current directory:
 
 `verilator --binary -j 0 -Wall {{source.v}}`
 
@@ -11,7 +11,7 @@
 
 `verilator --cc --exe --build -j 0 -Wall {{source.cpp}} {{out.v}}`
 
-- Perform linting:
+- Perform linting over the code in the current directory:
 
 `verilator --lint-only -Wall`
 
