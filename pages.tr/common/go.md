@@ -1,33 +1,33 @@
 # go
 
-> Tool for managing go source code.
-> Some subcommands such as `go build` have their own usage documentation.
-> More information: <https://golang.org>.
+> Go kaynak kodunu yönetmeye yarayan bir araç.
+> `go build` gibi bazı alt komutların kendı kullanım dokümentasyonları mevcut.
+> Daha fazla bilgi için: <https://golang.org>.
 
-- Download and install a package, specified by its import path:
+- İçe aktarım yolunda belirtilen şekilde bir paketi indir ve yükle:
 
-`go get {{package_path}}`
+`go get {{paket_yolu}}`
 
-- Compile and run a source file (it has to contain a `main` package):
+- Bir kaynak dosyasını derle ve çalıştır (bir `main` paketine sahip olmalı):
 
-`go run {{file}}.go`
+`go run {{dosya}}.go`
 
-- Compile a source file into a named executable:
+- Bir kaynak dosyasını belirtilen çalıştırılabilir dosyaya derle:
 
-`go build -o {{executable}} {{file}}.go`
+`go build -o {{çalıştırılabilir}} {{dosya}}.go`
 
-- Compile the package present in the current directory:
+- Mevcut dizinde bulunan paketi derle:
 
 `go build`
 
-- Execute all test cases of the current package (files have to end with `_test.go`):
+- Mevcut paket için tüm test durumlarını çalıştır (bahsi geçen dosyalar `_test.go` ifadesi ile bitmeli):
 
 `go test`
 
-- Compile and install the current package:
+- Mevcut paketi derle ve indir:
 
 `go install`
 
-- Initialize a new module in the current directory:
+- Mevcut diizinde yeni bir modül başlat:
 
-`go mod init {{module_name}}`
+`go mod init {{modül_ismi}}`
