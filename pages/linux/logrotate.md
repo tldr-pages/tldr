@@ -19,6 +19,6 @@
 
 `logrotate {{path/to/logrotate.conf}} --skip-state-lock`
 
-- Tell `logrotate` to log verbose output into the log_file:
+- Tell `logrotate` to log verbose output into the log file:
 
 `logrotate {{path/to/logrotate.conf}} --log {{path/to/log_file}}`
