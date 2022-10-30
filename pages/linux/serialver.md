@@ -8,10 +8,6 @@
 
 `serialver {{classnames}}`
 
-- Display the user interface, enter full class name and press show to view the serial version:
-
-`serialver -show {{classnames}}`
-
 - Display the serialVersionUID for a colon-separated list of classes and resources:
 
 `serialver -classpath {{directory}} {{classname1:classname2:...}}`
