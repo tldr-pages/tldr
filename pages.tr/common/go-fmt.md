@@ -1,25 +1,25 @@
 # go fmt
 
-> Format Go source files.
-> Prints the filenames that are changed.
-> More information: <https://pkg.go.dev/cmd/go#hdr-Gofmt__reformat__package_sources>.
+> Go kaynak dosyalarını formatla.
+> Değiştirilen dosya isimlerini yazdırır.
+> Daha fazla bilgi için: <https://pkg.go.dev/cmd/go#hdr-Gofmt__reformat__package_sources>.
 
-- Format Go source files in the current directory:
+- Mevcut dizindeki Go kaynak dosyalarını formatla:
 
 `go fmt`
 
-- Format a specific Go package in your import path (`$GOPATH/src`):
+- Belirtilen Go paketini içe aktarım yolunda formatla (`$GOPATH/src`):
 
-`go fmt {{path/to/package}}`
+`go fmt {{örnek/konum/paket}}`
 
-- Format the package in the current directory and all subdirectories (note the `...`):
+- Paketi mevcut dizinde ve tüm öbür alt dizinlerde formatla (`...` ifadesine dikkat):
 
 `go fmt {{./...}}`
 
-- Print what format commands would've been run, without modifying anything:
+- Hiçbir şeyi düzenlemeden format komutlarının ne yapacağını yazdır:
 
 `go fmt -n`
 
-- Print which format commands are run as they are run:
+- Komut çalışırken arkaplanda hangi komutların çalıştığını yazdır:
 
 `go fmt -x`
