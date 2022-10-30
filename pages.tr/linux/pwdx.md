@@ -1,8 +1,8 @@
 # pwdx
 
-> Print working directory of a process.
-> More information: <https://manned.org/pwdx>.
+> Bir işlemin çalışan dizinini yazdır.
+> Daha fazla bilgi için: <https://manned.org/pwdx>.
 
-- Print current working directory of a process:
+- Bir işlemin mevcut çalışan dizinini yazdır:
 
-`pwdx {{process_id}}`
+`pwdx {{işlem_id'si}}`
