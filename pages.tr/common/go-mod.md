@@ -1,24 +1,24 @@
 # go mod
 
-> Module maintenance.
-> More information: <https://golang.org/cmd/go/#hdr-Module_maintenance>.
+> Modül yönetimi.
+> Daha fazla bilgi için: <https://golang.org/cmd/go/#hdr-Module_maintenance>.
 
-- Initialize new module in current directory:
+- Mevcut dizinde yeni modül başlat:
 
-`go mod init {{moduleName}}`
+`go mod init {{modülİsmi}}`
 
-- Download modules to local cache:
+- Modülleri yerel önbelleğe yükle:
 
 `go mod download`
 
-- Add missing and remove unused modules:
+- Kaybolan modülleri ekle ve kullanılmayanları sil:
 
 `go mod tidy`
 
-- Verify dependencies have expected content:
+- Bağlılıkların beklenen içeriğe sahip olduklarını doğrula:
 
 `go mod verify`
 
-- Copy sources of all dependencies into the vendor directory:
+- Tüm bağlılıkların kaynaklarını satıcı dizine kopyala:
 
 `go mod vendor`
