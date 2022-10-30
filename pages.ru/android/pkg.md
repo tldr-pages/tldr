@@ -1,7 +1,7 @@
 # pkg
 
 > Утилита управления пакетами для Termux.
-> Дополнительная информация: <https://wiki.termux.com/wiki/Package_Management>.
+> Больше информации: <https://wiki.termux.com/wiki/Package_Management>.
 
 - Обновить все установленные пакеты:
 
