@@ -1,24 +1,24 @@
 # prstat
 
-> Report active process statistics.
-> More information: <https://www.unix.com/man-page/sunos/1m/prstat>.
+> Aktif işlem istatistiklerini bildir.
+> Daha fazla bilgi için: <https://www.unix.com/man-page/sunos/1m/prstat>.
 
-- Examine all processes and reports statistics sorted by CPU usage:
+- CPU kullanımına ayrılan tüm işlem ve raporların istatiğini incele:
 
 `prstat`
 
-- Examine all processes and reports statistics sorted by memory usage:
+- Hafıza kullanımına ayrılan tüm işlem ve raporların istatistiğini incele:
 
 `prstat -s rss`
 
-- Report total usage summary for each user:
+- Her bir kullanıcı için toplam kullanım özetini bildir:
 
 `prstat -t`
 
-- Report microstate process accounting information:
+- Mikrodurum işlem hesap açıklama bilgisini bildir:
 
 `prstat -m`
 
-- Print out a list of top 5 CPU using processes every second:
+- Saniye başı en çok CPU kullanan 5 işlemin listesini yazdır:
 
 `prstat -c -n 5 -s cpu 1`
