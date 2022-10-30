@@ -12,7 +12,7 @@
 
 `serialver -show {{classnames}}`
 
-- Display serialVersionUID of a class in a specific package, separate classes and resources with a colon(:):
+- Display the serialVersionUID for a colon-separated list of classes and resources:
 
 `serialver -classpath {{directory}} {{classnames}}`
 
