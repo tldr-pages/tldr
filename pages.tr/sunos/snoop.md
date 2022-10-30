@@ -1,7 +1,7 @@
 # snoop
 
 > Ağ paketi inceleyici.
-> SunOS'un tcpdump alternatifi.
+> SunOS'in tcpdump alternatifi.
 > Daha fazla bilgi için: <https://www.unix.com/man-page/sunos/1m/snoop>.
 
 - Belirtilen ağ arayüzünde paketleri yakala:
