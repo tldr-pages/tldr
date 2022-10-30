@@ -2,7 +2,7 @@
 
 > Converts Verilog and SystemVerilog hardware description language (HDL) designs into a C++
 or SystemC model that after compiling can be executed
-> More information: <https://veripool.org/ftp/verilator_doc.pdf>
+> More information: <https://veripool.org/ftp/verilator_doc.pdf>.
 
 Example Verilog file:
 
