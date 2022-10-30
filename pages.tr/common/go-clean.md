@@ -1,20 +1,20 @@
 # go clean
 
-> Remove object files and cached files.
-> More information: <https://golang.org/cmd/go/#hdr-Remove_object_files_and_cached_files>.
+> Obje ve önbellek dosyalarını sil.
+> Daha fazla bilgi için: <https://golang.org/cmd/go/#hdr-Remove_object_files_and_cached_files>.
 
-- Print the remove commands instead of actually removing anything:
+- Hiçbir şeyi silmeden silme komutlarını yazdır:
 
 `go clean -n`
 
-- Delete the build cache:
+- Yapım önbelleğini sil:Delete the build cache:
 
 `go clean -cache`
 
-- Delete all cached test results:
+- Tüm önbelleğe alınan test sonuçlarını sil:
 
 `go clean -testcache`
 
-- Delete the module cache:
+- Modül önbelleğni sil:
 
 `go clean -modcache`
