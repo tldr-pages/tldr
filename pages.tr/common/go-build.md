@@ -1,20 +1,20 @@
 # go build
 
-> Compile Go sources.
-> More information: <https://golang.org/cmd/go/#hdr-Compile_packages_and_dependencies>.
+> Go kaynaklarını derle.
+> Daha fazla bilgi için: <https://golang.org/cmd/go/#hdr-Compile_packages_and_dependencies>.
 
-- Compile a 'package main' file (output will be the filename without extension):
+- Bir 'package main' dosyasını derle (çıktı uzantısız bir dosya ismi olacak):
 
-`go build {{path/to/main.go}}`
+`go build {{örnek/konum/main.go}}`
 
-- Compile, specifying the output filename:
+- Çıktı dosya ismini belirterek derle:
 
-`go build -o {{path/to/binary}} {{path/to/source.go}}`
+`go build -o {{örnek/konum/binary}} {{örnek/konum/kaynak.go}}`
 
-- Compile a package:
+- Bir paket yarat:
 
-`go build -o {{path/to/binary}} {{path/to/package}}`
+`go build -o {{örnek/konum/binary}} {{örnek/konum/paket}}`
 
-- Compile a main package into an executable, enabling data race detection:
+- Bir ana paketi veri yarış tanımlayıcısını etkinleştirerek çalıştırılabilir olarak derle.
 
-`go build -race -o {{path/to/executable}} {{path/to/main/package}}`
+`go build -race -o {{örnek/konum/çalıştırılabilir}} {{örnek/konum/ana_paket}}`
