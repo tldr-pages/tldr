@@ -1,16 +1,16 @@
 # dmesg
 
-> Write the kernel messages to standard output.
-> More information: <https://www.unix.com/man-page/sunos/1m/dmesg>.
+> Kernel mesajlarını görüntüle.
+> Daha fazla bilgi için: <https://www.unix.com/man-page/sunos/1m/dmesg>.
 
-- Show kernel messages:
+- Kernel mesajlarını görüntüle:
 
 `dmesg`
 
-- Show how much physical memory is available on this system:
+- Sistemde ne kadar fiziksel hafıza kaldığını göster:
 
 `dmesg | grep -i memory`
 
-- Show kernel messages 1 page at a time:
+- Kernel mesajlarını terminal ekranına sığacak ve her satıra bir tane gelecek şekilde göster:
 
 `dmesg | less`
