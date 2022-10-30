@@ -14,5 +14,3 @@
 - Benutze die Zwischenablage als Eingabe für andere Kommandos:
 
 `pbpaste | grep foo`
-
-`pbpaste | base64 | pbcopy`
