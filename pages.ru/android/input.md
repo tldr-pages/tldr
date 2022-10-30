@@ -2,7 +2,7 @@
 
 > Отправить коды событий или жесты сенсорного экрана на устройство Android.
 > Эту команду можно использовать только через `adb shell`.
-> Дополнительная информация: <https://developer.android.com/reference/android/view/KeyEvent.html#constants_1>.
+> Больше информации: <https://developer.android.com/reference/android/view/KeyEvent.html#constants_1>.
 
 - Отправить код события для одного символа на устройство Android:
 
