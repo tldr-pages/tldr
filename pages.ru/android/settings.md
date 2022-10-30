@@ -1,7 +1,7 @@
 # settings
 
 > Получить информацию об операционной системе Android.
-> Дополнительная информация: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
+> Больше информации: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
 
 - Показать список настроек в `global`:
 
