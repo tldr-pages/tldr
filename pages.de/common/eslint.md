@@ -1,7 +1,7 @@
 # eslint
 
 > Ein erweiterbarer Linter für JavaScript und JSX.
-> Mehr Informationen: <https://eslint.org>.
+> Weitere Informationen: <https://eslint.org>.
 
 - Erstellen einer ESLint Konfigurationsdatei:
 
@@ -9,7 +9,7 @@
 
 - Linter auf mehreren Dateien ausführen:
 
-`eslint {{filename}}.js {{filename1}}.js`
+`eslint {{dateiname}}.js {{dateiname1}}.js`
 
 - Linterfehler beheben:
 
@@ -17,4 +17,4 @@
 
 - Linter mit einer Konfigurationsdatei ausführen:
 
-`eslint -c {{path/to/config_file}} {{app/src}}`
+`eslint -c {{pfad/zu/konfigurationsdatei}} {{app/src}}`
