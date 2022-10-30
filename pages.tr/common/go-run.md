@@ -1,12 +1,12 @@
 # go run
 
-> Compile and run Go code without saving a binary.
-> More information: <https://pkg.go.dev/cmd/go#hdr-Compile_and_run_Go_program>.
+> Binary (ikili sayı değeri) kaydetmeden Go kodunu derle ve çalıştır.
+> Daha fazla bilgi için: <https://pkg.go.dev/cmd/go#hdr-Compile_and_run_Go_program>.
 
-- Run a Go file:
+- Bir Go dosyası çalıştır:
 
-`go run {{path/to/file.go}}`
+`go run {{örnek/konum/dosya.go}}`
 
-- Run a main Go package:
+- Ana bir Go paketi çalıştır:
 
-`go run {{path/to/package}}`
+`go run {{örnek/konum/paket}}`

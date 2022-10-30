@@ -1,28 +1,28 @@
 # go test
 
-> Tests Go packages (files have to end with `_test.go`).
-> More information: <https://golang.org/cmd/go/#hdr-Testing_flags>.
+> Go paketlerini test et (dosyalar `_test.go` ifadesiyle bitmeli).
+> Daha fazla bilgi için: <https://golang.org/cmd/go/#hdr-Testing_flags>.
 
-- Test the package found in the current directory:
+- Mevcut dizinde bulunan paketleri test et:
 
 `go test`
 
-- [v]erbosely test the package in the current directory:
+- Mevcut dizindeki paketleri ayrıntılı şekilde test et:
 
 `go test -v`
 
-- Test the packages in the current directory and all subdirectories (note the `...`):
+- Mevcut dizindeki ve tüm alt dizinlerdeki paketleri test et (`...` ifadesine dikkat):
 
 `go test -v ./...`
 
-- Test the package in the current directory and run all benchmarks:
+- Mevcut dzindeki paketleri test et ve tüm kalite testlerini çalıştır:
 
 `go test -v -bench .`
 
-- Test the package in the current directory and run all benchmarks for 50 seconds:
+- Mevcut dizindeki paketleri test et ve 50 saniye içinde tüm kalite testlerini çalıştır:
 
 `go test -v -bench . -benchtime {{50s}}`
 
-- Test the package with coverage analysis:
+- Paketleri kapsamlı bir analiz ile test et:
 
 `go test -cover`
