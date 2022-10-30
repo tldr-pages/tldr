@@ -3,7 +3,7 @@
 > Run jobs in foreground.
 > More information: <https://manned.org/fg>.
 
-- Bring most recently suspended background job to foreground:
+- Bring most recently suspended or running background job to foreground:
 
 `fg`
 
