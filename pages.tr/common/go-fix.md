@@ -1,8 +1,8 @@
 # go fix
 
-> Update packages to use new APIs.
-> More information: <https://golang.org/cmd/go/#hdr-Update_packages_to_use_new_APIs>.
+> Yeni API'ler kullanmak için paketleri güncelle.
+> Daha fazla bilgi için: <https://golang.org/cmd/go/#hdr-Update_packages_to_use_new_APIs>.
 
-- Update packages to use new APIs:
+- Paketleri yeni API'ler kullanmak için güncelle:
 
-`go fix {{packages}}`
+`go fix {{paketler}}`
