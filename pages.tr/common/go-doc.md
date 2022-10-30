@@ -1,24 +1,24 @@
 # go doc
 
-> Show documentation for a package or symbol.
-> More information: <https://golang.org/cmd/go/#hdr-Show_documentation_for_package_or_symbol>.
+> Bir paket veya sembolün dokümentasyonunu göster.
+> Daha fazla bilgi için: <https://golang.org/cmd/go/#hdr-Show_documentation_for_package_or_symbol>.
 
-- Show documentation for the current package:
+- Mevcut paket için dokümentasyonu göster:
 
 `go doc`
 
-- Show package documentation and exported symbols:
+- Paket dokümentasyonunu ve dışa aktarılmış sembolleri göster:
 
 `go doc {{encoding/json}}`
 
-- Show also documentation of symbols:
+- Sembollerin de dokümentasyonunu göster:
 
 `go doc -all {{encoding/json}}`
 
-- Show also sources:
+- Kaynakları da göster:
 
 `go doc -all -src {{encoding/json}}`
 
-- Show a specific symbol:
+- Belirtilen sembolü göster:
 
 `go doc -all -src {{encoding/json.Number}}`
