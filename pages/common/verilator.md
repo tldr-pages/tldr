@@ -1,12 +1,11 @@
 # verilator
 
-> Converts Verilog and SystemVerilog hardware description language (HDL) designs into a C++
-or SystemC model that after compiling can be executed
+> Converts Verilog and SystemVerilog hardware description language (HDL) designs into a C++ or SystemC model that after compiling can be executed.
 > More information: <https://veripool.org/ftp/verilator_doc.pdf>.
 
 Example Verilog file:
 
-```
+```bash
 mkdir test_our
 cd test_our
 cat >our.v <<'EOF'
