@@ -2,7 +2,7 @@
 
 > Perform static source code analysis (SAST) to detect security vulnerabilities.
 > It is a fast SAST tool aiming to minimize false positives.
-> More information: <https://semgrep.dev/>.
+> More information: <https://semgrep.dev/docs/cli-reference/>.
 
 - Run on a source directory, automatically detecting matching rules:
 
