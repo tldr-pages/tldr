@@ -7,7 +7,7 @@
 
 `devfsadm -c disk`
 
-- Nettoyez tout pendaison /dev liens et rechercher un nouvel appareil :
+- Nettoyez tout pendaison `/dev` liens et rechercher un nouvel appareil :
 
 `devfsadm -C -v`
 
