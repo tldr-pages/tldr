@@ -1,21 +1,21 @@
 # go tool
 
-> Run a specific Go tool or command.
-> Execute a Go command as a stand-alone binary, typically for debugging.
-> More information: <https://pkg.go.dev/cmd/go#hdr-Run_specified_go_tool>.
+> Belirtilen bir Go aracını veya komutunu çalıştır.
+> Bir Go komutunu tipik olarak hata ayıklamak için tek başına bir binary olarak çalıştır.
+> Daha fazla bilgi için: <https://pkg.go.dev/cmd/go#hdr-Run_specified_go_tool>.
 
-- List available tools:
+- Erişilebilir araçları sırala:
 
 `go tool`
 
-- Run the go link tool:
+- Go bağ aracını çalıştır:
 
-`go tool link {{path/to/main.o}}`
+`go tool link {{örnek/konum/main.o}}`
 
-- Print the command that would be executed, but do not execute it (similar to `whereis`):
+- Çalıştırılacak komutu çalıştırmadan yazdır (`whereis`'e benzer):
 
-`go tool -n {{command}} {{arguments}}`
+`go tool -n {{komut}} {{argümanları}}`
 
-- Display documentation for a specified tool:
+- Belirtilen araç için resmi dokümentasyonu göster:
 
-`go tool {{command}} --help`
+`go tool {{komut}} --help`
