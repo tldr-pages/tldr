@@ -3,7 +3,7 @@
 > Display file and filesystem information.
 > More information: <https://www.gnu.org/software/coreutils/manual/html_node/stat-invocation.html>.
 
-- Show file properties such as size, permissions, creation and access dates among others:
+- Show a specific file properties such as size, permissions, creation and access dates among others:
 
 `stat {{path/to/file}}`
 
@@ -11,7 +11,7 @@
 
 `stat -t {{path/to/file}}`
 
-- Show filesystem information:
+- Show a filesystem information:
 
 `stat -f {{path/to/file}}`
 
@@ -19,10 +19,10 @@
 
 `stat -c "%a %n" {{path/to/file}}`
 
-- Show owner and group of the file:
+- Show an owner and a group of a specific file:
 
 `stat -c "%U %G" {{path/to/file}}`
 
-- Show the size of the file in bytes:
+- Show a size of a specific file in bytes:
 
 `stat -c "%s %n" {{path/to/file}}`
