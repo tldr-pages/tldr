@@ -16,4 +16,5 @@
 `verilator --lint-only -Wall`
 
 - Create XML to feed into other tools:
+
 `verilator --xml-only -Wall`
