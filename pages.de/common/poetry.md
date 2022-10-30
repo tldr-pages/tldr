@@ -1,19 +1,19 @@
 # poetry
 
 > Verwalte Python-Paketen und -Abhängigkeiten.
-> Mehr Informationen: <https://python-poetry.org/docs/cli/>.
+> Weitere Informationen: <https://python-poetry.org/docs/cli/>.
 
 - Erstellen eins neuen Poetry-Projekts im Verzeichnis mit dem angegebenem Namen:
 
-`poetry new {{project_name}}`
+`poetry new {{projekt_name}}`
 
 - Installation einer Abhängigkeit und allen Unterabhängigkeiten:
 
-`poetry add {{dependency}}`
+`poetry add {{abhängigkeit}}`
 
 - Installation einer Entwicklungsabhängigkeit und allen Unterabhängigkeiten:
 
-`poetry add --dev {{dependency}}`
+`poetry add --dev {{abhängigkeit}}`
 
 - Interaktives Initialisieren eines neuen Poetry-Projekts im aktuellen Verzeichnis:
 
@@ -25,7 +25,7 @@
 
 - Einen Befehl innerhalb der virtuellen Umgebung des Projekts ausführen:
 
-`poetry run {{command}}`
+`poetry run {{befehl}}`
 
 - Die Minor-Version des projects in `pyproject.toml` erhöhen:
 
