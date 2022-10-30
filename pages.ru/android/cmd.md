@@ -1,7 +1,7 @@
 # cmd
 
 > Сервис менеджер Android.
-> Дополнительная информация: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/cmd/>.
+> Больше информации: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/cmd/>.
 
 - Список всех запущенных сервисов:
 
