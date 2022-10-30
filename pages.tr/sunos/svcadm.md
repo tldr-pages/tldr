@@ -1,24 +1,24 @@
 # svcadm
 
-> Manipulate service instances.
-> More information: <https://www.unix.com/man-page/linux/1m/svcadm>.
+> Servisleri idare et.
+> Daha fazla bilgi için: <https://www.unix.com/man-page/linux/1m/svcadm>.
 
-- Enable a service in the service database:
+- Servis veritabanındaki bir servisi etkinleştir:
 
-`svcadm enable {{service_name}}`
+`svcadm enable {{servis_ismi}}`
 
-- Disable service:
+- Servisi devre dışı bırak:
 
-`svcadm disable {{service_name}}`
+`svcadm disable {{servis_ismi}}`
 
-- Restart a running service:
+- Çalışan bir servisi yeniden başlat:
 
-`svcadm restart {{service_name}}`
+`svcadm restart {{servis_ismi}}`
 
-- Command service to re-read configuration files:
+- Servise yapulandırma dosyalarını yeniden okumasını emret:
 
-`svcadm refresh {{service_name}}`
+`svcadm refresh {{servis_ismi}}`
 
-- Clear a service from maintenance state and command it to start:
+- Bir servisi bakım durumundan çıkar ve başlamasını emret:
 
-`svcadm clear {{service_name}}`
+`svcadm clear {{servis_ismi}}`
