@@ -1,7 +1,7 @@
 # javac
 
 > Java application compiler.
-> More information: <https://docs.oracle.com/en/java/javase/17/docs/specs/man/javac.html>.
+> More information: <https://docs.oracle.com/en/java/javase/19/docs/specs/man/javac.html>.
 
 - Compile a `.java` file:
 
