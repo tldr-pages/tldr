@@ -5,7 +5,7 @@
 
 - Zmień podstawową grupę użytkownika:
 
-`newgrp {{group_name}}`
+`newgrp {{nazwa_grupy}}`
 
 - Przywróć podstawową grupę użytkownika na domyślną grupę w `/etc/passwd`:
 
