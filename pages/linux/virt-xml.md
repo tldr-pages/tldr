@@ -24,6 +24,6 @@
 
 `virt-xml {{domain}} --edit --boot bootmenu={{on|off}}`
 
-- Apply changes to all running VMs:
+- Attach host USB hub to a running VM (See: tldr lsusb):
 
-`virt-xml --update`
+'virt-xml {{domain}} --update --add-device --hostdev {{bus}}.{{device}}'
