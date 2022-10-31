@@ -1,7 +1,7 @@
 # git bugreport
 
 > Sşstem ve kullanıcıdan hata ayıklama bilgisi çeker ve olası bir Git hatasının rapor edilmesi için bu bilgiyi oluşturduğu bir metin dosyasına kaydeder.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-bugreport>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-bugreport>.
 
 - Mevcut dizinde yeni bir hata rapor dosyası oluştur:
 

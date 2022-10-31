@@ -2,7 +2,7 @@
 
 > Çalışan ağaç dosyalarını onar. Git sürümü 2.23+ olmalıdır.
 > `git checkout` ve `git reset` komutlarına da ayrıca bakılması tavsiye edilir.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-restore>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-restore>.
 
 - Sahnelenmemiş bir dosyayı mevcut commit'in sürümüne kavuştur:
 

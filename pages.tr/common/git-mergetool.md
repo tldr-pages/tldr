@@ -1,7 +1,7 @@
 # git mergetool
 
 > Birleştirme sırasında yaşanan karışıklıkları çözmek için karışıklık çözücü araçları çalıştırır.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-mergetool>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-mergetool>.
 
 - Karışıklıkları çözmek için varsayılan birleştirme aracını başlat:
 

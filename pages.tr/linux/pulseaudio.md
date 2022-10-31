@@ -1,7 +1,7 @@
 # pulseaudio
 
 > Ses sistem arkaplan uygulaması ve yöneticisi.
-> Daha fazla bilgi: <https://www.freedesktop.org/wiki/Software/PulseAudio/>.
+> Daha fazla bilgi için: <https://www.freedesktop.org/wiki/Software/PulseAudio/>.
 
 - Pulseaudio'nun çalışıp çalışmadığını kontrol et (sıfır olmayan çıktı, çalışmadığı anlamına gelir):
 

@@ -1,7 +1,7 @@
 # github-label-sync
 
 > GitHub etiketlerini senkronize etmeye yarayan komut satırı arayüzü.
-> Daha fazla bilgi: <https://github.com/Financial-Times/github-label-sync>.
+> Daha fazla bilgi için: <https://github.com/Financial-Times/github-label-sync>.
 
 - Yerel bir `labels.json` dosyası kullanarak etiketleri senkronize et:
 

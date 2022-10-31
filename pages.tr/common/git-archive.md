@@ -1,7 +1,7 @@
 # git archive
 
 > İsimlendirilmiş bir ağaçtan dosyaların arşivini oluştur.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-archive>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-archive>.
 
 - Mevcut HEAD'deki içerik ile bir tar arşivi oluştur ve içeriği standart çıktı biçiminde göster:
 

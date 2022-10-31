@@ -1,7 +1,7 @@
 # ng
 
 > Angular uygulamaları oluşturup yönetmek için bir Komut Satırı Arayüzü (CLI).
-> Daha fazla bilgi: <https://angular.io/cli>.
+> Daha fazla bilgi için: <https://angular.io/cli>.
 
 - Bir klasörün içinde yeni bir Angular uygulaması oluştur:
 

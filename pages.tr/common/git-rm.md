@@ -1,7 +1,7 @@
 # git rm
 
 > Dosyaları dizin indeksinden ve yerel dosya sisteminden sil.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-rm>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-rm>.
 
 - Dosyayı dizin indeksinden ve dosya sisteminden sil:
 

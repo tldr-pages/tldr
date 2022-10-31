@@ -2,7 +2,7 @@
 
 > Takma adlar/kısayollar oluşturur -- bir komut dizesi ile değiştirilen sözcükler.
 > Kısayollar, kabuğun yapılandırma dosyasında (örneğin `~/.bashrc`) tanımlanmadığı sürece geçerli kabuk oturumuyla birlikte sona erer.
-> Daha fazla bilgi: <https://tldp.org/LDP/abs/html/aliases.html>.
+> Daha fazla bilgi için: <https://tldp.org/LDP/abs/html/aliases.html>.
 
 - Tüm kısayolları listele:
 

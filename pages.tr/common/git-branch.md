@@ -1,7 +1,7 @@
 # git branch
 
 > Dallar ile çalışmak için kullanılan ana Git komutu.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-branch>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-branch>.
 
 - Yerel dalları göster. Mevctu dal `*` ile vurgulanır:
 

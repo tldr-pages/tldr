@@ -1,7 +1,7 @@
 # git help
 
 > Git hakkında yardım bilgisi görüntüleme aracı.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-help>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-help>.
 
 - Belirtilmiş Git alt komutu hakkında yardım bilgisi göster:
 
