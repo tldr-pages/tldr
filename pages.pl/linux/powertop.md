@@ -9,7 +9,7 @@
 
 - Generowanie raportu zużycia enrgii w HTML w bieżącym katalogu:
 
-`sudo powertop --html={{power_report.html}}`
+`sudo powertop --html={{raport_zużycia_energii.html}}`
 
 - Dostrojenie do optymalnych ustawień:
 
