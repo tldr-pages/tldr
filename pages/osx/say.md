@@ -15,7 +15,7 @@
 
 `say --voice={{voice}} --rate={{words_per_minute}} "{{I'm sorry Dave, I can't let you do that.}}"`
 
-- List the available voices, different voices speak in different languages:
+- List the available voices (different voices speak in different languages):
 
 `say --voice="?"`
 
