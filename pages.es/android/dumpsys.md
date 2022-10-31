@@ -4,7 +4,7 @@
 > Este comando solo se puede usar a través de `adb shell`.
 > Más información: <https://developer.android.com/studio/command-line/dumpsys>.
 
-- Obtenga resultados de diagnóstico para todos los servicios del sistema:
+- Obtiene resultados de diagnóstico para todos los servicios del sistema:
 
 `dumpsys`
 
