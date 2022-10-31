@@ -1,9 +1,9 @@
 # grep
 
-> Düzenli ifadeler (Regex) kullanarak dosyalardaki kalıpları bulun.
+> Düzenli ifadeler (Regex) kullanarak dosyalardaki kalıpları bul.
 > Daha fazla bilgi için: <https://www.gnu.org/software/grep/manual/grep.html>.
 
-- Bir dosya içinde kalıp arama:
+- Bir dosya içinde kalıp ara:
 
 `grep "{{aranan_kalıp}}" {{dosya/yolu}}`
 
