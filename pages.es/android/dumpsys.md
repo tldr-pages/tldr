@@ -8,7 +8,7 @@
 
 `dumpsys`
 
-- Obtenga resultados de diagnóstico para un servicio de sistema específico:
+- Obtiene resultados de diagnóstico para un servicio de sistema específico:
 
 `dumpsys {{service}}`
 
