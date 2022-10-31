@@ -26,4 +26,4 @@
 
 - Attach host USB hub to a running VM (See: tldr lsusb):
 
-'virt-xml {{domain}} --update --add-device --hostdev {{bus}}.{{device}}'
+`virt-xml {{domain}} --update --add-device --hostdev {{bus}}.{{device}}`
