@@ -1,6 +1,6 @@
 # cvfsck
 
-> Check and Recover a Xsan Volume.
+> Check and recover an Xsan volume.
 > More information: <https://www.unix.com/man-page/osx/1/cvfsck>.
 
 - Scan directories for name collisions that would occur on a case-insensitive filesystem:
