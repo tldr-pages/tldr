@@ -1,7 +1,7 @@
 # logcat
 
 > Sistem mesajlarının kaydını görüntüle.
-> Daha fazla bilgi: <https://developer.android.com/studio/command-line/logcat>.
+> Daha fazla bilgi için: <https://developer.android.com/studio/command-line/logcat>.
 
 - Sistem kaydını görüntüle:
 

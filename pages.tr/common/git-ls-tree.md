@@ -1,7 +1,7 @@
 # git ls-tree
 
 > Bir ağaç nesnesinin içeriklerini sırala.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-ls-tree>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-ls-tree>.
 
 - Bir daldaki ağacın içeriklerini sırala:
 

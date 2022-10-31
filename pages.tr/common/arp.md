@@ -1,7 +1,7 @@
 # arp
 
 > Sistemin ARP önbelleğini görüntüle ve manipüle et.
-> Daha fazla bilgi: <https://manned.org/arp>.
+> Daha fazla bilgi için: <https://manned.org/arp>.
 
 - Mevcut ARP tablosunu göster:
 

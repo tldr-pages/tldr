@@ -2,7 +2,7 @@
 
 > Arşivleme aracı.
 > Genellikle gzip veya bzip2 gibi bir sıkıştırma yöntemiyle birleştirilir.
-> Daha fazla bilgi: <https://www.gnu.org/software/tar>.
+> Daha fazla bilgi için: <https://www.gnu.org/software/tar>.
 
 - Bir arşiv oluşturun ve dosyaya yazın:
 

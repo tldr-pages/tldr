@@ -1,7 +1,7 @@
 # gitk
 
 > Görsel Git depo tarayıcısı.
-> Daha fazla bilgi: <https://git-scm.com/docs/gitk>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/gitk>.
 
 - Mevcut Git deposu için depo tarayıcısını göster:
 

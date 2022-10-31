@@ -1,7 +1,7 @@
 # pkg
 
 > Termux için paket yönetim aracı.
-> Daha fazla bilgi: <https://wiki.termux.com/wiki/Package_Management>.
+> Daha fazla bilgi için: <https://wiki.termux.com/wiki/Package_Management>.
 
 - İndirilmiş tüm paketleri yükselt:
 

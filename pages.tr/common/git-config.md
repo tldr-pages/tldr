@@ -2,7 +2,7 @@
 
 > Git depoları için yazılan kişisel konfigürasyon seçeneklerini yönet.
 > Bu konfigürasyonlar lokal (mevcut depo için) veya evrensel (mevcut kullanıcı için) olabilir.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-config>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-config>.
 
 - Yalnızca (mevcut depodaki `.git/config`'de saklanan) yerel konfigürasyon kayıtlarını sırala:
 

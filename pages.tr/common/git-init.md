@@ -1,7 +1,7 @@
 # git init
 
 > Yeni bir yerel Git deposu başlat.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-init>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-init>.
 
 - Yeni bir yerel depo başlat:
 

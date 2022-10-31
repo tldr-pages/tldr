@@ -2,7 +2,7 @@
 
 > Bir daldan başka bir dalın üstüne commit'leri tekrar temeller.
 > Sıklıkla bir dalı commit'leriyle beraber başka bir tabana "taşımak" için kullanılır.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-rebase>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-rebase>.
 
 - Mevcut dalı belirtilen öbür dal üzerine temelle:
 

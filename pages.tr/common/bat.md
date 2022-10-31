@@ -2,7 +2,7 @@
 
 > Dosyaları yazdırın ve birleştirin.
 > Sözdizimi vurgulama ve Git entegrasyonuna sahip bir `cat` klonu.
-> Daha fazla bilgi: <https://github.com/sharkdp/bat>.
+> Daha fazla bilgi için: <https://github.com/sharkdp/bat>.
 
 - Bir dosyanın içeriğini standart çıktıya yazdırın:
 

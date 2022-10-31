@@ -2,7 +2,7 @@
 
 > Bir git deposundaki dosyalara yapılan değişiklikleri göster.
 > Mevcut commit'e kıyasla değiştirilen, eklenen ve silinen dosyaları sıralar.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-status>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-status>.
 
 - Daha commit'e eklenmemiş değiştirilen dosyaları göster:
 

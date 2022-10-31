@@ -2,7 +2,7 @@
 
 > Olay kodlarını ve dokunmatik ekran mimiklerini bir Android cihazına yolla.
 > Bu komut yalnızca `adb shell` ile kullanılabilir.
-> Daha fazla bilgi: <https://developer.android.com/reference/android/view/KeyEvent.html#constants_1>.
+> Daha fazla bilgi için: <https://developer.android.com/reference/android/view/KeyEvent.html#constants_1>.
 
 - Bir Android cihazına tek karakter için etkinlik kodu gönder:
 

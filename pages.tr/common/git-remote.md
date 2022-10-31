@@ -1,7 +1,7 @@
 # git remote
 
 > İzlenen depolar dizisini (uzak bağlantıları) yönet.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-remote>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-remote>.
 
 - Varolan uzak bağlantıların isim ve URL'leriyle bir listesini göster:
 

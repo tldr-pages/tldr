@@ -1,7 +1,7 @@
 # git checkout
 
 > Bulunulan dalı değiştir veya çalışma ağaçlarını onar.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-checkout>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-checkout>.
 
 - Yeni bir dal oluştur ve bu dala geç:
 
