@@ -1,7 +1,7 @@
 # reboot
 
 > মেশিনকে `reboot` করে
-> আরো তথ্যের জন্য: <https://manned.org/reboot.8>.
+> আরও তথ্য পাবেন: <https://manned.org/reboot.8>.
 
 - তৎক্ষণাৎ রিবুট করে:
 
