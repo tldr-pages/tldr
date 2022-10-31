@@ -3,30 +3,30 @@
 > Linux system and process monitor.
 > More information: <https://linux.die.net/man/1/atop>.
 
-- Start atop:
+- Start:
 
 `atop`
 
-- Output memory consumption for each process:
+- Start and display memory consumption for each process:
 
 `atop -m`
 
-- Output disk information:
+- Start and display disk information:
 
 `atop -d`
 
-- Output background process information:
+- Start and display background process information:
 
 `atop -c`
 
-- Output thread-specific resource utilization information:
+- Start and display thread-specific resource utilization information:
 
 `atop -y`
 
-- Output number of processes for each user:
+- Start and display the number of processes for each user:
 
 `atop -au`
 
-- Get help about interactive commands:
+- Display help about interactive commands:
 
 `?`
