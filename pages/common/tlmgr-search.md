@@ -3,15 +3,15 @@
 > Search for TeX Live packages using (Perl) regular expressions.
 > More information: <https://www.tug.org/texlive/tlmgr.html>.
 
-- Search the package name and descriptions of all locally installed packages:
+- Search for the package name and descriptions of all locally installed packages from a regular expression:
 
 `tlmgr search {{regular_expression}}`
 
-- Search all file names of all locally installed packages:
+- Search for all file names of all locally installed packages from a regular expression:
 
 `tlmgr search --file {{regular_expression}}`
 
-- Search all file names, package names, and descriptions of all locally installed packages:
+- Search for all file names, package names, and descriptions of all locally installed packages from a regular expression:
 
 `tlmgr search --all {{regular_expression}}`
 
