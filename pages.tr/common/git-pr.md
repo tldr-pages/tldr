@@ -1,7 +1,7 @@
 # git pr
 
 > Github çekme isteklerini (pr) yerelde kontrol et.
-> Daha fazla bilgi: <https://github.com/tj/git-extras/blob/master/Commands.md#git-pr>.
+> Daha fazla bilgi için: <https://github.com/tj/git-extras/blob/master/Commands.md#git-pr>.
 
 - Belirtilen çekme isteğini kontrol et:
 

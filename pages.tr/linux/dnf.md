@@ -1,7 +1,7 @@
 # dnf
 
 > RHEL, Fedora ve CentOS için paket yönetim aracı (yum'un yerini alır).
-> Daha fazla bilgi: <https://dnf.readthedocs.io>.
+> Daha fazla bilgi için: <https://dnf.readthedocs.io>.
 
 - Kurulu paketleri kullanılabilir en yeni sürümlere yükselt:
 

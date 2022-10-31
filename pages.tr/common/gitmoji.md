@@ -1,7 +1,7 @@
 # gitmoji
 
 > Commit'lerde emoji kullanmak içni interaktif bir komut satırı aracı.
-> Daha fazla bilgi: <https://github.com/carloscuesta/gitmoji-cli>.
+> Daha fazla bilgi için: <https://github.com/carloscuesta/gitmoji-cli>.
 
 - Commit sihirbazını çalıştır:
 

@@ -2,7 +2,7 @@
 
 > Nesne veritabanından erişilemeyen tüm nesneleri budamaya yarayan git komutu.
 > Bu komut genelde doğrudan kullanılmasa da Git gc tarafından bir iç komut olarak kullanılmaktadır.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-prune>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-prune>.
 
 - Git prune tarafından silinebilecek nesneleri onları silmeden raporla:
 

@@ -38,7 +38,7 @@ labels = {
     "sv": "Mer information:",
     "ta": "மேலும் விவரத்திற்கு:",
     "th": "ข้อมูลเพิ่มเติม:",
-    "tr": "Daha fazla bilgi:",
+    "tr": "Daha fazla bilgi için:",
     "uk": "Більше інформації:",
     "uz": "Ko'proq malumot:",
     "zh_TW": "更多資訊：",

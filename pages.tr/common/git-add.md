@@ -1,7 +1,7 @@
 # git add
 
 > Değiştirilmiş dosyaları indekse ekle.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-add>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-add>.
 
 - İndekse bir dosya ekle:
 

@@ -1,7 +1,7 @@
 # ip route
 
 > IP yönlendirme tablosu yönetimi alt komutu.
-> Daha fazla bilgi: <https://manned.org/ip-route>.
+> Daha fazla bilgi için: <https://manned.org/ip-route>.
 
 - Yönlendirme tablosunu görüntüle:
 

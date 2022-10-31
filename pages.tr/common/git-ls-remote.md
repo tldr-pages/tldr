@@ -2,7 +2,7 @@
 
 > Çevrimiçi depolardaki isim ve URL bazlı referansları sıralamaya yarayan Git komutu.
 > İsim veya URL girilmemişse, varsayılan dal veya çevrimiçi dalın kökeni kullanılır.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-ls-remote>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-ls-remote>.
 
 - Varsayılan çevrimiçi depodaki tüm referansları göster:
 

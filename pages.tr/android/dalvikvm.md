@@ -1,7 +1,7 @@
 # dalvikvm
 
 > Android Java sanal makinesi.
-> Daha fazla bilgi: <https://source.android.com/devices/tech/dalvik>.
+> Daha fazla bilgi için: <https://source.android.com/devices/tech/dalvik>.
 
 - Bir Java programı başlar:
 

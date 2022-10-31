@@ -1,7 +1,7 @@
 # git notes
 
 > Nesne notları ekle veya incele.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-notes>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-notes>.
 
 - Tüm notları ve bağlı oldukları nesneleri sırala:
 

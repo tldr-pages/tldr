@@ -1,7 +1,7 @@
 # git bundle
 
 > Cisim ve referansları bir arşive paketle.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-bundle>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-bundle>.
 
 - Belirtilmiş bir dalın tüm cisim ve referanslarını içeren bir paket dosyası oluştur:
 

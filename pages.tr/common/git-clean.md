@@ -1,7 +1,7 @@
 # git clean
 
 > Takip edilmeyen dosyaları çalışma ağacından sil.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-clean>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-clean>.
 
 - Git tarafından takip edilmeyen dosyaları sil:
 

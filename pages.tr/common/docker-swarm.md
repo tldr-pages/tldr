@@ -1,7 +1,7 @@
 # docker swarm
 
 > Bir konteyner orkestrasyon aracı.
-> Daha fazla bilgi: <https://docs.docker.com/engine/swarm/>.
+> Daha fazla bilgi için: <https://docs.docker.com/engine/swarm/>.
 
 - Bir bataklık dizisi oluştur:
 

@@ -1,7 +1,7 @@
 # git show-branch
 
 > Dalları ve içerdikleri commit'leri göster.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-show-branch>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-show-branch>.
 
 - Bir daldaki son commit'lerin bir özetini göster:
 

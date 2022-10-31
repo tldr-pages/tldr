@@ -1,7 +1,7 @@
 # git cat-file
 
 > Git depo cisimlerine dair içerik, tür ve boyut bilgisini sağla.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-cat-file>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-cat-file>.
 
 - HEAD commit'inin byte bazında boyutunu öğren:
 
