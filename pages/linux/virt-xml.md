@@ -4,7 +4,6 @@
 > NOTE: 'domain' refers to the name, UUID or ID for the existing VMs (See: tldr virsh).
 > More information: <https://github.com/virt-manager/virt-manager/blob/main/man/virt-xml.rst>.
 
-
 - List all the suboptions for a specific option:
 
 `virt-xml --{{option}}=?`
