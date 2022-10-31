@@ -13,8 +13,8 @@
 
 - Belirli bir girdiyi sil:
 
-`arp -d {{address}}`
+`arp -d {{adres}}`
 
 - ARP tablosunda bir girdi oluştur:
 
-`arp -s {{address}} {{mac_address}}`
+`arp -s {{adres}} {{mac_adresi}}`

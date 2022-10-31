@@ -1,6 +1,6 @@
 # screencap
 
-> Bir mobil ekranın ekran görüntüsünü alın.
+> Bir mobil ekranın ekran görüntüsünü al.
 > Bu komut sadece `adb shell` üzerinden kullanılabilir.
 > Daha fazla bilgi için: <https://developer.android.com/studio/command-line/adb#screencap>.
 
