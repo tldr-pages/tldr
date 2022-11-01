@@ -1,21 +1,21 @@
 # git pull
 
-> Create/Merge feature branch.
+> Create or merge feature branches.
 > Feature branchs obey the format feature/<name>.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-feature>.
 
-- Start a new feature branch:
+- Create and switch to a new feature branch:
 
 `git feature {{feature_name}}`
 
-- Finish the feature with --no-ff merge:
+- Merge a feature branch into the current branch creating a merge commit:
 
 `git feature finish {{feature_name}}`
 
-- Finish the feature with --squash merge:
+- Merge a feature branch into the current branch squashing the changes into one commit:
 
 `git feature finish --squash {{feature_name}}`
 
-- Publish a feature to remote repository:
+- Send changes from a specific feature branch to its remote counterpart:
 
 `git feature {{feature_name}} -r {{remote_name}}`
