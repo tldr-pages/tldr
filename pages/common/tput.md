@@ -5,7 +5,7 @@
 
 - Move the cursor to a screen location:
 
-`tput cup {{y_coordinate}} {{x_coordinate}}`
+`tput cup {{row}} {{column}}`
 
 - Set foreground (af) or background (ab) color:
 
