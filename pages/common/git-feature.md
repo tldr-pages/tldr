@@ -1,7 +1,7 @@
 # git pull
 
 > Create or merge feature branches.
-> Feature branchs obey the format feature/<name>.
+> Feature branches obey the format feature/<name>.
 > More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-feature>.
 
 - Create and switch to a new feature branch:
