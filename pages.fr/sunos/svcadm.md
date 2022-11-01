@@ -5,20 +5,20 @@
 
 - Activer un service dans la base de données de service:
 
-`svcadm enable {{service_name}}`
+`svcadm enable {{nom_du_service}}`
 
 - Désactiver le service:
 
-`svcadm disable {{service_name}}`
+`svcadm disable {{nom_du_service}}`
 
 - Redémarrer un service en cours d'exécution:
 
-`svcadm restart {{service_name}}`
+`svcadm restart {{nom_du_service}}`
 
 - Service de commande pour relire les fichiers de configuration:
 
-`svcadm refresh {{service_name}}`
+`svcadm refresh {{nom_du_service}}`
 
 - Effacer un service de l'état de maintenance et lui ordonner de démarrer:
 
-`svcadm clear {{service_name}}`
+`svcadm clear {{nom_du_service}}`
