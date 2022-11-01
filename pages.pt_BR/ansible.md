@@ -20,14 +20,14 @@
 
 `ansible {{group}} -m command -a '{{my_command}}'`
 
-- Execute a command with administrative privileges:
+- Executa um comando com privilégios administrativos:
 
 `ansible {{group}} --become --ask-become-pass -m command -a '{{my_command}}'`
 
-- Execute a command using a custom inventory file:
+- Executa um comando usando um arquivos de inventário customizado:
 
 `ansible {{group}} -i {{inventory_file}} -m command -a '{{my_command}}'`
 
-- List the groups in an inventory:
+- Lista os grupos presentes em um inventário:
 
 `ansible localhost -m debug -a '{{var=groups.keys()}}'`
