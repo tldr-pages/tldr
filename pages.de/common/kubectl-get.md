@@ -11,7 +11,7 @@
 
 `kubectl get nodes -n {{namespace}}`
 
-- Alle Pods in einem spezifischen Namepsace abfragen:
+- Frage alle Pods in einem spezifischen Namespace ab:
 
 `kubectl get pods -n {{namespace}}`
 
