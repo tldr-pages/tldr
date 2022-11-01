@@ -5,12 +5,12 @@
 
 - Examiner les limites et les autorisations des processus :
 
-`prctl {{PID}}`
+`prctl {{pid}}`
 
 - Examiner les limites et les autorisations de processus dans un format analysable par machine :
 
-`prctl -P {{PID}}`
+`prctl -P {{pid}}`
 
 - Obtenir une limite spécifique pour un processus en cours d'exécution :
 
-`prctl -n process.max-file-descriptor {{PID}}`
+`prctl -n process.max-file-descriptor {{pid}}`
