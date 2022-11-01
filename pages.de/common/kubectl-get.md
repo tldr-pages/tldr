@@ -19,7 +19,7 @@
 
 `kubectl get deployments -n {{namespace}}`
 
-- Alle Services in einem spezifischen Namepsace abfragen:
+- Frage alle Services in einem spezifischen Namespace ab:
 
 `kubectl get services -n {{namespace}}`
 
