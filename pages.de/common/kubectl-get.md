@@ -23,7 +23,7 @@
 
 `kubectl get services -n {{namespace}}`
 
-- Alle Resourcen in einem spezifischen Namepsace abfragen:
+- Frage alle Resourcen in einem spezifischen Namespace ab:
 
 `kubectl get all -n {{namespace}}`
 
