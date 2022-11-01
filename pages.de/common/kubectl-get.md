@@ -7,7 +7,7 @@
 
 `kubectl get namespaces`
 
-- Alle Nodes in einem bestimmten Namepsace abfragen:
+- Frage alle Nodes in einem bestimmten Namespace ab:
 
 `kubectl get nodes -n {{namespace}}`
 
