@@ -6,27 +6,27 @@
 
 - Lista os hosts pertencentes a um grupo:
 
-`ansible {{group}} --list-hosts`
+`ansible {{grupo}} --list-hosts`
 
 - Realiza o ping de um grupo de hosts invocando o módulo ping:
 
-`ansible {{group}} -m ping`
+`ansible {{grupo}} -m ping`
 
 - Exibe fatos sobre um grupo de hosts invocando o módulo setup:
 
-`ansible {{group}} -m setup`
+`ansible {{grupo}} -m setup`
 
 - Executa um comando em um grupo de hosts invocando o módulo command com argumentos:
 
-`ansible {{group}} -m command -a '{{my_command}}'`
+`ansible {{grupo}} -m command -a '{{meu_comanndo}}'`
 
 - Executa um comando com privilégios administrativos:
 
-`ansible {{group}} --become --ask-become-pass -m command -a '{{my_command}}'`
+`ansible {{grupo}} --become --ask-become-pass -m command -a '{{meu_comando}}'`
 
 - Executa um comando usando um arquivos de inventário customizado:
 
-`ansible {{group}} -i {{inventory_file}} -m command -a '{{my_command}}'`
+`ansible {{grupo}} -i {{arquivo_inventario}} -m command -a '{{meu_comando}}'`
 
 - Lista os grupos presentes em um inventário:
 
