@@ -16,7 +16,7 @@
 
 `ansible {{group}} -m setup`
 
-- Executa um comando em um grupo de hosts invocando o módulo comando com argumentos:
+- Executa um comando em um grupo de hosts invocando o módulo command com argumentos:
 
 `ansible {{group}} -m command -a '{{my_command}}'`
 
