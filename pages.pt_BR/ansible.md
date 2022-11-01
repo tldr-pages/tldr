@@ -18,7 +18,7 @@
 
 - Executa um comando em um grupo de hosts invocando o módulo command com argumentos:
 
-`ansible {{grupo}} -m command -a '{{meu_comanndo}}'`
+`ansible {{grupo}} -m command -a '{{meu_comando}}'`
 
 - Executa um comando com privilégios administrativos:
 
