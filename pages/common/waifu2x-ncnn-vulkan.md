@@ -6,7 +6,7 @@
 
 - Upscale image:
 
-`waifu2x-ncnn-vulkan -i path/to/file -o path/to/output/file`
+`waifu2x-ncnn-vulkan -i {{path/to/file}} -o {{path/to/output/file}}`
 
 - Upscale image by the scale factor of 4 and denoise it:
 
