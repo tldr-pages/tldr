@@ -6,4 +6,4 @@
 
 - Toma una captura de pantalla:
 
-`screencap {{ruta/a/archivo}}`
+`screencap {{ruta/al/archivo}}`
