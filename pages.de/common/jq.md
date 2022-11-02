@@ -5,7 +5,7 @@
 
 - Führe den angegebenen Ausdruck aus (gib farbiges und formatiertes JSON aus):
 
-`{{cat pfad/zu/datei.json}} | jq '{{.}}'`
+`{{cat pfad/zu/datei.json}} | jq '.'`
 
 - Führe ein gegebenes Skript aus:
 
@@ -29,4 +29,4 @@
 
 - Füge bestimmte Schlüssel hinzu/lösche bestimmte Schlüssel:
 
-`{{cat pfad/zu/datei.json}} | jq '{{.}} {{+|-}} {{{"schlüssel1": "wert1", "schlüssel2": "wert2", ...}}}'`
+`{{cat pfad/zu/datei.json}} | jq '. {{+|-}} {{{"schlüssel1": "wert1", "schlüssel2": "wert2", ...}}}'`
