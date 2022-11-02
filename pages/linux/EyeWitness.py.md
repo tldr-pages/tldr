@@ -1,4 +1,4 @@
-# EyeWitness.py
+# eyeWitness.py
 
 > This command is an alias of `eyewitness`.
 
