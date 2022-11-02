@@ -12,6 +12,6 @@
 
 `waifu2x-ncnn-vulkan -i {{path/to/input_file}} -o {{path/to/output_file}} -s {{1/2/4/8/16/32}} -n {{-1/0/1/2/3}}`
 
-- Save upscaled image in JPEG format:
+- Save the upscaled image in a specific format:
 
 `waifu2x-ncnn-vulkan -i path/to/file -o path/to/output/file -f jpg`
