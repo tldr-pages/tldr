@@ -11,10 +11,10 @@
 
 `errno --list`
 
-- Search for code who's description contains all of the given text:
+- Search for code whose description contains all of the given text:
 
 `errno --search {{text}}`
 
-- Search for code who's description contains all of the given text (all locales):
+- Search for code whose description contains all of the given text (all locales):
 
 `errno --search-all-locales {{text}}`
