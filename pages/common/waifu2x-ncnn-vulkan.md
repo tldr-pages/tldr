@@ -1,7 +1,7 @@
 # waifu2x-ncnn-vulkan
 
 > Image upscaler for manga/anime-style images using NCNN neural network framework.
-> Runs fast on Intel / AMD / Nvidia / Apple-Silicon with Vulkan API.
+> Runs fast on Intel/AMD/Nvidia/Apple-Silicon with Vulkan API.
 > More information: <https://github.com/nihui/waifu2x-ncnn-vulkan>.
 
 - Upscale image:
