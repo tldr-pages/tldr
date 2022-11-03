@@ -102,15 +102,20 @@ warning: LF will be replaced by CRLF in...
 To handle this problem, you need to clone the repository using the command:
 
 ```sh
-git clone --config core.eol=lf <repository>
+git clone --config core.eol=lf {{remote_repository_location}}
 ```
 
-If you've already cloned the repository, and don't want to repeat the whole process (if, for example, you've already made some modifications), you can fix it using the following commands. Be careful as those commands are potentially dangerous and you can lose your unfinished work in the current repository!
+If you've already cloned the repository, and don't want to repeat the whole process (if, for example, you've already made some modifications), you can fix the issue using the following commands. Be careful as these commands are potentially dangerous and you can lose your unfinished work in the current repository!
 
 ```sh
+# set line feed (LF) as end of line
 git config --local core.eol lf
+# stash any local changes (if the working tree is clean, skip this step and the last one)
 git stash push
+# remove all the files under version control from index
 git rm -rfq --cached .
+# update all the files in index and working tree without converting LF to CRLF, as per new option value
 git reset --hard HEAD
+# restore the previous state from stash
 git stash pop --index
 ```
