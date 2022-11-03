@@ -1,4 +1,4 @@
-# git pull
+# git feature
 
 > Create or merge feature branches.
 > Feature branches obey the format feature/<name>.
