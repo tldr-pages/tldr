@@ -3,7 +3,7 @@
 > Consultar servicios, productos e información de precios de Amazon Web Services.
 > Más información: <https://docs.aws.amazon.com/cli/latest/reference/pricing/>.
 
-- Listar códigos de servicio de una región específica:
+- Lista códigos de servicio de una región específica:
 
 `aws pricing describe-services --region {{us-east-1}}`
 
