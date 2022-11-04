@@ -8,6 +8,10 @@
 
 `sudo fdisk -l`
 
+- Print the size of partition:
+
+`sudo fdisk -s {{/dev/sdX}}`
+
 - Start the partition manipulator:
 
 `sudo fdisk {{/dev/sdX}}`
@@ -35,3 +39,15 @@
 - Once partitioning a disk, open a help menu:
 
 `m`
+
+- Once partitioning a disk, change a partition type:
+
+`t`
+
+- Once partitioning a disk, verify the partition table:
+
+`v`
+
+- Display information of a partition:
+
+`i`
