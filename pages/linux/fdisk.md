@@ -44,10 +44,6 @@
 
 `t`
 
-- Once partitioning a disk, verify the partition table:
-
-`v`
-
 - Display information of a partition:
 
 `i`
