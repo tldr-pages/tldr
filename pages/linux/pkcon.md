@@ -1,6 +1,6 @@
 # pkcon
 
-> Command line client for PackageKit console program used by Discover and Gnome software and alternative to 'apt'. 
+> Command line client for PackageKit console program used by Discover and Gnome software and alternative to 'apt'.
 > Mostly used by Plasma based desktop environments such as KDE Neon and Kubuntu although it is distro-agnostic.
 > More information: <https://manpages.ubuntu.com/manpages/bionic/man1/pkcon.1.html>.
 
