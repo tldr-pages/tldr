@@ -1,7 +1,7 @@
 # pkcon
 
 > Command line client for PackageKit console program used by Discover and Gnome software and alternative to 'apt'.
-> More information: <https://manpages.ubuntu.com/manpages/bionic/man1/pkcon.1.html>.
+> More information: <https://manned.org/pkcon>.
 
 - Install a package:
 
