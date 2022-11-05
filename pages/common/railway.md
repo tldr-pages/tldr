@@ -3,7 +3,7 @@
 > Connect code to a Railway project from the command line.
 > More information: <https://railway.app/>.
 
-- Login to your Railway account:
+- Login to a Railway account:
 
 `railway login`
 
