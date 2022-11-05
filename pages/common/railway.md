@@ -1,6 +1,6 @@
 # railway
 
-> Connect code to Railway project from the command line.
+> Connect code to a Railway project from the command line.
 > More information: <https://railway.app/>.
 
 - Login to your Railway account:
