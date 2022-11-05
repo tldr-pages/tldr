@@ -12,7 +12,7 @@
 
 `pkcon remove {{package}}`
 
-- Refresh the package cache (similar to `sudo apt update`):
+- Refresh the package cache:
 
 `pkcon refresh`
 
