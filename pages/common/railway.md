@@ -23,6 +23,6 @@
 
 `railway up`
 
-- Open an interactive shell to a database directly in the CLI:
+- Open an interactive shell to a database:
 
 `railway connect`
