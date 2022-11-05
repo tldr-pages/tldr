@@ -7,7 +7,7 @@
 
 `railway login`
 
-- Link to an existing Project under your Railway account or team:
+- Link to an existing Project under a Railway account or team:
 
 `railway link {{projectId}}`
 
