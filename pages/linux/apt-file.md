@@ -9,7 +9,7 @@
 
 - Search for packages that contain the specified file or path:
 
-`apt-file {{search|find}} {{part/of/path/to/file}}`
+`apt-file {{search|find}} {{partial_path/to/file}}`
 
 - List the contents of a specific package:
 
