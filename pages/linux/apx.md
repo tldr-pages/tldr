@@ -26,7 +26,7 @@
 
 - Remove package(s) in system:
 
-`sudo apx --sys remove {{package1 package ...}}`
+`sudo apx --sys remove {{package1 package2 ...}}`
 
 - Enter the container to install packages using `apt` (Use `exit` inside the container to exit it):
 
