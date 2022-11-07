@@ -12,7 +12,7 @@
 
 `gprof`
 
-- Suppress profile fields' description:
+- Suppress profile field's description:
 
 `gprof -b`
 
