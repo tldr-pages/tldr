@@ -1,7 +1,7 @@
 # apx
 
 > Package management utility for Vanilla OS.
-> It installs packages inside managed containers or directly inside the host.
+> Install packages inside managed containers or directly inside the host.
 > More information: <https://github.com/Vanilla-OS/apx>.
 
 - Install a package in the system and also initialize the container:
