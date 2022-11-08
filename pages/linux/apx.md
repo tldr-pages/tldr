@@ -4,19 +4,19 @@
 > Install packages inside managed containers or directly inside the host.
 > More information: <https://github.com/Vanilla-OS/apx>.
 
-- Install a package in the system and also initialize the container:
+- Install a package in the system and initialize the container:
 
 `sudo apx install --sys {{package}} && apx init`
 
-- Install package(s) in system:
+- Install package(s) in the system or install AUR package(s) inside a container:
 
-`sudo apx install --sys {{package1 package2 ...}}`
+`sudo apx install {{--sys|--aur}} {{package1 package2 ...}}`
 
-- Install a package from AUR (Use `apx --aur run {{package}}` , `apx --aur remove {{package}}` to run or remove an installed package):
+- Run an installed package from AUR:
 
-`apx --aur install {{package}}`
+`apx --aur run {{package}}`
 
-- Update the list of available packages:
+- Update the list of available packages in the system:
 
 `sudo apx --sys update`
 
@@ -24,9 +24,9 @@
 
 `sudo apx --sys upgrade`
 
-- Remove package(s) in system:
+- Remove package(s) in the system or from the AUR container:
 
-`sudo apx --sys remove {{package1 package2 ...}}`
+`sudo apx {{--sys|--aur}} remove {{package1 package2 ...}}`
 
 - Enter the container to install packages using `apt` (Use `exit` inside the container to exit it):
 
