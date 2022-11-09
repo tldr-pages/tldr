@@ -3,7 +3,7 @@
 > Administrador de archivos gráficos para entornos de escritorio XFCE.
 > Más información: <https://docs.xfce.org/xfce/thunar/start>.
 
-- Abre una nueva ventana que muestra el directorio actual:
+- Abre una nueva ventana mostrando el directorio actual:
 
 `thunar`
 
