@@ -1,7 +1,7 @@
 # k3d
 
-> Wrapper CLI to easily create k3s clusters inside docker.
-> More information: <https://k3d.io/>.
+> Wrapper CLI to easily create k3s clusters inside Docker.
+> More information: <https://k3d.io>.
 
 - Create a cluster:
 
@@ -15,9 +15,9 @@
 
 `k3d node create {{node_name}}`
 
-- Import an image from docker into k3d [c]luster:
+- Import an image from Docker into a k3d cluster:
 
-`k3d image import {{image_name}} -c {{cluster_name}}`
+`k3d image import {{image_name}} --cluster {{cluster_name}}`
 
 - Create a new registry:
 
