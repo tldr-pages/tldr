@@ -10,7 +10,7 @@
 
 - Install package(s) in the system or install AUR package(s) inside a container:
 
-`sudo apx install {{--sys|--aur}} {{package1 package2 ...}}`
+`sudo apx install --{{sys|aur}} {{package1 package2 ...}}`
 
 - Run an installed package from AUR:
 
@@ -26,7 +26,7 @@
 
 - Remove package(s) in the system or from the AUR container:
 
-`sudo apx {{--sys|--aur}} remove {{package1 package2 ...}}`
+`sudo apx --{{sys|aur}} remove {{package1 package2 ...}}`
 
 - Enter the container to install packages using `apt` (Use `exit` inside the container to exit it):
 
