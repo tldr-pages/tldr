@@ -17,4 +17,4 @@
 
 - Imprime cuánto tiempo ha estado conectado un usuario en particular en horas por día (con total):
 
-`ac -dp {{nombreusuario}}`
+`ac -dp {{nombre_de_usuario}}`
