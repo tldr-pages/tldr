@@ -7,7 +7,7 @@
 
 `thunar`
 
-- Abra la utilidad de cambio de nombre en bloque:
+- Abra la utilidad de cambio de nombre masivo:
 
 `thunar --bulk-rename`
 
