@@ -1,7 +1,7 @@
 # gdal2tiles.py
 
 > Generate TMS or XYZ tiles for a raster dataset.
-> More information: <https://gdal.org/programs/gdal2tiles.html>.
+> More information: <https://gdal.org/programs/gdal2tiles>.
 
 - Generate TMS tiles for the zoom levels 2-5 of a raster dataset:
 
