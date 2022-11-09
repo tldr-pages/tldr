@@ -1,6 +1,6 @@
 # cipher
 
-> Displays or alters the encryption of directories and files on NTFS volumes.
+> Display or alter the encryption of directories and files on NTFS volumes.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/cipher>.
 
 - Display information about a specific encrypted file or directory:
