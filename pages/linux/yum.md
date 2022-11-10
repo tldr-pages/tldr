@@ -1,6 +1,7 @@
 # yum
 
 > Package management utility for RHEL, Fedora, and CentOS (for older versions).
+> For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 > More information: <https://manned.org/yum>.
 
 - Install a new package:
