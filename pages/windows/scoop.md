@@ -13,7 +13,7 @@
 
 - Update all installed packages:
 
-`scoop update *`
+`scoop update -a`
 
 - List installed packages:
 
