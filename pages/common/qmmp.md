@@ -23,7 +23,7 @@
 
 `qmmp --previous`
 
-- Print hte current volume:
+- Print the current volume:
 
 `qmmp --volume-status`
 
