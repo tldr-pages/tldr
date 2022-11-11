@@ -7,6 +7,6 @@
 
 `qm list`
 
-- List full status of active virtual machines:
+- List virtual machines with full status about the active ones:
 
-`qm list --full {{1}}`
+`qm list --full 1`
