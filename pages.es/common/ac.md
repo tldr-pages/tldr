@@ -11,7 +11,7 @@
 
 `ac -p`
 
-- Imprime cuánto tiempo ha estado conectado un usuario en particular en horas:
+- Imprime cuanto tiempo ha estado conectado un usuario en particular en horas:
 
 `ac -p {{nombre_de_usuario}}`
 
