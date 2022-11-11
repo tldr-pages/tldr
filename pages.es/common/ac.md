@@ -1,6 +1,6 @@
 # ac
 
-> Imprimir estadísticas sobre cuánto tiempo han estado conectados los usuarios.
+> Imprimir estadísticas sobre cuanto tiempo han estado conectados los usuarios.
 > Más información: <https://man.openbsd.org/ac>.
 
 - Imprime cuánto tiempo ha estado conectado el usuario actual en horas:
