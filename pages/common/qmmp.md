@@ -3,7 +3,7 @@
 > A small and light audio player.
 > More information: <http://qmmp.ylsoftware.com/>.
 
-- Open qmmp:
+- Launch qmmp:
 
 `qmmp`
 
