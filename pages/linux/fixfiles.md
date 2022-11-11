@@ -25,7 +25,7 @@
 
 - Only act on files created after the specified date.  Date must be specified in "YYYY-MM-DD HH:MM" format.  Date field will be passed to find --newermt command:
 
-`fixfiles -N time`
+`fixfiles -N {{time}}`
 
 - Bind mount filesystems before relabeling them, this allows fixing the context of files or directories that have been mounted over:
 
