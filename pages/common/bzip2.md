@@ -19,7 +19,7 @@
 
 `bzip2 -t {{path/to/compressed_file.bz2}}`
 
-- Show the compression ratio for each file processed in [v]erbose mode:
+- Show the compression ratio for each file processed with detailed information:
 
 `bzip2 -v {{path/to/compressed_files.bz2}}`
 
