@@ -19,7 +19,7 @@
 
 `fixfiles -R rpmpackagename[,rpmpackagename...]`
 
-- Run a diff on  the PREVIOUS_FILECONTEXT file to the currently installed one, and restore the context of all affected files:
+- Run a diff on the `PREVIOUS_FILECONTEXT` file to the currently installed one, and restore the context of all affected files:
 
 `fixfiles -C PREVIOUS_FILECONTEXT`
 
