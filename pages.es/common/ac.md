@@ -7,7 +7,7 @@
 
 `ac`
 
-- Imprime cuánto tiempo han estado conectados los usuarios en horas:
+- Imprime cuanto tiempo han estado conectados los usuarios en horas:
 
 `ac -p`
 
