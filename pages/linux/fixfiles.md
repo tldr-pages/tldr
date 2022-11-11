@@ -7,7 +7,7 @@
 
 `fixfiles -B`
 
-- Force reset of context to match file_context for customizable files:
+- Force reset of context to match `file_context` for customizable files:
 
 `fixfiles -F`
 
