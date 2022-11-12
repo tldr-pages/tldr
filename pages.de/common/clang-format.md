@@ -7,7 +7,7 @@
 
 `clang-format {{pfad/zu/quelldatei.cpp}}`
 
-- Formatiere eine Datei und modifiziere ihren Inhalt:
+- Überschreibe eine Datei mit ihrem formatierten Inhalt:
 
 `clang-format -i {{pfad/zu/quelldatei.cpp}}`
 
