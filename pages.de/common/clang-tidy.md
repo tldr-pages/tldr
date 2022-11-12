@@ -15,6 +15,6 @@
 
 `clang-tidy -checks={{*}} -list-checks`
 
-- Lege defines und includes als Kompilierungsoptionen fest (hinter `--`):
+- Lege defines und includes als Kompilierungsoptionen fest (nach `--`):
 
 `clang-tidy {{pfad/zu/quelldatei.cpp}} -- -I{{mein_projekt/include}} -D{{definitions}}`
