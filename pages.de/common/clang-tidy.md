@@ -7,7 +7,7 @@
 
 `clang-tidy {{pfad/zu/quelldatei.cpp}}`
 
-- Führe keine anderen außer die in `cppcoreguidelines` festgelegten Checks aus:
+- Prüfe nur ob eine Datei den `cppcoreguidelines` Checks entspricht:
 
 `clang-tidy {{pfad/zu/quelldatei.cpp}} -checks={{-*,cppcoreguidelines-*}}`
 
