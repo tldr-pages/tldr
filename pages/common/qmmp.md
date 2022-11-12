@@ -1,6 +1,6 @@
 # qmmp
 
-> A small and light audio player.
+> An audio player.
 > More information: <http://qmmp.ylsoftware.com>.
 
 - Launch qmmp:
