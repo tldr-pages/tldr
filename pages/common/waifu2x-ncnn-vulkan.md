@@ -14,4 +14,4 @@
 
 - Save the upscaled image in a specific format:
 
-`waifu2x-ncnn-vulkan -i {{path/to/input_file}} -o {{path/to/output_file}} -f {{jpg/png/webp}}`
+`waifu2x-ncnn-vulkan -i {{path/to/input_file}} -o {{path/to/output_file}} -f {{jpg|png|webp}}`
