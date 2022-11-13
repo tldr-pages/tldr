@@ -4,7 +4,7 @@
 > Runs fast on Intel/AMD/Nvidia/Apple-Silicon with Vulkan API.
 > More information: <https://github.com/nihui/waifu2x-ncnn-vulkan>.
 
-- Upscale image:
+- Upscale an image:
 
 `waifu2x-ncnn-vulkan -i {{path/to/input_file}} -o {{path/to/output_file}}`
 
