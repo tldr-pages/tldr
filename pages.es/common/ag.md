@@ -9,7 +9,7 @@
 
 - Busca archivos que contengan "foo" en un directorio específico:
 
-`ag {{foo}} {{path/to/directory}}`
+`ag {{foo}} {{ruta/al/directorio}}`
 
 - Busca archivos que contengan "foo", pero sólo se alistan los nombres de los archivos:
 
