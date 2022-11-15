@@ -1,7 +1,7 @@
 # btrfs restore
 
 > Try to salvage files from a damaged btrfs filesystem.
-> More information: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-restore>.
+> More information: <https://btrfs.readthedocs.io/en/latest/btrfs-restore.html>.
 
 - Restore all files from a btrfs filesystem to a given directory:
 

@@ -1,7 +1,7 @@
 # btrfs version
 
 > Afficher les informations de version des outils btrfs, et accéder aux pages d'aide.
-> Plus d'informations : <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs>.
+> Plus d'informations : <https://btrfs.readthedocs.io/en/latest/btrfs.html>.
 
 - Afficher les informations de version des outils btrfs :
 

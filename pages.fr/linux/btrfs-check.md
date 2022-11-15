@@ -1,7 +1,7 @@
 # btrfs check
 
 > Vérifier l'état, ou réparer un système de fichiers de type btrfs.
-> Plus d'informations : <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-check>.
+> Plus d'informations : <https://btrfs.readthedocs.io/en/latest/btrfs-check.html>.
 
 - Vérifier l'état d'un système de fichiers btrfs :
 
