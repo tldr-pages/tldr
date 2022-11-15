@@ -1,7 +1,7 @@
 # btrfs inspect-internal
 
 > Recherche des informations internes concernant un système de fichier btrfs.
-> Plus d'information : <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-inspect-internal>.
+> Plus d'information : <https://btrfs.readthedocs.io/en/latest/btrfs-inspect-internal.html>.
 
 - Afficher les informations du superbloc :
 
