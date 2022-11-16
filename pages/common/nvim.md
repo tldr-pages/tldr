@@ -1,7 +1,8 @@
 # nvim
 
 > Neovim, a programmer's text editor based on Vim, provides several modes for different kinds of text manipulation.
-> Pressing `i` in normal mode enters insert mode. `<Esc>` goes back to normal mode, which doesn't allow regular text insertion. See also `vim`, `vimtutor`,`vimdiff`.
+> Pressing `i` in normal mode enters insert mode. `<Esc>` goes back to normal mode, which doesn't allow regular text insertion.
+> See also `vim`, `vimtutor`,`vimdiff`.
 > More information: <https://neovim.io>.
 
 - Open a file:
