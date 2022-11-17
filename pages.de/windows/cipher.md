@@ -1,9 +1,13 @@
 # cipher
 
-> Verschlüsselt oder entschlüsselt Dateien auf NTFS-Laufwerken.
+> Zeigt oder Verändert die Verschlüsselung von Verzeichnissen und Dateien auf NTFS-Laufwerken.
 > Weitere Informationen: <https://learn.microsoft.com/windows-server/administration/windows-commands/cipher>.
 
-- Verschlüssle eine Datei oder ein Verzeichnis:
+- Informationen über die Verschlüsselung einer bestimmten Datei oder eines Verzeichnisses anzeigen lassen:
+
+`cipher /c:{{pfad/zu/datei_oder_verzeichnis}}`
+
+- Verschlüssle eine Datei oder ein Verzeichnis (nachträglich hinzugefügte Dateien werden ebenfalls verschlüsselt, da das Verzeichnis markiert ist):
 
 `cipher /e:{{pfad/zu/datei_oder_verzeichnis}}`
 
