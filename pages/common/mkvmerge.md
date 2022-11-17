@@ -15,6 +15,6 @@
 
 `mkvextract tracks {{path/to/file.mkv}} {{3}}:{{path/to/subs.srt}}`
 
-- Add subtitles to a file:
+- Add a subtitle track to a file using:
 
 `mkvmerge --output {{path/to/output.mkv}} {{path/to/file.mkv}} {{path/to/subs.ass}}`
