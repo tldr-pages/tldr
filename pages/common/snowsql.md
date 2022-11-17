@@ -3,13 +3,13 @@
 > SnowSQL command-line client for Snowflake's Data Cloud.
 > More information: <https://docs.snowflake.com/en/user-guide/snowsql.html>.
 
-- Connect to an instance at {{account}}.snowflakecomputing.com (password can be provided in prompt or configuration file):
+- Connect to a specific instance at account.snowflakecomputing.com (password can be provided in prompt or configuration file):
 
 `snowsql --accountname {{account}} --username {{username}} --dbname {{database}} --schemaname {{schema}}`
 
-- Connect to an instance specified by the configuration file (by default, `~/.snowsql/config`):
+- Connect to an instance specified by a specific configuration file (by default, `~/.snowsql/config`):
 
-`snowsql --config {{.snowsql/config}}`
+`snowsql --config {{~/.snowsql/config}}`
 
 - Connect to the default instance, specifying a MFA token:
 
@@ -19,6 +19,6 @@
 
 `snowsql --query '{{query}}'`
 
-- Execute commands from a file on the default connection:
+- Execute commands from a specific file on the default connection:
 
 `snowsql --filename {{path/to/file.sql}}`
