@@ -21,4 +21,4 @@
 
 - Wykonaj zapytania lub komendy z pliku:
 
-`snowsql --filename {{file.sql}}`
+`snowsql --filename {{ścieżka/do/pliku.sql}}`

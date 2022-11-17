@@ -21,4 +21,4 @@
 
 - Execute commands from a file on the default connection:
 
-`snowsql --filename {{file.sql}}`
+`snowsql --filename {{path/to/file.sql}}`
