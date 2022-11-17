@@ -3,13 +3,13 @@
 > Narzędzie wiersza SnowSQL serwisu bazodanowego Snowflake.
 > Więcej informacji: <https://docs.snowflake.com/en/user-guide/snowsql.html>.
 
-- Połącz z konkretną instancją pod adresem konto.snowflakecomputing.com (hasło może być wprowadzone w wierszu polecenia lub pliku konfiguracyjnym):
+- Połącz z konkretną instancją pod adresem <https://konto.snowflakecomputing.com> (hasło może być wprowadzone w wierszu polecenia lub pliku konfiguracyjnym):
 
 `snowsql --accountname {{konto}} --username {{użytkownik}} --dbname {{baza_danych}} --schemaname {{nazwa_schematu}}`
 
 - Połącz się z instancją zdefiniowaną w pliku konfiguracyjnym (domyślnie w `~/.snowsql/config`):
 
-`snowsql --config {{~/.snowsql/config}}`
+`snowsql --config {{ścieżka/do/pliku_konfiguracyjnego}}`
 
 - Połącz się z domyślnie zdefiniowaną instancją, podając kod autentykacji drugiego poziomu:
 
