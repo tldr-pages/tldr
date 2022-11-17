@@ -15,7 +15,7 @@
 
 `ab -n {{100}} -T {{application/json}} -p {{ruta/al/archivo.json}} {{url}}`
 
-- Utiliza HTTP [K]eep Alive, es decir, realiza múltiples solitudes dentro de una sesión HTTP:
+- Utiliza HTTP [K]eep Alive, es decir, realiza múltiples solicitudes dentro de una sesión HTTP:
 
 `ab -k {{url}}`
 

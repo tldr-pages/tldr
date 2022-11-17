@@ -10,3 +10,11 @@
 - Print file with author email and commit hash on each line:
 
 `git blame -e {{file}}`
+
+- Print file with author name and commit hash on each line at a specific commit:
+
+`git blame {{commit}} {{path/to/file}}`
+
+- Print file with author name and commit hash on each line before a specific commit:
+
+`git blame {{commit}}~ {{path/to/file}}`

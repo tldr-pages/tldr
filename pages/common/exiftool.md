@@ -3,9 +3,17 @@
 > Read and write meta information in files.
 > More information: <https://exiftool.org>.
 
+- Print the EXIF metadata for a given file:
+
+`exiftool {{file}}`
+
 - Remove all EXIF metadata from the given files:
 
 `exiftool -All= {{file1 file2 ...}}`
+
+- Remove all EXIF metadata from the given image files, then re-add metadata for color and orientation:
+
+`exiftool -All= -tagsfromfile @ -colorspacetags -orientation {{image1 image2 ...}}`
 
 - Move the date at which all photos in a directory were taken 1 hour forward:
 

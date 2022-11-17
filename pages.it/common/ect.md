@@ -7,7 +7,7 @@
 
 `ect {{file.png}}`
 
-- Comprimi un file con il massimo livello di compressione utilizzanto più thread:
+- Comprimi un file con il massimo livello di compressione utilizzando più thread:
 
 `ect -9 --mt-deflate {{file.png}}`
 

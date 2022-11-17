@@ -1,7 +1,7 @@
 # git check-attr
 
 > `gitattributes` içeriği görüntüleme aracı.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-check-attr>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-check-attr>.
 
 - Bir dosyadaki tüm atıfları kontrol et:
 

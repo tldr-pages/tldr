@@ -1,7 +1,7 @@
 # git sizer
 
 > Git depo boyut metriklerini hesaplar ve problem veya rahatsızlığa sebep olabilecek boyutlarda uyarı verir.
-> Daha fazla bilgi: <https://github.com/github/git-sizer>.
+> Daha fazla bilgi için: <https://github.com/github/git-sizer>.
 
 - 0'dan büyük önem içeren istatistikleri raporla:
 

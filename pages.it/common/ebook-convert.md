@@ -6,4 +6,4 @@
 
 - Converti un e-book in un altro formato:
 
-`ebook-convert {{percorso/al/file_input}} {{file_output}}`
+`ebook-convert {{percorso/del/file_input}} {{file_output}}`

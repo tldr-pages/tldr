@@ -1,7 +1,7 @@
 # arp
 
 > Sistemin ARP önbelleğini görüntüle ve manipüle et.
-> Daha fazla bilgi: <https://manned.org/arp>.
+> Daha fazla bilgi için: <https://manned.org/arp>.
 
 - Mevcut ARP tablosunu göster:
 
@@ -13,8 +13,8 @@
 
 - Belirli bir girdiyi sil:
 
-`arp -d {{address}}`
+`arp -d {{adres}}`
 
 - ARP tablosunda bir girdi oluştur:
 
-`arp -s {{address}} {{mac_address}}`
+`arp -s {{adres}} {{mac_adresi}}`

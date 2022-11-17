@@ -2,7 +2,7 @@
 
 > Bir Git mantıksal değişkeninin değerini yazdırır.
 > Ayrıca bu komuttan daha çok tercih edilen `git config`'e bakılması önerilir.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-var>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-var>.
 
 - Yerel bir Git mantıksal değişkeninin değerini yazdır:
 

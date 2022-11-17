@@ -1,7 +1,7 @@
 # wpa_passphrase
 
 > Belirtilen SSID için bir ASCII paroladan bir WPA-PSK anahtarı oluşturun.
-> Daha fazla bilgi: <https://manned.org/wpa_passphrase.1>.
+> Daha fazla bilgi için: <https://manned.org/wpa_passphrase.1>.
 
 - Standart girişten parolayı okuyarak belirtilen SSID için WPA-PSK anahtarını hesapla ve görüntüle:
 

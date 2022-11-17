@@ -5,7 +5,7 @@
 
 - Display all settings for the current terminal:
 
-`stty -a`
+`stty --all`
 
 - Set the number of rows:
 
@@ -17,7 +17,7 @@
 
 - Get the actual transfer speed of a device:
 
-`stty -F {{path/to/device_file}} speed`
+`stty --file {{path/to/device_file}} speed`
 
 - Reset all modes to reasonable values for the current terminal:
 

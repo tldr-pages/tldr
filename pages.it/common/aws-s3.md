@@ -13,7 +13,7 @@
 
 - Sincronizza file e directory da un bucket in locle:
 
-`aws s3 sync s3://{{nome_bucket}} {{path/to/target}}`
+`aws s3 sync s3://{{nome_bucket}} {{percorso/del/file_o_cartella}}`
 
 - Sincronizza file e directory escludendo alcuni file o directory:
 

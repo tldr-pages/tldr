@@ -29,4 +29,4 @@
 
 - Open a [n]ew instance of an application specified via [b]undle identifier:
 
-`open -n -b {{com.domiain.application}}`
+`open -n -b {{com.domain.application}}`

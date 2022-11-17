@@ -33,4 +33,4 @@
 
 - Bundle a list of files to an output directory:
 
-`esbuild --bundle --outdir={{path/to/output_directory}} {{path/to/file1}} {{path/to/file2}}`
+`esbuild --bundle --outdir={{path/to/output_directory}} {{path/to/file1 path/to/file2 ...}}`

@@ -1,4 +1,4 @@
-# choco-apikey
+# choco apikey
 
 > ChocolateyソースのAPIキーを管理します。
 > 詳しくはこちら: <https://chocolatey.org/docs/commands-apikey>

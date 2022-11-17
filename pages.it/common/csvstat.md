@@ -20,6 +20,6 @@
 
 `csvstat -c {{3}} --len {{dati.csv}}`
 
-- Mostra il numedo di valori unici nella colonna "nome":
+- Mostra il numero di valori unici nella colonna "nome":
 
 `csvstat -c {{nome}} --unique {{dati.csv}}`
