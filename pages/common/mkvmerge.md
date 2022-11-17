@@ -14,3 +14,7 @@
 - Extract the subtitle from track 3 of a specific file:
 
 `mkvextract tracks {{path/to/file.mkv}} {{3}}:{{path/to/subs.srt}}`
+
+- Add subtitles to a file:
+
+`mkvmerge -o {{output.mkv}} {{file.mkv}} {{subs.ass}}`
