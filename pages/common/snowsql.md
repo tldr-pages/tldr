@@ -11,7 +11,7 @@
 
 `snowsql --config {{path/to/configuration_file}}`
 
-- Connect to the default instance, specifying a MFA token:
+- Connect to the default instance using a token for multi-factor authentication:
 
 `snowsql --mfa-passcode {{token}}`
 
