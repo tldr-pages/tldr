@@ -51,7 +51,7 @@ is to install the [Node.js client](https://github.com/tldr-pages/tldr-node-clien
 which is supported by the tldr-pages project maintainers:
 
 ```sh
-npm install -g tldr
+npm install --location=global tldr
 ```
 
 Alternatively, you can also use the [Python client](https://github.com/tldr-pages/tldr-python-client) which can be installed via `pip3`.
