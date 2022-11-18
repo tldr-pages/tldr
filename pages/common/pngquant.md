@@ -3,7 +3,7 @@
 > PNG converter and lossy image compressor.
 > More information: <https://pngquant.org/>.
 
-- Compress PNG with color quality between 65 and 80 (skip if bellow min value):
+- Compress PNG with color quality between 65 and 80 (skip if below min value):
 
 `pngquant --quality={{65-80}} {{path/to/file.png}}`
 
