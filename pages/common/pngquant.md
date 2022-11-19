@@ -29,7 +29,7 @@
 
 - Compress a specific PNG and save to the given path:
 
-`pngquant {{path/to/file.png}} -o {{path/to/file.png}}`
+`pngquant {{path/to/file.png}} --output {{path/to/file.png}}`
 
 - Compress a PNG and show progress:
 
