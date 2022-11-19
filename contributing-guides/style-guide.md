@@ -104,6 +104,10 @@ Example:
 ```
 - Pre-translated alias page templates can be found [here](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/alias-pages.md).
 
+## Description syntax
+
+- Use backticks for quoting in descriptions as they highlighted in GitHub.
+
 ## Token syntax
 
 User-provided values should use the `{{token}}` syntax
