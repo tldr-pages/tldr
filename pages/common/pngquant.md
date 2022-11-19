@@ -3,7 +3,7 @@
 > PNG converter and lossy image compressor.
 > More information: <https://pngquant.org/>.
 
-- Compress a PNG as much as possible and write result to a new file:
+- Compress a specific PNG as much as possible and write result to a new file:
 
 `pngquant {{path/to/file.png}}`
 
