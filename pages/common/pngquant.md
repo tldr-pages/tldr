@@ -19,7 +19,7 @@
 
 `pngquant {{64}} {{path/to/file.png}}`
 
-- Compress a PNG and skip if the file is larger than the original:
+- Compress a specific PNG and skip if the file is larger than the original:
 
 `pngquant --skip-if-larger {{path/to/file.png}}`
 
