@@ -27,7 +27,7 @@
 
 `pngquant --strip {{path/to/file.png}}`
 
-- Compress a PNG and save to the given path:
+- Compress a specific PNG and save to the given path:
 
 `pngquant {{path/to/file.png}} -o {{path/to/file.png}}`
 
