@@ -3,10 +3,34 @@
 > PNG converter and lossy image compressor.
 > More information: <https://pngquant.org/>.
 
-- Compress PNG with color quality between 65 and 80 (skip if below min value):
+- Compress a PNG as much as possible and write result to a new file:
 
-`pngquant --quality={{65-80}} {{path/to/file.png}}`
+`pngquant {{path/to/file.png}}`
 
-- Create a new image with the number of colors reduced to 64:
+- Compress a PNG and override original:
+
+`pngquant --ext .png -f {{path/to/file.png}}`
+
+- Try to compress a PNG with custom quality (skip if below the min value):
+
+`pngquant -Q {{0-100}} {{path/to/file.png}}`
+
+- Compress a PNG with the number of colors reduced to 64:
 
 `pngquant {{64}} {{path/to/file.png}}`
+
+- Compress a PNG and skip if the file is larger than the original:
+
+`pngquant --skip-if-larger {{path/to/file.png}}`
+
+- Compress a PNG and remove metadata:
+
+`pngquant --strip {{path/to/file.png}}`
+
+- Compress a PNG and save to the given path:
+
+`pngquant {{path/to/file.png}} -o {{path/to/file.png}}
+
+- Compress a PNG and show progress:
+
+`pngquant --verbose {{path/to/file.png}}
