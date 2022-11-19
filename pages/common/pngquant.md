@@ -15,7 +15,7 @@
 
 `pngquant -Q {{0-100}} {{path/to/file.png}}`
 
-- Compress a PNG with the number of colors reduced to 64:
+- Compress a specific PNG with the number of colors reduced to 64:
 
 `pngquant {{64}} {{path/to/file.png}}`
 
