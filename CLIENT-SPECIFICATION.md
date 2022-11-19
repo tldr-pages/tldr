@@ -24,7 +24,7 @@ If a page is common across multiple platforms, but slightly differently on a giv
 
 For example, if the command `foo` is common to `mac`, `windows`, and `linux` but functions differently on `windows`, then the main page will be stored in `common`, and a copy will be placed in `windows` that's altered to match the different functionality.
 
-Note that if the only difference between command functionality on two platforms is that one of them accepts additionally extra options with the same meaning as existing ones the new page copy from `common` MUST NOT be created.
+Note that if the only difference between command functionality on two platforms is that one of them accepts additionally extra options with the same meaning as existing ones the new page copy from `common` MUST NOT be created. For instance `linux/sed.md` page MUST NOT be created just to describe long options: you can use mnemonics with square brackets for short options to make `common/sed.md` easily memorable.
 
 ## Command-line interface
 
