@@ -83,7 +83,7 @@ as a guideline for current and future maintainers.
   style guide for simplifying feedback. It means that feedback should be better written
   with more details.
 
-- Don't request changes just to block merging until there are issues that should be fixed because our specification or style guide mandates it.
+- **Don't request changes** just to block merging until there are issues that should be fixed because our specification or style guide mandates it.
   Grammar errors and typos also can be a reason to request changes. No other reasons are valid to do so.
 
 - When merging PRs, use the **merge strategy that produces a clean Git history**:
