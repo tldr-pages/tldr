@@ -7,7 +7,7 @@
 
 `pngquant {{path/to/file.png}}`
 
-- Compress a PNG and override original:
+- Compress a specific PNG and override original:
 
 `pngquant --ext .png -f {{path/to/file.png}}`
 
