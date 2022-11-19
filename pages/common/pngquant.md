@@ -31,6 +31,6 @@
 
 `pngquant {{path/to/file.png}} --output {{path/to/file.png}}`
 
-- Compress a PNG and show progress:
+- Compress a specific PNG and show progress:
 
 `pngquant --verbose {{path/to/file.png}}`
