@@ -20,10 +20,11 @@ tldr-pages consists of multiple _pages_ - each of which describes a specific com
 Pages are grouped by platform, i.e. operating systems — for example, `windows`, `linux`, `osx`.
 The special platform `common` contains pages for commands that work identically across more than one platform.
 
-If a page is common across multiple platforms, but slightly differently on a given platform, then the page is still stored in `common`, but a copy tailored for the differing platform is placed in that platform's specific folder.
+If a page is common across multiple platforms, but slightly differently on a given platform, then the page is still stored in `common`, but a copy tailored for the differing platform is placed in that platform's specific folder. 
 
 For example, if the command `foo` is common to `mac`, `windows`, and `linux` but functions differently on `windows`, then the main page will be stored in `common`, and a copy will be placed in `windows` that's altered to match the different functionality.
 
+Note that if the only difference between command functionality on two platforms is that one of them accepts additionally extra options with the same meaning as existing ones the new page copy from `common` MUST NOT be created.
 
 ## Command-line interface
 
