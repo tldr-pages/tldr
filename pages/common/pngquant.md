@@ -23,7 +23,7 @@
 
 `pngquant --skip-if-larger {{path/to/file.png}}`
 
-- Compress a PNG and remove metadata:
+- Compress a specific PNG and remove metadata:
 
 `pngquant --strip {{path/to/file.png}}`
 
