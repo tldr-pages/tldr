@@ -63,7 +63,7 @@ as a guideline for current and future maintainers.
   These rules mean that trivial PRs can be merged before 12 hours left.
 
 - If a PR fails to get a review from a second maintainer after a week,
-  the first maintainer should ping others for review. If it still lingers around
+  the first maintainer should ping others for review. If it still lingers
   for **over a week without a second maintainer’s approval**,
   the first maintainer can go ahead and merge it while possibly (if he/she/they) wants dismissing all reviewers who
   didn't reviewed the PR.
