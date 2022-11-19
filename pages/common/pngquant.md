@@ -9,7 +9,7 @@
 
 - Compress a specific PNG and override original:
 
-`pngquant --ext .png -f {{path/to/file.png}}`
+`pngquant --ext .png --force {{path/to/file.png}}`
 
 - Try to compress a specific PNG with custom quality (skip if below the min value):
 
