@@ -104,6 +104,13 @@ Example:
 ```
 - Pre-translated alias page templates can be found [here](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/translation-templates/alias-pages.md).
 
+## Option syntax
+
+- Use GNU-style long options (like `--help`) when they are portable (available on more than one platform TlDr has pages for:
+  `android`, `common`, `linux`, `osx`, `sunos`, `windows`). It means that for all pages in `common/` you can prefer long options
+  when available for everything.
+- In other cases use short options (like `-h`).
+
 ## Token syntax
 
 User-provided values should use the `{{token}}` syntax
