@@ -11,7 +11,7 @@
 
 `pngquant --ext .png -f {{path/to/file.png}}`
 
-- Try to compress a PNG with custom quality (skip if below the min value):
+- Try to compress a specific PNG with custom quality (skip if below the min value):
 
 `pngquant --quality {{0-100}} {{path/to/file.png}}`
 
