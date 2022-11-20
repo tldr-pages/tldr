@@ -13,7 +13,7 @@
 
 - Remove GPS EXIF metadata from given image files:
 
-`exiftool "-gps*=" {{image1 image2 ...}}`
+`exiftool "-gps*=" {{path/to/image1 path/to/image2 ...}}`
 
 - Remove all EXIF metadata from the given image files, then re-add metadata for color and orientation:
 
