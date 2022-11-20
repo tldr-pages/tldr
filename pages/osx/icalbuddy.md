@@ -5,7 +5,7 @@
 
 - Show events later today:
 
-`icalBuddy -n eventsToday`
+`icalBuddy --includeOnlyEventsFromNowOn eventsToday`
 
 - Show uncompleted tasks:
 
@@ -13,11 +13,11 @@
 
 - Show a formatted list separated by calendar for all events today:
 
-`icalBuddy -f -sc eventsToday`
+`icalBuddy --formatOutput --separateByCalendar eventsToday`
 
 - Show tasks for a specified number of days:
 
-`icalBuddy -n "tasksDueBefore:today+{{days}}"`
+`icalBuddy --includeOnlyEventsFromNowOn "tasksDueBefore:today+{{days}}"`
 
 - Show events in a time range:
 
