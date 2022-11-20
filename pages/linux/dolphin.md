@@ -19,7 +19,7 @@
 
 `dolphin --new-window`
 
-- Open in a split view:
+- Open directories in split view:
 
 `dolphin --split {{path/to/directory1}} {{path/to/directory2}}`
 
