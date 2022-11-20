@@ -11,6 +11,10 @@
 
 `exiftool -All= {{file1 file2 ...}}`
 
+- Remove GPS EXIF metadata from given image files:
+
+`exiftool "-gps*=" {{path/to/image1 path/to/image2 ...}}`
+
 - Remove all EXIF metadata from the given image files, then re-add metadata for color and orientation:
 
 `exiftool -All= -tagsfromfile @ -colorspacetags -orientation {{image1 image2 ...}}`
