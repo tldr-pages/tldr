@@ -9,7 +9,7 @@
 
 - Reassign a key on the keyboard to another key:
 
-`xmodmap -e 'keycode {{keycode}} = {{keyname}}`
+`xmodmap -e 'keycode {{keycode}} = {{keyname}}'`
 
 - Disable a key on the keyboard:
 
