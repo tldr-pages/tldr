@@ -7,7 +7,7 @@
 
 `qmmp`
 
-- Start/stop the currently playing audio:
+- Start or stop the currently playing audio:
 
 `qmmp --play-pause`
 
