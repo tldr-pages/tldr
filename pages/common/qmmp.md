@@ -27,6 +27,6 @@
 
 `qmmp --volume-status`
 
-- Increase/decrease the volume of the currently playing audio by 5 steps:
+- Increase or decrease the volume of the currently playing audio by 5 steps:
 
 `qmmp --volume-{{inc|dec}}`
