@@ -5,7 +5,7 @@
 
 - Exibe eventos que acontecerão hoje:
 
-`icalBuddy -n eventsToday`
+`icalBuddy --includeOnlyEventsFromNowOn eventsToday`
 
 - Exibe tarefas incompletas:
 
@@ -13,11 +13,11 @@
 
 - Exibe uma lista formatada separada por calendário para todos os eventos de hoje:
 
-`icalBuddy -f -sc eventsToday`
+`icalBuddy --formatOutput --separateByCalendar eventsToday`
 
 - Exibe tarefas para um determinado número de dias:
 
-`icalBuddy -n "tasksDueBefore:today+{{dias}}"`
+`icalBuddy --includeOnlyEventsFromNowOn "tasksDueBefore:today+{{dias}}"`
 
 - Exibe eventos em um intervalo de tempo:
 
