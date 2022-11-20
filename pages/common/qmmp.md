@@ -11,7 +11,7 @@
 
 `qmmp --play-pause`
 
-- Seek forwards/backward a specific amount of time (in seconds):
+- Seek forwards or backward a specific amount of time in seconds:
 
 `qmmp --seek-{{fwd|bwd}} {{time_in_seconds}}`
 
