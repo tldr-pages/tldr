@@ -1,6 +1,6 @@
 # okular
 
-> A universal document viewer.
+> View documents.
 > More information: <https://okular.kde.org/>.
 
 - Launch a document viewer:
