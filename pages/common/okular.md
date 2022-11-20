@@ -15,7 +15,7 @@
 
 `okular --page {{page_number}} {{path/to/file}}`
 
-- Open a specific document in presentation mode:
+- Open a specific document in a presentation mode:
 
 `okular --presentation {{path/to/file}}`
 
