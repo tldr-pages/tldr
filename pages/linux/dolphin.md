@@ -11,9 +11,9 @@
 
 `dolphin {{path/to/directory1 path/to/directory2 ...}}`
 
-- Open with a specific file or directory selected:
+- Open with specific files or directories selected:
 
-`dolphin --select {{path/to/file_or_directory}}`
+`dolphin --select {{path/to/file_or_directory1 path/to/file_or_directory2 ...}}`
 
 - Open a new window:
 
