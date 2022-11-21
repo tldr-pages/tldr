@@ -1,6 +1,6 @@
 # dolphin
 
-> Manage files and directories.
+> KDE's File manager to manage files and directories.
 > More information: <https://apps.kde.org/dolphin/>.
 
 - Launch the file manager:
