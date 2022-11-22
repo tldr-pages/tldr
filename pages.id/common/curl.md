@@ -2,7 +2,7 @@
 
 > Mentransfer data dari atau ke server.
 > Mendukung sebagian besar protokol, termasuk HTTP, FTP, dan POP3.
-> Informasi lebih lanjut: <https://curl.se>.
+> Informasi lebih lanjut: <https://curl.se/docs/manpage.html>.
 
 - Unduh konten URL ke file:
 
