@@ -18,7 +18,3 @@
 - Open the terminal in the background and bring to the front when `Ctrl+Shift+F12` is pressed:
 
 `konsole --background-mode`
-
-- Open the terminal with the emergency `FALLBACK` profile:
-
-`konsole --fallback-profile`
