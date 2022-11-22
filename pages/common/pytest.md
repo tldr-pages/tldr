@@ -3,15 +3,15 @@
 > Run Python tests.
 > More information: <https://docs.pytest.org/>.
 
-- Run tests from a specific file:
+- Run tests from specific files:
 
-`pytest {{path/to/test_file.py}}`
+`pytest {{path/to/test_file1.py path/to/test_file2.py ...}}`
 
-- Run all tests with a name that matches a given substring:
+- Run tests with names matching a specific [k]eyword expression:
 
-`pytest -k {{substring}}`
+`pytest -k {{expression}}`
 
-- Stop after the first test failure:
+- Exit as soon as a test fails or encounters an error:
 
 `pytest --exitfirst`
 
