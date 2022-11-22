@@ -3,7 +3,7 @@
 > Brute-forces hidden paths on web servers and more.
 > More information: <https://github.com/epi052/feroxbuster>.
 
-- Discover directories and files that match in the wordlist with e[x]tensions and 100 [t]hreads and [A] random user agents:
+- Discover directories and files that match in the wordlist with e[x]tensions and 100 [t]hreads and a random user [A]gent:
 
 `feroxbuster -u {{https://example.com/}} -w {{path/to/file}} -t 100 -x php,txt -A`
 
