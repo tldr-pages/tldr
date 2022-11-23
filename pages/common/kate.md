@@ -1,6 +1,6 @@
 # kate
 
-> KDE Text Editor.
+> KDE's advanced text editor.
 > More information: <https://kate-editor.org/>.
 
 - Launch Kate and open specific files:
