@@ -13,7 +13,7 @@
 
 - Find links in webpages:
 
-`feroxbuster -u {{https://example.com/}} --extract-links`
+`feroxbuster --url "{{https://example.com/}}" --extract-links`
 
 - Filter by status code and number of chars:
 
