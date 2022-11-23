@@ -1,8 +1,7 @@
 # cbt
 
-> Utility for reading data from Google Cloud's Bigtable
-> Also provides utilities for editing and deleting rows/columns/tables
-> More info: https://cloud.google.com/bigtable/docs/cbt-reference
+> Utility for reading data from Google Cloud's Bigtable.
+> More information: <https://cloud.google.com/bigtable/docs/cbt-reference>.
 
 - List tables in current project:
 
@@ -12,17 +11,17 @@
 
 `cbt count {{table_name}}`
 
-- Read single row from a table, returning only most recent cell revision per column:
+- Read single row from a table with only 1 (most recent) cell revision per column:
 
-`cbt lookup {{table_name}} {{row_key}} cells-per-column=1`
+`cbt lookup {{table_name}} {{row_key}} cells-per-column={{1}}`
 
-- Read single row, returning only specified column(s) (omit {{qualifier}} to return entire family):
+- Read single row with only specified column(s) (omit qualifier to return entire family):
 
-`cbt lookup {{table_name}} {{row_key}} columns={{family1}}:{{qualifier1}},{{family2}}:{{qualifier2}}`
+`cbt lookup {{table_name}} {{row_key}} columns={{family:qualifier}},{{family:qualifier}}`
 
-- Read rows by regex pattern, returning at most n rows:
+- Read rows by regex pattern, return at most 5 rows:
 
-`cbt read {{table_name}} regex="{{row_key_pattern}}" count={{n}}`
+`cbt read {{table_name}} regex="{{row_key_pattern}}" count={{5}}`
 
 - Read range of rows and print only returned row keys:
 
