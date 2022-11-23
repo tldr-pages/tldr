@@ -19,7 +19,7 @@
 
 `read -d {{new_delimiter}} {{variable}}`
 
-- Do not let backslash (\) act as an escape character:
+- Do not let backslash (\\) act as an escape character:
 
 `read -r {{variable}}`
 
