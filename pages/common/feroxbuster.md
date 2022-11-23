@@ -15,6 +15,6 @@
 
 `feroxbuster --url "{{https://example.com/}}" --extract-links`
 
-- Filter by status code and number of chars:
+- Filter by a specific status code and number of chars:
 
-`feroxbuster -u {{https://example.com/}} --filter-status 301 -S 4092`
+`feroxbuster --url "{{https://example.com/}}" --filter-status {{301}} --filter-size {{4092}}`
