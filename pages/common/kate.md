@@ -5,11 +5,11 @@
 
 - Open specific files:
 
-`kate {{path/to/file1}} {{path/to/file2}}`
+`kate {{path/to/file1 path/to/file2 ...}}`
 
-- Open a specific remote file:
+- Open specific remote files:
 
-`kate {{https://example.com/path/to/file}}`
+`kate {{https://example.com/path/to/file1 https://example.com/path/to/file2 ...}}`
 
 - Create a new editor instance even if one is already open:
 
