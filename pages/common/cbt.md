@@ -17,7 +17,7 @@
 
 - Read single row with only specified column(s) (omit qualifier to return entire family):
 
-`cbt lookup {{table_name}} {{row_key}} columns={{family:qualifier}},{{family:qualifier}}`
+`cbt lookup {{table_name}} {{row_key}} columns={{family:qualifier}},{{...}}`
 
 - Read rows by regex pattern, return at most 5 rows:
 
