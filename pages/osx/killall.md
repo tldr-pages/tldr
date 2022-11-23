@@ -2,11 +2,15 @@
 
 > Send kill signal to all instances of a process by name (must be exact name).
 > All signals except SIGKILL and SIGSTOP can be intercepted by the process, allowing a clean exit.
-> More information: <https://manned.org/killall>.
+> More information: <https://keith.github.io/xcode-man-pages/killall.1.html>.
 
 - Terminate a process using the default SIGTERM (terminate) signal:
 
 `killall {{process_name}}`
+
+- List available signal names (to be used without the 'SIG' prefix):
+
+`killall -l`
 
 - Interactively ask for confirmation before termination:
 
