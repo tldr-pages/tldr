@@ -3,9 +3,9 @@
 > Brute-forces hidden paths on web servers and more.
 > More information: <https://github.com/epi052/feroxbuster>.
 
-- Discover directories and files that match in the wordlist with e[x]tensions and 100 [t]hreads and a random user [A]gent:
+- Discover specific directories and files that match in the wordlist with extensions and 100 threads and a random user agent:
 
-`feroxbuster -u {{https://example.com/}} -w {{path/to/file}} -t 100 -x php,txt -A`
+`feroxbuster --url "{{https://example.com/}}" --wordlist {{path/to/file}} --threads {{100}} --extensions "{{php,txt}}" --random-agent`
 
 - Enumerate directories without recursion through a proxy:
 
