@@ -18,3 +18,11 @@
 - Set a specific log level for an MLT environment:
 
 `kdenlive --mlt-log {{verbose|debug}}`
+
+- Display help:
+
+`kdenlive --help`
+
+- Display version:
+
+`kdenlive --version`
