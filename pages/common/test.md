@@ -10,7 +10,7 @@
 
 - Test if a given variable is empty[z]/[n]on-empty:
 
-`test {{-z|-n}} "{{$GIT_BRANCH}}"`
+`test -{{z|n}} "${{variable}}"`
 
 - Test if a file exists:
 
@@ -20,6 +20,6 @@
 
 `test ! -d "{{path/to/directory}}"`
 
-- If condition is true, echo "true" runs, if the condition is false then echo "false" runs:
+- Run a first command if a specific condition is true and run a second command on one of previous command fail:
 
 `test {{condition}} && {{echo "true"}} || {{echo "false"}}`
