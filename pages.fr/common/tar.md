@@ -6,7 +6,7 @@
 
 - Crée une archive à partir de fichiers :
 
-`tar cf {{cible.tar}} {{fichier1}} {{fichier2}} {{fichier3}}`
+`tar cf {{chemin/vers/cible.tar}} {{chemin/vers/fichier1 chemin/vers/fichier2 ...}}`
 
 - Crée une archive gzip à partir de fichiers :
 
