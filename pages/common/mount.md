@@ -11,7 +11,7 @@
 
 `mount -t {{filesystem_type}} {{path/to/device_file}} {{path/to/target_directory}}`
 
--  Create the target directory if it does not exist and mount a device to it:
+- Create the target directory if it does not exist and mount a device to it:
 
 `mount --mkdir {{path/to/device_file}} {{path/to/target_directory}}`
 
