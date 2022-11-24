@@ -18,7 +18,7 @@
 
 - Extrait une archive (compressée) dans le dossier courant en affichant la liste des fichiers traités :
 
-`tar xvf {{source.tar[.gz|.bz2|.xz]}}`
+`tar xvf {{chemin/vers/source.tar[.gz|.bz2|.xz]}}`
 
 - Extrait une archive (compressée) dans un répertoire cible :
 
