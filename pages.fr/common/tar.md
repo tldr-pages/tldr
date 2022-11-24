@@ -10,7 +10,7 @@
 
 - Crée une archive gzip à partir de fichiers :
 
-`tar czf {{cible.tar.gz}} {{fichier1}} {{fichier2}} {{fichier3}}`
+`tar czf {{chemin/vers/cible.tar.gz}} {{chemin/vers/fichier1 chemin/vers/fichier2 ...}}`
 
 - Crée une archive gzip à partir d'un répertoire en utilisant son chemin relatif :
 
