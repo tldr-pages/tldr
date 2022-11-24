@@ -10,7 +10,7 @@
 
 - Supprime un utilisateur dans un autre répertoire racine :
 
-`sudo userdel --root {{chemin/vers/autre/racine}} {{nom_utilisateur}}`
+`sudo userdel --root {{chemin/vers/autre_racine}} {{nom_utilisateur}}`
 
 - Supprime un utilisateur, son répertoire personnel ainsi que son répertoire d'attente des courriels :
 
