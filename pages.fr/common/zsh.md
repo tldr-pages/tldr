@@ -26,4 +26,4 @@
 
 - Exécute une commande spécifique dans `zsh` sans motifs génériques d'expansion des noms de fichier :
 
-`noglob {{command}}`
+`noglob "{{command}}"`
