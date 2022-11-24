@@ -22,4 +22,4 @@
 
 - Change le répertoire personnel d'un utilisateur et déplace ses fichiers vers celui-ci :
 
-`sudo usermod --move-home --home {{chemin/vers/nouveau/répertoire}} {{nom_utilisateur}}`
+`sudo usermod --move-home --home {{chemin/vers/nouveau_répertoire}} {{nom_utilisateur}}`
