@@ -30,7 +30,7 @@
 
 - Liste les fichiers contenus dans une archive tar :
 
-`tar tvf {{source.tar}}`
+`tar tvf {{chemin/vers/source.tar}}`
 
 - Extrait les fichiers correspondant au motif :
 
