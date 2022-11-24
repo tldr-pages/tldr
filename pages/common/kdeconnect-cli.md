@@ -21,7 +21,7 @@
 
 - Share an URL or file with a paired device, specifying its ID:
 
-`kdeconnect-cli --share {{URL|path/to/file}} --device {{device_id}}`
+`kdeconnect-cli --share {{url|path/to/file}} --device {{device_id}}`
 
 - Send an SMS with an optional attachment to a specific number:
 
