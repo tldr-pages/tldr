@@ -3,14 +3,14 @@
 > KDE's screenshot utility.
 > More information: <https://manned.org/spectacle>.
 
-- Capture the screenshot of the entire desktop:
+- Capture a screenshot of the entire desktop:
 
 `spectacle`
 
-- Capture the screenshot of an active window:
+- Capture a screenshot of an active window:
 
 `spectacle --activewindow`
 
-- Capture the screenshot of a specific region:
+- Capture a screenshot of a specific region:
 
 `spectacle --region`
