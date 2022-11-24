@@ -26,7 +26,7 @@
 
 - Crée une archive compressée, en utilisant le suffixe de l'archive pour déterminer le programme de compression :
 
-`tar caf {{cible.tar.xz}} {{fichier1}} {{fichier2}} {{fichier3}}`
+`tar caf {{chemin/vers/cible.tar.xz}} {{chemin/vers/fichier1 chemin/vers/fichier2 ...}}`
 
 - Liste les fichiers contenus dans une archive tar :
 
