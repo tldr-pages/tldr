@@ -13,4 +13,4 @@
 
 - Set modification date for symlink file (not to linked file itself):
 
-`setfile -P -m "{{MM/DD/YYYY HH:MM:SS}}" {{path/to/file}}`
+`setfile -P -m "{{MM/DD/YYYY HH:MM:SS}}" {{path/to/file1 path/to/file2 ...}}`
