@@ -7,9 +7,9 @@
 
 `setfile -d "{{MM/DD/YYYY HH:MM:SS}}" {{path/to/file}}`
 
-- Set modification date for file:
+- Set modification date for specific files:
 
-`setfile -m "{{MM/DD/YYYY HH:MM:SS}}" {{path/to/file}}`
+`setfile -m "{{MM/DD/YYYY HH:MM:SS}}" {{path/to/file1 path/to/file2 ...}}`
 
 - Set modification date for symlink file (not to linked file itself):
 
