@@ -1,6 +1,6 @@
 # lspath
 
-> Print the contents of the system PATH variable, with one element per line.
+> CLI app to list the contents of the PATH environment variable, with optional paging.
 > More information: <https://github.com/clementi/lspath>.
 
 - Print the contents of the system PATH variable, with one element per line:
