@@ -1,6 +1,7 @@
 # feroxbuster
 
-> Brute-forces hidden paths on web servers and more.
+> Simple, fast, recursive content discovery tool written in Rust.
+> Used to brute-force hidden paths on web servers and more.
 > More information: <https://epi052.github.io/feroxbuster-docs/docs/>.
 
 - Discover specific directories and files that match in the wordlist with extensions and 100 threads and a random user agent:
