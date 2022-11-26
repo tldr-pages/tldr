@@ -1,7 +1,7 @@
 # feroxbuster
 
 > Brute-forces hidden paths on web servers and more.
-> More information: <https://github.com/epi052/feroxbuster>.
+> More information: <https://epi052.github.io/feroxbuster-docs/docs/>.
 
 - Discover specific directories and files that match in the wordlist with extensions and 100 threads and a random user agent:
 
