@@ -6,7 +6,7 @@
 
 - Discover specific directories and files that match in the wordlist with extensions and 100 threads and a random user-agent:
 
-`feroxbuster --url "{{https://example.com/}}" --wordlist {{path/to/file}} --threads {{100}} --extensions "{{php,txt}}" --random-agent`
+`feroxbuster --url "{{https://example.com}}" --wordlist {{path/to/file}} --threads {{100}} --extensions "{{php,txt}}" --random-agent`
 
 - Enumerate directories without recursion through a specific proxy:
 
