@@ -14,7 +14,7 @@
 
 - Find links in webpages:
 
-`feroxbuster --url "{{https://example.com/}}" --extract-links`
+`feroxbuster --url "{{https://example.com}}" --extract-links`
 
 - Filter by a specific status code and number of chars:
 
