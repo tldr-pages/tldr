@@ -10,7 +10,7 @@
 
 - Enumerate directories without recursion through a specific proxy:
 
-`feroxbuster --url "{{https://example.com/}}" --wordlist {{path/to/file}} --no-recursion --proxy "{{http://127.0.0.1:8080}}"`
+`feroxbuster --url "{{https://example.com}}" --wordlist {{path/to/file}} --no-recursion --proxy "{{http://127.0.0.1:8080}}"`
 
 - Find links in webpages:
 
