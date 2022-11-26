@@ -4,7 +4,7 @@
 > Used to brute-force hidden paths on web servers and more.
 > More information: <https://epi052.github.io/feroxbuster-docs/docs/>.
 
-- Discover specific directories and files that match in the wordlist with extensions and 100 threads and a random user agent:
+- Discover specific directories and files that match in the wordlist with extensions and 100 threads and a random user-agent:
 
 `feroxbuster --url "{{https://example.com/}}" --wordlist {{path/to/file}} --threads {{100}} --extensions "{{php,txt}}" --random-agent`
 
