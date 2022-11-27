@@ -7,6 +7,6 @@
 
 `pdfunite {{pfad/zu/dateiA.pdf}} {{pfad/zu/dateiB.pdf}} {{pfad/zu/zieldatei.pdf}}`
 
-- Füge alle PDF Dateien eines Verzeichnisses zu einer PDF Datei zusammen:
+- Füge alle PDF Dateien in einem Verzeichnis zu einer PDF Datei zusammen:
 
 `pdfunite {{pfad/zu/verzeichnis/*.pdf}} {{pfad/zu/zieldatei.pdf}}`
