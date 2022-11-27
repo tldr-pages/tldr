@@ -5,7 +5,7 @@
 
 - Output differences to a text file:
 
-`ftxdiff --output {{FontDiff.txt}} {{FirstFont.ttc}} {{SecondFont.ttc}}`
+`ftxdiff --output {{fontdiff.txt}} {{path/to/font1.ttc}} {{path/to/font2.ttc}}`
 
 - Include glyph names in output:
 
