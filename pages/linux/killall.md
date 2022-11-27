@@ -8,9 +8,9 @@
 
 `killall {{process_name}}`
 
-- [l]ist available signal names (to be used without the 'SIG' prefix):
+- List available signal names (to be used without the 'SIG' prefix):
 
-`killall -l`
+`killall --list`
 
 - Interactively ask for confirmation before termination:
 
