@@ -1,8 +1,8 @@
 # bully
 
-> Used to bruteforce WPS pin of a wireless access point.
+> Brute-force the WPS pin of a wireless access point.
 > Necessary information must be gathered with `airmon-ng` and `airodump-ng` before using `bully`.
-> More information: <https://www.kali.org/tools/bully/>.
+> More information: <https://salsa.debian.org/pkg-security-team/bully>.
 
 - Display help information:
 
