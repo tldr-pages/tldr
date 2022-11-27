@@ -12,7 +12,7 @@
 
 `virt-viewer {{domain}}`
 
-- Wait for a virtual machine to start and automatically reconnect if it shutsdown and restarts:
+- Wait for a virtual machine to start and automatically reconnect if it shutdown and restarts:
 
 `virt-viewer --reconnect --wait {{domain}}`
 
