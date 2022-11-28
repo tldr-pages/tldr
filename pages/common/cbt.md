@@ -19,7 +19,7 @@
 
 `cbt lookup "{{table_name}}" "{{row_key}}" columns="{{family1:qualifier1,family2:qualifier2,...}}"`
 
-- Read rows by regex pattern, return at most 5 rows:
+- Read rows by a specific regex pattern, return at most 5 rows in the current project:
 
 `cbt read "{{table_name}}" regex="{{row_key_pattern}}" count={{5}}`
 
