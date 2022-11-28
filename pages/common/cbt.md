@@ -15,7 +15,7 @@
 
 `cbt lookup "{{table_name}}" "{{row_key}}" cells-per-column={{1}}`
 
-- Read single row with only specified column(s) (omit qualifier to return entire family):
+- Read single row with only specific column(s) (omit qualifier to return entire family) in the current project:
 
 `cbt lookup "{{table_name}}" "{{row_key}}" columns="{{family1:qualifier1,family2:qualifier2,...}}"`
 
