@@ -3,7 +3,7 @@
 > Utility for reading data from Google Cloud's Bigtable.
 > More information: <https://cloud.google.com/bigtable/docs/cbt-reference>.
 
-- List tables in current project:
+- List tables in the current project:
 
 `cbt ls`
 
