@@ -19,7 +19,7 @@
 
 `date -d @{{1473305798}}`
 
-- Konvertiere ein im Standardformat gegebenes Datum zu Unixzeit:
+- Konvertiere ein gegebenes Datum zu Unixzeit:
 
 `date -d "{{2018-09-01 00:00}}" +%s --utc`
 
