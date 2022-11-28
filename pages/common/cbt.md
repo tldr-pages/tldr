@@ -7,7 +7,7 @@
 
 `cbt ls`
 
-- Return count of rows in a specific table in the current project:
+- Print count of rows in a specific table in the current project:
 
 `cbt count "{{table_name}}"`
 
