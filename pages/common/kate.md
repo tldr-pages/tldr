@@ -23,7 +23,7 @@
 
 `kate --line {{line_number}} --column {{column_number}} {{path/to/file}}`
 
-- Create file from `stdin`:
+- Create a file from `stdin`:
 
 `cat {{path/to/file}} | kate --stdin`
 
