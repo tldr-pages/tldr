@@ -3,7 +3,7 @@
 > Setze die Systemzeit oder zeige sie an.
 > Weitere Informationen: <https://www.gnu.org/software/coreutils/date>.
 
-- Zeige das aktuelle Datum im eingestellten Locale Format an:
+- Zeige das aktuelle Datum im Format der eingestellten Locale an:
 
 `date +%c`
 
