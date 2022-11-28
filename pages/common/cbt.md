@@ -13,7 +13,7 @@
 
 - Read single row from a specific table with only 1 (most recent) cell revision per column in the current project:
 
-`cbt lookup {{table_name}} {{row_key}} cells-per-column={{1}}`
+`cbt lookup "{{table_name}}" "{{row_key}}" cells-per-column={{1}}`
 
 - Read single row with only specified column(s) (omit qualifier to return entire family):
 
