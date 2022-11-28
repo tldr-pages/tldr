@@ -31,6 +31,6 @@
 
 `date {{093023592021.59}}`
 
-- Zeige die aktuelle Kalenderwoche im ISO-Wochenformat an:
+- Zeige die aktuelle ISO-Wochenzahl an:
 
 `date +%V`
