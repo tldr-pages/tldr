@@ -9,7 +9,7 @@
 
 - Return count of rows in a specific table in the current project:
 
-`cbt count {{table_name}}`
+`cbt count "{{table_name}}"`
 
 - Read single row from a table with only 1 (most recent) cell revision per column:
 
