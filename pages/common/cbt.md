@@ -21,7 +21,7 @@
 
 - Read rows by regex pattern, return at most 5 rows:
 
-`cbt read {{table_name}} regex="{{row_key_pattern}}" count={{5}}`
+`cbt read "{{table_name}}" regex="{{row_key_pattern}}" count={{5}}`
 
 - Read range of rows and print only returned row keys:
 
