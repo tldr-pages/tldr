@@ -7,7 +7,7 @@
 
 `date +%c`
 
-- Zeige das aktuelle Datum in koordinierter Weltzeit (UTC) im ISO 8610-Format an:
+- Zeige das aktuelle Datum in koordinierter Weltzeit (UTC) im ISO 8601-Format an:
 
 `date -u +%Y-%m-%dT%H:%M:%S%Z`
 
