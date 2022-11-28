@@ -7,7 +7,7 @@
 
 `spectacle`
 
-- Capture a screenshot of an active window:
+- Capture a screenshot of the active window:
 
 `spectacle --activewindow`
 
