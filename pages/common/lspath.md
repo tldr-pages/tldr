@@ -9,4 +9,4 @@
 
 - Print the contents of the system PATH variable, with one element per line, with the output paged:
 
-`lspath -p`
+`lspath --page`
