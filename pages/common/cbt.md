@@ -11,7 +11,7 @@
 
 `cbt count "{{table_name}}"`
 
-- Read single row from a table with only 1 (most recent) cell revision per column:
+- Read single row from a specific table with only 1 (most recent) cell revision per column in the current project:
 
 `cbt lookup {{table_name}} {{row_key}} cells-per-column={{1}}`
 
