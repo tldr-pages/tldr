@@ -19,6 +19,6 @@
 
 `trash-list`
 
-- Restore a specific file or directory by number from the displayed list from the current trashcan:
+- Restore a specific file or directory by a number from the displayed list from the current trashcan:
 
 `trash-restore`
