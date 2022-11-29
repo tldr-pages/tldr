@@ -3,6 +3,10 @@
 > Calligra's presentation application.
 > More information: <https://manned.org/calligrastage>.
 
+- Launch the presentation application:
+
+`calligrastage`
+
 - Open a specific presentation:
 
 `calligrastage {{path/to/presentation}}`
