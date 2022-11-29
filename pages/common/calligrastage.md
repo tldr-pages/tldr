@@ -1,6 +1,7 @@
 # calligrastage
 
 > Calligra's presentation application.
+> See also: `calligraflow`, `calligrawords`, `calligrasheets`.
 > More information: <https://manned.org/calligrastage>.
 
 - Launch the presentation application:
