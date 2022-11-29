@@ -7,6 +7,6 @@
 
 `lspath`
 
-- Print the contents of the system PATH variable, with one element per line, with the output paged:
+- Print the current contents of the system PATH variable, with one element per line, with the output paged:
 
 `lspath --page`
