@@ -12,6 +12,6 @@
 
 `clangd --help-list`
 
-- Display the version:
+- Display version:
 
 `clangd --version`
