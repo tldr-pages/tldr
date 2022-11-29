@@ -12,6 +12,6 @@
 
 `calligraflow {{path/to/file}}`
 
-- Display a help or version:
+- Display help or version:
 
 `calligraflow --{{help|version}}`

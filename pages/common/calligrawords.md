@@ -12,6 +12,6 @@
 
 `calligrawords {{path/to/document}}`
 
-- Display a help or version:
+- Display help or version:
 
 `calligrawords --{{help|version}}`

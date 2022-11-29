@@ -12,6 +12,6 @@
 
 `calligrastage {{path/to/presentation}}`
 
-- Display a help or version:
+- Display help or version:
 
 `calligrastage --{{help|version}}`

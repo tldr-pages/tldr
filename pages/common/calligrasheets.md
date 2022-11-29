@@ -12,6 +12,6 @@
 
 `calligrasheets {{path/to/spreadsheet}}`
 
-- Display a help or version:
+- Display help or version:
 
 `calligrasheets --{{help|version}}`
