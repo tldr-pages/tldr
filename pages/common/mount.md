@@ -17,7 +17,7 @@
 
 - Mount a device to a directory for a specific user:
 
-`mount -o uid=userID,gid=groupID {{path/to/device_file}} {{path/to/target_directory}}`
+`mount -o uid={{user_id}},gid={{group_id}} {{path/to/device_file}} {{path/to/target_directory}}`
 
 - Mount a CD-ROM device (with the filetype ISO9660) to `/cdrom` (readonly):
 
