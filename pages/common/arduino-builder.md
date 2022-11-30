@@ -10,7 +10,7 @@
 
 - Specify the debug level (1 to 10, defaults to 5):
 
-`arduino-builder -debug-level {{level}}`
+`arduino-builder -debug-level {{1,...,10}}`
 
 - Specify a custom build directory:
 
