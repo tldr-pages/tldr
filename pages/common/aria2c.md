@@ -4,15 +4,15 @@
 > Supports HTTP(S), FTP, SFTP, BitTorrent, and Metalink.
 > More information: <https://aria2.github.io>.
 
-- Download a URI to a file:
+- Download a specific URI to a file:
 
 `aria2c "{{url}}"`
 
-- Download the file pointed to by the specified URI with the specified output name:
+- Download a file from a URI with a specific output name:
 
 `aria2c --out={{path/to/file}} "{{url}}"`
 
-- Download multiple (different) files in parallel:
+- Download multiple different files in parallel:
 
 `aria2c --force-sequential {{false}} "{{url1}}" "{{url2}}"`
 
@@ -20,7 +20,7 @@
 
 `aria2c "{{url1}}" "{{url2}}"`
 
-- Download the URIs listed in a file with limited parallel downloads:
+- Download the URIs listed in a file with a specific number of parallel downloads:
 
 `aria2c --input-file={{path/to/file}} --max-concurrent-downloads={{number_of_downloads}}`
 
