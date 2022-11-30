@@ -4,7 +4,7 @@
 > NOTE: 'domain' refers to the name, UUID or ID for the existing VMs (See: tldr virsh).
 > More information: <https://gitlab.com/virt-viewer/virt-viewer/-/blob/master/man/virt-viewer.pod>.
 
-- Launch virt-viewer with prompt to select running virtual machines:
+- Launch `virt-viewer` with a prompt to select running virtual machines:
 
 `virt-viewer`
 
