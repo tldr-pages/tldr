@@ -20,6 +20,6 @@
 
 `virt-viewer --connect xen//{{url}} {{domain}}`
 
-- Connect to remote virtual machine over SSH:
+- Connect to a specific remote virtual machine over SSH:
 
-`virt-viewer --connect qemu+ssh//{{username}}@{{url}}/system {{domain}}`
+`virt-viewer --connect "qemu+ssh//{{username}}@{{url}}/system" "{{domain}}"`
