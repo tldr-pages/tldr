@@ -16,9 +16,9 @@
 
 `virt-viewer --reconnect --wait "{{domain}}"`
 
-- Connect to remote virtual machine over TLS:
+- Connect to a specific remote virtual machine over TLS:
 
-`virt-viewer --connect xen//{{url}} {{domain}}`
+`virt-viewer --connect "xen//{{url}}" "{{domain}}"`
 
 - Connect to a specific remote virtual machine over SSH:
 
