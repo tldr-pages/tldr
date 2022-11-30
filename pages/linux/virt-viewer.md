@@ -8,7 +8,7 @@
 
 `virt-viewer`
 
-- Launch virt-viewer for a specific virtual machine by ID, UUID or name:
+- Launch `virt-viewer` for a specific virtual machine by ID, UUID or name:
 
 `virt-viewer "{{domain}}"`
 
