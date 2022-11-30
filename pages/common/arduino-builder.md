@@ -8,7 +8,7 @@
 
 `arduino-builder -compile {{path/to/sketch.ino}}`
 
-- Specify the debug level (defaults to 5):
+- Specify the debug level (default: 5):
 
 `arduino-builder -debug-level {{1,...,10}}`
 
