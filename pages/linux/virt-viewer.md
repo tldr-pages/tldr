@@ -14,7 +14,7 @@
 
 - Wait for a virtual machine to start and automatically reconnect if it shutdown and restarts:
 
-`virt-viewer --reconnect --wait {{domain}}`
+`virt-viewer --reconnect --wait "{{domain}}"`
 
 - Connect to remote virtual machine over TLS:
 
