@@ -10,7 +10,7 @@
 
 - Launch virt-viewer for a specific virtual machine by ID, UUID or name:
 
-`virt-viewer {{domain}}`
+`virt-viewer "{{domain}}"`
 
 - Wait for a virtual machine to start and automatically reconnect if it shutdown and restarts:
 
