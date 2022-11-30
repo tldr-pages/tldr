@@ -6,7 +6,7 @@
 
 - Crack the password:
 
-`bully --bssid {{mac}} --channel {{channel}} --bruteforce {{interface}}`
+`bully --bssid "{{mac}}" --channel "{{channel}}" --bruteforce "{{interface}}"`
 
 - Display help:
 
