@@ -13,7 +13,7 @@
 
 - Save output to a WAV audio file, rather than speaking it directly:
 
-`espeak -w {{filename.wav}} "It's GNU plus Linux"`
+`espeak -w {{path/to/file.wav}} "It's GNU plus Linux"`
 
 - Use a different voice:
 

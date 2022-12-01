@@ -9,7 +9,7 @@
 
 - Create a new patch:
 
-`quilt new {{filename.patch}}`
+`quilt new {{path/to/file.patch}}`
 
 - Add a file to the current patch:
 

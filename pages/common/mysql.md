@@ -21,7 +21,7 @@
 
 - Execute SQL statements in a script file (batch file):
 
-`mysql -e "source {{filename.sql}}" {{database_name}}`
+`mysql -e "source {{path/to/file.sql}}" {{database_name}}`
 
 - Restore a database from a backup created with `mysqldump` (user will be prompted for a password):
 

@@ -5,7 +5,7 @@
 
 - Run a jar file:
 
-`kotlin {{filename.jar}}`
+`kotlin {{path/to/file.jar}}`
 
 - Display Kotlin and JVM version:
 

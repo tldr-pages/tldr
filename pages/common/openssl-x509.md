@@ -5,11 +5,11 @@
 
 - Display certificate information:
 
-`openssl x509 -in {{filename.crt}} -noout -text`
+`openssl x509 -in {{path/to/file.crt}} -noout -text`
 
 - Display a certificate's expiration date:
 
-`openssl x509 -enddate -noout -in {{filename.pem}}`
+`openssl x509 -enddate -noout -in {{path/to/file.pem}}`
 
 - Convert a certificate between binary DER encoding and textual PEM encoding:
 

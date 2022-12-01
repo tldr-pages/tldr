@@ -9,7 +9,7 @@
 
 - Read a file aloud:
 
-`say --input-file={{filename.txt}}`
+`say --input-file={{path/to/file.txt}}`
 
 - Say a phrase with a custom voice and speech rate:
 
@@ -25,4 +25,4 @@
 
 - Create an audio file of the spoken text:
 
-`say --output-file={{filename.aiff}} "{{Here's to the Crazy Ones.}}"`
+`say --output-file={{path/to/file.aiff}} "{{Here's to the Crazy Ones.}}"`

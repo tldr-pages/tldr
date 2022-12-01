@@ -5,15 +5,15 @@
 
 - Convert `filename.pdf` to plain text and print it to standard output:
 
-`pdftotext {{filename.pdf}} -`
+`pdftotext {{path/to/file.pdf}} -`
 
 - Convert `filename.pdf` to plain text and save it as `filename.txt`:
 
-`pdftotext {{filename.pdf}}`
+`pdftotext {{path/to/file.pdf}}`
 
 - Convert `filename.pdf` to plain text and preserve the layout:
 
-`pdftotext -layout {{filename.pdf}}`
+`pdftotext -layout {{path/to/file.pdf}}`
 
 - Convert `input.pdf` to plain text and save it as `output.txt`:
 

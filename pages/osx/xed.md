@@ -9,7 +9,7 @@
 
 - Open file(s) in Xcode, create if it doesn't exist:
 
-`xed --create {{filename1}}`
+`xed --create {{path/to/file1}}`
 
 - Open a file in Xcode and jump to line number 75:
 

@@ -6,16 +6,16 @@
 
 - Run a command on a CSV file with a custom delimiter:
 
-`{{cmd}} -d {{delimiter}} {{filename.csv}}`
+`{{cmd}} -d {{delimiter}} {{path/to/file.csv}}`
 
 - Run a command on a CSV file with a tab as a delimiter (overrides -d):
 
-`{{cmd}} -t {{filename.csv}}`
+`{{cmd}} -t {{path/to/file.csv}}`
 
 - Run a command on a CSV file with a custom quote character:
 
-`{{cmd}} -q {{quote_char}} {{filename.csv}}`
+`{{cmd}} -q {{quote_char}} {{path/to/file.csv}}`
 
 - Run a command on a CSV file with no header row:
 
-`{{cmd}} -H {{filename.csv}}`
+`{{cmd}} -H {{path/to/file.csv}}`

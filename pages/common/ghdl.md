@@ -5,7 +5,7 @@
 
 - Analyze a VHDL source file and produce an object file:
 
-`ghdl -a {{filename.vhdl}}`
+`ghdl -a {{path/to/file.vhdl}}`
 
 - Elaborate a design (where `{{design}}` is the name of a configuration unit, entity unit or architecture unit):
 
@@ -21,7 +21,7 @@
 
 - Check the syntax of a VHDL source file:
 
-`ghdl -s {{filename.vhdl}}`
+`ghdl -s {{path/to/file.vhdl}}`
 
 - Display the help page:
 

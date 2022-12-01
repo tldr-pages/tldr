@@ -9,7 +9,7 @@
 
 - Start the interpreter with a dependency in the classpath:
 
-`scala -classpath {{filename.jar}} {{command}}`
+`scala -classpath {{path/to/file.jar}} {{command}}`
 
 - Execute a Scala script:
 
@@ -17,7 +17,7 @@
 
 - Execute a `.jar` program:
 
-`scala {{filename.jar}}`
+`scala {{path/to/file.jar}}`
 
 - Execute a single Scala command in the command-line:
 

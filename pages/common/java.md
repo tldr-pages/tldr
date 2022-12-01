@@ -13,11 +13,11 @@
 
 - Execute a `.jar` program:
 
-`java -jar {{filename.jar}}`
+`java -jar {{path/to/file.jar}}`
 
 - Execute a `.jar` program with debug waiting to connect on port 5005:
 
-`java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {{filename.jar}}`
+`java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar {{path/to/file.jar}}`
 
 - Display JDK, JRE and HotSpot versions:
 

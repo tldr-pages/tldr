@@ -5,11 +5,11 @@
 
 - View information about an MP3 file:
 
-`eyeD3 {{filename.mp3}}`
+`eyeD3 {{path/to/file.mp3}}`
 
 - Set the title of an MP3 file:
 
-`eyeD3 --title "{{A Title}}" {{filename.mp3}}`
+`eyeD3 --title "{{A Title}}" {{path/to/file.mp3}}`
 
 - Set the album of all the MP3 files in a directory:
 
@@ -17,4 +17,4 @@
 
 - Set the front cover art for an MP3 file:
 
-`eyeD3 --add-image {{front_cover.jpeg}}:FRONT_COVER: {{filename.mp3}}`
+`eyeD3 --add-image {{front_cover.jpeg}}:FRONT_COVER: {{path/to/file.mp3}}`

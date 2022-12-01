@@ -5,7 +5,7 @@
 
 - Render a CommonMark Markdown file to HTML:
 
-`cmark --to html {{filename.md}}`
+`cmark --to html {{path/to/file.md}}`
 
 - Convert data from standard input to LaTeX:
 
@@ -13,8 +13,8 @@
 
 - Convert straight quotes to smart quotes:
 
-`cmark --smart --to html {{filename.md}}`
+`cmark --smart --to html {{path/to/file.md}}`
 
 - Validate UTF-8 characters:
 
-`cmark --validate-utf8 {{filename.md}}`
+`cmark --validate-utf8 {{path/to/file.md}}`
