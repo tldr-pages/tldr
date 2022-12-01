@@ -14,4 +14,4 @@
 
 - Run OCaml script with modules:
 
-`ocaml {{module1}} {{module2}} {{path/to/file.ml}}`
+`ocaml {{module1 module2 ...}} {{path/to/file.ml}}`

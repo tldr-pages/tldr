@@ -6,11 +6,11 @@
 
 - [c]reate an archive and write it to a [f]ile:
 
-`tar cf {{target.tar}} {{path/to/file1}} {{path/to/file2}} {{path/to/file3}}`
+`tar cf {{target.tar}} {{path/to/file1 path/to/file2 ...}}`
 
 - [c]reate a g[z]ipped archive and write it to a [f]ile:
 
-`tar czf {{target.tar.gz}} {{path/to/file1}} {{path/to/file2}} {{path/to/file3}}`
+`tar czf {{target.tar.gz}} {{path/to/file1 path/to/file2 ...}}`
 
 - [c]reate a g[z]ipped archive from a directory using relative paths:
 
@@ -26,7 +26,7 @@
 
 - [c]reate a compressed archive and write it to a [f]ile, using [a]rchive suffix to determine the compression program:
 
-`tar caf {{target.tar.xz}} {{path/to/file1}} {{path/to/file2}} {{path/to/file3}}`
+`tar caf {{target.tar.xz}} {{path/to/file1 path/to/file2 ...}}`
 
 - Lis[t] the contents of a tar [f]ile [v]erbosely:
 

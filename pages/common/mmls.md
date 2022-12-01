@@ -13,7 +13,7 @@
 
 - Display the partition table in a split EWF image:
 
-`mmls -i ewf {{image.e01}} {{image.e02}}`
+`mmls -i ewf {{image.e01 image.e02 ...}}`
 
 - Display nested partition tables:
 

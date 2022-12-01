@@ -9,7 +9,7 @@
 
 - Calculate BLAKE2 checksums for multiple files:
 
-`b2sum {{path/to/file1}} {{path/to/file2}}`
+`b2sum {{path/to/file1 path/to/file2 ...}}`
 
 - Calculate the BLAKE2 checksum from stdin:
 

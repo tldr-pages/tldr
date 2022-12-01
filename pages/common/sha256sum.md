@@ -9,11 +9,11 @@
 
 - Calculate SHA256 checksums for multiple files:
 
-`sha256sum {{path/to/file1}} {{path/to/file2}}`
+`sha256sum {{path/to/file1 path/to/file2 ...}}`
 
 - Calculate and save the list of SHA256 checksums to a file:
 
-`sha256sum {{path/to/file1}} {{path/to/file2}} > {{path/to/file.sha256}}`
+`sha256sum {{path/to/file1 path/to/file2 ...}} > {{path/to/file.sha256}}`
 
 - Read a file of SHA256 sums and verify all files have matching checksums:
 

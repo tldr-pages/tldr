@@ -13,11 +13,11 @@
 
 - Calculate the SHA512 checksum for multiple files:
 
-`shasum --algorithm 512 {{path/to/file1}} {{path/to/file2}}`
+`shasum --algorithm 512 {{path/to/file1 path/to/file2 ...}}`
 
 - Calculate and save the list of SHA256 checksums to a file:
 
-`shasum --algorithm 256 {{path/to/file1}} {{path/to/file2}} > {{path/to/file.sha256}}`
+`shasum --algorithm 256 {{path/to/file1 path/to/file2 ...}} > {{path/to/file.sha256}}`
 
 - Check a file with a list of sums against the directory's files:
 

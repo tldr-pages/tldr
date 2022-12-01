@@ -14,11 +14,11 @@
 
 - Download multiple (different) files in parallel:
 
-`aria2c --force-sequential {{false}} {{url_1}} {{url_2}}`
+`aria2c --force-sequential {{false}} {{url_1 url_2 ...}}`
 
 - Download from multiple sources with each URI pointing to the same file:
 
-`aria2c {{url_1}} {{url_2}}`
+`aria2c {{url_1 url_2 ...}}`
 
 - Download the URIs listed in a file with limited parallel downloads:
 

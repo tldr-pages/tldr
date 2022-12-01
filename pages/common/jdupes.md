@@ -9,7 +9,7 @@
 
 - Search multiple directories:
 
-`jdupes {{directory1}} {{directory2}}`
+`jdupes {{directory1 directory2 ...}}`
 
 - Search all directories recursively:
 
@@ -25,4 +25,4 @@
 
 - Search multiple directories and keep the directory order in result:
 
-`jdupes -O {{directory1}} {{directory2}} {{directory3}}`
+`jdupes -O {{directory1 directory2 ...}}`

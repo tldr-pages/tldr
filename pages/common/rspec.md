@@ -21,7 +21,7 @@
 
 - Run multiple test files:
 
-`rspec {{path/to/file1}} {{path/to/file2}}`
+`rspec {{path/to/file1 path/to/file2 ...}}`
 
 - Run a specific test in a file (e.g. the test starts on line 83):
 

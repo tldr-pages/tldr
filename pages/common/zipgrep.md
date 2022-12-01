@@ -17,8 +17,8 @@
 
 - Specify files inside a ZIP archive from search:
 
-`zipgrep "{{search_pattern}}" {{path/to/file.zip}} {{file/to/search1}} {{file/to/search2}}`
+`zipgrep "{{search_pattern}}" {{path/to/file.zip}} {{file/to/search1 file/to/search2 ...}}`
 
 - Exclude files inside a ZIP archive from search:
 
-`zipgrep "{{search_pattern}}" {{path/to/file.zip}} -x {{file/to/exclude1}} {{file/to/exclude2}}`
+`zipgrep "{{search_pattern}}" {{path/to/file.zip}} -x {{file/to/exclude1 file/to/exclude2 ...}}`

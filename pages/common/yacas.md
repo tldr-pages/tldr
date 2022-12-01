@@ -21,7 +21,7 @@
 
 - Execute one or more `yacas` scripts (without terminal or prompts), then exit:
 
-`yacas -p -c {{path/to/script1}} {{path/to/script2}}`
+`yacas -p -c {{path/to/script1 path/to/script2 ...}}`
 
 - Execute and print the result of one statement, then exit:
 

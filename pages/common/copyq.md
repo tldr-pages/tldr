@@ -13,7 +13,7 @@
 
 - Insert raw text into the clipboard history:
 
-`copyq add -- {{text1}} {{text2}} {{text3}}`
+`copyq add -- {{text1 text2 ...}}`
 
 - Insert text containing escape sequences ('\n', '\t') into the clipboard history:
 

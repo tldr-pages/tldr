@@ -21,4 +21,4 @@
 
 - Start gdb and pass arguments to the executable:
 
-`gdb --args {{executable}} {{argument1}} {{argument2}}`
+`gdb --args {{executable}} {{argument1 argument2 ...}}`

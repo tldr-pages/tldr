@@ -17,7 +17,7 @@
 
 - Start with packages loaded from nixpkgs:
 
-`nix-shell --packages {{package_name_1}} {{package_name_2}}`
+`nix-shell --packages {{package_name_1 package_name_2 ...}}`
 
 - Start with packages loaded from specific nixpkgs revision:
 

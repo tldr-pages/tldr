@@ -21,11 +21,11 @@
 
 - Exclude a cop:
 
-`rubocop --except {{cop_1}} {{cop_2}}`
+`rubocop --except {{cop_1 cop_2 ...}}`
 
 - Run only specified cops:
 
-`rubocop --only {{cop_1}} {{cop_2}}`
+`rubocop --only {{cop_1 cop_2 ...}}`
 
 - Auto-correct files (experimental):
 

@@ -21,7 +21,7 @@
 
 - Search emoji list for a list of keywords:
 
-`gitmoji --search {{keyword1}} {{keyword2}}`
+`gitmoji --search {{keyword1 keyword2 ...}}`
 
 - Update cached list of emojis from main repository:
 

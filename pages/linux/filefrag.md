@@ -9,7 +9,7 @@
 
 - Display a report for space-separated list of files:
 
-`filefrag {{path/to/file1}} {{path/to/file2}}`
+`filefrag {{path/to/file1 path/to/file2 ...}}`
 
 - Display a report using a 1024 byte blocksize:
 

@@ -25,7 +25,7 @@
 
 - Commit only specific (already staged) files:
 
-`git commit {{path/to/file1}} {{path/to/file2}}`
+`git commit {{path/to/file1 path/to/file2 ...}}`
 
 - Create a commit, even if there are no staged files:
 

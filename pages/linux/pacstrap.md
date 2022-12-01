@@ -33,4 +33,4 @@
 
 - Install packages using package files:
 
-`pacstrap -U {{path/to/new/root}} {{path/to/package1}} {{path/to/package2}}`
+`pacstrap -U {{path/to/new/root}} {{path/to/package1 path/to/package2 ...}}`

@@ -9,11 +9,11 @@
 
 - Calculate SHA1 checksums for multiple files:
 
-`sha1sum {{path/to/file1}} {{path/to/file2}}`
+`sha1sum {{path/to/file1 path/to/file2 ...}}`
 
 - Calculate and save the list of SHA1 checksums to a file:
 
-`sha1sum {{path/to/file1}} {{path/to/file2}} > {{path/to/file.sha1}}`
+`sha1sum {{path/to/file1 path/to/file2 ...}} > {{path/to/file.sha1}}`
 
 - Read a file of SHA1 sums and verify all files have matching checksums:
 

@@ -9,11 +9,11 @@
 
 - Calculate SHA224 checksums for multiple files:
 
-`sha224sum {{path/to/file1}} {{path/to/file2}}`
+`sha224sum {{path/to/file1 path/to/file2 ...}}`
 
 - Calculate and save the list of SHA224 checksums to a file:
 
-`sha224sum {{path/to/file1}} {{path/to/file2}} > {{path/to/file.sha224}}`
+`sha224sum {{path/to/file1 path/to/file2 ...}} > {{path/to/file.sha224}}`
 
 - Read a file of SHA224 sums and verify all files have matching checksums:
 

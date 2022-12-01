@@ -9,7 +9,7 @@
 
 - Generate data using one or more generators:
 
-`fakedata {{generator1}} {{generator2}}`
+`fakedata {{generator1 generator2 ...}}`
 
 - Generate data with a specific output format:
 

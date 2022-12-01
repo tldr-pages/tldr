@@ -6,7 +6,7 @@
 
 - Install one or more plugins:
 
-`fisher {{plugin1}} {{plugin2}}`
+`fisher {{plugin1 plugin2 ...}}`
 
 - Install a plugin from a GitHub gist:
 
@@ -26,4 +26,4 @@
 
 - Remove one or more plugins:
 
-`fisher remove {{plugin1}} {{plugin2}}`
+`fisher remove {{plugin1 plugin2 ...}}`

@@ -9,7 +9,7 @@
 
 - Display information for a space-separated list of directories:
 
-`dust {{path/to/directory1}} {{path/to/directory2}}`
+`dust {{path/to/directory1 path/to/directory2 ...}}`
 
 - Display 30 directories (defaults to 21):
 

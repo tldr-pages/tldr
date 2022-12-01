@@ -5,7 +5,7 @@
 
 - Install packages and synchronize them with the remote repository:
 
-`xbps-install --sync {{package_name1}} {{package_name2}}`
+`xbps-install --sync {{package_name1 package_name2 ...}}`
 
 - Search for a package in the remote repository:
 

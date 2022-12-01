@@ -9,7 +9,7 @@
 
 - Calculate MD5 checksums for multiple files:
 
-`md5 {{path/to/file1}} {{path/to/file2}}`
+`md5 {{path/to/file1 path/to/file2 ...}}`
 
 - Output only the md5 checksum (no filename):
 

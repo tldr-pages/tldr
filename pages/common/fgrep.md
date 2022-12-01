@@ -10,7 +10,7 @@
 
 - Search only lines that match entirely in files:
 
-`fgrep -x {{path/to/file1}} {{path/to/file2}}`
+`fgrep -x {{path/to/file1 path/to/file2 ...}}`
 
 - Count the number of lines that match the given string in a file:
 
@@ -26,4 +26,4 @@
 
 - Display filenames whose content matches the search string at least once:
 
-`fgrep -l {{search_string}} {{path/to/file1}} {{path/to/file2}}`
+`fgrep -l {{search_string}} {{path/to/file1 path/to/file2 ...}}`

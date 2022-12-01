@@ -25,7 +25,7 @@
 
 - Concatenate several Parquet files into the target one:
 
-`parquet-tools merge {{path/to/parquet1}} {{path/to/parquet2}} {{path/to/target_parquet}}`
+`parquet-tools merge {{path/to/parquet1 path/to/parquet2 ...}} {{path/to/target_parquet}}`
 
 - Print the count of rows in a Parquet file:
 

@@ -5,7 +5,7 @@
 
 - Run a command on two hosts, and print its output on each server inline:
 
-`pssh -i -H "{{host1}} {{host2}}" {{hostname -i}}`
+`pssh -i -H "{{host1 host2 ...}}" {{hostname -i}}`
 
 - Run a command and save the output to separate files:
 

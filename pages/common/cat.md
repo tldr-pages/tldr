@@ -9,11 +9,11 @@
 
 - Concatenate several files into an output file:
 
-`cat {{path/to/file1}} {{path/to/file2}} > {{path/to/output_file}}`
+`cat {{path/to/file1 path/to/file2 ...}} > {{path/to/output_file}}`
 
 - Append several files into an output file:
 
-`cat {{path/to/file1}} {{path/to/file2}} >> {{path/to/output_file}}`
+`cat {{path/to/file1 path/to/file2 ...}} >> {{path/to/output_file}}`
 
 - Number all output lines:
 

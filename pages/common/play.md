@@ -10,7 +10,7 @@
 
 - Play the given audio files:
 
-`play {{audiofile1}} {{audiofile2}}`
+`play {{audiofile1 audiofile2 ...}}`
 
 - Play the given audio at twice the speed:
 

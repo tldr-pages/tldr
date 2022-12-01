@@ -9,7 +9,7 @@
 
 - Search multiple directories:
 
-`fdupes {{directory1}} {{directory2}}`
+`fdupes {{directory1 directory2 ...}}`
 
 - Search a directory recursively:
 

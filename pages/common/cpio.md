@@ -6,7 +6,7 @@
 
 - Take a list of file names from standard input and add them [o]nto an archive in cpio's binary format:
 
-`echo "{{path/to/file1}} {{path/to/file2}} {{path/to/file3}}" | cpio -o > {{archive.cpio}}`
+`echo "{{path/to/file1 path/to/file2 ...}}" | cpio -o > {{archive.cpio}}`
 
 - Copy all files and directories in a directory and add them [o]nto an archive, in [v]erbose mode:
 

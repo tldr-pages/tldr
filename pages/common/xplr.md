@@ -17,4 +17,4 @@
 
 - Open a directory with specific files or directories selected:
 
-`xplr {{path/to/directory}} {{path/to/selected_file_or_directory1}} {{path/to/selected_file_or_directory2}}`
+`xplr {{path/to/directory}} {{path/to/selected_file_or_directory1 path/to/selected_file_or_directory2 ...}}`
