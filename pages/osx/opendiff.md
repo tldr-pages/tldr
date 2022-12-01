@@ -1,6 +1,6 @@
 # opendiff
 
-> Graphically compare files or directories
+> Graphically compare files or directories.
 > Built-in command of OS X.
 > More information: <https://www.manpagez.com/man/1/opendiff/>.
 

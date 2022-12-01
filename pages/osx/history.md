@@ -1,6 +1,6 @@
 # history
 
-> Display terminal command line history
+> Display terminal command line history.
 > More information: <https://ss64.com/bash/history.html>.
 
 - Display the history list with line numbers:
