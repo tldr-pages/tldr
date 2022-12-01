@@ -5,11 +5,11 @@
 
 - Recursively archive all files in the current directory into a .jar file:
 
-`jar cf {{file.jar}} *`
+`jar cf {{path/to/file.jar}} *`
 
 - Unzip .jar/.war file to the current directory:
 
-`jar -xvf {{file.jar}}`
+`jar -xvf {{path/to/file.jar}}`
 
 - List a .jar/.war file content:
 

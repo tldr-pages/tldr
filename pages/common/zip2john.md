@@ -14,4 +14,4 @@
 
 - Extract the password hash from a compressed file to a specific file (for use with John the Ripper):
 
-`zip2john -o {{path/to/compressed_file}} {{path/to/file.zip}} > {{file.hash}}`
+`zip2john -o {{path/to/compressed_file}} {{path/to/file.zip}} > {{path/to/file.hash}}`

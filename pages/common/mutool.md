@@ -5,11 +5,11 @@
 
 - Convert pages 1-10 into 10 PNGs:
 
-`mutool convert -o {{image%d.png}} {{file.pdf}} {{1-10}}`
+`mutool convert -o {{image%d.png}} {{path/to/file.pdf}} {{1-10}}`
 
 - Convert pages 2, 3 and 5 of a PDF into text in the standard output:
 
-`mutool draw -F {{txt}} {{file.pdf}} {{2,3,5}}`
+`mutool draw -F {{txt}} {{path/to/file.pdf}} {{2,3,5}}`
 
 - Concatenate two PDFs:
 

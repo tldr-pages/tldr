@@ -9,8 +9,8 @@
 
 - Send a message from a file:
 
-`wall {{file}}`
+`wall {{path/to/file}}`
 
 - Send a message with timeout (default 300):
 
-`wall -t {{seconds}} {{file}}`
+`wall -t {{seconds}} {{path/to/file}}`

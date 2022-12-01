@@ -5,16 +5,16 @@
 
 - Display the section headers of a given binary:
 
-`wasm-objdump -h {{file.wasm}}`
+`wasm-objdump -h {{path/to/file.wasm}}`
 
 - Display the entire disassembled output of a given binary:
 
-`wasm-objdump -d {{file.wasm}}`
+`wasm-objdump -d {{path/to/file.wasm}}`
 
 - Display the details of each section:
 
-`wasm-objdump --details {{file.wasm}}`
+`wasm-objdump --details {{path/to/file.wasm}}`
 
 - Display the details of a given section:
 
-`wasm-objdump --section '{{import}}' --details {{file.wasm}}`
+`wasm-objdump --section '{{import}}' --details {{path/to/file.wasm}}`

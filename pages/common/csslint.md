@@ -5,11 +5,11 @@
 
 - Lint a single CSS file:
 
-`csslint {{file.css}}`
+`csslint {{path/to/file.css}}`
 
 - Lint multiple CSS files:
 
-`csslint {{file1.css}} {{file2.css}} {{file3.css}}`
+`csslint {{path/to/file1.css}} {{path/to/file2.css}} {{path/to/file3.css}}`
 
 - List all possible style rules:
 
@@ -17,12 +17,12 @@
 
 - Specify certain rules as errors (which result in a non-zero exit code):
 
-`csslint --errors={{errors,universal-selector,imports}} {{file.css}}`
+`csslint --errors={{errors,universal-selector,imports}} {{path/to/file.css}}`
 
 - Specify certain rules as warnings:
 
-`csslint --warnings={{box-sizing,selector-max,floats}} {{file.css}}`
+`csslint --warnings={{box-sizing,selector-max,floats}} {{path/to/file.css}}`
 
 - Specify certain rules to ignore:
 
-`csslint --ignore={{ids,rules-count,shorthand}} {{file.css}}`
+`csslint --ignore={{ids,rules-count,shorthand}} {{path/to/file.css}}`

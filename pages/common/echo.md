@@ -17,7 +17,7 @@
 
 - Append a message to the file:
 
-`echo "{{Hello World}}" >> {{file.txt}}`
+`echo "{{Hello World}}" >> {{path/to/file.txt}}`
 
 - Enable interpretation of backslash escapes (special characters):
 

@@ -5,8 +5,8 @@
 
 - Print the uncompressed contents of a gzipped file to the standard output:
 
-`zcat {{file.txt.gz}}`
+`zcat {{path/to/file.txt.gz}}`
 
 - Print compression details of a gzipped file to the standard output:
 
-`zcat -l {{file.txt.gz}}`
+`zcat -l {{path/to/file.txt.gz}}`

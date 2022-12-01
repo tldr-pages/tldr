@@ -17,4 +17,4 @@
 
 - Write to file instead of terminal:
 
-`ltrace -o {{file}} {{path/to/program}}`
+`ltrace -o {{path/to/file}} {{path/to/program}}`

@@ -29,7 +29,7 @@
 
 - Find which packages provide a given file:
 
-`dnf provides {{file}}`
+`dnf provides {{path/to/file}}`
 
 - View all past operations:
 

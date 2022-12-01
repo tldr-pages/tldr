@@ -5,7 +5,7 @@
 
 - To view a file:
 
-`gs -dQUIET -dBATCH {{file.pdf}}`
+`gs -dQUIET -dBATCH {{path/to/file.pdf}}`
 
 - Reduce PDF file size to 150 dpi images for reading on a e-book device:
 

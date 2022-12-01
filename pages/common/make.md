@@ -18,7 +18,7 @@
 
 - Use a specific Makefile:
 
-`make --file {{file}}`
+`make --file {{path/to/file}}`
 
 - Execute make from another directory:
 

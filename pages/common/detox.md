@@ -6,7 +6,7 @@
 
 - Remove spaces and other undesirable characters from a file's name:
 
-`detox {{file}}`
+`detox {{path/to/file}}`
 
 - Show how detox would rename all the files in a directory tree:
 

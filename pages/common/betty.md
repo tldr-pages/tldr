@@ -13,7 +13,7 @@
 
 - Download a file:
 
-`betty download {{https://example.com/file.png}} to {{file.png}}`
+`betty download {{https://example.com/file.png}} to {{path/to/file.png}}`
 
 - Compress a file or directory to one of the support archive formats:
 

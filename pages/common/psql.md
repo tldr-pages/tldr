@@ -21,4 +21,4 @@
 
 - Execute commands from a file on the given database:
 
-`psql {{database}} -f {{file.sql}}`
+`psql {{database}} -f {{path/to/file.sql}}`

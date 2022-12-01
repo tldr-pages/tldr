@@ -13,12 +13,12 @@
 
 - List the contents of a zip file without extracting:
 
-`unzip -l {{file.zip}}`
+`unzip -l {{path/to/file.zip}}`
 
 - Extract the contents of the file(s) to stdout alongside the extracted file names:
 
-`unzip -c {{file.zip}}`
+`unzip -c {{path/to/file.zip}}`
 
 - Extract a zip file created on Windows, containing files with non-ASCII (e.g. Chinese or Japanese characters) filenames:
 
-`unzip -O {{gbk}} {{file.zip}}`
+`unzip -O {{gbk}} {{path/to/file.zip}}`

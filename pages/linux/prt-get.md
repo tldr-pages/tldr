@@ -29,4 +29,4 @@
 
 - Search for a file in a package:
 
-`prt-get fsearch {{file}}`
+`prt-get fsearch {{path/to/file}}`

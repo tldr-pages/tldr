@@ -6,23 +6,23 @@
 
 - Print the contents of a file to the standard output:
 
-`bat {{file}}`
+`bat {{path/to/file}}`
 
 - Concatenate several files into the target file:
 
-`bat {{file1}} {{file2}} > {{target_file}}`
+`bat {{path/to/file1}} {{path/to/file2}} > {{target_file}}`
 
 - Append several files into the target file:
 
-`bat {{file1}} {{file2}} >> {{target_file}}`
+`bat {{path/to/file1}} {{path/to/file2}} >> {{target_file}}`
 
 - Number all output lines:
 
-`bat -n {{file}}`
+`bat -n {{path/to/file}}`
 
 - Syntax highlight a JSON file:
 
-`bat --language json {{file.json}}`
+`bat --language json {{path/to/file.json}}`
 
 - Display all supported languages:
 

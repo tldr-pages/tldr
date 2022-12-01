@@ -5,15 +5,15 @@
 
 - Find lines that match pattern in a PDF:
 
-`pdfgrep {{pattern}} {{file.pdf}}`
+`pdfgrep {{pattern}} {{path/to/file.pdf}}`
 
 - Include file name and page number for each matched line:
 
-`pdfgrep --with-filename --page-number {{pattern}} {{file.pdf}}`
+`pdfgrep --with-filename --page-number {{pattern}} {{path/to/file.pdf}}`
 
 - Do a case-insensitive search for lines that begin with "foo" and return the first 3 matches:
 
-`pdfgrep --max-count {{3}} --ignore-case {{'^foo'}} {{file.pdf}}`
+`pdfgrep --max-count {{3}} --ignore-case {{'^foo'}} {{path/to/file.pdf}}`
 
 - Find pattern in files with a `.pdf` extension in the current directory recursively:
 

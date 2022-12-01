@@ -6,8 +6,8 @@
 
 - Display the contents of the file with underlines where applicable:
 
-`ul {{file.txt}}`
+`ul {{path/to/file.txt}}`
 
 - Display the contents of the file with underlines made of dashes `-`:
 
-`ul -i {{file.txt}}`
+`ul -i {{path/to/file.txt}}`

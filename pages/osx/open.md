@@ -5,7 +5,7 @@
 
 - Open a file with the associated application:
 
-`open {{file.ext}}`
+`open {{path/to/file.ext}}`
 
 - Run a graphical macOS [a]pplication:
 

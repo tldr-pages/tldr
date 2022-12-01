@@ -5,7 +5,7 @@
 
 - Highlight file syntax and print to standard output (language is inferred from the file extension):
 
-`pygmentize {{file.py}}`
+`pygmentize {{path/to/file.py}}`
 
 - Explicitly set the language for syntax highlighting:
 

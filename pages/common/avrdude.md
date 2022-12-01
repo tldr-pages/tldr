@@ -5,11 +5,11 @@
 
 - Read AVR microcontroller:
 
-`avrdude -p {{AVR_device}} -c {{programmer}} -U flash:r:{{file.hex}}:i`
+`avrdude -p {{AVR_device}} -c {{programmer}} -U flash:r:{{path/to/file.hex}}:i`
 
 - Write AVR microcontroller:
 
-`avrdude -p {{AVR_device}} -c {{programmer}} -U flash:w:{{file.hex}}`
+`avrdude -p {{AVR_device}} -c {{programmer}} -U flash:w:{{path/to/file.hex}}`
 
 - List available AVR devices:
 

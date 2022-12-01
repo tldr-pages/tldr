@@ -17,7 +17,7 @@
 
 - Uncompress a specific file from a Cabinet file:
 
-`expand {{path/to/file.cab}} {{path/to/directory}} -f:{{file}}`
+`expand {{path/to/file.cab}} {{path/to/directory}} -f:{{path/to/file}}`
 
 - Ignore the directory structure when uncompressing, and add them to a single directory:
 

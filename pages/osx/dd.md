@@ -5,7 +5,7 @@
 
 - Make a bootable USB drive from an isohybrid file (such like `archlinux-xxx.iso`):
 
-`dd if={{file.iso}} of=/dev/{{usb_drive}}`
+`dd if={{path/to/file.iso}} of=/dev/{{usb_drive}}`
 
 - Clone a drive to another drive with 4 MB block and ignore error:
 

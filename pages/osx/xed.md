@@ -5,7 +5,7 @@
 
 - Open file in Xcode:
 
-`xed {{file1}}`
+`xed {{path/to/file1}}`
 
 - Open file(s) in Xcode, create if it doesn't exist:
 

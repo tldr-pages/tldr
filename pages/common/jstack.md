@@ -13,4 +13,4 @@
 
 - Print stack traces from Java core dump:
 
-`jstack {{/usr/bin/java}} {{file.core}}`
+`jstack {{/usr/bin/java}} {{path/to/file.core}}`

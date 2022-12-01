@@ -21,7 +21,7 @@
 
 - Upload a file to a bucket:
 
-`s3cmd put {{local_file}} s3://{{bucket}}/{{file}}`
+`s3cmd put {{local_file}} s3://{{bucket}}/{{path/to/file}}`
 
 - Move an object to a specific bucket location:
 

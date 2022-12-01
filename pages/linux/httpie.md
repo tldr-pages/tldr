@@ -13,7 +13,7 @@
 
 - Send a POST request with redirected input:
 
-`http {{https://example.com}} < {{file.json}}`
+`http {{https://example.com}} < {{path/to/file.json}}`
 
 - Send a PUT request with a given JSON body:
 

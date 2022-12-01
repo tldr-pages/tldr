@@ -17,7 +17,7 @@
 
 - Execute a file with a given version:
 
-`n use {{version}} {{file.js}}`
+`n use {{version}} {{path/to/file.js}}`
 
 - Output binary path for a version:
 

@@ -5,7 +5,7 @@
 
 - Make a bootable USB drive from an isohybrid file (such like `archlinux-xxx.iso`) and show the progress:
 
-`dd if={{file.iso}} of=/dev/{{usb_drive}} status=progress`
+`dd if={{path/to/file.iso}} of=/dev/{{usb_drive}} status=progress`
 
 - Clone a drive to another drive with 4 MiB block, ignore error and show progress:
 

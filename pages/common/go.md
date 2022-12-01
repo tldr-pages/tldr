@@ -10,11 +10,11 @@
 
 - Compile and run a source file (it has to contain a `main` package):
 
-`go run {{file}}.go`
+`go run {{path/to/file}}.go`
 
 - Compile a source file into a named executable:
 
-`go build -o {{executable}} {{file}}.go`
+`go build -o {{executable}} {{path/to/file}}.go`
 
 - Compile the package present in the current directory:
 

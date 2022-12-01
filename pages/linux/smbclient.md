@@ -21,11 +21,11 @@
 
 - Download a file from the server:
 
-`smbclient {{//server/share}} --directory {{path/to/directory}} --command "get {{file.txt}}"`
+`smbclient {{//server/share}} --directory {{path/to/directory}} --command "get {{path/to/file.txt}}"`
 
 - Upload a file to the server:
 
-`smbclient {{//server/share}} --directory {{path/to/directory}} --command "put {{file.txt}}"`
+`smbclient {{//server/share}} --directory {{path/to/directory}} --command "put {{path/to/file.txt}}"`
 
 - List the shares from a server anonymously:
 

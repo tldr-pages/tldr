@@ -10,15 +10,15 @@
 
 - Compile a single file:
 
-`ghc {{file.hs}}`
+`ghc {{path/to/file.hs}}`
 
 - Compile using extra optimization:
 
-`ghc -O {{file.hs}}`
+`ghc -O {{path/to/file.hs}}`
 
 - Stop compilation after generating object files (.o):
 
-`ghc -c {{file.hs}}`
+`ghc -c {{path/to/file.hs}}`
 
 - Start a REPL (interactive shell):
 

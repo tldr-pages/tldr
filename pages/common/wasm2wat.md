@@ -5,8 +5,8 @@
 
 - Convert a file to the text format and display it to the console:
 
-`wasm2wat {{file.wasm}}`
+`wasm2wat {{path/to/file.wasm}}`
 
 - Write the output to a given file:
 
-`wasm2wat {{file.wasm}} -o {{file.wat}}`
+`wasm2wat {{path/to/file.wasm}} -o {{path/to/file.wat}}`

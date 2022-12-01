@@ -9,7 +9,7 @@
 
 - Execute a program:
 
-`swift {{file.swift}}`
+`swift {{path/to/file.swift}}`
 
 - Start a new project with the package manager:
 
