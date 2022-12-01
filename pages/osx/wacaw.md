@@ -5,15 +5,15 @@
 
 - Take a picture from webcam:
 
-`wacaw {{filename}}`
+`wacaw {{path/to/file}}`
 
 - Record a video:
 
-`wacaw --video {{filename}} --duration {{duration_in_seconds}}`
+`wacaw --video {{path/to/file}} --duration {{duration_in_seconds}}`
 
 - Take a picture with custom resolution:
 
-`wacaw --width {{width}} --height {{height}} {{filename}}`
+`wacaw --width {{width}} --height {{height}} {{path/to/file}}`
 
 - Copy image just taken to clipboard:
 

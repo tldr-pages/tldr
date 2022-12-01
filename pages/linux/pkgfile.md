@@ -10,7 +10,7 @@
 
 - Search for a package that owns a specific file:
 
-`pkgfile {{filename}}`
+`pkgfile {{path/to/file}}`
 
 - List all files provided by a package:
 
@@ -22,16 +22,16 @@
 
 - Search for a package that owns a specific file using case-insensitive matching:
 
-`pkgfile --ignorecase {{filename}}`
+`pkgfile --ignorecase {{path/to/file}}`
 
 - Search for a package that owns a specific file in the `bin` or `sbin` directory:
 
-`pkgfile --binaries {{filename}}`
+`pkgfile --binaries {{path/to/file}}`
 
 - Search for a package that owns a specific file, displaying the package version:
 
-`pkgfile --verbose {{filename}}`
+`pkgfile --verbose {{path/to/file}}`
 
 - Search for a package that owns a specific file in a specific repository:
 
-`pkgfile --repo {{repository_name}} {{filename}}`
+`pkgfile --repo {{repository_name}} {{path/to/file}}`

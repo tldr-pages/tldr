@@ -10,11 +10,11 @@
 
 - Save captured packets in a file instead of displaying them:
 
-`snoop -o {{filename}}`
+`snoop -o {{path/to/file}}`
 
 - Display verbose protocol layer summary of packets from a file:
 
-`snoop -V -i {{filename}}`
+`snoop -V -i {{path/to/file}}`
 
 - Capture network packets that come from a hostname and go to a given port:
 

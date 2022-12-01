@@ -5,4 +5,4 @@
 
 - Build a `.js` or `.vue` file in production mode with zero config:
 
-`vue build {{filename}}`
+`vue build {{path/to/file}}`

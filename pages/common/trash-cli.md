@@ -5,7 +5,7 @@
 
 - Trash files and directories:
 
-`trash-put {{filename}}`
+`trash-put {{path/to/file}}`
 
 - Empty the trashcan:
 
@@ -21,4 +21,4 @@
 
 - Remove individual files from the trashcan:
 
-`trash-rm {{filename}}`
+`trash-rm {{path/to/file}}`

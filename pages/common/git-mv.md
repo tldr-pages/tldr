@@ -9,7 +9,7 @@
 
 - Rename file and add renaming to the next commit:
 
-`git mv {{filename}} {{new_filename}}`
+`git mv {{path/to/file}} {{new_filename}}`
 
 - Overwrite the file in the target path if it exists:
 

@@ -6,8 +6,8 @@
 
 - Change the line endings of a file:
 
-`mac2unix {{filename}}`
+`mac2unix {{path/to/file}}`
 
 - Create a copy with Unix-style line endings:
 
-`mac2unix -n {{filename}} {{new_filename}}`
+`mac2unix -n {{path/to/file}} {{new_filename}}`

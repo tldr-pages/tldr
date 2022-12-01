@@ -30,7 +30,7 @@
 
 - Save the current state of a guest to a file:
 
-`virsh save {{guest_id}} {{filename}}`
+`virsh save {{guest_id}} {{path/to/file}}`
 
 - Delete a running guest:
 

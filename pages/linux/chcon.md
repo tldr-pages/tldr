@@ -13,20 +13,20 @@
 
 - Change the full SELinux security context of a file:
 
-`chcon {{user}}:{{role}}:{{type}}:{{range/level}} {{filename}}`
+`chcon {{user}}:{{role}}:{{type}}:{{range/level}} {{path/to/file}}`
 
 - Change only the user part of SELinux security context:
 
-`chcon -u {{user}} {{filename}}`
+`chcon -u {{user}} {{path/to/file}}`
 
 - Change only the role part of SELinux security context:
 
-`chcon -r {{role}} {{filename}}`
+`chcon -r {{role}} {{path/to/file}}`
 
 - Change only the type part of SELinux security context:
 
-`chcon -t {{type}} {{filename}}`
+`chcon -t {{type}} {{path/to/file}}`
 
 - Change only the range/level part of SELinux security context:
 
-`chcon -l {{range/level}} {{filename}}`
+`chcon -l {{range/level}} {{path/to/file}}`

@@ -13,4 +13,4 @@
 
 - Open a file in Xcode and jump to line number 75:
 
-`xed --line 75 {{filename}}`
+`xed --line 75 {{path/to/file}}`

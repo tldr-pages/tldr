@@ -13,7 +13,7 @@
 
 - Find which package owns a file:
 
-`pacman --query --owns {{filename}}`
+`pacman --query --owns {{path/to/file}}`
 
 - Display information about an installed package:
 

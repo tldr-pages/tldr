@@ -6,8 +6,8 @@
 
 - Compose action can be used to compose any existing file or new on default mailcap edit tool:
 
-`compose {{filename}}`
+`compose {{path/to/file}}`
 
 - With `run-mailcap`:
 
-`run-mailcap --action=compose {{filename}}`
+`run-mailcap --action=compose {{path/to/file}}`

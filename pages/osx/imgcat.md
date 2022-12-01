@@ -6,4 +6,4 @@
 
 - Display an image on the command-line:
 
-`imgcat {{filename}}`
+`imgcat {{path/to/file}}`

@@ -25,8 +25,8 @@
 
 - Save the state of the current controls to a file:
 
-`uvcdynctrl -W {{filename}}`
+`uvcdynctrl -W {{path/to/file}}`
 
 - Load the state of the controls from a file:
 
-`uvcdynctrl -L {{filename}}`
+`uvcdynctrl -L {{path/to/file}}`

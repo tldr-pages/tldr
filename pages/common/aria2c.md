@@ -10,7 +10,7 @@
 
 - Download the file pointed to by the specified URI with the specified output name:
 
-`aria2c --out={{filename}} {{url}}`
+`aria2c --out={{path/to/file}} {{url}}`
 
 - Download multiple (different) files in parallel:
 
@@ -22,7 +22,7 @@
 
 - Download the URIs listed in a file with limited parallel downloads:
 
-`aria2c --input-file={{filename}} --max-concurrent-downloads={{number_of_downloads}}`
+`aria2c --input-file={{path/to/file}} --max-concurrent-downloads={{number_of_downloads}}`
 
 - Download with multiple connections:
 

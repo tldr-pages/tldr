@@ -17,7 +17,7 @@
 
 - Download a media to a specific location:
 
-`you-get --output-dir {{path/to/directory}} --output-filename {{filename}} {{https://example.com/watch?v=value}}`
+`you-get --output-dir {{path/to/directory}} --output-filename {{path/to/file}} {{https://example.com/watch?v=value}}`
 
 - Download a media using a proxy:
 

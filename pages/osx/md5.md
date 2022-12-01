@@ -5,7 +5,7 @@
 
 - Calculate the MD5 checksum for a file:
 
-`md5 {{filename}}`
+`md5 {{path/to/file}}`
 
 - Calculate MD5 checksums for multiple files:
 
@@ -13,7 +13,7 @@
 
 - Output only the md5 checksum (no filename):
 
-`md5 -q {{filename}}`
+`md5 -q {{path/to/file}}`
 
 - Print a checksum of the given string:
 

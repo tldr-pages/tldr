@@ -9,7 +9,7 @@
 
 - Post a file to Slack with a custom filename:
 
-`slackcat --channel {{channel_name}} --filename={{filename}} {{path/to/file}}`
+`slackcat --channel {{channel_name}} --filename={{path/to/file}} {{path/to/file}}`
 
 - Pipe command output to Slack as a text snippet:
 

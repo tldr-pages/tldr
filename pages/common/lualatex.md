@@ -17,4 +17,4 @@
 
 - Compile a Tex file with a specific output file name:
 
-`lualatex -jobname={{filename}} {{path/to/file.tex}}`
+`lualatex -jobname={{path/to/file}} {{path/to/file.tex}}`

@@ -10,7 +10,7 @@
 
 - Add file resource:
 
-`add file {{filename}} as {{alias}};`
+`add file {{path/to/file}} as {{alias}};`
 
 - Add archive resource:
 

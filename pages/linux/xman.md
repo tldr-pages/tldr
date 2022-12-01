@@ -9,7 +9,7 @@
 
 - Open the manual page output stored in a given file:
 
-`xman -helpfile {{filename}}`
+`xman -helpfile {{path/to/file}}`
 
 - Show both manual page and directory:
 
