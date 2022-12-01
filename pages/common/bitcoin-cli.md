@@ -22,4 +22,4 @@
 
 - Export the wallet information to a text file:
 
-`bitcoin-cli dumpwallet "{{path/to/file}}"`
+`bitcoin-cli dumpwallet {{path/to/file}}`

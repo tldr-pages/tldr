@@ -29,7 +29,7 @@
 
 - Merge two files and print to stdout (v4+):
 
-`yq eval-all 'select(filename == "{{path/to/file1.yaml}}") * select(filename == "{{path/to/file2.yaml}}")' {{path/to/file1.yaml}} {{path/to/file2.yaml}}`
+`yq eval-all 'select(filename == {{path/to/file1.yaml}}) * select(filename == {{path/to/file2.yaml}})' {{path/to/file1.yaml}} {{path/to/file2.yaml}}`
 
 - Merge two files and print to stdout (v3):
 
