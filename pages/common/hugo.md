@@ -13,7 +13,7 @@
 
 - Create a new page:
 
-`hugo new {{section_name}}/{{path/to/file}}`
+`hugo new {{section_name}}/{{page_name}}`
 
 - Build a site to the `./public/` directory:
 
