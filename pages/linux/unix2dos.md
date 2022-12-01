@@ -10,4 +10,4 @@
 
 - Create a copy with DOS-style line endings:
 
-`unix2dos -n {{path/to/file}} {{new_filename}}`
+`unix2dos -n {{path/to/unix_file}} {{path/to/dos_file}}`
