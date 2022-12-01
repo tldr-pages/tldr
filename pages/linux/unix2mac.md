@@ -10,4 +10,4 @@
 
 - Create a copy with macOS-style line endings:
 
-`unix2mac -n {{path/to/file}} {{new_filename}}`
+`unix2mac -n {{path/to/unix_file}} {{path/to/mac_file}}`
