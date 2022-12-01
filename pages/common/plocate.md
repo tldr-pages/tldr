@@ -10,4 +10,4 @@
 
 - Look for a file by its exact filename (a pattern containing no globbing characters is interpreted as `*pattern*`):
 
-`plocate */{{path/to/file}}`
+`plocate */{{filename}}`
