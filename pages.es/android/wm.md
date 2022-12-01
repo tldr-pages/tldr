@@ -6,7 +6,7 @@
 
 - Mostrar el tamaño físico de la pantalla de un dispositivo Android:
 
-`wm {{size}}`
+`wm {{tamaño}}`
 
 - Muestra la densidad física de la pantalla de un dispositivo Android:
 
