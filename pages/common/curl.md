@@ -16,7 +16,7 @@
 
 `curl --fail --remote-name --location --continue-at - {{http://example.com/filename}}`
 
-- Send form-encoded data (POST request of type `application/x-www-form-urlencoded`). Use `--data @file_name` or `--data @'-'` to read from STDIN:
+- Send form-encoded data (POST request of type `application/x-www-form-urlencoded`). Use `--data @file_name` or `--data @'-'` to read from `stdIN`:
 
 `curl --data {{'name=bob'}} {{http://example.com/form}}`
 

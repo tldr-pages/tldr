@@ -27,6 +27,6 @@
 
 `ganache-cli --defaultBalanceEther={{default_balance}}`
 
-- Run Ganache and log all requests to stdout:
+- Run Ganache and log all requests to `stdout`:
 
 `ganache-cli --verbose`

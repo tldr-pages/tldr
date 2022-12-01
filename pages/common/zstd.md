@@ -11,7 +11,7 @@
 
 `zstd -d {{path/to/file}}.zst`
 
-- Decompress to stdout:
+- Decompress to `stdout`:
 
 `zstd -dc {{path/to/file}}.zst`
 

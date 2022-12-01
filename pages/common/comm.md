@@ -11,7 +11,7 @@
 
 `comm -12 {{path/to/file1}} {{path/to/file2}}`
 
-- Print only lines common to both files, reading one file from stdin:
+- Print only lines common to both files, reading one file from `stdin`:
 
 `cat {{path/to/file1}} | comm -12 - {{path/to/file2}}`
 

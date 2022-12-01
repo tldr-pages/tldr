@@ -11,7 +11,7 @@
 
 `lz4 -d {{path/to/file.lz4}}`
 
-- Decompress a file and write to stdout:
+- Decompress a file and write to `stdout`:
 
 `lz4 -dc {{path/to/file.lz4}}`
 

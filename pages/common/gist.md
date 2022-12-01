@@ -15,7 +15,7 @@
 
 `gist --private --description "{{A meaningful description}}" {{path/to/file.txt}} `
 
-- Read contents from stdin and create a gist from it:
+- Read contents from `stdin` and create a gist from it:
 
 `{{echo "hello world"}} | gist`
 

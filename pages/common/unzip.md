@@ -15,7 +15,7 @@
 
 `unzip -l {{path/to/file.zip}}`
 
-- Extract the contents of the file(s) to stdout alongside the extracted file names:
+- Extract the contents of the file(s) to `stdout` alongside the extracted file names:
 
 `unzip -c {{path/to/file.zip}}`
 

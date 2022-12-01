@@ -19,7 +19,7 @@
 
 `xz -d --format={{lzma}} {{path/to/file.lzma}}`
 
-- Decompress a file and write to stdout:
+- Decompress a file and write to `stdout`:
 
 `xz -dc {{path/to/file.xz}}`
 

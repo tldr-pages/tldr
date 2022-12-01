@@ -11,7 +11,7 @@
 
 `egrep "{{search_pattern}}" {{path/to/file1 path/to/file2 ...}}`
 
-- Search stdin for a pattern:
+- Search `stdin` for a pattern:
 
 `cat {{path/to/file}} | egrep {{search_pattern}}`
 

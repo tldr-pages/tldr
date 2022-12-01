@@ -7,6 +7,6 @@
 
 `goobook authenticate`
 
-- Dump all contacts to XML (stdout):
+- Dump all contacts to XML (`stdout`):
 
 `goobook dump_contacts`

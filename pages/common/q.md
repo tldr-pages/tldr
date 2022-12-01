@@ -15,7 +15,7 @@
 
 `q -d{{delimiter}} -H "SELECT * from {{path/to/file}}"`
 
-- Read data from stdin; '-' in the query represents the data from stdin:
+- Read data from stdin; '-' in the query represents the data from `stdin`:
 
 `{{output}} | q "select * from -"`
 
