@@ -1,0 +1,17 @@
+/* SPDX-License-Identifier: MIT */
+
+code {
+	color: #7A0000;
+  }
+
+  h1, h2, h4, ul {
+	color: #000ACC;
+  }
+
+  body {
+	background-color: #002b36;
+  }
+
+  .title-sub {
+	color: #7A0000;
+  }

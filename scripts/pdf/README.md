@@ -34,5 +34,7 @@ Complete information about the arguments can be viewed by running:
 The color-schemes that can be specified are:
 
 * `basic`
+* `high-contrast-light`
+* `high-contrast-dark`
 * `solarized-light`
 * `solarized-dark`
