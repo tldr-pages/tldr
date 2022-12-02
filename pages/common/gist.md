@@ -9,7 +9,7 @@
 
 - Create a gist from any number of text files:
 
-`gist {{path/to/file.txt}} {{path/to/file2.txt}}`
+`gist {{path/to/file1.txt path/to/file2.txt ...}}`
 
 - Create a private gist with a description:
 

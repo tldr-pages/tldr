@@ -5,7 +5,7 @@
 
 - Take multiple screenshots of multiple URLs at different resolutions:
 
-`pageres {{https://example.com/}} {{https://example2.com/}} {{1366x768}} {{1600x900}}`
+`pageres {{https://example1.com/ https://example2.com/ ...}} {{1366x768}} {{1600x900}}`
 
 - Provide specific options for a URL, overriding global options:
 
