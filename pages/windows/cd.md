@@ -17,8 +17,8 @@
 
 - Go to a specific directory in the same drive:
 
-`cd {{path\to\directory}}`
+`cd {{path/to/directory}}`
 
 - Go to a specific directory in a different [d]rive:
 
-`cd /d {{C}}:{{path\to\directory}}`
+`cd /d {{C}}:{{path/to/directory}}`

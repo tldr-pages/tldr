@@ -5,7 +5,7 @@
 
 - Lint all pages:
 
-`tldr-lint {{pages_directory}}`
+`tldr-lint {{path/to/directory}}`
 
 - Format a specific page to `stdout`:
 
@@ -13,4 +13,4 @@
 
 - Format all pages in place:
 
-`tldr-lint --format --in-place {{pages_directory}}`
+`tldr-lint --format --in-place {{path/to/directory}}`

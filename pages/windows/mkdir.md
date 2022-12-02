@@ -5,7 +5,7 @@
 
 - Create a directory:
 
-`mkdir {{directory}}`
+`mkdir {{path/to/directory}}`
 
 - Create a nested directory tree recursively:
 

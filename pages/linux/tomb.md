@@ -5,27 +5,27 @@
 
 - Create a new tomb with an initial size of 100 MB:
 
-`tomb dig -s {{100}} {{encrypted_directory.tomb}}`
+`tomb dig -s {{100}} {{path/to/directory}}`
 
 - Create a new key file that can be used to lock a tomb; user will be prompted for a password for the key:
 
-`tomb forge {{encrypted_directory.tomb.key}}`
+`tomb forge {{path/to/directory}}`
 
 - Forcefully create a new key, even if the tomb isn't allowing key forging (due to swap):
 
-`tomb forge {{encrypted_directory.tomb.key}} -f`
+`tomb forge {{path/to/directory}} -f`
 
 - Initialize and lock an empty tomb using a key made with `forge`:
 
-`tomb lock {{encrypted_directory.tomb}} -k {{encrypted_directory.tomb.key}}`
+`tomb lock {{path/to/directory}} -k {{path/to/directory}}`
 
 - Mount a tomb (by default in `/media`) using its key, making it usable as a regular filesystem directory:
 
-`tomb open {{encrypted_directory.tomb}} -k {{encrypted_directory.tomb.key}}`
+`tomb open {{path/to/directory}} -k {{path/to/directory}}`
 
 - Close a tomb (fails if the tomb is being used by a process):
 
-`tomb close {{encrypted_directory.tomb}}`
+`tomb close {{path/to/directory}}`
 
 - Forcefully close all open tombs, killing any applications using them:
 

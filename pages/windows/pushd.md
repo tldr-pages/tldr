@@ -6,4 +6,4 @@
 
 - Switch to directory and push it on the stack:
 
-`pushd {{directory}}`
+`pushd {{path/to/directory}}`

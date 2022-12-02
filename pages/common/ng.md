@@ -17,7 +17,7 @@
 
 - Add a new directive to one's application:
 
-`ng generate directive {{directive_name}}`
+`ng generate directive {{path/to/directory}}`
 
 - Run the application with the following command in its root directory:
 

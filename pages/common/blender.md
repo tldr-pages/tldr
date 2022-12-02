@@ -18,7 +18,7 @@
 
 - Render the second last frame in an animation as a JPEG image, saved to an existing directory (relative path):
 
-`blender --background {{path/to/file}}.blend --render-output //{{output_directory}} --render-frame {{JPEG}} --render-frame {{-2}}`
+`blender --background {{path/to/file}}.blend --render-output //{{path/to/directory}} --render-frame {{JPEG}} --render-frame {{-2}}`
 
 - Render the animation of a specific scene, starting at frame 10 and ending at frame 500:
 

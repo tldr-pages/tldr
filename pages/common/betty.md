@@ -25,7 +25,7 @@
 
 - Extract an archive into a directory:
 
-`betty unarchive {{archive.tar.gz}} to {{directory}}`
+`betty unarchive {{archive.tar.gz}} to {{path/to/directory}}`
 
 - Play Spotify:
 

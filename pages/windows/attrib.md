@@ -9,7 +9,7 @@
 
 - Display all set attributes of files in a specific directory:
 
-`attrib {{path\to\directory}}`
+`attrib {{path/to/directory}}`
 
 - Display all set attributes of files and [d]irectories in the current directory:
 

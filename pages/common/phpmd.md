@@ -21,7 +21,7 @@
 
 - Exclude the specified comma-separated directories:
 
-`phpmd {{path/to/file_or_directory}} {{xml|text|html}} {{rulesets}} --exclude {{directory_patterns}}`
+`phpmd {{path/to/file_or_directory}} {{xml|text|html}} {{rulesets}} --exclude {{path/to/directory}}`
 
 - Output the results to a file instead of `stdout`:
 

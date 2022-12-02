@@ -17,11 +17,11 @@
 
 - Package and compress a directory and its contents:
 
-`tar cvf - {{path/to/directory}} | lz4 - {{dir.tar.lz4}}`
+`tar cvf - {{path/to/directory}} | lz4 - {{path/to/directory}}`
 
 - Decompress and unpack a directory and its contents:
 
-`lz4 -dc {{dir.tar.lz4}} | tar -xv`
+`lz4 -dc {{path/to/directory}} | tar -xv`
 
 - Compress a file using the best compression:
 

@@ -5,7 +5,7 @@
 
 - Pipe command-line output to the Windows clipboard:
 
-`{{dir}} | clip`
+`{{path/to/directory}} | clip`
 
 - Copy the contents of a file to the Windows clipboard:
 

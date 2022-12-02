@@ -22,7 +22,7 @@
 
 - E[x]tract a (compressed) archive [f]ile into the target directory:
 
-`tar xf {{source.tar[.gz|.bz2|.xz]}} --directory={{directory}}`
+`tar xf {{source.tar[.gz|.bz2|.xz]}} --directory={{path/to/directory}}`
 
 - [c]reate a compressed archive and write it to a [f]ile, using [a]rchive suffix to determine the compression program:
 

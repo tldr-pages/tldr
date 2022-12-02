@@ -29,8 +29,8 @@
 
 - Print directories within the tree hierarchy, using the wildcard (glob) pattern, and pruning out directories that aren't ancestors of the wanted one:
 
-`tree -P {{directory_name}} --matchdirs --prune`
+`tree -P {{path/to/directory}} --matchdirs --prune`
 
 - Print the tree ignoring the given directories:
 
-`tree -I '{{directory_name1|directory_name2}}'`
+`tree -I '{{path/to/directory}}'`

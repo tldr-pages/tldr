@@ -9,7 +9,7 @@
 
 - Find space-separated string(s) in a piped command's output:
 
-`{{dir}} | findstr "{{query}}"`
+`{{path/to/directory}} | findstr "{{query}}"`
 
 - Find space-separated string(s) in all files recur[s]ively:
 

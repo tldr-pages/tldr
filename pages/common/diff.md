@@ -21,11 +21,11 @@
 
 - Compare directories recursively (shows names for differing files/directories as well as changes made to files):
 
-`diff --recursive {{old_directory}} {{new_directory}}`
+`diff --recursive {{path/to/directory}} {{path/to/directory}}`
 
 - Compare directories, only showing the names of files that differ:
 
-`diff --recursive --brief {{old_directory}} {{new_directory}}`
+`diff --recursive --brief {{path/to/directory}} {{path/to/directory}}`
 
 - Create a patch file for Git from the differences of two text files, treating nonexistent files as empty:
 

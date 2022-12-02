@@ -18,7 +18,7 @@
 
 - Search for a regular expression only in a subset of directories:
 
-`rg {{regular_expression}} {{set_of_subdirs}}`
+`rg {{regular_expression}} {{path/to/directory}}`
 
 - Search for a regular expression in files matching a glob (e.g. `README.*`):
 

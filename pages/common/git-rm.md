@@ -9,7 +9,7 @@
 
 - Remove directory:
 
-`git rm -r {{directory}}`
+`git rm -r {{path/to/directory}}`
 
 - Remove file from repository index but keep it untouched locally:
 
