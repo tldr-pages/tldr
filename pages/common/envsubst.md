@@ -4,7 +4,7 @@
 > Variables to be replaced should be in either `${var}` or `$var` format.
 > More information: <https://www.gnu.org/software/gettext/manual/html_node/envsubst-Invocation.html>.
 
-- Replace environment variables in stdin and output to `stdout`:
+- Replace environment variables in `stdin` and output to `stdout`:
 
 `echo '{{$HOME}}' | envsubst`
 

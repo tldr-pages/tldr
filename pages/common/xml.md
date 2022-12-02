@@ -12,7 +12,7 @@
 
 `xml {{subcommand}} {{options}} {{path/to/input.xml|URI}}`
 
-- Execute a subcommand using stdin and `stdout`:
+- Execute a subcommand using `stdin` and `stdout`:
 
 `xml {{subcommand}} {{options}}`
 

@@ -3,7 +3,7 @@
 > Generate a Go struct from XML.
 > More information: <https://github.com/miku/zek>.
 
-- Generate a Go struct from a given XML from stdin and display output on `stdout`:
+- Generate a Go struct from a given XML from `stdin` and display output on `stdout`:
 
 `cat {{path/to/input.xml}} | zek`
 
