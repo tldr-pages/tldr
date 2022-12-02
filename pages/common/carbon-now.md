@@ -21,7 +21,7 @@
 
 - Create images from previously saved preset:
 
-`carbon-now -p {{preset}} {{path/to/file}}`
+`carbon-now -p {{path/to/preset}} {{path/to/file}}`
 
 - Start at a specified line of text:
 
