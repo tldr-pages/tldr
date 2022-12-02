@@ -5,12 +5,12 @@
 
 - Compile a PDF document:
 
-`xetex {{source.tex}}`
+`xetex {{path/to/source.tex}}`
 
 - Compile a PDF document, specifying an output directory:
 
-`xetex -output-directory={{path/to/directory}} {{source.tex}}`
+`xetex -output-directory={{path/to/directory}} {{path/to/source.tex}}`
 
 - Compile a PDF document, exiting if errors occur:
 
-`xetex -halt-on-error {{source.tex}}`
+`xetex -halt-on-error {{path/to/source.tex}}`

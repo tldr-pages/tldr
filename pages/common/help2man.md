@@ -5,19 +5,19 @@
 
 - Generate a man page for an executable:
 
-`help2man {{executable}}`
+`help2man {{path/to/executable}}`
 
 - Specify the "name" paragraph in the man page:
 
-`help2man {{executable}} --name {{name}}`
+`help2man {{path/to/executable}} --name {{name}}`
 
 - Specify the section for the man page (defaults to 1):
 
-`help2man {{executable}} --section {{section}}`
+`help2man {{path/to/executable}} --section {{section}}`
 
 - Output to a file instead of `stdout`:
 
-`help2man {{executable}} --output {{path/to/file}}`
+`help2man {{path/to/executable}} --output {{path/to/file}}`
 
 - Display detailed help:
 

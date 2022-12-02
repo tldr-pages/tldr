@@ -21,7 +21,7 @@
 
 - Extract an archive into the current directory:
 
-`pax -rf {{source.tar}}`
+`pax -rf {{path/to/source.tar}}`
 
 - Copy to a directory, while keeping the original metadata; `target/` must exist:
 

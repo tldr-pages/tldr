@@ -13,11 +13,11 @@
 
 - Compile an Elm file, output the result to an `index.html` file:
 
-`elm make {{source}}`
+`elm make {{path/to/source}}`
 
 - Compile an Elm file, output the result to a JavaScript file:
 
-`elm make {{source}} --output={{destination}}.js`
+`elm make {{path/to/source}} --output={{destination}}.js`
 
 - Start local web server that compiles Elm files on page load:
 

@@ -13,4 +13,4 @@
 
 - Concatenate two vector datasets and store source name of dataset in attribute 'source_name':
 
-`ogrmerge.py -single -f {{GeoJSON}} -o {{path/to/output.geojson}} -src_layer_field_name country {{source_name}} {{path/to/input1.shp path/to/input2.shp ...}}`
+`ogrmerge.py -single -f {{GeoJSON}} -o {{path/to/output.geojson}} -src_layer_field_name country {{path/to/source}} {{path/to/input1.shp path/to/input2.shp ...}}`

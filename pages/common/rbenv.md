@@ -33,4 +33,4 @@
 
 - Display all Ruby versions that contain the specified executable:
 
-`rbenv whence {{executable}}`
+`rbenv whence {{path/to/executable}}`

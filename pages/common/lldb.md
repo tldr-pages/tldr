@@ -5,7 +5,7 @@
 
 - Debug an executable:
 
-`lldb {{executable}}`
+`lldb {{path/to/executable}}`
 
 - Attach `lldb` to a running process with a given PID:
 

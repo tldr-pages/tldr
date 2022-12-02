@@ -18,11 +18,11 @@
 
 - E[x]tract a (compressed) archive [f]ile into the current directory [v]erbosely:
 
-`tar xvf {{source.tar[.gz|.bz2|.xz]}}`
+`tar xvf {{path/to/source.xz}}`
 
 - E[x]tract a (compressed) archive [f]ile into the target directory:
 
-`tar xf {{source.tar[.gz|.bz2|.xz]}} --directory={{path/to/directory}}`
+`tar xf {{path/to/source.xz}} --directory={{path/to/directory}}`
 
 - [c]reate a compressed archive and write it to a [f]ile, using [a]rchive suffix to determine the compression program:
 
@@ -30,8 +30,8 @@
 
 - Lis[t] the contents of a tar [f]ile [v]erbosely:
 
-`tar tvf {{source.tar}}`
+`tar tvf {{path/to/source.tar}}`
 
 - E[x]tract files matching a pattern from an archive [f]ile:
 
-`tar xf {{source.tar}} --wildcards "{{*.html}}"`
+`tar xf {{path/to/source.tar}} --wildcards "{{*.html}}"`

@@ -33,4 +33,4 @@
 
 - Upload a file to a remote system:
 
-`smbmap -u {{username}} --prompt -H {{ip}} --upload {{source}} {{destination}}`
+`smbmap -u {{username}} --prompt -H {{ip}} --upload {{path/to/source}} {{destination}}`

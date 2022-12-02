@@ -5,12 +5,12 @@
 
 - Compile a PDF document:
 
-`pdflatex {{source.tex}}`
+`pdflatex {{path/to/source.tex}}`
 
 - Compile a PDF document specifying an output directory:
 
-`pdflatex -output-directory={{path/to/directory}} {{source.tex}}`
+`pdflatex -output-directory={{path/to/directory}} {{path/to/source.tex}}`
 
 - Compile a PDF document, exiting on each error:
 
-`pdflatex -halt-on-error {{source.tex}}`
+`pdflatex -halt-on-error {{path/to/source.tex}}`

@@ -9,7 +9,7 @@
 
 - Upload a local file:
 
-`azcopy copy '{{path/to/source/file}}' 'https://{{storage_account_name}}.blob.core.windows.net/{{container_name}}/{{blob_name}}'`
+`azcopy copy '{{path/to/source}}' 'https://{{storage_account_name}}.blob.core.windows.net/{{container_name}}/{{blob_name}}'`
 
 - Upload files with `.txt` and `.jpg` extensions:
 

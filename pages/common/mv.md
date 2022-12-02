@@ -5,7 +5,7 @@
 
 - Move a file to an arbitrary location:
 
-`mv {{source}} {{target}}`
+`mv {{path/to/source}} {{target}}`
 
 - Move files into another directory, keeping the filenames:
 
@@ -13,16 +13,16 @@
 
 - Do not prompt for confirmation before overwriting existing files:
 
-`mv -f {{source}} {{target}}`
+`mv -f {{path/to/source}} {{target}}`
 
 - Prompt for confirmation before overwriting existing files, regardless of file permissions:
 
-`mv -i {{source}} {{target}}`
+`mv -i {{path/to/source}} {{target}}`
 
 - Do not overwrite existing files at the target:
 
-`mv -n {{source}} {{target}}`
+`mv -n {{path/to/source}} {{target}}`
 
 - Move files in verbose mode, showing files after they are moved:
 
-`mv -v {{source}} {{target}}`
+`mv -v {{path/to/source}} {{target}}`

@@ -14,7 +14,7 @@
 
 - Compile a source file into a named executable:
 
-`go build -o {{executable}} {{path/to/file}}.go`
+`go build -o {{path/to/executable}} {{path/to/file}}.go`
 
 - Compile the package present in the current directory:
 

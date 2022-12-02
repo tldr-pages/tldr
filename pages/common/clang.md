@@ -5,15 +5,15 @@
 
 - Compile a source code file into an executable binary:
 
-`clang {{input_source.c}} -o {{output_executable}}`
+`clang {{path/to/source.c}} -o {{path/to/executable}}`
 
 - Activate output of all errors and warnings:
 
-`clang {{input_source.c}} -Wall -o {{output_executable}}`
+`clang {{path/to/source.c}} -Wall -o {{path/to/executable}}`
 
 - Include libraries located at a different path than the source file:
 
-`clang {{input_source.c}} -o {{output_executable}} -I{{header_path}} -L{{library_path}} -l{{library_name}}`
+`clang {{path/to/source.c}} -o {{path/to/executable}} -I{{header_path}} -L{{library_path}} -l{{library_name}}`
 
 - Compile source code into LLVM Intermediate Representation (IR):
 
@@ -21,4 +21,4 @@
 
 - Compile source code without linking:
 
-`clang -c {{input_source.c}}`
+`clang -c {{path/to/source.c}}`

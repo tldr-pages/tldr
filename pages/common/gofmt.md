@@ -5,16 +5,16 @@
 
 - Format a file and display the result to the console:
 
-`gofmt {{source.go}}`
+`gofmt {{path/to/source.go}}`
 
 - Format a file, overwriting the original file in-place:
 
-`gofmt -w {{source.go}}`
+`gofmt -w {{path/to/source.go}}`
 
 - Format a file, and then simplify the code, overwriting the original file:
 
-`gofmt -s -w {{source.go}}`
+`gofmt -s -w {{path/to/source.go}}`
 
 - Print all (including spurious) errors:
 
-`gofmt -e {{source.go}}`
+`gofmt -e {{path/to/source.go}}`
