@@ -9,7 +9,7 @@
 
 - Merge (concatenate) all the pages of a list of PDF files and save the result as a new PDF:
 
-`qpdf --empty --pages {{path/to/file1.pdf}} {{path/to/file2.pdf}} {{path/to/file3.pdf}} -- {{output.pdf}}`
+`qpdf --empty --pages {{path/to/file1.pdf path/to/file2.pdf ...}} -- {{output.pdf}}`
 
 - Merge (concatenate) given pages from a list of PDF files and save the result as a new PDF:
 

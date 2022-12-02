@@ -18,7 +18,7 @@
 
 - Count all nodes in one or more XML documents:
 
-`xml select --text --template --inp-name --output " " --value-of "count(node())" --nl {{path/to/input1.xml|URI}} {{path/to/input2.xml|URI}}`
+`xml select --text --template --inp-name --output " " --value-of "count(node())" --nl {{path/to/input1.xml|URI path/to/input2.xml|URI ...}}`
 
 - Display help for the `select` subcommand:
 

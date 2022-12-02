@@ -9,7 +9,7 @@
 
 - Remove unused imports from multiple files and display the diffs:
 
-`autoflake --remove-all-unused-imports {{path/to/file1.py}} {{path/to/file2.py}} {{path/to/file3.py}}`
+`autoflake --remove-all-unused-imports {{path/to/file1.py path/to/file2.py ...}}`
 
 - Remove unused variables from a file, overwriting the file:
 

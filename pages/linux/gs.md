@@ -21,7 +21,7 @@
 
 - Merge PDF files:
 
-`gs -dQUIET -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -sOutputFile={{output.pdf}} {{input1.pdf}} {{input2.pdf}}`
+`gs -dQUIET -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -sOutputFile={{output.pdf}} {{input1.pdf input2.pdf ...}}`
 
 - Convert from PostScript file to PDF file:
 

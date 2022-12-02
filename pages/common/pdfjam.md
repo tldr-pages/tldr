@@ -5,7 +5,7 @@
 
 - Merge two (or more) PDFs:
 
-`pdfjam {{path/to/file1.pdf}} {{path/to/file2.pdf}} --outfile {{path/to/output_file.pdf}}`
+`pdfjam {{path/to/file1.pdf path/to/file2.pdf ...}} --outfile {{path/to/output_file.pdf}}`
 
 - Merge the first page of each file together:
 

@@ -5,7 +5,7 @@
 
 - Convert multiple images to a single PDF, each image being on its own page:
 
-`img2pdf {{path/to/image1.jpg}} {{path/to/image2.jpg}} --output {{path/to/file.pdf}}`
+`img2pdf {{path/to/image1.jpg path/to/image2.jpg ...}} --output {{path/to/file.pdf}}`
 
 - Convert only the first frame of a multi-frame image to PDF:
 

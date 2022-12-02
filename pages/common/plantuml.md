@@ -5,7 +5,7 @@
 
 - Render diagrams to default format (PNG):
 
-`plantuml {{diagram1.puml}} {{diagram2.puml}}`
+`plantuml {{diagram1.puml diagram2.puml ...}}`
 
 - Render a diagram in given format (e.g. `png`, `pdf`, `svg`, `txt`):
 
