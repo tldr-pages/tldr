@@ -21,7 +21,7 @@
 
 - Upgrade one or more specific package(s):
 
-`opkg upgrade {{package(s)}}`
+`opkg upgrade {{package1 package2 ...}}`
 
 - Display information for a specific package:
 

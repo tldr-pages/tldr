@@ -5,7 +5,7 @@
 
 - Install one or more space-separated versions of Ruby:
 
-`rvm install {{version(s)}}`
+`rvm install {{version1 version2 ...}}`
 
 - Display a list of installed versions:
 
