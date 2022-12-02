@@ -7,6 +7,6 @@
 
 `vifm .`
 
-- Open specified directories on left or right plane:
+- Open specified directories on left and right planes:
 
 `vifm {{path/to/directory_1}} {{path/to/directory_2}}`
