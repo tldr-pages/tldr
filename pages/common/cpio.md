@@ -14,4 +14,4 @@
 
 - P[i]ck all files from an archive, generating [d]irectories where needed, in [v]erbose mode:
 
-`cpio -idv < {{archive.cpio}}`
+`cpio -idv < {{path/to/archive.cpio}}`
