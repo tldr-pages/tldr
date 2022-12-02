@@ -5,7 +5,7 @@
 
 - Extract an archive into the current directory:
 
-`ark --batch {{archive}}`
+`ark --batch {{path/to/archive}}`
 
 - Change extraction directory:
 
@@ -13,4 +13,4 @@
 
 - Create an archive if it does not exist and add files to it:
 
-`ark --add-to {{archive}} {{path/to/file1 path/to/file2 ...}}`
+`ark --add-to {{path/to/archive}} {{path/to/file1 path/to/file2 ...}}`
