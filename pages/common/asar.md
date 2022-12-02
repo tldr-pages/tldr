@@ -13,7 +13,7 @@
 
 - Extract a specific file from an archive:
 
-`asar extract-file {{archived.asar}} {{path/to/file}}`
+`asar extract-file {{path/to/archive.asar}} {{path/to/file}}`
 
 - List the contents of an archive file:
 
