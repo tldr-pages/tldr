@@ -5,7 +5,7 @@
 
 - Open a file:
 
-`less {{source_file}}`
+`less {{path/to/file}}`
 
 - Page down / up:
 

@@ -21,7 +21,7 @@
 
 - Rename a file on the remote server:
 
-`mv {{original_filename}} {{new_filename}}`
+`mv {{path/to/file}} {{path/to/file}}`
 
 - Download or update an entire directory:
 

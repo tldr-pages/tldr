@@ -9,7 +9,7 @@
 
 - Start an application with a specified Procfile:
 
-`foreman start -f {{Procfile}}`
+`foreman start -f {{path/to/file}}`
 
 - Start a specific application:
 

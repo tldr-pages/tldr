@@ -5,15 +5,15 @@
 
 - Add credentials to the secure keystore:
 
-`aws-vault add {{profile}}`
+`aws-vault add {{path/to/file}}`
 
 - Execute a command with AWS credentials in the environment:
 
-`aws-vault exec {{profile}} -- {{aws s3 ls}}`
+`aws-vault exec {{path/to/file}} -- {{aws s3 ls}}`
 
 - Open a browser window and login to the AWS Console:
 
-`aws-vault login {{profile}}`
+`aws-vault login {{path/to/file}}`
 
 - List profiles, along with their credentials and sessions:
 
@@ -21,8 +21,8 @@
 
 - Rotate AWS credentials:
 
-`aws-vault rotate {{profile}}`
+`aws-vault rotate {{path/to/file}}`
 
 - Remove credentials from the secure keystore:
 
-`aws-vault remove {{profile}}`
+`aws-vault remove {{path/to/file}}`

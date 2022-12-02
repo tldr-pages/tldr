@@ -10,12 +10,12 @@
 
 - Ignore file(s) privately, updating `.git/info/exclude` file:
 
-`git ignore {{file_pattern}} --private`
+`git ignore {{path/to/file}} --private`
 
 - Ignore file(s) locally, updating local `.gitignore` file:
 
-`git ignore {{file_pattern}}`
+`git ignore {{path/to/file}}`
 
 - Ignore file(s) globally, updating global `.gitignore` file:
 
-`git ignore {{file_pattern}} --global`
+`git ignore {{path/to/file}} --global`

@@ -17,4 +17,4 @@
 
 - Start browser-sync from config file:
 
-`browser-sync start --config {{config_file}}`
+`browser-sync start --config {{path/to/file}}`

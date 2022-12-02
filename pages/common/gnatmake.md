@@ -9,8 +9,8 @@
 
 - Set a custom executable name:
 
-`gnatmake -o {{executable_name}} {{source_file.adb}}`
+`gnatmake -o {{executable_name}} {{path/to/file.adb}}`
 
 - [f]orce recompilation:
 
-`gnatmake -f {{source_file.adb}}`
+`gnatmake -f {{path/to/file.adb}}`

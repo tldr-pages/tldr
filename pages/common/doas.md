@@ -17,7 +17,7 @@
 
 - Parse a config file and check if the execution of a command as another user is allowed:
 
-`doas -C {{config_file}} {{command}}`
+`doas -C {{path/to/file}} {{command}}`
 
 - Make `doas` request a password even after it was supplied earlier:
 

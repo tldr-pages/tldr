@@ -5,7 +5,7 @@
 
 - Connect with a defined configuration file:
 
-`sudo vpnc {{config_file}}`
+`sudo vpnc {{path/to/file}}`
 
 - Terminate the previously created connection:
 

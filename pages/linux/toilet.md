@@ -9,7 +9,7 @@
 
 - Generate ASCII art using a custom font file:
 
-`toilet {{input_text}} -f {{font_filename}}`
+`toilet {{input_text}} -f {{path/to/file}}`
 
 - Generate ASCII art using a filter:
 

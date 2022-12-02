@@ -5,4 +5,4 @@
 
 - Process an image file:
 
-`zbarimg {{image_file}}`
+`zbarimg {{path/to/file}}`

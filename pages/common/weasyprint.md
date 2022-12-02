@@ -21,4 +21,4 @@
 
 - Specify a base URL for relative URLs in the input HTML file:
 
-`weasyprint {{path/to/input.html}} {{path/to/output}}.png --base-url {{url_or_filename}}`
+`weasyprint {{path/to/input.html}} {{path/to/output}}.png --base-url {{path/to/file}}`

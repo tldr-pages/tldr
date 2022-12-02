@@ -29,7 +29,7 @@
 
 - Upload stemcell:
 
-`bosh -e {{environment}} upload-stemcell {{stemcell_file|url}}`
+`bosh -e {{environment}} upload-stemcell {{path/to/file}}`
 
 - Show current cloud config:
 

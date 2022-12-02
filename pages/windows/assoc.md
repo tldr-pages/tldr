@@ -13,4 +13,4 @@
 
 - Set the associated file type for a specific extension:
 
-`assoc .{{txt}}={{txtfile}}`
+`assoc .{{path/to/file}}`

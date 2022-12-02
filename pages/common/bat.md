@@ -10,11 +10,11 @@
 
 - Concatenate several files into the target file:
 
-`bat {{path/to/file1 path/to/file2 ...}} > {{target_file}}`
+`bat {{path/to/file1 path/to/file2 ...}} > {{path/to/file}}`
 
 - Append several files into the target file:
 
-`bat {{path/to/file1 path/to/file2 ...}} >> {{target_file}}`
+`bat {{path/to/file1 path/to/file2 ...}} >> {{path/to/file}}`
 
 - Number all output lines:
 

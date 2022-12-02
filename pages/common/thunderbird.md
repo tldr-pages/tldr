@@ -9,7 +9,7 @@
 
 - Use a specific user profile:
 
-`thunderbird -P {{profile_name}}`
+`thunderbird -P {{path/to/file}}`
 
 - Use a specific user profile directory:
 

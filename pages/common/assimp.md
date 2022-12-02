@@ -14,11 +14,11 @@
 
 - Convert a file to one of the supported output formats, using the default parameters:
 
-`assimp export {{input_file.stl}} {{output_file.obj}}`
+`assimp export {{path/to/file.stl}} {{path/to/file.obj}}`
 
 - Convert a file using custom parameters (the dox_cmd.h file in assimp's source code lists available parameters):
 
-`assimp export {{input_file.stl}} {{output_file.obj}} {{parameters}}`
+`assimp export {{path/to/file.stl}} {{path/to/file.obj}} {{parameters}}`
 
 - Display a summary of a 3D file's contents:
 

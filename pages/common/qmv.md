@@ -5,7 +5,7 @@
 
 - Move a single file (open an editor with the source filename on the left and the target filename on the right):
 
-`qmv {{source_file}}`
+`qmv {{path/to/file}}`
 
 - Move multiple JPG files:
 

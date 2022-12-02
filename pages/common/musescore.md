@@ -21,7 +21,7 @@
 
 - Export the given file to the specified output file. The file type depends on the given extension:
 
-`musescore --export-to {{output_file}} {{input_file}}`
+`musescore --export-to {{path/to/file}} {{path/to/file}}`
 
 - Print a diff between the given scores:
 

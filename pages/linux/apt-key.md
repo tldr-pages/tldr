@@ -10,7 +10,7 @@
 
 - Add a key to the trusted keystore:
 
-`apt-key add {{public_key_file.asc}}`
+`apt-key add {{path/to/file.asc}}`
 
 - Delete a key from the trusted keystore:
 

@@ -9,12 +9,12 @@
 
 - Take input from standard input and save it in a log file:
 
-`logsave {{logfile}} -`
+`logsave {{path/to/file}} -`
 
 - Append the output to a log file, instead of replacing its current contents:
 
-`logsave -a {{logfile}} {{command}}`
+`logsave -a {{path/to/file}} {{command}}`
 
 - Show verbose output:
 
-`logsave -v {{logfile}} {{command}}`
+`logsave -v {{path/to/file}} {{command}}`

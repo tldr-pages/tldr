@@ -9,7 +9,7 @@
 
 - Mount a device to a directory:
 
-`mount -t {{filesystem_type}} {{path/to/device_file}} {{path/to/target_directory}}`
+`mount -t {{path/to/file}} {{path/to/device_file}} {{path/to/target_directory}}`
 
 - Create a specific directory if it does not exist and mount a device to it:
 

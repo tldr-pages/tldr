@@ -17,8 +17,8 @@
 
 - Save the results to a text file:
 
-`amass enum -o {{output_file}} -d {{domain_name}}`
+`amass enum -o {{path/to/file}} -d {{domain_name}}`
 
 - Save the results to a database:
 
-`amass enum -o {{output_file}} -dir {{path/to/database_directory}}`
+`amass enum -o {{path/to/file}} -dir {{path/to/database_directory}}`

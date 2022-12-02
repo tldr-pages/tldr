@@ -25,4 +25,4 @@
 
 - Save results to a text file:
 
-`amass intel -o {{output_file}} -whois -d {{domain_name}}`
+`amass intel -o {{path/to/file}} -whois -d {{domain_name}}`

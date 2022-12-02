@@ -9,4 +9,4 @@
 
 - Set a specific power profile:
 
-`powerprofilesctl set {{profile_name}}`
+`powerprofilesctl set {{path/to/file}}`

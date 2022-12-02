@@ -13,11 +13,11 @@
 
 - Same as above, customize host and port:
 
-`pg_dumpall -h {{host}} -p {{port}} > {{output_file.sql}}`
+`pg_dumpall -h {{host}} -p {{port}} > {{path/to/file.sql}}`
 
 - Dump all databases into a custom-format archive file with moderate compression:
 
-`pg_dumpall -Fc > {{output_file.dump}}`
+`pg_dumpall -Fc > {{path/to/file.dump}}`
 
 - Dump only database data into an SQL-script file:
 
@@ -25,4 +25,4 @@
 
 - Dump only schema (data definitions) into an SQL-script file:
 
-`pg_dumpall -s > {{output_file.sql}}`
+`pg_dumpall -s > {{path/to/file.sql}}`

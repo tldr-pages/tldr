@@ -6,7 +6,7 @@
 
 - Remove a file with sensitive data but leave the latest commit untouched:
 
-`bfg --delete-files {{file_with_sensitive_data}}`
+`bfg --delete-files {{path/to/file}}`
 
 - Remove all text mentioned in the specified file wherever it can be found in the repository's history:
 

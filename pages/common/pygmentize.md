@@ -9,7 +9,7 @@
 
 - Explicitly set the language for syntax highlighting:
 
-`pygmentize -l {{javascript}} {{input_file}}`
+`pygmentize -l {{javascript}} {{path/to/file}}`
 
 - List available lexers (processors for input languages):
 
@@ -17,7 +17,7 @@
 
 - Save output to a file in HTML format:
 
-`pygmentize -f html -o {{output_file.html}} {{input_file.py}}`
+`pygmentize -f html -o {{path/to/file.html}} {{path/to/file.py}}`
 
 - List available output formats:
 
@@ -25,4 +25,4 @@
 
 - Output an HTML file, with additional formatter options (full page, with line numbers):
 
-`pygmentize -f html -O "full,linenos=True" -o {{output_file.html}} {{input_file}}`
+`pygmentize -f html -O "full,linenos=True" -o {{path/to/file.html}} {{path/to/file}}`

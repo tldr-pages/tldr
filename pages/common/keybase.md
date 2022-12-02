@@ -13,19 +13,19 @@
 
 - Sign a file:
 
-`keybase sign --infile {{input_file}} --outfile {{output_file}}`
+`keybase sign --infile {{path/to/file}} --outfile {{path/to/file}}`
 
 - Verify a signed file:
 
-`keybase verify --infile {{input_file}} --outfile {{output_file}}`
+`keybase verify --infile {{path/to/file}} --outfile {{path/to/file}}`
 
 - Encrypt a file:
 
-`keybase encrypt --infile {{input_file}} --outfile {{output_file}} {{receiver}}`
+`keybase encrypt --infile {{path/to/file}} --outfile {{path/to/file}} {{receiver}}`
 
 - Decrypt a file:
 
-`keybase decrypt --infile {{input_file}} --outfile {{output_file}}`
+`keybase decrypt --infile {{path/to/file}} --outfile {{path/to/file}}`
 
 - Revoke current device, log out, and delete local data:
 

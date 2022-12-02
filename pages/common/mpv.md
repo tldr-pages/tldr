@@ -29,7 +29,7 @@
 
 - Play a file using a profile defined in the `mpv.conf` file:
 
-`mpv --profile {{profile_name}} {{path/to/file}}`
+`mpv --profile {{path/to/file}} {{path/to/file}}`
 
 - Display the output of webcam or other video input device:
 

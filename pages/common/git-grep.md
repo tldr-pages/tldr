@@ -10,7 +10,7 @@
 
 - Search for a string in files matching a pattern in tracked files:
 
-`git grep {{search_string}} -- {{file_glob_pattern}}`
+`git grep {{search_string}} -- {{path/to/file}}`
 
 - Search for a string in tracked files, including submodules:
 

@@ -6,7 +6,7 @@
 
 - Play the given audio file:
 
-`play {{audiofile}}`
+`play {{path/to/file}}`
 
 - Play the given audio files:
 
@@ -14,8 +14,8 @@
 
 - Play the given audio at twice the speed:
 
-`play {{audiofile}} speed 2.0`
+`play {{path/to/file}} speed 2.0`
 
 - Play the given audio in reverse:
 
-`play {{audiofile}} reverse`
+`play {{path/to/file}} reverse`

@@ -17,7 +17,7 @@
 
 - Get all object type-specific properties for the given btrfs filesystem or device:
 
-`sudo btrfs property get -t {{subvol|filesystem|inode|device}} {{path/to/btrfs_filesystem}}`
+`sudo btrfs property get -t {{path/to/file}} {{path/to/btrfs_filesystem}}`
 
 - Set the `compression` property for a given btrfs inode (either a file or directory):
 

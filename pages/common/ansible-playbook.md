@@ -9,7 +9,7 @@
 
 - Run tasks in playbook with custom host inventory:
 
-`ansible-playbook {{playbook}} -i {{inventory_file}}`
+`ansible-playbook {{playbook}} -i {{path/to/file}}`
 
 - Run tasks in playbook with extra variables defined via the command-line:
 

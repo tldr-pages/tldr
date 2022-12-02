@@ -6,7 +6,7 @@
 
 - Apply the default style of 4 spaces per indent and no formatting changes:
 
-`astyle {{source_file}}`
+`astyle {{path/to/file}}`
 
 - Apply the Java style with attached braces:
 

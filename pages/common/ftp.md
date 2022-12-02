@@ -33,4 +33,4 @@
 
 - Rename a file on the remote server:
 
-`rename {{original_filename}} {{new_filename}}`
+`rename {{path/to/file}} {{path/to/file}}`

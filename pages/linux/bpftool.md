@@ -34,4 +34,4 @@
 
 - Run commands in batch mode from a file:
 
-`bpftool batch file {{myfile}}`
+`bpftool batch file {{path/to/file}}`

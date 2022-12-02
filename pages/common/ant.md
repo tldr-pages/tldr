@@ -10,7 +10,7 @@
 
 - Build a project using build file other than `build.xml`:
 
-`ant -f {{buildfile.xml}}`
+`ant -f {{path/to/file.xml}}`
 
 - Print information on possible targets for this project:
 

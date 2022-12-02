@@ -22,4 +22,4 @@
 
 - Specify output file name and/or path:
 
-`lrunzip -o {{outfilename}} {{path/to/file.lrz}}`
+`lrunzip -o {{path/to/file}} {{path/to/file.lrz}}`

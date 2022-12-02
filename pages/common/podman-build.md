@@ -14,7 +14,7 @@
 
 - Create an image from a non-standard file:
 
-`podman build --file {{Containerfile.different}} .`
+`podman build --file {{path/to/file.different}} .`
 
 - Create an image without using any previously cached images:
 

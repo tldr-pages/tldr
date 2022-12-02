@@ -29,8 +29,8 @@
 
 - Capture all traffic except traffic over port 22 and save to a dump file:
 
-`tcpdump -w {{dumpfile.pcap}} port not {{22}}`
+`tcpdump -w {{path/to/file.pcap}} port not {{22}}`
 
 - Read from a given dump file:
 
-`tcpdump -r {{dumpfile.pcap}}`
+`tcpdump -r {{path/to/file.pcap}}`

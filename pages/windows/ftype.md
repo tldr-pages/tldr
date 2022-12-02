@@ -9,8 +9,8 @@
 
 - Display the associated program for a specific file type:
 
-`ftype {{file_type}}`
+`ftype {{path/to/file}}`
 
 - Set the associated program for a specific file type:
 
-`ftype {{file_type}}="{{path/to/executable_command}}"`
+`ftype {{path/to/file}}="{{path/to/executable_command}}"`

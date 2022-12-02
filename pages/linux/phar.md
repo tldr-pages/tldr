@@ -5,7 +5,7 @@
 
 - Add space-separated files or directories to a Phar file:
 
-`phar add -f {{path/to/phar_file}} {{files_or_directories}}`
+`phar add -f {{path/to/phar_file}} {{path/to/file}}`
 
 - Display the contents of a Phar file:
 
@@ -13,7 +13,7 @@
 
 - Delete the specified file or directory from a Phar file:
 
-`phar delete -f {{path/to/phar_file}} -e {{file_or_directory}}`
+`phar delete -f {{path/to/phar_file}} -e {{path/to/file}}`
 
 - Display full usage information and available hashing/compression algorithms:
 

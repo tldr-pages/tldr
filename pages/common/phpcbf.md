@@ -17,11 +17,11 @@
 
 - Specify comma-separated file extensions to include when sniffing:
 
-`phpcbf {{path/to/directory}} --extensions {{file_extension(s)}}`
+`phpcbf {{path/to/directory}} --extensions {{path/to/file}}`
 
 - A comma-separated list of files to load before processing:
 
-`phpcbf {{path/to/directory}} --bootstrap {{file(s)}}`
+`phpcbf {{path/to/directory}} --bootstrap {{path/to/file}}`
 
 - Don't recurse into subdirectories:
 

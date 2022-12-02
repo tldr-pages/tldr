@@ -9,7 +9,7 @@
 
 - Start a REPL and load the specified Haskell source file:
 
-`ghci {{source_file.hs}}`
+`ghci {{path/to/file.hs}}`
 
 - Start a REPL and enable a language option:
 

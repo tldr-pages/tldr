@@ -5,7 +5,7 @@
 
 - Tag a git repo and signing the resulting link file:
 
-`in-toto-run -n {{tag}} --products {{.}} -k {{key_file}} -- {{git tag v1.0}}`
+`in-toto-run -n {{tag}} --products {{.}} -k {{path/to/file}} -- {{git tag v1.0}}`
 
 - Create a tarball, storing files as materials and the tarball as product:
 
@@ -13,8 +13,8 @@
 
 - Generate signed attestations for review work:
 
-`in-toto-run -n {{review}} -k {{key_file}} -m {{document.pdf}} -x`
+`in-toto-run -n {{review}} -k {{path/to/file}} -m {{document.pdf}} -x`
 
 - Scan the image using Trivy and generate link file:
 
-`in-toto-run -n {{scan}} -k {{key_file}} -p {{report.json}} -- {{/bin/sh -c "trivy -o report.json -f json <IMAGE>"}}`
+`in-toto-run -n {{scan}} -k {{path/to/file}} -p {{report.json}} -- {{/bin/sh -c "trivy -o report.json -f json <IMAGE>"}}`

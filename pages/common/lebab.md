@@ -22,4 +22,4 @@
 
 - Replace all `.js` files in-place in the specified directory, glob or file:
 
-`lebab --replace {{directory|glob|file}}`
+`lebab --replace {{path/to/file}}`

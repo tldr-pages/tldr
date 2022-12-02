@@ -13,7 +13,7 @@
 
 - Filter a file, see both progress and amount of output data:
 
-`pv -cN in {{big_text_file}} | grep {{pattern}} | pv -cN out > {{filtered_file}}`
+`pv -cN in {{path/to/file}} | grep {{pattern}} | pv -cN out > {{path/to/file}}`
 
 - Attach to an already running process and see its file reading progress:
 
@@ -25,4 +25,4 @@
 
 - Stop reading after reading specified amount of data, rate limit to 1K/s:
 
-`pv -L 1K -S {{maximum_file_size_to_be_read}}`
+`pv -L 1K -S {{path/to/file}}`

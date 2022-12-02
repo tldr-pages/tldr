@@ -6,16 +6,16 @@
 
 - Display the location of file pattern:
 
-`where {{file_pattern}}`
+`where {{path/to/file}}`
 
 - Display the location of file pattern including file size and date:
 
-`where /T {{file_pattern}}`
+`where /T {{path/to/file}}`
 
 - Recursively search for file pattern at specified path:
 
-`where /R {{path/to/directory}} {{file_pattern}}`
+`where /R {{path/to/directory}} {{path/to/file}}`
 
 - Silently return the error code for the location of the file pattern:
 
-`where /Q {{file_pattern}}`
+`where /Q {{path/to/file}}`

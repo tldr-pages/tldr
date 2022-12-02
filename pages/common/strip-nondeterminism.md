@@ -9,7 +9,7 @@
 
 - Strip nondeterministic information from a file manually specifying the filetype:
 
-`strip-nondeterminism --type {{filetype}} {{path/to/file}}`
+`strip-nondeterminism --type {{path/to/file}} {{path/to/file}}`
 
 - Strip nondeterministic information from a file; instead of removing timestamps set them to the specified UNIX timestamp:
 

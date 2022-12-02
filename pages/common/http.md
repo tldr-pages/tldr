@@ -9,7 +9,7 @@
 
 - Send form-encoded data:
 
-`http --form {{example.org}} {{name='bob'}} {{profile_picture@'bob.png'}}`
+`http --form {{example.org}} {{name='bob'}} {{path/to/file.png'}}`
 
 - Send JSON object:
 

@@ -21,7 +21,7 @@
 
 - Ignore specified comma-separated files in a directory:
 
-`babel {{path/to/input_directory}} --ignore {{ignored_files}}`
+`babel {{path/to/input_directory}} --ignore {{path/to/file}}`
 
 - Transpile and output as minified JavaScript:
 

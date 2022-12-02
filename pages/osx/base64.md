@@ -5,11 +5,11 @@
 
 - Encode a file:
 
-`base64 --input={{plain_file}}`
+`base64 --input={{path/to/file}}`
 
 - Decode a file:
 
-`base64 --decode --input={{base64_file}}`
+`base64 --decode --input={{path/to/file}}`
 
 - Encode from `stdin`:
 

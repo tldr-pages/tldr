@@ -5,8 +5,8 @@
 
 - Test filename encoding conversion (don't actually change the filename):
 
-`convmv -f {{from_encoding}} -t {{to_encoding}} {{input_file}}`
+`convmv -f {{from_encoding}} -t {{to_encoding}} {{path/to/file}}`
 
 - Convert filename encoding and rename the file to the new encoding:
 
-`convmv -f {{from_encoding}} -t {{to_encoding}} --notest {{input_file}}`
+`convmv -f {{from_encoding}} -t {{to_encoding}} --notest {{path/to/file}}`

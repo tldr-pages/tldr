@@ -17,7 +17,7 @@
 
 - Locate and download files [R]ecursively up to N levels depth, searching for filename pattern (regex), and excluding certain shares:
 
-`smbmap --host-file {{path/to/file}} -u {{username}} -p {{password}} -q -R --depth {{number}} --exclude {{sharename}} -A {{filepattern}}`
+`smbmap --host-file {{path/to/file}} -u {{username}} -p {{password}} -q -R --depth {{number}} --exclude {{sharename}} -A {{path/to/file}}`
 
 - Upload file through smb using username and password:
 

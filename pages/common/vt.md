@@ -14,11 +14,11 @@
 
 - Display information from a specific analysis:
 
-`vt analysis {{file_id|analysis_id}}`
+`vt analysis {{path/to/file}}`
 
 - Download files in encrypted `.zip` format (requires premium account):
 
-`vt download {{file_id}} --output {{path/to/directory}} --zip --zip-password {{password}}`
+`vt download {{path/to/file}} --output {{path/to/directory}} --zip --zip-password {{password}}`
 
 - Initialize or re-initialize `vt` to enter API key interactively:
 

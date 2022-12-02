@@ -18,7 +18,7 @@
 
 - Restrict operations to a given filesystem (by default edquota operates on all filesystems with quotas):
 
-`sudo edquota --file-system {{filesystem}}`
+`sudo edquota --file-system {{path/to/file}}`
 
 - Edit the default grace period:
 

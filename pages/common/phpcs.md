@@ -17,7 +17,7 @@
 
 - Specify comma-separated file extensions to include when sniffing:
 
-`phpcs {{path/to/directory}} --extensions {{file_extension(s)}}`
+`phpcs {{path/to/directory}} --extensions {{path/to/file}}`
 
 - Specify the format of the output report (e.g. `full`, `xml`, `json`, `summary`):
 
@@ -29,7 +29,7 @@
 
 - A comma-separated list of files to load before processing:
 
-`phpcs {{path/to/directory}} --bootstrap {{file(s)}}`
+`phpcs {{path/to/directory}} --bootstrap {{path/to/file}}`
 
 - Don't recurse into subdirectories:
 

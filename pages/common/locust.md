@@ -9,7 +9,7 @@
 
 - Use a different test file:
 
-`locust --locustfile={{test_file.py}} --host={{http://example.com}}`
+`locust --locustfile={{path/to/file.py}} --host={{http://example.com}}`
 
 - Run test without web interface, spawning 1 user a second until there are 100 users:
 

@@ -17,12 +17,12 @@
 
 - Compress a file specifying the output filename:
 
-`gzip -c {{path/to/file.ext}} > {{compressed_file.ext.gz}}`
+`gzip -c {{path/to/file.ext}} > {{path/to/file.gz}}`
 
 - Decompress a gzipped file specifying the output filename:
 
-`gzip -c -d {{path/to/file.ext}}.gz > {{uncompressed_file.ext}}`
+`gzip -c -d {{path/to/file.ext}}.gz > {{path/to/file.ext}}`
 
 - Specify the compression level. 1=Fastest (Worst), 9=Slowest (Best), Default level is 6:
 
-`gzip -9 -c {{path/to/file.ext}} > {{compressed_file.ext.gz}}`
+`gzip -9 -c {{path/to/file.ext}} > {{path/to/file.gz}}`

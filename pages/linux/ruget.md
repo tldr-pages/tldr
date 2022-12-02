@@ -9,4 +9,4 @@
 
 - Download the contents of a URL to a specified [o]utput file:
 
-`ruget --output {{file_name}} {{https://example.com/file}}`
+`ruget --output {{path/to/file}} {{https://example.com/file}}`

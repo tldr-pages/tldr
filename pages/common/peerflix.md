@@ -17,7 +17,7 @@
 
 - Stream the largest file in a torrent to MPlayer, with subtitles:
 
-`peerflix "{{torrent_url|magnet_link}}" --mplayer --subtitles {{subtitle-file.srt}}`
+`peerflix "{{torrent_url|magnet_link}}" --mplayer --subtitles {{path/to/file.srt}}`
 
 - Stream all files from a torrent to Airplay:
 

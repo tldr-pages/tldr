@@ -14,7 +14,7 @@
 
 - Search for a regular expression only in a certain filetype (e.g. HTML, CSS, etc.):
 
-`rg --type {{filetype}} {{regular_expression}}`
+`rg --type {{path/to/file}} {{regular_expression}}`
 
 - Search for a regular expression only in a subset of directories:
 

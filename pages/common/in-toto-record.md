@@ -5,8 +5,8 @@
 
 - Start the record (creates a preliminary link file):
 
-`in-toto-record start -n {{edit-files}} -k {{path/to/key_file}} -m {{.}}`
+`in-toto-record start -n {{path/to/file}} -k {{path/to/key_file}} -m {{.}}`
 
 - Stop the record (expects a preliminary link file):
 
-`in-toto-record stop -n {{edit-files}} -k {{path/to/key_file}} -p {{.}}`
+`in-toto-record stop -n {{path/to/file}} -k {{path/to/key_file}} -p {{.}}`

@@ -5,8 +5,8 @@
 
 - Disable a configuration file:
 
-`sudo a2disconf {{configuration_file}}`
+`sudo a2disconf {{path/to/file}}`
 
 - Don't show informative messages:
 
-`sudo a2disconf --quiet {{configuration_file}}`
+`sudo a2disconf --quiet {{path/to/file}}`

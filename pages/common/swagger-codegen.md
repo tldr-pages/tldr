@@ -5,7 +5,7 @@
 
 - Generate documentation and code from an OpenAPI/swagger file:
 
-`swagger-codegen generate -i {{swagger_file}} -l {{language}}`
+`swagger-codegen generate -i {{path/to/file}} -l {{language}}`
 
 - Generate Java code using the library retrofit2 and the option useRxJava2:
 

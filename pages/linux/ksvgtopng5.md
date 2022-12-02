@@ -5,4 +5,4 @@
 
 - Convert an SVG file (should be an absolute path) to PNG:
 
-`ksvgtopng5 {{width}} {{height}} {{path/to/file.svg}} {{output_filename.png}}`
+`ksvgtopng5 {{width}} {{height}} {{path/to/file.svg}} {{path/to/file.png}}`

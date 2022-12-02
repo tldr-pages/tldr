@@ -9,7 +9,7 @@
 
 - Launch a new instance, set its name and use a cloud-init configuration file:
 
-`multipass launch -n {{instance_name}} --cloud-init {{configuration_file}}`
+`multipass launch -n {{instance_name}} --cloud-init {{path/to/file}}`
 
 - List all the created instances and some of their properties:
 

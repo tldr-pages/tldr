@@ -13,7 +13,7 @@
 
 - Specify the filetype of a file:
 
-`mate --type {{filetype}} {{path/to/file}}`
+`mate --type {{path/to/file}} {{path/to/file}}`
 
 - Open and wait until finished editing a specific file:
 

@@ -8,7 +8,7 @@
 
 `bedtools intersect -a {{path/to/file_1}} -b {{path/to/file_2}} -s > {{path/to/output_file}}`
 
-- Intersect two files with a left outer join, i.e. report each feature from {{file_1}} and NULL if no overlap with {{file_2}}:
+- Intersect two files with a left outer join, i.e. report each feature from {{path/to/file}} and NULL if no overlap with {{path/to/file}}:
 
 `bedtools intersect -a {{path/to/file_1}} -b {{path/to/file_2}} -lof > {{path/to/output_file}}`
 
@@ -24,6 +24,6 @@
 
 `bedtools bamtobed -i {{path/to/file}}.bam > {{path/to/file}}.bed`
 
-- Find for all features in {{file_1}}.bed the closest one in {{file_2}}.bed and write their distance in an extra column (input files must be sorted):
+- Find for all features in {{path/to/file}}.bed the closest one in {{path/to/file}}.bed and write their distance in an extra column (input files must be sorted):
 
 `bedtools closest -a {{path/to/file_1}}.bed -b {{path/to/file_2}}.bed -d`

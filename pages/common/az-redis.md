@@ -14,7 +14,7 @@
 
 - Export data stored in a Redis cache:
 
-`az redis export --container {{container}} --file-format {{file-format}} --name {{name}} --prefix {{prefix}} --resource-group {{resource_group}}`
+`az redis export --container {{container}} --file-format {{path/to/file}} --name {{name}} --prefix {{prefix}} --resource-group {{resource_group}}`
 
 - Delete a Redis cache:
 

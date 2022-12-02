@@ -9,7 +9,7 @@
 
 - Assemble `source.asm` into a binary file `output_file`, in the specified format:
 
-`nasm -f {{format}} {{source.asm}} -o {{output_file}}`
+`nasm -f {{format}} {{source.asm}} -o {{path/to/file}}`
 
 - List valid output formats (along with basic nasm help):
 
@@ -17,7 +17,7 @@
 
 - Assemble and generate an assembly listing file:
 
-`nasm -l {{list_file}} {{source.asm}}`
+`nasm -l {{path/to/file}} {{source.asm}}`
 
 - Add a directory (must be written with trailing slash) to the include file search path before assembling:
 

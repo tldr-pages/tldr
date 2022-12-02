@@ -5,11 +5,11 @@
 
 - Remake the configuration file storing into a specific location:
 
-`tlmgr generate --dest {{output_file}}`
+`tlmgr generate --dest {{path/to/file}}`
 
 - Remake the configuration file using a local configuration file:
 
-`tlmgr generate --localcfg {{local_configuration_file}}`
+`tlmgr generate --localcfg {{path/to/file}}`
 
 - Run necessary programs after rebuilding configuration files:
 

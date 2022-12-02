@@ -25,7 +25,7 @@
 
 - Upload using a specific pypirc configuration file:
 
-`twine upload --config-file {{configuration_file}} dist/*`
+`twine upload --config-file {{path/to/file}} dist/*`
 
 - Continue uploading files if one already exists (only valid when uploading to PyPI):
 

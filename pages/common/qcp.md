@@ -5,7 +5,7 @@
 
 - Copy a single file (open an editor with the source filename on the left and the target filename on the right):
 
-`qcp {{source_file}}`
+`qcp {{path/to/file}}`
 
 - Copy multiple JPG files:
 

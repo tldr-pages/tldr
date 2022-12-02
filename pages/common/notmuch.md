@@ -21,11 +21,11 @@
 
 - Search for messages matching the given search term:
 
-`notmuch search --format={{json|text}} --output={{summary|threads|messages|files|tags}} "{{search_term}}"`
+`notmuch search --format={{json|text}} --output={{path/to/file}} "{{search_term}}"`
 
 - Limit the number of search results to X:
 
-`notmuch search --format={{json|text}} --output={{summary|threads|messages|files|tags}} --limit={{X}} "{{search_term}}"`
+`notmuch search --format={{json|text}} --output={{path/to/file}} --limit={{X}} "{{search_term}}"`
 
 - Create a reply template for a set of messages:
 

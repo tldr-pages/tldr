@@ -9,11 +9,11 @@
 
 - Produce an HTML fragment, suitable for inclusion in a larger document:
 
-`highlight --out-format={{html}} --fragment --syntax {{language}} {{source_file}}`
+`highlight --out-format={{html}} --fragment --syntax {{language}} {{path/to/file}}`
 
 - Inline the CSS styling in every tag:
 
-`highlight --out-format={{html}} --inline-css --syntax {{language}} {{source_file}}`
+`highlight --out-format={{html}} --inline-css --syntax {{language}} {{path/to/file}}`
 
 - List all supported languages, themes, or plugins:
 

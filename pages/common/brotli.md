@@ -13,12 +13,12 @@
 
 - Compress a file specifying the output filename:
 
-`brotli {{path/to/file.ext}} -o {{compressed_file.ext.br}}`
+`brotli {{path/to/file.ext}} -o {{path/to/file.br}}`
 
 - Decompress a Brotli file specifying the output filename:
 
-`brotli -d {{compressed_file.ext.br}} -o {{path/to/file.ext}}`
+`brotli -d {{path/to/file.br}} -o {{path/to/file.ext}}`
 
 - Specify the compression level. 1=Fastest (Worst), 11=Slowest (Best):
 
-`brotli -q {{11}} {{path/to/file.ext}} -o {{compressed_file.ext.br}}`
+`brotli -q {{11}} {{path/to/file.ext}} -o {{path/to/file.br}}`

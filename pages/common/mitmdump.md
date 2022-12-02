@@ -10,7 +10,7 @@
 
 - Filter a saved traffic file to just POST requests:
 
-`mitmdump -nr {{input_filename}} -w {{output_filename}} "{{~m post}}"`
+`mitmdump -nr {{path/to/file}} -w {{path/to/file}} "{{~m post}}"`
 
 - Replay a saved traffic file:
 

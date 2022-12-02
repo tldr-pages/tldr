@@ -9,4 +9,4 @@
 
 - List the specified attribute only:
 
-`modinfo -F {{author|description|license|parm|filename}} {{kernel_module}}`
+`modinfo -F {{path/to/file}} {{kernel_module}}`

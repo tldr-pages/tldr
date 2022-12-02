@@ -6,24 +6,24 @@
 
 - Merge two audio files into one:
 
-`sox -m {{input_audiofile1}} {{input_audiofile2}} {{output_audiofile}}`
+`sox -m {{path/to/file}} {{path/to/file}} {{path/to/file}}`
 
 - Trim an audio file to the specified times:
 
-`sox {{input_audiofile}} {{output_audiofile}} trim {{start}} {{end}}`
+`sox {{path/to/file}} {{path/to/file}} trim {{start}} {{end}}`
 
 - Normalize an audio file (adjust volume to the maximum peak level, without clipping):
 
-`sox --norm {{input_audiofile}} {{output_audiofile}}`
+`sox --norm {{path/to/file}} {{path/to/file}}`
 
 - Reverse and save an audio file:
 
-`sox {{input_audiofile}} {{output_audiofile}} reverse`
+`sox {{path/to/file}} {{path/to/file}} reverse`
 
 - Print statistical data of an audio file:
 
-`sox {{input_audiofile}} -n stat`
+`sox {{path/to/file}} -n stat`
 
 - Increase the volume of an audio file by 2x:
 
-`sox -v 2.0 {{input_audiofile}} {{output_audiofile}}`
+`sox -v 2.0 {{path/to/file}} {{path/to/file}}`

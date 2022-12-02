@@ -25,7 +25,7 @@
 
 - Ignore all files and directories with a specific name:
 
-`dust --ignore-directory {{file_or_directory_name}}`
+`dust --ignore-directory {{path/to/file}}`
 
 - Do not display percent bars and percentages:
 

@@ -17,7 +17,7 @@
 
 - Deploy locally:
 
-`spatial local launch {{launch_config}} --snapshot={{snapshot_file}}`
+`spatial local launch {{launch_config}} --snapshot={{path/to/file}}`
 
 - Launch a local worker to connect to your local deployment:
 

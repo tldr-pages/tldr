@@ -14,7 +14,7 @@
 
 - Use a font from the default font directory (the extension can be omitted):
 
-`figlet {{input_text}} -f {{font_filename}}`
+`figlet {{input_text}} -f {{path/to/file}}`
 
 - Pipe command output through FIGlet:
 

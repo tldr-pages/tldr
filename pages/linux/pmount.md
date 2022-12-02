@@ -9,7 +9,7 @@
 
 - Mount a device with a specific filesystem type to `/media/label`:
 
-`pmount --type {{filesystem}} {{/dev/to/block/device}} {{label}}`
+`pmount --type {{path/to/file}} {{/dev/to/block/device}} {{label}}`
 
 - Mount a CD-ROM (filesystem type ISO9660) in read-only mode:
 

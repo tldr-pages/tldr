@@ -13,7 +13,7 @@
 
 - Write the output to another file:
 
-`shuf {{path/to/file}} --output={{output_filename}}`
+`shuf {{path/to/file}} --output={{path/to/file}}`
 
 - Generate 3 random numbers in the range 1-10 (inclusive):
 

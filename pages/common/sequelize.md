@@ -17,7 +17,7 @@
 
 - Create a seed file with the specified name to populate the database:
 
-`sequelize seed:generate --name {{seed_filename}}`
+`sequelize seed:generate --name {{path/to/file}}`
 
 - Populate database using all seed files:
 

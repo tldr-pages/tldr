@@ -30,4 +30,4 @@
 
 - Use a specific ssh private key for authentication with the remote host:
 
-`scp -i {{~/.ssh/private_key}} {{local_file}} {{remote_host}}:{{/path/remote_file}}`
+`scp -i {{~/.ssh/private_key}} {{path/to/file}} {{remote_host}}:{{/path/remote_file}}`

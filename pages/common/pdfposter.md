@@ -5,8 +5,8 @@
 
 - Convert an A2 poster into 4 A4 pages:
 
-`pdfposter --poster-size a2 {{input_file.pdf}} {{output_file.pdf}}`
+`pdfposter --poster-size a2 {{path/to/file.pdf}} {{path/to/file.pdf}}`
 
 - Scale an A4 poster to A3 and then generate 2 A4 pages:
 
-`pdfposter --scale 2 {{input_file.pdf}} {{output_file.pdf}}`
+`pdfposter --scale 2 {{path/to/file.pdf}} {{path/to/file.pdf}}`

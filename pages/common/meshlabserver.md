@@ -21,4 +21,4 @@
 
 - Process a 3D file using a filter script, writing the output of the filters into a log file:
 
-`meshlabserver -i {{input.x3d}} -o {{output.x3d}} -s {{filter_script.mlx}} -l {{logfile}}`
+`meshlabserver -i {{input.x3d}} -o {{output.x3d}} -s {{filter_script.mlx}} -l {{path/to/file}}`

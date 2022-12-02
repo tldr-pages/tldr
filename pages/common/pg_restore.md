@@ -5,24 +5,24 @@
 
 - Restore an archive into an existing database:
 
-`pg_restore -d {{db_name}} {{archive_file.dump}}`
+`pg_restore -d {{db_name}} {{path/to/file.dump}}`
 
 - Same as above, customize username:
 
-`pg_restore -U {{username}} -d {{db_name}} {{archive_file.dump}}`
+`pg_restore -U {{username}} -d {{db_name}} {{path/to/file.dump}}`
 
 - Same as above, customize host and port:
 
-`pg_restore -h {{host}} -p {{port}} -d {{db_name}} {{archive_file.dump}}`
+`pg_restore -h {{host}} -p {{port}} -d {{db_name}} {{path/to/file.dump}}`
 
 - List database objects included in the archive:
 
-`pg_restore --list {{archive_file.dump}}`
+`pg_restore --list {{path/to/file.dump}}`
 
 - Clean database objects before creating them:
 
-`pg_restore --clean -d {{db_name}} {{archive_file.dump}}`
+`pg_restore --clean -d {{db_name}} {{path/to/file.dump}}`
 
 - Use multiple jobs to do the restoring:
 
-`pg_restore -j {{2}} -d {{db_name}} {{archive_file.dump}}`
+`pg_restore -j {{2}} -d {{db_name}} {{path/to/file.dump}}`

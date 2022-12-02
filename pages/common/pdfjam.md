@@ -9,7 +9,7 @@
 
 - Merge the first page of each file together:
 
-`pdfjam {{files...}} 1 --outfile {{path/to/output_file.pdf}}`
+`pdfjam {{path/to/file..}} 1 --outfile {{path/to/output_file.pdf}}`
 
 - Merge subranges from two PDFs:
 
@@ -25,4 +25,4 @@
 
 - Reverse the order of pages within each given file and concatenate them:
 
-`pdfjam {{files...}} {{last-1}} --suffix {{reversed}}`
+`pdfjam {{path/to/file..}} {{last-1}} --suffix {{reversed}}`

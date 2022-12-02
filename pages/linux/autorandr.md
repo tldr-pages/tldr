@@ -5,7 +5,7 @@
 
 - Save the current screen layout:
 
-`autorandr -s {{profile_name}}`
+`autorandr -s {{path/to/file}}`
 
 - Show the saved profiles:
 
@@ -13,8 +13,8 @@
 
 - Change the profile:
 
-`autorandr -l {{profile_name}}`
+`autorandr -l {{path/to/file}}`
 
 - Set the default profile:
 
-`autorandr -d {{profile_name}}`
+`autorandr -d {{path/to/file}}`

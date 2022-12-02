@@ -14,4 +14,4 @@
 
 - Specify the filesystem:
 
-`sudo f3fix --fs-type={{filesystem_type}} {{/dev/device_name}}`
+`sudo f3fix --fs-type={{path/to/file}} {{/dev/device_name}}`

@@ -29,7 +29,7 @@
 
 - Display output and sort by column (defaults to by files):
 
-`scc --sort {{files|name|lines|blanks|code|comments|complexity}}`
+`scc --sort {{path/to/file}}`
 
 - Print help for scc:
 

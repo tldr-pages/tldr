@@ -5,19 +5,19 @@
 
 - Compare files (lists changes to turn `old_file` into `new_file`):
 
-`diff {{old_file}} {{new_file}}`
+`diff {{path/to/file}} {{path/to/file}}`
 
 - Compare files, ignoring white spaces:
 
-`diff --ignore-all-space {{old_file}} {{new_file}}`
+`diff --ignore-all-space {{path/to/file}} {{path/to/file}}`
 
 - Compare files, showing the differences side by side:
 
-`diff --side-by-side {{old_file}} {{new_file}}`
+`diff --side-by-side {{path/to/file}} {{path/to/file}}`
 
 - Compare files, showing the differences in unified format (as used by `git diff`):
 
-`diff --unified {{old_file}} {{new_file}}`
+`diff --unified {{path/to/file}} {{path/to/file}}`
 
 - Compare directories recursively (shows names for differing files/directories as well as changes made to files):
 
@@ -29,4 +29,4 @@
 
 - Create a patch file for Git from the differences of two text files, treating nonexistent files as empty:
 
-`diff --text --unified --new-file {{old_file}} {{new_file}} > {{diff.patch}}`
+`diff --text --unified --new-file {{path/to/file}} {{path/to/file}} > {{diff.patch}}`

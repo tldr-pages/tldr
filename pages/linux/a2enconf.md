@@ -5,8 +5,8 @@
 
 - Enable a configuration file:
 
-`sudo a2enconf {{configuration_file}}`
+`sudo a2enconf {{path/to/file}}`
 
 - Don't show informative messages:
 
-`sudo a2enconf --quiet {{configuration_file}}`
+`sudo a2enconf --quiet {{path/to/file}}`

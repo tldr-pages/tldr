@@ -5,15 +5,15 @@
 
 - Cut a file:
 
-`xcv x {{input_file}}`
+`xcv x {{path/to/file}}`
 
 - Copy a file:
 
-`xcv c {{input_file}}`
+`xcv c {{path/to/file}}`
 
 - Paste a file:
 
-`xcv v {{output_file}}`
+`xcv v {{path/to/file}}`
 
 - List files available for pasting:
 

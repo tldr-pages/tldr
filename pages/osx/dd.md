@@ -13,8 +13,8 @@
 
 - Generate a file of 100 random bytes by using kernel random driver:
 
-`dd if=/dev/urandom of={{random_file}} bs=100 count=1`
+`dd if=/dev/urandom of={{path/to/file}} bs=100 count=1`
 
 - Benchmark the write performance of a disk:
 
-`dd if=/dev/zero of={{file_1GB}} bs=1024 count=1000000`
+`dd if=/dev/zero of={{path/to/file}} bs=1024 count=1000000`

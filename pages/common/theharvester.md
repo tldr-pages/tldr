@@ -17,7 +17,7 @@
 
 - Save the output to two files in XML and HTML format:
 
-`theHarvester --domain {{domain_name}} --source {{google}} --file {{output_file_name}}`
+`theHarvester --domain {{domain_name}} --source {{google}} --file {{path/to/file}}`
 
 - Output all available options:
 

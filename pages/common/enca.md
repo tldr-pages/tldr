@@ -17,4 +17,4 @@
 
 - Create a copy of an existing file using a different encoding:
 
-`enca -L {{language}} -x {{to_encoding}} < {{original_file}} > {{new_file}}`
+`enca -L {{language}} -x {{to_encoding}} < {{path/to/file}} > {{path/to/file}}`
