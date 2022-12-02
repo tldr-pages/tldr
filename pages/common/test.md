@@ -18,7 +18,7 @@
 
 - Test if a directory does not exist:
 
-`test ! -d "{{path/to/directory}}"`
+`test ! -d {{path/to/directory}}`
 
 - If A is true, then do B, or C in the case of an error (notice that C may run even if A fails):
 

@@ -33,4 +33,4 @@
 
 - Print the tree ignoring the given directories:
 
-`tree -I '{{path/to/directory}}'`
+`tree -I {{path/to/directory}}`

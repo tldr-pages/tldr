@@ -9,7 +9,7 @@
 
 - Query an LDAP server with a no-newline password file for all items that are a member of the given group and return the object's displayName value:
 
-`ldapsearch -D '{{admin_DN}}' -y '{{path/to/file}}' -h {{ldap_host}} -b {{base_ou}} '{{memberOf=group1}}' displayName`
+`ldapsearch -D '{{admin_DN}}' -y {{path/to/file}} -h {{ldap_host}} -b {{base_ou}} '{{memberOf=group1}}' displayName`
 
 - Return 5 items that match the given filter:
 
