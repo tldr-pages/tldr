@@ -5,4 +5,4 @@
 
 - Запустить Java-программу:
 
-`dalvikvm -classpath {{path/to/file.jar}} {{classname}}`
+`dalvikvm -classpath {{путь/к/файлу.jar}} {{classname}}`

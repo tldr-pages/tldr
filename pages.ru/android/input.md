@@ -6,20 +6,20 @@
 
 - Отправить код события для одного символа на устройство Android:
 
-`input keyevent {{event_code}}`
+`input keyevent {{код_события}}`
 
 - Отправить текст на устройство Android (`%s` означает пробел):
 
-`input text "{{text}}"`
+`input text "{{текст}}"`
 
 - Отправить одно нажатие на экран на устройство Android:
 
-`input tap {{x_pos}} {{y_pos}}`
+`input tap {{х_позиция}} {{y_позиция}}`
 
 - Отправить жест смахивания на устройство Android:
 
-`input swipe {{x_start}} {{y_start}} {{x_end}} {{y_end}} {{duration_in_ms}}`
+`input swipe {{x_начало}} {{y_начало}} {{x_конец}} {{y_конец}} {{продолжительность_в_мс}}`
 
 - Отправить длинное нажатие на экран на устройство Android с помощью жеста смахивания:
 
-`input swipe {{x_pos}} {{y_pos}} {{x_pos}} {{y_pos}} {{duration_in_ms}}`
+`input swipe {{x_position}} {{y_position}} {{x_position}} {{y_pos}} {{продолжительность_в_мс}}`
