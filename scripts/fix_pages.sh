@@ -103,7 +103,8 @@ ignore() {
 parse_see_also_links() {
   declare line="$1"
   echo "$line" |\
-    sed --regexp-extended "s/^> See also: *(.+) *\.$/\1/; s/,? +(or|and)/,/g; s/, */,/g; s/[\`\"']//g; s/,/\n/g" | sed --regexp-extended "/^[[:space:]]*$/d"
+    sed --regexp-extended "s/^> See also: *(.+) *\.\$/\1/; s/  +/ /g; s/,? +(or|and)/,/g; s/, */,/g; s/[\`\"']//g; s/,/\n/g" |\
+    sed --regexp-extended "/^[[:space:]]*$/d"
 }
 
 create_see_also_links() {
@@ -158,7 +159,7 @@ fix_see_also_links_action() {
     for page in "$directory"/*.md; do
       declare see_also="^> See also:"
       if grep --ignore-case --extended-regexp -- "$see_also" "$page" > /dev/null; then
-        declare correct_format="^> See also: \`[^ ]+\`( or \`[^ ]+\`|(, \`[^ ]+\`)+(, or \`[^ ]+\`))\.\$"
+        declare correct_format="^> See also: \`[^\`,]+\`( or \`[^\`,]+\`|(, \`[^\`,]+\`)+(, or \`[^\`,]+\`))?\.\$"
         
         if ! grep --ignore-case --extended-regexp -- "$correct_format" "$page" > /dev/null; then
           show_page_error "$page" description "add backticks for command names, remove extra spaces, use \`or\` before the last command"
@@ -460,6 +461,23 @@ fix_placeholder_ellipsis_action() {
         fi
       fi
 
+      consecutive_placeholder_pair_with_broken_numbering_with_extension="\{\{(.+)\.([^ ]+)\}\} +\{\{\11\.\2\}\}( +\{\{\1[[:digit:]]+\.\2\}\})*"
+      if grep --extended-regexp -- "$consecutive_placeholder_pair_with_broken_numbering_with_extension" "$page" > /dev/null; then
+        show_page_warning "$page" placeholder "replace two consequtive placeholders with extensions with ellipsis"
+        code "$page"
+
+        if ! try_confirm "Do you want to fix '$page'?"; then
+          ignore "$page"
+          continue
+        fi
+        
+        if sed --in-place --regexp-extended "s/$consecutive_placeholder_pair_with_broken_numbering_with_extension/\{\{\11.\2 \12.\2 ...\}\}/g" "$page"; then
+          echo "Done."
+        else
+          echo "Failed: check whether file can be overridden."
+        fi
+      fi
+
       declare consecutive_placeholder_pair_with_broken_numbering_without_extension="\{\{(.+)\}\} +\{\{\12\}\}( +\{\{\1[[:digit:]]+\}\})*"
       if grep --extended-regexp -- "$consecutive_placeholder_pair_with_broken_numbering_without_extension" "$page" > /dev/null; then
         show_page_warning "$page" placeholder "replace two consequtive placeholders with ellipsis"
@@ -471,6 +489,74 @@ fix_placeholder_ellipsis_action() {
         fi
         
         if sed --in-place --regexp-extended "s/$consecutive_placeholder_pair_with_broken_numbering_without_extension/\{\{\11 \12 ...\}\}/g" "$page"; then
+          echo "Done."
+        else
+          echo "Failed: check whether file can be overridden."
+        fi
+      fi
+
+      consecutive_placeholder_pair_with_broken_numbering_without_extension="\{\{(.+)\}\} +\{\{\11\}\}( +\{\{\1[[:digit:]]+\}\})*"
+      if grep --extended-regexp -- "$consecutive_placeholder_pair_with_broken_numbering_without_extension" "$page" > /dev/null; then
+        show_page_warning "$page" placeholder "replace two consequtive placeholders with ellipsis"
+        code "$page"
+
+        if ! try_confirm "Do you want to fix '$page'?"; then
+          ignore "$page"
+          continue
+        fi
+        
+        if sed --in-place --regexp-extended "s/$consecutive_placeholder_pair_with_broken_numbering_without_extension/\{\{\11 \12 ...\}\}/g" "$page"; then
+          echo "Done."
+        else
+          echo "Failed: check whether file can be overridden."
+        fi
+      fi
+
+      consecutive_placeholder_pair_with_numbering_with_extension="\{\{(.+)1\}\}\.([^ ]+) +\{\{\12\}\}\.\2( +\{\{\1[[:digit:]]+\}\}\.\2)*"
+      if grep --extended-regexp -- "$consecutive_placeholder_pair_with_numbering_with_extension" "$page" > /dev/null; then
+        show_page_warning "$page" placeholder "replace two consequtive placeholders with extensions with ellipsis"
+        code "$page"
+
+        if ! try_confirm "Do you want to fix '$page'?"; then
+          ignore "$page"
+          continue
+        fi
+        
+        if sed --in-place --regexp-extended "s/$consecutive_placeholder_pair_with_numbering_with_extension/\{\{\11.\2 \12.\2 ...\}\}/g" "$page"; then
+          echo "Done."
+        else
+          echo "Failed: check whether file can be overridden."
+        fi
+      fi
+
+      consecutive_placeholder_pair_with_broken_numbering_with_extension="\{\{(.+)\}\}\.([^ ]+) +\{\{\12\}\}\.\2( +\{\{\1[[:digit:]]+\}\}\.\2)*"
+      if grep --extended-regexp -- "$consecutive_placeholder_pair_with_broken_numbering_with_extension" "$page" > /dev/null; then
+        show_page_warning "$page" placeholder "replace two consequtive placeholders with extensions with ellipsis"
+        code "$page"
+
+        if ! try_confirm "Do you want to fix '$page'?"; then
+          ignore "$page"
+          continue
+        fi
+        
+        if sed --in-place --regexp-extended "s/$consecutive_placeholder_pair_with_broken_numbering_with_extension/\{\{\11.\2 \12.\2 ...\}\}/g" "$page"; then
+          echo "Done."
+        else
+          echo "Failed: check whether file can be overridden."
+        fi
+      fi
+
+      consecutive_placeholder_pair_with_broken_numbering_with_extension="\{\{(.+)\}\}\.([^ ]+) +\{\{\11\}\}\.\2( +\{\{\1[[:digit:]]+\}\}\.\2)*"
+      if grep --extended-regexp -- "$consecutive_placeholder_pair_with_broken_numbering_with_extension" "$page" > /dev/null; then
+        show_page_warning "$page" placeholder "replace two consequtive placeholders with extensions with ellipsis"
+        code "$page"
+
+        if ! try_confirm "Do you want to fix '$page'?"; then
+          ignore "$page"
+          continue
+        fi
+        
+        if sed --in-place --regexp-extended "s/$consecutive_placeholder_pair_with_broken_numbering_with_extension/\{\{\11.\2 \12.\2 ...\}\}/g" "$page"; then
           echo "Done."
         else
           echo "Failed: check whether file can be overridden."
