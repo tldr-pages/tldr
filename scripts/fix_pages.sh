@@ -49,7 +49,23 @@ ${MAGENTA_COLOR}Options:$RESET_COLOR
                                ${RED_COLOR}Valid values: ${GREEN_COLOR}descriptions:${YELLOW_COLOR}stream ${GREEN_COLOR}descriptions:${YELLOW_COLOR}see-also
                                              ${GREEN_COLOR}generic-placeholder-naming:${YELLOW_COLOR}file ${GREEN_COLOR}generic-placeholder-naming:${YELLOW_COLOR}directory ${GREEN_COLOR}placeholder-naming:${YELLOW_COLOR}file
                                              ${GREEN_COLOR}generic-placeholder-quoting:${YELLOW_COLOR}file ${GREEN_COLOR}generic-placeholder-quoting:${YELLOW_COLOR}directory
-                                             ${GREEN_COLOR}any-placeholder-grouping:${YELLOW_COLOR}any$RESET_COLOR"
+                                             ${GREEN_COLOR}any-placeholder-grouping:${YELLOW_COLOR}any
+
+${MAGENTA_COLOR}Examples:
+  $CYAN_COLOR$0                                         ${BLUE_COLOR}Apply all fixes automatically but ask for confirmation
+                                                           for some of them which potentionally can produce false
+                                                           positives frequently.
+  $CYAN_COLOR$0 $YELLOW_COLOR-nd                                     ${BLUE_COLOR}Apply all fixes (except modifing [d]escriptions)
+                                                           automatically but ask for confirmation for some
+                                                           of them which potentionally can produce false
+                                                           positives frequently.
+  $CYAN_COLOR$0 $YELLOW_COLOR-np                                     ${BLUE_COLOR}The same as above but don't modify [p]laceholders.
+  $CYAN_COLOR$0 $YELLOW_COLOR-nq -ncf any-placeholder-grouping:any ${BLUE_COLOR}Apply all fixes with confirmation but don't ask confirmation
+                                                         while grouping placeholders (potentionally pages can be
+                                                         broken as substitutions don't understand context and are
+                                                         strictly textual).
+  
+  $RESET_COLOR"
 }
 
 version() {
