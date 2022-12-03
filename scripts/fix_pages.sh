@@ -332,7 +332,7 @@ fix_file_placeholders_action() {
         show_page_error "$page" placeholder "use \`{{path/to/source}}\` or \`{{path/to/executable}}\` syntax with an optional trailing number before an extension"
         code "$page"
 
-        if [[ ! " $* " =~ " $0 " ]]; then
+        if [[ ! " $* " =~ " ${FUNCNAME[0]} " ]]; then
           if ! try_confirm "Do you want to fix '$page'?"; then
             ignore "$page"
             continue
@@ -351,7 +351,7 @@ fix_file_placeholders_action() {
         show_page_error "$page" placeholder "use \`{{path/to/source}}\` or \`{{path/to/executable}}\` syntax with an optional trailing number"
         code "$page"
 
-        if [[ ! " $* " =~ " $0 " ]]; then
+        if [[ ! " $* " =~ " ${FUNCNAME[0]} " ]]; then
           if ! try_confirm "Do you want to fix '$page'?"; then
             ignore "$page"
             continue
@@ -462,7 +462,7 @@ fix_placeholder_ellipsis_action() {
         show_page_warning "$page" placeholder "replace plural term in a placeholder with an extension with ellipsis"
         code "$page"
 
-        if [[ ! " $* " =~ " $0 " ]]; then
+        if [[ ! " $* " =~ " ${FUNCNAME[0]} " ]]; then
           if ! try_confirm "Do you want to fix '$page'?"; then
             ignore "$page"
             continue
@@ -481,7 +481,7 @@ fix_placeholder_ellipsis_action() {
         show_page_warning "$page" placeholder "replace plural term in a placeholder with ellipsis"
         code "$page"
 
-        if [[ ! " $* " =~ " $0 " ]]; then
+        if [[ ! " $* " =~ " ${FUNCNAME[0]} " ]]; then
           if ! try_confirm "Do you want to fix '$page'?"; then
             ignore "$page"
             continue
@@ -500,7 +500,7 @@ fix_placeholder_ellipsis_action() {
         show_page_warning "$page" placeholder "replace brace expansion in a placeholder with an extension with ellipsis"
         code "$page"
 
-        if [[ ! " $* " =~ " $0 " ]]; then
+        if [[ ! " $* " =~ " ${FUNCNAME[0]} " ]]; then
           if ! try_confirm "Do you want to fix '$page'?"; then
             ignore "$page"
             continue
@@ -519,7 +519,7 @@ fix_placeholder_ellipsis_action() {
         show_page_warning "$page" placeholder "replace brace expansion in a placeholder with ellipsis"
         code "$page"
 
-        if [[ ! " $* " =~ " $0 " ]]; then
+        if [[ ! " $* " =~ " ${FUNCNAME[0]} " ]]; then
           if ! try_confirm "Do you want to fix '$page'?"; then
             ignore "$page"
             continue
@@ -538,7 +538,7 @@ fix_placeholder_ellipsis_action() {
         show_page_warning "$page" placeholder "replace two consequtive placeholders with extensions with ellipsis"
         code "$page"
 
-        if [[ ! " $* " =~ " $0 " ]]; then
+        if [[ ! " $* " =~ " ${FUNCNAME[0]} " ]]; then
           if ! try_confirm "Do you want to fix '$page'?"; then
             ignore "$page"
             continue
@@ -557,7 +557,7 @@ fix_placeholder_ellipsis_action() {
         show_page_warning "$page" placeholder "replace two consequtive placeholders with ellipsis"
         code "$page"
 
-        if [[ ! " $* " =~ " $0 " ]]; then
+        if [[ ! " $* " =~ " ${FUNCNAME[0]} " ]]; then
           if ! try_confirm "Do you want to fix '$page'?"; then
             ignore "$page"
             continue
@@ -576,7 +576,7 @@ fix_placeholder_ellipsis_action() {
         show_page_warning "$page" placeholder "replace two consequtive placeholders with extensions with ellipsis"
         code "$page"
 
-        if [[ ! " $* " =~ " $0 " ]]; then
+        if [[ ! " $* " =~ " ${FUNCNAME[0]} " ]]; then
           if ! try_confirm "Do you want to fix '$page'?"; then
             ignore "$page"
             continue
@@ -595,7 +595,7 @@ fix_placeholder_ellipsis_action() {
         show_page_warning "$page" placeholder "replace two consequtive placeholders with extensions with ellipsis"
         code "$page"
 
-        if [[ ! " $* " =~ " $0 " ]]; then
+        if [[ ! " $* " =~ " ${FUNCNAME[0]} " ]]; then
           if ! try_confirm "Do you want to fix '$page'?"; then
             ignore "$page"
             continue
@@ -614,7 +614,7 @@ fix_placeholder_ellipsis_action() {
         show_page_warning "$page" placeholder "replace two consequtive placeholders with ellipsis"
         code "$page"
 
-        if [[ ! " $* " =~ " $0 " ]]; then
+        if [[ ! " $* " =~ " ${FUNCNAME[0]} " ]]; then
           if ! try_confirm "Do you want to fix '$page'?"; then
             ignore "$page"
             continue
@@ -633,7 +633,7 @@ fix_placeholder_ellipsis_action() {
         show_page_warning "$page" placeholder "replace two consequtive placeholders with ellipsis"
         code "$page"
 
-        if [[ ! " $* " =~ " $0 " ]]; then
+        if [[ ! " $* " =~ " ${FUNCNAME[0]} " ]]; then
           if ! try_confirm "Do you want to fix '$page'?"; then
             ignore "$page"
             continue
@@ -652,7 +652,7 @@ fix_placeholder_ellipsis_action() {
         show_page_warning "$page" placeholder "replace two consequtive placeholders with extensions with ellipsis"
         code "$page"
 
-        if [[ ! " $* " =~ " $0 " ]]; then
+        if [[ ! " $* " =~ " ${FUNCNAME[0]} " ]]; then
           if ! try_confirm "Do you want to fix '$page'?"; then
             ignore "$page"
             continue
@@ -671,7 +671,7 @@ fix_placeholder_ellipsis_action() {
         show_page_warning "$page" placeholder "replace two consequtive placeholders with extensions with ellipsis"
         code "$page"
 
-        if [[ ! " $* " =~ " $0 " ]]; then
+        if [[ ! " $* " =~ " ${FUNCNAME[0]} " ]]; then
           if ! try_confirm "Do you want to fix '$page'?"; then
             ignore "$page"
             continue
@@ -690,7 +690,7 @@ fix_placeholder_ellipsis_action() {
         show_page_warning "$page" placeholder "replace two consequtive placeholders with extensions with ellipsis"
         code "$page"
 
-        if [[ ! " $* " =~ " $0 " ]]; then
+        if [[ ! " $* " =~ " ${FUNCNAME[0]} " ]]; then
           if ! try_confirm "Do you want to fix '$page'?"; then
             ignore "$page"
             continue
