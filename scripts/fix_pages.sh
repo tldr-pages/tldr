@@ -21,6 +21,7 @@ try_confirm() {
   return 0
 }
 
+
 declare IGNORE_FILE="$HOME/.config/fix_pages/ignore"
 
 try_create_ignore_file() {
@@ -51,6 +52,42 @@ ignore() {
   echo "$page" >> "$IGNORE_FILE"
 }
 
+
+parse_see_also_links() {
+  declare line="$1"
+  echo "$line" |\
+    sed --regexp-extended "s/^> See also: *(.+) *\.$/\1/; s/,? +(or|and)/,/g; s/, */,/g; s/[\`\"']//g; s/,/\n/g" | sed --regexp-extended "/^[[:space:]]*$/d"
+}
+
+create_see_also_links() {
+  if (( $# == 0 )); then
+    return
+  fi
+  if (( $# == 1 )); then
+    echo "> See also: \`$1\`."
+    return
+  fi
+  if (( $# == 2 )); then
+    echo "> See also: \`$1\` or \`$2\`."
+    return
+  fi
+
+  declare see_also_line="> See also: \`$1\`"
+  declare -i i=1
+  shift
+  for command in "$@"; do
+    if (( i < $# )); then
+      see_also_line+=", \`$command\`"
+    else
+      see_also_line+=", or \`$command\`."
+    fi
+    ((i++))
+  done
+
+  echo "$see_also_line"
+}
+
+
 # Use `stdin`, `stdout`, `stderr` keywords.
 fix_io_stream_names_action() {
   for directory in *; do
@@ -62,6 +99,30 @@ fix_io_stream_names_action() {
           echo "Done."
         else
           echo "Failed: check whether file can be overridden."
+        fi
+      fi
+    done
+  done
+}
+
+# Use correct `See also` format.
+fix_see_also_links_action() {
+  for directory in *; do
+    for page in "$directory"/*.md; do
+      declare see_also="^> See also:"
+      if grep --ignore-case --extended-regexp -- "$see_also" "$page" > /dev/null; then
+        declare correct_format="^> See also: \`[^ ]+\`( or \`[^ ]+\`|(, \`[^ ]+\`)+(, or \`[^ ]+\`))\.\$"
+        
+        if ! grep --ignore-case --extended-regexp -- "$correct_format" "$page" > /dev/null; then
+          echo -n "'$page' broken in cross-page references: format is invalid, fixing... "
+          declare see_also_line="$(grep --ignore-case --extended-regexp -- "$see_also" "$page")"
+          readarray -t links < <(parse_see_also_links "$see_also_line")
+
+          if sed --in-place --regexp-extended "s/$see_also.*/$(create_see_also_links "${links[@]}")/g" "$page"; then
+            echo "Done."
+          else
+            echo "Failed: check whether file can be overridden."
+          fi
         fi
       fi
     done
@@ -203,6 +264,7 @@ fix_generic_directory_placeholder_quoting_action() {
     done
   done
 }
+
 
 # Use `{{placeholder1 placeholder2 ...}}` syntax.
 # Asks confirmation as some commands don't require such change: it may break there syntax.
@@ -357,8 +419,25 @@ fix_placeholder_ellipsis_action() {
 declare -i HELP_INFO=1
 declare -i WRONG_DIRECTORY_ERROR=1
 
+declare apply_description_fixes=true
+declare apply_placeholder_fixes=true
+declare apply_quiet_fixes=true
+declare apply_nonquiet_fixes=true
+
 for option in "$@"; do
   case "$option" in
+    -nd|--no-description)
+      apply_description_fixes=false
+    ;;
+    -np|--no-placeholder)
+      apply_placeholder_fixes=false
+    ;;
+    -nq|--no-quiet)
+      apply_quiet_fixes=false
+    ;;
+    -nnq|--no-non-quiet)
+      apply_nonquiet_fixes=false
+    ;;
     -h|--help)
       help
       exit $HELP_INFO
@@ -366,28 +445,58 @@ for option in "$@"; do
   esac
 done
 
+
 shopt -s globstar
 cd ../pages || {
   echo "Script must be run from the directory where '../pages' subdirectory exists." >&2
   exit $WRONG_DIRECTORY_ERROR
 }
 
-# Actions without confirmation
-echo "Fixing stream names in code descriptions..."
-fix_io_stream_names_action
-echo "Fixing generic file placeholders in code examples..."
-fix_generic_file_placeholders_action
-echo "Fixing generic directory placeholders in code examples..."
-fix_generic_directory_placeholders_action
-echo "Fixing generic file placeholder quoting in code examples..."
-fix_generic_file_placeholder_quoting_action
-echo "Fixing generic directory placeholder quoting in code examples..."
-fix_generic_directory_placeholder_quoting_action
-echo "Fixing file placeholders in code examples..."
-fix_file_placeholders_action
 
-# Actions with confirmation and ignore file
-echo "Trying to initialize new '$IGNORE_FILE'..."
-try_create_ignore_file
-echo "Fixing ellipsis usage in code descriptions..."
-fix_placeholder_ellipsis_action
+are_description_fixes_applicable() {
+  [[ $apply_description_fixes == true ]]
+}
+
+are_placeholder_fixes_applicable() {
+  [[ $apply_placeholder_fixes == true ]]
+}
+
+are_quiet_fixes_applicable() {
+  [[ $apply_quiet_fixes == true ]]
+}
+
+are_nonquiet_fixes_applicable() {
+  [[ $apply_nonquiet_fixes == true ]]
+}
+
+# Actions without confirmation
+are_quiet_fixes_applicable && {
+  are_description_fixes_applicable && {
+    echo "Fixing stream names in code descriptions..."
+    fix_io_stream_names_action
+    echo "Fixing 'See also' links in descriptions..."
+    fix_see_also_links_action
+  }
+  are_placeholder_fixes_applicable && {
+    echo "Fixing generic file placeholders in code examples..."
+    fix_generic_file_placeholders_action
+    echo "Fixing generic directory placeholders in code examples..."
+    fix_generic_directory_placeholders_action
+    echo "Fixing generic file placeholder quoting in code examples..."
+    fix_generic_file_placeholder_quoting_action
+    echo "Fixing generic directory placeholder quoting in code examples..."
+    fix_generic_directory_placeholder_quoting_action
+  }
+}
+
+are_nonquiet_fixes_applicable && {
+  # Actions with confirmation and ignore file
+  echo "Trying to initialize new '$IGNORE_FILE'..."
+  try_create_ignore_file
+  are_placeholder_fixes_applicable && {
+    echo "Fixing file placeholders in code examples..."
+    fix_file_placeholders_action
+    echo "Fixing ellipsis usage in code examples..."
+    fix_placeholder_ellipsis_action
+  }
+}
