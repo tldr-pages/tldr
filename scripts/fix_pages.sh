@@ -28,7 +28,10 @@ declare -A FUNCTION_ASSOCIATIONS=(
 
 help() {
   echo -e "${BLUE_COLOR}TlDr page fixer.$RESET_COLOR
-${RED_COLOR}This is the experimental tool and will be merged with TlDr page linter as a Python script later.
+
+${RED_COLOR}This is the experimental tool and will be merged with TlDr page linter later.
+See https://github.com/tldr-pages/tldr/issues/9586 for details.
+
 
 ${MAGENTA_COLOR}Usage:$RESET_COLOR
   $CYAN_COLOR$0$RESET_COLOR ${YELLOW_COLOR}[(-nd|--no-description)] [(-np|--no-placeholder)] [(-nq|--no-quiet)] [(-nnq|--non-noquiet)] [(-ncf|--no-confirmation-for) <value>]
