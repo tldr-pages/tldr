@@ -17,7 +17,20 @@ declare BACKGROUND_CYAN_COLOR='\e[46m'
 
 
 help() {
-  echo "'$0' options: [(-h|--help)]"
+  cat << EOF
+TlDr page fixer.
+
+Usage:
+  $0 [(-nd|--no-description)] [(-np|--no-placeholder)] [(-nq|--no-quiet)] [(-nnq|--non-noquiet)]
+  $0 (-h|--help)
+
+Options:
+  -h --help             Display this help.
+  -nd --no-description  Don't fix command and example descriptions.
+  -np --no-placeholder  Don't fix code placeholders.
+  -nq --no-quiet        Don't apply fixes without confirmation.
+  -nnq --no-non-quiet   Don't apply fixes with confirmation.
+EOF
 }
 
 try_confirm() {
@@ -363,7 +376,7 @@ fix_number_placeholder_quoting_action() {
         show_page_info "$page" ignored "remove it from '$IGNORE_FILE'."
         continue
       fi
-      
+
       declare number="([\"'])\{\{([[:digit:]]+\.[[:digit:]]*|\.[[:digit:]]+)\}\}\1"
       if grep --extended-regexp "$number" "$page" > /dev/null; then
         show_page_error "$page" quoting "remove quotes around number"
