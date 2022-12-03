@@ -1,6 +1,6 @@
 # cut
 
-> Cut out fields from stdin or files.
+> Cut out fields from `stdin` or files.
 > More information: <https://www.gnu.org/software/coreutils/cut>.
 
 - Print a specific character/field range of each line:

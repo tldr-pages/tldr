@@ -23,6 +23,6 @@
 
 `dash -e {{path/to/script.sh}}`
 
-- Read and execute commands from stdin:
+- Read and execute commands from `stdin`:
 
 `dash -s`
