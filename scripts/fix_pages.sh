@@ -135,7 +135,8 @@ ignore() {
 parse_see_also_links() {
   declare line="$1"
   echo "$line" |\
-    sed --regexp-extended "s/^> See also: *(.+) *\.\$/\1/; s/  +/ /g; s/,? +(or|and)/,/g; s/, */,/g; s/[\`\"']//g; s/,/\n/g" |\
+    sed --regexp-extended "s/ *\.\$//; s/^> See also: *(.+)/\1/; s/ +/ /g; s/[\`\"']//g; s/ +(or|and) +//g; s/,/\n/g" |\
+    sed --regexp-extended --quiet "s/^ +//; s/ +$//; /^\s+$/!p;" |\
     sed --regexp-extended "/^[[:space:]]*$/d"
 }
 
