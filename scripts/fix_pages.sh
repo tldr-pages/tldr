@@ -49,7 +49,7 @@ ${MAGENTA_COLOR}Options:$RESET_COLOR
 }
 
 version() {
-  echo "version: 1.0.0, author: Emily Grace Seville (EmilySeville7cfg@gmail.com)"
+  echo "version: 1.0.1, author: Emily Grace Seville (EmilySeville7cfg@gmail.com)"
 }
 
 try_confirm() {
