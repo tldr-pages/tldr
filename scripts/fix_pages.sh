@@ -69,6 +69,22 @@ show_page_warning() {
   echo -e "${BACKGROUND_MAGENTA_COLOR}warning$RESET_COLOR in $CYAN_COLOR'${BLUE_COLOR}$page$CYAN_COLOR'$RESET_COLOR: ${YELLOW_COLOR}possibly incorrect $source$RESET_COLOR, ${BACKGROUND_GREEN_COLOR}fix$RESET_COLOR: ${YELLOW_COLOR}$fix$RESET_COLOR "
 }
 
+show_page_info() {
+  declare page="$1"
+  declare source="$2"
+  declare fix="$3"
+
+  if [[ $source != @(ignored) ]]; then
+    source="<unknown source>"
+  fi
+
+  if [[ -z $fix ]]; then
+    fix="not available"
+  fi
+
+  echo -e "${BACKGROUND_CYAN_COLOR}info$RESET_COLOR about $CYAN_COLOR'${BLUE_COLOR}$page$CYAN_COLOR'$RESET_COLOR: ${YELLOW_COLOR}maybe should not be $source$RESET_COLOR, ${BACKGROUND_GREEN_COLOR}fix$RESET_COLOR: ${YELLOW_COLOR}$fix$RESET_COLOR "
+}
+
 declare IGNORE_FILE="$HOME/.config/fix_pages/ignore"
 
 try_create_ignore_file() {
@@ -157,6 +173,11 @@ fix_io_stream_names_action() {
 fix_see_also_links_action() {
   for directory in *; do
     for page in "$directory"/*.md; do
+      if is_ignored "$page"; then
+        show_page_info "$page" ignored "remove it from '$IGNORE_FILE'."
+        continue
+      fi
+
       declare see_also="^> See also:"
       if grep --ignore-case --extended-regexp -- "$see_also" "$page" > /dev/null; then
         declare correct_format="^> See also: \`[^\`,]+\`( or \`[^\`,]+\`|(, \`[^\`,]+\`)+(, or \`[^\`,]+\`))?\.\$"
@@ -182,6 +203,11 @@ fix_see_also_links_action() {
 fix_generic_file_placeholders_action() {
   for directory in *; do
     for page in "$directory"/*.md; do
+      if is_ignored "$page"; then
+        show_page_info "$page" ignored "remove it from '$IGNORE_FILE'."
+        continue
+      fi
+
       declare with_extension='\{\{[^/ {]*file[^/ {]*([[:digit:]]*)\.([^ ]+)\}\}'
       if grep --extended-regexp "$with_extension" "$page" > /dev/null; then
         show_page_error "$page" placeholder "use \`{{path/to/file}}\` syntax with an optional trailing number before an extension"
@@ -209,6 +235,11 @@ fix_generic_file_placeholders_action() {
 fix_generic_directory_placeholders_action() {
   for directory in *; do
     for page in "$directory"/*.md; do
+      if is_ignored "$page"; then
+        show_page_info "$page" ignored "remove it from '$IGNORE_FILE'."
+        continue
+      fi
+
       declare without_extension='\{\{[^/ {]*dir(ectory)?[^/ {]*([[:digit:]]*)\}\}'
       if grep --extended-regexp "$without_extension" "$page" > /dev/null; then
         show_page_error "$page" placeholder "use \`{{path/to/directory}}\` syntax with an optional trailing number"
@@ -227,7 +258,7 @@ fix_file_placeholders_action() {
   for directory in *; do
     for page in "$directory"/*.md; do
       if is_ignored "$page"; then
-        echo "'$page' ignored: to stop ignoring it remove it from '$IGNORE_FILE'."
+        show_page_info "$page" ignored "remove it from '$IGNORE_FILE'."
         continue
       fi
       
@@ -273,6 +304,11 @@ fix_file_placeholders_action() {
 fix_generic_file_placeholder_quoting_action() {
   for directory in *; do
     for page in "$directory"/*.md; do
+      if is_ignored "$page"; then
+        show_page_info "$page" ignored "remove it from '$IGNORE_FILE'."
+        continue
+      fi
+
       declare with_extension="([\"'])(\{\{path\/to\/file[[:digit:]]*\.[^ ]+\}\})\1"
       if grep --extended-regexp "$with_extension" "$page" > /dev/null; then
         show_page_error "$page" quoting "remove quotes around path with an optional trailing number with an extension"
@@ -301,6 +337,11 @@ fix_generic_file_placeholder_quoting_action() {
 fix_generic_directory_placeholder_quoting_action() {
   for directory in *; do
     for page in "$directory"/*.md; do
+      if is_ignored "$page"; then
+        show_page_info "$page" ignored "remove it from '$IGNORE_FILE'."
+        continue
+      fi
+
       declare without_extension="([\"'])(\{\{path\/to\/directory[[:digit:]]*\}\})\1"
       if grep --extended-regexp "$without_extension" "$page" > /dev/null; then
         show_page_error "$page" quoting "remove quotes around path with an optional trailing number"
@@ -318,6 +359,11 @@ fix_generic_directory_placeholder_quoting_action() {
 fix_number_placeholder_quoting_action() {
   for directory in *; do
     for page in "$directory"/*.md; do
+      if is_ignored "$page"; then
+        show_page_info "$page" ignored "remove it from '$IGNORE_FILE'."
+        continue
+      fi
+      
       declare number="([\"'])\{\{([[:digit:]]+\.[[:digit:]]*|\.[[:digit:]]+)\}\}\1"
       if grep --extended-regexp "$number" "$page" > /dev/null; then
         show_page_error "$page" quoting "remove quotes around number"
@@ -338,7 +384,7 @@ fix_placeholder_ellipsis_action() {
   for directory in *; do
     for page in "$directory"/*.md; do
       if is_ignored "$page"; then
-        echo "'$page' ignored: to stop ignoring it remove it from '$IGNORE_FILE'."
+        show_page_info "$page" ignored "remove it from '$IGNORE_FILE'."
         continue
       fi
 
