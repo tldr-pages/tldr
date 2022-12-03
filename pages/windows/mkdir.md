@@ -5,8 +5,8 @@
 
 - Create a directory:
 
-`mkdir {{directory_name}}`
+`mkdir {{directory}}`
 
-- Recursively create a nested directory tree:
+- Create a nested directory tree recursively:
 
-`mkdir {{path/to/sub_directory_name}}`
+`mkdir {{path/to/sub_directory}}`

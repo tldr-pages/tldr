@@ -13,7 +13,7 @@
 
 - Update all installed packages:
 
-`scoop update *`
+`scoop update --all`
 
 - List installed packages:
 
@@ -29,4 +29,4 @@
 
 - Remove old versions of all packages and clear the download cache:
 
-`scoop cleanup -k *`
+`scoop cleanup --cache --all`

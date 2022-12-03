@@ -16,6 +16,10 @@
 
 `nvm list`
 
+- List all remote Node.js versions:
+
+`nvm ls-remote`
+
 - Uninstall a given Node.js version:
 
 `nvm uninstall {{node_version}}`

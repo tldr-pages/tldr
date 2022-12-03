@@ -21,7 +21,7 @@
 
 - Decompress and unpack a directory and its contents:
 
-`lz4 -d {{dir.tar.lz4}} | tar -xv`
+`lz4 -dc {{dir.tar.lz4}} | tar -xv`
 
 - Compress a file using the best compression:
 

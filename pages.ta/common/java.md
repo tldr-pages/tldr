@@ -1,7 +1,7 @@
 # java
 
 > ஜாவா பயன்பாட்டு துவக்கி.
-> மேலும் விவரத்திற்கு: <https://docs.oracle.com/en/java/javase/17/docs/specs/man/java.html>.
+> மேலும் விவரத்திற்கு: <https://docs.oracle.com/en/java/javase/19/docs/specs/man/java.html>.
 
 - ஜாவா `.class` கோப்பை இயக்கவும், அதில் ஒரு முக்கிய முறையைக் கொண்டு, வகுப்புப் பெயரை மட்டும் பயன்படுத்தவும்:
 

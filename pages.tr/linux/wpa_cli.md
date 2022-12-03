@@ -1,7 +1,7 @@
 # wpa_cli
 
 > Kablosuz LAN arayüzleri ekleyin ve yapılandırın.
-> Daha fazla bilgi: <https://manned.org/wpa_cli>.
+> Daha fazla bilgi için: <https://manned.org/wpa_cli>.
 
 - Kullanılabilir ağları tara:
 

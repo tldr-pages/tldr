@@ -23,6 +23,6 @@
 
 `conky -a {{{arriba,abajo,en_medio}_{izquierda,derecha,en_medio}}}`
 
-- Pausa de 5 segundos al inciar antes de ejecutarlo:
+- Pausa de 5 segundos al iniciar antes de ejecutarlo:
 
 `conky -p {{5}}`

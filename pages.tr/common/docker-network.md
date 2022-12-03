@@ -1,7 +1,7 @@
 # docker network
 
 > Docker ağları oluştur ve yönet.
-> Daha fazla bilgi: <https://docs.docker.com/engine/reference/commandline/network/>.
+> Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/network/>.
 
 - docker daemon'daki tüm müsait ve düzenlenmiş ağları sırala:
 

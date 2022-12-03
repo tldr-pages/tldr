@@ -1,7 +1,7 @@
 # tldr-lint
 
 > `tldr` sayfalarını gözden geçir ve biçimlendir.
-> Daha fazla bilgi: <https://github.com/tldr-pages/tldr-lint>.
+> Daha fazla bilgi için: <https://github.com/tldr-pages/tldr-lint>.
 
 - Tüm sayfaları gözden geçir:
 

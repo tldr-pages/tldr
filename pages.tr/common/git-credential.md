@@ -1,7 +1,7 @@
 # git credential
 
 > Kullanıcı kimlik bilgilerini kurtar ve sakla.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-credential>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-credential>.
 
 - Kimlik bilgilerini, kullanıcı ismi ve parolayı konfigürasyon dosyası aracılığıyla kurtararak göster:
 
