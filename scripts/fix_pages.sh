@@ -21,13 +21,19 @@ help() {
 ${MAGENTA_COLOR}Usage:$RESET_COLOR
   $CYAN_COLOR$0$RESET_COLOR ${YELLOW_COLOR}[(-nd|--no-description)] [(-np|--no-placeholder)] [(-nq|--no-quiet)] [(-nnq|--non-noquiet)]
   $CYAN_COLOR$0$RESET_COLOR ${YELLOW_COLOR}(-h|--help)
+  $CYAN_COLOR$0$RESET_COLOR ${YELLOW_COLOR}(-v|--version)
 
 ${MAGENTA_COLOR}Options:$RESET_COLOR
   $CYAN_COLOR-h --help             ${BLUE_COLOR}Display this help.
+  $CYAN_COLOR-v --version          ${BLUE_COLOR}Display the version.
   $CYAN_COLOR-nd --no-description  ${BLUE_COLOR}Don't fix command and example descriptions.
   $CYAN_COLOR-np --no-placeholder  ${BLUE_COLOR}Don't fix code placeholders.
   $CYAN_COLOR-nq --no-quiet        ${BLUE_COLOR}Don't apply fixes without confirmation.
   $CYAN_COLOR-nnq --no-non-quiet   ${BLUE_COLOR}Don't apply fixes with confirmation.$RESET_COLOR"
+}
+
+version() {
+  echo "version: 1.0.0, author: Emily Grace Seville (EmilySeville7cfg@gmail.com)"
 }
 
 try_confirm() {
@@ -647,6 +653,10 @@ for option in "$@"; do
     ;;
     -h|--help)
       help
+      exit $HELP_INFO
+    ;;
+    -v|--version)
+      version 
       exit $HELP_INFO
     ;;
   esac
