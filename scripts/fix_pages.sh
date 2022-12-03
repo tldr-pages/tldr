@@ -15,21 +15,37 @@ declare BACKGROUND_BLUE_COLOR='\e[44m'
 declare BACKGROUND_MAGENTA_COLOR='\e[45m'
 declare BACKGROUND_CYAN_COLOR='\e[46m'
 
+declare -A FUNCTION_ASSOCIATIONS=(
+  [descriptions:stream]=fix_io_stream_names_action
+  [descriptions:see-also]=fix_see_also_links_action
+  [generic-placeholder-naming:file]=fix_generic_file_placeholders_action
+  [generic-placeholder-naming:directory]=fix_generic_directory_placeholders_action
+  [placeholder-naming:file]=fix_file_placeholders_action
+  [generic-placeholder-quoting:file]=fix_generic_file_placeholder_quoting_action
+  [generic-placeholder-quoting:directory]=fix_generic_directory_placeholder_quoting_action
+  [any-placeholder-grouping:any]=fix_placeholder_ellipsis_action
+)
+
 help() {
   echo -e "${BLUE_COLOR}TlDr page fixer.$RESET_COLOR
 
 ${MAGENTA_COLOR}Usage:$RESET_COLOR
-  $CYAN_COLOR$0$RESET_COLOR ${YELLOW_COLOR}[(-nd|--no-description)] [(-np|--no-placeholder)] [(-nq|--no-quiet)] [(-nnq|--non-noquiet)]
+  $CYAN_COLOR$0$RESET_COLOR ${YELLOW_COLOR}[(-nd|--no-description)] [(-np|--no-placeholder)] [(-nq|--no-quiet)] [(-nnq|--non-noquiet)] [(-ncf|--no-confirmation-for) <value>]
   $CYAN_COLOR$0$RESET_COLOR ${YELLOW_COLOR}(-h|--help)
   $CYAN_COLOR$0$RESET_COLOR ${YELLOW_COLOR}(-v|--version)
 
 ${MAGENTA_COLOR}Options:$RESET_COLOR
-  $CYAN_COLOR-h --help             ${BLUE_COLOR}Display this help.
-  $CYAN_COLOR-v --version          ${BLUE_COLOR}Display the version.
-  $CYAN_COLOR-nd --no-description  ${BLUE_COLOR}Don't fix command and example descriptions.
-  $CYAN_COLOR-np --no-placeholder  ${BLUE_COLOR}Don't fix code placeholders.
-  $CYAN_COLOR-nq --no-quiet        ${BLUE_COLOR}Don't apply fixes without confirmation.
-  $CYAN_COLOR-nnq --no-non-quiet   ${BLUE_COLOR}Don't apply fixes with confirmation.$RESET_COLOR"
+  $CYAN_COLOR-h --help                  ${BLUE_COLOR}Display this help.
+  $CYAN_COLOR-v --version               ${BLUE_COLOR}Display the version.
+  $CYAN_COLOR-nd --no-description       ${BLUE_COLOR}Don't fix command and example descriptions.
+  $CYAN_COLOR-np --no-placeholder       ${BLUE_COLOR}Don't fix code placeholders.
+  $CYAN_COLOR-nq --no-quiet             ${BLUE_COLOR}Don't apply fixes without confirmation.
+  $CYAN_COLOR-nnq --no-non-quiet        ${BLUE_COLOR}Don't apply fixes with confirmation.
+  $CYAN_COLOR-ncf --no-confirmation-for ${BLUE_COLOR}Apply specific fixes without confirmation.
+                               ${RED_COLOR}Valid values: ${GREEN_COLOR}descriptions:${YELLOW_COLOR}stream ${GREEN_COLOR}descriptions:${YELLOW_COLOR}see-also
+                                             ${GREEN_COLOR}generic-placeholder-naming:${YELLOW_COLOR}file ${GREEN_COLOR}generic-placeholder-naming:${YELLOW_COLOR}directory ${GREEN_COLOR}placeholder-naming:${YELLOW_COLOR}file
+                                             ${GREEN_COLOR}generic-placeholder-quoting:${YELLOW_COLOR}file ${GREEN_COLOR}generic-placeholder-quoting:${YELLOW_COLOR}directory
+                                             ${GREEN_COLOR}any-placeholder-grouping:${YELLOW_COLOR}any$RESET_COLOR"
 }
 
 version() {
@@ -99,6 +115,38 @@ show_page_info() {
   fi
 
   echo -e "${BACKGROUND_CYAN_COLOR}info$RESET_COLOR about $CYAN_COLOR'${BLUE_COLOR}$page$CYAN_COLOR'$RESET_COLOR: ${YELLOW_COLOR}maybe should not be $source$RESET_COLOR, ${BACKGROUND_GREEN_COLOR}fix$RESET_COLOR: ${YELLOW_COLOR}$fix$RESET_COLOR "
+}
+
+show_argument_error() {
+  declare argument="$1"
+  declare source="$2"
+  declare fix="$3"
+
+  if [[ $source != @(option|value) ]]; then
+    source="<unknown source>"
+  fi
+
+  if [[ -z $fix ]]; then
+    fix="not available"
+  fi
+
+  echo -e "${BACKGROUND_RED_COLOR}argument error$RESET_COLOR in $CYAN_COLOR'${BLUE_COLOR}$argument$CYAN_COLOR'$RESET_COLOR: ${YELLOW_COLOR}incorrect $source$RESET_COLOR, ${BACKGROUND_GREEN_COLOR}fix$RESET_COLOR: ${YELLOW_COLOR}$fix$RESET_COLOR "
+}
+
+show_action_info() {
+  declare action="$1"
+  declare source="$2"
+  declare fix="$3"
+
+  if [[ $source != @(ignored) ]]; then
+    source="<unknown source>"
+  fi
+
+  if [[ -z $fix ]]; then
+    fix="not available"
+  fi
+
+  echo -e "${BACKGROUND_CYAN_COLOR}action info$RESET_COLOR about $CYAN_COLOR'${BLUE_COLOR}$action$CYAN_COLOR'$RESET_COLOR: ${YELLOW_COLOR}maybe should not be $source$RESET_COLOR, ${BACKGROUND_GREEN_COLOR}fix$RESET_COLOR: ${YELLOW_COLOR}$fix$RESET_COLOR "
 }
 
 declare IGNORE_FILE="$HOME/.config/fix_pages/ignore"
@@ -284,9 +332,11 @@ fix_file_placeholders_action() {
         show_page_error "$page" placeholder "use \`{{path/to/source}}\` or \`{{path/to/executable}}\` syntax with an optional trailing number before an extension"
         code "$page"
 
-        if ! try_confirm "Do you want to fix '$page'?"; then
-          ignore "$page"
-          continue
+        if [[ ! " $* " =~ " $0 " ]]; then
+          if ! try_confirm "Do you want to fix '$page'?"; then
+            ignore "$page"
+            continue
+          fi
         fi
 
         if sed --in-place --regexp-extended "s/$with_extension/{{path\/to\/\1\2.\3}}/g" "$page"; then
@@ -301,9 +351,11 @@ fix_file_placeholders_action() {
         show_page_error "$page" placeholder "use \`{{path/to/source}}\` or \`{{path/to/executable}}\` syntax with an optional trailing number"
         code "$page"
 
-        if ! try_confirm "Do you want to fix '$page'?"; then
-          ignore "$page"
-          continue
+        if [[ ! " $* " =~ " $0 " ]]; then
+          if ! try_confirm "Do you want to fix '$page'?"; then
+            ignore "$page"
+            continue
+          fi
         fi
 
         if sed --in-place --regexp-extended "s/$without_extension/{{path\/to\/\1\2}}/g" "$page"; then
@@ -410,9 +462,11 @@ fix_placeholder_ellipsis_action() {
         show_page_warning "$page" placeholder "replace plural term in a placeholder with an extension with ellipsis"
         code "$page"
 
-        if ! try_confirm "Do you want to fix '$page'?"; then
-          ignore "$page"
-          continue
+        if [[ ! " $* " =~ " $0 " ]]; then
+          if ! try_confirm "Do you want to fix '$page'?"; then
+            ignore "$page"
+            continue
+          fi
         fi
         
         if sed --in-place --regexp-extended "s/$placeholder_with_plural_word_and_extension/\{\{\11.\2 \12.\2 ...\}\}/g" "$page"; then
@@ -427,9 +481,11 @@ fix_placeholder_ellipsis_action() {
         show_page_warning "$page" placeholder "replace plural term in a placeholder with ellipsis"
         code "$page"
 
-        if ! try_confirm "Do you want to fix '$page'?"; then
-          ignore "$page"
-          continue
+        if [[ ! " $* " =~ " $0 " ]]; then
+          if ! try_confirm "Do you want to fix '$page'?"; then
+            ignore "$page"
+            continue
+          fi
         fi
         
         if sed --in-place --regexp-extended "s/$placeholder_with_plural_word_and_without_extension/\{\{\11 \12 ...\}\}/g" "$page"; then
@@ -444,9 +500,11 @@ fix_placeholder_ellipsis_action() {
         show_page_warning "$page" placeholder "replace brace expansion in a placeholder with an extension with ellipsis"
         code "$page"
 
-        if ! try_confirm "Do you want to fix '$page'?"; then
-          ignore "$page"
-          continue
+        if [[ ! " $* " =~ " $0 " ]]; then
+          if ! try_confirm "Do you want to fix '$page'?"; then
+            ignore "$page"
+            continue
+          fi
         fi
         
         if sed --in-place --regexp-extended "s/$placeholder_with_brace_expansion_and_extension/\{\{\11.\3 \12.\3 ...\}\}/g" "$page"; then
@@ -461,9 +519,11 @@ fix_placeholder_ellipsis_action() {
         show_page_warning "$page" placeholder "replace brace expansion in a placeholder with ellipsis"
         code "$page"
 
-        if ! try_confirm "Do you want to fix '$page'?"; then
-          ignore "$page"
-          continue
+        if [[ ! " $* " =~ " $0 " ]]; then
+          if ! try_confirm "Do you want to fix '$page'?"; then
+            ignore "$page"
+            continue
+          fi
         fi
         
         if sed --in-place --regexp-extended "s/$placeholder_with_brace_expansion_and_without_extension/\{\{\11 \12 ...\}\}/g" "$page"; then
@@ -478,9 +538,11 @@ fix_placeholder_ellipsis_action() {
         show_page_warning "$page" placeholder "replace two consequtive placeholders with extensions with ellipsis"
         code "$page"
 
-        if ! try_confirm "Do you want to fix '$page'?"; then
-          ignore "$page"
-          continue
+        if [[ ! " $* " =~ " $0 " ]]; then
+          if ! try_confirm "Do you want to fix '$page'?"; then
+            ignore "$page"
+            continue
+          fi
         fi
         
         if sed --in-place --regexp-extended "s/$consecutive_placeholder_pair_with_numbering_with_extension/\{\{\11.\2 \12.\2 ...\}\}/g" "$page"; then
@@ -495,9 +557,11 @@ fix_placeholder_ellipsis_action() {
         show_page_warning "$page" placeholder "replace two consequtive placeholders with ellipsis"
         code "$page"
 
-        if ! try_confirm "Do you want to fix '$page'?"; then
-          ignore "$page"
-          continue
+        if [[ ! " $* " =~ " $0 " ]]; then
+          if ! try_confirm "Do you want to fix '$page'?"; then
+            ignore "$page"
+            continue
+          fi
         fi
         
         if sed --in-place --regexp-extended "s/$consecutive_placeholder_pair_with_numbering_without_extension/\{\{\11 \12 ...\}\}/g" "$page"; then
@@ -512,9 +576,11 @@ fix_placeholder_ellipsis_action() {
         show_page_warning "$page" placeholder "replace two consequtive placeholders with extensions with ellipsis"
         code "$page"
 
-        if ! try_confirm "Do you want to fix '$page'?"; then
-          ignore "$page"
-          continue
+        if [[ ! " $* " =~ " $0 " ]]; then
+          if ! try_confirm "Do you want to fix '$page'?"; then
+            ignore "$page"
+            continue
+          fi
         fi
         
         if sed --in-place --regexp-extended "s/$consecutive_placeholder_pair_with_broken_numbering_with_extension/\{\{\11.\2 \12.\2 ...\}\}/g" "$page"; then
@@ -529,9 +595,11 @@ fix_placeholder_ellipsis_action() {
         show_page_warning "$page" placeholder "replace two consequtive placeholders with extensions with ellipsis"
         code "$page"
 
-        if ! try_confirm "Do you want to fix '$page'?"; then
-          ignore "$page"
-          continue
+        if [[ ! " $* " =~ " $0 " ]]; then
+          if ! try_confirm "Do you want to fix '$page'?"; then
+            ignore "$page"
+            continue
+          fi
         fi
         
         if sed --in-place --regexp-extended "s/$consecutive_placeholder_pair_with_broken_numbering_with_extension/\{\{\11.\2 \12.\2 ...\}\}/g" "$page"; then
@@ -546,9 +614,11 @@ fix_placeholder_ellipsis_action() {
         show_page_warning "$page" placeholder "replace two consequtive placeholders with ellipsis"
         code "$page"
 
-        if ! try_confirm "Do you want to fix '$page'?"; then
-          ignore "$page"
-          continue
+        if [[ ! " $* " =~ " $0 " ]]; then
+          if ! try_confirm "Do you want to fix '$page'?"; then
+            ignore "$page"
+            continue
+          fi
         fi
         
         if sed --in-place --regexp-extended "s/$consecutive_placeholder_pair_with_broken_numbering_without_extension/\{\{\11 \12 ...\}\}/g" "$page"; then
@@ -563,9 +633,11 @@ fix_placeholder_ellipsis_action() {
         show_page_warning "$page" placeholder "replace two consequtive placeholders with ellipsis"
         code "$page"
 
-        if ! try_confirm "Do you want to fix '$page'?"; then
-          ignore "$page"
-          continue
+        if [[ ! " $* " =~ " $0 " ]]; then
+          if ! try_confirm "Do you want to fix '$page'?"; then
+            ignore "$page"
+            continue
+          fi
         fi
         
         if sed --in-place --regexp-extended "s/$consecutive_placeholder_pair_with_broken_numbering_without_extension/\{\{\11 \12 ...\}\}/g" "$page"; then
@@ -580,9 +652,11 @@ fix_placeholder_ellipsis_action() {
         show_page_warning "$page" placeholder "replace two consequtive placeholders with extensions with ellipsis"
         code "$page"
 
-        if ! try_confirm "Do you want to fix '$page'?"; then
-          ignore "$page"
-          continue
+        if [[ ! " $* " =~ " $0 " ]]; then
+          if ! try_confirm "Do you want to fix '$page'?"; then
+            ignore "$page"
+            continue
+          fi
         fi
         
         if sed --in-place --regexp-extended "s/$consecutive_placeholder_pair_with_numbering_with_extension/\{\{\11.\2 \12.\2 ...\}\}/g" "$page"; then
@@ -597,9 +671,11 @@ fix_placeholder_ellipsis_action() {
         show_page_warning "$page" placeholder "replace two consequtive placeholders with extensions with ellipsis"
         code "$page"
 
-        if ! try_confirm "Do you want to fix '$page'?"; then
-          ignore "$page"
-          continue
+        if [[ ! " $* " =~ " $0 " ]]; then
+          if ! try_confirm "Do you want to fix '$page'?"; then
+            ignore "$page"
+            continue
+          fi
         fi
         
         if sed --in-place --regexp-extended "s/$consecutive_placeholder_pair_with_broken_numbering_with_extension/\{\{\11.\2 \12.\2 ...\}\}/g" "$page"; then
@@ -614,9 +690,11 @@ fix_placeholder_ellipsis_action() {
         show_page_warning "$page" placeholder "replace two consequtive placeholders with extensions with ellipsis"
         code "$page"
 
-        if ! try_confirm "Do you want to fix '$page'?"; then
-          ignore "$page"
-          continue
+        if [[ ! " $* " =~ " $0 " ]]; then
+          if ! try_confirm "Do you want to fix '$page'?"; then
+            ignore "$page"
+            continue
+          fi
         fi
         
         if sed --in-place --regexp-extended "s/$consecutive_placeholder_pair_with_broken_numbering_with_extension/\{\{\11.\2 \12.\2 ...\}\}/g" "$page"; then
@@ -632,14 +710,29 @@ fix_placeholder_ellipsis_action() {
 
 declare -i HELP_INFO=1
 declare -i WRONG_DIRECTORY_ERROR=1
+declare -i WRONG_ARGUMENT_ERROR=1 
 
 declare apply_description_fixes=true
 declare apply_placeholder_fixes=true
 declare apply_quiet_fixes=true
 declare apply_nonquiet_fixes=true
 
-for option in "$@"; do
+declare -a automatically_applicable_fixes_actions=()
+
+while [[ -n $1 ]]; do
+  declare option="$1"
+  declare value="$2"
+
   case "$option" in
+    -ncf|--no-confirmation-for)
+      if [[ ! -v FUNCTION_ASSOCIATIONS[$value] ]]; then
+        show_argument_error "$option" option "replace value with one of: ${!FUNCTION_ASSOCIATIONS[*]}"
+        exit $WRONG_ARGUMENT_ERROR
+      fi
+
+      automatically_applicable_fixes_actions+=("${FUNCTION_ASSOCIATIONS[$value]}")
+      shift
+    ;;
     -nd|--no-description)
       apply_description_fixes=false
     ;;
@@ -660,9 +753,13 @@ for option in "$@"; do
       version 
       exit $HELP_INFO
     ;;
+    *)
+      show_argument_error "$option" option "remove option"
+      exit "$WRONG_ARGUMENT_ERROR"
+    ;;
   esac
+  shift
 done
-
 
 shopt -s globstar
 cd ../pages || {
@@ -687,25 +784,26 @@ are_nonquiet_fixes_applicable() {
   [[ $apply_nonquiet_fixes == true ]]
 }
 
+
 # Actions without confirmation
 are_quiet_fixes_applicable && {
   are_description_fixes_applicable && {
     echo "Fixing stream names in code descriptions..."
-    fix_io_stream_names_action
+    fix_io_stream_names_action "${automatically_applicable_fixes_actions[@]}"
     echo "Fixing 'See also' links in descriptions..."
-    fix_see_also_links_action
+    fix_see_also_links_action "${automatically_applicable_fixes_actions[@]}"
   }
   are_placeholder_fixes_applicable && {
     echo "Fixing generic file placeholders in code examples..."
-    fix_generic_file_placeholders_action
+    fix_generic_file_placeholders_action "${automatically_applicable_fixes_actions[@]}"
     echo "Fixing generic directory placeholders in code examples..."
-    fix_generic_directory_placeholders_action
+    fix_generic_directory_placeholders_action "${automatically_applicable_fixes_actions[@]}"
     echo "Fixing generic file placeholder quoting in code examples..."
-    fix_generic_file_placeholder_quoting_action
+    fix_generic_file_placeholder_quoting_action "${automatically_applicable_fixes_actions[@]}"
     echo "Fixing generic directory placeholder quoting in code examples..."
-    fix_generic_directory_placeholder_quoting_action
+    fix_generic_directory_placeholder_quoting_action "${automatically_applicable_fixes_actions[@]}"
     echo "Fixing number placeholder quoting in code examples..."
-    fix_number_placeholder_quoting_action
+    fix_number_placeholder_quoting_action "${automatically_applicable_fixes_actions[@]}"
   }
 }
 
@@ -715,8 +813,8 @@ are_nonquiet_fixes_applicable && {
   try_create_ignore_file
   are_placeholder_fixes_applicable && {
     echo "Fixing file placeholders in code examples..."
-    fix_file_placeholders_action
+    fix_file_placeholders_action "${automatically_applicable_fixes_actions[@]}"
     echo "Fixing ellipsis usage in code examples..."
-    fix_placeholder_ellipsis_action
+    fix_placeholder_ellipsis_action "${automatically_applicable_fixes_actions[@]}"
   }
 }
