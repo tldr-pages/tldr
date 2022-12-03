@@ -1,5 +1,21 @@
 #!/usr/bin/env bash
 
+declare RESET_COLOR='\e[0m'
+declare RED_COLOR='\e[31m'
+declare GREEN_COLOR='\e[32m'
+declare YELLOW_COLOR='\e[33m'
+declare BLUE_COLOR='\e[34m'
+declare MAGENTA_COLOR='\e[35m'
+declare CYAN_COLOR='\e[36m'
+
+declare BACKGROUND_RED_COLOR='\e[41m'
+declare BACKGROUND_GREEN_COLOR='\e[42m'
+declare BACKGROUND_YELLOW_COLOR='\e[43m'
+declare BACKGROUND_BLUE_COLOR='\e[44m'
+declare BACKGROUND_MAGENTA_COLOR='\e[45m'
+declare BACKGROUND_CYAN_COLOR='\e[46m'
+
+
 help() {
   echo "'$0' options: [(-h|--help)]"
 }
@@ -21,6 +37,37 @@ try_confirm() {
   return 0
 }
 
+show_page_error() {
+  declare page="$1"
+  declare source="$2"
+  declare fix="$3"
+
+  if [[ $source != @(description|placeholder|quoting) ]]; then
+    source="<unknown source>"
+  fi
+
+  if [[ -z $fix ]]; then
+    fix="not available"
+  fi
+
+  echo -e "${BACKGROUND_RED_COLOR}error$RESET_COLOR in $CYAN_COLOR'${BLUE_COLOR}$page$CYAN_COLOR'$RESET_COLOR: ${YELLOW_COLOR}incorrect $source$RESET_COLOR, ${BACKGROUND_GREEN_COLOR}fix$RESET_COLOR: ${YELLOW_COLOR}$fix$RESET_COLOR "
+}
+
+show_page_warning() {
+  declare page="$1"
+  declare source="$2"
+  declare fix="$3"
+
+  if [[ $source != @(description|placeholder|quoting) ]]; then
+    source="<unknown source>"
+  fi
+
+  if [[ -z $fix ]]; then
+    fix="not available"
+  fi
+
+  echo -e "${BACKGROUND_MAGENTA_COLOR}warning$RESET_COLOR in $CYAN_COLOR'${BLUE_COLOR}$page$CYAN_COLOR'$RESET_COLOR: ${YELLOW_COLOR}possibly incorrect $source$RESET_COLOR, ${BACKGROUND_GREEN_COLOR}fix$RESET_COLOR: ${YELLOW_COLOR}$fix$RESET_COLOR "
+}
 
 declare IGNORE_FILE="$HOME/.config/fix_pages/ignore"
 
@@ -94,7 +141,7 @@ fix_io_stream_names_action() {
     for page in "$directory"/*.md; do
       declare stream="^- (.*[^\`])([\"']?)std(in|out|err)\2"
       if grep --ignore-case --extended-regexp -- "$stream" "$page" > /dev/null; then
-        echo -n "'$page' broken: stream name is incorrectly quoted, fixing... "
+        show_page_error "$page" description "add backticks for stream name"
         if sed --in-place --regexp-extended "s/$stream/- \1\`std\L\3\E\`/gi" "$page"; then
           echo "Done."
         else
@@ -114,7 +161,8 @@ fix_see_also_links_action() {
         declare correct_format="^> See also: \`[^ ]+\`( or \`[^ ]+\`|(, \`[^ ]+\`)+(, or \`[^ ]+\`))\.\$"
         
         if ! grep --ignore-case --extended-regexp -- "$correct_format" "$page" > /dev/null; then
-          echo -n "'$page' broken in cross-page references: format is invalid, fixing... "
+          show_page_error "$page" description "add backticks for command names, remove extra spaces, use \`or\` before the last command"
+
           declare see_also_line="$(grep --ignore-case --extended-regexp -- "$see_also" "$page")"
           readarray -t links < <(parse_see_also_links "$see_also_line")
 
@@ -135,7 +183,7 @@ fix_generic_file_placeholders_action() {
     for page in "$directory"/*.md; do
       declare with_extension='\{\{[^/ {]*file[^/ {]*([[:digit:]]*)\.([^ ]+)\}\}'
       if grep --extended-regexp "$with_extension" "$page" > /dev/null; then
-        echo -n "'$page' broken: path placeholders (with extension) with invalid content, fixing... "
+        show_page_error "$page" placeholder "use \`{{path/to/file}}\` syntax with an optional trailing number before an extension"
         if sed --in-place --regexp-extended "s/$with_extension/{{path\/to\/file\1.\2}}/g" "$page"; then
           echo "Done."
         else
@@ -145,7 +193,7 @@ fix_generic_file_placeholders_action() {
 
       declare without_extension='\{\{[^/ {]*file[^/ {]*([[:digit:]]*)\}\}'
       if grep --extended-regexp "$without_extension" "$page" > /dev/null; then
-        echo -n "'$page' broken: path placeholders with invalid content, fixing... "
+        show_page_error "$page" placeholder "use \`{{path/to/file}}\` syntax with an optional trailing number"
         if sed --in-place --regexp-extended "s/$without_extension/{{path\/to\/file\1}}/g" "$page"; then
           echo "Done."
         else
@@ -162,7 +210,7 @@ fix_generic_directory_placeholders_action() {
     for page in "$directory"/*.md; do
       declare without_extension='\{\{[^/ {]*dir(ectory)?[^/ {]*([[:digit:]]*)\}\}'
       if grep --extended-regexp "$without_extension" "$page" > /dev/null; then
-        echo -n "'$page' broken: path placeholders with invalid content, fixing... "
+        show_page_error "$page" placeholder "use \`{{path/to/directory}}\` syntax with an optional trailing number"
         if sed --in-place --regexp-extended "s/$without_extension/{{path\/to\/directory\2}}/g" "$page"; then
           echo "Done."
         else
@@ -184,7 +232,7 @@ fix_file_placeholders_action() {
       
       declare with_extension='\{\{[^/ {]*(source|executable)[^/ {]*([[:digit:]]*)\.([^ ]+)\}\}'
       if grep --extended-regexp "$with_extension" "$page" > /dev/null; then
-        echo "'$page' possible broken: 'source' or 'executable' path without extension is invalid..."
+        show_page_error "$page" placeholder "use \`{{path/to/source}}\` or \`{{path/to/executable}}\` syntax with an optional trailing number before an extension"
         code "$page"
 
         if ! try_confirm "Do you want to fix '$page'?"; then
@@ -201,7 +249,7 @@ fix_file_placeholders_action() {
 
       declare without_extension='\{\{[^/ {]*(source|executable)[^/ {]*([[:digit:]]*)\}\}'
       if grep --extended-regexp "$without_extension" "$page" > /dev/null; then
-        echo "'$page' possible broken: 'source' or 'executable' path with extension is invalid..."
+        show_page_error "$page" placeholder "use \`{{path/to/source}}\` or \`{{path/to/executable}}\` syntax with an optional trailing number"
         code "$page"
 
         if ! try_confirm "Do you want to fix '$page'?"; then
@@ -226,7 +274,7 @@ fix_generic_file_placeholder_quoting_action() {
     for page in "$directory"/*.md; do
       declare with_extension="([\"'])(\{\{path\/to\/file[[:digit:]]*\.[^ ]+\}\})\1"
       if grep --extended-regexp "$with_extension" "$page" > /dev/null; then
-        echo -n "'$page' broken: file placeholder (with extension) quoting is broken, fixing... "
+        show_page_error "$page" quoting "remove quotes around path with an optional trailing number with an extension"
         if sed --in-place --regexp-extended "s/$with_extension/\2/g" "$page"; then
           echo "Done."
         else
@@ -236,7 +284,7 @@ fix_generic_file_placeholder_quoting_action() {
 
       declare without_extension="([\"'])(\{\{path\/to\/file[[:digit:]]*\}\})\1"
       if grep --extended-regexp "$without_extension" "$page" > /dev/null; then
-        echo -n "'$page' broken: file placeholder quoting is broken, fixing... "
+        show_page_error "$page" quoting "remove quotes around path with an optional trailing number"
         if sed --in-place --regexp-extended "s/$without_extension/\2/g" "$page"; then
           echo "Done."
         else
@@ -254,7 +302,7 @@ fix_generic_directory_placeholder_quoting_action() {
     for page in "$directory"/*.md; do
       declare without_extension="([\"'])(\{\{path\/to\/directory[[:digit:]]*\}\})\1"
       if grep --extended-regexp "$without_extension" "$page" > /dev/null; then
-        echo -n "'$page' broken: directory placeholder quoting is wrong, fixing... "
+        show_page_error "$page" quoting "remove quotes around path with an optional trailing number"
         if sed --in-place --regexp-extended "s/$without_extension/\2/g" "$page"; then
           echo "Done."
         else
@@ -271,7 +319,7 @@ fix_number_placeholder_quoting_action() {
     for page in "$directory"/*.md; do
       declare number="([\"'])\{\{([[:digit:]]+\.[[:digit:]]*|\.[[:digit:]]+)\}\}\1"
       if grep --extended-regexp "$number" "$page" > /dev/null; then
-        echo -n "'$page' broken: number placeholders are quoted, fixing... "
+        show_page_error "$page" quoting "remove quotes around number"
         if sed --in-place --regexp-extended "s/$number/{{\2}}/g" "$page"; then
           echo "Done."
         else
@@ -295,7 +343,7 @@ fix_placeholder_ellipsis_action() {
 
       declare placeholder_with_plural_word_and_extension="\{\{(.+)\(s\)\.([^ ]+)\}\}"
       if grep --extended-regexp -- "$placeholder_with_plural_word_and_extension" "$page" > /dev/null; then
-        echo "'$page' possibly broken in placeholder with extension: '(s)' is invalid: use '...'"
+        show_page_warning "$page" placeholder "replace plural term in a placeholder with an extension with ellipsis"
         code "$page"
 
         if ! try_confirm "Do you want to fix '$page'?"; then
@@ -312,7 +360,7 @@ fix_placeholder_ellipsis_action() {
 
       declare placeholder_with_plural_word_and_without_extension="\{\{(.+)\(s\)\}\}"
       if grep --extended-regexp -- "$placeholder_with_plural_word_and_without_extension" "$page" > /dev/null; then
-        echo "'$page' possibly broken in placeholder without extension: '(s)' is invalid: use '...'"
+        show_page_warning "$page" placeholder "replace plural term in a placeholder with ellipsis"
         code "$page"
 
         if ! try_confirm "Do you want to fix '$page'?"; then
@@ -329,7 +377,7 @@ fix_placeholder_ellipsis_action() {
 
       declare placeholder_with_brace_expansion_and_extension="\{\{([^ {}]+)\{[[:digit:]]+(,[[:digit:]]+)*\}\.([^ ]+)\}\}"
       if grep --extended-regexp -- "$placeholder_with_brace_expansion_and_extension" "$page" > /dev/null; then
-        echo "'$page' possibly broken in placeholder with extension: brace expansion is invalid: use '...'"
+        show_page_warning "$page" placeholder "replace brace expansion in a placeholder with an extension with ellipsis"
         code "$page"
 
         if ! try_confirm "Do you want to fix '$page'?"; then
@@ -346,7 +394,7 @@ fix_placeholder_ellipsis_action() {
 
       declare placeholder_with_brace_expansion_and_without_extension="\{\{([^ {}]+)\{[[:digit:]]+(,[[:digit:]]+)*\}\}\}"
       if grep --extended-regexp -- "$placeholder_with_brace_expansion_and_without_extension" "$page" > /dev/null; then
-        echo "'$page' possibly broken in placeholder without extension: brace expansion is invalid: use '...'"
+        show_page_warning "$page" placeholder "replace brace expansion in a placeholder with ellipsis"
         code "$page"
 
         if ! try_confirm "Do you want to fix '$page'?"; then
@@ -363,7 +411,7 @@ fix_placeholder_ellipsis_action() {
 
       declare consecutive_placeholder_pair_with_numbering_with_extension="\{\{(.+)1\.([^ ]+)\}\} +\{\{\12\.\2\}\}( +\{\{\1[[:digit:]]+\.\2\}\})*"
       if grep --extended-regexp -- "$consecutive_placeholder_pair_with_numbering_with_extension" "$page" > /dev/null; then
-        echo "'$page' possibly broken in placeholder with extension: repeating placeholders for 0..more values is invalid: use '...'"
+        show_page_warning "$page" placeholder "replace two consequtive placeholders with extensions with ellipsis"
         code "$page"
 
         if ! try_confirm "Do you want to fix '$page'?"; then
@@ -380,7 +428,7 @@ fix_placeholder_ellipsis_action() {
 
       declare consecutive_placeholder_pair_with_numbering_without_extension="\{\{(.+)1\}\} +\{\{\12\}\}( +\{\{\1[[:digit:]]+\}\})*"
       if grep --extended-regexp -- "$consecutive_placeholder_pair_with_numbering_without_extension" "$page" > /dev/null; then
-        echo "'$page' possibly broken in placeholder without extension: repeating placeholders for 0..more values is invalid: use '...'"
+        show_page_warning "$page" placeholder "replace two consequtive placeholders with ellipsis"
         code "$page"
 
         if ! try_confirm "Do you want to fix '$page'?"; then
@@ -397,7 +445,7 @@ fix_placeholder_ellipsis_action() {
 
       declare consecutive_placeholder_pair_with_broken_numbering_with_extension="\{\{(.+)\.([^ ]+)\}\} +\{\{\12\.\2\}\}( +\{\{\1[[:digit:]]+\.\2\}\})*"
       if grep --extended-regexp -- "$consecutive_placeholder_pair_with_broken_numbering_with_extension" "$page" > /dev/null; then
-        echo "'$page' possibly broken in placeholder with extension: repeating placeholders for 0..more values is invalid: use '...'"
+        show_page_warning "$page" placeholder "replace two consequtive placeholders with extensions with ellipsis"
         code "$page"
 
         if ! try_confirm "Do you want to fix '$page'?"; then
@@ -414,7 +462,7 @@ fix_placeholder_ellipsis_action() {
 
       declare consecutive_placeholder_pair_with_broken_numbering_without_extension="\{\{(.+)\}\} +\{\{\12\}\}( +\{\{\1[[:digit:]]+\}\})*"
       if grep --extended-regexp -- "$consecutive_placeholder_pair_with_broken_numbering_without_extension" "$page" > /dev/null; then
-        echo "'$page' possibly broken in placeholder without extension: repeating placeholders for 0..more values is invalid: use '...'"
+        show_page_warning "$page" placeholder "replace two consequtive placeholders with ellipsis"
         code "$page"
 
         if ! try_confirm "Do you want to fix '$page'?"; then
