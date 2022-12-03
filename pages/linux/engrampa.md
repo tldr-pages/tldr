@@ -1,7 +1,7 @@
 # engrampa
 
 > Package files into zip/tar file in MATE desktop environment.
-> See also: `zip`, `tar`.
+> See also: `zip` or `tar`.
 > More information: <https://github.com/mate-desktop/engrampa>.
 
 - Start engrampa:

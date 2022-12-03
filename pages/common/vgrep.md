@@ -1,7 +1,7 @@
 # vgrep
 
 > A user friendly pager for grep.
-> See also: `ugrep`, `rg`.
+> See also: `ugrep` or `rg`.
 > More information: <https://github.com/vrothberg/vgrep>.
 
 - Recursively search the current directory for a pattern and cache it:

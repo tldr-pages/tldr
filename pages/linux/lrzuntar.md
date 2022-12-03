@@ -1,7 +1,7 @@
 # lrzuntar
 
 > A wrapper for `lrunzip` to simplify decompression of directories.
-> See also: `lrztar`, `lrzip`.
+> See also: `lrztar` or `lrzip`.
 > More information: <https://manned.org/lrzuntar>.
 
 - Decompress from a file to the current directory:

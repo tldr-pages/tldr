@@ -1,7 +1,7 @@
 # ack
 
 > A search tool like grep, optimized for developers.
-> See also: `rg`, which is much faster.
+> See also: `rg` or `which`.
 > More information: <https://beyondgrep.com/documentation>.
 
 - Search for files containing a string or regular expression in the current directory recursively:

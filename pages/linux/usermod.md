@@ -1,7 +1,7 @@
 # usermod
 
 > Modifies a user account.
-> See also: `users`, `useradd`, `userdel`.
+> See also: `users`, `useradd`, or `userdel`.
 > More information: <https://manned.org/usermod>.
 
 - Change a username:

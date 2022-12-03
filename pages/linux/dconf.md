@@ -1,7 +1,7 @@
 # dconf
 
 > Manage dconf databases.
-> See also: `dconf-read`, `dconf-reset`, `dconf-write`, `gsettings`.
+> See also: `dconf-read`, `dconf-reset`, `dconf-write`, or `gsettings`.
 > More information: <https://manned.org/dconf>.
 
 - Print a specific key value:

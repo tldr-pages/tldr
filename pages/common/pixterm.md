@@ -1,7 +1,7 @@
 # pixterm
 
 > Image printing in the terminal.
-> See also: `chafa`, `catimg`.
+> See also: `chafa` or `catimg`.
 > More information: <https://github.com/eliukblau/pixterm>.
 
 - Render a static image directly in the terminal:

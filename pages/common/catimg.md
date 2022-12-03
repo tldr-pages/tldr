@@ -1,7 +1,7 @@
 # catimg
 
 > Image printing in the terminal.
-> See also: `pixterm`, `chafa`.
+> See also: `pixterm` or `chafa`.
 > More information: <https://github.com/posva/catimg>.
 
 - Print a JPEG, PNG, or GIF to the terminal:

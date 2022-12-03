@@ -1,7 +1,7 @@
 # bash
 
 > Bourne-Again SHell, an `sh`-compatible command-line interpreter.
-> See also: `zsh`, `histexpand` (history expansion).
+> See also: `zsh` or `histexpand`.
 > More information: <https://gnu.org/software/bash/>.
 
 - Start an interactive shell session:

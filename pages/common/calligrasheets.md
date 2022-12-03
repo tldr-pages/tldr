@@ -1,7 +1,7 @@
 # calligrasheets
 
 > Calligra's spreadsheet application.
-> See also: `calligraflow`, `calligrastage`, `calligrawords`.
+> See also: `calligraflow`, `calligrastage`, or `calligrawords`.
 > More information: <https://manned.org/calligrasheets>.
 
 - Launch the spreadsheet application:

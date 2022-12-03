@@ -1,7 +1,7 @@
 # calligrawords
 
 > Calligra's word processor application.
-> See also: `calligraflow`, `calligrastage`, `calligrasheets`.
+> See also: `calligraflow`, `calligrastage`, or `calligrasheets`.
 > More information: <https://manned.org/calligrawords>.
 
 - Launch the word processor application:

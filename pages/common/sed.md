@@ -1,7 +1,7 @@
 # sed
 
 > Edit text in a scriptable manner.
-> See also: `awk`, `ed`.
+> See also: `awk` or `ed`.
 > More information: <https://www.gnu.org/software/sed/manual/sed.html>.
 
 - Replace all `apple` (basic regex) occurrences with `mango` (basic regex) in all input lines and print the result to `stdout`:

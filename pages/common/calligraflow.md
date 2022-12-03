@@ -1,7 +1,7 @@
 # calligraflow
 
 > Calligra's flowchart and diagram application.
-> See also: `calligrastage`, `calligrawords`, `calligrasheets`.
+> See also: `calligrastage`, `calligrawords`, or `calligrasheets`.
 > More information: <https://manned.org/calligraflow>.
 
 - Launch the flowchart and diagram application:

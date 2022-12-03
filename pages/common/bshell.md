@@ -1,7 +1,7 @@
 # bshell
 
 > A GUI tool for browsing for SSH/VNC servers on the local network.
-> See also: `bssh` and `bvnc`.
+> See also: `bssh` or `bvnc`.
 > More information: <https://linux.extremeoverclocking.com/man/1/bssh>.
 
 - Browse for both SSH and VNC servers:

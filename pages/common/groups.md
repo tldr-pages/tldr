@@ -1,7 +1,7 @@
 # groups
 
 > Print group memberships for a user.
-> See also: `groupadd`, `groupdel`, `groupmod`.
+> See also: `groupadd`, `groupdel`, or `groupmod`.
 > More information: <https://www.gnu.org/software/coreutils/groups>.
 
 - Print group memberships for the current user:
