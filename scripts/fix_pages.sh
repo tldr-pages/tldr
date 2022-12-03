@@ -265,6 +265,22 @@ fix_generic_directory_placeholder_quoting_action() {
   done
 }
 
+# Remove quotes for number placeholders.
+fix_number_placeholder_quoting_action() {
+  for directory in *; do
+    for page in "$directory"/*.md; do
+      declare number="([\"'])\{\{([[:digit:]]+\.[[:digit:]]*|\.[[:digit:]]+)\}\}\1"
+      if grep --extended-regexp "$number" "$page" > /dev/null; then
+        echo -n "'$page' broken: number placeholders are quoted, fixing... "
+        if sed --in-place --regexp-extended "s/$number/{{\2}}/g" "$page"; then
+          echo "Done."
+        else
+          echo "Failed: check whether file can be overridden."
+        fi
+      fi
+    done
+  done
+}
 
 # Use `{{placeholder1 placeholder2 ...}}` syntax.
 # Asks confirmation as some commands don't require such change: it may break there syntax.
@@ -416,6 +432,7 @@ fix_placeholder_ellipsis_action() {
   done
 }
 
+
 declare -i HELP_INFO=1
 declare -i WRONG_DIRECTORY_ERROR=1
 
@@ -486,6 +503,8 @@ are_quiet_fixes_applicable && {
     fix_generic_file_placeholder_quoting_action
     echo "Fixing generic directory placeholder quoting in code examples..."
     fix_generic_directory_placeholder_quoting_action
+    echo "Fixing number placeholder quoting in code examples..."
+    fix_number_placeholder_quoting_action
   }
 }
 
