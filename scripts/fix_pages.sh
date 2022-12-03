@@ -60,7 +60,7 @@ ${MAGENTA_COLOR}Examples:
                                                            of them which potentionally can produce false
                                                            positives frequently.
   $CYAN_COLOR$0 $YELLOW_COLOR-np                                     ${BLUE_COLOR}The same as above but don't modify [p]laceholders.
-  $CYAN_COLOR$0 $YELLOW_COLOR-nq -ncf any-placeholder-grouping:any ${BLUE_COLOR}Apply all fixes with confirmation but don't ask confirmation
+  $CYAN_COLOR$0 $YELLOW_COLOR-nq -ncf any-placeholder-grouping:any ${BLUE_COLOR}Apply all fixes with confirmation but don't ask [c]onfirmation
                                                          while grouping placeholders (potentionally pages can be
                                                          broken as substitutions don't understand context and are
                                                          strictly textual).
