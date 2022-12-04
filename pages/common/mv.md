@@ -21,7 +21,7 @@
 
 - Do not overwrite existing files at the target:
 
-`mv -n {{path/to/source}} {{target}}`
+`mv -n {{path/to/source}} {{path/to/target}}`
 
 - Move files in verbose mode, showing files after they are moved:
 
