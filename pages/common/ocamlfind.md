@@ -14,4 +14,4 @@
 
 - Cross-compile for a different platform:
 
-`ocamlfind -toolchain {{cross-toolchain}} ocamlopt -o {{path/to/executable}} {{path/to/file.ml}}`
+`ocamlfind -toolchain {{cross-toolchain}} ocamlopt -o {{path/to/executable}} {{path/to/source.ml}}`
