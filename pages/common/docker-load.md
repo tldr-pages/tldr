@@ -1,6 +1,6 @@
 # docker load
 
-> Load Docker images from files or stdin.
+> Load Docker images from files or `stdin`.
 > More information: <https://docs.docker.com/engine/reference/commandline/load/>.
 
 - Load a Docker image from `stdin`:

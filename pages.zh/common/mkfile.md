@@ -1,7 +1,7 @@
 # mkfile
 
 > 创建一个或多个任意大小的空文件。
-> 更多信息：<https://ss64.com/osx/mkfile.html>.
+> 更多信息：<https://manned.org/mkfile>.
 
 - 创建一个 15 千字节的空文件：
 
