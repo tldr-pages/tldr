@@ -763,7 +763,7 @@ fix_placeholder_ellipsis_action() {
       fi
 
       consecutive_placeholder_pair_with_broken_numbering_without_extension="\{\{([^ ]+)\}\}( +\{\{\1\}\})+"
-      if grep --extended-regexp -- "$consecutive_placeholder_pair_with_broken_numbering_with_extension" "$page" > /dev/null; then
+      if grep --extended-regexp -- "$consecutive_placeholder_pair_with_broken_numbering_without_extension" "$page" > /dev/null; then
         show_page_warning "$page" placeholder "replace two consequtive placeholders with ellipsis"
         code "$page"
 
@@ -774,7 +774,7 @@ fix_placeholder_ellipsis_action() {
           fi
         fi
         
-        if sed --in-place --regexp-extended "s/$consecutive_placeholder_pair_with_broken_numbering_with_extension/\{\{\11 \12 ...\}\}/g" "$page"; then
+        if sed --in-place --regexp-extended "s/$consecutive_placeholder_pair_with_broken_numbering_without_extension/\{\{\11 \12 ...\}\}/g" "$page"; then
           echo "Done."
         else
           echo "Failed: check whether file can be overridden."
