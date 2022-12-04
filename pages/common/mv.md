@@ -17,7 +17,7 @@
 
 - Prompt for confirmation before overwriting existing files, regardless of file permissions:
 
-`mv -i {{path/to/source}} {{target}}`
+`mv -i {{path/to/source}} {{path/to/target}}`
 
 - Do not overwrite existing files at the target:
 
