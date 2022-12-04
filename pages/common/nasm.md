@@ -9,7 +9,7 @@
 
 - Assemble `source.asm` into a binary file `output_file`, in the specified format:
 
-`nasm -f {{format}} {{path/to/source.asm}} -o {{path/to/file}}`
+`nasm -f {{format}} {{path/to/source.asm}} -o {{path/to/output}}`
 
 - List valid output formats (along with basic nasm help):
 
