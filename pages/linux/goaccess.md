@@ -11,7 +11,7 @@
 
 `goaccess {{path/to/logfile}} --log-format={{format}}`
 
-- Analyze a log from stdin:
+- Analyze a log from `stdin`:
 
 `tail -f {{path/to/logfile}} | goaccess -`
 

@@ -15,7 +15,7 @@
 
 `pest --group {{name}}`
 
-- Run tests and print the coverage report to stdout:
+- Run tests and print the coverage report to `stdout`:
 
 `pest --coverage`
 
