@@ -7,7 +7,7 @@
 
 - Open a file:
 
-`nvim {{file}}`
+`nvim {{path/to/file}}`
 
 - Enter text editing mode (insert mode):
 

@@ -5,7 +5,7 @@
 
 - Compress a file:
 
-`lz4 {{file}}`
+`lz4 {{path/to/file}}`
 
 - Decompress a file:
 
@@ -25,4 +25,4 @@
 
 - Compress a file using the best compression:
 
-`lz4 -9 {{file}}`
+`lz4 -9 {{path/to/file}}`

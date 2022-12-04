@@ -9,4 +9,4 @@
 
 - Reverse an entire file and print to `stdout`:
 
-`rev {{file}}`
+`rev {{path/to/file}}`

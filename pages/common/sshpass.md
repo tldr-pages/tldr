@@ -14,4 +14,4 @@
 
 - Connect to a remote server using the first line of a file as the password, automatically accept unknown ssh keys, and launch a command:
 
-`sshpass -f {{file}} ssh -o StrictHostKeyChecking=no {{user}}@{{hostname}} "{{command}}"`
+`sshpass -f {{path/to/file}} ssh -o StrictHostKeyChecking=no {{user}}@{{hostname}} "{{command}}"`
