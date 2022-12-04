@@ -780,6 +780,25 @@ fix_placeholder_ellipsis_action() {
           echo "Failed: check whether file can be overridden."
         fi
       fi
+
+      declare standalone_ellipsis_placeholder=" +\{\{\.\.\.\}\} +"
+      if grep --extended-regexp -- "$standalone_ellipsis_placeholder" "$page" > /dev/null; then
+        show_page_warning "$page" placeholder "remove standalone ellipsis placeholder"
+        code "$page"
+
+        if [[ ! " $* " =~ " ${FUNCNAME[0]} " ]]; then
+          if ! try_confirm "Do you want to fix '$page'?"; then
+            ignore "$page"
+            continue
+          fi
+        fi
+        
+        if sed --in-place --regexp-extended "s/$standalone_ellipsis_placeholder//g" "$page"; then
+          echo "Done."
+        else
+          echo "Failed: check whether file can be overridden."
+        fi
+      fi
     done
   done
 }
