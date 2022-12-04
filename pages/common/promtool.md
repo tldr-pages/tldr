@@ -11,7 +11,7 @@
 
 `promtool check rules {{rules_file.yml}}`
 
-- Pass Prometheus metrics over stdin to check them for consistency and correctness:
+- Pass Prometheus metrics over `stdin` to check them for consistency and correctness:
 
 `curl --silent {{http://example.com:9090/metrics/}} | promtool check metrics`
 

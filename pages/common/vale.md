@@ -19,7 +19,7 @@
 
 `vale --minAlertLeve={{suggestion|warning|error}} {{file}}`
 
-- Check the style from stdin, specifying markup format:
+- Check the style from `stdin`, specifying markup format:
 
 `cat {{file.md}} | vale --ext=.md`
 

@@ -7,7 +7,7 @@
 
 `e2image {{/dev/sdXN}} {{path/to/image_file}}`
 
-- Print metadata located on device to stdout:
+- Print metadata located on device to `stdout`:
 
 `e2image {{/dev/sdXN}} -`
 

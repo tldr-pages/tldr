@@ -7,7 +7,7 @@
 
 `cowsay "{{hello, world}}"`
 
-- Print an ASCII cow saying text from stdin:
+- Print an ASCII cow saying text from `stdin`:
 
 `echo "{{hello, world}}" | cowsay`
 

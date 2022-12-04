@@ -15,6 +15,6 @@
 
 `git hash-object -t {{blob|commit|tag|tree}} {{path/to/file}}`
 
-- Compute the object ID from stdin:
+- Compute the object ID from `stdin`:
 
 `cat {{path/to/file}} | git hash-object --stdin`

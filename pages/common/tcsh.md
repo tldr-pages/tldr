@@ -24,6 +24,6 @@
 
 `tcsh -n {{path/to/script.tcsh}}`
 
-- Execute specific commands from stdin:
+- Execute specific commands from `stdin`:
 
 `{{echo "echo 'tcsh is executed'"}} | tcsh`
