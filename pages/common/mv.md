@@ -9,7 +9,7 @@
 
 - Move files into another directory, keeping the filenames:
 
-`mv {{source1 source2 ...}} {{path/to/directory}}`
+`mv {{path/to/source1 path/to/source2 ...}} {{path/to/directory}}`
 
 - Do not prompt for confirmation before overwriting existing files:
 
