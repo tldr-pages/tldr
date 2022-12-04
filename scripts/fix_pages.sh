@@ -723,6 +723,63 @@ fix_placeholder_ellipsis_action() {
           echo "Failed: check whether file can be overridden."
         fi
       fi
+
+      consecutive_placeholder_pair_with_broken_numbering_with_extension="\{\{(.+)\}\}\.([^ ]+)( +\{\{\1\}\}\.\2)+"
+      if grep --extended-regexp -- "$consecutive_placeholder_pair_with_broken_numbering_with_extension" "$page" > /dev/null; then
+        show_page_warning "$page" placeholder "replace two consequtive placeholders with extensions with ellipsis"
+        code "$page"
+
+        if [[ ! " $* " =~ " ${FUNCNAME[0]} " ]]; then
+          if ! try_confirm "Do you want to fix '$page'?"; then
+            ignore "$page"
+            continue
+          fi
+        fi
+        
+        if sed --in-place --regexp-extended "s/$consecutive_placeholder_pair_with_broken_numbering_with_extension/\{\{\11.\2 \12.\2 ...\}\}/g" "$page"; then
+          echo "Done."
+        else
+          echo "Failed: check whether file can be overridden."
+        fi
+      fi
+
+      consecutive_placeholder_pair_with_broken_numbering_with_extension="\{\{(.+)\.([^ ]+)\}\}( +\{\{\1\.\2\}\})+"
+      if grep --extended-regexp -- "$consecutive_placeholder_pair_with_broken_numbering_with_extension" "$page" > /dev/null; then
+        show_page_warning "$page" placeholder "replace two consequtive placeholders with extensions with ellipsis"
+        code "$page"
+
+        if [[ ! " $* " =~ " ${FUNCNAME[0]} " ]]; then
+          if ! try_confirm "Do you want to fix '$page'?"; then
+            ignore "$page"
+            continue
+          fi
+        fi
+        
+        if sed --in-place --regexp-extended "s/$consecutive_placeholder_pair_with_broken_numbering_with_extension/\{\{\11.\2 \12.\2 ...\}\}/g" "$page"; then
+          echo "Done."
+        else
+          echo "Failed: check whether file can be overridden."
+        fi
+      fi
+
+      consecutive_placeholder_pair_with_broken_numbering_without_extension="\{\{([^ ]+)\}\}( +\{\{\1\}\})+"
+      if grep --extended-regexp -- "$consecutive_placeholder_pair_with_broken_numbering_with_extension" "$page" > /dev/null; then
+        show_page_warning "$page" placeholder "replace two consequtive placeholders with ellipsis"
+        code "$page"
+
+        if [[ ! " $* " =~ " ${FUNCNAME[0]} " ]]; then
+          if ! try_confirm "Do you want to fix '$page'?"; then
+            ignore "$page"
+            continue
+          fi
+        fi
+        
+        if sed --in-place --regexp-extended "s/$consecutive_placeholder_pair_with_broken_numbering_with_extension/\{\{\11 \12 ...\}\}/g" "$page"; then
+          echo "Done."
+        else
+          echo "Failed: check whether file can be overridden."
+        fi
+      fi
     done
   done
 }
