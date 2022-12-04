@@ -10,7 +10,7 @@
 
 - Add a directory and its files recursively from local to the filesystem and print the relative hash:
 
-`ipfs add -r {{directory}}`
+`ipfs add -r {{path/to/directory}}`
 
 - Save a remote file and give it a name but not pin it:
 

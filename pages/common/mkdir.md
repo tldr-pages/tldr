@@ -5,7 +5,7 @@
 
 - Create a directory in current directory or given path:
 
-`mkdir {{directory}}`
+`mkdir {{path/to/directory}}`
 
 - Create multiple directories in the current directory:
 
