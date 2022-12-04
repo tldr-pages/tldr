@@ -25,4 +25,4 @@
 
 - Move files in verbose mode, showing files after they are moved:
 
-`mv -v {{path/to/source}} {{target}}`
+`mv -v {{path/to/source}} {{path/to/target}}`
