@@ -13,7 +13,7 @@
 
 - Do not prompt for confirmation before overwriting existing files:
 
-`mv -f {{path/to/source}} {{target}}`
+`mv -f {{path/to/source}} {{path/to/target}}`
 
 - Prompt for confirmation before overwriting existing files, regardless of file permissions:
 
