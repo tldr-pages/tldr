@@ -9,7 +9,7 @@
 
 - Replace a scanned PDF file with a searchable PDF file:
 
-`ocrmypdf {{path/to/file.pdf}} {{path/to/file.pdf}}`
+`ocrmypdf {{path/to/file1.pdf}} {{path/to/file2.pdf}}`
 
 - Skip pages of a mixed-format input PDF file that already contain text:
 
