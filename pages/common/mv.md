@@ -5,7 +5,7 @@
 
 - Move a file to an arbitrary location:
 
-`mv {{path/to/source}} {{target}}`
+`mv {{path/to/source}} {{path/to/target}}`
 
 - Move files into another directory, keeping the filenames:
 
