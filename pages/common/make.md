@@ -18,11 +18,11 @@
 
 - Use a specific Makefile:
 
-`make --file {{file}}`
+`make --file {{path/to/file}}`
 
 - Execute make from another directory:
 
-`make --directory {{directory}}`
+`make --directory {{path/to/directory}}`
 
 - Force making of a target, even if source files are unchanged:
 

@@ -5,7 +5,7 @@
 
 - Print the EXIF metadata for a given file:
 
-`exiftool {{file}}`
+`exiftool {{path/to/file}}`
 
 - Remove all EXIF metadata from the given files:
 
