@@ -10,7 +10,7 @@
 
 - Compile a source file to a bytecode binary and link with packages:
 
-`ocamlfind ocamlc -package {{package1}},{{package2}} -linkpkg -o {{path/to/executable}} {{path/to/file.ml}}`
+`ocamlfind ocamlc -package {{package1}},{{package2}} -linkpkg -o {{path/to/executable}} {{path/to/source.ml}}`
 
 - Cross-compile for a different platform:
 
