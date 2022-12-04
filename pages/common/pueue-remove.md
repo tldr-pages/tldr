@@ -9,4 +9,4 @@
 
 - Remove multiple tasks at once:
 
-`pueue remove {{task_id}} {{task_id}}`
+`pueue remove {{task_id1 task_id2 ...}}`

@@ -10,7 +10,7 @@
 
 - Stash multiple tasks at once:
 
-`pueue stash {{task_id}} {{task_id}}`
+`pueue stash {{task_id1 task_id2 ...}}`
 
 - Start a stashed task immediately:
 

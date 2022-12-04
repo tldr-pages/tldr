@@ -10,11 +10,11 @@
 
 - Install one or more packages to the bower_components directory:
 
-`bower install {{package}} {{package}}`
+`bower install {{package1 package2 ...}}`
 
 - Uninstall packages locally from the bower_components directory:
 
-`bower uninstall {{package}} {{package}}`
+`bower uninstall {{package1 package2 ...}}`
 
 - List local packages and possible updates:
 

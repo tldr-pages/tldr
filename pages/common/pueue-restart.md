@@ -9,7 +9,7 @@
 
 - Restart multiple tasks at once, and start them immediately (do not enqueue):
 
-`pueue restart --start-immediately {{task_id}} {{task_id}}`
+`pueue restart --start-immediately {{task_id1 task_id2 ...}}`
 
 - Restart a specific task from a different path:
 

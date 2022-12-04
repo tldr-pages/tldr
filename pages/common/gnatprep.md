@@ -5,8 +5,8 @@
 
 - Use symbol definitions from a file:
 
-`gnatprep {{path/to/file}} {{path/to/file}} {{path/to/file}}`
+`gnatprep {{path/to/file1 path/to/file2 ...}}`
 
 - Specify symbol values in the command line:
 
-`gnatprep -D{{name}}={{value}} {{path/to/file}} {{path/to/file}}`
+`gnatprep -D{{name}}={{value}} {{path/to/file1 path/to/file2 ...}}`

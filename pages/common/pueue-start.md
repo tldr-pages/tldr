@@ -14,7 +14,7 @@
 
 - Resume multiple tasks at once:
 
-`pueue start {{task_id}} {{task_id}}`
+`pueue start {{task_id1 task_id2 ...}}`
 
 - Resume all tasks and start their children:
 

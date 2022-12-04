@@ -13,4 +13,4 @@
 
 - Create two files of 4 megabytes each:
 
-`mkfile -n {{4m}} {{path/to/file}} {{path/to/file}}`
+`mkfile -n {{4m}} {{path/to/file1 path/to/file2 ...}}`

@@ -14,7 +14,7 @@
 
 - Show the last few lines of output from several tasks:
 
-`pueue log {{task_id}} {{task_id}}`
+`pueue log {{task_id1 task_id2 ...}}`
 
 - Print a specific number of lines from the tail of output:
 
