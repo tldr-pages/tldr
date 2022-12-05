@@ -3,7 +3,7 @@
 > View documents.
 > More information: <https://okular.kde.org/>.
 
-- Launch a document viewer:
+- Launch document viewer:
 
 `okular`
 
@@ -15,7 +15,7 @@
 
 `okular --page {{page_number}} {{path/to/file}}`
 
-- Open a specific document in a presentation mode:
+- Open a specific document in presentation mode:
 
 `okular --presentation {{path/to/file}}`
 
