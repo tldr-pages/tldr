@@ -18,7 +18,7 @@
 
 - Number all output lines:
 
-`bat -n {{path/to/file}}`
+`bat --number {{path/to/file}}`
 
 - Syntax highlight a JSON file:
 
