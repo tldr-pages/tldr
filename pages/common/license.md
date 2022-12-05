@@ -9,7 +9,7 @@
 
 - Generate a license and save it to a file:
 
-`license -o {{filename}} {{license_name}}`
+`license -o {{path/to/file}} {{license_name}}`
 
 - List all available licenses:
 
