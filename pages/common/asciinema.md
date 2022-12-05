@@ -1,7 +1,7 @@
 # asciinema
 
 > Record and replay terminal sessions, and optionally share them on asciinema.org.
-> More information: <https://asciinema.org/>.
+> More information: <https://asciinema.org/docs/usage>.
 
 - Associate the local install of `asciinema` with an asciinema.org account:
 
