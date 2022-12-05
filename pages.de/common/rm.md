@@ -11,7 +11,7 @@
 
 `rm -r {{pfad/zu/verzeichnis}}`
 
-- Erzwinge das Löschen eines Verzeichnis, ohne Eingabeaufforderung zur Bestätigung oder Anzeigen von Fehlermeldungen:
+- Erzwinge das Löschen eines Verzeichnisses, ohne Eingabeaufforderung zur Bestätigung oder Anzeigen von Fehlermeldungen:
 
 `rm -rf {{pfad/zu/verzeichnis}}`
 
