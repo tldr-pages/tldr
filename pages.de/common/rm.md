@@ -17,7 +17,7 @@
 
 - Lösche mehrere Dateien mit Eingabeaufforderung zur Bestätigung für jede Datei:
 
-`rm -i {{datei(en)}}`
+`rm -i {{pfad/zu/datei1 pfad/zu/datei2 ...}}`
 
 - Liste jede Datei auf, wenn sie gelöscht wird:
 
