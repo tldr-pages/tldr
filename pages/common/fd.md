@@ -10,7 +10,7 @@
 
 - Find files that begin with `foo`:
 
-`fd '^foo'`
+`fd "^foo"`
 
 - Find files with a specific extension:
 
