@@ -17,4 +17,4 @@
 
 - Find and replace across a project changing each file in place (output stream: `stdout`):
 
-`sd {{'from "react"'}} {{'from "preact"'}} $(find . -type f)`
+`sd {{'from "react"'}} {{'from "preact"'}} "$(find . -type f)"`
