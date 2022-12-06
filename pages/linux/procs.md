@@ -13,7 +13,7 @@
 
 - List information about all processes sorted by CPU time in ascending or descending order:
 
-`procs {{--sortd|--sorta}} cpu`
+`procs {{--sorta|--sortd}} cpu`
 
 - List information about processes with either a PID, command, or user containing `41` or `firefox`:
 
