@@ -1,6 +1,6 @@
 # vifm
 
-> Vifm (VI File Manager) ist ein textbasierter Dateimanager.
+> Vifm (VI File Manager) ist ein Kommandozeilen-Dateimanager.
 > Weitere Informationen: <https://github.com/vifm/vifm>.
 
 - Öffne das aktuelle Verzeichnis:
