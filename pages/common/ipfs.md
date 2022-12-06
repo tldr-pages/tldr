@@ -6,7 +6,7 @@
 
 - Add a file from local to the filesystem, pin it and print the relative hash:
 
-`ipfs add {{filename}}`
+`ipfs add {{path/to/file}}`
 
 - Add a directory and its files recursively from local to the filesystem and print the relative hash:
 
@@ -14,7 +14,7 @@
 
 - Save a remote file and give it a name but not pin it:
 
-`ipfs get {{hash}} -o {{filename}}`
+`ipfs get {{hash}} -o {{path/to/file}}`
 
 - Pin a remote file locally:
 
