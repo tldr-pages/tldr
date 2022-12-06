@@ -2,6 +2,7 @@
 
 > Convert images to colour ASCII characters and output them to text-based coloured files.
 > More information: <https://manned.org/img2txt.1>.
+> 
 - Change output column count:
 
 `img2txt --width={{width}}`
