@@ -7,18 +7,18 @@
 
 `procs`
 
-- Show information about processes, if the commands which started them contain `zsh`:
+- List information about processes, if the commands which started them contain `zsh`:
 
 `procs {{zsh}}`
 
-- Show information about all processes sorted by CPU time in ascending or descending order:
+- List information about all processes sorted by CPU time in ascending or descending order:
 
 `procs {{--sortd|--sorta}} cpu`
 
-- Show information about processes with either a PID, command, or user containing (`zsh` or `firefox`):
+- List information about processes with either a PID, command, or user containing (`zsh` or `firefox`):
 
 `procs --or {{PID|command|user}} {{41}} {{firefox}}`
 
-- Show information about processes with both PID `41` and a command or user containing `zsh`:
+- List information about processes with both PID `41` and a command or user containing `zsh`:
 
 `procs --and {{41}} {{zsh}}`
