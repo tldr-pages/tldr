@@ -13,7 +13,7 @@
 
 - Find and replace in a specific file (output stream: `stdout`):
 
-`sd -p {{'window.fetch'}} {{'fetch'}} {{http.js}}`
+`sd -p {{'window.fetch'}} {{'fetch'}} {{path/to/file.js}}`
 
 - Find and replace across a project changing each file in place (output stream: `stdout`):
 
