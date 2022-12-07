@@ -3,7 +3,7 @@
 > Create or query one or more Postfix lookup tables, or update an existing one.
 > More information: <https://manned.org/postmap>.
 
-- Search the specified maps for key and remove one entry per map:
+- Search specified maps for the key and remove one entry per map:
 
 `postmap -d {{key}} {{input file}}`
 
