@@ -5,7 +5,7 @@
 
 - Join images into a single multi-image file:
 
-`mogrify -adjoin {{input-file}} {{input-file}}`
+`mogrify -adjoin {{input_file}} {{input_file}}`
 
 - Set background color:
 
