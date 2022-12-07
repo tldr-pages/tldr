@@ -5,7 +5,7 @@
 
 - Search specified maps for the key and remove one entry per map:
 
-`postmap -d {{key}} {{input file}}`
+`postmap -d {{key}} {{input_file}}`
 
 - Enable message header query mode:
 
