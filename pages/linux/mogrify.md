@@ -19,6 +19,6 @@
 
 `mogrify -border geometry {{input-file}}`
 
-- Flip image vertically:
+- Flip the image vertically:
 
 `mogrify -flip {{input-file}}`
