@@ -13,7 +13,7 @@
 
 - Search specified maps for the key and write the first value found to the standard output stream:
 
-`postmap -q {{key}} {{input file}}`
+`postmap -q {{key}} {{input_file}}`
 
 - Retrieve all database elements, and write one line of key value output for each element:
 
