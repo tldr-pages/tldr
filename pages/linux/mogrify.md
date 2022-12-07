@@ -15,7 +15,7 @@
 
 `mogrify -format type {{input-file}}`
 
-- Surround image with border:
+- Surround the image with a border:
 
 `mogrify -border geometry {{input-file}}`
 
