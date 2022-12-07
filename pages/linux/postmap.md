@@ -17,7 +17,7 @@
 
 - Retrieve all database elements, and write one line of key value output for each element:
 
-`postmap -s {{input file}}`
+`postmap -s {{input_file}}`
 
 - Disable UTF-8 support:
 
