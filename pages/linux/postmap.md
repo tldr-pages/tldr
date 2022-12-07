@@ -1,6 +1,6 @@
 # postmap
 
-> Create or query one or more Postfix lookup tables, or updates an existing one.
+> Create or query one or more Postfix lookup tables, or update an existing one.
 > More information: <https://manned.org/postmap>.
 
 - Search the specified maps for key and remove one entry per map:
