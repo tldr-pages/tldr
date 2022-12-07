@@ -17,7 +17,7 @@
 
 - Surround the image with a border:
 
-`mogrify -border geometry {{input-file}}`
+`mogrify -border geometry {{input_file}}`
 
 - Flip the image vertically:
 
