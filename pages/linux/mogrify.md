@@ -11,7 +11,7 @@
 
 `mogrify -background color {{input_file}}`
 
-- Set image format type:
+- Set the image format type:
 
 `mogrify -format type {{input_file}}`
 
