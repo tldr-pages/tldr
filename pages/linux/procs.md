@@ -11,7 +11,7 @@
 
 `procs {{zsh}}`
 
-- List information about all processes sorted by CPU time in ascending or descending order:
+- List information about all processes sorted by CPU time in [a]scending or [d]escending order:
 
 `procs {{--sorta|--sortd}} cpu`
 
