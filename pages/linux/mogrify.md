@@ -7,7 +7,7 @@
 
 `mogrify -adjoin {{input_file}} {{input_file}}`
 
-- Set background color:
+- Set the background color:
 
 `mogrify -background color {{input_file}}`
 
