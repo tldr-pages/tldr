@@ -21,4 +21,4 @@
 
 - Flip the image vertically:
 
-`mogrify -flip {{input-file}}`
+`mogrify -flip {{input_file}}`
