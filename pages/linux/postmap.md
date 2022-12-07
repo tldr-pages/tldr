@@ -9,7 +9,7 @@
 
 - Enable message header query mode:
 
-`postmap -h {{input file}}`
+`postmap -h {{input_file}}`
 
 - Search the specified maps for key and write the first value found to the standard output stream:
 
