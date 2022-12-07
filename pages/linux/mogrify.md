@@ -13,7 +13,7 @@
 
 - Set image format type:
 
-`mogrify -format type {{input-file}}`
+`mogrify -format type {{input_file}}`
 
 - Surround the image with a border:
 
