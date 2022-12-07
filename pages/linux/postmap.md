@@ -11,7 +11,7 @@
 
 `postmap -h {{input_file}}`
 
-- Search the specified maps for key and write the first value found to the standard output stream:
+- Search specified maps for the key and write the first value found to the standard output stream:
 
 `postmap -q {{key}} {{input file}}`
 
