@@ -9,7 +9,7 @@
 
 - Set background color:
 
-`mogrify -background color {{input-file}}`
+`mogrify -background color {{input_file}}`
 
 - Set image format type:
 
