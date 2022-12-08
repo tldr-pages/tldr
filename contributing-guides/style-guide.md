@@ -106,7 +106,7 @@ Example:
 
 ## Option syntax
 
-- Use GNU-style **long options** (like `--help` rather than `-h`) when they are cross-platform compatible (available on multiple platforms among `android`, `linux`, `osx`, `sunos`, `windows`). For pages in `common/`, long options are preferred if available.
+- Use GNU-style **long options** (like `--help` rather than `-h`) when they are cross-platform compatible (available on multiple platforms among `android`, `linux`, `osx`, `sunos`, `windows`).
 - In other cases use short options (like `-h`).
 
 ## Token syntax
