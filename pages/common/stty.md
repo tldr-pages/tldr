@@ -7,13 +7,9 @@
 
 `stty --all`
 
-- Set the number of rows:
+- Set the number of rows or columns:
 
-`stty rows {{rows}}`
-
-- Set the number of columns:
-
-`stty cols {{cols}}`
+`stty {{rows|cols}} {{count}}`
 
 - Get the actual transfer speed of a device:
 

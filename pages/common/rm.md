@@ -17,7 +17,7 @@
 
 - Interactively remove multiple files, with a prompt before every removal:
 
-`rm -i {{path/to/file}}`
+`rm -i {{path/to/file1 path/to/file2 ...}}`
 
 - Remove files in verbose mode, printing a message for each removed file:
 

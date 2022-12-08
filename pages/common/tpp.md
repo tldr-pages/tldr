@@ -9,4 +9,4 @@
 
 - Output a presentation:
 
-`tpp -t {{type}} -o {{outputname}} {{path/to/file}}`
+`tpp -t {{type}} -o {{path/to/output}} {{path/to/file}}`
