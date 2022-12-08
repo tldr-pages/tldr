@@ -8,15 +8,15 @@
 
 `apx init`
 
-- Install package(s) in the container:
+- Install specific packages in the container:
 
 `apx install {{package1 package2 ...}}`
 
-- Remove package(s) from the container:
+- Remove specific packages from the container:
 
 `apx remove {{package1 package2 ...}}`
 
-- Search for packages:
+- Search for specific packages:
 
 `apx search {{package1 package2 ...}}`
 
