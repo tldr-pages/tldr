@@ -106,9 +106,7 @@ Example:
 
 ## Option syntax
 
-- Use GNU-style **long options** (like `--help`) when they are portable (available on more than one platform tldr has pages for:
-  `android`, `common`, `linux`, `osx`, `sunos`, `windows`). It means that for all pages in `common/` you can prefer long options
-  when available for everything.
+- Use GNU-style **long options** (like `--help` rather than `-h`) when they are cross-platform compatible (available on multiple platforms among `android`, `linux`, `osx`, `sunos`, `windows`). For pages in `common/`, long options are preferred if available.
 - In other cases use short options (like `-h`).
 
 ## Token syntax
