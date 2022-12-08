@@ -8,7 +8,7 @@
 
 `apx init`
 
-- Install package(s) in the constainer:
+- Install package(s) in the container:
 
 `apx install {{package1 package2 ...}}`
 
@@ -24,10 +24,10 @@
 
 `apx enter`
 
-- Update the list of available packages in the managed container:
+- Update the list of available packages in the container:
 
 `apx update`
 
-- Upgrade all installed packages in the managed container to their newest available version:
+- Upgrade all installed packages in the container to their newest available version:
 
 `apx upgrade`
