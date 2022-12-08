@@ -109,6 +109,12 @@ Example:
 - Use GNU-style **long options** (like `--help` rather than `-h`) when they are cross-platform compatible (available on multiple platforms where a command is intended to work among `android`, `linux`, `osx`, `sunos`, `windows`).
 - In other cases use short options (like `-h`).
 
+## Mnemonic syntax
+
+- Mnemonics can be used for short and GNU-style long options.
+- But they must not be used when they are exactly equal the GNU-style long option's me such as (`Display [help]:` for `--help` option) as they are redundant
+  in such case.
+
 ## Token syntax
 
 User-provided values should use the `{{token}}` syntax
