@@ -30,7 +30,7 @@
 
 - Display help:
 
-`sudo abroot --help`
+`abroot --help`
 
 - Display version:
 
