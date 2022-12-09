@@ -12,19 +12,19 @@
 
 `sudo abroot get future`
 
-- Enter a transactional shell in the future root partition and switch root on the next boot:
+- Enter the transactional shell in the future root partition and switch root on the next boot:
 
 `sudo abroot shell`
 
-- Execute a command in a transactional shell in the future root partition and switch to it on the next boot:
+- Execute a command in the transactional shell in the future root partition and switch to it on the next boot:
 
 `sudo abroot exec {{command}}`
 
-- Install a package in the host inside a transactional shell in the future root partition and switch to it on the next boot:
+- Install a package in the host inside the transactional shell in the future root partition and switch to it on the next boot:
 
 `sudo abroot exec apt install {{package}}`
 
-- Update the root partition (For advanced users only):
+- Update the boot partition (for advanced users only):
 
 `sudo abroot _update-boot`
 
