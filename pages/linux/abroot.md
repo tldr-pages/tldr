@@ -1,6 +1,6 @@
 # abroot
 
-> ABRoot utility provides full immutability and atomicity by transacting between 2 root partition states (A<->B).
+> ABRoot utility provides full immutability and atomicity by transacting between 2 root partition states (A↔B).
 > It also allows on-demand transactions via a transactional shell.
 > More information: <https://github.com/Vanilla-OS/ABRoot>.
 
