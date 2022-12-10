@@ -1,6 +1,6 @@
 # netcat
 
-> The `nc` (or `netcat`) utility is used for just about anything under the sun involving TCP, UDP, or UNIX-domain sockets. It can open TCP connections, send UDP packets, listen on arbitrary TCP and UDP ports, do port scanning, and deal with both IPv4 and IPv6.
+> The `nc` (or `netcat`) utility is used for just about anything under the sun involving TCP, UDP, or UNIX-domain sockets. It can open TCP connections, send UDP packets, listen on arbitrary TCP and UDP ports, do port scanning.
 > More information: <http://man.openbsd.org/OpenBSD-current/man1/nc.1>.
 
 - Normal Syntax:
@@ -34,19 +34,3 @@
 - No DNS lookups on addresses, hostnames or ports:
 
 `nc -n {{host}} {{port}}`
-
-- Use given source port number when initiating connection:
-
-`nc -p {{source port}} {{host}} {{port}}`
-
-- Use given source ip address:
-
-`nc -s {{ip address}} {{host}} {{port}}`
-
-- Scan for port listeners without transmitting any data:
-
-`nc -z {{host}} {{port}}`
-
-- Verbose output:
-
-`nc -v {{host}} {{port}}`
