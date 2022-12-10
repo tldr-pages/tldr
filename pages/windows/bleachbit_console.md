@@ -5,18 +5,18 @@
 
 - Perform the clean-up operation and delete files:
 
-  `bleachbit_console.exe --clean`
+`bleachbit_console.exe --clean`
 
 - Preview the files that will be deleted and other changes that will be made before actually performing the clean-up operation:
 
-  `bleachbit_console.exe --preview`
+`bleachbit_console.exe --preview`
 
 - Display system information:
 
-  `bleachbit_console.exe --sysinfo`
+`bleachbit_console.exe --sysinfo`
 
 - Start the graphical user interface (GUI) version of Bleachbit: `bleachbit_console.exe --gui`
 
 - Display version information and exit:
 
-  `bleachbit_console.exe --version`
+`bleachbit_console.exe --version`
