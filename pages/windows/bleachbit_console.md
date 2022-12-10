@@ -17,6 +17,8 @@
 
 - Start the graphical user interface (GUI) version of Bleachbit: `bleachbit_console.exe --gui`
 
+`bleachbit_console.exe --gui`
+
 - Display version information and exit:
 
 `bleachbit_console.exe --version`
