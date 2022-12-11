@@ -13,7 +13,7 @@
 
 - Copy, paste, move and delete:
 
-`yy`, `p`, `P` and `dd`
+`yy, p, P and dd`
 
 - Permanent delete:
 
