@@ -7,9 +7,9 @@
 
 `gcc {{path/to/source1.c path/to/source2.c ...}} -o {{path/to/output_executable}}`
 
-- Show common warnings, debug symbols in output:
+- Show common warnings, debug symbols in output, and optimize without affecting debugging:
 
-`gcc {{path/to/source.c}} -Wall -Og -o {{path/to/output_executable}}`
+`gcc {{path/to/source.c}} -Wall -g -Og -o {{path/to/output_executable}}`
 
 - Include libraries from a different path:
 

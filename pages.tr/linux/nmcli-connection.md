@@ -1,7 +1,7 @@
 # nmcli connection
 
 > NetworkManager ile bağlantı yönetimi.
-> Daha fazla bilgi: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
+> Daha fazla bilgi için: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
 - Tüm NetworkManager bağlantılarını listele (ad, UUID, tür ve aygıtı gösterir):
 

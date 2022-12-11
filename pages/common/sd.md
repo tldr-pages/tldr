@@ -11,7 +11,7 @@
 
 `{{echo 'cargo +nightly watch'}} | sd '(\w+)\s+\+(\w+)\s+(\w+)' 'cmd: $1, channel: $2, subcmd: $3'`
 
-- Find and replace in a file printing the result to stdout:
+- Find and replace in a file printing the result to `stdout`:
 
 `sd -p {{'window.fetch'}} {{'fetch'}} {{http.js}}`
 

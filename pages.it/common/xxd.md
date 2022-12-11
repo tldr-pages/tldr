@@ -11,7 +11,7 @@
 
 `xxd {{file_di_input}} {{file_di_output}}`
 
-- Mostrare un output in una versione un po' più compatta, dove gli zero consegutivi vengono sostituiti da un asterisco.
+- Mostrare un output in una versione un po' più compatta, dove gli zero consegutivi vengono sostituiti da un asterisco:
 
 `xxd -a {{file_di_input}}`
 

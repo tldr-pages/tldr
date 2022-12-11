@@ -6,7 +6,7 @@
 
 - Download the contents of a URL to a file:
 
-`curl {{http://example.com}} --output {{filename}}`
+`curl {{http://example.com}} --output {{path/to/file}}`
 
 - Download a file, saving the output under the filename indicated by the URL:
 

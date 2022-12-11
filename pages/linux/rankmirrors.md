@@ -1,7 +1,7 @@
 # rankmirrors
 
 > Rank a list of Pacman mirrors by connection and opening speed.
-> Writes the new mirrorlist to stdout.
+> Writes the new mirrorlist to `stdout`.
 > More information: <https://wiki.archlinux.org/index.php/mirrors>.
 
 - Rank a mirror list:

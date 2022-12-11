@@ -3,7 +3,7 @@
 > Pretty-print Haskell source files.
 > More information: <https://github.com/lspitzner/brittany#readme>.
 
-- Format a Haskell source file and print the result to stdout:
+- Format a Haskell source file and print the result to `stdout`:
 
 `brittany {{path/to/file.hs}}`
 

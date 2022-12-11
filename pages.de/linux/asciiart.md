@@ -23,6 +23,6 @@
 
 `asciiart --format {{text|html}} {{pfad/zum/bild.jpg}}`
 
-- Invertiere die Buchstaben Map:
+- Invertiere die Zeichentabelle:
 
 `asciiart --invert-chars {{pfad/zum/bild.jpg}}`

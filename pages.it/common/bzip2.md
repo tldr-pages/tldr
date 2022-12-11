@@ -5,12 +5,12 @@
 
 - Comprimi un file:
 
-`bzip2 {{percorso/al/file}}`
+`bzip2 {{percorso/del/file}}`
 
 - Decomprimi un file:
 
-`bzip2 -d {{percorso/al/file_compresso.bz2}}`
+`bzip2 -d {{percorso/del/file_compresso.bz2}}`
 
 - Decomprimi un file e mostrane il contenuto su standard output:
 
-`bzip2 -dc {{percorso/al/file_compresso.bz2}}`
+`bzip2 -dc {{percorso/del/file_compresso.bz2}}`

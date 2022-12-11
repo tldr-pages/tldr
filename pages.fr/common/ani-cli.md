@@ -23,6 +23,6 @@
 
 `ani-cli -c`
 
-- Met à jour ani-cli :
+- Met à jour `ani-cli` :
 
 `ani-cli -U`

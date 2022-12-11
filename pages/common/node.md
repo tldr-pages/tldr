@@ -11,6 +11,10 @@
 
 `node`
 
+- Execute the specified file restarting the process when an imported file is changed (requires Node.js version 18.11+):
+
+`node --watch {{path/to/file}}`
+
 - Evaluate JavaScript code by passing it as an argument:
 
 `node -e "{{code}}"`

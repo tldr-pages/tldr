@@ -23,6 +23,6 @@
 
 `nano --autoindent {{ruta/al/archivo}}`
 
-- Abre nano y create un archivo de resguardo (`archivo~`)  cuando se guardan las ediciones:
+- Abre nano y crea un archivo de resguardo (`archivo~`) cuando se guardan las ediciones:
 
 `nano --backup {{ruta/al/archivo}}`

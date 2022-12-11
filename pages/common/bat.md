@@ -6,7 +6,7 @@
 
 - Print the contents of a file to the standard output:
 
-`bat {{file}}`
+`bat {{path/to/file}}`
 
 - Concatenate several files into the target file:
 
@@ -18,7 +18,7 @@
 
 - Number all output lines:
 
-`bat -n {{file}}`
+`bat --number {{path/to/file}}`
 
 - Syntax highlight a JSON file:
 

@@ -11,7 +11,7 @@
 
 `b2sum {{path/to/file1}} {{path/to/file2}}`
 
-- Calculate the BLAKE2 checksum from stdin:
+- Calculate the BLAKE2 checksum from `stdin`:
 
 `{{some_command}} | b2sum`
 

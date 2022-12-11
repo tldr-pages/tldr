@@ -9,12 +9,12 @@
 
 - Search for packages that contain the specified file or path:
 
-`apt-file {{search|find}} {{part/of/filename}}`
+`apt-file {{search|find}} {{partial_path/to/file}}`
 
 - List the contents of a specific package:
 
 `apt-file {{show|list}} {{package_name}}`
 
-- Search for packages that match the regular expression given in `pattern`:
+- Search for packages that match the `regular_expression`:
 
 `apt-file {{search|find}} --regexp {{regular_expression}}`

@@ -16,7 +16,7 @@
 
 `sfdp -T {{format}} -O {{path/to/input.gv}}`
 
-- Render a `gif` image using stdin and stdout:
+- Render a `gif` image using `stdin` and `stdout`:
 
 `echo "{{digraph {this -> that} }}" | sfdp -T {{gif}} > {{path/to/image.gif}}`
 

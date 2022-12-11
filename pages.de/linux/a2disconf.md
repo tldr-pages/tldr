@@ -1,6 +1,6 @@
 # a2disconf
 
-> Deaktiviert eine Apache Konfigurationsdatei auf Debian-basierten Betriebssystemen.
+> Deaktiviert eine Apache-Konfigurationsdatei auf Debian-basierten Betriebssystemen.
 > Weitere Informationen: <https://manpages.debian.org/latest/apache2/a2disconf.8.en.html>.
 
 - Deaktiviere eine Konfigurationsdatei:

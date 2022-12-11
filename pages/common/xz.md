@@ -5,7 +5,7 @@
 
 - Compress a file to the xz file format:
 
-`xz {{file}}`
+`xz {{path/to/file}}`
 
 - Decompress a xz file:
 
@@ -13,24 +13,24 @@
 
 - Compress a file to the LZMA file format:
 
-`xz --format={{lzma}} {{file}}`
+`xz --format={{lzma}} {{path/to/file}}`
 
 - Decompress an LZMA file:
 
 `xz -d --format={{lzma}} {{file.lzma}}`
 
-- Decompress a file and write to stdout:
+- Decompress a file and write to `stdout`:
 
 `xz -dc {{file.xz}}`
 
 - Compress a file, but don't delete the original:
 
-`xz -k {{file}}`
+`xz -k {{path/to/file}}`
 
 - Compress a file using the fastest compression:
 
-`xz -0 {{file}}`
+`xz -0 {{path/to/file}}`
 
 - Compress a file using the best compression:
 
-`xz -9 {{file}}`
+`xz -9 {{path/to/file}}`

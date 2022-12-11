@@ -11,9 +11,9 @@
 
 `git submodule add {{url_repository}}`
 
-- Aggiungi un repository Git come modulo secondario alla cartella specificata:
+- Aggiungi un repository Git come modulo secondario alla directory specificata:
 
-`git submodule add {{url_repository}} {{percorso/alla/cartella}}`
+`git submodule add {{url_repository}} {{percorso/della/directory}}`
 
 - Aggiorna tutti i moduli secondari al loro commit più recente:
 

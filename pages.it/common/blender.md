@@ -12,11 +12,11 @@
 
 `blender -b {{nome_file}}.blend -o //{{render/frame_###.png}} -a`
 
-- Renderizza il decimo frame di un'animazione come singola immagine, salvandolo in una cartella esistente (percorso assoluto):
+- Renderizza il decimo frame di un'animazione come singola immagine, salvandolo in una directory esistente (percorso assoluto):
 
-`blender -b {{nome_file}}.blend -o {{/percorso/a/directory_output}} -f {{10}}`
+`blender -b {{nome_file}}.blend -o {{/percorso/della/directory_output}} -f {{10}}`
 
-- Renderizza il penultimo frame di un'animazione come immagine JPEG, salvandolo in una cartella esistente (path relativa al file):
+- Renderizza il penultimo frame di un'animazione come immagine JPEG, salvandolo in una directory esistente (path relativa al file):
 
 `blender -b {{nome_file}}.blend -o //{{directory_output}} -F {{JPEG}} -f {{-2}}`
 

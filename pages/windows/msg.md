@@ -7,7 +7,7 @@
 
 `msg {{username|session_name|session_id}} {{message}}`
 
-- Send a message from stdin:
+- Send a message from `stdin`:
 
 `echo "{{message}}" | msg {{username|session_name|session_id}}`
 

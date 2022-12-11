@@ -3,7 +3,7 @@
 > JavaScript and TypeScript compiler written in Rust.
 > More information: <https://swc.rs>.
 
-- Transpile a specified input file and output to stdout:
+- Transpile a specified input file and output to `stdout`:
 
 `swc {{path/to/file}}`
 

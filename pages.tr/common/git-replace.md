@@ -1,7 +1,7 @@
 # git replace
 
 > Nesnelerin yerini değiştirmek için referans oluştur, sırala ve sil.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-replace>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-replace>.
 
 - Öbür commit'lere dokunmadan bir commit'in başka bir commit ile yerini değiştir:
 

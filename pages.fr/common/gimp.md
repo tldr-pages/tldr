@@ -1,6 +1,6 @@
 # gimp
 
-> Outil d'édition et de retouche d'image, libre et multiplateforme
+> Outil d'édition et de retouche d'image, libre et multiplateforme.
 > Voir aussi : `krita`.
 > Plus d'informations : <https://docs.gimp.org/en/gimp-fire-up.html#gimp-concepts-running-command-line>.
 

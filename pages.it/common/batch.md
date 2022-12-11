@@ -14,4 +14,4 @@
 
 - Esegui comandi contenuti in un dato file:
 
-`batch -f {{percorso/al/file}}`
+`batch -f {{percorso/del/file}}`

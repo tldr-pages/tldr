@@ -7,10 +7,10 @@
 
 `rmdir {{pad/naar/directory}}`
 
-- verwijder een directory en zen inhoud recursief:
+- Verwijder een directory en zen inhoud recursief:
 
 `rmdir {{pad/naar/directory}} /s`
 
-- verwijder een directory en zen inhoud recursief zonder te vragen:
+- Verwijder een directory en zen inhoud recursief zonder te vragen:
 
 `rmdir {{pad/naar/directory}} /s /q`

@@ -5,7 +5,7 @@
 
 - Execute a specific expression (print a colored and formatted json):
 
-`{{cat path/to/file.json}} | jq '{{.}}'`
+`{{cat path/to/file.json}} | jq '.'`
 
 - Execute a specific script:
 
@@ -29,4 +29,4 @@
 
 - Add/remove specific keys:
 
-`{{cat path/to/file.json}} | jq '{{.}} {{+|-}} {{{"key1": "value1", "key2": "value2", ...}}}'`
+`{{cat path/to/file.json}} | jq '. {{+|-}} {{{"key1": "value1", "key2": "value2", ...}}}'`
