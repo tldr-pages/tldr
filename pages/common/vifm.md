@@ -25,7 +25,7 @@
 
 - Toggle and visual select:
 
-`t` and `v`
+`t and v`
 
 - Save session and exit:
 
