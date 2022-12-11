@@ -16,7 +16,7 @@
 
 `bleachbit_console.exe --sysinfo`
 
-- Start the graphical user interface (GUI) version of Bleachbit: `bleachbit_console.exe --gui`:
+- Start the graphical user interface (GUI) version of Bleachbit:
 
 `bleachbit_console.exe --gui`
 
