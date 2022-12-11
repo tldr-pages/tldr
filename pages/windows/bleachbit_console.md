@@ -20,6 +20,6 @@
 
 `bleachbit_console.exe --gui`
 
-- Display version information and exit:
+- Display version:
 
 `bleachbit_console.exe --version`
