@@ -3,34 +3,22 @@
 > An open-source scientific and technical publishing system built on Pandoc.
 > More information: <https://quarto.org/>.
 
-- Create a Quarto project:
+- Create a new project:
 
-`quarto create-project {{path/to/project}}`
+`quarto create-project {{path/to/destination_directory}} --type {{book|default|website}}`
 
-- Create a new website project:
+- Create a new blog website:
 
-`quarto create-project {{path/to/destination_directory}} --type {{website}}`
+`quarto create-project {{path/to/destination_directory}} --type {{website}} --template {{blog}}`
 
-- Create a new book project:
+- Render input file(s) to different formats:
 
-`quarto create-project {{path/to/destination_directory}} --type {{book}}`
+`quarto render {{path/to/file.{{qmd|rmd|ipynb}}}} --to {{html|pdf|docx}}`
 
-- Render an R Markdown file to HTML:
+- Render and preview a document or a website:
 
-`quarto render {{path/to/file.rmd}} --to {{html}}`
+`quarto preview {{path/to/destination_directory|path/to/file}}`
 
-- Render a Quarto file to HTML:
+- Publish a document or project to Quarto Pub, Github Pages, RStudio Connect or Netlify:
 
-`quarto render {{path/to/file.qmd}} --to {{html}}`
-
-- Render a Jupyter notebook to HTML:
-
-`quarto render {{path/to/file.ipynb}} --to {{html}}`
-
-- Render an R Markdown, Jupyter, or Quarto file to PDF:
-
-`quarto render {{path/to/file}} --to {{pdf}}`
-
-- Render an R Markdown, Jupyter, or Quarto file to a Microsoft `docx` document:
-
-`quarto render {{path/to/file}} --to {{docx}}`
+`quarto publish {{quarto-pub|gh-pages|connect|netlify}}`

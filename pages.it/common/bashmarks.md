@@ -7,15 +7,15 @@
 
 `l`
 
-- Salva la cartella corrente come segnalibro:
+- Salva la directory corrente come segnalibro:
 
 `s {{nome_segnalibro}}`
 
-- Vai ad una cartella salvata:
+- Vai ad una directory salvata:
 
 `g {{nome_segnalibro}}`
 
-- Lista i contenuti di una cartella salvata:
+- Lista i contenuti di una directory salvata:
 
 `p {{nome_segnalibro}}`
 

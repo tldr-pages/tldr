@@ -1,7 +1,7 @@
 # gcc
 
 > Préprocesse et compile des fichiers sources C et C++, pour ensuite les assembler et les lier entre eux.
-> Plus d'informations : <https://gcc.gnu.org>
+> Plus d'informations : <https://gcc.gnu.org>.
 
 - Compile plusieurs fichiers source en un exécutable :
 

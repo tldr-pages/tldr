@@ -1,6 +1,6 @@
 # hyperfine
 
-> Strumento di benchmarking con interfaccia CLI
+> Strumento di benchmarking con interfaccia CLI.
 > Maggiori informazioni: <https://github.com/sharkdp/hyperfine/>.
 
 - Esegui un benchmark di base, eseguendo almeno 10 esecuzioni:

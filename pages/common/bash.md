@@ -28,6 +28,6 @@
 
 `bash -e {{path/to/script.sh}}`
 
-- Execute specific commands from stdin:
+- Execute specific commands from `stdin`:
 
 `{{echo "echo 'bash is executed'"}} | bash`

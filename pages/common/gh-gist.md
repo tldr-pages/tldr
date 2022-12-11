@@ -9,7 +9,7 @@
 
 - Create a new Gist with a description:
 
-`gh gist create {{filename}} --desc "{{description}}"`
+`gh gist create {{path/to/file}} --desc "{{description}}"`
 
 - Edit a Gist:
 

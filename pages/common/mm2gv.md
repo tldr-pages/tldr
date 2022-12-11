@@ -8,7 +8,7 @@
 
 `mm2gv -o {{output.gv}} {{input.mm}}`
 
-- Convert a graph using stdin and stdout:
+- Convert a graph using `stdin` and `stdout`:
 
 `cat {{input.mm}} | mm2gv > {{output.gv}}`
 

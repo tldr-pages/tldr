@@ -7,7 +7,7 @@
 
 `runlim {{command}} {{command_arguments}}`
 
-- Log statistics to a file instead of stdout:
+- Log statistics to a file instead of `stdout`:
 
 `runlim --output-file={{path/to/file}} {{command}} {{command_arguments}}`
 

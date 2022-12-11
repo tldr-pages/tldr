@@ -3,7 +3,7 @@
 > OpenSSL command to generate RSA private keys.
 > More information: <https://www.openssl.org/docs/manmaster/man1/openssl-genrsa.html>.
 
-- Generate an RSA private key of 2048 bits to stdout:
+- Generate an RSA private key of 2048 bits to `stdout`:
 
 `openssl genrsa`
 

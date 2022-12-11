@@ -5,7 +5,7 @@
 
 - Print the contents of the file and display a progress bar:
 
-`pv {{file}}`
+`pv {{path/to/file}}`
 
 - Measure the speed and amount of data flow between pipes (`-s` is optional):
 

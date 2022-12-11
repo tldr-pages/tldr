@@ -10,7 +10,7 @@
 
 - Download and specify filename:
 
-`axel {{url}} -o {{filename}}`
+`axel {{url}} -o {{path/to/file}}`
 
 - Download with multiple connections:
 

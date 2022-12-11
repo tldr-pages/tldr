@@ -16,7 +16,7 @@
 
 `bat {{archivo1}} {{archivo2}} >> {{archivo_final}}`
 
-- Numera las lineas del archivo:
+- Numera las líneas del archivo:
 
 `bat -n {{archivo}}`
 

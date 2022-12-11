@@ -12,7 +12,7 @@
 
 `vim +{{regel_nummer}} {{pad/naar/bestand}}`
 
-- bekijk de handleiding van Vim:
+- Bekijk de handleiding van Vim:
 
 `:help<Enter>`
 

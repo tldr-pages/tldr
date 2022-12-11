@@ -16,6 +16,6 @@
 
 `where /R {{path/to/directory}} {{file_pattern}}`
 
-- Display only the error code for the location of file pattern:
+- Silently return the error code for the location of the file pattern:
 
 `where /Q {{file_pattern}}`

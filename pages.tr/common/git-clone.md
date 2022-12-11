@@ -1,7 +1,7 @@
 # git clone
 
 > Varolan bir dizini klonla.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-clone>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-clone>.
 
 - Varolan bir depoyu klonla:
 

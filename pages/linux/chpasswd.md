@@ -1,6 +1,6 @@
 # chpasswd
 
-> Change the passwords for multiple users by using stdin.
+> Change the passwords for multiple users by using `stdin`.
 > More information: <https://manned.org/chpasswd.8>.
 
 - Change the password for a specific user:

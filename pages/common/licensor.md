@@ -1,6 +1,6 @@
 # licensor
 
-> Write licenses to stdout.
+> Write licenses to `stdout`.
 > More information: <https://github.com/raftario/licensor>.
 
 - Write the MIT license to a file named `LICENSE`:

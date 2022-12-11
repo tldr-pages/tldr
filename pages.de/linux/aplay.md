@@ -1,6 +1,6 @@
 # aplay
 
-> Command-line Musik Player für den ALSA Soundkarten-Treiber.
+> Command-line Musik Player für den ALSA-Soundkarten-Treiber.
 > Weitere Informationen: <https://manned.org/aplay>.
 
 - Spiele eine bestimmte Datei (Abtastrate, Bittiefe, etc. werden automatisch für das Dateiformat erkannt):

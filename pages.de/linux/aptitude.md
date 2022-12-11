@@ -27,7 +27,7 @@
 
 `aptitude upgrade`
 
-- Aktualisiere installierte Pakete (wie `aptitude upgrade`), inklusive obsoleter Pakete und installiere zusätzliche Pakete um die neuen Paket Abhängigkeiten zu erfüllen:
+- Aktualisiere installierte Pakete (wie `aptitude upgrade`), inklusive obsoleter Pakete und installiere zusätzliche Pakete um die neuen Paket-Abhängigkeiten zu erfüllen:
 
 `aptitude full-upgrade`
 

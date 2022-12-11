@@ -19,6 +19,6 @@
 
 `mv -n {{sorgente}} {{destinazione}}`
 
-- Sposta file in modità verbosa, mostrando a schermo ogni file che viene spostato:
+- Sposta file in modalità verbosa, mostrando a schermo ogni file che viene spostato:
 
 `mv -v {{sorgente}} {{destinazione}}`

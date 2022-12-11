@@ -12,7 +12,7 @@
 
 `<Esc>i`
 
-- Copiare ("yank") o cancellare ("delete") la linea corrente (può poi essere copiara con `p` o `P`):
+- Copiare ("yank") o cancellare ("delete") la linea corrente (può poi essere copiata con `p` o `P`):
 
 `<Esc>{{yy|dd}}`
 

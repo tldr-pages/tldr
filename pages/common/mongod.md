@@ -5,7 +5,7 @@
 
 - Specify a config file:
 
-`mongod --config {{filename}}`
+`mongod --config {{path/to/file}}`
 
 - Specify the port to listen on:
 

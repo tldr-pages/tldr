@@ -9,7 +9,7 @@
 
 - 현재 날짜를 UTC 및 ISO 8601 형식으로 표시:
 
-`date -u +"%Y-%m-%dT%H:%M:%SZ"`
+`date -u +"%Y-%m-%dT%H:%M:%S%Z"`
 
 - 현재 날짜를 Unix 타임스탬프로 표시 (Unix epoch 이후 몇 초):
 

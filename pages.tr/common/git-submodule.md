@@ -1,7 +1,7 @@
 # git submodule
 
 > Alt modülleri incele, güncelle ve yönet.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-submodule>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-submodule>.
 
 - Deponun belirtilen alt modüllerini indir:
 

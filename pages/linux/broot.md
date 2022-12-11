@@ -1,28 +1,9 @@
 # broot
 
-> A better way to navigate directories.
+> Navigate directory trees interactively.
+> See also: `br`.
 > More information: <https://github.com/Canop/broot>.
 
 - Install or reinstall the `br` shell function:
 
 `broot --install`
-
-- Navigate the current directory:
-
-`br`
-
-- Display the size of files and directories:
-
-`br -s`
-
-- Display permissions:
-
-`br -p`
-
-- Display directories only:
-
-`br -f`
-
-- Display hidden files and directories:
-
-`br -h`

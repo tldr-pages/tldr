@@ -7,7 +7,7 @@
 
 `touch {{archivo}}`
 
-- Establece los tiempos de un archivo a un dia y hora específicos:
+- Establece los tiempos de un archivo a un día y hora específicos:
 
 `touch -t {{YYYYMMDDHHMM.SS}} {{archivo}}`
 

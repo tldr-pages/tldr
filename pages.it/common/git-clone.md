@@ -13,7 +13,7 @@
 
 - Clona un repository locale:
 
-`git clone -l {{percorso/a/repository/locale}}`
+`git clone -l {{percorso/del/repository/locale}}`
 
 - Clona in modalità silenziosa:
 

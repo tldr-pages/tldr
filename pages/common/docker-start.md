@@ -11,7 +11,7 @@
 
 `docker start {{container}}`
 
-- Start a container, attaching stdout and stderr and forwarding signals:
+- Start a container, attaching `stdout` and `stderr` and forwarding signals:
 
 `docker start --attach {{container}}`
 

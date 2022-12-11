@@ -19,3 +19,7 @@
 - Test with parameters from a job file:
 
 `sudo fio {{path/to/job_file}}`
+
+- Convert a specific job file to command-line options:
+
+`fio --showcmd {{path/to/job_file}}`

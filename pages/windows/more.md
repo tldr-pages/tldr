@@ -1,9 +1,9 @@
 # more
 
-> Display paginated output from stdin or a file.
+> Display paginated output from `stdin` or a file.
 > More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/more>.
 
-- Display paginated output from stdin:
+- Display paginated output from `stdin`:
 
 `{{echo test}} | more`
 

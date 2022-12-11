@@ -3,7 +3,7 @@
 > Condividi messaggi e file nella stessa rete.
 > Maggiori informazioni: <https://github.com/mafintosh/airpaste>.
 
-- Aspetta un messaggo e mostralo una volta ricevuto:
+- Aspetta un messaggio e mostralo una volta ricevuto:
 
 `airpaste`
 
@@ -13,11 +13,11 @@
 
 - Invia un file:
 
-`airpaste < {{percorso/al/file}}`
+`airpaste < {{percorso/del/file}}`
 
 - Ricevi un file:
 
-`airpaste > {{percorso/al/file}}`
+`airpaste > {{percorso/del/file}}`
 
 - Crea o entra in un canale:
 

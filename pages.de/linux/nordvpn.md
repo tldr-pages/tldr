@@ -23,7 +23,7 @@
 
 `nordvpn connect {{Germany}}`
 
-- Stelle eine Verbinding zu einem NordVPN-Server in einem bestimmten Land und einer bestimmten Stadt her:
+- Stelle eine Verbindung zu einem NordVPN-Server in einem bestimmten Land und einer bestimmten Stadt her:
 
 `nordvpn connect {{Germany}} {{Berlin}}`
 

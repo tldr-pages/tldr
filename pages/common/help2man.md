@@ -15,7 +15,7 @@
 
 `help2man {{executable}} --section {{section}}`
 
-- Output to a file instead of stdout:
+- Output to a file instead of `stdout`:
 
 `help2man {{executable}} --output {{path/to/file}}`
 

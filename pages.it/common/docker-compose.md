@@ -17,7 +17,7 @@
 
 - Avvia tutti i container utilizzando un file compose alternativo:
 
-`docker compose --file {{percorso/a/file}} up`
+`docker compose --file {{percorso/del/file}} up`
 
 - Ferma tutti i container in esecuzione:
 

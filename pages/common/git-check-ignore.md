@@ -11,7 +11,7 @@
 
 `git check-ignore {{path/to/file}} {{path/to/directory}}`
 
-- Use pathnames, one per line, from stdin:
+- Use pathnames, one per line, from `stdin`:
 
 `git check-ignore --stdin < {{path/to/file_list}}`
 

@@ -1,7 +1,7 @@
 # ip link
 
 > Ağ arayüzlerini yönet.
-> Daha fazla bilgi: <https://man7.org/linux/man-pages/man8/ip-link.8.html>.
+> Daha fazla bilgi için: <https://man7.org/linux/man-pages/man8/ip-link.8.html>.
 
 - Tüm ağ arayüzleriyle ilgili bilgileri göster:
 
