@@ -4,34 +4,34 @@
 > Einige Unterbefehle wie `kubectl run` haben ihre eigene Dokumentation zur Verwendung.
 > Weitere Informationen: <https://kubernetes.io/docs/reference/kubectl/>.
 
-- Informationen über eine Ressource mit weiteren Details auflisten:
+- Liste Informationen über eine Ressource mit weiteren Details auf:
 
 `kubectl get {{pod|service|deployment|ingress|...}} -o wide`
 
-- Aktualisierung des angegebenen Pods mit dem Label 'unhealthy' und dem Wert 'true':
+- Aktualisiere die angegebenen Pods mit dem Label 'unhealthy' und dem Wert 'true':
 
 `kubectl label pods {{name}} unhealthy=true`
 
-- Alle Ressourcen mit verschiedenen Typen auflisten:
+- Liste alle Ressourcen, aller Typen auf:
 
 `kubectl get all`
 
-- Anzeige der Ressourcennutzung (CPU/Memory/Storage) von Knoten oder Pods:
+- Zeige die Ressourcennutzung (CPU/Memory/Storage) von Knoten oder Pods:
 
 `kubectl top {{pod|node}}`
 
-- Zeigt die Adresse der Master- und Clusterdienste:
+- Zeige die Adresse der Master- und Clusterdienste:
 
 `kubectl cluster-info`
 
-- Eine Erklärung zu einem bestimmten Feld anzeigen:
+- Zeige eine Erklärung zu einem bestimmten Feld an:
 
 `kubectl explain {{pods.spec.containers}}`
 
-- Zeigt Logs für einen Container in einem Pod oder einer bestimmten Ressource:
+- Zeige Logs für einen Container in einem Pod oder einer bestimmten Ressource:
 
 `kubectl logs {{pod_name}}`
 
-- Befehl in einem bestehenden Pod ausführen:
+- Führe einen Befehl in einem bestehenden Pod aus:
 
 `kubectl exec {{pod_name}} -- {{ls /}}`

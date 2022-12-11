@@ -3,22 +3,22 @@
 > Details von Kubernetes-Objekten und -Ressourcen anzeigen.
 > Weitere Informationen: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#describe>.
 
-- Details zu Pods in einem Namespace anzeigen:
+- Zeige Details zu Pods in einem bestimmten Namespace an:
 
 `kubectl describe pods -n {{namespace}}`
 
-- Details zu Nodes in einem Namespace anzeigen:
+- Zeige Details zu Nodes in einem bestimmten Namespace an:
 
 `kubectl describe nodes -n {{namespace}}`
 
-- Details zu einem bestimmten Pod in einem Namespace anzeigen:
+- Zeige Details zu bestimmten Pods in einem bestimmten Namespace an:
 
 `kubectl describe pods {{pod_name}} -n {{namespace}}`
 
-- Details zu einer bestimmten Node in einem Namespace anzeigen:
+- Zeige Details zu Pbestimmten Nodes in einem bestimmten Namespace an:
 
 `kubectl describe nodes {{node_name}} -n {{namespace}}`
 
-- Details zu Objekten anzeigen, welche in einer YAML Datei definiert sind:
+- Zeige Details zu Ressourcen, welche in einem YAML-Manifest definiert sind, an:
 
 `kubectl describe -f {{pfad/zu/manifest.yaml}}`

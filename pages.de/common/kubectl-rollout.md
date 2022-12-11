@@ -3,18 +3,18 @@
 > Verwalten des Rollouts einer Kubernetes-Ressource (deployments, daemonsets, and statefulsets).
 > Weitere Informationen: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#rollout>.
 
-- Start eines rollenden Neustarts einer Ressource:
+- Starte einen rollenden Neustart einer Ressource:
 
 `kubectl rollout restart {{resource_type}}/{{resource_name}}`
 
-- Überwachen Sie den fortlaufenden Aktualisierungsstatus einer Ressource:
+- Überwache den fortlaufenden Aktualisierungsstatus einer Ressource:
 
 `kubectl rollout status {{resource_type}}/{{resource_name}}`
 
-- Zurücksetzen einer Ressource auf die vorherige Version:
+- Setze eine Ressource auf die vorherige Version zurück:
 
 `kubectl rollout undo {{resource_type}}/{{resource_name}}`
 
-- Zeigt den Rollout-Verlauf einer Ressource:
+- Zeige den Rollout-Verlauf einer Ressource an:
 
 `kubectl rollout history {{resource_type}}/{{resource_name}}`

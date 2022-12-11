@@ -3,7 +3,7 @@
 > Abfragen von Kubernetes Resourcen und Objekten.
 > Weitere Informationen: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#get>.
 
-- Alle Namespaces im aktuellen Cluster anzeigen:
+- Zeige alle Namespaces im Cluster an:
 
 `kubectl get namespaces`
 
@@ -11,22 +11,22 @@
 
 `kubectl get nodes -n {{namespace}}`
 
-- Frage alle Pods in einem spezifischen Namespace ab:
+- Frage alle Pods in einem bestimmten Namespace ab:
 
 `kubectl get pods -n {{namespace}}`
 
-- Alle Deployments in einem spezifischen Namepsace abfragen:
+- Frage alle Deployments in einem bestimmten Namespace ab:
 
 `kubectl get deployments -n {{namespace}}`
 
-- Frage alle Services in einem spezifischen Namespace ab:
+- Frage alle Services in einem bestimmten Namespace ab:
 
 `kubectl get services -n {{namespace}}`
 
-- Frage alle Resourcen in einem spezifischen Namespace ab:
+- Frage alle Resourcen in einem bestimmten Namespace ab:
 
 `kubectl get all -n {{namespace}}`
 
-- Alle Objekte abfragen, welche in einer YAML Datei definiert sind:
+- Frage alle Ressourcenab, welche in einem YAML-Manifest definiert sind:
 
 `kubectl get -f {{pfad/zu/manifest.yaml}}`

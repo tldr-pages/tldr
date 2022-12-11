@@ -7,19 +7,19 @@
 
 `kubectl delete pod {{pod_name}}`
 
-- Löschen eines bestimmten Deployments:
+- Lösche ein bestimmtes Deployment:
 
 `kubectl delete deployment {{deployment_name}}`
 
-- Löschen eines bestimmten Nodes:
+- Lösche einer bestimmten Node:
 
 `kubectl delete node {{node_name}}`
 
-- Löschen aller Pods in einem bestimmten Namespaces:
+- Lösche alle Pods in einem bestimmten Namespaces:
 
 `kubectl delete pods --all --namespace {{namespace}}`
 
-- Löschen aller Deployments und Services in einem bestimmten Namespace:
+- Lösche alle Deployments und Services in einem bestimmten Namespace:
 
 `kubectl delete deployments,services --all --namespace {{namespace}}`
 
@@ -27,6 +27,6 @@
 
 `kubectl delete nodes --all`
 
-- Löschen von Resourcen, welche in einer YAML Datei definiert sind :
+- Lösche Resourcen, welche in einer YAML Datei definiert sind :
 
 `kubectl delete --filename {{pfad/zu/manifest.yaml}}`
