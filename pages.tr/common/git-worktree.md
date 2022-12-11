@@ -1,7 +1,7 @@
 # git worktree
 
 > Aynı depoya bağlı çoklu çalışan ağaçları yönet.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-worktree>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-worktree>.
 
 - Belirtilen dala sahip yeni bir dizin yarat:
 

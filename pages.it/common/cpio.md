@@ -10,7 +10,7 @@
 
 - Copia tutti i file e le directory in una directory ed aggiungili ad un archivio, in modalità verbosa:
 
-`find {{path/to/directory}} | cpio -ov > {{archivio.cpio}}`
+`find {{percorso/della/directory}} | cpio -ov > {{archivio.cpio}}`
 
 - Estrai file da un archivio, generando le directory necessarie, in modalità verbosa:
 

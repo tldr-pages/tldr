@@ -22,3 +22,7 @@
 - Display the logon ID of the current user:
 
 `whoami /logonid`
+
+- Display all information for the current user:
+
+`whoami /all`

@@ -1,7 +1,7 @@
 # date
 
 > Sistem tarihini görüntüleyin veya ayarlayın.
-> Daha fazla bilgi: <https://www.gnu.org/software/coreutils/date>.
+> Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/date>.
 
 - Varsayılan yerel biçimi kullanarak geçerli tarihi görüntüleyin:
 
@@ -9,7 +9,7 @@
 
 - Geçerli tarihi UTC ve ISO 8601 formatında görüntüleyin:
 
-`date -u +"%Y-%m-%dT%H:%M:%SZ"`
+`date -u +"%Y-%m-%dT%H:%M:%S%Z"`
 
 - Geçerli tarihi bir Unix zaman damgası olarak görüntüleyin (Unix zamanından bu yana geçen saniyeler):
 

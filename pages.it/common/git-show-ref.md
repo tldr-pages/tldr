@@ -17,4 +17,4 @@
 
 - Verifica che un certo riferimento esista:
 
-`git show-ref --verify {{percorso/al/riferimento}}`
+`git show-ref --verify {{percorso/del/riferimento}}`

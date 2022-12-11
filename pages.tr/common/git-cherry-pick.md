@@ -2,7 +2,7 @@
 
 > Varolan commit'ler ile getirilen yenilikleri mevcut dala uygula.
 > Değişiklikleri başka bir dala aktarmak için, önce `git checkout` komutu kullanılmalıdır.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-cherry-pick>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-cherry-pick>.
 
 - Mevcut dala bir commit uygula:
 

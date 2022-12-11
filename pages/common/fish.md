@@ -23,7 +23,7 @@
 
 `fish --no-execute {{path/to/script.fish}}`
 
-- Execute specific commands from stdin:
+- Execute specific commands from `stdin`:
 
 `{{echo "echo 'fish is executed'"}} | fish`
 

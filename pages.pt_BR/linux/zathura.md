@@ -4,7 +4,7 @@
 > Tenha certeza de que um backend está instalado (poppler, PostScript, ou DjVu).
 > Mais informações: <https://pwmt.org/projects/zathura/>.
 
-- Abre um arquivo
+- Abre um arquivo:
 
 `zathura {{caminho/para/arquivo}}`
 

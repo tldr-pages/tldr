@@ -31,6 +31,6 @@
 
 `chmod -R g+w,o+w {{pfad/zu/verzeichnis}}`
 
-- Gib [a]llen Benutzern rekursiv Rechte zum Lesen ([r]ead) von Dateien und Ausführen (e[X]ecute) von Unterverzeichnissen innerhalb eines Verzeichnis:
+- Gib [a]llen Benutzern rekursiv Rechte zum Lesen ([r]ead) von Dateien und Ausführen (e[X]ecute) von Unterverzeichnissen innerhalb eines Verzeichnisses:
 
 `chmod -R a+rX {{pfad/zu/verzeichnis}}`

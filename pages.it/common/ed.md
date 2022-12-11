@@ -13,7 +13,7 @@
 
 - Avvia ed per editare un file esistente (mostra il numero di byte del file caricato):
 
-`ed -p : {{percorso/al/file}}`
+`ed -p : {{percorso/del/file}}`
 
 - Attiva o disattiva la stampa di spiegazioni per gli errori (di default, le spiegazioni non sono stampate ed appare solo un `?`):
 

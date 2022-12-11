@@ -1,7 +1,7 @@
 # git pull
 
 > Uzak bir depodan dal getir ve yerel depo ile birleştir.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-pull>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-pull>.
 
 - Varsayılan uzak depodan değişiklikleri indir ve birleştir:
 

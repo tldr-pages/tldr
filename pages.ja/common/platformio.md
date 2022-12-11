@@ -1,6 +1,6 @@
 # platformio
 
-> このコマンドは `pio` のエイリアスです.
+> このコマンドは `pio` のエイリアスです。
 > 詳しくはこちら: <https://docs.platformio.org/en/latest/core/userguide/>
 
 - オリジナルのコマンドのドキュメントを表示する:

@@ -1,7 +1,7 @@
 # settings
 
 > Android işletim sistemi ile ilgili bilgi al.
-> Daha fazla bilgi: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
+> Daha fazla bilgi için: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
 
 - `global` isim alanındaki ayarların sırasını görüntüle:
 

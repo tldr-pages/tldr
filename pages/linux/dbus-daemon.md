@@ -19,7 +19,7 @@
 
 `dbus-daemon --address {{address}}`
 
-- Output the process ID to stdout:
+- Output the process ID to `stdout`:
 
 `dbus-daemon --print-pid`
 

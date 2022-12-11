@@ -1,9 +1,9 @@
 # wc
 
-> Zlicza linie, słowa, i bajty
+> Zlicza linie, słowa, i bajty.
 > Więcej informacji: <https://ss64.com/osx/wc.html>.
 
-- Policz linie w pliku
+- Policz linie w pliku:
 
 `wc -l {{ścieżka/do/pliku}}`
 
