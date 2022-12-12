@@ -22,3 +22,7 @@
 - Move files, but swap the positions of the source and the target filenames in the editor:
 
 `qmv --option swap {{*.jpg}}`
+
+- Rename all files and folders in the current directory, but show only target filenames in the editor:
+
+`qmv -f do .`
