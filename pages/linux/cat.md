@@ -23,7 +23,7 @@
 
 `cat - > {{path/to/file}}`
 
-- Number all output lines:
+- [n]umber all output lines:
 
 `cat -n {{path/to/file}}`
 
