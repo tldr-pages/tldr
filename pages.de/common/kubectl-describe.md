@@ -17,7 +17,7 @@
 
 - Zeige Details zu einer bestimmten Node in einem bestimmten Namespace an:
 
-`kubectl describe nodes {{node_name}} -n {{namespace}}`
+`kubectl describe nodes {{node_name}} --namespace="{{namespace}}"`
 
 - Zeige Details zu Ressourcen, die in einer YAML Datei definiert sind, an:
 
