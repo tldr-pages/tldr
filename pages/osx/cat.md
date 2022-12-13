@@ -1,7 +1,7 @@
 # cat
 
 > Print and concatenate files.
-> More information: <https://www.gnu.org/software/coreutils/cat>.
+> More information: <https://keith.github.io/xcode-man-pages/cat.1.html>.
 
 - Print the contents of a file to the standard output:
 
