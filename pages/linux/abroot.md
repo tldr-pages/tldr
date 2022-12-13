@@ -12,9 +12,9 @@
 
 `sudo abroot shell`
 
-- Execute a command in the transactional shell in the future root partition and switch to it on the next boot:
+- Execute a specific command in the transactional shell in the future root partition and switch to it on the next boot:
 
-`sudo abroot exec {{command}}`
+`sudo abroot exec "{{command}}"`
 
 - Install specific packages in the host inside the transactional shell in the future root partition and switch to it on the next boot:
 
