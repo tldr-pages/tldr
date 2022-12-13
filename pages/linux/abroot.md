@@ -4,13 +4,9 @@
 > It also allows on-demand transactions via a transactional shell.
 > More information: <https://github.com/Vanilla-OS/ABRoot>.
 
-- Output the present root partition state:
+- Output the current or future root partition state:
 
-`sudo abroot get present`
-
-- Output the future root partition state:
-
-`sudo abroot get future`
+`sudo abroot get {{present|future}}`
 
 - Enter the transactional shell in the future root partition and switch root on the next boot:
 
