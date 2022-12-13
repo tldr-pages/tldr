@@ -12,7 +12,7 @@
 
 `kubectl label pods {{name}} unhealthy=true`
 
-- Liste alle Ressourcen, aller Typen auf:
+- Liste alle Ressourcen aller Typen auf:
 
 `kubectl get all`
 
