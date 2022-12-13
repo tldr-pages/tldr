@@ -24,9 +24,9 @@
 
 `nc -l "{{host}}" "{{port}}"`
 
-- Continue listening for connections after first client has disconnected:
+- Continue [l]istening for connections after first client has disconnected:
 
-`nc -k -l {{host}} {{port}}`
+`nc -k -l "{{host}}" "{{port}}"`
 
 - No DNS lookups on addresses, hostnames or ports:
 
