@@ -4,9 +4,9 @@
 > More information: <http://man.openbsd.org/OpenBSD-current/man1/nc.1>.
 
 
-- Use IPv4 addressing only:
+- Use IPv[4] addressing only:
 
-`nc -4 {{host}} {{port}}`
+`nc -4 "{{host}}" "{{port}}"`
 
 - Use IPv6 addressing only:
 
