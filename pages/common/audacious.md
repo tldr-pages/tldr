@@ -11,7 +11,7 @@
 
 `audacious --enqueue {{path/to/directory}}`
 
-- Start/stop playback:
+- Start or stop playback:
 
 `audacious --play-pause`
 
