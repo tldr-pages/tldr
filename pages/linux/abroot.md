@@ -16,9 +16,9 @@
 
 `sudo abroot exec {{command}}`
 
-- Install a package in the host inside the transactional shell in the future root partition and switch to it on the next boot:
+- Install specific packages in the host inside the transactional shell in the future root partition and switch to it on the next boot:
 
-`sudo abroot exec apt install {{package}}`
+`sudo abroot exec apt install {{package1 package2 ...}}`
 
 - Update the boot partition (for advanced users only):
 
