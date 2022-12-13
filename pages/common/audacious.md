@@ -1,7 +1,7 @@
 # audacious
 
 > An open-source audio player.
-> More information: <https://audacious-media-player.org/>.
+> More information: <https://audacious-media-player.org>.
 
 - Launch the program:
 
