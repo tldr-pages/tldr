@@ -12,9 +12,9 @@
 
 `nc -6 "{{host}}" "{{port}}"`
 
-- UDP instead of TCP:
+- [u]DP instead of TCP:
 
-`nc -u {{host}} {{port}}`
+`nc -u "{{host}}" "{{port}}"`
 
 - Use random port number:
 
