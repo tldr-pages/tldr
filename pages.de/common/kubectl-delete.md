@@ -11,7 +11,7 @@
 
 `kubectl delete deployment {{deployment_name}}`
 
-- Lösche einer bestimmten Node:
+- Lösche eine bestimmte Node:
 
 `kubectl delete node {{node_name}}`
 
