@@ -20,9 +20,9 @@
 
 `nc -r "{{host}}"`
 
-- Listen for an incoming connection rather than initiate connection:
+- [l]isten for an incoming connection rather than initiate connection:
 
-`nc -l {{host}} {{port}}`
+`nc -l "{{host}}" "{{port}}"`
 
 - Continue listening for connections after first client has disconnected:
 
