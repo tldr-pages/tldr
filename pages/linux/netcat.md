@@ -28,6 +28,6 @@
 
 `nc -k -l "{{host}}" "{{port}}"`
 
-- No DNS lookups on addresses, hostnames or ports:
+- [n]o DNS lookups on addresses, hostnames or ports:
 
-`nc -n {{host}} {{port}}`
+`nc -n "{{host}}" "{{port}}"`
