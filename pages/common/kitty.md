@@ -19,6 +19,6 @@
 
 `kitty +kitten icat {{path/to/image}}`
 
-- Copy the contents of stdin to the clipboard:
+- Copy the contents of `stdin` to the clipboard:
 
 `echo {{example}} | kitty +kitten clipboard`

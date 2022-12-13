@@ -19,7 +19,7 @@
 
 `read -d {{new_delimiter}} {{variable}}`
 
-- Do not let backslash (\) act as an escape character:
+- Do not let backslash (\\) act as an escape character:
 
 `read -r {{variable}}`
 
@@ -31,6 +31,6 @@
 
 `read -s {{variable}}`
 
-- Read stdin and perform an action on every line:
+- Read `stdin` and perform an action on every line:
 
 `while read line; do echo "$line"; done`

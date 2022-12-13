@@ -1,24 +1,20 @@
 # konsole
 
-> Konsole: The KDE terminal emulator.
-> More information: <https://konsole.kde.org>.
+> KDE's terminal emulator.
+> More information: <https://docs.kde.org/trunk5/en/konsole/konsole/command-line-options.html>.
 
-- Open a new Konsole in a specific directory:
+- Open the terminal in a specific directory:
 
 `konsole --workdir {{path/to/directory}}`
 
-- Run a specific command and do not close the window after it exits:
+- [e]xecute a specific command and don't close the window after it exits:
 
-`konsole --noclose -e {{command}}`
+`konsole --noclose -e "{{command}}"`
 
 - Open a new tab:
 
 `konsole --new-tab`
 
-- Open a Konsole in the background and bring to the front when Ctrl+Shift+F12 (by default) is pressed:
+- Open the terminal in the background and bring to the front when `Ctrl+Shift+F12` is pressed:
 
 `konsole --background-mode`
-
-- Open a Konsole with the emergency FALLBACK profile:
-
-`konsole --fallback-profile`

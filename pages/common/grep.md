@@ -31,6 +31,6 @@
 
 `grep --only-matching "{{search_pattern}}" {{path/to/file}}`
 
-- Search stdin for lines that do not match a pattern:
+- Search `stdin` for lines that do not match a pattern:
 
 `cat {{path/to/file}} | grep --invert-match "{{search_pattern}}"`

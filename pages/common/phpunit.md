@@ -17,4 +17,4 @@
 
 - Run tests and generate a coverage report in HTML:
 
-`phpunit --coverage-html {{directory}}`
+`phpunit --coverage-html {{path/to/directory}}`

@@ -10,7 +10,7 @@
 
 - Display the serialVersionUID for a colon-separated list of classes and resources:
 
-`serialver -classpath {{directory}} {{classname1:classname2:...}}`
+`serialver -classpath {{path/to/directory}} {{classname1:classname2:...}}`
 
 - Use a specific option from reference page of Java application launcher to the Java Virtual Machine:
 

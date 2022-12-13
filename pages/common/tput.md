@@ -23,6 +23,6 @@
 
 `tput sgr0`
 
-- Enable / Disable word wrap:
+- Enable or disable word wrap:
 
 `tput {{smam|rmam}}`

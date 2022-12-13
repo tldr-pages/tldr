@@ -20,7 +20,7 @@
 
 `gpg --symmetric {{doc.txt}}`
 
-- Decrypt `doc.txt.gpg` (output to stdout):
+- Decrypt `doc.txt.gpg` (output to `stdout`):
 
 `gpg --decrypt {{doc.txt.gpg}}`
 
@@ -28,10 +28,10 @@
 
 `gpg --import {{public.gpg}}`
 
-- Export public key for alice@example.com (output to stdout):
+- Export public key for alice@example.com (output to `stdout`):
 
 `gpg --export --armor {{alice@example.com}}`
 
-- Export private key for alice@example.com (output to stdout):
+- Export private key for alice@example.com (output to `stdout`):
 
 `gpg --export-secret-keys --armor {{alice@example.com}}`

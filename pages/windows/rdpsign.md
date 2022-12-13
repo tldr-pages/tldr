@@ -19,6 +19,6 @@
 
 `rdpsign {{path/to/file.rdp}} /v`
 
-- Test the signing by displaying the output to stdout without updating the file:
+- Test the signing by displaying the output to `stdout` without updating the file:
 
 `rdpsign {{path/to/file.rdp}} /l`
