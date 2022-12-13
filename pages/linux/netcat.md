@@ -8,9 +8,9 @@
 
 `nc -4 "{{host}}" "{{port}}"`
 
-- Use IPv6 addressing only:
+- Use IPv[6] addressing only:
 
-`nc -6 {{host}} {{port}}`
+`nc -6 "{{host}}" "{{port}}"`
 
 - UDP instead of TCP:
 
