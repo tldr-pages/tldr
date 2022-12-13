@@ -23,7 +23,7 @@
 
 `kubectl delete deployments,services --all --namespace {{namespace}}`
 
-- Alle Nodes löschen:
+- Lösche alle Nodes:
 
 `kubectl delete nodes --all`
 
