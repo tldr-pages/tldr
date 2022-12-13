@@ -19,6 +19,6 @@
 
 `kubectl describe nodes {{node_name}} -n {{namespace}}`
 
-- Zeige Details zu Ressourcen, welche in einem YAML-Manifest definiert sind, an:
+- Zeige Details zu Ressourcen, die in einer YAML Datei definiert sind, an:
 
 `kubectl describe -f {{pfad/zu/manifest.yaml}}`
