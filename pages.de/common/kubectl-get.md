@@ -27,6 +27,6 @@
 
 `kubectl get all -n {{namespace}}`
 
-- Frage alle Ressourcenab, welche in einem YAML-Manifest definiert sind:
+- Frage alle Ressourcen ab, die in einer YAML Datei definiert sind:
 
 `kubectl get -f {{pfad/zu/manifest.yaml}}`
