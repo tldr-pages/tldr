@@ -16,9 +16,9 @@
 
 `nc -u "{{host}}" "{{port}}"`
 
-- Use random port number:
+- Use [r]andom port number:
 
-`nc -r {{host}}`
+`nc -r "{{host}}"`
 
 - Listen for an incoming connection rather than initiate connection:
 
