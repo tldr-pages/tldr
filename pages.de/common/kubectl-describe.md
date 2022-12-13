@@ -15,7 +15,7 @@
 
 `kubectl describe pods {{pod_name}} -n {{namespace}}`
 
-- Zeige Details zu Pbestimmten Nodes in einem bestimmten Namespace an:
+- Zeige Details zu einer bestimmten Node in einem bestimmten Namespace an:
 
 `kubectl describe nodes {{node_name}} -n {{namespace}}`
 
