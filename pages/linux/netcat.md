@@ -1,4 +1,4 @@
-# netcat
+# nc
 
 > The `nc` (or `netcat`) utility is used for just about anything under the sun involving TCP, UDP, or UNIX-domain sockets. It can open TCP connections, send UDP packets, listen on arbitrary TCP and UDP ports, do port scanning.
 > More information: <http://man.openbsd.org/OpenBSD-current/man1/nc.1>.
