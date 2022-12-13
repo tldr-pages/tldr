@@ -15,7 +15,7 @@
 
 `audacious --play-pause`
 
-- Skip forwards/backwards in the playlist:
+- Skip forwards or backwards in the playlist:
 
 `audacious --{{fwd|rew}}`
 
