@@ -27,6 +27,6 @@
 
 `kubectl delete nodes --all`
 
-- Lösche Resourcen, welche in einer YAML Datei definiert sind :
+- Lösche Resourcen, die in einer YAML Datei definiert sind:
 
 `kubectl delete --filename {{pfad/zu/manifest.yaml}}`
