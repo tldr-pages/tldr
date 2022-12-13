@@ -22,3 +22,11 @@
 - Write `stdin` to a file:
 
 `cat - > {{path/to/file}}`
+
+- Number all output lines:
+
+`cat -n {{path/to/file}}`
+
+- Display non-printable and whitespace characters (with `M-` prefix if non-ASCII):
+
+`cat -v -t -e {{path/to/file}}`
