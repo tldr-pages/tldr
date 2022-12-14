@@ -15,9 +15,6 @@
 
 `scd "{{pattern1 pattern2 ...}}"`
 
-- Change to a directory path that ends with "ts":
-
-`scd "ts$"`
 
 - Show selection menu and ranking of 20 most likely directories:
 
