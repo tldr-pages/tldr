@@ -11,7 +11,7 @@
 
 `scd {{path/to/directory}}`
 
-- Change to a path matching all of "a", "b" and "c":
+- Change to a path matching specific patterns:
 
 `scd {{a}} {{b}} {{c}}`
 
