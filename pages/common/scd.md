@@ -13,7 +13,7 @@
 
 - Change to a path matching specific patterns:
 
-`scd {{a}} {{b}} {{c}}`
+`scd "{{pattern1 pattern2 ...}}"`
 
 - Change to a directory path that ends with "ts":
 
