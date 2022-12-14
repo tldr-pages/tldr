@@ -28,6 +28,6 @@
 
 `sudo useradd --skel {{chemin/vers/repertoire_squelette}} --create-home {{nom_utilisateur}}`
 
-- Crée un nouvel utilisateur système dans répertoire personnel :
+- Crée un nouvel utilisateur système sans répertoire personnel :
 
 `sudo useradd --system {{nom_utilisateur}}`
