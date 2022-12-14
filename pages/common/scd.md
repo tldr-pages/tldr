@@ -7,7 +7,7 @@
 
 `scd -ar {{path/to/directory}}`
 
-- Change to a directory path:
+- Change to a specific directory:
 
 `scd {{path/to/directory}}`
 
