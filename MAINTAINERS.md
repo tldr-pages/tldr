@@ -105,9 +105,9 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
 - **Ein Verne ([@einverne](https://github.com/einverne))**:
   [6 January 2020](https://github.com/tldr-pages/tldr/issues/3738) — present
 - **Matthew Peveler ([@MasterOdin](https://github.com/MasterOdin))**:
-  [18 March 2021](https://github.com/tldr-pages/tldr/issues/5473) - present
+  [18 March 2021](https://github.com/tldr-pages/tldr/issues/5473) — present
 - **Tan Siret Akıncı ([@yutyo](https://github.com/yutyo))**:
-  [7 April 2021](https://github.com/tldr-pages/tldr/issues/5702) - present
+  [7 April 2021](https://github.com/tldr-pages/tldr/issues/5702) — present
 - **Florian Benscheidt ([@Waples](https://github.com/Waples))**:
   [19 May 2021](https://github.com/tldr-pages/tldr/issues/5989) — present
 - **Muhammad Falak R Wani ([@mfrw](https://github.com/mfrw))**:
@@ -117,7 +117,7 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
 - **Emily Grace Seville ([@EmilySeville7cfg](https://github.com/EmilySeville7cfg))**:
   [25 April 2022](https://github.com/tldr-pages/tldr/issues/8053) — present
 - **K.B.Dharun Krishna ([@kbdharun](https://github.com/kbdharun))**:
-  [14 December 2022](https://github.com/tldr-pages/tldr/issues/9625) - present
+  [14 December 2022](https://github.com/tldr-pages/tldr/issues/9625) — present
 - Owen Voke ([@owenvoke](https://github.com/owenvoke))
   [26 August 2018](https://github.com/tldr-pages/tldr/issues/2258) — [8 May 2019](https://github.com/tldr-pages/tldr/issues/2989)
 - Marco Bonelli ([@mebeim](https://github.com/mebeim)):
@@ -154,9 +154,9 @@ An automated list can be found [here](https://github.com/orgs/tldr-pages/people)
 - **Lucas Schneider ([@schneiderl](https://github.com/schneiderl))**:
   [3 February 2021](https://github.com/tldr-pages/tldr/issues/5224) — present
 - **Axel Navarro ([@navarroaxel](https://github.com/navarroaxel))**:
-  [7 April 2021](https://github.com/tldr-pages/tldr/issues/5703) - present
+  [7 April 2021](https://github.com/tldr-pages/tldr/issues/5703) — present
 - **CleanMachine1 ([@CleanMachine1](https://github.com/CleanMachine1))**:
-  [14 December 2021](https://github.com/tldr-pages/tldr/issues/7541) - present
+  [14 December 2021](https://github.com/tldr-pages/tldr/issues/7541) — present
 - **Marcher Simon ([@marchersimon](https://github.com/marchersimon))**:
   [9 August 2022](https://github.com/tldr-pages/tldr/issues/7540) — present
 - Igor Shubovych ([@igorshubovych](https://github.com/igorshubovych)):
