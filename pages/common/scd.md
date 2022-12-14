@@ -24,6 +24,6 @@
 
 `scd --alias={{word}}`
 
-- Change to a directory using an alias:
+- Change to a directory using a specific alias:
 
 `scd {{word}}`
