@@ -11,19 +11,19 @@
 
 `pyrit list_cores`
 
-- Set ESSID:
+- Set [e]SSID:
 
-`pyrit -e {{ESSID}} create_essid`
+`pyrit -e "{{ESSID}}" create_essid`
 
-- Read and analyze packet capture file:
+- [r]ead and analyze a specific packet capture file:
 
-`pyrit -r {{path/to/file}} analyze`
+`pyrit -r {{path/to/file.cap|path/to/file.pcap}} analyze`
 
-- Read and import passwords to the database:
+- Read and [i]mport passwords to the current database:
 
-`pyrit -i {{path/to/file}} import_passwords`
+`pyrit -i {{path/to/file}} {{import_unique_passwords|unique_passwords|import_passwords}}`
 
-- Export passwords from database to a file:
+- Exp[o]rt passwords from database to a specific file:
 
 `pyrit -o {{path/to/file}} export_passwords`
 
@@ -31,6 +31,6 @@
 
 `pyrit batch`
 
-- Read the capture file and crack the password:
+- [r]ead the capture file and crack the password:
 
 `pyrit -r {{path/to/file}} attack_db`
