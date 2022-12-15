@@ -3,11 +3,11 @@
 > Change a user's login shell.
 > More information: <https://manned.org/chsh>.
 
-- Set a specific login shell for a current user interactively:
+- Set a specific login shell for the current user interactively:
 
 `chsh`
 
-- Set a specific login shell for a current user:
+- Set a specific login shell for the current user:
 
 `chsh -s {{path/to/shell}}`
 
