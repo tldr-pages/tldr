@@ -14,8 +14,6 @@
 - Change to a path matching specific patterns:
 
 `scd "{{pattern1 pattern2 ...}}"`
-
-
 - Show selection menu and ranking of 20 most likely directories:
 
 `scd -v`
