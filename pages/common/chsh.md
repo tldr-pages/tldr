@@ -7,14 +7,14 @@
 
 `chsh`
 
-- Set a specific login shell for the current user:
+- Set a specific login [s]hell for the current user:
 
 `chsh -s {{path/to/shell}}`
 
-- Set a login shell for a specific user:
+- Set a login [s]hell for a specific user:
 
 `chsh -s {{path/to/shell}} {{username}}`
 
-- Print available shells:
+- List available shells:
 
 `chsh --list-shells`
