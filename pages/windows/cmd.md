@@ -9,7 +9,7 @@
 
 - Execute specific [c]ommands:
 
-`cmd /c {{echo Hello World}}`
+`cmd /c {{echo Hello world}}`
 
 - Execute a specific script:
 
@@ -17,7 +17,7 @@
 
 - Execute specific commands and then enter an interactive shell:
 
-`cmd /k {{echo Hello World}}`
+`cmd /k {{echo Hello world}}`
 
 - Start an interactive shell session where `echo` is disabled in command output:
 
@@ -31,6 +31,6 @@
 
 `cmd /e:{{on|off}}`
 
-- Start an interactive shell session with used Unicode encoding:
+- Start an interactive shell session with used [u]nicode encoding:
 
 `cmd /u`
