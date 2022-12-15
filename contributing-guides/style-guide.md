@@ -106,7 +106,7 @@ Example:
 
 ## Description syntax
 
-- Use backticks for quoting in descriptions as they highlighted in GitHub.
+- Use backticks (\`) for quoting in descriptions as they're highlighted in GitHub.
 
 ## Token syntax
 
