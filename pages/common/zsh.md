@@ -10,24 +10,24 @@
 
 - Execute specific [c]ommands:
 
-`zsh -c "{{echo 'zsh is executed'}}"`
+`zsh -c "{{echo 'Hello World'}}"`
 
 - Execute a specific script:
 
 `zsh {{path/to/script.zsh}}`
 
-- Check a specific script for syntax errors:
+- Check a specific script for syntax errors without executing it:
 
 `zsh --no-exec {{path/to/script.zsh}}`
 
 - Execute specific commands from stdin:
 
-`{{echo "echo 'zsh is executed'"}} | zsh`
+`{{echo "sleep 5"}} | zsh`
 
-- Execute a specific script while printing each command before executing it:
+- Execute a specific script, printing each command in the script before executing it:
 
 `zsh --xtrace {{path/to/script.zsh}}`
 
-- Start an interactive shell session in verbose mode while printing each command before executing it:
+- Start an interactive shell session in verbose mode, printing each command before executing it:
 
 `zsh --verbose`
