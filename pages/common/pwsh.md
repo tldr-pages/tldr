@@ -14,7 +14,7 @@
 
 - Execute specific commands:
 
-`pwsh -Command "{{echo 'pwsh is executed'}}"`
+`pwsh -Command "{{echo Hello world}}"`
 
 - Execute a specific script:
 
