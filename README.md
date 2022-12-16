@@ -88,6 +88,10 @@ All `tldr` pages are written in markdown, so they can be edited quite easily and
 pull requests here using Git on the command-line or
 using the GitHub web interface.
 
+But we have already some plugins to different editors to enhance TlDr page editing experience:
+
+- [Emacs](https://github.com/tldr-pages/tldr-emacs-extension.git)
+
 We strive to maintain a [welcoming and collaborative](GOVERNANCE.md) community.
 If it's your first time contributing, have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!
 
