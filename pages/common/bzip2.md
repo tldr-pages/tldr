@@ -25,7 +25,7 @@
 
 - Decompress a file overwriting existing files:
 
-`bzip2 -f {{path/to/compressed_file.bz2}}`
+`bzip2 --force {{path/to/compressed_file.bz2}}`
 
 - Display help:
 
