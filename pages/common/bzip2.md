@@ -17,7 +17,7 @@
 
 - Test the integrity of each file inside the archive file:
 
-`bzip2 -t {{path/to/compressed_file.bz2}}`
+`bzip2 --test {{path/to/compressed_file.bz2}}`
 
 - Show the compression ratio for each file processed with detailed information:
 
