@@ -1,7 +1,7 @@
 # getconf
 
-> getconf - get configuration values from your Linux system.
-> More information: https://manned.org/getconf.1.
+> Get configuration values from your Linux system.
+> More information: <https://manned.org/getconf.1>.
 
 - List [a]ll configuration values available:
 
