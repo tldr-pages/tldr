@@ -3,18 +3,18 @@
 > Ein erweiterbarer Linter für JavaScript und JSX.
 > Weitere Informationen: <https://eslint.org>.
 
-- Erstellen einer ESLint Konfigurationsdatei:
+- Erstelle eine ESLint-Konfigurationsdatei:
 
 `eslint --init`
 
-- Linter auf mehreren Dateien ausführen:
+- Linte Dateien:
 
-`eslint {{dateiname}}.js {{dateiname1}}.js`
+`eslint {{pfad/zu/datei1.js pfad/zu/datei2.js ...}}`
 
-- Linterfehler beheben:
+- Behebe Lintingfehler:
 
 `eslint --fix`
 
-- Linter mit einer Konfigurationsdatei ausführen:
+- Linte mit einer Konfigurationsdatei:
 
-`eslint -c {{pfad/zu/konfigurationsdatei}} {{app/src}}`
+`eslint -c {{pfad/zu/konfigurationsdatei}} {{pfad/zu/quellordner}`
