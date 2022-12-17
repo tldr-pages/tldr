@@ -92,6 +92,8 @@ But we have already some plugins to different editors to enhance TlDr page editi
 
 - [Emacs](https://github.com/tldr-pages/tldr-emacs-extension.git)
 
+For editors without plugin system we provide set of configs in a [separate repo](https://github.com/tldr-pages/tldr-editor-configs).
+
 We strive to maintain a [welcoming and collaborative](GOVERNANCE.md) community.
 If it's your first time contributing, have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!
 
