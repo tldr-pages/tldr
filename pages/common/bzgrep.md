@@ -27,6 +27,6 @@
 
 `bzgrep --recursive "{{search_pattern}}" {{path/to/tar/file}}`
 
-- Search stdin for lines that do not match a pattern:
+- Search `stdin` for lines that do not match a pattern:
 
 `cat {{/path/to/bz/compressed/file}} | bzgrep --invert-match "{{search_pattern}}"`

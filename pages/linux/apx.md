@@ -1,33 +1,33 @@
 # apx
 
 > Package management utility for Vanilla OS.
-> Install packages inside managed containers or directly inside the host.
+> Install packages inside managed containers from multiple sources (`apx` supports --aur,--dnf flags in all commands).
 > More information: <https://github.com/Vanilla-OS/apx>.
 
-- Install a package in the system and initialize the container:
+- Initialize the container:
 
-`sudo apx install --sys {{package}} && apx init`
+`apx init`
 
-- Install package(s) in the system or install AUR package(s) inside a container:
+- Install specific packages in the container:
 
-`sudo apx install --{{sys|aur}} {{package1 package2 ...}}`
+`apx install {{package1 package2 ...}}`
 
-- Run an installed package from AUR:
+- Remove specific packages from the container:
 
-`apx --aur run {{package}}`
+`apx remove {{package1 package2 ...}}`
 
-- Update the list of available packages in the system:
+- Search for specific packages:
 
-`sudo apx --sys update`
+`apx search {{package1 package2 ...}}`
 
-- Upgrade all installed packages in the system to their newest available version:
-
-`sudo apx --sys upgrade`
-
-- Remove package(s) in the system or from the AUR container:
-
-`sudo apx --{{sys|aur}} remove {{package1 package2 ...}}`
-
-- Enter the container to install packages using `apt` (Use `exit` inside the container to exit it):
+- Enter the managed container shell to execute commands (type `exit` to exit the container):
 
 `apx enter`
+
+- Update the list of available packages in the container:
+
+`apx update`
+
+- Upgrade all installed packages in the container to their newest available version:
+
+`apx upgrade`
