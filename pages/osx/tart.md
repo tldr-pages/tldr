@@ -19,9 +19,9 @@
 
 `tart run {{vm-name}}`
 
-- Run an existing VM with a mounted directory:
+- Run an existing VM with a specific mounted directory:
 
-`tart run --dir={{directory}}:{{/path/to/local/directory}} {{vm-name}}`
+`tart run --dir={{path/to/directory}}:{{/path/to/local_directory}} {{vm-name}}`
 
 - List VMs:
 
