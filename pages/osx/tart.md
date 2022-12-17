@@ -11,9 +11,9 @@
 
 `tart clone {{source-vm}} {{vm-name}}`
 
-- Create a new Mac VM from an ipsw file:
+- Create a new Mac VM from a specific ipsw file:
 
-`tart create --from-ipsw={{[latest|path/to/file.ipsw]}} {{vm-name}}`
+`tart create --from-ipsw={{latest|path/to/file.ipsw}} {{vm-name}}`
 
 - Run an existing VM:
 
