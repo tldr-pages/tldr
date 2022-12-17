@@ -106,7 +106,7 @@ Example:
 
 ## Option syntax
 
-- Use GNU-style **long options** (like `--help` rather than `-h`) when they are cross-platform compatible (available on multiple platforms where a command is intended to work among `android`, `linux`, `osx`, `sunos`, `windows`).
+- Use GNU-style **long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms).
 - In other cases use short options (like `-h`).
 
 ## Mnemonic syntax
@@ -115,17 +115,17 @@ Example:
 - But they must not be used when they are exactly equal to the GNU-style long option's name such as (`Display [help]:` for `--help` option) as they are redundant
   in such cases.
 
-## Token syntax
+## Placeholder syntax
 
-User-provided values should use the `{{token}}` syntax
+User-provided values should use the `{{placeholder}}` syntax
 in order to allow `tldr` clients to highlight them.
 
-Keep the following guidelines in mind when choosing tokens:
+Keep the following guidelines in mind when choosing placeholders:
 
 ### Naming
-- Use short but descriptive tokens,
+- Use short but descriptive placeholders,
   such as `{{source_file}}` or `{{wallet.txt}}`.
-- Use [`snake_case`](https://wikipedia.org/wiki/snake_case) for multi-word tokens.
+- Use [`snake_case`](https://wikipedia.org/wiki/snake_case) for multi-word placeholders.
 - Use an actual value rather than a generic placeholder where appropriate.
   For example, use `iostat {{2}}` rather than `iostat {{interval_in_secs}}`.
 
@@ -159,7 +159,7 @@ Keep the following guidelines in mind when choosing tokens:
 - If a command can take a variable number of arguments, use an ellipsis: `{{arg1 arg2 ...}}`.
   If one of the multiple options is possible, write it as `{{either|or}}`.
 
-In general, tokens should make it as intuitive as possible
+In general, placeholders should make it as intuitive as possible
 to figure out how to use the command and fill it in with values.
 
 Technical wording on description lines should use the `backtick` syntax.
