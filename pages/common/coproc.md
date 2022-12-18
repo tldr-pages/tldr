@@ -5,7 +5,7 @@
 
 - Run a subshell asynchronously:
 
-`coproc { {{commands}}; }`
+`coproc { {{command1; command2; ...}}; }`
 
 - Create a named coprocess:
 
