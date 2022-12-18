@@ -7,15 +7,15 @@
 
 `history`
 
-- Clear the history list:
+- [c]lear the history list:
 
 `history -c`
 
-- Append history lines entered since the beginning of the current Bash session:
+- [a]ppend history lines entered since the beginning of the current Bash session:
 
 `history -a`
 
-- Append the history lines not already read from the history file to the current history list:
+- Append the history lines [n]ot already read from the history file to the current history list:
 
 `history -n`
 
