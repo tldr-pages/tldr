@@ -15,7 +15,7 @@
 
 `echo "{{input}}" >&"${{{name}}[1]}"`
 
-- Read from a named coprocess stdout:
+- Read from a specific coprocess `stdout`:
 
 `read {{variable}} <&"${{{name}}[0]}"`
 
