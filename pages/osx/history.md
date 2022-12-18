@@ -19,6 +19,6 @@
 
 `history -n`
 
-- Read the current history file and append its contents to the history list:
+- [r]ead the current history file and append its contents to the history list:
 
 `history -r`
