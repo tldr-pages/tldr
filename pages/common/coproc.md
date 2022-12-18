@@ -11,7 +11,7 @@
 
 `coproc {{name}} { {{command1; command2; ...}} }`
 
-- Write to a named coprocess stdin:
+- Write to a specific coprocess `stdin`:
 
 `echo "{{input}}" >&"${{{name}}[1]}"`
 
