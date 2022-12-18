@@ -7,9 +7,9 @@
 
 `coproc { {{command1; command2; ...}}; }`
 
-- Create a named coprocess:
+- Create a coprocess with a specific name:
 
-`coproc {{name}} { {{commands}}; }`
+`coproc {{name}} { {{command1; command2; ...}} }`
 
 - Write to a named coprocess stdin:
 
