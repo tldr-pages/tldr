@@ -19,9 +19,9 @@
 
 `read {{variable}} <&"${{{name}}[0]}"`
 
-- Create a coprocess which repeatedly reads stdin and runs some commands on the input:
+- Create a coprocess which repeatedly reads `stdin` and runs some commands on the input:
 
-`coproc {{name}} {  while read line; do {{commands}}; done }`
+`coproc {{name}} {  while read line; do {{command1; command2; ...}}; done }`
 
 - Create and use a coprocess running `bc`:
 
