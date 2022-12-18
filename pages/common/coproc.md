@@ -25,4 +25,4 @@
 
 - Create and use a coprocess running `bc`:
 
-`coproc BC { bc -l; }; echo "1/3" >&"${BC[1]}"; read output <&"${BC[0]}"; echo "$output"`
+`coproc BC { bc --mathlib; }; echo "1/3" >&"${BC[1]}"; read output <&"${BC[0]}"; echo "$output"`
