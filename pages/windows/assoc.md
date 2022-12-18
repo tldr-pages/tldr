@@ -15,6 +15,6 @@
 
 `assoc .{{txt}}={{txtfile}}`
 
-- View the output of assoc one screen at a time:
+- View the output of `assoc` one screen at a time:
 
-`assoc | more`
+`assoc | {{more}}`
