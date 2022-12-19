@@ -7,6 +7,6 @@
 
 `xsp --address {{0.0.0.0}}`
 
-- Use a specific port to listen on:
+- Start and listen a specific port:
 
 `xsp --port {{value}}`
