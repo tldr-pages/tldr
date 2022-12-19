@@ -27,7 +27,7 @@
 
 `fixfiles -N {{time}}`
 
-- Bind mount filesystems before relabeling them, this allows fixing the context of files or directories that have been mounted over:
+- Bind [M]ount filesystems before relabeling them, this allows fixing the context of files or directories that have been mounted over:
 
 `fixfiles -M`
 
