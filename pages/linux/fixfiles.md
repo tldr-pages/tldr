@@ -31,6 +31,6 @@
 
 `fixfiles -M`
 
-- Modify verbosity from progress to verbose. (Run restorecon with -v instead of -p):
+- Modify [v]erbosity from progress to verbose and run `restorecon` with `-v` instead of `-p`:
 
 `fixfiles -v`
