@@ -112,8 +112,7 @@ Example:
 ## Mnemonic syntax
 
 - Mnemonics can be used for short and GNU-style long options.
-- But they must not be used when they are exactly equal to the GNU-style long option's name such as (`Display [help]:` for `--help` option) as they are redundant
-  in such cases.
+- They must not be used when they are exactly equal to the GNU-style long option's name (e.g. `Display [help]:` for `--help` option).
 
 ## Placeholder syntax
 
