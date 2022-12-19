@@ -15,9 +15,9 @@
 
 `fixfiles -f`
 
-- Use the rpm database to discover all files within the specified packages and restore the file contexts:
+- Use the [R]pm database to discover all files within specific packages and restore the file contexts:
 
-`fixfiles -R rpmpackagename[,rpmpackagename...]`
+`fixfiles -R {{rpm_package_name1,rpm_package_name2 ...}}`
 
 - Run a diff on the `PREVIOUS_FILECONTEXT` file to the currently installed one, and restore the context of all affected files:
 
