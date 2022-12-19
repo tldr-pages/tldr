@@ -23,9 +23,9 @@
 
 `fixfiles -C PREVIOUS_FILECONTEXT`
 
-- Only act on files created after the specified date.  Date must be specified in "YYYY-MM-DD HH:MM" format.  Date field will be passed to find --newermt command:
+- Only act on files created after a specific date which will be passed to find `--newermt` command:
 
-`fixfiles -N {{time}}`
+`fixfiles -N {{YYYY-MM-DD HH:MM}}`
 
 - Bind [M]ount filesystems before relabeling them, this allows fixing the context of files or directories that have been mounted over:
 
