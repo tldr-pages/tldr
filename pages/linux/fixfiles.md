@@ -11,7 +11,7 @@
 
 `fixfiles -F`
 
-- Clear `/tmp` directory with out prompt for removal:
+- Clear `/tmp` directory without confirmation:
 
 `fixfiles -f`
 
