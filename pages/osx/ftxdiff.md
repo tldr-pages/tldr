@@ -3,9 +3,9 @@
 > Compare differences between two fonts.
 > More information: <https://developer.apple.com/fonts>.
 
-- Output differences to a text file:
+- Output differences to a specific text file:
 
-`ftxdiff --output {{fontdiff.txt}} {{path/to/font1.ttc}} {{path/to/font2.ttc}}`
+`ftxdiff --output {{path/to/fontdiff.txt}} {{path/to/font1.ttc}} {{path/to/font2.ttc}}`
 
 - Include glyph names in output:
 
