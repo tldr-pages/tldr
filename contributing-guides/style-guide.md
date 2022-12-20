@@ -152,6 +152,8 @@ Keep the following guidelines in mind when choosing placeholders:
   and use the `{{/dev/sdXY}}` placeholder for *block devices* instead of `/dev/sda1`.
 - If a command can take a variable number of arguments, use an ellipsis: `{{arg1 arg2 ...}}`.
   If one of the multiple options is possible, write it as `{{either|or}}`.
+- If a placeholder is optional then use the following syntax: `{{[placeholder]}}`.
+  Don't combine such syntax with `|`.
 
 In general, placeholders should make it as intuitive as possible
 to figure out how to use the command and fill it in with values.
