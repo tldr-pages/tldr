@@ -15,9 +15,9 @@
 
 `awk [ 'prog' | -f progfile ]`
 
-- Set the maximum size of the input record (MaxRows):
+- Set the maximum size of the input record:
 
-`awk -mr`
+`awk -mr {{1..infinity}}`
 
 - Set the maximum number of fields (MaxFields):
 
