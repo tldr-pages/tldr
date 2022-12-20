@@ -152,9 +152,7 @@ Keep the following guidelines in mind when choosing placeholders:
   and use the `{{/dev/sdXY}}` placeholder for *block devices* instead of `/dev/sda1`.
 - If a command can take a variable number of arguments, use an ellipsis: `{{arg1 arg2 ...}}`.
   If one of the multiple options is possible, write it as `{{either|or}}`.
-- If a placeholder can take any string value then use the `{{string}}` generic placeholder
-  not to duplicate the option name, `--message "{{string}}"` instead of
-  `--message "{{message}}"`.
+- If a placeholder accepts any string value as input, then use the generic placeholder `{{string}}` without duplicating the option name (`--message "{{string}}"` instead of `--message "{{message}}").
 
 In general, placeholders should make it as intuitive as possible
 to figure out how to use the command and fill it in with values.
