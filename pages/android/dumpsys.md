@@ -4,15 +4,15 @@
 > This command can only be used through `adb shell`.
 > More information: <https://developer.android.com/studio/command-line/dumpsys>.
 
-- Get diagnostic output for all system services:
+- Display diagnostic output for all system services:
 
 `dumpsys`
 
-- Get diagnostic output for a specific system service:
+- Display diagnostic output for a specific system service:
 
 `dumpsys {{service}}`
 
-- List all services `dumpsys` can give information about:
+- [l]ist all services:
 
 `dumpsys -l`
 
@@ -24,6 +24,6 @@
 
 `dumpsys --skip {{service}}`
 
-- Specify a timeout period in seconds (defaults to 10s):
+- Specify a [t]imeout period in seconds (`-t` default: 10s):
 
-`dumpsys -t {{seconds}}`
+`dumpsys -t {{1..infinity}}`
