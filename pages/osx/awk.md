@@ -19,6 +19,6 @@
 
 `awk -mr {{1..infinity}}`
 
-- Set the maximum number of fields (MaxFields):
+- Set the maximum number of fields:
 
-`awk -mf`
+`awk -mf {{1..infinity}}`
