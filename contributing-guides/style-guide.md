@@ -118,13 +118,13 @@ Keep the following guidelines in mind when choosing placeholders:
 
 ### Naming
 - Use short but descriptive placeholders,
-  such as `{{source_file}}` or `{{wallet.txt}}`.
+  such as `{{path/to/source_file}}` or `{{path/to/wallet.txt}}`.
 - Use [`snake_case`](https://wikipedia.org/wiki/snake_case) for multi-word placeholders.
 - Use an actual value rather than a generic placeholder where appropriate.
   For example, use `iostat {{2}}` rather than `iostat {{interval_in_secs}}`.
 
 ### Paths
-- Use `{{filename}}` rather than `{{file_name}}`.
+- Use `{{filename}}` when just file name is expected.
 - For any reference to paths of files or directories,
   use the format `{{path/to/<placeholder>}}`,
   except when the location is implicit.
@@ -138,11 +138,11 @@ Keep the following guidelines in mind when choosing placeholders:
 ### Extensions
 
 - If a particular extension is expected for the file, append it.
-  For example, `unrar x {{compressed.rar}}`.
+  For example, `unrar x {{path/to/compressed.rar}}`.
 - In case a generic extension is needed, use `{{.ext}}`, but **only** if an extension is required.
-  For instance, in `find.md`'s example "Find files by extension" (`find {{root_path}} -name '{{*.ext}}'`)
+  For instance, in `find.md`'s example "Find files by extension" (`find {{path/to/root}} -name '{{*.ext}}'`)
   using `{{*.ext}}` explains the command without being unnecessarily specific;
-  while in `wc -l {{file}}` using `{{file}}` (without extension) is sufficient.
+  while in `wc -l {{path/to/file}}` using `{{path/to/file}}` (without extension) is sufficient.
 
 ### Special cases
 - If a command performs irreversible changes to a file system or devices,
