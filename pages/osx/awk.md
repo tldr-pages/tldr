@@ -3,9 +3,9 @@
 > Find and Replace text within file(s).
 > More information: <https://ss64.com/osx/awk.html>.
 
-- Define the input field separator = regular expression fs:
+- Define an input field separator:
 
-`awk [ -F fs ]`
+`awk -F '{{regular_expression}}'`
 
 - Assign values before prog is executed:
 
