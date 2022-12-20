@@ -8,7 +8,7 @@
 
 `bugreportz`
 
-- Show a [p]rogress of the current operation:
+- Display a [p]rogress of the current operation:
 
 `bugreportz -p`
 
