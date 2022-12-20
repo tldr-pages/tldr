@@ -90,3 +90,32 @@ git push --force-with-lease
 ```
 
 [![asciicast](https://asciinema.org/a/fFMZzQOgJyfUf8HTnXyRj0v02.svg)](https://asciinema.org/a/fFMZzQOgJyfUf8HTnXyRj0v02)
+
+# Editorconfig and Windows
+
+There is an issue that could arise when you clone the repository under Windows and use an editor which honors the settings in the `.editorconfig` file. With the default configuration, when you initially clone the repository, Git checks out files converting line endings to `CRLF`. Later, when you edit some file, or just save it without any modifications, your editor converts line endings to `LF` as per configuration in the `.editorconfig`. This causes the confusion, making Git mark the files as modified whereas they are not and issue the following warnings on `git diff` and `git add`:
+
+```
+warning: LF will be replaced by CRLF in...
+```
+
+To handle this problem, you need to clone the repository using the command:
+
+```sh
+git clone --config core.eol=lf {{remote_repository_location}}
+```
+
+If you've already cloned the repository, and don't want to repeat the whole process (if, for example, you've already made some modifications), you can fix the issue using the following commands. Be careful as these commands are potentially dangerous and you can lose your unfinished work in the current repository!
+
+```sh
+# set line feed (LF) as end of line
+git config --local core.eol lf
+# stash any local changes (if the working tree is clean, skip this step and the last one)
+git stash push
+# remove all the files under version control from index
+git rm -rfq --cached .
+# update all the files in index and working tree without converting LF to CRLF, as per new option value
+git reset --hard HEAD
+# restore the previous state from stash
+git stash pop --index
+```
