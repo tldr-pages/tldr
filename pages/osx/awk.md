@@ -11,9 +11,9 @@
 
 `awk {{-v variable1=value1 -v variable2=value2 ...}}`
 
-- Specify a pattern to match within progfile:
+- Execute a specific [f]ile:
 
-`awk [ 'prog' | -f progfile ]`
+`awk -f {{path/to/file}}`
 
 - Set the maximum size of the input record:
 
