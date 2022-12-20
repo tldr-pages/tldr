@@ -14,3 +14,7 @@
 - Set the associated file type for a specific extension:
 
 `assoc .{{txt}}={{txtfile}}`
+
+- View the output of `assoc` one screen at a time:
+
+`assoc | {{more}}`
