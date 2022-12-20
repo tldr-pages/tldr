@@ -90,7 +90,7 @@ using the GitHub web interface.
 
 But we already have some plugins for different editors to enhance the tldr page editing experience:
 
-- [Emacs](https://github.com/tldr-pages/tldr-emacs-extension.git)
+- [Emacs](https://github.com/tldr-pages/tldr-emacs-extension)
 
 For editors without a plugin system, we provide a set of configurations in a [separate repo](https://github.com/tldr-pages/tldr-editor-configs).
 
