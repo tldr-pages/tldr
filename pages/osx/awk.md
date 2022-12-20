@@ -7,9 +7,9 @@
 
 `awk -F '{{regular_expression}}'`
 
-- Assign values before prog is executed:
+- Assign specific values to variables
 
-`awk [ -v var=value ]`
+`awk {{-v variable1=value1 -v variable2=value2 ...}}`
 
 - Specify a pattern to match within progfile:
 
