@@ -117,7 +117,7 @@ one border then use incremented or decremented values to do it:
 
 - Use `{{from..to}}` syntax for closed ranges.
 - Use `{{-infinity..to}}` or `{{from..infinity}}` syntax for integer partially closed ranges.
-- Use `{{-infinity..infinity}}` syntax for values where any integer is valid.
+- Use `{{integer}}` syntax for values where any integer is valid.
 
 ## Placeholder syntax
 
