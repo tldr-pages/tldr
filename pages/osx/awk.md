@@ -7,7 +7,7 @@
 
 `awk -F '{{regular_expression}}'`
 
-- Assign specific values to variables
+- Assign specific values to variables:
 
 `awk {{-v variable1=value1 -v variable2=value2 ...}}`
 
