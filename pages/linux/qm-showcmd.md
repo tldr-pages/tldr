@@ -11,6 +11,6 @@
 
 `qm showcmd --pretty {{true}} {{vm_id}}`
 
-- Fetch config values from a given snapshot:
+- Fetch config values from a specific snapshot:
 
 `qm showcmd --snapshot {{string}} {{vm_id}}`
