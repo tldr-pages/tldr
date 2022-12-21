@@ -41,7 +41,7 @@ Option             | Required?   | Meaning
 `-l`, `--list`     | No          | Lists all the pages in the current platform to the standard output.
 `-L`, `--language` | No          | Specifies the preferred language for the page returned. Overrides other language detection mechanisms. See the [language section](#language) for more information.
 
-Clients MAY choose to only implement the short version of an option, ignoring the long form.
+Clients MUST implement both the short and long version of an option.
 
 Additional decoration MAY be printed if the standard output is a [TTY](http://www.linusakesson.net/programming/tty/index.php). If not, then the output MUST not contain any additional decorations. For example a page list MUST be formatted with 1 page name per line (to enable easy manipulation using standard CLI tools such as `grep` etc.).
 
