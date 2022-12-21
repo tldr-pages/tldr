@@ -15,7 +15,7 @@
 
 `npx --no-install {{command}} {{command_arguments}}`
 
-- Execute the command suppressing any output from `npx` itself:
+- Execute a specific command suppressing any output from `npx` itself:
 
 `npx --quiet {{command}} {{command_arguments}}`
 
