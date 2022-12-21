@@ -5,7 +5,7 @@
 
 - Execute the command from a local or remote `npm` package:
 
-`npx {{command}} {{command_arguments}}`
+`npx {{command}} {{arg1 arg2 ...}}`
 
 - In case multiple commands with the same name exist, it is possible to specify the package name:
 
