@@ -17,7 +17,7 @@
 
 - Execute a specific command suppressing any output from `npx` itself:
 
-`npx --quiet {{command}} {{command_arguments}}`
+`npx --quiet {{command}} {{arg1 arg2 ...}}`
 
 - Display help:
 
