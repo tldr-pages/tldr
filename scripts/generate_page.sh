@@ -267,8 +267,8 @@ list_page_existing_urls() {
 
   for url in "$arch_url" "$freebsd_url"; do
     declare page_url="$url/$command_name.1"
-    info "checking '$page_url' url"
-    if wget --spider "$page_url"; then
+    info "checking '$page_url' url" >&2
+    if wget --spider "$page_url" --user-agent tldr-fetcher &> /dev/null; then
       urls+=("$url")
     fi
   done
