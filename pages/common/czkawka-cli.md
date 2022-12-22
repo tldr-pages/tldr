@@ -10,7 +10,3 @@
 - Find duplicate files in specific directories and delete them (default: `NONE`):
 
 `czkawka-cli dup --directories {{path/to/directory1 path/to/directory2 ...}} --delete-method {{AEN|AEO|ON|OO|HARD|NONE}}`
-
-- Find similar images:
-
-`czkawka-cli image --directories {{path/to/directory}}`
