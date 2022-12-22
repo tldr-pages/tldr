@@ -1,16 +1,16 @@
 # czkawka-cli
 
-> Multi functional app to find duplicates, empty folders, similar images etc. Command-line version.
+> Command-line version of `czkawka` a multi-functional app to find duplicates, empty folders, similar images and much more.
 > More information: <https://github.com/qarmin/czkawka>.
 
-- Find [dup]licate files in directory:
+- List duplicate or similar files in specific directories:
 
-`czkawka-cli dup --directories {{path/to/directory}}`
+`czkawka-cli {{dup|image}} --directories {{path/to/directory1 path/to/directory2 ...}}`
 
-- Find [dup]licate files and delete them (default: `NONE`):
+- Find duplicate files in specific directories and delete them (default: `NONE`):
 
-`czkawka-cli dup --directories {{path/to/directory}} --delete-method {{AEN/AEO/ON/OO/HARD/NONE}}`
+`czkawka-cli dup --directories {{path/to/directory1 path/to/directory2 ...}} --delete-method {{AEN|AEO|ON|OO|HARD|NONE}}`
 
-- Find similar [image]s:
+- Find similar images:
 
 `czkawka-cli image --directories {{path/to/directory}}`
