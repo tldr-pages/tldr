@@ -2,7 +2,7 @@
 
 > Löschen von unbenutzten und unerreichbaren Nix-Speicherpfaden.
 > Generationen können mit `nix-env --list-generations` aufgelistet werden.
-> Mehr Informationen: <https://nixos.org/releases/nix/latest/manual/#sec-nix-collect-garbage>.
+> Weitere Informationen: <https://nixos.org/releases/nix/latest/manual/#sec-nix-collect-garbage>.
 
 - Löschen von allen Speicherpfaden, die von den aktuellen Generationen der einzelnen Profile nicht verwendet werden:
 
