@@ -30,3 +30,7 @@
 - Show all TCP IPv4 sockets locally connected on the subnet 192.168.0.0/16:
 
 `ss -4t src {{192.168/16}}`
+
+- Kill IPv4 / IPv6 Socket Connection with destination IP 192.168.1.17 and destination port 8080:
+
+`ss -K dst {{192.168.1.17}} dport = {{8080}}`
