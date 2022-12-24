@@ -59,11 +59,13 @@ Alternatively, you can also use the [Python client](https://github.com/tldr-page
 ```sh
 pip3 install tldr
 ```
+
 Or Mac users can also install our [C Client](https://github.com/tldr-pages/tldr-c-client) using Homebrew.
 
 ```sh
 brew install tldr
 ```
+
 Then you have direct access to simplified, easy-to-read help for commands, such as `tar`,
 accessible through typing `tldr tar` instead of the standard `man tar`.
 
