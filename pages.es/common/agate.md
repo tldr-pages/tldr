@@ -9,7 +9,7 @@
 
 - Ejecuta servidor:
 
-`agate {{path/to/file}}`
+`agate {{ruta/al/archivo}}`
 
 - Muestra ayuda:
 
