@@ -11,6 +11,6 @@
 
 `agate {{ruta/al/archivo}}`
 
-- Muestra ayuda:
+- Muestra la ayuda:
 
 `agate -h`
