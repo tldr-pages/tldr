@@ -14,4 +14,3 @@
 - Muestra ayuda:
 
 `agate -h`
-
