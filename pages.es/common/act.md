@@ -3,7 +3,7 @@
 > Ejecuta acciones de GitHub localmente mediante Docker.
 > Más información: <https://github.com/nektos/act>.
 
-- Lista de acciones disponibles:
+- Lista las acciones disponibles:
 
 `act -l`
 
