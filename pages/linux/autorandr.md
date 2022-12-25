@@ -11,7 +11,11 @@
 
 `autorandr`
 
-- Change the profile:
+- Load the first detected profile:
+
+`autorandr -c`
+
+- Load a specific profile:
 
 `autorandr -l {{profile_name}}`
 
