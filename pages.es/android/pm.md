@@ -17,7 +17,7 @@
 
 - Genera una lista de aplicaciones que coinciden con determinadas palabras clave:
 
-`pm list packages {{palabrasclave}}`
+`pm list packages {{palabras_clave}}`
 
 - Imprimir la ruta del APK de una aplicación específica:
 
