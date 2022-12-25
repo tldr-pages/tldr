@@ -19,7 +19,7 @@
 
 `act -a {{action_id}}`
 
-- No ejecutar actualmente las acciones (p.e. una ejecución en seco):
+- No ejecuta las acciones (p.e. simular una ejecución):
 
 `act -n`
 
