@@ -21,4 +21,4 @@
 
 - Emite un certificado utilizando un modo DNS manual:
 
-`acme.sh --issue --dns --domain {{ejemplo.com}} --si-conozco-modo-dns-manual-suficientemente-continuar-por-favor`
+`acme.sh --issue --dns --domain {{ejemplo.com}} --yes-I-know-dns-manual-mode-enough-go-ahead-please`
