@@ -3,7 +3,7 @@
 > Genera información sobre el sistema operativo Android.
 > Más información: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
 
-- Muestra una lista de configuraciones en el espacio de nombres "global":
+- Muestra una lista de configuraciones en el espacio de nombres `global`:
 
 `settings list {{global}}`
 
