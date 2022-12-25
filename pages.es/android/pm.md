@@ -19,6 +19,6 @@
 
 `pm list packages {{palabras_clave}}`
 
-- Imprimir la ruta del APK de una aplicación específica:
+- Imprime la ruta del APK de una aplicación específica:
 
 `pm path {{app}}`
