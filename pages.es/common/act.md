@@ -23,6 +23,6 @@
 
 `act -n`
 
-- Mostrar registros detallados:
+- Muestra registros detallados:
 
 `act -v`
