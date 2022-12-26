@@ -1,0 +1,7 @@
+# transmission
+
+> यो आदेश `transmission-daemon` को उपनाम हो |
+
+- मौलिक आदेशको लागि कागजात हेर्नुहोस्:
+
+`tldr transmission-daemon`
