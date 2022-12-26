@@ -1,6 +1,7 @@
 # fossil-forget
 
 > ഈ കമാൻഡ് `fossil rm` എന്നത്തിന്റെ അപരനാമമാണ്.
+> കൂടുതൽ വിവരങ്ങൾ: <https://fossil-scm.org/home/help/forget>.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
 

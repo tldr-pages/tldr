@@ -2,7 +2,7 @@
 
 > Renifleur de paquets réseau.
 > Équivalent SunOS de tcpdump.
-> Plus d'information : <https://www.unix.com/man-page/sunos/1m/snoop>.
+> Plus d'informations : <https://www.unix.com/man-page/sunos/1m/snoop>.
 
 - Capturer des paquets sur une interface réseau spécifique :
 

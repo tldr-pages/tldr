@@ -1,7 +1,7 @@
 # task
 
 > Gestore della lista dei TODO.
-> Maggiori informazioni: <https://manned.org/task>.
+> Maggiori informazioni: <https://taskwarrior.org/docs/>.
 
 - Aggiungere un nuovo task:
 

@@ -1,6 +1,7 @@
 # unlzma
 
 > To polecenie jest aliasem `xz`.
+> Więcej informacji: <https://manned.org/unlzma>.
 
 - Zobacz dokumentację orginalnego polecenia:
 

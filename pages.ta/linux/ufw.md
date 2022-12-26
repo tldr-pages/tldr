@@ -2,7 +2,7 @@
 
 > சிக்கலற்ற ஃபயர்வால்.
 > ஃபயர்வாலின் உள்ளமைவை எளிதாக்குவதை நோக்கமாகக் கொண்ட ஐப்டேபிள்களுக்கான முன்பக்கம்.
-> மேலும் விவரத்திற்கு:  <https://wiki.ubuntu.com/UncomplicatedFirewall>.
+> மேலும் விவரத்திற்கு: <https://wiki.ubuntu.com/UncomplicatedFirewall>.
 
 - `ufw` ஐ இயக்கு:
 

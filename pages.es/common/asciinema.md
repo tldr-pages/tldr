@@ -1,7 +1,7 @@
 # asciinema
 
 > Graba y reproduce sesiones de terminal, y opcionalmente compártelas en asciinema.org.
-> Más información: <https://asciinema.org/>.
+> Más información: <https://asciinema.org/docs/usage>.
 
 - Asocia el programa local de `asciinema` con una cuenta de asciinema.org:
 

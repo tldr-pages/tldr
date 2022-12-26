@@ -1,7 +1,7 @@
 # a2query
 
 > Apache ve Debian tabanlı işletim sistemlerinde çalışma süresi yapılandırmasını kurtar.
-> Daha fazla bilgi için: <https://manpages.debian.org/buster/apache2/a2query.1.en.html>.
+> Daha fazla bilgi için: <https://manpages.debian.org/latest/apache2/a2query.html>.
 
 - Etkinleştirilmiş Apache modüllerini sırala:
 

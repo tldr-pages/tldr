@@ -1,7 +1,7 @@
 # btrfs rescue
 
 > Essayer de récupérer un système de fichiers btrfs endommagé.
-> Plus d'informations : <https://btrfs.readthedocs.io/en/latest/btrfs-rescue.html>.
+> Plus d'informations : <https://btrfs.readthedocs.io/en/latest/btrfs-rescue.html>.
 
 - Reconstruire les méta-données du système de fichiers (très lent) :
 
