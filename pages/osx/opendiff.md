@@ -10,4 +10,4 @@
 
 - Compare two directories:
 
-`opendiff {{path/to/directrory1}} {{path/to/directory2}}`
+`opendiff {{path/to/directory1}} {{path/to/directory2}}`
