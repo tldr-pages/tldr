@@ -32,9 +32,11 @@ function upload_assets {
   cp -f "$TLDRHOME/index.json" "$SITE_HOME/assets/"
   cp -f "${TLDRHOME}/scripts/pdf/tldr-pages.pdf" "${SITE_HOME}/assets/tldr-book.pdf"
 
-  sha256sum "${SITE_HOME}/assets/${TLDR_ARCHIVE}" > "${SITE_HOME}/assets/tldr.sha256sums"
-  sha256sum "${SITE_HOME}/assets/index.json" >> "${SITE_HOME}/assets/tldr.sha256sums"
-  sha256sum "${SITE_HOME}/assets/tldr-book.pdf" >> "${SITE_HOME}/assets/tldr.sha256sums"
+  sha256sum \
+    "${SITE_HOME}/assets/${TLDR_ARCHIVE}" \
+    "${SITE_HOME}/assets/index.json" \
+    "${SITE_HOME}/assets/tldr-book.pdf" \
+    > "${SITE_HOME}/assets/tldr.sha256sums"
 
   cd "$SITE_HOME"
   git add -A
