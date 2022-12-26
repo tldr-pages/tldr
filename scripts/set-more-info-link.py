@@ -3,7 +3,6 @@
 
 import argparse
 import os
-os.environ['TLDR_ROOT'] = '/home/dharunkrishna/Downloads/tldr'
 import re
 import subprocess
 import sys
