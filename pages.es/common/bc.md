@@ -3,6 +3,14 @@
 > Un lenguaje de calculadora de precisión arbitraria.
 > Más información: <https://manned.org/man/bc.1>.
 
+- Inicia una sesión en modo interactivo
+
+`bc`
+
+- Inicia una sesión en modo interactivo with la biblioteca matemática estándar:
+
+`bc --mathlib`
+
 - Inicia `bc` en el modo interactivo utilizando la biblioteca matemática estándar:
 
 `bc -l`
