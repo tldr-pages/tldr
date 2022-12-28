@@ -12,7 +12,7 @@
 
 `gcpdiag lint --project={{gcp_project_id}} --hide-ok`
 
-- Runs gcpdiag on your project and authenticate using a service account private key file:
+- Authenticate using a service account private key file:
 
 `gcpdiag lint --project={{gcp_project_id}} --auth-key {{path/to/private_key}}`
 
