@@ -14,7 +14,7 @@
 
 - Runs gcpdiag on your project and authenticate using a service account private key file:
 
-`gcpdiag lint --project={{GCP Project ID}} --auth-key {{/path/to/private/key}}`
+`gcpdiag lint --project={{gcp_project_id}} --auth-key {{path/to/private_key}}`
 
 - Runs gcpdiag on your project, searching logs and metric from {{number}} of days back (default: 3 days):
 
