@@ -18,7 +18,7 @@
 
 - Search logs and metrics from a number of days back (default: 3 days):
 
-`gcpdiag lint --project={{GCP Project ID}} --within-days {{number}}`
+`gcpdiag lint --project={{gcp_project_id}} --within-days {{number}}`
 
 - Shows the full command options and flags of gcpdiag:
 
