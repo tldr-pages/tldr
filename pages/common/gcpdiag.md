@@ -10,7 +10,7 @@
 
 - Hide rules that are ok:
 
-`gcpdiag lint --project={{GCP Project ID}} --hide-ok`
+`gcpdiag lint --project={{gcp_project_id}} --hide-ok`
 
 - Runs gcpdiag on your project and authenticate using a service account private key file:
 
