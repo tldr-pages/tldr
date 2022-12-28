@@ -20,6 +20,6 @@
 
 `gcpdiag lint --project={{gcp_project_id}} --within-days {{number}}`
 
-- Shows the full command options and flags of gcpdiag:
+- Display help:
 
 `gcpdiag lint --help`
