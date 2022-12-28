@@ -6,7 +6,7 @@
 
 - Run `gcpdiag` on your project, returning all rules:
 
-`gcpdiag lint --project={{GCP Project ID}}`
+`gcpdiag lint --project={{gcp_project_id}}`
 
 - Runs gcpdiag on your project, hiding rules that are ok:
 
