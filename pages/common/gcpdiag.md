@@ -8,7 +8,7 @@
 
 `gcpdiag lint --project={{gcp_project_id}}`
 
-- Runs gcpdiag on your project, hiding rules that are ok:
+- Hide rules that are ok:
 
 `gcpdiag lint --project={{GCP Project ID}} --hide-ok`
 
