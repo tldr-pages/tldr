@@ -16,7 +16,7 @@
 
 `gcpdiag lint --project={{gcp_project_id}} --auth-key {{path/to/private_key}}`
 
-- Runs gcpdiag on your project, searching logs and metric from {{number}} of days back (default: 3 days):
+- Search logs and metrics from a number of days back (default: 3 days):
 
 `gcpdiag lint --project={{GCP Project ID}} --within-days {{number}}`
 
