@@ -4,7 +4,7 @@
 > Run in a docker container or in GCP Cloudshell.
 > More information: <https://github.com/GoogleCloudPlatform/gcpdiag>.
 
-- Runs gcpdiag on your project, returning all rules:
+- Run `gcpdiag` on your project, returning all rules:
 
 `gcpdiag lint --project={{GCP Project ID}}`
 
