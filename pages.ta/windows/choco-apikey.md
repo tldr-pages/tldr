@@ -1,7 +1,7 @@
 # choco-apikey
 
 > சாக்லேட்டி மூலங்களுக்கான API விசைகளை நிர்வகிக்கவும்.
-> மேலும் விவரத்திற்கு:  <https://chocolatey.org/docs/commands-apikey>.
+> மேலும் விவரத்திற்கு: <https://chocolatey.org/docs/commands-apikey>.
 
 - ஆதாரங்களின் பட்டியலையும் அவற்றின் API விசைகளையும் காட்டவும்:
 

@@ -2,7 +2,7 @@
 
 > 在您的 Linux 桌面上显示一头可爱的牛和指定的消息。
 > 牛的显示时间是固定的或则是根据文本大小计算得出的。 点击牛即马上关闭。
-> 更多信息： <https://www.doof.me.uk/xcowsay/>.
+> 更多信息：<https://www.doof.me.uk/xcowsay/>.
 
 - 显示一头说 “hello, world” 的牛：
 

@@ -1,7 +1,7 @@
 # asciinema
 
 > Registra e riproduci sessioni di terminale, condividendole opzionalmente su asciiname.org.
-> Maggiori informazioni: <https://asciinema.org/>.
+> Maggiori informazioni: <https://asciinema.org/docs/usage>.
 
 - Associa l'installazione locale di `asciiname` ad un account di asciiname.org:
 

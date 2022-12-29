@@ -2,7 +2,7 @@
 
 > 将 commits 从一个分支合并到另一个分支上。
 > 常用于跨分支的 commits 合并，在被合并分支的最头部构建新的 `commit`，表示合并完成。
-> 更多信息： <https://git-scm.com/docs/git-rebase>.
+> 更多信息：<https://git-scm.com/docs/git-rebase>.
 
 - 在另一个分支的头节点合并当前分支：
 

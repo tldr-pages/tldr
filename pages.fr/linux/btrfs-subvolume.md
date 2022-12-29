@@ -1,7 +1,7 @@
 # btrfs subvolume
 
 > Gestion des sous-volumes et instantanés btrfs.
-> Plus d'information : <https://btrfs.readthedocs.io/en/latest/btrfs-subvolume.html>.
+> Plus d'informations : <https://btrfs.readthedocs.io/en/latest/btrfs-subvolume.html>.
 
 - Créer un nouveau sous-volume vide :
 

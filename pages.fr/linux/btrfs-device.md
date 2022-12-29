@@ -1,7 +1,7 @@
 # btrfs device
 
 > Gestion des partitions dans un système de fichiers BTRFS.
-> Plus d'information : <https://btrfs.readthedocs.io/en/latest/btrfs-device.html>.
+> Plus d'informations : <https://btrfs.readthedocs.io/en/latest/btrfs-device.html>.
 
 - Ajouter un ou plusieurs périphériques à un système de fichiers btrfs :
 

@@ -2,7 +2,7 @@
 
 > Transfere dados entre o computador local e um servidor remoto.
 > Suporta a maioria dos protocolos de comunicação, incluindo HTTP, FTP e POP3.
-> Mais informações: <https://curl.se/docs/manpage.html>.
+> Mais informações: <https://curl.se>.
 
 - Descarregar os conteúdos de um URL para um arquivo:
 

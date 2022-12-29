@@ -1,7 +1,7 @@
 # asciinema
 
 > Enregistre et rejoue les sessions de terminal, et également partageable sur asciinema.org.
-> Plus d'informations : <https://asciinema.org/>.
+> Plus d'informations : <https://asciinema.org/docs/usage>.
 
 - Associe l’installation locale de `asciinema` avec un compte asciinema.org :
 

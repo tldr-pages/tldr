@@ -2,7 +2,7 @@
 
 > Éxaminer un système de fichiers btrfs pour vérifier l'intégrité de ses données.
 > Il est recommandé de faire tourner une vérification tous les mois.
-> Plus d'informations : <https://btrfs.readthedocs.io/en/latest/btrfs-scrub.html>.
+> Plus d'informations : <https://btrfs.readthedocs.io/en/latest/btrfs-scrub.html>.
 
 - Démarrer un examen :
 

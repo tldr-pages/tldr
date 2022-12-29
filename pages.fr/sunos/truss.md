@@ -2,7 +2,7 @@
 
 > Outil de dépannage pour tracer les appels système.
 > Équivalent SunOS de strace.
-> Plus d'information : <https://www.unix.com/man-page/linux/1/truss>.
+> Plus d'informations : <https://www.unix.com/man-page/linux/1/truss>.
 
 - Commencez à tracer un programme en l'exécutant, en suivant tous les processus enfants :
 
