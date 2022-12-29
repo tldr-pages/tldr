@@ -207,7 +207,7 @@ Here's an example of how the lookup should be done on `linux` having set `LANG=i
 
 ## Caching
 
-If appropriate, it is RECOMMENDED that clients implement a cache of pages. If implemented, clients MUST download the archive either from **[https://tldr.sh/assets/tldr.zip](https://tldr.sh/assets/tldr.zip)** or [https://raw.githubusercontent.com/tldr-pages/tldr-pages.github.io/master/assets/tldr.zip](https://raw.githubusercontent.com/tldr-pages/tldr-pages.github.io/master/assets/tldr.zip) (which is pointed to by the first link).
+If appropriate, it is RECOMMENDED that clients implement a cache of pages. If implemented, clients MUST download the archive either from **[https://tldr.sh/assets/tldr.zip](https://tldr.sh/assets/tldr.zip)** or [https://raw.githubusercontent.com/tldr-pages/tldr-pages.github.io/main/assets/tldr.zip](https://raw.githubusercontent.com/tldr-pages/tldr-pages.github.io/main/assets/tldr.zip) (which is pointed to by the first link).
 
 Caching SHOULD be done according to the user's language configuration (if any), as to not waste unneeded space for unused languages. Additionally, clients MAY automatically update the cache on a regular basis.
 
