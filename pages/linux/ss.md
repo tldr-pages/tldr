@@ -31,6 +31,6 @@
 
 `ss -4t src {{192.168/16}}`
 
-- Kill IPv4 / IPv6 Socket Connection with destination IP 192.168.1.17 and destination port 8080:
+- Kill IPv4 or IPv6 Socket Connection with destination IP 192.168.1.17 and destination port 8080:
 
-`ss -K dst {{192.168.1.17}} dport = {{8080}}`
+`ss --kill dst {{192.168.1.17}} dport = {{8080}}`
