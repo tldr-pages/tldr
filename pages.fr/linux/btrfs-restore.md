@@ -1,7 +1,7 @@
 # btrfs restore
 
 > Tenter de récupérer des fichiers depuis un système de fichiers btrfs endommagé.
-> Plus d'information : <https://btrfs.readthedocs.io/en/latest/btrfs-restore.html>.
+> Plus d'informations : <https://btrfs.readthedocs.io/en/latest/btrfs-restore.html>.
 
 - Restaurer tout les fichiers depuis un système de fichier btrfs vers un répertoire cible indiqué :
 

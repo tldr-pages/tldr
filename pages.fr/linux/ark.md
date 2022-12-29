@@ -1,7 +1,7 @@
 # ark
 
 > Outil d'archive de KDE.
-> Plus d'informations : <https://docks.kde.org/stable5/en/ark/ark/>.
+> Plus d'informations : <https://docs.kde.org/stable5/en/ark/ark/>.
 
 - Extrait une archive dans le répertoire courant :
 

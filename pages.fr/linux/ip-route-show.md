@@ -1,7 +1,7 @@
 # ip route show
 
 > Sous commande de gestion de l'affichage des tables de routage.
-> Plus d'information : <https://manned.org/ip-route>.
+> Plus d'informations : <https://manned.org/ip-route>.
 
 - Affiche la table de routage :
 

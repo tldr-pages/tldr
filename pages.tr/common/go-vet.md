@@ -2,7 +2,7 @@
 
 > Go kaynak kodunu kontrol et ve şüpheli yapıları bildir (örneğin Go kaynak dosyalarını tiftik et).
 > Go vet komutu eğer sorun bulunduysa sıfır olmayan bir çıkış kodu yazdırır. Eğer herhangi bir sorun bulunmadıysa sıfır çıkış kodu yazdırılır.
-> More information: <https://pkg.go.dev/cmd/vet>.
+> Daha fazla bilgi için: <https://pkg.go.dev/cmd/vet>.
 
 - Mevcut dizindeki Go paketini kontrol et:
 

@@ -1,7 +1,7 @@
 # touch
 
 > Alterar os timestamps de acesso e de modificação (atime, mtime) de um arquivo.
-> Mais informações: <https://www.gnu.org/software/coreutils/touch>.
+> Mais informações: <https://manned.org/man/freebsd-13.1/touch>.
 
 - Criar novo(s) arquivo(s) vazio(s) ou alterar os timestamps do(s) arquivo(s) para o timestamp atual:
 

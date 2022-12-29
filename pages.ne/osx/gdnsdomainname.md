@@ -1,0 +1,7 @@
+# gdnsdomainname
+
+> यो आदेश `-p linux dnsdomainname` को उपनाम हो |
+
+- मौलिक आदेशको लागि कागजात हेर्नुहोस्:
+
+`tldr -p linux dnsdomainname`

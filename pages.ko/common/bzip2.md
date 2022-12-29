@@ -1,7 +1,7 @@
 # bzip2
 
 > 블록 정렬 파일 압축기.
-> 더 많은 정보: <http://bzip.org>.
+> 더 많은 정보: <https://manned.org/bzip2>.
 
 - 파일 압축하기:
 

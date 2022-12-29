@@ -2,7 +2,7 @@
 
 > 適用於 .NET Core 的跨平台 .NET 命令列工具。
 > 此命令也有關於其子命令的文件，例如：`dotnet build`.
-> 更多資訊：<https://learn.microsoft.com/dotnet/core/tools/>.
+> 更多資訊：<https://learn.microsoft.com/dotnet/core/tools>.
 
 - 初始化一個新的 .NET 專案：
 

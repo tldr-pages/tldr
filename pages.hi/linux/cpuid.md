@@ -1,7 +1,7 @@
 # cpuid
 
 > सभी सीपीयू के बारे में विस्तृत जानकारी दिखाएं।
-> अधिक जानकारी: <http://etallen.com/cpuid.html>.
+> अधिक जानकारी: <http://etallen.com/cpuid.html>।
 
 - सभी CPU के लिए जानकारी दिखाएं:
 
