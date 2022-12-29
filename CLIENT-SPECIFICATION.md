@@ -24,7 +24,12 @@ If a page is common across multiple platforms, but slightly different on a given
 
 For example, if the command `foo` is common to `mac`, `windows`, and `linux` but functions differently on `windows`, then the main page will be stored in `common`, and a copy will be placed in `windows` that's altered to match the different functionality.
 
-Note that pages MUST NOT be created just to demonstrate another options which work exactly the same as already described in other pages. For instance it's illegal to create a page to just show `--bar` option which is an alias for `--foo`.
+Note that:
+
+- If some short option is already described the new page MUST NOT be created to demonstrate another identical short option
+- If some long option is already described the new page MUST NOT be created to demonstrate another identical long option
+
+But it's fine to create pages to show long option which can be used instead of short one.
 
 ## Command-line interface
 
