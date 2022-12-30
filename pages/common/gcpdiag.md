@@ -18,7 +18,7 @@
 
 - Search logs and metrics from a number of days back (default: 3 days):
 
-`gcpdiag lint --project="{{id}}" --within-days {{number}}`
+`gcpdiag lint --project="{{id}}" --within-days {{1..infinity}}`
 
 - Display help:
 
