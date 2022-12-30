@@ -7,10 +7,10 @@
 
 `ect {{file.png}}`
 
-- Comprimi un file con il massimo livello di compressione utilizzanto più thread:
+- Comprimi un file con il massimo livello di compressione utilizzando più thread:
 
 `ect -9 --mt-deflate {{file.png}}`
 
 - Comprimi tutti i file in una directory ricorsivamente, mantenendo la data di modifica originale:
 
-`ect -keep -recurse {{percorso/a/directory}}`
+`ect -keep -recurse {{percorso/della/directory}}`

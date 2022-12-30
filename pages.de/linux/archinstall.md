@@ -1,6 +1,6 @@
 # archinstall
 
-> Geführte Arch Linux Installation.
+> Geführte Arch Linux-Installation.
 > Weitere Informationen: <https://archinstall.readthedocs.io>.
 
 - Starte den interaktiven Installer:

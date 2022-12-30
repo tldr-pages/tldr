@@ -1,7 +1,7 @@
 # dotnet restore
 
 > Restarua las dependencias y herramientas de un proyecto .NET.
-> Más información: <https://docs.microsoft.com/dotnet/core/tools/dotnet-restore>.
+> Más información: <https://learn.microsoft.com/dotnet/core/tools/dotnet-restore>.
 
 - Restaura dependencias para un proyecto o solución .NET en el directorio actual:
 

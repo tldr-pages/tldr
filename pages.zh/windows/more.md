@@ -1,7 +1,7 @@
 # more
 
 > 分页显示标准输入或文件的输出。
-> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/more>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/more>.
 
 - 分页显示标准输入的输出：
 

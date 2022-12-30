@@ -1,7 +1,7 @@
 # airmon-ng
 
 > Kablosuz ağ cihazlarında izleme modunu etkinleştirin.
-> Daha fazla bilgi: <https://www.aircrack-ng.org/doku.php?id=airmon-ng>.
+> Daha fazla bilgi için: <https://www.aircrack-ng.org/doku.php?id=airmon-ng>.
 
 - Kablosuz cihazları ve durumlarını listeleyin:
 

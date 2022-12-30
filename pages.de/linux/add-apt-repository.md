@@ -1,6 +1,6 @@
 # add-apt-repository
 
-> Verwalte apt-Repository Definitionen.
+> Verwalte apt-Repository-Definitionen.
 > Weitere Informationen: <https://manned.org/apt-add-repository>.
 
 - Füge ein neues apt-Repository hinzu:

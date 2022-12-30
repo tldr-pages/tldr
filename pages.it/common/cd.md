@@ -5,7 +5,7 @@
 
 - Vai alla directory specificata:
 
-`cd {{percorso/a/directory}}`
+`cd {{percorso/della/directory}}`
 
 - Vai alla directory home dell'utente corrente:
 

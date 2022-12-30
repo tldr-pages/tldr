@@ -15,7 +15,7 @@
 
 `pngcheck -cvt {{image.png}}`
 
-- Receive an image from stdin and display detailed information:
+- Receive an image from `stdin` and display detailed information:
 
 `cat {{path/to/image.png}} | pngcheck -cvt`
 

@@ -1,0 +1,7 @@
+# ghostname
+
+> यो आदेश `-p linux hostname` को उपनाम हो |
+
+- मौलिक आदेशको लागि कागजात हेर्नुहोस्:
+
+`tldr -p linux hostname`

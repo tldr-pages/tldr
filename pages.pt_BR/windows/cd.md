@@ -1,7 +1,7 @@
 # cd
 
 > Exibe o nome ou altera o diretório local atual.
-> Mais informações: <https://docs.microsoft.com/windows-server/administration/windows-commands/cd>.
+> Mais informações: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
 - Vá para um diretório na mesma unidade:
 

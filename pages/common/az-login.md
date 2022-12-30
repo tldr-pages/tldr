@@ -2,7 +2,7 @@
 
 > Log in to Azure.
 > Part of `az`, the command-line client for Microsoft Azure.
-> More information: <https://docs.microsoft.com/cli/azure/reference-index#az_login>.
+> More information: <https://learn.microsoft.com/cli/azure/reference-index#az_login>.
 
 - Log in interactively:
 

@@ -1,7 +1,7 @@
 # nmcli radio
 
 > Show radio switches status or enable and disable switches.
-> See also: `nmcli agent`.
+> This subcommand can also be called with `nmcli r`.
 > More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
 - Show status of Wi-Fi in NetworkManager:

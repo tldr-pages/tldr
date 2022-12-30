@@ -1,24 +1,36 @@
 # git clone
 
-> Mengkloning repositori yang ada.
+> Klon repositori yang ada.
 > Informasi lebih lanjut: <https://git-scm.com/docs/git-clone>.
 
-- Mengkloning repositori yang ada:
+- Klon repositori yang ada:
 
 `git clone {{lokasi_repositori_remote}}`
 
-- Mengkloning reposiori yang ada dan submodulenya:
+- Klon repositori yang ada ke direktori tertentu:
+
+`git clone {{lokasi_repositori_remote}} {{jalan/menuju/direktori}}`
+
+- Klon repositori yang ada dan submodulnya:
 
 `git clone --recursive {{lokasi_repositori_remote}}`
 
-- Mengkloning repositori lokal:
+- Klon repositori lokal:
 
-`git clone -l {{alamat/ke/repository/lokal}}`
+`git clone -l {{jalan/menuju/repositori/lokal}}`
 
-- Mengkloning dengan senyap:
+- Klon dengan senyap:
 
 `git clone -q {{lokasi_repositori_remote}}`
 
-- Mengkloning repositori yang sudah ada dengan hanya mengambil 10 komit paling baru pada branch default (berguna untuk menghemat waktu):
+- Klon repositori yang sudah ada dengan hanya mengambil 10 komit paling baru pada branch bawaan (berguna untuk menghemat waktu):
 
 `git clone --depth {{10}} {{lokasi_repositori_remote}}`
+
+- Klon repositori yang sudah ada dengan hanya mengambil dari cabang tertentu:
+
+`git clone --branch {{name}} --single-branch {{lokasi_repositori_remote}}`
+
+- Klon repositori yang sudah ada menggunakan perintah SSH tertentu:
+
+`git clone --config core.sshCommand="{{ssh -i jalan/menuju/kunci_ssh_pribadi}}" {{lokasi_repositori_remote}}`

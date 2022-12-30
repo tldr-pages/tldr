@@ -9,19 +9,19 @@
 
 - Sincronizza file e directory locali su un bucket:
 
-`aws s3 sync {{percorso/ai/file}} s3://{{nome_bucket}}`
+`aws s3 sync {{percorso/dei/file}} s3://{{nome_bucket}}`
 
 - Sincronizza file e directory da un bucket in locle:
 
-`aws s3 sync s3://{{nome_bucket}} {{path/to/target}}`
+`aws s3 sync s3://{{nome_bucket}} {{percorso/del/file_o_cartella}}`
 
 - Sincronizza file e directory escludendo alcuni file o directory:
 
-`aws s3 sync {{percorso/ai/file}} s3://{{nome_bucket}} --exclude {{percorso/al/file}} --exclude {{directory}}/*`
+`aws s3 sync {{percorso/dei/file}} s3://{{nome_bucket}} --exclude {{percorso/del/file}} --exclude {{directory}}/*`
 
 - Rimuovi un file dal bucket:
 
-`aws s3 rm s3://{{bucket}}/{{percorso/al/file}}`
+`aws s3 rm s3://{{bucket}}/{{percorso/del/file}}`
 
 - Mostra solo un'anteprima dei cambiamenti:
 

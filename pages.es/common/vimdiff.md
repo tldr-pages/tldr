@@ -12,11 +12,11 @@
 
 `Ctrl + w {{h|l}}`
 
-- Salta a la siguiente diferencia:
+- Salta a la diferencia previa:
 
 `[c`
 
-- Salta a la diferencia previa:
+- Salta a la siguiente diferencia:
 
 `]c`
 

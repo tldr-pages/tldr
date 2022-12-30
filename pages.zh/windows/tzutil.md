@@ -1,7 +1,7 @@
 # tzutil
 
 > 用于显示或配置系统时区的工具。
-> 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/tzutil>.
+> 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/tzutil>.
 
 - 获取当前的时区：
 

@@ -1,7 +1,7 @@
 # git stash
 
 > Yerel Git düzenlemelerini geçici bir alanda sakla.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-stash>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-stash>.
 
 - Yeni (izlenmeyen) dosyalar hariç mevcut değişiklikleri sakla:
 

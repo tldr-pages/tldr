@@ -7,9 +7,17 @@
 
 `adb install {{path/to/file.apk}}`
 
+- Push an Android application to a specific emulator/device (overrides `$ANDROID_SERIAL`):
+
+`adb -s {{serial_number}} install {{path/to/file.apk}}`
+
 - Reinstall an existing app, keeping its data:
 
 `adb install -r {{path/to/file.apk}}`
+
+- Push an Android application allowing version code downgrade (debuggable packages only):
+
+`adb install -d {{path/to/file.apk}}`
 
 - Grant all permissions listed in the app manifest:
 

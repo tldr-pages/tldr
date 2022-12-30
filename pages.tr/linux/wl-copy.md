@@ -2,7 +2,7 @@
 
 > Wayland için pano değiştirme aracı.
 > Ayrıca bakın: `wl-paste`.
-> Daha fazla bilgi: <https://github.com/bugaevc/wl-clipboard>.
+> Daha fazla bilgi için: <https://github.com/bugaevc/wl-clipboard>.
 
 - Metni panoya kopyala:
 

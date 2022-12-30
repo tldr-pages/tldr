@@ -7,7 +7,7 @@
 
 `clamdscan {{path/to/file_or_directory}}`
 
-- Scan data from stdin:
+- Scan data from `stdin`:
 
 `{{command}} | clamdscan -`
 

@@ -1,7 +1,7 @@
 # cmstp
 
 > A command-line tool for managing connection service profiles.
-> More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/cmstp>.
+> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/cmstp>.
 
 - Install a specific profile:
 

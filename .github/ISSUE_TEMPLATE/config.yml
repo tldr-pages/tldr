@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Gitter chat
+    url: https://gitter.im/tldr-pages/tldr
+    about: You can ask and answer questions here
+  - name: Matrix Space
+    url: https://matrix.to/#/#tldr-pages:matrix.org
+    about: Matrix view of our Gitter chat rooms

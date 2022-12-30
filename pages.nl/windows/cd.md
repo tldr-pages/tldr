@@ -1,7 +1,7 @@
 # cd
 
 > Geeft de naam van de huidige werkmap weer of wijzigt deze.
-> Meer informatie: <https://docs.microsoft.com/windows-server/administration/windows-commands/cd>.
+> Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
 - Ga naar een directory in dezelfde drive:
 

@@ -41,7 +41,7 @@ Option             | Required?   | Meaning
 `-l`, `--list`     | No          | Lists all the pages in the current platform to the standard output.
 `-L`, `--language` | No          | Specifies the preferred language for the page returned. Overrides other language detection mechanisms. See the [language section](#language) for more information.
 
-Clients MAY choose to only implement the short version of an option, ignoring the long form.
+Clients MUST implement both the short and long version of an option.
 
 Additional decoration MAY be printed if the standard output is a [TTY](http://www.linusakesson.net/programming/tty/index.php). If not, then the output MUST not contain any additional decorations. For example a page list MUST be formatted with 1 page name per line (to enable easy manipulation using standard CLI tools such as `grep` etc.).
 
@@ -207,7 +207,7 @@ Here's an example of how the lookup should be done on `linux` having set `LANG=i
 
 ## Caching
 
-If appropriate, it is RECOMMENDED that clients implement a cache of pages. If implemented, clients MUST download the archive either from **[https://tldr.sh/assets/tldr.zip](https://tldr.sh/assets/tldr.zip)** or [https://raw.githubusercontent.com/tldr-pages/tldr-pages.github.io/master/assets/tldr.zip](https://raw.githubusercontent.com/tldr-pages/tldr-pages.github.io/master/assets/tldr.zip) (which is pointed to by the first link).
+If appropriate, it is RECOMMENDED that clients implement a cache of pages. If implemented, clients MUST download the archive either from **[https://tldr.sh/assets/tldr.zip](https://tldr.sh/assets/tldr.zip)** or [https://raw.githubusercontent.com/tldr-pages/tldr-pages.github.io/main/assets/tldr.zip](https://raw.githubusercontent.com/tldr-pages/tldr-pages.github.io/main/assets/tldr.zip) (which is pointed to by the first link).
 
 Caching SHOULD be done according to the user's language configuration (if any), as to not waste unneeded space for unused languages. Additionally, clients MAY automatically update the cache on a regular basis.
 
@@ -227,8 +227,9 @@ the commit hash changes when merging with squash or rebase.
 -->
 
  - Unreleased
-   -  Add recommendation to support `macos` alias for `osx` ([#7514](https://github.com/tldr-pages/tldr/pull/7514))
-   -  Drop the special "all" platform from `--list` flag ([#7561](https://github.com/tldr-pages/tldr/pull/7561))
+   - Add recommendation to support `macos` alias for `osx` ([#7514](https://github.com/tldr-pages/tldr/pull/7514))
+   - Drop the special "all" platform from `--list` flag ([#7561](https://github.com/tldr-pages/tldr/pull/7561))
+   - Require support for long options ([#9651](https://github.com/tldr-pages/tldr/pull/9651))
 
  - [v1.5, March 17th 2021](https://github.com/tldr-pages/tldr/blob/v1.5/CLIENT-SPECIFICATION.md) ([#5428](https://github.com/tldr-pages/tldr/pull/5428))
    - Add requirement for converting command names to lowercase before running the page resolution algorithm.

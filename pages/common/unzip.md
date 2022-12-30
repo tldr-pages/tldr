@@ -16,7 +16,7 @@
 
 `unzip -c {{path/to/archive1.zip path/to/archive2.zip ...}}`
 
-- Extract files/directories from archives created on Windows containing non-ASCII file names:
+- Extract the contents of the file(s) to `stdout` alongside the extracted file names:
 
 `unzip -O {{gbk}} {{path/to/archive1.zip path/to/archive2.zip ...}}`
 

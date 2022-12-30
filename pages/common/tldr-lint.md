@@ -7,7 +7,7 @@
 
 `tldr-lint {{pages_directory}}`
 
-- Format a specific page to stdout:
+- Format a specific page to `stdout`:
 
 `tldr-lint --format {{page.md}}`
 

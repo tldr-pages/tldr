@@ -2,7 +2,7 @@
 
 > Programma cron job per essere eseguiti a determinati intervalli di tempo per l'utente corrente.
 > Formato definizione di un job: "(minuto) (ora) (giorno_del_mese) (mese) (giorno_della_settimana) comando_da_eseguire".
-> Maggiori informazioni: <https://manned.org/crontab>.
+> Maggiori informazioni: <https://crontab.guru/>.
 
 - Modifica il file crontab per l'utente corrente:
 
@@ -26,4 +26,4 @@
 
 - Esempio di un job che esegue un determinato script alle 02:30 ogni venerdì:
 
-`30 2 * * Fri {{/percorso/assoluto/allo/script.sh}}`
+`30 2 * * Fri {{/percorso/assoluto/dello/script.sh}}`

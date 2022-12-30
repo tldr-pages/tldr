@@ -1,7 +1,7 @@
 # dir
 
 > 列出目錄的內容。
-> 更多資訊：<https://docs.microsoft.com/windows-server/administration/windows-commands/dir>.
+> 更多資訊：<https://learn.microsoft.com/windows-server/administration/windows-commands/dir>.
 
 - 顯示當前目錄的內容：
 

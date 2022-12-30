@@ -1,7 +1,7 @@
 # getprop
 
 > Android sistem özellikleri ile ilgili bilgi görüntüle.
-> Daha fazla bilgi: <https://manned.org/getprop>.
+> Daha fazla bilgi için: <https://manned.org/getprop>.
 
 - Android sistem özellikleri ile ilgili bilgi görüntüle:
 

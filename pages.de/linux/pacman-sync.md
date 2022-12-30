@@ -15,7 +15,7 @@
 
 `sudo pacman --sync --refresh --sysupgrade --noconfirm {{paketname}}`
 
-- Suche in der Paketdatenbank mit einem regulärem Ausdruck oder Schlüsselwort:
+- Suche in der Paketdatenbank mit einem regulären Ausdruck oder Schlüsselwort:
 
 `pacman --sync --search "{{suchmuster}}"`
 

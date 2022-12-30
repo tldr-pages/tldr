@@ -3,23 +3,23 @@
 > A command-line JSON processor using Python syntax.
 > More information: <https://github.com/kellyjonbrazil/jello>.
 
-- Pretty-print JSON or JSON-Lines data from stdin to stdout:
+- Pretty-print JSON or JSON-Lines data from `stdin` to `stdout`:
 
 `cat {{file.json}} | jello`
 
-- Output a schema of JSON or JSON Lines data from stdin to stdout (useful for grep):
+- Output a schema of JSON or JSON Lines data from `stdin` to `stdout` (useful for grep):
 
 `cat {{file.json}} | jello -s`
 
-- Output all elements from arrays (or all the values from objects) in JSON or JSON-Lines data from stdin to stdout:
+- Output all elements from arrays (or all the values from objects) in JSON or JSON-Lines data from `stdin` to `stdout`:
 
 `cat {{file.json}} | jello -l`
 
-- Output the first element in JSON or JSON-Lines data from stdin to stdout:
+- Output the first element in JSON or JSON-Lines data from `stdin` to `stdout`:
 
 `cat {{file.json}} | jello _[0]`
 
-- Output the value of a given key of each element in JSON or JSON-Lines data from stdin to stdout:
+- Output the value of a given key of each element in JSON or JSON-Lines data from `stdin` to `stdout`:
 
 `cat {{file.json}} | jello '[i.{{key_name}} for i in _]'`
 

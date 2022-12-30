@@ -34,3 +34,13 @@ h1, h2, h4, ul {
     margin-top: 8.2em;
     font-size: 300%;
 }
+
+/*
+The same is to have this look like a H1 tag, but we want the H2 tag so the
+bookmarks list makes sense.
+*/
+h2.title-page {
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+}

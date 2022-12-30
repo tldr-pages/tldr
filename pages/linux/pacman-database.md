@@ -4,10 +4,6 @@
 > Modify certain attributes of the installed packages.
 > More information: <https://man.archlinux.org/man/pacman.8>.
 
-- Display help:
-
-`pacman --database --help`
-
 - Mark a package as implicitly installed:
 
 `sudo pacman --database --asdeps {{package_name}}`
@@ -27,3 +23,7 @@
 - Display only error messages:
 
 `pacman --database --check --quiet`
+
+- Display help:
+
+`pacman --database --help`

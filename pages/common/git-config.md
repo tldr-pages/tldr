@@ -12,9 +12,9 @@
 
 `git config --list --global`
 
-- List all configuration entries that have been defined either locally or globally:
+- List only system configuration entries (stored in `/etc/gitconfig`), and show their file location:
 
-`git config --list`
+`git config --list --system --show-origin`
 
 - Get the value of a given configuration entry:
 

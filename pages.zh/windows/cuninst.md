@@ -1,6 +1,7 @@
 # cuninst
 
 > 这是 `choco uninstall` 命令的一个别名。
+> 更多信息：<https://docs.chocolatey.org/en-us/choco/commands/uninstall>.
 
 - 原命令的文档在：
 

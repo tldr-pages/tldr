@@ -1,0 +1,7 @@
+# gtac
+
+> Ova komanda je pseudonim za `-p linux tac`.
+
+- Pogledaj dokumentaciju za izvornu komandu:
+
+`tldr -p linux tac`

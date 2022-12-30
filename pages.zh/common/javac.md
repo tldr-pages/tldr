@@ -1,7 +1,7 @@
 # javac
 
 > Java 程序编译器。
-> 更多信息：<https://docs.oracle.com/en/java/javase/17/docs/specs/man/javac.html>.
+> 更多信息：<https://docs.oracle.com/en/java/javase/19/docs/specs/man/javac.html>.
 
 - 编译一个 `.java` 文件：
 
@@ -17,4 +17,4 @@
 
 - 编译一个 `.java` 文件并将生成的 class 字节码文件放入一个指定目录：
 
-`javac -d {{输出目录}} {{文件名.java}}`
+`javac -d {{路径/到/目录}} {{文件名.java}}`

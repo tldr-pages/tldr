@@ -1,7 +1,7 @@
 # dotnet publish
 
 > Публикует .NET-приложение и его зависимости в папку для развёртываения на целевой системе.
-> Больше информации: <https://docs.microsoft.com/dotnet/core/tools/dotnet-publish>.
+> Больше информации: <https://learn.microsoft.com/dotnet/core/tools/dotnet-publish>.
 
 - Скомпилировать проект .NET в режиме release:
 

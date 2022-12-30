@@ -1,6 +1,7 @@
 # waitress-serve
 
 > Pure Python WSGI HTTP Server.
+> More information: <https://docs.pylonsproject.org/projects/waitress/en/latest/runner.html>.
 
 - Run a Python web app:
 

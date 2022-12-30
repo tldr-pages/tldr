@@ -1,7 +1,7 @@
 # asciinema
 
 > Neemt en speelt terminal sessies af, en deelt hem optioneel op asciinema.org.
-> Meer informatie: <https://asciinema.org/>.
+> Meer informatie: <https://asciinema.org/docs/usage>.
 
 - Associeer de lokale installatie van `asciinema` met het asciinema.org account:
 
