@@ -5,7 +5,7 @@
 
 - Save the current screen layout:
 
-`autorandr -s {{profile_name}}`
+`autorandr --save {{profile_name}}`
 
 - Show the saved profiles:
 
@@ -21,4 +21,4 @@
 
 - Set the default profile:
 
-`autorandr -d {{profile_name}}`
+`autorandr --default {{profile_name}}`
