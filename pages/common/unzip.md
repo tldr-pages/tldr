@@ -1,24 +1,24 @@
 # unzip
 
-> Extract compressed files/directories from .zip archives.
+> Extract files/directories from ZIP archives.
 > See also: `zip`.
 > More information: <https://manned.org/unzip>.
 
 - Extract all files/directories from specific archives into the current directory:
 
-`unzip {{path/to/archive1 path/to/archive2 ...}}`
+`unzip {{path/to/archive1.zip path/to/archive2.zip ...}}`
 
 - Extract files/directories from archives to a specific path:
 
-`unzip {{path/to/archive1 path/to/archive2 ...}} -d {{path/to/output}}`
+`unzip {{path/to/archive1.zip path/to/archive2.zip ...}} -d {{path/to/output}}`
 
 - Extract files/directories from archives to `stdout`:
 
-`unzip -c {{path/to/archive1 path/to/archive2 ...}}`
+`unzip -c {{path/to/archive1.zip path/to/archive2.zip ...}}`
 
 - Extract files/directories from archives created on Windows containing non-ASCII file names:
 
-`unzip -O {{gbk}} {{path/to/archive1 path/to/archive2 ...}}`
+`unzip -O {{gbk}} {{path/to/archive1.zip path/to/archive2.zip ...}}`
 
 - List the contents of a specific archive without extracting them:
 
