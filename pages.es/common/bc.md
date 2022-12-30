@@ -13,7 +13,7 @@
 
 - Inicia `bc` en el modo interactivo utilizando la biblioteca matemática estándar:
 
-`bc -l`
+`bc --mathlib`
 
 - Calcula el resultado de una expresión:
 
