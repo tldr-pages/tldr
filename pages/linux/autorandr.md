@@ -17,7 +17,7 @@
 
 - Load a specific profile:
 
-`autorandr -l {{profile_name}}`
+`autorandr --load {{profile_name}}`
 
 - Set the default profile:
 
