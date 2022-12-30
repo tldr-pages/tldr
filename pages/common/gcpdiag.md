@@ -4,21 +4,21 @@
 > Run in a docker container or in GCP Cloudshell.
 > More information: <https://github.com/GoogleCloudPlatform/gcpdiag>.
 
-- Run `gcpdiag` on your project, returning all rules:
+- Run `gcpdiag` on specific project, returning all rules:
 
-`gcpdiag lint --project={{gcp_project_id}}`
+`gcpdiag lint --project="{{id}}"`
 
 - Hide rules that are ok:
 
-`gcpdiag lint --project={{gcp_project_id}} --hide-ok`
+`gcpdiag lint --project="{{id}}" --hide-ok`
 
-- Authenticate using a service account private key file:
+- Authenticate using a specific service account private key file:
 
-`gcpdiag lint --project={{gcp_project_id}} --auth-key {{path/to/private_key}}`
+`gcpdiag lint --project="{{id}}" --auth-key {{path/to/private_key}}`
 
 - Search logs and metrics from a number of days back (default: 3 days):
 
-`gcpdiag lint --project={{gcp_project_id}} --within-days {{number}}`
+`gcpdiag lint --project="{{id}}" --within-days {{number}}`
 
 - Display help:
 
