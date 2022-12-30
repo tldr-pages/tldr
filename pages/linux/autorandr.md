@@ -13,7 +13,7 @@
 
 - Load the first detected profile:
 
-`autorandr -c`
+`autorandr --change`
 
 - Load a specific profile:
 
