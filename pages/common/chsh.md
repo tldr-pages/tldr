@@ -15,6 +15,6 @@
 
 `chsh -s {{path/to/shell}} {{username}}`
 
-- List available shells:
+- [l]ist available shells:
 
-`chsh --list-shells`
+`chsh -l`
