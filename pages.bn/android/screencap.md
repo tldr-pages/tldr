@@ -6,4 +6,4 @@
 
 - একটি স্ক্রিনশট নিন:
 
-`screencap {{path/to/file}}`
+`screencap {{ফাইলের/পথ}}`

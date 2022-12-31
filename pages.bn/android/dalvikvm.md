@@ -5,4 +5,4 @@
 
 - একটি নির্দিষ্ট জাভা প্রোগ্রাম শুরু করুন:
 
-`dalvikvm -classpath {{path/to/file.jar}} {{classname}}`
+`dalvikvm -classpath {{ফাইল.jar/এর/পথ}} {{ক্লাসের নাম}}`
