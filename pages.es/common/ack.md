@@ -6,7 +6,7 @@
 
 - Busca archivos que contengan una cadena o expresión regular en el directorio actual de forma recursiva:
 
-`ack "{{search_pattern}}"`
+`ack "{{patrón_de_búsqueda}}"`
 
 - Buscar de un patrón sin distinción entre mayúsculas y minúsculas:
 
