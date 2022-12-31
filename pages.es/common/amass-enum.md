@@ -11,7 +11,7 @@
 
 `amass enum -active -d {{nombre_de_dominio}} -p {{80,443,8080}}`
 
-- Hacer una búsqueda en su modalidad fuerza bruta de subdominios:
+- Hace una búsqueda en su modalidad fuerza bruta de subdominios:
 
 `amass enum -brute -d {{nombre_de_dominio}}`
 
