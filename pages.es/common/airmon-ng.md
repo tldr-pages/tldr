@@ -1,14 +1,14 @@
 # airmon-ng
 
-> Activar el modo monitor en dispositivos de red inalámbricos.
-> Parte ode `aircrack-ng`.
+> Activa el modo monitor en dispositivos de red inalámbricos.
+> Parte de `aircrack-ng`.
 > Más información: <https://www.aircrack-ng.org/doku.php?id=airmon-ng>.
 
-- Lista de dispositivos inalámbricos y sus estados:
+- Lista dispositivos inalámbricos y sus estados:
 
 `sudo airmon-ng`
 
-- Activar el modo monitor para un dispositivo específico:
+- Activa el modo monitor para un dispositivo específico:
 
 `sudo airmon-ng start {{wlan0}}`
 
