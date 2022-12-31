@@ -13,7 +13,7 @@
 
 `npm create vite@latest my-react-app -- --template react-ts`
 
-- Setup using  yarn:
+- Setup using yarn:
 
 `yarn create vite my-react-app --template react-ts`
 
