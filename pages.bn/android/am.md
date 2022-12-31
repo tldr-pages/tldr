@@ -18,4 +18,3 @@
 - একটি উদ্দেশ্যকে একটি URI-তে রূপান্তর করুন:
 
 `am to-uri -a {{android.intent.action.VIEW}} -d {{tel:123}}`
-

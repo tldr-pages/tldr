@@ -18,4 +18,3 @@
 - একটি নির্দিষ্ট সেটিং মুছুন:
 
 `settings delete {{secure}} {{screensaver_enabled}}`
-
