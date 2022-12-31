@@ -18,4 +18,4 @@
 
 - Analiza todos los archivos Markdown excepto `ejemplo.md`.:
 
-`alex *.md !{{ejemplo.md}}`
+`alex *.md !{{ruta/hacia/ejemplo.md}}`
