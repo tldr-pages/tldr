@@ -10,7 +10,7 @@
 
 - Buscar de un patrón sin distinción entre mayúsculas y minúsculas:
 
-`ack --ignore-case "{{search_pattern}}"`
+`ack --ignore-case "{{patrón_de_búsqueda}}"`
 
 - Buscar líneas que coincidan con un patrón, imprimiendo s[o]lamente el texto coincidente y no el resto de la línea:
 
