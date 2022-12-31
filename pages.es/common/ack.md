@@ -22,7 +22,7 @@
 
 - No buscar en archivos dado un tipo específico:
 
-`ack --type=no{{ruby}} "{{search_pattern}}"`
+`ack --type=no{{ruby}} "{{patrón_de_búsqueda}}"`
 
 - Contar el número total de coincidencias encontradas:
 
