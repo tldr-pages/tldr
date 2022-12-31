@@ -13,7 +13,7 @@
 
 - Envía un archivo:
 
-`airpaste < {{ruta/a/archivo}}`
+`airpaste < {{ruta/al/archivo}}`
 
 - Recibe un archivo:
 
