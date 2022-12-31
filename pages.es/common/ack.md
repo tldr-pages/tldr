@@ -8,7 +8,7 @@
 
 `ack "{{patrón_de_búsqueda}}"`
 
-- Buscar de un patrón sin distinción entre mayúsculas y minúsculas:
+- Busca un patrón sin distinción entre mayúsculas y minúsculas:
 
 `ack --ignore-case "{{patrón_de_búsqueda}}"`
 
