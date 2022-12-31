@@ -30,7 +30,7 @@
 
 - Imprime sólo los nombres de los ficheros y el número de coincidencias de cada fichero:
 
-`ack --count --files-with-matches "{{search_pattern}}"`
+`ack --count --files-with-matches "{{patrón_de_búsqueda}}"`
 
 - Lista de todos los valores que se pueden utilizar con `--type`.:
 
