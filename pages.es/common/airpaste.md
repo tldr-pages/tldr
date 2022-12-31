@@ -17,7 +17,7 @@
 
 - Recibe un archivo:
 
-`airpaste > {{ruta/a/archivo}}`
+`airpaste > {{ruta/al/archivo}}`
 
 - Crea un canal o se une al mismo:
 
