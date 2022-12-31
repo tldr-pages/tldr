@@ -14,7 +14,7 @@
 
 - Buscar líneas que coincidan con un patrón, imprimiendo s[o]lamente el texto coincidente y no el resto de la línea:
 
-`ack -o "{{search_pattern}}"`
+`ack -o "{{patrón_de_búsqueda}}"`
 
 - Limitar la búsqueda a archivos de un tipo específico:
 
