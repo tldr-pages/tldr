@@ -9,7 +9,7 @@
 
 - Lee JSON de `stdin` y ejecuta una expresión JSONPath especificada:
 
-`cat {{path/to/file.json}} | ajson '{{$..json[?(@.path)]}}'`
+`cat {{ruta/al/archivo.json}} | ajson '{{$..json[?(@.path)]}}'`
 
 - Lee JSON de una URL y evalúa una expresión JSONPath especificada:
 
