@@ -16,7 +16,7 @@
 
 `ack -o "{{patrón_de_búsqueda}}"`
 
-- Limitar la búsqueda a archivos de un tipo específico:
+- Limita la búsqueda a archivos de un tipo específico:
 
 `ack --type={{ruby}} "{{patrón_de_búsqueda}}"`
 
