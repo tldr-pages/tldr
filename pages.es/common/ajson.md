@@ -5,7 +5,7 @@
 
 - Lee JSON de un archivo y ejecuta una expresión JSONPath especificada:
 
-`ajson '{{$..json[?(@.path)]}}' {{ruta/a/archivo.json}}`
+`ajson '{{$..json[?(@.path)]}}' {{ruta/al/archivo.json}}`
 
 - Lee JSON de `stdin` y ejecuta una expresión JSONPath especificada:
 
