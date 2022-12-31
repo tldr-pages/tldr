@@ -5,7 +5,7 @@
 
 - Compilar un archivo en un archivo objeto:
 
-`adscript --output {{path/to/file.o}} {{path/to/input_file.adscript}}`
+`adscript --output {{ruta/al/archivo.o}} {{ruta/al/archivo_de_entrada.adscript}}`
 
 - Compilar y vincular un archivo a un ejecutable independiente:
 
