@@ -12,7 +12,7 @@
 
 `ack --ignore-case "{{patrón_de_búsqueda}}"`
 
-- Buscar líneas que coincidan con un patrón, imprimiendo s[o]lamente el texto coincidente y no el resto de la línea:
+- Busca líneas que coincidan con un patrón, imprimiendo s[o]lamente el texto coincidente y no el resto de la línea:
 
 `ack -o "{{patrón_de_búsqueda}}"`
 
