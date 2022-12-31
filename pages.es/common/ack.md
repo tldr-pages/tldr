@@ -26,7 +26,7 @@
 
 - Contar el número total de coincidencias encontradas:
 
-`ack --count --no-filename "{{search_pattern}}"`
+`ack --count --no-filename "{{patrón_de_búsqueda}}"`
 
 - Imprime sólo los nombres de los ficheros y el número de coincidencias de cada fichero:
 
