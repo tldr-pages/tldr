@@ -32,6 +32,6 @@
 
 `ack --count --files-with-matches "{{patrón_de_búsqueda}}"`
 
-- Lista de todos los valores que se pueden utilizar con `--type`:
+- Lista todos los valores que se pueden utilizar con `--type`:
 
 `ack --help-types`
