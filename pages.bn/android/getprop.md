@@ -30,4 +30,3 @@
 - Android এর Wi-Fi কার্ডের MAC ঠিকানা প্রদর্শন করুন:
 
 `getprop {{ro.boot.wifimacaddr}}`
-
