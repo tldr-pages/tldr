@@ -24,7 +24,7 @@
 
 `ack --type=no{{ruby}} "{{patrón_de_búsqueda}}"`
 
-- Contar el número total de coincidencias encontradas:
+- Cuenta el número total de coincidencias encontradas:
 
 `ack --count --no-filename "{{patrón_de_búsqueda}}"`
 
