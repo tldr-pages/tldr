@@ -14,7 +14,7 @@
 
 - Analiza un archivo dado:
 
-`alex {{archivotexto.md}}`
+`alex {{ruta/al/archivo_de_texto.md}}`
 
 - Analiza todos los archivos Markdown excepto `ejemplo.md`.:
 
