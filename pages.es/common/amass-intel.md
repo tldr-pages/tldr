@@ -15,7 +15,7 @@
 
 `amass intel -whois -d {{nombre_de_dominio}}`
 
-- Busca ASNs pertenecientes a una organización:
+- Encuentre ASN pertenecientes a una organización específica:
 
 `amass intel -org {{nombre_de_organizacion}}`
 
