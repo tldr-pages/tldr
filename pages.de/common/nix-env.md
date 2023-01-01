@@ -3,34 +3,34 @@
 > Manipulieren oder Abfragen von Nix-Benutzerumgebungen.
 > Weitere Informationen: <https://nixos.org/manual/nix/stable/#sec-nix-env>.
 
-- Alle installierten Pakete auflisten:
+- Liste alle installierten Pakete auf:
 
 `nix-env -q`
 
-- Installierte Pakete abfragen:
+- Frage installierte Pakete ab:
 
 `nix-env -q {{suchbegriff}}`
 
-- Verfügbare Pakete abfragen:
+- Frage verfügbare Pakete ab:
 
 `nix-env -qa {{suchbegriff}}`
 
-- Paket installieren:
+- Installiere Paket:
 
 `nix-env -iA nixpkgs.{{paket_name}}`
 
-- Installieren eines Pakets von einer URL:
+- Installiere ein Paket von einer URL:
 
 `nix-env -i {{paket_name}} --datei {{beispiel.com}}`
 
-- Paket deinstallieren:
+- Deinstalliere Paket:
 
 `nix-env -e {{paket_name}}`
 
-- Upgrade eines Pakets:
+- Upgrade ein Pakets:
 
 `nix-env -u {{paket_name}}`
 
-- Alle Pakete aktualisieren:
+- Upgrade alle Pakete:
 
 `nix-env -u`
