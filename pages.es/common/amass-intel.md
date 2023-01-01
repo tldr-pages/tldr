@@ -19,9 +19,9 @@
 
 `amass intel -org {{nombre_de_organizacion}}`
 
-- Busca dominios raíz pertenecientes a un determinado número de sistemas autónomos:
+- Encuentre dominios raíz pertenecientes a un Número de Sistema Autónomo específico:
 
-`amass intel -asn {{asn}}`
+`amass intel -asn {{string}}`
 
 - Guarda los resultados en un archivo de texto:
 
