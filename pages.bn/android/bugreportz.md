@@ -8,11 +8,11 @@
 
 `bugreportz`
 
-- চলমান `bugreportz` অপারেশনের অগ্রগতি দেখান:
+- চলমান অপারেশনের অগ্রগতি দেখুন:
 
 `bugreportz -p`
 
-- `bugreportz` এর সংস্করণ দেখান:
+- সংস্করণ দেখুন:
 
 `bugreportz -v`
 

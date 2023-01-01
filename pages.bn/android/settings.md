@@ -11,9 +11,9 @@
 
 `settings get {{global}} {{airplane_mode_on}}`
 
-- একটি সেটিং এর মান সেট করুন:
+- একটি সেটিং এর একটি নির্দিষ্ট মান সেট করুন:
 
-`settings put {{system}} {{screen_brightness}} {{42}}`
+`settings put {{system}} {{screen_brightness}} {{1..100}}`
 
 - একটি নির্দিষ্ট সেটিং মুছুন:
 
