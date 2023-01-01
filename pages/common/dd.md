@@ -9,23 +9,23 @@
 
 - Clone a drive to another drive with 4 MiB block and ignore error:
 
-`dd if=/dev/{{source_drive}} of=/dev/{{dest_drive}} bs=4194304 conv=noerror`
+`dd if=/dev/{{source_drive}} of=/dev/{{dest_drive}} bs={{4194304}} conv={{noerror}}`
 
 - Generate a file of 100 random bytes by using kernel random driver:
 
-`dd if=/dev/urandom of={{path/to/random_file}} bs=100 count=1`
+`dd if=/dev/urandom of={{path/to/random_file}} bs={{100}} count={{1}}`
 
 - Benchmark the write performance of a disk:
 
-`dd if=/dev/zero of={{path/to/file_1GB}} bs=1024 count=1000000`
+`dd if=/dev/zero of={{path/to/file_1GB}} bs={{1024}} count={{1000000}}`
 
 - Generate a system backup into an IMG file:
 
-`dd if=/dev/{{drive_device}} of={{path/to/file.img}}`
+`dd if={{/dev/drive_device}} of={{path/to/file.img}}`
 
 - Restore a drive from an IMG file:
 
-`dd if={{path/to/file.img}} of=/dev/{{drive_device}}`
+`dd if={{path/to/file.img}} of={{/dev/drive_device}}`
 
 - Check the progress of an ongoing dd operation (run this command from another shell):
 
