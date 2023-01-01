@@ -1,15 +1,15 @@
 # dd
 
 > Convert and copy a file.
-> More information: <https://keith.github.io/xcode-man-pages/dd.1.html>.
+> More information: <https://www.gnu.org/software/coreutils/dd>.
 
 - Make a bootable USB drive from an isohybrid file (such like `archlinux-xxx.iso`) and show the progress:
 
 `dd if={{path/to/file.iso}} of={{/dev/usb_drive}} status=progress`
 
-- Clone a drive to another drive with 4 MB block, ignore error and show the progress:
+- Clone a drive to another drive with 4 MiB block, ignore error and show the progress:
 
-`dd if={{/dev/source_drive}} of={{/dev/dest_drive}} bs={{4m}} conv={{noerror}} status=progress`
+`dd if={{/dev/source_drive}} of={{/dev/dest_drive}} bs={{4M}} conv={{noerror}} status=progress`
 
 - Generate a file of 100 random bytes by using kernel random driver:
 
@@ -21,7 +21,7 @@
 
 - Generate a system backup into an IMG file and show the progress:
 
-`dd if=/dev/{{drive_device}} of={{path/to/file.img}} status=progress`
+`dd if={{/dev/drive_device}} of={{path/to/file.img}} status=progress`
 
 - Restore a drive from an IMG file and show the progress:
 
