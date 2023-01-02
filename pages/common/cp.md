@@ -26,3 +26,7 @@
 - Follow symbolic links before copying:
 
 `cp -L {{link}} {{path/to/target_directory}}`
+
+- Use first argument as the destination directory (usefull for `xargs ... | cp -t <DEST_DIR>`)
+
+`cp -t {{target_directory}} {{dir1}} {{dir2}} {{dir3}}`
