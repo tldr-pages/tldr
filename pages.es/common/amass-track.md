@@ -3,7 +3,7 @@
 > Seguimiento de las diferencias entre enumeraciones del mismo dominio.
 > Más información: <https://github.com/OWASP/Amass/blob/master/doc/user_guide.md#the-track-subcommand>.
 
-- Mostrar la diferencia entre las últimas enumeraciones de un dominio específico:
+- Muestra la diferencia entre las últimas enumeraciones de un dominio específico:
 
 `amass track -dir {{ruta/a/directorio_de_base_de_datos}} -d {{nombre_dominio}} -last {{1..infinity}}`
 
