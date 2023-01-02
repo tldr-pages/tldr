@@ -11,7 +11,7 @@
 
 `java_home --arch {{i386}}`
 
-- List JVMs based on a specific tasks (default: `CommandLine`):
+- List JVMs based on a specific tasks (defaults to `CommandLine`):
 
 `java_home --datamodel {{Applets|WebStart|BundledApp|JNI|CommandLine}}`
 
