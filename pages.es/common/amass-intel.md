@@ -19,7 +19,7 @@
 
 `amass intel -org {{nombre_de_organizacion}}`
 
-- Encuentre dominios raíz pertenecientes a un Número de Sistema Autónomo específico:
+- Encuentra dominios raíz pertenecientes a un Número de Sistema Autónomo específico:
 
 `amass intel -asn {{string}}`
 
