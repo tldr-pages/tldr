@@ -11,7 +11,7 @@
 
 `amass intel -active -addr {{192.168.0.1-254}}`
 
-- Encuentre dominios raíz relacionados con un dominio específico:
+- Encuentra dominios raíz relacionados con un dominio específico:
 
 `amass intel -whois -d {{nombre_de_dominio}}`
 
