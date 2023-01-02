@@ -23,6 +23,6 @@
 
 `amass intel -asn {{string}}`
 
-- Guarde los resultados en un archivo de texto específico:
+- Guarda los resultados en un archivo de texto específico:
 
 `amass intel -o {{ruta/al/archivo_de_salida}} -whois -d {{nombre_de_dominio}}`
