@@ -7,7 +7,7 @@
 
 `amass intel -addr {{192.168.0.1-254}}`
 
-- Utiliza métodos activos de reconocimiento:
+- Usa métodos activos de reconocimiento:
 
 `amass intel -active -addr {{192.168.0.1-254}}`
 
