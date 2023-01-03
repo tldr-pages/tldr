@@ -117,23 +117,19 @@ in order to allow `tldr` clients to highlight them.
 Keep the following guidelines in mind when choosing placeholders:
 
 ### Naming
+
 - Use short but descriptive placeholders,
   such as `{{path/to/source_file}}` or `{{path/to/wallet.txt}}`.
 - Use [`snake_case`](https://wikipedia.org/wiki/snake_case) for multi-word placeholders.
-- Use a generic placeholder rather than an actual value where a generic placeholder
-  is available (but there is an exception, listed below). For example, use
+- Use a generic placeholder rather than an actual value where a generic placeholder is available (but there is an exception to this listed below). For example, use
   `iostat {{1..infinity}}` rather than `iostat {{2}}`.
-  But if there are several consequtive placeholders of the same type
-  which don't allow to add arbitraty text in them (ranges) than instead of generic
-  placeholders use descriptive ones. For example prefer `input swipe {{x_position}} {{y_position}} {{x_position}} {{y_position}} {{seconds}}`
+ - If there are several consecutive placeholders of the same type
+  which don't allow adding arbitrary text in them (ranges), then instead of generic placeholders use descriptive ones. For example prefer `input swipe {{x_position}} {{y_position}} {{x_position}} {{y_position}} {{seconds}}`
   instead of `input swipe {{-infinity..infinity}} {{-infinity..infinity}} {{-infinity..infinity}} {{-infinity..infinity}} {{1..infinity}}`.
-  In other words: more placeholders are shown more focus should be moved to what
-  value actually is but not what it can be.
 
-## Range syntax
+### Range syntax
 
-All borders of integer and float ranges are included. If you wanna exclude
-one border then use incremented or decremented values to do it:
+All borders of integer and float ranges get included. If you want to exclude the border, then use incremented or decremented values to do it:
 `{{1..5}}` == `[1-6)`.
 
 - Use `{{from..to}}` syntax for closed ranges.
@@ -142,6 +138,7 @@ one border then use incremented or decremented values to do it:
 - Use `{{float}}` syntax for values where any float is valid.
 
 ### Paths
+
 - Use `{{filename}}` when just file name is expected.
 - For any reference to paths of files or directories,
   use the format `{{path/to/<placeholder>}}`,
@@ -183,13 +180,13 @@ Use backticks on the following:
 
 ## Imperative Mood
 
-Example descriptions have to be phrased in imperative mood.  
-For example, use `List all files`, instead of `Listing all files` or `File listing`.  
-This also applies to all translations by default, unless otherwise specified in the language-specific section below.  
+- Example descriptions have to be phrased in imperative mood.
+- For example, use `List all files`, instead of `Listing all files` or `File listing`.
+- This also applies to all translations by default, unless otherwise specified in the language-specific section below.
 
 ## Serial Comma
 
-When declaring a list of 3 or more items,
+- When declaring a list of 3 or more items,
 use a [serial comma](https://en.wikipedia.org/wiki/Serial_comma),
 also known as the Oxford comma,
 since omitting it can create ambiguity.
