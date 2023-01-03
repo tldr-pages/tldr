@@ -109,6 +109,17 @@ Example:
 - Use GNU-style **long options** (like `--help` rather than `-h`) when they are cross-platform compatible (intended to work the same across multiple platforms).
 - In other cases use short options (like `-h`).
 
+## Range syntax
+
+All borders of integer and float ranges are included. If you wanna exclude
+one border then use incremented or decremented values to do it:
+`{{1..5}}` == `[1-6)`.
+
+- Use `{{from..to}}` syntax for closed ranges.
+- Use `{{-infinity..to}}` or `{{from..infinity}}` syntax for integer partially closed ranges.
+- Use `{{integer}}` syntax for values where any integer is valid.
+- Use `{{float}}` syntax for values where any float is valid.
+
 ## Placeholder syntax
 
 User-provided values should use the `{{placeholder}}` syntax
