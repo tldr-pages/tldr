@@ -8,14 +8,14 @@
 
 `bugreportz`
 
-- Show the progress of a running `bugreportz` operation:
+- Display the [p]rogress of a running operation:
 
 `bugreportz -p`
 
-- Show the version of `bugreportz`:
+- Display [v]ersion:
 
 `bugreportz -v`
 
-- Display help:
+- Display [h]elp:
 
 `bugreportz -h`
