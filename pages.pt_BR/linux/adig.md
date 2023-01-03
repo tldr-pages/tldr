@@ -11,7 +11,7 @@
 
 `adig -d {{examplo.com}}`
 
-- Conecta ao servidor DNS [e]specificado:
+- Conecte-se a um servidor DNS específico:
 
 `adig -s {{1.2.3.4}} {{examplo.com}}`
 
